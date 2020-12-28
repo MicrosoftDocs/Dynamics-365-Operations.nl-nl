@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018555"
+ms.locfileid: "4425866"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Problemen met inkooporders oplossen
 
@@ -34,7 +34,7 @@ In dit onderwerp wordt beschreven hoe u problemen kunt oplossen die kunnen optre
 
 Dit probleem kan optreden vanwege inconsistenties in inkooporderdistributies.
 
-Als u dit probleem wilt verhelpen en de inkooporder wilt terugzetten op de status *Concept* , gaat u naar **Inkoopbeheer \> Periodieke taken \> Opschonen \> Distributie van inkooporder opnieuw instellen**. Zie het volgende blogbericht voor meer informatie: [Fouten met IO-distributie in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/) oplossen.
+Als u dit probleem wilt verhelpen en de inkooporder wilt terugzetten op de status *Concept*, gaat u naar **Inkoopbeheer \> Periodieke taken \> Opschonen \> Distributie van inkooporder opnieuw instellen**. Zie het volgende blogbericht voor meer informatie: [Fouten met IO-distributie in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/) oplossen.
 
 ## <a name="when-purchase-orders-are-imported-through-data-management-purchase-order-line-numbers-dont-follow-the-increment-that-defined-in-system-parameters"></a>Wanneer inkooporders worden geïmporteerd via gegevensbeheer, volgen de nummers van de inkooporderregels niet de verhoging die is gedefinieerd in de systeemparameters.
 
@@ -58,7 +58,7 @@ Dit is zo ontworpen. De standaardwaarden voor de belastinggroep, contantkortinge
 
 Dit probleem kan optreden vanwege inconsistenties in inkooporderdistributies.
 
-Als u dit probleem wilt verhelpen en de inkooporder wilt terugzetten op de status *Concept* , gaat u naar **Inkoopbeheer \> Periodieke taken \> Opschonen \> Distributie van inkooporder opnieuw instellen**. Zie het volgende blogbericht voor meer informatie: [Fouten met IO-distributie in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/) oplossen.
+Als u dit probleem wilt verhelpen en de inkooporder wilt terugzetten op de status *Concept*, gaat u naar **Inkoopbeheer \> Periodieke taken \> Opschonen \> Distributie van inkooporder opnieuw instellen**. Zie het volgende blogbericht voor meer informatie: [Fouten met IO-distributie in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/) oplossen.
 
 ## <a name="one-or-more-accounting-distributions-are-either-over-distributed-or-under-distributed"></a>Een of meer boekhoudingsverdelingen is te veel of te weinig verdeeld.
 
@@ -70,7 +70,7 @@ Het volgende foutbericht wordt weergegeven: Een of meer boekhoudingsverdelingen 
 
 Dit probleem kan optreden vanwege inconsistenties in inkooporderdistributies.
 
-Als u dit probleem wilt verhelpen en de inkooporder wilt terugzetten op de status *Concept* , gaat u naar **Inkoopbeheer \> Periodieke taken \> Opschonen \> Distributie van inkooporder opnieuw instellen**. Zie het volgende blogbericht voor meer informatie: [Fouten met IO-distributie in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/) oplossen.
+Als u dit probleem wilt verhelpen en de inkooporder wilt terugzetten op de status *Concept*, gaat u naar **Inkoopbeheer \> Periodieke taken \> Opschonen \> Distributie van inkooporder opnieuw instellen**. Zie het volgende blogbericht voor meer informatie: [Fouten met IO-distributie in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/) oplossen.
 
 ## <a name="can-i-show-only-purchase-orders-that-i-created"></a>Kan ik alleen inkooporders weergeven die ik heb gemaakt?
 
@@ -118,7 +118,7 @@ Dit is zo ontworpen. Op inkooporders wordt het product altijd weergegeven in de 
 
 ### <a name="issue-description"></a>Probleembeschrijving
 
-Een product heeft een goedgekeurde leverancier die bijvoorbeeld een ingangsdatum heeft van 11 januari 2018 ( *01/11/2018* ) en de vervaldatum *Nooit*. Als u de ingangsdatum probeert te wijzigen in 10 januari 2018 ( *01/10/2018* ) of 12 januari 2018 ( *01/12/2018* ), wordt het volgende foutbericht weergegeven:
+Een product heeft een goedgekeurde leverancier die bijvoorbeeld een ingangsdatum heeft van 11 januari 2018 (*01/11/2018*) en de vervaldatum *Nooit*. Als u de ingangsdatum probeert te wijzigen in 10 januari 2018 (*01/10/2018*) of 12 januari 2018 (*01/12/2018*), wordt het volgende foutbericht weergegeven:
 
 > Kan geen record maken in lijst met goedgekeurde leveranciers (PdsApproveVendorList). De waarde voor Vervaldatum moet groter zijn dan of gelijk zijn aan die van de Ingangsdatum.
 

@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
 ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016257"
+ms.locfileid: "4425804"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Verwerking van catch weight-producten bij magazijnbeheer
 
@@ -30,12 +30,12 @@ ms.locfileid: "4016257"
 
 ## <a name="feature-exposure"></a>Functierisico
 
-Als u magazijnbeheer wilt gebruiken om catch weight-producten te verwerken, moet u een licentieconfiguratiesleutel gebruiken om de functionaliteit in te schakelen. Ga naar **Systeembeheer \> Instellingen \> Licentieconfiguratie**. Klik vervolgens op het tabblad **Configuratiesleutels** , vouw **Handel \> Magazijn en transportmanagement** uit en selecteer het selectievakje **Catch weight voor magazijn**.
+Als u magazijnbeheer wilt gebruiken om catch weight-producten te verwerken, moet u een licentieconfiguratiesleutel gebruiken om de functionaliteit in te schakelen. Ga naar **Systeembeheer \> Instellingen \> Licentieconfiguratie**. Klik vervolgens op het tabblad **Configuratiesleutels**, vouw **Handel \> Magazijn en transportmanagement** uit en selecteer het selectievakje **Catch weight voor magazijn**.
 
 > [!NOTE]
 > De licentieconfiguratiesleutel **Magazijn en transportbeheer** en de licentieconfiguratiesleutel **Procesdistributie \> catch weight** moeten ook zijn ingeschakeld. Als u de configuratiesleutels voor catch weight wilt instellen, moet u de functie ook inschakelen via het werkgebied **Functiebeheer**. De hoofdfunctie die moet worden ingeschakeld, is **Verwerking van catch weight-producten bij magazijnbeheer**. Twee verwante maar optionele functies die u mogelijk wilt inschakelen, zijn **Wijzigingen in de voorraadstatus voor catch weight-producten** en **Bestaande codes voor catch weight gebruiken bij het gereedmelden van productieorders**.
 
-Nadat de licentieconfiguratiesleutel is ingeschakeld en u een vrijgegeven product maakt, kunt u **Catch weight-** selecteren. U kunt ook het vrijgegeven product koppelen aan een opslagdimensiegroep waarvoor de **Magazijnanagementprocessen gebruiken** -parameter voor is geselecteerd.
+Nadat de licentieconfiguratiesleutel is ingeschakeld en u een vrijgegeven product maakt, kunt u **Catch weight-** selecteren. U kunt ook het vrijgegeven product koppelen aan een opslagdimensiegroep waarvoor de **Magazijnanagementprocessen gebruiken**-parameter voor is geselecteerd.
 
 Voordat u het product in magazijnbeheer kunt gebruiken, moet u enkele productspecifieke basisinstellingen voor catch weight maken:
 
@@ -55,7 +55,7 @@ Omdat het gewicht van de voorraad wanneer die een magazijn binnenkomt kan afwijk
 
 **Voorbeeld 1**
 
-In een **Gereedmelden** -productieproces is het binnenkomende gewicht van een nummerplaat met acht dozen van een catch weight-product vastgelegd als 80,1 kg. De nummerplaat wordt vervolgens opgeslagen in het gedeelte met eindproducten en gedurende de opslagperiode gaat wat gewicht aan de lucht verloren.
+In een **Gereedmelden**-productieproces is het binnenkomende gewicht van een nummerplaat met acht dozen van een catch weight-product vastgelegd als 80,1 kg. De nummerplaat wordt vervolgens opgeslagen in het gedeelte met eindproducten en gedurende de opslagperiode gaat wat gewicht aan de lucht verloren.
 
 Het gewicht van dezelfde nummerplaat wordt later tijdens de orderverzameling in het verkoopproces vastgesteld als 79,8 kg. Daarom heeft u nu in het systeem een gewichtsverschil als onderdeel van de fysieke dimensieset.
 
@@ -97,14 +97,14 @@ Het proces voor het bijhouden van catch weight-labels kan worden gebruikt voor a
 
 Een andere belangrijke parameter met betrekking tot de verwerking van catch weight-labels is **Methode voor dimensietracering van catch weight-labels**. Labels kunnen gedeeltelijk of volledig worden getraceerd. Als een label gedeeltelijk wordt bijgehouden, worden productdimensies, traceringsdimensies en voorraadstatus bijgehouden. Als een label volledig wordt bijgehouden, worden productdimensies, traceringsdimensies en **alle** opslagdimensies bijgehouden.
 
-En als een artikel labeltracering heeft, is er een parameter voor de **methode voor vastleggen van uitgaand gewicht**. U kunt deze parameter instellen zodat u altijd om het label wordt gevraagd voor uitgaande transacties via het mobiele apparaat. U kunt de parameter ook zo instellen dat u alleen naar labels wordt gevraagd wanneer deze nodig zijn. Stel, er zijn vijf catch weight-labels in voorraad voor een bepaald nummerplaat, en u hebt aangegeven dat u alle vijf de labels van het nummerplaat wilt verzamelen. In dit geval worden automatisch de vijf labels verzameld als de parameter **Methode voor vastleggen van uitgaand gewicht** is ingesteld op **Alleen om label vragen indien nodig**. U hoeft niet elk label te scannen. Als de parameter is ingesteld **Altijd om label vragen** , moet u elk label scannen, zelfs als alle vijf de labels worden verzameld.
+En als een artikel labeltracering heeft, is er een parameter voor de **methode voor vastleggen van uitgaand gewicht**. U kunt deze parameter instellen zodat u altijd om het label wordt gevraagd voor uitgaande transacties via het mobiele apparaat. U kunt de parameter ook zo instellen dat u alleen naar labels wordt gevraagd wanneer deze nodig zijn. Stel, er zijn vijf catch weight-labels in voorraad voor een bepaald nummerplaat, en u hebt aangegeven dat u alle vijf de labels van het nummerplaat wilt verzamelen. In dit geval worden automatisch de vijf labels verzameld als de parameter **Methode voor vastleggen van uitgaand gewicht** is ingesteld op **Alleen om label vragen indien nodig**. U hoeft niet elk label te scannen. Als de parameter is ingesteld **Altijd om label vragen**, moet u elk label scannen, zelfs als alle vijf de labels worden verzameld.
 
 > [!NOTE]
 > In de regel worden labels alleen vastgelegd en bijgewerkt vanuit de menu-opdrachten van het mobiele apparaat. Er zijn echter enkele scenario's waarin labels ergens anders worden vastgelegd (bijvoorbeeld vanuit het handmatige verpakkingsstation). Als er labels worden gebruikt, moeten in het algemeen echter de menuopdrachten op de mobiele apparaten worden gebruikt voor alle magazijnactiviteiten.
 
 ### <a name="how-to-capture-catch-weight"></a>Hoe wordt catch weight vastgelegd?
 
-**Als gebruik wordt gemaakt van het bijhouden van catch weight-labels** , moet altijd een label worden gemaakt voor elke catch weight-eenheid die wordt ontvangen, en elk label moet altijd worden gekoppeld aan een gewicht.
+**Als gebruik wordt gemaakt van het bijhouden van catch weight-labels**, moet altijd een label worden gemaakt voor elke catch weight-eenheid die wordt ontvangen, en elk label moet altijd worden gekoppeld aan een gewicht.
 
 Bijvoorbeeld: **Doos** is de catch weight-eenheid en u ontvangt een pallet van acht dozen. In dit geval moeten acht unieke catch weight-labels worden gemaakt en aan elk label moet een gewicht worden gekoppeld. Afhankelijk van het inkomende catch weight-label, kan het totale gewicht van alle acht dozen worden vastgelegd en het gemiddelde gewicht kan vervolgens toebedeeld worden aan elke doos, of er kan een uniek gewicht voor elke doos worden vastgelegd.
 Wanneer u de functie **Bestaande codes voor catch weight gebruiken bij het gereedmelden van productieorders** gebruikt terwijl het proces via een menuopdracht op een mobiel apparaat is ingeschakeld, wordt de voorraad bijgewerkt op basis van bestaande codegegevens voor catch weight. Hierdoor wordt in de magazijnbeheer-app niet gevraagd om de catch weight-codegegevens vast te leggen als onderdeel van een productielijst voor voltooide bewerkingen.
@@ -209,4 +209,4 @@ Naast de beperkingen die momenteel van toepassing zijn op catch weight-producten
 - De functionaliteit voor storneringswerk wordt niet ondersteund voor catch weight-artikelen met labelnummertracering.
 
 > [!NOTE]
-> Voorgaande informatie over catch weight-labels is alleen geldig als het catch weight-product een methode heeft voor dimensietracering van catch weight-labels voor volledige tracering (dat wil zeggen, als de parameter **Methode voor dimensietracering van catch weight-labels** in het beleid voor afhandeling van catch weight-producten is ingesteld op **Productdimensies, traceringsdimensies en alle opslagdimensies** ). Als een artikel alleen gedeeltelijke labeltracering heeft (dus als de parameter **Methode voor dimensietracering van catch weight-labels** in het beleid voor afhandeling van catch weight-artikelen is ingesteld op **Productdimensies, traceringsdimenses en voorraadstatus** ), zijn er extra beperkingen van toepassing. Omdat zichtbaarheid tussen het label en de voorraad in dit geval verloren gaat, worden sommige aanvullende scenario's niet ondersteund.
+> Voorgaande informatie over catch weight-labels is alleen geldig als het catch weight-product een methode heeft voor dimensietracering van catch weight-labels voor volledige tracering (dat wil zeggen, als de parameter **Methode voor dimensietracering van catch weight-labels** in het beleid voor afhandeling van catch weight-producten is ingesteld op **Productdimensies, traceringsdimensies en alle opslagdimensies**). Als een artikel alleen gedeeltelijke labeltracering heeft (dus als de parameter **Methode voor dimensietracering van catch weight-labels** in het beleid voor afhandeling van catch weight-artikelen is ingesteld op **Productdimensies, traceringsdimenses en voorraadstatus**), zijn er extra beperkingen van toepassing. Omdat zichtbaarheid tussen het label en de voorraad in dit geval verloren gaat, worden sommige aanvullende scenario's niet ondersteund.

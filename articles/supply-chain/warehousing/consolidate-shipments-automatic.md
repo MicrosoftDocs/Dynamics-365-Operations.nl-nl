@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
 ms.openlocfilehash: ac3ab25dc1355ee15e1209950ff0f3b3933b7095
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016857"
+ms.locfileid: "4425786"
 ---
 # <a name="consolidate-shipments-when-they-are-released-to-the-warehouse-by-using-automatic-release-of-sales-orders"></a>Zendingen consolideren wanneer deze naar het magazijn worden vrijgegeven met Automatische vrijgave van verkooporders
 
@@ -268,7 +268,7 @@ Volg de [basisprocedure voor vrijgave naar het magazijn](#release-procedure) om 
 Wanneer u klaar bent, ziet u dat er twee zendingen zijn gemaakt:
 
 - De eerste zending bevat drie regels en is gemaakt met het consolidatiebeleid voor zendingen *CustomerMode*.
-- De tweede zending, die geen gebruikmaakt van de leveringsmethode *Airways* , is gemaakt met het consolidatiebeleid voor zending *CustomerOrderNo*.
+- De tweede zending, die geen gebruikmaakt van de leveringsmethode *Airways*, is gemaakt met het consolidatiebeleid voor zending *CustomerOrderNo*.
 
 ### <a name="release-sales-orders-from-order-set-2"></a>Verkooporders vrijgeven vanuit orderset 2
 
@@ -292,7 +292,7 @@ Wanneer u klaar bent, ziet u dat de volgende acties zijn uitgevoerd:
 
 Volg de [basisprocedure voor vrijgave naar het magazijn](#release-procedure) om de verkooporders uit orderset 4 vrij te geven.
 
-Wanneer u klaar bent, is één bestaande zending (waarvoor het veld **Bestelopdracht van klant** is ingesteld op *1* ) is bijgewerkt. Hieraan is één nieuwe regel toegevoegd.
+Wanneer u klaar bent, is één bestaande zending (waarvoor het veld **Bestelopdracht van klant** is ingesteld op *1*) is bijgewerkt. Hieraan is één nieuwe regel toegevoegd.
 
 ### <a name="release-sales-orders-from-order-set-5"></a>Verkooporders vrijgeven vanuit orderset 5
 
@@ -300,7 +300,7 @@ Volg de [basisprocedure voor vrijgave naar het magazijn](#release-procedure) om 
 
 Wanneer u klaar bent, ziet u dat de volgende acties zijn uitgevoerd:
 
-- Eén bestaande zending (waarvoor het veld **Bestelopdracht van klant** is ingesteld op *1* ) is bijgewerkt. Een regel uit verkooporder 5-3 (waarbij het veld **Bestelopdracht van klant** is ingesteld op *1* ) is hieraan toegevoegd.
+- Eén bestaande zending (waarvoor het veld **Bestelopdracht van klant** is ingesteld op *1*) is bijgewerkt. Een regel uit verkooporder 5-3 (waarbij het veld **Bestelopdracht van klant** is ingesteld op *1*) is hieraan toegevoegd.
 - Er is één nieuwe zending gemaakt, waarbij regels van verkooporders 5-1 en 5-2 in één zending worden gegroepeerd.
 
 ### <a name="release-sales-orders-from-order-set-6"></a>Verkooporders vrijgeven vanuit orderset 6

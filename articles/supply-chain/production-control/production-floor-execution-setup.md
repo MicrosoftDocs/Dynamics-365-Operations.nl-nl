@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012466"
+ms.locfileid: "4425752"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren
 
@@ -44,9 +44,9 @@ Als u de configuratie en taakfilters voor een apparaat wilt instellen, meldt u z
 1. Selecteer **Volgende**.
 1. Selecteer een of meer filters die u op het huidige apparaat wilt toepassen. Met deze filters wordt ervoor gezorgd dat alleen relevante taken op het apparaat worden weergegeven. Als u een filter wilt instellen, selecteert u het filtertype om een lijst met waarden te openen en selecteert u vervolgens de waarde waarop u wilt filteren. De volgende filters zijn beschikbaar:
 
-    - **Productie-eenheid** : dit filter is het filter op het hoogste niveau. Het verwijst meestal naar een groot werkgebied met verschillende resourcegroepen die afzonderlijke resources bevatten.
-    - **Resourcegroep** : dit filter is een filter op gemiddeld niveau. Het verwijst meestal naar een verzameling verwante resources in een beperkt gebied van de werkruimte. Als u eerst het filter **Productie-eenheid** selecteert, worden in de lijst met resourcegroepen alleen de groepen van die eenheid weergegeven. Anders worden alle beschikbare resourcegroepen weergegeven.
-    - **Resource** : dit filter is het meest specifieke filter. Het verwijst meestal naar een specifieke machine of een andere afzonderlijke resource. Als u eerst het filter **Resourcegroep** en/of **Productie-eenheid** selecteert, worden in de lijst met resources alleen resources van die groep en/of eenheid weergegeven. Anders worden alle beschikbare resources weergegeven.
+    - **Productie-eenheid**: dit filter is het filter op het hoogste niveau. Het verwijst meestal naar een groot werkgebied met verschillende resourcegroepen die afzonderlijke resources bevatten.
+    - **Resourcegroep**: dit filter is een filter op gemiddeld niveau. Het verwijst meestal naar een verzameling verwante resources in een beperkt gebied van de werkruimte. Als u eerst het filter **Productie-eenheid** selecteert, worden in de lijst met resourcegroepen alleen de groepen van die eenheid weergegeven. Anders worden alle beschikbare resourcegroepen weergegeven.
+    - **Resource**: dit filter is het meest specifieke filter. Het verwijst meestal naar een specifieke machine of een andere afzonderlijke resource. Als u eerst het filter **Resourcegroep** en/of **Productie-eenheid** selecteert, worden in de lijst met resources alleen resources van die groep en/of eenheid weergegeven. Anders worden alle beschikbare resources weergegeven.
 
 1. Selecteer **OK**.
 1. De aanmeldingspagina wordt weergegeven en uw apparaat is gereed voor gebruik.

@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012464"
+ms.locfileid: "4425753"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 
@@ -41,22 +41,22 @@ In de overige secties van dit onderwerp wordt beschreven hoe werknemers met de i
 
 ## <a name="all-jobs-tab"></a>Tabblad Alle taken
 
-Op het tabblad **Alle taken** vindt u een takenlijst waarin alle productietaken worden weergegeven met de status *Niet gestart* , *Gestopt* of *Gestart*.
+Op het tabblad **Alle taken** vindt u een takenlijst waarin alle productietaken worden weergegeven met de status *Niet gestart*, *Gestopt* of *Gestart*.
 
 ![Tabblad Alle taken](media/pfei-all-jobs-tab.png "Tabblad Alle taken")
 
 De takenlijst heeft de volgende kolommen. (De nummers komen overeen met de nummers in de vorige afbeelding.)
 
-1. **Selectiekolom** : in de linkerkolom worden vinkjes gebruikt om taken aan te duiden die door de werknemer zijn geselecteerd. Werknemers kunnen meerdere taken tegelijk selecteren in de lijst. Als u alle taken in de lijst wilt selecteren, selecteert u het vinkje in de kolomkop. Als één taak is geselecteerd, worden details over die taak weergegeven in het onderste gedeelte van de pagina.
-1. **Taakstatuskolom** : in deze kolom worden symbolen gebruikt om de status van elke taak aan te geven. Taken zonder symbool in deze kolom hebben de status *Niet gestart*. Een groen driehoekje geeft taken aan die de status *Gestart* hebben. Twee gele verticale lijnen geven taken met de status *Gestopt* aan.
-1. **Kolom met hoge prioriteit** : in deze kolom worden uitroeptekens gebruikt om taken met een hoge prioriteit aan te duiden.
-1. **Order** : in deze kolom wordt het productieordernummer voor een taak weergegeven.
-1. **Omschrijving** : in deze kolom wordt een omschrijving gegeven van de bewerking waarvan een taak deel uitmaakt.
-1. **Aangevraagd** : in deze kolom wordt de hoeveelheid weergegeven die voor een taak is gepland om te produceren.
-1. **Gestart** : deze kolom bevat de hoeveelheid die al is gestart voor een taak.
-1. **Voltooid** : deze kolom bevat de hoeveelheid die al is voltooid voor een taak.
-1. **Buiten gebruik gesteld** : deze kolom bevat de hoeveelheid die al buiten gebruik is gesteld voor een taak.
-1. **Resterend** : in deze kolom wordt de hoeveelheid weergegeven die nog moet worden voltooid voor een taak.
+1. **Selectiekolom**: in de linkerkolom worden vinkjes gebruikt om taken aan te duiden die door de werknemer zijn geselecteerd. Werknemers kunnen meerdere taken tegelijk selecteren in de lijst. Als u alle taken in de lijst wilt selecteren, selecteert u het vinkje in de kolomkop. Als één taak is geselecteerd, worden details over die taak weergegeven in het onderste gedeelte van de pagina.
+1. **Taakstatuskolom**: in deze kolom worden symbolen gebruikt om de status van elke taak aan te geven. Taken zonder symbool in deze kolom hebben de status *Niet gestart*. Een groen driehoekje geeft taken aan die de status *Gestart* hebben. Twee gele verticale lijnen geven taken met de status *Gestopt* aan.
+1. **Kolom met hoge prioriteit**: in deze kolom worden uitroeptekens gebruikt om taken met een hoge prioriteit aan te duiden.
+1. **Order**: in deze kolom wordt het productieordernummer voor een taak weergegeven.
+1. **Omschrijving**: in deze kolom wordt een omschrijving gegeven van de bewerking waarvan een taak deel uitmaakt.
+1. **Aangevraagd**: in deze kolom wordt de hoeveelheid weergegeven die voor een taak is gepland om te produceren.
+1. **Gestart**: deze kolom bevat de hoeveelheid die al is gestart voor een taak.
+1. **Voltooid**: deze kolom bevat de hoeveelheid die al is voltooid voor een taak.
+1. **Buiten gebruik gesteld**: deze kolom bevat de hoeveelheid die al buiten gebruik is gesteld voor een taak.
+1. **Resterend**: in deze kolom wordt de hoeveelheid weergegeven die nog moet worden voltooid voor een taak.
 
 ## <a name="active-jobs-tab"></a>Tabblad Actieve taken
 
@@ -64,14 +64,14 @@ De takenlijst heeft de volgende kolommen. (De nummers komen overeen met de numme
 
 De takenlijst op het tabblad **Actieve taken** heeft de volgende kolommen:
 
-- **Selectiekolom** : in de linkerkolom worden vinkjes gebruikt om taken aan te duiden die door de werknemer zijn geselecteerd. Werknemers kunnen meerdere taken tegelijk selecteren in de lijst. Als u alle taken in de lijst wilt selecteren, selecteert u het vinkje in de kolomkop. Als één taak is geselecteerd, worden details over die taak weergegeven in het onderste gedeelte van de pagina.
-- **Order** : in deze kolom wordt het productieordernummer voor een taak weergegeven.
-- **Omschrijving** : in deze kolom wordt een omschrijving gegeven van de bewerking waarvan een taak deel uitmaakt.
-- **Aangevraagd** : in deze kolom wordt de hoeveelheid weergegeven die voor een taak is gepland om te produceren.
-- **Gestart** : deze kolom bevat de hoeveelheid die al is gestart voor een taak.
-- **Voltooid** : deze kolom bevat de hoeveelheid die al is voltooid voor een taak.
-- **Buiten gebruik gesteld** : deze kolom bevat de hoeveelheid die al buiten gebruik is gesteld voor een taak.
-- **Resterend** : in deze kolom wordt de hoeveelheid weergegeven die nog moet worden voltooid voor een taak.
+- **Selectiekolom**: in de linkerkolom worden vinkjes gebruikt om taken aan te duiden die door de werknemer zijn geselecteerd. Werknemers kunnen meerdere taken tegelijk selecteren in de lijst. Als u alle taken in de lijst wilt selecteren, selecteert u het vinkje in de kolomkop. Als één taak is geselecteerd, worden details over die taak weergegeven in het onderste gedeelte van de pagina.
+- **Order**: in deze kolom wordt het productieordernummer voor een taak weergegeven.
+- **Omschrijving**: in deze kolom wordt een omschrijving gegeven van de bewerking waarvan een taak deel uitmaakt.
+- **Aangevraagd**: in deze kolom wordt de hoeveelheid weergegeven die voor een taak is gepland om te produceren.
+- **Gestart**: deze kolom bevat de hoeveelheid die al is gestart voor een taak.
+- **Voltooid**: deze kolom bevat de hoeveelheid die al is voltooid voor een taak.
+- **Buiten gebruik gesteld**: deze kolom bevat de hoeveelheid die al buiten gebruik is gesteld voor een taak.
+- **Resterend**: in deze kolom wordt de hoeveelheid weergegeven die nog moet worden voltooid voor een taak.
 
 ## <a name="starting-and-completing-production-jobs"></a>Productietaken starten en voltooien
 
@@ -85,13 +85,13 @@ Werknemers kunnen een taak met een willekeurige status starten. Wanneer een werk
 
 ## <a name="reporting-good-quantities"></a>Goede hoeveelheden rapporteren
 
-Wanneer werknemers een taak voltooien of gedeeltelijk voltooien, kunnen ze goede hoeveelheden rapporteren die zijn geproduceerd door een taak te selecteren op het tabblad **Actieve taken** en vervolgens **Voortgang rapporteren** te selecteren. Vervolgens voert de werknemer in het dialoogvenster **Voortgang rapporteren** de goede hoeveelheid in met het numerieke toetsenbord. De hoeveelheid is standaard leeg. Nadat een hoeveelheid is ingevoerd, kan de werknemer de status van de taak bijwerken naar *In uitvoering* , *Gestopt* of *Voltooid*.
+Wanneer werknemers een taak voltooien of gedeeltelijk voltooien, kunnen ze goede hoeveelheden rapporteren die zijn geproduceerd door een taak te selecteren op het tabblad **Actieve taken** en vervolgens **Voortgang rapporteren** te selecteren. Vervolgens voert de werknemer in het dialoogvenster **Voortgang rapporteren** de goede hoeveelheid in met het numerieke toetsenbord. De hoeveelheid is standaard leeg. Nadat een hoeveelheid is ingevoerd, kan de werknemer de status van de taak bijwerken naar *In uitvoering*, *Gestopt* of *Voltooid*.
 
 ![Dialoogvenster Voortgang rapporteren](media/pfei-report-progress-dialog.png "Dialoogvenster Voortgang rapporteren")
 
 ## <a name="reporting-scrap"></a>Uitval rapporteren
 
-Wanneer werknemers een taak voltooien of gedeeltelijk voltooien, kunnen ze uitval rapporteren door een taak te selecteren op het tabblad **Actieve taken** en vervolgens **Uitval rapporteren** te selecteren. Vervolgens voert de werknemer in het dialoogvenster **Uitval rapporteren** de uitvalhoeveelheid in met het numerieke toetsenbord. De werknemer selecteert ook een reden ( *Geen* , *Machine* , *Operator* of *Materiaal* ).
+Wanneer werknemers een taak voltooien of gedeeltelijk voltooien, kunnen ze uitval rapporteren door een taak te selecteren op het tabblad **Actieve taken** en vervolgens **Uitval rapporteren** te selecteren. Vervolgens voert de werknemer in het dialoogvenster **Uitval rapporteren** de uitvalhoeveelheid in met het numerieke toetsenbord. De werknemer selecteert ook een reden (*Geen*, *Machine*, *Operator* of *Materiaal*).
 
 ![Dialoogvenster Uitval rapporteren](media/pfei-report-scrap-dialog.png "Dialoogvenster Uitval rapporteren")
 
@@ -119,8 +119,8 @@ Indirecte activiteiten zijn activiteiten die niet direct zijn gerelateerd aan ee
 
 Bijvoorbeeld: Shannon, een werkvloermedewerker bij Contoso, wil deelnemen aan een bedrijfsvergadering en vergaderingen worden beschouwd als een indirecte activiteit. Een van de volgende twee scenario's is van toepassing:
 
-- **Shannon werkt aan een of meer actieve taken.** Shannon selecteert **Activiteit** , identificeert de activiteit (vergadering) en bevestigt haar selectie. Er wordt een bericht weergegeven met de melding dat ze taken heeft die in uitvoering zijn. In het bericht kan Shannon ervoor kiezen om de taken waarmee ze bezig is, te voltooien of te stoppen voordat ze naar de vergadering gaat.
-- **Shannon heeft geen actieve taken.** Shannon selecteert **Activiteit** , identificeert de activiteit (vergadering) en ze bevestigt haar selectie. Ze is nu geregistreerd als aanwezig bij de vergadering.
+- **Shannon werkt aan een of meer actieve taken.** Shannon selecteert **Activiteit**, identificeert de activiteit (vergadering) en bevestigt haar selectie. Er wordt een bericht weergegeven met de melding dat ze taken heeft die in uitvoering zijn. In het bericht kan Shannon ervoor kiezen om de taken waarmee ze bezig is, te voltooien of te stoppen voordat ze naar de vergadering gaat.
+- **Shannon heeft geen actieve taken.** Shannon selecteert **Activiteit**, identificeert de activiteit (vergadering) en ze bevestigt haar selectie. Ze is nu geregistreerd als aanwezig bij de vergadering.
 
 In beide scenario's gaat Shannon nadat ze de selectie heeft bevestigd, naar de aanmeldingspagina of naar een pagina die wacht tot ze bevestigt dat ze van haar indirecte activiteit is teruggekeerd. De pagina die wordt weergegeven, is afhankelijk van de configuratie van de uitvoeringsinterface van de werkvloer. (Zie [Uitvoeringsinterface van de werkvloer configureren](production-floor-execution-configure.md) voor meer informatie.)
 

@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: cdedc45b8f057310801f134104156a732fb58d86
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018532"
+ms.locfileid: "4425869"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>Problemen met werkstromen voor inkoopbeheer oplossen
 
@@ -48,7 +48,7 @@ SysWorkflowQueue-resume
 
 Dit probleem kan optreden vanwege inconsistenties in inkooporderdistributies.
 
-Als u dit probleem wilt verhelpen en de inkooporder wilt terugzetten op de status *Concept* , gaat u naar **Inkoopbeheer \> Periodieke taken \> Opschonen \> Distributie van inkooporder opnieuw instellen**. Zie het volgende blogbericht voor meer informatie: [Fouten met IO-distributie in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/) oplossen.
+Als u dit probleem wilt verhelpen en de inkooporder wilt terugzetten op de status *Concept*, gaat u naar **Inkoopbeheer \> Periodieke taken \> Opschonen \> Distributie van inkooporder opnieuw instellen**. Zie het volgende blogbericht voor meer informatie: [Fouten met IO-distributie in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/) oplossen.
 
 Het probleem wordt opgelost via [dit Microsoft Knowledge Base-artikel (KB)](https://msdyneng.visualstudio.com/FinOps/_workitems/edit/467138).
 
@@ -56,7 +56,7 @@ Het probleem wordt opgelost via [dit Microsoft Knowledge Base-artikel (KB)](http
 
 Dit probleem kan optreden vanwege inconsistenties in inkooporderdistributies.
 
-Als u dit probleem wilt verhelpen en de inkooporder wilt terugzetten op de status *Concept* , gaat u naar **Inkoopbeheer \> Periodieke taken \> Opschonen \> Distributie van inkooporder opnieuw instellen**. Zie het volgende blogbericht voor meer informatie: [Fouten met IO-distributie in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/) oplossen.
+Als u dit probleem wilt verhelpen en de inkooporder wilt terugzetten op de status *Concept*, gaat u naar **Inkoopbeheer \> Periodieke taken \> Opschonen \> Distributie van inkooporder opnieuw instellen**. Zie het volgende blogbericht voor meer informatie: [Fouten met IO-distributie in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/) oplossen.
 
 ## <a name="if-a-delivery-remainder-is-canceled-on-a-purchase-order-where-change-management-is-turned-on-the-purchase-order-goes-to-a-confirmed-state"></a>Als een restant van een levering wordt geannuleerd op een inkooporder waarvoor wijzigingsbeheer is ingeschakeld, krijgt de inkooporder weer de status Bevestigd.
 

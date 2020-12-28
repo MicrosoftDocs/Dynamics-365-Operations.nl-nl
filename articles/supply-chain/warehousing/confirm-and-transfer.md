@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: d25d0feb3f8a5a760eba50ba5f46e1db02737d25
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3677405"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425210"
 ---
 # <a name="confirm-and-transfer"></a>Bevestigen en overboeken
 
@@ -181,7 +181,7 @@ Bij taken op mobiele apparaten moet de gebruiker gegevens invoeren, zoals de wer
 1. Voer in het veld **Artikel** het artikelnummer in om het artikel dat wordt verzameld te bevestigen en selecteer **Enter**.
 1. Voer in het veld **Hoeveelheid** de hoeveelheid in die wordt verzameld van het artikel en selecteer **Enter**.
 1. Voer in het veld **Doel-NP** de id van de doelnummerplaat in. De doelnummerplaten zijn door de gebruiker gedefinieerde waarden. Zorg ervoor dat u een nummerplaat-id invoert die u kunt onthouden. Een aanbeveling is om een notatie te gebruiken met de huidige datum plus een volgnummer van twee cijfers (jjmmdd\#\#), bijvoorbeeld *19112301*. Wanneer u klaar bent, selecteert u **Enter**.
-1. Bekijk de informatie die wordt weergegeven. Deze gegevens zijn de *verzamel*gegevens, die nu de *wegzet*gegevens voor de wegzettransactie worden. Wanneer u klaar bent, selecteert u **Enter**.
+1. Bekijk de informatie die wordt weergegeven. Deze gegevens zijn de *verzamel* gegevens, die nu de *wegzet* gegevens voor de wegzettransactie worden. Wanneer u klaar bent, selecteert u **Enter**.
 
     - U ontvangt een melding **Werk voltooid**.
 

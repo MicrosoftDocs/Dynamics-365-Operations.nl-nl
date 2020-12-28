@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 095ff2697a7cc8486afc6e77fd7d06f761e74e75
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888900"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425546"
 ---
 # <a name="schedule-work-orders"></a>Werkorders plannen
 
@@ -88,7 +88,7 @@ In de onderstaande voorbeelden is de score voor de kritieke eigenschap 2 en zijn
 | WO-00010817   | Over twee dagen   | 2                      | 20              | (-2 \* 10) + (2 \* 2) + 5 / 20     | \- 15.75   |
 | WO-00010818   | Over twee dagen   | 3                      | 5               | (-2 \* 10) + (2 \* 3) + 5 / 5      | \- 13      |
 
-De werkorders worden in de volgende volgorde gepland: WO-000108**16**, WO-000108**18**, WO-000108**17**.
+De werkorders worden in de volgende volgorde gepland: WO-000108 **16**, WO-000108 **18**, WO-000108 **17**.
 
 **Voorbeeld 2:**
 
@@ -98,7 +98,7 @@ De werkorders worden in de volgende volgorde gepland: WO-000108**16**, WO-000108
 | WO-00010817   | Over twee dagen   | 2                      | 20                  | (-2 \* 10) + (2 \* 2) + 100 / 20 | \- 11    |
 | WO-00010818   | Over twee dagen   | 3                      | 5                   | (-2 \* 10) + (2 \* 3) + 100 / 5  | 6        |
 
-Als de score voor het serviceniveau wordt verhoogd naar 100 in plaats van 5, is de planningsvolgorde: WO-000108**18**, WO-000108**16**, WO-000108**17**.
+Als de score voor het serviceniveau wordt verhoogd naar 100 in plaats van 5, is de planningsvolgorde: WO-000108 **18**, WO-000108 **16**, WO-000108 **17**.
 
 De beoordelingsscores die betrekking hebben op de berekening van onderhoudsmedewerkers die aan de werkorders moeten werken, worden allemaal ingesteld als aantallen, die tijdens de planning van werkorders worden opgeteld bij elke berekening van onderhoudsmedewerkers. De onderhoudsmedewerker met de hoogste score wordt geselecteerd voor de werkorder. Hier volgt een korte omschrijving van de scores van de onderhoudsmedewerker:
 

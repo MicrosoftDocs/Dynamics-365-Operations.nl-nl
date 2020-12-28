@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 82249f460e5ddce9b9d43906008a3248a80daafb
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018739"
+ms.locfileid: "4425845"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Leverancierssamenwerking met externe leveranciers
 
@@ -60,8 +60,8 @@ Een beheerder configureert de algemene instellingen voor leverancierssamenwerkin
 
 Voordat gebruikersaccounts kunnen worden gemaakt voor een externe leverancier, moet u de leveranciersaccount zo configureren dat de leverancier kan gebruikmaken van leverancierssamenwerking. Stel op de pagina **Leveranciers** op het tabblad **Algemeen** het veld **Samenwerkingsactivering** in. De volgende opties zijn beschikbaar:
 
-- **Actief (IO wordt automatisch bevestigd)** : inkooporders worden automatisch bevestigd wanneer de leverancier deze zonder wijzigingen accepteert.
-- **Actief (IO wordt niet automatisch bevestigd)** : uw organisatie moet inkooporders handmatig bevestigen nadat de leverancier ze heeft geaccepteerd.
+- **Actief (IO wordt automatisch bevestigd)**: inkooporders worden automatisch bevestigd wanneer de leverancier deze zonder wijzigingen accepteert.
+- **Actief (IO wordt niet automatisch bevestigd)**: uw organisatie moet inkooporders handmatig bevestigen nadat de leverancier ze heeft geaccepteerd.
 
 ### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Opgeven of de leverancier prijsinformatie te zien moet krijgen
 
@@ -156,9 +156,9 @@ Op de regels kan de leverancier de hoeveelheid en de leveringsdatums wijzigen, n
     
 - **Geaccepteerd met wijzigingen**
 - **Afgewezen**
-- **Vervangen** : in dit geval wordt een extra regel toegevoegd met de status **Vervanging**.
+- **Vervangen**: in dit geval wordt een extra regel toegevoegd met de status **Vervanging**.
 - **Bevestigd**
-- **Opsplitsen tot planning** : in dit geval worden extra regels met de status **Planningsregels** toegevoegd.
+- **Opsplitsen tot planning**: in dit geval worden extra regels met de status **Planningsregels** toegevoegd.
 
 Als een regel geen wijzigingen bevat, is de regelstatus **Geaccepteerd**.
 
@@ -168,7 +168,7 @@ U kunt een inkooporder bijwerken door **Update van inkooporder verwerken** in de
 
 Niet alle voorgestelde wijzigingen kunnen worden doorgevoerd op een inkooporder. Alleen updates in de koptekst en van datums en hoeveelheden op regels kunnen automatisch worden bijgewerkt op de inkooporder. Voor andere wijzigingen moet u de inkooporder handmatig bijwerken. In dit geval is **Handmatige update** de waarde van het veld **Is update van inkooporder verwerkt**. Als een leverancier voorstelt dat een regel in een schema wordt gesplitst, moet deze wijziging bijvoorbeeld handmatig worden doorgevoerd.
 
-Elke regel met de status **Geaccepteerd** heeft een bevestigde leveringsdatum. Wanneer u de actie **Update van inkooporder verwerken** uitvoert, wordt deze datum bijgewerkt op de inkooporder. Notities en bijlagen worden niet automatisch overgebracht naar de huidige inkooporder. Wanneer u de huidige inkooporder bijwerkt via de actie **Update van inkooporder verwerken** , worden handelsovereenkomsten niet opnieuw beoordeeld op de inkooporderregels.
+Elke regel met de status **Geaccepteerd** heeft een bevestigde leveringsdatum. Wanneer u de actie **Update van inkooporder verwerken** uitvoert, wordt deze datum bijgewerkt op de inkooporder. Notities en bijlagen worden niet automatisch overgebracht naar de huidige inkooporder. Wanneer u de huidige inkooporder bijwerkt via de actie **Update van inkooporder verwerken**, worden handelsovereenkomsten niet opnieuw beoordeeld op de inkooporderregels.
 
 ## <a name="po-statuses-and-versions"></a>Statussen en versies van inkooporders
 
@@ -185,7 +185,7 @@ De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die ee
 | De leverancier verzendt een antwoord **Geaccepteerd met wijzigingen**. | De status is nog steeds **Externe controle**. |
 | U brengt enkele wijzigingen aan die door de leverancier zijn aangevraagd. | De status wordt gewijzigd in **Goedgekeurd**. |
 | U verzendt de nieuwe versie van de IO naar de leverancier. | Er wordt een nieuwe versie geregistreerd in de interface voor leverancierssamenwerking en de status wordt gewijzigd in **Externe controle**. |
-| De leverancier accepteert de nieuwe versie van de inkooporder. | De status is nog steeds **Externe controle** , tenzij de leveranciersaccount zo is geconfigureerd dat IO's bij acceptatie automatisch de status **Bevestigd** krijgen. |
+| De leverancier accepteert de nieuwe versie van de inkooporder. | De status is nog steeds **Externe controle**, tenzij de leveranciersaccount zo is geconfigureerd dat IO's bij acceptatie automatisch de status **Bevestigd** krijgen. |
 
 Leveranciers hoeven een inkooporder niet te bevestigen via de interface voor leverancierssamenwerking. Ze kunnen ook een e-mail verzenden of hun acceptatie van een inkooporder via andere kanalen doorgeven. U kunt de order vervolgens handmatig bevestigen. In dit geval ontvangt u een waarschuwing dat de order wordt bevestigd, zelfs als er geen antwoord van de leverancier is. De inkooporder wordt vervolgens in de bevestigingshistorie weergegeven als een openstaande bevestigde order die geen antwoorden heeft. Op dat punt heeft de leverancier niet meer de mogelijkheid om de inkooporder te bevestigen of af te wijzen.
 
@@ -212,9 +212,9 @@ De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die ee
 
 Als u consignatievoorraad gebruikt, kunnen leveranciers de interface voor leverancierssamenwerking gebruiken om informatie op de volgende pagina's te bekijken:
 
-- **Inkooporders die consignatievoorraad verbruiken** : inkooporders voor consignatievoorraad worden gegenereerd wanneer het eigendom van de voorraad van de leverancier naar uw bedrijf overgaat. Tegelijkertijd wordt een productontvangstbon geboekt. Deze consignatie-inkooporders worden alleen weergegeven op de pagina **Inkooporders die consignatievoorraad verbruiken**. Ze worden niet opgenomen op de pagina **Alle bevestigde inkooporders** in de module **Leverancierssamenwerking**.
-- **Producten ontvangen uit consignatievoorraad** : deze pagina bevat een overzicht van alle transacties waarvan het eigendom van producten van de leverancier is overgedragen aan uw bedrijf. Leveranciers kunnen deze informatie gebruiken om de klant te factureren.
-- **Voorhanden consignatievoorraad** : op deze pagina wordt de voorhanden consignatievoorraad weergegeven die het eigendom is van de leverancier en is ontvangen in uw magazijn.
+- **Inkooporders die consignatievoorraad verbruiken**: inkooporders voor consignatievoorraad worden gegenereerd wanneer het eigendom van de voorraad van de leverancier naar uw bedrijf overgaat. Tegelijkertijd wordt een productontvangstbon geboekt. Deze consignatie-inkooporders worden alleen weergegeven op de pagina **Inkooporders die consignatievoorraad verbruiken**. Ze worden niet opgenomen op de pagina **Alle bevestigde inkooporders** in de module **Leverancierssamenwerking**.
+- **Producten ontvangen uit consignatievoorraad**: deze pagina bevat een overzicht van alle transacties waarvan het eigendom van producten van de leverancier is overgedragen aan uw bedrijf. Leveranciers kunnen deze informatie gebruiken om de klant te factureren.
+- **Voorhanden consignatievoorraad**: op deze pagina wordt de voorhanden consignatievoorraad weergegeven die het eigendom is van de leverancier en is ontvangen in uw magazijn.
 
 ## <a name="working-with-rfqs-when-you-use-vendor-collaboration"></a>Werken met offerteaanvragen bij het gebruik van leverancierssamenwerking
 
@@ -222,18 +222,18 @@ In deze sectie wordt de interactie tussen klanten en leveranciers tijdens het pr
 
 ### <a name="alternates-attachments-amendments-and-returns"></a>Alternatieven, bijlagen, wijzigingen en retouren
 
-- **Alternatieven** : in de koptekst van een offerteaanvraagcase kunt u opgeven dat alternatieven zijn toegestaan voor niet-catalogusartikelregels. Wanneer alternatieven zijn ingeschakeld, kunnen leveranciers een alternatieve regel voor elke aangevraagde regel toevoegen.
-- **Bijlagen** : bijlagen kunnen worden toegevoegd op koptekst- en regelniveau van een offerteaanvraagcase. Bijlagen kunnen als intern of extern worden geclassificeerd. Interne bijlagen kunnen alleen aan de klantzijde worden weergegeven terwijl leveranciers externe bijlagen wel kunnen bekijken nadat ze zijn verzonden.
+- **Alternatieven**: in de koptekst van een offerteaanvraagcase kunt u opgeven dat alternatieven zijn toegestaan voor niet-catalogusartikelregels. Wanneer alternatieven zijn ingeschakeld, kunnen leveranciers een alternatieve regel voor elke aangevraagde regel toevoegen.
+- **Bijlagen**: bijlagen kunnen worden toegevoegd op koptekst- en regelniveau van een offerteaanvraagcase. Bijlagen kunnen als intern of extern worden geclassificeerd. Interne bijlagen kunnen alleen aan de klantzijde worden weergegeven terwijl leveranciers externe bijlagen wel kunnen bekijken nadat ze zijn verzonden.
 
     Leveranciers kunnen ook bijlagen toevoegen in hun antwoord op een bieding. Deze bijlagen kunnen aan de klantzijde worden weergegeven nadat het antwoord op een bieding is ingediend door een leverancier. Bijlagen die leveranciers toevoegen, worden altijd geclassificeerd als extern. Als u een bijlage wilt openen die een leverancier met een bieding heeft ingediend, selecteert u **Bijlagen bij biedingen** of **Bijlagen bij biedingsregels**.
     
     Als u bijlagen wilt openen die zijn verzonden met de offerteaanvraagcase, gebruikt u het symbool van de paperclip voor documentafhandeling in het antwoord.
 
-- **Aanpassingen** : wanneer een aanpassing is voltooid, worden de bestaande antwoorden op biedingen verwijderd, zodat deze kunnen worden vervangen door bijgewerkte waarden. Informatie zoals de regelprijs en hoeveelheid uit vorige antwoorden op biedingen kan worden weergegeven via de journalen in de offerteaanvraagcase.
+- **Aanpassingen**: wanneer een aanpassing is voltooid, worden de bestaande antwoorden op biedingen verwijderd, zodat deze kunnen worden vervangen door bijgewerkte waarden. Informatie zoals de regelprijs en hoeveelheid uit vorige antwoorden op biedingen kan worden weergegeven via de journalen in de offerteaanvraagcase.
 
     Om de verwerking van aanpassingen af te dwingen, stelt u op de pagina **Parameters voor inkoopbeheer** op het sneltabblad **Offerteaanvragen** de optie **Offerteaanvragen vergrendelen wanneer ze zijn verzonden** in op **Ja**. (Deze optie is ingesteld en vereist voor de publieke sector.)
 
-- **Retouren** : als een leverancier een bieding heeft ingediend, maar er meer of gewijzigde informatie vereist is voor de offerteaanvraagcase, kan de klant de bieding retourneren naar de leverancier. De gegevens uit het eerder ingediende bod blijven behouden en de leverancier kan de gevraagde wijzigingen doorvoeren zonder het biedingsproces opnieuw te hoeven starten.
+- **Retouren**: als een leverancier een bieding heeft ingediend, maar er meer of gewijzigde informatie vereist is voor de offerteaanvraagcase, kan de klant de bieding retourneren naar de leverancier. De gegevens uit het eerder ingediende bod blijven behouden en de leverancier kan de gevraagde wijzigingen doorvoeren zonder het biedingsproces opnieuw te hoeven starten.
 
 ## <a name="public-sector-extensions"></a>Uitbreidingen voor de publieke sector
 

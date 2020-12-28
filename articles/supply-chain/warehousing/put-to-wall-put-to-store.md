@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 12501b90e4b31ec11e3c59784ace9fd9a8b7d934
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017823"
+ms.locfileid: "4425778"
 ---
 # <a name="put-to-wall---put-to-store"></a>Put to wall - put to store
 
@@ -138,8 +138,8 @@ De sorteersjabloon bepaalt of er sorteerposities worden gemaakt, welke criteria 
 
         Dit veld bepaalt het proces waarvoor de sorteersjabloon wordt gebruikt. De volgende waarden zijn beschikbaar:
 
-        - **Wavevraag** : de sorteersjabloon wordt gebruikt voor het proces *Put to wall*. Dit sjabloontype wordt gebruikt om de verpakkingsplaats over te slaan en de voorraad rechtstreeks uit de wave te verwerken. U kunt dit type alleen gebruiken als de **sorteermethode** van het waveproces wordt opgenomen in de wavesjabloon.
-        - **Container** : de sorteersjabloon wordt gebruikt voor het proces *Pallet opbouwen na verpakking*. Dit sjabloontype wordt gebruikt voor het verwerken van containers die worden gesloten op de verpakkingsplaats en moeten worden gesorteerd op pallets.
+        - **Wavevraag**: de sorteersjabloon wordt gebruikt voor het proces *Put to wall*. Dit sjabloontype wordt gebruikt om de verpakkingsplaats over te slaan en de voorraad rechtstreeks uit de wave te verwerken. U kunt dit type alleen gebruiken als de **sorteermethode** van het waveproces wordt opgenomen in de wavesjabloon.
+        - **Container**: de sorteersjabloon wordt gebruikt voor het proces *Pallet opbouwen na verpakking*. Dit sjabloontype wordt gebruikt voor het verwerken van containers die worden gesloten op de verpakkingsplaats en moeten worden gesorteerd op pallets.
 
     - **Magazijn:** *62*
     - **Locatie:** *Sorteren*
@@ -156,21 +156,21 @@ De sorteersjabloon bepaalt of er sorteerposities worden gemaakt, welke criteria 
 
     - **Werk maken bij positie sluiten:** *Ja*
 
-        Als deze optie wordt ingesteld op *Ja* , wordt werk gemaakt wanneer de positie is gesloten om voorraad te verplaatsen naar de definitieve verzendlocatie. Als dit wordt ingesteld op *Nee* , wordt voorraad onmiddellijk verzameld op de order wanneer de positie wordt gesloten.
+        Als deze optie wordt ingesteld op *Ja*, wordt werk gemaakt wanneer de positie is gesloten om voorraad te verplaatsen naar de definitieve verzendlocatie. Als dit wordt ingesteld op *Nee*, wordt voorraad onmiddellijk verzameld op de order wanneer de positie wordt gesloten.
 
     - **Positietoewijzing:** *Handmatig*
 
         In dit veld wordt het type positietoewijzing gedefinieerd. De volgende waarden zijn beschikbaar:
 
-        - **Handmatig** : de gebruiker moet altijd aangeven op welke positie de voorraad moet worden gesorteerd.
-        - **Automatisch** : het systeem wijst de voorraad automatisch toe aan een positie, indien mogelijk op basis van de opsplitsingen in de sorteersjablonen.
+        - **Handmatig**: de gebruiker moet altijd aangeven op welke positie de voorraad moet worden gesorteerd.
+        - **Automatisch**: het systeem wijst de voorraad automatisch toe aan een positie, indien mogelijk op basis van de opsplitsingen in de sorteersjablonen.
 
     - **Criteria voor sorteerpositie toewijzen:** *alleen lege positie gebruiken*
 
         Met dit veld wordt bepaald of rekening wordt gehouden met voorraad die al aanwezig is op sorteerposities bij het toewijzen van een positie voor de vraag. De volgende waarden zijn beschikbaar:
 
-        - **Alleen lege positie gebruiken** : er wordt rekening gehouden met posities waaraan al voorraad is gekoppeld
-        - **Aannemen dat positie leeg is** : alle voorraad die al op de positie staat, wordt tijdens de toewijzing genegeerd. Alle beschikbare posities worden gebruikt.
+        - **Alleen lege positie gebruiken**: er wordt rekening gehouden met posities waaraan al voorraad is gekoppeld
+        - **Aannemen dat positie leeg is**: alle voorraad die al op de positie staat, wordt tijdens de toewijzing genegeerd. Alle beschikbare posities worden gebruikt.
 
     - **Wavestapcode:** *Sorteren*
 
@@ -178,7 +178,7 @@ De sorteersjabloon bepaalt of er sorteerposities worden gemaakt, welke criteria 
 
     - **Sorteerpositie automatisch sluiten:** *Ja*
 
-        Wanneer deze optie is ingesteld op *Ja* , wordt de sorteerpositie automatisch gesloten wanneer alle werk voor de positie is voltooid.
+        Wanneer deze optie is ingesteld op *Ja*, wordt de sorteerpositie automatisch gesloten wanneer alle werk voor de positie is voltooid.
 
     - **Aantal sorteerposities:** *3*
 
@@ -190,7 +190,7 @@ De sorteersjabloon bepaalt of er sorteerposities worden gemaakt, welke criteria 
 
     - **Sorteerpositie automatisch inpakken:** *Ja*
 
-        Als deze optie wordt ingesteld op *Ja* , wordt de voorraad op de sorteerpositie in een container verpakt wanneer de positie wordt afgesloten.
+        Als deze optie wordt ingesteld op *Ja*, wordt de voorraad op de sorteerpositie in een container verpakt wanneer de positie wordt afgesloten.
 
     - **Verpakkingsprofiel-id:** *Sorteren*
 
@@ -343,13 +343,13 @@ U moet locatie-instructies maken om het werk te begeleiden dat wordt gemaakt nad
 1. Maak in de sectie **Details van werksjabloon** twee regels. Selecteer **Nieuw** en stel de volgende waarden voor regel 1 in:
 
     - **Werktype:** *Orderverzamelen*
-    - **Verplicht:** geselecteerd (= *Ja* )
+    - **Verplicht:** geselecteerd (= *Ja*)
     - **Werkklasse-id:** *Sorteren*
 
 1. Selecteer nogmaals **Nieuw** en stel de volgende waarden voor regel 2 in:
 
     - **Werktype:** *Wegzetten*
-    - **Verplicht:** geselecteerd (= *Ja* )
+    - **Verplicht:** geselecteerd (= *Ja*)
     - **Werkklasse-id:** *Sorteren*
 
 1. Selecteer **Opslaan**.
@@ -494,7 +494,7 @@ Nu alle voorraad op de sorteerlocatie is geplaatst, moet deze worden gesorteerd 
 1. Bevestig uw invoer.
 1. Voer het artikelnummer in dat u als eerste wilt sorteren.
 1. Het systeem bepaalt de eerste sorteerpositie die moet worden weergegeven. Bevestig de sorteerpositie.
-1. U wordt gevraagd een nummerplaat aan de sorteerpositie toe te wijzen. Selecteer het veld **LP** , voer een nummer voor de nummerplaat in en bevestig uw invoer.
+1. U wordt gevraagd een nummerplaat aan de sorteerpositie toe te wijzen. Selecteer het veld **LP**, voer een nummer voor de nummerplaat in en bevestig uw invoer.
 
     Omdat de sorteerpositie is gerelateerd aan de zending-id, kunt u de verzamelde artikelen op een nummerplaat sorteren die specifiek is voor de uitgaande zending en verkooporder.
 
@@ -519,7 +519,7 @@ Nu alle voorraad op de sorteerlocatie is geplaatst, moet deze worden gesorteerd 
 1. Voltooi de gesorteerde voorraadpicks om de voorraad naar de verzendlocatie te verplaatsen. Wanneer de voorraad gereed is, moet u de verzending bevestigen.
 
 > [!NOTE]
-> Voor een correcte verwerking van gesorteerde voorraadpicks kan een menuopdracht van het mobiele apparaat met een werkklasse-id waarvoor het veld **Werkordertype** is ingesteld op *Gesorteerde voorraadverzameling* , worden gebruikt voor het verplaats- en laadproces.
+> Voor een correcte verwerking van gesorteerde voorraadpicks kan een menuopdracht van het mobiele apparaat met een werkklasse-id waarvoor het veld **Werkordertype** is ingesteld op *Gesorteerde voorraadverzameling*, worden gebruikt voor het verplaats- en laadproces.
 
 ### <a name="manually-close-a-position-optional"></a>Handmatig een positie sluiten (optioneel)
 
@@ -530,7 +530,7 @@ Als de sorteerposities handmatig moeten worden gesloten, moet de optie **Sorteer
     - De gebruiker kan een van de artikelen scannen die zich al op de positie bevinden en vervolgens **Sluiten** selecteren om de positie te sluiten.
     - Als de gebruiker een container scant die al is gesorteerd, wordt een foutbericht weergegeven. De gebruiker kan echter wel doorgaan met het sluiten van de positie.
 
-- Op de pagina Microsoft Dynamics 365 Supply Chain Management **Toewijzingen voor uitgaande sorteerposities** :
+- Op de pagina Microsoft Dynamics 365 Supply Chain Management **Toewijzingen voor uitgaande sorteerposities**:
 
     - De gebruiker kan de uitgaande positierecord selecteren en vervolgens **Positie sluiten** selecteren in het actievenster.
 

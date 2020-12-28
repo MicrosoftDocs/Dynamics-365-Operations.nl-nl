@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017708"
+ms.locfileid: "4425780"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Indeling van documentroutering voor nummerplaatlabels
 
@@ -63,10 +63,10 @@ $FieldName:FormatString$
 
 Hier volgt een uitleg van deze opmaak:
 
-- `FieldName` is de naam van het gegevensveld (bijvoorbeeld **Hoeveelheid** ).
+- `FieldName` is de naam van het gegevensveld (bijvoorbeeld **Hoeveelheid**).
 - `FormatString` definieert hoe de gegevens moeten worden afgedrukt.
 
-De volgende voorbeelden laten zien hoe u het veld met de werkhoeveelheid( **Hoeveelheid** ) kunt aanpassen:
+De volgende voorbeelden laten zien hoe u het veld met de werkhoeveelheid(**Hoeveelheid**) kunt aanpassen:
 
 - Als u altijd vier cijfers wilt weergeven (met nullen als tijdelijke aanduidingen ), gebruikt u `$Qty:0000$`. Als de hoeveelheid bijvoorbeeld 10 is, wordt in het label "0010" weergegeven.
 - Gebruik `$Qty:0.00$` om altijd twee decimalen weer te geven. Als de hoeveelheid bijvoorbeeld 10 is, wordt in het label "10,00" weergegeven.

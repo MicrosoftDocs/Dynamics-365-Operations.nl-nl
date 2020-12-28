@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ce6b76d92526b9a353bda2524bdfd0f7f4a5f68e
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018831"
+ms.locfileid: "4425761"
 ---
 # <a name="purchase-agreements"></a>Inkoopovereenkomsten
 
@@ -52,10 +52,10 @@ U kunt een primaire verantwoordelijke medewerker en secundaire verantwoordelijke
 ## <a name="commitment-types"></a>Toezeggingstypen
 Elke regel in een inkoopovereenkomst staat voor een toezegging om iets te kopen. U kunt regels uit meerdere inkooporders gebruiken om te voldoen aan de verbintenis. Er zijn vier typen toezeggingen:
 
--   **Toezegging producthoeveelheid** : U koopt een specifieke hoeveelheid producten.
--   **Toezegging productwaarde** : U koopt voor een specifiek bedrag in een bepaalde valuta van een product.
--   **Waardetoezegging productcategorie** : U koopt voor een specifiek bedrag in een bepaalde inkoopcategorie. Het bedrag kan voor een catalogusartikel of een niet-catalogusartikel zijn.
--   **Waardetoezegging** : U koopt voor een bepaald bedrag van eender welk product/producten in een inkoopcategorie.
+-   **Toezegging producthoeveelheid**: U koopt een specifieke hoeveelheid producten.
+-   **Toezegging productwaarde**: U koopt voor een specifiek bedrag in een bepaalde valuta van een product.
+-   **Waardetoezegging productcategorie**: U koopt voor een specifiek bedrag in een bepaalde inkoopcategorie. Het bedrag kan voor een catalogusartikel of een niet-catalogusartikel zijn.
+-   **Waardetoezegging**: U koopt voor een bepaald bedrag van eender welk product/producten in een inkoopcategorie.
 
 ## <a name="pricing-terms-for-purchase-agreements"></a>Prijsvoorwaarden voor inkoopovereenkomsten
 Prijsvoorwaarden kunnen variëren, afhankelijk van het type verbintenis. De prijsvoorwaarden van inkoopovereenkomsten vervangen eventuele andere prijsvoorwaarden die zijn ingesteld voor handelsovereenkomsten. De volgende tabel beschrijft de prijsgerelateerde velden die worden beïnvloed door elk toezeggingstype. Velden met **Ja** kunnen worden bijgewerkt op een orderregel.
@@ -70,9 +70,9 @@ Prijsvoorwaarden kunnen variëren, afhankelijk van het type verbintenis. De prij
 ## <a name="policies-for-purchase-agreements"></a>Beleid voor inkoopovereenkomsten
 Het volgende beleid beïnvloedt de manier waarop de koppeling tussen een inkoopovereenkomst en de bijbehorende inkooporderregels werkt:
 
--   **Max is afgedwongen** : Het totale aantal of bedrag voor alle orderregels mag niet meer dan de hoeveelheid of het bedrag zijn dat is opgegeven op de gerelateerde toezegging.
--   **Prijs en korting zijn vast** : De prijs op een orderregel en de prijs op de bijbehorende toezegging moeten hetzelfde zijn. Als de prijs op de orderregel wordt gewijzigd, wordt de koppeling naar de toezegging verbroken. Als de koppeling wordt verbroken, draagt de orderregel niet bij aan het voldoen aan de toezegging.
--   **Minimale vrijgavebedrag en Maximale vrijgavebedrag** : Als een bedrag wordt opgegeven, krijgt u een melding als u een wijziging aanbrengt in een orderregel, waardoor de orderregel afwijkt van de gerelateerde toezegging.
+-   **Max is afgedwongen**: Het totale aantal of bedrag voor alle orderregels mag niet meer dan de hoeveelheid of het bedrag zijn dat is opgegeven op de gerelateerde toezegging.
+-   **Prijs en korting zijn vast**: De prijs op een orderregel en de prijs op de bijbehorende toezegging moeten hetzelfde zijn. Als de prijs op de orderregel wordt gewijzigd, wordt de koppeling naar de toezegging verbroken. Als de koppeling wordt verbroken, draagt de orderregel niet bij aan het voldoen aan de toezegging.
+-   **Minimale vrijgavebedrag en Maximale vrijgavebedrag**: Als een bedrag wordt opgegeven, krijgt u een melding als u een wijziging aanbrengt in een orderregel, waardoor de orderregel afwijkt van de gerelateerde toezegging.
 
 ## <a name="fulfillment-calculations-for-purchase-agreements"></a>Berekeningen voor het voldoen aan inkoopovereenkomsten
 De uitvoeringshoeveelheden en bedragen worden getoond op het tabblad **Uitvoering** op het sneltabblad **Regeldetails** op de pagina **Inkoopovereenkomsten**.  
@@ -93,7 +93,7 @@ U kunt een inkoopovereenkomst alleen selecteren wanneer u een inkooporder maakt.
 In sommige situaties waarin verkooporders indirect worden gemaakt, is het mogelijk te bepalen of Supply Chain Management automatisch moet zoeken naar relevante inkoopovereenkomsten. U kunt dit bijvoorbeeld doen wanneer u automatisch geplande inkooporders goedkeurt of inkooporders maakt die zijn gebaseerd op verkooporders.
 
 ## <a name="matching-policy-on-purchase-agreements"></a>Overeenstemmingsbeleid voor inkoopovereenkomsten
-U kunt een regelovereenstemmingsbeleid definiëren in de koptekst van de inkoopovereenkomst. Met dit regelovereenstemmingsbeleid wordt het regelovereenstemmingsbeleid voor de leveranciersparameters gerespecteerd wanneer het veld **Overschrijven van overeenstemmingsbeleid toestaan** op de pagina **Parameters van module Leveranciers** (op het sneltabblad **Prijs- en hoeveelheidsvereffening** ) is ingesteld op **Hoger dan bedrijfsbeleid**. Documenten die naar de inkoopovereenkomst verwijzen, gebruiken het regelovereenstemmingsbeleid dat is gedefinieerd in de koptekst van de inkoopovereenkomst, tenzij anders is opgegeven in het inkoopbeleid voor dit artikel, de combinatie van artikel en leverancier of de categorie.
+U kunt een regelovereenstemmingsbeleid definiëren in de koptekst van de inkoopovereenkomst. Met dit regelovereenstemmingsbeleid wordt het regelovereenstemmingsbeleid voor de leveranciersparameters gerespecteerd wanneer het veld **Overschrijven van overeenstemmingsbeleid toestaan** op de pagina **Parameters van module Leveranciers** (op het sneltabblad **Prijs- en hoeveelheidsvereffening**) is ingesteld op **Hoger dan bedrijfsbeleid**. Documenten die naar de inkoopovereenkomst verwijzen, gebruiken het regelovereenstemmingsbeleid dat is gedefinieerd in de koptekst van de inkoopovereenkomst, tenzij anders is opgegeven in het inkoopbeleid voor dit artikel, de combinatie van artikel en leverancier of de categorie.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Inkoopovereenkomsten en intercompany-handel
 Intercompany-handelsrelaties kunnen worden gemaakt tussen leveranciersrekeningen en klantenrekeningen van verschillende rechtspersonen. Wanneer een verkooporder of inkooporder is gemaakt voor een van de partijen, wordt een intercompany-orderketen gemaakt. In de orderketen worden de verkooporder en inkooporder gemaakt in de juiste rechtspersonen.  

@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: a89effb686d60dde9d11f99be51d4101897ad4ea
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018624"
+ms.locfileid: "4425868"
 ---
 # <a name="troubleshoot-product-receipts-and-invoicing"></a>Problemen met productontvangstbonnen en -facturering oplossen
 
@@ -38,7 +38,7 @@ Een hoeveelheid is verplicht als u facturen wilt boeken. Als de volledige hoevee
 
 Dit probleem kan optreden vanwege inconsistenties in inkooporderdistributies.
 
-Als u dit probleem wilt verhelpen en de inkooporder wilt terugzetten op de status *Concept* , gaat u naar **Inkoopbeheer \> Periodieke taken \> Opschonen \> Distributie van inkooporder opnieuw instellen**. Zie het volgende blogbericht voor meer informatie: [Fouten met IO-distributie in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/) oplossen.
+Als u dit probleem wilt verhelpen en de inkooporder wilt terugzetten op de status *Concept*, gaat u naar **Inkoopbeheer \> Periodieke taken \> Opschonen \> Distributie van inkooporder opnieuw instellen**. Zie het volgende blogbericht voor meer informatie: [Fouten met IO-distributie in Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/) oplossen.
 
 ## <a name="i-cant-consolidate-multiple-product-receipts-into-a-single-purchase-order"></a>Ik kan niet meerdere productontvangstbonnen in één inkooporder consolideren.
 
@@ -62,7 +62,7 @@ In de volgende procedure wordt één manier weergegeven om het probleem te repro
 1. Maak een inkooporder en voeg een orderregel toe met een hoeveelheid van *1000* voor een product.
 1. Bevestig de inkooporder.
 1. Boek de productontvangstbon en controleer de boekstukken.
-1. Schort de relevante hoofdrekeningen, *200140* en *140200* , op.
+1. Schort de relevante hoofdrekeningen, *200140* en *140200*, op.
 1. Annuleer de geboekte productontvangstbon.
 1. U ziet dat transacties naar de uitgestelde grootboekrekeningen kunnen worden geboekt.
 
@@ -74,7 +74,7 @@ Transacties kunnen worden geboekt naar de opgeschorte grootboekrekeningen wannee
 
 Als de optie **Toerekening van aansprakelijkheid bij productontvangstbon** is ingesteld op *Nee* voor de artikelmodelgroep, worden er geen boekingen naar het grootboek uitgevoerd. Er wordt echter een fysieke gebeurtenis voor de boekhouding in een subadministratie geregistreerd en voor die gebeurtenis is een boekstuknummer vereist. Dit boekstuknummer is het boekstuknummer waarnaar in de voorraadtransacties wordt verwezen.
 
-Het is raadzaam om de optie **Toerekening van aansprakelijkheid bij productontvangstbon** in te stellen op *Ja* , zoals wordt beschreven in het volgende blogbericht: [Diverse toeslagen boeken op het moment van ontvangst van het product](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
+Het is raadzaam om de optie **Toerekening van aansprakelijkheid bij productontvangstbon** in te stellen op *Ja*, zoals wordt beschreven in het volgende blogbericht: [Diverse toeslagen boeken op het moment van ontvangst van het product](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
 
 ## <a name="the-post-to-charge-account-in-ledger-setting-isnt-turned-on"></a>De instelling Boeken op toeslagrekening in grootboek is niet ingeschakeld.
 

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889836"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425550"
 ---
 # <a name="asset-management-parameters"></a>Parameters voor activabeheer
 
@@ -52,7 +52,7 @@ Koppeling **Werkorders**
 
 - **Standaard werkordertype** definieert standaardinstellingen bij het maken van een werkorder.  
 - **Preventief werkordertype** definieert het type werkorder dat wordt gebruikt bij het maken van werkorders op basis van onderhoudsplannen. Als dit veld leeg blijft, wordt het werkordertype in het veld **Standaard werkordertype** gebruikt.  
-- In het veld **Verwant werkordermasker** definieert u het maximumaantal werkorders dat aan een werkorder kan worden gekoppeld. Met ## kunt u bijvoorbeeld maximaal 99 verwante werkorders hebben. Als u een masker definieert zoals hier wordt beschreven, worden gerelateerde werkorders genummerd [werkorder-id van de werkorder waaraan een werkorder is gerelateerd]-01, -02, -03 enzovoort. Als u geen masker in dit veld definieert, krijgt een verwante werkorder de volgende sequentiële werkorder-id.  
+- In het veld **Verwant werkordermasker** definieert u het maximumaantal werkorders dat aan een werkorder kan worden gekoppeld. Met ## kunt u bijvoorbeeld maximaal 99 verwante werkorders hebben. Als u een masker definieert zoals hier wordt beschreven, worden gerelateerde werkorders genummerd als [werkorder-id van de werkorder waaraan een werkorder is gerelateerd] -01, -02, -03, enzovoort. Als u geen masker in dit veld definieert, krijgt een verwante werkorder de volgende sequentiële werkorder-id.  
 - Selecteer **Ja** bij **Fouten kopiëren** als u automatisch fouten die zijn geregistreerd voor werkorders wilt kopiëren naar gerelateerde onderhoudsaanvragen. 
 - In het veld **Niveau** definieert u het functionele locatieniveau dat automatisch in een werkorder wordt ingevoegd als alle gerelateerde werkordertaken naar dezelfde functionele locatie verwijzen. Als de werkordertaken niet allemaal betrekking hebben op dezelfde functionele locatie op het gedefinieerde niveau, wordt het veld **Functionele locatie** leeg gelaten in de werkorder. Als u bijvoorbeeld het cijfer '1' in dit veld invoegt, is dat het hoogste niveau in een functionele locatiestructuur. Als u het cijfer '0' in dit veld invoegt, hebt u geen specifiek functioneel locatieniveau gedefinieerd, maar alleen aangegeven dat de functionele locatie alleen aan de werkorder wordt toegevoegd als alle werkordertaken in een werkorder aan dezelfde functionele locatie zijn gerelateerd.  
 - Journalen die worden gebruikt bij het boeken van verbruik in een werkorder kunnen worden geselecteerd op het sneltabblad **Algemeen** in de velden **Uur**, **Artikel** en **Onkosten**.  

@@ -20,11 +20,11 @@ ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
 ms.openlocfilehash: a74d2987eac7409b5f576a52eccc37cf29566c7b
-ms.sourcegitcommit: 4a32634690a741535f3f4babfd753f7c227ad6fe
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3958788"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425257"
 ---
 # <a name="set-up-master-planning"></a>Hoofdplanning instellen
 
@@ -117,10 +117,10 @@ Taakplanning is een meer gedetailleerde planningsmethode, waarbij elke bewerking
 
 ## <a name="time-fences-in-days"></a>Time fences in dagen
 
-Voor elk plan kunt u selecteren hoe ver in de toekomst de verschillende vereisten en andere overwegingen moeten worden berekend op basis van de hoofdplanning. De periode wordt een *time fence*genoemd. Voor de beste prestaties in de hoofdplanning raden wij aan de verschillende time fences aan te passen om aan uw zakelijke vereisten te voldoen. Voor elk plan kunt u de time fences vinden op het sneltabblad **Time fences in dagen** op de pagina **Hoofdplannen** (**Hoofdplanning \> Instellingen \> Plannen \> Hoofdplannen**).
+Voor elk plan kunt u selecteren hoe ver in de toekomst de verschillende vereisten en andere overwegingen moeten worden berekend op basis van de hoofdplanning. De periode wordt een *time fence* genoemd. Voor de beste prestaties in de hoofdplanning raden wij aan de verschillende time fences aan te passen om aan uw zakelijke vereisten te voldoen. Voor elk plan kunt u de time fences vinden op het sneltabblad **Time fences in dagen** op de pagina **Hoofdplannen** (**Hoofdplanning \> Instellingen \> Plannen \> Hoofdplannen**).
 
 > [!NOTE]
-> De time fences geven aan hoe ver in de toekomst de verschillende vereisten en andere overwegingen worden berekend door de hoofdplanning. De time fences die zijn geselecteerd op deze pagina, overschrijven de time fences die zijn gedefinieerd in de behoefteplanningsgroep. Dit betekent dat een time fence-optie wordt ingesteld op Ja en dat het definiëren van de dagen de time fence die is gedefinieerd in de behoefteplanningsgroep zal overschrijven. Bij het instellen op Nee wordt de time fence gedefinieerd in de behoefteplanningsgroep. Als u een optie niet wilt of hoeft te gebruiken (u wilt bijvoorbeeld geen actieberichten gebruiken), stelt u deze in op **Ja**en stelt u de time fence in op **0** (nul) dagen.
+> De time fences geven aan hoe ver in de toekomst de verschillende vereisten en andere overwegingen worden berekend door de hoofdplanning. De time fences die zijn geselecteerd op deze pagina, overschrijven de time fences die zijn gedefinieerd in de behoefteplanningsgroep. Dit betekent dat een time fence-optie wordt ingesteld op Ja en dat het definiëren van de dagen de time fence die is gedefinieerd in de behoefteplanningsgroep zal overschrijven. Bij het instellen op Nee wordt de time fence gedefinieerd in de behoefteplanningsgroep. Als u een optie niet wilt of hoeft te gebruiken (u wilt bijvoorbeeld geen actieberichten gebruiken), stelt u deze in op **Ja** en stelt u de time fence in op **0** (nul) dagen.
 
 ### <a name="coverage"></a>Behoefteplanning
 

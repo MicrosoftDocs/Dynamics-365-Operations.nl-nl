@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017156"
+ms.locfileid: "4425766"
 ---
 # <a name="location-product-dimension-mixing"></a>Productdimensies op locaties combineren
 
@@ -216,7 +216,7 @@ U maakt een inkoop order met drie regels: twee regels voor hetzelfde productnumm
 1. Bevestig uw invoer door te tikken op de knop Bevestigen (✔) onderaan de pagina.
 1. Voer het regelnummer in van de inkooporder die u ontvangt. Selecteer het veld **LINENUM** en voer vervolgens *1* in door middel van het cijfertoetsenblok.
 1. Bevestig uw invoer.
-1. Voer de hoeveelheid in die u ontvangt. Selecteer de knop met het plusteken ( **+** ) twee keer om de waarde in het veld **Hoeveelheid** te verhogen naar *2*.
+1. Voer de hoeveelheid in die u ontvangt. Selecteer de knop met het plusteken (**+**) twee keer om de waarde in het veld **Hoeveelheid** te verhogen naar *2*.
 1. Registreer uw invoer door te tikken de knop (✔) onderaan de pagina en bevestig de invoer door opnieuw op de knop (✔) te tikken.
 1. Bekijk de informatie op de pagina **Inkooporders: wegzetten**. Op deze pagina wordt het werk weergegeven dat is gemaakt voor het wegzetten (Werk 1).
 
@@ -229,7 +229,7 @@ U maakt een inkoop order met drie regels: twee regels voor hetzelfde productnumm
 
 1. Herhaal stappen 4 tot en met 11 opnieuw voor inkooporderregel 2. Geef echter in stap 8 als resterende hoeveelheid *1* op.
 
-    Nieuw wegzetwerk (Werk 3) wordt gemaakt voor dezelfde locatie als Werk 1 en Werk 2. Dit gedrag treedt op omdat de locatie-instructiestrategie *Samenvoegen* wordt gebruikt en het sneltabblad **Toegestane productdimensiecombinaties** in de instellingen van de *Bulk* - **locatieprofielen** toestaat dat de variant **Formaat** op een locatie wordt gecombineerd.
+    Nieuw wegzetwerk (Werk 3) wordt gemaakt voor dezelfde locatie als Werk 1 en Werk 2. Dit gedrag treedt op omdat de locatie-instructiestrategie *Samenvoegen* wordt gebruikt en het sneltabblad **Toegestane productdimensiecombinaties** in de instellingen van de *Bulk*-**locatieprofielen** toestaat dat de variant **Formaat** op een locatie wordt gecombineerd.
 
 1. Herhaal stappen 4 tot en met 11 voor inkooporderregel 3. Geef in stap 8 als hoeveelheid *1* op voor artikel nummer *A0001*.
 
@@ -238,4 +238,4 @@ U maakt een inkoop order met drie regels: twee regels voor hetzelfde productnumm
 1. Tik op de menuknop boven aan de pagina (ook wel aangeduid als de hamburger of de hamburgerknop) en selecteer **Annuleren** om **IO-regel ontvangst** af te sluiten.
 
 > [!TIP]
-> U kunt dit scenario herhalen. Stel deze keer **Formaat** - *Nee* in op het sneltabblad **Toegestane productdimensiecombinaties** op de *BULK* - **locatieprofielen** , zodat geen van de productdimensies kunnen worden gecombineerd. Wanneer u de inkooporder ontvangt, wordt in dit geval elke productvariant op een nieuwe locatie geplaatst.
+> U kunt dit scenario herhalen. Stel deze keer **Formaat** - *Nee* in op het sneltabblad **Toegestane productdimensiecombinaties** op de *BULK*-**locatieprofielen**, zodat geen van de productdimensies kunnen worden gecombineerd. Wanneer u de inkooporder ontvangt, wordt in dit geval elke productvariant op een nieuwe locatie geplaatst.

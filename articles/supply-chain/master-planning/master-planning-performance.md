@@ -20,11 +20,11 @@ ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
 ms.openlocfilehash: fa8426c3a1f19f8607f45e9ac4d57300abddb161
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323641"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425661"
 ---
 # <a name="improve-master-planning-performance"></a>Prestaties van hoofdplanning verbeteren
 
@@ -56,7 +56,7 @@ Het aantal helpers dat tijdens de hoofdplanning wordt gebruikt, moet kleiner dan
 
 Als u de instelling **Aantal taken in de taakbundel** (de bundelgrootte) wijzigt, kunt u mogelijk de uitvoeringstijd verkorten. Deze instelling bepaalt het aantal artikelen dat met één helper gezamenlijk wordt gepland.
 
-U kunt de parameter **Aantal taken in de taakbundel** in de sectie **Prestaties** op het tabblad **Algemeen** van de pagina **Parameters hoofdplanning** instellen (**Hoofdplanning \> Instellen \> Parameters hoofdplanning**). De beste waarde voor deze parameter is afhankelijk van uw gegevens. Daarom is het raadzaam om te beginnen met de waarde **1**en vervolgens een proefondervindelijk proces te gebruiken om de beste waarde voor uw instellingen te bepalen.
+U kunt de parameter **Aantal taken in de taakbundel** in de sectie **Prestaties** op het tabblad **Algemeen** van de pagina **Parameters hoofdplanning** instellen (**Hoofdplanning \> Instellen \> Parameters hoofdplanning**). De beste waarde voor deze parameter is afhankelijk van uw gegevens. Daarom is het raadzaam om te beginnen met de waarde **1** en vervolgens een proefondervindelijk proces te gebruiken om de beste waarde voor uw instellingen te bepalen.
 
 Over het algemeen is het raadzaam om het aantal taken te verhogen wanneer het aantal artikelen erg groot is (in de honderdduizenden). Anders moet u het aantal taken verminderen. Houd rekening met de volgende aanbevelingen voor de volgende specifieke industrieën:
 

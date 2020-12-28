@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 3610725815b35609ee98b69b367db2945bbf166a
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016166"
+ms.locfileid: "4425803"
 ---
 # <a name="cluster-position-full"></a>Clusterpositie vol
 
@@ -56,11 +56,11 @@ U moet opgeven of cluster-Id's automatisch worden gegenereerd, hoeveel posities 
 1. Selecteer in het lijstvenster de record **Cluster maken**.
 1. Verifieer op het sneltabblad **Algemeen** de volgende waarden:
 
-    - **Cluster-id maken** : *Ja*
+    - **Cluster-id maken**: *Ja*
     - **Posities activeren:** *Ja*
     - **Aantal posities:** *2*
     - **Positienaam:** *Numeriek*
-    - **Cluster opsplitsen bij** : *Wegzetten*
+    - **Cluster opsplitsen bij**: *Wegzetten*
     - **Verificatietype sorteren:** *Positie scannen*
 
 1. Op het sneltabblad **Cluster sorteren**. Het raster moet leeg zijn (geen regels bevatten).
@@ -103,11 +103,11 @@ Configureer een menu-item voor een mobiel apparaat om bestaand werk te gebruiken
 
     Accepteer de standaardwaarden voor alle overige velden.
 
-1. Voeg indien nodig de volgende twee regels toe op het sneltabblad **Werkklassen** :
+1. Voeg indien nodig de volgende twee regels toe op het sneltabblad **Werkklassen**:
 
     - Regel 1 (gewoonlijk aanwezig in voorbeeldgegevens):
 
-        - **Werkklasse-id** : *Verkoop* 
+        - **Werkklasse-id**: *Verkoop* 
         - **Werkordertype:** *Verkooporders*
 
     - Regel 2 (waarschijnlijk niet aanwezig in voorbeeldgegevens):
@@ -202,7 +202,7 @@ Er moeten twee werk-id's met elk twee pickregels zijn gemaakt. Voer de volgende 
 1. Selecteer de rij voor elke verkooporder om gerelateerde informatie weer te geven in het raster **Regels**. Noteer de locatie waar elk artikel wordt verzameld.
 1. Ga naar **Voorraadbeheer \> Query's en rapporten \> Voorhanden voorraad**.
 1. Selecteer in het actievenster de optie **Dimensies** om het dialoogvenster **Weergave van dimensies** te openen.
-1. Controleer of de selectievakjes **Nummerplaat** , **Magazijn** en **Artikelnummer** zijn ingeschakeld en selecteer **OK**.
+1. Controleer of de selectievakjes **Nummerplaat**, **Magazijn** en **Artikelnummer** zijn ingeschakeld en selecteer **OK**.
 1. Stel in het deelvenster **Filter** de volgende filters in:
 
     - **Artikelnummer** – **is één van** – *L0101* en *T100*
@@ -237,10 +237,10 @@ Tijdens de volgende stappen kunt u op elk gewenst moment het tabblad **Details**
 
     De pagina **TAAK: Sorteren: Clusterverzameling maken** wordt weergegeven. Hier kunt u de twee verzamelde pallets in een orderverzamelingspositie sorteren. Deze positie kan een tote of container zijn die wordt gebruikt om de verzamelde voorraad te scheiden op verkooporder.
 
-1. Bekijk de details die worden weergegeven voor het artikel ( *L0101* ) en aantal ( *20* ea) dat wordt gesorteerd op positie 1 (voor verkooporder 1).
+1. Bekijk de details die worden weergegeven voor het artikel (*L0101*) en aantal (*20* ea) dat wordt gesorteerd op positie 1 (voor verkooporder 1).
 1. Stel het veld **POSITIE NA** in op *1*.
 1. Selecteer **OK** (symbool voor vinkje).
-1. Bekijk de details die worden weergegeven voor het artikel ( *L0101* ) en aantal ( *20* ea) dat wordt gesorteerd op positie 2 (voor verkooporder 2).
+1. Bekijk de details die worden weergegeven voor het artikel (*L0101*) en aantal (*20* ea) dat wordt gesorteerd op positie 2 (voor verkooporder 2).
 1. Stel het veld **POSITIE NA** in op *2*.
 1. Selecteer **OK** (symbool voor vinkje).
 
@@ -259,10 +259,10 @@ In dit scenario kan positie 1 niet de volledige hoeveelheid artikelen accepteren
 1. Selecteer **OK** (symbool voor vinkje).
 1. Voer de nummerplaat in waarvan het artikel wordt verzameld door het veld **LP** in te stellen op *LPREPL04*.
 1. Selecteer **OK** (symbool voor vinkje).
-1. Bekijk de details die worden weergegeven voor het artikel ( *T0100* ) en aantal ( *2* ea) dat wordt gesorteerd op positie 2 (voor verkooporder 2).
+1. Bekijk de details die worden weergegeven voor het artikel (*T0100*) en aantal (*2* ea) dat wordt gesorteerd op positie 2 (voor verkooporder 2).
 1. Stel het veld **POSITIE NA** in op *2*.
 1. Selecteer **OK** (symbool voor vinkje).
-1. Bekijk de details die worden weergegeven voor het artikel ( *T0100* ) en aantal ( *2* ea) dat wordt gesorteerd op positie 1 (voor verkooporder 1).
+1. Bekijk de details die worden weergegeven voor het artikel (*T0100*) en aantal (*2* ea) dat wordt gesorteerd op positie 1 (voor verkooporder 1).
 1. Stel het veld **POSITIE NA** in op *1*.
 1. Selecteer **OK** (symbool voor vinkje).
 

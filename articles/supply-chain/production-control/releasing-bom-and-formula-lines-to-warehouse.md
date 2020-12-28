@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017225"
+ms.locfileid: "4425788"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Stuklijst- en formuleregels vrijgeven aan het magazijn
 
@@ -39,14 +39,14 @@ U kunt de vrijgave van stuklijst- en formuleregels configureren zodat dit als on
 
 De methode voor het vrijgeven van stuklijst- en formuleregels wordt beheerd op basis van de parameter **Vrijgave van productielijn**. U vindt deze parameter via **Productiebeheer** \> **Instelling** \> **Productieparameters**.
 
-- **Stuklijst- en formuleregels vrijgeven als onderdeel van vrijgave van productie- of batchorder** : bij deze methode worden stuklijst- en formuleregels voor een productie- of batchorder vrijgegeven als onderdeel van het proces voor het vrijgeven van de order. Normaal gesproken worden tijdens de vrijgave van een productie- of batchorder productietaken vrijgegeven aan de werknemers op de werkvloer en worden productiedocumenten afgedrukt. Tijdens dit proces wordt de status van de order gewijzigd in **Vrijgegeven**.
-- **Stuklijst- en formuleregels via een batchtaak of handmatige vrijgeven** : bij deze methode kunnen stuklijst- en formuleregels alleen handmatig of via de batchtaak **Automatische vrijgave van stuklijst en formuleregels** worden vrijgegeven. Als u stuklijst- en formuleregels handmatig wilt vrijgeven, selecteert u op de lijst- of detailpagina van de productieorder in het actievenster de optie **Vrijgave naar magazijn**.
+- **Stuklijst- en formuleregels vrijgeven als onderdeel van vrijgave van productie- of batchorder**: bij deze methode worden stuklijst- en formuleregels voor een productie- of batchorder vrijgegeven als onderdeel van het proces voor het vrijgeven van de order. Normaal gesproken worden tijdens de vrijgave van een productie- of batchorder productietaken vrijgegeven aan de werknemers op de werkvloer en worden productiedocumenten afgedrukt. Tijdens dit proces wordt de status van de order gewijzigd in **Vrijgegeven**.
+- **Stuklijst- en formuleregels via een batchtaak of handmatige vrijgeven**: bij deze methode kunnen stuklijst- en formuleregels alleen handmatig of via de batchtaak **Automatische vrijgave van stuklijst en formuleregels** worden vrijgegeven. Als u stuklijst- en formuleregels handmatig wilt vrijgeven, selecteert u op de lijst- of detailpagina van de productieorder in het actievenster de optie **Vrijgave naar magazijn**.
 
 Bekijk deze korte YouTube-video voor een snelle demonstratie van het vrijgeven van stuklijst- en formuleregels voor productie met behulp van een batchtaak: [Productieverzameling vrijgeven aan het magazijn in batch](https://www.youtube.com/watch?v=8urAJn50dQ8).
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>De stuklijst- en formuleregels vrijgeven met een batchtaak
 
-De batchtaak **Automatische vrijgave van stuklijst en formuleregels** doorloopt de geselecteerde stuklijst- en formuleregels met een resterende vrij te geven hoeveelheid. Alleen orders met de status **Vrijgegeven** , **Gestart** of **Gereedgemeld** worden gecontroleerd. Als een stuklijst- of formuleregel een resterende vrij te geven hoeveelheid bevat, wordt de hoeveelheid vrijgegeven die kan worden gedekt door de hoeveelheid die al fysiek is gereserveerd en de hoeveelheid die fysiek beschikbaar is.
+De batchtaak **Automatische vrijgave van stuklijst en formuleregels** doorloopt de geselecteerde stuklijst- en formuleregels met een resterende vrij te geven hoeveelheid. Alleen orders met de status **Vrijgegeven**, **Gestart** of **Gereedgemeld** worden gecontroleerd. Als een stuklijst- of formuleregel een resterende vrij te geven hoeveelheid bevat, wordt de hoeveelheid vrijgegeven die kan worden gedekt door de hoeveelheid die al fysiek is gereserveerd en de hoeveelheid die fysiek beschikbaar is.
 
 ### <a name="example-of-a-batch-job-release"></a>Voorbeeld van een batchtaakvrijgave
 
@@ -68,7 +68,7 @@ In de volgende afbeelding ziet u een productieorder met twee taken, 10 en 20, di
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Materiaal per bewerkingsnummer of in verhouding tot het aantal eindproducten vrijgeven
 
-Als u materialen vrijgeeft op basis van de parameterinstelling **Bij vrijgave van productieorder** , hebt u bij een handmatige vrijgave twee mogelijkheden voor het beheren van de materiaalvrijgave:
+Als u materialen vrijgeeft op basis van de parameterinstelling **Bij vrijgave van productieorder**, hebt u bij een handmatige vrijgave twee mogelijkheden voor het beheren van de materiaalvrijgave:
 
 - Materiaal op bewerkingsnummer vrijgeven.
 - Materiaal vrijgeven in verhouding tot het aantal eindproducten.
@@ -77,7 +77,7 @@ Als u materialen vrijgeeft op basis van de parameterinstelling **Bij vrijgave va
 
 Als u wilt beheren voor welke bewerkingen materiaal moet worden vrijgegeven, gaat u naar de pagina **Vrijgave naar magazijn**.
 
-- Selecteer **Productiebeheer** \> **Productieorders** \> **Alle productieorders** , selecteer een productieorder en selecteer op het tabblad **Magazijn** de optie **Vrijgave naar magazijn**. Gebruik vervolgens de velden **Van bewerkingsnummer** en **Tot bewerkingsnummer** om het bereik aan bewerkingsnummers op te geven.
+- Selecteer **Productiebeheer** \> **Productieorders** \> **Alle productieorders**, selecteer een productieorder en selecteer op het tabblad **Magazijn** de optie **Vrijgave naar magazijn**. Gebruik vervolgens de velden **Van bewerkingsnummer** en **Tot bewerkingsnummer** om het bereik aan bewerkingsnummers op te geven.
 
 In de volgende afbeelding wordt een productieorder met de twee bewerkingen 10 en 20 weergegeven. In dit voorbeeld wordt alleen het materiaal M9203 vrijgegeven als u de vrijgave beperkt tot bewerking 10.
 
@@ -89,11 +89,11 @@ Voor een snelle demonstratie van het vrijgeven van materiaal in verhouding tot h
 
 U kunt grondstoffen voor een gedeeltelijke hoeveelheid van eindproducten of in een specifieke eenheid vrijgeven.
 
-- Als u grondstoffen voor een gedeeltelijke hoeveelheid van eindproducten wilt vrijgeven, selecteert u **Productiebeheer** \> **Productieorders** \> **Alle productieorders** , selecteert u een productieorder en selecteert u op het tabblad **Magazijn** de optie **Vrijgave naar magazijn**. Voer in het veld **Hoeveelheid** een hoeveelheid in.
+- Als u grondstoffen voor een gedeeltelijke hoeveelheid van eindproducten wilt vrijgeven, selecteert u **Productiebeheer** \> **Productieorders** \> **Alle productieorders**, selecteert u een productieorder en selecteert u op het tabblad **Magazijn** de optie **Vrijgave naar magazijn**. Voer in het veld **Hoeveelheid** een hoeveelheid in.
 
     Er kan bijvoorbeeld een productieorder worden gemaakt en gepland voor 1000 stuks. De werkvloersupervisor plant de productie van 100 stuks voor de volgende ploegendienst en wil alleen materialen vrijgeven voor die ploegendienst. In dit geval kan de supervisor het veld **Hoeveelheid** gebruiken voor het vrijgeven van materialen voor de 100 stuks die zijn gepland voor de volgende ploegendienst.
 
-- Als u grondstoffen in een specifieke eenheid wilt vrijgeven, selecteert u **Productiebeheer** \> **Productieorders** \> **Alle productieorders** , selecteert u een productieorder en selecteert u op het tabblad **Magazijn** de optie **Vrijgave naar magazijn**. Gebruik vervolgens het veld **Eenheid** om de eenheid te selecteren waarin het materiaal voor het eindproduct moet worden vrijgegeven.
+- Als u grondstoffen in een specifieke eenheid wilt vrijgeven, selecteert u **Productiebeheer** \> **Productieorders** \> **Alle productieorders**, selecteert u een productieorder en selecteert u op het tabblad **Magazijn** de optie **Vrijgave naar magazijn**. Gebruik vervolgens het veld **Eenheid** om de eenheid te selecteren waarin het materiaal voor het eindproduct moet worden vrijgegeven.
 
     De eenheden die beschikbaar zijn, worden gedefinieerd in de volgordegroep-id voor de eenheid van het eindproduct.
 

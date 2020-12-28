@@ -18,11 +18,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fd4225d9e7ad65939c57cb770ba521377c87dea3
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3217259"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425233"
 ---
 # <a name="schedule-workload-capacity"></a>Werkbelastingcapaciteit plannen
 
@@ -58,7 +58,7 @@ Als u werkbelasting voor magazijnen wilt plannen en bekijken, moet u de volgende
 
 U kunt limieten voor volume of gewicht instellen, afhankelijk van de beperking die relevant is voor het personeel van het magazijn. De limieten die u opgeeft, worden opgenomen in de voorspelling van de werkbelastingcapaciteit die u kunt bekijken in het rapport **Werkbelastingcapaciteit**.
 
-Om informatie over volume en gewicht voor artikelen te voorspellen, moet het standaardvolume van één vooraadartikel en het gewicht van één vooraadartikel worden opgegeven voor alle producten. De velden die vereist, zijn beschikbaar in de volgende veldgroepen op het sneltabblad **Voorraad beheren** van de pagina**Vrijgegeven productdetails**:
+Om informatie over volume en gewicht voor artikelen te voorspellen, moet het standaardvolume van één vooraadartikel en het gewicht van één vooraadartikel worden opgegeven voor alle producten. De velden die vereist, zijn beschikbaar in de volgende veldgroepen op het sneltabblad **Voorraad beheren** van de pagina **Vrijgegeven productdetails**:
 
 - Verwerking
 - Fysieke afmetingen

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ec150adb35eb0600844245b14cbec9e9632ab337
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889548"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425500"
 ---
 # <a name="move-replace-and-install-assets"></a>Activa verplaatsen, vervangen en installeren
 
@@ -59,7 +59,7 @@ Gebruik de functie **Activum verplaatsen** om een activum te verplaatsen naar ee
 Gebruik de functie **Activum vervangen** in verband met reparaties, revisie of permanente vervanging van een versleten activum door een nieuw activum. Deze functie wordt gebruikt om onderliggende activa in een activastructuur te vervangen. Voor bovenliggende activa (dat zijn activa die momenteel geen bovenliggend activum hebben), wordt deze vervanging uitgevoerd op een functionele locatie. Zie [Activa installeren op functionele locaties](../functional-locations/install-objects-on-functional-locations.md) voor meer informatie over het vervangen van bovenliggende activa op een functionele locatie.
 
 > [!NOTE]
-> Als een reparatiewerkplaats is gerelateerd aan uw productieafdeling, kunt u functionele locaties zoals **reparatie**, **uitval**en **opslag** maken om de reparatie en vervanging van activa te verwerken.
+> Als een reparatiewerkplaats is gerelateerd aan uw productieafdeling, kunt u functionele locaties zoals **reparatie**, **uitval** en **opslag** maken om de reparatie en vervanging van activa te verwerken.
 
 1. Selecteer **Activabeheer** \> **Algemeen** \> **Activa** \> **Alle activa** of **Actieve activa**.
 2. Selecteer in de lijst het onderliggende activum dat wordt vervangen. Als het activum onderliggende activa heeft, vervangt u deze activa ook.

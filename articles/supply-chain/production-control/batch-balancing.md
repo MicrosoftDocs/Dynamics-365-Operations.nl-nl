@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: 2ef0a43480e547c6bd19d5f9b7377ed8b73425e7
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016880"
+ms.locfileid: "4425792"
 ---
 # <a name="batch-balancing"></a>Batchverdeling
 
@@ -97,7 +97,7 @@ Ingrediënt B heeft basiskenmerk X en een doelniveau van 30. Het is opgenomen in
 
 ### <a name="none"></a>None
 
-Bij het toepassen van het batchverdelingsproces met het ingrediënttype **Geen** , zijn de geraamde hoeveelheid en de verdeelde hoeveelheid van de formuleregel in de batchorder hetzelfde.
+Bij het toepassen van het batchverdelingsproces met het ingrediënttype **Geen**, zijn de geraamde hoeveelheid en de verdeelde hoeveelheid van de formuleregel in de batchorder hetzelfde.
 
 **Voorbeeld**
 
@@ -107,15 +107,15 @@ Ingrediënt A wordt toegewezen aan een ingrediënt van het type **Geen** en toeg
 
 Een compensatie-ingrediënt kan een verschil of aanvulling veroorzaken op het effect van het actieve ingrediënt in een product. Daarom is de hoeveelheid van een verbruikt compensatie-ingrediënt afhankelijk van het potentie van het product:
 
--   **Tegengesteld effect** : als de hoeveelheid van het actieve ingrediënt meer is dan verwacht, moet u minder van het compensatie-ingrediënt toevoegen.
+-   **Tegengesteld effect**: als de hoeveelheid van het actieve ingrediënt meer is dan verwacht, moet u minder van het compensatie-ingrediënt toevoegen.
 
--   **Aanvullend effect** : als de hoeveelheid van het actieve ingrediënt minder is dan verwacht, moet u meer van het compensatie-ingrediënt toevoegen.
+-   **Aanvullend effect**: als de hoeveelheid van het actieve ingrediënt minder is dan verwacht, moet u meer van het compensatie-ingrediënt toevoegen.
 
 De relatie tussen een actief ingrediënt en een aanvullend ingrediënt wordt ingesteld op de pagina **Compensatiemethode**.
 
 Volg deze stappen om de relaties tussen ingrediënten in te stellen.
 
-1.  Selecteer **Productgegevensbeheer** \> **Stuklijsten en formules** \> **Formules** , open een formuleregel en selecteer vervolgens **Ingrediënten** om de pagina **Compensatiemethode** te openen.
+1.  Selecteer **Productgegevensbeheer** \> **Stuklijsten en formules** \> **Formules**, open een formuleregel en selecteer vervolgens **Ingrediënten** om de pagina **Compensatiemethode** te openen.
 
 2.  Selecteer de regel die een compensatiemethode aangeeft en selecteer vervolgens het actieve ingrediënt om te compenseren.
 
@@ -147,7 +147,7 @@ Een *vul-ingrediënt* is een neutraal ingrediënt dat wordt gebruikt voor het be
 
 **Voorbeeld**
 
-U hebt een product met de ingrediënten A, B, C en D voor een formulegrootte van 100 liter. U hebt de verdeelde hoeveelheid van alle soorten ingrediënttypen berekend, behalve het **vul** -ingrediënttytpe dat wordt gebruikt op één regel.
+U hebt een product met de ingrediënten A, B, C en D voor een formulegrootte van 100 liter. U hebt de verdeelde hoeveelheid van alle soorten ingrediënttypen berekend, behalve het **vul**-ingrediënttytpe dat wordt gebruikt op één regel.
 De verdeelde hoeveelheid van het vul-ingrediënt wordt berekend als het verschil tussen de batchgrootte van 100 liter en de som van de ingrediënten A, B en C:
 
 100 – (20 + 25,71 + 14,72) = 39,57

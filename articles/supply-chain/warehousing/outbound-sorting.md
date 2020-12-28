@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 84c4ec83ed16762e6c3c1a22425cf60e5b3ae8da
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017685"
+ms.locfileid: "4425863"
 ---
 # <a name="outbound-sorting"></a>Uitgaand sorteren
 
@@ -40,7 +40,7 @@ Voordat u de functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. 
 
 ## <a name="setup"></a>Instellen
 
-Voor dit scenario moet u standaard **USMF** -demogegevens en magazijn *62* gebruiken. U moet ook de instellingen voltooien die in de volgende subsecties worden beschreven.
+Voor dit scenario moet u standaard **USMF**-demogegevens en magazijn *62* gebruiken. U moet ook de instellingen voltooien die in de volgende subsecties worden beschreven.
 
 ### <a name="set-up-a-wave-template"></a>Een wavesjabloon instellen
 
@@ -146,11 +146,11 @@ Voor dit scenario maakt u een uitgaande sorteersjabloon om pallets op te bouwen 
     - **Verificatie sorteren:** *Positie scannen*
     - **Werk maken bij positie sluiten:** *Ja*
 
-        Als deze optie wordt ingesteld op *Ja* , wordt werk gemaakt wanneer de positie is gesloten om voorraad te verplaatsen naar de definitieve verzendlocatie. Als dit wordt ingesteld op *Nee* , wordt voorraad onmiddellijk verzameld op de order wanneer de positie wordt gesloten.
+        Als deze optie wordt ingesteld op *Ja*, wordt werk gemaakt wanneer de positie is gesloten om voorraad te verplaatsen naar de definitieve verzendlocatie. Als dit wordt ingesteld op *Nee*, wordt voorraad onmiddellijk verzameld op de order wanneer de positie wordt gesloten.
 
     - **Positietoewijzing:** *automatisch*
 
-        Als dit veld wordt ingesteld op *Handmatig* , moet de gebruiker altijd aangeven op welke positie de voorraad moet worden gesorteerd. Als dit wordt ingesteld op *Automatisch* wijst het systeem de voorraad automatisch toe aan een positie, indien mogelijk op basis van de opsplitsingen in de sorteersjablonen.
+        Als dit veld wordt ingesteld op *Handmatig*, moet de gebruiker altijd aangeven op welke positie de voorraad moet worden gesorteerd. Als dit wordt ingesteld op *Automatisch* wijst het systeem de voorraad automatisch toe aan een positie, indien mogelijk op basis van de opsplitsingen in de sorteersjablonen.
 
 1. Selecteer **Opslaan** om de optie **Query bewerken** beschikbaar te maken in het actievenster.
 1. Selecteer **Query bewerken** in het actievenster.
@@ -209,7 +209,7 @@ Maak een nieuw inpakprofiel dat wordt gebruikt in combinatie met de sorteerfunct
     - **Inpakbeleid voor container:** *Sorteren*
     - **Modus container-id:** *automatisch*
     - **Containertype:** *doos-groot*
-    - **Container automatisch maken bij sluiten van container:** uitgeschakeld (= *Nee* )
+    - **Container automatisch maken bij sluiten van container:** uitgeschakeld (= *Nee*)
 
 1. Selecteer **Opslaan**.
 
@@ -245,11 +245,11 @@ Maak een menuopdracht voor mobiele apparaten om pallets op te bouwen tijdens het
 
     - **Activiteitscode:** *uitgaande sortering*
 
-        Als dit veld is ingesteld op *Uitgaande sortering* , wordt het veld **Id van uitgaande sorteersjabloon** weergegeven.
+        Als dit veld is ingesteld op *Uitgaande sortering*, wordt het veld **Id van uitgaande sorteersjabloon** weergegeven.
 
     - **Verwerkingsinstructies gebruiken:** *Ja*
 
-        Als het veld **Activiteitscode** is ingesteld op *Uitgaande sortering* , wordt deze optie automatisch ingesteld op *Ja*.
+        Als het veld **Activiteitscode** is ingesteld op *Uitgaande sortering*, wordt deze optie automatisch ingesteld op *Ja*.
 
     - **Id van uitgaande sorteersjabloon:** *AutoWerk*
 
@@ -419,7 +419,7 @@ Dit scenario simuleert een situatie waarin verpakte containers automatisch worde
     - **Artikelnummer:** *A0001*
     - **Hoeveelheid:** *2*
 
-1. Terwijl de nieuwe orderregel nog steeds is geselecteerd op het sneltabblad **Verkooporderregels** , selecteert u **Reservering** in het menu **Voorraad** boven het raster.
+1. Terwijl de nieuwe orderregel nog steeds is geselecteerd op het sneltabblad **Verkooporderregels**, selecteert u **Reservering** in het menu **Voorraad** boven het raster.
 1. Selecteer op de pagina **Reservering** in het actievenster de optie **Partij reserveren** om de volledige hoeveelheid van de geselecteerde regel te reserveren in het magazijn.
 1. Sluit de pagina **Reservering** om terug te keren naar de verkooporder.
 1. Selecteer in het actievenster op het tabblad **Magazijn** in de groep **Acties** de optie **Vrijgeven aan magazijn**.
@@ -470,7 +470,7 @@ Voltooi het gemaakte werk door met het mobiele apparaat de artikelen naar het in
 1. Selecteer **Orderverzamelen** in het menu **Uitgaand**.
 1. Voer in het veld **Id** de werk-id in die voor verkooporder 1 is gemaakt.
 1. Selecteer **OK**.
-1. Voer op de pagina **Verkooporders - verzamelen** een doel-LP in die is gemaakt voor verkooporder 1. U ziet dat de orderverzamellocatie ( *bulk-001* ), artikel ( *A0001* ) en hoeveelheid ( *2 stuks* ) worden weergegeven.
+1. Voer op de pagina **Verkooporders - verzamelen** een doel-LP in die is gemaakt voor verkooporder 1. U ziet dat de orderverzamellocatie (*bulk-001*), artikel (*A0001*) en hoeveelheid (*2 stuks*) worden weergegeven.
 1. Selecteer **OK**.
 1. Bekijk de informatie op de pagina **Verkooporders: wegzetten**. Het veld **Loc** moet aangeven dat de verzamelde artikelen naar de *Inpak* locatie gaan.
 1. Selecteer **OK**.
@@ -481,7 +481,7 @@ Voltooi het gemaakte werk door met het mobiele apparaat de artikelen naar het in
 
 1. Voer in het veld **Id** de werk-id in die voor verkooporder 2 is gemaakt, waarin regel 1 artikel *A0001* bevat.
 1. Selecteer **OK**.
-1. Voer op de pagina **Verkooporders - verzamelen** een doel-LP in. U ziet dat de orderverzamellocatie ( *bulk-001* ), artikel ( *A0001* ) en hoeveelheid ( *1 stuks* ) worden weergegeven.
+1. Voer op de pagina **Verkooporders - verzamelen** een doel-LP in. U ziet dat de orderverzamellocatie (*bulk-001*), artikel (*A0001*) en hoeveelheid (*1 stuks*) worden weergegeven.
 1. Selecteer **OK**.
 1. Bekijk de informatie op de pagina **Verkooporders: wegzetten**. Het veld **Loc** moet aangeven dat de verzamelde artikelen naar de *Inpak* locatie gaan.
 1. Selecteer **OK**.
@@ -490,7 +490,7 @@ Voltooi het gemaakte werk door met het mobiele apparaat de artikelen naar het in
 
 1. Voer in het veld **Id** de werk-id in die voor verkooporder 2 is gemaakt, waarin regel 2 artikel *A0002* bevat.
 1. Selecteer **OK**.
-1. Voer op de pagina **Verkooporders - verzamelen** een doel-LP in. U ziet dat de orderverzamellocatie ( *bulk-002* ), artikel ( *A0001* ) en hoeveelheid ( *1 stuks* ) worden weergegeven.
+1. Voer op de pagina **Verkooporders - verzamelen** een doel-LP in. U ziet dat de orderverzamellocatie (*bulk-002*), artikel (*A0001*) en hoeveelheid (*1 stuks*) worden weergegeven.
 1. Selecteer **OK**.
 1. Bekijk de informatie op de pagina **Verkooporders: wegzetten**. Het veld **Loc** moet aangeven dat de verzamelde artikelen naar de *Inpak* locatie gaan.
 1. Selecteer **OK**.
@@ -578,7 +578,7 @@ Als u de containerdetails wilt weergeven, gaat u naar **Magazijnbeheer \> Verpak
 1. Voer in het veld **LP/con** de eerste container-id in die aan verkooporder 1 is gekoppeld.
 1. Selecteer **OK**.
 1. Omdat er nog geen sorteerposities bestaan, moet u deze opgeven. Voer in het veld **Sorteerpositie-id** de tekst *SP01* in.
-1. Omdat er geen LP is gekoppeld aan sorteerpositie *SP01* , moet u deze opgeven. Voer in het veld **LP** de waarde *PLP01* in.
+1. Omdat er geen LP is gekoppeld aan sorteerpositie *SP01*, moet u deze opgeven. Voer in het veld **LP** de waarde *PLP01* in.
 1. Selecteer **OK**.
 1. Aangezien de validatie van de sorteerpositie is ingeschakeld, moet u de sorteerpositie-id opnieuw invoeren. Voer in het veld **Sorteerpositie-id** de tekst *SP01* in.
 1. Selecteer **OK**.
@@ -650,18 +650,18 @@ U moet het werk voor de gesorteerde voorraadverzameling voltooien. Wanneer dit i
 1. Selecteer in het menu **Uitgaand** de optie **Laden uit sortering**.
 1. Voer de id van het doel-LP in voor de eerste sorteerpositie *SP01*. Stel het veld **Id** in op *PLP01*.
 1. Selecteer **OK**.
-1. De pagina **Orderverzameling van gesorteerde voorraad: orderverzamelen** toont het werk dat moet worden uitgevoerd voor het orderverzamelen. Kies uit de locatie *SORTEREN* en de doel-LP *PLP01* , die meerdere artikelen en een hoeveelheid van *3* heeft.
+1. De pagina **Orderverzameling van gesorteerde voorraad: orderverzamelen** toont het werk dat moet worden uitgevoerd voor het orderverzamelen. Kies uit de locatie *SORTEREN* en de doel-LP *PLP01*, die meerdere artikelen en een hoeveelheid van *3* heeft.
 1. Selecteer **OK**.
-1. De pagina **Orderverzameling van gesorteerde voorraad: wegzetten** toont het werk dat moet worden uitgevoerd voor het wegzetten. Zet weg naar de locatie *Laaddeur* en de doel-LP *PLP01* , die meerdere artikelen en een hoeveelheid van *3* heeft.
+1. De pagina **Orderverzameling van gesorteerde voorraad: wegzetten** toont het werk dat moet worden uitgevoerd voor het wegzetten. Zet weg naar de locatie *Laaddeur* en de doel-LP *PLP01*, die meerdere artikelen en een hoeveelheid van *3* heeft.
 1. Selecteer **OK**.
 
     Werk is voltooid.
 
 1. Voer de id van het doelnummerplaat in voor de tweede sorteerpositie *SP02*. Stel het veld **Id** in op *PLP02*.
 1. Selecteer **OK**.
-1. De pagina **Orderverzameling van gesorteerde voorraad: orderverzamelen** toont het werk dat moet worden uitgevoerd voor het orderverzamelen. Kies uit de locatie *SORTEREN* en de doel-LP *PLP02* , die meerdere artikelen en een hoeveelheid van *1* heeft.
+1. De pagina **Orderverzameling van gesorteerde voorraad: orderverzamelen** toont het werk dat moet worden uitgevoerd voor het orderverzamelen. Kies uit de locatie *SORTEREN* en de doel-LP *PLP02*, die meerdere artikelen en een hoeveelheid van *1* heeft.
 1. Selecteer **OK**.
-1. De pagina **Orderverzameling van gesorteerde voorraad: wegzetten** toont het werk dat moet worden uitgevoerd voor het wegzetten. Zet weg naar de locatie *Laaddeur* en de doel-LP *PLP02* , die meerdere artikelen en een hoeveelheid van *1* heeft.
+1. De pagina **Orderverzameling van gesorteerde voorraad: wegzetten** toont het werk dat moet worden uitgevoerd voor het wegzetten. Zet weg naar de locatie *Laaddeur* en de doel-LP *PLP02*, die meerdere artikelen en een hoeveelheid van *1* heeft.
 1. Selecteer **OK**.
 
     Werk is voltooid.

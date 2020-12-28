@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017065"
+ms.locfileid: "4425759"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Aanvulling met opnamekanbans
 
@@ -54,7 +54,7 @@ In dit scenario verbruikt een productieproces (4) materiaal van een productie-in
 
 ## <a name="configure-warehouse-work-for-kanban-picking-for-the-withdrawal-kanban"></a>Magazijnwerk configureren voor kanbanorderverzameling voor de opnamekanban
 
-Om het verzamelen van grondstoffen voor de opnamekanban in te schakelen, moet u wavesjablonen, werksjablonen en locatie-instructies configureren voor het werkordertype **Kanbanorderverzameling**. Dit werkordertype ondersteunt niet alleen het verzamelproces voor de opnamekanban. Het ondersteunt ook het orderverzamelproces voor de fabricagekanban. U kunt echter een afzonderlijke orderverzamelproces voor elk type kanban configureren, door de wavesjablonen, werksjablonen en locatie-instructies van elkaar te scheiden. Om de wavesjablonen, werksjablonen en locatie-instructies te scheiden, stelt u criteria in op het activiteitstype ( **Proces** of **Verplaatsen** ) in de query's voor deze entiteiten.
+Om het verzamelen van grondstoffen voor de opnamekanban in te schakelen, moet u wavesjablonen, werksjablonen en locatie-instructies configureren voor het werkordertype **Kanbanorderverzameling**. Dit werkordertype ondersteunt niet alleen het verzamelproces voor de opnamekanban. Het ondersteunt ook het orderverzamelproces voor de fabricagekanban. U kunt echter een afzonderlijke orderverzamelproces voor elk type kanban configureren, door de wavesjablonen, werksjablonen en locatie-instructies van elkaar te scheiden. Om de wavesjablonen, werksjablonen en locatie-instructies te scheiden, stelt u criteria in op het activiteitstype (**Proces** of **Verplaatsen**) in de query's voor deze entiteiten.
 
 ## <a name="configure-the-withdrawal-kanban"></a>De opnamekanban configureren
 

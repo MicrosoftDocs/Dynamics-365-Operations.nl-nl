@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
 ms.openlocfilehash: adb88bbd29a89a1d18d7fd4781c2541ffb4e721f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016212"
+ms.locfileid: "4425787"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Consolidatiebeleid voor zendingen configureren
 
@@ -59,7 +59,7 @@ Wanneer u deze procedure start, moet de functie *Consolidatiebeleid voor zending
 Volg deze stappen om standaardbeleid voor de consolidatie van zendingen in te stellen in een omgeving waarin magazijnen al zijn geconfigureerd voor consolidatie tussen orders.
 
 1. Ga naar **Magazijnbeheer \> Instellen \> Magazijn \> Magazijnen**.
-1. Ga in de lijst naar de gewenste magazijnrecord (bijvoorbeeld magazijn *24* in de demogegevens **USMF** ) en open deze.
+1. Ga in de lijst naar de gewenste magazijnrecord (bijvoorbeeld magazijn *24* in de demogegevens **USMF**) en open deze.
 1. Selecteer **Bewerken** in het actievenster.
 1. Stel op het sneltabblad **Magazijn** de optie **Zending bij vrijgave naar magazijn consolideren** in op *Ja*.
 1. Herhaal stap 2 tot en met 4 voor alle andere magazijnen waarvoor consolidatie vereist is.
@@ -121,10 +121,10 @@ Gebruik functiebeheer om de functie in te schakelen, als u dit nog niet hebt ged
         - **Filtertitel:** *Code 4*
 
 1. Ga naar **Productgegevensbeheer \> Producten \> Vrijgegeven producten**.
-1. Open het product met artikelnummer *M9200*. (Het product dat u selecteert, moet zijn ingeschakeld voor geavanceerde \[WMS\]-magazijnprocessen en dit product is vooraf ingeschakeld voor WMS-processen in de **USMF** -demogegevens.)
+1. Open het product met artikelnummer *M9200*. (Het product dat u selecteert, moet zijn ingeschakeld voor geavanceerde \[WMS\]-magazijnprocessen en dit product is vooraf ingeschakeld voor WMS-processen in de **USMF**-demogegevens.)
 1. Stel op het sneltabblad **Magazijn** het veld **Code 4** in op *Ontvlambaar*.
 1. Sluit de pagina.
-1. Open het product met artikelnummer *M9201*. (Dit product is ook vooraf ingeschakeld voor WMS-processen in de **USMF** -demogegevens.)
+1. Open het product met artikelnummer *M9201*. (Dit product is ook vooraf ingeschakeld voor WMS-processen in de **USMF**-demogegevens.)
 1. Stel op het sneltabblad **Magazijn** het veld **Code 4** in op *Explosief*.
 1. Sluit de pagina.
 
@@ -166,7 +166,7 @@ Gebruik functiebeheer om de functie in te schakelen, als u dit nog niet hebt ged
 
 In dit voorbeeld maakt u een beleid *Klant+modus* dat kan worden gebruikt voor het volgende bedrijfsscenario:
 
-- Met het beleid wordt een query uitgevoerd voor een specifieke klantrekening ( *US-001* ) en een specifieke leveringsmethode ( *Airwa-Air* ).
+- Met het beleid wordt een query uitgevoerd voor een specifieke klantrekening (*US-001*) en een specifieke leveringsmethode (*Airwa-Air*).
 - Consolidatie met openstaande zendingen is uitgeschakeld.
 - Consolidatie wordt uitgevoerd per order-id. (Met andere woorden: er zijn afzonderlijke zendingen per order, magazijn, enzovoort.)
 
@@ -201,7 +201,7 @@ Voer de volgende stappen uit om het beleid voor consolidatie van de zending te m
 
 In dit voorbeeld maakt u een beleid *Gevaarlijke goederen* dat kan worden gebruikt voor het volgende bedrijfsscenario:
 
-- Met het beleid wordt een query uitgevoerd voor een specifieke filtercode ( *gevaarlijk* ) en een specifieke leveringsmethode ( *Airwa-Air* ).
+- Met het beleid wordt een query uitgevoerd voor een specifieke filtercode (*gevaarlijk*) en een specifieke leveringsmethode (*Airwa-Air*).
 - Consolidatie met openstaande zendingen is ingeschakeld.
 - Consolidatie wordt uitgevoerd tussen orders. (Met andere woorden: er zijn afzonderlijke zendingen per rekening, magazijn, enzovoort, maar alleen binnen de artikelgroep die is opgegeven in de query.)
 
@@ -232,7 +232,7 @@ Voer de volgende stappen uit om het beleid voor consolidatie van de zending te m
 1. Selecteer **OK** om het dialoogvenster te sluiten.
 
 > [!NOTE]
-> Voor dit bedrijfsscenario worden alle orderregels waarvoor artikelen een specifieke filtercode bevatten (de filtercode waarvan het veld **Code 4** is ingesteld op *Ontvlambaar* ) met andere artikelen van hetzelfde type geconsolideerd tussen orders. Als er een openstaande zending voor dezelfde rekening, hetzelfde magazijn en dezelfde groep artikelen bestaat, worden de nieuwe regels hieraan gekoppeld.
+> Voor dit bedrijfsscenario worden alle orderregels waarvoor artikelen een specifieke filtercode bevatten (de filtercode waarvan het veld **Code 4** is ingesteld op *Ontvlambaar*) met andere artikelen van hetzelfde type geconsolideerd tussen orders. Als er een openstaande zending voor dezelfde rekening, hetzelfde magazijn en dezelfde groep artikelen bestaat, worden de nieuwe regels hieraan gekoppeld.
 
 ### <a name="create-example-policy-3"></a>Voorbeeldbeleid 3 maken
 

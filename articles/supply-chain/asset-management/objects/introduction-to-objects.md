@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 26b8e3aaa2b249d09b304242155d646483cbe971
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889596"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425259"
 ---
 # <a name="introduction-to-assets"></a>Inleiding tot activa
 
@@ -60,7 +60,7 @@ De knoppen in het actievenster zijn geordend op tabbladen. In de volgende tabel 
 | Uitvaltijd voor onderhoud | Registraties van uitvaltijd voor onderhoud maken of weergeven.                                                                                                       |
 | Projecttransacties | Alle geboekte transacties weergeven die zijn gerelateerd aan werkorders die voor het activum zijn gemaakt.                                                                                       |
 | Activametingen       | Activametingen voor het activum maken of weergeven.                                                                                                               |
-| Onderhoudsschema | Open de lijstpagina **Onderhoudsschema**, waar u onderhoudsplannen, onderhoudsaanvragen en onderhoudsronden kunt weergeven die aan het activum zijn gekoppeld en die de status **Gemaakt**hebben. |
+| Onderhoudsschema | Open de lijstpagina **Onderhoudsschema**, waar u onderhoudsplannen, onderhoudsaanvragen en onderhoudsronden kunt weergeven die aan het activum zijn gekoppeld en die de status **Gemaakt** hebben. |
 | Activastatus bijwerken   | De levenscyclusstatus van het activum bijwerken. U kunt meerdere activa selecteren op de lijstpagina **Alle activa** en vervolgens de levenscyclusstatus van alle activa tegelijk bijwerken.              |
 | Logboek voor levenscyclusstatus  | Een logboek openen waarin de levenscyclusstatussen van het geselecteerde activum worden weergegeven.                                                                                                                 |
 | Activadocumenten      | Een lijst met documenten weergeven die aan een activum zijn gekoppeld. Deze documenten worden ingesteld in **Activabeheer** \> **Instellingen** \> **Activadocumenten**.                 |

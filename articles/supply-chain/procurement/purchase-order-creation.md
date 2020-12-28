@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 206d6d6769d1dedcbfefa589fd72903e65a25ba6
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018785"
+ms.locfileid: "4425762"
 ---
 # <a name="create-purchase-orders"></a>Inkooporders maken
 
@@ -63,14 +63,14 @@ U kunt de details van de voorraadtransactiestatus voor voorraadproducten control
 
 Een inkooporderregel die wordt gebruikt voor het retourneren van een product aan de leverancier heeft een negatieve hoeveelheid. U kunt een specifieke partij selecteren voor retourzending door de actie **Reservering** te gebruiken.  
 
-Soms wilt u mogelijk de hoeveelheid die u hebt besteld opsplitsen, zodat verschillende delen ervan op verschillende datums worden geleverd. U kunt deze leveringen instellen met behulp van de actie **Afleveringsschema** , die beschikbaar is in het menu **Inkooporderregel** in de weergave **Regels**.  
+Soms wilt u mogelijk de hoeveelheid die u hebt besteld opsplitsen, zodat verschillende delen ervan op verschillende datums worden geleverd. U kunt deze leveringen instellen met behulp van de actie **Afleveringsschema**, die beschikbaar is in het menu **Inkooporderregel** in de weergave **Regels**.  
 
 Toeslagen kunnen automatisch worden toegevoegd aan inkooporderregels als automatische toeslagen zijn ingesteld voor de leverancier of de toeslagengroep van de leverancier, en voor het artikel of de toeslaggroep van het artikel. Meestal worden toeslagen echter handmatig toegevoegd op het niveau van de orderregel. U kunt een toeslag toevoegen door de pagina **Toeslagen onderhouden** te openen met de actie **Toeslagen onderhouden** in het menu **Financiële items** in de weergave **Regels**. Het voordeel van het toevoegen van toeslagen rechtstreeks op het niveau van de orderregel is dat de toeslag kan worden toegewezen als voorraadkosten. U kunt toeslagcodes instellen voor productkosten door de debetoptie **Artikel** te gebruiken. Dit soort toeslagen moet worden toegewezen vanuit de IO-koptekst aan de regels voordat de order kan worden bevestigd. Zo wilt u bijvoorbeeld mogelijk toeslagen toewijzen op basis van de hoeveelheid op elke regel. De toeslagcategorie heeft eveneens invloed op hoe de toeslagen worden verwerkt. Bij vaste toeslagen, bijvoorbeeld, geeft u een vast bedrag op en procentuele toeslagen worden berekend als een percentage van het nettobedrag voor de orderregel. Inkooporders kunnen worden toegewezen aan een belasting en de belasting kan een schatting bevatten van de verwachte kosten voor het vervoer. U kunt deze onkosten vanuit de belasting terug aan de regels toewijzen.
 
 ## <a name="purchase-order-actions"></a>Inkooporderacties
 Nadat u de koptekst en regels aan de inkooporder hebt toegevoegd, moet u vaak extra stappen voltooien voordat de order klaar is voor bevestiging. Omdat er zoveel opties beschikbaar zijn, vindt u het misschien handig om [Actie zoeken](../../fin-and-ops/get-started/action-search.md) te gebruiken om het gewenste menu-item te zoeken.  
 
-U kunt producten op de order zodanig configureren dat zij bijkomende artikelen hebben. Bijkomende artikelen zijn producten die samen met andere producten moeten of kunnen worden gekocht. Bijkomende producten kunnen gratis worden toegevoegd als begeleidende producten, of u kunt zelf beslissen of u ze wilt toevoegen aan de order of niet. U kunt de bijkomende artikelen bekijken na elke orderregel die is toegevoegd. Waarschijnlijk vindt u het echter handiger om relevante bijkomende artikelen te controleren en toe te voegen voor alle orderregels via de pagina **Bijkomende artikelen** , die u vanuit het actievenster kunt openen.  
+U kunt producten op de order zodanig configureren dat zij bijkomende artikelen hebben. Bijkomende artikelen zijn producten die samen met andere producten moeten of kunnen worden gekocht. Bijkomende producten kunnen gratis worden toegevoegd als begeleidende producten, of u kunt zelf beslissen of u ze wilt toevoegen aan de order of niet. U kunt de bijkomende artikelen bekijken na elke orderregel die is toegevoegd. Waarschijnlijk vindt u het echter handiger om relevante bijkomende artikelen te controleren en toe te voegen voor alle orderregels via de pagina **Bijkomende artikelen**, die u vanuit het actievenster kunt openen.  
 
 Kortingen worden meestal toegevoegd aan regels zodra zij zijn gemaakt. Een paar kortingen gelden echter voor de gehele order:
 

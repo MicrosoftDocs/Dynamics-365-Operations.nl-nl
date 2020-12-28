@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017800"
+ms.locfileid: "4425852"
 ---
 # <a name="wave-step-codes"></a>Wave-stapcodes
 
@@ -40,7 +40,7 @@ Wave-stapcodes voor een specifiek wave-staptype worden ingesteld op een afzonder
 
 ## <a name="setup-demo"></a>Demo instellen 
 
-Voor deze demo moeten demogegevens worden geïnstalleerd en moet u het **USMF** -voorbeeld-gegevensbedrijf gebruiken.
+Voor deze demo moeten demogegevens worden geïnstalleerd en moet u het **USMF**-voorbeeld-gegevensbedrijf gebruiken.
 
 ### <a name="enable-wave-step-codes"></a>Wave-stapcodes inschakelen
 
@@ -59,7 +59,7 @@ Tijdens het inschakelen worden validaties uitgevoerd tijdens de gegevensupgrade.
 
 Nadat u de conflicten die tijdens de validaties zijn geïdentificeerd hebt opgelost, kunt u de functie opnieuw proberen uit te voeren.
 
-Wanneer de functie is ingeschakeld, wordt de pagina met **wave-stapcodes** ( **Magazijnbeheer \> Instellingen \> Waves \> Wave-stapcodes** ) weer beschikbaar. Op deze pagina worden de wave-stapcodes weergegeven die zijn bijgewerkt toen de functie voor organisatiebrede wave-stapcodes werd ingeschakeld.
+Wanneer de functie is ingeschakeld, wordt de pagina met **wave-stapcodes** (**Magazijnbeheer \> Instellingen \> Waves \> Wave-stapcodes**) weer beschikbaar. Op deze pagina worden de wave-stapcodes weergegeven die zijn bijgewerkt toen de functie voor organisatiebrede wave-stapcodes werd ingeschakeld.
 
 ### <a name="create-new-wave-step-codes"></a>Nieuwe wave-stapcodes maken
 

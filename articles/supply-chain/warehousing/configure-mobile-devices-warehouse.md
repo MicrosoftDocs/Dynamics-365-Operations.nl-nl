@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 8bb256514175166621847a5d40c16b9b749b1ddc
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016189"
+ms.locfileid: "4425808"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiele apparaten instellen voor magazijnwerk
 
@@ -44,7 +44,7 @@ Als u een menuopdracht voor een activiteit of query wilt maken, stelt u het veld
 > Er kunnen aanvullende velden voor menuopdrachten beschikbaar zijn. Dit hangt af van de modus die u selecteert voor de menuopdracht en of de menuopdracht wordt gebruikt om bestaand werk uit te voeren. Zie voor informatie over de aanvullende veldselecties de sectie "Extra opties voor menuopties" verderop in dit onderwerp.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Menuopties configureren voor activiteiten en query's
-Als het veld **Modus** voor een menuoptie is ingesteld op **Indirect** , kunt u een menuoptie maken om een algemene activiteit of query uit te voeren die geen werk maakt. Voorbeelden zijn onder andere het opnieuw afdrukken van nummerplaatlabels en een query over de artikelen op een locatie. De volgende tabel bevat een lijst met beschikbare opties.
+Als het veld **Modus** voor een menuoptie is ingesteld op **Indirect**, kunt u een menuoptie maken om een algemene activiteit of query uit te voeren die geen werk maakt. Voorbeelden zijn onder andere het opnieuw afdrukken van nummerplaatlabels en een query over de artikelen op een locatie. De volgende tabel bevat een lijst met beschikbare opties.
 
 | Optie | Beschrijving |
 |---|---|

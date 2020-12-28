@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cc5229918c89657f3108e1c2314dff8251eae93d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018070"
+ms.locfileid: "4425819"
 ---
 # <a name="set-up-vendor-accounts"></a>Leveranciersaccounts instellen
 
@@ -84,12 +84,12 @@ Wanneer u een leverancieraccount configureert, wilt u mogelijk ook de overeenkom
 ## <a name="putting-a-vendor-on-hold"></a>Een leverancier in de wachtstand plaatsen
 U kunt een leverancier in de wachtstand zetten voor diverse transactietypen. De volgende opties zijn beschikbaar:
 
--   **Nee** : de leverancier is voor geen enkel type transactie in de wachtstand geplaatst.
--   **Factuur** : voor de leverancier kunnen geen facturen worden gemaakt of geboekt.
--   **Alle** : De leverancier is voor alle transactietypes in de wachtstand geplaatst. Deze transactietypen zijn onder andere opdrachten tot inkoop, facturen en betalingen.
--   **Betaling** : er kunnen geen betalingen worden gegenereerd voor de leverancier.
--   **Inkoop** : Opdrachten tot inkoop kunnen niet worden gemaakt voor de leverancier en de inkoopregels die al zijn gemaakt voordat de leverancier in de wachtstand werd gezet, kunnen niet worden omgezet naar een inkooporder. De inkoopregels voor de leverancier worden geannuleerd als uw beleid is ingesteld op het automatisch maken van inkooporders.
--   **Nooit** : de leverancier wordt nooit inactief gemaakt.
+-   **Nee**: de leverancier is voor geen enkel type transactie in de wachtstand geplaatst.
+-   **Factuur**: voor de leverancier kunnen geen facturen worden gemaakt of geboekt.
+-   **Alle**: De leverancier is voor alle transactietypes in de wachtstand geplaatst. Deze transactietypen zijn onder andere opdrachten tot inkoop, facturen en betalingen.
+-   **Betaling**: er kunnen geen betalingen worden gegenereerd voor de leverancier.
+-   **Inkoop**: Opdrachten tot inkoop kunnen niet worden gemaakt voor de leverancier en de inkoopregels die al zijn gemaakt voordat de leverancier in de wachtstand werd gezet, kunnen niet worden omgezet naar een inkooporder. De inkoopregels voor de leverancier worden geannuleerd als uw beleid is ingesteld op het automatisch maken van inkooporders.
+-   **Nooit**: de leverancier wordt nooit inactief gemaakt.
 
 Wanneer u een leverancier in de wachtstand zet, kunt u ook een reden opgeven en de datum waarop de wachtstandstatus eindigt. Als u geen einddatum invoert, blijft de blokkeringsstatus van de leverancier voor onbepaalde tijd actief.
 
@@ -97,7 +97,7 @@ U kunt bulksgewijs de wachtstandstatus **Alle** bijwerken voor leveranciers op b
 
 De volgende criteria worden gebruikt om leveranciers op te nemen die een periode niet actief zijn geweest, leveranciers op te nemen of uit te sluiten die werknemers zijn en leveranciers uit te sluiten waarvoor een respijtperiode geldt voor de volgende blokkering.
 
-- Op basis van het aantal dagen dat u invoert in het veld **In activiteitperiode** op de pagina **Deactivering leverancier** , berekent de toepassing de laatste datum waarop de leverancier een activiteit moet hebben om als niet-actief te worden beschouwd. Dat is de huidige datum min het aantal dagen dat u invoert. Als er een of meer facturen zijn voor de leverancier waar de datum na de berekende datum valt, wordt de leverancier van de deactivering uitgesloten. Dit gedlt ook als de leverancier betalingen heeft na die datum, opestaande opdrachten tot inkoop, openstaande inkooporders, aanvragen voor offertes of antwoorden.
+- Op basis van het aantal dagen dat u invoert in het veld **In activiteitperiode** op de pagina **Deactivering leverancier**, berekent de toepassing de laatste datum waarop de leverancier een activiteit moet hebben om als niet-actief te worden beschouwd. Dat is de huidige datum min het aantal dagen dat u invoert. Als er een of meer facturen zijn voor de leverancier waar de datum na de berekende datum valt, wordt de leverancier van de deactivering uitgesloten. Dit gedlt ook als de leverancier betalingen heeft na die datum, opestaande opdrachten tot inkoop, openstaande inkooporders, aanvragen voor offertes of antwoorden.
 - Het aantal dagen in het veld **Respijttijd voor volgende blokkering** wordt gebruikt voor het berekenen van de laatste respijtdatum. Dat is de huidige datum min de dagen die u invoert. Dit geldt alleen voor leveranciers die eerder uitgeschakeld zijn geweest. In het geval van een eerdere deactivering controleert de toepassing de historie van andere deactiveringsgebeurtenissen van de leverancier en of de meest recente deactivering heeft plaatsgevonden vóór de laatste datum van de respijtperiode. Als dit het geval is, wordt de leverancier opgenomen in het deactiveringsproces.
 - De parameter **Werknemers opnemen** verwijst naar de leveranciers die zijn gekoppeld aan een werknemer. U kunt instellen of u die werknemers wilt opnemen.
 

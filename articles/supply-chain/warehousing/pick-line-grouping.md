@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: b3497d43a500898207ed5154721ee0e3a327fb93
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017731"
+ms.locfileid: "4425777"
 ---
 # <a name="pick-line-grouping"></a>Orderverzamelregels groeperen
 
@@ -52,7 +52,7 @@ Bij het groeperen van orderverzamelregels kunnen meerdere werkregels met hetzelf
 4. Voer op het sneltabblad **Werkklassen** de volgende stappen uit om de geldige werkklassen voor de menuopdracht voor mobiele apparaten te configureren:
 
     1. Selecteer **Nieuw**.
-    2. Selecteer in het veld **Werkklasse-id** de optie **Verkoop** of **VO verzamelen** , afhankelijk van het magazijn dat u gebruikt.
+    2. Selecteer in het veld **Werkklasse-id** de optie **Verkoop** of **VO verzamelen**, afhankelijk van het magazijn dat u gebruikt.
     3. Selecteer **Verkooporders** in het veld **Werkordertype**.
 
 ### <a name="set-up-a-mobile-device-menu"></a>Een menu van een mobiel apparaat instellen
