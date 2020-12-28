@@ -19,11 +19,11 @@ ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
 ms.openlocfilehash: 80eaf36fb382e0ebe0a66383ea17ab76faa07dfa
-ms.sourcegitcommit: 084eda1d5503be83e97e2e428e67ef5393535fab
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "3819808"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411498"
 ---
 # <a name="omni-channel-payments-overview"></a>Overzicht van betalingen voor meerdere kanalen
 
@@ -136,7 +136,7 @@ Voer de volgende stappen uit om het scenario uit te voeren.
 5. Selecteer **Koptekst** op de pagina Nieuwe verkooporder om de orderkoptekst weer te geven. 
 6. Op de pagina **Orderkoptekst** stelt u als locatie **Centraal** in en als magazijn **Houston**.
 7. Stel op het tabblad **Leveren** het veld **Leveringsmethode** in op **60** voor ophalen door klanten.
-8. Selecteer **Regels**en voeg vervolgens een of meer regels toe aan de order. 
+8. Selecteer **Regels** en voeg vervolgens een of meer regels toe aan de order. 
 9. Selecteer **Voltooien** om de ordervoltooiingsstroom in te voeren.
 10. Schuif naar beneden naar het betalingsgedeelte, selecteer **Toevoegen** en selecteer vervolgens een regel waarvoor het type betalingsmethode is ingesteld op **Kaarten**. 
 11. Selecteer het plusteken (**+**) om een kaartbetaling toe te voegen. 
@@ -222,7 +222,7 @@ Sommige kaarten kunnen niet worden gebruikt voor betalingen voor meerdere kanale
 
 ### <a name="using-a-different-card"></a>Een andere kaart gebruiken
 
-Een klant die bij de winkel komt om een order op te halen, heeft de optie om een andere kaart te gebruiken. Wanneer de kassamedewerker het verzoek **Beschikbare betalingsmethode gebruiken** ontvangt op het moment dat dat de order wordt opgehaald, kan hij of zij vragen of de klant dezelfde kaart wil gebruiken. Als de klant de kaart kwijt is die is gebruikt om de order te maken en de order wil betalen met een andere kaart, kan de kassamedewerker de optie **Een andere betalingsmethode gebruiken**selecteren. Als de klant later terugkomt om meer artikelen voor dezelfde order op te halen en de oorspronkelijke kaartautorisatie nog steeds geldig is, kan de kassamedewerker opnieuw vragen of de klant die kaart wil gebruiken.
+Een klant die bij de winkel komt om een order op te halen, heeft de optie om een andere kaart te gebruiken. Wanneer de kassamedewerker het verzoek **Beschikbare betalingsmethode gebruiken** ontvangt op het moment dat dat de order wordt opgehaald, kan hij of zij vragen of de klant dezelfde kaart wil gebruiken. Als de klant de kaart kwijt is die is gebruikt om de order te maken en de order wil betalen met een andere kaart, kan de kassamedewerker de optie **Een andere betalingsmethode gebruiken** selecteren. Als de klant later terugkomt om meer artikelen voor dezelfde order op te halen en de oorspronkelijke kaartautorisatie nog steeds geldig is, kan de kassamedewerker opnieuw vragen of de klant die kaart wil gebruiken.
 
 ### <a name="invalid-authorizations"></a>Ongeldige autorisaties
 

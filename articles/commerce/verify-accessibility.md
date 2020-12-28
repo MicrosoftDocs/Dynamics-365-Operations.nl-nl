@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: fc3dca673510e1636f497bb7d5c295bebe025677
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015098"
+ms.locfileid: "4411503"
 ---
 # <a name="verify-page-content-accessibility"></a>Toegankelijkheid van pagina-inhoud controleren
 

@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: b0f1e290526c25aa6e6300c65e24044a325bee53
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269953"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411323"
 ---
 # <a name="add-a-new-site-page"></a>Een nieuwe sitepagina toevoegen
 
@@ -63,9 +63,9 @@ Voer de volgende stappen uit om een nieuwe sitepagina aan uw site toe te voegen.
 1. Selecteer in het paginaoverzicht het vak **Hoofd** de knop met het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
 1. Selecteer **Container** en vervolgens **OK**
 1. Selecteer in **Vloeibare container** de knop met het weglatingsteken en selecteer **Module toevoegen**.
-1. Selecteer **Blok met uitgebreide inhoud**en selecteer vervolgens **OK**.
+1. Selecteer **Blok met uitgebreide inhoud** en selecteer vervolgens **OK**.
 1. Selecteer **Blok met uitgebreide inhoud**, de knop met het weglatingsteken en vervolgens **Module toevoegen**.
-1. Selecteer **Blokitem met uitgebreide inhoud**en selecteer vervolgens **OK**.
+1. Selecteer **Blokitem met uitgebreide inhoud** en selecteer vervolgens **OK**.
 1. Selecteer **Alinea** in het deelvenster Eigenschappen aan de rechterkant en voer vervolgens **Mijn testtekst** in het veld in.
 1. Selecteer **Opslaan** en vervolgens **Bewerken voltooien**.
 1. Voer in het veld **Opmerkingen** **Toegevoegde nieuwe pagina** in en selecteer vervolgens **OK**.

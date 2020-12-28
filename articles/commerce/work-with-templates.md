@@ -18,11 +18,11 @@ ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: a3fc4259a76f6edcfaa0b8f6e08292477c6c0835
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269861"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411390"
 ---
 # <a name="work-with-templates"></a>Werken met sjablonen
 
@@ -66,7 +66,7 @@ In de overzichtsweergave links worden de moduleopties en structuren weergegeven 
 |---|---|
 | Min. voorvallen | Met deze eigenschap wordt het minimumaantal exemplaren voor de geselecteerde module gedefinieerd. Als de waarde bijvoorbeeld is ingesteld op **1**, is de module vereist voor auteurs van onderdelen. Als de waarde is ingesteld op **0** (nul), is de module optioneel. |
 | Max. voorvallen | Met deze eigenschap wordt het maximumaantal exemplaren voor de geselecteerde module gedefinieerd. Als de waarde bijvoorbeeld is ingesteld op **1**, kan de module slechts één keer worden toegevoegd. |
-| Min. modules (Containers) | Voor modules die andere modules bevatten (*container*modules), definieert u met deze eigenschap het minimumaantal modules dat als onderliggende elementen moet worden toegevoegd. Voor een carrouselmodule kan de waarde bijvoorbeeld worden ingesteld op een getal dat groter is dan 1. |
+| Min. modules (Containers) | Voor modules die andere modules bevatten (*container* modules), definieert u met deze eigenschap het minimumaantal modules dat als onderliggende elementen moet worden toegevoegd. Voor een carrouselmodule kan de waarde bijvoorbeeld worden ingesteld op een getal dat groter is dan 1. |
 | Max. modules (Containers) | Voor containermodules definieert u met deze eigenschap het maximumaantal modules dat als onderliggende elementen moet worden toegevoegd. Voor een carrouselmodule kan de waarde bijvoorbeeld worden ingesteld op een getal dat kleiner is dan 10. |
 | Vergrendeld | Naast alle eigenschappen van de basismodule wordt een **vergrendeld** Boolean-besturingselement weergegeven. Hiermee kan de sjabloonauteur een module-instelling in de sjabloon vergrendelen. Een module-instelling die vergrendeld is, kan niet worden overschreven door onderliggende indelingen of pagina's. Het wordt een centraal bewerkbare eigenschapswaarde voor alle indelingen en pagina's die de sjabloon gebruiken. |
 

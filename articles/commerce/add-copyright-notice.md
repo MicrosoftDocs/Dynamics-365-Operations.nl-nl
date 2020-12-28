@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 838047cac694c65047332e146a7c43ee2ae0f401
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019536"
+ms.locfileid: "4411504"
 ---
 # <a name="add-a-copyright-notice"></a>Een auteursrechtmelding toevoegen
 
@@ -44,14 +44,14 @@ Voer de volgende stappen uit om copyrightgegevens toe te voegen onder aan elke p
 1. Ga naar **Fragmenten** en selecteer **Nieuw**.
 1. Selecteer in het dialoogvenster **Nieuw fragment** de module **Voettekst** en geef het fragment een naam. Voer bijvoorbeeld **Voettekst-copyright** in.
 1. Selecteer **OK**.
-1. Selecteer in de navigatiepagina de knop met het weglatingsteken ( **...** ) naast **Voettekst** en vervolgens **Module toevoegen**.
+1. Selecteer in de navigatiepagina de knop met het weglatingsteken (**...**) naast **Voettekst** en vervolgens **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Voettekstcategorie** en selecteer vervolgens **OK**.
 1. Selecteer in de navigatiepagina de knop met het weglatingsteken naast **Voettekstcategorie** en vervolgens **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Tekstblok** en selecteer vervolgens **OK**.
 1. Selecteer **Tekstblok** in het navigatievenster.
 1. Voeg in het deelvenster Eigenschappen rechts in het veld **Alinea** het copyrightbericht toe. Voer bijvoorbeeld **(C) Fabrikam 2019** in.
-1. Selecteer **Opslaan** , **Bewerken voltooien** en vervolgens **Publiceren**.
-1. Ga naar **Sjablonen** , selecteer de sjabloon en selecteer **Bewerken**.
+1. Selecteer **Opslaan**, **Bewerken voltooien** en vervolgens **Publiceren**.
+1. Ga naar **Sjablonen**, selecteer de sjabloon en selecteer **Bewerken**.
 1. Vouw onder **Paginaoverzicht** **Hoofdtekst** uit en vouw vervolgens **Standaardpagina** uit.
 1. Selecteer de knop met het weglatingsteken voor het vak **Voettekst** en selecteer **Fragment toevoegen**.
 1. Selecteer het fragment dat u eerder hebt gemaakt en dan **Selecteren.**

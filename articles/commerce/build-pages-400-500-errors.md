@@ -18,11 +18,11 @@ ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 060f5e5616624279711f61f582e6a898c7eb7785
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269539"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411346"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Aangepaste antwoordpagina's bouwen voor fouten met de statuscode 4xx/5xx
 
@@ -69,7 +69,7 @@ Ga als volgt te werk om de antwoordpagina voor een statusfoutcode te maken.
 
 Ga als volgt te werk om een omleiding te maken voor een antwoordpagina voor de statusfoutcode.
 
-1. Ga naar **URL's \> Nieuw \> Nieuwe alias**en selecteer de antwoordpagina voor de statusfoutcode die u eerder hebt gemaakt.
+1. Ga naar **URL's \> Nieuw \> Nieuwe alias** en selecteer de antwoordpagina voor de statusfoutcode die u eerder hebt gemaakt.
 1. Voer in het veld **Alias** de waarde **default-4xx** of **default-5xx** in, afhankelijk van de antwoordpagina voor de statusfoutcode waarvoor u een omleiding wilt instellen. Deze aliassen moeten worden gepubliceerd. Anders werkt de omleiding niet.
 1. Selecteer **OK** om de koppeling uit te voeren.
 

@@ -20,11 +20,11 @@ ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 2d463bf01659aeb6599023ce46da0c604f8eeff0
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107370"
+ms.locfileid: "4411527"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Geavanceerde automatische toeslagen voor meerdere kanalen
 
@@ -38,7 +38,7 @@ In releases vóór Retail versie 10.0 zijn configuraties voor [automatische toes
 
 Bij gebruik van versies ouder dan versie 10.0 wordt een POS-gebruiker gevraagd handmatig verzendkosten in te voeren tijdens het maken van een 'alles verzenden' of 'geselecteerd verzenden' POS-transactie. Terwijl de mogelijkheden van de diverse toeslagen van de toepassing worden gebruikt met betrekking tot de manier waarop de toeslagen op de order worden geschreven, wordt er geen systematische berekening geboden; de berekening is afhankelijk van de invoer van de gebruiker om de hoogte van de toeslagen te bepalen. De toeslagen kunnen alleen worden toegevoegd als een enkele 'verzending'-gerelateerde toeslagencode en kunnen niet eenvoudig worden bewerkt of gewijzigd in het POS nadat ze zijn gemaakt.
 
-Het gebruik van handmatige prompts om verzendkosten toe te voegen is nog steeds beschikbaar in versies 10.0 en hoger. Als een organisatie de **Geavanceerde automatische toeslagen** -parameter niet inschakelt, blijven de POS-prompts voor handmatige invoer van toeslagen hetzelfde.
+Het gebruik van handmatige prompts om verzendkosten toe te voegen is nog steeds beschikbaar in versies 10.0 en hoger. Als een organisatie de **Geavanceerde automatische toeslagen**-parameter niet inschakelt, blijven de POS-prompts voor handmatige invoer van toeslagen hetzelfde.
 
 Met de geavanceerde functie voor automatische toeslagen beschikken POS-gebruikers over systematische berekeningen voor alle gedefinieerde diverse toeslagen op basis van de instellingentabellen voor automatische toeslagen. Daarnaast hebben gebruikers de mogelijkheid een onbeperkt aantal extra toeslagen en kosten aan een POS-verkooptransactie toe te voegen of te bewerken op kop- of regelniveau (voor contante transacties of een klantorder).
 
@@ -60,10 +60,10 @@ Om geavanceerde automatische toeslagen goed te laten werken in uw POS-toepassing
 
 De nieuwe bewerkingen zijn als volgt.
 
-- **142 - toeslagen beheren** : u kunt deze bewerking gebruiken om POS-gebruikers de mogelijkheid te geven om diverse toeslagen voor de POS-transactie die handmatig of systematisch via berekeningen van automatische toeslagen zijn toegevoegd, weer te geven en te bewerken.
-- **141 - toeslagen koptekst toevoegen** : gebruik deze bewerking om de gebruiker de mogelijkheid te geven om handmatig diverse toeslagen op koptekstniveau toe te voegen aan een POS-verkooptransactie (en de toeslagencode die moet worden gebruikt te selecteren).
-- **140 - regeltoeslagen toevoegen** : gebruik deze bewerking om de gebruiker de mogelijkheid te geven om handmatig diverse toeslagen op regelniveau toe te voegen aan een POS-verkooptransactieregel (en de toeslagencode te selecteren die moet worden gebruikt).
-- **143 - toeslagen herberekenen** : gebruik deze bewerking om een volledige nieuwe herberekening van de toeslagen voor de verkooptransactie uit te voeren. Eventuele eerdere door de gebruiker overschreven automatische toeslagen worden herberekend op basis van de huidige configuratie in de winkelwagen.
+- **142 - toeslagen beheren**: u kunt deze bewerking gebruiken om POS-gebruikers de mogelijkheid te geven om diverse toeslagen voor de POS-transactie die handmatig of systematisch via berekeningen van automatische toeslagen zijn toegevoegd, weer te geven en te bewerken.
+- **141 - toeslagen koptekst toevoegen**: gebruik deze bewerking om de gebruiker de mogelijkheid te geven om handmatig diverse toeslagen op koptekstniveau toe te voegen aan een POS-verkooptransactie (en de toeslagencode die moet worden gebruikt te selecteren).
+- **140 - regeltoeslagen toevoegen**: gebruik deze bewerking om de gebruiker de mogelijkheid te geven om handmatig diverse toeslagen op regelniveau toe te voegen aan een POS-verkooptransactieregel (en de toeslagencode te selecteren die moet worden gebruikt).
+- **143 - toeslagen herberekenen**: gebruik deze bewerking om een volledige nieuwe herberekening van de toeslagen voor de verkooptransactie uit te voeren. Eventuele eerdere door de gebruiker overschreven automatische toeslagen worden herberekend op basis van de huidige configuratie in de winkelwagen.
 
 Zoals bij alle POS-bewerkingen kunnen beveiligingsconfiguraties worden gemaakt zodat goedkeuring van een manager is vereist om de bewerking te kunnen uitvoeren.
 
@@ -151,7 +151,7 @@ De bewerking **Koptoeslag toevoegen** moet worden geconfigureerd uw [POS-schermi
 
 Voor het uitvoeren van het scenario in de POS-toepassing, maakt de POS-gebruiker de verkooptransactie zoals gebruikelijk door de producten en eventuele andere configuraties toe te voegen aan de verkoop. Vóór het innen van de betaling moet de gebruiker de bewerking **Koptoeslag toevoegen** uitvoeren, de gebruiker wordt dan gevraagd om een toeslagencode te selecteren en het bedrag van de toeslag in te voeren. Nadat de gebruiker het proces heeft voltooid, wordt de toeslag toegevoegd aan de verkooporder als een toeslag op kopniveau.
 
-Dit proces kan worden toegepast in het callcenter met behulp van de bestaande **Toeslagen** -functie in het tabblad **Verkopen** op de werkbalk. Op de pagina **Toeslagen onderhouden** kan de gebruiker kan een nieuwe toeslagregel toevoegen aan de orderkop.
+Dit proces kan worden toegepast in het callcenter met behulp van de bestaande **Toeslagen**-functie in het tabblad **Verkopen** op de werkbalk. Op de pagina **Toeslagen onderhouden** kan de gebruiker kan een nieuwe toeslagregel toevoegen aan de orderkop.
 
 ### <a name="manual-line-charges-example"></a>Voorbeeld van handmatige regeltoeslagen
 
@@ -189,22 +189,22 @@ Als er redencodes zijn vastgelegd voor overschreven toeslagen, is er ook een nie
 
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>Toeslagen terugbetalen op een POS-retourtransactie
 
-Als de parameter **Geavanceerde automatische toeslagen gebruiken** is ingesteld op **Ja** , is de bestaande Commerce-parameter voor **Verzendkosten terugbetalen** niet langer van toepassing. Om aan te geven welke toeslagen systematisch moeten worden terugbetaald aan een klant bij het gebruik van geavanceerde automatische toeslagen, moet u ervoor zorgen dat de gerelateerde toeslagcode is geconfigureerd als **Terug te betalen** op de instellingspagina **Toeslagcode**. Zorg ervoor dat de instellingen zijn gesynchroniseerd met de databases van uw Commerce-kanaal via de verwerking van de distributieplanning.
+Als de parameter **Geavanceerde automatische toeslagen gebruiken** is ingesteld op **Ja**, is de bestaande Commerce-parameter voor **Verzendkosten terugbetalen** niet langer van toepassing. Om aan te geven welke toeslagen systematisch moeten worden terugbetaald aan een klant bij het gebruik van geavanceerde automatische toeslagen, moet u ervoor zorgen dat de gerelateerde toeslagcode is geconfigureerd als **Terug te betalen** op de instellingspagina **Toeslagcode**. Zorg ervoor dat de instellingen zijn gesynchroniseerd met de databases van uw Commerce-kanaal via de verwerking van de distributieplanning.
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Toeslagen terugbetalen op een retourordertransactie
 
-Toeslagen worden niet systematisch terugbetaald in **Retourorders** gemaakt in Commerce. Gebruikers moeten de optie **Toeslagen kopiëren** selecteren bij het maken van de **Retourorder**. Als **Toeslagen kopiëren** niet is geselecteerd, worden de toeslagen uit de oorspronkelijke verkooptransactie niet automatisch terugbetaald. Als **Toeslagen kopiëren** is geselecteerd, dan worden alle toeslagen gekopieerd naar de retourorder en kan de gebruiker handmatig de toeslagen bewerken of verwijderen die ze niet willen terugbetalen. Het callcenter retourorderproces herkent momenteel niet de markering **Terug te betalen** in de **Toeslagencode** -instellingen.
+Toeslagen worden niet systematisch terugbetaald in **Retourorders** gemaakt in Commerce. Gebruikers moeten de optie **Toeslagen kopiëren** selecteren bij het maken van de **Retourorder**. Als **Toeslagen kopiëren** niet is geselecteerd, worden de toeslagen uit de oorspronkelijke verkooptransactie niet automatisch terugbetaald. Als **Toeslagen kopiëren** is geselecteerd, dan worden alle toeslagen gekopieerd naar de retourorder en kan de gebruiker handmatig de toeslagen bewerken of verwijderen die ze niet willen terugbetalen. Het callcenter retourorderproces herkent momenteel niet de markering **Terug te betalen** in de **Toeslagencode**-instellingen.
 
 ### <a name="configuring-pos-receipts-to-show-charges"></a>Configureren van POS-ontvangstbewijzen om toeslagen weer te geven
 
 De volgende elementen voor het ontvangstbewijs zijn toegevoegd aan de ontvangstregel en voettekst ter ondersteuning van de functionaliteit voor geavanceerde automatische toeslagen.
 
-- **Regel verzendkosten** : dit element op regelniveau kan worden gebruikt om specifieke toeslagencodes die zijn toegepast op de verkoopregel samen te vatten. Alleen codes die zijn gemarkeerd als **Verzend** -kosten op de pagina **Toeslagencode** worden weergegeven.
-- **Regel andere toeslagen** : dit element op regelniveau kan worden gebruikt om niet-verzendingsspecifieke toeslagencodes samen te vatten die zijn toegepast op de verkoopregel. Dit zijn toeslagencodes waarvoor de markering **Verzending** op de pagina **Toeslagencode** niet is ingeschakeld.
-- **Details verzendkosten order** : dit element op voettekstniveau bevat de omschrijvingen van de toeslagencodes toegepast op de order die zijn gemarkeerd als **Verzendkosten** op de instellingspagina **Toeslagencode**.
-- **Verzendkosten order** : dit element op voettekstniveau toont de eurowaarde van de toeslagen voor verzending.
-- **Details overige toeslagen** : dit element op voettekstniveau bevat de omschrijving van de toeslagencodes toegepast op de order die niet zijn gemarkeerd als Verzendkosten.
-- **Overige toeslagen order** : dit element op voettekstniveau toont de eurowaarde van de overige toeslagen die niet gerelateerd zijn aan de verzending.
+- **Regel verzendkosten**: dit element op regelniveau kan worden gebruikt om specifieke toeslagencodes die zijn toegepast op de verkoopregel samen te vatten. Alleen codes die zijn gemarkeerd als **Verzend**-kosten op de pagina **Toeslagencode** worden weergegeven.
+- **Regel andere toeslagen**: dit element op regelniveau kan worden gebruikt om niet-verzendingsspecifieke toeslagencodes samen te vatten die zijn toegepast op de verkoopregel. Dit zijn toeslagencodes waarvoor de markering **Verzending** op de pagina **Toeslagencode** niet is ingeschakeld.
+- **Details verzendkosten order**: dit element op voettekstniveau bevat de omschrijvingen van de toeslagencodes toegepast op de order die zijn gemarkeerd als **Verzendkosten** op de instellingspagina **Toeslagencode**.
+- **Verzendkosten order**: dit element op voettekstniveau toont de eurowaarde van de toeslagen voor verzending.
+- **Details overige toeslagen**: dit element op voettekstniveau bevat de omschrijving van de toeslagencodes toegepast op de order die niet zijn gemarkeerd als Verzendkosten.
+- **Overige toeslagen order**: dit element op voettekstniveau toont de eurowaarde van de overige toeslagen die niet gerelateerd zijn aan de verzending.
 
 Het is raadzaam dat de organisatie ook vrije-tekstvelden toevoegt aan de voettekst van het ontvangstbewijs, om de gebieden te kunnen definiëren waar toeslagen worden samengevat.
 

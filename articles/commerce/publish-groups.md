@@ -18,11 +18,11 @@ ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: a83affb5b383b50317ddf53de4d3bf565f0d9439
-ms.sourcegitcommit: 83ec80382bfeb693d5c5949b6f65296bd50eed12
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973951"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411486"
 ---
 # <a name="work-with-publish-groups"></a>Werken met publicatiegroepen
 
@@ -67,7 +67,7 @@ Ga als volgt te werk om een publicatiegroep voor uw site te maken in de Commerce
 
 ## <a name="set-the-publish-group-authoring-context"></a>De auteurscontext van de publicatiegroep instellen
 
-In Commerce is de standaardauteurscontext de context van de live site. De auteurscontext van de live site is de standaardweergave waarin u uw website direct kunt bekijken en wijzigen zonder gebruik te hoeven maken van een publicatiegroep. De nieuwste directe updates voor de gepubliceerde versie van uw site worden hierin weergegeven. Als het contextbesturingselement onder **Publicatiegroepen** in het linkernavigatievenster de naam**Live site** bevat, werkt u in de auteurscontext van de live site. **Live site** is de standaardnaam van het contextbesturingselement. In het andere geval wordt de naam van een publicatiegroep weergegeven.
+In Commerce is de standaardauteurscontext de context van de live site. De auteurscontext van de live site is de standaardweergave waarin u uw website direct kunt bekijken en wijzigen zonder gebruik te hoeven maken van een publicatiegroep. De nieuwste directe updates voor de gepubliceerde versie van uw site worden hierin weergegeven. Als het contextbesturingselement onder **Publicatiegroepen** in het linkernavigatievenster de naam **Live site** bevat, werkt u in de auteurscontext van de live site. **Live site** is de standaardnaam van het contextbesturingselement. In het andere geval wordt de naam van een publicatiegroep weergegeven.
 
 Als u in een publicatiegroep wilt werken, moet u hiervoor overschakelen naar de auteurscontext voor publicatiegroepen. Ga als volgt te werk om de context van de publicatiegroep in te stellen.
 

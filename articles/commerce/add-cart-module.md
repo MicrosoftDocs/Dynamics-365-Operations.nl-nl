@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39026ec56ebf25342410330f2ba3e2e7773dfd6a
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055422"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4411534"
 ---
 # <a name="cart-module"></a>Winkelwagenmodule
 
@@ -50,22 +50,22 @@ De volgende afbeelding toont een voorbeeld van een winkelwagenpagina module op d
 
 | Eigenschap | Waarden | Beschrijving |
 |----------------|--------|-------------|
-| Kop | Koptekst en een tag voor koptekst ( **H1** , **H2** , **H3** , **H4** , **H5** of **H6** ) | De kop voor de winkelwagen zoals Boodschappentas of Artikelen in uw winkelwagen. |
-| Fouten voor niet op voorraad weergeven | **True** of **False** | Als deze eigenschap is ingesteld op **Waar** , worden op de pagina Winkelwagen fouten met betrekking tot de voorraad weergegeven. We raden u aan deze eigenschap in te stellen op **Waar** als voorraadcontrole wordt toegepast op de locatie. |
-| Verzendkosten voor regelartikelen weergeven | **True** of **False** | Als deze eigenschap is ingesteld op **Waar** , worden de verzendkosten voor de artikelen op de winkelwagenregels weergegeven als deze informatie beschikbaar is. Deze functie wordt niet ondersteund in het thema Fabrikam omdat gebruikers alleen verzending in de kassastroom selecteren. Deze functie kan echter worden ingeschakeld in andere werkstromen als dat van toepassing is. |
+| Kop | Koptekst en een tag voor koptekst (**H1**, **H2**, **H3**, **H4**, **H5** of **H6**) | De kop voor de winkelwagen zoals Boodschappentas of Artikelen in uw winkelwagen. |
+| Fouten voor niet op voorraad weergeven | **True** of **False** | Als deze eigenschap is ingesteld op **Waar**, worden op de pagina Winkelwagen fouten met betrekking tot de voorraad weergegeven. We raden u aan deze eigenschap in te stellen op **Waar** als voorraadcontrole wordt toegepast op de locatie. |
+| Verzendkosten voor regelartikelen weergeven | **True** of **False** | Als deze eigenschap is ingesteld op **Waar**, worden de verzendkosten voor de artikelen op de winkelwagenregels weergegeven als deze informatie beschikbaar is. Deze functie wordt niet ondersteund in het thema Fabrikam omdat gebruikers alleen verzending in de kassastroom selecteren. Deze functie kan echter worden ingeschakeld in andere werkstromen als dat van toepassing is. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Modules die in de winkelwagenmodule kunnen worden gebruikt
 
-- **Tekstblok** : deze module ondersteunt aangepaste berichten in de winkelwagenmodule. De berichten worden aangestuurd door het Content Management System (CMS). U kunt een bericht toevoegen, zoals "Voor problemen met uw order neemt u contact op met 1-800-Fabrikam".
-- **Winkelselectie** : deze module toont een lijst met nabijgelegen winkels waar een artikel beschikbaar is voor ophalen. Hiermee kunnen gebruikers een locatie invoeren om te zoeken naar winkels in de buurt. Zie [Winkelselectiemodule](store-selector.md) voor meer informatie over deze module.
+- **Tekstblok**: deze module ondersteunt aangepaste berichten in de winkelwagenmodule. De berichten worden aangestuurd door het Content Management System (CMS). U kunt een bericht toevoegen, zoals "Voor problemen met uw order neemt u contact op met 1-800-Fabrikam".
+- **Winkelselectie**: deze module toont een lijst met nabijgelegen winkels waar een artikel beschikbaar is voor ophalen. Hiermee kunnen gebruikers een locatie invoeren om te zoeken naar winkels in de buurt. Zie [Winkelselectiemodule](store-selector.md) voor meer informatie over deze module.
 
 ## <a name="module-properties"></a>Module-eigenschappen
 
-De volgende instellingen voor de winkelwagenmodule kunnen worden geconfigureerd via **Site-instellingen \> Extensies** :
+De volgende instellingen voor de winkelwagenmodule kunnen worden geconfigureerd via **Site-instellingen \> Extensies**:
 
-- **Maximumhoeveelheid** : deze eigenschap wordt gebruikt om voor elk artikel het maximumaantal op te geven dat aan de winkelwagen kan worden toegevoegd. Een detailhandelaar kan bijvoorbeeld besluiten dat slechts 10 stuks van elk product in één transactie mogen worden verkocht.
-- **Voorraad** : zie [Voorraadinstellingen toepassen](inventory-settings.md) voor informatie over het toepassen van voorraadinstellingen.
-- **Terug naar winkelen** : deze eigenschap wordt gebruikt om de route voor de koppeling **Terug naar winkelen** op te geven. De route kan op siteniveau worden geconfigureerd, zodat detailhandelaren de klant kunnen terugbrengen naar de startpagina of een willekeurige andere pagina op de site.
+- **Maximumhoeveelheid**: deze eigenschap wordt gebruikt om voor elk artikel het maximumaantal op te geven dat aan de winkelwagen kan worden toegevoegd. Een detailhandelaar kan bijvoorbeeld besluiten dat slechts 10 stuks van elk product in één transactie mogen worden verkocht.
+- **Voorraad**: zie [Voorraadinstellingen toepassen](inventory-settings.md) voor informatie over het toepassen van voorraadinstellingen.
+- **Terug naar winkelen**: deze eigenschap wordt gebruikt om de route voor de koppeling **Terug naar winkelen** op te geven. De route kan op siteniveau worden geconfigureerd, zodat detailhandelaren de klant kunnen terugbrengen naar de startpagina of een willekeurige andere pagina op de site.
 
 > [!IMPORTANT]
 > In de Dynamics 365 Commerce 10.0.14-release en later worden artikelen in de winkelwagen samengevoegd op basis van de instellingen die zijn gedefinieerd in het online functionaliteitsprofiel voor de online winkel in Commerce Headquarters. Zie [Een online functionaliteitsprofiel maken](online-functionality-profile.md) voor meer informatie over het maken van een online functionaliteitsprofiel en het instellen van de eigenschappen die zijn vereist voor samenvoeging.
@@ -83,14 +83,14 @@ Voer de volgende stappen uit om een winkelwagenmodule aan een nieuwe pagina toe 
 1. Voer onder **Naam fragment** de naam **Winkelwagenfragment** in en selecteer **OK**.
 1. Selecteer het vak **Winkelwagen**.
 1. Selecteer in het venster Eigenschappen rechts het potloodsymbool, voer de koptekst in het veld in en selecteer vervolgens het symbool voor het selectievinkje.
-1. Selecteer het weglatingsteken ( **...** ) in het vak **Winkelwagen** en selecteer **Module toevoegen**.
+1. Selecteer het weglatingsteken (**...**) in het vak **Winkelwagen** en selecteer **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** de **Winkelselectiemodule** en selecteer vervolgens **OK**.
-1. Selecteer **Opslaan** , selecteer **Bewerken voltooien** om het fragment te controleren en selecteer **Publiceren** om het te publiceren.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om het fragment te controleren en selecteer **Publiceren** om het te publiceren.
 1. Ga naar **Sjablonen** en selecteer **Nieuw** om een nieuwe sjabloon te maken.
 1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** een naam voor de sjabloon in.
-1. Selecteer in de overzichtsstructuur het vak **Hoofdtekst** , selecteer de knop met het weglatingsteken ( **...** ) en vervolgens **Fragment toevoegen**.
+1. Selecteer in de overzichtsstructuur het vak **Hoofdtekst**, selecteer de knop met het weglatingsteken (**...**) en vervolgens **Fragment toevoegen**.
 1. Selecteer in het dialoogvenster **Fragment selecteren** het fragment **Winkelwagenfragment** dat u eerder hebt gemaakt en selecteer vervolgens **OK**.
-1. Selecteer **Opslaan** , selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
 1. Ga naar **Pagina's** en selecteer **Nieuw** om een nieuwe pagina te maken.
 1. Selecteer in het dialoogvenster **Sjabloon kiezen** de sjabloon die u eerder hebt gemaakt, voer een paginanaam in en selecteer vervolgens **OK**.
 1. Selecteer **Opslaan** en vervolgens **Preview** om de pagina te bekijken.
@@ -107,6 +107,8 @@ Voer de volgende stappen uit om een winkelwagenmodule aan een nieuwe pagina toe 
 [Module voor verzendadressen](ship-address-module.md)
 
 [Module voor leveringsopties](delivery-options-module.md)
+
+[Module ophaalinformatie](pickup-info-module.md)
 
 [Module voor orderdetails](order-confirmation-module.md)
 

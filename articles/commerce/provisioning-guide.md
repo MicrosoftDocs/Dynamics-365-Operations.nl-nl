@@ -3,7 +3,7 @@ title: Een evaluatieomgeving voor Dynamics 365 Commerce inrichten
 description: In dit onderwerp wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce inricht.
 author: psimolin
 manager: annbe
-ms.date: 07/16/2020
+ms.date: 11/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e5ce2002c66a1c36d5647d3c76684b394fc1ff79
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
+ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599845"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4411532"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Een evaluatieomgeving voor Dynamics 365 Commerce inrichten
 
@@ -48,6 +48,7 @@ Zie [Een evaluatieomgeving van Commerce configureren](cpe-post-provisioning.md) 
 
 Aan de volgende voorwaarden moeten zijn voldaan voordat u uw evaluatieomgeving van Commerce inricht:
 
+- U bent geregistreerd voor het evaluatieprogramma en hebt capaciteit gekregen voor een evaluatieomgeving.
 - U hebt toegang tot de Microsoft Dynamics Lifecycle Services-portal (LCS).
 - U bent een bestaande Microsoft Dynamics 365-partner of -klant en kunt een Dynamics 365 Commerce-project maken.
 - U hebt beheerderstoegang tot uw Microsoft Azure-abonnement of u bent in contact met een abonnementsbeheerder die u kan helpen als dat nodig is.
@@ -91,7 +92,7 @@ Ga als volgt te werk om de omgeving te implementeren.
 
 1. Selecteer in het bovenste menu de optie **Cloudomgevingen**.
 1. Selecteer **Toevoegen** om een omgeving toe te voegen.
-1. Selecteer in het veld **Toepassingsversie** de meest recente versie. Als u specifiek een andere toepassingsversie dan de meest recente versie wilt selecteren, moet u geen eerdere versie dan **10.0.8** selecteren.
+1. Selecteer in het veld **Toepassingsversie** de meest recente versie. Als u specifiek een andere toepassingsversie dan de meest recente versie wilt selecteren, moet u geen eerdere versie dan **10.0.14** selecteren.
 1. Gebruik in het veld **Platformversie** de platform versie die automatisch wordt gekozen voor de toepassingsversie die u hebt geselecteerd. 
 
     ![Toepassings- en platformversies selecteren](./media/project1.png)
