@@ -16,11 +16,11 @@ ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
 ms.openlocfilehash: ef58dbb756c7bed3924010cb33eff27af66cd0bd
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982595"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411405"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Voorraadbuffers en voorraadniveaus configureren
 
@@ -45,7 +45,7 @@ Nadat de functie is ingeschakeld, kunt u voorraadniveaus zoeken in **Retail en C
 
 ## <a name="create-and-configure-an-inventory-level-profile"></a>Een voorraadniveauprofiel maken en configureren
 
-Een *voorraadniveauprofiel* bepaalt of een bepaalde status van een producthoeveelheid wordt beschouwd als op voorraad, niet op voorraad of een andere aangepaste status. U kunt meerdere voorraadniveauprofielen per rechtspersoon maken en configureren. Elk profiel bestaat uit een set voorraadniveaus en elk niveau wordt gedefinieerd door een *bereik*, een *code*en een *label*.
+Een *voorraadniveauprofiel* bepaalt of een bepaalde status van een producthoeveelheid wordt beschouwd als op voorraad, niet op voorraad of een andere aangepaste status. U kunt meerdere voorraadniveauprofielen per rechtspersoon maken en configureren. Elk profiel bestaat uit een set voorraadniveaus en elk niveau wordt gedefinieerd door een *bereik*, een *code* en een *label*.
 
 - **Bereik**: elk bereik wordt gedefinieerd door een *beginhoeveelheid* en een *eindhoeveelheid*. Een hoeveelheidswaarde valt in een bereik als deze meer is dan de beginhoeveelheid van dat bereik en niet meer dan de eindhoeveelheid.
 - **Code**: een code is een interne afkorting die voor het niveau staat. Klanten die rechtstreeks met de voorraad-API's worden geïntegreerd, kunnen codes gebruiken om extra logica te maken voor een bepaald voorraadniveau. Ze kunnen bijvoorbeeld de inkoopmogelijkheid voor een product uitschakelen wanneer de voorraadniveaucode is **NOV** (niet op voorraad) is.

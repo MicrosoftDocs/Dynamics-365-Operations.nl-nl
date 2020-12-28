@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: c7da601323663d4c1ea76f7cad7bdab8e7632d1c
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097088"
+ms.locfileid: "4411520"
 ---
 # <a name="promote-a-variation-and-complete-an-experiment"></a>Een variant promoveren en een experiment voltooien
 

@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097134"
+ms.locfileid: "4411516"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Experimenten in Dynamics 365 Commerce
 Gebruik experimenten in Dynamics 365 Commerce om hypotheses te valideren met betrekking tot de effectiviteit van uw e-Commerce-pagina's en om beslissingen te nemen over de op gegevens gebaseerde betrouwbaarheid. Commerce ondersteunt A/B-tests op pagina's, modules en fragmenten en stelt u in staat om de invloed van voorgestelde wijzigingen op uw website te meten.
@@ -31,9 +31,9 @@ Gebruik experimenten in Dynamics 365 Commerce om hypotheses te valideren met bet
 U kunt pagina- en inhoudsbehandelingen, die **variaties** worden genoemd, in Commerce Site Builder maken, bewerken en beheren. Commerce wordt geïntegreerd met services van derden waarmee u experimenten en behandelingstoewijzingen kunt maken. Realtime gebeurtenisstromen die in Commerce zijn vastgelegd, maken de analyse mogelijk waarmee de resultaten van het experiment in de service van derden worden gedefinieerd. U kunt deze analyse vervolgens gebruiken om uw hypotheses te ondersteunen of te bestrijden.
 
 ## <a name="set-up-prerequisites"></a>Instellingsvereisten
-1. **De juiste versie van Commerce ophalen** : voer een upgrade op uw modulebibliotheek, SDK (Software Development Kit) voor uitbreidbaarheid van online afzetkanalen en Commerce Scale Unit uit naar Commerce versie 10.0.13 of hoger.
-1. **Een experimentconnector instellen** : met een experimentconnector kan Commerce verbinding maken met services van derden om de lijst met experimenten op te halen en te bepalen wanneer een experiment aan een gebruiker moet worden weergegeven. U kunt een connector van een externe leverancier aanschaffen bij [AppSource](https://appsource.microsoft.com). Volg de installatie-instructies van de uitgever. U kunt ook de voorbeeldtestconnector van Commerce gebruiken om de experimentwerkstroom te testen zonder dat u een externe service hoeft te configureren. Zie [Connectors configureren en inschakelen](e-commerce-extensibility/connectors.md) voor meer informatie. 
-1. **Vlaggen voor de experimentfunctie inschakelen in Commerce** : u kunt experimenten op tenantniveau inschakelen door naar **Tenantinstellingen > Functies** te gaan of op siteniveau door naar **Site-instellingen > Functies** te gaan.
+1. **De juiste versie van Commerce ophalen**: voer een upgrade op uw modulebibliotheek, SDK (Software Development Kit) voor uitbreidbaarheid van online afzetkanalen en Commerce Scale Unit uit naar Commerce versie 10.0.13 of hoger.
+1. **Een experimentconnector instellen**: met een experimentconnector kan Commerce verbinding maken met services van derden om de lijst met experimenten op te halen en te bepalen wanneer een experiment aan een gebruiker moet worden weergegeven. U kunt een connector van een externe leverancier aanschaffen bij [AppSource](https://appsource.microsoft.com). Volg de installatie-instructies van de uitgever. U kunt ook de voorbeeldtestconnector van Commerce gebruiken om de experimentwerkstroom te testen zonder dat u een externe service hoeft te configureren. Zie [Connectors configureren en inschakelen](e-commerce-extensibility/connectors.md) voor meer informatie. 
+1. **Vlaggen voor de experimentfunctie inschakelen in Commerce**: u kunt experimenten op tenantniveau inschakelen door naar **Tenantinstellingen > Functies** te gaan of op siteniveau door naar **Site-instellingen > Functies** te gaan.
     - Schakel de vlag **Experimenten** in om experimentvariaties van modules binnen een pagina te maken zonder dat er andere inhoud wordt beïnvloed of gekopieerd die geen deel uitmaakt van het experiment. Op deze manier wordt ervoor gezorgd dat doorlopende inhoudsupdates buiten het experiment synchroon blijven tijdens de levenscyclus van het experiment. Als u deze vlag uitschakelt, wordt geen enkel experiment meer weergegeven voor gebruikers en worden alle bewerkingsfuncties in Site Builder verwijderd.
     - Schakel de vlag **Experiment in pagina's of fragmenten** in om experimenten op een pagina of fragment uit te voeren. Hiermee maakt u een volledige exemplaarkopie van de gehele pagina of het volledige fragment voor alle modules in de pagina of het fragment. Gebruik deze modus wanneer u uitgebreide wijzigingen in de inhoud wilt testen of wanneer de synchronisatie van doorlopende inhoudswijzigingen in verschillende exemplaren niet belangrijk is. Als deze vlag wordt uitgeschakeld, kunt u geen nieuwe experimenten maken en bewerken op pagina's en fragmenten.
     > [!NOTE]

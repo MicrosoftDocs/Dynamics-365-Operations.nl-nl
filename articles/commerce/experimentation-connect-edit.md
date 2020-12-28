@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 030640ba8907ae52c198ac96ad2c243b533d8c53
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096962"
+ms.locfileid: "4411517"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Een experiment verbinden en variaties bewerken
 
@@ -66,7 +66,7 @@ Voer de volgende stappen uit om aan de slag te gaan met uw experiment in Commerc
     > Een pagina kan slechts met één experiment tegelijk worden verbonden. Als u een pagina wilt verbinden met een ander experiment, verwijdert u eerst het experiment waarmee de pagina momenteel is verbonden.
 
 1. Kies de pagina of het fragment waarop u het experiment wilt uitvoeren.
-1. Stel het experimentbereik in op **gedeeltelijk** of **volledig** , afhankelijk van de keuze die u hebt gemaakt in de sectie [Het bereik van uw experiment bepalen](#determine-the-scope-of-your-experiment).
+1. Stel het experimentbereik in op **gedeeltelijk** of **volledig**, afhankelijk van de keuze die u hebt gemaakt in de sectie [Het bereik van uw experiment bepalen](#determine-the-scope-of-your-experiment).
     > [!NOTE]
     > De functievlag **Experimenten op pagina's of fragmenten** moet zijn ingeschakeld als u een experiment op een volledige pagina of in een volledig fragment wilt uitvoeren. Raadpleeg het onderwerp [Experimenten in Dynamics 365 Commerce](experimentation-overview.md) voor meer informatie.
     

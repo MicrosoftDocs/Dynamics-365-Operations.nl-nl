@@ -20,11 +20,11 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f9882ae895de926e0da3579ab65a988f2b97f7be
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3022197"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411366"
 ---
 # <a name="install-the-pos-layout-designer"></a>De POS-indelingsontwerper installeren
 
@@ -60,6 +60,6 @@ De interface voor grafische ontwerpen voor MPOS of Cloud POS wordt bepaald door 
 
 **Bekend probleem:** de ontwerper werkt niet correct in Google Chrome en Mozilla Firefox. We werken aan een oplossing voor dit probleem.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Retail Modern POS (MPOS) configureren, installeren en activeren](retail-modern-pos-device-activation.md)

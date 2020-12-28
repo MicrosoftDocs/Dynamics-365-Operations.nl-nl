@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: d9debd16b18300d090bde1862a16920d8e9185eb
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817249"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411292"
 ---
 # <a name="promo-banner-module"></a>Promospandoekmodule
 
@@ -71,7 +71,7 @@ Voer de volgende stappen uit om een promobannermodule aan een nieuwe pagina toe 
 
 1. Ga naar **Sjablonen** en selecteer **Nieuw** om een nieuwe sjabloon te maken.
 1. Voer in het dialoogvenster **Nieuwe sjabloon** onder **Sjabloonnaam** **Sjabloon voor promobanner** in en selecteer vervolgens **OK**.
-1. Voeg onder **Paginaoverzicht** een **Standaardpagina**module aan de **Hoofd**sleuf toe. 
+1. Voeg onder **Paginaoverzicht** een **Standaardpagina** module aan de **Hoofd** sleuf toe. 
 1. Selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren. 
 1. Gebruik de sjabloon die u zojuist hebt gemaakt om een pagina met de naam **Promobannerpagina** te maken. 
 1. Voeg in het **hoofdvak** van de nieuwe pagina een containermodule toe. 

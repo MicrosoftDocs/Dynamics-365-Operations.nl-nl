@@ -19,18 +19,18 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 43358264a2107fb139c00ce617054be16a74f935
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097157"
+ms.locfileid: "4411514"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Een hypothese opstellen en metrische gegevens voor succes bepalen voor een experiment
 De eerste fase in de levenscyclus van het experiment omvat de identificatie van de hypothese voor het experiment en het bepalen van de metrische gegevens die u zult volgen om succes te beoordelen. In het volgende diagram ziet u alle stappen voor het [instellen en uitvoeren van een experiment](experimentation-overview.md) op een e-Commerce-website in Dynamics 365 Commerce. Extra stappen worden in afzonderlijke onderwerpen behandeld. 
 
 [ ![Traject van gebruiker voor experimenten - identificeren](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 
-Een hypothese is een verklaring waarin u het resultaat van het experiment voorspelt. Veel factoren zijn aan de orde bij het definiëren van een hypothese, bijvoorbeeld bij onderzoek naar gebruikersgedrag en websitegegevens die u hebt verzameld. Met de hypothese definieert u de veronderstelling of theorie die u met uw experiment wilt valideren. Een voorbeeld van een hypothese voor uw experiment is: " *tijdens de zomermaanden zorgt een afbeelding van een wit t-shirt op mijn startpagina voor een hogere doorkliksnelheid dan een blauwe sweater, omdat mensen in de zomer iets met een licht gewicht en lichte kleur willen dragen.* " In dat geval maakt u variaties die een wit t-shirt en een blauwe sweater bevatten en publiceert u beide tegelijkertijd.
+Een hypothese is een verklaring waarin u het resultaat van het experiment voorspelt. Veel factoren zijn aan de orde bij het definiëren van een hypothese, bijvoorbeeld bij onderzoek naar gebruikersgedrag en websitegegevens die u hebt verzameld. Met de hypothese definieert u de veronderstelling of theorie die u met uw experiment wilt valideren. Een voorbeeld van een hypothese voor uw experiment is: "*tijdens de zomermaanden zorgt een afbeelding van een wit t-shirt op mijn startpagina voor een hogere doorkliksnelheid dan een blauwe sweater, omdat mensen in de zomer iets met een licht gewicht en lichte kleur willen dragen.*" In dat geval maakt u variaties die een wit t-shirt en een blauwe sweater bevatten en publiceert u beide tegelijkertijd.
 
 Om een hypothese te valideren moet het slagen of mislukken van een experiment rechtstreeks aan de acties van gebruikers zijn gekoppeld. Bijvoorbeeld als de gebruiker van de website op een koppeling of knop klikt. Deze acties moeten overeenkomen met gebeurtenissen die worden gerapporteerd aan de service van derden waarmee het experiment wordt gevolgd. Na verloop van tijd wordt het percentage gebruikers dat de actie uitvoert, geregistreerd als een metrisch gegeven dat u kunt gebruiken om rapporten te genereren en analyses uit te voeren. Raadpleeg het onderwerp [Commerce-onderdeelgebeurtenissen voor diagnose en probleemoplossing](dev-itpro/retail-component-events-diagnostics-troubleshooting.md) als u alle beschikbare gebeurtenissen en kenmerken wilt controleren.
 

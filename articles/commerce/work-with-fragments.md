@@ -18,11 +18,11 @@ ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019559"
+ms.locfileid: "4411505"
 ---
 # <a name="work-with-fragments"></a>Werken met fragmenten 
 
@@ -62,7 +62,7 @@ Voer de volgende stappen uit om een eerder geconfigureerde module te converteren
 
 1. Open een pagina of sjabloon die de module bevat die u naar een fragment wilt converteren.
 1. Selecteer de eerder geconfigureerde module in het overzichtsvenster links of rechtstreeks in de visuele paginabouwer.
-1. Selecteer het beletselteken ( **...** ) naast de naam van de module in het overzichtsvenster of op de werkbalk van de geselecteerde module in visuele paginabouwer. 
+1. Selecteer het beletselteken (**...**) naast de naam van de module in het overzichtsvenster of op de werkbalk van de geselecteerde module in visuele paginabouwer. 
 1. Selecteer **Delen als fragment**. 
 1. Voer in het dialoogvenster **Fragment opslaan als** een naam voor het fragment in.
 1. Selecteer **OK** om de moduleconfiguratie op te slaan als een fragment dat aan andere pagina's kan worden toegevoegd.
@@ -91,7 +91,7 @@ In de volgende procedures wordt beschreven hoe u fragmenten toevoegt en verwijde
 Voer de volgende stappen uit om een fragment aan een pagina toe te voegen in Commerce Site Builder.
 
 1. Selecteer in het overzichtsvenster links of rechtstreeks in visuele paginabouwer een container of vak waaraan onderliggende modules kunnen worden toegevoegd.
-1. Selecteer het weglatingsteken ( **...** ) naast de naam van de container of het vak.  Als alternatief kunt u, als u visuele paginabouwer gebruikt, het plusteken ( **+** ) selecteren.  
+1. Selecteer het weglatingsteken (**...**) naast de naam van de container of het vak.  Als alternatief kunt u, als u visuele paginabouwer gebruikt, het plusteken (**+**) selecteren.  
 1. Selecteer **Fragment toevoegen**.
     <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
@@ -109,7 +109,7 @@ Voer de volgende stappen uit om een fragment aan een pagina toe te voegen in Com
 
 Voer de volgende stappen uit om een fragment te verwijderen uit een vak of container op een pagina in Commerce Site Builder.
 
-1. Selecteer in het overzichtsvenster aan de linkerkant het weglatingsteken ( **...** ) naast het fragment dat u wilt verwijderen en selecteer vervolgens de knop Prullenbak.  U kunt ook het fragment in visuele paginabouwer selecteren en het symbool Prullenbak op de werkbalk van de fragment selecteren.
+1. Selecteer in het overzichtsvenster aan de linkerkant het weglatingsteken (**...**) naast het fragment dat u wilt verwijderen en selecteer vervolgens de knop Prullenbak.  U kunt ook het fragment in visuele paginabouwer selecteren en het symbool Prullenbak op de werkbalk van de fragment selecteren.
 1. Wanneer u wordt gevraagd te bevestigen dat u het fragment wilt verwijderen, selecteert u **OK**.
 
 > [!NOTE]

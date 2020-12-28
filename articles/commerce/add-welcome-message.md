@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: d2a125b4e71016ad620f128af2e3c9f29aa04f4c
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269608"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4411329"
 ---
 # <a name="add-a-welcome-message"></a>Een welkomstbericht toevoegen
 
@@ -44,7 +44,7 @@ Voer de volgende stappen uit om een welkomstbericht aan uw site toe te voegen.
 1. Ga naar uw site in Commerce Site Builder.
 1. Selecteer **Fragmenten**.
 1. Selecteer het koptekstfragment waaraan u het bericht wilt toevoegen.
-1. Vouw in de overzichtsstructuur **Fout-/informatieve berichten**uit.
+1. Vouw in de overzichtsstructuur **Fout-/informatieve berichten** uit.
 1. Selecteer de waarschuwingsmodule en selecteer vervolgens **OK**. Als er nog geen waarschuwingsmodule bestaat, selecteert u eerst de knop met het weglatingsteken (**...**) naast **Fout-/informatieve berichten** en selecteer vervolgens **Module toevoegen**.
 1. Selecteer in het eigenschappenvenster aan de rechterkant op het tabblad **Gegevens** de optie **Gegevensbron toevoegen** en selecteer vervolgens **Inhoud**.
 1. Voer in het veld **Invoertekst** de tekst van het welkomstbericht in.

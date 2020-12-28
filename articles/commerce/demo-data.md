@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014881"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4411533"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Schermindelingen met demonstratiegegevens in Modern POS (MPOS) en Cloud POS
 
@@ -64,6 +64,7 @@ Schermindeling-id's kunnen uit maximaal 10 tekens bestaan. De id is een tekenree
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | De basisversie die ondersteuning biedt voor meerdere schermformaten voor verschillende apparaten en hoogte-breedteverhoudingen |
 | 3.1            | De basisversie met extra ondersteuning voor het deelvenster **Aanbevolen producten**        |
+| 4              | De uitgebreide versie voor de bijgewerkte indeling van Fabrikam                                  |
 
 ### <a name="persona"></a>Persona
 
@@ -75,9 +76,9 @@ Schermindeling-id's kunnen uit maximaal 10 tekens bestaan. De id is een tekenree
 
 ### <a name="example-layout"></a>Voorbeeldindeling
 
-Hier is een voorbeeld van een schermindelings-id voor het bedrijf Fabrikam, indelingsversie 3, en de persona Winkelmanager:
+Hier is een voorbeeld van een schermindelings-id voor het bedrijf Fabrikam, indelingsversie 4, en de persona Winkelmanager:
 
-F3MGR
+F4MGR
 
 In de volgende afbeelding wordt een voorbeeld van het welkomstscherm voor een winkelmanager van Fabrikam weergegeven.
 
@@ -89,8 +90,8 @@ In de volgende afbeelding wordt een voorbeeld van het welkomstscherm voor een wi
 
 Een schermindeling kan configuraties voor zowel volledige als compacte apparaten bevatten. Daarom kan een gebruiker worden toegewezen aan één schermindeling die werkt op verschillende afmetingen en vormfactoren in de winkel.
 
-- **Modern POS - volledig** : volledige indelingen zijn normaal gesproken het meest geschikt voor grotere beeldschermen, zoals computerbeeldschermen en tablets. Gebruikers kunnen de UI-elementen in de indeling selecteren, de grootte en positie van die elementen opgeven en hun gedetailleerde eigenschappen configureren. Volledige indelingen ondersteunen zowel staande (portrait) als liggende (landscape) configuraties.
-- **Modern POS - compact** : compacte indelingen zijn normaal gesproken het meest geschikt voor telefoons of kleine tablets. De ontwerpmogelijkheden zijn beperkt voor compacte apparaten. Gebruikers kunnen de kolommen en velden voor de deelvensters Ontvangstbewijs en Totalen configureren.
+- **Modern POS - volledig**: volledige indelingen zijn normaal gesproken het meest geschikt voor grotere beeldschermen, zoals computerbeeldschermen en tablets. Gebruikers kunnen de UI-elementen in de indeling selecteren, de grootte en positie van die elementen opgeven en hun gedetailleerde eigenschappen configureren. Volledige indelingen ondersteunen zowel staande (portrait) als liggende (landscape) configuraties.
+- **Modern POS - compact**: compacte indelingen zijn normaal gesproken het meest geschikt voor telefoons of kleine tablets. De ontwerpmogelijkheden zijn beperkt voor compacte apparaten. Gebruikers kunnen de kolommen en velden voor de deelvensters Ontvangstbewijs en Totalen configureren.
 
 ### <a name="screen-resolutions-that-are-provided"></a>Geleverde schermresoluties
 
@@ -103,6 +104,7 @@ In de volgende tabel worden de indelingsformaten weergegeven die beschikbaar zij
 | Volledig\*      | 1280 × 720 | 16:9         | Tablets                 |
 | Volledig        | 1366 × 768 | 16:9         | Tablets, grotere schermen |
 | Volledig        | 1440 × 960 | 3:2          | Tablets, grotere schermen |
+| Volledig\*      | 1536 × 864 | 16:9         | Tablets, grotere schermen |
 
 \* Deze extra indelingsformaten zijn alleen beschikbaar in Adventure Works- en Fabrikam-indelingen.
 
@@ -120,7 +122,7 @@ Elk fictief bedrijf is gericht op een ander segment en bevat productcatalogi die
 | Bedrijf         | Locatie | Segment        | Accent | Thema |
 |-----------------|----------|----------------|--------|-------|
 | Adventure Works | Seattle  | Sportartikelen | Blauw   | Donker  |
-| Fabrikam        | Houston  | Mode        | Groen  | Licht |
+| Fabrikam        | San Francisco  | Mode        | Groen  | Licht |
 | Contoso         | Boston   | Elektronica    | Rood    | Donker  |
 
 > [!NOTE]
@@ -153,7 +155,7 @@ Er zijn al gebruikers opgegeven voor de verschillende schermindelingen. Met behu
 | Adventure Works | A3MGR            | Winkelmanager | 000154, 000137, 000073 |
 | Adventure Works | A3KAS            | Kassier       | 000150, 000175, 000165 |
 | Adventure Works | A3MMW            | Magazijnmedewerker   | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Winkelmanager | 000160, 000168, 000163 |
+| Fabrikam        | F4MGR            | Winkelmanager | 000160, 000713         |
 | Fabrikam        | F3KAS            | Kassier       | 000161, 000113, 000114 |
 | Fabrikam        | F3MMW            | Magazijnmedewerker   | 000164, 000112, 000123 |
 | Contoso         | C3MGR            | Winkelmanager | 000100, 000111         |
