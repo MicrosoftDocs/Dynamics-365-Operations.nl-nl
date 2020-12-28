@@ -20,11 +20,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e3879079e233a881ea0adc1f5e2ba39ab70b372d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018808"
+ms.locfileid: "4425763"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>Inkooporders goedkeuren en bevestigen
 
@@ -35,7 +35,7 @@ In dit onderwerp worden de statussen beschreven die een inkooporder (IO) doorloo
 Nadat een inkooporder (IO) is gemaakt, moet deze mogelijk een goedkeuringsproces doorlopen. Nadat de leverancier heeft ingestemd met de order, wordt de IO ingesteld op de status **Bevestigd**.
 
 ## <a name="approval-of-purchase-orders"></a>Goedkeuring van inkooporders
-IO's die geen gebruikmaken van wijzigingsbeheer hebben de status **Goedgekeurd** zodra zij worden gemaakt, terwijl IO's die wel gebruikmaken van wijzigingsbeheer meteen nadat zij zijn gemaakt de status **Concept** hebben. Een IO die is gemaakt door een geplande order uit de hoofdplanning te bevestigen, wordt altijd ingesteld op de status **Goedgekeurd** , ongeacht de instellingen voor wijzigingsbeheer. Een IO maakt alleen voorraadtransacties als deze de status **Goedgekeurd** bereikt. Daarom wordt die voorraad pas weergegeven als beschikbaar voor reservering of markering wanneer de order is geaccepteerd.
+IO's die geen gebruikmaken van wijzigingsbeheer hebben de status **Goedgekeurd** zodra zij worden gemaakt, terwijl IO's die wel gebruikmaken van wijzigingsbeheer meteen nadat zij zijn gemaakt de status **Concept** hebben. Een IO die is gemaakt door een geplande order uit de hoofdplanning te bevestigen, wordt altijd ingesteld op de status **Goedgekeurd**, ongeacht de instellingen voor wijzigingsbeheer. Een IO maakt alleen voorraadtransacties als deze de status **Goedgekeurd** bereikt. Daarom wordt die voorraad pas weergegeven als beschikbaar voor reservering of markering wanneer de order is geaccepteerd.
 
 U schakelt wijzigingsbeheer voor IO's in door de optie **Wijzigingsbeheer activeren** in te stellen op de pagina **Parameters voor inkoopbeheer**. Als wijzigingsbeheer is ingeschakeld, moeten IO's een goedkeuringsworkflow doorlopen nadat zij zijn voltooid. Supply Chain Management heeft een werkstroomverwerkingseditor waarin u een werkstroom voor het goedkeuringsproces kunt definiëren. Deze workflow kan regels bevatten voor automatische goedkeuring, regels om te bepalen wie wordt aangewezen voor het goedkeuren van bepaalde IO's en regels voor het escaleren van een workflow die al lange tijd wacht op goedkeuring. U kunt het proces voor veranderingenbeheer inschakelen voor alle leveranciers of voor specifieke leveranciers. U kunt ook het proces instellen zodat dit kan worden overschreven voor afzonderlijke IO's.
 
@@ -80,7 +80,7 @@ Een IO kan worden geannuleerd met de actie **Annuleren** in de koptekst.
 
 Als de hoeveelheid gedeeltelijk is geregistreerd, ontvangen of gefactureerd, kunt u alleen de resterende niet-geregistreerde, ontvangen of gefactureerde hoeveelheid annuleren. De orderhoeveelheid wordt vervolgens overeenkomstig verminderd. Wanneer de hoeveelheid op de regel is bijgewerkt, wordt ook de regelstatus bijgewerkt. Stel, de oorspronkelijke hoeveelheid op de regel is 5 en er wordt een hoeveelheid van 3 ontvangen. In dit geval kunnen er slechts twee worden geannuleerd. Vervolgens wordt de regel bijgewerkt naar de status **Ontvangen**.
 
-Als er een leveringsrestant aan de orderregel wordt toegevoegd en hiermee de hoeveelheid op de orderregel wordt overschreden, wordt met de actie **Annuleren** niet de overtollige hoeveelheid geannuleerd. In plaats daarvan behoudt de regel de status **Openstaande order** , omdat deze een resterende hoeveelheid heeft. Stel, de oorspronkelijke hoeveelheid op de regel is 5 en het leveringsrestant is 7. Als de order wordt geannuleerd, worden er vijf geannuleerd en blijft er een hoeveelheid van 2 over, zoals u in de voorraadtransacties kunt zien.
+Als er een leveringsrestant aan de orderregel wordt toegevoegd en hiermee de hoeveelheid op de orderregel wordt overschreden, wordt met de actie **Annuleren** niet de overtollige hoeveelheid geannuleerd. In plaats daarvan behoudt de regel de status **Openstaande order**, omdat deze een resterende hoeveelheid heeft. Stel, de oorspronkelijke hoeveelheid op de regel is 5 en het leveringsrestant is 7. Als de order wordt geannuleerd, worden er vijf geannuleerd en blijft er een hoeveelheid van 2 over, zoals u in de voorraadtransacties kunt zien.
 
 Als u de hele hoeveelheid op een inkooporderregel wilt annuleren, moet u de hoeveelheid van het leveringsrestant op de regel annuleren. De regel wordt vervolgens bijgewerkt naar de status **Geannuleerd**.
 

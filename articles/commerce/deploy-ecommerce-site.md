@@ -1,6 +1,6 @@
 ---
 title: Een nieuwe e-commerce-tenant implementeren
-description: In dit onderwerp wordt beschreven hoe u een nieuwe e-commerce-tenant implementeert met behulp van Microsoft Dynamics Lifecycle Services (LCS).
+description: In dit onderwerp wordt beschreven hoe u een nieuwe Dynamics 365 Commerce e-commerce-site implementeert met behulp van Microsoft Dynamics Lifecycle Services (LCS).
 author: psimolin
 manager: annbe
 ms.date: 07/02/2020
@@ -17,19 +17,19 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 00f35b516dbf6ab4d4d9171c84a16b89f6afe832
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 157dc8225e5bbf9338a1b5a79a2880e8a8c4bf10
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533270"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517277"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Een nieuwe e-commerce-tenant implementeren
 
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u een nieuwe e-commerce-site implementeert met behulp van Microsoft Dynamics Lifecycle Services (LCS).
+In dit onderwerp wordt beschreven hoe u een nieuwe Dynamics 365 Commerce e-commerce-site implementeert met behulp van Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="overview"></a>Overzicht
 
@@ -82,7 +82,7 @@ Nadat u de vereiste informatie hebt verzameld, voert u de volgende stappen uit o
     
 Wanneer e-Commerce via LCS wordt geïnitialiseerd, worden verscheidene onderdelen ingesteld die nodig zijn voor e-commerce en die aan de omgeving worden gekoppeld. Nadat de inrichting is voltooid, wordt het tabblad **e-Commerce** op de pagina **Retail-beheer** bijgewerkt om de inrichting weer te geven. Op de pagina worden de nieuwste implementaties van aanpassingen en de status van andere lopende implementaties weergegeven. De pagina bevat ook koppelingen naar de e-Commerce-site en de site builder voor de e-Commerce-site waar sites worden geschreven.
 
-## <a name="access-site-builder"></a>Site builder openen
+## <a name="access-commerce-site-builder"></a>Commerce-site builder openen
 
 Ga naar het tabblad **e-Commerce** op de pagina **Retail-beheer** in LCS en selecteer de koppeling **Beheerhulpprogramma van de e-Commerce-site** om toegang te krijgen tot site builder. De landingspagina voor site builder is een weergave op tenantniveau. Op deze pagina kunt u het volgende doen:
 
@@ -91,15 +91,15 @@ Ga naar het tabblad **e-Commerce** op de pagina **Retail-beheer** in LCS en sele
 - Toegang verkrijgen tot beoordelingsfuncties, zoals moderator en rapportage.
 - Maak een nieuwe site. Zie [Een e-Commerce-site maken](create-ecommerce-site.md) voor meer informatie over het maken van een nieuwe site. 
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Uw domeinnaam configureren](configure-your-domain-name.md)
 
 [Een e-commerce-site maken](create-ecommerce-site.md)
 
-[Een online-site koppelen aan een kanaal](associate-site-online-store.md)
+[Een Dynamics 365 Commerce-site koppelen aan een online kanaal](associate-site-online-store.md)
 
-[Robots.txt-bestanden beheren](manage-robots-txt-files.md)
+[robots.txt-bestanden beheren](manage-robots-txt-files.md)
 
 [URL-omleidingen in bulk uploaden](upload-bulk-redirects.md)
 

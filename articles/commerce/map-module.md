@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817201"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665415"
 ---
 # <a name="map-module"></a>Module Kaarten
 
@@ -58,7 +58,7 @@ De volgende afbeelding toont een voorbeeld van een kaartmodule die wordt gebruik
 
 ## <a name="add-allowed-mapping-urls-to-a-sites-content-security-policy-directives"></a>Toegestane toewijzings-URL's toevoegen aan de beleidsrichtlijnen van de inhoudsbeveiliging van een site
 
-Om de kaartmodules te laten communiceren met Bing Kaarten moet u ervoor zorgen dat de volgende toewijzings-URL's zijn toegestaan (ook wel 'whitelisted' genoemd) volgens het inhoudsbeveiligingsbeleid van uw site (CSP). Deze instelling wordt uitgevoerd in Commerce Site Builder door toegestane URL's toe te voegen aan verschillende CSP-instructies voor de site (bijvoorbeeld **img-src**). Zie voor meer informatie [Beveiligingsbeleid voor inhoud](manage-csp.md). 
+Om de kaartmodules te laten communiceren met Bing Kaarten moet u ervoor zorgen dat de volgende toewijzings-URL's zijn toegestaan volgens het inhoudsbeveiligingsbeleid van uw site (CSP). Deze instelling wordt uitgevoerd in Commerce Site Builder door toegestane URL's toe te voegen aan verschillende CSP-instructies voor de site (bijvoorbeeld **img-src**). Zie voor meer informatie [Beveiligingsbeleid voor inhoud](manage-csp.md). 
 
 - Voeg aan de **connect-src**-richtlijn **&#42;.bing.com** toe.
 - Voeg aan de **img-src**-richtlijn **&#42;.virtualearth.net** toe.

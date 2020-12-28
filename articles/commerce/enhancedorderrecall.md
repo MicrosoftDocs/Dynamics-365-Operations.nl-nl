@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41944fb7819b5527f6bc023a60acd9450d9e43c2
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974833"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665293"
 ---
 # <a name="recall-order-operation-in-pos"></a>Bewerking Order intrekken in POS
 
 [!include [banner](includes/banner.md)]
 
-Met de bewerking voor het intrekken van orders in het Commerce Point of Sale (POS) beschikt u over gewijzigde functies om te zoeken en te filteren en over orderspecifieke informatie. Deze functie is beschikbaar in Commerce-versies 10.0.15 en hoger.
+Met de bewerking voor het **intrekken van orders** in het Commerce Point of Sale (POS) beschikt u over gewijzigde functies om te zoeken en te filteren en over orderspecifieke informatie. Deze functie is beschikbaar in Commerce-versies 10.0.15 en hoger.
 
 Als u deze functie wilt inschakelen, schakelt u de functie **Verbeterde bewerking voor orderintrekking in POS** in de werkruimte **Functiebeheer** in Commerce Headquarters in. Nadat u de functie hebt ingeschakeld, kunt u overwegen om uw [schermindelingen](pos-screen-layouts.md) in POS bij te werken zodat u kunt profiteren van een aantal van de gewijzigde mogelijkheden.
 

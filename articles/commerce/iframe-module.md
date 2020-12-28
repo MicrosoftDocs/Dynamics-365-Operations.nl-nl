@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 58446289c9a53af30d4d6d331a1a609ae0d2a0ad
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 4afd8f60938c99d1981be1625ef28f91d9e4bb4c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818193"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665391"
 ---
 # <a name="iframe-module"></a>Iframe-module
 
@@ -35,7 +35,7 @@ In dit onderwerp wordt beschreven wat de iframe-module is en hoe u deze toevoegt
 
 Een iframe-module biedt een iframe (inline frame) dat de host is van externe inhoud op een site. Het kan bijvoorbeeld worden gebruikt om een YouTube-video of PDF-bestandsviewer te hosten op een sitepagina. 
 
-Voor een iframe-module is een doel-URL vereist. Vervolgens wordt de inhoud van de doelpagina binnen een HTML **iframe**-element gehost. Externe URL's moeten worden vermeld in de toegestane lijst (ook wel 'whitelist' genoemd) volgens de CSP-instructies (Content Security Policy) van de site. Voor iframe-inhoud moeten URL's worden toegestaan met behulp van de instructie **frame-ancestor**. Zie voor meer informatie [Beveiligingsbeleid voor inhoud (CSP) beheren](manage-csp.md).
+Voor een iframe-module is een doel-URL vereist. Vervolgens wordt de inhoud van de doelpagina binnen een HTML **iframe**-element gehost. Externe URL's moeten worden vermeld in de toegestane lijst volgens de CSP-instructies (Content Security Policy) van de site. Voor iframe-inhoud moeten URL's worden toegestaan met behulp van de instructie **frame-ancestor**. Zie voor meer informatie [Beveiligingsbeleid voor inhoud (CSP) beheren](manage-csp.md).
 
 > [!NOTE]
 > De iframe-module is beschikbaar in de Dynamics 365 Commerce versie 10.0.13.

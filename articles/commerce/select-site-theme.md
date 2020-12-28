@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
+ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817701"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4556424"
 ---
 # <a name="select-a-site-theme"></a>Selecteer een thema voor de site
 
@@ -32,7 +32,7 @@ In dit onderwerp wordt beschreven hoe u het thema van uw site kunt instellen of 
 
 ## <a name="overview"></a>Overzicht
 
-De indeling en stijl van een site (bijvoorbeeld lettertypen, afmetingen en kleuren) worden gedefinieerd door het thema dat u selecteert en op de site toepast. Een thema wordt gemaakt en geïmplementeerd door een ontwikkelaar in uw bedrijf. Zie [Overzicht van thema's](http://) voor een overzicht van thema's. Zie [Een nieuw thema maken](http://) voor meer informatie over het maken en implementeren van regels.
+De indeling en stijl van een site (bijvoorbeeld lettertypen, afmetingen en kleuren) worden gedefinieerd door het thema dat u selecteert en op de site toepast. Een thema wordt gemaakt en geïmplementeerd door een ontwikkelaar in uw bedrijf. Zie [Overzicht van thema's](e-commerce-extensibility/theming.md) voor een overzicht van thema's. Zie [Een nieuw thema maken](e-commerce-extensibility/create-theme.md) voor meer informatie over het maken en implementeren van regels.
 
 Wanneer u voor het eerst een site maakt, wordt standaard een thema met de naam **Fabrikam** gebruikt. Dit standaardthema wordt geleverd als onderdeel van de Commerce-modulebibliotheek. Nadat u extra thema's hebt geïmplementeerd voor uw site, kunt u de site zo configureren dat een van uw thema's wordt gebruikt.
 
@@ -63,3 +63,8 @@ Voer de volgende stappen uit om het thema te selecteren dat op uw site wordt toe
 [Talen toevoegen aan uw site](add-languages-to-site.md)
 
 [Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie](add-telemetry.md)
+
+[Overzicht van thema's](e-commerce-extensibility/theming.md)
+
+[Een nieuw thema maken](e-commerce-extensibility/create-theme.md)
+

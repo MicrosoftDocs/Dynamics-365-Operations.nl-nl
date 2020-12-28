@@ -1,5 +1,5 @@
 ---
-title: Automatisch fiatteren met Planningsoptimalisatie
+title: Automatische fiattering met Planningsoptimalisatie
 description: In dit onderwerp wordt uitgelegd hoe u automatische fiattering gebruikt met Planningsoptimalisatie.
 author: ChristianRytt
 manager: tfehr
@@ -19,14 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: e412ccbc7c44d41e0a70ef8b5436901e01c671e6
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.openlocfilehash: 61e9e6aa660bc0828645c6bf1f2655539804831a
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3383683"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594521"
 ---
-# <a name="auto-firming-with-planning-optimization"></a>Automatisch fiatteren met Planningsoptimalisatie
+# <a name="autofirming-with-planning-optimization"></a>Automatische fiattering met Planningsoptimalisatie
 
 [!include [banner](../../includes/banner.md)]
 
@@ -35,7 +35,7 @@ Met automatische fiattering kunt u geplande orders fiatteren (vrijgeven) als ond
 > [!NOTE]
 > Een geplande inkooporder kan alleen automatisch automatisch worden gefiatteerd als het artikel is gekoppeld aan een leverancier.
 
-## <a name="turn-on-auto-firming"></a>Automatische fiattering inschakelen
+## <a name="turn-on-autofirming"></a>Automatische fiattering inschakelen
 
 Voer de volgende stappen uit om automatische fiattering in te schakelen.
 
@@ -48,7 +48,7 @@ De time fence voor fiattering wordt vooruit vanaf de datum van hoofdplanningsuit
 
 - Als u de standaard time fence voor fiattering voor een behoefteplanningsgroep wilt definiëren, gaat u naar **Hoofdplanning** \> **Instellingen** \> **Behoefteplanning** \> **Behoefteplanningsgroepen** en selecteert u een behoefteplanningsgroep. Voer vervolgens op het sneltabblad **Overige** in het veld **Time fence automatische fiattering (dagen)** het aantal dagen in.
 - Als u de gedefinieerde time fence voor de behoefteplanningsgroep voor een specifiek artikel wilt overschrijven, gaat u naar **Productgegevensbeheer** \> **Vrijgegeven producten** en selecteert u vervolgens in het actievenster **Planning** en **Artikelbehoefteplanning**. Selecteer vervolgens op het tabblad **Algemeen** de optie **Time fence overschrijven** en voer in het **Time fence automatische fiattering (dagen)** het aantal dagen in.
-- Als u de gedefinieerde time fence voor fiattering voor de behoefteplanningsgroep en artikelbehoefteplanning voor een specifiek hoofdplan wilt overschrijven, gaat u naar **Hoofdplanning** \> **Instellingen** \> **Hoofdplannen** en selecteert u een hoofdplan. Stel vervolgens op het sneltabblad **Time fence in dagen** de optie **Vergrendeling** in op **Ja** om het aantal dagen in te voeren.
+- Als u de gedefinieerde time fence voor fiattering voor de behoefteplanningsgroep en artikelbehoefteplanning voor een specifiek hoofdplan wilt overschrijven, gaat u naar **Hoofdplanning** \> **Instellingen** \> **Hoofdplannen** en selecteert u een hoofdplan. Stel vervolgens op het sneltabblad **Time fence in dagen** de optie **Fiattering** in op **Ja** om het aantal dagen in te voeren.
 
 Als automatische fiattering is ingeschakeld voor een uitvoering van de hoofdplanning waarbij wordt gebruikgemaakt van Planningsoptimalisatie, wordt het proces voor automatische fiattering uitgevoerd volgens de instellingen voor automatische fiattering. Als automatische fiattering niet is ingeschakeld of als planning wordt gestart vanaf de pagina **Nettobehoeften**, wordt het proces voor automatisch fiatteren overgeslagen.
 

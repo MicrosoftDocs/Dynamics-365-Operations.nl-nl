@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
-ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
+ms.openlocfilehash: 7dc9f85bf90e6ddf9badf656eb136e28a71b036f
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "3081334"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594108"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Online en offline verkooppuntbewerkingen (POS)
 
@@ -197,6 +197,8 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 500 | Ongeldig gemaakte transactie | De huidige transactie annuleren. | Ja | Ja | Nee | Ja | Nee |
 | 916 | Windows Workflow Foundation | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Nee |
 | 924 | X-rapport voor bankpassen | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Ja |
+| 311 | Systeemkortingen uit transacties verwijderen | Verwijder alle toegewezen systeemkortingen, inclusief couponkortingen, uit de transactie. Hiermee worden handmatige kortingen niet verwijderd. | Ja | Ja | Ja | Ja | No |
+| 312 | Systeemkortingen opnieuw toepassen | Pas systeemkortingen opnieuw toe op de transactie als deze zijn verwijderd met de bewerking **Systeemkortingen uit transacties verwijderen**. | Ja | Ja | Ja | Ja | No |
 
 \* De bewerking is alleen beschikbaar in de offlinemodus als een klantorder of verkoopofferte wordt gemaakt en alleen als het offline maken van klantorders en verkoopoffertes is geconfigureerd in het POS-functionaliteitsprofiel. De bewerking kan niet worden uitgevoerd wanneer orders worden gemaakt met Real-time Service of wanneer orders worden ingetrokken of bewerkt.
 

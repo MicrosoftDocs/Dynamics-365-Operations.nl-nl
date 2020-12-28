@@ -1,65 +1,66 @@
 ---
 title: Leverancierssamenwerking met klanten
 description: In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met inkooporders te werken en consignatievoorraad te bewaken.
-author: mkirknel
+author: TaylorVH
 manager: tfehr
-ms.date: 06/20/2017
+ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
-ms.reviewer: kamaybac
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
-ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 540f4f4e4a047b5bc33c9be387c8940175f5f919
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.author: v-savanh
+ms.search.validFrom: 2020-11-01
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: dc97b230f23056db90e654b4aea3272bb8f1ba13
+ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018145"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654335"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Leverancierssamenwerking met klanten
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken om met klanten te werken in Microsoft Dynamics 365 Supply Chain Management. Leveranciers kunnen een reeks bedrijfsprocessen voltooien vanuit de volgende werkgebieden:
 
-- **Inkooporderbevestiging** : controleer inkooporders en reageer hierop.
-- **Biedingen van leverancier** : bekijk offerteaanvragen en reageer hierop door te bieden.
-- **Leveranciersgegevens** : bekijk modelgegevens van leveranciers en werk deze bij.
-- **Facturering** : werk met facturen. In dit onderwerp komt het werkgebied **Facturering** niet aan bod. Zie [Werkgebied voor samenwerkingsfacturering van leveranciers](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md) voor meer informatie over dit werkgebied.
+- **Inkooporderbevestiging**: controleer inkooporders en reageer hierop.
+- **Biedingen van leverancier**: bekijk offerteaanvragen en reageer hierop door te bieden.
+- **Leveranciersgegevens**: bekijk modelgegevens van leveranciers en werk deze bij.
+- **Facturering**: werk met facturen. In dit onderwerp komt het werkgebied **Facturering** niet aan bod. Zie [Werkgebied voor samenwerkingsfacturering van leveranciers](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md) voor meer informatie over dit werkgebied.
 
 Leveranciers kunnen ook informatie over de consignatievoorraad controleren.
 
 ## <a name="working-with-pos-in-the-purchase-order-confirmation-workspace"></a>Werken met inkooporders in het werkgebied Inkooporderbevestiging
 
-In het werkgebied **Inkooporderbevestiging** kunt u reageren op de inkooporders die ter beoordeling naar u zijn verzonden. Daarnaast kunt u informatie weergeven over inkooporders die wachten op actie van de klant en inkooporders die zijn bevestigd, maar nog openstaan.
+In het werkgebied **Inkooporderbevestiging** kunt u reageren op de inkooporders (IO's) die ter beoordeling naar u zijn verzonden. Daarnaast kunt u informatie weergeven over inkooporders die wachten op actie van de klant en inkooporders die zijn bevestigd, maar nog openstaan.
 
-Er zijn drie lijsten in de werkruimte **Inkooporderbevestiging** :
+Er zijn drie lijsten in de werkruimte **Inkooporderbevestiging**:
 
-- **Inkooporders ter beoordeling** : deze lijst bevat inkooporders die aan u zijn verzonden en op een reactie van u wachten. Als u reageert, verdwijnt de inkooporder uit de lijst. Als de klant u een nieuwe versie van de inkooporder stuurt voordat u de vorige hebt beantwoord, wordt alleen de laatste versie weergegeven.
-- **In afwachting van actie van klant** : in deze lijst worden alle inkooporders weergegeven waarop u hebt gereageerd, maar die nog niet door de klant zijn bevestigd. Als u een inkooporder accepteert, kunt u deze order in deze lijst blijven controleren totdat de status in **Bevestigd** wordt gewijzigd. Als u een inkooporder afwijst of met wijzigingen accepteert, kunt u de inkooporder hier controleren tot de klant een nieuwe versie stuurt.
-- **Bevestigde inkooporders openen** : deze lijst bevat alle inkooporders voor uw rekening die de status **Bevestigd** hebben. Wanneer IO-producten of -services volledig zijn ontvangen, verdwijnt de inkooporder uit de lijst.
+- **Inkooporders ter beoordeling**: deze lijst bevat inkooporders die aan u zijn verzonden en op een reactie van u wachten. Als u reageert, verdwijnt de inkooporder uit de lijst. Als de klant u een nieuwe versie van de inkooporder stuurt voordat u de vorige hebt beantwoord, wordt alleen de laatste versie weergegeven.
+- **In afwachting van actie van klant**: in deze lijst worden alle inkooporders weergegeven waarop u hebt gereageerd, maar die nog niet door de klant zijn bevestigd. Als u een inkooporder accepteert, kunt u deze order in deze lijst blijven controleren totdat de status in **Bevestigd** wordt gewijzigd. Als u een inkooporder afwijst of met wijzigingen accepteert, kunt u de inkooporder hier controleren tot de klant een nieuwe versie stuurt.
+- **Bevestigde inkooporders openen**: deze lijst bevat alle inkooporders voor uw rekening die de status **Bevestigd** hebben. Wanneer IO-producten of -services volledig zijn ontvangen, verdwijnt de inkooporder uit de lijst.
 
 U kunt de volgende pagina's gebruiken om met inkooporders te werken:
 
-- **Inkooporders ter beoordeling** : deze pagina bevat dezelfde informatie als de lijst **Inkooporders ter beoordeling** in het werkgebied. Zie de beschrijvingen eerder in dit onderwerp.
-- **Historie van leveranciersbevestigingen van inkooporders** : deze pagina bevat alle inkooporders en alle versies van inkooporders die zijn verzonden naar de leverancier. Hier vindt u ook alle geretourneerde antwoorden van de leverancier.
-- **Bevestigde inkooporders openen** : deze pagina bevat dezelfde informatie als de lijst **Bevestigde inkooporders openen** in het werkgebied. Zie de beschrijvingen eerder in dit onderwerp.
-- **Alle bevestigde inkooporders** : deze pagina bevat alle bevestigde inkooporders. De inkooporderpagina's op deze pagina omvatten inkooporders waarop producten of services zijn ontvangen. U kunt deze lijst gebruiken om te controleren voor welke inkooporders u facturen kunt verzenden.
+- **Inkooporders ter beoordeling**: deze pagina bevat dezelfde informatie als de lijst **Inkooporders ter beoordeling** in het werkgebied. Zie de beschrijvingen eerder in dit onderwerp.
+- **Historie van leveranciersbevestigingen van inkooporders**: deze pagina bevat alle inkooporders en alle versies van inkooporders die zijn verzonden naar de leverancier. Hier vindt u ook alle geretourneerde antwoorden van de leverancier.
+- **Bevestigde inkooporders openen**: deze pagina bevat dezelfde informatie als de lijst **Bevestigde inkooporders openen** in het werkgebied. Zie de beschrijvingen eerder in dit onderwerp.
+- **Alle bevestigde inkooporders**: deze pagina bevat alle bevestigde inkooporders. De IO's op deze pagina omvatten IO's waarop producten of services zijn ontvangen. U kunt deze lijst gebruiken om te controleren voor welke inkooporders u facturen kunt verzenden.
 
 ### <a name="responding-to-pos"></a>Reageren op inkooporders
 
 De inkooporders die de klant ter beoordeling aan u stuurt, zijn alleen in het werkgebied **Inkooporderbevestiging** en op de pagina **Inkooporders ter beoordeling** zichtbaar. Als u een inkooporder opent, kunt u deze accepteren, afwijzen of accepteren met wijzigingen. De koptekst of afzonderlijke regels van de inkooporder kunnen bijlagen bevatten. Daarnaast is het mogelijk voor u om informatie aan uw reactie toe te voegen, aan de koptekst of aan afzonderlijke regels. U kunt bijvoorbeeld een vervangingsitem voor een van de regels voorstellen.
 
-U kunt de inkooporder als PDF-bestand bekijken en afdrukken met de optie **Voorbeeld/afdrukken**. U kunt ook de actie **Dimensies weergeven** gebruiken om de volgende dimensiekolommen te verbergen of weer te geven: **Locatie** , **Magazijn** , **Kleur** , **Grootte** , **Stijl** en **Configuratie**. 
+U kunt de inkooporder als PDF-bestand bekijken en afdrukken met de optie **Voorbeeld/afdrukken**. U kunt ook de actie **Dimensies weergeven** gebruiken om de volgende dimensiekolommen te verbergen of weer te geven: **Locatie**, **Magazijn**, **Kleur**, **Grootte**, **Stijl** en **Configuratie**. 
 
 Als u de optie **Accepteren met wijzigingen** gebruikt, kunt u afzonderlijke regels accepteren of afwijzen. U kunt ook de volgende wijzigingen aanbrengen aan regels:
 
@@ -75,15 +76,15 @@ Als u van uw klant een nieuwe versie van een inkooporder ontvangt, bevat deze ee
 
 Als u consignatievoorraad gebruikt, kunt u de interface voor leverancierssamenwerking gebruiken om informatie op de volgende pagina's te bekijken:
 
-- **Inkooporders die consignatievoorraad verbruiken** : inkooporders voor consignatievoorraad worden gegenereerd wanneer de klant de voorraad in eigendom krijgt. Deze consignatie-inkooporders worden alleen op deze pagina weergegeven. Ze worden niet opgenomen op de pagina **Alle bevestigde inkooporders**.
-- **Producten ontvangen uit consignatievoorraad** : deze pagina bevat een overzicht van alle transacties waarvan het eigendom van producten is overgedragen aan het bedrijf dat de voorraad verbruikt. U kunt deze informatie gebruiken om de klant te factureren.
-- **Voorhanden consignatievoorraad** : op deze pagina wordt de voorhanden consignatievoorraad weergegeven die het eigendom is van uw bedrijf en voorhanden is in het magazijn van de klant.
+- **Inkooporders die consignatievoorraad verbruiken**: inkooporders voor consignatievoorraad worden gegenereerd wanneer de klant de voorraad in eigendom krijgt. Deze consignatie-inkooporders worden alleen op deze pagina weergegeven. Ze worden niet opgenomen op de pagina **Alle bevestigde inkooporders**.
+- **Producten ontvangen uit consignatievoorraad**: deze pagina bevat een overzicht van alle transacties waarvan het eigendom van producten is overgedragen aan het bedrijf dat de voorraad verbruikt. U kunt deze informatie gebruiken om de klant te factureren.
+- **Voorhanden consignatievoorraad**: op deze pagina wordt de voorhanden consignatievoorraad weergegeven die het eigendom is van uw bedrijf en voorhanden is in het magazijn van de klant.
 
 ## <a name="working-with-rfqs-in-the-vendor-bidding-workspace"></a>Werken met offerteaanvragen in het werkgebied Biedingen van leverancier
 
 In de werkruimte **Biedingen van leverancier** kunt u de offerteaanvragen weergeven waarop uw bedrijf is gevraagd te reageren. U kunt ook reageren op de offerteaanvragen. 
 
-De werkruimte bevat ook alle offerteaanvragen die u hebt binnengehaald of verloren. Als het systeem is geconfigureerd voor de publieke sector, worden in het werkgebied de offerteaanvragen weergegeven die openbaar zijn.
+De werkruimte bevat ook alle offerteaanvragen die u hebt binnengehaald of verloren. Als het systeem is geconfigureerd voor de publieke sector, worden in het werkgebied de offerteaanvragen weergegeven die openbaar beschikbaar zijn.
 
 ### <a name="viewing-rfqs"></a>Offerteaanvragen weergeven
 
@@ -105,15 +106,18 @@ Mensen die in de publieke sector werken, kunnen openstaande en verlopen offertea
 
     Als u bent uitgenodigd om te bieden, kunt u dezelfde offerteaanvraag vinden op de pagina **Uitnodigingen voor nieuw bod**. Soms wilt u mogelijk bieden op een openstaande offerteaanvraag terwijl u niet bent uitgenodigd om te bieden. In dat geval kunt u mogelijk uzelf uitnodigen, mits de klant de mogelijkheid voor zelfuitnodiging voor de offerteaanvraagcase biedt.
 
+    Verbeter de toegankelijkheid van de koppeling **Gepubliceerde offerteaanvragen openen** door de functie **Koppeling 'Gepubliceerde offerteaanvragen openen' als tegel weergeven** in te schakelen. Met deze functie wordt de koppeling naar een tegel geconverteerd en naar een prominente locatie verplaatst, zodat u de tegel gemakkelijk kunt terugvinden.
+
 - Selecteer de koppeling **Gesloten gepubliceerde offerteaanvragen** voor een overzicht van gesloten offerteaanvragen die beschikbaar zijn voor het publiek. Een gesloten offerteaanvraag is een offerteaanvraag die is verlopen. U kunt de vervaldatum en -tijd vinden in de koptekst van de offerteaanvraag.
 
     In een gesloten offerteaanvraag worden alle biedingen van leveranciers tot het regelniveau weergegeven. Wanneer biedingen worden toegekend of geweigerd, wordt deze informatie weergegeven in de gesloten offerteaanvraag. Eventuele bijlagen die zijn opgenomen in de bieding zijn ook beschikbaar.
 
-**Opmerking:** deze functionaliteit is alleen beschikbaar als de cofiguratie Publieke sector is ingeschakeld.
+> [!NOTE]
+> Deze functionaliteit is alleen beschikbaar als de configuratie Publieke sector is ingeschakeld.
 
 ### <a name="bidding"></a>Bieden
 
-- Klik op **Bieding** om te beginnen met bieden op een offerteaanvraag.
+- Selecteer **Bieding** om te beginnen met bieden op een offerteaanvraag.
 
     Wanneer de biedingsvelden in de kopteksten en regels van een offerteaanvraag kunnen worden bewerkt, kunt u uw bod rechtstreeks in het regelraster invoeren. Bedenk ook welke aanvullende biedingsgegevens moeten worden opgenomen in de regeldetails.
 

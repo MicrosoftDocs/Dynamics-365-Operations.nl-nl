@@ -3,7 +3,7 @@ title: Productiemedewerkers voorzien van mixed reality-guides
 description: In dit onderwerp wordt uitgelegd hoe u de productiebeheermodule in Microsoft Dynamics 365 Supply Chain Management integreert met Dynamics 365 Guides.
 author: cabeln
 manager: tfehr
-ms.date: 09/29/2020
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,14 +19,16 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 14645f592275d07a6b633146bb6da35b89c1bf77
-ms.sourcegitcommit: 6d2fc497c8a7f49c48e7662995e27b5f8cc10296
+ms.openlocfilehash: 727a3bc50ea55259c7260a9d060dac59473ee3c1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000973"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645139"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Productiemedewerkers voorzien van mixed reality-guides
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Medewerkers in productieprocessen zullen gebruikmaken van relevante instructies die op het juiste moment in het context van hun werk worden geleverd. *Instructies* zijn van toepassing op verschillende domeinen van werkzaamheden, waaronder: assemblage, service, bewerkingen, certificering en veiligheid. In al deze belangrijke bedrijfsfuncties kunnen doorlopende trainingsinstructies worden gebruikt om medewerkers te helpen meer te bereiken en beter te werken.
 
@@ -124,10 +126,9 @@ Als u wilt configureren hoe guides worden weergegeven op de werkvloer, gaat u na
 
 Stel de volgende velden in:
 
-- Subdomein van **Common Data Service** : dit veld moet al een waarde bevatten. Dit veld bevat het subdomein voor de Common Data Service-omgeving waarin u uw guides maakt. Het subdomein is het eerste deel van de URL en heeft meestal de naam van uw organisatie. Als uw Common Data Service-URL bijvoorbeeld 'contoso.crm4.dynamics.com' is, moet u hier *contoso* invoeren. Deze waarde wordt gebruikt om adressen voor uw guides samen te stellen en wordt gecodeerd in de QR-codes.
-- **Grootte van QR-code** : stel de grootte van de gegenereerde QR-code in. Het is raadzaam om een grootte te kiezen waarbij uw beeldscherm grotendeels gevuld is, maar niet meer. Meestal is *15* een goede waarde.
-- **Foutcorrectieniveau QR-code** : stel de gedetailleerdheid van de QR-code in. Een hogere mate van gedetailleerdheid kan de betrouwbaarheid van de code helpen verhogen, maar uw **grootte van de QR-code** moet groot genoeg zijn om het detailniveau voor uw geselecteerde correctieniveau te ondersteunen.
-
+- **Microsoft Dataverse-URL**: geef de URL op voor de Microsoft Dataverse-omgeving waarin u uw guides maakt. De notatie is contoso.crm4.dynamics.com, waarbij het eerste deel van de URL meestal wordt gebaseerd op de naam van uw organisatie (zoals contoso.). Het tweede deel is specifiek voor de gegevensregio van uw omgeving (zoals crm4) en het laatste gedeelte is het domein (zoals dynamics.com). U kunt de juiste URL vinden door naar [home.dynamics.com](https://home.dynamics.com/) te gaan en vervolgens uw Guides-app te openen. Wanneer Guides wordt geopend, wordt de URL in de adresbalk van uw browser weergegeven (gebruik alleen de basis-URL, die lijkt op het vorige voorbeeld). Deze waarde wordt gebruikt om adressen voor uw guides samen te stellen en wordt gecodeerd in de QR-codes.
+- **Grootte van QR-code**: stel de grootte van de gegenereerde QR-code in. Het is raadzaam om een grootte te kiezen waarbij uw beeldscherm grotendeels gevuld is, maar niet meer. Meestal is *15* een goede waarde.
+- **Foutcorrectieniveau QR-code**: stel de gedetailleerdheid van de QR-code in. Een hogere mate van gedetailleerdheid kan de betrouwbaarheid van de code helpen verhogen, maar uw **grootte van de QR-code** moet groot genoeg zijn om het detailniveau voor uw geselecteerde correctieniveau te ondersteunen.
 
 > [!TIP]
 > - Het weergeven van QR-codes die te groot zijn voor uw beeldscherm duurt iets langer en de QR-codes worden vervolgens aangepast aan uw beeldscherm. Deze bieden geen voordeel.
@@ -368,7 +369,7 @@ U kunt als volgt een guide toevoegen aan een routebewerkingsrelatie:
 1. Open in het actievenster het tabblad **Route** en selecteer in de groep **Onderhouden** de optie **Routedetails**.
 1. De pagina **Routedetails** wordt geopend voor de geselecteerde route.
 1. Selecteer in het bovenste raster de bewerking waarvoor u richtlijnen wilt opgeven.
-1. Selecteer in het onderste raster een specifieke relatie (of de algemene relatie **Alle** ).
+1. Selecteer in het onderste raster een specifieke relatie (of de algemene relatie **Alle**).
     ![Een bewerking en vervolgens een relatie selecteren](media/instruction-guides-RouteOperationRelation.png "Een bewerking en vervolgens een relatie selecteren")
 1. Open boven het onderste raster het tabblad **Gekoppelde guides**. ![Het tabblad Gekoppelde guides](media/instruction-guides-RouteOperationRelation-AddGuide.png "Het tabblad Gekoppelde guides")
 1. Selecteer **Toevoegen** in de werkbalk boven aan het onderste raster om een nieuwe regel aan het raster toe te voegen.

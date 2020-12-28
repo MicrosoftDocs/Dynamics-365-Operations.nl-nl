@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d0b14e0c662af74464768b66c1c86d03d2944014
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: da27e3ed0a0e50126590609d09575befe17a7aa2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976011"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517113"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Meerdere B2C-tenants configureren in een Commerce-omgeving
 
@@ -94,7 +94,7 @@ Uw nieuwe Azure AD-B2C-tenant moet nu worden weergegeven in de lijst onder **B2C
 1. Selecteer in het linkernavigatievenster de optie **Tenantinstellingen** om deze uit te vouwen.
 1. Selecteer **B2C-instellingen** en selecteer vervolgens **Beheren**.
 1. Als u een B2C-tenant wilt bewerken, selecteert u het potloodsymbool ernaast. Als u een B2C-tenant wilt verwijderen, selecteert u het prullenbaksymbool ernaast.
-1. Selecteer **Opslaan**en **Publiceren** om uw wijzigingen te activeren.
+1. Selecteer **Opslaan** en **Publiceren** om uw wijzigingen te activeren.
 
 > [!WARNING]
 > Wanneer een B2C-tenant is geconfigureerd voor een live/gepubliceerde site, hebben gebruikers zich mogelijk aangemeld via accounts die aanwezig zijn in de tenant. Als u een geconfigureerde tenant verwijdert uit het menu **Tenant-instellingen \> B2C-tenant**, verwijdert u de koppeling van die B2C-tenant van sites die zijn gekoppeld aan kanalen van de tenant. In dit geval kunnen uw gebruikers zich niet meer aanmelden bij hun accounts. Wees daarom zeer voorzichtig wanneer u een geconfigureerde tenant verwijdert.
@@ -114,13 +114,13 @@ Uw nieuwe Azure AD-B2C-tenant moet nu worden weergegeven in de lijst onder **B2C
 
 [Uw domeinnaam configureren](configure-your-domain-name.md)
 
-[Een nieuwe e-commerce-site implementeren](deploy-ecommerce-site.md)
+[Een nieuwe e-commerce-tenant implementeren](deploy-ecommerce-site.md)
 
 [Een e-commerce-site maken](create-ecommerce-site.md)
 
-[Een online-site koppelen aan een kanaal](associate-site-online-store.md)
+[Een Dynamics 365 Commerce-site koppelen aan een online kanaal](associate-site-online-store.md)
 
-[Robots.txt-bestanden beheren](manage-robots-txt-files.md)
+[robots.txt-bestanden beheren](manage-robots-txt-files.md)
 
 [URL-omleidingen in bulk uploaden](upload-bulk-redirects.md)
 

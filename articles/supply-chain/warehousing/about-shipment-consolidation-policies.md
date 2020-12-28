@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate
+ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSShipConsolidationError, WHSShipConsolidationSetShipment, WHSShipConsolidationPolicySelect, WHSShipPlanningListPage, TMSCarrierGroup, WHSShipConsolidationTemplate, WHSShipConsolidationTemplateApply, WHSShipConsolidationTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 1f2e1bcd220f0cd94fb1515e42fd3f8250c1c621
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: f895b13b2e11d4cb341f80b3cfeb40ed998ccfc4
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016350"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654215"
 ---
 # <a name="shipment-consolidation-policies"></a>Beleidsregels voor consolidatie van zendingen
 
@@ -55,7 +55,7 @@ In deze sectie worden de pagina's, opdrachten en functies beschreven die worden 
 
 ### <a name="shipment-consolidation-policies-page"></a>De pagina Consolidatiebeleid voor zendingen
 
-Beleid wordt gedifferentieerd op basis van werkordertype. Het type **Verkooporders** staat voor _verkooporderzendingen_ , het type **Transferorders** voor _transferorderzendingen_.
+Beleid wordt gedifferentieerd op basis van werkordertype. Het type **Verkooporders** staat voor _verkooporderzendingen_, het type **Transferorders** voor _transferorderzendingen_.
 
 Elk consolidatiebeleid voor zendingen bevat een query die definieert wanneer het beleid wordt toegepast en een volgnummer waarmee de uitvoeringsvolgorde wordt bepaald. Voor elke unieke combinatie van de geselecteerde velden wordt een consolidatie toegepast. Een extra parameter die wordt geleverd, wordt gebruikt voor consolidatie met bestaande (openstaande) zendingen. Het beleid wordt telkens geëvalueerd en toegepast wanneer een nieuwe zending wordt gemaakt (vóór wave-verwerking).
 

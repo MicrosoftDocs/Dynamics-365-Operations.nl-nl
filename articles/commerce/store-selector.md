@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818245"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665267"
 ---
 # <a name="store-selector-module"></a>Winkelselectiemodule
 
@@ -47,7 +47,7 @@ Met de winkelselectiemodule kunnen gebruikers een locatie (plaats, provincie, ad
 
 De module winkelselectie is geïntegreerd met de [Bing Kaarten REST API's (Application Programming Interfaces)](https://docs.microsoft.com/bingmaps/rest-services/) om de Bing-functies Geocodering en Automatische suggesties te gebruiken. Er is een API-sleutel voor Bing Kaarten vereist. Deze moet worden toegevoegd aan de pagina met gedeelde parameters in Commerce Headquarters. De Geocodering-API wordt gebruikt om een locatie te converteren naar breedte- en lengtegraad. De integratie met de API voor Automatische suggesties wordt gebruikt om zoeksuggesties weer te geven wanneer gebruikers locaties invoeren in het zoekveld.
 
-Voor de REST API van Automatische suggesties moet u ervoor zorgen dat de volgende URL's zijn toegestaan (ook wel 'whitelisted' genoemd) volgens het contentbeveiligingsbeleid van uw site (CSP). Deze instelling wordt uitgevoerd in Commerce Site Builder door toegestane URL's toe te voegen aan verschillende CSP-instructies voor de site (bijvoorbeeld **img-src**). Zie voor meer informatie [Beveiligingsbeleid voor inhoud](manage-csp.md). 
+Voor de REST API van Automatische suggesties moet u ervoor zorgen dat de volgende URL's zijn toegestaan volgens het contentbeveiligingsbeleid van uw site (CSP). Deze instelling wordt uitgevoerd in Commerce Site Builder door toegestane URL's toe te voegen aan verschillende CSP-instructies voor de site (bijvoorbeeld **img-src**). Zie voor meer informatie [Beveiligingsbeleid voor inhoud](manage-csp.md). 
 
 - Voeg aan de **connect-src**-richtlijn **&#42;.bing.com** toe.
 - Voeg aan de **img-src**-richtlijn **&#42;.virtualearth.net** toe.
@@ -65,6 +65,9 @@ Het scenario werkt alleen als producten zijn geconfigureerd zodat de leveringsmo
 De volgende afbeelding toont een voorbeeld van een winkelselectiemodule die wordt gebruikt voor een pagina met productgegevens.
 
 ![Voorbeeld van een winkelselectiemodule die wordt gebruikt in een PDP](./media/BOPIS.PNG)
+
+> [!NOTE]
+> In versie 10.0.16 en hoger kan een nieuwe functie worden ingeschakeld, waarmee een organisatie meerdere leveringsmethoden kan definiëren voor klanten.  Als deze functie is ingeschakeld, worden de winkelkiezer en andere modules van e-Commerce uitgebreid zodat de klant kan kiezen uit mogelijk meerdere ophaal- en bezorgopties als deze zijn geconfigureerd.  Zie [deze documentatie](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes) voor meer informatie over deze functie. 
 
 ## <a name="find-stores-mode"></a>De modus winkels zoeken
 

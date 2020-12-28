@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1f7a779d69bf49d3416de3e92d4414cfabf358eb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ad87594b9c20d0c2b53e8d4e7c1170a78babe74b
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983618"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517447"
 ---
 # <a name="manage-robotstxt-files"></a>Robots.txt-bestanden beheren
 
@@ -43,7 +43,7 @@ Ga voor meer informatie over het robots.txt-bestand naar de [pagina's voor webro
 
 ## <a name="upload-a-robotstxt-file"></a>Een robots.txt-bestand uploaden
 
-Nadat u uw robots.txt-bestand hebt gemaakt en bewerkt volgens de [standaard voor robotuitsluiting](https://www.robotstxt.org/orig.html), moet u ervoor zorgen dat het bestand toegankelijk is op de computer waarop u de Commerce-ontwerpfunctie gaat gebruiken. Het bestand moet de naam **robots.txt**hebben. Voor de beste resultaten moet deze in indeling hebben die wordt vermeld in de standaard. Elke Commerce-klant is verantwoordelijk voor het valideren en onderhouden van de inhoud van zijn of haar eigen robots.txt-bestand. Als u een robots.txt-bestand wilt uploaden, moet u bij Commerce zijn aangemeld als systeembeheerder.
+Nadat u uw robots.txt-bestand hebt gemaakt en bewerkt volgens de [standaard voor robotuitsluiting](https://www.robotstxt.org/orig.html), moet u ervoor zorgen dat het bestand toegankelijk is op de computer waarop u de Commerce-ontwerpfunctie gaat gebruiken. Het bestand moet de naam **robots.txt** hebben. Voor de beste resultaten moet deze in indeling hebben die wordt vermeld in de standaard. Elke Commerce-klant is verantwoordelijk voor het valideren en onderhouden van de inhoud van zijn of haar eigen robots.txt-bestand. Als u een robots.txt-bestand wilt uploaden, moet u bij Commerce zijn aangemeld als systeembeheerder.
 
 Volg deze stappen om een robots.txt-bestand te uploaden in Commerce.
 
@@ -86,15 +86,15 @@ Volg deze stappen om een robots.txt-bestand te verwijderen in Commerce.
 > [!NOTE] 
 > Deze procedure kan alleen worden gebruikt om robots.txt-bestanden te verwijderen die eerder zijn geüpload via de Commerce-ontwerpfunctie.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Uw domeinnaam configureren](configure-your-domain-name.md)
 
-[Een nieuwe e-commerce-site implementeren](deploy-ecommerce-site.md)
+[Een nieuwe e-commerce-tenant implementeren](deploy-ecommerce-site.md)
 
 [Een e-commerce-site maken](create-ecommerce-site.md)
 
-[Een online-site koppelen aan een kanaal](associate-site-online-store.md)
+[Een Dynamics 365 Commerce-site koppelen aan een online kanaal](associate-site-online-store.md)
 
 [URL-omleidingen in bulk uploaden](upload-bulk-redirects.md)
 

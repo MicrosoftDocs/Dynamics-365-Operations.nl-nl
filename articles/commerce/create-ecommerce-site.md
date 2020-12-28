@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ea3517a4f2b84db8a87a97d2f644bb4436f8693f
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: 7d552f29fd8f52b512a7c21b36b0a814cac50646
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533431"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517179"
 ---
 # <a name="create-an-e-commerce-site"></a>Een e-commerce-site maken
 
@@ -32,7 +32,7 @@ ms.locfileid: "3533431"
 
 In dit onderwerp worden de stappen en informatie beschreven die nodig zijn om een nieuwe e-Commerce-site in Dynamics 365 Commerce site builder te maken.
 
-Wanneer u een licentie neemt voor de functies voor e-Commerce, wordt site builder ingericht met een startsite die u kunt gebruiken als basis voor uw eigen site. Als u echter zelf wilt beginnen of als u een tweede site wilt maken, moet u een nieuwe site maken in de site-ontwerpomgeving. 
+Wanneer u een licentie neemt voor de functies voor Dynamics 365 Commerce, wordt site builder ingericht met een startsite die u kunt gebruiken als basis voor uw eigen site. Als u echter zelf wilt beginnen of als u een tweede site wilt maken, moet u een nieuwe site maken in de site-ontwerpomgeving. 
 
 ## <a name="set-up-your-site"></a>Uw site instellen
 
@@ -54,13 +54,13 @@ Ga als volgt te werk als u uw site wilt instellen.
 
 Nadat de site is gemaakt, kunt u controleren of deze is gekoppeld aan uw online winkel door het tabblad **Producten** te selecteren. Het assortiment met producten dat aan de online winkel is toegewezen, wordt weergeven. U kunt ook het vervolgkeuzemenu in de linkerbovenhoek van de pagina gebruiken om toegang te krijgen tot de toegewezen producten per categorie.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Uw domeinnaam configureren](configure-your-domain-name.md)
 
-[Een nieuwe e-commerce-site implementeren](deploy-ecommerce-site.md)
+[Een nieuwe e-commerce-tenant implementeren](deploy-ecommerce-site.md)
 
-[Een online-site koppelen aan een kanaal](associate-site-online-store.md)
+[Een Dynamics 365 Commerce-site koppelen aan een online kanaal](associate-site-online-store.md)
 
 [robots.txt-bestanden beheren](manage-robots-txt-files.md)
 

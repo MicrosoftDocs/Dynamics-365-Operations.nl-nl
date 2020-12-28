@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4d3a423bf64900e547a23f2e5eeb90aa679ec5d1
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: f87d29a8cffb70e4dea211cea7538e5e4c85295c
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533385"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517301"
 ---
 # <a name="enable-location-based-store-detection"></a>Detectie van winkels op basis van de locatie inschakelen
 
@@ -48,17 +48,17 @@ Voer de volgende stappen uit als u winkeldetectie op basis van locatie wilt insc
 1. Selecteer **Site-instellingen**.
 1. Stel de optie **Detectie van winkels op basis van de locatie inschakelen** in op **Aan**.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Uw domeinnaam configureren](configure-your-domain-name.md)
 
-[Een nieuwe e-commerce-site implementeren](deploy-ecommerce-site.md)
+[Een nieuwe e-commerce-tenant implementeren](deploy-ecommerce-site.md)
 
 [Een e-commerce-site maken](create-ecommerce-site.md)
 
-[Een online-site koppelen aan een kanaal](associate-site-online-store.md)
+[Een Dynamics 365 Commerce-site koppelen aan een online kanaal](associate-site-online-store.md)
 
-[Robots.txt-bestanden beheren](manage-robots-txt-files.md)
+[robots.txt-bestanden beheren](manage-robots-txt-files.md)
 
 [URL-omleidingen in bulk uploaden](upload-bulk-redirects.md)
 

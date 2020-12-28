@@ -1,5 +1,5 @@
 ---
-title: Preview van Dynamics 365 Supply Chain Management 10.0.15 (januari 2021)
+title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.15 (januari 2021)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.15.
 author: kamaybac
 manager: tfehr
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 0b8e69261563f61de022a626dd12d15d81535392
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.openlocfilehash: 02f343c5351168375eca38893b9d8eef4549dc5a
+ms.sourcegitcommit: 0eb33909a419d526eb84b4e4b64d3595d01731ef
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012270"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4700952"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10015-january-2021"></a>Preview van Dynamics 365 Supply Chain Management 10.0.15 (januari 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.15 (januari 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in de preview van Microsoft Dynamics 365 Supply Chain Management versie 10.0.15. Deze versie heeft een buildnummer van 10.0.644 en is als volgt beschikbaar:
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.15. Deze versie heeft een buildnummer van 10.0.644 en is als volgt beschikbaar:
 
 - **Preview van versie:** oktober 2020
 - **Algemene beschikbaarheid van versie (zelfupdate):** november 2020
@@ -39,19 +38,23 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in de
 
 Deze versie bevat de volgende functies. Sommige van de functies in de lijst zijn nog steeds in preview, terwijl andere mogelijk al algemeen beschikbaar zijn. Volg de koppelingen naar het [releaseeplan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
 
-- Beheer van scale unit voor cloud en rand met werklasten voor productie en magazijnverwerking<!-- <br> - For more information, see [Cloud and edge scale units for manufacturing and warehouse management workloads](../cloud-edge/cloud-edge-landing-page.md).-->
+- Beheer van scale unit voor cloud en rand met werklasten voor productie en magazijnverwerking<br> - Zie [Schaaleenheden voor Cloud en Edge voor productie en magazijnbeheerworkloads](../cloud-edge/cloud-edge-landing-page.md) voor meer informatie.
 
 - [Transferorders maken en verwerken vanuit de magazijnapp](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Zie [Transferorders maken vanuit de magazijn-app](../warehousing/create-transfer-order-from-warehouse-app.md) voor meer informatie.
 
 - [Standaard antwoordvelden voor offerteaanvragen voor biedingen van leveranciers](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Zie [Overzicht van offerteaanvragen](../procurement/request-quotations.md) voor meer informatie.
 
-- [Invoegtoepassing Engineering Change Management voor Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<!-- <br> - For more information, see [Engineering change management overview](../engineering-change-management/product-engineering-overview.md).-->
+- [Invoegtoepassing Engineering Change Management voor Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Zie [Overzicht van technisch wijzigingsbeheer](../engineering-change-management/product-engineering-overview.md) voor meer informatie.
 
 - [Mixed-reality-guides voor productie](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Zie [Mixed-reality-guides bieden voor werknemers in productie](../production-control/instruction-guides-in-production-overview.md) voor meer informatie.
 
 - [Nieuwe gebruikerservaring voor uitvoering op de productievloer](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Zie [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) voor meer informatie.
 
 - [Gebeurtenissen in magazijnapp verwerken](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Zie [Gebeurtenisverwerking in magazijn-app](../warehousing/warehouse-app-events.md) voor meer informatie.
+
+- [Opgeslagen weergaven voor de pagina Vrijgegeven producten](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Zie [Opgeslagen weergaven](../../fin-ops-core/fin-ops/get-started/saved-views.md) voor meer informatie.
+
+- Document van USMCA-oorsprongscertificaat<br> - Zie [USMCA-certificaat van oorsprong](../transportation/usmca-certification-of-origin.md).
 
 De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 05e8614f53db2593ade92fdb42dc0dfe869e9407
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: ec9f5c72b03d9fd76055369e24491db5c7633cdf
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055399"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517155"
 ---
 # <a name="breadcrumb-module"></a>Breadcrumb-module
 
@@ -48,9 +48,9 @@ De volgende afbeelding toont een voorbeeld van een breadcrumb-module waarin de c
 
 De breadcrumb-module is gebaseerd op de instelling **Breadcrumb-weergavetype voor PDP** die wordt gedefinieerd bij **Site-instellingen \> Uitbreidingen** in Site builder. Voor deze instelling bestaan drie mogelijke waarden:
 
-- **Categoriehiërarchie weergeven** : wanneer deze waarde wordt geselecteerd, wordt in de breadcrumb-module de volledige categoriehiërarchie weergegeven van het product dat op de PDP wordt weergegeven.
-- **Terug naar resultaten weergeven** : wanneer deze waarde wordt geselecteerd, wordt in de breadcrumb-module de koppeling "Terug naar resultaten" weergegeven op een PDP als de gebruiker de PDP opent vanuit een module die de koppeling "Terug naar resultaten" toestaat. Deze functie is beschikbaar wanneer gebruikers navigeren vanuit de pagina's categorie, zoeken, lijst en aanbevelingslijsten. Ter ondersteuning van deze functionaliteit hebben modules voor productverzameling en zoekresultaten een eigenschap met de naam **Terug naar resultaten van PDP toestaan**. Deze eigenschap geeft u de flexibiliteit om te bepalen welke modules de koppelingsfunctionaliteit "Terug naar resultaten" op de PDP moeten ondersteunen. Wanneer bijvoorbeeld **Terug naar resultaten weergeven** wordt geselecteerd voor de instelling **Breadcrumb-weergavetype voor PDP** van de breadcrumb-module, en **Terug naar resultaten van PDP toestaan** is geselecteerd voor de zoekmodule van de zoekpagina, wordt de koppeling Terug naar resultaten weergegeven wanneer gebruikers navigeren vanaf de zoekpagina naar een PDP.
-- **Categoriehiërarchie weergeven en terug naar resultaten** : deze waarde is een combinatie van de voorgaande twee. Wanneer deze waarde wordt geselecteerd, worden in de breadcrumb-module zowel de hiërarchie van de volledige categorie als de koppeling Terug naar resultaten weergegeven (als deze is geconfigureerd) op een PDP.
+- **Categoriehiërarchie weergeven**: wanneer deze waarde wordt geselecteerd, wordt in de breadcrumb-module de volledige categoriehiërarchie weergegeven van het product dat op de PDP wordt weergegeven.
+- **Terug naar resultaten weergeven**: wanneer deze waarde wordt geselecteerd, wordt in de breadcrumb-module de koppeling "Terug naar resultaten" weergegeven op een PDP als de gebruiker de PDP opent vanuit een module die de koppeling "Terug naar resultaten" toestaat. Deze functie is beschikbaar wanneer gebruikers navigeren vanuit de pagina's categorie, zoeken, lijst en aanbevelingslijsten. Ter ondersteuning van deze functionaliteit hebben modules voor productverzameling en zoekresultaten een eigenschap met de naam **Terug naar resultaten van PDP toestaan**. Deze eigenschap geeft u de flexibiliteit om te bepalen welke modules de koppelingsfunctionaliteit "Terug naar resultaten" op de PDP moeten ondersteunen. Wanneer bijvoorbeeld **Terug naar resultaten weergeven** wordt geselecteerd voor de instelling **Breadcrumb-weergavetype voor PDP** van de breadcrumb-module, en **Terug naar resultaten van PDP toestaan** is geselecteerd voor de zoekmodule van de zoekpagina, wordt de koppeling Terug naar resultaten weergegeven wanneer gebruikers navigeren vanaf de zoekpagina naar een PDP.
+- **Categoriehiërarchie weergeven en terug naar resultaten**: deze waarde is een combinatie van de voorgaande twee. Wanneer deze waarde wordt geselecteerd, worden in de breadcrumb-module zowel de hiërarchie van de volledige categorie als de koppeling Terug naar resultaten weergegeven (als deze is geconfigureerd) op een PDP.
 
 > [!IMPORTANT]
 > Deze instellingen zijn beschikbaar in Dynamics 365 Commerce versie 10.0.12. Als u een oudere versie van Dynamics 365 Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor instructies voor het bijwerken van het appsettings.json.
@@ -66,15 +66,15 @@ De breadcrumb-module is gebaseerd op de instelling **Breadcrumb-weergavetype voo
 
 Voer de volgende stappen uit om een breadcrumb-module aan een PDP toe te voegen en de vereiste eigenschappen in te stellen.
 
-1. Ga naar **Site-instellingen /> Uitbreidingen** en selecteer vervolgens voor **Breadcrumb-weergavetype voor PDP** de optie **Categoriehiërarchie weergeven**.
+1. Ga naar **Site-instellingen \> Uitbreidingen** en selecteer vervolgens voor **Breadcrumb-weergavetype voor PDP** de optie **Categoriehiërarchie weergeven**.
 1. Ga naar **Sjablonen** en selecteer de PDP-sjabloon.
-1. Selecteer in het vak **Container** dat de koopvakmodule bevat, het weglatingsteken ( **...** ) en selecteer vervolgens **Module toevoegen**.
+1. Selecteer in het vak **Container** dat de koopvakmodule bevat, het weglatingsteken (**...**) en selecteer vervolgens **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** de module **Breadcrumb** en selecteer vervolgens **OK**.
-1. Selecteer **Opslaan** , selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
 1. Ga naar **Pagina's** en open een PDP die de PDP-sjabloon gebruikt. Maak een PDP als deze nog niet bestaat.
-1. Selecteer in het vak **Container** dat de koopvakmodule bevat, het weglatingsteken ( **...** ) en selecteer vervolgens **Module toevoegen**.
+1. Selecteer in het vak **Container** dat de koopvakmodule bevat, het weglatingsteken (**...**) en selecteer vervolgens **Module toevoegen**.
 1. Selecteer in het dialoogvenster **Module toevoegen** de module **Breadcrumb** en selecteer vervolgens **OK**.
-1. Selecteer **Koppelingstekst** in het deelvenster Eigenschappen van het **Breadcrumb** -vak onder **Hoofdmap**.
+1. Selecteer **Koppelingstekst** in het deelvenster Eigenschappen van het **Breadcrumb**-vak onder **Hoofdmap**.
 1. Voer in het dialoogvenster **Koppelingstekst** de optie **Start** in en selecteer vervolgens onder **Koppelingsdoel** **Een koppeling toevoegen**.
 1. Selecteer in het dialoogvenster **Een koppeling toevoegen** een koppeling voor de breadcrumb-hoofdmap en selecteer vervolgens **OK**.
 1. Selecteer **Opslaan** en vervolgens **Preview** om de pagina te bekijken.
