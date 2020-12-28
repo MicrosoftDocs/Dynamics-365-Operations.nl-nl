@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 84becee12363ca38951ff13073d87d1b1f14b616
-ms.sourcegitcommit: a47a4652a29fdb567a8ba67c4f914a8698e8c48c
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3764996"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517350"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeinen in Dynamics 365 Commerce
 
@@ -47,7 +47,7 @@ U kunt een serviceverzoek maken om extra domeinen aan een omgeving toe te voegen
 
 ## <a name="commerce-generated-urls"></a>Door Commerce gegenereerde URL's
 
-Bij het inrichten van een e-Commerce-omgeving genereert Commerce een URL die het werkadres van de omgeving is. Naar deze URL wordt verwezen in de koppeling naar de e-Commerce-site die wordt weergegeven in LCS nadat de omgeving is ingericht. Een door Commerce gegenereerde URL heeft de indeling `https://<e-Commerce tenant name>.commerce.dynamics.com`, waarbij de tenantnaam van e-Commerce de naam is die is ingevoerd in LCS voor de Commerce-omgeving.
+Bij het inrichten van een Dynamics 365 Commerce e-Commerce-omgeving genereert Commerce een URL die het werkadres van de omgeving is. Naar deze URL wordt verwezen in de koppeling naar de e-Commerce-site die wordt weergegeven in LCS nadat de omgeving is ingericht. Een door Commerce gegenereerde URL heeft de indeling `https://<e-commerce tenant name>.commerce.dynamics.com`, waarbij de tenantnaam van e-Commerce de naam is die is ingevoerd in LCS voor de Commerce-omgeving.
 
 U kunt ook hostnamen van productiesites in een sandbox-omgeving gebruiken. Deze optie is ideaal wanneer u een site van een sandbox-omgeving naar productie wilt kopiëren.
 
@@ -102,9 +102,9 @@ Wanneer geen domeinquerytekenreeks is opgegeven in een omgeving met meerdere dom
 
 ## <a name="traffic-forwarding-in-production"></a>Verkeer doorsturen in productie
 
-U kunt meerdere domeinen simuleren met behulp van parameters voor domeinquerytekenreeksen op het eindpunt commerce.dynamics.com zelf. Wanneer u live moet gaan in productie, moet u het verkeer voor uw aangepaste domein echter doorsturen naar het eindpunt `<e-Commerce tenant name>.commerce.dynamics.com`.
+U kunt meerdere domeinen simuleren met behulp van parameters voor domeinquerytekenreeksen op het eindpunt commerce.dynamics.com zelf. Wanneer u live moet gaan in productie, moet u het verkeer voor uw aangepaste domein echter doorsturen naar het eindpunt `<e-commerce tenant name>.commerce.dynamics.com`.
 
-Het eindpunt `<e-Commerce tenant name>.commerce.dynamics.com` ondersteunt geen aangepaste SSL's (Secure Sockets Layers), dus u moet aangepaste domeinen instellen met behulp van een Front Door Service of een CDN (Content Delivery Network). 
+Het eindpunt `<e-commerce tenant name>.commerce.dynamics.com` ondersteunt geen aangepaste SSL's (Secure Sockets Layers), dus u moet aangepaste domeinen instellen met behulp van een Front Door Service of een CDN (Content Delivery Network). 
 
 Als u aangepaste domeinen wilt instellen met een Front Door Service of CDN, hebt u twee mogelijkheden:
 
@@ -152,15 +152,15 @@ Het door Commerce geleverde Azure Front Door-exemplaar ondersteunt geen Apex-dom
 
   ## <a name="additional-resources"></a>Aanvullende bronnen
 
-  [Een nieuwe e-commerce-site implementeren](deploy-ecommerce-site.md)
+  [Een nieuwe e-commerce-tenant implementeren](deploy-ecommerce-site.md)
 
   [Een online winkelafzetkanaal instellen](online-stores.md)
 
   [Een e-commerce-site maken](create-ecommerce-site.md)
 
-  [Een online-site koppelen aan een kanaal](associate-site-online-store.md)
+  [Een Dynamics 365 Commerce-site koppelen aan een online kanaal](associate-site-online-store.md)
 
-  [Robots.txt-bestanden beheren](manage-robots-txt-files.md)
+  [robots.txt-bestanden beheren](manage-robots-txt-files.md)
 
   [URL-omleidingen in bulk uploaden](upload-bulk-redirects.md)
 

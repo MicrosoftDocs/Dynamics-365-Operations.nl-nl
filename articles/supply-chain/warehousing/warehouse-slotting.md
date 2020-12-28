@@ -3,7 +3,7 @@ title: Magazijnvakken
 description: Dit onderwerp biedt informatie over magazijnvakken. Met magazijnvakken kunt u de vraag consolideren op basis van artikel en maateenheid vanuit orders met de status Besteld, Gereserveerd of Vrijgegeven. Hiermee kunnen magazijnbeheerders orderverzamellocaties intelligent plannen voordat orders naar het magazijn worden vrijgegeven en het orderverzamelwerk wordt gemaakt.
 author: mirzaab
 manager: tfehr
-ms.date: 07/01/2020
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,31 +16,48 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: ed9e6eae2ecc8de8d5eeef4699678e93dd74f193
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 31b86837735ca16610a1d304eab611b12a6aceeb
+ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017409"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "4627744"
 ---
 # <a name="warehouse-slotting"></a>Magazijnvakken
 
 [!include [banner](../includes/banner.md)]
 
-Met magazijnvakken kunt u de vraag consolideren op basis van artikel en maateenheid vanuit orders met de status *Besteld* , *Gereserveerd* of *Vrijgegeven*. Gegenereerde vraag kan vervolgens worden toegepast op locaties die worden gebruikt voor orderverzamelen, op basis van hoeveelheid, eenheid, fysieke afmetinge, vaste locaties en meer. Nadat het vakkenplan is ingesteld, kunt u aanvullingswerk maken om de gewenste voorraadhoeveelheid naar alle locaties te brengen.
+Met de diverse functies voor magazijnvakken kunnen magazijnbeheerders orderverzamellocaties intelligent plannen voordat orders naar het magazijn worden vrijgegeven en het orderverzamelwerk wordt gemaakt.
 
-Met deze functionaliteit kunnen magazijnbeheerders orderverzamellocaties intelligent plannen voordat orders naar het magazijn worden vrijgegeven en het orderverzamelwerk wordt gemaakt.
+Met *Functie voor magazijnvakken* kunt u de vraag consolideren op basis van artikel en maateenheid vanuit orders met de status *Besteld*, *Gereserveerd* of *Vrijgegeven*. Gegenereerde vraag kan vervolgens worden toegepast op locaties die worden gebruikt voor orderverzamelen, op basis van hoeveelheid, eenheid, fysieke afmetinge, vaste locaties en meer. Nadat het vakkenplan is ingesteld, kunt u aanvullingswerk maken om de gewenste voorraadhoeveelheid naar alle locaties te brengen.
 
-## <a name="turn-on-the-warehouse-slotting-feature"></a>De functie Magazijnvakken inschakelen
+Met de functie *Magazijnvakken voor transferorders* kunnen magazijnbeheerders de orderverzamellocaties aanvullen op basis van de vraag vanuit transferorders die nog niet zijn vrijgegeven aan het magazijn. Hiermee zorgt u ervoor dat verzamellocaties alle artikelen bevatten die nodig zijn voor de transferorders nadat ze zijn vrijgegeven aan het magazijn. Voor deze functie moet u ook de functie *Functie voor magazijnvakken* inschakelen.
 
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en desgewenst in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+Met de functie *Uitbreidingen voor vakkentoewijzing in magazijn* voegt u een optie toe voor de sjabloonregels die worden gebruikt door de functie *Functie voor magazijnvakken*. Met deze optie kan het systeem rekening houden met de bestaande voorhanden voorraad op een doellocatie. Het is dus mogelijk dat er minder aanvullingen worden gegenereerd voor magazijnvakken. Voor de functie *Uitbreidingen voor vakkentoewijzing in magazijn* moet u ook de functie *Functie voor magazijnvakken* inschakelen. Deze kan optioneel worden gebruikt in combinatie met de functie *Magazijnvakken voor transferorders*.
 
-- **Module:** *Magazijnbeheer*
-- **Functienaam:** *Magazijnvakken*
+## <a name="turn-on-the-warehouse-slotting-features"></a>De functies voor magazijnvakken inschakelen
+
+Voordat u deze functies kunt gebruiken, moeten deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functies te controleren en deze zo nodig in te schakelen. Schakel zo nodig de volgende functies in:
+
+- Functie Magazijnvakken
+- Magazijnvakken voor transferorders
+
+    > [!IMPORTANT]
+    > De functie *Functie voor magazijnvakken* moet voor deze functie zijn ingeschakeld.
+
+- Uitbreidingen voor vakkentoewijzing in magazijn
+
+    > [!IMPORTANT]
+    > De functie *Functie voor magazijnvakken* moet voor deze functie zijn ingeschakeld.
 
 ## <a name="set-up-warehouse-slotting"></a>Magazijnvakken instellen
 
-Om de functie Magazijnvakken te gebruiken, moet u de volgende elementen configureren in het systeem:
+Om magazijnvakken te gebruiken, moet u de volgende elementen configureren in het systeem:
+
+- Niveaus van maateenheden voor vakken
+- Instructiecodes
+- Vaksjablonen
+- Locatie-instructies
 
 ### <a name="create-unit-of-measure-tiers-for-slotting"></a><a name="unit-tiers"></a>Niveaus van maateenheden maken voor vakken
 
@@ -93,9 +110,9 @@ Elke vakkensjabloon bepaalt hoe de voorraad wordt toegewezen aan locaties voor e
 1. Ga naar **Magazijnbeheer \> Instellingen \> Aanvulling \> Aanvullingssjablonen**.
 1. Selecteer **Nieuw** om een sjabloon te maken.
 
-Vervolgens moet u de koptekst van de sjabloon, vakspecificaties en de locatie-instructies instellen, zoals in de volgende subsecties wordt uitgelegd.
+Vervolgens moet u de koptekst van de sjabloon, vakspecificaties en de locatie-instructies instellen, zoals in de volgende subsecties wordt uitgelegd. De instelling voor transferorders lijkt op de instelling voor magazijnvakken voor verkooporders, maar het veld **Type vraag** wordt ingesteld op *Transferorders* in plaats van op *Verkooporder*.
 
-#### <a name="set-up-a-slotting-template-header"></a>Een koptekst voor een vakkensjabloon instellen
+#### <a name="set-up-the-header-for-a-sales-order-slotting-template"></a>De koptekst instellen voor een vakkensjabloon voor verkooporders
 
 1. Stel in de koptekst van de sjabloon de volgende waarden in:
 
@@ -103,7 +120,8 @@ Vervolgens moet u de koptekst van de sjabloon, vakspecificaties en de locatie-in
     - **Beschrijving:** _61_
     - **Vraagtype:** *Verkooporder*
 
-        Momenteel is *Verkooporder* het enige vraagtype dat wordt ondersteund.
+        > [!NOTE]
+        > Momenteel zijn *Verkooporders* en *Transferorders* de enige ondersteunde vraagtypen. U kunt *Transferorders* alleen selecteren als de functie *Magazijnvakken voor transferorders* is ingeschakeld.
 
     - **Vraagstrategie:** _Besteld_
 
@@ -111,6 +129,7 @@ Vervolgens moet u de koptekst van de sjabloon, vakspecificaties en de locatie-in
 
         - **Besteld:** De volledige bestelde hoeveelheid op de verkooporder moet als vraag worden beschouwd.
         - **Gereserveerd:** Alleen de verkooporderregelhoeveelheden die zijn gereserveerd (fysiek en besteld) moeten als vraag worden beschouwd.
+        - **Vrijgegeven**: de vrijgegeven hoeveelheid moet als vraag worden beschouwd.
 
     - **Magazijn:** _61_
     - **Gebruik van niet-gereserveerde hoeveelheid door waveaanvraag toestaan:** _Ja_
@@ -119,7 +138,7 @@ U kunt ook een query opgeven om het bereik te beperken van de vraag die wordt be
 
 #### <a name="set-up-slotting-specifications-for-each-template"></a>Vakspecificaties instellen voor elke sjabloon
 
-Voer voor elke sjabloon die u maakt de volgende stappen uit om een regel voor elke vakspecificatie toe te voegen.
+Voer voor elke verkooporder die u maakt de volgende stappen uit om een regel voor elke vakspecificatie toe te voegen.
 
 1. Ga naar het sneltabblad **Vaksjabloondetails** en selecteer **Nieuw** om een sjabloonregel te maken.
 1. Stel op de nieuwe regel de volgende waarden in:
@@ -148,6 +167,7 @@ Voer voor elke sjabloon die u maakt de volgende stappen uit om een regel voor el
 
         - **Uitgaan van leeg:** Er moet vanuit worden gegaan dat alle locaties in het orderverzamelgebied leeg zijn en dat deze locaties niet moeten worden gecontroleerd op voorraad.
         - **Hoeveelheid overwegen:** De lcoaties in het orderverzamelgebied moete worden gecontroleerd op voorraad en alle locaties die niet leeg zijn, moeten worden overgeslagen.
+        - **Voorhanden voorraad in aanmerking nemen**: het systeem controleert of een doellocatie niet-gereserveerde hoeveelheden bevat voor het artikel op de vraagregel. Als de hoeveelheid groot genoeg is om te voldoen aan ten minste één eenheid van de vraagregel, wordt de gegenereerde vakkenplanrecord verlaagd met de beschikbare hoeveelheid. Als de vraag bijvoorbeeld 10 kisten is en er één kist voorhanden is, wordt de gevonden vraag negen kisten. Als de vraag bijvoorbeeld 10 kisten is en elke kist voorhanden is, wordt de gevonden vraag 10 kisten. Deze waarde is alleen beschikbaar wanneer de functie *Uitbreidingen voor vakkentoewijzing in magazijn* is ingeschakeld.
 
     - **Instructiecode:** _Vakken_
 
@@ -168,6 +188,9 @@ Voer voor elke sjabloon die u maakt de volgende stappen uit om een regel voor el
         - **Vaste en niet-vaste locaties:** Het systeem mag niet worden beperkt tot het gebruik van vaste locaties.
         - **Alleen vaste locaties voor het product:** Het systeem moet alleen vakken toewijzen voor locaties die vaste locaties zijn voor het product.
         - **Alleen vaste locaties voor de productvarian:** Het systeem moet alleen vakken toewijzen voor locaties die vaste locaties zijn voor de productvariant.
+
+> [!NOTE]
+> Als de vakkensjabloon ten minste één regel bevat waar het veld **Criteria voor vaktoewijzing** is ingesteld op *Voorhanden voorraad in aanmerking nemen*, zijn afnames niet langer toegestaan voor alle regels in de sjabloon.
 
 1. Selecteer **Opslaan**.
 1. Selecteer **Nieuw** om een tweede sjabloonregel te maken.
@@ -207,6 +230,7 @@ Er moet ten minste één locatie-instructie zijn ingesteld om het toewijzen van 
 1. Selecteer in het linkerdeelvenster in het veld **Werkordertype** de waarde *Aanvulling*.
 1. Selecteer **Nieuw** in het actievenster.
 1. Voer in de koptekst van de nieuw locatie-instructie in het veld **Naam** de tekst *61 Slotting pick* in.
+1. Accepteer de standaardwaarde in het veld **Volgnummer**.
 
 ##### <a name="configure-the-location-directives-fasttab"></a>Het sneltabblad Locatie-instructies configureren
 
@@ -222,11 +246,12 @@ Er moet ten minste één locatie-instructie zijn ingesteld om het toewijzen van 
 ##### <a name="configure-the-lines-fasttab"></a>Het sneltabblad Regels configureren
 
 1. Selecteer op het sneltabblad **Regels** de optie **Nieuw** om een regel te maken.
-1. Stel op de nieuwe regel de volgende waarden in. Accepteer de standaardwaarden voor alle overige velden.
+1. Stel op de nieuwe regel de volgende waarden in.
 
     - **Vanaf hoeveelheid:** _0_
     - **Tot hoeveelheid:** _1000000_
 
+1. Accepteer de standaardwaarden voor de overige velden.
 1. Selecteer **Opslaan** om het sneltabblad **Locatie-instructieacties** beschikbaar te maken.
 
 ##### <a name="configure-the-location-directive-actions-fasttab"></a>Het sneltabblad Locatie-instructieacties configureren
@@ -234,9 +259,11 @@ Er moet ten minste één locatie-instructie zijn ingesteld om het toewijzen van 
 1. Ga naar het sneltabblad **Locatie-instructieacties** en selecteer **Nieuw** om een regel te maken.
 1. Stel op de nieuwe regel de volgende waarden in. Accepteer de standaardwaarden voor alle overige velden.
 
+    - **Volgnummer:** Accepteer de standaard waarde.
     - **Naam:** _Bulk_
     - **Strategie:** _Geen_
 
+1. Accepteer de standaardwaarden voor de overige velden.
 1. Selecteer **Opslaan** om de knop **Query bewerken** beschikbaar te maken.
 
 ##### <a name="edit-the-query"></a>De query bewerken
@@ -318,9 +345,16 @@ Nadat de vraag is gegenereerd, moet u de opdracht **Vraag zoeken** gebruiken om 
 
 #### <a name="slotting-plan"></a>Plan voor vakken
 
-Het vakkenplan toont de locatie waaraan elk artikel/elke hoeveelheid is toegewezen, of de overschrijding is gebruikt, of afnamewerk is gemaakt, en de sjabloonregel die werd gebruikt. **Elke vraag die niet aan vakken kan worden toegewezen, is rood gemarkeerd.**
+Het vakkenplan toont de locatie waaraan elk artikel/elke hoeveelheid is toegewezen, of de overschrijding is gebruikt, of afnamewerk is gemaakt, en de sjabloonregel die werd gebruikt. *Elke vraag die niet aan vakken kan worden toegewezen, is rood gemarkeerd.*
 
 - Selecteer in het actievenster de optie **Vakkenplan** om de resultaten weer te geven.
+
+> [!NOTE]
+> - De processen **Vraag genereren**, **Vraag zoeken** en **Aanvulling uitvoeren** worden nu in een sandbox uitgevoerd. (Deze processen zijn beschikbaar vanuit het actievenster op de pagina **Vakkensjablonen**.)
+> - De processen **Vraag genereren**, **Vraag zoeken** en **Aanvulling uitvoeren** hebben een vergrendeling om ervoor te zorgen dat deze niet tegelijkertijd kunnen worden geactiveerd. Anders kunnen de gegevens die worden gebruikt, worden verwijderd.
+> - De processen **Vraag genereren** en **Vraag zoeken** geven een waarschuwing weer als de uitvoering geen records heeft gegenereerd of als er gegevens ontbreken in de records.
+> - Wanneer u **Vakkenplan** selecteert, bevat de pagina geen knoppen **Nieuw**, **Bewerken** of **Verwijderen** in het actievenster, omdat de gegevensbron niet kan worden bewerkt.
+> - Wanneer u **Aanvulling uitvoeren** selecteert, valideert het systeem de geselecteerde vakkensjabloon en -processen.
 
 #### <a name="create-replenishment"></a>Aanvulling maken
 

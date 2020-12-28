@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0b54bf6234dcb87c84b21259c30ca5c321869adf
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: 5d9f2febc912b35897b063019146d219cadea1fa
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817301"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517227"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Aangepaste pagina's voor gebruikersaanmeldingen instellen
 
@@ -197,13 +197,13 @@ Nadat u het bestand Global.json hebt bijgewerkt en uw wijzigingen hebt gepublice
 
 [Uw domeinnaam configureren](configure-your-domain-name.md)
 
-[Een nieuwe e-commerce-site implementeren](deploy-ecommerce-site.md)
+[Een nieuwe e-commerce-tenant implementeren](deploy-ecommerce-site.md)
 
 [Een e-commerce-site maken](create-ecommerce-site.md)
 
-[Een online-site koppelen aan een kanaal](associate-site-online-store.md)
+[Een Dynamics 365 Commerce-site koppelen aan een online kanaal](associate-site-online-store.md)
 
-[Robots.txt-bestanden beheren](manage-robots-txt-files.md)
+[robots.txt-bestanden beheren](manage-robots-txt-files.md)
 
 [URL-omleidingen in bulk uploaden](upload-bulk-redirects.md)
 

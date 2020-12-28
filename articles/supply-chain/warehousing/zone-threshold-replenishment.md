@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable
+ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e13b5fd895fca7f8fe77809348d63ed8867dea9e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 6f4ddd03ec16ac43b007b904eb688563735e0941
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017317"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654167"
 ---
 # <a name="zone-threshold-replenishment"></a>Aanvulling op basis van zonedrempels
 
@@ -95,15 +95,15 @@ In dit voorbeeld wordt getoond hoe u een aanvullingssjabloon voorbereidt. Als u 
     - **Aanvullingstype:** _Minimum of maximum_
 
 1. Selecteer **Opslaan**.
-1. Terwijl de nieuwe rij nog steeds is geselecteerd in het raster **Overzicht** , selecteert u **Nieuw** boven het raster **Details van aanvullingssjabloon** om een rij toe te voegen die is gekoppeld aan de aanvullingssjabloon *Zone min/max-aanv* die u zojuist hebt gemaakt.
+1. Terwijl de nieuwe rij nog steeds is geselecteerd in het raster **Overzicht**, selecteert u **Nieuw** boven het raster **Details van aanvullingssjabloon** om een rij toe te voegen die is gekoppeld aan de aanvullingssjabloon *Zone min/max-aanv* die u zojuist hebt gemaakt.
 1. Stel in de nieuwe rij de volgende waarden in:
 
     - **Volgnummer:** Voer _1_ in.
     - **Beschrijving:** Voer _Aanvulling orderverzamelzone_ in.
     - **Aanvullingseenheid:** Selecteer _ea_.
     - **Aanvraagtype:** Laat dit veld leeg.
-    - **Instructiecode:** Met dit veld word de aanvullingssjabloon gekoppeld aan een locatie-instructie. Selecteer de instructiecode voor de demogegevens die u eerder hebt gemaakt ( _Zoneaanvulling_ ).
-    - **Werksjabloon** : Laat dit veld leeg.
+    - **Instructiecode:** Met dit veld word de aanvullingssjabloon gekoppeld aan een locatie-instructie. Selecteer de instructiecode voor de demogegevens die u eerder hebt gemaakt (_Zoneaanvulling_).
+    - **Werksjabloon**: Laat dit veld leeg.
     - **Minimumhoeveelheid:** In dit veld stelt u de hoeveelheid in waarbij de aanvulling wordt getriggered. Voer _50_ in.
     - **Maximumaantal:** Met dit veld kunt u de maximumhoeveelheid van een artikel instellen die in een zone aanwezig kan zijn. Door het gegenereerde aanvullingswerk wordt de voorraad vergroot tot deze hoeveelheid. Voer _150_ in.
     - **Eenheid:** In dit veld wordt de eenheid voor de minimum- en maximumwaarden ingesteld. Selecteer _ea_.
@@ -180,14 +180,14 @@ Om demogegevens voor te bereiden zodat deze in het scenario aan het einde van di
     - **Splitsen toestaan:** Schakel dit selectievakje in.
 
 1. Selecteer **Opslaan** om de nieuwe regel op te slaan.
-1. Terwijl de nieuwe regel nog steeds is geselecteerd in het raster **Regels** , selecteert u **Nieuw** op het sneltabblad **Locatie-instructieacties** om een rij toe te voegen aan het raster.
+1. Terwijl de nieuwe regel nog steeds is geselecteerd in het raster **Regels**, selecteert u **Nieuw** op het sneltabblad **Locatie-instructieacties** om een rij toe te voegen aan het raster.
 1. Stel in de nieuwe rij de volgende waarden in:
 
     - **Volgnummer:** Voer _1_ in.
     - **Naam:** Kies _Verzamelen uit bulk_.
     - **Gebruik vaste locaties:** Selecteer _Vaste en niet-vaste locaties_.
-    - **Negatieve voorraad toestaan** : Schakel dit selectievakje uit.
-    - **Batch ingeschakeld** : Schakel dit selectie vakje uit.
+    - **Negatieve voorraad toestaan**: Schakel dit selectievakje uit.
+    - **Batch ingeschakeld**: Schakel dit selectie vakje uit.
     - **Strategie:** Selecteer _Geen_.
 
 1. Selecteer **Opslaan** om de nieuwe actie op te slaan.
@@ -232,14 +232,14 @@ Om demogegevens voor te bereiden zodat deze in het scenario aan het einde van di
     - **Splitsen toestaan:** Schakel dit selectievakje in.
 
 1. Selecteer **Opslaan** om de nieuwe regel op te slaan.
-1. Terwijl de nieuwe regel nog steeds is geselecteerd in het raster **Regels** , selecteert u **Nieuw** op het sneltabblad **Locatie-instructieacties** om een rij toe te voegen aan het raster.
+1. Terwijl de nieuwe regel nog steeds is geselecteerd in het raster **Regels**, selecteert u **Nieuw** op het sneltabblad **Locatie-instructieacties** om een rij toe te voegen aan het raster.
 1. Stel in de nieuwe rij de volgende waarden in:
 
     - **Volgnummer:** Voer _1_ in.
     - **Naam:** Voer _Zone wegzetten_ in.
     - **Gebruik vaste locaties:** Selecteer _Vaste en niet-vaste locaties_.
-    - **Negatieve voorraad toestaan** : Schakel dit selectievakje uit.
-    - **Batch ingeschakeld** : Schakel dit selectie vakje uit.
+    - **Negatieve voorraad toestaan**: Schakel dit selectievakje uit.
+    - **Batch ingeschakeld**: Schakel dit selectie vakje uit.
     - **Strategie:** Selecteer _Consolideren_.
 
 1. Selecteer **Opslaan** om de nieuwe actie op te slaan.
@@ -275,8 +275,8 @@ Selecteer eerst de rechtspersoon **USMF** en voeg de benodigde aanvullende voorb
 
 Voer de volgende stappen uit om te controleren of uw systeem voldoende voorraad bevat om het voorbeeldscenario te ondersteunen.
 
-1. Zorg ervoor dat er voorhanden voorraad is voor artikel *A0001* op twee verschillende locaties in de orderverzamelzone ( *VERDIEPING* ) die is opgegeven in de aanvullingssjabloon. De totale voorraad moet echter kleiner zijn dan de vereiste minimumhoeveelheid ( *50* ) die is opgegeven in de aanvullingssjabloon. Op deze manier kunt u simuleren hoe de berekening wordt uitgevoerd voor de gehele zone in plaats van alleen voor één locatie. **U kunt alle relevante magazijnprocessen gebruiken om waar nodig de voorraad aan te passen.**
-1. Zorg ervoor dat er voldoende voorraad is voor artikel *A0001* op een bulk locatie die is opgegeven in de locatie-instructie Zone orderverzamelen, waar het aanvullingswerk de artikelen uit zone-id *BULK* moet verzamelen. De totale voorraad moet groter zijn dan de vereiste maximumhoeveelheid ( *150* ) die is opgegeven in de aanvullingssjabloon.
+1. Zorg ervoor dat er voorhanden voorraad is voor artikel *A0001* op twee verschillende locaties in de orderverzamelzone (*VERDIEPING*) die is opgegeven in de aanvullingssjabloon. De totale voorraad moet echter kleiner zijn dan de vereiste minimumhoeveelheid (*50*) die is opgegeven in de aanvullingssjabloon. Op deze manier kunt u simuleren hoe de berekening wordt uitgevoerd voor de gehele zone in plaats van alleen voor één locatie. **U kunt alle relevante magazijnprocessen gebruiken om waar nodig de voorraad aan te passen.**
+1. Zorg ervoor dat er voldoende voorraad is voor artikel *A0001* op een bulk locatie die is opgegeven in de locatie-instructie Zone orderverzamelen, waar het aanvullingswerk de artikelen uit zone-id *BULK* moet verzamelen. De totale voorraad moet groter zijn dan de vereiste maximumhoeveelheid (*150*) die is opgegeven in de aanvullingssjabloon.
 1. Optioneel maar aanbevolen: Voer de volgende stappen uit om een voorraadcorrectiejournaal te maken:
 
     1. Ga naar **Voorraadbeheer \> Journaalboekingen \> Artikelen \> Voorraadcorrectie**.

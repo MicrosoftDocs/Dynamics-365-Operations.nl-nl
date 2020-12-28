@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 0e888fca4a5401f1df6e61b10358489846ad4b0e
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646034"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517203"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen
 
@@ -97,8 +97,8 @@ Voer de volgende stappen uit om een routeringsregel in te stellen in de Azure Fr
 1. Voer in het veld **Naam** de tekst **standaard** in.
 1. Selecteer **HTTP en HTTPS** in het veld **Geaccepteerd protocol**.
 1. Voer in het veld **Frontend hosts** **dynamics-ecom-tenant-name.azurefd.net** in.
-1. Voer onder **Af te stemmen patronen** in het bovenste veld **/\*** in.
-1. Stel onder **Routedetails** de optie **Routetype** in op **Doorsturen**.
+1. Voer onder **Af te stemmen patronen** in het bovenste veld **/\** _ in.
+1. Stel onder _*Routedetails** de optie **Routetype** in op **Doorsturen**.
 1. Selecteer in het veld **Back-endgroep** de optie **ecom-backend**.
 1. Selecteer in de veldgroep **Protocol voor doorsturen** de optie **Afstemmen op aanvraag**. 
 1. Stel de optie **URL herschrijven** in op **Uitgeschakeld**.
@@ -110,8 +110,8 @@ Voer de volgende stappen uit om een cachingregel in te stellen in de Azure Front
 1. Voer in het veld **Naam** de tekst **statics** in.
 1. Selecteer **HTTP en HTTPS** in het veld **Geaccepteerd protocol**.
 1. Voer in het veld **Frontend hosts** **dynamics-ecom-tenant-name.azurefd.net** in.
-1. Voer onder **Af te stemmen patronen** in het bovenste veld **/\_msdyn365/\_scnr/\*** in.
-1. Stel onder **Routedetails** de optie **Routetype** in op **Doorsturen**.
+1. Voer onder **Af te stemmen patronen** in het bovenste veld **/\_msdyn365/\_scnr/\** _ in.
+1. Stel onder _*Routedetails** de optie **Routetype** in op **Doorsturen**.
 1. Selecteer in het veld **Back-endgroep** de optie **ecom-backend**.
 1. Selecteer in de veldgroep **Protocol voor doorsturen** de optie **Afstemmen op aanvraag**.
 1. Stel de optie **URL herschrijven** in op **Uitgeschakeld**.
@@ -142,17 +142,17 @@ Zie voor gedetailleerde instructies voor het toevoegen van een aangepast domein 
 
 Uw CDN is nu correct geconfigureerd voor gebruik met uw Commerce-site.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Uw domeinnaam configureren](configure-your-domain-name.md)
 
-[Een nieuwe e-commerce-site implementeren](deploy-ecommerce-site.md)
+[Een nieuwe e-commerce-tenant implementeren](deploy-ecommerce-site.md)
 
 [Een e-commerce-site maken](create-ecommerce-site.md)
 
-[Een online-site koppelen aan een kanaal](associate-site-online-store.md)
+[Een Dynamics 365 Commerce-site koppelen aan een online kanaal](associate-site-online-store.md)
 
-[Robots.txt-bestanden beheren](manage-robots-txt-files.md)
+[robots.txt-bestanden beheren](manage-robots-txt-files.md)
 
 [URL-omleidingen in bulk uploaden](upload-bulk-redirects.md)
 

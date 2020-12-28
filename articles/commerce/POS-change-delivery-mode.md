@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 1e9f8d202fa81546a9f84af62824e6d8f620cf35
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: eaffe7821b60dd787a7d8b7533c1b8599033ba68
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975092"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594132"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Leveringsmethode wijzigen in POS
 
@@ -40,4 +40,10 @@ Wanneer deze functie is geconfigureerd in POS en u **Leveringsmethode wijzigen**
 
 Nadat u de regels hebt geselecteerd die u wilt wijzigen, klikt u op **Leveringsmethode wijzigen** om te worden gevraagd de opties voor de leveringsmethode te selecteren. Als u meerdere regels hebt geselecteerd om te wijzigen, worden in POS alleen leveringsmethoden weergegeven die zijn geconfigureerd als toegestaan voor alle geselecteerde producten. Leveringsmethoden kunnen worden geconfigureerd voor de ondersteuning van specifieke producten en leveringsadressen. Als er een leveringsmethode is die acceptabel is voor één combinatie van product en adres, maar die niet acceptabel is voor een andere geselecteerde combinatie van product en adres, is de leveringsmethode niet beschikbaar. U moet mogelijk regels één voor één selecteren en de leveringsmethode voor elke regel afzonderlijk wijzigen als u een leveringsmethode wilt selecteren voor een product dat niet door een ander product wordt ondersteund.  
 
-Nadat u de nieuwe leveringsmethode hebt geselecteerd, wordt de transactiepagina weergegeven. Als u de nieuwe selecties voor de leveringsmethode wilt controleren, selecteert u het tabblad **Levering** in de transactielijst.   
+Nadat u de nieuwe leveringsmethode hebt geselecteerd, wordt de transactiepagina weergegeven. Als u de nieuwe selecties voor de leveringsmethode wilt controleren, selecteert u het tabblad **Levering** in de transactielijst.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+[Callcenterorders maken](tasks/create-call-center-orders.md)
+
+[Transactionele e-mails aanpassen per leveringsmethode](customize-email-delivery-mode.md)

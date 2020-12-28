@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e969a4bc4346d05abd99022868dae3a1d78fe50
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ae3192bcf5128c09279017e3d5e8be8f42ec6975
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979422"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666765"
 ---
 # <a name="order-promising"></a>Orderbelofte
 
@@ -37,6 +37,12 @@ Met orderbelofte worden de vroegste verzend- en ontvangstdatum berekend. De func
 -   **ATP (available-to-promise)**: vrije voorraad (ATP) is de hoeveelheid van een artikel, die beschikbaar is en aan een klant kan worden beloofd op een specifieke datum. Bij de ATP-berekening worden niet-toegezegde voorraad, levertijden, geplande ontvangsten en uitgiften gebruikt.
 -   **ATP + uitgiftemarge**: De verzenddatum is gelijk aan de ATP-datum plus de uitgiftemarge voor het artikel. De uitgiftemarge is de tijd die nodig is voor het voorbereiden van artikelen voor verzending.
 -   **CTP (capable-to-promise)**: Beschikbaarheid wordt berekend door middel van explosie.
+
+> [!NOTE]
+> Wanneer een verkooporder wordt bijgewerkt, worden de ordertoezeggingsgegevens alleen bijgewerkt als er niet kan worden voldaan aan de bestaande ordertoezeggingsdatum, zoals in de volgende voorbeelden:
+> 
+> - **Voorbeeld 1**: de huidige ordertoezeggingsdatum is 20 juli, maar als gevolg van een toegenomen hoeveelheid kunt u niet leveren vóór 25 juli. Omdat de huidige datum niet meer kan worden gehaald, wordt de ordertoezegging geactiveerd.
+> -  **Voorbeeld 2**: de huidige ordertoezeggingsdatum is 20 juli, maar als gevolg van een afgenomen hoeveelheid kan nu op 15 juli worden geleverd. Omdat de huidige datum echter nog kan worden gehaald, wordt de ordertoezegging niet geactiveerd en blijft 20 juli de ordertoezeggingsdatum.
 
 ## <a name="atp-calculations"></a>Berekening van de vrije voorraad (ATP)
 De hoeveelheid vrije voorraad wordt berekend met de methode "cumulatieve vrije voorraad met vooruitblik". Het belangrijkste voordeel van deze berekeningsmethode van vrije voorraad is dat hiermee aanvragen kunnen worden verwerkt waarbij de som van de uitgiften tussen ontvangsten meer is dan de laatste ontvangst (bijvoorbeeld wanneer een hoeveelheid van een eerdere ontvangst moet worden gebruikt om te voldoen aan een behoefte). De berekeningsmethode van de 'cumulatieve vrije voorraad met vooruitblik' bevat alle uitgiften totdat de cumulatieve te ontvangen hoeveelheid groter is dan de cumulatieve uit te geven hoeveelheid. Daarom kijkt deze berekening van de vrije voorraad of een gedeelte van de vrijevoorraadhoeveelheid uit een eerdere periode kan worden gebruikt voor een latere periode.  
