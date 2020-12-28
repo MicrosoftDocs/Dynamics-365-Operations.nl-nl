@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982252"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425258"
 ---
 # <a name="weighted-average-date"></a>Datum gewogen gemiddelde
 
@@ -38,7 +38,7 @@ Als er slechts één ontvangst heeft plaatsgevonden op of vóór de datum, hoeft
 
 De kostprijsberekeningsmethode datum gewogen gemiddelde wordt berekend met behulp van de volgende formule: 
 
-Gewogen gemiddelde = (\[KW1 × P1\] + \[KW2 × P2\] + \[KW*n* × P*n*\]) ÷ (KW1 + KW2 + KW*n*) 
+Gewogen gemiddelde = (\[KW1 × P1\] + \[KW2 × P2\] + \[KW *n* × P *n*\]) ÷ (KW1 + KW2 + KW *n*) 
 
 Tijdens de voorraadafsluiting wordt de berekening elke dag via de afsluitperiode uitgevoerd, zoals in de volgende afbeelding wordt weergegeven. 
 

@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ae7c43516fc90224439f6f7cfd5fd0a6058e8b39
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018417"
+ms.locfileid: "4425872"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Offerteaanvraagbiedingen invoeren en vergelijken en contracten toekennen
 
@@ -77,9 +77,9 @@ U kunt het bod invoeren als leverancier of als inkoopmedewerker. Zie voor meer i
 1. Selecteer in het actievenster op het tabblad **Algemeen** de optie **Antwoorden vergelijken**.
 2. Voer een getal in het veld **Positie** in.  
     - Deze pagina bevat de biedingen, samen met de koptekst en de regelinformatie en de totale score op koptekstniveau. U kunt de regels vergelijken door het raster zo te sorteren dat vergelijkbare regels zich naast elkaar bevinden. De volgende informatie wordt eveneens opgenomen:
-    - **Hoeveelheid** : de hoeveelheid die door de leverancier is aangeboden. Deze hoeveelheid komt mogelijk niet overeen met de hoeveelheid die is opgegeven in de offerteaanvraag.
-    - **Nettobedrag** : de prijs die door een leverancier is opgegeven voor de artikelen op de regel, na aftrek van eventuele kortingen.
-    - **Afwijking** : het aantal dagen dat de leveringsdatum in de koptekst of de regel van de bieding afwijkt van de gevraagde leveringsdatum in de koptekst van de offerteaanvraag of de offerteaanvraagregel. U kunt voor elke bieding een positie invoeren:  
+    - **Hoeveelheid**: de hoeveelheid die door de leverancier is aangeboden. Deze hoeveelheid komt mogelijk niet overeen met de hoeveelheid die is opgegeven in de offerteaanvraag.
+    - **Nettobedrag**: de prijs die door een leverancier is opgegeven voor de artikelen op de regel, na aftrek van eventuele kortingen.
+    - **Afwijking**: het aantal dagen dat de leveringsdatum in de koptekst of de regel van de bieding afwijkt van de gevraagde leveringsdatum in de koptekst van de offerteaanvraag of de offerteaanvraagregel. U kunt voor elke bieding een positie invoeren:  
 3. Selecteer de koptekstregel voor de andere bieding waaraan u een positie wilt toekennen.
 4. Voer een getal in het veld **Positie** in.
 5. Selecteer **Opslaan**.

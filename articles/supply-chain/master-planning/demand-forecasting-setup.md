@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6d0de588d54948d89f636cadeb66c3d9e6878015
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982864"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425687"
 ---
 # <a name="demand-forecasting-setup"></a>Instelling van vraagprognose
 
@@ -83,7 +83,7 @@ Als u de parameters die kunnen worden geconfigureerd voor de vraagprognoseservic
 Op het tabblad **Toewijzingssleutels** kunt u de **Parameters van prognosealgoritme** instellen voor elke artikeltoewijzingssleutel. De volgende opties zijn beschikbaar.
 - **Percentage waarschijnlijkheidsniveau**: een waarschijnlijkheidsinterval bestaat uit een waardebereik dat als goede ramingen voor de vraagprognose fungeert. Een waarschijnlijkheidspercentage van 95% geeft aan dat er een kans van 5% is dat de toekomstige vraag buiten het bereik van het waarschijnlijkheidsinterval valt.
 - **Gedwongen seizoensgebondenheid**: hiermee geeft u op of het model moet worden gedwongen om een bepaald type seizoensgebondenheid te gebruiken. Dit geldt alleen voor ARIMA en ETS. Opties: AUTO (standaard), GEEN, ADDITIEF, MULTIPLICATIEF.
-- **Prognosemodel**: opties: ARIMA, ETS, STL, ETS+ARIMA, ETS+STL, ALLE. Gebruik **ALLE**om het meest geschikte model te selecteren.
+- **Prognosemodel**: opties: ARIMA, ETS, STL, ETS+ARIMA, ETS+STL, ALLE. Gebruik **ALLE** om het meest geschikte model te selecteren.
 - **Maximale prognosewaarde**: hiermee geeft u de maximumwaarde op die voor voorspellingen moet worden gebruikt. Indeling: +1E[n] of numerieke constante.
 - **Minimale prognosewaarde**: hiermee geeft u de minimumwaarde op die voor voorspellingen moet worden gebruikt. Indeling: -1E[n] of numerieke constante.
 - **Vervanging van ontbrekende waarde**: hiermee geeft u op hoe hiaten in historische gegevens worden gevuld. Opties: numerieke waarde, GEMIDDELDE, VORIGE, LINEAIR INTERPOLEREN, MULTINOMIAAL INTERPOLEREN.

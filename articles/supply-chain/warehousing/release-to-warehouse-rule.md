@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 27030e8dd58b290d80f6b00cbd250e09c1e50819
-ms.sourcegitcommit: f64fce03ec52f844b05a9e8cac286cb201385002
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/16/2020
-ms.locfileid: "3597331"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425237"
 ---
 # <a name="release-to-warehouse-rule"></a>Regel voor vrijgave naar magazijn
 
@@ -126,7 +126,7 @@ In dit scenario ziet u hoe de functie werkt voor magazijnen die zijn ingesteld o
 1. Merk op dat u deze keer geen foutmelding krijgt. In plaats daarvan maakt het systeem werk, zendingen en lading aan zoals vereist en worden de resultaten weergegeven.
 1. U kunt de gegevens voor zending, lading en werk weergeven met de opties in het menu **Magazijn** boven het raster:
 
-    - **Regel 1:** Er zijn drie opties beschikbaar: **Details van zending**, **Gegevens lading**en **Werkgegevens**. Selecteer elke optie om de details weer te geven van de zending, de lading en het werk die zijn gemaakt toen de order werd vrijgegeven naar het magazijn.
+    - **Regel 1:** Er zijn drie opties beschikbaar: **Details van zending**, **Gegevens lading** en **Werkgegevens**. Selecteer elke optie om de details weer te geven van de zending, de lading en het werk die zijn gemaakt toen de order werd vrijgegeven naar het magazijn.
     - **Regel 2:** Alleen de optie **Werkgegevens** is beschikbaar. Selecteer de optie en merk op dat er geen werk is gemaakt omdat er geen voorraad is gereserveerd. Daarom is er ook geen zending of lading gemaakt.
 
 > [!NOTE]

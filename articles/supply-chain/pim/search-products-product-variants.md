@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 532f437bee490743847cf5617579c579f9202b71
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018325"
+ms.locfileid: "4425848"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Producten en productvarianten zoeken tijdens orderinvoer
 
@@ -83,7 +83,7 @@ De tabel moet alleen worden gevuld als de zoekcriteria worden gewijzigd. Nieuw v
 
 U kunt deze functionaliteit als volgt inschakelen: ga naar **Verkoop en marketing &gt; Instellen &gt; Zoeken &gt; Zoekparameters** en stel op het tabblad **Algemeen** de optie **Zoekveld inschakelen om producten te zoeken** in op **Ja**.  
 
-Voor invoer van verkooporderregels is het standaardgedrag als volgt: open de pagina  **Product zoeken** wanneer u begint te typen in het veld  **Artikelnummer**. Druk vervolgens op de  **Tab** -toets. De context van de pagina **Product zoeken** wordt tijdens het aanmaken van een orderregel gewijzigd, waardoor de pagina als opdringerig worden ervaren. Als de zoekresultaten liever in een zoekveld krijgt en de context niet wilt verliezen tijdens de orderregelinvoer, kunt u in plaats daarvan de opzoekweergave van de zoekopdracht gebruiken. Als u een product of productvariant zoekt, maar niets selecteert in de opzoekweergave en op de **Tab** -toets drukt, wordt de pagina  **Product zoeken** weergeven.
+Voor invoer van verkooporderregels is het standaardgedrag als volgt: open de pagina **Product zoeken** wanneer u begint te typen in het veld  **Artikelnummer**. Druk vervolgens op de  **Tab**-toets. De context van de pagina **Product zoeken** wordt tijdens het aanmaken van een orderregel gewijzigd, waardoor de pagina als opdringerig worden ervaren. Als de zoekresultaten liever in een zoekveld krijgt en de context niet wilt verliezen tijdens de orderregelinvoer, kunt u in plaats daarvan de opzoekweergave van de zoekopdracht gebruiken. Als u een product of productvariant zoekt, maar niets selecteert in de opzoekweergave en op de **Tab**-toets drukt, wordt de pagina **Product zoeken** weergeven.
 
 
 

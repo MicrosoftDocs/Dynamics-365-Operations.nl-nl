@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 7fa2684340f5ce45b99ff9aee9937071f936b81a
-ms.sourcegitcommit: 2bc8e760c7a82572c7eafd51f2e57ef11b4ca98b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2020
-ms.locfileid: "3900981"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425241"
 ---
 # <a name="shipment-auto-updates"></a>Zendingen automatisch bijwerken
 
@@ -45,7 +45,7 @@ Er wordt ook rekening gehouden met de wavestatus voor automatische updates. Wann
 
 De functie voor het automatisch bijwerken van zendingen ondersteunt vier scenario's: het toevoegen van een nieuwe orderregel, het vergroten van de hoeveelheid op een orderregel, het verlagen van de hoeveelheid op een orderregel en het verwijderen van een orderregel.
 
-- **Een nieuwe orderregel toevoegen**: wanneer het veld **Zending automatisch bijwerken** op het sneltabblad **Magazijn** van de pagina **Magazijnen** (**Magazijnbeheer \> Instellingen \> Magazijn \> Magazijnen**) is ingesteld op**Altijd**, wordt de bestaande lading niet bijgewerkt als er een verzending is voor de order en er een nieuwe orderregel wordt toegevoegd aan een verkooporder of transferorder nadat er al een lading is gemaakt voor de verkooporder. Er wordt een nieuwe ladingsregel zonder verwijzing naar de bestaande lading gemaakt en aan de bestaande zending gekoppeld. De nieuwe regel wordt toegevoegd aan de lading en vrijgegeven.
+- **Een nieuwe orderregel toevoegen**: wanneer het veld **Zending automatisch bijwerken** op het sneltabblad **Magazijn** van de pagina **Magazijnen** (**Magazijnbeheer \> Instellingen \> Magazijn \> Magazijnen**) is ingesteld op **Altijd**, wordt de bestaande lading niet bijgewerkt als er een verzending is voor de order en er een nieuwe orderregel wordt toegevoegd aan een verkooporder of transferorder nadat er al een lading is gemaakt voor de verkooporder. Er wordt een nieuwe ladingsregel zonder verwijzing naar de bestaande lading gemaakt en aan de bestaande zending gekoppeld. De nieuwe regel wordt toegevoegd aan de lading en vrijgegeven.
 - **De hoeveelheid op een orderregel verhogen**: wanneer het veld **Zending automatisch bijwerken** is ingesteld op **Altijd**, als er een zending bestaat voor de order en de hoeveelheid op een bestaande verkooporderregel of transferorderregel wordt verhoogd wanneer er al een lading is gemaakt voor de verkooporder, wordt de ladingsregel verhoogd met dezelfde hoeveelheid als de orderregel. Als de lading is vrijgegeven maar er geen werk is gemaakt, wordt de ladingsregel verhoogd met dezelfde hoeveelheid als de orderregel.
 - **De hoeveelheid op een orderregel verlagen**: wanneer het veld **Zending automatisch bijwerken** is ingesteld op **Altijd** of op **Bij afname van hoeveelheid**, als er een verzending voor de order is en de hoeveelheid op een bestaande verkooporderregel of transferorderregel wordt verlaagd nadat er al een lading voor de verkooporder is gemaakt, wordt de hoeveelheid op de bijbehorende ladingsregel aangepast, tenzij de hoeveelheid op de ladingsregel al gelijk is aan of kleiner is dan de nieuwe hoeveelheid op de orderregel. In dat geval wordt de ladingsregel niet beïnvloed. Als de lading is vrijgegeven maar er geen werk is gemaakt, wordt de hoeveelheid op de bijbehorende ladingsregel aangepast, tenzij de hoeveelheid op de ladingsregel al gelijk is aan of kleiner is dan de nieuwe hoeveelheid op de orderregel. In dat geval wordt de ladingsregel wel beïnvloed.
 - **Een orderregel verwijderen**: wanneer het veld **Zending automatisch bijwerken** is ingesteld op **Altijd** of op **Bij afname van hoeveelheid**, als de gebruiker probeert een orderregel te verwijderen waarvoor een ladingsregel bestaat, wordt een foutbericht weergegeven.
@@ -120,7 +120,7 @@ Als u een verkooporderregel wilt toevoegen, volgt u deze stappen.
 1. Ga naar **Verkoop en marketing \> Verkooporders \> Alle verkooporders**.
 2. Selecteer de verkooporder die u eerder hebt vrijgegeven aan het magazijn.
 3. Maak een regel voor artikelnummer **A0002**.
-4. Typ **10** in het veld **Hoeveelheid**. (Zorg ervoor dat u magazijn **24**gebruikt.) De nieuwe regel wordt automatisch aan de bestaande zending toegevoegd.
+4. Typ **10** in het veld **Hoeveelheid**. (Zorg ervoor dat u magazijn **24** gebruikt.) De nieuwe regel wordt automatisch aan de bestaande zending toegevoegd.
 5. Selecteer **Opslaan**.
 6. Ga terug naar de pagina **Alle verkooporders** en selecteer opnieuw de verkooporder.
 7. Selecteer in het Actievenster op het tabblad **Magazijn** in de groep **Verwante informatie** de optie **Details van zending**. Op de pagina **Details van zending** op het sneltabblad **Ladingsregels** ziet u de tweede regel.

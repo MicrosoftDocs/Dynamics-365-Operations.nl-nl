@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017616"
+ms.locfileid: "4425769"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Magazijnverwerking van inkomende ladingen voor inkooporders
 
@@ -45,7 +45,7 @@ In de volgende afbeelding ziet u de gangbare stroom voor het verwerken van inkom
 
 1. **De leverancier bevestigt de verzending van de lading.**
 
-    Wanneer de leverancier de lading verzendt, bevestigt de logistiek coördinator in het ontvangende magazijn de verzending van de lading. Als het ontvangende bedrijf gebruikmaakt van de module **Transportbeheer** , worden door de bevestiging van de inkomende zending andere taakverdelingsprocessen geactiveerd die aan de binnenkomende ladingen zijn gekoppeld. Zie [Een lading voor verzending bevestigen](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping) voor meer informatie.
+    Wanneer de leverancier de lading verzendt, bevestigt de logistiek coördinator in het ontvangende magazijn de verzending van de lading. Als het ontvangende bedrijf gebruikmaakt van de module **Transportbeheer**, worden door de bevestiging van de inkomende zending andere taakverdelingsprocessen geactiveerd die aan de binnenkomende ladingen zijn gekoppeld. Zie [Een lading voor verzending bevestigen](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping) voor meer informatie.
 
 1. **De lading arriveert in het magazijn en werknemers registreren hoeveelheden.**
 
@@ -75,7 +75,7 @@ Wanneer een inkomende lading voor het eerst in het magazijn arriveert, moeten ma
     - Gemengde nummerplaatontvangst en wegzetten, waarbij het veld **Identificatiemethode brondocumentregel** voor het menu-item van het mobiele apparaat is ingesteld op _Artikelontvangst laden_. Zie [Ontvangst van gemengde nummerplaatsen](mixed-license-plate-receiving.md) voor meer informatie.
 
     > [!NOTE]
-    > Ongeacht het proces zal het systeem het werk genereren waarbij hoeveelheden worden genomen die zijn geregistreerd op de ontvangstlocatie en deze worden weggezet op de normale opslaglocatie. Wanneer het proces _Ontvangen en wegzetten van artikel laden_ of _Nummerplaat ontvangen en wegzetten_ wordt gebruikt, wordt de werknemer die de ladinghoeveelheid heeft geregistreerd ook door het apparaat geïnstrueerd om de opslag als onderdeel van de registratietaak uit te voeren. In tegenstelling tot de processen _Artikelontvangst laden_ en _Gecombineerde nummerplaat ontvangen_ , is de veronderstelling dat het opslagwerk onafhankelijk van de registratietaak wordt uitgevoerd.
+    > Ongeacht het proces zal het systeem het werk genereren waarbij hoeveelheden worden genomen die zijn geregistreerd op de ontvangstlocatie en deze worden weggezet op de normale opslaglocatie. Wanneer het proces _Ontvangen en wegzetten van artikel laden_ of _Nummerplaat ontvangen en wegzetten_ wordt gebruikt, wordt de werknemer die de ladinghoeveelheid heeft geregistreerd ook door het apparaat geïnstrueerd om de opslag als onderdeel van de registratietaak uit te voeren. In tegenstelling tot de processen _Artikelontvangst laden_ en _Gecombineerde nummerplaat ontvangen_, is de veronderstelling dat het opslagwerk onafhankelijk van de registratietaak wordt uitgevoerd.
 
 - **Een werksjabloon waarmee verzamelde en opgeslagen werk voor inkomende ladingen worden gedefinieerd**
 
@@ -159,7 +159,7 @@ Als u een pagina wilt openen waarop ze een productontvangst kunnen boeken, kunne
 - Open de betreffende inkooporder en selecteer vervolgens de actie **Productontvangst**.
 - Ga naar **Inkoop en sourcing \> Inkooporders \> Producten ontvangen \> Productontvangsttaak boeken**.
 
-De actie **Productontvangst** die beschikbaar is op de pagina **Lading** (en op de equivalente pagina voor de updatetaak de pagina **Productontvangsten bijwerken** ) kan alleen productontvangsthoeveelheden bijwerken voor hoeveelheden op de inkooporder met de status _Geregistreerd_. De actie **Productontvangst** die beschikbaar is op de pagina **Inkooporder** kan echter hoeveelheden bevatten in beide verwerkingsstatussen ( _Besteld_ en _Geregistreerd_ ). Dit kan ook de omvang van de productontvangstboeking bepalen via extra parameters, zoals _Hoeveelheid nu ontvangen_ en _Geregistreerde hoeveelheid en services_.
+De actie **Productontvangst** die beschikbaar is op de pagina **Lading** (en op de equivalente pagina voor de updatetaak de pagina **Productontvangsten bijwerken**) kan alleen productontvangsthoeveelheden bijwerken voor hoeveelheden op de inkooporder met de status _Geregistreerd_. De actie **Productontvangst** die beschikbaar is op de pagina **Inkooporder** kan echter hoeveelheden bevatten in beide verwerkingsstatussen (_Besteld_ en _Geregistreerd_). Dit kan ook de omvang van de productontvangstboeking bepalen via extra parameters, zoals _Hoeveelheid nu ontvangen_ en _Geregistreerde hoeveelheid en services_.
 
 Alleen orders met de status _Bevestigd_ kunnen worden geboekt als productontvangst. Voor niet-bevestigde inkooporders wordt de actie **Productontvangst** weergegeven als niet beschikbaar.
 
@@ -172,7 +172,7 @@ Voor het boeken van geregistreerde hoeveelheden voor productontvangsten vanaf de
 - De inkooporder die aan de lading is gekoppeld, moet de status _Bevestigd_ hebben.
 
 > [!NOTE]
-> Als de ladingsstatus nog niet is ingesteld op _Verzonden_ , wordt de lading automatisch bevestigd voordat het bijwerken van de productontvangst wordt uitgevoerd. (De ladingsstatus wordt ingesteld op _Verzonden_ wanneer een gebruiker de inkomende zending van de lading registreert.)
+> Als de ladingsstatus nog niet is ingesteld op _Verzonden_, wordt de lading automatisch bevestigd voordat het bijwerken van de productontvangst wordt uitgevoerd. (De ladingsstatus wordt ingesteld op _Verzonden_ wanneer een gebruiker de inkomende zending van de lading registreert.)
 
 Voor het boeken van de productontvangst voor ontvangstregistraties die zijn gekoppeld aan een geselecteerde lading, selecteert de werknemer de actie **Productontvangst** op de pagina **Lading**. De pagina die wordt geopend, heeft de volgende belangrijke details:
 
@@ -185,7 +185,7 @@ Voor het boeken van de productontvangst voor ontvangstregistraties die zijn geko
 >
 > | Versie | Berekening |
 > |---|---|
-> | Versies vóór versie 10.0.10 en nieuwere versies waarvoor de functie _Meerdere productontvangsten toestaan per lading_ niet is ingeschakeld | De regelhoeveelheid is het totaal van alle geregistreerde hoeveelheden _voor die inkooporderregel_ , ongeacht of de registratie is uitgevoerd voor meerdere ladingen, onafhankelijk van de lading, vanaf een mobiel apparaat of van de client. |
+> | Versies vóór versie 10.0.10 en nieuwere versies waarvoor de functie _Meerdere productontvangsten toestaan per lading_ niet is ingeschakeld | De regelhoeveelheid is het totaal van alle geregistreerde hoeveelheden _voor die inkooporderregel_, ongeacht of de registratie is uitgevoerd voor meerdere ladingen, onafhankelijk van de lading, vanaf een mobiel apparaat of van de client. |
 > | Versie 10.0.10 en later, waarvoor de functie _Meerdere productontvangsten toestaan per lading_ is ingeschakeld | De regelhoeveelheid is het totaal van alle geregistreerde hoeveelheden _voor de ladingrecord_ vanwaaruit de actie **Productontvangst boeken** is geïnitieerd. |
 
 Wanneer de gebruiker **OK** selecteert om het boeken van de productontvangst te bevestigen, voert het systeem de volgende updates uit op de desbetreffende entiteiten.
@@ -197,9 +197,9 @@ Wanneer de gebruiker **OK** selecteert om het boeken van de productontvangst te 
 
 Met het veld **Meerdere productontvangsten toestaan per lading** kunnen bedrijven een beleid voor inkomende ontvangsten kiezen. Afhankelijk van hun operationele stromen kunnen bedrijven ervoor kiezen om meerdere productontvangstboekingen voor dezelfde lading toe te staan of te weigeren. Wij raden aan dat de logistiek manager het veld **Meerdere productontvangsten toestaan per lading** instelt op een van de volgende waarden:
 
-- **Nee** : selecteer deze waarde als de magazijnmedewerkers alle orderhoeveelheden altijd registreren die bij elke lading binnen een toegewezen tijdsbestek arriveren. Als er geen ladinghoeveelheden zijn geregistreerd, wordt ervan uitgegaan dat ze niet zijn aangekomen of niet in de lading zijn opgenomen en dus niet als onderdeel van de lading moeten worden beschouwd. De boeking van de productontvangst op basis van een lading gebruikt dezelfde veronderstelling. Behalve dat alle geregistreerde hoeveelheden (de hoofdfunctie) worden bijgewerkt met de productontvangst, wordt de lading als volledig gedeclareerd en gesloten voor verdere verwerking. In dit geval worden alle hoeveelheden op de ladingsregels automatisch bijgewerkt naar de geregistreerde hoeveelheden, worden ladingsregels zonder geregistreerde hoeveelheden verwijderd en wordt de ladingsstatus gewijzigd in _Ontvangen_.
-- **Ja** : selecteer deze waarde als magazijnmedewerkers meer tijd nodig hebben om alle hoeveelheden van de ontvangen lading te registreren, maar de hoeveelheden van de productontvangst die al zijn geregistreerd, wel moeten worden geboekt. In dit geval moet de logistiek manager een lading open houden, zelfs nadat de boekingstaak voor de productontvangst is uitgevoerd, zodat resterende ladinghoeveelheden kunnen worden geregistreerd en de productontvangst doorlopend wordt bijgewerkt naar het grootboek.
-- **Vragen** : selecteer deze waarde als u verschillende ontvangstpraktijken gebruikt en er telkens een beslissing moet worden genomen wanneer de productontvangstboeking wordt uitgevoerd.
+- **Nee**: selecteer deze waarde als de magazijnmedewerkers alle orderhoeveelheden altijd registreren die bij elke lading binnen een toegewezen tijdsbestek arriveren. Als er geen ladinghoeveelheden zijn geregistreerd, wordt ervan uitgegaan dat ze niet zijn aangekomen of niet in de lading zijn opgenomen en dus niet als onderdeel van de lading moeten worden beschouwd. De boeking van de productontvangst op basis van een lading gebruikt dezelfde veronderstelling. Behalve dat alle geregistreerde hoeveelheden (de hoofdfunctie) worden bijgewerkt met de productontvangst, wordt de lading als volledig gedeclareerd en gesloten voor verdere verwerking. In dit geval worden alle hoeveelheden op de ladingsregels automatisch bijgewerkt naar de geregistreerde hoeveelheden, worden ladingsregels zonder geregistreerde hoeveelheden verwijderd en wordt de ladingsstatus gewijzigd in _Ontvangen_.
+- **Ja**: selecteer deze waarde als magazijnmedewerkers meer tijd nodig hebben om alle hoeveelheden van de ontvangen lading te registreren, maar de hoeveelheden van de productontvangst die al zijn geregistreerd, wel moeten worden geboekt. In dit geval moet de logistiek manager een lading open houden, zelfs nadat de boekingstaak voor de productontvangst is uitgevoerd, zodat resterende ladinghoeveelheden kunnen worden geregistreerd en de productontvangst doorlopend wordt bijgewerkt naar het grootboek.
+- **Vragen**: selecteer deze waarde als u verschillende ontvangstpraktijken gebruikt en er telkens een beslissing moet worden genomen wanneer de productontvangstboeking wordt uitgevoerd.
 
 De volgende tabel geeft een overzicht van de effecten van de instelling **Meerdere productontvangsten toestaan per lading**.
 
@@ -207,19 +207,19 @@ De volgende tabel geeft een overzicht van de effecten van de instelling **Meerde
 |---|---|---|---|
 | Als dit veld niet beschikbaar is (versies vóór 10.0.10) | <p>De ladinghoeveelheid wordt zo ingesteld dat deze gelijk is aan de geregistreerde hoeveelheid.</p><p>Als de ladinghoeveelheid wordt gewijzigd in 0 (nul), betekent dit dat er geen registratie is uitgevoerd, en wordt de ladingsregel verwijderd.</p><p>Als er geen ladingsregels in de lading zijn, wordt de lading verwijderd.</p> | _Ontvangen_ | Als er meerdere ladingen bestaan voor de geregistreerde hoeveelheid van de orderregel, wordt alleen de status van de lading waarvoor de ontvangst is geboekt, bijgewerkt naar _Ontvangen_. |
 | No | <p>De ladinghoeveelheid wordt zo ingesteld dat deze gelijk is aan de geregistreerde hoeveelheid die aan de lading-id is gekoppeld.</p><p>Als er geen lading-id wordt geregistreerd voor de voorraadtransactie, komt het gedrag overeen met de versies vóór 10.0.10.</p> | _Ontvangen_ | |
-| Ja | Geen updates | _Ontvangen_ , als de totale geregistreerde ladinghoeveelheid gelijk is aan of groter is dan de ladinghoeveelheid | |
-| Ja | Geen updates | _Verzonden_ of _Onderhanden_ , als de totale geregistreerde ladinghoeveelheid kleiner is dan de ladinghoeveelheid | |
+| Ja | Geen updates | _Ontvangen_, als de totale geregistreerde ladinghoeveelheid gelijk is aan of groter is dan de ladinghoeveelheid | |
+| Ja | Geen updates | _Verzonden_ of _Onderhanden_, als de totale geregistreerde ladinghoeveelheid kleiner is dan de ladinghoeveelheid | |
 
-Nadat het veld **Ladingsstatus** is ingesteld op _Ontvangen_ , kunnen er geen productontvangstboekingen meer worden uitgevoerd voor die lading. De werknemer kan de resterende orderhoeveelheid voor de ontvangen lading echter registreren onder de volgende voorwaarden. (Zie de sectie [Meer ontvangen lading](#load-over-receiving) eerder in dit onderwerp voor meer informatie.)
+Nadat het veld **Ladingsstatus** is ingesteld op _Ontvangen_, kunnen er geen productontvangstboekingen meer worden uitgevoerd voor die lading. De werknemer kan de resterende orderhoeveelheid voor de ontvangen lading echter registreren onder de volgende voorwaarden. (Zie de sectie [Meer ontvangen lading](#load-over-receiving) eerder in dit onderwerp voor meer informatie.)
 
 - De versie van Supply Chain Management is ouder dan versie 10.0.11.
 - De functie _Meerontvangst voor ladinghoeveelheden_ is ingeschakeld en het veld **Meerontvangst voor hoeveelheid ladingsregel** in de menuopdracht van het mobiele apparaat voor de actie Artikelontvangst laden is ingesteld op _Toestaan_.
 
-Voor het boeken van aanvullende geregistreerde ladinghoeveelheden voor de productontvangst op basis van een lading met de status _Ontvangen_ , moet de gebruiker de boekingsactie uitvoeren vanuit de gekoppelde inkooporder.
+Voor het boeken van aanvullende geregistreerde ladinghoeveelheden voor de productontvangst op basis van een lading met de status _Ontvangen_, moet de gebruiker de boekingsactie uitvoeren vanuit de gekoppelde inkooporder.
 
 ### <a name="post-registered-quantities-from-the-purchase-order-page"></a>Geregistreerde hoeveelheden boeken vanaf de pagina Inkooporder
 
-Voor het boeken van geregistreerde ladinghoeveelheden voor de productontvangst vanaf de pagina **Inkooporder** , voert de gebruiker de volgende taken uit voordat de actie **Productontvangst** wordt geselecteerd:
+Voor het boeken van geregistreerde ladinghoeveelheden voor de productontvangst vanaf de pagina **Inkooporder**, voert de gebruiker de volgende taken uit voordat de actie **Productontvangst** wordt geselecteerd:
 
 - Stel het veld **Hoeveelheid** in de sectie **Parameters** op het tabblad **Instellingen** in op _Geregistreerde hoeveelheid_.
 - Voer in het veld **Productontvangst** de nummers in van de inkooporders die in de boeking zijn opgenomen.
@@ -238,7 +238,7 @@ De volgende tabel geeft een overzicht van de effecten van de instelling **Meerde
 
 | Meerdere productontvangstbonnen per lading toestaan | Ladinghoeveelheid | Status lading | Notitie |
 |---|---|---|---|
-| Als dit veld is uitgeschakeld of niet beschikbaar is (in versies vóór 10.0.10) | Geen updates | Er worden geen updates uitgevoerd. (De status blijft _Open_ , _Verzonden_ of _Onderhanden_.) | Omdat de boeking van de productontvangst wordt gestart vanuit een inkooporder, bevat de bijwerklogica geen informatie over de koppeling tussen de geregistreerde hoeveelheden binnen het bereik en de ladingen waarvoor de registratie is geregistreerd. Hierdoor kan de lading niet worden geselecteerd voor de statuswijziging. |
+| Als dit veld is uitgeschakeld of niet beschikbaar is (in versies vóór 10.0.10) | Geen updates | Er worden geen updates uitgevoerd. (De status blijft _Open_, _Verzonden_ of _Onderhanden_.) | Omdat de boeking van de productontvangst wordt gestart vanuit een inkooporder, bevat de bijwerklogica geen informatie over de koppeling tussen de geregistreerde hoeveelheden binnen het bereik en de ladingen waarvoor de registratie is geregistreerd. Hierdoor kan de lading niet worden geselecteerd voor de statuswijziging. |
 | Ingeschakeld | Geen updates | <p>Een van de volgende acties wordt uitgevoerd:</p><ul><li>De status wordt gewijzigd in <i>Ontvangen</i> als de totale ontvangen en gekochte hoeveelheden van de voorraadtransacties in de inkooporder meer zijn dan of gelijk zijn aan de hoeveelheid van de lading waaraan ze zijn gekoppeld.</li><li>De status blijft <i>Open</i>, <i>Verzonden</i>of <i>Onderhanden</i> als niet aan de vorige voorwaarde is voldaan voor alle regels in de lading.</li></ul> | |
 
 ### <a name="select-the-appropriate-product-receipt-posting-option-for-your-logistics-operations"></a>Selecteer de gewenste boekingsoptie voor de productontvangst voor uw logistieke activiteiten
@@ -344,9 +344,9 @@ Wanneer de lading arriveert in het ontvangende magazijn, registreert een ontvang
 1. Selecteer de menuoptie _Artikelontvangst laden_ die u voor dit scenario hebt gemaakt.
 1. Voer de volgende waarden in aan de hand van de instructies voor gegevensinvoer op het scherm. (De volgorde kan variëren, afhankelijk van het mobiele apparaat of de emulator die u gebruikt.)
 
-    - **Lading** : voer de lading-id in die u in de vorige procedure hebt gemaakt.
-    - **Artikel** : voer _A0001_ in. Dit is het artikel dat wordt verwacht voor deze lading.
-    - **Hoeveelheid** : voer _9_ in als de werkelijke hoeveelheid die aanwezig is in de lading. Deze hoeveelheid is kleiner dan het verwachte aantal.
+    - **Lading**: voer de lading-id in die u in de vorige procedure hebt gemaakt.
+    - **Artikel**: voer _A0001_ in. Dit is het artikel dat wordt verwacht voor deze lading.
+    - **Hoeveelheid**: voer _9_ in als de werkelijke hoeveelheid die aanwezig is in de lading. Deze hoeveelheid is kleiner dan het verwachte aantal.
 
 1. Ga verder met de werkstroom en laat alle andere velden leeg of stel deze in op de standaardwaarden, totdat het apparaat u informeert dat het werk is voltooid.
 
@@ -354,7 +354,7 @@ De ontvangsttaak is nu voltooid en de ontvangstmedewerker kan de volgende taak g
 
 1. Ga naar **Magazijnbeheer \> Ladingen \> Alle ladingen**.
 1. Zoek in de lijst de lading die u zojuist hebt ontvangen. (Mogelijk moet u het selectievakje **Gesloten weergeven** inschakelen om de binnenkomende ladingen met de ladingsstatus _Verzonden_ op te nemen.) Selecteer vervolgens de koppeling in de kolom **Lading-id** om de lading te openen.
-1. In de ladingrecord blijft de waarde van de **Ladingsstatus** staan op _Verzonden_ , maar de waarde voor **Hoeveelheid werk gemaakt** op de ladingregel wordt gewijzigd in _9_.
+1. In de ladingrecord blijft de waarde van de **Ladingsstatus** staan op _Verzonden_, maar de waarde voor **Hoeveelheid werk gemaakt** op de ladingregel wordt gewijzigd in _9_.
 1. Ga naar **Inkoop en sourcing \> Inkooporders \> Alle inkooporders**.
 1. Zoek in de lijst de inkooporder die u zojuist hebt ontvangen en selecteer vervolgens de koppeling in de kolom **Inkooporder** om de order te openen.
 \
@@ -447,13 +447,13 @@ In deze procedure wordt aangegeven hoe een ontvangstmedewerker ladinghoeveelhede
 1. Selecteer de menuoptie _Artikelontvangst laden_ die u voor dit scenario hebt gemaakt.
 1. Voer de volgende waarden in aan de hand van de instructies voor gegevensinvoer op het scherm. (De volgorde kan variëren, afhankelijk van het mobiele apparaat of de emulator die u gebruikt.)
 
-    - **Lading** : voer de eerste lading-id in die u in de vorige procedure hebt gemaakt.
-    - **Artikel** : voer _A0001_ in. Dit is het artikel dat wordt verwacht voor deze lading.
-    - **Hoeveelheid** : voer _3_ in. Deze hoeveelheid is kleiner dan het verwachte aantal. Stel dat u, als ontvangstmedewerker, geen tijd hebt om alle hoeveelheden voor deze lading te registreren. Verderop in deze procedure registreert u de resterende artikelen door deze stap te herhalen en het veld **Hoeveelheid** in te stellen op _2_.
+    - **Lading**: voer de eerste lading-id in die u in de vorige procedure hebt gemaakt.
+    - **Artikel**: voer _A0001_ in. Dit is het artikel dat wordt verwacht voor deze lading.
+    - **Hoeveelheid**: voer _3_ in. Deze hoeveelheid is kleiner dan het verwachte aantal. Stel dat u, als ontvangstmedewerker, geen tijd hebt om alle hoeveelheden voor deze lading te registreren. Verderop in deze procedure registreert u de resterende artikelen door deze stap te herhalen en het veld **Hoeveelheid** in te stellen op _2_.
 
 1. Ga verder met de werkstroom en laat alle andere velden leeg of stel deze in op de standaardwaarden, totdat het apparaat u informeert dat het werk is voltooid.
 1. Ga in de webclient naar **Magazijnbeheer \> Ladingen \> Alle ladingen**.
-1. Zoek in de lijst de lading die u zojuist hebt ontvangen en selecteer de waarde van de **Lading-id** om de lading te openen. Merk op dat de ladingrecord de waarde van de **Ladingsstatus** blijft staan op _Verzonden_ , maar de waarde voor **Hoeveelheid werk gemaakt** op de ladingregel wordt gewijzigd in _3_.
+1. Zoek in de lijst de lading die u zojuist hebt ontvangen en selecteer de waarde van de **Lading-id** om de lading te openen. Merk op dat de ladingrecord de waarde van de **Ladingsstatus** blijft staan op _Verzonden_, maar de waarde voor **Hoeveelheid werk gemaakt** op de ladingregel wordt gewijzigd in _3_.
 1. Selecteer in het actievenster op het tabblad **Verzenden en ontvangen** de optie **Ontvangen \> Productontvangst**. Klik op **Ja** als u wordt gevraagd de actie te bevestigen.
 1. Bekijk in het dialoogvenster **Productontvangst boeken** de weergegeven waarden maar wijzig deze niet en selecteer vervolgens **OK**.
 1. U keert terug naar de pagina **Ladingdetails** voor de geselecteerde lading. Let op de volgende punten:
@@ -473,8 +473,8 @@ Voor dit scenario zal de ontvangstmedewerker de inkomende hoeveelheid registrere
 1. Selecteer de menuoptie _Artikelontvangst laden_ die u voor dit scenario hebt gemaakt.
 1. Voer de volgende waarden in aan de hand van de instructies voor gegevensinvoer op het scherm. (De volgorde kan variëren, afhankelijk van het mobiele apparaat of de emulator die u gebruikt.)
 
-    - **Lading** : voer de id in van de tweede lading die u eerder hebt gemaakt.
-    - **Artikel** : voer _A0001_ in. Dit is het artikel dat wordt verwacht voor deze lading.
-    - **Hoeveelheid** : geef _7_ op. Dit is de resterende hoeveelheid die de leverancier mag leveren als onderdeel van de totale inkooporderhoeveelheid van 12 (waarbij 10 de oorspronkelijke orderhoeveelheid is en 2 de toegestane meerleveringshoeveelheid van 20 procent). Houd er rekening mee dat 5 stuks al zijn geregistreerd voor de eerste lading.
+    - **Lading**: voer de id in van de tweede lading die u eerder hebt gemaakt.
+    - **Artikel**: voer _A0001_ in. Dit is het artikel dat wordt verwacht voor deze lading.
+    - **Hoeveelheid**: geef _7_ op. Dit is de resterende hoeveelheid die de leverancier mag leveren als onderdeel van de totale inkooporderhoeveelheid van 12 (waarbij 10 de oorspronkelijke orderhoeveelheid is en 2 de toegestane meerleveringshoeveelheid van 20 procent). Houd er rekening mee dat 5 stuks al zijn geregistreerd voor de eerste lading.
 
 De tweede lading is nu bijgewerkt met de hoeveelheid van 7 en de productontvangst kan worden bijgewerkt op basis van deze hoeveelheid.

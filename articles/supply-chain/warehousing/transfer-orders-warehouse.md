@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
 ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017478"
+ms.locfileid: "4425825"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Magazijnen voor overboekingsorders instellen 
 
@@ -51,5 +51,5 @@ Met magazijnniveaus kunt u een hiërarchie maken die transferorders tussen magaz
 U moet ook de doorlooptijd voor het transport tussen de magazijnen instellen op de pagina **Transportdagen**. 
 1. Ga naar **Voorraadbeheer > instellingen > Distributie > Transportdagen**.
 2. Selecteer in het veld **Plaats van ontvangst** **Magazijn**.
-3. Selecteer het **Magazijn van verzending** , **Magazijn van ontvangst** , en **Transportdagen**. 
+3. Selecteer het **Magazijn van verzending**, **Magazijn van ontvangst**, en **Transportdagen**. 
 4. (Optioneel) U kunt ook de transporttijd, afhankelijk van de leveringsmethode, onder het tabblad **Transportdagen per leveringsmethode** instellen.

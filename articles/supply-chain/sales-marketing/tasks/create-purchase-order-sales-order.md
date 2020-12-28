@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4576e442c2f270932e20472a6c340dcac6d45246
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018693"
+ms.locfileid: "4425842"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Een inkooporder maken op basis van een verkooporder
 
@@ -63,7 +63,7 @@ Deze procedure toont u hoe u een inkooporder maakt op basis van een verkooporder
 ## <a name="review-purchase-orders-created-from-sales-orders"></a>Inkooporders controleren die werden gemaakt op basis van verkooporders
 1. Klik in het **actievenster** op **Algemeen**.
 2. Klik op **Gerelateerde orders**. De pagina **Gerelateerde orders** toont alle orders die met de verkooporder werden gemaakt. In dit voorbeeld zijn er twee inkooporders gegenereerd voor twee verschillende leveranciers. 
-3. Klik hier om de koppeling in het veld **Inkooporder** te volgen. Elke inkooporderregel wordt gekoppeld aan de verkooporderregel die heeft geleid tot de inkoop. De relatie met de verkooporder wordt opgegeven op het tabblad **Product** in het sneltabblad **Regeldetails** , in de velden **Verwijzingstype** , **Verwijzingsnummer** en **Verwijzingspartij**.  
+3. Klik hier om de koppeling in het veld **Inkooporder** te volgen. Elke inkooporderregel wordt gekoppeld aan de verkooporderregel die heeft geleid tot de inkoop. De relatie met de verkooporder wordt opgegeven op het tabblad **Product** in het sneltabblad **Regeldetails**, in de velden **Verwijzingstype**, **Verwijzingsnummer** en **Verwijzingspartij**.  
 4. Vouw de sectie **Regeldetails** uit of samen.
 5. Klik op het tabblad **Product**.
     - De **verwijzingspartij** garandeert dat de kosten van de huidige inkoop worden doorbelast in de bijgevoegde verkooporder.  

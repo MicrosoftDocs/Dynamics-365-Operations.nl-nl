@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: ca7a5d88de4308d7be9c1bc749b9dbf1da027c2c
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3208818"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425652"
 ---
 # <a name="work-orders-and-fixed-assets"></a>Werkorders en vaste activa
 
@@ -49,7 +49,7 @@ De volgende procedure beschrijft de relatie tussen activa, werkorders, projecten
 
 ![Figuur 3](media/26-work-orders.png)
 
-3. Wanneer u werkorderprojectgroepen op het tabblad **Projectgroep** van de pagina **Projectinstellingen werkorder** instelt (**Activabeheer** > **Instellen** > **Werkorders** > **Projectinstellingen**Projectgroep), maakt u een relatie tussen het werkordertype dat wordt gebruikt voor investeringen en de projectgroep die voor investeringen is gemaakt op de pagina **Projectgroepen** van de module **Projectbeheer en boekhouding** (**Projectbeheer en boekhouding** > **Instellen** > **Boeking** > **Projectgroepen**).
+3. Wanneer u werkorderprojectgroepen op het tabblad **Projectgroep** van de pagina **Projectinstellingen werkorder** instelt (**Activabeheer** > **Instellen** > **Werkorders** > **Projectinstellingen** Projectgroep), maakt u een relatie tussen het werkordertype dat wordt gebruikt voor investeringen en de projectgroep die voor investeringen is gemaakt op de pagina **Projectgroepen** van de module **Projectbeheer en boekhouding** (**Projectbeheer en boekhouding** > **Instellen** > **Boeking** > **Projectgroepen**).
 
 ![Figuur 4](media/27-work-orders.png)
 

@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015062"
+ms.locfileid: "4425756"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Prestaties van planningsengine verbeteren
 
@@ -53,9 +53,9 @@ Om inzicht te krijgen in de prestaties van een bepaalde instelling, is het belan
 
 Het basisproces voor het plannen van een order bestaat uit drie hoofdstappen:
 
-- **Gegevens laden** : hier worden de X++-gegevensmodellen omgezet in het interne gegevensmodel van de engine in de vorm van taken en beperkingen.
-- **Planning** : dit is de hoofdbron voor de planning waarbij het opgegeven model en de beperkingen worden verwerkt en een resultaat wordt gegenereerd. Tijdens dit proces zal de engine waar nodig de werktijdinformatie en bestaande capaciteitsreserveringen opvragen van X++.
-- **Gegevens opslaan** : de engine resulteert in de vorm van reserveringstijdvakken voor taakcapaciteit en wordt verwerkt door X++-code om capaciteitsreserveringen op te slaan en de begin- en eindtijd van de taken/bewerking/order bij te werken.
+- **Gegevens laden**: hier worden de X++-gegevensmodellen omgezet in het interne gegevensmodel van de engine in de vorm van taken en beperkingen.
+- **Planning**: dit is de hoofdbron voor de planning waarbij het opgegeven model en de beperkingen worden verwerkt en een resultaat wordt gegenereerd. Tijdens dit proces zal de engine waar nodig de werktijdinformatie en bestaande capaciteitsreserveringen opvragen van X++.
+- **Gegevens opslaan**: de engine resulteert in de vorm van reserveringstijdvakken voor taakcapaciteit en wordt verwerkt door X++-code om capaciteitsreserveringen op te slaan en de begin- en eindtijd van de taken/bewerking/order bij te werken.
 
 ## <a name="load-data-into-the-engine"></a>Gegevens in de engine laden
 
@@ -145,8 +145,8 @@ De engine zelf is in feite een gespecialiseerde beperkingsoplosser waaraan aange
 
 Een variabele vertegenwoordigt een domein van mogelijke waarden. Planningsengine heeft twee typen variabelen:
 
-- **DateTime-variabele** : heeft een domein van alle datums en tijden en het domein kan worden beperkt door de onder- en bovengrens voor de tijd van de variabele dichter bij elkaar te plaatsen.
-- **Resource-variabele** : heeft een domein van toepasselijke resources en het domein kan worden beperkt door resources uit de lijst te verwijderen.
+- **DateTime-variabele**: heeft een domein van alle datums en tijden en het domein kan worden beperkt door de onder- en bovengrens voor de tijd van de variabele dichter bij elkaar te plaatsen.
+- **Resource-variabele**: heeft een domein van toepasselijke resources en het domein kan worden beperkt door resources uit de lijst te verwijderen.
 
 #### <a name="constraint"></a>Beperking
 
@@ -180,7 +180,7 @@ De beperkingsoplossing is niet bekend met de specifieke planningsalgoritmen. De 
 
 Een groot deel van de (interne) beperkingen in de engine bepaalt de werktijd en capaciteit van een resource. De taak is in wezen het laten doorlopen van de werktijden voor een resource vanaf een bepaald punt in een bepaalde richting en het zoeken van een interval waarin de vereiste capaciteit (tijd) voor de taken kan passen.
 
-Hiervoor moet de engine de werktijden van een resource kennen. In tegenstelling tot de gegevens van het hoofdmodel ziijn de werktijden *lazy loaded* , wat betekent dat ze naar behoefte in de engine worden geladen. De reden hiervoor is dat een kalender in Supply Chain Management vaak werktijden voor een zeer lange tijd bevat en dat er meestal veel kalenders zijn, zodat de hoeveelheid gegevens te groot zou zijn om vooraf te worden geladen.
+Hiervoor moet de engine de werktijden van een resource kennen. In tegenstelling tot de gegevens van het hoofdmodel ziijn de werktijden *lazy loaded*, wat betekent dat ze naar behoefte in de engine worden geladen. De reden hiervoor is dat een kalender in Supply Chain Management vaak werktijden voor een zeer lange tijd bevat en dat er meestal veel kalenders zijn, zodat de hoeveelheid gegevens te groot zou zijn om vooraf te worden geladen.
 
 Kalendergegevens worden door de engine in segmenten aangevraagd door de X++-klassemethode `WrkCtrSchedulingInteropDataProvider.getWorkingTimes` aan te roepen. De aanvraag is voor een specifieke kalender-id binnen een bepaald tijdsinterval. Afhankelijk van de status van de servercache in Supply Chain Management, kan elk van deze aanvragen een aantal databaseaanroepen opleveren, wat veel tijd in beslag neemt (vergeleken met de zuivere rekentijd). Als de kalender zeer complexe werktijddefinities bevat met veel werktijdintervallen per dag, duurt het laden nog langer.
 
@@ -188,7 +188,7 @@ Wanneer de werktijdgegevens in de planningsengine worden geladen, worden deze in
 
 ### <a name="finite-capacity"></a>Eindige capaciteit
 
-Wanneer u eindige capaciteit gebruikt, worden de werktijdvakken uit de kalender gesplitst en verminderd op basis van de bestaande capaciteitsreserveringen. Deze reserveringen worden ook met dezelfde `WrkCtrSchedulingInteropDataProvider`-klasse opgehaald als de kalenders, maar gebruiken in plaats daarvan de `getCapacityReservations`-methode. Bij het plannen tijdens de hoofdplanning wordt rekening gehouden met de reserveringen voor het specifieke hoofdplan en als deze zijn ingeschakeld op de pagina **Parameters hoofdplanning** , worden de reserveringen van gefiatteerde productieorders eveneens opgenomen. Bij het plannen van een productieorder is het ook een optie om reserveringen van bestaande geplande orders op te nemen, hoewel dit niet zo gebruikelijk is als de andere methode.
+Wanneer u eindige capaciteit gebruikt, worden de werktijdvakken uit de kalender gesplitst en verminderd op basis van de bestaande capaciteitsreserveringen. Deze reserveringen worden ook met dezelfde `WrkCtrSchedulingInteropDataProvider`-klasse opgehaald als de kalenders, maar gebruiken in plaats daarvan de `getCapacityReservations`-methode. Bij het plannen tijdens de hoofdplanning wordt rekening gehouden met de reserveringen voor het specifieke hoofdplan en als deze zijn ingeschakeld op de pagina **Parameters hoofdplanning**, worden de reserveringen van gefiatteerde productieorders eveneens opgenomen. Bij het plannen van een productieorder is het ook een optie om reserveringen van bestaande geplande orders op te nemen, hoewel dit niet zo gebruikelijk is als de andere methode.
 
 Door het gebruik van eindige capaciteit zal de planning om een aantal redenen langer duren:
 
@@ -260,10 +260,10 @@ Als u specifieke informatie over de invoer en uitvoer van het planningsproces wi
 
 Selecteer op deze pagina de optie **Logboekregistratie inschakelen** in het actievenster. Voer vervolgens de planning voor de productieorder uit. Keert, wanneer u klaar bent, terug naar de pagina **Traceringscockpit plannen** en selecteer **Logboekregistratie uitschakelen** in het actievenster. Vernieuw de pagina. Er wordt nu een een nieuwe regel weergegeven in het raster. Selecteer de nieuwe regel en selecteer **Downloaden** in het actievenster. Hierdoor krijgt u een gecomprimeerde ZIP-map met de volgende bestanden:
 
-- **Log. txt** : dit is het logboekbestand waarin de stappen worden beschreven die de engine doorloopt. Het is zeer uitgebreid en kan een beetje overweldigend zijn, maar wanneer dit wordt gebruikt als onderdeel van het experimenteren met de route-instelling om prestatieproblemen op te lossen, is het eerste wat er moet worden gezocht, het verschil in de tijd tussen de eerste en de laatste regel, omdat u hierdoor precies kunt bepalen hoe lang de planner heeft gewerkt.
-- **XmlModel.xml** : dit bevat het model dat is ingebouwd in X++ en waarop de engine actief is. De `JobId` die wordt gebruikt in het bestand komt overeen met de `RecId`-brontabel met de taken (`ReqRouteJob` of `ProdRouteJob`). Waar u standaard naar kunt kijken in dit bestand is of de datums die zijn opgegeven in `ConstraintJobStartsAt` en `ConstraintJobEndsAt` zoals verwacht zijn, dat de `JobGoal`-eigenschap juist is ingesteld en dat de taken aan elkaar zijn gerelateerd via de `JobLink`-beperkingen.
-- **XmlSlots.xml** : dit bevat alle werktijden en capaciteitsreserveringen die de engine heeft aangevraagd. De werktijden en reserveringen van de kalender worden alleen aangevraagd door de engine voor de tijdsperioden waarin deze de taken (en een extra buffer) probeert te plaatsen, dus als het bestand tijden ver in de toekomst bevat, kan dit een indicatie zijn van een probleem met de instelling. In de `ResourceProperty`-knooppunten wordt voor elke resource aangegeven aan welke resourcegroep en -capaciteiten ze zijn gekoppeld gedurende welke perioden.
-- **Result.xml** : dit bevat het resultaat van de planningsuitvoering.
+- **Log. txt**: dit is het logboekbestand waarin de stappen worden beschreven die de engine doorloopt. Het is zeer uitgebreid en kan een beetje overweldigend zijn, maar wanneer dit wordt gebruikt als onderdeel van het experimenteren met de route-instelling om prestatieproblemen op te lossen, is het eerste wat er moet worden gezocht, het verschil in de tijd tussen de eerste en de laatste regel, omdat u hierdoor precies kunt bepalen hoe lang de planner heeft gewerkt.
+- **XmlModel.xml**: dit bevat het model dat is ingebouwd in X++ en waarop de engine actief is. De `JobId` die wordt gebruikt in het bestand komt overeen met de `RecId`-brontabel met de taken (`ReqRouteJob` of `ProdRouteJob`). Waar u standaard naar kunt kijken in dit bestand is of de datums die zijn opgegeven in `ConstraintJobStartsAt` en `ConstraintJobEndsAt` zoals verwacht zijn, dat de `JobGoal`-eigenschap juist is ingesteld en dat de taken aan elkaar zijn gerelateerd via de `JobLink`-beperkingen.
+- **XmlSlots.xml**: dit bevat alle werktijden en capaciteitsreserveringen die de engine heeft aangevraagd. De werktijden en reserveringen van de kalender worden alleen aangevraagd door de engine voor de tijdsperioden waarin deze de taken (en een extra buffer) probeert te plaatsen, dus als het bestand tijden ver in de toekomst bevat, kan dit een indicatie zijn van een probleem met de instelling. In de `ResourceProperty`-knooppunten wordt voor elke resource aangegeven aan welke resourcegroep en -capaciteiten ze zijn gekoppeld gedurende welke perioden.
+- **Result.xml**: dit bevat het resultaat van de planningsuitvoering.
 
 De traceringsfunctionaliteit kan aanzienlijke prestatieoverhead toevoegen, dus gebruik deze functie alleen op een gecontroleerde manier voor het onderzoeken van de planning van specifieke orders. Als deze tijdens een hoofdplanning wordt ingeschakeld, wordt snel de maximale grootte bereikt en wordt gestopt.
 
@@ -305,7 +305,7 @@ Het gebruik van eindige capaciteit vereist dat de engine de capaciteitsgegevens 
 
 ### <a name="setting-hard-links"></a>Harde koppelingen instellen
 
-Het standaardkoppelingstype van de route is *zacht* , wat betekent dat een tijdshiaat is toegestaan tussen de eindtijd van de ene bewerking en het begin van de volgende. Dit kan een vervelend effect hebben dat, als materialen of capaciteit niet erg lang beschikbaar zijn voor een van de bewerkingen, de productie mogelijk een behoorlijke tijd inactief kan zijn, waardoor de hoeveelheid onderhanden werk toeneemt. Dit gebeurt niet met harde koppelingen, omdat het einde en begin perfect moeten zijn afgestemd. Als u echter harde koppelingen instelt, is het planningsprobleem lastiger omdat de kruisingen voor werktijden en capaciteit moeten worden berekend voor de twee resources van de bewerkingen. Als er ook parallelle bewerkingen zijn, wordt er een aanzienlijke tijd toegevoegd. Als de resources van de twee bewerkingen verschillende kalenders hebben die helemaal niet overlappen, is het probleem onoplosbaar.
+Het standaardkoppelingstype van de route is *zacht*, wat betekent dat een tijdshiaat is toegestaan tussen de eindtijd van de ene bewerking en het begin van de volgende. Dit kan een vervelend effect hebben dat, als materialen of capaciteit niet erg lang beschikbaar zijn voor een van de bewerkingen, de productie mogelijk een behoorlijke tijd inactief kan zijn, waardoor de hoeveelheid onderhanden werk toeneemt. Dit gebeurt niet met harde koppelingen, omdat het einde en begin perfect moeten zijn afgestemd. Als u echter harde koppelingen instelt, is het planningsprobleem lastiger omdat de kruisingen voor werktijden en capaciteit moeten worden berekend voor de twee resources van de bewerkingen. Als er ook parallelle bewerkingen zijn, wordt er een aanzienlijke tijd toegevoegd. Als de resources van de twee bewerkingen verschillende kalenders hebben die helemaal niet overlappen, is het probleem onoplosbaar.
 
 Het is raadzaam om harde koppelingen alleen te gebruiken wanneer dat strikt noodzakelijk is en zorgvuldig te bedenken of het nodig is voor elke bewerking van de route.
 
@@ -321,7 +321,7 @@ Omdat de engine werkt door tijdvakken één voor één te onderzoeken op capacit
 
 ### <a name="large-or-none-scheduling-timeouts"></a>Grote (of geen) planningstime-outs
 
-U kunt de prestaties van de planningsengine optimaliseren met behulp van parameters op de pagina **Planningsparameters**. De instellingen **Planningstime-out ingeschakeld** en **Planningsoptimalisatie ingeschakeld** moeten altijd zijn ingesteld op **Ja**. Als de waarde is ingesteld op **Nee** , kan de planning mogelijk oneindig worden uitgevoerd als er een niet-bruikbare route met veel opties is gemaakt.
+U kunt de prestaties van de planningsengine optimaliseren met behulp van parameters op de pagina **Planningsparameters**. De instellingen **Planningstime-out ingeschakeld** en **Planningsoptimalisatie ingeschakeld** moeten altijd zijn ingesteld op **Ja**. Als de waarde is ingesteld op **Nee**, kan de planning mogelijk oneindig worden uitgevoerd als er een niet-bruikbare route met veel opties is gemaakt.
 
 De waarde voor **Maximale planningstijd per reeks** bepaalt hoeveel seconden kunnen worden besteed aan het zoeken naar een oplossing voor één reeks (in de meeste gevallen komt een reeks overeen met een enkele order). De waarde die u hier kunt gebruiken, is afhankelijk van de complexiteit van de route en de instellingen, zoals een eindige capaciteit, maar ongeveer 30 seconden is een goed uitgangspunt.
 

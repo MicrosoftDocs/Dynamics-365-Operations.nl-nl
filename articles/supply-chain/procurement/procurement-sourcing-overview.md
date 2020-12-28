@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a7de9430ddcc2499627bacfa01b4dc7fd5546a4d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018877"
+ms.locfileid: "4425770"
 ---
 # <a name="procurement-and-sourcing-overview"></a>Overzicht van inkoopbeheer
 
@@ -35,13 +35,13 @@ De inkoop en sourcing dekken alle stappen van het identificeren van een behoefte
 
 ## <a name="identifying-a-need-for-product-and-services"></a>Een behoefte aan een product en services bepalen
 
-De vereiste voor producten of services kan het resultaat zijn van *inkopen* , bijvoorbeeld, wanneer een werknemer een product vereist. *Productcatalogi* kunnen worden ingesteld om de selectie te begeleiden van beschikbare producten waaruit kan worden geselecteerd of er kunnen aanvragen worden gedaan van producten die nog niet beschikbaar zijn gemaakt in een catalogus, zodat de inkoopafdeling kan overwegen hoe het product kan worden geleverd.  
+De vereiste voor producten of services kan het resultaat zijn van *inkopen*, bijvoorbeeld, wanneer een werknemer een product vereist. *Productcatalogi* kunnen worden ingesteld om de selectie te begeleiden van beschikbare producten waaruit kan worden geselecteerd of er kunnen aanvragen worden gedaan van producten die nog niet beschikbaar zijn gemaakt in een catalogus, zodat de inkoopafdeling kan overwegen hoe het product kan worden geleverd.  
 
 *Uitgavenlimieten* kunnen worden gebruikt om inkoopuitgaven te beperken en de *inkoopwerkstroom* voegt de optie toe om goedkeuring toe te vereisen voordat wordt besteld. Het is ook mogelijk toewijzing van budgetfondsen op te geven, indien nodig.  
 
 De verwervingsafdeling kiest leveranciers voor vereiste producten en services, en hierbij kan een *offerteaanvraag* naar meerdere potentiële leveranciers worden verzonden. Het is mogelijk om de specificaties van het product te delen dat is aangevraagd en potentiële leveranciers kunnen deze bekijken om te zien of ze een product kunnen leveren dat hieraan voldoet. Leveranciers kunnen hun biedingen retourneren. Vervolgens worden deze door de verwervingsafdeling gecontroleerd, voordat ze de leverancier selecteren van wie ze willen aanschaffen.  
 
-De inkooporders bevatten een optie om een *inkoopquery* te sturen aan de leverancier als alternatief voor een uitgebreider offerteaanvraagproces. De aankoopquery kan worden gebruikt om voorwaarden, zoals prijzen, kortingen en leveringsdatums voor de order plaatsen. Als leveranciers worden ingesteld met de **Leveranciersportal** , wordt de functionaliteit van de aankoopquery uitgeschakeld. In plaats daarvan wordt de order gedeeld in de **Leveranciersportal** en wanneer een *bevestigingsaanvraag* wordt verzonden, kan de leverancier de order direct bevestigen.  
+De inkooporders bevatten een optie om een *inkoopquery* te sturen aan de leverancier als alternatief voor een uitgebreider offerteaanvraagproces. De aankoopquery kan worden gebruikt om voorwaarden, zoals prijzen, kortingen en leveringsdatums voor de order plaatsen. Als leveranciers worden ingesteld met de **Leveranciersportal**, wordt de functionaliteit van de aankoopquery uitgeschakeld. In plaats daarvan wordt de order gedeeld in de **Leveranciersportal** en wanneer een *bevestigingsaanvraag* wordt verzonden, kan de leverancier de order direct bevestigen.  
 
 *Leverancierscatalogi* kunnen worden gebruikt om gegevens te verzamelen over het productassortiment dat leveranciers kunnen leveren. Leveranciers kunnen hun eigen catalogus publiceren, zodat is het eenvoudiger is om de catalogus bijgewerkt te houden. Het is mogelijk om een *goedkeurde leverancierslijst* te koppelen aan een product en dat kan helpen leveranciersselectie te begeleiden wanneer nieuwe inkooporders worden geopend en kan het gebruik voorkomen van onbedoelde leveranciers.
 
@@ -62,11 +62,11 @@ Wanneer u een inkooporder maakt, worden veel van de velden van tevoren ingevuld 
 
 ### <a name="prices-and-discounts"></a>Prijzen en kortingen
 
-De prijzen en kortingen bevatten informatie over de prijzen, kortingen, en de kortingsvoorwaarden die bieden. De prijzen en kortingen kunnen worden weergegeven als *handelsovereenkomsten*. De handelsovereenkomsten bevatten leveranciersprijslijsten met prijzen of kortingen, en hebben een specifieke reeks datums waarvoor de overeenkomst geldig is. De prijzen en kortingen kunnen worden onderhandel en weergegeven in *inkoopovereenkomsten* , met voorwaarden zoals toezeggingen om bepaalde volumes te komen of monetaire bedragen als preconditie voor de overeengekomen voorwaarden. *Kortingsovereenkomsten* kunnen met leveranciers worden gemaakt waarin de inkoop van specifieke producten of groepen producten een korting van de leverancier kan opleveren, afhankelijk van het inkoopbedrag of volume.
+De prijzen en kortingen bevatten informatie over de prijzen, kortingen, en de kortingsvoorwaarden die bieden. De prijzen en kortingen kunnen worden weergegeven als *handelsovereenkomsten*. De handelsovereenkomsten bevatten leveranciersprijslijsten met prijzen of kortingen, en hebben een specifieke reeks datums waarvoor de overeenkomst geldig is. De prijzen en kortingen kunnen worden onderhandel en weergegeven in *inkoopovereenkomsten*, met voorwaarden zoals toezeggingen om bepaalde volumes te komen of monetaire bedragen als preconditie voor de overeengekomen voorwaarden. *Kortingsovereenkomsten* kunnen met leveranciers worden gemaakt waarin de inkoop van specifieke producten of groepen producten een korting van de leverancier kan opleveren, afhankelijk van het inkoopbedrag of volume.
 
 ### <a name="delivery-options"></a>Leveringsopties
 
-Er zijn verschillende opties voor het leveringsproces dat aan een inkooporder is gekoppeld. De bestelde producten kunnen in *afleveringsschema's* worden opgesplitst, waarin de bestelde hoeveelheid kan worden gepland voor levering op verschillende datums. De levering kan ook *directe levering* omvatten, uitgevoerd vanuit een verkooporder, die het genereren van de pakbon op de verkooporder automatiseert op hetzelfde moment dat de productontvangst wordt vastgelegd op de inkooporder. De inkooporders kunnen ook onderdeel zijn van een *intercompany-orderketen* , ook wel intercompany-inkooporders genoemd. Hierin worden producten besteld vanuit een overeenstemmende intercompany-verkooporder. In deze situatie zijn sommige stappen geautomatiseerd over de twee gerelateerde intercompany-orders.
+Er zijn verschillende opties voor het leveringsproces dat aan een inkooporder is gekoppeld. De bestelde producten kunnen in *afleveringsschema's* worden opgesplitst, waarin de bestelde hoeveelheid kan worden gepland voor levering op verschillende datums. De levering kan ook *directe levering* omvatten, uitgevoerd vanuit een verkooporder, die het genereren van de pakbon op de verkooporder automatiseert op hetzelfde moment dat de productontvangst wordt vastgelegd op de inkooporder. De inkooporders kunnen ook onderdeel zijn van een *intercompany-orderketen*, ook wel intercompany-inkooporders genoemd. Hierin worden producten besteld vanuit een overeenstemmende intercompany-verkooporder. In deze situatie zijn sommige stappen geautomatiseerd over de twee gerelateerde intercompany-orders.
 
 ### <a name="supplementary-items"></a>Bijkomende artikelen
 
@@ -92,4 +92,4 @@ Gefactureerde inkooporders leggen de schuld vast in de leveranciersrekening in l
 
 ## <a name="vendor-performance"></a>Leverancierprestaties
 
-De prestaties en de controle van inkopen worden ondersteund met *inkoop- en leveranciersrapporten* , waarin uitgavenanalyses en leveranciersprestatieanalyses zijn opgenomen.
+De prestaties en de controle van inkopen worden ondersteund met *inkoop- en leveranciersrapporten*, waarin uitgavenanalyses en leveranciersprestatieanalyses zijn opgenomen.

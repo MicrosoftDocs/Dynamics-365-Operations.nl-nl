@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015982"
+ms.locfileid: "4425782"
 ---
 # <a name="cycle-counting"></a>Cyclustelling
 
@@ -116,7 +116,7 @@ Als u handmatig cyclustellingswerk wilt aanmaken, kunt u de pagina´s **Cycluste
 Er zijn verscheidene methoden voor het verwerken van cyclustellingswerk met Supply Chain Management op een mobiel apparaat:
 
 -   **Door gebruiker bestuurd** - De werknemer kan een cyclustellingswerk-ID specificeren die de status **Openstaand** heeft.
--   **Systeem-geleid** : Supply Chain Management wijst een cyclustellingswerk-id toe aan de werknemer.
+-   **Systeem-geleid**: Supply Chain Management wijst een cyclustellingswerk-id toe aan de werknemer.
 -   **Groepering van cyclustelling** - De werknemer kan cyclustellingswerk-IDs groeperen die specifiek zijn voor een bepaalde locatie, zone, of een werkpool.
 -   **Plaatscyclustelling** - De werknemer kan artikelen in een magazijnlocatie op elk moment tellen, zonder cyclustelling werk te maken. Om plaatscyclustelling op een locatie uit te voeren, voert de werknemer de locatie-ID in.
 
@@ -124,7 +124,7 @@ In de volgende procedure wordt getoond hoe u plaatscyclustelling kunt uitvoeren 
 
 1.  Op het mobiele apparaat, selecteer het menu item om spot cyclustelling werk uit te voeren.
 2.  Registreer de locatie waar u plaatscyclustelling wilt uitvoeren.
-3.  Registreer en bevestig het artikelnummer en de getelde artikelhoeveelheid. **Opmerking:** De status van het cyclustellingswerk wordt bijgewerkt naar **In afwachting van controle** of **Afgesloten** op de pagina **Alle werk** , afhankelijk van de parameters die zijn ingesteld op de pagina **Werknemer**.
+3.  Registreer en bevestig het artikelnummer en de getelde artikelhoeveelheid. **Opmerking:** De status van het cyclustellingswerk wordt bijgewerkt naar **In afwachting van controle** of **Afgesloten** op de pagina **Alle werk**, afhankelijk van de parameters die zijn ingesteld op de pagina **Werknemer**.
 4.  Optioneel: Herhaal stap 3 voor de resterende artikelen op de locatie en bevestig dat er geen extra artikelen beschikbaar zijn om te tellen.
 
 ## <a name="resolve-cycle-counting-differences"></a>Verschil in cyclustellingen oplossen

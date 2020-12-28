@@ -20,11 +20,11 @@ ms.author: riluan
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: a6e708e4dc818f20fc8d835053da75c2fe9c98f6
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759539"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425424"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>Voorbeelden en logica voor naar ouderdom gerangschikt voorraadrapport
 
@@ -267,7 +267,7 @@ U ziet ook dat de hoeveelheidsdistributie van site 1 afwijkt. In het eerste rapp
 
 Als u de voorraadafsluiting uitvoert voor mei en vervolgens het vorige rapport opnieuw uitvoert, maar het veld **Begindatum** instelt op *31 mei 2020* , zult u de volgende resultaten opmerken:
 
-- De waarden voor **Voorraadwaarde**en **Gemiddelde eenheidskosten** worden bijgewerkt.
+- De waarden voor **Voorraadwaarde** en **Gemiddelde eenheidskosten** worden bijgewerkt.
 - De **Waarde voorhanden voorraad** en alle waarden voor **Bedrag** in elke periodebucket worden dienovereenkomstig bijgewerkt.
 
 Het nieuwe rapport lijkt op het volgende voorbeeld.

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 8bf7c53a6150a2beeca5c6e9b5ab4ea98584158d
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889070"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425425"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorieën van onderhoudstaaktypen en onderhoudstaaktypen, varianten van onderhoudstaaktypen, onderhoudstaakspecialismen en onderhoudscontrolelijsten
 
@@ -100,7 +100,7 @@ Eerst stelt u de vereiste categorieën van onderhoudstaaktypen, varianten van on
 
 Wanneer u regels voor onderhoudscontrolelijsten maakt in het standaard onderhoudstaaktype, moet u een type onderhoudscontrolelijst selecteren. **Variabele** is één type onderhoudscontrolelijst. Deze wordt gebruikt om een mogelijk resultaat te definiëren in een bereik op een onderhoudscontrolelijstregel die is gekoppeld aan een werkorderregel. Met een variabele kunt u een set vooraf gedefinieerde uitkomsten maken zonder een exacte meting te hoeven maken.
 
-**Voorbeeld 1** : u kunt het oliepeil meten door drie waarden te definiëren: **Peil te hoog**, **Peil te laag** en **Peil binnen bereik**. Voor elke waarde definieert u of het resultaat van de waarde **Geslaagd**, **Mislukt**of **Geen**is.
+**Voorbeeld 1** : u kunt het oliepeil meten door drie waarden te definiëren: **Peil te hoog**, **Peil te laag** en **Peil binnen bereik**. Voor elke waarde definieert u of het resultaat van de waarde **Geslaagd**, **Mislukt** of **Geen** is.
 
 **Voorbeeld 2:** U doet een visueel onderzoek van een apparaat om slijtage te beoordelen.
 
@@ -178,12 +178,12 @@ Sjablonen voor onderhoudscontrolelijsten kunnen worden gebruikt als algemene set
     Selecteer **Activabeheer** \> **Instellingen** \> **Taken** \> **Typen onderhoudstaken**, selecteer een type onderhoudstaak en selecteer vervolgens **Standaard typen onderhoudstaken**.
 
 2. Selecteer **Nieuw**.
-3. Selecteer in de velden **Functionele locatie**, **Activatype**, **Fabrikant**, **Model**en **Activum** de gewenste waarden, afhankelijk van hoe specifiek de standaardwaarde van het type onderhoudstaak moet zijn.
+3. Selecteer in de velden **Functionele locatie**, **Activatype**, **Fabrikant**, **Model** en **Activum** de gewenste waarden, afhankelijk van hoe specifiek de standaardwaarde van het type onderhoudstaak moet zijn.
 4. Selecteer in veld **Type onderhoudstaak** een type onderhoudstaak, als dit niet automatisch is ingeschakeld.
 5. Selecteer in de velden **Variant type onderhoudstaak** en **Specialisme** een variant type onderhoudstaak type en een onderhoudstaak specialisme als dat nodig is.
 6. **Prognose** selecteren.
 7. Op de pagina **Standaard type onderhoudstaak prognose** kunt u prognoses maken op uren, artikelen en onkosten. Selecteer **Toevoegen** op de relevante tabbladen en maak selecties om de vereiste prognoses voor het type onderhoudstaak te maken.
-8. Op het tabblad **Artikelprognose** kunt u voorraaddimensies selecteren die op de artikelregel moeten worden weergegeven. Selecteer **Voorraad** \> **Dimensies**, selecteer de dimensies die u wilt weergeven, stel de optie **Instellingen opslaan** op **Ja** en selecteer vervolgens **OK**i.
+8. Op het tabblad **Artikelprognose** kunt u voorraaddimensies selecteren die op de artikelregel moeten worden weergegeven. Selecteer **Voorraad** \> **Dimensies**, selecteer de dimensies die u wilt weergeven, stel de optie **Instellingen opslaan** op **Ja** en selecteer vervolgens **OK** i.
 9. Selecteer op het tabblad **Artikelprognose** **Artikel waar gebruikt** voor een overzicht van waar het artikel op de geselecteerde regel in Activabeheer wordt gebruikt in relatie tot activa, standaardwaarden voor onderhoudstaaktypen, reserveonderdelen en werkorders. 
 
     Het Sneltabblad **Onderhoudsprognose totalen** geeft een overzicht van prognosetotalen. Dit overzicht bevat het totale aantal uren en prognoseregels dat is gemaakt.
@@ -196,7 +196,7 @@ Sjablonen voor onderhoudscontrolelijsten kunnen worden gebruikt als algemene set
 13. Selecteer **Onderhoudscontrolelijst**.
 14. Op de pagina **Standaard controlelijsten voor onderhoudstaken** kunt u regels voor onderhoudscontrolelijsten toevoegen aan het geselecteerde standaard type onderhoudstaak. Selecteer in het Sneltabblad **Regels onderhoudscontrolelijsten** **Nieuw** om een regel voor een onderhoudscontrolelijst toe te voegen.
 
-    Regelnummers worden automatisch ingevoerd in het veld **Regelnummer** om de volgorde van de regels voor onderhoudscontrolelijsten aan te geven. U kunt de regelnummers bewerken als dat nodig is. Nadat u de eerste regel in de onderhoudscontrolelijst hebt gemaakt, selecteert u de regel en drukt u op de toets **pijl-omlaag** om een onderliggende regel toe te voegen. U kunt ook een regel voor onderhoudscontrolelijsten selecteren en vervolgens **Nieuw**selecteren. In dat geval wordt er een nieuwe regel toegevoegd boven de geselecteerde regel in de onderhoudscontrolelijst.
+    Regelnummers worden automatisch ingevoerd in het veld **Regelnummer** om de volgorde van de regels voor onderhoudscontrolelijsten aan te geven. U kunt de regelnummers bewerken als dat nodig is. Nadat u de eerste regel in de onderhoudscontrolelijst hebt gemaakt, selecteert u de regel en drukt u op de toets **pijl-omlaag** om een onderliggende regel toe te voegen. U kunt ook een regel voor onderhoudscontrolelijsten selecteren en vervolgens **Nieuw** selecteren. In dat geval wordt er een nieuwe regel toegevoegd boven de geselecteerde regel in de onderhoudscontrolelijst.
 
 15. Selecteer in veld **Type** het regeltype en voeg vervolgens informatie toe die is gerelateerd aan het type onderhoudscontrolelijst. Zie het gedeelte [Een sjabloon voor onderhoudscontrolelijsten maken](#create-a-maintenance-checklist-template) voor een beschrijving van de beschikbare typen en gerelateerde velden.
 
@@ -216,7 +216,7 @@ Sjablonen voor onderhoudscontrolelijsten kunnen worden gebruikt als algemene set
 20. Klik op **Opslaan** om uw wijzigingen op te slaan.
 21. Ga terug naar de pagina **Standaard type onderhoudstaken**.
 22. Selecteer **Werkomschrijving**.
-23. Selecteer op de pagina **Werkomschrijving** **Bewerken**en voeg vervolgens een omschrijving toe die is gerelateerd aan het geselecteerde standaard type onderhoudstaak.
+23. Selecteer op de pagina **Werkomschrijving** **Bewerken** en voeg vervolgens een omschrijving toe die is gerelateerd aan het geselecteerde standaard type onderhoudstaak.
 24. Selecteer **Opslaan** om de omschrijving op te slaan.
 
     Als u hier een werkomschrijving toevoegt, wordt elke omschrijving overschreven die is ingesteld voor het type onderhoudstaak op de pagina **Typen onderhoudstaken**. Als u hier geen werkomschrijving toevoegt, wordt de omschrijving gebruikt die is ingesteld voor het type onderhoudstaak. Omschrijvingen worden automatisch overgebracht naar werkorders die het type onderhoudstaak of standaard type onderhoudstaak gebruiken.
@@ -264,6 +264,6 @@ Nadat u de vereiste combinaties hebt gemaakt voor het vereiste type onderhoudsta
 In Activabeheer kunt u eventuele wijzigingen in prognoses voor typen onderhoudstaken die betrekking hebben op uurkosten, artikelkosten en onkosten, automatisch bijwerken als ze zijn bijgewerkt in andere modules. Op deze manier zorgt u ervoor dat prognoses van het type onderhoudstaak altijd de laatste kostprijzen gebruiken.
 
 1. Selecteer **Activabeheer** \> **Periodiek** \> **Prognose** \> **Prognose type onderhoudstaken bijwerken**
-2. In het dialoogvenster **Prognose type onderhoudstaken bijwerken**, op het Sneltabblad **Records om op te nemen**, kunt u selecties voor specifieke typen onderhoudstaken toevoegen als u deze nodig hebt. Selecteer **Filter**en selecteer vervolgens **selecteren** om de selecties te maken.
+2. In het dialoogvenster **Prognose type onderhoudstaken bijwerken**, op het Sneltabblad **Records om op te nemen**, kunt u selecties voor specifieke typen onderhoudstaken toevoegen als u deze nodig hebt. Selecteer **Filter** en selecteer vervolgens **selecteren** om de selecties te maken.
 3. Indien nodig kunt u de automatische update op het Sneltabblad **Op de achtergrond uitvoeren** instellen als een batchtaak.
 4. Selecteer **OK** om de update van de prognose te starten.

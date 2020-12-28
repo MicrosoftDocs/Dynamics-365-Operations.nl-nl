@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: cc217f21a5fa70feb9ef9161f3ef2e2b6a333f35
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017754"
+ms.locfileid: "4425843"
 ---
 # <a name="planned-cross-docking"></a>Gepland cross-docken
 
@@ -83,17 +83,17 @@ Gepland cross-docken wordt geïmplementeerd als een boekingsmethode voor lading.
 
         In dit veld wordt gedefinieerd of het werk voor cross-docken de klaarzet/ladinglocaties van de zending moet gebruiken of naar de locatie-instructies moet kijken om zelf een klaarzet-/ladinglocatie te vinden.
 
-    - **Werksjabloon** : Laat dit veld leeg.
+    - **Werksjabloon**: Laat dit veld leeg.
 
         In dit veld wordt de werksjabloon gedefinieerd die moet worden gebruikt bij het maken van cross-dockingwerk.
 
     - **Opnieuw valideren bij ontvangst levering:** *Nee*
 
-        Met deze optie wordt bepaald of de levering opnieuw moet worden gevalideerd tijdens de ontvangst. Als deze optie is ingesteld op *Ja* , worden zowel het maximumtijdvenster als het bereik voor vervaldagen gecontroleerd.
+        Met deze optie wordt bepaald of de levering opnieuw moet worden gevalideerd tijdens de ontvangst. Als deze optie is ingesteld op *Ja*, worden zowel het maximumtijdvenster als het bereik voor vervaldagen gecontroleerd.
 
     - **Tijdvenster valideren:** *Ja*
 
-        Met deze optie wordt bepaald of het maximumtijdvenster moet worden geëvalueerd wanneer een voorraadbron wordt geselecteerd. Als deze optie is ingesteld op *Ja* , worden de velden die zijn gerelateerd aan de maximum- en minimumtijdvensters beschikbaar.
+        Met deze optie wordt bepaald of het maximumtijdvenster moet worden geëvalueerd wanneer een voorraadbron wordt geselecteerd. Als deze optie is ingesteld op *Ja*, worden de velden die zijn gerelateerd aan de maximum- en minimumtijdvensters beschikbaar.
 
     - **Maximumtijdvenster:** *5*
 
@@ -294,7 +294,7 @@ Momenteel hebben beide werk-id's dezelfde doelnummerplaat. Om de volgende stappe
 1. Ga op het mobiele apparaat naar de **Inkomend \> Opslag van inkoop** en voer het nummer van de doelnummerplaat van het werk in.
 1. Voer in het veld **Id** de identificatiecode voor de doelnummerplaat uit de werkdetails in.
 
-    Op de pagina voor cross-dockingverzamelen worden de orderverzamellocatie ( *RECV* ), de doelnummerplaat ( *nummerplaat* ), het artikel ( *A0001* ) en de hoeveelheid ( *3* ) getoond.
+    Op de pagina voor cross-dockingverzamelen worden de orderverzamellocatie (*RECV*), de doelnummerplaat (*nummerplaat*), het artikel (*A0001*) en de hoeveelheid (*3*) getoond.
 
 1. Selecteer **OK**.
 1. Voer in het veld **Doel-NP** een doelnummerplaat in voor de nummerplaat-id die moet worden weggezet (cross-docked) naar de verzendlocatie. U kunt elke gewenste nummerplaat-id selecteren.

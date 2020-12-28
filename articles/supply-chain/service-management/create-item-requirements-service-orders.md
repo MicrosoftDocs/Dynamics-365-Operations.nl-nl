@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 18484b637723cef43cad288c08ddfe53cddf9e03
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978478"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425567"
 ---
 # <a name="create-item-requirements-for-service-orders"></a>Artikelbehoeften voor serviceorders maken 
 
@@ -34,7 +34,7 @@ U kunt een serviceorder maken om services, die u aan uw klanten levert, bij te h
 
 Door een artikelbehoefte te maken in plaats van een artikeltransactie kunt u de levering plannen vlak voordat het artikel werkelijk wordt gebruikt, een inkooporder maken, het artikel opnemen in het handelsovereenkomstframework en de artikelbehoefte opnemen in de productieplanning.
 
-Artikelbehoeften voor serviceorders worden verwerkt via een project. Als u een artikelbehoefte wilt maken voor een serviceorder, moet de serviceorder worden toegewezen aan een project. Nadat u een artikelbehoefte voor een serviceorder hebt gemaakt, kunt u de artikelbehoefte weergeven in het formulier**Projecten** voor het geselecteerde project.
+Artikelbehoeften voor serviceorders worden verwerkt via een project. Als u een artikelbehoefte wilt maken voor een serviceorder, moet de serviceorder worden toegewezen aan een project. Nadat u een artikelbehoefte voor een serviceorder hebt gemaakt, kunt u de artikelbehoefte weergeven in het formulier **Projecten** voor het geselecteerde project.
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>Een artikelbehoefte maken voor een serviceorder
 

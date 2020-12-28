@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 0127cc64688bc7878623b08ef143dfd040484ce0
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018371"
+ms.locfileid: "4425796"
 ---
 # <a name="set-up-consignment"></a>Consignatie instellen
 
@@ -40,7 +40,7 @@ In dit voorbeeldscenario heeft het bedrijf USMF een consignatieovereenkomst met 
 2.  De leverancier wordt geïnformeerd over de verwachte levering. Dit kan op een van drie manieren gebeuren:
     -   Iemand bij USMF verzendt de orderinformatie naar de leverancier.
     -   De leverancier kan ook de verwachte voorhanden voorraad op de klantlocatie bewaken via de interface voor leverancierssamenwerking.
-    -   Iemand bij USMF filtert de gegevens op de pagina **Voorhanden voorraad** , zodat alleen de records voor leverancier US-104 worden weergegeven die de ontvangststatus **Besteld** hebben en verzendt deze informatie naar de leverancier.
+    -   Iemand bij USMF filtert de gegevens op de pagina **Voorhanden voorraad**, zodat alleen de records voor leverancier US-104 worden weergegeven die de ontvangststatus **Besteld** hebben en verzendt deze informatie naar de leverancier.
 3.  De voorraad wordt geleverd van US-104 naar USMF.
 4.  Wanneer het materiaal bij USMF aankomt, wordt de consignatieaanvullingsorder bijgewerkt met een productontvangstbon. Alleen de fysieke hoeveelheid van de voorraad in eigendom van de leverancier wordt geregistreerd. Er worden geen grootboektransacties gemaakt, omdat de voorraad nog eigendom van de leverancier is.
 5.  De leverancier volgt updates van de fysiek voorhanden voorraad door middel van de pagina **Voorhanden consignatievoorraad**.
@@ -77,12 +77,12 @@ Het is niet mogelijk om de hoeveelheden voor consignatieinkooporderregels bij te
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Leverancierssamenwerking in consignatieprocessen
 De interface van de leverancierssamenwerking heeft drie pagina's die gerelateerd zijn aan het proces voor inkomende consignaties:
 
--   **Inkooporders** **die consignatievoorraad verbruiken** : toont gedetailleerde inkooporderinformatie die verband houdt met de eigendomswijziging uit het consignatieproces.
--   **Producten ontvangen uit consignatievoorraad** : toont informatie over de artikelen en hoeveelheden waarvoor productontvangstbonnen zijn bijgewerkt tijdens het proces van de eigendomwijziging.
--   **Voorhanden consignatievoorraad** : toont informatie over de consignatieartikelen waarvan de levering wordt verwacht en de artikelen die al fysiek beschikbaar zijn op de klantlocatie.
+-   **Inkooporders** **die consignatievoorraad verbruiken**: toont gedetailleerde inkooporderinformatie die verband houdt met de eigendomswijziging uit het consignatieproces.
+-   **Producten ontvangen uit consignatievoorraad**: toont informatie over de artikelen en hoeveelheden waarvoor productontvangstbonnen zijn bijgewerkt tijdens het proces van de eigendomwijziging.
+-   **Voorhanden consignatievoorraad**: toont informatie over de consignatieartikelen waarvan de levering wordt verwacht en de artikelen die al fysiek beschikbaar zijn op de klantlocatie.
 
 ## <a name="inventory-owners"></a>Voorraadeigenaren
-Om fysieke binnenkomende consignatievoorraad te kunnen registreren, moet u een leverancier/eigenaar definiëren. Dit doet u op de pagina **Voorraadeigenaar**. Als u een **Leveranciersaccount** selecteert, worden standaardwaarden gegenereerd voor de velden **Naam** en **Eigenaar**. De waarde in het veld **Eigenaar** is zichtbaar voor de leverancier. Het kan nuttig zijn om deze waarde te wijzigen, als de namen van uw leveranciersaccounts niet eenvoudig herkenbaar zijn voor externe partijen. U kunt de waarde in het veld **Eigenaar** bewerken, maar alleen tot het moment dat u de **Voorraadeigenaar** -record opslaat. In het veld **Naam** wordt de naam ingevuld van de partij waaraan de leveranciersaccount is gekoppeld. Deze waarde kan niet worden gewijzigd.
+Om fysieke binnenkomende consignatievoorraad te kunnen registreren, moet u een leverancier/eigenaar definiëren. Dit doet u op de pagina **Voorraadeigenaar**. Als u een **Leveranciersaccount** selecteert, worden standaardwaarden gegenereerd voor de velden **Naam** en **Eigenaar**. De waarde in het veld **Eigenaar** is zichtbaar voor de leverancier. Het kan nuttig zijn om deze waarde te wijzigen, als de namen van uw leveranciersaccounts niet eenvoudig herkenbaar zijn voor externe partijen. U kunt de waarde in het veld **Eigenaar** bewerken, maar alleen tot het moment dat u de **Voorraadeigenaar**-record opslaat. In het veld **Naam** wordt de naam ingevuld van de partij waaraan de leveranciersaccount is gekoppeld. Deze waarde kan niet worden gewijzigd.
 
 [![Voorraadeigenaren](./media/inventory-owners.png)](./media/inventory-owners.png)
 

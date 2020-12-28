@@ -18,11 +18,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9e993190150e2d82088390d8db4b7c5ada2b0161
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018348"
+ms.locfileid: "4425849"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Een consignatieaanvullingsorder maken
 
@@ -33,7 +33,7 @@ In dit onderwerp wordt uitgelegd hoe u een consignatieaanvullingsorder maakt waa
 ## <a name="create-a-consignment-replenishment-order"></a>Een consignatieaanvullingsorder maken
 1. Ga in het navigatievenster naar **Modules > Inkoopbeheer > Consignatie > Consignatieaanvullingsorders**.
 2. Selecteer **Nieuw**.
-3. In het veld **Leveranciersrekening** selecteert u leverancier **US-104** (u moet een leverancier selecteren die als eigenaar wordt vermeld op de pagina **Voorraadeigenaren** ). 
+3. In het veld **Leveranciersrekening** selecteert u leverancier **US-104** (u moet een leverancier selecteren die als eigenaar wordt vermeld op de pagina **Voorraadeigenaren**). 
 4. Selecteer **OK**.
 5. Selecteer **Regel toevoegen**.
 6. Typ `M9211CI` in het veld **Artikelnummer** (u moet een artikel selecteren dat is ingesteld voor consignatievoorraad).

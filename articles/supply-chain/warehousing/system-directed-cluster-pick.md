@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
 ms.openlocfilehash: 0838405bcb5ee0d8e582093fbbd69553228cb2b6
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016028"
+ms.locfileid: "4425834"
 ---
 # <a name="system-directed-cluster-picking"></a>Door systeem gestuurde clusterverzameling
 
@@ -66,18 +66,18 @@ Clusterprofielen bepalen hoe het systeem elk cluster maakt. Als verschillende cl
 2. Selecteer **Nieuw**.
 3. Voer in het veld **Profiel-id van cluster** de tekst **2 positie** in.
 4. Voer in het veld **Naam** de tekst **2 positie** in.
-5. Voer de volgende informatie in op het sneltabblad **Algemeen** :
+5. Voer de volgende informatie in op het sneltabblad **Algemeen**:
 
-    - **Cluster-id maken** : selecteer **Ja**. Met deze optie bepaalt u of de cluster-id automatisch wordt gemaakt door het systeem of dat de gebruiker deze maakt bij het begin van het orderverzamelen. 
-    - **Posities activeren** : selecteer **Ja**. Met deze optie bepaalt u of de positienamen automatisch worden gegenereerd op basis van de instellingen voor positienamen. Als deze optie is ingesteld op **Nee** , wordt de nummerplaat-id gebruikt voor de positie.
+    - **Cluster-id maken**: selecteer **Ja**. Met deze optie bepaalt u of de cluster-id automatisch wordt gemaakt door het systeem of dat de gebruiker deze maakt bij het begin van het orderverzamelen. 
+    - **Posities activeren**: selecteer **Ja**. Met deze optie bepaalt u of de positienamen automatisch worden gegenereerd op basis van de instellingen voor positienamen. Als deze optie is ingesteld op **Nee**, wordt de nummerplaat-id gebruikt voor de positie.
     - **Aantal posities:** selecteer **2**. Dit veld bepaalt het maximum aantal posities dat het cluster kan hebben (het maximum aantal vakken, totes, enzovoort).
-    - **Positienaam** : selecteer **Numeriek** zodat posities worden benoemd op basis van doorlopende nummers. Als u **Alfabetisch** selecteert, worden de posities in alfabetische volgorde benoemd.
-    - **Cluster opsplitsen bij** : selecteer **Wegzetten**. Dit veld bepaalt wanneer het cluster wordt opgesplitst. 
-    - **Verificatietype sorteren** : selecteer **Positie scannen**. Met dit veld bepaalt u of de stap voor wegzetten naar positie wordt geverifieerd.
+    - **Positienaam**: selecteer **Numeriek** zodat posities worden benoemd op basis van doorlopende nummers. Als u **Alfabetisch** selecteert, worden de posities in alfabetische volgorde benoemd.
+    - **Cluster opsplitsen bij**: selecteer **Wegzetten**. Dit veld bepaalt wanneer het cluster wordt opgesplitst. 
+    - **Verificatietype sorteren**: selecteer **Positie scannen**. Met dit veld bepaalt u of de stap voor wegzetten naar positie wordt geverifieerd.
         
 6. Op het sneltabblad **Clustersortering** kunt u sorteercriteria definiëren door een nieuwe regel te maken en de volgende velden informatie op te geven:
 
-    - **Volgnummer** : selecteer **1**. Dit veld bepaalt de volgorde waarop het systeem sorteert. Er wordt automatisch een waarde ingevoerd, maar u kunt desgewenst wijzigen.
+    - **Volgnummer**: selecteer **1**. Dit veld bepaalt de volgorde waarop het systeem sorteert. Er wordt automatisch een waarde ingevoerd, maar u kunt desgewenst wijzigen.
     - **Veldnaam:** voer **WMSLocationId** in. Met dit veld bepaalt u welk veld door de regel wordt gebruikt voor sorteercriteria.
     - **Sorteren:** selecteer **Oplopend**. Met dit veld bepaalt u of de sortering in oplopende of aflopende volgorde wordt uitgevoerd.
 
@@ -88,19 +88,19 @@ Ga als volgt te werk als u een nieuw menu-item voor mobiele apparaten wilt maken
 1. Ga naar **Magazijnbeheer > Instellingen > Mobiel apparaat > Menuopties voor mobiel apparaat**.
 1. Selecteer **Nieuw**.
 1. Voer in de koptekstsectie de volgende informatie in:
-    - **Menuoptie** : SD-cluster
-    - **Titel** : SD-cluster
-    - **Modus** : Werk
-    - **Bestaand werk gebruiken** : Ja
+    - **Menuoptie**: SD-cluster
+    - **Titel**: SD-cluster
+    - **Modus**: Werk
+    - **Bestaand werk gebruiken**: Ja
 
-1. Voer de volgende informatie in op het sneltabblad **Algemeen** :
+1. Voer de volgende informatie in op het sneltabblad **Algemeen**:
     - **Gestuurd door:** Door systeem gestuurde clusterverzameling
-    - **Nummerplaat maken** : Ja
+    - **Nummerplaat maken**: Ja
     - **Clusterprofiel-id:** 2 positie
 
 1. Stel op het sneltabblad **Werkklassen** de geldige werkklasse voor deze menuopdracht voor mobiel apparaten in door de volgende velden in te stellen:
-    - **Werkklasse-id** : Verkoop
-    - **Werkordertype** : Verkooporders
+    - **Werkklasse-id**: Verkoop
+    - **Werkordertype**: Verkooporders
 
 1. Selecteer in het actievenster **Menuopties voor mobiel apparaat** de optie **Door het systeem gestuurde werkreeksquery's** en voer deze stappen uit om een nieuwe systeemgestuurde werkreeksquery op te geven:
     - Selecteer **Nieuw** in het actievenster.
@@ -110,12 +110,12 @@ Ga als volgt te werk als u een nieuw menu-item voor mobiele apparaten wilt maken
 1. Selecteer **Query bewerken** in het actievenster.
 1. Selecteer het tabblad **Sortering**.
 1. Selecteer **Toevoegen** om een nieuwe regel toe te voegen en voer vervolgens het volgende in:
-    - **Tabel** : Werk
+    - **Tabel**: Werk
     - **Afgeleide tabel:** Werk
-    - **Veld** : Werkprioriteit
+    - **Veld**: Werkprioriteit
     - **Zoekrichting:** Oplopend
 1. Selecteer **Toevoegen** om een tweede regel toe te voegen en voer vervolgens het volgende in:
-    - **Tabel** : Werk
+    - **Tabel**: Werk
     - **Afgeleide tabel:** Werk
     - **Veld:** Werk-id
     - **Zoekrichting:** Oplopend
@@ -186,7 +186,7 @@ Voordat u door het systeem gestuurde clusterverzameling kunt instellen, moet u i
     - Selecteer het tabblad **Wave** in het actievenster.
     - Selecteer in de groep **Wave** de optie **Verwerken** om de wave te verwerken en **werk** te maken.
     - Informatieve berichten worden gegenereerd wanneer de verwerking is voltooid, om aan te geven dat er werk is gemaakt en de wave is geboekt.
-1. **Optioneel** : ga naar **Magazijnbeheer > Werk > Werkdetails** om het gemaakte werk weer te geven. Er worden twee verschillende werk-id's gemaakt. Elke werk-id heeft twee orderverzamelregels.
+1. **Optioneel**: ga naar **Magazijnbeheer > Werk > Werkdetails** om het gemaakte werk weer te geven. Er worden twee verschillende werk-id's gemaakt. Elke werk-id heeft twee orderverzamelregels.
 
 ### <a name="run-the-mobile-device-flow"></a>De stroom voor mobiele apparaten uitvoeren
 

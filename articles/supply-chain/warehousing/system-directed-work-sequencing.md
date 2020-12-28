@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 86d396b069a354b8fa7e15793372a8293273d238
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017019"
+ms.locfileid: "4425832"
 ---
 # <a name="system-directed-work-sequencing"></a>Door systeem gestuurde werksequentiëring
 
@@ -130,7 +130,7 @@ Om het scenario te doorlopen met de waarden die in dit onderwerp worden voorgest
     - **Criteria:** *!KLAARZETTEN*
 
         > [!IMPORTANT]
-        > Vergeet niet het uitroepteken ( *!* ) in te voegen vóór *KLAARZETTEN*.
+        > Vergeet niet het uitroepteken (*!*) in te voegen vóór *KLAARZETTEN*.
 
 1. Selecteer **OK** om de query op te slaan en te sluiten.
 1. Selecteer **Opslaan**.
@@ -256,7 +256,7 @@ Vervolgens geeft u elke verkooporder vrij naar het magazijn om het uitgaande wer
 ### <a name="get-work-ids-for-the-work-that-was-created"></a>Werk-id's ophalen voor het gemaakte werk
 
 1. Ga naar **Magazijnbeheer \> Instellingen \> Werk > Werkdetails**.
-1. Filter op het veld **Magazijn** , zodat alleen werk voor magazijn *51* wordt weergegeven.
+1. Filter op het veld **Magazijn**, zodat alleen werk voor magazijn *51* wordt weergegeven.
 1. Er moeten vier werk-id's zijn gemaakt. Noteer de werk-id van elke verkooporder.
 
     | Verkooporder-id | Werk-id | Werkhoeveelheid |
@@ -269,7 +269,7 @@ Vervolgens geeft u elke verkooporder vrij naar het magazijn om het uitgaande wer
 Voordat u de stroom uitvoert op het mobiele apparaat, moet u controleren of alleen het werk dat u zojuist hebt gemaakt de status *Open* heeft voor magazijn *51* en het werkordertype *Verkooporder* heeft. Anders kunnen de resultaten van de test afwijken, omdat de door het systeem gestuurde orderverzameling alle in aanmerking komende werk bevat.
 
 1. Ga naar **Magazijnbeheer \> Werk \> Uitgaand \> Open verkoopwerk**.
-1. Filter in het raster **Open verkoopwerk** op het veld **Magazijn** , zodat alleen werk voor magazijn *51* wordt weergegeven.
+1. Filter in het raster **Open verkoopwerk** op het veld **Magazijn**, zodat alleen werk voor magazijn *51* wordt weergegeven.
 1. Controleer of alleen de vier werk-id's die u eerder hebt gemaakt, worden weergegeven.
 1. Sluit de pagina **Werk**.
 
@@ -300,7 +300,7 @@ Onthoud dat met deze configuratie al het werk wordt vastgelegd dat ten minste é
 
 ## <a name="tips"></a>Tips
 
-De door het systeem gestuurde query's voor werkvolgorde zijn *inclusief*. Het is belangrijk dat u dit voor sommige situaties onthoudt. U wilt bijvoorbeeld dat een bepaalde menuopdracht alleen werkt met de werk eenheid *ea* en u geeft deze beperking op op het tabblad **Bereik** van de query. In dit geval wordt al het werk waarin minstens voor één werkregel de werkeenheid is ingesteld op *ea* naar de werknemer geleid. Daarom kan dit werk ook werk bevatte waarbij werkregels een andere werk eenheid dan *ea* hebben (zoals *doos* of *pallet* ). In de query wordt alleen het werk uitgesloten waarbij op geen enkele regel de werkeenheid is ingesteld op *ea*.
+De door het systeem gestuurde query's voor werkvolgorde zijn *inclusief*. Het is belangrijk dat u dit voor sommige situaties onthoudt. U wilt bijvoorbeeld dat een bepaalde menuopdracht alleen werkt met de werk eenheid *ea* en u geeft deze beperking op op het tabblad **Bereik** van de query. In dit geval wordt al het werk waarin minstens voor één werkregel de werkeenheid is ingesteld op *ea* naar de werknemer geleid. Daarom kan dit werk ook werk bevatte waarbij werkregels een andere werk eenheid dan *ea* hebben (zoals *doos* of *pallet*). In de query wordt alleen het werk uitgesloten waarbij op geen enkele regel de werkeenheid is ingesteld op *ea*.
 
 Daarom werd in het voorbeeld uit dit scenario ook werk-id *4* vastgelegd door de query. Toen deze id werd gemaakt, werden er twee regels toegevoegd: een voor 25 ea en een andere voor 10 ea. Het werk werd nog steeds getoond aan de gebruiker, omdat ten minste één werkregel een hoeveelheid van minder dan 20 ea heeft.
 

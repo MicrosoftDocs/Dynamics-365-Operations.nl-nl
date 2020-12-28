@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 171d3b57333cc325fa675627e4c38f764d89f32c
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018647"
+ms.locfileid: "4425844"
 ---
 # <a name="onboard-vendors"></a>Leveranciers onboarden
 
@@ -34,11 +34,11 @@ Nieuwe leveranciers kunnen worden ingewerkt en geregistreerd als leveranciers in
 Het proces bestaat uit de volgende stappen, waarbij verschillende rollen acties in het systeem uitvoeren.
 
 1. **OData-gegevensbeheer** – Entiteitimport: de eerste aanvraag is de registratieaanvraag van de potentiële leverancier. Deze aanvraag is gewoonlijk afkomstig van een bron die anonieme toegang toestaat, zoals een door een klant gehoste website. Leveranciers kunnen zich aanmelden door algemene gegevens op te geven, zoals de naam van de leverancier, een verantwoording, het organisatienummer en de naam en het e-mailadres van de contactpersoon. De aanvragen worden geïmporteerd via de interface Gegevensbeheer.
-2. **Lijstpagina Aanvraag voor registratie van potentiële leverancier** : op basis van de informatie die is opgegeven in de aanvraag voor registratie van de potentiële leverancier, besluit de inkoopmedewerker of de leverancier moet worden ingewerkt. De inkoopmedewerker analyseert de inkomende aanvraag op de lijstpagina **Aanvragen voor registratie van potentiële leverancier**.
-3. **Workflow Gebruikersbevoegdheden toekennen** : wanneer een inkoopmedewerker de informatie in de inkomende aanvraag heeft geverifieerd en heeft besloten om door te gaan met het onboardingproces, ontvangt de nieuwe gebruiker gebruikersbevoegdheden op basis van de workflow voor gebruikersaanvragen en wordt per e-mail een uitnodiging verzonden om de contactpersoon als een geverifieerde gebruiker van Microsoft Dynamics 365 te accepteren.
+2. **Lijstpagina Aanvraag voor registratie van potentiële leverancier**: op basis van de informatie die is opgegeven in de aanvraag voor registratie van de potentiële leverancier, besluit de inkoopmedewerker of de leverancier moet worden ingewerkt. De inkoopmedewerker analyseert de inkomende aanvraag op de lijstpagina **Aanvragen voor registratie van potentiële leverancier**.
+3. **Workflow Gebruikersbevoegdheden toekennen**: wanneer een inkoopmedewerker de informatie in de inkomende aanvraag heeft geverifieerd en heeft besloten om door te gaan met het onboardingproces, ontvangt de nieuwe gebruiker gebruikersbevoegdheden op basis van de workflow voor gebruikersaanvragen en wordt per e-mail een uitnodiging verzonden om de contactpersoon als een geverifieerde gebruiker van Microsoft Dynamics 365 te accepteren.
 4. **Wizard Leveranciersregistratie** - de contactpersoon van de leverancier meldt zich aan met het nieuwe gebruikersaccount. Hij of zij voltooit een wizard voor het registreren van leveranciers om informatie, zoals adressen, bedrijfsinformatie, inkoopcategorieën en antwoorden op vragenlijst, te verstrekken.
-5. **Goedkeuringsworkflow** : er wordt een leverancieraanvraag met de registratie-informatie gemaakt. Deze leverancieraanvraag wordt verzonden naar een workflow en ter controle en goedkeuring doorgestuurd.
-6. **Een leveranciermodel maken en gebruikersrol wijzigen** : als de leverancieraanvraag wordt goedgekeurd, wordt er een leveranciersrecord gemaakt. De gebruikersaccount van de contactpersoon van de leverancier krijgt toestemming voor leverancierssamenwerking of wordt uitgeschakeld.
+5. **Goedkeuringsworkflow**: er wordt een leverancieraanvraag met de registratie-informatie gemaakt. Deze leverancieraanvraag wordt verzonden naar een workflow en ter controle en goedkeuring doorgestuurd.
+6. **Een leveranciermodel maken en gebruikersrol wijzigen**: als de leverancieraanvraag wordt goedgekeurd, wordt er een leveranciersrecord gemaakt. De gebruikersaccount van de contactpersoon van de leverancier krijgt toestemming voor leverancierssamenwerking of wordt uitgeschakeld.
 
 In de volgende tabel worden de stappen en rollen beschreven die betrokken zijn bij het proces.
 
@@ -103,7 +103,7 @@ Zie voor meer informatie over de configuratie van leverancieraanvragen [Samenwer
 | Leveranciergegevens         | Deze pagina bevat de naam van de leverancier, die automatisch wordt ingevoerd vanuit de oorspronkelijke aanvraag voor registratie van potentiële leveranciers. Daarnaast bevat de pagina het organisatienummer, het telefoonnummer van de leverancier, het faxnummer en e-mailadres, en de leveranciersadressen voor verschillende doeleinden van de leverancier. |
 | Gegevens contactpersoon | Deze pagina bevat de naam van de contactpersoon, die automatisch wordt ingevoerd vanuit de oorspronkelijke aanvraag voor registratie van potentiële leveranciers. De pagina bevat ook het telefoonnummer en e-mailadres van de contactpersoon en de verschillende adressen voor verschillende doeleinden van de contactpersoon. |
 | Bedrijfsgegevens       | Deze pagina bevat belastingregistratienummers (voor verschillende landen of regio's) en informatie over het aantal werknemers. Daarnaast wordt aangegeven of de eigenaar van het bedrijf tot een minderheidsgroep behoort. |
-| Inkoopcategorieën     | Deze pagina bevat de inkoopcategorieën waarvoor de leverancier goedkeuring aanvraagt. De gebruiker kan categorieën in de hiërarchie van inkoopcategorieën selecteren. U kunt configureren hoeveel niveaus worden weergegeven in de hiërarchie bij **Parameters voor inkoopbeheer** &gt; **Leverancierssamenwerking** , onder **Inkoopbeheer** &gt; **Instelling**. |
+| Inkoopcategorieën     | Deze pagina bevat de inkoopcategorieën waarvoor de leverancier goedkeuring aanvraagt. De gebruiker kan categorieën in de hiërarchie van inkoopcategorieën selecteren. U kunt configureren hoeveel niveaus worden weergegeven in de hiërarchie bij **Parameters voor inkoopbeheer** &gt; **Leverancierssamenwerking**, onder **Inkoopbeheer** &gt; **Instelling**. |
 | Vragenlijsten             | De wizard kan een reeks vragenlijsten bevatten voor de leverancier. Vragenlijsten die worden weergegeven in de wizard zijn geconfigureerd op basis van de leverancieraanvraag of per inkoopcategorie. Als vragenlijsten per inkoopcategorie zijn geconfigureerd, bepalen de inkoopcategorieën waarvoor de leverancier goedkeuring vraagt welke vragenlijsten worden weergegeven in de wizard. Op de pagina **Inkoopcategorieën** kunt u een vragenlijst onder de betreffende categorie toevoegen en het type activiteit instellen op **Onboarding van leveranciers**. |
 
 Wanneer de potentiële leverancier de wizard voor leveranciersregistratie voltooit, wordt een leverancieraanvraag gemaakt.

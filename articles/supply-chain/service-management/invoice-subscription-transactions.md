@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c0d12e6b392156931ae2681d2804236305278811
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976838"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425594"
 ---
 # <a name="invoice-subscription-transactions"></a>Abonnementstransacties factureren 
 
@@ -39,7 +39,7 @@ ms.locfileid: "3976838"
 
 4.  Selecteer de tarieftransactie of de tarieftransacties die u wilt factureren en klik vervolgens op het formulier **Functies** \> **Factuurvoorstel** om het formulier **Factuurvoorstellen** te openen.
 
-5.  Klik op **Factuur maken**en voer in het formulier **Factuur maken** de juiste parameters in.
+5.  Klik op **Factuur maken** en voer in het formulier **Factuur maken** de juiste parameters in.
 
 6.  Klik op **OK** om het factuurvoorstel in het formulier **Factuurvoorstellen** te maken.
 

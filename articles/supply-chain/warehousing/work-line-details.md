@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: bcb340b21e06b294a40784bf3a1da71b0daf7655
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015890"
+ms.locfileid: "4425821"
 ---
 # <a name="work-line-details"></a>Details werkregel
 
@@ -121,7 +121,7 @@ Volg deze stappen om verzamelwerk te maken.
 1. Selecteer **Werkregel annuleren** om het dialoogvenster **Te annuleren hoeveelheid** te openen.
 1. Wijzig in het dialoogvenster **Te annuleren hoeveelheid** de waarde in het veld **Hoeveelheid** om de hoeveelheid op te geven die moet worden *afgetrokken van* de hoeveelheid die op dat moment is opgegeven voor de regel. Standaard wordt in het veld **Hoeveelheid** de volledige hoeveelheid weergegeven.
 
-    - Als u de volledige hoeveelheid annuleert, wordt de waarde van de **werkstatus** gewijzigd in _Geannuleerd_ , maar wordt in het veld **Werkhoeveelheid** nog steeds de oorspronkelijke waarde weergegeven.
+    - Als u de volledige hoeveelheid annuleert, wordt de waarde van de **werkstatus** gewijzigd in _Geannuleerd_, maar wordt in het veld **Werkhoeveelheid** nog steeds de oorspronkelijke waarde weergegeven.
     - Als u slechts een deel van de hoeveelheid annuleert, wordt de waarde in het veld **Werkhoeveelheid** bijgewerkt naar de nieuwe waarde, maar verandert de waarde in het veld **Werkstatus** niet.
 
 1. Selecteer **OK** om de wijziging toe te passen en het dialoogvenster te sluiten.

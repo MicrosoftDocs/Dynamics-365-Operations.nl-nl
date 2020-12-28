@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 5a5db915c94cf9a454dc39e9174b3282a3f6bb75
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889476"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425350"
 ---
 # <a name="asset-types"></a>Activatypen
 
@@ -33,7 +33,7 @@ ms.locfileid: "3889476"
 
 In dit onderwerp wordt uitgelegd hoe u activatypen maakt. Ook worden de elementen beschreven die gerelateerd zijn aan activatypen. Activatypen worden gebruikt als algemene categorieën voor activa. Voorbeelden hiervan zijn CNC-machines, meetapparatuur en vrachtwagenmotoren. Activatypen worden gebruikt voor het beheren van de onderhoudstaaktypen (onderhoudstaken), levenscyclusstatussen van activa, tellers, kenmerken van activa, sjablonen voor beoordeling van voorwaarden en activamodellen die voor een activum kunnen worden geselecteerd. Wanneer u een activum maakt, moet u het activatype opgeven.
 
-Voor elk activatype kunnen variaties van de instellingen van het activatype worden gemaakt. Als u bijvoorbeeld een activatype met de naam **Trucks**hebt, kunt u variaties van dat activatype maken voor verschillende activafabrikanten en activamodellen. Voor elke instelling van het activatype kunt u de benodigde reserveonderdelen en onderhoudsplannen toevoegen.
+Voor elk activatype kunnen variaties van de instellingen van het activatype worden gemaakt. Als u bijvoorbeeld een activatype met de naam **Trucks** hebt, kunt u variaties van dat activatype maken voor verschillende activafabrikanten en activamodellen. Voor elke instelling van het activatype kunt u de benodigde reserveonderdelen en onderhoudsplannen toevoegen.
 
 Eerst stelt u de vereiste activatypen in. Vervolgens maakt u de activamodellen die moeten worden gerelateerd aan de activatypen. Tot slot maakt u op de pagina **Standaardwaarden van activatype** alle variaties van activatypen die zijn vereist voor uw apparatuur.
 

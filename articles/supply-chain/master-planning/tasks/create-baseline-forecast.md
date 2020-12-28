@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a1d8fd665ec40efede0a3db8b0c59ac89751a64
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 47e26a48cdde3a6996f4c0a4ca85222c402f44e2
+ms.sourcegitcommit: 436731d8b3889bebfe6f17922b0a31b1994f6796
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3987185"
+ms.lasthandoff: 10/26/2020
+ms.locfileid: "4425883"
 ---
 # <a name="create-a-baseline-forecast"></a>Een basislijnprognose maken
 
@@ -43,7 +43,7 @@ Een productieplanner kan een basislijnprognose maken of door prognosemodellen vo
 7. Sluit de pagina.
 8. Sluit de pagina.
 
-## <a name="set-up-the-demand-forecasting-paramters"></a>De parameters voor vraagprognose instellen
+## <a name="set-up-the-demand-forecasting-parameters"></a>De parameters voor vraagprognose instellen
 1. Ga naar Hoofdplanning > Instellingen > Vraagprognose > Parameters voor vraagprognose.
 2. Vouw de sectie Parameters van prognosealgoritme uit.
 3. Selecteer in het veld Strategie voor aanmaken van vraagprognose de optie Kopieer over historische vraag.

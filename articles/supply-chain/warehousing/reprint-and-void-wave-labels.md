@@ -4,7 +4,7 @@ description: In dit onderwerp wordt uitgelegd hoe u bestaande wavelabels ongeldi
 author: GarmMSFT
 manager: PJacobse
 ms.date: 07/09/2020
-ms.topic: reprint-and-void-wave-labels
+ms.topic: article
 ms.service: dynamics-ax-applications
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSWaveTableListPage, WHSWorkException, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelLayout, WHSWaveLabelType, WHSWaveLabelTemplateGroup
 audience: Application User
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: af92334af28824b3fcebde5f046bd7c6da459885
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 0efa9400a3bf29e4e0dd56d9138cf8c3825556c7
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016649"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4425886"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Wavelabels opnieuw afdrukken en ongeldig maken
 
@@ -118,7 +118,7 @@ Voer de volgende stappen uit om een nieuwe verzameling menuopdrachten te maken v
     - **Systeemgroeperingslabel:** *ShipmentID*
     - **Afdrukmodus:** *Opsomming*
 
-1. Selecteer in het actievenster de **veldlijst** en gebruik vervolgens de vervolgkeuzelijsten om de velden te selecteren die moeten worden weergegeven zodat werknemers de juiste labelrollen kunnen opgeven (bijvoorbeeld *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* en *NumberOfLabels* ).
+1. Selecteer in het actievenster de **veldlijst** en gebruik vervolgens de vervolgkeuzelijsten om de velden te selecteren die moeten worden weergegeven zodat werknemers de juiste labelrollen kunnen opgeven (bijvoorbeeld *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId* en *NumberOfLabels*).
 1. Sluit de pagina.
 1. Maak een vierde menuopdracht en stel de volgende waarden in:
 
@@ -131,7 +131,7 @@ Voer de volgende stappen uit om een nieuwe verzameling menuopdrachten te maken v
     - **Systeemgroeperingslabel:** *ShipmentID*
     - **Afdrukmodus:** *Laatste juiste wavelabel-id*
 
-1. Selecteer in het actievenster de **veldlijst** en gebruik vervolgens de vervolgkeuzelijsten om de velden te selecteren die moeten worden weergegeven zodat werknemers de juiste labelrollen kunnen opgeven (bijvoorbeeld *LabelItemId* , *LabelItemName* , *InventQty* , *LabelUnitId* en *NumberOfLabels* ).
+1. Selecteer in het actievenster de **veldlijst** en gebruik vervolgens de vervolgkeuzelijsten om de velden te selecteren die moeten worden weergegeven zodat werknemers de juiste labelrollen kunnen opgeven (bijvoorbeeld *LabelItemId*, *LabelItemName*, *InventQty*, *LabelUnitId* en *NumberOfLabels*).
 1. Sluit de pagina.
 
 #### <a name="set-up-the-mobile-device-menu"></a>Het menu voor het mobiele apparaat instellen

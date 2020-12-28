@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: 8e92759bd567a973a0d3bce7b8b99be1edbc0e1e
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826426"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425429"
 ---
 # <a name="pay-based-on-registrations"></a>Salaris op basis van registraties
 
@@ -406,7 +406,7 @@ Nadat de registraties zijn overgeboekt, worden de volgende overgeboekte registra
 | Onderbreking (betaald)          | 0,50 | 0,00                |
 | Uitklokken             | 0,00 | 0,00                |
 
-De berekening van de kostprijs per uur voor de betaalde onderbreking is afhankelijk van een instelling voor de directe loonkosten. Selecteer **Tijd en aanwezigheid** &gt; **Instellingen** &gt; **Parameters in Tijd en aanwezigheid**. Op het tabblad **Kostprijs** onder **Directe loonkosten**in het veld **Standaardtijd** kunt u **Ja**, **Nee** of **Toewijzing** selecteren.
+De berekening van de kostprijs per uur voor de betaalde onderbreking is afhankelijk van een instelling voor de directe loonkosten. Selecteer **Tijd en aanwezigheid** &gt; **Instellingen** &gt; **Parameters in Tijd en aanwezigheid**. Op het tabblad **Kostprijs** onder **Directe loonkosten** in het veld **Standaardtijd** kunt u **Ja**, **Nee** of **Toewijzing** selecteren.
 
 - **Ja**: deze waarde wordt gebruikt voor het voorgaande voorbeeld. De kosten worden toegewezen aan de productie- of projectactiviteit die gelijktijdig wordt uitgevoerd met de activiteit voor de betaalde onderbreking. Deze activiteit is in het voorbeeld de productietaak voor order 4712. Zoals u ziet, is de kostprijs per uur voor de betaalde onderbreking 0 (nul) en deze is toegewezen aan de taak die gelijktijdig met de onderbreking wordt uitgevoerd.
 

@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 49025d0aa0f6a627b816a43dd4260449942b400c
-ms.sourcegitcommit: ae04c7cb48f7ecafe71bbe77a0f97715e6290991
+ms.openlocfilehash: 54ad180b7f4691ead3563b077eadadc3b9b20588
+ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3973471"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4425889"
 ---
 # <a name="get-started-with-planning-optimization"></a>Aan de slag met Planningsoptimalisatie
 
@@ -67,6 +67,8 @@ Als u Planningsoptimalisatie wilt gebruiken, moet u de invoegtoepassing Planning
 1. Op het sneltabblad **Invoegtoepassingen voor omgeving** zou u moeten zien dat planningsoptimalisatie wordt geïnstalleerd.
 1. Na een paar minuten moet **Installeren** veranderen in **Geïnstalleerd** (u moet de pagina mogelijk vernieuwen). Wanneer Planningsoptimalisering is geïnstalleerd, kunt u het activeren in Dynamics 365 Supply Chain Management.
 
+Het hoofddoel van het installeren van de invoegtoepassing Planningsoptimalisatie is het verbinden van de service en de omgeving. Daarom moet u de invoegtoepassing afzonderlijk installeren in elke omgeving waarin u Planningsoptimalisatie wilt gebruiken, ongeacht eventuele code die tussen de omgevingen wordt verplaatst.
+
 ### <a name="planning-optimization-integration"></a>Integratie van Planningsoptimalisatie
 
 Als u wilt configureren of de invoegtoepassing Planningsoptimalisatie moet worden gebruikt voor hoofdplanning, gaat u naar **Hoofdplanning** \> **Instellen** \> **Integratie van Planningsoptimalisatie**.
@@ -95,7 +97,7 @@ De instelling van de optie **Planningsoptimalisatie gebruiken** bepaalt welke pl
 
 ### <a name="integration-with-the-setup"></a>Integratie met de setup
 
-Als de Planningsoptimalisatie is ingeschakeld, wordt de hoofdplanning uitgevoerd met behulp van de invoegtoepassing Planningsoptimalisatie. In dit geval worden de resultaten en functies van de hoofdplanning beïnvloed.
+Als Planningsoptimalisatie is ingeschakeld, wordt de hoofdplanning uitgevoerd met behulp van de invoegtoepassing Planningsoptimalisatie. In dit geval worden de resultaten en functies van de hoofdplanning beïnvloed.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

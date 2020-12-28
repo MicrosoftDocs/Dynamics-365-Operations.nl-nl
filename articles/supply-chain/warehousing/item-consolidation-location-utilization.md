@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 6a328b20c1cfb2fc376ab4656c64cf585a5aa015
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017179"
+ms.locfileid: "4425768"
 ---
 # <a name="item-consolidation---location-utilization"></a>Locatiegebruik bij artikelconsolidatie
 
@@ -73,7 +73,7 @@ In deze sectie wordt beschreven hoe u uw systeem voorbereidt op het gebruik van 
 1. Ga naar **Magazijnbeheer \> Instellen \> Magazijn \> Locatieprofielen**.
 1. Selecteer in de lijst met locatieprofielen de waarde **FLOOR-05**.
 1. Selecteer **Bewerken** in het actievenster.
-1. Controleer op het sneltabblad **Algemeen** of beide volgende opties zijn ingesteld op *Ja* :
+1. Controleer op het sneltabblad **Algemeen** of beide volgende opties zijn ingesteld op *Ja*:
 
     - Artikel in locatie inschakelen
     - Locatiestatus inschakelen
@@ -81,7 +81,7 @@ In deze sectie wordt beschreven hoe u uw systeem voorbereidt op het gebruik van 
 1. Selecteer **Opslaan**.
 
     > [!IMPORTANT]
-    > Als de opties **Artikel in locatie inschakelen** en **Locatiestatus inschakelen** al zijn ingesteld op *Ja* , gaat u verder met de instructies voor het instellen van het sneltabblad **Dimensies** in stap 10. Als de opties nog niet zijn ingesteld op *Ja* , moet u een consistentiecontrole uitvoeren voor de module **Magazijnbeheer** , nadat u deze handmatig hebt ingesteld. Ga in dat geval verder met de volgende stap.
+    > Als de opties **Artikel in locatie inschakelen** en **Locatiestatus inschakelen** al zijn ingesteld op *Ja*, gaat u verder met de instructies voor het instellen van het sneltabblad **Dimensies** in stap 10. Als de opties nog niet zijn ingesteld op *Ja*, moet u een consistentiecontrole uitvoeren voor de module **Magazijnbeheer**, nadat u deze handmatig hebt ingesteld. Ga in dat geval verder met de volgende stap.
 
 1. Als u de consistentiecontrole wilt uitvoeren, gaat u naar **Systeembeheer \> Periodieke taken \> Database \> Consistentiecontrole**.
 1. Stel in het dialoogvenster **Consistentiecontrole** de volgende waarden in:
@@ -98,7 +98,7 @@ In deze sectie wordt beschreven hoe u uw systeem voorbereidt op het gebruik van 
     >
     > Als het bericht voor de consistentiecontrole als volgt luidt: 'Onjuiste locatiestatus gevonden voor locatie XXXX in magazijn XX', moet u de consistentiecontrole opnieuw uitvoeren. Stel het veld **Controleren/corrigeren** nu in op *Fout oplossen*. Geef de berichten weer om er zeker van te zijn dat er geen fouten zijn gevonden.
 
-1. U moet nu het instellen van het locatieprofiel voltooien. Ga terug naar **Magazijnbeheer \> Instellingen \> Magazijn \> Locatieprofielen** , selecteer locatieprofiel **FLOOR-05** en selecteer vervolgens **Bewerken** in het actievenster.
+1. U moet nu het instellen van het locatieprofiel voltooien. Ga terug naar **Magazijnbeheer \> Instellingen \> Magazijn \> Locatieprofielen**, selecteer locatieprofiel **FLOOR-05** en selecteer vervolgens **Bewerken** in het actievenster.
 1. Stel op het sneltabblad **Dimensies** de volgende waarden in:
 
     - **Volumegebruikspercentage:** *100*

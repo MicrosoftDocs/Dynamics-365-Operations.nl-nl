@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 7b0ebfb965e5a8f1bfe1857a9642d998dac2faf3
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017111"
+ms.locfileid: "4425765"
 ---
 # <a name="location-license-plate-positioning"></a>Positionering van locatie nummerplaat
 
@@ -60,11 +60,11 @@ De functie moet worden ingeschakeld in het locatieprofiel voor elke locatie waar
 
     - **Positie van kentekenplaat inschakelen:** *Ja*
 
-        Als deze optie is ingesteld op *Ja* , wordt de positie van de nummerplaat vastgehouden voor nummerplaten op deze locatie.
+        Als deze optie is ingesteld op *Ja*, wordt de positie van de nummerplaat vastgehouden voor nummerplaten op deze locatie.
 
     - **Positie nummerplaat tonen op mobiel apparaat:** *Ja*
 
-        Wanneer deze optie is ingesteld op *Ja* , wordt de positie van de nummerplaat getoond aan gebruikers van mobiele apparaten tijdens corrigeren en tellen. U kunt de instelling van deze optie alleen wijzigen als de functie is ingeschakeld.
+        Wanneer deze optie is ingesteld op *Ja*, wordt de positie van de nummerplaat getoond aan gebruikers van mobiele apparaten tijdens corrigeren en tellen. U kunt de instelling van deze optie alleen wijzigen als de functie is ingeschakeld.
 
 1. Selecteer **Opslaan**.
 
@@ -75,7 +75,7 @@ De functie moet worden ingeschakeld in het locatieprofiel voor elke locatie waar
 1. Selecteer in de lijst met locatie-instructies **61 VO Orderverzamelingsorder**.
 1. Selecteer **Bewerken** in het actievenster.
 1. Selecteer op het sneltabblad **Regels** de regel met het **volgnummer** *2*.
-1. Selecteer op het sneltabblad **Locatie-instructieacties** de regel met de **Naam** -waarde *Verzamelen voor minder dan pallet* (dit moet de enige regel zijn) en wijzig de waarde van het **Volgnummer** in *2*.
+1. Selecteer op het sneltabblad **Locatie-instructieacties** de regel met de **Naam**-waarde *Verzamelen voor minder dan pallet* (dit moet de enige regel zijn) en wijzig de waarde van het **Volgnummer** in *2*.
 1. Selecteer **Nieuw** boven het raster om een regel voor een nieuwe locatie-instructieactie toe te voegen.
 1. Stel op de nieuwe regel de volgende waarden in:
 
@@ -195,7 +195,7 @@ Het werk is nu voltooid.
 1. Selecteer in het raster de eerste werk-id voor het werkordertype *Cyclustelling*.
 1. Selecteer in het actievenster op het tabblad **Werk** in de groep **Werk** de optie **Cyclustelling**.
 
-    Er worden twee regels weergegeven: één voor elk artikel met nummerplaat. De waarden in de **velden Getelde hoeveelheid** , **Locatie** , **Nummerplaat** en **Artikel** moeten overeenkomen met de waarden van de tellingen die u op het mobiele apparaat hebt gemaakt. Als een of meer van deze velden niet zichtbaar zijn, selecteert u in het actievenster de optie **Dimensies weergeven** om ze aan het raster toe te voegen.
+    Er worden twee regels weergegeven: één voor elk artikel met nummerplaat. De waarden in de **velden Getelde hoeveelheid**, **Locatie**, **Nummerplaat** en **Artikel** moeten overeenkomen met de waarden van de tellingen die u op het mobiele apparaat hebt gemaakt. Als een of meer van deze velden niet zichtbaar zijn, selecteert u in het actievenster de optie **Dimensies weergeven** om ze aan het raster toe te voegen.
 
 1. Selecteer beide regels.
 1. Selecteer in het actievenster **Telling accepteren**.
@@ -213,7 +213,7 @@ Het werk is nu voltooid.
 1. Selecteer op het tabblad **Overzicht** de tweede werk-id voor het werkordertype *Cyclustelling*.
 1. Selecteer in het actievenster op het tabblad **Werk** in de groep **Werk** de optie **Cyclustelling**.
 
-    Er wordt één regel weergegeven voor het artikel en de nummerplaat. De waarden in de **velden Getelde hoeveelheid** , **Locatie** , **Nummerplaat** en **Artikel** moeten overeenkomen met de waarden van de tellingen die u op het mobiele apparaat hebt gemaakt.
+    Er wordt één regel weergegeven voor het artikel en de nummerplaat. De waarden in de **velden Getelde hoeveelheid**, **Locatie**, **Nummerplaat** en **Artikel** moeten overeenkomen met de waarden van de tellingen die u op het mobiele apparaat hebt gemaakt.
 
 1. Selecteer de regel.
 1. Selecteer in het actievenster **Telling accepteren**.
@@ -237,12 +237,12 @@ Het werk is nu voltooid.
 
 1. Merk op dat de locatie *01A01R1S1B* twee nummerplaten heeft:
 
-    - **A0001** , waarbij het veld **Positie NP** is ingesteld op *1*
-    - **A0002** , waarbij het veld **Positie NP** is ingesteld op *2*
+    - **A0001**, waarbij het veld **Positie NP** is ingesteld op *1*
+    - **A0002**, waarbij het veld **Positie NP** is ingesteld op *2*
 
 1. Merk op dat de locatie *01A01R1S2B* één nummerplaat heeft:
 
-    - **A0002** , waarbij het veld **Positie NP** is ingesteld op *1*
+    - **A0002**, waarbij het veld **Positie NP** is ingesteld op *1*
 
 ### <a name="sales-order-scenario"></a>Scenario met verkooporder
 

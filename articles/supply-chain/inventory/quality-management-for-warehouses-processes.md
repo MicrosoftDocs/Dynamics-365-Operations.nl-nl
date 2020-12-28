@@ -16,15 +16,15 @@ ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
-ms.sourcegitcommit: 965fa733be068dc37f482d02ebbcd77f2c3d0a45
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763474"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425719"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Kwaliteitsbeheer voor magazijnprocessen
 
-Met deze functie _kwaliteitsbeheerproces voor magazijnprocessen_ kunt u besturingselementen voor artikelbemonstering integreren in het ontvangstproces van het magazijn via geavanceerd magazijnbeheer. Magazijnwerk kan automatisch worden gegenereerd om de voorraad naar de kwaliteitscontrolelocatie te verplaatsen op basis van een percentage of een vaste hoeveelheid, of op basis van elke *n*de nummerplaat. Nadat een kwaliteitsorder is voltooid, kunt u automatisch werk genereren om de voorraad naar de volgende locatie in het proces te verplaatsen, afhankelijk van de kwaliteitsresultaten.
+Met deze functie _kwaliteitsbeheerproces voor magazijnprocessen_ kunt u besturingselementen voor artikelbemonstering integreren in het ontvangstproces van het magazijn via geavanceerd magazijnbeheer. Magazijnwerk kan automatisch worden gegenereerd om de voorraad naar de kwaliteitscontrolelocatie te verplaatsen op basis van een percentage of een vaste hoeveelheid, of op basis van elke *n* de nummerplaat. Nadat een kwaliteitsorder is voltooid, kunt u automatisch werk genereren om de voorraad naar de volgende locatie in het proces te verplaatsen, afhankelijk van de kwaliteitsresultaten.
 
 De functie _Kwaliteitsbeheer voor magazijnprocessen_ vergroot de mogelijkheden van de basisfunctie voor kwaliteitsbeheer. Het biedt de mogelijkheid om kwaliteitsorders te maken voor de voorraad die wordt verzonden naar de locatie van de kwaliteitscontrole, hoewel kwaliteitsorders niet altijd vereist zijn. Daarom is het mogelijk om een lichtgewicht kwaliteitscontroleproces te gebruiken dat is gebaseerd op magazijnwerkzaamheden.
 
@@ -174,7 +174,7 @@ Terwijl werknemers artikelen ontvangen met de magazijnapp, controleert het syste
 
 De volgende voorbeelden laten zien hoe de instellingen van een kwaliteitskoppeling en de bijbehorende artikelbemonstering van invloed zijn op het genereren van kwaliteitsorders wanneer het veld **Toepasselijk magazijntype** is ingesteld op _Alleen kwaliteitsbeheer voor magazijnprocessen_.
 
-Wanneer **Hoeveelheidsspecificatie** is ingesteld op de waarde _Volledige nummerplaat_, bepaalt het veld **Per nde nummerplaat** voor welke nummerplaten de bemonsteringswerk voor kwaliteitsartikelen wordt gemaakt. De eerste nummerplaat gaat altijd naar kwaliteitscontrole en vervolgens geeft de waarde van dit veld aan dat elke *n*de nummerplaat na die nummerplaat ook moet gaan.
+Wanneer **Hoeveelheidsspecificatie** is ingesteld op de waarde _Volledige nummerplaat_, bepaalt het veld **Per nde nummerplaat** voor welke nummerplaten de bemonsteringswerk voor kwaliteitsartikelen wordt gemaakt. De eerste nummerplaat gaat altijd naar kwaliteitscontrole en vervolgens geeft de waarde van dit veld aan dat elke *n* de nummerplaat na die nummerplaat ook moet gaan.
 
 De waarde voor **Verwijzingstype** voor de volgende voorbeelden is _Inkoop_ en de waarde van het **Gebeurtenistype** is *Registratie*.
 

@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 009345e608c26887fedbe4a9c268367080593da2
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017570"
+ms.locfileid: "4425861"
 ---
 # <a name="set-up-cluster-picking"></a>Clusterverzameling instellen
 
@@ -40,15 +40,15 @@ Indien nodig kan een werknemer een cluster doorgeven aan een andere werknemer. D
 
 U moet het volgende instellen om clusterverzameling in te schakelen:
 
-- **Clusterprofielen** : geef aan of cluster-id's automatisch moeten worden gegenereerd, hoeveel posities moeten worden gebruikt, wanneer clusters moeten worden opgebroken, wat de volgorde is van het verzamelwerk en hoe dit wordt gecontroleerd.
+- **Clusterprofielen**: geef aan of cluster-id's automatisch moeten worden gegenereerd, hoeveel posities moeten worden gebruikt, wanneer clusters moeten worden opgebroken, wat de volgorde is van het verzamelwerk en hoe dit wordt gecontroleerd.
 
-- **Werksjablonen** : definieer hoe het verzamelwerk voor clusterverzameling moet worden gemaakt.
+- **Werksjablonen**: definieer hoe het verzamelwerk voor clusterverzameling moet worden gemaakt.
 
-- **Locatie-instructies** : geef op waaruit artikelen moeten worden verzameld en waar deze moeten worden geplaatst.
+- **Locatie-instructies**: geef op waaruit artikelen moeten worden verzameld en waar deze moeten worden geplaatst.
 
-- **Menuopties voor mobiel apparaat** : configureer een menu voor een mobiel apparaat om bestaand werk te gebruiken dat wordt geleid door clusterverzameling. U moet vervolgens het menuartikel toevoegen aan een menu voor een mobiel apparaat zodat het wordt weergegeven op mobiele apparaten.
+- **Menuopties voor mobiel apparaat**: configureer een menu voor een mobiel apparaat om bestaand werk te gebruiken dat wordt geleid door clusterverzameling. U moet vervolgens het menuartikel toevoegen aan een menu voor een mobiel apparaat zodat het wordt weergegeven op mobiele apparaten.
 
-- **Parameters voor magazijnbeheer** : geef de te gebruiken nummervolgorde op als u id's voor clusters wilt genereren.
+- **Parameters voor magazijnbeheer**: geef de te gebruiken nummervolgorde op als u id's voor clusters wilt genereren.
 
 ## <a name="set-up-a-cluster-profile"></a>Een clusterprofiel instellen
 

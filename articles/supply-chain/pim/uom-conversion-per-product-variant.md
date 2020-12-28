@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 71d35d47a703f0931ba3b4ab5df21c7199c7ea5b
-ms.sourcegitcommit: 92611ec276da6f7211d722cfcd66739b612296dc
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3382792"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4425731"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversie van maateenheid per productvariant
 
@@ -59,7 +59,7 @@ Voer de volgende stappen uit om een productmodel te configureren voor ondersteun
     - **Product**: als u deze waarde selecteert, kunt u een eenheidconversie instellen voor het productmodel. Deze eenheidsomrekening wordt gebruikt als terugval voor alle productvarianten waarvoor geen eenheidsomrekening is gedefinieerd.
     - **Productvariant**: als u deze waarde selecteert, kunt u een eenheidconversie instellen voor een specifieke productvariant. Gebruik het veld **Productvariant** om de variant te selecteren.
 
-    ![Een nieuwe eenheidsomrekening toevoegen](media/uom-new-conversion.png "Een nieuwe eenheidsomrekening toevoegen")
+    ![![Een nieuwe eenheidsomrekening toevoegen](media/uom-new-conversion.png "Een nieuwe eenheidsomrekening toevoegen")](media/uom-new-conversion.png "Adding a new unit conversion")
 
 1. Gebruik de andere velden die zijn opgegeven om de eenheidsomrekening in te stellen.
 1. Selecteer **OK** om de nieuwe eenheidsomrekening op te slaan.

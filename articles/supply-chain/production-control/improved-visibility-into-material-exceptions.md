@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016580"
+ms.locfileid: "4425790"
 ---
 # <a name="visibility-into-material-exceptions"></a>Inzicht in materiaaluitzonderingen
 
@@ -34,7 +34,7 @@ In het werkgebied **Productievloerbeheer** bieden drie tegels u meer inzicht in 
 - Niet-verwerkte waves die aandacht vereisen
 - Openstaand magazijnwerk dat aandacht vereist
 
-Voor alle drie de tegels wordt de grondstoffendatum van de stuklijst- en formuleregels vergeleken met de werkgebieddatum en de filters voor **Productie-eenheid** , **Resourcegroep** en **Resource** die zijn ingesteld in het menu **Mijn werkgebied configureren**. Standaard is de werkgebieddatum ingesteld op de huidige datum, maar u kunt deze wijzigen.
+Voor alle drie de tegels wordt de grondstoffendatum van de stuklijst- en formuleregels vergeleken met de werkgebieddatum en de filters voor **Productie-eenheid**, **Resourcegroep** en **Resource** die zijn ingesteld in het menu **Mijn werkgebied configureren**. Standaard is de werkgebieddatum ingesteld op de huidige datum, maar u kunt deze wijzigen.
 
 Een niet-vrijgegeven stuklijst- of formuleregel vereist aandacht als de grondstofdatum van de regel op of voor de werkgebieddatum valt en voldoet aan de criteria die zijn gedefinieerd op basis van de filters in het werkgebied.
 

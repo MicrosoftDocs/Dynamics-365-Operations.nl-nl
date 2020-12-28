@@ -18,11 +18,11 @@ ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: ad8b33633646f27bc368dc4bbedc1eb64c150a9f
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014930"
+ms.locfileid: "4425755"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>De invoegtoepassing IoT-intelligentie installeren in LCS
 
@@ -38,11 +38,11 @@ In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing IoT-intelligentie kun
 4. Selecteer in het dialoogvenster **Een invoegtoepassing selecteren voor installatie** de optie **IoT-intelligentie**.
 5. Geef in het dialoogvenster **Invoegtoepassing instellen** de details op van uw IOT-hub en Redis-cache. U kunt de vereiste waarden vinden in de sleutelkluis die u hebt gemaakt in [Azure-resources maken](iot-azure-setup.md).
 
-    + **Tenant-id** : ga in de Azure-portal naar de sleutelkluis en selecteer vervolgens in het linkernavigatiedeelvenster de optie **Overzicht** en kopieer de waarde voor **Directory-id**. Plak die waarde in het dialoogvenster **Invoegtoepassing instellen**.
-    + **URI van sleutelkluis voor eindpunt dat compatibel is met IoT Event hub** : ga naar de sleutelkluis en selecteer vervolgens in het linkernavigatiedeelvenster de optie **Overzicht** en kopieer de waarde voor **DNS-naam**. Plak die waarde in het dialoogvenster **Invoegtoepassing instellen**.
-    + **Geheime naam van eindpunt dat compatibel is met IoT Event hub** : ga naar de sleutelkluis, selecteer in het linkernavigatiedeelvenster de optie **Geheimen** en kopieer de naam van het geheim waar de verbindingsreeks van de Event hub voor de IoT-hub is opgeslagen. Plak die waarde in het dialoogvenster **Invoegtoepassing instellen**.
-    + **URI van sleutelkluis voor Redis-cache** : ga naar de sleutelkluis en selecteer vervolgens in het linkernavigatiedeelvenster de optie **Overzicht** en kopieer de waarde voor **DNS-naam**. Plak die waarde in het dialoogvenster **Invoegtoepassing instellen**.
-    + **Geheime naam van eindpunt voor Redis-cache** : ga naar de sleutelkluis, selecteer in het linkernavigatiedeelvenster de optie **Geheimen** en kopieer de naam van het geheim waar de verbindingsreeks voor de Redis-cache is opgeslagen. Plak die waarde in het dialoogvenster **Invoegtoepassing instellen**.
+    + **Tenant-id**: ga in de Azure-portal naar de sleutelkluis en selecteer vervolgens in het linkernavigatiedeelvenster de optie **Overzicht** en kopieer de waarde voor **Directory-id**. Plak die waarde in het dialoogvenster **Invoegtoepassing instellen**.
+    + **URI van sleutelkluis voor eindpunt dat compatibel is met IoT Event hub**: ga naar de sleutelkluis en selecteer vervolgens in het linkernavigatiedeelvenster de optie **Overzicht** en kopieer de waarde voor **DNS-naam**. Plak die waarde in het dialoogvenster **Invoegtoepassing instellen**.
+    + **Geheime naam van eindpunt dat compatibel is met IoT Event hub**: ga naar de sleutelkluis, selecteer in het linkernavigatiedeelvenster de optie **Geheimen** en kopieer de naam van het geheim waar de verbindingsreeks van de Event hub voor de IoT-hub is opgeslagen. Plak die waarde in het dialoogvenster **Invoegtoepassing instellen**.
+    + **URI van sleutelkluis voor Redis-cache**: ga naar de sleutelkluis en selecteer vervolgens in het linkernavigatiedeelvenster de optie **Overzicht** en kopieer de waarde voor **DNS-naam**. Plak die waarde in het dialoogvenster **Invoegtoepassing instellen**.
+    + **Geheime naam van eindpunt voor Redis-cache**: ga naar de sleutelkluis, selecteer in het linkernavigatiedeelvenster de optie **Geheimen** en kopieer de naam van het geheim waar de verbindingsreeks voor de Redis-cache is opgeslagen. Plak die waarde in het dialoogvenster **Invoegtoepassing instellen**.
 
 6. Schakel het selectievakje in om de voorwaarden te accepteren.
 7. Selecteer **Installeren**.
