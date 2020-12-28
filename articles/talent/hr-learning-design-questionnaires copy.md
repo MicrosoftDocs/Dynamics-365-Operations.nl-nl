@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.openlocfilehash: 7559a986c1a112eb1ccc6069ba5b8eb5c6e5b72b
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3007886"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460760"
 ---
 # <a name="design-questionnaires"></a>Vragenlijsten ontwerpen
 
@@ -37,7 +37,7 @@ Door een vragenlijst zorgvuldig te ontwerpen, verhoogt u de kwaliteit van de geg
 -   Zorg ervoor dat de vragenlijst logisch is opgebouwd, zodat de respondenten geïnteresseerd blijven.
 -   Plaats vragen en antwoorden in de volgorde waarin ze moeten verschijnen voor respondenten.
 -   Kies hoe de resultaten moeten worden geëvalueerd, indien van toepassing.
--   Bepaal of u extra functies nodig hebt. Bep[aal bijvoorbeeld of en hoe resultaten moeten worden gecategoriseerd, of een tijdslimiet is vereist en of alle vragen verplicht zijn.
+-   Bepaal of u extra functies nodig hebt. Bepaal bijvoorbeeld of en hoe resultaten moeten worden gecategoriseerd, of een tijdslimiet is vereist en of alle vragen verplicht zijn.
 
 De ontwerpfase bevat vier categorieën van taken die u in deze volgorde moet voltooien:
 

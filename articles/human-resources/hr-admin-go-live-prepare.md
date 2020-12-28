@@ -19,11 +19,11 @@ ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011409"
+ms.locfileid: "4418055"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Voorbereiden op go-live van Human Resources
 
@@ -57,7 +57,7 @@ Een belangrijke mijlpaal in elk implementatieproject is de cutover naar de produ
 
 Om ervoor te zorgen dat de productieomgeving wordt gebruikt voor live bewerkingen, verstrekt Microsoft het productie-exemplaar alleen wanneer de implementatie de fase **Uitvoeren** nadert, nadat de vereiste activiteiten in de LCS-methodologie zijn voltooid. Zie de  [Dynamics 365-licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=866544) voor meer informatie over de omgevingen in uw abonnement. 
 
-Klanten moeten de fasen **Analyse** , **Ontwerpen en ontwikkelen** en **Testen** in de LCS-methodologie uitvoeren vóór de knop  **Configureren**  om te vragen of de productieomgeving beschikbaar wordt. Als u een fase in LCS wilt voltooien, moet u eerst elke vereiste stap in die fase voltooien. Wanneer alle stappen in een fase zijn voltooid, kunt u de gehele fase voltooien. U kunt een fase later altijd opnieuw openen als u wijzigingen moet aanbrengen. Zie  [Lifecycle Services (LCS) voor klanten van Finance and Operations-apps](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs) voor meer informatie. 
+Klanten moeten de fasen **Analyse**, **Ontwerpen en ontwikkelen** en **Testen** in de LCS-methodologie uitvoeren vóór de knop  **Configureren**  om te vragen of de productieomgeving beschikbaar wordt. Als u een fase in LCS wilt voltooien, moet u eerst elke vereiste stap in die fase voltooien. Wanneer alle stappen in een fase zijn voltooid, kunt u de gehele fase voltooien. U kunt een fase later altijd opnieuw openen als u wijzigingen moet aanbrengen. Zie  [Lifecycle Services (LCS) voor klanten van Finance and Operations-apps](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs) voor meer informatie. 
 
 Het proces voor het uitvoeren van een stap bestaat uit twee delen: 
 

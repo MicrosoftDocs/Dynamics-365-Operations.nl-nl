@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 071aa79ea75e9a94187dd74dabab940e2cce0f92
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551951"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460852"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-talent---onboard"></a>Onboardinghandleidingen bijwerken in Dynamics 365 Talent - Onboard
+# <a name="update-onboarding-guides"></a>Onboardinghandleidingen bijwerken
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +38,7 @@ Als u wijzigingen moet aanbrengen in onboardinghandleidingen in Microsoft Dynami
 2. Selecteer de handleiding die u wilt bewerken.
 3. Breng de gewenste wijzigingen aan en selecteer vervolgens de knop **Opslaan** (het schijfsymbool).
 
-    ![[Wijzigingen in een onboardinghandleiding opslaan](./media/onboard-save.png)](./media/onboard-save.png)
+    ![[Wijzigingen in een onboarding-gids opslaan](./media/onboard-save.png)](./media/onboard-save.png)
 
 Vanuit Onboard wordt automatisch een e-mail naar de nieuwe medewerker verzonden waarin wordt aangegeven wat de wijzigingen zijn. Voor eenvoudige identificatie wordt naast elke wijziging het label **Nieuw** weergegeven.
 
@@ -49,6 +49,6 @@ Vanuit Onboard wordt automatisch een e-mail naar de nieuwe medewerker verzonden 
 3. Breng de gewenste wijzigingen aan en selecteer vervolgens de knop **Opslaan** (het schijfsymbool).
 4. Als u uw wijzigingen wilt pushen naar alle handleidingen die op de sjabloon zijn gebaseerd, selecteert u **Deze wijzigingen doorvoeren**.
 
-    ![[De wijzigingen in een onboardingsjablonen pushen naar alle handleidingen die op basis hiervan zijn gemaakt](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
+    ![[De wijzigingen in een onboardingsjabloon pushen naar alle handleidingen die op basis hiervan zijn gemaakt](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
 De wijzigingen zijn zichtbaar voor nieuwe medewerkers die de onboardinghandleidingen openen. Onboard verzendt echter geen e-mailwaarschuwingen naar nieuwe medewerkers om ze te laten weten dat hun onboardinghandleiding is gewijzigd. Voor eenvoudige identificatie wordt naast elke wijziging het label **Nieuw** weergegeven. 

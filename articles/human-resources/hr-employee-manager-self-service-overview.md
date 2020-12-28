@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 116c85c53b0ec2fe1e1fd2d1fbc2738f5b6351fb
-ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
+ms.sourcegitcommit: 1fdca917e01470fbd5d3051adb85fd63e8624b47
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/20/2020
-ms.locfileid: "4057047"
+ms.locfileid: "4418060"
 ---
 # <a name="employee-and-manager-self-service-overview"></a>Overzicht van Selfservice werknemer en Selfservice manager
 
@@ -39,7 +39,7 @@ Als u de gebruiker op de pagina **Gebruikers** niet aan een **Medewerker** sreco
 
 **Uw gebruikers-id is niet gekoppeld aan uw werknemerregistratie in het systeem. U kunt uw gegevens niet weergeven of bijwerken tot dit wel is gekoppeld. Neem contact op met uw manager of ondersteuningsteam voor assistentie.**
 
-Als u een gebruiker aan een **Medewerker** srecord wilt koppelen, gaat u naar **Gebruikers** en selecteert u de gebruiker. Selecteer **Bewerken** , voeg de bijbehorende medewerker toe aan het veld **Persoon** op het formulier en selecteer **Opslaan**. U zou nu toegang moeten hebben tot selfservice voor werknemers.
+Als u een gebruiker aan een **Medewerker** srecord wilt koppelen, gaat u naar **Gebruikers** en selecteert u de gebruiker. Selecteer **Bewerken**, voeg de bijbehorende medewerker toe aan het veld **Persoon** op het formulier en selecteer **Opslaan**. U zou nu toegang moeten hebben tot selfservice voor werknemers.
 
 ## <a name="security-requirements-for-employee-and-manager-self-service"></a>Beveiligingsvereisten voor Selfservice voor werknemers en manager
 
@@ -80,7 +80,7 @@ Op de kaart **Certificaten** worden het certificaat en de vervaldatum weergegeve
 
 Op de kaart **Volgende geplande beoordeling** wordt uw volgende prestatiebeoordeling weergegeven. U kunt een nieuwe beoordeling starten vanaf deze kaart. Uw manager of HR-vertegenwoordiger kan ook beoordelingen starten. Afhankelijk van de instellingen van uw organisatie, kunt u via deze kaart mogelijk ook beoordelingen weergeven, bijwerken en verzenden.
 
-U kunt uw doelstellingen beheren met de kaart **Prestatiedoelstellingen**. Op deze kaart wordt het aantal doelstellingen weergegeven dat u voor elke status hebt ( **Niet gestart** , **Op schema** en **Moet worden verbeterd** ). U kunt doelstellingen maken, bijwerken en verwijderen, afhankelijk van uw toegewezen beveiliging op basis van rollen. U kunt desgewenst nieuwe doelstellingen toevoegen vanuit groepen of sjablonen. Managers en HR kunnen ook doelstellingen maken namens werknemers en bepalen hoe gedetailleerd elke doelstelling is. Managers en werknemers kunnen samenwerken aan doelstellingen en activiteiten, metingen en statussen bijwerken. U kunt ook bijlagen toevoegen.
+U kunt uw doelstellingen beheren met de kaart **Prestatiedoelstellingen**. Op deze kaart wordt het aantal doelstellingen weergegeven dat u voor elke status hebt (**Niet gestart**, **Op schema** en **Moet worden verbeterd**). U kunt doelstellingen maken, bijwerken en verwijderen, afhankelijk van uw toegewezen beveiliging op basis van rollen. U kunt desgewenst nieuwe doelstellingen toevoegen vanuit groepen of sjablonen. Managers en HR kunnen ook doelstellingen maken namens werknemers en bepalen hoe gedetailleerd elke doelstelling is. Managers en werknemers kunnen samenwerken aan doelstellingen en activiteiten, metingen en statussen bijwerken. U kunt ook bijlagen toevoegen.
 
 U kunt uw bestaande vaardigheden weergeven op de kaart **Vaardigheden**. U kunt vaardigheden bijwerken, nieuwe vaardigheden toevoegen of vaardigheden verwijderen die u niet meer relevant vindt. Afhankelijk van de instellingen van uw organisatie, moeten wijzigingen in uw vaardigheden mogelijk worden goedgekeurd.
 
@@ -96,7 +96,7 @@ Meld u aan voor vergoedingen via de koppeling **Vergoedingen**. Zie [Overzicht v
 
 Onder **Prestaties** kunt u **Prestatiejournalen** selecteren om prestatiejournaalitems te maken die u kunt gebruiken voor prestatiedoelstellingen en -beoordelingen. U kunt **Feedback verzenden** selecteren om feedback te geven voor andere werknemers in uw organisatie. Afhankelijk van de instellingen van uw organisatie worden e-mails mogelijk naar de ontvanger, de afzender en managers verzonden. U kunt feedback verzenden naar alle werknemers binnen de organisatie. Het verzenden van feedback is niet beperkt per bedrijf.
 
-Onder **Competenties** kunt u wijzigingen aanbrengen in **Cursussen** , **Opleiding** , **Vertrouwensposities** en **Beroepservaring.** Afhankelijk van de instellingen van uw organisatie, moeten updates voor deze vaardigheden mogelijk worden goedgekeurd.
+Onder **Competenties** kunt u wijzigingen aanbrengen in **Cursussen**, **Opleiding**, **Vertrouwensposities** en **Beroepservaring.** Afhankelijk van de instellingen van uw organisatie, moeten updates voor deze vaardigheden mogelijk worden goedgekeurd.
 
 U kunt taakdetails weergeven onder **Organisatie**. Functiedetails zijn onder andere vaardigheden, certificaten en verantwoordelijkheidsgebieden voor uw primaire positie. U kunt ook alle geleende uitrustingen bekijken die naar u is uitgecheckt. Afhankelijk van de instellingen van uw organisatie, moeten wijzigingen in geleende uitrusting mogelijk worden goedgekeurd.
 
@@ -112,7 +112,7 @@ Op het tabblad **Mijn team** wordt de volgende informatie weergegeven voor de se
 
 ### <a name="personnel-actions"></a>Personeelsacties
 
-Personeelsacties worden weergegeven op basis van de configuratieopties in **Gedeelde HRM-parameters** en **Parameters personeel**. Indien ingeschakeld voor **Medewerkers** , kunnen personeelsacties nieuwe menuopties instellen, waaronder:
+Personeelsacties worden weergegeven op basis van de configuratieopties in **Gedeelde HRM-parameters** en **Parameters personeel**. Indien ingeschakeld voor **Medewerkers**, kunnen personeelsacties nieuwe menuopties instellen, waaronder:
 
 - **Nieuwe werknemer aanvragen**
 - **Nieuwe contractant aanvragen**
@@ -184,10 +184,10 @@ Afhankelijk van de instellingen van uw organisatie kunt u alleen wijzigingen aan
 
 Op het tabblad **Posities** vindt u een overzicht van werknemers op hun primaire positie. Naam, tegel en afdeling worden weergegeven in het koptekstgebied van elke kaart. Deze kaart bevat:
 
-- **Anciënniteitsdatum** : wordt weergegeven uit de sectie met het medewerkersoverzicht van het medewerkersformulier.
-- **Dienstjaren** : wordt berekend op basis van de begindatum van het dienstverband van de werknemer
-- **Aantal eerdere posities** : op basis van de positiegeschiedenis wordt bij selectie van deze waarde het gedetailleerde overzicht van alle eerder beklede posities.
-- **Geboortedatum** : de maand en dag van de geboortedatum van de werknemer.
+- **Anciënniteitsdatum**: wordt weergegeven uit de sectie met het medewerkersoverzicht van het medewerkersformulier.
+- **Dienstjaren**: wordt berekend op basis van de begindatum van het dienstverband van de werknemer
+- **Aantal eerdere posities**: op basis van de positiegeschiedenis wordt bij selectie van deze waarde het gedetailleerde overzicht van alle eerder beklede posities.
+- **Geboortedatum**: de maand en dag van de geboortedatum van de werknemer.
 
 U kunt positiegegevens voor directe en indirecte ondergeschikten weergeven.
 
@@ -211,6 +211,6 @@ Managers kunnen alle doelstellingen voor hun team bekijken via de tegel **Teampr
 
 #### <a name="reviews-tab"></a>Het tabblad Recensies
 
-Het tabblad **Recensies** bevat een overzicht van de recensies die de werknemer in elke staat heeft: **In uitvoering** , **Gereed voor beoordeling** en **Eindbeoordeling**. Als u de recensie van een werknemer wilt openen, selecteert u de knop **Details** en vervolgens recensies om samen aan te werken. Afhankelijk van waar een recensie zich in het werkstroomproces bevindt, kunt u zien of de recensie beschikbaar is om te worden bijgewerkt. 
+Het tabblad **Recensies** bevat een overzicht van de recensies die de werknemer in elke staat heeft: **In uitvoering**, **Gereed voor beoordeling** en **Eindbeoordeling**. Als u de recensie van een werknemer wilt openen, selecteert u de knop **Details** en vervolgens recensies om samen aan te werken. Afhankelijk van waar een recensie zich in het werkstroomproces bevindt, kunt u zien of de recensie beschikbaar is om te worden bijgewerkt. 
 
 U kunt alle recensies voor uw team bekijken via de tegel **Beoordelingen van teamprestaties** in de sectie **Overzicht** van **Mijn team**.

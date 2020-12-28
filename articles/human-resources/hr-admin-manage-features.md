@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
-ms.sourcegitcommit: a9461650d11d6845e1942865ebf7e35f75f61ad3
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "3230195"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418019"
 ---
 # <a name="manage-features"></a>Functies beheren
 
@@ -55,7 +55,7 @@ Als u toegang tot preview-functies wilt hebben, moet u deze eerst in uw omgeving
 Als u Vergoedingenbeheer wilt inschakelen, gebruikt u dezelfde procedure als in [Het in- of uitschakelen van preview-functies](hr-admin-manage-features.md?enable-or-disable-preview-features).
 
 > [!IMPORTANT]
-> Nadat u Vergoedingenbeheer in een **productie**omgeving hebt ingeschakeld, kunt u dit niet meer uitschakelen. U kunt Vergoedingenbeheer echter wel uitschakelen in **sandbox**-omgevingen.
+> Nadat u Vergoedingenbeheer in een **productie** omgeving hebt ingeschakeld, kunt u dit niet meer uitschakelen. U kunt Vergoedingenbeheer echter wel uitschakelen in **sandbox**-omgevingen.
 
 Zie het [overzicht van Vergoedingenbeheer](hr-benefits-management-overview.md) voor meer informatie over de configuratie en het gebruik van Vergoedingenbeheer.
 
@@ -77,7 +77,7 @@ U kunt de informatie in deze formulieren in de alleen-lezenmodus weergeven. Als 
 Als u Verlof en verzuim wilt inschakelen, gebruikt u dezelfde procedure als in [Het in- of uitschakelen van preview-functies](hr-admin-manage-features.md?enable-or-disable-preview-features).
 
 > [!IMPORTANT]
-> U kunt de functie **Meerdere verloftypen** niet uitschakelen in Verlof en verzuim nadat u deze hebt ingeschakeld. Dit geldt voor zowel **sandbox**- als **productie**omgevingen.
+> U kunt de functie **Meerdere verloftypen** niet uitschakelen in Verlof en verzuim nadat u deze hebt ingeschakeld. Dit geldt voor zowel **sandbox**- als **productie** omgevingen.
 
 Meer informatie over preview-functies voor verlof en verzuim vindt u in [Preview-functies voor verlof en verzuim](hr-leave-and-absence-overview.md?leave-and-absence-preview-features).
 

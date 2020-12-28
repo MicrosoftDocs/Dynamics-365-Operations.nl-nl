@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b4bb599be27e7d97fed1c060f97627c7c6a868e6
-ms.sourcegitcommit: 36857283d70664742c8c04f426b231c42daf4ceb
+ms.openlocfilehash: 18f86f5d87b780d5d4ffc83330d389077987dda6
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2915505"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528166"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-december-10-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (10 december 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Talent.
 
@@ -49,7 +51,7 @@ Alle nieuwe functies behouden gedurende minimaal 30 dagen en doorgaans 30-60 dag
  
 Soms is een integrale functie standaard ingeschakeld en kan deze niet worden uitgeschakeld (bijvoorbeeld het werkgebied **Functiebeheer**).
  
-Als een functie algemeen beschikbaar is, kan deze worden in- of uitgeschakeld in productieomgevingen. Het werkgebied **Functiebeheer** geeft aan wanneer een previewfunctie verplicht wordt. Deze datum is gewoonlijk 1 oktober of 1 april, in overeenstemming met de halfjaarlijkse releaseplannen. U kunt verplichte functies niet uitschakelen. Tot de functie verplicht wordt, kunt u deze in alle omgevingen in- of uitschakelen.
+Als een functie algemeen beschikbaar is, kan deze worden in- of uitgeschakeld in productieomgevingen. Het werkgebied **Functiebeheer** geeft aan wanneer een preview-functie verplicht wordt. Deze datum is gewoonlijk 1 oktober of 1 april, in overeenstemming met de halfjaarlijkse releaseplannen. U kunt verplichte functies niet uitschakelen. Tot de functie verplicht wordt, kunt u deze in alle omgevingen in- of uitschakelen.
 
 ### <a name="streamlined-worker-form-has-moved-to-the-feature-management-workspace-390583"></a>Het gestroomlijnd werknemerformulier is verplaatst naar het werkgebied Functiebeheer (390583)
 

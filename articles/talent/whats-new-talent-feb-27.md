@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d0fdc9f056ea494cf52e8483b901070dae0bcd29
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: afa1044c8adc9566149e20ade57e771b50d9c53f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897667"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529133"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (27 februari 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent.
 
@@ -77,7 +79,7 @@ In veel organisaties kunnen managers voor compensaties en vergoedingen alleen to
 
 ### <a name="platform-update-24-for-finance-and-operations"></a>Platformupdate 24 voor Finance and Operations
 
-Zie voor meer informatie over Microsoft Dynamics 365 Finance and Operations-Platformupdate 24 (maart 2019) [Voorbeeldfuncties in Finance and Operations-platformupdate 24 (maart 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+Zie voor meer informatie over -Platformupdate 24 voor Microsoft Dynamics 365 Finance and Operations (maart 2019) [Voorbeeldfuncties in Finance and Operations-platformupdate 24 (maart 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
 ### <a name="make-employee-fixed-compensation-available-for-future-position-assignments"></a>Vaste compensatie voor werknemers beschikbaar maken voor toekomstige positietoewijzingen
 
@@ -98,19 +100,19 @@ Voer de volgende stappen uit om uw bestaande sjabloon bij te werken.
 
     - **Taakposities aan posities:** verwijder deze toewijzing.
     - **Taakposities aan taaktoewijzing bovenliggende posities:** verwijder deze toewijzing.
-    - **Taakposities aan basispositie:** voeg een nieuwe toewijzing van de entiteit **Taakposities**Common Data Service aan de entiteit **Basispositie** Finance and Operations toe. Verplaats deze naar positie 7 in de reeks.
+    - **Taakposities aan basispositie:** voeg een nieuwe toewijzing van de entiteit **Vacatureposities** Common Data Service aan de entiteit **Basisfuncties** Finance and Operations toe. Verplaats deze naar positie 7 in de reeks.
 
         [![Taakposities aan toewijzing basispositie](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Taakposities aan positiedetails:** voeg een nieuwe toewijzing van de entiteit **Taakposities**Common Data Service aan de entiteit **Positiedetails** Finance and Operations toe. Verplaats deze naar positie 8 in de reeks.
+    - **Vacaturefuncties aan functiegegevens:** voeg een nieuwe toewijzing van de entiteit **Vacaturefuncties** Common Data Service aan de entiteit **Functiegegevens** Finance and Operations toe. Verplaats deze naar positie 8 in de reeks.
 
         [![Taakposities aan toewijzing positiedetails](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Taakposities aan positieduur:** voeg een nieuwe toewijzing van de entiteit **Taakposities**Common Data Service aan de entiteit **Positieduur** Finance and Operations toe.
+    - **Vacaturefuncties aan functieduur:** voeg een nieuwe toewijzing van de entiteit **Vacaturefuncties** Common Data Service aan de entiteit **Functieduur** Finance and Operations toe.
 
         [![Taakposities aan toewijzing positieduur](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Taakposities aan positiehiërarchieën:** voeg een nieuwe toewijzing van de entiteit **Taakposities**Common Data Service aan de entiteit **Positiehiërarchieën** Finance and Operations toe. Selecteer **Geavanceerde query** om uw geavanceerde query beschikbaar te maken voor uw project.
+    - **Vacaturefuncties aan functiehiërarchie:** voeg een nieuwe toewijzing van de entiteit **Vacaturefuncties** Common Data Service aan de entiteit **Functiehiërarchie** Finance and Operations toe. Selecteer **Geavanceerde query** om uw geavanceerde query beschikbaar te maken voor uw project.
 
        [![Knop Geavanceerde query](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 

@@ -3,7 +3,7 @@ title: Virtuele Common Data Service-entiteiten configureren
 description: In dit onderwerp wordt beschreven hoe u virtuele entiteiten configureert voor Dynamics 365 Human Resources. Genereer bestaande virtuele entiteiten, werk ze bij en analyseer gegenereerde en beschikbare entiteiten.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/05/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,16 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0d6f79ea569a7a9b0d25e73e8666bf9ba19095d0
-ms.sourcegitcommit: a8665c47696028d371cdc4671db1fd8fcf9e1088
+ms.openlocfilehash: 2b590faeab600d04c9d5303693ec1e9ac682250d
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4058149"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645596"
 ---
 # <a name="configure-common-data-service-virtual-entities"></a>Virtuele Common Data Service-entiteiten configureren
 
-[!include [banner](includes/preview-feature.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Human Resources is een virtuele gegevensbron in Common Data Service. De gegevensbron biedt volledige bewerkingen voor maken, lezen, bijwerken en verwijderen vanuit Common Data Service en Microsoft Power Platform. De gegevens voor virtuele entiteiten worden niet opgeslagen in Common Data Service, maar in de toepassingsdatabase. 
 
@@ -50,11 +50,23 @@ Virtuele entiteiten voor Human Resources zijn niet hetzelfde als de natuurlijke 
 
 ## <a name="setup"></a>Instelling
 
-Volg deze instellingsstappen om virtuele entiteiten in uw omgeving in te schakelen. 
+Volg deze instellingsstappen om virtuele entiteiten in uw omgeving in te schakelen.
+
+### <a name="enable-virtual-entities-in-human-resources"></a>Virtuele entiteiten in Human Resources inschakelen
+
+Eerst moet u virtuele entiteiten inschakelen in de werkruimte **Functiebeheer**.
+
+1. Selecteer in Human Resources de optie **Systeembeheer**.
+
+2. Selecteer de tegel **Functiebeheer**.
+
+3. Selecteer **Ondersteuning van virtuele entiteit in HR/CDS** en selecteer **Inschakelen**.
+
+Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het in- en uitschakelen van previewfuncties.
 
 ### <a name="register-the-app-in-microsoft-azure"></a>De app registreren in Microsoft Azure
 
-U moet de app eerst registreren in de Azure-portal, zodat het Microsoft-identiteitsplatform verificatie- en machtigingsservices kan bieden voor de app en de gebruikers. Ga voor meer informatie over het registreren van apps in Azure naar [Snelstart: Een toepassing registreren bij het Microsoft-identiteitsplatform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+U moet uw Human Resources-exemplaar registreren in de Azure-portal, zodat het Microsoft-identiteitsplatform verificatie- en machtigingsservices kan bieden voor de app en de gebruikers. Ga voor meer informatie over het registreren van apps in Azure naar [Snelstart: Een toepassing registreren bij het Microsoft-identiteitsplatform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
 
 1. Open de [Microsoft Azure-portal](https://portal.azure.com).
 
@@ -121,16 +133,28 @@ In de volgende stap configureert u de gegevensbron van de virtuele entiteit in d
 
 7. Selecteer de record **Microsoft HR-gegevensbron**.
 
-8. Voer de vereiste informatie in voor de gegevensbronconfiguratie.
+8. Voer de vereiste informatie in voor de gegevensbronconfiguratie:
 
-   - **Doel-URL** : de URL van uw Human Resources-naamruimte.
-   - **Tenant-id** : de tenant-id van Azure Active Directory (Azure AD).
+   - **Doel-URL** : de URL van uw Human Resources-naamruimte. De doel-URL heeft het volgende formaat:
+     
+     https://\<hostname\>.hr.talent.dynamics.com/namespaces/\<namespaceID\>/
+
+     Bijvoorbeeld:
+     
+     `https://aos.rts-sf-5ea54e35c68-westus2.hr.talent.dynamics.com/namespaces/49d24c565-8f4d-4891-b174-bf83d948ed0c/`
+
+     >[!NOTE]
+     >Vergeet niet het "**/**"-teken aan het einde van de URL toe te voegen om te voorkomen dat er een fout optreedt.
+
+   - **Tenant-id**: de tenant-id van Azure Active Directory (Azure AD).
+
    - **AAD-toepassings-id** : de toepassings-id (client) die is gemaakt voor de toepassing die in de Microsoft Azure-portal is geregistreerd. U hebt deze gegevens eerder ontvangen tijdens de stap [De app registreren in Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
-   - **AAD-toepassingsgeheim** : het clientgeheim dat is gemaakt voor de toepassing die in de Microsoft Azure-portal is geregistreerd. U hebt deze gegevens eerder ontvangen tijdens de stap [De app registreren in Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
-9. Selecteer **Opslaan en sluiten**.
+   - **AAD-toepassingsgeheim**: het clientgeheim dat is gemaakt voor de toepassing die in de Microsoft Azure-portal is geregistreerd. U hebt deze gegevens eerder ontvangen tijdens de stap [De app registreren in Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
    ![Microsoft HR-gegevensbron](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+
+9. Selecteer **Opslaan en sluiten**.
 
 ### <a name="grant-app-permissions-in-human-resources"></a>App-machtigingen verlenen in Human Resources
 
@@ -149,8 +173,8 @@ Verleen als volgt machtigingen voor de twee Azure AD-toepassingen in Human Resou
 
 3. Selecteer **Nieuw** om een tweede toepassingsrecord te maken.
 
-    - **Client-id** : f9be0c49-aa22-4ec6-911a-c5da515226ff
-    - **Naam** : Dynamics 365 HR Virtual Entity
+    - **Client-id**: f9be0c49-aa22-4ec6-911a-c5da515226ff
+    - **Naam**: Dynamics 365 HR Virtual Entity
     - Selecteer in het veld **Gebruikers-id** de gebruikers-id van een gebruiker met beheerdersmachtigingen in Human Resources en de Power Apps-omgeving.
 
 ## <a name="generate-virtual-entities"></a>Virtuele entiteiten genereren
@@ -162,7 +186,7 @@ Wanneer het instellen is voltooid, kunt u de virtuele entiteiten selecteren die 
 2. Selecteer het tabblad **Virtuele entiteiten**.
 
 > [!NOTE]
-> De wisselknop **De virtuele entiteit inschakelen** wordt automatisch ingesteld op **Ja** als alle vereiste instellingen zijn voltooid. Als de wisselknop is ingesteld op **Nee** , controleert u de stappen in vorige secties van dit document om ervoor te zorgen dat alle vereiste instellingen worden voltooid.
+> De wisselknop **De virtuele entiteit inschakelen** wordt automatisch ingesteld op **Ja** als alle vereiste instellingen zijn voltooid. Als de wisselknop is ingesteld op **Nee**, controleert u de stappen in vorige secties van dit document om ervoor te zorgen dat alle vereiste instellingen worden voltooid.
 
 3. Selecteer de entiteit of entiteiten die u wilt genereren in Common Data Service.
 

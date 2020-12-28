@@ -1,7 +1,7 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Talent - Core HR (augustus 2018)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Talent - Core HR.
-author: Darinkramer
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.openlocfilehash: 4f6d0a32807397d5f2c0892061e54c2fed24610b
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 30646de08bd5ea4b2da05bfc38da7edc320a3331
+ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897759"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4690095"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-august-2018"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent - Core HR (augustus 2018)
 
@@ -31,9 +31,9 @@ ms.locfileid: "2897759"
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Talent: Core HR.
 
-## <a name="view-expiring-records-in-manager-self-service"></a>Verlopende records in voor selfservice managers weergeven
+## <a name="view-expiring-records-in-manager-self-service"></a>Verlopende records in voor Selfservice managers weergeven
 
-U kunt nu verlopende records in voor selfservice managers weergeven. Met nieuwe opties kunt u configureren welke informatie managers kunnen weergeven. Hieronder vallen:
+U kunt nu verlopende records in voor selfservice managers weergeven. Met nieuwe opties kunt u configureren welke informatie managers kunnen weergeven. Deze volgende opties zijn beschikbaar:
 
 -   Getuigschriften
 
@@ -51,7 +51,7 @@ Deze functie geeft u ook de mogelijkheid om het bereik van dagen op te geven waa
 
 U kunt op basis van rol de opties configureren die beschikbaar tijdens de invoer van een overplaatsingsaanvraag. Deze functie biedt extra flexibiliteit voor de rollen in een organisatie.
 
-Managers die werknemersoverplaatsingen aanvragen, kunnen bijvoorbeeld geen toegangsrechten hebben om voorstellen te doen, compensatiebedragen in te voeren of de lijsten met taken te selecteren die worden gekoppeld aan de overplaatsingsaanvraag. In dit geval kunnen managers overplaatsingsaanvragen maken en indienen, maar mogen ze geen compensatie- of takenlijsttoewijzingen invoeren. In deze zelfde configuratie kan HR de nieuwe compensatiewaarden toewijzen, alsmede eventuele extra controlelijsten toewijzen die moeten worden ingevuld als resultaat van de overplaatsing.
+Managers die werknemersoverplaatsingen aanvragen, kunnen bijvoorbeeld geen toegangsrechten hebben om voorstellen te doen, compensatiebedragen in te voeren of de lijsten met taken te selecteren die worden gekoppeld aan de overplaatsingsaanvraag. Managers kunnen overplaatsingsaanvragen maken en indienen, maar mogen geen compensatie- of takenlijsttoewijzingen invoeren. In deze zelfde configuratie kan HR de nieuwe compensatiewaarden toewijzen, alsmede eventuele extra controlelijsten toewijzen die moeten worden ingevuld als resultaat van de overplaatsing.
 
 De nieuwe configuratieopties worden standaard ingesteld op het niet wijzigen van de mogelijkheden vóór deze update.
 
@@ -59,7 +59,7 @@ De nieuwe configuratieopties worden standaard ingesteld op het niet wijzigen van
 
 Er zijn nu extra datumvelden beschikbaar in Verlof en verzuim.
 
-Met deze functie kunt u de basis van de toerekeningsperiode instellen op het planniveau om specifieke werknemerdatums te gebruiken. Hierdoor zijn andere datums mogelijk dan de begindatum van het plan die moeten worden gebruikt tijdens het toerekeningsproces voor verlof. Opties voor specifieke werknemerdatums omvatten de volgende waarden:
+Met deze functie kunt u de basis van de toerekeningsperiode instellen op het planniveau om specifieke werknemerdatums te gebruiken. Andere datums mogelijk dan de geplande begindatum kunnen worden gebruikt tijdens het toerekeningsproces voor verlof. Opties voor specifieke werknemerdatums omvatten de volgende waarden:
 
 -   Aangepast (beschikbaar vóór deze update)
 

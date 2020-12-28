@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 47a81d5c872b49b2395ed687855798fe04772b7e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428657"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417999"
 ---
 # <a name="define-new-jobs"></a>Nieuwe taken definiëren
 
@@ -57,7 +57,7 @@ Deze taak is gericht op het maken van een nieuwe taak. Het wordt voltooid met ha
 21. Zoek en selecteer de gewenste record in de lijst.
 22. Klik in de lijst op de koppeling in de geselecteerde rij.
 23. Schakel de uitbreiding van de sectie Vaardigheden om.
-    * Merk op dat de velden in de sneltabbladen Vaardigheden, Opleiding en Certificaten leeg zijn. Na het kopiëren van gegevens van een taaksjabloon, wordt de informatie in deze velden in één stap ingevoerd.   
+    * Merk op dat de velden in de sneltabbladen Vaardigheden, Opleiding en Certificaten leeg zijn. Na het kopiëren van gegevens van een taaksjabloon, wordt de informatie in deze velden in één stap ingevoerd.   
 24. Klik op Opslaan.
 25. Klik op Kopiëren van.
 26. Klik op Kopiëren uit sjabloon.

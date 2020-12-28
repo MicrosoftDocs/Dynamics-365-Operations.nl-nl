@@ -3,7 +3,7 @@ title: Kandidaten zoeken met LinkedIn Recruiter in Attract
 description: Gebruik de LinkedIn-integratie van Microsoft Dynamics 365 Talent - Attract om kandidaten te zoeken via LinkedIn Recruiter.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/08/2019
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 96e4660c4958bf5f2a0910bfad770e1e713f800f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833041"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528264"
 ---
 # <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>Kandidaten zoeken met LinkedIn Recruiter in Attract
 
@@ -33,6 +33,9 @@ ms.locfileid: "2833041"
 LinkedIn is het grootste onlinenetwerk voor professionals ter wereld en biedt u toegang tot de beste talenten wereldwijd. Met Microsoft Dynamics 365 Talent: Attract kunt u kandidaten rechtstreeks vanuit LinkedIn zoeken. Het is dus eenvoudiger dan ooit om het talent te vinden dat u nodig hebt om uw openstaande posities in te vullen. Nadat u de verbinding met LinkedIn hebt ingesteld via Attract, kunt u potentiële LinkedIn-kandidaten voor uw posities weergeven en deze met slechts één klik exporteren in Attract.
 
 Neem contact op met uw beheerder als u niet over deze mogelijkheid lijkt te beschikken. Voordat u optimaal gebruik kunt maken van LinkedIn Recruiter van Attract, moet uw beheerder de [integratie met LinkedIn instellen](./attract-admin-linkedin.md). U kunt vervolgens de verbinding met LinkedIn Recruiter instellen en beginnen met het zoeken naar kandidaten.
+
+>[!IMPORTANT]
+>Vanaf 1 juli 2020 wordt LinkedIn niet meer ondersteund door Internet Explorer 11. Gebruikers hebben nog steeds toegang tot LinkedIn met Internet Explorer 11, maar moeten een upgrade uitvoeren of een andere browser gebruiken. Zie [Ondersteunde internetbrowsers voor LinkedIn](https://www.linkedin.com/help/linkedin/answer/4135/supported-internet-browsers-for-linkedin) voor meer informatie.
 
 ## <a name="set-up-your-connection-with-linkedin-recruiter"></a>Uw verbinding met LinkedIn Recruiter instellen
 
@@ -48,16 +51,32 @@ Voordat u met LinkedIn Recruiter kunt werken via Attract, moet u de verbinding m
 
 Nadat u verbinding hebt gemaakt met LinkedIn Recruiter, kunt u de LinkedIn-profielen van de kandidaten weergeven in Attract.
 
+>[!NOTE]
+>Als er een Recruiter-seat aan u is toegewezen, kunt u de volledige informatie over de kandidaten bekijken.<br><br>
+>Als u een Hiring Manager-seat hebt of als er geen seat aan u is toegewezen, moet u zich afmelden bij LinkedIn of LinkedIn Recruiter voordat u naar het tabblad LinkedIn gaat om een kandidaat in Attract te zoeken. U kunt de basisgegevens van het openbare profiel van de kandidaat zien, zoals hun voor- en achternaam.
+
 1. Selecteer in Attract de optie **Functies** of **Talentenpools** links en selecteer vervolgens een sollicitant.
 
     ![[LinkedIn-kandidaten weergeven in Attract](./media/attract-view-linkedin-candidates.png)](./media/attract-view-linkedin-candidates.png)
 
-2. Selecteer in het profiel van de kandidaat het tabblad **LinkedIn**. U kunt het profiel van de kandidaat, de InMail-historie en historie van LinkedIn-notities weergeven.
+2. Selecteer in het profiel van de kandidaat het tabblad **LinkedIn**. U kunt het profiel van de kandidaat en de InMail-historie bekijken.
 
-Hier kunt u de kandidaat opslaan in een LinkedIn Recruiter-project, inMail verzenden of Update Me gebruiken om een waarschuwing in te stellen in LinkedIn Recruiter.
+   ![De LinkedIn-gegevens van een kandidaat bekijken](./media/attract-candidate-linkedin-tab.png)
+
+Van hieruit kunt u de volgende acties uitvoeren:
+
+- Het tabblad **Wervingsactiviteiten** selecteren om weer te geven:
+   
+   - Wervingsnotities (zowel openbare als privé). Standaard zijn notities privé en alleen zichtbaar voor de eigenaar ervan.
+   - InMail-activiteit (maar niet de InMail-inhoud). Scroll naar de onderkant van de pagina om de InMail-uitwisseling met uw prospect te bekijken en andere gebruikers in uw organisatie te bekijken die contact hebben gehad met uw prospect.
+   - Afwijzingsactiviteit kandidaat
+
+- Selecteer **Verzenden InMail** om InMail te versturen zonder Attract te verlaten.
+
+- Selecteer **Opslaan onder vacature** om de vacature op te slaan zonder Attract te verlaten.
 
 > [!NOTE]
-> Het LinkedIn-profiel van een kandidaat wordt weergegeven in Attract als de informatie van de kandidaat overeenkomt met de LinkedIn-gegevens. Hierbij worden de volgende vergelijkingsregels gebruikt:
+> Het LinkedIn-profiel van een kandidaat wordt getoond in Attract als de informatie van de kandidaat overeenkomt met de LinkedIn-gegevens. Hierbij worden de volgende vergelijkingsregels gebruikt:
 > 
 > 1. Als het e-mail adres en de LinkedIn-id overeenkomen in Attract en LinkedIn, wordt het profiel van de kandidaat weergegeven. Kandidaten hebben nog steeds de optie om hun LinkedIn-profiel te koppelen of ontkoppelen in Attract.
 > 2. Als het e-mail adres of de id van het LinkedIn-lid niet overeenkomt, wordt een lijst met mogelijke kandidaten weergegeven. U kunt vervolgens een kandidaat selecteren in de lijst en het profiel koppelen.
@@ -87,7 +106,7 @@ In LinkedIn Recruiter kunt u bijhouden of een kandidaat op andere functies in uw
     - **Feedback sollicitatiegesprek**: bekijk de feedback die interviewers in Attract hebben ingediend.
     - **Notities**: zie welke notities voor deze kandidaat zijn ingevoerd in Attract.
 
-    ![[Attract-gegevens weergeven vanuit LinkedIn Recruiter](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
+    ![[Attract-gegevens weergeven van LinkedIn Recruiter](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
 
 > [!NOTE]
 > Kandidaats- en sollicitatiegegevens worden niet gesynchroniseerd met LinkedIn Recruiter als de kandidaat de prospectfase niet voorbijkomt.

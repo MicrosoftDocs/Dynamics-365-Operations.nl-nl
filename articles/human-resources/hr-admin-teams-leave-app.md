@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51f04e553da822c4e09d31bcd72c71b674ad1f1b
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: e714be06984f399235f0799ef077a92deae64d9e
+ms.sourcegitcommit: b0aa724a18ab1fbb5a62925f048c54b2c676ebf4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930012"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4476072"
 ---
 # <a name="human-resources-app-in-teams"></a>Human resources-app in Teams
 
@@ -86,7 +86,6 @@ Nadat u meldingen voor de Teams-app Human Resources teams hebt ingeschakeld, kun
 
 | Uitgeven | Status |
 | --- | --- |
-| Horizontaal schuiven werkt niet op Android-telefoons | Horizontaal schuiven is geen probleem op iOS- of bureaubladapparaten. Wij werken aan een oplossing voor Android. |
 | Het saldo is onjuist bij het indienen van verlof voor een toekomstige datum. | Prognose maken is nog niet beschikbaar. Het saldo wordt weergegeven voor de huidige datum. |
 | Kan een aanvraag **Wordt gecontroleerd** niet annuleren. | Deze functionaliteit wordt momenteel niet ondersteund en wordt in een toekomstige versie toegevoegd. |
 | Saldogegevens worden vanaf vandaag berekend. | Het systeem geeft momenteel geen saldi weer voor de toerekeningsperiode, zelfs als deze is geconfigureerd in de parameters voor verlof en verzuim. |

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ad677d1c36ac5159111afdcb5c31aed215d7b0a1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 9887d22a513e820c35c51b6c702e2d9d34ab1214
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897736"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529751"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-14-2018"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent - Core HR (14 december 2018)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **Build 8.1.2085**
 
@@ -137,11 +139,11 @@ Voor de taak Medewerkers naar Werk moeten de volgende toewijzingen worden bijgew
 
 De transformatie van het veld Geslacht moet ook worden bijgewerkt. Selecteer het toewijzingtype **fn** (functie) voor Geslacht en werk de volgende waardetoewijzingen bij.
 
-| Common Data Service-waarde                   | Finance and Operations-waarde                     |
+| Waarde Common Data Service                   | Waarde Finance and Operations                     |
 | ----------------------------|--------------------------------------------------|
 | 75440000                    | Mannelijk                                             |
 | 75440001                    | Vrouwelijk                                           |
-| 75440002                    | Geen                                             | 
+| 75440002                    | None                                             | 
 | 75440003                    | NonSpecific                                      |
 
 De bijgewerkte toewijzingen moeten op de volgende afbeeldingen lijken.

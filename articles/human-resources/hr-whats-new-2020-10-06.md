@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5ca2fbbf3ffbcc7c9c32490f3733b8a94731170e
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fe01a2b82b72bf38bb537ed7b2bf5560235817d9
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022210"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529823"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (6 oktober 2020)
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Dynamics 365 Human Resources. Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Dynamics 365 Human Resources. Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
 Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
 
@@ -77,11 +79,11 @@ Van de volgende nieuwe functies kan een voorbeeld worden bekeken. Zie [Functies 
 
 De volgende nieuwe functies zijn gepland voor toekomstige versies:
 
-- **Controlelijstentiteiten die zijn opgenomen in Common Data Service** : binnenkort worden controlelijstentiteiten beschikbaar voor Onboarding, Offboarding, Overplaatsingen en Bedrijfsprocessen in Common Data Service.
+- **Controlelijstentiteiten die zijn opgenomen in Common Data Service**: binnenkort worden controlelijstentiteiten beschikbaar voor Onboarding, Offboarding, Overplaatsingen en Bedrijfsprocessen in Common Data Service.
 
-- **Redencodes voor vergoedingenbeheer** : binnenkort worden redencodes voor vergoedingenbeheer gecombineerd met bestaande redencodes in Human Resources. Als u redencodes van meer dan 15 tekens hebt gemaakt in Vergoedingenbeheer, moet u de naam van de redencodes in het formulier **Redencodes** wijzigen in een code van maximaal 15 tekens. Nadat u de naam hebt bijgewerkt, wordt de redencode weergegeven onder het bestaande redencodeformulier in Personeelsbeheer. Deze wijziging wordt in de toekomst beschikbaar en heeft geen invloed op bestaande functionaliteit.
+- **Redencodes voor vergoedingenbeheer**: binnenkort worden redencodes voor vergoedingenbeheer gecombineerd met bestaande redencodes in Human Resources. Als u redencodes van meer dan 15 tekens hebt gemaakt in Vergoedingenbeheer, moet u de naam van de redencodes in het formulier **Redencodes** wijzigen in een code van maximaal 15 tekens. Nadat u de naam hebt bijgewerkt, wordt de redencode weergegeven onder het bestaande redencodeformulier in Personeelsbeheer. Deze wijziging wordt in de toekomst beschikbaar en heeft geen invloed op bestaande functionaliteit.
 
-- **Aangepaste koppelingen in Selfservice manager** : ter ondersteuning van managers worden de mogelijkheden in Selfservice manager uitgebreid. We voegen de mogelijkheid toe om aangepaste koppelingen toe te voegen op het tabblad **Mijn team**. Deze functie is vergelijkbaar met de functie voor aangepaste koppelingen op het tabblad **Mijn gegevens** in Selfservice werknemer. Zie [Aangepaste koppelingen in Selfservice manager](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) voor meer informatie.
+- **Aangepaste koppelingen in Selfservice manager**: ter ondersteuning van managers worden de mogelijkheden in Selfservice manager uitgebreid. We voegen de mogelijkheid toe om aangepaste koppelingen toe te voegen op het tabblad **Mijn team**. Deze functie is vergelijkbaar met de functie voor aangepaste koppelingen op het tabblad **Mijn gegevens** in Selfservice werknemer. Zie [Aangepaste koppelingen in Selfservice manager](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) voor meer informatie.
 
 Zie [Overzicht van Dynamics 365 Human Resources 2019 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/) voor een volledige lijst met geplande functies en de bijbehorende geplande versies.
 

@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e00a54db50f1360096bb5329eef660927cecde3d
-ms.sourcegitcommit: 4359e7e4eec25362df61c9a26c7218604d12da3d
+ms.openlocfilehash: 97385da9d258cc169a9976be7c7798faa41661c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "3078038"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527688"
 ---
 # <a name="source-candidates-with-talent-pools-in-attract"></a>Kandidaten zoeken in talentenpools in Attract
 
 [!include [banner](includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Wervers en aanstellend managers kunnen hun kandidaten ordenen met behulp van de functionaliteit voor talentenpools in Attract. Talentenpools kunnen u helpen alle kandidaten die solliciteren naar functies in uw bedrijf bij te houden en met hen te communiceren.
 
@@ -113,7 +115,7 @@ Alle gebruikers hebben een gemeenschappelijke weergave van de kandidaatprofielen
 
 - Het tabblad **Documenten** bevat documenten die de kandidaat heeft toegevoegd vanuit zijn of haar profiel of tijdens sollicitaties. Dit tabblad kan worden gebruikt voor het beheren van cv's, begeleidende schrijvens, portfoliowerk, enzovoort van de kandidaat. U kunt dit tabblad ook gebruiken om documenten toe te voegen.
 
-    Als u een document wilt weergeven, selecteert u de documentnaam in de lijst van documenten. U kunt Microsoft Word-documenten in de toepassing bekijken met behulp van Microsoft Office 365. U kunt ook de documenten downloaden naar uw lokale computer met behulp van de optie **Downloaden** voor elk document.
+    Als u een document wilt weergeven, selecteert u de documentnaam in de lijst van documenten. U kunt Microsoft Word-documenten in de toepassing bekijken met behulp van Microsoft 365. U kunt ook de documenten downloaden naar uw lokale computer met behulp van de optie **Downloaden** voor elk document.
 
 - Het tabblad **LinkedIn** bevat de LinkedIn-informatie van de kandidaat. Als u dit tabblad wilt gebruiken, moet u uw LinkedIn-account in de gebruikersinstellingen verbinden en moet de LinkedIn Recruiter-verbinding van uw omgeving tot stand zijn gebracht. Zie [Kandidaten zoeken met LinkedIn Recruiter in Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md) voor meer informatie.
 

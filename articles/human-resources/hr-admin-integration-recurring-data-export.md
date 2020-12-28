@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: edd4b999624a845fc145ed9ff348ae9cba782719
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008576"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418020"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Een app voor terugkerende gegevensexporten maken
 
@@ -104,7 +104,7 @@ Het grootste deel van de oefening bestaat uit het maken van de logische app.
     3. Stel een HTTP **POST**-aanvraag in om de DMF Rest API **ExportToPackage** aan te roepen.
 
         - **Methode:** POST
-        - **URL van de aanvraag:** https://\<hostnaam\>/namespaces/\<naamruimte\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.ExportToPackage
+        - **URL van de aanvraag:** https://\<hostname\>/namespaces\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.ExportToPackage
         - **Hoofdtekst van de aanvraag:**
 
             ```JSON
@@ -141,7 +141,7 @@ Het grootste deel van de oefening bestaat uit het maken van de logische app.
         > In dit voorbeeld wordt geen foutcontrole uitgevoerd. De API **GetExecutionSummaryStatus** kan ook definitieve mislukt-statussen retourneren (dat wil zeggen een andere status dan **Voltooid**). Zie de [API-documentatie](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) voor meer informatie.
 
         - **Methode:** POST
-        - **URL van de aanvraag:** https://\<hostnaam\>/namespaces/\<naamruimte\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
+        - **URL van de aanvraag:** https://\<hostname\>/namespaces\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
         - **Hoofdtekst van de aanvraag:** body('Invoke\_an\_HTTP\_request')?['value']
 
             > [!NOTE]
@@ -159,7 +159,7 @@ Het grootste deel van de oefening bestaat uit het maken van de logische app.
     - Voeg de actie **HTTP-aanvraag aanroepen** toe om de DMF REST API [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) aan te roepen.
 
         - **Methode:** POST
-        - **URL van de aanvraag:** https://\<hostnaam\>/namespaces/\<naamruimte\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
+        - **URL van de aanvraag:** https://\<hostname\>/namespaces\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **Hoofdtekst van de aanvraag:** {"executionId": body('GetExportedPackageURL')?['value']}
 
         ![Actie GetExportedPackageURL](media/integration-logic-app-get-exported-package-step.png)

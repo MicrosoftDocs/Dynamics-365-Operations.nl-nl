@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-05-06
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 2039c09372381ef2c078e1f4d4ed8a25c22de5c7
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2814715"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460851"
 ---
 # <a name="view-the-status-of-onboarding-employees-and-your-tasks"></a>De status van onboardingmedewerkers en uw taken weergeven
 
@@ -33,12 +33,12 @@ Met Microsoft Dynamics 365 Talent: Onboard kunt u de voortgang van uw nieuwe med
 
 1. Selecteer **Handleidingen** in het linkermenu. U ziet een overzicht van de voortgang van alle onboardinghandleidingen die u hebt verzonden.
 
-    ![[De status van onboardinghandleidingen weergeven](./media/onboard-guide-status.png)](./media/onboard-guide-status.png)
+    ![[De status van onboarding-gidsen bekijken](./media/onboard-guide-status.png)](./media/onboard-guide-status.png)
 
 2. Als u wilt inzoomen, selecteert u de handleiding die u wilt weergeven.
 3. Selecteer het tabblad **Activiteiten** om te zien welke activiteiten uw nieuwe medewerker heeft voltooid.
 
-    ![[Activiteiten weergeven die de nieuwe medewerker heeft voltooid](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
+    ![[Activiteiten bekijken dat de nieuwe aanstelling is voltooid](./media/onboard-status-activities.png)](./media/onboard-status-activities.png)
 
 ## <a name="view-onboarding-tasks-that-are-assigned-to-you"></a>Onboardingtaken weergeven die aan u zijn toegewezen
 

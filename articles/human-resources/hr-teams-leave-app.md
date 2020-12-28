@@ -3,7 +3,7 @@ title: Verlofaanvragen beheren in Teams
 description: In dit onderwerp wordt beschreven hoe u verlof kunt aanvragen in de Dynamics 365 Human Resources-app in Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/30/2020
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
+ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3929988"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4418066"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Verlofaanvragen beheren in Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-Met de Microsoft Dynamics 365 Human Resources-app in Microsoft Teams kunt u snel verlof aanvragen en informatie over uw verlofsaldo bekijken rechtstreeks vanuit Microsoft Teams. U kunt werken met een bot om informatie aan te vragen en een verlofaanvraag te starten. Het tabblad **Verlof** bevat meer gedetailleerde informatie. Daarnaast kunt u mensen informatie sturen over uw geplande verlof in teams en chats buiten de app Human Resources.
+Met de Microsoft Dynamics 365 Human Resources-app in Microsoft Teams kunt u snel verlof aanvragen en informatie over uw verlofsaldo bekijken rechtstreeks vanuit Microsoft Teams. U kunt werken met een bot om informatie aan te vragen en een verlofaanvraag te starten. Het tabblad **Verlof** bevat meer gedetailleerde informatie. U kunt mensen ook informatie sturen over uw geplande verlof in teams en chats buiten de app Human Resources.
 
 ## <a name="install-the-app"></a>De app installeren
 
@@ -182,11 +182,25 @@ Als u zich niet kunt aanmelden bij de app, is het mogelijk dat de account die u 
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Fout bij het goedkeuren van verlofaanvragen in de Human Resources-app in Teams
 
-Als u een foutmelding krijgt tijdens het goedkeuren van verlofaanvragen in de Teams-app, voert u de volgende stappen uit voor het oplossen van problemen:
+Als u een foutmelding krijgt tijdens het goedkeuren van verlofaanvragen in de Teams-app, probeer dan de volgende stappen voor het oplossen van problemen:
 
 1. Controleer of de account waarmee u zich aanmeldt bij Microsoft Teams dezelfde account is als de account die u gebruikt om toegang te krijgen tot Dynamics 365 Human Resources.
 
 2. Controleer of u een geldige fiatteur bent voor de aanvraag door de werkstroominstellingen te controleren op verlofgoedkeuring. Zie [Een werkstroom voor een verlofaanvraag maken](hr-leave-and-absence-workflow.md) voor meer informatie over werkstromen voor verlofaanvragen.
+
+## <a name="known-accessibility-issues"></a>Bekende toegankelijkheidsproblemen
+
+De app Human Resources in teams heeft de volgende toegankelijkheidsproblemen, die in toekomstige versies worden gecorrigeerd.
+
+| Uitgeven | Tijdelijke oplossing of uitleg |
+| --- | --- |
+| Door te zoomen naar 400% op het bureaublad zijn enkele actieknoppen niet meer zichtbaar. | U kunt beter een vergrootglas gebruiken, totdat dit zoomniveau wel wordt ondersteund. |
+| Op het tabblad **Vrije tijd** kondigt VoiceOver een actieknop aan tijdens het lezen van de koptekst voor het vrijetijdsrooster. | De koptekst en elementen in het rooster worden gegroepeerd per jaar en ze kunnen worden samengevouwen. VoiceOver interpreteert dit als een uitvoerbaar item, maar dat is niet zo. |
+| Als u swipet terwijl een pop-up of menu is geopend, slaat VoiceOver de inhoud van het pop-upmenu of menu over. | Verken de inhoud met vingerscannen. |
+| Op het tabblad **Vrije tijd** is er een extra veeggebaar wanneer u naar **Redencode** navigeert in een nieuw verzoek. | Er is geen verborgen besturingselement waar het veeggebaar naartoe probeert te navigeren. |
+| Als u op het tabblad **Vrij tijd** veegt terwijl de kalender geopend is, komt u buiten het besturingselement terecht in plaats van bovenaan een nieuwe aanvraag of tijdens het bewerken van een aanvraag. | Wanneer u bij **Ga naar vandaag** komt, zie dat dan als het einde van het besturingselement en veeg in de omgekeerde richting om terug te gaan naar het begin. |
+| VoiceOver leest de labels voor datums niet. | De datums in paren zijn altijd **Begindatum** en **Einddatum**. |
+| Op het tabblad **Chat** wordt de focus naar boven verplaatst wanneer u een datum invoert terwijl u het hulpprogramma of de toetsenbordnavigatie gebruikt. | Druk op de Tab-toets totdat u het invoergebied weer bereikt. |
 
 ## <a name="privacy-notice"></a>Privacyverklaring
 

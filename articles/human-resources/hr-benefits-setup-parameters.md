@@ -1,9 +1,9 @@
 ---
-title: Parameters voor Vergoedingenbeheer instellen
-description: Configureer parameters voor Vergoedingenbeheer in Microsoft Dynamics 365 Human Resources.
+title: Parameters voor Vergoedingenbeheer en Werknemerselfservice instellen voor alle bedrijven
+description: Parameters voor Vergoedingenbeheer en Werknemerselfservice configureren in Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
 manager: tfehr
-ms.date: 07/16/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cb9dd6eb8ef840dab54eabab8526200a3a8e21f0
-ms.sourcegitcommit: e100c1c7c8dcdacf066defc206dd2f44b8ce6100
+ms.openlocfilehash: b50c4f71789c34f08ce810312f3c3198303b031e
+ms.sourcegitcommit: fd097f6f76f0d8428038fa3655b3188bf093b517
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4057023"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4692692"
 ---
-# <a name="set-benefits-management-parameters"></a>Parameters voor Vergoedingenbeheer instellen
+# <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Parameters voor Vergoedingenbeheer en Werknemerselfservice instellen voor alle bedrijven
 
-Voordat u verlofplannen kunt instellen in Microsoft Dynamics 365 Human Resources, moet u parameters voor Vergoedingenbeheer configureren. Met deze parameters worden standaardwaarden, redencodes en andere opties ingesteld.
+Voordat u vergoedingsplannen kunt instellen in Microsoft Dynamics 365 Human Resources, moet u parameters voor Vergoedingenbeheer configureren. Met deze parameters worden standaardwaarden, redencodes en andere opties ingesteld. 
 
 ## <a name="configure-general-parameters"></a>Algemene parameters configureren
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Gedeelde parameters voor Human Resources**.
 
-2. Geef op het tabblad **Algemeen** waarden op voor de volgende velden:
+2. Geef op het tabblad **Vergoedingenbeheer** waarden op voor de volgende velden:
 
    | Veld | Beschrijving |
    | --- | --- |
@@ -45,14 +45,16 @@ Voordat u verlofplannen kunt instellen in Microsoft Dynamics 365 Human Resources
    | **Redencode tariefwijziging** | De redencode die moet worden gebruikt bij het annuleren en opnieuw openen van een vergoedingsplan voor werknemers tijdens het bijwerkproces van de tariefwijziging. Het geeft aan welke records zijn gewijzigd door het wijzigingsproces voor de tariefwijziging. |
    | **Vergoedingen jaarsalaris** | Hiermee kunt u een **Jaarlijks salarisbedrag voor vergoedingen** voor een werknemer instellen. Human Resources gebruikt **het jaarlijkse salarisbedrag voor vergoedingen** om de dekkingsbedragen vast te stellen in plaats van het vaste jaarlijkse compensatiebedrag. |
    | **Nieuwe in aanmerking komende medewerker** | Hiermee wordt opgegeven of nieuw aangestelde medewerkers in aanmerking komen. |
-   | **Nieuwe inschrijvingsperiode van aanstelling** | De tijdsperiode waarin inschrijving van nieuw aangestelde medewerkers is toegestaan.</br></br>**Opmerking** : deze instelling heeft voorrang op elke nieuwe inschrijvingsperiode die u instelt voor de geschiktheidsregel voor het plan. |
+   | **Nieuwe inschrijvingsperiode van aanstelling** | De tijdsperiode waarin inschrijving van nieuw aangestelde medewerkers is toegestaan.</br></br>**Opmerking**: deze instelling heeft voorrang op elke nieuwe inschrijvingsperiode die u instelt voor de geschiktheidsregel voor het plan. |
    | **Standaard betalingsfrequentie** | De standaardbetalingsfrequentie die wordt gebruikt wanneer nieuwe werknemers worden toegevoegd. |
    | **Levensgebeurtenissen ingeschakeld** | Hiermee worden levensgebeurtenissen ingeschakeld. |
    | **Verouderde vergoedingsformulieren verbergen** | Hiermee kunt u verouderde vergoedingsformulieren verbergen. |
+   | **Vergoedingsverificatie** | De verificatietekst die moet worden gebruikt bij de afhandeling van selfservice vergoedingen. |
+   | **Begunstigden automatisch selecteren** | Hiermee wordt opgegeven of er automatisch gezinsleden en begunstigden moeten worden geselecteerd, op basis van hun geschiktheid voor planopties. |
 
 3. Selecteer **Opslaan**.
 
-## <a name="configure-employee-self-service-parameters"></a>Parameters voor Selfservice werknemer configureren
+## <a name="configure-employee-self-service-parameters"></a>Parameters voor Werknemerselfservice configureren
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Parameters voor Human Resources**.
 
@@ -64,3 +66,5 @@ Voordat u verlofplannen kunt instellen in Microsoft Dynamics 365 Human Resources
    | **Begunstigden automatisch selecteren** | Hiermee wordt opgegeven of er automatisch gezinsleden en begunstigden moeten worden geselecteerd op basis van hun geschiktheid voor planopties. |
 
 3. Selecteer **Opslaan**.
+
+

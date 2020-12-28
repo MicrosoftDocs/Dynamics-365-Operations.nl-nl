@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 68dc73b7316a3ceb7129c9ea46bc60669ed2be95
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 04b5a006d4580fe419d81986a90851bc8d611722
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896918"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528214"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-2-2019"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent (2 april 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Talent.
 
@@ -55,7 +57,7 @@ In Attract en Onboard worden met problemen die zijn geregistreerd door eindgebru
 Wijzigingen die worden beschreven in deze sectie, gelden voor buildnummer 8.1.2216.
 
 ### <a name="platform-update-25-for-finance-and-operations"></a>Platformupdate 25 voor Finance and Operations
-Zie voor meer details over Platformupdate 25 voor Finance and Operations [Voorbeeldfuncties in Dynamics 365 for Finance and Operations-platformupdate 25 (april 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
+Zie voor meer informatie over platformupdate 25 voor Finance and Operations [Voorbeeldfuncties in Dynamics 365 for Finance and Operations platformupdate 25 (april 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-25).
 
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Geavanceerde compensatiebeveiliging (vast en variabel)
 In veel organisaties hebben managers voor compensaties en vergoedingen mogelijk alleen toegang tot bepaalde compensatierecords. Deze kunnen records bevatten voor leidinggevenden of regionale werknemers. Met deze wijziging kan HR compensatieplannen beheren en onderhouden voor verschillende werknemersgroepen in de organisatie. U kunt beveiligingsrollen toewijzen aan vaste en variabele regelingen. Deze beveiligingsrollen bepalen de toegang tot regelingen en gerelateerde werknemersgegevens, zoals salaris- of bonusrecords, zodat alleen die rollen compensatie voor de werknemersgroepen kunnen verwerken.
@@ -77,4 +79,4 @@ Organisaties vereisen wellicht redencodes voor specifieke verloftypen wanneer we
 Met deze wijziging worden dubbele records gedetecteerd wanneer u naamvelden invoert en met een status wordt het aantal dubbelen weergegeven. U kunt de opgegeven koppeling selecteren om een nieuwe pagina te openen om te beoordelen of de gedetecteerde overeenkomst moet worden gebruikt. Om te voorkomen dat gegevensinvoer wordt onderbroken, wordt het formulier met dubbele records niet automatisch geopend.
 
 ###  <a name="email-support-for-alerts"></a>E-ondersteuning voor waarschuwingen
-Met Platformupdate 25 voor Finance and Operations kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer meldingen door een gebeurtenis worden geactiveerd. 
+Met Platform update 25 voor Finance and Operations kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer deze door een gebeurtenis worden geactiveerd. 

@@ -19,11 +19,11 @@ ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.openlocfilehash: d4a1e7c19ccec6ae32e46ec7d58604b162418953
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832949"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460769"
 ---
 # <a name="set-up-your-career-site-in-attract"></a>Uw vacaturesite instellen in Attract
 
@@ -62,7 +62,7 @@ De volgende lijst bevat de meest gebruikte vacaturesite-URL's en hoe u toegang k
 
 -   **Startpagina-URL van vacaturesite**: als u de startpagina-URL van een vacaturesite wilt weergeven, meldt u zich aan bij Attract als beheerder, selecteert u **Beheercentrum** in het menu **Instellingen** en selecteert u vervolgens het tabblad **Beheer van vacaturesite**.
 
--   **Sollicitatie-URL afzonderlijke vacature**: wanneer u voor de eerste keer [een externe functie publiceert](Creating-jobs-Attract.md#postings), kunt u de koppeling **Solliciteren** kopiëren uit Attract. De URL voor deze koppeling heeft de volgende indeling: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **Sollicitatie-URL afzonderlijke vacature**: wanneer u voor de eerste keer [een externe functie publiceert](Creating-jobs-Attract.md#postings), kunt u de koppeling **Solliciteren** kopiëren uit Attract. De URL voor deze koppeling heeft de volgende indeling: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/solliciteren](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **URL afzonderlijke vacature**: de URL van de vacature is een subreeks van de sollicitatie-URL. Deze reeks bestaat uit alles tot en met het vacaturenummer. Daarom is voor de voorgaande sollicitatie-URL de URL van de vacature [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e).
 

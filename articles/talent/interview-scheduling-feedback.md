@@ -15,11 +15,11 @@ ms.search.scope: Talent, Core
 ms.search.region: Global
 ms.author: shielas
 ms.openlocfilehash: 33eba9796ca997fde4be9a46050207d313551bde
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832740"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460834"
 ---
 # <a name="schedule-interviews-in-attract"></a>Interviews plannen in Attract
 
@@ -52,7 +52,7 @@ Er zijn meerdere configuraties beschikbaar voor de planner van sollicitatiegespr
     
     De sollicitatiegesprekplanning moet zo worden geordend dat deze zo goed mogelijk overeenkomt met de beschikbaarheid van de deelnemers. Als het om interne kandidaten gaat, kunt u hun beschikbaarheid opnemen als onderdeel van de planningsaanbeveling.
     
-    Voor een on line vergadering selecteert u het veld **Online Skype-vergaderingen toevoegen** en elke gespreksgebeurtenis heeft de koppeling**Skype voor Bedrijven** beschikbaar.
+    Voor een on line vergadering selecteert u het veld **Online Skype-vergaderingen toevoegen** en elke gespreksgebeurtenis heeft de koppeling **Skype voor Bedrijven** beschikbaar.
 
 2. Selecteer de duur van het sollicitatiegesprek voor elke sollicitatiegespreksgebeurtenis en klik vervolgens op **OK** om te beginnen met het maken van de planning.
 

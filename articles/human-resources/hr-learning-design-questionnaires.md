@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429561"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4418043"
 ---
 # <a name="design-questionnaires"></a>Vragenlijsten ontwerpen
 
@@ -37,7 +37,7 @@ Door een vragenlijst zorgvuldig te ontwerpen, verhoogt u de kwaliteit van de geg
 -   Zorg ervoor dat de vragenlijst logisch is opgebouwd, zodat de respondenten geïnteresseerd blijven.
 -   Plaats vragen en antwoorden in de volgorde waarin ze moeten verschijnen voor respondenten.
 -   Kies hoe de resultaten moeten worden geëvalueerd, indien van toepassing.
--   Bepaal of u extra functies nodig hebt. Bep[aal bijvoorbeeld of en hoe resultaten moeten worden gecategoriseerd, of een tijdslimiet is vereist en of alle vragen verplicht zijn.
+-   Bepaal of u extra functies nodig hebt. Bepaal bijvoorbeeld of en hoe resultaten moeten worden gecategoriseerd, of een tijdslimiet is vereist en of alle vragen verplicht zijn.
 
 De ontwerpfase bevat vier categorieën van taken die u in deze volgorde moet voltooien:
 
@@ -91,7 +91,7 @@ De nummerreekscodes worden gebruikt voor het ordenen van vragen en antwoorden. O
 Definieer eerst alle parameters voordat u uw gegevens gaat maken. U kunt de instellingen van de vragenlijst op elk gewenst moment wijzigen.
 
 ## <a name="questionnaire-components"></a>Vragenlijstonderdelen
-Vragenlijsten bestaat uit drie hoofdelementen: antwoordgroepen die de antwoorden voor meerkeuzevragen bevatten, en de vragenlijst zelf. U kunt de vragen in een vragenlijst desgewenst in resultaatgroepen groeperen. Met resultaatgroepen kunt u vragen categoriseren en hebt u een nadere analyse op de vragenlijst. 
+Vragenlijsten bestaat uit drie hoofdelementen: antwoordgroepen die de antwoorden voor meerkeuzevragen bevatten, en de vragenlijst zelf.  U kunt de vragen in een vragenlijst desgewenst in resultaatgroepen groeperen. Met resultaatgroepen kunt u vragen categoriseren en hebt u een nadere analyse op de vragenlijst. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 

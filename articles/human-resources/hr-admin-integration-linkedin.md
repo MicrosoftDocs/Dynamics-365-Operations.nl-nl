@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e82b79858060f31a6310cc5abdb2faf87db2d6c2
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 6f70e3a6ccf9770c75334d355db5e9df9ee912dd
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4056092"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527880"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integreren met LinkedIn Talent Hub
 
 [!include [banner](includes/preview-feature.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 [LinkedIn Talent Hub](https://business.linkedin.com/talent-solutions/talent-hub) is een ATS-platform (Applicant Tracking System). Hier zijn sourcing, beheer en aanstelling van werknemers op één plaats mogelijk. Door Microsoft Dynamics 365 Human Resources te integreren met LinkedIn Talent Hub kunt u eenvoudig werknemersrecords in Human Resources maken voor sollicitanten die voor een functie zijn aangesteld.
 
@@ -99,7 +101,7 @@ Er moet een toepassingsgebruiker worden gemaakt voor de LinkedIn Talent Hub-adap
     1. Wijzig de waarde van het veld **Gebruikerstype** in **Toepassingsgebruiker**.
     2. Stel het veld **Gebruikersnaam** in op **HRIS-integratie met Dynamics365 HR LinkedIn**.
     3. Stel het veld **Toepassings-ID** in op **3a225c96-d62a-44ce-b3ec-bd4e8e9befef**.
-    4. Voer een waarde in de velden **Voornaam** , **Achternaam** en **Primaire e-mail** in.
+    4. Voer een waarde in de velden **Voornaam**, **Achternaam** en **Primaire e-mail** in.
     5. Selecteer **Opslaan \& sluiten** op de werkbalk.
 
 ### <a name="assign-a-security-role-to-the-new-user"></a>Een beveiligingsrol toewijzen aan de nieuwe gebruiker
@@ -121,9 +123,9 @@ Nadat u de nieuwe toepassingsgebruiker in de vorige sectie hebt opgeslagen en ge
 1. Open in Dynamics 365 Human Resources de pagina **Azure Active Directory-toepassingen**.
 2. Voeg een nieuwe record toe aan de lijst en stel de volgende velden in:
 
-    - **Client-ID** : voer **3a225c96-d62a-44ce-b3ec-bd4e8e9befef** in.
-    - **Naam** : voer de naam in van de Power Apps-beveiligingsrol die u eerder hebt gemaakt, zoals **HRIS-integratie met LinkedIn Talent Hub**.
-    - **Gebruikers-ID** : selecteer een gebruiker met machtigingen voor het schrijven van gegevens in Personeelsbeheer.
+    - **Client-ID**: voer **3a225c96-d62a-44ce-b3ec-bd4e8e9befef** in.
+    - **Naam**: voer de naam in van de Power Apps-beveiligingsrol die u eerder hebt gemaakt, zoals **HRIS-integratie met LinkedIn Talent Hub**.
+    - **Gebruikers-ID**: selecteer een gebruiker met machtigingen voor het schrijven van gegevens in Personeelsbeheer.
 
 ### <a name="create-the-entity-in-common-data-service"></a>De entiteit maken in Common Data Service
 
@@ -152,7 +154,7 @@ Nadat een kandidaat is verplaatst via het wervingsproces en is aangesteld, kunt 
 
 3. Selecteer **Fase wijzigen** en selecteer vervolgens **Aangesteld**.
 
-4. Selecteer in het menu met het weglatingsteken ( **...** ) voor de kandidaat de optie **Exporteren naar HRIS**.
+4. Selecteer in het menu met het weglatingsteken (**...**) voor de kandidaat de optie **Exporteren naar HRIS**.
 
 5. Voer in het deelvenster **Exporteren naar HRIS** de gegevens in die moeten worden geëxporteerd:
 

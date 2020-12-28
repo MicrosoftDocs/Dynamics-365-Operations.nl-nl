@@ -1,9 +1,9 @@
 ---
-title: Verlof werknemer beheren
-description: Definieer Human resources-parameters voor verlof en verzuim in Dynamics 365 Human Resources.
+title: Werknemerverlof beheren
+description: Werknemerverlof beheren in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 04/30/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4c45d2c57d89929ac9c423ab58aee4cbfa213509
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712120"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4418068"
 ---
-# <a name="manage-employee-leave"></a>Verlof werknemer beheren
+# <a name="manage-employee-leave"></a>Werknemerverlof beheren
 
 U kunt het verlof van een werknemer op verloftype beheren. Dit omvat de vervalregistratie voor verlof en het aanpassen van saldi voor de typen verlof. 
 
@@ -44,6 +44,13 @@ U kunt het verlof van een werknemer op verloftype beheren. Dit omvat de vervalre
 6. U kunt desgewenst ook een **Datum** selecteren. 
 
 U kunt een redencode en een opmerking opnemen bij het aanpassen van het verlofsaldo van een werknemer. 
+
+>[!IMPORTANT]
+>Aanvullende informatie over verlofsaldi wordt weergegeven. U moet deze in uw **Sandbox**-omgeving inschakelen. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het inschakelen van previewfuncties.<br>
+>Wanneer u de aanwijzer op een verlofsaldo houdt, ziet u het volgende:<br>
+>- **Beschikbaar** : totaal dit jaar - op te nemen dit jaar
+>- **Totaal dit jaar**: alle grootboekposten, correcties en transportsaldi voor het jaar
+>- **Dit jaar opgenomen** : alle goedgekeurde vrije dagen
 
 ## <a name="see-also"></a>Zie ook
 

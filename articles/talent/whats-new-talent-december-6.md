@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e46000414436b5a2fa211428dcd10131b9d588c1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 462b87a655e3e4017cffd2ba41cb6d1f18de3e50
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897690"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529157"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-6-2018"></a>Wat is nieuw of gewijzigd in Dynamics 365 Talent - Core HR (6 december 2018)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **Build 8.1.2071**
 
@@ -40,7 +42,7 @@ De functie Exporteren naar Excel kan nu zo worden geconfigureerd dat gebruikers 
 
 ### <a name="restyled-personalization-toolbar"></a>Aanpassingswerkbalk opnieuw vormgegeven
 
-De aanpassingswerkbalk is opnieuw vormgegeven in Platformupdate 22 voor Finance and Operations, om gebruikers te helpen hun eigen ervaringen gemakkelijker aan te passen in Talent. De volgende wijzigingen zijn aangebracht: 
+De aanpassingswerkbalk is opnieuw vormgegeven in platformupdate 22 voor Finance and Operations om gebruikers te helpen hun eigen ervaringen gemakkelijker aan te passen in Talent. De volgende wijzigingen zijn aangebracht: 
 
 -  De naam van elk aanpassingsprogramma wordt nu weergegeven met een pictogram, zodat gebruikers de programma's die ze willen gebruiken snel herkennen.
 -  De beschrijving voor het gebruik van het huidige programma wordt nu ook weergegeven, zodat gebruikers begrijpen hoe ze de nodige aanpassingen doorvoeren.  
@@ -48,13 +50,13 @@ De aanpassingswerkbalk is opnieuw vormgegeven in Platformupdate 22 voor Finance 
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>Ervaring 'is een van' geoptimaliseerd
 
-De filteroperator 'is een van' is beschikbaar voor de meeste velden bij het gebruik van het filterdeelvenster en de vervolgkeuzelijsten in de koptekst van het raster. Met deze operator kan een gebruiker een veld op basis van meerdere waarden filteren. Een nieuwe en verbeterde ervaring voor de ¨is een van¨ operator is beschikbaar in Platformupdate 22 voor Finance and Operations Zie [Geoptimaliseerde filterervaring "is één van" ingeschakeld](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering) voor meer informatie.
+De filteroperator 'is een van' is beschikbaar voor de meeste velden bij het gebruik van het filterdeelvenster en de vervolgkeuzelijsten in de koptekst van het raster. Met deze operator kan een gebruiker een veld op basis van meerdere waarden filteren. Een nieuwe en verbeterde ervaring voor de operator 'is een van' is beschikbaar in platformupdate 22 voor Finance and Operations. Zie [Geoptimaliseerde filterervaring "is één van" ingeschakeld](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering) voor meer informatie.
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>Lijsten vanuit Excel in filtervelden plakken met de operator 'is een van'
 
 Voor sommige taken hebben gebruikers wellicht een lijst met waarden in Excel die ze willen gebruiken voor het filteren van gegevens in Talent. Een Human Resource-gebruiker kan bijvoorbeeld in een rapport een aantal werknemers hebben geïdentificeerd waarvoor aanvullend onderzoek in het systeem nodig is en het zou voor deze gebruiker ideaal zijn als de lijst rechtstreeks vanuit Excel naar een filterveld in Talent kon worden gekopieerd.
 
-Vanaf Platformupdate 22 voor Finance and Operations herkent de ¨is een van¨ operator in het filterdeelvenster en de rasterkolomfilters nu lijsten die worden gekopieerd vanuit Excel, zodat deze rechtstreeks in een filterveld kunnen worden geplakt. Het gaat hierbij om een verzameling waarden die uit verschillende rijen en kolommen in Excel worden gekopieerd. Zie [Lijsten vanuit Excel in filtervelden plakken met de operator 'is een van'](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel) voor meer informatie over deze functie.
+Vanaf platformupdate 22 voor Finance and Operations herkent de operator 'is een van' in het filterdeelvenster en de rasterkolomfilters nu lijsten die worden gekopieerd vanuit Excel, zodat deze rechtstreeks in een filterveld kunnen worden geplakt. Het gaat hierbij om een verzameling waarden die uit verschillende rijen en kolommen in Excel worden gekopieerd. Zie [Lijsten vanuit Excel in filtervelden plakken met de operator 'is een van'](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel) voor meer informatie over deze functie.
 
 ## <a name="in-preview"></a>Preview
 
@@ -133,7 +135,7 @@ Voor de taak Medewerkers naar Werk moeten de volgende toewijzingen worden bijgew
 
 De transformatie van het veld Geslacht moet ook worden bijgewerkt. Selecteer het toewijzingtype **fn** (functie) voor Geslacht en werk de volgende waardetoewijzingen bij.
 
-| Common Data Service-waarde   | Finance and Operations-waarde | | ------------|------------------ -----------| | 75440000    | Mannelijk                         | | 75440001    | Vrouwelijk                       | | 75440002    | Geen                         | | 75440003    | NonSpecific                  |
+| Common Data Service Waarde   | Finance and Operations waarde | | ------------|------------------ -----------| | 75440000 | Mannelijk                         | | 75440001 | Vrouwelijk                      | | 75440002 | Geen                         | | 75440003    | Niet-specifieke                  |
 
 De bijgewerkte toewijzingen moeten hierop lijken.
 

@@ -2,8 +2,8 @@
 title: Parameters voor verlof en verzuim configureren
 description: Definieer Human resources-parameters voor verlof en verzuim in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/20/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712371"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4418069"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Parameters voor verlof en verzuim configureren
 
@@ -47,6 +47,19 @@ Voordat u verlof- en verzuimplannen instelt in Dynamics 365 Human Resources, kun
 5. Geef op het tabblad **Selfservice werknemer** aan of managers verlof- en verzuimaanvragen kunnen invoeren namens hun werknemers.
 
 7. Selecteer **Opslaan**.
+
+>[!IMPORTANT]
+>Het bekijken van verlof en afwezigheid binnen bedrijven wordt momenteel in een voorbeeld weergegeven. U moet de optie in uw **Sandbox**-omgeving inschakelen om de optie voor verlof en verzuim weer te geven. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het inschakelen van previewfuncties.
+
+## <a name="view-and-change-human-resources-shared-parameters"></a>Gedeelde Human Resources-parameters weergeven en wijzigen
+
+1. Op de **Personeelsbeheer** selecteert u het tabblad **Koppelingen**.
+
+2. Selecteer onder **Instellen** de optie **Gedeelde Human Resources-parameters**.
+
+3. Selecteer op het tabblad **Geavanceerde toegang** de optie **Ja** bij **Verlofweergave voor het hele bedrijf inschakelen**.
+
+4. Selecteer **Opslaan**.
 
 ## <a name="view-and-change-leave-and-absence-parameters"></a>Parameters voor verlof en verzuim weergeven en aanpassen
 
