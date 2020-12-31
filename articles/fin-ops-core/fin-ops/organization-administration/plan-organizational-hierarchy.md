@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 17404
 ms.assetid: babde0c6-bb5d-45ae-95ca-2af75a0ea292
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b5df0c7a84a2c24bdbcd39837119bc184c1f3fcf
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177250"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694684"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Uw organisatiehiërarchie plannen
 
@@ -45,7 +44,7 @@ Wanneer u hiërarchieën plant, is het ook van belang om de relatie tussen de or
 
 U moet ten minste één rechtspersoon hebben die uw bedrijf vertegenwoordigd. Een rechtspersoon kan wettelijk bindende overeenkomsten aangaan en is verplicht financieele overzichten te overleggen.
 
-Rechtspersonen kunnen worden gebruikt voor transactiezaken of voor consolidatie. Dit betekent dat een rechtspersoon in Finance and Operations niet noodzakelijkerwijs een echte entiteit in uw bedrijf vertegenwoordigd. Bijvoorbeeld, een bedrijf dat aan transacties deelneemt kan over dochtermaatschappijen beschikken. In dit scenario, is een rechtspersoon vereist voor transacties, en een virtuele rechtspersoon is vereist om de resultaten en de saldi van de dochtermaatschappijen te consolideren.
+Rechtspersonen kunnen worden gebruikt voor transactiezaken of voor consolidatie. Dit betekent dat een rechtspersoon in Finance and Operations niet noodzakelijkerwijs een echte rechtspersoon in uw bedrijf vertegenwoordigt. Bijvoorbeeld, een bedrijf dat aan transacties deelneemt kan over dochtermaatschappijen beschikken. In dit scenario, is een rechtspersoon vereist voor transacties, en een virtuele rechtspersoon is vereist om de resultaten en de saldi van de dochtermaatschappijen te consolideren.
 
 De interne organisaties in uw bedrijf, zoals regionale kantor, kunnen als extra rechtspersonen, of als operationele eenheden van de belangrijkste rechtspersoon worden weergegeven. Een operationele eenheid is niet vereist om een wettelijk gedefinieerde organisatie te zijn. De operationele eenheden worden gebruikt om economische middelen en operationele processen in het bedrijf te controleren. Afdelingen en kostenplaatsen zijn bijvoorbeeld operationele eenheden.
 

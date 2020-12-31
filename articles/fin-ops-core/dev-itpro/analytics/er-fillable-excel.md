@@ -3,7 +3,7 @@ title: Een configuratie ontwerpen voor het genereren van documenten in Excel-ind
 description: Dit onderwerp bevat informatie over het ontwerpen van een ER-indeling (Elektronische rapportage) voor het invullen van een Excel-sjabloon en het genereren van uitgaande Excel-documenten.
 author: NickSelin
 manager: AnnBe
-ms.date: 05/14/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e889b08f10c5d0c95fed7c9e422340706bdd154a
-ms.sourcegitcommit: 67ce81c57194afb26a04ae4c0b7509e0efa32afc
+ms.openlocfilehash: d5733e40c67f9c97b04f126f7c3cfea9d4f8f5b5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "3375808"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686533"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 
@@ -165,6 +164,17 @@ Wanneer u een ER-indeling valideert die kan worden bewerkt, wordt een consistent
 
 ![Foutbericht over validatie](./media/er-excel-format-validate.png)
 
+## <a name="control-the-calculation-of-excel-formulas"></a>De berekening van Excel-formules beheren
+
+Wanneer een uitgaand document in een Microsoft Excel-werkmapindeling wordt gegenereerd, bevatten sommige cellen in dit document mogelijk Excel-formules. Wanneer de functie **Gebruik van EPPlus-bibliotheek inschakelen in het ER-raamwerk** is ingeschakeld, kunt u bepalen wanneer de formules worden berekend door de waarde van de [parameter](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows) **Berekeningsopties** te wijzigen in de Excel-sjabloon die wordt gebruikt:
+
+- Selecteer **Automatisch** als u alle afhankelijke formules telkens opnieuw wilt berekenen wanneer een gegenereerd document wordt toegevoegd door nieuwe bereiken, cellen enzovoort.
+    >[!NOTE]
+    > Dit kan leiden tot een prestatieprobleem voor Excel-sjablonen die meerdere gerelateerde formules bevatten.
+- Selecteer **Handmatig** om te voorkomen dat formuleherberekening wordt uitgevoerd wanneer een document wordt gegenereerd.
+    >[!NOTE]
+    > Herberekening van formules wordt handmatig uitgevoerd wanneer een gegenereerd document wordt geopend voor preview met Excel.
+    > Gebruik deze optie niet als u een ER-bestemming configureert die uitgaat van het gebruik van een gegenereerd document zonder de preview in Excel (PDF-conversie, e-mailing enz.) omdat het gegenereerde document mogelijk geen waarden bevat in cellen die formules bevatten.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

@@ -3,24 +3,23 @@ title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van Finance and Operations-apps.
 author: sericks007
 manager: AnnBe
-ms.date: 09/24/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 51d1d0ed2ce95573ec123121999d73446a7e4ea4
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971440"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689561"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
 
@@ -37,8 +36,16 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.15 van Finance and Operations-apps
 
-> [!NOTE]
-> Versie 10.0.15 is een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Veelgestelde vragen over updates van service met één versie](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11-ondersteuning voor Dynamics 365 is afgeschaft
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Met ingang van december 2020 wordt Microsoft Internet Explorer 11-ondersteuning voor alle Dynamics 365-producten afgeschaft en wordt Internet Explorer 11 na augustus 2021 niet meer ondersteund.<br><br>Dit heeft invloed op klanten die Dynamics 365-producten gebruiken die zijn ontworpen om via een Internet Explorer 11-interface te worden gebruikt. Na augustus 2021 wordt Internet Explorer 11 niet ondersteund voor dergelijke Dynamics 365-producten. |
+| **Vervangen door een andere functie?**   | Wij raden klanten aan om overstappen op Microsoft Edge.|
+| **Betrokken productgebieden**         | Alle Dynamics 365-producten |
+| **Implementatieoptie**              | Alles|
+| **Status**                         | Afgeschaft. Internet Explorer 11 wordt na augustus 2021 niet ondersteund.|
+
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio-invoegtoepassing voor het toepassen van hotfixes voor metagegevens
 
@@ -52,10 +59,6 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 
 ## <a name="platform-updates-for-version-10014-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.14 van Finance and Operations-apps
-
-> [!NOTE]
-> Versie 10.0.14 is een preview-versie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Beschikbaarheid van serviceupdate](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases).
-
 
 ### <a name="online-users-page"></a>Online gebruikers (pagina) 
 
@@ -143,8 +146,8 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Reden voor afschaffing/verwijdering** | Ter ondersteuning van de meest recente versies van Visual Studio moeten enkele wijzigingen worden aangebracht in de X++-extensies voor Visual Studio. Deze wijzigingen zijn niet compatibel met Visual Studio 2015. |
 | **Vervangen door een andere functie?**   | Visual Studio 2017 vervangt Visual Studio 2015 als de geïmplementeerde en vereiste versie. |
 | **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
-| **Implementatieoptie**              | Alle |
-| **Status**                         | Zodra de beschikbaarheid van nieuwe virtuele machines (VM's) met Visual Studio 2017 wordt aangekondigd, moeten bestaande VM's met alleen Visual Studio 2015 opnieuw worden geïmplementeerd via releasewave 1 van 2021. |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Virtuele machines die zijn geïmplementeerd op versie 10.0.13 (Platformupdate 37) of hoger bevatten Visual Studio 2017. Versie 10.0.16 (Olatformupdate 40) is de laatste versie met ondersteuning voor Visual Studio 2015. Virtuele machines met alleen Visual Studio 2015 kunnen niet worden bijgewerkt naar versie 10.0.17 (Platformupdate 41). |
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Veldgroepen die ongeldige veldverwijzingen bevatten
 

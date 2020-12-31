@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d9911c858d6832aa70378d37e0fd5cf7d7831b1b
-ms.sourcegitcommit: dce8c5d3b2fc4a752d676cf9ba91e0dea2fa80d8
+ms.openlocfilehash: 14eb8a59b64a49649768f93befdf8e6e8dcf8105
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "3257056"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685377"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Geavanceerde formule-editor voor elektronische rapporten
 
@@ -44,9 +43,9 @@ Behalve de [formule-editor](general-electronic-reporting-formula-designer.md) vo
 
 Voer de volgende stappen uit om de geavanceerde formule-editor te gebruiken in uw exemplaar van Microsoft Dynamics 365 Finance.
 
-1.  Ga naar  **Organisatiebeheer** \> **Elektronische rapportage** \> **Configuraties**.
-2.  Selecteer op de pagina **Configuraties** in het actiedeelvenster op het tabblad **Configuraties** in de groep **Geavanceerde instellingen** de optie **Gebruikersparameters**.
-3.  Stel in het dialoogvenster **Gebruikersparameters** in de sectie **Uitvoeringstracering** de parameter **Geavanceerde formule-editor inschakelen** in op **Ja**.
+1.  Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Configuraties**.
+2.  Selecteer op de pagina **Configuraties** in het actievenster op het tabblad **Configuraties** in de groep **Geavanceerde instellingen** de optie **Gebruikersparameters**.
+3.  Stel in het dialoogvenster **Gebruikersparameters** in de sectie **Uitvoeringstracering** de parameter **Geavanceerde formule-editor inschakelen** in op **Ja**.
 
 [![Pagina ER-configuraties](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 
@@ -83,7 +82,7 @@ Wanneer u naar het getypte haakje wijst, wordt het tweede haakje van dit paar au
 
 U kunt de vereiste symbolen of regels in uw expressie vinden door de opdracht **Ga naar** te typen met het opdrachtpalet of het contextmenu.
 
-Als u bijvoorbeeld naar regel **8**wilt gaan, gaat u als volgt te werk:
+Als u bijvoorbeeld naar regel **8** wilt gaan, gaat u als volgt te werk:
 
 - Druk **op CTRL+G**, voer de waarde **8** in en druk op **ENTER**.
 
@@ -123,7 +122,7 @@ Als u bepaalde tekst wilt zoeken, selecteert u de tekst in de expressie en gaat 
 
   – of –
   
-- Druk **op**F1, typ **F** en selecteer vervolgens de vereiste optie om de geselecteerde tekst te zoeken.
+- Druk **op** F1, typ **F** en selecteer vervolgens de vereiste optie om de geselecteerde tekst te zoeken.
 
 Als u bepaalde tekst wilt vervangen, selecteert u de tekst in de expressie en gaat u als volgt te werk:
 

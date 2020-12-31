@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd4dd7e9a3e1aa448adea5abd0c21b8133f34e3b
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: 228620afc81e154eced572f3b6024d6836d00d66
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201084"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686022"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Lijst met ER-functies van de tekstcategorie
 
@@ -37,7 +36,7 @@ ER-tekstfuncties kunnen worden gebruikt om bewerkingen uit te voeren op gegevens
 |----------|-------------|
 | [Char](er-functions-text-char.md) | Deze functie retourneert een waarde van het type *Tekenreeks* van één teken waarnaar wordt verwezen door het opgegeven Unicode-nummer. |
 | [Samenvoegen](er-functions-text-concatenate.md) | Deze functie retourneert alle opgegeven tekenreeksen als een waarde van het type *Tekenreeks* nadat ze zijn samengevoegd in één tekenreeks. |
-| [Indeling](er-functions-text-format.md) | Met deze functie retourneert de opgegeven tekenreeks een waarde van het type *Tekenreeks* nadat deze is ingedeeld door elk exemplaar van **%N** te vervangen door het *N*e argument. |
+| [Indeling](er-functions-text-format.md) | Met deze functie retourneert de opgegeven tekenreeks een waarde van het type *Tekenreeks* nadat deze is ingedeeld door elk exemplaar van **%N** te vervangen door het *N* e argument. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Deze functie zoekt naar een specifieke waarde van het type *Opsomming* in de opgegeven gegevensbron voor opsommingen met behulp van de opsommingsnaam die is opgegeven als waarde van het type *Tekenreeks*. Als de waarde van het type *Opsomming* wordt gevonden, wordt deze geretourneerd. |
 | [GuidValue](er-functions-text-guidvalue.md) | Deze functie converteert de opgegeven invoer van het gegevenstype *Tekenreeks* naar een gegevensitem van het gegevenstype *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Deze functie parseert gegevens in de indeling JavaScript Object Notation (JSON), die kan worden geopend op het opgegeven pad, en er wordt een scalaire waarde geëxtraheerd die is gebaseerd op de opgegeven id. Vervolgens wordt de geëxtraheerde scalaire waarde als een *tekenreekswaarde* geretourneerd. |

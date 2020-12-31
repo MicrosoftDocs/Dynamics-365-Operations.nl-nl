@@ -3,7 +3,7 @@ title: Rastermogelijkheden
 description: Dit onderwerp beschrijft diverse krachtige functies van het rasterbesturingselement. De nieuwe rasterfunctie moet zijn ingeschakeld als u toegang tot deze mogelijkheden wilt hebben.
 author: jasongre
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,21 +11,21 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835081"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693769"
 ---
 # <a name="grid-capabilities"></a>Rastermogelijkheden
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Het nieuwe rasterbesturingselement biedt een aantal handige en krachtige functies die kunnen worden gebruikt om de productiviteit van gebruikers te verbeteren, interessantere weergaven van uw gegevens te maken en inzicht te krijgen in uw gegevens. In dit artikel worden de volgende mogelijkheden besproken: 
 
@@ -95,21 +95,23 @@ Ter bevordering van de productiviteit kunnen gebruikers wiskundige formules invo
 Als u wilt dat het systeem een waarde herkent als een expressie, start u de waarde met het gelijkteken (**=**). Zie [Ondersteunde wiskundige symbolen](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols) voor meer informatie over de ondersteunde operators en syntaxis.
 
 ## <a name="grouping-tabular-data"></a>Tabelgegevens groeperen
-[!include [preview banner](../includes/preview-banner.md)]
+Zakelijke gebruikers moeten vaak ad hoc gegevensanalyse uitvoeren. U kunt dit doen door gegevens te exporteren naar Microsoft Excel en draaitabellen te gebruiken, maar met de functie **Groepering in rasters**, die algemeen beschikbaar is in versie 10.0.16/Platformupdate 40 en afhankelijk is van de functie Nieuw rasterbesturingselement, kunnen gebruikers hun tabelgegevens op interessante manieren ordenen in Finance and Operations-apps. Aangezien deze functie de functie **Totalen** uitbreidt, kunt u met **Groepering** duidelijke inzichten krijgen in de gegevens door subtotalen op te geven op groepsniveau.
 
-Zakelijke gebruikers moeten vaak ad hoc gegevensanalyse uitvoeren. U kunt dit doen door gegevens te exporteren naar Microsoft Excel en draaitabellen te gebruiken, maar met de functie **(Preview) Groepering in rasters**, die afhankelijk is van de functie Nieuw rasterbesturingselement, kunnen gebruikers hun tabelgegevens op interessante manieren ordenen in Finance and Operations-apps. Aangezien deze functie de functie **Totalen** uitbreidt, kunt u met **Groepering** duidelijke inzichten krijgen in de gegevens door subtotalen op te geven op groepsniveau.
-
-Als u deze functie wilt gebruiken, klikt u met de rechtermuisknop op de kolom waarop u wilt groeperen en selecteert u **Groeperen op deze kolom**. Met deze actie sorteert u de gegevens op de geselecteerde kolom, voegt u een nieuwe **Groeperen op-kolom** toe aan het begin van het raster en voegt u 'koptekstrijen' toe aan het begin van elke groep. Deze koptekstrijen bevatten de volgende informatie over elke groep: 
+Als u deze functie wilt gebruiken, klikt u met de rechtermuisknop op de kolom waarop u wilt groeperen en selecteert u **Groeperen op deze kolom**. Met deze actie sorteert u de gegevens op de geselecteerde kolom, voegt u een nieuwe kolom **Groeperen op** toe aan het begin van het raster en voegt u 'koptekstrijen' toe aan het begin van elke groep. Deze koptekstrijen bevatten de volgende informatie over elke groep: 
 -  Gegevenswaarde voor de groep 
--  Kolomnaam (Deze informatie wordt vooral nuttig wanneer meerdere groeperingsniveaus worden ondersteund.)  
+-  Kolomnaam (deze informatie is vooral nuttig wanneer u meerdere groeperingsniveaus hebt)  
 -  Aantal gegevensrijen in deze groep
 -  Subtotalen voor alle kolommen die zijn geconfigureerd voor weergave van totalen
 
 Als [Opgeslagen weergaven](saved-views.md) is ingeschakeld, kan deze groepering worden opgeslagen als onderdeel van een weergave voor snelle toegang, de volgende keer dat u de pagina bezoekt.  
 
-Als u **Groeperen op deze kolom** selecteert voor een andere kolom, wordt de oorspronkelijke groepering vervangen omdat er slechts één groeperingsniveau wordt ondersteund vanaf versie 10.0.9/platformupdate 33.
+### <a name="multiple-levels-of-grouping"></a>Meerdere groeperingsniveaus
+Nadat u gegevens hebt gegroepeerd op een enkele kolom, kunt u de gegevens groeperen op een andere kolom door **Groeperen op deze kolom** te selecteren in de gewenste kolom. Dit proces kan worden herhaald totdat u 5 geneste groeperingsniveaus hebt. Dit is de maximale diepte die wordt ondersteund. Op dit punt kunt u niet meer op extra kolommen groeperen.  
 
-Als u het groeperen in een raster ongedaan wilt maken, klikt u met de rechtermuisknop op de groepeerkolom en selecteert u **Groepering opheffen**.  
+U kunt op elk gewenst moment de groepering op een willekeurige kolom verwijderen door met de rechtermuisknop op de kolom te klikken en **Groep opheffen** te selecteren. U kunt de groepering ook uit alle kolommen verwijderen door **Rasteropties** en vervolgens **Alle groeperingen opheffen** te selecteren.   
+
+Opmerking: voorafgaand aan versie 10.0.16/Platformupdate 40 wordt slechts één groeperingsniveau ondersteund. Als in deze versies de gegevens zijn gegroepeerd en u de optie **Groeperen op deze kolom** selecteert voor een andere kolom, wordt de oorspronkelijke groepering vervangen.  
+
 
 ### <a name="expanding-and-collapsing-groups"></a>Groepen uitvouwen en samenvouwen
 Bij de eerste groepering van gegevens worden zijn alle groepen uitgevouwen. U kunt samengevatte weergaven van de gegevens maken door afzonderlijke groepen samen te vouwen of u kunt de functie voor het uit- en samenvouwen van groepen gebruiken om te helpen bij het navigeren door de gegevens. Als u een groep wilt uitvouwen of samenvouwen, selecteert u de punthaakknop (>) in de desbetreffende rij van de groepskoptekst. De status voor uitvouwen/samenvouwen van afzonderlijke groepen wordt **niet** opgeslagen bij personalisatie.
@@ -165,10 +167,26 @@ In deze sectie wordt een lijst bijgehouden van bekende problemen voor het nieuwe
     -  Er bestaat een gegroepeerde kaartlijst op de pagina.
     -  Een rasterkolom met een niet-reagerend uitbreidbaar besturingselement.
 
-    Wanneer een gebruiker voor het eerst een van deze situaties aantreft, wordt een bericht weergegeven over het vernieuwen van de pagina. Nadat dit bericht is weergegeven, blijft de pagina het bestaande raster gebruiken voor alle gebruikers tot de volgende update van de productversie. Een betere afhandeling van deze scenario's zodat het nieuwe raster kan worden gebruikt, wordt overwogen voor een toekomstige update.     
+    Wanneer een gebruiker voor het eerst een van deze situaties aantreft, wordt een bericht weergegeven over het vernieuwen van de pagina. Nadat dit bericht is weergegeven, blijft de pagina het bestaande raster gebruiken voor alle gebruikers tot de volgende update van de productversie. Een betere afhandeling van deze scenario's zodat het nieuwe raster kan worden gebruikt, wordt overwogen voor een toekomstige update.    
+    
+-  [KB 4582758] Records zijn wazig wanneer u de zoomfactor wijzigt van 100 in een ander percentage
+    
+### <a name="fixed-as-part-of-10015"></a>Gecorrigeerd als onderdeel van 10.0.15    
+
+-  [KB 4582723] Weergaveopties worden niet weergegeven verderop in de levenscyclus van het formulier
+
+### <a name="fixed-as-part-of-10014"></a>Gecorrigeerd als onderdeel van 10.0.14
+
+-  (Kwaliteitsupdate) [KB 4584752] Onverwachte clientfout met pagina Project-factuurvoorstellen
 
 ### <a name="fixed-as-part-of-10013"></a>Gecorrigeerd als onderdeel van 10.0.13
 
+-  (Kwaliteitsupdate) [KB 4583880] RSAT-tests (Regression Suite Automation Tool) kunnen niet worden uitgevoerd met de OpenLookup-actie 'Kan eigenschap RowIndex van undefined niet lezen'
+-  (Kwaliteitsupdate) [KB 4583847] Onverwachte clientfout bij navigeren door zoekacties 
+-  (Kwaliteitsupdate) [Bug 471777] In een raster kunnen geen velden worden geselecteerd om een mobiele app te bewerken of te maken
+-  [Bug 474851] Hyperlinks in verwijzingsgroepbesturingselementen werken niet 
+-  [Bug 474848] Verbeterde voorbeelden met rasters worden niet weergegeven
+-  [KB 4582726] De eigenschap RotateSign wordt niet geëerbiedigd  
 -  [Bug 470173] Selectievakjes in inactieve rijen in-/uitschakelen als op de witruimte in de cel wordt geklikt
 -  [Bug 474848] Verbeterde voorbeelden met rasters worden niet weergegeven
 -  [Bug 474851] Hyperlinks in verwijzingsgroepbesturingselementen werken niet 
@@ -176,6 +194,7 @@ In deze sectie wordt een lijst bijgehouden van bekende problemen voor het nieuwe
 -  [KB 4569441] Problemen met het weergeven van kaartlijsten met meerdere kolommen, knopinfo op afbeeldingen en weergaveopties in sommige velden
 -  [KB 4575279] Niet alle gemarkeerde rijen worden verwijderd in het algemene journaal
 -  [KB 4575233] Weergaveopties worden niet hersteld nadat naar een andere rij is verplaatst
+-  [Bug 477884] Zoekopdrachten retourneren onjuiste waarde/record als nieuw rasterbesturingselement is geactiveerd
 -  [KB 4571095] Boeking van productontvangst vindt plaats wanneer u per ongeluk op ENTER drukt (juiste verwerking van de standaardactie van een pagina)
 -  [KB 4575437] Zoekopdrachten met bewerkbare besturingselementen worden onverwacht gesloten
 -  [KB 4569418] Dubbele regel gemaakt in het leverschemaformulier
@@ -218,19 +237,19 @@ In deze sectie wordt een lijst bijgehouden van bekende problemen voor het nieuwe
 - [KB 4558376] Rasters van lijstpaneel worden niet op de juiste hoogte weergegeven in Internet Explorer.
 - [KB 4558377] Kolommen met een keuzelijst met invoervak met breedte **SizeToAvailable** worden niet op alle pagina's weergegeven.
 - [KB 4558378] Met detailanalyse wordt soms de verkeerde record geopend.
-- [KB 4558379] Er treedt een fout op wanneer zoekopdrachten worden geopend, als **ReplaceOnLookup**=**Nee** is.
+- [KB 4558379] Er treedt een fout op wanneer zoekopdrachten worden geopend, als **ReplaceOnLookup**=**Nee**.
 - [KB 4558380] De beschikbare ruimte in het raster wordt niet onmiddellijk opgevuld nadat een gedeelte van de pagina is samengevouwen.
 - [KB 4558381] Negatieve getallen worden niet correct gegenereerd/het programma loopt soms vast nadat er validatieproblemen zijn opgetreden.
 - [KB 4558382] Er zijn onverwachte clientfouten opgetreden.
 - [KB 4558383] Besturingselementen buiten het raster worden niet bijgewerkt nadat de laatste record is verwijderd.
 - [KB 4558587] Voor verwijzingsgroepen die keuzelijsten met invoervak bevatten voor vervangingsvelden, worden geen waarden weergegeven.
 - [KB 4562143] Velden worden niet bijgewerkt nadat een wijziging in rijen/rasterverwerking is vastgelopen na het verwijderen van de rij.
-- [KB 4562645] Er treedt een uitzondering op wanneer een zoekopdracht wordt geopend terwijl er RSAT-tests (Remote Server Administration Tools) worden uitgevoerd.
+- [KB 4562645] Er treedt een uitzondering op wanneer een zoekopdracht wordt geopend terwijl er RSAT-tests (Regression Suite Automation Tool) worden uitgevoerd.
 
 ### <a name="fixed-as-part-of-10010"></a>Gecorrigeerd als onderdeel van 10.0.10
 
 - [Probleem 414301] Sommige gegevens uit eerdere regels verdwijnen wanneer er nieuwe regels worden gemaakt.
-- [Fout 417044] Er is geen leeg rasterbericht voor rasters in een lijststijl.
+- [Bug 417044] Er is geen leeg rasterbericht voor rasters in een lijststijl.
 - [KB 4539058] Sommige rasters (meestal op sneltabbladen) worden soms niet weergegeven (maar worden wel weergegeven als u uitzoomt).
 - [KB 4549734] Actieve rijen worden niet behandeld als gemarkeerd als de kolommarkering verborgen is.
 - [KB 4549796] Waarden kunnen niet worden bewerkt in een raster wanneer deze de weergavemodus hebben.

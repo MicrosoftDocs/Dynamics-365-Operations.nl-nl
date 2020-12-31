@@ -1,6 +1,6 @@
 ---
 title: Model voor geïntegreerde leveranciers
-description: In dit onderwerp wordt de integratie van leveranciersgegevens tussen Finance and Operations en Common Data Service beschreven.
+description: In dit onderwerp wordt de integratie van leveranciersgegevens tussen Finance and Operations en Dataverse beschreven.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5c4cc92fd7809f4016d8421c98f41a85fcfedc7b
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997642"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685480"
 ---
 # <a name="integrated-vendor-master"></a>Model voor geïntegreerde leveranciers
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -37,11 +39,11 @@ In beide methoden worden de leveranciersgegevens geïntegreerd tussen Dynamics 3
 
 ## <a name="vendor-data-flow"></a>Leveranciersgegevensstroom
 
-Als u leveranciersgegevens niet wilt opslaan in de entiteit **Rekening/contactpersoon** in Common Data Service, kunt u het nieuwe leveranciersontwerp gebruiken.
+Als u leveranciersgegevens niet wilt opslaan in de entiteit **Rekening/contactpersoon** in Dataverse, kunt u het nieuwe leveranciersontwerp gebruiken.
 
 ![Leveranciersgegevensstroom](media/dual-write-vendor-data-flow.png)
 
-Als u leveranciersgegevens wilt blijven opslaan in de entiteit **Rekening/contactpersoon** , kunt u het uitgebreide leveranciersontwerp. Als u het uitgebreide leveranciersontwerp wilt gebruiken, moet u de leverancierswerkstromen configureren in het oplossingspakket Twee keer wegschrijven. Zie [Schakelen tussen leverancierontwerpen](vendor-switch.md) voor meer informatie.
+Als u leveranciersgegevens wilt blijven opslaan in de entiteit **Rekening/contactpersoon**, kunt u het uitgebreide leveranciersontwerp. Als u het uitgebreide leveranciersontwerp wilt gebruiken, moet u de leverancierswerkstromen configureren in het oplossingspakket Twee keer wegschrijven. Zie [Schakelen tussen leverancierontwerpen](vendor-switch.md) voor meer informatie.
 
 ![Uitgebreide leveranciersgegevensstroom](media/dual-write-vendor-detail.jpg)
 
@@ -50,12 +52,12 @@ Als u leveranciersgegevens wilt blijven opslaan in de entiteit **Rekening/contac
 
 ## <a name="templates"></a>Sjablonen
 
-Leveranciersgegevens omvatten alle informatie over de leverancier, zoals de leveranciersgroep, adressen, contactgegevens, betalingsprofiel en factuurprofiel. Een verzameling entiteitstoewijzingen werkt samen tijdens interactie met leveranciersgegevens, zoals in de volgende tabel wordt weergegeven.
+Leveranciersgegevens omvatten alle informatie over de leverancier, zoals de leveranciersgroep, adressen, contactgegevens, betalingsprofiel en factuurprofiel. Een verzameling tabeltoewijzingen werkt samen tijdens interactie met leveranciersgegevens, zoals in de volgende tabel wordt weergegeven.
 
 Finance and Operations-apps | Andere Dynamics 365-apps     | Beschrijving
 ----------------------------|-----------------------------|------------
 Leverancier V2                   | Rekening                     | Bedrijven die de accountentiteit gebruiken om leveranciergegevens op te slaan, kunnen deze op dezelfde manier blijven gebruiken. Door integratie met Finance and Operations-apps kunnen ze ook de expliciete leveranciersfunctionaliteit gaan gebruiken die beschikbaar komt.
-Leverancier V2                   | Msdyn\_vendors              | Door integratie met Finance and Operations-apps kunnen bedrijven die een aangepaste oplossing voor leveranciers gebruiken, profiteren van het kant-en-klare leveranciersconcept dat in Common Data Service wordt geïntroduceerd. 
+Leverancier V2                   | Msdyn\_vendors              | Door integratie met Finance and Operations-apps kunnen bedrijven die een aangepaste oplossing voor leveranciers gebruiken, profiteren van het kant-en-klare leveranciersconcept dat in Dataverse wordt geïntroduceerd. 
 Leveranciersgroepen               | msdyn\_vendorgroups         | Met deze sjabloon worden leveranciersgroepgegevens gesynchroniseerd.
 Leveranciersbetalingsmethode       | msdyn\_vendorpaymentmethods | Met deze sjabloon worden gegevens over de betalingsmethoden van leveranciers gesynchroniseerd.
 CDS-contactpersonen V2             | contacten                    | Met de sjabloon [contactpersonen](customer-mapping.md#cds-contacts-v2-to-contacts) worden alle primaire, secundaire en tertiaire contactgegevens voor zowel klanten als leveranciers gesynchroniseerd.

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de31469e79addfb82b3b57e647ff82e4d254881a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771301"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688120"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER-configuraties ontwerpen om in te vullen in PDF-sjablonen
 
@@ -232,7 +231,7 @@ Vervolgens importeert u het voorbeeld van de ER-indeling die u eerder hebt gedow
     - De gegevensbron **Paging.Pages** bevat het element **Paging.Pages.Enumerated** waarmee de details worden geretourneerd van elke record die is opgenomen in een batch. Deze details omvatten de volgorde van de record in de huidige batch (het veld **Paging.Pages.Enumerated.Number**). Het veld **Paging.Pages.Enumerated.Number** wordt gebruikt in de expressie **Naam** van opmaakelementen **PDF-veld** om op dynamische wijze een veldnaam te genereren op basis van het transactienummer in een batch. De veldnaam die wordt gegenereerd wordt vervolgens gebruikt om het juiste PDF-veld in te vullen in de PDF-sjabloon die wordt gebruikt.
     - Het opmaakelement **Uitvoer \> Pagina N \> Details 2** van het type **PDF-groep** is gekoppeld aan de gegevensbron **Paging. PageN.Enumerated** (of **\@.Enumerated** als de weergavemodus **Relatief pad** wordt gebruikt) van het type **Recordlijst**. Daarom worden tijdens de uitvoering de geneste elementen van deze PDF-groep ingevuld voor elke record uit de lijst met gekoppelde records. Op deze manier worden afzonderlijke PDF-regels virtueel gegenereerd als voor elk Nde van 42 records uit de lijst **Paging.PageN.Enumerated** lijst de volgende PDF-velden worden ingevuld: Datum N, Richting N, Basisproduct N enzovoort. Daarom lijkt het gedrag van dit opmaakelement **Veldgroep** op het gedrag van de opmaakelementen **XML \> Volgorde** en **Tekst \> Volgorde**.
 
-3. Vouw in de structuur **Uitvoer \> Pagina N \> Details2**uit.
+3. Vouw in de structuur **Uitvoer \> Pagina N \> Details2** uit.
 4. Selecteer in de structuur **Uitvoer \> Pagina N \> Details2 \> PageFooter**.
 
     Zoals u ziet, is het kenmerk **Naam** van dit opmaakelement gedefinieerd als **PageFooter**. U ziet ook dat de expressie **Naam** van het opmaakelement leeg is.

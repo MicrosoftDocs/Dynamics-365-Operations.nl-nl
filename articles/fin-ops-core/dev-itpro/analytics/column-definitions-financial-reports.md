@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3a92970f2e3639090f51cf9e59ffcb148e210494
-ms.sourcegitcommit: cb94f16d69455cbf6fd059f9f394e7623810c924
+ms.openlocfilehash: 611e5cdfd2289bb2c690a72659e9ba47d6309cfe
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4011628"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687225"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Kolomdefinities in financiële rapporten
 
@@ -112,11 +111,11 @@ De volgende tabel beschrijft de codes voor kolombeperking.
 
 | Code voor kolombeperking | Beschrijving |
 |-------------------------|-------------|
-| SU                      | Onderdruk het onderstrepingsteken voor een kolom waar een opdracht met een onderstrepingsteken ( **---** ) of een opdracht met een dubbel onderstrepingsteken ( **===** ) is ingevoerd in de rijdefinitie. U wilt misschien geen bedragen onderstrepen die door een percentageberekening zijn geproduceerd. |
+| SU                      | Onderdruk het onderstrepingsteken voor een kolom waar een opdracht met een onderstrepingsteken (**---**) of een opdracht met een dubbel onderstrepingsteken (**===**) is ingevoerd in de rijdefinitie. U wilt misschien geen bedragen onderstrepen die door een percentageberekening zijn geproduceerd. |
 | ST                      | Onderdruk totalen, zodat in de kolom alleen details worden weergegeven (bijvoorbeeld een statistische kolom). |
 | SD                      | Onderdruk details, zodat alleen de rijen **TOT** en **CAL** (van de rijdefinitie) worden weergegeven in de kolom. |
-| DR                      | Beperk de bedragen in een **FD** -kolom tot debetbedragen. |
-| CR                      | Beperk de bedragen in een **FD** -kolom tot crebitbedragen. |
+| DR                      | Beperk de bedragen in een **FD**-kolom tot debetbedragen. |
+| CR                      | Beperk de bedragen in een **FD**-kolom tot crebitbedragen. |
 | ADJ                     | Beperk de bedragen in de kolom tot bedragen van de periodecorrectie, als deze bedragen beschikbaar zijn. |
 | XAD                     | Beperk de bedragen in de kolom, zodat bedragen van de periodecorrectie worden uitgesloten. |
 | GT                      | Beperk de bedragen in de kolom, zodat alleen geboekte transacties worden opgenomen, als deze transacties beschikbaar zijn. |
@@ -170,10 +169,10 @@ U kunt het dialoogvenster **Kolomkoptekst** gebruiken om kopteksten toe te voege
 
 ### <a name="create-an-automatically-generated-header"></a>Een automatisch gegenereerde koptekst maken
 
-Report Designer kan kolomkoppen automatisch genereren op basis van AutoTekstcodes. De AutoTekstcodes zok, variabelen die altijd worden bijgewerkt wanneer een rapport wordt gegenereerd. Elke kolomkop kan deze codes bevatten om rapportinformatie op te geven die kan verschillen, zoals datums of periodenummers. Daarom kunt u één kolomdefinitie gebruiken voor meerdere rapportdefinities, perioden en rapportagestructuren. Omdat AutoTekstcodes zich baseren op de kalendergegevens van de rijen met details van de kolomdefinitie, worden deze alleen ondersteund voor **CALC** - en **FD** -kolommen. De manier waarop een AutoTekstcode in de kolomkopcel wordt weergegeven bepaalt hoe die informatie op het rapport wordt weergegeven. In het dialoogvenster **Kolomkop** worden AutoTekstcodes weergegeven in zowel hoofdletters als kleine letters. Daarom wordt tekst op het rapport in zowel hoofdletters als kleine letters weergegeven. In een standaard kalenderjaar wordt bijvoorbeeld maand **7** door **\@@CalMonthLong** herleid tot **Juli**. Als de naam van de maand in het rapport in hoofdletters moet worden weergegeven (bijvoorbeeld **JULI** ), voert u de AutoTekst-code in in het veld **Kolomkoptekst** ook in hoofdletters, bijvoorbeeld @CALMONTHLONG. Voer bijvoorbeeld **\@CALMONTHLONG** in. U kunt codes en tekst mengen. U voert bijvoorbeeld de volgende koptekst in: **Periode \@FiscalPeriod-\@FiscalYear van \@StartDate tot \@EndDate**. De rapportkop die wordt gegenereerd lijkt op de volgende tekst: **Periode 1-02 van 01/01/02 tot 31/01/02**.
+Report Designer kan kolomkoppen automatisch genereren op basis van AutoTekstcodes. De AutoTekstcodes zok, variabelen die altijd worden bijgewerkt wanneer een rapport wordt gegenereerd. Elke kolomkop kan deze codes bevatten om rapportinformatie op te geven die kan verschillen, zoals datums of periodenummers. Daarom kunt u één kolomdefinitie gebruiken voor meerdere rapportdefinities, perioden en rapportagestructuren. Omdat AutoTekstcodes zich baseren op de kalendergegevens van de rijen met details van de kolomdefinitie, worden deze alleen ondersteund voor **CALC**- en **FD**-kolommen. De manier waarop een AutoTekstcode in de kolomkopcel wordt weergegeven bepaalt hoe die informatie op het rapport wordt weergegeven. In het dialoogvenster **Kolomkop** worden AutoTekstcodes weergegeven in zowel hoofdletters als kleine letters. Daarom wordt tekst op het rapport in zowel hoofdletters als kleine letters weergegeven. In een standaard kalenderjaar wordt bijvoorbeeld maand **7** door **\@@CalMonthLong** herleid tot **Juli**. Als de naam van de maand in het rapport in hoofdletters moet worden weergegeven (bijvoorbeeld **JULI**), voert u de AutoTekst-code in in het veld **Kolomkoptekst** ook in hoofdletters, bijvoorbeeld @CALMONTHLONG. Voer bijvoorbeeld **\@CALMONTHLONG** in. U kunt codes en tekst mengen. U voert bijvoorbeeld de volgende koptekst in: **Periode \@FiscalPeriod-\@FiscalYear van \@StartDate tot \@EndDate**. De rapportkop die wordt gegenereerd lijkt op de volgende tekst: **Periode 1-02 van 01/01/02 tot 31/01/02**.
 
 > [!NOTE]
-> De indeling van bepaalde tekst, zoals de lange datumnotatie, is afhankelijk van uw landinstellingen op de server. Als u deze instellingen wilt wijzigen, klikt u op de knop **Start** , klikt u op **Configuratiescherm** en vervolgens op **Regio en Taal**. In de volgende tabel vindt u de beschikbare AutoTekst-opties voor kolomkoppen.
+> De indeling van bepaalde tekst, zoals de lange datumnotatie, is afhankelijk van uw landinstellingen op de server. Als u deze instellingen wilt wijzigen, klikt u op de knop **Start**, klikt u op **Configuratiescherm** en vervolgens op **Regio en Taal**. In de volgende tabel vindt u de beschikbare AutoTekst-opties voor kolomkoppen.
 
 
 | AutoTekst-optie en -code                | Beschrijving |
@@ -195,10 +194,10 @@ Report Designer kan kolomkoppen automatisch genereren op basis van AutoTekstcode
 
 Voorwaardelijke spanningkopteksten kunnen meerdere kolommen beslaan die op specifieke periodegegevens zijn gebaseerd. Als u bijvoorbeeld een budgetrapport voor het fiscale jaar hebt en de werkelijke budgetten van eerdere maanden en de verwachte budgetten van toekomstige maanden wilt weergeven, kunt u voorwaardelijke spanningkoptekst gebruiken om de rapportkoptekst automatisch bij te werken. Houd rekening met de volgende situaties wanneer u een voorwaardelijk omspannende koptekst maakt:
 
-- Elke stopvoorwaarde (veld **Verspreiden naar** ) die wordt gematcht vóór een startvoorwaarde (veld **Verspreiden van** ) wordt genegeerd. Bijvoorbeeld, voor kolom B is de verspreidingsvoorwaarde ingesteld als BASE+1 tot BASE. BASE is in kolom C en BASE+1 is in kolom D. In dit geval wordt de stopvoorwaarde in kolom C genegeerd en begint het afdrukken van de koptekst in kolom D.
-- Als kolomkoppen opgeeft die overlappen, overlappen deze wanneer ze in het rapport worden afgedrukt. Het rapport wordt gegenereerd, maar de volgende waarschuwing wordt weergegeven in het veld **Status van de rapportwachtrij** : "Kolomkoppen die Base gebruiken overlappen met andere kolomkoppen en kunnen overlappende tekst veroorzaken." Bijvoorbeeld de koptekstdefinitie van kolom B is B tot BASE+1 en de koptekstdefinitie van kolom D is BASE+1 tot F. In dit geval worden de kopteksten boven op elkaar afgedrukt en zijn ze onleesbaar. Wanneer BASE wordt gebruikt in een definitie **Verspreiden van/Verspreiden naar** , moet u het rapport dat wordt gegenereerd bekijken om te zien of de kopteksten overlappen.
-- Als u BASE opgeeft in de verspreidingsdefinitie in een kolom Geen afdruk ( **NP** ), wordt dit genegeerd, ongeacht wat in de kolomdefinitie is gedefinieerd. Dit scenario is voornamelijk hetzelfde als geen kolomkopdefinitie maken.
-- Voor voorwaardelijke afdrukkolommen ( **P&lt;B** , **P&gt;=B** ) gedragen voorwaardelijke spanningkopteksten zich als een gewone kolomkopdefinitie. Als de voorwaarde bijvoorbeeld onwaar is, start elke volgende kolom die voldoet aan de verspreidingsvoorwaarde met de afdruk van de koptekst.
+- Elke stopvoorwaarde (veld **Verspreiden naar**) die wordt gematcht vóór een startvoorwaarde (veld **Verspreiden van**) wordt genegeerd. Bijvoorbeeld, voor kolom B is de verspreidingsvoorwaarde ingesteld als BASE+1 tot BASE. BASE is in kolom C en BASE+1 is in kolom D. In dit geval wordt de stopvoorwaarde in kolom C genegeerd en begint het afdrukken van de koptekst in kolom D.
+- Als kolomkoppen opgeeft die overlappen, overlappen deze wanneer ze in het rapport worden afgedrukt. Het rapport wordt gegenereerd, maar de volgende waarschuwing wordt weergegeven in het veld **Status van de rapportwachtrij**: "Kolomkoppen die Base gebruiken overlappen met andere kolomkoppen en kunnen overlappende tekst veroorzaken." Bijvoorbeeld de koptekstdefinitie van kolom B is B tot BASE+1 en de koptekstdefinitie van kolom D is BASE+1 tot F. In dit geval worden de kopteksten boven op elkaar afgedrukt en zijn ze onleesbaar. Wanneer BASE wordt gebruikt in een definitie **Verspreiden van/Verspreiden naar**, moet u het rapport dat wordt gegenereerd bekijken om te zien of de kopteksten overlappen.
+- Als u BASE opgeeft in de verspreidingsdefinitie in een kolom Geen afdruk (**NP**), wordt dit genegeerd, ongeacht wat in de kolomdefinitie is gedefinieerd. Dit scenario is voornamelijk hetzelfde als geen kolomkopdefinitie maken.
+- Voor voorwaardelijke afdrukkolommen (**P&lt;B**, **P&gt;=B**) gedragen voorwaardelijke spanningkopteksten zich als een gewone kolomkopdefinitie. Als de voorwaarde bijvoorbeeld onwaar is, start elke volgende kolom die voldoet aan de verspreidingsvoorwaarde met de afdruk van de koptekst.
 
 #### <a name="create-a-conditional-spanning-header"></a>Een voorwaardelijke spanningkoptekst maken
 
@@ -206,13 +205,13 @@ Voorwaardelijke spanningkopteksten kunnen meerdere kolommen beslaan die op speci
 2. Dubbelklik op een koptekstcel.
 3. Voer in het dialoogvenster **Kolomkop** de kolomkoptekst in. Of klik op **AutoTekst invoegen** en selecteer een optie.
 4. Selecteer in het veld **Opmaakopties** een opmaakstijl voor de koptekst.
-5. Geef een periode op met betrekking tot de basisperiode die wordt opgegeven wanneer het rapport wordt gegenereerd. Voer in de velden **Verspreiden van** en **Verspreiden tot** een van de volgende waarden in: **BASE** , **BASE-X** of **BASE+X** , waarbij X het aantal perioden van de basisperiode is. Als u bijvoorbeeld **BASE** opgeeft in het veld **Verspreiden van** , begint de voorwaardelijke spanningkoptekst van de kolom in de kolom waar de waarde voor **Basisperiode** van de rapportdefinitie gelijk is aan de waarde voor **Periode** van de kolomdefinitie. Het eindigt in de kolom die is opgegeven in het veld **Verspreiden tot**. Als de verspreiding BASE tot M is en de waarde voor **Basisperiode** van de rapportdefinitie **4** is, begint de koptekst in de kolom waarin de periode is ingesteld op **4** en eindigt deze bij kolom M. Kopteksten stoppen en starten alleen in afdrukkolommen.
+5. Geef een periode op met betrekking tot de basisperiode die wordt opgegeven wanneer het rapport wordt gegenereerd. Voer in de velden **Verspreiden van** en **Verspreiden tot** een van de volgende waarden in: **BASE**, **BASE-X** of **BASE+X**, waarbij X het aantal perioden van de basisperiode is. Als u bijvoorbeeld **BASE** opgeeft in het veld **Verspreiden van**, begint de voorwaardelijke spanningkoptekst van de kolom in de kolom waar de waarde voor **Basisperiode** van de rapportdefinitie gelijk is aan de waarde voor **Periode** van de kolomdefinitie. Het eindigt in de kolom die is opgegeven in het veld **Verspreiden tot**. Als de verspreiding BASE tot M is en de waarde voor **Basisperiode** van de rapportdefinitie **4** is, begint de koptekst in de kolom waarin de periode is ingesteld op **4** en eindigt deze bij kolom M. Kopteksten stoppen en starten alleen in afdrukkolommen.
 6. Selecteer onder **Uitvullen** of de kolomkoptekst links, midden of rechts moet worden uitgevuld.
-7. Klik tot slot op **OK**.
+7. Klik op **OK**.
 
 #### <a name="example-of-a-conditional-spanning-header"></a>Voorbeeld van een voorwaardelijke spanningkoptekst
 
-Phyllis maakt een rapport voor een dynamische halfjaarlijkse prognose. Ze wil dat het woord "Werkelijk" wordt afgedrukt in de kolommen die werkelijke gegevens bevatten, en dat het woord "Budget" wordt afgedrukt in de kolommen die budgetprognoses bevatten. Elke maand dat het rapport wordt uitgevoerd, wordt er één werkelijke kolom meer en één budgetkolom minder afgedrukt. Hoewel Phyllis de kolomdefinitie handmatig kan wijzigen wanneer het rapport wordt gegenereerd om kopteksten te corrigeren, bespaart ze tijd en moeite als ze voorwaardelijke spanningkopteksten maakt die automatisch kopteksten maken in de desbetreffende kolommen telkens wanneer dat het rapport wordt uitgevoerd. Phyllis opent Report Designer, klikt in het navigatievenster op **Kolomdefinitie** en opent de kolomdefinitie voor het rapport. Ze voert de volgende informatie in. De basisperiode in de rapportdefinitie is 4.
+Een gebruiker maakt een rapport voor een dynamische halfjaarlijkse prognose. De gebruiker wil dat het woord "Werkelijk" wordt afgedrukt in de kolommen die werkelijke gegevens bevatten, en dat het woord "Budget" wordt afgedrukt in de kolommen die budgetprognoses bevatten. Elke maand dat het rapport wordt uitgevoerd, wordt er één werkelijke kolom meer en één budgetkolom minder afgedrukt. Hoewel de gebruiker de kolomdefinitie handmatig kan wijzigen wanneer het rapport wordt gegenereerd om kopteksten te corrigeren, bespaart ze tijd en moeite als ze voorwaardelijke spanningkopteksten maakt die automatisch kopteksten maken in de desbetreffende kolommen telkens wanneer dat het rapport wordt uitgevoerd. De gebruiker opent Report Designer, klikt in het navigatievenster op **Kolomdefinitie** en opent de kolomdefinitie voor het rapport. De gebruiker voert de volgende informatie in. De basisperiode in de rapportdefinitie is 4.
 
 |      Format         |  V   | B             | C             | D             | E             | Vr             | G             | H             | I             | J             | K             | L             | Ma             |
 |---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
@@ -227,7 +226,7 @@ Phyllis maakt een rapport voor een dynamische halfjaarlijkse prognose. Ze wil da
 | Kolombreedte        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Afdrukbeheer       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
-Phyllis dubbelklikt op een kolomkopcel om het dialoogvenster **Kolomkop** te openen, waar ze de volgende informatie invoert.
+De gebruiker dubbelklikt op een kolomkopcel om het dialoogvenster **Kolomkop** te openen en voert de volgende informatie in.
 
 | Veld              | Waarde                 |
 |--------------------|-----------------------|
@@ -239,7 +238,7 @@ Phyllis dubbelklikt op een kolomkopcel om het dialoogvenster **Kolomkop** te ope
 | Verspreiden tot          | BASE                  |
 | Budgetkoptekst      | BASE+1 tot eindkolom  |
 
-Nadat ze klaar is met het invoeren van informatie, klikt Phyllis op **OK**. Ze dubbelklikt nu op de kolomkopcel in kolom C om het dialoogvenster **Kolomkop** te openen, waar ze de volgende informatie invoert.
+Nadat de gebruiker de gegevens heeft ingevoerd, klikt zij op **OK**. De gebruiker dubbelklikt nu op de kolomkopcel in kolom C om het dialoogvenster **Kolomkop** te openen en voert de volgende informatie in.
 
 | Veld              | Waarde                 |
 |--------------------|-----------------------|
@@ -265,7 +264,7 @@ De cel **Uitvullen** wordt gebruikt om de opmaak uitvullen toe te passen op een 
     - **Rechts** De kolomomschrijvingen worden rechts uitgevuld.
 
 ## <a name="add-special-formatting-options"></a>Speciale opmaakopties toevoegen
-In de kolomdefinitie passen de rijen met opmaakkolomdetails speciale opmaak toe op geselecteerde kolommen. Hoewel sommige van de opties voor **Afdrukbeheer** en **Kolombeperkingen** specifiek zijn voor **FD** -kolommen, zijn de meeste opties van toepassing op alle kolomtypen. De opmaak die in de kolomdefinitie is opgegeven negeert de opmaak die in de rapportdefinitie is opgegeven. De opmaak die in de rijdefinitie is opgegeven negeert echter de opmaak die in de kolomdefinitie is opgegeven. De volgende rijen worden als opmaakrijen beschouwd:
+In de kolomdefinitie passen de rijen met opmaakkolomdetails speciale opmaak toe op geselecteerde kolommen. Hoewel sommige van de opties voor **Afdrukbeheer** en **Kolombeperkingen** specifiek zijn voor **FD**-kolommen, zijn de meeste opties van toepassing op alle kolomtypen. De opmaak die in de kolomdefinitie is opgegeven negeert de opmaak die in de rapportdefinitie is opgegeven. De opmaak die in de rijdefinitie is opgegeven negeert echter de opmaak die in de kolomdefinitie is opgegeven. De volgende rijen worden als opmaakrijen beschouwd:
 
 - Kolombreedte
 - Aanvullende spaties vóór kolom
@@ -274,7 +273,7 @@ In de kolomdefinitie passen de rijen met opmaakkolomdetails speciale opmaak toe 
 
 ### <a name="changing-the-column-width"></a>De kolombreedte wijzigen
 
-De cel **Kolombreedte** geeft het aantal tekens op voor de breedte van deze kolom op het afgedrukte rapport. De kolombreedte is belangrijk voor kolommen die bedragen (kolommen van het type **CALC** , **WKS** of **FD** ), beschrijvingen (kolommen van het type **DESC** ) of opvullingen (kolommen van het type **FILL** ) bevatten. Standaard is de optie **AutoAanpassen** geselecteerd, zodat de breedte van elke kolom automatisch aan de inhoud wordt aangepast.
+De cel **Kolombreedte** geeft het aantal tekens op voor de breedte van deze kolom op het afgedrukte rapport. De kolombreedte is belangrijk voor kolommen die bedragen (kolommen van het type **CALC**, **WKS** of **FD**), beschrijvingen (kolommen van het type **DESC**) of opvullingen (kolommen van het type **FILL**) bevatten. Standaard is de optie **AutoAanpassen** geselecteerd, zodat de breedte van elke kolom automatisch aan de inhoud wordt aangepast.
 
 #### <a name="specify-the-width-of-a-column-on-a-report"></a>De breedte van een kolom op een rapport opgeven
 
@@ -309,8 +308,8 @@ De cel **Afdrukbeheer** kan codes bevatten die de weergave of de afdrukkenmerken
 | Afdrukcontrolecode | Vertaling                                     | Beschrijving |
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | Niet afdrukken                                     | Neem de bedragen in deze kolom niet op in het rapport dat wordt afgedrukt en in berekeningen. Om een niet af te drukken kolom in een berekening op te nemen, raadpleegt u de kolom rechtstreeks in de berekeningsformule. De niet af te drukken kolom C is bijvoorbeeld opgenomen in de volgende berekening: **B+C+D**. Maar de niet af te drukken kolom C is niet opgenomen in de volgende berekening: **B:D**. |
-| XCR                | Teken wijzigen als het normale saldo van de rij credit is | Maak een budget of een vergelijkend rapport waarin elke ongunstige afwijking (zoals een opbrengsttekort of een onkostenoverschrijding) altijd negatief is. Pas deze code toe op een **CALC** -kolom om het teken van het kolombedrag om te keren als het normale saldo van een bepaalde rij credit is (zoals aangegeven met een **C** in de kolom **Normaal Saldo** van de rijdefinitie).<p><strong>Opmerking:</strong> Let er bij <strong>TOT</strong>-rijen en </strong>CAL</strong>-rijen die meestal een creditsaldo hebben op dat u een <strong>C</strong> invoert in de kolom <strong>Normaal saldo</strong> in de rijdefinitie.</p> |
-| X0                 | Kolom onderdrukken indien allemaal nullen of spaties          | Neem een **FD** -kolom niet op in het rapport als alle cellen in die kolom leeg zijn of nullen bevatten. |
+| XCR                | Teken wijzigen als het normale saldo van de rij credit is | Maak een budget of een vergelijkend rapport waarin elke ongunstige afwijking (zoals een opbrengsttekort of een onkostenoverschrijding) altijd negatief is. Pas deze code toe op een **CALC**-kolom om het teken van het kolombedrag om te keren als het normale saldo van een bepaalde rij credit is (zoals aangegeven met een **C** in de kolom **Normaal Saldo** van de rijdefinitie).<p><strong>Opmerking:</strong> Let er bij <strong>TOT</strong>-rijen en </strong>CAL</strong>-rijen die meestal een creditsaldo hebben op dat u een <strong>C</strong> invoert in de kolom <strong>Normaal saldo</strong> in de rijdefinitie.</p> |
+| X0                 | Kolom onderdrukken indien allemaal nullen of spaties          | Neem een **FD**-kolom niet op in het rapport als alle cellen in die kolom leeg zijn of nullen bevatten. |
 | SR                 | Afronding onderdrukken                               | Voorkom dat de bedragen in deze kolom worden afgerond. |
 | XR                 | Samentelling onderdrukken                                 | Onderdruk een samentelling. Als het rapport een rapportagestructuur gebruikt, worden de bedragen in deze kolom niet samengeteld in volgende bovenliggende knooppunten. |
 | RP                 | Kolom herhalen op elke pagina                      | Herhaal een kolom op elke pagina van een rapport. U kunt bijvoorbeeld de afdrukcontrolecode **RP** gebruiken om een kolom van het type **RIJ** op te nemen in rijcodes op elke pagina. |
@@ -339,7 +338,7 @@ De cel **Afdrukbeheer** kan codes bevatten die de weergave of de afdrukkenmerken
 > U kunt de afdrukcodes ook rechtstreeks in de cel **Afdrukbeheer** invoeren. Scheidt meerdere afdrukbeheercodes met een komma.
 
 ## <a name="column-types"></a>Kolomtypen
-Het type informatie dat elke kolom op een rapport bevat wordt opgegeven met de waarde in de rij **Kolomtype** in de kolomdefinitie. Elke kolomdefinitie moet minimaal één beschrijvingskolom ( **DESC** ) en één bedragkolom ( **FD** , **WKS** of **CALC** ) bevatten.
+Het type informatie dat elke kolom op een rapport bevat wordt opgegeven met de waarde in de rij **Kolomtype** in de kolomdefinitie. Elke kolomdefinitie moet minimaal één beschrijvingskolom (**DESC**) en één bedragkolom (**FD**, **WKS** of **CALC**) bevatten.
 
 > [!NOTE]
 > De kolomtypecodes zijn niet op alle boekhoudsystemen van toepassing. Als u een type selecteert dat niet geldig is voor uw boekhoudsysteem, is die kolom leeg op het rapport.
@@ -384,7 +383,7 @@ U kunt deze standaardinstellingen wijzigen.</td>
     </tr>
     <tr>
     <td>ACCT (rekeningcodes)</td>
-    <td>Geef de segmentwaarden of dimensiewaarden van financiële gegevens weer die van toepassing zijn op elke rij. Bij rekening- en transactiedetailrapporten wordt de volledig gekwalificeerde rekening afgedrukt (bijvoorbeeld <strong>110140-070-0101</strong>). Als er bereiken zijn opgegeven in de kolom <strong>Koppeling naar financiële dimensies</strong> in een bijbehorende rijdefinitie, wordt het bereik tussen rechte haken geplaatst en behandeld als één waarde (bijvoorbeeld, <strong>[110140:110700]-070-[0101:0200]</strong>). Bij financiële rapporten en rapporten met een hoog abstractieniveau waarin mogelijk meerdere rekeningen worden gecombineerd, wordt de financiële gegevenskoppeling uit de rijdefinitie afgedrukt (bijvoorbeeld <strong>1100:1200</strong>).</td>
+    <td>Geef de segmentwaarden of dimensiewaarden van financiële gegevens weer die van toepassing zijn op elke rij. Bij rekening- en transactiedetailrapporten wordt de volledig gekwalificeerde rekening afgedrukt (bijvoorbeeld <strong>110140-070-0101</strong>). Als er bereiken zijn opgegeven in de kolom <strong>Koppeling naar financiële dimensies</strong> in een bijbehorende rijdefinitie, wordt het bereik tussen rechte haken geplaatst en behandeld als één waarde (bijvoorbeeld <strong>[110140:110700]-070-[0101:0200]</strong>). Bij financiële rapporten en rapporten met een hoog abstractieniveau waarin mogelijk meerdere rekeningen worden gecombineerd, wordt de financiële gegevenskoppeling uit de rijdefinitie afgedrukt (bijvoorbeeld <strong>1100:1200</strong>).</td>
     </tr>
     <tr>
     <td>FILL</td>
@@ -403,7 +402,7 @@ U kunt deze standaardinstellingen wijzigen.</td>
 
 ### <a name="financial-dimensions-column"></a>Kolom Financiële dimensies
 
-De volgende **Kolomdefinitie** -rijdefinities gelden voor kolommen die een kolomtype hebben van het type **FD** (bedragen van financiële dimensies).
+De volgende **Kolomdefinitie**-rijdefinities gelden voor kolommen die een kolomtype hebben van het type **FD** (bedragen van financiële dimensies).
 
 #### <a name="book-codeattribute-category-cell"></a>Cel Categorie boekcode/-kenmerk
 
@@ -441,7 +440,7 @@ U kunt verder gaan dan de grenzen van het fiscaal jaar in elke periodespecificat
 ### <a name="specify-the-periods-for-an-fd-column"></a>De perioden opgeven voor een FD-kolom
 
 1. Open in Report Designer de kolomdefinitie die u wilt wijzigen.
-2. Dubbelklik in een **FD** -kolom op de cel in de rij **Periode** en selecteer een optie in de lijst.
+2. Dubbelklik in een **FD**-kolom op de cel in de rij **Periode** en selecteer een optie in de lijst.
 3. Voer in de formulebalk boven in het navigatievenster of in de cel **Periode** de formule in. Vervang elk hekje (\#) met de gewenste waarde.
 
 #### <a name="periods-covered-cell"></a>Cel Behandelde perioden
@@ -458,11 +457,11 @@ De cel **Behandelde perioden** identificeert het bedrag dat de kolom moet weerge
 ### <a name="specify-the-periods-that-are-covered-for-an-fd-column"></a>De perioden opgeven die onder een FD-kolom vallen
 
 1. Open in Report Designer de kolomdefinitie die u wilt wijzigen.
-2. Dubbelklik in een **FD** -kolom op de cel in de rij **Behandelde perioden** en selecteer een optie in de lijst.
+2. Dubbelklik in een **FD**-kolom op de cel in de rij **Behandelde perioden** en selecteer een optie in de lijst.
 
 ### <a name="attribute-filter-in-a-column-definition"></a>Kenmerkfilter in een kolomdefinitie
 
-Kenmerken zijn financiële gegevenswaarden die een rekening of transactie verder definiëren. De rekeningkenmerken omvatten **Activum** , **Aansprakelijkheid** , **Opbrengst** en **Onkosten**. De transactiekenmerken omvatten **Transactieomschrijving** en **Datum toepassing transactie**. De ondersteuning van kenmerken kan verschillen bij Microsoft Dynamics ERP-systemen. De cel **Kenmerkfilter** beperkt de gegevens in **FD** -kolommen tot specifieke waarden of bereiken voor kenmerkcategorieën. Hoewel deze functie samen met een **ATTR** -kolom kan worden gebruikt, is de **ATTR** -kolom niet vereist. In een **FD** -kolom is er een limiet op de rekeningen of transacties die in het rapport van het kenmerkfilter wordt opgenomen.
+Kenmerken zijn financiële gegevenswaarden die een rekening of transactie verder definiëren. De rekeningkenmerken omvatten **Activum**, **Aansprakelijkheid**, **Opbrengst** en **Onkosten**. De transactiekenmerken omvatten **Transactieomschrijving** en **Datum toepassing transactie**. De ondersteuning van kenmerken kan verschillen bij Microsoft Dynamics ERP-systemen. De cel **Kenmerkfilter** beperkt de gegevens in **FD**-kolommen tot specifieke waarden of bereiken voor kenmerkcategorieën. Hoewel deze functie samen met een **ATTR**-kolom kan worden gebruikt, is de **ATTR**-kolom niet vereist. In een **FD**-kolom is er een limiet op de rekeningen of transacties die in het rapport van het kenmerkfilter wordt opgenomen.
 
 > [!NOTE]
 > Als u wilt zien welke kenmerken door uw ERP-systeem worden ondersteunt, raadpleegt u de integratiehandleiding voor het systeem.
@@ -470,7 +469,7 @@ Kenmerken zijn financiële gegevenswaarden die een rekening of transactie verder
 #### <a name="apply-an-attribute-filter-for-an-fd-column-on-a-report"></a>Een kenmerkfilter toepassen voor een FD-kolom op een rapport
 
 1. Open in Report Designer de kolomdefinitie die u wilt wijzigen.
-2. Dubbelklik op de cel **Kenmerkfilter** voor een **FD** -kolom.
+2. Dubbelklik op de cel **Kenmerkfilter** voor een **FD**-kolom.
 3. Dubbelklik in het dialoogvenster **Kenmerkfilter** op een cel in de kolom **Kenmerk** en selecteer vervolgens het filtertype.
 4. Om de resultaten verder te beperken, typt u een bereik in de kolommen **Van** en **Tot**. De cel **Van** moet een waarde bevatten.
 5. Klik tot slot op **OK**.
@@ -493,7 +492,7 @@ Het volgende voorbeeld toont een deel van een kolomomschrijving die een rekening
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Dimensiefilter in een kolomdefinitie
 
-Een dimensiefilter wordt gebruikt om de **FD** -kolom te beperken tot specifieke dimensiewaarden. Het filter kan één dimensie, een bereik van dimensies of een groep dimensies bevatten. Het filter kan ook dimensiewaardegroepen bevatten. Omdat dimensiewaarden kunnen verschillen, hoeft een op ..\\financial-dimensions\\dimension-gebaseerd systeem niet met een exacte lengte overeen te komen. Het filter wordt toegepast, ongeacht of het rapport een rapportagestructuur bevat. U kunt op elke positie een jokerteken (\* of ?) gebruiken. Wanneer u meerdere rekeningen opgeeft, plaatst u een komma tussen de rekeningen, zoals in het volgende voorbeeld: +Rekening=\[1200\], +Rekening=\[1100\], Afdeling=\[01?\] Als u alle afdelingen voor een bepaalde rekening wilt ontvangen, kunt u de dimensie Afdeling uitsluiten van het dimensiefilter. Bijvoorbeeld, de volgende dimensiefilters worden op dezelfde manier verwerkt:
+Een dimensiefilter wordt gebruikt om de **FD**-kolom te beperken tot specifieke dimensiewaarden. Het filter kan één dimensie, een bereik van dimensies of een groep dimensies bevatten. Het filter kan ook dimensiewaardegroepen bevatten. Omdat dimensiewaarden kunnen verschillen, hoeft een op ..\\financial-dimensions\\dimension-gebaseerd systeem niet met een exacte lengte overeen te komen. Het filter wordt toegepast, ongeacht of het rapport een rapportagestructuur bevat. U kunt op elke positie een jokerteken (\* of ?) gebruiken. Wanneer u meerdere rekeningen opgeeft, plaatst u een komma tussen de rekeningen, zoals in het volgende voorbeeld: +Rekening=\[1200\], +Rekening=\[1100\], Afdeling=\[01?\] Als u alle afdelingen voor een bepaalde rekening wilt ontvangen, kunt u de dimensie Afdeling uitsluiten van het dimensiefilter. Bijvoorbeeld, de volgende dimensiefilters worden op dezelfde manier verwerkt:
 
 - +Rekening=\[1100\],Afdeling
 - +Rekening=\[1100\]
@@ -503,7 +502,7 @@ U kunt ook een willekeurige combinatie van alfanumerieke tekens gebruiken voor e
 #### <a name="apply-a-dimension-filter-for-a-column-on-a-report"></a>Een dimensiefilter toepassen voor een kolom op een rapport
 
 1. Open in Report Designer de kolomdefinitie die u wilt wijzigen.
-2. Dubbelklik op de cel **Dimensiefilter** voor een **FD** -kolom.
+2. Dubbelklik op de cel **Dimensiefilter** voor een **FD**-kolom.
 3. Voer in het dialoogvenster **Dimensies** de toe te passen filters in.
 4. Klik tot slot op **OK**.
 
@@ -519,27 +518,27 @@ Om de valuta voor boekhouding van een bedrijf te bepalen, voert u de volgende st
 
 1. Klik in Report Designer in het menu **Bedrijf** op **Bedrijven**.
 2. Selecteer een bedrijf in het dialoogvenster **Bedrijven** en klik op **Weergeven**.
-3. In het dialoogvenster **Bedrijf weergeven** , onder **Regionale opties** , kunt u de valuta weergeven die voor het geselecteerde bedrijf is opgegeven.
+3. In het dialoogvenster **Bedrijf weergeven**, onder **Regionale opties**, kunt u de valuta weergeven die voor het geselecteerde bedrijf is opgegeven.
 
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>De valuta in een rapport met meerdere valuta opgeven
 
 1. Open in Report Designer de kolomdefinitie die u wilt wijzigen.
-2. Dubbelklik op de cel **Valutaweergave** in de juiste **FD** -kolom en selecteer vervolgens de optie voor het weergeven van valutagegevens: **Valuta voor boekhouding van grootboek** , **Aangiftevaluta voor grootboek** , transactievaluta of geef aan dat u wilt omrekenen naar een andere aangiftevaluta.
-3. Dubbelklik op de cel **Valutafilter** in de juiste **FD** -kolom en selecteer vervolgens de juiste valutacode in de lijst. Alleen transacties die in deze valuta zijn ingevoerd worden in het rapport weergegeven.
+2. Dubbelklik op de cel **Valutaweergave** in de juiste **FD**-kolom en selecteer vervolgens de optie voor het weergeven van valutagegevens: **Valuta voor boekhouding van grootboek**, **Aangiftevaluta voor grootboek** , transactievaluta of geef aan dat u wilt omrekenen naar een andere aangiftevaluta.
+3. Dubbelklik op de cel **Valutafilter** in de juiste **FD**-kolom en selecteer vervolgens de juiste valutacode in de lijst. Alleen transacties die in deze valuta zijn ingevoerd worden in het rapport weergegeven.
 
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Voorbeeld van cellen Valutaweergave en Valutafilter
 
-Phyllis heeft in haar kolomdefinitie de volgende valutaselecties gemaakt:
+Een gebruiker heeft in haar kolomdefinitie de volgende valutaselecties gemaakt:
 
 - **Valutafilter:** Yen
 - **Valutaweergave:** valuta voor boekhouding van grootboek (Amerikaanse dollars)
 
-Door het valutafilter dat Phyllis heeft Geselecteerd, bevat het rapport alleen transacties die in Japanse Yen (JPY) zijn ingevoerd. Vanwege de valutaweergave die ze heeft geselecteerd, bevat het rapport die transacties in de valuta voor boekhouding, Amerikaanse dollars (USD).
+Door het valutafilter dat is geselecteerd, bevat het rapport alleen transacties die in Japanse Yen (JPY) zijn ingevoerd. Vanwege de valutaweergave die is geselecteerd, bevat het rapport die transacties in de valuta voor boekhouding, Amerikaanse dollars (USD).
 
 #### <a name="currency-filter-and-currency-display-combinations"></a>Combinaties van Valutafilter en Valutaweergave
 
-In de volgende tabel worden de rapportresultaten weergeven die kunnen optreden voor verschillende combinaties van de opties in de cellen **Valutaweergave** en **Valutafilter** door de selecties die Phyllis heeft gemaakt. De functionele valuta is USD.
+In de volgende tabel worden de rapportresultaten weergeven die kunnen optreden voor verschillende combinaties van de opties in de cellen **Valutaweergave** en **Valutafilter** door de selecties die zijn gemaakt. De functionele valuta is USD.
 
 
 | Cel Valutaweergave                        | Cel Valutafilter | Rapportresultaat |
@@ -551,7 +550,7 @@ In de volgende tabel worden de rapportresultaten weergeven die kunnen optreden v
 
 ### <a name="calculation-column-in-a-column-definition"></a>Berekeningskolom in een kolomdefinitie
 
-Een kolomtype **CALC** in een kolomdefinitie ondersteunt complexe berekeningen in de cel **Formule** , en kan de operatoren **+** , **-** , **\*** en **/** bevatten, evenals **IF/THEN/ELSE** -constructies. Een berekeningskolom kan ook verwijzen naar een andere kolom, zelfs daaropvolgende kolommen. Bovendien kan een berekeningskolom ook het fiscale aar en de periode bevatten om kopteksten voor de kolom te ondersteunen. De berekeningsformule kan maximaal 1024 tekens bevatten. Om de uitkomst van de berekening als een percentage uit te drukken, gebruikt u een speciale opmaakopheffing.
+Een kolomtype **CALC** in een kolomdefinitie ondersteunt complexe berekeningen in de cel **Formule**, en kan de operatoren **+**, **-**, **\**_ en _*/** bevatten, evenals **IF/THEN/ELSE**-constructies. Een berekeningskolom kan ook verwijzen naar een andere kolom, zelfs daaropvolgende kolommen. Bovendien kan een berekeningskolom ook het fiscale aar en de periode bevatten om kopteksten voor de kolom te ondersteunen. De berekeningsformule kan maximaal 1024 tekens bevatten. Om de uitkomst van de berekening als een percentage uit te drukken, gebruikt u een speciale opmaakopheffing.
 
 > [!NOTE]
 > De resultaten van berekeningsformules omvatten niet de waarden in niet-afdrukbare kolombereiken. Bijvoorbeeld, **A:D** drukt **0** (nul) af, terwijl **A+B+C** voor niet af te drukken waarden de waarde berekent.
@@ -571,7 +570,7 @@ Om kolommen toe te voegen, te verwijderen, te vermenigvuldigen of te verdelen, v
 #### <a name="use-a-calculation-formula-in-a-column-definition"></a>Een berekeningsformule gebruiken in een kolomdefinitie
 
 1. Open in Report Designer de kolomdefinitie die u wilt wijzigen.
-2. Typ in de juiste **CALC** -kolom een formule in de cel **Formule**.
+2. Typ in de juiste **CALC**-kolom een formule in de cel **Formule**.
 
 #### <a name="complex-calculations"></a>Complexe berekeningen
 

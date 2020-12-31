@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f701a61a718469023dfa57c160229108afeb421c
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: e2eb131db8e167868913f036149779133c1d46ed
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812431"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694933"
 ---
 # <a name="human-resources-overview"></a>Overzicht van Human resources
 
@@ -46,7 +45,7 @@ Met Human resources kunt u deze taken uitvoeren:
 Tijdens het werken met Human resources kunt u bepalen hoe u uw organisatie wilt structureren met behulp van elementen, zoals afdelingen, taken en posities. Dit vormen enkele van de basiselementen die u in Human resources gaat configureren. Individuele werknemers worden toegewezen aan posities die aan taken zijn gekoppeld.
 
 - [Uw werknemers organiseren met afdelingen, taken en posities](../../../talent/departments-jobs-positions.md)
-- [Bedrijfsspecifieke HR-parameters instellen](../../../talent/set-up-company-specific-hr-parameters.md)
+- [Bedrijfsspecifieke parameters voor Human Resources (HR) instellen](../../../talent/set-up-company-specific-hr-parameters.md)
 - [Parameters voor HR-resources instellen voor rechtspersonen](../../../talent/set-up-hr-parameters-across-legal-entities.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Werknemers werven, in dienst nemen en motiveren

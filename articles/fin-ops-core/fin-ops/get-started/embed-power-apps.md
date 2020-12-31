@@ -3,7 +3,7 @@ title: Canvas-apps insluiten vanuit Power Apps
 description: In dit onderwerp wordt uitgelegd hoe u canvas-apps vanuit Microsoft Power Apps kunt insluiten in de client om de functionaliteit van het product te verbeteren.
 author: jasongre
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 11/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: FormRunConfigurationAddPAControl, FormRunConfigurationEditPAControl
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: e57e4567a80aa9f9ba5ac434b0d71204460e164f
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: ba3b736aeae8540349309ddd82bd431720b9701c
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893102"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693478"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Canvas-apps insluiten vanuit Power Apps
 
@@ -57,7 +56,7 @@ De volgende procedure laat zien hoe u een canvas-app vanuit Power Apps in de web
 3. De ingesloten app configureren:
 
     - Het veld **Naam** geeft de weergegeven tekst aan voor de knop of het tabblad met de ingesloten app. Vaak zult u de naam van de app in dit veld willen herhalen.
-    - Met het veld **App-ID** wordt de GUID (Globally Unique Identifier) aangegeven voor de canvas-app die u wilt insluiten. Als u deze waarde wilt ophalen, gaat u naar de app op [web.powerapps.com](https://web.powerapps.com) en zoekt u in het veld **App-ID** onder **Details**.
+    - Met het veld **App-ID** wordt de GUID (Globally Unique Identifier) aangegeven voor de canvas-app die u wilt insluiten. Als u deze waarde wilt ophalen, gaat u naar de app op [make.powerapps.com](https://make.powerapps.com) en zoekt u in het veld **App-ID** onder **Details**.
     - Voor **Context invoeren voor de app** kunt u eventueel het veld selecteren dat de gegevens bevat die u als invoer wilt doorgeven aan de app. Raadpleeg de sectie [Een app bouwen die gebruikmaakt van gegevens die vanuit Finance and Operations-apps zijn verzonden](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) verderop in dit onderwerp voor meer informatie over hoe de app toegang krijgt tot gegevens uit Finance and Operations-apps.
     - Kies de **Toepassingsgrootte** die overeenkomt met het type app dat u insluit. Selecteer **Dun** voor apps voor mobiele apparaten en **Breed** voor apps voor tablets. Zo zorgt u dat voldoende schijfruimte wordt gereserveerd voor de ingesloten app.
     - Het sneltabblad **Rechtspersonen** biedt de mogelijkheid om te kiezen voor welke rechtspersonen de app beschikbaar is. De standaardwaarde is dat de app voor alle rechtspersonen toegankelijk is. Deze optie is alleen beschikbaar als de functie [Opgeslagen weergaven](saved-views.md) is uitgeschakeld. 

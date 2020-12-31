@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8cc7de1473ed6ec9b93bd880b47b0c25ec5a7262
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 214a36a1284756e47aa1d28af99234657f1861c0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185193"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688278"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Rijdefinities in Ontwerper financiële rapporten
 
@@ -161,7 +160,7 @@ De opmaak die in de rijdefinitie is opgegeven negeert de opmaak die in de kolomd
 
 1. Open in Report Designer de rijdefinitie die u wilt wijzigen.
 2. Selecteer de cellen die u wilt opmaken. Als u meerdere cellen wilt selecteren, houdt u Ctrl ingedrukt terwijl u de cellen selecteert.
-3. Klik in de werkbalk op de knop van de opmaak die u wilt toepassen. Als u bijvoorbeeld een rij wilt laten inspringen, selecteert u de rij en klikt u vervolgens op **Inspringing vergroten** ![Inspringing vergroten](media/indent.gif "Inspringing vergroten") op de werkbalk.
+3. Klik in de werkbalk op de knop van de opmaak die u wilt toepassen. Als u bijvoorbeeld een rij wilt laten inspringen, selecteert u de rij en klikt u vervolgens op **Inspringing vergroten** ![Inspringing vergroten](media/indent.gif "Inspringing vergroten") in de werkbalk.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Kolommen aanpassen terwijl u rapporten ontwerpt
 
@@ -185,6 +184,6 @@ Om het gemakkelijker te maken om de kolommen waarin u werkt in de rijdefinitie w
 2. Klik met de rechtermuisknop op de geminimaliseerde kolom die u wilt weergeven en klik vervolgens op **Zichtbaar maken**.
 
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Financiële rapportage](financial-reporting-intro.md)

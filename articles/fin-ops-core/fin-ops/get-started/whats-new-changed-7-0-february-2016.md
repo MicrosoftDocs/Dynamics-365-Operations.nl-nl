@@ -11,19 +11,18 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Operations
 ms.custom: 91243
 ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54f07e7037f818862db4a44f9ad3e3fe8545f6f9
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 5d72eaa28cfe3d114d2ab48cb1e477074a8bf739
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811477"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693253"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Wat is nieuw of gewijzigd in Dynamics AX 7.0 (februari 2016)
 
@@ -634,15 +633,15 @@ De werkruimte <strong>Catalogusbeheer</strong> maakt de volgende functionaliteit
 <li>De vereiste stappen uitvoeren om een taak te voltooien, of informatie te leveren om de taak te voltooien.</li>
 <li>De status weergeven van apparaten, en rechtstreeks de installatie van Retail Modern POS (MPOS) in winkels valideren en downloaden.</li>
 <li>Alle gerelateerde pagina's openen.</li>
-</ul>In de werkruimte 
-<strong>Beheer van detailhandelwinkel</strong> kunt u de volgende taken uitvoeren:
+</ul>
+<strong>In de werkruimte Beheer van detailhandelwinkel</strong> kunt u de volgende taken uitvoeren:
 <ul>
 <li>Werknemers en de machtigingen voor het verkooppunt (POS) van de werknemers beheren.</li>
 <li>De werktijdstatus voor een bepaalde winkel of groep van winkels volgen.</li>
 <li>Rechtstreeks de programma-installatie van MPOS in winkels valideren en downloaden.</li>
 <li>Rapporten afdrukken en gerelateerde pagina's openen.</li>
-</ul>In de werkruimte 
-<strong>Financiën van detailhandelwinkel</strong> kunt u de volgende taken uitvoeren:
+</ul>
+<strong>In de werkruimte Financiën van detailhandelwinkel</strong> kunt u de volgende taken uitvoeren:
 <ul>
 <li>Overzichten maken, berekenen en boeken voor een specifiek kanaal.</li>
 <li>Batchtaken plannen om voorraad bij te werken en overzichten te berekenen en te boeken.</li>
@@ -735,7 +734,7 @@ Met Retail Server en gegevensbeheer kunt klanten en bedrijven een shoppingervari
 </tr>
 <tr>
 <td>Verplaatsen van gegevens tussen de Microsoft Dynamics AX-back-office en -kanalen met Commerce Data Exchange.</td>
-<td>Commerce Data Exchange is een systeem dat de gegevensoverdracht tussen Microsoft Dynamics AX en detailhandelkanalen, zoals onlinewinkels of fysieke winkels. Zie voor meer informatie <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>Commerce Data Exchange is een systeem dat de gegevensoverdracht tussen Microsoft Dynamics AX en detailhandelkanalen, zoals onlinewinkels of fysieke winkels. Zie <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a> voor meer informatie.</td>
 <td>Er is functionele pariteit met Microsoft Dynamics AX 2012 CU8. Houd echter rekening met het volgende:
 <ul>
 <li>Commerce Data Exchange is opnieuw ontworpen voor de cloud.</li>
@@ -1029,8 +1028,8 @@ Geen nieuwe functies zijn toegevoegd.
 |------------------|------------------|-----------------|------------------------|
 | Download, installeer en configureer de Magazijn-portal voor mobiele apparaten. | U kunt de portal downloaden, installeren en configureren tijdens het installatieproces van Microsoft Dynamics AX, door een standaardsetup. Het is ontworpen voor zelfgestuurde implementatie en configuratie on-premises. | U kunt een zelfstandig installatieprogramma downloaden via een menu-item in Magazijnbeheer. Het is ontworpen voor zelfgestuurde implementatie en configuratie on-premises. | Wanneer u de functionaliteit voor gebruik van mobiele apparaten opzet, moet u de magazijnportal voor mobiele apparaten lokaal installeren en configureren en een verbinding opzetten met het Dynamics AX-programma in de cloud. |
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Startpagina Nieuw of gewijzigd in Finance and Operations](whats-new-changed.md)
+[Nieuwe of gewijzigde functies op de startpagina van Finance and Operations](whats-new-changed.md)
 
 [Nieuwe taakbegeleidingen (februari 2016)](new-task-guides-available-february-2016.md)

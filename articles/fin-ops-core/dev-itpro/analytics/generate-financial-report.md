@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c682ed96e47c718d3a9af1eb10aada75c59d3156
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e8b688cb1e4589eb076015d01dc4f0f0db14787e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181836"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688312"
 ---
 # <a name="generate-financial-reports"></a>Financiële rapporten genereren
 
@@ -42,7 +41,7 @@ Wanneer u een rapport genereert, worden de opties gebruikt die u op de tabbladen
 
 ## <a name="generate-a-financial-report"></a>Een financieel rapport maken
 
-Voor het genereren van een financieel rapport gaat u naar **Grootboek** \>**Query's en rapporten** \> **Financiële rapporten**.
+Voor het genereren van een financieel rapport gaat u naar **Grootboek** \> **Query's en rapporten** \> **Financiële rapporten**.
 
 - Selecteer het rapport dat u wilt genereren en klik op **Genereren**.
 - Vul het veld **Rapportdatum** in en klik op **OK**.
@@ -98,7 +97,7 @@ Om een rapportplan te verwijderen, moet u de eigenaar van het rapportplan zijn o
 
 Als u geen referenties invoert die voor alle bedrijven opgenomen in de rapporten worden vereist, ontvangt u het volgende bericht wanneer u op het rapportplan: "U moet uw referenties voor de bedrijven invoeren die dit rapportplan bevat. Selecteer de knop Machtigingen om uw referenties in te voeren."
 
-Bijvoorbeeld: Phyllis meldt zich aan bij bedrijf A met haar gebruikersnaam en wachtwoord. Ze maakt een planning voor een rapport dat een rapporteringsstructuurdefinitie gebruikt om gegevens uit meerdere bedrijven te verzamelen. Wanneer Phyllis het rapport opslaat, wordt haar gevraagd de referenties voor alle overige bedrijven in de rapporteringsstructuurdefinitie op te geven. Wanneer uw referenties verlopen, dan worden de betrokken rapporten in de rapportplanning niet gegenereerd tot de referenties zijn bijgewerkt. Een bericht wordt weergegeven in de rapportwachtrij om aan te geven dat de machtigingen moeten worden bijgewerkt. Het rapport het plan mislukt als een van de volgende scenario's (omdat deze referenties vereisen) plaatsvind:
+Bijvoorbeeld: een gebruiker meldt zich aan bij bedrijf A met een gebruikersnaam en wachtwoord. De gebruiker maakt een planning voor een rapport dat een rapporteringsstructuurdefinitie gebruikt om gegevens uit meerdere bedrijven te verzamelen. Wanneer Phyllis het rapport opslaat, wordt de gebruiker gevraagd de referenties voor alle overige bedrijven in de rapporteringsstructuurdefinitie op te geven. Wanneer uw referenties verlopen, dan worden de betrokken rapporten in de rapportplanning niet gegenereerd tot de referenties zijn bijgewerkt. Een bericht wordt weergegeven in de rapportwachtrij om aan te geven dat de machtigingen moeten worden bijgewerkt. Het rapport het plan mislukt als een van de volgende scenario's (omdat deze referenties vereisen) plaatsvind:
 
 - Een nieuw bedrijf is toegevoegd aan een rapportstructuur voor een individueel rapport.
 - Een rapport in een rapportgroep is gewijzigd.

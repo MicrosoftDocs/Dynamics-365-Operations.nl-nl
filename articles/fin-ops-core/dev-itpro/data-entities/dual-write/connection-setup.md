@@ -18,35 +18,37 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 2d77a1458f3f4c79b231e6a6d7cc320b8ee1fad9
-ms.sourcegitcommit: ee643d651d57560bccae2f99238faa39881f5c64
+ms.openlocfilehash: 47c07dd0e2f311b61297340a48a5a31cb1de3903
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088501"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685660"
 ---
-# <a name="guidance-for-how-to-set-up-dual-write"></a>Richtlijnen voor het instellen van twee keer wegschrijven
+# <a name="guidance-for-dual-write-setup"></a>Richtlijnen voor het instellen van twee keer wegschrijven
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [preview-banner](../../includes/preview-banner.md)]
 
-U kunt een verbinding voor twee keer wegschrijven instellen tussen een Finance and Operations-omgeving en een Common Data Service-omgeving.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-+ Een **Finance and Operations-omgeving** levert het onderliggende platform voor **Finance and Operations-apps** (bijvoorbeeld Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management en Dynamics 365 Retail).
-+ Een **Common Data Service-omgeving** biedt het onderliggende platform voor **Customer Engagement-apps** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing en Dynamics 365 Project Service Automation).
+U kunt een verbinding voor twee keer wegschrijven instellen tussen een Finance and Operations-omgeving en een Dataverse-omgeving.
 
->[!IMPORTANT]
->Human resources in Finance and Operations ondersteunt dual-write-verbindingen, maar de Dynamics 365 Human Resources-app ondersteunt dat niet.
++ Een **Finance and Operations-omgeving** levert het onderliggende platform voor **Finance and Operations-apps** (bijvoorbeeld Microsoft Dynamics 365 Finance, Dynamics 365 Supply Chain Management, Dynamics 365 Commerce en Dynamics 365 Human Resources).
++ Een **Dataverse-omgeving** biedt het onderliggende platform voor **Customer Engagement-apps** (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing en Dynamics 365 Project Service Automation).
 
-Het installatiemechanisme varieert afhankelijk van uw abonnement en de omgeving.
+> [!IMPORTANT]
+> De module Human resources in Dynamics 365 Finance ondersteunt verbindingen voor twee keer wegschrijven, maar de Dynamics 365 Human Resources-app ondersteunt dat niet.
 
-+ Voor nieuwe exemplaren van Finance and Operations-apps begint het instellen van een verbinding voor twee keer wegschrijven met Microsoft Dynamics Lifecycle Services (LCS). Als u een licentie hebt voor Power Platform, krijgt u een nieuwe Common Data Service-omgeving als uw tenant er geen heeft.
+Het installatiemechanisme varieert afhankelijk van uw abonnement en de omgeving:
+
++ Voor nieuwe exemplaren van Finance and Operations-apps begint het instellen van een verbinding voor twee keer wegschrijven met Microsoft Dynamics Lifecycle Services (LCS). Als u een licentie hebt voor Microsoft Power Platform, krijgt u een nieuwe Dataverse-omgeving als uw tenant er geen heeft.
 + Voor bestaande exemplaren van Finance and Operations-apps begint het instellen van een verbinding voor twee keer wegschrijven in de Finance and Operations-omgeving.
 
 Voordat u twee keer wegschrijven voor een entiteit start, kunt u een initiële synchronisatie uitvoeren om bestaande gegevens aan beide zijden van Finance and Operations-apps en Customer Engagement-apps te verwerken. U kunt de initiële synchronisatie overslaan als u geen gegevens tussen de twee omgevingen hoeft te synchroniseren.
 
-Met een initiële synchronisatie kunt u bestaande gegevens in twee richtingen van de ene naar de andere app kopiëren. Er zijn verschillende instellingsscenario's afhankelijk van de omgevingen die u al hebt en welke type gegevens de omgevingen bevatten.
+Met een initiële synchronisatie kunt u bestaande gegevens in twee richtingen van de ene naar de andere app kopiëren. Er zijn verschillende instellingsscenario's afhankelijk van de omgevingen die u al hebt en het type gegevens dat deze omgevingen bevatten.
 
 De volgende scenario's met instellingen worden ondersteund:
 
@@ -64,7 +66,7 @@ Als u een verbinding voor twee keer wegschrijven wilt instellen tussen een nieuw
 - Er wordt een nieuwe, lege Finance and Operations-omgeving ingericht.
 - Er wordt een nieuw, leeg exemplaar van een Customer Engagement-app ingericht, waarbij de CRM Prime-oplossing wordt geïnstalleerd.
 - Er wordt een verbinding voor twee keer wegschrijven tot stand gebracht met DAT-bedrijfsgegevens.
-- Entiteitstoewijzingen worden ingeschakeld voor live migratie.
+- Tabeltoewijzingen worden ingeschakeld voor live migratie.
 
 Beide omgevingen zijn vervolgens gereed voor synchronisatie met live gegevens.
 
@@ -74,65 +76,65 @@ Als u een verbinding voor twee keer wegschrijven wilt instellen tussen een nieuw
 
 - Er wordt een nieuwe, lege Finance and Operations-omgeving ingericht.
 - Er wordt een verbinding voor twee keer wegschrijven tot stand gebracht met DAT-bedrijfsgegevens.
-- Entiteitstoewijzingen worden ingeschakeld voor live migratie.
+- Tabeltoewijzingen worden ingeschakeld voor live migratie.
 
 Beide omgevingen zijn vervolgens gereed voor synchronisatie met live gegevens.
 
-Voer de volgende stappen uit om de bestaande Common Data Service-gegevens te synchroniseren met de Finance and Operations-app.
+Voer de volgende stappen uit om de bestaande Dataverse-gegevens te synchroniseren met de Finance and Operations-app.
 
 1. Maak een nieuw bedrijf maken in de Finance and Operations-app.
 2. Voeg het bedrijf toe aan de instellingen van de verbinding voor twee keer wegschrijven.
-3. [Laad](bootstrap-company-data.md) de Common Data Service-gegevens automatisch met de ISO-bedrijfscode (International Organization for Standardization) van drie letters.
-4. Voer de functie **Initiële synchronisatie** uit voor de entiteiten waarvoor u gegevens wilt synchroniseren.
+3. [Laad](bootstrap-company-data.md) de Dataverse-gegevens automatisch met de ISO-bedrijfscode (International Organization for Standardization) van drie letters.
+4. Voer de functie **Initiële synchronisatie** uit voor de tabellen waarvoor u gegevens wilt synchroniseren.
 
-Zie voor een voorbeeld en een alternatieve aanpak [Voorbeeld](#example).
+Zie de sectie [Voorbeeld](#example) verderop in dit onderwerp voor koppelingen naar een voorbeeld en een alternatieve aanpak.
 
 ## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-a-new-customer-engagement-app-instance"></a><a id="new-data-new"></a>Een nieuw exemplaar van de Finance and Operations-app met gegevens en een nieuw exemplaar van de Customer Engagement-app
 
 Als u een verbinding voor twee keer wegschrijven wilt instellen tussen een nieuw exemplaar van een Finance and Operations-app met gegevens en een nieuw exemplaar van een Customer Engagement-app, voert u de stappen in de sectie [Een nieuw exemplaar van de Finance and Operations-app en een nieuw exemplaar van de Customer Engagement-app](#new-new) eerder in dit onderwerp. Wanneer de verbinding is voltooid en u de gegevens wilt synchroniseren met de Customer Engagement-app, voert u de volgende stappen uit.
 
 1. Open de Finance and Operations-app via de LCS-pagina, meld u aan en ga naar **Gegevensbeheer \> Twee keer wegschrijven**.
-2. Voer de functie **Initiële synchronisatie** uit voor de entiteiten waarvoor u gegevens wilt synchroniseren.
+2. Voer de functie **Initiële synchronisatie** uit voor de tabellen waarvoor u gegevens wilt synchroniseren.
 
-Zie voor een voorbeeld en een alternatieve aanpak [Voorbeeld](#example).
+Zie de sectie [Voorbeeld](#example) voor koppelingen naar een voorbeeld en een alternatieve aanpak.
 
 ## <a name="a-new-finance-and-operations-app-instance-that-has-data-and-an-existing-customer-engagement-app-instance"></a><a id="new-data-existing"></a>Een nieuw exemplaar van de Finance and Operations-app met gegevens en een bestaand exemplaar van de Customer Engagement-app
 
 Als u een verbinding voor twee keer wegschrijven wilt instellen tussen een nieuw exemplaar van een Finance and Operations-app met gegevens en een bestaand exemplaar van een Customer Engagement-app, voert u de stappen in de sectie [Een nieuw exemplaar van de Finance and Operations-app en een bestaand exemplaar van de Customer Engagement-app](#new-existing) eerder in dit onderwerp. Wanneer de verbinding is voltooid en u de gegevens wilt synchroniseren met de Customer Engagement-app, voert u de volgende stappen uit.
 
 1. Open de Finance and Operations-app via de LCS-pagina, meld u aan en ga naar **Gegevensbeheer \> Twee keer wegschrijven**.
-2. Voer de functie **Initiële synchronisatie** uit voor de entiteiten waarvoor u gegevens wilt synchroniseren.
+2. Voer de functie **Initiële synchronisatie** uit voor de tabellen waarvoor u gegevens wilt synchroniseren.
 
-Voer de volgende stappen uit om de bestaande Common Data Service-gegevens te synchroniseren met de Finance and Operations-app.
+Voer de volgende stappen uit om de bestaande Dataverse-gegevens te synchroniseren met de Finance and Operations-app.
 
 1. Maak een nieuw bedrijf maken in de Finance and Operations-app.
 2. Voeg het bedrijf toe aan de instellingen van de verbinding voor twee keer wegschrijven.
-3. [Laad](bootstrap-company-data.md) de Common Data Service-gegevens automatisch met de ISO-bedrijfscode van drie letters.
-4. Voer de functie **Initiële synchronisatie** uit voor de entiteiten waarvoor u gegevens wilt synchroniseren.
+3. [Laad](bootstrap-company-data.md) de Dataverse-gegevens automatisch met de ISO-bedrijfscode van drie letters.
+4. Voer de functie **Initiële synchronisatie** uit voor de tabellen waarvoor u gegevens wilt synchroniseren.
 
-Zie voor een voorbeeld en een alternatieve aanpak [Voorbeeld](#example).
+Zie de sectie [Voorbeeld](#example) voor koppelingen naar een voorbeeld en een alternatieve aanpak.
 
 ## <a name="an-existing-finance-and-operations-app-instance-and-a-new-customer-engagement-app-instance"></a><a id="existing-new"></a>Een bestaand exemplaar van de Finance and Operations-app en een nieuw exemplaar van de Customer Engagement-app
 
 Het instellen van een verbinding voor twee keer wegschrijven tussen een bestaand exemplaar van een Finance and Operations-app en een nieuw exemplaar van een Customer Engagement-app in de Finance and Operations-omgeving.
 
 1. [Stel de verbinding vanuit de Finance and Operations-app](enable-dual-write.md) op.
-2. Voer de functie **Initiële synchronisatie** uit voor de entiteiten waarvoor u gegevens wilt synchroniseren.
+2. Voer de functie **Initiële synchronisatie** uit voor de tabellen waarvoor u gegevens wilt synchroniseren.
 
-Zie voor een voorbeeld en een alternatieve aanpak [Voorbeeld](#example).
+Zie de sectie [Voorbeeld](#example) voor koppelingen naar een voorbeeld en een alternatieve aanpak.
 
 ## <a name="an-existing-finance-and-operations-app-instance-and-an-existing-customer-engagement-app-instance"></a><a id="existing-existing"></a>Een bestaand exemplaar van de Finance and Operations-app en een bestaand exemplaar van de Customer Engagement-app
 
 Het instellen van een verbinding voor twee keer wegschrijven tussen een bestaand exemplaar van een Finance and Operations-app en een bestaand exemplaar van een Customer Engagement-app in de Finance and Operations-omgeving.
 
-1. Stel de verbinding in vanuit de Finance and Operations-app.
-2. Als u de bestaande Common Data Service-gegevens wilt synchroniseren met de Finance and Operations-app, [laadt](bootstrap-company-data.md) u de Common Data Service-gegevens automatisch met de ISO-bedrijfscode van drie letters.
-3. Voer de functie **Initiële synchronisatie** uit voor de entiteiten waarvoor u gegevens wilt synchroniseren.
+1. [Stel de verbinding vanuit de Finance and Operations-app](enable-dual-write.md) op.
+2. Als u de bestaande Dataverse-gegevens wilt synchroniseren met de Finance and Operations-app, [laadt](bootstrap-company-data.md) u de Dataverse-gegevens automatisch met de ISO-bedrijfscode van drie letters.
+3. Voer de functie **Initiële synchronisatie** uit voor de tabellen waarvoor u gegevens wilt synchroniseren.
 
-Zie voor een voorbeeld en een alternatieve aanpak [Voorbeeld](#example).
+Zie de sectie [Voorbeeld](#example) voor koppelingen naar een voorbeeld en een alternatieve aanpak.
 
 ## <a name="example"></a>Voorbeeld
 
-Zie voor een voorbeeld [De entiteitstoewijzing Klanten V3—contactpersonen inschakelen](enable-entity-map.md#example-enabling-the-customers-v3contacts-entity-map)
+Zie voor een voorbeeld [De tabeltoewijzing Klanten V3—contactpersonen inschakelen](enable-entity-map.md#enable-table-map)
 
-Zie [Overwegingen voor initiële synchronisatie](initial-sync-guidance.md) voor een alternatieve aanpak op basis van gegevensvolumes in elke entiteit waarvoor initiële synchronisatie moet worden uitgevoerd.
+Zie [Overwegingen voor initiële synchronisatie](initial-sync-guidance.md) voor een alternatieve aanpak die is gebaseerd op gegevensvolumes in elke entiteit waarvoor een initiële synchronisatie moet worden uitgevoerd.

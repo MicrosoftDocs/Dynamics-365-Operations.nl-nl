@@ -3,7 +3,7 @@ title: Middelen voor selectie van kandidaten identificeren en implementeren
 description: Het zoeken van een gekwalificeerde pool kandidaten voor vacatures kan moeilijk zijn, met name als een positie een unieke set vaardigheden vereist.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 11/20/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d8a05ad7f100e6c54ccf1ecf7b76509cf44dbb8
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: f4e7ed6feaa1b5b27fcfc0ec99a2d75415fe7d6a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143944"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693059"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Middelen voor selectie van kandidaten identificeren en implementeren
 
@@ -39,8 +38,8 @@ Het zoeken van een gekwalificeerde pool kandidaten voor vacatures kan moeilijk z
 7. Klik op Taak.
 8. Typ of selecteer een waarde in het veld Taak.
 9. Klik op OK.
-10. Vouw het bereiksneltabblad uit en voeg eventuele aanvullende informatie, zoals afdeling, toe.
-11. Vouw het certificatensneltabblad uit om de certificaten weer te geven of te bewerken.
+10. Vouw het sneltabblad Bereik uit en voeg eventuele aanvullende informatie, zoals afdeling, toe.
+11. Vouw het sneltabblad Certificaten uit om de certificaten weer te geven of te bewerken.
 12. Vouw het sneltabblad Vaardigheden uit om de vaardigheden weer te geven of te bewerken.
 13. Vouw het sneltabblad Opleiding uit om de opleidingscriteria weer te geven of te bewerken.
 14. Klik op Uitvoeren.
@@ -49,7 +48,7 @@ Het zoeken van een gekwalificeerde pool kandidaten voor vacatures kan moeilijk z
 17. Klik op Resultaat.
 18. Klik op Hervatten.
 19. Klik op Certificaten.
-    * U kunt meer info over elke weergegeven persoon bekijken en details over de opleiding, vaardigheden, beroepservaring enzovoort weergeven.  
+    * U kunt meer info over elke weergegeven persoon bekijken en details over de opleiding, vaardigheden en beroepservaring weergeven.  
 20. Sluit de pagina.
 21. Sluit de pagina.
 22. Selecteer het resultaat opnieuw.

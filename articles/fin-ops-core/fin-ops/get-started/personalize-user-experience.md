@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f01580117b22191976400b2e2ba1a5dde8ad559d
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: e46c392c43b63ef443f66d8ea8f9e91a9df3d126
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802986"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693227"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
@@ -64,7 +63,7 @@ Hier volgt een lijst met de acties die onder het normale gebruik van de pagina v
 - **Actievensters**: een *actievenster* wordt weergegeven boven aan de meeste pagina's. Het actievenster bevat knoppen voor een groot aantal van de acties die u op de huidige pagina uitvoeren kunt. Deze knoppen zijn vaak geordend op tabbladen. U kunt het gehele actievenster open *vastzetten* of u kunt het standaard samengevouwen laten. De volgende keer dat u de pagina opent, is het actievenster geopend of samengevouwen, gebaseerd op uw laatste interactie met de pagina. Als u het actievenster open hebt vastgemaakt, wordt het laatst gebruikte tabblad weergegeven.
 - **Snelfilters**: een *snelfilter* wordt boven aan veel rasters weergegeven. Met het snelfilter kunt u het raster filteren op basis van één kolom die u selecteert. De app slaat de kolom op waarop u hebt gefilterd. De volgende keer dat u die pagina opent, wordt het raster standaard op dezelfde kolom gefilterd. U kunt vervolgens echter toch een andere kolom selecteren om het raster op te filteren.
 - **Kolomkopfilters**: wanneer u een raster filtert met behulp van *kolomkopfilters*, kunt u de filteroperator indien nodig wijzigen om de gegevens te vinden die u zoekt. U kunt de operator bijvoorbeeld wijzigen van **begint met** in **is exact**. Telkens wanneer u een koptekstfilter gebruikt en de filteroperator wijzigt, slaat de app de wijziging op. Vervolgens wordt de filteroperator hersteld wanneer u de volgende keer op die kolom filtert.
-- **Navigatievenster**: u kunt het *navigatievenster* openen door de knop **Het navigatiedeelvenster uitvouwen** te selecteren, linksboven op elke pagina. (Deze knop wordt ook wel de _**Menu**knop_, de *hamburger*, het *hamburgermenu* of de *hamburgerknop* genoemd.) U kunt het navigatievenster open vastzetten of u kunt het standaard samengevouwen houden. Nadat u het navigatievenster open hebt vastgezet, houdt de app het open totdat u het samenvouwt.
+- **Navigatievenster**: u kunt het *navigatievenster* openen door de knop **Het navigatiedeelvenster uitvouwen** te selecteren, linksboven op elke pagina. (Deze knop wordt ook wel de _**Menu** knop_, de *hamburger*, het *hamburgermenu* of de *hamburgerknop* genoemd.) U kunt het navigatievenster open vastzetten of u kunt het standaard samengevouwen houden. Nadat u het navigatievenster open hebt vastgezet, houdt de app het open totdat u het samenvouwt.
 
 ## <a name="full-personalization-access-formerly-explicit-personalizations"></a>Volledige toegang tot persoonlijke instellingen (voorheen expliciete gepersonaliseerde items)
 
@@ -123,7 +122,7 @@ De volgende hulpmiddelen zijn beschikbaar op de werkbalk **Aanpassing**:
 - Gebruik het hulpmiddel **Selecteren** om de eigenschappen van een element te wijzigen. Als u dit hulpmiddel wilt gebruiken, selecteert u de knop **Selecteren** op de werkbalk en selecteert u vervolgens het gewenste element. Het eigenschappenvenster van het element wordt geopend en u kunt daar eventuele eigenschappen van dat element wijzigen. U kunt het proces herhalen voor andere elementen die op de pagina kunnen worden aangepast. Sommige aangepaste eigenschappen zijn mogelijk niet in alle scenario's beschikbaar. U kunt bijvoorbeeld geen veld vergrendelen dat vereist is.
 - Gebruik het hulpmiddel **Verbergen** om een element op de pagina te verbergen. Als u dit hulpmiddel wilt gebruiken, selecteert u de knop **Verbergen** op de werkbalk en selecteert u vervolgens het element dat u wilt verbergen. Wanneer u het hulpmiddel **Verbergen** gebruikt, worden alle elementen die momenteel verborgen zijn, zichtbaar gemaakt, maar in een grijze container weergegeven. U kunt een element vervolgens zichtbaar maken door het te selecteren. Als u wilt zien hoe de pagina eruitziet wanneer elementen verborgen zijn, schakelt u over op een ander personalisatiehulpmiddel of sluit u de personalisatiewerkbalk.
 - Gebruik het hulpmiddel **Velden toevoegen** om velden toe te voegen aan uw pagina. Wanneer u dit hulpmiddel gebruikt, kunt u alleen velden toevoegen die deel uitmaken van de paginadefinitie. Zie voor informatie over het maken van nieuwe velden die geen deel uitmaken van de huidige paginadefinitie [Maken en werken met aangepaste velden](user-defined-fields.md). Nadat u de knop **Velden toevoegen** op de werkbalk hebt geselecteerd, moet u eerst het raster of de sectie selecteren waar u een veld wilt toevoegen. Er wordt een dialoogvenster weergegeven met de lijst met velden die gerelateerd zijn aan het geselecteerde raster of sectie. Selecteer in het dialoogvenster een of meer velden om toe te voegen en selecteer vervolgens **Bijwerken**. Als u een veld wilt verwijderen dat u eerder hebt toegevoegd, herhaalt u de procedure, maar wist u de selectie van het veld in het dialoogvenster.
-- Gebruik het hulpmiddel **Verplaatsen** om een element te verplaatsen naar een andere locatie binnen de huidige groep elementen. U kunt een element niet buiten de bovenliggende groep verplaatsen. Als u dit hulpmiddel wilt gebruiken, selecteert u de knop **Verplaatsen** op de werkbalk en selecteert u vervolgens het element dat u wilt verplaatsen. Wanneer u een element selecteert, bepaalt de app de locaties waar het element naartoe kan worden verplaatst. Deze locaties worden *neerzetzones*genoemd. Wanneer u het element binnen de huidige groep versleept, wordt elke neerzetzone weergegeven als een gekleurde vette lijn naast het gebied waar het element kan worden neergezet.
+- Gebruik het hulpmiddel **Verplaatsen** om een element te verplaatsen naar een andere locatie binnen de huidige groep elementen. U kunt een element niet buiten de bovenliggende groep verplaatsen. Als u dit hulpmiddel wilt gebruiken, selecteert u de knop **Verplaatsen** op de werkbalk en selecteert u vervolgens het element dat u wilt verplaatsen. Wanneer u een element selecteert, bepaalt de app de locaties waar het element naartoe kan worden verplaatst. Deze locaties worden *neerzetzones* genoemd. Wanneer u het element binnen de huidige groep versleept, wordt elke neerzetzone weergegeven als een gekleurde vette lijn naast het gebied waar het element kan worden neergezet.
 - Gebruik het hulpmiddel **Overslaan** om een element te verwijderen uit de volgorde van de toetsenbordtoets Tab van de pagina. Wanneer u de knop **Overslaan** op de werkbalk selecteert, worden alle elementen die momenteel overgeslagen worden, weergegeven in een grijze container. U kunt velden interactief verwijderen of toevoegen aan de tabvolgorde.
 - Gebruik het hulpmiddel **Weergeven in koptekst** als u wilt dat een veld in de samenvattingssectie van het sneltabblad wordt weergegeven. Wanneer u de knop **Weergeven in koptekst** selecteert op de werkbalk, worden alle velden die zijn geselecteerd als overzichtsvelden, weergegeven in een grijze container. U kunt interactief velden toevoegen aan het sneltabbladoverzicht en velden uit het sneltabbladoverzicht verwijderen door de velden te selecteren.
 - Gebruik het gereedschap **Vereisen** om een element aan te wijzen dat nodig is voor gegevensinvoer. Wanneer u de knop **Vereisen** op de werkbalk selecteert, worden alle elementen die momenteel zijn aangepast als vereist, weergegeven in een grijze container. U kunt ze vervolgens weer instellen op niet vereist. Deze optie is alleen beschikbaar vanaf versie 10.0.12 als de functie **Velden aanwijzen die vereist zijn voor persoonlijke instellingen** is ingeschakeld.

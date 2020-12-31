@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182986"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685854"
 ---
 # <a name="modify-row-definition-cells"></a>Rijdefinitiecellen wijzigen
 
@@ -107,8 +106,8 @@ De cel **Opmaakcode** biedt een selectie van vooraf opgemaakte keuzes voor de in
     |-------------------------------|-----------------------------------|--------|
     | (Geen)                        |                                   | Wist de cel **Opmaakcode**. |
     | TOT                           | Totaal                             | Identificeert een rij die wiskundige operatoren gebruikt in de kolom **Gerelateerde formules/rijen/eenheden**. De totalen bevatten eenvoudige operatoren, zoals **+** of **-**. |
-    | CAL                           | Berekening                       | Identificeert een rij die wiskundige operatoren gebruikt in de kolom **Gerelateerde formules/rijen/eenheden**. De berekeningen bevatten complexe operatoren, zoals **+**, **-**, **\***, **/** en **IF/THEN/ELSE**-instructies. |
-    | DES                           | Omschrijving                       | Identificeert een kopregel of een lege regel op een rapport. |
+    | CAL                           | Berekening                       | Identificeert een rij die wiskundige operatoren gebruikt in de kolom **Gerelateerde formules/rijen/eenheden**. De berekeningen bevatten complexe operatoren, zoals **+**, **-**, **\**_, _*/** en **IF/THEN/ELSE**-instructies. |
+    | DES                           | Beschrijving                       | Identificeert een kopregel of een lege regel op een rapport. |
     | LFT RGT CEN                   | Links rechts midden                 | Lijnt de tekst van de rijomschrijving op de rapportpagina uit, ongeacht de positie van de tekst in de kolomdefinitie. |
     | CBR                           | Basisrij wijzigen                   | Identificeert een rij die de basisrij voor kolomberekeningen instelt. |
     | COLUMN                        | Kolomeinde                      | Begint een nieuwe kolom in het rapport. |
@@ -175,7 +174,7 @@ In de kolom **Opmaakcode** in een rijdefinitie passen de opmaakcodes **DES**, **
 
 ### <a name="example-of-preventing-printing-of-rows"></a>Voorbeeld van het voorkomen van het afdrukken van rijen
 
-In het volgende voorbeeld wil Phyllis voorkomen dat de koptekst en onderstrepingstekens in de rij **Kastotaal** van haar rapport worden afgedrukt, omdat er geen activiteit in een van de rekeningen van contant geld is. Daarom voert ze in rij 220 (die, zoals de opmaakcode **---** aangeeft, een opmaakrij is) in de cel **Gerelateerde formules/rijen/eenheden** **250** in, wat de rijcode is van de bedragrij die ze wil onderdrukken.
+In het volgende voorbeeld wil een gebruiker voorkomen dat de koptekst en onderstrepingstekens in de rij **Kastotaal** van haar rapport worden afgedrukt, omdat er geen activiteit in een van de rekeningen van contant geld is. Daarom voert de gebruiker in rij 220 (die, zoals de opmaakcode **---** aangeeft, een opmaakrij is) in de cel **Gerelateerde formules/rijen/eenheden** **250** in, wat de rijcode is van de bedragrij die de gebruiker wil onderdrukken.
 
 [![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
@@ -416,7 +415,7 @@ Standaard drukt de rapportontwerper geen rij af die geen corresponderend saldo i
 3. Klik op **Opslaan** in het menu **Bestand** om uw wijzigingen op te slaan.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Jokertekens en -bereiken gebruiken in een rijdefinitie
-Wanneer u een natuurlijke segmentwaarde invoert in het dialoogvenster **Dimensies**, kunt u een jokerteken (? of \*) gebruiken op elke positie van een segment. Report Designer pakt alle waarden voor de opgegeven posities uit zonder rekening te houden met de jokertekens. De rijdefinitie bevat bijvoorbeeld alleen natuurlijke segmentwaarden. Natuurlijke segmenten hebben vier tekens. Door **6???** in te voeren in een rij, geeft u Report Designer opdracxht om alle rekeningen op te nemen met een natuurlijke segmentwaarde die met een 6 begint. Als u **6\*** invoert, worden dezelfde resultaten geretourneerd, maar de resultaten bevatten ook waarden met variabele breedte zoals **60** en **600000**. De rapportontwerper vervangt elk jokerteken (?) met het volledig bereik van mogelijke waarden, zoals letters en speciale tekens. Bijvoorbeeld, in het bereik van **12?0** tot en met **12?4** wordt het jokerteken in **12?0** vervangen door de laagste waarde in het tekenreeks en wordt het jokerteken in **12?4** vervangen door de hoogste waarde in de tekenreeks.
+Wanneer u een natuurlijke segmentwaarde invoert in het dialoogvenster **Dimensies**, kunt u een jokerteken (? of \*) gebruiken op elke positie van een segment. Report Designer pakt alle waarden voor de opgegeven posities uit zonder rekening te houden met de jokertekens. De rijdefinitie bevat bijvoorbeeld alleen natuurlijke segmentwaarden. Natuurlijke segmenten hebben vier tekens. Door **6???** in te voeren in een rij, geeft u Report Designer opdracxht om alle rekeningen op te nemen met een natuurlijke segmentwaarde die met een 6 begint. Als u **6\**_ invoert, worden dezelfde resultaten geretourneerd, maar de resultaten bevatten ook waarden met variabele breedte zoals _* 60** en **600000**. De rapportontwerper vervangt elk jokerteken (?) met het volledig bereik van mogelijke waarden, zoals letters en speciale tekens. Bijvoorbeeld, in het bereik van **12?0** tot en met **12?4** wordt het jokerteken in **12?0** vervangen door de laagste waarde in het tekenreeks en wordt het jokerteken in **12?4** vervangen door de hoogste waarde in de tekenreeks.
 
 > [!NOTE]
 > Gebruik jokertekens niet voor de eerste en laatste rekeningen in bereiken. Als u in jokertekens gebruikt in de eerste rekening of de laatste rekening, krijgt u mogelijk onverwachte resultaten.
@@ -527,6 +526,6 @@ Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een se
 3. Selecteer het dimensietype in het dialoogvenster **Sets van dimensiewaarden beheren** in het veld **Dimensie**.
 4. Selecteer de groep die u wilt verwijderen en klik op **Verwijderen**. Klik op **Ja** als u de dimensiewaardegroep permanent wilt verwijderen.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Financiële rapportage](financial-reporting-intro.md)

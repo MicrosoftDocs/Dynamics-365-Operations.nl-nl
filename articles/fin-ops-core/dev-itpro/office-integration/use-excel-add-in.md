@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 267914
 ms.assetid: 4e6c7194-a059-4057-bd62-ec0c802c36fd
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 210231bb442928674b490d83f50bf787d7bfa60c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 26d5f165648c1553745e3061cc89bcba42f9636a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181008"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688462"
 ---
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Entiteitsgegevens in Excel openen en bijwerken via de Excel-invoegtoepassing
 
@@ -33,7 +32,7 @@ In dit onderwerp wordt uitgelegd hoe u entiteitsgegevens in Microsoft Excel kunt
 Door entiteitsgegevens in Excel te openen, kunt u deze snel en eenvoudig bekijken en bewerken met de Excel-invoegtoepassing. Deze invoegtoepassing vereist Microsoft Excel 2016
 
 > [!NOTE]
-> Als uw Microsoft Azure Active Directory (Azure AD)-tenant is geconfigureerd voor het gebruik van Active Directory Federation Services (AD FS), moet u ervoor zorgen dat de Office-update van mei 2016 is toegepast, zodat u correct kunt worden aangemeld voor de Excel-invoegtoepassing.
+> Als uw Microsoft Azure Active Directory (Azure AD)-tenant is geconfigureerd voor het gebruik van Active Directory Federation Services (AD FS), moet u ervoor zorgen dat de Office-update van mei 2016 is toegepast, zodat u correct kunt worden aangemeld voor de Excel-invoegtoepassing.
 
 Voor meer informatie over het gebruik van de Excel-invoegtoepassing, bekijkt u de korte video [Een Excel-sjabloon maken voor koptekst- en regelpatronen in Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
@@ -123,4 +122,4 @@ Er zijn enkele problemen die kunnen worden opgelost met enkele eenvoudige stappe
 
 - **De knop Applets laden wordt getoond**: als de Excel-invoegtoepassing een knop **Applets laden** bevat nadat u zich hebt aangemeld, bent u waarschijnlijk niet aangemeld als de juiste gebruiker. Controleer of de juiste gebruikersnaam zichtbaar is in de rechterbovenhoek van het Excel-invoegtoepassing. Als een onjuiste gebruikersnaam wordt getoond, selecteert u deze en meldt u zich af en vervolgens weer aan met de juiste gebruiker.
 - **U ontvangt een melding 'Verboden'**: als u het foutbericht 'Verboden' krijgt wanneer de Excel-invoegtoepassing metagegevens laadt, is de account die is aangemeld bij de Excel-invoegtoepassing niet gemachtigd om de beoogde service, instantie of database te gebruiken. Controleer of de juiste gebruikersnaam zichtbaar is in de rechterbovenhoek van het Excel-invoegtoepassing. Als een onjuiste gebruikersnaam wordt getoond, selecteert u deze en meldt u zich af en vervolgens weer aan met de juiste gebruiker.
-- **Een lege webpagina wordt weergegeven via Excel**: als een lege webpagina wordt geopend tijdens het aanmelden, vereist de account AD FS maar is de versie van Excel waarin u de invoegtoepassing uitvoert niet recent genoeg om het aanmeldingsvenster weer te geven. Werk Excel bij naar een meer recente versie. Als u de versie van Excel wilt bijwerken wanneer u werkt in een onderneming die zich op het Deferred-kanaal bevindt, wijzigt u met het [hulpprogramma Office Deployment](https://technet.microsoft.com/library/jj219422.aspx) van [het Deferred-kanaal naar het Current-kanaal](https://technet.microsoft.com/library/mt455210.aspx).
+- **Een lege webpagina wordt weergegeven via Excel**: als een lege webpagina wordt geopend tijdens het aanmelden, vereist de account AD FS, maar is de versie van Excel waarin u de invoegtoepassing uitvoert niet recent genoeg om het aanmeldingsvenster weer te geven. Werk Excel bij naar een meer recente versie. Als u de versie van Excel wilt bijwerken wanneer u werkt in een onderneming die zich op het Deferred-kanaal bevindt, wijzigt u met het [hulpprogramma Office Deployment](https://technet.microsoft.com/library/jj219422.aspx) van [het Deferred-kanaal naar het Current-kanaal](https://technet.microsoft.com/library/mt455210.aspx).

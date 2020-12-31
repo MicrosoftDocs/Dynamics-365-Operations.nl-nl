@@ -11,18 +11,17 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 21761, NotInToc
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 4757d506239e309dcbc3e181469b17e3286cc111
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248708"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695110"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Zelfstudie over het instellen en installeren van Regression Suite Automation Tool
 Dit onderwerp is een zelfstudie waarmee u RSAT en de bijbehorende hulpprogramma's kunt instellen en gebruiken. 
@@ -387,7 +386,7 @@ Als u verificatie wilt inschakelen, moet u een certificaat genereren en installe
 
     ![AOSService in de lijst met sites](./media/setup_rsa_tool_49.png)
 
-3. Klik met de rechtermuisknop op **Verkennen** om de map **\<Station\>: \\AosService\\WebRoot** te openen. Zoek het bestand **wif.config**.
+3. Klik met de rechtermuisknop op **Verkennen** om de map **\<Drive\>: \\AosService\\WebRoot** te openen. Zoek het bestand **wif.config**.
 
     ![Wif.config-bestand in de map WebRoot](./media/setup_rsa_tool_50.png)
 
@@ -407,7 +406,7 @@ Als u verificatie wilt inschakelen, moet u een certificaat genereren en installe
     ```
 
     > [!NOTE]
-    > Als meerdere gebruikers dezelfde toepassing gebruiken, moet iedere gebruiker afzonderlijke vingerafdrukken genereren en moeten alle vingerafdrukken worden toegevoegd aan de sectie **\<sleutels\>**.
+    > Als meerdere gebruikers dezelfde toepassing gebruiken, moet iedere gebruiker afzonderlijke vingerafdrukken genereren en moeten alle vingerafdrukken worden toegevoegd aan de sectie **\<keys\>**.
 
 5. Als er meer dan één AOS-computer is, herhaalt u stap 3 en 4 voor elke extra computer.
 
@@ -563,7 +562,7 @@ In oudere versies van RSAT moest u Selenium- en browserstuurprogramma's installe
 
     ![Bureaubladresolutie ingesteld op 100%](./media/setup_rsa_tool_68.png)
 
-6. Als de browserstuurprogramma's niet op het systeem zijn geïnstalleerd, wordt er een waarschuwingsbericht weergegeven dat u voor deze bewerking stuurprogramma \<browsernaam\> nodig hebt. Daarnaast wordt u gevraagd of u het automatisch nu wilt downloaden en installeren? Selecteer **Ja**.
+6. Als de browserstuurprogramma's niet op het systeem zijn geïnstalleerd, wordt er een waarschuwingsbericht weergegeven dat u voor deze bewerking stuurprogramma \<browser name\> nodig hebt. Daarnaast wordt u gevraagd of u het automatisch nu wilt downloaden en installeren? Selecteer **Ja**.
 
     ![Waarschuwingsbericht voor Internet Explorer](./media/setup_rsa_tool_69.png)
 
@@ -706,7 +705,7 @@ In deze sectie maakt u een opgeslagen variabele in de eerste testcase, maakt u e
     ![Nieuwe stap toegevoegd](./media/setup_rsa_tool_93.png)
 
 12. Selecteer **Klaar met bewerken**.
-13. Selecteer **Opslaan in Lifecycle Services**en koppel de nieuwe taakregistratie aan dezelfde BPM-bibliotheek en hetzelfde bedrijfsproces als de oorspronkelijke taakregistratie. Zie de sectie [Een taakregistratie maken en opslaan in de BPM-bibliotheek](#create-a-task-recording-and-save-it-to-the-bpm-library) voor meer informatie.
+13. Selecteer **Opslaan in Lifecycle Services** en koppel de nieuwe taakregistratie aan dezelfde BPM-bibliotheek en hetzelfde bedrijfsproces als de oorspronkelijke taakregistratie. Zie de sectie [Een taakregistratie maken en opslaan in de BPM-bibliotheek](#create-a-task-recording-and-save-it-to-the-bpm-library) voor meer informatie.
 14. Ga naar de BPM-bibliotheek en selecteer **Testcases synchroniseren** om de taakregistratie te overschrijven die aan de testcase is gekoppeld in Azure DevOps, zoals wordt beschreven in [De synchronisatie van BPM naar Azure DevOps testen](#test-the-synchronization-from-bpm-to-azure-devops).
 15. Open RSAT en selecteer **Laden** om alle testcases opnieuw in de testsuite te laden. U moet de automatiserings- en parameterbestanden voor de betreffende testcase opnieuw genereren door de testcase te selecteren en vervolgens **Nieuw \> Testuitvoering en parameterbestanden genereren** te selecteren, zoals wordt beschreven in de [Testcases laden en uitvoeren](#load-and-run-test-cases).
 

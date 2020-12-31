@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1bad9e5094f0daa260f66ecd429233f20a2545a5
-ms.sourcegitcommit: 68092ed283bfbb7b6f611cce1b62c791f9b6a208
+ms.openlocfilehash: e4da9e09fe9e2c76426a117b6c4d83f5bc33851f
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3323687"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687153"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Bestemmingen van elektronische rapportage (ER)
 
@@ -91,7 +90,7 @@ Nadat u een verwijzing hebt gemaakt, kunt u een bestandsbestemming maken voor el
 
 Vervolgens kunt u in het dialoogvenster **Bestemmingsinstellingen** de afzonderlijke bestemmingen voor de bestandsbestemming in- en uitschakelen. De knop **instellingen** wordt gebruikt voor het bepalen van alle bestemmingen voor een geselecteerde bestandsbestemming. In het dialoogvenster **Bestemmingsinstellingen** kunt u elke bestemming afzonderlijk bepalen door de optie **Ingeschakeld** hiervoor in te stellen.
 
-In eerdere versies van Finance **dan versie 10.0.9** kunt **één bestandsbestemming** maken voor elk uitvoeronderdeel met dezelfde indeling, zoals een map of een bestand, dat is geselecteerd in het veld **Bestandsnaam**. In **versie 10.0.9 en hoger**kunt u echter **meerdere bestandsbestemmingen**maken voor elk uitvoeronderdeel van dezelfde indeling.
+In eerdere versies van Finance **dan versie 10.0.9** kunt **één bestandsbestemming** maken voor elk uitvoeronderdeel met dezelfde indeling, zoals een map of een bestand, dat is geselecteerd in het veld **Bestandsnaam**. In **versie 10.0.9 en hoger** kunt u echter **meerdere bestandsbestemmingen** maken voor elk uitvoeronderdeel van dezelfde indeling.
 
 U kunt deze mogelijkheid bijvoorbeeld gebruiken om bestandsbestemmingen te configureren voor een bestandsonderdeel dat wordt gebruikt voor het genereren van een uitgaand document in Excel-indeling. Eén bestemming ([Archief](er-destination-type-archive.md)) kan zo worden geconfigureerd dat het oorspronkelijke Excel-bestand in het ER-takenarchief wordt opgeslagen en een andere bestemming ([E-mail](er-destination-type-email.md)) kan worden geconfigureerd om het Excel-bestand tegelijk te [converteren](#OutputConversionToPDF) naar PDF-indeling en het PDF-bestand via e-mail te verzenden.
 
@@ -119,7 +118,7 @@ Wanneer u bestandsbestemmingen voor een geselecteerde indeling configureert, con
 
 [![Configuratiekoppeling](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
-Tegelijkertijd kunt u meerdere [versies](general-electronic-reporting.md#component-versioning) van de indeling hebben die zijn geïmporteerd in het huidige Finance-exemplaar. U kunt deze weergeven als u de **Configuratie**koppeling selecteert die wordt aangeboden wanneer u het veld **Verwijzing** selecteert.
+Tegelijkertijd kunt u meerdere [versies](general-electronic-reporting.md#component-versioning) van de indeling hebben die zijn geïmporteerd in het huidige Finance-exemplaar. U kunt deze weergeven als u de **Configuratie** koppeling selecteert die wordt aangeboden wanneer u het veld **Verwijzing** selecteert.
 
 [![Configuratieversies](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
@@ -127,7 +126,7 @@ Geconfigureerde bestemmingen worden standaard alleen toegepast wanneer u een ER-
 
 1. Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Configuraties**.
 2. Selecteer op de pagina **Configuraties** in het actievenster op het tabblad **Configuraties** in de groep **Geavanceerde instellingen** de optie **Gebruikersparameters**.
-3. Stel de optie **Bestemmingen gebruiken voor conceptstatus**in op **Ja**.
+3. Stel de optie **Bestemmingen gebruiken voor conceptstatus** in op **Ja**.
 
 [![Optie Bestemmingen voor conceptstatus](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
 

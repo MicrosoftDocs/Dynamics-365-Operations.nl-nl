@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28118eddd2f85df5f9daa2c5a6c3cb00957909db
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367333"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695134"
 ---
 # <a name="help-system"></a>Help-systeem
 
@@ -49,7 +48,7 @@ De site docs.microsoft.com ([docs.microsoft.com/dynamics365](https://docs.micros
 
 Met een zoekmachine kunt u inhoud vinden op docs.microsoft.com. We raden u voor het beste resultaat aan een sitezoekopdracht te gebruiken, bijvoorbeeld **site:docs.microsoft.com dynamics 365 "zoekterm"**.
 
-### <a name="get-notified-about-changes-through-an-rss-feed"></a>Meldingen over wijzigingen ontvangen in een RSS-feed
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Meldingen over wijzigingen ontvangen in een RSS-feed
 
 Als u zich wilt abonneren op een RSS-feed (Really Simple Syndication) met alle updates op docs.microsoft.com, gebruikt u de volgende koppeling:
 
@@ -68,7 +67,7 @@ Als u ons feedback wilt geven of vragen hebt over een onderwerp, kunt u onder aa
 > [!NOTE]
 > Als u documentatiefeedback wilt verzenden, moet u zich aanmelden met een GitHub-account. Zie [Uw GitHub-profiel instellen en beheren](https://help.github.com/github/setting-up-and-managing-your-github-profile) voor meer informatie.
 
-### <a name="contribute-to-the-documentation"></a>Bijdragen aan de documentatie
+## <a name="contribute-to-the-documentation"></a>Bijdragen aan de documentatie
 
 U kunt bijdragen aan en wijzigingen aanbrengen in de documentatie. Om te beginnen, selecteert u de knop **Bewerken** (potloodsymbool) voor een onderwerp. In de volgende video ziet u hoe u aan onze documentatie kunt bijdragen.
 

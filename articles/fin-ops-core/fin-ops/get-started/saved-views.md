@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: b948da0bff8de3b8ad783b3e3f52100a29fab109
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.openlocfilehash: 8537ec87c625e8b54cdf7574216d66f285da3a48
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802890"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693696"
 ---
 # <a name="saved-views"></a>Opgeslagen weergaven
 
@@ -50,9 +49,9 @@ Er zijn twee groottes voor deze weergavekiezer:
  
 Als u de naam van de weergave selecteert, wordt de weergavekiezer geopend en wordt de lijst met beschikbare weergaven voor de pagina weergegeven.
 
-- **Standaardweergave**: de **standaard**weergave is de out-of-the-box weergave van de pagina waarop geen expliciete persoonlijke instellingen zijn toegepast.
+- **Standaardweergave**: de **standaard** weergave is de out-of-the-box weergave van de pagina waarop geen expliciete persoonlijke instellingen zijn toegepast.
 - **Persoonlijke weergaven**: de weergaven zonder hangsloten vertegenwoordigen uw persoonlijke weergaven. Dit zijn weergaven die u hebt gemaakt of die een beheerder aan u heeft gegeven.
-- **Vergrendelde weergaven**: sommige weergaven (zoals de **standaard**weergave en alle weergaven die naar uw rol zijn gepubliceerd) worden weergegeven met een hangslot-symbool in de weergaveselectie. Dit symbool geeft aan dat u deze weergaven niet kunt bewerken. Wijzigingen die het paginagebruik weerspiegelen, worden echter automatisch opgeslagen. Deze wijzigingen omvatten wijzigingen in de breedte van een rasterkolom en wijzigingen in de uitgevouwen of samengevouwen status van een sneltabblad. Als u echter over aanpassingsbevoegdheden beschikt, kunt u de actie **Kopie opslaan** gebruiken om op basis van een vergrendelde weergave een persoonlijke weergave te maken.
+- **Vergrendelde weergaven**: sommige weergaven (zoals de **standaard** weergave en alle weergaven die naar uw rol zijn gepubliceerd) worden weergegeven met een hangslot-symbool in de weergaveselectie. Dit symbool geeft aan dat u deze weergaven niet kunt bewerken. Wijzigingen die het paginagebruik weerspiegelen, worden echter automatisch opgeslagen. Deze wijzigingen omvatten wijzigingen in de breedte van een rasterkolom en wijzigingen in de uitgevouwen of samengevouwen status van een sneltabblad. Als u echter over aanpassingsbevoegdheden beschikt, kunt u de actie **Kopie opslaan** gebruiken om op basis van een vergrendelde weergave een persoonlijke weergave te maken.
 - **Nieuwe weergaven**: gepubliceerde weergaven die nog niet zijn geopend, hebben een vonksymbool links van de weergavenaam.
 
 Als u naar een andere weergave wilt overschakelen, opent u eerst de weergavekiezer en selecteert vervolgens de weergave die u wilt laden. 
@@ -88,7 +87,7 @@ Volg deze stappen om de standaardweergave voor een pagina te wijzigen:
 
 Als u een nieuwe weergave maakt (met de actie **Opslaan als**), kunt u hiervan ook de standaardweergave maken door de optie **Vastmaken als standaard** in te stellen voordat u de weergave opslaat.
 
-In sommige gevallen wordt de query die is gekoppeld aan de standaardweergave niet uitgevoerd wanneer u een pagina voor het eerst opent. Als u bijvoorbeeld de pagina via een tegel opent, wordt de query van de tegel uitgevoerd, ongeacht de query die aan de standaardweergave is gekoppeld. Bovendien, als u een pagina opent waarvan de **standaard**weergave al een gedefinieerde query bevat, wordt de oorspronkelijke query uitgevoerd in plaats van de query van de standaardweergave. In dat geval ontvangt u een informatiebericht wanneer de weergave wordt geladen. Als u schakelt tussen weergaven nadat de pagina is geladen, moet de weergavequery kunnen worden uitgevoerd zoals verwacht. In versie 10.0.10 en later bevat het informatieve bericht dat u ontvangt, een ingesloten actie waarmee u de query van de standaardweergave rechtstreeks kunt laden.
+In sommige gevallen wordt de query die is gekoppeld aan de standaardweergave niet uitgevoerd wanneer u een pagina voor het eerst opent. Als u bijvoorbeeld de pagina via een tegel opent, wordt de query van de tegel uitgevoerd, ongeacht de query die aan de standaardweergave is gekoppeld. Bovendien, als u een pagina opent waarvan de **standaard** weergave al een gedefinieerde query bevat, wordt de oorspronkelijke query uitgevoerd in plaats van de query van de standaardweergave. In dat geval ontvangt u een informatiebericht wanneer de weergave wordt geladen. Als u schakelt tussen weergaven nadat de pagina is geladen, moet de weergavequery kunnen worden uitgevoerd zoals verwacht. In versie 10.0.10 en later bevat het informatieve bericht dat u ontvangt, een ingesloten actie waarmee u de query van de standaardweergave rechtstreeks kunt laden.
 
 ## <a name="managing-personal-views"></a>Persoonlijke weergaven beheren
 

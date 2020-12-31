@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a69e262c1dc731839e0bf347a0fb14983742dbe
-ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
+ms.openlocfilehash: 2c5b25ea3bc91ac427d0d57db45fbc4169895d3e
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4013175"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693720"
 ---
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
@@ -33,7 +32,7 @@ Met de volgende sneltoetsen kunt u snel en efficiënt gegevens invoeren in Finan
 > [!NOTE]
 > De sneltoetsen die hier worden beschreven, verwijzen naar de toetsenbordindeling voor de Verenigde Staten. De toetsen in andere toetsenbordindelingen komen mogelijk niet exact overeen met de toetsen op een toetsenbord voor de VS.
 
-Sommige van de snelkoppelingen op deze pagina zijn *toetsreeksen* , wat betekent dat er twee opeenvolgende toetsencombinaties nodig zijn (gescheiden door een komma) die afzonderlijk moeten worden ingedrukt om de vereiste actie te activeren. Met de sneltoets "Alt+M,A" moet de gebruiker bijvoorbeeld eerst op ALT+M drukken, de toetsen loslaten en vervolgens op A drukken. 
+Sommige van de snelkoppelingen op deze pagina zijn *toetsreeksen*, wat betekent dat er twee opeenvolgende toetsencombinaties nodig zijn (gescheiden door een komma) die afzonderlijk moeten worden ingedrukt om de vereiste actie te activeren. Met de sneltoets "Alt+M,A" moet de gebruiker bijvoorbeeld eerst op ALT+M drukken, de toetsen loslaten en vervolgens op A drukken. 
 
 ## <a name="finding-a-shortcut"></a>Een snelkoppeling vinden
 

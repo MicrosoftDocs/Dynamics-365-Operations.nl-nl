@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, Human Resources
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8f97d4f59765840e215710e666079df3d4ecb878
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 46b7a442470d1fe78ebc5c9d5a0c6e155c0d9918
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005774"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685244"
 ---
 # <a name="learning-power-bi-content"></a>Power BI-inhoud - leren
 
@@ -35,7 +34,7 @@ De rapporten die zijn opgenomen in de Power BI-inhoud **Leren** bevatten diagram
 | Rapport                | Inhoud |
 |-----------------------|----------|
 | Overzicht van Leren     | Overzicht van andere rapporten |
-| Analyse van de cursus       | Registratie op locatie, deelnemer per status, cursussen per type per bedrijf en cursusdeelname op taak |
+| Analyse van de cursus       | Registratie op locatie, deelnemer per status, cursussen per type per bedrijf en cursusdeelname op taak |
 | Registratie-analyse | Registratielijst |
 | Cursustypen          | Cursustypen per vaardigheid |
 | Docentanalyse   | Verhouding van cursussen tot docenten, aantal docenten, cursussen op docent, cursussen per docent en cursusagenda op docent |

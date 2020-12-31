@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 668ab28297ee7baf8f28cbbaf179d13cb5151dc4
-ms.sourcegitcommit: 248369a0da5f2b2a1399f6adab81f9e82df831a1
+ms.openlocfilehash: 0d7df12026d6d668b1f48a48cd12bf4b12e0f94e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "3332317"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686411"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>JOIN-gegevensbronnen gebruiken om gegevens uit meerdere toepassingstabellen op te halen in ER-modeltoewijzingen (elektronische rapportage)
 
@@ -38,7 +37,7 @@ Momenteel worden de volgende typen joins ondersteund:
 - Inner (rechter) join:
     - Hierbij worden alleen records van de eerste (meest linkse) gegevensbron samengevoegd en alleen records van de tweede (meest rechtse) gegevens die overeenkomen op basis van geconfigureerde voorwaarden.
 
-Wanneer in de geconfigureerde **Join**-gegevensbron alle gegevensbronnen van het type **Tabelrecords** zijn, kan de uitvoering van de Join-gegevensbron worden [uitgevoerd op databaseniveau](#analyze) via een enkele SQL-instructie. Hierdoor wordt het aantal databaseaanroepen verminderd, waardoor de prestaties van de modeltoewijzing verbeteren. Anders wordt de uitvoering de **Join**-gegevensbron in het geheugen uitgevoerd.
+Wanneer in de geconfigureerde **Join**-gegevensbron alle gegevensbronnen van het type **Tabelrecords** zijn, kan de uitvoering van de Join-gegevensbron worden [uitgevoerd op databaseniveau](#analyze) via een enkele SQL-instructie. Door deze instructie wordt het aantal databaseaanroepen verminderd, waardoor de prestaties van de modeltoewijzing verbeteren. Anders wordt de uitvoering de **Join**-gegevensbron in het geheugen uitgevoerd.
 
 > [!NOTE]
 > Het gebruik van de functie **VALUEIN** in ER-expressies die voorwaarden specificeren voor het samenvoegen van records in gegevensbronnen van het type Join wordt nog niet ondersteund. Bezoek de pagina [Formuleontwerper in elektronische rapportage](general-electronic-reporting-formula-designer.md) voor meer informatie.
@@ -79,7 +78,7 @@ U moet echter ook downloaden vanuit het [Microsoft Downloadcentrum](https://go.m
 
 1. Open Finance of RCS in de eerste sessie van uw webbrowser.
 2. Ga naar **Organisatiebeheer \> Werkgebieden \> Elektronische rapportage**.
-3. Controleer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuratieproviders** of de configuratieprovider voor het voorbeeldbedrijf Litware, Inc. (http://www.litware.com) wordt vermeld en of het is gemarkeerd als **Actief**. Als u deze configuratieprovider niet ziet, voltooit u de stappen in de procedure [Een configuratieprovider maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+3. Controleer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuratieproviders** of de configuratieprovider voor het voorbeeldbedrijf [Litware, Inc.](http://www.litware.com) wordt vermeld en of het is gemarkeerd als **Actief**. Als u deze configuratieprovider niet ziet, voltooit u de stappen in de procedure [Een configuratieprovider maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
     ![Werkgebied voor elektronische rapportage](./media/GER-JoinDS-ActiveProvider.PNG)
 
@@ -96,20 +95,21 @@ U moet echter ook downloaden vanuit het [Microsoft Downloadcentrum](https://go.m
     2. Selecteer **Laden uit XML-bestand**.
     3. Selecteer **bladeren** om het bestand **Toewijzing voor het leren van JOIN-gegevensbronnen.versie.1.1.xml** te zoeken.
     4. Selecteer **OK**.
-4.  Importeer het configuratiebestand voor ER-indeling.
+4. Importeer het configuratiebestand voor ER-indeling.
     1. Selecteer **Uitwisselen**.
     2. Selecteer **Laden uit XML-bestand**.
     3. Selecteer **bladeren** om het bestand **Indeling voor het leren van JOIN-gegevensbronnen.versie.1.1.xml** te zoeken.
     4. Selecteer **OK**.
-5.  Vouw in de configuratiestructuur het item **Model voor het leren van JOIN-gegevensbronnen** en andere modelitems uit (indien beschikbaar).
-6.  Bekijk de lijst met ER-configuraties in de structuur en de versiegegevens op het sneltabblad **Versies**. Deze worden gebruikt als gegevensbron voor uw voorbeeldrapport.
+5. Vouw in de configuratiestructuur het item **Model voor het leren van JOIN-gegevensbronnen** en andere modelitems uit (indien beschikbaar).
+6. Bekijk de lijst met ER-configuraties in de structuur en de versiegegevens op het sneltabblad **Versies**. Deze worden gebruikt als gegevensbron voor uw voorbeeldrapport.
 
     ![Pagina met configuraties voor elektronische rapportage](./media/GER-JoinDS-ConfigurationsTree.PNG)
 
 ### <a name="turn-on-execution-trace-options"></a>Opties voor uitvoeringstracering inschakelen
-1.  Selecteer **CONFIGURATIES**.
-2.  Selecteer **Gebruikersparameters**.
-3.  Stel parameters voor uitvoeringstracering zoals in de onderstaande schermopname worden weergegeven.
+
+1. Selecteer **CONFIGURATIES**.
+2. Selecteer **Gebruikersparameters**.
+3. Stel parameters voor uitvoeringstracering zoals in de onderstaande schermopname worden weergegeven.
 
     ![Pagina met gebruikersparameters voor elektronische rapportage](./media/GER-JoinDS-Parameters.PNG)
 
@@ -119,11 +119,11 @@ U moet echter ook downloaden vanuit het [Microsoft Downloadcentrum](https://go.m
 
 Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderdeel is geconfigureerd om toegang te krijgen tot informatie over versies van ER-configuraties, details van configuraties en configuratieproviders zonder gegevensbronnen van het type **Join** te gebruiken.
 
-1.  Selecteer de configuratie **Toewijzing voor het leren van JOIN-gegevensbronnen**.
-2.  Selecteer **Ontwerper** om de lijst met toewijzingen te openen.
-3.  Selecteer **Ontwerper** om de toewijzingsdetails te controleren. 
-4.  Selecteer **Details weergeven**.
-5.  Vouw in de configuratiestructuur de gegevensmodelitems **Set1** en **Set1.Details** uit:
+1. Selecteer de configuratie **Toewijzing voor het leren van JOIN-gegevensbronnen**.
+2. Selecteer **Ontwerper** om de lijst met toewijzingen te openen.
+3. Selecteer **Ontwerper** om de toewijzingsdetails te controleren.
+4. Selecteer **Details weergeven**.
+5. Vouw in de configuratiestructuur de gegevensmodelitems **Set1** en **Set1.Details** uit:
 
     1. Binding **Details: Record list = Versions** geeft aan dat het item **Set1.Details** is gebonden aan de gegevensbron **Versions** die records uit de tabel **ERSolutionVersionTable** retourneert. Elke record van deze tabel vertegenwoordigt een enkele versie van een ER-configuratie. De inhoud van deze tabel wordt weergegeven op het sneltabblad **Versies** op de pagina **Configuraties**.
     2. Binding **ConfigurationVersion: String = @.PublicVersionNumber** houdt in dat de waarde van de openbare versie van elke versie van de ER-configuratie wordt opgehaald uit het veld **PublicVersionNumber** van de tabel **ERSolutionVersionTable** en in het item **ConfigurationVersion** geplaatst.
@@ -132,19 +132,19 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 
     ![Pagina voor ontwerper van ER-modeltoewijzingen](./media/GER-JoinDS-Set1Review.PNG)
 
-6.  Vouw in de configuratiestructuur het gegevensmodelitem **Set1.Summary** uit:
+6. Vouw in de configuratiestructuur het gegevensmodelitem **Set1.Summary** uit:
 
     1. Binding **VersionsNumber: Integer = VersionsSummary.aggregated.VersionsNumber** geeft aan dat het item **Set1.Summary.VersionsNumber** is gebonden aan het aggregatieveld **VersionsNumber** van de gegevensbron **VersionsSummary** van het type **GroupBy** dat is geconfigureerd om het aantal records van de tabel **ERSolutionVersionTable** te retourneren via de gegevensbron **Versions**.
 
     ![Pagina voor parameters van GROUPBY-gegevensbron](./media/GER-JoinDS-Set1GroupByReview.PNG)
 
-7.  Sluit de pagina.
+7. Sluit de pagina.
 
 ### <a name="review-er-model-mapping-part-2"></a><a name="review"></a> ER-modeltoewijzing controleren (deel 2)
 
 Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderdeel is geconfigureerd om toegang te krijgen tot informatie over versies van ER-configuraties, details van configuraties en configuratieproviders door een gegevensbron van het type **Join** te gebruiken.
 
-1.  Vouw in de configuratiestructuur de gegevensmodelitems **Set2** en **Set2.Details** uit. De binding **Details: Record list = Details** geeft aan dat het item **Set2.Details** is gekoppeld aan de gegevensbron **Details** die is geconfigureerd als gegevensbron van het type **Join**.
+1. Vouw in de configuratiestructuur de gegevensmodelitems **Set2** en **Set2.Details** uit. De binding **Details: Record list = Details** geeft aan dat het item **Set2.Details** is gekoppeld aan de gegevensbron **Details** die is geconfigureerd als gegevensbron van het type **Join**.
 
     ![Pagina voor ontwerper van ER-modeltoewijzingen](./media/GER-JoinDS-Set2Review.PNG)
 
@@ -152,16 +152,16 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 
     ![Pagina voor ontwerper van ER-modeltoewijzingen](./media/GER-JoinDS-AddJoinDS.PNG)
 
-2.  Selecteer de gegevensbron **Details**.
-3.  Selecteer **Bewerken** in het deelvenster **Gegevensbronnen**.
-4.  Selecteer **Join bewerken**.
-5.  Selecteer **Details weergeven**.
+2. Selecteer de gegevensbron **Details**.
+3. Selecteer **Bewerken** in het deelvenster **Gegevensbronnen**.
+4. Selecteer **Join bewerken**.
+5. Selecteer **Details weergeven**.
 
     ![Pagina voor parameters van JOIN-gegevensbron](./media/GER-JoinDS-JoinDSEditor.PNG)
 
-    Deze pagina wordt gebruikt om de vereiste gegevensbron van het **Join-type** te ontwerpen. Tijdens runtime maakt deze gegevensbron een enkele gekoppelde lijst met records uit de gegevensbronnen in het raster **Gecombineerde lijst**. Het koppelen van records begint bij de gegevensbron **ConfigurationProviders** die zich als eerste in het raster bevindt (de kolom **Type** is hiervoor leeg). Records van elke andere gegevensbron worden vervolgens samengevoegd met de records van de bovenliggende gegevensbron op basis van de volgorde in dit raster. Elke gegevensbron voor samenvoegen moet worden geconfigureerd als een gegevensbron die is genest onder een doelgegevensbron (gegevensbron **1Versions** is genest onder **1Configurations**; gegevensbron **1Configurations** is genest onder **ConfigurationProviders**). Elke geconfigureerde gegevensbron moet de voorwaarden voor de join bevatten. In de gegevensbron voor deze specifieke **Join** worden de volgende joins gedefinieerd:
+    Deze pagina wordt gebruikt om de vereiste gegevensbron van het **Join-type** te ontwerpen. Tijdens runtime maakt deze gegevensbron een enkele gekoppelde lijst met records uit de gegevensbronnen in het raster **Gecombineerde lijst**. Het koppelen van records begint bij de gegevensbron **ConfigurationProviders** die zich als eerste in het raster bevindt (de kolom **Type** is hiervoor leeg). Records van elke andere gegevensbron worden vervolgens samengevoegd met de records van de bovenliggende gegevensbron op basis van de volgorde in dit raster. Elke gegevensbron voor samenvoegen moet worden geconfigureerd als een gegevensbron die is genest onder een doelgegevensbron (gegevensbron `1Versions` is genest onder `1Configurations`; gegevensbron `1Configurations` is genest onder **ConfigurationProviders**). Elke geconfigureerde gegevensbron moet de voorwaarden voor de join bevatten. In de gegevensbron voor deze specifieke **Join** worden de volgende joins gedefinieerd:
 
-    - Elke record van de gegevensbron **ConfigurationProviders** (waarnaar wordt verwezen in de tabel **ERVendorTable**) wordt samengevoegd met alleen records van de gegevensbron **1Configurations** (waarnaar wordt verwezen in de tabel **ERSolutionTable**) met dezelfde waarde in de velden **SolutionVendor** en **RecId**. Het type **Inner join** wordt voor deze join en voor de volgende voorwaarden voor overeenkomende records gebruikt: 
+    - Elke record van de gegevensbron **ConfigurationProviders** (waarnaar wordt verwezen in de tabel **ERVendorTable**) wordt samengevoegd met alleen records van de gegevensbron **1Configurations** (waarnaar wordt verwezen in de tabel **ERSolutionTable**) met dezelfde waarde in de velden **SolutionVendor** en **RecId**. Het type **Inner join** wordt voor deze join en voor de volgende voorwaarden voor overeenkomende records gebruikt:
 
     FILTER (Configurations, Configurations.SolutionVendor = ConfigurationProviders.RecId)
 
@@ -173,28 +173,28 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 
     Als u records wilt samenvoegen van gegevensbronnen die toepassingstabellen vertegenwoordigen, kunt u join-voorwaarden opgeven door andere veldenparen te gebruiken die bestaande AOT-relaties tussen deze tabellen beschrijven. Dit type join kan ook worden geconfigureerd voor uitvoering op databaseniveau.
 
-6.  Sluit de pagina.
-7.  Selecteer **Annuleren**.
-8.  Vouw in de configuratiestructuur het gegevensmodelitem **Set2.Summary** uit:
+6. Sluit de pagina.
+7. Selecteer **Annuleren**.
+8. Vouw in de configuratiestructuur het gegevensmodelitem **Set2.Summary** uit:
 
     - Binding **VersionsNumber: Integer = DetailsSummary.aggregated.VersionsNumber** geeft aan dat het item **Set2.Summary.VersionsNumber** is gebonden aan het aggregatieveld **VersionsNumber** van de gegevensbron **DetailsSummary** van het type **GroupBy** dat is geconfigureerd om het aantal samengevoegde records van de gegevensbron **Details** van het type **Join** te retourneren.
-    - De locatieoptie **Uitvoering** is geconfigureerd als **Query**, wat betekent dat deze **GroupBy**-gegevensbron tijdens runtime als een directe SQL-oproep wordt uitgevoerd op databaseniveau. Dit is mogelijk omdat de basisgegevensbron **Details** van het type **Join** wordt geconfigureerd als uitgevoerd op databaseniveau.
+    - De locatieoptie **Uitvoering** is geconfigureerd als **Query**, wat betekent dat deze **GroupBy**-gegevensbron tijdens runtime als een directe SQL-oproep wordt uitgevoerd op databaseniveau. Dit gedrag is mogelijk omdat de basisgegevensbron **Details** van het type **Join** wordt geconfigureerd als uitgevoerd op databaseniveau.
 
     ![Pagina voor parameters van GROUPBY-gegevensbron](./media/GER-JoinDS-Set2GroupByReview.PNG)
 
-9.  Sluit de pagina.
+9. Sluit de pagina.
 10. Selecteer **Annuleren**.
 
 ### <a name="execute-er-format"></a><a name="executeERformat"></a> ER-indeling uitvoeren
 
-1.  Open Finance of RCS in de tweede sessie van uw webbrowser met dezelfde referenties en hetzelfde bedrijf als bij de eerste sessie.
-2.  Ga naar **Organisatiebeheer \> Elektronische rapportage \> Configuraties**.
-3.  Vouw de configuratie **Model voor het leren van JOIN-gegevensbronnen** uit.
-4.  Selecteer de configuratie **Indeling voor het leren van JOIN-gegevensbronnen**.
-5.  Selecteer **Ontwerper**.
-6.  Selecteer **Details weergeven**.
-7.  Selecteer **Toewijzing**.
-8.  Selecteer **Uitvouwen/samenvouwen**.
+1. Open Finance of RCS in de tweede sessie van uw webbrowser met dezelfde referenties en hetzelfde bedrijf als bij de eerste sessie.
+2. Ga naar **Organisatiebeheer \> Elektronische rapportage \> Configuraties**.
+3. Vouw de configuratie **Model voor het leren van JOIN-gegevensbronnen** uit.
+4. Selecteer de configuratie **Indeling voor het leren van JOIN-gegevensbronnen**.
+5. Selecteer **Ontwerper**.
+6. Selecteer **Details weergeven**.
+7. Selecteer **Toewijzing**.
+8. Selecteer **Uitvouwen/samenvouwen**.
 
     Deze indeling is bedoeld voor het vullen van een gegenereerd tekstbestand met een nieuwe regel voor elke versie van een ER-configuratie (**Version**-reeks). Elke gegenereerde regel bevat de naam van een configuratieprovider die eigenaar is van de huidige configuratie, de configuratienaam en de configuratieversie, gescheiden door puntkomma's. De laatste regel van het gegenereerde bestand bevat het aantal ontdekte versies van de ER-configuraties (**Summary**-reeks).
 
@@ -207,7 +207,7 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 
     ![Pagina voor ontwerper van ER-indeling](./media/GER-JoinDS-FormatMappingReview.PNG)
 
-9.  Selecteer **Uitvoeren**.
+9. Selecteer **Uitvoeren**.
 10. Selecteer op de dialoogpagina de optie **Nee** in het veld **JOIN-gegevensbron gebruiken**.
 11. Selecteer **OK**.
 12. Gegenereerd bestand controleren
@@ -216,10 +216,10 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 
 #### <a name="analyze-er-format-execution-trace"></a>Uitvoeringstracering van ER-indeling analyseren
 
-1.  Selecteer **Ontwerper** in de eerste sessie van Finance of RCS.
-2.  Selecteer **Prestatietracering**.
-3.  Selecteer in het raster **Prestatietracering** de bovenste record van de meest recente uitvoeringstracering van een ER-indeling die het huidige onderdeel voor modeltoewijzing heeft gebruikt.
-4.  Selecteer **OK**.
+1. Selecteer **Ontwerper** in de eerste sessie van Finance of RCS.
+2. Selecteer **Prestatietracering**.
+3. Selecteer in het raster **Prestatietracering** de bovenste record van de meest recente uitvoeringstracering van een ER-indeling die het huidige onderdeel voor modeltoewijzing heeft gebruikt.
+4. Selecteer **OK**.
 
     In de uitvoeringsstatistieken wordt u op de hoogte gesteld van dubbele aanroepen van toepassingstabellen:
 
@@ -228,26 +228,26 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 
     ![Pagina voor ontwerper van ER-modeltoewijzingen](./media/GER-JoinDS-Set1Run2.PNG)
 
-5.  Sluit de pagina.
+5. Sluit de pagina.
 
 ### <a name="execute-er-format"></a>ER-indeling uitvoeren
 
-1.  Ga naar het tabblad in uw webbrowser met de tweede sessie van Finance of RCS.
-2.  Selecteer **Uitvoeren**.
-3.  Selecteer op de dialoogpagina de optie **Ja** in het veld **JOIN-gegevensbron gebruiken**.
-4.  Selecteer **OK**.
-5.  Gegenereerd bestand controleren
+1. Ga naar het tabblad in uw webbrowser met de tweede sessie van Finance of RCS.
+2. Selecteer **Uitvoeren**.
+3. Selecteer op de dialoogpagina de optie **Ja** in het veld **JOIN-gegevensbron gebruiken**.
+4. Selecteer **OK**.
+5. Gegenereerd bestand controleren
 
     ![Pagina met ER-gebruikersdialoog](./media/GER-JoinDS-Set2Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Uitvoeringstracering van ER-indeling analyseren
 
-1.  Selecteer **Ontwerper** in de eerste sessie van Finance of RCS.
-2.  Selecteer **Prestatietracering**.
-3.  Selecteer in het raster **Prestatietracering** de bovenste record die de meest recente uitvoeringstracering van een ER-indeling aangeeft die het huidige onderdeel voor modeltoewijzing heeft gebruikt.
-4.  Selecteer **OK**.
+1. Selecteer **Ontwerper** in de eerste sessie van Finance of RCS.
+2. Selecteer **Prestatietracering**.
+3. Selecteer in het raster **Prestatietracering** de bovenste record die de meest recente uitvoeringstracering van een ER-indeling aangeeft die het huidige onderdeel voor modeltoewijzing heeft gebruikt.
+4. Selecteer **OK**.
 
-    In de uitvoeringsstatistieken wordt het volgende aangegeven:
+    In de statistieken wordt het volgende weergegeven:
 
     - De toepassingsdatabase is eenmaal aangeroepen om records op te halen uit de tabellen **ERVendorTable**, **ERSolutionTable** en **ERSolutionVersionTable** om toegang te krijgen tot vereiste velden.
 
@@ -261,7 +261,7 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 
 Zoals u kunt zien in het voorbeeld in dit onderwerp, kan de **JOIN**-gegevens bron worden opgebouwd uit verschillende gegevensbronnen waarin de afzonderlijke gegevenssets worden beschreven van de records die uiteindelijk moeten worden gekoppeld. U kunt deze gegevensbronnen configureren met de ingebouwde ER [FILTER](er-functions-list-filter.md)-functie. Wanneer u de gegevensbron zo configureert dat deze buiten de **JOIN**-gegevensbron wordt aangeroepen, kunt u bedrijfsbereikwaarden gebruiken als onderdeel van de voorwaarde voor het selecteren van gegevens. De eerste implementatie van de **JOIN**-gegevensbron biedt geen ondersteuning voor gegevensbronnen van dit type. Wanneer u bijvoorbeeld een gegevensbron op basis van een [FILTER](er-functions-list-filter.md) aanroept binnen het uitvoeringsbereik van een **JOIN**-gegevensbron, wordt een uitzondering gegenereerd als de aangeroepen gegevensbron bedrijfsreeksen bevat als onderdeel van de voorwaarde voor het selecteren van gegevens.
 
-In Microsoft Dynamics 365 Finance versie 10.0.12 (augustus 2020) kunt u bedrijfsbereikwaarden gebruiken als onderdeel van de voorwaarde voor gegevensselectie in op [FILTER](er-functions-list-filter.md) gebaseerde gegevensbronnen die worden aangeroepen binnen het uitvoeringsbereik van een **JOIN**-gegevensbron. Vanwege de beperkingen van de opbouwfunctie voor toepassings[query's](../dev-ref/xpp-library-objects.md#query-object-model), worden de bedrijfsbereikwaarden alleen ondersteund voor de eerste gegevensbron van een **JOIN**-gegevensbron.
+In Microsoft Dynamics 365 Finance versie 10.0.12 (augustus 2020) kunt u bedrijfsbereikwaarden gebruiken als onderdeel van de voorwaarde voor gegevensselectie in op [FILTER](er-functions-list-filter.md) gebaseerde gegevensbronnen die worden aangeroepen binnen het uitvoeringsbereik van een **JOIN**-gegevensbron. Vanwege de beperkingen van de opbouwfunctie voor toepassings [query's](../dev-ref/xpp-library-objects.md#query-object-model), worden de bedrijfsbereikwaarden alleen ondersteund voor de eerste gegevensbron van een **JOIN**-gegevensbron.
 
 ### <a name="example"></a>Voorbeeld
 
@@ -289,4 +289,3 @@ Wanneer de geconfigureerde gegevensbron wordt uitgevoerd terwijl de ER-uitvoerin
 [Formuleontwerper in elektronische aangifte](general-electronic-reporting-formula-designer.md)
 
 [Uitvoering van ER-indeling traceren om prestatieproblemen op te lossen](trace-execution-er-troubleshoot-perf.md)
-

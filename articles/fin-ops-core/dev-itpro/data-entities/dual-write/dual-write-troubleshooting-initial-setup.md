@@ -1,6 +1,6 @@
 ---
 title: Problemen tijdens eerste installatie oplossen
-description: In dit onderwerp vindt u informatie over het oplossen van problemen die kunnen optreden tijdens de eerste installatie van de integratie van twee keer wegschrijven met Finance and Operations- apps en Common Data Service.
+description: In dit onderwerp vindt u informatie over het oplossen van problemen die kunnen optreden tijdens de eerste installatie van de integratie van twee keer wegschrijven met Finance and Operations- apps en Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,43 +18,45 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6fb71a17d767a1e84511743794d85523db25eba8
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 5ac6ec5003794fb5875fed6a2c4403c1444ab8b2
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997345"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685581"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problemen tijdens eerste installatie oplossen
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Dit onderwerp bevat informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Common Data Service. In dit onderwerp vindt u specifieke informatie over het oplossen van problemen die kunnen optreden tijdens de eerste installatie van de integratie van twee keer wegschrijven.
+
+Dit onderwerp bevat informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Dataverse. In dit onderwerp vindt u specifieke informatie over het oplossen van problemen die kunnen optreden tijdens de eerste installatie van de integratie van twee keer wegschrijven.
 
 > [!IMPORTANT]
 > In sommige problemen die in dit onderwerp worden beschreven, is mogelijk de rol van systeembeheerder vereist of de referenties van de Microsoft Azure Active Directory-tenantbeheerder (Azure AD). In de sectie voor elk probleem wordt uitgelegd of een specifieke rol of referenties vereist zijn.
 
-## <a name="you-cant-link-a-finance-and-operations-app-to-common-data-service"></a>U kunt een Finance and Operations-app niet koppelen met Common Data Service
+## <a name="you-cant-link-a-finance-and-operations-app-to-dataverse"></a>U kunt een Finance and Operations-app niet koppelen met Dataverse
 
-**Vereiste rol om twee keer wegschrijven in te stellen:** systeembeheerder in Finance and Operations-apps en Common Data Service.
+**Vereiste rol om twee keer wegschrijven in te stellen:** systeembeheerder in Finance and Operations-apps en Dataverse.
 
-Fouten op de pagina **Koppeling instellen met Common Data Service** worden meestal veroorzaakt door problemen met onvolledige instellingen of machtigingen. Controleer of de volledige statuscontrole is geslaagd op de pagina **Koppeling instellen met Common Data Service** , zoals wordt weergegeven in de volgende afbeelding. U kunt twee keer wegschrijven niet koppelen, tenzij de hele statuscontrole is geslaagd.
+Fouten op de pagina **Koppeling instellen met Dataverse** worden meestal veroorzaakt door problemen met onvolledige instellingen of machtigingen. Controleer of de volledige statuscontrole is geslaagd op de pagina **Koppeling instellen met Dataverse**, zoals wordt weergegeven in de volgende afbeelding. U kunt twee keer wegschrijven niet koppelen, tenzij de hele statuscontrole is geslaagd.
 
 ![Geslaagde statuscontrole](media/health_check.png)
 
-U moet beschikken over referenties als Azure AD-tenantbeheerder om te kunnen koppelen met de Finance and Operations-en Common Data Service-omgevingen. Nadat u de omgevingen hebt gekoppeld, kunnen gebruikers zich aanmelden met hun accountreferenties en een bestaande entiteitstoewijzing bijwerken.
+U moet beschikken over referenties als Azure AD-tenantbeheerder om te kunnen koppelen met de Finance and Operations-en Dataverse-omgevingen. Nadat u de omgevingen hebt gekoppeld, kunnen gebruikers zich aanmelden met hun accountreferenties en een bestaande tabeltoewijzing bijwerken.
 
-## <a name="error-when-you-open-the-link-to-common-data-service-page"></a>Fout wanneer u de pagina Koppeling met Common Data Service opent
+## <a name="error-when-you-open-the-link-to-dataverse-page"></a>Fout wanneer u de pagina Koppeling met Dataverse opent
 
 **Vereiste referenties om het probleem op te lossen:** Azure AD-tenantbeheerder
 
-Mogelijk wordt het volgende foutbericht weergegeven wanneer u de pagina **Koppelen met Common Data Service** opent in en Finance and Operations-app:
+Mogelijk wordt het volgende foutbericht weergegeven wanneer u de pagina **Koppelen met Dataverse** opent in en Finance and Operations-app:
 
 *Statuscode van antwoord geeft geen positief resultaat: 404 (niet gevonden).*
 
-Deze fout treedt op wanneer de goedkeuringsstap niet is voltooid. Als u wilt controleren of de goedkeuringsstap is voltooid, meldt u zich aan bij portal.Azure.com met behulp van het Azure AD-tenantbeheerdersaccount en controleert u of de app van de andere leverancier met de id **33976c19-1db5-4c02-810e-c243db79efde** verschijnt in de lijst met Azure AD- **ondernemingstoepassingen**. Als dat niet zo is, moet u de app goedkeuren.
+Deze fout treedt op wanneer de goedkeuringsstap niet is voltooid. Als u wilt controleren of de goedkeuringsstap is voltooid, meldt u zich aan bij portal.Azure.com met behulp van het Azure AD-tenantbeheerdersaccount en controleert u of de app van de andere leverancier met de id **33976c19-1db5-4c02-810e-c243db79efde** verschijnt in de lijst met Azure AD-**ondernemingstoepassingen**. Als dat niet zo is, moet u de app goedkeuren.
 
 Voer de volgende stappen uit om een app goed te keuren.
 
@@ -65,11 +67,11 @@ Voer de volgende stappen uit om een app goed te keuren.
 2. Selecteer **Accepteren** om aan te geven dat u uw toestemming geeft om de app met de id **33976c19-1db5-4c02-810e-c243db79efde** in uw tenant te installeren.
 
     > [!TIP]
-    > Deze app is vereist om de apps Common Data Service en Finance and Operations te koppelen. Als u problemen ondervindt met deze stap, opent u de browser in de modus Incognito (in Google Chrome) of InPrivate-modus (in Microsoft Edge).
+    > Deze app is vereist om de apps Dataverse en Finance and Operations te koppelen. Als u problemen ondervindt met deze stap, opent u de browser in de modus Incognito (in Google Chrome) of InPrivate-modus (in Microsoft Edge).
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Controleren of bedrijfsgegevens en teams voor twee keer wegschrijven op de juiste wijze zijn ingesteld tijdens het koppelen
 
-Om er zeker van te zijn dat twee keer wegschrijven goed werkt, worden de bedrijven die u tijdens de configuratie selecteert, in de Common Data Service-omgeving gemaakt. Standaard zijn deze bedrijven alleen-lezen en wordt de eigenschap **IsDualWriteEnable** ingesteld op **True**. Daarnaast worden de standaard bedrijfseenheid die eigenaar is en het team gemaakt en wordt de bedrijfsnaam opgenomen. Voordat u de toewijzingen inschakelt, controleert u of de standaard eigenaar van het team is opgegeven. Voer de volgende stappen uit om de entiteit **Bedrijven (CDM\_Company)** te zoeken.
+Om er zeker van te zijn dat twee keer wegschrijven goed werkt, worden de bedrijven die u tijdens de configuratie selecteert, in de Dataverse-omgeving gemaakt. Standaard zijn deze bedrijven alleen-lezen en wordt de eigenschap **IsDualWriteEnable** ingesteld op **True**. Daarnaast worden de standaard bedrijfseenheid die eigenaar is en het team gemaakt en wordt de bedrijfsnaam opgenomen. Voordat u de toewijzingen inschakelt, controleert u of de standaard eigenaar van het team is opgegeven. Voer de volgende stappen uit om de entiteit **Bedrijven (CDM\_Company)** te zoeken.
 
 1. Selecteer in de modelgestuurde app in Dynamics 365 het filter in de rechterbovenhoek.
 2. Selecteer **Bedrijf** in de vervolgkeuzelijst.
@@ -79,7 +81,7 @@ Om er zeker van te zijn dat twee keer wegschrijven goed werkt, worden de bedrijv
 
     ![Het standaardeigenaarsteam controleren](media/default_owning_team.png)
 
-## <a name="find-the-limit-on-the-number-of-legal-entities-or-companies-that-can-be-linked-for-dual-write"></a>De limiet zoeken voor het aantal rechtspersonen of bedrijven dat kan worden gekoppeld voor twee keer wegschrijven
+## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>De limiet zoeken voor het aantal rechtspersonen of bedrijven dat kan worden gekoppeld voor twee keer wegschrijven
 
 Mogelijk wordt het volgende foutbericht weergegeven wanneer u toewijzingen probeert in te schakelen:
 
