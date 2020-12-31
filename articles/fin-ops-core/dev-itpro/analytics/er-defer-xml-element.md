@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EROperationDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 58381f491cda199d77e555e5d3da04714b6a5f8f
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: 6dce3768c886403f789063d516e0e696fc829f81
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138918"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680705"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>De uitvoering van XML-elementen in ER-indelingen uitstellen
 
@@ -41,7 +40,7 @@ Voor meer informatie over deze functie kunt u het voorbeeld in dit onderwerp uit
 
 De optie **Uitgestelde uitvoering** wordt alleen ondersteund voor XML-elementen die zijn geconfigureerd voor een ER-indeling die wordt gebruikt om **uitgaande** documenten in XML-indeling te genereren.
 
-De optie **Uitgestelde uitvoering** wordt alleen ondersteund voor XML-elementen die zich in slechts één ander XML-element bevinden. Het is daarom niet van toepassing op XML-elementen die zich in andere typen opmaakelementen bevinden (bijvoorbeeld in **een XML-reeks**element).
+De optie **Uitgestelde uitvoering** wordt alleen ondersteund voor XML-elementen die zich in slechts één ander XML-element bevinden. Het is daarom niet van toepassing op XML-elementen die zich in andere typen opmaakelementen bevinden (bijvoorbeeld in **een XML-reeks** element).
 
 De optie **Uitgestelde uitvoering** wordt niet ondersteund voor XML-elementen die zich in het opmaakelement **Common\\File** bevinden wanneer de optie **Bestand splitsen** is ingesteld op **Ja**. Zie voor meer informatie over het splitsen van XML-bestanden [Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud](er-split-files.md).
 
@@ -77,17 +76,17 @@ Voordat u begint, moet u ook de volgende configuratie van de voorbeeld-ER-oploss
 2. Selecteer **Rapportageconfiguraties**.
 3. Als op de pagina **Configuraties** de configuratie **Model voor het leren van uitgestelde elementen** niet beschikbaar is in de configuratiestructuur, importeert u de ER-gegevensmodelconfiguratie:
 
-    1. Selecteer **Uitwisselen**en selecteer vervolgens **Laden uit XML-bestand**.
+    1. Selecteer **Uitwisselen** en selecteer vervolgens **Laden uit XML-bestand**.
     2. Selecteer **Bladeren**, zoek en selecteer het bestand **Model om uitgestelde elementen te leren.1.xml** en selecteer vervolgens **OK**.
 
 4. Als de configuratie **Toewijzing voor het leren van uitgestelde elementen** niet beschikbaar is in de configuratiestructuur, importeert u de configuratie van de ER-modeltoewijzing:
 
-    1. Selecteer **Uitwisselen**en selecteer vervolgens **Laden uit XML-bestand**.
+    1. Selecteer **Uitwisselen** en selecteer vervolgens **Laden uit XML-bestand**.
     2. Selecteer **Bladeren**, zoek en selecteer het bestand **Toewijzing om uitgestelde elementen te leren.1.1.xml** en selecteer vervolgens **OK**.
 
 5. De ER-indelingsconfiguratie importeren:
 
-    1. Selecteer **Uitwisselen**en selecteer vervolgens **Laden uit XML-bestand**.
+    1. Selecteer **Uitwisselen** en selecteer vervolgens **Laden uit XML-bestand**.
     2. Selecteer **Bladeren**, zoek en selecteer het bestand **Indeling om XML-elementen te leren.1.1.xml** en selecteer vervolgens **OK**.
 
 6. Vouw in de configuratiestructuur **Model om uitgestelde elementen te leren** uit.

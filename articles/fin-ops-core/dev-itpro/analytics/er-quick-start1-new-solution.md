@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ede88bc1767304a86a86ec27365db9403c5a951d
-ms.sourcegitcommit: 4909e55529f03310d24b7e40d52751e24d35259b
+ms.openlocfilehash: 7cd0d8e7aa9595e705416798772f52956ef609da
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "3678243"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680237"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Een nieuwe ER-oplossing ontwerpen om een aangepast rapport af te drukken
 
@@ -142,10 +141,10 @@ Als u een gebruiker bent in de rol ER-ontwikkelaar, moet u de minimale set ER-pa
 
 ### <a name="configure-er-parameters"></a><a name="ConfigureParameters"></a>ER-parameters configureren
 
-1. Ga naar **Organisatiebeheer** \> **Werkruimten** \> **Elektronische rapportage**.
-2. Selecteer in de werkruimte **Elektronische rapportage** de optie **Parameters van elektronische rapportage**.
-3. Stel op de pagina **Parameters van elektronische rapportage** op het tabblad **Algemeen** de optie **Ontwerpmodus inschakelen** in op **Ja**.
-4. Stel op het tabblad **Bijlagen** de volgende parameters in:
+1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
+2. Selecteer in de werkruimte **Elektronische rapportage** **Parameters van elektronische rapportage**.
+3. Stel op de pagina **Parameters van elektronische rapportage** op het tabblad **Algemeen** de optie **Ontwerpmodus inschakelen** in op **Ja**.
+4. Stel op het tabblad **Bijlagen** de volgende parameters in:
 
     - Stel het veld **Configuraties** in op **Bestand** voor het bedrijf **USMF**.
     - Stel de velden **Taakarchief**, **Tijdelijk**, **Basislijn** en **Overige** in op **Bestand**.
@@ -161,28 +160,28 @@ Elke ER-configuratie wordt gemarkeerd als het eigendom van een ER-configuratiepr
 
 #### <a name="review-the-list-of-er-configuration-providers"></a><a name="ReviewProvidersList"></a>De lijst met ER-configuratie providers bekijken
 
-1. Ga naar **Organisatiebeheer** \> **Werkruimten** \> **Elektronische rapportage**.
+1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
 2. Selecteer in het werkgebied **Elektronische rapportage** in de sectie **Verwante koppelingen** de optie **Configuratieproviders**.
 3. Op de pagina **Configuratieproviders** heeft elke providerrecord een unieke naam en een unieke URL. Bekijk de inhoud van deze pagina. Als er al een record bestaat voor **Litware, Inc.** (`https://www.litware.com`), kunt u de volgende procedure, [Een nieuwe ER-configuratieprovider toevoegen](#ActivateProvider), overslaan.
 
 #### <a name="add-a-new-er-configuration-provider"></a><a name="AddProvider"></a>Een nieuwe ER-configuratieprovider toevoegen
 
 1. Selecteer **Nieuw** op de pagina **Configuratieproviders**.
-2. Voer in het veld **Naam** de tekst **Litware, Inc.** in.
-3. Voer in het veld **Internetadres** de tekst  `https://www.litware.com` in.
-4. Selecteer **Opslaan**.
+2. Voer in het veld **Naam** de tekst **Litware, Inc.** in.
+3. Voer in het veld **Internetadres** de tekst `https://www.litware.com` in.
+4. Selecteer **Opslaan**.
 
 #### <a name="activate-an-er-configuration-provider"></a><a name="ActivateAddedProvider"></a>Een ER-configuratieprovider activeren
 
-1. Ga naar **Organisatiebeheer** \> **Werkruimten** \> **Elektronische rapportage**.
+1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
 2. Selecteer in het werkgebied **Elektronische rapportage** de configuratieprovider **Litware, Inc.**.
-3. Selecteer **Instellingen als actief**.
+3. Selecteer **Instellingen als actief**.
 
 Meer informatie over ER-configuratieproviders vindt u in [Configuratieproviders maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ## <a name="design-a-domain-specific-data-model"></a><a name="DesignModel"></a>Domeinspecifiek gegevensmodel ontwerpen
 
-U moet een nieuwe ER-configuratie maken die een onderdeel met een [gegevensmodel](general-electronic-reporting.md#data-model-and-model-mapping-components) bevat voor het bedrijfsdomein **Vragenlijst**. Dit gegevensmodel wordt later gebruikt als gegevensbron wanneer u een ER-indeling ontwerpt om het rapport **Vragenlijst** te genereren.
+U moet een nieuwe ER-configuratie maken die een onderdeel met een [gegevensmodel](general-electronic-reporting.md#data-model-and-model-mapping-components) bevat voor het bedrijfsdomein **Vragenlijst**. Dit gegevensmodel wordt later gebruikt als gegevensbron wanneer u een ER-indeling ontwerpt om het rapport **Vragenlijst** te genereren.
 
 Door de stappen in de sectie [Een nieuwe gegevensmodelconfiguratie importeren](#ImportDataModel) te voltooien, kunt u het vereiste gegevensmodel importeren uit het opgegeven XML-bestand. U kunt de stappen in de sectie [Een nieuwe gegevensmodelconfiguratie maken](#DesignDataModel) ook uitvoeren als u een helemaal nieuw gegevensmodel wilt ontwerpen.
 
@@ -596,9 +595,9 @@ Als u wilt doorgaan, gaat u naar de volgende procedure [Een nieuwe indelingsconf
     3. Selecteer **1** in het veld **Versie gegevensmodel**.
 
         > [!NOTE]
-        > - Als u een specifieke versie van het basisgegevensmodel selecteert, wordt de structuur van de bijbehorende versie van het gegevensmodel weergegeven als de structuur van de **model**gegevensbron in de indeling die wordt gemaakt.
-        > - U kunt dit veld leeg laten. In dat geval wordt de structuur van de **concept**versie van het gegevensmodel weergegeven als de structuur van de **model**gegevensbron in de indeling die wordt gemaakt. U kunt vervolgens uw model aanpassen en de aanpassingen onmiddellijk in uw indeling bekijken. Deze benadering kan efficiënter werken voor het onderwerp van de ER-oplossing wanneer u het gegevensmodel, de modeltoewijzing en de indeling tegelijk configureert.
-        > - Als u een specifieke versie van het basisgegevensmodel selecteert, kunt u later overschakelen naar de **concept**versie, wanneer u begint met het bewerken van een indeling.
+        > - Als u een specifieke versie van het basisgegevensmodel selecteert, wordt de structuur van de bijbehorende versie van het gegevensmodel weergegeven als de structuur van de **model** gegevensbron in de indeling die wordt gemaakt.
+        > - U kunt dit veld leeg laten. In dat geval wordt de structuur van de **concept** versie van het gegevensmodel weergegeven als de structuur van de **model** gegevensbron in de indeling die wordt gemaakt. U kunt vervolgens uw model aanpassen en de aanpassingen onmiddellijk in uw indeling bekijken. Deze benadering kan efficiënter werken voor het onderwerp van de ER-oplossing wanneer u het gegevensmodel, de modeltoewijzing en de indeling tegelijk configureert.
+        > - Als u een specifieke versie van het basisgegevensmodel selecteert, kunt u later overschakelen naar de **concept** versie, wanneer u begint met het bewerken van een indeling.
 
     4. Selecteer in het veld **Definitie gegevensmodel** de definitie **Root**.
 
@@ -661,7 +660,7 @@ Met deze techniek kunt u alle andere labels van de huidige sjabloon taalafhankel
 
 #### <a name="review-model-data-source"></a><a name="ReviewModelDataSource"></a>De gegevensbron van het model controleren
 
-1. Selecteer op de pagina **Indelingsontwerper** op het tabblad **Toewijzing** de <a name="ModelDSName"></a>**model**gegevensbron die het basisgegevensmodel van deze ER-indeling vertegenwoordigt.
+1. Selecteer op de pagina **Indelingsontwerper** op het tabblad **Toewijzing** de <a name="ModelDSName"></a>**model** gegevensbron die het basisgegevensmodel van deze ER-indeling vertegenwoordigt.
 2. Selecteer **Bewerken**.
 3. Controleer de gegevens in het dialoogvenster **Eigenschappen gegevensbron**. Deze gegevensbron vertegenwoordigt versie 1 van het gegevensmodelonderdeel **Vragenlijsten** dat zich bevindt in de ER-configuratie **Model vragenlijst**.
 
@@ -800,7 +799,7 @@ In de volgende afbeelding ziet u een gegenereerd rapport in Excel-indeling waari
 3. Selecteer op het sneltabblad **Versies** de configuratieversie met de status **Concept**.
 4. Selecteer **Status wijzigen** \> **Voltooien**.
 
-De status van versie 1.1 van deze configuratie wordt gewijzigd van **Concept** in **Voltooid**. Versie 1.1 kan niet meer worden gewijzigd. Deze versie bevat de geconfigureerde indeling en kan worden gebruikt om het aangepaste rapport af te drukken. Versie 1.2 van deze configuratie wordt gemaakt met de status **Concept**. U kunt deze versie bewerken om de indeling van uw **Vragenlijst**rapport aan te passen.
+De status van versie 1.1 van deze configuratie wordt gewijzigd van **Concept** in **Voltooid**. Versie 1.1 kan niet meer worden gewijzigd. Deze versie bevat de geconfigureerde indeling en kan worden gebruikt om het aangepaste rapport af te drukken. Versie 1.2 van deze configuratie wordt gemaakt met de status **Concept**. U kunt deze versie bewerken om de indeling van uw **Vragenlijst** rapport aan te passen.
 
 ![Versies van de bewerkbare ER-configuratie op de pagina Configuraties](./media/er-quick-start1-format-configuration.png)
 
@@ -811,7 +810,7 @@ De status van versie 1.1 van deze configuratie wordt gewijzigd van **Concept** i
 
 Als gebruiker met de rol systeembeheerder moet u nieuwe logica ontwikkelen, zodat de geconfigureerde ER-indeling kan worden aangeroepen vanuit de gebruikersinterface van de toepassing om uw aangepaste rapport te genereren. Er is momenteel geen mogelijkheid om dit type logica te configureren. Daarom zijn technische aanpassingen vereist. 
 
-Als u nieuwe logica wilt ontwikkelen, moet u een topologie implementeren die ondersteuning biedt voor continu bouwvoorzieningen. Zie [Topologieën implementeren die ondersteuning bieden voor continue bouw- en testautomatisering](../perf-test/continuous-build-test-automation.md) voor meer informatie. U moet ook toegang hebben tot de ontwikkelomgeving voor deze topologie. Meer informatie over de beschikbare ER-API vindt u in [API ER-raamwerk](er-apis-app73.md).
+Als u nieuwe logica wilt ontwikkelen, moet u een topologie implementeren die ondersteuning biedt voor continu bouwvoorzieningen. Zie [Topologieën implementeren die ondersteuning bieden voor continue bouw- en testautomatisering](../perf-test/continuous-build-test-automation.md) voor meer informatie. U moet ook toegang hebben tot de ontwikkelomgeving voor deze topologie. Meer informatie over de beschikbare ER-API vindt u in [API ER-raamwerk](er-apis-app73.md).
 
 ### <a name="modify-source-code"></a><a name="ModifySourceCode"></a>Broncode wijzigen
 
@@ -994,7 +993,7 @@ class QuestionnairesErReportService extends SysOperationServiceBase
 
 Wanneer u een ER-indeling moet gebruiken waarmee toepassingsgegevens worden uitgevoerd, moet u een gegevensbron van het type **gegevensmodel** configureren in de indelingstoewijzing. Deze gegevensbron verwijst naar een specifiek onderdeel van het opgegeven gegevensmodel met behulp van één basisdefinitie. Wanneer de ER-indeling wordt uitgevoerd, wordt deze gegevensbron aangeroepen om toegang te krijgen tot de bijbehorende ER-modeltoewijzing die is geconfigureerd voor een bepaald model en een bepaalde basisdefinitie.
 
-Alle informatie die u kunt voorbereiden in de broncode en kunt opslaan als onderdeel van het gegevenscontract, kan worden door gegeven aan de uitgevoerde ER-indeling met behulp van een ER-modeltoewijzing van dit type. In de ER-modeltoewijzing moet u een gegevensbron configureren van het **object**type dat naar de klasse **[QuestionnairesErReportContract](#DataContractClass)** verwijst. Als u een modeltoewijzing wilt identificeren, moet u een gegevensbron opgeven waarmee deze modeltoewijzing wordt aangeroepen. In de opgegeven code is deze gegevensbron opgegeven met de **ERModelDataSourceName**-constante die de waarde **[model](#ModelDSName)** bevat. Als u wilt bepalen welke gegevensbron wordt gebruikt om het gegevenscontract in de modeltoewijzing beschikbaar te maken, moet u de naam van een gegevensbron opgeven. In de opgegeven code wordt deze naam opgegeven met de constante **ParametersDataSourceName** die de waarde <a name="DataContractDSName"></a>**RunTimeParameters** bevat.
+Alle informatie die u kunt voorbereiden in de broncode en kunt opslaan als onderdeel van het gegevenscontract, kan worden door gegeven aan de uitgevoerde ER-indeling met behulp van een ER-modeltoewijzing van dit type. In de ER-modeltoewijzing moet u een gegevensbron configureren van het **object** type dat naar de klasse **[QuestionnairesErReportContract](#DataContractClass)** verwijst. Als u een modeltoewijzing wilt identificeren, moet u een gegevensbron opgeven waarmee deze modeltoewijzing wordt aangeroepen. In de opgegeven code is deze gegevensbron opgegeven met de **ERModelDataSourceName**-constante die de waarde **[model](#ModelDSName)** bevat. Als u wilt bepalen welke gegevensbron wordt gebruikt om het gegevenscontract in de modeltoewijzing beschikbaar te maken, moet u de naam van een gegevensbron opgeven. In de opgegeven code wordt deze naam opgegeven met de constante **ParametersDataSourceName** die de waarde <a name="DataContractDSName"></a>**RunTimeParameters** bevat.
 
 > [!NOTE]
 > In een nieuwe omgeving moet u mogelijk de ER-metagegevens vernieuwen, zodat dit type klasse beschikbaar is in de ER-ontwerper voor modeltoewijzingen. Zie [Raamwerk elektronische rapportage (ER) configureren](electronic-reporting-er-configure-parameters.md#frequently-asked-questions) voor meer informatie.

@@ -18,20 +18,22 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 7f1a6e424996201ecae1b624c13cfc573745dc0a
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 79b2920b80ce4a8b419c2a146e15babc061cf64d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997273"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683554"
 ---
 # <a name="troubleshoot-issues-related-to-solution-awareness"></a>Problemen oplossen met bekendheid van oplossingen
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Dit onderwerp bevat informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Common Data Service. Dit onderwerp bevat specifieke informatie over het oplossen van problemen met betrekking tot bekendheid van oplossingen.
+
+Dit onderwerp bevat informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Dataverse. Dit onderwerp bevat specifieke informatie over het oplossen van problemen met betrekking tot bekendheid van oplossingen.
 
 > [!IMPORTANT]
 > In sommige problemen die in dit onderwerp worden beschreven, is mogelijk de rol van systeembeheerder vereist of de referenties van de Microsoft Azure Active Directory-tenantbeheerder (Azure AD). In de sectie voor elk probleem wordt uitgelegd of een specifieke rol of referenties vereist zijn.
@@ -42,4 +44,4 @@ Op de pagina **Twee keer wegschrijven** kan een foutbericht van de volgende stre
 
 *De entiteit met de naam 'msdyn\_dualwriteentitymap' met namemapping='Logical' is niet gevonden in de MetadataCache.*
 
-Om het probleem op te lossen, controleert u of de kernoplossing Twee keer wegschrijven in Common Data Service is geïnstalleerd. De kernoplossing Twee keer wegschrijven is een vereiste voor kennis over de oplossing.
+Om het probleem op te lossen, controleert u of de kernoplossing Twee keer wegschrijven in Dataverse is geïnstalleerd. De kernoplossing Twee keer wegschrijven is een vereiste voor kennis over de oplossing.

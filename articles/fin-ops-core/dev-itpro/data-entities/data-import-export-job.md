@@ -3,24 +3,23 @@ title: Overzicht van gegevensimport- en exporttaken
 description: Gebruik het werkgebied Gegevensbeheer om taken voor het importeren en exporteren van gegevens te maken en te beheren.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278893"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684055"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Overzicht van Gegevensimport- en exporttaken
 
@@ -130,7 +129,7 @@ Een taak kan tegelijkertijd op basis van rollen, gebruikers en rechtspersoon wor
 U kunt één taak tegelijk uitvoeren door de knop **Importeren** of **Exporteren** te selecteren nadat u de taak hebt gedefinieerd. Als u een terugkerende taak wilt instellen, selecteert u **Terugkerende gegevenstaak maken**.
 
 > [!NOTE]
-> Een import- of een exporttaak kan asynchroon worden uitgevoerd door de knop **Importeren** of **Exporteren** te selecteren. Bij een asynchrone uitvoering wordt het asynchrone framework gebruikt, dat verschilt van het batchframework. Voor het asynchrone framework kan echter net als het batchframework beperking optreden waardoor de taak niet onmiddellijk kan worden uitgevoerd. De taken kunnen ook synchroon worden uitgevoerd door **Nu importeren** of **Nu exporteren** te selecteren. Hiermee wordt de taak onmiddellijk gestart en dit is handig als het asynchrone of batchframework niet wordt gestart vanwege beperking. De taken kunnen ook in een batch worden uitgevoerd door de optie **Uitvoeren in batch** te kiezen. Batchresources zijn onderworpen aan beperking, waardoor de batchtaak niet onmiddellijk wordt gestart. De asynchrone optie is handig wanneer gebruikers rechtstreeks met de gebruikersinterface communiceren en geen hoofdgebruikers hoeven te zijn om batchplanning te begrijpen. Gebruik van een batch is een alternatieve optie als grote hoeveelheden moeten worden geëxporteerd of geïmporteerd. Batchtaken kunnen worden gepland voor uitvoering in een specifieke batchgroep, zodat u meer controle hebt vanuit taakverdelingsperspectief. Als voor zowel asynchrone als batchframeworks beperking geldt vanwege hoog resourcegebruik in het systeem, kan als een directe oplossing de synchrone versie van import/export worden gebruikt. De synchrone optie wordt onmiddellijk gestart en hiermee wordt de gebruikersinterface geblokkeerd omdat deze synchroon wordt uitgevoerd. Tijdens de uitvoering van de synchrone bewerking moet het browservenster open blijven.
+> Een import- of een exporttaak kan worden uitgevoerd door de knop **Importeren** of **Exporteren** te selecteren. Hiermee wordt een batchtaak zo gepland dat deze slechts één keer wordt uitgevoerd. De taak wordt mogelijk niet onmiddellijk uitgevoerd als de batchservice de vertraging veroorzaakt vanwege de belasting van de batchservice. De taken kunnen ook synchroon worden uitgevoerd door **Nu importeren** of **Nu exporteren** te selecteren. Hiermee wordt de taak onmiddellijk gestart en dit is handig als de batch niet wordt gestart vanwege beperking. De taken kunnen ook op een later tijdstip worden uitgevoerd. U kunt dit doen door de optie **Uitvoeren in batch** te kiezen. Batchresources zijn onderworpen aan beperking, waardoor de batchtaak niet onmiddellijk wordt gestart. Het gebruik van een batch is de aanbevolen optie, omdat deze ook helpt bij grote hoeveelheden gegevens die moeten worden geïmporteerd of geëxporteerd. Batchtaken kunnen worden gepland voor uitvoering in een specifieke batchgroep, zodat u meer controle hebt vanuit taakverdelingsperspectief.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Controleren of de taak naar verwachting is uitgevoerd
 De taakhistorie is beschikbaar voor het oplossen van problemen bij import- en exporttaken. Historische taakuitvoeringen worden ingedeeld op tijd.
@@ -195,7 +194,7 @@ De functie historie opschonen in gegevensbeheer moet worden gebruikt om een peri
 
 -   DMFDEFINITIONGROUPEXECUTION
 
-De functionaliteit moet zijn ingeschakeld in functiebeheer en kan worden geopend via **Gegevensbeheer \> Taakgeschiedenis opschonen**.
+De functie **Uitvoeringsgeschiedenis opschonen** moet zijn ingeschakeld in functiebeheer en kan worden geopend via **Gegevensbeheer \> JTaakgeschiedenis opschonen**.
 
 ### <a name="scheduling-parameters"></a>Planningsparameters
 
@@ -211,3 +210,36 @@ Bij het plannen van het opschoningsproces moeten de volgende parameters worden o
 
 > [!NOTE]
 > Als records in de faseringstabellen niet volledig worden opgeschoond, controleert u of de opschoontaak gepland staat voor uitvoering in het terugkeerpatroon. Zoals hierboven beschreven, worden bij een opschoningsbewerking slechts zoveel uitvoerings-id's opgeschoond als mogelijk is binnen het opgegeven maximale aantal uren. Om door te gaan met het opschonen van resterende faseringsrecords, moet de taak worden gepland voor periodieke uitvoering.
+
+## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Taakgeschiedenis opschonen en archiveren (beschikbaar voor preview in Platformupdate 39 of versie 10.0.15)
+De functie voor het opschonen en archiveren van de taakgeschiedenis vervangt de vorige versies van de functionaliteit voor opschonen. In deze sectie worden deze nieuwe mogelijkheden uitgelegd.
+
+Een van de belangrijkste wijzigingen in de functionaliteit voor opschonen is het gebruik van de systeembatchtaak voor het opschonen van de geschiedenis. Met het gebruik van de systeembatchtaak kunnen Finance and Operations-apps de batchtaak voor opschonen automatisch plannen en uitvoeren zodra het systeem gereed is. Het is niet meer nodig om de batchtaak handmatig te plannen. In deze standaardmodus wordt de batchtaak elk uur uitgevoerd vanaf 12 middernacht en wordt de uitvoeringsgeschiedenis voor de meest recente 7 dagen bewaard. De verwijderde geschiedenis wordt gearchiveerd voor toekomstige ophaalacties.
+
+> [!NOTE]
+> Omdat deze functionaliteit in preview is, zal de systeembatchtaak geen uitvoeringsgeschiedenis verwijderen totdat deze is ingeschakeld via de flight DMFEnableExecutionHistoryCleanupSystemJob. Wanneer de functie algemeen beschikbaar is in een toekomstige versie, is deze flight niet vereist en wordt de systeembatchtaak gestart voor opschonen en archiveren nadat het systeem is gereed, op basis van het gedefinieerde schema zoals hierboven wordt uitgelegd. 
+
+> [!NOTE]
+> In een toekomstige versie worden de eerdere versies van de functionaliteit voor opschonen verwijderd uit Finance and Operations-apps.
+
+De tweede wijziging in het opschoonproces is het archiveren van de verwijderde uitvoeringsgeschiedenis. Met de opschoontaak worden de verwijderde records gearchiveerd naar de blob-opslag die DIXF gebruikt voor normale integraties. Het gearchiveerde bestand heeft de DIXF-pakketindeling en is 7 dagen beschikbaar in de blob. Gedurende deze tijd kan het worden gedownload. De standaardduur van 7 dagen voor het gearchiveerde bestand kan worden ingesteld op maximaal 90 dagen in de parameters.
+
+### <a name="changing-the-default-settings"></a>De standaardinstellingen wijzigen
+Deze functionaliteit is momenteel in preview en moet expliciet worden ingeschakeld door de flight DMFEnableExecutionHistoryCleanupSystemJob in te schakelen. De functie Fasering opschonen moet eveneens zijn ingeschakeld in functiebeheer.
+
+Als u de standaardinstelling voor de levensduur van het gearchiveerde bestand wilt wijzigen, gaat u naar de werkruimte voor gegevensbeheer en selecteert u **Taakgeschiedenis opschonen**. Stel **Aantal dagen om pakket te bewaren in blob** in op een waarde tussen 7 en 90 (inclusief). Dit wordt toegepast op de archieven die zijn gemaakt nadat deze wijziging is aangebracht.
+
+### <a name="downloading-the-archived-package"></a>Het gearchiveerde pakket downloaden
+Deze functionaliteit is momenteel in preview en moet expliciet worden ingeschakeld door de flight DMFEnableExecutionHistoryCleanupSystemJob in te schakelen. De functie Fasering opschonen moet eveneens zijn ingeschakeld in functiebeheer.
+
+Als u de gearchiveerde uitvoeringsgeschiedenis wilt downloaden, gaat u naar de werkruimte voor gegevensbeheer en selecteert u **Taakgeschiedenis opschonen**. Selecteer **Back-upgeschiedenis pakket** om het geschiedenisformulier te openen. Op dit formulier wordt de lijst met alle gearchiveerde pakketten weergegeven. U kunt een archief selecteren en downloaden door **Pakket downloaden** te selecteren. Het gedownloade pakket heeft de DIXF-pakketindeling en bevat de volgende bestanden:
+
+-   Het bestand met faseringstabellen voor entiteiten
+-   DMFDEFINITIONGROUPEXECUTION
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+-   DMFEXECUTION
+-   DMFSTAGINGEXECUTIONERRORS
+-   DMFSTAGINGLOG
+-   DMFSTAGINGLOGDETAILS
+-   DMFSTAGINGVALIDATIONLOG
+

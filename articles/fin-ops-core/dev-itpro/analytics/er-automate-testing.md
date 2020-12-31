@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERFormatBaselineTable, ERFormatMappingRunLogTable, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: be641e1b2f90f4d19f7ed15e47413c0aa43d5073
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 0a2586afd56eef0f953454ad246ff3647a5b09d1
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771439"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681443"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Testen automatiseren met elektronische rapportage
 
@@ -48,7 +47,7 @@ Functionele hoofdgebruikers kunnen gebruikers accepteren en de integratie testen
 - Testcases groeperen voor vereiste testscenario's. Zie [Acceptatietests voor gebruikers maken en automatiseren](../lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md) voor meer informatie.
 
     - Gebruik de Modelleertool bedrijfsprocessen (BPM) in LCS om bibliotheken te maken voor gebruikersacceptatietesten.
-    - Gebruik BPM testbibliotheken om een testplan en testsuites in Microsoft Azure DevOps Services (Azure DevOps) te maken.
+    - Gebruik BPM testbibliotheken om een testplan en testsuites te maken in Microsoft Azure DevOps Services (Azure DevOps).
 
 Functionele hoofdgebruikers kunnen tests uitvoeren voor de acceptatie en integratie van gebruikers.
 
@@ -60,7 +59,7 @@ Functionele hoofdgebruikers kunnen tests uitvoeren voor de acceptatie en integra
 Voordat u de taken in dit onderwerp kunt voltooien, moet u de volgende vereisten uitvoeren:
 
 - Implementeer een topologie die testautomatisering ondersteunt. U moet toegang hebben tot het exemplaar van deze topologie voor de rol **Systeembeheerder**. Deze topologie moet de voorbeeldgegevens bevatten die in dit voorbeeld worden gebruikt. Zie [Omgevingen implementeren en gebruiken die continue build- en testautomatisering ondersteunen](../perf-test/continuous-build-test-automation.md) voor meer informatie.
-- Als u de gebruikers- en integratietests automatisch wilt uitvoeren, moet u RSAT installeren in de topologie die u gebruikt en deze op de juiste manier configureren. Zie [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357) voor informatie over het installeren en configureren van RSAT voor het werken met Finance and Operations-apps en Azure DevOps. Let op de vereisten voor het gebruik van het hulpprogramma. In de volgende afbeelding ziet u een voorbeeld van de RSAT‑instellingen. De blauwe rechthoek omsluit de parameters waarmee toegang wordt gegeven tot Azure DevOps. De groene rechthoek omsluit de parameters waarmee de toegang tot het exemplaar wordt gegeven.
+- Als u de gebruikers- en integratietests automatisch wilt uitvoeren, moet u RSAT installeren in de topologie die u gebruikt en deze op de juiste manier configureren. Zie [Regression Suite Automation Tool](https://www.microsoft.com/download/details.aspx?id=57357) voor informatie over het installeren en configureren van RSAT zodat dit werkt met Finance and Operations-apps en Azure DevOps, Let op de vereisten voor het gebruik van het hulpprogramma. In de volgende afbeelding ziet u een voorbeeld van de RSAT‑instellingen. De blauwe rechthoek omsluit de parameters waarmee toegang wordt gegeven tot Azure DevOps. De groene rechthoek omsluit de parameters waarmee de toegang tot het exemplaar wordt gegeven.
 
     ![RSAT-instellingen](media/GER-Configure.png "Schermafbeelding van het dialoogvenster RSAT-instellingen")
 
@@ -105,7 +104,7 @@ Voordat u de taken in dit onderwerp kunt voltooien, moet u de volgende vereisten
 
         ![Pagina Betalingsjournaal](media/GER-APJournal.png "Schermafbeelding van de pagina Betalingsjournaal")
 
-    3. Selecteer **Regels**en voer een regel in met de volgende informatie.
+    3. Selecteer **Regels** en voer een regel in met de volgende informatie.
 
         | Veld               | Voorbeeldwaarde   |
         |---------------------|-----------------|
@@ -221,7 +220,7 @@ Als functionele hoofdgebruiker kunt u uw eigen stappen vastleggen om de verwerki
 2. Selecteer **Taakrecorder**
 3. Selecteer **Registratie afspelen**.
 4. Selecteer **Openen vanaf deze pc**.
-5. Selecteer **Bladeren**en selecteer het lokaal opgeslagen bestand **Voorbereiden\\Registreren.xml**.
+5. Selecteer **Bladeren** en selecteer het lokaal opgeslagen bestand **Voorbereiden\\Registreren.xml**.
 6. Selecteer **Starten**.
 7. Selecteer **Volgende stap in behandeling afspelen** totdat alle stappen in de registratie zijn afgespeeld.
 
@@ -247,7 +246,7 @@ Het is raadzaam de taakregistratie **Verwerken\\Registreren.xml.** die u eerder 
 2. Selecteer **Taakrecorder**.
 3. Selecteer **Registratie afspelen**.
 4. Selecteer **Openen vanaf deze pc**.
-5. Selecteer **Bladeren**en selecteer het lokaal opgeslagen bestand **Verwerken\\Registreren.xml**.
+5. Selecteer **Bladeren** en selecteer het lokaal opgeslagen bestand **Verwerken\\Registreren.xml**.
 6. Selecteer **Starten**.
 7. Selecteer **Volgende stap in behandeling afspelen** totdat alle stappen in de registratie zijn afgespeeld.
 

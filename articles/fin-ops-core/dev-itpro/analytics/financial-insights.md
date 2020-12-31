@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 596a067611ac4477f4469dbbc370c971e0f7a35d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181767"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682766"
 ---
 # <a name="financial-insights"></a>Financial Insights
 
@@ -88,7 +87,7 @@ De gegevens in ingesloten Power BI-rapporten kunnen momenteel niet worden beperk
 | Financiële inzichten voor geheel bedrijf weergeven   | In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 is deze functie niet toegewezen aan een rol. In de volgende versie wordt deze functie toegewezen aan de rol van CFO. | Deze functie biedt toegang tot de menuoptie voor de werkruimte CFO-overzicht. Standaard wordt het actieve bedrijf gebruikt als filter. U kunt echter alle rechtspersonen toevoegen, ongeacht of de gebruiker toegang tot de andere rechtspersonen heeft. |
 
 
-## <a name="financial-reporting-vs-finanical-insights"></a>Financiële rapportage versus Financial Insights
+## <a name="financial-reporting-vs-financial-insights"></a>Financiële rapportage versus Financiële inzichten
 Hoewel **Financial Insights** financiële overzichten bevat, is het geen vervanging voor Financiële rapportage in de toepassing. De standaard financiële overzichten in **Financial Insights** zijn beperkt in bereik en bevatten niet alle soorten financiële overzichten. Financiële rapportage is nog steeds het primaire hulpmiddel voor het ontwerpen, maken en genereren van wettelijke financiële overzichten.
 
 Op basis van het volgende vergelijkingsdiagram kunt u onderscheid maken tussen de twee opties:
@@ -131,7 +130,7 @@ Gebruikers kunnen het rapport filteren met behulp van het deelvenster **Filter**
 - **Filters op het niveau van visuele elementen**: deze filters worden alleen toegepast op het geselecteerde visuele element. Deze filters worden toegepast boven op de filters op paginaniveau.
 - **Detailanalysefilter** : dit filter filtert van een visueel 'bron'-element dat op het huidige visuele element wordt toegepast wanneer u vanuit het visuele bronelement inzoomt op het huidige visuele element.
 
-![Filter](./media/filter.png)
+![Filteropties](./media/filter.png)
 
 Als u een specifieke filterwaarde wilt verwijderen, selecteert u het gumsymbool ernaast. Verwijder geen filter door de X te selecteren. Als u de X selecteert, wordt het veld waarop u filtert verwijderd als filteroptie. Als u per ongeluk een veld uit het filter verwijdert, sluit u de werkruimte en opent u deze opnieuw. De standaardinstellingen voor het filter worden opnieuw toegepast.
 
@@ -176,25 +175,25 @@ Verschillende niveaus van inzoomen zijn beschikbaar via Power BI. Elk niveau hee
 
 In het volgende voorbeeld is de **proefbalans**-instructie samengevouwen tot het hoogste niveau van de rijhiërarchie, het hoofdrekeningtype.
 
-![Proefbalans](./media/trial-balance.png)
+![Overzicht van proefbalans](./media/trial-balance.png)
 
 Als u het volgende niveau van de hiërarchie, de hoofdrekeningcategorieën, wilt weergeven, kunt u het veld **Inzoomen op** instellen op **Rijen** en vervolgens de knop **Uitvouwen** selecteren (de derde knop na het veld Inzoomen op). U ziet nu alle hoofdrekeningcategorieën uitgevouwen. Op dit moment kunt u met Power BI niet één rij of kolom uitvouwen, maar nog steeds alle andere rijen of kolommen zien.
 
-![Proefbalans](./media/trial-balance2.png)
+![Inzoomen op rijen in proefbalans](./media/trial-balance2.png)
 
 Als u wilt uitvouwen naar de hoofdrekeningen voor alle rijen, kunt u weer de knop **Uitvouwen** gebruiken. Echter, als u wilt inzoomen naar de hoofdrekeningen voor slechts één rij, selecteert u eerst de knop **Inzoomen** (de enkele pijl-omlaag aan de rechterkant van het venster) en selecteert u vervolgens de rij waarop u wilt inzoomen. In de volgende afbeelding ziet u het resultaat wanneer de rij **Verkoop** is geselecteerd nadat de knop **Inzoomen** is geselecteerd.
 
-![Proefbalans](./media/trial-balance3.png)
+![Knop Uitvouwen voor proefbalans](./media/trial-balance3.png)
 
 Nadat u op één rij inzoomt, zijn er meerdere klikken nodig om terug te keren naar de volledige proefbalans. De knop **Uitzoomen** (de eerste knop na **inzoomen** op veld) zoomt alleen uit in de context van de categorie **Verkoop**, zoals in de volgende afbeelding wordt weergegeven.
 
-![Proefbalans](./media/trial-balance4.png)
+![Knop Uitzoomen voor proefbalans](./media/trial-balance4.png)
 
 U kunt de knop **Uitzoomen** blijven gebruiken om terug te keren naar het hoogste niveau van samenvatting voor de rijen.
 
 Power BI heeft ook een knop waarmee u naar het volgende niveau in de hiërarchie gaat (de tweede knop na het veld **Inzoomen op**). Het effect van deze knop verschilt van het effect van de knop **Uitvouwen** (de derde knop na het veld **Inzoomen op**), die wordt gebruikt om de hiërarchie uit te vouwen. Wanneer u de hiërarchie uitvouwt, wordt de hiërarchie onderhouden in het rapport. Zoals u bijvoorbeeld eerder gezien hebt, als u uitvouwt op het hoofdrekeningtype, ziet u nog steeds het hoofdrekeningtype in het rapport. Echter wanneer u naar een hoger niveau in de hiërarchie gaat, toont het rapport niet langer de bovenliggende in de hiërarchie, zoals in de volgende afbeelding wordt weergegeven.
 
-![Proefbalans](./media/trial-balance5.png)
+![Knop Inzoomen voor proefbalans](./media/trial-balance5.png)
 
 Als u de transactiedetails achter de samengevatte saldi wilt zien, kunt u enkele bedragen selecteren om terug te zoomen naar Finance and Operations.
 
@@ -245,6 +244,6 @@ Power BI bevat geen optie om lege rijen te verbergen en weer te geven. Als een r
 
 De informatie in de volgende bronnen is niet vereist is om de ingesloten rapporten voor de werkruimte **CFO overzicht** of **Financial Insights** in te schakelen in een productieomgeving. In plaats daarvan zijn ze handig voor ontwikkelaarsmachines en als u uw eigen Power BI-rapporten wilt insluiten in Finance.
 
-- <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
+- [Toegang krijgen tot analytische werkruimten en rapporten voor een omgeving met één computer](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
-- <https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
+- [Analyses aan werkgebieden toevoegen met Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)

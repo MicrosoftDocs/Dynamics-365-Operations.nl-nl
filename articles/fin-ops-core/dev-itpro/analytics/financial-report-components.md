@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 27a6745be62185b23a7e81c9aed78879e36b3a9d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 97468be0bdea679ca7a52c5cef9c1e10950736e8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181721"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682716"
 ---
 # <a name="financial-report-components"></a>Onderdelen van een financieel rapport
 
@@ -81,7 +80,7 @@ U kunt alle bouwstenen weergeven die aan een bouwsteengroep zijn toegewezen. U k
 
 ### <a name="export-a-building-block-group"></a>Een bouwsteengroep exporteren
 
-U kunt een bouwsteengroup of een specifiek bouwstenenrapport in een bouwsteengroep exporteren. U kunt de geëxporteerde bouwsteengroep als back-up gebruiken. U kunt de geëxporteerde gegevens ook tussen installaties kopiëren. Rapportontwerper bevat de lettertypen en de dimensiesets waarnaar wordt verwezen, samen met de bouwsteengroep.
+U kunt een bouwsteengroup of een specifiek bouwstenenrapport in een bouwsteengroep exporteren. U kunt de geëxporteerde bouwsteengroep als back-up gebruiken. U kunt de geëxporteerde gegevens ook tussen installaties kopiëren. Rapportontwerper bevat de lettertypen en de dimensiesets waarnaar wordt verwezen, samen met de bouwsteengroep.
 
 1. Klik in Report Designer in het menu **Bedrijf** op **Bouwsteengroepen**.
 2. Selecteer in het dialoogvenster **Bouwsteengroepen** de bouwsteengroep die u wilt exporteren en klik vervolgens op **Exporteren**.

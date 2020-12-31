@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ea5b17873dea4508230f39ffb41a50e2f427584f
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: bf909efbac5dce8e22d9713ad2e694ce624ffeb0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142127"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681896"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER: een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling (november 2016)
 
@@ -77,14 +76,14 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een 
 3. Selecteer in de structuur **Functies\Groeperen op**.
 4. Typ in het veld **Naam** `PaymentByCurrency`.
 5. Selecteer **Groep bewerken op**.
-6. Vouw in de structuur het **Model**uit en selecteer vervolgens **model\Payments**.
+6. Vouw in de structuur het **Model** uit en selecteer vervolgens **model\Payments**.
 7. Selecteer **Veld toevoegen aan**.
 8. Selecteer **Wat groeperen**.
-9. Vouw in de structuur **model\Betalingen**uit en selecteer vervolgens **model\Betalingen\Valuta**.
+9. Vouw in de structuur **model\Betalingen** uit en selecteer vervolgens **model\Betalingen\Valuta**.
 10. Selecteer **Veld toevoegen aan**.
 11. Selecteer **Gegroepeerde velden**.
 12. Selecteer in de structuur **model\Betalingen\Opgedragen Bedrag(OpgedragenBedrag)**.
-13. Selecteer **Veld toevoegen aan**en selecteer vervolgens **Samenvoegingsvelden**.
+13. Selecteer **Veld toevoegen aan** en selecteer vervolgens **Samenvoegingsvelden**.
 14. Selecteer een optie in het veld **Methode**. Selecteer de **SUM-aggregatie**-functie.  
 15. Typ in het veld **Naam** `TotalInstructuredAmount`.
 16. Selecteer **Opslaan**.
@@ -96,25 +95,25 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een 
 2. Selecteer **Binden**.
 3. Selecteer **model\Betalingen\Crediteur\Identificatie\Bron ID(BronID)** en **Excel\PaymLines\VerkAccountNaam** in de structuur.
 4. Selecteer **Binden**.
-5. Selecteer **Model\Betalingen\Crediteur\Naam** en **Excel\PaymLines\VerkNaam**in de structuur.
+5. Selecteer **Model\Betalingen\Crediteur\Naam** en **Excel\PaymLines\VerkNaam** in de structuur.
 6. Selecteer **Binden**.
-7. Selecteer **Model\Betalingen\Crediteur Agent(CrediteurAgent)\Naam** en **Excel\PaymLines\Bank**in de structuur.
+7. Selecteer **Model\Betalingen\Crediteur Agent(CrediteurAgent)\Naam** en **Excel\PaymLines\Bank** in de structuur.
 8. Selecteer **Binden**.
-9. Selecteer **Model\Betalingen\Crediteur Agent(CrediteurAgent)\Routeringnummer(Routeringnummer)** en **Excel\PaymLines\Routeringnummer**in de structuur.
+9. Selecteer **Model\Betalingen\Crediteur Agent(CrediteurAgent)\Routeringnummer(Routeringnummer)** en **Excel\PaymLines\Routeringnummer** in de structuur.
 10. Selecteer **Binden**.
 11. Selecteer **model\Betalingen\Crediteursaccount(Crediteursaccount)\Identificatie\Nummer** en **Excel\PaymLines\Accountnummer** in de structuur.
 12. Selecteer **Binden**.
 13. Selecteer **model\Betalingen\Opgedragen Bedrag(OpgedragenBedrag)** en **Excel\PaymLines\Debet** in de structuur.
 14. Selecteer **Binden**.
-15. Selecteer **Model\Betalingen\Valuta** en **Excel\PaymLines\Valuta**in de structuur.
+15. Selecteer **Model\Betalingen\Valuta** en **Excel\PaymLines\Valuta** in de structuur.
 16. Selecteer **Binden**.
-17. Selecteer **BetalingPerValuta\gegroepeerd\Valuta** en **Excel\OverzichtRegels\OverzichtValuta**in de structuur.
+17. Selecteer **BetalingPerValuta\gegroepeerd\Valuta** en **Excel\OverzichtRegels\OverzichtValuta** in de structuur.
 18. Selecteer **Binden**.
-19. Selecteer **BetalingPerValuta\gegroepeerd\TotaalOpgedragenBedrag** en **Excel\OverzichtRegels\OverzichtBedrag**in de structuur.
+19. Selecteer **BetalingPerValuta\gegroepeerd\TotaalOpgedragenBedrag** en **Excel\OverzichtRegels\OverzichtBedrag** in de structuur.
 20. Selecteer **Binden**.
 21. Selecteer **BetalingPerValuta** en **Excel\Overzichtregels** in de structuur.
 22. Selecteer **Binden**.
-23. Selecteer **Model\Betalingen** en **Excel\PaymLines**in de structuur.
+23. Selecteer **Model\Betalingen** en **Excel\PaymLines** in de structuur.
 24. Selecteer **Binden**.
 25. Selecteer **Opslaan** en sluit daarna de pagina.
 

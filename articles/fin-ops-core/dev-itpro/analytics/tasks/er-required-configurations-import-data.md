@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143310"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684276"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER: vereiste configuraties maken voor het importeren van gegevens uit een extern bestand
 
@@ -98,11 +97,11 @@ In de stappen in deze subtaak ziet u hoe u een nieuwe indelingsconfiguratie kunt
 
     Merk op dat de ontworpen indeling hier wordt weergegeven als een onderdeel van de gegevensbron.  
 
-6. Vouw in de structuur 'format: Record\*settlement: XML Element 1..1 (settlement): Record' uit.
-7. Vouw in de structuur 'format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list' uit.
-8. Vouw in de structuur 'format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record' uit.
-9. Vouw in de structuur 'format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record' uit.
-10. Selecteer in de structuur 'format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record'.
+6. Vouw in de structuur `format: Record\*settlement: XML Element 1..1 (settlement): Record` uit.
+7. Vouw in de structuur `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list` uit.
+8. Vouw in de structuur `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record` uit.
+9. Vouw in de structuur `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record` uit.
+10. Selecteer in de structuur `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`.
 
     Merk op dat de presentatie van verplichte en optionele indelingselementen anders is dan in het vooraf onderdeel van de gegevensbron ‘format’.  
 11. Vouw in de structuur 'Transactions: Record list= format.settlement.'$enumerated'' uit.
@@ -237,7 +236,7 @@ Voer deze toewijzingsindeling uit om te testen. Gebruik het bestand 1099entries.
 19. Sluit de pagina.
 20. Klik op Bewerken.
 
-    Als u de hotfix "KB 4012871 Support of GER model mappings in separated configurations with an ability to specify different kinds of prerequisites for deploying them on different versions of Dynamics 365 Finance" (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ) hebt geïnstalleerd, voert u de volgende stap "Turn the flag 'Default for model mapping' on" uit voor de opgegeven indelingsconfiguratie. Sla anders de volgende stap over.  
+    Als u de hotfix "KB 4012871 Support of GER model mappings in separated configurations with an ability to specify different kinds of prerequisites for deploying them on different versions of Dynamics 365 Finance" ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)) hebt geïnstalleerd, voert u de volgende stap "Turn the flag 'Default for model mapping' on" uit voor de opgegeven indelingsconfiguratie. Sla anders de volgende stap over.  
 
 21. Selecteer in het veld Standaard voor modeltoewijzing de waarde Ja.
 22. Selecteer in de structuur '1099 Payments model'.
@@ -245,7 +244,7 @@ Voer deze toewijzingsindeling uit om te testen. Gebruik het bestand 1099entries.
 24. Klik op Model toewijzen aan gegevensbron.
 25. Klik op Uitvoeren.
 
-    Als u de hotfix "KB 4012871 Support of GER model mappings in separated configurations with an ability to specify different kinds of prerequisites for deploying them on different versions" (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871) hebt geïnstalleerd, selecteert u de gewenste modeltoewijzing in het zoekveld. Als u de hotfix nog niet hebt geïnstalleerd, gaat u door met de volgende stap, omdat de toewijzing is al geselecteerd door de definitie van de standaardindelingsconfiguratie.  
+    Als u de hotfix "KB 4012871 Support of GER model mappings in separated configurations with an ability to specify different kinds of prerequisites for deploying them on different versions" ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)) hebt geïnstalleerd, selecteert u de gewenste modeltoewijzing in het zoekveld. Als u de hotfix nog niet hebt geïnstalleerd, gaat u door met de volgende stap, omdat de toewijzing is al geselecteerd door de definitie van de standaardindelingsconfiguratie.  
     
     Als u de hotfix KB 4012871 niet hebt geïnstalleerd, ziet u dat het dialoogvenster een extra vraag bevat voor de modeltoewijzing die wordt gebruikt om het te importeren bestand te parseren. De gegevens worden vervolgens vanuit het dialoogvenster overgezet naar het gegevensmodel. U kunt op dit moment kiezen welke toewijzingsindeling moet worden gebruikt, afhankelijk van het type bestand dat u wilt importeren.  
     

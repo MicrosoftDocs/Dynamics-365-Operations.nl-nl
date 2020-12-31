@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
-ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
+ms.openlocfilehash: 8ae024c2d791e1219c7383dc95283219a9300eac
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564162"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682668"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Rapportagestructuurdefinities in financiële rapporten
 
@@ -165,9 +164,9 @@ U kunt voorkomen dat bepaalde gebruikers en groepen een rapportage-eenheid opene
 3. Selecteer in het dialoogvenster **Eenheidbeveiliging** een naam en klik vervolgens op **Verwijderen**.
 4. Klik tot slot op **OK**.
 
-### <a name="link-toreports"></a>Koppelen aan rapporten
+### <a name="link-to-reports"></a>Koppelen aan rapporten
 
-Nadat u een  **rapport**kolom hebt gemaakt in de rijdefinitie en het rapport hebt opgegeven voor opname in het rapport, moet u de rapportagestructuur bijwerken met de gekoppelde kolom en de informatie over het rapport. Een rapport kan worden geïmporteerd in elke eenheid in de rapportagestructuur.
+Nadat u een **rapportkolom** hebt gemaakt in de rijdefinitie en het rapport hebt opgegeven voor opname in het rapport, moet u de rapportagestructuur bijwerken met de gekoppelde kolom en de informatie over het rapport. Een rapport kan worden geïmporteerd in elke eenheid in de rapportagestructuur.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Het rapport identificeren in een rapportagestructuur
 

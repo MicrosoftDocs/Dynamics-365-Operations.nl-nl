@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c19fef3e62eec48e66f7cec824afee3ebb25209e
-ms.sourcegitcommit: cc78f9bf585082ce65c2ab0b011ff62620fa883d
+ms.openlocfilehash: 47bb8a2a9adab4ec963a1d0b95e783299aab3819
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088215"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683010"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Configuraties voor elektronische rapportage aanpassen om een elektronisch document te genereren
 
@@ -53,7 +52,7 @@ In de procedures in dit onderwerp wordt uitgelegd hoe een gebruiker met de rol S
 - [Neem de wijzigingen in de nieuwe versies van de ER-standaardconfiguraties op in uw aangepaste ER-configuraties](#RebaseCustomERConfigurations).
 - [Voeg een klantfactuur toe en boek en verzend deze met behulp van de nieuwe versies van de aangepaste ER-configuraties](#ProcessInvoice3).
 
-Al deze procedures kunnen in het **DEMF** -bedrijf worden uitgevoerd.
+Al deze procedures kunnen in het **DEMF**-bedrijf worden uitgevoerd.
 
 ## <a name="configure-the-er-framework"></a><a name="ConfigureER"></a>Het ER-raamwerk configureren
 
@@ -65,7 +64,7 @@ Als gebruiker met de rol Functioneel consultant voor elektronische rapportage of
 2. Selecteer op de pagina **Lokalisatieconfiguraties** in de sectie **Verwante koppelingen** de tegel **Parameters van elektronische rapportage**.
 3. Stel op de pagina **Parameters van elektronische rapportage** op het tabblad **Algemeen** de optie **Ontwerpmodus inschakelen** in op **Ja**.
 4. Selecteer op het tabblad **Bijlagen** in het veld **Configuraties** de optie **Bestand**.
-5. Selecteer in de velden **Taakarchief** , **Tijdelijk** , **Basislijn** en **Overige** het type **Bestand**.
+5. Selecteer in de velden **Taakarchief**, **Tijdelijk**, **Basislijn** en **Overige** het type **Bestand**.
 
 Meer informatie over het configureren van ER-parameters vindt u in [Het ER-raamwerk configureren](electronic-reporting-er-configure-parameters.md).
 
@@ -74,7 +73,7 @@ Meer informatie over het configureren van ER-parameters vindt u in [Het ER-raamw
 Elke ER-configuratie die wordt toegevoegd, wordt gemarkeerd als het eigendom van een ER-configuratieprovider. De ER-configuratieprovider die is geactiveerd in de werkruimte **Elektronische rapportage** wordt hiervoor gebruikt. Daarom moet u een ER-configuratieprovider activeren in de werkruimte **Elektronische rapportage** voordat u ER-configuraties gaat toevoegen of bewerken.
 
 > [!NOTE]
-> Alleen de eigenaar van een ER-configuratie kan deze bewerken. Daarom moet een geschikte ER-configuratieprovider worden geactiveerd in de werkruimte **Elektronische rapportage** , voordat een ER-configuratie kan worden bewerkt.
+> Alleen de eigenaar van een ER-configuratie kan deze bewerken. Daarom moet een geschikte ER-configuratieprovider worden geactiveerd in de werkruimte **Elektronische rapportage**, voordat een ER-configuratie kan worden bewerkt.
 
 #### <a name="review-the-list-of-er-configuration-providers"></a>De lijst met ER-configuratie providers bekijken
 
@@ -127,12 +126,12 @@ Naast de geselecteerde ER-indeling **Peppol-verkoopfactuur** zijn er andere vere
 
 Voer de volgende stappen uit om de status te simuleren die ER-configuraties in het huidige Finance-exemplaar zouden hebben als u versie **11.2.2** van de ER-indeling **Peppol-verkoopfactuur** in het verleden hebt geïmporteerd (bijvoorbeeld op 7 augustus 2019).
 
-- Selecteer in het actievenster de optie **Verwijderen** om alle ER-configuraties te verwijderen die zijn gepubliceerd na 7 augustus 2019. Alleen de configuraties **Factuurmodel** , **Toewijzing factuurmodellen** (heette aanvankelijk **Modeltoewijzing klantfactuur** ), **UBL-verkoopfactuur** en **Peppol-verkoopfactuur** moeten overblijven.
+- Selecteer in het actievenster de optie **Verwijderen** om alle ER-configuraties te verwijderen die zijn gepubliceerd na 7 augustus 2019. Alleen de configuraties **Factuurmodel**, **Toewijzing factuurmodellen** (heette aanvankelijk **Modeltoewijzing klantfactuur**), **UBL-verkoopfactuur** en **Peppol-verkoopfactuur** moeten overblijven.
 - Selecteer voor de resterende configuraties op het sneltabblad **Versies** de optie **Verwijderen** om alle versies van ER-configuraties te verwijderen die na 7 augustus 2019 zijn gepubliceerd.
 
 Controleer vervolgens of de volgende configuraties beschikbaar zijn in de configuratiestructuur:
 
-- Configuratie van ER-gegevensmodel **Factuurmodel** (heette aanvankelijk **Klantfactuurmodel** ):
+- Configuratie van ER-gegevensmodel **Factuurmodel** (heette aanvankelijk **Klantfactuurmodel**):
 
     - Versie 11 bevat versie 10 van het ER-onderdeel [gegevensmodel](general-electronic-reporting.md#data-model-and-model-mapping-components) waarmee de gegevensstructuur van het bedrijfsdomein voor facturering wordt vertegenwoordigd. Deze ER-configuratie is geïmporteerd als een voorganger van de ER-indeling **Peppol-verkoopfactuur** die voor import is geselecteerd.
     - Versie 50 bevat versie 31 van het ER-onderdeel van het gegevensmodel. Deze ER-configuratie is geïmporteerd als een voorganger van de versie van 7 augustus 2019 voor de configuratie van ER-modeltoewijzing **Toewijzing factuurmodellen**.
@@ -142,7 +141,7 @@ Controleer vervolgens of de volgende configuraties beschikbaar zijn in de config
     > [!TIP]
     > Als u versie 50 van dit gegevensmodel niet ziet, opent u de algemene opslagplaats en importeert u versie 50.19 van de ER-configuratie **Toewijzing factuurmodellen**.
 
-- Configuratie van de ER-modeltoewijzing **Toewijzing factuurmodellen** (heette aanvankelijk **Modeltoewijzing klantfactuur** ):
+- Configuratie van de ER-modeltoewijzing **Toewijzing factuurmodellen** (heette aanvankelijk **Modeltoewijzing klantfactuur**):
 
     - Versie 50.19 is geïmporteerd als de meest recente implementatie van versie 50 van de configuratie van het ER-gegevensmodel **Factuurmodel**. Het bevat twee ER-onderdelen voor [modeltoewijzing](general-electronic-reporting.md#data-model-and-model-mapping-components) waarmee wordt beschreven hoe het gegevensmodel tijdens de uitvoering wordt gevuld met toepassingsgegevens.
 
@@ -151,11 +150,11 @@ Controleer vervolgens of de volgende configuraties beschikbaar zijn in de config
     > [!TIP]
     > Als u versie 50.19 van deze modeltoewijzing niet ziet, opent u de algemene opslagplaats en importeert u versie 50.19 van de ER-configuratie **Toewijzing factuurmodellen**.
 
-- Configuratie van ER-indeling **UBL-verkoopfactuur** :
+- Configuratie van ER-indeling **UBL-verkoopfactuur**:
 
     - Versie 11.2 bevat de ER-onderdelen voor [indeling](general-electronic-reporting.md#FormatComponentOutbound) en indelingstoewijzing. Het onderdeel Indeling specificeert de rapportindeling. Het onderdeel voor indelingstoewijzing bevat de modelgegevensbron en geeft aan hoe deze gegevensbron wordt gebruikt om de rapportindeling tijdens de uitvoering in te vullen. Deze ER-indeling is geconfigureerd voor het genereren van e-facturen in UBL-indeling (Universal Business Language). Deze ER-indeling is geïmporteerd als een bovenliggende indeling van de **Peppol-verkoopfactuur** die voor import is geselecteerd.
 
-- Configuratie van ER-indeling **Peppol-verkoopfactuur** :
+- Configuratie van ER-indeling **Peppol-verkoopfactuur**:
 
     - Versie 11.2.2 bevat de ER-onderdelen voor indeling en indelingstoewijzing die zijn geconfigureerd om e-facturen te genereren in PEPPOL-indeling (Pan-European Public Procurement OnLine).
 
@@ -172,7 +171,7 @@ Controleer vervolgens of de volgende configuraties beschikbaar zijn in de config
 ## <a name="configure-the-legal-entity-parameters"></a><a name="ConfigureLE"></a>De parameters voor rechtspersonen configureren
 
 1. Ga naar **Organisatiebeheer** \> **Organisaties** \> **Rechtspersonen**.
-2. Voer voor het geselecteerde **DEMF** -bedrijf op het sneltabblad **Bankrekeninggegevens** in het veld **Routenummer** **1234** in.
+2. Voer voor het geselecteerde **DEMF**-bedrijf op het sneltabblad **Bankrekeninggegevens** in het veld **Routenummer** **1234** in.
 3. Selecteer **Opslaan**.
 4. Sluit de pagina **Rechtspersonen**.
 
@@ -311,7 +310,7 @@ Als gebruiker met de rol Functioneel consultant van elektronische rapportage kun
 5. Voer in het veld **Naam** **Factuurmodel (Litware)** in.
 6. Selecteer **Configuratie maken** om de nieuwe ER-configuratie toe te voegen.
 
-U kunt nu de ER-gegevensmodelontwerper gebruiken om versie 50.1 van de ER-configuratie **Factuurmodel (Litware)** in de status **Concept** -[status](general-electronic-reporting.md#component-versioning) te bewerken.
+U kunt nu de ER-gegevensmodelontwerper gebruiken om versie 50.1 van de ER-configuratie **Factuurmodel (Litware)** in de status **Concept**-[status](general-electronic-reporting.md#component-versioning) te bewerken.
 
 ![Versie 50.1 van de ER-configuratie op de pagina Configuraties](./media/er-quick-start3-added-custom-model.png)
 
@@ -429,7 +428,7 @@ Als gebruiker met de rol Functioneel consultant van elektronische rapportage kun
 
 ![Een configuratie van een aangepaste indeling op de pagina Configuraties toevoegen](./media/er-quick-start3-adding-custom-format.png)
 
-U kunt nu de ER Operations-ontwerper gebruiken om versie 11.2.2.1 van de ER-configuratie **Peppol-verkoopfactuur (Litware)** in de status **Concept** -[status](general-electronic-reporting.md#component-versioning) te bewerken.
+U kunt nu de ER Operations-ontwerper gebruiken om versie 11.2.2.1 van de ER-configuratie **Peppol-verkoopfactuur (Litware)** in de status **Concept**-[status](general-electronic-reporting.md#component-versioning) te bewerken.
 
 ![Versie 11.2.2.1 van de ER-configuratie op de pagina Configuraties](./media/er-quick-start3-added-custom-format.png)
 
@@ -540,23 +539,23 @@ Naast de geselecteerde ER-indeling **Peppol-verkoopfactuur** zijn de laatste ver
 
 Zorg ervoor dat de volgende ER-configuraties uiteindelijk beschikbaar zijn in de configuratiestructuur:
 
-- ER-gegevensmodelconfiguratie **Factuurmodel** :
+- ER-gegevensmodelconfiguratie **Factuurmodel**:
 
     - Versie 206 (of later) bevat versie 24 (of later) van het ER-onderdeel voor gegevensmodel waarmee de gegevensstructuur van het bedrijfsdomein voor facturering wordt vertegenwoordigd. Deze ER-configuratie is geïmporteerd als een voorganger van de laatst beschikbare configuratie van ER-modeltoewijzing **Toewijzing factuurmodel**.
 
     ![Versie 206 op de pagina Configuraties](./media/er-quick-start3-imported-solution2b1.png)
 
-- ER-gegevensmodelconfiguratie **Toewijzing factuurmodel** :
+- ER-gegevensmodelconfiguratie **Toewijzing factuurmodel**:
 
     - Versie 206.132 (of later) is geïmporteerd als de meest recente implementatie van versie 206 van de configuratie van het ER-gegevensmodel **Factuurmodel**. Het bevat verschillende ER-onderdelen voor modeltoewijzing waarmee wordt beschreven hoe het gegevensmodel tijdens de uitvoering wordt gevuld met toepassingsgegevens.
 
     ![Versie 206.132 op de pagina Configuraties](./media/er-quick-start3-imported-solution2b2.png)
 
-- Configuratie van ER-indeling **UBL-verkoopfactuur** :
+- Configuratie van ER-indeling **UBL-verkoopfactuur**:
 
     - Versie 32.6 bevat de ER-onderdelen voor indeling en indelingstoewijzing. Het onderdeel Indeling specificeert de rapportindeling. Het onderdeel voor indelingstoewijzing bevat de modelgegevensbron en geeft aan hoe deze gegevensbron wordt gebruikt om de rapportindeling tijdens de uitvoering in te vullen. Deze ER-indeling is geconfigureerd voor het genereren van e-facturen in UBL-indeling. Deze ER-indeling is geïmporteerd als een bovenliggende indeling van de **Peppol-verkoopfactuur** die voor import is geselecteerd.
 
-- Configuratie van ER-indeling **Peppol-verkoopfactuur** :
+- Configuratie van ER-indeling **Peppol-verkoopfactuur**:
 
     - Versie 32.6.7 bevat de ER-onderdelen voor indeling en indelingstoewijzing die zijn geconfigureerd om e-facturen te genereren in PEPPOL-indeling.
 
@@ -596,13 +595,13 @@ De status van versie 206.2 wordt gewijzigd van **Concept** in **Voltooid** en de
     ![Bericht over rebaseconflicten op de pagina Configuraties](./media/er-quick-start3-rebase-conflicts-model-mapping1.png)
 
 5. Selecteer **Ontwerper** in het actievenster en selecteer vervolgens **Klantfactuur** in de lijst met toewijzingen.
-6. Selecteer voor elk rebaseconflict **Eigen waarde behouden** , omdat u voor elk onderdeel dat is vermeld het versienummer van uw aangepaste gegevensmodel moet behouden.
+6. Selecteer voor elk rebaseconflict **Eigen waarde behouden**, omdat u voor elk onderdeel dat is vermeld het versienummer van uw aangepaste gegevensmodel moet behouden.
 
     ![Rebaseconflicten op de pagina Ontwerper modeltoewijzing](./media/er-quick-start3-rebase-conflicts-model-mapping2.png)
 
 7. Selecteer **Opslaan** en sluit de pagina **Ontwerper modeltoewijzing**.
 8. Selecteer **Projectfactuur** in de lijst met toewijzingen.
-9. Selecteer voor elk rebaseconflict **Eigen waarde behouden** , omdat u voor elk onderdeel dat is vermeld het versienummer van uw aangepaste gegevensmodel moet behouden.
+9. Selecteer voor elk rebaseconflict **Eigen waarde behouden**, omdat u voor elk onderdeel dat is vermeld het versienummer van uw aangepaste gegevensmodel moet behouden.
 10. Selecteer **Opslaan** en sluit de pagina **Modeltoewijzingen**.
 
     > [!NOTE]
@@ -626,7 +625,7 @@ De status van versie 206.132.2 wordt gewijzigd van **Concept** in **Voltooid** e
     U ziet dat er een aantal rebaseconflicten is ontdekt. U moet deze conflicten nu handmatig oplossen.
 
 5. Selecteer **Ontwerper** in het actievenster.
-6. Selecteer voor elk rebaseconflict **Eigen waarde behouden** , omdat u voor elk onderdeel dat is vermeld het versienummer van uw aangepaste gegevensmodel moet behouden.
+6. Selecteer voor elk rebaseconflict **Eigen waarde behouden**, omdat u voor elk onderdeel dat is vermeld het versienummer van uw aangepaste gegevensmodel moet behouden.
 7. Selecteer **Opslaan**.
 8. Selecteer de gegevensbron **Factuur** van het type **Model** op het tabblad **Toewijzing** en selecteer vervolgens **Bewerken**.
 9. Selecteer in het veld **Versie** **2** van uw aangepaste gegevensmodel en selecteer vervolgens **OK**.

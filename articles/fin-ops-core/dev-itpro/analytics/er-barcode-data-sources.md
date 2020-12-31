@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: c549a476f854ffcf962ffb62e430b459d3445734
-ms.sourcegitcommit: cc78f9bf585082ce65c2ab0b011ff62620fa883d
+ms.openlocfilehash: 3fb754267de1120bc3c086d49cb7c63028183bda
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4088192"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681419"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Gegevensbronnen voor streepjescodes gebruiken om streepjescode-afbeeldingen te genereren
 
@@ -69,11 +68,11 @@ Door een gegevensbron van het type **Streepjescode** te gebruiken, kunt u streep
 
 Wanneer u een gegevensbron voor een **Streepjescode** configureert, kunt u specifieke weergaveparameters definiëren die worden gebruikt om een afbeelding te genereren:
 
-- **Breedte** : geef de breedte van de streepjescode op in pixels. De waarde **0** (nul) geeft aan dat de standaardbreedte wordt gebruikt. De betekenis kan per indeling verschillen.
-- **Hoogte** : geef de hoogte van de streepjescode op in pixels. De waarde **0** (nul) geeft aan dat de standaardhoogte wordt gebruikt. De betekenis kan per indeling verschillen.
-- **Marge** : geef de grootte van de marge van de streepjescode op in pixels. De marge is het gebied aan beide zijden van een streepjescode dat vrij moet blijven (stille zone). De waarde **0** (nul) geeft aan dat de standaardmarge wordt gebruikt. De betekenis kan per indeling verschillen.
-- **Uitvoerinhoud** : stel de waarde in op **Ja** om een streepjescode-afbeelding te maken die de gecodeerde informatie als tekst bevat. De standaardwaarde is **Nee**.
-- **Codering** : geef het type tekens op dat is gecodeerd in de gegenereerde afbeelding van de streepjescode. Standaard wordt de **UTF-8** -codering gebruikt.
+- **Breedte**: geef de breedte van de streepjescode op in pixels. De waarde **0** (nul) geeft aan dat de standaardbreedte wordt gebruikt. De betekenis kan per indeling verschillen.
+- **Hoogte**: geef de hoogte van de streepjescode op in pixels. De waarde **0** (nul) geeft aan dat de standaardhoogte wordt gebruikt. De betekenis kan per indeling verschillen.
+- **Marge**: geef de grootte van de marge van de streepjescode op in pixels. De marge is het gebied aan beide zijden van een streepjescode dat vrij moet blijven (stille zone). De waarde **0** (nul) geeft aan dat de standaardmarge wordt gebruikt. De betekenis kan per indeling verschillen.
+- **Uitvoerinhoud**: stel de waarde in op **Ja** om een streepjescode-afbeelding te maken die de gecodeerde informatie als tekst bevat. De standaardwaarde is **Nee**.
+- **Codering**: geef het type tekens op dat is gecodeerd in de gegenereerde afbeelding van de streepjescode. Standaard wordt de **UTF-8**-codering gebruikt.
 
 > [!IMPORTANT]
 > Wanneer u een nieuwe gegevensbron voor een **Streepjescode** toevoegt, moet u deze onder een ander item (container) plaatsen als een genest element.
@@ -176,7 +175,7 @@ Download ook het volgende Excel-bestand dat de gewijzigde sjabloon bevat voor de
 
 #### <a name="apply-a-new-check-template"></a><a name="ExampleModifyFormatApplyTemplate"></a>Een nieuwe chequesjabloon toepassen
 
-U kunt de Excel-bureaubladtoepassing gebruiken om het bestand **Cheque template Excel.xlsx** te openen dat u eerder hebt geïmporteerd. Deze sjabloon wijkt af van de sjabloon die u hebt gebruikt om een betaalcheque te genereren in de geleverde oplossing. Daarnaast bevat het een **AmountBarcode** -element voor de streepjescode-afbeelding.
+U kunt de Excel-bureaubladtoepassing gebruiken om het bestand **Cheque template Excel.xlsx** te openen dat u eerder hebt geïmporteerd. Deze sjabloon wijkt af van de sjabloon die u hebt gebruikt om een betaalcheque te genereren in de geleverde oplossing. Daarnaast bevat het een **AmountBarcode**-element voor de streepjescode-afbeelding.
 
 ![AmountBarcode-element in de Excel-sjabloon](./media/er-barcode-data-source-cheque2.png)
 
@@ -192,7 +191,7 @@ U moet nu de ER-oplossing wijzigen en vervolgens de gewijzigde sjabloon [opnieuw
     ![Binding van celopmaakelementen aan gegevensbronnen koppelen in de ER Operations-ontwerper](./media/er-barcode-data-source-cells-bound.png)
 
 7. Selecteer het tabblad **Opmaak** aan de rechterkant van de pagina.
-8. Selecteer in het actievenster het weglatingsteken ( **...** ) en selecteer **Importeren**.
+8. Selecteer in het actievenster het weglatingsteken (**...**) en selecteer **Importeren**.
 9. Selecteer in de groep **Importeren** de optie **Bijwerken vanuit Excel** en selecteer vervolgens **Sjabloon bijwerken**.
 10. Blader in het dialoogvenster naar het bestand **Cheque template Excel.xlsx** dat op uw computer is opgeslagen, selecteer het bestand en selecteer **OK** om te bevestigen dat de geselecteerde sjabloon moet worden toegepast.
 11. Selecteer het tabblad **Toewijzing** aan de rechterkant van de pagina en selecteer vervolgens **Uitvouwen/samenvouwen** in het venster met de opmaakstructuur.

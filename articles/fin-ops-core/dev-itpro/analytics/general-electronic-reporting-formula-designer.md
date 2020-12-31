@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14539ed6c00915b7d59a5a3c4870ab6d1a96ad95
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: d96fe041fd0ffb292909c1e724068efebe0184b9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3002515"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682644"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>Formuleontwerper in elektronische rapportage (ER)
 
@@ -51,7 +50,7 @@ U kunt de pagina **Formuleontwerper** openen wanneer u een van de volgende hande
 - De definitie van de voorwaarden voor procescontrolevalidaties.
 - De definitie van de berichttekst voor procescontrolevalidaties.
 
-## <a name="Binding"></a>Gegevensbinding
+## <a name="data-binding"></a><a name="Binding"></a>Gegevensbinding
 
 De ER-formuleontwerper kan worden gebruikt om een expressie te definiëren voor de transformatie van gegevens die worden ontvangen van gegevensbronnen, zodat de gegevens tijdens runtime op de volgende manieren in de gegevensconsument kunnen worden ingevoerd:
 
@@ -69,7 +68,7 @@ De volgende afbeelding toont hoe een expressie van dit type kan worden gebruikt.
 
 Tijdens runtime rondt de ontworpen formule, `ROUND (Intrastat.AmountMST, 2)`, de waarde van het veld **AmountMST** voor elke record in de Intrastat-tabel af op twee decimalen. Vervolgens wordt de afgeronde waarde ingevoerd in het onderdeel **Transaction.InvoicedAmount** van het gegevensmodel **Btw-aangifte**.
 
-## <a name="Transformation"></a>Gegevensnotatie
+## <a name="data-formatting"></a><a name="Transformation"></a>Gegevensnotatie
 
 De ER-formuleontwerper kan worden gebruikt om een expressie te definiëren voor de opmaak van gegevens die worden ontvangen van gegevensbronnen, zodat de gegevens kunnen worden verzonden als onderdeel van het genererende elektronische document. U hebt wellicht opmaak die moet worden toegepast als een normale regel die opnieuw moet worden gebruikt voor een indeling. U kunt in dit geval die opmaak één keer in de indelingsconfiguratie introduceren als een benoemde transformatie die een opmaakexpressie heeft. Deze benoemde transformatie kan vervolgens worden gekoppeld aan vele indelingscomponenten waarvan de uitvoer moet worden opgemaakt volgens de opmaakexpressie die u hebt gemaakt.
 
@@ -87,7 +86,7 @@ Als u een opmaak hebt die afzonderlijk moet worden toegepast, kan deze opmaak al
 
 [![Opmaak toepassen op een afzonderlijke component](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
-## <a name="Validation"></a>Processtroombeheer
+## <a name="process-flow-control"></a><a name="Validation"></a>Processtroombeheer
 
 De ER-formuleontwerper kan worden gebruikt om expressies te definiëren die de processtroom beheren voor het genereren van elektronische documenten. U kunt de volgende taken uitvoeren:
 
@@ -112,7 +111,7 @@ De ER-formuleontwerper kan ook worden gebruikt om een bestandsnaam te genereren 
 
 [![Processtroombeheer](./media/picture-file-control.jpg)](./media/picture-file-control.jpg)
 
-## <a name="Enabled"></a>Besturingselement voor documentinhoud
+## <a name="document-content-control"></a><a name="Enabled"></a>Besturingselement voor documentinhoud
 
 U kunt de ER-formuleontwerper gebruiken om expressies te configureren die bepalen welke gegevens tijdens runtime in gegenereerde elektronische documenten worden geplaatst. De expressies kunnen de uitvoer van specifieke elementen van de indeling inschakelen of uitschakelen, afhankelijk van de verwerking van gegevens en de geconfigureerde logica. Deze expressies kunnen worden ingevoerd voor één opmaakelement in het veld **Ingeschakeld** op het tabblad **Toewijzing** van de pagina **Operations-ontwerper**. U de expressies invoeren als een logische voorwaarde die een *Booleaanse* waarde retourneert:
 
@@ -139,7 +138,7 @@ De volgende afbeelding toont expressies van dit type. (Versie 11.12.11 van de **
 > 
 > Op basis van deze instelling bevat het gegenereerde bericht voor alle debiteurenbetalingen het XML-element **Ustrd**, de tekst van de betalingsnotities of, wanneer deze tekst leeg is, een door komma's gescheiden lijst met factuurnummers die worden gebruikt om de betaling te vereffenen.
 
-## <a name="TestFormula"></a>Validatie van geconfigureerde formules
+## <a name="validation-of-configured-formulas"></a><a name="TestFormula"></a>Validatie van geconfigureerde formules
 
 Selecteer op de pagina **Formuleontwerper** de optie **Testen** om te valideren hoe de geconfigureerde formule werkt.
 

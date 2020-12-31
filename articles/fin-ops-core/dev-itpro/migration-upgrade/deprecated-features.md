@@ -10,23 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1d14003ff7595ceaa78b42f69cf1927fbd8157d
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040117"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679951"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Verwijderde of afgeschafte functies in eerdere releases
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!IMPORTANT]
 > Dit onderwerp wordt niet meer bijgewerkt. Als u een actuele lijst met functies wilt weergeven die zijn verwijderd of afgeschaft in Finance and Operations-apps, zoekt u naar de inhoud **Verwijderde of afgeschafte functies** die betrekking heeft op de app die u gebruikt.
@@ -179,13 +180,13 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Status**                         | Afgeschaft: vanaf april 2020 wordt de verbeterde filterervaring "is één van" het standaardgedrag zonder een mechanisme om terug te keren naar het oude gedrag. |
 
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>Parameter om verkooporders met meerdere financieringsbronnen van projectcontracten in te schakelen
-Ondersteuning voor het maken van projectgebaseerde verkooporders waarbij het projectcontract meerdere financieringsbronnen heeft, is ingeschakeld met de **Parameters voor projectbeheer** -instelling **Verkooporders voor projecten met meerdere financieringsbronnen toestaan**. Deze parameter is standaard niet ingeschakeld. 
+Ondersteuning voor het maken van projectgebaseerde verkooporders waarbij het projectcontract meerdere financieringsbronnen heeft, is ingeschakeld met de **Parameters voor projectbeheer**-instelling **Verkooporders voor projecten met meerdere financieringsbronnen toestaan**. Deze parameter is standaard niet ingeschakeld. 
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De functionaliteit wordt altijd ingeschakeld nadat de parameter is verwijderd. |
 | **Vervangen door een andere functie?**   | Nr. De functionaliteit om projectgebaseerde verkooporders met meerdere financieringsbronnen te ondersteunen, wordt altijd ingeschakeld.   |
-| **Betrokken productgebieden**         |De parameter **Verkooporders voor projecten met meerdere financieringsbronnen** wordt verwijderd. De volgende methoden worden gewijzigd wanneer de parameter wordt verwijderd: de methode **ctrlSalesOrderTable** in de klasse **ProjStatusType** , de methode **validate** voor het veld **ProjId** en de methode **run** in het formulier **SalescreateOrder**. De volgende methoden worden afgeschaft wanneer de parameter wordt verwijderd: **IsSalesOrderAllowedForMultipleFundingSources** in tabelbestand **ProjTable** , de methode **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** in tabelbestand **ProjTable** , het gegevensveld **AllowSalesOrdersForMultipleFundingSources** in het formulier **ProjParameters** en **ProjParameterEntity** -bestanden, de persoonlijke methode **IsAssociatedToMultipleFundingSourcesContract** in het tabelbestand **ProjTable**. |
+| **Betrokken productgebieden**         |De parameter **Verkooporders voor projecten met meerdere financieringsbronnen** wordt verwijderd. De volgende methoden worden gewijzigd wanneer de parameter wordt verwijderd: de methode **ctrlSalesOrderTable** in de klasse **ProjStatusType**, de methode **validate** voor het veld **ProjId** en de methode **run** in het formulier **SalescreateOrder**. De volgende methoden worden afgeschaft wanneer de parameter wordt verwijderd: **IsSalesOrderAllowedForMultipleFundingSources** in tabelbestand **ProjTable**, de methode **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** in tabelbestand **ProjTable**, het gegevensveld **AllowSalesOrdersForMultipleFundingSources** in het formulier **ProjParameters** en **ProjParameterEntity**-bestanden, de persoonlijke methode **IsAssociatedToMultipleFundingSourcesContract** in het tabelbestand **ProjTable**. |
 | **Implementatieoptie**              | Alle  |
 | **Status**                         | Afschaffinf is gepland voor rijving is voor de releasewave van april 2020. |
 
@@ -266,7 +267,7 @@ Ingesloten prestatie-indicatoren (KPI's) kunnen worden gemodelleerd in Visual St
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Het is mogelijk dat tabelmetagegevensdefinities veldgroepen bevatten met verwijzingen naar ongeldige veldverwijzingen. Bij implementatie kan dit probleem runtime-fouten veroorzaken in de financiële rapportage en SQL Server Reporting Services (SSRS). Dit probleem wordt momenteel geclassificeerd als een *compilerwaarschuwing* in plaats van een *fout* , wat betekent dat het implementeerbare pakket kan worden gemaakt en geïmplementeerd zonder dat het probleem wordt opgelost. Ga als volgt te werk om dit probleem op te lossen:<br><br>1. Verwijder de ongeldige veldverwijzing uit de groepsdefinitie van het tabelveld.<br><br>2. Compileer opnieuw.<br><br>3. Zorg ervoor dat eventuele waarschuwingen of fouten worden opgelost. |
+| **Reden voor afschaffing/verwijdering** | Het is mogelijk dat tabelmetagegevensdefinities veldgroepen bevatten met verwijzingen naar ongeldige veldverwijzingen. Bij implementatie kan dit probleem runtime-fouten veroorzaken in de financiële rapportage en SQL Server Reporting Services (SSRS). Dit probleem wordt momenteel geclassificeerd als een *compilerwaarschuwing* in plaats van een *fout*, wat betekent dat het implementeerbare pakket kan worden gemaakt en geïmplementeerd zonder dat het probleem wordt opgelost. Ga als volgt te werk om dit probleem op te lossen:<br><br>1. Verwijder de ongeldige veldverwijzing uit de groepsdefinitie van het tabelveld.<br><br>2. Compileer opnieuw.<br><br>3. Zorg ervoor dat eventuele waarschuwingen of fouten worden opgelost. |
 | **Vervangen door een andere functie?**   | Deze waarschuwing wordt in de toekomst vervangen door een compilatiefout. |
 | **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
 | **Implementatieoptie**              | Alle |
@@ -374,12 +375,12 @@ Deze twee rapporten worden niet meer ondersteund in Finance and Operations. In p
 | **Status**                       | Afgeschaft: de menu-items voor de twee rapporten zijn verwijderd in versie 7.3. De code voor de rapporten blijft echter in het product. Het plan is om de code in een toekomstige versie te verwijderen. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Power BI-inhoudspakketten beschikbaar op AppSource
-De inhoudspakketten **Kostenbeheer** , **Financiële prestaties** en **Prestaties detailhandelafzetkanaal** , die beschikbaar zijn op de site [Microsoft AppSource](https://appsource.microsoft.com), zijn afgeschaft als gevolg van productupdates in Microsoft Power BI. Systeembeheerformulieren voor het implementeren van deze inhoudpakketten op PowerBI.com worden ook afgeschaft in Finance and Operations.
+De inhoudspakketten **Kostenbeheer**, **Financiële prestaties** en **Prestaties detailhandelafzetkanaal**, die beschikbaar zijn op de site [Microsoft AppSource](https://appsource.microsoft.com), zijn afgeschaft als gevolg van productupdates in Microsoft Power BI. Systeembeheerformulieren voor het implementeren van deze inhoudpakketten op PowerBI.com worden ook afgeschaft in Finance and Operations.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Productupdates in Microsoft Power BI. |
-| **Vervangen door een andere functie?**   | De inhoudspakketten **Kostenbeheer** , **Financiële prestaties** en **Prestaties detailhandelafzetkanaal** , beschikbaar op de site [AppSource](https://appsource.microsoft.com), worden vervangen door analytische toepassingen die oplossingsintegratie op databaseniveau mogelijk maken. Zie [Ingesloten Power BI in werkruimten](../../dev-itpro/analytics/embed-power-bi-workspaces.md) voor meer informatie over analytische toepassingen.    |
+| **Vervangen door een andere functie?**   | De inhoudspakketten **Kostenbeheer**, **Financiële prestaties** en **Prestaties detailhandelafzetkanaal**, beschikbaar op de site [AppSource](https://appsource.microsoft.com), worden vervangen door analytische toepassingen die oplossingsintegratie op databaseniveau mogelijk maken. Zie [Ingesloten Power BI in werkruimten](../../dev-itpro/analytics/embed-power-bi-workspaces.md) voor meer informatie over analytische toepassingen.    |
 | **Betrokken productgebieden**         | Kostenbeheer, Finance en Retail                                                                                               |
 | **Implementatieoptie**              | Alleen cloud (integratie met PowerBI.com wordt niet ondersteund in on-premises implementaties.)                                                                                                            |
 | **Status**                         | Afgeschaft: de verwijdering van de functionaliteit staat gepland voor het tweede kwartaal van 2018.    |
@@ -712,7 +713,7 @@ Salarisgegevens in Human Resources
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Deze functionaliteit is vervangen door basispagina´s van Salarisadministratie en Human Resources.  |
-| **Vervangen door een andere functie?**   | **Vergoedingen** , **Inkomsten** en andere gerelateerde pagina's die eerder deel uitmaakten van Salaris VS, zijn opnieuw geconfigureerd en maken nu deel uit van de basisconfiguratie van Human Resources en helpen externe loonlijstverwerking te ondersteunen. Deze functionaliteit is toegankelijk door de configuratiesleutel **Human Resources 1** \> **Salaris** te gebruiken. |
+| **Vervangen door een andere functie?**   | **Vergoedingen**, **Inkomsten** en andere gerelateerde pagina's die eerder deel uitmaakten van Salaris VS, zijn opnieuw geconfigureerd en maken nu deel uit van de basisconfiguratie van Human Resources en helpen externe loonlijstverwerking te ondersteunen. Deze functionaliteit is toegankelijk door de configuratiesleutel **Human Resources 1** \> **Salaris** te gebruiken. |
 | **Betrokken productgebieden**         | Human Resources, Salaris   |
 | **Status**                         | Verwijderd sinds Dynamics 365 for Operations-versie 1611.    |
 
@@ -847,7 +848,7 @@ Een workflow voor het beheren van het maken van werknemerdoelstellingen is een v
 
 ### <a name="aif-axd-and-axbc-integrations"></a>Integraties met AIF, AxD en AxBC
 
-In Application Integration Framework (AIF) kunnen gegevens worden uitgewisseld met externe systemen door bedrijfslogica die als services beschikbaar is. Dynamics AX bevat services die op documenten en .NET Business Connector (AxBC) zijn gebaseerd. Een document wordt gemaakt door XML te gebruiken. De XML bevat koptekstinformatie die wordt toegevoegd om een *bericht* te maken dat naar of uit Dynamics AX kan worden overgebracht. Voorbeelden van documenten zijn verkooporders en inkooporders. Bijna elke entiteit, zoals een klant, kan echter door een document worden weergegeven. Services die op documenten zijn gebaseerd, gebruiken de **Axd \<Document\>** -klassen.
+In Application Integration Framework (AIF) kunnen gegevens worden uitgewisseld met externe systemen door bedrijfslogica die als services beschikbaar is. Dynamics AX bevat services die op documenten en .NET Business Connector (AxBC) zijn gebaseerd. Een document wordt gemaakt door XML te gebruiken. De XML bevat koptekstinformatie die wordt toegevoegd om een *bericht* te maken dat naar of uit Dynamics AX kan worden overgebracht. Voorbeelden van documenten zijn verkooporders en inkooporders. Bijna elke entiteit, zoals een klant, kan echter door een document worden weergegeven. Services die op documenten zijn gebaseerd, gebruiken de **Axd \<Document\>**-klassen.
 
 |  &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -1157,12 +1158,12 @@ Het genereren van voorafmeldingen kan niet worden uitgevoerd door een batch te g
 
 ### <a name="gl-ssrs-reports"></a>GL SSRS-rapporten
 
-Rapporten die de volgende menu-items bevatten, zijn verwijderd: **Proefbalans overzicht** , **Gedetailleerde proefbalans** , **Rekeningschema** , **Audittrail** , **Saldi** en **Saldilijst**.
+Rapporten die de volgende menu-items bevatten, zijn verwijderd: **Proefbalans overzicht**, **Gedetailleerde proefbalans**, **Rekeningschema**, **Audittrail**, **Saldi** en **Saldilijst**.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Financiële rapporten van Microsoft SQL Server Reporting Services (SSRS) zijn vervangen door de mogelijkheden en standaardrapporten van Management Reporter. |
-| **Vervangen door een andere functie?**   | Management Reporter (in de huidige versie van Dynamics AX aangeduid als **Financiële rapportage** )    |
+| **Vervangen door een andere functie?**   | Management Reporter (in de huidige versie van Dynamics AX aangeduid als **Financiële rapportage**)    |
 | **Betrokken productgebieden**         | Grootboek   |
 | **Status**                         | Verwijderd sinds Dynamics AX 7.0.   |
 

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26a912aa2002f1d60dd650248bd3c68e45e68596
-ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
+ms.openlocfilehash: 7934f36877247460ec843201a08d4670456889f9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3810662"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679697"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Meertalige rapporten ontwerpen in Elektronische rapportage
 
@@ -204,8 +203,8 @@ Met de ingebouwde ER-functie [LISTOFFIELDS](er-functions-list-listoffields.md) h
 
 Zoals eerder in dit onderwerp is beschreven, kunnen de kenmerken **Label** en **Beschrijving** van de ER-opsommingswaarde van elk [model](#LinkModelEnum) of elke [indeling](#LinkFormatEnum) worden gekoppeld aan een ER-label dat toegankelijk is in het desbetreffende ER-onderdeel. U kunt een ER-expressie configureren waarbij u de functie **LISTOFFIELDS** aanroept door de ER-opsomming als argument te gebruiken. Met deze expressie wordt een lijst geretourneerd die een record bevat voor elke waarde van een ER-opsomming die is gedefinieerd als een argument van deze functie. Elke record bevat de waarde van een ER-label dat is gekoppeld aan een ER-opsommingswaarde:
 
-- De waarde van een ER-label die is gekoppeld aan de **label**kenmerken, wordt opgeslagen in het veld **Label** van de geretourneerde record.
-- De waarde van een ER-label die is gekoppeld aan de **beschrijvings**kenmerken, wordt opgeslagen in het veld **Beschrijving** van de geretourneerde record.
+- De waarde van een ER-label die is gekoppeld aan de **label** kenmerken, wordt opgeslagen in het veld **Label** van de geretourneerde record.
+- De waarde van een ER-label die is gekoppeld aan de **beschrijvings** kenmerken, wordt opgeslagen in het veld **Beschrijving** van de geretourneerde record.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

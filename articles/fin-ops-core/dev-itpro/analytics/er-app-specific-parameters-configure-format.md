@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, EROperationDesigner, ERLookupDesigner, ERComponentLookupStructureEditing
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: d32da76ee46ff5293ae8fefb16d251564b6be21a
-ms.sourcegitcommit: d6196d83c7b9166ddb4fe43a91e6bd0ad9da2099
+ms.openlocfilehash: 0ed1442403ae82dfc820212e3e235737f37f21a4
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "2694241"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679721"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>ER-indelingen configureren om parameters te gebruiken die per rechtspersoon worden opgegeven
 
@@ -89,7 +88,7 @@ In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc
 
     ![Pagina voor ER Operations-ontwerper](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
-    Het berekende veld **Model.Data.Summary.Level** is zo geconfigureerd dat het een ER-expressie bevat. Opmerking: de btw-codes (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD**en **InVAT0**) zijn in de code vastgelegd in deze configuratie. Deze ER-indeling is daarom afhankelijk van de rechtspersoon waar deze btw-codes zijn geconfigureerd.
+    Het berekende veld **Model.Data.Summary.Level** is zo geconfigureerd dat het een ER-expressie bevat. Opmerking: de btw-codes (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** en **InVAT0**) zijn in de code vastgelegd in deze configuratie. Deze ER-indeling is daarom afhankelijk van de rechtspersoon waar deze btw-codes zijn geconfigureerd.
 
     ![Pagina voor ER Operations-ontwerper](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 

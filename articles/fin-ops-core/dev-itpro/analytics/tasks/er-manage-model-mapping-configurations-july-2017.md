@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8ff3b419caafec626497c65ea18ca24ca95cb5d
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143048"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684422"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>ER-modeltoewijzing in afzonderlijke ER-configuraties beheren
 
@@ -59,14 +58,14 @@ Omdat ER-configuraties worden gedeeld tussen bedrijven, kunt u deze taakbegeleid
 18. Klik op Voltooien.
 19. Klik op OK.
 
-## <a name="add-a-new-er-model-mapping-configuration"></a>Een nieuwe ER-modelgegevensmodelconfiguratie toevoegen
+## <a name="add-a-new-er-model-mapping-configuration"></a>Een nieuwe ER-modeltoewijzingsconfiguratie toevoegen
 1. Klik op Configuratie maken om het dialoogvenster voor beëindigen te openen.
 2. Voer in het veld Nieuw 'Modeltoewijzing gebaseerd op gegevensmodel Voorbeeldgegevensmodel' in.
 3. Typ 'Voorbeeldtoewijzing' in het veld Naam.
     * Voorbeeldtoewijzing  
 4. Klik op Configuratie maken.
 5. Vouw de sectie Vereisten uit.
-    * Houd er rekening mee dat de groep implementatievereisten automatisch is toegevoegd. De groep bevat de vereiste component die verwijst naar de bovenliggende gegevensmodelconfiguratie en is gemarkeerd als Implementatie. Dit betekent dat deze voorbeeldmodeltoewijzingsconfiguratie wordt beschouwd als de implementatie van het gegevensmodel, Voorbeeldgegevensmodel. Dit onderdeel dwingt ER daarom de modeltoewijzingsconfiguratie, Voorbeeldtoewijzing, te downloaden uit een ER-opslagplaats wanneer de modelconfiguratie, Voorbeeldgegevensmodel, wordt gedownload.   
+    * De groep implementatievereisten is automatisch toegevoegd. De groep bevat de vereiste component die verwijst naar de bovenliggende gegevensmodelconfiguratie en is gemarkeerd als Implementatie. Dit betekent dat dit voorbeeld van een modeltoewijzingsconfiguratie wordt beschouwd als de implementatie van het gegevensmodel, Voorbeeldgegevensmodel. Dit onderdeel dwingt ER daarom de modeltoewijzingsconfiguratie, Voorbeeldtoewijzing, te downloaden uit een ER-opslagplaats wanneer de modelconfiguratie, Voorbeeldgegevensmodel, wordt gedownload.   
 6. Klik op Ontwerper.
     * De gemaakte modeltoewijzingsconfiguratie bevat een nieuwe lege toewijzing met dezelfde naam als de gemaakte configuratie. Wanneer een geselecteerde bovenliggende modelconfiguratie modeltoewijzingen bevat, worden deze naar een nieuwe modeltoewijzingsconfiguratie gekopieerd.   
 7. Klik op Ontwerper.
@@ -153,12 +152,12 @@ Omdat ER-configuraties worden gedeeld tussen bedrijven, kunt u deze taakbegeleid
 ## <a name="use-an-existing-er-model-mapping-configuration"></a>Een bestaande ER-modeltoewijzingsconfiguratie gebruiken
 1. Selecteer in de structuur 'Voorbeeldgegevensmodel\Voorbeeldindeling'.
 2. Klik op Uitvoeren.
-    * Houd er rekening mee dat de geselecteerde conceptversie van de ER-indelingsconfiguratie kan niet worden uitgevoerd omdat er meer dan één modeltoewijzingsconfiguratie beschikbaar is voor het niet-gedefinieerde gegevensmodel dat is geselecteerd als de gegevensbron van de lopende ER-indeling.   
+    * De geselecteerde conceptversie van de ER-indelingsconfiguratie kan niet worden uitgevoerd omdat er meer dan één modeltoewijzingsconfiguratie beschikbaar is voor het niet-gedefinieerde gegevensmodel dat is geselecteerd als de gegevensbron van de lopende ER-indeling.   
     * Vervolgens definieert u de alternatieve modeltoewijzingsconfiguratie als de configuratie waaruit modeltoewijzingen worden gebruikt als gegevensbronnen voor het uitvoeren van de ER-indeling.   
 3. Selecteer in de structuur 'Voorbeeldgegevensmodel\Voorbeeldtoewijzing (alternatief)'.
 4. Selecteer in het veld Standaard voor modeltoewijzing de waarde Ja.
 5. Selecteer in de structuur 'Voorbeeldgegevensmodel\Voorbeeldindeling'.
 6. Klik op Uitvoeren.
 7. Klik op OK.
-    * Houd er rekening mee dat de standaardmodeltoewijzingsconfiguratie door deze indelingsconfiguratie wordt gebruikt voor het genereren van het elektronische document (de gemaakte uitvoer bevat de bedrijfscode).  
+    * De standaardmodeltoewijzingsconfiguratie wordt door deze indelingsconfiguratie gebruikt voor het genereren van het elektronische document (de gemaakte uitvoer bevat de bedrijfscode).  
 

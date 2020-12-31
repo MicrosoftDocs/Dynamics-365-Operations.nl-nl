@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6cdfbbd7d4f41503e97620b8738679ad572b2a4a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: d89922bd10b6db17d3fee22409137d6ec966858b
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771232"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682818"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Gegenereerde rapportresultaten traceren en vergelijken met basislijnwaarden
 
@@ -70,7 +69,7 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst in RCS de stappen
 
     ![Het tabblad Bijlagen van de pagina Parameters van elektronische rapportage](media/GER-BaselineSample-ERParameters.PNG "Schermafbeelding van de pagina Parameters van elektronische rapportage")
 
-3. Selecteer **Opslaan**en sluit de pagina **Parameters van elektronische rapportage**.
+3. Selecteer **Opslaan** en sluit de pagina **Parameters van elektronische rapportage**.
 
 ### <a name="add-a-new-er-model-configuration"></a>Een nieuwe ER-modelconfiguratie toevoegen
 
@@ -187,7 +186,7 @@ De basislijn wordt toegevoegd voor de indeling **Indeling voor leren van ER-basi
 
 1. Selecteer op de pagina **Basislijnen voor ER-indeling** in het actievenster de knop **Bijlagen** (de paperclip).
 2. Selecteer **Nieuw** \> **Bestand** in het actievenster. In de ER-parameters moet het documenttype **Bestand** eerder zijn geselecteerd als het documenttype dat wordt gebruikt voor de opslag van basislijnbestanden.
-3. Selecteer **Bladeren**en selecteer de het bestand **out.Admin.xml** dat is gegenereerd toen u de geconfigureerde ER-indeling eerder uitvoerde.
+3. Selecteer **Bladeren** en selecteer de het bestand **out.Admin.xml** dat is gegenereerd toen u de geconfigureerde ER-indeling eerder uitvoerde.
 
     ![De pagina Bijlagen](media/GER-BaselineSample-UploadBaselineFile.PNG "Schermafbeelding van de pagina Bijlagen")
 

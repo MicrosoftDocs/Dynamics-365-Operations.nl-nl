@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: d4ea1d81b0e4f92974ceb7d46386c9d9f6e48979
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2248998"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683403"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Mobiel werkgebied Goedkeuring van facturen
 
@@ -63,7 +62,7 @@ Voordat u dit mobiele werkgebied kunt gebruiken, moet aan de volgende voorwaarde
 
 ## <a name="download-and-install-the-mobile-app"></a>De mobiele app downloaden en installeren
 
-Download en installeer de mobiele app van Finance and Operations:
+Download en installeer de mobiele Finance and Operations-app:
 
 -   [Voor Android-telefoons](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Voor iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -71,7 +70,7 @@ Download en installeer de mobiele app van Finance and Operations:
 ## <a name="sign-in-to-the-mobile-app"></a>Aanmelden bij de mobiele app
 
 1.  Start de app op uw mobiele apparaat.
-2.  Voer uw URL voor Microsoft Dynamics365 in.
+2.  Voer uw URL voor Microsoft Dynamics 365 in.
 3.  De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren. Voer uw referenties in.
 4.  Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven. Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.
 

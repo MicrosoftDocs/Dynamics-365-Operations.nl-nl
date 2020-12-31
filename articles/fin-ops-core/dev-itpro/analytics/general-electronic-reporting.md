@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d050bfa5b28219ef421dba4ed3a72f11bfd4daee
-ms.sourcegitcommit: 7816902b59aa61d9183d54b50a86e282661e3971
+ms.openlocfilehash: e40aa168c296af86721862d1751212d16d47bd49
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2020
-ms.locfileid: "3421650"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682594"
 ---
 # <a name="electronic-reporting-er-overview"></a>Overzicht van elektronische rapportage (ER)
 
@@ -201,7 +200,7 @@ Vereiste opslagplaatsen voor **LCS-project**, **Bestandssysteem** en **Regulator
 
 ER biedt een modelontwerper waarmee u een gegevensmodel kunt maken voor een bepaald bedrijfsdomein. Alle domeinspecifieke bedrijfsentiteiten, en de relaties hiertussen, kunnen als een hiërarchische structuur worden voorgesteld in een gegevensmodel. 
 
-Speel de taakbegeleiding **ER Ontwerp domeinspecifiek gegevensmodel** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario.
+Speel de taakbegeleiding **ER Ontwerp domeinspecifiek gegevensmodel** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario).
 
 ### <a name="translating-data-model-content"></a>Inhoud van gegevensmodel vertalen
 
@@ -214,7 +213,7 @@ De inhoud van een gegevensmodel (labels en omschrijvingen) kan worden vertaald i
 
 ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen kunnen toewijzen die zij hebben ontworpen voor specifieke toepassingsgegevensbronnen. Op basis van de toewijzing worden de gegevens geïmporteerd tijdens de uitvoering vanuit de geselecteerde gegevensbronnen in het gegevensmodel. Het gegevensmodel wordt vervolgens gebruikt als een abstracte gegevensbron van ER-indelingen die uitgaande elektronische documenten genereren. 
 
-Speel de taakbegeleidingen **ER Definieer modeltoewijzing en selecteer gegevensbronnen** en **ER Wijs gegevensmodel toe aan geselecteerde gegevensbronnen** (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** af om uzelf vertrouwd te maken met de details van dit scenario.
+Speel de taakbegeleidingen **ER Definieer modeltoewijzing en selecteer gegevensbronnen** en **ER Wijs gegevensmodel toe aan geselecteerde gegevensbronnen** (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** af om uzelf vertrouwd te maken met de details van dit scenario).
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Gegevensmodeltoewijzingen voor inkomende documenten configureren
 ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen kunnen toewijzen die zij hebben ontworpen voor specifieke bestemmingen. Gegevensmodellen kunnen bijvoorbeeld worden toegewezen aan de bewerkbare gegevenscomponenten, zoals tabellen, gegevensentiteiten en weergaven. Op basis van de toewijzing worden de gegevens bijgewerkt tijdens de uitvoering met de gegevens uit het gegevensmodel. Als abstracte opslag van de ER-indeling wordt het gegevensmodel gevuld met gegevens die worden geïmporteerd vanuit een inkomend elektronisch document. 
@@ -223,19 +222,19 @@ ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen 
 
 ER kan een ontworpen gegevensmodel samen met gekoppelde gegevenstoewijzingen opslaan als een modelconfiguratie van het huidige exemplaar. In de volgende afbeelding wordt een voorbeeld getoond van dit type gegevensmodelconfiguratie (de configuratie van het betalingsmodel).
 
-Speel de taakbegeleiding **ER Wijs gegevensmodel toe aan geselecteerde gegevensbronnen** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario.
+Speel de taakbegeleiding **ER Wijs gegevensmodel toe aan geselecteerde gegevensbronnen** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario).
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Een indeling maken die een gegevensmodel als basis gebruikt
 
 ER ondersteunt een indelingsontwerper die u kunt gebruiken om de indeling van een elektronisch document te maken voor een geselecteerd bedrijfsdomein door het modelonderdeel als basis te selecteren. Dezelfde ER-indelingsontwerper stelt u in staat een indeling als gegevensbron toe te wijzen die u maakt voor de gegevensmodeltoewijzing van een geselecteerd domein. 
 
-Speel de taakbegeleiding **ER Ontwerp domeinspecifieke indeling** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario.
+Speel de taakbegeleiding **ER Ontwerp domeinspecifieke indeling** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario).
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format"></a>Een configuratie bouwen voor het genereren van elektronische documenten in OPENXML-werkbladindeling
 
 De ER-indelingsontwerper kan worden gebruikt om een bepaald elektronisch document te maken in OPENXML-werkbladindeling. 
 
-Speel de taakbegeleiding **ER Een configuratie maken voor het genereren van rapporten in OPENXML-indeling** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario. Als onderdeel van de taakbegeleidingsstap voor het importeren van een sjabloon, gebruikt u het Excel-bestand [Sjabloon van betalingsrapport (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) als sjabloon.
+Speel de taakbegeleiding **ER Een configuratie maken voor het genereren van rapporten in OPENXML-indeling** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario). Als onderdeel van de taakbegeleidingsstap voor het importeren van een sjabloon, gebruikt u het Excel-bestand [Sjabloon van betalingsrapport (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) als sjabloon.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Een configuratie bouwen voor het genereren van elektronische documenten in Word-documentindeling
 De ER-indelingsontwerper kan worden gebruikt om een bepaald elektronisch document te maken in een Word-documentindeling. In de volgende afbeelding ziet u een voorbeeld van dit type indeling. Merk op dat deze indeling de bestaande ER-configuratie gebruikt, die oorspronkelijk is opgezet voor het genereren van de rapportuitvoer in OPENXML-indeling.
@@ -257,7 +256,7 @@ Speel de taakbegeleiding ER: vereiste configuraties maken voor het importeren va
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Een ontworpen indelingsonderdeel opslaan in een indelingsconfiguratie
 
-ER kan een ontworpen indeling samen met de geconfigureerde gegevenstoewijzingen opslaan als een indelingsconfiguratie van het huidige exemplaar. In de voorgaande afbeelding wordt een voorbeeld gegeven van dit type indelingsconfiguratie (**BACS (UK)**, die is een onderliggend element vormt van de configuratie **Betalingsmodel**). Speel de taakbegeleiding **ER Ontwerp domeinspecifieke indeling** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario.
+ER kan een ontworpen indeling samen met de geconfigureerde gegevenstoewijzingen opslaan als een indelingsconfiguratie van het huidige exemplaar. In de voorgaande afbeelding wordt een voorbeeld gegeven van dit type indelingsconfiguratie (**BACS (UK)**, die is een onderliggend element vormt van de configuratie **Betalingsmodel**). Speel de taakbegeleiding **ER Ontwerp domeinspecifieke indeling** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario).
 
 ### <a name="configuring-finance-to-start-to-use-a-created-format-internally"></a>Finance configureren om een gemaakte indeling intern te gaan gebruiken
 
@@ -268,11 +267,11 @@ Speel de taakbegeleiding **ER Gebruik indeling om nieuwe elektronische documente
 ## <a name="handling-er-components"></a>ER-onderdelen verwerken
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>Een ER-onderdeel publiceren in LCS om dit extern aan te bieden (lokalisatie)
 
-De eigenaar van een onderdeel (model of indeling) dat is gemaakt, kan ER gebruiken voor het publiceren van de voltooide versie van het onderdeel naar LCS. Een opslagplaats van het type **LCS-project** voor de huidige ER-configuratieprovider is vereist. Als de status van de voltooide versie van een onderdeel wordt gewijzigd van **VOLTOOID** naar **GEDEELD**, wordt die versie gepubliceerd in LCS. Wanneer een onderdeel is gepubliceerd naar LCS, wordt de eigenaar van dit onderdeel een provider van de service om het onderdeel te ondersteunen. Als bijvoorbeeld de indelingsonderdeel is ontworpen om een wettelijk vereist elektronisch document te genereren (bijvoorbeeld in overeenstemming met een lokalisatiescenario), wordt ervan uitgegaan dat de indeling in overeenstemming met de wettelijke wijzigingen wordt gehouden en dat de provider nieuwe versies van het onderdeel zal uitgeven telkens wanneer moet worden voldaan aan nieuwe wettelijke vereisten. Speel de taakbegeleiding **ER Een configuratie naar Lifecycle Services uploaden** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario.
+De eigenaar van een onderdeel (model of indeling) dat is gemaakt, kan ER gebruiken voor het publiceren van de voltooide versie van het onderdeel naar LCS. Een opslagplaats van het type **LCS-project** voor de huidige ER-configuratieprovider is vereist. Als de status van de voltooide versie van een onderdeel wordt gewijzigd van **VOLTOOID** naar **GEDEELD**, wordt die versie gepubliceerd in LCS. Wanneer een onderdeel is gepubliceerd naar LCS, wordt de eigenaar van dit onderdeel een provider van de service om het onderdeel te ondersteunen. Als bijvoorbeeld de indelingsonderdeel is ontworpen om een wettelijk vereist elektronisch document te genereren (bijvoorbeeld in overeenstemming met een lokalisatiescenario), wordt ervan uitgegaan dat de indeling in overeenstemming met de wettelijke wijzigingen wordt gehouden en dat de provider nieuwe versies van het onderdeel zal uitgeven telkens wanneer moet worden voldaan aan nieuwe wettelijke vereisten. Speel de taakbegeleiding **ER Een configuratie naar Lifecycle Services uploaden** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario).
 
 ### <a name="importing-an-er-component-from-lcs-to-use-it-internally"></a>Een ER-onderdeel importeren vanuit LCS om dit intern te maken
 
-Met ER kunt u onderdelen vanuit LCS importeren naar het huidige exemplaar. Een opslagplaats van het type **LCS-project** is vereist. Wanneer een ER-onderdeel vanuit LCS naar het huidige exemplaar is geïmporteerd, wordt de eigenaar van het exemplaar een verbruiker van de service die door de eigenaar (auteur) van het geïmporteerde onderdeel wordt aangeboden. Als bijvoorbeeld een indelingsonderdeel is ontworpen om vanuit de toepassing een specifiek elektronisch document te genereren in een bepaalde land-/regiospecifieke indeling (lokalisatiescenario), wordt ervan uitgegaan dat de consument van de service in staat is updates te verkrijgen die worden uitgevoerd voor die indeling om ervoor te zorgen dat de indeling aan de wettelijke vereisten voldoet. Speel de taakbegeleiding **ER Een configuratie vanuit Lifecycle Services importeren** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario.
+Met ER kunt u onderdelen vanuit LCS importeren naar het huidige exemplaar. Een opslagplaats van het type **LCS-project** is vereist. Wanneer een ER-onderdeel vanuit LCS naar het huidige exemplaar is geïmporteerd, wordt de eigenaar van het exemplaar een verbruiker van de service die door de eigenaar (auteur) van het geïmporteerde onderdeel wordt aangeboden. Als bijvoorbeeld een indelingsonderdeel is ontworpen om vanuit de toepassing een specifiek elektronisch document te genereren in een bepaalde land-/regiospecifieke indeling (lokalisatiescenario), wordt ervan uitgegaan dat de consument van de service in staat is updates te verkrijgen die worden uitgevoerd voor die indeling om ervoor te zorgen dat de indeling aan de wettelijke vereisten voldoet. Speel de taakbegeleiding **ER Een configuratie vanuit Lifecycle Services importeren** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario).
 
 ### <a name="building-a-format-selecting-another-format-as-a-base-customization"></a>Een indeling maken door een andere indeling als basis te selecteren (aanpassing)
 

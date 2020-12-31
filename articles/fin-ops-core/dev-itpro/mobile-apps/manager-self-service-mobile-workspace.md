@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Human Resources
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c2ad5f30ed0e69df1769eb0379b5da2865d4ce4f
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005604"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680965"
 ---
 # <a name="my-team-mobile-workspace"></a>Mobiel werkgebied Mijn team
 
@@ -84,16 +83,16 @@ Download en installeer de mobiele Finance and Operations-app:
 [![Opvragen om te vernieuwen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>Teamleden weergeven met behulp van het mobiele werkgebied Mijn team
-1.  Selecteer in de mobiele app het werkgebied **Mijn team**. Een lijst met teamleden wordt weergegeven. De lijst bevat ook de titel van elk teamlid en eventuele directe ondergeschikten die hij of zij heeft.
-2.  Selecteer een teamlid. De pagina **Overzicht van teamlid** wordt geopend. De informatie op deze pagina omvat de geboortedatum van het teamlid, diens anciënniteitsdatum, aantal dienstjaren, jaren in zijn of haar huidige functie en salarisinformatie.
+1.  Selecteer in de mobiele app het werkgebied **Mijn team**. Een lijst met teamleden wordt weergegeven. De lijst bevat ook de titel van elk teamlid en eventuele directe ondergeschikten die het lid heeft.
+2.  Selecteer een teamlid. De pagina **Overzicht van teamlid** wordt geopend. De informatie op deze pagina omvat de geboortedatum van het teamlid, diens anciënniteitsdatum, aantal dienstjaren, jaren in de huidige functie en salarisinformatie.
 
 ## <a name="view-extended-team-members-by-using-the-my-team-mobile-workspace"></a>Leden van het uitgebreide ondergeschiktenteam weergeven met behulp van het mobiele werkgebied Mijn team
-1.  Selecteer in de mobiele app het werkgebied **Mijn team**. Een lijst met teamleden wordt weergegeven. De lijst bevat ook de titel van elk teamlid en eventuele directe ondergeschikten die hij of zij heeft.
+1.  Selecteer in de mobiele app het werkgebied **Mijn team**. Een lijst met teamleden wordt weergegeven. De lijst bevat ook de titel van elk teamlid en eventuele directe ondergeschikten die het lid heeft.
 1.  Selecteer de koppeling **Directe ondergeschikten**. Een lijst van uw uitgebreide team wordt weergegeven.
-1.  Selecteer een teamlid. De pagina **Overzicht van teamlid** wordt geopend. De informatie op deze pagina omvat de geboortedatum van het teamlid, diens anciënniteitsdatum, aantal dienstjaren, jaren in zijn of haar huidige functie en salarisinformatie.
+1.  Selecteer een teamlid. De pagina **Overzicht van teamlid** wordt geopend. De informatie op deze pagina omvat de geboortedatum van het teamlid, diens anciënniteitsdatum, aantal dienstjaren, jaren in de huidige functie en salarisinformatie.
 
 ## <a name="send-praise-about-team-members-by-using-the-my-team-mobile-workspace"></a>Lof voor teamleden verzenden met behulp van het mobiele werkgebied Mijn team
-1.  Selecteer in de mobiele app het werkgebied **Mijn team**. Een lijst met teamleden wordt weergegeven. De lijst bevat ook de titel van elk teamlid en eventuele directe ondergeschikten die hij of zij heeft.
+1.  Selecteer in de mobiele app het werkgebied **Mijn team**. Een lijst met teamleden wordt weergegeven. De lijst bevat ook de titel van elk teamlid en eventuele directe ondergeschikten die het lid heeft.
 1.  Selecteer een teamlid. De pagina **Overzicht van teamlid** wordt geopend.
 1.  Selecteer **Lovende kritiek verzenden**. 
 1. Voer de tekst in van de lovende kritiek die u wilt verzenden. 

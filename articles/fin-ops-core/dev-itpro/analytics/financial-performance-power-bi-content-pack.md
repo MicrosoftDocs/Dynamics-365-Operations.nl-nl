@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3cbecf178d0588c51b831fbd55b536d3e4e41c27
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 34ebb9c6262defa5ccf520ad51101eb3bc613fef
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771114"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682740"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Financiële prestatieoplossing PowerBI.com
 
@@ -34,7 +33,7 @@ ms.locfileid: "2771114"
 In dit onderwerp wordt de **financiële prestatie**-oplossing PowerBI.com besproken. In dit onderwerp wordt een beschrijving gegeven van het dashboard en de rapporten die zijn opgenomen en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de oplossing is samengesteld.
 
 ## <a name="main-account-setup"></a>Hoofdrekening instellen
-De instelling van de hoofdrekeningen is belangrijk omdat organisaties passiva- en opbrengstenbedragen willen weergeven als positieve bedragen in rapporten. Voor weergave van hoofdrekeningen als positieve bedragen moet het hoofdrekeningtype worden ingesteld op **Passiva** of **Opbrengsten**. Wanneer deze rekeningtypen worden gebruikt, wordt in de rapportage via Power BI het teken omgekeerd en worden de bedragen als positief weergegeven.
+De instelling van de hoofdrekeningen is belangrijk omdat organisaties passiva- en opbrengstenbedragen willen weergeven als positieve bedragen in rapporten. Voor weergave van hoofdrekeningen als positieve bedragen moet het hoofdrekeningtype worden ingesteld op **Passiva** of **Opbrengsten**. Wanneer deze rekeningtypen worden gebruikt, wordt in de rapportage via Power BI het teken omgekeerd en worden de bedragen als positief weergegeven.
 
 ## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>Dashboard en rapporten die zijn opgenomen in de oplossing PowerBI.com
 Het dashboard bevat tegels met samengevatte gegevens, die zijn gebaseerd op onderliggende rapporten. Elke tegel bevat samengevatte informatie voor het huidige jaar, voor alle bedrijven binnen een organisatie. Hieronder ziet u enkele van deze tegels:

@@ -1,6 +1,6 @@
 ---
 title: Geïntegreerde locaties en magazijnen
-description: In dit onderwerp wordt de integratie van locatie- en magazijngegevens tussen Finance and Operations en Common Data Service beschreven.
+description: In dit onderwerp wordt de integratie van locatie- en magazijngegevens tussen Finance and Operations en Dataverse beschreven.
 author: t-benebo
 manager: AnnBe
 ms.date: 10/09/2019
@@ -18,24 +18,26 @@ ms.search.industry: ''
 ms.author: benebotg
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-08-15
-ms.openlocfilehash: d5c2030160f6025c9de63b2c29215364f5f87e6f
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: d192343d78f9248e4d1232d6aee1a1f800383805
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997619"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679315"
 ---
 # <a name="integrated-sites-and-warehouses"></a>Geïntegreerde locaties en magazijnen
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-In dit onderwerp wordt de integratie van locatie- en magazijngegevens tussen Finance and Operations en Common Data Service beschreven. Operationele locaties en magazijnen zijn gangbare concepten in een Supply Chain Management-toepassing. Ze worden gebruikt om de toeleveringsketen van uw bedrijf te modelleren.
+
+In dit onderwerp wordt de integratie van locatie- en magazijngegevens tussen Finance and Operations en Dataverse beschreven. Operationele locaties en magazijnen zijn gangbare concepten in een Supply Chain Management-toepassing. Ze worden gebruikt om de toeleveringsketen van uw bedrijf te modelleren.
 
 ## <a name="templates"></a>Sjablonen
 
-Dankzij de integratie met Common Data Service zijn deze concepten en alle bijbehorende informatie beschikbaar in Common Data Service met behulp van de entiteiten voor locatie- en magazijngegevens in de volgende tabel.
+Dankzij de integratie met Dataverse zijn deze concepten en alle bijbehorende informatie beschikbaar in Dataverse met behulp van de tabellen voor locatie- en magazijngegevens in de volgende tabel.
 
 Finance and Operations-apps | Andere Dynamics 365-apps | Beschrijving
 --------------------------|---------------------------|---

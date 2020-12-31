@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 6c4b18a3cf2ba313756d5f761ef1beb2c3015516
-ms.sourcegitcommit: 56add4c49c35c65a75fa2ca5234927e7f7cd66ef
+ms.openlocfilehash: a9035f128a1db4bcd126f09c0fe30c1857fa884a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781140"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680870"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>ER-modeltoewijzingen configureren die afhankelijk zijn van de landcontext
 
@@ -45,7 +44,7 @@ Om de voorbeelden in dit onderwerp te kunnen voltooien, moet u toegang tot het v
     - Functioneel consultant elektronische rapportage
     - Systeembeheerder
 
-Voor sommige stappen in dit onderwerp is de uitvoering van een ER-indeling vereist. In sommige gevallen wordt de uitvoering van een ER-indeling beïnvloed door de land/regiocontext van het bedrijf waarbij u momenteel bent aangemeld. U kunt een ER-indeling uitvoeren in het huidige RCS-exemplaar als het bedrijf met de vereiste land- of regiocontext beschikbaar is in RCS. Anders moet u een voltooide versie van de ER-modeltoewijzing en ER-indelingsconfiguraties die het ER-gegevensmodel uploaden naar uw exemplaar van Financiën en vervolgens de ER-indeling uitvoeren in dat exemplaar. Zie [Configuraties importeren uit RCS](rcs-download-configurations.md) voor informatie over het importeren van RCS-configuraties in een exemplaar van Financiën.
+Voor sommige stappen in dit onderwerp is de uitvoering van een ER-indeling vereist. In sommige gevallen wordt de uitvoering van een ER-indeling beïnvloed door de land-/regiocontext van het bedrijf waarbij u momenteel bent aangemeld. U kunt een ER-indeling uitvoeren in het huidige RCS-exemplaar als het bedrijf met de vereiste land- of regiocontext beschikbaar is in RCS. Anders moet u een voltooide versie van de ER-modeltoewijzing en ER-indelingsconfiguraties die het ER-gegevensmodel uploaden naar uw exemplaar van Financiën en vervolgens de ER-indeling uitvoeren in dat exemplaar. Zie [Configuraties importeren uit RCS](rcs-download-configurations.md) voor informatie over het importeren van RCS-configuraties in een exemplaar van Financiën.
 
 ## <a name="single-model-mapping-case"></a>Case met één modeltoewijzing
 
@@ -202,7 +201,7 @@ In de tabel duidt een plusteken (+) de aanwezigheid van een modeltoewijzingsconf
 
 Voor de uitgevoerde ER-indeling is een nieuwe record toegevoegd aan het ER-logboek voor foutopsporing. Omdat het veld **Niveau** van deze record is ingesteld op **Info**, is de record informatief. Omdat het veld Indelingscomponent is ingesteld op **Configuratie voor toewijzing**, geeft de record u informatie over een modeltoewijzing die is gebruikt tijdens het uitvoeren van de ER-indeling **Indeling voor het leren van toewijzingen** (geselecteerd in het veld **Configuratienaam**). In het veld **Gegenereerde tekst** wordt aangegeven dat de toewijzingscomponent **Toewijzing (FR)** die zich in de configuratie **Toewijzing (FR)** bevindt, is gebruikt om dit rapport uit te voeren.
 
-## <a name="appendix1"></a> Bijlage 1
+## <a name="appendix-1"></a><a name="appendix1"></a> Bijlage 1
 
 ### <a name="configure-a-sample-data-model"></a>Een voorbeeldgegevensmodel configureren
 
@@ -343,7 +342,7 @@ U ziet dat conceptversie 1 van deze ER-configuratie kan worden bewerkt. Deze ver
 4.  Selecteer **Opslaan**.
 5.  Sluit de pagina.
 
-## <a name="appendix2"></a> Bijlage 2
+## <a name="appendix-2"></a><a name="appendix2"></a> Bijlage 2
 
 ### <a name="configure-a-sample-model-mapping-for-general-customization"></a>Een voorbeeldmodeltoewijzing configureren voor algemene aanpassing
 
@@ -403,7 +402,7 @@ U ziet dat conceptversie 1 van deze ER-configuratie kan worden bewerkt.
 
 De gemaakte configuratie wordt opgeslagen als voltooide versie 1.
 
-## <a name="appendix3"></a> Bijlage 3
+## <a name="appendix-3"></a><a name="appendix3"></a> Bijlage 3
 
 ### <a name="configure-a-sample-model-mapping-for-countryregion-specific-customization"></a>Een voorbeeldmodeltoewijzing configureren voor land-/regiospecifieke aanpassing
 

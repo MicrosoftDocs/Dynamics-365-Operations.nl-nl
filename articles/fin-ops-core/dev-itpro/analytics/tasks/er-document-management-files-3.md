@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4324ed62c56abea6d90d83d950429b6ddf7a84b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: bfcc03fa7470d4f2fa45ef012e30acef0712bf99
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142011"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681848"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-3---create-format"></a>ER Documentbeheerbestanden gebruiken in uitvoer van indelingen (deel 3 - Indeling maken)
 
@@ -102,10 +101,10 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 5. Klik op Binden.
 6. Selecteer in de structuur Factuur\InvoiceNumber.
 7. Vouw in de structuur model\Base invoice(InvoiceBase) uit.
-8. Selecteer in de structuur model\Base invoice(InvoiceBase\Factuurnummer(Id).
+8. Selecteer in de structuur model\Base invoice(InvoiceBase)\Factuurnummer(Id).
 9. Klik op Binden.
 10. Selecteer in de structuur Factuur\InvoiceAmount.
-11. Selecteer in de structuur model\Base invoice(InvoiceBase\Factuurbedrag(Amount).
+11. Selecteer in de structuur model\Base invoice(InvoiceBase)\Factuurbedrag(Amount).
 12. Klik op Binden.
 13. Vouw in de structuur model\Factuurbijlagen uit.
 14. Selecteer in de structuur model\Factuurbijlagen\Bestandsinhoud.

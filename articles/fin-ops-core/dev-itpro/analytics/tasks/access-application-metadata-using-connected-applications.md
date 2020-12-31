@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 28b8346b916729669af42ca47fe9a882e7a77bd0
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 751ac21dc056373e1cd89a5149bf38789134e0cc
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142196"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682136"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Metagegevens van de toepassing openen door gebruik van verbonden toepassingen
 
@@ -54,7 +53,7 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configur
 2. Sluit de pagina. 
 3. Ga naar **Alle werkgebieden** > **Elektronische rapportage**. 
 4. Klik op **Verbonden toepassingen**. 
-5. Controleer of de geconfigureerde toepassing op Azure gebaseerd is en toegankelijk is voor de huidige RCS-gebruiker. Het is ook noodzakelijk dat de huidige RCS-gebruiker toegang heeft tot de geselecteerde toepassing en dat deze is geregistreerd als gebruiker van deze toepassing met een rol die hem de bevoegdheid geeft om de metagegevens van de toepassing te gebruiken. 
+5. Controleer of de geconfigureerde toepassing op Azure gebaseerd is en toegankelijk is voor de huidige RCS-gebruiker. Het is ook noodzakelijk dat de huidige RCS-gebruiker toegang heeft tot de geselecteerde toepassing en dat deze is geregistreerd als gebruiker van deze toepassing met een rol die hem of haar de bevoegdheid geeft om de metagegevens van de toepassing te gebruiken. 
 6. Klik op **Nieuw**. 
 7. Typ 'MijnVerbondenApp' in het veld **Naam**. 
 8. Typ 'https://mycompany.operations.dynamics.com' in het veld **Toepassing**. 

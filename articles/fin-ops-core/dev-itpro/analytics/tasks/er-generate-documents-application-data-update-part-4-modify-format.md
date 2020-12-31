@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142450"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684542"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Indelingen wijzigen voor het genereren van documenten die toepassingsgegevens bevatten
 
@@ -95,16 +94,17 @@ De stappen in deze procedure leggen uit hoe u ER-configuraties ontwerpt om een e
 52. Klik op Opslaan.
 
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>Indeling wijzigen om details over rapportage te onthouden
+
 1. Klik op 'Indeling aan model toewijzen'.
 2. Klik op Nieuw.
 3. Typ of selecteer in het veld Definitie het basisitem 'Voor update van toepassingsgegevens'.
-    * Voor bijwerken van toepassingsgegevens  
+    * Voor bijwerken van toepassingsgegevens.
 4. Typ 'Toewijzing aan updategegevens' in het veld Naam.
     * Toewijzing aan updategegevens  
 5. Klik op Opslaan.
-    * Deze toewijzing definieert hoe de details van het Intrastat-rapport worden verzameld in het gegevensmodel, waarvan de structuur wordt opgegeven door het geselecteerde basisitem 'voor update van toepassingsgegevens'. Deze gegevens, de modeltoewijzing met hetzelfde basisitem 'Voor update van toepassingsgegevens' en de richting 'Naar bestemming' wordt gebruikt voor de update van de toepassingsgegevens. De update van de toepassingsgegevens begint meteen nadat het uitgaande Intrastat-rapport is gegenereerd. Houd er rekening mee dat de update van de toepassingsgegevens tijdens runtime kan worden overgeslagen, maar dat het gegevensmodel leeg moet zijn (een lege recordlijst moet bevatten).   
+    * Deze toewijzing definieert hoe de details van het Intrastat-rapport worden verzameld in het gegevensmodel, waarvan de structuur wordt opgegeven door het geselecteerde basisitem 'voor update van toepassingsgegevens'. Deze gegevens, de modeltoewijzing met hetzelfde basisitem 'Voor update van toepassingsgegevens' en de richting 'Naar bestemming' wordt gebruikt voor de update van de toepassingsgegevens. De update van de toepassingsgegevens begint meteen nadat het uitgaande Intrastat-rapport is gegenereerd. De update van de toepassingsgegevens kan worden overgeslagen tijdens runtime, maar het gegevensmodel moet leeg zijn (een lege recordlijst moet bevatten).
 6. Klik op Ontwerper.
-    * Houd er rekening mee dat de indeling van het uitgaande Intrastat-rapport standaard wordt toegevoegd als gegevensbron voor deze modeltoewijzing.  
+    * De indeling van het uitgaande Intrastat-rapport wordt standaard toegevoegd als gegevensbron voor deze modeltoewijzing.  
     * Bind elementen van het opgegeven rapport (gepresenteerd als gegevensbron) aan elementen van het gegevensmodel, dat wordt gefilterd op basis van het basisitem van het geselecteerde model.  
 7. Vouw in de structuur 'Archiefkoptekst' uit.
 8. Vouw in de structuur 'Archiefkoptekst\Archiefregels' uit.
@@ -120,8 +120,8 @@ De stappen in deze procedure leggen uit hoe u ER-configuraties ontwerpt om een e
 18. Klik op Functie toevoegen.
 19. Vouw in de structuur 'indeling' uit.
 20. Vouw in de structuur ' indeling\Declaratie: XML-element(Declaratie)' uit.
-21. Vouw in de structuur 'indeling\Declaratie: XML-element(Declaratie)\Gegevens: XML-element 1..* (Gegevens)' uit.
-22. Selecteer in de structuur 'indeling\Declaratie: XML-element(Declaratie)\Gegevens: XML-element 1..* (Gegevens)\Item: XML-element 0..* (Item)'.
+21. Vouw in de structuur `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)` uit.
+22. Selecteer in de structuur `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`.
 23. Klik op Gegevensbron toevoegen.
 24. Voer in het formuleveld 'COUNT(indeling.Declaratie.Gegevens.Item)'.
     * COUNT(indeling.Declaratie.Gegevens.Item)  
@@ -130,23 +130,22 @@ De stappen in deze procedure leggen uit hoe u ER-configuraties ontwerpt om een e
 27. Selecteer 'Archiefkoptekst\Bestandsnaam' in de structuur.
 28. Selecteer in de structuur 'indeling\Declaratie: XML-element(Declaratie)\Gegevens: XML-element 1..* (Gegevens)\Bestandsnaam: itemtekenreeks(Bestandsnaam)'.
 29. Klik op Binden.
-30. Selecteer in de structuur 'indeling\Declaratie: XML-element(Declaratie)\Gegevens: XML-element 1..* (Gegevens)\Item: XML-element 0..* (Item)\Dim4: XML-element 1..1 (Item)\getal: Tekenreeks(getal)'.
+30. Selecteer in de structuur `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)`.
 31. Selecteer 'Archiefkoptekst\Archiefregels\Itemnummer' in de structuur.
 32. Klik op Binden.
-33. Selecteer in de structuur 'indeling\Declaratie: XML-element(Declaratie)\Gegevens: XML-element 1..* (Gegevens)\Item: XML-element 0..* (Item)\Dim3: XML-element 1..1 (Bedrag)\waarde: numeriek Real(waarde)'.
+33. Selecteer in de structuur `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)`.
 34. Selecteer in de structuur 'Archiefkoptekst\Archiefregels\Bedrag'.
 35. Klik op Binden.
-36. Selecteer in de structuur 'indeling\Declaratie: XML-element(Declaratie)\Gegevens: XML-element 1..* (Gegevens)\Item: XML-element 0..* (Item)\Basisproductrecord-id: Item Int64(Basisproductrec-id)'.
+36. Selecteer in de structuur `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec ID: Item Int64(Commodity rec ID)`.
 37. Selecteer 'Archiefkoptekst\Archiefregels\Basisproductrecord-id' in de structuur.
 38. Klik op Binden.
 39. Selecteer 'Archiefkoptekst\Archiefregels' in de structuur.
-40. Selecteer in de structuur 'indeling\Declaratie: XML-element(Declaratie)\Gegevens: XML-element 1..* (Gegevens)\Item: XML-element 0..* (Item)'.
+40. Selecteer in de structuur `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`.
 41. Klik op Binden.
 42. Selecteer in de structuur 'Archiefkoptekst'.
-43. Selecteer in de structuur 'indeling\Declaratie: XML-element(Declaratie)\Gegevens: XML-element 1..* (Gegevens)'.
+43. Selecteer in de structuur `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)`.
 44. Klik op Binden.
 45. Klik op Opslaan.
 46. Sluit de pagina.
 47. Sluit de pagina.
 48. Sluit de pagina.
-

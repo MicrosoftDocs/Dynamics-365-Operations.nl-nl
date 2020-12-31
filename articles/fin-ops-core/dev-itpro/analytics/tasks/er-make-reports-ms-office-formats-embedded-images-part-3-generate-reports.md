@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143094"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684374"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Rapporten genereren in Office-indeling die ingesloten afbeeldingen bevatten
 
@@ -40,14 +39,14 @@ In dit voorbeeld gebruikt u gemaakte ER-configuraties voor voorbeeldbedrijf 'Lit
     * Voer de indeling uit voor testdoeleinden.  
 6. Selecteer Ja in het veld Overdraagbare cheque.
 7. Klik op OK.
-    * Controleer de gemaakte uitvoer. Houd er rekening mee dat het bedrijfslogo wordt weergegeven in het rapport, alsmede de handtekening van de bevoegde persoon. De handtekeningafbeelding wordt opgehaald uit het veld van het gegevenstype 'Container' van de cheque-indelingsrecord die is gekoppeld aan de geselecteerde bankrekening.  
+    * Controleer de gemaakte uitvoer. Het bedrijfslogo wordt weergegeven in het rapport, evenals de handtekening van de bevoegde persoon. De handtekeningafbeelding wordt opgehaald uit het veld van het gegevenstype 'Container' van de cheque-indelingsrecord die is gekoppeld aan de geselecteerde bankrekening.  
 8. Vouw de sectie Aantal exemplaren uit.
 9. Klik op Bewerken.
 10. Voer in het veld Watermerk 'Watermerk afdrukken als Ongeldig' in.
     * Wijzig de instelling van de watermerklay-out om de watermerktekst in het genererende document weer te geven in een Excel-shape-element.  
 11. Klik op Test afdrukken.
 12. Klik op OK.
-    * Controleer de gemaakte uitvoer. Houd er rekening mee dat het watermerk wordt weergegeven in het gemaakte rapport overeenkomstig de selectieoptie.  
+    * Controleer de gemaakte uitvoer. Het watermerk wordt weergegeven in het gemaakte rapport overeenkomstig de selectieoptie.  
 13. Sluit de pagina.
 14. Klik in het actievenster op Betalingen beheren.
 15. Klik op Cheques.
@@ -56,7 +55,7 @@ In dit voorbeeld gebruikt u gemaakte ER-configuraties voor voorbeeldbedrijf 'Lit
 18. Markeer alle rijen in de lijst.
 19. Klik op Kopie van cheque afdrukken.
     * Voer de indeling uit om de geselecteerde cheques opnieuw af te drukken.  
-    * Controleer de gemaakte uitvoer. Houd er rekening mee dat de geselecteerde cheques opnieuw zijn afgedrukt. Het bedrijfslogo en de labels worden niet afgedrukt omdat deze worden weergegeven op het voorgedrukte formulier.  
+    * Controleer de gemaakte uitvoer. De geselecteerde cheques zijn opnieuw afgedrukt. Het bedrijfslogo en de labels worden niet afgedrukt omdat deze worden weergegeven op het voorgedrukte formulier.  
 
 ## <a name="modify-the-mapping-of-the-imported-data-model"></a>De indeling van het geïmporteerde gegevensmodel wijzigen
 1. Sluit de pagina.
@@ -91,7 +90,7 @@ In dit voorbeeld gebruikt u gemaakte ER-configuraties voor voorbeeldbedrijf 'Lit
 4. Klik op Controleren.
 5. Klik op Test afdrukken.
 6. Klik op OK.
-    * Controleer de gemaakte uitvoer. Houd er rekening mee dat de afbeelding van de Documentbeheer-bijlage wordt gepresenteerd als de handtekening van een bevoegd persoon.  
+    * Controleer de gemaakte uitvoer. De afbeelding van de Documentbeheer-bijlage wordt gepresenteerd als de handtekening van een bevoegd persoon.  
 
 ## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>MS Word-document gebruiken als sjabloon in de geïmporteerde indeling
 1. Sluit de pagina.
@@ -118,5 +117,5 @@ In dit voorbeeld gebruikt u gemaakte ER-configuraties voor voorbeeldbedrijf 'Lit
 21. Klik op Controleren.
 22. Klik op Test afdrukken.
 23. Klik op OK.
-    * Controleer de gemaakte uitvoer. Houd er rekening mee dat de uitvoer als MS Word-document is gegenereerd met ingesloten afbeeldingen die het bedrijfslogo, de handtekening van een bevoegd persoon en de geselecteerde tekst van het watermerk voorstellen.  
+    * Controleer de gemaakte uitvoer. De uitvoer als MS Word-document is gegenereerd met ingesloten afbeeldingen die het bedrijfslogo, de handtekening van een bevoegd persoon en de geselecteerde tekst van het watermerk voorstellen.  
 

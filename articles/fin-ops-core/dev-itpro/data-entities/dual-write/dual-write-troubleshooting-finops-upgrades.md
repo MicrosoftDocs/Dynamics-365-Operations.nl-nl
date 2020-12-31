@@ -18,20 +18,22 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 07d6bd0bab796d7839daa2bad91f7e88c2e881b5
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: c76b35ed3af766f42484a118a4a0407d969b5240
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997913"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683594"
 ---
 # <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Problemen oplossen met betrekking tot upgrades van Finance and Operations-apps
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Dit onderwerp bevat informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Common Data Service. Dit onderwerp bevat specifieke informatie over het oplossen van problemen met betrekking tot upgrades van Finance and Operations-apps.
+
+Dit onderwerp bevat informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Dataverse. Dit onderwerp bevat specifieke informatie over het oplossen van problemen met betrekking tot upgrades van Finance and Operations-apps.
 
 > [!IMPORTANT]
 > In sommige problemen die in dit onderwerp worden beschreven, is mogelijk de rol van systeembeheerder vereist of de referenties van de Microsoft Azure Active Directory-tenantbeheerder (Azure AD). In de sectie voor elk probleem wordt uitgelegd of een specifieke rol of referenties vereist zijn.
@@ -43,7 +45,7 @@ Dit onderwerp bevat informatie voor het oplossen van problemen voor de integrati
 Er wordt mogelijk een foutbericht van de volgende strekking weergegeven wanneer u probeert de entiteit **DualWriteprojectConfiguration** te gebruiken om een Finance and Operations-app bij te werken naar Platform update 30.
 
 ```console
-Infolog diagnostic message: 'Cannot select a record in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
+Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
 10/28/2019 15:18:20: Application configuration sync failed.
 Microsoft.Dynamics.AX.Framework.Database.TableSyncException: Custom action threw exception(s), please investigate before synchronizing again: 'InfoException:Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN."
 ```
@@ -73,19 +75,19 @@ Op de pagina **Twee keer wegschrijven** kan een foutbericht van de volgende stre
 Als u het probleem wilt verhelpen, voert u eerst deze stappen uit om te controleren of de velden in de entiteit aanwezig zijn.
 
 1. Meld u aan bij de VM voor de Finance and Operations-app.
-2. Ga naar **Werkruimten \> Gegevensbeheer** , selecteer de tegel **Raamwerkparameters** en selecteer vervolgens op het tabblad **Entiteitsinstellingen** de optie **Entiteitslijst vernieuwen** om de entiteiten te vernieuwen.
-3. Ga naar **Werkruimten \> Gegevensbeheer** , selecteer het tabblad **Gegevensentiteiten** en controleer of de entiteit wordt weergegeven. Als de entiteit niet wordt weergegeven, meldt u zich aan bij de VM voor de Finance and Operations-app en controleert u of de entiteit beschikbaar is.
-4. Open de pagina **Entiteitstoewijzing** op de pagina **Twee keer wegschrijven** in de Finance and Operations-app.
-5. Selecteer **Entiteitslijst vernieuwen** om de velden in de entiteitstoewijzingen automatisch te vullen.
+2. Ga naar **Werkruimten \> Gegevensbeheer**, selecteer de tegel **Raamwerkparameters** en selecteer vervolgens op het tabblad **Tabelinstellingen** de optie **Entiteitslijst vernieuwen** om de tabellen te vernieuwen.
+3. Ga naar **Werkruimten \> Gegevensbeheer**, selecteer het tabblad **Gegevenstabellen** en controleer of de entiteit wordt weergegeven. Als de entiteit niet wordt weergegeven, meldt u zich aan bij de VM voor de Finance and Operations-app en controleert u of de entiteit beschikbaar is.
+4. Open de pagina **Tabeltoewijzing** op de pagina **Twee keer wegschrijven** in de Finance and Operations-app.
+5. Selecteer **Entiteitslijst vernieuwen** om de velden in de tabeltoewijzingen automatisch te vullen.
 
 Als het probleem nog steeds niet is opgelost, voert u de volgende stappen uit.
 
 > [!IMPORTANT]
 > Deze stappen begeleiden u bij het verwijderen van een entiteit en het toevoegen ervan. U kunt problemen voorkomen door de stappen exact uit te voeren.
 
-1. Ga in de Finance and Operations-app naar **Werkruimten \> Gegevensbeheer** en selecteer de tegel **Gegevensentiteiten**.
+1. Ga in de Finance and Operations-app naar **Werkruimten \> Gegevensbeheer** en selecteer de tegel **Gegevenstabellen**.
 2. Zoek de entiteit waarvoor het kenmerk ontbreekt. Klik op **Doeltoewijzing aanpassen** op de werkbalk.
 3. Klik in het deelvenster **Fasering aan doel toewijzen** op **Toewijzing genereren**.
-4. Open de pagina **Entiteitstoewijzing** op de pagina **Twee keer wegschrijven** in de Finance and Operations-app.
+4. Open de pagina **Tabeltoewijzing** op de pagina **Twee keer wegschrijven** in de Finance and Operations-app.
 5. Als het kenmerk niet automatisch wordt ingevuld op de toewijzing, voegt u dit handmatig toe door te klikken op de knop **Kenmerk toevoegen** en vervolgens op **Opslaan**. 
 6. Selecteer de toewijzing en klik op **Uitvoeren**.

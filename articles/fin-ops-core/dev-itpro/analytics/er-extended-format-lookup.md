@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 28bdd02c25db27536a489f9e8ab2a91a5ca0f09c
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: f7c6cb99a6c5cc6fb92ce52041296af2d0c6722e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138855"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679481"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Gebruikers toestaan om een ER-indelingsverwijzing in te stellen die informatie opvraagt uit de algemene opslagplaats
 
 [!include [banner](../includes/banner.md)]
 
-U kunt het ER-raamwerk ([elektronische rapportage](general-electronic-reporting.md)) gebruiken om [indelingen](general-electronic-reporting.md#FormatComponentOutbound) te configureren voor uitgaande documenten in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. U kunt ook het ER-raamwerk gebruiken om [indelingen](general-electronic-reporting.md#FormatComponentInbound) te configureren voor het parseren van inkomende documenten en om toepassingsgegevens toe te voegen of bij te werken met de informatie in deze documenten. Elk van deze indelingen kan in uw Dynamics 365 Finance-exemplaar worden gebruikt voor het verwerken van inkomende of uitgaande bedrijfsdocumenten als onderdeel van een bepaald bedrijfsproces. 
+U kunt het ER-raamwerk ([elektronische rapportage](general-electronic-reporting.md)) gebruiken om [indelingen](general-electronic-reporting.md#FormatComponentOutbound) te configureren voor uitgaande documenten in overeenstemming met de wettelijke voorschriften van verschillende landen/regio's. U kunt ook het ER-raamwerk gebruiken om [indelingen](general-electronic-reporting.md#FormatComponentInbound) te configureren voor het parseren van inkomende documenten en om toepassingsgegevens toe te voegen of bij te werken met de informatie in deze documenten. Elk van deze indelingen kan in uw Dynamics 365 Finance-exemplaar worden gebruikt voor het verwerken van inkomende of uitgaande bedrijfsdocumenten als onderdeel van een bepaald bedrijfsproces.
 
 Gewoonlijk moet u opgeven welke ER-indeling in een bepaald bedrijfsproces moet worden gebruikt. Selecteer hiervoor één ER-indeling in een opzoekveld dat is geconfigureerd als onderdeel van specifieke parameters voor het bedrijfsproces. Deze opzoekvelden worden meestal geïmplementeerd met behulp van de toepasselijke API van het ER-raamwerk. Zie [ER-raamwerk-API: code om een zoekactie voor indelingstoewijzing weer te geven](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
@@ -55,13 +54,13 @@ Wanneer u een ER-indeling selecteert op het sneltabblad **Importeren uit algemen
 
 [![Pagina Parameters buitenlandse handel](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
-Als de import is voltooid, wordt de verwijzing naar de geïmporteerde ER-indeling in dit opzoekveld opgeslagen. Wanneer u de GR voor de eerste keer opent, moet u de geboden koppeling volgen om u aan te melden voor de RCS ([Regulatory Configuration Service](https://aka.ms/rcs)) die wordt gebruikt om de toegang tot de GR-opslag te beheren.
+Als de import is voltooid, wordt de verwijzing naar de geïmporteerde ER-indeling in dit opzoekveld opgeslagen. Wanneer u de GR voor de eerste keer opent, moet u de geboden koppeling volgen om u aan te melden voor de [Regulatory Configuration Service](https://aka.ms/rcs) (RCS) die wordt gebruikt om de toegang tot de GR-opslag te beheren.
 
 [![Pagina Parameters buitenlandse handel](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Standaard bevat het sneltabblad **Importeren uit algemene opslagplaats** de lijst met ER-indelingen van de tijdelijke opslag die automatisch wordt gemaakt op basis van de GR-inhoud, voor betere prestaties. Dit is het geval wanneer het sneltabblad **Importeren uit algemene opslagplaats** de eerste keer wordt geopend. Dit kan enkele seconden duren.
 
-Als de vereiste ER-indeling niet wordt weergeven in het sneltabblad **Importeren uit algemene opslagplaats**, maar u er zeker van bent dat deze ER-indeling is opgeslagen in de GR, selecteert u de optie **Synchroniseren**. Hiermee wordt de tijdelijke opslag bijgewerkt en gesynchroniseerd met de huidige inhoud van de GR.
+Als de vereiste ER-indeling niet wordt weergeven in het sneltabblad **Importeren uit algemene opslagplaats**, maar u er zeker van bent dat deze ER-indeling is opgeslagen in de GR, selecteert u de optie **Synchroniseren**. Met deze optie wordt de tijdelijke opslag bijgewerkt en gesynchroniseerd met de huidige inhoud van de GR.
 
 ## <a name="feature-activation"></a>Functieactivering
 
@@ -73,7 +72,7 @@ De beschikbaarheid van deze functionaliteit wordt bepaald door de functie **Uitg
 
 Met de bevoegdheid **Configuratieopslagplaatsen onderhouden** (**ERMaintainSolutionRepositories**) wordt de toegang tot de GR beheerd voor een gebruiker die de opzoekfunctie voor ER-indelingen opent met het ingeschakelde sneltabblad **Importeren uit algemene opslagplaats**. Als u wilt dat gebruikers toegang tot de GR-inhoud kunnen krijgen vanuit de ER-indelingszoekopdrachten, moet u de beveiligingsinstellingen wijzigen door de bevoegdheid **ERMaintainSolutionRepositories** te verlenen aan gebruikers, hetzij rechtstreeks of door al toegewezen rollen en taken te gebruiken.
 
-Het volgende screenshot geeft aan hoe deze bevoegdheid kan worden verleend aan gebruikers die zijn toegewezen aan de rol **Accountant**. Deze rol maakt het gebruikers mogelijk om parameters voor buitenlandse handel te configureren en verwijzingen in te stellen naar de ER-indelingen in de velden **Toewijzing van bestandsindeling** en **Toewijzing van rapportindeling** op de pagina **Parameters buitenlandse handel**.
+Het volgende screenshot geeft aan hoe deze bevoegdheid kan worden verleend aan gebruikers die zijn toegewezen aan de rol **Accountant**. Deze rol stelt gebruikers in staat om parameters voor buitenlandse handel te configureren en verwijzingen in te stellen naar de ER-indelingen in de velden **Toewijzing van bestandsindeling** en **Toewijzing van rapportindeling** op de pagina **Parameters buitenlandse handel**.
 
 [![Pagina Beveiligingsconfiguratie](./media/ER-ExtLookup-SecuritySetting.png)](./media/ER-ExtLookup-SecuritySetting.png)
 

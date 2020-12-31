@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 3b482a2754bb4bcaca5410da72c21897fd066a41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997395"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683642"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect naar contant geld in twee keer wegschrijven
 
@@ -62,9 +62,9 @@ De nummerreeks in Supply Chain Management is bijvoorbeeld **1, 2, 3, 4, 5, ...**
 
 Verkoopoffertes kunnen worden gemaakt in Sales of Supply Chain Management. Als u een offerte maakt in Sales, wordt deze in realtime gesynchroniseerd met Supply Chain Management. Als u een offerte maakt in Supply Chain Management, wordt deze in realtime gesynchroniseerd met Sales. Let op de volgende punten:
 
-+ U kunt een korting toevoegen aan het product op de offerte. In dit geval wordt de korting gesynchroniseerd met Supply Chain Management. De velden **Korting** , **Toeslagen** en **Btw** in de koptekst worden bepaald door een configuratie in Supply Chain Management. Deze instelling biedt momenteel geen ondersteuning voor integratietoewijzing. In het huidige ontwerp worden de velden **Prijs** , **Korting** , **Toeslagen** en **Btw** bijgehouden en verwerkt in Supply Chain Management.
-+ De velden **Kortingspercentage** , **Korting** en **Vrachtkosten** zijn in de koptekst van de verkoopofferte alleen-lezenvelden.
-+ De velden **Leveringscondities** , **Leveringsvoorwaarden** , **Verzendmethode** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze velden wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de entiteit wordt gesynchroniseerd.
++ U kunt een korting toevoegen aan het product op de offerte. In dit geval wordt de korting gesynchroniseerd met Supply Chain Management. De velden **Korting**, **Toeslagen** en **Btw** in de koptekst worden bepaald door een configuratie in Supply Chain Management. Deze instelling biedt momenteel geen ondersteuning voor integratietoewijzing. In het huidige ontwerp worden de velden **Prijs**, **Korting**, **Toeslagen** en **Btw** bijgehouden en verwerkt in Supply Chain Management.
++ De velden **Kortingspercentage**, **Korting** en **Vrachtkosten** zijn in de koptekst van de verkoopofferte alleen-lezenvelden.
++ De velden **Leveringscondities**, **Leveringsvoorwaarden**, **Verzendmethode** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze velden wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de entiteit wordt gesynchroniseerd.
 
 Als u ook de Field Service-oplossing gebruikt, moet u de parameter **Snel offerteregel maken** opnieuw inschakelen. Als u de parameter opnieuw inschakelt, kunt u doorgaan met het maken van offerteregels met de functie Snel maken.
 1. Ga naar uw Dynamics 365 Sales-toepassing.
@@ -98,7 +98,7 @@ Als u de gegevens van Supply Chain Management naar Sales synchroniseert, krijgt 
 
 ## <a name="dual-write-solution-for-sales"></a>Oplossing Twee keer wegschrijven voor Sales
 
-Nieuwe velden zijn toegevoegd aan de entiteit **Order** en worden weergegeven op de pagina. De meeste van deze velden worden weergegeven op het tabblad **Integratie** in Sales. Zie het documentatieonderwerp [De toewijzing voor de statusvelden van de verkooporder instellen](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map) voor meer informatie over de manier waarop de statusvelden worden toegewezen.
+Nieuwe velden zijn toegevoegd aan de entiteit **Order** en worden weergegeven op de pagina. De meeste van deze velden worden weergegeven op het tabblad **Integratie** in Sales. Zie [De toewijzing voor de statusvelden van de verkooporder instellen](sales-status-map.md) voor meer informatie over de manier waarop de statusvelden worden toegewezen.
 
 + De knoppen **Factuur maken** en **Order annuleren** op de pagina **Verkooporder** zijn verborgen in Sales.
 + De waarde voor **Verkooporderstatus** blijft **Actief** om ervoor te zorgen dat wijzigingen vanuit Supply Chain Management naar de verkooporder in Sales kunnen stromen. U stelt dit gedrag in door de standaardwaarde voor **Statuscode \[Status\]** op **Actief** in te stellen.
@@ -110,11 +110,11 @@ Verkoopfacturen worden gemaakt in Supply Chain Management en gesynchroniseerd me
 + Het veld **Factuurnummer** is aan de entiteit **Factuur** toegevoegd en wordt weergegeven op de pagina.
 + De knop **Factuur maken** op de pagina **Verkooporder** is verborgen omdat facturen in Supply Chain Management worden gemaakt en worden gesynchroniseerd naar Sales. De pagina **Factuur** kan niet worden bewerkt omdat facturen vanuit Supply Chain Management worden gesynchroniseerd.
 + De waarde voor **Verkooporderstatus** wordt automatisch in **Gefactureerd** gewijzigd wanneer de bijbehorende factuur vanuit Supply Chain Management is gesynchroniseerd naar Sales. Daarnaast wordt de eigenaar van de verkooporder op basis waarvan de factuur is gemaakt, aangewezen als de eigenaar van de factuur. De eigenaar van de verkooporder kan de factuur dus weergeven.
-+ De velden **Leveringscondities** , **Leveringsvoorwaarden** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze velden wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de entiteit wordt gesynchroniseerd.
++ De velden **Leveringscondities**, **Leveringsvoorwaarden** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze velden wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de entiteit wordt gesynchroniseerd.
 
 ## <a name="templates"></a>Sjablonen
 
-Prospect naar contact geld omvat een verzameling basisentiteitstoewijzingen die samenwerken tijdens de interactie van gegevens, zoals in de volgende tabel wordt weergegeven.
+Prospect naar contact geld omvat een verzameling basistabeltoewijzingen die samenwerken tijdens de interactie van gegevens, zoals in de volgende tabel wordt weergegeven.
 
 | Finance and Operations-apps | Modelgestuurde apps in Dynamics 365 | Omschrijving |
 |-----------------------------|-----------------------------------|-------------|
@@ -126,7 +126,7 @@ Prospect naar contact geld omvat een verzameling basisentiteitstoewijzingen die 
 | CDS-verkoopoffertekoptekst  | offertes                            |             |
 | Regels van CDS-verkoopofferte   | quotedetails                      |             |
 
-Dit zijn de gerelateerde kernentiteitstoewijzingen voor prospect naar contant geld:
+Dit zijn de gerelateerde kerntabeltoewijzingen voor prospect naar contant geld:
 
 + [Klanten V3 naar accounts](customer-mapping.md#customers-v3-to-accounts)
 + [CDS-contactpersonen V2 naar contactpersonen](customer-mapping.md#cds-contacts-v2-to-contacts)
