@@ -1,0 +1,189 @@
+---
+title: ER Ontwerp domeinspecifiek gegevensmodel
+description: In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe configuratie voor elektronische rapportage (ER) kan maken die een gegevensmodel voor elektronische betalingsdocumenten bevat.
+author: NickSelin
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERDataContainerDescriptorReferenceSwitchDialog
+audience: Application User
+ms.reviewer: kfend
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681944"
+---
+# <a name="er-design-domain-specific-data-model"></a><span data-ttu-id="d000f-103">ER Ontwerp domeinspecifiek gegevensmodel</span><span class="sxs-lookup"><span data-stu-id="d000f-103">ER Design domain specific data model</span></span>
+
+[!include [banner](../../includes/banner.md)]
+
+<span data-ttu-id="d000f-104">In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe configuratie voor elektronische rapportage (ER) kan maken die een gegevensmodel voor elektronische betalingsdocumenten bevat.</span><span class="sxs-lookup"><span data-stu-id="d000f-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can create a new Electronic reporting (ER) configuration that contains a data model for electronic payment documents.</span></span> <span data-ttu-id="d000f-105">Dit gegevensmodel wordt later gebruikt als gegevensbron, wanneer u de indeling van de betalingsdocumenten maakt.</span><span class="sxs-lookup"><span data-stu-id="d000f-105">This data model will later be used as a data source when you create the format of the payment documents.</span></span>
+
+<span data-ttu-id="d000f-106">In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf, Litware, Inc. Maken. Deze stappen kunnen in elk bedrijf worden uitgevoerd aangezien ER-configuraties tussen bedrijven worden gedeeld.</span><span class="sxs-lookup"><span data-stu-id="d000f-106">In this example, you will create a configuration for sample company, Litware, Inc. These steps can be performed in any company as ER configurations are shared among companies.</span></span> <span data-ttu-id="d000f-107">Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" voltooien.</span><span class="sxs-lookup"><span data-stu-id="d000f-107">To complete these steps, you must first complete the steps in the "Create a configuration provider and mark it as active" procedure.</span></span>
+
+1. <span data-ttu-id="d000f-108">Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.</span><span class="sxs-lookup"><span data-stu-id="d000f-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+
+    <span data-ttu-id="d000f-109">Selecteer de configuratieprovider voor voorbeeldbedrijf, 'Litware, inc.'</span><span class="sxs-lookup"><span data-stu-id="d000f-109">Select the configuration provider for sample company, 'Litware, Inc.'</span></span> <span data-ttu-id="d000f-110">Als u deze configuratieprovider niet ziet, moet u eerst de stappen in de procedure "Een configuratieprovider maken en deze als actief markeren" uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="d000f-110">If you don't see this configuration provider, you must first complete the steps in the "Create a configuration provider and mark it as active" procedure.</span></span>  
+    
+2. <span data-ttu-id="d000f-111">Klik op Rapportconfiguraties.</span><span class="sxs-lookup"><span data-stu-id="d000f-111">Click Reporting configurations.</span></span>
+
+    <span data-ttu-id="d000f-112">U maakt een configuratie die een gegevensmodel voor elektronische betalingdocumenten bevat.</span><span class="sxs-lookup"><span data-stu-id="d000f-112">You will create a configuration that contains a data model for electronic payment documents.</span></span> <span data-ttu-id="d000f-113">Dit gegevensmodel wordt later gebruikt als gegevensbron wanneer u de indeling gebruikt voor de betalingdocumenten.</span><span class="sxs-lookup"><span data-stu-id="d000f-113">This data model will be used later as a data source when you create the format for the payment documents.</span></span>  
+
+## <a name="create-a-new-data-model-configuration"></a><span data-ttu-id="d000f-114">Een nieuwe gegevensmodelconfiguratie maken</span><span class="sxs-lookup"><span data-stu-id="d000f-114">Create a new data model configuration</span></span>
+1. <span data-ttu-id="d000f-115">Klik op Configuratie maken om het dialoogvenster voor beëindigen te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-115">Click Create configuration to open the drop dialog.</span></span>
+2. <span data-ttu-id="d000f-116">Typ "Payments (simplified model)" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-116">In the Name field, type 'Payments (simplified model)'.</span></span>
+3. <span data-ttu-id="d000f-117">Typ "Configuratie van betalingsmodel" in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="d000f-117">In the Description field, type 'Payment model configuration'.</span></span>
+
+    <span data-ttu-id="d000f-118">De actieve configuratieprovider wordt hier automatisch ingevoerd.</span><span class="sxs-lookup"><span data-stu-id="d000f-118">The active configuration provider is automatically entered here.</span></span> <span data-ttu-id="d000f-119">Deze provider kan deze configuratie onderhouden.</span><span class="sxs-lookup"><span data-stu-id="d000f-119">This provider will be able to maintain this configuration.</span></span> <span data-ttu-id="d000f-120">Andere providers kunnen deze configuratie wel gebruiken, maar niet onderhouden.</span><span class="sxs-lookup"><span data-stu-id="d000f-120">Other providers can use this configuration, but will not be able to maintain it.</span></span>  
+
+4. <span data-ttu-id="d000f-121">Klik op de knop 'Configuratie maken' om de taak van het maken van een configuratie te voltooien</span><span class="sxs-lookup"><span data-stu-id="d000f-121">Click 'Create configuration' button to complete the configuration creation task</span></span>
+
+## <a name="create-a-data-model"></a><span data-ttu-id="d000f-122">Een gegevensmodel maken</span><span class="sxs-lookup"><span data-stu-id="d000f-122">Create a data model</span></span>
+<span data-ttu-id="d000f-123">U maakt een nieuw gegevensmodel voor de geselecteerde configuratie.</span><span class="sxs-lookup"><span data-stu-id="d000f-123">You're creating a new data model for the selected configuration.</span></span> <span data-ttu-id="d000f-124">Deze configuratieversie heeft de status Concept.</span><span class="sxs-lookup"><span data-stu-id="d000f-124">This configuration version will have a status of Draft.</span></span>  
+1. <span data-ttu-id="d000f-125">Klik op Ontwerper.</span><span class="sxs-lookup"><span data-stu-id="d000f-125">Click Designer.</span></span>
+
+## <a name="define-the-structure-of-a-party-participating-in-a-payment-process"></a><span data-ttu-id="d000f-126">De structuur van een partij die deelneemt aan een betalingsproces definiëren</span><span class="sxs-lookup"><span data-stu-id="d000f-126">Define the structure of a party participating in a payment process</span></span>
+1. <span data-ttu-id="d000f-127">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-127">Click New to open the drop dialog.</span></span>
+2. <span data-ttu-id="d000f-128">Typ in het veld Naam de tekst "Partij".</span><span class="sxs-lookup"><span data-stu-id="d000f-128">In the Name field, type 'Party'.</span></span>
+3. <span data-ttu-id="d000f-129">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-129">Click Add.</span></span>
+4. <span data-ttu-id="d000f-130">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-130">Click New to open the drop dialog.</span></span>
+5. <span data-ttu-id="d000f-131">Typ "Name" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-131">In the Name field, type 'Name'.</span></span>
+6. <span data-ttu-id="d000f-132">Selecteer "String" in het veld Artikeltype.</span><span class="sxs-lookup"><span data-stu-id="d000f-132">In the Item type field, select 'String'.</span></span>
+7. <span data-ttu-id="d000f-133">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-133">Click Add.</span></span>
+8. <span data-ttu-id="d000f-134">Typ in het veld Zoeken de tekst "Partij".</span><span class="sxs-lookup"><span data-stu-id="d000f-134">In the Find field, type 'Party'.</span></span>
+9. <span data-ttu-id="d000f-135">Klik op Vorige zoeken.</span><span class="sxs-lookup"><span data-stu-id="d000f-135">Click Find previous.</span></span>
+
+## <a name="define-the-bank-structure-for-this-model"></a><span data-ttu-id="d000f-136">De bankstructuur voor dit model definiëren</span><span class="sxs-lookup"><span data-stu-id="d000f-136">Define the bank structure for this model</span></span>
+1. <span data-ttu-id="d000f-137">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-137">Click New to open the drop dialog.</span></span>
+2. <span data-ttu-id="d000f-138">Typ "Agent" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-138">In the Name field, type 'Agent'.</span></span>
+3. <span data-ttu-id="d000f-139">Selecteer "Record" in het veld Artikeltype.</span><span class="sxs-lookup"><span data-stu-id="d000f-139">In the Item type field, select 'Record'.</span></span>
+4. <span data-ttu-id="d000f-140">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-140">Click Add.</span></span>
+5. <span data-ttu-id="d000f-141">Typ in het veld Omschrijving: "Financiële instelling (bijvoorbeeld een bank) waar de partij (debiteur/crediteur) een rekening heeft".</span><span class="sxs-lookup"><span data-stu-id="d000f-141">In the Description field, enter 'Financial institution (for instance, a bank) servicing an account for the party (debtor/creditor).'.</span></span>
+
+    <span data-ttu-id="d000f-142">Financiële instelling (bijvoorbeeld een bank) waar de partij (debiteur/credieteur) een rekening heeft.</span><span class="sxs-lookup"><span data-stu-id="d000f-142">Financial institution (for instance, a bank) servicing an account for the party (debtor/creditor).</span></span>  
+
+6. <span data-ttu-id="d000f-143">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-143">Click New to open the drop dialog.</span></span>
+7. <span data-ttu-id="d000f-144">Typ "Name" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-144">In the Name field, type 'Name'.</span></span> 
+8. <span data-ttu-id="d000f-145">Selecteer "String" in het veld Artikeltype.</span><span class="sxs-lookup"><span data-stu-id="d000f-145">In the Item type field, select 'String'.</span></span>
+9. <span data-ttu-id="d000f-146">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-146">Click Add.</span></span>
+10. <span data-ttu-id="d000f-147">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-147">Click New to open the drop dialog.</span></span>
+11. <span data-ttu-id="d000f-148">Typ "SWIFT" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-148">In the Name field, type 'SWIFT'.</span></span>
+12. <span data-ttu-id="d000f-149">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-149">Click Add.</span></span>
+13. <span data-ttu-id="d000f-150">Typ in het veld Beschrijving de tekst "De ID-code van de bank".</span><span class="sxs-lookup"><span data-stu-id="d000f-150">In the Description field, enter 'Bank identification code'.</span></span> 
+14. <span data-ttu-id="d000f-151">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-151">Click New to open the drop dialog.</span></span>
+15. <span data-ttu-id="d000f-152">Typ "RoutingNumber" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-152">In the Name field, type 'RoutingNumber'.</span></span>
+16. <span data-ttu-id="d000f-153">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-153">Click Add.</span></span>
+17. <span data-ttu-id="d000f-154">Typ in het veld Beschrijving de tekst "Routenummer".</span><span class="sxs-lookup"><span data-stu-id="d000f-154">In the Description field, enter 'Routing number'.</span></span>
+18. <span data-ttu-id="d000f-155">Klik op Vorige zoeken.</span><span class="sxs-lookup"><span data-stu-id="d000f-155">Click Find previous.</span></span>
+
+## <a name="define-the-bank-account-structure-for-this-model"></a><span data-ttu-id="d000f-156">De bankrekeningstructuur voor dit model definiëren</span><span class="sxs-lookup"><span data-stu-id="d000f-156">Define the bank account structure for this model</span></span>
+1. <span data-ttu-id="d000f-157">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-157">Click New to open the drop dialog.</span></span>
+2. <span data-ttu-id="d000f-158">Typ "Account" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-158">In the Name field, type 'Account'.</span></span> 
+3. <span data-ttu-id="d000f-159">Selecteer "Record" in het veld Artikeltype.</span><span class="sxs-lookup"><span data-stu-id="d000f-159">In the Item type field, select 'Record'.</span></span>
+4. <span data-ttu-id="d000f-160">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-160">Click Add.</span></span>
+5. <span data-ttu-id="d000f-161">Typ in het veld Beschrijving: "De ID van een rekening van een partij bij een financiële instelling (bijvoorbeeld een bank)".</span><span class="sxs-lookup"><span data-stu-id="d000f-161">In the Description field, enter 'Identification of an account of a party in a financial institution (for instance, a bank).'.</span></span>
+
+    <span data-ttu-id="d000f-162">De ID van een rekening van een partij bij een financiële instelling (bijvoorbeeld een bank).</span><span class="sxs-lookup"><span data-stu-id="d000f-162">Identification of an account of a party in a financial institution (for instance, a bank).</span></span>  
+
+6. <span data-ttu-id="d000f-163">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-163">Click New to open the drop dialog.</span></span>
+7. <span data-ttu-id="d000f-164">Typ "Currency" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-164">In the Name field, type 'Currency'.</span></span> 
+8. <span data-ttu-id="d000f-165">Selecteer "String" in het veld Artikeltype.</span><span class="sxs-lookup"><span data-stu-id="d000f-165">In the Item type field, select 'String'.</span></span>
+9. <span data-ttu-id="d000f-166">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-166">Click Add.</span></span>
+10. <span data-ttu-id="d000f-167">Typ in het veld Beschrijving de tekst "Valutacode".</span><span class="sxs-lookup"><span data-stu-id="d000f-167">In the Description field, enter 'Currency code'.</span></span>
+11. <span data-ttu-id="d000f-168">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-168">Click New to open the drop dialog.</span></span>
+12. <span data-ttu-id="d000f-169">Typ "Number" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-169">In the Name field, type 'Number'.</span></span> 
+13. <span data-ttu-id="d000f-170">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-170">Click Add.</span></span>
+14. <span data-ttu-id="d000f-171">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-171">Click New to open the drop dialog.</span></span>
+15. <span data-ttu-id="d000f-172">Typ "IBAN" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-172">In the Name field, type 'IBAN'.</span></span> 
+16. <span data-ttu-id="d000f-173">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-173">Click Add.</span></span>
+17. <span data-ttu-id="d000f-174">Typ in het veld Beschrijving de tekst "Internationaal bankrekeningnummer".</span><span class="sxs-lookup"><span data-stu-id="d000f-174">In the Description field, enter 'International bank account number'.</span></span>
+
+## <a name="define-the-payment-message-structure-for-credit-transfer-payment-type"></a><span data-ttu-id="d000f-175">De structuur definiëren van het betalingsbericht voor het betalingstype kredietoverdracht</span><span class="sxs-lookup"><span data-stu-id="d000f-175">Define the payment message structure for credit transfer payment type</span></span>
+1. <span data-ttu-id="d000f-176">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-176">Click New to open the drop dialog.</span></span>
+2. <span data-ttu-id="d000f-177">Typ in het veld "Nieuw knooppunt als een" de tekst "Modelbasis".</span><span class="sxs-lookup"><span data-stu-id="d000f-177">In the New node as a field, enter 'Model root'.</span></span>
+3. <span data-ttu-id="d000f-178">Typ "CustomerCreditTransferInitiation" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-178">In the Name field, type 'CustomerCreditTransferInitiation'.</span></span>
+4. <span data-ttu-id="d000f-179">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-179">Click Add.</span></span>
+5. <span data-ttu-id="d000f-180">Typ in het veld Zoeken de tekst "CustomerCreditTransferInitiation".</span><span class="sxs-lookup"><span data-stu-id="d000f-180">In the Find field, type 'CustomerCreditTransferInitiation'.</span></span> 
+6. <span data-ttu-id="d000f-181">Klik op Vorige zoeken.</span><span class="sxs-lookup"><span data-stu-id="d000f-181">Click Find previous.</span></span>
+7. <span data-ttu-id="d000f-182">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-182">Click New to open the drop dialog.</span></span>
+8. <span data-ttu-id="d000f-183">Typ "MessageIdentification" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-183">In the Name field, type 'MessageIdentification'.</span></span> 
+9. <span data-ttu-id="d000f-184">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-184">Click Add.</span></span>
+10. <span data-ttu-id="d000f-185">Typ in het veld Omschrijving: "De punt-naar-punt-verwijzing, zoals toegewezen door de instruerende partij en verzonden naar de volgende partij in de keten, zodat het bericht ondubbelzinnig kan worden geïdentificeerd".</span><span class="sxs-lookup"><span data-stu-id="d000f-185">In the Description field, enter 'The point-to-point reference assigned by the instructing party (and sent to the next party) to identify a message.'.</span></span>
+
+    <span data-ttu-id="d000f-186">De verwijzing van punt naar punt die is toegewezen door de instruerende partij (en verzonden naar de volgende partij) om een bericht te identificeren.</span><span class="sxs-lookup"><span data-stu-id="d000f-186">The point-to-point reference assigned by the instructing party (and sent to the next party) to identify a message.</span></span>  
+
+11. <span data-ttu-id="d000f-187">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-187">Click New to open the drop dialog.</span></span>
+12. <span data-ttu-id="d000f-188">Typ "ProcessingDateTime" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-188">In the Name field, type 'ProcessingDateTime'.</span></span>
+13. <span data-ttu-id="d000f-189">Selecteer "DateTime" in het veld Artikeltype.</span><span class="sxs-lookup"><span data-stu-id="d000f-189">In the Item type field, select 'DateTime'.</span></span>
+14. <span data-ttu-id="d000f-190">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-190">Click Add.</span></span>
+15. <span data-ttu-id="d000f-191">Typ in het veld Beschrijving: "De datum en tijd waarop het betalingsbericht is gemaakt".</span><span class="sxs-lookup"><span data-stu-id="d000f-191">In the Description field, enter 'Date and time at which the payment message was created.'.</span></span> 
+16. <span data-ttu-id="d000f-192">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-192">Click New to open the drop dialog.</span></span>
+
+    <span data-ttu-id="d000f-193">Definieer de betalingstransactiestructuur voor dit model.</span><span class="sxs-lookup"><span data-stu-id="d000f-193">Define the payment transaction structure for this model.</span></span>  
+
+17. <span data-ttu-id="d000f-194">Typ "Payments" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-194">In the Name field, type 'Payments'.</span></span>
+18. <span data-ttu-id="d000f-195">Selecteer "Record list" in het veld Artikeltype.</span><span class="sxs-lookup"><span data-stu-id="d000f-195">In the Item type field, select 'Record list'.</span></span>
+19. <span data-ttu-id="d000f-196">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-196">Click Add.</span></span>
+20. <span data-ttu-id="d000f-197">Typ "Betalingsregels van het huidige bericht" in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="d000f-197">In the Description field, enter 'Payment lines of the current message'.</span></span>
+21. <span data-ttu-id="d000f-198">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-198">Click New to open the drop dialog.</span></span>
+22. <span data-ttu-id="d000f-199">Typ "Creditor" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-199">In the Name field, type 'Creditor'.</span></span> 
+23. <span data-ttu-id="d000f-200">Selecteer "Record" in het veld Artikeltype.</span><span class="sxs-lookup"><span data-stu-id="d000f-200">In the Item type field, select 'Record'.</span></span>
+24. <span data-ttu-id="d000f-201">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-201">Click Add.</span></span>
+25. <span data-ttu-id="d000f-202">Typ in het veld Beschrijving: "Partij aan wie een geldbedrag verschuldigd is".</span><span class="sxs-lookup"><span data-stu-id="d000f-202">In the Description field, enter 'Party to which an amount of money is due.'.</span></span> 
+26. <span data-ttu-id="d000f-203">Klik op Artikelverwijzing omschakelen.</span><span class="sxs-lookup"><span data-stu-id="d000f-203">Click Switch item reference.</span></span>
+27. <span data-ttu-id="d000f-204">Typ in het veld Zoeken de tekst "Partij".</span><span class="sxs-lookup"><span data-stu-id="d000f-204">In the Find field, type 'Party'.</span></span>
+28. <span data-ttu-id="d000f-205">Klik op Volgende zoeken.</span><span class="sxs-lookup"><span data-stu-id="d000f-205">Click Find next.</span></span>
+29. <span data-ttu-id="d000f-206">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="d000f-206">Click OK.</span></span>
+30. <span data-ttu-id="d000f-207">Typ in het veld Zoeken de tekst "Betalingen".</span><span class="sxs-lookup"><span data-stu-id="d000f-207">In the Find field, type 'Payments'.</span></span>
+31. <span data-ttu-id="d000f-208">Klik op Volgende zoeken.</span><span class="sxs-lookup"><span data-stu-id="d000f-208">Click Find next.</span></span>
+32. <span data-ttu-id="d000f-209">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-209">Click New to open the drop dialog.</span></span>
+33. <span data-ttu-id="d000f-210">Typ "Debtor" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-210">In the Name field, type 'Debtor'.</span></span> 
+34. <span data-ttu-id="d000f-211">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-211">Click Add.</span></span>
+35. <span data-ttu-id="d000f-212">Typ in het veld Beschrijving: "Partij die een geldbedrag verschuldigd is aan de (uiteindelijke) crediteur".</span><span class="sxs-lookup"><span data-stu-id="d000f-212">In the Description field, enter 'Party that owes an amount of money to the (ultimate) creditor.'.</span></span>
+36. <span data-ttu-id="d000f-213">Klik op Artikelverwijzing omschakelen.</span><span class="sxs-lookup"><span data-stu-id="d000f-213">Click Switch item reference.</span></span>
+37. <span data-ttu-id="d000f-214">Typ in het veld Zoeken de tekst "Partij".</span><span class="sxs-lookup"><span data-stu-id="d000f-214">In the Find field, type 'Party'.</span></span>
+38. <span data-ttu-id="d000f-215">Klik op Volgende zoeken.</span><span class="sxs-lookup"><span data-stu-id="d000f-215">Click Find next.</span></span>
+39. <span data-ttu-id="d000f-216">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="d000f-216">Click OK.</span></span>
+40. <span data-ttu-id="d000f-217">Klik op Volgende zoeken.</span><span class="sxs-lookup"><span data-stu-id="d000f-217">Click Find next.</span></span>
+41. <span data-ttu-id="d000f-218">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-218">Click New to open the drop dialog.</span></span>
+42. <span data-ttu-id="d000f-219">Typ "Description" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-219">In the Name field, type 'Description'.</span></span>
+43. <span data-ttu-id="d000f-220">Selecteer "String" in het veld Artikeltype.</span><span class="sxs-lookup"><span data-stu-id="d000f-220">In the Item type field, select 'String'.</span></span>
+44. <span data-ttu-id="d000f-221">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-221">Click Add.</span></span>
+45. <span data-ttu-id="d000f-222">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-222">Click New to open the drop dialog.</span></span>
+46. <span data-ttu-id="d000f-223">Typ "Currency" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-223">In the Name field, type 'Currency'.</span></span>
+47. <span data-ttu-id="d000f-224">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-224">Click Add.</span></span>
+48. <span data-ttu-id="d000f-225">Typ in het veld Beschrijving de tekst "Valutacode".</span><span class="sxs-lookup"><span data-stu-id="d000f-225">In the Description field, enter 'Currency code'.</span></span>
+49. <span data-ttu-id="d000f-226">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-226">Click New to open the drop dialog.</span></span>
+50. <span data-ttu-id="d000f-227">Typ "TransactionDate" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-227">In the Name field, type 'TransactionDate'.</span></span> 
+51. <span data-ttu-id="d000f-228">Selecteer "Date" in het veld Artikeltype.</span><span class="sxs-lookup"><span data-stu-id="d000f-228">In the Item type field, select 'Date'.</span></span>
+52. <span data-ttu-id="d000f-229">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-229">Click Add.</span></span>
+53. <span data-ttu-id="d000f-230">Typ in het veld Beschrijving de tekst "Transactiedatum".</span><span class="sxs-lookup"><span data-stu-id="d000f-230">In the Description field, enter 'Transaction date'.</span></span> 
+54. <span data-ttu-id="d000f-231">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-231">Click New to open the drop dialog.</span></span>
+55. <span data-ttu-id="d000f-232">Typ "InstructedAmount" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-232">In the Name field, type 'InstructedAmount'.</span></span>  
+56. <span data-ttu-id="d000f-233">Selecteer "Real" in het veld Artikeltype.</span><span class="sxs-lookup"><span data-stu-id="d000f-233">In the Item type field, select 'Real'.</span></span>
+57. <span data-ttu-id="d000f-234">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-234">Click Add.</span></span>
+58. <span data-ttu-id="d000f-235">Typ in het veld Beschrijving: "Het geldbedrag dat moet worden verplaatst tussen de debiteur en de crediteur, vóór aftrek van toeslagen".</span><span class="sxs-lookup"><span data-stu-id="d000f-235">In the Description field, enter 'The amount of money to be moved between the debtor and creditor, before deduction of charges.</span></span> <span data-ttu-id="d000f-236">Het bedrag moet worden uitgedrukt in de valuta die door de initiërende partij is aangevraagd." in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="d000f-236">The amount should be expressed in the currency as ordered by the initiating party.'.</span></span>
+
+    <span data-ttu-id="d000f-237">Het geldbedrag dat moet worden verplaatst tussen de debiteur en de crediteur, vóór aftrek van toeslagen.</span><span class="sxs-lookup"><span data-stu-id="d000f-237">The amount of money to be moved between the debtor and creditor, before deduction of charges.</span></span> <span data-ttu-id="d000f-238">Het bedrag moet worden uitgedrukt in de valuta die door de initiërende partij is aangevraagd.</span><span class="sxs-lookup"><span data-stu-id="d000f-238">The amount should be expressed in the currency as ordered by the initiating party.</span></span>  
+
+59. <span data-ttu-id="d000f-239">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="d000f-239">Click New to open the drop dialog.</span></span>
+60. <span data-ttu-id="d000f-240">Typ "End2EndID" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-240">In the Name field, type 'End2EndID'.</span></span> 
+61. <span data-ttu-id="d000f-241">Selecteer "String" in het veld Artikeltype.</span><span class="sxs-lookup"><span data-stu-id="d000f-241">In the Item type field, select 'String'.</span></span>
+62. <span data-ttu-id="d000f-242">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d000f-242">Click Add.</span></span>
+63. <span data-ttu-id="d000f-243">Typ in het veld Beschrijving: "De unieke identificatie die is toegewezen door de initiërende partij".</span><span class="sxs-lookup"><span data-stu-id="d000f-243">In the Description field, enter 'The unique identification assigned by the initiating party.</span></span> <span data-ttu-id="d000f-244">Deze identificatie wordt ongewijzigd doorgegeven door de volledige keten heen, van begin tot einde." in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="d000f-244">This identification is passed on, unchanged, throughout the entire end-to-end chain.'.</span></span> 
+64. <span data-ttu-id="d000f-245">Typ "PaymentModel" in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d000f-245">In the Name field, type 'PaymentModel'.</span></span>
+
+    <span data-ttu-id="d000f-246">De naam PaymentModel is afgestemd op vooraf gedefinieerde interfaces van betalingsformulieren.</span><span class="sxs-lookup"><span data-stu-id="d000f-246">The PaymentModel name aligns with predefined interfaces of payment forms.</span></span>  
+
+65. <span data-ttu-id="d000f-247">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="d000f-247">Click Save.</span></span>
+66. <span data-ttu-id="d000f-248">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d000f-248">Close the page.</span></span>
+

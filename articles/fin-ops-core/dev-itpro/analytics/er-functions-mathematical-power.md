@@ -1,0 +1,65 @@
+---
+title: De ER-functie POWER
+description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) POWER.
+author: NickSelin
+manager: kfend
+ms.date: 12/17/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-platform
+ms.technology: ''
+ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
+audience: Application User, IT Pro
+ms.reviewer: kfend
+ms.custom: 58771
+ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
+ms.search.region: Global
+ms.author: nselin
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 858f59cf0bc6387b09cbb6f0c59f58ba8107582c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683324"
+---
+# <a name="power-er-function"></a><span data-ttu-id="874f5-103">De ER-functie POWER</span><span class="sxs-lookup"><span data-stu-id="874f5-103">POWER ER function</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="874f5-104">De functie `POWER` retourneert een *werkelijke* waarde die het resultaat vertegenwoordigt van het verheffen van het opgegeven positieve getal naar de opgegeven macht.</span><span class="sxs-lookup"><span data-stu-id="874f5-104">The `POWER` function returns a *Real* value that represents the result of raising the specified positive number to the specified power.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="874f5-105">Syntaxis</span><span class="sxs-lookup"><span data-stu-id="874f5-105">Syntax</span></span>
+
+```vb
+POWER (number, power)
+```
+
+## <a name="arguments"></a><span data-ttu-id="874f5-106">Argumenten</span><span class="sxs-lookup"><span data-stu-id="874f5-106">Arguments</span></span>
+
+<span data-ttu-id="874f5-107">`number`: *Werkelijk* of *Geheel getal*</span><span class="sxs-lookup"><span data-stu-id="874f5-107">`number`: *Real* or *Integer*</span></span>
+
+<span data-ttu-id="874f5-108">Een numerieke waarde die moet worden verheven naar de opgegeven macht.</span><span class="sxs-lookup"><span data-stu-id="874f5-108">A numeric value that must be raised to the specified power.</span></span>
+
+<span data-ttu-id="874f5-109">`power`: *Werkelijk* of *Geheel getal*</span><span class="sxs-lookup"><span data-stu-id="874f5-109">`power`: *Real* or *Integer*</span></span>
+
+<span data-ttu-id="874f5-110">Een numerieke waarde die de specifieke macht vertegenwoordigt.</span><span class="sxs-lookup"><span data-stu-id="874f5-110">A numeric value that represents the specific power.</span></span>
+
+## <a name="return-values"></a><span data-ttu-id="874f5-111">Retourwaarden</span><span class="sxs-lookup"><span data-stu-id="874f5-111">Return values</span></span>
+
+<span data-ttu-id="874f5-112">*Real-modus*</span><span class="sxs-lookup"><span data-stu-id="874f5-112">*Real*</span></span>
+
+<span data-ttu-id="874f5-113">De resulterende numerieke waarde.</span><span class="sxs-lookup"><span data-stu-id="874f5-113">The resulting numeric value.</span></span>
+
+## <a name="example-1"></a><span data-ttu-id="874f5-114">Voorbeeld 1</span><span class="sxs-lookup"><span data-stu-id="874f5-114">Example 1</span></span>
+
+<span data-ttu-id="874f5-115">`POWER (10, 2)` retourneert **100**.</span><span class="sxs-lookup"><span data-stu-id="874f5-115">`POWER (10, 2)` returns **100**.</span></span>
+
+## <a name="example-2"></a><span data-ttu-id="874f5-116">Voorbeeld 2</span><span class="sxs-lookup"><span data-stu-id="874f5-116">Example 2</span></span>
+
+<span data-ttu-id="874f5-117">`POWER (4, 0.5)` retourneert **2**.</span><span class="sxs-lookup"><span data-stu-id="874f5-117">`POWER (4, 0.5)` returns **2**.</span></span>
+
+## <a name="additional-resources"></a><span data-ttu-id="874f5-118">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="874f5-118">Additional resources</span></span>
+
+[<span data-ttu-id="874f5-119">Wiskundige functies</span><span class="sxs-lookup"><span data-stu-id="874f5-119">Mathematical functions</span></span>](er-functions-category-mathematical.md)
