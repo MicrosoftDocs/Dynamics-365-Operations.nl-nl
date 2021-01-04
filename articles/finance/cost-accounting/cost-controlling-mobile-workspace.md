@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 22acdcfbecc1efe78a1b1be87e40b2e7d23506fc
-ms.sourcegitcommit: cd339f48066b1d0fc740b513cb72ea19015acd16
+ms.openlocfilehash: 4fc35feb4f3a67ba9c8c70c2d2f8c07cb944b0f6
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "3759443"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4442185"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Mobiel werkgebied voor kostenbeheer
 
@@ -36,7 +36,7 @@ Dit mobiele werkgebied is bedoeld om samen te worden gebruikt met de mobiele app
 ## <a name="overview"></a>Overzicht
 Het mobiele werkgebied **Kostenbeheer** biedt een directe weergave van de huidige prestaties van kostenplaatsen door werkelijke kosten ten opzichte van de gebudgetteerde kosten te vergelijken. U kunt inzoomen op de status van afzonderlijke kostenelementen.
 
-Bijvoorbeeld: een werknemer ontvangt een uitnodiging voor een internationale conferentie, maar de organisatie moet alle reiskosten betalen. De werknemer vraagt zijn/haar manager of hij/zij de conferentie mag bijwonen. De manager opent snel het mobiele werkgebied **Kostenbeheer** op haarmobiele telefoon om te zien of zij budget heeft zodat de werknemer de conferentie kan bijwonen.
+Bijvoorbeeld: een werknemer ontvangt een uitnodiging voor een internationale conferentie, maar de organisatie moet alle reiskosten betalen. De werknemer vraagt zijn/haar manager of hij/zij de conferentie mag bijwonen. De manager opent het mobiele werkgebied **Kostenbeheer** op haar/zijn mobiele apparaat om te zien of er budget is zodat de werknemer de conferentie kan bijwonen.
 
 ### <a name="data-security"></a>Gegevensbeveiliging
 De gegevens in het mobiele werkgebied **Kostenbeheer** worden beveiligd via gebruikersreferenties. Kostenplaatsmanagers mag alleen gegevens voor hun eigen kostenplaats bekijken. De beveiliging op toegangsniveau wordt beheerd binnen de module **Kostprijsboekhouding**.
@@ -71,7 +71,7 @@ Het mobiele werkgebied **Kostenbeheer** bevat de volgende acties, weergaven en k
     -   Details voor vorige periode
     -   Details voor jaar tot heden
 
-    Wanneer u een koppeling selecteert, wordt een kaart voor elk kostenelement weergegeven. De volgende bedragen worden weergegeven op elke kaart: Werkelijk, Budget, Budgetafwijking, Budgetafwijking in %, Herzien budget, Herziene budgetafwijking en Herziene budgetafwijking in %.
+    Wanneer u een koppeling selecteert, wordt een kaart voor elk kostenelement weergegeven. De volgende bedragen worden weergegeven op elke kaart: Werkelijk, Budget, Budgetafwijking, Budgetafwijking %, Herzien budget, Herziene budgetafwijking en Herziene budgetafwijking %.
     
     [![Kaart voor een kostenelement ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 

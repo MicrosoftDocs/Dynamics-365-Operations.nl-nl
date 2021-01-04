@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: da4353849b053ff94cf1fda7a03568438d0111da
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015002"
+ms.locfileid: "4442133"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Een gedeeltelijke klantenbetaling vereffenen met kortingen op creditnota's
 
@@ -31,7 +31,7 @@ ms.locfileid: "4015002"
 
 Dit artikel begeleidt u door een scenario waarbij een contantkorting op een creditnota wordt genomen wanneer de oorspronkelijke factuur ook een contantkorting had. 
 
-Fabrikam stelt klanten in staat om contantkortingen te nemen op gedeeltelijke betalingen en ook op creditnota's. Een contantkorting kan op een creditnota worden toegepast wanneer de creditnota is uitgegeven voor een factuur waarvoor de klant een contantkorting heeft genomen. In plaats van een creditering te verlenen voor het gehele bedrag, kunt u het saldo van de klant crediteren voor een bedrag dat het contantkortingspercentage uitsluit dat de klant heeft genomen. De vereffeningparameters bevinden zich op de pagina  **Leveranciersparameters**.
+Fabrikam stelt klanten in staat om contantkortingen te nemen op gedeeltelijke betalingen en ook op creditnota's. Een contantkorting kan op een creditnota worden toegepast wanneer de creditnota is uitgegeven voor een factuur waarvoor de klant een contantkorting heeft genomen. In plaats van een creditering te verlenen voor het gehele bedrag, kunt u het saldo van de klant crediteren voor een bedrag dat het contantkortingspercentage uitsluit dat de klant heeft genomen. De vereffeningparameters bevinden zich op de pagina **Leveranciersparameters**.
 
 ## <a name="invoice-and-credit-note"></a>Factuur en creditnota
 Klant 4035 heeft een factuur voor 1.000,00 en een creditnota voor 100,00. Elk document heeft een korting van 1 procent als het binnen 14 dagen wordt betaald. Arnie kan deze informatie bekijken op de pagina **Klanttransacties**.
@@ -51,11 +51,11 @@ Vanaf de pagina **Klanttransacties** opent Arnie de pagina **Transacties vereffe
 
 Informatie over korting wordt onder aan de pagina **Transacties vereffenen** weergegeven.
 
-- **Datum van contantkorting** : 12/7/2015 
-- **Contantkortingsbedrag** : -1,00     
-- **Contantkorting gebruiken** : normaal    
-- **Toegepaste contantkorting** : 0,00      
-- **Contantkortingsbedrag dat moet worden toegepast** : -1,00     
+- **Datum van contantkorting**: 12/7/2015 
+- **Contantkortingsbedrag**: -1,00     
+- **Contantkorting gebruiken**: normaal    
+- **Toegepaste contantkorting**: 0,00      
+- **Contantkortingsbedrag dat moet worden toegepast**: -1,00     
 
 De vereffening is 100,00 en omvat een betaling van 99,00 en een korting van 1,00.
 

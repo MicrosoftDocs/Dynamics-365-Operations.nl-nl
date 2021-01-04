@@ -3,7 +3,7 @@ title: Overzicht van financiële rapportage
 description: In dit onderwerp wordt beschreven waar u toegang kunt krijgen tot financiële rapportage in Microsoft Dynamics 365 Finance en hoe u de financiële rapportagemogelijkheden kunt gebruiken.
 author: aprilolson
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd87983ce062bd1fa57e97628986cadced9971ab
-ms.sourcegitcommit: 374298f0816b57c95c0c3e3fd7e852399e1d8696
+ms.openlocfilehash: 88436b4a5d6be4172e15fa4a9dadc34696417fb9
+ms.sourcegitcommit: eec96c64f44d1b4877d49ee15665a774019d42d7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3999544"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672439"
 ---
 # <a name="get-started-with-financial-reporting"></a>Aan de slag met Financial Reporting 
 
@@ -114,17 +114,17 @@ Financiële rapportage bevat 22 standaard financiële rapporten. Elk rapport maa
 | Balans en Inkomensoverzicht naast elkaar - Standaard | De financiële positie en de rentabiliteit van de organisatie voor het jaar naast elkaar weergeven.                                                                                                                                                                                                                              |
 | Cashflow – Standaard                                       | Inzicht verkrijgen in contact geld dat de organisatie in en uit gaat.                                                                                                                                                                                                                                   |
 | Gedetailleerde JE en TB-controle – Standaard                      | Weergaveopeningssaldo en activiteitinformatie voor alle accounts.                                                                                                                                                                                                                                                      |
-| Gedetailleerde proefbalans - Standaard                         | Saldogegevens weergeven voor alle rekeningen met debet- en creditsaldi, en het nettobedrag van deze saldi, samen met de transactiedatum, het boekstuk en de journaalomschrijving.                                                                                                                                  |
+| [Gedetailleerde proefbalans - Standaard](trial-balance-financial-reports.md)| Saldogegevens weergeven voor alle rekeningen met debet- en creditsaldi, en het nettobedrag van deze saldi, samen met de transactiedatum, het boekstuk en de journaalomschrijving.                                                                                                                                  |
 | Onkosten driejarige kwartaaltrend - Standaard             | Inzicht verkrijgen in onkosten over de afgelopen 12 kwartalen gedurende de afgelopen drie jaar.                                                                                                                                                                                                                                   |
 | Financiële bijschriften JE en TB-controle – Standaard            | Een overzicht bekijken van de saldi en de activiteit voor de financiële bijschriften voor activa, aansprakelijkheid, het eigen vermogen van de eigenaar, opbrengsten, onkosten, winst of verlies.                                                                                                                                                                           |
-| Inkomensoverzicht – Standaard                                | De rentabiliteit van de organisatie voor de huidige periode en het jaar tot heden weergeven.                                                                                                                                                                                                                                   |
+| [Inkomensoverzicht – Standaard](income-statement-financial-report.md)| De rentabiliteit van de organisatie voor de huidige periode en het jaar tot heden weergeven.                                                                                                                                                                                                                                   |
 | Grootboektransactielijst – Standaard                        | Gedetailleerde saldogegevens voor alle rekeningen bekijken. Dit rapport geeft debet- en creditsaldi, samen met aanvullende transactiegegevens, zoals de transactiedatum, het journaalnummer, het boekstuk, het boekingstype en traceringsnummer.                                                                            |
 | Ratio's – Standaard                                          | De solvabiliteit, rentabiliteit en efficiëntiepercentages van de organisatie voor het jaar weergeven.                                                                                                                                                                                                                           |
 | Onkosten opvolgende 12 maanden – Standaard                       | Inzicht verkrijgen in onkosten voor elk van de laatste 12 maanden. Deze 12 maanden kunnen meer dan één boekjaar beslaan.                                                                                                                                                                                                       |
 | Inkomensoverzicht opvolgende kwartalen- Standaard               | De rentabiliteit van een organisatie op kwartaalbasis voor het afgelopen jaar en het jaar tot heden weergeven.                                                                                                                                                                                                                   |
 | Balans naast elkaar - Standaard                      | De financiële positie van de organisatie voor het jaar weergeven. Op dit rapport worden activa en aansprakelijkheid, en het eigen vermogen van de aandeelhouder naast elkaar weergegeven.                                                                                                                                                                                |
-| Overzicht proefbalans – Standaard                          | De saldogegevens voor alle rekeningen openings- en afsluitingssaldi hebben, en debet- en creditsaldi samen met hun netto verschil.                                                                                                                                                                  |
-| Overzicht proefbalansjaar van jaar tot jaar - Standaard           | Saldogegevens weergeven voor alle rekeningen die openings- en eindsaldi hebben, en debet- en creditsaldi samen met hun nettoverschil voor het huidige en afgelopen jaar.                                                                                                                           |
+| [Overzicht proefbalans – Standaard](trial-balance-financial-reports.md)| De saldogegevens voor alle rekeningen openings- en afsluitingssaldi hebben, en debet- en creditsaldi samen met hun netto verschil.                                                                                                                                                                  |
+| [Overzicht proefbalansjaar van jaar tot jaar - Standaard](trial-balance-financial-reports.md)| Saldogegevens weergeven voor alle rekeningen die openings- en eindsaldi hebben, en debet- en creditsaldi samen met hun nettoverschil voor het huidige en afgelopen jaar.                                                                                                                           |
 | Wekelijkse verkoop en kortingen - Standaard                     | Inzicht verkrijgen in verkoop en kortingen voor elke week in een maand. Dit rapport bevat een totaal van vier weken.                                                                                                                                                                                                              |
 | Beschikbare budgetfondsen- Standaard                         | Een gedetailleerde vergelijking weergeven van het herziene budget, feitelijke uitgaven, budgetreserveringen en budgetfondsen die beschikbaar zijn voor alle rekeningen                                                                                                                                                                                  |
 
@@ -149,7 +149,8 @@ Probleem 1: Report Designer start niet wanneer u **Nieuw** of **Bewerken** selec
 * Selecteer **Instellingen** in Internet Explorer en selecteer vervolgens **Internetopties**. Selecteer het tabblad **Beveiliging**. Selecteer Vertrouwde sites. Wijzig de optie in het gebied Beveiligingsniveau voor deze zone in **Normaal-laag**.
 * Schakel de pop-upblokkering uit in de browser.
 * Voor werkstations moet Microsoft .NET Framework 4.6.2 of hoger worden geïnstalleerd. Deze versie van Microsoft .NET Framework kan worden gedownload en geïnstalleerd via het [Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53345).
-* Als u Microsoft Edge met de Chrome-browser, moet u een ClickOnce-extensie installeren om de Report Designer-client te downloaden. Als u de incognitomodus gebruikt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognitomodus is ingeschakeld. 
+* Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de Report Designer-client te downloaden. Als u in de incognito modus van Chrome werkt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognito modus is ingeschakeld. Zie [Systeemvereisten voor cloudimplementaties](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements) voor meer informatie over de ClickOnce-extensie van Chrome.
+* Als u Microsoft Edge met een Chrome-browser gebruikt, hoeft u geen ClickOnce-extensie te installeren voor Edge Chromium. U moet de optie ClickOnce echter inschakelen om de Report Designer-client te downloaden. Als u de incognitomodus gebruikt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognitomodus is ingeschakeld.
      1. Open een nieuwe browser in Microsoft Edge.
      2. Voer **edge://flags** in en selecteer **Enter**.
      3. Zoek naar de optie **ClickOnce-ondersteuning** of gebruik deze directe koppeling: **edge://flags/#edge-click-once**.

@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: b5887efc32c71759e4cb3c31e1b18c4c8b64f173
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977186"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442067"
 ---
 # <a name="electronic-messaging"></a>Elektronische berichten
 
@@ -210,7 +210,7 @@ In de volgende tabel worden de velden op de pagina **Webservice-instellingen** b
 |--------------------------------|-------------|
 | Webservice                    | Geef een naam op voor de webservice. |
 | Omschrijving                    | Geef een omschrijving van de webservice op. |
-| Internetadres               | Geef het internetadres van de webservice op. Als een webtoepassing is opgegeven voor de webservice en als het internetadres van de webservice identiek moet zijn aan het internetadres dat is gedefinieerd voor die webtoepassing, selecteert u **Basis-URL kopiëren**om de basis-URL van de webtoepassing naar dit veld te kopiëren. |
+| Internetadres               | Geef het internetadres van de webservice op. Als een webtoepassing is opgegeven voor de webservice en als het internetadres van de webservice identiek moet zijn aan het internetadres dat is gedefinieerd voor die webtoepassing, selecteert u **Basis-URL kopiëren** om de basis-URL van de webtoepassing naar dit veld te kopiëren. |
 | Getuigschrift                    | Selecteer een eerder ingesteld certificaat voor de sleutelkluis. |
 | Webtoepassing                | Selecteer een eerder ingesteld certificaat voor de sleutelkluis. |
 | Het antwoordtype – XML        | Stel deze optie in op **Ja** als het responstype XML is. |

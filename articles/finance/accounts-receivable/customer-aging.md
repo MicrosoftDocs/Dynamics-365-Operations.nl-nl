@@ -19,11 +19,11 @@ ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5f3a1bba4596c7b645c20a790a6cbe8725ab665d
-ms.sourcegitcommit: e43aef72b7d65db1dcb014dfada5233ac051ba7c
+ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4013048"
+ms.locfileid: "4442130"
 ---
 # <a name="customer-aging-report"></a>Naar ouderdom gerangschikt rapport voor klanten 
 
@@ -48,7 +48,7 @@ Wanneer u dit rapport genereert, worden de volgende standaardparameters weergege
 <td><p>Selecteer een of meer factureringsclassificaties die u in het rapport wilt opnemen.</p>
 <div class="alert">
 
-**Opmerking** : dit besturingselement is alleen beschikbaar als de configuratiesleutel <STRONG>Openbare sector</STRONG> is geselecteerd.</P>
+**Opmerking**: dit besturingselement is alleen beschikbaar als de configuratiesleutel <STRONG>Openbare sector</STRONG> is geselecteerd.</P>
 
 
 </div></td>
@@ -58,7 +58,7 @@ Wanneer u dit rapport genereert, worden de volgende standaardparameters weergege
 <td><p>Als dit selectievakje is ingeschakeld, worden alle transacties waaraan geen factureringsclassificatie is toegewezen, weergegeven in het rapport.</p>
 <div class="alert">
 
-**Opmerking** : dit besturingselement is alleen beschikbaar als de configuratiesleutel <STRONG>Openbare sector</STRONG> is geselecteerd.</P>
+**Opmerking**: dit besturingselement is alleen beschikbaar als de configuratiesleutel <STRONG>Openbare sector</STRONG> is geselecteerd.</P>
 
 </div></td>
 </tr>
@@ -89,7 +89,7 @@ Wanneer u dit rapport genereert, worden de volgende standaardparameters weergege
 <p>Ouderdomsperiodedefinities met meer dan zes ouderdomsperioden kunnen niet worden gebruikt in het afgedrukte rapport.</p>
 <div class="alert">
 
-**Opmerking** : u kunt ouderdomsperioden instellen op de pagina <STRONG>Ouderdomsperiodedefinities</STRONG>.</P>
+**Opmerking**: u kunt ouderdomsperioden instellen op de pagina <STRONG>Ouderdomsperiodedefinities</STRONG>.</P>
 
 
 </div></td>

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1481b714d089994c1f00189cdaba3ca328f00577
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 90fe7f3ab08e9417af3f857f04934a9b5df3d82d
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983102"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644892"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Groepen boekingen in grootboek instellen voor btw
 
@@ -37,7 +37,7 @@ De btw wordt berekend en naar hoofdrekeningen geboekt die in de grootboekboeking
 6. Selecteer in het veld **Te ontvangen btw** de hoofdrekening voor inkomende btw, die van de belastingdienst moet worden ontvangen. Leveranciers innen btw namens de belastingdienst wanneer u goederen en diensten koopt. Dit veld is niet beschikbaar als de optie Belastingregels btw toepassen is geselecteerd op de pagina **Grootboekparameters**. In plaats hiervan wordt de btw die is betaald aan leveranciers, op dezelfde rekening gedebiteerd als de inkopen.   
 7. Selecteer in het veld **Gebruiksbelastinguitgave** de hoofdrekening voor het boeken van aftrekbare gebruiksbelasting die niet wordt gevorderd of aan de belastingdienst via leveranciers als onderdeel van EU GST/HST-terugboeking wordt gerapporteerd. De optie **Gebruiksbelasting** moet voor de **btw-code** in de **btw-groep** zijn geselecteerd die voor de transactie wordt gebruikt. Dit veld is niet beschikbaar als de optie **Belastingregels btw toepassen** is geselecteerd op de pagina **Grootboekparameters**.   
 8. Selecteer in het veld **Te betalen gebruiksbelasting** de hoofdrekening voor het boeken van inkomende gebruiksbelasting, die aan de belastingdienst moet worden betaald. De optie **Gebruiksbelasting** moet in de **btw-code** in de **btw-groep** zijn geselecteerd om **gebruiksbelasting** te boeken. Als de optie **Belastingregels btw toepassen** is geselecteerd op de pagina **Grootboekparameters**, wordt tegengeboekt op de onkostenrekening van de transactie.   
-9. Selecteer in het veld **Vereffeningsrekening** de hoofdrekening waarnaar het netto saldo van de grootboekrekeningen die in de velden **Te betalen gebruiksbelasting** en **Te ontvangen btw** worden opgegeven, wordt geboekt. Het saldo wordt gemaakt wanneer de taak Btw vereffenen en boeken wordt uitgevoerd.  Als de belastingdienst voor de vereffeningsperiode aan een leveranciersrekening is gekoppeld, wordt het saldo in plaats daarvan geboekt naar de leverancierrekening.
+9. Selecteer in het veld **Vereffeningsrekening** de hoofdrekening waarnaar het netto saldo van de grootboekrekeningen die in de velden **Te betalen gebruiksbelasting** en **Te ontvangen btw** worden opgegeven, wordt geboekt. Het saldo wordt gemaakt wanneer de taak Btw vereffenen en boeken is uitgevoerd.  Als de belastingdienst voor de vereffeningsperiode aan een leveranciersrekening is gekoppeld, wordt het saldo in plaats daarvan geboekt naar de leverancierrekening.
 10. Selecteer in het veld **Contantkorting van leverancier** de hoofdrekening om contantkorting voor btw-codes die zijn gekoppeld aan deze grootboekboekingsgroep te boeken. Dit is optioneel en als er geen rekening is ingevoerd, wordt de hoofdrekening voor **contantkortingscodes** gebruikt. Het kan handig zijn om verschillende rekeningen per **grootboekboekingsgroep** te gebruiken als de optie Btw op contantkorting omkeren op Btw-groepen wordt gebruikt.  
 11. Selecteer in het veld **Contantkorting van klant** de hoofdrekening om contantkorting voor **btw-codes** die zijn gekoppeld aan deze **grootboekboekingsgroep** te boeken. Dit is optioneel en als er geen rekening is ingevoerd, wordt de hoofdrekening op **Contantkortingscodes** gebruikt. Het kan handig zijn om verschillende rekeningen per **grootboekboekingsgroep** te gebruiken als de optie Btw op contantkorting omkeren op **Btw-groepen** wordt gebruikt.  
 12. Klik op **Opslaan**.

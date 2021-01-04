@@ -3,7 +3,7 @@ title: Verwijderde of afgeschafte functies in Dynamics 365 Finance
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Finance.
 author: roschlom
 manager: AnnBe
-ms.date: 03/13/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aebce032d7d780b296ba74fea4467425a3cbe1a7
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175103"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689489"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Verwijderde of afgeschafte functies in Dynamics 365 Finance
 
@@ -35,6 +35,40 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 > [!NOTE]
 > Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Verwijderde of verouderde functies in versie 10.0.16 van Finance
+
+### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>"Exportindeling voor grootboektransacties (BE)" elektronische rapporteringsindeling en het bijbehorende model "Exporteren van grootboektransacties (BE)" voor België
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Vervangen met nieuwe ER-indeling onder het model "Standaard auditfile (SAF-T)".  |
+| **Vervangen door een andere functie?**   | Ja |
+| **Betrokken productgebieden**         | Sollicitatie |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Afgeschaft: op 1 december 2021, zullen we de electronische rapportageindeling 'Exportindeling voor grootboektransacties (BE)' en het bijbehorende model 'Exporteren van grootboektransacties (BE)' niet meer ondersteunen. In plaats daarvan introduceren we een nieuwe indeling 'Grootboekgegevens exporteren (BE)' met 'Modeltoewijzing van grootboekgegevens' in plaats van het model 'Standaard auditfile (SAF-T)'. |
+
+### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>Het rapport 'VAT 100' voor het Verenigd Koninkrijk in SSRS-indeling
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Vervangen door nieuwe ER-indeling - 'VAT-aangifte Excel (VK)'-indeling onder 'Belastingaangiftemodel'.  |
+| **Vervangen door een andere functie?**   | Ja |
+| **Betrokken productgebieden**         | Sollicitatie |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Afgeschaft: op 1 december 2021, wordt het rapport 'VAT 100' in SSRS-indeling niet meer ondersteund. Een nieuwe indeling 'VAT-aangifte Excel (VK)' onder het 'Belastingaangiftemodel' is ingevoerd in de [MTD VAT-functie](../localizations/emea-gbr-mtd-vat-integration.md). |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10015-release"></a>Verwijderde of verouderde functies in versie 10.0.15 van Finance
+
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11-ondersteuning voor Dynamics 365 is afgeschaft
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Met ingang van december 2020 wordt Microsoft Internet Explorer 11-ondersteuning voor alle Dynamics 365-producten afgeschaft en wordt Internet Explorer 11 na augustus 2021 niet meer ondersteund.<br><br>Dit heeft invloed op klanten die Dynamics 365-producten gebruiken die zijn ontworpen om via een Internet Explorer 11-interface te worden gebruikt. Na augustus 2021 wordt Internet Explorer 11 niet ondersteund voor dergelijke Dynamics 365-producten. |
+| **Vervangen door een andere functie?**   | Wij raden klanten aan om overstappen op Microsoft Edge.|
+| **Betrokken productgebieden**         | Alle Dynamics 365-producten |
+| **Implementatieoptie**              | Alles|
+| **Status**                         | Afgeschaft. Internet Explorer 11 wordt na augustus 2021 niet ondersteund.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Verwijderde of verouderde functies in versie 10.0.12 van Finance
 

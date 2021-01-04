@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 55ae179298a980073a03a804711707a1f02c68bd
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 00cdc657fa075e84e62682e33ed3c1bace3f4ad0
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977978"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4442189"
 ---
 # <a name="vendor-workflow"></a>Leverancierswerkstroom
 
@@ -60,4 +60,4 @@ Als u ten minste één voorgestelde wijziging hebt, worden twee extra tabbladen 
 
     De status op de pagina wordt gewijzigd in **Wijzigingen in afwachting van goedkeuring**.
 
-De werkstroom volgt het standaard werkstroomproces. De fiatteur wordt doorgestuurd naar de pagina **Leverancier**, waar hij/zij de wijzigingen op de pagina **Voorgestelde wijzigingen** kan bekijken en **Werkstroom \> Goedkeuren** om de werkstroom goed te keuren. Nadat alle goedkeuringen zijn voltooid, worden de velden bijgewerkt met de voorgestelde waarden.
+De werkstroom volgt het standaard werkstroomproces. De fiatteur wordt doorgestuurd naar de pagina **Leverancier**, waar de wijzigingen op de pagina **Voorgestelde wijzigingen** kunnen worden gecontroleerd en **Werkstroom \> Goedkeuren** kan worden geselecteerd om de werkstroom goed te keuren. Nadat alle goedkeuringen zijn voltooid, worden de velden bijgewerkt met de voorgestelde waarden.

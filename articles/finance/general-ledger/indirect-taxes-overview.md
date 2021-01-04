@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a3dacc755b3d4d3b5c7f51f6bac7c2e9c62773ba
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975022"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442015"
 ---
 # <a name="sales-tax-overview"></a>Btw-overzicht
 
@@ -85,7 +85,7 @@ Als u het selectievakje Voorwaardelijke btw inschakelt in het formulier Grootboe
 ###  <a name="example"></a>Voorbeeld
 
 U betaalt elke maand BTW. Op 15 juni maakt u een klantinvoice van 10.000 met een btw-bedrag.
--   Het btw-percentage is 25% of 25,00.
+-   Het btw-percentage is 25 procent of 2.500.
 -   Factuur moet niet later dan 30 juli betaald worden.
 
 Gewoonlijk zou u 2.500 aan de belastingdienst moeten betalen wanneer de factuur wordt geboekt in juni, zelfs als u geen betaling hebt ontvangen van de klant. 

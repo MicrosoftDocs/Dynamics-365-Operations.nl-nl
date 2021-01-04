@@ -1,6 +1,6 @@
 ---
 title: Een klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingperioden omvatten
-description: Dit onderwerp toont hoe meerdere facturen worden betaald wanneer elke factuur in aanmerking komt voor een contantkorting. De scenario's in zijn artikel markeren hoe de verkregen contantkortingen variëren, afhankelijk van wanneer de betaling wordt uitgevoerd.
+description: Dit onderwerp toont hoe meerdere facturen worden betaald wanneer elke factuur in aanmerking komt voor een contantkorting. De scenario's in dit artikel markeren hoe de verkregen contantkortingen variëren, afhankelijk van wanneer de betaling wordt uitgevoerd.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c592034ca9c777bbc600c040c61937ad71b4e36d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: c7ae0bdc8245db1391103ca0f214fb3120f93f5b
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2177216"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4442187"
 ---
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Een klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingperioden omvatten
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp toont hoe meerdere facturen worden betaald wanneer elke factuur in aanmerking komt voor een contantkorting. De scenario's in zijn artikel markeren hoe de verkregen contantkortingen variëren, afhankelijk van wanneer de betaling wordt uitgevoerd.
+Dit onderwerp toont hoe meerdere facturen worden betaald wanneer elke factuur in aanmerking komt voor een contantkorting. De scenario's in dit artikel markeren hoe de verkregen contantkortingen variëren, afhankelijk van wanneer de betaling wordt uitgevoerd.
 
 Fabrikam verkoopt goederen aan klant 4032. Fabrikam biedt een contantkorting van 1 procent als de factuur binnen 14 dagen wordt betaald. Fabrikam biedt ook contantkortingen op gedeeltelijke betalingen. De vereffeningparameters bevinden zich op de pagina **Leveranciersparameters**.
 

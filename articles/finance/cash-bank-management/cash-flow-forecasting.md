@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2ffb8522729049ca98acfb70992738b45c05b552
-ms.sourcegitcommit: cf39369545a94201f367a4efada595a04a319d42
+ms.openlocfilehash: 64d33212600a75900febbd6ec308e4bf5d4f16b7
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "3653771"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645764"
 ---
 # <a name="cash-flow-forecasting"></a>Cashflowprognose
 
@@ -92,6 +92,11 @@ Budgetten die zijn gemaakt op basis van budgetmodellen, kunnen in cashflowprogno
 ### <a name="inventory-management"></a>Voorraadbeheer
 
 Prognoses voor vraag en aanbod van voorraad kunnen worden opgenomen in cashflowprognoses. Op het tabblad **Voorraadbeheer** van de pagina **Instelling cashflowprognose** selecteert u het prognosemodel dat u in de cashflowprognose wilt opnemen. Opname in cashflowprognose kan voor afzonderlijke prognoseregels voor vraag en aanbod worden overschreven.
+
+### <a name="setting-up-dimensions-for-cash-flow-forecasting"></a>Dimensies voor cashflowprognose instellen
+Met een nieuw tabblad op de pagina **Cashflowprognose instellen** kunt u bepalen welke financiële dimensies moeten worden gebruikt voor het filteren in het werkgebied **Cashflowprognose**. Dit tabblad wordt alleen weergegeven wanneer de functie Cashflowprognoses is ingeschakeld. 
+
+Kies op het tabblad **Dimensies** in de lijst de dimensies die u wilt gebruiken voor het filteren en verplaats deze naar de rechterkolom met de pijltoetsen. Er kunnen slechts twee dimensies worden geselecteerd voor het filteren van cashflowprognosegegevens. 
 
 ### <a name="calculation"></a>Berekening
 

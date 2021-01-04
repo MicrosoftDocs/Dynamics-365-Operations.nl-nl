@@ -1,7 +1,7 @@
 ---
 title: Vaste-activatransacties boeken naar boekingslagen
 description: Dit artikel geeft een overzicht van boekingslaagfunctionaliteit voor vaste-activatransacties.
-author: ShylaThompson
+author: moaamer
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 3001
 ms.assetid: 7dabde57-0843-47c3-85ef-f36b6f472e30
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc8c4f4f41ed39447ae441dd8e01cfcf80c939b5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a80e4d1a081b5bd8c58238b0f154f8fbdc660ccb
+ms.sourcegitcommit: f80819c67c0a7475315fc68ce1cb568831e2c0e7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770707"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4493667"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Vaste-activatransacties boeken naar boekingslagen
 
@@ -39,8 +39,11 @@ Vaste-activajournalen worden bepaald door de pagina Journaalnamen in Grootboek >
 
 U kunt grootboekrekeningen toewijzen voor vaste-activatransacties op de pagina Boekingsprofielen voor vaste activa. Voor elk boekingsprofiel moet u het relevante transactietype en boek selecteren, en vervolgens de grootboekrekeningen aangeven. Stel een boekingsprofielrecord in voor elk boek dat naar het grootboek wordt geboekt.
 
+De vaste activa kunnen worden ingevoerd in documenten die alleen de boekingslaag **Huidig** ondersteunen, zoals **Inkooporder**, **Leveranciersfacturen in behandeling**, **Verkooporder** of **Vrije-tekst factuur**. Wanneer u in een van deze documenten een vaste-activa-id selecteert, wordt het activaboek gefilterd naar het boek met de boekingslaag **Huidig** en wordt het tijdens het boeken automatisch ingevuld wanneer het systeem valideert dat de boekingslaag van het vaste activum **Huidig** is. Als deze validatie niet kan worden voltooid, wordt het boekingsproces gestopt. 
+
 > [!NOTE] 
-> Door afgeleide boeken te gebruiken, kunt u tegelijkertijd transacties naar verschillende boekingslagen boeken. U maakt de transacties van het primaire boek in een journaal waarvan de boekingslaag overeenkomt met de boekingslaag van het boek. Tijdens het boeken worden de transacties van het afgeleide boek naar de respectieve boekingslagen geboekt.
+> Door afgeleide boeken te gebruiken, kunt u tegelijkertijd transacties naar verschillende boekingslagen boeken. De transacties van het primaire boek worden gemaakt in een journaal of brondocument waarvan de boekingslaag overeenkomt met de boekingslaag van het boek. Tijdens het boeken worden de transacties van het afgeleide boek naar de respectieve boekingslagen geboekt. 
+
 
 Zie voor meer informatie [Afgeleide boeken](derived-books.md) en [Boeken met afgeleide boeken](post-derived-value-models.md).
 

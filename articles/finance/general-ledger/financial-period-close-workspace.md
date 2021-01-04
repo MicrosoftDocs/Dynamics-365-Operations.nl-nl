@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d647dc41eb18d25101e66d3030327fc55b55a4d5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6f96da7f7f5374fb34e317c416238a48c3fe7d05
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250323"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4442188"
 ---
 # <a name="financial-period-close-workspace"></a>Werkgebied voor afsluiten van financiële periode
 
@@ -68,7 +68,7 @@ Voordat u de werkruimte **Afgesloten financiële periode** kunt gebruiken, moet 
 
 Op het tabblad **Resources** definieert u de mensen die betrokken zijn bij het afsluitingsproces. Elke werknemer die verantwoordelijk is voor een afsluitingstaak, moet hier eerst worden toegewezen. U moet ook de weergave van het werkgebied van de werknemer opgeven. De volgende opties zijn beschikbaar:
 
--   **Alleen toegewezen taken** - De gebruiker ziet alleen de taken die aan hem of haar zijn toegewezen.
+-   **Alleen toegewezen taken** - De gebruiker ziet alleen de taken die aan hem/haar zijn toegewezen.
 -   **Alle taken en statussen** - De gebruiker ziet alle afsluitingstaken en de status van het algehele proces.
 
 Gebruikers die machtigingen hebben om alleen de aan hen toegewezen taken te bekijken kunnen geen taken toevoegen aan de takenlijst, bewerken of uit de takenlijst verwijderen.

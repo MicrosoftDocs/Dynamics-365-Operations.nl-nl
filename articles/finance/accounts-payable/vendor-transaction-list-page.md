@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1534aab03ac35950e875a1384dfdf2a22bc22546
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 4f4535d08ff1bb6f83172efb4ceada5a7d02ebd4
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978002"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4442190"
 ---
 # <a name="vendor-transactions-list-page"></a>Lijstpagina met leveranciertransacties
 
@@ -48,7 +48,7 @@ De knop **Vereffeningen weergeven** in het actievenster biedt snelle toegang tot
 
 ## <a name="global-transactions"></a>Algemene transacties
 
-De knop **Algemene transacties** wordt ook weergegeven op de lijstpagina **Leverancierstransacties**. Met deze knop kunt u alle transacties voor een leverancier voor alle rechtspersonen bekijken. Op de pagina **Leveranciertransacties** worden alleen transacties weergegeven voor de rechtspersonen waartoe de gebruiker toegang heeft, op basis van zijn of haar beveiligingsinstellingen.
+De knop **Algemene transacties** wordt ook weergegeven op de lijstpagina **Leverancierstransacties**. Met deze knop kunt u alle transacties voor een leverancier voor alle rechtspersonen bekijken. Op de pagina **Leverancierstransacties** worden alleen transacties weergegeven voor de rechtspersonen waartoe de gebruiker toegang heeft, op basis van zijn/haar beveiligingsinstellingen.
 
 Op de lijstpagina worden alle transacties weergegeven voor leveranciers met dezelfde partij-id als de leverancier waarmee u bent begonnen. Heeft leverancier US-001 in de ene rechtspersoon bijvoorbeeld dezelfde partij-id als leverancier DE-001 in een andere rechtspersoon, dan worden alle transacties voor beide leveranciers-id's weergegeven.
 

@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a3ca43503ecbe8e814958576e46ced10bfe9ad49
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188988"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441862"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Rentepercentages instellen voor een rentecode
 
@@ -90,7 +90,7 @@ U stelt een rentecode in die één keer rente aanrekent voor elke 15 dagen dat d
 
 | **Veldnaam**                  | **Veldwaarde** |
 |---------------------------------|-----------------|
-| **Rentecode**               | *15DAmtXDay      |
+| **Rentecode**               | 15DAmtXDay      |
 | **Bereken rente elke**    | 15/dag          |
 | **Rente per bereik**           | Dagen            |
 | **Rente berekenen op basis van** | Bedrag          |

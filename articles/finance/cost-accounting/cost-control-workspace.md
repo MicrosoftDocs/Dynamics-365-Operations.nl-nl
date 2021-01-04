@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38dc261a74eea9e45036961fdfecea1465b238de
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: c54afd0d94a56f6306a11e03448cc66c168390c2
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977690"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4442186"
 ---
 # <a name="cost-control-workspace"></a>Werkgebied voor kostenbeheer 
 
@@ -108,7 +108,7 @@ Op het sneltabblad **Weer te geven kolommen voor gebudgetteerde kosten** bepaalt
 |---------------------------|-------------|
 | Budget                    | Budgetsaldi worden op basis van geselecteerde kolommen weergegeven.<blockquote>[!NOTE]<br>De saldi worden gebaseerd op de budgetversies die zijn geselecteerd op het sneltabblad **Gegevens filteren**.</blockquote> |
 | Budgetafwijking           | Bereken het verschil tussen de werkelijke en gebudgetteerde waarden. De volgende formule wordt hierbij gebruikt:<br>Budgetsaldo: werkelijk saldo |
-| Budgetafwijking in %      | Bereken en toon het verschil in een percentage tussen de werkelijke en gebudgetteerde waarden. De volgende formule wordt hierbij gebruikt:<br>(Budgetsaldo: werkelijk saldo) ÷ budgetsaldo |
+| Budgetafwijking in %%      | Bereken en toon het verschil in een percentage tussen de werkelijke en gebudgetteerde waarden. De volgende formule wordt hierbij gebruikt:<br>(Budgetsaldo: werkelijk saldo) ÷ budgetsaldo |
 | Drempel voor afwijkingsperiode | Stel een drempel voor de afwijking in een monetair bedrag in voor de huidige periode. Als de drempel wordt overschreden, wordt de regel gemarkeerd in rood in het werkgebied **Kostenbeheer**.<blockquote>[!NOTE]<br>Dit veld geldt alleen voor de kostenelementen die staan voor uitgaven.</blockquote> |
 | Drempel voor afwijkingsjaar   | Stel een drempel voor de afwijking in een monetair bedrag in voor het jaar. Als de drempel wordt overschreden, wordt de regel gemarkeerd in rood in het werkgebied **Kostenbeheer**. |
 | Drempel voor afwijking %      | Stel een drempel voor de afwijking in een percentage in. Als de drempel wordt overschreden, wordt de regel gemarkeerd in rood in het werkgebied **Kostenbeheer**.<blockquote>[!NOTE]<br>Dezelfde percentagedrempel geldt voor de huidige periode en het huidige jaar.</blockquote> |
@@ -145,7 +145,7 @@ Gebruikers kunnen klikken op **Kosteninvoer** om indien nodig in te zoomen op de
 
 ![Kosteninvoer](./media/cost-entries.png)
 
-Huur is bijvoorbeeld een uitgave die naar kostenplaatsen wordt gedistribueerd. Een gebruiker die inzicht wil krijgen in de huurkosten die zijn of haar kostenplaats moet dragen, kan inzoomen om te zien hoe huur wordt berekend.
+Huur is bijvoorbeeld een uitgave die naar kostenplaatsen wordt gedistribueerd. Een gebruiker die inzicht wil krijgen in de huurkosten die zijn/haar kostenplaats moet dragen, kan inzoomen om te zien hoe huur wordt berekend.
 
 Als gebruikers klikken op **Toewijzingsgrondslag** op de pagina **Kosteninvoer**, verschijnt er een dialoogvenster. Gebruikers kunnen vervolgens de toewijzingsgrondslag toewijzen aan de regel en de bijbehorende statistische maateenheden weergeven die zijn geregistreerd voor de periode.
 

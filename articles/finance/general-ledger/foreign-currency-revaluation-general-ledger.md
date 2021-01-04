@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006208"
+ms.locfileid: "4442129"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Herwaardering van vreemde valuta voor Grootboek
 
@@ -41,15 +41,15 @@ Wanneer u het herwaarderingsproces uitvoert, wordt het saldo in elke hoofdrekeni
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Voorbereiding van herwaardering van vreemde valuta
 Voordat u het herwaarderingsproces kunt uitvoeren, zijn de volgende instellingen vereist.
 
--   Op de pagina **Hoofdrekening** :
+-   Op de pagina **Hoofdrekening**:
 -   Selecteer **Herwaardering van vreemde valuta** als de hoofdrekening moet worden geherwaardeerd in het grootboek. Schakel deze optie uit als de hoofdrekening niet moet worden geherwaardeerd (zoals voor AR en AP indien geherwaardeerd in de subjournalen).
 -   Voer het **Wisselkoerstype** in als de hoofdrekening voor herwaardering is gemarkeerd. Dit type wisselkoers wordt gebruikt voor de herwaardering van de hoofdrekening. Er is een afzonderlijk veld **Wisselkoerstype voor financiële rapportage** beschikbaar voor financiële rapportage. De twee velden worden niet gesynchroniseerd dat verschillende wisselkoerstypen kunnen worden gebruikt voor herwaardering en financiële rapportage.
 
--   Op de pagina **Grootboek** :
+-   Op de pagina **Grootboek**:
 -   Geef het **Wisselkoerstype** op. Als het wisselkoerstype niet is gedefinieerd voor de hoofdrekening, wordt dit wisselkoerstype gebruikt tijdens de herwaardering van vreemde valuta.
 -   Geef de rekeningen op voor gerealiseerde winst, gerealiseerd verlies, niet-gerealiseerde winst en niet-gerealiseerd verlies voor herwaardering van valuta. Rekeningen voor gerealiseerde winst en gerealiseerd verlies worden gebruikt voor het vereffenen van AR- en AP-transacties en rekeningen voor niet-gerealiseerde winst en niet-gerealiseerd verlies worden gebruikt voor het herwaarderen van openstaande transacties en grootboekhoofdrekeningen.
 
--   Op de pagina **Rekeningen voor valutaherwaardering** :
+-   Op de pagina **Rekeningen voor valutaherwaardering**:
 -   Selecteer verschillende valutaherwaarderingsrekeningen voor elke valuta en elk bedrijf. Als u geen rekeningen hebt gedefinieerd, worden rekeningen van de pagina **Grootboek** gebruikt.
 
 ## <a name="process-foreign-currency-revaluation"></a>Herwaardering van vreemde valuta verwerken

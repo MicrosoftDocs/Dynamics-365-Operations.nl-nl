@@ -17,11 +17,11 @@ ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
 ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770684"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442014"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Geconsolideerde financiële overzichten genereren
 
@@ -93,7 +93,7 @@ Of u rekeningen, dimensies of beide gebruikt, met Financiële rapportage kunt u 
 Een bedrijf kan slechts een percentage van een ander bedrijf bezitten. In dit geval is het van belang dat u wanneer u een geconsolideerd rapport produceert, alleen het percentage meeneemt dat het bedrijf eigenaar is. Financiële rapportage heeft op meerdere manieren om minderheidsbelang weer te geven. Dit is afhankelijk van gebruikersvoorkeur. Eén manier is om een totalisatiespercentage te gebruiken in de rapporteringsstructuurdefinitie. Een andere manier is om minderheidsbelang als een aparte regel in een rapport weer te geven.
 
 ### <a name="using-the-reporting-tree-definition"></a>De rapporteringsstructuurdefinitie gebruiken
-Voer in de rapporteringsstructuurdefinitie het percentage van eigendom in de kolom **Totalisatiepercentage** (kolom H) in, zoals in de volgende afbeelding. Wanneer het rapport wordt gegenereerd, wordt dit percentage gebruikt om het geconsolideerde bedrag te berekenen. Contoso bezit in dit voorbeeld slechts 80 procent van Contoso Duitsland. U kunt **80** of **0,8** in de kolom **Totalisatiepercentage** invoeren. Dan wordt 80 getotaliseerd naar het geconsolideerde niveau.
+Voer in de rapporteringsstructuurdefinitie het percentage van eigendom in de kolom **Totalisatie %%** (kolom H) in, zoals in de volgende afbeelding. Wanneer het rapport wordt gegenereerd, wordt dit percentage gebruikt om het geconsolideerde bedrag te berekenen. Contoso bezit in dit voorbeeld slechts 80 procent van Contoso Duitsland. U kunt **80** of **0,8** in de kolom **Totalisatie %%** invoeren. Dan wordt 80 procent getotaliseerd naar het geconsolideerde niveau.
 
 > [!NOTE]
 > U kunt dit eigendomspercentage toepassen op elke rapporteringseenheid, niet alleen op bedrijfsniveau. 
@@ -102,7 +102,7 @@ Voer in de rapporteringsstructuurdefinitie het percentage van eigendom in de kol
 
 Wanneer het rapport wordt gegenereerd, bevat het rapport Contoso Duitsland 100 procent van de totale omzet en 80 procent van het bedrag wordt toegewezen en getotaliseerd naar het geconsolideerde niveau voor verkoop.
 
-Als u minder dan 1 procent van een bedrijf in eigendom hebt, kunt u het selectievakje **Totaliseren minder dan 1% toestaan** inschakelen op het tabblad **Aanvullende opties** van de pagina **Rapportinstellingen**, zoals in de volgende afbeelding wordt weergegeven. In dit geval worden de waarden in de kolom **Totalisatiepercentage** in de rapporteringsstructuur, behandeld als minder dan 1 procent. Als u bijvoorbeeld **0,8** invoert, wordt 0,8 procent getotaliseerd naar het geconsolideerde niveau en niet 80 procent. Ook kunt u hetzelfde resultaat bereiken door het selectievakje **Totaliseren minder dan 1% toestaan** uitgeschakeld te laten en **0,008** in te voeren in de kolom **Totalisatiepercentage**.
+Als u minder dan 1 procent van een bedrijf in eigendom hebt, kunt u het selectievakje **Totaliseren minder dan 1% toestaan** inschakelen op het tabblad **Aanvullende opties** van de pagina **Rapportinstellingen**, zoals in de volgende afbeelding wordt weergegeven. In dit geval worden de waarden in de kolom **Totalisatie %%** in de rapporteringsstructuur behandeld als minder dan 1 procent. Als u bijvoorbeeld **0,8** invoert, wordt 0,8 procent getotaliseerd naar het geconsolideerde niveau en niet 80 procent. Ook kunt u hetzelfde resultaat bereiken door het selectievakje **Totaliseren minder dan 1%% toestaan** uitgeschakeld te laten en **0,008** in te voeren in de kolom **Totalisatie %%**.
 
 ![Opties voor rapportinstellingen](./media/reporting-setting-options.png "Opties voor rapportinstellingen")
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 28669014b4998de6ae13ec7dbc4c704a14aff6e2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 948f83d56e560cc21205294c15de4b2097d2ad2e
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975335"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4442182"
 ---
 # <a name="customer-transactions-list-page"></a>Lijstpagina met klanttransacties
 
@@ -39,7 +39,7 @@ De knop **Vereffeningen weergeven** in het actievenster biedt snelle toegang tot
 
 4. In het dialoogvenster kunt u verschillende taken uitvoeren. Selecteer een of meer boekstukken en selecteer een van de volgende knoppen:
 
-    - **Bijbehorende weergeven** : de journaaltransacties voor betaling en algemene journaaltransacties weergeven voor de klanten die zijn gemaakt in de journalen waarin de documenten weergegeven in de lijst zijn gemaakt. Bijvoorbeeld: als een betaling wordt weergegeven, worden alle betalingen in het betalingsjournaal waarin deze is gemaakt weergegeven. Als een factuur of betaling wordt weergegeven en deze is gemaakt in een algemeen journaal, worden alle documenten in het algemene journaal waarin deze is gemaakt weergegeven. Alle vereffeningen die zijn gerelateerd aan de lijst van documenten worden ook weergegeven. Terwijl u gerelateerde betalingen weergeeft, wordt het label van deze knop gewijzigd in **Vereffeningen weergeven**. Selecteer **Vereffeningen weergeven** om alleen de transacties te tonen die werden weergegeven toen u voor het eerst het dialoogvenster **Vereffeningen weergeven** opende.
+    - **Gerelateerde weergeven**: de journaaltransacties voor betaling en algemene journaaltransacties weergeven voor de klanten die zijn gemaakt in de journalen waarin de documenten weergegeven in de lijst zijn gemaakt. Bijvoorbeeld: als een betaling wordt weergegeven, worden alle betalingen in het betalingsjournaal waarin deze is gemaakt weergegeven. Als een factuur of betaling wordt weergegeven en deze is gemaakt in een algemeen journaal, worden alle documenten in het algemene journaal waarin deze is gemaakt weergegeven. Alle vereffeningen die zijn gerelateerd aan de lijst van documenten worden ook weergegeven. Terwijl u gerelateerde betalingen weergeeft, wordt het label van deze knop gewijzigd in **Vereffeningen weergeven**. Selecteer **Vereffeningen weergeven** om alleen de transacties te tonen die werden weergegeven toen u voor het eerst het dialoogvenster **Vereffeningen weergeven** opende.
     - **Historie weergeven**: de vereffeningshistorie voor de boekstukken weergeven. Selecteer **Sluiten** om het dialoogvenster te sluiten.
     - **Boekhouding weergeven**: alle boekstukken weergeven die zijn gerelateerd aan de geselecteerde documenten. Selecteer **Sluiten** om het dialoogvenster te sluiten.
     - **Exporteren**: de geselecteerde boekstukken naar Microsoft Excel exporteren.
@@ -48,7 +48,7 @@ De knop **Vereffeningen weergeven** in het actievenster biedt snelle toegang tot
 
 ## <a name="global-transactions"></a>Algemene transacties
 
-De knop **Algemene transacties** wordt ook weergegeven op de lijstpagina **Klanttransacties**. Met deze knop kunt u alle transacties voor een klant voor alle rechtspersonen bekijken. Op de pagina **Klanttransacties** worden alleen transacties weergegeven voor de rechtspersonen waartoe de gebruiker toegang heeft, op basis van zijn of haar beveiligingsinstellingen.
+De knop **Algemene transacties** wordt ook weergegeven op de lijstpagina **Klanttransacties**. Met deze knop kunt u alle transacties voor een klant voor alle rechtspersonen bekijken. Op de pagina **Klanttransacties** worden alleen transacties weergegeven voor de rechtspersonen waartoe de gebruiker toegang heeft, op basis van zijn/haar beveiligingsinstellingen.
 
 Op de lijstpagina worden alle transacties weergegeven voor klanten met dezelfde partij-id als de klant waarmee u bent begonnen. Heeft klant US-001 in de ene rechtspersoon bijvoorbeeld dezelfde partij-id als klant DE-001 in een andere rechtspersoon, dan worden alle transacties voor beide klant-id's weergegeven.
 

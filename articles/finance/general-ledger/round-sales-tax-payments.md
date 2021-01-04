@@ -19,11 +19,11 @@ ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 998dbd01352d3fa5040187e81b564d14133464db
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014954"
+ms.locfileid: "4442132"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Btw-betalingen en afrondingsregels
 
@@ -54,7 +54,7 @@ In de volgende tabel ziet u hoe een bedrag van 98.765,43 wordt afgerond met behu
 > Als de afrondingswaarde is ingesteld op 0,00, geldt het volgende:
 >
 > - Voor normale afronding werkt het afronden hetzelfde als voor **afronden = 0,01**.
-> - Voor de **opties Afrondingstype** **Omlaag** , **Omhoog** en **Eigen voordeel** is het gedrag hetzelfde als voor **Afronden = 1,00**.
+> - Voor de **opties Afrondingstype** **Omlaag**, **Omhoog** en **Eigen voordeel** is het gedrag hetzelfde als voor **Afronden = 1,00**.
 
 | Optie Afrondingstype                | Afrondingswaarde = 0,01 | Afrondingswaarde = 0,10 | Afrondingswaarde = 1,00 | Afrondingswaarde = 100,00 | Afrondingswaarde = 0,00   |
 |-------------------------------------|------------------------|------------------------|------------------------|--------------------------|--------------------------|

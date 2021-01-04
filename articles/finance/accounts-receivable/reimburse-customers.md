@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bceeaf99437f6ef66bd3b4e1710b469c262e693e
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.openlocfilehash: 65ee884fb22c1a38e2d3022085fed7e3e6077d1f
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022538"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644532"
 ---
 # <a name="reimburse-customers"></a>Klanten terugbetalen
 
@@ -33,22 +33,19 @@ In dit artikel wordt uitgelegd hoe u terugbetalingstransacties kunt maken voor e
 
 De volgende tabel geeft de vereisten weer waaraan moet worden voldaan voordat u start.
 
-| Vereiste                                                            | Beschrijving                                                                                                                                                                                 |
-|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Vereiste                                                            | Beschrijving |
+|-------------------------------------------------------------------------|-------------|
 | Geef het minimale terugbetalingsbedrag voor de rechtspersoon op.          | Voer op de pagina **Parameters van module Klanten** in het gebied **Algemeen** in het veld **Minimum voor terugbetaling** het minimumbedrag in dat voor de klant kan worden terugbetaald. |
-| Optioneel: voeg een leveranciersrekening toe voor elke klant die kan worden terugbetaald. | Selecteer op de pagina **Klanten** op het sneltabblad **Overige details** in het veld **Leveranciersrekening** de leveranciersrekening voor de klant.                                           |
+| Optioneel: voeg een leveranciersrekening toe voor elke klant die kan worden terugbetaald. | Selecteer op de pagina **Klanten** op het sneltabblad **Overige details** in het veld **Leveranciersrekening** de leveranciersrekening voor de klant. |
 
 Wanneer u terugbetalingstransacties maakt, wordt een leveranciersfactuur gemaakt voor het bedrag van het creditsaldo. Met het terugbetalingsproces wordt het creditsaldo voor de klantrekening verwijderd en wordt een te betalen saldo voor de leveranciersrekening gemaakt die met de klant overeenkomt.
 
-1.  Voer in Klanten het proces **Terugbetaling** uit.
-2.  Volg één van deze stappen:
-    -   Als u wilt terugbetalen aan specifieke klantrekeningen, klikt u op **Selecteren** en geeft u de klantrekeningen in de query op.
-    -   Klik op **OK** als u wilt terugbetalen aan alle klantrekeningen.
+1. Voer in Klanten het proces **Terugbetalings** (**Klanten \> Periodieke taken \> Terugbetalen**).
+2. Als u alle transacties wilt groeperen, ongeacht de grootboekdimensies, stelt u de optie **Klant samenvatten** in op **Ja**. Als u alleen transacties met vergelijkbare grootboekdimensies wilt groeperen, stelt u de optie in op **Nee**.
+3. Selecteer **Klanten met openstaande debettransacties opnemen** om klanten te selecteren met openstaande debetbedragen.
+4. Als u specifieke klantrekeningen wilt terugbetalen, selecteert op het sneltabblad **Records die u wilt opnemen** de optie **Filter** en geeft u vervolgens de klantrekeningen op in de query.
 
     De creditbedragen worden overgebracht naar de leveranciersrekeningen van de klanten en worden verwerkt als normale betalingen. Als een klant geen leverancierrekening heeft, wordt automatisch een eenmalige leverancierrekening voor de klant gemaakt.
-3.  Als u de terugbetalingstransacties wilt weergeven die zijn gemaakt, gebruikt u de pagina **Terugbetaling**.
-4.  In Leveranciers maakt u een betaling voor de leveranciersfacturen die met het terugbetalingsproces zijn gemaakt.
 
-
-
-
+5. Als u de gemaakte terugbetalingstransacties wilt weergeven, gebruikt u het rapport **Terugbetaling** (**Klanten \> Query's en rapporten \> Terugbetalingsrapport**).
+6. In Leveranciers maakt u een betaling voor de leveranciersfacturen die met het terugbetalingsproces zijn gemaakt. Zie [Overzicht van leveranciersbetalingen](../accounts-payable/Vendor-payments-workspace.md) voor informatie over het betalen van leverancers.

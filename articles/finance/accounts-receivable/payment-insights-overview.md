@@ -1,6 +1,6 @@
 ---
 title: Inzichten in klantbetalingen (voorbeeld)
-description: In dit onderwerp wordt de functie voor betalingsinzichten beschreven waarmee u de doorgaans gebruikte betalingsmethoden van individuele klanten beter begrijpt en omstandigheden kunt vaststellen waarin het gerechtvaardigd is om incassoprocessen eerder dan anders te initiëren.
+description: In dit onderwerp wordt beschreven hoe u inzichten in betalingen kunt gebruiken om de gebruikelijke betalingsmethoden van individuele klanten beter te begrijpen. De functie kan u helpen om omstandigheden te identificeren die kunnen rechtvaardigen dat incassoprocessen eerder worden begonnen dan normaal gesproken.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 11/06/2019
@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f9f1e4ae4270380c88069723e768fd44ecf8c113
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773930"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644628"
 ---
 # <a name="customer-payment-insights-preview"></a>Inzichten in klantbetalingen (voorbeeld)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp wordt de functie voor betalingsinzichten beschreven waarmee u de doorgaans gebruikte betalingsmethoden van individuele klanten beter kunt begrijpen en omstandigheden kunt vaststellen waarin het gerechtvaardigd is om incassoprocessen eerder dan anders te initiëren. 
+In dit onderwerp wordt beschreven hoe u inzichten in betalingen kunt gebruiken om de gebruikelijke betalingsmethoden van individuele klanten beter te begrijpen. De functie kan u helpen om omstandigheden te identificeren die kunnen rechtvaardigen dat incassoprocessen eerder worden begonnen dan normaal gesproken. 
 
 ## <a name="overview"></a>Overzicht
 
-Organisaties vinden het vaak lastig om te voorspellen wanneer klanten hun facturen betalen. Dit gebrek aan inzichten leidt tot minder nauwkeurige cashflowprognoses, incassoprocessen die te laat beginnen en orders die aan klanten worden vrijgegeven die mogelijk verzuimen om te betalen. Met Inzichten in klantbetalingen (preview) kunnen organisaties voorspellen wanneer een klantfactuur wordt betaald en incassostrategieën opstellen ter verbetering van de kans op tijdige betaling. 
+Het kan moeilijk zijn om te voorspellen wanneer klanten hun facturen betalen. Dit gebrek aan inzichten leidt tot minder nauwkeurige cashflowprognoses, incassoprocessen die te laat beginnen en orders die aan klanten worden vrijgegeven die mogelijk verzuimen om te betalen. Inzichten in klantbetalingen (preview) helpt organisaties te voorspellen wanneer een klantfactuur wordt betaald. Deze informatie kan organisaties helpen bij het maken van incassostrategieën die de kans verbeteren dat op tijd wordt betaald. 
 
 ## <a name="predictions"></a>Voorspellingen
 
@@ -42,13 +42,13 @@ Met behulp van betalingsvoorspellingen kunnen organisaties hun bedrijfsprocessen
 
 Met behulp van een model voor machine learning, dat historische facturen, betalingen en klantgegevens gebruikt, voorspelt Inzichten in klantbetalingen (preview) nauwkeuriger wanneer een klant een openstaande factuur betaalt.
 
-Voor elke openstaande factuur voorspelt Inzichten in klantbetalingen (preview) drie waarschijnlijkheden ten aanzien van betalingen:
+Voor elke openstaande factuur kan Inzichten in klantbetalingen (preview) drie waarschijnlijkheden ten aanzien van betalingen voorspellen:
 
 -   De waarschijnlijkheid dat de betaling op tijd wordt uitgevoerd 
 -   De waarschijnlijkheid dat de betaling te laat wordt uitgevoerd
 -   De waarschijnlijkheid dat de betaling zeer laat wordt uitgevoerd
 
-Om organisaties te helpen het totale verschuldigde bedrag te begrijpen dat zij kunnen verwachten van een klant in een van de drie buckets Op tijd, Te laat en Zeer laat, biedt Inzichten in klantbetalingen (preview) ook een totaal overzicht van verwachte betalingen.
+Inzichten in klantbetalingen (preview) biedt ook een totaaloverzicht van verwachte betalingen. Dit kan organisaties helpen het totale verschuldigde bedrag te begrijpen dat zij kunnen verwachten van een klant in een van de drie buckets Op tijd, Te laat en Zeer laat.
 
 [![Samengevoegde weergave van betalingsvoorspellingen](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 

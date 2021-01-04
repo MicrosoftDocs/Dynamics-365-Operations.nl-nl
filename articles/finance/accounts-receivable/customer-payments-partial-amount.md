@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a74803d3adf71ef1495ec5b42753d0988cea4133
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189080"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441826"
 ---
 # <a name="customer-payments-for-a-partial-amount"></a>Klantbetalingen voor een gedeeltelijk bedrag
 
@@ -37,12 +37,12 @@ Soms voeren klanten een betaling uit die minder is dan het bedrag van een factuu
 Klanten kan een gedeeltelijke betaling doen omdat ze niet genoeg contant geld bij hebben om de factuur volledig te betalen of omdat er een geschil is over een artikel op de factuur. In deze situatie kan de factuur gedeeltelijk met de betaling worden vereffend. De factuur blijft open en er wordt een saldo weergeven.
 
 ## <a name="discount-amounts"></a>Kortingsbedragen
-U kunt klanten een contantkorting geven als ze een factuur vóór de vervaldatum betalen. U voert bijvoorbeeld een factuur in voor 100,00 die een contantkorting van 2% biedt als de factuur binnen 10 dagen wordt betaald. De betalingstermijn is 30 dagen. Als u binnen 10 dagen een betaling van 98,00 ontvangt, voert u de betaling van 98,00 in. Wanneer de factuur vervolgens voor vereffening is gemarkeerd, wordt de contantkorting automatisch toegepast.
+U kunt klanten een contantkorting geven als ze een factuur vóór de vervaldatum betalen. U voert bijvoorbeeld een factuur in voor 100,00 die een contantkorting van 2%% biedt als de factuur binnen 10 dagen wordt betaald. De betalingstermijn is 30 dagen. Als u binnen 10 dagen een betaling van 98,00 ontvangt, voert u de betaling van 98,00 in. Wanneer de factuur vervolgens voor vereffening is gemarkeerd, wordt de contantkorting automatisch toegepast.
 
 ## <a name="partial-payments-with-cash-discounts"></a>Gedeeltelijke betalingen met contantkortingen
 Wanneer klanten een gedeeltelijke betaling doen, willen ze mogelijk een volgende gedeeltelijke betaling doen om de factuur volledig te vereffenen. Om een contantkorting voor een gedeeltelijke betaling aan te nemen, moet u de optie **Contantkortingen berekenen voor gedeeltelijke betalingen** instellen op **Ja** op de pagina **Parameters van module Klanten**. 
 
-U kunt bijvoorbeeld een contantkorting van 2% aanbieden als de factuur binnen 10 dagen na uitgifte wordt betaald. Er wordt een factuur voor 100,00 geboekt. Als u binnen 10 dagen een betaling van 49,00 ontvangt, voert u een krediet van 49,00 in een betalingsjournaal in. Wanneer u de gedeeltelijke betaling vereffent op de pagina **Transacties vereffenen**, wordt **1,00** weergegeven in het veld **Contantkortingsbedrag dat moet worden toegepast**. Het kortingsbedrag wordt naar een contantkortingsrekening geboekt. 
+U kunt bijvoorbeeld een contantkorting van 2%% aanbieden als de factuur binnen 10 dagen na uitgifte wordt betaald. Er wordt een factuur voor 100,00 geboekt. Als u binnen 10 dagen een betaling van 49,00 ontvangt, voert u een krediet van 49,00 in een betalingsjournaal in. Wanneer u de gedeeltelijke betaling vereffent op de pagina **Transacties vereffenen**, wordt **1,00** weergegeven in het veld **Contantkortingsbedrag dat moet worden toegepast**. Het kortingsbedrag wordt naar een contantkortingsrekening geboekt. 
 
 > [!NOTE] 
 > Als u een gedeeltelijke betaling invoert en het volledige factuurbedrag in het veld **Bedrag om te vereffenen** laat staan, wordt het veld **Contantkortingsbedrag dat moet worden toegepast** automatisch opnieuw berekend wanneer u de transacties boekt.
@@ -50,7 +50,7 @@ U kunt bijvoorbeeld een contantkorting van 2% aanbieden als de factuur binnen 10
 ## <a name="credit-notes-with-discounts"></a>Creditnota's met kortingen
 Als klanten enkele artikelen van een factuur retourneren, schrijft u een creditnota uit. Als er een contantkorting op de oorspronkelijke factuur werd genomen, moet de creditnota aan de klant het nettobedrag van de contantkorting zijn die door de klant is opgenomen. Als de optie **Contantkortingen berekenen voor creditnota's** is ingesteld op **Ja** op de pagina **Parameters van module Klanten**, wordt de korting automatisch berekend voor de creditnota. 
 
-U bood bijvoorbeeld betalingsvoorwaarden aan waarbij een korting van 2% werd gegeven als de factuur binnen 10 dagen na uitgifte werd betaald. Een factuur voor 100,00 werd geboekt en de klant nam de contantkorting. Als de klant de goederen retourneert en u een creditnota uitschrijft, kunt u op de creditnota -100,00 invoeren . Wanneer u de creditnota op de pagina **Openstaande transacties vereffenen** weergeeft, wordt **98,00** weergegeven in het veld **Bedrag om te vereffenen** en wordt **-2,00** weergegeven in het veld **Contantkortingsbedrag**. Het kortingsbedrag wordt naar een contantkortingsrekening geboekt.
+U bood bijvoorbeeld betalingsvoorwaarden aan waarbij een korting van 2%% werd gegeven als de factuur binnen 10 dagen na uitgifte werd betaald. Een factuur voor 100,00 werd geboekt en de klant nam de contantkorting. Als de klant de goederen retourneert en u een creditnota uitschrijft, kunt u op de creditnota -100,00 invoeren . Wanneer u de creditnota op de pagina **Openstaande transacties vereffenen** weergeeft, wordt **98,00** weergegeven in het veld **Bedrag om te vereffenen** en wordt **-2,00** weergegeven in het veld **Contantkortingsbedrag**. Het kortingsbedrag wordt naar een contantkortingsrekening geboekt.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Overbetalings-/onderbetalingsbedragen
 Wanneer klanten een betaling uitvoeren, kan er een heel klein bedrag zijn dat nog moet worden vereffend. U factureert de klant bijvoorbeeld voor 1000,00 en de klant betaalt 999,90. Als het resterende bedrag kleiner is dan het bedrag dat op de pagina **Parameters van module Klanten** is opgegeven voor over- of onderbetalingen, wordt het verschil automatisch geboekt naar een overbetalings-/onderbetalingsgrootboekrekening.

@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 51d43c8e6d16201e1f8c392c13ead20287782dcc
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983592"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441816"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Btw-berekening voor algemene journaalregels
 [!include [banner](../includes/banner.md)]
@@ -44,7 +44,7 @@ De manier waarop de richting van de btw wordt bepaald, is afhankelijk van het ty
 
 ### <a name="account-type-is-project"></a>Het rekeningtype is Project.
 
-Als een boekstuk een journaalregel heeft waarvoor het rekeningtype **Project**is, gebruiken alle journaalregels in het boekstuk dezelfde belastingrichting. In de volgende afbeelding ziet u de regel. De volgende punten tonen de mogelijke belastingrichtingen voor projectrekeningen.
+Als een boekstuk een journaalregel heeft waarvoor het rekeningtype **Project** is, gebruiken alle journaalregels in het boekstuk dezelfde belastingrichting. In de volgende afbeelding ziet u de regel. De volgende punten tonen de mogelijke belastingrichtingen voor projectrekeningen.
 
 • Als de btw-code gebruiksbelasting is, is de btw-richting Gebruiksbelasting.
 
@@ -62,7 +62,7 @@ In het volgende diagram wordt de regel grafisch weergeven.
 
 ### <a name="account-type-is-vendor"></a>Het rekeningtype is Leverancier
 
-Als een boekstuk een journaalregel heeft waarvoor het rekeningtype **Leverancier**is, gebruiken alle journaalregels in het boekstuk dezelfde belastingrichting. De volgende punten tonen de mogelijke belastingrichtingen voor leveranciersrekeningen. 
+Als een boekstuk een journaalregel heeft waarvoor het rekeningtype **Leverancier** is, gebruiken alle journaalregels in het boekstuk dezelfde belastingrichting. De volgende punten tonen de mogelijke belastingrichtingen voor leveranciersrekeningen. 
 
 • Als de btw-code gebruiksbelasting is, is de btw-richting Gebruiksbelasting.
 
@@ -80,7 +80,7 @@ In het volgende diagram wordt de regel grafisch weergeven.
 
 ### <a name="account-type-is-customer"></a>Het rekeningtype is Klant
 
-Als een boekstuk een journaalregel heeft waarvoor het rekeningtype **Klant**is, gebruiken alle journaalregels in het boekstuk dezelfde belastingrichting. De volgende punten tonen de mogelijke belastingrichtingen voor klantentrekeningen.
+Als een boekstuk een journaalregel heeft waarvoor het rekeningtype **Klant** is, gebruiken alle journaalregels in het boekstuk dezelfde belastingrichting. De volgende punten tonen de mogelijke belastingrichtingen voor klantentrekeningen.
 
 • Als de btw-code vrijgesteld van belasting is, is de btw-richting Belastingvrije Aankoop.
 
@@ -129,7 +129,7 @@ In de volgende tabel wordt de algemene regel weergegeven voor het bepalen van he
 | Negatief            | Te Ontvangen Btw | Negatief              |
 | Negatief            | Verschuldigde Btw    | Positief              |
 
-Er is een speciale regel voor boekstukken die alleen **Project-** of **Grootboek**regels hebben, wanneer een btw-groep of artikel-btw-groep wordt geselecteerd op de **Grootboek**regel. Deze regel wordt bepaald door onafhankelijke btw-berekeningsfunctie in te schakelen voor algemene journalen. Wanneer deze functie is uitgeschakeld, gebruikt het btw-bedrag van de **Grootboek**regel de debet/credit-richting van de **Project**regel. Wanneer de functie is ingeschakeld, gebruikt het btw-bedrag van de **Grootboek**regel zijn eigen debet/credit-richting. In de volgende tabellen wordt de regel voor elk scenario weer gegeven. 
+Er is een speciale regel voor boekstukken die alleen **Project-** of **Grootboek** regels hebben, wanneer een btw-groep of artikel-btw-groep wordt geselecteerd op de **Grootboek** regel. Deze regel wordt bepaald door onafhankelijke btw-berekeningsfunctie in te schakelen voor algemene journalen. Wanneer deze functie is uitgeschakeld, gebruikt het btw-bedrag van de **Grootboek** regel de debet/credit-richting van de **Project** regel. Wanneer de functie is ingeschakeld, gebruikt het btw-bedrag van de **Grootboek** regel zijn eigen debet/credit-richting. In de volgende tabellen wordt de regel voor elk scenario weer gegeven. 
 
 **Regel wanneer de functie is ingeschakeld.**
 

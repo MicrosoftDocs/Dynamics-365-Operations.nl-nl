@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: fb3ec2d60875d7a0747d64b397aafaa0a3d26348
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039864"
+ms.locfileid: "4442144"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-brazil"></a>Aan de slag met de invoegtoepassing voor elektronische facturering voor Brazilië 
 
@@ -135,9 +135,9 @@ Om NF-e annulering in te dienen, is de functie-instelling **Annulering** vereist
 
 #### <a name="set-up-the-url-for-sefaz-web-services"></a>De URL voor SEFAZ-webservices instellen 
 
-1. Ga naar de pagina **Instellingen functieversie** en selecteer op het tabblad **Acties** , op het sneltabblad **Acties** de optie **Braziliaanse SEFAZ-service aanroepen** (actie-id **3** ).
+1. Ga naar de pagina **Instellingen functieversie** en selecteer op het tabblad **Acties**, op het sneltabblad **Acties** de optie **Braziliaanse SEFAZ-service aanroepen** (actie-id **3**).
 2. Voer op het sneltabblad **Parameters** in het veld **URL-adresparameter** de URL van de SEFAZ-webservice voor het indienen van NF-e in.
-3. Selecteer op het sneltabblad **Acties** de optie **Braziliaanse SEFAZ-service aanroepen** (actie-id **7** ).
+3. Selecteer op het sneltabblad **Acties** de optie **Braziliaanse SEFAZ-service aanroepen** (actie-id **7**).
 4. Voer op het sneltabblad **Parameters** in het veld **URL-adresparameter** de URL van de SEFAZ-webservice voor het indienen van NF-e in.
 
 #### <a name="configure-the-cancellation-feature-setup"></a>De functie-instelling Annulering configureren
@@ -156,7 +156,7 @@ Om NF-e annulering in te dienen, is de functie-instelling **Annulering** vereist
 
 #### <a name="set-up-the-url-for-sefaz-web-services"></a>De URL voor SEFAZ-webservices instellen
 
-1. Ga naar de pagina **Instellingen functieversie** en selecteer op het tabblad **Acties** , op het sneltabblad **Acties** de optie **Braziliaanse SEFAZ-service aanroepen** (actie-id **3** ).
+1. Ga naar de pagina **Instellingen functieversie** en selecteer op het tabblad **Acties**, op het sneltabblad **Acties** de optie **Braziliaanse SEFAZ-service aanroepen** (actie-id **3**).
 2. Voer op het sneltabblad **Parameters** in het veld **URL-adresparameter** de URL van de SEFAZ-webservice voor het annuleren van een goedgekeurde NF-e in.
 
 ### <a name="make-an-e-invoicing-environment-available-and-assign-a-draft-version"></a>Een omgeving voor e-Facturering beschikbaar maken en een conceptversie toewijzen
@@ -206,7 +206,7 @@ Tijdens de installatie voert u de volgende taken uit:
 1. Selecteer in de werkruimte **Elektronische rapportage** in de sectie **Configuratieaanbieders** de tegel **Microsoft**.
 2. Selecteer **Opslagplaatsen**.
 3. Selecteer **Algemene resource \> Openen**.
-4. Importeer **NF-e foutenlogboek importeren (BR)** , **Importindeling NF-e responsgegevens (BR)** en **NF-e responsbericht importeren (BR)**.
+4. Importeer **NF-e foutenlogboek importeren (BR)**, **Importindeling NF-e responsgegevens (BR)** en **NF-e responsbericht importeren (BR)**.
 5. Ga naar **Organisatiebeheer \> Instellen \> Parameters voor elektronische documenten**.
 6. Selecteer op het tabblad **Elektronisch document** de optie **Toevoegen**.
 6. Voer in het veld **Tabelnaam** **Koptekst fiscaal document** in.
@@ -231,7 +231,7 @@ Tijdens de verwerking in Finance voert u de volgende taken uit:
 
 ### <a name="submit-nf-e-fiscal-documents-for-sefaz-authorization"></a>NF-e fiscale documenten voor SEFAZ-autorisatie indienen 
 
-Nadat u de functie **Integratie configureerbare invoegtoepassing voor elektronisch factureren** hebt ingeschakeld, kunt u het oude proces voor het indienen van NF-e fiscale documenten voor autorisatie ( **NF-e-proces exporteren/importeren** ) niet meer gebruiken. Het wordt vervangen door een nieuw proces met de naam **Elektronische documenten indienen**.
+Nadat u de functie **Integratie configureerbare invoegtoepassing voor elektronisch factureren** hebt ingeschakeld, kunt u het oude proces voor het indienen van NF-e fiscale documenten voor autorisatie (**NF-e-proces exporteren/importeren**) niet meer gebruiken. Het wordt vervangen door een nieuw proces met de naam **Elektronische documenten indienen**.
 
 > [!NOTE]
 > Controleer voordat u doorgaat of u een of meer fiscale klantdocumenten model 55 hebt die zijn uitgegeven door de fiscale instelling van de klant. De richting voor deze fiscale documenten moet worden ingesteld op **Uitgaand** en de status moet **Gemaakt** zijn. Zie [Belastingdocument voor klant verstrekken (Brazilië)](https://docs.microsoft.com/dynamics365/finance/localizations/tasks/br-00038-issuing-customer-fiscal-document) voor meer informatie.

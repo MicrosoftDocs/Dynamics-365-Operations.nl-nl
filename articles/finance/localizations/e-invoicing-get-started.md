@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: 7b2a3aae43d42060c7fcd9e1ea3db814fc5d8f22
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039841"
+ms.locfileid: "4442145"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Aan de slag met de invoegtoepassing voor elektronische facturering
 
@@ -231,7 +231,7 @@ Als het ingediende factuurdocument moet worden bijgewerkt na de respons van de a
 1. Selecteer in de werkruimte **Elektronische rapportage** in de sectie **Configuratieaanbieders** de tegel **Microsoft**.
 2. Selecteer **Opslagplaatsen**.
 3. Selecteer **Algemene resource** en daarna **Openen**.
-4. Importeer **Model responsbericht** , **Importindeling responsbericht** , **Model responsbericht dat naar bestemming toewijst** en **Importindeling bestandsinhoud**.
+4. Importeer **Model responsbericht**, **Importindeling responsbericht**, **Model responsbericht dat naar bestemming toewijst** en **Importindeling bestandsinhoud**.
 5. Ga naar **Organisatiebeheer \> Instellen \> Parameters voor elektronische documenten**.
 6. Selecteer op het tabblad **Elektronisch document** de optie **Toevoegen** om de naam van de tabel in te voeren die is gerelateerd aan uw land-/regiospecifieke factuurdocument. Zie het land-/regiospecifieke onderwerp "Aan de slag met de invoegtoepassing voor elektronische facturering" voor informatie over welke tabelnamen u moet selecteren.
 7. Selecteer **Responstypen** om de responstypen te configureren. Zie het land-/regiospecifieke onderwerp "Aan de slag met de invoegtoepassing voor elektronische facturering" voor informatie over welke tabelnamen u moet selecteren.
@@ -283,7 +283,7 @@ U kunt bedrijfsdocumenten handmatig of op basis van uw planningsvereisten indien
 
 ### <a name="filter-query"></a>Filterquery
 
-1. Voer in dialoogvenster **Query** op het tabblad **Bereik** filtercriteria in aan de hand van de velden **Tabel** , **Afgeleide tabel** , **Veld** en **Criteria**.
+1. Voer in dialoogvenster **Query** op het tabblad **Bereik** filtercriteria in aan de hand van de velden **Tabel**, **Afgeleide tabel**, **Veld** en **Criteria**.
 2. Selecteer **Toevoegen** om zo veel criteria toe te voegen als u nodig hebt om de bedrijfsdocumenten te selecteren.
 
     ![Filtercriteria voor indienen instellen](media/e-invoicing-services-get-started-set-up-submission-filter-criteria.png)
@@ -333,9 +333,9 @@ In plaats van handmatig documenten in te dienen, kunt u het indieningsproces aut
 
 Welke resultaten die in het indieningslogboek worden weergegeven, is afhankelijk van de instelling van de functie e-Facturering in RCS. Ongeacht de instellingen, heeft het indieningslogboek altijd drie sneltabbladen:
 
-- **Verwerkingsacties** : dit sneltabblad toont het uitvoeringslogboek voor de acties die zijn geconfigureerd in de functieversie die is ingesteld in RCS. De kolom **Status** geeft aan of de actie met goed gevolg is uitgevoerd.
-- **Actiebestanden** : dit sneltabblad toont de tussenliggende bestanden die zijn gegenereerd tijdens de uitvoering van de acties. U kunt **Weergeven** selecteren om het bestand te downloaden en de inhoud ervan weer te geven.
-- **Logboek verwerkingsacties** : dit sneltabblad toont de resultaten van de communicatie tussen de invoegtoepassing voor elektronische facturering en de doelwebservice. Het toont ook wat er is geretourneerd door de verwerking door de webservice.
+- **Verwerkingsacties**: dit sneltabblad toont het uitvoeringslogboek voor de acties die zijn geconfigureerd in de functieversie die is ingesteld in RCS. De kolom **Status** geeft aan of de actie met goed gevolg is uitgevoerd.
+- **Actiebestanden**: dit sneltabblad toont de tussenliggende bestanden die zijn gegenereerd tijdens de uitvoering van de acties. U kunt **Weergeven** selecteren om het bestand te downloaden en de inhoud ervan weer te geven.
+- **Logboek verwerkingsacties**: dit sneltabblad toont de resultaten van de communicatie tussen de invoegtoepassing voor elektronische facturering en de doelwebservice. Het toont ook wat er is geretourneerd door de verwerking door de webservice.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

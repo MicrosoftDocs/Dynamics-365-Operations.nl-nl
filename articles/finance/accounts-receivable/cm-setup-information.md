@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3977882"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441834"
 ---
 # <a name="credit-management-setup"></a>Instellingen voor kredietbeheer 
 
@@ -95,7 +95,7 @@ U kunt scoregroepen maken op de pagina **Scoregroepen** (**Crediteringen en aanm
 
 1. Maak een scoregroep en voer een naam in.
 2. Voer een omschrijving in om de scoregroep nader te beschrijven.
-3. Selecteer een groepstype. Er zijn acht vooraf gedefinieerde typen. U kunt ook **Door de gebruiker gedefinieerd**g selecteren om een groepstype te definiëren dat beter geschikt is voor uw organisatie.
+3. Selecteer een groepstype. Er zijn acht vooraf gedefinieerde typen. U kunt ook **Door de gebruiker gedefinieerd** g selecteren om een groepstype te definiëren dat beter geschikt is voor uw organisatie.
 4. Selecteer een scoretype om te definiëren hoe de scoregroep de risicoscore berekent. De volgende opties zijn beschikbaar:
 
     - **Bereik**: gebruik deze optie om een reeks waarden te definiëren die moeten worden gebruikt om een score te berekenen.

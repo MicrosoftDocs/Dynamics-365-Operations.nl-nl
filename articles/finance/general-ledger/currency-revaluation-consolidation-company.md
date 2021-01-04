@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 33db12388c969b8dadb38bfacf4d9df333b78bd4
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014978"
+ms.locfileid: "4442131"
 ---
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Valutaherwaardering in een consolidatiebedrijf
 
@@ -35,7 +35,7 @@ Wanneer u gegevens van een valuta voor boekhouding naar een andere consolideert,
 -   **Bron/werken bedrijf (USMF)** - Amerikaanse dollars (USD) worden gebruikt als boekhouding- en aangiftevaluta.
 -   **Geconsolideerd bedrijf (CON)** Euro's (EUR) worden gebruikt als de boekhouding- en aangiftevaluta.
     -   **Gerealiseerde winst** – Grootboekrekening 801500
-    -   **Gerealiseerd verlies** – Grootboekrekening 801600
+    -   **Gerealiseerd verlies**– Grootboekrekening 801600
     -   **Ongerealiseerde winst** - Grootboekrekening 801600
     -   **Ongerealiseerd verlies** - Grootboekrekening 801400
 
@@ -68,8 +68,8 @@ Wanneer u gegevens van een valuta voor boekhouding naar een andere consolideert,
 
 | Grootboekrekening | Valuta | Bedrag  | Berekening                        |
 |----------------|----------|---------|------------------------------------|
-| 110110         | EUR      | 333.33  | Oorspronkelijk bedrag van 500 × 66,6667%  |
-| 130100         | EUR      | -333.33 | Oorspronkelijk bedrag van -500 × 66,6667% |
+| 110110         | EUR      | 333.33  | Oorspronkelijk bedrag van 500 × 66,6667%%  |
+| 130100         | EUR      | -333.33 | Oorspronkelijk bedrag van -500 × 66,6667%% |
 | 801400         | EUR      | 83.33   | 333.33 – 250                       |
 | 801600         | EUR      | -83.33  | -333.33 – (-250)                   |
 

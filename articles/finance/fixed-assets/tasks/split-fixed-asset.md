@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 40703622bc8c7a21451d31e7606596c5edbe90f7
-ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
+ms.openlocfilehash: da2dd4889a5f4722ff60a76a4a023c63fb59ad55
+ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4000288"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514321"
 ---
 # <a name="split-a-fixed-asset"></a>Een vast activum splitsen
 
@@ -39,7 +39,7 @@ In dit onderwerp wordt uitgelegd hoe u een percentage van één activumboek opsp
 
 ## <a name="split-a-fixed-asset"></a>Een vast activum splitsen
 
-Voordat een volledig afgeschreven activum wordt gesplitst, moet de status van het activaboek handmatig worden gewijzigd van **Afgesloten** in **Openstaand**. Deze stap is vereist omdat de status van het boek **Openstaand** moet zijn als u transacties voor het activum moet boeken (bijvoorbeeld voor een afboekingsverkoop). Nadat de status van het activaboek is gewijzigd, voert u de volgende stappen uit om het activum te splitsen.
+Voordat een volledig afgeschreven activum wordt gesplitst, moet de status van het activaboek handmatig worden gewijzigd van **Afgesloten** in **Openstaand**. Deze stap is vereist omdat de status van het boek **Openstaand** moet zijn als u transacties voor het activum moet boeken (bijvoorbeeld voor een afboekingsverkoop). U moet ook de parameter **Meerdere transacties binnen één boekstuk toestaan** inschakelen op het tabblad **Algemeen** van de pagina **Grootboekparameters**. Nadat de boekingsstatus van het activum is gewijzigd en er meerdere transacties binnen één boekstuk zijn toegestaan, voert u de volgende stappen uit om het activum te splitsen.
 
 1. Zoek en selecteer in de lijst de koppeling naar het vaste activum om te splitsen.
 2. Selecteer **Boeken**. Selecteer het boek dat u wilt opsplitsen naar het nieuwe activum.

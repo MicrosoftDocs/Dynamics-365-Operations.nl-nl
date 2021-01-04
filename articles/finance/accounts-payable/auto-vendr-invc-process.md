@@ -3,7 +3,7 @@ title: Overzicht van geautomatiseerde processen voor leveranciersfacturering
 description: In dit onderwerp wordt de mogelijkheid beschreven om uw leveranciersfactuurverwerking te automatiseren en de voordelen van het gebruik van een geautomatiseerd proces.
 author: abruer
 manager: AnnBe
-ms.date: 10/16/2020
+ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ec3598ebd158cc23ac7c02d7e33557141d5901bc
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.openlocfilehash: 677760ec15630a11bf691be4cd8af9cf5549ddf9
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022491"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665317"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Overzicht van geautomatiseerde processen voor leveranciersfacturering
 
@@ -39,8 +39,9 @@ De automatiseringsprocessen kunnen worden gebruikt om de volgende taken uit te v
 - Automatisch geïmporteerde facturen indienen bij het werkstroomsysteem.
 - Productontvangstbonregels vereffenen met leveranciersfactuurregels in behandeling.
 - Boekingen simuleren voordat een leveranciersfactuur wordt geboekt.
-- Werkstroomhistorie snel en efficiënt weergeven.
+- Werkstroom- en automatiseringshistorie snel en efficiënt weergeven.
 - De resultaten van automatisering van leveranciersfactuurverwerking weergeven en analyseren.
+- De geautomatiseerde verwerking van meerdere facturen hervatten.
 
 ## <a name="vendor-invoice-automation--submit-imported-vendor-invoices-to-the-workflow-system"></a>Automatisering van leveranciersfacturen – geïmporteerde leveranciersfacturen indienen bij het werkstroomsysteem
 
@@ -58,10 +59,13 @@ Het systeem kan automatisch geboekte productontvangstbonnen vereffenen met factu
 
 Met boekingssimulatie worden de validatiestappen voltooid die worden uitgevoerd tijdens het boekingsproces voor leveranciersfacturen, maar er worden geen rekeningen bijgewerkt. Om het proces uit te voeren kunt u één factuur of meerdere facturen selecteren op de pagina **Leveranciersfacturen in behandeling**.
 
-## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-historical-information-for-vendor-invoices"></a>Automatisering van leveranciersfacturen – een verbeterde ervaring voor het weergeven van historische werkstroomgegevens voor leveranciersfacturen
+## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-and-automation-historical-information-for-vendor-invoices"></a>Automatisering van leveranciersfacturen – een verbeterde ervaring voor het weergeven van historische werkstroom- en automatiseringsgegevens voor leveranciersfacturen
 
-Er wordt een gemakkelijk te lezen weergave van de werkstroomhistorie van leveranciersfacturen verschaft. Er kan rechtstreeks toegang worden verkregen tot de werkstroomhistorie van leveranciersfacturen via de leveranciersfactuur. Er zijn dus minder klikacties nodig om die informatie te vinden.
+Er wordt een gemakkelijk te lezen weergave van de werkstroomhistorie van leveranciersfacturen verschaft. Er kan rechtstreeks toegang worden verkregen tot de werkstroomhistorie van leveranciersfacturen via de leveranciersfactuur. Er zijn dus minder klikacties nodig om die informatie te vinden. Als uw organisatie de mogelijkheid heeft om geïmporteerde leveranciersfacturen automatisch in te dienen bij de werkstroom, wordt de automatiseringshistorie voor de geïmporteerde facturen gebruikt. Met de automatiseringshistorie kunt u de huidige processtap en de stappen die al zijn voltooid, herkennen. Wanneer een stap mislukt, bevat het systeem gedetailleerde informatie over de reden voor de fout.
 
 ## <a name="vendor-invoice-automation--analytics-and-metrics"></a>Automatisering van leveranciersfacturen – analyse en metrische gegevens
 
 Met de werkruimte **Leveranciersfactuurregistratie** kunt u zich concentreren op leveranciersfacturen die niet via het geautomatiseerde proces zijn gemaakt. Tegels in de werkruimte bevatten informatie over leveranciersfacturen die niet met succes zijn ingediend bij het werkstroomsysteem, niet zijn geïmporteerd of vereffend met productontvangstbonnen. Er worden ook metrische gegevens van Microsoft Power BI verschaft om crediteurenmanagers inzicht te geven in de efficiëntie van de automatisering van leveranciersfacturen.
+
+## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Automatisering leveranciersfactuur - automatiseringsverwerking hervatten voor meerdere facturen
+Wanneer een geïmporteerde factuur niet via het geautomatiseerde proces naar de werkstroom is verzonden, wordt deze door het systeem verwijderd voor verdere geautomatiseerde verwerking. Een crediteurenadministrateur kan de factuur controleren en bewerken voordat deze door het geautomatiseerde proces opnieuw wordt ingediend bij de werkstroom. Wanneer een foutreden met dezelfde correctie voor meerdere facturen kan worden opgelost, kunt u het geautomatiseerde proces opnieuw starten op de pagina **Geautomatiseerde factuurverwerking hervatten**. 

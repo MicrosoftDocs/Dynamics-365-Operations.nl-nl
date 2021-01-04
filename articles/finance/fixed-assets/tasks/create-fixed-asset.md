@@ -1,7 +1,7 @@
 ---
 title: Een vast activum maken
 description: In dit onderwerp wordt uitgelegd hoe u een nieuwe record voor vaste activa kunt maken op de lijstpagina Vaste activa.
-author: saraschi2
+author: moaamer
 manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b7d65a047251fa036242fb456725bc8cba957b9
-ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
+ms.openlocfilehash: 481bdb55b813dad5366f382ae35d8345b0e67d9f
+ms.sourcegitcommit: a9efbd69f2670fd6ba0ad0babf304fc206d01249
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4000238"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4442191"
 ---
 # <a name="create-a-fixed-asset"></a>Een vast activum maken
 
@@ -49,3 +49,9 @@ Voer de volgende stappen uit om handmatig een activarecord te maken.
 U kunt vaste activa ook importeren met de Excel-invoegtoepassing of door een importtaak uit te voeren vanuit de werkruimte **Gegevensbeheer**. Voer voordat u de import uitvoert de waarden voor vereiste velden in de sjabloon in.
 
 Als u het nummer van de vaste activa niet hebt gedefinieerd in de sjabloon van de Excel-invoegtoepassing of in Gegevensbeheer, wordt een nummer voor vaste activa gemaakt voor elk geïmporteerd activum en wordt de nummerreeks voor elk geïmporteerd activum automatisch verhoogd. Als u echter activa importeert en activanummers definieert in de sjabloon, wordt de nummerreeks **niet** automatisch verhoogd. In dit geval moet een beheerder de nummerreeks mogelijk handmatig bijwerken. Als u het nummer voor vaste activa in de sjabloon van de Excel-invoegtoepassing hebt gedefinieerd, wordt het gedefinieerde nummer voor vaste activa gebruikt en wordt de nummerreeks verhoogd.
+
+> [!NOTE]                                                                                                         
+> Nadat de afschrijving is geboekt, worden de velden **In gebruik genomen** en **Uitvoeringsdatum afschrijving** vergrendeld op de pagina **Boeken**. Bovendien worden beide velden niet bijgewerkt vanuit de gegevensentiteit.
+
+> [!WARNING]
+> De vaste-activarecord wordt niet verwijderd als er transacties naar het gekoppelde boek worden geboekt of als het nieuwe vaste activum op een journaalregel wordt ingevoerd maar niet wordt geboekt. 

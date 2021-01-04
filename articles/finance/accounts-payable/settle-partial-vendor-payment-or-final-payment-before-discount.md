@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 202d6e8b0933522c2faf5fb49291f11200e4754f
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006136"
+ms.locfileid: "4442125"
 ---
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Een gedeeltelijke leverancierbetaling vereffenen en de definitieve betaling volledig vereffenen vóór de kortingsdatum
 
@@ -31,7 +31,7 @@ ms.locfileid: "4006136"
 
 Dit artikel begeleidt u door een scenario waarin meerdere gedeeltelijke betalingen worden gedaan voor een leveranciersfactuur en een contantkorting wordt genomen.
 
-Fabrikam koopt goederen aan bij leverancier 3064. De leverancier geeft Fabrikam een contantkorting van 1 procent als de factuur wordt betaald binnen 14 dagen. Facturen moeten worden betaald binnen 30 dagen. De leverancier laat Fabrikam ook contantkortingen nemen op gedeeltelijke betalingen. De vereffeningparameters bevinden zich op de pagina  **Parameters van module Leveranciers**. Op 25 juni voert April een factuur voor leverancier 3064 in van 1000,00.
+Fabrikam koopt goederen aan bij leverancier 3064. De leverancier geeft Fabrikam een contantkorting van 1 procent als de factuur wordt betaald binnen 14 dagen. Facturen moeten worden betaald binnen 30 dagen. De leverancier laat Fabrikam ook contantkortingen nemen op gedeeltelijke betalingen. De vereffeningparameters bevinden zich op de pagina **Parameters van module Leveranciers**. Op 25 juni voert April een factuur voor leverancier 3064 in van 1000,00.
 
 ## <a name="vendor-invoice-on-june-25"></a>Leveranciersfactuur op 25 juni
 Op 25 juni voert April een factuur in en boekt deze voor 1.000,00 voor leverancier 3064. April kan deze transactie op de pagina **Leverancierstransacties** weergeven.
@@ -64,7 +64,7 @@ April klikt op het tabblad **Contantkorting** om het kortingsbedrag te bekijken.
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="partial-payment-on-july-1-by-using-the-settle-transactions-page"></a>Gedeeltelijke betaling op 1 juli via de pagina Vereffenen open transacties
-April kan voor deze betaling een betalingsjournaal maken door de pagina **Betalingsjournaal** in Leveranciers te openen. Ze maakt een nieuw betalingsjournaal en voert een regel voor leverancier 3064 in. Ze opent vervolgens de pagina **Transacties vereffenen** , zodat ze de factuur kan markeren voor vereffening. April markeert de factuur en wijzigt de waarde in het veld **Bedrag om te vereffenen** naar **-500,00**. Ze ziet dat de waarde in het veld **Contantkortingsbedrag** voor de volledige factuur **-10,00** is en de waarde in het veld **Contantkortingsbedrag dat moet worden toegepast** **-5,05** is. Daarom vereffent April -505,05 van deze factuur.
+April kan voor deze betaling een betalingsjournaal maken door de pagina **Betalingsjournaal** in Leveranciers te openen. Ze maakt een nieuw betalingsjournaal en voert een regel voor leverancier 3064 in. Ze opent vervolgens de pagina **Transacties vereffenen**, zodat ze de factuur kan markeren voor vereffening. April markeert de factuur en wijzigt de waarde in het veld **Bedrag om te vereffenen** naar **-500,00**. Ze ziet dat de waarde in het veld **Contantkortingsbedrag** voor de volledige factuur **-10,00** is en de waarde in het veld **Contantkortingsbedrag dat moet worden toegepast** **-5,05** is. Daarom vereffent April -505,05 van deze factuur.
 
 | Markeren     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Bedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -105,7 +105,7 @@ April sluit de pagina **Transacties vereffenen**. Een betalingsregel voor 495,00
 | DISC-10010 | Contantkorting    | 01-07-2015  |         | 5,00                                 |                                       | 0,00    | USD      |
 
 ## <a name="remaining-amount-paid-on-july-8"></a>Het resterende bedrag betaald op 8 juli
-April betaalt de rest van de factuur voor leverancier 3064 op 8 juli, wat binnen de periode van de contantkorting valt. April maakt op 8 juli het betalingsjournaal en markeert de transactie voor vereffening. Ze ziet dat het bedrag dat moet worden vereffend 495,00 is. De waarde in het veld **Geraamde contantkorting** is **-5,00** , omdat de korting van 5,00 eerder is toegepast.
+April betaalt de rest van de factuur voor leverancier 3064 op 8 juli, wat binnen de periode van de contantkorting valt. April maakt op 8 juli het betalingsjournaal en markeert de transactie voor vereffening. Ze ziet dat het bedrag dat moet worden vereffend 495,00 is. De waarde in het veld **Geraamde contantkorting** is **-5,00**, omdat de korting van 5,00 eerder is toegepast.
 
 |  &nbsp;                 |  &nbsp; |
 |-------------------------|--------|

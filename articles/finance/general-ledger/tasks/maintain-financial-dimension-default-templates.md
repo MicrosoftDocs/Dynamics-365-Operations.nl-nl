@@ -17,11 +17,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: a53eed5127267614ce8fb46622be59f77e68217e
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3145000"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441891"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Standaardsjablonen voor financiële dimensies onderhouden
 
@@ -38,7 +38,7 @@ In dit onderwerp ziet u hoe de standaardsjablonen van de financiële dimensie wo
 7. Voer een ander percentage in voor de volgende dimensiewaarden. Voer voor dit voorbeeld een percentage in, zodat u nog minder dan 100% hebt toegewezen. 
 8. Voer de financiële dimensiewaarden in die overeenkomen met het ingevoerde percentage.
 9. Selecteer **Toevoegen**.
-10. Voer nog een percentage in, waarmee het totale percentage op 100% uitkomt.
+10. Voer nog een percentage in, waarmee het totale percentage op 100%% uitkomt.
 11. Voer de financiële dimensiewaarden in die overeenkomen met het ingevoerde percentage.
 12. Selecteer **Opslaan**.
 

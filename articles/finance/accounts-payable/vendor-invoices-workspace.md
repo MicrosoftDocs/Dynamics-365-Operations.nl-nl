@@ -18,11 +18,11 @@ ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
-ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
+ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
 ms.translationtype: HT
 ms.contentlocale: nl-NL
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000790"
+ms.locfileid: "4442122"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>Werkgebied voor leveranciersfactuurregistratie
 
@@ -72,7 +72,7 @@ De tegels in de sectie **Overzicht van facturen in behandeling** van de weergave
 
 Als u de tegel **Leveranciersfacturen herstellen** wilt gebruiken, moet de functie zijn ingeschakeld in de parameters van de module Leveranciers. Ga naar **Leveranciers \> Parameters van module Leveranciers** en stel vervolgens op het tabblad **Factuur** de optie **Herstellen van leveranciers toestaan** in op **Ja**.
 
-Wanneer de functie is ingeschakeld, worden ook drie tegels gegroepeerd in het werkgebied in een sectie met de naam **Journalen**. De tegels hebben de naam **Journalen** , **Journalen - toegewezen aan mij** en **Facturenpool**. 
+Wanneer de functie is ingeschakeld, worden ook drie tegels gegroepeerd in het werkgebied in een sectie met de naam **Journalen**. De tegels hebben de naam **Journalen**, **Journalen - toegewezen aan mij** en **Facturenpool**. 
 
 De informatie in de sectie **Overzicht van facturen in behandeling** is voor het bedrijf dat is ingesteld als het standaardbedrijf voor uw aanmelding.
 
@@ -86,7 +86,7 @@ Als u een nieuwe factuurrecord wilt maken, selecteert u **Nieuw** en selecteert 
 - Factuurregister
 - Goedkeuring van facturen
 
-De record die u maakt, wordt gebaseerd op het bedrijfsfilter en niet op het bedrijf waarbij u bent aangemeld. U bent bijvoorbeeld aangemeld bij het bedrijf **UMSF** , maar het bedrijfsfilter is ingesteld op **GBSI**. Wanneer u in dit geval **Nieuw** selecteert en vervolgens een recordtype in de lijst selecteert, wordt de record gemaakt in het GBSI-bedrijf.
+De record die u maakt, wordt gebaseerd op het bedrijfsfilter en niet op het bedrijf waarbij u bent aangemeld. U bent bijvoorbeeld aangemeld bij het bedrijf **UMSF**, maar het bedrijfsfilter is ingesteld op **GBSI**. Wanneer u in dit geval **Nieuw** selecteert en vervolgens een recordtype in de lijst selecteert, wordt de record gemaakt in het GBSI-bedrijf.
 
 ### <a name="documents-not-invoiced-grids"></a>Rasters voor niet-gefactureerde documenten
 
@@ -102,11 +102,11 @@ In het raster **Inkooporder zoeken** kunt u het veld **Zoeken** gebruiken om te 
 
 ### <a name="related-information"></a>Verwante informatie
 
-U kunt informatie over geboekte facturen weergeven met de koppelingen aan de rechterkant van het werkgebied. Deze koppelingen zijn **Openstaande leveranciersfacturen** , **Factuurjournaal** en **Factuurgeschiedenis en vereffeningsdetails**. In de sectie **Leveranciers** kunt u een gefilterde lijst openen waarin alle geblokkeerde leveranciers worden weergegeven of u kunt de koppeling **Alle leveranciers** gebruiken. De koppelingen **Alle inkooporders** en **Openstaande vooruitbetalingen** zijn ook beschikbaar.
+U kunt informatie over geboekte facturen weergeven met de koppelingen aan de rechterkant van het werkgebied. Deze koppelingen zijn **Openstaande leveranciersfacturen**, **Factuurjournaal** en **Factuurgeschiedenis en vereffeningsdetails**. In de sectie **Leveranciers** kunt u een gefilterde lijst openen waarin alle geblokkeerde leveranciers worden weergegeven of u kunt de koppeling **Alle leveranciers** gebruiken. De koppelingen **Alle inkooporders** en **Openstaande vooruitbetalingen** zijn ook beschikbaar.
 
 ### <a name="analytics--all-companies-page"></a>Pagina Analyse - alle bedrijven
 
-Wanneer de optie **Geïmporteerde facturen automatisch indienen bij het werkstroomsysteem** is ingesteld op **Ja** op de pagina **Parameters van module Leveranciers** , kunt u automatiseringsanalyse weergeven. De pagina **Analyse - alle bedrijven** bevat belangrijke metrische gegevens, zoals leveranciersfacturen die ter goedkeuring bij de fiatteur en het bedrijf liggen. Deze pagina bevat vijf rapportpagina's. Eén pagina bevat een overzicht en de andere pagina's bieden details over metrische gegevens over automatisering van Leveranciers.
+Wanneer de optie **Geïmporteerde facturen automatisch indienen bij het werkstroomsysteem** is ingesteld op **Ja** op de pagina **Parameters van module Leveranciers**, kunt u automatiseringsanalyse weergeven. De pagina **Analyse - alle bedrijven** bevat belangrijke metrische gegevens, zoals leveranciersfacturen die ter goedkeuring bij de fiatteur en het bedrijf liggen. Deze pagina bevat vijf rapportpagina's. Eén pagina bevat een overzicht en de andere pagina's bieden details over metrische gegevens over automatisering van Leveranciers.
 
 In de volgende tabel ziet u de visualisaties die op elke rapportpagina beschikbaar zijn.
 

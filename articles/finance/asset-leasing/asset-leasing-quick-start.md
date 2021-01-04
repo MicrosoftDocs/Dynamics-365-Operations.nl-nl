@@ -19,11 +19,11 @@ ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: 9e206569aad3f53a2f6f66e6d6253226e5980078
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022562"
+ms.lasthandoff: 10/17/2020
+ms.locfileid: "4442137"
 ---
 # <a name="asset-leasing-get-started"></a>Aan de slag met Activalease
 
@@ -40,11 +40,11 @@ In het volgende diagram worden de belangrijkste elementen van het bedrijfsproces
 
 Een geleasd activum bevat de volgende hoofdcomponenten:
 
-- **Leaseovereenkomst** : de leaseverstrekker is eigenaar van het activum en komt met de leasenemer overeen om een activum te leasen voor een bepaalde periode in ruil voor periodieke leasebetalingen. Naast de juridische overeenkomst tussen de leaseverstrekker en de leasenemer worden in de leaseovereenkomst beheerbeslissingen vastgelegd, zoals de waarschijnlijkheid van het toepassen van een verlengingsoptie en eigendomsoverdracht.
+- **Leaseovereenkomst**: de leaseverstrekker is eigenaar van het activum en komt met de leasenemer overeen om een activum te leasen voor een bepaalde periode in ruil voor periodieke leasebetalingen. Naast de juridische overeenkomst tussen de leaseverstrekker en de leasenemer worden in de leaseovereenkomst beheerbeslissingen vastgelegd, zoals de waarschijnlijkheid van het toepassen van een verlengingsoptie en eigendomsoverdracht.
 
-- **Leaseberekening en classificatie per boekhoudstandaard** : met de leaseberekening en -classificatie wordt de boekhoudstandaard aangegeven die wordt toegepast bij de eerste en de latere meting, alsmede de classificatietest waarmee wordt bepaald wat het leasetype is. Een lease kan een financiële lease zijn, een operationele lease, een kortlopende lease of een lease met geringe waarde. Het systeem berekent ook de huidige waarde van toekomstige minimale leasebetalingen met het oog op waardering en classificatie.
+- **Leaseberekening en classificatie per boekhoudstandaard**: met de leaseberekening en -classificatie wordt de boekhoudstandaard aangegeven die wordt toegepast bij de eerste en de latere meting, alsmede de classificatietest waarmee wordt bepaald wat het leasetype is. Een lease kan een financiële lease zijn, een operationele lease, een kortlopende lease of een lease met geringe waarde. Het systeem berekent ook de huidige waarde van toekomstige minimale leasebetalingen met het oog op waardering en classificatie.
 
-- **Leasetransacties** : Activalease ondersteunt de eerste toerekening van het activum met gebruiksrecht voor leases op de balans, alsmede volgende metingen voor leases op de balans of leases niet op de balans. Met de transactie van eerste toerekening wordt de huidige waarde van toekomstige minimale leasebetalingen gemeten. Deze gegevens worden gebruikt om de waarde van het eerste activum met gebruiksrecht en leaseverplichtingen te bepalen, die van invloed zijn op de balans van de organisatie. De volgende meting van maandelijkse leasetransacties heeft betrekking op de accumulatie van rente over de leaseverplichting, waarmee de leaseverplichting wordt verhoogd. Ook wordt de toerekening van leasebetalingen gemeten waarmee de leaseverplichting wordt verlaagd en die later aan de leaseverstrekker wordt betaald. De meting omvat ook de afschrijving van het activum met gebruiksrecht.
+- **Leasetransacties**: Activalease ondersteunt de eerste toerekening van het activum met gebruiksrecht voor leases op de balans, alsmede volgende metingen voor leases op de balans of leases niet op de balans. Met de transactie van eerste toerekening wordt de huidige waarde van toekomstige minimale leasebetalingen gemeten. Deze gegevens worden gebruikt om de waarde van het eerste activum met gebruiksrecht en leaseverplichtingen te bepalen, die van invloed zijn op de balans van de organisatie. De volgende meting van maandelijkse leasetransacties heeft betrekking op de accumulatie van rente over de leaseverplichting, waarmee de leaseverplichting wordt verhoogd. Ook wordt de toerekening van leasebetalingen gemeten waarmee de leaseverplichting wordt verlaagd en die later aan de leaseverstrekker wordt betaald. De meting omvat ook de afschrijving van het activum met gebruiksrecht.
 
   Voor leases buiten de balans berekent het systeem de lineaire leasekosten over dat wat minder is: de economische levensduur van het activum of de leaseperiode. Met leasecorrecties worden contractwijzigingen, zoals een lease-uitbreiding, en de waardeverminderingstransactie gemeten waarin het activum met gebruiksrecht voor niet-terugvorderbare kosten wordt gebruikt.
 
@@ -57,34 +57,34 @@ In het volgende diagram ziet u het leaseboek, de lease, het berekende betalingss
 
 [![Leasen, leaseboek en betalingsschema](./media/overview-02.png)](./media/overview-02.png)
 
-- **Leaseboek** : het leaseboek bevat alle informatie over leasecontracten, zoals de leasevoorwaarden, de reële waarde en leasebetalingen. Het bevat ook de boekhoudstandaard die u volgt, het leasetype en de drempels die in aanmerking worden genomen bij de leaseclassificatietest. Het leaseboek bevat ook de leasetransacties die naar het grootboek zijn geboekt. 
+- **Leaseboek**: het leaseboek bevat alle informatie over leasecontracten, zoals de leasevoorwaarden, de reële waarde en leasebetalingen. Het bevat ook de boekhoudstandaard die u volgt, het leasetype en de drempels die in aanmerking worden genomen bij de leaseclassificatietest. Het leaseboek bevat ook de leasetransacties die naar het grootboek zijn geboekt. 
   
-- **Lease** : de lease bevat de activaleasegegevens die de basis vormen van de activalease. De leasegegevensbron is het leasecontract en de beheerbeslissing die beide worden uitgevoerd buiten Dynamics 365 Finance. De reële waarde van het activum is de prijs die voor een activum wordt betaald in een transactie op de datum van meting. Deze waarde kan afhankelijk zijn van het activumtype, de marktvoorwaarden en andere criteria die in aanmerking kunnen worden genomen bij de evaluatie. De reële waarde van het activum wordt in aanmerking genomen in de classificatietestvergelijking.
+- **Lease**: de lease bevat de activaleasegegevens die de basis vormen van de activalease. De leasegegevensbron is het leasecontract en de beheerbeslissing die beide worden uitgevoerd buiten Dynamics 365 Finance. De reële waarde van het activum is de prijs die voor een activum wordt betaald in een transactie op de datum van meting. Deze waarde kan afhankelijk zijn van het activumtype, de marktvoorwaarden en andere criteria die in aanmerking kunnen worden genomen bij de evaluatie. De reële waarde van het activum wordt in aanmerking genomen in de classificatietestvergelijking.
 
-- **Economische levensduur activum** : dit zijn de resterende perioden van de economische levensduur van een activum vanaf de begindatum van de lease. De economische levensduur van een activum wordt in aanmerking genomen in de classificatietestvergelijking. Deze verschilt van de economische levensduur zoals gedefinieerd in Vaste activa.
+- **Economische levensduur activum**: dit zijn de resterende perioden van de economische levensduur van een activum vanaf de begindatum van de lease. De economische levensduur van een activum wordt in aanmerking genomen in de classificatietestvergelijking. Deze verschilt van de economische levensduur zoals gedefinieerd in Vaste activa.
 
-- **Verhoogd leningtarief** : dit is het rentepercentage dat wordt gebruikt om de huidige waarde te berekenen. Het systeem gebruikt het impliciete tarief als het is gedefinieerd in de leasegegevens om de huidige waarde van de leasebetalingen te berekenen. Als het impliciete tarief niet is gedefinieerd, gebruikt het systeem het verhoogde leningtarief.
+- **Verhoogd leningtarief**: dit is het rentepercentage dat wordt gebruikt om de huidige waarde te berekenen. Het systeem gebruikt het impliciete tarief als het is gedefinieerd in de leasegegevens om de huidige waarde van de leasebetalingen te berekenen. Als het impliciete tarief niet is gedefinieerd, gebruikt het systeem het verhoogde leningtarief.
 
-- **Type annuïteit** : dit is de leasebetaling die verschuldigd is aan het begin van de betalingsperiode of aan het einde van de periode. Dit kan een vooruitbetaling of te betalen annuïteit zijn (aan het begin van de leasebetalingsperiode) of een normale annuïteit (aan het einde van de leasebetalingsperiode).
+- **Type annuïteit**: dit is de leasebetaling die verschuldigd is aan het begin van de betalingsperiode of aan het einde van de periode. Dit kan een vooruitbetaling of te betalen annuïteit zijn (aan het begin van de leasebetalingsperiode) of een normale annuïteit (aan het einde van de leasebetalingsperiode).
 
   De eerste maand wordt als periodenummer nul voor vooruitbetaling beschouwd. De eerste maand wordt beschouwd als periode één voor achterstallige betalingen.
 
-- **Samenstellingsinterval** : hiermee wordt het aantal perioden vertegenwoordigd waarover rente per jaar wordt samengesteld. Dit kan maandelijks zijn (12 perioden per jaar), per kwartaal (4 perioden per jaar), halfjaarlijks (2 perioden per jaar) of jaarlijks (1 periode per jaar). Het aantal perioden wordt meegenomen in de berekening van de huidige waarde.
+- **Samenstellingsinterval**: hiermee wordt het aantal perioden vertegenwoordigd waarover rente per jaar wordt samengesteld. Dit kan maandelijks zijn (12 perioden per jaar), per kwartaal (4 perioden per jaar), halfjaarlijks (2 perioden per jaar) of jaarlijks (1 periode per jaar). Het aantal perioden wordt meegenomen in de berekening van de huidige waarde.
 
-- **Begindatum** : dit is de datum waarop de leaseverstrekker het activum beschikbaar maakt voor gebruik door de leasenemer. Alle leaseberekeningen en -transacties worden gebaseerd op de begindatum. De begindatum moet aan het begin van een periode (eerste van de maand) zijn om de nauwkeurigheid van volgende berekeningen te garanderen. U kunt het veld **Handtekeningdatum contract** gebruiken om de werkelijke datum waarop het contract is ondertekend in te voeren.
+- **Begindatum**: dit is de datum waarop de leaseverstrekker het activum beschikbaar maakt voor gebruik door de leasenemer. Alle leaseberekeningen en -transacties worden gebaseerd op de begindatum. De begindatum moet aan het begin van een periode (eerste van de maand) zijn om de nauwkeurigheid van volgende berekeningen te garanderen. U kunt het veld **Handtekeningdatum contract** gebruiken om de werkelijke datum waarop het contract is ondertekend in te voeren.
 
-- **Leasetermijn** : dit is de duur van de leaseperiode in maanden.
+- **Leasetermijn**: dit is de duur van de leaseperiode in maanden.
 
 > [!NOTE] 
 > De definitie van de leasetermijn is gebaseerd op het aantal perioden, of intervallen, in de regels van het betalingsschema. Het gedefinieerde aantal intervallen wordt geconverteerd naar maanden.
 
-- **Betalingsschemaregel** : hiermee worden de leasebetalingen per periode vastgelegd. Ook wordt aangegeven of er een vernieuwingsperiode wordt toegepast en opgenomen in de eerste meting van het activum met gebruiksrecht en de leaseverplichtingen. U kunt de begindatum van de verschuldigde leasebetalingen definiëren en de periode-intervallen die de duur van de lease aangeven, dat wil zeggen dagen, maanden of jaren.
+- **Betalingsschemaregel**: hiermee worden de leasebetalingen per periode vastgelegd. Ook wordt aangegeven of er een vernieuwingsperiode wordt toegepast en opgenomen in de eerste meting van het activum met gebruiksrecht en de leaseverplichtingen. U kunt de begindatum van de verschuldigde leasebetalingen definiëren en de periode-intervallen die de duur van de lease aangeven, dat wil zeggen dagen, maanden of jaren.
 
-- **Betalingsfrequentie** : hiermee wordt aangegeven of de betaling maandelijks, per kwartaal, halfjaarlijks of jaarlijks wordt uitgevoerd. De einddatum wordt automatisch berekend op basis van de begindatum en het aantal ingevoerde perioden.
+- **Betalingsfrequentie**: hiermee wordt aangegeven of de betaling maandelijks, per kwartaal, halfjaarlijks of jaarlijks wordt uitgevoerd. De einddatum wordt automatisch berekend op basis van de begindatum en het aantal ingevoerde perioden.
 
-- **Betalingsschema** : dit is de berekende huidige waarde, gebaseerd op de tijdsduur van de leasebetalingen, het bedrag van de betalingen, de samenstellingsperioden en het type annuïteit.
+- **Betalingsschema**: dit is de berekende huidige waarde, gebaseerd op de tijdsduur van de leasebetalingen, het bedrag van de betalingen, de samenstellingsperioden en het type annuïteit.
 
-- **Perioden** : dit zijn de leaseperioden die het samenstellingsinterval en het annuïteitstype aangeven. Het samenstellingsinterval bepaalt hoe perioden worden verdeeld. U kunt de volgende samenstellingsintervallen instellen:
+- **Perioden**: dit zijn de leaseperioden die het samenstellingsinterval en het annuïteitstype aangeven. Het samenstellingsinterval bepaalt hoe perioden worden verdeeld. U kunt de volgende samenstellingsintervallen instellen:
 
   - Per maand, 12 perioden per jaar
   - Per kwartaal, 4 perioden per jaar
@@ -93,28 +93,28 @@ In het volgende diagram ziet u het leaseboek, de lease, het berekende betalingss
 
 De eerste periode begint met periode nul als het annuïteitstype te betalen annuïteit is. Anders begint de eerste periode met één als het annuïteitstype achterstallige betalingen is.
 
-- **Maanden** : hiermee wordt het aantal kalendermaanden aangegeven voor de duur van de lease. Het betalingsbedrag is het verschuldigde bedrag zoals gedefinieerd in de betalingsfrequentie. De berekende huidige waarde is de op de huidige waarde gebaseerde leasebetaling per periode, de samenstellingsintervallen en het verhoogde leentarief.
+- **Maanden**: hiermee wordt het aantal kalendermaanden aangegeven voor de duur van de lease. Het betalingsbedrag is het verschuldigde bedrag zoals gedefinieerd in de betalingsfrequentie. De berekende huidige waarde is de op de huidige waarde gebaseerde leasebetaling per periode, de samenstellingsintervallen en het verhoogde leentarief.
 
 > [!NOTE] 
 > De huidige waarde wordt berekend op basis van de verdisconteerde cashflowvergelijking.
 
-- **Boeken** : dit zijn de vooraf geconfigureerde instellingen die aan elke lease worden gekoppeld. Met het boek worden de toegepaste boekhoudstandaard, leasetypen en drempel gedefinieerd die worden gebruikt als de basis voor de classificatietests. Classificatietests worden gebruikt om het leasetype automatisch op te geven.
+- **Boeken**: dit zijn de vooraf geconfigureerde instellingen die aan elke lease worden gekoppeld. Met het boek worden de toegepaste boekhoudstandaard, leasetypen en drempel gedefinieerd die worden gebruikt als de basis voor de classificatietests. Classificatietests worden gebruikt om het leasetype automatisch op te geven.
 
-- **Boekhoudkundig kader** : hiermee wordt de geselecteerde door u ondersteunde boekhoudstandaard weergegeven: IFRS 16 of ASC 842. De boekhoudstandaard wordt toegewezen aan het boek dat is gekoppeld aan de lease. De boekhoudstandaard bepaalt de grootboekrekeningen die in het boekingsprofiel zijn opgegeven.
+- **Boekhoudkundig kader**: hiermee wordt de geselecteerde door u ondersteunde boekhoudstandaard weergegeven: IFRS 16 of ASC 842. De boekhoudstandaard wordt toegewezen aan het boek dat is gekoppeld aan de lease. De boekhoudstandaard bepaalt de grootboekrekeningen die in het boekingsprofiel zijn opgegeven.
 
-- **Leasetypen** : hiermee wordt aangegeven welke van de twee typen leases worden gebruikt: een financiële lease of een operationele lease. Bij een financiële lease worden de risico's en beloningen die betrekking hebben op het geleasde activum overgeboekt naar de leasenemer. Bij een operationele lease blijven risico's en beloningen die betrekking hebben op het geleasde activum bij de leaseverstrekker. Een derde optie is een automatische identificatie van het leasetype, financieel of operationeel, op basis van de gedefinieerde drempels in het boek. Deze automatische identificatie wordt uitgevoerd tijdens de herclassificatietest voor de lease.
+- **Leasetypen**: hiermee wordt aangegeven welke van de twee typen leases worden gebruikt: een financiële lease of een operationele lease. Bij een financiële lease worden de risico's en beloningen die betrekking hebben op het geleasde activum overgeboekt naar de leasenemer. Bij een operationele lease blijven risico's en beloningen die betrekking hebben op het geleasde activum bij de leaseverstrekker. Een derde optie is een automatische identificatie van het leasetype, financieel of operationeel, op basis van de gedefinieerde drempels in het boek. Deze automatische identificatie wordt uitgevoerd tijdens de herclassificatietest voor de lease.
 
-- **Drempels** : dit wordt in de classificatietests voor leases gebruikt om te bepalen of het activum als een van de volgende mogelijkheden is geclassificeerd:
+- **Drempels**: dit wordt in de classificatietests voor leases gebruikt om te bepalen of het activum als een van de volgende mogelijkheden is geclassificeerd:
 
-  - **Leasetermijn** : dit is het percentage van de economische levensduur die in de classificatietest moet worden gebruikt. De lease wordt door het systeem geclassificeerd als financieel als het leasetype is ingesteld op automatisch en als de leasetermijn voor de economische levensduur van het activum groter is dan of gelijk is aan het hier gedefinieerde percentage.
+  - **Leasetermijn**: dit is het percentage van de economische levensduur die in de classificatietest moet worden gebruikt. De lease wordt door het systeem geclassificeerd als financieel als het leasetype is ingesteld op automatisch en als de leasetermijn voor de economische levensduur van het activum groter is dan of gelijk is aan het hier gedefinieerde percentage.
 
-  - **Huidige waarde** : dit is het percentage van de reële waarde van het activum, die in de classificatietest moet worden gebruikt. De lease wordt door het systeem geclassificeerd als financieel als het leasetype is ingesteld op automatisch en als de huidige waarde van toekomstige leasebetalingen voor de reële waarde van het activum groter is dan of gelijk is aan het hier gedefinieerde percentage.
+  - **Huidige waarde**: dit is het percentage van de reële waarde van het activum, die in de classificatietest moet worden gebruikt. De lease wordt door het systeem geclassificeerd als financieel als het leasetype is ingesteld op automatisch en als de huidige waarde van toekomstige leasebetalingen voor de reële waarde van het activum groter is dan of gelijk is aan het hier gedefinieerde percentage.
 
-  - **Kortlopend lease** : als de leasetermijn kleiner is dan of gelijk is aan de gedefinieerde waarde, wordt de lease geclassificeerd als een kortlopende lease.
+  - **Kortlopend lease**: als de leasetermijn kleiner is dan of gelijk is aan de gedefinieerde waarde, wordt de lease geclassificeerd als een kortlopende lease.
 
-  - **Geringe waarde** : als de reële waarde van het activum kleiner is dan of gelijk is aan de gedefinieerde waarde, wordt de lease geclassificeerd als een lease met geringe waarde.
+  - **Geringe waarde**: als de reële waarde van het activum kleiner is dan of gelijk is aan de gedefinieerde waarde, wordt de lease geclassificeerd als een lease met geringe waarde.
 
-  - **Leaseclassificatie en -transacties** : de leaseclassificatie is een geautomatiseerd proces om de leases te classificeren op basis van de gedefinieerde drempels in boeken naast andere classificatietestcriteria om te bepalen of de lease een financiële lease, operationele lease, kortlopende lease of lease met geringe waarde is. Dit wordt ook gebruikt om aan te geven of de uitgestelde gebruiksvergoeding wordt gevolgd.
+  - **Leaseclassificatie en -transacties**: de leaseclassificatie is een geautomatiseerd proces om de leases te classificeren op basis van de gedefinieerde drempels in boeken naast andere classificatietestcriteria om te bepalen of de lease een financiële lease, operationele lease, kortlopende lease of lease met geringe waarde is. Dit wordt ook gebruikt om aan te geven of de uitgestelde gebruiksvergoeding wordt gevolgd.
 
 Classificatietests omvatten de overdracht van eigendom, de aankoopoptie, de leasetermijn, de huidige waarde en het unieke activum. In het volgende diagram worden de classificatietests voor de lease getoond.
 
@@ -203,7 +203,7 @@ Hiermee wordt de verlaging van het overdrachtssaldo van het activum met gebruiks
 >[!NOTE]
 > Als de lease aan een vast activum wordt gekoppeld, moet de waardevermindering van de lease worden geboekt vanuit Vaste activa, omdat de activumafschrijving vanuit de module Vaste activa wordt uitgevoerd.
 
-**Twee valuta´s** : leasetransacties kunnen in een andere valuta dan de valuta voor boekhouding en rapportage worden geboekt. De wisselkoers van de valuta wordt op de begindatum in het grootboek gedefinieerd. U kunt de wisselkoersen wijzigen door het veld **Vaste wisselkoers** in te stellen op **Ja** wanneer u de lease maakt. Wanneer u leasetransacties invoert, wordt bij de eerste toerekening en volgende afschrijvingstransacties de wisselkoers vanaf de begindatum gebruikt. Bij de volgende betalings- en rentetransacties wordt de huidige actieve wisselkoers gebruikt. 
+**Twee valuta´s**: leasetransacties kunnen in een andere valuta dan de valuta voor boekhouding en rapportage worden geboekt. De wisselkoers van de valuta wordt op de begindatum in het grootboek gedefinieerd. U kunt de wisselkoersen wijzigen door het veld **Vaste wisselkoers** in te stellen op **Ja** wanneer u de lease maakt. Wanneer u leasetransacties invoert, wordt bij de eerste toerekening en volgende afschrijvingstransacties de wisselkoers vanaf de begindatum gebruikt. Bij de volgende betalings- en rentetransacties wordt de huidige actieve wisselkoers gebruikt. 
 
 ## <a name="create-an-asset-lease"></a>Een activalease maken
 Voer de volgende stappen uit om een nieuwe lease te maken. 

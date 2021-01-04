@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
 ms.openlocfilehash: 1913b661c46af5e34da1a2939cb2a5d5b4e46411
-ms.sourcegitcommit: 7df49a85de484d013518217ba8ada6c61da4b6e4
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "3287934"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441838"
 ---
 # <a name="rcs-enhanced-filtering-options-for-finding-configurations-in-the-rcsglobal-repository"></a>Verbeterde RCS-filteropties voor het zoeken van configuraties in de RCS/algemene opslagplaats
 
@@ -31,7 +31,7 @@ ms.locfileid: "3287934"
 
 In dit onderwerp worden uitgebreide filtermogelijkheden voor de globale opslagplaats van RCS (Regulatory Configuration Services) beschreven, die zijn uitgebreid met de mogelijkheid om met de volgende criteria te filteren: 
 - **Land/regio**: gebaseerd op ISO-landcodes  
-- **Label**typen voor:
+- **Label** typen voor:
   - Functioneel gebied
   - Functiegebied
   - Bedrijfstak 

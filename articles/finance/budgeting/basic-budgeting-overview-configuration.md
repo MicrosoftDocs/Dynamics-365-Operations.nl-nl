@@ -1,6 +1,6 @@
 ---
 title: Budgetteringsoverzicht
-description: Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 Finance, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operation te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
+description: Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 Finance, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operations te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,17 +19,17 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
-ms.sourcegitcommit: 1eaa3451275fe4223d4d25b37aaa1cd2b183e803
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667455"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4441974"
 ---
-# <a name="budgeting-overview"></a>Budgetteringsoverzicht
+# <a name="budgeting-overview"></a>Overzicht van Budgettering
 
 [!include [banner](../includes/banner.md)]
 
-Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 Finance, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operation te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
+Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 Finance, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operations te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
 
 <a name="overview"></a>Overzicht
 --------

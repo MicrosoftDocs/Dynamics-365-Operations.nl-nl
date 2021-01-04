@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb797af1ae14ebbb420a1b4a1591202c42bd8824
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: d51a5ff2dca764a534ea4bf92c30bcf0bf0a5dad
+ms.sourcegitcommit: 51cd470ee885d12f7d51c66201b092aaa16dfaa6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249113"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4701671"
 ---
 # <a name="vendor-invoices-overview"></a>Overzicht van leveranciersfacturen
 
@@ -112,13 +112,16 @@ U kunt toegang krijgen tot de pagina **Leveranciersfacturen herstellen** als de 
 
 ## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>De workflowstatus voor leveranciersfacturen van Onherstelbaar wijzigen in Concept
 
-Een workflowexemplaar dat is gestopt vanwege een onherstelbare fout, heeft een workflowstatus **Onherstelbaar**. Wanneer de status van een werkstroom voor leveranciersfacturen **Onherstelbaar** is, kunt u deze weer instellen op **Concept** door **Intrekken** te selecteren. Vervolgens kunt u de leveranciersfactuur bewerken. Deze functie is beschikbaar als de parameter **Conceptstatus herstellen voor workflow van leveranciersfactuur** op de pagina **Functiebeheer** is ingeschakeld.
+Een workflowexemplaar dat is gestopt vanwege een onherstelbare fout, heeft een workflowstatus **Onherstelbaar**. Wanneer de status van een werkstroom voor leveranciersfacturen **Onherstelbaar** is, kunt u deze weer instellen op **Concept** door **Intrekken** te selecteren. Vervolgens kunt u de leveranciersfactuur bewerken. Deze functie is beschikbaar als de parameter **De workflowstatus voor leveranciersfacturen van Onherstelbaar wijzigen in Concept** op de pagina **Functiebeheer** is ingeschakeld.
 
 U kunt de pagina **Workflowhistorie** voor leveranciersfacturen gebruiken om de workflowstatus in te stellen op **Concept**. U deze pagina openen vanuit **Leveranciersfactuur** of vanuit de navigatie **Algemeen > Query's > Workflow**. Als u de workflowstatus terug wilt zetten op **Concept**, selecteert u **Intrekken**. U kunt de workflowstatus ook terugzetten op Concept door de actie **Intrekken** te selecteren op de pagina **Leveranciersfactuur** of **Leveranciersfacturen in behandeling**. Als de workflowstatus is ingesteld op **Concept**, wordt deze beschikbaar voor bewerking op de pagina **Leveranciersfactuur**.
 
+## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Het factuurtotaal weergeven op de pagina Leveranciersfacturen in behandeling
+U kunt het factuurtotaal weergeven op de pagina **Leveranciersfacturen in behandeling** door de parameter **Factuurtotaal in lijst met in behandeling zijnde leveranciersfacturen weergeven** in te schakelen op de pagina **Parameters van module Leveranciers**. 
 
 
-## <a name="additional-resources"></a>Aanvullende resources
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Leveranciersfactuurbeleid instellen](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
 - [Belangrijke factuurgegevens in leverancierssysteem met leveranciersfactuur](tasks/key-invoice-data-ap-system-vendor-invoice.md)

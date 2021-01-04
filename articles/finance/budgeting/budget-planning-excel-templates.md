@@ -19,11 +19,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 471c719a8e6de0ebe6fcdad0ae222453db841c87
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772094"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4442089"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Sjablonen voor budgetplanning in Excel
 
@@ -67,7 +67,7 @@ Klik op het tabblad **Ontwerp** op **Velden toevoegen** en selecteer vervolgens 
 
 Wijs met de cursor de gewenste locatie in het Excel-bestand aan. Klik op **Label toevoegen** om het veldlabel aan de geselecteerde locatie toe te voegen. Selecteer **Waarde toevoegen** als u het waardeveld wilt toevoegen aan de geselecteerde plaats. Klik op **Gereed** om de ontwerper te sluiten.
 
-## <a name="select-add-valuemediabpt7pngmediabpt7png"></a>[![Waarde toevoegen selecteren](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![Waarde toevoegen selecteren](./media/bpt7.png)](./media/bpt7.png)
 
 <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Een berekende kolom aan de documentsjabloontabel voor het budgetplan toevoegen
 --------------------------------------------------------------
@@ -120,7 +120,7 @@ Het is raadzaam om de sjabloon te vergrendelen om te voorkomen dat gebruikers de
 
 Klik op de pijl voor een extra menu. Selecteer **Vergrendelen**.
 
-### <a name="select-lockmediabpt16-1024x614pngmediabpt16png"></a>[![Vergrendelen selecteren](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![Vergrendelen selecteren](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Kan ik andere Excel-functies, zoals celopmaak, kleuren, voorwaardelijke opmaak en grafieken, gebruiken met mijn budgetplansjablonen?
 
