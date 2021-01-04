@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.openlocfilehash: c90ede8d5e7d1625be07f77b3cf36473d3165089
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981881"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408325"
 ---
 # <a name="belgium-overview"></a>Overzicht België
 

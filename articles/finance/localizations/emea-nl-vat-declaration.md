@@ -16,11 +16,11 @@ ms.search.region: Netherlands
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 2fae23cc085fcd8db46426d831ac788c7617fd72
-ms.sourcegitcommit: c0d37fdd70f3dec4605fdee6f981f84a49be9b9e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "3339892"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408347"
 ---
 # <a name="vat-declaration-for-the-netherlands"></a>Btw-aangifte voor Nederland
 
@@ -195,7 +195,7 @@ In het volgende voorbeeld ziet u hoe u btw-codes en btwaangifte codes kunt inste
 | 1 januari 2020 | Leveranciersfactuur (terugboeking) | 100            | 9              | NLRC9              | 210                                    | 211 – te betalen belasting 521 – belastingaftrek    | 2a 5b                                    |
 
 10. Ga naar **Belasting** \> **Aangiften** \> **Btw** \> **Elektronische btw-aangifte**.
-11. Selecteer **Nieuw**en stel in het dialoogvenster dat verschijnt de volgende velden in op de opgegeven waarden:
+11. Selecteer **Nieuw** en stel in het dialoogvenster dat verschijnt de volgende velden in op de opgegeven waarden:
 
     - **Vereffeningsperiode:** maand
     - **Begindatum:** 1-1-2020
@@ -222,7 +222,7 @@ Boek een nieuwe transactie. Als u bijvoorbeeld een klantfactuur wilt boeken, gaa
 | 1 januari 2020 | Klantfactuur (binnenland) | 100            | 9              | NL9                | 120                                    | 121                                      | 1b                                       |
 
 1. Ga naar **Belasting** \> **Aangiften** \> **Btw** \> **Elektronische btw-aangifte**.
-2. Selecteer **Nieuw**en stel in het dialoogvenster dat verschijnt de volgende velden in op de opgegeven waarden:
+2. Selecteer **Nieuw** en stel in het dialoogvenster dat verschijnt de volgende velden in op de opgegeven waarden:
 
    - **Vereffeningsperiode:** maand
    - **Begindatum:** 1-1-2020
@@ -256,7 +256,7 @@ De btw-bedragen voor de vereffeningsperiode worden aan het einde van de btw-vers
 | Vereffeningsperiode         | Selecteer de toepasselijke aangifteperiode.                                                                                                                                                                                                                                                 |
 | Begindatum                 | Voer de eerste datum van de btw-vereffeningsperiode in waarvoor btw moet worden berekend. Deze waarde komt overeen met de datum in het veld **Van** op de pagina **Btw-vereffeningsperioden**.                                                                                 |
 | Transactiedatum          | Voer de datum in waarvoor de btw-aangifte wordt berekend. De standaardwaarde is de huidige datum. De btw-betaling wordt berekend voor alle transacties die zijn geboekt tijdens de vereffeningsperiode.                                                                                  |
-| Versie van btw-betaling | Selecteer het type btw-vereffening. Selecteer **Origineel**als deze btw-vereffening de eerste btw-vereffening voor de periode is. Als er al een btw-vereffening is gegenereerd, selecteert u **Laatste correcties**. Zie voor meer informatie Een btw-betaling maken. |
+| Versie van btw-betaling | Selecteer het type btw-vereffening. Selecteer **Origineel** als deze btw-vereffening de eerste btw-vereffening voor de periode is. Als er al een btw-vereffening is gegenereerd, selecteert u **Laatste correcties**. Zie voor meer informatie Een btw-betaling maken. |
 
 3. Selecteer **OK** om de btw-betaling te genereren.
 

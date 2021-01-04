@@ -3,7 +3,7 @@ title: Ondersteunde standaarden voor elektronische facturering in Europa
 description: In dit onderwerp wordt het dekkingsniveau toegelicht voor elektronisch factureren in Europa.
 author: mrolecki
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c86cc90e5f441641bc14d20898e65325d7c7d716
-ms.sourcegitcommit: 1ca48d95fbff2555307cc1e5e5e23feea79a8bc1
+ms.openlocfilehash: 3ed98c268af841b1625f547c79f271f3e3a81b74
+ms.sourcegitcommit: 3d16522c00ba2d30aa43befbf1b7b3eaad377325
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3763681"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4592464"
 ---
 # <a name="supported-standards-for-electronic-invoicing-in-europe"></a>Ondersteunde standaarden voor elektronische facturering in Europa
 
@@ -47,7 +47,22 @@ De volgende landspecifieke indelingen van elektronische facturen zijn beschikbaa
 -   Specifieke Estse indelingsversie 1.2
 -   Finvoice 3.0 voor Finland
 
-Elektronische facturering is gebaseerd op [ER (Elektronische rapportage)](../../dev-itpro/analytics/general-electronic-reporting.md). Een gegevensmodel met een **factuurmodel**, een factuurmodeltoewijzing en een aantal land-/regiospecifieke configuraties voor ER-indelingen zijn gemaakt voor Oostenrijk (AT), Denemarken (DK), Italië (IT), Noorwegen (NO), Spanje (ES), Frankrijk (FR), België (BE), Nederland (NL), Duitsland (DE), Estland (EE), Finland (FI) en de EU.
+Elektronische facturering is gebaseerd op [ER (Elektronische rapportage)](../../dev-itpro/analytics/general-electronic-reporting.md). Een gegevensmodel **Factuurmodel**, factuurmodeltoewijzing en verschillende land-/regiospecifieke ER-indelingsconfiguraties zijn gemaakt voor de volgende landen/regio's: 
+
+- Oostenrijk (AT)
+- Denemarken (DK)
+- Italië (IT)
+- Noorwegen (NO)
+- Spanje (ES)
+- Frankrijk (FR)
+- België (BE)
+- Nederland (NL)
+- Duitsland (DE)
+- Estland (EE)
+- Finland (FI)
+- De Europese Unie (EU)
+
+Het gegevensmodel **Factuurmodel**, factuurmodeltoewijzing en land/regio-specifieke ER-indelingsconfiguraties zijn:
 
 -   OIOUBL Verkoopfactuur - voor AT, DK en NO
 -   OIOUBL Verkoopcreditnota - voor AT, DK en NO
@@ -82,6 +97,16 @@ Elektronische facturering is gebaseerd op [ER (Elektronische rapportage)](../../
 
 De elektronische facturen en creditnota's die u genereert, bevatten vereiste gegevens zoals een EAN-nummer (European Article Numbering), de contactpersoon, het dimensierekeningnummer en adresgegevens van de klant. Er worden validatieregels worden toegepast wanneer facturen worden gegenereerd om te controleren of de juiste gegevens zijn ingevoerd. De set met vereiste gegevens kan verschillen van land tot land. Omdat de vereiste en de ondersteunde landen en indelingen kunnen veranderen, moet u altijd naar de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS) gaan en de meest recente lijst weergeven met beschikbare bestanden die het activumtype **GER-configuratie** hebben.
 
+## <a name="electronic-invoice-configuration"></a>Een elektronische factuur configureren
+De instellingen en details van elektronische facturen zijn afhankelijk van het land of de regio waarvoor deze zijn geïmplementeerd. Zie de verwante landspecifieke onderwerpen voor meer informatie over het instellen en gebruiken van elektronische facturen voor klanten:
+
+- [Italië](emea-ita-e-invoices.md)
+- [Noorwegen](emea-nor-e-invoices.md)
+- [Duitsland](emea-deu-e-invoices.md)
+- [Finland](https://support.microsoft.com/help/4559937)
+- [Estland](https://support.microsoft.com/help/4552679)
+- [PEPPOL](https://support.microsoft.com/help/4490320)
+
 ## <a name="additional-resources"></a>Aanvullende bronnen
 Voor meer informatie over het instellen van elektronische facturen, kunt u de volgende [Taakbegeleidingen](../../fin-and-ops/get-started/help-overview.md#task-guides) afspelen in het Help-venster:
 
@@ -90,4 +115,4 @@ Voor meer informatie over het instellen van elektronische facturen, kunt u de vo
  - Klantrekeningen instellen voor elektronische OIOUBL-facturering
 
 > [!NOTE] 
-> Hoewel deze taakbegeleidingen zijn gemaakt voor de specifieke Deense e-factuurindeling *OIOUBL*, zijn ze met kleine afwijkingen van toepassing op andere ondersteunde landen.
+> Hoewel deze taakbegeleidingen zijn gemaakt voor de specifieke Deense e-factuurindeling *OIOUBL*, zijn ze met kleine afwijkingen van toepassing op andere ondersteunde landen/regio's.

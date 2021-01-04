@@ -18,11 +18,11 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 1c6322d12f59af96db63ec0bf27be5583db606c6
-ms.sourcegitcommit: f38302b9430f2ab3efe91d0a7beff946bc610e8f
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "3091886"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408342"
 ---
 # <a name="set-up-and-maintain-prodcom"></a>PRODCOM instellen en onderhouden
 

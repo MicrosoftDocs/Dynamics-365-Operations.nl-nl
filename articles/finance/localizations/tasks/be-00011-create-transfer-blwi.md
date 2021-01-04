@@ -16,11 +16,11 @@ ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d09feb3d78f4ad4ff8de8fbf564ec7225672e1e9
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3137973"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408316"
 ---
 # <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a>Transacties maken en overboeken naar het BLWI (België)
 

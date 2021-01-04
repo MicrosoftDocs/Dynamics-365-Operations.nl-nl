@@ -18,11 +18,11 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: cbbfa25252074cd371b271be2f0f03ad2a687944
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176153"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408327"
 ---
 # <a name="payment-slip-report-for-europe"></a>Betalingsbonrapport voor Europa
 

@@ -16,11 +16,11 @@ ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7268b961cf6c79d491fe5b1a698e42bb39b21795
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3137976"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408319"
 ---
 # <a name="set-up-payment-balance-reporting-belgium"></a>Rapportage voor betalingssaldo instellen (België)
 

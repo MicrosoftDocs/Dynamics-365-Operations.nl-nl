@@ -1,6 +1,6 @@
 ---
 title: Auditfile (XML Auditfile Financieel, XAF)
-description: In dit onderwerp wordt uitgelegd hoe u het auditfile (XML Auditfile Financieel, XAF) voor rechtspersonen kunt instellen en genereren in Nederland.
+description: In dit onderwerp wordt uitgelegd hoe u de auditfile voor rechtspersonen in Nederland kunt instellen en genereren.
 author: liza-golub
 ms.date: 05/06/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Netherlands
 ms.author: elgolu
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1dfaa9f4b59e27629bc0ec022100deac05cd34d7
-ms.sourcegitcommit: ffd845d4230646499b6f074cb43e69ab95787671
+ms.openlocfilehash: 99f90740e802cb1c20d9f05629f1decb0a16ad80
+ms.sourcegitcommit: 102c1e998a591a295307c588dfe523cfa750d43c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "3346318"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665500"
 ---
 # <a name="audit-file-xml-auditfile-financieel-xaf"></a>Auditfile (XML Auditfile Financieel, XAF)
 
@@ -28,7 +28,7 @@ ms.locfileid: "3346318"
 
 Deze functionaliteit is beschikbaar voor rechtspersonen waarvan het primaire adres in Nederland is.
 
-In dit onderwerp wordt uitgelegd hoe u ER-configuraties voor het auditfile importeert en hoe u het auditfile (XML Auditfile Financieel, XAF) voor rechtspersonen in Nederland genereert.
+In dit onderwerp wordt uitgelegd hoe u ER-configuraties voor de auditfile importeert en vervolgens de auditfile voor rechtspersonen in Nederland genereert.
 
 ## <a name="import-and-set-up-er-configurations"></a>ER-configuraties importeren en instellen
 
@@ -41,10 +41,10 @@ Als u Microsoft Dynamics 365 Finance wilt voorbereiden op het genereren van het 
 
 ## <a name="generate-the-audit-file"></a>Het auditfile genereren
 
-Met de stappen in deze procedure wordt uitgelegd hoe u het auditfile (XML Auditfile Financieel, XAF) gebruikt.
+Met de stappen in deze procedure wordt uitgelegd hoe u de auditfile gebruikt.
 
 1. Ga naar **Grootboek** > **Periodieke taken** > **Auditfile**.
-2. Voer een datum in het veld **Begindatum** in. Typ of selecteer bijvoorbeeld 01/11/2020.
-3. Voer een datum in het veld **Einddatum** in. Typ of selecteer bijvoorbeeld 30/11/2020.
-4. Typ of selecteer **Auditfile (NL)** een waarde in het veld **Indelingstoewijzing**.
+2. Voer een datum in het veld **Begindatum** in. 
+3. Voer een datum in het veld **Einddatum** in. 
+4. Typ **Auditfile (NL)** in het veld **Indelingstoewijzing**.
 5. Selecteer **OK**.

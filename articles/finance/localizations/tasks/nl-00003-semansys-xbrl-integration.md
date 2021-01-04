@@ -17,11 +17,11 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 203495e51ba416e6034d40840fb7209c079180ac
-ms.sourcegitcommit: 3f344b841027c0025419c8c3958e0477d51eea36
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "3409576"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408339"
 ---
 # <a name="deliver-xbrl-to-the-dutch-regulatory-body-via-semansys-xbrlone"></a>XBRL aan de Nederlandse regelgevende instantie bezorgen via Semansys XBRLOne
 

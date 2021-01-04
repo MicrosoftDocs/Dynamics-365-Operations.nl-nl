@@ -17,11 +17,11 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: bea952b924da1104ecdeb47088f38706c2e9b731
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3140643"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408340"
 ---
 # <a name="nl-00010-electronic-tax-declarations-evat"></a>NL-00010 Elektronische belastingaangiften (EVAT)
 

@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d48d59910a97f59e0a3d9c3c6008d5fb8eeff9ca
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981467"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408324"
 ---
 # <a name="netherlands-overview"></a>Overzicht Nederland
 
