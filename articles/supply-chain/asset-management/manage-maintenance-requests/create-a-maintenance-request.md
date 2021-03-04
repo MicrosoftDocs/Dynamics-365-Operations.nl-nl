@@ -74,3 +74,6 @@ In de detailweergave u diverse gegevens bijwerken. Hieronder vindt u enkele voor
 
 > [!NOTE]
 > Als u een activum selecteert wanneer u een onderhoudsverzoek maakt, kunt u één fout aan het activum toevoegen. Nadat het onderhoudsverzoek is gemaakt, kunt u zo nodig meer fouten toevoegen. Als u fouten wilt toevoegen, selecteert u **Activafout** op de pagina **Alle onderhoudsverzoeken**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

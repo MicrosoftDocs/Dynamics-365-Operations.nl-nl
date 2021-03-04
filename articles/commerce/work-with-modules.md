@@ -173,3 +173,6 @@ Voer de volgende stappen uit om een containermodule op een pagina te configurere
 
 [Werken met groepen publiceren](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -136,3 +136,6 @@ De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

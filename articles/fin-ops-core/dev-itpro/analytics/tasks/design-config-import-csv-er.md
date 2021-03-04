@@ -124,3 +124,6 @@ Voer voor testdoeleinden de toewijzing van de indeling uit met behulp van het 10
     * Bekijk de uitvoer in XML-indeling, die de gegevens vertegenwoordigt die zijn geïmporteerd vanuit het geselecteerde bestand en overgezet naar het gegevensmodel. Alle 7 regels van het geïmporteerde CSV-bestand zijn verwerkt. Regel 1 van de titels van de opgenomen velden is overgeslagen, 4 transacties zijn correct geparseerd en 2 transacties zijn aangeduid als ongeldig.
 3. Sluit de pagina.
 4. Sluit de pagina.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

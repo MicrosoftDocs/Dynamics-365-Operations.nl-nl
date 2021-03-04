@@ -301,3 +301,6 @@ De duidelijke scheiding tussen **Kostentoewijzing** en **Beleid voor totaliserin
 -  [Dimensies van kostenelement](cost-elements.md)
 -  [Dimensiehiërarchie](dimension-hierarchy.md)
 -  [Overheadberekening](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

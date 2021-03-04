@@ -87,3 +87,6 @@ Het resultaat is een geplande order van 25 st. (= 25 st. &minus; 0 st.) om magaz
 [Planhistorie en planningslogboeken weergeven](plan-history-logs.md)
 
 [Een planningstaak annuleren](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

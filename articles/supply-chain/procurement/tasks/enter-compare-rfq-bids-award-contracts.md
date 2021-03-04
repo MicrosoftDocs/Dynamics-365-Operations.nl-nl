@@ -107,3 +107,6 @@ U kunt het bod invoeren als leverancier of als inkoopmedewerker. Zie voor meer i
 ## <a name="view-the-purchase-order-that-is-generated"></a>De inkooporder weergeven die wordt gegenereerd.
 
 Selecteer in het actievenster op het tabblad **Algemeen** de optie **Inkooporder**. Op de pagina die wordt weergegeven ziet u de inkooporder die is gegenereerd toen u de bieding accepteerde.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

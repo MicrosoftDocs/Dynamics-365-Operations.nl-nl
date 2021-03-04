@@ -103,3 +103,6 @@ In dit voorbeeld selecteert u de gewenste versie van de ER-configuratie en impor
     Selecteer voor dit voorbeeld de versie van de configuratie die de status **Gedeeld** heeft.
 
     De gedeelde versie 1 van de geselecteerde gegevensmodelconfiguratie is nu ook beschikbaar.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

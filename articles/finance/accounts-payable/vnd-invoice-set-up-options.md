@@ -63,3 +63,6 @@ De volgende parameters zijn beschikbaar:
 
 - **Aantal keren dat wordt geprobeerd automatisch af te stemmen**: selecteer het aantal keren dat het systeem moet proberen de productontvangstbonnen aan een factuurregel te koppelen voordat wordt geconcludeerd dat het proces is mislukt. Wanneer het opgegeven aantal pogingen is bereikt, wordt de factuur verwijderd uit de automatiseringsverwerking.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

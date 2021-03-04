@@ -46,3 +46,6 @@ De procedure gebruikt de accountantsrol en demogegevens voor de USMF-rechtsperso
     * Stel **Hiermee wordt de levensduur verlengd** in op **Ja** als de levensduur van de vaste activa toeneemt door de toevoeging.  
     * Dit veld is alleen ter informatie. Als u de levensduur wilt verlengen, wijzigt u de levensduur in de waardemodellen en/of afschrijvingsboeken voor het activum.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

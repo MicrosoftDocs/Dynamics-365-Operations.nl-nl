@@ -854,3 +854,6 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
     - Transferorders en picken van grondstoffen
 
 - De containerconsolidatieregel voor verpakking per instructie-eenheid heeft beperkingen. Voor order-toegezegde reserveringen wordt aangeraden geen containervormingssjablonen te gebruiken waarvoor het veld **Verpakken per instructie-eenheid** is ingeschakeld. In het huidige ontwerp worden er geen locatie-instructies gebruikt wanneer magazijnwerk wordt gemaakt. Daarom wordt alleen de laagste eenheid in de eenheidsvolgordegroep toegepast tijdens de wavestap voor containervorming.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

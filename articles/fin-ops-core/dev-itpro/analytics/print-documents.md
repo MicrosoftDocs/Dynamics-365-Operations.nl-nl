@@ -74,3 +74,6 @@ Het volgende diagram toont de basisonderdelen voor het ondersteunen van netwerka
 [![service-components-for-network-printing\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Houd er rekening mee dat één printer kan worden geregistreerd met meerdere documentrouteringsagents. Om te voldoen aan de printervoorkeuren gebruikt de gehoste service het netwerkpad dat een unieke identificatie is voor elke netwerkprinter. Hierdoor wordt zelfs een printer die door meerdere clients is geregistreerd, als één selectie weergegeven in de lijst met printers die beschikbaar zijn in toepassingen van Finance.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een 
 
 ![Pagina voor ontwerper van ER-gegevensmodel](../media/er-financial-dimensions-guides-data-model.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

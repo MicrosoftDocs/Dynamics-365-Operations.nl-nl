@@ -52,3 +52,6 @@ Deze taakbegeleiding helpt u bij het toevoegen van een hoofdrekening aan een bes
 21. Selecteer in het veld **Type valutaomzetting** de methode voor het berekenen van de wisselkoersen voor de rekening.
 22. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ De order wordt opgeslagen, maar de vlag **Niet verwerken** wordt ervoor ingestel
 Als u de orders wilt weergeven en beheren die in de wachtstand staan voor fraudecontrole, gaat u naar **Detailhandel en commerce** \> **Klanten** \> **Orderwachtstanden**. Selecteer op de pagina **Orderwachtstanden** een item in de lijst en klik vervolgens op **Orderwachtstand** om een gedetailleerdere weergave te zien met informatie over de reden voor de blokkering. Op het sneltabblad **Fraudedetails** ziet u de systematische fraudecriteria die als overeenkomst zijn gevonden voor de order en de scores die zijn toegepast. Als de order handmatig in de wachtstand is geplaatst, kunt u eventuele opmerkingen beoordelen die zijn ingevoerd door de gebruiker die de order in de wachtstand plaatste door te kijken naar het gedeelte **Fraudenotities** op het sneltabblad **Notities**.
 
 Zie voor meer informatie over hoe u werkt met orders in de wachtstand [Orderwachtstanden](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

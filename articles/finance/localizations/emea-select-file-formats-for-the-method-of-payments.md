@@ -55,3 +55,6 @@ Als u de bestandsindelingen die zijn gebaseerd op X++-code wilt selecteren, moet
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

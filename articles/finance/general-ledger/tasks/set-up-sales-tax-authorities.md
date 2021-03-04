@@ -41,3 +41,6 @@ Belastingdiensten zijn entiteiten waaraan geïncasseerde btw moet worden aangege
 10. Voer een nummer in het veld Afronden in.
 11. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

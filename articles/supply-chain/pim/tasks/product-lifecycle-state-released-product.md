@@ -37,3 +37,6 @@ Deze procedure laat zien hoe u een status van productlevenscyclus toewijst aan e
 5. Typ of selecteer een waarde in het veld Levenscyclusstatus van product.
 6. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

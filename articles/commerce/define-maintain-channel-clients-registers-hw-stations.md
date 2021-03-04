@@ -205,3 +205,6 @@ Meer informatie met betrekking tot activering omvat de werknemer die de activeri
 ### <a name="client-data-synchronization"></a>Synchronisatie van clientgegevens
 
 Alle wijzigingen in een POS-client, met uitzondering van de wijzigingen in de status van de apparaatactivering, worden pas van kracht na synchronisatie met de kanaaldatabase. Om wijzigingen te synchroniseren met de kanaaldatabase, gaat u naar **Retail en Commerce** &gt; **Retail en Commerce IT** &gt; **Distributieplanning** en voert u de vereiste distributieplanning uit. Voor clientwijzigingen moet u de distributieplanningen **Kassa's** en **Kanaalconfiguratie** uitvoeren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

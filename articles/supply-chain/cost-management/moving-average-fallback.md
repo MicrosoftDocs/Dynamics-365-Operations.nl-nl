@@ -46,3 +46,6 @@ Ga als volgt te werk om de terugvalkostenreeks voor de berekening van het zweven
     - **Actieve kosten – Artikelprijs**: organisaties kunnen prestatieproblemen ondervinden als ze bedrijfsprocessen gebruiken waarbij de voorraadregel negatief wordt en tegelijkertijd het transactievolume hoog is. Met deze instelling beperken ze de prestatieproblemen.
 
 ![Parameters voorraadboekhouding](media/inventory-accounting-parameters.png "Parameters voorraadboekhouding")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

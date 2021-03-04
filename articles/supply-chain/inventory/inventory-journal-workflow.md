@@ -112,3 +112,6 @@ De werkstroomhistorie voor een journaal controleren:
 1. Vouw in het navigatiedeelvenster **Voorraadbeheer \> Journaalposten \> Artikelen** uit en selecteer vervolgens een voorraadjournaaltype.
 1. Open het relevante journaal.
 1. Selecteer de knop **Werkstroom** in het actievenster om een vervolgdialoogvenster te openen. Selecteer **Workflowhistorie**. Zie voor meer informatie [Werkstroomhistorie bekijken](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

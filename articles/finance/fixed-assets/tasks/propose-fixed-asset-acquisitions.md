@@ -43,3 +43,6 @@ In dit onderwerp wordt beschreven hoe u een vast activum bijboekt met het verwer
 - Alleen vaste activa waarvoor de verwervingsdatum en -prijs zijn ingesteld in het boek worden in het verwervingsvoorstel opgenomen.  
 11. Selecteer op de pagina het tabblad **Boeken**.
 12. Selecteer **Boeken**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

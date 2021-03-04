@@ -43,3 +43,6 @@ In dit onderwerp wordt uitgelegd hoe u conflicten bij de scheiding van taken kun
 1. Ga naar **Navigatievenster > Modules > Systeembeheer > Beveiliging > Scheiding van taken > Regels voor scheiding van taken**. Selecteer een regel.  
 2. Selecteer **Taken en rollen valideren**. Als bestaande rollen de geselecteerde regel overtreden, wordt een bericht weergegeven dat de naam van de rol en de namen van de conflicterende functies bevat. De beheerder moet de beperking van het beveiligingsrisico aangeven of de rol wijzigen zodat deze niet de regels voor scheiding van taken overtreedt. Als geen rollen de geselecteerde regel overtreden, wordt een bericht weergegeven dat alle rollen voldoen.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

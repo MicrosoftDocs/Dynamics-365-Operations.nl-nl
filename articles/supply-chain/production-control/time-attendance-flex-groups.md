@@ -185,3 +185,6 @@ Deze wijziging treedt op na de overdracht omdat de flexibele uren zijn berekend 
 | 06:00 uur | 08:00 uur | 2    | 1.5       | 3            |
 | 08:00 uur | 09:00 uur | 1    | 2         | 2            |
 |          |          |      | **Totaal** | **8**        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

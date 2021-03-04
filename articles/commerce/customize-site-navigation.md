@@ -110,3 +110,6 @@ Voer de volgende stappen uit om aangepaste navigatieopties aan het navigatiemenu
 [Een pagina-URL maken](create-page-url.md)
 
 [Werken met publicatiegroepen](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

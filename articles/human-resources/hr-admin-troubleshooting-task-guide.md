@@ -63,3 +63,6 @@ Ga als volgt te werk om een taakbegeleider opnieuw af te spelen vanuit LCS.
 2. Selecteer **Openen vanuit LCS**.
 3. Selecteer de bibliotheek en het BPM-knooppunt met de opgeslagen taakbegeleider.
 4. Open de taakbegeleider.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Ga als volgt te werk om het restant te vereffenen:
 7)  U kunt er ook voor kiezen een betalingsjournaal met het restbedrag van de vereffening te maken of dit alleen zonder een journaal boeken. Selecteer **Ja** voor **Bewerken in journaal** om een betalingsjournaal te maken. U kunt het door u gemaakte betalingsjournaal bewerken.
 8)  Klik op **Restbedrag vereffenen**. Als u ervoor hebt gekozen een journaal te maken, wordt de knop gewijzigd in **Journaal maken**. Klik in dat geval op **Journaal maken**.
 9)  Als u een betalingsjournaal hebt gemaakt, wordt de journaalpagina geopend als u op **Restbedrag vereffenen** klikt. Er wordt een regel aan het journaal toegevoegd met het resterende vereffeningsbedrag als het bedrag en met de rekening voor het restbedrag als tegenrekening. Als u een klant of leverancier hebt toegevoegd zodat u het vereffeningsbedrag naar een andere klant of leverancier kunt verplaatsen, wordt een extra regel toegevoegd aan het journaal om het vereffeningsbedrag naar die klant of leverancier te verplaatsen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

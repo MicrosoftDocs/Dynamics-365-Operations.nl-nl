@@ -59,3 +59,6 @@ De standaardveldwaarde voor **Aantal werkstroomartikelen per batchtaak** op de p
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Wat is de Verbeterde werkstroomfoutmelding?
 Met de verbeterde werkstroomfoutmelding in versie 10.0.13 worden foutcodes toegevoegd om verschillende klassen van werkstroomfouten van elkaar te onderscheiden. De weergegeven foutberichten komen grotendeels overeen, maar bevatten kleine verschillen om ze duidelijker te maken.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -218,3 +218,6 @@ Uitzonderingen voor werk bepalen het gedrag voor kort orderverzamelen. Voer de o
 1. Selecteer **Kort orderverzamelen**.
 1. Selecteer de code voor de werkuitzondering die u voor dit scenario hebt gemaakt.
 1. Als u de juiste uitzondering hebt geselecteerd, is het selectievakje **Ongeldig maken en opnieuw afdrukken** beschikbaar. Schakel dit selectievakje in en bevestig. Wanneer dit is bevestigd, wordt de labelrolreeks die is opgegeven in het veld **Label build-id** herberekend op basis van de hoeveelheid van de gewijzigde werkregel. Deze wordt vervolgens opnieuw afgedrukt op de opgegeven printer.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

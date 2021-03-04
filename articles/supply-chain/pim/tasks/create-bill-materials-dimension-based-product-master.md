@@ -79,3 +79,6 @@ Voor deze procedure moet u de vorige 4 guides in deze reeks van acht registratie
 5. Klik op OK.
 6. Klik op Activeren.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

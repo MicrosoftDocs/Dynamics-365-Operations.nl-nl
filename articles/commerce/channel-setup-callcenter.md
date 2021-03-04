@@ -136,3 +136,6 @@ Ga als volgt te werk om een prijsgroep in te stellen.
 [Instellen en werken met fraudewaarschuwingen](set-up-fraud-alerts.md)
 
 [Continuïteitsprogramma's instellen voor callcenters](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

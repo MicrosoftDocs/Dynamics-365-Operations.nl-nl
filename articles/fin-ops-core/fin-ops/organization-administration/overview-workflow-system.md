@@ -71,3 +71,6 @@ Als uw organisatie werkt met het werkstroomsysteem, levert dat tal van voordelen
 + [Parallelle vertakkingen in een workflow configureren](configure-parallel-branch-workflow.md)
 + [Workflows voor regelitems configureren](configure-line-item-workflow.md)
 + [Veelgestelde vragen over werkstromen](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

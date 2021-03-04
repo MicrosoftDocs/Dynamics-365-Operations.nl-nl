@@ -123,3 +123,6 @@ U kunt een standaard betaalrekening definiëren per betalingsmethode ongeacht de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

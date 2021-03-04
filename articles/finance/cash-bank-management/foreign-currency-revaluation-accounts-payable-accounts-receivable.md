@@ -66,3 +66,6 @@ Telkens wanneer u een herwaardering van vreemde valuta uitvoert, wordt een regis
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

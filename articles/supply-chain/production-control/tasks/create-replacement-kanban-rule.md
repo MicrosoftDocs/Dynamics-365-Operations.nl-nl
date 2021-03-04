@@ -56,3 +56,6 @@ Deze procedure is gericht op het vervangen van een bestaande kanbanregel met een
 1. Stel Maximumhoeveelheid in op '100'.
     * Vouw het sneltabblad Hoeveelheden uit om het veld Maximumhoeveelheid te bekijken. Als u de maximale hoeveelheid wijzigt in 100, kunnen maximaal 100 kanbans worden verwerkt.    Dit is de laatste stap in deze taak.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

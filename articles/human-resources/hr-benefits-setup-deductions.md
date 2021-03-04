@@ -52,3 +52,6 @@ Met inhoudingen in Microsoft Dynamics 365 Human Resources kunt u bepalen hoeveel
 4. Als u wijzigingen in de instellingen van het vergoedingstarief wilt bijhouden en beheren, selecteert u **Acties** en selecteert u vervolgens **Versies onderhouden**.
 
 5. Selecteer **Opslaan**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

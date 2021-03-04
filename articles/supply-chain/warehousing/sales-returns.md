@@ -331,3 +331,6 @@ In dit voorbeeld wordt de retourorderregel gemaakt door middel van de functie **
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

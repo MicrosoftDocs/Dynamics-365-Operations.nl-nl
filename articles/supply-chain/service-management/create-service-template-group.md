@@ -39,3 +39,6 @@ Met servicesjabloongroepen kunt u servicesjablonen sorteren en filteren.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

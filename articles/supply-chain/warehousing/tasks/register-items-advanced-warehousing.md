@@ -76,3 +76,6 @@ Noteer het nummer van de inkooporder die u maakt en noteer ook het artikelnummer
     * Nadat u op OK hebt geklikt, controleert u de berichtenbalk. Er moet een bericht zijn dat meldt dat de bewerking voltooid is.  
 5. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

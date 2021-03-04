@@ -45,3 +45,6 @@ Dit is de eerste van vijf taken die samen het leveranciersbetalingproces toelich
     * Als de knop Importeren niet beschikbaar is, betekent dit dat deze configuratie al is geïmporteerd.  
 9. Klik op Ja.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

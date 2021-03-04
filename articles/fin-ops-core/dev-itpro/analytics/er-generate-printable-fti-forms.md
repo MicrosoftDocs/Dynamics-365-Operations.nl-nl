@@ -224,3 +224,6 @@ De expressie **Emailing.TxtToUse.Body** van de voorbeeldindeling is geconfiguree
 
 ## <a name="additional-resources"></a>Aanvullende resources
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

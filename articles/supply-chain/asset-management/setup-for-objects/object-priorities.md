@@ -53,3 +53,6 @@ Zie [Parameters voor activabeheer](../setup-for-objects/enterprise-asset-managem
 
 > [!NOTE]
 > Als u een activumserviceniveaurecord op de pagina **Serviceniveaus van activa** wijzigt nadat u deze al op een werkorder hebt gebruikt, wordt het serviceniveau voor onderhoudsaanvragen en werkorders niet dienovereenkomstig bijgewerkt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

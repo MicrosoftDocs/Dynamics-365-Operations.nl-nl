@@ -45,3 +45,6 @@ Als u vrijwilligers of andere niet-werknemers hebt, wilt u mogelijk de naam van 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Overzicht van Selfservice werknemer en Selfservice manager](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

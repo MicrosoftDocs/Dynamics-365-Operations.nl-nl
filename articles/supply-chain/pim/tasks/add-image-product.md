@@ -37,3 +37,6 @@ In deze procedure ziet u hoe u een afbeelding aan een product toevoegt. Het demo
 5. Klik op Nieuw.
     * Klik op Bladeren. Zoek de afbeelding die u wilt gebruiken, selecteer deze en sluit het dialoogvenster.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

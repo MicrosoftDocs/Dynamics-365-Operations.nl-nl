@@ -59,3 +59,6 @@ De uitvoering van deze functie kan verschillende resultaten in verschillende exe
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Andere functies (voor specifiek zakelijk domein)](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

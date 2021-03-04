@@ -52,3 +52,6 @@ U kunt wijzigingen in levensgebeurtenissen verwerken in Microsoft Dynamics 365 H
    4. Selecteer **OK**. Het proces wordt uitgevoerd met de parameters die u instelt.
 
 4. Selecteer **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

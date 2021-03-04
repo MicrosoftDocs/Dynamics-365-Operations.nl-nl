@@ -97,3 +97,6 @@ Download en installeer de mobiele Finance and Operations-app:
 1.  Selecteer **Lovende kritiek verzenden**. 
 1. Voer de tekst in van de lovende kritiek die u wilt verzenden. 
 1. Selecteer **Gereed**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

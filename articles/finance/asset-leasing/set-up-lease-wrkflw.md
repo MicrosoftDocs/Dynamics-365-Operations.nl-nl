@@ -53,3 +53,6 @@ In het onderwerp wordt uitgelegd hoe u een goedkeuringswerkstroom instelt die wo
 14. Selecteer op de pagina **Werkstroom maken**, de optie **Sluiten**.
 14. Selecteer de nieuwe werkstroom en selecteer vervolgens **Versies**. Selecteer vervolgens **Actief maken** om ervoor te zorgen dat de werkstroom actief is.
 15. Selecteer **Sluiten**. De nieuwe actieve versie wordt weergegeven.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

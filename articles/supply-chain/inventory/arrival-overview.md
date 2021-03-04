@@ -121,3 +121,6 @@ Wanneer alle goederen zijn geregistreerd, kan de magazijnbeheerder of inkoopmana
 
 ## <a name="summary"></a>Overzicht
 De pagina **Overzicht aankomst** kan de magazijnbeheerder en magazijnmedewerkers helpen een overzicht te krijgen van verwacht werk dat moet worden uitgevoerd als onderdeel van een inkomend proces. De pagina kan ook worden gebruikt om het proces van artikelontvangst te starten en te helpen garanderen dat de artikelen worden bijgehouden bij de eerste invoer in het magazijn.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

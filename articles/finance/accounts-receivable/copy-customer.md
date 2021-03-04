@@ -64,3 +64,6 @@ U kunt klanten ook kopiëren met de functie Btw-nummer zoeken die u vindt in de 
 
 1. De optie **Klant kopiëren** wordt weergegeven. Standaard is deze optie ingesteld op **Nee**. Als u de klant naar de huidige rechtspersoon wilt kopiëren, zet u de optie op **Ja**. 
 2. Selecteer **Selecteren**. De klant wordt gemaakt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

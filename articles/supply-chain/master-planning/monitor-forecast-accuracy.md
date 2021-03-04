@@ -50,3 +50,6 @@ Supply Chain Management berekent de volgende typen prognosenauwkeurigheid:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

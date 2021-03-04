@@ -73,3 +73,6 @@ In de hoofdsectie van de startpagina kunt u producten, categorieën of promoties
 [Overzicht van pagina's met winkelwagen en kassa](quick-tour-cart-checkout.md)
 
 [Overzicht van pagina's voor accountbeheer](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Wervingsprojecten kunnen u helpen uw wervingsproces te beheren. Bij elk wervings
     * De gestarte status betekent dat het project klaar is om sollicitaties te ontvangen.  
 33. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

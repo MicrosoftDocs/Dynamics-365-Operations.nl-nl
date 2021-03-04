@@ -64,3 +64,6 @@ Soms stopt een organisatie met het aanbieden van bepaalde vergoedingen. In dit g
 Op dezelfde manier kunt u met massale verlenging van vergoedingen de vervaldatum van zowel een vergoeding als de inschrijvingen van werknemers voor die vergoeding verlengen als u beslist om een vergoeding langer aan te bieden dan u oorspronkelijk had gepland.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

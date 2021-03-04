@@ -514,3 +514,6 @@ Als u de nieuwe functionaliteit van versie 3.3 van de indeling **BACS (UK)** wil
 - [Overzicht van elektronische rapportage](general-electronic-reporting.md)
 - [ER-configuraties downloaden uit Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [ER-configuraties downloaden uit de algemene opslagplaats van de configuratieservice](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

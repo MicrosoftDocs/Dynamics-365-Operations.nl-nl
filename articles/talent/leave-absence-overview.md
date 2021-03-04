@@ -66,3 +66,6 @@ Verlof- en verzuimbeheer biedt de volgende functies:
 - **Verlofaanvragen indienen.**
 
     Werknemers kunnen verlofaanvragen indienen op basis van hun beschikbare uren. Aanvragen kunnen eenvoudige aanvragen voor één dag of meerdere dagen zijn met verschillende verlof- en verzuimtypen. Als er geen werkstroom is ingeschakeld, worden de aanvragen automatisch goedgekeurd. Als er wel een workflow is ingeschakeld, kan de goedkeuring automatisch worden uitgevoerd of na goedkeuring, afhankelijk van de werkstroomconfiguratie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

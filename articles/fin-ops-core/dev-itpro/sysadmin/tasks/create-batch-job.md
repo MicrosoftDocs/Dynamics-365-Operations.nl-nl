@@ -54,3 +54,6 @@ Een batchtaak is een groep taken die voor automatische verwerking naar een AOS-e
     - **Inhouden**: stel de batchtaak in op **Inhouden**, zodat deze niet wordt opgenomen in de planner van batchtaken. Staat gelijk aan *Stoppen*.
     - **Wachten**: stel de batchtaak in op **Wachten** om deze in de wachtrij voor de planner van batchtaken te zetten. Staat gelijk aan *Gaan*.
 5. Klik op **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

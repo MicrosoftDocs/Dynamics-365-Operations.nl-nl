@@ -74,3 +74,6 @@ U kunt adviezen, nieuws en andere informatie over magazijnbeheer en andere oplos
 
  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

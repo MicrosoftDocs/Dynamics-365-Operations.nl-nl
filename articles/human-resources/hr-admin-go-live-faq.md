@@ -99,3 +99,6 @@ Als u een storing in de productie wilt rapporteren, volgt u het proces dat wordt
  ## <a name="see-also"></a>Zie ook
 
  [Voorbereiden voor go-live](hr-admin-go-live-prepare.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

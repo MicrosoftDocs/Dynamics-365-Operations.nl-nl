@@ -70,3 +70,6 @@ U kunt de functie **Activa in behandeling tellen** uitvoeren om te controleren o
 3. U kunt deze taak zo instellen dat deze als een batchtaak wordt uitgevoerd, bijvoorbeeld eenmaal per dag.
 
 **Waarschuwing:** als gegevens op een inkooporder worden gewijzigd *nadat* u een activum hebt gemaakt op basis van het betreffende artikel, worden deze wijzigingen niet doorgevoerd in het activum.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

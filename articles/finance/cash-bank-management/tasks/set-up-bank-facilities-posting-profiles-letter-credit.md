@@ -74,3 +74,6 @@ Deze taken gebruiken het demobedrijf 'USMF'.
     * Deze rekening wordt gedebiteerd wanneer de openingsmarge wordt geboekt en gecrediteerd wanneer de betaling wordt geboekt.  
 9. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

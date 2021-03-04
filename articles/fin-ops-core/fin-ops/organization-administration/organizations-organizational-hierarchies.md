@@ -67,3 +67,6 @@ Hiermee definieert u organisatiehiërarchieën waarmee u verschillende aspecten 
 Aan elke hiërarchie wordt een doel toegewezen. Het doel van een hiërarchie bepaalt welke organisatietypen kunnen worden opgenomen in de hiërarchie. Het doel bepaalt ook de aanvraagscenario's waarbinnen een hiërarchie kan worden gebruikt.
 
 In organisaties in een hiërarchie kunnen parameters, beleid en transacties worden gedeeld. Een organisatie kan de parameters van de bovenliggende organisatie overnemen of vervangen. Gedeelde hoofdgegevens, zoals producten en adresboeken, zijn echter van toepassing op de hele organisatie en kunnen niet worden vervangen voor afzonderlijke organisaties. Voor het maken van organisaties en hiërarchieën is een zorgvuldige planning vereist. Voor meer informatie raadpleegt u [Uw organisatiehiërarchie plannen](plan-organizational-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

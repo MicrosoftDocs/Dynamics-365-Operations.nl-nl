@@ -58,3 +58,6 @@ Selecteer **Verwerken** om de hertoewijzing te voltooien. U wordt gevraagd om ee
 > Als u context wilt bieden over de reden waarom deze extra artikelen worden weergegeven, kunt u andere kolommen aan het raster toevoegen, zoals **Hertoewijzings-id** en **Verkooporder**.
 > 
 > [![Extra kolommen op de pagina Opbrengstprijstoewijzingen](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

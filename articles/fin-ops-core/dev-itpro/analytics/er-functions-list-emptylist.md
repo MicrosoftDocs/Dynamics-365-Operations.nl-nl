@@ -55,3 +55,6 @@ De resulterende lijst met records.
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Lijstfuncties](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

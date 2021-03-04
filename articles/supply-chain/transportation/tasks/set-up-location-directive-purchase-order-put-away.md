@@ -86,3 +86,6 @@ In dit onderwerp wordt beschreven hoe u een eenvoudige locatie-instructie instel
 4. Typ een waarde in het veld **Criteria**.
 5. Selecteer **OK**. U kunt richtlijnregels en richtlijnacties blijven toevoegen totdat u alle mogelijke scenario's in uw magazijn hebt gehad.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

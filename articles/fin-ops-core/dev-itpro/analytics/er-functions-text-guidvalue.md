@@ -64,3 +64,6 @@ Vervolgens kunt u een expressie, zoals `FILTER (Users, Users.objectId = myID)`, 
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Tekstfuncties](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

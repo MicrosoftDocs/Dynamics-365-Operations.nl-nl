@@ -52,3 +52,6 @@ Wanneer u preventieve onderhoudstaken hebt gepland, is de volgende stap het make
 
 5. Klik op **OK**. Er worden een of meer werkorders gemaakt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

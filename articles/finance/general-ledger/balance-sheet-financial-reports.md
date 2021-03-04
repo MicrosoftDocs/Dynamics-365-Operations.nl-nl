@@ -82,3 +82,6 @@ De kolomdefinities bevatten verschillende typen kolommen om verschillende detail
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

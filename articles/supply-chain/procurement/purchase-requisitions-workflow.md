@@ -121,3 +121,6 @@ Als u een van de uitgavencontroleurs wilt gebruiken die u in een workflow instel
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

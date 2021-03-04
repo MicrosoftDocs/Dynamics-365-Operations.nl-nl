@@ -62,3 +62,6 @@ Vergeet niet om een voorraadafsluiting uit te voeren ingaande %3 (31-01-2019) ov
 ## <a name="inventory-aging-report-discrepancies"></a>Verschillen in naar ouderdom gerangschikt voorraadrapport
 
 In het **Naar ouderdom gerangschikt voorraadrapport** worden verschillende waarden weergegeven wanneer ze worden weergegeven in verschillende opslagdimensies (zoals locatie of magazijn). Zie [Voorbeelden en logica voor naar ouderdom gerangschikt voorraadrapport](inventory-aging-report.md) voor informatie de rapportlogica.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

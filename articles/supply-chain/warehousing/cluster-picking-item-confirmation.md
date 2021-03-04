@@ -42,3 +42,6 @@ Artikelverificatie voor clusterverzameling op dezelfde manier als wanneer u arti
 |        Optie        |                                    Omschrijving                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Productbevestiging | Hiermee kunt u elk stuk van de voorraad tijdens het scannen vanaf het mobiele apparaat controleren. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

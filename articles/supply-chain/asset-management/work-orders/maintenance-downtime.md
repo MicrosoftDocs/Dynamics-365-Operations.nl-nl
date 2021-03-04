@@ -89,3 +89,6 @@ Klik op **Activabeheer voor bedrijven** > **Query's** > **Uitvaltijd voor onderh
 >[!NOTE]
 >Alle kalenders die in de module **Activabeheer** worden gebruikt, worden ingesteld in **Organisatiebeheer** > **Instellingen** > **Kalenders** > **Kalenders**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

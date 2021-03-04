@@ -54,3 +54,6 @@ Deze procedure laat zien hoe u een intercompany-plan maakt. Het bedrijf van de d
 2. Klik in de lijst op de koppeling in de geselecteerde rij. Klik op de koppeling voor StaticPlan. U moet in het bedrijf USMF zijn.  
 3. Klik op **Geplande orders**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

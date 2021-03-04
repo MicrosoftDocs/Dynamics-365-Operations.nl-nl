@@ -55,3 +55,6 @@ Gebruik deze procedure om een sjaboon in te stellen die objecten op de locatie v
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

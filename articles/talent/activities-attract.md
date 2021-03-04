@@ -91,3 +91,6 @@ Voor de aanstellingsprocessjabloon is de aanbiedingsactiviteit vereist. Als u de
 > De geïntegreerde app Aanbiedingsbeheer is alleen beschikbaar met de Uitgebreide invoegtoepassing voor aanstellingen. Zie [Welke versie van Microsoft Dynamics 365 Talent - Attract](./attract-comprehensive-hiring.md) voor meer informatie.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

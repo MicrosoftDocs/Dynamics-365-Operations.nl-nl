@@ -41,3 +41,6 @@ Deze procedure toont hoe u een rekeningalias kunt maken die een snelkoppeling vo
 9. Selecteer in het veld Beginfocus de dimensie die de focus zal hebben wanneer de alias wordt gebruikt.
     * Nadat u de snelkoppeling hebt getypt en de rekening en dimensies zijn ingevuld, bevindt het veld Beginfocus zich waar de cursor of focus naartoe wordt verplaatst.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

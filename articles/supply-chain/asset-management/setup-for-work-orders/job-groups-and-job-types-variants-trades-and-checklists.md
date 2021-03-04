@@ -267,3 +267,6 @@ In Activabeheer kunt u eventuele wijzigingen in prognoses voor typen onderhoudst
 2. In het dialoogvenster **Prognose type onderhoudstaken bijwerken**, op het Sneltabblad **Records om op te nemen**, kunt u selecties voor specifieke typen onderhoudstaken toevoegen als u deze nodig hebt. Selecteer **Filter** en selecteer vervolgens **selecteren** om de selecties te maken.
 3. Indien nodig kunt u de automatische update op het Sneltabblad **Op de achtergrond uitvoeren** instellen als een batchtaak.
 4. Selecteer **OK** om de update van de prognose te starten.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ In dit onderwerp wordt uitgelegd hoe u financiële dimensies toevoegt aan het we
 16. Stel het project samen en open vervolgens de toepassing om de resultaten weer te geven.
 
     [![Voltooid werkgebied](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

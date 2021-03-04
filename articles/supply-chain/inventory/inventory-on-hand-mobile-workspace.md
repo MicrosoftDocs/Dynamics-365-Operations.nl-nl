@@ -130,3 +130,6 @@ Download en installeer de mobiele Finance and Operations-app:
     -   Op basis van fysieke voorraad (deze weergave geeft de totale hoeveelheid.)
     -   Op basis van fysieke gereserveerde voorraad (deze weergave geeft de gereserveerde hoeveelheid.)
     -   Op basis van beschikbare fysieke voorraad (deze weergave geeft de beschikbare hoeveelheid waarvoor geen reserveringen zijn.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

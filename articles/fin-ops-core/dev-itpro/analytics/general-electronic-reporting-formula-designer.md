@@ -164,3 +164,6 @@ Sommige formules kunnen niet worden getest tijdens de ontwerpperiode. Een formul
 
 - [Overzicht van elektronische rapportage](general-electronic-reporting.md)
 - [Formuletaal in Elektronische rapportage](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

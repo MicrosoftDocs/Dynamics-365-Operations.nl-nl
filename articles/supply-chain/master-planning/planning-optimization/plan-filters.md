@@ -59,3 +59,6 @@ Er is een planfilter ingesteld met de artikelen A, B en C. Vervolgens vinden voo
 [Planhistorie en planningslogboeken weergeven](plan-history-logs.md)
 
 [Een planningstaak annuleren](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

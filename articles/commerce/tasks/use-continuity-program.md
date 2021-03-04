@@ -62,3 +62,6 @@ Deze procedure laat zien hoe u een continuïteitsprogramma verkoopt en de gerela
     * Voer het verkoopordernummer in dat u eerder in de procedure hebt genoteerd. Dit zorgt ervoor dat de verwerkingstijd voor deze procedure minimaal blijft. Het veld Verkooporder is optioneel. U kunt alle orders voor elk programma verwerken.  
 21. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

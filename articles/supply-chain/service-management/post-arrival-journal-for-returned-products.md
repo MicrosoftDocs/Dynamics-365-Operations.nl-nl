@@ -58,3 +58,6 @@ Nadat het journaal is geboekt, worden de geretourneerde artikelen geregistreerd 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Deze procedure laat zien hoe u een vergoeding kunt laten verlopen of kunt verlen
 15. Klik op Vergoedingen.
 16. Zoek de vergoeding en selecteer de record in de lijst. Bekijk de nieuwe einddatum voor de dekking.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

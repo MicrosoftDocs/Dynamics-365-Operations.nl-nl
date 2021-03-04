@@ -33,3 +33,6 @@ Er zijn elke week nieuwe releases voor Talent. Deze versies worden vermeld in de
 
 De inhoudsopgave wordt elke week bijgewerkt. Kijk dus regelmatig voor alle nieuwe functies en wijzigingen in de laatste releases van Talent.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

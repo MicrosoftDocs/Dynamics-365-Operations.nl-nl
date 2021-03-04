@@ -81,3 +81,6 @@ Als het argument `regular expression flag` **ONWAAR** is, geeft deze functie de 
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Tekstfuncties](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

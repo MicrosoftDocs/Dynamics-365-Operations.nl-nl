@@ -44,3 +44,6 @@ Microsoft Dynamics 365 Finance bevat bovendien een voorbeeldindeling waarin de c
 - Wanneer u betalingen genereert voor de geconfigureerde bankrekening in het betalingsjournaal, worden de cheques afgedrukt met behulp van de opgegeven indeling.
 
 Zie [Een indeling voor elektronische aangifte wijzigen](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

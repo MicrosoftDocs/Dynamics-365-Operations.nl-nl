@@ -65,3 +65,6 @@ In de argumenten van logische functies kunt u gegevensbronverwijzingen, numeriek
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Logische functies](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

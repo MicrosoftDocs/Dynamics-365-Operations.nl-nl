@@ -125,3 +125,6 @@ Een pro forma-factuur is een factuur die wordt gemaakt als raming van het werkel
 #### <a name="blogs"></a>Weblogs
 
 U kunt een overzicht van een verkoopproces vinden in de post [Hoe verkoop werkt in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

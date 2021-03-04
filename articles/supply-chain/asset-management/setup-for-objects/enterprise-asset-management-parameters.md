@@ -107,3 +107,6 @@ Selecteer de documenttypen die beschikbaar moeten zijn voor het afdrukken van bi
 Koppeling **Nummerreeksen**
 
 Selecteer de vereiste nummerreeksen in deze sectie. Er zijn twee nummerreeksen voor activa: de ene voor handmatig gemaakte activa en de andere voor activa die zijn gemaakt via in behandeling zijnde activa.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

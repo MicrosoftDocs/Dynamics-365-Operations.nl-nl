@@ -55,3 +55,6 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 5. Selecteer **Sluiten**. 
 6. Selecteer de gewenste versie van de ER‑configuratie en selecteer **Importeren** om deze in het huidige exemplaar te plaatsen.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

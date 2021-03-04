@@ -216,3 +216,6 @@ In het uitschuifvenster worden de meest recente uitvoeringsresultaten voor het p
 [Virtuele entiteiten maken en bewerken die gegevens uit een externe gegevensbron bevatten](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [Wat zijn Power Apps-portals?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [Overzicht van het maken van apps in Power Apps](https://docs.microsoft.com/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

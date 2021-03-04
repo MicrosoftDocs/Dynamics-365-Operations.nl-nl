@@ -63,3 +63,6 @@ Deze procedure doorloopt het ontwerpen van de relatie tussen organisatie-eenhede
 29. Klik op Publiceren.
 30. Klik op Sluiten.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

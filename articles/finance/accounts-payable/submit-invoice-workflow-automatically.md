@@ -54,3 +54,6 @@ Een factuurregel wordt van de geautomatiseerde verwerking uitgesloten als aan ee
 - De waarde **Afstemmingsstatus van automatische ontvangst** van de factuurregel is **Mislukt**.
 - De factuur wordt gebruikt.
 - De factuur bevindt zich in het werkstroomsysteem.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

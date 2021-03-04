@@ -56,3 +56,6 @@ U kunt een redencode en een opmerking opnemen bij het aanpassen van het verlofsa
 
 - [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)
 - [Verlof- en verzuimaanvragen beheren](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

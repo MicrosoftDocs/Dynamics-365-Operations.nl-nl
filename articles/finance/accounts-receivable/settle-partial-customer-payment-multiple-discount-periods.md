@@ -98,3 +98,6 @@ Het factuursaldo is nu 0,00. Arnie bekijkt de informatie op de pagina **Klanttra
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

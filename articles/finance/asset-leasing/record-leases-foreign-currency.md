@@ -53,3 +53,6 @@ Wanneer u de journaalboekingen voor afschrijvingsonkosten maakt op basis van een
 Het laatste afschrijvingsonkostenbedrag kan worden berekend met behulp van een iets andere wisselkoers, zodat het RoU-activum volledig is afgeschreven in zowel de valuta voor boekhouding als de aangiftevaluta.
 
 Als de lease opnieuw is geclassificeerd als **Uitgestelde gebruiksvergoeding**, worden de wisselkoersen van de boekhoudingvaluta en de aangiftevaluta automatisch gewist door het systeem, indien deze reeds zijn gedefinieerd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Deze procedure doorloopt de stappen om een klantlevering te maken en te verwerke
 19. Klik op Order maken.
 20. Klik op Ja.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

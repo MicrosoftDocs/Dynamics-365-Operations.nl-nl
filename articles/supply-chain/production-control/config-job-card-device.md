@@ -95,3 +95,6 @@ Zoals eerder vermeld, melden werknemers zich bij het gebruik van een apparaatcon
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Gereedmelden vanaf het taakkaartapparaat](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

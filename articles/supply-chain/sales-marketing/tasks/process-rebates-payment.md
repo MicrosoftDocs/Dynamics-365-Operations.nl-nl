@@ -51,3 +51,6 @@ Deze procedure demonstreert hoe u goedgekeurde en verwerkte klantkortingen conve
     * Merk op dat een transactie voor een negatief bedrag, die het totale kortingsbedrag vertegenwoordigt, zonder factuurreferentie is toegevoegd aan het klantsaldo.   
 15. Klik op Annuleren.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

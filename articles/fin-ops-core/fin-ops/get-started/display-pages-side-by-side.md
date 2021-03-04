@@ -48,3 +48,6 @@ Voordat u de functie **Openen in nieuw venster** kunt gebruiken, moet u de pop-u
 De functie **Openen in nieuw venster** is alleen beschikbaar wanneer er meer dan een pagina is geopend in het venster. Het pop-upvenster wordt ook automatisch gesloten wanneer er geen pagina's meer open zijn (dat wil zeggen wanneer de laatste pagina in dat venster wordt gesloten). Het systeem sluit ook open pagina´s wanneer u navigeert naar een ander gedeelte in de toepassing. Als u dus open pop-upvensters hebt en naar een ander gedeelte in de toepassing navigeert, worden de pop-upvensters automatisch afgesloten omdat de pagina's in die venster door het systeem werden gesloten.
 
 De bovenste balk in de pop-upvensters tonen informatie over het bedrijf waarin de pagina is geopend en is alleen-lezen. De pop-upvensters zijn ook afhankelijk van het hoofdbrowservenster. Als het hoofdvenster wordt gesloten of vernieuwd, worden alle openstaande pop-upvensters alleen-lezen. Als deze situatie zich voordoet, kunt u de informatie in deze vensters nog steeds bekijken, maar is er geen interactie mogelijk.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

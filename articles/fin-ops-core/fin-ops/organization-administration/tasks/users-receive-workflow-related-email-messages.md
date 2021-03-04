@@ -41,3 +41,6 @@ U kunt het systeem configureren voor het verzenden van e-mailberichten aan werkn
 
 > [!NOTE]
 > De e-mailsjablonen voor workflows zijn e-mailsjablonen van het systeem of de organisatie, afhankelijk van of de workflow van systeemniveau (bedrijfsspecifiek) of organisatieniveau (bedrijfsspecifieke) is.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

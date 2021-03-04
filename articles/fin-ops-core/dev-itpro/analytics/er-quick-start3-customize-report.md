@@ -671,3 +671,6 @@ De status van versie 32.6.7.2 wordt gewijzigd van **Concept** in **Voltooid** en
 - [ER-configuraties downloaden uit de algemene opslagplaats van de configuratieservice](er-download-configurations-global-repo.md)
 - [Een vrije-tekstfactuur invoeren](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
 - [Maken en werken met aangepaste velden](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

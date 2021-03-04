@@ -67,3 +67,6 @@ Nadat terugkerende facturen zijn geboekt, kunt u de facturen op de pagina met de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Als u het belastingtype **Capaciteit** of **Rest** selecteert voor de berekening
 
 Zie [Capaciteitsbelasting berekenen](../capacity-planning/calculate-capacity-load.md) voor informatie over het berekenen van de capaciteitsbelasting voor onderhoudsschemaregels en niet geplande werkorders.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

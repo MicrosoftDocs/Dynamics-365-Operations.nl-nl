@@ -55,3 +55,6 @@ Deze procedure toont hoe u een productieorder plant. Het bedrijf van de demogege
 6. Sluit de pagina.
 7. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

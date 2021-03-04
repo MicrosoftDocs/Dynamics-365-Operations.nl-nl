@@ -54,3 +54,6 @@ Aan een kostengroep kunnen een kostengroeptype en gedrag voor extra segmentatie 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

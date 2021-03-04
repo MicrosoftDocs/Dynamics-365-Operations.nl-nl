@@ -48,3 +48,6 @@ In dit onderwerp wordt uitgelegd hoe u een POS-machtigingsgroep maakt. Het demob
 16. Typ of selecteer een waarde in het veld POS-machtigingsgroep. Alle werknemers in posities voor deze taak gebruiken de instellingen van deze POS-machtigingsgroep tenzij de POS-machtigingen van de werknemers zijn overschreven op hun positieniveau.  
 17. Selecteer **Opslaan**. Nadat uw wijzigingen zijn opgeslagen, moet u de personeelsdistributieplanning uitvoeren om de wijzigingen naar kanalen te pushen.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

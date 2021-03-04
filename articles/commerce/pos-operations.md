@@ -209,3 +209,6 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 § Als het POS offline is, kunnen alleen transacties in de huidige offlinedatabase worden ingetrokken voor retour.
 
 \*\* Als het POS offline is, kunnen alleen transacties in de huidige kanaaldatabase worden weergegeven in het journaal.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

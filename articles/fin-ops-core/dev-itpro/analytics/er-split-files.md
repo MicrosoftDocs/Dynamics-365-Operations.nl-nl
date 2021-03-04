@@ -47,3 +47,6 @@ Voor meer informatie over deze functie speelt u de taakbegeleiding **ER gesplits
 [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 
 [Formuleontwerper in elektronische rapportage (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

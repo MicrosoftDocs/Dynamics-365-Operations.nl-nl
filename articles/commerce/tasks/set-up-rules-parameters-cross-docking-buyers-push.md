@@ -48,3 +48,6 @@ Deze procedure demonstreert de stappen om aanvullingsregels te maken. Aanvulling
 14. Voer een getal in het veld Gewicht in.
 15. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

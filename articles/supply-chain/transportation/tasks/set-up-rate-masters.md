@@ -97,3 +97,6 @@ Deze procedure laat zien hoe u een tariefmodel instelt. De logistiek manager ste
     * Geef op vanaf welke postcode deze toewijzing van de tariefbasis geldig moet zijn.
 10. Typ "VS" in het veld **Land/regio voor ophalen**.
 11. Selecteer **Opslaan**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

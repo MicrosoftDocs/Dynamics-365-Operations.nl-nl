@@ -63,3 +63,6 @@ Deze procedure helpt u bij het instellen van retourredencodes die u kunt gebruik
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

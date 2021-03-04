@@ -110,3 +110,6 @@ Zie [Crediteringen en aanmaningen in Klanten](collections-credit-accounts-receiv
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

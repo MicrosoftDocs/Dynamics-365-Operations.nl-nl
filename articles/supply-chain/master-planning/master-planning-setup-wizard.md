@@ -209,3 +209,6 @@ In de wizard worden de volgende waarden ingevoerd voor Contoso Retailer:
     - **Antwoord:** 'Ja, zoals gedefinieerd in dit hoofdplan.' **1 dag** wordt ingevoerd.
 
     Contoso gebruikt de goedgekeurde bestelopdrachten van de winkels om geplande inkooporders te maken om deze winkels aan te vullen. Omdat de Hoofdplanning elke dag wordt uitgevoerd, worden de bestelopdrachten van de laatste dag opgenomen in de planning.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

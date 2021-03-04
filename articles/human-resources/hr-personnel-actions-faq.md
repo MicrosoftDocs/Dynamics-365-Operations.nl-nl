@@ -92,3 +92,6 @@ Bijvoorbeeld:
 - De ingangsdatum van een actie **Een medewerker aannemen** is de datum die u in het veld **Begindatum dienstverband** hebt ingevoerd.
 - De ingangsdatum van een actie **Een medewerker overplaatsen** is de datum die u in het veld **Begindatum van toewijzing** voor de medewerker hebt ingevoerd.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

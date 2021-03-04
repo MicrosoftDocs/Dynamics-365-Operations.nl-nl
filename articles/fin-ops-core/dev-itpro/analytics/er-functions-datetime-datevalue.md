@@ -79,3 +79,6 @@ Echter, `DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")` leidt tot een uitzon
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Datum- en tijdfuncties](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

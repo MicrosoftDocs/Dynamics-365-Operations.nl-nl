@@ -88,3 +88,6 @@ De video [Waarschuwingen gebruiken om gefilterde gegevens te controleren](https:
 De video [Opties voor waarschuwingsregels](https://youtu.be/cpzimwOjicM) (zie hierboven) is opgenomen in de [Finance and Operations-afspeellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) die beschikbaar is op YouTube.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

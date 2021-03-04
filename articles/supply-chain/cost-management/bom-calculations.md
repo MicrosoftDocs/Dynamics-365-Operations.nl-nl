@@ -95,3 +95,6 @@ Een orderspecifieke stuklijstberekening is een variatie op een stuklijstberekeni
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

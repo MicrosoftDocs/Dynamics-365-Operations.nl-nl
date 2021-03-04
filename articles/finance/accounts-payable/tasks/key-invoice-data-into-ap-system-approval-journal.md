@@ -54,3 +54,6 @@ In dit onderwerp wordt getoond hoe u het facturenregister gebruikt om facturen t
 10. Selecteer **Boeken**.
 11. Klik op **Boekstuk** om de gegevens weer te geven die zijn geboekt. De rekening Facturen in afwachting van goedkeuring wordt tegengeboekt en vervangen door de werkelijke onkostenrekening.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

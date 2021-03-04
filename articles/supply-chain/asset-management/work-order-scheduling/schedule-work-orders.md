@@ -138,3 +138,6 @@ U kunt het Gantt-diagram als volgt weergeven en gebruiken:
     - Als u een weergegeven werkorder opnieuw wilt plannen, selecteert u deze en sleept u de werkorder naar de gewenste nieuwe datum en tijd.
 
 1. Als u wijzigingen hebt aangebracht, selecteert u **Opslaan** in het actievenster om ze op te slaan.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

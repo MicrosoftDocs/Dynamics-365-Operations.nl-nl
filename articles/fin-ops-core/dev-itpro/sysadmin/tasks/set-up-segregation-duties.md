@@ -40,3 +40,6 @@ U kunt regels instellen om taken te scheiden die door verschillende gebruikers m
 12. Typ een waarde in het veld **Risicobeperking beveiliging**. Voer een omschrijving in van de acties die u uitvoert om het beveiligingsrisico te beperken. Bijvoorbeeld, u kunt het risico beperken door meer gedetailleerde controles van het proces uit te voeren, door een maandelijkse managercontrole uit te voeren of door resources met andere afdelingen te delen.     
 13. Klik op **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

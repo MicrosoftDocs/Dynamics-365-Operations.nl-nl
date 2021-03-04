@@ -110,3 +110,6 @@ De werkruimte **Uitgaand werk bewaken** bevat twee tegels waarmee u uitgestelde 
 ## <a name="deleting-completed-tasks"></a>Voltooide taken verwijderen
 
 U kunt uitgestelde wegzetverwerkingstaken die zijn voltooid verwijderen door ze op de pagina te selecteren en te verwijderen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

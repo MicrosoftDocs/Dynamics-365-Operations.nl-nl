@@ -45,3 +45,6 @@ Als u de standaard batch-id wilt definiëren die wordt gebruikt voor de facturer
 
 > [!NOTE]
 > Ondersteuning voor de verbeterde verwerking van artikelen met batchtracering tijdens overzichtsboekingen voor niet-geavanceerde magazijnbeheerscenario's is geïntroduceerd in Retail versie 10.0.5.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

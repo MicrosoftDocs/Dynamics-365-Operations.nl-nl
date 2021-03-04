@@ -198,3 +198,6 @@ Tijdens een stap van het configuratieproces suggereert het systeem een configura
 
 [Een productnummernomenclatuur voor geconfigureerde productvarianten maken](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

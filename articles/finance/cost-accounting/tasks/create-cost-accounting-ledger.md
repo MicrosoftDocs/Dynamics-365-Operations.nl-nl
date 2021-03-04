@@ -38,3 +38,6 @@ Een grootboek van kostprijsboekhouding vertegenwoordigt de algemene rapportage-e
 8. Typ of selecteer een waarde in het veld Statistische dimensie.
 9. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

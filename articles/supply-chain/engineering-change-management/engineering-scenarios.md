@@ -411,3 +411,6 @@ Het product kan nu weer worden vrijgegeven aan het bedrijf *USMF* en vervolgens 
 1. Selecteer elk bedrijf waarnaar u producten wilt vrijgeven.
 1. Selecteer **OK** om het dialoogvenster **Vrijgaven** te sluiten en terug te gaan naar de wijzigingsorder.
 1. Selecteer in het actievenster op het tabblad **Wijzigingsorder** in de groep **Productreleases** de optie **Verwerken** om de betrokken producten vrij te geven voor de geselecteerde bedrijven. U kunt ook **Productstructuur vrijgeven** selecteren om het vrijgaveproces te starten.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

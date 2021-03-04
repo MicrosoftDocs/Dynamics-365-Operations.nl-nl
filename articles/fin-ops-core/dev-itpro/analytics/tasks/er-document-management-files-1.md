@@ -74,3 +74,6 @@ U moet een eigen configuratie van het Klantfactuurmodel maken door deze af te le
 3. Typ 'Klantfactuurmodel (aangepast)' in het veld Naam.
 4. Klik op Configuratie maken.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

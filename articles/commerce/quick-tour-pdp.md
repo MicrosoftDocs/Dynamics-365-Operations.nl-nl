@@ -88,3 +88,6 @@ Als marketinginhoud uniek is voor een specifiek product, kan elke marketingmodul
 [Overzicht van pagina's voor accountbeheer](quick-tour-account-management.md)
 
 [Een pagina met productgegevens verrijken](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

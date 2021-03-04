@@ -813,3 +813,6 @@ Zie [De structuur van een sjabloon voor bedrijfsdocumenten bijwerken](er-bdm-upd
 [De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen](trace-execution-er-troubleshoot-perf.md)
 
 [Overzicht van Beheer van bedrijfsdocumenten](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

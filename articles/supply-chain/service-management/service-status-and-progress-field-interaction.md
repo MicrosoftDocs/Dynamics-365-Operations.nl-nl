@@ -95,3 +95,6 @@ Als alle regels in een serviceorder zijn gemarkeerd als **Geboekt**, is de voort
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

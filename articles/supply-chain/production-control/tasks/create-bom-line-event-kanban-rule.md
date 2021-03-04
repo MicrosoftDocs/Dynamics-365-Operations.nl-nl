@@ -83,3 +83,6 @@ Deze taak is gericht op de instellingen die nodig zijn om een gebeurteniskanbanr
     * Let op de kanban die is gemaakt om M0001 te leveren voor de geschatte productieorder.  
     * Dit is de laatste stap.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

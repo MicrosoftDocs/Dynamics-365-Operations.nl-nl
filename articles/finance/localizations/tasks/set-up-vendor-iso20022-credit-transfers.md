@@ -52,3 +52,6 @@ Dit is de vierde van vijf taken die het leveranciersbetalingproces toelichten do
 4. Klik in de lijst op de koppeling in de rij SEPA CT.
 5. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

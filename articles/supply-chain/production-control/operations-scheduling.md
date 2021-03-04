@@ -84,3 +84,6 @@ Indien u met beperkt materiaal werkt, hangt de planning ook af van de beschikbaa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

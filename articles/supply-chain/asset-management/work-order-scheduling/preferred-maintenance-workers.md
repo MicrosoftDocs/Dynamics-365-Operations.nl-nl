@@ -68,3 +68,6 @@ U kunt ook *verantwoordelijke* onderhoudswerkers instellen; deze kunnen worden g
 
 Tijdens de planning van werkorders worden verschillende scores berekend om te bepalen welke medewerkers de taken met betrekking tot een werkorder moeten voltooien (deze scores worden ingesteld via **Parameters voor activabeheer** > **Planning werkorder**). Als twee of meer onderhoudsmedewerkers of verantwoordelijke onderhoudsmedewerkers dezelfde score krijgen tijdens de werkorderplanning, wordt een willekeurige medewerker geselecteerd. Anders is het altijd de medewerker met de hoogste score die wordt toegewezen om een werkorder te voltooien.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

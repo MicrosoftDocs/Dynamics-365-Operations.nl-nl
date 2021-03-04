@@ -67,3 +67,6 @@ Deze procedure laat zien hoe u een nieuwe categoriehiërarchie maakt en een type
 8. Klik in de lijst op de koppeling in de geselecteerde rij.
 9. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

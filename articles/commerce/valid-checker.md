@@ -78,3 +78,6 @@ Als een validatiefout wordt gevonden, kunt u de fout alleen herstelen door conta
 
 > [!NOTE]
 > In een toekomstige versie worden extra validatieregels toegevoegd om meer scenario's te ondersteunen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

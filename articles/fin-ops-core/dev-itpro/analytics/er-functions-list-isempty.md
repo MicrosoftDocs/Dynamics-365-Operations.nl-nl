@@ -59,3 +59,6 @@ De expressie `ISEMPTY (SPLIT ("",1))` retourneert **TRUE**.
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Lijstfuncties](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

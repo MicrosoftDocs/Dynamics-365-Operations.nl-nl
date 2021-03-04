@@ -44,3 +44,6 @@ Deze procedure toont hoe u de rapporteringsrelatie voor een werknemer wijzigt. D
 12. Typ of selecteer een waarde in het veld Verantwoording aan positie.  Voorbeeld: 000437
 13. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

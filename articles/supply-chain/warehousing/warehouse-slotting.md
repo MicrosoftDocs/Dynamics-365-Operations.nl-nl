@@ -384,3 +384,6 @@ Nadat alle vereiste elementen zijn ingesteld, kunt u vaktoewijzing configureren 
 1. Stel het herhalingspatroon desgewenst in op automatisch herhalen.
 
 Stel voor de oefeningen in het scenario **niet** automatische vaktoewijzing in.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

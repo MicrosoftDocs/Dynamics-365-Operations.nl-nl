@@ -39,3 +39,6 @@ Deze procedure toont hoe u een nieuwe berekening toevoegt aan een productconfigu
 4. Klik op Sluiten.
 5. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Deze functionaliteit is beschikbaar voor rechtspersonen die hun primaire adres i
 10. Schakel het selectievakje Betaling opnemen in.
     * Houd er rekening mee dat betalingstransacties standaard niet worden overgeboekt naar het betalingssaldo. De gebruiker moet het veld Betaling opnemen activeren voor doelcodes.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

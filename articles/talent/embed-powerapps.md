@@ -66,3 +66,6 @@ U kunt ook deze stappen uitvoeren.
 2. Selecteer **Een app van Power Apps toevoegen** op de werkbalk.
 
     ![Een app van Power Apps toevoegen met behulp van de werkbalk Aanpassen](media/powerapp-bar.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

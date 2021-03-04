@@ -50,3 +50,6 @@ Dit is de vijfde van vijf taken die het leveranciersbetalingproces toelichten do
     3.    Typ een waarde in het veld **Bestandsnaam**. In dit voorbeeld is vanwege de EUR-betaling het gegenereerde bestand compatibel is met SEPA. ISO20022 kredietoverdracht alsmede andere indelingen voor betalingen van leverancier kunnen ook worden gebruikt voor het genereren van betalingen in andere valuta's.
     4.    Typ of selecteer een waarde in het veld **Bankrekening**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

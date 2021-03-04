@@ -46,3 +46,6 @@ De modellen voor productiestromen beschrijven hoe de capaciteit van werkcellen v
 8. Selecteer een optie in het veld Reactie bij capaciteitstekort.
     * De opties zijn: Uitstellen - Stel de volledige vraag van de planningsgebeurtenis uit naar de volgende beschikbare productiedag, met beschikbare doorvoer. Annuleren - Beëindig de automatische planning voor de planningsgebeurtenis en laat de verwante taken ongepland.   Toevoegen aan de aangevraagde dag - Plan de aangevraagde taken voor de opgegeven periode. Hierdoor wordt de cel voor deze dag overbelast en moet de planner dit controleren en een handmatige interactie ondernemen.   Verdelen naar beschikbare perioden - Verdeel de verschillende taken van de planningsgebeurtenis over alle beschikbare productiedagen en begin met de eerste beschikbare dag. De minimale distributiehoeveelheid is de kanbantaakhoeveelheid. De verdeling wijst de minimale planningshoeveelheid (kanbanhoeveelheid) toe aan elke dag met voldoende beschikbare doorvoer.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

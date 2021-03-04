@@ -123,3 +123,6 @@ U kunt de taakregistraties van Microsoft downloaden en bewerken om ze voor uw ei
 [Taakrecorder](task-recorder.md)
 
 [Create Rich Help Topics with Task Recorder (externe koppeling)](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ In deze procedure wordt het demobedrijf USMF gebruikt.
 3. Zoek en selecteer de gewenste record in de lijst.
 4. Klik op **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

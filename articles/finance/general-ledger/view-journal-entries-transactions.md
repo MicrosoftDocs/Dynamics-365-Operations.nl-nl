@@ -61,3 +61,6 @@ Naast de financiële rapporten kunt u de volgende grootboekrapporten gebruiken o
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Download en installeer de mobiele Finance and Operations-app:
 11. Geef de prestaties van afzonderlijke kostenelementen weer.
 12. U kunt ook zoeken naar specifieke kostenelementen.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

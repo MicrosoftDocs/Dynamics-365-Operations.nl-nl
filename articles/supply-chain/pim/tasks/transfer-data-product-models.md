@@ -37,3 +37,6 @@ Het exporteren van gegevens voor een productconfiguratiemodel vereist dat u ten 
 5. Klik op Basisproduct exporteren.
     * Het downloadgedrag verschilt van browser tot browser, afhankelijk van hoe de beveiligingsinstellingen zijn ingesteld.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

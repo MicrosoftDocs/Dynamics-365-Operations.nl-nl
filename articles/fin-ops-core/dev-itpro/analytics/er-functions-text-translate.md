@@ -77,3 +77,6 @@ De functie `TRANSLATE` vervangt één teken per keer. Het eerste teken van het a
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Tekstfuncties](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

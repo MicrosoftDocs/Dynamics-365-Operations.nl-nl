@@ -85,3 +85,6 @@ Deze onderwerp geeft een beschrijving van de configuratie van telprocessen voor 
 5. Selecteer een telgroep in het vervolgkeuzemenu van het veld **Telgroep**. U kunt een specifieke telgroep selecteren die moet gelden voor het artikel in het opgegeven magazijn dat u hebt geselecteerd. Als het tellen wordt uitgevoerd in dat magazijn, negeert dit telbeleid het algemene telbeleid voor het artikel.  
 6. Selecteer **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

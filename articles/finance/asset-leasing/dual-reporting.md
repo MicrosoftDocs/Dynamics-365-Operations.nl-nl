@@ -523,3 +523,6 @@ Nadat al deze journaalposten zijn gemaakt en geboekt, ziet u de volgende waarden
 | 11         | Samengevoegde afschrijving |                                                   |                                                   |                                                   | 0\.00                   |   |                                                 |                                                |                                                |                                                | \-949\.75                                      | \-949\.75                               |
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Deze procedure doorloopt hoe u een vooraf gedefinieerd hardwarestation downloadt
 5. Zoek en selecteer de gewenste record in de lijst.
 6. Klik op Downloaden.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

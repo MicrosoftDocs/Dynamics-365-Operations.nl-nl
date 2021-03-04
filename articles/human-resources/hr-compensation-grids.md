@@ -92,3 +92,6 @@ Compensatierasters worden gebruikt om de salarisstructuren voor plannen voor vas
 29. Selecteer of deselecteer alle rijen in de lijst.
 30. Klik op Toepassen op raster.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

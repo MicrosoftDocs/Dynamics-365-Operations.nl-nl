@@ -88,3 +88,6 @@ De opgegeven valutacode is optioneel. Als deze is gedefinieerd als een lege teke
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Tekstfuncties](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

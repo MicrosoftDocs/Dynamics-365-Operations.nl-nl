@@ -72,3 +72,6 @@ In dit artikel wordt uitgelegd hoe u uw gebruikersvoorkeuren instelt voor het aa
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Financiële rapportage](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

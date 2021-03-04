@@ -66,3 +66,6 @@ Aan elke aanvullingsmethode is een van de volgende dekkingscodes toegewezen:
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht van Hoofdplannen](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

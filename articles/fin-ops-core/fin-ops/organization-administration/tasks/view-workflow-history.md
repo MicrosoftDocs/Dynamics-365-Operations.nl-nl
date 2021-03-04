@@ -46,3 +46,6 @@ In dit onderwerp worden de stappen beschreven voor het weergeven van de status e
     - Met de knop **Opnieuw toewijzen** opent u een dialoogvenster waarin u een werkitem aan een andere gebruiker kunt toewijzen.  
     - Zorg ervoor dat de sectie **Details tracering** is uitgevouwen. In deze sectie ziet u de workflowhistorie van het geselecteerde document.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

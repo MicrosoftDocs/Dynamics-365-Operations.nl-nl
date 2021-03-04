@@ -119,3 +119,6 @@ In dit voorbeeld gebruikt u gemaakte ER-configuraties voor voorbeeldbedrijf 'Lit
 23. Klik op OK.
     * Controleer de gemaakte uitvoer. De uitvoer als MS Word-document is gegenereerd met ingesloten afbeeldingen die het bedrijfslogo, de handtekening van een bevoegd persoon en de geselecteerde tekst van het watermerk voorstellen.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

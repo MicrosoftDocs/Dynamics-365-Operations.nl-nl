@@ -110,3 +110,6 @@ Wanneer de functie voor gevaarlijke stoffen is ingeschakeld in uw systeem, bevat
 ## <a name="packing-list-report"></a>Rapport Verpakkingslijst
 
 Wanneer de functie voor gevaarlijke stoffen is ingeschakeld in uw systeem, bevatten verpakkingslijsten aanvullende informatie over de verzendtekst voor een artikel. Dit rapport is zoals gewoonlijk te vinden op de pagina **Alle ladingen**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

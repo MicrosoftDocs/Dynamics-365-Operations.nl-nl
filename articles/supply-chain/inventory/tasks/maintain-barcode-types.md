@@ -46,3 +46,6 @@ Deze procedure toont hoe u een nieuwe definitie van streepjescodes instelt die u
 12. Klik op Opslaan.
 13. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

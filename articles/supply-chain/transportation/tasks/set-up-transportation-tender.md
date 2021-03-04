@@ -48,3 +48,6 @@ Deze procedure laat zien hoe u een Transportaanbesteding instelt. Dit wordt gewo
 7. Klik op Aanbieden.
 8. Selecteer een route.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

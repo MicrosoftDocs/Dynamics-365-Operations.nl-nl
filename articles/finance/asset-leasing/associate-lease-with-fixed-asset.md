@@ -54,3 +54,6 @@ De vaste activa kunnen nu worden afgeschreven met de standaard afschrijvingsfunc
 
 > [!NOTE]
 > Als u een vast activum aan een lease koppelt, worden de knoppen **Afschrijving van activa** en **Leasewaardevermindering** uitgeschakeld in Activa leasen. U kunt transacties voor afschrijvingen van activa en waardevermindering voor leases weergeven in Vaste activa. De knop **Activatransacties**, waarmee een queryformulier wordt geopend, wordt ook uitgeschakeld. U kunt het queryformulier **Activatransacties** ook openen in Vaste activa.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

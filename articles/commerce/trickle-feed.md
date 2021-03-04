@@ -54,3 +54,6 @@ Met de functie voor het groepsgewijs maken van orders in Retail versie 10.0.5 ku
 > De menuopdrachten **Retail en Commerce > IT Retail en Commerce > POS-boekingen > Overzichten in batch berekenen** en **Retail en Commerce > IT Retail en Commerce > POS-boekingen > Overzichten in batch boeken** worden vervangen door deze nieuwe functie.
 
 U kunt de typen van transactie- en financiële overzichten ook handmatig maken. Ga naar **Retail en Commerce > Afzetkanalen > Winkels** en klik op **Overzichten**. Klik op **Nieuw** en selecteer het type overzicht dat u wilt maken. De velden op de pagina **Overzichten** en de acties onder **Overzichtsgroep** op de pagina laten de relevante gegevens en acties zien op basis van het geselecteerde overzichtstype.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

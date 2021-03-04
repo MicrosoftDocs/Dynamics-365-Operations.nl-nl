@@ -132,3 +132,6 @@ Voer de volgende stappen uit om trends in beoordelingen en recensies te bekijken
 [Beoordelingen en recensies configureren](configure-ratings-reviews.md)
 
 [Productbeoordelingen synchroniseren in Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

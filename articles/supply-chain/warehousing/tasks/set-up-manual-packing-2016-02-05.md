@@ -95,3 +95,6 @@ In het verpakkingsproces kunt u producten valideren en verpakken in containers. 
 8. Typ of selecteer een waarde in het veld Gewichtseenheid.
 9. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

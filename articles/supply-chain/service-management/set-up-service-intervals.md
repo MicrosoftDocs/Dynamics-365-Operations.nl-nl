@@ -54,3 +54,6 @@ U wilt een service-interval van tien dagen maken.
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 [Service-intervallen](service-intervals.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

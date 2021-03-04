@@ -140,3 +140,6 @@ U kunt het rapport **Verzonden naar klanten** genereren om de hoeveelheid van he
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Kan ik co- en bijproducten traceren?
 U kunt co-producten traceren, maar u kunt een bijproduct niet traceren omdat traceringsdimensies meestal niet aan hen zijn toegewezen. Wanneer u een artikel traceert, bevatten de traceringsdetails alle gerelateerde co-producten. Een knooppunt dat een coproduct bevat, bevat het woord "coproduct" in de details. U kunt details over een co-product ook weergeven door het knooppunt in de traceringsdetails te selecteren, en vervolgens het sneltabblad **Productie** te openen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

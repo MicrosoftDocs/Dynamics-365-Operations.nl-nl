@@ -43,3 +43,6 @@ In de volgende tabel ziet u de Power BI-inhoud waarvan de rapporten worden gekop
 | [Verkoop en winstgevendheid](sales-profitability-performance-content-pack.md) | <ul><li>Opbrengst per regio</li><li>Top 10-klanten op opbrengst</li><li>Top 10-producten op opbrengst</li></ul> |
 | [Klantcrediteringen- en aanmaningsbeheer](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Klanten over tijd</li><li>Klanten boven kredietlimiet</li><li>Vervallen saldi</li></ul> |
 | [Inkoopuitgavenanalyse](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Inkopen per maand/dag</li><li>Top 10 van leveranciers op basis van inkopen</li><li>Top 10 producten op basis van inkopen</li></ul> |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

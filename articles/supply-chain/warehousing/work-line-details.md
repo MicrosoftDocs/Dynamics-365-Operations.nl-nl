@@ -128,3 +128,6 @@ Volg deze stappen om verzamelwerk te maken.
 
 > [!IMPORTANT]
 > Als u slechts een deel van de hoeveelheid voor een werkregel annuleert, moet u ook de verouderde hoeveelheid uit de ladingregel verwijderen. Als u dit niet doet, kan de ladingregel niet worden bevestigd voor verzending, tenzij minderlevering op de juiste manier is ingesteld.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

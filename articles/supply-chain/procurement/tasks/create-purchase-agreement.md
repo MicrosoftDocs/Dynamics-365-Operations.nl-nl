@@ -72,3 +72,6 @@ Dit onderwerp begeleidt u door het maken van een inkoopovereenkomst. Dit wordt g
 5. Selecteer **Bevestigingen van inkoopovereenkomst**. Met de optie **Voorbeeld/afdrukken** kunt u een document voor de inkoopovereenkomst genereren dat u vervolgens kunt afdrukken of naar de leverancier kunt verzenden. Als u de overeenkomst later wilt bijwerken en opnieuw wilt bevestigen, worden hier beide versies weergegeven.  
 6. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

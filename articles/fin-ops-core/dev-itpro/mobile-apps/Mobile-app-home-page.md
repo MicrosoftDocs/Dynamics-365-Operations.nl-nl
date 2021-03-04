@@ -151,3 +151,6 @@ De volgende tabel bevat koppelingen naar resources die u kunnen helpen bij de im
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 [Resources voor mobiel platform](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

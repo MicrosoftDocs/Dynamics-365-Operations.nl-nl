@@ -72,3 +72,5 @@ Wijs de Talent-gebruikersrol toe aan het Talent Relationship Team.
 
    1. Meld u aan bij de carrièreportal in een nieuw browservenster.
    2. Solliciteer op de vacature in de carrièreportal. 
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Als u een bepaalde [afdrukstand](electronic-reporting-destinations.md#SelectPdfP
 
 - [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 - [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

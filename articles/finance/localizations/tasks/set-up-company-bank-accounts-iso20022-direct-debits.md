@@ -60,3 +60,6 @@ Dit is de tweede van vijf taken die het proces voor klantenbetalingen toelichten
     * Selecteer bijvoorbeeld de bankrekening "DEMF OPER".  
 6. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

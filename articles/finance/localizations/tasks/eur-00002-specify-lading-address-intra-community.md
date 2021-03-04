@@ -73,3 +73,6 @@ Deze procedure is van toepassing op alle Europese landen/regio's. De taak werd g
 37. Klik op het tabblad Algemeen.
     * Zoek een nieuwe regel en controleer of de afzender de goederen uit Italië heeft verzonden.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

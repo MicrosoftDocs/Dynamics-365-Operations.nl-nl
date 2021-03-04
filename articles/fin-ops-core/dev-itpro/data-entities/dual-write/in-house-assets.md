@@ -76,3 +76,6 @@ Interne activa omvatten een verzameling basistabeltoewijzingen die samenwerken t
 [!include [models](includes/AssetManagementModels-msdyn-models.md)]
 
 [!include [warranty](includes/AssetManagementWarranty-msdyn-warranties.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ In het veld **Serviceovereenkomstgroep** op de pagina **Parameters voor serviceb
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 [Serviceovereenkomstgroepen maken](create-service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Hier volgt een uitleg van de kolommen in dit bestand:
 
 > [!NOTE]
 > Als u grootboektransacties voor klantfacturen wilt boeken, gaat u naar **Klanten** \> **Facturen** \> **Alle vrije-tekstfacturen**. Voor leveranciersfacturen gaat u naar **Leveranciers** \> **Facturen** \> **Facturenjournaal**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

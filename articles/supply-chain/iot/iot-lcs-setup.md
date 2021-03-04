@@ -56,3 +56,6 @@ LCS-instelling is nu voltooid. De volgende stap is het [instellen van de scenari
 2. Ga in LCS naar de details van uw Supply Chain Management-omgeving.
 3. Schuif naar de sectie **Invoegtoepassingen voor omgeving**.
 4. Selecteer **Verwijderen** voor de invoegtoepassing IoT-intelligentie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

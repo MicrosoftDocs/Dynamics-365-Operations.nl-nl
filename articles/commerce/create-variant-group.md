@@ -73,3 +73,6 @@ De volgende afbeelding toont een voorbeeld van een maatgroep voor 'hemdmaten'.
 [Detailhandelproducten instellen](set-up-retail-products.md)
 
 [Productdimensies](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

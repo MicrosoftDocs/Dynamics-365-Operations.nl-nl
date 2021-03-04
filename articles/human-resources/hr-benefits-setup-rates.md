@@ -93,3 +93,6 @@ U kunt ook dubbele niveaus gebruiken. Als u **Dubbel niveau** selecteert voor de
    | **Flex-krediet voor rokerstarief** | Het aantal flex-kredieten dat de vergoeding kost, gebaseerd op de berekening die is gedefinieerd voor het tariefniveau voor rokers. |
 
 5. Selecteer **Opslaan**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

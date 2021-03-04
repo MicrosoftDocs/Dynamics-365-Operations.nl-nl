@@ -52,3 +52,6 @@ Deze handleiding laat zien hoe u een verzoektype kunt maken en dit kunt koppelen
 8. Klik op OK.
 9. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

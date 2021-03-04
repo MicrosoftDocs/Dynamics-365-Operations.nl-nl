@@ -44,3 +44,6 @@ Deze procedure laat zien hoe u een nieuwe status van de productlevenscyclus maak
 5. Markeer in de lijst de geselecteerde rij.
 6. Typ of selecteer een waarde in het veld Levenscyclusstatus van product.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

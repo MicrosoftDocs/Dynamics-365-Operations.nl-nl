@@ -59,3 +59,6 @@ Schakel vervolgens de configuratiesleutel voor **beheer van technische wijziging
 1. Ga naar **Systeembeheer \> Instellingen \> Licentieconfiguratie**.
 1. Vouw het knooppunt **Handel** uit en schakel het selectievakje **Technisch wijzigingsbeheer**.
 1. Schakel de onderhoudsmodus uit, zoals wordt beschreven in [Onderhoudsmodus](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

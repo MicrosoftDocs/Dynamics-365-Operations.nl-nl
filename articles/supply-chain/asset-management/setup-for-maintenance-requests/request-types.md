@@ -45,3 +45,6 @@ Een type onderhoudsverzoek definieert de aansluiting met een levenscyclusstatusg
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Typen onderhoudsverzoeken**.
 
 ![Pagina Typen onderhoudsverzoeken](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

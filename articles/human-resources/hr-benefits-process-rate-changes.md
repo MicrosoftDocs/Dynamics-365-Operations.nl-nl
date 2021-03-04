@@ -48,3 +48,6 @@ Verwerk wijzigingen in het vergoedingstarief in Microsoft Dynamics 365 Human Res
    4. Selecteer **OK**. Het proces wordt uitgevoerd met de parameters die u instelt.
 
 4. Selecteer **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

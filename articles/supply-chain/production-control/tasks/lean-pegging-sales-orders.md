@@ -57,3 +57,6 @@ Deze procedure is gericht op het valideren van de behoeftetraceringsstructuur va
 5. Selecteer in de structuur 'Verkoopregel 000832\Kanban 000558\Probleem voor L0001\Kanban 000559'.
     * De taak voor de tweede kanban is ook gepland, omdat de volledige behoeftetraceringsstructuur is gepland. De kanbantaakstatus is gewijzigd van Niet gepland in Gepland.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

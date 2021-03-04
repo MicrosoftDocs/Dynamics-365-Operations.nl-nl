@@ -41,3 +41,6 @@ Nieuwe opties zijn toegevoegd aan verlof en afwezigheid (**Human resources**-par
 
 ### <a name="worker-hire-actions-are-stuck-in-workflow-complete-state"></a>Aanstellingsacties van werknemers kunnen vastzitten in de status Workflows voltooid.
 Er zijn wijzigingen aangebracht om een probleem op te lossen waarbij een klein aantal workflows vastzat in de status Workflows voltooid. Nieuwe workflows krijgen nu de status 'Voltooid' als de workflow is voltooid. Alle workflows met de status Workflow voltooid krijgen de status Fout zodat zo nodig wijziging of verwijdering mogelijk is. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

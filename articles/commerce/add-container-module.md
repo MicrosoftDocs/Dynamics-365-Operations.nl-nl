@@ -142,3 +142,6 @@ Voer de volgende stappen uit om een containerspelermodule aan een nieuwe pagina 
 [Koptekstmodule](author-header-module.md)
 
 [Voettekstmodule](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

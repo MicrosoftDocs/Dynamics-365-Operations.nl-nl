@@ -65,3 +65,6 @@ Deze stappen kunnen worden voltooid met elke dataset. Als u deze stappen wilt ui
     * Voorbeeldtoewijzing van Intrastat  
 5. Klik op Configuratie maken.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

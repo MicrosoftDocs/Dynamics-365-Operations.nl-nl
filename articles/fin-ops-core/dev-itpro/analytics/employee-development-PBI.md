@@ -68,3 +68,6 @@ U kunt de diagrammen en tegels op deze rapporten filteren en de diagrammen en te
 | Vaardigheidsanalyse werknemer  | Gecertificeerd, niveau, niveaudatum en vaardigheid                                                                    | Werknemernaam, Vaardigheid |
 | Prestaties              | Classificatie, beschrijving en classificatiemodel                                                                      | Huidige werknemer, Huidige positie, Trend werknemer, Voorkeursvaardigheid functie, Toewijzing eerdere positie, Trend positie, Ontslagen werknemer |
 | Vaardigheid                    | Vaardigheid, vaardigheidstype en classificatie                                                                              | Vaardigheidsanalyse werknemer, Voorkeursvaardigheid functie |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

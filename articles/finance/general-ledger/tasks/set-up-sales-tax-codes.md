@@ -46,3 +46,6 @@ Bij deze taak wordt het demobedrijf USMF gebruikt.
 12. Sluit de pagina.
 13. Selecteer **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

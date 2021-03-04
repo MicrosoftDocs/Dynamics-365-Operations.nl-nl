@@ -110,3 +110,6 @@ In de volgende procedure wordt één manier weergegeven om het probleem te repro
 ### <a name="issue-resolution"></a>Probleemoplossing
 
 Dit is afhankelijk van de parameterinstellingen voor facturen en factuurgroepen. Zie het volgende blogbericht voor meer informatie: [Boekhouding voor inkooptoeslag en voorraadwijziging](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/12/15/accounting-for-purchase-charge-and-stock-variation/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

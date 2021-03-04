@@ -55,3 +55,6 @@ U kunt een sjabloonstuklijst aan een serviceobjectrelatie koppelen. Vervolgens k
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

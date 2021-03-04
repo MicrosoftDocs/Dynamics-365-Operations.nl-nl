@@ -65,3 +65,6 @@ De volgende batchtaken kunnen beter 's nachts of na werktijd worden uitgevoerd. 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Prestaties optimaliseren met automatische opschoningstaken](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

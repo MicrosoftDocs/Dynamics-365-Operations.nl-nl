@@ -85,3 +85,6 @@ Deze procedure is gericht op optimaliseren van de kanbangrootte en -hoeveelheden
     * Merk op dit de vaste kanbanhoeveelheid van 4 is van de berekening van de kanbanhoeveelheid.  
 5. Klik op het tabblad Lijstpaneel.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

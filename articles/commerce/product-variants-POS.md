@@ -115,3 +115,6 @@ De volgende tabel bevat meer informatie over de aanvullende acties die beschikba
 | Beschikbaarheid         | Geef de ATP-informatie voor de geselecteerde combinatie van varianten voor de geselecteerde locatie weer. |
 | Alle locaties weergeven   | Schakel over naar de standaardzoekweergave voor voorraad en markeer de voorraadbeschikbaarheidsgegevens voor de artikelvariant voor alle winkels in de winkellocatorgroep, en ook in distributiecentra van de het type **Standaard**. |
 | Productgegevens weergeven | Stuur de gebruiker door naar de pagina **Productdetails** van het gekoppelde productmodel. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

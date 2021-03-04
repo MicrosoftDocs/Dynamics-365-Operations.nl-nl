@@ -57,3 +57,6 @@ In het dialoogvenster worden de ATP-gegevens uit Supply Chain Management geretou
 - Ontvangsthoeveelheid
 - Uitgiftehoeveelheid
 - Voorhanden hoeveelheid
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

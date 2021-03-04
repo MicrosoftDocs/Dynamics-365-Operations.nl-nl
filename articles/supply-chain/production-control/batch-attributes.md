@@ -53,3 +53,6 @@ U kunt zoeken op batchkenmerken wanneer u batchreserveringen voor een verkoopord
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

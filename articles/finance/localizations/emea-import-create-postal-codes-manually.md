@@ -47,3 +47,6 @@ Voor sommige landen moet u het Gegevensbeheer-raamwerk gebruiken om codes te imp
 In plaats van codes te importeren kunt u de pagina **Adresinstelling** gebruiken om handmatig nieuwe postcodes toe te voegen.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

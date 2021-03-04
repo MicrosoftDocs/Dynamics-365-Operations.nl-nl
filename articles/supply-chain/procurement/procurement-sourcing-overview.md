@@ -93,3 +93,6 @@ Gefactureerde inkooporders leggen de schuld vast in de leveranciersrekening in l
 ## <a name="vendor-performance"></a>Leverancierprestaties
 
 De prestaties en de controle van inkopen worden ondersteund met *inkoop- en leveranciersrapporten*, waarin uitgavenanalyses en leveranciersprestatieanalyses zijn opgenomen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

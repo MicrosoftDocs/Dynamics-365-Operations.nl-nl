@@ -220,3 +220,6 @@ De volgende voorbeelden geven mogelijke informatie weer die worden gebruikt in e
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Financiële rapportage](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

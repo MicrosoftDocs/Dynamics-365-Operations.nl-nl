@@ -75,3 +75,6 @@ De stappen in deze procedure leggen uit hoe u ER-configuraties ontwerpt om een e
     * Controleer de structuur van de indeling die wordt gebruikt om het Intrastat-rapport te genereren. Houd er rekening mee dat het is ontworpen voor het genereren van een XML-bestand door gegevens in te vullen uit het gegevensmodel, dat is gebaseerd op het basisitem 'Voor uitgaand document'. Controleer of de naam voor het gegenereerde bestand is gedefinieerd in het gebruikersdialoogvenster (hiervoor wordt de 'fn'-gegevensbron gebruikt).   
 30. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

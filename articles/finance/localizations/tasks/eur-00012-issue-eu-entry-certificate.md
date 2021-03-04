@@ -87,3 +87,6 @@ Deze procedure begeleidt u bij het inschakelen van een EU-invoercertificaat, het
 4. Klik in het actievenster op Factuur.
 5. Klik op Uitgegeven invoercertificaten weergeven.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

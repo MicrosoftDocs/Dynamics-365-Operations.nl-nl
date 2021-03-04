@@ -107,3 +107,6 @@ Zie [Een kassamodule aan een pagina toevoegen](add-checkout-module.md) voor info
 [Overzicht van de pagina met productgegevens](quick-tour-pdp.md)
 
 [Overzicht van pagina's voor accountbeheer](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

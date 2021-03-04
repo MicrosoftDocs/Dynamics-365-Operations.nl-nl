@@ -98,3 +98,6 @@ U kunt een werknemer nu toewijzen aan een vastecompensatieplan. Open de pagina *
 
 Het systeem controleert of het compensatiebedrag dat voor een compensatieplan is opgegeven van het type schaal of schijf, binnen de minimale en maximale referentiepunten van het opgegeven compensatieniveau voor de functie van de werknemer valt. Als het compensatiebedrag buiten het toegestane bereik valt, wordt een waarschuwing of foutbericht weergegeven, afhankelijk van het tolerantieniveau dat voor het vastecompensatieplan is ingesteld.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

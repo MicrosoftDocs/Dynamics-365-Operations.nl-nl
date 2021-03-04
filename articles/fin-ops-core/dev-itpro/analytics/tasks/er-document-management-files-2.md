@@ -91,3 +91,6 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 26. Klik op Voltooien.
 27. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Alle standaard Common Data Service-entiteiten worden uitgebreid met verwijzingen
 7. Nadat u de entiteit **Offertes** hebt uitgevouwen, past u een filter toe met `CUSTGROUP !=  "<company>"` als querytekenreeks.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Verkoopoffertekoptekst, query bewerken":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

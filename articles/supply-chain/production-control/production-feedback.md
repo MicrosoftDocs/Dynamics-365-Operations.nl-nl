@@ -36,3 +36,6 @@ Productiefeedback geeft werknemers feedback over productietaken. Er wordt meldin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

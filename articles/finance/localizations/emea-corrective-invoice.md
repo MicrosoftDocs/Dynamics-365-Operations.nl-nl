@@ -36,3 +36,6 @@ Een creditnota geeft een overzicht van de producten, hoeveelheden en overeengeko
 
 -   In plaats van 'Factuur' ziet u 'Creditnota' als naam van het document.
 -   De creditnota bevat de velden **Hoofdfactuurnummer** en **Reden voor correctie**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

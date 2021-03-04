@@ -60,3 +60,6 @@ In dit onderwerp wordt uitgelegd hoe u activafabrikanten en gerelateerde modelle
 2. Selecteer in de kolom **Activum** de koppeling voor het activum. De pagina **Details** wordt weergegeven.
 3. Selecteer **Bewerken**.
 4. Selecteer op het sneltabblad **Algemeen** waarden in de velden **Fabrikant** en **Model**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

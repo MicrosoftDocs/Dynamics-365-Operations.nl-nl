@@ -83,3 +83,6 @@ De structuur van deze lijst bestaat uit één veld **Bedrag** van het type `Real
 [Lijstfuncties](er-functions-category-list.md)
 
 [Fouten opsporen in gegevensbronnen van een uitgevoerde ER-indeling om gegevensstromen en transformatie te analyseren](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

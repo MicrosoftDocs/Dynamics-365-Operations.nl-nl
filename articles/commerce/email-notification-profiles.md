@@ -96,3 +96,6 @@ Voordat u e-mailberichten kunt verzenden, moet u de service voor uitgaande e-mai
 [Vereisten voor het instellen van kanalen](channels-prerequisites.md)
 
 [Overzicht van Organisaties en organisatiehiërarchieën](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

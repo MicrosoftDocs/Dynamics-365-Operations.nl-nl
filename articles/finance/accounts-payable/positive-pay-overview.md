@@ -49,3 +49,6 @@ Zie voor meer informatie [Positieve betalingsbestanden instellen en genereren](s
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

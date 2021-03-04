@@ -89,3 +89,6 @@ Download en installeer de mobiele Finance and Operations-app:
 1.  Selecteer in de mobiele app het werkgebied **Adresboek van bedrijf**.
 2.  Voer in het veld **Zoeken** de voornaam, achternaam, titel of afdeling van de werknemer in om de zoekopdracht te starten.
 3.  Selecteer een werknemer. De pagina **Werknemersprofiel** wordt weergegeven. De informatie op deze pagina bevat van de voornaam, achternaam, titel en afdeling van de werknemer.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

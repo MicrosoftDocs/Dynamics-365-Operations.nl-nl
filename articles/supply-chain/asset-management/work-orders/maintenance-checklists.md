@@ -80,3 +80,6 @@ In de onderstaande afbeelding ziet u een voorbeeld van een onderhoudscontrolelij
 
 ![Figuur 1](media/14-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

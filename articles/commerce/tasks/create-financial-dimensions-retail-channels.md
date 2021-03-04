@@ -55,3 +55,6 @@ Deze procedure doorloopt het maken van een financiële dimensie voor een Commerc
 24. Klik in de lijst op de koppeling in de geselecteerde rij.
 25. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

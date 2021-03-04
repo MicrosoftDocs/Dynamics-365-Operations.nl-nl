@@ -73,3 +73,6 @@ U voert gegevensbron **DS** van het type *Berekend veld* in en deze bevat de exp
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Lijstfuncties](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

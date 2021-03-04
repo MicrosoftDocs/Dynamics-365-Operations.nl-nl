@@ -101,3 +101,6 @@ Met recordsjablonen kunt u sneller records maken. U kunt een recordsjabloon make
 - [Documentbeheer configureren](configure-document-management.md)
 - [E-mail configureren en verzenden](configure-email.md)
 - [Datum-/tijdgegevens en tijdzones](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

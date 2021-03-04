@@ -238,3 +238,6 @@ Uw indeling moet eerst beschikbaar zijn in de ER-configuraties. Als aan deze voo
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

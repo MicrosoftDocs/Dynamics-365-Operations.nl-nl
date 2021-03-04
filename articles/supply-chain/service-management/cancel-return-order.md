@@ -49,3 +49,6 @@ U kunt een retourorder annuleren in plaats van het te verwijderen, zodat de reco
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

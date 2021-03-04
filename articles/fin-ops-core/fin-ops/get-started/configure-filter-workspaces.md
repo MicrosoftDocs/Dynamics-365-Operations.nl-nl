@@ -63,3 +63,6 @@ Als afzonderlijke secties van de werkruimte filters bevatten, kunt u elke sectie
 [![werkruimtesectiefilters](./media/workspace-section-filters.png)](./media/workspace-section-filters.png)
 
 Net als bij een werkruimtefilter selecteert of typt u de gewenste filterwaarde in het veld om de sectie te filteren.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

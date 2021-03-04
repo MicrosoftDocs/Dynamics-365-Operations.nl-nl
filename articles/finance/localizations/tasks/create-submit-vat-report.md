@@ -35,3 +35,6 @@ Deze procedure laat zien hoe u de btw-aangifte voor Duitsland aanmaakt en indien
 5. Selecteer 'Ja' in het veld Elektronisch belastingdocument maken.
 6. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

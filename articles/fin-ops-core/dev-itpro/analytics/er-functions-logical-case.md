@@ -83,3 +83,6 @@ Als de eerste resultaatwaarde en de *N* e resultaatwaarde waarden van het gegeve
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Logische functies](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

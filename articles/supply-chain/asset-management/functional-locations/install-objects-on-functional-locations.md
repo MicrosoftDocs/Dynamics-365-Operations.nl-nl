@@ -83,3 +83,6 @@ Wanneer de instellingsgegevens beschikbaar zijn, kunt u een activum gaan maken.
 1. Controleer op de pagina **Alle functionele locaties** of de functionele locatie waar u wilt dat het activum automatisch wordt gemaakt, gebruikmaakt van het type functionele locatie dat u voor dit doel hebt gemaakt.
 2. Alle de functionele locatie in de lijst.
 3. Selecteer **Status van functionele locatie bijwerken** en selecteer vervolgens de levenscyclusstatus die u voor dit doel hebt gemaakt. Er wordt nu automatisch één activum op de functionele locatie geïnstalleerd. Dit activum heeft dezelfde naam als de functionele locatie.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

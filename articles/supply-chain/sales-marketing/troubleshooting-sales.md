@@ -111,3 +111,6 @@ Supply Chain Management biedt momenteel geen ondersteuning voor de berekening va
 Het bundelartikel is niet beschikbaar voor de inkooporder, want als u de verkooporderregels voor het bundelartikel bekijkt, ziet u dat de hoeveelheid *0* (nul) is en de status *Geannuleerd*. Dit is zo ontworpen. In de verkooporder worden alleen de onderdelen van het bundelartikel gekocht. In de verkooporder wordt niet het bundelartikel zelf gekocht.
 
 Als u een bundel moet aanschaffen, overweeg dan of u deze als een bundelartikel moet markeren, omdat deze functionaliteit eigenlijk is bedoeld voor opbrengsttoerekeningsscenario's. Meer informatie over bundelartikelen vindt u in [Bundels](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

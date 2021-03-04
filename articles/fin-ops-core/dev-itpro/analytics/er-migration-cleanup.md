@@ -57,3 +57,6 @@ Voer de volgende stappen uit om problemen op te lossen met ER-sjablonen waartoe 
 Een vergelijkbaar probleem kan optreden als u uw toepassingsexemplaar migreert naar een andere locatie die meerdere keren als migratiedoel is gebruikt en waarvoor de blobopslag al ER-sjabloonbestanden bevat.
 
 Omdat u mogelijk verschillende ER-indelingsconfiguraties hebt, kan dit proces veel tijd in beslag nemen. Daarom verdient het gebruik van de functie [Back-up van ER-sjablonen](er-backup-storage-templates.md) voor het automatisch herstellen van sjablonen met verbroken verwijzingen de voorkeur.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

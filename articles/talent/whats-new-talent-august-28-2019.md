@@ -90,3 +90,6 @@ Zie [Gestroomlijnde invoer en navigatie voor werknemers](./streamlined-employee-
 ### <a name="platform-update-29"></a>Platformupdate 29
 
 Zie voor meer details over platformupdate 29 [Voorbeeldfuncties in Dynamics 365 for Finance and Operations platformupdate 29 (oktober 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

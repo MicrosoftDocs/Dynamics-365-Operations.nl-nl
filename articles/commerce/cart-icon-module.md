@@ -66,3 +66,6 @@ Zie [Koptekstmodule](author-header-module.md) om een module winkelwagenpictogram
 [Module voor orderdetails](order-confirmation-module.md)
 
 [Geschenkbonmodule](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

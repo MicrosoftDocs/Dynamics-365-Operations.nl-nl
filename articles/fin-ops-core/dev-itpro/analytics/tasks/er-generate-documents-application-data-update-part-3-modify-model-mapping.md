@@ -168,3 +168,6 @@ De stappen in deze procedure leggen uit hoe u ER-configuraties ontwerpt om een e
 66. Sluit de pagina.
 67. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -186,3 +186,6 @@ Als een correctie moet worden uitgevoerd in de grootboekrekening voor Klanten of
 ### <a name="the-system-allows-it"></a>Het systeem laat het toe
 
 Organisaties gebruiken de functionaliteit van één boekstuk vaak alleen maar omdat het systeem het toelaat, zonder dat de gevolgen duidelijk zijn.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

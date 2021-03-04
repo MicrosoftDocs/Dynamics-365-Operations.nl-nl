@@ -40,3 +40,6 @@ Deze procedure doorloopt de configuratie van gekoppelde producten. Deze procedur
 10. Voer in het veld Hoeveelheid een getal in.
 11. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ U kunt de signalen van fabrieksmachines simuleren. Voor meer informatie wordt ve
 + [IoT DevKit AZ3166 verbinden met Azure IoT-hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
 + [Raspberry Pi online simulator verbinden met Azure IoT-hub (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
 + [Overzicht van oplossingsversneller voor apparaatsimulatie](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

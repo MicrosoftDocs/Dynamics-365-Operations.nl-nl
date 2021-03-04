@@ -88,3 +88,6 @@ Wanneer u een rapport hebt dat niet overeenkomt met uw verwachtingen in D365, ku
 2.  Exporteer het rapport naar Excel
 
 U kunt de gegevens nu kopiëren uit het Excel-rapport in FR en het D365-proefbalansrapport om de kolommen Eindsaldo te vergelijken.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

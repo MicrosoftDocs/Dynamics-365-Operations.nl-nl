@@ -190,3 +190,6 @@ De volgende details worden geïmporteerd en opgenomen in de nieuwe werknemersrec
 
 [Virtuele entiteiten van Common Data Service configureren](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Wat is Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

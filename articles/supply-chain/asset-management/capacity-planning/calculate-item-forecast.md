@@ -60,3 +60,6 @@ Dit is handig als u een overzicht wilt weergeven van het verwachte artikelverbru
 8. Klik op de knop **Dimensies weergeven** als u de product-, opslag- of traceringsdimensies wilt weergeven die betrekking hebben op de artikelen. Schakel de relevante selectievakjes in en klik op **OK**.
 
 ![Figuur 1](media/02-capacity-planning.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

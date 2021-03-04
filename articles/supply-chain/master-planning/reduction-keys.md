@@ -227,3 +227,6 @@ Wanneer u **Transacties - reductiesleutel** of **Transacties - dynamische period
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht van Hoofdplannen](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

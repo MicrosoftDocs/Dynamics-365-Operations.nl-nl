@@ -108,3 +108,6 @@ De levensduur van de bijboekingscorrectie is gelijk aan die van het vaste activu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

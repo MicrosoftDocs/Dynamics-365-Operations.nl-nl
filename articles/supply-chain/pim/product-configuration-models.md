@@ -153,3 +153,6 @@ U kunt bekijken of een vrijgegeven product kan worden gebruikt als een onderdeel
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

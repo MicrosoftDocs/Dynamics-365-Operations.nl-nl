@@ -46,3 +46,6 @@ Bezoek het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trust-center
 [Een pagina met het privacybeleid toevoegen](add-privacy-page.md)
 
 [Gebruikers-id's vervangen die zijn gekoppeld aan wijzigingen in bijgehouden inhoud](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

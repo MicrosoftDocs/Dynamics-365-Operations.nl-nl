@@ -97,3 +97,6 @@ De knop **Opbrengstprijstoewijzing** is nog steeds beschikbaar, zodat u de berek
 Het schema voor verwachte opbrengsttoerekening wordt verwijderd en vervangen door het definitieve schema voor opbrengsttoerekening. De details van het opbrengstschema worden bijgehouden voor elke verkooporderregel en worden gebruikt om de uitgestelde opbrengst vrij te geven naar werkelijke opbrengst als aan de contractuele verplichtingen wordt voldaan.
 
 [![Definitieve schema voor opbrengsttoerekening](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

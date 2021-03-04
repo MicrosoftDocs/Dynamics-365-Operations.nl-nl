@@ -145,3 +145,6 @@ Zie [Overzicht van Factuurvereffening voor leveranciers](accounts-payable-invoic
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

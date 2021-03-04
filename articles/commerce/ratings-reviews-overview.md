@@ -59,3 +59,6 @@ De oplossing voor beoordelingen en recensies biedt verder een BI-sjabloon (Busin
 [Beoordelingen en recensies configureren](configure-ratings-reviews.md)
 
 [Productbeoordelingen synchroniseren in Dynamics 365 Commerce](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

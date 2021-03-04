@@ -52,3 +52,6 @@ Afdelingen zijn operationele eenheden die een functioneel gebied van een bedrijf
 16. Typ een waarde in het veld Wijzigingen omschrijven.
 17. Klik op Publiceren.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

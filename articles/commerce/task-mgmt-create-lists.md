@@ -93,3 +93,6 @@ Ga als volgt te werk om een POS-bewerking zodanig te configureren dat deze aan e
 [Takenlijsten toewijzen aan winkels of werknemers](task-mgmt-assign-lists.md)
 
 [Taakbeheer in POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

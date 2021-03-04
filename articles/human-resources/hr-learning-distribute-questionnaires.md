@@ -131,3 +131,6 @@ Nadat u een vragenlijst hebt ontworpen en verspreid, kan de vragenlijst worden i
 Vragenlijsten kunnen beschikbaar worden gesteld aan alle personen in een netwerk of aan specifieke gebruikers of groepen gebruikers.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

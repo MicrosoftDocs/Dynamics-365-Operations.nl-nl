@@ -38,3 +38,6 @@ Financiële dimensies en hoofdrekeningen zijn belangrijke onderdelen van de plan
 - Gebruik niet het geselecteerde scheidingsteken voor rekeningschema's in waarden voor financiële dimensie en hoofdrekeningen.
 
 Door deze aanbevolen procedures te volgen, zorgt u ervoor dat de door de gebruiker gedefinieerd volgorde consistent wordt weergegeven in het systeem.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

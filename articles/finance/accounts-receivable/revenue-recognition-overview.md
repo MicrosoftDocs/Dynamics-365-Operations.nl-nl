@@ -55,3 +55,6 @@ Wanneer de verkooporder wordt bevestigd, wordt ook een verwacht opbrengstschema 
 De details van het schema voor opbrengsttoerekening worden onderhouden voor elke verkooporderregel. Daarom kan de manager voor opbrengsttoerekening de details bekijken en regels vrijgeven voor opbrengst wanneer de contractuele verplichting is voltooid. Aan het einde van elke periode kan de manager voor opbrengsttoerekening een opbrengstjournaal maken om eventuele schemaregels vrij te geven die op of vóór de gedefinieerde datum vervallen. Dit opbrengstjournaal wordt niet direct geboekt. Daarom kan de manager voor opbrengsttoerekening controleren of de juiste bedragen worden vrijgegeven van uitgestelde opbrengsten naar werkelijke opbrengsten.
 
 Als door een contractuele wijziging een nieuwe verkooporderregel moet worden toegevoegd aan de bestaande verkooporder of een nieuwe verkooporder, kan een hertoewijzingsproces worden uitgevoerd om de opbrengstprijs voor alle regels in de verkooporders te corrigeren.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

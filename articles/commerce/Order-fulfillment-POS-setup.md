@@ -131,3 +131,6 @@ Orderafhandeling in het verkooppunt omvat allerlei filters, zodat gebruikers gem
 - Gemaakt op
 - Leveringsdatum
 - Ontvangstdatum
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

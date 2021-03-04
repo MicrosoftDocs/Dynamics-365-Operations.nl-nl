@@ -383,3 +383,6 @@ Voorspeld saldo (30) = Toerekeningsbedrag (10 × 1) + Huidig saldo (40) – Getr
 - [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)
 - [Verlof- en verzuimtypen configureren](hr-leave-and-absence-types.md)
 - [Verlof- en verzuimplannen toerekenen](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

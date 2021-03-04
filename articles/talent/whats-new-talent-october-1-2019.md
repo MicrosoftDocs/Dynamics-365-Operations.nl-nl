@@ -84,3 +84,6 @@ In de build van deze week wordt de omschrijving weergegeven wanneer u de taak se
 ### <a name="print-performance-reviews"></a>Prestatiebeoordelingen afdrukken
 
 Werknemers, managers en HR-professionals kunnen de prestatiebeoordeling van een werknemer afdrukken.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

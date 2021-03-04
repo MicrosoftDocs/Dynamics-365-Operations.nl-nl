@@ -95,3 +95,6 @@ Als u een dergelijke validatie wilt inschakelen, moet u de volgende taken planne
 [Binnenkomende voorraadbewerking in POS](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Uitgaande voorraadbewerking in POS](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

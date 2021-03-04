@@ -496,3 +496,6 @@ Zorg dat de configuratie van de gedeelde modeltoewijzing niet is gemarkeerd als 
 - Minimaal één versie van de ER-modeltoewijzingsconfiguratie heeft de status **Voltooid** of **Gedeeld**. In dit geval wordt de versie met het hoogste versienummer gebruikt voor het uitvoeren van de ER-indeling.
 - De optie **Concept uitvoeren** voor de configuratie van de ER-modeltoewijzing wordt ingeschakeld. In dit geval wordt de versie met de status **Concept** gebruikt voor het uitvoeren van de ER-indeling.
 > De optie **Concept uitvoeren** wordt beschikbaar op de pagina **Configuraties** voor elke configuratie van ER-modeltoewijzingen wanneer de ER-gebruikersparameter **Instelling uitvoeren** is ingeschakeld.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

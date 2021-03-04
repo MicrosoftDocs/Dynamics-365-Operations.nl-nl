@@ -40,3 +40,6 @@ De toeslagen voor een gefabriceerd artikel worden voor de standaardkostendoelen 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

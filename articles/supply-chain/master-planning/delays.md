@@ -59,3 +59,6 @@ Op de pagina **Geplande order** onder het tabblad **Vertragingen** staat de **Ge
 --------
 
 [Behoefteplanningsinstellingen](coverage-settings.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

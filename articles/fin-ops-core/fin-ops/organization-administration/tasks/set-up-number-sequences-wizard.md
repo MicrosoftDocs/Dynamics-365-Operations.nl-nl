@@ -38,3 +38,6 @@ Nummerreeksen worden gebruikt om leesbare, unieke identificaties te maken voor h
 4. Selecteer **Volgende**.
 5. Selecteer **Voltooien**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

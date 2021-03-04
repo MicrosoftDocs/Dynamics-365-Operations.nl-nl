@@ -52,3 +52,6 @@ Deze procedure laat zien hoe u een projectresource instelt. In deze taak wordt d
 20. Klik op Opslaan.
 21. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

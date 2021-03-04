@@ -247,3 +247,6 @@ C. Navigeer naar Budgettering &gt; Instellen &gt; Budgetplanning &gt; Configurat
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

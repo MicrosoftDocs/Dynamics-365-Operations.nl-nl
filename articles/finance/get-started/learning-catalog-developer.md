@@ -94,3 +94,6 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | Inhoud | Omschrijving  | Indeling  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 |[Examen MB-500: Microsoft Dynamics 365: ontwikkelaar van Finance and Operations-apps](https://docs.microsoft.com/learn/certifications/exams/mb-500) | Dit examen meet het vermogen om de volgende technische taken uit te voeren: architectuur en oplossingsontwerp plannen; ontwikkelaarstools toepassen; AOT-elementen ontwerpen en ontwikkelen, code ontwikkelen en testen; rapportage implementeren; gegevensoplossingen integreren en beheren en de beveiliging implementeren en de prestaties optimaliseren. | Examen, kosten verschillen per regio |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

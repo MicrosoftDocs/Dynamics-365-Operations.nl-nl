@@ -90,3 +90,6 @@ Vereisten:
 12. Klik op Voltooien.
 13. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

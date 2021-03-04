@@ -103,3 +103,6 @@ Deze procedure geeft aan hoe één vrijgegeven product kan worden gemaakt in de 
 12. Zoek en selecteer het gewenste record in de lijst.
 13. Klik in de lijst op de koppeling in de geselecteerde rij.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

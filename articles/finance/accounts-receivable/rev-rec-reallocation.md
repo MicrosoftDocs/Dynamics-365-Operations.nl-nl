@@ -114,3 +114,6 @@ In de volgende onderwerpen worden verschillende scenario's voor opbrengsttoereke
 - [Hertoewijzing van opbrengsttoerekening - Scenario 2](rev-rec-reallocation-scenario-2.md) – Er worden twee verkooporders ingevoerd en vervolgens voegt de klant een artikel aan het contract toe nadat de eerste verkooporder is gefactureerd.
 - [Hertoewijzing van opbrengsttoerekening - Scenario 3](rev-rec-reallocation-scenario-3.md) – Er wordt een nieuwe regel toegevoegd aan een bestaande, gefactureerde verkooporder.
 - [Hertoewijzing van opbrengsttoerekening - Scenario 4](rev-rec-reallocation-scenario-4.md) – Er wordt een regel verwijderd uit een bestaande, gedeeltelijk gefactureerde verkooporder.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

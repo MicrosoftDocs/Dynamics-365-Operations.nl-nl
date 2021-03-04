@@ -48,3 +48,6 @@ Dit is de derde van vijf taken die het leveranciersbetalingproces toelichten doo
 10. Geef de waarden 'DEMF OPER' op in het veld Betalingsrekening.
 11. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

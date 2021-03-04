@@ -46,3 +46,6 @@ Terugkerende facturen worden gebruikt om klanten regelmatig voor hetzelfde bedra
 6. Klik op Boeken.
     * De geselecteerde facturen boeken.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

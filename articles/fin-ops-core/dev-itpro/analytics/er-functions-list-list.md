@@ -73,3 +73,6 @@ In dit geval retourneert de expressie `LIST('Record 1', 'Record 2')` een nieuwe 
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Lijstfuncties](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

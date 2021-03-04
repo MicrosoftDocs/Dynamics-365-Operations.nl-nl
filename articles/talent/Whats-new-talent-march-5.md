@@ -80,3 +80,6 @@ In veel organisaties kunnen managers voor compensaties en vergoedingen alleen to
 
 ###  <a name="platform-update-24-for-finance-and-operations"></a>Platformupdate 24 voor Finance and Operations
 Zie voor aanvullende informatie over Platform update 24 voor Finance and Operations [Wat is nieuw of gewijzigd in Finance and Operations Platform update 24 (maart 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

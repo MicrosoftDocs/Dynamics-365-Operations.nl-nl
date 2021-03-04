@@ -61,3 +61,6 @@ Op de pagina **Beoordelingsprofielen** kunt u alle beschikbare beoordelingsprofi
 
 > [!NOTE]
 > Profielen die op de pagina **Vervoerders** worden gemaakt, worden ook weergegeven op de pagina **Beoordelingsprofielen**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

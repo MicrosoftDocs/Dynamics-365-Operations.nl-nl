@@ -72,3 +72,6 @@ Deze procedure begeleidt u bij het maken van productvarianten voor een productmo
     * U kunt omschrijvingen voor al uw varianten genereren op basis van de combinatie van productdimensiewaarden. De omschrijvingen zijn optioneel.  
 5. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

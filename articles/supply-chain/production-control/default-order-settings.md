@@ -204,3 +204,6 @@ De validatieoptie instellen:
 1. Stel op het tabblad **Algemeen** **Validatie van standaardorderhoeveelheden** in op een van de volgende waarden:
     - **Strikt**: selecteer deze optie om ervoor te zorgen dat alle waarden voor de **standaardorderhoeveelheid** een veelvoud zijn van de waarde **Meerdere** voor elk sneltabblad (**Inkooporder**, **Voorraad** en **Verkooporder**).
     - **Standaard**: selecteer deze optie om standaardvalidatie te gebruiken (dit werkt hetzelfde als wanneer deze functie niet is ingeschakeld).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

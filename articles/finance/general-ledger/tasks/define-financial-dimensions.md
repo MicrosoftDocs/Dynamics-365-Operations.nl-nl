@@ -55,3 +55,6 @@ Deze taakhandleiding toont het toevoegen van een door een entiteit ondersteunde 
 9. Typ in het veld **Dimensiewaarde** een naam om uw waarde van financiële dimensie te beschrijven.
 10. Typ in het veld **Beschrijving** een beschrijving die uw waarde van financiële dimensie beschrijft.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

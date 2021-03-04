@@ -45,3 +45,6 @@ ms.locfileid: "4683133"
 - [Werkgebied voor betalingen aan leveranciers](../../../finance/accounts-payable/Vendor-payments-workspace.md)
 - [Power BI-inhoud - magazijnprestaties](warehouse-power-bi-content.md)
 - [Power BI-inhoud - metrische gegevens personeel](workforce-analysis-power-bi-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

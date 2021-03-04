@@ -945,3 +945,6 @@ Momenteel is Retail Modern POS alleen beschikbaar als een Windows 8.1-toepassing
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Nieuwe of gewijzigde functies op de startpagina van Finance and Operations](whats-new-changed.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ U kunt ook een redencode instellen om te verklaren waarom een artikel is terugge
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

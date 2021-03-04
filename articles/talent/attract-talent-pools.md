@@ -149,3 +149,6 @@ Vaak worden verschillende goede kandidaten voor een functie niet geselecteerd, m
 1. Selecteer op de sollicitatiepagina **Toevoegen aan talentenpool**. Er wordt een lijst weergegeven met talentenpools waartoe u toegang hebt.
 
 1. Selecteer of zoek de talentenpool en selecteer vervolgens **Toevoegen** om de kandidaat toe te voegen aan die talentenpool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

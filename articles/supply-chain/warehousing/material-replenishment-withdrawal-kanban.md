@@ -87,3 +87,6 @@ In het volgende scenario is de overboekingsactiviteit van de opnamekanban geconf
 
 Nadat een kanban is verbruikt bij de productie-invoerlocatie, wordt de kanban afgemeld als 'leeg' en een nieuwe kanban wordt toegevoegd aan de stroom. Wanneer de kanban wordt gemaakt, wordt een waveregel toegevoegd aan een kanbanwave. Wanneer de kanbanwave wordt verwerkt, wordt magazijnwerk voor het kanbanorderverzamelen gemaakt. De magazijnmedewerker verwerkt het werk voor het kanbanorderverzamelen en wordt door het werk aangestuurd om het materiaal voor de kanban te verzamelen op een magazijnlocatie. Als deze magazijnmedewerker het verzamelen bevestigt, wordt de kanban wordt automatisch voltooid en de magazijnmedewerker wordt geïnstrueerd om het materiaal naar de productie-invoerlocatie te brengen.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

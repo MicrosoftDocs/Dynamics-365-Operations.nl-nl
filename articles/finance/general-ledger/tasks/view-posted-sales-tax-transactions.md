@@ -49,3 +49,6 @@ In dit onderwerp worden enkele manieren beschreven om geboekte btw-transacties w
 2. Selecteer **Btw-code** in het actievenster.
 3. Selecteer **Geboekte btw**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Volg deze stappen om een robots.txt-bestand te verwijderen in Commerce.
 [Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen](add-cdn-support.md)
 
 [Detectie van winkels op basis van de locatie inschakelen](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

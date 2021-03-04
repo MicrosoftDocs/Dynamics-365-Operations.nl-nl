@@ -50,3 +50,6 @@ Nadat u leasegroepen hebt gemaakt, kunt u boeken aan elke groep toewijzen. Wanne
 1. Ga naar **Activa leasen \> Instellen \> Leasegroep**.
 2. Selecteer een leasegroep en selecteer vervolgens **Boeken**.
 3. Selecteer **Nieuw** en selecteer vervolgens in het veld **Boektype** het boek dat u wilt toewijzen aan de leasegroep. U kunt meerdere boeken aan een leasegroep toewijzen als een lease op verschillende manieren moet worden verwerkt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

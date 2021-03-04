@@ -38,3 +38,6 @@ Op beperkingen gebaseerde productconfiguratiemodellen gebruiken onderdelen als b
 7. Typ een waarde in het veld Omschrijving.
 8. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

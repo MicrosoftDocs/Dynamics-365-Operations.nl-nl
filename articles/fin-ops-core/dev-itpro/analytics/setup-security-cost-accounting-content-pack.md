@@ -63,3 +63,6 @@ Er wordt vanuit gegaan dat uw organisatie de toegang tot gegevens wil beperken. 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 Meer informatie over beveiliging op rijniveau in Power BI vindt u in [Beveiliging van uw model in Power BI beheren](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

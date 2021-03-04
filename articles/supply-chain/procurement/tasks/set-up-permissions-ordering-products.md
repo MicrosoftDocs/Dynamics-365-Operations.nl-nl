@@ -45,3 +45,6 @@ Dit onderwerp laat zien hoe u medewerkers machtigingen kunt verlenen om opdracht
 2. Gebruik het snelfilter om de medewerker te zoeken die zojuist als aanvrager hebt toegevoegd.
 3. Selecteer de aanvrager. De lijst Voorbereider bevat de personen die zijn gemachtigd om artikelen te bestellen namens de aanvrager die is geselecteerd in het linkerdeelvenster.  U kunt hier extra voorbereiders toevoegen. In deze weergave kunt u ook de aanvrager verlenen machtiging om opdrachten te maken in rechtspersonen en operationele eenheden die niet de primaire rechtspersoon of operationele eenheid van die persoon zijn.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

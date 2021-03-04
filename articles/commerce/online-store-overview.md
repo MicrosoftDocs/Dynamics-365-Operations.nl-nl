@@ -121,3 +121,6 @@ Zie de volgende onderwerpen voor informatie over het beheren van uw site-inhoud:
 [Detectie van winkels op basis van de locatie inschakelen](enable-store-detection.md)
 
 [Aangepaste pagina's voor gebruikersaanmeldingen instellen](custom-pages-user-logins.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Voordat een tabelbeperking op een productconfiguratiemodel van kracht kan worden
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

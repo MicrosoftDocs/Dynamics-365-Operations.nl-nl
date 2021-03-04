@@ -92,3 +92,6 @@ Voer de volgende stappen uit om nummerreeksen te maken en te bewerken.
     | Controlecijfer | Dit segmenttype voegt een controlecijfer toe. Dit is een modulo 10-berekening. (Dit komt overeen met de bestaande logica voor nummerplaat-id's.) Voor dit segmenttype wordt het veld **Waarde** altijd ingesteld op een caret (*^*) en wordt het veld **Lengte** altijd ingesteld op *1*. |
 
 1. Als u een voorbeeld wilt weergeven van de uiteindelijke getalnotatie, bekijkt u het veld **Indeling** onderaan het sneltabblad **Segmenten**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

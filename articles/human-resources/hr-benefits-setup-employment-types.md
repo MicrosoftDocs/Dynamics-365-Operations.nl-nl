@@ -41,3 +41,6 @@ Stel in Dynamics 365 Human Resources dienstverbandtypen in voor uw medewerkers.
    | **Beschrijving** | Een beschrijving van het dienstverbandtype. |
 
 4. Selecteer **Opslaan**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

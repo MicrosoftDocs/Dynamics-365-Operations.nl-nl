@@ -46,3 +46,6 @@ Deze procedure laat zien hoe u het in- en uitchecken van een chauffeur registree
 1. Klik op Uitchecken chauffeur
 2. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

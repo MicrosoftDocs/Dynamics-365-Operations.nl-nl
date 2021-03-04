@@ -146,3 +146,6 @@ Dit is de resulterende uitvoer.
 | IA0001 | 1 | 2 | 2 |
 
 De instellingen in het deelvenster **Filters** zijn van toepassing op de gedetailleerde (niet-samengevoegde) voorraadtabel die aan het begin van deze sectie wordt weergegeven. Daarom vindt het criterium **Fysiek beschikbaar** \| **kleiner dan of gelijk aan** \| _1_ twee rijen uit die tabel (de eerste en de derde rij, die elk een waarde **Fysiek beschikbaar** van _1_ hebben). In dit scenario wordt de lijst **Voorhanden voorraad** echter niet ingesteld om de dimensie **Magazijn** weer te geven. Daarom worden de twee oorspronkelijke rijen samengevoegd tot één enkele resulterende rij, omdat beide rijen identieke waarden bevatten in alle dimensies die worden weergegeven. Deze rij lijkt het filtercriterium te schenden, omdat de waarde **Fysiek beschikbaar** wordt weergegeven als _2_. Het resultaat is echter correct, omdat de instellingen in het deelvenster **Filters** van toepassing zijn op de brontabel, niet op de samengevoegde tabel die wordt weergegeven op de pagina **Voorhanden voorraad**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

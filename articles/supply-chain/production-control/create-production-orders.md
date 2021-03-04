@@ -45,3 +45,6 @@ Een productieorder kan in de volgende scenario's worden gemaakt:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

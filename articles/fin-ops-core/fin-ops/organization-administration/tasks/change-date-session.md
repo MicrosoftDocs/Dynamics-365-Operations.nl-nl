@@ -32,3 +32,6 @@ In dit onderwerp wordt uitgelegd hoe u de datum kunt wijzigen voor een sessie. S
 2. Voer een datum in het veld **Datum** in.
 3. Selecteer **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

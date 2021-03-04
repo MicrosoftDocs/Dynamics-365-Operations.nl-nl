@@ -169,3 +169,6 @@ De gewijzigde sjabloon wordt gebruikt om het rapport met vrije-tekstfacturen voo
 [Overzicht van Beheer van bedrijfsdocumenten](er-business-document-management.md)
 
 [Een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling](tasks/er-design-reports-openxml-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

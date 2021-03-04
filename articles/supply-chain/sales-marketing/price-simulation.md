@@ -145,3 +145,6 @@ De prijssimulatie is alleen van invloed op de regel waarop deze is toegepast en 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

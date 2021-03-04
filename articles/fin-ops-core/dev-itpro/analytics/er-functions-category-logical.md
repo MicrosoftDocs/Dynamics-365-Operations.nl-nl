@@ -50,3 +50,6 @@ Logische ER-functies kunnen worden gebruikt om met logische waarden te werken om
 [Formuleontwerper in elektronische aangifte](general-electronic-reporting-formula-designer.md)
 
 [Formuletaal in Elektronische rapportage](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

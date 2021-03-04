@@ -146,3 +146,6 @@ Werknemers kunnen een document openen dat aan een taak is gekoppeld door **Instr
 1. De werknemer neemt de guide door om de taak te leren.
 
 Zie [Mixed Reality-guides verschaffen aan werknemers in productie](instruction-guides-in-production-overview.md) voor meer informatie over het maken, toewijzen en gebruiken van guides voor HoloLens.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

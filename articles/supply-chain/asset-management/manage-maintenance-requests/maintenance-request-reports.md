@@ -58,3 +58,6 @@ Het rapport **Lijst onderhoudsverzoeken** bevat een lijst met alle onderhoudsver
 In de volgende afbeelding ziet u een voorbeeld van het rapport **Lijst onderhoudsverzoeken** voor alle actieve onderhoudsverzoeken.
 
 ![Rapport met lijst van onderhoudsaanvragen](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -280,3 +280,6 @@ Wanneer u deze modeltoewijzing moet evalueren door de metagegevens van een ander
 ## <a name="additional-resources"></a>Aanvullende resources
 
 U kunt ook de taakbegeleider **Metagegevens van de toepassing die kunnen worden gebruikt in RCS voorbereiden** in de toepassing bekijken, evenals de taakbegeleiders **Metagegevens van de toepassing openen met gebruik van een ER-configuratie** en **Metagegevens van de toepassing openen met gebruik van verbonden toepassingen** in RCS. Deze taakbegeleiders kunt u downloaden van de pagina [Taakbegeleiders voor Elektronische rapportage voor Dynamics 365 for Finance and Operations 8.1](https://go.microsoft.com/fwlink/?linkid=2082739).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

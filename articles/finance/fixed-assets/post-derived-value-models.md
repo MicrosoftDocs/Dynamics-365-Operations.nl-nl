@@ -59,3 +59,6 @@ Zie voor meer informatie [Afgeleide boeken](derived-books.md).
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ De boekhoudvaluta is bijvoorbeeld USD, de factuurvaluta is CAD en de betalingsva
 3.  Ga voor een klant op de lijstpagina **Alle klanten** naar **Verzamelen > Openstaande transacties vereffenen**. Ga voor een leverancier op de lijstpagina **Alle leveranciers** naar **Factuur > Openstaande transacties vereffenen**. 
 4.  Selecteer de transactie die de primaire betaling vormt en klik vervolgens op **Betaling markeren**. Het selectievakje in de kolom **Markeren** is ingeschakeld en er wordt een informatiepictogram weergegeven in de kolom **Primaire betaling**. 
 5.  Voer in het veld **Indirecte wisselkoers** de wisselkoers in tussen de factuurvaluta en de betalingsvaluta die geldt op de vereffeningsdatum. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

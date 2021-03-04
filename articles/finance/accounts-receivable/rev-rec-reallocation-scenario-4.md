@@ -77,3 +77,6 @@ Wanneer u **Boekstuk** selecteert, wordt in het factuurjournaal de oorspronkelij
 Open de pagina **Alle klanten** (**Klanten \> Klanten \> Alle klanten**), selecteer de klant **US\_SI\_0003** en selecteer **Transacties**. Op de pagina **Klanttransacties** wordt alleen de oorspronkelijke factuur (000008) weergegeven, samen met de oorspronkelijke journaalregel. Omdat de optie **Factuurcorrecties boeken naar Klanten** is ingesteld op **Nee** op de pagina **Grootboekparameters**, wordt alleen Grootboek bijgewerkt. Daarom worden de stornoposten en bijgewerkte boekhoudingsposten niet weergegeven. De opbrengstcorrectietransacties die zijn gemaakt in [scenario 3](rev-rec-reallocation-scenario-3.md) worden wel weergegeven.
 
 [![Oorspronkelijke journaalregel op de pagina Klanttransacties](./media/47_rev-rec-scenarios.png)](./media/47_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

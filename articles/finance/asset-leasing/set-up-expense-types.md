@@ -59,3 +59,6 @@ Vervolgens koppelt u rekeningen aan de onkostentypen. Deze rekeningen worden ged
 7. Selecteer in de desbetreffende velden de hoofdrekening voor financiële leases en de hoofdrekening voor operationele leases.
 
 Wanneer u deze stappen hebt voltooid, kunt u onkosten toevoegen via de regels **Betalingsschema voor administratieve kosten** op de pagina **Leasedetails** van een geselecteerde lease. U kunt ook onkosten toevoegen wanneer u een nieuwe lease maakt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

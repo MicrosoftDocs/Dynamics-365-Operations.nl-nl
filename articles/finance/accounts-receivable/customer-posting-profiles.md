@@ -140,3 +140,6 @@ Geef de volgende waarden op om uw boekingsprofiel in te stellen:
 
 Zie [Overzicht van klantbetalingen](../cash-bank-management/tasks/customer-payment-overview.md) voor meer informatie.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

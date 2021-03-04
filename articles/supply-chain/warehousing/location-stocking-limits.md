@@ -104,3 +104,6 @@ Als u deze duidelijke fout wilt uitleggen, moet u de selectiecriteria voor de op
 
 > [!NOTE]
 > U kunt opslaglimieten van locaties niet gebruiken om bijvoorbeeld de aanvulling van artikelen met verschillende hoeveelheden op dezelfde locatie te beheren. Gebruik in dit geval een *aanvullingssjabloon*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

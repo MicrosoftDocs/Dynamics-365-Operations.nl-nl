@@ -68,3 +68,6 @@ Als u het effect van het leaseherwaarderingsproces op IFRS 16-leases wilt bekijk
 U kunt het nieuw gegenereerde betalingsschema bekijken dat begint op de herwaarderingsdatum en het totale bijgewerkte betalingsbedrag weergeeft. Er is ook een nieuw afschrijvingsschema voor de leaseverplichtingen en een schema voor activumafschrijvingen gemaakt om het aangepaste betalingsschema weer te geven.
 
 De journaalboeking heeft de correctiejournaalpost automatisch geboekt naar de rekening voor de wijziging in de leasebetalingen die betrekking hebben op de indexherwaardering.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

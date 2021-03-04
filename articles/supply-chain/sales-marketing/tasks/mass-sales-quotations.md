@@ -101,3 +101,6 @@ Deze procedure toont hoe u efficiënt offertes maakt met een reeks producten of 
 11. Ga naar Verkoop en marketing > Verkoopoffertes > Alle offertes.
     * Controleer of er offertes zijn gemaakt voor alle klanten die in de routine voor groepsgewijs bijwerken zijn opgegeven, op basis van de geselecteerde sjabloon.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

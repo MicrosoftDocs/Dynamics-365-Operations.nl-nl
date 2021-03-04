@@ -58,3 +58,6 @@ Deze procedure laat u zien hoe u een bankrekening maakt voor een leverancier. U 
 25. Selecteer in het veld **Bankrekening** de rekening die u zojuist hebt gemaakt.
 26. Klik op **Opslaan**. Het adres kan worden overgenomen vanuit de bankgroep, als deze is opgegeven, of u kunt het hier toevoegen.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

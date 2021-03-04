@@ -104,3 +104,6 @@ Volg de stappen in een van de volgende voorbeelden om de toegestane typen retour
 
 
 ![Lijst met betalingsmethoden](media/Return-policy-page5.PNG "Typen restitutie toegestaan")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -303,3 +303,6 @@ Wanneer u de gegevensbron **Streepjescode** gebruikt om streepjescodes te produc
 - [Bestemmingen van Elektronische rapportage](electronic-reporting-destinations.md)
 - [Formuletaal in Elektronische rapportage](er-formula-language.md)
 - [Functie NUMBERFORMAT](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

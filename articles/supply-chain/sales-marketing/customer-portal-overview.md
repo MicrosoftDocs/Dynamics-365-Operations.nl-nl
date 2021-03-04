@@ -69,3 +69,6 @@ De klantportal wordt geleverd als Power Apps-portalsjabloon. Deze hangt af van P
 ![Afhankelijkheden van klantportal](media/customer-portal-elements.png "Afhankelijkheden van klantportal")
 
 De klantportal fungeert als uitgangspunt voor organisaties die Power Apps-portals willen gebruiken om een extern gerichte website te maken die gegevens uit hun Supply Chain Management-installatie gebruikt. Het helpt organisaties om twee keer wegschrijven, Supply Chain Management en Power Apps-portals te koppelen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

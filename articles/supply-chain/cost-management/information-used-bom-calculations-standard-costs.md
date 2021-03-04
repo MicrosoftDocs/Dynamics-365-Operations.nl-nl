@@ -84,3 +84,6 @@ Verschillende informatiebronnen kunnen worden opgegeven bij het initiëren van e
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

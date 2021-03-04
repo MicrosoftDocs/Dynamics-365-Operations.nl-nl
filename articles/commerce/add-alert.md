@@ -96,3 +96,6 @@ Voer de volgende stappen uit om een promobannermodule aan een nieuwe pagina toe 
 [Inhoudsblokkenmodule](add-hero-module.md)
 
 [Videospelermodule](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

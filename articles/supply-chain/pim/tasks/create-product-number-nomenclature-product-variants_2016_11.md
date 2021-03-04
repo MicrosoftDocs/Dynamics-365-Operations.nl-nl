@@ -102,3 +102,6 @@ In deze procedure wordt getoond hoe u een productnummernomenclatuur instelt voor
 43. Sluit de pagina.
 44. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

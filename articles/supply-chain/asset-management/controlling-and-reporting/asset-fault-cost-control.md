@@ -62,3 +62,6 @@ In dit voorbeeld wordt een berekening van het kostenbeheer voor activafouten get
     ![Figuur 1](media/05-controlling-and-reporting.png)
 
 Zie het onderwerp [Foutbeheer](../setup-for-work-orders/fault-management.md) voor informatie over het instellen van fouten.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Deze procedure is gericht op het definiëren van een configuratieroute die de vo
 15. Klik in de lijst op de koppeling in de geselecteerde rij.
 16. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

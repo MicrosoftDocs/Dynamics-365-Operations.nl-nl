@@ -85,3 +85,6 @@ Wanneer u een activiteit zoals een routebewerking of een projecturenprognose def
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

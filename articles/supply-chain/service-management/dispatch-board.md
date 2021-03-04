@@ -54,3 +54,6 @@ Voor informatie over hoe specifieke taken in een verzendbord uit te voeren, zie 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

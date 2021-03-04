@@ -51,3 +51,6 @@ Als een retourzending minder bevat dan de volledige hoeveelheid van een retouror
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

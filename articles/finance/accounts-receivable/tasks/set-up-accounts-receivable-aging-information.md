@@ -59,3 +59,6 @@ Deze guide helpt u bij de instelling van een ouderdomsperiodedefinitie, ouderdom
 2. Selecteer een klant met een saldo.
 3. Vouw het feitenvakgebied **Naar ouderdom geschikt** uit als u de ouderdomssaldi wilt weergeven. De ouderdomsperiodedefinitie voor het feitenvak is afkomstig van de standaardouderdomsperiodedefinitie die wordt opgegeven in de parameters. U kunt deze wijzigen met het menu Incasso.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ De volgende acht taakbegeleiders worden vermeld in de volgorde waarin u ze moet 
 7.  [Configuratieregels maken](tasks/create-configuration-rules.md)
 8.  [Op dimensies gebaseerde configuraties maken](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ U kunt een PDF-bestand downloaden met de landen, regio's en talen die door Talen
 
 Zie [Globalisatie](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region) als u een ontwikkelaar bent die geïnteresseerd is in het maken van land- of regiospecifieke aanpassingen of in het maken van een oplossing voor een land dat of regio die momenteel niet door Microsoft wordt ondersteund.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

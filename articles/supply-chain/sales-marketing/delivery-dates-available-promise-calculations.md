@@ -81,3 +81,6 @@ Daarom wordt de verzenddatum ingesteld op 10 dagen vanaf nu, gebaseerd op de ber
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

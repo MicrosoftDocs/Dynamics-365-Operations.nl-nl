@@ -73,3 +73,6 @@ Als een functie of module van een e-Commerce-site een niet-essentiële cookie ge
 [Cookietoestemmingsmodule](cookie-consent-module.md) 
  
 [Koptekstmodule](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

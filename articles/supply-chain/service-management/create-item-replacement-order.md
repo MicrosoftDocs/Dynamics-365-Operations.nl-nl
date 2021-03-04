@@ -68,3 +68,6 @@ Artikelvervangingsorders worden meestal gemaakt wanneer een product is geretourn
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

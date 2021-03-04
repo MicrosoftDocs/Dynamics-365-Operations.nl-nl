@@ -148,3 +148,6 @@ Alleen standaardinstellingen voor de basisperiode worden opgeslagen met de rappo
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Financiële rapportage](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

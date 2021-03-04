@@ -48,3 +48,6 @@ U kunt de batch- en nummerplaatbevestiging configureren via de menuopties van mo
 
 1. Voer de menuopties voor het mobiele apparaat onder de werkbevestigingsinstellingen in.  
 1. Selecteer de optie voor batch- of nummerplaatbevestiging. Beide opties zijn beschikbaar voor verzamelingen van het werktype waarvoor geen automatische bevestiging is ingeschakeld.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

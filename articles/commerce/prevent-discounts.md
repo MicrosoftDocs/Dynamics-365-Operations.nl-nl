@@ -41,3 +41,6 @@ De volgende opties vindt u op het tabblad **Commerce** van uitgegeven producten.
 > Deze instellingen beperken niet de werking van prijsoverschrijvingen omdat die de basisprijs instellen en niet als een korting gelden.
 
 [![Veld Kortingen voorkomen](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

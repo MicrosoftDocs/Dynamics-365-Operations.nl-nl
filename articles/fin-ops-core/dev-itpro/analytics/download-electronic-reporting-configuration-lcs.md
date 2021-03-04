@@ -76,3 +76,6 @@ In dit onderwerp wordt uitgelegd hoe u de nieuwste versie van [ER-configuraties]
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 
 [ER-configuraties downloaden uit de algemene opslagplaats van de configuratieservice](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

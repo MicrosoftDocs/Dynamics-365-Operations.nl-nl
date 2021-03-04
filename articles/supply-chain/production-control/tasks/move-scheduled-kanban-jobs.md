@@ -62,3 +62,6 @@ Deze procedure is gericht bij het verplaatsen van geplande proceskanbantaken naa
 2. Klik op **Vooruit**. Merk op dat de taak één regel omlaag in de lijst wordt verplaatst. 
 
 3. Klik op **Achteruit**. Merk op dat de taak één regel omhoog in de lijst wordt verplaatst.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

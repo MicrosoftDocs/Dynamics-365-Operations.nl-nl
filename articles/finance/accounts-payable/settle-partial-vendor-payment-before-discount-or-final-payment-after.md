@@ -122,3 +122,6 @@ Vervolgens boekt April de betaling. Wanneer ze de pagina **Leverancierstransacti
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

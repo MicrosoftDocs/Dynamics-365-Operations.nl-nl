@@ -60,3 +60,6 @@ Als uw organisatie groeit, en u opvolgingsplanning overweegt, wilt u misschien i
 28. Klik op Rapport.
     * Het rapport geeft de beste overeenkomsten bovenaan het rapport weer.  U kunt zien dat er een hiaatelement wordt weergegeven.  Dit is het verschil tussen het niveau dat op de vaardigheidstoewijzing wordt aangegeven, en het niveau van de vaardigheid die is toegewezen aan de persoon.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

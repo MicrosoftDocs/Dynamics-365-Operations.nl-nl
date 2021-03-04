@@ -52,3 +52,6 @@ In de volgende onderwerpen wordt beschreven hoe het planningsprogramma werkt als
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

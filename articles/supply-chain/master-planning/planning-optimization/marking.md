@@ -49,3 +49,6 @@ Wanneer u een geplande order fiatteert, bevat het dialoogvenster **Fiattering** 
 - **Nee** – Er wordt geen voorraadmarkering toegepast.
 - **Standaard** – De voorraadmarkering wordt bijgewerkt volgens de tracering van de behoefte. Een behoefteorder (vraag) wordt aan de hand van een vervullingsorder (aanbod) gemarkeerd. Als een bepaalde hoeveelheid op de vervullingsorder blijft staan, wordt deze niet gemarkeerd en wordt de verwijzingsinformatie leeg gelaten. Als bijvoorbeeld een verkooporder voor 100 EA wordt vastgelegd voor een inkooporder voor 150 EA, wordt verwijzingsinformatie alleen aan de verkooporder toegewezen.
 - **Uitgebreid** – Zowel de behoefteorder (vraag) als de vervullingsorder (aanbod) worden gemarkeerd, ongeacht of er hoeveelheid op de vervullingsorder overblijft. Als bijvoorbeeld een verkooporder voor 100 EA wordt vastgelegd voor een inkooporder voor 150 EA, wordt verwijzingsinformatie aan de verkooporder en de inkooporder toegewezen.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

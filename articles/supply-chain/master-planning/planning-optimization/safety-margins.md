@@ -183,3 +183,6 @@ Een artikel heeft bijvoorbeeld een doorlooptijd van één dag en een ontvangstma
 [Aan de slag met Planningsoptimalisatie](get-started.md)
 
 [Analyse aanpassen aan Planningsoptimalisatie](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

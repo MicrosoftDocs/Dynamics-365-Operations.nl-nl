@@ -98,3 +98,6 @@ Gebruik de volgende tabel om u te helpen kiezen waar u het beste standaardrekeni
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

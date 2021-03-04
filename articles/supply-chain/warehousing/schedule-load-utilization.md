@@ -72,3 +72,6 @@ U kunt het ruimtegebruik voorspellen door het rapport **Gebruikte capaciteit mag
 
 4. Selecteer in het veld **Type lading** **Volume** of **Gewicht** om de operationele eenheid van het magazijn op te geven waarvoor ruimte moet worden voorspeld.
 5. Selecteer in het veld **Instellingen ruimtegebruik** de ruimtegebruiksinstelling waarop de voorspelling moet worden gebaseerd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

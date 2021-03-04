@@ -214,3 +214,5 @@ Managers kunnen alle doelstellingen voor hun team bekijken via de tegel **Teampr
 Het tabblad **Recensies** bevat een overzicht van de recensies die de werknemer in elke staat heeft: **In uitvoering**, **Gereed voor beoordeling** en **Eindbeoordeling**. Als u de recensie van een werknemer wilt openen, selecteert u de knop **Details** en vervolgens recensies om samen aan te werken. Afhankelijk van waar een recensie zich in het werkstroomproces bevindt, kunt u zien of de recensie beschikbaar is om te worden bijgewerkt. 
 
 U kunt alle recensies voor uw team bekijken via de tegel **Beoordelingen van teamprestaties** in de sectie **Overzicht** van **Mijn team**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

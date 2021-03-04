@@ -55,3 +55,6 @@ De expressie `FIRSTORNULL(SPLIT("",1)).Value` retourneert een lege tekenreeks (*
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Lijstfuncties](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Op de pagina **Activumtellers** (**Activabeheer** > **Query's** > **Activa** > *
 >[!NOTE]
 >U kunt een bereik instellen om afwijkingen in handmatige tellerregistraties te definiëren. U kunt ook het type bericht opgeven dat wordt weergegeven als registraties buiten het gedefinieerde bereik vallen. Zie [Tellers](../setup-for-objects/counters.md) voor meer informatie over het instellen van tellers.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

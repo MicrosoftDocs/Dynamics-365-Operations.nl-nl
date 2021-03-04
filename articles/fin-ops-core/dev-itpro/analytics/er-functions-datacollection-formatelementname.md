@@ -53,3 +53,6 @@ Als u meer wilt weten over het gebruik van deze functie, raadpleegt u de taakbeg
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Functies voor gegevensverzameling](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

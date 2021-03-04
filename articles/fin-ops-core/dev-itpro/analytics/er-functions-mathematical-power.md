@@ -63,3 +63,6 @@ De resulterende numerieke waarde.
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Wiskundige functies](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

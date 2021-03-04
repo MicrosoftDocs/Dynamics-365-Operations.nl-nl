@@ -57,3 +57,6 @@ Er wordt dan een productieorder voor product C gemaakt en product A wordt toegev
     - **Product C:** 2
 
 Op deze manier worden wijzigingen in de stuklijst van de productieorder niet beïnvloed door de daaropvolgende kostenberekeningen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

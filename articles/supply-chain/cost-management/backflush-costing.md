@@ -126,3 +126,6 @@ U moet kostprijsberekening via terugwaarts afboeken uitvoeren om periodiek de wa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -251,3 +251,6 @@ Om te garanderen dat de juiste waarden voor uw bedrijf worden ingevoerd, moet u 
 ## <a name="see-also"></a>Zie ook
 
 Zie voor meer informatie het oorspronkelijke blogbericht [More about (dynamic) negative days](https://blogs.msdn.microsoft.com/axmfg/2015/02/19/more-about-dynamic-negative-days/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

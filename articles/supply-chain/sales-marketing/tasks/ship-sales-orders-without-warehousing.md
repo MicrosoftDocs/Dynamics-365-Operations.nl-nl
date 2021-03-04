@@ -56,3 +56,6 @@ In dit onderwerp wordt aangegeven hoe u een verkooporder bijwerkt wanneer produc
 19. Selecteer in het actievenster de optie **Verzamelen en inpakken**.
 20. Selecteer **Pakbon**. De pagina **Pakbonjournaal** bevat alle pakbondocumenten die voor uw order zijn gegenereerd. U kunt details van elk document controleren en deze desgewenst afdrukken.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -160,3 +160,6 @@ U kunt het Gantt-diagram openen vanaf de volgende pagina's.
 
 [Visuele planning voor productie (demoscript)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

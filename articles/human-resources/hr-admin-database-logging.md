@@ -87,3 +87,6 @@ Volg deze stappen om databaselogboeken op te schonen:
    - Aanmaakdatum en -tijd
 
 3. Gebruik het tabblad **Databaselogboek opschonen** om te bepalen wanneer u de taak voor het opschonen van het logboek wilt uitvoeren. Databaselogboeken zijn standaard 30 dagen beschikbaar.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ In dit onderwerp wordt uitgelegd hoe u een geavanceerde regelstructuur maakt en 
 17. Sluit de pagina.
 18. Selecteer **Activeren**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

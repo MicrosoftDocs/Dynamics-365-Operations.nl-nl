@@ -89,3 +89,6 @@ Alle journaalposten die zijn gemaakt in Activa leasen worden opgenomen in het ac
 
 > [!NOTE]
 > Het Activaleasejournaal kan niet handmatig worden gemaakt. Het wordt automatisch gemaakt wanneer er leaseschema's worden gemaakt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

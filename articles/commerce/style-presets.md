@@ -128,3 +128,6 @@ De stijlwaarden van de voorinstelling worden actief gemaakt op uw openbare websi
 [Talen toevoegen aan uw site](add-languages-to-site.md)
 
 [Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

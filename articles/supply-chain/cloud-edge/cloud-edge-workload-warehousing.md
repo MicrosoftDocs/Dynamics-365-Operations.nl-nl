@@ -245,3 +245,6 @@ Op de workload in schaaleenheden kunt u de volgende twee batchtaken beheren in *
 
 - Wavetabelrecords verwerken
 - Overdrachtsgebeurtenissen van de controle op de waveuitvoering verwerken
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

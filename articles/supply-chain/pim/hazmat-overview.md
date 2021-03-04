@@ -62,3 +62,6 @@ Zie de volgende onderwerpen voor meer informatie over het instellen van regels e
 ## <a name="warehouse-management"></a>Magazijnbeheer
 
 Wanneer u een zending voorbereidt in Magazijnbeheer, kunt u verschillende nieuwe rapporten afdrukken waarin de informatie wordt gebruikt die u hebt ingesteld in Productgegevensbeheer. Meer informatie over de beschikbare rapporten en hoe u deze kunt gebruiken vindt u in [Informatie en rapporten voor gevaarlijke stoffen](hazmat-reports.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

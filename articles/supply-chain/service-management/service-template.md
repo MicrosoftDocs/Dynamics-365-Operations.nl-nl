@@ -58,3 +58,6 @@ U kunt eenvoudiger bepalen welke servicesjabloonregels u wilt kopiëren als u de
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 [Servicesjabloonregels kopiëren](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ In het volgende voorbeeld ziet u hoe u de lijst met unieke klantrekeningnummers 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Lijstfuncties](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

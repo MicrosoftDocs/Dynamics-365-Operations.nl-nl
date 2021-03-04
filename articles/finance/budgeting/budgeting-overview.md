@@ -70,3 +70,6 @@ U kunt bijvoorbeeld bepalen wie budgettering doet, wat wordt gebudgetteerd en ho
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

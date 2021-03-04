@@ -62,3 +62,6 @@ Deze taakbegeleiding toont een voorbeeld van gereedmelding bij een locatie waar 
 18. Klik op Werkdetails.
     * Toen de productieorder gereedgemeld werd, is er geen werk gegenereerd voor wegzetten. Dit komt doordat er een werkbeleid is gedefinieerd waarmee wordt voorkomen dat werk wordt gegenereerd wanneer product L0101 wordt gereedgemeld bij locatie 001.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

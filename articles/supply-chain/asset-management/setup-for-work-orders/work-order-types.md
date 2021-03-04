@@ -52,3 +52,6 @@ Zie [Levenscyclusstatussen van werkorder](work-order-lifecycle-states.md)voor me
 8. Selecteer **Opslaan**.
 
 ![Werkordertypen](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

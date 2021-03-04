@@ -52,3 +52,6 @@ De rol van deze procedure is penningmeester. Bij deze procedure wordt het demobe
 10. Klik op Boekstuk.
 11. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

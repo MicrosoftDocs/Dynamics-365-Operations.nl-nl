@@ -50,3 +50,6 @@ Als dezelfde persoon toegang nodig heeft tot de Leveranciersportal voor meerdere
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

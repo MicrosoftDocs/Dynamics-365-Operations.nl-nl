@@ -256,3 +256,6 @@ Houd rekening met het volgende als u de DOM-functie gebruikt:
 - Momenteel wordt in DOM alleen gekeken naar orders die worden gemaakt via afzetkanalen voor handel. Verkooporders worden aangemerkt als detailhandelverkooporders wanneer de optie **Handelverkoop** is ingesteld op **Ja**.
 - Microsoft heeft DOM niet getest met geavanceerde magazijnbeheerfuncties. Klanten en partners moeten een zorgvuldige afweging maken om te bepalen of DOM compatibel is met de geavanceerde magazijnbeheermogelijkheden en -processen die relevant voor hen zijn.
 - DOM is alleen beschikbaar in de cloudversie van Commerce. DOM wordt niet ondersteund in on-premises implementaties.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

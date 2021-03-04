@@ -64,3 +64,6 @@ Via de Appbar kan een gebruiker een bewerking selecteren. Afhankelijk van de sta
 - **Bewerken**: hiermee kunnen gebruikers wijzigingen aanbrengen in de geselecteerde klantorder.
 
 - **Ophalen**: hiermee wordt de ophaalstroom gestart zodat de gebruiker de producten kan kiezen die moeten worden opgehaald, en wordt de verkooptransactie voor ophalen gemaakt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

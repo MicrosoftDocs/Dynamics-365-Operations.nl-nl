@@ -66,3 +66,6 @@ Vooruitbetalingsfacturen worden veel in het bedrijfsleven gebruikt. Een leveranc
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

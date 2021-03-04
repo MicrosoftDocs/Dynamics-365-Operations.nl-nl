@@ -52,3 +52,6 @@ Deze procedure laat zien hoe wordt voorkomen dat fysieke voorhanden voorraad kan
 2. Klik op **Ja**.
 3. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

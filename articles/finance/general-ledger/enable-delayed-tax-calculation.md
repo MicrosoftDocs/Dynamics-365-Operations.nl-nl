@@ -65,3 +65,6 @@ Het systeem geeft prioriteit aan de instelling voor de journaalkoptekst. Standaa
 4. Stel op het tabblad **Instellingen** de optie **Vertraagde belastingberekening** in op **Ja**.
 
 ![Afbeelding van grootboekpagina](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Wanneer u de stappen in de sectie [Standaardbeschrijvingen instellen](#set-up-de
 2. Selecteer in het veld **Referentietabel** de databasetabel met de parametergegevens die u aan de beschrijving wilt toevoegen.
 3. Selecteer in het veld **Referentieveld** het veld met de parametergegevens die u aan de beschrijving wilt toevoegen.
 4. Herhaal stappen 1 tot 3 als u nog meer parameters wilt toevoegen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

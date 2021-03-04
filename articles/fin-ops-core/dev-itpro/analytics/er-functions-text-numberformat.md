@@ -77,3 +77,6 @@ Voor de cultuur **EN-US** retourneert `NUMBERFORMAT (0.45, "p")` **10 %** en ret
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Tekstfuncties](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

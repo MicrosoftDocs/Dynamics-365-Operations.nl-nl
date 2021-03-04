@@ -47,3 +47,6 @@ Als u automatische afstemming wilt gebruiken, moet u het schema voor afstemming 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

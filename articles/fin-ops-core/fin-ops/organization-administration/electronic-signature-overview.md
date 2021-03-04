@@ -109,3 +109,6 @@ Volg deze stappen om fiatteurs aan te wijzen.
 1. Klik op de pagina **Opties** op het tabblad **Rekeningen** op **Fiatteur aangeven**.
 2. Selecteer in het veld **Gebruikers-ID fiatteur** de ID van de gebruiker die moet ondertekenen voor de wijzigingen van een andere gebruiker.
 3. Selecteer in het veld **Ondertekenen voor gebruikers-ID** de gebruiker voor wie de wijzigingen moeten worden ondertekend.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

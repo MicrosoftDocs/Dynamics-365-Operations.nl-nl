@@ -75,3 +75,6 @@ De configuratie wordt gedeeld met de externe organisatie en is beschikbaar voor 
 ![Configuratie gedeeld met een externe organisatie](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/Janeaug_RCSdocs/articles/finance/localizations/media/1_RCS_Repo_for_Share_with_test.com)
 
 6. Als u het delen van een configuratie die eerder met een externe organisatie is gedeeld ongedaan wilt maken, selecteert u de configuratie en klikt u op **Delen ongedaan maken**. Selecteer vervolgens **OK**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

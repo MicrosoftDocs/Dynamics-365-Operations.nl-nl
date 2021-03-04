@@ -97,3 +97,6 @@ U moet enkele wijzigingen verwerken om deze actief te maken.
 - [Geschiktheid voor levensgebeurtenis verwerken](hr-benefits-process-life-event-eligibility.md)
 - [Tariefwijzigingen verwerken](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Het bedrijf van de demogegevens dat wordt gebruikt om deze registratie te maken 
 10. Klik op Opslaan.
 11. Het formulier sluiten.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -176,3 +176,6 @@ De taal die u hebt toegevoegd, is nu beschikbaar, zodat u de site kunt configure
 [Een auteursrechtmelding toevoegen](add-copyright-notice.md)
 
 [Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

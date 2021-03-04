@@ -41,3 +41,6 @@ Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF
 7. Klik op de pijl om de geselecteerde beschikbare teams aan het adresboek toe te voegen.
 8. Klik op **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -423,3 +423,6 @@ Waarschijnlijk bent u aangemeld bij het huidige exemplaar van de app van het Azu
 
 [Elektronische rapportage (ER) configureren om gegevens op te halen in Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

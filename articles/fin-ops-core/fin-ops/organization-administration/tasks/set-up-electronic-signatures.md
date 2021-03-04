@@ -77,3 +77,6 @@ Gebruik deze procedure om elektronische handtekeningen in te stellen. Met een el
 10. Klik op Opslaan.
 11. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

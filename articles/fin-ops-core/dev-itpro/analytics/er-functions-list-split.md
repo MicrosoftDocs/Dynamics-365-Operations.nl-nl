@@ -85,3 +85,6 @@ Als het argument `input` leeg is, wordt een nieuwe lege lijst geretourneerd. Als
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Lijstfuncties](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

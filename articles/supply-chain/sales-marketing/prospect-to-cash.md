@@ -82,3 +82,6 @@ Als u de oplossing Prospect naar contant geld wilt gebruiken, moet u de volgende
 
 - Dynamics 365 Sales-versie 1612 (8.2.1.207) (DB 8.2.1.207) online of een hogere versie.
 - De oplossing Prospect naar contant geld voor Dynamics 365 Sales, versie 1.15.0.0 of een hogere versie. De oplossing kan worden gedownload van AppSource. [Download Dynamics 365, Prospect naar contant geld](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

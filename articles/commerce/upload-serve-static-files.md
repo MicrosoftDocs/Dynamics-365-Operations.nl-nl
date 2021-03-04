@@ -107,3 +107,6 @@ Als u het URL-pad wilt wijzigen, volgt u deze stappen.
 [Afbeeldingen bijsnijden](dam-crop-images.md)
 
 [Focuspunten van afbeelding aanpassen](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

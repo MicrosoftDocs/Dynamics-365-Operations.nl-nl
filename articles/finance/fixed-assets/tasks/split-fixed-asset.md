@@ -63,3 +63,6 @@ Voordat een volledig afgeschreven activum wordt gesplitst, moet de status van he
     - Een bijboekingstransactie wordt gemaakt voor het nieuwe activum voor hetzelfde bedrag.
 
 4. Selecteer **Boeken**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

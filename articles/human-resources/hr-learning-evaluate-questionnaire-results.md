@@ -72,3 +72,5 @@ U kunt vragenlijststatistieken gebruiken voor het analyseren van de resultaten v
 -   Criteria selecteren of controleren voor het analyseren van resultaten per respondent of kenmerken van de vragenlijst. U kunt bijvoorbeeld door het selecteren van een **postcode** de correlatie analyseren tussen de locatie en de juiste antwoorden van een respondent.
 
 De instellingen die u definieert, worden opgeslagen en kunnen worden gebruikt om resultaten periodiek opnieuw te berekenen.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

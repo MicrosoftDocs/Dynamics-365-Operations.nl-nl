@@ -75,3 +75,6 @@ Als u de preview-functie van Verlof en verzuim voor correcties voor feestdagen h
 
 - [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)
 - [Verlof- en verzuimtypen configureren](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

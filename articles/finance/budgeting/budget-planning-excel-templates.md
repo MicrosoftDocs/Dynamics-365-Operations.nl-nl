@@ -130,3 +130,6 @@ U kunt ook draaitabellen en diagrammen maken en gebruiken voor extra groeperinge
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

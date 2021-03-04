@@ -73,3 +73,6 @@ Als u hebt opgegeven dat een redencode vereist is, moet u een redencode invoeren
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ U kunt ook handmatige aanpassingen uitvoeren aan de prognose op de pagina **Deta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

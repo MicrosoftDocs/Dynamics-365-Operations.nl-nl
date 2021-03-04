@@ -41,3 +41,6 @@ Deze procedure laat zien hoe u een nieuw apparaat maakt en koppelt aan een regis
 9. Klik in de lijst op de koppeling in de geselecteerde rij.
 10. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

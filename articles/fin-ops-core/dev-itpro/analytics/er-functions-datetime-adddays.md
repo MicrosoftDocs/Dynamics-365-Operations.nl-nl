@@ -67,3 +67,6 @@ Een positieve waarde voor `days` levert een toekomstige datum op. Een negatieve 
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Datum- en tijdfuncties](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Het aantal containers voor een lading wordt berekend op basis van het gewicht en
 -   Als u het gewicht en volume voor een container wilt instellen, klikt u op **Magazijnbeheer** \> **Instellingen** \> **Containers** \> **Containertypen**.
 
 -   U stelt het containergebruikspercentage in door te klikken op **Magazijnbeheer** \> **Instellingen** \> **Containers** \> **Containergroepen** en een waarde in te voeren in het veld **Containergebruikspercentage**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

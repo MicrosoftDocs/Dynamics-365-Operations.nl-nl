@@ -102,3 +102,6 @@ Als u het veld **Feedback deelnemers overnemen van aanstellingsteam** selecteert
 De sollicitatiegesprekactiviteit is een optionele activiteit met drie componenten: **Beschikbaarheid van kandidaat aanvragen**, **Planning** en **Feedback**. Gebruik de sollicitatiegesprekactiviteit in de functiesjabloon als u de beschikbaarheidsaanvraag van de kandidaat, de planning en feedback wilt opnemen als onderdeel van het proces in plaats van deze afzonderlijk als onderdeel van het aanstellingsproces te gebruiken.
 
 Als u wilt bepalen met welke kandidaten u een sollicitatiegesprek wilt voeren, selecteert u een waarde in het veld **Met wie voert u een sollicitatiegesprek**. De beschikbare opties zijn **Alle kandidaten**, **Externe kandidaten** en **Interne kandidaten**. Als u interne kandidaten bijvoorbeeld in de eerste ronde van sollicitatiegesprekken wilt overslaan, stelt u **Met wie voert u een sollicitatiegesprek** in op **Externe kandidaten**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

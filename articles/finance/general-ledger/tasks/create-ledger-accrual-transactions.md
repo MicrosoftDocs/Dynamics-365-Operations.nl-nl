@@ -49,3 +49,6 @@ Deze taakbegeleiding helpt u bij het genereren van transitorische posten voor he
 17. Klik op OK.
 18. Klik op Boeken.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

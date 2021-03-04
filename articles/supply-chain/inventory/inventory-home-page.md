@@ -58,3 +58,6 @@ U vindt meningen, nieuws en andere informatie over Voorraadbeheer en andere oplo
 
 ### <a name="task-guides"></a>Taakbegeleidingen
 Extra informatie is beschikbaar als taakbegeleidingen. U kunt op elke pagina op de knop **Help** klikken als u een taakbegeleiding wilt openen
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

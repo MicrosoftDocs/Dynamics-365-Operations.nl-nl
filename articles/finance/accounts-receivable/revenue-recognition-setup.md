@@ -193,3 +193,6 @@ Opbrengsttoerekening kan ook worden gebruikt voor verkooporders die zijn gemaakt
 
 - **Uitgestelde factuuropbrengst** (onder **Opbrengstrekeningen**): voer de hoofdrekening in voor de opbrengstprijs die wordt geboekt naar uitgestelde opbrengst (in plaats van naar opbrengst). De opbrengstprijs wordt uitgesteld als de verkooporderregel een opbrengstschema bevat.
 - **Uitgestelde kosten** (onder **Kostenrekeningen**): voer de hoofdrekening in voor de kosten van het bedrag van de verkochte goederen die worden geboekt naar uitgestelde kosten van verkochte goederen als de opbrengst ook wordt uitgesteld.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

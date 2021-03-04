@@ -124,3 +124,6 @@ Volg deze stappen voor het instellen van de integratie.
     4. U kunt meerdere omgevingen in Customer Insights hebben, zoals test- en productieomgevingen. Voer in het veld **Omgevingsexemplaar-id** de desbetreffende omgeving in.
     5. Voer in het veld **Alternatieve klant-id** de eigenschap in Customer Insights in die is toegewezen aan het klantrekeningnummer. (Het klantrekeningnummer is de klant-id in Commerce.)
     6. De overige drie eigenschappen zijn de metingen die worden weergegeven op de klantkaart in het klantenboek. U kunt maximaal drie metingen selecteren om op de klantkaart weer te geven. (U hoeft echter geen metingen te selecteren.) Zoals eerder vermeld, geeft het systeem eerst deze waarden weer en worden vervolgens de waarden voor de kenmerkgroep van het klantenboek weergegeven.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

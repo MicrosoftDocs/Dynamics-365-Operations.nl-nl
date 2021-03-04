@@ -91,3 +91,6 @@ Stel voor elke regelset het volgende veld in:
 - **Ernst**: selecteer het ernstniveau waarvoor u regels wilt instellen. U gebruikt de pagina **Ernst van technische wijzigingen** om de niveaus te maken en te benoemen. (Zie het vorige gedeelte voor meer informatie.)
 
 Gebruik de knoppen op het sneltabblad **Regels** om een regel voor de huidige instelling van de ernst toe te voegen of te verwijderen. Elke regel heeft een veld **Regel** en een veld **Naam**. De regels worden door het systeem vastgesteld en duiden de typen wijzigingen aan die een product kan hebben. De naam duidt het type wijziging aan.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Met de configuratiesleutelmetagegevens die worden gemaakt tijdens het vernieuwen
 Elke keer dat u configuratiesleutels bijwerkt op entiteit-, tabel- of veldniveau, moet de entiteitslijst in het gegevensbeheerframework worden vernieuwd. Dit proces zorgt ervoor dat het framework de meest recente configuratiesleutelinstellingen gebruikt. Totdat de entiteitslijst is vernieuwd, wordt de volgende waarschuwing weergegeven op de entiteitslijstpagina. De bijgewerkte configuratiesleutelwijzigingen gaan direct in nadat de entiteitslijst is vernieuwd. Het wordt aangeraden om bestaande gegevensprojecten en taken te valideren om zeker te weten dat ze werken zoals verwacht nadat de configuratiesleutelwijzigingen zijn ingegaan.
 
 ![Doelvelden](./media/Target_fields_3.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

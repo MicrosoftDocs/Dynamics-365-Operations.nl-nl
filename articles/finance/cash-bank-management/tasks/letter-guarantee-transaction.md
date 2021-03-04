@@ -148,3 +148,6 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
     * Controleer de geboekt journaalposten.  
 16. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

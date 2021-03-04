@@ -137,3 +137,6 @@ Als u nu de basis-URL van het kanaal gebruikt en naar de URL van de pagina voor 
 [Statussen en levenscyclus van document](document-states-overview.md)
 
 [Werken met groepen publiceren](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

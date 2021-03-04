@@ -48,3 +48,6 @@ In dit artikel wordt beschreven hoe u het geschiktheidsproces voor levensgebeurt
    4. Selecteer **OK**. Het proces wordt uitgevoerd met de parameters die u instelt.
 
 4. Selecteer **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

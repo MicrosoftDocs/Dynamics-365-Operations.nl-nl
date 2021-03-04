@@ -296,3 +296,6 @@ Voordat de artikelen in het cluster kunnen worden weggezet, moet het cluster wor
 ## <a name="notes-and-tips"></a>Opmerkingen en tips
 
 Als de cluster-id de bovenliggende nummerplaat voor een genest pallet wordt, wordt de plaatsingspositie automatisch gegeven wanneer de cluster-id wordt gescand. Er moet geen verdere nummerplaat worden gescand, zelfs als het genereren van nummerplaten is ingesteld op handmatig.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

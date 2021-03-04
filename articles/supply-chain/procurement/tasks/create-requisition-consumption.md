@@ -92,3 +92,6 @@ In dit onderwerp wordt het proces van het maken van een bestelaanvraag beschreve
 6. Sluit de pagina.
 7. Vernieuw de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -478,3 +478,6 @@ Voor dit scenario zal de ontvangstmedewerker de inkomende hoeveelheid registrere
     - **Hoeveelheid**: geef _7_ op. Dit is de resterende hoeveelheid die de leverancier mag leveren als onderdeel van de totale inkooporderhoeveelheid van 12 (waarbij 10 de oorspronkelijke orderhoeveelheid is en 2 de toegestane meerleveringshoeveelheid van 20 procent). Houd er rekening mee dat 5 stuks al zijn geregistreerd voor de eerste lading.
 
 De tweede lading is nu bijgewerkt met de hoeveelheid van 7 en de productontvangst kan worden bijgewerkt op basis van deze hoeveelheid.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

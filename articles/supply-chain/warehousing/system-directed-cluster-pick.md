@@ -207,3 +207,6 @@ Voordat u door het systeem gestuurde clusterverzameling kunt instellen, moet u i
 1. De laatste stap die u op het mobiele apparaat uitvoert, is het cluster op de uiteindelijke locatie **wegzetten**. Selecteer **OK**.
     - Wanneer de wegzetbewerking wordt bevestigd, wordt het cluster gesloten en opgesplitst, op basis van de waarde die u hebt ingesteld voor het veld **Cluster opsplitsen bij** in het clusterprofiel. Werk-id's worden ook gesloten.
 1. Op het mobiele apparaat wordt aangegeven dat het cluster is voltooid.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

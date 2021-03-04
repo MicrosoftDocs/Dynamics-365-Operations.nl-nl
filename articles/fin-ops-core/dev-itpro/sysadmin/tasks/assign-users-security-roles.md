@@ -57,3 +57,6 @@ Gebruikers die handmatig aan beveiligingsrollen zijn toegewezen, moeten ook hand
 2. Selecteer een rol in de structuur en in het menu **Gebruikers die aan rol zijn toegewezen** de optie **Gebruikers handmatig toewijzen/uitsluiten**.
 4. In **Gebruikers toewijzen aan of uitsluiten van rol** worden gebruikers aan wie de rol niet is toegewezen, weergegeven en wordt de **Toewijzingsmodus** ingesteld op **Geen**. Selecteer een of meer gebruikers waaraan u de rol wilt toewijzen.
 5. Selecteer **Toewijzen aan rol** in het **actievenster**. De **Toewijzingsmodus** wordt bijgewerkt naar **Handmatig** en aan de gebruikers wordt nu een nieuwe rol toegewezen.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ In dit onderwerp wordt uitgelegd hoe u leveranciers voor specifieke inkoopcatego
 13. Selecteer **Nee** in het veld **Leveranciers opnemen uit bovenliggende categorie:**.
 14. Selecteer **Ja** in het veld **Leveranciers opnemen uit bovenliggende categorie:**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

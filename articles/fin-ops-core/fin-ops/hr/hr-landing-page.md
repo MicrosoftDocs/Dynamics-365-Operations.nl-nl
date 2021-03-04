@@ -93,3 +93,6 @@ U kunt vragenlijsten ontwerpen en laten invullen om informatie te verzamelen die
 - [Vragenlijsten ontwerpen](../../../talent/design-questionnaires.md)
 - [Vragenlijsten plannen en distribueren](../../../talent/distribute-questionnaires.md)
 - [De resultaten van vragenlijsten bekijken en evalueren](../../../talent/evaluate-questionnaire-results.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

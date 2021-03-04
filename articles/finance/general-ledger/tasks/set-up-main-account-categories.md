@@ -42,3 +42,6 @@ In dit onderwerp wordt uitgelegd hoe u hoofdrekeningcategorieën instelt. De cat
 3. Schakel de optie **Gekoppeld** in of uit om de hoofdrekeningen te kiezen.
 4. Selecteer **OK**.
 5. Selecteer **Ja**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

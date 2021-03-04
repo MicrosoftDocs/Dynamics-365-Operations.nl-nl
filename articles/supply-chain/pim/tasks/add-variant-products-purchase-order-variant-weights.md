@@ -48,3 +48,6 @@ Deze procedure doorloopt de stappen voor het gebruik van variantgewichten om ink
 17. Stel Hoeveelheid in op '1000'.
 18. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

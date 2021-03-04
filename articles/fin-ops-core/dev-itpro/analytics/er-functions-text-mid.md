@@ -69,3 +69,6 @@ Als de waarde van het argument `starting position` groter is dan de lengte van d
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Tekstfuncties](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Ga als volgt te werk om een module voor sociaal delen toe te voegen aan een koop
 [Module met vakje voor kopen](add-buy-box.md)
 
 [Conformiteit van cookie](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

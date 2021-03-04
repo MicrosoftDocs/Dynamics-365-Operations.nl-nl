@@ -86,3 +86,6 @@ Met een nieuwe optie kunnen managers de prestaties van hun directe en indirecte 
 ### <a name="print-performance-reviews"></a>Prestatiebeoordelingen afdrukken
 
 Werknemers, managers en HR kunnen de prestatiebeoordeling van een werknemer afdrukken.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

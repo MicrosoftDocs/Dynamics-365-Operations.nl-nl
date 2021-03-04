@@ -64,3 +64,6 @@ U kunt leveranciers ook kopiëren met de functie Btw-nummer zoeken die u vindt i
 
 1. De optie **Leverancier kopiëren** wordt weergegeven. Standaard is deze optie ingesteld op **Nee**. Als u de leverancier naar de huidige rechtspersoon wilt kopiëren, zet u de optie op **Ja**.
 2. Selecteer **Selecteren**. De leverancier wordt gemaakt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

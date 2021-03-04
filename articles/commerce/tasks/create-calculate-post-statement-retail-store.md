@@ -48,3 +48,6 @@ In dit onderwerp worden de handmatige stappen beschreven voor het maken, bereken
 12. Selecteer **Financiën van winkel** op de startpagina.
 13. Selecteer het tabblad **Geboekte overzichten**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

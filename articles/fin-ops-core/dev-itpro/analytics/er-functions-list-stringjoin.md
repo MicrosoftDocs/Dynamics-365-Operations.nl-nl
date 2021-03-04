@@ -63,3 +63,6 @@ Als u `SPLIT("abc" , 1)` als gegevensbron **DS** invoert, geeft de expressie `ST
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Lijstfuncties](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

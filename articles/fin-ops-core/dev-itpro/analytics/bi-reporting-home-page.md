@@ -89,3 +89,6 @@ De volgende rapporten bevatten Naslag informatie over de objecten:
 - [Rapport Licentiecodes en configuratiesleutels](../sysadmin/license-codes-configuration-keys-report.md)
 - [Beschikbare SQL Server Reporting Services-rapporten (SSRS)](SSRS-report.md)
 - [Rapport over workflowtypen](../../fin-ops/organization-administration/workflow-types-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Zowel Planningsoptimalisatie als de planningsengine die is ingebouwd in Microsof
 - Automatische fiattering is gebaseerd op de behoeftedatum (einddatum).
 - Om te garanderen dat orders tijdig worden gefiatteerd, moet de time fence voor fiattering langer zijn dan de levertijd.
 - Als u alle orders wilt fiatteren die in de huidige week moeten beginnen, moet de time fence voor fiattering de levertijd plus één week zijn.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

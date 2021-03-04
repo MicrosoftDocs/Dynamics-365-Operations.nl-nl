@@ -49,3 +49,6 @@ U kunt vergoedingsplannen voor medewerkers maken in Microsoft Dynamics 365 Human
    | Plannen | Het tabblad Plannen bevat de plannen die voldoen aan de filtercriteria die u hebt opgegeven. De relevante configuratieopties die zijn ingesteld door HR-personeel en de inschrijvingsselecties die door werknemers zijn gekozen, worden op elke regel opgenomen. Het veld Gekwalificeerd geeft aan of er een validatieconflict is met de planselectie. |
 
 4. Selecteer **Opslaan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

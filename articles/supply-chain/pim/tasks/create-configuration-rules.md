@@ -55,3 +55,6 @@ Met deze procedure worden configuratieregels gemaakt die kunnen worden gebruikt 
     * Selecteer het artikelnummer dat wordt geselecteerd of gedeselecteerd, afhankelijk van de gekozen methode.  
 18. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ In dit onderwerp wordt uitgelegd hoe u nummerreeksen voor lease-id's maakt. Ook 
 3. Selecteer **Nummerreeksen** in de zijbalk.
 4. Selecteer de nummerreeks voor de verwijzing **Lease-id**. Deze nummerreeks wordt gebruikt om de unieke id voor elke lease te genereren.
 5. Selecteer de nummerreeks voor de verwijzing **Proces-id**. Deze nummerreeks wordt gebruikt om de unieke id voor elk indexherwaarderingsproces te genereren.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

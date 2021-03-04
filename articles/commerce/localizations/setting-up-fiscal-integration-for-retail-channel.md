@@ -226,3 +226,6 @@ Als u een handmatige uitvoering van een uitgestelde fiscale registratie wilt ins
     1. Selecteer de bij te werken indeling.
     2. Voeg een nieuwe knop toe en stel de knopeigenschap **Fiscale registratie voltooien** in.
     3. Voer op de pagina **Distributieplanning** de taak **1090** uit om uw wijzigingen over te brengen naar de kanaaldatabase.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

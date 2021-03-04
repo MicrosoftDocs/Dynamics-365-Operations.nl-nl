@@ -57,3 +57,6 @@ In de volgende afbeelding wordt het maken van een adresboek voor een werknemer i
 [Overzicht van schermindelingen](pos-screen-layouts.md)       
 
 [Retail Hardware Station configureren en installeren](retail-hardware-station-configuration-installation.md)  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Voor invoer van verkooporderregels is het standaardgedrag als volgt: open de pa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

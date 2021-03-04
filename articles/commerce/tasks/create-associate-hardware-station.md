@@ -58,3 +58,6 @@ Deze procedure doorloopt hoe u een nieuw hardwarestation maakt. Een nieuw hardwa
 23. Typ een waarde in het veld EFT-terminal-id.
 24. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

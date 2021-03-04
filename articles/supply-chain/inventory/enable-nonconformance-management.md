@@ -54,3 +54,6 @@ Ga als volgt te werk om niet-conformeringsbeheer in te schakelen:
 [Processen voor kwaliteitsbeheer](quality-management-processes.md)
 
 [Vereisten voor niet-conformeringsbeheer instellen](tasks/set-up-prerequisites-nonconformance-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

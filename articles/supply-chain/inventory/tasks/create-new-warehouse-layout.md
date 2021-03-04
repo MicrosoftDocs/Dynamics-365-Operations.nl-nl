@@ -63,3 +63,6 @@ In dit onderwerp wordt beschreven hoe u informatie instelt voor locaties in een 
 7. Sluit de pagina.
 8. Vernieuw de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

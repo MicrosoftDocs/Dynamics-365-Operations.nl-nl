@@ -72,3 +72,6 @@ De parameters die in het globale adresboek zijn ingesteld, bepalen welke rollen 
     - Als u een afbeelding wilt uploaden, selecteert u **Nieuwe afbeelding uploaden**.
     - Als u een afbeelding wilt verwijderen, selecteert u de afbeelding en vervolgens **Verwijderen**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

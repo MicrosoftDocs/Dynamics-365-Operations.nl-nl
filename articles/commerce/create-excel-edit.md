@@ -78,3 +78,6 @@ Voer de volgende stappen uit om een Excel-werkmap te maken en te configureren zo
 [Financiële dimensies voor detailhandelstransacties bewerken](edit-financial-dim.md)
 
 [Velden toevoegen aan een Excel-werkmap om detailhandelstransacties te bewerken](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

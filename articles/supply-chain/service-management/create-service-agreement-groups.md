@@ -43,3 +43,6 @@ Serviceovereenkomstgroepen zijn handig voor het sorteren en filteren van service
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 [Overzicht van servicelevelovereenkomsten](service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

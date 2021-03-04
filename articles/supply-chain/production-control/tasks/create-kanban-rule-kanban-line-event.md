@@ -69,3 +69,6 @@ Met deze procedure wordt een kanbanregel gemaakt door de instelling voor kanbanr
     * Merk op dat een kanban voor 27 is gemaakt om de activiteit te verwerken die is gebaseerd op de gemaakte kanbanregel.  
     * Dit is de laatste stap.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

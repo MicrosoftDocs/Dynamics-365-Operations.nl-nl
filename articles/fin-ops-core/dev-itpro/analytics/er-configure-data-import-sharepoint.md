@@ -206,3 +206,6 @@ Bekijk de code in de klasse `BankImport_RU` van het model `Application Suite` om
 
 [Wijzigingen in API voor ER-raamwerk in Application update 7.3](er-apis-app73.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ De servicesjabloonregels worden nu samen met de gekoppelde serviceobject- en ser
 [Servicesjablonen](service-template.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

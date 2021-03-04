@@ -86,3 +86,6 @@ Voordat een Dynamics 365 Commerce-kanaal kan worden gemaakt, moeten verscheidene
 [Een detailhandelafzetkanaal instellen](channel-setup-retail.md)
     
 [Een online afzetkanaal instellen](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

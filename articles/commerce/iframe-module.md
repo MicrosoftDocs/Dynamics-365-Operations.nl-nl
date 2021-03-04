@@ -77,3 +77,6 @@ Voer de volgende stappen uit om een iframe-module aan een pagina toe te voegen o
 [Overzicht van modulebibliotheek](starter-kit-overview.md)
 
 [Beveiligingsbeleid voor inhoud (CSP) beheren](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

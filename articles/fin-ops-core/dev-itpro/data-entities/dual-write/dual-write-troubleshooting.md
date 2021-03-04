@@ -122,3 +122,6 @@ Ga als volgt te werk om de optie voor het formulier **Informatie** opnieuw in te
 2. Zoek het formulier **Informatie** onder het knooppunt met formulieren. 
 3. Selecteer het formulier **Informatie** en klik op **Beveiligingsrollen inschakelen**. 
 4. Wijzig de beveiligingsinstelling in **Weergeven aan iedereen**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

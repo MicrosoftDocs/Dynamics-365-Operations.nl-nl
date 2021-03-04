@@ -64,3 +64,6 @@ De siteselectiemodule kan aan de [Koptekstmodule](author-header-module.md) onder
 [Breadcrumb-module](add-breadcrumb.md)
 
 [Navigatiemenumodule](nav-menu-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

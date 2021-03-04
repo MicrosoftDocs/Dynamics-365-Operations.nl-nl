@@ -114,3 +114,6 @@ Het wordt aangeraden om deze batchtaken niet te vaak uitvoeren (om de paar minut
 > Om prestatieredenen wordt bij gebruik van berekeningen van de voorraadbeschikbaarheid aan kanaalzijde om een beschikbaarheidsaanvraag voor voorraad te maken via de API's van e-Commerce of de nieuwe POS-voorraadlogica aan kanaalzijde, een cache gebruikt bij de berekening om vast te stellen of er voldoende de tijd is verstreken om het opnieuw uitvoeren van de berekeningslogica te rechtvaardigen. De standaardcache is ingesteld op 60 seconden. U hebt bijvoorbeeld de berekening aan kanaalzijde voor uw winkel ingeschakeld en de voorhanden voorraad voor een product bekeken op de pagina **Zoeken in voorraad**. Als vervolgens één eenheid van het product wordt verkocht, wordt op de pagina **Zoeken in voorraad** de gereduceerde voorraad pas weergegeven nadat de cache is leeggemaakt. Nadat gebruikers transacties in POS hebben geboekt, moeten ze 60 seconden wachten voordat ze controleren of de voorhanden voorraad is verminderd.
 
 Als voor uw bedrijfsscenario een kortere cachetijd is vereist, neemt u contact op met de vertegenwoordiger van productondersteuning voor hulp.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ De waarde in het veld **Factor** is gelijk aan **50**. In dit geval is de afschr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

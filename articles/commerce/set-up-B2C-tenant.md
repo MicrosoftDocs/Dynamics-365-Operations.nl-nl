@@ -362,3 +362,6 @@ U kunt een optionele, secundaire beheerdersaccount toevoegen in de sectie **Gebr
 [Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen](add-cdn-support.md)
 
 [Detectie van winkels op basis van de locatie inschakelen](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

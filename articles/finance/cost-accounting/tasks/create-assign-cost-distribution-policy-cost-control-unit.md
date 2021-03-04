@@ -73,3 +73,6 @@ Kostenverdelingsregels worden gebruikt om kosten te verdelen die financieel zijn
 5. Typ of selecteer een waarde in het veld Kostenbeheer.
 6. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

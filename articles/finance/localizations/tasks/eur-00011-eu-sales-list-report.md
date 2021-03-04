@@ -101,3 +101,6 @@ Deze procedure is alleen bedoeld voor accountants.
 7. Klik op OK.
 8. Selecteer 'Afgesloten' in het veld Selectie.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Voer de volgende stappen uit om u aan te melden voor beoordelingen en recensies 
 [Productbeoordelingen synchroniseren in Dynamics 365 Commerce](sync-product-ratings.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

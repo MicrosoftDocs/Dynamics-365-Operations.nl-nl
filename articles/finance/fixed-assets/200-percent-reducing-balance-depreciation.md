@@ -90,3 +90,6 @@ Bij de methode 200% degressieve afschrijvingsmethode, wordt 200 procent door het
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ U kunt de gemaakte modeltoewijzing uitvoeren voor testdoeleinden om te zien hoe 
     * Selecteer Bladeren en selecteer het bestand Response4.xml.
 16. Selecteer OK.
     * Controleer de gegenereerde uitvoer. Het responstype is nu correct herkend net als voor het bestand Response1.xml.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

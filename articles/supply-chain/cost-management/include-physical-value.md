@@ -60,3 +60,6 @@ Wanneer een verkooporder wordt geboekt, is de geboekte kostprijs EUR 10,00 omdat
 
 > [!NOTE]
 > Ter vergelijking: als u het selectievakje **Fysieke waarde opnemen** voor dit artikel inschakelt wanneer een verkooporder wordt geboekt, is de geboekte kostprijs EUR 12,00.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -114,3 +114,6 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 [Filters op een plan toepassen](plan-filters.md)
 
 [Een planningstaak annuleren](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -342,3 +342,6 @@ U kunt gecontroleerde configuraties vanuit RCS importeren door de ER-opslagplaat
 - [Formuleontwerper in elektronische rapportage (ER)](general-electronic-reporting-formula-designer.md)
 - [De prestaties van ER-oplossingen verbeteren door BEREKEND VELD-gegevensbronnen met parameters toe te voegen](er-calculated-field-ds-performance.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

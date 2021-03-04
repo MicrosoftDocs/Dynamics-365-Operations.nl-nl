@@ -40,3 +40,6 @@ Deze procedure laat zien hoe u geboekte journaalposten journaliseert. Deze proce
 9. Klik op **OK** om de filterpagina te sluiten.
 10. Klik op **OK** om het journaalproces te starten. Een rapport wordt gegenereerd nadat het proces is voltooid.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

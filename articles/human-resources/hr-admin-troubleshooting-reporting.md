@@ -49,3 +49,6 @@ De gebruiker kan de ingesloten Microsoft Power BI-rapporten niet aanpassen.
 **Langetermijnoplossing**
 
 Er worden meer Power BI-opties beschikbaar en meer gegevens en entiteiten worden opgenomen in Common Data Service.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

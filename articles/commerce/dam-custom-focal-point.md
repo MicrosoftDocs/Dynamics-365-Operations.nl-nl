@@ -60,3 +60,6 @@ Voer de volgende stappen uit om een aangepast focuspunt te definiëren voor een 
 [Afbeeldingen bijsnijden](dam-crop-images.md)
 
 [Statische bestanden uploaden en verwerken](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ Nadat de orders met succes zijn gesynchroniseerd, worden ze standaard in een wac
 [Een Excel-werkmap maken om detailhandelstransacties te bewerken](create-excel-edit.md)
 
 [Velden toevoegen aan een Excel-werkmap om detailhandelstransacties te bewerken](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

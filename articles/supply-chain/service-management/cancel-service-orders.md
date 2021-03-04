@@ -78,3 +78,6 @@ De geselecteerde serviceorders worden geannuleerd of de voortgangsstatus **Geann
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

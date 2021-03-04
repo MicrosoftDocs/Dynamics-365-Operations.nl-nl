@@ -50,3 +50,6 @@ In het journaal **Wijziging aan voorraadeigendom** wordt de overdracht van eigen
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Leverancierssamenwerking in consignatieprocessen
 Als uw leveranciers de interface van de leverancierssamenwerking gebruiken, kunnen ze daarmee het verbruik van voorraad op uw locatie volgen. Zie [Gebruikersbeveiliging in leveranciersportal](../procurement/configure-security-vendor-portal-users.md) voor meer informatie over het configureren van leveranciers voor leverancierssamenwerking.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

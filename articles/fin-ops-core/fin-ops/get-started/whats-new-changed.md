@@ -50,3 +50,6 @@ Een toelichting op wat er nieuw of gewijzigd is in Lifecycle Services vindt u in
 - [Nieuwe of gewijzigde functies in Lifecycle Services (LCS)](../../dev-itpro/lifecycle-services/whats-new-lcs.md)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

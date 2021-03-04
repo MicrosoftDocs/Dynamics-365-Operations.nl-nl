@@ -45,3 +45,6 @@ Dit rapport bevat een momentopname van volgende overzichten als onderdeel van wi
 - Belastingoverzicht
 - Overzicht van prijsoverschrijvingen
 - Kortingsoverzicht
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

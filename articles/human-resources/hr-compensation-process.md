@@ -77,3 +77,6 @@ Wanneer de compensatiebedragen voor een werknemer zijn gecontroleerd en eventuel
 Wanneer de status van een of meer werknemersgebeurtenissen is gewijzigd in Goedgekeurd, kunnen ze worden geladen in de vaste-compensatierecords van de werknemers. U kunt dit doen door elke werknemersgebeurtenis apart te selecteren en te klikken op de knop **Werknemerscompensatie laden** op de pagina **Resultaten werknemer**, of door te klikken op **Compensatie laden** op de pagina **Verwerkingsresultaten** om zo alle goedgekeurde werknemersgebeurtenissen tegelijk te laden.
 
 Als u klikt op **OK** in het dialoogvenster **Compensatie laden**, voegt u de compensatieactieregels die een waarde hoger dan nul hebben in de pagina **Vaste compensatie voor werknemer**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

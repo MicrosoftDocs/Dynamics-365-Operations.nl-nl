@@ -334,3 +334,6 @@ De overboekingsorders worden gemaakt zonder gebruik te maken van de mogelijkhede
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>Kan ik een nummerplaat gebruiken die een fysieke negatieve voorhanden voorraad heeft?
 
 De functie ondersteunt alleen positieve fysieke voorhanden hoeveelheden. Zorg ervoor dat u positieve fysieke voorhanden hoeveelheden hebt op magazijn- en voorraadstatusniveau voordat u nummerplaten aan een overboekingsorder toewijst.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

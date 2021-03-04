@@ -42,3 +42,6 @@ In Microsoft Dynamics 365 Human Resources vormen wachtdagen een maandelijkse mij
    | **Dag** | De dag van de maand waarop het systeem de datum van de wachtperiode moet instellen. |
    
 4. Selecteer **Opslaan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

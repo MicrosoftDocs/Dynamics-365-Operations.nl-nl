@@ -53,3 +53,6 @@ Deze wijziging voegt een optie voor verwijderen toe aan het formulier **Medewerk
 5. Stel de machtiging **Verwijderen** in op Toewijzen.
 6. Selecteer het tabblad **Niet-gepubliceerde objecten**.
 7. Selecteer **Alles publiceren**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

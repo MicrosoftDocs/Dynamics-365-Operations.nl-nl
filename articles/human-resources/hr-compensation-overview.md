@@ -132,3 +132,6 @@ Nadat u een procesgebeurtenis uitvoert, kunt u aanbevelingen doen voor aanpassin
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

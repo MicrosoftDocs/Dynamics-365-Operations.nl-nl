@@ -68,3 +68,6 @@ De producten die door uw organisatie worden verkocht, kunnen variëren qua dimen
     De pagina **Totalen** bevat details over de gehele order. Dit omvat het subtotaalbedrag, wat een som is van alle regelnettobedragen, aangepast voor uiteindelijke regelkortingen, het totale factuurbedrag, dat een subtotaalbedrag is, aangepast voor uiteindelijke korting op orderniveau, toeslagen, btw, de situatie van de kredietlimiet van de klant, en meer. Het factuurbedrag is het bedrag dat op het factuurdocument van de klant wordt weergegeven.  
     
 3. Selecteer **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

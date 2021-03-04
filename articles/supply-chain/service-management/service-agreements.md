@@ -79,3 +79,6 @@ Elke serviceovereenkomstregel beschrijft in detail de inhoud van het voorgesteld
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 [Serviceovereenkomsten maken](create-service-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

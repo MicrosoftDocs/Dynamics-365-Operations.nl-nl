@@ -42,3 +42,6 @@ U kunt deze procedure uitvoeren met behulp van het demobedrijf USMF of met uw ei
 1. Klik in het actievenster op Kosten beheren.
 2. Klik op Berekeningsdetails weergeven.
     * Op deze pagina wordt de kostenanalyse weergegeven. U kunt bijvoorbeeld de totale kostprijs per eenheid weergeven voor het eindproduct op de eerste regel. De volgende rijen bevatten kosten volgens de stuklijst, productieroute en indirecte kosten.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -91,3 +91,5 @@ Nadat u de controlelijst hebt ingediend, zal uw FastTrack Solution Architect het
 ## <a name="see-also"></a>Zie ook
 
 [Veelgestelde vragen over go-live](hr-admin-go-live-faq.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

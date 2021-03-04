@@ -61,3 +61,6 @@ Dit onderwerp beschrijft hoe deze activiteiten weer te geven in een serviceorder
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

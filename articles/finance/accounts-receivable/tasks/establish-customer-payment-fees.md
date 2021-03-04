@@ -51,3 +51,6 @@ Bij deze taak wordt het demobedrijf USMF gebruikt.
 18. Selecteer in het veld **Valuta van kosten** de valuta van de bijzondere kosten. Dit is de valuta waarin de bijzondere kosten worden gemaakt.  
 19. Klik op **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

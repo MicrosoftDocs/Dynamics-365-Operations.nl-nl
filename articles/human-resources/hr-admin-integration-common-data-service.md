@@ -118,3 +118,6 @@ Een volledige synchronisatie uitvoeren voor een entiteit tussen Human Resources 
 [![Een volledige synchronisatie uitvoeren](./media/hr-common-data-service-configuration-sync-now.png)](./media/hr-common-data-service-configuration-sync-now.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

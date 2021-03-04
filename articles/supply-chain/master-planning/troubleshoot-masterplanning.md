@@ -89,3 +89,6 @@ Een manier om de prestaties te verbeteren met de ingebouwde hoofdplanningsengine
 
 > [!NOTE]
 > Hierdoor wordt de periode voor explosies die voor dit hoofdplan worden uitgevoerd tot één dag beperkt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

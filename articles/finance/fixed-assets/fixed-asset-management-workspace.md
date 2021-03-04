@@ -74,3 +74,6 @@ In de volgende tabel ziet u de visualisaties die op elke rapportpagina beschikba
 | Waarderingstoewijzingen        | Gegevens voor vaste activa |
 
 Als u de analyses met gegevens wilt weergeven, moet u eerst de samengevoegde meting AssetTransactionMeasure vernieuwen op de pagina **Entiteitsopslag**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

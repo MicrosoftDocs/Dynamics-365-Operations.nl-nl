@@ -64,3 +64,6 @@ Deze procedure is gericht op het maken van een nieuwe productstroomversie. Voor 
     * Voer het aantal dagen in het veld Periode voor werkelijke cyclusduur in. De periode voor de werkelijke cyclustijd is het aantal dagen dat taken worden samengevoegd vanaf de werkelijke minuut achterwaarts om de werkelijke cyclustijd te berekenen. De waarde kan altijd worden gewijzigd en wordt alleen gebruikt voor de berekening van de werkelijke cyclustijden.  
 13. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

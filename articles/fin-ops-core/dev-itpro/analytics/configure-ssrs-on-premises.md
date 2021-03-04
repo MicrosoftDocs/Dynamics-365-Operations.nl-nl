@@ -93,3 +93,6 @@ Volg de stappen in dit onderwerp om SQL Server Reporting Services (SSRS) te conf
 13. Klik op **Afsluiten** om de **Reporting Services Configuration Manager** te sluiten.
 
     [![Reporting Services Configuration Manager sluiten](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

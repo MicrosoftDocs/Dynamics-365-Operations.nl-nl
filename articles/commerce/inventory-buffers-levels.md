@@ -149,3 +149,6 @@ Voer de volgende stappen uit om de respons van de API's voor productbeschikbaarh
 [Voorraadinstellingen toepassen](inventory-settings.md)
 
 [Voorraadbeschikbaarheid voor detailhandelafzetkanalen berekenen](calculated-inventory-retail-channels.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

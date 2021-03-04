@@ -101,3 +101,6 @@ Op het tabblad **Catalogi** zijn ook opties beschikbaar voor het configureren va
 ## <a name="additional-notes"></a>Verdere notities
 
 Momenteel, wanneer een broncode-ID wordt toegepast op een verkooporder in een callcenter, wordt deze gebruikt voor prijzen, promoties, scripts en upsells/cross-sells die catalogusspecifiek zijn. Het systeem verbiedt of voorkomt niet dat een product dat niet in de catalogus staat, wordt besteld op de verkooporder. Als een artikel wordt besteld dat geen deel uitmaakt van de catalogus, probeert het systeem eerst de **prijsgroep** te gebruiken die is gedefinieerd in het callcenterkanaal (**Retail en Commerce** \> **Afzetkanalen** \> **Callcenters** \> **Alle callcenters**) voor artikelprijs of promoties. Als er geen specifieke kanaalprijs wordt gevonden, wordt de basisverkoopprijs van het artikel gebruikt.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

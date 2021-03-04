@@ -57,3 +57,6 @@ Zie de volgende onderwerpen voor meer informatie over elke stap in het proces va
 
 ## <a name="next-step"></a>Volgende stap
 [Een hypothese opstellen en metrische gegevens voor succes bepalen voor een experiment](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

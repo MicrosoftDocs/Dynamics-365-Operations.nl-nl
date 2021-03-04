@@ -94,3 +94,6 @@ Een wijziging in de beveiligingsrollen van een gebruiker aanvragen:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

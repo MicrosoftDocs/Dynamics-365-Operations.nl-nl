@@ -60,3 +60,6 @@ Klanten doen een gedeeltelijke betaling waarbij het restbedrag niet wordt betaal
 
 
 Zie [Klantbetalingen storten](tasks/deposit-customer-payments.md) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

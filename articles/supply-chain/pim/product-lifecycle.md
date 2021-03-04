@@ -109,3 +109,6 @@ Gebruik de volgende criteria voor het selecteren en bijwerken van de vrijgegeven
 - [De status van een productlevenscyclus toewijzen aan een vrijgegeven product](tasks/product-lifecycle-state-released-product.md)
 - [Verouderde productvarianten zoeken en een status voor de productlevenscyclus toewijzen](tasks/obsolete-product-variants.md)
 - [Een status voor de productlevenscyclus maken om producten uit te sluiten van Hoofdplanning](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

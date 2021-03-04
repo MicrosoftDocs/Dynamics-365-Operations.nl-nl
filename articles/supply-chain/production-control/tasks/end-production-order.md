@@ -46,3 +46,6 @@ Deze procedure laat zien hoe u een productieorder beëindigt. Het bedrijf van de
 1. Klik in het actievenster op Kosten beheren.
 2. Klik op Kostenvergelijking weergeven.
     * Nadat u de productieorder hebt beëindigd, kunt u de geschatte kostprijs vergelijken met de gerealiseerde kostprijs om een overzicht te krijgen van de productvarianties.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

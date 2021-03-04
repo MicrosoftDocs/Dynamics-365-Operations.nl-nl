@@ -63,3 +63,6 @@ De interface voor grafische ontwerpen voor MPOS of Cloud POS wordt bepaald door 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Retail Modern POS (MPOS) configureren, installeren en activeren](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

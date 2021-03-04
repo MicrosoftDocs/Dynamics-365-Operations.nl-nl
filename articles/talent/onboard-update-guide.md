@@ -52,3 +52,6 @@ Vanuit Onboard wordt automatisch een e-mail naar de nieuwe medewerker verzonden 
     ![[De wijzigingen in een onboardingsjabloon pushen naar alle handleidingen die op basis hiervan zijn gemaakt](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
 De wijzigingen zijn zichtbaar voor nieuwe medewerkers die de onboardinghandleidingen openen. Onboard verzendt echter geen e-mailwaarschuwingen naar nieuwe medewerkers om ze te laten weten dat hun onboardinghandleiding is gewijzigd. Voor eenvoudige identificatie wordt naast elke wijziging het label **Nieuw** weergegeven. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

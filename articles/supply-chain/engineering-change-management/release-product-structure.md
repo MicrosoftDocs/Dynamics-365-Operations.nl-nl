@@ -160,3 +160,6 @@ Dit gedrag is alleen van toepassing wanneer een product rechtstreeks voor vrijga
 Product X wordt bijvoorbeeld toegewezen aan de producteigenaarsgroep *Designkasten*. Product X maakt ook deel uit van de stuklijst van product Y, dat is toegewezen aan de producteigenaarsgroep *Design luidsprekers*. Als een gebruiker in de producteigenaarsgroep *Design luidsprekers* product Y en de bijbehorende stuklijst vrijgeeft, wordt product X samen met product Y vrijgegeven.
 
 Zie voor meer informatie [Producteigenaren](product-owner.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

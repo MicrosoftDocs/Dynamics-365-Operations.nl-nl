@@ -131,3 +131,6 @@ Voordat u de groepering van orderverzamelregels kunt instellen, moet u in aanmer
 >    - Werkregels met onvoltooid aanvullingswerk.
 >    - Meerverzameling.
 >    - Kort orderverzamelen met artikelhertoewijzing
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

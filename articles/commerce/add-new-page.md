@@ -91,3 +91,6 @@ Voer de volgende stappen uit om een nieuwe sitepagina aan uw site toe te voegen.
 [Een landingspagina voor een categorie verrijken](enrich-category-page.md)
 
 [Toegankelijkheid van pagina-inhoud controleren](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ In het volgende voorbeeld ziet u welke stappen een gebruiker moet uitvoeren om d
 5. Selecteer **OK**.
 
 U kunt het Semansys DataBridge-indelingspakket nu naar de XBRLOne-portal overdragen voor de volgende stappen in het proces.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

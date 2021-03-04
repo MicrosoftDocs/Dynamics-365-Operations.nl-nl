@@ -155,3 +155,6 @@ Als u de magazijn-app probeert te gebruiken voor verzamelen van werk voor een we
 ## <a name="other-blocked-operations"></a>Andere geblokkeerde bewerkingen
 
 Bewerkingen waarmee werkregels, werkvoorraadtransacties of aanvullingskoppelingen worden gewijzigd die zijn gerelateerd aan het werk dat wordt gesplitst, zullen mislukken en het volgende foutbericht wordt weergegeven: "Het werk met ID \#\#\#\# wordt momenteel gesplitst."
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -91,3 +91,6 @@ Als de parameter **model.RoundOff** is ingesteld op **RoundOffType.RoundUp**, re
 [Andere functies (voor specifiek zakelijk domein)](er-functions-category-other.md)
 
 [Wiskundige functies](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

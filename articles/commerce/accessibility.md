@@ -114,3 +114,6 @@ Volg deze stappen om het kenmerk **Minimumleeftijd** voor een video-asset in te 
 [Een pagina met het privacybeleid toevoegen](add-privacy-page.md)
 
 [Gebruikers-id's vervangen die zijn gekoppeld aan wijzigingen in bijgehouden inhoud](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

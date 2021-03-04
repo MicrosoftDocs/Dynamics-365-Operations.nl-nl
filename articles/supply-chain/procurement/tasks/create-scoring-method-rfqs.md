@@ -47,3 +47,6 @@ Deze procedure laat zien hoe u een scoringsmethode maakt. Een scoringsmethode is
 14. Typ een getal in het veld Bereik van.
 15. Typ een getal in het veld Bereik tot.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

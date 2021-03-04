@@ -77,3 +77,6 @@ Wanneer de cultuur niet is gedefinieerd als een argument van de aangeroepen func
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Datum- en tijdfuncties](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

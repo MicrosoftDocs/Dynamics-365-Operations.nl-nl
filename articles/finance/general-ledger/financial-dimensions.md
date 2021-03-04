@@ -140,3 +140,6 @@ Zie de volgende onderwerpen voor meer informatie:
 
 - [Financiële dimensies definiëren](tasks/define-financial-dimensions.md)
 - [Standaardsjablonen voor financiële dimensies onderhouden](tasks/maintain-financial-dimension-default-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

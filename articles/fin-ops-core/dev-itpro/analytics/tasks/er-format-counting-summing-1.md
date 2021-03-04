@@ -56,3 +56,6 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 8. Vouw in de structuur 'Intrastat-model' uit.
 9. Selecteer in de structuur 'Intrastat-model\Intrastat (DE)'.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

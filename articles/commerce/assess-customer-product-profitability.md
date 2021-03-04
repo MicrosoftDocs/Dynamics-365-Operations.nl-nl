@@ -56,3 +56,6 @@ Voor deze beoordeling kunt u het kant-en-klare rapport **Beste producten** gebru
 - Werkgebied **Winkelbeheer** &gt; **Retail en Commerce** &gt; **Kanalen** &gt; **Winkelbeheer** &gt; **Rapporten** &gt; **Rapport Topproducten**
 - Werkgebied **Categorie- en productbeheer** &gt; **Retail en Commerce** &gt; **Producten en categorieën** &gt; **Beheer van detailhandelwinkel** &gt; **Rapporten** &gt; **Rapport Topproducten**
 - Sectie **Query's en rapporten** &gt; **Retail en Commerce** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Topproducten**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

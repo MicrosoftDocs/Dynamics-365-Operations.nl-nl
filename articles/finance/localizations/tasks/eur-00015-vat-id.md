@@ -61,3 +61,6 @@ Deze informatie is van toepassing op alle Europese landen/regio's. De taak werd 
     * Wijs het registratietype dat u hebt gemaakt toe aan een vooraf gedefinieerde registratiecategorie.  
 22. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

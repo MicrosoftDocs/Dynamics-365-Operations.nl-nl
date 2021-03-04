@@ -42,3 +42,6 @@ In dit onderwerp procedure ziet u hoe u een periode in de wachtstand plaatst of 
 11. Selecteer **Periodestatus bijwerken** en stel de status in op **In wachtstand**, **Open** of **Definitief afgesloten**. **Open** geeft aan dat er naar de periode kan worden geboekt, mits de gebruiker toegang heeft. Bij **In wachtstand** kan er niet worden geboekt naar de periode, maar kan de periode wel worden heropend. Bij **Definitief afgesloten** is de periode afgesloten en kan deze niet meer worden geopend. Aanpassingen kunnen niet worden geboekt. Het is raadzaam om een periode pas op **Definitief afgesloten** in te stellen wanneer alle correcties en audits zijn voltooid.  
 12. Selecteer **Bijwerken**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

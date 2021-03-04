@@ -207,3 +207,6 @@ De volgende belangrijke dimensies worden gebruikt als filters voor het segmenter
 | Rechtspersonen                                          | Namen rechtspersonen                              |
 | Fiscale kalenders                                        | Fiscale kalender, jaar, kwartaal, periode, maand   |
 | Site                                                    | Id, naam, adres, provincie/staat, land               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

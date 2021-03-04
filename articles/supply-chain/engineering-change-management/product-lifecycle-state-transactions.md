@@ -76,3 +76,6 @@ De volgende velden zijn beschikbaar voor elk proces dat wordt vermeld op het sne
 | Polis | Selecteer een van de volgende waarden om te bepalen of en hoe het huidige proces wordt toegestaan voor producten in deze levenscyclusstatus:<ul><li>**Ingeschakeld**: het bedrijfsproces is toegestaan.</li><li>**Geblokkeerd**: het proces is niet toegestaan. Als een gebruiker het proces wil gebruiken voor een product in deze levenscyclusstatus, wordt de poging door het systeem geblokkeerd en wordt er in plaats daarvan een fout weergegeven. U kunt bijvoorbeeld blokkeren dat producten aan het einde van hun levenscyclus worden gekocht.</li><li>**Ingeschakeld met waarschuwing**: het proces is toegestaan, maar er wordt een waarschuwing weergegeven. U kunt bijvoorbeeld een prototypeproduct op een productieorder plaatsen die wordt gemaakt door de afdeling Onderzoek en ontwikkeling. Andere afdelingen moeten er echter rekening mee houden dat zij het product nog niet mogen produceren.</li></ul> |
 
 Als u meer levenscyclusstatusregels toevoegt als aanpassing, kunt u deze regels weergeven in de gebruikersinterface door **Processen vernieuwen** te selecteren in het bovenste deelvenster. De knop **Processen vernieuwen** is alleen beschikbaar voor beheerders.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

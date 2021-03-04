@@ -62,3 +62,6 @@ ICL-lijst maken en indienen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

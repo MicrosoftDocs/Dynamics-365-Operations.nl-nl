@@ -82,3 +82,6 @@ Deze procedure demonstreert hoe u klantkortingen verwerkt van het genereren van 
     - De kortingstoenamerekening is gecrediteerd als aanduiding van de toekomstige verplichting naar de klant toe.
     - De kortingsonkostenrekening is gedebiteerd om de kosten te herkennen die zijn gemaakt in verband met de verkoop.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

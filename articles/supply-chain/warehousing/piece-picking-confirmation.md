@@ -51,3 +51,6 @@ De volgende opties worden beschikbaar voor selectie, wanneer het type werk verza
 | Bevestiging van orderverzameling | Beschikbaar voor werktypen verzamelen en tellen. Productbevestiging wordt automatisch ingeschakeld. Hiermee kunt u elk stuk van de voorraad vanaf het mobiele apparaat bevestigen. |
 |  Maximumaantal stuks  |                   Beschikbaar voor verzamelingswerk, als bevestiging voor stuksverzamelen is ingeschakeld. Stelt een limiet in op het aantal onderdelen dat u moet bevestigen.                   |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

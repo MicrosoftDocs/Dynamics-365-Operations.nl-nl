@@ -41,3 +41,6 @@ Deze procedure laat zien hoe u een productmodel vrijgeeft dat voor de op dimensi
 7. Klik op Volgende.
 8. Klik op Voltooien.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

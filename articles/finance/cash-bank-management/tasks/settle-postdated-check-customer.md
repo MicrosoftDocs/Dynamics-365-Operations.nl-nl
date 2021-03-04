@@ -56,3 +56,6 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
 10. Klik op Boekstuk.
 11. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

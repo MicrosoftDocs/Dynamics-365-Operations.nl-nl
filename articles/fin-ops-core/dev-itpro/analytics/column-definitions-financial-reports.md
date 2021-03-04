@@ -599,3 +599,6 @@ U kunt het bedrag in een kolom delen door een opgegeven aantal perioden. De form
 [Rijdefinities in Ontwerper financiële rapporten](row-definitions-financial-reporting.md)
 
 [Geavanceerde opmaakopties in financiële rapportage](advanced-formatting-options-financial-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

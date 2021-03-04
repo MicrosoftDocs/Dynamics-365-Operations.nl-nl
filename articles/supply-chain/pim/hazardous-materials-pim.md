@@ -61,3 +61,6 @@ Als u deze gegevens wilt configureren, maakt u een verordening die u kunt gebrui
 ## <a name="warehouse-management"></a>Magazijnbeheer
 
 Wanneer een zending wordt voorbereid, kunnen verschillende nieuwe rapporten worden afgedrukt. Deze rapporten gebruiken de informatie die u hebt ingesteld in Productgegevensbeheer.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

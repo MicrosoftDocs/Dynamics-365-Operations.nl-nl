@@ -43,3 +43,6 @@ In dit onderwerp wordt beschreven hoe u een product kunt classificeren met behul
 11. Typ of selecteer een waarde in het veld **Categorie**.
 12. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

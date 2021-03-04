@@ -439,3 +439,6 @@ In de volgende tabel worden de verschillende werktypen beschreven waarbij u werk
 [Voorraadstatussen](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

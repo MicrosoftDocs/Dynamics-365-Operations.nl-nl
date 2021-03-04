@@ -84,3 +84,6 @@ U kunt redencodes zo configureren dat ze vereist zijn voor wijzigingen in een va
 Tot slot definieert u op het tabblad **Nummerreeksen** nummerreeksen voor vaste activa. De nummerreeks van het **Vaste activum** kan worden overschreven door de nummerreeks van de **Vaste-activagroep** als deze is opgegeven.
 
 Zie [Vaste activa maken](tasks/create-fixed-asset.md) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

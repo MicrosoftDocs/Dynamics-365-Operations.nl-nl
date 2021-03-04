@@ -42,3 +42,6 @@ In dit onderwerp ziet u hoe de standaardsjablonen van de financiële dimensie wo
 11. Voer de financiële dimensiewaarden in die overeenkomen met het ingevoerde percentage.
 12. Selecteer **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

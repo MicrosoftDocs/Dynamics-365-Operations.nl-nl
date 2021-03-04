@@ -238,3 +238,6 @@ Wanneer een order met meerdere betalingsmethoden en meerdere regels wordt opgeha
 - [Dynamics 365-betalingsconnector voor Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
 - [BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

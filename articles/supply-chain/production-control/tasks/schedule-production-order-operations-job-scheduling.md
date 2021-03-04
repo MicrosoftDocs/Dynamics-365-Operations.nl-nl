@@ -56,3 +56,6 @@ Dit onderwerp is gericht op het plannen van een productieorder met bewerkingspla
 6. Selecteer **Productieorder** in het actievenster.
 7. Selecteer **Alle taken**. Merk op dat op basis van de actieve route, 5 taken worden gemaakt met taakplanning.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ De basisprijs of index van het abonnement wordt bijgewerkt met de opgegeven waar
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

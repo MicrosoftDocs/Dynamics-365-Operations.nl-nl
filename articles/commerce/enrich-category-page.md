@@ -65,3 +65,6 @@ Ga als volgt te werk om een categoriepagina te verrijken.
 [Een productpagina verrijken](enrich-product-page.md)
 
 [Toegankelijkheid van pagina-inhoud controleren](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

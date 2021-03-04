@@ -82,3 +82,6 @@ De hoeveelheid van de stuklijst (BOM) is 1 en productiehoeveelheid is 110. De fo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

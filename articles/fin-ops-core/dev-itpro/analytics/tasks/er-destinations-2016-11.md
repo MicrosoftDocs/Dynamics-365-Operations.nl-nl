@@ -60,3 +60,6 @@ De in dit voorbeeld gebruikte indeling is ISO20022 Kredietoverdracht, maar u kun
 21. Typ een waarde in het veld Onderwerp.
 22. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Volg deze stappen om een map met afbeeldingen in bulk te uploaden.
 [Focuspunten van afbeelding aanpassen](dam-custom-focal-point.md)
 
 [Statische bestanden uploaden en verwerken](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

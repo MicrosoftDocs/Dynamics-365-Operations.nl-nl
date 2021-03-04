@@ -59,3 +59,6 @@ Voor deze taakbegeleiding is Dynamics AX platform 7.1 of later vereist.
 27. Vernieuw de pagina.
 28. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

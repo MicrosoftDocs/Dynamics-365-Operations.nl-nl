@@ -146,3 +146,6 @@ Voer de volgende stappen uit om de winkelselectiemodule te configureren voor de 
 [REST API's van Bing Kaarten](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [Module Kaarten](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

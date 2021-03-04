@@ -70,3 +70,6 @@ Let op de volgende punten:
 
 - U kunt tellers instellen die zijn gerelateerd aan een andere teller. In dit geval worden gerelateerde tellers tegelijkertijd automatisch bijgewerkt wanneer een teller wordt bijgewerkt. Zie [Tellers](../setup-for-objects/counters.md) voor meer informatie over het instellen van gerelateerde tellers.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

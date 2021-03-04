@@ -53,3 +53,6 @@ Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is
 3. Selecteer **OK**.
 4. Selecteer **Geplande orders**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

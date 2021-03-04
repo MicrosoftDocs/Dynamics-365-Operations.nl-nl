@@ -70,3 +70,6 @@ Deze procedure laat zien hoe u het salarisproces voor tijd en aanwezigheid kunt 
 7. Klik op Bewerken.
 8. Typ of selecteer een waarde in het veld Salarisovereenkomst.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

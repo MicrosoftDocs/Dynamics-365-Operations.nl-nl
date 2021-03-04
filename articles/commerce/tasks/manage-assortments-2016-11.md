@@ -55,3 +55,6 @@ In deze procedure wordt getoond hoe u een nieuw productassortiment kunt maken en
 1. Klik op Publiceren.
 2. Klik op Ja.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

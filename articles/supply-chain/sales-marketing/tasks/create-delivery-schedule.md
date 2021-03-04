@@ -65,3 +65,6 @@ Deze procedure toont hoe een afleveringsschema voor een verkooporder wordt gemaa
 22. Klik op OK.
 23. Klik op Ja.
 24. Sluit de pagina.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

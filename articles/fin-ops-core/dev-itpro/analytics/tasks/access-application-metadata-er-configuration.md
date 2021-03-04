@@ -125,3 +125,6 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configur
 > [!NOTE]
 > Deze manier om informatie op te halen over de metagegevens van de toepassing is de enige die beschikbaar is voor lokaal geïmplementeerde toepassingen (wanneer een LBD (Local Business Data) of on-premises implementatiemodel wordt gebruikt).
         
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

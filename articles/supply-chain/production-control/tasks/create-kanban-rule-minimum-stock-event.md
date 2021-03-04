@@ -68,3 +68,6 @@ Deze procedure is gericht op de instellingen die nodig zijn om een kanbanregel t
 5. Vouw de sectie Kanbans uit.
     * Merk op dat een kanban is gemaakt om het benodigde materiaal over te dragen naar magazijn 12.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

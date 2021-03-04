@@ -81,3 +81,6 @@ Nadat u de basisgegevens over uw offerteaanvraag hebt opgegeven, geeft u de goed
 4. Sluit de pagina.
 5. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

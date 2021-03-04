@@ -40,3 +40,6 @@ De pagian **Overzicht van activakenmerk** bevat een afzonderlijke regel voor elk
 3. Selecteer **OK**. In een lijst worden alle activa weergegeven die het geselecteerde activatype gebruiken. Voor elk activum worden alle verwante typen activakenmerken weergegeven op dezelfde regel.
 
 Op de pagina **Activakenmerk** wordt een afzonderlijke regel weergegeven voor elk kenmerktype dat voor een activum wordt gebruikt. U kunt deze pagina openen door **Activabeheer** \> **Query's** \> **Activa** \> **Activakenmerk** te selecteren.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

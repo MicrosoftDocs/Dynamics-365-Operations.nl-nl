@@ -189,3 +189,6 @@ Als u een contactpersoon wilt bewerken, selecteert u de knop **Bewerken** (het p
 - [Nieuwe of gewijzigde functies in Dynamics 365 Talent](./whats-new.md)
 - [Vrijgaveplannen](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Ondersteuning voor Microsoft Dynamics 365 Talent](./talent-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

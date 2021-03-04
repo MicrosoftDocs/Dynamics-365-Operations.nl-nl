@@ -88,3 +88,6 @@ De herwaarderingstransactie voor vreemde valuta wordt ook gesplitst voor de dime
 Als u de herwaarderingtransactie moet omkeren, selecteert u **Transactie omkeren** in het actievenster van de pagina **Herwaardering van vreemde valuta**. Er wordt een nieuw historisch record voor herwaardering van vreemde valuta gemaakt om de historische audittrail te onderhouden voor wanneeer de herwaardering heeft plaatsgevonden of is omgekeerd.
 
 Als u omkeren verschillende herwaarderingen wilt omkeren, moet u eerst de meest recente herwaardering omkeren. Vervolgens gaat u verder met het omkeren van oudere herwaarderingen in volgorde van datum. U kunt vervolgens nieuwe herwaarderingen verwerken voor de perioden die u hebt omgekeerd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

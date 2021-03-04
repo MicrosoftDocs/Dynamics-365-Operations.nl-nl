@@ -170,3 +170,6 @@ Wanneer de optie **Klantorder maken in asynchrone modus** is ingesteld op **Ja**
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Hybride klantorders](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

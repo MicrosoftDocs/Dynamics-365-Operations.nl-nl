@@ -90,3 +90,6 @@ De tweede verkooporder wordt nu gefactureerd. De totale factuur voor de klant is
 [![De pagina Boekstuktransacties met de geboekte journaalregel](./media/24_rev-rec-scenarios.png)](./media/24_rev-rec-scenarios.png)
 
 Omdat het totaal van de opbrengst en verkopen meer dan $ 1170,44 is, wordt het verschil geboekt voor -$ 130,17. Met dit bedrag wordt het saldo van de vereffeningsrekening voor gedeeltelijke factuuropbrengst gewist. Dat saldo wordt na de hertoewijzing in de nieuwe journaalregel geboekt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

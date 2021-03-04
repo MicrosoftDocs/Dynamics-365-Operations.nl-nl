@@ -536,3 +536,6 @@ U kunt de status van het bericht nu verwijderen of bijwerken. Selecteren **Statu
 ![De berichtstatus bijwerken](media/update-status.png)
 
 De berichtstatus wordt bijgewerkt naar **Voorbereid** en u kunt het rapport nu genereren door **Rapport genereren** te selecteren. Het rapport wordt gegenereerd en de berichtstatus en het actielogboek worden bijgewerkt. Als u het gegenereerde rapport wilt weergeven, selecteert u de knop **Bijlage** (de paperclip) in de rechterbovenhoek van de pagina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

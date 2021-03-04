@@ -64,3 +64,6 @@ Zie [Een evaluatieomgeving van Commerce inrichten](provisioning-guide.md) om de 
 [Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren](cpe-optional-features.md)
 
 [Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce](cpe-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -117,3 +117,6 @@ Voer de volgende stappen uit om een winkelwagenmodule aan een nieuwe pagina toe 
 [Voorraadbeschikbaarheid voor detailhandelafzetkanalen berekenen](calculated-inventory-retail-channels.md)
 
 [Een online functionaliteitsprofiel maken](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

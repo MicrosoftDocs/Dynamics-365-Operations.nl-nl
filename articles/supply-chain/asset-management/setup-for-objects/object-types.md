@@ -97,3 +97,6 @@ Op de pagian **Reserveonderdelen** kunt u ook nieuwe reserveonderdelen maken voo
 
 Als u wilt zien of het reserveonderdeel op de geselecteerde regel ergens anders in activabeheer wordt gebruikt (bijvoorbeeld in relatie tot activa en werkorders), selecteert u **Artikel waar gebruikt** om de pagina **Artikel waar gebruikt** te openen. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -128,3 +128,6 @@ In dit voorbeeld komt elke rekening die onderdeel is van de Rekeningstructuur - 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

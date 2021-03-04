@@ -109,3 +109,6 @@ In de onderstaande schermafbeelding is **Type** toegevoegd en de meest gedetaill
 >[!NOTE]
 >Voor een overzicht van alle gemaakte foutregistraties voor werkorders en onderhoudsverzoeken klikt u op **Activabeheer** > **Query's** > **Activafout** > **Activafouten**. Selecteer op de pagina **Activafouten** een activumfoutregistratie en vouw het deelvenster **Verwante informatie** uit om informatie over de bijbehorende werkorder of het bijbehorende onderhoudsverzoek weer te geven.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

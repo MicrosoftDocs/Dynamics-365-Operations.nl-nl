@@ -62,3 +62,6 @@ Deze procedure laat zien hoe u leveranciers voor specifieke producten goedkeurt.
 31. Sluit de pagina.
 32. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

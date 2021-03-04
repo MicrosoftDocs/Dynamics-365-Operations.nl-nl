@@ -131,3 +131,6 @@ Document / journaal is ingesteld op Bedragen inclusief BTW = Nee Transactieregel
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ De periodieke journalen worden soms terugkerende journalen genoemd, omdat het be
 27. Typ of selecteer een waarde in het veld **Periodiek-journaalnummer**.
 28. Klik in de lijst op de koppeling in de geselecteerde rij.
 29. Klik op **OK**. Het periodejournaal kan nu worden gecontroleerd, goedgekeurd of geboekt, afhankelijk van vereisten en instellingen.   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

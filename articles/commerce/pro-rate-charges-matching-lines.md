@@ -175,3 +175,6 @@ Wanneer deze berekeningsmethode wordt gebruikt in een scenario van een gedeeltel
 [Geavanceerde automatische toeslagen voor meerdere kanalen](omni-auto-charges.md)
 
 [Automatische toeslagen per kanaal inschakelen en configureren](auto-charges-by-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

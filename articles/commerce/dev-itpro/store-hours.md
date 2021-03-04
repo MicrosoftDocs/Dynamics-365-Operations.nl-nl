@@ -78,3 +78,6 @@ Voer de volgende stappen uit om openingstijden toe te voegen aan de afgedrukte P
 POS-ontvangstbewijzen bevatten nu de openingstijden. Als de sjabloon feestdagen bevat, worden deze weergegeven op het ontvangstbewijs.
 
 ![Voorbeeld van ontvangstbewijs](../dev-itpro/media/Storehours3.png "Voorbeeld van ontvangstbewijs")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

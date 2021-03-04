@@ -57,3 +57,6 @@ Deze taak maakt een bankfaciliteitsovereenkomst om een borgstelling te verwerken
 5. Klik op Opslaan.
 6. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

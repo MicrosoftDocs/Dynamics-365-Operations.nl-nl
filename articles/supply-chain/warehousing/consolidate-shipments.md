@@ -39,3 +39,6 @@ In de volgende scenario's wordt u door het consolidatieproces voor zendingen gel
 
 - [Beleidsregels voor consolidatie van zendingen](about-shipment-consolidation-policies.md)
 - [Consolidatiebeleid voor zendingen configureren](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

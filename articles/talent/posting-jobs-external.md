@@ -102,3 +102,6 @@ Als u problemen hebt met het publiceren van een functie naar Broadbean, probeert
 [Functies maken, goedkeuren en boeken in Attract](./creating-jobs-attract.md)
 
 [Broadbean-integratie inschakelen in Microsoft Dynamics 365 Talent - Attract](./attract-admin-job-board-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

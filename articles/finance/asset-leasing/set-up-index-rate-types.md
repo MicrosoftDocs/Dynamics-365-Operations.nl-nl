@@ -43,3 +43,6 @@ U moet **Waardeverschil indextarief** of **Waarde indextarief** selecteren als d
 
 - Selecteer de methode **Waardeverschil indextarief** om een nieuwe leasebetaling te berekenen op basis van het verschil tussen het indextarief op de begin datum en het meest recente indextarief. Het indextarief wordt gedefinieerd in het veld **Indextarief (%)**.
 - Selecteer de methode **Waarde indextarief** om de leasebetaling te berekenen met behulp van het percentage dat is opgegeven in het veld **Indextarief (%)**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

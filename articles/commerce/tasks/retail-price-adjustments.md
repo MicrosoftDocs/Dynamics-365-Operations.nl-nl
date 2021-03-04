@@ -53,3 +53,6 @@ Deze procedure doorloopt het maken van een prijscorrectie voor commerce. Een pri
 14. Sluit de pagina.
 15. Vernieuw de pagina.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

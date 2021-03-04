@@ -117,3 +117,6 @@ Als u deze methode wilt gebruiken voor een groot aantal transactiegegevens, moet
 [De ER-functie FIRSTORNULL](er-functions-list-firstornull.md)
 
 [De ER-functie WHERE](er-functions-list-where.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -281,3 +281,6 @@ Als een van de eerder genoemde configuraties ontbreekt in de configuratiestructu
 6. Selecteer in het veld **Bankrekening** de optie **DEMF OPER**.
 7. Selecteer in het dialoogvenster **Betalingen genereren** de optie **OK**.
 8. Selecteer **OK** in het dialoogvenster **Parameters elektronisch rapport**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ In het voorgaande voorbeeld werd één extra kostprijsberekeningsversie gebruikt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Als u twee valuta's gebruikt of als u één valuta gebruikt maar transacties wor
 Gerealiseerde winsten en verliezen zijn winsten en verliezen die zijn gemaakt op basis van voltooide transacties. Deze worden vastgelegd in de winst- en verliesrekening. Niet-gerealiseerde winsten en verliezen zijn winsten en verliezen die zijn gerealiseerd, maar waarvoor de transactie niet is voltooid. Met andere woorden: u hebt bijvoorbeeld een factuur geboekt, maar de factuur is nog niet vereffend en betaald. Niet-gerealiseerde winsten en verliezen worden op de balans geregistreerd.
 
 Raadpleeg [Twee valuta's](dual-currency.md) voor meer informatie over het werken met twee valuta's.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

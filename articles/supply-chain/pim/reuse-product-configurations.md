@@ -45,3 +45,6 @@ Wanneer u configuratiehergebruik opnieuw instelt, worden eerder gemaakte configu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

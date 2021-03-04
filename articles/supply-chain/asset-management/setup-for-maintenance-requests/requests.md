@@ -42,3 +42,6 @@ U kunt verschillende typen verzoeken instellen om in uw bedrijf te gebruiken. On
 In de volgende afbeelding ziet u een voorbeeld van de lijstpagina **Alle onderhoudsverzoeken**.
 
 ![Lijstpagina Alle onderhoudsverzoeken](media/01-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

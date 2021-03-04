@@ -102,3 +102,6 @@ U kunt verzekeringspolissen en garanties maken op de pagina **Alle klanten** (**
     In dit geval is de effectieve kredietlimiet 125.000 (= A + \[B × C\]).
     
     Als u het selectievakje **Opgenomen in risico** echter inschakelt, wordt de waarde **Kredietlimiet bijwerken** van 50.000 (= 50 procent van 100.000) verwijderd en is de risicowaarde 75.000 (= A + \[B × C\] – B).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

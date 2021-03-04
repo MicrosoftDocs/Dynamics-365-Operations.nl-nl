@@ -95,3 +95,6 @@ Wanneer u externe bronnen als DMF gebruikt om gegevens te bekijken of op te geve
 
 [Datum- en tijdgegevens](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
 [Voorkeurstijdzones van gebruiker](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

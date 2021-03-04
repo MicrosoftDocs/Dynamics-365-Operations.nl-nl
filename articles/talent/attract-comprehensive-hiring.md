@@ -85,3 +85,6 @@ Er zijn verschillende redenen waarom u mogelijk niet alle Attract-functies ziet 
 
 - Uw collega werkt met een proefversie of een licentie voor Attract met de Uitgebreide invoegtoepassing voor aanstellingen, terwijl u met de basisversie van Attract werkt.
 - U hebt Attract met de Uitgebreide invoegtoepassing voor aanstellingen, maar u beschikt niet over de juiste rollen om alle functies te kunnen gebruiken. Zie voor meer informatie [Beveiliging en rollenbeheer in Attract](security-attract.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

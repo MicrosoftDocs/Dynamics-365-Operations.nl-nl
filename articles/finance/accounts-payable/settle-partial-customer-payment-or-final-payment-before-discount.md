@@ -149,3 +149,6 @@ Arnie boekt dit journaal en controleert de klanttransacties op de pagina **Klant
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

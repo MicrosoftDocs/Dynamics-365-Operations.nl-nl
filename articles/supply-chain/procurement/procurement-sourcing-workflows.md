@@ -80,3 +80,6 @@ U kunt een goedkeuringsstap toewijzen aan de volgende groepen deelnemers.
 - [Bedrijfsprocesworkflows voor opdrachten tot inkoop definiëren](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Workflow voor opdrachten tot inkoop](purchase-requisitions-workflow.md)
 - [Leveranciers onboarden](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

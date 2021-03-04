@@ -57,3 +57,6 @@ Als het bijvoorbeeld vandaag 1 februari is, op 14 februari medewerker Joe Smith 
    4. Selecteer **OK**. Het proces wordt uitgevoerd met de parameters die u instelt.
 
 4. Selecteer **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

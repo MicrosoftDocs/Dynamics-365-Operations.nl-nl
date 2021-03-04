@@ -62,3 +62,6 @@ U kunt een functie als **Positie vervuld** sluiten als ten minste één prospect
    > U kunt een functie alleen als **Positie vervuld** sluiten als ten minste één prospect de aanbiedingsfase heeft voltooid. Als voor de sollicitatie **Aanbieding geaccepteerd** is geselecteerd of als in de toepassing de status **Geaccepteerd** niet wordt weergegeven bij Aanbieding, wordt de optie **Positie vervuld** niet weergegeven in de vervolgkeuzelijst **Reden**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

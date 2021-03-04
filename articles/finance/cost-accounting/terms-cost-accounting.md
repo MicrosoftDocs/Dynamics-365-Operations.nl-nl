@@ -205,3 +205,6 @@ Overzichten zijn weergaven voor managers die verantwoordelijk zijn voor kostenbe
 Versies worden gebruikt om verschillende resultaten te simuleren, weer te geven en te vergelijken. Standaard worden alle werkelijke kosten weergegeven in een basisversie die wordt aangeduid als *werkelijk*. Voor budgetten en berekeningen kunt u werken met zoveel versies als nodig is. U kunt bijvoorbeeld budgetgegevens importeren in een oorspronkelijke versie en het budget vervolgens bewerken in een herziene versie. Voor berekeningen kunt u meerdere versies maken. In deze verschillende versies kunt u vervolgens berekeningen maken door middel van verschillende berekeningsregels die voor kostentoewijzing worden toegepast.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

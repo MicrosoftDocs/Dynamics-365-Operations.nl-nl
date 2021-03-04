@@ -109,3 +109,6 @@ In de volgende tabel worden de lijsttypen weergegeven die beschikbaar zijn voor 
 [Module met vakje voor kopen](add-buy-box.md)
 
 [Overzicht productaanbevelingen](product-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

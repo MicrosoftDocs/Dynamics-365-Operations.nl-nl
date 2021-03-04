@@ -221,3 +221,6 @@ Nadat het document de status **Aangevraagd** heeft gekregen, wordt het weergegev
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 [Uitgaande voorraadbewerking in POS](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

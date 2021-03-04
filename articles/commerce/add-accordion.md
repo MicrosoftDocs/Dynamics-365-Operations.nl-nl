@@ -87,3 +87,6 @@ Voer de volgende stappen uit om een accordeonmodule aan een pagina met veelgeste
 [Tabbladmodule](add-tab.md)
 
 [Text Block-module](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

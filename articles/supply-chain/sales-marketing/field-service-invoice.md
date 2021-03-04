@@ -108,3 +108,6 @@ In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Overeenkomstfacturen (Field Service naar Supply Chain Management): Factuurregels
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

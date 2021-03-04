@@ -207,3 +207,6 @@ Als u basislijninstellingen wilt importeren vanuit een XML-bestand dat op de Mic
 
 - [Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden](er-trace-reports-compare-baseline.md)
 - [Resources voor Taakrecorder](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

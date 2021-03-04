@@ -367,3 +367,6 @@ Met ER kunt u automatisch wijzigingen in de meest recente versie van het basison
 
 - [ER-configuraties (Elektronische rapportage) maken](electronic-reporting-configuration.md)
 - [De levenscyclus van de configuratie van elektronische rapportage (ER) beheren](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

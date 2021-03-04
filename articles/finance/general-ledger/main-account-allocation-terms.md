@@ -70,3 +70,6 @@ Op het sneltabblad **Doelgrootboekrekening** is de hoofdrekening dezelfde onkost
 > U kunt desgewenst de knop **Kopiëren** gebruiken om de geselecteerde toewijzing te dupliceren.
 
 Wanneer een toewijzingstermijn voor een hoofdrekening wordt gemaakt, boekt het systeem automatisch een nieuw boekstuk wanneer een boekstuk wordt geboekt dat overeenkomt met de financiële dimensies van de bron van de toewijzingstermijnen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

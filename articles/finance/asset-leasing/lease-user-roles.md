@@ -44,3 +44,6 @@ Volg deze stappen om gebruikers toe te wijzen aan de rollen die worden gebruikt 
 1. Ga naar **Systeembeheer \> Beveiliging \> Gebruikers toewijzen aan rollen**.
 2. Selecteer de rol **Lease onderhouden**, **Leasemedewerker** of **Lease weergeven** en selecteer vervolgens **Gebruikers handmatig toewijzen / uitsluiten**.
 3. Selecteer de gebruiker die u aan de rol wilt toewijzen en selecteer vervolgens **Toewijzen aan rol**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

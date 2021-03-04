@@ -183,3 +183,6 @@ Een goedkeuringsproces bestaat uit goedkeuringsstappen. Voer de volgende procedu
 1. Dubbelklik in de workfloweditor op het goedkeuringsproces. De workfloweditor geeft de stappen van het goedkeuringsproces weer.
 2. Sleep de goedkeuringsstappen die u wilt toevoegen van het gebied **Workflowelementen** naar het tekenpapier.
 3. Zie [Goedkeuringsstappen configureren in een workflow](configure-approval-step-workflow.md) als u een goedkeuringsstap wilt configureren.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

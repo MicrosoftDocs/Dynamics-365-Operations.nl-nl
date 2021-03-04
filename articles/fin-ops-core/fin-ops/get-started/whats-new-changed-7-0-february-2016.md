@@ -1033,3 +1033,6 @@ Geen nieuwe functies zijn toegevoegd.
 [Nieuwe of gewijzigde functies op de startpagina van Finance and Operations](whats-new-changed.md)
 
 [Nieuwe taakbegeleidingen (februari 2016)](new-task-guides-available-february-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

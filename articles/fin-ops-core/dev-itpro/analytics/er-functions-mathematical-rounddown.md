@@ -67,3 +67,6 @@ Deze functie werkt als [ROUND](er-functions-mathematical-round.md), maar rondt a
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Wiskundige functies](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

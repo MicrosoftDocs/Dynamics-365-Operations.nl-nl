@@ -59,3 +59,6 @@ Deze procedure toont aan hoe u handelsovereenkomsten voor verkoopprijzen maakt m
 24. Klik op het tabblad Categorieprijsregels.
     * Kanaalspecifieke categorieprijsregels worden in deze lijst weergegeven.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

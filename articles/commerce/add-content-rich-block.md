@@ -89,3 +89,6 @@ Voer de volgende stappen uit om een tekstblokmodule aan een nieuwe pagina toe te
 
 [Videospelermodule](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

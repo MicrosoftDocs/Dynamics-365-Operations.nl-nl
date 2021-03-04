@@ -274,3 +274,6 @@ In geval van een verloren of beschadigd apparaat moet u de toegang tot Supply Ch
 1. Controleer of de client-id van de toepassing overeenkomt met de client-id waarvan u in stap 2 een notitie hebt gemaakt.
 1. Selecteer **Verwijderen** op de werkbalk.
 1. Selecteer **Ja** in het bevestigingsbericht dat wordt weergegeven.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

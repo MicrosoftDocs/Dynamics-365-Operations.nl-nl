@@ -106,3 +106,6 @@ Er zijn veel onderwerpen over productie en Supply Chain Management beschikbaar i
 ## <a name="elearning-courses"></a>eLearning-cursussen
 
 Zie [Dynamics 365 Supply Chain Management op Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path) voor informatie over online cursussen en training.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Deze procedure laat zien hoe u een productieorder maakt. Het bedrijf van de demo
 6. Klik op Opslaan.
 7. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

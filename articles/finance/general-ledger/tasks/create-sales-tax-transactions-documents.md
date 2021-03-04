@@ -60,3 +60,6 @@ De btw op documenten wordt berekend door een btw-groep en een btw-groep voor het
 29. Klik op Btw.
 30. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

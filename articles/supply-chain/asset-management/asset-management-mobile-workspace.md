@@ -253,3 +253,6 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
 ![Figuur 10](media/am-mobile-10.png)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

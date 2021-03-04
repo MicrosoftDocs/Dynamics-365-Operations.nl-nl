@@ -124,3 +124,6 @@ In de volgende afbeelding ziet u een voorbeeld van sjabloontoewijzing in Gegeven
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

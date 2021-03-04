@@ -72,3 +72,6 @@ Artikelbehoeften voor serviceorders worden verwerkt via een project. Als u een a
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -239,3 +239,5 @@ U maakt een inkoop order met drie regels: twee regels voor hetzelfde productnumm
 
 > [!TIP]
 > U kunt dit scenario herhalen. Stel deze keer **Formaat** - *Nee* in op het sneltabblad **Toegestane productdimensiecombinaties** op de *BULK*-**locatieprofielen**, zodat geen van de productdimensies kunnen worden gecombineerd. Wanneer u de inkooporder ontvangt, wordt in dit geval elke productvariant op een nieuwe locatie geplaatst.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

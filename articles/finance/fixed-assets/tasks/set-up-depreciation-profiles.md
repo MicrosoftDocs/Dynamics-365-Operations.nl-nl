@@ -40,3 +40,6 @@ Afschrijvingsprofielen definiëren het type en de frequentie van afschrijving vo
 7. Selecteer een optie in het veld **Periodefrequentie**.
 8. Het formulier sluiten.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

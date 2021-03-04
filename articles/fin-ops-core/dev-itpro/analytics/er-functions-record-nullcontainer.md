@@ -60,3 +60,6 @@ De resulterende recordwaarde.
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Registratiefuncties](er-functions-category-record.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

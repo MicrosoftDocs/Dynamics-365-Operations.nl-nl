@@ -67,3 +67,6 @@ Zie [De uitvoering van reekselementen in ER-indelingen uitstellen](er-defer-sequ
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Functies voor gegevensverzameling](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -92,3 +92,6 @@ Zie [Beoordelingen van afdrukprestaties](https://docs.microsoft.com/dynamics365-
 Functies worden toegevoegd en bijgewerkt in elke release. De Functiebeheerervaring biedt een werkgebied waarin u een lijst met functies kunt weergeven die in elke release zijn geleverd. Nieuwe functies zijn standaard uitgeschakeld. U kunt het werkgebied gebruiken om deze in te schakelen en de bijbehorende documenten weer te geven.
 
 Voor meer informatie over de wijzigingen in functiebeheer raadpleegt u [Overzicht van Functiebeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

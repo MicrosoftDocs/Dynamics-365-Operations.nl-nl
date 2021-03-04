@@ -73,3 +73,6 @@ De knoppen in het actievenster zijn geordend op tabbladen. In de volgende tabel 
 | Geleend activum verzenden                  | Selecteer een geleend activum dat een tijdelijke vervanging moet zijn voor het activum dat is geselecteerd op het geselecteerde onderhoudsverzoek. |
 | Een geleend activum retourneren                | Registreer het geleende activum als geretourneerd. |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

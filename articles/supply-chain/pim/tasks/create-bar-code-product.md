@@ -43,3 +43,6 @@ In dit onderwerp ziet u hoe u handmatig een streepjescode maakt met als voorbeel
 12. Selecteer **Opslaan**.
 13. Sluit de pagina. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

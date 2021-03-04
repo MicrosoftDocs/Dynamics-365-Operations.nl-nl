@@ -49,3 +49,6 @@ U kunt maandelijkse facturen maken voor afzonderlijke leases of u kunt een batch
 6. Nadat de transactie is geboekt, kunt u de transactiegegevens en de boekwaarde van de leaseverplichtingen weergeven door **Transacties verplichtingen** in het leaseboek te selecteren.
 
     In het betalingsschema is het selectievakje **Journaal geboekt** ingeschakeld en geeft de regel het factuurjournaalnummer weer. Nadat een betalingsjournaal en een post voor dat journaal zijn gemaakt, moet u de post terugboeken voordat u deze opnieuw kunt maken.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

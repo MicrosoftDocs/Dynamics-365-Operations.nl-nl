@@ -49,3 +49,6 @@ Deze procedure doorloopt winkelconfiguraties die van invloed zijn op hoe Commerc
 17. Selecteer Ja bij **Splitsing per overzichtsmethode** om overzichten te laten maken voor elke gedefinieerde overzichtsmethode. Deze actie kan nuttig zijn als de prestaties van de boeking moeten worden verbeterd voor winkels met grote transactievolumes, aangezien er veel kleinere overzichten worden gemaakt die parallel kunnen worden verwerkt.  
 18. In het veld **Standaardklant** op het sneltabblad **Algemeen** kunt u de klantrekening selecteren die u wilt gebruiken voor verkoop aan inloopklanten.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

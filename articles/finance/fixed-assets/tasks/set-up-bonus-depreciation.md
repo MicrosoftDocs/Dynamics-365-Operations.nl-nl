@@ -49,3 +49,6 @@ In deze procedure ziet u hoe u een speciale afschrijvingsaftrek maakt en deze ko
     * De standaardwaarde voor Percentage of Bedrag komt uit de speciale afschrijvingsaftrekinstelling.  
 8. Voer een getal in het veld Prioriteit in.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

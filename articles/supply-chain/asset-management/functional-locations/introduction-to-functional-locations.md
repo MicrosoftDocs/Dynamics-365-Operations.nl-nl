@@ -83,3 +83,6 @@ De knoppen in het actievenster zijn geordend op tabbladen. In de volgende tabel 
 | Fouten                              | Open de pagina **Activafouten**, waar u een lijst met registraties van activafouten kunt weergeven die zijn gerelateerd aan de geselecteerde functionele locatie. |
 | Status van functionele locatie bijwerken    | De fase van de geselecteerde functionele bijwerken.                                                                                        |
 | Logboek voor levenscyclusstatus                 | Een logboek weergeven waarin de fasen van de geselecteerde functionele locatie worden weergegeven.                                                                        |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

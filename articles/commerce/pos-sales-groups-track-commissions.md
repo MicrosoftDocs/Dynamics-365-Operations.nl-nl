@@ -88,3 +88,6 @@ In POS kunnen gebruikers knoppenrasters configureren, die deel uitmaken van sche
 ## <a name="calculating-commissions"></a>Provisies berekenen
 
 Provisie wordt berekend voor de medewerkers in de opgegeven verkoopgroepen tijdens het boeken van overzichten of van verkooporders. Het provisiebedrag wordt bepaald op basis van het provisieaandeel van medewerker, zoals is gedefinieerd in de verkoopgroep en de bijbehorende instellingen voor provisieberekening voor de klant en/of producten in de transactie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

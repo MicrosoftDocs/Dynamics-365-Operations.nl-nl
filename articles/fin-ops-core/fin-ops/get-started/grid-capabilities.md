@@ -263,3 +263,6 @@ In deze sectie wordt een lijst bijgehouden van bekende problemen voor het nieuwe
 ### <a name="quality-update-for-1009platform-update-33"></a>Kwaliteitsupdate voor 10.0.9/Platform update 33
 
 - [KB 4550367] Tijdwaarden zijn niet juist ingedeeld.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

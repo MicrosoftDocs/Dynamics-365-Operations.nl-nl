@@ -41,3 +41,6 @@ Naast de overige correcties zijn de volgende updates aangebracht in deze release
 ## <a name="known-issue"></a>Bekend probleem
 
 **Probleem:** als een nieuwe bijlage wordt toegevoegd aan een werknemer, zijn de knoppen **Nieuw** en **Bewerken** niet beschikbaar. **Oplossing:** voordat u de pagina van de bijlage opent, controleert u of de feitenvakken op de pagina **Werknemer** zijn gesloten. Als de feitenvakken worden gesloten wanneer de pagina **Werknemer** wordt geladen, worden de bijlageknoppen ingeschakeld. (Dit probleem wordt opgelost in de volgende platformupdate.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

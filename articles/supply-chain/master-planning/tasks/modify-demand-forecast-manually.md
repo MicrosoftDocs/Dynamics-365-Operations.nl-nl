@@ -43,3 +43,6 @@ Deze procedure laat zien hoe u de prognose voor een artikel kunt wijzigen. Het b
 1. Klik op **Openen** in Microsoft Office.
 2. Klik op **Vraagprognose bewerken** in Excel. In Excel kunt u vraagprognoseregels toevoegen, verwijderen en bewerken. Als u de gegevens niet kunt weergeven in Excel, moet u zich aanmelden met de optie "Aangemeld blijven" ingeschakeld en moet u de app voor gegevensverbinding vertrouwen.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Om deze scenario's mogelijk te maken moet u het functionaliteitsprofiel voor win
 
 > [!NOTE]
 > De betaling of vereffening van gedeeltelijke bedragen wordt nog niet ondersteund.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

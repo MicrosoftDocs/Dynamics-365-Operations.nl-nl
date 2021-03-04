@@ -86,3 +86,6 @@ De volgende tabel bevat de entiteiten waarop de inhoud is gebaseerd.
 | Trend werknemer           | Werknemers in de loop van de tijd, personeelsbezetting, bedrijf en positie                                 | Bedrijf, Geografische locatie, Werknemersnaam, Rapporteert aan, Kalender-offset, Datum, Werknemertitel, Demografische gegevens, Aanstelling, Functie |
 | Project voor massaal aanstellen        | Aantal projecten voor massaal aanstellen, projecteigenaar en projectstatus                     | Bedrijf, Regel voor massaal aanstellen. |
 | Regel voor massaal aanstellen           | Afdeling, type dienstverband en positie                                           | Datum, Functie, Project voor massaal aanstellen |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

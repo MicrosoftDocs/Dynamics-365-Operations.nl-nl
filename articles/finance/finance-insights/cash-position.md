@@ -51,3 +51,6 @@ Maak een momentopname om de contante positie op te slaan en te bewerken. Zie voo
 
 #### <a name="privacy-notice"></a>Privacyverklaring
 Previews (1) bieden mogelijk minder privacy- en beveiligingsmaatregelen dan de service Dynamics 365 Finance and Operations, (2) worden niet opgenomen in de serviceovereenkomst voor deze service, (3) mogen niet worden gebruikt voor de verwerking van persoonsgegevens of andere gegevens die aan juridische of wettelijke nalevingvereisten zijn onderworpen en (4) worden slechts beperkt ondersteund.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

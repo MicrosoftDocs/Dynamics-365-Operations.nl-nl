@@ -83,3 +83,6 @@ Wanneer de functie `DATETIMEFORMAT` een bepaalde datum-/tijdwaarde converteert, 
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Datum- en tijdfuncties](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

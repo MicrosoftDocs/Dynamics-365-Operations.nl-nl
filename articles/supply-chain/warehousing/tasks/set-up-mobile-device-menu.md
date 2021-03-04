@@ -69,3 +69,6 @@ Dit onderwerp laat zien hoe u een menuopdracht Mobiel apparaat instelt. In dit v
 5. Selecteer de pijl naar rechts.
 6. Selecteer **Opslaan**.
 7. Sluit de pagina.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

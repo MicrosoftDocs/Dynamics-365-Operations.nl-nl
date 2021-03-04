@@ -154,3 +154,6 @@ De volgende belangrijke dimensies in de inhoud worden gebruikt als filters voor 
 | Datums                  | Datums, Jaarverschuiving                                    |
 
 Standaard worden gegevens in de inhoud weergegeven voor het huidige kalenderjaar. U kunt echter het datumfilter in de sectie rapportfilters wijzigen. U kunt ook het bedrijfsfilter wijzigen.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

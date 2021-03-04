@@ -247,3 +247,6 @@ De informatie in de volgende bronnen is niet vereist is om de ingesloten rapport
 - [Toegang krijgen tot analytische werkruimten en rapporten voor een omgeving met één computer](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [Analyses aan werkgebieden toevoegen met Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

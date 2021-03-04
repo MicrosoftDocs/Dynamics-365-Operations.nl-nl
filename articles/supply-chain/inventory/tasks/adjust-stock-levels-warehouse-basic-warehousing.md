@@ -60,3 +60,6 @@ Deze procedure begeleidt u door het proces voor het maken en boeken van een voor
 5. Het formulier sluiten.
 6. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

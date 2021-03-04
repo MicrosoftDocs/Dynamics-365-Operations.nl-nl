@@ -83,3 +83,6 @@ Bovendien ondersteunt lean manufacturing de inkoop- en factureringsprocessen voo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

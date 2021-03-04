@@ -114,3 +114,5 @@ Als een product in de catalogus van de externe leverancier is aangevraagd, kan d
 
 - [Verbeteringen inkoop-cXML](purchasing-cxml-enhancements.md)
 - [Externe catalogi gebruiken voor PunchOut eProcurement](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

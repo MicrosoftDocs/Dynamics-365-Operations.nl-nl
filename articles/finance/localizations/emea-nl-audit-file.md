@@ -48,3 +48,6 @@ Met de stappen in deze procedure wordt uitgelegd hoe u de auditfile gebruikt.
 3. Voer een datum in het veld **Einddatum** in. 
 4. Typ **Auditfile (NL)** in het veld **Indelingstoewijzing**.
 5. Selecteer **OK**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

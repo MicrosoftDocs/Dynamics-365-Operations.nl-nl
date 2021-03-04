@@ -112,3 +112,6 @@ U kunt het gewicht van verpakkingsmaterialen op een factuur afdrukken en aangeve
 
 1. Ga naar **Klanten \> Instellen \> Parameters van module Klanten**.
 1. Stel op het tabblad **Updates** op het sneltabblad **Factuur** de optie **Verpakkingsmateriaalgewicht afdrukken** in op **Ja**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

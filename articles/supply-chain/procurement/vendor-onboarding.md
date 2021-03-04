@@ -175,3 +175,6 @@ Met de actie **Verwijderen** in de registratieaanvraag van de potentiële levera
 |         Goedgekeurd         |                                                                               De leverancieraanvraag is goedgekeurd.                                                                               |                                                                                                   De aanvraag voor registratie van de potentiële leverancier, de ingevoerde gegevens in de wizard voor leveranciersregistratie en de leverancieraanvraag worden verwijderd.                                                                                                    |
 |         Afgewezen         |                                                                               De leverancieraanvraag is afgewezen.                                                                               |                                                                                                   De aanvraag voor registratie van de potentiële leverancier, de ingevoerde gegevens in de wizard voor leveranciersregistratie en de leverancieraanvraag worden verwijderd.                                                                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

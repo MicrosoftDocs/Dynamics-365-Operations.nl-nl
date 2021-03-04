@@ -59,3 +59,6 @@ De expressie `FIRST(SPLIT("",1)).Value` genereert een uitzondering tijdens runti
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Lijstfuncties](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

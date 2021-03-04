@@ -163,3 +163,6 @@ Als de configuratie op een locatie of zelfs een bedrijf wordt uitgevoerd dat ver
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

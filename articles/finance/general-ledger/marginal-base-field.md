@@ -186,3 +186,6 @@ Zie [De opties Volledig bedrag en Intervalberekening voor btw-codes](whole-amoun
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

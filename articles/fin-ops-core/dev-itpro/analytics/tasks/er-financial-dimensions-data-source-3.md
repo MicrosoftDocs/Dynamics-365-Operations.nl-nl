@@ -145,3 +145,6 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen uitvoeren in de proce
 46. Sluit de pagina.
 ![Pagina voor ER Operations-ontwerper](../media/er-financial-dimensions-guides-format2.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

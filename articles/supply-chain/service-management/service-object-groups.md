@@ -66,3 +66,6 @@ U kunt serviceobjecten aan de groep toewijzen met het formulier **Serviceobjecte
 [Serviceobjecten maken](create-service-objects.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

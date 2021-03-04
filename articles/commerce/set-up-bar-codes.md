@@ -47,3 +47,6 @@ U kunt de streepjescodes handmatig of automatisch maken. Om streepjescodes te ma
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Streepjescodemaskers instellen](set-up-bar-code-masks.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

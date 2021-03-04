@@ -136,3 +136,6 @@ $DisplayListOfItemsNumbers()[1]$
 ## <a name="more-information-about-how-to-print-labels"></a>Meer informatie over het afdrukken van labels
 
 Zie [Afdrukken van nummerplaatlabel inschakelen](tasks/license-plate-label-printing.md) voor meer informatie over het instellen en afdrukken van labels.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

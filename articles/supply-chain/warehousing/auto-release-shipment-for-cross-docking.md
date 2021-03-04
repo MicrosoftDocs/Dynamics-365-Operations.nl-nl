@@ -179,3 +179,6 @@ De volgende gebeurtenissen vinden nu plaats:
 - De vrijgave van een magazijn wordt geactiveerd voor de gekoppelde verkooporder.
 - Op basis van de vrijgave wordt het werk voor verzenden en cross-docken gemaakt. Dit werk geeft de magazijnoperator opdracht om de hoeveelheden te verzamelen die nodig zijn om de verkooporderregel te vervullen en deze te plaatsen op de uitgaande locatie die is opgegeven in de locatie-instructie voor cross-docken.
 - Als de hoeveelheid van de productieorder groter is dan de hoeveelheid die nodig is voor de verkooporder, wordt normaal wegzetwerk gemaakt. Dit werk geeft de magazijnoperator opdracht om de hoeveelheid gereed product te kiezen die achterblijft na cross-docken en deze naar normale opslag te verplaatsen op basis van de locatie-instructie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

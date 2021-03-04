@@ -43,3 +43,6 @@ De instellingen van de geplande uitvoering, die betrekking hebben op werkorders,
 6. Selecteer **Opslaan**.
 
 ![Geplande uitvoering](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

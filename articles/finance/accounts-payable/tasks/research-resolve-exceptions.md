@@ -86,3 +86,6 @@ Bij deze registratie wordt het demobedrijf USMF gebruikt. De leveranciersmanager
 24. Sluit de pagina.
 25. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

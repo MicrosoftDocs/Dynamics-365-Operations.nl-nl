@@ -277,3 +277,6 @@ Als u de inhoud van een leveranciersbevestiging of foutrespons wilt bekijken, se
 
 - [Een externe catalogus instellen voor PunchOut eProcurement](set-up-external-catalog-for-punchout.md)
 - [Externe catalogi gebruiken voor PunchOut eProcurement](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

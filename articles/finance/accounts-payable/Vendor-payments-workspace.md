@@ -78,3 +78,6 @@ In de volgende tabel ziet u de visualisaties die op elke rapportpagina beschikba
 |    Saldo verkoper/klant     |                                                                                                                   <ul><li>Saldo verkoper/klant</li><li>Saldo verkoper/klant op bedrijf</li><li>Details saldo verkoper/klant</li></ul>                                                                                                                    |
 |    Facturen met geblokkeerde betaling     |                                                                                         <ul><li>Facturen met geblokkeerde betaling</li><li>Details facturen met geblokkeerde betaling</li><li>Facturen met geblokkeerde betaling op bedrijf</li><li>Facturen met geblokkeerde betaling op leveranciersgroep</li></ul>                                                                                          |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -132,3 +132,6 @@ U kunt een klantfactuur met een negatieve waarde maken. Dit wordt een factuur di
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

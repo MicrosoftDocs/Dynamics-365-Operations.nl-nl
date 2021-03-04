@@ -58,3 +58,6 @@ Gebruik de volgende stappen om een activiteit opnieuw toe te wijzen aan een ande
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

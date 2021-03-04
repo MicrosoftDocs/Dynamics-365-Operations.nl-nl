@@ -59,3 +59,6 @@ De door deze functie geretourneerde tekenreeks is afhankelijk van de codering di
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Tekstfuncties](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

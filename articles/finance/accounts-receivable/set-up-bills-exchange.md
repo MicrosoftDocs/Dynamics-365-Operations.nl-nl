@@ -86,3 +86,6 @@ Op het tabblad **Standaardwaarden betalingen** op de pagina **Klanten** kunt u e
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

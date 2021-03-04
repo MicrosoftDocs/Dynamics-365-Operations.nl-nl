@@ -137,3 +137,6 @@ In Dynamics 365 Finance wordt het 1096-formulier voor het jaaroverzicht en de in
 Voor de openbare sector is de nieuwe functie **1099-gegevens bijwerken per hoofdrekening** toegevoegd. U kunt deze inschakelen in de werkruimte **Functiebeheer**. Met deze functie kunt u de 1099-waarden voor een leverancier koppelen aan de hoofdrekening in de boekhoudingsverdeling in plaats van aan de standaardrekening in de leveranciersrecord.
 
 Zie [Leveranciers voor 1099-aangifte instellen](../localizations/noam-usa-set-up-vndrs-1099-rprtg.md) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

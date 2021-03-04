@@ -110,3 +110,6 @@ Het factuurjournaal dat na het boeken wordt gemaakt, bevat geen hoofdartikel uit
 Het is belangrijk dat het factuurjournaal niet het hoofdartikel uit de bundel bevat omdat de processen die worden uitgevoerd nadat de factuur is geboekt, worden gebaseerd op dat factuurjournaal. Als u een creditnota maakt via het tabblad **Verkopen** in het actievenster, bevat de gemaakte creditnota bijvoorbeeld wel de componentartikelen, maar niet het hoofdartikel.
 
 [![Creditnota die wel de componentartikelen bevat, maar niet het hoofdartikel](./media/bundle-09.png)](./media/bundle-09.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

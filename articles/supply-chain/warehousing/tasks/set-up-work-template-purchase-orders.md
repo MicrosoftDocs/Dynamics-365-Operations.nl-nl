@@ -61,3 +61,6 @@ In dit onderwerp wordt beschreven hoe u een eenvoudige werksjabloon instelt die 
 6. Typ een waarde in het veld **Werkklasse-id**. De instructies voor verzamelen en neerzetten zijn ingesteld. Elk verzamel-/wegzetpaar moeten dezelfde werkklasse hebben. Gebruik dezelfde werkklasse die u voor de instructie voor verzamelen hebt geleverd.  
 7. Selecteer **Opslaan**. Het selectievakje **Geldig** is nu ingeschakeld.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

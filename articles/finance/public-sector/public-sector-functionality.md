@@ -72,3 +72,6 @@ De volgende tabel bevat informatie over de relatie van deze configuratiesleutel 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Deze procedure doorloopt het maken van de records van het werknemerverlof. U kun
     * Bijvoorbeeld: Verlof voor adoptie  
 12. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

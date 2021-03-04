@@ -43,3 +43,6 @@ In dit onderwerp wordt uitgelegd hoe u een locatieprofiel maakt in Dynamics 365 
 10. Selecteer **Ja** in het veld **Cyclustelling toestaan**.
 11. Selecteer **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

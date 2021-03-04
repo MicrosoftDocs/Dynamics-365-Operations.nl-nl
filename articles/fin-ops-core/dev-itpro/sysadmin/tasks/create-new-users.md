@@ -55,3 +55,6 @@ Gebruikers buiten de tenant waarin de omgeving is geïmplementeerd, moeten worde
 4. Selecteer **Gebruikers importeren**.
 5. Selecteer **Sluiten**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

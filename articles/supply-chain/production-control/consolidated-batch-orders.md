@@ -46,3 +46,6 @@ Een geconsolideerde batchorder kan elke combinatie van de volgende orders bevatt
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

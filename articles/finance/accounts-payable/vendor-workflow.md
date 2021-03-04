@@ -61,3 +61,6 @@ Als u ten minste één voorgestelde wijziging hebt, worden twee extra tabbladen 
     De status op de pagina wordt gewijzigd in **Wijzigingen in afwachting van goedkeuring**.
 
 De werkstroom volgt het standaard werkstroomproces. De fiatteur wordt doorgestuurd naar de pagina **Leverancier**, waar de wijzigingen op de pagina **Voorgestelde wijzigingen** kunnen worden gecontroleerd en **Werkstroom \> Goedkeuren** kan worden geselecteerd om de werkstroom goed te keuren. Nadat alle goedkeuringen zijn voltooid, worden de velden bijgewerkt met de voorgestelde waarden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

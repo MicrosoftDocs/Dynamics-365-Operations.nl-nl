@@ -157,3 +157,6 @@ De volgende tabel laat de generieke regel zien.
 | Te Ontvangen Btw | Negatief              | Rekening voor Te Ontvangen Btw | Negatief (Credit)  |
 | Verschuldigde Btw    | Positief              | Rekening voor Verschuldigde Btw    | Negatief (Credit)  |
 | Verschuldigde Btw    | Negatief              | Rekening voor Verschuldigde Btw    | Positief (Debet)  |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

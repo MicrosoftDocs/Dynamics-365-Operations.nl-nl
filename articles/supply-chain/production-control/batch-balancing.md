@@ -193,3 +193,6 @@ Er is één uitzondering op de regel dat batchorders van toepassing zijn voor ba
 Als een formule een actief ingrediënt bevat voor een product dat voor de magazijnbeheerprocessen is ingeschakeld, maar het batchnummer lager is dan de locatie in de reserveringshiërarchie, is de batchorder niet van toepassing voor batchverdeling.
 
 Een batchorder die niet van toepassing is voor batchverdeling, loopt via de normale procescyclus voor batchorders.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

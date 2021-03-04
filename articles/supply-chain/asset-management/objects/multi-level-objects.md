@@ -62,3 +62,6 @@ Als een activum gerelateerde subactiva heeft, kunt u deze alleen verwijderen als
 
 > [!NOTE]
 > Als u een activum niet kunt verwijderen met behulp van deze procedure, kunt u de verwijdering op een andere wijze uitvoeren door een levenscyclusstatus van activa in te stellen voor dit doel. Zo kunt u bijvoorbeeld een levenscyclusstatus **Buiten gebruik gesteld** of **Verwijderd** instellen op de pagina **Levenscyclusstatussen van activa**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

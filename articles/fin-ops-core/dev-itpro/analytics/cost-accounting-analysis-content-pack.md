@@ -123,3 +123,6 @@ De volgende belangrijke dimensies worden gebruikt als filters voor het segmenter
 | Fiscale kalenders                   | Kalender, kalenderomschrijving                                                                                       |
 | Boekjaren                       | Kalenderjaar                                                                                                        |
 | Boekperioden                     | Kalenderjaarperiode                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

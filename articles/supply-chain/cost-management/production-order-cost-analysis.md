@@ -65,3 +65,6 @@ Er zijn afzonderlijke rapporten beschikbaar met informatie over elk transactiety
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

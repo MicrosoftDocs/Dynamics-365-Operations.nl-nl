@@ -115,3 +115,6 @@ De volgende entiteiten worden ingeschakeld voor aangepaste velden in Common Data
 - **Verloftype**
 - **Bankrekening medewerker**
 - **Werkkalender**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

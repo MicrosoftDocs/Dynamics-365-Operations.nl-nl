@@ -80,3 +80,6 @@ U kunt een creditcardautorisatie ongeldig maken door de betalingsmethode te wijz
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

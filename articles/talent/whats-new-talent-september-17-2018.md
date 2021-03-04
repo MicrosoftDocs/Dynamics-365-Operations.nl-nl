@@ -54,3 +54,6 @@ Platformupdate 18 voor Finance and Operations maakt nu deel uit van de Talent-ve
 ## <a name="bug-fixes"></a>Correcties
 
 Deze versie omvat verschillende aanvullende correcties voor fouten. Zo zijn verwijzingen naar ACA, ADA en I9 nu alleen nog ingeschakeld voor Amerikaanse bedrijven.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

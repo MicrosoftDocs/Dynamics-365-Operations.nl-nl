@@ -60,3 +60,5 @@ Voor het downloaden van de sjabloon **Power Automate: verbinding maken met SQL e
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Het Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

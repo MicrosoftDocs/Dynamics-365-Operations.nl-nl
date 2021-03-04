@@ -932,3 +932,6 @@ U kunt wavelabels weergeven en opnieuw afdrukken op de volgende pagina's:
 - Historie wavelabel
 
 Voor de meeste van deze pagina's kunt u de relevante functie vinden door **Wavelabels** te selecteren in de groep **Verwante informatie** op het tabblad **Zendingen** van het actievenster.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

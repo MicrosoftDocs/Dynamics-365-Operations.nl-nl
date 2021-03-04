@@ -100,3 +100,6 @@ In onderstaande afbeelding ziet u een voorbeeld van de pagina **Inkooporder** me
 
 En als u het activiteitsnummer wilt bekijken of invoeren dat aan een regel voor een opdracht tot inkoop voor werkorder is gekoppeld, selecteert u de record van de opdracht tot inkoop op de lijstpagina **Opdracht tot inkoop voor werkorder** en selecteert u in de kolom **Opdracht tot inkoop** de koppeling voor de opdracht tot inkoop. U vindt het veld **Activiteitsnummer** op het tabblad **Project** van het sneltabblad **Regeldetails**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

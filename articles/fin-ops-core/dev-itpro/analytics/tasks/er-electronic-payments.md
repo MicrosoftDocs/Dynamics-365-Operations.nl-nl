@@ -81,3 +81,6 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure Een c
 25. Klik op OK.
     * Analyseer het gemaakte betalingsbestand in XML-indeling. Vergelijken het met de ontworpen documentindeling en de gedefinieerde kenmerken van de betalingstransactie.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ In Finance and Operations versie 10.0.5 is de functie Back-upopslag van ER-sjabl
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 
 [Raamwerk elektronische rapportage (ER) configureren](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

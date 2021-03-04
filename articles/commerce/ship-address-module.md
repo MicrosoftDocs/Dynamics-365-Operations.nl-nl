@@ -72,3 +72,6 @@ Een module voor verzendadressen kan alleen aan een uitcheckmodule worden toegevo
 [Module voor orderdetails](order-confirmation-module.md)
 
 [Geschenkbonmodule](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

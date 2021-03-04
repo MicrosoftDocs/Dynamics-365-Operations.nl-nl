@@ -117,3 +117,6 @@ In de volgende tabel worden de verschillende opties voor het plaatsen van vacatu
 [Kandidaten zoeken met LinkedIn Recruiter in Microsoft Dynamics 365 Talent - Attract](./attract-linkedin-recruiter.md)
 
 [Problemen met integratie met LinkedIn en Microsoft Dynamics 365 Talent - Attract oplossen](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

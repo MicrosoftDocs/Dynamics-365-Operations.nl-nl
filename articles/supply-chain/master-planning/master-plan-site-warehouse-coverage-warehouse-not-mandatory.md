@@ -63,3 +63,6 @@ In de volgende afbeelding ziet u hoe de hoofdplanning verdergaat. In deze afbeel
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

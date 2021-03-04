@@ -62,3 +62,6 @@ In Retail-versie 10.0.3 en hoger zijn ook de volgende functies voor transacties 
 - Als tijdens het afstemmen de geselecteerde transactie niet in balans is, moet de gebruiker een omschrijving van de reden voor de niet-sluitende afstemming invoeren. Gebruikers kunnen één transactie selecteren en deze afstemmen met de relevante redenomschrijving.
 - Gebruikers kunnen transacties blijven afstemmen en afstemmingen ongedaan maken totdat de ploeg is gesloten. Als een ploeg is gesloten, kan de afstemming van transacties niet ongedaan worden gemaakt.
 - Wanneer een gebruiker ervoor kiest een ploeg te sluiten, wordt in Commerce gecontroleerd of er geen niet-afgestemde kasbeheertransacties meer bestaan in de ploeg. Een ploeg kan niet worden gesloten als deze nog niet-afgestemde transacties bevat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Deze registratie gebruikt het demobedrijf USRT.
     * Selecteer de rekening om kluisstortingsbedragen naar te boeken.  
 8. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

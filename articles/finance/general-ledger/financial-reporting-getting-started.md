@@ -173,3 +173,6 @@ Probleem 3: u kunt doorgaan na de aanmeldingspagina voor ClickOnce Report Design
 ## <a name="additional-resources"></a>Aanvullende bronnen
 - [Financiële rapporten weergeven](view-financial-reports.md)
 - [Rapportagestructuurdefinities in financiële rapporten](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

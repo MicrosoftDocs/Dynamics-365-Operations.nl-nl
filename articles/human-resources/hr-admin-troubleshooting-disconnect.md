@@ -52,3 +52,6 @@ Microsoft Dynamics 365 Human Resources verbreekt de verbinding met gebruikers wa
 Zorg dat altijd slechts één omgeving tegelijk is geopend voor een bepaald browsertype. Gebruikers kunnen meerdere sessies naar dezelfde omgeving openen (meerdere tabbladen in dezelfde browser).
 
 Gebruikers die tegelijkertijd tussen twee omgevingen willen schakelen, moeten deze omgevingen in verschillende browsertypen openen. (Gebruiker A kan omgeving 1 bijvoorbeeld in Chrome en omgeving 2 in Microsoft Edge openen.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

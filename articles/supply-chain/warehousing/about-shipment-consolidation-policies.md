@@ -135,3 +135,6 @@ De volgende tabel biedt een overzicht van de manier waarop zendingsconsolidatie 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Consolidatiebeleid voor zendingen configureren](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

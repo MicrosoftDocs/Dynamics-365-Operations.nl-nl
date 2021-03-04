@@ -57,3 +57,6 @@ Deze functie verbreekt niet de achterwaartse compatibiliteit van het ER-raamwerk
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [ER-formuletaal](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Deze procedure definieert een contantkorting en een instelling voor vervaldatum.
 26. Voer in het veld **Hoofdrekening voor leverancierskortingen** de hoofdrekening in waarop de contantkorting wordt geboekt voor leveranciersfacturen.
 27. Klik op **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

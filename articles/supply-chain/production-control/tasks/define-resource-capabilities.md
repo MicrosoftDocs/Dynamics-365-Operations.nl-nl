@@ -49,3 +49,6 @@ Resourcecapaciteiten beschrijven wat resources voor bedrijfsactiviteiten kunnen 
 5. Voer een nummer in het veld Niveau in.
     * Wanneer u opgeeft dat een taak of bewerking een bepaalde capaciteit vereist, kunt u ook het minimum niveau opgeven dat nodig is. Gebruik het capaciteitsniveau om resources te onderscheiden die dezelfde taak kunnen uitvoeren, maar met verschillende snelheden, sterke punten, grootte, enzovoort.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -381,3 +381,6 @@ Wanneer de handmatige taak is toegewezen aan een gebruiker, moet de gebruiker ac
 5. Schakel het selectievakje **Delegeren** in als u wilt dat de gebruiker deze taak aan een andere gebruiker kan toewijzen.
 6. Schakel het selectievakje **Opnieuw toewijzen** in als u wilt dat de gebruiker deze taak opnieuw aan een andere gebruiker in de wachtrij voor werkitems kan toewijzen.
 7. Schakel het selectievakje **Vrijgave** in als u wilt dat de gebruiker deze taak opnieuw aan een andere gebruiker in de wachtrij voor werkitems kan toewijzen. Een andere gebruiker kan de taak vervolgens voltooien.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

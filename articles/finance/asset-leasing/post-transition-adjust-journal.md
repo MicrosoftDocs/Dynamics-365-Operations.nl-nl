@@ -47,3 +47,6 @@ Voer de volgende stappen uit om een transitiecorrectie te boeken conform de nieu
 
 5. Selecteer **Activaleasejournalen** om de boeking het journaal weer te geven.
 6. Selecteer het nieuwe journaal en selecteer vervolgens **Boeken**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

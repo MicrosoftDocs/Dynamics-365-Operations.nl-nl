@@ -99,3 +99,6 @@ Open dit document in Word en doe het volgende:
 16. Klik op **OK**.
 17. Klik op **OK**. Analyseer de gegenereerde uitvoer. Merk op dat de uitvoer wordt weergegeven in Word-indeling en de details van de verwerkte betalingen bevat.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

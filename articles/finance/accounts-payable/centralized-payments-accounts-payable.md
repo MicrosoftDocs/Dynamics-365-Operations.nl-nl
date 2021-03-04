@@ -301,3 +301,6 @@ Fabrikam genereert een betaling van 75,00 voor leverancier 3004, Fourth Coffee. 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

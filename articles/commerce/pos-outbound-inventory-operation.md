@@ -193,3 +193,6 @@ Volledig verzonden transferorders worden naar het tabblad **Voltooid** van de do
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 [Inkomende voorraadbewerking in POS](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

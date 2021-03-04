@@ -102,3 +102,6 @@ Aan één datum kan slechts één van elk type worden gekoppeld.
 | 000337                | 8/8/2018             | Normaal               | 8                    |
 | 000337                | 8/7/2018             | Normaal               | 8                    |
 | 000337                | 8/9/2018             | Normaal               | 8                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

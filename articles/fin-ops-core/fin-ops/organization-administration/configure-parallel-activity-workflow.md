@@ -53,3 +53,6 @@ Voer deze stappen uit om de vertakkingen van deze parallelle activiteit toe te v
     > De volgorde van de vertakkingen is niet belangrijk, omdat alle vertakkingen van een parallelle activiteit op hetzelfde moment worden uitgevoerd.
 
 3. Zie [Parallelle vertakkingen in een workflow configureren](configure-parallel-branch-workflow.md) voor configureren van elke vertakking.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

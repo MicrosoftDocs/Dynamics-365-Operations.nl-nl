@@ -48,3 +48,6 @@ Dit onderwerp beschrijft hoe afschrijvingsbatchvoorstellen werken en verklaart h
 3. Selecteer **Regels**
 4. Selecteer **Boeken**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

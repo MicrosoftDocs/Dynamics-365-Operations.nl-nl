@@ -41,3 +41,6 @@ In dit onderwerp wordt uitgelegd hoe u een toerekeningsschema maakt. Bij deze ta
 10. Voer in het veld **Aantal voorvallen per periode** een getal in.
 11. Selecteer in het veld **Transacties boeken** wanneer de transacties moeten worden geboekt, zoals **Maandelijks**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

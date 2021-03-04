@@ -103,3 +103,6 @@ Als een sollicitatie moet worden geëvalueerd door verschillende werknemers, kun
 ## <a name="hiring-applicants"></a>Sollicitanten aannemen
 
 Gebruik de pagina **Sollicitaties** om een sollicitant aan te stellen. Wanneer u een sollicitant aanneemt, heeft de sollicitatierecord de status **Aangesteld** en wordt de persoonlijke registratie voor het globale adresboek van de sollicitant gekoppeld aan de nieuwe werknemerregistratie. Wijzigingen in de globale adresboekgegevens voor nieuwe werknemersregistratie worden tevens weergegeven in de sollicitatieregistratie. Dit kan helpen bij het verminderen van gegevensinvoer als de nieuwe werknemer weer solliciteert voor een andere baan binnen uw onderneming. Om een bestaande werknemer voor een andere positie aan te werven, klikt u op **Positie wijzigen** in de vervolgkeuzelijst **Sollicitatiestatus** om het overdrachtsproces te starten.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

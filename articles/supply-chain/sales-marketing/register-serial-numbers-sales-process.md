@@ -80,3 +80,6 @@ Deze functionaliteit is beschikbaar voor alle rollen die verkooppakbonnen en ver
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

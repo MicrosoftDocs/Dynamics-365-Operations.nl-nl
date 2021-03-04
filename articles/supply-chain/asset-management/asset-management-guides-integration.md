@@ -114,3 +114,6 @@ Voer de volgende stappen uit om een guide aan een sjabloon voor onderhoudscontro
 
 - [Overzicht van twee keer wegschrijven](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [Overzicht van activabeheer](index.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

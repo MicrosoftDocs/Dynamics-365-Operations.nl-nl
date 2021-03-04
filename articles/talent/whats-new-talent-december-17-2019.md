@@ -56,3 +56,6 @@ Met de wijzigingen van deze week corrigeren we een probleem waarbij kalenderdage
 ### <a name="current-balance-report-in-leave-pbi-doubles-employee-balance-385581"></a>Rapport met huidig verlofsaldo PBI verdubbelt werknemerssaldo (385581)
 
 Deze wijziging corrigeert het rapport met het huidige saldo in dit scenario.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

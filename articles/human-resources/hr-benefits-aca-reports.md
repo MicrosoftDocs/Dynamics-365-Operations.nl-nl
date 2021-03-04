@@ -68,3 +68,6 @@ U kunt via een van de filteropties gegenereerde lijsten met werknemers naar Exce
 Als u gedekte personen moet aangeven omdat u als werkgever interne verzekering aanbiedt, kunt u ook alle afhankelijken zien die zijn gedekt onder vergoedingsplannen die zijn gemarkeerd als **Aan te geven voor ACA**, door de actie Gezinsdekking weergeven in de actievensterstrook te kiezen.
 
 **Opmerking**: Alleen vergoedingen waarvan het plan is gemarkeerd als **Aan te geven voor ACA** worden weergegeven in het informatievenster.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

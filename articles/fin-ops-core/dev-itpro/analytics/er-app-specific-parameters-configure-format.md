@@ -309,3 +309,6 @@ Als u wilt leren hoe u de geconfigureerde ER-indeling **Indeling voor het opzoek
 [Formuleontwerper in elektronische aangifte](general-electronic-reporting-formula-designer.md)
 
 [De parameters van een ER-indeling per rechtspersoon instellen](er-app-specific-parameters-set-up.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

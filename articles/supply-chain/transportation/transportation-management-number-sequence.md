@@ -49,3 +49,6 @@ Ga als volgt te werk om een nummerreeks aan een vervoerder te koppelen:
 1. Selecteer **Bewerken**.
 1. Selecteer op het sneltabblad **Overzicht** een optie in het veld **Pro-nummerreeks**.
 1. Sluit de pagina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

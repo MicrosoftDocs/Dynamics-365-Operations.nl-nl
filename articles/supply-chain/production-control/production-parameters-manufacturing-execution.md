@@ -154,3 +154,6 @@ U kunt de volgende instellingen gebruiken, als materialen altijd handmatig moete
 | Rapporteren als gereed |   Automatisch stuklijstverbruik    | <strong>Nooit</strong>  |
 | Rapporteren als gereed | Gereedmelding online bijwerken | <strong>Status</strong> |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

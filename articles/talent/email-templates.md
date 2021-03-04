@@ -81,3 +81,6 @@ Wanneer het aanstellend team een e-mailbericht verzendt, kan het gebruikmaken va
 
 > [!NOTE] 
 > Voor e-mailberichten die automatisch worden verzonden, kunnen meerdere sjablonen worden gemaakt. Slechts één sjabloon kan echter worden ingesteld als de actieve sjabloon. Omdat dit proces wordt geactiveerd door gebeurtenissen, kan alleen de beheerder bepalen welke sjabloon moet worden gebruikt, op basis van de combinatie van badges **Standaard** en **Automatisch verzonden** in de sjabloonbibliotheek.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

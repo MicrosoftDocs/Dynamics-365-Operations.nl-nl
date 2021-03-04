@@ -113,3 +113,6 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker van Regulatory Configur
 11. Sluit de pagina. 
 
 Wanneer u deze modeltoewijzing wilt evalueren door metagegevens van een andere toepassingsapplicatie te gebruiken, registreert u een andere gekoppelde toepassing, wijst u deze toe aan deze modeltoewijzing en valideert u deze tegen nieuwe metagegevens.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

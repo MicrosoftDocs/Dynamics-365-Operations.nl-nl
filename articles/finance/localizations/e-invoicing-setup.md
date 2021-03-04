@@ -361,3 +361,6 @@ Voer de volgende stappen uit om de levenscyclus van de functie van de invoegtoep
 
     > [!NOTE]
     > Als u **Ja** selecteert, wordt de status van configuratieversies automatisch gewijzigd van **Voltooid** in **Gedeeld**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -113,3 +113,6 @@ Als een reparatieprobleem is opgelost, kunt u de reparatieregel afsluiten. Stel 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

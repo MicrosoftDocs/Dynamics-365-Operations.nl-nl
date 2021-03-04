@@ -79,3 +79,6 @@ In plaats van het totaal van de vraag aan het einde van een toewijzingsproces te
 |   Instructielocatie   |                                                       Locatie-instructies zijn vereist om het werk naar de locaties te leiden waar de aanvulling vereist is en naar de locaties waaruit voorraad afkomstig is.                                                        |
 |     Werksjablonen      |                                                   Werksjablonen van het type <strong>Aanvulling</strong> zijn vereist voor het maken van aanvullingswerk zodat de voorraad kan worden verplaatst naar de gewenste locaties.                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

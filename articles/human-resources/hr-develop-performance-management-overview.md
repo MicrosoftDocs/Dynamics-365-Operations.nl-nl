@@ -163,3 +163,5 @@ Brontypen prestatiejournaal beschrijven de herkomst van de prestatiejournalen. U
 ### <a name="review-types"></a>Controletypen
 
 Met de typen voor prestatiebeoordelingen kunt u de werking van een beoordeling bepalen. U kunt de werkstroom voor een beoordeling in- of uitschakelen. Als de beoordeling niet gebruikmaakt van de werkstroom, kunt u de standaardstatus definiëren die wordt gebruikt bij het maken van de beoordeling. U kunt ook bepalen of de werknemer, de manager of beide de beoordeling moeten afmelden.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

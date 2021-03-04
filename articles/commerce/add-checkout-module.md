@@ -127,3 +127,6 @@ Voer de volgende stappen uit om een betalingsmodule aan een nieuwe pagina toe te
 [Module voor orderdetails](order-confirmation-module.md)
 
 [Geschenkbonmodule](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

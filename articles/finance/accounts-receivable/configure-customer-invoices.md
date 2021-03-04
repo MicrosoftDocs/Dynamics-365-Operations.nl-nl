@@ -167,3 +167,6 @@ De volgende velden wijzigen het gedrag van het boekingsproces.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

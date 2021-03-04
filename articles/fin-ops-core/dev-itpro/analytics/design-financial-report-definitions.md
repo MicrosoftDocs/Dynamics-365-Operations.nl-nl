@@ -84,3 +84,6 @@ In de volgende tabel worden de tabbladen in een rapportdefinitie beschreven en h
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Financiële rapportage](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

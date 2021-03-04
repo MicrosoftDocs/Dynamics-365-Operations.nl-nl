@@ -45,3 +45,6 @@ Op de pagina **Twee keer wegschrijven** kan een foutbericht van de volgende stre
 *De entiteit met de naam 'msdyn\_dualwriteentitymap' met namemapping='Logical' is niet gevonden in de MetadataCache.*
 
 Om het probleem op te lossen, controleert u of de kernoplossing Twee keer wegschrijven in Dataverse is geïnstalleerd. De kernoplossing Twee keer wegschrijven is een vereiste voor kennis over de oplossing.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

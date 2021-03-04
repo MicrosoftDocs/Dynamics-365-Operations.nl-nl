@@ -83,3 +83,6 @@ Streepjescodemaskers moeten worden toegewezen aan streepjescodes voordat ze kunn
 5. Klik op **Opslaan**.
 
 Het streepjescodemasker kan nu worden gebruikt voor het maken van streepjescodes voor producten. De bovenstaande stappen zijn voorbeelden van het maken van streepjescodemaskers voor producten, maar ze laten ook zien hoe u streepjescodemaskers maakt voor de andere ondersteunde typen streepjescode. U moet streepjescodemaskers, -typen en -lengte aanpassen voor gebruik in uw eigen omgeving.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

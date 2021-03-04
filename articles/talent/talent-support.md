@@ -48,3 +48,6 @@ Gebruik de bronnen in de volgende tabel als u ondersteuning nodig hebt voor de z
 | Meld een probleem. | Selecteer de knop **Help** (**?**) in de rechterbovenhoek van de pagina en selecteer vervolgens **Een probleem melden**. Geef een beschrijving van het probleem en neem een e-mailadres op als u op de hoogte wilt worden gehouden van het probleem. |
 | Hulp bij vragen over Talent-licenties. | Neem contact op met uw partner of Microsoft-vertegenwoordiger. |
 | Nieuwe functies en functionaliteit in Onboard aanvragen. | Selecteer de knop **Help** (**?**) en selecteer vervolgens **Ideeën**. U kunt ook naar [Dynamics 365 Talent: Onboard Ideeën](https://experience.dynamics.com/ideas/categories/?forum=569a7fb2-8327-e911-a95a-000d3a4f3883&forumName=Dynamics%20365%20for%20Talent%3A%20Onboard) gaan om bestaande ideeën weer te geven of te zoeken, hierover te stemmen of nieuwe ideeën toe te voegen. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

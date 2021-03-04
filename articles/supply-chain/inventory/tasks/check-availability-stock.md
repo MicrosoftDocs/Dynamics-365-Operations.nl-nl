@@ -60,3 +60,6 @@ Deze procedure laat zien hoe u voorhanden en fysieke voorraad voor een specifiek
 5. Klik op **OK**.
 6. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

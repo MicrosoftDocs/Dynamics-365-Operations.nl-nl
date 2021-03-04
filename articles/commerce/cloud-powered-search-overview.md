@@ -82,3 +82,6 @@ Dankzij de verbeterde sorteermogelijkheden in Dynamics 365 Commerce kunnen klant
 [Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten](category-search-page-overview.md)
 
 [Metagegevens SEO beheren](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

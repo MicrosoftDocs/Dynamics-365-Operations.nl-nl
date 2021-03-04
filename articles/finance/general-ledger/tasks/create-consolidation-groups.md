@@ -47,3 +47,6 @@ Deze procedure toont hoe u een groep met consolidatierekeningen kunt maken en ve
 8. Typ een waarde in het veld Consolidatierekening.
 9. Typ een waarde in het veld Naam van consolidatierekening.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

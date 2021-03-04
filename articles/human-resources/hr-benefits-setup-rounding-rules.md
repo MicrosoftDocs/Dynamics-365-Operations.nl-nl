@@ -36,3 +36,6 @@ U kunt afrondingsregels instellen in Dynamics 365 Human Resources om aan de beho
 3. Geef waarden op voor **Afronden naar hetdichtstbijzijnde**, **Scenario** en **Afrondingsformulier**.
 
 4. Selecteer **Opslaan**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

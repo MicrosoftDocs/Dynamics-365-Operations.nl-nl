@@ -79,3 +79,6 @@ Als u de app **Referral** wil downloaden, gaat u naar [Dynamics 365 Talent exten
 
 [Het Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
 [App tussen tenants en omgevingen migreren](https://docs.microsoft.com/power-platform/admin/environment-and-tenant-migration)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

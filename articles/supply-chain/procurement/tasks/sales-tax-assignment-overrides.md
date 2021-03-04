@@ -57,3 +57,6 @@ Deze procedure laat zien hoe u btw-groepen kunt toewijzen aan kanalen voor hande
 21. Klik in de lijst op de koppeling in de geselecteerde rij.
 22. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -380,3 +380,6 @@ Zoals u hebt gezien, kan de werking van elke willekeurige ER-indeling automatisc
 - [Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden](er-trace-reports-compare-baseline.md)
 - [ER Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen](tasks/er-upgrade-format.md)
 - [Een ER-configuratie vanuit Lifecycle Services importeren](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

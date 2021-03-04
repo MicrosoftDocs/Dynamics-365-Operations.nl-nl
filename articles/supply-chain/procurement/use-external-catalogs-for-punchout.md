@@ -55,3 +55,5 @@ Wanneer de inkoopopdracht klaar is, gebruikt u de actie **Workflow** > **Verzend
 
 - [Een externe catalogus instellen voor PunchOut eProcurement](set-up-external-catalog-for-punchout.md)
 - [Verbeteringen inkoop-cXML](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

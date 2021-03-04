@@ -40,3 +40,6 @@ U kunt tijdvensters gebruiken voor het optimaliseren van de planning van service
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 [Tijdvensters](time-windows.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

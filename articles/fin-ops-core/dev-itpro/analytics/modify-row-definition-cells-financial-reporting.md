@@ -529,3 +529,6 @@ Een set van de dimensiewaarden is een benoemde groep van dimensiewaarden. Een se
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Financiële rapportage](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

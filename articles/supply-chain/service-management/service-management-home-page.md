@@ -71,3 +71,6 @@ Servicebeheer kan worden geïntegreerd met de volgende modules:
 
   
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Voer de onderstaande stappen uit om een kalender in te stellen:
 10. Als u een kalender wilt toewijzen aan werknemers, selecteert u **Toewijzen aan werknemers** in het actievenster. Selecteer de werknemers die u aan deze kalender wilt toewijzen en klik op **Toewijzen**.
 
 Werknemers zijn niet vereist om kalenders toe te wijzen. Als er een werktijdkalender is gedefinieerd, worden vrije dagen automatisch uitgesloten van de aanvraag. De hoeveelheid uren of dagen wordt standaard ingesteld op de gedefinieerde werktijden in de kalender. Als aan een werknemer geen kalender is toegewezen, zijn alle dagen beschikbaar voor vrije tijd en is de hoeveelheid vrije tijd niet de standaardinstelling voor de aanvraag. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

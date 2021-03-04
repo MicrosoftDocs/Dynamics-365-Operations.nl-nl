@@ -79,3 +79,6 @@ In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Voorraadoverboeking (Field Service naar Supply Chain Management): Voorraadoverboeking
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSTrans1.png)](./media/FSTrans1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

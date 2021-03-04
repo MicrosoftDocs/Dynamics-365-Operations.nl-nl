@@ -90,3 +90,6 @@ Als u de optie **Bedrijfssaldi exporteren** gebruikt om vanuit één exemplaar t
 Zie [Herwaardering van valuta in een consolidatiebedrijf](../general-ledger/currency-revaluation-consolidation-company.md) voor meer informatie.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

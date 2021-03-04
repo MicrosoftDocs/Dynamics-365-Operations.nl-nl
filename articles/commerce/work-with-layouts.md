@@ -109,3 +109,6 @@ Nadat u een voorbeeld van de wijzigingen in de vooraf ingestelde indeling hebt b
 [Overzicht sjablonen en indelingen](templates-layouts-overview.md)
 
 [Werken met sjablonen](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -100,3 +100,6 @@ Een werkcel is een specifiek formulier van resourcegroepen die kan worden gebrui
 ## <a name="save"></a>Opslaan
 1. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

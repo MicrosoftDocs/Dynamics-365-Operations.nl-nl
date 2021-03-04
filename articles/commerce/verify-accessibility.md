@@ -85,3 +85,6 @@ Ga als volgt te werk om de geïntegreerde service [Microsoft Accessibility Insig
 [Een productpagina verrijken](enrich-product-page.md)
 
 [Een landingspagina voor een categorie verrijken](enrich-category-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

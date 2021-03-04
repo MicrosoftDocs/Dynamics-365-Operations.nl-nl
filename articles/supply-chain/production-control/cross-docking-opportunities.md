@@ -127,3 +127,6 @@ Nadat een product voor de productieregel gereed is gemeld, wordt het overgebrach
 -   Het scenario van cross-docken wordt ondersteund voor batch- en serie gecontroleerde artikelen, waarbij zowel de batch- als serienummerdimensies boven en onder de locatie in de reserveringshiërarchie zijn gedefinieerd. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

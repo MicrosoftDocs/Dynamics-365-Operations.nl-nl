@@ -43,3 +43,6 @@ In deze procedure ziet u hoe u met het Boekstuktransactiesonderzoek kunt zoeken 
 12. Klik in het actievenster op **Oorspronkelijk document**.
 13. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

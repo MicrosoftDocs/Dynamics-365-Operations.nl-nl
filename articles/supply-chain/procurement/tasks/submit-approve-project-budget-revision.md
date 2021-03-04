@@ -46,3 +46,6 @@ In deze taak wordt de gegevensset van SSI gebruikt.
 12. Typ een waarde in het veld Opmerking.
 13. Klik op Aanbieden.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Er wordt automatisch een quarantaineorder gemaakt en de persoon of afdeling die 
 
 [Opgeven op welke wijze retourartikelen moeten worden afgestoten](specify-how-to-dispose-of-returned-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

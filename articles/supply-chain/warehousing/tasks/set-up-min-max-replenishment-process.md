@@ -120,3 +120,6 @@ Deze procedure laat zien hoe u een nieuw aanvullingsproces instelt waarin de str
 11. Klik op **OK**.
 12. Klik op **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

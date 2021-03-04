@@ -70,3 +70,6 @@ In plaats van een volledige order te kopiëren, is het gebruikelijker om een nie
 4. Selecteer de regel met de gewenste inkooporder. Merk op dat de ene orderregel in deze inkooporder eveneens is geselecteerd.  
 5. Selecteer **OK**. De extra orderregel is toegevoegd aan uw inkooporder.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

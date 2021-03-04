@@ -55,3 +55,6 @@ Het nieuwe veld en de gegevens daarvoor moeten nu beschikbaar zijn voor bewerkin
 [Financiële dimensies voor detailhandelstransacties bewerken](edit-financial-dim.md)
 
 [Een Excel-werkmap maken om detailhandelstransacties te bewerken](create-excel-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

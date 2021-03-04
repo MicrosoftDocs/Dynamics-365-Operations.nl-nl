@@ -38,3 +38,6 @@ Deze procedure laat zien hoe u OHW-instructies in een productieorder weergeeft. 
 6. Stel in het veld Begindatum de datum in op '2012-12-01'.
 7. Stel in het veld Einddatum de datum in op '2012-12-31'.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

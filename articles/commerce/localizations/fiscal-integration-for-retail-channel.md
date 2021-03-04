@@ -150,3 +150,6 @@ De volgende fiscale Integratiefunctionaliteit is ook beschikbaar in de Retail-SD
 De volgende verouderde functionaliteit voor fiscale integratie die beschikbaar is in Retail SDK maakt geen gebruik van het raamwerk voor fiscale integratie en wordt afgeschaft in latere updates:
 
 - [Regeleenheidintegratievoorbeeld voor Zweden (verouderd)](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

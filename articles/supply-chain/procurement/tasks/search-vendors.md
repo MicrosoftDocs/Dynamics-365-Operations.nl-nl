@@ -39,3 +39,6 @@ Leren hoe u leveranciers zoekt gebaseerd op specifieke criteria. Dit voorbeeld t
 6. Typ een waarde in het veld Land/regio.
 7. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

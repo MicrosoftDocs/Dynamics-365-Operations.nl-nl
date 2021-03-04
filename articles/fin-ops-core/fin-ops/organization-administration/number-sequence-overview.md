@@ -115,3 +115,6 @@ Tenzij er een regelgevende vereiste is die doorlopende nummerreeksen gebruikt, b
 Bij een stroomuitval, een toepassingsfout of andere onverwachte storting, kan het systeem nummers niet automatisch opnieuw gebruiken voor doorlopende nummerreeksen. U kunt het opschoonproces handmatig of automatisch uitvoeren om de verloren nummers te herstellen.
 
 Overweeg zorgvuldig het servergebruik wanneer u het opschoonproces plant. Het is aan te raden het opschonen als batchtaak uit te voeren tijdens de daluren.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

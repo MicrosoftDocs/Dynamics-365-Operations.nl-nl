@@ -81,3 +81,6 @@ In deze voorbeelden ziet u hoe u verschillende typen workflowvoorwaarden kunt ma
 ## <a name="see-also"></a>Zie ook
 
 - [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

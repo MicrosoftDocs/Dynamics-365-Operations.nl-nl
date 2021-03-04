@@ -118,3 +118,6 @@ In de volgende tabellen worden de pagina's en velden weergegeven waar de opgegev
 |     Parameters van module Klanten > Automatisering van incassoproces     |     Aanmaningen automatisch boeken           |     Actietypen voor aanmaningen boeken de brief tijdens het automatiseren.                                      |
 |     Parameters van module Klanten > Automatisering van incassoproces     |     Activiteiten maken voor automatisering                |     Activiteiten maken en sluiten voor actietypen voor niet-activiteiten om alle geautomatiseerde stappen voor een rekening weer te geven.        |
 |     Parameters van module Klanten > Automatisering van incassoproces     |     Aantal dagen om automatisering van incassoproces te behouden     |     Het aantal dagen dat de incassogeschiedenis wordt opgeslagen.                                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

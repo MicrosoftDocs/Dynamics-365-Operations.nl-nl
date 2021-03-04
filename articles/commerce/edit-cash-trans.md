@@ -120,3 +120,6 @@ Voer deze stappen uit om transacties die niet zijn gekoppeld aan een overzicht i
 [Een Excel-werkmap maken om detailhandelstransacties te bewerken](create-excel-edit.md)
 
 [Velden toevoegen aan een Excel-werkmap om detailhandelstransacties te bewerken](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

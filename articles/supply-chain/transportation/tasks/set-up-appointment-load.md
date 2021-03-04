@@ -47,3 +47,6 @@ Deze procedure laat zien hoe u een dockafspraak voor een lading instelt en plant
 6. Klik op Opslaan.
 7. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Nadat u de gesimuleerde kostenwijzigingen hebt ingevoerd, berekent u de kosten v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

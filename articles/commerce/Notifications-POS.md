@@ -77,3 +77,6 @@ Als u het aantal meldingen op een knop wilt weergeven, moet u ervoor zorgen dat 
 De volgende afbeelding toont het effect van het selecteren van **Rechtsboven** versus **Midden** in de het del **Uitlijning van inhoud** voor knoppen van verschillende grootten.
 
 ![Live inhoud op de POS-knoppen](./media/ButtonsWithLiveContent.png "Live inhoud op de POS-knoppen")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

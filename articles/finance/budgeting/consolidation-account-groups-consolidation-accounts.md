@@ -54,3 +54,6 @@ Zie [Consolidatiegroepen en extra consolidatierekeningen maken](../general-ledge
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

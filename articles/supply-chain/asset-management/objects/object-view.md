@@ -48,3 +48,6 @@ Id functionele locatie/id functionele locatie (als er meer dan één functionele
 Als u een activum hebt geselecteerd in de structuurweergave, kunt u **Actieve aanvragen** of **Actieve werkorders** selecteren om de onderhoudsaanvragen of werkorders weer te geven die zijn gerelateerd aan het activum. U kunt ook **Openen** \> **Functionele locatie**, **Activum** of **Activumstuklijst** selecteren om de gerelateerde weergave te openen.
 
 De optie **Functionele locaties van activa** die u kunt selecteren in het veld **Weergeven**, is ook beschikbaar in elke zoekopdracht voor activa waar u een activum kunt selecteren. De structuurweergave wordt bijvoorbeeld weergegeven op een tabblad **Activaweergave**, waar u [een activum maakt](../objects/create-an-object.md), een onderhoudsaanvraag maakt of een werkorder maakt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

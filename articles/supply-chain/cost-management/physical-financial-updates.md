@@ -74,3 +74,6 @@ Wanneer u een financiële transactie boekt, wordt de status van de transactierec
 -   Voorraadjournalen met een negatieve hoeveelheid, zoals mutaties, winst en verlies, telling, stuklijsten en overboekingen
 
 Transacties waardoor de hoeveelheid afneemt, worden geboekt tegen het lopend gemiddelde van de kostprijs. Daarom is de procedure voor het afsluiten van voorraden vereist voor het vereffenen van uitgiftetransacties naar ontvangsttransacties op basis van het voorraadwaarderingsmodel dat aan elk artikel is gekoppeld.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ In de volgende afbeelding ziet u een voorbeeld van een berekening van het verbru
 
 ![Voorbeeld van een berekening van het verbruik van een artikel](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

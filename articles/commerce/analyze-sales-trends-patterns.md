@@ -43,3 +43,6 @@ Gebruikers kunnen ook trends en patronen in de verkoop per uur bestuderen op ver
 - Werkgebied **Winkelbeheer** &gt; **Retail en Commerce** &gt; **Kanalen** &gt; **Winkelbeheer** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per uur**
 - Werkgebied **Financiën van winkel** &gt; **Retail en Commerce** &gt; **Kanalen** &gt; **Financiën van winkel** &gt; **Rapporten** &gt; **Rapport Afzetkanaalverkoop per uur**
 - Sectie **Query's en rapporten** &gt; **Retail en Commerce** &gt; **Query's en rapporten** &gt; **Verkooprapporten** &gt; **Rapport Afzetkanaalverkoop per uur**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

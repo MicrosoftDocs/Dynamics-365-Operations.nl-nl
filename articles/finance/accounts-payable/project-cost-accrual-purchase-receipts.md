@@ -83,3 +83,6 @@ De leveranciersfactuur blijft in behandeling, totdat de werkelijke leveranciersf
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -127,3 +127,6 @@ Volg deze stappen om het probleem op te lossen.
 
 3. Controleer of de kolom **externalenvironmentURL** de juiste URL voor Dataverse of de app heeft. Verwijder dubbele rijen die naar de verkeerde Dataverse-URL verwijzen. Verwijder de overeenkomstige rijen uit de tabellen DUALWRITEPROJECTFIELDCONFIGURATION en DUALWRITEPROJECTCONFIGURATION.
 4. De tabeltoewijzing stoppen en vervolgens opnieuw starten
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ In dit onderwerp wordt uitgelegd hoe u [ER-configuraties](general-electronic-rep
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

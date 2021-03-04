@@ -58,3 +58,6 @@ Nadat het importeren is voltooid, moet u rollen toewijzen aan gebruikers.
 ## <a name="run-in-a-sandbox-environment"></a>Uitvoeren in een sandbox-omgeving
 1. Selecteer **Batch importeren**.
 2. Selecteer **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

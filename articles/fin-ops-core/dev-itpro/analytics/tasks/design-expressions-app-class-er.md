@@ -157,3 +157,6 @@ Voer voor testdoeleinden de toewijzing van de indeling uit met behulp van het Sa
 2. Klik op OK.
     * Bekijk de uitvoer in XML-indeling, die de gegevens vertegenwoordigt die zijn geïmporteerd vanuit het geselecteerde bestand en overgezet naar het gegevensmodel. Slechts 3 regels van het geïmporteerde TXT-bestand zijn verwerkt. De ongeldige IBAN-code op regel 4 is overgeslagen en een foutbericht wordt weergegeven in het infologboek.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

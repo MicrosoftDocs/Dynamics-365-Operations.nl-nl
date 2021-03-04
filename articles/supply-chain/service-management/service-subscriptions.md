@@ -38,3 +38,6 @@ Via een periodecode wordt de duur van de abonnementskostenperiode aangegeven of 
 De periodecode wordt gedefinieerd in de serviceabonnementsgroep. De periodecode wordt gedefinieerd voor de abonnementen via de serviceabonnementsgroep. Alle nieuwe abonnementskosten die u maakt, hebben een voorgestelde begindatum. Dit is de begindatum van de periode als het de eerste periode is die wordt gemaakt, of de einddatum van de vorige periode als dit de tweede of een latere periode is die wordt gemaakt.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

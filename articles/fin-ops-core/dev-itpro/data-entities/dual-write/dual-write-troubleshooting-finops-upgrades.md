@@ -91,3 +91,6 @@ Als het probleem nog steeds niet is opgelost, voert u de volgende stappen uit.
 4. Open de pagina **Tabeltoewijzing** op de pagina **Twee keer wegschrijven** in de Finance and Operations-app.
 5. Als het kenmerk niet automatisch wordt ingevuld op de toewijzing, voegt u dit handmatig toe door te klikken op de knop **Kenmerk toevoegen** en vervolgens op **Opslaan**. 
 6. Selecteer de toewijzing en klik op **Uitvoeren**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

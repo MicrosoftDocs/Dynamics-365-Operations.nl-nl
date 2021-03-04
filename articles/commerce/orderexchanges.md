@@ -50,3 +50,6 @@ Om beter inzicht te bieden in de verschillende bedragen voor de winkelwagen, zij
 - **Deposito toegepast**: het depositobedrag dat op een transactie wordt toegepast wanneer de gebruiker een klantorder ophaalt. Als er geen deposito-overschrijving is ingesteld en een deposito van 10 procent is geconfigureerd, is het bedrag in dit veld 90 procent van het totaalbedrag van de klantorder.
 - **Uitgevoerd bedrag**: het totale bedrag voor regels waarvoor de leveringsmethode was ingesteld op **Uitgevoerd** toen de klantorder werd gemaakt of bewerkt, of tijdens de uitwisseling van een klantorder. Het bedrag in dit veld is inclusief btw en toeslagen.
 - **Geretourneerd bedrag**: het totaalbedrag voor regels met negatieve hoeveelheden tijdens de uitwisseling van een klantorder. Het bedrag in dit veld is inclusief btw en toeslagen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

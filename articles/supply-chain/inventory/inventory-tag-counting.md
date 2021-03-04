@@ -36,3 +36,6 @@ Met behulp van regels op de pagina **Telling labels** plaatst u een labelnummer 
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Cyclustelling](../warehousing/cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

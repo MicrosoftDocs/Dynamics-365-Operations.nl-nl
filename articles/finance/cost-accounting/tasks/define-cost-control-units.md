@@ -41,3 +41,6 @@ Deze procedure laat zien hoe u kostenbeheereenheden definieert in het grootboek 
 10. Typ of selecteer een waarde in het veld Dimensie.
 11. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

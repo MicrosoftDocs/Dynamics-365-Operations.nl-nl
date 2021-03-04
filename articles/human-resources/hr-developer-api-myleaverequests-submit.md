@@ -108,3 +108,5 @@ Als onderdeel van de aanroep van de Submit-API voert Human Resources de validati
 
 - [MyLeaveRequests-overzicht](hr-developer-api-myleaverequests-overview.md)
 - [Verificatie](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

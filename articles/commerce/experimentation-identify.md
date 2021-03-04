@@ -40,3 +40,6 @@ Om een hypothese te valideren moet het slagen of mislukken van een experiment re
 
 ## <a name="next-step"></a>Volgende stap
 [Een experiment opzetten](experimentation-setup.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

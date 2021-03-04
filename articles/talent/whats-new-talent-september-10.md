@@ -98,3 +98,6 @@ Deze versie bevat verschillende aanvullende correcties:
 - Wanneer een contractant wordt aangesteld, moet het tabblad **Compensatie** niet beschikbaar zijn op de aanvraag-/actiepagina.
 - Tijdens het proces voor het aanvragen van ontslag kunt u pas doorgaan als alle vereiste velden gegevens bevatten.
 - Problemen met de sorteervolgorde en weergave van datums in de analyses in Personeelsbeheer zijn opgelost.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

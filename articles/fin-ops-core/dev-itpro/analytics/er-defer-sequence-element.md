@@ -249,3 +249,6 @@ Als u bijvoorbeeld de som van de belastingswaarden in de koptekst van uw rapport
 - [Indeling configureren voor tellen en totaliseren](./tasks/er-format-counting-summing-1.md)
 - [Uitvoering van ER-indeling traceren om prestatieproblemen op te lossen](trace-execution-er-troubleshoot-perf.md)
 - [De uitvoering van XML-elementen in ER-indelingen uitstellen](er-defer-xml-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

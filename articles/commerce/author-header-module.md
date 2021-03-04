@@ -119,3 +119,6 @@ Volg deze stappen op elke paginasjabloon die voor de site wordt gemaakt om te ga
 [Siteselectiemodule](site-selector.md)
 
 [Winkelselectiemodule](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

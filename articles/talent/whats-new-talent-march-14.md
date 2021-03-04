@@ -71,3 +71,6 @@ Met Platform update 24 voor Finance and Operations kunnen gebruikers waarschuwin
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Controle of dubbele werknemers: interfacewijzigingen
 Met deze wijziging worden dubbele records gedetecteerd wanneer u naamvelden invoert en met een status wordt weergegeven hoeveel er zijn gevonden. U kunt de opgegeven koppeling selecteren om een nieuwe pagina te openen om te beoordelen of de gedetecteerde overeenkomst moet worden gebruikt. Het formulier met dubbele records wordt niet automatisch geopend om te voorkomen dat gegevensinvoer wordt onderbroken.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

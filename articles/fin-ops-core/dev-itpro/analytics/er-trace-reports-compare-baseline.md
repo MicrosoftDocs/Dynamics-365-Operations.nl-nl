@@ -243,3 +243,6 @@ De basislijn wordt toegevoegd voor de indeling **Indeling voor leren van ER-basi
 ## <a name="additional-resources"></a>Aanvullende resources
 
 - [Raamwerk elektronische rapportage (ER) configureren](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

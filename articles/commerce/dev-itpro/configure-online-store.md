@@ -62,3 +62,6 @@ De onderwerpen in de volgende tabel helpen u bij de configuratie van Commerce-on
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

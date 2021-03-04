@@ -67,3 +67,6 @@ Posities zijn een belangrijk element van het lagere niveau van een organisatiehi
 30. Typ of selecteer een waarde in het veld Afdeling.
 31. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

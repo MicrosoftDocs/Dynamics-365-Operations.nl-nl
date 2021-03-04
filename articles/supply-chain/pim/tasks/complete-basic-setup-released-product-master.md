@@ -53,3 +53,6 @@ Dit is de derde van acht procedures waarin wordt uitgelegd hoe u combinaties maa
 20. Sluit de pagina.
 21. Sluit het formulier **Vrijgegeven productdetails**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

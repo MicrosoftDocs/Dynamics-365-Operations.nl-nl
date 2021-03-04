@@ -48,3 +48,6 @@ Deze procedure doorloopt het maken van een nieuw visueel profiel voor een verkoo
 17. Klik in de lijst op de koppeling in de geselecteerde rij.
 18. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

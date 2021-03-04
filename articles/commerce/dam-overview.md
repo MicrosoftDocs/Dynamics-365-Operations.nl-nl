@@ -60,3 +60,6 @@ De functies voor digitale activa en beheer bevinden zich in Site Builder onder *
 [Focuspunten van afbeelding aanpassen](dam-custom-focal-point.md)
 
 [Statische bestanden uploaden en verwerken](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Maak een productmodel voor de vooraf gedefinieerde varianten. Het bedrijf van de
 10. Klik op **Opslaan**.
 11. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

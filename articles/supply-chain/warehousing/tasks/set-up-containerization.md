@@ -81,3 +81,6 @@ In dit onderwerp wordt beschreven hoe u de containervorming van ladingen in Maga
 11. Typ of selecteer een waarde in het veld **Veld selecteren**.
 12. Selecteer **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

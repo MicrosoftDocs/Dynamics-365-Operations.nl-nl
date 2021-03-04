@@ -41,3 +41,6 @@ Voer de volgende stappen uit om de journaalboeking voor herclassificatie van kor
 4. Schakel de parameter **Boeken** in. Indien de invoer moet worden gemaakt, maar niet worden geboekt, dient u deze parameter uit te schakelen.
 5. Schakel de parameter **Bekijken alvorens te boeken** om de invoer weer te geven voordat deze wordt geboekt.
 6. Selecteer **OK**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

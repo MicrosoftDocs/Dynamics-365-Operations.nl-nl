@@ -45,3 +45,6 @@ Afhankelijk van het beleid van het bedrijf, kunnen de artikelen in de retourverz
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

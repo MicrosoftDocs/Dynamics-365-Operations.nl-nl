@@ -54,3 +54,6 @@ U kunt ook een bevestigingsbericht opgeven dat wordt weergegeven zodra de wizard
 4.  Open het tabblad **Land/regio's** om het land of de regio te selecteren waarvoor de configuratie moet worden gebruikt.
 5.  Voltooi de configuratie door de richtlijnen voor de standaardconfiguratie te volgen.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

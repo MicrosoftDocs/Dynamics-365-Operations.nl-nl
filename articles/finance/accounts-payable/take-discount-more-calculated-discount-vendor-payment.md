@@ -51,3 +51,6 @@ Vervolgens boekt April het betalingsjournaal. De factuur is volledig vereffend m
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

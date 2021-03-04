@@ -87,3 +87,6 @@ U gebruikt verantwoordelijkheidsgebieden om aan te geven voor welke werkrollen, 
 
 ## <a name="steps-for-creating-a-job"></a>Stappen voor het maken van een taak
 Raadpleeg het artikel [Nieuwe taken definiëren](../fin-and-ops/hr/tasks/define-new-jobs.md) voor de stapsgewijze procedure voor het maken van een nieuwe taak. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Stel in Dynamics 365 Human Resources dienstverbandcategorieën in voor uw medewe
 3. Geef waarden op voor **Type medewerker**, **Dienstverbandcategorie** en **Beschrijving**.
 
 4. Selecteer **Opslaan**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

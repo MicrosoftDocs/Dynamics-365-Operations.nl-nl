@@ -350,3 +350,6 @@ Volg deze stappen als de beslissing binnen een opgegeven tijd moet worden genome
     - **Jaren**: selecteer de dag, week en maand waarop de beslissing uiterlijk moet zijn genomen. U kunt bijvoorbeeld aangeven dat de beslissing uiterlijk op de vrijdag in de derde week van december moet zijn genomen.
 
 4. Als de tijdslimiet is overschreden, dan neemt het systeem automatisch de beslissing. Selecteer in de lijst **Actie** de optie die het systeem moet selecteren.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

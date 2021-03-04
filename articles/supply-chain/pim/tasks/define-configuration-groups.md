@@ -40,3 +40,6 @@ Deze procedure laat zien hoe u productconfiguratiegroepen definieert door twee g
 7. Typ een waarde in het veld Naam.
 8. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

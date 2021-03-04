@@ -84,3 +84,6 @@ Voer de volgende stappen uit om een tabbladmodule aan een nieuwe pagina toe te v
 [Accordeonmodule](add-accordion.md)
 
 [Text Block-module](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

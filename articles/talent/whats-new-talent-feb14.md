@@ -52,3 +52,6 @@ Er is een wijziging aangebracht zodat de code voor 'Ontslagreden' standaard word
 
 ### <a name="new-entity-created-for-job-compensation-levels"></a>Er is een nieuwe entiteit gemaakt voor taakcompensatieniveaus
 Er is een nieuwe DMF-entiteit (Data Management Framework) gemaakt. Met de entiteit kunnen compensatieniveaus, marktwaarden en onderzoeksinformatie worden gemaakt en bijgewerkt voor elke taak die in het systeem is gedefinieerd.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

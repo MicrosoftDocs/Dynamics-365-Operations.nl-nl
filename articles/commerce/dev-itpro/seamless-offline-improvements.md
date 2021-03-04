@@ -56,3 +56,6 @@ Commerce-parameters worden doorgaans in de cache opgeslagen. Daarom kan het, nad
 
 - [Functionaliteit voor offline verkooppunt (POS)](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
 - [Online en offline verkooppuntbewerkingen (POS)](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

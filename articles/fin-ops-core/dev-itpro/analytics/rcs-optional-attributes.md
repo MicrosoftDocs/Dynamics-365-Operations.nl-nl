@@ -130,3 +130,6 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 3. Klik op **Bladeren** en Selecteer het bestand **IncomingdocumentToLearnHowToHandleOptionalAttributes.xml**.
 4. Klik op **OK**.
 5. Bekijk het gegenereerde bestand. Zie dat hetzelfde bestand is geïmporteerd omdat het indelingsontwerp nu het id‑kenmerk voor het element document beschouwt als optioneel.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

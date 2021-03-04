@@ -210,3 +210,6 @@ Zoals eerder in dit onderwerp is beschreven, kunnen de kenmerken **Label** en **
 
 - [Overzicht van elektronische rapportage](general-electronic-reporting.md)
 - [Functies voor elektronische rapportage](er-formula-language.md#functions)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

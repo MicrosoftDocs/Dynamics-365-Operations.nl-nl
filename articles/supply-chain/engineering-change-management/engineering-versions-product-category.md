@@ -162,3 +162,6 @@ Technische stuklijsten en routes worden gemaakt op basis van de technische versi
 Voor producten waarvoor u de productversie *dimensie* gebruikt (samen met logistieke impact op de transacties) wordt de versie ook toegevoegd aan de stuklijsten en routes. Dit gedrag zorgt voor het onderscheid tussen stuklijsten en routes van opeenvolgende versies, ongeacht de instelling voor **Geldigheid afdwingen**.
 
 Voor producten waarvoor u de productversie *dimensie* niet gebruikt (zonder logistieke impact op de transacties) wordt de versie niet toegevoegd aan de stuklijsten of routes. Daarom is er geen verschil tussen de stuklijsten en routes van opeenvolgende versies. In dit geval is het raadzaam de optie **Geldigheid afdwingen** in te stellen op *Ja*. Op deze manier voorkomt u dat technische versies elkaar overlappen. U kunt ook de stuklijst en route van een nieuwere versie activeren zonder eerst de stuklijst en route van de vorige versie te deactiveren. Als u in dit geval de optie **Geldigheid afdwingen** op *Ja* instelt, moet u de stuklijsten en routes van oudere versies handmatig uitschakelen voordat u de meest recente versie kunt activeren.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

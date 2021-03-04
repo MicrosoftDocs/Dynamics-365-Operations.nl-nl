@@ -88,3 +88,6 @@ Een bedrijf dat budgetplanningsfunctionaliteit gebruikt, kan *budgetprognoses* m
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

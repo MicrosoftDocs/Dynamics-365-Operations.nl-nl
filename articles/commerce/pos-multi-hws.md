@@ -154,3 +154,6 @@ Winkelmedewerkers wordt gevraagd om een hardwarestation slechts één keer per t
 - [POS Hybrid-app instellen in Android en iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 - [Dynamics 365-betalingsconnector voor Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Overzicht van ondersteuning voor netwerkrandapparaten](https://go.microsoft.com/fwlink/?linkid=2129965)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

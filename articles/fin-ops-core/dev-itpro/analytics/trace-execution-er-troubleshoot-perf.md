@@ -376,3 +376,6 @@ U ziet dat de webbrowser een zipbestand voor downloaden biedt. Dit bestand bevat
 
 - [Overzicht van elektronische rapportage](general-electronic-reporting.md)
 - [De prestaties van ER-oplossingen verbeteren door BEREKEND VELD-gegevensbronnen met parameters toe te voegen](er-calculated-field-ds-performance.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -140,3 +140,6 @@ Voer de procedure 'Bankfaciliteiten en boekingsprofielen instellen' en de proced
 3. Klik in de lijst op de koppeling in de geselecteerde rij.
     * Controleer Verzendstatus = Betaling ontvangen en saldobedrag = 0,00.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

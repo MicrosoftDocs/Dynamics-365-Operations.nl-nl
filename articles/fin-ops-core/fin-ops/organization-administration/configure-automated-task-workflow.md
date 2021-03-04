@@ -110,3 +110,6 @@ U kunt meldingen naar gebruikers verzenden wanneer een geautomatiseerde taak is 
     </table>
 
 8. Herhaal stappen 3 tot en met 7 voor elke gebeurtenis die u in stap 2 hebt geselecteerd.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Dit is de tweede van vijf taken die het leveranciersbetalingproces toelichten do
 4. Typ of selecteer een waarde in het veld Bankrekening.
 5. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

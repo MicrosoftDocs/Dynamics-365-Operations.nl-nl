@@ -63,3 +63,6 @@ De functie `DAYS` retourneert een positieve waarde wanneer de eerste datum later
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Datum- en tijdfuncties](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

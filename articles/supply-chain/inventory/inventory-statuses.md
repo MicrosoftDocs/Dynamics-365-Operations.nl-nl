@@ -65,3 +65,6 @@ U kunt voorraadstatussen wijzigen via de pagina **Voorhanden voorraad** of met d
 > - Op de pagina **Voorhanden voorraad** kunt u regels op basis van weergegeven dimensies groeperen met de knop **Weergavedimensies** en de status van de geselecteerde regels wijzigen.
 > - Op de pagina **Voorhanden voorraad** kunt u meerdere records selecteren en de knop **Voorraadstatuswijziging** gebruiken om alle records tegelijk te wijzigen.
 > - Voor de periodieke taak **Voorraadstatuswijziging** kunt u filteren op traceringsdimensies.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -150,3 +150,6 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een 
 17. Typ in het veld **Bankrekening** `GBSI OPER`.
 18. Selecteer **OK** en vervolgens weer **OK**. Controleer het gemaakte werkblad, inclusief details van betalingsregels en totalen voor elke valutacode die in dit betalingsbericht wordt gebruikt.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

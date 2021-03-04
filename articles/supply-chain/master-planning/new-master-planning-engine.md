@@ -116,3 +116,6 @@ Ik gebruik versie 10.0.16 of hoger en het volgende foutbericht wordt weergegeven
 > Vul de volgende vragenlijst in om aan de slag te gaan en indien relevant uitzondering van de migratie naar Planningsoptimalisatie aan te vragen.
 
 **Antwoord:** Nee, de hoofdplanning wordt niet geblokkeerd. De uitvoering van de hoofdplanning is voltooid en u kunt het resultaat op de gebruikelijke manier gebruiken. Om dit foutbericht echter te vermijden tijdens toekomstige uitvoeringen van hoofdplanningen, moet u direct migreren naar Planningsoptimalisatie of een uitzondering aanvragen via de koppeling in het foutbericht.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Elk exemplaar kan worden gewijzigd zonder dat dit gevolgen heeft voor andere exe
 ## <a name="developer-documentation"></a>Documentatie voor ontwikkelaars
 
 Met het raamwerk voor procesautomatisering kunnen ontwikkelaars het raamwerk voor procesautomatisering uitbreiden. De documentatie van [Raamwerk voor procesautomatisering](../process-automation/process-automation-framework.md) bevat informatie over de manier waarop u aangepaste processen kunt maken die moeten worden uitgevoerd door de batchserver die is gepland met de wizard voor procesautomatisering en die automatisch in de kalenderweergave wordt weergegeven.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

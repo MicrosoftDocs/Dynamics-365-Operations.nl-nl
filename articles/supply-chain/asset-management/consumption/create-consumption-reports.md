@@ -78,3 +78,6 @@ Wanneer u verbruik voor werkorders hebt geboekt, kunt u een verbruiksrapport voo
 >[!NOTE]
 >U kunt ook een [werkorderrapport](../work-orders/work-order-report.md) genereren dat meer werkordergegevens bevat.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

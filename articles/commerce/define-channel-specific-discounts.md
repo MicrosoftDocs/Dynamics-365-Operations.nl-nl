@@ -62,3 +62,6 @@ Het volgende voorbeeld illustreert de taken die bij het instellen van een kanaal
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Prijscorrecties en kortingen](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

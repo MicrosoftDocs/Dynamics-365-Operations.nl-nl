@@ -41,3 +41,6 @@ Dynamics 365 Human Resources gebruikt redencodes om uit te leggen waarom de verg
    | **Beschrijving** | Een beschrijving van de redencode. |
 
 4. Selecteer **Opslaan**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

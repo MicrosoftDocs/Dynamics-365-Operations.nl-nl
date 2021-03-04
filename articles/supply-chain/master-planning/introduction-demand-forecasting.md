@@ -100,3 +100,6 @@ De maateenheid van de vraagprognose hoeft geen specifieke betekenis te hebben. D
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

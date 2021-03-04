@@ -71,3 +71,6 @@ Noteer de klant- en artikelnummers die u voor het provisieproces hebt geselectee
 3. Sluit de pagina.
 4. Selecteer **Boekstuk**. U kunt de boekstuktransacties voor de provisiebedragen controleren die op de vooraf gedefinieerde rekeningen voor provisie-uitgave en te betalen provisie zijn geboekt.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Als onderdeel van het quarantaineorderproces kunt u voorraad laten uitvallen. Wa
 --------
 
 [Voorraadblokkering](inventory-blocking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

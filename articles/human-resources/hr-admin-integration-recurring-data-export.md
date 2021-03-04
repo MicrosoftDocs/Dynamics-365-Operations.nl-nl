@@ -205,3 +205,6 @@ In de volgende afbeelding ziet u hoe de Logic Apps Designer eruitziet wanneer al
 In deze zelfstudie hebt u geleerd hoe u een logische app kunt gebruiken om gegevens uit Human Resources te exporteren en de geëxporteerde gegevens in een OneDrive voor Bedrijven-map op te slaan. U kunt de stappen van deze zelfstudie aanpassen aan de behoeften van uw bedrijf.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

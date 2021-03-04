@@ -60,3 +60,6 @@ Als u ten minste één voorgestelde wijziging hebt, worden twee extra menu's wee
     De status op de pagina wordt gewijzigd in **Wijzigingen in afwachting van goedkeuring**.
 
 De workflow volgt het standaard workflowproces in de toepassing. De fiatteur wordt doorgestuurd naar de pagina **Klant**, waar de wijzigingen op de pagina **Voorgestelde wijzigingen** kunnen worden gecontroleerd en **Werkstroom \> Goedkeuren** kan worden geselecteerd om de werkstroom goed te keuren. Nadat alle goedkeuringen zijn voltooid, worden de velden bijgewerkt met de voorgestelde waarden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

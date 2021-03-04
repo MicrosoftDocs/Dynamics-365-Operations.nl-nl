@@ -55,3 +55,6 @@ Deze procedure laat zien hoe u een batchkenmerk maakt, standaardwaardebereiken t
 22. Klik op Opslaan.
 23. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

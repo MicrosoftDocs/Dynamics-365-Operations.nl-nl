@@ -57,3 +57,6 @@ Toepassingsgegevens worden gebruikt voor het vullen van de rapporten in het inho
 | Training\_Position        | Positie, titel en voltijds equivalent (VTE)                  | Training\_CourseAgenda, Training\_CourseAttendees |
 | Training\_WorkerName      | Voornaam, achternaam en volledige naam                             | Training\_CourseAttendees |
 | Training\_WorkerTitle     | Titel en anciënniteitsdatum                                         | Training\_CourseAttendees |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

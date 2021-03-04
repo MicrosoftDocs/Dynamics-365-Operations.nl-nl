@@ -1233,3 +1233,6 @@ Zoals u ziet, bevat de voettekst van het gegenereerde rapport niet de naam van d
 - [IF-functie](er-functions-logical-if.md)
 - [ORDERBY-functie](er-functions-list-orderby.md)
 - [SESSIONNOW-functie](er-functions-datetime-sessionnow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

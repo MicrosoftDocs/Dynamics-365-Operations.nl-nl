@@ -310,3 +310,6 @@ U kunt ook de Nederlandse btw-aangifte genereren met de query **Btw rapporteren 
    > [!NOTE]
    > Als u de OB-aangifte genereert nadat u de oorspronkelijke en gecorrigeerde btw-betalingen hebt gemaakt, worden in de OB-aangifte alleen bedragen weergegeven van de oorspronkelijke btw-betaling.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

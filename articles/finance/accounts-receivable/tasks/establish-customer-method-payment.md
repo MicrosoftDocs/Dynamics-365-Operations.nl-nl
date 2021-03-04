@@ -46,3 +46,6 @@ In dit onderwerp wordt uitgelegd hoe u betalingsmethode kunt maken voor klantbet
 15. Gebruik het tabblad **Betalingskenmerken** om te bepalen welke betalingskenmerken u voor deze betalingsmethode wilt gebruiken.
 16. Selecteer **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

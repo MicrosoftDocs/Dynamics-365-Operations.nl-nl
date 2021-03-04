@@ -622,3 +622,6 @@ U hebt de werk- en locatiegegevens voor magazijn 51 ingesteld om ervoor te zorge
 
 > [!NOTE]
 > Mogelijk wilt u de kwaliteit-uit vermelding toevoegen aan een menuopdracht voor het mobiele apparaat met de activiteitscode *Openstaande werklijst weergeven*. Zie de menuopdracht van het mobiele apparaat met de naam **Werklijst** in de demogegevens voor een voorbeeld. Voeg eerst de productklasse *Kwaliteitsorder* toe aan een gebruikersspecifieke menuopdracht, omdat deze werkklasse is vereist voor het weergeven van werk in de werklijst. Voeg vervolgens de werkklasse *Kwaliteitsorder* toe aan de menuopdracht **Werklijst**. Gebruikers die toegang hebben tot de werklijst, kunnen vervolgens het werk dat automatisch wordt gegenereerd door het valideren van de kwaliteitsorder, verzamelen en verwerken.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -115,3 +115,6 @@ Volg deze stappen om een bestaande koppeling tussen een onderhoudsactivum en een
 1. Zoek het vaste activum en open het.
 1. Wis op het sneltabblad **Vast activum** de waarde uit het veld **Functionele locatie**.
 1. Selecteer **Opslaan** in het actievenster.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

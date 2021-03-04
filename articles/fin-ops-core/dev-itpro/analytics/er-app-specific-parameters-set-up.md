@@ -260,3 +260,6 @@ In het vorige voorbeeld hebt u via het ER-raamwerk toegang gekregen tot toepassi
 [Formuleontwerper in elektronische aangifte](general-electronic-reporting-formula-designer.md)
 
 [ER-indelingen configureren om parameters te gebruiken die per rechtspersoon worden opgegeven](er-app-specific-parameters-configure-format.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

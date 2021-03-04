@@ -54,3 +54,6 @@ Een importincasso helpt te waarborgen dat de verkoper wordt betaald wanneer de k
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

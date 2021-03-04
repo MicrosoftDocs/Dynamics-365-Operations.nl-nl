@@ -153,3 +153,6 @@ Op dit tabblad wordt de impact weergegeven van het geselecteerde alternatief voo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

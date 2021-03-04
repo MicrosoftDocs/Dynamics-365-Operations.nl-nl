@@ -89,3 +89,6 @@ Om deel te nemen aan een loyaliteitsprogramma, kan een marketingpagina worden ge
 [Koptekstmodule](author-header-module.md)
 
 [Voettekstmodule](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

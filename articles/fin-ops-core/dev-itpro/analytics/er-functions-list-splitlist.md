@@ -81,3 +81,6 @@ In de volgende afbeelding ziet u het resultaat wanneer de ontworpen indeling wor
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Lijstfuncties](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

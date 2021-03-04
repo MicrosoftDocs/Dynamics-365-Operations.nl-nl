@@ -55,3 +55,6 @@ Gebruik de volgende stappen om het aanvullende veld BankTransactionType aan het 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

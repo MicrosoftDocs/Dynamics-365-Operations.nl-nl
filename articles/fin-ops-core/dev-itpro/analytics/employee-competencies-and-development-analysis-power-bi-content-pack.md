@@ -69,3 +69,6 @@ Toepassingsgegevens worden gebruikt om de rapporten te vullen in het inhoudpakke
 | Workforce\_WorkerName             | Voornaam, achternaam en volledige naam                                                                       | |
 | Workforce\_WorkerTitle            | Titel en anciënniteitsdatum                                                                                   | |
 | Workorce\_WorkerTrend             | Werknemers in de loop van de tijd, personeelsbezetting, bedrijf en positie                                                        | Workforce\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

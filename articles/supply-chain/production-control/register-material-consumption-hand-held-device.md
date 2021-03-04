@@ -92,3 +92,6 @@ Nadat u de registratie hebt afgerond, selecteert u **Gereed**. Het journaal word
 -   Materiaal kan ook worden overgebruikt. Als bijvoorbeeld wordt geschat dat het materiaal wordt verbruikt met de hoeveelheid van 100 kg, kan het vervolgens worden overgebruikt met een hoeveelheid van 105 kg.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

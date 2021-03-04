@@ -66,3 +66,6 @@ Deze procedure richt zich op het uitvoeren van een opnamekanbantaak om materiale
 2. Klik op Voltooien.
     * Hiermee wordt de overboeking van beide taken voltooid.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

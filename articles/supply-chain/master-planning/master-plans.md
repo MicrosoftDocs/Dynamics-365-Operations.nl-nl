@@ -57,3 +57,6 @@ U kunt het eerste dynamische plan zo opstellen, dat het wordt bijgewerkt met het
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

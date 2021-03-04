@@ -246,3 +246,6 @@ U kunt een vragenlijst ook zo opzetten dat als een respondent antwoord A selecte
 
 [De resultaten van vragenlijsten bekijken en evalueren](evaluate-questionnaire-results.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

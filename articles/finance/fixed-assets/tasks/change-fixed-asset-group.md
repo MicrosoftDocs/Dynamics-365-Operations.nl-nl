@@ -46,3 +46,6 @@ Deze taakbegeleiding gebruikt het demobedrijf USMF.
 6. Klik op OK.
 7. Klik op Ja.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

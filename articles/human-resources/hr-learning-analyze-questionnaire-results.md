@@ -69,3 +69,6 @@ Vragenlijststatistieken kunnen worden gebruikt voor het berekenen van gemiddelde
 2. Klik op Resultaat.
 3. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

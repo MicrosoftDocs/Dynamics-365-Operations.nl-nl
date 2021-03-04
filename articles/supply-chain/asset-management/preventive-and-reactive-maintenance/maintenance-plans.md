@@ -194,3 +194,6 @@ In de volgende afbeelding ziet u een voorbeeld van een onderhoudsplan dat is ing
 
 ![Figuur 7](media/08-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

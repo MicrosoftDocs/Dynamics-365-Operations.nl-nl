@@ -147,3 +147,6 @@ De toegankelijke gegevens zijn de naam van de leverancier, adressen, contactgege
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Gebruikers van leverancierssamenwerking beheren](manage-vendor-collaboration-users.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

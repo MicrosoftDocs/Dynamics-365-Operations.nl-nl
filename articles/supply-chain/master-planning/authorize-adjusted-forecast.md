@@ -51,3 +51,6 @@ Het is zeer belangrijk dat u begrijpt hoe het selectievakje **De handmatige corr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

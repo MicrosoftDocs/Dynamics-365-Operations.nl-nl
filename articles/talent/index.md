@@ -35,3 +35,6 @@ Talent bevat Attract, waarmee u kandidaten kunt identificeren, sollicitatiegespr
 > [!IMPORTANT]
 > De functionaliteit in Dynamics 365 Talent: Core HR is nu opgenomen in Dynamics 365 Human Resources. U kunt de documentatie voor Human Resources raadplegen in [Welkom bij Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365/human-resources/hr-welcome).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

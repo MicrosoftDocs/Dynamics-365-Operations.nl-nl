@@ -106,3 +106,6 @@ Aanvullende resources
 - [Werkgebied voor kostenbeheer](cost-control-workspace.md)
 - [Dimensiehiërarchie](dimension-hierarchy.md)
 - [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

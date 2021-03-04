@@ -83,3 +83,6 @@ In plaats daarvan moet de gebruiker de waarde in het lookup-besturingselement wi
 Nadat het filter is toegepast (zie de onderstaande afbeelding), kan de gebruiker de rij zoals gebruikelijk zoeken en selecteren.
 
 ![gefilterdartikellookup](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

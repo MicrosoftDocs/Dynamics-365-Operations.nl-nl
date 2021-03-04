@@ -102,3 +102,6 @@ Op het tabblad **Toewijzingssleutels** kunt u de **Parameters van prognosealgori
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Als u **Leverancier** invoert als de gegevensbron van het gegevenstype van *Reco
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Lijstfuncties](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

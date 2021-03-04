@@ -180,3 +180,6 @@ De volgende Human Resources-entiteiten zijn beschikbaar in Common Data Service.
 
 [Een technologie voor gegevensintegratie kiezen](hr-admin-integration-choose-technology.md)</br>
 [Integratie met Common Data Service configureren](hr-admin-integration-common-data-service.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

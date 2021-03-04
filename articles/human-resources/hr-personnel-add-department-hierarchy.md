@@ -54,3 +54,6 @@ Als u een afdeling wilt toevoegen aan de afdelingshiërarchie, volgt u deze stap
 
 ## <a name="steps-for-creating-a-department"></a>Stappen voor het maken van een afdeling
 Raadpleeg het artikel [Nieuwe afdelingen definiëren](../fin-and-ops/hr/tasks/define-new-departments.md) voor de stapsgewijze procedure voor het maken van een nieuwe afdeling. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Het is mogelijk om locaties van het ene magazijn naar het andere te kopiëren en
 --------
 
 [Een nieuwe magazijnindeling maken](tasks/create-new-warehouse-layout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

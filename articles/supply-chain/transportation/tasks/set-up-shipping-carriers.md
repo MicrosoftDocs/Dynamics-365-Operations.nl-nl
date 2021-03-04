@@ -73,3 +73,6 @@ In dit onderwerp wordt beschreven hoe u een vervoerder instelt en details bepaal
 9. Selecteer in het veld **Engine voor transittijd** een optie in het vervolgkeuzemenu.
 10. Selecteer **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

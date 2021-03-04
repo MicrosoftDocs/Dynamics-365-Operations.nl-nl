@@ -301,3 +301,6 @@ Zie [Mobiele apparaten instellen voor magazijnwerk](configure-mobile-devices-war
 Zie voor meer informatie over de ontvangst van nummerplaten en werkbeleid [Nummerplaat ontvangen via de magazijnapp](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Zie [Magazijnverwerking van inkomende ladingen voor inkooporders](inbound-load-handling.md) voor meer informatie over het beheer van inkomende ladingen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

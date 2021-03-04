@@ -69,3 +69,6 @@ Als de eerste en tweede waarden van het gegevenstype *Container (record)* of *Re
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Logische functies](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

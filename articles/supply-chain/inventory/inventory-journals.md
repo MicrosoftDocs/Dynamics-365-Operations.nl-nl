@@ -117,3 +117,6 @@ Deze twee voorraadjournalen ondersteunen alleen het scenario *Voorraad initialis
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Gegevensentiteiten](../../dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

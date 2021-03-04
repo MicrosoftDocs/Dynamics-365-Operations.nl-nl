@@ -63,3 +63,6 @@ De resulterende numerieke waarde.
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Type conversiefuncties](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

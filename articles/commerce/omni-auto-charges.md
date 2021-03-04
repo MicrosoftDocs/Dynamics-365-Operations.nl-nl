@@ -222,3 +222,6 @@ Als gebruikers de berekende toeslagen handmatig overschrijven of een handmatige 
 
 [Toeslagen voor koptekst naar rato verdelen voor overeenkomende verkoopregels](pro-rate-charges-matching-lines.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

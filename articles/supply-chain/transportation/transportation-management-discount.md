@@ -33,3 +33,6 @@ Voor het instellen van kortingen voor Transportbeheer gaat u naar **Transportbeh
 U kunt kiezen of u de korting aan uw klant wilt doorgeven (door het kortingstype in te stellen op klant) of in het bedrijf te houden (door het kortingstype in te stellen op verzender). Hiermee kunt u een instelling definiëren waarin u een marge kunt verdienen voor de berekende vrachtkosten.
 
 U kunt meerdere kwalificaties instellen voor elke korting, zoals vervoerder, vervoerdersservice, leveringsvoorwaarden, klant, bestemming, enzovoort.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

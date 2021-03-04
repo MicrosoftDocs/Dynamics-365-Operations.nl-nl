@@ -57,3 +57,6 @@ Wanneer u verkoopoffertes bevestigt, geven de resulterende verkooporders het hel
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

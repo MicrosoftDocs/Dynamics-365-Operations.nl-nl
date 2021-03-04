@@ -57,3 +57,6 @@ Aan het eind van elke maand rekent u de opbrengst van één maand van de abonnem
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

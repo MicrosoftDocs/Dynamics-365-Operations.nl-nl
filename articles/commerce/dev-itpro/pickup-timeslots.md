@@ -123,3 +123,6 @@ In de volgende afbeelding ziet u een voorbeeld van een e-commerce-order waar een
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Module ophaalinformatie](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

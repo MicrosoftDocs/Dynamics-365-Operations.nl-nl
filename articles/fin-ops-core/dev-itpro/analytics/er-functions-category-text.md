@@ -62,3 +62,6 @@ ER-tekstfuncties kunnen worden gebruikt om bewerkingen uit te voeren op gegevens
 [Formuleontwerper in elektronische aangifte](general-electronic-reporting-formula-designer.md)
 
 [Formuletaal in Elektronische rapportage](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

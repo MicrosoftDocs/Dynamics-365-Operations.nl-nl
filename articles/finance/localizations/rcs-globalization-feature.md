@@ -252,3 +252,6 @@ Gebruikers van globalisatieservices kunnen de omgeving beheren om een globalisat
 10. Selecteer **Publiceren** om de omgeving te publiceren.
 
     ![Gepubliceerde omgeving](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

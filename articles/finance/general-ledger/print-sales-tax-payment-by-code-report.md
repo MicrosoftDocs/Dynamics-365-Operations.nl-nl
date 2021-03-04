@@ -48,3 +48,6 @@ Schakel in het werkgebied **Functiebeheer** de volgende functie in: **Het rappor
 In de volgende afbeelding ziet u een voorbeeld van het gegenereerde rapport. In het rapport wordt aangegeven dat de aangiftecode **101** de valuta **EUR** gebruikt als het veld **Btw-valuta** wordt ingesteld op **EUR** voor de btw-code waaraan de aangiftecode is toegewezen.
 
 ![Voorbeeld van rapport Btw-betaling per code](media/Sales-tax-payment-by-code-2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

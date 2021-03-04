@@ -92,3 +92,6 @@ Voer de volgende stappen uit om de status van een takenlijst bij te houden voor 
 [Takenlijsten maken en taken toevoegen](task-mgmt-create-lists.md)
 
 [Taakbeheer in POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

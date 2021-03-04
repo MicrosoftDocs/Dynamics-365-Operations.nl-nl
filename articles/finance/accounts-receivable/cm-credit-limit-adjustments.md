@@ -124,3 +124,6 @@ De workflows voor **Kredietlimietcorrecties** kunnen worden gebruikt voor het ve
 
 > [!NOTE]
 > Wanneer u de workflow **Kredietlimietcorrecties** maakt, kunt u deze zo instellen dat de correcties automatisch worden geboekt nadat de regels zijn goedgekeurd. U hoeft alleen de taak **Journaal automatisch boeken** in de workflow op te nemen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

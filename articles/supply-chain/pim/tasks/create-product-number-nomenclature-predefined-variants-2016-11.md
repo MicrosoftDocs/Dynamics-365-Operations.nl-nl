@@ -58,3 +58,6 @@ In dit onderwerp wordt aangegeven hoe u een productnummernomenclatuur instelt vo
 5. Typ of selecteer een waarde in het veld **Productvariantnummer-nomenclatuur**.
 6. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Deze procedure is gericht op het voorbereiden van een proceskanbantaak wanneer b
 6. Klik op Voorbereiden.
     * Merk op dat een pictogram in de Taakstatus aangeeft dat de taak nu gereed is.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

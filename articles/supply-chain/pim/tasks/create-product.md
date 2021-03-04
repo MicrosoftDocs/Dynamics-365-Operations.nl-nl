@@ -39,3 +39,6 @@ Deze procedure doorloopt het maken van een nieuw product in de Commerce-producth
 8. Typ een waarde in het veld Productnummer.
 9. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

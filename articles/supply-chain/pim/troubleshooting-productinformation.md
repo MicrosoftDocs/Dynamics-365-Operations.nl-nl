@@ -152,3 +152,6 @@ Als er al een productvariant is vrijgegeven in een bedrijf A en u probeert deze 
 Met de knop **Nieuw** op de pagina **Vrijgegeven productvarianten** maakt u de variant en geeft u deze vrij in de bedrijfscontext. Als de variant al is gemaakt, kunt u de knop **Nieuw** niet gebruiken om de variant vrij te geven in een ander bedrijf.
 
 Om het probleem op te lossen, opent u de pagina **Productmodel** en selecteert u **Vrijgeven product** om de bestaande variant in het gewenste bedrijf vrij te geven.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

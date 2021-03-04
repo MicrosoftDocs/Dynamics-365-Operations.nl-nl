@@ -75,3 +75,6 @@ Als de waarde van het argument `decimals` minder dan 0 (nul) is, wordt het opgeg
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Wiskundige functies](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

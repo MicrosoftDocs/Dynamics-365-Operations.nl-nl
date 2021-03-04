@@ -56,3 +56,6 @@ Deze taakbegeleiding doorloopt het maken en bijboeken van vaste activa met het i
 17. Klik in de lijst op de koppeling in de geselecteerde rij.
 18. Klik op **Boeken**. Het vaste activum wordt gemaakt en bijgeboekt wanneer de factuur wordt geboekt.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

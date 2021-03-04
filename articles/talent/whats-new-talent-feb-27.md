@@ -141,3 +141,6 @@ Voer de volgende stappen uit om uw bestaande sjabloon bij te werken.
     9. Selecteer op de pagina **Toewijzingstaak** de nieuwe kolom als de bron voor het maken van een andere toewijzing voor HIERARCHYTYPENAME.
 
         [![Toewijzing](./media/CDS-Mapping5.png)](./media/CDS-Mapping5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Met het formulier **Retourorder verwijderen** kunt u meerdere retourorders verwi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

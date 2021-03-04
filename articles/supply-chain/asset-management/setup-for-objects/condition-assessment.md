@@ -66,3 +66,6 @@ Nadat u een toestandsbeoordelingsregistratie voor een activum hebt gemaakt, kunt
 
 >[!NOTE]
 >U kunt ook de toestandsbeoordeling voor een werkorder registreren (**Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** > knop **Toestandsbeoordeling**).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

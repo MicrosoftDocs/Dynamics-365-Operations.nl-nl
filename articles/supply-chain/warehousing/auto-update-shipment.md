@@ -140,3 +140,6 @@ De wave wordt verwerkt en de hoeveelheid werk wordt gemaakt voor de gereserveerd
 Als een verzending de status **In wave** of hoger heeft, worden updates van de hoeveelheid op een verkooporderregel niet weergegeven of gevalideerd op basis van een ladingsregel die aan de zending is gekoppeld. Wijzigingen in de hoeveelheid op een ladingsregel moeten direct op de ladingsregel worden aangebracht.
 
 De validatie wordt uitgevoerd nadat het werk voor de ladingsregel is gemaakt en er een reservering is gemaakt. Een verlaging van de hoeveelheid op de verkooporderregel wordt vervolgens gevalideerd tegen de reservering van de werkregel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

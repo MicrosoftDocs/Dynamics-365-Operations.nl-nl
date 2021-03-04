@@ -49,3 +49,6 @@ Als toerekeningen worden verwerkt terwijl het verlof van de werknemer is opgesch
 - [Verlof- en verzuimtypen configureren](hr-leave-and-absence-types.md)
 - [Verlof- en verzuimplannen toerekenen](hr-leave-and-absence-accrue.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

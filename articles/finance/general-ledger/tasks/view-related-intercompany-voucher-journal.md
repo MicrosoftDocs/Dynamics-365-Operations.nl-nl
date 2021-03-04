@@ -54,3 +54,6 @@ Het venster Verwant boekstuk toont het boekstuk van het tegenbedrijf bij het boe
 3. Markeer in de lijst de geselecteerde rij.
 4. Klik op Boekstuk.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

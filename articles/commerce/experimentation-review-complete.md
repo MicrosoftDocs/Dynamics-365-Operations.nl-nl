@@ -61,3 +61,6 @@ Voer de volgende stappen uit om een experiment te verwijderen in Commerce Site B
 
 ## <a name="previous-step"></a>Vorige stap
 [Een experiment uitvoeren en controleren](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

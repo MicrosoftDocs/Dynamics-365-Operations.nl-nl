@@ -99,3 +99,6 @@ De volgende taak is het maken van een offerteaanvraag om biedingen van leveranci
 8. Selecteer de pagina.
 9. Selecteer Voltooien.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

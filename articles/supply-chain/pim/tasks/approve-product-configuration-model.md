@@ -49,3 +49,6 @@ Het uitvoeren van deze procedure vereist dat er ten minste één productconfigur
     * Activeer de productmodelversie. Het is alleen mogelijk om één product tegelijk actief te hebben voor een productmodel.  
 13. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

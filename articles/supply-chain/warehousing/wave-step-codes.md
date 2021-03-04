@@ -93,3 +93,6 @@ Met de volgende procedure kunt u garanderen dat de aanvullingssjabloon die u heb
 6. Selecteer in het veld **Wave-stapcode** de wave-stapcode die u voor de aanvullingssjabloon hebt gemaakt.
 
 U voert deze stappen uit voor elke rechtspersoon.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -137,3 +137,6 @@ Werknemers die zich voor een cursus via registreren de pagina **Selfservice werk
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

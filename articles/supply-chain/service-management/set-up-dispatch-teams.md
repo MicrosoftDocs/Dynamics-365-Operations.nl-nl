@@ -54,3 +54,6 @@ In dit onderwerp wordt beschreven hoe u een nieuw verzendteam maakt. Nadat u een
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

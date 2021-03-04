@@ -40,3 +40,6 @@ Verzamelwerk wordt geblokkeerd vanwege afhankelijk aanvullingswerk.
 ### <a name="issue-resolution"></a>Probleemoplossing
 
 Wanneer u wavevraagaanvulling gebruikt en er een verzamellocatie moet worden aangevuld om aan de bronordervraag te voldoen, worden zowel het aanvullingswerk als het verzamelwerk gemaakt. Het verzamelproces wordt echter geblokkeerd totdat het aanvullingswerk is voltooid. Dit gebeurt met opzet, omdat de verzamellocatie onvoldoende voorraad heeft, tenzij het aanvullingswerk is voltooid. Voltooi het aanvullingswerk en verwerk vervolgens het verzamelwerk.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

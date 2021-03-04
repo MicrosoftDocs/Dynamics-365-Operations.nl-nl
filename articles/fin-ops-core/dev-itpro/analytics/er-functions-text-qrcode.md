@@ -61,3 +61,6 @@ Wanneer u de geconfigureerde ER-indeling uitvoert, wordt de tekstwaarde van het 
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Tekstfuncties](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

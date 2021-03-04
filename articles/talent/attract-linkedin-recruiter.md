@@ -129,3 +129,6 @@ Als kandidaten ermee instemmen hun LinkedIn-profielen te delen met gebruikers in
 [Vacatures plaatsen op LinkedIn vanuit Microsoft Dynamics 365 Talent - Attract](./attract-post-jobs-to-linkedin.md)
 
 [Problemen met integratie met LinkedIn en Microsoft Dynamics 365 Talent - Attract oplossen](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

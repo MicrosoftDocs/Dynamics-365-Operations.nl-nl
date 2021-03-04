@@ -97,3 +97,6 @@ Elk veld heeft een ander effect op de transactie als u dit bewerkt:
 - **De voorwaarden voor contantkorting bewerken:** de contantkortingen worden gewijzigd, op basis van de basisdatum en de voorwaarden voor contantkorting.
 
 Wanneer u klaar bent met het bewerken van de betalingsinstellingen, selecteert u **Sluiten** om uw wijzigingen op te slaan.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

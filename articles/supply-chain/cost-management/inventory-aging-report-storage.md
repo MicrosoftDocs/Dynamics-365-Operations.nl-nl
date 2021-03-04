@@ -57,3 +57,6 @@ Voordat u deze functie kunt gebruiken, moet u deze inschakelen op uw systeem. Be
     > In het formulier worden geen subtotalen opgenomen die zijn gedefinieerd in de rapportindeling.
 
 Met de gegevensentiteit **Naar ouderdom gerangschikt voorraadrapport** kunt u de uitvoer van een **Opslag naar ouderdom gerangschikt voorraadrapport** exporteren door een filter voor het veld **Proces-id – Naam** toe te passen op alle indelingen die door Gegevensbeheer worden ondersteund.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

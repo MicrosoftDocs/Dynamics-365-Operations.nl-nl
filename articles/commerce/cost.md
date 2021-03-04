@@ -171,3 +171,6 @@ U moet de volgende velden instellen voor deze combinatie:
 
 > [!IMPORTANT]
 > Voordat deze kosten in Gedistribueerd orderbeheer (DOM) worden meegenomen, moet u de kostenfactor toevoegen aan het relevante afhandelingsprofiel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

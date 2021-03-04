@@ -78,3 +78,6 @@ De volgende dag vertelt uw manager u dat de computers zijn verlaagd met 8 procen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

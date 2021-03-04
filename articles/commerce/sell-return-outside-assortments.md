@@ -46,3 +46,6 @@ Deze algemene scenario's zijn beschikbaar voor detailhandelaren die Commerce geb
 + Producten in de huidige winkel of een andere winkel afhalen.
 + Een order in de huidige winkel of een andere winkel annuleren.
 + Een order retourneren met of zonder kassabon in de huidige winkel of een andere winkel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

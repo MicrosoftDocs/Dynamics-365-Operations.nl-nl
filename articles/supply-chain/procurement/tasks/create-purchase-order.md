@@ -74,3 +74,6 @@ In dit onderwerp leest u hoe u een inkooporder handmatig maakt. Het is gebruikel
 
 2. Selecteer **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ Als een inkooporder onder wijzigingsbeheer valt, moeten wijzigingen, zoals het a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

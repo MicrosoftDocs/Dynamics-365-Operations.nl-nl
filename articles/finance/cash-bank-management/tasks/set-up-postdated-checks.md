@@ -57,3 +57,6 @@ De rol van deze procedure is penningmeester. Bij deze procedure wordt het demobe
 18. Klik op Opslaan.
 19. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

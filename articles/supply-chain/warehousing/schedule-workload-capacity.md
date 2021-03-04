@@ -80,3 +80,6 @@ Als deze informatie niet correct wordt opgegeven, ontvangt u een bericht als u h
 3. Selecteer in het veld **Ordertype** **Gepland en bevestigd**, **Gepland** of **Bevestigd** om het type orders aan te geven dat moet worden voorspeld in het rapport.
 4. Selecteer in het veld **Type lading** een ladingtype om op te geven of de werkbelastingcapaciteit moet worden voorspeld voor volume of gewicht.
 5. Selecteer in het veld **Werkbelastingcapaciteit** een instelling voor werkbelastingcapaciteit.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -289,3 +289,6 @@ Wanneer de geconfigureerde gegevensbron wordt uitgevoerd terwijl de ER-uitvoerin
 [Formuleontwerper in elektronische aangifte](general-electronic-reporting-formula-designer.md)
 
 [Uitvoering van ER-indeling traceren om prestatieproblemen op te lossen](trace-execution-er-troubleshoot-perf.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Op deze pagina vindt u bronnen die informatie geven over de nieuwe functies en w
 | Dynamics 365 for Retail - 7.3.2.5 | 7.3.21971.64091 | 2018 juni | [KB 4342134 Microsoft Dynamics 365 for Retail - versie 7.3.2.5 - BugFix-pakket 1\*](https://fix.lcs.dynamics.com/Issue/Details?kb=4342134&bugId=225730&qc=f3e2816c3b1434965bc738285fb40f4ad33661bdd853b799dca4c610608640af) |
 
 \* De koppeling verwijst naar een Knowledge Base-artikel (KB). U moet zich aanmelden bij Lifecycle Services (LCS) om het KB-artikel weer te geven.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

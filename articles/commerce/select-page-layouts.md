@@ -78,3 +78,6 @@ Voer de volgende stappen uit om een andere indeling voor een bestaande pagina te
 
 [Toegankelijkheid van pagina-inhoud controleren](verify-accessibility.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

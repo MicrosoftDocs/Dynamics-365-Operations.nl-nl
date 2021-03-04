@@ -62,3 +62,6 @@ De volgende gegevens worden gebruikt om de rapporten in de Power BI-inhoud **Ler
 | Positie         | Positie, titel en voltijds equivalent (VTE)                  | Cursusagenda, cursusdeelnemers |
 | Naam van werknemer    | Voornaam, achternaam en volledige naam                             | Cursusdeelnemers |
 | Werknemertitel   | Titel en anciënniteitsdatum                                         | Cursusdeelnemers |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

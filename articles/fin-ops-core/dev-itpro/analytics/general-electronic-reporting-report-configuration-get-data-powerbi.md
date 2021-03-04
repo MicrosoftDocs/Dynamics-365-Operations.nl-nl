@@ -196,3 +196,6 @@ Stel integratie met Power BI in. Zie voor meer informatie [Power BI-integratie v
 [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

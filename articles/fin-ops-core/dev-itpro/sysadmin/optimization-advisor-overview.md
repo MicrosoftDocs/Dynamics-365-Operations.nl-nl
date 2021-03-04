@@ -94,3 +94,6 @@ Als u de evaluatie van specifieke regels wilt deactiveren, selecteert u de mogel
 [Regels maken voor Optimalisatie-advies](./create-rules-optimization-advisor.md)
 
 [Optimization advisor in Dynamics 365 for Finance and Operations (video)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

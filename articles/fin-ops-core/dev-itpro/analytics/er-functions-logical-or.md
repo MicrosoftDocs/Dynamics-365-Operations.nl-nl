@@ -59,3 +59,6 @@ De resulterende *Booleaanse* waarde.
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Logische functies](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

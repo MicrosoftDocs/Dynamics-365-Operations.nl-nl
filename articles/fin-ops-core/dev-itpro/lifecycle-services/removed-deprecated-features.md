@@ -65,3 +65,6 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

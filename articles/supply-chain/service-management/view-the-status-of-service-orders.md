@@ -55,3 +55,6 @@ Het Gantt-diagram ondersteunt het gebruik van kleuren zodat u snel de urgentie v
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

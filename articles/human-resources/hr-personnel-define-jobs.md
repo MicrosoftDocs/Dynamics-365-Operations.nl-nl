@@ -71,3 +71,6 @@ Deze taak is gericht op het maken van een nieuwe taak. Het wordt voltooid met ha
 33. Schakel de uitbreiding van de sectie Opleiding om.
 34. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Als u de volgende taakbegeleiding [ER vereiste configuraties maken om gegevens t
 | Omschrijving inhoud    | Bestand                                                            |
 |------------------------|-----------------------------------------------------------------|
 | ER-modelconfiguratie | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=862266) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

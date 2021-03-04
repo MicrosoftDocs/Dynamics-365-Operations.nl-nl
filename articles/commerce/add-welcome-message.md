@@ -68,3 +68,6 @@ Het welkomstbericht verschijnt nu boven aan elke sitepagina die het geselecteerd
 
 [Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ In dit onderwerk wordt uitgelegd hoe u ondersteuning kunt krijgen bij Finance an
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

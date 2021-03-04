@@ -49,3 +49,6 @@ Ga als volgt te werk om een transportstatus toe te wijzen aan de status van een 
 1. Selecteer de transportstatuscode die u wilt koppelen aan de code van de geselecteerde vervoerder.
 1. Voer de externe code in die door de vervoerder wordt gebruikt.
 1. Sluit de pagina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

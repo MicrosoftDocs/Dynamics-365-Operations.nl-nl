@@ -112,3 +112,6 @@ Zie [Werken met vooraf ingestelde indelingen](work-with-layouts.md) om vooraf ge
 [Werken met vooraf ingestelde indelingen](work-with-layouts.md)
 
 [Werken met publicatiegroepen](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

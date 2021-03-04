@@ -90,3 +90,6 @@ Deze procedure toont hoe u een verkoopovereenkomst vervult door er verkooporders
 23. Klik op Gekoppelde verkoopovereenkomst.
 24. Klik op het tabblad Vervulling.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

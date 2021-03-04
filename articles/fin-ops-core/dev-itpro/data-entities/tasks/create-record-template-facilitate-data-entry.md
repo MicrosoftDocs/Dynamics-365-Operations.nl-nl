@@ -43,3 +43,6 @@ In dit onderwerp wordt voorgedaan hoe u een recordsjabloon kunt maken, zodat vaa
 13. Selecteer **OK**.
 14. Selecteer **Sluiten**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

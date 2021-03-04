@@ -60,3 +60,6 @@ De taakstatus is **Annuleren** totdat de service Optimalisatie van planning beve
 [Planhistorie en planningslogboeken weergeven](plan-history-logs.md)
 
 [Filters op een plan toepassen](plan-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

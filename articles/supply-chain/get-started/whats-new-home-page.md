@@ -67,3 +67,6 @@ Zie de volgende onderwerpen voor informatie over wat er nieuw of gewijzigd is ve
 | Microsoft Dynamics 365 for Operations                                 | 1611        | 7.1.1541.3036    | november 2016    | [Wat is nieuw of gewijzigd in Dynamics 365 for Operations versie 1611 (november 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-dynamics-365-operations-1611.md)                |
 | Microsoft Dynamics AX                                                 | 7.0.1       | 7.0.1265.23014   | mei 2016         | [Wat is nieuw of gewijzigd in Dynamics AX toepassingsversie 7.0.1 (mei 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-application-version-7-0-1-may-2016.md)          |
 | Microsoft Dynamics AX                                                 | 7.0         | 7.0.1265.3015    | 2016 februari    | [Wat is nieuw of gewijzigd in Dynamics AX 7.0 (februari 2016)](../../fin-ops-core/fin-ops/get-started/whats-new-changed-7-0-february-2016.md)                                            |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

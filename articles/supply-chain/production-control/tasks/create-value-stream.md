@@ -49,3 +49,6 @@ Waardestromen zijn operationele eenheden die één of meerdere productiestromen 
 2. Sluit de pagina.
 3. Vernieuw de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ In het volgende onderwerp wordt uitgelegd hoe een gebruiker met de rol van syste
 2. Selecteer **Instellingen als actief**.
 
 ![Pagina met het werkgebied Elektronische rapportage](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

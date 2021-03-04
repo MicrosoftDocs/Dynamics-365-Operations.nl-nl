@@ -73,3 +73,6 @@ De volgende tabel geeft aanbevelingen over de oplossingsstrategie die moet worde
 [Heuristiek](https://techterms.com/definition/heuristic)
 
 [Probleem met voldoen aan beperking](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

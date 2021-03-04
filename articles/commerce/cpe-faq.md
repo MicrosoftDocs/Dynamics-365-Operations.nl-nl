@@ -71,3 +71,6 @@ Verlenging van de tijds limiet wordt bij uitzondering verleend en wordt per geva
 [BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving](cpe-bopis.md)
 
 [Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren](cpe-optional-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

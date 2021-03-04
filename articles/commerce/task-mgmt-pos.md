@@ -64,3 +64,6 @@ In de volgende afbeelding wordt het tabblad **Takenlijsten** weergegeven.
 [Takenlijsten maken en taken toevoegen](task-mgmt-create-lists.md)
 
 [Takenlijsten toewijzen aan winkels of werknemers](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

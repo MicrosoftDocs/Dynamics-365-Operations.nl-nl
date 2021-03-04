@@ -123,3 +123,6 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 
 > [!NOTE]
 > Hetzelfde bestand is geïmporteerd als het opmaakontwerp, beschouw nu het kenmerk 'id' voor het element 'document' als optioneel.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

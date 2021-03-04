@@ -41,3 +41,6 @@ In dit onderwerp vindt u een overzicht van de mobiele werkgebieden die beschikba
 | [Verkooporders](../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | Blijf op de hoogte van uw verkooporders.                                                                                                                          |  2017 januari                  |
 | [Leverancierssamenwerking](../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | Leveranciers kunnen op de hoogte blijven van de inkooporders die aan hen zijn verzonden voor goedkeuring. Ze zien hier ook informatie over nieuwe en bijgewerkte inkooporders en contactpersonen. |2017 januari    |
 | [Activabeheer](../../../supply-chain/asset-management/asset-management-mobile-workspace.md) | Met dit werkgebied kunnen gebruikers onderhoudsaanvragen en werkorders weergeven en maken. Gebruikers kunnen de toegewezen werkordertaken ook weergeven in een kalender- of een lijstweergave. Activa en functionele locaties kunnen ook worden weergegeven en gezocht. |2019 oktober    |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

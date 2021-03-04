@@ -94,3 +94,6 @@ Geef de technische categorie op waartoe het product behoort. De categorie stelt 
 U kunt de zoekfunctie voor technische kenmerken gebruiken om producten te zoeken door te zoeken naar de waarden van de technische kenmerken. U kunt dus eenvoudig technische producten vinden op basis van hun kenmerken. U kunt zoeken in de producten die behoren tot een categorie voor technische producten of u kunt zoeken in alle technische producten.
 
 De zoekfunctie is beschikbaar op pagina's met hoofdgegevens van producten en op basis van transactionele artikelen in het systeem, zoals verkooporders. Voor een transactioneel artikel kunt u de pagina **Zoeken naar technische kenmerken** gebruiken om naar een product te zoeken. U kunt vervolgens de knop **Toevoegen als nieuwe regel gebruiken** om het product aan de verkooporderregels toe te voegen. Producten in de zoekresultaten kunnen ook direct aan de order worden toegevoegd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

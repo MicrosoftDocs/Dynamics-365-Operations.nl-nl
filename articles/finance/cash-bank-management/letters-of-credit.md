@@ -53,3 +53,6 @@ Zie de volgende onderwerpen voor meer informatie:
 [Een bankfaciliteitsovereenkomst maken voor een kredietbrief](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Zoals in de voorgaande sectie is beschreven, kunt u werkorders aan een werkorder
 
 Als u een werkorder uit een werkordergroep wilt verwijderen, herhaalt u deze stappen, maar selecteert u in stap 3 de optie **Verwijderen**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

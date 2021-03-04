@@ -57,3 +57,6 @@ In dit onderwerp leest u hoe u een verkoopovereenkomst maakt waarmee een van uw 
 11. Selecteer **OK**.
 12. Sluit de pagina. De overeenkomst is nu effectief. U kunt de orders van de klant beginnen te koppelen aan de overeenkomst voor het starten, om het toegezegde doel te verrekenen.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

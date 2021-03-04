@@ -74,3 +74,6 @@ De velden **Alias**, **UPN** en **Externe sub-id** op het tabblad **Commerce** v
 [Een functionaliteitsprofiel voor detailhandel maken](retail-functionality-profile.md)
 
 [ Een medewerker configureren](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

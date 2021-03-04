@@ -81,3 +81,6 @@ Een bron voor bedrijfsactiviteiten voert de activiteiten van een project of een 
 4. Typ of selecteer een waarde in het veld Invoerlocatie.
     * Geef de magazijnlocatie op van waar de bron voor bedrijfsactiviteiten materialen verbruikt.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

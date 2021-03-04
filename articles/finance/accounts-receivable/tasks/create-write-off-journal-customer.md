@@ -84,3 +84,6 @@ Deze taakhandleiding toont u hoe u de parameters voor afschrijvingen instelt en 
 5. Klik op **OK**.
 6. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

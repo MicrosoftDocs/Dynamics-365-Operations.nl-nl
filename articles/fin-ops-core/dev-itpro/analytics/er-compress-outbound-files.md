@@ -94,3 +94,6 @@ Voordat u de procedures in dit onderwerp uitvoert, moet u de volgende stappen ui
 [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 
 [De uitvoering van XML-elementen in ER-indelingen uitstellen](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

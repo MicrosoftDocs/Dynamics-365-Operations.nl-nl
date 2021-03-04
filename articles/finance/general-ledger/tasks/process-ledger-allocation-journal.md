@@ -44,3 +44,6 @@ In dit onderwerp wordt uitgelegd hoe u een toewijzingsaanvraag kunt verwerken. G
 9. Selecteer **Boeken**.
 10. Selecteer **Boeken**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Houd er rekening mee dat verschillende Microsoft Office-SKU's ook dit recht verl
 
 1. Ga naar [https://preview.admin.powerapps.com/environments](https://preview.admin.powerapps.com/environments).
 2. Maak de omgeving door de instructies in [Human Resources inrichten](https://docs.microsoft.com/dynamics365/unified-operations/talent/provisioning-talent) te volgen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

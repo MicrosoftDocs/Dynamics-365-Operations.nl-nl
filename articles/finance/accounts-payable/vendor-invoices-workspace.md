@@ -117,3 +117,6 @@ In de volgende tabel ziet u de visualisaties die op elke rapportpagina beschikba
 | Facturen die niet kunnen worden geïmporteerd | <ul><li>Facturen die niet kunnen worden geïmporteerd</li><li>Facturen die niet kunnen worden geïmporteerd per bedrijf</li></ul> |
 | Redenen voor automatiseringsfout | <ul><li>Mislukte facturen</li><li>Mislukte facturen per bedrijf</li><li>Mislukte facturen per leveranciersgroep</li></ul> |
 | Werkstroomstatus                | <ul><li>Facturen in werkstroom</li><li>Werkstroomexemplaren leveranciersfacturen</li><li>Toewijzing per fiatteur</li><li>Leveranciersfacturenwerkstroom per bedrijf</li><li>Gemiddeld aantal dagen in workflow op fiatteur</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

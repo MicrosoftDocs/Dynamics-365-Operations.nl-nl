@@ -144,3 +144,6 @@ Met zoveel verschillende beschikbare integratietechnologieën kan het moeilijk z
 <sup>2</sup>Microsoft doet grote investeringen in grotere gegevensdekking voor Common Data Service-entiteiten. We raden u aan om Common Data Service te gebruiken wanneer dekking beschikbaar is. Op dit moment is de Common Data Service-gegevensdekking laag, vergeleken met DMF en voor OData ingeschakelde entiteiten.
 
 <sup>3</sup>SQL-databases kunnen via programmacode worden benaderd.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

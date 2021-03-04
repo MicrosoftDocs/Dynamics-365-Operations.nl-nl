@@ -40,3 +40,6 @@ Soms kunnen open posities worden vervuld met kandidaten die al werknemers in uw 
 9. Klik op Positie wijzigen.
     * U kunt nu ook de compensatie wijzigen. Als u nu geen compensatie toewijst, kunt u deze wijzigen door naar het werknemerformulier te gaan, het tabblad Compensatie te selecteren en "Vast plan" te kiezen. Nadat u "Positie wijzigen" hebt geselecteerd, wordt de status van de sollicitatie bijgewerkt naar "Aangesteld".  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ In dit onderwerp wordt uitgelegd hoe u de ontvangst van goederen voor een inkoop
 6. Stel **Hoeveelheid** in op '4'. Hier kunt u handmatig de hoeveelheid opgeven die voor elke regel in de order wordt ontvangen.  
 7. Selecteer **OK**. De goederen zijn nu geregistreerd zo ontvangen voor de inkooporder, en er is een productontvangstbonjournaal gemaakt als document om dit te reflecteren. U kunt de actie Productontvangstbon gebruiken om de journalen te controleren die bij de inkooporder zijn gemaakt en om te zien wat is ontvangen, en wanneer.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

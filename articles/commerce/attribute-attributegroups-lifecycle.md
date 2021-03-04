@@ -257,3 +257,6 @@ De standaardwaarden van kenmerken kunnen voor afzonderlijke producten worden ove
 
     > [!NOTE]
     > Als gedeelde productmedia en gedeelde productkenmerken zijn gemaakt, zijn ze van toepassing op alle producten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

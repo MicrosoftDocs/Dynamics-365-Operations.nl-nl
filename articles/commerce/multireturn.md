@@ -54,3 +54,6 @@ Wanneer de orders zijn geselecteerd, wordt een lijst met alle retourneerbare pro
 
 Als de order volledig is geretourneerd, is het btw-bedrag dat aan de klant is geretourneerd, gelijk aan het oorspronkelijk aangerekende btw-bedrag.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

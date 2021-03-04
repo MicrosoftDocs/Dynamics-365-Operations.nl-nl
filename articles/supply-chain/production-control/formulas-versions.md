@@ -71,3 +71,6 @@ De functie Schaalbaar is alleen beschikbaar als alle artikelonderdelen in de for
 
 ## <a name="use-step-consumption"></a>Stapverbruik gebruiken
 Bij stapverbruik hoeft u geen hoeveelheid op het tabblad **formuleregel** op te geven voor een ingrediënt. In plaats daarvan is Stapverbruik zo geconfigureerd dat er waarden voor **Van serie** en **Hoeveelheid** moeten worden opgegeven. Op basis van de informatie in de record Stap per reeks wordt gegarandeerd dat de hoeveelheid in de batchorder wordt geselecteerd. Stapverbruik is handig als het materiaalverbruik niet lineair is met betrekking tot de grootte van de batchorder en de vereiste alleen wordt verhoogd als een specifieke drempelhoeveelheid wordt bereikt. Als u deze functie wilt inschakelen voor een nieuwe formule, wijzigt u onder de groep **Verbruiksberekening** de formule-instelling voor het desbetreffende ingrediënt van **Standaard** in **Stap**. U geeft deze verbruiksmethode op het tabblad **Instelling** van de pagina **Formuleregel** op.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

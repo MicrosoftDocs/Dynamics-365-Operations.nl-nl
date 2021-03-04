@@ -81,3 +81,6 @@ De verkooporder wordt opnieuw gefactureerd voor het artikel dat is toegevoegd. D
 [![De pagina Boekstuktransacties met de geboekte journaalregel](./media/36_rev-rec-scenarios.png)](./media/36_rev-rec-scenarios.png)
 
 Omdat het totaal van de opbrengst en verkopen meer dan $ 319,50 is, wordt het verschil geboekt voor $ 14,48. Met dit bedrag wordt het saldo van de vereffeningsrekening voor gedeeltelijke factuuropbrengst gewist. Dat saldo was bijgewerkt in de nieuwe journaalregel die was geboekt na de hertoewijzing.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

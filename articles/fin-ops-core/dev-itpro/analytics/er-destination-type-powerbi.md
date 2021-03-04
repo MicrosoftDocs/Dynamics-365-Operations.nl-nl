@@ -38,3 +38,6 @@ Stel **Ingeschakeld** in op **Ja** als u uw ER-configuratie wilt gebruiken om ge
 
 - [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 - [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

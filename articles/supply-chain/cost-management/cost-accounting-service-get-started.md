@@ -111,3 +111,6 @@ De integratie instellen tussen de service kostprijsboekhouding en Dynamics 365 S
 ## <a name="related-resources"></a>Gerelateerde bronnen
 
 [Startpagina van service Kostprijsboekhouding](cost-accounting-service-home.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

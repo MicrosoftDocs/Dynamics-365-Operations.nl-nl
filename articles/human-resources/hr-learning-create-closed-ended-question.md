@@ -68,3 +68,6 @@ Met meerkeuzevragen kunt u opties bieden waaruit de respondent kan kiezen. Als e
 5. Typ of selecteer een waarde in het veld Antwoordgroep.
 6. Typ een waarde in het veld Tekst.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

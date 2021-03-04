@@ -179,3 +179,6 @@ Voer de volgende stappen uit om opmerkingen in te voeren over de wijzigingen die
 2. Voer in het veld **Opmerkingen over de workflow invoeren** uw opmerkingen in.
 3. Uw opmerkingen controleren. Nadat u opmerkingen hebt toegevoegd, kunt u deze niet meer wijzigen.
 4. Klik op **Toevoegen** om uw opmerkingen aan het gebied **Opmerkingshistorie** toe te voegen.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

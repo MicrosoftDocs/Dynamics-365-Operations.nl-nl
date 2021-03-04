@@ -94,3 +94,6 @@ Met deze wijziging worden dubbele records gedetecteerd wanneer u naamvelden invo
 Met Platform update 25 voor Finance and Operations kunnen gebruikers waarschuwingsregels maken waarmee automatisch e-mailmeldingen worden verzonden naar contactpersonen wanneer deze door een gebeurtenis worden geactiveerd.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

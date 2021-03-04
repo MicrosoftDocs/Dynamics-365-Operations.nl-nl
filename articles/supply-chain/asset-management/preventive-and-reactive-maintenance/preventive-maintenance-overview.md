@@ -39,3 +39,6 @@ De volgende afbeelding geeft een overzicht van de workflow van het maken van ond
 
 ![Figuur 1](media/01-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Deze procedure is gericht op het maken van een kopie van een bestaande kanbanreg
 3. Klik op OK.
     * Er is een kopie van kanbanregel 000017 gemaakt.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

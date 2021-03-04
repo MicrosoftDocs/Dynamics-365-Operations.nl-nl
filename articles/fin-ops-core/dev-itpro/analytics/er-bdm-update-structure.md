@@ -106,3 +106,6 @@ Voer de volgende procedures uit in [Overzicht van Beheer van bedrijfsdocumenten]
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 
 [Overzicht van Beheer van bedrijfsdocumenten](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Er zijn drie serviceorderregels gemaakt binnen het tijdsbestek dat u hebt opgege
 
 [Service-intervallen instellen](set-up-service-intervals.md)  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

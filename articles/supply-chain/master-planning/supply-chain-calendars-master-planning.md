@@ -143,3 +143,6 @@ Met betrekking tot de behoefteplanningsgroepkalender is het van belang er rekeni
 
 ### <a name="updating-scm-related-calendars"></a>SCM-gerelateerde kalenders bijwerken
 Het is belangrijk dat alle relevante kalenders hun respectieve plaats toegewezen krijgen (leverancier, klant, magazijn, leveringsmethode of behoefteplanningsgroep), maar deze kalenders bijwerken is net zo belangrijk, zodat ze de wijzigingen bevatten. Het systeem definieert de productie-, transfer-, inkoop- en verkooporderdatums afhankelijk van de combinatie van de toegewezen kalenders. Het is raadzaam om aan te geven wie verantwoordelijk is voor het toewijzen en bijwerken van de kalenders op de corresponderende gebieden. In geval van een uitval of andere ongebruikelijke wijziging in de werkdagen is het essentieel de kalenders dienovereenkomstig bij te werken. Alle taken die afhankelijk zijn van kalenders, zoals de hoofdplanning en de productieplanning moeten opnieuw worden uitgevoerd wanneer kalenders worden bijgewerkt. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

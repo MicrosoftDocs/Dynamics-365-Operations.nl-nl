@@ -55,3 +55,6 @@ De gebruiker moet worden toegevoegd aan de rol Maker omgeving voor de omgeving i
     ![De knop Synchroniseren](media/get-more.png)
 
     Als de synchronisatie is voltooid, wordt Human Resources weergegeven op de startpagina.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

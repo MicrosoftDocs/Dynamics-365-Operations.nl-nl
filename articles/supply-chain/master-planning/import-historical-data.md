@@ -59,3 +59,6 @@ Nadat u de historische vraaggegevens hebt geïmporteerd, kunt u een vraagprognos
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Een statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

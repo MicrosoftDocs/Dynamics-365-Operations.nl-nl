@@ -73,3 +73,6 @@ Voorschriften voor land/regio zijn van invloed op de belastinginstellingen en an
 
 De functionaliteit van Supply Chain Management heeft betrekking op onderdelen van het proces van inkopen tot betalen, dat aanvragen, bestellen, ontvangen, factureren en betalen omvat voor de goederen en diensten die uw organisatie inkoopt. Zie de [startpagina Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) voor informatie over de mogelijkheden voor het beheren van inkoop, voorraad en productie. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

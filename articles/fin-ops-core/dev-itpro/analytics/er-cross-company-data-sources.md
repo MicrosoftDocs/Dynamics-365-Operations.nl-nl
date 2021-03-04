@@ -76,3 +76,6 @@ Download de volgende bestanden om de taakbegeleiding te voltooien:
 
 - [ER-modelconfiguratie - CrossCompanyDataAccessModel.xml](https://go.microsoft.com/fwlink/?linkid=874111)
 - [ER-indelingsconfiguratie - CrossCompanyDataAccessFormat.xml](https://go.microsoft.com/fwlink/?linkid=874111)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

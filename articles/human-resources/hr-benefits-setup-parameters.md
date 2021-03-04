@@ -68,3 +68,6 @@ Voordat u vergoedingsplannen kunt instellen in Microsoft Dynamics 365 Human Reso
 3. Selecteer **Opslaan**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

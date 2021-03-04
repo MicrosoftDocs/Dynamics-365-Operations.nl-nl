@@ -39,3 +39,6 @@ Om het probleem op te lossen, moet de klant deze stappen uitvoeren voor de gedup
 3. Selecteer **Opslaan**.
 
 ![De pagina Parameters van globaal adresboek](media/GAD-parameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

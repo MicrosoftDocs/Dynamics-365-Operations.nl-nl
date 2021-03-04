@@ -48,3 +48,6 @@ Als u deze functie wilt gebruiken, schakelt u **Aangepaste koppelingen in Selfse
 ## <a name="see-also"></a>Zie ook
 
 [Overzicht van Selfservice werknemer en Selfservice manager](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Het toevoegen van financiële dimensies aan een sjabloon vereist meer wijziginge
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

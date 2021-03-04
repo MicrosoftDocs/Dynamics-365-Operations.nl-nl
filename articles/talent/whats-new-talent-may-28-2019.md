@@ -74,3 +74,6 @@ Organisaties vereisen wellicht redencodes voor specifieke verloftypen wanneer we
 ### <a name="provide-a-leave-and-absence-transaction-list-for-hr"></a>Een lijst met verlof- en afwezigheidstransacties verschaffen voor HR
 
 De mogelijkheid om verlof van werknemers bij te houden en inzicht te krijgen in de berekening van verlof helpt HR niet alleen bij het beantwoorden van werknemersvragen, maar helpt tevens nauwkeurige verloftoekenningen voor werknemers te waarborgen. HR heeft nu een nieuwe weergave om de transacties te bekijken (toekenningen, toerekeningen, correcties en aanvragen) zodat HR-medewerkers de redenen achter verlofsaldi kunnen bekijken.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

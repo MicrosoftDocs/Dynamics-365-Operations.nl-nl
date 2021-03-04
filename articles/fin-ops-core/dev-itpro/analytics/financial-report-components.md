@@ -126,3 +126,6 @@ Wanneer u een bouwsteen opent, hebben andere gebruikers alleen-lezen toegang tot
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Financiële rapportage](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

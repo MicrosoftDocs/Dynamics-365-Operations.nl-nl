@@ -211,3 +211,6 @@ Als rijen in de entiteit klant waarden hebben in de velden **ContactPersonID** e
     De initiële synchronisatie van de rijen is nu voltooid.
 
 8. Schakel het bijhouden van wijzigingen in voor de entiteit **Klanten V3** in de Finance and Operations-app.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

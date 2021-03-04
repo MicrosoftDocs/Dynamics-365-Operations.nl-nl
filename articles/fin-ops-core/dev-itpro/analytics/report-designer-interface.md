@@ -227,3 +227,6 @@ De werkbalk van Report Designer biedt snelle toegang tot opdrachten voor het nav
 [Financiële rapportage](financial-reporting-intro.md)
 
 [Financiële rapporten genereren](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Voer de volgende stappen uit om uw metrische gegevens voor succes in te stellen.
 
 ## <a name="next-step"></a>Volgende stap
 [Een experiment verbinden en bewerken](experimentation-connect-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

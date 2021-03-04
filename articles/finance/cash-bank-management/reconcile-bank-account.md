@@ -71,3 +71,6 @@ Met de functie Afstemming bankafschrift annuleren kunt u de afstemming van banka
 Afstemmingen van bankafschriften kunnen alleen worden geannuleerd in de chronologische volgorde waarin ze zijn geboekt. Wanneer een afstemming van bankafschriften wordt geannuleerd, worden nieuwe transacties en correcties teruggedraaid en worden alle andere transacties als niet-afgestemd gemarkeerd.
  
 Als u de afstemming van bankafschriften wilt annuleren, selecteert u het bankafschrift en selecteert u **Bankafschrift > Bankafstemming annuleren**. Geef op de pagina **Bankafstemming annuleren** de **Redencode**, een **Opmerking bij reden** en de **Annuleringsdatum** op. Selecteer **OK** om te beginnen met annuleren. Opmerking: de annuleringsdatum van het bankafschrift moet op of na de datum van het bankafschrift liggen. Nadat de afstemming van het bankafschrift is geannuleerd, wordt het veld **Annuleringsdatum** voor het bankafschrift bijgewerkt met de opgegeven **Annuleringsdatum**. Selecteer de knop **Transacties** om de transacties weer te geven waarvoor de afstemming is geannuleerd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

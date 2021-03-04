@@ -42,3 +42,6 @@ Deze taak richt zich op het voorbereiden van een proceskanbantaak wanneer alle m
 6. Klik op Voorbereiden.
     * Het voorbereidingsproces wordt nu voltooid. Het ingeschakelde selectievakje voor alle rijen in de orderverzamellijst geeft aan dat de voorraadstatus wordt verzameld.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

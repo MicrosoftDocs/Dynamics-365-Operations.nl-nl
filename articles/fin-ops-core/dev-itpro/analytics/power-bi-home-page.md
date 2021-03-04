@@ -65,3 +65,6 @@ De volgende PowerBI.com-oplossingen zijn beschikbaar via [Microsoft AppSource](h
 - Kostenbeheer
 - [Financiële prestaties](financial-performance-power-bi-content-pack.md)
 - [Prestaties detailhandelafzetkanaal ](retail-channel-performance-dashboard-power-bi-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

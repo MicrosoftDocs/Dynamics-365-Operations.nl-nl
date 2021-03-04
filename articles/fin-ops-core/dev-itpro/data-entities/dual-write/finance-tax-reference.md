@@ -37,3 +37,6 @@ Financiën en belastinggegevens worden geïntegreerd met behulp van de volgende 
 
 + [Geïntegreerd grootboek](ledger-mapping.md)
 + [Model voor geïntegreerde belasting](tax-mapping.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

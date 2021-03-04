@@ -300,3 +300,6 @@ Meer informatie over ER-configuratieproviders vindt u in [Configuratieproviders 
 - [Overzicht van elektronische rapportage](general-electronic-reporting.md)
 - [De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen](trace-execution-er-troubleshoot-perf.md)
 - [Ondersteuning van parameteraanroepen voor ER-gegevensbronnen van het type Berekend veld](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

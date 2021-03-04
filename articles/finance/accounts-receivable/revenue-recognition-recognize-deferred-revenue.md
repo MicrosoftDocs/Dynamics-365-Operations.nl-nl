@@ -108,3 +108,6 @@ De wijzigingen in het contract hebben de volgende effecten op de details van het
 - Als de opbrengst voor het product is toegerekend, is een deel van de opbrengst onjuist toegerekend omdat de toerekening werd gebaseerd op het onjuiste opbrengstschema. Die regels moeten worden teruggeboekt en opnieuw toegerekend op basis van het nieuwe schema. In dit scenario worden er nieuwe regels voor het opbrengstschema gemaakt waarvoor negatieve bedragen op de oorspronkelijke toerekeningsdatum voorkomen. Vervolgens worden er nieuwe regels gemaakt om de bedragen toe te rekenen op basis van het nieuwe opbrengstschema. Op 8 augustus 2019 hebt u bijvoorbeeld een opbrengst van € 10,53 toegerekend. Op 8 september 2019 hebt u een opbrengst van € 13,16 toegerekend. Daarom worden er twee nieuwe regels gemaakt op dezelfde datums. Eén regel is voor -€ 10,53 en de andere regel is voor -€ 13,16. Er worden vierentwintig nieuwe regels gemaakt en de totale uitgestelde opbrengst van € 160,61 wordt aan al deze regels toegewezen. U kunt de terugboekingsregels boeken door het proces **Journaal maken** uit te voeren.
 
 [![Opbrengsttoerekeningsschema](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

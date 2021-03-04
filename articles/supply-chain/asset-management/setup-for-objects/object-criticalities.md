@@ -62,3 +62,6 @@ Als u kritieke eigenschappen wilt instellen, maakt u eerst de typen kritieke eig
 - De kritieke eigenschappen van een werkorder worden telkens opnieuw berekend wanneer een werkorderregel wordt toegevoegd aan of verwijderd uit de werkorder.
 - Als een werkorder meerdere werkordertaken bevat, wordt voor de werkorder altijd gebruikgemaakt van de hoogste kritieke eigenschappen, volgens het veld **Factor** op de pagina **Typen kritieke eigenschappen**.
 - Over het algemeen kunnen kritieke eigenschappen van activa veranderen gedurende een periode. Kritieke eigenschappen kunnen worden beïnvloed door de aanschaf van nieuwe apparatuur, verbouwingen, enzovoort. Overweeg om de kritieke eigenschappen van uw activa op regelmatige tijdstippen opnieuw te evalueren (bijvoorbeeld één keer per jaar of om het andere jaar) om ervoor te zorgen dat uw definities voor kritieke eigenschappen overeenkomen met uw huidige productie-instellingen.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

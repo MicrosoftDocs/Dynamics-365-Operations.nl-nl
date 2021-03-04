@@ -65,3 +65,6 @@ Gebruik deze procedure om de tijdvastlegging voor een serviceorder te starten en
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

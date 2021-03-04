@@ -53,3 +53,6 @@ Het volgende leertraject toont de belangrijkste concepten en taken met die het r
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

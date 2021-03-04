@@ -54,3 +54,6 @@ Aanvullende resources
 
 [Een mandaat voor automatische afschrijving maken voor een klant](tasks/create-direct-debit-mandate-customer.md) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

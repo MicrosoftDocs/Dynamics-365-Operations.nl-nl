@@ -36,3 +36,6 @@ De eigenschap **Doel van serververificatie** van certificaat V5 wordt uitgegeven
 Met deze update is een alternatieve oplossing voor certificaatvalidatie mogelijk, wat inhoudt dat beveiligde communicatie tot stand kan worden gebracht.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Een Commerce-gebruiker volgt de workflow om tijdregistraties te berekenen, goed 
 - Verzuim registreren
 
 Zie [Registraties van procestijd en -aanwezigheid](https://technet.microsoft.com/library/aa573180.aspx) voor meer informatie over het verwerken van tijd- en aanwezigheidsregistraties.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

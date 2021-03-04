@@ -61,3 +61,6 @@ Product X wordt bijvoorbeeld toegewezen aan de producteigenaarsgroep *Designkast
 ## <a name="product-owners-and-approvals"></a>Producteigenaren en goedkeuringen
 
 Omdat de producteigenaren weten of hun producten baat hebben bij specifieke technische wijzigingen, is het vaak zinvol om hen op te nemen als onderdeel van het goedkeuringsproces in het beheer technische wijzigingen. U kunt deze aanpak implementeren door de producteigenaren in te stellen als deelnemende leveranciers in de workflows die worden gebruikt voor het beheer van technische wijzigingen. Het systeem wijst vervolgens goedkeuringstaken toe in de werkstromen, op basis van de producten in de aanvragen voor technische wijzigingen en de orders voor technische wijzigingen. Zie [Wijzigingen in technische producten beheren](engineering-change-management.md) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

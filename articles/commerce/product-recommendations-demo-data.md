@@ -90,3 +90,6 @@ De extensie bevat een gegevensbestand met de naam RecoMockDataset.csv, waarmee u
 [Handmatig gecureerde aanbevelingen maken](create-editorial-recommendation-lists.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

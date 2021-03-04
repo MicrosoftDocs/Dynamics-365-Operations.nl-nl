@@ -91,3 +91,6 @@ Als u de functie **Uitgebreide opzoekactie van ER-indelingsconfiguraties om te z
 - [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 - [Raamwerk voor ER API (elektronische rapportage)](er-apis-app73.md)
 - [De levenscyclus van ER-configuraties (elektronische rapportage) beheren](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

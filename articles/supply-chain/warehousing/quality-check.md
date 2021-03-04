@@ -397,3 +397,6 @@ Voor dit scenario wordt pallet 3 geaccepteerd.
 1. Selecteer de menuknop (**≡**) boven aan de pagina en selecteer vervolgens in het menu de optie **Annuleren** om terug te keren naar het menu.
 
 U kunt nu de mobiele app sluiten.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

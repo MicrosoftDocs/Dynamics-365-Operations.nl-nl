@@ -54,3 +54,6 @@ Volgens de Immigration Reform and Control Act moeten Amerikaanse werkgevers de a
 22. Typ of selecteer een waarde in het veld Documentnummer.
 23. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../../../includes/footer-banner.md)]

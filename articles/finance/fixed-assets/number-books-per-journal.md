@@ -47,3 +47,6 @@ De batchverwerkingstaak sluit afgesloten boeken uit. In een batchtaak voor afsch
 De limiet van het aantal boeken wordt toegepast als er geen dubbele activa-id's in hetzelfde journaal aanwezig zijn. Als de activa-id echter hetzelfde is als de boek-id, kan het aantal boeken per journaal worden overschreden om de activa-id in hetzelfde journaal te houden.
 
 Er zijn bijvoorbeeld 5.001 vaste-activa-id's, drie boeken worden gekoppeld aan elke vaste-activa-id en elk activaboek wordt naar dezelfde boekingslaag geboekt. U voert de afschrijving uit voor drie opeenvolgende maanden zonder samenvatting. Het afschrijvingsjournaal wordt gemaakt via een batch taak en er worden zeven journalen gemaakt met 667 vaste-activa-id's en drie boeken voor elke vaste-activa-id. Het resultaat is 2.001 boeken. Over drie maanden zijn er dus 6.003 journaalregels om dezelfde activa-id's in hetzelfde journaal te behouden. Er wordt ook één journaal gemaakt met 332 vaste-activa-id's en drie boeken voor elke vaste-activa-id. Over drie maanden zijn er 2.988 regels.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

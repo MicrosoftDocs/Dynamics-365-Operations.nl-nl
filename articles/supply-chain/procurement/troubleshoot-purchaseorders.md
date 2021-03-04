@@ -145,3 +145,6 @@ Dit is zo ontworpen. Het geselecteerde adres moet worden geclassificeerd als afl
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Kan ik de gebruiker vinden die een inkooporder heeft geannuleerd?
 
 Deze informatie wordt alleen bijgehouden als de inkooporder onder wijzigingsbeheer valt. Als u wijzigingsbeheer gebruikt, kunt u zien wie de wijziging heeft ingediend (de annulering) en wie deze heeft goedgekeurd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

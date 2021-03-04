@@ -155,3 +155,6 @@ De functie voor publicatie groepen ondersteunt momenteel alleen website-inhoud. 
 [Overzicht sjablonen en indelingen](templates-layouts-overview.md)
 
 [Sitenavigatie aanpassen](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

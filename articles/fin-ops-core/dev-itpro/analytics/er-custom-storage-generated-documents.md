@@ -175,3 +175,6 @@ De gebeurtenis **AttachingFile()** wordt geactiveerd wanneer de volgende ER-best
 
 - [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 - [Startpagina voor Uitbreidbaarheid](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

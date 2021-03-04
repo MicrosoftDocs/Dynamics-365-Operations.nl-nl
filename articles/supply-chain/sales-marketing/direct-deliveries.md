@@ -53,3 +53,6 @@ Wanneer u een directe levering maakt, komen de artikelen die verkoopt nooit fysi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

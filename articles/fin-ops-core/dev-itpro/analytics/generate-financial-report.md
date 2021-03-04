@@ -156,3 +156,6 @@ Wanneer u een ontbrekende rekeninganalyse uitvoert, zijn de volgende sneltoetsen
 [Financiële rapportage](financial-reporting-intro.md)
 
 [De Report Designer-interface](report-designer-interface.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

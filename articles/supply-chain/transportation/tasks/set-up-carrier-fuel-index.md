@@ -67,3 +67,6 @@ Deze guide laat zien hoe een regio voor de brandstofindex, een brandstofindex en
 12. Klik in de lijst op de koppeling in de geselecteerde rij.
 13. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

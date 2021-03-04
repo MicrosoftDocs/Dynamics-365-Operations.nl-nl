@@ -64,3 +64,6 @@ Werkzaamheden voor het verzamelen van grondstoffen worden gegenereerd tijdens de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

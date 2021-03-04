@@ -39,3 +39,5 @@ Managers kunnen verlofaanvragen beheren vanuit het werkgebied **Selfservice werk
 
 - [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)
 - [Een verlof- en verzuimplan maken](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

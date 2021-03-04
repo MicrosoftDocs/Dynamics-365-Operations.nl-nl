@@ -54,3 +54,6 @@ Voer de volgende handelingen uit voordat u een standaardkostprijsconversie uitvo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

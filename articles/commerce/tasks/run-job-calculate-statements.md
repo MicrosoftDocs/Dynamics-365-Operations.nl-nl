@@ -45,3 +45,6 @@ Deze procedure doorloopt de configuratie en uitvoering van terugkerende batchtak
 11. Klik op OK.
 12. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

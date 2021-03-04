@@ -54,3 +54,6 @@ Dit onderwerp is gericht op de instelling van een profiel van aankomstoverzicht.
 17. Selecteer **Opslaan**.
 18. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

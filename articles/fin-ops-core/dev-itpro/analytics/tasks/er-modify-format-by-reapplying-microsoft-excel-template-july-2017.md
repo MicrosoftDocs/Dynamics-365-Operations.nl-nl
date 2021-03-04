@@ -83,3 +83,6 @@ In deze procedure wordt uitgelegd hoe u een elektronische rapportage (ER)-indeli
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>De gewijzigde conceptversie van de ER-indeling gebruiken voor betalingsjournaalverwerking
 
 Controleer het gemaakte werkblad, inclusief nieuwe details van betalingsregels: betalingsdatum.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

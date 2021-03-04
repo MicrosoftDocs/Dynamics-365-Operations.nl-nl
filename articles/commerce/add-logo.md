@@ -74,3 +74,6 @@ Als u het bijgewerkte koptekstfragment publiceert, wordt uw logo weergegeven op 
 
 [Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

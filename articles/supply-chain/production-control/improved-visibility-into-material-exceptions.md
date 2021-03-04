@@ -67,3 +67,6 @@ Wanneer de tegel wordt geselecteerd, wordt de pagina **Alle productie-waves** ge
 Op de tegel **Openstaand magazijnwerk dat aandacht vereist** wordt aangegeven hoeveel stuklijst- en formuleregels met een grondstofdatum gelijk aan of vóór de werkgebieddatum en niet-verwerkt werk zijn vrijgegeven aan het magazijn. De regels moeten ook worden gebruikt door een bewerkingsresource die voldoet aan het filter van het werkgebied.
 
 Wanneer de tegel wordt geselecteerd, wordt de pagina **Alle werk** geopend. Deze pagina wordt gefilterd op het aantal open werkkopteksten dat werkregels bevat uit vrijgegeven stuklijst- en formuleregels die voldoen aan de criteria voor de tegel. Via de pagina **Alle werk** kunt u het werk handmatig verwerken.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

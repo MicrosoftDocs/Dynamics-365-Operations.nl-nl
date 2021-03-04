@@ -109,3 +109,6 @@ Deze procedure doorloopt de configuratie en uitvoering van een terugkerende batc
 - RetailTransactionMarkupTrans
 - RetailTransactionPaymentTrans
 - RetailTransactionAttributeTrans
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

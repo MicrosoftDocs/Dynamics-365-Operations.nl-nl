@@ -49,3 +49,6 @@ Deze procedure is gericht op het wijzigen van de gebruikte kanbanregel voor een 
 7. Klik op Voltooien.
     * Nu gebruikt de kanbantaak een andere kanbanregel. Dit kan nuttig zijn om de belasting van de werkcellen te effenen.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

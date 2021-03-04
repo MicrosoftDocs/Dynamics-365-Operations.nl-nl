@@ -173,3 +173,6 @@ Het door Commerce geleverde Azure Front Door-exemplaar ondersteunt geen Apex-dom
   [Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen](add-cdn-support.md)
 
   [Detectie van winkels op basis van de locatie inschakelen](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

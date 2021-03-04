@@ -49,3 +49,6 @@ Dit onderwerp bevat informatie over het analyseren en beheren van vereisten voor
     - Als **Rol** wordt geselecteerd, selecteert u **Rol toevoegen aan gebruiker**. Hierdoor wordt de pagina **Gebruikers aan rollen toewijzen** geopend. Zie de pagina [Gebruikers aan beveiligingsrollen toewijzen](assign-users-security-roles.md) voor meer informatie.
     - Als **Functie** is geselecteerd, selecteert u **Functie toevoegen aan rol**, selecteert u de rollen waaraan de functie moet worden toegevoegd en selecteert u vervolgens **OK**.
     - Als **Bevoegdheid** is geselecteerd, selecteert u **Bevoegdheid toevoegen aan functies**, selecteert u de rollen waaraan de functie moet worden toegevoegd en selecteert u vervolgens **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

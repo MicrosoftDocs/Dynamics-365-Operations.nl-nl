@@ -46,3 +46,6 @@ Deze procedure doorloopt het definiëren van loyaliteitsbeloningspunten. U moet 
 10. Selecteer een optie in het veld Eenheid vervaltijd.
 11. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

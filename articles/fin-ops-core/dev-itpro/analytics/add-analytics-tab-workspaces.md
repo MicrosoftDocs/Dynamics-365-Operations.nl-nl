@@ -175,3 +175,6 @@ public static void initializeReportControl(
 | showFilterPane   | Een Booleaanse waarde die aangeeft of het filtervenster moet worden weergegeven (**true**) of verborgen (**false**).     |
 | showNavPane      | Een Booleaanse waarde die aangeeft of het navigatievenster moet worden weergegeven (**true**) of verborgen (**false**). |
 | defaultFilters   | De standaardfilters voor het Power BI-rapport.                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

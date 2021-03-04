@@ -54,3 +54,6 @@ U kunt beschikkingscodes toewijzen wanneer een artikel wordt ontvangen of tijden
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

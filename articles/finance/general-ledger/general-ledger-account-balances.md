@@ -51,3 +51,6 @@ Zie [Financiële rapporten weergeven](view-financial-reports.md) voor meer infor
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

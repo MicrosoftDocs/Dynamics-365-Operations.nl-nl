@@ -79,3 +79,6 @@ Diverse statistieken voor kredietbeheer zijn opgenomen in het feitenvak **Statis
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Nummerreeksen en parameters voor gedeelde nummerreeksen
 
 Een journaal-id is vereist om kredietlimietcorrecties te verwerken. U moet het nummer van de kredietlimietcorrectie toevoegen die moet worden gebruikt om de journaal-id te genereren.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

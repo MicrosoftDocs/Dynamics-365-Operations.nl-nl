@@ -203,3 +203,6 @@ IFeatureLifecycle is een intern Microsoft-mechanisme voor het aangeven van de le
 - PublicPreview - wordt standaard weergegeven, maar met een waarschuwing dat het bij de functie nog om een voorbeeld gaat.
 - Released - volledig vrijgegeven.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

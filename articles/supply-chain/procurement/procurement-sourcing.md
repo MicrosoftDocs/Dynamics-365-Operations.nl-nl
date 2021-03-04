@@ -104,3 +104,6 @@ Inkoopbeheer omvat alle stappen van het identificeren van een behoefte aan produ
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

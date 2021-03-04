@@ -49,3 +49,6 @@ Kandidaten ontvangen zodra ze zijn toegevoegd aan een functie een e-mail met een
 
 ## <a name="analytic-reports"></a>Analytische rapporten
 Wervingsteams kunnen de metrische gegevens van het wervingsproces gebruiken voor een enkele taak of samengevoegd voor alle taken via [analytische rapporten in Attract](analytic-reports.md). Deze functie is momenteel in [preview](access-preview-feature.md) voor klanten met de [Welke versie van Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

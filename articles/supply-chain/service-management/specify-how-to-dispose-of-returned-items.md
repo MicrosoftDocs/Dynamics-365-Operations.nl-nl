@@ -183,3 +183,6 @@ Voor elke beschikkingscode die u definieert, moet u een beschikkingsactie select
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

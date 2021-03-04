@@ -145,3 +145,6 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamic
 
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Deze functionaliteit is beschikbaar voor rechtspersonen waarvan het primaire adr
 16. Zoek en selecteer de gewenste record in de lijst.
 17. Typ of selecteer een waarde in het veld Nummerreekscode.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

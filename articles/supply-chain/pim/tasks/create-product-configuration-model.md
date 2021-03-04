@@ -83,3 +83,6 @@ Deze procedure toont aan hoe u een productconfiguratiemodel maakt en basisinform
 17. Voer in het veld Per reeks een getal in.
 18. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

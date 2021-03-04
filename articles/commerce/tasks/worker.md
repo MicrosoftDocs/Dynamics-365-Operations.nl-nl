@@ -57,3 +57,6 @@ Deze procedure laat zien hoe u een medewerker als een vertegenwoordiger kunt con
 6. Typ of selecteer een waarde in het veld Standaardgroep.
 7. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Het demobedrijf dat wordt gebruikt om deze procedure te maken is DEMF.
     * Koppel extra informatie aan het journaal.  
     * Koppel bijvoorbeeld een gescande afbeelding van het EU-invoercertificaat aan het journaal.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

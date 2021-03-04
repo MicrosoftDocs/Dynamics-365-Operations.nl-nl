@@ -55,3 +55,6 @@ Wanneer u op de pagina Camera op de knop Camera klikt, wordt deze grijs weergege
 
 Wanneer u de camera op een streepjescode richt, krijgt u de beste resultaten als u de streepjescode uitgelijnd binnen de haakjes houdt. Wanneer een streepjescode is gescand, wordt het resultaat verwerkt en gaat u verder met de volgende stap. Als de volgende stap weer een invoerveld met Scannen als geprefereerde invoermodus omvat, wordt de pagina Camera opnieuw gestart. Als de volgende stap geen scanveld omvat, wordt de pagina Camera niet gestart.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

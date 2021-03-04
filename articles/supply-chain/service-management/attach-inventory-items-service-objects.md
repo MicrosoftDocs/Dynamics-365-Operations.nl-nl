@@ -51,3 +51,6 @@ Het artikel is nu gekoppeld aan het serviceobject en voorraaddimensies die voor 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

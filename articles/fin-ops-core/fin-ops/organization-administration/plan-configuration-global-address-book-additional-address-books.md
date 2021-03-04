@@ -57,3 +57,6 @@ Nadat u het algemene adresboek hebt gemaakt, kunt u desgewenst extra adresboeken
 **Beslissing:**
 
 - Hoeveel extra adresboeken maakt u?
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

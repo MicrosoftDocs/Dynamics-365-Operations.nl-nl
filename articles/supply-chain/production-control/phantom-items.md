@@ -73,3 +73,6 @@ Phantom-stuklijsten kunnen ook worden gebruikt voor een stuklijst met een routen
 In de volgende afbeelding is (a) de stuklijst voor het product G en onderdeel F, en is (b) het routeblad voor product G en onderdeel F.
 
 ![Product G en onderdeel F met routebladen](media/product-G-part-F-with-route-sheet.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

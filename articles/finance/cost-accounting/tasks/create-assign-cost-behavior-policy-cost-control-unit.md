@@ -86,3 +86,6 @@ Kostengedrag is de classificatie van kosten als vast of variabel. Een beleid en 
 15. Typ of selecteer een waarde in het veld Kostenbeheer.
 16. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

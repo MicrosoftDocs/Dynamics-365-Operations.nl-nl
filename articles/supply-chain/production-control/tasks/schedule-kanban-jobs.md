@@ -62,3 +62,6 @@ Deze procedure richt zich op het plannen van proceskanbantaken voor een specifie
     * Merk op dat beide taken zijn toegevoegd aan de gewenste periode.  
     * In de sectie Periodecapaciteit kunt u de belasting voor elke periode weergeven. Het veld Verbruik geeft het geplande verbruik tijdens deze periode aan. Als het geplande verbruik hoger is dan de beschikbare capaciteit tijdens deze periode, wordt het overbelaste verbruik geselecteerd.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

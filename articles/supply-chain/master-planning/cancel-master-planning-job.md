@@ -53,3 +53,6 @@ Deze moeten alleen worden gebruikt als het annuleren van de hoofdplanningstaak v
 4. Selecteer bij **Batchtaken** de taken die u wilt beëindigen.
 5. Klik op **Status wijzigen**, kies **Annuleren** en klik op **OK**.
 6. Klik op het sneltabblad **Batchtaken** op **Afbreken**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

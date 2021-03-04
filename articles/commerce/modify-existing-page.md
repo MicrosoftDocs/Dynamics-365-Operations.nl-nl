@@ -87,3 +87,6 @@ In het volgende voorbeeld ziet u hoe u de startpagina kunt wijzigen door de vide
 [Een landingspagina voor een categorie verrijken](enrich-category-page.md)
 
 [Toegankelijkheid van pagina-inhoud controleren](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

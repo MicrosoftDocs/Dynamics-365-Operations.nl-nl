@@ -55,3 +55,6 @@ In deze procedure doorloopt u het proces voor het maken van een nieuw afschrijvi
 6. Voer een getal in het veld Levensduur in.
     * Merk op dat de waarde van het veld Afschrijvingsperioden wordt berekend nadat de levensduur is ingesteld.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
