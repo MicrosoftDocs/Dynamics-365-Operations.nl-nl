@@ -5,6 +5,10 @@
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 28 januari 2021
+          href: hr-whats-new-2021-01-28.md
+        - name: 21 januari 2021
+          href: hr-whats-new-2021-01-21.md
         - name: 2 december 2020
           href: hr-whats-new-2020-12-02.md
         - name: 22 oktober 2020
@@ -79,12 +83,16 @@
           items:
             - name: Een technologie voor gegevensintegratie kiezen
               href: hr-admin-integration-choose-technology.md
-            - name: Common Data Service-integratie configureren
+            - name: Veelgestelde vragen over aanvraagbeperking
+              href: hr-admin-integration-throttling-faq.md
+            - name: Dataverse-integratie configureren
               href: hr-admin-integration-common-data-service.md
-            - name: Common Data Service-entiteiten
+            - name: Dataverse-tabellen
               href: hr-developer-entities.md
-            - name: Virtuele Common Data Service-entiteiten configureren
+            - name: Virtuele Dataverse-entiteiten configureren
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: Veelgestelde vragen over virtuele entiteiten in Human Resources
+              href: hr-admin-virtual-entity-faq.md
             - name: Integratie met Finance configureren
               href: hr-admin-integration-finance.md
             - name: Integratie met Dayforce configureren
@@ -143,7 +151,7 @@
                   href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/dynamics365/human-resources/toc.json
             - name: Ontwikkeling van gegevensentiteiten
               items:
-                - name: Richtlijnen en aanbevolen procedures voor gegevensentiteiten
+                - name: Ontwerpprincipes en aanbevolen procedures voor gegevensentiteiten
                   href: ../dev-itpro/dev-tools/design-best-practices.md?toc=/dynamics365/human-resources/toc.json
                 - name: Nieuwe gegevensentiteiten maken
                   href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/dynamics365/human-resources/toc.json
@@ -213,7 +221,7 @@
               href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/human-resources/toc.json
             - name: Opgeslagen weergaven
               href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/human-resources/toc.json
-            - name: Maken en werken met aangepaste velden
+            - name: Aangepaste velden maken en gebruiken
               href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/human-resources/toc.json
             - name: Canvas-apps uit Power Apps insluiten
               href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/human-resources/toc.json
@@ -279,7 +287,7 @@
           href: hr-developer-overview.md
         - name: Uitbreiden met Power Apps en Power Automate
           href: hr-developer-power-apps.md
-        - name: Common Data Service-entiteiten
+        - name: Dataverse-tabellen
           href: hr-developer-entities.md
         - name: Aangepaste velden
           href: hr-developer-custom-fields.md
@@ -287,7 +295,7 @@
           items:
             - name: Een technologie voor gegevensintegratie kiezen
               href: hr-admin-integration-choose-technology.md
-            - name: Common Data Service-integratie configureren
+            - name: Dataverse-integratie configureren
               href: hr-admin-integration-common-data-service.md
             - name: Integratie met Finance configureren
               href: hr-admin-integration-finance.md
@@ -317,6 +325,92 @@
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: Een verlofverzoek indienen bij een werkstroom
                       href: hr-developer-api-myleaverequests-submit.md
+        - name: API voor ATS-integratie
+          items:
+            - name: Inleiding
+              href: hr-admin-integration-ats-api-introduction.md
+            - name: Wervingsaanvraag en gerelateerde entiteiten
+              items:
+                - name: Wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request.md
+                - name: Opleiding voor wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request-education.md
+                - name: Locatie van wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request-location.md
+                - name: Positie van wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request-position.md
+                - name: Vaardigheid voor wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
+                - name: Voorbeeldquery voor wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
+            - name: Optiesets voor wervingsaanvraag
+              items:
+                - name: Vrijstellingsstatus taak
+                  href: hr-admin-integration-ats-api-job-exempt-status.md
+                - name: Positiestatus van wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
+                - name: Status van wervingsaanvraag
+                  href: hr-admin-integration-ats-api-recruiting-request-status.md
+                - name: Categorie wettelijk voorgeschreven taken
+                  href: hr-admin-integration-ats-api-regulatory-job-category.md
+            - name: Kandidaat voor aanstelling en gerelateerde entiteiten
+              items:
+                - name: Kandidaat voor aanstelling
+                  href: hr-admin-integration-ats-api-candidate-to-hire.md
+                - name: Type certificaat
+                  href: hr-admin-integration-ats-api-certificate-type.md
+                - name: Contactpersoon van partij
+                  href: hr-admin-integration-ats-api-party-contact.md
+                - name: Persoon
+                  href: hr-admin-integration-ats-api-person.md
+                - name: Adres van persoon
+                  href: hr-admin-integration-ats-api-person-address.md
+                - name: Certificaat van persoon
+                  href: hr-admin-integration-ats-api-person-certificate.md
+                - name: Opleiding van persoon
+                  href: hr-admin-integration-ats-api-person-education.md
+                - name: Identificatienummer van persoon
+                  href: hr-admin-integration-ats-api-person-identification-number.md
+                - name: Beroepservaring van persoon
+                  href: hr-admin-integration-ats-api-person-professional-experience.md
+                - name: Persoonscreening
+                  href: hr-admin-integration-ats-api-person-screening.md
+                - name: Kwalificatie van persoon
+                  href: hr-admin-integration-ats-api-person-skill.md
+                - name: Beoordelingsniveau
+                  href: hr-admin-integration-ats-api-rating-level.md
+                - name: Screeningtypen
+                  href: hr-admin-integration-ats-api-screening-types.md
+                - name: Voorbeeldquery voor kandidaat voor aanstelling
+                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
+            - name: Optiesets voor kandidaten
+              items:
+                - name: Integratieresultaat van sollicitant
+                  href: hr-admin-integration-ats-api-applicant-integration-result.md
+                - name: Leeg Ja Nee
+                  href: hr-admin-integration-ats-api-blank-yes-no.md
+                - name: Status van voltooiing
+                  href: hr-admin-integration-ats-api-completion-status.md
+                - name: Type contact
+                  href: hr-admin-integration-ats-api-contact-type.md
+                - name: Creditbasis van opleiding
+                  href: hr-admin-integration-ats-api-education-credit-basis.md
+                - name: Geslacht
+                  href: hr-admin-integration-ats-api-gender.md
+                - name: Burgerlijke staat
+                  href: hr-admin-integration-ats-api-marital-status.md
+                - name: Maanden van het jaar
+                  href: hr-admin-integration-ats-api-months-of-year.md
+                - name: Nee Ja
+                  href: hr-admin-integration-ats-api-no-yes.md
+                - name: Periode-eenheid
+                  href: hr-admin-integration-ats-api-period-unit.md
+                - name: Screeningfrequentie
+                  href: hr-admin-integration-ats-api-screening-frequency.md
+                - name: Screeningfrequentie genereren op basis van
+                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
+                - name: Type kwalificatieniveau
+                  href: hr-admin-integration-ats-api-skill-level-type.md
     - name: Gebruikershandleiding
       items:
         - name: Overzicht
@@ -439,15 +533,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
                 - name: Clientwaarschuwingen per e-mail
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-            - name: Elektronische handtekeningen
-              items:
-                - name: Overzicht van Elektronische handtekeningen
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Elektronische handtekeningen instellen
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
             - name: Casebeheer
               items:
-                - name: Overzicht van Casebeheer
+                - name: Overzicht van casebeheer
                   href: ../fin-ops-core/fin-ops/organization-administration/cases.md?toc=/dynamics365/human-resources/toc.json
                 - name: 'Casebeveiliging, -processen en -categorieën plannen'
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-case-management.md?toc=/dynamics365/human-resources/toc.json
@@ -591,9 +679,11 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Wijzigingen in tarieven verwerken
                       href: hr-benefits-process-rate-changes.md
+                - name: ACA-rapportage
+                  href: hr-benefits-management-aca-reports.md
             - name: Een vergoedingenprogramma definiëren en beheren
               href: hr-benefits-manage-program.md
-            - name: Beleid betreffende geschiktheid voor vergoedingen
+            - name: Beleid voor geschiktheid vergoedingen
               href: hr-benefits-eligibility-policies.md
             - name: Proces voor geschiktheid voor vergoeding
               href: hr-benefits-eligibility-process.md
