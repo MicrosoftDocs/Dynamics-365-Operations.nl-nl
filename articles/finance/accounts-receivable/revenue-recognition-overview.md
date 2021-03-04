@@ -1,5 +1,5 @@
 ---
-title: Overzicht van opbrengsten voor reserves
+title: Overzicht van opbrengsttoerekening
 description: Dit onderwerp bevat informatie over de functie voor opbrengsttoerekening. Deze functie biedt een flexibel raamwerk waarmee u bedrijfsspecifieke regels kunt definiëren om zowel de opbrengstprijs als het opbrengstschema voor orders met meerdere elementen toe te rekenen.
 author: kweekley
 manager: aolson
@@ -11,30 +11,31 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 92af567499c1a8a23cd4d51e5bab48eaab2d8422
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: a7e37a0800ec7909f79e5a2354f59c7450995641
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4458799"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995609"
 ---
-# <a name="revenue-recognition-overview"></a>Overzicht van opbrengsten voor reserves
+# <a name="revenue-recognition-overview"></a>Overzicht van opbrengsttoerekening
 
 [!include [banner](../includes/banner.md)]
+
+Bedrijven in industrieën die meerdere elementen verkopen, zoals producten, services, abonnementen, enzovoort, moeten orders met meerdere elementen kunnen opsplitsen, zodat opbrengsten kunnen worden toegerekend op basis van een reeks bedrijfs- en branchespecifieke richtlijnen.
 
 > [!NOTE]
 > De functie voor opbrengsttoerekening kan niet worden ingeschakeld via Functiebeheer. Momenteel moet u configuratiesleutels gebruiken om deze functie in te schakelen.
 
-Bedrijven in industrieën die meerdere elementen verkopen, zoals producten, services, abonnementen enzovoort, moeten orders met meerdere elementen kunnen opsplitsen, zodat opbrengsten kunnen worden toegerekend op basis van een reeks bedrijfsspecifieke en branchespecifieke richtlijnen.
+> Opbrengsttoerekening, inclusief bundelfunctionaliteit, wordt niet ondersteund voor gebruik in Commerce-kanalen (e-commerce, POS, callcenter). Artikelen die zijn geconfigureerd met opbrengsttoerekening mogen niet worden toegevoegd aan orders of transacties die zijn gemaakt in Commerce-kanalen.
 
-In het algemeen kan het proces voor opbrengsttoerekening worden gebruikt voor het uitvoeren van de volgende taken:
+Over het algemeen kan het proces voor opbrengsttoerekening worden gebruikt voor het uitvoeren van de volgende taken:
 
-* Wijs opbrengsten toe om te garanderen dat de juiste opbrengstprijs wordt toegerekend op basis van de waarde van de onderdelen op de orders met meerdere elementen.
+* Wijs opbrengsten toe om te garanderen dat de juiste opbrengstprijs wordt toegerekend op basis van de waarde van de componenten in orders met meerdere elementen.
 * Stel opbrengsten uit op basis van een opbrengstschema dat de contractperioden en -percentages voor toerekening van opbrengsten in de tijd aangeeft.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE44iER]

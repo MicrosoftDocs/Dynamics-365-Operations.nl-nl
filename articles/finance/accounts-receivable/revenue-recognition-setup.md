@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b90c98628fef2006addb64a6b880ab4020edb8cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458759"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995561"
 ---
 # <a name="revenue-recognition-setup"></a>Instellingen opbrengsttoerekening
 [!include [banner](../includes/banner.md)]
@@ -31,7 +30,9 @@ Er is een nieuwe module **Opbrengsttoerekening** toegevoegd die menu-items bevat
 > [!NOTE]
 > De functie voor opbrengsttoerekening kan niet worden ingeschakeld via Functiebeheer. Momenteel moet u configuratiesleutels gebruiken om deze functie in te schakelen.
 
-De module **Opbrengsttoerekening** bevat de volgende instellingsopties:
+> Opbrengsttoerekening, inclusief bundelfunctionaliteit, wordt niet ondersteund voor gebruik in Commerce-kanalen (e-commerce, POS, callcenter). Artikelen die zijn geconfigureerd met opbrengsttoerekening mogen niet worden toegevoegd aan orders of transacties die zijn gemaakt in Commerce-kanalen.
+
+De module **Opbrengsttoerekening** bevat de volgende configuratieopties:
 
 - Journalen voor opbrengsttoerekening
 - Parameters voor toerekening van opbrengsten

@@ -94,12 +94,12 @@
                   items:
                     - name: Startpagina van nieuwe of gewijzigde functies in Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.17 (april 2021)
+                      href: get-started/whats-new-commerce-10-0-17.md
                     - name: Commerce 10.0.16 (februari 2021)
                       href: get-started/whats-new-commerce-10-0-16.md
                     - name: Commerce 10.0.15 (januari 2021)
                       href: get-started/whats-new-commerce-10-0-15.md
-                    - name: Commerce 10.0.14 (november 2020)
-                      href: get-started/whats-new-commerce-10-0-14.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Verwijderde of afgeschafte functies in Finance and Operations
@@ -178,7 +178,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/commerce/toc.json
                 - name: Rastermogelijkheden
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/commerce/toc.json
-                - name: Maken en werken met aangepaste velden
+                - name: Aangepaste velden maken en gebruiken
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: Canvas-apps uit Power Apps insluiten
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
@@ -190,6 +190,44 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-users-preferred-time-zone.md?toc=/dynamics365/commerce/toc.json
                 - name: Lifecycle Services begrijpen
                   href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs.md?toc=/fin-and-ops/toc.json?toc=/dynamics365/commerce/toc.json
+            - name: Implementatie levenscyclusbeheer
+              items:
+                - name: Startpagina van implementatie levenscyclusbeheer
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
+                - name: Architectuur voor Finance and Operations-apps
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
+                - name: Een implementatieproject onboarden
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
+                - name: Omgevingsplanning
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
+                - name: Voorbereiden voor go-live
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
+                - name: Veelgestelde vragen over go-live
+                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
+                - name: Een serviceaanvraag indienen
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
+                - name: 'Veelgestelde vragen over abonnementen, LCS-projecten en Azure AD-tenants'
+                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Omgevingen verplaatsen tussen datacenters
+                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
+                - name: Licenties verplaatsen tussen typen overeenkomsten
+                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
+                - name: LCS-implementatieprojecten verplaatsen naar verschillende Azure AD-tenants
+                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: LCS-implementatieprojecten verplaatsen van on-premises naar de cloud
+                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
+                - name: Meerdere LCS-projecten en productieomgevingen op één Azure AD-tenant
+                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
+                - name: Commerce-projecten voor Finance and Operations implementeren
+                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+                - name: 'Nieuwe omgevingen, Azure DevOps en vertakkingen voor projecten instellen'
+                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+                - name: Code en omgevingen voor Commerce-projecten bijwerken
+                  href: dev-itpro/updating-environments.md
+                - name: Problemen met testen en werking
+                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: Architectuuroverzicht
           items:
             - name: Architectuur
@@ -248,44 +286,6 @@
                   href: ../fin-ops-core/dev-itpro/deployment/apply-deployable-package-system.md?toc=/dynamics365/commerce/toc.json
                 - name: Seedgegevens in nieuwe Commerce-omgevingen initialiseren
                   href: enable-configure-retail-functionality.md
-            - name: Implementatie levenscyclusbeheer
-              items:
-                - name: Startpagina van implementatie levenscyclusbeheer
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/commerce/toc.json
-                - name: Architectuur voor Finance and Operations-apps
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Een implementatieproject onboarden
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/commerce/toc.json
-                - name: Omgevingsplanning
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md?toc=/dynamics365/commerce/toc.json
-                - name: Voorbereiden voor go-live
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/prepare-go-live.md?toc=/dynamics365/commerce/toc.json
-                - name: Veelgestelde vragen over go-live
-                  href: ../fin-ops-core/fin-ops/imp-lifecycle/go-live-faq.md?toc=/dynamics365/commerce/toc.json
-                - name: Een serviceaanvraag indienen
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/dynamics365/commerce/toc.json
-                - name: 'Veelgestelde vragen over abonnementen, LCS-projecten en Azure AD-tenants'
-                  href: ../fin-ops-core/fin-ops/get-started/subscription-overview.md?toc=/dynamics365/commerce/toc.json
-                - name: Omgevingen verplaatsen tussen datacenters
-                  href: ../fin-ops-core/fin-ops/get-started/move-environments-data-center.md?toc=/dynamics365/commerce/toc.json
-                - name: Licenties verplaatsen tussen typen overeenkomsten
-                  href: ../fin-ops-core/fin-ops/get-started/move-licenses-between-agreement-types.md?toc=/dynamics365/commerce/toc.json
-                - name: LCS-implementatieprojecten verplaatsen naar verschillende Azure AD-tenants
-                  href: ../fin-ops-core/fin-ops/get-started/move-lcs-implementation-project-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: LCS-implementatieprojecten verplaatsen van on-premises naar de cloud
-                  href: ../fin-ops-core/dev-itpro/lifecycle-services/move-on-prem-to-cloud.md?toc=/dynamics365/commerce/toc.json
-                - name: Meerdere LCS-projecten en productieomgevingen op één Azure AD-tenant
-                  href: ../fin-ops-core/fin-ops/get-started/implement-multiple-projects-aad-tenant.md?toc=/dynamics365/commerce/toc.json
-                - name: Commerce-projecten voor Finance and Operations implementeren
-                  href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-                - name: 'Nieuwe omgevingen, Azure DevOps en vertakkingen voor Commerce-projecten instellen'
-                  href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
-                - name: Code en omgevingen voor Commerce-projecten bijwerken
-                  href: dev-itpro/updating-environments.md
-                - name: Problemen met testen en werking
-                  href: dev-itpro/retail-implementation-testing-performance.md
         - name: Uw afzetkanalen instellen
           items:
             - name: Overzicht van kanalen
@@ -496,7 +496,7 @@
                       href: dev-itpro/retail-store-system-begin.md
                 - name: Callcenters beheren
                   items:
-                    - name: Configureren en werken met orderwachtstanden voor callcenters
+                    - name: Orderwachtstanden voor callcenters configureren en hiermee werken
                       href: work-with-order-holds.md
                 - name: Betalingen
                   items:
@@ -504,6 +504,8 @@
                       href: payment-methods.md
                     - name: Betalingsmethoden in callcenters
                       href: work-with-payments.md
+                    - name: Verwerking van restitutiebetalingen in callcenters
+                      href: call-center-refund-payments.md
                     - name: 'Creditcards instellen, autoriseren en registreren'
                       href: ../finance/accounts-receivable/credit-card-authorizations.md?toc=/dynamics365/commerce/toc.json
                     - name: Denominaties voor contant geld configureren voor het POS
@@ -648,6 +650,8 @@
                       href: personalization-gdpr.md
                 - name: Aanbevelingen voor vergelijkbare artikelen inschakelen
                   href: shop-similar-looks.md
+                - name: Aanbevelingen voor vergelijkbare omschrijvingen inschakelen
+                  href: shop-similar-description.md
                 - name: POS-ervaringen
                   items:
                     - name: Productaanbevelingen op POS toevoegen
@@ -712,7 +716,7 @@
           items:
             - name: Klantorders
               items:
-                - name: Klantorders op het verkooppunt (POS)
+                - name: Klantorders in POS
                   href: customer-orders-overview.md
                 - name: Hybride klantorders
                   href: hybrid-customer-orders.md
@@ -720,6 +724,8 @@
                   href: enhancedorderrecall.md
                 - name: Meerdere leveringsmethoden voor afhalen inschakelen
                   href: multiple-pickup-modes.md
+                - name: Het ophalen van een klantorder in POS verwerken
+                  href: process-order-pickup-POS.md
             - name: Verkooporders
               items:
                 - name: Callcenterorders maken
@@ -858,9 +864,13 @@
                   href: add-cdn-support.md
                 - name: Detectie van winkels op basis van de locatie inschakelen
                   href: enable-store-detection.md
-            - name: Voorbeeld site-overzicht
+                - name: Digitale geschenkbonnen voor e-commerce
+                  href: digital-gift-cards.md
+                - name: Browservereisten voor Dynamics 365 Commerce-sites
+                  href: browser-requirements.md
+            - name: Overzicht van voorbeeldsite
               items:
-                - name: Overzicht introductiepagina
+                - name: Overzicht van startpagina
                   href: quick-tour-home-page.md
                 - name: Overzicht van pagina's met productgegevens
                   href: quick-tour-pdp.md
@@ -948,6 +958,8 @@
                       href: enrich-category-page.md
                     - name: Toegankelijkheid van pagina-inhoud controleren
                       href: verify-accessibility.md
+                    - name: Dynamische e-commercepagina's maken op basis van URL-parameters
+                      href: create-dynamic-pages.md
                 - name: Sitenavigatie
                   items:
                     - name: Sitenavigatie aanpassen
@@ -1058,6 +1070,8 @@
                   items:
                     - name: Productverzamelingsmodules
                       href: product-collection-module-overview.md
+                    - name: Snelweergavemodule
+                      href: quick-view-module.md
                 - name: Navigatiemodules
                   items:
                     - name: Breadcrumb-module
@@ -1066,6 +1080,10 @@
                       href: nav-menu-module.md
                     - name: Siteselectiemodule
                       href: site-selector.md
+                - name: Zoekmodules
+                  items:
+                    - name: Module voor zoekresultaten
+                      href: search-result-module.md
                 - name: Conformiteitsmodules
                   items:
                     - name: Module voor cookietoestemming
@@ -1106,6 +1124,18 @@
           items:
             - name: Integratie van Dynamics 365 Fraud Protection met Dynamics 365 Commerce
               href: dev-itpro/DFP.md
+        - name: E-commerce voor B2B
+          items:
+            - name: Een e-commercesite voor B2B instellen
+              href: b2b/set-up-b2b-site.md
+            - name: Organigramhiërarchieën voor B2B-organisaties maken
+              href: b2b/org-model.md
+            - name: Gebruikers van zakelijke partners beheren op e-commercesites voor B2B
+              href: b2b/manage-b2b-users.md
+            - name: De betalingswijze voor klantrekeningen configureren voor e-commercesites voor B2B
+              href: b2b/payment-method.md
+            - name: Limieten voor producthoeveelheden instellen voor e-commercesites voor B2B
+              href: b2b/quantity-limits.md
         - name: Bewaking en analyse
           items:
             - name: Verkoop- en margeprestaties bewaken
@@ -2066,6 +2096,8 @@
                       href: e-commerce-extensibility/interactive-components.md
                     - name: De aangemelde status imiteren tijdens lokale ontwikkeling
                       href: e-commerce-extensibility/mock-sign-in.md
+                    - name: Module-eigenschappen configureren die moeten worden weergegeven op basis van context
+                      href: e-commerce-extensibility/configure-properties-context.md
                     - name: Modules globaliseren met de klasse CultureInfoFormatter
                       href: e-commerce-extensibility/globalize-modules.md
                     - name: Azure Key Vault instellen voor beveiligd sleutelbeheer
@@ -2152,7 +2184,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Verwachte wijzigingen in Retail SDK
                   href: dev-itpro/UpcomingSDKChanges.md
-                - name: Belangrijke ontwikkelings- en ALM-wijzigingen van versie 10.0.10 tot 10.0.13
+                - name: Ontwikkelings- en ALM-wijzigingen van versie 10.0.10 tot 10.0.13
                   href: dev-itpro/dev-changes-10-13.md
                 - name: De build-systemen voor Commerce en Finance and Operations samenvoegen
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
@@ -2162,7 +2194,7 @@
                   href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
                 - name: Implementeerbare pakketten maken
                   href: dev-itpro/retail-sdk/retail-sdk-packaging.md
-                - name: Ontwikkelingen in dev-omgevingen met cloudhosting zonder beheerderstoegang
+                - name: Ontwikkelingen in cloudomgevingen zonder beheerderstoegang
                   href: dev-itpro/cloud-dev-box.md
                 - name: Build-pipeline instellen voor Commerce SDK
                   href: dev-itpro/retail-sdk/SDK-build-pipeline.md
@@ -2238,7 +2270,7 @@
               items:
                 - name: Klanten- en consumenten-API's voor Commerce Scale Unit
                   href: dev-itpro/retail-server-customer-consumer-api.md
-                - name: Nieuwe API voor Retail Server-uitbreiding maken (Retail SDK-versie 10.0.11 en hoger)
+                - name: API voor Retail Server-uitbreiding maken (Retail SDK-versie 10.0.11 en hoger)
                   href: dev-itpro/retail-server-icontroller-extension.md
                 - name: Nieuwe API voor Retail Server-uitbreiding maken (Retail SDK-versie 10.0.11 en lager)
                   href: dev-itpro/retail-server-extension.md
@@ -2300,7 +2332,7 @@
                   href: payment-connector-data-fields.md
                 - name: Bescherming tegen dubbele betaling inschakelen voor betalingsconnector
                   href: dev-itpro/duplicate-payments-protection.md
-                - name: Betalingspakket maken voor Toepassingsverkenner in Service Fabric-implementaties
+                - name: Commerce-betalingspakket voor Finance and Operations-implementatie maken
                   href: dev-itpro/payment-connector-package.md
             - name: Uitbreidbaarheid van e-commerce van derde
               items:

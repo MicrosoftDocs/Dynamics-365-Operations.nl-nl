@@ -72,12 +72,12 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.17 (maart 2021)
+                      href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16 (februari 2021)
                       href: get-started/whats-new-changed-10-0-16.md
                     - name: Finance 10.0.15 (januari 2021)
                       href: get-started/whats-new-changed-10-0-15.md
-                    - name: Finance 10.0.14 (november 2020)
-                      href: get-started/whats-new-changed-10-0-14.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Verwijderde of afgeschafte functies in Dynamics 365 Finance
@@ -156,7 +156,7 @@
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/finance/toc.json
                 - name: Rastermogelijkheden
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/finance/toc.json
-                - name: Maken en werken met aangepaste velden
+                - name: Aangepaste velden maken en gebruiken
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/finance/toc.json
                 - name: Canvas-apps uit Power Apps insluiten
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/finance/toc.json
@@ -175,7 +175,7 @@
                 - name: Architectuur voor Finance and Operations-apps
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/finance/toc.json
                 - name: Microsoft FastTrack
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/finance/toc.json
+                  href: /dynamics365/fasttrack/index
                 - name: Een implementatieproject onboarden
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/finance/toc.json
                 - name: Omgevingsplanning
@@ -338,16 +338,8 @@
               href: accounts-receivable/customer-posting-profiles.md
             - name: Klanten kopiëren met behulp van gedeelde nummerreeksen
               href: accounts-receivable/copy-customer.md
-            - name: Klantenwerkstroom
+            - name: Klantenworkflow
               href: accounts-receivable/customer-workflow.md
-            - name: Overzicht van opbrengsten voor reserves
-              href: accounts-receivable/revenue-recognition-overview.md
-            - name: Instellingen opbrengsttoerekening
-              href: accounts-receivable/revenue-recognition-setup.md
-            - name: Uitgestelde opbrengst toerekenen
-              href: accounts-receivable/revenue-recognition-recognize-deferred-revenue.md
-            - name: Opbrengsttoerekening op verkooporders
-              href: accounts-receivable/revenue-recognition-so-basics.md
             - name: Terugkerende facturen instellen en verwerken
               href: accounts-receivable/set-up-process-recurring-invoices.md
             - name: Boekhoudingsverdelingen en journaals in de subadministratie voor vrije-tekstfacturen
@@ -384,10 +376,30 @@
               href: accounts-receivable/set-up-bills-exchange.md
             - name: Klanten sluiten
               href: accounts-receivable/close-accounts-receivable.md
+            - name: Opbrengsttoerekening
+              items:
+                - name: Overzicht van opbrengsttoerekening
+                  href: accounts-receivable/revenue-recognition-overview.md
+                - name: Instellingen opbrengsttoerekening
+                  href: accounts-receivable/revenue-recognition-setup.md
+                - name: Uitgestelde opbrengst toerekenen
+                  href: accounts-receivable/revenue-recognition-recognize-deferred-revenue.md
+                - name: Opbrengsttoerekening op verkooporders
+                  href: accounts-receivable/revenue-recognition-so-basics.md
+                - name: Bundels voor opbrengsttoerekening
+                  href: accounts-receivable/rev-rec-bundles.md
+                - name: Hertoewijzing van opbrengsttoerekening
+                  href: accounts-receivable/rev-rec-reallocation.md
+                - name: Hertoewijzing van opbrengsttoerekening - scenario 1
+                  href: accounts-receivable/rev-rec-reallocation-scenario-1.md
+                - name: Hertoewijzing van opbrengsttoerekening - scenario 2
+                  href: accounts-receivable/rev-rec-reallocation-scenario-2.md
+                - name: Hertoewijzing van opbrengsttoerekening - scenario 3
+                  href: accounts-receivable/rev-rec-reallocation-scenario-3.md
+                - name: Hertoewijzing van opbrengsttoerekening - scenario 4
+                  href: accounts-receivable/rev-rec-reallocation-scenario-4.md
             - name: Betalingen en vereffeningen
               items:
-                - name: Overzicht van opbrengsten voor reserves
-                  href: accounts-receivable/revenue-recognition-overview.md
                 - name: Overzicht van klantbetalingen
                   href: cash-bank-management/tasks/customer-payment-overview.md
                 - name: Gecentraliseerde betalingen voor Klanten
@@ -470,9 +482,13 @@
               href: accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Beheer van geavanceerde notities
               href: localizations/emea-ita-exil-structured-notes.md
+            - name: Verwijzingen naar oorspronkelijke facturen in creditnota's
+              href: accounts-receivable/original-invoice-numbers-credit-notes.md
+            - name: Documenten en boekstukken chronologisch nummeren
+              href: accounts-receivable/chrono-numbers.md
         - name: Budgettering
           items:
-            - name: Startpagina van Budgetteren
+            - name: Startpagina van Budgettering
               href: budgeting/budgeting-overview.md
             - name: Overzicht van Budgetplanning
               href: budgeting/budget-planning-overview-configuration.md
@@ -504,6 +520,8 @@
               href: cash-bank-management/cash-bank-management.md
             - name: Cashflowprognose
               href: cash-bank-management/cash-flow-forecasting.md
+            - name: Problemen met het instellen van cashflowprognoses oplossen
+              href: cash-bank-management/cash-flow-forecasting-tsg.md
             - name: Werkgebied voor bankbeheer
               href: cash-bank-management/Bank-management-workspace.md
             - name: Herwaardering voor vreemde valuta van bank
@@ -582,7 +600,7 @@
                   href: cash-bank-management/upgrade-bank-journal-composite-entity.md
         - name: Kostprijsboekhouding
           items:
-            - name: Startpagina van Kostprijsboekhouding
+            - name: Startpagina Kostprijsboekhouding
               href: cost-accounting/cost-accounting-home-page.md
             - name: Terminologie voor kostprijsboekhouding
               href: cost-accounting/terms-cost-accounting.md
@@ -848,10 +866,14 @@
                   href: asset-leasing/record-rou-asset-depreciation.md
                 - name: Geboekte leasetransacties omkeren
                   href: asset-leasing/reverse-posted-lease-trans.md
+                - name: Conventies voor het leasen van activa
+                  href: asset-leasing/asset-leasing-convention.md
                 - name: Een lease aanpassen
                   href: asset-leasing/adjust-lease.md
                 - name: Waarde van activum met gebruiksrecht verminderen
                   href: asset-leasing/impair-rou-asset.md
+                - name: Beëindiging van een lease voorstellen
+                  href: asset-leasing/lease-termination.md
                 - name: Een lease aan een vast activum koppelen
                   href: asset-leasing/associate-lease-with-fixed-asset.md
                 - name: Leases in vreemde valuta registreren
@@ -920,6 +942,16 @@
                       href: general-ledger/consolidate-online.md
                     - name: Geconsolideerde financiële overzichten genereren
                       href: general-ledger/generating-consolidated-financial-statements.md
+                    - name: Gegevens van de dochtermaatschappij importeren vanuit bestanden
+                      href: general-ledger/import-subsidiary-data-from-files.md
+                    - name: Gegevens van de dochtermaatschappij exporteren naar een bestand
+                      href: general-ledger/export-subsidiary-data-to-file.md
+                    - name: Consolideren met import - Indeling
+                      href: general-ledger/consolidate-with-import-format.md
+                    - name: Een rechtspersoon voorbereiden voor gebruik in het consolidatieproces
+                      href: general-ledger/prepare-company-for-consolidation.md
+                    - name: Een dochtermaatschappij voor consolidatie instellen
+                      href: general-ledger/set-up-subsidiary-company-for-consolidation.md
                 - name: Consolidatiegroepen en extra consolidatierekening maken
                   href: general-ledger/tasks/create-consolidation-groups.md
                 - name: Hoofdrekeningtypen
@@ -1004,6 +1036,8 @@
                   href: general-ledger/import-currency-exchange-rates.md
                 - name: Eén boekstuk
                   href: general-ledger/one-voucher.md
+                - name: Veelgestelde vragen over Eén boekstuk
+                  href: general-ledger/one-voucher-faq.md
                 - name: Grootboekvereffeningen
                   href: general-ledger/ledger-settlements.md
             - name: Einde van periode afsluiten
@@ -1018,6 +1052,8 @@
                   href: general-ledger/tasks/close-fiscal-year.md
                 - name: Massale sluiting van financiële periode
                   href: general-ledger/tasks/mass-financial-period-close.md
+                - name: Veelgestelde vragen over jaarafsluitingsactiviteiten
+                  href: general-ledger/faq-year-end-activities.md
             - name: Btw
               items:
                 - name: Btw-overzicht
@@ -1056,12 +1092,26 @@
                   href: general-ledger/Sales-tax-specification-by-ledger-transaction-report.md
                 - name: Btw-vereffeningsperioden instellen
                   href: general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: Bronbelasting instellen
-                  href: general-ledger/tasks/set-up-withholding-tax.md
                 - name: Geboekte btw-transacties weergeven
                   href: general-ledger/tasks/view-posted-sales-tax-transactions.md
                 - name: Rapport met btw-betaling per code afdrukken
                   href: general-ledger/print-sales-tax-payment-by-code-report.md
+            - name: Bronbelasting
+              items:
+                - name: Bronbelasting instellen
+                  href: general-ledger/tasks/set-up-withholding-tax.md
+                - name: Algemene bronbelasting
+                  items:
+                    - name: Overzicht van algemene bronbelasting
+                      href: general-ledger/global-withholding-tax-overview.md
+                    - name: Algemene bronbelasting instellen
+                      href: general-ledger/set-up-global-withholding-tax.md
+                    - name: Bronbelasting in inkooptransacties
+                      href: general-ledger/withholding-tax-in-purchase-transactions.md
+                    - name: Bronbelasting in verkooptransacties
+                      href: general-ledger/withholding-tax-in-sales-transactions.md
+                    - name: Een betaling van bronbelasting maken
+                      href: general-ledger/create-a-withholding-tax-payment.md
             - name: Controleworkbench
               items:
                 - name: Controlebeleidsregels
@@ -1070,6 +1120,52 @@
                   href: general-ledger/audit-policy-violations-cases.md
                 - name: Auditbeleid voor brondocumenten definiëren
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+        - name: Financiële rapportage
+          items:
+            - name: Aan de slag met financiële rapportage
+              href: general-ledger/financial-reporting-getting-started.md
+            - name: Overzicht van financiële rapportage
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
+            - name: Onderdelen van een financieel rapport
+              href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
+            - name: Valutamogelijkheden in financiële rapportage
+              href: general-ledger/financial-reporting-currency-capability.md
+            - name: Financiële rapporten balans
+              href: general-ledger/balance-sheet-financial-reports.md
+            - name: Financiële rapporten genereren
+              href: ../fin-ops-core/dev-itpro/analytics/generate-financial-report.md?toc=/dynamics365/finance/toc.json
+            - name: Inkomensoverzicht financieel rapport
+              href: general-ledger/income-statement-financial-report.md
+            - name: Financiële rapporten proefbalans
+              href: general-ledger/trial-balance-financial-reports.md
+            - name: Financiële rapporten weergeven
+              href: general-ledger/view-financial-reports.md
+            - name: De gebruikersinterface van de rapportontwerper
+              href: ../fin-ops-core/dev-itpro/analytics/report-designer-interface.md?toc=/dynamics365/finance/toc.json
+            - name: Sneltoetsen voor financieel rapporteur
+              href: general-ledger/financial-reporting-keyboard-shortcuts.md
+            - name: Gebruikersvoorkeuren in Ontwerper financiële rapporten
+              href: ../fin-ops-core/dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/dynamics365/finance/toc.json
+            - name: Geavanceerde opmaakopties
+              href: ../fin-ops-core/dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Rapportonderdelen indelen in Report Designer
+              href: ../fin-ops-core/dev-itpro/analytics/organize-components-report-designer.md?toc=/dynamics365/finance/toc.json
+            - name: Rapportdefinities
+              href: ../fin-ops-core/dev-itpro/analytics/design-financial-report-definitions.md?toc=/dynamics365/finance/toc.json
+            - name: Rijdefinities
+              href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Kolomdefinities
+              href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
+            - name: Rapportagestructuurdefinities in financiële rapporten
+              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
+            - name: Rijdefinitiecellen wijzigen
+              href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: De datamart voor financiële rapportage opnieuw instellen
+              href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
+            - name: Wanneer een datamart opnieuw moet worden ingesteld
+              href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
+            - name: Veelgestelde vragen over financiële rapportage
+              href: general-ledger/financial-reporting-faq.md
         - name: Financiële inzichten
           items:
             - name: Startpagina van Financiële inzichten
@@ -1306,48 +1402,6 @@
               href: public-sector/tasks/add-certification-type-vendor-public-sector.md
             - name: Geharmoniseerde Canadese btw berekenen
               href: public-sector/Calculating-Canadian-Harmonized-sales-tax.md
-        - name: Financiële rapportage
-          items:
-            - name: Aan de slag met financiële rapportage
-              href: general-ledger/financial-reporting-getting-started.md
-            - name: Overzicht van financiële rapportage
-              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=/dynamics365/finance/toc.json
-            - name: Onderdelen van een financieel rapport
-              href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
-            - name: Valutamogelijkheden in financiële rapportage
-              href: general-ledger/financial-reporting-currency-capability.md
-            - name: Financiële rapporten balans
-              href: general-ledger/balance-sheet-financial-reports.md
-            - name: Financiële rapporten genereren
-              href: ../fin-ops-core/dev-itpro/analytics/generate-financial-report.md?toc=/dynamics365/finance/toc.json
-            - name: Inkomensoverzicht financieel rapport
-              href: general-ledger/income-statement-financial-report.md
-            - name: Financiële rapporten proefbalans
-              href: general-ledger/trial-balance-financial-reports.md
-            - name: Financiële rapporten weergeven
-              href: general-ledger/view-financial-reports.md
-            - name: De gebruikersinterface van de rapportontwerper
-              href: ../fin-ops-core/dev-itpro/analytics/report-designer-interface.md?toc=/dynamics365/finance/toc.json
-            - name: Sneltoetsen voor financieel rapporteur
-              href: general-ledger/financial-reporting-keyboard-shortcuts.md
-            - name: Gebruikersvoorkeuren in Ontwerper financiële rapporten
-              href: ../fin-ops-core/dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/dynamics365/finance/toc.json
-            - name: Geavanceerde opmaakopties
-              href: ../fin-ops-core/dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Rapportonderdelen indelen in Report Designer
-              href: ../fin-ops-core/dev-itpro/analytics/organize-components-report-designer.md?toc=/dynamics365/finance/toc.json
-            - name: Rapportdefinities
-              href: ../fin-ops-core/dev-itpro/analytics/design-financial-report-definitions.md?toc=/dynamics365/finance/toc.json
-            - name: Rijdefinities
-              href: ../fin-ops-core/dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: Kolomdefinities
-              href: ../fin-ops-core/dev-itpro/analytics/column-definitions-financial-reports.md?toc=/dynamics365/finance/toc.json
-            - name: Rapportagestructuurdefinities in financiële rapporten
-              href: ../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md?toc=/dynamics365/finance/toc.json
-            - name: Rijdefinitiecellen wijzigen
-              href: ../fin-ops-core/dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/dynamics365/finance/toc.json
-            - name: De datamart voor financiële rapportage opnieuw instellen
-              href: ../fin-ops-core/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/dynamics365/finance/toc.json
         - name: Globalisatie
           items:
             - name: Globalisatieresources
@@ -1358,18 +1412,30 @@
               items:
                 - name: Overzicht van de invoegtoepassing voor elektronische facturering
                   href: localizations/e-invoicing-service-overview.md
+                - name: Administratieonderdelen van invoegtoepassing voor elektronische facturering
+                  href: localizations/e-invoicing-service-administration.md
+                - name: De invoegvoegconfiguratie voor elektronische facturering in Regulatory Configuration Services (RCS) configureren
+                  href: localizations/e-invoicing-configuration-rcs.md
+                - name: Elektronische facturen uitgeven in Finance en Supply Chain Management
+                  href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
                 - name: Een Azure-opslagaccount en een Key Vault maken
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
-                - name: Aan de slag met de invoegtoepassing voor elektronische facturering
-                  href: localizations/e-invoicing-get-started.md
-                - name: Aan de slag met de invoegtoepassing voor elektronische facturering voor Brazilië
-                  href: localizations/e-invoicing-bra-get-started.md
-                - name: Aan de slag met de invoegtoepassing voor elektronische facturering voor Italië
-                  href: localizations/e-invoicing-ita-get-started.md
-                - name: Aan de slag met de invoegtoepassing voor elektronische facturering voor Mexico
-                  href: localizations/e-invoicing-mex-get-started.md
-                - name: De invoegtoepassing voor elektronische facturering instellen
-                  href: localizations/e-invoicing-setup.md
+                - name: Aan de slag
+                  items:
+                    - name: Aan de slag met servicebeheer via de invoegtoepassing voor elektronische facturering
+                      href: localizations/e-invoicing-get-started-service-administration.md
+                    - name: Aan de slag met de invoegtoepassing voor elektronische facturering
+                      href: localizations/e-invoicing-get-started.md
+                    - name: Aan de slag met de invoegtoepassing voor elektronische facturering voor Brazilië
+                      href: localizations/e-invoicing-bra-get-started.md
+                    - name: Elektronische klantfacturen in Egypte
+                      href: localizations/emea-egy-e-invoices.md
+                    - name: Aan de slag met de invoegtoepassing voor elektronische facturering voor Italië
+                      href: localizations/e-invoicing-ita-get-started.md
+                    - name: Aan de slag met de invoegtoepassing voor elektronische facturering voor Mexico
+                      href: localizations/e-invoicing-mex-get-started.md
+                    - name: De invoegtoepassing voor elektronische facturering instellen
+                      href: localizations/e-invoicing-setup.md
             - name: Australië
               items:
                 - name: Overzicht Australië
@@ -1710,6 +1776,14 @@
                   href: localizations/tasks/set-up-oioubl-electronic-invoicing.md
                 - name: Indeling betalingsbon instellen
                   href: localizations/tasks/set-up-payment-slip-format.md
+            - name: Egypte
+              items:
+                - name: Overzicht Egypte
+                  href: localizations/egypt.md
+                - name: Registratienummers in Egypte configureren
+                  href: localizations/emea-egy-reg-numbers.md
+                - name: Factuurindeling configureren voor Egypte
+                  href: localizations/emea-egy-invoice-layout.md
             - name: Estland
               items:
                 - name: Overzicht Estland
@@ -1800,9 +1874,11 @@
                   href: localizations/tasks/eur-00012-issue-eu-entry-certificate.md
                 - name: Ondersteunde standaarden voor elektronische facturering
                   href: localizations/emea-oioubl-standards-electronic-invoicing.md
+                - name: Verplicht genereren van elektronische facturen
+                  href: localizations/emea-eur-forced-einvoices.md
                 - name: Oorspronkelijke factuurreferentie (Oost-Europa)
                   href: localizations/tasks/ee-00004-original-invoice-reference.md
-                - name: Een partij zoeken door middel van het btw-id
+                - name: Een partij zoeken door middel van de btw-id
                   href: localizations/tasks/eur-00015-party-search-vat-id.md
                 - name: Programma voor genereren van betalingsverwijzingen (Oost-Europa)
                   href: localizations/tasks/ee-00015-payment-reference-generation-tool.md
@@ -1968,6 +2044,8 @@
                   href: localizations/emea-cze-hun-year-end.md
                 - name: Online factureringssysteem
                   href: localizations/emea-hun-online-invoicing.md
+                - name: Btw-aangiften voor Hongarije
+                  href: localizations/emea-hun-sales-tax-reports.md
                 - name: Uitgestelde btw-berekeningen
                   href: localizations/emea-hun-deferred-vat.md
             - name: IJsland
@@ -2224,6 +2302,8 @@
                   href: localizations/italy.md
                 - name: Details btw-aangiftes
                   href: localizations/emea-ita-vat-statements-details.md
+                - name: Kwartaalrapport over btw-communicatie
+                  href: localizations/emea-ita-quarterly-vat-communication.md
                 - name: Zwarte-lijstrapport
                   href: localizations/emea-ita-black-list-report.md
                 - name: Competentiedatum
@@ -2278,6 +2358,10 @@
                   href: localizations/emea-ita-e-invoices.md
                 - name: Jaarlijkse belastingaangifte
                   href: localizations/emea-ita-yearly-tax-communication.md
+                - name: Traceerbaarheid van betalingen
+                  href: localizations/emea-ita-payment-traceability.md
+                - name: Geïntegreerde controle van boekingsdatum
+                  href: localizations/emea-ita-post-date-control.md
             - name: Japan
               items:
                 - name: Overzicht Japan
@@ -2826,6 +2910,10 @@
                       href: localizations/rus-expense-and-income-codes.md
                     - name: Belastingregisters voor activa
                       href: localizations/rus-assets-tax-registers.md
+                    - name: Belastingregister voor uitgestelde posten
+                      href: localizations/rus-deferred-expenses-register.md
+                    - name: Belastingregisters voor cashflows
+                      href: localizations/rus-cash-flow-tax-registers.md
             - name: Saoedi-Arabië
               items:
                 - name: Overzicht Saoedi-Arabië
@@ -2906,6 +2994,10 @@
                   href: localizations/apac-tha-substitution-and-adjustment-invoices.md
                 - name: Niet-gerealiseerde btw
                   href: localizations/apac-tha-unrealized-vat.md
+                - name: Dimensies belastingdienst
+                  href: localizations/apac-tha-tax-branch-dimensions.md
+                - name: Btw-rapport
+                  href: localizations/apac-tha-sales-vat-report.md
                 - name: Bronbelasting
                   href: localizations/apac-tha-withholding-tax.md
             - name: Verenigde Arabische Emiraten (VAE)
@@ -2991,7 +3083,7 @@
                 - name: Een opvolgingsplan ontwikkelen
                   href: ../human-resources/hr-personnel-develop-succession-plan.md?toc=/dynamics365/finance/toc.json
                 - name: Project Timesheets invoeren
-                  href: ../human-resources/hr-personnel-enter-project-timesheets.md?toc=/dynamics365/finance/toc.json
+                  href: ../fin-ops-core/fin-ops/hr/tasks/hr-enter-project-timesheets.md
                 - name: Projecten voor massaal aanstellen
                   href: ../human-resources/hr-personnel-mass-hire-projects.md?toc=/dynamics365/finance/toc.json
                 - name: Een project voor massaal aanstellen maken
@@ -3046,7 +3138,7 @@
               items:
                 - name: Een vergoedingenprogramma definiëren en beheren
                   href: ../human-resources/hr-benefits-manage-program.md?toc=/dynamics365/finance/toc.json
-                - name: Beleid betreffende geschiktheid voor vergoedingen
+                - name: Beleid voor geschiktheid vergoedingen
                   href: ../human-resources/hr-benefits-eligibility-policies.md?toc=/dynamics365/finance/toc.json
                 - name: Proces voor geschiktheid voor vergoeding
                   href: ../human-resources/hr-benefits-eligibility-process.md?toc=/dynamics365/finance/toc.json
@@ -3307,6 +3399,12 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
                 - name: Functies
                   items:
+                    - name: Container
+                      items:
+                        - name: Containerfuncties
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-container.md?toc=/dynamics365/finance/toc.json
+                        - name: Base64StringToContainer
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/finance/toc.json
                     - name: Datum en tijd
                       items:
                         - name: Datum- en tijdfuncties
@@ -3529,6 +3627,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/finance/toc.json
                         - name: 'Type: Value'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/finance/toc.json
+                        - name: 'Container: Base64StringToContainer'
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-container-base64stringtocontainer.md?toc=/dynamics365/finance/toc.json
                         - name: 'Datum en tijd: DateTimeValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/finance/toc.json
                         - name: 'Datum en tijd: DateToDateTime'
@@ -3570,7 +3670,11 @@
                         - name: Indelingen uitvoeren om kolommen dynamisch toe te voegen aan Excel-rapporten
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
                 - name: Configuraties ontwerpen om rapporten in Word-indeling te genereren
-                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
+                  items:
+                    - name: Een nieuwe ER-configuratie ontwerpen om rapporten in Word-indeling te genereren
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
+                    - name: ER-configuraties opnieuw gebruiken met Excel-sjablonen om rapporten te genereren in Word-indeling
+                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Configuraties ontwerpen om PDF-sjablonen in te vullen
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Afbeeldingen en vormen insluiten
@@ -3587,6 +3691,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
+                - name: Stuklijsttekens onderdrukken in gegenereerde bestanden
+                  href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/finance/toc.json
             - name: Toepassingsgegevens bijwerken met behulp van elektronische rapportage
               items:
                 - name: Elektronische documenten genereren en toepassingsgegevens bijwerken
@@ -3646,7 +3752,7 @@
                         - name: Configuraties importeren uit GR
                           href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Bijgewerkte versies van ER-configuraties importeren
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Uitgebreid filteren om configuraties te vinden in GR
                           href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
                         - name: Configuraties uploaden naar GR
@@ -3710,38 +3816,40 @@
                         - name: Indelingen wijzigen en uitvoeren voor gebruik van documentbeheerbestanden
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/dynamics365/finance/toc.json
                     - name: Fouten oplossen in gegevensbronnen
-                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Streepjescode gebruiken om afbeeldingen met streepjescode te genereren
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Modeltoewijzingen configureren
                   items:
                     - name: ER-modeltoewijzingen configureren afhankelijk van landencontext
-                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-country-dependent-model-mapping.md?toc=/dynamics365/finance/toc.json
                     - name: ER-modeltoewijzing in afzonderlijke ER-configuraties beheren
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/dynamics365/finance/toc.json
+                    - name: Verschillende afgeleide toewijzingen voor één modelbasis beheren
+                      href: ../fin-ops-core/dev-itpro/analytics/er-multiple-model-mappings.md?toc=/dynamics365/finance/toc.json
                 - name: Indelingen configureren
                   items:
                     - name: Modeldefinities selecteren tijdens het maken van indelingen
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/dynamics365/finance/toc.json
                     - name: ER-indelingen configureren om parameters te gebruiken die per rechtspersoon worden opgegeven
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-configure-format.md?toc=/dynamics365/finance/toc.json
                     - name: De parameters van een ER-indeling per rechtspersoon instellen
-                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=dynamics365/finance/toc.json
+                      href: ../fin-ops-core/dev-itpro/analytics/er-app-specific-parameters-set-up.md?toc=/dynamics365/finance/toc.json
                     - name: De uitvoering van ER-opmaakelementen uitstellen
                       items:
                         - name: De uitvoering van een volgorde-element uitstellen
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-sequence-element.md?toc=/dynamics365/finance/toc.json
                         - name: De uitvoering van een XML-element uitstellen
-                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=dynamics365/finance/toc.json
+                          href: ../fin-ops-core/dev-itpro/analytics/er-defer-xml-element.md?toc=/dynamics365/finance/toc.json
                     - name: Meertalige rapporten ontwerpen
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-multilingual-reports.md?toc=/dynamics365/finance/toc.json
                     - name: Grote uitgaande documenten comprimeren
                       href: ../fin-ops-core/dev-itpro/analytics/er-compress-outbound-files.md?toc=/dynamics365/finance/toc.json
                 - name: De geconfigureerde ER-onderdelen controleren
-                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=dynamics365/finance/toc.json
+                  href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: Relatief pad in gegevensbindingen
-                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=dynamics365/finance/toc.json
-            - name: Oplossingen voor elektronische rapportage gebruiken in Finance and Operations
+                  href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
+            - name: ER-oplossingen gebruiken in Finance
               items:
                 - name: Het raamwerk configureren
                   items:
@@ -3775,6 +3883,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
                     - name: Bestemmingen configureren
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Actieafhankelijke bestemmingen configureren
+                      href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
                 - name: Een verwijzing naar een ER-indeling instellen
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Gegenereerde rapporten automatisch valideren
@@ -3811,10 +3921,12 @@
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/dynamics365/finance/toc.json
                 - name: API-wijzigingen
                   items:
-                    - name: Application update 7.3
+                    - name: Toepassingsupdate 7.3
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app73.md?toc=/dynamics365/finance/toc.json
-                    - name: Application update 10.0.11
+                    - name: Toepassingsupdate 10.0.11
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Toepassingsupdate 10.0.17
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
                 - name: Een aangepaste opslaglocatie opgeven voor gegenereerde documenten
                   items:
                     - name: Abonneren op een gebeurtenis om een reactie te vragen van een abonneehandler

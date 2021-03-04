@@ -1,5 +1,5 @@
 ---
-title: Startpagina voor Contanten en bankbeheer
+title: Startpagina van Contanten en bankbeheer
 description: U kunt Contanten en bankbeheer gebruiken voor het onderhouden van de bankrekeningen van de rechtspersoon en de financiële instrumenten die aan de bankrekeningen zijn gekoppeld.
 author: panolte
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 21941
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 88d7f70084d035354d199be95b5c55ce7afff7b7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f889a95884027eaa1c02794fd7258cd802942555
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458792"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985381"
 ---
-# <a name="cash-and-bank-management-home-page"></a>Startpagina voor Contanten en bankbeheer
+# <a name="cash-and-bank-management-home-page"></a>Startpagina van Contanten en bankbeheer
 
 [!include [banner](../includes/banner.md)]
 

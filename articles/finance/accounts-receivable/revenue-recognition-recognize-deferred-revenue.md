@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e70f2e6b3694002a11a831ac14039ccbee273a51
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458774"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115915"
 ---
 # <a name="recognize-deferred-revenue"></a>Uitgestelde opbrengst toerekenen
 
@@ -39,7 +38,7 @@ Er zijn twee manieren om toegang te krijgen tot de details van het schema voor o
 - U kunt het schema voor opbrengsttoerekening rechtstreeks vanuit een gefactureerde verkooporder openen. In dit geval wordt de informatie in het opbrengstschema gefilterd, zodat alleen de details voor de geselecteerde verkooporder worden weergegeven. Deze benadering is handig wanneer u de details van het schema voor een verkooporder wilt valideren.
 - U kunt het schema voor opbrengsttoerekening openen via de pagina **Opbrengsttoerekening \> Periodieke taken**. Deze benadering wordt vaak gebruikt wanneer de opbrengst wordt toegerekend aan het einde van een periode. Wanneer de pagina voor het eerst wordt geopend, bevat deze geen gegevens. Gebruik de filters boven het raster om criteria te definiëren voor de schemadetails die moeten worden weergegeven. U kunt filteren op de factuurdatums door een datumbereik, verkooporder, klant, project-id of staat in te voeren.
 
-[![Pagina met opbrengstschema's](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+[![Afbeelding van de pagina Opbrengstschema's](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
 
 Het sneltabblad **Financiële dimensie** onder het raster bevat de financiële dimensies van de verkooporderregel. Deze dimensies werden in aanmerking genomen toen er naar uitgestelde opbrengst werd geboekt. Ze worden ook in aanmerking genomen als de opbrengst wordt toegerekend. Welke dimensiewaarden worden gebruikt, is afhankelijk van de rekeningstructuur die is toegewezen aan de hoofdrekeningen voor de opbrengst en uitgestelde opbrengst.
 

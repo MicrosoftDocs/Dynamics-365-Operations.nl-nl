@@ -12,17 +12,17 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nieuwe of gewijzigde functies in Platform updates
               items:
-                - name: Startpagina van nieuwe of gewijzigde functies in Platform updates
+                - name: Startpagina van nieuwe of gewijzigde functies in Platform-updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform-updates voor 10.0.17 (april 2021)
+                  href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: Platform-updates voor 10.0.16 (februari 2021)
                   href: get-started/whats-new-platform-updates-10-0-16.md
                 - name: Platform-updates voor 10.0.15 (januari 2021)
                   href: get-started/whats-new-platform-updates-10-0-15.md
-                - name: Platform-updates voor 10.0.14 (november 2020)
-                  href: get-started/whats-new-platform-updates-10-0-14.md
             - name: Verwijderde of afgeschafte functies
               items:
-                - name: Verwijderde of afgeschafte platform-functies
+                - name: Verwijderde of afgeschafte Platform-functies
                   href: get-started/removed-deprecated-features-platform-updates.md
                 - name: Verwijderde of afgeschafte functies in eerdere releases
                   href: migration-upgrade/deprecated-features.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
@@ -122,9 +122,9 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: Records maken met recordsjablonen
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: Gegevensintegratie via Common Data Service
+                - name: Gegevensintegratie via Dataverse
                   items:
-                    - name: Overzicht van Gegevensintegratie via Common Data Service
+                    - name: Overzicht van Gegevensintegratie via Dataverse
                       href: data-entities/data-integration-cds.md
                     - name: Integratie van twee keer wegschrijven
                       items:
@@ -192,11 +192,11 @@
                                   href: data-entities/dual-write/sites-warehouses-mapping.md
                             - name: Bedrijfsintegratie
                               items:
-                                - name: Bedrijfsconcept in Common Data Services
+                                - name: Bedrijfsconcept in Dataverse
                                   href: data-entities/dual-write/company-data.md
-                                - name: Opstarten met bedrijfsgegevens
+                                - name: Bedrijfsgegevens initialiseren
                                   href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Organisatiehiërarchie van Common Data Service
+                            - name: Organisatiehiërarchie van Dataverse
                               href: data-entities/dual-write/organization-mapping.md
                             - name: Financiële en belastinggegevens
                               items:
@@ -206,10 +206,12 @@
                                   href: data-entities/dual-write/ledger-mapping.md
                                 - name: Model voor geïntegreerde belasting
                                   href: data-entities/dual-write/tax-mapping.md
+                            - name: Inkoop integreren in Supply Chain Management met Field Service
+                              href: data-entities/dual-write/scm-field-service-procurement.md
+                            - name: Op verzoek synchroniseren met de Supply Chain Management-prijsengine
+                              href: data-entities/dual-write/pricing-engine.md
                             - name: Prospect naar contant geld in twee keer wegschrijven
                               href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: Op verzoek synchroniseren met de Dynamics 365 Supply Chain Management-prijsengine
-                              href: data-entities/dual-write/pricing-engine.md
                             - name: Dynamics 365 Commerce-prijsengine gebruiken met Dynamics 365 Sales
                               href: data-entities/dual-write/commerce-pricing.md
                             - name: Interne activa voor onderhoudsbeurten
@@ -220,23 +222,25 @@
                               href: data-entities/dual-write/inventory-availability.md
                         - name: Ondersteuning voor twee keer wegschrijven
                           items:
-                            - name: Ondersteuning voor Field Service-oplossingen en oplossingen voor Project Service Automation
+                            - name: Ondersteuning voor Field Service- en Project Service Automation-oplossingen
                               href: data-entities/dual-write/field-service-project-service-automation.md
+                            - name: Gegevens van Prospect naar contant geld vanuit Data Integrator migreren naar twee keer wegschrijven
+                              href: data-entities/dual-write/migrate-prospect-to-cash.md
                             - name: Problemen oplossen
                               items:
-                                - name: Controleer of twee keer wegschrijven is geconfigureerd in Finance and Operations-apps en Common Data Service
+                                - name: Configuratie van twee keer wegschrijven in Finance and Operations-apps en Dataverse verifiëren
                                   href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                                 - name: Problemen tijdens de initiële instelling oplossen
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                                 - name: Problemen tijdens de initiële synchronisatie oplossen
                                   href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: Problemen met de module Twee keer wegschrijven in Finance and Operations-apps oplossen
+                                - name: Problemen met twee keer wegschrijven in Finance and Operations-apps oplossen
                                   href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                                 - name: Problemen met live synchronisatie oplossen
                                   href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
                                 - name: Problemen met betrekking tot inzicht in de oplossing oplossen
                                   href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: Problemen met betrekking tot upgrades van Finance and Operations-apps oplossen
+                                - name: Problemen met upgrades van Finance and Operations-apps oplossen
                                   href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                                 - name: Algemene probleemoplossing
                                   href: data-entities/dual-write/dual-write-troubleshooting.md
@@ -338,11 +342,15 @@
               items:
                 - name: Overzicht van Gegevensimport- en exporttaken
                   href: data-entities/data-import-export-job.md
-                - name: Best practices voor het importeren van boekstukken met behulp van de entiteit Algemeen journaal
+                - name: Datum en tijd in importtaken synchroniseren
+                  href: data-entities/data-synchronize-date-and-time.md
+                - name: Boekstukken importeren met de entiteit Algemeen journaal
                   href: data-entities/tips-tricks-import-general-journal-entity.md
+                - name: Gegevensmigratie optimaliseren voor Finance and Operations-apps
+                  href: sysadmin/optimize-data-migration.md
             - name: Ontwikkeling van gegevensentiteiten
               items:
-                - name: Richtlijnen en aanbevolen procedures voor gegevensentiteiten
+                - name: Ontwerpprincipes en aanbevolen procedures voor gegevensentiteiten
                   href: dev-tools/design-best-practices.md
                 - name: Nieuwe gegevensentiteiten maken
                   href: data-entities/build-consuming-data-entities.md
@@ -442,9 +450,11 @@
                       href: database/api/v1/reference-create-export.md
                     - name: Status van bewerkingsactiviteit ophalen
                       href: database/api/v1/reference-get-status.md
+                    - name: Omgevingen starten en stoppen
+                      href: database/api/v1/reference-start-stop-environments.md
         - name: Demogegevens
           items:
-            - name: Overzicht van Demogegevens
+            - name: Overzicht van demogegevens
               href: ../fin-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
             - name: Demogegevens genereren met pakketten
               href: data-entities/generate-demo-data-packages.md
@@ -808,63 +818,9 @@
                       href: dev-ref/xpp-string-run-time-functions.md
                 - name: Systeemtabellen
                   href: dev-ref/system-tables.md
-                - name: Systeemklassen
-                  items:
-                    - name: Lijst met systeemklassen
-                      href: dev-ref/system-classes/toc.yml
-                    - name: Alfabetisch gegroepeerde systeemklassen
-                      items:
-                        - name: A-klassen
-                          href: dev-ref/a-classes.md
-                        - name: B-klassen
-                          href: dev-ref/b-classes.md
-                        - name: C-klassen
-                          href: dev-ref/c-classes.md
-                        - name: D-klassen
-                          href: dev-ref/d-classes.md
-                        - name: E-klassen
-                          href: dev-ref/e-classes.md
-                        - name: F-klassen
-                          href: dev-ref/f-classes.md
-                        - name: G-klassen
-                          href: dev-ref/g-classes.md
-                        - name: H-klassen
-                          href: dev-ref/h-classes.md
-                        - name: I-klassen
-                          href: dev-ref/i-classes.md
-                        - name: J-klassen
-                          href: dev-ref/j-classes.md
-                        - name: K-klassen
-                          href: dev-ref/k-classes.md
-                        - name: L-klassen
-                          href: dev-ref/l-classes.md
-                        - name: M-klassen
-                          href: dev-ref/m-classes.md
-                        - name: N-klassen
-                          href: dev-ref/n-classes.md
-                        - name: O-klassen
-                          href: dev-ref/o-classes.md
-                        - name: P-klassen
-                          href: dev-ref/p-classes.md
-                        - name: Q-klassen
-                          href: dev-ref/q-classes.md
-                        - name: R-klassen
-                          href: dev-ref/r-classes.md
-                        - name: S-klassen
-                          href: dev-ref/s-classes.md
-                        - name: T-klassen
-                          href: dev-ref/t-classes.md
-                        - name: U-klassen
-                          href: dev-ref/u-classes.md
-                        - name: V-klassen
-                          href: dev-ref/v-classes.md
-                        - name: W-klassen
-                          href: dev-ref/w-classes.md
-                        - name: X-klassen
-                          href: dev-ref/x-classes.md
             - name: Uitbreidbaarheid
               items:
-                - name: Startpagina voor Uitbreidbaarheid
+                - name: Startpagina voor uitbreidbaarheid
                   href: extensibility/extensibility-home-page.md
                 - name: Inleiding en aan de slag
                   items:
@@ -1004,11 +960,11 @@
                   href: perf-test/trace-trace-tutorial.md
                 - name: Testen met één gebruiker met Taakrecorder en de Performance SDK
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Testen met meerdere gebruikers met de Performance SDK en een lokale testcontroller
+                - name: Performance SDK voor meerdere gebruikers testen met een lokale testcontroller
                   href: perf-test/multi-user-testing-local-test-controller.md
                 - name: Testen met meerdere gebruikers met Performance SDK en Azure DevOps
                   href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: Probleemoplossing voor testen met één of meerdere gebruikers met de Performance SDK
+                - name: Probleemoplossing voor testen met de Performance SDK
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Performance SDK en testen met meerdere gebruikers in on-premises omgevingen
                   href: perf-test/perfsdk-tutorial-lbd.md
@@ -1022,7 +978,7 @@
                   href: perf-test/testing-validation.md
                 - name: Testprojecten in Visual Studio
                   href: perf-test/testing-support.md
-                - name: Omgevingen implementeren die continue build- en testautomatisering ondersteunen
+                - name: Een omgeving voor continue build- en testautomatisering implementeren en gebruiken
                   href: perf-test/continuous-build-test-automation.md
                 - name: SysTest-filtering met klasse- en methodekenmerken
                   href: perf-test/systest-filtering.md
@@ -1172,11 +1128,13 @@
           items:
             - name: Integratie van Microsoft Power Platform met Finance and Operations
               href: power-platform/overview.md
+            - name: Overzicht van invoegtoepassingen
+              href: power-platform/add-ins-overview.md
             - name: Entiteitsmodellen
               href: power-platform/entity-modeling.md
             - name: Levenscyclusbeheer voor toepassing
               href: power-platform/application-lifecycle-management.md
-            - name: Beheerdersreferentie voor Finance and Operations en Common Data Service
+            - name: Beheerdersreferentie voor Finance and Operations en Dataverse
               href: power-platform/admin-reference.md
             - name: Power Apps-portals met Finance and Operations
               href: power-platform/power-portal-reference.md
@@ -1420,8 +1378,8 @@
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Afgeleide testcases
               href: perf-test/rsat/rsat-derived-test-cases.md
-            - name: De zelfstudie en andere functies voor Regression Suite Automation Tool gebruiken
-              href: ../fin-ops/get-started/hol-use-regression-suite-automation-tool.md
+            - name: Zelfstudie voor Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-tutorial.md
             - name: Best practices
               href: perf-test/rsat/rsat-best-practices.md
             - name: Gegevensonafhankelijk testen met Regression Suite Automation Tool
@@ -1467,7 +1425,7 @@
             - name: Ondersteuning krijgen voor Finance and Operations en Lifecycle Services
               href: lifecycle-services/lcs-support.md
             - name: Overzicht van Dynamics 365-ondersteuning
-              href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json'
+              href: /power-platform/admin/support-overview?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
             - name: Ondersteuning krijgen voor Finance and Operations geëxploiteerd door 21Vianet in China
               href: lifecycle-services/21vianet-support.md
             - name: Technische ondersteuning instellen voor Finance and Operations-apps
@@ -1506,6 +1464,8 @@
                   href: sysadmin/tasks/create-new-users.md
                 - name: Beheer van gebruikerssessies
                   href: sysadmin/user-session-management.md
+                - name: Toegang per locatie blokkeren met Voorwaardelijke toegang van Azure AD
+                  href: /power-platform/admin/restrict-access-online-trusted-ip-rules?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json&bc=/dynamics365/breadcrumb/toc.json
                 - name: Gebruikers bulksgewijs importeren
                   href: sysadmin/tasks/import-bulk-users.md
                 - name: Scheiding van taken instellen
@@ -1524,6 +1484,8 @@
                   href: sysadmin/create-simple-security-policy.md
             - name: Blijven voldoen aan de licentievereisten voor gebruikers
               href: sysadmin/stay-compliant-user-license-requirement.md
+            - name: Licentiestatus van onafhankelijke softwareleverancier weergeven
+              href: sysadmin/view-isv-license-status.md
             - name: Procesautomatisering
               href: sysadmin/process-automation.md
             - name: Batchverwerking
@@ -1542,15 +1504,13 @@
                   href: sysadmin/batch-active-period-dst.md
                 - name: Beveiligingsrol batchbeheerder
                   href: sysadmin/runby.md
-                - name: Batchtaak voor het verwerken van defragmentatie SQL-index
-                  href: sysadmin/batch-job-SQL-defragmentation.md
                 - name: Batchwaarschuwingen configureren
                   href: sysadmin/alerts.md
                 - name: Verbeterde batchformulieren
                   href: sysadmin/enhanced-forms.md
                 - name: Batchtaakhistorie opschonen
                   href: sysadmin/batch-history-cleanup.md
-                - name: Een uitvoerende batchtaak afbreken
+                - name: Een uitvoerende batchtaak annuleren
                   href: sysadmin/batch-abort.md
             - name: Optimalisatie-advies
               items:

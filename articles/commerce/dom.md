@@ -3,14 +3,13 @@ title: Gedistribueerd orderbeheer
 description: In dit onderwerp wordt de functionaliteit voor gedistribueerd orderbeheer in Dynamics 365 Commerce beschreven.
 author: josaw1
 manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 01/08/2021
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a83bd6e997110d107bac836abf237f99db78d99
-ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
+ms.openlocfilehash: 367eaebfdd59d15040bfd4824b0b6f4621cb7147
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4458797"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982586"
 ---
 # <a name="distributed-order-management-dom"></a>Gedistribueerd orderbeheer
 
@@ -49,8 +48,12 @@ In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-
     - **Gedistribueerd orderbeheer inschakelen**: stel deze optie in op **Ja**.
     - **Gebruik van Bing Kaarten voor DOM bevestigen**: stel deze optie in op **Ja**.
 
+
         > [!NOTE]
-        > U kunt deze optie alleen op **Ja** instellen als de optie **Bing Kaarten inschakelen** op het tabblad **Bing Kaarten** van de pagina **Gedeelde parameters commerce** (**Retail en Commerce \> Instelling van hoofdkantoor \> Parameters \> Gedeelde parameters commerce**) ook is ingesteld op **Ja** en als een geldige sleutel is opgegeven in het veld **Bing Kaarten-sleutel**.
+        > U kunt deze optie alleen op **Ja** instellen als de optie **Bing Kaarten inschakelen** op het tabblad **Bing Kaarten** van de pagina **Gedeelde handelparameters** (**Retail en Commerce \> Instelling van hoofdkantoor \> Parameters \> Gedeelde handelparameters**) ook is ingesteld op **Ja** en als een geldige sleutel is opgegeven in het veld **Bing Kaarten-sleutel**.
+        >
+        > Via de portal [Bing Maps Dev Center](https://www.bingmapsportal.com/) kunt u de toegang tot uw API-sleutels voor Bing Kaarten beperken tot een door u opgegeven set domeinen. Met deze functie kunnen klanten een beperkende verzameling verwijzende waarden of IP-adresbereiken opgeven op basis waarvan de sleutel wordt gevalideerd. Aanvragen die afkomstig zijn van waarden of IP-adressen uit uw lijst met toegestane waarden of IP-adressen worden op de normale manier verwerkt terwijl voor overige aanvragen de toegang wordt geweigerd. Het toevoegen van domeinbeveiliging aan uw API-sleutel is optioneel en sleutels waarvoor u dit niet doet, blijven gewoon functioneren. De toegestane lijst voor een sleutel is onafhankelijk van al uw andere sleutels, zodat u verschillende regels voor elk van uw sleutels kunt gebruiken. Gedistribueerd orderbeheer biedt geen ondersteuning voor het instellen van eigenschappen voor domeinverwijzing.
+
 
     - **Bewaarperiode in dagen**: geef op hoe lang de door het DOM-systeem gegenereerde afhandelingsplannen in het systeem moeten worden bewaard. Met de batchtaak **Instelling van taak voor verwijdering van DOM-afhandelingsgegevens** worden de afhandelingsplannen verwijderd die ouder zijn dan het aantal dagen dat u hier opgeeft.
     - **Afwijzingsperiode (in dagen)**: geef op hoeveel tijd moet verstrijken voordat een afgewezen orderregel aan dezelfde locatie kan worden toegewezen.
@@ -62,14 +65,15 @@ In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-
     - **Type oplossing**: selecteer een waarde. In Commerce zijn twee typen oplossingen beschikbaar: **Productieoplossing** en **Vereenvoudigde oplossing**. Voor alle machines waarop een DOM-systeem wordt uitgevoerd (alle servers die deel uitmaken van de groep DOMBatch), moet **Productieoplossing** zijn geselecteerd. Voor de productieoplossing is de speciale licentiesleutel vereist die standaard in licentie wordt gegeven en wordt geïmplementeerd in productieomgevingen. Voor niet-productieomgevingen moet deze licentiesleutel handmatig worden geïmplementeerd. Ga als volgt te werk om de licentiesleutel handmatig te implementeren:
 
         1. Open de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services, selecteer **Model** als activatype en download het bestand met de **DOM-licentie**.
-        2. Start Microsoft Internet Information Services (IIS) Manager, klik met de rechtermuisknop op **AOSService-website** en selecteer **Verkennen**. Windows Verkenner wordt geopend met **\<AOS service root\>\\webroot**. Noteer of onthoud het pad naar \<AOS Service root\>. U gebruikt dit pad in de volgende stap.
-        3. Kopieer het configuratiebestand in de map **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
-        4. Ga naar de Headquarters-client en open de pagina **DOM-parameters**. Selecteer op het tabblad **Oplossing** in het veld **Type oplossing** de optie **Productieoplossing** en controleer of er geen foutberichten worden weergegeven.
+        1. Start Microsoft Internet Information Services (IIS) Manager, klik met de rechtermuisknop op **AOSService-website** en selecteer **Verkennen**. Windows Verkenner wordt geopend met **\<AOS service root\>\\webroot**. Noteer of onthoud het pad naar \<AOS Service root\>. U gebruikt dit pad in de volgende stap.
+        1. Kopieer het configuratiebestand in de map **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
+        1. Ga naar de Headquarters-client en open de pagina **DOM-parameters**. Selecteer op het tabblad **Oplossing** in het veld **Type oplossing** de optie **Productieoplossing** en controleer of er geen foutberichten worden weergegeven.
+
 
         > [!NOTE]
         > De optie Vereenvoudigde oplossing is beschikbaar om detailhandelaren in staat te stellen de DOM-functie uit te proberen zonder de speciale licentie te hoeven implementeren. Organisaties moeten de optie Vereenvoudigde oplossing niet gebruiken in productieomgevingen.
         >
-        > Hoewel Vereenvoudigde oplossing dezelfde verzameling mogelijkheden biedt als Productieoplossing, gelden er wel enkele beperkingen met betrekking tot prestaties (het aantal orders en orderregels dat per keer kan worden verwerkt) en de convergentie van resultaten (een batch orders levert mogelijk niet het beste resultaat op in sommige scenario's).
+        > Vereenvoudigde oplossing verbetert de prestaties (bijvoorbeeld het aantal orders en orderregels dat per keer kan worden verwerkt) en de convergentie van resultaten (aangezien een batch orders mogelijk niet het beste resultaat oplevert in sommige scenario's). Voor sommige regels, zoals de regel voor **gedeeltelijke orders** en het **maximale aantal locaties**, is Productieoplossing vereist.
      
 6. Ga terug naar **Retail en Commerce \> Gedistribueerd orderbeheer \> Instellingen \> DOM-parameters**.
 7. Wijs op het tabblad **Nummerreeksen** het vereiste aantal nummerreeksen toe aan de verschillende DOM-entiteiten.
@@ -121,7 +125,7 @@ In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-
         \* Als **Gedeeltelijke orders vervullen** is ingesteld op **Nee**, wordt er altijd van uitgegaan dat **Gedeeltelijke regels vervullen** ook is ingesteld op **Nee**, ook als dit niet het geval is.
 
         > [!NOTE]
-        > In Retail versie 10.0.5 is de parameter **Order afhandelen vanaf slechts één locatie** gewijzigd in **Maximum afhandelingslocaties**. In plaats van een gebruiker in staat te stellen om te bepalen of orders alleen kunnen worden afgehandeld vanuit één locatie of vanuit zoveel locaties als mogelijk is, kunnen gebruikers nu opgeven of het afhandelen kan worden uitgevoerd vanuit een bepaalde set locaties (maximaal 5) of vanuit zoveel locaties als mogelijk is. Dit biedt meer flexibiliteit als het gaat om het aantal locaties waar de order kan worden afgehandeld.
+        > In Retail versie 10.0.5 is de parameter **Order afhandelen vanaf slechts één locatie** gewijzigd in **Maximum afhandelingslocaties**. In plaats van een gebruiker in staat te stellen om te bepalen of orders alleen kunnen worden afgehandeld vanuit één locatie of vanuit zoveel locaties als mogelijk is, kunnen gebruikers nu opgeven of het afhandelen kan worden uitgevoerd vanuit een bepaalde set locaties (maximaal 5) of vanuit zoveel locaties als mogelijk is. Dit biedt meer flexibiliteit als het gaat om het aantal locaties waar de order kan worden afgehandeld. Deze regel werkt alleen met Productieoplossing. 
 
    - **Regel voor offline afhandelingslocatie**: met deze regel kunnen organisaties een locatie of groep locaties als offline of niet beschikbaar instellen voor DOM, zodat orders niet aan die locaties kunnen worden toegewezen voor afhandeling.
     - **Regel voor maximale afwijzingen**: met deze regel kunnen organisaties een drempelwaarde voor afwijzingen opgeven. Wanneer de drempelwaarde wordt bereikt, wordt een order of orderregel door de DOM-processor als uitzondering gemarkeerd en wordt deze uitgesloten van verdere verwerking.

@@ -1,6 +1,6 @@
 ---
 title: Startpagina van Openbare sector
-description: Microsoft Dynamics 365 Finance kan worden gebruikt voor bedrijfsprocessen die zowel in de publieke als de particuliere sector worden gebruikt, zoals taken met betrekking tot budgettering, inkoop, leveranciers en klanten.
+description: Dynamics 365 Finance ondersteunt algemene bedrijfsprocessen voor de openbare sector. Deze taken zijn bijvoorbeeld taken op het gebied van budgettering, inkopen, leveranciers en klanten.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SysConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 20691
 ms.assetid: 391a6899-7011-40bc-b54b-5665b06bcecb
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Public sector
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4a3722cf286909c83b5154137c86508929a2691
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 23dbc61d72775c8ea642b0ec4026637e1f8958e1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458745"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984679"
 ---
 # <a name="public-sector-home-page"></a>Startpagina van Openbare sector
 
@@ -60,9 +59,8 @@ Met de configuratiesleutel **Openbare sector** worden pagina's en besturingselem
 ## <a name="how-does-the-public-sector-configuration-key-relate-to-other-configuration-keys"></a>Hoe verhoudt de configuratiesleutel Openbare sector zich tot andere configuratiesleutels?
 De volgende tabel bevat informatie over de relatie van deze configuratiesleutel tot andere configuratiesleutels.
 
-|            |                                                                                                                                                                                                                     |
+|   **Details**         |              **Beschrijving**                                                                                                                                                                                        |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Details** | **Beschrijving**                                                                                                                                                                                                     |
 | Bovenliggende sleutel | Geen                                                                                                                                                                                                                |
 | Onderliggende sleutels | De configuratiesleutels **Geavanceerde grootboekpost** (AdvancedLedgerEntry), **Publieke sector 1099G** (Tax1099G), **Publieke sector 1099S** (Tax1099S) en **Franse regelgeving** |
 
