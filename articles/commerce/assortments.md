@@ -10,17 +10,16 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 981d1c604a7ed461f207e78c8c7f073aff03be9e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411303"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979993"
 ---
 # <a name="assortment-management"></a>Assortimentsbeheer
 
@@ -107,6 +106,3 @@ Overweeg de volgende vereisten voor de uitvoering als u assortimenten voor uw Co
 - **Verkopen en retouren buiten assortimenten**: met deze mogelijkheid kunnen detailhandelaren hun assortimenten effectief beheren, doordat ze het aantal beschikbare producten beperken tot producten die tot de kernproductmix voor de winkel behoren. Hierdoor kunnen detailhandelaren ook situaties verwerken waarin een product per ongeluk is weggelaten uit een assortiment of waarin een product buiten de ingangsdatums voor het assortiment is geretourneerd.
 
 Als productgegevens niet bestaan in de kanaaldatabase, start het POS realtime oproepen naar het hoofkantoor om de vereiste informatie op te halen, zodat het product kan worden verkocht, geretourneerd of op een bestelling kan worden geplaatst. Productgegevens die op deze manier worden opgehaald, zijn alleen beschikbaar tijdens het bereik van deze transactie. Het product wordt niet toegevoegd aan de assortimentdefinitie. Daarom worden volgende realtime aanroepen gestart indien vereist.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a6c4b7103874a6d955b21e99b8e219a039d4b55
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 02511fea05cb1dfde17b1b8acaac97dcc136c062
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425165"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981245"
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a>Een kanbanregel maken met een kanbanregelgebeurtenis
 
@@ -69,6 +68,3 @@ Met deze procedure wordt een kanbanregel gemaakt door de instelling voor kanbanr
     * Merk op dat een kanban voor 27 is gemaakt om de activiteit te verwerken die is gebaseerd op de gemaakte kanbanregel.  
     * Dit is de laatste stap.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

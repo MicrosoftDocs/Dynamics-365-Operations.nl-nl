@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb3b505af826b1881aa8245fff66e6f05ad7486a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411306"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979670"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Coupons voor detailhandelverkoop instellen
 
@@ -82,6 +81,3 @@ De couponfunctionaliteit omvat meerdere afzonderlijke functies. Commerce Headqua
 - **HQ wordt gedeeltelijk bijgewerkt, maar Commerce Scale Unit en POS worden niet bijgewerkt.** In een HQ-update worden de pagina's Coupon en Korting bijgewerkt en de Commerce-prijsengine wordt ook bijgewerkt. Als slechts een van deze twee onderdelen wordt bijgewerkt, komen sommige pagina's in Commerce niet overeen met de gegevens voor prijsberekening. Daardoor kunnen onverwachte kortingsberekeningen of -fouten optreden tijdens het berekenen van kortingen.
 - **HQ wordt bijgewerkt, maar Commerce Scale Unit en POS worden niet bijgewerkt (N-1).** Omdat niet alle winkels tegelijkertijd kunnen worden bijgewerkt, wordt aangeraden om HQ bij te werken voordat u de winkels bijwerkt. In het scenario N-1 is nieuwe functionaliteit die is gerelateerd aan coupons niet beschikbaar in winkels die nog niet zijn bijgewerkt. De couponfunctionaliteit kan bijvoorbeeld uitsluitingsregels introduceren. Als u uitsluitingsregels gebruikt bij een korting, worden deze niet toegepast in een winkel die een oudere versie uitvoert.
 - **HQ wordt niet bijgewerkt, maar Commerce Scale Unit en POS worden wel bijgewerkt (N+1).** Omdat de bijgewerkte prijsengine in Commerce Scale Unit oudere kortingscodes kan verwerken tijdens prijsberekeningen, zou de update geen functionele invloed moeten hebben in dit scenario.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

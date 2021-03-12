@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 57841
 ms.assetid: e530dd8e-95e2-4021-90bd-ce1235f9e250
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ab6b01d6833850af8c04167d94b0a60c7312075c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a66590f18df04d2be0500b7fb1ab183cf64718e8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411481"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979748"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Ontvangstbewijsindelingen instellen en ontwerpen
 
@@ -46,6 +45,10 @@ In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te be
     - **Niet afdrukken** – Het ontvangstbewijs wordt niet afgedrukt.
     - **Vragen aan gebruiker** - De gebruiker wordt gevraagd het ontvangstbewijs af te drukken.
     - **Zoals vereist** - Deze optie wordt alleen gebruikt voor giftontvangsten. Wanneer deze optie is geselecteerd, kan de gebruiker een ontvangstbewijs van een geschenk afdrukken vanaf de pagina, **Wijzigen**, als een ontvangstbewijs van geschenk is vereist.
+
+## <a name="print-images"></a>Afbeeldingen afdrukken
+
+De functie voor het ontwerpen van ontvangstbewijzen bevat een variabele **Logo** waarmee afbeeldingen kunnen worden opgegeven die moeten worden afgedrukt op het ontvangstbewijs. Afbeeldingen die zijn opgenomen in ontvangstbewijzen met de variabele **Logo**, moeten van het bestandstype monochrome bitmap (.bmp) zijn. Als een BMP-afbeelding wordt opgegeven in de functie voor het ontwerpen van ontvangstbewijzen, maar deze niet wordt afgedrukt als deze naar de printer wordt verzonden, is het bestand mogelijk te groot of zijn de dimensies op de afbeelding niet compatibel met de printer. Als dit gebeurt, kunt u proberen de resolutie van het afbeeldingsbestand te verlagen.   
 
 ## <a name="design-a-receipt-format"></a>Een ontvangstbewijsindeling ontwerpen
 
@@ -82,6 +85,3 @@ De ontvangstprofielen worden direct toegewezen aan printers via het hardwareprof
 
 > [!NOTE]
 > Als twee printers worden gebruikt, kan één printer worden gebruikt om standaard 40 kolom thermische ontvangstbewijzen af te drukken. De tweede printer wordt meestal gebruikt voor het afdrukken van ontvangsttypen van een hele pagina die meer informatie vereisen. Deze ontvangsttypen omvatten de ontvangsten van klantorders en klantfacturen.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

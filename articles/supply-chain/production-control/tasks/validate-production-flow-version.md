@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c30947d01cfb85ea3dbf1aa3e4ea8e092efd18cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3cc8465fb56239f91982db15601cf87e3c00d3fd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425542"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980951"
 ---
 # <a name="validate-a-production-flow-and-version"></a>Een productiestroom en -versie valideren
 
@@ -64,6 +63,3 @@ Deze procedure toont aan hoe u een nieuwe productiestroom en een eerste versie v
     * De periode voor de werkelijke cyclustijd is het aantal dagen dat taken worden samengevoegd vanaf de werkelijke minuut achterwaarts om de werkelijke cyclustijd te berekenen. De waarde kan altijd worden gewijzigd en wordt alleen gebruikt voor de berekening van de werkelijke cyclustijden.  
 13. Klik op Opslaan.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

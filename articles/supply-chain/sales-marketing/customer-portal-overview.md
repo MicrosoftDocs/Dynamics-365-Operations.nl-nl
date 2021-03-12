@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 86d9a40d991e915d3529e0c330f7559d8e7ce9ea
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 25b1962af182fc2749fcd6ec0035613d8365deb1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529573"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980801"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Overzicht van klantportal voor Dynamics 365 Supply Chain Management
 
@@ -64,11 +63,8 @@ De klantportal wordt geleverd als Power Apps-portalsjabloon. Deze hangt af van P
 
 [Power Apps-portals](https://docs.microsoft.com/powerapps/maker/portals/overview) is een functie waarmee gebruikers een extern gerichte website kunnen maken waarbij mensen van buiten de organisatie zich kunnen aanmelden. Er is weinig tot geen codering nodig om portals te maken. De klantportal is een van de vele [Dynamics 365-portalsjablonen](https://docs.microsoft.com/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) die Microsoft beschikbaar stelt.
 
-[Twee keer wegschrijven](https://docs.microsoft.com/powerapps/maker/portals/overview) is een kant-en-klaar infrastructuurproduct dat vrijwel realtime-interactie biedt tussen modelgestuurde apps in Dynamics 365 en Finance and Operations-apps. Twee keer wegschrijven biedt bidirectionele integratie tussen Finance and Operations-apps en Common Data Service. Daarom geeft dit een geïntegreerde gebruikerservaring over de apps heen. De klantportal is afhankelijk van entiteiten die met twee keer wegschrijven worden gesynchroniseerd. Voordat gegevens van Supply Chain Management kunnen worden afgelezen in de klantportal, moet twee keer wegschrijven zijn ingeschakeld voor alle relevante entiteiten.
+[Twee keer wegschrijven](https://docs.microsoft.com/powerapps/maker/portals/overview) is een kant-en-klaar infrastructuurproduct dat near-realtime interactie biedt tussen Customer Engagement- en Finance and Operations-apps. Twee keer wegschrijven biedt bidirectionele integratie tussen Finance and Operations-apps en Microsoft Dataverse. Daarom geeft dit een geïntegreerde gebruikerservaring over de apps heen. De klantportal is afhankelijk van tabellen die met twee keer wegschrijven worden gesynchroniseerd. Voordat gegevens van Supply Chain Management kunnen worden afgelezen in de klantportal, moet twee keer wegschrijven zijn ingeschakeld voor alle relevante tabellen.
 
 ![Afhankelijkheden van klantportal](media/customer-portal-elements.png "Afhankelijkheden van klantportal")
 
 De klantportal fungeert als uitgangspunt voor organisaties die Power Apps-portals willen gebruiken om een extern gerichte website te maken die gegevens uit hun Supply Chain Management-installatie gebruikt. Het helpt organisaties om twee keer wegschrijven, Supply Chain Management en Power Apps-portals te koppelen.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

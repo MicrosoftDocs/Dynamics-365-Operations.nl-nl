@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c2d0f671d4b824cb5d38a5d11c4b06b2e97bd0c8
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f1790366cebf317472bc1ef9a5ecd2a19fe755d3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528240"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980826"
 ---
 # <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-supply-chain-management"></a>Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in Supply Chain Management
 
@@ -55,23 +54,23 @@ De volgende synchronisatietaak is vereist voordat de synchronisatie van de overe
 
 | Field Service  | Supply Chain Management                 |
 |----------------|----------------------------------------|
-| facturen       | Kopteksten voor vrije-tekstfacturen van CDS-klanten |
-| factuurdetails | Regels voor vrije-tekstfacturen van CDS-klanten   |
+| facturen       | Dataverse-kopteksten voor vrije-tekstfacturen van klanten |
+| factuurdetails | Dataverse-regels voor vrije-tekstfacturen van klanten   |
 
 ## <a name="entity-flow"></a>Entiteitstroom
 
-Facturen die zijn gemaakt op basis van een overeenkomst in Field Service kunnen worden gesynchroniseerd met Supply Chain Management via een Common Data Service-gegevensintegratieproject. Updates voor deze facturen worden gesynchroniseerd met de vrije-tekstfacturen in Supply Chain Management als de boekhoudstatus van de vrije-tekstfacturen **Onderhanden** is. Nadat de vrije-tekstfacturen zijn geboekt in Supply Chain Management en de boekhoudstatus is bijgewerkt naar **Voltooid**, kunt u de updates van Field Service niet meer synchroniseren.
+Facturen die zijn gemaakt op basis van een overeenkomst in Field Service kunnen worden gesynchroniseerd met Supply Chain Management via een Microsoft Dataverse-gegevensintegratieproject. Updates voor deze facturen worden gesynchroniseerd met de vrije-tekstfacturen in Supply Chain Management als de boekhoudstatus van de vrije-tekstfacturen **Onderhanden** is. Nadat de vrije-tekstfacturen zijn geboekt in Supply Chain Management en de boekhoudstatus is bijgewerkt naar **Voltooid**, kunt u de updates van Field Service niet meer synchroniseren.
 
 ## <a name="field-service-crm-solution"></a>Field Service CRM-oplossing
 
-Het veld **Heeft regels met oorsprong overeenkomst** is toegevoegd aan de entiteit **Factuur**. Dit veld zorgt ervoor dat alleen facturen die zijn gemaakt op basis van een overeenkomst, worden gesynchroniseerd. De waarde is **true** als de factuur ten minste één factuurregel bevat die afkomstig is van een overeenkomst.
+De kolom **Heeft regels met oorsprong overeenkomst** is toegevoegd aan de tabel **Factuur**. Deze kolom zorgt ervoor dat alleen facturen die zijn gemaakt op basis van een overeenkomst, worden gesynchroniseerd. De waarde is **true** als de factuur ten minste één factuurregel bevat die afkomstig is van een overeenkomst.
 
-Het veld **Heeft oorsprong overeenkomst** is toegevoegd aan de entiteit **Factuurregel**. Dit veld zorgt ervoor dat alleen factuurregels die zijn gemaakt op basis van een overeenkomst, worden gesynchroniseerd. De waarde **true** als de factuurregel afkomstig is uit een overeenkomst.
+De kolom **Heeft oorsprong overeenkomst** is toegevoegd aan de tabel **Factuurregel**. Deze kolom zorgt ervoor dat alleen factuurregels die zijn gemaakt op basis van een overeenkomst, worden gesynchroniseerd. De waarde **true** als de factuurregel afkomstig is uit een overeenkomst.
 
-**Factuurdatum** is een verplicht veld in Supply Chain Management. Het veld moet daarom een waarde in Field Service hebben voordat de synchronisatie wordt uitgevoerd. Om te voldoen aan deze vereiste wordt de volgende logica toegevoegd:
+**Factuurdatum** is een verplicht veld in Supply Chain Management. De kolom moet daarom een waarde in Field Service hebben voordat de synchronisatie wordt uitgevoerd. Om te voldoen aan deze vereiste wordt de volgende logica toegevoegd:
 
-- Als het veld **Factuurdatum** leeg is op de entiteit **Factuur** (dat wil zeggen er is geen waarde), wordt deze ingesteld op de huidige datum wanneer een factuurregel afkomstig uit een overeenkomst wordt toegevoegd.
-- De gebruiker kan het veld **Factuurdatum** wijzigen. Wanneer de gebruiker een factuur wil opslaan die afkomstig is uit een overeenkomst, verschijnt een bedrijfsprocesfout als het veld **Factuurdatum** leeg is op de factuur.
+- Als de kolom **Factuurdatum** leeg is in de tabel **Factuur** (dat wil zeggen er is geen waarde), wordt deze ingesteld op de huidige datum wanneer een factuurregel afkomstig uit een overeenkomst wordt toegevoegd.
+- De gebruiker kan de kolom **Factuurdatum** wijzigen. Wanneer de gebruiker een factuur wil opslaan die afkomstig is uit een overeenkomst, verschijnt een bedrijfsprocesfout als de kolom **Factuurdatum** leeg is op de factuur.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Vereisten en instellingen voor toewijzing
 
@@ -108,6 +107,3 @@ In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Overeenkomstfacturen (Field Service naar Supply Chain Management): Factuurregels
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-07-06
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: ba2f9d69295f9f5cfb4a2a791be781de32b50f46
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5a6a29b180564dc4e4dd768b9e4b97c8877ce00c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441915"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979582"
 ---
 # <a name="project-invoicing"></a>Projectfacturering
 
@@ -75,7 +74,7 @@ Als uw organisatie vereist dat factuurvoorstellen worden gecontroleerd voordat z
 
 ### <a name="view-grant-information-on-project-invoice-list-pages"></a>Subsidiegegevens weergeven op de projectfactuurlijstpagina's
 
-Gebruikers in de publieke sector kunnen de **subsidie-id** en de **subsidienaam** toevoegen aan de lijstpagina's **Projectfactuurvoorstellen** en **Projectfacturen**. Deze kolommen worden ingeschakeld met de functie **Subsidiegegevens toevoegen aan lijstpagina's met projectfacturen**. Deze functie is standaard uitgeschakeld en kan worden ingeschakeld in **Werkgebieden > Functiebeheer**. Neem contact op met uw systeembeheerder voor hulp bij het inschakelen van deze functie.
+Gebruikers in de publieke sector kunnen de **subsidie-id** en de **subsidienaam** toevoegen aan de lijstpagina's **Projectfactuurvoorstellen** en **Projectfacturen**. Deze kolommen worden ingeschakeld met de functie **Subsidiegegevens toevoegen aan lijstpagina's met projectfacturen**. Deze functie is standaard uitgeschakeld en kan worden ingeschakeld in **Werkgebieden > Functiebeheer**. Neem contact op met uw systeembeheerder voor hulp bij het inschakelen van deze functie.
 
 ## <a name="on-account-invoicing"></a>Facturering op rekening
 Het bedrag dat u op een a conto-factuur invoert voor een project, hangt af van de uren, het voltooiingspercentage en andere factuurvoorwaarden die in het bijbehorende projectcontract zijn gespecificeerd. Het bedrag wordt niet berekend op basis van de uren, artikelen, kosten of toeslagen die voor een project worden geboekt. 
@@ -132,6 +131,3 @@ U kunt een klantfactuur met een negatieve waarde maken. Dit wordt een factuur di
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

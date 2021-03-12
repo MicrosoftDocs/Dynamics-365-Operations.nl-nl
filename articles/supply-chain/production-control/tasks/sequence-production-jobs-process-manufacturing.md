@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage, PMFSeqReqRoute, PMFSeqReqRouteChanges, PMFSeqReqSchedDetailsFactBox, PMFSequenceGroup, PMFSequenceItemTable, PMFSequenceTable, PmfSeqWrkCtrCapRes
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: db2c881f60b6e5251e2bcdf198da9e1c9f39a0e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e22c767a3de8fd937d9032a5bf285dfb4ced3d55
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425401"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981051"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Volgorde voor productietaken bepalen voor procesfabricage
 
@@ -71,6 +70,3 @@ In deze procedure worden als voorbeeld verfproducten gebruikt om aan te geven ho
 8. Gebruik het snelfilter om te filteren op het veld Artikelnummer met de waarde 'P300'.
     * De orders worden nu geordend op basis van de prioriteit van grootte en kleur en het begin van de geplande orders op de vroegste orderdatum en leveringsdatum. Valideer de kolom Orderdatum of de begindatum in het feitenvak Schemadetails.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

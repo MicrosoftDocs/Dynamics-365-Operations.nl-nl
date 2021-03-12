@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: OMHierarchyManager, EcoResCategoryHierarchyFactbox
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 15851
 ms.assetid: dfa11d41-2a0c-4cde-99b6-058c49176c94
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8f7e4d01970f459f66934fe434ec7307104b39b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 94b391ab5028f76debb75d25ac9469e25361cb12
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411470"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979611"
 ---
 # <a name="commerce-hierarchies"></a>Commerce-hiërarchieën
 
@@ -45,6 +44,3 @@ In de volgende tabel worden de beschikbare typen categoriehiërarchieën en het 
 | Navigatiehiërarchie   | Gebruik dit hiërarchietype om producten te groeperen en organiseren in categorieën zodat u online of in POS in producten kunt bladeren. |
 
 U kunt gebruikmaken van een categoriehiërarchie voor het structureren van uw producten, zodat u productkenmerken en -eigenschappen kunt instellen en onderhouden op het categorieniveau. Deze kenmerken en eigenschappen omvatten instellingen voor productdimensies en POS-instellingen. Alle producten die u aan de categorieën toewijst, nemen de kenmerken en eigenschappen die u definieert automatisch over. Het is ook mogelijk om de eigenschapinstellingen van een product naar meerdere producten tegelijk in een geselecteerde categorie te kopiëren.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
