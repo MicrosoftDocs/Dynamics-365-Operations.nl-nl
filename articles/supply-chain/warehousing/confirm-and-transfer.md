@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ccfbe30e9d4a0fc4580c7036d222bfca9203a21
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425210"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996321"
 ---
 # <a name="confirm-and-transfer"></a>Bevestigen en overboeken
 
@@ -230,6 +229,3 @@ U kunt ook op de volgende manieren bevestigen dat transactierelaties zijn bijgew
 - De optie **Hoeveelheid splitsen voor nieuwe lading** werkt ook wanneer enkele van de resterende werkkopteksten de status *Onderhanden* hebben. U kunt de functionaliteit dus nog steeds gebruiken als werknemers de verzamelingsorders uitvoeren.
 - Als u **Niet-afgehandelde hoeveelheid annuleren** kiest terwijl er nog werk over is dat de status *Open* of *Onderhanden* heeft, wordt het volgende foutbericht weergegeven: "Kan resterende hoeveelheid voor lading niet annuleren. Er bestaat werk voor de lading."
 - Als u **Niet-afgehandelde hoeveelheid annuleren** selecteert wanneer er geen resterend werk is, maar er niet-vrijgegeven ladingregels in de lading zijn, wordt het volgende foutbericht getoond: "Kan de zending voor de lading niet bevestigen, omdat de hoeveelheid voor het artikel het percentage overschrijdt dat is gedefinieerd voor minderlevering". Als u deze fout wilt voorkomen, kunt u het percentage voor **Minderlevering** op de niet-vrijgegeven ladingsregel instellen op 100 procent. Niet-vrijgegeven regels worden niet naar een nieuwe lading verplaatst, maar de huidige lading wordt bevestigd met minderlevering. In dat geval kunt u de oorspronkelijke order niet opnieuw vrijgeven. Daarom moet u dit dus op een andere manier afhandelen.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
