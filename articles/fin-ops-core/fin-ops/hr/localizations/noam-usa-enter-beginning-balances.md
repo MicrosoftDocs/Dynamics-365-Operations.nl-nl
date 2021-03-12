@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4411a6b72dbb7e6f5b1a72df8dbcbd54e265164c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693397"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797779"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Beginsaldi voor salarisadministratie invoeren
 
@@ -166,6 +166,3 @@ U kunt transacties ongedaan maken en opnieuw invoeren. Als u een transactie onge
 2. Klik op **Ja** als het bericht "Als u dit salarisoverzicht omkeert, wordt een omgekeerd salarisoverzicht gemaakt als tegenboeking voor dit salarisoverzicht. Geen van beide salarisoverzichten kan worden bewerkt. Wilt u dit salarisoverzicht omkeren? wordt getoond. 
 
 Na het omkeren van het salarisoverzicht kunt u een nieuw salarisoverzicht genereren voor de werknemer uit het inkomstenoverzicht dat u eerder hebt gemaakt. Zorg ervoor dat u onjuiste regels uit het inkomstenoverzicht corrigeert voordat u het nieuwe salarisoverzicht genereert en genereer vervolgens nieuwe salarisoverzichten met de juiste bedragen. 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

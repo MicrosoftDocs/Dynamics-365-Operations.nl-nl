@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2973454e585f8ee45c0b6ee95c8b41e93bc2d962
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: e622f9a0a50cd6c5dbcbaf9cd5d56b691232c849
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694282"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797597"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Acties in goedkeuringsprocessen voor workflows
 
@@ -141,6 +141,3 @@ Wanneer een fiatteur een wijziging in een document aanvraagt, wordt het document
 Stel dat Sam een onkostennota van EUR 12.000 heeft ingediend, die is toegewezen aan Suzan. Als Suzan een wijziging aanvraagt, wordt de onkostennota teruggestuurd naar Sam.
 
 Sam kan de onkostennota opnieuw indienen. Hij kan eerst de gevraagde wijzigingen aanbrengen of de oorspronkelijke versie van de onkostennota opnieuw indienen. Als Sam de onkostennota opnieuw indient, wordt het ter goedkeuring naar Frank verzonden omdat hij de eerste fiatteur in het goedkeuringsproces is.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

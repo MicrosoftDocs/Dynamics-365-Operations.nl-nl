@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e67a2c7cde3a3b6d1dcfcc2ccdd3255d30ac40b8
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 9d23e981526fd17a3cb856fffcc39e76cf24da68
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693325"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797696"
 ---
 # <a name="configure-parallel-branches-in-a-workflow"></a>Parallelle vertakkingen in een workflow configureren
 
@@ -50,6 +50,3 @@ Voer deze stappen uit om de elementen van een parallelle vertakking te ontwerpen
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht van Workflows maken](create-workflow.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

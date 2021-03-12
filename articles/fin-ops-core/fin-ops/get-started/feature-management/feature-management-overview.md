@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692961"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798347"
 ---
 # <a name="feature-management-overview"></a>Overzicht van Functiebeheer
 
@@ -32,7 +32,7 @@ Functies worden toegevoegd en bijgewerkt in elke release. De functie Functiebehe
 
 ## <a name="the-feature-management-workspace"></a>Het werkgebied Functiebeheer
 
-U kunt het werkgebied **Functiebeheer** openen door de gewenste tegel te selecteren op het dashboard. Er wordt een pagina weergegeven met een lijst met functies voor alle releases die worden ondersteund door de functie Functiebeheer. In de loop van de tijd zal Microsoft de functie Functiebeheer verbeteren zodat deze extra functionaliteit bevat om u te helpen bij het beheren van functies.
+U kunt het werkgebied **Functiebeheer** openen door de gewenste tegel te selecteren op het dashboard. Er wordt een pagina weergegeven met een lijst met functies voor alle releases die worden ondersteund door de functie Functiebeheer. In de loop van de tijd zal Microsoft de functie Functiebeheer verbeteren zodat deze meer functionaliteit bevat om u te helpen bij het beheren van functies.
 
 De lijst met functies bevat de volgende informatie:
 
@@ -42,7 +42,7 @@ De lijst met functies bevat de volgende informatie:
 - **Toegevoegde functie**: de datum waarop de functie aan uw omgeving is toegevoegd. Deze datum wordt automatisch ingevoerd wanneer u uw omgeving bijwerkt tijdens de maandelijkse releasecycli.
 - **Module**: de module waarop de nieuwe functie van invloed is.
 
-Wanneer u een functie selecteert, wordt aanvullende informatie weergegeven in het detailvenster rechts van de lijst met functies. Boven aan het deelvenster ziet u de functienaam, de datum waarop het onderdeel is toegevoegd, de module waarvoor de functie geldt en een koppeling **Meer informatie**. Selecteer deze koppeling om de documentatie voor de functie weer te geven. Als er geen documentatie beschikbaar is, wordt u naar een tijdelijke pagina geleid. Het detailvenster bevat ook een veld **Opmerkingen** waarin u uw eigen opmerkingen over de functie kunt toevoegen.
+Wanneer u een functie selecteert, wordt meer informatie weergegeven in het detailvenster rechts van de lijst met functies. Boven aan het deelvenster ziet u de functienaam, de datum waarop het onderdeel is toegevoegd, de module waarvoor de functie geldt en een koppeling **Meer informatie**. Selecteer deze koppeling om de documentatie voor de functie weer te geven. Als er geen documentatie beschikbaar is, wordt u naar een tijdelijke pagina geleid. Het detailvenster bevat ook een veld **Opmerkingen** waarin u uw eigen opmerkingen over de functie kunt toevoegen.
 
 Het werkgebied **Functiebeheer** bevat tevens diverse tabbladen, elk met een lijst met functies.
 
@@ -101,8 +101,8 @@ Alle functies die kunnen worden ingeschakeld, worden ingeschakeld. Als een funct
 
 Standaard zijn alle functies die aan uw omgeving worden toegevoegd, uitgeschakeld, tenzij het verplichte functies zijn. Als u alle nieuwe functies automatisch wilt inschakelen, kunt u de vervolgkeuzelijst onder de werkgebiedtitel gebruiken om te wijzigen wat er gebeurt wanneer er nieuwe functies worden toegevoegd.
 
-- Selecteer **Nieuwe functies automatisch inschakelen** om automatisch alle nieuwe functies in te schakelen wanneer deze aan uw omgeving worden toegevoegd.
-- Selecteer **Nieuwe functies niet automatisch inschakelen** om alle nieuwe functies standaard uit te schakelen wanneer deze aan uw omgeving worden toegevoegd.
+- Selecteer `Enable new features automatically` om automatisch alle nieuwe functies in te schakelen wanneer deze aan uw omgeving worden toegevoegd.
+- Selecteer `Do not enable new features automatically` om alle nieuwe functies standaard op uit te zetten wanneer deze aan uw omgeving worden toegevoegd.
 
 
 Wanneer u alle functie automatisch inschakelt, worden alle functies ingeschakeld die zouden worden ingeschakeld wanneer u op de knop **Alles inschakelen** klikt. Hiermee worden geen functies ingeschakeld waarvoor bevestiging vereist is of functies die pas na een bepaalde actie kunnen worden ingeschakeld.
@@ -199,10 +199,7 @@ internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMet
 
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>Wat is de IFeatureLifecycle die door sommige functieklassen is geïmplementeerd?
 IFeatureLifecycle is een intern Microsoft-mechanisme voor het aangeven van de levenscyclus van de functie. Hierbij kan het om de volgende functies gaan:
-- PrivatePreview - heeft een flight nodig om zichtbaar te zijn.
-- PublicPreview - wordt standaard weergegeven, maar met een waarschuwing dat het bij de functie nog om een voorbeeld gaat.
-- Released - volledig vrijgegeven.
+- `PrivatePreview` - heeft een flight nodig om zichtbaar te zijn.
+- `PublicPreview` - wordt standaard weergegeven, maar met een waarschuwing dat het bij de functie nog om een voorbeeld gaat.
+- `Released` - volledig vrijgegeven.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

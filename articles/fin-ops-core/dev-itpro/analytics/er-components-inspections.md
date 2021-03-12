@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72db7660c07b2f57f8609ab6c14964193e842d75
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ba696fb7a8d9083d11cc29953cf1340a581afcf
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688562"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797336"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voorkomen
 
@@ -69,7 +68,7 @@ Voer de volgende stappen uit om de validatie over te slaan wanneer de configurat
 2. Selecteer op de pagina **Configuraties** in het actievenster op het tabblad **Configuraties** in de groep **Geavanceerde instellingen** de optie **Gebruikersparameters**.
 3. Stel de optie **De configuratie valideren na importeren** in op **Nee**.
 
-Voer de volgende stappen uit om de validatie over te slaan wanneer de status van de versie wordt gewijzigd of opnieuw gebaseerd.
+Voer de volgende stappen uit om de validatie over te slaan wanneer u de status van de versie wijzigt of de basisindeling opnieuw selecteert.
 
 1. Ga naar **Organisatiebeheer \> Elektronische rapportage \> Configuraties**.
 2. Selecteer op de pagina **Configuraties** in het actievenster op het tabblad **Configuraties** in de groep **Geavanceerde instellingen** de optie **Gebruikersparameters**.
@@ -101,7 +100,7 @@ De volgende tabel biedt een overzicht van de inspecties die ER biedt. Als u meer
 <td>Fout</td>
 <td>
 <p>Kan expressie van het type &lt;type&gt; niet converteren naar een veld van het type &lt;type&gt;.</p>
-<p><b>Runtimefout:</b> uitzondering van type</p>
+<p><b>Runtimefout:</b> uitzondering voor type</p>
 </td>
 </tr>
 <tr>
@@ -278,7 +277,7 @@ Er is geen optie beschikbaar om dit probleem automatisch op te lossen.
 
 #### <a name="option-1"></a>Optie 1
 
-Werk de indelingsstructuur van het gegevensmodel bij door het gegevenstype van het indelingselement **Numeriek** te wijzigen, zodat dit overeenkomt met het gegevenstype van de expressie die is geconfigureerd voor de binding van dat element. In het bovenstaande voorbeeld moet de waarde **Numeriek type** van het indelingselement **X** worden teruggezet naar **Geheel getal**.
+Werk de indelingsstructuur bij door het gegevenstype van het indelingselement **Numeriek** te wijzigen, zodat dit overeenkomt met het gegevenstype van de expressie die u hebt geconfigureerd voor de binding van dat element. In het bovenstaande voorbeeld moet de waarde **Numeriek type** van het indelingselement **X** worden teruggezet naar **Geheel getal**.
 
 #### <a name="option-2"></a>Optie 2
 
@@ -317,7 +316,7 @@ Maak de binding van gegevensmodelveld **X** ongedaan zodat niet langer wordt ver
 
 #### <a name="option-2"></a>Optie 2
 
-Verwijder in het deelvenster voor gegevensbronnen van de ontwerper voor modeltoewijzingen gegevensbron **Y** opnieuw.
+Voeg in het deelvenster voor gegevensbronnen van de ontwerper voor modeltoewijzingen gegevensbron **Y** opnieuw toe.
 
 ## <a name="executability-of-an-expression-with-filter-function"></a><a id="i4"></a>Uitvoerbaarheid van een expressie met FILTER-functie
 
@@ -374,15 +373,15 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 
     ![De gegevensbron configureren op de pagina 'Groeperen op'-parameters bewerken](./media/er-components-inspections-05a.gif)
 
-6. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie in de geconfigureerde gegevensbron **GroupedTrans** kan worden opgevraagd.
+6. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de geconfigureerde gegevensbron **GroupedTrans** kan worden opgevraagd.
 7. Wijzig de gegevensbron **Trans** door een genest veld van het type **Berekend veld** toe te voegen om het bijgesneden leveranciersrekeningnummer te krijgen.
 8. Noem de nieuwe gegevensbron **$AccNumber** en configureer deze zodat deze de expressie `TRIM(Trans.AccountNum)` bevat.
 
     ![De gegevensbron configureren op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-05a.png)
 
-9. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie in de geconfigureerde gegevensbron **GroupedTrans** kan worden opgevraagd.
+9. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de geconfigureerde gegevensbron **GroupedTrans** kan worden opgevraagd.
 
-    ![Het ER-modeltoewijzingsonderdeel valideren en controleren of de geconfigureerde gegevensbron GroupedTrans kan worden opgevraagd op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-05b.png)
+    ![Valideer het ER-modeltoewijzingsonderdeel en controleer of de geconfigureerde gegevensbron GroupedTrans kan worden opgevraagd op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-05b.png)
 
 10. Er treedt een validatiefout op, omdat de gegevensbron **Trans** een genest veld van het type **Berekend veld** bevat waarmee de aanvraag voor de gegevensbron **GroupedTrans** niet kan worden omgezet naar de directe SQL-instructie.
 
@@ -426,9 +425,9 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 
     ![De gegevensbron configureren op de pagina Join-ontwerper](./media/er-components-inspections-06a.gif)
 
-10. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie in de geconfigureerde gegevensbron **JoinedList** kan worden opgevraagd.
+10. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de geconfigureerde gegevensbron **JoinedList** kan worden opgevraagd.
 11. Wijzig de expressie van de gegevensbron **Vendor.FilteredTrans** van `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` in `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)`.
-12. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie in de geconfigureerde gegevensbron **JoinedList** kan worden opgevraagd.
+12. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de geconfigureerde gegevensbron **JoinedList** kan worden opgevraagd.
 
     ![Het bewerkbare modeltoewijzingsonderdeel valideren en controleren of de gegevensbron JoinedList kan worden opgevraagd op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-06b.png)
 
@@ -454,7 +453,7 @@ Wijzig de expressie van de gegevensbron **Vendor.FilteredTrans** van `WHERE(Tran
 
 #### <a name="option-2"></a>Optie 2
 
-Wijzig de waarde van het veld **Uitvoeren** voor de gegevensbron **JoinedList** van **Query** in **In geheugen**. We raden u niet aan de waarde voor een tabel met een groot gegevensvolume (transactionele tabel) te wijzigen, omdat alle records worden opgehaald en de join in het geheugen wordt uitgevoerd. Deze benadering kan daardoor leiden tot slechte prestaties. Er wordt een validatiewaarschuwing weergegeven om u te informeren over dit risico.
+Wijzig de waarde van het veld **Uitvoeren** voor de gegevensbron **JoinedList** van **Query** in **In geheugen**. We raden u niet aan de waarde voor een tabel met een groot gegevensvolume (transactionele tabel) te wijzigen, omdat alle records worden opgehaald en de join in het geheugen plaatsvindt. Deze benadering kan daardoor leiden tot slechte prestaties. Er wordt een validatiewaarschuwing weergegeven om u te informeren over dit risico.
 
 ## <a name="preferability-of-filter-vs-where-function"></a><a id="i7"></a>Voorkeur voor FILTER-functie boven WHERE-functie
 
@@ -489,11 +488,11 @@ U kunt ook de rij selecteren voor een enkele waarschuwing in het raster en vervo
 
 ### <a name="manual-resolution"></a>Handmatige oplossing
 
-U kunt de expressies van alle gegevensbronnen die worden vermeld in het validatieraster handmatig aanpassen door de **WHERE**-functie te vervangen door de **FILTER**-functie.
+U kunt de expressies van alle gegevensbronnen in het validatieraster handmatig aanpassen door de **WHERE**-functie te vervangen door de **FILTER**-functie.
 
 ## <a name="preferability-of-allitemsquery-vs-allitems-function"></a><a id="i8"></a>Voorkeur voor ALLITEMSQUERY-functie boven ALLITEMS-functie
 
-De ingebouwde ER-functies [ALLITEMS](er-functions-list-allitems.md) en [ALLITEMSQUERY](er-functions-list-allitemsquery.md) worden gebruikt om een afgevlakte waarde voor **Recordlijst** op te halen die bestaat uit een lijst met records die alle items vertegenwoordigen die overeenkomen met het opgegeven pad. In ER wordt gecontroleerd of er een directe SQL-aanroep kan worden uitgevoerd naar een gegevensbron waarnaar wordt verwezen in de **ALLITEMS**-functie. Als er geen directe aanroep kan worden uitgevoerd, treedt een validatiewaarschuwing op in de ontwerper voor ER-modeltoewijzing. In het bericht dat wordt weergegeven, wordt aanbevolen dat u de **ALLITEMSQUERY**-functie gebruikt in plaats van de **ALLITEMS**-functie om de efficiëntie te verbeteren.
+De ingebouwde ER-functies [ALLITEMS](er-functions-list-allitems.md) en [ALLITEMSQUERY](er-functions-list-allitemsquery.md) retourneren een afgevlakte waarde voor **Recordlijst** die bestaat uit een lijst met records die alle items vertegenwoordigen die overeenkomen met het opgegeven pad. In ER wordt gecontroleerd of er een directe SQL-aanroep kan worden uitgevoerd naar een gegevensbron waarnaar wordt verwezen in de **ALLITEMS**-functie. Als er geen directe aanroep kan worden uitgevoerd, treedt een validatiewaarschuwing op in de ontwerper voor ER-modeltoewijzing. In het bericht dat wordt weergegeven, wordt aanbevolen dat u de **ALLITEMSQUERY**-functie gebruikt in plaats van de **ALLITEMS**-functie om de efficiëntie te verbeteren.
 
 De volgende stappen laten zien hoe dit probleem kan optreden.
 
@@ -526,7 +525,7 @@ U kunt de expressies van alle gegevensbronnen die worden vermeld in het validati
 
 ## <a name="consideration-of-empty-list-cases"></a><a id="i9"></a>Controle op lege lijstcases
 
-U kunt uw ER-indeling of model toewijzingsonderdeel zodanig configureren dat de veldwaarde van een gegevensbron van het type **Recordlijst** wordt opgehaald. In ER wordt gecontroleerd of in uw ontwerp de case in overweging wordt genomen wanneer een gegevensbron die wordt aangeroepen geen records bevat (dus leeg is), om runtimefouten te voorkomen wanneer een waarde wordt opgehaald uit een veld van een niet-bestaande record.
+U kunt uw ER-indeling of modeltoewijzingsonderdeel zodanig configureren dat de veldwaarde van een gegevensbron van het type **Recordlijst** wordt opgehaald. In ER wordt gecontroleerd of in uw ontwerp de case in overweging wordt genomen wanneer een gegevensbron die wordt aangeroepen geen records bevat (dus leeg is), om runtimefouten te voorkomen wanneer een waarde wordt opgehaald uit een veld van een niet-bestaande record.
 
 De volgende stappen laten zien hoe dit probleem kan optreden.
 
@@ -573,11 +572,11 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 
     ![De indelingselementen valideren die u hebt gebonden aan gegevensbronnen op de pagina Indelingsontwerper](./media/er-components-inspections-09c.png)
 
-16. Zoals u ziet, treedt er een validatiefout op. Het bericht geeft aan dat er een fout kan worden gegenereerd voor de geconfigureerde indelingsonderdelen **Statement\\Party\\Name** en **Statement\\Party\\AccountNum** tijdens runtime als de lijst **model.Vendor** leeg is.
+16. Zoals u ziet, treedt er een validatiefout op. Het bericht geeft aan dat er een fout kan worden gegenereerd voor de geconfigureerde indelingsonderdelen **Statement\\Party\\Name** en **Statement\\Party\\AccountNum** tijdens runtime als de lijst `model.Vendor` leeg is.
 
     ![Validatiefout waarbij mogelijke fouten worden gemeld voor de geconfigureerde indelingonderdelen](./media/er-components-inspections-09d.png)
 
-In de volgende afbeelding wordt de runtimefout weergegeven die optreedt als u de waarschuwing negeert, **Uitvoeren** selecteert om de indeling uit te voeren en het rekeningnummer van een niet-bestaande leverancier selecteert. Omdat de aangevraagde leverancier niet bestaat, is de lijst **model.Vendor** leeg (bevat dus geen records).
+In de volgende afbeelding wordt de runtimefout weergegeven die optreedt als u de waarschuwing negeert, **Uitvoeren** selecteert om de indeling uit te voeren en het rekeningnummer van een niet-bestaande leverancier selecteert. Omdat de aangevraagde leverancier niet bestaat, is de lijst `model.Vendor` leeg (bevat dus geen records).
 
 ![Runtimefouten tijdens het uitvoeren van de indelingstoewijzing](./media/er-components-inspections-09e.png)
 
@@ -589,15 +588,15 @@ Voor de geselecteerde rij in het raster op het tabblad **Waarschuwingen** kunt u
 
 #### <a name="option-1"></a>Optie 1
 
-U kunt het indelingselement **Statement\\Party\\Name** binden aan het gegevensbronitem **model.Vendor**. Tijdens runtime roept deze binding eerst de gegevensbron **model.Vendor** aan. Wanneer **model.Vendor** een lege recordlijst retourneert, worden de geneste indelingselementen niet uitgevoerd. Daarom worden er geen validatiewaarschuwingen voor deze indelingsconfiguratie weergegeven.
+U kunt het indelingselement **Statement\\Party\\Name** binden aan het gegevensbronitem `model.Vendor`. Tijdens runtime roept deze binding eerst de gegevensbron `model.Vendor` aan. Wanneer `model.Vendor` een lege recordlijst retourneert, worden de geneste indelingselementen niet uitgevoerd. Daarom worden er geen validatiewaarschuwingen voor deze indelingsconfiguratie weergegeven.
 
 ![Het indelingselement binden aan het gegevensbronitem op de pagina Indelingsontwerper](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>Optie 2
 
-Wijzig de binding van het indelingselement **Statement\\Party\\Name** van `model.Vendor.Name` in `FIRSTORNULL(model.Vendor).Name`. De bijgewerkte binding converteert de eerste record van de gegevensbron **model.Vendor** voorwaardelijk van het type **Recordlijst** naar een nieuwe gegevensbron van het type **Record**. Deze nieuwe gegevensbron bevat dezelfde set velden.
+Wijzig de binding van het indelingselement **Statement\\Party\\Name** van `model.Vendor.Name` in `FIRSTORNULL(model.Vendor).Name`. De bijgewerkte binding converteert de eerste record van de gegevensbron `model.Vendor` van het type **Recordlijst** voorwaardelijk naar een nieuwe gegevensbron van het type **Record**. Deze nieuwe gegevensbron bevat dezelfde set velden.
 
-- Als er ten minste één record beschikbaar is in de gegevensbron **model.Vendor**, worden de velden van deze record gevuld met de waarden van de velden van de eerste record van de gegevensbron **model.Vendor**. In dit geval geeft de bijgewerkte binding de naam van de leverancier als resultaat.
+- Als er ten minste één record beschikbaar is in de gegevensbron `model.Vendor`, worden de velden van deze record gevuld met de waarden van de velden van de eerste record van de gegevensbron `model.Vendor`. In dit geval geeft de bijgewerkte binding de naam van de leverancier als resultaat.
 - Anders wordt elk veld van de gemaakte record gevuld met de standaardwaarde voor het gegevenstype van dat veld. In dit geval wordt de lege tekenreeks geretourneerd als de standaardwaarde van het gegevenstype **Tekenreeks**.
 
 Daarom worden er geen validatiewaarschuwingen weergegeven voor het indelingselement **Statement\\Party\\Name** als het is gekoppeld aan de expressie `FIRSTORNULL(model.Vendor).Name`.
@@ -606,13 +605,13 @@ Daarom worden er geen validatiewaarschuwingen weergegeven voor het indelingselem
 
 #### <a name="option-3"></a>Optie 3
 
-Als u de gegevens die in een gegenereerd document zijn ingevoerd, expliciet wilt opgeven als de gegevensbron **model.Vendor** van het type **Recordlijst** geen records retourneert (de tekst **Niet beschikbaar** in dit voorbeeld), wordt de binding van het indelingselement **Statement\\Party\\Name** gewijzigd van `model.Vendor.Name` in `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. U kunt ook de expressie `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")` gebruiken.
+Als u de gegevens die in een gegenereerd document zijn ingevoerd, expliciet wilt opgeven als de gegevensbron `model.Vendor` van het type **Recordlijst** geen records retourneert (de tekst **Niet beschikbaar** in dit voorbeeld), wordt de binding van het indelingselement **Statement\\Party\\Name** gewijzigd van `model.Vendor.Name` in `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. U kunt ook de expressie `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")` gebruiken.
 
 ### <a name="additional-consideration"></a><a id="i9a"></a>Aanvullende overweging
 
-De inspectie waarschuwt u ook voor een ander potentieel probleem. Standaard nemen de bindingen bij het binden van de indelingselementen de **Statement\\Party\\Name** en **Statement\\Party\\AccountNum** aan de gewenste velden van de gegevensbron **model.Vendor** van het type **Recordlijst** de waarden aan van de desbetreffende velden van de eerste record van de gegevensbron **model.Vendor** als deze lijst niet leeg is.
+De inspectie waarschuwt u ook voor een ander potentieel probleem. Standaard nemen de bindingen bij het binden van de indelingselementen **Statement\\Party\\Name** en **Statement\\Party\\AccountNum** aan de gewenste velden van de gegevensbron `model.Vendor` van het type **Recordlijst** de waarden aan van de desbetreffende velden van de eerste record van de gegevensbron `model.Vendor` als deze lijst niet leeg is.
 
-Omdat u het indelingselement **Statement\\Party** niet met de gegevensbron **model.Vendor** hebt gebonden, wordt het element **Statement\\Party** niet herhaald voor elke record van de gegevensbron **model.Vendor** tijdens het uitvoeren van de indeling. In plaats daarvan wordt alleen informatie uit de eerste record van de recordlijst ingevuld als die lijst meerdere records bevat. Daarom kan er een probleem optreden als de indeling is bedoeld om een gegenereerd document te vullen met informatie over alle leveranciers in de gegevensbron **model.Vendor**. U kunt dit probleem oplossen door het element **Statement\\Party** aan de gegevensbron **model.Vendor** te binden.
+Omdat u het indelingselement **Statement\\Party** niet met de gegevensbron `model.Vendor` hebt gebonden, wordt het element **Statement\\Party** niet herhaald voor elke record van de gegevensbron `model.Vendor` tijdens het uitvoeren van de indeling. In plaats daarvan wordt alleen informatie uit de eerste record van de recordlijst ingevuld als die lijst meerdere records bevat. Daarom kan er een probleem optreden als de indeling is bedoeld om een gegenereerd document te vullen met informatie over alle leveranciers in de gegevensbron `model.Vendor`. U kunt dit probleem oplossen door het element **Statement\\Party** aan de gegevensbron `model.Vendor` te binden.
 
 ## <a name="executability-of-an-expression-with-filter-function-caching"></a><a id="i10"></a>Uitvoerbaarheid van een expressie met FILTER-functie (caching)
 
@@ -657,7 +656,7 @@ Wijzig de expressie van de gegevensbron **FilteredVendor** van `FILTER(Vendor, V
 
 ## <a name="missing-binding"></a><a id="i11"></a>Binding ontbreekt
 
-Wanneer u een ER-indelingsonderdeel configureert, wordt het basis-ER-gegevensmodel als standaard gegevensbron aangeboden voor de ER-indeling. Wanneer de geconfigureerde ER-indeling wordt uitgevoerd, wordt de [standaardmodeltoewijzing](er-country-dependent-model-mapping.md) voor het basismodel gebruikt om het gegevensmodel met toepassingsgegevens te vullen. In de ER-indelignsontwerper wordt een waarschuwing weergegeven als u een indelingselement koppelt aan een gegevensmodelitem dat niet is gekoppeld aan een gegevensbron in de modeltoewijzing die momenteel is geselecteerd als standaardmodeltoewijzing voor de bewerkbare indeling. Dit type binding kan niet in runtime worden uitgevoerd, omdat de indeling die wordt uitgevoerd geen gebonden element kan vullen met toepassingsgegevens. Daarom treedt er een fout op tijdens runtime.
+Wanneer u een ER-indelingsonderdeel configureert, wordt het basis-ER-gegevensmodel als standaard gegevensbron aangeboden voor de ER-indeling. Wanneer de geconfigureerde ER-indeling wordt uitgevoerd, wordt de [standaardmodeltoewijzing](er-country-dependent-model-mapping.md) voor het basismodel gebruikt om het gegevensmodel met toepassingsgegevens te vullen. In de ER-indelingsontwerper wordt een waarschuwing weergegeven als u een indelingselement koppelt aan een gegevensmodelitem dat niet is gekoppeld aan een gegevensbron in de modeltoewijzing die momenteel is geselecteerd als standaardmodeltoewijzing voor de bewerkbare indeling. Dit type binding kan niet in runtime worden uitgevoerd, omdat de indeling die wordt uitgevoerd geen gebonden element kan vullen met toepassingsgegevens. Daarom treedt er een fout op tijdens runtime.
 
 De volgende stappen laten zien hoe dit probleem kan optreden.
 
@@ -699,7 +698,7 @@ Geef de nieuwe gegevensbron de naam **RequestedAccountNum**. Voer in het veld **
 
 14. Bind als volgt de indelingselementen aan verstrekte gegevensbronnen:
 
-    - Bind het indelingselement **Statement\\Party** aan het gegevensbronitem **model.Vendor**.
+    - Bind het indelingselement **Statement\\Party** aan het gegevensbronitem `model.Vendor`.
     - Bind het indelingselement **Statement\\Party\\Name** aan het gegevensbronveld **model.Vendor.Name**.
     - Bind het indelingselement **Statement\\Party\\AccountNum** aan het gegevensbronveld **model.Vendor.AccountNumber**.
 
@@ -813,6 +812,3 @@ Zie [De structuur van een sjabloon voor bedrijfsdocumenten bijwerken](er-bdm-upd
 [De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen](trace-execution-er-troubleshoot-perf.md)
 
 [Overzicht van Beheer van bedrijfsdocumenten](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

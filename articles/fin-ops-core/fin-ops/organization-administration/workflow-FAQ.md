@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 785b14d20a647ea2187f311f1cd056b8181d4849
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694051"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797386"
 ---
 # <a name="workflow-faq"></a>Veelgestelde vragen over werkstromen
 
@@ -59,6 +59,3 @@ De standaardveldwaarde voor **Aantal werkstroomartikelen per batchtaak** op de p
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>Wat is de Verbeterde werkstroomfoutmelding?
 Met de verbeterde werkstroomfoutmelding in versie 10.0.13 worden foutcodes toegevoegd om verschillende klassen van werkstroomfouten van elkaar te onderscheiden. De weergegeven foutberichten komen grotendeels overeen, maar bevatten kleine verschillen om ze duidelijker te maken.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

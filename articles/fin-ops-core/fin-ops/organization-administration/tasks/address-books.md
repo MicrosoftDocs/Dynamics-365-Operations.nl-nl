@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17e36511f4e8c320338032d0df733309005d4021
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 286bc7a8811543cd6a969dc7450782285c77b6fc
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694880"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796821"
 ---
 # <a name="configure-address-books"></a>Adresboeken configureren
 
@@ -41,6 +41,3 @@ Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF
 7. Klik op de pijl om de geselecteerde beschikbare teams aan het adresboek toe te voegen.
 8. Klik op **Opslaan**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

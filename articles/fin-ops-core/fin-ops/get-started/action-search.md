@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b5d2e678b01f052db29d5a1c47eae27d27cd04f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694183"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798642"
 ---
 # <a name="action-search"></a>Actiezoekopdracht
 
@@ -35,7 +35,7 @@ De pagina's bevatten voornamelijk opdrachten in actiedeelvensters, zowel in het 
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 
-Tips toetsen zijn niet langer beschikbaar, maar vervangen door de zoekfunctie voor acties. Met deze nieuwe functie kunt u snel zoeken en een knop uitvoeren van elk weergegeven actievenster.
+De zoekfunctie voor acties vervangt Tips toetsen die niet meer beschikbaar zijn. Met deze nieuwe functie kunt u snel zoeken en een knop uitvoeren van elk weergegeven actievenster.
 
 ## <a name="using-action-search"></a>Actiezoekopdrachten gebruiken
 
@@ -53,7 +53,7 @@ U kunt actiezoekopdrachten ook starten door Ctrl+/ of Alt+Q in te drukken. Druk 
 
 ## <a name="understanding-the-results-list"></a>De resultatenlijst begrijpen
 
-Vaak moet u zowel de locatie als de context van een knop weten om het doel van die knop volledig te begrijpen. Daarom wordt er aanvullende informatie weergegeven voor elk item in de lijst met resultaten, zodat u precies begrijpt welke knoppen in de lijst worden weergegeven. In het bijzonder wordt het 'pad' van de knop weergegeven. Dit pad kan de labels van de volgende UI-elementen bevatten, indien dit relevant is:
+Vaak moet u zowel de locatie als de context van een knop weten om het doel van die knop volledig te begrijpen. Daarom wordt in de resultatenlijst aanvullende informatie weergegeven, zodat u precies begrijpt welke knoppen in de lijst worden weergegeven. In het bijzonder wordt het 'pad' van de knop weergegeven. Dit pad kan de labels van de volgende UI-elementen bevatten, indien dit relevant is:
 
 - Tabblad actievenster
 - Knopgroep
@@ -75,6 +75,3 @@ In het vorige voorbeeld, werden de resultaten van de actiezoekopdracht van het s
 ## <a name="action-search-vs-navigation-search"></a>Actiezoekopdracht vergeleken met navigatiezoekopdracht
 
 Actiezoekopdrachten zijn bedoeld om acties op een pagina te zoeken en uit te voeren, maar is er een apart zoekmechanisme voor het zoeken en navigeren naar pagina's. Zie het artikel [Navigatiezoekfunctie](navigation-search.md) voor meer informatie over deze functie.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

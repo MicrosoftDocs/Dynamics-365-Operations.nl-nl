@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5df30e403c4b1c7d3abc88ae98c73d797bceef02
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 42a6fbdad19db3c85509078c9f7549a6397f93fc
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693107"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797254"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Bestaande werknemers aannemen via werving
 
@@ -40,6 +40,3 @@ Soms kunnen open posities worden vervuld met kandidaten die al werknemers in uw 
 9. Klik op Positie wijzigen.
     * U kunt nu ook de compensatie wijzigen. Als u nu geen compensatie toewijst, kunt u deze wijzigen door naar het werknemerformulier te gaan, het tabblad Compensatie te selecteren en "Vast plan" te kiezen. Nadat u "Positie wijzigen" hebt geselecteerd, wordt de status van de sollicitatie bijgewerkt naar "Aangesteld".  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

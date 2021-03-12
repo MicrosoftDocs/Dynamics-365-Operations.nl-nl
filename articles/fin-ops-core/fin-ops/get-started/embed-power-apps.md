@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: ba3b736aeae8540349309ddd82bd431720b9701c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: fbdd4dd1bb0b850319b12e55b0e68d6fdc516ad6
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693478"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798372"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Canvas-apps insluiten vanuit Power Apps
 
@@ -115,7 +115,7 @@ Nadat een app is ingesloten op een pagina, zijn er twee manieren om deze te verw
 
 ## <a name="appendix"></a>Bijlage
 
-### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[Ontwikkelaar]: opgeven waar een app kan worden ingesloten
+### <a name="developer-specifying-where-an-app-can-be-embedded"></a>\[Ontwikkelaar\]: opgeven waar een app kan worden ingesloten
 
 Standaard kunt u apps op elke pagina insluiten, hetzij onder de menuknop Power Apps, hetzij rechtstreeks op de pagina als een tabblad, sneltabblad, blad of als een nieuwe sectie in een werkgebied. Indien nodig kunnen ontwikkelaars deze functie echter ook zo configureren dat het insluiten van apps alleen is toegestaan op bepaalde pagina's door het implementeren van de volgende methoden:
 
@@ -142,6 +142,3 @@ public final class ClassTest_Extension
     }
 }
 ```
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

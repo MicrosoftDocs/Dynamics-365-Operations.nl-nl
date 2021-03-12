@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f2fc88ed0c0f4dbec55f8ca251cca3d071760b55
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685480"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744510"
 ---
 # <a name="integrated-vendor-master"></a>Model voor geïntegreerde leveranciers
 
@@ -33,17 +33,17 @@ ms.locfileid: "4685480"
 
 
 
-De term *leverancier* verwijst naar een leveranciersorganisatie die of eenmansbedrijf dat goederen of diensten levert aan een bedrijf. Hoewel *leverancier* een bestaand concept is in Microsoft Dynamics 365 Supply Chain Management, bestaat het concept leverancier niet in modelgestuurde apps in Dynamics 365. U kunt de entiteit **Rekening/contactpersoon** echter overbelasten om leveranciersgegevens op te slaan. Het geïntegreerde leveranciersmodel introduceert een expliciet leveranciersconcept in modelgestuurde apps in Dynamics 365. U kunt het nieuwe leveranciersontwerp gebruiken of leveranciersgegevens opslaan in de entiteit **Rekening/contactpersoon**. Twee keer wegschrijven ondersteunt beide methoden.
+De term *leverancier* verwijst naar een leveranciersorganisatie die of eenmansbedrijf dat goederen of diensten levert aan een bedrijf. Hoewel *leverancier* een bestaand concept is in Microsoft Dynamics 365 Supply Chain Management, bestaat het concept leverancier niet in modelgestuurde apps in Dynamics 365. U kunt de tabel **Rekening/contactpersoon** echter overbelasten om leveranciersgegevens op te slaan. Het geïntegreerde leveranciersmodel introduceert een expliciet leveranciersconcept in modelgestuurde apps in Dynamics 365. U kunt het nieuwe leveranciersontwerp gebruiken of leveranciersgegevens opslaan in de tabel **Rekening/contactpersoon**. Twee keer wegschrijven ondersteunt beide methoden.
 
 In beide methoden worden de leveranciersgegevens geïntegreerd tussen Dynamics 365 Supply Chain Management-, Dynamics 365 Sales-, Dynamics 365 Field Service- en Power Apps-portals. In Supply Chain Management zijn de gegevens beschikbaar voor werkstromen zoals opdrachten tot inkoop en inkooporders.
 
 ## <a name="vendor-data-flow"></a>Leveranciersgegevensstroom
 
-Als u leveranciersgegevens niet wilt opslaan in de entiteit **Rekening/contactpersoon** in Dataverse, kunt u het nieuwe leveranciersontwerp gebruiken.
+Als u leveranciersgegevens niet wilt opslaan in de tabel **Rekening/contactpersoon** in Dataverse, kunt u het nieuwe leveranciersontwerp gebruiken.
 
 ![Leveranciersgegevensstroom](media/dual-write-vendor-data-flow.png)
 
-Als u leveranciersgegevens wilt blijven opslaan in de entiteit **Rekening/contactpersoon**, kunt u het uitgebreide leveranciersontwerp. Als u het uitgebreide leveranciersontwerp wilt gebruiken, moet u de leverancierswerkstromen configureren in het oplossingspakket Twee keer wegschrijven. Zie [Schakelen tussen leverancierontwerpen](vendor-switch.md) voor meer informatie.
+Als u leveranciersgegevens wilt blijven opslaan in de tabel **Rekening/contactpersoon**, kunt u het uitgebreide leveranciersontwerp gebruiken. Als u het uitgebreide leveranciersontwerp wilt gebruiken, moet u de leverancierswerkstromen configureren in het oplossingspakket Twee keer wegschrijven. Zie [Schakelen tussen leverancierontwerpen](vendor-switch.md) voor meer informatie.
 
 ![Uitgebreide leveranciersgegevensstroom](media/dual-write-vendor-detail.jpg)
 
@@ -56,7 +56,7 @@ Leveranciersgegevens omvatten alle informatie over de leverancier, zoals de leve
 
 Finance and Operations-apps | Andere Dynamics 365-apps     | Beschrijving
 ----------------------------|-----------------------------|------------
-Leverancier V2                   | Rekening                     | Bedrijven die de accountentiteit gebruiken om leveranciergegevens op te slaan, kunnen deze op dezelfde manier blijven gebruiken. Door integratie met Finance and Operations-apps kunnen ze ook de expliciete leveranciersfunctionaliteit gaan gebruiken die beschikbaar komt.
+Leverancier V2                   | Rekening                     | Bedrijven die de tabel Rekening gebruiken om leveranciergegevens op te slaan, kunnen deze op dezelfde manier blijven gebruiken. Door integratie met Finance and Operations-apps kunnen ze ook de expliciete leveranciersfunctionaliteit gaan gebruiken die beschikbaar komt.
 Leverancier V2                   | Msdyn\_vendors              | Door integratie met Finance and Operations-apps kunnen bedrijven die een aangepaste oplossing voor leveranciers gebruiken, profiteren van het kant-en-klare leveranciersconcept dat in Dataverse wordt geïntroduceerd. 
 Leveranciersgroepen               | msdyn\_vendorgroups         | Met deze sjabloon worden leveranciersgroepgegevens gesynchroniseerd.
 Leveranciersbetalingsmethode       | msdyn\_vendorpaymentmethods | Met deze sjabloon worden gegevens over de betalingsmethoden van leveranciers gesynchroniseerd.
@@ -75,6 +75,3 @@ Voor- en achtervoegsel naam                | msdyn\_nameaffixes          | Met d
 [!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
 
 [!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

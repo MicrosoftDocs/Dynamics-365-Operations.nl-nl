@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: bf485b407d56b21621617682bab3492925f7f9a4
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a1d520584e331631bb5a6a88ba6c9a8b50b3d29e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693817"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798618"
 ---
 # <a name="client-alert-notifications-by-email"></a>Clientwaarschuwingen per e-mail
 
@@ -47,9 +47,6 @@ In de volgende afbeelding ziet u het dialoogvenster **Waarschuwingsregel maken**
 
 De service verzendt e-mailberichten met behulp van vooraf gedefinieerde e-mailsjablonen die de basisgegevens van het waarschuwingsbericht leveren.
 
-De volgende afbeelding toont de structuur van de waarschuwingsberichten die per e-mail worden ontvangen.
+De volgende afbeelding toont de structuur van de waarschuwingsmeldingen die per e-mail worden ontvangen.
 
 [![Waarschuwingsberichten op basis van een sjabloon voor maken van records, veldwijzigingen en sjabloonverwijdering](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

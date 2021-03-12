@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686069"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740803"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>Lijst met ER-functies in de categorie typeconversies
 
@@ -38,6 +38,14 @@ ER-typeconversiefuncties kunnen worden gebruikt om waarden tussen typen te conve
 | [IntValue](er-functions-conversion-intvalue.md)       | Deze functie retourneert een waarde van het type *Int* die de opgegeven tekenreeks vertegenwoordigt. |
 | [NumberValue](er-functions-conversion-numbervalue.md) | Deze functie retourneert een *werkelijke* waarde die is geconverteerd op basis van de opgegeven *tekenreekswaarde*. Tijdens de conversie worden de opgegeven scheidingstekens voor decimalen en cijfergroepen in aanmerking genomen. |
 | [Waarde](er-functions-conversion-value.md)             | Deze functie retourneert een *werkelijke* waarde die is geconverteerd op basis van de opgegeven *tekenreekswaarde*. |
+
+## <a name="type-conversion-functions-in-the-container-category"></a>Typeconversiefuncties in de containercategorie
+
+In de volgende tabel worden de typeconversiefuncties in de [container](er-functions-category-container.md)categorie beschreven.
+
+| Functie | Beschrijving |
+|----------|-------------|
+| [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | Deze functie converteert de opgegeven invoer van het gegevenstype *Tekenreeks* naar een gegevensitem van het gegevenstype *Container*. |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>Typeconversiefuncties in de datum- en tijdcategorie
 
@@ -79,6 +87,3 @@ In de volgende tabel worden de typeconversiefuncties in de [tekstcategorie](er-f
 [Formuleontwerper in elektronische aangifte](general-electronic-reporting-formula-designer.md)
 
 [Formuletaal in Elektronische rapportage](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

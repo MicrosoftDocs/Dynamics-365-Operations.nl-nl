@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e46c392c43b63ef443f66d8ea8f9e91a9df3d126
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 734f6499753d74b0bac8b2df1381ece4a7824142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693227"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797485"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
@@ -195,6 +195,3 @@ Voor klanten die de functie [Opgeslagen weergaven](saved-views.md) nog niet hebb
 Wanneer u de instellingen van de voorraaddimensies op een pagina wilt aanpassen, kunt u de instellingen toepassen die zijn gemaakt met de optie **Dimensie weergeven**. U gebruikt aanpassing bijvoorbeeld om een kolom te verbergen voor de voorraaddimensie Batchnummer, maar de kolom wordt de volgende keer dat de pagina wordt geopend, weergegeven. Deze werking treedt op omdat de **Weergave van dimensies**-instellingen bepalen welke voorraaddimensiekolommen worden weergegeven. De **Weergave van dimensies**-instellingen zijn van toepassing op alle pagina's en hebben voorrang op aangepaste instellingen van voorraaddimensievelden op afzonderlijke pagina's.
 
 Als u in het vorige voorbeeld niet wilt dat de kolom voor de voorraaddimensie Batchnummer wordt weergegeven op een pagina, moet u die dimensie uitschakelen als onderdeel van de optie **Weergave van dimensies** voor die pagina.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

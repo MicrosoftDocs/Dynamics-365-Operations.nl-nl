@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf06046c772cd128f5600ed319cc3d0d4457b07f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 260fae39d9a98feb7bfa82188c5b05de9a533136
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694710"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796625"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Nummerreeksen instellen op een individuele basis
 
@@ -40,6 +40,3 @@ In dit onderwerp wordt uitgelegd hoe op een individuele basis nummerreeksen kunn
 8. Vouw de sectie **Algemeen** uit. Geef op het sneltabblad Algemeen op of de nummerreeks handmatig is en doorlopend of niet-doorlopend. Voer ook de laagste en hoogste nummers in die in de nummerreeks kunnen worden gebruikt. Een niet-doorlopende nummerreeks wijzigen in een doorlopende nummerreeks wordt niet aanbevolen. De nummerreeks zal niet echt continu worden. Deze wijziging kan ook overtredingen van dubbele sleutels veroorzaken in de database. Doorlopende nummerreeksen hebben bovendien een grotere invloed op de prestaties.   
 9. Klik op **Opslaan**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

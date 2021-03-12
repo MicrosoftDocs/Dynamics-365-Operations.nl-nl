@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 24d89e061cc3dfc4ef0d350730525ac5ab7af775
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 4dcee425fc1225dcfcf8ba4282f4176acfeaa268
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694660"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796797"
 ---
 # <a name="configure-the-global-address-book"></a>Het algemeen adresboek configureren
 
@@ -45,6 +45,3 @@ Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF
 13. Zoek en selecteer de gewenste record in de lijst. Druk op de Shift-toets om meerdere rollen te selecteren om toe te voegen aan het venster **Geselecteerde rollen** en klik op de pijl om de geselecteerde rollen toe te voegen.  
 14. Klik op **Opslaan**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8043e2854ccc8db0128969ffe36a5517a12c37ac
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 2dfbe78f31082ad0b1272f02e3ae9d7adbd993b1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693349"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797721"
 ---
 # <a name="configure-parallel-activities-in-a-workflow"></a>Parallelle activiteiten in een workflow configureren
 
@@ -53,6 +53,3 @@ Voer deze stappen uit om de vertakkingen van deze parallelle activiteit toe te v
     > De volgorde van de vertakkingen is niet belangrijk, omdat alle vertakkingen van een parallelle activiteit op hetzelfde moment worden uitgevoerd.
 
 3. Zie [Parallelle vertakkingen in een workflow configureren](configure-parallel-branch-workflow.md) voor configureren van elke vertakking.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

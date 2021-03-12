@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd279b28c43e22bec6bf814845fe97828bc96d81
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681323"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728084"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>De structuur van een bedrijfsdocumentsjabloon bijwerken 
 
@@ -56,7 +56,7 @@ Voer de volgende procedures uit in [Overzicht van Beheer van bedrijfsdocumenten]
 5. Selecteer **OK** om de nieuwe sjabloon te maken.
 
     > [!NOTE]
-    > Als u zich nog niet hebt aangemeld bij Office Online, wordt u [naar de aanmeldingspagina voor Office 365 geleid](er-business-document-management.md#i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page). Selecteer de knop **Vorige** in de browser om terug te keren naar uw Finance-omgeving.
+    > Als u zich nog niet hebt aangemeld bij Office Online, wordt u [naar de aanmeldingspagina voor Office 365 geleid](er-business-document-management.md#frequently-asked-questions). Selecteer de knop **Vorige** in de browser om terug te keren naar uw Finance-omgeving.
 
     De nieuwe sjabloon wordt geopend om te worden bewerkt in het ingesloten Excel online-besturingselement op de pagina van de sjablooneditor.
 
@@ -106,6 +106,3 @@ Voer de volgende procedures uit in [Overzicht van Beheer van bedrijfsdocumenten]
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 
 [Overzicht van Beheer van bedrijfsdocumenten](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

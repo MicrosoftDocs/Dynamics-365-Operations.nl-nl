@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0157e7e080f6b65dc6b3bb8f01ace5b521bb3dca
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 70a57741340df2aec5c20dc576672b6acc8343dd
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694808"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796725"
 ---
 # <a name="create-an-operating-unit"></a>Een operationele eenheid maken
 
@@ -41,6 +41,3 @@ Een operationele eenheid is een organisatie die wordt gebruikt om het beheer van
     + Voer informatie in over communicatiemethoden, zoals e-mailadressen, URL's en telefoonnummers. Als u een nieuwe communicatierecord wilt invoeren, klikt u op Nieuw. Als u een bestaande communicatierecord wilt wijzigen, klikt u op **Meer opties > Geavanceerd**.   
 6. Indien nodig kunt u het **Nummer van de operationele eenheid** wijzigen. Let op, dit nummer is een unieke identifier voor het corresponderende **Partij**-record en mag niet hetzelfde zijn als een andere operationele eenheid.
 7. Selecteer **Opslaan**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

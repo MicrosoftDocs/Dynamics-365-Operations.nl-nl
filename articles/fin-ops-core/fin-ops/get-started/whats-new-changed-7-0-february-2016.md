@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5d72eaa28cfe3d114d2ab48cb1e477074a8bf739
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3c1b63ba623eb1699938476825a77fd40d838142
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693253"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797214"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Wat is nieuw of gewijzigd in Dynamics AX 7.0 (februari 2016)
 
@@ -734,7 +734,7 @@ Met Retail Server en gegevensbeheer kunt klanten en bedrijven een shoppingervari
 </tr>
 <tr>
 <td>Verplaatsen van gegevens tussen de Microsoft Dynamics AX-back-office en -kanalen met Commerce Data Exchange.</td>
-<td>Commerce Data Exchange is een systeem dat de gegevensoverdracht tussen Microsoft Dynamics AX en detailhandelkanalen, zoals onlinewinkels of fysieke winkels. Zie <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a> voor meer informatie.</td>
+<td>Commerce Data Exchange is een systeem dat de gegevensoverdracht tussen Microsoft Dynamics AX en detailhandelkanalen, zoals onlinewinkels of fysieke winkels. Zie voor meer informatie <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
 <td>Er is functionele pariteit met Microsoft Dynamics AX 2012 CU8. Houd echter rekening met het volgende:
 <ul>
 <li>Commerce Data Exchange is opnieuw ontworpen voor de cloud.</li>
@@ -1033,6 +1033,3 @@ Geen nieuwe functies zijn toegevoegd.
 [Nieuwe of gewijzigde functies op de startpagina van Finance and Operations](whats-new-changed.md)
 
 [Nieuwe taakbegeleidingen (februari 2016)](new-task-guides-available-february-2016.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

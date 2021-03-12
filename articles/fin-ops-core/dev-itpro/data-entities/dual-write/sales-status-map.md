@@ -1,6 +1,6 @@
 ---
-title: De toewijzing voor de statusvelden van de verkooporder instellen
-description: In dit onderwerp wordt uitgelegd hoe u de statusvelden voor verkooporders instelt voor twee keer wegschrijven.
+title: De toewijzing instellen voor de verkooporderstatuskolommen
+description: In dit onderwerp wordt uitgelegd hoe u de statuskolommen voor verkooporders instelt voor twee keer wegschrijven.
 author: dasani-madipalli
 manager: tonyafehr
 ms.date: 06/25/2020
@@ -18,22 +18,22 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4451345"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744294"
 ---
-# <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>De toewijzing voor de statusvelden van de verkooporder instellen
+# <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>De toewijzing instellen voor de verkooporderstatuskolommen
 
 [!include [banner](../../includes/banner.md)]
 
-De velden die de status van de verkooporder aangeven, hebben verschillende opsommingswaarden in Microsoft Dynamics 365 Supply Chain Management en Dynamics 365 Sales. Aanvullende instellingen zijn vereist om deze velden te kunnen koppelen in twee keer wegschrijven.
+De kolommen die de status van de verkooporder aangeven, hebben verschillende opsommingswaarden in Microsoft Dynamics 365 Supply Chain Management en Dynamics 365 Sales. Aanvullende instellingen zijn vereist om deze kolommen te kunnen koppelen in twee keer wegschrijven.
 
-## <a name="fields-in-supply-chain-management"></a>Velden in Supply Chain Management
+## <a name="columns-in-supply-chain-management"></a>kolommen in Supply Chain Management
 
-In Supply Chain Management geven twee velden de status van de verkooporder weer. De velden die u moet toewijzen zijn **Status** en **Documentstatus**.
+In Supply Chain Management geven twee kolommen de status van de verkooporder weer. De kolommen die u moet toewijzen zijn **Status** en **Documentstatus**.
 
 De opsommingswaarde **Status** geeft de algemene status van de order aan. Deze status wordt weergegeven in de orderkop.
 
@@ -53,9 +53,9 @@ De opsommingswaarde **Documentstatus** heeft de volgende waarden:
 - Pakbon
 - Factuur
 
-## <a name="fields-in-sales"></a>Velden in Verkoop
+## <a name="columns-in-sales"></a>kolommen in Sales
 
-In Verkoop geven twee velden de status van de order weer. De velden die u moet toewijzen zijn **Status** en **Verwerkingsstatus**.
+In Sales geven twee kolommen de status van de order weer. De kolommen die u moet toewijzen zijn **Status** en **Verwerkingsstatus**.
 
 De opsommingswaarde **Status** geeft de algemene status van de order aan. Het heeft de volgende waarden:
 
@@ -95,7 +95,7 @@ In de volgende tabel wordt de toewijzing van **Verwerkingsstatus** tussen Verkoo
 
 ## <a name="setup"></a>Instelling
 
-Om de toewijzing voor de statusvelden van verkooporders in te stellen, moet u de kenmerken **IsSOPIntegrationEnabled** en **isIntegrationUser** inschakelen.
+Om de toewijzing voor de statuskolommen van verkooporders in te stellen, moet u de kenmerken **IsSOPIntegrationEnabled** en **isIntegrationUser** inschakelen.
 
 Volg deze stappen als u het kenmerk **IsSOPIntegrationEnabled** wilt inschakelen.
 
@@ -110,14 +110,14 @@ Volg deze stappen als u het kenmerk **IsSOPIntegrationEnabled** wilt inschakelen
     Xrm.WebApi.updateRecord("organization",
     "d9a7c5f7-acbf-4aa9-86e8-a891c43f748c", {"issopintegrationenabled" :
     true}).then(
-        function success(result) {
-            console.log("Account updated");
-            // perform operations on record update
-        },
-        function (error) {
-            console.log(error.message);
-            // handle error conditions
-        }
+        function success(result) {
+            console.log("Account updated");
+            // perform operations on row update
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
     );
     ```
 
@@ -129,13 +129,13 @@ Volg deze stappen als u het kenmerk **IsSOPIntegrationEnabled** wilt inschakelen
 
 Volg deze stappen als u het kenmerk **isIntegrationUser** wilt inschakelen.
 
-1. Ga in Verkoop naar **Instelling \> Aanpassen \> Het systeem aanpassen**. Selecteer **Gebruikersentiteit** en open **Formulier \> Gebruiker**.
+1. Ga in Sales naar **Instelling \> Aanpassing \> Het systeem aanpassen**. Selecteer **Gebruikerstabel** en open **Formulier \> Gebruiker**.
 
     ![Het gebruikersformulier openen](media/sales-map-user.png)
 
 2. Zoek in Veldverkenner **Integratiegebruikersmodus** en dubbelklik erop om deze toe te voegen aan het formulier. Sla de wijziging op.
 
-    ![Het veld Integratiegebruikersmodus toevoegen aan het formulier](media/sales-map-field-explorer.png)
+    ![De kolom Integratiegebruikersmodus toevoegen aan het formulier](media/sales-map-field-explorer.png)
 
 3. Ga in Verkoop naar **Instelling \> Beveiliging \> Gebruikers** en wijzig de weergave van **Ingeschakelde gebruikers** in **Toepassingsgebruikers**.
 
@@ -145,11 +145,8 @@ Volg deze stappen als u het kenmerk **isIntegrationUser** wilt inschakelen.
 
     ![Lijst met toepassingsgebruikers](media/sales-map-user-mode.png)
 
-5. Wijzig de waarde van het veld **Integratiegebruikersmodus** in **Ja**.
+5. Wijzig de waarde van de kolom **Integratiegebruikersmodus** in **Ja**.
 
-    ![De waarde van het veld Integratiegebruikersmodus wijzigen in Ja](media/sales-map-user-mode-yes.png)
+    ![De waarde van de kolom Integratiegebruikersmodus wijzigen in Ja](media/sales-map-user-mode-yes.png)
 
 Uw verkooporders zijn nu toegewezen.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

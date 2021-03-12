@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6f440a42ea475a42c803475d82e3027625bf4db
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 71e30a30aee5edcea2e24b326b0f263612b6b897
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694904"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798038"
 ---
 # <a name="manage-recruiting-processes"></a>Wervingsprocessen beheren
 
@@ -103,6 +103,3 @@ Als een sollicitatie moet worden geëvalueerd door verschillende werknemers, kun
 ## <a name="hiring-applicants"></a>Sollicitanten aannemen
 
 Gebruik de pagina **Sollicitaties** om een sollicitant aan te stellen. Wanneer u een sollicitant aanneemt, heeft de sollicitatierecord de status **Aangesteld** en wordt de persoonlijke registratie voor het globale adresboek van de sollicitant gekoppeld aan de nieuwe werknemerregistratie. Wijzigingen in de globale adresboekgegevens voor nieuwe werknemersregistratie worden tevens weergegeven in de sollicitatieregistratie. Dit kan helpen bij het verminderen van gegevensinvoer als de nieuwe werknemer weer solliciteert voor een andere baan binnen uw onderneming. Om een bestaande werknemer voor een andere positie aan te werven, klikt u op **Positie wijzigen** in de vervolgkeuzelijst **Sollicitatiestatus** om het overdrachtsproces te starten.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

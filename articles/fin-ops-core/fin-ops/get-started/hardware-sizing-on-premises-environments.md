@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: b89135cd9e951e690e53c1b4bf98dfcb03f2d652
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 9d4f2e59d4dd78d15d561ff0da47e4b9b1a2fce3
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694464"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798299"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Vereisten vaststellen voor grootte van de hardware voor on-premises omgevingen
 
@@ -141,6 +141,3 @@ De Orchestrator-service beheert uw implementatie en de gerelateerde communicatie
 ## <a name="virtualization-and-oversubscription"></a>Virtualisering en te veel abonnementen
 
 Bedrijfskritieke services, zoals de AOS, moeten worden gehost op virtuele hosts met eigen resources: cores, geheugen en schijfruimte.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: pvillads
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c0b55046e6c523398b4a30e674dc9f77bb6fedf3
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ca9ddaed0c4aad6aeb3877384778d33f83e6e4aa
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693203"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796845"
 ---
 # <a name="record-templates-overview"></a>Overzicht van Recordsjablonen
 
@@ -37,6 +37,3 @@ Bijvoorbeeld, stel u voor dat u huurinformatie invoert voor een autoverhuurbedri
 > U kunt alleen sjablonen toepassen op gedeelten waartoe u toegang hebt. Echter, alle sjabloontitels zijn voor u zichtbaar wanneer u een nieuw record aanmaakt en ook voor andere gebruikers, indien u sjablonen maakt die voor alle gebruikers beschikbaar zijn. Neem dit in overweging wanneer u sjablonen benoemt. Vermijd bijvoorbeeld namen met woorden als 'commissie' indien het vertrouwelijk is dat bepaalde werknemers in het bedrijf een salaris hebben dat is gebaseerd op commissie.
 
 Wanneer er een of meerdere sjablonen waartoe u toegang hebt bestaan voor een specifiek formulier en u een nieuwe registratie in het formulier probeert te maken, wordt het formulier **Een sjabloon selecteren voor...** weergegeven. Wanneer u een sjabloon uit de lijst selecteert, wordt de nieuwe registratie gemaakt en deze bevat standaardinformatie die gebaseerd is op het door u geselecteerde sjabloon. Schakel het selectievakje **De vraag niet meer stellen** in het formulier **Een sjabloon selecteren voor...** in als u bij het maken van nieuwe registraties geen sjabloon wilt gebruiken. Wilt u dit dialoogvenster opnieuw weergeven, dan klikt u met de rechtermuisknop op een record, klikt u op **Recordinfo** en vervolgens op **Sjabloonselectie weergeven**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688254"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744536"
 ---
 # <a name="general-troubleshooting"></a>Algemene problemen oplossen
 
@@ -65,23 +65,23 @@ Voer de volgende stappen uit om het traceerlogboek in te schakelen.
 
 1. Meld u aan bij de modelgestuurde-app in Dynamics 365, open de pagina **Instellingen** en selecteer vervolgens onder **Systeem** de optie **Beheer**.
 2. Selecteer op de pagina **Beheer** de optie **Systeeminstellingen**.
-3. Ga naar het tabblad **Aanpassen** en selecteer in het veld **Traceren van invoegtoepassing en aangepaste werkstroomactiviteit** **Alle** om het traceerlogboek voor invoegtoepassingen in te schakelen. Als u traceerlogboeken alleen wilt vastleggen wanneer er uitzonderingen optreden, kunt u in plaats daarvan **Uitzondering** selecteren.
+3. Ga naar het tabblad **Aanpassen** en selecteer in de kolom **Traceren van invoegtoepassing en aangepaste werkstroomactiviteit** **Alle** om het traceerlogboek voor invoegtoepassingen in te schakelen. Als u traceerlogboeken alleen wilt vastleggen wanneer er uitzonderingen optreden, kunt u in plaats daarvan **Uitzondering** selecteren.
 
 
 Voer de volgende stappen uit om het traceerlogboek weer te geven.
 
 1. Meld u aan bij de modelgestuurde-app in Dynamics 365, open de pagina **Instellingen** en selecteer vervolgens onder **Systeem** de optie **Traceerlogboek invoegtoepassing**.
-2. Zoek de traceerlogboeken waarvoor het veld **Type naam** is ingesteld op **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
+2. Zoek de traceerlogboeken waarvoor de kolom **Type naam** is ingesteld op **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Dubbelklik op een item om het volledige logboek weer te geven en controleer vervolgens op het sneltabblad **Uitvoering** de tekst **Bericht blokkeren**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>De modus Foutopsporing inschakelen om live synchronisatieproblemen in Finance and Operations-apps op te lossen
 
 **Vereiste rol om de fouten weer te geven**: fouten van systeembeheerder met Twee keer wegschrijven die zijn ontstaan in Dataverse, kunnen worden weergegeven in de Finance and Operations-app. In sommige gevallen is de volledige tekst van het foutbericht niet beschikbaar omdat het bericht te lang is of persoonlijke identificatie gegevens (PII) bevat. U kunt uitgebreide logboekregistratie voor fouten inschakelen door de volgende stappen uit te voeren.
 
-1. Alle projectconfiguraties in Finance and Operations-apps hebben een eigenschap **IsDebugMode** in de entiteit **DualWriteprojectConfiguration**. Open de entiteit **DualWriteProjectConfiguration** met de Excel-invoegtoepassing.
+1. Alle projectconfiguraties in Finance and Operations-apps hebben een eigenschap **IsDebugMode** in de tabel **DualWriteprojectConfiguration**. Open de tabel **DualWriteProjectConfiguration** met de Excel-invoegtoepassing.
 
     > [!TIP]
-    > Een eenvoudige manier om de entiteit te openen is om de **ontwerp** modus in de Excel-invoegtoepassing in te schakelen en vervolgens **DualWriteprojectConfigurationEntity** toe te voegen aan het werkblad. zie [Entiteitsgegevens in Excel openen en bijwerken via de Excel-invoegtoepassing](../../office-integration/use-excel-add-in.md) voor meer informatie.
+    > Een eenvoudige manier om de tabel te openen is om de **ontwerp** modus in de Excel-invoegtoepassing in te schakelen en vervolgens **DualWriteprojectConfigurationEntity** toe te voegen aan het werkblad. Zie [Tabelgegevens in Excel openen en bijwerken via de Excel-invoegtoepassing](../../office-integration/use-excel-add-in.md) voor meer informatie.
 
 2. Stel de eigenschap **IsDebugMode** in op **Ja** voor het project.
 3. Voer het scenario uit dat fouten genereert.
@@ -118,10 +118,7 @@ U kunt nu een nieuwe omgeving koppelen.
 Wanneer u een verkooporder maakt in Dynamics 365 Sales, kunt u door te klikken op **+ Producten toevoegen** worden omgeleid naar het formulier Dynamics 365 Project Operations-orderregel. U kunt vanuit dat formulier niet het **informatieformulier** over de verkooporderregel weergeven. De optie voor **informatie** wordt niet weergegeven in de vervolgkeuzelijst onder **Nieuwe orderregel**. Dit gebeurt omdat Project Operations in uw omgeving is geïnstalleerd.
 
 Ga als volgt te werk om de optie voor het formulier **Informatie** opnieuw in te schakelen:
-1. Ga naar de entiteit **Orderregel**.
+1. Ga naar de tabel **Orderregel**.
 2. Zoek het formulier **Informatie** onder het knooppunt met formulieren. 
 3. Selecteer het formulier **Informatie** en klik op **Beveiligingsrollen inschakelen**. 
 4. Wijzig de beveiligingsinstelling in **Weergeven aan iedereen**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

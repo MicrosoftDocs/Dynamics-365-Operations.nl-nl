@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 731efd3ae841960f3a2c0b9be210c5c68ac835f5
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d2c22123d5f05945b34eb107c5b912852aec387a
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685504"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744460"
 ---
 # <a name="switch-between-vendor-designs"></a>Schakelen tussen leverancierontwerpen
 
@@ -35,7 +35,7 @@ ms.locfileid: "4685504"
 
 ## <a name="vendor-data-flow"></a>Leveranciersgegevensstroom 
 
-Als u ervoor kiest om de entiteit **Rekening** te gebruiken voor de opslag van leveranciers van het type **Organisatie** en de entiteit **Contactpersoon** om leveranciers van het type **Persoon** op te slaan, configureert u de volgende werkstromen. Anders is deze configuratie niet vereist.
+Als u ervoor kiest om de tabel **Rekening** te gebruiken voor de opslag van leveranciers van het type **Organisatie** en de tabel **Contactpersoon** om leveranciers van het type **Persoon** op te slaan, configureert u de volgende werkstromen. Anders is deze configuratie niet vereist.
 
 ## <a name="use-the-extended-vendor-design-for-vendors-of-the-organization-type"></a>Het uitgebreide leveranciersontwerp gebruiken voor leveranciers van het type Organisatie
 
@@ -48,18 +48,18 @@ Het oplossingspakket **Dynamics365FinanceExtended** bevat de volgende sjablonen 
 
 Ga als volgt te werk om nieuwe werkstroomprocessen te maken op basis van de werkstroomprocessjablonen.
 
-1. Maak een nieuw werkstroomproces voor de entiteit **Leverancier** en selecteer de werkstroomprocessjabloon **Leveranciers maken in tabel Accounts**. Selecteer vervolgens **OK**. Deze workflow verwerkt het scenario voor het maken van de entiteit **Account**.
+1. Maak een werkstroomproces voor de tabel **Leverancier** en selecteer de werkstroomprocessjabloon **Leveranciers maken in tabel Rekeningen**. Selecteer vervolgens **OK**. Deze werkstroom verwerkt het scenario voor het maken van de tabel **Rekening**.
 
     ![Het werkstroomproces Leveranciers maken in tabel Accounts](media/create_process.png)
 
-2. Maak een nieuw werkstroomproces voor de entiteit **Leverancier** en selecteer de werkstroomprocessjabloon **Leveranciers bijwerken in tabel Accounts**. Selecteer vervolgens **OK**. Deze workflow verwerkt het scenario voor het bijwerken van de entiteit **Account**.
-3. Maak een nieuw werkstroomproces voor de entiteit **Account** en selecteer de werkstroomprocessjabloon **Leveranciers maken in tabel Leveranciers**.
-4. Maak een nieuw werkstroomproces voor de entiteit **Account** en selecteer de werkstroomprocessjabloon **Leveranciers bijwerken in tabel Leveranciers**.
+2. Maak een werkstroomproces voor de tabel **Leverancier** en selecteer de werkstroomprocessjabloon **Leveranciers bijwerken in tabel Rekeningen**. Selecteer vervolgens **OK**. Deze werkstroom verwerkt het scenario voor het bijwerken van de tabel **Rekening**.
+3. Maak een werkstroomproces voor de tabel **Rekening** en selecteer de werkstroomprocessjabloon **Leveranciers maken in tabel Leveranciers**.
+4. Maak een werkstroomproces voor de tabel **Rekening** en selecteer de werkstroomprocessjabloon **Leveranciers bijwerken in tabel Leveranciers**.
 5. U kunt de werkstromen configureren als realtime werkstromen of werkstromen op de achtergrond, afhankelijk van uw vereisten. Als u een werkstroom als een achtergrondwerkstroom wilt configureren, selecteert u **Converteren naar een workflow op de achtergrond**.
 
     ![De knop Converteren naar een workflow op de achtergrond](media/background_workflow.png)
 
-6. Activeer de werkstromen die u hebt gemaakt voor de tabellen **Account** en **Leverancier** om de entiteit **Account** te gebruiken voor het opslaan van leveranciersgegevens van het type **Organisatie**.
+6. Activeer de werkstromen die u hebt gemaakt voor de tabellen **Rekening** en **Leverancier** om de tabel **Rekening** te gebruiken voor het opslaan van leveranciersgegevens van het type **Organisatie**.
 
 ## <a name="use-the-extended-vendor-design-for-vendors-of-the-person-type"></a>Het uitgebreide leveranciersontwerp gebruiken voor leveranciers van het type Persoon
 
@@ -72,12 +72,9 @@ Het oplossingspakket **Dynamics365FinanceExtended** bevat de volgende sjablonen 
 
 Ga als volgt te werk om nieuwe werkstroomprocessen te maken op basis van de werkstroomprocessjablonen.
 
-1. Maak een nieuw werkstroomproces voor de entiteit **Leverancier** en selecteer de werkstroomprocessjabloon **Leveranciers van het type Persoon maken in tabel Contactpersonen**. Selecteer vervolgens **OK**. Deze werkstroom verwerkt het scenario voor het maken van de entiteit **Contactpersoon**.
-2. Maak een nieuw werkstroomproces voor de entiteit **Leverancier** en selecteer de werkstroomprocessjabloon **Leveranciers van het type Persoon bijwerken in tabel Contactpersonen**. Selecteer vervolgens **OK**. Deze werkstroom verwerkt het scenario voor het bijwerken van de entiteit **Contactpersoon**.
-3. Maak een nieuw werkstroomproces voor de entiteit **Contactpersoon** en selecteer de sjabloon **Leveranciers van het type Persoon maken in tabel Leveranciers**.
-4. Maak een nieuw werkstroomproces voor de entiteit **Contactpersoon** en selecteer de sjabloon **Leveranciers van het type Persoon bijwerken in tabel Leveranciers**.
+1. Maak een werkstroomproces voor de tabel **Leverancier** en selecteer de werkstroomprocessjabloon **Leveranciers van het type Persoon maken in tabel Contactpersonen**. Selecteer vervolgens **OK**. Deze werkstroom verwerkt het scenario voor het maken van de tabel **Contactpersoon**.
+2. Maak een nieuw werkstroomproces voor de tabel **Leverancier** en selecteer de werkstroomprocessjabloon **Leveranciers van het type Persoon bijwerken in tabel Contactpersonen**. Selecteer vervolgens **OK**. Deze werkstroom verwerkt het scenario voor het bijwerken van de tabel **Contactpersoon**.
+3. Maak een werkstroomproces voor de tabel **Contactpersoon** en selecteer de sjabloon **Leveranciers van het type Persoon maken in tabel Leveranciers**.
+4. Maak een werkstroomproces voor de tabel **Contactpersoon** en selecteer de sjabloon **Leveranciers van het type Persoon bijwerken in tabel Leveranciers**.
 5. U kunt de werkstromen configureren als realtime werkstromen of werkstromen op de achtergrond, afhankelijk van uw vereisten. Als u een werkstroom als een achtergrondwerkstroom wilt configureren, selecteert u **Converteren naar een workflow op de achtergrond**.
-6. Activeer de werkstromen die u hebt gemaakt voor de tabellen **Contactpersoon** en **Leverancier** om de entiteit **Contactpersoon** te gebruiken voor het opslaan van leveranciersgegevens van het type **Persoon**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+6. Activeer de werkstromen die u hebt gemaakt voor de tabellen **Contactpersoon** en **Leverancier** om de tabel **Contactpersoon** te gebruiken voor het opslaan van leveranciersgegevens van het type **Persoon**.

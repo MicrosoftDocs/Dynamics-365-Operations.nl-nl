@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4fe97ca8e1eecdc064ad4d21d5acdeade9f33d9c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694490"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798422"
 ---
 # <a name="create-alert-rules"></a>Waarschuwingsregels maken
 
@@ -40,7 +40,7 @@ De batchtaken voor gegevenswijziging en waarschuwingen bij vervaldatums moeten w
 
 De gebeurtenis die een waarschuwingsregel activeert kan datum zijn die binnenkomt of een bepaalde wijziging die plaatsvindt. Triggers voor gebeurtenissen worden gedefinieerd op het sneltabblad **Waarschuw mij wanneer** van het dialoogvenster **Waarschuwingsregel maken**. Welke gebeurtenissen beschikbaar zijn voor een bepaald veld, is afhankelijk van de geselecteerde trigger.
 
-Als u bijvoorbeeld een waarschuwingsregel wilt instellen voor het veld **Begindatum**, zijn gebeurtenissen met een vervaldatum geschikt. Daarom is het gebeurtenistype **vervalt in** beschikbaar voor dit veld. Voor een veld zoals **Kostenplaats** is een gebeurtenis met vervaldatum niet geschikt. Daarom is het gebeurtenistype **vervalt in** niet beschikbaar. In plaats daarvan is het gebeurtenistype **gewijzigd in** beschikbaar.
+Als u bijvoorbeeld een waarschuwingsregel wilt instellen voor het veld **Begindatum**, zijn gebeurtenissen met een vervaldatum geschikt. Daarom is het gebeurtenistype `is due in` beschikbaar voor dat veld. Voor een veld zoals **Kostenplaats** is een gebeurtenis met vervaldatum niet geschikt. Daarom is het gebeurtenistype `is due in` niet beschikbaar. In plaats daarvan is het gebeurtenistype `has changed` beschikbaar.
 
 ## <a name="event-types"></a>Gebeurtenistypen
 
@@ -77,7 +77,7 @@ Geef op het sneltabblad **Waarschuwing voor wie** van het dialoogvenster **Waars
 
 ## <a name="alerts-as-business-events"></a>Waarschuwingen als zakelijke gebeurtenissen
 
-Waarschuwingen kunnen extern worden verzonden via het raamwerk voor zakelijke gebeurtenissen. Stel bij het maken van een waarschuwing **In gehele organisatie** in op **Nee** en stel **Extern verzenden** in op **Ja**. Nadat u de waarschuwing hebt geactiveerd die de zakelijke gebeurtenis heeft geactiveerd, kunt u een stroom activeren die is gebouwd in Power Automate met de trigger **Als zich een zakelijke gebeurtenis voordoet** op de Finance and Operations-connector of de gebeurtenis expliciet naar een eindpunt voor zakelijke gebeurtenissen verzenden via de **catalogus met zakelijke gebeurtenissen**.
+U kunt waarschuwingen extern verzenden via het raamwerk voor zakelijke gebeurtenissen. Stel bij het maken van een waarschuwing **In gehele organisatie** in op **Nee** en stel **Extern verzenden** in op **Ja**. Nadat u de waarschuwing hebt geactiveerd die de zakelijke gebeurtenis heeft geactiveerd, kunt u een stroom activeren die is gebouwd in Power Automate met de trigger **Als zich een zakelijke gebeurtenis voordoet** op de Finance and Operations-connector of de gebeurtenis expliciet naar een eindpunt voor zakelijke gebeurtenissen verzenden via de **catalogus met zakelijke gebeurtenissen**.
 
 ## <a name="create-an-alert-rule"></a>Een waarschuwingsregel maken
 
@@ -86,22 +86,19 @@ Waarschuwingen kunnen extern worden verzonden via het raamwerk voor zakelijke ge
 2. Selecteer in het Actievenster op het tabblad **Opties** in de groep **Delen** de optie **Een waarschuwingsregel maken**.
 3. Selecteer in het dialoogvenster **Waarschuwingsregel maken** in het veld **Veld** het veld dat gecontroleerd moet worden.
 4. Selecteer in het veld **Gebeurtenis** het type gebeurtenis.
-5. Selecteer de gewenste optie op het sneltabblad **Waarschuw mij voor**. Als u de waarschuwing als een zakelijke gebeurtenis wilt verzenden, moet u ervoor zorgen dat **In de hele organisatie** is ingesteld op **Nee**.
+5. Selecteer de gewenste optie op het sneltabblad **Waarschuw mij voor**. Als u de waarschuwing als een zakelijke gebeurtenis wilt verzenden, stelt u de waarde **In de hele organisatie** in op **Nee**.
 6. Als u wilt dat de waarschuwingsregel op een bepaalde datum inactief wordt, selecteert u een einddatum in het snelttabblad **Waarschuw mij tot**.
-7. Accepteer op het sneltabblad **Waarschuw mij met** in het veld **Onderwerp** de standaard onderwerpkoptekst voor het e-mailbericht of voer een nieuw onderwerp in. De tekst wordt gebruikt als de onderwerpkoptekst voor het e-mailbericht dat u ontvangt als er een waarschuwing wordt geactiveerd. Als u de waarschuwing als een zakelijke gebeurtenis wilt verzenden, stelt u **Extern verzenden** in op **Ja**.
-8. Voer desgewenst een bericht in het veld **Bericht** in. De tekst wordt gebruikt als het bericht dat u ontvangt als er een waarschuwing wordt geactiveerd.
+7. Accepteer op het sneltabblad **Waarschuw mij met** in het veld **Onderwerp** de standaard onderwerpkoptekst voor het e-mailbericht of voer een nieuw onderwerp in. De tekst wordt de onderwerpkoptekst voor het e-mailbericht dat u ontvangt als er een waarschuwing wordt geactiveerd. Als u de waarschuwing als een zakelijke gebeurtenis wilt verzenden, stelt u **Extern verzenden** in op **Ja**.
+8. Voer desgewenst een bericht in het veld **Bericht** in. De tekst wordt het bericht dat u ontvangt als er een waarschuwing wordt geactiveerd.
 9. Selecteer **OK** om de instellingen op te slaan en de waarschuwingsregel te maken.
 
 ## <a name="limitations-and-workarounds"></a>Beperkingen en oplossingen
 
 ### <a name="workaround-for-creating-alerts-for-the-secondary-data-sources-of-a-form"></a>Oplossing voor het maken van waarschuwingen voor de secundaire gegevensbronnen van een formulier
-Er kunnen geen waarschuwingen worden gemaakt voor bepaalde secundaire gegevensbronnen op formulieren. Wanneer u bijvoorbeeld waarschuwingen maakt voor het formulier voor boekingsprofielen van klanten of leveranciers, zijn alleen de velden in de koptekst (CustLedger of VendLedger) beschikbaar en niet de dimensierekeningen. De oplossing voor deze beperking is het gebruik van **SysTableBrowser** om die tabel als primaire gegevensbron te openen. 
+U kunt geen waarschuwingen maken voor bepaalde secundaire gegevensbronnen op formulieren. Wanneer u bijvoorbeeld waarschuwingen maakt voor het formulier voor boekingsprofielen van klanten of leveranciers, zijn alleen de velden in de koptekst (CustLedger of VendLedger) beschikbaar en niet de dimensierekeningen. De oplossing voor deze beperking is het gebruik van **SysTableBrowser** om die tabel als primaire gegevensbron te openen. 
 1. Open de tabel in het formulier **SysTableBrowser**.
     ```
         https://<EnvironmentURL>/?cmp=USMF&mi=SysTableBrowser&TableName=<TableName>
     ```
 2. Maak een waarschuwing in het formulier SysTableBrowser.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

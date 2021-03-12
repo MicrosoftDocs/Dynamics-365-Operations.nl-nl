@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3d0e414b12043a72a447f62bf353e84654b0df1
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 368569f2cdd389b6fc99ddcf05f35cc9a750ec9e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694330"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797040"
 ---
 # <a name="organizations-and-organizational-hierarchies-overview"></a>Overzicht van Organisaties en organisatiehiërarchieën
 
@@ -67,6 +67,3 @@ Hiermee definieert u organisatiehiërarchieën waarmee u verschillende aspecten 
 Aan elke hiërarchie wordt een doel toegewezen. Het doel van een hiërarchie bepaalt welke organisatietypen kunnen worden opgenomen in de hiërarchie. Het doel bepaalt ook de aanvraagscenario's waarbinnen een hiërarchie kan worden gebruikt.
 
 In organisaties in een hiërarchie kunnen parameters, beleid en transacties worden gedeeld. Een organisatie kan de parameters van de bovenliggende organisatie overnemen of vervangen. Gedeelde hoofdgegevens, zoals producten en adresboeken, zijn echter van toepassing op de hele organisatie en kunnen niet worden vervangen voor afzonderlijke organisaties. Voor het maken van organisaties en hiërarchieën is een zorgvuldige planning vereist. Voor meer informatie raadpleegt u [Uw organisatiehiërarchie plannen](plan-organizational-hierarchy.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

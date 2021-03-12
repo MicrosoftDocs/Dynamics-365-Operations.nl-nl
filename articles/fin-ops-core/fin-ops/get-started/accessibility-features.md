@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 332306abbd4eedb725efbf6022940c59419e1747
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693841"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798690"
 ---
 # <a name="accessibility-features"></a>Toegankelijkheidsopties
 
@@ -97,6 +97,3 @@ Op smartphones en andere kleine schermen zullen de besturingselementen en de for
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Richtlijnen om ontwikkelaars en klanten toegankelijk denken in hun aanpassingen te laten verwerken
 
 Zie [Toegankelijkheid in formulieren, producten en besturingselementen](../../dev-itpro/user-interface/enable-accessibility.md) voor meer informatie over best practices van Microsoft om de toegankelijkheid te vergroten.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

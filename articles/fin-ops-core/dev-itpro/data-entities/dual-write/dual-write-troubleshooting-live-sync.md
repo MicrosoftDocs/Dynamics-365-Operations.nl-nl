@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685558"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744608"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Problemen met live synchronisatie oplossen
 
@@ -46,11 +46,11 @@ Mogelijk wordt het volgende foutbericht weergegeven wanneer u een rij in een Fin
 
 Volg de stappen in [Systeemvereisten en vereisten vooraf](requirements-and-prerequisites.md) om het probleem op te lossen. Om deze stappen te voltooien moeten de gebruikers van de toepassing voor twee keer wegschrijven die in Dataverse gemaakt zijn, beschikken over de rol systeembeheerder. Het standaardteam van eigenaar moet ook de rol systeembeheerder hebben.
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Met live synchronisatie voor een entiteit wordt steeds een vergelijkbare fout gegenereerd wanneer u een rij in een Finance and Operations-app maakt
+## <a name="live-synchronization-for-any-table-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>Met live synchronisatie voor een tabel wordt steeds een vergelijkbare fout gegenereerd wanneer u een rij in een Finance and Operations-app maakt
 
 **Vereiste rol om de fout op te lossen:** systeembeheerder
 
-Er wordt een foutbericht van de volgende strekking weergegeven wanneer u entiteitsgegevens wilt opslaan in een Finance and Operations-app:
+Er wordt een foutbericht van de volgende strekking weergegeven wanneer u tabelgegevens wilt opslaan in een Finance and Operations-app:
 
 *De wijzigingen in de database kunnen niet worden opgeslagen. Werkeenheid kan transactie niet doorvoeren. Kan geen gegevens schrijven in maateenheid van entiteit. Schrijven naar UnitOfMeasureEntity is mislukt met foutbericht Kan niet synchroniseren met maateenheden van entiteit.*
 
@@ -58,8 +58,8 @@ Om het probleem op te lossen moet u ervoor zorgen dat de vereiste verwijzingsgeg
 
 Voer de volgende stappen uit als er aan beide zijden gegevens voorkomen en u hebt bevestigd dat het probleem niet samenhangt met gegevens:
 
-1. Stop de gerelateerde entiteit.
-2. Meld u aan bij de Finance and Operations-app en zorg ervoor dat er rijen bestaan voor de entiteit die de fout veroorzaakt in de tabellen DualWriteprojectConfiguration en DualWriteprojectFieldConfiguration. Hier ziet u bijvoorbeeld hoe de query eruitziet als de entiteit **Klanten** een fout veroorzaakt.
+1. Stop de gerelateerde tabel.
+2. Meld u aan bij de Finance and Operations-app en zorg ervoor dat er rijen bestaan voor de tabel die de fout veroorzaakt in de tabellen DualWriteprojectConfiguration en DualWriteprojectFieldConfiguration. Hier ziet u bijvoorbeeld hoe de query eruitziet als de tabel **Klanten** een fout veroorzaakt.
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -68,7 +68,7 @@ Voer de volgende stappen uit als er aan beide zijden gegevens voorkomen en u heb
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. Als er rijen zijn voor de foutieve entiteit, zelfs nadat u de tabeltoewijzing hebt gestopt, verwijdert u de rijen die zijn gerelateerd aan de entiteit die de fout veroorzaakt. Noteer de kolom **projectnaam** in de tabel DualWriteprojectConfiguration en haal de record op in de DualWriteprojectFieldConfiguration-tabel door de naam van het project te gebruiken om de rij te verwijderen.
+3. Als er rijen zijn voor de foutieve tabel, zelfs nadat u de tabeltoewijzing hebt gestopt, verwijdert u de rijen die zijn gerelateerd aan de tabel die de fout veroorzaakt. Noteer de kolom **projectnaam** in de tabel DualWriteprojectConfiguration en haal de rij op in de DualWriteprojectFieldConfiguration-tabel door de naam van het project te gebruiken om de rij te verwijderen.
 4. Start de tabeltoewijzing. Controleer of de gegevens zonder problemen worden gesynchroniseerd.
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Fouten met lees- of schrijfbevoegdheid oplossen wanneer u gegevens maakt in een Finance and Operations-app
@@ -127,6 +127,3 @@ Volg deze stappen om het probleem op te lossen.
 
 3. Controleer of de kolom **externalenvironmentURL** de juiste URL voor Dataverse of de app heeft. Verwijder dubbele rijen die naar de verkeerde Dataverse-URL verwijzen. Verwijder de overeenkomstige rijen uit de tabellen DUALWRITEPROJECTFIELDCONFIGURATION en DUALWRITEPROJECTCONFIGURATION.
 4. De tabeltoewijzing stoppen en vervolgens opnieuw starten
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

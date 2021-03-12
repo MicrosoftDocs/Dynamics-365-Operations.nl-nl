@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: ea741e3d4b3a6ce93a30c9d8c8adc7c91b513871
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694131"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798544"
 ---
 # <a name="before-you-buy"></a>Voordat u gaat kopen
 
@@ -30,7 +30,7 @@ Nieuw bij Dynamics 365 Finance, Dynamics 365 Supply Chain Management of Dynamics
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>Stap 1: Finance and Operations gratis uitproberen gedurende 30 dagen
 
-U kunt Dynamics 365 for Finance, Dynamics 365 Supply Chain Management of Dynamics 365 Commerce 30 dagen lang uitproberen via een eenvoudige e-aanmelding. De evaluatieversie van Finance and Operations-toepassingen bevat de taakhandleiding Aan de slag met stapsgewijze instructies waarmee u specifieke scenario's in actie kunt weergeven. Het product is beschikbaar voor het verkennen en uitvoeren van scenario's, maar kan niet worden aangepast. Demonstratiegegevens zijn opgenomen om het gebruik van het product te vereenvoudigen en de ervaring duidelijker te maken. Per e-mail ontvangt u 3 dagen vóór de afloop van de evaluatie een herinnering. Meer informatie vindt u op [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations).
+U kunt Dynamics 365 for Finance, Dynamics 365 Supply Chain Management of Dynamics 365 Commerce 30 dagen lang uitproberen via een eenvoudige e-aanmelding. De evaluatieversie van Finance and Operations-toepassingen bevat de taakhandleiding Aan de slag met stapsgewijze instructies waarmee u specifieke scenario's in actie kunt weergeven. Het product is beschikbaar voor het verkennen en uitvoeren van scenario's, maar kan niet worden aangepast. Demonstratiegegevens zijn opgenomen om het gebruik van het product te vereenvoudigen en de ervaring duidelijker te maken. Per e-mail ontvangt u 3 dagen vóór de afloop van de evaluatie een herinnering. Meer informatie vindt u op [Aanmelden voor preview-abonnementen](../../dev-itpro/dev-tools/sign-up-preview-subscription.md#subscribe).
 
 ## <a name="step-two-choose-a-deployment-option"></a>Stap twee: Kies een optie voor implementatie
 
@@ -93,6 +93,3 @@ Microsoft FastTrack for Dynamics 365 is onze succesvolle klantenservice die is b
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Als u een upgrade uitvoert van Dynamics AX 2012 of migreert van AX 2009
 
 Als u een upgrade uitvoert van Microsoft Dynamics AX 2012 of migreert van Microsoft Dynamics AX 2009, is het mogelijk dat u in aanmerking komt voor een langere evaluatieperiode. Neem contact op <daxcf@microsoft.com> voor meer informatie.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
