@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b302c5ace34a11a53a98c733b59633a11a463bfa
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e060f20b65153a7bbe70996e6ff4c3930468348a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425221"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992240"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Hoofdplanning met inkoophandelsovereenkomsten
 
@@ -74,22 +73,19 @@ Nadat het systeem is voorbereid zoals is beschreven in het vorige gedeelte, moet
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Voorbeelden van de manier waarop in Planningsoptimalisatie leveranciers en levertijden worden gevonden
 
-De volgende tabel bevat voorbeelden die laten zien hoe verschillende instellingen voor een vrijgegeven product en de bijbehorende inkoophandelsovereenkomsten van invloed zijn op de waarden die voor de resulterende geplande inkooporder zijn gevonden. De **vette** waarden in de twee kolommen uiterst rechts zijn de waarden die zijn geselecteerd door Planningsoptimalisatie. De ***vette en cursieve*** waarden in de andere kolommen zijn de instellingen die de resulterende waarden voor elke rij hebben opgeleverd.
+De volgende tabel bevat voorbeelden die laten zien hoe verschillende instellingen voor een vrijgegeven product en de bijbehorende inkoophandelsovereenkomsten van invloed zijn op de waarden die voor de resulterende geplande inkooporder zijn gevonden. De **vette** waarden in de twee kolommen uiterst rechts zijn de waarden die zijn geselecteerd door Planningsoptimalisatie. De *_vette en cursieve_* waarden in de andere kolommen zijn de instellingen die de resulterende waarden voor elke rij hebben opgeleverd.
 
 | Vrijgegeven product: Leverancier | Standaard orderinstellingen: Levertijd | Artikelbehoefteplanning: Leverancier overschrijven | Artikelbehoefteplanning: Levertijd overschrijven | Handelsovereenkomst: Leverancier | Handelsovereenkomst: Levertijd | Handelsovereenkomst: Levertijd negeren | Resulterende leverancier | Resulterende levertijd |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ***US001*** | ***1*** | No | No | US003 | 3 | No | **US001** | **1** |
-| US001 | 1 | ***Ja: US002*** | ***Ja: 2*** | US003 | 3 | No | **US002** | **2** |
-| *(Leeg)* | 1 | No | No | ***US003*** | ***3*** | No | **US003** | **3** |
-| *(Leeg)* | ***1*** | No | No | ***US003*** | 3 | Ja | **US003** | **1** |
-| *(Leeg)* | ***1*** | ***Ja: US002*** | No | US003 | 3 | No | **US002** | **1** |
-| *(Leeg)* | ***1*** | ***Ja: US002*** | No | US003 | 3 | No | **US002** | **1** |
-| *(Leeg)* | 1 | No | Ja: 2 | ***US003*** | ***3*** | No | **US003** | **3** |
-| *(Leeg)* | 1 | No | ***Ja: 2*** | ***US003*** | 3 | Ja | **US003** | **2** |
+| _*_US001_*_ | _*_1_*_ | No | No | US003 | 3 | No | _ *US001** | **1** |
+| US001 | 1 | **_Ja: US002_* _ | _*_Ja: 2_*_ | US003 | 3 | No | _ *US002** | **2** |
+| *(Leeg)* | 1 | No | No | ***US003** _ | _*_3_*_ | No | _ *US003** | **3** |
+| *(Leeg)* | ***1** _ | No | No | _*_US003_*_ | 3 | Ja | _ *US003** | **1** |
+| *(Leeg)* | ***1** _ | _*_Ja: US002_*_ | No | US003 | 3 | No | _ *US002** | **1** |
+| *(Leeg)* | ***1** _ | _*_Ja: US002_*_ | No | US003 | 3 | No | _ *US002** | **1** |
+| *(Leeg)* | 1 | No | Ja: 2 | ***US003** _ | _*_3_*_ | No | _ *US003** | **3** |
+| *(Leeg)* | 1 | No | ***Ja: 2** _ | _*_US003_*_ | 3 | Ja | _ *US003** | **2** |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Inkoopovereenkomsten](../../procurement/purchase-agreements.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

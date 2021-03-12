@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1d33dbbd37daaa75f4b64359194a2328728b27f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a2aa1980ebc1fa8412fc388e7837bc40b6902bc0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441834"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991233"
 ---
 # <a name="credit-management-setup"></a>Instellingen voor kredietbeheer 
 
@@ -153,6 +152,3 @@ Volg deze stappen om regels toe te voegen die de kredietlimiet aangeven die word
 2. Selecteer de vergelijkingsoperator waarmee wordt gedefinieerd hoe de informatie over de scoregroep moet worden geëvalueerd.
 3. Voer de waarde in die moet worden vergeleken met de waarde die is opgegeven voor de scoregroep.
 4. Voer de kredietlimiet in die moet worden toegewezen als de klantgegevens overeenkomen met de waarde die is opgegeven voor de scoregroep. U kunt bijvoorbeeld een automatische kredietlimiet maken voor de scoregroep **Laag**. Als het aantal jaren in bedrijf een van de scoregroepen is, kunt u één regel definiëren die een kredietlimiet van 100.000 toewijst als de klant vijf jaar in bedrijf is en een andere regel die een kredietlimiet van 200.000 limiet toewijst als de klant 10 jaar in bedrijf is.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

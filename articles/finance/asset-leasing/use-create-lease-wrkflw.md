@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1805e1f87ee70a1f35d9105b8f7ad6c95861efcc
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 1086231c65a726df5162d3593419a129d6ae5655
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4442177"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992753"
 ---
 # <a name="use-lease-approval-workflows"></a>Goedkeuringswerkstromen voor lease gebruiken
 
@@ -45,6 +44,3 @@ Voordat u deze procedure gaat gebruiken, moet u ervoor zorgen dat ten minste Ã©Ã
 
 8. Als u een werkstroom wilt stoppen, selecteert u op de pagina **Werkstroomhistorie** de optie **Intrekken**. Voer in het dialoogvenster dat verschijnt een opmerking in en selecteer vervolgens **OK**.
 9. Als u een werkstroom wilt deactiveren of een eerder gemaakte werkstroom wilt activeren, gaat u naar **Activa leasen \> Instellingen \> Leasewerkstroom**. Selecteer vervolgens op de pagina **Leasewerkstroom** **Werkstroom \> Versies**. Als u een huidige werkstroom wilt deactiveren, selecteert u de actieve lease in het dialoogvenster Leaseversie en selecteert u **Deactiveren**. Als u een bestaande werkstroom wilt activeren, selecteert u de werkstroom en selecteert u **Activeren**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
