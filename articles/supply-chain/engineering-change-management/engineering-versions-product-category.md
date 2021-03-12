@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgLookupDynastring, EngChgProductVersionNumberRule, EngChgEcmProductRoute, EngChgEcmRequestProducts, EngChgEcmProductRoute, EngChgEcmProductPreview,EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmProductCreate, EngChgEcmProductLookup, EngChgProductVersionPrCompany, ngChgProductTypeLookup, EngChgProductType, EngChgProductItemPart, EngChgProductItem, EngChgEcmCategory, EngChgEcmBomDesignerEditBom, EngChgEcmBomDesigner, EngChgEcmBOMCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3eb5b5c4304b393008ecc5f5ff5a663295ed0d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: c15dcd0adfcf9b9022a919bd516dcf5117ea5041
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4425890"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987474"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Technische versies van en categorieën voor technische producten
 
@@ -162,6 +161,3 @@ Technische stuklijsten en routes worden gemaakt op basis van de technische versi
 Voor producten waarvoor u de productversie *dimensie* gebruikt (samen met logistieke impact op de transacties) wordt de versie ook toegevoegd aan de stuklijsten en routes. Dit gedrag zorgt voor het onderscheid tussen stuklijsten en routes van opeenvolgende versies, ongeacht de instelling voor **Geldigheid afdwingen**.
 
 Voor producten waarvoor u de productversie *dimensie* niet gebruikt (zonder logistieke impact op de transacties) wordt de versie niet toegevoegd aan de stuklijsten of routes. Daarom is er geen verschil tussen de stuklijsten en routes van opeenvolgende versies. In dit geval is het raadzaam de optie **Geldigheid afdwingen** in te stellen op *Ja*. Op deze manier voorkomt u dat technische versies elkaar overlappen. U kunt ook de stuklijst en route van een nieuwere versie activeren zonder eerst de stuklijst en route van de vorige versie te deactiveren. Als u in dit geval de optie **Geldigheid afdwingen** op *Ja* instelt, moet u de stuklijsten en routes van oudere versies handmatig uitschakelen voordat u de meest recente versie kunt activeren.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

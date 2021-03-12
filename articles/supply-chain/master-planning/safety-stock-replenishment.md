@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended, ReqSafetyKeyDefaultDataWizard
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: ee5775826c4f7f499d015145a5e8f0f6c7a42903
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbc0ca146327fada1325f4b11965c23948d3565d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425220"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987249"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Afhandeling van veiligheidsvoorraad voor artikelen
 
@@ -116,6 +115,3 @@ De prioriteit van het afhandelen van transacties voor de vereiste van de veiligh
 Tijdens de behoefteplanningsfase van de hoofdplanning geldt de lagere prioriteit voor aanvulling van de veiligheidsvoorraad niet meer. Voorhanden voorraad kan worden gebruikt vóór alle andere vraagsoorten. Tijdens de berekening van vertraging wordt er nieuwe logica toegevoegd om de vertraagde verkoopregels, stuklijstregelbehoeften en alle andere soorten vraag te analyseren en te bepalen of een tijdige levering mogelijk is als de veiligheidsvoorraad wordt gebruikt. Als wordt vastgesteld dat vertragingen kunnen worden beperkt met veiligheidsvoorraad, wordt veiligheidsvoorraad gebruikt om te voorzien in de behoeften op de verkoop- of stuklijstregels en wordt vervolgens de veiligheidsvoorraad aangevuld.
 
 Als het plan of artikel niet is ingesteld voor de berekening van vertraging, heeft de beperking van veiligheidsvoorraad dezelfde prioriteit als andere soorten vraag. Dit betekent dat er een reserve voor voorhanden voorraad en andere beschikbare voorraad bestaat voor andere soorten vraag.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

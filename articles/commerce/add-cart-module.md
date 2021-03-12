@@ -3,7 +3,7 @@ title: Winkelwagenmodule
 description: In dit onderwerp wordt beschreven wat winkelwagenmodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/20/2020
+ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: abb9909c03577763ff7e6242c9395a58159df6ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4411534"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985974"
 ---
 # <a name="cart-module"></a>Winkelwagenmodule
 
@@ -53,6 +52,7 @@ De volgende afbeelding toont een voorbeeld van een winkelwagenpagina module op d
 | Kop | Koptekst en een tag voor koptekst (**H1**, **H2**, **H3**, **H4**, **H5** of **H6**) | De kop voor de winkelwagen zoals Boodschappentas of Artikelen in uw winkelwagen. |
 | Fouten voor niet op voorraad weergeven | **True** of **False** | Als deze eigenschap is ingesteld op **Waar**, worden op de pagina Winkelwagen fouten met betrekking tot de voorraad weergegeven. We raden u aan deze eigenschap in te stellen op **Waar** als voorraadcontrole wordt toegepast op de locatie. |
 | Verzendkosten voor regelartikelen weergeven | **True** of **False** | Als deze eigenschap is ingesteld op **Waar**, worden de verzendkosten voor de artikelen op de winkelwagenregels weergegeven als deze informatie beschikbaar is. Deze functie wordt niet ondersteund in het thema Fabrikam omdat gebruikers alleen verzending in de kassastroom selecteren. Deze functie kan echter worden ingeschakeld in andere werkstromen als dat van toepassing is. |
+| Beschikbare aanbiedingen weergeven| **True** of **False** | Als deze eigenschap is ingesteld op **Waar**, worden er op basis van de artikelen in de winkelwagen beschikbare promoties uitgevoerd. Deze mogelijkheid is beschikbaar in Dynamics 365 Commerce versie 10.0.16. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Modules die in de winkelwagenmodule kunnen worden gebruikt
 
@@ -117,6 +117,3 @@ Voer de volgende stappen uit om een winkelwagenmodule aan een nieuwe pagina toe 
 [Voorraadbeschikbaarheid voor detailhandelafzetkanalen berekenen](calculated-inventory-retail-channels.md)
 
 [Een online functionaliteitsprofiel maken](online-functionality-profile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

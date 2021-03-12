@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b6270bbb6780786ed4535ca2987ed44448bd81ad
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 19fab4f6b81eaf6e3605b6668212eece10606360
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4425903"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987573"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>De functies van Technisch wijzigingsbeheer
 
@@ -411,6 +410,3 @@ Het product kan nu weer worden vrijgegeven aan het bedrijf *USMF* en vervolgens 
 1. Selecteer elk bedrijf waarnaar u producten wilt vrijgeven.
 1. Selecteer **OK** om het dialoogvenster **Vrijgaven** te sluiten en terug te gaan naar de wijzigingsorder.
 1. Selecteer in het actievenster op het tabblad **Wijzigingsorder** in de groep **Productreleases** de optie **Verwerken** om de betrokken producten vrij te geven voor de geselecteerde bedrijven. U kunt ook **Productstructuur vrijgeven** selecteren om het vrijgaveproces te starten.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

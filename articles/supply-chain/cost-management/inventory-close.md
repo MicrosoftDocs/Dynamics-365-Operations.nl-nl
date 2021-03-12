@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4cad461c6ff4ef6badeeba868eef45165cf5d33
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1169ad784c07d0757990b36b618282ed7858bcbf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425419"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987548"
 ---
 # <a name="inventory-close"></a>Voorraad sluiten
 
@@ -60,7 +59,7 @@ Verschillende taken die u kunt voltooien op de pagina **Afsluiten en corrigeren*
 De grootboekrekeningen die vanwege deze taken worden bijgewerkt, worden gekoppeld aan de oorspronkelijke voorraadtransactie. Als bijvoorbeeld een verkooporder wordt vereffend met een inkooporder, worden de grootboekrekeningen die zijn gebruikt voor de oorspronkelijke verkooporder, gecorrigeerd. Dit geldt zelfs wanneer de grootboekrekeningen voor de artikelgroep die aan het artikel is toegewezen, zijn gewijzigd nadat de verkooporder is geboekt. Nadat door een voorraadafsluiting een vereffeningsbedrag is gemaakt, wordt het vereffeningsbedrag nog steeds naar de oorspronkelijke grootboekrekeningen geboekt, en niet naar de nieuwe grootboekrekeningen die aan het artikel zijn toegewezen. Het grootboek kan ook worden bijgewerkt door het omkeren van een voorraadafsluiting. 
 
 > [!NOTE] 
-> - Voorraadafsluiting is een vereiste stap in de maandafsluitingsprocedure voor alle voorraadmodellen. Dit omvat de standaard- en zwevende gemiddelde kostprijsberekening. U kunt de financiële periode pas afsluiten als er een voorraadafsluiting is uitgevoerd vanaf de einddatum van de periode.
+> - Voorraadafsluiting is een vereiste stap in de maandafsluitingsprocedure voor alle voorraadmodellen behalve voor voortschrijdend gemiddelde.  U wordt gewaarschuwd als u een financiële periode probeert af te sluiten zonder dat u eerst de voorraad sluit vanaf de einddatum van de periode.
 > - Voordat u de afsluitingsprocedure uitvoert, kunt u een lijst met artikelen weergeven die tijdens de update niet kunnen worden vereffend.
 > - Wij raden aan de voorraad buiten de kantoortijden af te sluiten om computerbronnen gelijkelijker te verdelen.
 
@@ -87,6 +86,3 @@ Soms zult u een voltooide voorraadafsluiting moeten omkeren en de vereffeningen 
 > [!NOTE] 
 > Alleen de laatste afgesloten voorraadperiode kan opnieuw worden geopend. Als u een eerdere voorraadafsluiting wilt omkeren, moet u de volgende voorraadafsluitingen een voor een omkeren, te beginnen met de meest recente afsluiting.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

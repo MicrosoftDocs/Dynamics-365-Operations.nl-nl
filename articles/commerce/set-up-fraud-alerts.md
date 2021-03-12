@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79103
 ms.assetid: e342af8d-7498-4d20-8483-ab368429c578
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 15950edd142b222a90bee7876718f4fc5c607468
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411456"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985781"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Fraudewaarschuwingen van callcenters instellen en gebruiken
 
@@ -69,6 +68,3 @@ De order wordt opgeslagen, maar de vlag **Niet verwerken** wordt ervoor ingestel
 Als u de orders wilt weergeven en beheren die in de wachtstand staan voor fraudecontrole, gaat u naar **Detailhandel en commerce** \> **Klanten** \> **Orderwachtstanden**. Selecteer op de pagina **Orderwachtstanden** een item in de lijst en klik vervolgens op **Orderwachtstand** om een gedetailleerdere weergave te zien met informatie over de reden voor de blokkering. Op het sneltabblad **Fraudedetails** ziet u de systematische fraudecriteria die als overeenkomst zijn gevonden voor de order en de scores die zijn toegepast. Als de order handmatig in de wachtstand is geplaatst, kunt u eventuele opmerkingen beoordelen die zijn ingevoerd door de gebruiker die de order in de wachtstand plaatste door te kijken naar het gedeelte **Fraudenotities** op het sneltabblad **Notities**.
 
 Zie voor meer informatie over hoe u werkt met orders in de wachtstand [Orderwachtstanden](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

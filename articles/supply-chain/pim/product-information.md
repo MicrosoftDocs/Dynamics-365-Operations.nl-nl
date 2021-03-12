@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace, EcoResProductVariantPerCompanyImagePart, EcoResProductRelationType,EcoResProductAvailabilityPart,  EcoResProductReleasedSelect, EcoResProductLookup, EcoResProductVariantsPendingReleaseFormPart, EcoResProductSearchLookup, EcoResProductNumberRename, EcoResDimensionBasedConfigWorkspace, EcoResProductVariantImagePart, EcoResProductImagePart, EcoResProductVariantsPerCompanyPart, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleaseSessions, EcoResProductVariantMaintainWorkspaceConfiguration, EcoResProductProcessManufacturingWorkspaceConfiguration, EcoResProductMasterVariantsPart, EcoResProductDiscreteManufacturingWorkspaceConfiguration, EcoResProductVariantAvailabilityPart, EcoResProductInformationFactBox, EcoResProductLookupTest, EcoResProductImageTest, EcoResProductReleasedRecentlyCreatedFormPart, EcoResPhysicalProductDimensions, PdsMRCRegulatedListItem, EcoResProductAvailabilityPart, PdsMRCRestrictionList, InventItemIdLookupAllocationId, EcoResProductAvailability, EcoResProductEntityAttributeTableFieldAssociation, EcoResProductImagePart, EcoResProductRelation, EcoResProductReleaseAddProduct, EcoResProductPerCompanyListPage, EcoResProductParameters, PdsMRCRestrictedItemByCountryState, EngChgCasePreview, InventTablePreview, PdsMRCItemDetails, EngChgCaseAssociate, PdsMRCCustomerHistory, PdsMRCVendorHistory, PdsMRCRestrictedCountryStateByItem, InventItemIdGroupLookup, InventLocationLookup, PdsMRCValidityIntervalbyCountry, PdsMRCValidityIntervalbyCountry, PdsMRCEventTracker, PdsMRCReportingCountry, PdsMRCDocument, PdsMRCReportingList, PdsMRCItemCAS, GraphicsTestForm, EngChgPicklist
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 18b371494248c8b8f395996c786bb6bf7a54a6de
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527381"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987199"
 ---
 # <a name="product-information-overview"></a>Overzicht met productinformatie
 
@@ -59,7 +58,7 @@ Een product wordt voornamelijk gedefinieerd door een productnummer, -naam en -be
 
 De productdefinitie kan worden gemaakt in Supply Chain Management. U kunt hem ook importeren vanuit systemen voor productlevenscyclusbeheer (PLM), productgegevensbeheer (PDM) of productgegevensbeheer. Als u meer dan één exemplaar van Supply Chain Management gebruikt, wordt één exemplaar meestal gebruikt als de master van de productgegevens voor alle andere exemplaren. Deze benadering wordt ondersteund door een groot aantal gegevensentiteiten, die het exporteren en importeren van productdefinitiegegevens van het ene exemplaar naar het andere ondersteunen.
 
-Ter ondersteuning van de verdeling van productgegevens naar veel exemplaren, kunt u in Supply Chain Management de Common Data Service gebruiken. De productdefinities kunnen worden geëxporteerd vanuit een exemplaar van Supply Chain Management naar de Common Data Service. De productdefinities kunnen vervolgens worden gebruikt om andere zakelijke toepassingen in te richten met productgegevens, zoals Dynamics 365 Sales.
+Ter ondersteuning van de verdeling van productgegevens naar veel exemplaren, kunt u in Supply Chain Management de Microsoft Dataverse gebruiken. De productdefinities kunnen worden geëxporteerd vanuit een exemplaar van Supply Chain Management naar de Microsoft Dataverse. De productdefinities kunnen vervolgens worden gebruikt om andere zakelijke toepassingen in te richten met productgegevens, zoals Dynamics 365 Sales.
 
 Houd er rekening mee dat in dynamische en flexibele organisaties productgegevens elke dag wijzigen. Correcte en actuele productgegevens onderhouden is daarom op zich al een kritisch bedrijfsproces.
 
@@ -96,6 +95,3 @@ Het werkgebied bestaat uit een overzicht van de tegels en twee lijsten. De lijst
 ### <a name="manually-creating-a-new-released-product"></a>Handmatig een nieuw vrijgegeven product maken
 
 U kunt handmatig een vrijgegeven product maken in een enkelvoudige run, afhankelijk van de bedrijfsprocessen van de organisatie en eventuele regels die bepalen of deze functie moet worden gebruikt. Deze functie maakt een nieuw product en geeft dit automatisch vrij naar de huidige rechtspersoon. Om een nieuw product te maken, klikt u op **Vrijgegeven producten** in het werkgebied **Vrijgegeven productonderhoud** of op de lijstpagina **Vrijgegeven product**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
