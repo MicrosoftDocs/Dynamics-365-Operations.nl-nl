@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 28911
 ms.assetid: 5823d75e-f839-46dd-beb3-e09b79fc8aa4
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce750745d6f094a296b43827568ee1745179de2d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0fb1f9e017de71d01fbf7a05b579d68b702aa7c9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425856"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001494"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Dezelfde batch voor een verkooporder reserveren
 
@@ -45,6 +44,3 @@ Als u voorraad reserveert voor een product op een verkooporderregel die is inges
 - Er zijn onvoldoende houdbaarheidsdagen resterend voor de batch op basis van de vervaldatum en houdbaarheidsdatum plus eventuele van toepassing zijnde verkoopbare dagen voor de klant.
 
 Voor artikelen die zijn gekoppeld aan een opslagdimensiegroep waarvoor **Magazijnbeheerprocessen gebruiken** is ingeschakeld, kunt u specifieke batchnummers reserveren door een reserveringshiërarchie te gebruiken met de gedefinieerde voorraaddimensie voor batchnummers die boven de locatiedimensie is gedefinieerd. Via de pagina **Batchreservering** voor verkoop- en transferorderregels kunt u ook meerdere regels selecteren en reserveren op basis van de beschikbare batchnummers. Zie [Flexibel reseveringsbeleid voor dimensies op magazijnniveau](../warehousing/flexible-warehouse-level-dimension-reservation.md) voor meer informatie over wat u moet doen als u een reserveringshiërarchie gebruikt die de batchnummerdimensie onder de locatie bevat.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSTroubIeshootingSeIfService, WHSTroubleshootingSelfService
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: daa8f0d19de75e6c126fe7a5fe312bca24c89bdc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: ae4062401cd5be2371c45642b78bf3708b04f664
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425805"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001191"
 ---
 # <a name="cancel-warehouse-work-for-exception-handling"></a>Magazijnwerk voor afhandeling van uitzonderingen annuleren
 
@@ -45,6 +44,3 @@ Alleen werk van het type **Verkoop**, **Overboekingsuitgifte**, **Orderverzameli
 Om het werk te deblokkeren, worden eventuele resterende werkregels door het systeem geannuleerd en worden de magazijngegevens hersteld die aan de werk-id zijn gekoppeld die de gebruiker heeft opgegeven. Normale magazijnverwerkingsactiviteiten voor de desbetreffende artikelhoeveelheid kunnen vervolgens worden hervat.
 
 Als u het desbetreffende artikel op een specifieke locatie wilt neerzetten nadat het werk is geannuleerd, moet de gebruiker een voorraadmutatie of hoeveelheidcorrectie gebruiken op een mobiel apparaat.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

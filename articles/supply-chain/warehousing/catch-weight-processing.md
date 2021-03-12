@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6ecadb06adce5a0cbf1614c7da8fc65cb801e249
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425804"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001169"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Verwerking van catch weight-producten bij magazijnbeheer
 
@@ -210,6 +209,3 @@ Naast de beperkingen die momenteel van toepassing zijn op catch weight-producten
 
 > [!NOTE]
 > Voorgaande informatie over catch weight-labels is alleen geldig als het catch weight-product een methode heeft voor dimensietracering van catch weight-labels voor volledige tracering (dat wil zeggen, als de parameter **Methode voor dimensietracering van catch weight-labels** in het beleid voor afhandeling van catch weight-producten is ingesteld op **Productdimensies, traceringsdimensies en alle opslagdimensies**). Als een artikel alleen gedeeltelijke labeltracering heeft (dus als de parameter **Methode voor dimensietracering van catch weight-labels** in het beleid voor afhandeling van catch weight-artikelen is ingesteld op **Productdimensies, traceringsdimenses en voorraadstatus**), zijn er extra beperkingen van toepassing. Omdat zichtbaarheid tussen het label en de voorraad in dit geval verloren gaat, worden sommige aanvullende scenario's niet ondersteund.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
