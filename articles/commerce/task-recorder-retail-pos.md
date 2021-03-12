@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0ab8456d81fbe2dca495b65b932395572242a25c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b0a5ca1e116e931ba992eab51a06dae9fdf92756
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411438"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006130"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Taakrecorder en Help voor Retail Modern POS (MPOS) en Cloud POS
 
@@ -34,7 +33,7 @@ In dit onderwerp wordt beschreven hoe u Taakrecorder gebruikt in Retail Modern P
 
 ## <a name="overview"></a>Overzicht
 
-Taakrecorder in Retail Modern POS of Cloud POS is een nieuwe oplossing die is gemaakt met het oog op hoge responsiviteit. Het biedt een flexibele Application Programming Interface (API) voor uitbreidbaarheid en naadloze integratie met gebruikers van zakelijke procesregistraties. Bovendien is integratie van Taakrecorder met het hulpprogramma Business process modeller (BPM) in Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) verbeterd. Daarom kunnen gebruikers doorgaan met het produceren van uitgebreide bedrijfsprocesdiagrammen van registraties om hun toepassingen te analyseren en te ontwerpen.
+Taakrecorder in Retail Modern POS of Cloud POS is een nieuwe oplossing die is gemaakt met het oog op hoge responsiviteit. Het biedt een flexibele Application Programming Interface (API) voor uitbreidbaarheid en naadloze integratie met gebruikers van zakelijke procesregistraties. Bovendien is integratie van Taakrecorder met het hulpprogramma Business process modeller (BPM) in Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) verbeterd. Daarom kunnen gebruikers doorgaan met het produceren van uitgebreide bedrijfsprocesdiagrammen van registraties om hun toepassingen te analyseren en te ontwerpen.
 
 ## <a name="architecture"></a>Architectuur
 
@@ -146,6 +145,3 @@ Wanneer u op de taakbegeleiding in de zoekresultaten klikt, kunt u de stappen we
 
 > [!NOTE]
 > Help in Retail Modern POS en Cloud POS opent geen taakbegeleiding op basis van het formulier waar u zich bevindt of de bewerking die u uitvoert. U moet de procesnaam in het zoekvak typen en op **Zoeken** klikken.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

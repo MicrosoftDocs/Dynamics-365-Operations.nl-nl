@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: belgium
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c90ede8d5e7d1625be07f77b3cf36473d3165089
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c74f28df0a4431e1905f7c6e5c706cf7dde62dc2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408325"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006018"
 ---
 # <a name="belgium-overview"></a>Overzicht België
 
@@ -50,6 +49,3 @@ Voor informatie over het instellen en maken van de INTERVAT-belastingaangifte vo
 - [Overzicht van elektronische rapportage](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Lokalisatie en wettelijk voorgeschreven functies](../../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

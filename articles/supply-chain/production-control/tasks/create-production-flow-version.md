@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d513e6898827de9a3fb1ed59006b817fb9006019
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 115463c57b28e681d4c6bdc227e35272861779aa
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425159"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006911"
 ---
 # <a name="create-a-production-flow-version"></a>Een productiestroomversie maken
 
@@ -64,6 +63,3 @@ Deze procedure is gericht op het maken van een nieuwe productstroomversie. Voor 
     * Voer het aantal dagen in het veld Periode voor werkelijke cyclusduur in. De periode voor de werkelijke cyclustijd is het aantal dagen dat taken worden samengevoegd vanaf de werkelijke minuut achterwaarts om de werkelijke cyclustijd te berekenen. De waarde kan altijd worden gewijzigd en wordt alleen gebruikt voor de berekening van de werkelijke cyclustijden.  
 13. Klik op Opslaan.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

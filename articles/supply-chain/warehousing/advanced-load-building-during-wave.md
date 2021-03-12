@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: e4abe1a03997853053f60c750199874a61fc68c0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654193"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006386"
 ---
 # <a name="advanced-load-building-during-wave"></a>Geavanceerde ladingopbouw tijdens een wave
 
@@ -250,6 +249,3 @@ In dit scenario wordt toegelicht hoe de instellingen die eerder in dit onderwerp
 1. Selecteer in de verkooporder die u zojuist hebt gemaakt op het sneltabblad **Verkooporderregels** de optie **Regel toevoegen** om nog een regel toe te voegen.
 1. Stel op de nieuwe regel het veld **Artikelnummer** in op *M9200* en het veld **Hoeveelheid** op *1*.
 1. Herhaal regels 6 tot en met 9 om de regel te reserveren en vrij te geven naar het magazijn. Net zoals eerder maakt het systeem een **nieuwe** zending aan voor de regel die u hebt toegevoegd. Maaromdat het artikel afkomstig is van de artikel groep **CarAudio**, **kan het niet de beperkingen doorgeven die u hebt ingesteld voor de gemengde ladingsgroep**. Daarom wordt deze **toegevoegd aan een nieuwe lading**. Als u geen gemengde ladingsgroep had opgegeven op de ladingsopbouwsjabloon, zou deze zending zijn toegevoegd aan de eerste lading.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
