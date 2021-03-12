@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: riluan
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 4d1022eec633bf0a9edb4d5b26982853cec836d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a7bfe998d2d787203a507a831c171fc43b03fedc
+ms.sourcegitcommit: cc9921295f26804259cc9ec5137788ec9f2a4c6f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4451383"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4839544"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Voorraadbeschikbaarheid in Twee keer wegschrijven
 
@@ -58,5 +58,63 @@ In het dialoogvenster worden de ATP-gegevens uit Supply Chain Management geretou
 - Uitgiftehoeveelheid
 - Voorhanden hoeveelheid
 
+## <a name="how-it-works"></a>Hoe het werkt
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+Wanneer u de knop **Voorhanden voorraad** selecteert op de pagina **Offertes**, **Orders** of **Facturen**, wordt er een live oproep voor twee keer wegschrijven gedaan naar de API **Voorhanden voorraad**. De API berekent de voor het opgegeven product voorhanden voorraad. Het resultaat wordt opgeslagen in de tabellen **InventCDSInventoryOnHandRequestEntity** en **InventCDSInventoryOnHandEntryEntity** en wordt vervolgens naar Dataverse geschreven door twee keer wegschrijven. Als u deze functionaliteit wilt gebruiken, moet u de volgende toewijzingen voor twee keer wegschrijven uitvoeren. Sla initiële synchronisatie over wanneer u de toewijzingen uitvoert.
+
+- Invoer van voorhanden voorraad voor CDS (msdyn_inventoryonhandentries)
+- Aanvragen voor voorhanden voorraad voor CDS (msdyn_inventoryonhandrequests)
+
+## <a name="templates"></a>Sjablonen
+De volgende sjablonen zijn beschikbaar voor het weergeven van de voorhanden voorraadgegevens.
+
+Finance and Operations-apps | Customer Engagement-app | Beschrijving 
+---|---|---
+[Vermeldingen voorhanden CDS-voorraad](#145) | msdyn_inventoryonhandentries |
+[Aanvragen voorhanden CDS-voorraad](#147) | msdyn_inventoryonhandrequests |
+
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>Invoer van voorhanden voorraad voor CDS (msdyn_inventoryonhandentries)
+
+Deze sjabloon synchroniseert gegevens tussen Finance and Operations-apps en Dataverse.
+
+Finance and Operations-veld | Toewijzingstype | Customer Engagement-veld | Standaardwaarde
+---|---|---|---
+`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
+`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
+`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
+`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
+`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
+`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
+`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
+`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
+`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
+`ATPDATE` | = | `msdyn_atpdate` |
+`ATPQUANTITY` | > | `msdyn_atpquantity` |
+`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
+`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
+`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
+`ORDERQUANTITY` | > | `msdyn_orderquantity` |
+`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
+
+###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>Aanvragen voor voorhanden voorraad voor CDS (msdyn_inventoryonhandrequests)
+
+Deze sjabloon synchroniseert gegevens tussen Finance and Operations-apps en Dataverse.
+
+Finance and Operations-veld | Toewijzingstype | Customer Engagement-veld | Standaardwaarde
+---|---|---|---
+`REQUESTID` | = | `msdyn_requestid` |
+`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
+`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
+`ORDERQUANTITY` | < | `msdyn_orderquantity` |
+`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`REFERENCENUMBER` | < | `msdyn_referencenumber` |
+`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
+
+
+
+

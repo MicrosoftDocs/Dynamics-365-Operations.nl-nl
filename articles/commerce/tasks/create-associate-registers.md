@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 001bdd61f9266798dadae2ac7c96a4f4c19dbb94
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2415945c5a8f73e095627d638fcc572c50ffe8ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411436"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964890"
 ---
 # <a name="create-and-associate-registers"></a> Registers maken en koppelen
 
@@ -44,6 +43,3 @@ In deze procedure wordt weergegeven hoe u een kassa op het verkooppunt (POS) kun
     * Het EFT POS-kassanummer wordt gebruikt om aan de betalingsverwerker te melden welke betalingsterminal autorisatieaanvragen verzendt. Deze waarde wordt vaak de "terminal-id" of "TID" genoemd. De TID is meestal te vinden op een sticker op het betalingsapparaat.  
 9. Klik op Opslaan.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

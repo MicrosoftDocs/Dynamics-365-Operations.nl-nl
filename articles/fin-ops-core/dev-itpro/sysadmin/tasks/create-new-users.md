@@ -3,7 +3,7 @@ title: Nieuwe gebruikers maken
 description: Gebruikers zijn interne werknemers van uw organisatie of externe klanten en leveranciers, die toegang nodig hebben tot het systeem om hun taken uit te voeren.
 author: peakerbl
 manager: AnnBe
-ms.date: 06/08/2020
+ms.date: 01/12/2021
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,46 +15,69 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6f861b7493d039b332358be7df7d0198cbadcb7a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: ca062ddd49f1c206c503fb6160ed436fe2d6f7e9
+ms.sourcegitcommit: 9e27a097b7eb3c8f2df66011ccc597ad18bc5445
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679835"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4878652"
 ---
 # <a name="create-new-users"></a>Nieuwe gebruikers maken
 
 [!include [banner](../../includes/banner.md)]
 
-Gebruikers zijn interne werknemers van uw organisatie of externe klanten en leveranciers, die toegang nodig hebben tot het systeem om hun taken te doen.
+Voordat u toegang kunt krijgen tot Finance and Operations-apps, moet u eerst worden toegevoegd aan de pagina **Gebruikers** (**Systeembeheer \> Gebruikers \> Gebruikers**). Gebruikers kunnen interne werknemers van uw organisatie of externe klanten en leveranciers zijn. Gebruikers kunnen handmatig worden geïmporteerd of toegevoegd. Alle gebruikers moeten over een juiste licentie voor compatibel gebruik beschikken.
 
-## <a name="associate-a-user-with-a-license-new-license-types-only"></a>Een gebruiker aan een licentie koppelen (alleen nieuwe licentietypen)
-Voor klanten met een van de nieuwe licentietypen die zijn toegevoegd in oktober 2019, moeten gebruikers aan een licentie zijn gekoppeld. Gebruikers die aan een licentie zijn gekoppeld, worden automatisch toegevoegd als systeemgebruikers die geen rollen hebben wanneer ze zich voor de eerste keer aanmelden.
+Voor informatie over hoe u Finance and Operations-apps koopt en hiervoor een licentie krijgt, raadpleegt u [Microsoft Dynamics 365-licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
+## <a name="assign-a-license-to-a-user"></a>Een licentie aan een gebruiker toewijzen
 Systeembeheerders [kunnen licenties aan gebruikers toewijzen](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) in het [Microsoft 365-beheercentrum](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
 
-## <a name="associate-an-external-user-with-a-license-new-license-types-only"></a>Een externe gebruiker aan een licentie koppelen (alleen nieuwe licentietypen)
-Gebruikers buiten de tenant waarin de omgeving is geïmplementeerd, moeten worden weergegeven in de tenant-directory van de host (Azure Active Directory (Azure AD)), zodat hieraan licenties kunnen worden toegewezen. Deze externe gebruikers moeten aan de tenant in Azure AD als gast gebruikers worden toegevoegd en vervolgens de vereiste licenties toegewezen krijgen. Zie [Gebruikers van Azure Active Directory B2B-samenwerking toevoegen in de Azure Portal](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator)voor meer informatie.
+## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Een externe gebruiker toevoegen in Azure AD en een licentie toewijzen 
+Externe gebruikers moeten worden vertegenwoordigd in uw tenantdirectory (Azure Active Directory (Azure AD)) zodat aan hen licenties kunnen worden toegewezen. Deze externe gebruikers moeten aan de tenant in Azure AD als gast gebruikers worden toegevoegd en vervolgens de vereiste licenties toegewezen krijgen. Een vereiste voor Finance and Operations-apps is dat het bedrijf van de gastgebruiker Azure AD moet gebruiken. Zie [Gebruikers van Azure Active Directory B2B-samenwerking toevoegen in de Azure Portal](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator)voor meer informatie.
 
-## <a name="add-a-new-user"></a>Een nieuwe gebruiker toevoegen
-1. Ga naar **Systeembeheer \> Gebruikers \> Gebruikers**.
-2. Selecteer **Nieuw** in het actievenster.
-3. Voer in het veld **Gebruikers-id** een unieke id voor de gebruiker in. Een gebruikers-id is vereist.  
-4. Voer in het veld **Gebruikersnaam** de naam van de gebruiker in.  
-5. Voer in het veld **Domein** het domein van de gebruiker in.  
-6. Voer in het veld **Alias** de alias van de gebruiker in.  
-7. Selecteer het gewenste bedrijf in het veld **Bedrijf**. 
-8. Selecteer op het sneltabblad **Rollen van gebruiker** de optie **Rollen toewijzen** om gebruikers aan beveiligingsrollen toe te wijzen. Zie [Gebruikers aan beveiligingsrollen toewijzen](assign-users-security-roles.md) voor meer informatie.
-9. Selecteer **OK**.
-10. Selecteer **Opslaan**.
-
-## <a name="import-users"></a>Gebruikers importeren
-1. Ga naar **Systeembeheer \> Gebruikers \> Gebruikers**.
+## <a name="import-new-users-from-azure-ad"></a>Nieuwe gebruikers importeren vanuit Azure AD 
+1. Ga naar **Systeembeheer** \> **Gebruiker** \> **Gebruikers**.
 2. Selecteer **Gebruikers importeren** in het Actievenster.
-3. Markeer in de lijst de geselecteerde rij.
+3. Selecteer de gebruikers die moeten worden geïmporteerd. De lijst bevat Azure AD-gebruikers die momenteel geen gebruikers in deze omgeving zijn.
 4. Selecteer **Gebruikers importeren**.
 5. Selecteer **Sluiten**.
 
+> [!NOTE]
+> De waarde voor het veld **Bedrijf** wordt ingesteld op basis van het bedrijf van de huidige sessie voor de beheerder. Na de import moet u rollen en organisaties toewijzen voor zover van toepassing. Zie [Gebruikers aan beveiligingsrollen toewijzen](assign-users-security-roles.md) voor meer informatie. Soms is het ook nodig dat u de gebruiker aan een **Persoon** koppelt en gebruikersopties, zoals taal, bijwerkt.
 
+## <a name="manually-add-a-new-user"></a>Een nieuwe gebruiker handmatig toevoegen
+1. Ga naar **Systeembeheer** \> **Gebruikers** \> **Gebruikers**.
+2. Selecteer **Nieuw** in het actievenster.
+3. Voer in het veld **Gebruikers-id** een unieke id voor de gebruiker in.   
+4. Voer in het veld **Gebruikersnaam** de naam van de gebruiker in.  
+5. In het veld **Provider**:
+ - Voor interne gebruikers gebruikt u de standaardwaarde. Bijvoorbeeld de Azure AD-tenant met vooraf https://sts.windows.net/.  
+ - Voor niet-Azure AD-gebruikers, zoals Service-2-Service-account, voert u een basistekstwaarde in. Bijvoorbeeld: n.v.t. Met deze waarde voorkomt u onjuiste verificatieoproepen die kunnen leiden tot fouten als een geldige identiteitsproviderwaarde wordt gebruikt.  
+ - Voor externe gebruikers of gastgebruikers voegt u de naam van de Azure AD-tenant toe na https://sts.windows.net/.
+6. Voer in het veld **E-mail** de volledige e-mailnaam/user principal name in.  
+7. Selecteer in het veld **Bedrijf** het standaardopstartbedrijf voor de gebruiker. 
+8. Selecteer **Opslaan**.
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+De waarden voor identiteitsprovider en telemetrie-ID worden bijgewerkt op basis van een [Microsoft Graph](https://docs.microsoft.com/graph/overview)-oproep wanneer de gebruikersrecord wordt opgeslagen. De telemetrie-ID is gebaseerd op de object-ID/Security Identifier (SID) van de gebruiker in Azure AD.
+
+> [!NOTE]
+> Nadat u een gebruiker hebt toevoegt, moet u voor zover van toepassing rollen en organisaties toewijzen. Zie [Gebruikers aan beveiligingsrollen toewijzen](assign-users-security-roles.md) voor meer informatie. Soms is het ook nodig dat u de gebruiker aan een **Persoon** koppelt en **Gebruikersopties**, zoals taal, bijwerkt.
+
+## <a name="change-a-user-id"></a>Een gebruikers-ID wijzigen
+Als u een gebruikers-ID wilt wijzigen, moet u de naam van de sleutel in de database wijzigen. Wanneer u een gebruikers-ID wijzigt met deze procedure, worden alle gerelateerde gebruikersinstellingen gewijzigd om de nieuwe gebruikers-ID te gebruiken. Zo wordt de gebruiksinformatie in de tabel **SysLastValue** bijgewerkt om te verwijzen naar de nieuwe gebruikers-ID.
+
+> [!NOTE]
+> De gebruikers-ID is de primaire sleutel van de tabel met gebruikersgegevens. Het wijzigen van de naam van de primaire sleutel kan even duren voor bestaande gebruikers, omdat alle verwijzingen naar de sleutel ook in de database worden bijgewerkt. 
+
+1. Ga naar **Systeembeheer \> Gebruikers \> Gebruikers**.
+2. Selecteer een gebruiker in de lijst en selecteer **Opties\> Recordgegevens**.
+3. Selecteer **Naam wijzigen**.
+4. Voer een nieuwe unieke waarde voor de gebruikers-ID in en kies **OK**. 
+5. Selecteer **Ja** om te bevestigen.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+Zie [B2B-gebruikers exporteren naar Azure AD](../implement-b2b.md) voor meer opties voor het implementeren van B2B-gebruikers.
+
+Zie [Vooraf geconfigureerde systeemaccounts](../pre-configured-system-accounts.md) voor informatie over vooraf geconfigureerde systeemaccounts

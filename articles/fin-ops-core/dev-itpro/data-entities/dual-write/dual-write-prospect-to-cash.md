@@ -3,7 +3,7 @@ title: Prospect naar contant geld in twee keer wegschrijven
 description: Dit onderwerp biedt informatie over Prospect naar contant geld in twee keer wegschrijven.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 01/27/2020
+ms.date: 01/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 3b482a2754bb4bcaca5410da72c21897fd066a41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
+ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683642"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959596"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Prospect naar contant geld in twee keer wegschrijven
 
@@ -37,6 +37,11 @@ In de app-interfaces hebt u toegang tot de verwerkingsstatus en factuurgegevens 
 
 ![Gegevensstroom voor Twee keer wegschrijven in Prospect naar contant geld](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
+Zie [Geïntegreerd klantmodel](customer-mapping.md) voor informatie over klant- en contactintegratie. Zie [Uniforme productervaring](product-mapping.md) voor informatie over productintegratie.
+
+> [!NOTE]
+> In Dynamics 365 Sales verwijzen zowel prospect als klant naar een record in de tabel **Account** waar de kolom **RelationshipType** ofwel **Prospect** of **Klant** is. Als uw bedrijfslogica een kwalificatieproces **Account** bevat waarbij de record **Account** wordt gemaakt en eerst als prospect en daarna als klant wordt gekwalificeerd, wordt deze record alleen met de Finance and Operations-app gesynchroniseerd als het een klant (`RelationshipType=Customer`) is. Als u wilt dat de rij **Account** wordt gesynchroniseerd als een prospect, hebt u een aangepaste toewijzing nodig om de prospectgegevens te integreren.
+
 ## <a name="prerequisites-and-mapping-setup"></a>Vereisten en instellingen voor toewijzing
 
 Voordat u verkoopoffertes kunt synchroniseren, moet u de volgende instellingen bijwerken.
@@ -46,11 +51,11 @@ Voordat u verkoopoffertes kunt synchroniseren, moet u de volgende instellingen b
 Ga in Sales naar **Instellingen \> Beheer \> Systeeminstellingen \> Sales** en zorg ervoor dat de volgende instellingen worden gebruikt:
 
 - De systeemoptie **Systeem voor berekenen van systeemprijzen gebruiken** is ingesteld op **Ja**.
-- Het veld **Berekeningsmethode korting** is ingesteld op **Regelartikel**.
+- De kolom **Berekeningsmethode korting** is ingesteld op **Regelartikel**.
 
 ### <a name="sites-and-warehouses"></a>Locaties en magazijnen
 
-In Supply Chain Management zijn de velden **Locatie** en **Magazijn** vereist voor offerteregels en orderregels. Als u de locatie en het magazijn instelt in de standaardorderinstellingen, worden deze velden automatisch ingesteld wanneer u een product toevoegt aan een offerteregel of een orderregel. 
+In Supply Chain Management zijn de kolommen **Locatie** en **Magazijn** vereist voor offerteregels en orderregels. Als u de locatie en het magazijn instelt in de standaardorderinstellingen, worden deze kolommen automatisch ingesteld wanneer u een product toevoegt aan een offerteregel of een orderregel. 
 
 ### <a name="number-sequences-for-quotations-and-orders"></a>Nummerreeksen voor offertes en orders
 
@@ -62,9 +67,9 @@ De nummerreeks in Supply Chain Management is bijvoorbeeld **1, 2, 3, 4, 5, ...**
 
 Verkoopoffertes kunnen worden gemaakt in Sales of Supply Chain Management. Als u een offerte maakt in Sales, wordt deze in realtime gesynchroniseerd met Supply Chain Management. Als u een offerte maakt in Supply Chain Management, wordt deze in realtime gesynchroniseerd met Sales. Let op de volgende punten:
 
-+ U kunt een korting toevoegen aan het product op de offerte. In dit geval wordt de korting gesynchroniseerd met Supply Chain Management. De velden **Korting**, **Toeslagen** en **Btw** in de koptekst worden bepaald door een configuratie in Supply Chain Management. Deze instelling biedt momenteel geen ondersteuning voor integratietoewijzing. In het huidige ontwerp worden de velden **Prijs**, **Korting**, **Toeslagen** en **Btw** bijgehouden en verwerkt in Supply Chain Management.
-+ De velden **Kortingspercentage**, **Korting** en **Vrachtkosten** zijn in de koptekst van de verkoopofferte alleen-lezenvelden.
-+ De velden **Leveringscondities**, **Leveringsvoorwaarden**, **Verzendmethode** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze velden wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de entiteit wordt gesynchroniseerd.
++ U kunt een korting toevoegen aan het product op de offerte. In dit geval wordt de korting gesynchroniseerd met Supply Chain Management. De kolommen **Korting**, **Toeslagen** en **Btw** in de koptekst worden bepaald door een configuratie in Supply Chain Management. Deze instelling biedt momenteel geen ondersteuning voor integratietoewijzing. In het huidige ontwerp worden de kolommen **Prijs**, **Korting**, **Toeslagen** en **Btw** bijgehouden en verwerkt in Supply Chain Management.
++ De kolommen **Kortingspercentage**, **Korting** en **Vrachtkosten** zijn in de koptekst van de verkoopofferte alleen-lezenkolommen.
++ De kolommen **Leveringscondities**, **Leveringsvoorwaarden**, **Verzendmethode** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze kolommen wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de tabel wordt gesynchroniseerd.
 
 Als u ook de Field Service-oplossing gebruikt, moet u de parameter **Snel offerteregel maken** opnieuw inschakelen. Als u de parameter opnieuw inschakelt, kunt u doorgaan met het maken van offerteregels met de functie Snel maken.
 1. Ga naar uw Dynamics 365 Sales-toepassing.
@@ -82,7 +87,7 @@ Verkooporders kunnen worden gemaakt in Sales of Supply Chain Management. Als u e
 + Berekening en afronding van korting:
 
     - Het model voor het berekenen van korting in Sales wijkt af van het model voor het berekenen van korting in Supply Chain Management. In Supply Chain Management kan het uiteindelijke kortingsbedrag op een verkoopregel het resultaat zijn van een combinatie van kortingsbedragen en -percentages. Als dit uiteindelijke kortingsbedrag wordt gedeeld door de hoeveelheid op de regel, kan er afronding plaatsvinden. Deze afronding wordt echter niet gebruikt als een afgerond kortingsbedrag per eenheid wordt gesynchroniseerd naar Sales. Het volledige kortingsbedrag op een verkoopregel in Supply Chain Management kan alleen correct worden gesynchroniseerd naar Sales als het volledige bedrag wordt gesynchroniseerd, zonder het te delen door de regelhoeveelheid. Daarom moet u in Sales de berekeningsmethode voor de korting instellen op **Regelartikel**.
-    - Als een verkooporderregel vanuit Sales naar Supply Chain Management wordt gesynchroniseerd, wordt het volledige regelkortingsbedrag gebruikt. Omdat in Supply Chain Management geen veld beschikbaar is waarin het volledige kortingsbedrag voor een regel kan worden opgeslagen, wordt het bedrag gedeeld door de hoeveelheid en opgeslagen in het veld **Regelkorting**. Afronding die tijdens deze deling plaatsvindt, wordt opgeslagen in het veld **Verkooptoeslagen** op de verkoopregel.
+    - Als een verkooporderregel vanuit Sales naar Supply Chain Management wordt gesynchroniseerd, wordt het volledige regelkortingsbedrag gebruikt. Omdat in Supply Chain Management geen kolom beschikbaar is waarin het volledige kortingsbedrag voor een regel kan worden opgeslagen, wordt het bedrag gedeeld door de hoeveelheid en opgeslagen in de kolom **Regelkorting**. Afronding die tijdens deze deling plaatsvindt, wordt opgeslagen in de kolom **Verkooptoeslagen** op de verkoopregel.
 
 ### <a name="example-synchronization-from-sales-to-supply-chain-management"></a>Voorbeeld: Synchronisatie van Sales naar Supply Chain Management
 
@@ -98,7 +103,7 @@ Als u de gegevens van Supply Chain Management naar Sales synchroniseert, krijgt 
 
 ## <a name="dual-write-solution-for-sales"></a>Oplossing Twee keer wegschrijven voor Sales
 
-Nieuwe velden zijn toegevoegd aan de entiteit **Order** en worden weergegeven op de pagina. De meeste van deze velden worden weergegeven op het tabblad **Integratie** in Sales. Zie [De toewijzing voor de statusvelden van de verkooporder instellen](sales-status-map.md) voor meer informatie over de manier waarop de statusvelden worden toegewezen.
+Nieuwe kolommen zijn toegevoegd aan de tabel **Order** en worden weergegeven op de pagina. De meeste van deze kolommen worden weergegeven op het tabblad **Integratie** in Sales. Zie [De toewijzing voor de statuskolommen van de verkooporder instellen](sales-status-map.md) voor meer informatie over de manier waarop de statuskolommen worden toegewezen.
 
 + De knoppen **Factuur maken** en **Order annuleren** op de pagina **Verkooporder** zijn verborgen in Sales.
 + De waarde voor **Verkooporderstatus** blijft **Actief** om ervoor te zorgen dat wijzigingen vanuit Supply Chain Management naar de verkooporder in Sales kunnen stromen. U stelt dit gedrag in door de standaardwaarde voor **Statuscode \[Status\]** op **Actief** in te stellen.
@@ -107,18 +112,18 @@ Nieuwe velden zijn toegevoegd aan de entiteit **Order** en worden weergegeven op
 
 Verkoopfacturen worden gemaakt in Supply Chain Management en gesynchroniseerd met Sales. Let op de volgende punten:
 
-+ Het veld **Factuurnummer** is aan de entiteit **Factuur** toegevoegd en wordt weergegeven op de pagina.
++ De kolom **Factuurnummer** is aan de tabel **Factuur** toegevoegd en wordt weergegeven op de pagina.
 + De knop **Factuur maken** op de pagina **Verkooporder** is verborgen omdat facturen in Supply Chain Management worden gemaakt en worden gesynchroniseerd naar Sales. De pagina **Factuur** kan niet worden bewerkt omdat facturen vanuit Supply Chain Management worden gesynchroniseerd.
 + De waarde voor **Verkooporderstatus** wordt automatisch in **Gefactureerd** gewijzigd wanneer de bijbehorende factuur vanuit Supply Chain Management is gesynchroniseerd naar Sales. Daarnaast wordt de eigenaar van de verkooporder op basis waarvan de factuur is gemaakt, aangewezen als de eigenaar van de factuur. De eigenaar van de verkooporder kan de factuur dus weergeven.
-+ De velden **Leveringscondities**, **Leveringsvoorwaarden** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze velden wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de entiteit wordt gesynchroniseerd.
++ De kolommen **Leveringscondities**, **Leveringsvoorwaarden** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze kolommen wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de tabel wordt gesynchroniseerd.
 
 ## <a name="templates"></a>Sjablonen
 
 Prospect naar contact geld omvat een verzameling basistabeltoewijzingen die samenwerken tijdens de interactie van gegevens, zoals in de volgende tabel wordt weergegeven.
 
-| Finance and Operations-apps | Modelgestuurde apps in Dynamics 365 | Omschrijving |
+| Finance and Operations-apps | Customer Engagement-apps | Beschrijving |
 |-----------------------------|-----------------------------------|-------------|
-| Kopteksten van verkoopfacturen V2    | facturen                          |             |
+| Kopteksten van verkoopfacturen V2    | facturen                          | De tabel Kopteksten van verkoopfacturen V2 in de Finance and Operations-app bevat facturen voor verkooporders en vrije-tekstfacturen. Er wordt een filter toegepast in Dataverse voor twee keer wegschrijven waarmee alle vrije-tekstfactuurdocumenten worden uitgefilterd. |
 | Verkoopfactuurregels V2      | factuurdetails                    |             |
 | CDS-verkooporderkopteksten     | salesorders                       |             |
 | CDS-verkooporderregels       | salesorderdetails                 |             |
@@ -135,6 +140,11 @@ Dit zijn de gerelateerde kerntabeltoewijzingen voor prospect naar contant geld:
 + [Alle producten naar msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
 + [Prijslijst](product-mapping.md)
 
+## <a name="limitations"></a>Beperkingen
+- Retourorders worden niet ondersteund.
+- Creditnota's worden niet ondersteund.
+- Financiële dimensies moeten worden ingesteld voor de hoofdgegevens, bijvoorbeeld klant en leverancier. Wanneer een klant wordt toegevoegd aan een offerte of verkooporder, worden de financiële dimensies die aan de klantrecordstroom zijn gekoppeld, automatisch aan de order toegevoegd. Op dit moment bevat twee keer wegschrijven geen financiële dimensiegegevens voor hoofdgegevens. 
+
 [!include [symbols](../../includes/dual-write-symbols.md)]
 
 [!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
@@ -150,6 +160,3 @@ Dit zijn de gerelateerde kerntabeltoewijzingen voor prospect naar contant geld:
 [!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
 
 [!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

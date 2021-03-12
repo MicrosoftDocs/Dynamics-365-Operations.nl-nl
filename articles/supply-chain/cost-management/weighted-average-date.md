@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d36f60a13fbee91100e406150e7f5ca890320436
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5df497a8590c6d60a5f0bc39469cf048c3448572
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425258"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963733"
 ---
 # <a name="weighted-average-date"></a>Datum gewogen gemiddelde
 
@@ -38,7 +37,7 @@ Als er slechts één ontvangst heeft plaatsgevonden op of vóór de datum, hoeft
 
 De kostprijsberekeningsmethode datum gewogen gemiddelde wordt berekend met behulp van de volgende formule: 
 
-Gewogen gemiddelde = (\[KW1 × P1\] + \[KW2 × P2\] + \[KW *n* × P *n*\]) ÷ (KW1 + KW2 + KW *n*) 
+Gewogen gemiddelde = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q2 + Q *n*) 
 
 Tijdens de voorraadafsluiting wordt de berekening elke dag via de afsluitperiode uitgevoerd, zoals in de volgende afbeelding wordt weergegeven. 
 
@@ -51,10 +50,10 @@ Voorraadtransacties die de voorraad verlaten, zoals verkooporders, voorraadjourn
 
 Vereffeningen zijn voorraadafsluitingsboekingen die de uitgiften vanaf de sluitingsdatum bijwerken met het juiste gewogen gemiddelde. 
 
-**Notitie:** Voor meer informatie over voorraadafsluitingen raadpleegt u het artikel over voorraadafsluiting. De volgende voorbeelden laten het effect zien van het gebruik van gewogen gemiddelden bij vijf configuraties:
+**Opmerking:** zie het artikel over voorraadafsluiting voor meer informatie over voorraadafsluitingen. De volgende voorbeelden laten het effect zien van het gebruik van gewogen gemiddelden bij vijf configuraties:
 
 -   Datum gewogen gemiddelde directe vereffening zonder dat de optie **Fysieke waarde opnemen** wordt gebruikt
--   Datum gewogen gemiddelde samengevatte vereffening zonder dat de optie **Fysieke waarde opnemen** wordt gebruikt
+-   Samengevatte vereffening op basis van een gewogen gemiddelde als de optie **Fysieke waarde opnemen** niet wordt gebruikt
 -   Datum gewogen gemiddelde directe vereffening waarbij de optie **Fysieke waarde opnemen** wel wordt gebruikt
 -   Datum gewogen gemiddelde samengevatte vereffening waarbij de optie **Fysieke waarde opnemen** wel wordt gebruikt
 -   Datum gewogen gemiddelde met gebruik van markering
@@ -127,7 +126,7 @@ Voorraadafsluiting is uitgevoerd. De directe vereffening moet worden gebruikt om
 
 De samengevatte voorraadoverboekingstransactie worden gegenereerd en geboekt. Ook worden alle ontvangsten voor de dag en voorhanden voorraad voor vorige dagen vereffend met de samengevatte voorraadoverboekingsuitgiftetransactie. Alle uitgiften voor de dag worden vereffend met de samengevatte voorraadoverboekingsontvangsttransactie. De gewogen gemiddelde kostprijs wordt berekend als EUR 16,00. De uitgifte wordt gecorrigeerd met EUR 1,00 en wordt zo gelijkgetrokken met de gewogen gemiddelde kostprijs. De nieuwe, lopende gemiddelde kostprijs wordt USD 16,00. 
 
-In de volgende illustratie wordt deze reeks transacties getoond en wordt aangegeven wat het effect is van het gebruik van het voorraadmodel van het gewogen gemiddelde en het samengevatte-vereffeningsprincipe zonder dat de optie **Fysieke waarde opnemen** wordt gebruikt. 
+In de volgende afbeelding wordt deze reeks transacties getoond en wordt aangegeven wat het effect is van het gebruik van het voorraadmodel van het gewogen gemiddelde en het samengevatte-vereffeningsprincipe zonder dat de optie **Fysieke waarde opnemen** wordt gebruikt. 
 
 ![Datum gewogen gemiddelde samengevatte vereffening zonder de optie Fysieke waarde opnemen](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
@@ -176,7 +175,7 @@ U kunt een uitgiftetransactie aan een ontvangst koppelen voordat de transactie w
 -   6a. Fysieke voorraadontvangst voor een hoeveelheid 1 tegen een kostprijs van USD 21,25.
 -   7. Voorraadafsluiting is uitgevoerd. Omdat de financieel bijgewerkte transactie is gemarkeerd voor een bestaande ontvangst, worden deze transacties met elkaar vereffend en wordt er niet gecorrigeerd.
 
-De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties met USD 27,50. In de volgende illustratie wordt voor deze reeks transacties de effecten weergegeven van het gebruik van het voorraadmodel voor datum gewogen gemiddelde en markering.
+De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties met USD 27,50. In de volgende afbeelding worden voor deze reeks transacties de effecten weergegeven van het gebruik van het voorraadmodel voor datum gewogen gemiddelde en markering.
 
 ![Datum gewogen gemiddelde met markering](./media/weightedaveragedatewithmarking.gif) 
 
@@ -196,6 +195,3 @@ De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

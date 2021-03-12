@@ -3,7 +3,7 @@ title: Intrastat-overzicht
 description: Dit onderwerp bevat informatie over Intrastat-rapportage voor de handel van goederen en, in sommige gevallen, diensten tussen landen en regio's van de Europese Unie (EU). Het biedt een overzicht van het rapportageproces en bevat een beschrijving van de vereiste instellingen en vereisten.
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: Intrastat
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 28581
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a70108696d6187126c23eca1779553210cd4a9d6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9396637c27707f1732d06ec704c7e609aa6c170b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408338"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962721"
 ---
 # <a name="intrastat-overview"></a>Intrastat-overzicht
 
@@ -197,7 +196,7 @@ Gebruik de pagina **Parameters buitenlandse handel** om de parameters in de volg
 <td><ul>
 <li><strong>Algemeen</strong>: Geef de volgende informatie op:
 <ul>
-<li>De standaardtransactiecodes voor verkooporders, inkooporders, creditnota's en transferorders. De transactiecode die wordt ingesteld voor creditnota's wordt ook gebruikt als de code voor retouren van materiële goederen en voor afwijkende materiële retouren versus corrigerende creditnota's.</li>
+<li>De standaardtransactiecodes voor verkooporders, inkooporders, creditnota's en transferorders. De transactiecode die wordt ingesteld voor creditnota's wordt ook gebruikt als de code voor retouren van materiële goederen en voor afwijkende materiële retouren versus corrigerende creditnota's. Retourzendingen van fysieke goederen worden bij Intrastat-overboeking met een andere richting aangegeven. De retour van aankomst wordt gerapporteerd als verzending en de retour van verzending wordt gerapporteerd als aankomst.</li>
 <li>De werknemer die verantwoordelijk is voor het voorbereiden van Intrastat-aangiften.</li>
 </ul></li>
 <li><strong>Ondergrens</strong>: Geef de instellingen op voor het bijwerken van transacties die onder de drempel liggen:
@@ -240,6 +239,3 @@ Gebruik de pagina **Parameters buitenlandse handel** om de parameters in de volg
 </tbody>
 </table>
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

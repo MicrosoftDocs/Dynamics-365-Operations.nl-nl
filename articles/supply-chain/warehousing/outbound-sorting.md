@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSPack, WHSOutboundSortTemplate, WHSOutboundSortPositionAssignments, WHSLocationType, WHSLoactionProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 84c4ec83ed16762e6c3c1a22425cf60e5b3ae8da
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 2b0049269b69c0777420b3ecd9b1f649c4a1ab11
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425863"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963405"
 ---
 # <a name="outbound-sorting"></a>Uitgaand sorteren
 
@@ -667,6 +666,3 @@ U moet het werk voor de gesorteerde voorraadverzameling voltooien. Wanneer dit i
     Werk is voltooid.
 
 Vanaf dit punt zijn alle andere magazijnprocessen van toepassing.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

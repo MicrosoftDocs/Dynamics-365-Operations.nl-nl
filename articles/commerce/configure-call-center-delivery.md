@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411282"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963105"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Leveringsmethoden en toeslagen van callcenters configureren
 
@@ -95,6 +94,3 @@ U kunt desgewenst een versnellingscode koppelen aan een leveringsmethode die u c
 Orders die de volgende dag met luchtpost worden verzonden, moeten bijvoorbeeld elke dag om 13:00 in het magazijn worden opgehaald. In dit geval kan een versnellingscode worden gemaakt en die code kan worden gekoppeld aan een leveringsmethode voor levering de volgende dag die in het systeem is geconfigureerd. Als het magazijn de orderverzamelingswave maakt, kan de juiste versnellingscode in het veld **Spoed** worden gebruikt als filter, zodat orderverzameling alleen wordt uitgevoerd voor orders met leveringsmethoden die zijn gekoppeld aan deze code.
 
 Wanneer een callcenterorder wordt ingevoerd, kan een versnellingscode ook handmatig worden toegepast op de verkooporderkop of op een afzonderlijke verkooporderregel. De code kan weer worden gebruikt voor sorteren of rapportagedoeleinden. Soms moet een order zorgvuldig worden verwerkt vanwege een probleem van de klantenservice. In dit geval kan een specifieke versnellingscode worden toegepast op de orderkop of -regels om de order te helpen identificeren en prioriteren tijdens de afhandeling.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
