@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0f39bd2ffda492fce9b3fe51feafcbc8fd32391c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fd6b4b0c30a8a4cb36955e9b131c937c4db80772
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425719"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983720"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Kwaliteitsbeheer voor magazijnprocessen
 
@@ -622,6 +621,3 @@ U hebt de werk- en locatiegegevens voor magazijn 51 ingesteld om ervoor te zorge
 
 > [!NOTE]
 > Mogelijk wilt u de kwaliteit-uit vermelding toevoegen aan een menuopdracht voor het mobiele apparaat met de activiteitscode *Openstaande werklijst weergeven*. Zie de menuopdracht van het mobiele apparaat met de naam **Werklijst** in de demogegevens voor een voorbeeld. Voeg eerst de productklasse *Kwaliteitsorder* toe aan een gebruikersspecifieke menuopdracht, omdat deze werkklasse is vereist voor het weergeven van werk in de werklijst. Voeg vervolgens de werkklasse *Kwaliteitsorder* toe aan de menuopdracht **Werklijst**. Gebruikers die toegang hebben tot de werklijst, kunnen vervolgens het werk dat automatisch wordt gegenereerd door het valideren van de kwaliteitsorder, verzamelen en verwerken.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

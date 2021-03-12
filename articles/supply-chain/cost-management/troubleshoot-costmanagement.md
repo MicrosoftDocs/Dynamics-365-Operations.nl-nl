@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: riluan
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e84bb167395c06295b0e8ef8b9fd98aa4bc0cc14
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: b8c527e578fee6abfeeade99fba8070365c020bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4425888"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983845"
 ---
 # <a name="troubleshoot-cost-management"></a>Problemen met kostenbeheer oplossen
 
@@ -63,5 +62,22 @@ Vergeet niet om een voorraadafsluiting uit te voeren ingaande %3 (31-01-2019) ov
 
 In het **Naar ouderdom gerangschikt voorraadrapport** worden verschillende waarden weergegeven wanneer ze worden weergegeven in verschillende opslagdimensies (zoals locatie of magazijn). Zie [Voorbeelden en logica voor naar ouderdom gerangschikt voorraadrapport](inventory-aging-report.md) voor informatie de rapportlogica.
 
+## <a name="an-update-conflict-occurs-when-the-inventory-valuation-method-is-either-standard-cost-or-moving-average"></a>Er treedt een updateconflict op wanneer de voorraadwaarderingsmethode Standaardkosten of Zwevend gemiddelde is
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Wanneer u documenten, zoals voorraadjournalen, inkooporderfacturen of verkooporderfacturen, gelijktijdig voor schaalbaarheid en prestaties boekt, wordt er mogelijk een foutbericht weergegeven over een updateconflict en worden sommige documenten mogelijk niet geboekt. Dit probleem kan optreden wanneer de voorraadwaarderingsmethode *Standaardkosten* of *Zwevend gemiddelde* is Beide methoden zijn permanente kostprijsmethoden. Dit wil zeggen dat de uiteindelijke kosten worden bepaald tijdens het boeken.
+
+Als u de methode *Zwevend gemiddelde* gebruikt, lijkt het foutbericht op dit voorbeeld:
+
+> Voorraadwaarde xx,xx wordt niet verwacht na de berekening van proportionele onkosten
+
+Als u de methode *Standaardkosten* gebruikt, lijkt het foutbericht op dit voorbeeld:
+
+> De standaardkosten komen niet overeen met de financiële voorraadwaarde na het bijwerken. Waarde = xx,xx, Hoeveelheid = yy,yy, Standaardkosten = zz,zz
+
+Voordat Microsoft met een oplossing voor het probleem komt, moet u overwegen de volgende oplossingen te gebruiken om deze fouten te voorkomen of te verminderen:
+
+- De mislukte documenten opnieuw boeken.
+- Documenten met minder regels maken.
+- Decimale waarden in de standaardkosten vermijden. Probeer de standaardkosten te definiëren zodat het veld **Prijshoeveelheid** wordt ingesteld op *1*. Als u een waarde voor de **Prijshoeveelheid** van meer dan *1* moet opgeven, moet u proberen het aantal decimalen in de standaardkosten per eenheid te minimaliseren. (In de ideale situatie moeten er minder dan twee decimalen zijn.) Vermijd bijvoorbeeld standaardkosteninstellingen zoals **Prijs** = *10* en **Prijshoeveelheid** = *3* te definiëren, omdat hiermee standaardkosten per eenheid van 3,333333 worden geproduceerd (waarbij de decimale waarde wordt herhaald).
+- Probeer in de meeste documenten te voorkomen dat er meerdere regels zijn met dezelfde combinatie van product- en financiële voorraaddimensies.
+- De mate van parallellisatie verminderen. (In dit geval kan het systeem sneller worden, omdat er minder updateconflicten zijn en er minder nieuwe pogingen worden ondernomen.)

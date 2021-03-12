@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e57c51011f1d93a6f62eb88c9cc45a38f2d0a5f3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 59cfc629e7c6e978715f08bc4a3383ba6f9bb089
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528739"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984979"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-developers"></a>Trainingscatalogus voor Dynamics 365 Finance-ontwikkelaars
 
@@ -49,8 +48,8 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [Finance and Operations: Dynamics 365 for Finance and Operations uitbreiden met PowerApps (DYN558PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extending-dynamics-365-with-powerapps-2-6-2019) | Inzicht in de eenvoud van Microsoft PowerApps en de manier waarop Dynamics 365 for Finance and Operations kan worden geïntegreerd om bedrijven digitaal te transformeren en de productiviteit van gebruikers te verhogen. | Gratis registratie van een webvergadering | 43 minuten |
 | [Finance and Operations: Uitbreidbaarheid (DYN518PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-extensibility-10-26-18) | Wij bieden een overzicht en update van de uitbreidingsplannen van Microsoft. We bespreken de diverse methoden om een oplossing uit te breiden, waarbij we uitgebreid ingaan op de uitbreidbaarheidsfuncties voor metagegevens en de mogelijkheid om code uit te breiden en uit te breiden, waaronder de krachtige opdrachtstructuur. | Gratis registratie van een webvergadering | 50 minuten |
 | [Visual Studio Team Services (VSTS) instellen (VIR782PAL) ](https://community.dynamics.com/365/b/techtalks/posts/visual-studio-team-services-vsts-setup-january-17-2017) | In deze TechTalk nemen we de nodige stappen door voor het configureren van een VSTS-exemplaar en -project om verbinding te maken met een LCS-implementatieproject voor de configuratie van de ontwikkel-/testomgeving. | Gratis registratie van een webvergadering | 41 minuten |
-| [CDS-gegevensintegrator (DYN451PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Neem contact op met ons voor deze TechTalk over de mogelijkheden van de Common Data Service-gegevensintegrator (CDS). Integratie-opties tussen andere Dynamics 365 Customer Engagement en Dynamics 365 Finance and Operations, en integratie met andere oplossingen van derden worden door ons besproken. | Gratis registratie van een webvergadering | 61 minuten |
-| [Integratie tussen Dynamics 365 for Sales en Dynamics 365 for Finance and Operations via CDS (DYN340PAL) ](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | In deze TechTalk introduceren we het integratiescenario dat bekend staat als Van prospect naar contant geld, met verkoop- en marketingactiviteiten in Dynamics 365 for Sales en afhandeling in Dynamics 365 for Finance and Operations. Daarnaast bespreken we de gegevensintegrator en leggen we uit hoe de integratie kan worden gewijzigd. | Gratis registratie van een webvergadering | 54 minuten |
+| [Dataverse-gegevensintegrator (DYN451PAL2)](https://community.dynamics.com/365/b/techtalks/posts/cds-data-integrator-april-19-2018) | Doe mee met deze TechTalk over de mogelijkheden van de Dataverse-gegevensintegrator. Integratie-opties tussen andere Dynamics 365 Customer Engagement en Dynamics 365 Finance and Operations, en integratie met andere oplossingen van derden worden door ons besproken. | Gratis registratie van een webvergadering | 61 minuten |
+| [Integratie tussen Dynamics 365 for Sales en Dynamics 365 for Finance and Operations via Dataverse (DYN340PAL)](https://community.dynamics.com/365/b/techtalks/posts/integration-between-dynamics-365-for-sales-and-dynamics-365-for-finance-amp-operations-via-cds-september-25-2017) | In deze TechTalk introduceren we het integratiescenario dat bekend staat als Van prospect naar contant geld, met verkoop- en marketingactiviteiten in Dynamics 365 for Sales en afhandeling in Dynamics 365 for Finance and Operations. Daarnaast bespreken we de gegevensintegrator en leggen we uit hoe de integratie kan worden gewijzigd. | Gratis registratie van een webvergadering | 54 minuten |
 | [Gegevensbeheer (DYN757PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/dynamics-365-finance-scm-data-management-february-14-2020) | Neem deel aan deze TechTalk over gegevensbeheer. Informatie over de beschikbare opties en de scenario's waarvoor deze worden aanbevolen. We bespreken het Data Management Framework, sjablonen, het kopiëren van databases, het delen van gegevens tussen meerdere bedrijven en overwegingen met betrekking tot prestaties. | Gratis registratie van een webvergadering | 58 minuten |
 | [Azure-integratiefuncties voor Dynamics 365 for Finance and Operations (DYN386PAL) ](https://community.dynamics.com/365/b/techtalks/posts/azure-integration-tools-for-dynamics-365-for-finance-and-operations-november-2-2017) | Deze TechTalk heeft betrekking op de typen hulpprogramma's die kunnen worden overwogen bij de integratie met Dynamics 365 voor Finance and Operations en wanneer het beste welk integratieprogramma kan worden gekozen. De sessie doorloopt ook enkele integratiescenario's die gebruikmaken van Azure-integratieservices. | Gratis registratie van een webvergadering | 63 minuten |
 | [Integratieraamwerken binnen Dynamics 365 for Finance and Operations (DYN385PAL) ](https://community.dynamics.com/365/b/techtalks/posts/integration-frameworks-within-dynamics-365-for-finance-amp-operations-october-31-2017) | In deze sessie vindt u een overzicht van de integratieraamwerken binnen Dynamics 365 voor Finance and Operations en een bespreking van wanneer deze raamwerken mogelijk kunnen worden gebruikt. | Gratis registratie van een webvergadering | 64 minuten |
@@ -94,6 +93,3 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | Inhoud | Omschrijving  | Indeling  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 |[Examen MB-500: Microsoft Dynamics 365: ontwikkelaar van Finance and Operations-apps](https://docs.microsoft.com/learn/certifications/exams/mb-500) | Dit examen meet het vermogen om de volgende technische taken uit te voeren: architectuur en oplossingsontwerp plannen; ontwikkelaarstools toepassen; AOT-elementen ontwerpen en ontwikkelen, code ontwikkelen en testen; rapportage implementeren; gegevensoplossingen integreren en beheren en de beveiliging implementeren en de prestaties optimaliseren. | Examen, kosten verschillen per regio |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

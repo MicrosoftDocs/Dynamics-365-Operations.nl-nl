@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b7975088be898ccecceb1f7be009cecff107f6e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c29ede7ad8916a97b4a04b68f41961f79810e0c8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425416"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983564"
 ---
 # <a name="approve-planned-orders"></a>Geplande orders goedkeuren
 
@@ -43,6 +42,3 @@ Via het veld **Status** kunt u uw voortgang in de gaten houden aan de hand van d
 - **Goedgekeurd:** als u wijzigingen wilt behouden of van plan bent om een geplande order te fiatteren, wijzigt u de status in *Goedgekeurd*. Geplande orders met de status *Goedgekeurd* worden als vaststaand en verwachte levering beschouwd door de hoofdplanning. Ze worden dus niet gewijzigd of verwijderd tijdens een latere hoofdplanningsuitvoering. Om dit te bereiken, kopieert de planningslogica de *goedgekeurde* geplande orders van de oude planversie naar de nieuwe planversie tijdens de hoofdplanning. *Goedgekeurde* geplande orders worden alleen als levering beschouwd in het specifieke hoofdplan.
 
 U kunt geplande orders vanuit de werkruimte **Hoofdplanning**, de lijst **Geplande order** of de lijsten **Geplande productieorders**, **Geplande inkooporders** en **Geplande overboeking** beheren.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

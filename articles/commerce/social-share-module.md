@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 0a5ad1f4a9bb317e128ad14f21a4e6c48cab8a72
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4411507"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985531"
 ---
 # <a name="social-share-module"></a>Module voor sociaal delen
 
@@ -82,6 +81,3 @@ Ga als volgt te werk om een module voor sociaal delen toe te voegen aan een koop
 [Module met vakje voor kopen](add-buy-box.md)
 
 [Conformiteit van cookie](cookie-compliance.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

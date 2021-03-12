@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: MainAccountLookup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 496c4841d36174be3e65b0a4fc9a3a331662637f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cac7cf21c1ee30c20b6d7dfc1cad995d3f0323bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408329"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984728"
 ---
 # <a name="eur-00018-vat-reconciliation-report"></a>EUR-00018 Btw-afstemmingsrapport
 
@@ -41,6 +40,3 @@ In deze procedure ziet u hoe u het btw-afstemmingsrapport genereert dat beschikb
 6. Selecteer Ja in het veld Details weergeven.
 7. Klik op OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

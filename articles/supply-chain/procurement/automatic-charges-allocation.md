@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
+ms.openlocfilehash: 8067285237127bd43e8ff24166a15506cc0426f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425743"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983161"
 ---
 # <a name="automatic-allocation-of-charges"></a>Automatische toewijzing van toeslagen
 
@@ -177,6 +176,3 @@ Met de volgende procedure wordt aangegeven hoe u toeslagen op koptekstniveau kun
         > Wanneer u werkt met het raster **Regels kiezen die u wilt uitsluiten van toewijzing**, moet u het raster geopend laten totdat u **Toewijzen** selecteert. Als u het raster sluit voordat u **Toewijzen** selecteert, gaan de instellingen in het raster verloren. Daarom worden toeslagen toegewezen op basis van de criteria die u eerder hebt gedefinieerd.
 
 1. Selecteer **Toewijzen** om uw instellingen toe te passen en het dialoogvenster te sluiten.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

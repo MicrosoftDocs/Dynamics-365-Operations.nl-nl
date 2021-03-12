@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: db0d78c7a6fa69aa4e0c4c82f92c33daabda073f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425628"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983336"
 ---
 # <a name="set-up-hazardous-materials"></a>Gevaarlijke stoffen instellen
 
@@ -284,6 +283,3 @@ Om waarden voor deze specificatie in te stellen, gaat u naar **Productgegevensbe
 De specificatie *Tunnel voor gevaarlijke materiaal materialen* beperkt de typen tunnels via welke een gevaarlijke stof kan worden getransporteerd door de typen tunnels te identificeren die moeten worden gebruikt. Tunnelcategorieën worden vastgesteld op basis van toepasselijke voorschriften voor het transport van gevaarlijke stoffen. Deze specificatie is doorgaans alleen van toepassing op wegtransport.
 
 Om waarden voor deze specificatie in te stellen, gaat u naar **Productgegevensbeheer \> Instellen \> Vervoersdocumentatie gevaarlijke stoffen \> Tunnel voor gevaarlijke stoffen**. Op de pagina **Tunnel voor gevaarlijke stoffen** kunt u een willekeurig aantal tunnel-id's maken en deze configureren met een identificatiecode en een korte beschrijving.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

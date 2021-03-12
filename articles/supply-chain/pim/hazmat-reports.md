@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 188c339ddf5f5c2488133924e9a0288f218f495c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1bb96d117eb3bb2b54be1a376c8789ad73d5fec8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425479"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983361"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Informatie en rapporten voor gevaarlijke stoffen
 
@@ -110,6 +109,3 @@ Wanneer de functie voor gevaarlijke stoffen is ingeschakeld in uw systeem, bevat
 ## <a name="packing-list-report"></a>Rapport Verpakkingslijst
 
 Wanneer de functie voor gevaarlijke stoffen is ingeschakeld in uw systeem, bevatten verpakkingslijsten aanvullende informatie over de verzendtekst voor een artikel. Dit rapport is zoals gewoonlijk te vinden op de pagina **Alle ladingen**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
