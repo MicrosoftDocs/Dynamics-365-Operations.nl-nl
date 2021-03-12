@@ -8,10 +8,9 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTable, SalesTableListPage
+ms.search.form: SalesTable, SalesTableListPage, SalesTableListPage_SalesCancelOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 6e51723915892f465ce09d09ee9ed622bab9451e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9a5b7a5e8cac7f8816233dd2d7ff1a7f84ea480
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425400"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974780"
 ---
 # <a name="troubleshoot-sales-orders"></a>Problemen met verkooporders oplossen
 
@@ -59,6 +58,8 @@ U kunt een inkooporder maken op basis van een verkooporder. Meer informatie vind
 U kunt alleen verkooporders en retourorders annuleren die de status *Gemaakt* hebben. Zie voor meer informatie [Een retourorder annuleren](../service-management/cancel-return-order.md).
 
 ## <a name="when-i-try-to-cancel-a-sales-order-i-receive-a-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations-error"></a>Wanneer ik een verkooporder wil annuleren, krijg ik het bericht "Reserveringen kunnen niet worden verwijderd omdat er werk is gemaakt dat afhankelijk is van de reserveringen".
+
+Foutcode: WAX4661
 
 Als werk aan een verkooporder is gekoppeld, kunt u de verkooporder pas annuleren als het werk is geannuleerd en omgekeerd. Deze vereiste geldt ook als het werk dat aan de verkooporder is gekoppeld, is afgesloten.
 
@@ -111,6 +112,3 @@ Supply Chain Management biedt momenteel geen ondersteuning voor de berekening va
 Het bundelartikel is niet beschikbaar voor de inkooporder, want als u de verkooporderregels voor het bundelartikel bekijkt, ziet u dat de hoeveelheid *0* (nul) is en de status *Geannuleerd*. Dit is zo ontworpen. In de verkooporder worden alleen de onderdelen van het bundelartikel gekocht. In de verkooporder wordt niet het bundelartikel zelf gekocht.
 
 Als u een bundel moet aanschaffen, overweeg dan of u deze als een bundelartikel moet markeren, omdat deze functionaliteit eigenlijk is bedoeld voor opbrengsttoerekeningsscenario's. Meer informatie over bundelartikelen vindt u in [Bundels](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

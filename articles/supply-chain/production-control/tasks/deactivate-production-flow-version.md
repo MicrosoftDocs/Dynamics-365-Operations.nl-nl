@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e818d3d75be8b24531afc6280ae0c37eca4de23
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0664dd40464000abef0041ef32863a3c9494d9b8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425149"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975130"
 ---
 # <a name="deactivate-a-production-flow-version"></a>Een productiestroomversie deactiveren
 
@@ -46,6 +45,3 @@ Voor deze procedure hebt u een productiestroom nodig met een versie die kan word
     * Ga niet verder als u niet 100% zeker weet of deze productiestroomversie verouderd is. Als u op OK klikt, verlopen alle actieve kanbanregels en wordt een direct einde gemaakt aan alle productie- en aanvulactiviteiten van deze productiestroomversie.  
 6. Klik op OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

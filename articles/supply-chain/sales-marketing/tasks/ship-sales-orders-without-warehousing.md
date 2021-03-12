@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, SalesTableLineQuantity, CustPackingSlipJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b6b1dbb4d53785c226f7c9d40339d9dd19f47152
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 45884bd5ff70b31c62a7e0affafb6c5ddb457be3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425720"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974855"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Verkooporders verzenden zonder magazijn
 
@@ -56,6 +55,3 @@ In dit onderwerp wordt aangegeven hoe u een verkooporder bijwerkt wanneer produc
 19. Selecteer in het actievenster de optie **Verzamelen en inpakken**.
 20. Selecteer **Pakbon**. De pagina **Pakbonjournaal** bevat alle pakbondocumenten die voor uw order zijn gegenereerd. U kunt details van elk document controleren en deze desgewenst afdrukken.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

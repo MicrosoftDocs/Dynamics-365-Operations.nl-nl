@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User, SalesTableDelete, SalesTableListPagePreviewPage, SalesUpdateRemain
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9aa353ad771844abc0860f06d9bc22b9f4adce92
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8bb4c7a542106161f8bc1b8db0976c24faebf907
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425247"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974805"
 ---
 # <a name="create-sales-orders"></a>Verkooporders maken
 
@@ -68,6 +67,3 @@ De producten die door uw organisatie worden verkocht, kunnen variëren qua dimen
     De pagina **Totalen** bevat details over de gehele order. Dit omvat het subtotaalbedrag, wat een som is van alle regelnettobedragen, aangepast voor uiteindelijke regelkortingen, het totale factuurbedrag, dat een subtotaalbedrag is, aangepast voor uiteindelijke korting op orderniveau, toeslagen, btw, de situatie van de kredietlimiet van de klant, en meer. Het factuurbedrag is het bedrag dat op het factuurdocument van de klant wordt weergegeven.  
     
 3. Selecteer **OK**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

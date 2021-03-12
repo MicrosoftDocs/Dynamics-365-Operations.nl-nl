@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TradeNonStockedConversion, TradeNonStockedConversionChangeWizard, TradeNonStockedConversionCheckWorksheet, TradeNonStockedConversionWizard, TradeNonStockedRegister
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43426e77c30e46f4dd1cc117c38cf6ba5437655b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e49793fc7f6b3f37bafae05770d4b23d24171329
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425248"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974880"
 ---
 # <a name="create-a-new-trade-agreement"></a>Een nieuwe handelsovereenkomst maken
 
@@ -50,7 +49,7 @@ Deze procedure laat zien hoe u een handelsovereenkomst maakt waarin u een nieuwe
 11. Selecteer in de lijst het product dat u in de overeenkomst wilt opnemen. Maak een notitie van het product dat u hebt geselecteerd.  
 12. Voer in het veld **Van** een minimumhoeveelheid in.
     - Als de klant een minimumhoeveelheid moet bestellen voordat deze voor de nieuwe prijs in aanmerking komt, moet u die hoeveelheid hier opgeven.  
-    - Voer een waarde in het veld **Aan** in om de maximale hoeveelheid op te geven waarboven de prijs van de overeenkomst niet geldig is. Als u prijzen en kortingen aanbiedt op basis van meerdere hoeveelheidscategorieën, geeft u elke hoeveelheidsbracket op als een minimum- en een maximumwaarde in het veld **Van** en het veld **Tot**.
+    - Voer een waarde in het veld **Tot** in om de maximale hoeveelheid op te geven waarboven de prijs van de overeenkomst niet geldig is. Als u prijzen en kortingen aanbiedt op basis van meerdere hoeveelheidscategorieën, geeft u elke hoeveelheidsbracket op als een minimum- en een maximumwaarde in het veld **Van** en het veld **Tot**.
 13. Voer in het veld **Bedrag in valuta** een prijs in.
 14. Voer in de sectie **Details** in het veld **Begindatum** een datum in waarop deze overeenkomst geldig is.
 15. Klik op **Opslaan**.
@@ -71,8 +70,10 @@ Deze procedure laat zien hoe u een handelsovereenkomst maakt waarin u een nieuwe
 5. Sluit de pagina.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
+
+### <a name="whitepaper"></a>Whitepaper
+Download de volgende whitepaper (geschreven ter ondersteuning van AX2012, maar is nog steeds van toepassing op Dynamics 365 Supply Chain Management) voor meer informatie.
+- [Handelsovereenkomsten](https://mbs.microsoft.com/files/public/CS/AX2012R3/TradeagreementsinAX.pdf)
+
 ### <a name="community-blogs"></a>Community-blogs
 - [Verkoopprijzen in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

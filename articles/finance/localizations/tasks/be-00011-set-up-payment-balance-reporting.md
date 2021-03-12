@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Belgium
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7268b961cf6c79d491fe5b1a698e42bb39b21795
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 08e0300bec16f2b4a9583769a128f097054404d3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408319"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975327"
 ---
 # <a name="set-up-payment-balance-reporting-belgium"></a>Rapportage voor betalingssaldo instellen (België)
 
@@ -77,6 +76,3 @@ Deze functionaliteit is beschikbaar voor rechtspersonen die hun primaire adres i
 10. Schakel het selectievakje Betaling opnemen in.
     * Houd er rekening mee dat betalingstransacties standaard niet worden overgeboekt naar het betalingssaldo. De gebruiker moet het veld Betaling opnemen activeren voor doelcodes.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

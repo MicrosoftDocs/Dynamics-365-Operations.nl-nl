@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 615d17c71b904d426081d4c57492ba7e95c2c749
-ms.sourcegitcommit: 65f9e2584c0530b1a71655aae09101691726b47f
+ms.openlocfilehash: ea89d54b9b8287d9c81b75a99c5808b5deb05cef
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4650655"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976085"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Degressieve afschrijving na een splitsing
 
@@ -45,6 +44,3 @@ De volgende voorwaarden zijn bijvoorbeeld van toepassing:
 Het bedrag dat moet worden afgeschreven voor het oorspronkelijke activum, is $1.822,25. Dit bedrag is gelijk aan de NBW voordat de gesplitste transactie is geboekt ($9.111,25), plus de verwervingscorrectie die wordt gegenereerd tijdens het boeken van de gesplitste transactie (-$8.000,-), plus de afschrijvingscorrectie die wordt gegenereerd tijdens de gesplitste transactie ($711,-). Daarom is de afschrijving voor het tweede jaar (1.822,25 × 18 procent) ÷ 12 = $27,33.
 
 Het bedrag dat moet worden afgeschreven voor het nieuwe vaste activum in het eerste jaar is (8.000 × 18 procent) ÷ 12 = $120.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-19
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 438a640124e778b839c660f5e161efa22c319af0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e2aafa90b8dbc6642737fc1834a7c992a9883033
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441814"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975503"
 ---
 # <a name="sales-tax-specification-by-ledger-transaction-report"></a>Btw-specificatie per grootboektransactie (rapport)
 [!include [banner](../includes/banner.md)]
@@ -58,6 +57,3 @@ Wanneer u dit rapport genereert, zijn de volgende standaardvelden beschikbaar. U
 Als u alleen niet-btw-rekeningen wilt weergeven in het rapport, stelt u een filtervoorwaarde in, zoals een asterisk (\*), zoals wordt weergegeven in de volgende afbeelding.
 
 ![Rapport met niet-belastingrekeningen](media/taxspecperledgertrans.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c4561a1193971b131ab2b6c8d64f848d8155c1fc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442080"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975759"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Overzicht van Financiële consolidaties en valutaomzetting
 
@@ -125,7 +124,7 @@ U kunt indien nodig de datum instellen waarop de schrappingsregel van kracht wor
 
 Nadat u de basiseigenschappen hebt gedefinieerd, selecteert u **Regels** om de werkelijke verwerkingsregels te definiëren. Er zijn twee opties voor schrappingen: u kunt het bedrag van de nettowijziging verwijderen of een vast bedrag definiëren.
 
-Selecteer de bronrekeningen. U kunt een sterretje (\*) als jokerteken gebruiken. Zo worden met **1\*** alle rekeningen die beginnen met een **1** als bron van gegevens voor de toewijzing geselecteerd.
+Selecteer de bronrekeningen. U kunt een sterretje (\*) als jokerteken gebruiken. Zo worden met **1\**_ alle rekeningen geselecteerd die beginnen met een _* 1** als bron van gegevens voor de toewijzing.
 
 Nadat u de bronrekeningen hebt geselecteerd, gebruikt u het veld **Rekeningspecificatie** om de rekening op te geven die van het doelbedrijf wordt gebruikt. Selecteer **Bron** als u dezelfde hoofdrekening wilt gebruiken die is gedefinieerd in de bronrekening. Als u **Door gebruiker gedefinieerd** selecteert, moet u een doelrekening opgeven.
 
@@ -182,6 +181,3 @@ Hier volgen enkele consolidatiescenario's die in Financiële rapportage worden o
 
 ## <a name="generating-consolidated-financial-statements"></a>Geconsolideerde financiële overzichten genereren
 Zie voor informatie over scenario's waarin u mogelijk geconsolideerde financiële overzichten genereert [Geconsolideerde financiële overzichten genereren](./generating-consolidated-financial-statements.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

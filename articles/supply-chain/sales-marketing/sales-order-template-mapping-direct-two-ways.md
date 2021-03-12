@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ddc6159480d1ff9fb823dbd95465c991ae51f9c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425637"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974980"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Verkooporders rechtstreeks tussen Sales en Supply Chain Management synchroniseren
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt voor het synchroniseren van verkooporders tussen Dynamics 365 Sales en Dynamics 365 Supply Chain Management.
 
@@ -62,10 +63,10 @@ De volgende synchronisatietaken zijn vereist voordat de synchronisatie van de ko
 
 ## <a name="entity-set"></a>Entiteitset
 
-| Supply Chain Management  | Verkoop             |
+| Supply Chain Management  | Verkopen             |
 |-------------------------|-------------------|
-| CDS-verkooporderkopteksten | SalesOrders       |
-| CDS-verkooporderregels   | SalesOrderDetails |
+| Dataverse-verkooporderkopteksten | SalesOrders       |
+| Dataverse-verkooporderregels   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Entiteitstroom
 
@@ -75,7 +76,7 @@ U hoeft geen orders in Sales te maken. U kunt in plaats daarvan nieuwe verkoopor
 
 In Supply Chain Management zorgen filters in de sjabloon ervoor dat alleen de relevante verkooporders worden opgenomen in de synchronisatie:
 
-- Als zowel de bestellende als de facturerende klant op de verkooporder uit Sales afkomstig is, worden beide opgenomen in de synchronisatie. In Supply Chain Management worden de velden **OrderingCustomerIsExternallyMaintained** en **InvoiceCustomerIsExternallyMaintained** gebruikt om verkooporders te filteren op basis van de gegevensentiteiten.
+- Als zowel de bestellende als de facturerende klant op de verkooporder uit Sales afkomstig is, worden beide opgenomen in de synchronisatie. In Supply Chain Management worden de kolommen **OrderingCustomerIsExternallyMaintained** en **InvoiceCustomerIsExternallyMaintained** gebruikt om verkooporders te filteren op basis van de gegevenstabellen.
 - De verkooporder in Supply Chain Management moet worden bevestigd. Alleen bevestigde verkooporders of verkooporders met een hogere verwerkingsstatus, bijvoorbeeld met de status **Verzonden** of **Gefactureerd**, worden gesynchroniseerd naar Sales.
 - Na het maken of wijzigen van een verkooporder moet de batchtaak **Verkooptotalen berekenen** in Supply Chain Management worden uitgevoerd. Alleen verkooporders waarvoor verkooptotalen zijn berekend, worden gesynchroniseerd naar Sales.
 
@@ -103,10 +104,10 @@ Als een verkooporderregel vanuit Sales naar Supply Chain Management wordt gesync
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Oplossing Prospect naar contant geld voor Sales
 
-Nieuwe velden zijn toegevoegd aan de entiteit **Order** en worden weergegeven op de pagina:
+Nieuwe kolommen zijn toegevoegd aan de tabel **Order** en worden weergegeven op de pagina:
 
 - **Wordt extern beheerd** – stel deze optie in op **Ja** wanneer de order afkomstig is uit Supply Chain Management.
-- **Verwerkingsstatus** – in dit veld wordt de verwerkingsstatus weergegeven van de order in Supply Chain Management. De volgende waarden zijn beschikbaar:
+- **Verwerkingsstatus**: in deze kolom wordt de verwerkingsstatus weergegeven van de order in Supply Chain Management. De volgende waarden zijn beschikbaar:
 
     - **Concept**: de beginstatus wanneer een order wordt gemaakt in Sales. In Sales kunnen alleen orders met deze status worden bewerkt.
     - **Actief**: de status nadat de order is geactiveerd met de knop **Activeren** in Sales.
@@ -141,7 +142,7 @@ Voordat u verkooporders synchroniseert, is het belangrijk de volgende instelling
 - Ga naar **Instellingen** &gt; **Beheer** &gt; **Systeeminstellingen** &gt; **Sales** en zorg ervoor dat de volgende instellingen worden gebruikt:
 
     - De optie **Systeem voor berekenen van systeemprijzen gebruiken** is ingesteld op **Ja**.
-    - Het veld **Berekeningsmethode korting** is ingesteld op **Regelartikel**.
+    - De kolom **Berekeningsmethode korting** is ingesteld op **Regelartikel**.
 
 ### <a name="setup-in-supply-chain-management"></a>Supply Chain Management instellen
 
@@ -151,10 +152,10 @@ Als u ook integratie werkorder gebruikt, moet u de verkoopoorsprong instellen. D
 
 1. Ga naar **Verkoop en marketing** \> **Instellen** \> **Verkooporders** \> **Verkoopoorsprong**.
 2. Selecteer **Nieuw** voor het maken van een nieuwe verkoopoorsprong.
-3. Voer in het veld **Verkoopoorsprong** een naam in voor de verkoopoorsprong, zoals **Verkooporder**.
-4. Voer in het veld **Beschrijving** een beschrijving in, zoals **Verkooporder vanuit Sales**.
+3. Voer in de kolom **Verkoopoorsprong** een naam in voor de verkoopoorsprong, zoals **Verkooporder**.
+4. Voer in de kolom **Beschrijving** een beschrijving in, zoals **Verkooporder vanuit Sales**.
 5. Schakel het selectievakje **Toewijzing van oorsprongtype** in.
-6. Stel het veld **Type verkoopoorsprong** in op **Integratie verkooporder**.
+6. Stel de kolom **Type verkoopoorsprong** in op **Integratie verkooporder**.
 7. Selecteer **Opslaan**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Instellingen in het project Gegevensintegratie voor Verkooporders (Sales naar Supply Chain Management) - Direct
@@ -181,12 +182,12 @@ Als u ook integratie werkorder gebruikt, moet u de verkoopoorsprong instellen. D
 ## <a name="template-mapping-in-data-integration"></a>Sjabloontoewijzing in Gegevensintegratie
 
 > [!NOTE]
-> De velden **Betalingsvoorwaarden**, **Leveringscondities**, **Leveringsvoorwaarden**, **Verzendmethode** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze velden wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de entiteit wordt gesynchroniseerd.
+> De kolommen **Betalingsvoorwaarden**, **Leveringscondities**, **Leveringsvoorwaarden**, **Verzendmethode** en **Leveringsmethode** maken geen deel uit van de standaardtoewijzingen. Als u deze kolommen wilt toewijzen, moet u een waardetoewijzing instellen die specifiek is voor de gegevens in de organisaties waartussen de tabel wordt gesynchroniseerd.
 
 In de volgende afbeeldingen ziet u een voorbeeld van sjabloontoewijzing in Gegevensintegratie.
 
 > [!NOTE]
-> Aan de hand van de toewijzing kunt u zien welke veldgegevens vanuit Sales naar Supply Chain Management of andersom worden gesynchroniseerd.
+> Aan de hand van de toewijzing kunt u zien welke kolomgegevens vanuit Sales naar Supply Chain Management of andersom worden gesynchroniseerd.
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Verkooporders (Supply Chain Management naar Sales) - Direct: OrderHeader
 
@@ -207,6 +208,3 @@ In de volgende afbeeldingen ziet u een voorbeeld van sjabloontoewijzing in Gegev
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 [Prospect naar contant geld](prospect-to-cash.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

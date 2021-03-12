@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: eaccb566c04d6d4b91ea8cb046931e750a4c6eed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d1930999604fb2605a88bad9a5972afd3579976a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425147"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975105"
 ---
 # <a name="define-discrete-manufacturing-resource-group"></a>Resourcegroep voor afzonderlijke productie definiëren
 
@@ -58,6 +57,3 @@ Een resourcegroep is een set van bronnen voor bedrijfsactiviteiten die meestal c
 6. Zoek en selecteer de gewenste record in de lijst.
 7. Klik in de lijst op de koppeling in de geselecteerde rij.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
