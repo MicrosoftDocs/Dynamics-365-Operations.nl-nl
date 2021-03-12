@@ -11,63 +11,62 @@ ms.technology: ''
 ms.search.form: SMAServiceOrderTable, SMAAgreementTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 352d3b790da340102b7dbe116d9deeb2f3cbfc4e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 380514b6e95292597d3eb52ce191d1e282e154ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425632"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965900"
 ---
-# <a name="create-service-object-relations"></a><span data-ttu-id="8d75f-103">Relaties van serviceobjecten maken</span><span class="sxs-lookup"><span data-stu-id="8d75f-103">Create service object relations</span></span> 
+# <a name="create-service-object-relations"></a><span data-ttu-id="289f5-103">Relaties van serviceobjecten maken</span><span class="sxs-lookup"><span data-stu-id="289f5-103">Create service object relations</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="8d75f-104">Dit onderwerp beschrijft hoe u serviceobjectrelaties kunt maken voor een serviceovereenkomst en serviceorder.</span><span class="sxs-lookup"><span data-stu-id="8d75f-104">This topic describes how to create service object relations for a service agreement and a service order.</span></span> <span data-ttu-id="8d75f-105">Wanneer u een serviceobjectrelatie maakt, koppelt u het serviceobject aan een serviceovereenkomst of serviceorder.</span><span class="sxs-lookup"><span data-stu-id="8d75f-105">When you a create service object relation, you associate the service object to a service agreement or service order.</span></span> <span data-ttu-id="8d75f-106">Wanneer een klant om service voor een artikel aanvraagt dat een serviceobject is, kunt u het serviceobject van de lijst van serviceobjectrelaties selecteren.</span><span class="sxs-lookup"><span data-stu-id="8d75f-106">When a customer requests service for an item that is a service object, you can select the service object from the list of service object relations.</span></span>
+<span data-ttu-id="289f5-104">Dit onderwerp beschrijft hoe u serviceobjectrelaties kunt maken voor een serviceovereenkomst en serviceorder.</span><span class="sxs-lookup"><span data-stu-id="289f5-104">This topic describes how to create service object relations for a service agreement and a service order.</span></span> <span data-ttu-id="289f5-105">Wanneer u een serviceobjectrelatie maakt, koppelt u het serviceobject aan een serviceovereenkomst of serviceorder.</span><span class="sxs-lookup"><span data-stu-id="289f5-105">When you a create service object relation, you associate the service object to a service agreement or service order.</span></span> <span data-ttu-id="289f5-106">Wanneer een klant om service voor een artikel aanvraagt dat een serviceobject is, kunt u het serviceobject van de lijst van serviceobjectrelaties selecteren.</span><span class="sxs-lookup"><span data-stu-id="289f5-106">When a customer requests service for an item that is a service object, you can select the service object from the list of service object relations.</span></span>
 
-## <a name="create-a-service-object-relation-for-a-service-agreement"></a><span data-ttu-id="8d75f-107">Een serviceobjectrelatie maken voor een serviceovereenkomst</span><span class="sxs-lookup"><span data-stu-id="8d75f-107">Create a service object relation for a service agreement</span></span>
+## <a name="create-a-service-object-relation-for-a-service-agreement"></a><span data-ttu-id="289f5-107">Een serviceobjectrelatie maken voor een serviceovereenkomst</span><span class="sxs-lookup"><span data-stu-id="289f5-107">Create a service object relation for a service agreement</span></span>
 
-<span data-ttu-id="8d75f-108">Gebruik de volgende stappen om een nieuwe serviceobjectrelatie te maken voor een serviceovereenkomst:</span><span class="sxs-lookup"><span data-stu-id="8d75f-108">Use the following steps to create a service object relation for a service agreement:</span></span>
+<span data-ttu-id="289f5-108">Gebruik de volgende stappen om een nieuwe serviceobjectrelatie te maken voor een serviceovereenkomst:</span><span class="sxs-lookup"><span data-stu-id="289f5-108">Use the following steps to create a service object relation for a service agreement:</span></span>
 
-1.  <span data-ttu-id="8d75f-109">Klik op **Servicebeheer** \> **Algemeen** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.</span><span class="sxs-lookup"><span data-stu-id="8d75f-109">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="289f5-109">Klik op **Servicebeheer** \> **Algemeen** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.</span><span class="sxs-lookup"><span data-stu-id="289f5-109">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="8d75f-110">In de lijst **Serviceovereenkomsten** selecteert u een bestaande serviceovereenkomst of klikt u op **Nieuw** om een nieuwe serviceovereenkomst te maken.</span><span class="sxs-lookup"><span data-stu-id="8d75f-110">In the **Service agreements** list, select an existing service agreement, or click **New** to create a new service agreement.</span></span>
+2.  <span data-ttu-id="289f5-110">In de lijst **Serviceovereenkomsten** selecteert u een bestaande serviceovereenkomst of klikt u op **Nieuw** om een nieuwe serviceovereenkomst te maken.</span><span class="sxs-lookup"><span data-stu-id="289f5-110">In the **Service agreements** list, select an existing service agreement, or click **New** to create a new service agreement.</span></span>
 
-3.  <span data-ttu-id="8d75f-111">Klik in het formulier **Serviceovereenkomsten** in het **Actievenster** op het tabblad **Serviceovereenkomst** in de groep **Relaties** op **Serviceobjecten**.</span><span class="sxs-lookup"><span data-stu-id="8d75f-111">In the **Service agreements** form, on the **Action Pane**, on the **Service agreement** tab, in the **Relations** group, click **Service objects**.</span></span>
+3.  <span data-ttu-id="289f5-111">Klik in het formulier **Serviceovereenkomsten** in het **Actievenster** op het tabblad **Serviceovereenkomst** in de groep **Relaties** op **Serviceobjecten**.</span><span class="sxs-lookup"><span data-stu-id="289f5-111">In the **Service agreements** form, on the **Action Pane**, on the **Service agreement** tab, in the **Relations** group, click **Service objects**.</span></span>
 
-4.  <span data-ttu-id="8d75f-112">Klik in het formulier **Serviceobjecten** op **Nieuw** en selecteer vervolgens een serviceobject voor deze serviceovereenkomst.</span><span class="sxs-lookup"><span data-stu-id="8d75f-112">In the **Service objects** form, click **New**, and then select a service object for this service agreement.</span></span>
+4.  <span data-ttu-id="289f5-112">Klik in het formulier **Serviceobjecten** op **Nieuw** en selecteer vervolgens een serviceobject voor deze serviceovereenkomst.</span><span class="sxs-lookup"><span data-stu-id="289f5-112">In the **Service objects** form, click **New**, and then select a service object for this service agreement.</span></span>
 
-5.  <span data-ttu-id="8d75f-113">Klik op **Functies** en selecteer vervolgens **Sjabloonstuklijst toevoegen** om een sjabloonstuklijst aan de serviceovereenkomst te koppelen.</span><span class="sxs-lookup"><span data-stu-id="8d75f-113">To assign a template bill of materials (BOM) to the service agreement, click **Functions**, and then select **Attach template BOM**.</span></span> <span data-ttu-id="8d75f-114">Selecteer een sjabloon in het formulier **Sjabloonstuklijst selecteren** in het veld **Sjabloonstuklijst**.</span><span class="sxs-lookup"><span data-stu-id="8d75f-114">In the **Select template BOM** form, in the **Template BOM** field, select a template.</span></span> 
+5.  <span data-ttu-id="289f5-113">Klik op **Functies** en selecteer vervolgens **Sjabloonstuklijst toevoegen** om een sjabloonstuklijst aan de serviceovereenkomst te koppelen.</span><span class="sxs-lookup"><span data-stu-id="289f5-113">To assign a template bill of materials (BOM) to the service agreement, click **Functions**, and then select **Attach template BOM**.</span></span> <span data-ttu-id="289f5-114">Selecteer een sjabloon in het formulier **Sjabloonstuklijst selecteren** in het veld **Sjabloonstuklijst**.</span><span class="sxs-lookup"><span data-stu-id="289f5-114">In the **Select template BOM** form, in the **Template BOM** field, select a template.</span></span> 
 
-## <a name="create-a-service-object-relation-for-a-service-order"></a><span data-ttu-id="8d75f-115">Een serviceobjectrelatie maken voor een serviceorder</span><span class="sxs-lookup"><span data-stu-id="8d75f-115">Create a service object relation for a service order</span></span>
+## <a name="create-a-service-object-relation-for-a-service-order"></a><span data-ttu-id="289f5-115">Een serviceobjectrelatie maken voor een serviceorder</span><span class="sxs-lookup"><span data-stu-id="289f5-115">Create a service object relation for a service order</span></span>
 
-<span data-ttu-id="8d75f-116">Gebruik de volgende stappen om een nieuwe serviceobjectrelatie te maken voor een serviceorder:</span><span class="sxs-lookup"><span data-stu-id="8d75f-116">Use the following steps to create a service object relation for a service order:</span></span>
+<span data-ttu-id="289f5-116">Gebruik de volgende stappen om een nieuwe serviceobjectrelatie te maken voor een serviceorder:</span><span class="sxs-lookup"><span data-stu-id="289f5-116">Use the following steps to create a service object relation for a service order:</span></span>
 
-1.  <span data-ttu-id="8d75f-117">Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.</span><span class="sxs-lookup"><span data-stu-id="8d75f-117">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="289f5-117">Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.</span><span class="sxs-lookup"><span data-stu-id="289f5-117">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="8d75f-118">Selecteer in de lijst **Serviceorders** een bestaande serviceorder of maak een nieuwe serviceorder.</span><span class="sxs-lookup"><span data-stu-id="8d75f-118">In the **Service orders** list, select an existing service order, or create a new service order.</span></span>
+2.  <span data-ttu-id="289f5-118">Selecteer in de lijst **Serviceorders** een bestaande serviceorder of maak een nieuwe serviceorder.</span><span class="sxs-lookup"><span data-stu-id="289f5-118">In the **Service orders** list, select an existing service order, or create a new service order.</span></span>
 
-3.  <span data-ttu-id="8d75f-119">Klik in het formulier **Serviceorders** in het **Actievenster** op het tabblad **Serviceorder** in de groep **Relaties** op **Serviceobjecten**.</span><span class="sxs-lookup"><span data-stu-id="8d75f-119">In the **Service orders** form, on the **Action Pane**, on the **Service order** tab, in the **Relations** group, click **Service objects**.</span></span>
+3.  <span data-ttu-id="289f5-119">Klik in het formulier **Serviceorders** in het **Actievenster** op het tabblad **Serviceorder** in de groep **Relaties** op **Serviceobjecten**.</span><span class="sxs-lookup"><span data-stu-id="289f5-119">In the **Service orders** form, on the **Action Pane**, on the **Service order** tab, in the **Relations** group, click **Service objects**.</span></span>
 
-4.  <span data-ttu-id="8d75f-120">Klik in het formulier **Serviceobjecten** op **Nieuw** en selecteer vervolgens een serviceobject voor deze serviceorder.</span><span class="sxs-lookup"><span data-stu-id="8d75f-120">In the **Service objects** form, click **New**, and then select a service object for this service order.</span></span>
+4.  <span data-ttu-id="289f5-120">Klik in het formulier **Serviceobjecten** op **Nieuw** en selecteer vervolgens een serviceobject voor deze serviceorder.</span><span class="sxs-lookup"><span data-stu-id="289f5-120">In the **Service objects** form, click **New**, and then select a service object for this service order.</span></span>
 
-5.  <span data-ttu-id="8d75f-121">Klik op **Functies** en selecteer vervolgens **Sjabloonstuklijst toevoegen** om een sjabloonstuklijst aan de serviceovereenkomst toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="8d75f-121">To assign a template BOM to the service agreement, click **Functions**, and then select **Attach template BOM**.</span></span> <span data-ttu-id="8d75f-122">Selecteer een sjabloon in het formulier **Sjabloonstuklijst selecteren** in het veld **Sjabloonstuklijst**.</span><span class="sxs-lookup"><span data-stu-id="8d75f-122">In the **Select template BOM** form, in the **Template BOM** field, select a template.</span></span> 
+5.  <span data-ttu-id="289f5-121">Klik op **Functies** en selecteer vervolgens **Sjabloonstuklijst toevoegen** om een sjabloonstuklijst aan de serviceovereenkomst toe te wijzen.</span><span class="sxs-lookup"><span data-stu-id="289f5-121">To assign a template BOM to the service agreement, click **Functions**, and then select **Attach template BOM**.</span></span> <span data-ttu-id="289f5-122">Selecteer een sjabloon in het formulier **Sjabloonstuklijst selecteren** in het veld **Sjabloonstuklijst**.</span><span class="sxs-lookup"><span data-stu-id="289f5-122">In the **Select template BOM** form, in the **Template BOM** field, select a template.</span></span> 
 
 
-## <a name="see-also"></a><span data-ttu-id="8d75f-123">Zie ook</span><span class="sxs-lookup"><span data-stu-id="8d75f-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="289f5-123">Zie ook</span><span class="sxs-lookup"><span data-stu-id="289f5-123">See also</span></span>
 
-[<span data-ttu-id="8d75f-124">Overzicht van Serviceobjecten</span><span class="sxs-lookup"><span data-stu-id="8d75f-124">Service objects overview</span></span>](service-objects.md)
+[<span data-ttu-id="289f5-124">Overzicht van Serviceobjecten</span><span class="sxs-lookup"><span data-stu-id="289f5-124">Service objects overview</span></span>](service-objects.md)
 
-[<span data-ttu-id="8d75f-125">Serviceobjectrelaties</span><span class="sxs-lookup"><span data-stu-id="8d75f-125">Service object relations</span></span>](service-object-relations.md)
+[<span data-ttu-id="289f5-125">Serviceobjectrelaties</span><span class="sxs-lookup"><span data-stu-id="289f5-125">Service object relations</span></span>](service-object-relations.md)
 
-[<span data-ttu-id="8d75f-126">Sjabloonstuklijsten</span><span class="sxs-lookup"><span data-stu-id="8d75f-126">Template BOMs</span></span>](template-boms.md)
+[<span data-ttu-id="289f5-126">Sjabloonstuklijsten</span><span class="sxs-lookup"><span data-stu-id="289f5-126">Template BOMs</span></span>](template-boms.md)
 
   
 
