@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 411895763cc282766b5a668208f20c72496059cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411268"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965110"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Uitgebreide garanties maken en configureren
 
@@ -142,7 +141,7 @@ Een garantiegroep is een relatie tussen garantieartikelen en verzekerbare artike
 
 Volg deze stappen als u de garantie in Commerce wilt instellen.
 
-1. Ga naar **Retail en Commerce \> Producten en categorieën \> Garantie \> Garantiegroepen**.
+1. Ga naar **Retail en Commerce \> Producten en categorieën \> Garantie \> Garantiegroepen**.
 1. Selecteer **Nieuw** om een garantiegroep te maken.
 1. Geef in het veld **Naam** een naam op voor de nieuwe groep.
 1. Typ op het sneltabblad **Algemeen** in het veld **Beschrijving** een beschrijving van de groep.
@@ -239,6 +238,3 @@ Een garantie is een service die wordt geleverd voor een specifiek uniek product.
 [Assortimenten instellen](set-up-assortments.md)
 
 [Overzicht van Nummerreeksen](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

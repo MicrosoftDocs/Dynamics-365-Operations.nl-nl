@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 58b5a35800ab464f25868c6756b16f25d14d8d78
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 8321a0d8516a6c2c085ce9c1236f70af1cca98da
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4425899"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967253"
 ---
 # <a name="product-readiness"></a>Productgereedheid
 
@@ -148,6 +147,3 @@ Stel de volgende velden in voor elke rij die u toevoegt.
 | Vragenlijst | Selecteer de vragenlijst die voor de controlelijst moet worden gebruikt. De controlelijst is een lokale controlelijst in het bedrijf waar de gereedheidscontrole is uitgevoerd. Het systeem moet kunnen beoordelen of de controlelijst correct is beantwoord. Daarom moet de controlelijst zo zijn ingesteld dat een evaluatie wordt uitgevoerd op basis van juiste antwoorden. Zie [Vragenlijsten gebruiken](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) en verwante onderwerpen voor meer informatie over het maken van vragenlijsten. |
 | Automatische goedkeuring | Records voor gereedheidscontroles bevatten een selectievakje **Goedgekeurd** waarmee de goedkeuringsstatus wordt aangegeven. Selecteer het selectievakje **Automatische goedkeuring** voor controles die direct op Goedgekeurd moeten worden gezet nadat de toegewezen gebruiker ze voltooid. Wis dit selectievakje uit als u expliciete goedkeuring als extra stap verplicht wilt maken. |
 | Verplicht | Schakel dit selectievakje in voor controles die door de toegewezen gebruiker moeten worden voltooid. Verplichte controles kunnen niet worden overgeslagen. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

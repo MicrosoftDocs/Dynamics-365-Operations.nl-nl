@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 724ec2e5af7837d574298d662911cd9c6ee9e9f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c7d0c792a8590be474b05dea262ae11d15e0ada3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411302"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965199"
 ---
 # <a name="create-a-new-product-hierarchy"></a>Een nieuwe producthiërarchie maken
 
@@ -80,6 +79,3 @@ Categoriekenmerkgroepen kunnen ook naar behoefte worden toegewezen aan elke groe
 [Productcategorieën en producten beheren ](category-management-product-creation.md)
 
 [De sorteervolgorde voor entiteiten voor merchandising wijzigen](custom-order-categories-nav-retail-prod-hierarchy.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

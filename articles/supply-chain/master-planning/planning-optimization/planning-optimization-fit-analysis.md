@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsFitAnalysis, MpsIntegrationParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 769bd84b4ba23c9de4638df9186381936221414a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04605370cbcc7b8c13552ae7f999212a1efabfab
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425467"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967055"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse aanpassen aan Planningsoptimalisatie
 
@@ -53,7 +52,7 @@ Voor een overzicht van het resultaat van Analyse aanpassen aan Planningsoptimali
 
 ## <a name="overview-of-possible-results-from-the-fit-analysis"></a>Overzicht van mogelijke resultaten van de aanpassingsanalyse
 
-In de volgende tabel worden de verschillende resultaten weergegeven die kunnen worden weergegeven na een aanpassingsanalyse. Hekjes (_\#_) worden vervangen door een getal dat het aantal records aangeeft met het vermelde probleem.
+In de volgende tabel worden de verschillende resultaten weergegeven die kunnen worden weergegeven na een aanpassingsanalyse. Hekjes (_\#_) worden vervangen door een getal dat het aantal records aangeeft met het vermelde probleem. Ondersteunde functies of functies in een voorbeeld zijn beschikbaar in versie 10.0.9 of hoger (tenzij er een hoger versienummer wordt weergegeven in de kolom 'Verwachte beschikbaarheid').
 
 | Functie | Vermeld probleem | Uitleg | Verwachte beschikbaarheid |
 | --- | --- | --- | --- |
@@ -66,17 +65,17 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | Fiattering | Artikelbehoefteplanningsrecords met automatische fiattering ingesteld: _\#_ | In versie 10.0.7 en hoger wordt automatisch fiatteren als een afzonderlijke batchtaak voor fiattering ondersteund nadat de hoofdplanning is voltooid (mits de functie _Automatisch fiatteren voor Planningsoptimalisatie_ is ingeschakeld in [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Het automatisch fiatteren voor planningsoptimalisatie is gebaseerd op de orderdatum (begin datum), niet op de behoeftedatum (einddatum). Dit gedrag zorgt ervoor dat geplande orders op tijd worden gefiatteerd, zonder dat de levertijd in de time fence voor fiattering moet worden opgenomen. | Ondersteund |
 | Fiattering | Hoofdplannen met automatische fiattering ingesteld: _\#_ | In versie 10.0.7 en hoger wordt automatisch fiatteren als een afzonderlijke batchtaak voor fiattering ondersteund nadat de hoofdplanning is voltooid (mits de functie _Automatisch fiatteren voor Planningsoptimalisatie_ is ingeschakeld in [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)). Het automatisch fiatteren voor planningsoptimalisatie is gebaseerd op de orderdatum (begin datum), niet op de behoeftedatum (einddatum). Dit gedrag zorgt ervoor dat geplande orders op tijd worden gefiatteerd, zonder dat de levertijd in de time fence voor fiattering moet worden opgenomen. | Ondersteund |
 | FitAnalysisPlanningItems | Planningsartikelen: _\#_ | Deze functie wordt verwerkt. Momenteel worden planningsartikelen op dezelfde manier verwerkt als normale artikelen wanneer Planningsoptimalisatie is ingeschakeld. | 2021 oktober |
-| Prognose | Behoefteplanningsgroepen met "Intercompany-orders opnemen" ingeschakeld: _\#_ | Deze functie wordt verwerkt. Momenteel omvat hoofdplanning geen downstream geplande vraag wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. De vrijgegeven/gefiatteerde orders werken nog steeds met de normale intercompany-functionaliteit en zullen de meeste scenario's dekken. | 2020 oktober |
-| Prognose | Behoefteplanningsgroepen waarvoor de instelling "Prognose reduceren met" op een andere waarde is ingesteld dan "Orders": _\#_ | Voor Planningsoptimalisatie wordt standaard "Prognose reduceren met" voor orders gebruikt, ongeacht deze instelling. | november 2020 |
+| Prognose | Behoefteplanningsgroepen met "Intercompany-orders opnemen" ingeschakeld: _\#_ | Deze functie wordt verwerkt. Momenteel omvat hoofdplanning geen downstream geplande vraag wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. De vrijgegeven/gefiatteerde orders werken nog steeds met de normale intercompany-functionaliteit en zullen de meeste scenario's dekken. | Preview |
+| Prognose | Behoefteplanningsgroepen waarvoor de instelling "Prognose reduceren met" op een andere waarde is ingesteld dan "Orders": _\#_ | Voor Planningsoptimalisatie wordt standaard "Prognose reduceren met" voor orders gebruikt, ongeacht deze instelling. | Ondersteund |
 | Prognose | Prognosemodellen met submodellen: _\#_ | Deze functie wordt verwerkt. Momenteel worden prognoses die submodellen gebruiken, niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. Deze worden genegeerd, ongeacht deze instelling. | 2021 april |
 | Prognose | Hoofdplannen met de "Aanbodprognose opnemen" ingeschakeld: _\#_ | Deze functie wordt verwerkt. Momenteel worden aanbodprognoses die submodellen gebruiken, niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. Deze worden genegeerd, ongeacht deze instelling. | 2021 oktober |
 | Time fence voor blokkering | Behoefteplanningsgroepen met time fence voor blokkering ingesteld: _\#_ | De time fence voor blokkering wordt niet vaak gebruikt en er zijn momenteel geen plannen om de time fence op te nemen voor Planningsoptimalisatie. Momenteel wordt de instelling voor time fence voor blokkering genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | N.v.t. |
 | Time fence voor blokkering | Artikelbehoefteplanningsrecords met time fence voor blokkering ingesteld: _\#_ | De time fence voor blokkering wordt niet vaak gebruikt en er zijn momenteel geen plannen om de time fence op te nemen voor Planningsoptimalisatie. Momenteel wordt de instelling voor time fence voor blokkering genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | N.v.t. |
 | Time fence voor blokkering | Hoofdplannen met time fence voor blokkering ingesteld: _\#_ | De time fence voor blokkering wordt niet vaak gebruikt en er zijn momenteel geen plannen om de time fence op te nemen voor Planningsoptimalisatie. Momenteel wordt de instelling voor time fence voor blokkering genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | N.v.t. |
-| Intercompany | Hoofdplannen inclusief geplande downstreamvraag: _\#_ | Deze functie wordt verwerkt. Momenteel omvat hoofdplanning geen downstream geplande vraag wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. De vrijgegeven/gefiatteerde orders werken nog steeds met de normale intercompany-functionaliteit en zullen de meeste scenario's dekken. | 2020 oktober |
+| Intercompany | Hoofdplannen inclusief geplande downstreamvraag: _\#_ | Deze functie wordt verwerkt. Momenteel omvat hoofdplanning geen downstream geplande vraag wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. De vrijgegeven/gefiatteerde orders werken nog steeds met de normale intercompany-functionaliteit en zullen de meeste scenario's dekken. | Preview |
 | Kanban | Artikelbehoefteplanningsrecords met gepland ordertype kanban: _\#_ | Deze functie wordt verwerkt. Momenteel wordt de artikelbehoefteplanning die is ingesteld op kanban, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. Tijdens de hoofdplanning wordt door het met kanban geplande ordertype een waarschuwing gemaakt en er worden geplande inkooporders gemaakt om de gerelateerde vraag te dekken. | 2021 oktober |
 | Kanban | Artikelen met standaardordertype kanban: _\#_ | Momenteel wordt een standaardordertype dat is ingesteld op kanban, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. Tijdens de hoofdplanning wordt door het standaardordertype een waarschuwing gemaakt en er worden geplande inkooporders gemaakt om de gerelateerde vraag te dekken. | 2021 oktober |
-| Levenscyclusstatus van product   | Levenscyclusstatussen van product niet actief voor planning: _\#_ | Deze functie is in behandeling. Momenteel wordt de Productlevenscyclusstatus genegeerd en is Planningsoptimalisatie ingeschakeld. U kunt het productfilter op planniveau aanpassen om te voorkomen dat producten worden opgenomen waar de productlevenscyclusstatus is uitgeschakeld voor planning. | november 2020 |
+| Levenscyclusstatus van product   | Levenscyclusstatussen van product niet actief voor planning: _\#_ | Deze functie is in behandeling. Momenteel wordt de Productlevenscyclusstatus genegeerd en is Planningsoptimalisatie ingeschakeld. U kunt het productfilter op planniveau aanpassen om te voorkomen dat producten worden opgenomen waar de productlevenscyclusstatus is uitgeschakeld voor planning. | Ondersteund |
 | Productie | Stuklijstregels met afronding of meerdere instellingen: _\#_ | Deze functie wordt verwerkt. Momenteel worden afronding en meerdere instellingen genegeerd op stuklijstregels wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | 2021 april |
 | Productie | Stuklijst-/formuleregels met formulemeting: _\#_ | Deze functie wordt verwerkt. Momenteel wordt formulemeting genegeerd op stuklijst- en formuleregels wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | 2021 oktober |
 | Productie | Stuklijst-/formuleregels met artikelvervanging (planningsgroepen): _\#_ | Deze functie wordt verwerkt. Momenteel wordt artikelvervanging (planningsgroepen) genegeerd op stuklijst- en formuleregels wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | 2021 oktober |
@@ -85,7 +84,7 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | Productie | Stuklijst-/formuleregels met stapverbruik: _\#_ | Deze functie wordt verwerkt. Momenteel wordt stapverbruik genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | 2021 oktober |
 | Productie | Stuklijsten met gedefinieerde constante of variabele uitval: _\#_ | Deze functie wordt verwerkt. Momenteel worden constante en variabele uitval die op stuklijsten zijn gedefinieerd, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | 2021 oktober |
 | Productie | Stuklijsten met uitbesteding: _\#_ | Deze functie wordt verwerkt. Momenteel wordt de instelling voor uitbesteding op stuklijsten genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | 2021 oktober |
-| Productie | Stuklijsten zonder een vestiging: _\#_ | Deze functie wordt verwerkt. Momenteel worden stuklijsten zonder een vestiging genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | 2020 oktober |
+| Productie | Stuklijsten zonder een vestiging: _\#_ | Deze functie wordt verwerkt. Momenteel worden stuklijsten zonder een vestiging genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | Ondersteund |
 | Productie | Vraag waarvoor specifieke stuklijst- of routevereisten zijn gedefinieerd: _\#_ | Deze functie wordt verwerkt. Momenteel worden de specifieke stuklijst- of routevereisten die zijn gedefinieerd op de vraag (zoals een substuklijst of een subroute op een verkooporder) genegeerd wanneer Planningsoptimalisatie is ingeschakeld. De standaard stuklijst of route wordt gebruikt, ongeacht deze instelling. | 2021 oktober |
 | Productie | Formuleversies met co-/bijproducten: _\#_ | Deze functie wordt verwerkt. Momenteel worden co- en bijproducten die aan de formuleversie zijn gekoppeld, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | 2021 oktober |
 | Productie | Formuleversies met opbrengst: _\#_ | Deze functie wordt verwerkt. Momenteel worden opbrengst die aan de formuleversie is gekoppeld, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. | 2021 oktober |
@@ -97,8 +96,8 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | Productie | Planning met explosie van productieorders: _\#_ | Planning met explosie van productieorders wordt niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. Productieorders kunnen afzonderlijk worden gepland. | 2021 oktober |
 | Offerteaanvragen | Hoofdplannen met offerteaanvragen ingeschakeld: _\#_ | Deze functie wordt verwerkt. Momenteel worden offerteaanvragen niet beschouwd als vraag wanneer Planningsoptimalisatie is ingeschakeld. Deze worden genegeerd, ongeacht deze instelling. | 2021 oktober |
 | Bestelopdrachten | Hoofdplannen met bestelopdrachten ingeschakeld: _\#_ | Deze functie wordt verwerkt. Momenteel worden bestelopdrachten niet overwogen wanneer Planningsoptimalisatie is ingeschakeld. Deze worden genegeerd, ongeacht deze instelling. | 2021 oktober |
-| Veiligheidsmarges | Behoefteplanningsgroepen met veiligheidsmarge: _\#_ | Deze functie wordt verwerkt. Op dit moment wordt de veiligheidsmarge genegeerd wanneer Planningsoptimalisatie is ingeschakeld. Om dit gedrag te compenseren, kunt u de levertijd verhogen zodat deze de veiligheidsmarge bevat. | 2020 oktober |
-| Veiligheidsmarges | Hoofdplannen met veiligheidsmarge: _\#_ | Deze functie wordt verwerkt. Momenteel wordt de veiligheidsmarge genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. Om dit gedrag te compenseren, kunt u de levertijd verhogen zodat deze de veiligheidsmarge bevat. | 2020 oktober |
+| Veiligheidsmarges | Behoefteplanningsgroepen met veiligheidsmarge: _\#_ | Deze functie wordt verwerkt. Op dit moment wordt de veiligheidsmarge genegeerd wanneer Planningsoptimalisatie is ingeschakeld. Om dit gedrag te compenseren, kunt u de levertijd verhogen zodat deze de veiligheidsmarge bevat. | Ontvangstmarge: ondersteund. Marge en uitgiftemarge opnieuw ordenen: april 2021 |
+| Veiligheidsmarges | Hoofdplannen met veiligheidsmarge: _\#_ | Deze functie wordt verwerkt. Momenteel wordt de veiligheidsmarge genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. Om dit gedrag te compenseren, kunt u de levertijd verhogen zodat deze de veiligheidsmarge bevat. | Ontvangstmarge: ondersteund. Marge en uitgiftemarge opnieuw ordenen: april 2021 |
 | Afhandeling van veiligheidsvoorraad | Records voor artikelbehoefteplanning met "Minimum behalen" verschillen van "Datum van vandaag + levertijd": _\#_ | Planningsoptimalisatie gebruikt altijd *Datum van vandaag + levertijd* gebruikt. Deze wijziging wordt doorgevoerd om een vereenvoudigde planningsinstelling in de toekomst voor te bereiden en om een actieresultaat te kunnen bieden. Als de aanschaffingstijd niet is opgenomen voor de veiligheidsvoorraad, worden geplande orders die zijn gemaakt voor de huidige lage voorhanden voorraad altijd vertraagd vanwege de levertijd. Dit gedrag kan leiden tot belangrijke ruis en ongewenste geplande orders. De beste manier is om de instelling te wijzigen zodat *Datum van vandaag + levertijd* wordt gebruikt. Werk hoofdgegevens bij om waarschuwingen te voorkomen. | N.v.t. |
 | Verkoopoffertes | Hoofdplannen met verkoopoffertes ingeschakeld: _\#_ | Deze functie wordt verwerkt. Momenteel worden offertes niet overwogen wanneer Planningsoptimalisatie is ingeschakeld. Deze worden genegeerd, ongeacht deze instelling. | 2021 oktober |
 | Houdbaarheid | Hoofdplannen met houdbaarheid ingeschakeld: _\#_ | Deze functie wordt verwerkt. Momenteel wordt houdbaarheid niet meegenomen wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | 2021 oktober |
@@ -114,6 +113,3 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 [Filters op een plan toepassen](plan-filters.md)
 
 [Een planningstaak annuleren](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4425752"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966269"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren
 
@@ -80,6 +79,3 @@ In het bovenste gedeelte van de volgende afbeelding ziet u hoe de interface er s
 Standaard wordt de uitvoeringsinterface van de werkvloer afgemeld als niemand deze gedurende 12 uur gebruikt. Een gebruiker van Supply Chain Management moet zich vervolgens opnieuw aanmelden. U kunt de time-outlimiet echter uitbreiden naar maximaal 90 dagen.
 
 Als u de time-outlimiet wilt uitbreiden, meldt u zich aan bij Supply Chain Management en gaat u naar **Systeembeheer \> Gebruikers \> Sessieverlengingen**. Geef de gebruikersaccount voor Supply Chain Management op die wordt gebruikt om u aan te melden bij het apparaat en het aantal uren dat de sessie actief moet blijven.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMASubscriptionCreateDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f8c466df0b877c3f664acff2b431b3098fe2e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2103bc79e2a9671a059657838245e2d60455e168
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425664"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965875"
 ---
 # <a name="indexed-sales-prices"></a>Geïndexeerde verkoopprijzen  
 
@@ -43,6 +42,3 @@ Als de basisprijs bijvoorbeeld EUR 1.000 is en de index 110, dan is de verkooppr
   
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

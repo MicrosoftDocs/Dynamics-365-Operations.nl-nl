@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 10c843670a280c86790185c8a39cb2943e2838f9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1de8373471ff8187bd476305c9ed0b26beaa52d5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411300"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965273"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Zoekfunctie voor producten en klanten op het verkooppunt (POS)
 
@@ -118,6 +117,3 @@ In een aanstaande release van Commerce kunnen detailhandelaren de standaardzoekm
 
 Om onverwachte problemen met prestaties te voorkomen, wordt deze configuratie verborgen achter een flighting-markering met de naam **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Als de instelling **Standaardzoekmodus voor klanten** in de gebruikersinterface moet worden weergegeven, moet de detailhandelaar dus een ondersteuningsticket maken voor de UAT- (User Acceptance Testing) en productieomgevingen. Nadat het ticket is ontvangen, werkt het technisch team samen met de detailhandelaar om ervoor te zorgen dat de detailhandelaar de tests uitvoert in de niet-productieomgeving om de prestaties te beoordelen en eventuele vereiste optimalisaties te implementeren.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

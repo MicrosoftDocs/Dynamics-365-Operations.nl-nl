@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6f4ddd03ec16ac43b007b904eb688563735e0941
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: 2e83d6885bf7400916d633a49d3b19b8843b0269
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654167"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965497"
 ---
 # <a name="zone-threshold-replenishment"></a>Aanvulling op basis van zonedrempels
 
@@ -344,6 +343,3 @@ Hier volgen enkele opmerkingen en tips voor het werken met de functie:
 
 - Als u dynamische locaties gebruikt, wordt aanvullingswerk gemaakt voor de eerste beschikbare locatie of voor een locatie die al voorraad bevat, als de locatie-instructieactie is ingesteld op het gebruik van de strategie **Consolideren**.
 - Als u vaste locaties gebruikt in plaats van zones, moet u [standaard min/max-aanvulling gebruiken](tasks/set-up-min-max-replenishment-process.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

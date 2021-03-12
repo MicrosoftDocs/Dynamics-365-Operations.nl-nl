@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSLicensePlate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cc87da5fefde33832fc0be1cfef3aa44b155c0d0
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6c4dcafa5d997bce21d37d02f87fbf604568c24e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425758"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965628"
 ---
 # <a name="mixed-license-plate-receiving"></a>Gecombineerde nummerplaat ontvangen
 
@@ -49,6 +48,3 @@ U moet een nieuwe menuoptie maken met de modus werk, die geen bestaand werk gebr
 - Nummerplaat ontvangen en wegzetten
 
 De opties om de brondocumentregels te identificeren zijn inkooporderartikel, inkooporderregel, retourorder, transferorderartikel en transferorderregel. Deze opties kunnen de ontvangstvolgorde op een enkele nummerplaat wijzigen. De laatste optie is op ladingsartikel. U kunt meerdere artikelen toevoegen aan een nummerplaat, maar u kunt niet schakelen tussen meerdere ladingen.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

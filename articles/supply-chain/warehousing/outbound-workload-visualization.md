@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: cbfb395c9103ff31979bfd57333f689e38915652
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645425"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965547"
 ---
 # <a name="outbound-workload-visualization"></a>Visualisatie van uitgaande workload
 
@@ -98,6 +97,3 @@ In de volgende afbeelding ziet u een voorbeeld van het resulterende diagram.
 ![Visualisatie van zone vs. werkstatus](media/work-viz-chart.png "Visualisatie van zone vs. werkstatus")
 
 Dit diagram toont twee zones met de naam **VERDIEPING** en **BULK**, plus een zone met de naam **Leeg**. De **lege** zone vertegenwoordigt alle werkregels die geen deel uitmaken van een zone. In het diagram worden altijd alle niet-gerelateerde gefilterde gegevens als **Leeg** weergegeven, zodat u zo veel mogelijk inzicht krijgt. In de **VERDIEPING**-zone worden in het diagram drie afgesloten regels en vier openstaande regels weergegeven. In de **BULK**-zone worden in het diagram vier afgesloten regels, één openstaande regel en 24 geannuleerde regels weergegeven. Tot slot worden in het diagram acht afgesloten regels weergegeven die geen deel uitmaken van een zone en die dus **leeg** zijn.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
