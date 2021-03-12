@@ -10,7 +10,6 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,58 +17,58 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8dd9e710f9a6ea593a0673e7902fadf84ca05cff
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: a8cabcd3528308919697a9f2ecb2a81ad5acbe31
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594303"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000920"
 ---
-# <a name="upload-videos"></a><span data-ttu-id="d9f24-103">Video's uploaden</span><span class="sxs-lookup"><span data-stu-id="d9f24-103">Upload videos</span></span>
+# <a name="upload-videos"></a><span data-ttu-id="774e1-103">Video's uploaden</span><span class="sxs-lookup"><span data-stu-id="774e1-103">Upload videos</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="d9f24-104">In dit onderwerp wordt beschreven hoe u video's uploadt in Microsoft Dynamics 365 Commerce Site Builder.</span><span class="sxs-lookup"><span data-stu-id="d9f24-104">This topic describes how to upload videos in Microsoft Dynamics 365 Commerce site builder.</span></span>
+<span data-ttu-id="774e1-104">In dit onderwerp wordt beschreven hoe u video's uploadt in Microsoft Dynamics 365 Commerce Site Builder.</span><span class="sxs-lookup"><span data-stu-id="774e1-104">This topic describes how to upload videos in Microsoft Dynamics 365 Commerce site builder.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="d9f24-105">Overzicht</span><span class="sxs-lookup"><span data-stu-id="d9f24-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="774e1-105">Overzicht</span><span class="sxs-lookup"><span data-stu-id="774e1-105">Overview</span></span>
 
-<span data-ttu-id="d9f24-106">Met de mediabibliotheek van Commerce Site Builder kunt u video's uploaden.</span><span class="sxs-lookup"><span data-stu-id="d9f24-106">The Commerce site builder Media Library allows you to upload videos.</span></span> <span data-ttu-id="d9f24-107">U moet altijd de versie van een video uploaden met de hoogste bitrate en resolutie, omdat de video automatisch wordt geconverteerd om geschikt te zijn voor verschillende viewports en bijbehorende onderbrekingspunten.</span><span class="sxs-lookup"><span data-stu-id="d9f24-107">You should always upload the version of a video with the highest bitrate and resolution, because the video will be automatically converted to be suitable for different viewports and their breakpoints.</span></span>
+<span data-ttu-id="774e1-106">Met de mediabibliotheek van Commerce Site Builder kunt u video's uploaden.</span><span class="sxs-lookup"><span data-stu-id="774e1-106">The Commerce site builder Media Library allows you to upload videos.</span></span> <span data-ttu-id="774e1-107">U moet altijd de versie van een video uploaden met de hoogste bitrate en resolutie, omdat de video automatisch wordt geconverteerd om geschikt te zijn voor verschillende viewports en bijbehorende onderbrekingspunten.</span><span class="sxs-lookup"><span data-stu-id="774e1-107">You should always upload the version of a video with the highest bitrate and resolution, because the video will be automatically converted to be suitable for different viewports and their breakpoints.</span></span>
 
-### <a name="video-information-specified-during-upload"></a><span data-ttu-id="d9f24-108">Videogegevens opgegeven tijdens het uploaden</span><span class="sxs-lookup"><span data-stu-id="d9f24-108">Video information specified during upload</span></span>
+### <a name="video-information-specified-during-upload"></a><span data-ttu-id="774e1-108">Videogegevens opgegeven tijdens het uploaden</span><span class="sxs-lookup"><span data-stu-id="774e1-108">Video information specified during upload</span></span>
 
-<span data-ttu-id="d9f24-109">Bij het uploaden van een video kan de volgende informatie worden opgegeven.</span><span class="sxs-lookup"><span data-stu-id="d9f24-109">When uploading a video, the following information can be specified.</span></span>
+<span data-ttu-id="774e1-109">Bij het uploaden van een video kan de volgende informatie worden opgegeven.</span><span class="sxs-lookup"><span data-stu-id="774e1-109">When uploading a video, the following information can be specified.</span></span>
 
-- <span data-ttu-id="d9f24-110">**Titel, beschrijving, trefwoorden**: metagegevens van de video.</span><span class="sxs-lookup"><span data-stu-id="d9f24-110">**Title, Description, Keywords**: Metadata of the video.</span></span>
-- <span data-ttu-id="d9f24-111">**Automatisch ondertiteling genereren**: hiermee geeft u op of ondertiteling automatisch moet worden gegenereerd voor de video.</span><span class="sxs-lookup"><span data-stu-id="d9f24-111">**Automatically generate closed captions**: Specifies whether closed captions should be automatically generated for the video.</span></span>
-- <span data-ttu-id="d9f24-112">**Ondertiteling**: hiermee geeft u op of ondertiteling moet worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="d9f24-112">**Closed Caption**: Specifies the closed captions to be used.</span></span>
-- <span data-ttu-id="d9f24-113">**Normale audio**: hiermee geeft u op dat het gewone audiospoor moet worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="d9f24-113">**Regular Audio**: Specifies the regular audio track to be used.</span></span>
-- <span data-ttu-id="d9f24-114">**Miniatuur**: hiermee geeft u de miniatuur voor de video op.</span><span class="sxs-lookup"><span data-stu-id="d9f24-114">**Thumbnail**: Specifies the thumbnail for the video.</span></span> <span data-ttu-id="d9f24-115">Als u dit niet opgeeft, wordt de miniatuur automatisch gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="d9f24-115">If not specified, it will be generated automatically.</span></span>
-- <span data-ttu-id="d9f24-116">**Beschrijvende audio**: hiermee geeft u op dat het beschrijvende audiospoor moet worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="d9f24-116">**Descriptive Audio**: Specifies the descriptive audio track to be used.</span></span>
+- <span data-ttu-id="774e1-110">**Titel, beschrijving, trefwoorden**: metagegevens van de video.</span><span class="sxs-lookup"><span data-stu-id="774e1-110">**Title, Description, Keywords**: Metadata of the video.</span></span>
+- <span data-ttu-id="774e1-111">**Automatisch ondertiteling genereren**: hiermee geeft u op of ondertiteling automatisch moet worden gegenereerd voor de video.</span><span class="sxs-lookup"><span data-stu-id="774e1-111">**Automatically generate closed captions**: Specifies whether closed captions should be automatically generated for the video.</span></span>
+- <span data-ttu-id="774e1-112">**Ondertiteling**: hiermee geeft u op of ondertiteling moet worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="774e1-112">**Closed Caption**: Specifies the closed captions to be used.</span></span>
+- <span data-ttu-id="774e1-113">**Normale audio**: hiermee geeft u op dat het gewone audiospoor moet worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="774e1-113">**Regular Audio**: Specifies the regular audio track to be used.</span></span>
+- <span data-ttu-id="774e1-114">**Miniatuur**: hiermee geeft u de miniatuur voor de video op.</span><span class="sxs-lookup"><span data-stu-id="774e1-114">**Thumbnail**: Specifies the thumbnail for the video.</span></span> <span data-ttu-id="774e1-115">Als u dit niet opgeeft, wordt de miniatuur automatisch gegenereerd.</span><span class="sxs-lookup"><span data-stu-id="774e1-115">If not specified, it will be generated automatically.</span></span>
+- <span data-ttu-id="774e1-116">**Beschrijvende audio**: hiermee geeft u op dat het beschrijvende audiospoor moet worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="774e1-116">**Descriptive Audio**: Specifies the descriptive audio track to be used.</span></span>
 
-## <a name="upload-a-video"></a><span data-ttu-id="d9f24-117">Een video uploaden</span><span class="sxs-lookup"><span data-stu-id="d9f24-117">Upload a video</span></span>
+## <a name="upload-a-video"></a><span data-ttu-id="774e1-117">Een video uploaden</span><span class="sxs-lookup"><span data-stu-id="774e1-117">Upload a video</span></span>
 
-<span data-ttu-id="d9f24-118">Volg deze stappen om een video te uploaden in Site Builder.</span><span class="sxs-lookup"><span data-stu-id="d9f24-118">To upload a video in site builder, follow these steps.</span></span>
+<span data-ttu-id="774e1-118">Volg deze stappen om een video te uploaden in Site Builder.</span><span class="sxs-lookup"><span data-stu-id="774e1-118">To upload a video in site builder, follow these steps.</span></span>
 
-1. <span data-ttu-id="d9f24-119">Selecteer **Mediabibliotheek** in het navigatievenster aan de linkerkant.</span><span class="sxs-lookup"><span data-stu-id="d9f24-119">In the left navigation pane, select **Media Library**.</span></span>
-1. <span data-ttu-id="d9f24-120">Selecteer **Uploaden \> Media-items uploaden** in de opdrachtbalk.</span><span class="sxs-lookup"><span data-stu-id="d9f24-120">On the command bar, select **Upload \> Upload Media Items**.</span></span>
-1. <span data-ttu-id="d9f24-121">Ga in het venster Bestandsverkenner naar een of meer videobestanden die u wilt uploaden en selecteer vervolgens **Openen**.</span><span class="sxs-lookup"><span data-stu-id="d9f24-121">In the File Explorer window, navigate to and select one or more video files to upload, and then select **Open**.</span></span>
-1. <span data-ttu-id="d9f24-122">Voer in het dialoogvenster **Media-item uploaden** de vereiste titel en alternatieve tekst in.</span><span class="sxs-lookup"><span data-stu-id="d9f24-122">In the **Upload Media Item** dialog box, enter the required title and alt text.</span></span>
-1. <span data-ttu-id="d9f24-123">Voer een optionele omschrijving en trefwoorden in en selecteer indien gewenst een categorie.</span><span class="sxs-lookup"><span data-stu-id="d9f24-123">Enter optional description and keywords and select a category if desired.</span></span> 
-1. <span data-ttu-id="d9f24-124">Als u de afbeelding(en) direct na het uploaden wilt publiceren, schakelt u het selectievakje **Media-items publiceren na uploaden** in</span><span class="sxs-lookup"><span data-stu-id="d9f24-124">If you want to publish the image(s) after immediately upload, select the **Publish media items after upload** check box</span></span>
-1. <span data-ttu-id="d9f24-125">Selecteer **OK**.</span><span class="sxs-lookup"><span data-stu-id="d9f24-125">Select **OK**.</span></span>
+1. <span data-ttu-id="774e1-119">Selecteer **Mediabibliotheek** in het navigatievenster aan de linkerkant.</span><span class="sxs-lookup"><span data-stu-id="774e1-119">In the left navigation pane, select **Media Library**.</span></span>
+1. <span data-ttu-id="774e1-120">Selecteer **Uploaden \> Media-items uploaden** in de opdrachtbalk.</span><span class="sxs-lookup"><span data-stu-id="774e1-120">On the command bar, select **Upload \> Upload Media Items**.</span></span>
+1. <span data-ttu-id="774e1-121">Ga in het venster Bestandsverkenner naar een of meer videobestanden die u wilt uploaden en selecteer vervolgens **Openen**.</span><span class="sxs-lookup"><span data-stu-id="774e1-121">In the File Explorer window, navigate to and select one or more video files to upload, and then select **Open**.</span></span>
+1. <span data-ttu-id="774e1-122">Voer in het dialoogvenster **Media-item uploaden** de vereiste titel en alternatieve tekst in.</span><span class="sxs-lookup"><span data-stu-id="774e1-122">In the **Upload Media Item** dialog box, enter the required title and alt text.</span></span>
+1. <span data-ttu-id="774e1-123">Voer een optionele omschrijving en trefwoorden in en selecteer indien gewenst een categorie.</span><span class="sxs-lookup"><span data-stu-id="774e1-123">Enter optional description and keywords and select a category if desired.</span></span> 
+1. <span data-ttu-id="774e1-124">Als u de afbeelding(en) direct na het uploaden wilt publiceren, schakelt u het selectievakje **Media-items publiceren na uploaden** in</span><span class="sxs-lookup"><span data-stu-id="774e1-124">If you want to publish the image(s) after immediately upload, select the **Publish media items after upload** check box</span></span>
+1. <span data-ttu-id="774e1-125">Selecteer **OK**.</span><span class="sxs-lookup"><span data-stu-id="774e1-125">Select **OK**.</span></span>
 
-<span data-ttu-id="d9f24-126">Als u meerdere typen bestanden tegelijk uploadt (zoals afbeeldingen en video's), kunt u in het dialoogvenster **Media-item uploaden** alleen trefwoorden opgeven, of de bestanden direct na het uploaden moeten worden gepubliceerd en of ondertiteling automatisch moeten worden gegenereerd voor videobestanden.</span><span class="sxs-lookup"><span data-stu-id="d9f24-126">If you are uploading multiple types of assets simultaneously (for example, images and videos), in the **Upload Media Item** dialog box you will only be able to specify keywords, whether the files should be published immediately after upload, and whether closed captions should be automatically generated for video files.</span></span> <span data-ttu-id="d9f24-127">Alle bestanden hebben dezelfde trefwoorden.</span><span class="sxs-lookup"><span data-stu-id="d9f24-127">All the assets will share the same keywords.</span></span>
+<span data-ttu-id="774e1-126">Als u meerdere typen bestanden tegelijk uploadt (zoals afbeeldingen en video's), kunt u in het dialoogvenster **Media-item uploaden** alleen trefwoorden opgeven, of de bestanden direct na het uploaden moeten worden gepubliceerd en of ondertiteling automatisch moeten worden gegenereerd voor videobestanden.</span><span class="sxs-lookup"><span data-stu-id="774e1-126">If you are uploading multiple types of assets simultaneously (for example, images and videos), in the **Upload Media Item** dialog box you will only be able to specify keywords, whether the files should be published immediately after upload, and whether closed captions should be automatically generated for video files.</span></span> <span data-ttu-id="774e1-127">Alle bestanden hebben dezelfde trefwoorden.</span><span class="sxs-lookup"><span data-stu-id="774e1-127">All the assets will share the same keywords.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="d9f24-128">Aanvullende bronnen</span><span class="sxs-lookup"><span data-stu-id="d9f24-128">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="774e1-128">Aanvullende bronnen</span><span class="sxs-lookup"><span data-stu-id="774e1-128">Additional resources</span></span>
 
-[<span data-ttu-id="d9f24-129">Overzicht van digitaal activabeheer</span><span class="sxs-lookup"><span data-stu-id="d9f24-129">Digital asset management overview</span></span>](dam-overview.md)
+[<span data-ttu-id="774e1-129">Overzicht van digitaal activabeheer</span><span class="sxs-lookup"><span data-stu-id="774e1-129">Digital asset management overview</span></span>](dam-overview.md)
 
-[<span data-ttu-id="d9f24-130">Afbeeldingen uploaden</span><span class="sxs-lookup"><span data-stu-id="d9f24-130">Upload images</span></span>](dam-upload-images.md)
+[<span data-ttu-id="774e1-130">Afbeeldingen uploaden</span><span class="sxs-lookup"><span data-stu-id="774e1-130">Upload images</span></span>](dam-upload-images.md)
 
-[<span data-ttu-id="d9f24-131">Bestanden uploaden</span><span class="sxs-lookup"><span data-stu-id="d9f24-131">Upload files</span></span>](dam-upload-files.md)
+[<span data-ttu-id="774e1-131">Bestanden uploaden</span><span class="sxs-lookup"><span data-stu-id="774e1-131">Upload files</span></span>](dam-upload-files.md)
 
-[<span data-ttu-id="d9f24-132">Afbeeldingen bijsnijden</span><span class="sxs-lookup"><span data-stu-id="d9f24-132">Crop images</span></span>](dam-crop-images.md)
+[<span data-ttu-id="774e1-132">Afbeeldingen bijsnijden</span><span class="sxs-lookup"><span data-stu-id="774e1-132">Crop images</span></span>](dam-crop-images.md)
 
-[<span data-ttu-id="d9f24-133">Focuspunten van afbeelding aanpassen</span><span class="sxs-lookup"><span data-stu-id="d9f24-133">Customize image focal points</span></span>](dam-custom-focal-point.md)
+[<span data-ttu-id="774e1-133">Focuspunten van afbeelding aanpassen</span><span class="sxs-lookup"><span data-stu-id="774e1-133">Customize image focal points</span></span>](dam-custom-focal-point.md)
 
-[<span data-ttu-id="d9f24-134">Statische bestanden uploaden en verwerken</span><span class="sxs-lookup"><span data-stu-id="d9f24-134">Upload and serve static files</span></span>](upload-serve-static-files.md)
+[<span data-ttu-id="774e1-134">Statische bestanden uploaden en verwerken</span><span class="sxs-lookup"><span data-stu-id="774e1-134">Upload and serve static files</span></span>](upload-serve-static-files.md)

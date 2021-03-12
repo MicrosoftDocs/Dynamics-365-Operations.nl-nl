@@ -11,35 +11,34 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 105cf50698889e81804155cdac3a8b484cbf87d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd931a378b057026eff57b34c9f5740df8adacef
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425275"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4999826"
 ---
-# <a name="modify-a-demand-forecast-manually"></a><span data-ttu-id="7ae3b-103">Handmatig een vraagprognose wijzigen</span><span class="sxs-lookup"><span data-stu-id="7ae3b-103">Modify a demand forecast manually</span></span>
+# <a name="modify-a-demand-forecast-manually"></a><span data-ttu-id="d855c-103">Handmatig een vraagprognose wijzigen</span><span class="sxs-lookup"><span data-stu-id="d855c-103">Modify a demand forecast manually</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="7ae3b-104">Deze procedure laat zien hoe u de prognose voor een artikel kunt wijzigen.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-104">This procedure shows how to modify the forecast for an item.</span></span> <span data-ttu-id="7ae3b-105">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="7ae3b-106">Deze opname is bedoeld voor de productieplanner.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-106">This recording is intended for the production planner.</span></span> 
+<span data-ttu-id="d855c-104">Deze procedure laat zien hoe u de prognose voor een artikel kunt wijzigen.</span><span class="sxs-lookup"><span data-stu-id="d855c-104">This procedure shows how to modify the forecast for an item.</span></span> <span data-ttu-id="d855c-105">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="d855c-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d855c-106">Deze opname is bedoeld voor de productieplanner.</span><span class="sxs-lookup"><span data-stu-id="d855c-106">This recording is intended for the production planner.</span></span> 
 
 
-## <a name="modify-the-forecast-for-an-item"></a><span data-ttu-id="7ae3b-107">De prognose voor een artikel wijzigen</span><span class="sxs-lookup"><span data-stu-id="7ae3b-107">Modify the forecast for an item</span></span>
-1. <span data-ttu-id="7ae3b-108">Ga in het **navigatievenster** naar **Modules > Productgegevensbeheer > Producten > Vrijgegeven producten**.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-108">In the **Navigation pane**, go to **Modules > Product information management > Products > Released products**.</span></span>
-2. <span data-ttu-id="7ae3b-109">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-109">In the list, find and select the desired record.</span></span> <span data-ttu-id="7ae3b-110">Selecteer het artikel waarvoor u de prognose wilt wijzigen.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-110">Select the item for which you want to modify the forecast.</span></span> <span data-ttu-id="7ae3b-111">Zo kunt u bijvoorbeeld het artikel D0001 selecteren.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-111">For example, you can select item D0001.</span></span>  
-3. <span data-ttu-id="7ae3b-112">Klik op **Plannen** in het **actievenster**.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-112">On the **Action Pane**, click **Plan**.</span></span>
-4. <span data-ttu-id="7ae3b-113">Klik op **Vraagprognose**.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-113">Click **Demand forecast**.</span></span>
-5. <span data-ttu-id="7ae3b-114">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-114">In the list, mark the selected row.</span></span> <span data-ttu-id="7ae3b-115">Als er geen prognoseregels zijn, maakt u een nieuwe regel door op Nieuw op de app-balk te klikken.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-115">If there are no forecast lines, create a new line by clicking New on the app bar.</span></span>  
-6. <span data-ttu-id="7ae3b-116">Voer in het veld **Verkoophoeveelheid** een getal in.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-116">In the **Sales quantity** field, enter a number.</span></span> <span data-ttu-id="7ae3b-117">Dit getal geeft de geraamde hoeveelheid voor het artikel aan.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-117">This number represents the forecasted quantity for the item.</span></span>  
-7. <span data-ttu-id="7ae3b-118">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-118">Click Save.</span></span>
+## <a name="modify-the-forecast-for-an-item"></a><span data-ttu-id="d855c-107">De prognose voor een artikel wijzigen</span><span class="sxs-lookup"><span data-stu-id="d855c-107">Modify the forecast for an item</span></span>
+1. <span data-ttu-id="d855c-108">Ga in het **navigatievenster** naar **Modules > Productgegevensbeheer > Producten > Vrijgegeven producten**.</span><span class="sxs-lookup"><span data-stu-id="d855c-108">In the **Navigation pane**, go to **Modules > Product information management > Products > Released products**.</span></span>
+2. <span data-ttu-id="d855c-109">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="d855c-109">In the list, find and select the desired record.</span></span> <span data-ttu-id="d855c-110">Selecteer het artikel waarvoor u de prognose wilt wijzigen.</span><span class="sxs-lookup"><span data-stu-id="d855c-110">Select the item for which you want to modify the forecast.</span></span> <span data-ttu-id="d855c-111">Zo kunt u bijvoorbeeld het artikel D0001 selecteren.</span><span class="sxs-lookup"><span data-stu-id="d855c-111">For example, you can select item D0001.</span></span>  
+3. <span data-ttu-id="d855c-112">Klik op **Plannen** in het **actievenster**.</span><span class="sxs-lookup"><span data-stu-id="d855c-112">On the **Action Pane**, click **Plan**.</span></span>
+4. <span data-ttu-id="d855c-113">Klik op **Vraagprognose**.</span><span class="sxs-lookup"><span data-stu-id="d855c-113">Click **Demand forecast**.</span></span>
+5. <span data-ttu-id="d855c-114">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="d855c-114">In the list, mark the selected row.</span></span> <span data-ttu-id="d855c-115">Als er geen prognoseregels zijn, maakt u een nieuwe regel door op Nieuw op de app-balk te klikken.</span><span class="sxs-lookup"><span data-stu-id="d855c-115">If there are no forecast lines, create a new line by clicking New on the app bar.</span></span>  
+6. <span data-ttu-id="d855c-116">Voer in het veld **Verkoophoeveelheid** een getal in.</span><span class="sxs-lookup"><span data-stu-id="d855c-116">In the **Sales quantity** field, enter a number.</span></span> <span data-ttu-id="d855c-117">Dit getal geeft de geraamde hoeveelheid voor het artikel aan.</span><span class="sxs-lookup"><span data-stu-id="d855c-117">This number represents the forecasted quantity for the item.</span></span>  
+7. <span data-ttu-id="d855c-118">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="d855c-118">Click Save.</span></span>
 
-## <a name="modify-the-forecast-in-excel"></a><span data-ttu-id="7ae3b-119">De prognose in Excel wijzigen</span><span class="sxs-lookup"><span data-stu-id="7ae3b-119">Modify the forecast in Excel</span></span>
-1. <span data-ttu-id="7ae3b-120">Klik op **Openen** in Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-120">Click **Open** in Microsoft Office.</span></span>
-2. <span data-ttu-id="7ae3b-121">Klik op **Vraagprognose bewerken** in Excel.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-121">Click **Edit Demand forecast** in Excel.</span></span> <span data-ttu-id="7ae3b-122">In Excel kunt u vraagprognoseregels toevoegen, verwijderen en bewerken.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-122">In Excel, you can add, delete and edit demand forecast lines.</span></span> <span data-ttu-id="7ae3b-123">Als u de gegevens niet kunt weergeven in Excel, moet u zich aanmelden met de optie "Aangemeld blijven" ingeschakeld en moet u de app voor gegevensverbinding vertrouwen.</span><span class="sxs-lookup"><span data-stu-id="7ae3b-123">If you are not able to see the data in Excel, you need to sign in with the "Keep me signed in" option enabled and you need to trust the data connection app.</span></span>  
+## <a name="modify-the-forecast-in-excel"></a><span data-ttu-id="d855c-119">De prognose in Excel wijzigen</span><span class="sxs-lookup"><span data-stu-id="d855c-119">Modify the forecast in Excel</span></span>
+1. <span data-ttu-id="d855c-120">Klik op **Openen** in Microsoft Office.</span><span class="sxs-lookup"><span data-stu-id="d855c-120">Click **Open** in Microsoft Office.</span></span>
+2. <span data-ttu-id="d855c-121">Klik op **Vraagprognose bewerken** in Excel.</span><span class="sxs-lookup"><span data-stu-id="d855c-121">Click **Edit Demand forecast** in Excel.</span></span> <span data-ttu-id="d855c-122">In Excel kunt u vraagprognoseregels toevoegen, verwijderen en bewerken.</span><span class="sxs-lookup"><span data-stu-id="d855c-122">In Excel, you can add, delete and edit demand forecast lines.</span></span> <span data-ttu-id="d855c-123">Als u de gegevens niet kunt weergeven in Excel, moet u zich aanmelden met de optie "Aangemeld blijven" ingeschakeld en moet u de app voor gegevensverbinding vertrouwen.</span><span class="sxs-lookup"><span data-stu-id="d855c-123">If you are not able to see the data in Excel, you need to sign in with the "Keep me signed in" option enabled and you need to trust the data connection app.</span></span>  
 
