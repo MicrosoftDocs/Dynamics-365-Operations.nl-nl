@@ -10,58 +10,57 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 099ccd9f769ea5c431c1a82532d8654cbbd082b1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e060fe2a578296f079653244ed4d5676313e5ea8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411337"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963055"
 ---
-# <a name="channels-overview"></a><span data-ttu-id="f64ed-103">Overzicht van kanalen</span><span class="sxs-lookup"><span data-stu-id="f64ed-103">Channels overview</span></span>
+# <a name="channels-overview"></a><span data-ttu-id="14a0d-103">Overzicht van kanalen</span><span class="sxs-lookup"><span data-stu-id="14a0d-103">Channels overview</span></span>
 
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="f64ed-104">Dit onderwerp geeft een overzicht van afzetkanalen in Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="f64ed-104">This topic presents an overview of channels in Microsoft Dynamics 365 Commerce.</span></span> <span data-ttu-id="f64ed-105">Het bevat informatie over de taken die u vóór en na het instellen van elk afzetkanaal moet uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="f64ed-105">It includes information about the tasks that you must complete both before and after you set up each channel.</span></span>
+<span data-ttu-id="14a0d-104">Dit onderwerp geeft een overzicht van afzetkanalen in Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="14a0d-104">This topic presents an overview of channels in Microsoft Dynamics 365 Commerce.</span></span> <span data-ttu-id="14a0d-105">Het bevat informatie over de taken die u vóór en na het instellen van elk afzetkanaal moet uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="14a0d-105">It includes information about the tasks that you must complete both before and after you set up each channel.</span></span>
 
-## <a name="types-of-channels"></a><span data-ttu-id="f64ed-106">Typen afzetkanalen</span><span class="sxs-lookup"><span data-stu-id="f64ed-106">Types of Channels</span></span>
+## <a name="types-of-channels"></a><span data-ttu-id="14a0d-106">Typen afzetkanalen</span><span class="sxs-lookup"><span data-stu-id="14a0d-106">Types of Channels</span></span>
 
-<span data-ttu-id="f64ed-107">Dynamics 365 Commerce ondersteunt drie verschillende afzetkanaaltypen: detailhandel, callcenter en online.</span><span class="sxs-lookup"><span data-stu-id="f64ed-107">Dynamics 365 Commerce supports three different channel types: retail, call center, and online channels.</span></span>
+<span data-ttu-id="14a0d-107">Dynamics 365 Commerce ondersteunt drie verschillende afzetkanaaltypen: detailhandel, callcenter en online.</span><span class="sxs-lookup"><span data-stu-id="14a0d-107">Dynamics 365 Commerce supports three different channel types: retail, call center, and online channels.</span></span>
 
-### <a name="retail-channels"></a><span data-ttu-id="f64ed-108">Detailhandelafzetkanalen</span><span class="sxs-lookup"><span data-stu-id="f64ed-108">Retail channels</span></span>
+### <a name="retail-channels"></a><span data-ttu-id="14a0d-108">Detailhandelafzetkanalen</span><span class="sxs-lookup"><span data-stu-id="14a0d-108">Retail channels</span></span>
 
-<span data-ttu-id="f64ed-109">Detailhandelkanalen zijn de standaard fysieke winkels.</span><span class="sxs-lookup"><span data-stu-id="f64ed-109">Retail channels represent standard brick-and-mortar stores.</span></span> <span data-ttu-id="f64ed-110">Iedere winkel kan zijn eigen POS-kassa's, prijsgroepen, inkomsten- en uitgavenrekeningen en personeel hebben.</span><span class="sxs-lookup"><span data-stu-id="f64ed-110">Each store can have its own point of sale (POS) registers, income and expense accounts, and staff.</span></span> 
+<span data-ttu-id="14a0d-109">Detailhandelkanalen zijn de standaard fysieke winkels.</span><span class="sxs-lookup"><span data-stu-id="14a0d-109">Retail channels represent standard brick-and-mortar stores.</span></span> <span data-ttu-id="14a0d-110">Iedere winkel kan zijn eigen POS-kassa's, prijsgroepen, inkomsten- en uitgavenrekeningen en personeel hebben.</span><span class="sxs-lookup"><span data-stu-id="14a0d-110">Each store can have its own point of sale (POS) registers, income and expense accounts, and staff.</span></span> 
 
-### <a name="call-center-channels"></a><span data-ttu-id="f64ed-111">Callcenterafzetkanalen</span><span class="sxs-lookup"><span data-stu-id="f64ed-111">Call center channels</span></span>
+### <a name="call-center-channels"></a><span data-ttu-id="14a0d-111">Callcenterafzetkanalen</span><span class="sxs-lookup"><span data-stu-id="14a0d-111">Call center channels</span></span>
 
-<span data-ttu-id="f64ed-112">Callcenterafzetkanalen vormen het bestel- en klantenbeheer via callcenters.</span><span class="sxs-lookup"><span data-stu-id="f64ed-112">Call center channels represent call center order and customer management.</span></span>
+<span data-ttu-id="14a0d-112">Callcenterafzetkanalen vormen het bestel- en klantenbeheer via callcenters.</span><span class="sxs-lookup"><span data-stu-id="14a0d-112">Call center channels represent call center order and customer management.</span></span>
 
-### <a name="online-channels"></a><span data-ttu-id="f64ed-113">Online afzetkanalen</span><span class="sxs-lookup"><span data-stu-id="f64ed-113">Online channels</span></span>
+### <a name="online-channels"></a><span data-ttu-id="14a0d-113">Online afzetkanalen</span><span class="sxs-lookup"><span data-stu-id="14a0d-113">Online channels</span></span>
 
-<span data-ttu-id="f64ed-114">Online afzetkanalen zijn de webwinkels.</span><span class="sxs-lookup"><span data-stu-id="f64ed-114">Online channels represent online e-Commerce storefronts.</span></span> <span data-ttu-id="f64ed-115">Wanneer een online kanaal is gemaakt, moet er een website worden gemaakt met behulp van het hulpprogramma Microsoft Dynamics 365 Commerce Site Builder of een andere e-Commerce oplossing van derden.</span><span class="sxs-lookup"><span data-stu-id="f64ed-115">Once an online channel is created, a site must be created using the Microsoft Dynamics 365 Commerce Site Builder tool or other third-party e-Commerce solution.</span></span>
+<span data-ttu-id="14a0d-114">Online afzetkanalen zijn de webwinkels.</span><span class="sxs-lookup"><span data-stu-id="14a0d-114">Online channels represent online e-Commerce storefronts.</span></span> <span data-ttu-id="14a0d-115">Wanneer een online kanaal is gemaakt, moet er een website worden gemaakt met behulp van het hulpprogramma Microsoft Dynamics 365 Commerce Site Builder of een andere e-Commerce oplossing van derden.</span><span class="sxs-lookup"><span data-stu-id="14a0d-115">Once an online channel is created, a site must be created using the Microsoft Dynamics 365 Commerce Site Builder tool or other third-party e-Commerce solution.</span></span>
 
-## <a name="channel-setup-basics"></a><span data-ttu-id="f64ed-116">Basisinformatie over het instellen van kanalen</span><span class="sxs-lookup"><span data-stu-id="f64ed-116">Channel setup basics</span></span>
+## <a name="channel-setup-basics"></a><span data-ttu-id="14a0d-116">Basisinformatie over het instellen van kanalen</span><span class="sxs-lookup"><span data-stu-id="14a0d-116">Channel setup basics</span></span>
 
-<span data-ttu-id="f64ed-117">Een kanaal wordt ingesteld met het Commerce-hulpprogramma.</span><span class="sxs-lookup"><span data-stu-id="f64ed-117">Channel set up is performed in the Commerce tool.</span></span> <span data-ttu-id="f64ed-118">Elk kanaal kan zijn eigen betalingsmethoden, prijsgroepen, producthiërarchieën, assortimenten en reeks producten hebben.</span><span class="sxs-lookup"><span data-stu-id="f64ed-118">Each channel can have its own payment methods, price groups, product hierarchies, assortments, and set of products.</span></span> <span data-ttu-id="f64ed-119">Nadat u een kanaal hebt gemaakt, wijst u de producten toe die u wilt voeren en verkopen.</span><span class="sxs-lookup"><span data-stu-id="f64ed-119">After you create a channel, you assign the products that you want it to carry and sell.</span></span> <span data-ttu-id="f64ed-120">Elk kanaaltype heeft een unieke set functies die mogelijk moeten worden geconfigureerd.</span><span class="sxs-lookup"><span data-stu-id="f64ed-120">Each channel type has a unique set of features that may need to be configured.</span></span> <span data-ttu-id="f64ed-121">Zo moeten aan een detailhandelafzetkanaal werknemers, kassa's en klanten worden toegewezen.</span><span class="sxs-lookup"><span data-stu-id="f64ed-121">For example, a retail channel needs assigned employees, registers, and customers.</span></span> <span data-ttu-id="f64ed-122">Nadat u een nieuw kanaal hebt gemaakt, moet dit worden toegewezen aan een organisatiehiërarchie.</span><span class="sxs-lookup"><span data-stu-id="f64ed-122">Once a new channel is created, it needs to be assigned to an organization hierarchy.</span></span>
+<span data-ttu-id="14a0d-117">Een kanaal wordt ingesteld met het Commerce-hulpprogramma.</span><span class="sxs-lookup"><span data-stu-id="14a0d-117">Channel set up is performed in the Commerce tool.</span></span> <span data-ttu-id="14a0d-118">Elk kanaal kan zijn eigen betalingsmethoden, prijsgroepen, producthiërarchieën, assortimenten en reeks producten hebben.</span><span class="sxs-lookup"><span data-stu-id="14a0d-118">Each channel can have its own payment methods, price groups, product hierarchies, assortments, and set of products.</span></span> <span data-ttu-id="14a0d-119">Nadat u een kanaal hebt gemaakt, wijst u de producten toe die u wilt voeren en verkopen.</span><span class="sxs-lookup"><span data-stu-id="14a0d-119">After you create a channel, you assign the products that you want it to carry and sell.</span></span> <span data-ttu-id="14a0d-120">Elk kanaaltype heeft een unieke set functies die mogelijk moeten worden geconfigureerd.</span><span class="sxs-lookup"><span data-stu-id="14a0d-120">Each channel type has a unique set of features that may need to be configured.</span></span> <span data-ttu-id="14a0d-121">Zo moeten aan een detailhandelafzetkanaal werknemers, kassa's en klanten worden toegewezen.</span><span class="sxs-lookup"><span data-stu-id="14a0d-121">For example, a retail channel needs assigned employees, registers, and customers.</span></span> <span data-ttu-id="14a0d-122">Nadat u een nieuw kanaal hebt gemaakt, moet dit worden toegewezen aan een organisatiehiërarchie.</span><span class="sxs-lookup"><span data-stu-id="14a0d-122">Once a new channel is created, it needs to be assigned to an organization hierarchy.</span></span>
 
-## <a name="channel-setup-prerequisites"></a><span data-ttu-id="f64ed-123">Vereisten voor het instellen van kanalen</span><span class="sxs-lookup"><span data-stu-id="f64ed-123">Channel setup prerequisites</span></span>
+## <a name="channel-setup-prerequisites"></a><span data-ttu-id="14a0d-123">Vereisten voor het instellen van kanalen</span><span class="sxs-lookup"><span data-stu-id="14a0d-123">Channel setup prerequisites</span></span>
 
-<span data-ttu-id="f64ed-124">Voordat u een kanaal kunt instellen, moet u een aantal vereiste taken uitvoeren op basis van het type kanaaltype.</span><span class="sxs-lookup"><span data-stu-id="f64ed-124">Before you can set up a channel, you must complete some prerequisite tasks based on the channel type.</span></span> <span data-ttu-id="f64ed-125">Zie [Vereisten voor het instellen van kanalen](channels-prerequisites.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="f64ed-125">For more information, see [Channel setup prerequisites](channels-prerequisites.md).</span></span>
+<span data-ttu-id="14a0d-124">Voordat u een kanaal kunt instellen, moet u een aantal vereiste taken uitvoeren op basis van het type kanaaltype.</span><span class="sxs-lookup"><span data-stu-id="14a0d-124">Before you can set up a channel, you must complete some prerequisite tasks based on the channel type.</span></span> <span data-ttu-id="14a0d-125">Zie [Vereisten voor het instellen van kanalen](channels-prerequisites.md) voor meer informatie.</span><span class="sxs-lookup"><span data-stu-id="14a0d-125">For more information, see [Channel setup prerequisites](channels-prerequisites.md).</span></span>
 
-## <a name="set-up-a-channel"></a><span data-ttu-id="f64ed-126">Een kanaal instellen</span><span class="sxs-lookup"><span data-stu-id="f64ed-126">Set up a channel</span></span>
+## <a name="set-up-a-channel"></a><span data-ttu-id="14a0d-126">Een kanaal instellen</span><span class="sxs-lookup"><span data-stu-id="14a0d-126">Set up a channel</span></span>
 
-<span data-ttu-id="f64ed-127">Nadat u de vereiste taken hebt voltooid, gebruikt u de volgende koppelingen voor verdere installatie-instructies.</span><span class="sxs-lookup"><span data-stu-id="f64ed-127">After you complete the prerequisite tasks, for further setup instructions, use the following links.</span></span>
+<span data-ttu-id="14a0d-127">Nadat u de vereiste taken hebt voltooid, gebruikt u de volgende koppelingen voor verdere installatie-instructies.</span><span class="sxs-lookup"><span data-stu-id="14a0d-127">After you complete the prerequisite tasks, for further setup instructions, use the following links.</span></span>
 
-- [<span data-ttu-id="f64ed-128">Een detailhandelafzetkanaal instellen</span><span class="sxs-lookup"><span data-stu-id="f64ed-128">Set up a retail channel</span></span>](channel-setup-retail.md)
-- [<span data-ttu-id="f64ed-129">Een callcenterkanaal instellen</span><span class="sxs-lookup"><span data-stu-id="f64ed-129">Set up a call center channel</span></span>](channel-setup-callcenter.md)
-- [<span data-ttu-id="f64ed-130">Een online afzetkanaal instellen</span><span class="sxs-lookup"><span data-stu-id="f64ed-130">Set up an online channel</span></span>](channel-setup-online.md)
+- [<span data-ttu-id="14a0d-128">Een detailhandelafzetkanaal instellen</span><span class="sxs-lookup"><span data-stu-id="14a0d-128">Set up a retail channel</span></span>](channel-setup-retail.md)
+- [<span data-ttu-id="14a0d-129">Een callcenterkanaal instellen</span><span class="sxs-lookup"><span data-stu-id="14a0d-129">Set up a call center channel</span></span>](channel-setup-callcenter.md)
+- [<span data-ttu-id="14a0d-130">Een online afzetkanaal instellen</span><span class="sxs-lookup"><span data-stu-id="14a0d-130">Set up an online channel</span></span>](channel-setup-online.md)
 
 <!--
 ## Post-channel configuration
@@ -78,14 +77,14 @@ After you create a channel, you may need to complete some of the below tasks:
 - Run the jobs to send the store data to Retail POS. (LINK TBD)
 -->
 
-## <a name="additional-resources"></a><span data-ttu-id="f64ed-131">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="f64ed-131">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="14a0d-131">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="14a0d-131">Additional resources</span></span>
 
-[<span data-ttu-id="f64ed-132">Vereisten voor het instellen van kanalen</span><span class="sxs-lookup"><span data-stu-id="f64ed-132">Channel setup prerequisites</span></span>](channels-prerequisites.md)
+[<span data-ttu-id="14a0d-132">Vereisten voor het instellen van kanalen</span><span class="sxs-lookup"><span data-stu-id="14a0d-132">Channel setup prerequisites</span></span>](channels-prerequisites.md)
 
-[<span data-ttu-id="f64ed-133">Een detailhandelafzetkanaal instellen</span><span class="sxs-lookup"><span data-stu-id="f64ed-133">Set up a retail channel</span></span>](channel-setup-retail.md)
+[<span data-ttu-id="14a0d-133">Een detailhandelafzetkanaal instellen</span><span class="sxs-lookup"><span data-stu-id="14a0d-133">Set up a retail channel</span></span>](channel-setup-retail.md)
     
-[<span data-ttu-id="f64ed-134">Een online afzetkanaal instellen</span><span class="sxs-lookup"><span data-stu-id="f64ed-134">Set up an online channel</span></span>](channel-setup-online.md)
+[<span data-ttu-id="14a0d-134">Een online afzetkanaal instellen</span><span class="sxs-lookup"><span data-stu-id="14a0d-134">Set up an online channel</span></span>](channel-setup-online.md)
 
-[<span data-ttu-id="f64ed-135">Een callcenterkanaal instellen</span><span class="sxs-lookup"><span data-stu-id="f64ed-135">Set up a call center channel</span></span>](channel-setup-callcenter.md)
+[<span data-ttu-id="14a0d-135">Een callcenterkanaal instellen</span><span class="sxs-lookup"><span data-stu-id="14a0d-135">Set up a call center channel</span></span>](channel-setup-callcenter.md)
 
-[<span data-ttu-id="f64ed-136">Organisatiehiërarchieën instellen</span><span class="sxs-lookup"><span data-stu-id="f64ed-136">Set up organization hierarchies</span></span>](channels-org-hierarchies.md)
+[<span data-ttu-id="14a0d-136">Organisatiehiërarchieën instellen</span><span class="sxs-lookup"><span data-stu-id="14a0d-136">Set up organization hierarchies</span></span>](channels-org-hierarchies.md)

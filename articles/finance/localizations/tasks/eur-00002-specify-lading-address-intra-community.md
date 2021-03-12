@@ -11,65 +11,64 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, TransportationDocument, LogisticsPostalAddress, SysLookupMultiSelectGrid,  VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog, Intrastat, SysQueryForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Hungary, Ireland, Italy, Latvia, Lithuania, Netherlands, Poland, Spain, Sweden, United Kingdom
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e555d6791f596850ba1ed718aa5593ee3f88bed9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 634f6cd840262895e6593c12dbe43923598241a5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408315"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962480"
 ---
-# <a name="eur-00002-specifying-a-lading-address-for-an-intra-community-transaction"></a><span data-ttu-id="226b7-103">EUR-00002 Een vrachtadres opgeven voor een intracommunautaire transactie</span><span class="sxs-lookup"><span data-stu-id="226b7-103">EUR-00002 Specifying a lading address for an intra-community transaction</span></span>
+# <a name="eur-00002-specifying-a-lading-address-for-an-intra-community-transaction"></a><span data-ttu-id="f71c1-103">EUR-00002 Een vrachtadres opgeven voor een intracommunautaire transactie</span><span class="sxs-lookup"><span data-stu-id="f71c1-103">EUR-00002 Specifying a lading address for an intra-community transaction</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="226b7-104">Deze procedure laat zien hoe u een vrachtadres opgeeft voor een intracommunautaire handelstransactie.</span><span class="sxs-lookup"><span data-stu-id="226b7-104">This procedure shows how to specify a lading address for an intra-community trade transaction.</span></span> <span data-ttu-id="226b7-105">Bijvoorbeeld een Duits bedrijf bestelt artikelen bij een leverancier met een adres in Duitsland.</span><span class="sxs-lookup"><span data-stu-id="226b7-105">For example, a Germany company orders items from a vendor with a German business address.</span></span> <span data-ttu-id="226b7-106">Deze leverancier heeft een magazijn in Italië en verzendt de artikelen vandaaruit.</span><span class="sxs-lookup"><span data-stu-id="226b7-106">This vendor has a warehouse in Italy and ships the items from there.</span></span> <span data-ttu-id="226b7-107">Deze levering moet in Intrastat worden gerapporteerd.</span><span class="sxs-lookup"><span data-stu-id="226b7-107">This delivery must be reported in the Intrastat.</span></span> <span data-ttu-id="226b7-108">Hetzelfde gedrag geldt voor klantretouren.</span><span class="sxs-lookup"><span data-stu-id="226b7-108">The same behavior is valid for customer returns.</span></span>
-<span data-ttu-id="226b7-109">Deze procedure is van toepassing op alle Europese landen/regio's.</span><span class="sxs-lookup"><span data-stu-id="226b7-109">This procedure applies to all European countries/regions.</span></span> <span data-ttu-id="226b7-110">De taak werd gemaakt met het demobedrijf DEMF met een primair adres in Duitsland.</span><span class="sxs-lookup"><span data-stu-id="226b7-110">The task was created using the demo data company DEMF with a primary address in Germany.</span></span> <span data-ttu-id="226b7-111">Voordat u deze procedure kunt uitvoeren, moet u Intrastat-rapporten configureren.</span><span class="sxs-lookup"><span data-stu-id="226b7-111">Before you can complete this procedure, you must configure Intrastat reporting.</span></span> <span data-ttu-id="226b7-112">Deze procedure is alleen bedoeld voor accountants.</span><span class="sxs-lookup"><span data-stu-id="226b7-112">This procedure is intended for accountants.</span></span> <span data-ttu-id="226b7-113">Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.</span><span class="sxs-lookup"><span data-stu-id="226b7-113">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="f71c1-104">Deze procedure laat zien hoe u een vrachtadres opgeeft voor een intracommunautaire handelstransactie.</span><span class="sxs-lookup"><span data-stu-id="f71c1-104">This procedure shows how to specify a lading address for an intra-community trade transaction.</span></span> <span data-ttu-id="f71c1-105">Bijvoorbeeld een Duits bedrijf bestelt artikelen bij een leverancier met een adres in Duitsland.</span><span class="sxs-lookup"><span data-stu-id="f71c1-105">For example, a Germany company orders items from a vendor with a German business address.</span></span> <span data-ttu-id="f71c1-106">Deze leverancier heeft een magazijn in Italië en verzendt de artikelen vandaaruit.</span><span class="sxs-lookup"><span data-stu-id="f71c1-106">This vendor has a warehouse in Italy and ships the items from there.</span></span> <span data-ttu-id="f71c1-107">Deze levering moet in Intrastat worden gerapporteerd.</span><span class="sxs-lookup"><span data-stu-id="f71c1-107">This delivery must be reported in the Intrastat.</span></span> <span data-ttu-id="f71c1-108">Hetzelfde gedrag geldt voor klantretouren.</span><span class="sxs-lookup"><span data-stu-id="f71c1-108">The same behavior is valid for customer returns.</span></span>
+<span data-ttu-id="f71c1-109">Deze procedure is van toepassing op alle Europese landen/regio's.</span><span class="sxs-lookup"><span data-stu-id="f71c1-109">This procedure applies to all European countries/regions.</span></span> <span data-ttu-id="f71c1-110">De taak werd gemaakt met het demobedrijf DEMF met een primair adres in Duitsland.</span><span class="sxs-lookup"><span data-stu-id="f71c1-110">The task was created using the demo data company DEMF with a primary address in Germany.</span></span> <span data-ttu-id="f71c1-111">Voordat u deze procedure kunt uitvoeren, moet u Intrastat-rapporten configureren.</span><span class="sxs-lookup"><span data-stu-id="f71c1-111">Before you can complete this procedure, you must configure Intrastat reporting.</span></span> <span data-ttu-id="f71c1-112">Deze procedure is alleen bedoeld voor accountants.</span><span class="sxs-lookup"><span data-stu-id="f71c1-112">This procedure is intended for accountants.</span></span> <span data-ttu-id="f71c1-113">Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.</span><span class="sxs-lookup"><span data-stu-id="f71c1-113">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
-1. <span data-ttu-id="226b7-114">Ga naar Leveranciers > Inkooporders > Alle inkooporders.</span><span class="sxs-lookup"><span data-stu-id="226b7-114">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
-2. <span data-ttu-id="226b7-115">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="226b7-115">Click New.</span></span>
-3. <span data-ttu-id="226b7-116">Typ of selecteer een waarde</span><span class="sxs-lookup"><span data-stu-id="226b7-116">Enter or select a value</span></span>
-    * <span data-ttu-id="226b7-117">Selecteer bijvoorbeeld DE-001.</span><span class="sxs-lookup"><span data-stu-id="226b7-117">For example, select DE-001.</span></span> <span data-ttu-id="226b7-118">Deze leverancier heeft een Duits adres.</span><span class="sxs-lookup"><span data-stu-id="226b7-118">This vendor has a German business address.</span></span>  
-4. <span data-ttu-id="226b7-119">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="226b7-119">Click OK.</span></span>
-5. <span data-ttu-id="226b7-120">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="226b7-120">In the list, mark the selected row.</span></span>
-6. <span data-ttu-id="226b7-121">Typ of selecteer een waarde D0001 in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="226b7-121">In the Item number field, enter or select a value D0001.</span></span>
-7. <span data-ttu-id="226b7-122">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="226b7-122">Click Save.</span></span>
-8. <span data-ttu-id="226b7-123">Klik in het actievenster op Ontvangen.</span><span class="sxs-lookup"><span data-stu-id="226b7-123">On the Action Pane, click Receive.</span></span>
-9. <span data-ttu-id="226b7-124">Klik op Transportgegevens.</span><span class="sxs-lookup"><span data-stu-id="226b7-124">Click Transportation details.</span></span>
-10. <span data-ttu-id="226b7-125">Typ in het veld Laaddatum en -tijd de datum en een tijd.</span><span class="sxs-lookup"><span data-stu-id="226b7-125">In the Loading date and time field, enter a date and time.</span></span>
-11. <span data-ttu-id="226b7-126">Klik op Een nieuw adres toevoegen.</span><span class="sxs-lookup"><span data-stu-id="226b7-126">Click Add address.</span></span>
-12. <span data-ttu-id="226b7-127">Klik op Nieuw en maak een nieuw adres met als doel Vracht.</span><span class="sxs-lookup"><span data-stu-id="226b7-127">Click New and create new address with purpose Lading.</span></span>
-13. <span data-ttu-id="226b7-128">Typ Italiaans in het veld Naam of omschrijving.</span><span class="sxs-lookup"><span data-stu-id="226b7-128">In the Name or description field, type 'Italian'.</span></span>
-14. <span data-ttu-id="226b7-129">Selecteer Vracht als de waarde.</span><span class="sxs-lookup"><span data-stu-id="226b7-129">Select Lading as the value.</span></span>
-    * <span data-ttu-id="226b7-130">Merk op dat het adresdoel Vracht moet zijn.</span><span class="sxs-lookup"><span data-stu-id="226b7-130">Note that that address purpose must be Lading.</span></span>  
-15. <span data-ttu-id="226b7-131">Typ of selecteer een waarde ITA in het veld Land/regio.</span><span class="sxs-lookup"><span data-stu-id="226b7-131">In the Country/region field, enter or select a value ITA.</span></span>
-16. <span data-ttu-id="226b7-132">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="226b7-132">Click Save.</span></span>
-17. <span data-ttu-id="226b7-133">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="226b7-133">Close the page.</span></span>
-18. <span data-ttu-id="226b7-134">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="226b7-134">Click Save.</span></span>
-    * <span data-ttu-id="226b7-135">Controleer of het vrachtadres juist is.</span><span class="sxs-lookup"><span data-stu-id="226b7-135">Verify that the lading address is correct.</span></span>  
-19. <span data-ttu-id="226b7-136">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="226b7-136">Close the page.</span></span>
-20. <span data-ttu-id="226b7-137">Klik in het actievenster op Inkoop.</span><span class="sxs-lookup"><span data-stu-id="226b7-137">On the Action Pane, click Purchase.</span></span>
-21. <span data-ttu-id="226b7-138">Klik op Bevestigen.</span><span class="sxs-lookup"><span data-stu-id="226b7-138">Click Confirm.</span></span>
-22. <span data-ttu-id="226b7-139">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="226b7-139">On the Action Pane, click Invoice.</span></span>
-23. <span data-ttu-id="226b7-140">Klik op Factuur.</span><span class="sxs-lookup"><span data-stu-id="226b7-140">Click Invoice.</span></span>
-24. <span data-ttu-id="226b7-141">Typ een waarde in het veld Nummer.</span><span class="sxs-lookup"><span data-stu-id="226b7-141">In the Number field, type a value.</span></span>
-25. <span data-ttu-id="226b7-142">Voer een datum in het veld Factuurdatum in.</span><span class="sxs-lookup"><span data-stu-id="226b7-142">In the Invoice date field, enter a date.</span></span>
-26. <span data-ttu-id="226b7-143">Klik op Standaard vanaf: Hoeveelheid productontvangstbon om het dialoogvenster voor beëindigen te openen.</span><span class="sxs-lookup"><span data-stu-id="226b7-143">Click Default from: Product receipt quantity to open the drop dialog.</span></span>
-27. <span data-ttu-id="226b7-144">Selecteer Bestelde hoeveelheid in het veld Standaardhoeveelheid voor regels.</span><span class="sxs-lookup"><span data-stu-id="226b7-144">In the Default quantity for lines field, select 'Ordered quantity'.</span></span>
-28. <span data-ttu-id="226b7-145">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="226b7-145">Click OK.</span></span>
-29. <span data-ttu-id="226b7-146">Klik op Transportgegevens.</span><span class="sxs-lookup"><span data-stu-id="226b7-146">Click Transportation details.</span></span>
-    * <span data-ttu-id="226b7-147">Controleer of de goederen uit Italië zijn verzonden.</span><span class="sxs-lookup"><span data-stu-id="226b7-147">Verify that goods were shipped from Italy.</span></span> <span data-ttu-id="226b7-148">Bewerk indien nodig de vrachtdetails.</span><span class="sxs-lookup"><span data-stu-id="226b7-148">If necessary, you can edit the lading details.</span></span>  
-30. <span data-ttu-id="226b7-149">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="226b7-149">Close the page.</span></span>
-31. <span data-ttu-id="226b7-150">Klik op Boeken.</span><span class="sxs-lookup"><span data-stu-id="226b7-150">Click Post.</span></span>
-32. <span data-ttu-id="226b7-151">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="226b7-151">Close the page.</span></span>
-33. <span data-ttu-id="226b7-152">Ga naar Belasting > Aangiften > Buitenlandse handel > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="226b7-152">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
-34. <span data-ttu-id="226b7-153">Klik op Overbrengen.</span><span class="sxs-lookup"><span data-stu-id="226b7-153">Click Transfer.</span></span>
-35. <span data-ttu-id="226b7-154">Selecteer Ja in het veld Leveranciersfactuur.</span><span class="sxs-lookup"><span data-stu-id="226b7-154">Select Yes in the Vendor invoice field.</span></span>
-36. <span data-ttu-id="226b7-155">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="226b7-155">Click OK.</span></span>
-37. <span data-ttu-id="226b7-156">Klik op het tabblad Algemeen.</span><span class="sxs-lookup"><span data-stu-id="226b7-156">Click the General tab.</span></span>
-    * <span data-ttu-id="226b7-157">Zoek een nieuwe regel en controleer of de afzender de goederen uit Italië heeft verzonden.</span><span class="sxs-lookup"><span data-stu-id="226b7-157">Find a newly created line and verify that the sender shipped the goods from Italy.</span></span>  
+1. <span data-ttu-id="f71c1-114">Ga naar Leveranciers > Inkooporders > Alle inkooporders.</span><span class="sxs-lookup"><span data-stu-id="f71c1-114">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="f71c1-115">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="f71c1-115">Click New.</span></span>
+3. <span data-ttu-id="f71c1-116">Typ of selecteer een waarde</span><span class="sxs-lookup"><span data-stu-id="f71c1-116">Enter or select a value</span></span>
+    * <span data-ttu-id="f71c1-117">Selecteer bijvoorbeeld DE-001.</span><span class="sxs-lookup"><span data-stu-id="f71c1-117">For example, select DE-001.</span></span> <span data-ttu-id="f71c1-118">Deze leverancier heeft een Duits adres.</span><span class="sxs-lookup"><span data-stu-id="f71c1-118">This vendor has a German business address.</span></span>  
+4. <span data-ttu-id="f71c1-119">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="f71c1-119">Click OK.</span></span>
+5. <span data-ttu-id="f71c1-120">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="f71c1-120">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="f71c1-121">Typ of selecteer een waarde D0001 in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="f71c1-121">In the Item number field, enter or select a value D0001.</span></span>
+7. <span data-ttu-id="f71c1-122">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="f71c1-122">Click Save.</span></span>
+8. <span data-ttu-id="f71c1-123">Klik in het actievenster op Ontvangen.</span><span class="sxs-lookup"><span data-stu-id="f71c1-123">On the Action Pane, click Receive.</span></span>
+9. <span data-ttu-id="f71c1-124">Klik op Transportgegevens.</span><span class="sxs-lookup"><span data-stu-id="f71c1-124">Click Transportation details.</span></span>
+10. <span data-ttu-id="f71c1-125">Typ in het veld Laaddatum en -tijd de datum en een tijd.</span><span class="sxs-lookup"><span data-stu-id="f71c1-125">In the Loading date and time field, enter a date and time.</span></span>
+11. <span data-ttu-id="f71c1-126">Klik op Een nieuw adres toevoegen.</span><span class="sxs-lookup"><span data-stu-id="f71c1-126">Click Add address.</span></span>
+12. <span data-ttu-id="f71c1-127">Klik op Nieuw en maak een nieuw adres met als doel Vracht.</span><span class="sxs-lookup"><span data-stu-id="f71c1-127">Click New and create new address with purpose Lading.</span></span>
+13. <span data-ttu-id="f71c1-128">Typ Italiaans in het veld Naam of omschrijving.</span><span class="sxs-lookup"><span data-stu-id="f71c1-128">In the Name or description field, type 'Italian'.</span></span>
+14. <span data-ttu-id="f71c1-129">Selecteer Vracht als de waarde.</span><span class="sxs-lookup"><span data-stu-id="f71c1-129">Select Lading as the value.</span></span>
+    * <span data-ttu-id="f71c1-130">Merk op dat het adresdoel Vracht moet zijn.</span><span class="sxs-lookup"><span data-stu-id="f71c1-130">Note that that address purpose must be Lading.</span></span>  
+15. <span data-ttu-id="f71c1-131">Typ of selecteer een waarde ITA in het veld Land/regio.</span><span class="sxs-lookup"><span data-stu-id="f71c1-131">In the Country/region field, enter or select a value ITA.</span></span>
+16. <span data-ttu-id="f71c1-132">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="f71c1-132">Click Save.</span></span>
+17. <span data-ttu-id="f71c1-133">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="f71c1-133">Close the page.</span></span>
+18. <span data-ttu-id="f71c1-134">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="f71c1-134">Click Save.</span></span>
+    * <span data-ttu-id="f71c1-135">Controleer of het vrachtadres juist is.</span><span class="sxs-lookup"><span data-stu-id="f71c1-135">Verify that the lading address is correct.</span></span>  
+19. <span data-ttu-id="f71c1-136">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="f71c1-136">Close the page.</span></span>
+20. <span data-ttu-id="f71c1-137">Klik in het actievenster op Inkoop.</span><span class="sxs-lookup"><span data-stu-id="f71c1-137">On the Action Pane, click Purchase.</span></span>
+21. <span data-ttu-id="f71c1-138">Klik op Bevestigen.</span><span class="sxs-lookup"><span data-stu-id="f71c1-138">Click Confirm.</span></span>
+22. <span data-ttu-id="f71c1-139">Klik in het actievenster op Factuur.</span><span class="sxs-lookup"><span data-stu-id="f71c1-139">On the Action Pane, click Invoice.</span></span>
+23. <span data-ttu-id="f71c1-140">Klik op Factuur.</span><span class="sxs-lookup"><span data-stu-id="f71c1-140">Click Invoice.</span></span>
+24. <span data-ttu-id="f71c1-141">Typ een waarde in het veld Nummer.</span><span class="sxs-lookup"><span data-stu-id="f71c1-141">In the Number field, type a value.</span></span>
+25. <span data-ttu-id="f71c1-142">Voer een datum in het veld Factuurdatum in.</span><span class="sxs-lookup"><span data-stu-id="f71c1-142">In the Invoice date field, enter a date.</span></span>
+26. <span data-ttu-id="f71c1-143">Klik op Standaard vanaf: Hoeveelheid productontvangstbon om het dialoogvenster voor beëindigen te openen.</span><span class="sxs-lookup"><span data-stu-id="f71c1-143">Click Default from: Product receipt quantity to open the drop dialog.</span></span>
+27. <span data-ttu-id="f71c1-144">Selecteer Bestelde hoeveelheid in het veld Standaardhoeveelheid voor regels.</span><span class="sxs-lookup"><span data-stu-id="f71c1-144">In the Default quantity for lines field, select 'Ordered quantity'.</span></span>
+28. <span data-ttu-id="f71c1-145">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="f71c1-145">Click OK.</span></span>
+29. <span data-ttu-id="f71c1-146">Klik op Transportgegevens.</span><span class="sxs-lookup"><span data-stu-id="f71c1-146">Click Transportation details.</span></span>
+    * <span data-ttu-id="f71c1-147">Controleer of de goederen uit Italië zijn verzonden.</span><span class="sxs-lookup"><span data-stu-id="f71c1-147">Verify that goods were shipped from Italy.</span></span> <span data-ttu-id="f71c1-148">Bewerk indien nodig de vrachtdetails.</span><span class="sxs-lookup"><span data-stu-id="f71c1-148">If necessary, you can edit the lading details.</span></span>  
+30. <span data-ttu-id="f71c1-149">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="f71c1-149">Close the page.</span></span>
+31. <span data-ttu-id="f71c1-150">Klik op Boeken.</span><span class="sxs-lookup"><span data-stu-id="f71c1-150">Click Post.</span></span>
+32. <span data-ttu-id="f71c1-151">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="f71c1-151">Close the page.</span></span>
+33. <span data-ttu-id="f71c1-152">Ga naar Belasting > Aangiften > Buitenlandse handel > Intrastat.</span><span class="sxs-lookup"><span data-stu-id="f71c1-152">Go to Tax > Declarations > Foreign trade > Intrastat.</span></span>
+34. <span data-ttu-id="f71c1-153">Klik op Overbrengen.</span><span class="sxs-lookup"><span data-stu-id="f71c1-153">Click Transfer.</span></span>
+35. <span data-ttu-id="f71c1-154">Selecteer Ja in het veld Leveranciersfactuur.</span><span class="sxs-lookup"><span data-stu-id="f71c1-154">Select Yes in the Vendor invoice field.</span></span>
+36. <span data-ttu-id="f71c1-155">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="f71c1-155">Click OK.</span></span>
+37. <span data-ttu-id="f71c1-156">Klik op het tabblad Algemeen.</span><span class="sxs-lookup"><span data-stu-id="f71c1-156">Click the General tab.</span></span>
+    * <span data-ttu-id="f71c1-157">Zoek een nieuwe regel en controleer of de afzender de goederen uit Italië heeft verzonden.</span><span class="sxs-lookup"><span data-stu-id="f71c1-157">Find a newly created line and verify that the sender shipped the goods from Italy.</span></span>  
 
