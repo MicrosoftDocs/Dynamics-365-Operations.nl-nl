@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 989cfd3846e4921d24f5dcf809f1735d2cf62dbb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4425895"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005322"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Levenscyclusstatussen van producten en transacties
 
@@ -76,6 +75,3 @@ De volgende velden zijn beschikbaar voor elk proces dat wordt vermeld op het sne
 | Polis | Selecteer een van de volgende waarden om te bepalen of en hoe het huidige proces wordt toegestaan voor producten in deze levenscyclusstatus:<ul><li>**Ingeschakeld**: het bedrijfsproces is toegestaan.</li><li>**Geblokkeerd**: het proces is niet toegestaan. Als een gebruiker het proces wil gebruiken voor een product in deze levenscyclusstatus, wordt de poging door het systeem geblokkeerd en wordt er in plaats daarvan een fout weergegeven. U kunt bijvoorbeeld blokkeren dat producten aan het einde van hun levenscyclus worden gekocht.</li><li>**Ingeschakeld met waarschuwing**: het proces is toegestaan, maar er wordt een waarschuwing weergegeven. U kunt bijvoorbeeld een prototypeproduct op een productieorder plaatsen die wordt gemaakt door de afdeling Onderzoek en ontwikkeling. Andere afdelingen moeten er echter rekening mee houden dat zij het product nog niet mogen produceren.</li></ul> |
 
 Als u meer levenscyclusstatusregels toevoegt als aanpassing, kunt u deze regels weergeven in de gebruikersinterface door **Processen vernieuwen** te selecteren in het bovenste deelvenster. De knop **Processen vernieuwen** is alleen beschikbaar voor beheerders.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

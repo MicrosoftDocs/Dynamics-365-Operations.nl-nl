@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 991da4a1056bec933698d043fe45fe4e280f555a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425769"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004822"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Magazijnverwerking van inkomende ladingen voor inkooporders
 
@@ -478,6 +477,3 @@ Voor dit scenario zal de ontvangstmedewerker de inkomende hoeveelheid registrere
     - **Hoeveelheid**: geef _7_ op. Dit is de resterende hoeveelheid die de leverancier mag leveren als onderdeel van de totale inkooporderhoeveelheid van 12 (waarbij 10 de oorspronkelijke orderhoeveelheid is en 2 de toegestane meerleveringshoeveelheid van 20 procent). Houd er rekening mee dat 5 stuks al zijn geregistreerd voor de eerste lading.
 
 De tweede lading is nu bijgewerkt met de hoeveelheid van 7 en de productontvangst kan worden bijgewerkt op basis van deze hoeveelheid.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

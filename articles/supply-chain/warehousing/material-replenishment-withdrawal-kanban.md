@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 9de46acd8e568be08518d9bf93067748e0541023
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425759"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004460"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Aanvulling met opnamekanbans
 
@@ -87,6 +86,3 @@ In het volgende scenario is de overboekingsactiviteit van de opnamekanban geconf
 
 Nadat een kanban is verbruikt bij de productie-invoerlocatie, wordt de kanban afgemeld als 'leeg' en een nieuwe kanban wordt toegevoegd aan de stroom. Wanneer de kanban wordt gemaakt, wordt een waveregel toegevoegd aan een kanbanwave. Wanneer de kanbanwave wordt verwerkt, wordt magazijnwerk voor het kanbanorderverzamelen gemaakt. De magazijnmedewerker verwerkt het werk voor het kanbanorderverzamelen en wordt door het werk aangestuurd om het materiaal voor de kanban te verzamelen op een magazijnlocatie. Als deze magazijnmedewerker het verzamelen bevestigt, wordt de kanban wordt automatisch voltooid en de magazijnmedewerker wordt geïnstrueerd om het materiaal naar de productie-invoerlocatie te brengen.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

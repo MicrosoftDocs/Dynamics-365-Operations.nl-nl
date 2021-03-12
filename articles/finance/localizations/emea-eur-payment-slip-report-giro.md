@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: OMLegalEntities, ProjFormletterParameters, CustFormletterParameters
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264604
 ms.search.region: Belgium, Denmark, Finland, Norway, Switzerland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cbbfa25252074cd371b271be2f0f03ad2a687944
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 70b7b89a47b902c5c12213662d6ca2c0382e68fc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408327"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003041"
 ---
 # <a name="payment-slip-report-for-europe"></a>Betalingsbonrapport voor Europa
 
@@ -63,6 +62,3 @@ Nadat u de indeling voor betalingsbonbijlagen hebt ingesteld voor verkoopfacture
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

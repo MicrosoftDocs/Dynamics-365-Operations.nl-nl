@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f8d5e4d82c66d178ceafcdbfb3eb9a941172aa01
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425764"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004622"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling
 
@@ -120,7 +119,7 @@ De FIFO-strategie zoekt naar de locatie die de oudste ouderdomsdatum bevat en wi
 1. Selecteer op de pagina **Verkooporder** in het actievenster op het tabblad **Magazijn** in de groep **Acties** de optie **Vrijgave naar magazijn**. U ontvangt meldingen. Het systeem maakt een zending, voegt deze toe aan een nieuwe lading en maakt het vereiste werk.
 1. Selecteer op het sneltabblad **Verkooporderregels** in het menu **Magazijn** de optie **Werkdetails** om het werk dat voor deze verkooporder is gemaakt, te openen. De regel waar het veld **Werktype** de waarde *Orderverzamelen* bevat, geeft een **Locatie** weer met de waarde *FL-002*. Deze locatie bevat de nummer plaat met de oudste ouderdomsdatum (FIFO).
 1. Selecteer **Magazijn \> Details van zending**.
-1. Op het sneltabblad ***Algemeen** noteert u de wave-id zodat u deze kunt gebruiken in scenario 2.
+1. Op het sneltabblad *_Algemeen_* noteert u de wave-id zodat u deze kunt gebruiken in scenario 2.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>Scenario 2: LIFO-locatie instellen en gebruiken
 
@@ -140,6 +139,3 @@ De LIFO-strategie zoekt naar de locatie die de nieuwste ouderdomsdatum bevat en 
 1. De regel waar het veld **Werktype** de waarde *Orderverzamelen* bevat, geeft een **Locatie** weer met de waarde *FL-001*. Deze locatie bevat de nummer plaat met de nieuwste ouderdomsdatum (LIFO).
 
 In deze scenario's hebt u gezien hoe de de locatiestrategie op basis van ouderdom werk naar de voorraadlocatie stuurt met de oudste voorraad of met de nieuwste voorraad, afhankelijk van de geselecteerde strategie.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

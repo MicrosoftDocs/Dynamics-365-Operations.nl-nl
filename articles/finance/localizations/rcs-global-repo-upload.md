@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace, RCS
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 5b2b8f35b9931f8fd1824c20e9045da68af33ad5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ef12c911c8953b181db1c0eff0874a3d8cfcb3da
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442022"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005743"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>ER-configuraties uitvoeren in Regulatory Configuration Services (RCS) en deze uploaden naar de algemene opslagplaats
 
@@ -98,6 +97,3 @@ De configuratieversie wordt verwijderd en er wordt een bevestigingsbericht weerg
 > [!NOTE]
 > Configuraties kunnen alleen worden verwijderd door de configuratieprovider die deze heeft gemaakt. Als de configuratie is gedeeld met een andere organisatie, moet het delen van de configuratie ongedaan worden maken voordat u deze kunt verwijderen.
  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

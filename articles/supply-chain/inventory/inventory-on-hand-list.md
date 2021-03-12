@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventOnhandItem, InventOnHandItemListPage, WHSOnHand
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 94e54220a68889fd31ac3b269f7a7f6f8dd98c8e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425859"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005197"
 ---
 # <a name="inventory-on-hand-list"></a>Lijst met voorhanden voorraad
 
@@ -146,6 +145,3 @@ Dit is de resulterende uitvoer.
 | IA0001 | 1 | 2 | 2 |
 
 De instellingen in het deelvenster **Filters** zijn van toepassing op de gedetailleerde (niet-samengevoegde) voorraadtabel die aan het begin van deze sectie wordt weergegeven. Daarom vindt het criterium **Fysiek beschikbaar** \| **kleiner dan of gelijk aan** \| _1_ twee rijen uit die tabel (de eerste en de derde rij, die elk een waarde **Fysiek beschikbaar** van _1_ hebben). In dit scenario wordt de lijst **Voorhanden voorraad** echter niet ingesteld om de dimensie **Magazijn** weer te geven. Daarom worden de twee oorspronkelijke rijen samengevoegd tot één enkele resulterende rij, omdat beide rijen identieke waarden bevatten in alle dimensies die worden weergegeven. Deze rij lijkt het filtercriterium te schenden, omdat de waarde **Fysiek beschikbaar** wordt weergegeven als _2_. Het resultaat is echter correct, omdat de instellingen in het deelvenster **Filters** van toepassing zijn op de brontabel, niet op de samengevoegde tabel die wordt weergegeven op de pagina **Voorhanden voorraad**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

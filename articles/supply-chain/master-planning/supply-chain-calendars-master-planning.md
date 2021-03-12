@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bbbd60ddfd46904374a2cf3ad4a09f96805bd2bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425466"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001794"
 ---
 # <a name="calendars-and-master-planning"></a>Kalenders en hoofdplanning
 
@@ -143,6 +142,3 @@ Met betrekking tot de behoefteplanningsgroepkalender is het van belang er rekeni
 
 ### <a name="updating-scm-related-calendars"></a>SCM-gerelateerde kalenders bijwerken
 Het is belangrijk dat alle relevante kalenders hun respectieve plaats toegewezen krijgen (leverancier, klant, magazijn, leveringsmethode of behoefteplanningsgroep), maar deze kalenders bijwerken is net zo belangrijk, zodat ze de wijzigingen bevatten. Het systeem definieert de productie-, transfer-, inkoop- en verkooporderdatums afhankelijk van de combinatie van de toegewezen kalenders. Het is raadzaam om aan te geven wie verantwoordelijk is voor het toewijzen en bijwerken van de kalenders op de corresponderende gebieden. In geval van een uitval of andere ongebruikelijke wijziging in de werkdagen is het essentieel de kalenders dienovereenkomstig bij te werken. Alle taken die afhankelijk zijn van kalenders, zoals de hoofdplanning en de productieplanning moeten opnieuw worden uitgevoerd wanneer kalenders worden bijgewerkt. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

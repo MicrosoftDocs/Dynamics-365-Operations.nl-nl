@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: MCRCustomerService, MCRCustSearch, SalesTable, MCRContinuityCustInfo, MCRCustPaymLookup, CreditCardTokenization, CreditCardLookup, MCRSalesOrderRecap
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2baf0127a35cc62952fd78daaf8204d35ec8d2b3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5b641fb6ba5edf359a2f1f2de7b5095d73b497cf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411406"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003623"
 ---
 # <a name="using-continuity-program"></a>Continuïteitsprogramma's gebruiken
 
@@ -62,6 +61,3 @@ Deze procedure laat zien hoe u een continuïteitsprogramma verkoopt en de gerela
     * Voer het verkoopordernummer in dat u eerder in de procedure hebt genoteerd. Dit zorgt ervoor dat de verwerkingstijd voor deze procedure minimaal blijft. Het veld Verkooporder is optioneel. U kunt alle orders voor elk programma verwerken.  
 21. Klik op OK.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: dee5429c31bfc872afedfa76ced89633b4b72c96
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4425896"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005372"
 ---
 # <a name="engineering-change-management-parameters"></a>Parameters voor het beheer van technische wijzigingen
 
@@ -57,6 +56,3 @@ In de volgende tabel worden de velden beschreven die beschikbaar zijn op het tab
 | Regel voor ernstcategorie | Geef op hoe de ernst van een order voor een technische wijziging moet worden vastgesteld. Selecteer *Handmatig* als de gebruiker een waarde moet invoeren in het veld **Ernst**. Selecteer *Berekenen* als u wilt dat de waarde van het veld **Ernst** wordt berekend wanneer u **Ernst berekenen** selecteert in het actievenster van de order voor technische wijzigingen. In dit geval worden de prioriteitsregels gebruikt die zijn gedefinieerd op de pagina **Regelset voor ernst**. Selecteer *Automatisch berekenen* als u de waarde van het veld **Ernst** automatisch wilt laten berekenen en invullen op basis van de regelsets voor de ernst. |
 | Betrokken producten opnieuw vrijgeven | Dit veld is van toepassing wanneer u producten opnieuw vrijgeeft via een order voor technische wijzigingen. U kunt opgeven of alle producten of alleen de getroffen producten moeten worden voorgesteld in het dialoogvenster **Releases**. |
 | Vrij te geven stuklijstniveaus | De diepte van het stuklijstniveau dat moet worden vrijgegeven. Als de stuklijst meer niveaus heeft (dieper is) dan de waarde die hier is opgegeven, worden alleen de niveaus vrijgegeven die tot aan de opgegeven waarde zijn doorgegeven. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

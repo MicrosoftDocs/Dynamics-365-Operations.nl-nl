@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 57e8ce38241933b16252f1c918b0f763a8f1be08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b047a1abaa6b19096740f589281c837643d796b9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441940"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003523"
 ---
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Leveranciersbetalingen maken met behulp van een betalingsvoorstel
 
@@ -69,14 +68,14 @@ Op 1 juli betaalt April leveranciers. Ze gebruikt een betalingsvoorstel om deze 
 
 ### <a name="option-1-by-cash-discount"></a>Optie 1: Met contantkorting
 
-April selecteert **Contantkorting** als het voorsteltype. Ze voert een datumbereik in van 26 juni tot 10 juli. De volgende facturen worden opgenomen in het voorstel:
+April selecteert **Contantkorting** als het voorsteltype. Ze voert een datumbereik in van 26 juni tot 10 juli. De volgende facturen worden opgenomen in het voorstel:
 
 -   1002, omdat de kortingsdatum van 4 juli in het bereik van de betalingsdatums valt.
 -   1004, omdat de kortingsdatum van 1 juli in het bereik van de betalingsdatums valt.
 
 De volgende facturen worden niet opgenomen in het voorstel:
 
--   1001, omdat de kortingsdatum van 29 juni al is vervallen, zodat deze factuur niet meer in aanmerking komt voor de contantkorting.
+-   1001, omdat de kortingsdatum van 29 juni al is vervallen, zodat deze factuur niet meer in aanmerking komt voor de contantkorting.
 -   1003, omdat deze factuur geen kortingsdatum heeft.
 
 ### <a name="option-2-by-due-date"></a>Optie 2: Volgens vervaldatum
@@ -101,14 +100,14 @@ April selecteert **Vervaldatum en contantkorting** als het voorsteltype. Ze voer
 
 De volgende facturen worden niet opgenomen in het voorstel:
 
--   1001, omdat de kortingsdatum van 29 juni al is vervallen, zodat deze factuur niet meer in aanmerking komt voor de contantkorting, en de vervaldatum van 15 juli eveneens buiten het datumbereik ligt.
+-   1001, omdat de kortingsdatum van 29 juni al is vervallen, zodat deze factuur niet meer in aanmerking komt voor de contantkorting, en de vervaldatum van 15 juli eveneens buiten het datumbereik ligt.
 
 ## <a name="country-specific-considerations"></a>Landafhankelijke overwegingen
 ### <a name="norway"></a>Noorwegen
 
 #### <a name="dimension-control"></a>Dimensiebesturingselement
 
-Met een dimensiebesturingselement kunt u het groeperen van gegenereerde regels op betalingsvoorstel regelen en standaarddimensies instellen op basis van financiële dimensies voor de toegepaste facturen. In de context van Noorwegen is er voor elke betalingsmethode een financieel dimensietabblad waarin u de dimensiecontrole kunt activeren en het groeperen voor elke dimensie activeren kunt inschakelen. Mogelijke opties zijn:
+Met een dimensiebesturingselement kunt u het groeperen van gegenereerde regels op betalingsvoorstel regelen en standaarddimensies instellen op basis van financiële dimensies voor de toegepaste facturen. In de context van Noorwegen is er voor elke betalingswijze een financieel dimensietabblad waarin u het dimensiebesturingselement kunt activeren en het groeperen voor elke dimensie activeren kunt inschakelen. Mogelijke opties zijn:
 
 -   Het veld **Dimensiebesturingselement** is uitgeschakeld. Het betalingsvoorstel werkt als voor elk ander land.
 -   Het veld **Dimensiebesturingselement** wordt geactiveerd zonder de dimensies verder te definiëren. Het betalingsvoorstel wordt gemaakt zonder rekening te houden met dimensies. De gemaakte transactie neemt geen dimensies over van de toegepaste invoer.
@@ -119,10 +118,7 @@ Met een dimensiebesturingselement kunt u het groeperen van gegenereerde regels o
 
 #### <a name="bank-account-selection"></a>Bankrekening selecteren
 
-U kunt een standaard betaalrekening definiëren per betalingsmethode ongeacht de context van het land. Dit wordt ingesteld in betalingsregels die door een voorstel worden gegenereerd. Met de bankrekeningsfunctie kunt u meerdere betaalrekeningen definiëren die op dimensie en valuta worden beheerd of een combinatie van deze om andere betaalrekeningen te gebruiken, afhankelijk van elke combinatie. U kunt deze combinaties instellen op de pagina **Betalings methoden** via de knop  **Bankrekeningen** die beschikbaar is voor elke betalingsmethode met **Boekingsrekeningtype**  =  **Bank**.
+U kunt een standaard betaalrekening definiëren per betalingsmethode ongeacht de context van het land. Dit wordt ingesteld in betalingsregels die door een voorstel worden gegenereerd. Met de bankrekeningsfunctie kunt u meerdere betaalrekeningen definiëren die op dimensie en valuta worden beheerd of een combinatie van deze om andere betaalrekeningen te gebruiken, afhankelijk van elke combinatie. U kunt deze combinaties instellen op de pagina **Betalingswijzen** via de knop **Bankrekeningen** die beschikbaar is voor elke betalingswijzen met **Boekingsrekeningtype** = **Bank**.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
