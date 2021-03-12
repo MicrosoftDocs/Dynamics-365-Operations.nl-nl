@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2bec8653c05d7684202c0e63d049ddb517e12834
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb1afb0ebce742fa2f6accd65e553df6607107a4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411418"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972275"
 ---
 # <a name="define-loyalty-schemes"></a> Loyaliteitsschema's definiëren
 
@@ -70,6 +69,3 @@ Deze procedure laat zien hoe u een loyaliteitsschema definieert. Loyaliteitssche
 27. Klik op Opslaan.
     * Elke keer dat u de kanalen voor een loyaliteitsschema wijzigt, moet u Loyaliteitsschema verwerken uitvoeren. Op die manier krijgen de kanalen bijgewerkte loyaliteitsschema's.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

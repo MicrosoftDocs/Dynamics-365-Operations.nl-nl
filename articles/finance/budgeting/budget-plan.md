@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9558013236a728e0fb9691f4edd719fe58d5457
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ec62af4ec62de0d63b590c79db6a8164d59e72c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442092"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971273"
 ---
 # <a name="budget-planning"></a>Budgetplanning
 
@@ -106,7 +105,7 @@ In budgetplanning worden speciale beveiligingsbeleidsregels gebruikt om toegang 
 
 2.5. Selecteer “Toegang toewijzen aan specifieke organisaties”. Selecteer de organisatiehiërarchie die in de eerste stap is gemaakt. Selecteer het financiële knooppunt en klik op de knop Toewijzen met onderliggende organisaties. 
 
-***Belangrijk!*** *Zorg ervoor dat u zich in DEMF-rechtspersooncontext bevindt bij het uitvoeren van deze taak aangezien organisatorische beveiliging wordt toegepast per rechtspersoon* 
+**_Belangrijk!_* _ _Zorg ervoor dat u zich in DEMF-rechtspersooncontext bevindt bij het uitvoeren van deze taak, aangezien organisatorische beveiliging wordt toegepast per rechtspersoon* 
 
 ### <a name="task-3-create-scenarios"></a>Taak 3: Scenario's maken
 3.1. Navigeer naar Budgettering &gt; Instellen &gt; Budgetplanning &gt; Configuratie budgetplanning. Noteer op de pagina Scenario's de scenario's die we verder gaan gebruiken in dit lab: werkelijke en gebudgetteerde waarden van vorig jaar. 
@@ -247,6 +246,3 @@ C. Navigeer naar Budgettering &gt; Instellen &gt; Budgetplanning &gt; Configurat
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

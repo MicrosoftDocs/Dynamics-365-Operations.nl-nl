@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8b381ec0535676b77a62bc748fd2ca1c521839ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411253"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972450"
 ---
 # <a name="retail-sales-price-management"></a>Verkoopprijsbeheer van detailhandel
 
@@ -240,6 +239,3 @@ Bovendien ondersteunt de prijsengine **alleen** de volgende prijsbepalingsfuncti
 Prijs is een van de belangrijkste factoren voor koopbeslissingen van veel klanten en veel klanten vergelijken de prijzen op verschillende locaties voordat ze overgaan tot koop. Om er zeker van te zijn dat ze concurrerende prijzen bieden, houden detailhandelaren hun concurrenten goed in de gaten en hebben ze vaak acties. Om deze detailhandelaren te helpen bij het aantrekken van klanten, is het zeer belangrijk dat bij het zoeken naar producten, in de bladerfunctie, lijsten en op de pagina met productdetails de meest nauwkeurige prijzen worden weergegeven.
 
 In een aanstaande release van Commerce retourneert de API **GetActivePrices** prijzen die eenvoudige kortingen bevatten (bijvoorbeeld kortingen van één regel die niet afhankelijk zijn van andere artikelen in de winkelwagen). Op deze manier liggen de prijzen die worden weergegeven dicht bij het werkelijke bedrag dat klanten voor artikelen betalen. Deze API bevat alle soorten eenvoudige kortingen: op relatie, loyaliteit, catalogus en kanaal gebaseerde kortingen. Daarnaast retourneert de API de namen en validiteitsgegevens voor de toegepaste kortingen, zodat detailhandelaren een meer gedetailleerde omschrijving van de prijs kunnen bieden en een gevoel van urgentie creëren als de geldigheid van de korting binnenkort verloopt.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

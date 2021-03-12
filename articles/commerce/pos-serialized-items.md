@@ -3,24 +3,23 @@ title: Werken met geserialiseerde artikelen in het POS
 description: In dit onderwerp wordt uitgelegd hoe u geserialiseerde artikelen kunt beheren in de verkooppunttoepassing (POS).
 author: boycezhu
 manager: annbe
-ms.date: 08/21/2020
+ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6ba01abc3d1a4496ec586a621aa03b4981f84d76
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0431ffa45eceac5c12d8ed991b00730c50ca62f8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411490"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972550"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Werken met geserialiseerde artikelen in het POS
 
@@ -90,11 +89,49 @@ Als u een dergelijke validatie wilt inschakelen, moet u de volgende taken planne
 - **Detailhandel en Commerce** > **IT detailhandel en Commerce** > **Producten en voorraad** > **Beschikbaarheid product met traceringsdimensies**.
 - **Detailhandel en Commerce** > **Distributieplanningen** > **1130** (**Productbeschikbaarheid**)
 
+## <a name="sell-serialized-items-in-pos"></a>Geserialiseerde artikelen verkopen in POS
+
+Hoewel de POS-toepassing altijd de verkoop van geserialiseerde artikelen heeft ondersteund, kunnen organisaties in Commerce, versie 10.0.17 en hoger, functionaliteit inschakelen waarmee de bedrijfslogica wordt verbeterd die wordt geactiveerd bij de verkoop van producten die zijn geconfigureerd voor het bijhouden van serienummers.
+
+Wanneer de functie **Verbeterde serienummervalidatie bij het vastleggen en afhandelen van POS-orders** is ingeschakeld, worden de volgende productconfiguraties geëvalueerd bij de verkoop van geserialiseerde producten in POS:
+
+- Instellen van **Serietype** voor het product (**actief** of **actief in verkoop**).
+- Instellingen voor **Lege uitgifte is toegestaan** voor het product.
+- Instellingen voor **Fysieke negatieve voorraad** voor het product en/of het verkopende magazijn.
+
+### <a name="active-serial-configurations"></a>Actieve seriële configuraties
+
+Wanneer artikelen worden verkocht in POS die zijn geconfigureerd met een **actieve** traceringsdimensie voor serienummers, wordt een validatielogica gestart om te voorkomen dat gebruikers de verkoop van een geserialiseerd artikel voltooien met een serienummer dat niet kan worden gevonden in de huidige voorraad van het verkopende magazijn. Er zijn twee uitzonderingen op deze validatieregel:
+
+- Als het artikel ook is geconfigureerd met **Lege uitgifte is toegestaan** ingeschakeld, kunnen gebruikers de invoer van het serienummer overslaan en het artikel verkopen zonder serienummeraanduiding.
+- Als het artikel en/of het verkopende magazijn zijn geconfigureerd wanneer **Fysieke negatieve voorraad** is ingeschakeld, accepteert en verkoopt de toepassing een serienummer dat niet kan worden bevestigd als in voorraad in het magazijn waaruit het wordt verkocht. Met deze configuratie kan de voorraadtransactie voor dat specifieke artikel-/serienummer negatief worden en het systeem kan daarom de verkoop van onbekende serienummers toestaan.
+
+> [!IMPORTANT]
+> Om er zeker van te zijn dat de POS-toepassing op de juiste manier kan controleren of de serienummers die worden verkocht voor artikelen van het seriële type **Actief** in de voorraad van het verkopende magazijn aanwezig zijn, moeten organisaties de taak **Beschikbaarheid product met traceringsdimensies** en de bijbehorende taak voor de distributie van productbeschikbaarheid **1130** regelmatig uitvoeren in Commerce Headquarter. Wanneer er nieuwe geserialiseerde voorraad wordt ontvangen in de verkoopmagazijnen, moet het voorraadmodel regelmatig de kanaaldatabase bijwerken met de meest recente gegevens over de voorraadbeschikbaarheid, zodat het POS de voorraadbeschikbaarheid kan valideren van serienummers die worden verkocht. Voor de taak **Beschikbaarheid product met traceringsdimensies** wordt een actuele momentopname van de hoofdvoorraad gemaakt, inclusief serienummers, voor alle magazijnen van het bedrijf. Bij de distrbutietaak **1130** wordt die momentopname van de voorraad genomen en gedeeld met alle geconfigureerde kanaaldatabases.
+
+### <a name="active-in-sales-process-serial-configurations"></a>Actieve seriële configuraties in verkoopprocessen
+
+Artikelen die met de serienummers zijn geconfigureerd als **Actief in verkoopproces**, doorlopen geen logica voor voorraadvalidatie, omdat deze configuratie inhoudt dat de voorraadserienummers niet vooraf in de voorraad zijn geregistreerd en dat de serienummers alleen worden vastgelegd op het moment van verkoop.  
+
+Als **Lege uitgifte is toegestaan** ook is geconfigureerd voor artikelen die zijn geconfigureerd voor **Actief in verkoopproces**, kan de invoer van serienummers worden overgeslagen. Als **Lege uitgifte is toegestaan** niet is geconfigureerd, moet de gebruiker van de toepassing een serienummer invoeren, ook al wordt het nummer niet gevalideerd tegen de beschikbare voorraad.
+
+### <a name="apply-serial-numbers-during-creation-of-pos-transactions"></a>Serienummers toepassen tijdens het maken van POS-transacties
+
+De POS-toepassing vraagt gebruikers onmiddellijk om serienummers vast te leggen bij de verkoop van een artikel met een serienummer, maar de toepassing staat gebruikers niet toe om de invoer van serienummers tot op een bepaald punt in het verkoopproces over te slaan. Wanneer de gebruiker een betaling begint vast te leggen, dwingt de toepassing de invoer van een serienummer af voor alle artikelen die niet zijn geconfigureerd om te worden afgehandeld via toekomstige zendingen of het ophalen van artikelen. Voor alle geserialiseerde artikelen die geconfigureerd zijn voor cash-and-carry- of carryout-afhandeling, moet de gebruiker het serienummer vastleggen (of akkoord gaan dat deze optie wordt leeggelaten als de artikelconfiguratie dit toestaat) voordat de verkoop wordt afgerond.
+
+Voor geserialiseerde artikelen die worden verkocht voor toekomstige ophalen of zending, kunnen POS-gebruikers het invoeren van het serienummer overslaan en nog steeds het maken van de klantorder voltooien.   
+
+> [!NOTE]
+> Wanneer geserialiseerde producten worden verkocht of afgehandeld via de POS-toepassing, wordt een hoeveelheid van 1 afgedwongen voor de geserialiseerde artikelen in de verkooptransactie. Dit is het resultaat van de manier waarop de serienummergegevens in de verkoopregel worden bijgehouden. Wanneer u een transactie voor meerdere geserialiseerde artikelen verkoopt of afhandelt via POS, moet elke verkoopregel alleen worden geconfigureerd met de hoeveelheid '1'. 
+
+### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Serienummers toepassen tijdens het afhandelen van klantorders of het ophalen
+
+Wanneer klantorderregels voor geserialiseerde producten worden uitgevoerd met de bewerking **Orderafhandeling** in POS, wordt in POS het vastleggen van serienummers afgedwongen vóór de uiteindelijke afhandeling van de order. Als er tijdens het vastleggen van de aanvankelijke order geen serienummer is opgegeven, moet dat nummer worden vastgelegd tijdens het verzamelen, verpakken of verzenden in POS. Bij elke stap wordt een validatie uitgevoerd en de gebruiker wordt alleen om serienummergegevens gevraagd als deze ontbreken of niet meer geldig zijn. Als een gebruiker bijvoorbeeld de stappen voor het verzamelen of verpakken overslaat en direct een zending start en een serienummer niet is geregistreerd voor de regel, vereist POS dat het serienummer eerst moet worden ingevoerd voordat de laatste factureringsstap wordt voltooid. Wanneer u het vastleggen van het serienummer afdwingt tijdens bewerkingen voor de afhandeling van de order in POS, zijn alle regels die eerder in dit onderwerp werden genoemd nog steeds van toepassing. Alleen geserialiseerde artikelen die als **Actief** zijn geconfigureerd, doorlopen een validatie van serienummers in voorraad. Artikelen die zijn geconfigureerd als **Actief in verkoopproces**, worden niet gevalideerd. Als **Fysieke negatieve voorraad** is toegestaan voor producten die zijn geconfigureerd als **Actief**, wordt een serienummer geaccepteerd, ongeacht de voorraadbeschikbaarheid. Voor artikelen met de status **Actief** en **Actief in verkoopproces**, als **Lege uitgifte is toegestaan** is geconfigureerd, kan een gebruiker serienummers leeglaten als dit is toegestaan tijdens het verzamelen, verpakken en verzenden.
+
+Validaties voor serienummers worden ook uitgevoerd wanneer een gebruiker de bewerkingen voor ophalen voor klantorders in POS. In de POS-toepassing kan het ophalen van een product met serienummers pas worden afgerond als de eerder genoemde validaties zijn doorlopen. De validaties zijn altijd gebaseerd op de traceringsdimensie van het product en de configuraties van het verkoopmagazijn. 
+
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Binnenkomende voorraadbewerking in POS](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Uitgaande voorraadbewerking in POS](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

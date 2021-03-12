@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 89643
 ms.assetid: 09843c9a-3e19-4e4a-a8ce-80650f2095f9
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 565722da65cbb711acedb5acf7de4edfbd615314
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 747c67812b0a357c35778c82531e9db7e99e510b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411389"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972702"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>De optimale combinatie van overlappende kortingen bepalen
 
@@ -84,6 +83,3 @@ Om het probleem op te lossen van exponentieel toenemende aantallen combinaties d
 ![Formule voor het berekenen van de marginale waarde](./media/overlapping-discount-combo-06.jpg)
 
 Nadat de marginale waarde van elke korting voor een gedeelde reeks producten is berekend, worden de kortingen toegepast op de gedeelde producten in de volledige volgorde van de hoogste marginale waarde tot de laagste marginale waarde. Bij deze methode worden niet telkens alle resterende kortingsmogelijkheden vergeleken zodra één exemplaar van een korting is toegepast. In plaats daarvan worden de overlappende kortingen eenmaal vergeleken en vervolgens op volgorde toegepast. Er worden geen extra vergelijkingen uitgevoerd. U kunt de drempel voor overschakelen naar de marginale-waardemethode configureren op het tabblad **Korting** van de pagina **Commerce-parameters**. Welke tijd acceptabel is voor berekening van de totale korting, verschilt van sector tot sector. Deze tijd ligt echter over het algemeen ergens tussen enkele tientallen milliseconden tot één seconde.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

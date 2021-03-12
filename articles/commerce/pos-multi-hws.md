@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.custom: 141393
 ms.assetid: e23e944c-15de-459d-bcc5-ea03615ebf4c
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03cb68ede82668523e6970d33df676738e65fd83
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 72142a3e05092a2da7749fa01ec58e2c1d8fe25d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411403"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972600"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Speciale betalingsterminals en -prompts voor een printer en kassalade
 
@@ -154,6 +153,3 @@ Winkelmedewerkers wordt gevraagd om een hardwarestation slechts één keer per t
 - [POS Hybrid-app instellen in Android en iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 - [Dynamics 365-betalingsconnector voor Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Overzicht van ondersteuning voor netwerkrandapparaten](https://go.microsoft.com/fwlink/?linkid=2129965)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

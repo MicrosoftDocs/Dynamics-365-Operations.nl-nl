@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d7a7d2afd8f352bc167ec8c0a354ee4ac0a9e77b
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 7df2f55f596cab54315c2da2ec0492422514f49c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4442167"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971298"
 ---
 # <a name="manage-leases-through-the-lease-import-framework"></a>Leases beheren via het raamwerk voor het importeren van leases
 
@@ -83,6 +82,3 @@ Als u het lease-importraamwerk gebruikt om leases bij te werken en het procestyp
 
 1. Ga naar **Activa leasen \> Raamwerk voor het importeren van leases \> Instellen \> Selectie veld bijwerken**.
 2. Selecteer op de pagina die wordt weergegeven de velden die moeten worden bijgewerkt en selecteer vervolgens de groene pijl om deze naar de lijst **Geselecteerde velden** te verplaatsen. Alleen velden in de lijst **Geselecteerde velden** kunnen worden bijgewerkt met de lease-import suite.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

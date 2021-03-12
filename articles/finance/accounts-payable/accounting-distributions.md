@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AccountingDistribution
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17231
 ms.assetid: 9030355d-8e6e-408b-9e7d-7b346eaa652c
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a627ba33065086d21c758a1b8d8f2fa2f6ef02
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3901fb61c1c8f9a9fd13b8ea558877daf884f3ee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442118"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972226"
 ---
 # <a name="accounting-distributions"></a>Boekhoudingsverdelingen
 
@@ -57,6 +56,3 @@ De algemene boekhoudingsverdelingsmogelijkheden bevatten de volgende opties om b
 In versie 10.0.13 is een functie toegevoegd waarmee de tabel voor de boekhoudingsverdeling wordt gevalideerd om ervoor te zorgen dat de nieuwe velden correct worden ingesteld. Dit is de functie **Extra validatie van gegevens voor documenten inschakelen met behulp van het boekhoudkundig framework voor brondocumenten**. Als u deze functie wilt gebruiken, moet u deze eerst inschakelen via de werkruimte **Functiebeheer**. Als u de functie wilt inschakelen, zoekt u de functienaam in het veld **Zoeken** op de pagina **Functiebeheer** en selecteert u **Nu inschakelen**.
 
 Zie [Boekhoudingsverdelingen en journaalposten in de subadministratie voor leveranciersfacturen](accounting-distributions-subledger-journal-entries-vendor-invoices.md) voor meer informatie.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
