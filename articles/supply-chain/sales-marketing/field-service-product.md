@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,40 +18,40 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: d96d1cd91bad4f950868074d9558cb403821d73f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ffa0616d51127a024bea526c5926a182c0449971
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425605"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996722"
 ---
-# <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a><span data-ttu-id="a9bfe-103">Producten in Supply Chain Management synchroniseren met producten in Field Service</span><span class="sxs-lookup"><span data-stu-id="a9bfe-103">Synchronize products in Supply Chain Management to products in Field Service</span></span>
+# <a name="synchronize-products-in-supply-chain-management-to-products-in-field-service"></a><span data-ttu-id="37112-103">Producten in Supply Chain Management synchroniseren met producten in Field Service</span><span class="sxs-lookup"><span data-stu-id="37112-103">Synchronize products in Supply Chain Management to products in Field Service</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-<span data-ttu-id="a9bfe-104">Dit onderwerp bespreekt de sjablonen en onderliggende taak die worden gebruikt om producten te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Field Service.</span><span class="sxs-lookup"><span data-stu-id="a9bfe-104">This topic discusses the templates and underlying task that are used to synchronize products from Dynamics 365 Supply Chain Management to Dynamics 365  Field Service.</span></span>
+<span data-ttu-id="37112-104">Dit onderwerp bespreekt de sjablonen en onderliggende taak die worden gebruikt om producten te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Field Service.</span><span class="sxs-lookup"><span data-stu-id="37112-104">This topic discusses the templates and underlying task that are used to synchronize products from Dynamics 365 Supply Chain Management to Dynamics 365  Field Service.</span></span>
 
-<span data-ttu-id="a9bfe-105">De gebruikte sjabloon **Field Service-producten (Supply Chain Management naar Field Service)** is gebaseerd op de sjabloon **Producten (Supply Chain Management naar Sales) - Direct** van Prospect naar Contant geld.</span><span class="sxs-lookup"><span data-stu-id="a9bfe-105">The used **Field Service Products (Supply Chain Management to Field Service)** template is based on the **Products (Supply Chain Management to Sales) – Direct** template from Prospect to Cash.</span></span> <span data-ttu-id="a9bfe-106">Zie voor meer informatie [Producten (Supply Chain Management naar Sales) - Direct](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).</span><span class="sxs-lookup"><span data-stu-id="a9bfe-106">For more information, see [Products (Supply Chain Management to Sales) – Direct](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).</span></span>
+<span data-ttu-id="37112-105">De gebruikte sjabloon **Field Service-producten (Supply Chain Management naar Field Service)** is gebaseerd op de sjabloon **Producten (Supply Chain Management naar Sales) - Direct** van Prospect naar Contant geld.</span><span class="sxs-lookup"><span data-stu-id="37112-105">The used **Field Service Products (Supply Chain Management to Field Service)** template is based on the **Products (Supply Chain Management to Sales) – Direct** template from Prospect to Cash.</span></span> <span data-ttu-id="37112-106">Zie voor meer informatie [Producten (Supply Chain Management naar Sales) - Direct](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).</span><span class="sxs-lookup"><span data-stu-id="37112-106">For more information, see [Products (Supply Chain Management to Sales) – Direct](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct).</span></span>
 
-<span data-ttu-id="a9bfe-107">In dit onderwerp worden alleen de verschillen beschreven tussen de sjablonen **Field Service-producten (Supply Chain Management naar Field Service)** en **Producten (Supply Chain Management naar Sales) - Direct**.</span><span class="sxs-lookup"><span data-stu-id="a9bfe-107">This topic only describes the differences between the **Field Service Products (Supply Chain Management to Field Service)** and **Products (Supply Chain Management to Sales) – Direct** templates.</span></span>
+<span data-ttu-id="37112-107">In dit onderwerp worden alleen de verschillen beschreven tussen de sjablonen **Field Service-producten (Supply Chain Management naar Field Service)** en **Producten (Supply Chain Management naar Sales) - Direct**.</span><span class="sxs-lookup"><span data-stu-id="37112-107">This topic only describes the differences between the **Field Service Products (Supply Chain Management to Field Service)** and **Products (Supply Chain Management to Sales) – Direct** templates.</span></span>
 
-## <a name="templates-and-tasks"></a><span data-ttu-id="a9bfe-108">Sjablonen en taken</span><span class="sxs-lookup"><span data-stu-id="a9bfe-108">Templates and tasks</span></span>
+## <a name="templates-and-tasks"></a><span data-ttu-id="37112-108">Sjablonen en taken</span><span class="sxs-lookup"><span data-stu-id="37112-108">Templates and tasks</span></span>
 
-<span data-ttu-id="a9bfe-109">**Naam van de sjabloon in Gegevensintegratie**</span><span class="sxs-lookup"><span data-stu-id="a9bfe-109">**Name of the template in Data integration**</span></span>
+<span data-ttu-id="37112-109">**Naam van de sjabloon in Gegevensintegratie**</span><span class="sxs-lookup"><span data-stu-id="37112-109">**Name of the template in Data integration**</span></span>
 
-- <span data-ttu-id="a9bfe-110">Field Service-producten (Supply Chain Management naar Field Service)</span><span class="sxs-lookup"><span data-stu-id="a9bfe-110">Field Service Products (Supply Chain Management to Field Service)</span></span>
+- <span data-ttu-id="37112-110">Field Service-producten (Supply Chain Management naar Field Service)</span><span class="sxs-lookup"><span data-stu-id="37112-110">Field Service Products (Supply Chain Management to Field Service)</span></span>
 
-<span data-ttu-id="a9bfe-111">**Naam van de taak in het project Gegevensintegratie**</span><span class="sxs-lookup"><span data-stu-id="a9bfe-111">**Name of the task in the Data integration project**</span></span>
+<span data-ttu-id="37112-111">**Naam van de taak in het project Gegevensintegratie**</span><span class="sxs-lookup"><span data-stu-id="37112-111">**Name of the task in the Data integration project**</span></span>
 
-- <span data-ttu-id="a9bfe-112">Producten - Producten</span><span class="sxs-lookup"><span data-stu-id="a9bfe-112">Products - Products</span></span>
+- <span data-ttu-id="37112-112">Producten - Producten</span><span class="sxs-lookup"><span data-stu-id="37112-112">Products - Products</span></span>
 
-<span data-ttu-id="a9bfe-113">De gebruikte sjabloon **Field Service-producten (Supply Chain Management naar Field Service)** bevat één toewijzing die niet is inbegrepen in de sjabloon **Producten (Supply Chain Management naar Sales) - Direct**.</span><span class="sxs-lookup"><span data-stu-id="a9bfe-113">The **Field Service Products (Supply Chain Management to Field Service)** template includes one mapping that isn't included in the **Products (Supply Chain Management to Sales) – Direct** template.</span></span> <span data-ttu-id="a9bfe-114">Deze toewijzing zorgt ervoor dat het vereiste Field Service-veld **Producttype Field Service** correct wordt ingesteld.</span><span class="sxs-lookup"><span data-stu-id="a9bfe-114">This mapping ensures that the required Field Service-specific field **Service Product Type** is set correctly.</span></span>
+<span data-ttu-id="37112-113">De gebruikte sjabloon **Field Service-producten (Supply Chain Management naar Field Service)** bevat één toewijzing die niet is inbegrepen in de sjabloon **Producten (Supply Chain Management naar Sales) - Direct**.</span><span class="sxs-lookup"><span data-stu-id="37112-113">The **Field Service Products (Supply Chain Management to Field Service)** template includes one mapping that isn't included in the **Products (Supply Chain Management to Sales) – Direct** template.</span></span> <span data-ttu-id="37112-114">Deze toewijzing zorgt ervoor dat het vereiste Field Service-veld **Producttype Field Service** correct wordt ingesteld.</span><span class="sxs-lookup"><span data-stu-id="37112-114">This mapping ensures that the required Field Service-specific field **Service Product Type** is set correctly.</span></span>
 
 ```plaintext
 FIELDSERVICEPRODUCTTYPE        Fn        msdyn_fieldserciveproducttype
 ```
 
-<span data-ttu-id="a9bfe-115">De volgende waardetoewijzing wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="a9bfe-115">The following value mapping is used.</span></span>
+<span data-ttu-id="37112-115">De volgende waardetoewijzing wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="37112-115">The following value mapping is used.</span></span>
 
 ```plaintext
 inventory     :  690970000
@@ -60,16 +59,16 @@ nonInventory  :  690970001
 service       :  690970002 
 ```
 
-<span data-ttu-id="a9bfe-116">In Supply Chain Management wordt de waarde **Producttype Field Service** in de gegevensentiteit **Verkoopbare vrijgegeven producten** als volgt berekend:</span><span class="sxs-lookup"><span data-stu-id="a9bfe-116">In Supply Chain Management, the **Field Service product type** value on the **Sellable released products** data entity is calculated as follows:</span></span>
+<span data-ttu-id="37112-116">In Supply Chain Management wordt de waarde **Producttype Field Service** in de gegevensentiteit **Verkoopbare vrijgegeven producten** als volgt berekend:</span><span class="sxs-lookup"><span data-stu-id="37112-116">In Supply Chain Management, the **Field Service product type** value on the **Sellable released products** data entity is calculated as follows:</span></span>
 
-- <span data-ttu-id="a9bfe-117">**Voorraad:** producttype = product en Artikelmodelgroep, Product in voorraad = True</span><span class="sxs-lookup"><span data-stu-id="a9bfe-117">**Inventory:** Product type = Product and Item model group, Stocked product = True</span></span>
-- <span data-ttu-id="a9bfe-118">**Niet-voorraad:** producttype = product en Artikelmodelgroep, Product in voorraad = False</span><span class="sxs-lookup"><span data-stu-id="a9bfe-118">**NonInventory:** Product type = Product and Item model group, Stocked product = False</span></span>
-- <span data-ttu-id="a9bfe-119">**Service:** Producttype = Service</span><span class="sxs-lookup"><span data-stu-id="a9bfe-119">**Service:** Product type = Service</span></span>
+- <span data-ttu-id="37112-117">**Voorraad:** producttype = product en Artikelmodelgroep, Product in voorraad = True</span><span class="sxs-lookup"><span data-stu-id="37112-117">**Inventory:** Product type = Product and Item model group, Stocked product = True</span></span>
+- <span data-ttu-id="37112-118">**Niet-voorraad:** producttype = product en Artikelmodelgroep, Product in voorraad = False</span><span class="sxs-lookup"><span data-stu-id="37112-118">**NonInventory:** Product type = Product and Item model group, Stocked product = False</span></span>
+- <span data-ttu-id="37112-119">**Service:** Producttype = Service</span><span class="sxs-lookup"><span data-stu-id="37112-119">**Service:** Product type = Service</span></span>
 
-## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="a9bfe-120">Sjabloontoewijzing in Gegevensintegratie</span><span class="sxs-lookup"><span data-stu-id="a9bfe-120">Template mapping in Data integration</span></span>
+## <a name="template-mapping-in-data-integration"></a><span data-ttu-id="37112-120">Sjabloontoewijzing in Gegevensintegratie</span><span class="sxs-lookup"><span data-stu-id="37112-120">Template mapping in Data integration</span></span>
 
-<span data-ttu-id="a9bfe-121">In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.</span><span class="sxs-lookup"><span data-stu-id="a9bfe-121">The following illustrations show the template mapping in Data integration.</span></span>
+<span data-ttu-id="37112-121">In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.</span><span class="sxs-lookup"><span data-stu-id="37112-121">The following illustrations show the template mapping in Data integration.</span></span>
 
-### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a><span data-ttu-id="a9bfe-122">Field Service-producten (Supply Chain Management naar Field Service): Producten - Producten</span><span class="sxs-lookup"><span data-stu-id="a9bfe-122">Field Service Products (Supply Chain Management to Field Service): Products - Products</span></span>
+### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a><span data-ttu-id="37112-122">Field Service-producten (Supply Chain Management naar Field Service): Producten - Producten</span><span class="sxs-lookup"><span data-stu-id="37112-122">Field Service Products (Supply Chain Management to Field Service): Products - Products</span></span>
 
-<span data-ttu-id="a9bfe-123">[![Sjabloontoewijzing in Gegevensintegratie](./media/FSProduct.png)](./media/FSProduct.png)</span><span class="sxs-lookup"><span data-stu-id="a9bfe-123">[![Template mapping in Data integration](./media/FSProduct.png)](./media/FSProduct.png)</span></span>
+<span data-ttu-id="37112-123">[![Sjabloontoewijzing in Gegevensintegratie](./media/FSProduct.png)](./media/FSProduct.png)</span><span class="sxs-lookup"><span data-stu-id="37112-123">[![Template mapping in Data integration](./media/FSProduct.png)](./media/FSProduct.png)</span></span>
