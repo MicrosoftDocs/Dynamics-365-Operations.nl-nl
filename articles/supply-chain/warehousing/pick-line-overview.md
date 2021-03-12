@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 3a2c8a69a2c64214a38a654042ea2f62575e7f52
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 433ed2152c47dbe698a640b099cb34727fe63452
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425324"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989688"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Een menuoptie voor een mobiel apparaat instellen om een overzicht van orderverzamelregels te bieden
 
@@ -69,6 +68,3 @@ Als u een menuoptie voor een mobiel apparaat wilt instellen om een overzicht van
     - Gebruik de resterende **Weergaveveld**-velden om desgewenst maximaal zeven extra weergavevelden toe te voegen. Selecteer de naam van een werkregelveld in elk **Weergaveveld**-veld. Op elke regel wordt vervolgens een waarde voor dat veld weergegeven. De waarden worden weergegeven in de volgorde die u hier selecteert. U kunt sommige velden van **Weergaveveld** leeg laten als u niet alle zeven waarden nodig hebt.
 
 1. Selecteer **Opslaan** in het actievenster en sluit de pagina **Veldenlijst**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

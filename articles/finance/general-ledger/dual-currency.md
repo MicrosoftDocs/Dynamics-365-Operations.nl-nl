@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8b71b571b03e8fa2648c90258bbcaa020baeabc0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 04126c0cddd1242e9607274e35f4b7626ad573d2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441810"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990459"
 ---
 # <a name="dual-currency"></a>Twee valuta's
 
@@ -209,6 +208,3 @@ Bij de consolidatie van het grootboek is een nieuwe optie toegevoegd om de boekh
 -  U kunt nu kiezen of de boekhoudings- of de rapporteringsvaluta van het bronbedrijf moet worden gebruikt als de transactievaluta in het consolidatiebedrijf.
 
 - De boekhoudings- of rapporteringsvalutabedragen van het bronbedrijf worden rechtstreeks gekopieerd naar de boekhoudings- of rapporteringsvalutabedragen in het consolidatiebedrijf, als een van de valuta's hetzelfde is. De valutabedragen voor de boekhouding en de rapportering in het consolidatiebedrijf worden berekend met behulp van de wisselkoers als geen van beide valuta's hetzelfde is.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

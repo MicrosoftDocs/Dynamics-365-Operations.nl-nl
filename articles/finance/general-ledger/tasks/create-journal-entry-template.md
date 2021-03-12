@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransVoucherTemplate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 360df29e6349fd4d42d6d14af646e929b73943bd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 234cfb98cc07f6c8c81821584e4e1d509d033477
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442037"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988569"
 ---
 # <a name="create-a-journal-entry-using-template"></a>Een journaalboeking maken met een sjabloon
 
@@ -63,6 +62,3 @@ Geboekte journaalboekstuk kunnen als boekstuksjablonen worden opgeslagen en toeg
 29. Voer in het veld **Bedrag** het bedrag in dat op het boekstuk moet worden toegepast. Het veld **Bedrag** wordt alleen weergegeven als de boekstuksjabloon van het type Procent is.  
 30. Klik op **OK**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

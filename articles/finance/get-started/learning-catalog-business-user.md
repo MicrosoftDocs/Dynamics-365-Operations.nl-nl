@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9d99233831ee4f838c0230e92db0750d94b2b55b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3ec0e21ccecd5bf90e9b31b5aade33e585108c62
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442003"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990234"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-finance"></a>Trainingscatalogus voor gebruikers van Dynamics 365 Finance
 
@@ -54,12 +53,10 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [Budgettering configureren en gebruiken in Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-use-budgeting-dyn365-finance/)   | Alle privé- of openbare organisaties definiëren financiële en operationele doelstellingen door budgetten te maken. Met het samenwerkings- en procesgerichte karakter van de budgetplanning kunt u het budgetproces efficiënter maken. | Gratis online leertraject voor zelfstudie | 3.5 uur |
 | [Vaste activa configureren en beheren in Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/configure-manage-fixed-assets-dyn365-finance/) | U kunt aanschafgegevens voor vaste activa instellen en invoeren, en deze beheren door ze af te schrijven en een drempel voor kapitalisatie in te stellen. De manier waarop vaste activa worden verwerkt, moet overeenstemmen met zowel internationale boekhoudregels als de boekhoudwetgeving van elk land of elke regio. | Gratis online leertraject voor zelfstudie | 4.5 uur |
 | [Aan de slag met de kostprijsboekhouding voor toeleveringsketens in Dynamics 365 Finance](https://docs.microsoft.com/learn/paths/get-started-cost-accounting-supply-chains-dyn365-finance/) | Door middel van Kostprijsboekhouding kunt u gegevens uit verschillende bronnen verzamelen, zoals het grootboek, subadministraties, budgetten en statistische gegevens. U kunt dan kostengegevens analyseren, samenvatten en evalueren, zodat het management de best mogelijke beslissingen kan nemen voor prijsaanpassingen, budgetten, kostenbeheer en dergelijke.  | Gratis online leertraject voor zelfstudie | 1 uur  |
+| [Werken met Onkostenbeheer in Dynamics 365 Project Operations](https://docs.microsoft.com/learn/paths/work-expense-management/) | Winstgevendheid maximaliseren en kosten minimaliseren met mogelijkheden voor nauwkeurig onkostenbeheer in Dynamics 365 Project Operations. Meer informatie over hoe u het systeem configureert en onkostenrapporten maakt en goedkeurt. | Gratis online leertraject voor zelfstudie | 5.5 uur  |
 
 ## <a name="exam"></a>Examen<a name="exam"></a>
 
-| Inhoud | Omschrijving  | Indeling  |
+| Inhoud | Beschrijving  | Format  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Grondbeginselen van Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)    | Laat zien dat u bekend bent met Microsoft Dynamics 365, het Power Platform, cloudconcepten, licentieopties en implementatie- en releaseopties | Examen, kosten verschillen per regio |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
