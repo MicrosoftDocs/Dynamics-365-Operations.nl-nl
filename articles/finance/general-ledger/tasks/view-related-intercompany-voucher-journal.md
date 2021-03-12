@@ -11,46 +11,45 @@ ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, SysDataAreaSelectLookup, LedgerTransVoucher, LedgerTransRelatedVouchers
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ee8385561f9aadae333c05c6df62de0ad1d39010
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 69168d62c9583149db6e61816a6ccd1059ee52db
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442063"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994360"
 ---
-# <a name="view-related-intercompany-voucher-from-journal"></a><span data-ttu-id="adf5a-103">Gerelateerd intercompany-boekstuk van journaal weergeven</span><span class="sxs-lookup"><span data-stu-id="adf5a-103">View related intercompany voucher from journal</span></span>
+# <a name="view-related-intercompany-voucher-from-journal"></a><span data-ttu-id="42a55-103">Gerelateerd intercompany-boekstuk van journaal weergeven</span><span class="sxs-lookup"><span data-stu-id="42a55-103">View related intercompany voucher from journal</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="adf5a-104">Het venster Verwant boekstuk toont het boekstuk van het tegenbedrijf bij het boeken van een intercompany-transactie van het algemene journaal.</span><span class="sxs-lookup"><span data-stu-id="adf5a-104">The related voucher window shows the voucher from the offset company when posting an intercompany transaction from the general journal.</span></span>
+<span data-ttu-id="42a55-104">Het venster Verwant boekstuk toont het boekstuk van het tegenbedrijf bij het boeken van een intercompany-transactie van het algemene journaal.</span><span class="sxs-lookup"><span data-stu-id="42a55-104">The related voucher window shows the voucher from the offset company when posting an intercompany transaction from the general journal.</span></span>
 
 
-## <a name="post-an-intercompany-journal"></a><span data-ttu-id="adf5a-105">Een intercompany-journaal boeken</span><span class="sxs-lookup"><span data-stu-id="adf5a-105">Post an intercompany journal</span></span>
-1. <span data-ttu-id="adf5a-106">Ga naar Algemene journalen.</span><span class="sxs-lookup"><span data-stu-id="adf5a-106">Go to General journals.</span></span>
-2. <span data-ttu-id="adf5a-107">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="adf5a-107">Click New.</span></span>
-3. <span data-ttu-id="adf5a-108">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="adf5a-108">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="adf5a-109">Typ of selecteer de intercompany-journaalnaam in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="adf5a-109">In the Name field, enter or select the intercompany journal name.</span></span>
-5. <span data-ttu-id="adf5a-110">Klik op Regels.</span><span class="sxs-lookup"><span data-stu-id="adf5a-110">Click Lines.</span></span>
-6. <span data-ttu-id="adf5a-111">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="adf5a-111">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="adf5a-112">Geef in het veld Rekening de gewenste waarden op.</span><span class="sxs-lookup"><span data-stu-id="adf5a-112">In the Account field, specify the desired values.</span></span>
-8. <span data-ttu-id="adf5a-113">Typ of selecteer een waarde in het veld Beschrijving.</span><span class="sxs-lookup"><span data-stu-id="adf5a-113">In the Description field, enter or select a value.</span></span>
-9. <span data-ttu-id="adf5a-114">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="adf5a-114">In the Description field, type a value.</span></span>
-10. <span data-ttu-id="adf5a-115">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="adf5a-115">Close the page.</span></span>
-11. <span data-ttu-id="adf5a-116">Voer een nummer in het veld Debet in.</span><span class="sxs-lookup"><span data-stu-id="adf5a-116">In the Debit field, enter a number.</span></span>
-12. <span data-ttu-id="adf5a-117">Typ of selecteer het tegenbedrijf in het veld Tegenbedrijf.</span><span class="sxs-lookup"><span data-stu-id="adf5a-117">In the Offset company field, type or select the offset company.</span></span>
-13. <span data-ttu-id="adf5a-118">Typ of selecteer een waarde in het veld Tegenbedrijf.</span><span class="sxs-lookup"><span data-stu-id="adf5a-118">In the Offset company field, enter or select a value.</span></span>
-14. <span data-ttu-id="adf5a-119">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="adf5a-119">Close the page.</span></span>
-15. <span data-ttu-id="adf5a-120">Geef in het veld Tegenrekening de gewenste waarden op.</span><span class="sxs-lookup"><span data-stu-id="adf5a-120">In the Offset account field, specify the desired values.</span></span>
-16. <span data-ttu-id="adf5a-121">Klik op Boeken.</span><span class="sxs-lookup"><span data-stu-id="adf5a-121">Click Post.</span></span>
+## <a name="post-an-intercompany-journal"></a><span data-ttu-id="42a55-105">Een intercompany-journaal boeken</span><span class="sxs-lookup"><span data-stu-id="42a55-105">Post an intercompany journal</span></span>
+1. <span data-ttu-id="42a55-106">Ga naar Algemene journalen.</span><span class="sxs-lookup"><span data-stu-id="42a55-106">Go to General journals.</span></span>
+2. <span data-ttu-id="42a55-107">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="42a55-107">Click New.</span></span>
+3. <span data-ttu-id="42a55-108">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="42a55-108">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="42a55-109">Typ of selecteer de intercompany-journaalnaam in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="42a55-109">In the Name field, enter or select the intercompany journal name.</span></span>
+5. <span data-ttu-id="42a55-110">Klik op Regels.</span><span class="sxs-lookup"><span data-stu-id="42a55-110">Click Lines.</span></span>
+6. <span data-ttu-id="42a55-111">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="42a55-111">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="42a55-112">Geef in het veld Rekening de gewenste waarden op.</span><span class="sxs-lookup"><span data-stu-id="42a55-112">In the Account field, specify the desired values.</span></span>
+8. <span data-ttu-id="42a55-113">Typ of selecteer een waarde in het veld Beschrijving.</span><span class="sxs-lookup"><span data-stu-id="42a55-113">In the Description field, enter or select a value.</span></span>
+9. <span data-ttu-id="42a55-114">Typ een waarde in het veld Omschrijving.</span><span class="sxs-lookup"><span data-stu-id="42a55-114">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="42a55-115">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="42a55-115">Close the page.</span></span>
+11. <span data-ttu-id="42a55-116">Voer een nummer in het veld Debet in.</span><span class="sxs-lookup"><span data-stu-id="42a55-116">In the Debit field, enter a number.</span></span>
+12. <span data-ttu-id="42a55-117">Typ of selecteer het tegenbedrijf in het veld Tegenbedrijf.</span><span class="sxs-lookup"><span data-stu-id="42a55-117">In the Offset company field, type or select the offset company.</span></span>
+13. <span data-ttu-id="42a55-118">Typ of selecteer een waarde in het veld Tegenbedrijf.</span><span class="sxs-lookup"><span data-stu-id="42a55-118">In the Offset company field, enter or select a value.</span></span>
+14. <span data-ttu-id="42a55-119">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="42a55-119">Close the page.</span></span>
+15. <span data-ttu-id="42a55-120">Geef in het veld Tegenrekening de gewenste waarden op.</span><span class="sxs-lookup"><span data-stu-id="42a55-120">In the Offset account field, specify the desired values.</span></span>
+16. <span data-ttu-id="42a55-121">Klik op Boeken.</span><span class="sxs-lookup"><span data-stu-id="42a55-121">Click Post.</span></span>
 
-## <a name="view-related-intercompany-voucher"></a><span data-ttu-id="adf5a-122">Verwant intercompany-boekstuk weergeven</span><span class="sxs-lookup"><span data-stu-id="adf5a-122">View related intercompany voucher</span></span>
-1. <span data-ttu-id="adf5a-123">Klik op Boekstuk.</span><span class="sxs-lookup"><span data-stu-id="adf5a-123">Click Voucher.</span></span>
-2. <span data-ttu-id="adf5a-124">Klik op Verwante boekstukken.</span><span class="sxs-lookup"><span data-stu-id="adf5a-124">Click Related vouchers.</span></span>
-3. <span data-ttu-id="adf5a-125">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="adf5a-125">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="adf5a-126">Klik op Boekstuk.</span><span class="sxs-lookup"><span data-stu-id="adf5a-126">Click Voucher.</span></span>
+## <a name="view-related-intercompany-voucher"></a><span data-ttu-id="42a55-122">Verwant intercompany-boekstuk weergeven</span><span class="sxs-lookup"><span data-stu-id="42a55-122">View related intercompany voucher</span></span>
+1. <span data-ttu-id="42a55-123">Klik op Boekstuk.</span><span class="sxs-lookup"><span data-stu-id="42a55-123">Click Voucher.</span></span>
+2. <span data-ttu-id="42a55-124">Klik op Verwante boekstukken.</span><span class="sxs-lookup"><span data-stu-id="42a55-124">Click Related vouchers.</span></span>
+3. <span data-ttu-id="42a55-125">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="42a55-125">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="42a55-126">Klik op Boekstuk.</span><span class="sxs-lookup"><span data-stu-id="42a55-126">Click Voucher.</span></span>
 
