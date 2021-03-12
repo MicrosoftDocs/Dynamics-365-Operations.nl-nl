@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13851
 ms.assetid: 0fa2f71a-596c-414c-a6e6-8f7405a0bf81
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c12ca59203d6cad7f5699bc930f2af27427ca41b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d2414ea97fefbec1e975498e171496e33057541c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442079"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968999"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Lineaire afschrijving restlevensduur
 
@@ -38,7 +37,7 @@ U kunt **Kalender** of **Fiscaal** selecteren in het veld **Afschrijvingsjaar** 
 
 ### <a name="calendar"></a>Kalender
 
-Wanneer u **Kalender** selecteert in het veld ***Afschrijvingsjaar***, wordt uitgegaan van een jaar van 1 januari t/m 31 december, zelfs als u de fiscale kalender anders hebt ingesteld. Met de optie **Kalender** wordt de afschrijvingsbasis op 1 januari van elk jaar bijgewerkt. Doorgaans is de afschrijvingsbasis de nettoboekwaarde min de restwaarde. In het voorbeeld verderop in dit onderwerp is de afschrijvingsbasis de teller in de eerste expressie in de berekeningenkolom. Als u **Kalender** als het afschrijvingsjaar selecteert, zijn de volgende opties beschikbaar in het veld **Periodefrequentie**:
+Als u **Kalender** selecteert in het veld **_Afschrijvingsjaar_*_ wordt uitgegaan van een jaar van 1 januari t/m 31 december, zelfs als u de fiscale kalender anders hebt gedefinieerd. Met de optie _* Kalender** wordt de afschrijvingsbasis op 1 januari van elk jaar bijgewerkt. Doorgaans is de afschrijvingsbasis de nettoboekwaarde min de restwaarde. In het voorbeeld verderop in dit onderwerp is de afschrijvingsbasis de teller in de eerste expressie in de berekeningenkolom. Als u **Kalender** als het afschrijvingsjaar selecteert, zijn de volgende opties beschikbaar in het veld **Periodefrequentie**:
 
 -   **Jaarlijks**: op 31 december wordt een bedrag geboekt.
 -   **Maandelijks**: aan het einde van elke kalendermaand wordt een maandbedrag geboekt.
@@ -80,6 +79,3 @@ Het afschrijvingsbedrag is elk jaar hetzelfde: (Verwervingskosten - restwaarde) 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

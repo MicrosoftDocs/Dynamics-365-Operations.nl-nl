@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: db59bad2ed3caf38f22bd4d6059e57747d1d983f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441833"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969696"
 ---
 # <a name="collections-process-automation"></a>Automatisering van incassoproces
 
@@ -118,6 +117,3 @@ In de volgende tabellen worden de pagina's en velden weergegeven waar de opgegev
 |     Parameters van module Klanten > Automatisering van incassoproces     |     Aanmaningen automatisch boeken           |     Actietypen voor aanmaningen boeken de brief tijdens het automatiseren.                                      |
 |     Parameters van module Klanten > Automatisering van incassoproces     |     Activiteiten maken voor automatisering                |     Activiteiten maken en sluiten voor actietypen voor niet-activiteiten om alle geautomatiseerde stappen voor een rekening weer te geven.        |
 |     Parameters van module Klanten > Automatisering van incassoproces     |     Aantal dagen om automatisering van incassoproces te behouden     |     Het aantal dagen dat de incassogeschiedenis wordt opgeslagen.                                                       |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

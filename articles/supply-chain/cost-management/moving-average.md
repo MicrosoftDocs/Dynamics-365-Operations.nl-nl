@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb0472a0d2ac9b552cd16e4d6bf516a876ea4a0e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0957fee111ec1fd5bb66951126869cf46d88b36e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425284"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967478"
 ---
 # <a name="moving-average"></a>Zwevend gemiddelde
 
@@ -93,7 +92,7 @@ Als u de zwevend gemiddelde kostprijs van een product wilt aanpassen, zijn voorr
 
 In dit voorbeeld wordt de zwevend gemiddelde kostprijs aangepast voor een product.
 
-1. Selecteer het product waarvoor u de zwevend gemiddelde kost wilt aanpassen. 
+1. Selecteer het product waarvoor u de zwevende gemiddelde kosten wilt aanpassen. 
 
  > [!NOTE]
  > De pagina **Herwaardering voor zwevend gemiddelde** controleert de beschikbare voorraad voor een product. Het geselecteerde product heeft een geboekte hoeveelheid 1, een geboekte een waarde van 12,00, een geboekte kostprijs van 12,00 en een eenheidskost van 12,00.
@@ -141,7 +140,7 @@ Als de nieuwe voorhanden voorraad positief is na de transactie, wordt de transac
 
 ## <a name="inventory-value-report"></a>Voorraadwaardenrapport
 
-In dit voorbeeld van zwevend gemiddelde wordt het voorraadwaarderapport afgedrukt ter ondersteuning van de berekening van het huidige zwevend gemiddelde voor een product. Het rapport Voorraadwaarde kan de transacties in chronologische volgorde afdrukken, samen met de kosten ter ondersteuning van de zwevend gemiddelde kostenberekening van een product. Het rapport bevat de zwevend gemiddelde kosten voor het product. In het dialoogvenster **Voorraadwaardenrapporten**, kunt u via een datuminterval de **transactietijd** of de **boekingsdatum** selecteren om het rapport op te sorteren. Gewoonlijk wordt het rapport afgedrukt via de optie **Boekingsdatum**. De optie **Transactietijd** is de werkelijke datum waarop de transactie wordt gerapporteerd en waarop de zwevend gemiddelde kosten voor het product worden bijgewerkt. U kunt het rapport Voorraadwaarde afdrukken met de sorteeroptie **Transactietijd** als u de gemiddelde kostprijsberekening gedurende een bepaalde tijd wilt bekijken. De volgende tabel geeft de transacties voor het product weer die op het rapport zullen worden afgedrukt indien de sorteeroptie **Transactietijd** wordt gebruikt.
+In dit voorbeeld van zwevend gemiddelde wordt het voorraadwaarderapport afgedrukt ter ondersteuning van de berekening van het huidige zwevend gemiddelde voor een product. Het rapport Voorraadwaarde kan de transacties in chronologische volgorde afdrukken, samen met de kosten ter ondersteuning van de zwevend gemiddelde kostenberekening van een product. Het rapport bevat de zwevend gemiddelde kosten voor het product. In het dialoogvenster **Voorraadwaardenrapporten** kunt u via een datuminterval de **Transactietijd** of de **Boekingsdatum** selecteren om het rapport op te sorteren. Gewoonlijk wordt het rapport afgedrukt via de optie **Boekingsdatum**. De optie **Transactietijd** is de werkelijke datum waarop de transactie wordt gerapporteerd en waarop de zwevend gemiddelde kosten voor het product worden bijgewerkt. U kunt het rapport Voorraadwaarde afdrukken met de sorteeroptie **Transactietijd** als u de gemiddelde kostprijsberekening gedurende een bepaalde tijd wilt bekijken. De volgende tabel geeft de transacties voor het product weer die op het rapport zullen worden afgedrukt indien de sorteeroptie **Transactietijd** wordt gebruikt.
 
 | Transactietijd | Datum         | Transactietype           | De hoeveelheid | Bedrag | Gemiddelde eenheidskosten |
 |------------------|--------------|----------------------------|----------|--------|-------------------|
@@ -155,6 +154,3 @@ In dit voorbeeld van zwevend gemiddelde wordt het voorraadwaarderapport afgedruk
 
 > [!NOTE]
 > U kunt het grootboek niet op de voorraad afstemmen met de sorteeroptie **Transactietijd**. Het rapport moet worden afgedrukt met behulp van de optie **Boekingsdatum** .
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

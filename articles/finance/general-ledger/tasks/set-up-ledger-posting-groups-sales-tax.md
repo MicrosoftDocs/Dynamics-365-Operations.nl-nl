@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90fe7f3ab08e9417af3f857f04934a9b5df3d82d
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 6cc96cbdb11f24d727bddfa5fd4aaa579537802a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644892"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968449"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Groepen boekingen in grootboek instellen voor btw
 
@@ -42,6 +41,3 @@ De btw wordt berekend en naar hoofdrekeningen geboekt die in de grootboekboeking
 11. Selecteer in het veld **Contantkorting van klant** de hoofdrekening om contantkorting voor **btw-codes** die zijn gekoppeld aan deze **grootboekboekingsgroep** te boeken. Dit is optioneel en als er geen rekening is ingevoerd, wordt de hoofdrekening op **Contantkortingscodes** gebruikt. Het kan handig zijn om verschillende rekeningen per **grootboekboekingsgroep** te gebruiken als de optie Btw op contantkorting omkeren op **Btw-groepen** wordt gebruikt.  
 12. Klik op **Opslaan**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

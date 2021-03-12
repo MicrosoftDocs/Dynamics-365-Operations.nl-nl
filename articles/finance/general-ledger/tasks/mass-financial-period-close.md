@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a149b35c6964166207effc799a02cd4c59bbb843
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 598c28c2fb3dd6a13f96df81189b46c4e228da7a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441890"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968724"
 ---
 # <a name="mass-financial-period-close"></a>Massale sluiting van financiële periode
 
@@ -42,6 +41,3 @@ In dit onderwerp procedure ziet u hoe u een periode in de wachtstand plaatst of 
 11. Selecteer **Periodestatus bijwerken** en stel de status in op **In wachtstand**, **Open** of **Definitief afgesloten**. **Open** geeft aan dat er naar de periode kan worden geboekt, mits de gebruiker toegang heeft. Bij **In wachtstand** kan er niet worden geboekt naar de periode, maar kan de periode wel worden heropend. Bij **Definitief afgesloten** is de periode afgesloten en kan deze niet meer worden geopend. Aanpassingen kunnen niet worden geboekt. Het is raadzaam om een periode pas op **Definitief afgesloten** in te stellen wanneer alle correcties en audits zijn voltooid.  
 12. Selecteer **Bijwerken**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

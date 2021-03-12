@@ -1,5 +1,5 @@
 ---
-title: Statistische dimensieleden en sjablonen van provider van statistische maateenheden
+title: Sjablonen van provider voor statistische dimensieleden en providers van maateenheden
 description: In dit onderwerp vindt u informatie over statistische dimensieleden en sjablonen van provider van statistische maateenheden. Statistische dimensieleden kunnen worden gebruikt als een toewijzingsgrondslag in beleid, zoals kostenverdeling en kostentoewijzing. Ze kunnen ook worden gebruikt voor rapportage van verbruik van niet-monetaire kosten.
 author: AndersGirke
 manager: AnnBe
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,14 +18,14 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec8ec7bc7785b1ddec58b78bd14ce164ad1ce032
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 79e8bf0714871ffd342bb6053153e6e4d0f5c668
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442072"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969448"
 ---
-# <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Statistische dimensieleden en sjablonen van provider van statistische maateenheden
+# <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Sjablonen van provider voor statistische dimensieleden en providers van maateenheden
 
 [!include [banner](../includes/banner.md)]
 
@@ -346,6 +345,3 @@ Als de toewijzingsbasis voor het voorgedefinieerde dimensielid Elektriciteit wor
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Toewijzingsgrondslagen](allocation-bases.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

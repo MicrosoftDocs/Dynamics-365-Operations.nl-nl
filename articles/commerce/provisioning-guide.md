@@ -3,14 +3,13 @@ title: Een evaluatieomgeving voor Dynamics 365 Commerce inrichten
 description: In dit onderwerp wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce inricht.
 author: psimolin
 manager: annbe
-ms.date: 11/05/2020
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b54216a565c264dfcfe821581fee9df7b5e22323
-ms.sourcegitcommit: 715508547f9a71a89a138190e8540686556c753d
+ms.openlocfilehash: 8cda79a6be1aca7ad3826b9409e110524e6560e3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/05/2020
-ms.locfileid: "4411532"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969896"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Een evaluatieomgeving voor Dynamics 365 Commerce inrichten
 
@@ -117,7 +116,7 @@ Ga als volgt te werk om de omgeving te implementeren.
 
 ### <a name="initialize-the-commerce-scale-unit-cloud"></a>Commerce Scale Unit initialiseren (cloud)
 
-Ga als volgt te werk om CSU te initialiseren.
+Ga als volgt te werk om de CSU te initialiseren.
 
 1. Selecteer in de weergave **Cloudomgevingen** uw omgeving in de lijst.
 1. Klik op **Volledige details** in de omgevingsweergave rechts. De weergave met omgevingsdetails wordt weergegeven.
@@ -130,6 +129,22 @@ Ga als volgt te werk om CSU te initialiseren.
 1. Voordat u verdergaat, moet u controleren of de CSU-status **Gelukt** is. Initialisatie duurt ongeveer twee tot vijf uur.
 
 Als u de koppeling **Beheren** niet kunt vinden in de weergave met omgevingsdetails, neemt u contact op met Microsoft voor hulp.
+
+Mogelijk wordt het volgende foutbericht weergegeven tijdens het implementatieproces:
+
+> Voor evaluatieomgevingen (demo/test) moet de connectortoepassing voor schaaleenheden \<application ID\> in Headquarters worden geregistreerd.
+
+Als de CSU-initialisatie mislukt en u dit foutbericht ontvangt, noteert u de toepassings-id (een GUID) en volg vervolgens de stappen in de volgende sectie om de CSU-implementatietoepassing in Commerce Headquarters te registreren.
+
+### <a name="register-the-csu-deployment-application-in-commerce-headquarters-if-required"></a>De CSU-implementatietoepassing in Commerce Headquarters registreren (indien nodig)
+
+Voer de volgende stappen uit om de CSU-implementatietoepassing in Commerce Headquarters te registreren.
+
+1. Ga in Commerce Headquarters naar **Systeembeheer \> Instellen \> Azure Active Directory-toepassingen**.
+1. Voer in de kolom **Client-id** de toepassings-id uit het foutbericht voor CSU-initialisatie in dat u hebt ontvangen.
+1. Voer in de kolom **Naam** een beschrijvende tekst in (bijvoorbeeld **CSU-eval**).
+1. Voer in de kolom **Gebruikers-id** de tekst **RetailServiceAccount** in.
+1. Probeer de CSU-initialisatie en -implementatie opnieuw uit te voeren vanuit LCS.
 
 ### <a name="initialize-e-commerce"></a>e-Commerce initialiseren
 
@@ -176,6 +191,3 @@ Zie [Een evaluatieomgeving van Commerce configureren](cpe-post-provisioning.md) 
 [Microsoft Azure-portal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce-website](https://aka.ms/Dynamics365CommerceWebsite)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

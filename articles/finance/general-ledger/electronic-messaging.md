@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: b5887efc32c71759e4cb3c31e1b18c4c8b64f173
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d4ecc29e47d68129df424c4212505413cf6c8889
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442067"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968974"
 ---
 # <a name="electronic-messaging"></a>Elektronische berichten
 
@@ -536,6 +535,3 @@ U kunt de status van het bericht nu verwijderen of bijwerken. Selecteren **Statu
 ![De berichtstatus bijwerken](media/update-status.png)
 
 De berichtstatus wordt bijgewerkt naar **Voorbereid** en u kunt het rapport nu genereren door **Rapport genereren** te selecteren. Het rapport wordt gegenereerd en de berichtstatus en het actielogboek worden bijgewerkt. Als u het gegenereerde rapport wilt weergeven, selecteert u de knop **Bijlage** (de paperclip) in de rechterbovenhoek van de pagina.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
