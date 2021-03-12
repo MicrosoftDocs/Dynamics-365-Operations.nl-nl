@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 90043
 ms.assetid: 49fa97eb-8e10-49a5-9261-1e393159f178
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1fc7ae950ed32a75b8767d764c1b77193c454381
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: d554a6d415ca3e720c71387e218e50215c288991
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654119"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996068"
 ---
 # <a name="replenishment-overview"></a>Overzicht van Aanvulling
 
@@ -79,6 +78,3 @@ In plaats van het totaal van de vraag aan het einde van een toewijzingsproces te
 |   Instructielocatie   |                                                       Locatie-instructies zijn vereist om het werk naar de locaties te leiden waar de aanvulling vereist is en naar de locaties waaruit voorraad afkomstig is.                                                        |
 |     Werksjablonen      |                                                   Werksjablonen van het type <strong>Aanvulling</strong> zijn vereist voor het maken van aanvullingswerk zodat de voorraad kan worden verplaatst naar de gewenste locaties.                                                    |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

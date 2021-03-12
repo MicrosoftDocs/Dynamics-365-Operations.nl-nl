@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5bb89f0adce41b045b1f573c4c0e841f78b2248c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e173d2efe0d5acb1be60c9ba315c21563c2bf105
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441846"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994760"
 ---
 # <a name="audit-invoices-and-key-data-in-accounts-payable"></a>Facturen en hoofdgegevens controleren in leveranciers
 
@@ -62,6 +61,3 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt. De leveranciersmanager o
 9. Klik in het actievenster op **Controleren**.
 10. Klik op **Vereffeningsgegevens**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

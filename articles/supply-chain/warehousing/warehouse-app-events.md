@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 210008c4a1366773f465c59b38eca30f11f0b38c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 66a5ca8a679563b59ca23992f7e0b4ee6fab470b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425304"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993798"
 ---
 # <a name="warehouse-app-event-processing"></a>Verwerking van gebeurtenissen in de app voor magazijnbeheer
 
@@ -78,6 +77,3 @@ U kunt een bericht over een mislukte gebeurtenis in de app voor magazijnbeheer a
 1. Ga door met werken totdat alle relevante berichten opnieuw zijn ingesteld.
 
 U kunt een gebeurtenisbericht **Mislukt** ook verwijderen met de optie **Verwijderen** op de werkbalk **Gebeurtenisberichten van de app voor magazijnbeheer**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

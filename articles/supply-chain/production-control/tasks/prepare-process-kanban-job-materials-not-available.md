@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanBoardWorkCell
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d57df6188aacc2f8a56a7ba91c4ab50a90901a7e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: df0396a1d00e61ad82e52fc07779e239cd811ab8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425140"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994086"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a>Een proceskanbantaak voorbereiden wanneer de materialen niet beschikbaar zijn voor de werkcel
 
@@ -52,6 +51,3 @@ Deze procedure is gericht op het voorbereiden van een proceskanbantaak wanneer b
 6. Klik op Voorbereiden.
     * Merk op dat een pictogram in de Taakstatus aangeeft dat de taak nu gereed is.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

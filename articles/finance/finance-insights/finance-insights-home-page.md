@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d7d167c4a8035231ea3c5630001d3aeccbcd7988
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 9920d24ea92196331ea318cab2f67501801937bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644916"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995085"
 ---
 # <a name="finance-insights-home-page-preview"></a>Startpagina van Financiële inzichten (preview)
 
@@ -67,7 +66,7 @@ Wijzigingen worden aangebracht in Microsoft Dynamics 365 Finance, Microsoft Dyna
 - De tenantbeheerder van Active Directory moet de toepassing AI Builder machtigen om toegang te krijgen tot de data lake.
 - De functie wordt ingeschakeld in Dynamics 365.
 
-Bij het voltooien van dit proces helpt het als u vertrouwd bent met het maken en beheren van resources in Azure, Common Data Service en LCS.
+Bij het voltooien van dit proces helpt het als u vertrouwd bent met het maken en beheren van resources in Azure, Microsoft Dataverse en LCS.
 
 ## <a name="configure-finance-insights"></a>Financiële inzichten configureren
 
@@ -130,6 +129,3 @@ Stuur een e-mail naar [Inzichten voor betalingen van klanten (preview)](mailto:f
 ## <a name="privacy-notice"></a>Privacyverklaring
 
 Previews (1) bieden mogelijk minder privacy- en beveiligingsmaatregelen dan de service Dynamics 365 Finance and Operations, (2) worden niet opgenomen in de serviceovereenkomst voor deze service, (3) mogen niet worden gebruikt voor de verwerking van persoonsgegevens of andere gegevens die aan juridische of wettelijke nalevingvereisten zijn onderworpen en (4) worden slechts beperkt ondersteund.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

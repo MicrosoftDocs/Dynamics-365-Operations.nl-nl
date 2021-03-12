@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerAccrualTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a83870c4cec4de2e51e90ff1889d4beff6c23f95
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 457be741dfd3b44cb963db37857d6a7bceecc14e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442040"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994660"
 ---
 # <a name="create-accrual-schemes"></a>Toerekeningsschema's maken
 
@@ -41,6 +40,3 @@ In dit onderwerp wordt uitgelegd hoe u een toerekeningsschema maakt. Bij deze ta
 10. Voer in het veld **Aantal voorvallen per periode** een getal in.
 11. Selecteer in het veld **Transacties boeken** wanneer de transacties moeten worden geboekt, zoals **Maandelijks**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

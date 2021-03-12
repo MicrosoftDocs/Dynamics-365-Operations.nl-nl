@@ -10,19 +10,18 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: de4ee98198f441b8f42a8a55aa5ff1015f485234
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 68fa26daac055cd0fd72035683f05ed36052b3a3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411364"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995815"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Beschikbaarheid van voorraad berekenen voor detailhandelskanalen
 
@@ -114,6 +113,3 @@ Het wordt aangeraden om deze batchtaken niet te vaak uitvoeren (om de paar minut
 > Om prestatieredenen wordt bij gebruik van berekeningen van de voorraadbeschikbaarheid aan kanaalzijde om een beschikbaarheidsaanvraag voor voorraad te maken via de API's van e-Commerce of de nieuwe POS-voorraadlogica aan kanaalzijde, een cache gebruikt bij de berekening om vast te stellen of er voldoende de tijd is verstreken om het opnieuw uitvoeren van de berekeningslogica te rechtvaardigen. De standaardcache is ingesteld op 60 seconden. U hebt bijvoorbeeld de berekening aan kanaalzijde voor uw winkel ingeschakeld en de voorhanden voorraad voor een product bekeken op de pagina **Zoeken in voorraad**. Als vervolgens één eenheid van het product wordt verkocht, wordt op de pagina **Zoeken in voorraad** de gereduceerde voorraad pas weergegeven nadat de cache is leeggemaakt. Nadat gebruikers transacties in POS hebben geboekt, moeten ze 60 seconden wachten voordat ze controleren of de voorhanden voorraad is verminderd.
 
 Als voor uw bedrijfsscenario een kortere cachetijd is vereist, neemt u contact op met de vertegenwoordiger van productondersteuning voor hulp.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

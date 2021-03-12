@@ -3,7 +3,7 @@ title: Klantorders in POS (Point of Sale)
 description: Dit onderwerp bevat informatie over klantorders in POS (Point of Sale). Klantorders worden ook wel speciale orders genoemd. In dit onderwerp worden de gerelateerde parameters en transactiestromen besproken.
 author: josaw1
 manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 9e5770de82638e6cef6d4c1dffd1dc85549fb11f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6fec80dd2836a5400a7178e732fe1d5da41aca4a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411363"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995790"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Klantorders in POS (Point of Sale)
 
@@ -52,9 +51,9 @@ Als u klantorders wilt gebruiken, moet u de leveringsmethoden configureren die d
 
 ### <a name="set-up-fulfillment-groups"></a>Afhandelingsgroepen instellen
 
-Sommige winkels of magazijnlocaties kunnen klantorders mogelijk niet uitvoeren. Door afhandelingsgroepen te configureren, kan een organisatie opgeven welke winkels en magazijnlocaties als opties worden weergegeven voor gebruikers die klantorders in POS maken. Afhandelingsgroepen worden geconfigureerd op de pagina **Afhandelingsgroepen**. Organisaties kunnen zoveel afhandelingsgroepen maken als ze nodig hebben. Nadat een afhandelingsgroep is gedefinieerd, kunt u deze koppelen aan een winkel met behulp van een knop op het tabblad **Instellen** in het actievenster van de pagina **Winkels**.
+Sommige winkels of magazijnlocaties kunnen klantorders mogelijk niet uitvoeren. Door afhandelingsgroepen te configureren, kan een organisatie opgeven welke winkels en magazijnlocaties als opties worden weergegeven voor gebruikers die klantorders in POS maken. Afhandelingsgroepen worden geconfigureerd op de pagina **Afhandelingsgroepen**. Organisaties kunnen zoveel afhandelingsgroepen maken als ze nodig hebben. Nadat een afhandelingsgroep is gedefinieerd, koppelt u deze aan een winkel door **Afhandelingsgroeptoewijzing** op het tabblad **Instellen** in het actievenster van de pagina **Winkels**.
 
-In Commerce-versie 10.0.12 en hoger kunnen organisaties bepalen of de magazijnen of combinaties van magazijnen/winkels die zijn gedefinieerd in afhandelingsgroepen, kunnen worden gebruikt voor verzending en/of ophalen. Daarom heeft de winkel extra flexibiliteit ten aanzien van de magazijn- en winkelopties die worden weergegeven voor gebruikers die een order voor ophalen maken in plaats van een order voor verzending. Als u wilt gebruikmaken van deze configuratieopties, moet u de functie **Mogelijkheid om locaties op te geven als 'Verzenden ' of 'Ophalen' binnen Afhandelingsgroep** inschakelen. Als een magazijn dat is gekoppeld aan een afhandelingsgroep geen winkel is, kan dit magazijn alleen worden geconfigureerd als verzendlocatie. Het kan niet worden gebruikt wanneer er orders voor ophalen zijn geconfigureerd in POS.
+In Commerce-versie 10.0.12 en hoger kunnen organisaties bepalen of de magazijnen of combinaties van magazijnen en winkels die zijn gedefinieerd in afhandelingsgroepen, kunnen worden gebruikt voor verzending en/of ophalen. Dit biedt de onderneming extra flexibiliteit om te bepalen welke magazijnen kunnen worden geselecteerd bij het maken van een klantenorder voor te verzenden artikelen, en welke winkels kunnen worden geselecteerd bij het maken van een klantenorder voor af te halen artikelen. Als u deze configuratieoptie wilt gebruiken, schakelt u de functie **Mogelijkheid om locaties op te geven als 'Verzenden ' of 'Ophalen' binnen Afhandelingsgroep** in. Als een magazijn dat is gekoppeld aan een afhandelingsgroep geen winkel is, kan dit magazijn alleen worden geconfigureerd als verzendlocatie. Het kan niet worden gebruikt wanneer er orders voor ophalen zijn geconfigureerd in POS.
 
 ![De pagina Afhandelingsgroepen](media/customer-order-fulfillment-group.png)
 
@@ -99,7 +98,10 @@ Controleer of de [schermindeling](https://docs.microsoft.com/dynamics365/commerc
 
 ![Bewerkingen in het POS-transactiescherm](media/customer-order-screen-layout.png)
 
-## <a name="working-with-customer-orders-in-pos"></a>Werken met klantorders in POS
+## <a name="work-with-customer-orders-in-pos"></a>Werken met klantorders in POS
+
+> [!NOTE]
+> Functionaliteit voor opbrengsttoerekening wordt momenteel niet ondersteund voor gebruik in Commerce-kanalen (e-commerce, POS, callcenter). Artikelen die zijn geconfigureerd met opbrengsttoerekening, mogen niet worden toegevoegd aan orders die zijn gemaakt in Commerce-kanalen. 
 
 ### <a name="create-a-customer-order-for-products-that-will-be-shipped-to-the-customer"></a>Een klantorder maken voor producten die naar de klant worden verzonden
 
@@ -118,21 +120,19 @@ Controleer of de [schermindeling](https://docs.microsoft.com/dynamics365/commerc
 2. Voeg producten aan de winkelwagen toe.
 3. Selecteer **Selectie ophalen** of **Alles ophalen** om de configuratie voor het ophalen van orders te starten.
 4. Selecteer de winkel waar de klant de geselecteerde producten komt ophalen.
-5. Selecteer een ophaaldatum.
+5. Selecteer een datum waarop het artikel wordt opgehaald.
 6. Gebruik de betalingsfuncties om de verschuldigde berekende bedragen te betalen of gebruik de bewerking **Deposito overschrijven** om de bedragen te wijzigen die verschuldigd zijn en pas vervolgens de betaling toe.
-7. Als niet het totale bedrag van de order is betaald, geeft u op of de klant later betaalt (bij het ophalen) of dat nu een creditcardtoken wordt gebruikt om de creditcard vervolgens gebruiken en vast te leggen tijdens het ophalen.
+7. Als niet het totale bedrag van de order is betaald, geeft u op of de klant later betaalt (bij het ophalen) of dat nu een creditcardtoken wordt gebruikt en bij het afhalen wordt vastgelegd.
 
 ### <a name="edit-an-existing-customer-order"></a>Een bestaande klantorder bewerken
 
 Detailhandelorders die in het online- of winkelkanaal worden gemaakt, kunnen zo nodig worden teruggeroepen en bewerkt via POS.
 
 > [!IMPORTANT]
-> Orders die in een callcenterkanaal worden gemaakt, kunnen niet worden bewerkt via POS als de instelling [Ordervoltooiing inschakelen](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) is ingeschakeld voor het callcenterkanaal. Om de juiste verwerking van de betaling te garanderen, moeten orders die afkomstig zijn uit een callcenterkanaal en waarvoor de functionaliteit Ordervoltooiing inschakelen wordt gebruikt, worden bewerkt via de callcentertoepassing in Commerce Headquarters.
+> Niet alle detailhandelorders kunnen worden bewerkt via de POS-toepassing. Orders die in een callcenterkanaal worden gemaakt, kunnen niet worden bewerkt via POS als de instelling [Ordervoltooiing inschakelen](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) is ingeschakeld voor het callcenterkanaal. Om de juiste verwerking van de betaling te garanderen, moeten orders die afkomstig zijn uit een callcenterkanaal en waarvoor de functionaliteit Ordervoltooiing inschakelen wordt gebruikt, worden bewerkt via de callcentertoepassing in Commerce Headquarters.
 
-In Commerce-versies 10.0.13 en eerder kunnen gebruikers alleen ondersteunde klantorders alleen bewerken via POS als de orders volledig open staan. Als er al regels van een order zijn verwerkt voor uitvoering (verzamelen, inpakken, enzovoort), wordt de order vergrendeld voor bewerking in POS.
+In versie 10.0.17 en hoger kunnen gebruikers in aanmerking komende orders bewerken via de POS-toepassing, zelfs als de order gedeeltelijk is vervuld. Orders die volledig zijn gefactureerd, kunnen echter nog steeds niet worden bewerkt via POS. Als u deze functie wilt inschakelen, schakelt u de optie **Gedeeltelijk afgehandelde orders bewerken in Point of Sale** in de werkruimte **Functiebeheer** in. Als deze functie niet is ingeschakeld of als u versie 10.0.16 of eerder gebruikt, kunnen gebruikers alleen klantorders in POS bewerken als de order volledig is geopend. Als de functie is ingeschakeld, kunt u bovendien beperken welke winkels gedeeltelijk vervulde orders kunnen bewerken. De optie om deze mogelijkheid voor specifieke winkels uit te schakelen, kan worden geconfigureerd via het **Functionaliteitsprofiel** op het sneltabblad **Algemeen**.
 
-> [!NOTE]
-> In Commerce-versie 10.0.14 kunnen POS-gebruikers met een functie die is vrijgegeven in de [openbare preview](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms) klantorders bewerken via POS, zelfs als een deel van de order al is afgehandeld. Orders die volledig zijn gefactureerd, kunnen echter nog steeds niet worden bewerkt via POS. Als u deze preview-functie wilt testen en aanvullende feedback wilt geven, schakelt u de optie **(Preview) Gedeeltelijk afgehandelde orders bewerken in Point of Sale** in de werkruimte **Functiebeheer** in. Klantorders die afkomstig zijn van een callcenterkanaal en de functie Ordervoltooiing inschakelen gebruiken, kunnen niet worden bewerkt, ook niet als deze functie is ingeschakeld.
 
 1. Selecteer **Order terugroepen**.
 2. Gebruik **Zoeken** om filters in te voeren om de order te vinden en selecteer vervolgens **Toepassen**.
@@ -170,6 +170,3 @@ Wanneer de optie **Klantorder maken in asynchrone modus** is ingesteld op **Ja**
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Hybride klantorders](hybrid-customer-orders.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

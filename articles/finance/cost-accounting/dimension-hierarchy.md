@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 71ba02fc6be4ab9a7871c10a9f95c474e52ae765
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7fde19ad1a58616672de72fb5e5cbeea39138b46
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441880"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995185"
 ---
 # <a name="dimension-hierarchy"></a>Dimensiehiërarchie
 
@@ -333,6 +332,3 @@ De instellingen voor de hiërarchie van toegangslijsten worden gebruikt om de ge
 > [!NOTE] 
 > - Voordat de hiërarchie van toegangslijsten van invloed kan zijn op gegevens in Power BI, moeten de hiërarchie van toegangslijsten en beveiliging op rijniveau in Power BI worden gekoppeld. Zie [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md) voor meer informatie.
 > - De hiërarchie van toegangslijsten helpen de export van gegevens naar Excel niet beveiligen. Daarom moet die rapportagefunctie alleen worden gebruikt door kostenaccountants en managers die volledige toegang moeten hebben om de gegevens weer te geven.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

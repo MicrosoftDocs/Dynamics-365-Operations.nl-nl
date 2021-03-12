@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysQueryForm, LedgerTransVoucher, LedgerTransBase, Originaldocuments
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f463b7764288918609cba364acf342eed28ad929
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5863fcc677e6dcfedf32031a14354674255ea137
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441844"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994385"
 ---
 # <a name="view-journal-entries-or-transactions"></a>Journaalboekingen of transacties weergeven
 
@@ -43,6 +42,3 @@ In deze procedure ziet u hoe u met het Boekstuktransactiesonderzoek kunt zoeken 
 12. Klik in het actievenster op **Oorspronkelijk document**.
 13. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

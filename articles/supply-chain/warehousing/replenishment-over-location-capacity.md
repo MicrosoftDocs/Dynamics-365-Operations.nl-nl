@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 3f94053920b475ef9190b5ac65a5f9ca01dcd4a1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425833"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996118"
 ---
 # <a name="replenishment-over-location-capacity"></a>Aanvulling boven locatiecapaciteit
 
@@ -408,6 +407,3 @@ U kunt nu verkooporder 2 verzamelen. Dit werd gedeblokkeerd toen het aanvullings
 - U kunt desgewenst de beschikbaarheid van aanvullingswerk voor elke werkkop handmatig wijzigen vanaf de pagina **Werkgegevens**.
 - Wanneer het systeem de beschikbaarheid van aanvullingswerk instelt, houdt het rekening met voorraad die al aanwezig is op de locatie voordat enig werk is voltooid
 - Elk verkooporderwerk is gekoppeld aan specifiek aanvullingswerk. Er is geen corresponderende functionaliteit voor beschikbaarheid van verkoopwerk.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

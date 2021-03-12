@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6151797001b1ccdb7e371c70b90c304a5ab422d8
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: a1ea23059d56ebf387a95a1378e2a3cd47556d5f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645114"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993849"
 ---
 # <a name="troubleshoot-reservations-in-warehouse-management"></a>Problemen met reserveringen in magazijnbeheer oplossen
 
@@ -78,6 +77,3 @@ Wanneer u echter een artikel gebruikt met een 'batch eronder'-reserveringshiëra
 Dit is zo ontworpen. Als u een dimensie boven de dimensie **Locatie** in de reserveringshiërarchie plaatst, moet u deze eerst opgeven voordat wordt vrijgegeven aan het magazijn. Microsoft heeft dit probleem beoordeeld en heeft vastgesteld dat het een functiebeperking was tijdens vrijgaven van het magazijn vanuit de workbench Ladingplanning. Gedeeltelijke hoeveelheden kunnen niet worden vrijgegeven als een of meer dimensies boven de **locatie** niet zijn opgegeven.
 
 Zie voor meer informatie [Flexibel reserveringsbeleid voor dimensies op magazijnniveau](flexible-warehouse-level-dimension-reservation.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
