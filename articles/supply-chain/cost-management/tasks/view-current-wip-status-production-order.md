@@ -11,30 +11,29 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, ProdTable, CostStatement
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8e55ccfe158146a48fd372d6f0f687d169b7632
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f76a7589de13237ba822296d357df3e0300f11ad
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425574"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5002018"
 ---
-# <a name="view-current-wip-status-on-a-production-order"></a><span data-ttu-id="f504b-103">Huidige OHW-status op een productieorder weergeven</span><span class="sxs-lookup"><span data-stu-id="f504b-103">View current WIP status on a production order</span></span>
+# <a name="view-current-wip-status-on-a-production-order"></a><span data-ttu-id="71b84-103">Huidige OHW-status op een productieorder weergeven</span><span class="sxs-lookup"><span data-stu-id="71b84-103">View current WIP status on a production order</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="f504b-104">Deze procedure laat zien hoe u OHW-instructies in een productieorder weergeeft.</span><span class="sxs-lookup"><span data-stu-id="f504b-104">This procedure shows how to view WIP statement on a production order.</span></span> <span data-ttu-id="f504b-105">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="f504b-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f504b-106">Deze procedure is bedoeld voor de kostencontroller.</span><span class="sxs-lookup"><span data-stu-id="f504b-106">This procedure is intended for the cost controller.</span></span>
+<span data-ttu-id="71b84-104">Deze procedure laat zien hoe u OHW-instructies in een productieorder weergeeft.</span><span class="sxs-lookup"><span data-stu-id="71b84-104">This procedure shows how to view WIP statement on a production order.</span></span> <span data-ttu-id="71b84-105">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="71b84-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="71b84-106">Deze procedure is bedoeld voor de kostencontroller.</span><span class="sxs-lookup"><span data-stu-id="71b84-106">This procedure is intended for the cost controller.</span></span>
 
-1. <span data-ttu-id="f504b-107">Klik op Kostenadministratie.</span><span class="sxs-lookup"><span data-stu-id="f504b-107">Click Cost administration.</span></span>
-2. <span data-ttu-id="f504b-108">Klik op Productieorders.</span><span class="sxs-lookup"><span data-stu-id="f504b-108">Click Production orders.</span></span>
-3. <span data-ttu-id="f504b-109">Gebruik het snelfilter om op het veld Productie te filteren met de waarde 'p000153'.</span><span class="sxs-lookup"><span data-stu-id="f504b-109">Use the Quick Filter to filter on the Production field with a value of 'p000153'.</span></span>
-4. <span data-ttu-id="f504b-110">Klik in het actievenster op Kosten beheren.</span><span class="sxs-lookup"><span data-stu-id="f504b-110">On the Action Pane, click Manage costs.</span></span>
-5. <span data-ttu-id="f504b-111">Klik op OHW-overzicht productie.</span><span class="sxs-lookup"><span data-stu-id="f504b-111">Click Production WIP statement.</span></span>
-6. <span data-ttu-id="f504b-112">Stel in het veld Begindatum de datum in op '2012-12-01'.</span><span class="sxs-lookup"><span data-stu-id="f504b-112">In the From date field, set the date to '2012-12-01'.</span></span>
-7. <span data-ttu-id="f504b-113">Stel in het veld Einddatum de datum in op '2012-12-31'.</span><span class="sxs-lookup"><span data-stu-id="f504b-113">In the To date field, set the date to '2012-12-31'.</span></span>
+1. <span data-ttu-id="71b84-107">Klik op Kostenadministratie.</span><span class="sxs-lookup"><span data-stu-id="71b84-107">Click Cost administration.</span></span>
+2. <span data-ttu-id="71b84-108">Klik op Productieorders.</span><span class="sxs-lookup"><span data-stu-id="71b84-108">Click Production orders.</span></span>
+3. <span data-ttu-id="71b84-109">Gebruik het snelfilter om op het veld Productie te filteren met de waarde 'p000153'.</span><span class="sxs-lookup"><span data-stu-id="71b84-109">Use the Quick Filter to filter on the Production field with a value of 'p000153'.</span></span>
+4. <span data-ttu-id="71b84-110">Klik in het actievenster op Kosten beheren.</span><span class="sxs-lookup"><span data-stu-id="71b84-110">On the Action Pane, click Manage costs.</span></span>
+5. <span data-ttu-id="71b84-111">Klik op OHW-overzicht productie.</span><span class="sxs-lookup"><span data-stu-id="71b84-111">Click Production WIP statement.</span></span>
+6. <span data-ttu-id="71b84-112">Stel in het veld Begindatum de datum in op '2012-12-01'.</span><span class="sxs-lookup"><span data-stu-id="71b84-112">In the From date field, set the date to '2012-12-01'.</span></span>
+7. <span data-ttu-id="71b84-113">Stel in het veld Einddatum de datum in op '2012-12-31'.</span><span class="sxs-lookup"><span data-stu-id="71b84-113">In the To date field, set the date to '2012-12-31'.</span></span>
 
