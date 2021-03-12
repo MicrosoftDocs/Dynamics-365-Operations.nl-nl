@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e61fc5f7151a0bb61d496d47f4ad4e727a2a1d65
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 2153bbca2be7c72e48b9dc51b1f7fdbe2ab89903
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529525"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977733"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>De klantportal installeren, instellen en bijwerken
 
@@ -31,7 +30,7 @@ ms.locfileid: "4529525"
 Voor het implementeren van de klantportal hebt u de volgende licenties nodig:
 
 - **Power Apps-portals**: deze licentie is vereist om de klantportal te hosten. Portals worden op basis van gebruik in licentie gegeven. Zie [Licentievereisten voor Power Apps-portals](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals) voor meer informatie.
-- **Twee keer wegschrijven**: u moet over de vereiste licenties beschikken om twee keer wegschrijven in te schakelen voor Supply Chain Management-entiteiten. Zie [Systeemvereisten voor twee keer wegschrijven](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md) voor meer informatie.
+- **Twee keer wegschrijven**: u moet over de vereiste licenties beschikken om twee keer wegschrijven in te schakelen voor Supply Chain Management-tabellen. Zie [Systeemvereisten voor twee keer wegschrijven](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md) voor meer informatie.
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Afhankelijkheden voor twee keer wegschrijven en Power Apps-portals
 
@@ -39,13 +38,13 @@ De klantportal is afhankelijk van Power Apps-portals en bewerkingen voor twee ke
 
 ![Afhankelijkheden van klantportal](media/customer-portal-elements.png "Afhankelijkheden van klantportal")
 
-In tegenstelling tot andere functies van Supply Chain Management, bevindt de klantportalsjabloon zich in Power Apps-portals. Daarom wordt de klantportal beperkt door de functionaliteit en capaciteiten die door Power Apps-portals en de entiteiten in twee keer wegschrijven worden geleverd.
+In tegenstelling tot andere functies van Supply Chain Management, bevindt de klantportalsjabloon zich in Power Apps-portals. Daarom wordt de klantportal beperkt door de functionaliteit en capaciteiten die door Power Apps-portals en de tabellen in twee keer wegschrijven worden geleverd.
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Vereiste instellingen om de klantportal in te schakelen
 
 Nadat u hebt vastgesteld dat u over de vereiste licenties beschikt, kunt u Twee keer wegschrijven instellen zoals beschreven in de [Initiële synchronisatie-instructies voor Twee keer wegschrijven](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
 
-Zorg ervoor dat u de volgende entiteitstoewijzingen in twee keer wegschrijven inschakelt:
+Zorg ervoor dat u de volgende tabeltoewijzingen in twee keer wegschrijven inschakelt:
 
 - Koptekst van verkooporder
 - Details verkooporder
@@ -80,12 +79,9 @@ Als u wilt weten hoe u de klantportal kunt instellen en aanpassen, moet u eerst 
 - [Documentatie over Power Apps-portals](https://docs.microsoft.com/powerapps/maker/portals/overview)
 - [Documentatie over twee keer wegschrijven](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
-Om uw portals effectief te beheren, moet u inzicht hebben in de Power Apps-portals en Common Data Service-levenscyclus. Voor meer informatie raadpleegt u de volgende bronnen:
+Om uw portals effectief te beheren, moet u inzicht hebben in de Power Apps-portals en Microsoft Dataverse-levenscyclus. Voor meer informatie raadpleegt u de volgende bronnen:
 
 - [Informatie over Portallevenscyclus](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
 - [Een portal bijwerken](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Portalconfiguratie migreren](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Solution Lifecycle Management: Dynamics 365 voor Customer Engagement-apps](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

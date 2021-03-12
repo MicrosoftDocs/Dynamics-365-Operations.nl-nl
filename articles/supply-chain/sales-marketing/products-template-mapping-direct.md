@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 6ffd55585ff43f993876de6c669eb61e74a9fd79
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ecee843b6c09c86b4e40ab34cc113e5a7e7c76f8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527309"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977683"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Producten rechtstreeks vanuit Supply Chain Management synchroniseren met producten in Sales
 
@@ -33,7 +32,7 @@ ms.locfileid: "4527309"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Voordat u de oplossing Prospect naar contant geld kunt gebruiken, moet u vertrouwd zijn met [Gegevens integreren in Common Data Service for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Voordat u de oplossing Prospect naar contant geld kunt gebruiken, moet u vertrouwd zijn met [Gegevens integreren in Microsoft Dataverse for Apps](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt om producten rechtstreeks te synchroniseren van Dynamics 365 Supply Chain Management naar Dynamics 365 Sales.
 
@@ -124,6 +123,3 @@ In de volgende afbeelding ziet u een voorbeeld van sjabloontoewijzing in Gegeven
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ReturnTableListPage, ReturnTable, ReturnTableListPagePreviewPane, ReturnTableReferences, SalesReturnExpiredOrdersPart, SalesReturnFindOrderFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd194042303797fe41507065d0d7e4df28309cfb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e8778a96030494cbb5d819bf214fca104864eff4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425235"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977408"
 ---
 # <a name="sales-returns"></a>Verkoopretouren
 
@@ -87,7 +86,7 @@ Nadat u de retourorderkoptekst hebt voltooid, kunt u retourregels kunt maken met
 -   U voert handmatig de artikelgegevens, hoeveelheden en overige gegevens voor elke retourregel in.
 -   U maakt een retourregel met behulp van de functie **Verkooporder zoeken**. Het wordt aangeraden om deze functie te gebruiken wanneer u een retourorder maakt. De functie **Verkooporder zoeken** maakt een verwijzing van de retourregel naar de regel in de gefactureerde verkooporder en haalt regelgegevens op uit de verkoopregel, zoals de waarden voor artikelnummer, hoeveelheid, prijs, korting en kosten. De verwijzing zorgt ervoor dat, als het product wordt geretourneerd naar het bedrijf, het wordt gewaardeerd tegen dezelfde kostprijs waarvoor het werd verkocht. De verwijzing valideert ook dat geen retourorder worden gemaakt voor een hoeveelheid die groter is dan de hoeveelheid die op de factuur is verkocht.
 
->[Opmerking!] Retourregels die naar een verkooporder verwijzen, worden verwerkt als correcties of omkeringen van de verkoop. Zie voor meer informatie de sectie 'Boeken naar het grootboek' verderop in dit onderwerp.
+>[Opmerking!] Retourregels die naar een verkooporder verwijzen, worden verwerkt als correcties of omkering van de verkoop. Zie voor meer informatie de sectie 'Boeken naar het grootboek' verderop in dit onderwerp.
 
 ### <a name="charges"></a>Toeslagen
 
@@ -331,6 +330,3 @@ In dit voorbeeld wordt de retourorderregel gemaakt door middel van de functie **
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

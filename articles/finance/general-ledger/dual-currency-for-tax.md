@@ -3,7 +3,7 @@ title: Ondersteuning van twee valuta's voor belasting
 description: In dit onderwerp wordt uitgelegd hoe u de functie voor boekhouding met twee valuta's uitbreidt in het belastingdomein en wat de gevolgen zijn bij het berekenen en boeken van belasting
 author: EricWang
 manager: Ann Beebe
-ms.date: 12/16/2019
+ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 9e5db8e4bbd14aa30196e3be617cdfcb72c091fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e3e7ff93ca3c6a2266ba0f33c8eac7ceade0d4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441920"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978589"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Ondersteuning van twee valuta's voor btw
 [!include [banner](../includes/banner.md)]
@@ -44,8 +43,7 @@ Raadpleeg [Twee valuta's](dual-currency.md) voor meer informatie over twee valut
 
 Als gevolg van de ondersteuning voor twee valuta's zijn er twee nieuwe functies beschikbaar in functiebeheer: 
 
-- Btw-conversie (vrijgave in versie 10.0.9)
-- Automatisch btw-vereffeningssaldo in aangiftevaluta (vrijgave in versie 10.0.11)
+- Btw-conversie (nieuw in versie 10.0.13)
 
 Ondersteuning voor twee valuta's voor btw zorgt ervoor dat btw nauwkeurig wordt berekend in de belastingvaluta en dat het btw-vereffeningssaldo nauwkeurig wordt berekend in zowel de valuta voor boekhouding als de aangiftevaluta. 
 
@@ -109,7 +107,7 @@ Deze release bevat geen wijzigingen in rapporten en formulieren waarbij het bela
 
 ## <a name="tax-settlement-auto-balance-in-reporting-currency"></a>Automatisch belastingsvereffeningssaldo in aangiftevaluta
 
-Als de belastingvereffening om bepaalde redenen niet wordt gesaldeerd in de aangiftevaluta, bijvoorbeeld wanneer het pad voor btw-conversie "Valuta voor boekhouding" is of wanneer de wisselkoers verandert in een enkele periode voor belastingvereffening, dan genereert het systeem automatisch boekhoudvermeldingen om de afwijking van het belastingbedrag te corrigeren en te compenseren tegen gerealiseerde winsten of verliezen voor valutaomrekening.
+Als de belastingvereffening om bepaalde redenen niet wordt gesaldeerd in de aangiftevaluta, bijvoorbeeld wanneer het pad voor btw-conversie "Valuta voor boekhouding" is of wanneer de wisselkoers verandert in een enkele periode voor belastingvereffening, dan genereert het systeem automatisch boekhoudposten om de afwijking van het belastingbedrag te corrigeren en te compenseren tegen gerealiseerde winsten of verliezen voor valutaomrekening.
 
 Bij gebruik van dit voorbeeld om deze functie te demonstreren, gaat u ervan uit dat de gegevens in de tabel TAXTRANS op het moment van boeken als volgt zijn.
 
@@ -145,6 +143,3 @@ Zie de volgende onderwerpen voor meer informatie:
 - [Twee valuta's](dual-currency.md)
 - [Btw-overzicht](indirect-taxes-overview.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 511c466d6019cb182c9ada0b02172b8eeb3725e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22aabf2d0cecf272ac25ba3adde8cc650b069af9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425144"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977858"
 ---
 # <a name="define-production-flow-models"></a>Modellen voor productiestroom definiëren
 
@@ -46,6 +45,3 @@ De modellen voor productiestromen beschrijven hoe de capaciteit van werkcellen v
 8. Selecteer een optie in het veld Reactie bij capaciteitstekort.
     * De opties zijn: Uitstellen - Stel de volledige vraag van de planningsgebeurtenis uit naar de volgende beschikbare productiedag, met beschikbare doorvoer. Annuleren - Beëindig de automatische planning voor de planningsgebeurtenis en laat de verwante taken ongepland.   Toevoegen aan de aangevraagde dag - Plan de aangevraagde taken voor de opgegeven periode. Hierdoor wordt de cel voor deze dag overbelast en moet de planner dit controleren en een handmatige interactie ondernemen.   Verdelen naar beschikbare perioden - Verdeel de verschillende taken van de planningsgebeurtenis over alle beschikbare productiedagen en begin met de eerste beschikbare dag. De minimale distributiehoeveelheid is de kanbantaakhoeveelheid. De verdeling wijst de minimale planningshoeveelheid (kanbanhoeveelheid) toe aan elke dag met voldoende beschikbare doorvoer.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1abc86aa5c3863eba34f726b543792408a542383
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442036"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976361"
 ---
 # <a name="reconcile-a-bank-account"></a>Een bankrekening afstemmen
 
@@ -71,6 +70,3 @@ Met de functie Afstemming bankafschrift annuleren kunt u de afstemming van banka
 Afstemmingen van bankafschriften kunnen alleen worden geannuleerd in de chronologische volgorde waarin ze zijn geboekt. Wanneer een afstemming van bankafschriften wordt geannuleerd, worden nieuwe transacties en correcties teruggedraaid en worden alle andere transacties als niet-afgestemd gemarkeerd.
  
 Als u de afstemming van bankafschriften wilt annuleren, selecteert u het bankafschrift en selecteert u **Bankafschrift > Bankafstemming annuleren**. Geef op de pagina **Bankafstemming annuleren** de **Redencode**, een **Opmerking bij reden** en de **Annuleringsdatum** op. Selecteer **OK** om te beginnen met annuleren. Opmerking: de annuleringsdatum van het bankafschrift moet op of na de datum van het bankafschrift liggen. Nadat de afstemming van het bankafschrift is geannuleerd, wordt het veld **Annuleringsdatum** voor het bankafschrift bijgewerkt met de opgegeven **Annuleringsdatum**. Selecteer de knop **Transacties** om de transacties weer te geven waarvoor de afstemming is geannuleerd.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

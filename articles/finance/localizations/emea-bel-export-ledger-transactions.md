@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TaxReportExtraFieldsBE
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 273103
 ms.search.region: Belgium
 ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 4820e343604f314291146a12aa5903a85d3fe533
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: 17db364ac7a5c156cede31cac2450216baed445d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668966"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978275"
 ---
 # <a name="export-ledger-transactions"></a>Grootboektransacties exporteren
 
@@ -101,6 +100,3 @@ Hier volgt een uitleg van de kolommen in dit bestand:
 
 > [!NOTE]
 > Als u grootboektransacties voor klantfacturen wilt boeken, gaat u naar **Klanten** \> **Facturen** \> **Alle vrije-tekstfacturen**. Voor leveranciersfacturen gaat u naar **Leveranciers** \> **Facturen** \> **Facturenjournaal**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

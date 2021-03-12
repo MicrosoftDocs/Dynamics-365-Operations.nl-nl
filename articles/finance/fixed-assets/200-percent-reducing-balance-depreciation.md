@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13951
 ms.assetid: 69b4e010-7683-4dc2-8a06-6d572f37e903
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0474a8cecccaf1e23874458c27e0bea991140b6c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f012f934015e334aea468b5b62741749103d7790
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442009"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978734"
 ---
 # <a name="200-percent-reducing-balance-depreciation"></a>Degressieve afschrijving van 200 procent
 
@@ -77,19 +76,16 @@ Als **Fiscaal** als afschrijvingsjaar wordt geselecteerd, zijn de volgende optie
 | Levensduur in jaren             | 5      |
 | Jaarlijks afschrijvingspercentage | 40%    |
 
-Bij de methode 200% degressieve afschrijvingsmethode, wordt 200 procent door het aantal jaren levensduur gedeeld. Dat percentage wordt vermenigvuldigd met de nettoboekwaarde van de activa om het afschrijvingsbedrag voor het jaar te kunnen bepalen.
+Bij de methode 200% degressieve afschrijving wordt 200 procent door het aantal jaren levensduur gedeeld. Dat percentage wordt vermenigvuldigd met de nettoboekwaarde van de activa om het afschrijvingsbedrag voor het jaar te kunnen bepalen.
 
 | Periode | Berekening van het jaarlijkse afschrijvingsbedrag | Boekwaarde             | Nettoboekwaarde aan het einde van het jaar |
 |--------|-----------------------------------------------|------------------------|---------------------------------------|
-| Jaar 1 | (11.000 – 1.000) × 40% = 4.000                | 11.000 – 4.000 = 7.000 | 11.000 – 1.000 – 4.000 = 6.000        |
-| Jaar 2 | 6.000 × 40% = 2.400                           | 7.000 – 2.400 = 4.600  | 6.000 – 2.400 = 3.600                 |
-| Jaar 3 | 3.600 × 40% = 1.440                           | 4.600 – 1.440 = 3.160  | 3.600 – 1.440 = 2.160                 |
+| Jaar 1 | (11.000 – 1000) × 40% = 4000                | 11.000 – 4000 = 7000 | 11.000 – 1000 – 4000 = 6000        |
+| Jaar 2 | 6000 × 40% = 2400                           | 7000 – 2400 = 4600  | 6000 – 2400 = 3600                 |
+| Jaar 3 | 3600 × 40% = 1440                           | 4600 – 1440 = 3160  | 3600 – 1440 = 2160                 |
 
 > [!NOTE] 
 > Wanneer het bedrag dat wordt berekend met de methode voor 200% degressieve afschrijving lager is dan het bedrag dat wordt berekend door de lineaire methode te gebruiken, vindt er doorgaans een conversie naar de lineaire methode plaats voor de resterende levensduur.
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

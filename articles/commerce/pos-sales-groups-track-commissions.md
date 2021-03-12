@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: afbf69c072ae205e973203d97a5fbca7504ae04f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0b020618036951e7033baadbf58b806df7877bdb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411262"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976584"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Provisie bijhouden op het verkooppunt (POS) via verkoopgroepen
 
@@ -72,7 +71,7 @@ Er zijn een aantal instellingen voor functionaliteitsprofielen voor een winkel, 
 
 ## <a name="displaying-the-sales-representative-information-on-the-pos-transactions-screen"></a>Gegevens van de verkoper weergeven op het POS-transactiescherm
 
-De inhoud en indeling van het POS-transactiescherm kunnen worden geconfigureerd met de schermindelingsontwerper en toegewezen aan winkels, kassa's of medewerkers. Het veld **Verkoopvertegenwoordiger** kan worden toegevoegd aan het tabblad Regels in het deelvenster Ontvangstbewijs.  Hier wordt de id van de opgegeven verkoopgroep getoond voor elke regel in het transactiescherm.
+De inhoud en indeling van het POS-transactiescherm kunnen worden geconfigureerd met de schermindelingsontwerper en toegewezen aan winkels, kassa's of medewerkers. Het veld **Verkoopvertegenwoordiger** kan worden toegevoegd aan het tabblad Regels van het deelvenster Ontvangst.  Hiermee wordt de id van de opgegeven verkoopgroep weergegeven voor elke regel in het transactiescherm.
 
 ## <a name="adding-sales-representative-operations-to-pos-button-grids"></a>Bewerkingen van verkopers toevoegen aan de POS-knoppenrasters
 
@@ -80,14 +79,11 @@ In POS kunnen gebruikers knoppenrasters configureren, die deel uitmaken van sche
 
 | Bewerking                                 | Omschrijving |
 |-------------------------------------------|-------------|
-| Verkoopvertegenwoordiger instellen op regel          | Met deze POS-bewerking wordt een lijst weergegeven met in aanmerking komende verkoopgroepen (ID : naam) voor de winkel. Als u een verkoopgroep in deze lijst selecteert, wordt de waarde ingesteld op de huidige transactieregel. |
+| Verkoopvertegenwoordiger instellen op regel          | Met deze POS-bewerking wordt een lijst weergegeven met in aanmerking komende verkoopgroepen (ID : naam) voor de winkel. Als u een verkoopgroep in deze lijst selecteert, wordt de waarde ingesteld op de huidige transactieregel. |
 | Verkoopvertegenwoordiger wissen op regel        | Deze POS-bewerking verwijdert de huidige waarde van de verkoopgroep voor de huidige transactieregel. |
-| Verkoopvertegenwoordiger instellen voor transactie   | Met deze POS-bewerking wordt een lijst weergegeven met in aanmerking komende verkoopgroepen (ID : naam) voor de winkel. Als u een verkoopgroep in deze lijst selecteert, wordt de standaardwaarde ingesteld op de huidige transactieregel. Alle bestaande regels waaraan geen verkoopgroep is toegewezen, worden ingesteld, evenals alle regels die daarna worden toegevoegd. |
+| Verkoopvertegenwoordiger instellen voor transactie   | Met deze POS-bewerking wordt een lijst weergegeven met in aanmerking komende verkoopgroepen (ID : naam) voor de winkel. Als u een verkoopgroep in deze lijst selecteert, wordt de standaardwaarde ingesteld op de huidige transactieregel. Alle bestaande regels waaraan geen verkoopgroep is toegewezen, worden ingesteld, evenals alle regels die daarna worden toegevoegd. |
 | Verkoopvertegenwoordiger wissen voor transactie | Deze POS-bewerking verwijdert de huidige standaardwaarde van de verkoopgroep voor de huidige transactie. Dit heeft geen invloed op andere regels die al voorkomen in de transactie. |
 
 ## <a name="calculating-commissions"></a>Provisies berekenen
 
-Provisie wordt berekend voor de medewerkers in de opgegeven verkoopgroepen tijdens het boeken van overzichten of van verkooporders. Het provisiebedrag wordt bepaald op basis van het provisieaandeel van medewerker, zoals is gedefinieerd in de verkoopgroep en de bijbehorende instellingen voor provisieberekening voor de klant en/of producten in de transactie.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Provisie wordt berekend voor de medewerkers in de opgegeven verkoopgroepen tijdens het boeken van overzichten of van verkooporders. Het provisiebedrag wordt bepaald op basis van het provisieaandeel van medewerker, zoals is gedefinieerd in de verkoopgroep en de bijbehorende instellingen voor provisieberekening voor de klant en/of producten in de transactie.

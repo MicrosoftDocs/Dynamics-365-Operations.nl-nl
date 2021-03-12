@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b697cce8ecb9ece282fc659ab4d97c4b747c5e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 826920980bdd2d30337c92553bd0367b119f676c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425307"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977333"
 ---
 # <a name="system-grouping-on-an-open-work-list"></a>Systeemgroeperen voor een lijst met openstaand werk
 
@@ -42,6 +41,3 @@ U stelt systeemgroepering in voor een lijst met openstaand werk met de volgende 
 | Systeemgroeperingsveld | Alleen beschikbaar als <strong>Systeemwerk toestaan</strong> is ingesteld op <strong>Ja</strong>. Selecteer het veld dat bepaalt hoe het verzamelen van het werk voor werknemer wordt gegroepeerd. Bijvoorbeeld, als u het veld <strong>ShipmentId</strong> selecteert, scant de werknemer de zendings-ID om orderverzameling werk te groeperen. Alle werk voor de zending wordt vervolgens toegewezen aan de werknemer. Dit veld vereist dat u een menuoptie maakt om bestaand werk te gebruiken dat door het systeem is gegroepeerd. Gebruik het veld <strong>Systeemgroeperingslabel</strong> om de werknemer te melden wat hij moet scannen. |
 | Systeemgroeperingslabel |                       Alleen beschikbaar als <strong>Systeemwerk toestaan</strong> is ingesteld op <strong>Ja</strong>. Voer informatie in die de werknemer vertelt wat hij moet scannen wanneer het orderverzamelingwerk wordt gegroepeerd. Als u bijvoorbeeld het veld <strong>ShipmentId</strong> gebruikt voor het verzamelen van werk per zending, kunt u Zendings-id in het veld invoeren. Dit veld vereist dat u een menuoptie maakt om bestaand werk te gebruiken dat door het systeem is gegroepeerd. U moet ook het veld selecteren waarop moet worden gegroepeerd in het veld <strong>Systeemgroepering</strong>.                       |
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

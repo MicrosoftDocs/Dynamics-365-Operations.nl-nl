@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: IntrastatToProdcom, InventProdComLineDetail, InventProdComLineWithCode, InventProdComParameters, InventProdComTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 264804
 ms.search.region: Belgium
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1c6322d12f59af96db63ec0bf27be5583db606c6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 31f69750d8e1e2b6a875bd70fea57983a82af972
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408342"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978270"
 ---
 # <a name="set-up-and-maintain-prodcom"></a>PRODCOM instellen en onderhouden
 
@@ -61,6 +60,3 @@ Gebruik de pagina **PRODCOM** om PRODCOM-perioden te maken en verkoopregels naar
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

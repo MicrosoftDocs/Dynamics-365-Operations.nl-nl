@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcae977ede91dcaf4e455353f023e9eee4fcb2b1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425242"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977483"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Automatische vrijgave van zending voor cross-docken
 
@@ -179,6 +178,3 @@ De volgende gebeurtenissen vinden nu plaats:
 - De vrijgave van een magazijn wordt geactiveerd voor de gekoppelde verkooporder.
 - Op basis van de vrijgave wordt het werk voor verzenden en cross-docken gemaakt. Dit werk geeft de magazijnoperator opdracht om de hoeveelheden te verzamelen die nodig zijn om de verkooporderregel te vervullen en deze te plaatsen op de uitgaande locatie die is opgegeven in de locatie-instructie voor cross-docken.
 - Als de hoeveelheid van de productieorder groter is dan de hoeveelheid die nodig is voor de verkooporder, wordt normaal wegzetwerk gemaakt. Dit werk geeft de magazijnoperator opdracht om de hoeveelheid gereed product te kiezen die achterblijft na cross-docken en deze naar normale opslag te verplaatsen op basis van de locatie-instructie.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

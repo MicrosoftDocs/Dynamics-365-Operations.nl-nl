@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: MainAccount, CompanyInfoList
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a116164a31337013d34f963b549c394aade2de1c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 276f918e5f86ba8bef3144a476ae72192829cf7a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441866"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978590"
 ---
 # <a name="create-a-main-account"></a>Een hoofdrekening maken
 
@@ -52,6 +51,3 @@ Deze taakbegeleiding helpt u bij het toevoegen van een hoofdrekening aan een bes
 21. Selecteer in het veld **Type valutaomzetting** de methode voor het berekenen van de wisselkoersen voor de rekening.
 22. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
