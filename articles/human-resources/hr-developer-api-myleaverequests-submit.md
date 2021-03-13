@@ -2,7 +2,7 @@
 title: Een verlofverzoek indienen bij een werkstroom
 description: In Microsoft Dynamics 365 Human Resources kunt u de API (Application Programming Interface) MyLeaveRequests submit() gebruiken om een verlofaanvraag in te dienen bij de werkstroom.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,61 +18,61 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7552a4c921dc4a88034b5d2c87d5a9b47d699ae3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 51be70edbe1439340377fd01b9760d49d3a75348
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417910"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115507"
 ---
-# <a name="submit-a-leave-request-to-workflow"></a><span data-ttu-id="85dc7-103">Een verlofverzoek indienen bij een werkstroom</span><span class="sxs-lookup"><span data-stu-id="85dc7-103">Submit a leave request to workflow</span></span>
+# <a name="submit-a-leave-request-to-workflow"></a><span data-ttu-id="c8043-103">Een verlofverzoek indienen bij een werkstroom</span><span class="sxs-lookup"><span data-stu-id="c8043-103">Submit a leave request to workflow</span></span>
 
-<span data-ttu-id="85dc7-104">In Microsoft Dynamics 365 Human Resources kunt u de API (Application Programming Interface) MyLeaveRequests submit() gebruiken om een verlofaanvraag in te dienen bij de werkstroom.</span><span class="sxs-lookup"><span data-stu-id="85dc7-104">In Microsoft Dynamics 365 Human Resources, you can use the MyLeaveRequests submit() application programming interface (API) to submit a leave request to workflow.</span></span> <span data-ttu-id="85dc7-105">Deze API wordt als actie weergegeven in de entiteit MyLeaveRequests OData.</span><span class="sxs-lookup"><span data-stu-id="85dc7-105">This API is exposed as an action on the MyLeaveRequests OData entity.</span></span>
+<span data-ttu-id="c8043-104">In Microsoft Dynamics 365 Human Resources kunt u de API (Application Programming Interface) MyLeaveRequests submit() gebruiken om een verlofaanvraag in te dienen bij de werkstroom.</span><span class="sxs-lookup"><span data-stu-id="c8043-104">In Microsoft Dynamics 365 Human Resources, you can use the MyLeaveRequests submit() application programming interface (API) to submit a leave request to workflow.</span></span> <span data-ttu-id="c8043-105">Deze API wordt als actie weergegeven in de entiteit MyLeaveRequests OData.</span><span class="sxs-lookup"><span data-stu-id="c8043-105">This API is exposed as an action on the MyLeaveRequests OData entity.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="85dc7-106">Vereisten</span><span class="sxs-lookup"><span data-stu-id="85dc7-106">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="c8043-106">Vereisten</span><span class="sxs-lookup"><span data-stu-id="c8043-106">Prerequisites</span></span>
 
-<span data-ttu-id="85dc7-107">De verlofaanvraag moet worden opgeslagen in de database en moet kunnen worden opgehaald via de entiteit MyLeaveRequests.</span><span class="sxs-lookup"><span data-stu-id="85dc7-107">The leave request must be saved in the database and must be retrievable through the MyLeaveRequests entity.</span></span>
+<span data-ttu-id="c8043-107">De verlofaanvraag moet worden opgeslagen in de database en moet kunnen worden opgehaald via de entiteit MyLeaveRequests.</span><span class="sxs-lookup"><span data-stu-id="c8043-107">The leave request must be saved in the database and must be retrievable through the MyLeaveRequests entity.</span></span>
 
-## <a name="permissions"></a><span data-ttu-id="85dc7-108">Machtigingen</span><span class="sxs-lookup"><span data-stu-id="85dc7-108">Permissions</span></span>
+## <a name="permissions"></a><span data-ttu-id="c8043-108">Machtigingen</span><span class="sxs-lookup"><span data-stu-id="c8043-108">Permissions</span></span>
 
-<span data-ttu-id="85dc7-109">Een van de volgende machtigingen is vereist om deze API te kunnen aanroepen.</span><span class="sxs-lookup"><span data-stu-id="85dc7-109">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="85dc7-110">Zie [Verificatie](hr-developer-api-authentication.md) voor meer informatie over machtigingen en het selecteren hiervan.</span><span class="sxs-lookup"><span data-stu-id="85dc7-110">For more information about permissions and how to select them, see [Authentication](hr-developer-api-authentication.md).</span></span>
+<span data-ttu-id="c8043-109">Een van de volgende machtigingen is vereist om deze API te kunnen aanroepen.</span><span class="sxs-lookup"><span data-stu-id="c8043-109">One of the following permissions is required to call this API.</span></span> <span data-ttu-id="c8043-110">Zie [Verificatie](hr-developer-api-authentication.md) voor meer informatie over machtigingen en het selecteren hiervan.</span><span class="sxs-lookup"><span data-stu-id="c8043-110">For more information about permissions and how to select them, see [Authentication](hr-developer-api-authentication.md).</span></span>
 
-| <span data-ttu-id="85dc7-111">Machtigingstype</span><span class="sxs-lookup"><span data-stu-id="85dc7-111">Permission type</span></span>                    | <span data-ttu-id="85dc7-112">Machtigingen (van laagste naar hoogste bevoegdheidsniveau)</span><span class="sxs-lookup"><span data-stu-id="85dc7-112">Permissions (from least privileged to most privileged)</span></span> |
+| <span data-ttu-id="c8043-111">Machtigingstype</span><span class="sxs-lookup"><span data-stu-id="c8043-111">Permission type</span></span>                    | <span data-ttu-id="c8043-112">Machtigingen (van laagste naar hoogste bevoegdheidsniveau)</span><span class="sxs-lookup"><span data-stu-id="c8043-112">Permissions (from least privileged to most privileged)</span></span> |
 |------------------------------------|--------------------------------------------------------|
-| <span data-ttu-id="85dc7-113">Gedelegeerd (werk- of schoolaccount)</span><span class="sxs-lookup"><span data-stu-id="85dc7-113">Delegated (work or school account)</span></span> | <span data-ttu-id="85dc7-114">gebruikers\_imitatie</span><span class="sxs-lookup"><span data-stu-id="85dc7-114">user\_impersonation</span></span>                                    |
+| <span data-ttu-id="c8043-113">Gedelegeerd (werk- of schoolaccount)</span><span class="sxs-lookup"><span data-stu-id="c8043-113">Delegated (work or school account)</span></span> | <span data-ttu-id="c8043-114">gebruikers\_imitatie</span><span class="sxs-lookup"><span data-stu-id="c8043-114">user\_impersonation</span></span>                                    |
 
-## <a name="https-request"></a><span data-ttu-id="85dc7-115">HTTPS-aanvraag</span><span class="sxs-lookup"><span data-stu-id="85dc7-115">HTTPS request</span></span>
+## <a name="https-request"></a><span data-ttu-id="c8043-115">HTTPS-aanvraag</span><span class="sxs-lookup"><span data-stu-id="c8043-115">HTTPS request</span></span>
 
 <!-- { "blockType": "ignored" } -->
 ```HTTP
 POST https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/MyLeaveRequests(RequestId='{requestId}', LeaveType='{leaveType}', LeaveDate={leaveDate}, dataAreaId={dataArea})/Microsoft.Dynamics.DataEntities.submit?cross-company=true
 ```
 
-<span data-ttu-id="85dc7-116">De aanvraag voldoet aan OData-normen.</span><span class="sxs-lookup"><span data-stu-id="85dc7-116">The request conforms to OData standards.</span></span> <span data-ttu-id="85dc7-117">De parameters {requestId}, {leaveType}, {leaveDate} en {dataArea} verwijzen naar de velden die de samengestelde natuurlijke sleutel vormen voor de entiteit MyLeaveRequests.</span><span class="sxs-lookup"><span data-stu-id="85dc7-117">The {requestId}, {leaveType}, {leaveDate}, and {dataArea} parameters refer to the fields that make up the composite natural key for the MyLeaveRequests entity.</span></span>
+<span data-ttu-id="c8043-116">De aanvraag voldoet aan OData-normen.</span><span class="sxs-lookup"><span data-stu-id="c8043-116">The request conforms to OData standards.</span></span> <span data-ttu-id="c8043-117">De parameters {requestId}, {leaveType}, {leaveDate} en {dataArea} verwijzen naar de velden die de samengestelde natuurlijke sleutel vormen voor de entiteit MyLeaveRequests.</span><span class="sxs-lookup"><span data-stu-id="c8043-117">The {requestId}, {leaveType}, {leaveDate}, and {dataArea} parameters refer to the fields that make up the composite natural key for the MyLeaveRequests entity.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="85dc7-118">Terwijl de velden voor de entiteit MyLeaveRequests verwijzen naar een afzonderlijke regel in de verlofaanvraag, wordt door het aanroepen van de Submit-API de volledige aanvraag voor het verlof (alle regels) ingediend bij de werkstroom.</span><span class="sxs-lookup"><span data-stu-id="85dc7-118">While the fields for the MyLeaveRequests entity refer to an individual line in the leave request, calling the submit API will submit the entire leave request (all lines) to workflow.</span></span>
+> <span data-ttu-id="c8043-118">Terwijl de velden voor de entiteit MyLeaveRequests verwijzen naar een afzonderlijke regel in de verlofaanvraag, wordt door het aanroepen van de Submit-API de volledige aanvraag voor het verlof (alle regels) ingediend bij de werkstroom.</span><span class="sxs-lookup"><span data-stu-id="c8043-118">While the fields for the MyLeaveRequests entity refer to an individual line in the leave request, calling the submit API will submit the entire leave request (all lines) to workflow.</span></span>
 
-### <a name="request-headers"></a><span data-ttu-id="85dc7-119">Kopteksten voor aanvraag</span><span class="sxs-lookup"><span data-stu-id="85dc7-119">Request headers</span></span>
+### <a name="request-headers"></a><span data-ttu-id="c8043-119">Kopteksten voor aanvraag</span><span class="sxs-lookup"><span data-stu-id="c8043-119">Request headers</span></span>
 
-| <span data-ttu-id="85dc7-120">Koptekst</span><span class="sxs-lookup"><span data-stu-id="85dc7-120">Header</span></span>         | <span data-ttu-id="85dc7-121">Value</span><span class="sxs-lookup"><span data-stu-id="85dc7-121">Value</span></span>                     |
+| <span data-ttu-id="c8043-120">Koptekst</span><span class="sxs-lookup"><span data-stu-id="c8043-120">Header</span></span>         | <span data-ttu-id="c8043-121">Value</span><span class="sxs-lookup"><span data-stu-id="c8043-121">Value</span></span>                     |
 |----------------|---------------------------|
-| <span data-ttu-id="85dc7-122">Autorisatie</span><span class="sxs-lookup"><span data-stu-id="85dc7-122">Authorization</span></span>  | <span data-ttu-id="85dc7-123">Bearer {token} (vereist)</span><span class="sxs-lookup"><span data-stu-id="85dc7-123">Bearer {token} (required)</span></span> |
-| <span data-ttu-id="85dc7-124">Content-Type</span><span class="sxs-lookup"><span data-stu-id="85dc7-124">Content-Type</span></span>   | <span data-ttu-id="85dc7-125">application/json</span><span class="sxs-lookup"><span data-stu-id="85dc7-125">application/json</span></span>          |
+| <span data-ttu-id="c8043-122">Autorisatie</span><span class="sxs-lookup"><span data-stu-id="c8043-122">Authorization</span></span>  | <span data-ttu-id="c8043-123">Bearer {token} (vereist)</span><span class="sxs-lookup"><span data-stu-id="c8043-123">Bearer {token} (required)</span></span> |
+| <span data-ttu-id="c8043-124">Content-Type</span><span class="sxs-lookup"><span data-stu-id="c8043-124">Content-Type</span></span>   | <span data-ttu-id="c8043-125">application/json</span><span class="sxs-lookup"><span data-stu-id="c8043-125">application/json</span></span>          |
 
-### <a name="request-body"></a><span data-ttu-id="85dc7-126">Aanvraagtekst</span><span class="sxs-lookup"><span data-stu-id="85dc7-126">Request body</span></span>
+### <a name="request-body"></a><span data-ttu-id="c8043-126">Aanvraagtekst</span><span class="sxs-lookup"><span data-stu-id="c8043-126">Request body</span></span>
 
-<span data-ttu-id="85dc7-127">Geef voor deze methode geen aanvraagtekst op.</span><span class="sxs-lookup"><span data-stu-id="85dc7-127">Don't supply a request body for this method.</span></span>
+<span data-ttu-id="c8043-127">Geef voor deze methode geen aanvraagtekst op.</span><span class="sxs-lookup"><span data-stu-id="c8043-127">Don't supply a request body for this method.</span></span>
 
-### <a name="response"></a><span data-ttu-id="85dc7-128">Antwoord</span><span class="sxs-lookup"><span data-stu-id="85dc7-128">Response</span></span>
+### <a name="response"></a><span data-ttu-id="c8043-128">Antwoord</span><span class="sxs-lookup"><span data-stu-id="c8043-128">Response</span></span>
 
-<span data-ttu-id="85dc7-129">Een geslaagde respons is altijd een respons **204 Geen inhoud**.</span><span class="sxs-lookup"><span data-stu-id="85dc7-129">A successful response is always a **204 No Content** response.</span></span>
+<span data-ttu-id="c8043-129">Een geslaagde respons is altijd een respons **204 Geen inhoud**.</span><span class="sxs-lookup"><span data-stu-id="c8043-129">A successful response is always a **204 No Content** response.</span></span>
 
-<span data-ttu-id="85dc7-130">Niet-geautoriseerde aanroepers ontvangen een respons **401 Niet-geautoriseerd** of **403 Verboden**.</span><span class="sxs-lookup"><span data-stu-id="85dc7-130">Unauthorized callers will receive a **401 Unauthorized** or a **403 Forbidden** response.</span></span>
+<span data-ttu-id="c8043-130">Niet-geautoriseerde aanroepers ontvangen een respons **401 Niet-geautoriseerd** of **403 Verboden**.</span><span class="sxs-lookup"><span data-stu-id="c8043-130">Unauthorized callers will receive a **401 Unauthorized** or a **403 Forbidden** response.</span></span>
 
-<span data-ttu-id="85dc7-131">Als de indiening mislukt (bijvoorbeeld vanwege de validatie), is de respons **500 Serverfout** en bevat de responstekst een JSON-object met nadere details.</span><span class="sxs-lookup"><span data-stu-id="85dc7-131">If submission is unsuccessful (because of validation, for example), the response will be a **500 Server Error**, and the response body will include a JSON object with further details.</span></span>
+<span data-ttu-id="c8043-131">Als de indiening mislukt (bijvoorbeeld vanwege de validatie), is de respons **500 Serverfout** en bevat de responstekst een JSON-object met nadere details.</span><span class="sxs-lookup"><span data-stu-id="c8043-131">If submission is unsuccessful (because of validation, for example), the response will be a **500 Server Error**, and the response body will include a JSON object with further details.</span></span>
 
-## <a name="example"></a><span data-ttu-id="85dc7-132">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="85dc7-132">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c8043-132">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="c8043-132">Example</span></span>
 
 ```http
 POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespaces/b2eb8003-334f-4a84-ab63-edbe23569090/data/MyLeaveRequests(RequestId='USMF-000065', LeaveType='Vacation', LeaveDate=2019-10-04T12:00:00Z, dataAreaId='USMF')/Microsoft.Dynamics.DataEntities.submit
@@ -92,19 +92,19 @@ POST https://aos-rts-sf-550e5c091f6-prod-westus2.hr.talent.dynamics.com/namespac
 }
 ```
 
-## <a name="validation-and-error-messages"></a><span data-ttu-id="85dc7-133">Validatie- en foutberichten</span><span class="sxs-lookup"><span data-stu-id="85dc7-133">Validation and error messages</span></span>
+## <a name="validation-and-error-messages"></a><span data-ttu-id="c8043-133">Validatie- en foutberichten</span><span class="sxs-lookup"><span data-stu-id="c8043-133">Validation and error messages</span></span>
 
-<span data-ttu-id="85dc7-134">Als onderdeel van de aanroep van de Submit-API voert Human Resources de validatie van bedrijfslogica uit vóór indiening, waardoor de verlofaanvraag een geldige status heeft voor indiening.</span><span class="sxs-lookup"><span data-stu-id="85dc7-134">As part of the call to the submit API, Human Resources performs business logic validation before submission, which ensures the leave request is in a valid state for submission.</span></span> <span data-ttu-id="85dc7-135">De mogelijke foutberichten die worden weergegeven in de respons als validaties mislukken zijn:</span><span class="sxs-lookup"><span data-stu-id="85dc7-135">The possible error messages you may receive in the response if validations fail are:</span></span>
+<span data-ttu-id="c8043-134">Als onderdeel van de aanroep van de Submit-API voert Human Resources de validatie van bedrijfslogica uit vóór indiening, waardoor de verlofaanvraag een geldige status heeft voor indiening.</span><span class="sxs-lookup"><span data-stu-id="c8043-134">As part of the call to the submit API, Human Resources performs business logic validation before submission, which ensures the leave request is in a valid state for submission.</span></span> <span data-ttu-id="c8043-135">De mogelijke foutberichten die worden weergegeven in de respons als validaties mislukken zijn:</span><span class="sxs-lookup"><span data-stu-id="c8043-135">The possible error messages you may receive in the response if validations fail are:</span></span>
 
- - <span data-ttu-id="85dc7-136">Met de aanvraag wordt het saldo '{LeaveTypeId}' onder het toegestane minimumsaldo van {date} gezet.</span><span class="sxs-lookup"><span data-stu-id="85dc7-136">The request would put the '{LeaveTypeId}' balance below the allowed minimum balance on {date}.</span></span>
- - <span data-ttu-id="85dc7-137">Verlofaanvraag met status Voltooid kan niet worden ingediend.</span><span class="sxs-lookup"><span data-stu-id="85dc7-137">Time off request in Completed state cannot be submitted.</span></span>
- - <span data-ttu-id="85dc7-138">Kan de aanvraag niet indienen of opslaan omdat er geen wijzigingen zijn aangebracht.</span><span class="sxs-lookup"><span data-stu-id="85dc7-138">Unable to submit or save request as no changes have been made.</span></span> <span data-ttu-id="85dc7-139">Voeg het bedrag of het verloftype toe of werk het bij en probeer vervolgens het opnieuw.</span><span class="sxs-lookup"><span data-stu-id="85dc7-139">Add or update the amount or the leave type and try again.</span></span>
- - <span data-ttu-id="85dc7-140">De ingevoerde verlofaanvraag bevat een of meer dagen met dezelfde datum en hetzelfde verloftype als een bestaande aanvraag in behandeling.</span><span class="sxs-lookup"><span data-stu-id="85dc7-140">The time off request entered contains one or more days with the same date and leave type as an existing pending request.</span></span> <span data-ttu-id="85dc7-141">Trek de bestaande aanvraag in om wijzigingen aan te brengen.</span><span class="sxs-lookup"><span data-stu-id="85dc7-141">Please recall the existing request to make changes.</span></span>
- - <span data-ttu-id="85dc7-142">Redencode '{ReasonCodeId}' is niet van toepassing op een van de verloftypen in de aanvraag.</span><span class="sxs-lookup"><span data-stu-id="85dc7-142">Reason code '{ReasonCodeId}' doesn't apply to any of the leave types in the request.</span></span>
- - <span data-ttu-id="85dc7-143">Voor verloftype '{LeaveTypeId}' is een redencode vereist.</span><span class="sxs-lookup"><span data-stu-id="85dc7-143">Leave type '{LeaveTypeId}' requires a reason code.</span></span> <span data-ttu-id="85dc7-144">Selecteer het toepasselijke type en de bijbehorende redencode.</span><span class="sxs-lookup"><span data-stu-id="85dc7-144">Select the appropriate type and reason code.</span></span>
- - <span data-ttu-id="85dc7-145">Het indienen van het verlof is mislukt.</span><span class="sxs-lookup"><span data-stu-id="85dc7-145">The time off was not submitted successfully.</span></span> <span data-ttu-id="85dc7-146">Het verlof is opgeslagen als een conceptaanvraag.</span><span class="sxs-lookup"><span data-stu-id="85dc7-146">The time off has been saved as a draft request.</span></span>
+ - <span data-ttu-id="c8043-136">Met de aanvraag wordt het saldo '{LeaveTypeId}' onder het toegestane minimumsaldo van {date} gezet.</span><span class="sxs-lookup"><span data-stu-id="c8043-136">The request would put the '{LeaveTypeId}' balance below the allowed minimum balance on {date}.</span></span>
+ - <span data-ttu-id="c8043-137">Verlofaanvraag met status Voltooid kan niet worden ingediend.</span><span class="sxs-lookup"><span data-stu-id="c8043-137">Time off request in Completed state cannot be submitted.</span></span>
+ - <span data-ttu-id="c8043-138">Kan de aanvraag niet indienen of opslaan omdat er geen wijzigingen zijn aangebracht.</span><span class="sxs-lookup"><span data-stu-id="c8043-138">Unable to submit or save request as no changes have been made.</span></span> <span data-ttu-id="c8043-139">Voeg het bedrag of het verloftype toe of werk het bij en probeer vervolgens het opnieuw.</span><span class="sxs-lookup"><span data-stu-id="c8043-139">Add or update the amount or the leave type and try again.</span></span>
+ - <span data-ttu-id="c8043-140">De ingevoerde verlofaanvraag bevat een of meer dagen met dezelfde datum en hetzelfde verloftype als een bestaande aanvraag in behandeling.</span><span class="sxs-lookup"><span data-stu-id="c8043-140">The time off request entered contains one or more days with the same date and leave type as an existing pending request.</span></span> <span data-ttu-id="c8043-141">Trek de bestaande aanvraag in om wijzigingen aan te brengen.</span><span class="sxs-lookup"><span data-stu-id="c8043-141">Please recall the existing request to make changes.</span></span>
+ - <span data-ttu-id="c8043-142">Redencode '{ReasonCodeId}' is niet van toepassing op een van de verloftypen in de aanvraag.</span><span class="sxs-lookup"><span data-stu-id="c8043-142">Reason code '{ReasonCodeId}' doesn't apply to any of the leave types in the request.</span></span>
+ - <span data-ttu-id="c8043-143">Voor verloftype '{LeaveTypeId}' is een redencode vereist.</span><span class="sxs-lookup"><span data-stu-id="c8043-143">Leave type '{LeaveTypeId}' requires a reason code.</span></span> <span data-ttu-id="c8043-144">Selecteer het toepasselijke type en de bijbehorende redencode.</span><span class="sxs-lookup"><span data-stu-id="c8043-144">Select the appropriate type and reason code.</span></span>
+ - <span data-ttu-id="c8043-145">Het indienen van het verlof is mislukt.</span><span class="sxs-lookup"><span data-stu-id="c8043-145">The time off was not submitted successfully.</span></span> <span data-ttu-id="c8043-146">Het verlof is opgeslagen als een conceptaanvraag.</span><span class="sxs-lookup"><span data-stu-id="c8043-146">The time off has been saved as a draft request.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="85dc7-147">Zie ook</span><span class="sxs-lookup"><span data-stu-id="85dc7-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c8043-147">Zie ook</span><span class="sxs-lookup"><span data-stu-id="c8043-147">See also</span></span>
 
-- [<span data-ttu-id="85dc7-148">MyLeaveRequests-overzicht</span><span class="sxs-lookup"><span data-stu-id="85dc7-148">MyLeaveRequests overview</span></span>](hr-developer-api-myleaverequests-overview.md)
-- [<span data-ttu-id="85dc7-149">Verificatie</span><span class="sxs-lookup"><span data-stu-id="85dc7-149">Authentication</span></span>](hr-developer-api-authentication.md)
+- [<span data-ttu-id="c8043-148">MyLeaveRequests-overzicht</span><span class="sxs-lookup"><span data-stu-id="c8043-148">MyLeaveRequests overview</span></span>](hr-developer-api-myleaverequests-overview.md)
+- [<span data-ttu-id="c8043-149">Verificatie</span><span class="sxs-lookup"><span data-stu-id="c8043-149">Authentication</span></span>](hr-developer-api-authentication.md)
