@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: c5041d515b261bb3e4b14885e0ec0ce788edf729
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668940"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112059"
 ---
 # <a name="go-live-faq"></a>Veelgestelde vragen over go-live 
 
@@ -66,7 +66,7 @@ Hoewel u niet direct toegang kunt krijgen tot de Azure-resources of Dynamics 365
 
 - U kunt een Azure SQL-database implementeren in uw eigen Azure-tenant en de BYOD-functie (Bring Your Own Database) gebruiken om gegevens te synchroniseren. Meer informatie over BYOD vindt u in [Uw eigen database gebruiken (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).
 
-- U kunt Common Data Service-integratie gebruiken om geselecteerde entiteiten te synchroniseren met de Common Data Service-database. Zie [Common Data Service-entiteiten](hr-developer-entities.md) voor meer informatie. 
+- U kunt Dataverse-integratie gebruiken om geselecteerde entiteiten te synchroniseren met de Dataverse-database. Zie [Dataverse-tabellen](hr-developer-entities.md) voor meer informatie. 
 
 ## <a name="how-often-is-my-production-database-backed-up"></a>Hoe vaak wordt er een back-up van mijn productiedatabase gemaakt? 
 
@@ -99,6 +99,3 @@ Als u een storing in de productie wilt rapporteren, volgt u het proces dat wordt
  ## <a name="see-also"></a>Zie ook
 
  [Voorbereiden voor go-live](hr-admin-go-live-prepare.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

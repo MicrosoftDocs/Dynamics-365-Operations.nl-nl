@@ -2,7 +2,7 @@
 title: Overzicht van Vergoedingenbeheer
 description: Overzicht van de functie Vergoedingenbeheer in Dynamics 365 Human Resources. Bied uw werknemers uitgebreide vergoedingsopties met een gebruiksvriendelijke online ervaring.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4ae4270f3185f8795753ecdb209515ecd6e86486
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417944"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112119"
 ---
 # <a name="benefits-management-overview"></a>Overzicht van Vergoedingenbeheer
 
@@ -97,6 +97,3 @@ U moet enkele wijzigingen verwerken om deze actief te maken.
 - [Geschiktheid voor levensgebeurtenis verwerken](hr-benefits-process-life-event-eligibility.md)
 - [Tariefwijzigingen verwerken](hr-benefits-process-rate-changes.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

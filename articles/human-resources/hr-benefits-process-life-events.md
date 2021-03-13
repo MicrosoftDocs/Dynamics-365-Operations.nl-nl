@@ -2,7 +2,7 @@
 title: Levensgebeurtenissen verwerken
 description: Tijdens de levenscyclus van werknemers in Microsoft Dynamics 365 Human Resources, kan iedere werknemer verschillende levensgebeurteniswijzigingen ondergaan.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ada986888a22afe83885985a694cd00ff94c9217
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 42b7e2606bca4bb5eda1c9bfc7940f9067c4b943
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417929"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112041"
 ---
 # <a name="process-life-events"></a>Levensgebeurtenissen verwerken
 
@@ -57,6 +57,3 @@ Als het bijvoorbeeld vandaag 1 februari is, op 14 februari medewerker Joe Smith 
    4. Selecteer **OK**. Het proces wordt uitgevoerd met de parameters die u instelt.
 
 4. Selecteer **OK**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

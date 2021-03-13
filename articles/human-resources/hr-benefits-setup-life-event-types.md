@@ -2,7 +2,7 @@
 title: Typen levensgebeurtenissen configureren
 description: Microsoft Dynamics 365 Human Resources gebruikt typen levensgebeurtenissen om gebeurtenissen te definiëren waarbij de inschrijving voor vergoedingen van werknemers kan worden bijgewerkt.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417966"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112102"
 ---
 # <a name="configure-life-event-types"></a>Typen levensgebeurtenissen configureren
 
@@ -88,6 +88,3 @@ U kunt kiezen uit de volgende levensgebeurtenissen wanneer u een type levensgebe
 | **Negeren van geschiktheidsregel verlopen (niet specifiek VS)** | Human resources - geavanceerd > Vergoedingen > Plannen > Vergoedingen > Geschiktheidsregel negeren | Bij verwerking van wijziging van levensgebeurtenissen. Als u bijvoorbeeld de vervaldatum voor het negeren van een geschiktheidsregel voor een plan wijzigt in vandaag 17:00 uur, wordt op enig moment na 17:00 uur of in de komende dagen na uitvoering van de verwerking van wijzigingen levensgebeurtenissen een bericht weergegeven dat het negeren van de geschiktheidsregel is verlopen. |
 | **Nieuw vergoedingsplan (niet specifiek VS)** | Human resources -geavanceerd > Vergoedingen > Plannen > Nieuw | <ul><li>Geschiktheidsopties worden toegevoegd aan een huidig plan</li><li>Er wordt een nieuw plan met hieraan gekoppelde opties toegevoegd</li></ul></br></br>HR-personeel moet in dit geval de geschiktheidsverwerking voor de levensgebeurtenis uitvoeren. |
 | **Wijziging geschiktheidsregel (niet specifiek VS)** | Human resources - geavanceerd > Vergoedingen > Regels/opties > Geschiktheidsregels | Bij verwerking van geschiktheid van levensgebeurtenissen. Dit wordt geregistreerd als in **EhrBenefitEligibilityRule**-records de volgende waarden worden gewijzigd: **UseEmplCategory**, **UseEmplStatus** of **UseEmplType**. Er worden alleen levensgebeurtenistransacties bijgewerkt die al bestaan voor een gewijzigde regel of geschiktheidscriterium. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

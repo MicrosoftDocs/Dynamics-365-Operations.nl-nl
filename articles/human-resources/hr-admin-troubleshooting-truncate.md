@@ -2,7 +2,7 @@
 title: Tekstafbreking in de positiehiërarchie vermijden en exporteren naar Visio
 description: In dit artikel wordt uitgelegd hoe u het probleem oplost dat namen van personen en posities worden afgekapt wanneer klanten de positiehiërarchie weergeven in Microsoft Dynamics 365 Human Resources. Tekstafbreking kan het moeilijk maken om een schermopname te maken of de hiërarchie af te drukken.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02fb0098cc6f5a0b353e827653b1c8c96af2470c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0dc91d3165f14c165f75756dc63a3dc8f63149aa
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417986"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112066"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Tekstafbreking in de positiehiërarchie vermijden en exporteren naar Visio
 
@@ -104,6 +104,3 @@ Op basis van de velden die u hebt geselecteerd voor het diagram worden voor elk 
 **Aanvullende optie**
 
 In Human Resources kunt u mogelijk ook het werkgebied **Mensen** gebruiken om bepaalde hiërarchiegerelateerde informatie weer te geven.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

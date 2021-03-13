@@ -2,7 +2,7 @@
 title: Het updateproces
 description: Microsoft Dynamics 365 Human Resources is echt software in de vorm van een service (SaaS) die voortdurende 'touchless' updates verzorgt met wijzigingen in toepassingen en platforms.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d841a026f589d774ec5ada3ac9adcc84dde9aee1
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4bb5f7dc17c8f4f3a54bd285cb55088f2176db4a
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527797"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112051"
 ---
 # <a name="update-process"></a>Het updateproces
 
@@ -43,7 +43,7 @@ Human Resources-updates worden automatisch op alle omgevingen toegepast. Human R
 
     Alle ondersteunde gegevenscentra worden tweewekelijks bijgewerkt, tenzij anders aangegeven. In de volgende regio's worden tweewekelijkse updates uitgebracht: Verenigde Staten, Australië, Europa, Groot-Brittannië, Azië en Canada. 
 
-- **Common Data Service-oplossingsupdates**: deze updates worden ongeveer om de zes weken uitgevoerd, indien nodig. Deze bevatten nieuwe entiteiten en wijzigingen in bestaande entiteiten in Common Data Service. Deze updates worden in dezelfde regio's uitgebracht als de tweewekelijkse updates en het duurt ongeveer zes weken voordat ze door alle datacentra zijn gerepliceerd. Oplossingsupdates kunnen al dan niet samenvallen met tweewekelijkse service-updates.
+- **Dataverse-oplossingsupdates**: deze updates worden ongeveer om de zes weken uitgevoerd, indien nodig. Deze bevatten nieuwe entiteiten en wijzigingen in bestaande entiteiten in Dataverse. Deze updates worden in dezelfde regio's uitgebracht als de tweewekelijkse updates en het duurt ongeveer zes weken voordat ze door alle datacentra zijn gerepliceerd. Oplossingsupdates kunnen al dan niet samenvallen met tweewekelijkse service-updates.
 
 > [!NOTE]
 > Oplossingsupdates zijn beschikbaar in alle datacentra zodra deze zijn uitgebracht. Als u niet wilt wachten totdat de updates automatisch worden gerepliceerd, kunt u deze updates handmatig toepassen op elke willekeurige omgeving in elk datacentrum.
@@ -105,6 +105,3 @@ Tijdens het testen van preview-functies of het uitproberen van nieuwe mogelijkhe
 [Nieuwe of gewijzigde functies in Dynamics 365 Human Resource](hr-admin-whats-new.md)</br>
 [Lifecycle-beleid voor software](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

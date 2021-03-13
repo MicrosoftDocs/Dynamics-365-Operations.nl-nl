@@ -2,7 +2,7 @@
 title: Toekomstige levensgebeurtenissen configureren
 description: U kunt toekomstige levensgebeurtenissen plannen in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 78c65faa4ae0f428184700a912998e9dded026c5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f10d7b6c9b45f6cedc16972fb157e43b7e0c40b3
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417935"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112117"
 ---
 # <a name="configure-future-life-events"></a>Toekomstige levensgebeurtenissen configureren
 
@@ -46,6 +46,3 @@ U kunt toekomstige levensgebeurtenissen plannen in Dynamics 365 Human Resources.
    | Regel | Het regelnummer van de toekomstige levensgebeurtenis. |
 
 4. Selecteer **Opslaan**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

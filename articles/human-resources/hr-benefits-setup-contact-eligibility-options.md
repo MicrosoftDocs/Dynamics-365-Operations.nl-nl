@@ -2,7 +2,7 @@
 title: Geschiktheidsopties voor persoonlijke contactpersonen configureren
 description: Configureer geschiktheidsopties voor persoonlijke contactpersonen in Microsoft Dynamics 365 Human Resources. Persoonlijke contactpersonen kunnen begunstigden of gezinsleden zijn.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 68364b0cc1c579a3ee9813474c9d3f6e4df1c05d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 137416477928fd4d6b4438f25df5afea93972027
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418001"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112088"
 ---
 # <a name="configure-personal-contact-eligibility-options"></a>Geschiktheidsopties voor persoonlijke contactpersonen configureren
 
@@ -45,6 +45,3 @@ In dit artikel wordt beschreven hoe u typen persoonlijke contactpersonen voor ve
    | **Leeftijd** | De maximale leeftijd van een geschikte persoonlijke contactpersoon voor het vergoedingsplan. Dit veld is alleen actief als u een relatie selecteert. Deze leeftijd wordt vergeleken met de berekende leeftijd van de persoonlijke contactpersoon. Berekende leeftijd is: (dekkingsdatum – geboortedatum van persoonlijke contactpersoon/365). Dit aantal is altijd een geheel getal. |
 
 4. Selecteer **Opslaan**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

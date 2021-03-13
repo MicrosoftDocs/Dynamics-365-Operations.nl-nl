@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
+ms.openlocfilehash: b4196532be8ad40bacb8d614c6b0c86215b00bdb
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "4418055"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112033"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Voorbereiden op go-live van Human Resources
 
@@ -53,28 +53,36 @@ In de volgende tabel worden alle stappen in het proces weergegeven, de verwachte
 
 ## <a name="completing-the-lcs-methodology"></a>De LCS-methodologie voltooien
 
-Een belangrijke mijlpaal in elk implementatieproject is de cutover naar de productieomgeving. 
-
-Om ervoor te zorgen dat de productieomgeving wordt gebruikt voor live bewerkingen, verstrekt Microsoft het productie-exemplaar alleen wanneer de implementatie de fase **Uitvoeren** nadert, nadat de vereiste activiteiten in de LCS-methodologie zijn voltooid. Zie de  [Dynamics 365-licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=866544) voor meer informatie over de omgevingen in uw abonnement. 
-
-Klanten moeten de fasen **Analyse**, **Ontwerpen en ontwikkelen** en **Testen** in de LCS-methodologie uitvoeren vóór de knop  **Configureren**  om te vragen of de productieomgeving beschikbaar wordt. Als u een fase in LCS wilt voltooien, moet u eerst elke vereiste stap in die fase voltooien. Wanneer alle stappen in een fase zijn voltooid, kunt u de gehele fase voltooien. U kunt een fase later altijd opnieuw openen als u wijzigingen moet aanbrengen. Zie  [Lifecycle Services (LCS) voor klanten van Finance and Operations-apps](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs) voor meer informatie. 
-
-Het proces voor het uitvoeren van een stap bestaat uit twee delen: 
+Een belangrijke mijlpaal in elk implementatieproject is de cutover naar de productieomgeving. Het proces voor het uitvoeren van een stap bestaat uit twee delen: 
 
 - De werkelijke werkzaamheden uitvoeren, zoals een geschiktheids-/hiaatanalyse of acceptatietesten door de gebruiker (UAT). 
 - De corresponderende stap in de LCS-methodologie als voltooid markeren. 
 
-Het is raadzaam de stappen in de methodologie te voltooien terwijl u de implementatie uitvoert. Wacht niet tot het laatste moment. Klik niet zomaar op alle stappen om een productieomgeving te krijgen. Het is voor de klant het beste om een solide implementatie te hebben. 
+Het is raadzaam de stappen in de methodologie te voltooien terwijl u de implementatie uitvoert. Wacht niet tot het laatste moment. Het is voor de klant het beste om een solide implementatie te hebben. 
 
 ## <a name="uat-for-your-solution"></a>UAT voor uw oplossing
 
 Tijdens de UAT-fase moet u alle bedrijfsprocessen die u hebt geïmplementeerd en alle aanpassingen die u hebt aangebracht, testen in een Sandbox-omgeving in het implementatieproject. Houd bij het voltooien van de UAT-fase rekening met het volgende als u zeker wilt zijn van een succesvolle go-live: 
 
+- We raden u aan uw UAT-proces te starten met een schone omgeving waarin de gegevens uit uw GOLD-configuratie vóór het begin van het UAT-proces naar de omgeving worden gekopieerd. Wij raden u aan de productieomgeving als uw GOLD-omgeving te gebruiken totdat u live gaat, waarna de omgeving een productieomgeving wordt.
 - Testcases omvatten het gehele bereik van vereisten. 
 - Test met behulp van gemigreerde gegevens. Deze gegevens moeten hoofdgegevens zoals werknemers, taken en posities omvatten. Neem ook beginsaldi op, zoals verlof- en verzuimtoerekeningen. Neem tot slot openstaande transacties op, zoals huidige inschrijvingen voor vergoedingen. Voer testen met alle typen gegevens uit, zelfs als de gegevensset niet is voltooid. 
 - Test met behulp van de juiste beveiligingsrollen (standaardrollen en aangepaste rollen) die aan gebruikers zijn toegewezen. 
 - Zorg ervoor dat de oplossing voldoet aan alle bedrijfsspecifieke en sectorspecifieke wettelijke vereisten. 
 - Documenteer alle functies en verkrijg goedkeuring en meld u af bij de klant. 
+
+## <a name="mock-go-live"></a>Go-live simulatie
+
+Voorafgaand aan uw go-live, moet u een simulatie go-live uitvoeren om de stappen die nodig zijn voor de cutover van uw legacy-systemen naar het nieuwe systeem te testen. U moet een go-live simulatie uitvoeren in een sandbox-omgeving en alle stappen in uw cutover-plan opnemen.
+
+- We raden u aan de productieomgeving als GOLD-configuratieomgeving te gebruiken tot de go-live.
+- Zorg ervoor dat u over een sterk governanceproces beschikt om de productieomgeving te beschermen tegen onbedoelde transacties of updates voorafgaand aan de go-live.
+- Wanneer u klaar bent om UAT of de go-live simulatie uit te voeren, vernieuwt u de sandbox-omgeving vanuit de productieomgeving. Zie [Een exemplaar kopiëren](hr-admin-setup-copy-instance.md) voor meer informatie.
+- Test elke stap van uw cutover-plan in de sandbox-omgeving en valideer vervolgens de sandbox-omgeving door steekproefcontroles uit te voeren of tests uit te voeren vanuit uw UAT-scripts in de omgeving.
+  - Tests moeten alle gegevensmigraties omvatten, inclusief transformaties die nodig zijn voor de go-live.
+  - Het proces moet een oefen-cutoff van eventuele legacy-systemen omvatten.
+  - Zorg ervoor dat u integratie-cutoverstappen of externe systeemstappen opneemt in uw cutover-simulatie.
+- Als u problemen ondervindt tijdens de cutover-simulatie, kan een tweede simulatie nodig zijn. Daarom raden we u aan twee cutover-simulaties in uw projectplan te plannen.
 
 ## <a name="fasttrack-go-live-assessment"></a>Go-live-beoordeling van FastTrack
 
@@ -91,5 +99,3 @@ Nadat u de controlelijst hebt ingediend, zal uw FastTrack Solution Architect het
 ## <a name="see-also"></a>Zie ook
 
 [Veelgestelde vragen over go-live](hr-admin-go-live-faq.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

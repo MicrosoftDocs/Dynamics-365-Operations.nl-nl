@@ -2,7 +2,7 @@
 title: Tarieven configureren
 description: Tarieven in Microsoft Dynamics 365 Human Resources bepalen hoeveel werkgevers en werknemers bijdragen voor een vergoeding.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e397e20b6b6307349020c8dfd238b4b59eeca527
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f5c2ce14f6a0ff830ce2645496a35fb98d6a6ab
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418004"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112058"
 ---
 # <a name="configure-rates"></a>Tarieven configureren
 
@@ -93,6 +93,3 @@ U kunt ook dubbele niveaus gebruiken. Als u **Dubbel niveau** selecteert voor de
    | **Flex-krediet voor rokerstarief** | Het aantal flex-kredieten dat de vergoeding kost, gebaseerd op de berekening die is gedefinieerd voor het tariefniveau voor rokers. |
 
 5. Selecteer **Opslaan**. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

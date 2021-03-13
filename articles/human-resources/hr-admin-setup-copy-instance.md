@@ -2,7 +2,7 @@
 title: Een exemplaar kopiëren
 description: U kunt Microsoft Dynamics Lifecycle Services (LCS) gebruiken om een Microsoft Dynamics 365 Human Resources-database naar een sandbox-omgeving te kopiëren.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/22/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 40ca0a4d9733fc2a163daa4ea1c27a3bfae6d3bf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: a62cee979fc8d986102c3b774cd937a24bdd7439
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527832"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112067"
 ---
 # <a name="copy-an-instance"></a>Een exemplaar kopiëren
 
@@ -41,7 +41,7 @@ Houd rekening met de volgende tips als u een exemplaar wilt kopiëren:
 
 - Wanneer u de Human Resources-database kopieert, kopieert u niet de elementen (apps of gegevens) die zijn opgenomen in een Microsoft Power Apps-omgeving. Zie [Een omgeving kopiëren](https://docs.microsoft.com/power-platform/admin/copy-environment) voor informatie over het kopiëren van elementen in een Power Apps-omgeving. De Power Apps-omgeving die u wilt overschrijven, moet een sandbox-omgeving zijn. U moet een globale tenantbeheerder zijn om een Power Apps-productieomgeving te wijzigen in een sandbox-omgeving. Zie [Schakelen tussen exemplaren](https://docs.microsoft.com/dynamics365/admin/switch-instance) voor meer informatie over het wijzigen van een Power Apps-omgeving.
 
-- Als u een exemplaar in uw sandbox-omgeving kopieert en u de sandbox-omgeving wilt integreren met Common Data Service, moet u aangepaste velden opnieuw toepassen op Common Data Service-entiteiten. Zie [Aangepaste velden toepassen op Common Data Service](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
+- Als u een exemplaar in uw sandbox-omgeving kopieert en u de sandbox-omgeving wilt integreren met Dataverse, moet u aangepaste velden opnieuw toepassen op Dataverse-tabellen. Zie [Aangepaste velden toepassen op Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
 ## <a name="effects-of-copying-a-human-resources-database"></a>De gevolgen van het kopiëren van een Human Resources-database
 
@@ -72,7 +72,7 @@ Als u deze taak wilt voltooien, kopieert u eerst een exemplaar en meldt u zich v
 
 4. Selecteer in het taak venster **Een exemplaar kopiëren** het exemplaar dat u wilt overschrijven en selecteer vervolgens **Kopiëren**. Wacht totdat de waarde in het veld **Kopieerstatus** is bijgewerkt naar **Voltooid**.
 
-   ![[Selecteer het exemplaar dat u wilt overschrijven](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
+   ![[Selecteer de instantie die u wilt overschrijven](./media/copy-instance-select-target-instance.png)](./media/copy-instance-select-target-instance.png)
 
 5. Selecteer **Power Platform** en meld u aan bij het Microsoft Power Platform-beheercentrum.
 
@@ -80,7 +80,7 @@ Als u deze taak wilt voltooien, kopieert u eerst een exemplaar en meldt u zich v
 
 6. Selecteer de Power Apps-omgeving die u wilt kopiëren en selecteer vervolgens **Kopiëren**.
 
-7. Wanneer het kopieerproces is voltooid, meldt u zich aan bij het doelexemplaar en schakelt u Common Data Service-integratie in. Zie voor meer informatie en instructies [Common Data Service-integratie configureren](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Wanneer het kopieerproces is voltooid, meldt u zich aan bij het doelexemplaar en schakelt u Dataverse-integratie in. Zie voor meer informatie en instructies [Dataverse-integratie configureren](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
 
 ## <a name="data-elements-and-statuses"></a>Gegevenselementen en statussen
 
@@ -122,11 +122,11 @@ Alle gebruikers in de sandbox-doelomgeving, inclusief beheerders, worden vervang
 
 Alle gebruikers die geen beheerder zijn in de sandbox-doelomgeving, zijn uitgeschakeld om ongewenste aanmeldingen in de sandbox-omgeving te voorkomen. Beheerders kunnen gebruikers zo nodig opnieuw inschakelen.
 
-## <a name="apply-custom-fields-to-common-data-service"></a>Aangepaste velden toepassen op Common Data Service
+## <a name="apply-custom-fields-to-dataverse"></a>Aangepaste velden toepassen op Dataverse
 
-Als u een exemplaar in uw sandbox-omgeving kopieert en u de sandbox-omgeving wilt integreren met Common Data Service, moet u aangepaste velden opnieuw toepassen op Common Data Service-entiteiten.
+Als u een exemplaar in uw sandbox-omgeving kopieert en u de sandbox-omgeving wilt integreren met Dataverse, moet u aangepaste velden opnieuw toepassen op Dataverse-tabellen.
 
-Voer de volgende stappen uit voor elk aangepast veld dat wordt weergegeven in Common Data Service-entiteiten:
+Voer de volgende stappen uit voor elk aangepast veld dat wordt weergegeven in Dataverse-tabellen:
 
 1. Ga naar het aangepaste veld en selecteer **Bewerken**.
 
@@ -140,7 +140,7 @@ Voer de volgende stappen uit voor elk aangepast veld dat wordt weergegeven in Co
 
 6. Selecteer opnieuw **Wijzigingen toepassen**.
 
-Door het proces van uitschakelen, wijzigingen toepassen, opnieuw inschakelen en wijzigingen weer toepassen, wordt het schema in Common Data Service bijgewerkt met de aangepaste velden.
+Door het proces van uitschakelen, wijzigingen toepassen, opnieuw inschakelen en wijzigingen weer toepassen, wordt het schema in Dataverse bijgewerkt met de aangepaste velden.
 
 Meer informatie over aangepaste velden vindt u in [Aangepaste velden maken en gebruiken](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
 
@@ -150,6 +150,3 @@ Meer informatie over aangepaste velden vindt u in [Aangepaste velden maken en ge
 [Een exemplaar verwijderen](hr-admin-setup-remove-instance.md)</br>
 [Het updateproces](hr-admin-setup-update-process.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

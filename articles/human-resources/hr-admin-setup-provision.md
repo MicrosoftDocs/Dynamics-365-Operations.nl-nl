@@ -2,7 +2,7 @@
 title: Human resources inrichten
 description: In dit artikel wordt u door het proces van het inrichten van een nieuwe productieomgeving voor Microsoft Dynamics 365 Human Resources geleid.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/23/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 106976edfa2bd7efba41887d5e8f4243b56e7b2f
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1a57180c60be4b4686c274aecbf86f0bc6c8b2fb
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527785"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112015"
 ---
 # <a name="provision-human-resources"></a>Human resources inrichten
 
@@ -32,6 +32,23 @@ ms.locfileid: "4527785"
 In dit artikel wordt u door het proces van het inrichten van een nieuwe productieomgeving voor Microsoft Dynamics 365 Human Resources geleid. In dit artikel wordt ervan uitgegaan dat u Human Resources hebt aangeschaft via een provider van cloudoplossingen of een EA-overeenkomst (Enterprise Architecture). Als u een bestaande Microsoft Dynamics 365-licentie hebt waarin het Human Resources-serviceabonnement al is opgenomen en u de stappen in dit artikel niet kunt voltooien, neemt u contact op met de ondersteuning.
 
 Om te beginnen, moet de globale beheerder zich aanmelden bij [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) en een nieuw Human Resources-project maken. Tenzij u vanwege een licentieprobleem Human Resources niet kunt inrichten, hebt u geen ondersteuning van vertegenwoordigers van de ondersteuning of DSE (Dynamics Service Engineering) nodig.
+
+## <a name="plan-human-resources-environments"></a>Human Resources-omgevingen plannen
+
+Voordat u uw eerste Human Resources-omgeving maakt, moet u de omgevingsbehoeften voor uw project zorgvuldig plannen. Een basisabonnement op Human Resources omvat twee omgevingen: een productieomgeving en een werkomgeving. Afhankelijk van de complexiteit van uw project moet u mogelijk extra omgevingen voor uw bedrijf aanschaffen ter ondersteuning van projectactiviteiten. 
+
+Voor extra omgevingen is onder andere het volgende van belang:
+
+- **Gegevensmigratie**: mogelijk moet u rekening houden met een extra omgeving voor gegevensmigratieactiviteiten, zodat uw omgeving kan worden gebruikt voor testdoeleinden tijdens het project. Als u een extra omgeving hebt, kunnen activiteiten voor gegevensmigratie worden voortgezet terwijl de test- en configuratieactiviteiten gelijktijdig plaatsvinden in een andere omgeving.
+- **Integratie**: mogelijk moet u rekening houden met een extra omgeving voor het configureren en testen van integraties. Dit kan native integraties omvatten, zoals de Ceridian Dayforce LinkedIn Talent Hub-integraties, of aangepaste integraties, zoals die voor salarisadministratie, volgsystemen voor sollicitanten of vergoedingssystemen en leveranciers.
+- **Training**: u hebt mogelijk een afzonderlijke omgeving nodig die is geconfigureerd met een set trainingsgegevens om uw werknemers te trainen het nieuwe systeem te gebruiken. 
+- **Project met meerdere fasen**: u hebt mogelijk een extra omgeving nodig voor configuratie, gegevensmigratie, testen of andere activiteiten in een projectfase die is gepland na de eerste keer live gaan van het project.
+
+ > [!IMPORTANT]
+ > Het is raadzaam uw productieomgeving in uw gehele project te gebruiken als uw GOLD-configuratieomgeving. Dit is belangrijk, omdat u een sandbox-omgeving niet naar een productieomgeving kunt kopiëren. Wanneer u live gaat, is uw GOLD-omgeving uw productieomgeving en zult u uw wijzigingsactiviteiten in deze omgeving voltooien.</br></br>
+ > We raden u aan uw werkomgeving of een andere omgeving te gebruiken voor het uitvoeren van een simulatie-cutover voordat u live gaat. U kunt dit doen door de productieomgeving te vernieuwen met uw GOLD-configuratie in uw sandbox-werkomgeving.</br></br>
+ > Het is raadzaam een gedetailleerde cutover-controlelijst bij te houden, inclusief alle gegevenspakketten die nodig zijn om de definitieve gegevens naar de productieomgeving te migreren tijdens de go-live cutover.</br></br>
+ > Het is ook raadzaam uw sandbox-omgeving in uw gehele project te gebruiken als uw TEST-omgeving. Als u extra omgevingen nodig hebt, kan uw organisatie ze voor bijkomende kosten inkopen.</br></br>
 
 ## <a name="create-an-lcs-project"></a>Een LCS-project maken
 
@@ -88,7 +105,7 @@ Gebruik de volgende richtlijnen bij het bepalen in welke Power Apps-omgeving u H
 
 2. Eén Human Resources-omgeving wordt toegewezen aan één Power Apps-omgeving.
 
-3. Een Power Apps-omgeving bevat de toepassing Human Resources samen met de bijbehorende Power Apps-, Power Automate- en Common Data Service-toepassingen. Als de Power Apps-omgeving wordt verwijderd, worden ook de toepassingen erin gewist. Tijdens het inrichten van een Human Resources-omgeving kunt u een omgeving **Proef** of **Productie** inrichten. Kies het type omgeving op basis van hoe de omgeving wordt gebruikt. 
+3. Een Power Apps-omgeving bevat de toepassing Human Resources samen met de bijbehorende Power Apps-, Power Automate- en Dataverse-toepassingen. Als de Power Apps-omgeving wordt verwijderd, worden ook de toepassingen erin gewist. Tijdens het inrichten van een Human Resources-omgeving kunt u een omgeving **Proef** of **Productie** inrichten. Kies het type omgeving op basis van hoe de omgeving wordt gebruikt. 
 
 4. Gegevensintegratie en teststrategieën moeten worden overwogen, zoals Sandbox, UAT of Productie. Het is raadzaam dat u rekening houdt met de verschillende gevolgen voor uw implementatie, aangezien de toewijzing van een Human Resources-omgeving aan een Power Apps-omgeving later niet eenvoudig te wijzigen is.
 
@@ -108,6 +125,3 @@ Gebruik de volgende richtlijnen bij het bepalen in welke Power Apps-omgeving u H
 ## <a name="grant-access-to-the-environment"></a>Toegang verlenen tot de omgeving
 
 Standaard heeft de globale beheerder die de omgeving heeft gemaakt toegang tot deze omgeving. Aan alle overige gebruikers van de toepassing moet u uitdrukkelijk toestemming verlenen. U moet gebruikers toevoegen en de juiste rollen aan deze gebruikers toewijzen in de Human Resources-omgeving. De globale beheerder die Human Resources heeft geïmplementeerd, moet ook Attract en Onboard starten om de initialisatie te voltooien en toegang in te schakelen voor andere tenantgebruikers. Totdat dit gebeurt, kunnen andere gebruikers geen toegang krijgen tot Attract en Onboard en krijgen ze toegangsovertredingsfouten. Zie voor meer informatie [Nieuwe gebruikers maken](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) en [Gebruikers toewijzen aan beveiligingsrollen](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

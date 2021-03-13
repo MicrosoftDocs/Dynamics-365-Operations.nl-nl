@@ -2,7 +2,7 @@
 title: Vastecompensatieplannen maken
 description: Vaste compensatie verwijst naar het normale brutosalaris of -loon van een werknemer. In dit artikel worden de onderdelen beschreven die u moet instellen voordat u een plan voor vaste compensatie kunt maken en werknemers kunt inschrijven.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HRCCompGrid, HRCCompRefPointSetup, HRMCompEligibility, HRMCompEvent, HRMFixedCompPlanTable, HcmCompensationWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 15991
 ms.assetid: ef8cf992-176c-4c98-9dff-6510e1eb9f1c
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 06f4a335adfc1e6f438589613efec02f92bfd756
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aa370ad5b873d707aba865b7f90e22acfc4825ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417996"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112013"
 ---
 # <a name="create-a-fixed-compensation-plans"></a>Plannen voor vaste compensatie maken
 
@@ -98,6 +98,3 @@ U kunt een werknemer nu toewijzen aan een vastecompensatieplan. Open de pagina *
 
 Het systeem controleert of het compensatiebedrag dat voor een compensatieplan is opgegeven van het type schaal of schijf, binnen de minimale en maximale referentiepunten van het opgegeven compensatieniveau voor de functie van de werknemer valt. Als het compensatiebedrag buiten het toegestane bereik valt, wordt een waarschuwing of foutbericht weergegeven, afhankelijk van het tolerantieniveau dat voor het vastecompensatieplan is ingesteld.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

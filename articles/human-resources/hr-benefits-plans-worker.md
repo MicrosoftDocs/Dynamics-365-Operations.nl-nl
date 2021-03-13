@@ -2,7 +2,7 @@
 title: Vergoedingsplannen voor medewerkers maken
 description: U kunt vergoedingsplannen voor medewerkers maken in Microsoft Dynamics 365 Human Resources om vergoedingsplannen voor werknemers te selecteren en om selecties van vergoedingsplannen te bevestigen.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ebd19cba8dd7cac8ccf6d17d4206731be87a225
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2083d3b18621ec7759b658b5ec34f2371c2ea1df
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417931"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112116"
 ---
 # <a name="create-worker-benefit-plans"></a>Vergoedingsplannen voor medewerkers maken
 
@@ -49,6 +49,3 @@ U kunt vergoedingsplannen voor medewerkers maken in Microsoft Dynamics 365 Human
    | Plannen | Het tabblad Plannen bevat de plannen die voldoen aan de filtercriteria die u hebt opgegeven. De relevante configuratieopties die zijn ingesteld door HR-personeel en de inschrijvingsselecties die door werknemers zijn gekozen, worden op elke regel opgenomen. Het veld Gekwalificeerd geeft aan of er een validatieconflict is met de planselectie. |
 
 4. Selecteer **Opslaan**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

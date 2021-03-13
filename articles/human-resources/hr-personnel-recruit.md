@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a35abcb8a2f6aa8031c8d84a44c2a8ad93883ac
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: f615584785ba48a140e4e97991a4594047fea8ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669161"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112001"
 ---
 # <a name="recruit-job-candidates"></a>Kandidaten werven
 
@@ -38,7 +38,7 @@ Met Dynamics 365 Human Resources kunt u wervingsaanvragen te beheren. Ook kunt u
 Als u geen afzonderlijke wervingsapplicatie gebruikt, kunt u de kandidaten ook handmatig beheren in Human Resources.
 
 >[!NOTE]
->Zie [Common Data Service-integratie configureren](hr-admin-integration-common-data-service.md) en [Common Data Service-virtuele entiteiten configureren](hr-admin-integration-common-data-service-virtual-entities.md) als u een beheerder of ontwikkelaar bent en u Human Resources wilt integreren met een wervingsapplicatie van derden.
+>Zie [Dataverse-integratie configureren](hr-admin-integration-common-data-service.md) en [Virtuele Dataverse-tabellen configureren](hr-admin-integration-common-data-service-virtual-entities.md) als u een beheerder of ontwikkelaar bent en u Human Resources wilt integreren met een wervingsapplicatie van derden.
 >
 > U kunt ook apps voor wervingsintegratie vinden op [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
@@ -46,15 +46,13 @@ Als u geen afzonderlijke wervingsapplicatie gebruikt, kunt u de kandidaten ook h
 
 ## <a name="enable-recruiting-requests"></a>Wervingsaanvragen inschakelen
 
-Als u wervingsaanvragen in Human Resources wilt verzenden, moet u eerst de functionaliteit **Human Resources-parameters** inschakelen.
+Als u wervingsaanvragen in Human Resources wilt verzenden, moet u eerst de functionaliteit **Gedeelde Human Resources-parameters** inschakelen.
 
 1. In de werkruimte **Personeelsbeheer** selecteert u **Koppelingen**.
 
-2. Selecteer onder **Instellen** de optie **Human resources-parameters**.
+2. Selecteer onder **Instellen** de optie **Gedeelde Human Resources-parameters**.
 
-3. Op het tabblad **Algemeen** onder **WERVING**, stelt u **Wervingsaanvragen inschakelen** in op **Ja**.
-
-   ![Wervingsaanvragen inschakelen](./media/hr-recruit-0-enable-requests.png)
+3. Op het tabblad **Werving** onder **WERVING**, stelt u **Wervingsaanvragen inschakelen** in op **Ja**.
 
 ## <a name="add-a-recruiting-request-location"></a>De locatie van een wervingsaanvraag toevoegen
 
@@ -224,8 +222,6 @@ U kunt een kandidaat zo nodig ontslaan nadat u deze hebt aangenomen. Een kandida
 
 ## <a name="see-also"></a>Zie ook
 
-[Virtuele entiteiten van Common Data Service configureren](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Virtuele Dataverse-entiteiten configureren](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Uw personeel organiseren](hr-personnel-departments-jobs-positions.md)<br>
 [De onderdelen van een taak instellen](hr-personnel-jobs.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

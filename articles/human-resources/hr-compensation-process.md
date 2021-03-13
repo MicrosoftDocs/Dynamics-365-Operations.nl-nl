@@ -2,7 +2,7 @@
 title: Compensatie verwerken
 description: Met compensatieverwerking kunt u nieuwe basiscompensatiebedragen berekenen voor uw werknemers, op basis van salarisaanpassingen, loonsverhoging voor verdienste en prestaties.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 979a4f311d59cb51cdf0fc6ce85d5b3338ffa870
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5cf5b8cd297f1686998688979a736f47f7d100c4
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417976"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112115"
 ---
 # <a name="process-compensation"></a>Compensatie verwerken
 
@@ -77,6 +77,3 @@ Wanneer de compensatiebedragen voor een werknemer zijn gecontroleerd en eventuel
 Wanneer de status van een of meer werknemersgebeurtenissen is gewijzigd in Goedgekeurd, kunnen ze worden geladen in de vaste-compensatierecords van de werknemers. U kunt dit doen door elke werknemersgebeurtenis apart te selecteren en te klikken op de knop **Werknemerscompensatie laden** op de pagina **Resultaten werknemer**, of door te klikken op **Compensatie laden** op de pagina **Verwerkingsresultaten** om zo alle goedgekeurde werknemersgebeurtenissen tegelijk te laden.
 
 Als u klikt op **OK** in het dialoogvenster **Compensatie laden**, voegt u de compensatieactieregels die een waarde hoger dan nul hebben in de pagina **Vaste compensatie voor werknemer**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

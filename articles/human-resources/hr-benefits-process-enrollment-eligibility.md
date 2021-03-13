@@ -2,7 +2,7 @@
 title: Geschiktheid voor inschrijving verwerken
 description: In dit artikel wordt uitgelegd hoe u het proces voor het bepalen van de geschiktheid voor inschrijving uitvoert.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dfb7f13dce48f33c111af491918702763f7e3b8a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 69ea23e4051a6975a5892cd027777c5a88472509
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417933"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112105"
 ---
 # <a name="process-enrollment-eligibility"></a>Geschiktheid voor inschrijving verwerken
 
@@ -72,6 +72,3 @@ In dit artikel wordt uitgelegd hoe u de resultaten van het geschiktheidsproces w
    | **Resulterende status** | Dit komt wel of niet in aanmerking. De status van het resultaat komt niet in aanmerking als de werknemer niet voldoet aan de criteria voor de geschiktheidsregel, als er vereiste informatie ontbreekt voor de werknemer, zoals een betalingsfrequentie of vaste compensatie, of als er gegevens ontbreken in het vergoedingsplan waardoor werknemers niet kunnen worden ingeschreven. |
    | **Resulterend bericht** | Geeft aan waarom een werknemer niet in aanmerking komt voor een vergoedingsplan of is geslaagd voor een geschiktheidsregel. |
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

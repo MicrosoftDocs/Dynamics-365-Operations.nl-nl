@@ -2,7 +2,7 @@
 title: Veelgestelde vragen over integratie met Finance
 description: In dit artikel wordt uitgelegd welke gegevens in een integratie van Human Resources en Finance worden gesynchroniseerd.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6a94c1269cd81ecdcbdff018ec4a8f90be36f0f3
-ms.sourcegitcommit: 6aa8d6aa8276611967fb6fab44715950de49f6af
+ms.openlocfilehash: 0a6432fb5b04097d81680aed4e940e47f5ff2902
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4589058"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112078"
 ---
 # <a name="integration-with-finance-faq"></a>Veelgestelde vragen over integratie met Finance
 
@@ -32,7 +32,7 @@ In dit onderwerp wordt antwoord gegeven op veelgestelde vragen over welke gegeve
 
 ## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>Kan ik de Dynamics 365 Talent-toepassingsgebruiker bewerken in Power Apps?
 
-Nr. Als u de Talent-toepassingsgebruiker bewerkt, kan de integratie tussen Human Resources en Common Data Service mislukken. In de volgende tabel worden de standaardinstellingen voor de Talent-toepassingsgebruiker getoond.
+Nr. Als u de Human Resources-toepassingsgebruiker bewerkt, kan de integratie tussen Human Resources en Dataverse mislukken. In de volgende tabel worden de standaardinstellingen voor de Talent-toepassingsgebruiker getoond.
 
 | Volledige naam | Sollicitatie-ID | Azure AD Object-id | Sollicitatie-ID URI |
 | --- | --- | --- | --- |
@@ -44,17 +44,17 @@ Nr. Als u de Talent-toepassingsgebruiker bewerkt, kan de integratie tussen Human
 
 Er wordt een subset van de gegevens gesynchroniseerd. Zie [Integratie met Dynamics 365 Finance](hr-admin-integration-finance.md) voor een overzicht van alle entiteiten.
 
-## <a name="why-dont-i-see-any-data-synced-to-common-data-service"></a>Waarom zie ik geen gegevens die zijn gesynchroniseerd met Common Data Service?
+## <a name="why-dont-i-see-any-data-synced-to-dataverse"></a>Waarom zie ik geen gegevens die zijn gesynchroniseerd met Dataverse?
 
-Synchronisatie met Common Data Service is standaard uitgeschakeld in nieuwe omgevingen die de opgegeven demogegevens niet bevatten. Standaard is deze ingeschakeld in nieuwe omgevingen die demogegevens bevatten, en gegevenssynchronisatie begint wanneer de omgeving wordt ingericht. Wanneer uw omgeving klaar is om gegevens te synchroniseren, kunt u de integratie inschakelen. Meer informatie vindt u in [Common Data Service-integratie configureren](hr-admin-integration-common-data-service.md).
+Synchronisatie met Dataverse is standaard uitgeschakeld in nieuwe omgevingen die de opgegeven demogegevens niet bevatten. Standaard is deze ingeschakeld in nieuwe omgevingen die demogegevens bevatten, en gegevenssynchronisatie begint wanneer de omgeving wordt ingericht. Wanneer uw omgeving klaar is om gegevens te synchroniseren, kunt u de integratie inschakelen. Meer informatie vindt u in [Dataverse-integratie configureren](hr-admin-integration-common-data-service.md).
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Kan ik een nieuwe toewijzing maken zonder de sjablonen te gebruiken?
 
-Sjablonen vormen het beginpunt. U kunt uw eigen sjabloon maken, maar een sjabloon is altijd vereist bij het maken van een integratieproject. Zie voor meer informatie over Gegevensintegrator (DI), sjablonen en projecten [Gegevens integreren in Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+Sjablonen vormen het beginpunt. U kunt uw eigen sjabloon maken, maar een sjabloon is altijd vereist bij het maken van een integratieproject. Zie voor meer informatie over Gegevensintegrator (DI), sjablonen en projecten [Gegevens integreren in Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>Kan ik financiële dimensies toewijzen voor overdracht tussen Human Resources en Finance?
 
-Common Data Service bevat momenteel geen financiële dimensies en daardoor maken ze geen deel uit van de standaardsjabloon. Deze entiteit is gepland, maar momenteel is nog niet bekend wanneer deze beschikbaar is.
+Dataverse bevat momenteel geen financiële dimensies en daardoor maken ze geen deel uit van de standaardsjabloon. Deze entiteit is gepland, maar momenteel is nog niet bekend wanneer deze beschikbaar is.
 
 Voor gegevens die zich bevinden in Finance, maar niet in Human Resources, koppelt u de twee systemen met behulp van **Koppelingen configureren** in Human Resources.
 
@@ -76,7 +76,7 @@ U kunt met behulp van 'Geavanceerde query' brongegevens filteren en wijzigen voo
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Kan ik opgeven welke velden moeten worden verzonden naar Finance voor een bepaalde entiteit?
 
-Velden kunnen worden toegevoegd aan of verwijderd uit de integratietaak. Niet alle gegevensvelden die aanwezig zijn in de entiteit Common Data Service, worden ingevuld vanuit Human Resources.
+Velden kunnen worden toegevoegd aan of verwijderd uit de integratietaak. Niet alle gegevensvelden die aanwezig zijn in de tabel Dataverse, worden ingevuld vanuit Human Resources.
 Aanvullende gegevens kunnen worden ingevuld via Power Apps.
 
 ![Velden toevoegen aan en verwijderen uit een integratietaak](media/SpecifyFieldsIncludedInIntegration.png)
@@ -95,7 +95,7 @@ Nee, met Gegevensintegrator worden verwijderde records niet vastgelegd voor gege
 
 ## <a name="can-i-rerun-the-errored-execution-if-so-will-it-send-a-full-file-or-only-the-changes"></a>Kan ik de foutieve uitvoering opnieuw uitvoeren? Als dat zo is, wordt dan een volledig bestand gestuurd of alleen de wijzigingen?
 
-De eerste uitvoering van Gegevensintegrator is altijd een volledige uitvoering. Latere uitvoeringen zijn gebaseerd op bijhouden van wijzigingen. Wanneer een foutuitvoering wordt uitgevoerd, worden de records in het bereik opgehaald en worden de meest recente wijzigingen vanuit Common Data Service verzonden.
+De eerste uitvoering van Gegevensintegrator is altijd een volledige uitvoering. Latere uitvoeringen zijn gebaseerd op bijhouden van wijzigingen. Wanneer een foutuitvoering wordt uitgevoerd, worden de records in het bereik opgehaald en worden de meest recente wijzigingen vanuit Dataverse verzonden.
 
 ## <a name="when-i-save-the-project-i-get-the-error-project-has-mapping-errors-what-do-i-do"></a>Wanneer ik het project opsla, wordt het foutbericht: 'Project heeft toewijzingsfouten' weergegeven. Wat moet ik doen?
 
@@ -109,15 +109,15 @@ Ja, voor elke rechtspersoon in Finance hebt u een afzonderlijk integratieproject
 
 ## <a name="i-need-to-transfer-data-that-is-not-part-of-the-default-template-provided-by-microsoft-can-i-do-this"></a>Ik moet gegevens overbrengen die geen deel uitmaken van de standaardsjabloon die door Microsoft is geleverd. Kan ik dit doen?
 
-Ja, velden kunnen worden toegevoegd aan of verwijderd uit de bestaande sjabloon. De sjabloon kan worden gewijzigd om extra gegevens op te nemen van andere Common Data Service-entiteiten. De entiteit moet zich in Common Data Service bevinden om in de sjabloon te kunnen worden opgenomen. 
+Ja, velden kunnen worden toegevoegd aan of verwijderd uit de bestaande sjabloon. De sjabloon kan worden gewijzigd om extra gegevens op te nemen van andere Dataverse-tabellen. De entiteit moet zich in Dataverse bevinden om in de sjabloon te kunnen worden opgenomen. 
 
 ## <a name="i-just-created-new-finance-and-human-resources-environments-and-im-getting-the-error-the-data-value-violates-integrity-constraints-why"></a>Ik heb nieuwe Finance- en Human Resources-omgevingen gemaakt en ik krijg het volgende foutbericht: 'De gegevenswaarde schendt de integriteitsbeperkingen'. Waarom niet?
 
 Redenen voor deze fout kunnen zijn:
 
-- De gegevensoverdracht heeft geresulteerd in het extraheren van dubbele records bij de bron (Common Data Service).
+- De gegevensoverdracht heeft geresulteerd in het extraheren van dubbele records bij de bron (Dataverse).
 
-- De gegevensoverdracht heeft null-waarden voor velden die vereist zijn in Finance and Operations. Controleer of de gegevens zich in Common Data Service bevinden en voldoen aan de vereisten van Finance and Operations.
+- De gegevensoverdracht heeft null-waarden voor velden die vereist zijn in Finance and Operations. Controleer of de gegevens zich in Dataverse bevinden en voldoen aan de vereisten van Finance and Operations.
 
 ## <a name="if-there-are-execution-errors-and-the-employee-id-didnt-sync-how-do-i-find-the-history-job-which-has-the-failed-employee-record"></a>Als er uitvoeringsfouten zijn en de werknemer-ID niet is gesynchroniseerd, hoe vind ik de historietaak met de mislukte werknemerrecord dan?
 
@@ -139,27 +139,27 @@ Zoek de tijd op van de uitvoeringsgeschiedenis van Gegevensintegrator en zoek na
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>Na integratie van Human Resources en Finance worden mijn Human Resources-gegevens niet in Finance weergegeven. Wat moet ik doen?
 
-De integratie met Finance is een proces dat uit twee stappen bestaat. Controleer eerst of de Human Resources-gegevens zijn bijgewerkt en beschikbaar zijn in Common Data Service. Dit is een bijna realtime-synchronisatie en kan in Power Apps worden geverifieerd door te kijken naar de gegevens in de gegevensentiteiten.
+De integratie met Finance is een proces dat uit twee stappen bestaat. Controleer eerst of de Human Resources-gegevens zijn bijgewerkt en beschikbaar zijn in Dataverse. Dit is een bijna realtime-synchronisatie en kan in Power Apps worden geverifieerd door te kijken naar de gegevens in de gegevenstabellen.
 
-![Gegevens in Common Data Service](media/DataInCDS.png)
+![Gegevens in Dataverse](media/DataInCDS.png)
 
-Als de gegevens niet zoals verwacht in Common Data Service worden weergegeven, controleert u of de entiteit in de integratie wordt ondersteund. Als u aanvullende gegevens in Common Data Service wilt opnemen, is een wijziging aan Microsoft-zijde vereist.
+Als de gegevens niet zoals verwacht in Dataverse worden weergegeven, controleert u of de entiteit in de integratie wordt ondersteund. Als u aanvullende gegevens in Dataverse wilt opnemen, is een wijziging aan Microsoft-zijde vereist.
 
-Als de entiteit wordt ondersteund en de gegevens beschikbaar zijn in Common Data Service, controleert u of de toewijzing in Gegevensintegrator juist is. Als de integratortoewijzing er goed uitziet, controleert u of de taken voor gegevensbeheer zonder problemen zijn uitgevoerd. Er kunnen fouten optreden tijdens de uitvoering van de batchtaken. Zie [Gegevensbeheer](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json) voor meer informatie over Gegevensbeheer.
+Als de entiteit wordt ondersteund en de gegevens beschikbaar zijn in Dataverse, controleert u of de toewijzing in Gegevensintegrator juist is. Als de integratortoewijzing er goed uitziet, controleert u of de taken voor gegevensbeheer zonder problemen zijn uitgevoerd. Er kunnen fouten optreden tijdens de uitvoering van de batchtaken. Zie [Gegevensbeheer](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json) voor meer informatie over Gegevensbeheer.
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>De adressen van mijn werknemers zijn onjuist nadat ik deze in Finance heb geïmporteerd. Wat moet ik doen?
 
-De nummerreeks voor **Locatie-id** gebruikt hetzelfde patroon in zowel Human Resources als Finance. De nummerreeks moet voor beide uniek zijn zodat er geen adresconflicten ontstaan bij het integreren van gegevens van Common Data Service met Finance and Operations.
+De nummerreeks voor **Locatie-id** gebruikt hetzelfde patroon in zowel Human Resources als Finance. De nummerreeks moet voor beide uniek zijn zodat er geen adresconflicten ontstaan bij het integreren van gegevens van Dataverse met Finance and Operations.
 
 Controleer tijdens de implementatie van Human Resources of de nummerreeksen niet hetzelfde zijn in Human Resources en Finance. Controleer of alle nummerreeksen niet identiek zijn in gevallen waar gegevens in beide systemen kunnen worden beheerd.
 
 ## <a name="when-creating-my-connection-set-i-am-unable-to-see-the-connection-in-the-connection-drop-down-list-what-do-i-do"></a>Bij het maken van mijn verbindingenset zie ik de verbinding niet in de vervolgkeuzelijst Verbinding. Wat moet ik doen?
 
-Zorg ervoor dat wanneer u uw verbindingen maakt, u Dynamics 365 Finance en Common Data Service kiest.
+Zorg ervoor dat wanneer u uw verbindingen maakt, u Dynamics 365 Finance en Dataverse kiest.
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Tijdens het synchroniseren van dienstverbanden krijg ik de fouten 'CompanyInfo_FK bestaat niet' of 'De waarde '12/31/2154 23:59:59 pm' in het veld Einddatum dienstverband' is niet gevonden in de gerelateerde tabel 'Dienstverband'. Wat moet ik doen?
 
-Zorg ervoor dat u toewijst aan de juiste rechtspersonen. Synchronisatie van rechtspersonen maakt geen deel uit van de standaardsjabloon. Dus elke rechtspersoon die aanwezig is in Human Resources en Common Data Service, zal naar verwachting ook aanwezig zijn in Finance.
+Zorg ervoor dat u toewijst aan de juiste rechtspersonen. Synchronisatie van rechtspersonen maakt geen deel uit van de standaardsjabloon. Dus elke rechtspersoon die aanwezig is in Human Resources en Dataverse, zal naar verwachting ook aanwezig zijn in Finance.
 Zorg er ook voor dat u de juiste rechtspersonen voor de bijbehorende verbindingenset selecteert.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Nadat ik mijn project heb ingesteld, is de veldtoewijzing voor Finance leeg. Wat moet ik doen?
@@ -172,15 +172,12 @@ Vernieuw de gegevensentiteiten in Finance door naar **Gegevensbeheer \> Raamwerk
 
 - Gegevensintegrator (DI): 
 
-  - [Gegevens integreren in Common Data Service](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [Gegevens integreren in Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)
 
   - [Foutbeheer en probleemoplossing van Gegevensintegrator](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
 
-  - [Reageren op DSR-aanvragen voor door het systeem gegenereerde logboeken in Power Apps, Microsoft Power Automate en Common Data Service](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Reageren op DSR-aanvragen voor door het systeem gegenereerde logboeken in Power Apps, Microsoft Power Automate en Dataverse](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Gegevensbeheer:
 
   - [Gegevensbeheer](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

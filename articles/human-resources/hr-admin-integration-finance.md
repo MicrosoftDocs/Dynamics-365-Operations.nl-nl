@@ -2,7 +2,7 @@
 title: Integratie met Finance configureren
 description: In dit artikel wordt de beschikbare functionaliteit voor integratie van Dynamics 365 Human Resources en Dynamics 365 Finance weergegeven.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 6587b2ced1fdd7a16c6b3f28a34d4a303af9cee5
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527905"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112090"
 ---
 # <a name="configure-integration-with-finance"></a>Integratie met Finance configureren
 
@@ -44,7 +44,7 @@ De Human Resources naar Finance-oplossing biedt de volgende typen gegevenssynchr
 
 Voor de integratie-oplossing zijn de volgende versies van Human Resources en Finance vereist: 
 
-- Dynamics 365 Human Resources in Common Data Service
+- Dynamics 365 Human Resources in Dataverse
 - Dynamics 365 Finance versie 7.2 en hoger
 
 ## <a name="template-and-tasks"></a>Sjabloon en taken
@@ -55,7 +55,7 @@ De sjabloon Human Resources naar Finance openen.
 
 2. Selecteer **Projecten** en vervolgens **Nieuw project** in de rechterbovenhoek. Maak een nieuw project voor elke rechtspersoon die u wilt integreren in Finance.
 
-3. Selecteer **Human Resources (Human Resources Common Data Service naar Finance)** voor het synchroniseren van records van Human Resources naar Finance.
+3. Selecteer **Human Resources (Human Resources Dataverse naar Finance)** voor het synchroniseren van records van Human Resources naar Finance.
 
 De volgende onderliggende taken worden door de sjabloon gebruikt voor het synchroniseren van records van Human Resources naar Finance:
 
@@ -81,14 +81,14 @@ In de volgende tabellen voor het toewijzen van sjablonen bevat de naam van de ta
 
 ### <a name="job-functions-to-compensation-job-function"></a>Taakfuncties naar Compensatietaakfunctie
 
-| Common Data Service-entiteit (bron) | Finance-entiteit (bestemming) |
+| Dataverse-tabel (bron) | Finance-entiteit (bestemming) |
 |-------------------------------------|---------------------------------------------|
 | cdm_name (cdm_Job   Function Name)  | JOBFUNCTIONID   (JOBFUNCTIONID)            |
 | cdm_description   (cdm_description) | DESCRIPTION   (DESCRIPTION)                 |
 
 ### <a name="departments-to-operating-unit"></a>Afdelingen naar Operationele eenheid
 
-| Common Data Service-entiteit (bron)           | Finance-entiteit (bestemming) |
+| Dataverse-tabel (bron)           | Finance-entiteit (bestemming) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                           | NAME (NAME)                                 |
 | cdm_departmentnumber   (cdm_departmentnumber) | OPERATINGUNITNUMBER   (OPERATINGUNITNUMBER) |
@@ -97,7 +97,7 @@ In de volgende tabellen voor het toewijzen van sjablonen bevat de naam van de ta
 
 ### <a name="job-types-to-compensation-job-type"></a>Taaktypen naar Compensatietaaktype
 
-| Common Data Service-entiteit (bron)   | Finance-entiteit (bestemming) |
+| Dataverse-tabel (bron)   | Finance-entiteit (bestemming) |
 |---------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                   | JOBTYPEID   (JOBTYPEID)                     |
 | cdm_description   (cdm_description)   | DESCRIPTION   (DESCRIPTION)                 |
@@ -105,7 +105,7 @@ In de volgende tabellen voor het toewijzen van sjablonen bevat de naam van de ta
 
 ### <a name="jobs-to-jobs"></a>Taken naar Taken
 
-| Common Data Service-entiteit (bron)                           | Finance-entiteit (bestemming)           |
+| Dataverse-tabel (bron)                           | Finance-entiteit (bestemming)           |
 |---------------------------------------------------------------|-------------------------------------------------------|
 | cdm_name (cdm_name)                                           | JOBID (JOBID)                                         |
 | cdm_maximumnumberofpositions   (cdm_maximumnumberofpositions) | MAXIMUMNUMBEROFPOSITIONS   (MAXIMUMNUMBEROFPOSITIONS) |
@@ -115,7 +115,7 @@ In de volgende tabellen voor het toewijzen van sjablonen bevat de naam van de ta
 
 ### <a name="jobs-to-job-detail"></a>Taken naar Taakdetails
 
-| Common Data Service-entiteit (bron)                             | Finance-entiteit (bestemming) |
+| Dataverse-tabel (bron)                             | Finance-entiteit (bestemming) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                                             | JOBID (JOBID)                               |
 | cdm_jobtypeid.cdm_name   (Job Type (Job Type Name))             | JOBTYPEID   (JOBTYPEID)                     |
@@ -126,7 +126,7 @@ In de volgende tabellen voor het toewijzen van sjablonen bevat de naam van de ta
 
 ### <a name="position-types-to-position-type"></a>Positietypen naar Positietype
 
-| Common Data Service-entiteit (bron)       | Finance-entiteit (bestemming) |
+| Dataverse-tabel (bron)       | Finance-entiteit (bestemming) |
 |-------------------------------------------|---------------------------------------------|
 | cdm_name (cdm_name)                       | POSITIONTYPEID   (POSITIONTYPEID)           |
 | cdm_description   (cdm_description)       | DESCRIPTION   (DESCRIPTION)                 |
@@ -134,13 +134,13 @@ In de volgende tabellen voor het toewijzen van sjablonen bevat de naam van de ta
 
 ### <a name="job-positions-to-base-position"></a>Taakposities naar Basispositie
 
-| Common Data Service-entiteit (bron)           | Finance-entiteit (bestemming) |
+| Dataverse-tabel (bron)           | Finance-entiteit (bestemming) |
 |-----------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Job Position Number) | POSITIONID (POSITIONID)                      |
 
 ### <a name="job-positions-to-position-details"></a>Taakposities naar Positiedetails
 
-| Common Data Service-entiteit (bron)              | Finance-entiteit (bestemming)       |
+| Dataverse-tabel (bron)              | Finance-entiteit (bestemming)       |
 |--------------------------------------------------------------------------|---------------------------------------------------|
 | cdm_jobpositionnumber  (Job Position Number)                            | POSITIONID (POSITIONID)                             |
 | cdm_jobid.cdm_name   (Job (Name))                                        | JOBID (JOBID)                                    |
@@ -154,7 +154,7 @@ In de volgende tabellen voor het toewijzen van sjablonen bevat de naam van de ta
 
 ### <a name="job-positions-to-position-durations"></a>Taakposities naar Positieduren
 
-| Common Data Service-entiteit (bron)             | Finance-entiteit (bestemming) |
+| Dataverse-tabel (bron)             | Finance-entiteit (bestemming) |
 |-------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Job Position Number)   | POSITIONID (POSITIONID)                      |
 | Calculated   Activation (Calculated Activation) | VALIDFROM (VALIDFROM)                        |
@@ -162,7 +162,7 @@ In de volgende tabellen voor het toewijzen van sjablonen bevat de naam van de ta
 
 ### <a name="job-positions-to-position-hierarchies"></a>Taakposities naar Positiehiërarchieën
 
-| Common Data Service-entiteit (bron)        | Finance-entiteit (bestemming) |
+| Dataverse-tabel (bron)        | Finance-entiteit (bestemming) |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | cdm_jobpositionnumber   (Job Position Number)                                                 | POSITIONID(POSITIONID)                      |
 | cdm_parentjobpositionid.cdmjobpositionnumber   (cdm_parentjobpositionid.cdmjobpositionnumber) | PARENTPOSITIONID (PARENTPOSITIONID)         |
@@ -172,7 +172,7 @@ In de volgende tabellen voor het toewijzen van sjablonen bevat de naam van de ta
 
 
 ### <a name="workers-to-worker"></a>Medewerkers naar Medewerker
-| Common Data Service-entiteit (bron)           | Finance-entiteit (bestemming)       |
+| Dataverse-tabel (bron)           | Finance-entiteit (bestemming)       |
 |-----------------------------------------------|---------------------------------------------------|
 | cdm_birthdate   (cdm_birthdate)               | BIRTHDATE   (BIRTHDATE)                           |
 | cdm_gender   (cdm_gender)                     | GENDER (GENDER)                                   |
@@ -191,7 +191,7 @@ In de volgende tabellen voor het toewijzen van sjablonen bevat de naam van de ta
 
 ### <a name="employments-to-employment"></a>Aanstellingen naar Aanstelling
 
-| Common Data Service-entiteit (bron)                             | Finance-entiteit (bestemming) |
+| Dataverse-tabel (bron)                             | Finance-entiteit (bestemming) |
 |-----------------------------------------------------------------|---------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE) |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)     |
@@ -201,7 +201,7 @@ In de volgende tabellen voor het toewijzen van sjablonen bevat de naam van de ta
 
 ### <a name="employments-to-employment-detail"></a>Aanstellingen naar Aanstellingsdetails
 
-| Common Data Service-entiteit (bron)                             | Finance-entiteit (bestemming)   |
+| Dataverse-tabel (bron)                             | Finance-entiteit (bestemming)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_employmentstartdate   (cdm_employmentstartdate)             | EMPLOYMENTSTARTDATE   (EMPLOYMENTSTARTDATE)   |
 | cdm_employmentenddate   (cdm_employmentenddate)                 | EMPLOYMENTENDDATE   (EMPLOYMENTENDDATE)       |
@@ -219,7 +219,7 @@ In de volgende tabellen voor het toewijzen van sjablonen bevat de naam van de ta
 
 ### <a name="position-worker-assignment-to-position-worker-assignments"></a>Positiemedewerkertoewijzing naar Positiemedewerkertoewijzingen
 
-| Common Data Service-entiteit (bron)                             | Finance-entiteit (bestemming)   |
+| Dataverse-tabel (bron)                             | Finance-entiteit (bestemming)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_jobpositionnumber   (Job Position Number)                   | POSITIONID(POSITIONID)                        |
@@ -228,7 +228,7 @@ In de volgende tabellen voor het toewijzen van sjablonen bevat de naam van de ta
 
 ### <a name="worker-addresses-to-worker-postal-address-v2"></a>Adressen van medewerkers naar Postadres van medewerker V2
 
-| Common Data Service-entiteit (bron)                             | Finance-entiteit (bestemming)   |
+| Dataverse-tabel (bron)                             | Finance-entiteit (bestemming)   |
 |-----------------------------------------------------------------|-----------------------------------------------|
 | cdm_workerid.cdm_workernumber   (cdm_workerid.cdm_workernumber) | PERSONNELNUMBER   (PERSONNELNUMBER)           |
 | cdm_addresstype   (cdm_addresstype)                             | ADDRESSLOCATIONROLES   (ADDRESSLOCATIONROLES) |
@@ -255,5 +255,3 @@ De locatie-id die wordt gebruikt voor het werknemersadres, maakt geen deel uit v
 In de volgende afbeelding ziet u een voorbeeld van een sjabloontoewijzing in de Data Integrator. 
 
 ![Sjabloontoewijzing](./media/IntegrationMapping.png)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

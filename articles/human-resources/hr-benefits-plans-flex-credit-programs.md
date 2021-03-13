@@ -2,7 +2,7 @@
 title: Flex-kredietprogramma's instellen
 description: U kunt flex-kredietprogramma's in Microsoft Dynamics 365 Human Resources gebruiken om werknemers in te schrijven voor vergoedingen op basis van een vooraf bepaald aantal flex-kredieten.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 157984479a041f0bf4555aa96ed3f7e62e415d81
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f701d9e38e04769f1255e6f8cb3ee757bf22f96c
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417936"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112118"
 ---
 # <a name="set-up-flex-credit-programs"></a>Flex-kredietprogramma's instellen
 
@@ -45,6 +45,3 @@ U kunt flex-kredietprogramma's in Microsoft Dynamics 365 Human Resources gebruik
    | **Omslagregel** | De regel die moet worden gebruikt voor het evenredig verdelen van flex-kredieten wanneer een werknemer in dienst wordt genomen midden in een flex-kredietperiode. </br></br><ul><li>**Geen** – de werknemer ontvangt geen flex-kredieten als deze is aangesteld nadat de periode van het flex-kredietprogramma is gestart.</li><li>**Volledig krediet** – de werknemer ontvangt het volledige aantal flex-kredieten, ongeacht het moment waarop deze is aangesteld.</li><li>**Evenredig** – de werknemer ontvangt een evenredig aantal flex-kredieten op basis van de begindatum.</li></ul> |
    | **Formule voor het berekenen van een evenredig aantal flex-kredieten** | De regel die moet worden gebruikt voor het evenredig verdelen van het aantal flex-kredieten voor werknemers die in dienst wordt genomen midden in een vergoedingsperiode voor het flex-kredietprogramma. Het evenredige aantal flex-kredieten wordt berekend op basis van de begindatum van de aanstelling. Dit veld wordt alleen gebruikt als u **Evenredig** selecteert in het veld **Evenredigheidsregel**. </br></br><ul><li>**Dagelijks** – het aantal flex-kredieten dat een werknemer ontvangt, wordt evenredig verdeeld op dagniveau. Het totale aantal flex-kredieten wordt gedeeld door het aantal dagen in de periode. Als uw vergoedingsperiode bijvoorbeeld 400 dagen is, wordt het totale aantal flex-kredieten door 400 gedeeld om het aantal flex-kredieten te berekenen dat werknemers per dag ontvangen.</li><li>**Huidige maand** – het aantal flex-kredieten dat een werknemer ontvangt, wordt evenredig verdeeld op maandniveau, afgerond op de huidige maand. Het totale aantal flex-kredieten wordt gedeeld door het aantal maanden in de periode. Als uw vergoedingsperiode bijvoorbeeld 15 maanden is, wordt het totale aantal flex-kredieten door 15 gedeeld om het aantal flex-kredieten te berekenen dat werknemers per maand ontvangen.</li><li>**Volgende maand** – het aantal flex-kredieten dat een werknemer ontvangt, wordt evenredig verdeeld op maandniveau, afgerond op de volgende maand. Het totale aantal flex-kredieten wordt gedeeld door het aantal maanden in de periode. Als uw vergoedingsperiode bijvoorbeeld 15 maanden is, wordt het totale aantal flex-kredieten door 15 gedeeld om het aantal flex-kredieten te berekenen dat werknemers per maand ontvangen.</li></ul> |
    
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
