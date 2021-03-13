@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c0f9c1bb94b4dcc3c3c1e7656868ef6e6bd903db
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cba4b1eac33ae53e214297728c1cdf2710ebd9d9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425108"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007911"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Op kenmerken gebaseerde verkoopprijzen voor op beperkingen gebaseerde productconfiguratie
 
@@ -141,6 +140,3 @@ De laatste stap bestaat eruit op kenmerken gebaseerde verkoopprijzen voor de pro
 1. Open in het actievenster het tabblad **Model** en selecteer in de groep **Details productmodel** **Versies**.
 1. De pagina **Versies** wordt geopend. Controleer of de **Methode voor prijscalculatie** in ingesteld op **Op kenmerken gebaseerd**.
     ![De methode voor prijscalculatie instellen op Op kenmerken gebaseerd](media/prod-config-versions.png "De methode voor prijscalculatie instellen op Op kenmerken gebaseerd")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

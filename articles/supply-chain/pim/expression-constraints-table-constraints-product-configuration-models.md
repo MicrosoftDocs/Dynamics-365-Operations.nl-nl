@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 53111
 ms.assetid: 5c12b1f2-eb89-4648-a755-de412f2eadd6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bc07d5b915e0b878cc7b2ef1d5f3253de8776608
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425641"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007695"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Expressiebeperkingen en tabelbeperkingen in productconfiguratiemodellen
 
@@ -110,9 +109,9 @@ In de volgende tabel worden de operatoren en de tussenvoegselnotatie vermeld die
 <tr class="odd">
 <td>Heeft</td>
 <td>Dit is waar als de eerste voorwaarde onwaar is, de tweede voorwaarde waar, of beide.</td>
-<td>Heeft[a, b], tussenvoegsel: a -: b</td>
+<td>Heeft[a, b], tussenvoegselaantekening: a -: b</td>
 <td><ul>
-<li><strong>Operator:</strong> Heeft[x != 0, y &gt;= 0]</li>
+<li><strong>Operator:</strong> Implies[x != 0, y &gt;= 0]</li>
 <li><strong>Tussenvoegselnotatie:</strong> x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
@@ -146,7 +145,7 @@ In de volgende tabel worden de operatoren en de tussenvoegselnotatie vermeld die
 <tr class="odd">
 <td>Min</td>
 <td>Het argument wordt genegeerd. Het moet precies één voorwaarde hebben.</td>
-<td>Minus[expr], tussenvoegsel: -expr</td>
+<td>Minus[expr], tussenvoegselaantekening: -expr</td>
 <td><ul>
 <li><strong>Operator:</strong> Minus[x] == y</li>
 <li><strong>Tussenvoegselnotatie:</strong> -x == y</li>
@@ -177,13 +176,13 @@ In de volgende tabel worden de operatoren en de tussenvoegselnotatie vermeld die
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Max</td>
+<td>Max.</td>
 <td>Dit levert de grootste voorwaarde. Als het aantal condities 0 is (nul), resulteert dit in <strong>Oneindigheid</strong>.</td>
 <td>Max[args]</td>
 <td><strong>Operator:</strong> Max[x, y, 2] == z</td>
 </tr>
 <tr class="even">
-<td>Min</td>
+<td>Min.</td>
 <td>Dit levert de kleinste voorwaarde. Als het aantal condities 0 is (nul), resulteert dit in <strong>Oneindigheid</strong>.</td>
 <td>Min[args]</td>
 <td><strong>Operator:</strong> Min[x, y, 2] == z</td>
@@ -191,7 +190,7 @@ In de volgende tabel worden de operatoren en de tussenvoegselnotatie vermeld die
 <tr class="odd">
 <td>Niet</td>
 <td>Dit resulteert in de logische inverse van de voorwaarde. Het moet precies één voorwaarde hebben.</td>
-<td>Not[expr], tussenvoegsel: !expr</td>
+<td>Niet[expr], infix: !expr</td>
 <td><ul>
 <li><strong>Operator:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>Tussenvoegselnotatie:</strong> !x!(y == 3)</li>
@@ -254,6 +253,3 @@ U kunt geen gereserveerde sleutelwoorden gebruiken als oplossernamen voor kenmer
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19391
 ms.assetid: a426f645-d59b-4c98-8d78-eba8d64a562e
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1bd6f1bdd847f74cee7d3594d19b72454063c0cb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: aedfe7ef96d62401b1d0de0f2cd035036c68e51a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425670"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007061"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Ondersteuning van kanbanoverboekingsbord voor streepjescodescanners
 
@@ -44,11 +43,11 @@ Op het sneltabblad **Scannerregistratie** kunt u de registratiemodus selecteren 
 | Leeg                 | Registreert de materiaalverwerkingseenheid waarnaar door een kanbankaart wordt verwezen als leeg.              |
 | Selecteren                | Registreert een kanbankaartnummer en selecteert automatisch de taak waarnaar wordt verwezen in de kanbanlijst. |
 
- 
-Registratiemodus Selecteren
+ 
+<a name="registration-mode-select"></a>Registratiemodus Selecteren
 ------------------------
 
-Wanneer u een streepjescodelezer gebruikt om een taak te selecteren, wordt de weergavemodus van het kanbanbord gewijzigd. In deze modus gelden de volgende voorwaarden:
+Wanneer u een streepjescodelezer gebruikt om een taak te selecteren, wordt de weergavemodus van het kanbanbord gewijzigd. In deze modus gelden de volgende voorwaarden:
 
 -   Alleen de gescande kanbantaak wordt weergegeven.
 -   De details van de geselecteerde taak worden weergegeven op het sneltabblad **Details**.
@@ -192,6 +191,3 @@ De status van de geselecteerde taak en de status van alle getraceerde taken voor
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

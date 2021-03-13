@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow, Kanban, KanbanQuantityOverview, KanbanAssignCard, KanbanCirculatingCards, KanbanRules, WHSKanbanWaveTableManagePickingListPool
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 63a9856035088642254fd43d14cb324a89bc19d6
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 5ba514a6af360074696814278b51ba41327a294d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425789"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006986"
 ---
 # <a name="lean-manufacturing-overview"></a>Overzicht van lean manufacturing
 
@@ -51,9 +50,9 @@ Lean manufacturing opzetten door het modelleren van de productie- en logistieke 
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a>Kanbans gebruiken voor het melden van de vereisten van de aanvraag
 Een pull-systeem produceert alleen goederen wanneer goederen nodig zijn. Deze praktijk verkort verkooplevertijden en overtollige voorraad. U kunt kanbans gebruiken voor het plannen, bijhouden en verwerken van vereisten die zijn gebaseerd op productiestromen. Een kanbanraamwerk maken, kanbanregels maken die bepalen wanneer kanbans worden gemaakt en hoe aan de vereisten wordt voldaan. U kunt twee typen kabanregels maken: Productieregels voor het opstellen van proceskanbantaken en intrekkingskanbanregels voor het opstellen van overdrachtkanbantaken. U kunt de volgende aanvullingsstrategieën opzetten:
--   Kanbanregels met **vaste hoeveelheid** worden gekoppeld aan een vast aantal verwerkingseenheden, wat betekent dat het aantal actieve kanbans constant is. Wanneer alle producten van een Kanban worden verbruikt en de verwerkingseenheden handmatig worden leeggemaakt, wordt een nieuwe kanban van hetzelfde type gemaakt. Wanneer u kanbanregels met vaste hoeveelheid opstelt, kunt u de optimale kanbanhoeveelheden en de producthoeveelheden die worden gebruikt berekenen. De berekening houdt rekening met prognoses, werkelijke vraag vanuit openstaande orders, doorlooptijd om artikelen aan te vullen en de historische vraag.
+-   Kanbanregels met **vaste hoeveelheid** worden gekoppeld aan een vast aantal verwerkingseenheden, wat betekent dat het aantal actieve kanbans constant is. Wanneer alle producten van een Kanban worden verbruikt en de verwerkingseenheden handmatig worden leeggemaakt, wordt een nieuwe kanban van hetzelfde type gemaakt. Wanneer u kanbanregels met vaste hoeveelheid opstelt, kunt u de optimale kanbanhoeveelheden en de producthoeveelheden die worden gebruikt berekenen. De berekening houdt rekening met prognoses, werkelijke vraag vanuit openstaande orders, doorlooptijd om artikelen aan te vullen en de historische vraag.
 -   **Geplande** kabanregels vullen vereisten aan die door de hoofdplanning worden berekend. De hoofdplanning genereert geplande kanbans die aan kanbans kunnen worden gefiatteerd.
--   Kanbanregels van het type **Gebeurtenis** vullen vereisten aan die ontstaan uit verkooporderregels, productiestuklijstregels, kanbanregels en minimum voorraadinstellingen. Wanneer gebeurteniskanbans worden gegenereerd, worden ze gekoppeld aan de bronvereisten.
+-   Kanbanregels van het type **Gebeurtenis** vullen vereisten aan die ontstaan uit verkooporderregels, productiestuklijstregels, kanbanregels of minimale voorraadinstellingen. Wanneer gebeurteniskanbans worden gegenereerd, worden ze gekoppeld aan de bronvereisten.
 
 Wanneer kanbans worden gemaakt, worden één of meer kanbantaken gegenereerd op basis van de kabanstroomactiviteiten die zijn gedefinieerd in de kanbanregels.
 
@@ -65,7 +64,7 @@ Lean manufacturing biedt inzicht in de huidige status van de productie- en logis
 -   De status van kanbantaken bijhouden en vastleggen.
 
 De volgende lijst beschrijft de speciale kanbanborden:
--   Kanbantaakplanning – Geeft een overzicht van de kanbantaken. Het bord geeft kanbantaken en hun status weer voor een of meerdere werkcellen. De taken worden opgesomd op basis van de planningsperioden (dagen of weken) die zijn gedefinieerd in het productiestroommodel. Het bord toont ook het capaciteitsverbruik voor elke planningsperiode zodat u de geplande belasting kunt beheren. U kunt de status van kabantaken veranderen, kanbantaken opnieuw plannen in verschillende planningsperioden en andere taken uitvoeren.
+-   Kanbantaakplanning – Geeft een overzicht van de kanbantaken. Het bord geeft kanbantaken en hun status weer voor een of meerdere werkcellen. De taken worden weergegeven op basis van de planningsperioden (dagen of weken) die zijn gedefinieerd in het productiestroommodel. Het bord toont ook het capaciteitsverbruik voor elke planningsperiode zodat u de geplande belasting kunt beheren. U kunt de status van kabantaken veranderen, kanbantaken opnieuw plannen in verschillende planningsperioden en andere taken uitvoeren.
 -   Kanbanbord voor overdrachttaken – Dit bord biedt een overzicht van de huidige overdrachttaken. U kunt orderverzamellijsten bijwerken en registreren, overdrachttaken starten en voltooien en andere taken uitvoeren.
 -   Kanbanbord voor procestaken - Dit bord is ontworpen om de normale productiestroom te ondersteunen en geeft een overzicht van de actuele situatie in een of meerdere werkcellen. Vanaf dit bord kunt u prioriteit toekennen aan kanbans, of ze ophalen of fabriceren. Het bord is ook ontworpen om scannen van streepjescodes te ondersteunen voor het rapporteren van kanbans.
 
@@ -83,6 +82,3 @@ Bovendien ondersteunt lean manufacturing de inkoop- en factureringsprocessen voo
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

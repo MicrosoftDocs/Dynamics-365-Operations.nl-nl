@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7b65c23fc7ac04fc30c0001bee9541a475026018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425866"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007486"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Problemen met inkooporders oplossen
 
@@ -132,7 +131,7 @@ U kunt alleen de periode verlengen waarvoor de leverancier is goedgekeurd. De vo
 
 Voor het voorbeeldscenario dat in de beschrijving van het probleem wordt beschreven, waarbij een record de ingangsdatum *01/11/2018* en de vervaldatum van *Nooit* heeft, kunt u een nieuwe record importeren met de ingangsdatum *01/10/2018* en de vervaldatum *Nooit*. Het is echter niet mogelijk om via gegevensbeheer de periode zo te verkleinen dat de ingangsdatum wordt bijgewerkt naar *01/12/2018*. U moet deze wijziging aanbrengen in de gebruikersinterface.
 
-## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Nadat ik het afleveradres in een inkooporderkop heb gewijzigd, wordt de leveringsnaam niet gesynchroniseerd.
+## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-name-isnt-synced"></a>Nadat ik het afleveradres in een inkooporderkop heb gewijzigd, wordt de leveringsnaam niet gesynchroniseerd.
 
 ### <a name="issue-description"></a>Probleembeschrijving
 
@@ -145,6 +144,3 @@ Dit is zo ontworpen. Het geselecteerde adres moet worden geclassificeerd als afl
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>Kan ik de gebruiker vinden die een inkooporder heeft geannuleerd?
 
 Deze informatie wordt alleen bijgehouden als de inkooporder onder wijzigingsbeheer valt. Als u wijzigingsbeheer gebruikt, kunt u zien wie de wijziging heeft ingediend (de annulering) en wie deze heeft goedgekeurd.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

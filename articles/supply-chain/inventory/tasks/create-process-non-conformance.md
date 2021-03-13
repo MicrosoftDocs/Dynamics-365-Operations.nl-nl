@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bf20ed737707b7cf99023e3c78489caf4a68eab
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4525e79cb388cc9bbcfe1d038a53cf53916a678c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425707"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008060"
 ---
 # <a name="create-and-process-a-conformance"></a>Een conformiteit maken en verwerken
 
@@ -67,6 +66,3 @@ In dit onderwerp wordt het beheer van non-conformiteiten, op basis van een besta
 2. Selecteer **Non-conformiteit afsluiten**.
 3. Selecteer **Ja**.
 4. Sluit de pagina's.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

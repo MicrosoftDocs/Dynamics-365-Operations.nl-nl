@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 87b04998889b86a79fd8dabde422147c5494b003
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 4c505ccfd1998acd40dbae715c7fa572e315af2e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516761"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007511"
 ---
 # <a name="troubleshoot-product-information"></a>Problemen met productinformatie oplossen
 
@@ -152,6 +151,3 @@ Als er al een productvariant is vrijgegeven in een bedrijf A en u probeert deze 
 Met de knop **Nieuw** op de pagina **Vrijgegeven productvarianten** maakt u de variant en geeft u deze vrij in de bedrijfscontext. Als de variant al is gemaakt, kunt u de knop **Nieuw** niet gebruiken om de variant vrij te geven in een ander bedrijf.
 
 Om het probleem op te lossen, opent u de pagina **Productmodel** en selecteert u **Vrijgeven product** om de bestaande variant in het gewenste bedrijf vrij te geven.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

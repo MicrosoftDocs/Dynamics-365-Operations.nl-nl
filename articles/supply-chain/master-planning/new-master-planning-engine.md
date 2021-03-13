@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 94e5668da45c524ed9ab9eef10b40d0fb5336a65
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 8a55958a4b9573a7c3527d3d97cbcb818457b995
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645991"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007965"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migratie naar Planningsoptimalisatie voor hoofdplanning
 
@@ -116,6 +115,3 @@ Ik gebruik versie 10.0.16 of hoger en het volgende foutbericht wordt weergegeven
 > Vul de volgende vragenlijst in om aan de slag te gaan en indien relevant uitzondering van de migratie naar Planningsoptimalisatie aan te vragen.
 
 **Antwoord:** Nee, de hoofdplanning wordt niet geblokkeerd. De uitvoering van de hoofdplanning is voltooid en u kunt het resultaat op de gebruikelijke manier gebruiken. Om dit foutbericht echter te vermijden tijdens toekomstige uitvoeringen van hoofdplanningen, moet u direct migreren naar Planningsoptimalisatie of een uitzondering aanvragen via de koppeling in het foutbericht.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
