@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetLifecycleModelStateNext, EntAssetObjectLifecycleState, EntAssetLifecycleStateUpdate, EntAssetObjectLifecycleModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 566036c6361194d910a0fc34bd5d72147585ec4f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dffedfafd9d75320accf0e27f072bab6fd51f135
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425349"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016547"
 ---
 # <a name="asset-lifecycle-states"></a>Levenscyclusstatussen van activa
 
@@ -70,6 +69,3 @@ Nadat u de vereiste levenscyclusstatussen van activa hebt gemaakt, kunt u levens
 
 6. Selecteer **Updates van levenscyclusstatussen** om de levenscyclusstatussen van activa te definiëren die een geselecteerde levenscyclusstatus kunnen volgen.
 7. U gebruikt het sneltabblad **Activastatus** als u activa verwerkt die u voor reparatie ontvangt. In de sectie **Inkomend/uitgaand** kunt u levenscyclusstatussen van activa selecteren om de werkstroom aan te geven van een activum dat u voor reparatie ontvangt. Als u leenactiva aanbiedt aan klanten of afdelingen, kunt u in de sectie **Loan** levenscyclusstatussen selecteren voor leenactiva.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

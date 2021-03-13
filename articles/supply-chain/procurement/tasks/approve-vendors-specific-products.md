@@ -1,7 +1,7 @@
 ---
 title: Leveranciers voor specifieke producten goedkeuren
 description: Deze procedure laat zien hoe u leveranciers voor specifieke producten goedkeurt.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/22/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, PdsApprovedVendorList, VendTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fafa2f7da5575206d452f31bb297790874369dfd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1cc7d8a93bdbdb5a1446fc34beff4b74aa9d11a0
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425389"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016648"
 ---
 # <a name="approve-vendors-for-specific-products"></a>Leveranciers voor specifieke producten goedkeuren
 
@@ -62,6 +61,3 @@ Deze procedure laat zien hoe u leveranciers voor specifieke producten goedkeurt.
 31. Sluit de pagina.
 32. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
