@@ -2,7 +2,7 @@
 title: Resultaten vragenlijst analyseren
 description: Vragenlijststatistieken kunnen worden gebruikt voor het berekenen van gemiddelden, totalen en percentages op basis van een set demografische gegevens.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: KMQuestionnaireStatistics, KMQuestionnaireStatisticsLine, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b8e4fd5d9fabd35de067ab61c1e64156ce4f0ec
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2b49868b76dcc0a5df420e56fd1fc2477c475596
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418048"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115169"
 ---
 # <a name="analyzing-questionnaire-results"></a>Resultaten vragenlijst analyseren
 
@@ -69,6 +69,3 @@ Vragenlijststatistieken kunnen worden gebruikt voor het berekenen van gemiddelde
 2. Klik op Resultaat.
 3. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

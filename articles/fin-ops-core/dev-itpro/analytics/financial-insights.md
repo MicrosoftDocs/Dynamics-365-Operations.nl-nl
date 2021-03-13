@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9aaf24147900c890a14c60ab969da7124c538911
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682766"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115723"
 ---
 # <a name="financial-insights"></a>Financial Insights
 
@@ -66,9 +66,10 @@ De gegevens voor **Financial Insights** worden gehaald uit de entiteitopslag (**
 
 U moet de volgende entiteiten bijwerken om gegevens te zien in de werkruimten **Financial Insights** en **CFO-overzicht**:
 
-- Versie 2 transactiegegevens financiële rapportage (**Opmerking:** dit is nieuw in versie 10.0.1 en vervangt de vorige entiteit.)
-- Transactiegegevens financiële rapportage
+- BudgetActivityMeasure
+- Transactiegegevens financiële rapportage versie 3 
 - CustCollectionsBIMeasurements
+- LedgerActivityMeasure
 - LedgerCovLiquidityMeasurement
 - Inkoop-cube
 - Verkoop-cube
@@ -247,6 +248,3 @@ De informatie in de volgende bronnen is niet vereist is om de ingesloten rapport
 - [Toegang krijgen tot analytische werkruimten en rapporten voor een omgeving met één computer](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [Analyses aan werkgebieden toevoegen met Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

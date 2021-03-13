@@ -1,5 +1,5 @@
 ---
-title: Facturen indienen bij het werkstroomsysteem en productontvangstbonregels aan factuurregels koppelen (preview)
+title: Facturen indienen bij het werkstroomsysteem en productontvangstbonregels koppelen
 description: In dit onderwerp wordt het proces uitgelegd van het indienen van leveranciersfacturen bij het werkstroomsysteem en het automatisch vereffenen van geboekte productontvangstbonregels met leveranciersfacturen.
 author: abruer
 manager: AnnBe
@@ -11,23 +11,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cde164ee89b542d769d81d8d483049fb7ca001c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 03c9f6752a0bb9641f67d65580aca18276e43e9a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4441805"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115651"
 ---
-# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines-preview"></a>Facturen indienen bij het werkstroomsysteem en productontvangstbonregels aan factuurregels koppelen (preview)
+# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Facturen indienen bij het werkstroomsysteem en productontvangstbonregels koppelen
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt het proces uitgelegd van het indienen van leveranciersfacturen bij het werkstroomsysteem en het automatisch vereffenen van geboekte productontvangstbonregels met leveranciersfacturen.
 
@@ -47,13 +45,10 @@ Het proces wordt uitgevoerd totdat de hoeveelheid van de vereffende productontva
 
 Factuurregels met een drieweg-overeenstemmingsbeleid waarbij de hoeveelheid op de afgestemde ontvangst kleiner is dan de factuurhoeveelheid, worden opgenomen in het proces voor automatische afstemming met productontvangstbonnen.
 
-Als u de status **Laatste overeenkomst** wilt weergeven voor facturen die geen deel uitmaken van het geautomatiseerde proces voor indiening bij de werkstroom, opent u de factuur vanaf de pagina **Leveranciersfacturen**. Wanneer u de factuur bekijkt, worden de overeenkomende validatiegegevens bijgewerkt.
+Als u de status **Laatste overeenkomst** wilt weergeven voor facturen die geen deel uitmaken van het geautomatiseerde proces voor indiening bij de werkstroom, opent u de factuur vanaf de pagina **Leveranciersfacturen**. Wanneer u de factuur bekijkt, worden de overeenkomende validatiegegevens bijgewerkt. De status **Laatste overeenkomst** kan automatisch worden bijgewerkt met de achtergrondtaak **Factuurvereffening valideren**. U kunt het proces van het automatisch bijwerken van de status **Laatste overeenkomst** op het tabblad **Achtergrondprocessen** van de pagina **Procesautomatiseringen** (**Systeembeheer \> Instellingen \> Procesautomatiseringen**).
 
 Een factuurregel wordt van de geautomatiseerde verwerking uitgesloten als aan een van de volgende voorwaarden is voldaan:
 
 - De waarde **Afstemmingsstatus van automatische ontvangst** van de factuurregel is **Mislukt**.
 - De factuur wordt gebruikt.
 - De factuur bevindt zich in het werkstroomsysteem.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

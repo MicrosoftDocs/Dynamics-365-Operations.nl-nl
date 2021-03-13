@@ -1,8 +1,8 @@
 ---
-title: Overzicht
+title: Overzicht voor ontwikkeling
 description: Deze ontwikkelaarsgids bevat een API en een verwijzing naar aangepaste velden. Ook vindt u hier informatie over integratie met andere apps.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 010920cc84897dc5d2cfc008aa04544db6b08a73
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 517febd7967350956a28dfd9d11e4042456c7da0
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528312"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115385"
 ---
-# <a name="overview"></a>Overzicht
+# <a name="development-overview"></a>Overzicht voor ontwikkeling
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -35,13 +35,13 @@ Deze ontwikkelaarsgids bevat een API en een verwijzing naar aangepaste velden. O
 
 - [Uitbreiden met Power Apps en Power Automate](hr-developer-power-apps.md)
 
-- [Human Resources-entiteiten in Common Data Service](hr-developer-entities.md)
+- [Human Resources-entiteiten in Dataverse](hr-developer-entities.md)
 
 - [Aangepaste velden](hr-developer-custom-fields.md)
 
 - Gegevensintegratie instellen
   - [Een gegevensintegratietechnologie kiezen](hr-admin-integration-choose-technology.md)
-  - [Integratie met Common Data Service configureren](hr-admin-integration-common-data-service.md)
+  - [Integratie met Dataverse configureren](hr-admin-integration-common-data-service.md)
   - [Integratie met Finance configureren](hr-admin-integration-finance.md)
   - [Integratie met Dayforce configureren](hr-admin-integration-dayforce.md)
   - [Een app voor het exporteren van terugkerende gegevens maken](hr-admin-integration-recurring-data-export.md)
@@ -62,6 +62,3 @@ Deze ontwikkelaarsgids bevat een API en een verwijzing naar aangepaste velden. O
 - [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)
 - [Beheerdershandleiding](hr-admin-overview.md)
 - [Gebruikershandleiding](hr-hrpro-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

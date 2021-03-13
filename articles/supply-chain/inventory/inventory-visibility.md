@@ -1,7 +1,7 @@
 ---
 title: Invoegtoepassing Voorraadzichtbaarheid
 description: In dit onderwerp wordt beschreven hoe u de invoegtoepassing voor de zichtbaarheid van de voorraad installeert en configureert voor Dynamics 365 Supply Chain Management.
-author: chuzheng
+author: sherry-zheng
 manager: tfehr
 ms.date: 10/26/2020
 ms.topic: article
@@ -10,28 +10,28 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 2976153a6a7e4b4130e8f7673ed128945aeabf65
-ms.sourcegitcommit: 03c2e1717b31e4c17ee7bb9004d2ba8cf379a036
+ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4625060"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114665"
 ---
 # <a name="inventory-visibility-add-in"></a>Invoegtoepassing Voorraadzichtbaarheid
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 De invoegtoepassing voor de zichtbaarheid van de voorraad is een onafhankelijke en zeer schaalbare microservice waarmee real-time tracking van voorhanden voorraad wordt ingeschakeld om een globale weergave van de voorraadzichtbaarheid te genereren.
 
 Alle informatie die betrekking heeft op de voorhanden voorraad, wordt in bijna real-time met behulp van SQL-integratie op laag niveau geëxporteerd naar de service. Externe systemen openen de service via RESTful API's om informatie over voorhanden voorraad voor bepaalde sets dimensies op te vragen, waardoor een lijst met beschikbare voorhanden posities wordt opgehaald.
 
-Voorraadzichtbaarheid is een microservice die is gebouwd op de Common Data Service, wat betekent dat u deze kunt uitbreiden door Power Apps te bouwen en Power BI toe te passen voor aangepaste functionaliteit om aan uw zakelijke vereisten te voldoen. Het is ook mogelijk om de index te upgraden om voorraadquery's uit te voeren.
+Voorraadzichtbaarheid is een microservice die is gebouwd op Microsoft Dataverse, wat betekent dat u deze kunt uitbreiden door Power Apps te bouwen en Power BI toe te passen voor aangepaste functionaliteit om aan uw zakelijke vereisten te voldoen. Het is ook mogelijk om de index te upgraden om voorraadquery's uit te voeren.
 
 Voorraadzichtbaarheid bevat configuratieopties waarmee de service kan worden geïntegreerd met systemen van derden. De service ondersteunt de gestandaardiseerde voorraaddimensie, aangepaste uitbreidbaarheid en gestandaardiseerde, configureerbare berekende hoeveelheden.
 
@@ -80,28 +80,55 @@ Om de invoegtoepassing voor voorraadzichtbaarheid te installeren, moet u het vol
 
 Ga als volgt te werk om een beveiligingsservicetoken te verkrijgen:
 
-1. Haal uw `aadToken` op en roep het eindpunt aan: https://securityservice.operations365.dynamics.com/token.
-1. Vervang de `client_assertion` in de body door uw `aadToken`.
-1. Vervang de context in de body door de omgeving waarin u de invoegtoepassing wilt implementeren.
-1. Vervang het bereik in de body door het volgende:
+1. Meld u aan bij Azure Portal en gebruik dit om `clientId` en `clientSecret` voor uw Supply Chain Management-toepassing te zoeken.
+1. Haal een Azure Active Directory-token (`aadToken`) op door een HTTP-aanvraag met de volgende eigenschappen in te dienen:
+    - **URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+    - **methode** - `GET`
+    - **Inhoud hoofdtekst (formuliergegevens)**:
 
-    - Bereik voor MCK: "https://inventoryservice.operations365.dynamics.cn/.default"  
-    (U kunt de Azure Active Directory-toepassings-id en tenant-id voor MCK vinden in `appsettings.mck.json` .)
-    - Bereik voor PROD: "https://inventoryservice.operations365.dynamics.com/.default"  
-    (U kunt de Azure Active Directory-toepassings-id en tenant-id voor PROD vinden in `appsettings.prod.json` .)
+        | key | waarde |
+        | --- | --- |
+        | client_id | ${aadAppId} |
+        | client_secret | ${aadAppSecret} |
+        | grant_type | client_credentials |
+        | resource | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+1. U moet als reactie een `aadToken` ontvangen, zoals in het volgende voorbeeld.
 
-    Het resultaat moet lijken op het volgende voorbeeld.
+    ```json
+    {
+    "token_type": "Bearer",
+    "expires_in": "3599",
+    "ext_expires_in": "3599",
+    "expires_on": "1610466645",
+    "not_before": "1610462745",
+    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+    "access_token": "eyJ0eX...8WQ"
+    }
+    ```
+
+1. Formuleer een JSON-aanvraag die op het volgende lijkt:
 
     ```json
     {
         "grant_type": "client_credentials",
         "client_assertion_type":"aad_app",
-        "client_assertion": "{**Your_AADToken**}",
-        "scope":"**https://inventoryservice.operations365.dynamics.com/.default**",
-        "context": "**5dbf6cc8-255e-4de2-8a25-2101cd5649b4**",
+        "client_assertion": "{Your_AADToken}",
+        "scope":"https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
         "context_type": "finops-env"
     }
     ```
+
+    Hierin:
+    - De waarde `client_assertion` moet het in de vorige stap ontvangen `aadToken` zijn.
+    - De waarde `context` moet de omgevings-ID zijn waarin u de invoegtoepassing wilt implementeren.
+    - Stel alle andere waarden in zoals in het voorbeeld wordt weergegeven.
+
+1. Dien een HTTP-aanvraag in met de volgende eigenschappen:
+    - **URL** - `https://securityservice.operations365.dynamics.com/token`
+    - **methode** - `POST`
+    - **HTTP-koptekst**: neem de API-versie op (sleutel is `Api-Version` en waarde is `1.0`)
+    - **Inhoud hoofdtekst**: neem de JSON-aanvraag op die u in de vorige stap hebt gemaakt.
 
 1. U ontvangt als reactie een `access_token`. Dit is wat u nodig hebt als Bearer-token voor het aanroepen van de Voorraadzichtbaarheid-API. Hier volgt een voorbeeld.
 
@@ -500,6 +527,3 @@ De query's die in de vorige voorbeelden worden weergegeven, kunnen een resultaat
 ```
 
 De velden met hoeveelheden zijn gestructureerd als een woordenboek met metingen en de bijbehorende waarden.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
-title: Vragenlijsten ontwerpen
+title: Vragenlijsten maken
 description: Dit artikel beschrijft het proces om een vragenlijst te maken. Als eerste stap ontwerpt u de vragenlijst Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,21 +11,21 @@ ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f7f7d68caf12c33059d2f871fe3f4a036c89f35
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418043"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115121"
 ---
-# <a name="design-questionnaires"></a>Vragenlijsten ontwerpen
+# <a name="create-questionnaires"></a>Vragenlijsten maken
 
 Dit artikel beschrijft het proces om een vragenlijst te maken. Als eerste stap ontwerpt u de vragenlijst Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd. 
 
@@ -91,7 +91,7 @@ De nummerreekscodes worden gebruikt voor het ordenen van vragen en antwoorden. O
 Definieer eerst alle parameters voordat u uw gegevens gaat maken. U kunt de instellingen van de vragenlijst op elk gewenst moment wijzigen.
 
 ## <a name="questionnaire-components"></a>Vragenlijstonderdelen
-Vragenlijsten bestaat uit drie hoofdelementen: antwoordgroepen die de antwoorden voor meerkeuzevragen bevatten, en de vragenlijst zelf.  U kunt de vragen in een vragenlijst desgewenst in resultaatgroepen groeperen. Met resultaatgroepen kunt u vragen categoriseren en hebt u een nadere analyse op de vragenlijst. 
+Vragenlijsten bestaat uit drie hoofdelementen: antwoordgroepen die de antwoorden voor meerkeuzevragen bevatten, en de vragenlijst zelf. U kunt de vragen in een vragenlijst desgewenst in resultaatgroepen groeperen. Met resultaatgroepen kunt u vragen categoriseren en kunt u nadere analyse uitvoeren op de vragenlijst. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -109,7 +109,7 @@ Antwoordgroepen en antwoorden zijn onderdelen van de hoeveelheid informatie waar
 U kunt een antwoordgroep gebruiken voor meer dan één vraag in dezelfde vragenlijst en in meer dan één vragenlijst. 
 
 > [!NOTE]
-> Als u antwoordtekst in antwoordgroepen aanpast die al is gebruikt op ingevulde vragenlijsten, kunnen de gegevens moeilijk te beoordelen worden, en zijn de vragenlijstresultaten mogelijk niet meer geldig. Als u een antwoordgroep moet wijzigen, overweeg dan om een nieuwe antwoordgroep te maken in plaats van het een bestaande te wijzigen. U kunt geen antwoordgroepen verwijderen die aan een vraag of antwoord zijn gekoppeld, of die zijn beantwoord.
+> Als u antwoordtekst in antwoordgroepen aanpast die al zijn gebruikt op ingevulde vragenlijsten, zijn de gegevens mogelijk moeilijk te beoordelen en zijn de vragenlijstresultaten mogelijk niet meer geldig. Als u een antwoordgroep moet wijzigen, overweeg dan om een nieuwe antwoordgroep te maken in plaats van het een bestaande te wijzigen. U kunt geen antwoordgroepen verwijderen die aan een vraag of antwoord zijn gekoppeld, of die zijn beantwoord.
 
 ### <a name="questions"></a>Vragen
 
@@ -193,9 +193,9 @@ Als u vragen wilt koppelen aan een vragenlijst door resultaatgroepen te gebruike
 U kunt meerdere resultaatgroepen instellen om de punten die door een respondent in elke categorie zijn verdiend, te evalueren. Nadat een vragenlijst is voltooid, kunt u de behaalde punten voor elke resultatengroep weergeven. 
 
 > [!TIP]
-> Als u een vragenlijst met punten wilt evalueren, maar niet voor afzonderlijke categorieën, kunt u alle vragen toevoegen aan één resultaatgroep. 
+> Als u een vragenlijst met punten wilt evalueren, maar niet voor afzonderlijke categorieën, kunt u alle vragen toevoegen aan één resultaatgroep. 
 
-Voor elke resultaatgroep kunt u ook een of meer op punten gebaseerde berichten instellen die respondenten ontvangen nadat ze de vragenlijst hebben voltooid. De weergegeven tekst kan variëren afhankelijk van de score die een respondent bereikt in een resultaatgroep. Als u op punten gebaseerde berichten gebruikt, definieert u puntenintervallen en een omschrijving van elk interval. Als een respondent een score behaalt in een bepaald interval, wordt de tekst voor dat interval opgenomen in het resultaatrapport. 
+Voor elke resultaatgroep kunt u ook een of meer op punten gebaseerde berichten instellen, die respondenten ontvangen nadat ze de vragenlijst hebben voltooid. De weergegeven tekst kan variëren, afhankelijk van de score die een respondent bereikt in een resultaatgroep. Als u op punten gebaseerde berichten gebruikt, definieert u puntenintervallen en een omschrijving van elk interval. Als een respondent een score behaalt in een bepaald interval, wordt de tekst voor dat interval opgenomen in het resultaatrapport. 
 
 Omdat een resultaatgroep betrekking heeft op punten die zijn gekoppeld aan specifieke groepen vragen op een vragenlijst, moet u een bepaalde resultaatgroep gebruiken voor een vragenlijst.
 
@@ -229,12 +229,10 @@ Hiërarchieën van voorwaardelijke vragen zijn optioneel wanneer u een vragenlij
 > [!NOTE]
 > Voordat u een hiërarchie van voorwaardelijke vragen kunt maken, moet u vragen waaraan antwoordgroepen zijn toegewezen, aan de vragenlijst koppelen. 
 
-Voor het gebruiken van voorwaardelijke vragen voor het maken van een vraaghiërarchie in een vragenlijst kunt u de volgorde waarin vragen worden weergegeven afhankelijk maken van de antwoorden die door een respondent voor elke vraag worden geselecteerd. Door de vraagvolgorde te baseren op het antwoord van een respondent, kunt u de vragenlijst aanpassen terwijl de respondent hem invult.
+Voor het gebruiken van voorwaardelijke vragen voor het maken van een vraaghiërarchie in een vragenlijst, kunt u de volgorde waarin vragen worden weergegeven afhankelijk maken van de antwoorden die door een respondent voor elke vraag worden geselecteerd. Door de vraagvolgorde te baseren op het antwoord van een respondent, kunt u de vragenlijst aanpassen terwijl de respondent hem invult.
 
 #### <a name="examples"></a>Voorbeelden
 
-Een rechtspersoon biedt zowel artikelen als services aan zijn klanten. Zoals meestal gebeurt in zulke gevallen kopen sommige klanten alleen artikelen of alleen diensten af en andere nemen beide af. Wanneer de rechtspersoon dus een klanttevredenheidsonderzoek houdt, wordt er een voorwaardelijke structuur toegepast op de vragenlijst om te voorkomen dat klanten die alleen diensten afnemen vragen moeten beantwoorden over artikelen. 
+Een rechtspersoon biedt aan klanten zowel artikelen als diensten. Zoals meestal gebeurt in zulke gevallen kopen sommige klanten alleen artikelen of alleen diensten af en andere nemen beide af. Wanneer de rechtspersoon dus een klanttevredenheidsonderzoek houdt, wordt er een voorwaardelijke structuur toegepast op de vragenlijst om te voorkomen dat klanten die alleen diensten afnemen vragen moeten beantwoorden over artikelen. 
 
 U kunt een vragenlijst ook zo opzetten dat als een respondent antwoord A selecteert voor vraag 1, vraag 2 de volgende vraag in de vragenreeks is. Als de respondent echter antwoord B voor vraag 1 selecteert, dan is vraag 5 de volgende vraag.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

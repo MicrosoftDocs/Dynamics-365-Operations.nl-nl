@@ -2,7 +2,7 @@
 title: Personeelsvaardigheden afstemmen op bedrijfsbehoeften
 description: U kunt de vaardigheden bijhouden die de werknemers, sollicitanten of de contactpersonen hebben of zouden moeten hebben om hun functie effectief te vervullen. U kunt ook opgeven welke vaardigheden voor een bepaalde functie zijn vereist.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7abaa99bdec5fcf20a63bfeb716ebb63dd3712df
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 26493306a8bd810f936b15160b07263ca41f87ae
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417988"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115579"
 ---
 # <a name="align-workforce-skills-with-business-needs"></a>Personeelsvaardigheden afstemmen op bedrijfsbehoeften
 
@@ -62,6 +62,3 @@ De profielen voor vaardigheidstoewijzing maken het mogelijk huidige werknemers o
 U kunt een analyse van een vaardigheidsprofiel maken om een lijst met de competenties van een werknemer, sollicitant of een contactpersoon vanaf een bepaalde datum te bekijken. U kunt een vaardigheidshiaatanalyse maken om de vaardigheden van een persoon te vergelijken met de vaardigheden die zijn vereist voor een bepaalde functie  
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
