@@ -2,7 +2,7 @@
 title: Afrondingsregels instellen
 description: U kunt afrondingsregels instellen in Dynamics 365 Human Resources om aan de behoeften van uw organisatie te voldoen.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,21 +18,21 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8a9b0c33d2e0c47b351463b4b3630a91c6bd9999
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8a603c31e3a36072b6456bea212ad176009c8b48
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418010"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5112056"
 ---
-# <a name="set-up-rounding-rules"></a><span data-ttu-id="a2ebe-103">Afrondingsregels instellen</span><span class="sxs-lookup"><span data-stu-id="a2ebe-103">Set up rounding rules</span></span>
+# <a name="set-up-rounding-rules"></a><span data-ttu-id="9cb7d-103">Afrondingsregels instellen</span><span class="sxs-lookup"><span data-stu-id="9cb7d-103">Set up rounding rules</span></span>
 
-<span data-ttu-id="a2ebe-104">U kunt afrondingsregels instellen in Dynamics 365 Human Resources om aan de behoeften van uw organisatie te voldoen.</span><span class="sxs-lookup"><span data-stu-id="a2ebe-104">You can set up rounding rules in Dynamics 365 Human Resources to meet the needs of your organization.</span></span>
+<span data-ttu-id="9cb7d-104">U kunt afrondingsregels instellen in Dynamics 365 Human Resources om aan de behoeften van uw organisatie te voldoen.</span><span class="sxs-lookup"><span data-stu-id="9cb7d-104">You can set up rounding rules in Dynamics 365 Human Resources to meet the needs of your organization.</span></span>
 
-1. <span data-ttu-id="a2ebe-105">Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Afrondingsregels**.</span><span class="sxs-lookup"><span data-stu-id="a2ebe-105">In the **Benefits management** workspace, under **Setup**, select **Rounding rules**.</span></span>
+1. <span data-ttu-id="9cb7d-105">Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Afrondingsregels**.</span><span class="sxs-lookup"><span data-stu-id="9cb7d-105">In the **Benefits management** workspace, under **Setup**, select **Rounding rules**.</span></span>
 
-2. <span data-ttu-id="a2ebe-106">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="a2ebe-106">Select **New**.</span></span>
+2. <span data-ttu-id="9cb7d-106">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="9cb7d-106">Select **New**.</span></span>
 
-3. <span data-ttu-id="a2ebe-107">Geef waarden op voor **Afronden naar hetdichtstbijzijnde**, **Scenario** en **Afrondingsformulier**.</span><span class="sxs-lookup"><span data-stu-id="a2ebe-107">Specify values for **Round to the nearest**, **Scenario**, and **Rounding form**.</span></span>
+3. <span data-ttu-id="9cb7d-107">Geef waarden op voor **Afronden naar hetdichtstbijzijnde**, **Scenario** en **Afrondingsformulier**.</span><span class="sxs-lookup"><span data-stu-id="9cb7d-107">Specify values for **Round to the nearest**, **Scenario**, and **Rounding form**.</span></span>
 
-4. <span data-ttu-id="a2ebe-108">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="a2ebe-108">Select **Save**.</span></span> 
+4. <span data-ttu-id="9cb7d-108">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="9cb7d-108">Select **Save**.</span></span> 
