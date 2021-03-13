@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-09-23
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3a23ee452535423684c6d210a448ee768379fa08
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 28301cdfb86d00ea6f04e996fe7fb1485e83b2d4
+ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516760"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104959"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Schaaleenheden voor Cloud en Edge voor workloads voor productie en magazijnbeheer
 
@@ -165,7 +164,7 @@ U kunt nu schaaleenheden en workloads configureren in uw preview-omgeving.
 
 > [!IMPORTANT]
 > Wanneer u cloud-schaaleenheden configureert, kunt u [alle vereiste stappen uitvoeren in de portal voor schaaleenheid-beheer](#scale-unit-manager-portal).
-<!-- >
+<!-- 
 > If want to use edge scale units with your preview deployment, you must do all scale unit configuration in the user interface on the hub as described in [Configure the hub environment for use with edge scale units](cloud-edge-edge-scale-units-lbd.md#configure-the-hub-environment). You can't use Scale Unit Manager portal if you include an edge scale unit. -->
 
 ### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Cloud-schaaleenheden en workloads beheren via de portal voor schaaleenhedenbeheer
@@ -176,7 +175,7 @@ Ga naar de [portal voor schaaleenhedenbeheer](https://aka.ms/SCMSUM) en meld u a
 
 Selecteer **Schaaleenheden toevoegen** om een of meer schaaleenheden toe te voegen die beschikbaar zijn in uw topologie. In de preview wordt de cloud-schaaleenheid weergegeven die u hebt geïmplementeerd vanuit een van de promotiecodes die u hebt ontvangen als onderdeel van het preview-programma.
 
-<!-- > [!IMPORTANT]
+<!--  [!IMPORTANT]
 > In the public preview, the Scale Unit Manager portal shows the cloud scale unit that you received as part of the preview program. Any edge scale unit that you created based on an LBD configuration can't be managed in the Scale Unit Manager portal yet. For configuration details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md) -->
 
 Op het tabblad **Gedefinieerde workloads** kunt u de knop **Workload maken** gebruiken om een magazijnbeheer- of een productie-uitvoeringsworkload toe te voegen aan een van uw schaaleenheden. Voor elke workload moet u de context opgeven van de processen waarvan de workload de eigenaar is. Voor magazijnbeheerworkloads is de context een specifiek magazijn in een specifieke locatie en rechtspersoon. Voor productie-uitvoeringsworkloads is de context een specifieke locatie in een rechtspersoon.
@@ -189,6 +188,3 @@ Op het tabblad **Gedefinieerde workloads** kunt u de knop **Workload maken** geb
 <!-- ### Create an edge scale unit using your custom on-premises hardware appliance
 
 In the public preview, you can create on-premises edge scale units on your custom hardware using the LBD environments. For details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md). -->
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

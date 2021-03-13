@@ -3,7 +3,7 @@ title: Overzicht van de invoegtoepassing voor elektronische facturering
 description: Dit onderwerp bevat informatie over de invoegtoepassing voor elektronische facturering in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: 2c35b810151349384f105d9ac1d93e1885031450
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4442139"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104203"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>Overzicht van de invoegtoepassing voor elektronische facturering
 
@@ -45,9 +44,9 @@ De invoegtoepassing voor elektronische facturering kan u helpen om de volgende d
 
 Als u de invoegtoepassing voor elektronische facturering wilt gebruiken, moet u deze installeren vanuit uw project in Microsoft Dynamics Lifecycle Services (LCS). Volg vervolgens de configuratieprocedure om de integratie met Finance of Supply Chain Management in te schakelen. Zie [Aan de slag met de invoegtoepassing voor elektronische facturering](e-invoicing-get-started.md) voor meer informatie.
 
-## <a name="availability"></a>Beschikbaarheid
+## <a name="service-availability"></a><a name="availability"></a>Beschikbaarheid van service
 
-In eerste instantie is de invoegtoepassing voor elektronische facturering beschikbaar voor geselecteerde klanten via een voorbeeldprogramma. Later wordt het voorbeeld voor een groter aantal klanten geopend. Tot slot wordt de service in het algemeen beschikbaar. Omdat de functionaliteit waarmee de per land/regio geldende vereisten worden toegepast, tot verschillende fasen van de release kan zijn beperkt, moet u altijd de meest actuele documentatie raadplegen waarin de dekking en het bereik van ondersteunde oplossingen per land/regio worden aangegeven.
+Momenteel is de invoegtoepassing voor elektronische facturering beschikbaar voor klanten via het preview-programma, en in de volgende fase zal de service algemeen beschikbaar worden. Omdat de functionaliteit waarmee de per land/regio geldende vereisten worden toegepast, tot verschillende fasen van de release kan zijn beperkt, moet u altijd de meest actuele documentatie raadplegen waarin de dekking en het bereik van ondersteunde oplossingen per land/regio worden aangegeven.
 
 De invoegtoepassing voor elektronische facturering wordt geïmplementeerd in de volgende Azure-regio´s:
 
@@ -76,7 +75,7 @@ De invoegtoepassing voor elektronische facturering kan worden gebruikt in scenar
     - Ingebouwde, eenvoudig uitbreidbare en configureerbare integratie met extra inhoud voor verschillende landen
 
     > [!NOTE]
-    > Momenteel wordt een beperkt aantal directe verzendingen ondersteund. Zie de sectie [Beschikbaarheid](#availability), eerder in dit onderwerp, voor meer informatie. De ondersteuning wordt in de toekomst uitgebreid.
+    > Momenteel wordt een beperkt aantal directe verzendingen ondersteund. Zie de sectie [Beschikbaarheid van service](#availability), eerder in dit onderwerp, voor meer informatie. De ondersteuning wordt in de toekomst uitgebreid.
 
 - Verwerking van reacties van webservices, waaronder configureerbare afhandeling van uitzonderingsberichten
 - Ondersteuning voor elektronische handtekeningen (bijvoorbeeld met behulp van het XMLDSig-algoritme voor handtekeningen)
@@ -104,15 +103,9 @@ In de volgende afbeelding wordt weergegeven hoe de gegevensstroom van en naar de
 ![Gegevensstroom voor de invoegtoepassing voor elektronische facturering](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Privacyverklaring
-Voor het inschakelen en gebruiken van elektronische facturering moeten mogelijk beperkte gegevens worden verzonden, waaronder de belastingregistratie-ID voor de organisatie. Deze gegevens worden verzonden naar instanties van derden die door de belastingdienst zijn gemachtigd om elektronische facturen te verzenden in de vooraf gedefinieerde indelingen die nodig zijn voor de integratie met de webservices van deze overheid. Op gegevens die zijn geïmporteerd van deze externe systemen naar deze Dynamics 365 online service , is de [privacyverklaring](https://go.microsoft.com/fwlink/?LinkId=512132) van toepassing. Zie de secties met betrekking tot de Privacyverklaring in documentatie over landspecifieke functies voor meer informatie.
+Voor het inschakelen en gebruiken van de invoegtoepassing voor elektronische facturering moeten mogelijk beperkte gegevens worden verzonden, waaronder de belastingregistratie-id voor de organisatie. Deze gegevens worden verzonden naar instanties van derden die door de belastingdienst zijn gemachtigd om elektronische facturen te verzenden in de vooraf gedefinieerde indelingen die nodig zijn voor de integratie met de webservices van deze overheid. Op gegevens die zijn geïmporteerd van deze externe systemen naar deze Dynamics 365 online service , is de [privacyverklaring](https://go.microsoft.com/fwlink/?LinkId=512132) van toepassing. Zie de secties met betrekking tot de Privacyverklaring in documentatie over landspecifieke functies voor meer informatie.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
-
-- [Aan de slag met de invoegtoepassing voor elektronische facturering](e-invoicing-get-started.md)
-- [Aan de slag met de invoegtoepassing voor elektronische facturering voor Brazilië](e-invoicing-bra-get-started.md)
-- [Aan de slag met de invoegtoepassing voor elektronische facturering voor Mexico](e-invoicing-mex-get-started.md)
-- [Aan de slag met de invoegtoepassing voor elektronische facturering voor Italië](e-invoicing-ita-get-started.md)
-- [De invoegtoepassing voor elektronische facturering instellen](e-invoicing-setup.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Servicebeheer](e-invoicing-service-administration.md)
+- [Elektronische facturen configureren in RCS](e-invoicing-configuration-rcs.md)
+- [Elektronische facturen uitgeven in Finance en Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)

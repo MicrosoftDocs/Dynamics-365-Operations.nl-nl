@@ -3,35 +3,32 @@ title: Productverzamelingsmodules
 description: In dit onderwerp vindt u een overzicht van de productverzamelingmodules in Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
-ms.date: 09/15/2020
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.search.scope: Operations, Retail, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2d19cac142b870d8ecc677665443602b0a8837d2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4bae9ca722c2b6e776abb0e1da9694edc8afadf8
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411248"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097098"
 ---
 # <a name="product-collection-modules"></a>Productverzamelingsmodules
 
-
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp vindt u een overzicht van de productverzamelingmodules in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Productdetectie is een primair hulpmiddel dat detailhandelaren gebruiken om hun klanten op een e-commerce-website te benaderen. Modules voor productverzamelingen helpen u om aantrekkelijke winkelervaringen samen te stellen door een intuïtieve visuele interface te bieden die kan worden gebruikt om snel productverzamelingen te ontwerpen.
 
@@ -67,6 +64,10 @@ In de volgende tabel worden diverse typen productverzamelingsmodules beschreven 
 | Vaak samen gekocht | Kunstmatige intelligentie/Machine learning | Deze module maakt gebruik van machine learning voor het analyseren van inkooppatronen van consumenten en het aanbevelen van verwante artikelen die vaak samen met een bepaald product worden gekocht. Deze lijst kan gepersonaliseerde resultaten voor een aangemelde gebruiker bevatten als de auteur van de site die optie kiest. |
 | Wat mensen ook leuk vinden           | Kunstmatige intelligentie/Machine learning | Deze module maakt gebruik van machine learning voor het analyseren van inkooppatronen van consumenten en het aanbevelen van artikelen die samenhangen met een bepaald product. Deze lijst kan gepersonaliseerde resultaten voor een aangemelde gebruiker bevatten als de auteur van de site die optie kiest. |
 | Selectie voor u              | Kunstmatige intelligentie/Machine learning | Deze module maakt gebruik van machine learning voor het analyseren van de aankooppatronen van de aangemelde gebruiker en om persoonlijke aanbevelingen te bieden die zijn gebaseerd op die aankooppatronen. Voor een gastgebruiker wordt deze lijst samengevouwen. |
+
+## <a name="supported-modules"></a>Ondersteunde modules 
+
+De productverzamelingsmodule ondersteunt de [module voor snelle weergave](quick-view-module.md), waarmee gebruikers productgegevens kunnen bekijken en artikelen aan het winkelwagentje kunnen toevoegen via een productverzamelingspagina.
 
 ## <a name="add-a-product-collection-module-to-a-category-page"></a>Een productverzamelingsmodule aan een categoriepagina toevoegen
 
@@ -110,5 +111,4 @@ In de volgende tabel worden de lijsttypen weergegeven die beschikbaar zijn voor 
 
 [Overzicht productaanbevelingen](product-recommendations.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[Module voor snelle weergave](quick-view-module.md)

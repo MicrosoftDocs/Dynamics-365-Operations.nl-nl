@@ -1,6 +1,6 @@
 ---
 title: ER-modeltoewijzing in afzonderlijke ER-configuraties beheren
-description: In de volgende stappen wordt uitgelegd hoe een gebruiker die is toegewezen aan de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage ER-modeltoewijzingen (Electronic Reporting) kan beheren in aparte ER-configuraties.
+description: In dit onderwerp wordt beschreven hoe u ER (elektronische rapportage) modeltoewijzingen in aparte ER-configuraties kunt beheren.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2f1013cfc9f421525fb0661cd5ace5eeaa157f9a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684422"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093793"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>ER-modeltoewijzing in afzonderlijke ER-configuraties beheren
 
@@ -161,6 +161,3 @@ Omdat ER-configuraties worden gedeeld tussen bedrijven, kunt u deze taakbegeleid
 7. Klik op OK.
     * De standaardmodeltoewijzingsconfiguratie wordt door deze indelingsconfiguratie gebruikt voor het genereren van het elektronische document (de gemaakte uitvoer bevat de bedrijfscode).  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

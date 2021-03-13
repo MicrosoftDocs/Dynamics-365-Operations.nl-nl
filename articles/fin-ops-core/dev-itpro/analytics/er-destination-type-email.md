@@ -1,6 +1,6 @@
 ---
 title: ER-bestemmingstype voor e-mail
-description: In dit onderwerp wordt uitgelegd hoe een e-mailbestemming kan worden geconfigureerd voor elk MAP- of BESTAND-onderdeel van een ER-indeling (elektronische rapportage) die wordt geconfigureerd voor het genereren van uitgaande documenten.
+description: In dit onderwerp wordt uitgelegd hoe u een e-mailbestemming kunt configureren voor elke MAP- of BESTAND-component van een ER-indeling (Electronic Reporting).
 author: NickSelin
 manager: AnnBe
 ms.date: 12/03/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
-ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
+ms.openlocfilehash: e2e0da1c724269e0956be2f402b34ff376ed1990
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4690121"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094099"
 ---
 # <a name="email-er-destination-type"></a>ER-bestemmingstype voor e-mail
 
@@ -65,8 +65,6 @@ Als u **E-mail van Afdrukbeheer** selecteert als type e-mailadres, kunt u in het
 - Selecteer **Geen** in het veld **E-mailbron**.
 - Voer in het veld **Extra e-mailadressen, gescheiden door ";"** de vaste e-mailadressen in.
 
-![Een vast e-mailadres configureren](./media/er_destinations-emailfixedaddress.png)
-
 U kunt ook e-mailadressen ophalen uit de contactgegevens van de partij waarvoor u een uitgaand document hebt gegenereerd. Als u niet-vaste e-mailadressen wilt gebruiken, selecteert u in het veld **E-mailbron** de [rol](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles) van de partij voor een bestandsbestemming. De volgende rollen worden ondersteund:
 
 - Klant
@@ -92,8 +90,6 @@ Voer op de pagina **Formuleontwerper** in het veld **Formule** een documentspeci
 
 Als de rekeningnummers van de geconfigureerde rol uniek zijn voor het gehele exemplaar van Microsoft Dynamics 365 Finance, kan het veld **Bvan e-mailbron** in het dialoogvenster **E-mail naar** leeg blijven.
 
-![Leeg veld Bedrijf van e-mailbron](./media/er_destinations-emaildefineaddresssourceformula.png)
-
 U kunt ook een situatie hebben waarin verschillende partijen in het [algemene adresboek](../../fin-ops/organization-administration/overview-global-address-book.md) zijn geregistreerd in verschillende bedrijven ([rechtspersonen](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities)), zodat ze allemaal hetzelfde rekeningnummer gebruiken om de geconfigureerde rol te vullen. In dit geval zijn de rekeningnummers voor de geconfigureerde rol niet uniek voor de gehele Finance-exemplaar. Daarom kunt u niet alleen een rekeningnummer opgeven om een partij expliciet te selecteren. U moet ook het bedrijf opgeven in het bereik waarvan de partij is geregistreerd om de geconfigureerde rol te kunnen invullen. Selecteer de knop **Binden** (kettingsymbool) naast het veld **Bedrijf van e-mailbron** in het dialoogvenster **E-mail naar** om de pagina [Formuleontwerperr](general-electronic-reporting-formula-designer.md) te openen. U kunt deze pagina vervolgens gebruiken om een formule te configureren die tijdens runtime de code retourneert van het bedrijf waarvoor de gewenste bron deel moet uitmaken van het bereik.
 
 > [!TIP]
@@ -109,8 +105,6 @@ Als u het type e-mailadres wilt opgeven dat tijdens runtime moet worden gebruikt
 
 > [!NOTE]
 > Als doelen zijn geselecteerd in het veld **Doel** en de optie **Primaire contactpersoon** is ingesteld op **Ja**, wordt elk e-mailadres dat aan ten minste één geconfigureerd criterium voldoet, tijdens runtime gebruikt.
-
-![Kenmerken van e-mailbronaccount configureren](./media/er_destinations-emaildefineaddresssourceattributes.png)
 
 ### <a name="configuration-email"></a>Configuratie-e-mail
 
@@ -145,6 +139,3 @@ In de volgende afbeelding ziet u het proces, zoals beschreven in dit onderwerp, 
 - [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 - [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 - [Formuleontwerper in elektronische rapportage (ER)](general-electronic-reporting-formula-designer.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Compensatie Power BI-inhoud
-description: In dit onderwerp wordt Power BI-inhoud voor Compensatie besproken. U vindt hier een uitleg hoe u toegang krijgt tot de rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+description: In dit onderwerp wordt Power BI-inhoud voor Compensatie besproken. Er wordt uitgelegd hoe u rapporten kunt openen en u vindt informatie over het gebruikte gegevensmodel.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 64b4f27b4a1fa3762169a18746c6b0933bddf3ca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b625ea7dcbb6bd8b80cbcdcc544c59b9839fc19d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687176"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093051"
 ---
 # <a name="compensation-power-bi-content"></a>Compensatie Power BI-inhoud
 
@@ -71,6 +71,3 @@ De volgende gegevens worden gebruikt om de rapporten in de **Compensatie** Power
 | Naam van werknemer            | Voornaam, achternaam en volledige naam                                                                       | Huidige werknemer, Ontslagen werknemer, Trend werknemer |
 | Werknemertitel           | Titel en anciënniteitsdatum                                                                                   | Huidige werknemer, Ontslagen werknemer, Trend werknemer |
 | Trend werknemer           | Werknemers in de loop van de tijd, personeelsbezetting, bedrijf en positie                                                        | Bedrijf, Compensatie, Geografische locatie, Werknemersnaam, Rapporteert aan, Kalender-offset, Datum, Werknemertitel, Demografische gegevens, Aanstelling, Functie, Vergoedingen |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

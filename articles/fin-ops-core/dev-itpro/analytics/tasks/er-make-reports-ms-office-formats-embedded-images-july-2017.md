@@ -1,6 +1,6 @@
 ---
 title: Configuraties ontwerpen voor het genereren van rapporten in Office-indeling die ingesloten afbeeldingen bevatten
-description: De stappen in dit onderwerp geven informatie over hoe u elektronische rapportage (ER)-configuraties ontwerpt die elektronische documenten in Microsoft Office-indelingen (Excel en Word) genereren die ingesloten afbeeldingen bevatten.
+description: Dit onderwerp laat zien hoe u configuraties ontwerpt voor het genereren van elektronische documenten in Excel- en Word-indeling met ingesloten afbeeldingen.
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2018
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0145565ba060308162620f29a42499b0bffe6496
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b60ed6b07851c44ceb4b8f313bc65f04b802e646
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684397"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093665"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Configuraties ontwerpen voor het genereren van rapporten in Office-indeling die ingesloten afbeeldingen bevatten
 
@@ -90,6 +90,3 @@ Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure "ER
  30. Selecteer Ja in het veld Voorafmelding maken toestaan voor inactieve bankrekeningen:.  
  31. Klik op Opslaan.  
  32. Sluit de pagina.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

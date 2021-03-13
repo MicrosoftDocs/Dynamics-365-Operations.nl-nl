@@ -1,6 +1,6 @@
 ---
 title: Een configuratie vanuit Lifecycle Services importeren
-description: In dit onderwerp wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe versie van een configuratie voor elektronische rapportage (ER) kan importeren vanuit Microsoft Dynamics Lifecycle Services (LCS).
+description: In dit onderwerp wordt beschreven hoe u een nieuwe versie van een ER-configuratie (Electronic Reporting) importeert vanuit Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c43cdce8d073f04a3158c8beb13a5376e669a4c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 602886b0dd729b8ec52940f42bd1c393dac8acda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684446"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093690"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Een configuratie vanuit Lifecycle Services importeren
 
@@ -103,6 +103,3 @@ In dit voorbeeld selecteert u de gewenste versie van de ER-configuratie en impor
     Selecteer voor dit voorbeeld de versie van de configuratie die de status **Gedeeld** heeft.
 
     De gedeelde versie 1 van de geselecteerde gegevensmodelconfiguratie is nu ook beschikbaar.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

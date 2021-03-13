@@ -11,33 +11,22 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4442140"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104224"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Een Azure-opslagaccount en een sleutelkluis maken
 
 [!include [banner](../includes/banner.md)]
-
-
-
-De invoegtoepassing voor elektronische facturering neemt de verantwoordelijkheid voor het opslaan van al uw bedrijfsgegevens in de Microsoft Azure-resources die het eigendom zijn van uw bedrijf. Om er zeker van te zijn dat de service correct werkt en dat alle bedrijfsgegevens die nodig zijn voor en die worden gegenereerd door de invoegtoepassing voor elektronische facturering alleen worden gebruikt door de invoegtoepassing, moet u twee hoofd Azure-resources maken:
-
-- Een Azure-opslagaccount (Blob-opslag) voor het opslaan van elektronische facturen
-- Een Azure-sleutelkluis voor het opslaan van certificaten en de URI (Uniform Resource Identifier) van het opslagaccount
-
-> [!NOTE]
-> Een speciale sleutelkluis-resource en de Blob-opslag van de klant moeten specifiek worden toegewezen voor gebruik met de invoegtoepassing voor elektronische facturering.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -91,6 +80,3 @@ In dit onderwerp voert u twee belangrijke stappen uit:
 9. Selecteer in het veld **Principal** de principal door **Invoegtoepassing voor elektronische facturering** toe te voegen.
 10. Selecteer **Toevoegen** en selecteer **Sleutelkluiswijzigingen opslaan**.
 11. Kopieer op de pagina **Overzicht** de **DNS-naam**-waarde voor de sleutelkluis. Deze waarde wordt gebruikt tijdens de installatie van de service in RCS en wordt de *sleutel-kluis-URI* genoemd.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

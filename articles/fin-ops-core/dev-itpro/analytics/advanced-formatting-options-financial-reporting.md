@@ -1,7 +1,7 @@
 ---
 title: Geavanceerde opmaakopties in financiële rapportage
-description: Wanneer u een rapport in financiële rapportage maakt, zijn aanvullende opmaakfuncties beschikbaar, zoals filters voor dimensies, beperkingen voor kolommen en rapporteringseenheden, niet-afdrukbare rijen en IF/THEN/ELSE-instructies in berekeningen.
-author: ryansandness
+description: In dit onderwerp worden functies voor geavanceerde opmaak beschreven, waaronder filters, beperkingen, niet-afdrukrijen en voorwaardelijke instructies in berekeningen.
+author: panolte
 manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683158"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093157"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Geavanceerde opmaakopties in financiële rapportage
 
@@ -310,6 +310,3 @@ Een **IF/THEN/ELSE**-constructie zorgt ervoor dat elke berekening kan afhangen v
 U kunt rapporten ontwerpen met behulp van dimensiewaarden die een ampersand (&) bevatten.
 
 In een veld **Koppeling naar financiële dimensies** kunt u een waarde invoeren zoals **'W&V'**. Het opnemen van enkele aanhalingstekens (' ') aan beide zijden van de dimensiewaarde geeft aan dat u de letterlijke waarde gebruikt, zoals bijvoorbeeld het ampersand-teken (&).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

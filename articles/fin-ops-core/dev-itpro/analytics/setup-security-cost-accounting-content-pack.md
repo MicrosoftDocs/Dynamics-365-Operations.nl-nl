@@ -1,6 +1,6 @@
 ---
 title: Power BI-inoud Beveiliging instellen voor de kostprijsboekhoudingsanalyse
-description: In dit onderwerp wordt uitgelegd hoe u de beveiliging op toegangsniveau in Kostprijsboekhouding kunt doorvoeren naar beveiliging op rijniveau in Power BI. Deze functionaliteit borgt dat gebruikers alleen Power BI-gegevens zien waar hen toegang toe is verleend.
+description: In dit onderwerp wordt uitgelegd hoe u de beveiliging op toegangsniveau in Kostprijsboekhouding kunt doorvoeren naar beveiliging op rijniveau in Power BI.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 04ff1523f7b05fe8398513e913702b0f3c7c354c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d54ced21de112288c2f98c0bc895ca0d49c217e3
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682184"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093350"
 ---
-# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Power BI-inoud Beveiliging instellen voor de kostprijsboekhoudingsanalyse
+# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Beveiliging instellen voor de kostprijsboekhoudingsanalyse van Power BI-inhoud
 
 [!include [banner](../includes/banner.md)]
 
@@ -63,6 +63,3 @@ Er wordt vanuit gegaan dat uw organisatie de toegang tot gegevens wil beperken. 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 Meer informatie over beveiliging op rijniveau in Power BI vindt u in [Beveiliging van uw model in Power BI beheren](https://powerbi.microsoft.com/documentation/powerbi-admin-rls/#manage-security-on-your-model).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

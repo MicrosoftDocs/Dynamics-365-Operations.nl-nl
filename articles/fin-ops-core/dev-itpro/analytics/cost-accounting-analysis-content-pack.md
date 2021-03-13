@@ -1,6 +1,6 @@
 ---
 title: Analyse van kostprijsboekhouding Power BI-inhoud
-description: In dit onderwerp wordt beschreven wat wordt opgenomen in de Power BI-inhoud voor de analyse van kostprijsboekhouding. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+description: In dit onderwerp wordt beschreven wat wordt opgenomen in de Power BI-inhoud voor de analyse van kostprijsboekhouding.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/02/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c15995edb5d65a00207fdb425447779d3a17d993
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c9a4741c1b09b8e68a9fe95d6f4effa328615d5
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683866"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093381"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Analyse van kostprijsboekhouding Power BI-inhoud
 
@@ -123,6 +123,3 @@ De volgende belangrijke dimensies worden gebruikt als filters voor het segmenter
 | Fiscale kalenders                   | Kalender, kalenderomschrijving                                                                                       |
 | Boekjaren                       | Kalenderjaar                                                                                                        |
 | Boekperioden                     | Kalenderjaarperiode                                                                                                 |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

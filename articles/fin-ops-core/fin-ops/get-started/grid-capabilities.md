@@ -1,9 +1,9 @@
 ---
 title: Rastermogelijkheden
-description: Dit onderwerp beschrijft diverse krachtige functies van het rasterbesturingselement. De nieuwe rasterfunctie moet zijn ingeschakeld als u toegang tot deze mogelijkheden wilt hebben.
+description: Dit onderwerp beschrijft diverse krachtige functies van het rasterbesturingselement. U moet de nieuwe rasterfunctie inschakelen als u toegang tot deze mogelijkheden wilt hebben.
 author: jasongre
 manager: AnnBe
-ms.date: 11/17/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: f8ec45208ea86f4b1782eaeb1d14bb414e3b577f
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693769"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104304"
 ---
 # <a name="grid-capabilities"></a>Rastermogelijkheden
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Het nieuwe rasterbesturingselement biedt een aantal handige en krachtige functies die kunnen worden gebruikt om de productiviteit van gebruikers te verbeteren, interessantere weergaven van uw gegevens te maken en inzicht te krijgen in uw gegevens. In dit artikel worden de volgende mogelijkheden besproken: 
+Het nieuwe rasterbesturingselement biedt verschillende handige en krachtige functies die u kunt gebruiken om de productiviteit van gebruikers te verbeteren, interessantere weergaven van uw gegevens te maken en inzicht te krijgen in uw gegevens. In dit artikel worden de volgende mogelijkheden besproken: 
 
 -  Totalen worden berekend
 -  Voor het systeem uit typen
 -  Wiskundige expressies evalueren 
 -  Tabelgegevens groeperen (afzonderlijk ingeschakeld met de functie **(Preview) Groeperen in rasters**)
--  Vastgemaakte systeemkolommen
+-  Kolommen blokkeren
 
 ## <a name="calculating-totals"></a>Totalen worden berekend
 In Finance and Operations-apps kunnen gebruikers totalen weergeven onder aan numerieke kolommen in rasters. Deze totalen worden weergegeven in een voettekstsectie onder in het raster. 
@@ -41,14 +41,14 @@ In Finance and Operations-apps kunnen gebruikers totalen weergeven onder aan num
 ### <a name="showing-the-grid-footer"></a>De rastervoettekst weergeven
 Onder aan elk raster in tabelvorm in Finance and Operations-apps bevindt zich een voettekstgebied. In de voettekst kunnen waardevolle gegevens worden weergegeven die betrekking hebben op de gegevens die in het raster worden weergegeven. Hiermee volgen enkele voorbeelden van dergelijke informatie:
 
-- Het aantal geselecteerde rijen in de tabel (wanneer meer dan één record is geselecteerd)
+- Het aantal geselecteerde rijen in de tabel (wanneer u meer dan één record selecteert)
 - Eindtotalen onder aan geconfigureerde numerieke kolommen
 - Het aantal rijen in de gegevensset 
 
-Deze voettekst is standaard verborgen, maar kan gemakkelijk worden ingeschakeld. Als u de voettekst voor een raster wilt weergeven, klikt u met de rechtermuisknop op een kolomkop in het raster en selecteert u de optie **Voettekst weergeven**. Zodra de voettekst voor een bepaald raster is ingeschakeld, wordt die instelling opgeslagen totdat de gebruiker ervoor kiest de voettekst te verbergen, wat kan worden gedaan door met de rechtermuisknop op een kolomkop te klikken en **Voettekst verbergen** te selecteren.  De plaatsing van de actie **Voettekst tonen/verbergen** wordt naar verwachting in een toekomstige update gewijzigd. 
+Deze voettekst is standaard verborgen, maar u kunt deze inschakelen. Als u de voettekst voor een raster wilt weergeven, klikt u met de rechtermuisknop op een kolomkop in het raster en selecteert u de optie **Voettekst weergeven**. Nadat u de voettekst voor een bepaald raster hebt ingeschakeld, wordt deze instelling gebruikt totdat de gebruiker ervoor kiest om de voettekst te verbergen. Als u de voettekst wilt verbergen, klikt u met de rechtermuisknop op een kolomkop en selecteert u **Voettekst verbergen**.  (De plaatsing van de actie **Voettekst weergeven/Voettekst verbergen** wordt in een toekomstige update gewijzigd. 
 
 ### <a name="specifying-columns-with-totals"></a>Kolommen met totalen opgeven
-Momenteel worden er geen kolommen geconfigureerd om standaard totalen weer te geven. In plaats daarvan wordt dit beschouwd als een eenmalige instelactiviteit, vergelijkbaar met het aanpassen van de breedte van kolommen in rasters. Wanneer u hebt opgegeven dat u totalen voor een kolom wilt weergeven, wordt deze instelling de volgende keer dat u de pagina bezoekt, onthouden.  
+Op dit moment worden totalen niet standaard in kolommen weergegeven. In plaats daarvan wordt dit beschouwd als een eenmalige instelactiviteit, vergelijkbaar met het aanpassen van de breedte van kolommen in rasters. Wanneer u hebt opgegeven dat u totalen voor een kolom wilt weergeven, wordt deze instelling de volgende keer dat u de pagina bezoekt, onthouden.  
 
 Er zijn twee manieren om een kolom te configureren voor het weergeven van totalen: 
 
@@ -122,8 +122,14 @@ Op dezelfde manier waarop u alle rijen in het raster kunt selecteren (of deselec
 ### <a name="hiding-column-names"></a>Kolomnamen verbergen
 Wanneer u gegevens groepeert, wordt standaard de kolomnaam weergegeven in de rij van de groepskoptekst. Vanaf versie 10.0.14/platformupdate 38 kunt u de kolomnaam in groepskoprijen onderdrukken door **Rasteropties** > **Groepskolomnaam verbergen** te selecteren.
 
-## <a name="pinned-system-columns"></a>Vastgemaakte systeemkolommen
-De kolom voor rijselectie en de kolom voor rijstatus in het nieuwe raster worden aan het meest linkse deel van het raster vastgemaakt (of bevroren). Als deze kolommen in een raster worden opgenomen, zijn deze dus altijd zichtbaar voor de gebruiker, ongeacht de horizontale schuifpositie in het raster.   
+## <a name="freezing-columns"></a>Kolommen blokkeren
+Sommige kolommen in een raster kunnen dermate belangrijk zijn voor context dat u niet wilt dat ze uit de weergave verdwijnen. In plaats daarvan wilt u dat de waarden in die kolommen altijd zichtbaar zijn. In versie 10.0.17 biedt de functie **Kolommen in raster blokkeren** deze flexibiliteit voor gebruikers. 
+
+Als u een kolom wilt blokkeren, klikt u met de rechtermuisknop in de koptekst van de kolom en selecteert u vervolgens **Kolom blokkeren**. De eerste keer dat u deze stap voltooit, wordt de geselecteerde kolom de eerste kolom en verdwijnt deze niet meer uit de weergave. Alle volgende kolommen die u blokkeert, worden rechts van de laatste geblokkeerde kolom toegevoegd. U kunt de standaardfunctie Verplaatsen gebruiken om desgewenst geblokkeerde kolommen opnieuw te ordenen. Geblokkeerde kolommen kunnen echter niet worden verplaatst, zodat ze tussen de set met niet-geblokkeerde kolommen worden weergegeven. Zo ook kunnen niet-geblokkeerde kolommen niet worden verplaatst, zodat ze tussen de set met geblokkeerde kolommen worden weergegeven.
+
+Als u de blokkering van een kolom wilt opheffen, klikt u met de rechtermuisknop in de koptekst van de geblokkeerde kolom en selecteert u vervolgens **Blokkering kolom opheffen**. 
+
+De kolommen voor rijselectie en rijstatus in het nieuwe raster zijn altijd als de eerste twee kolommen geblokkeerd. Als deze kolommen in een raster worden opgenomen, zijn deze dus altijd zichtbaar voor gebruikers, ongeacht de horizontale schuifpositie in het raster. De volgorde van deze twee kolommen kan niet worden gewijzigd.
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Hoe kan ik het nieuwe rasterbesturingselement inschakelen in mijn omgeving? 
@@ -155,11 +161,11 @@ Als uw organisatie op een pagina problemen ondervindt met het nieuwe raster, is 
 
 Deze API wordt ondersteund tot de release van oktober 2021 wanneer het nieuwe rasterbesturingselement verplicht wordt. Als er problemen optreden waarvoor deze API moet worden gebruikt, meldt u deze bij Microsoft.
 
-## <a name="developer-size-to-available-width-columns"></a>[Ontwikkelaar]: kolomformaat aangepast aan beschikbare breedte
+## <a name="developer-size-to-available-width-columns"></a>\[Ontwikkelaar\]: kolomformaat aangepast aan beschikbare breedte
 Als een ontwikkelaar de eigenschap **WidthMode** instelt op **SizeToAvailable** voor kolommen binnen het nieuwe raster, hebben deze kolommen in eerste instantie dezelfde breedte als ze zouden hebben als de eigenschap is ingesteld op **SizeToContent**. De kolommen worden echter uitgerekt zodat alle extra beschikbare breedte binnen het raster wordt gebruikt. Als de eigenschap is ingesteld op **SizeToAvailable** voor meerdere kolommen, delen al deze kolommen de extra beschikbare breedte binnen het raster. Als een gebruiker echter een van deze kolommen handmatig aanpast, wordt de kolom statisch. De kolom behoudt die breedte en wordt niet meer uitgerekt tot extra beschikbare rasterbreedte.  
 
 ## <a name="known-issues"></a>Bekende problemen
-In deze sectie wordt een lijst bijgehouden van bekende problemen voor het nieuwe rasterbesturingselement zolang de functie een previewstatus heeft.  
+In deze sectie wordt een lijst met bekende problemen voor het nieuwe rasterbeheer bijgehouden.  
 
 ### <a name="open-issues"></a>Openstaande problemen
 -  Nadat de functie **Nieuw rasterbesturingselement** is ingeschakeld, blijven bepaalde pagina's het bestaande rasterbesturingselement gebruiken. Dit gebeurt in de volgende situaties:  
@@ -170,31 +176,55 @@ In deze sectie wordt een lijst bijgehouden van bekende problemen voor het nieuwe
     Wanneer een gebruiker voor het eerst een van deze situaties aantreft, wordt een bericht weergegeven over het vernieuwen van de pagina. Nadat dit bericht is weergegeven, blijft de pagina het bestaande raster gebruiken voor alle gebruikers tot de volgende update van de productversie. Een betere afhandeling van deze scenario's zodat het nieuwe raster kan worden gebruikt, wordt overwogen voor een toekomstige update.    
     
 -  [KB 4582758] Records zijn wazig wanneer u de zoomfactor wijzigt van 100 in een ander percentage
-    
+-  [KB 4592012] Onverwachte clientfout in IE11 bij het plakken van meerdere regels vanuit Excel
+    -  Microsoft kan dit probleem niet verhelpen
+
+### <a name="fixed-as-part-of-10016"></a>Gecorrigeerd als onderdeel van 10.0.16
+
+-  [KB 4598335] Bij besturingselementen voor tekenreeksen met meerdere regels wordt geen rekening gehouden met de bijbehorende DisplayHeights in lijsten/kaarten 
+-  [KB 4591891] Factuurvoorstelregels verdwijnen wanneer de markering van regels wordt opgeheven
+-  [KB 4592104] Kan geen records bewerken nadat op "Probleem oplossen" is geklikt en naar een andere rij is verplaatst zonder het validatieprobleem op te lossen
+-  [KB 4594449] De knoppen "Nooit" en "Wissen" ontbreken in de datumkiezer 
+-  [KB 4594448] Met invoer van tijd wordt anders omgegaan in het nieuwe raster
+-  [KB 4600059] Onverwachte clientfout bij het doorlaten van e-mail
+-  [KB 4574584] Voorbeeld van onkostenbijlage is niet beschikbaar wanneer over het ontvangstpictogram wordt bewogen
+
 ### <a name="fixed-as-part-of-10015"></a>Gecorrigeerd als onderdeel van 10.0.15    
 
+-  (Kwaliteitsupdate) [KB 4594444] Onverwachte clientfout met voorbeeld voor controle van gesegmenteerde invoer
 -  [KB 4582723] Weergaveopties worden niet weergegeven verderop in de levenscyclus van het formulier
+-  [KB 4591988] Problemen met het toetsenbord om een waarde te selecteren in een opzoekactie van ReferenceGroup
+-  [KB 4588958] Test van Regression Suite Automation Tool (RSAT) mislukt met fout: TypeError: kan eigenschapstekst van niet-gedefinieerde tekst niet lezen
+-  [KB 4591970] Er is een onverwachte clientfout opgetreden bij het plakken vanuit Excel direct nadat er in het raster was geklikt
+-  [KB 4591904] Gegevenswijzigingen worden niet opgeslagen als de gebruiker na het bewerken van een besturingselement meteen op de knop klikt en het zoekvenster van een ander besturingselement opent
+-  [KB 4584752] Onverwachte clientfout met pagina van projectfactuurvoorstellen
+-  [KB 4584540] Kan het raster niet verlaten nadat één rij in een journaalregel is geplakt
+-  [KB 4591908] Tijdens het maken van een nieuwe rij blijft de focus in de kolom waarin men was
 
 ### <a name="fixed-as-part-of-10014"></a>Gecorrigeerd als onderdeel van 10.0.14
 
--  (Kwaliteitsupdate) [KB 4584752] Onverwachte clientfout met pagina Project-factuurvoorstellen
+-  (Kwaliteitsupdate) [KB 4584752] Onverwachte clientfout met pagina van projectfactuurvoorstellen
+-  [KB 4583880] Tests van Regression Suite Automation Tool (RSAT) mislukken in OpenLookup-actie met "Kan eigenschap RowIndex van undefined niet lezen"
+-  [KB 4583847] Onverwachte clientfout bij het navigeren door zoekacties
 
 ### <a name="fixed-as-part-of-10013"></a>Gecorrigeerd als onderdeel van 10.0.13
 
--  (Kwaliteitsupdate) [KB 4583880] RSAT-tests (Regression Suite Automation Tool) kunnen niet worden uitgevoerd met de OpenLookup-actie 'Kan eigenschap RowIndex van undefined niet lezen'
--  (Kwaliteitsupdate) [KB 4583847] Onverwachte clientfout bij navigeren door zoekacties 
+-  (Kwaliteitsupdate) [KB 4584752] Onverwachte clientfout met pagina van projectfactuurvoorstellen
+-  (Kwaliteitsupdate) [KB 4583880] Tests van Regression Suite Automation Tool (RSAT) mislukken in OpenLookup-actie met "Kan eigenschap RowIndex van undefined niet lezen"
+-  (Kwaliteitsupdate) [KB 4583847] Onverwachte clientfout bij het navigeren door zoekacties 
 -  (Kwaliteitsupdate) [Bug 471777] In een raster kunnen geen velden worden geselecteerd om een mobiele app te bewerken of te maken
+-  [KB 4582727] Raster wordt geblokkeerd nadat gebruiker een dialoogvenster ophaalt voor artikelen met meerdere hoeveelheden
 -  [Bug 474851] Hyperlinks in verwijzingsgroepbesturingselementen werken niet 
 -  [Bug 474848] Verbeterde voorbeelden met rasters worden niet weergegeven
--  [KB 4582726] De eigenschap RotateSign wordt niet geëerbiedigd  
--  [Bug 470173] Selectievakjes in inactieve rijen in-/uitschakelen als op de witruimte in de cel wordt geklikt
+-  [KB 4582726] De eigenschap RotateSign wordt niet gerespecteerd  
+-  [Bug 470173] Selectievakjes in inactieve rijen worden in-/uitgeschakeld als op de witruimte in de cel wordt geklikt
 -  [Bug 474848] Verbeterde voorbeelden met rasters worden niet weergegeven
 -  [Bug 474851] Hyperlinks in verwijzingsgroepbesturingselementen werken niet 
 -  [Bug 471777] U kunt in een raster geen velden selecteren om een mobiele app te bewerken of te maken
 -  [KB 4569441] Problemen met het weergeven van kaartlijsten met meerdere kolommen, knopinfo op afbeeldingen en weergaveopties in sommige velden
 -  [KB 4575279] Niet alle gemarkeerde rijen worden verwijderd in het algemene journaal
 -  [KB 4575233] Weergaveopties worden niet hersteld nadat naar een andere rij is verplaatst
--  [Bug 477884] Zoekopdrachten retourneren onjuiste waarde/record als nieuw rasterbesturingselement is geactiveerd
+-  [Bug 477884] Zoekacties retourneren een onjuiste waarde/record als een nieuw rasterbesturingselement wordt geactiveerd
 -  [KB 4571095] Boeking van productontvangst vindt plaats wanneer u per ongeluk op ENTER drukt (juiste verwerking van de standaardactie van een pagina)
 -  [KB 4575437] Zoekopdrachten met bewerkbare besturingselementen worden onverwacht gesloten
 -  [KB 4569418] Dubbele regel gemaakt in het leverschemaformulier
@@ -237,19 +267,19 @@ In deze sectie wordt een lijst bijgehouden van bekende problemen voor het nieuwe
 - [KB 4558376] Rasters van lijstpaneel worden niet op de juiste hoogte weergegeven in Internet Explorer.
 - [KB 4558377] Kolommen met een keuzelijst met invoervak met breedte **SizeToAvailable** worden niet op alle pagina's weergegeven.
 - [KB 4558378] Met detailanalyse wordt soms de verkeerde record geopend.
-- [KB 4558379] Er treedt een fout op wanneer zoekopdrachten worden geopend, als **ReplaceOnLookup**=**Nee**.
+- [KB 4558379] Er treedt een fout op wanneer zoekopdrachten worden geopend, als **ReplaceOnLookup**=**Nee** is.
 - [KB 4558380] De beschikbare ruimte in het raster wordt niet onmiddellijk opgevuld nadat een gedeelte van de pagina is samengevouwen.
 - [KB 4558381] Negatieve getallen worden niet correct gegenereerd/het programma loopt soms vast nadat er validatieproblemen zijn opgetreden.
 - [KB 4558382] Er zijn onverwachte clientfouten opgetreden.
 - [KB 4558383] Besturingselementen buiten het raster worden niet bijgewerkt nadat de laatste record is verwijderd.
 - [KB 4558587] Voor verwijzingsgroepen die keuzelijsten met invoervak bevatten voor vervangingsvelden, worden geen waarden weergegeven.
 - [KB 4562143] Velden worden niet bijgewerkt nadat een wijziging in rijen/rasterverwerking is vastgelopen na het verwijderen van de rij.
-- [KB 4562645] Er treedt een uitzondering op wanneer een zoekopdracht wordt geopend terwijl er RSAT-tests (Regression Suite Automation Tool) worden uitgevoerd.
+- [KB 4562645] Er treedt een uitzondering op wanneer een zoekactie wordt geopend terwijl er tests van Regression Suite Automation Tool (RSAT) worden uitgevoerd.
 
 ### <a name="fixed-as-part-of-10010"></a>Gecorrigeerd als onderdeel van 10.0.10
 
 - [Probleem 414301] Sommige gegevens uit eerdere regels verdwijnen wanneer er nieuwe regels worden gemaakt.
-- [Bug 417044] Er is geen leeg rasterbericht voor rasters in een lijststijl.
+- [Fout 417044] Er is geen leeg rasterbericht voor rasters in een lijststijl.
 - [KB 4539058] Sommige rasters (meestal op sneltabbladen) worden soms niet weergegeven (maar worden wel weergegeven als u uitzoomt).
 - [KB 4549734] Actieve rijen worden niet behandeld als gemarkeerd als de kolommarkering verborgen is.
 - [KB 4549796] Waarden kunnen niet worden bewerkt in een raster wanneer deze de weergavemodus hebben.
@@ -263,6 +293,3 @@ In deze sectie wordt een lijst bijgehouden van bekende problemen voor het nieuwe
 ### <a name="quality-update-for-1009platform-update-33"></a>Kwaliteitsupdate voor 10.0.9/Platform update 33
 
 - [KB 4550367] Tijdwaarden zijn niet juist ingedeeld.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

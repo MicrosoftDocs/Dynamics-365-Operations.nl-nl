@@ -1,6 +1,6 @@
 ---
 title: ER-bestemmingstype voor archief
-description: Dit onderwerp bevat informatie over het configureren van een archiefbestemming voor elke MAP- of BESTAND-component van een ER-indeling (elektronische rapportage) die wordt geconfigureerd voor het genereren van uitgaande documenten.
+description: Dit onderwerp bevat informatie over het configureren van een archiefbestemming voor elke map- of bestandscomponent van een ER-indeling (Electronic Reporting).
 author: NickSelin
 manager: AnnBe
 ms.date: 11/30/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3dee7ec614ec1372feaa1150f5e4ebb14c32f60e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0067024d7a29e2a1db3b7fdba9ea3c6a63aad648
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679673"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094124"
 ---
 # <a name="archive-er-destination-type"></a>ER-bestemmingstype voor archief
 
@@ -57,6 +57,3 @@ Als de locatie van het documenttype is ingesteld op **Azure-opslag**, kunt u een
 - [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 - [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 - [Documentbeheer configureren](../../fin-ops/organization-administration/configure-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

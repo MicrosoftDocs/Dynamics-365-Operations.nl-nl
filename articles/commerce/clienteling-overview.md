@@ -3,7 +3,7 @@ title: Overzicht van clienteling
 description: Dit onderwerp biedt een overzicht van de nieuwe clienteling-functies die beschikbaar zijn in de winkeltoepassing.
 author: bebeale
 manager: AnnBe
-ms.date: 06/15/2020
+ms.date: 01/29/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 260624
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: d76668fa16a7634e7fbd953afaa6c89eed5457a2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 206031f5ddbaedb2b581a452fe8979252647f0c4
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4411372"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097250"
 ---
 # <a name="clienteling-overview"></a>Clientelingoverzicht
 
@@ -37,7 +36,7 @@ Veel detailhandelaren, vooral gespecialiseerde detailhandelaren met hoogwaardige
 
 In Microsoft Dynamics 365 Commerce kunnen detailhandelaren de klantenboekfunctionaliteit gebruiken om winkelmedewerkers te helpen langdurige relaties op te bouwen met belangrijke klanten.
 
-Het klantenboek bevat klantkaarten die contactgegevens voor elke klant weergeven, samen met drie aanvullende eigenschappen die door de detailhandelaar zijn gedefinieerd en geconfigureerd in Headquarters. Detailhandelaren kunnen de drie belangrijkste zaken kiezen die verkoopmedewerkers moeten weten over klanten. Zo kan bijvoorbeeld een sieradenwinkel belangrijke datums, zoals jubilea of verjaardagen, opnemen, omdat deze datums gelegenheden zijn waarbij mensen mogelijk sieraden willen kopen. Evenzo kan een detailhandelaar in een modezaak de interesses en merken opnemen waar de klant de voorkeur aan geeft.
+Het klantenboek bevat klantkaarten die contactgegevens voor elke klant weergeven, samen met nog drie eigenschappen die door de detailhandelaar zijn gedefinieerd en geconfigureerd in Headquarters. Detailhandelaren kunnen de drie belangrijkste zaken kiezen die verkoopmedewerkers moeten weten over klanten. Zo kan bijvoorbeeld een sieradenwinkel belangrijke datums, zoals jubilea of verjaardagen, opnemen, omdat deze datums gelegenheden zijn waarbij mensen mogelijk sieraden willen kopen. Evenzo kan een detailhandelaar in een modezaak de interesses en merken opnemen waar de klant de voorkeur aan geeft.
 
 Het klantenboek stelt verkoopmedewerkers tevens in staat de lijst te filteren, zodat alleen klanten worden weergegeven die aan bepaalde criteria voldoen. Stel bijvoorbeeld dat een nieuwe collectie schoenen is aangekomen in de winkel en dat een verkoopmedewerker klanten wil informeren die graag schoenen willen kopen. In dat geval kan de medewerker het klantenboek filteren om de relevante klanten te vinden en vervolgens verdere actie ondernemen.
 
@@ -106,24 +105,30 @@ Als u de integratie van Customer Insights met Commerce wilt inschakelen, moet u 
 
 Volg deze stappen voor het instellen van de integratie.
 
-1. Registreer een toepassing in de Azure-portal. Deze toepassing wordt gebruikt voor verificatie met Customer Insights. Zie [Snelstart: Een toepassing registreren op het Microsoft-identiteitsplatform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) voor instructies.
-2. Genereer een geheim voor de toepassing. Noteer het geheim en bewaar het op een veilige plek, omdat u het later nog nodig zult hebben. Selecteer ook de verlooptermijn voor het geheim.
+1. Registreer een nieuwe toepassing in de Azure-portal en noteer de naam van de toepassing, de toepassings-id en het geheim. Deze informatie wordt gebruikt voor service-to-serviceverificatie tussen Commerce en Customer Insights. Noteer het geheim op een veilige plaats, want het zal nodig zijn om het in de Key Vault op te slaan. In het volgende voorbeeld gebruikt u CI_Access_name, CI_Access_AppID, CI_Access_Secret voor respectievelijk de naam van de toepassing, de toepassings-id en het geheim. Zie [Snelstart: Een toepassing registreren op het Microsoft-identiteitsplatform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) voor meer informatie.
 
     > [!IMPORTANT]
     > Onderneem stappen om ervoor te zorgen dat u het geheim wijzigt voordat dit verloopt. Anders wordt de integratie onverwacht beëindigd.
 
-3. Maak een Azure-sleutelkluis en sla het toepassingsgeheim op. Zie [Snelstart: Een geheim instellen en ophalen vanuit Azure Key Vault via de Azure-portal](https://docs.microsoft.com/azure/key-vault/quick-create-portal) voor instructies.
-4. Schakel de toegang tot Azure Key Vault in vanuit Commerce. U kunt deze stap alleen uitvoeren als u een toepassings-id en een geheim hebt. De toepassing kan dezelfde toepassing zijn die u in stap 1 hebt gemaakt, maar kan ook een nieuwe toepassing zijn. (Met andere woorden, u kunt de toepassing die u in stap 1 hebt gemaakt, gebruiken voor zowel toegang tot de Key Vault als toegang tot de Customer Insights-service, of u kunt een unieke toepassing maken voor elk type toegang.) Zie [Referenties voor serviceprincipal opslaan in Azure Stack Key Vault](https://docs.microsoft.com/azure-stack/user/azure-stack-key-vault-store-credentials?view=azs-1908#create-a-service-principal)voor instructies.
-5. Ga in Headquarters naar **Systeembeheer \> Instellingen \> Parameters voor sleutelkluis** en voer de vereiste informatie voor de sleutelkluis in. Voer vervolgens in het veld **Client sleutelkluis** de toepassings-id in die u in stap 4 hebt gebruikt, zodat Commerce toegang kan krijgen tot de geheimen in de sleutelkluis.
-6. Als u de toepassing die u in stap 1 hebt gemaakt wilt toevoegen aan de lijst met veilige toepassingen (ook wel een veilige lijst genoemd), gaat u naar Customer Insights en verleent u de toegangsoptie **Weergeven** aan de toepassing. Zie [Machtigingen](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions) voor instructies.
-7. Ga in Commerce naar de pagina **Commerce-parameters** en voer de volgende stappen uit op het tabblad **Clienteling** op het sneltabblad **Dynamics 365 Customer Insights**:
+2. Ga naar het Customer Insights-exemplaar en zoek naar de naam van de bovenstaande toepassing (in dit voorbeeld 'CI_Access_name').
+3. Maak een Azure-sleutelkluis en maak een notitie van de naam en de URL (in dit voorbeeld KeyVaultName, KeyVaultURL). Zie [Snelstart: Een geheim instellen en ophalen vanuit Azure Key Vault via de Azure-portal](https://docs.microsoft.com/azure/key-vault/quick-create-portal) voor instructies.
+4. Sla het geheim op (in dit voorbeeld 'CI_Access_Secret') in de kluis. Wanneer dit geheim is opgeslagen in de kluis, krijgt het een naam. Noteer de naam van het geheim (in dit voorbeeld 'SecretName').
+5. Om toegang te krijgen tot het geheim van Azure Key Vault, moet u een andere toepassing maken met een toepassings-id en geheim (in dit voorbeeld, 'KeyVault_Access_AppID' en 'KeyVault_Access_Secret'). Noteer het geheim op een veilige plek, want het wordt hierna niet meer weergegeven.
+6. Vervolgens moet u machtigingen verlenen voor de toepassing in de Key Vault vanuit Commerce te openen via API's. Ga naar de toepassingspagina in Azure-portal. Selecteer onder de sectie **Beheren** de optie **API-machtigingen**. Voeg de machtiging toe voor het openen van **Azure Key Vault**. Selecteer **Toegangsbeleid** voor deze machtiging. Selecteer de sjabloon als **Geheimenbeheer** en selecteer de opties **Ophalen**, **Vermelden**, **Ontsleutelen** en **Versleutelen**. 
+5. Ga in Commerce Headquarters naar **Systeembeheer \> Instellingen \> Parameters voor sleutelkluis** en voer de vereiste informatie voor de sleutelkluis in. Voer vervolgens in het veld **Client sleutelkluis** de toepassings-id in die u in stap 4 hebt gebruikt, zodat Commerce toegang kan krijgen tot de geheimen in de sleutelkluis.
+6. Als u de toepassing die u in stap 1 hebt gemaakt wilt toevoegen aan de lijst met veilige toepassingen (ook wel een veilige lijst genoemd), gaat u naar Customer Insights en selecteert u **Weergeven** om toegang te geven aan de toepassing. Zie [Machtigingen](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions) voor instructies.
+7. Werk op de pagina **Systeembeheer > Instellingen > Key Vault-parameters** in Commerce Headquarters de velden als volgt bij: 
 
-    1. Voer in het veld **Toepassings-id** de toepassings-id in die u in stap 1 hebt gebruikt.
-    2. Voer in het veld **Geheime naam** de naam in van het sleutelkluisgeheim dat u in stap 5 hebt gemaakt.
-    3. Stel de optie **Customer Insights inschakelen** in op **Ja**. Als de installatie om een of andere reden mislukt, wordt er een foutbericht weergegeven en wordt deze optie ingesteld op **Nee**.
-    4. U kunt meerdere omgevingen in Customer Insights hebben, zoals test- en productieomgevingen. Voer in het veld **Omgevingsexemplaar-id** de desbetreffende omgeving in.
-    5. Voer in het veld **Alternatieve klant-id** de eigenschap in Customer Insights in die is toegewezen aan het klantrekeningnummer. (Het klantrekeningnummer is de klant-id in Commerce.)
-    6. De overige drie eigenschappen zijn de metingen die worden weergegeven op de klantkaart in het klantenboek. U kunt maximaal drie metingen selecteren om op de klantkaart weer te geven. (U hoeft echter geen metingen te selecteren.) Zoals eerder vermeld, geeft het systeem eerst deze waarden weer en worden vervolgens de waarden voor de kenmerkgroep van het klantenboek weergegeven.
+- **Key Vaul-url**: "KeyVaultURL" (uit stap 3 hierboven).
+- **Key Vault-client**: "KeyVault_Access_AppID" (uit stap 5 hierboven).
+- **Key Vault geheime sleutel**: "KeyVault_Access_Secret" (uit stap 5 hierboven).
+- Onder de sectie **Geheimen**:
+    - **Naam**: elke naam, bijvoorbeeld 'CISecret'.
+    - **Omschrijving**: elke waarde.
+    - **Geheim**: **kluis**://<Name of key vault>/<name of secret>> In dit voorbeeld wordt het 'vault://KeyVaultName/SecretName'.
 
+Nadat u de velden hebt bijgewerkt, selecteert u **Valideren** om er zeker van te zijn dat het geheim toegankelijk is voor de Commerce-toepassing.
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+8. Stel in Commerce, op de pagina **Commerce-parameters**, op het tabblad **Clienteling** op het sneltabblad **Dynamics 365 Customer Insights** de optie **Toepassings-id** in op 'CI_Access_AppID' (uit stap 1 hierboven). Selecteer voor **Geheime naam** de naam van het geheim dat u in stap 7 hierboven hebt ingevoerd ('CISecret'). Stel de optie **Customer Insights inschakelen** in op **Ja**. Als de installatie om een of andere reden mislukt, wordt er een foutbericht weergegeven en wordt deze optie ingesteld op **Nee**. 
+
+U kunt meerdere omgevingen in Customer Insights hebben, zoals test- en productieomgevingen. Voer in het veld **Omgevingsexemplaar-id** de desbetreffende omgeving in. Voer in het veld **Alternatieve klant-id** de eigenschap in Customer Insights in die is toegewezen aan het klantrekeningnummer. (In Commerce is het klantaccountnummer de klant-id.) De resterende drie eigenschappen zijn de metingen die worden weergegeven op de klantkaart in het cliëntenboek. U kunt maximaal drie metingen selecteren om op de klantkaart weer te geven. U bent echter niet verplicht metingen te selecteren. Zoals eerder is vermeld, worden deze waarden eerst door het systeem weergegeven en daarna de waarden voor de kenmerkgroep van het cliëntenboek.

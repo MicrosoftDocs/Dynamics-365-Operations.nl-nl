@@ -3,14 +3,13 @@ title: Navigatiemenumodule
 description: In dit onderwerp worden navigatiemenumodules beschreven en wordt aangegeven hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/01/2020
+ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -18,20 +17,19 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b0e8168ca9ec9ca68011650a73cc09983deca645
-ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
+ms.openlocfilehash: 65f8b6128b140f3fa776659d8920dfc5e095213f
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4411513"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097385"
 ---
 # <a name="navigation-menu-module"></a>Navigatiemenumodule
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp worden navigatiemenumodules beschreven en wordt aangegeven hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Het belangrijkste doel van navigatiemenumodules is om sitegebruikers in staat te stellen te bladeren naar producten en sitepagina's op basis van de kanaalnavigatiehiërarchie die is gedefinieerd in Dynamics 365 Commerce Headquarters. Items die in een navigatiemenumodule zijn geconfigureerd, worden weergegeven als navigatie in de koptekst van de site. Navigatiemenumodules bieden ook ondersteuning voor statische menuonderwerpen die zijn gekoppeld aan andere pagina's op een e-Commerce-site.
 
@@ -46,7 +44,9 @@ In de volgende afbeelding ziet u een voorbeeld van een navigatiemenu voor de Fab
 |---------------------------|-----------------------|-------------|
 | Bron                  | **Detailhandel**, **Handmatig ontwerp**, **Detailhandel en handmatig ontwerp** | Met de waarde **Detailhandel** kan de kanaalnavigatiehiërarchie uit Commerce Headquarters worden weergegeven in het navigatiemenu. Met **Handmatig ontwerp** kunnen statische menuopdrachten worden opgesteld. Bij **Detailhandel en handmatig ontwerp** is een combinatie van beide mogelijk. |
 | Categorieafbeeldingen weergeven | **True** of **False**    | Als deze eigenschap is ingeschakeld, worden in het navigatiemenu categorieafbeeldingen weergegeven die voor elke categorie zijn gedefinieerd in Commerce Headquarters. Toegevoegd in Commerce-release 10.0.14. |
-| Navigatiemenu met meerdere niveaus inschakelen | **True** of **False** | Wanneer deze eigenschap is ingeschakeld, kunnen in het navigatiemenu meerdere niveaus van de navigatiehiërarchie worden weergegeven. Deze functie is beschikbaar in Dynamics 365 Commerce versie 10.0.15. |
+| Promoties weergeven | **True** of **False** | Wanneer deze eigenschap is ingeschakeld, kunnen promoties worden geconfigureerd met afbeeldingen, koppelingen en tekst. Deze eigenschap is toegevoegd in de Commerce-versie 10.0.17. |
+| Promoties toevoegen | Tekst, afbeelding of koppeling | Wanneer de eigenschap **Promoties weergeven** is ingeschakeld, kunt u tekst, een afbeelding of een koppeling als promotie-inhoud toevoegen aan het navigatiemenu. |
+| Navigatiemenu met meerdere niveaus inschakelen | **True** of **False** | Wanneer deze eigenschap is ingeschakeld, kunnen in het navigatiemenu meerdere niveaus van de navigatiehiërarchie worden weergegeven. Deze functie is beschikbaar in de Commerce-versie 10.0.15. |
 | Aantal niveaus | geheel getal | Met deze eigenschap wordt het aantal niveaus bepaald dat moet worden weergegeven als de eigenschap **Navigatiemenu met meerdere niveaus inschakelen** is ingesteld op **Waar**. |
 | Statische menuopdracht| Matrix met waarden| Statische menuonderwerpen die de naam van een menuopdracht koppelen aan een statische sitepagina. U kunt menuonderwerpen maken onder andere menuopdrachten. Statische menu's worden standaard weergegeven op het hoofdniveau en worden toegevoegd aan de kanaalnavigatiehiërarchie als deze bestaat. |
 | Hoofdmenu weergeven | **True** of **False** | Wanneer deze eigenschap is ingeschakeld, kan het navigatiemenu onder een aangepast hoofdniveau worden gedefinieerd (bijvoorbeeld **Nu winkelen**). Deze functie is beschikbaar in Dynamics 365 Commerce versie 10.0.15. |
@@ -72,6 +72,3 @@ Zie [Koptekstmodule](author-header-module.md) voor meer informatie over het toev
 [Conformiteit van cookie](cookie-compliance.md)
 
 [Koptekstmodule](author-header-module.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Bestemmingen van elektronische rapportage (ER)
 description: Dit onderwerp biedt informatie over het beheer van ER-bestemmingen (elektronische rapportage), de ondersteunde typen bestemmingen en beveiligingsoverwegingen.
 author: nselin
 manager: AnnBe
-ms.date: 04/27/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e4da9e09fe9e2c76426a117b6c4d83f5bc33851f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687153"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097276"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Bestemmingen van elektronische rapportage (ER)
 
@@ -62,7 +62,7 @@ Als u de optie voor **Batchverwerking** instelt op **Nee**, wordt in het dialoog
 Als u de optie **Batchverwerking** instelt op **Ja**, wordt er een ER-indeling uitgevoerd in [batch](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview)modus. De desbetreffende batchtaak wordt gemaakt op basis van de parameters die u opgeeft op het tabblad **Op de achtergrond uitvoeren** van het dialoogvenster **ER-parameters**.
 
 > [!NOTE]
-> De taakomschrijving wordt gestart om u te informeren over de uitvoering van een ER-indelingstoewijzing. Het bevat ook de naam van de uitgevoerde ER-component.
+> De taakomschrijving informeert u over de uitvoering van een ER-indelingstoewijzing. Ook bevat deze de naam van de ER-component die wordt uitgevoerd.
 
 [![Een ER-indeling uitvoeren](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
@@ -95,6 +95,8 @@ In eerdere versies van Finance **dan versie 10.0.9** kunt **één bestandsbestem
 U kunt deze mogelijkheid bijvoorbeeld gebruiken om bestandsbestemmingen te configureren voor een bestandsonderdeel dat wordt gebruikt voor het genereren van een uitgaand document in Excel-indeling. Eén bestemming ([Archief](er-destination-type-archive.md)) kan zo worden geconfigureerd dat het oorspronkelijke Excel-bestand in het ER-takenarchief wordt opgeslagen en een andere bestemming ([E-mail](er-destination-type-email.md)) kan worden geconfigureerd om het Excel-bestand tegelijk te [converteren](#OutputConversionToPDF) naar PDF-indeling en het PDF-bestand via e-mail te verzenden.
 
 [![Meerdere bestemmingen configureren voor een enkel indelingselement](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+
+Wanneer u een ER-indeling uitvoert, worden alle bestemmingen die zijn geconfigureerd voor componenten van de indeling altijd uitgevoerd. In Finance **versie 10.0.17 en hoger** is de functionaliteit van ER-bestemmingen bovendien verbeterd en kunt u nu verschillende sets bestemmingen configureren voor één ER-indeling. Deze configuratie markeert elke set als geconfigureerd voor een bepaalde gebruikersactie. De ER API is [uitgebreid](er-apis-app10-0-17.md), zodat een actie kan worden geleverd die de gebruiker uitvoert door een ER-indeling uit te voeren. De geleverde actiecode wordt doorgegeven aan ER-bestemmingen. U kunt verschillende bestemmingen van een ER-indeling uitvoeren, afhankelijk van de opgegeven actiecode. Zie [ER-bestemmingen configureren die afhankelijk zijn van acties](er-action-dependent-destinations.md) voor meer informatie.
 
 ## <a name="destination-types"></a>Bestemmingstypen
 
@@ -164,21 +166,20 @@ Om de PDF-conversie optie beschikbaar te maken in het huidige Finance-exemplaar,
 
 ### <a name="applicability"></a>Toepasbaarheid
 
-De optie PDF-conversie kan alleen worden ingeschakeld voor bestandsonderdelen die worden gebruikt om uitvoer in Microsoft Office Excel- of Word-indeling (**Excel-bestand**) te genereren. Wanneer deze optie is ingeschakeld, wordt de uitvoer die in de Office-indeling is gegenereerd, automatisch geconverteerd naar PDF-indeling.
+De optie PDF-conversie kan alleen worden ingeschakeld voor bestandsonderdelen die worden gebruikt om uitvoer in Office- (Excel of Word) indeling (**Excel-bestand**) te genereren. Wanneer deze optie is ingeschakeld, wordt de uitvoer die in de Office-indeling is gegenereerd, automatisch geconverteerd naar PDF-indeling.
 
 ### <a name="limitations"></a>Beperkingen
 
 > [!NOTE]
 > Deze functie is een voorbeeldfunctie en is onderworpen aan de gebruiksvoorwaarden die worden beschreven in [aanvullende gebruiksvoorwaarden voor Microsoft Dynamics 365-voorbeelden](https://go.microsoft.com/fwlink/?linkid=2105274).
 
-> [!NOTE]
-> De optie PDF-conversie is alleen beschikbaar voor cloudimplementaties.
->
-> De geproduceerde PDF is beperkt tot een maximum van 300 pagina's.
->
-> In Microsoft Dynamics 365 Finance versie 10.0.9 (april 2020) wordt alleen de liggende afdrukstand ondersteund in het PDF-document dat wordt gegenereerd uit een Excel-uitvoer. Met de release van Dynamics 365 Finance versie 10.0.10 (mei 2020) kunt u [de afdrukstand opgeven](#SelectPdfPageOrientation) in het PDF-document dat wordt gemaakt op basis van de Excel-uitvoer als u de ER-bestemming configureert.
->
-> Alleen de algemene systeemlettertypen van het Windows-besturingssysteem worden gebruikt voor de conversie van een uitvoer die geen ingesloten lettertypen bevat.
+De optie PDF-conversie is alleen beschikbaar voor cloudimplementaties.
+
+De geproduceerde PDF is beperkt tot een maximumlengte van 300 pagina's.
+
+In Finance **versie 10.0.9** wordt alleen de liggende afdrukstand ondersteund in het PDF-document dat wordt gegenereerd uit een Excel-uitvoer. In Finance **versie 10.0.10 (mei 2020) en hoger** kunt u [de afdrukstand opgeven](#SelectPdfPageOrientation) in het PDF-document dat wordt gemaakt op basis van de Excel-uitvoer als u de ER-bestemming configureert.
+
+Alleen de algemene systeemlettertypen van het Windows-besturingssysteem worden gebruikt om uitvoer te converteren die geen ingesloten lettertypen bevat.
 
 ### <a name="use-the-pdf-conversion-option"></a>De optie PDF-conversie gebruiken
 
@@ -188,16 +189,16 @@ Als u PDF-conversie voor een bestandsbestemming wilt inschakelen, schakelt u het
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Een afdrukstand voor PDF-conversie selecteren</a>
 
-Als u een ER-configuratie genereert in Excel-indeling en deze wilt converteren naar PDF-indeling, kunt u de afdrukstand van de PDF opgeven. Wanneer u het selectievakje **Converteren naar PDF** inschakelt om PDF-conversie in te schakelen voor een bestandsbestemming die een uitvoerbestand produceert in Excel-indeling, wordt het veld **Afdrukstand** beschikbaar op het sneltabblad **Instellingen PDF-conversie**. Selecteer de gewenste afdrukstand in het veld **Afdrukstand**.
+Als u een ER-configuratie genereert in Excel-indeling en deze wilt converteren naar PDF-indeling, kunt u de afdrukstand van het PDF-document opgeven. Wanneer u het selectievakje **Converteren naar PDF** inschakelt om PDF-conversie in te schakelen voor een bestandsbestemming die een uitvoerbestand produceert in Excel-indeling, wordt het veld **Afdrukstand** beschikbaar op het sneltabblad **Instellingen PDF-conversie**. Selecteer de gewenste afdrukstand in het veld **Afdrukstand**.
 
 [![Een afdrukstand voor PDF-conversie selecteren](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
-> Als u de afdrukstand van de PDF wilt inschakelen, moet u Microsoft Dynamics 365 Finance versie 10.0.10 (mei 2020) of hoger installeren.
+> Als u de afdrukstand van de PDF wilt kunnen kiezen, moet u Finance versie 10.0.10 of hoger installeren.
 >
 > De geselecteerde afdrukstand wordt toegepast op alle ER-configuraties die in de Excel-indeling worden gegenereerd en worden vervolgens geconverteerd naar de PDF-indeling.
 >
-> Als een geconverteerde PDF wordt gemaakt van een ER-configuratie in Word-indeling, wordt de afdrukstand van de PDF uit het Word-document opgehaald.
+> Als een ER-configuratie in Word-indeling wordt geconverteerd naar PDF-indeling, wordt de afdrukstand van de PDF uit het Word-document opgehaald.
 
 ## <a name="security-considerations"></a>Beveiligingsoverwegingen
 
@@ -225,7 +226,7 @@ Nr. Er wordt gebruikgemaakt van de standaard Microsoft Azure Blob-opslag die is 
 
 ### <a name="what-is-the-purpose-of-the-file-destination-in-the-destination-settings-what-does-that-setting-do"></a>Wat is het doel van de bestandsbestemming in de bestemmingsinstellingen? Wat doet die instelling?
 
-De bestemming **Bestand** wordt gebruikt voor het besturen van een dialoogvenster. Als u deze bestemming inschakelt of als er geen bestemming voor een configuratie is gedefinieerd, wordt een dialoogvenster voor opslaan of openen weergegeven nadat er een uitvoerbestand is gemaakt.
+De bestemming **Bestand** wordt gebruikt om een dialoogvenster van uw webbrowser te beheren wanneer u een ER-indeling in de interactieve modus uitvoert. Als u deze bestemming inschakelt of als er geen bestemming voor een configuratie is gedefinieerd, wordt een dialoogvenster voor opslaan of openen in uw webbrowser weergegeven nadat er een uitvoerbestand is gemaakt.
 
 ### <a name="can-you-give-an-example-of-the-formula-that-refers-to-a-vendor-account-that-i-can-send-email-to"></a>Kunt u een voorbeeld geven van de formule die verwijst naar een leveranciersrekening waarnaar ik e-mail kan sturen?
 
@@ -235,9 +236,8 @@ De formule is specifiek voor de ER-configuratie. Als u bijvoorbeeld de configura
 
 Uw indeling moet eerst beschikbaar zijn in de ER-configuraties. Als aan deze voorwaarde is voldaan, opent u de pagina **Bestemming elektronische rapportage** en maakt u een nieuwe verwijzing naar de configuratie. Vervolgens moet u vier bestandsbestemmingen hebben, één voor elk uitvoeronderdeel. Maak de eerste bestemming, geeft deze een naam, zoals **Map**, en selecteer een bestandsnaam die een map in uw configuratie vertegenwoordigt. Selecteer **Instellingen** en zorg ervoor dat alle bestemmingen zijn uitgeschakeld. Voor deze bestandsbestemming wordt de map niet gemaakt. Standaard gedragen bestanden zich op dezelfde manier, vanwege de hiërarchische afhankelijkheden tussen bestanden en bovenliggende mappen. Met andere woorden, zij worden helemaal niet verzonden. Als u dit standaardgedrag wilt overschrijven, moet u nog drie bestandsbestemmingen maken, één voor elk bestand. In de bestandsinstellingen voor elk daarvan, moet u de bestemming inschakelen waar het bestand naartoe moet worden verzonden.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[Actieafhankelijke ER-bestemmingen configureren](er-action-dependent-destinations.md)

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerParameters, AssetProposalDepreciation
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cada62078b71dd304e90951ab0f4c1643beaa48c
+ms.sourcegitcommit: bd4763cc6088e114818e80bb1c27c6521b039743
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442018"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5107715"
 ---
 # <a name="one-voucher"></a>Eén boekstuk
 
@@ -55,25 +54,26 @@ De functionaliteit van één boekstuk veroorzaakt problemen bij de vereffening, 
 
 U boekt bijvoorbeeld het volgende boekstuk met meerdere regels.
 
-[![Voorbeeld ](./media/example.png)](./media/example.png)
+[![Voorbeeld van een boekstuk met meerdere regels](./media/example.png)](./media/example.png)
 
 Vervolgens genereert u het rapport **Onkosten per leverancier** in het werkgebied **Financial Insights**. Dit rapport groepeert onkostenrekeningsaldi onder leveranciersgroep en vervolgens leverancier. Wanneer het rapport wordt genereerd, kan het systeem niet bepalen voor welke groepen leveranciers of leveranciers de onkosten van EUR 250,00 zijn gemaakt. Omdat transactiedetails ontbreken, wordt ervan uitgegaan dat de hele kosten van 250,00 zijn gemaakt door de eerste leverancier die is gevonden in het boekstuk. De kosten van 250,00 die zijn opgenomen in het saldo voor de hoofdrekening 600120, worden daarom weergegeven onder de desbetreffende leveranciersgroep/leverancier. Het is echter zeer waarschijnlijk dat de eerste leverancier in het boekstuk niet de juiste leverancier is. Het rapport is daarom waarschijnlijk onjuist.
 
-[![Onkosten](./media/expenses.png)](./media/expenses.png)
+[![Onkosten per leveranciersrapport](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>De toekomst van Eén boekstuk
 
-Vanwege de eerder vermelde problemen wordt de functionaliteit van Eén boekstuk niet verder ontwikkeld. Omdat deze functionaliteit echter in bepaalde gevallen wordt toegepast, zal de functie niet in één keer worden verwijderd. Dit gebeurt volgens het volgende schema:
+Vanwege de problemen die kunnen optreden bij het gebruik van één boekstuk, wordt deze functionaliteit uiteindelijk afgeschaft. Omdat er echter functionele hiaten zijn die afhankelijk zijn van deze functionaliteit, zal de functie niet in één keer worden verwijderd. Dit gebeurt volgens het volgende schema:
 
-- **Release van voorjaar 2018**: de functionaliteit wordt standaard uitgeschakeld via de parameter **Meerdere transacties binnen één boekstuk toestaan** op het tabblad **Algemeen** van de **Grootboekparameters**. U kunt de functie echter inschakelen als uw organisatie een scenario heeft dat valt in een van de functionele hiaten die verderop in dit onderwerp worden vermeld.
+- **Release van voorjaar 2018**: deze functionaliteit werd standaard uitgeschakeld via de parameter **Meerdere transacties binnen één boekstuk toestaan** op het tabblad **Algemeen** van de **Grootboekparameters**. U kunt de functie echter weer inschakelen als uw organisatie een scenario heeft dat valt in een van de functionele hiaten die verderop in dit onderwerp worden vermeld.
 
-    - Als klanten een zakelijk scenario hebben waarvoor Eén boekstuk niet nodig is, moeten ze de functie niet inschakelen. Microsoft lost geen bugs op in de gebieden die verderop in dit onderwerp worden aangegeven, als deze functionaliteit wordt gebruikt terwijl een andere oplossing bestaat.
-    - Stop met het gebruiken van Eén boekstuk voor integraties, tenzij u de functionaliteit nodig hebt.
+    - Als één boekstuk niet is vereist in uw bedrijfsscenario, raden we u aan de functionaliteit uit te schakelen. Als u de functionaliteit gebruikt terwijl er een andere oplossing beschikbaar is, lost Microsoft geen fouten op in de gebieden die verderop in dit onderwerp worden aangegeven.
+    - We raden u aan te stoppen met het gebruik van één boekstuk voor integraties, tenzij de functionaliteit nodig hebt voor een van de gedocumenteerde functionele hiaten.
 
-- **Latere releases**: alle functionaliteit wordt ingevuld. **Nadat de functionele hiaten opgevuld en nieuwe functies worden geleverd, duurt het ten minste één jaar voordat de functionaliteit van Eén boekstuk permanent wordt uitgeschakeld**, omdat klanten en onafhankelijke softwareleveranciers (ISV's) voldoende tijd moeten hebt om te reageren op de nieuwe functionaliteit. Ze moeten hun bedrijfsprocessen, entiteiten en integraties bijvoorbeeld mogelijk bijwerken.
+- **Nieuwere versies**: aan meerdere bedrijfsvereisten kan alleen worden voldaan met Eén boekstuk. Microsoft moet ervoor zorgen dat er nog aan alle geïdentificeerde bedrijfsvereisten in het systeem kan worden voldaan nadat de functionaliteit is afgeschaft. Daarom moeten er waarschijnlijk nieuwe functies worden toegevoegd om de functionele hiaten op te vullen. Microsoft kan geen specifieke oplossing leveren, omdat elke hiaat in de functionaliteit anders is en op basis van de behoeften van de zakelijke vereisten moet worden geëvalueerd. Sommige functionele hiaten worden waarschijnlijk vervangen door functies die helpen om aan specifieke bedrijfsvereisten te voldoen. Andere hiaten worden mogelijk opgevuld door invoer in een journaal te blijven toestaan, op een manier zoals bij het gebruik van één boekstuk, maar waardoor het systeem zo nodig meer details kan bijhouden.
 
-> [!IMPORTANT]
-> Houd er rekening mee dat de optie **Maximaal één boekstuknummer** **niet** is verwijderd uit de instellingen voor journaalnamen. Deze optie wordt nog steeds ondersteund als het boekstuk alleen soorten grootboekrekeningen bevat. Klanten moeten voorzichtig zijn met deze instelling omdat het boekstuk niet wordt geboekt als ze de optie **Maximaal één boekstuknummer** gebruiken en vervolgens meer dan één klant, leverancier, bank, vaste activa of project invoeren. Bovendien kunnen klanten toch een combinatie van subgrootboekrekeningtypen invoeren, zoals een betaling in één boekstuk die de rekeningtypen **Leverancier**/**Bank** bevat.
+Nadat alle functionele hiaten zijn opgevuld, geeft Microsoft door dat de functie wordt afgeschaft. De functie wordt echter pas na minimaal één jaar na die communicatie afgeschaft. Hoewel Microsoft niet precies kan zeggen wanneer de functie Eén boekstuk wordt afgeschaft, zal dit waarschijnlijk nog ten minste twee jaar duren. Het Microsoft-beleid is om minimaal 12 maanden te wachten tussen de aankondiging van afgeschafte functionaliteit en de werkelijke afschaffing, zodat klanten en onafhankelijke softwareleveranciers (ISV's) tijd hebben om te reageren op de wijziging. Het kan zijn dat een organisatie bijvoorbeeld hun bedrijfsprocessen, entiteiten en integraties nog moeten bijwerken.
+
+De afschaffing van één boekstuk is een aanzienlijke wijziging die op tal van manieren wordt doorgegeven. Als onderdeel van die communicatie zal Microsoft dit onderwerp bijwerken, een blogpost op het Microsoft Dynamics 365 Finance-blog plaatsen, het onderwerp 'Verwijderde of afgeschafte functies' bijwerken, de wijziging communiceren op de juiste Microsoft-conferenties enzovoort.
 
 ## <a name="why-use-one-voucher"></a>Waarom gebruikt u Eén boekstuk?
 
@@ -186,6 +186,3 @@ Als een correctie moet worden uitgevoerd in de grootboekrekening voor Klanten of
 ### <a name="the-system-allows-it"></a>Het systeem laat het toe
 
 Organisaties gebruiken de functionaliteit van één boekstuk vaak alleen maar omdat het systeem het toelaat, zonder dat de gevolgen duidelijk zijn.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Werkelijk vs. budget Power BI-inhoud
-description: In dit onderwerp wordt de Power BI-inhoud Werkelijk vs. budget besproken. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten die zijn opgenomen in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
-author: ryansandness
+description: In dit onderwerp wordt de Power BI-inhoud Werkelijk vs. budget besproken. Er wordt uitgelegd hoe u de rapporten kunt openen en u vindt informatie over het gegevensmodel.
+author: panolte
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
@@ -12,15 +12,15 @@ ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a185da5055741ac30c7e237ef72d07084644651
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 908b96af5b3d67f265953648edd6aa7ec31556a4
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685267"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093843"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Werkelijk vs. budget Power BI-inhoud
 
@@ -57,6 +57,3 @@ De volgende tabel bevat informatie over de metrische gegevens op elke rapportpag
 | Grootboeken                   | Grootboeken die kunnen worden gebruikt om het rapport te filteren naar het huidige grootboek              |
 | Budgetcodes              | Budgetcodes om rapporten op te filteren                                                |
 | Rechtspersonen            | Rechtspersonen die kunnen worden gebruikt om het rapport te filteren naar de huidige rechtspersoon |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

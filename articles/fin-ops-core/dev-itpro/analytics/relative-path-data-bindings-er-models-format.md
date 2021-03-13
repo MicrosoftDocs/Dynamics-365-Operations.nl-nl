@@ -1,6 +1,6 @@
 ---
 title: Een relatief pad gebruiken in gegevensbindingen van ER-modellen en -indelingen
-description: Met het hulpprogramma voor Elektronische rapportage (ER) kunnen gebruikers elektronische indelingsstructuren definiëren en vervolgens beschrijven hoe deze structuren moeten worden gevuld met behulp van gegevens en algoritmen die in de toepassing bestaan.
+description: Met het hulpprogramma voor elektronische rapportage (ER) kunt u elektronische indelingsstructuren definiëren en vervolgens beschrijven hoe deze structuren moeten worden gevuld.
 author: NickSelin
 manager: AnnBe
 ms.date: 07/03/2019
@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5e2554dc33514185fa16868ee239c3e44ff675dd
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 321a85c675439b91b99ec5988494d7514a5c53f4
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687455"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093132"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Een relatief pad gebruiken in gegevensbindingen van ER-modellen en -indelingen
 
@@ -57,6 +57,3 @@ Deze functie verbreekt niet de achterwaartse compatibiliteit van het ER-raamwerk
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [ER-formuletaal](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

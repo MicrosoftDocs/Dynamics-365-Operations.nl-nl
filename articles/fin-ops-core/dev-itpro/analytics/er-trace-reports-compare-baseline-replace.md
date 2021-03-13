@@ -1,6 +1,6 @@
 ---
 title: Verbeteringen in het traceren van de resultaten van gegenereerde ER-rapporten en het vergelijken hiervan met basislijnwaarden
-description: Dit onderwerp bevat informatie over hoe de ER-basislijnfunctie is verbeterd in Microsoft Dynamics 365 for Finance and Operations 10.0.3 (juni 2019).
+description: Dit onderwerp beschrijft verbeteringen in de ER-basislijnfunctie in Microsoft Dynamics 365 for Finance and Operations versie 10.0.3 (juni 2019).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2019
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 55e821b27f80383d8a8dc7a2d46f87e17c554078
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1c00a5d9e2804f6ec0f6cb4c544029a1235ee58d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682842"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093999"
 ---
 # <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Verbeteringen in het traceren van de resultaten van gegenereerde ER-rapporten en het vergelijken hiervan met basislijnwaarden
 
@@ -59,7 +59,7 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst de stappen in het
 
 De basislijn is toegevoegd voor de geselecteerde indeling **Indeling voor leren van ER-basislijnen**, maar de basislijnregels zijn nog niet toegevoegd voor deze basislijn.
 
-![De pagina Basislijnen voor ER-indeling](media/GER-BaselineSample-AddBaseline2.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
+![De pagina Basislijnen voor ER-indeling, nog geen regels](media/GER-BaselineSample-AddBaseline2.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
 
 ### <a name="make-a-new-baseline-rule"></a>Een nieuwe basislijnregel maken
 
@@ -72,7 +72,7 @@ De basislijn is toegevoegd voor de geselecteerde indeling **Indeling voor leren 
 7. Selecteer **OK**.
 8. Selecteer **Basislijnen**.
 
-    ![De pagina Basislijnen voor ER-indeling](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
+    ![Pagina Basislijnen voor ER-indeling, basislijnen geselecteerd](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
 
     Het gegenereerde uitgaande bestand wordt automatisch gekoppeld aan de basislijn van de uitgevoerde ER-indeling. De basislijnregel is automatisch toegevoegd aan deze basislijn en bevat ook de verwijzing naar het bijgevoegde bestand.
 
@@ -130,7 +130,7 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst de stappen in het
 3. Selecteer in de lijst met basislijnen de basislijn die is geconfigureerd voor de indeling **Indeling voor leren van ER-basislijnen**.
 4. Selecteer op het sneltabblad **Basislijnen** de optie **Verwijderen** om de basislijnregel te verwijderen die u eerder hebt geconfigureerd.
 
-![De pagina Basislijnen voor ER-indeling](media/GER-BaselineSample-AddBaseline3.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
+![De pagina Basislijnen voor ER-indeling, verwijderd](media/GER-BaselineSample-AddBaseline3.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Vervangingen definiëren voor de bindingen van ontworpen ER-indeling
 
@@ -138,7 +138,7 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst de stappen in het
 2. Vouw in de structuur met indelingsonderdelen **Uitvoer** uit, vervolgens **Uitvoer\\Document** en schakel het selectievakje voor **Uitvoer\\Document\\ProcessingDateTime** in.
 3. Selecteer **OK**.
 
-![De pagina Basislijnen voor ER-indeling](media/GER-BaselineSample-AddBaseline4.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
+![De pagina Basislijnen voor ER-indeling, componenten](media/GER-BaselineSample-AddBaseline4.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
 
 Het geselecteerde ER-indelingsonderdeel is toegevoegd aan de lijst met onderdelen op het sneltabblad **Vervangingen**. Wanneer de basis-ER-indeling wordt uitgevoerd in de foutoplossingsmodus, wordt de indelingsbinding voor elk onderdeel vervangen door de binding die wordt weergegeven in de kolom **Binding**. Selecteer **Bewerken** om de standaardbinding te wijzigen voor een onderdeel dat wordt weergegeven op het sneltabblad **Vervangingen**.
 
@@ -207,6 +207,3 @@ Als u basislijninstellingen wilt importeren vanuit een XML-bestand dat op de Mic
 
 - [Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden](er-trace-reports-compare-baseline.md)
 - [Resources voor Taakrecorder](../user-interface/task-recorder.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

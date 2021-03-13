@@ -1,9 +1,9 @@
 ---
 title: Overzicht van elektronische rapportage (ER)
-description: Dit onderwerp biedt een overzicht van het hulpmiddel voor Elektronische rapportage (ER). Er staat informatie in over belangrijke concepten, de scenario's die door ER ondersteund worden en een lijst met indelingen die als onderdeel van de ER-oplossing ontworpen en uitgegeven zijn.
+description: Dit onderwerp biedt een overzicht van het hulpmiddel voor elektronische rapportage. In dit onderwerp worden belangrijke concepten, ondersteunde scenario's en indelingen beschreven die deel uitmaken van de oplossing.
 author: NickSelin
 manager: AnnBe
-ms.date: 07/25/2019
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e40aa168c296af86721862d1751212d16d47bd49
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 33d399c6a9051097d3ea0c7990a37302395d9c77
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682594"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093921"
 ---
 # <a name="electronic-reporting-er-overview"></a>Overzicht van elektronische rapportage (ER)
 
@@ -37,6 +37,7 @@ De ER-engine is gericht op zakelijke gebruikers in plaats van ontwikkelaars. Aan
 ER ondersteunt op dit moment de werkbladindelingen TEXT, Microsoft Word-document en OPENXML. Een extensie-interface biedt echter ondersteuning voor andere indelingen.
 
 ## <a name="capabilities"></a>Mogelijkheden
+
 De ER-engine biedt de volgende mogelijkheden:
 
 - De engine vertegenwoordigt een enkel gedeeld hulpmiddel voor elektronische rapportage in verschillende domeinen en vervangt meer dan 20 verschillende engines waarmee elektronische rapportage van welke aard dan ook voor Finance and Operations wordt uitgevoerd.
@@ -46,6 +47,7 @@ De ER-engine biedt de volgende mogelijkheden:
 - Het ondersteunt de mogelijkheid om indelingen te verspreiden onder partners en klanten via Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="key-concepts"></a>Belangrijke concepten
+
 ### <a name="components"></a>Componenten
 
 ER ondersteunt twee typen onderdelen: **Gegevensmodel** en **Indeling**.
@@ -71,7 +73,6 @@ Een modeltoewijzing die ondersteuning biedt voor uitgaande elektronische documen
 - Er kunnen verschillende gegevenstypen worden gebruikt als gegevensbronnen voor een gegevensmodel. Er kan bijvoorbeeld gebruik worden gemaakt van tabellen, gegevensentiteiten, methoden of opsommingen.
 - Er worden gebruikerinvoerparameters ondersteund die kunnen worden gedefinieerd als gegevensbronnen voor een gegevnsmodel wanneer bepaalde gegevens moeten worden opgegeven tijdens de uitvoering.
 - Hij biedt ondersteuning voor de transformatie van gegevens in de vereiste groepen. Ook kunt u hiermee filteren, sorteren en gegevens optellen en logische berekende velden toevoegen die zijn ontwikkeld door middel van formules die vergelijkbaar zijn met Microsoft Excel-formules. Zie voor meer informatie het onderwerp [Formuleontwerper in elektronische rapportage (ER)](general-electronic-reporting-formula-designer.md).
-
 
 Een modeltoewijzing die ondersteuning biedt voor inkomende elektronische documenten, heeft de volgende mogelijkheden:
 
@@ -107,6 +108,7 @@ In de volgende afbeelding ziet u hoe de gegevensstroomm voor deze indelingen ver
 Voor het uitvoeren van een enkele ER-indelingsconfiguratie en het genereren van een uitgaand elektronisch document moet u de toewijzing van de indelingsconfiguratie bepalen.
 
 #### <a name="format-components-for-incoming-electronic-documents"></a><a name="FormatComponentInbound"></a>Indelingscomponent voor inkomende elektronische documenten
+
 Een indelingscomponent is het schema van het inkomende document dat tijdens de uitvoering wordt geïmporteerd. Een schema bestaat uit de volgende elementen:
 
 - Een indeling die de structuur en de inhoud definieert van het inkomende elektronische document dat gegevens bevat die tijdens de uitvoering worden geïmporteerd. Een indelingscomponent wordt gebruikt om een inkomend document te parseren in verschillende indelingen, zoals tekst en XML.
@@ -196,6 +198,7 @@ De opslagplaats **Bronnen voor bedrijfsactiviteiten** biedt toegang tot de lijst
 Vereiste opslagplaatsen voor **LCS-project**, **Bestandssysteem** en **Regulatory Configuration Services (RCS)** kunnen afzonderlijk worden geregistreerd voor elke configuratieprovider van het huidige exemplaar. Elke opslagplaats kan aan een specifieke configuratieprovider zijn gekoppeld.
 
 ## <a name="supported-scenarios"></a>Ondersteunde scenario's
+
 ### <a name="building-a-data-model"></a>Een gegevensmodel maken
 
 ER biedt een modelontwerper waarmee u een gegevensmodel kunt maken voor een bepaald bedrijfsdomein. Alle domeinspecifieke bedrijfsentiteiten, en de relaties hiertussen, kunnen als een hiërarchische structuur worden voorgesteld in een gegevensmodel. 
@@ -216,6 +219,7 @@ ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen 
 Speel de taakbegeleidingen **ER Definieer modeltoewijzing en selecteer gegevensbronnen** en **ER Wijs gegevensmodel toe aan geselecteerde gegevensbronnen** (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** af om uzelf vertrouwd te maken met de details van dit scenario).
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Gegevensmodeltoewijzingen voor inkomende documenten configureren
+
 ER biedt een ontwerper voor modeltoewijzing waarmee gebruikers gegevensmodellen kunnen toewijzen die zij hebben ontworpen voor specifieke bestemmingen. Gegevensmodellen kunnen bijvoorbeeld worden toegewezen aan de bewerkbare gegevenscomponenten, zoals tabellen, gegevensentiteiten en weergaven. Op basis van de toewijzing worden de gegevens bijgewerkt tijdens de uitvoering met de gegevens uit het gegevensmodel. Als abstracte opslag van de ER-indeling wordt het gegevensmodel gevuld met gegevens die worden geïmporteerd vanuit een inkomend elektronisch document. 
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Een ontworpen modelonderdeel opslaan als modelconfiguratie
@@ -237,6 +241,7 @@ De ER-indelingsontwerper kan worden gebruikt om een bepaald elektronisch documen
 Speel de taakbegeleiding **ER Een configuratie maken voor het genereren van rapporten in OPENXML-indeling** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario). Als onderdeel van de taakbegeleidingsstap voor het importeren van een sjabloon, gebruikt u het Excel-bestand [Sjabloon van betalingsrapport (SampleVendPaymWsReport.xlsx)](https://go.microsoft.com/fwlink/?linkid=845202) als sjabloon.
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-a-word-document-format"></a>Een configuratie bouwen voor het genereren van elektronische documenten in Word-documentindeling
+
 De ER-indelingsontwerper kan worden gebruikt om een bepaald elektronisch document te maken in een Word-documentindeling. In de volgende afbeelding ziet u een voorbeeld van dit type indeling. Merk op dat deze indeling de bestaande ER-configuratie gebruikt, die oorspronkelijk is opgezet voor het genereren van de rapportuitvoer in OPENXML-indeling.
 
 Speel de taakbegeleiding ER: een configuratie ontwerpen voor het genereren van rapporten in Microsoft Word-indeling af (onderdeel van het bedrijfsproces 7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)) om vertrouwd te raken met de details van dit scenario. Gebruik de volgende Word-bestanden als sjablonen voor de ER-indeling als onderdeel van de taakbegeleidingfase voor het importeren van een sjabloon:
@@ -245,6 +250,7 @@ Speel de taakbegeleiding ER: een configuratie ontwerpen voor het genereren van r
 - [Gebonden sjabloon van betalingsrapport (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Een configuratie bouwen om gegevens te importeren vanuit inkomende elektronische documenten
+
 De ER-indelingsontwerper kan worden gebruikt om een elektronisch document te beschrijven dat is gepland voor het importeren van gegevens in de indeling XML of tekst. De ontworpen indeling wordt gebruikt om inkomende documenten te parseren. De ER-indelingstoewijzingsontwerper kan worden gebruikt voor het definiëren van het binden van de elementen van de ontworpen indeling aan het gegevensmodel. 
 
 Speel de taakbegeleiding ER: vereiste configuraties maken voor het importeren van gegevens uit een extern bestand af (onderdeel van het bedrijfsproces 7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)) om vertrouwd te raken met de details van dit scenario. Gebruik de volgende bestanden om deze begeleider af te spelen:
@@ -265,6 +271,7 @@ De toepassing kan worden geconfigureerd voor gebruik van een gemaakte indeling v
 Speel de taakbegeleiding **ER Gebruik indeling om nieuwe elektronische documenten voor betalingen te genereren** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)**) om bekend te raken met de details van dit scenario.
 
 ## <a name="handling-er-components"></a>ER-onderdelen verwerken
+
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>Een ER-onderdeel publiceren in LCS om dit extern aan te bieden (lokalisatie)
 
 De eigenaar van een onderdeel (model of indeling) dat is gemaakt, kan ER gebruiken voor het publiceren van de voltooide versie van het onderdeel naar LCS. Een opslagplaats van het type **LCS-project** voor de huidige ER-configuratieprovider is vereist. Als de status van de voltooide versie van een onderdeel wordt gewijzigd van **VOLTOOID** naar **GEDEELD**, wordt die versie gepubliceerd in LCS. Wanneer een onderdeel is gepubliceerd naar LCS, wordt de eigenaar van dit onderdeel een provider van de service om het onderdeel te ondersteunen. Als bijvoorbeeld de indelingsonderdeel is ontworpen om een wettelijk vereist elektronisch document te genereren (bijvoorbeeld in overeenstemming met een lokalisatiescenario), wordt ervan uitgegaan dat de indeling in overeenstemming met de wettelijke wijzigingen wordt gehouden en dat de provider nieuwe versies van het onderdeel zal uitgeven telkens wanneer moet worden voldaan aan nieuwe wettelijke vereisten. Speel de taakbegeleiding **ER Een configuratie naar Lifecycle Services uploaden** af (onderdeel van het bedrijfsproces **7.5.4.3 Onderdelen voor IT-services en -oplossingen aanschaffen/ontwikkelen (10677)** om vertrouwd te raken met de details van dit scenario).
@@ -281,92 +288,13 @@ Met ER kunt u een nieuw (afgeleid) onderdeel maken op basis van de huidige versi
 
 Met ER kunt u automatisch wijzigingen in de meest recente versie van het basisondeel aanbrengen in de huidige conceptversie van het afgeleide onderdeel. Dit proces wordt *rebasing* genoemd. Zo kan bijvoorbeeld een nieuwe wijziging in de regelgeving die is geïntroduceerd in de laatste versie van de indeling die werd geïmporteerd vanuit LCS automatisch worden samengevoegd met de aangepaste versie van deze indeling van het elektronisch document. Alle wijzigingen die niet automatisch kunnen worden samengevoegd worden als conflicten beschouwd. Deze conflicten worden weergegeven voor handmatige oplossing in het ontwerpprogramma voor het desbetreffende onderdeel. Speel de taakbegeleiding **>ER Indeling upgraden door instelling van een nieuwe basis van de indeling** af (onderdeel van bedrijfsproces **7.5.5.3 Gewijzigd onderdeel voor IT-services en -oplossingen aanschaffen/ontwikkelen (10683)**) om bekend te raken met de details van dit scenario.
 
-## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-application"></a>Lijst met ER-configuraties die worden geleverd in de Finance-toepassing
+## <a name="list-of-er-configurations-that-have-been-released-in-finance"></a><a name="list-of-configurations"></a>Lijst met ER-configuraties die in Finance zijn vrijgegeven
 
-| Domeinspecifieke gegevensmodelconfiguraties: titel | Domein                | Configuratie van gegevensmodelafhankelijke indelingen: titel | Beschrijving                                                        |
-|--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
-| Model van auditfile                                 | Financiële audit       |                                                   |                                                                    |
-|                                                  |                       | Auditfile (NL)                                   | Auditfile-indeling voor Nederland                                  |
-| BAS-model                                        | Belastingaangifte         |                                                   |                                                                    |
-|                                                  |                       | BAS (AU)                                          | BAS-indeling voor Australië                                           |
-| Schemamodel voor bouwsector               | Belastingaangifte         |                                                   |                                                                    |
-|                                                  |                       | CIS maandretour (Verenigd Koninkrijk)                           | CIS maandelijkse retourindeling voor het Verenigd Koninkrijk                   |
-| Model voor aanmaningsbrief                          | Elektronische facturering  |                                                   |                                                                    |
-|                                                  |                       | OIOUBL Aanmaningsbrief (DK)                     | OIOUBL Indeling aanmaningsbrief voor Denemarken                        |
-| 'Elektronisch grootboek boekhoudingsmodel (MX)          | Belastingaangifte         |                                                   |                                                                    |
-|                                                  |                       | Hulpgrootboek XML (MX)                         | Rapportindeling voor transacties in hulpgrootboek per account voor Mexico |
-|                                                  |                       | Rekeningschema XML (MX)                         | Indeling voor rapport van rekeningschema voor Mexico                          |
-|                                                  |                       | Journalen XML (MX)                                 | Indeling voor rapport van journaaltransacties voor Mexico                      |
-|                                                  |                       | Proefbalans XML (MX)                            | Indeling van proefbalansrapport voor Mexico                             |
-| Elster-model                                     | Belastingaangifte         |                                                   |                                                                    |
-|                                                  |                       | Elster (DE)                                       | Elster-indeling voor Duitsland                                          |
-| Model van EU-verkooplijst                              | Handelsrapportage       |                                                   |                                                                    |
-|                                                  |                       | EU-verkooplijst (DE)                                | TXT-indeling van EU-verkooplijst voor Duitsland                               |
-|                                                  |                       | EU-verkooplijst (DK)                                | TXT-indeling van EU-verkooplijst voor Denemarken                               |
-|                                                  |                       | EU-verkooplijst (FR)                                | XML-indeling van EU-verkooplijst voor Frankrijk                                |
-|                                                  |                       | EU-verkooplijst (NL)                                | XML-indeling van EU-verkooplijst voor Nederland                           |
-|                                                  |                       | TXT EU-verkooplijst (Verenigd Koninkrijk)                            | TXT-indeling van EU-verkooplijst voor het Verenigd Koninkrijk                    |
-|                                                  |                       | XML EU-verkooplijst (Verenigd Koninkrijk)                            | XML-indeling van EU-verkooplijst voor het Verenigd Koninkrijk                    |
-|                                                  |                       | Rapport van EU-verkooplijst in kolommen                   | Rapport van EU-verkooplijst in kolommen                                    |
-|                                                  |                       | Rapport van EU-verkooplijst in rijen                      | Rapport van EU-verkooplijst in rijen                                       |
-| FEC-boekhoudingsmodel (FR)                        | Belastingaangifte         |                                                   |                                                                    |
-|                                                  |                       | FEC-boekhoudingsgegevens XML (FR)                      | Export in XML-indeling van FEC-boekhoudingsgegevens voor Frankrijk                   |
-| Duits auditfile                                | Financiële audit       |                                                   |                                                                    |
-|                                                  |                       | Uitvoer Duits auditfile                          | Uitvoer van auditfile voor Duitsland en Oostenrijk                          |
-| Intrastat-model                                  | Handelsrapportage       |                                                   |                                                                    |
-|                                                  |                       | Intrastat (DE)                                    | Intrastat-indeling voor Duitsland                                       |
-|                                                  |                       | Intrastat (DK)                                    | Intrastat-indeling voor Denemarken                                       |
-|                                                  |                       | Intrastat INTRACOM (FR)                           | Intrastat INTRACOM-indeling voor Frankrijk                               |
-|                                                  |                       | Intrastat SAISUNIC (FR)                           | Intrastat SAISUNIC-indeling voor Frankrijk                               |
-|                                                  |                       | Intrastat (NL)                                    | Intrastat-indeling voor Nederland                               |
-|                                                  |                       | Intrastat (Verenigd Koninkrijk)                                    | Intrastat-indeling voor het Verenigd Koninkrijk                            |
-|                                                  |                       | Intrastat-rapport                                  | Intrastat-controlerapport in Excel-indeling                                     |
-| Klantfactuurmodel                           | Elektronische facturering  |                                                   |                                                                    |
-|                                                  |                       | OIOUBL Projectcreditnota (DK)                   | OIOUBL Indeling van projectcreditnota voor Denemarken                      |
-|                                                  |                       | OIOUBL Projectfactuur (DK)                       | OIOUBL Indeling van projectfactuur voor Denemarken                          |
-|                                                  |                       | OIOUBL Verkoopcreditnota (DK)                     | OIOUBL Indeling van verkoopcreditnota voor Denemarken                        |
-|                                                  |                       | OIOUBL Verkoopfactuur (DK)                         | OIOUBL Indeling van verkoopfactuur voor Denemarken                            |
-| OB-aangiftemodel                             | Belastingaangifte         |                                                   |                                                                    |
-|                                                  |                       | OB-aangifte (NL)                               | Indeling van OB-aangifte voor Nederland                          |
-| Betalingsmodel                                    | Betalingen              |                                                   |                                                                    |
-|                                                  |                       | Betalingsservice (DK)                             | Betalingsindeling van betalingsservice voor Denemarken                        |
-|                                                  |                       | Bankremise voor wissel (FR)                  | Indeling van bankremise voor wissel voor Frankrijk                      |
-|                                                  |                       | BTL91 (NL)                                        | BTL91 Indeling voor leveranciersbetaling voor Nederland                    |
-|                                                  |                       | CFONB Prelevements (FR)                           | CFONB Indeling van betaling via automatische afschrijving voor Frankrijk                       |
-|                                                  |                       | CFONB Virements (FR)                              | CFONB Indeling van betaling aan binnenlandse leverancier voor Frankrijk                    |
-|                                                  |                       | Nordea Vendor (DK)                                | Indeling van leveranciersbetaling via Nordea Corporate Netbank voor Denemarken         |
-|                                                  |                       | ANZ Direct Credit Service (AU)                    | Indeling voor ANZ Direct Credit Service voor Australië                 |
-|                                                  |                       | CBA Direct Credit Service (AU)                    | Indeling voor CBA Direct Credit Service voor Australië                 |
-|                                                  |                       | NAB Direct Credit Service (AU)                    | Indeling voor NAB Direct Credit Service voor Australië                 |
-|                                                  |                       | STG Direct Credit Service (AU)                    | Indeling voor STG Direct Credit Service voor Australië                 |
-|                                                  |                       | WBC Direct Entry System (AU)                      | Indeling voor WBC Direct Entry System voor Australië                   |
-|                                                  |                       | DirectLink (NZ)                                   | Indeling voor DirectLink voor Nieuw-Zeeland                              |
-|                                                  |                       | JBA Betalingsbestand (JP)                             | JBA Betalingsindeling voor Japan                                       |
-|                                                  |                       | ISO20022 Kredietoverdracht                          | SEPA Indeling voor kredietoverdracht voor Europa                             |
-|                                                  |                       | ISO20022 Kredietoverdracht (FR)                     | SEPA Indeling voor kredietoverdracht voor Frankrijk                             |
-|                                                  |                       | ISO20022 Kredietoverdracht (DE)                     | SEPA Indeling voor kredietoverdracht voor Duitsland                            |
-|                                                  |                       | ISO20022 Kredietoverdracht (NL)                     | SEPA Indeling voor kredietoverdracht voor Nederland                    |
-|                                                  |                       | ISO20022 Automatische incasso                             | SEPA Indeling voor automatische incasso voor Europa                                |
-|                                                  |                       | ISO20022 Automatische incasso (FR)                        | SEPA Indeling voor automatische incasso voor Frankrijk                                |
-|                                                  |                       | ISO20022 Automatische incasso (DE)                        | SEPA Indeling voor automatische incasso voor Duitsland                               |
-|                                                  |                       | ISO20022 Automatische incasso (NL)                        | SEPA Indeling voor automatische incasso voor Nederland                       |
-|                                                  |                       | BACS (Verenigd Koninkrijk)                                         | BACS Indeling voor leveranciersbetaling voor het Verenigd Koninkrijk                  |
-| Terugboeking                                   | Belastingaangifte         |                                                   |                                                                    |
-|                                                  |                       | Verkooplijst terugboeken                         | Indeling voor terugboeking verkooplijst                                   |
-| Nederlands XBRL-integratiemodel                     | XBRL-rapportering        |                                                   |                                                                    |
-|                                                  |                       | Semansys XBRL (NL)                                | Semansys XBRL-exportindeling voor Nederland                    |
-| GAF-model (MY)                                   | Financiële audit       |                                                   |                                                                    |
-|                                                  |                       | GAF-bestand (MY)                                     | Indeling van GAF voor Maleisië                                         |
-| Naar ouderdom gerangschikt rapport voor leveranciers (CN)                         | Analyse van leveranciersgegevens |                                                   |                                                                    |
-|                                                  |                       | Indeling van naar ouderdom gerangschikt rapport voor leveranciers (CN)                   | Indeling van naar ouderdom gerangschikt rapport voor leveranciers voor China                               |
-| Declaratiemodel voor leveranciersfacturen                 | Analyse van leveranciersgegevens |                                                   |                                                                    |
-|                                                  |                       | Aangifte van leveranciersfacturen (IS)                   | Indeling voor aangifte van leveranciersfacturen voor IJsland                      |
-|                                                  |                       | Rapport voor aangifte van leveranciersfacturen (IS)            | Rapport voor aangifte van leveranciersfacturen voor IJsland                      |
+De lijst met ER-configuraties voor Finance wordt continu bijgewerkt. Open de [Algemene opslagplaats](er-download-configurations-global-repo.md) om de lijst met ER-configuraties te bekijken die momenteel worden ondersteund. Op het sneltabblad **Details beëindiging** kunt u de informatie bekijken over configuraties die zijn beëindigd of die niet meer worden onderhouden. 
 
-## <a name="additional-resources"></a>Aanvullende resources
+![Inhoud van de algemene opslagplaats op de pagina Opslagplaats van configuratie](./media/er-overview-03.gif)
 
-- [ER-configuraties (Elektronische rapportage) maken](electronic-reporting-configuration.md)
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+- [Configuraties voor elektronische rapportage (ER) maken](electronic-reporting-configuration.md)
 - [De levenscyclus van de configuratie van elektronische rapportage (ER) beheren](general-electronic-reporting-manage-configuration-lifecycle.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

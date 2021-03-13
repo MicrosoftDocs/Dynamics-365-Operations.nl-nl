@@ -3,7 +3,7 @@ title: Aan de slag met de invoegtoepassing voor elektronische facturering
 description: Dit onderwerp bevat informatie waarmee u aan de slag kunt met de invoegtoepassing Elektronische facturering in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 10/08/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,331 +11,222 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 7b2a3aae43d42060c7fcd9e1ea3db814fc5d8f22
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: 07954c5c96f390bc651794f8b6c61f2a1a17ab8b
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4442145"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111215"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Aan de slag met de invoegtoepassing voor elektronische facturering
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat informatie waarmee u aan de slag kunt met de invoegtoepassing Elektronische facturering. Eerst wordt u door de configuratiestappen geleid in Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Services (RCS) en Dynamics 365 Finance. Vervolgens wordt het proces beschreven voor het indienen van documenten via de service met Dynamics 365 Finance of Dynamics 365 Supply Chain Management. Verder leert u hoe u de indieningslogboeken interpreteert.
+Dit onderwerp bevat informatie waarmee u aan de slag kunt met de invoegtoepassing Elektronische facturering.
 
-## <a name="availability"></a>Beschikbaarheid
+In de volgende tabel worden de functies voor elektronische facturering en de bedrijfsdocumenten vermeld waarin deze kunnen worden toegepast.
 
-De invoegtoepassing Elektronische facturering is in eerste instantie beschikbaar voor verschillende landen. De invoegtoepassing ondersteunt het maken van elektronische facturen en het indienen van de volgende zakelijke documenten:
-
-| Land/regio  | Bedrijfsdocument                          |
-|-----------------|--------------------------------------------|
-| Oostenrijk         | Verkoop- en projectfacturen                 |
-| België         | Verkoop- en projectfacturen                 |
-| Brazilië          | Elektronisch belastingdocument model 55 (NF-e) |
-| Denemarken         | Verkoop- en projectfacturen                 |
-| Estland         | Verkoop- en projectfacturen                 |
-| Finland         | Verkoop- en projectfacturen                 |
-| Frankrijk          | Verkoop- en projectfacturen                 |
-| Duitsland         | Verkoop- en projectfacturen                 |
-| Italië           | Verkoop- en projectfacturen                 |
-| Mexico          | CFDI-factuur                               |
-| Nederland     | Verkoop- en projectfacturen                 |
-| Noorwegen          | Verkoop- en projectfacturen                 |
-| Spanje           | Verkoop- en projectfacturen                 |
-| Europa          | PEPPOL Verkoop- en projectfacturen          |
-    
-## <a name="licensing"></a>Licenties
-
-U kunt de invoegtoepassing Elektronische facturering gebruiken met uw huidige licentie. Er zijn geen extra licenties vereist om de service te gebruiken.
+| Functienaam                         | Bedrijfsdocument |
+|--------------------------------------|-------------------|
+| Elektronische facturen Oostenrijk (AT)    | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
+| Elektronische factuur België (BE)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
+| Braziliaans NF-e (BR)                  | <p>Fiscaal model 55-document</p><p>Correctiebrief</p> |
+| Braziliaans NFS-e ABRASF Curitiba (BR) | Service belastingdocument |
+| Braziliaans NFS-e São Paulo (BR)       | Service belastingdocument |
+| Elektronische factuur Denemarken (DK)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
+| Elektronische factuur Egypte (EG)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
+| Elektronische factuur Estland (EE)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
+| Finse Elektronische factuur (FI)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
+| Elektronische factuur Frankrijk (FR)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
+| Elektronische factuur Duitsland (DE)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
+| FatturaPA (IT)                       | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
+| Mexicaanse CFDI Interfactura (MX)       | <p>Verkoopfactuur</p><p>Pakbon</p><p>Voorraadoverdracht</p><p>Betalingscomplement</p> |
+| Elektronische factuur Nederland (NL)        | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
+| Elektronische factuur Noorwegen (NO)    | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
+| Elektronische factuur Spanje (ES)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
+| PEPPOL Elektronische factuur            | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u de stappen in dit onderwerp voltooit, moet u aan de volgende vereisten voldoen:
+Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereisten zijn voldaan:
 
-- Toegang tot uw LCS-account.
-- Een LCS-implementatieproject dat Finance of Supply Chain Management versie 10.0.13 of hoger bevat.
-- Toegang tot uw RCS-account.
-- Schakel de globalisatiefunctie voor uw RCS-account in via de module **Functiebeheer**. Zie [Regulatory Configuration Services (RCS) - Globalisatiefuncties](rcs-globalization-feature.md) voor meer informatie
-- Maak een Key Vault-resource en een opslagaccount in Azure. Zie [Azure-opslagaccount en Key Vault maken](e-invoicing-create-azure-storage-account-key-vault.md) voor meer informatie.
+- Configureer uw Regulatory Configuration Service (RCS) en uw Microsoft Dynamics 365 Finance- of Dynamics 365 Supply Chain Management-omgeving, zodat u de invoegtoepassing voor elektronische facturering kunt indienen.
+- Maak een serviceomgeving en publiceer deze naar de invoegtoepassing voor elektronische facturering. Zie [Aan de slag met servicebeheer van de invoegtoepassing voor elektronische facturering](e-invoicing-get-started-service-administration.md) voor meer informatie.
+- Maak een verbonden toepassing. Zie [Aan de slag met servicebeheer van de invoegtoepassing voor elektronische facturering](e-invoicing-get-started-service-administration.md) voor meer informatie.
+- Maak een configuratieprovider voor uw organisatie. Zie [Configuratieprovider maken en deze als actief markeren](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md) voor meer informatie.
 
-## <a name="overview"></a>Overzicht
+## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Een elektronische factureringsfunctie vanuit de Microsoft-configuratieprovider importeren 
 
-In de volgende afbeelding ziet u de vijf belangrijkste stappen die u in dit onderwerp zult voltooien.
+1. Meld u aan bij uw RCS-account (Regulatory Configuration Service).
+2. Selecteer in de werkruimte **Globalisatiefunctie** in de sectie **Functies** de tegel **e-Facturering**.
+3. Selecteer **Importeren** en vervolgens **Synchroniseren**.
+4. Filter de kolom **Configuratieprovider** op de term **Microsoft**.
+5. Selecteer de naam van een elektronische factureringsfunctie in de tabel aan het begin van dit onderwerp en selecteer **Importeren**.
 
-![Overzicht van de vijf stappen in dit onderwerp](media/e-invoicing-services-get-started-overview-5-steps.png)
+## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Een omgeving voor de elektronische factureringsfunctie onder uw organisatieprovider maken
 
-1. **Azure-resources instellen:** configureer Azure-opslag en het uploaden van digitale certificaten in Azure Key Vault.
-2. **LCS-instellingen:** installeer de invoegtoepassing voor microservices.
-3. **RCS-instellingen:** de functies voor omgeving, gebruikerstoegang en e-Facturering instellen.
-4. **Client instellen:** stel de verbinding in tussen de client en de invoegtoepassing Elektronisch factureren in en schakel de oude functies voor het indienen en ontvangen van respons voor elektronische documenten uit.
-5. **Facturen indienen:** dien elektronische documenten in via de invoegtoepassing voor elektronische facturering en ontvang respons.
+1. Selecteer in RCS, in de sectie **Functies** van de werkruimte **Globalisatiefunctie**, de tegel **e-Facturering**.
+2. Selecteer **Toevoegen** > **Gebaseerd op bestaande functie** en voer in het veld **Naam** de naam van de elektronische factureringsfunctie in.
+3. Voer in het veld **Omschrijving** een omschrijving in voor de functie.
+4. Selecteer in het veld **Basisfunctie** de geïmporteerde elektronische factureringsfunctie van de Microsoft-configuratieprovider.
+5. Selecteer **Functie maken**.
 
-> [!NOTE]
-> Enkele configuratiestappen in dit onderwerp zijn algemeen en niet land-/regiospecifiek. De stappen en instellingsprocedures die specifiek zijn voor landen/regio's worden beschreven in land-/regiospecifieke onderwerpen.
+## <a name="configure-the-electronic-invoicing-feature"></a>De elektronische factureringsfunctie configureren
 
-## <a name="lcs-setup"></a>LCS-instellingen
+Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie mogelijk extra configuratie nodig. Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor de specifieke stappen.
 
-1. Meld u aan bij uw LCS-account.
-2. Selecteer de tegel **Beheer van previewfuncties** en selecteer in **Functies van openbare previews** **BusinessdocumentSubmission**.
-3. Markeer het veld **Previewfunctie ingeschakeld**.
-4. Selecteer het LCS-implementatieproject. Voordat u het project kunt selecteren, moet het actief zijn.
-5. Selecteer op het sneltabblad **Invoegtoepassingen voor omgeving** de optie **Een nieuwe invoegtoepassing installeren**.
-6. Selecteer **Zakelijk document indienen**.
-7. Voer in het dialoogvenster **Invoegtoepassing instellen** in het veld **AAD-toepassings-id** het volgende in: **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Dit is een vaste waarde.
-8. Voer in het veld **AAD-tenant-id** de id van uw Azure-abonnementsaccount in.
+## <a name="configure-the-application-setup"></a>De instellingen van de toepassing configureren
 
-    ![Het dialoogvenster Invoegtoepassing instellen in LCS](media/e-invoicing-services-get-started-lcs-addin-setup.png)
-
-9. Schakel het selectievakje in om de voorwaarden te accepteren.
-10. Selecteer **Installeren**.
-
-## <a name="rcs-setup"></a>RCS-instellingen
-
-Tijdens de RCS-instelling voert u de volgende taken uit:
-
-1. Stel de sleutelkluis in RCS in.
-2. De RCS-integratie met de server van de invoegtoepassing voor elektronisch factureren instellen.
-3. Maak een omgeving voor de invoegtoepassing voor elektronische facturering voor uw organisatie.
-
-### <a name="set-up-the-key-vault-in-rcs"></a>Stel de sleutelkluis in RCS in
-
-1. Meld u aan bij uw RCS-account.
-2. Selecteer in de werkruimte **Globalisatiefuncties** in de sectie **Omgevingen** de tegel **e-Facturering**.
-3. Selecteer **Serviceomgevingen**.
-
-    ![Serviceomgevingen selecteren](media/e-invoicing-services-get-started-select-service-environments.png)
-
-> [!NOTE]
-> Met de optie **Verbonden toepassingen** wordt toegang verleend voor de automatische configuratie van de invoegtoepassing voor elektronische facturering in Finance of Supply Management via de RCS. Deze functie is echter nog in ontwikkeling.
-
-4. Selecteer **Key Vault-parameters** in het actievenster.
-
-    ![Key Vault-parameter selecteren](media/e-invoicing-services-get-started-select-key-vault-parameters.png)
-
-5. Selecteer **Nieuw** in het actievenster om een sleutelkluis toe te voegen.
-6. Voer in het veld **Key Vault-URI** de waarde van het kenmerk **DNS-naam** van de sleutelkluis-resource in die u in Azure hebt geconfigureerd. Zie [Azure-opslagaccount en Key Vault maken](e-invoicing-create-azure-storage-account-key-vault.md) voor informatie over waar u de waarde voor **DNS-naam** kunt vinden.
-
-    ![Het veld Key Vault-URI](media/e-invoicing-services-get-started-enter-key-vault-uri.png)
-
-7. Selecteer op het sneltabblad **Certificaten** **Toevoegen** om alle namen van digitale certificaten en sleutelkluisgeheimen in te voeren die nodig zijn om betrouwbare verbindingen tot stand te brengen. In de kolom **Type** kunt u opgeven of het een certificaat of een geheim is. Beide waardensets worden geconfigureerd in de sleutelkluis-resource in Azure.
-
-    ![Certificaten toevoegen](media/e-invoicing-services-get-started-add-digital-certificates.png)
-
-8. Als uw land-/regiospecifieke factuur een keten certificaten vereist om een digitale handtekening toe te passen, selecteert u **Keten van certificaten** in het actievenster en voert u de reeks certificaten of sleutelkluisgeheimen in waaruit de keten bestaat.
-
-### <a name="set-up-the-rcs-integration-with-the-electronic-invoicing-add-on-server"></a>De RCS-integratie met de server van de invoegtoepassing voor elektronisch factureren instellen
-
-1. Selecteer in de werkruimte **Globalisatiefuncties** in de sectie **Verwante instellingen** de koppeling **Parameters van elektronische rapportage**.
-2. Selecteer **Klik hier om verbinding te maken met Lifecycle Services**. Als u geen verbinding wilt maken met LCS, selecteert u **Annuleren**.
-3. Voer op het tabblad **Services voor elektronische facturering** in het veld **URI van service-eindpunt** de waarde in die in overeenstemming is met de beschikbare regio´s: `https://businessdocumentsubmission.us.operations365.dynamics.com/` of `https://businessdocumentsubmission.eu.operations365.dynamics.com/`.
-4. Controleer of in het veld **Toepassings-id** de id **0cdb527f-a8d1-4bf8-9436-b352c68682b2** wordt weergegeven. Dit is een vaste waarde.
-5. Voer in het veld **LCS-omgevings-id** de id van uw LCS-abonnementsaccount in.
-
-![Parameters voor invoegtoepassing Elektronische facturering invoeren](media/e-invoicing-services-get-started-enter-e-invoicing-parameters.png)
-
-### <a name="add-an-electronic-invoicing-add-on-environment"></a>Een omgeving van de invoegtoepassing voor elektronische facturering toevoegen
-
-U kunt verschillende omgevingen maken voor de invoegtoepassing Elektronische facturering, zoals dev-, test- of productieomgevingen.
-
-1. Selecteer in de werkruimte **Globalisatiefuncties** in de sectie **Omgevingen** de tegel **e-Facturering**.
-2. Selecteer **Nieuw** om een omgeving te maken.
-3. Voer in het veld **SAS-tokenaccount voor opslag** de naam van het sleutelkluisgeheim in dat u in de sleutelkluis in RCS hebt geconfigureerd.
-
-    ![Het veld SAS-tokenaccount voor opslag](media/e-invoicing-services-get-started-enter-sas-token-secret.png)
-
-4. Selecteer op het sneltabblad **Gebruikers** de optie **Nieuw** om toegang te verlenen aan gebruikers voor deze omgeving.
-
-    ![Servicegebruikers toevoegen](media/e-invoicing-services-get-started-enter-service-users.png)
-
-5. Selecteer **Publiceren** in het actievenster om de omgeving naar de server voor elektronische facturering te publiceren.
-
-    ![De knop Publiceren](media/e-invoicing-services-get-started-publish-service-environment.png)
-
-### <a name="e-invoicing-feature-setup"></a>Functie e-Facturering instellen
-
-'De functie e-Facturering' is de algemene naam voor de resource die wordt geconfigureerd en gepubliceerd voor gebruik op de server van de invoegtoepassing voor elektronische facturering. Met de instelling van de functie e-Facturering wordt onder andere het gebruik van configuratie-indelingen voor elektronische rapportage (ER) gecombineerd om configureerbare export- en importbestanden te maken, en het gebruik van acties en actiestromen om het maken van configureerbare regels mogelijk te maken voor het verzenden van aanvragen, het importeren van reacties en het parseren van de reactie-inhoud.
-
-Vanwege variaties in factuurindelingen en actiestromen zijn de instellingen van de functie e-Facturering afhankelijk van land/regio.
-
-## <a name="set-up-electronic-invoicing-add-on-integration-in-finance-or-supply-chain-management"></a>De integratie van de invoegtoepassing voor elektronisch factureren instellen in Finance of Supply Chain Management 
-
-Tijdens deze instelling voert u de volgende taken uit:
-
-1. Flighted-functie openen
-2. Schakel de functie voor de integratie van de invoegtoepassing Elektronische facturering in om integratie met Financiën mogelijk te maken.
-3. De URL van het eindpunt van de invoegtoepassing voor elektronisch factureren instellen.
-4. Importeer de ER-configuraties die zijn gerelateerd aan de land-/regiospecifieke functie e-Facturering.
-5. Schakel de betreffende land-/regiospecifieke functie e-Facturering in.
-6. Importeer de ER-configuraties en stel de responstypen in die nodig zijn om uw land-/regiospecifieke factuurdocument bij te werken als gevolg van het indieningsproces.
-
-### <a name="open-flighted-feature"></a>Flighted-functie openen
-De functie voor integratie van elektronisch factureren is ingeschakeld via flighting. Flighting is een concept waarmee een functie standaard kan worden in- of uitgeschakeld. Met de volgende stappen kan een flight in een niet-productieomgeving worden ingeschakeld. 
-
-1. Voer de volgende SQL-opdracht uit:
-
-    INVOEGEN IN SYSFLIGHTING-WAARDEN (FLIGHT-NAAM, INGESCHAKELD) ('BusinessDocumentSubmissionServiceEnabled', 1)
-    
-    INVOEGEN IN SYSFLIGHTING-WAARDEN (FLIGHT-NAAM, INGESCHAKELD) ('ElectronicInvoicingServiceIntegrationFeature', 1)
-    
-2. Nadat u de bovenstaande wijziging hebt aangebracht, voert u een IISReset uit op alle AOS'en
-
-### <a name="turn-on-the-electronic-invoicing-add-on-integration-feature"></a>De integratie van de invoegtoepassing voor elektronisch factureren inschakelen
-
-1. Meld u aan bij Finance of Supply Chain Management.
-2. Zoek in de werkruimte **Functiebeheer** naar de nieuwe functie **Integratie configureerbare invoegtoepassing voor elektronisch factureren**. Als de functie nog steeds niet wordt weergegeven op de pagina Functiebeheer, voert u **Controleren op updates** uit
-3. Selecteer de functie en selecteer **Nu inschakelen**.
-
-### <a name="set-up-the-service-endpoint-url"></a>De URL van het service-eindpunt instellen
-
-1. Ga naar **Organisatiebeheer \> Instellen \> Parameters voor elektronische documenten**.
-2. Op het tabblad **Indieningsservice** in het veld **Service-eindpunt-URL** voert u `https://businessdocumentsubmission.us.operations365.dynamics.com/` in.
-3. Voer in het veld **Omgeving** de naam in van de omgeving voor de invoegtoepassing voor elektronische facturering die u hebt gemaakt tijdens het instellen van de RCS.
-
-![Serviceparameters invoeren](media/e-invoicing-services-get-started-enter-service-endpoint.png)
-
-### <a name="import-the-er-configurations"></a>De ER-configuraties importeren
-
-Als u wilt dat bedrijfsgegevens kunnen worden verzameld en verzonden naar de invoegtoepassing voor elektronische facturering, moet u het ER-gegevensmodel en de ER-gegevensmodelconfiguratie importeren die betrekking hebben op de land-/regiospecifieke functie voor e-facturering die u wilt gebruiken.
-
-1. Selecteer in de werkruimte **Elektronische rapportage** in de sectie **Configuratieaanbieders** de tegel **Microsoft**. Controleer of deze configuratieaanbieder is ingesteld op **Actief**. Zie [Aanbieders van configuraties maken en deze als actief markeren](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11) voor informatie over de manier waarop u een aanbieder als deze als **Actief** kunt instellen.
-3. Selecteer **Opslagplaatsen**.
-4. Selecteer **Algemene resource** en daarna **Openen**.
-5. Selecteer in het dialoogvenster **Verbinding maken met Lifecycle Services** de optie **Klik hier om verbinding te maken met Lifecycle Services**.
-6. Afhankelijk van het land of de regio waar u de functie voor e-facturering wilt gebruiken, moet u het toepasselijke gegevensmodel, de gegevensmodeltoewijzing en indelingen importeren. Zie het land-/regiospecifieke onderwerp "Aan de slag met de invoegtoepassing voor elektronische facturering" voor informatie over de ER-configuraties die u moet importeren.
-7. Importeer **Contextmodel klantfactuur**. Dit model bevat aanvullende parameters die onder andere de omgeving in Finance beschrijven die wordt gebruikt voor de invoegtoepassing elektronische facturering tijdens het indienen van zakelijke gegevens.
-
-### <a name="turn-on-countryregion-specific-e-invoicing-features"></a><a name="region-specific"></a>De land-/regiospecifieke functies voor e-Facturering inschakelen
-
-Als u land-/regiospecifieke functies voor e-facturering wilt inschakelen, zodat deze werken met de invoegtoepassing Elektronische facturering, moet u de functie inschakelen in elke rechtspersoon waar u deze wilt gebruiken. De oude elektronische factureringsintegratie kan hierna niet meer worden gebruikt en de integratie met de nieuwe invoegtoepassing voor elektronische facturering is ingeschakeld.
-
-1. Ga naar **Organisatiebeheer \> Instellen \> Parameters voor elektronische documenten**.
-2. Schakel op het tabblad **Functies** in de rij voor de functie die is gerelateerd aan de land-/regiospecifieke functie voor e-facturering het selectievakje in de kolom **Ingeschakeld** in. Zie het land-/regiospecifieke onderwerp "Aan de slag met de invoegtoepassing voor elektronische facturering" voor informatie over welke functie u moet inschakelen.
-
-![De functie e-Facturering inschakelen](media/e-invoicing-services-get-started-enable-invoicing-feature.png)
-
-> [!NOTE]
-> Als u meerdere rechtspersonen hebt geconfigureerd voor verschillende landen of regio's, kunt u de land-/regiospecifieke functie voor e-facturering voor elke rechtspersoon inschakelen.
-
-### <a name="import-er-configurations-and-set-up-the-response-types-to-update-your-countryregion-specific-invoice-document"></a>Importeer ER-configuraties en stel de responstypen in om uw land-/regiospecifieke factuur bij te werken
-
-Als het ingediende factuurdocument moet worden bijgewerkt na de respons van de autorisatiediensten van de overheid, moet u een speciaal ER-datamodel en -configuraties importeren om de status van het factuurdocument of een ander aanvullend veld te kunnen bijwerken.
-
-1. Selecteer in de werkruimte **Elektronische rapportage** in de sectie **Configuratieaanbieders** de tegel **Microsoft**.
-2. Selecteer **Opslagplaatsen**.
-3. Selecteer **Algemene resource** en daarna **Openen**.
-4. Importeer **Model responsbericht**, **Importindeling responsbericht**, **Model responsbericht dat naar bestemming toewijst** en **Importindeling bestandsinhoud**.
-5. Ga naar **Organisatiebeheer \> Instellen \> Parameters voor elektronische documenten**.
-6. Selecteer op het tabblad **Elektronisch document** de optie **Toevoegen** om de naam van de tabel in te voeren die is gerelateerd aan uw land-/regiospecifieke factuurdocument. Zie het land-/regiospecifieke onderwerp "Aan de slag met de invoegtoepassing voor elektronische facturering" voor informatie over welke tabelnamen u moet selecteren.
-7. Selecteer **Responstypen** om de responstypen te configureren. Zie het land-/regiospecifieke onderwerp "Aan de slag met de invoegtoepassing voor elektronische facturering" voor informatie over welke tabelnamen u moet selecteren.
-
-![Responstypen instellen](media/e-invoicing-services-get-started-set-up-response-types.png)
-
-## <a name="e-invoicing-feature-names-by-country"></a>De namen voor de functie e-Facturering per land 
-In de volgende tabel worden de andere functies voor e-facturering beschreven die u kunt downloaden van de algemene opslagplaats voor elektronische rapportage om elektronische facturen te genereren.
-In RCS kunt u de e-factureringsfuncties in deze tabel, de ER-configuraties en de beschikbare instellingen voor de e-factureringsfuncties downloaden.
-In Finance kunt u de verwante functieverwijzingen op de pagina **Parameters van elektronische documenten** inschakelen om elektronische facturen voor deze landen uit te geven. Zie de sectie [De land-/regiospecifieke functies voor e-Facturering inschakelen](#region-specific) eerder in dit onderwerp voor meer informatie.
-
-| Functienaam                      | Beschrijving                                 | ER-configuraties                                                                                                  | Instellingen                                                                                                                                                         | Land/regio  | Functieverwijzing      |
-|-----------------------------------|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------|------------------------|
-| Elektronische facturen Oostenrijk (AT) | Verkoop- en projectfacturen voor Oostenrijk      | - OIOUBL Verkoopfactuur <br>- OIOUBL Projectfactuur <br>- OIOUBL Verkoopcreditnota <br>- OIOUBL Projectcreditnota | - Verkoopfactuur genereren (AT) <br>- Projectfactuur genereren (AT) <br>- Verkoopcreditnota genereren (AT) <br>- Projectcreditnota genereren (AT)         | Oostenrijk         | EUR-00023              |
-| Elektronische factuur België (BE)   | Verkoop- en projectfacturen voor België      | - UBL Verkoopfactuur BE <br>- UBL Projectfactuur BE <br>- UBL Projectcreditnota BE <br>- UBL Verkoopcreditnota BE | - Verkoopfactuur genereren (BE)<br>- Projectfactuur genereren (BE) <br>- Verkoopcreditnota genereren (BE) <br>- Projectcreditnota genereren (BE)         | België         | EUR-00023              |
-| Elektronische factuur Denemarken (DK)    | Verkoop- en projectfacturen voor Denemarken      | - OIOUBL Verkoopfactuur <br>- OIOUBL Projectfactuur <br>- OIOUBL Verkoopcreditnota <br>- OIOUBL Projectcreditnota | - Verkoopfactuur genereren (DK) <br>- Projectfactuur genereren (DK) <br>- Verkoopcreditnota genereren (DK)<br>- Projectcreditnota genereren (DK)         | Denemarken         | EUR-00023<br> DK-00001 |
-| Elektronische factuur Nederland (NL)     | Verkoop- en projectfacturen voor Nederland  | - UBL Verkoopfactuur NL <br>- UBL Projectfactuur NL <br>- UBL Verkoopcreditnota NL <br>- UBL Projectcreditnota NL | - Verkoopfactuur genereren (NL) <br> - Projectfactuur genereren (NL) <br> - Verkoopcreditnota genereren (NL) <br>- Projectcreditnota genereren (NL)          | Nederland | EUR-00023              |
-| Elektronische factuur Estland (EE)  | Verkoop- en projectfacturen voor Estland      | - Verkoopfactuur (EE) <br> - Projectfactuur (EE)                                                                     | - Verkoopfactuur genereren (EE) <br>- Projectfactuur genereren (EE)                                                                                           | Estland         | EUR-00023              |
-| Elektronische factuur Finland (FI)   | Verkoop- en projectfacturen voor Finland      | - Verkoopfactuur (FI) <br>- Projectfactuur genereren (FI)                                                          | - Verkoopfactuur genereren (FI) <br>- Projectfactuur genereren (FI)                                                                                           | Finland         | EUR-00023              |
-| Elektronische factuur Frankrijk (FR)    | Verkoop- en projectfacturen voor Frankrijk    | - UBL Verkoopfactuur FR <br> - UBL Projectfactuur FR <br> - UBL Verkoopcreditnota FR <br>- UBL Projectcreditnota FR | - Verkoopfactuur genereren (FR) <br> - Projectfactuur genereren (FR) <br>- Verkoopcreditnota genereren (FR) <br>- Projectcreditnota genereren (FR)         | Frankrijk          | EUR-00023              |
-| Elektronische factuur Duitsland (DE)    | Verkoop- en projectfacturen voor Duitsland      |- Verkoopfactuur (DE) <br> - Projectfactuur <DE>                                                                     | - Verkoopfactuur genereren (DE) <br>- Projectfactuur genereren (DE)                                                                                           | Duitsland         | EUR-00023              |
-| Elektronische factuur Noorwegen (NO) | Verkoop- en projectfacturen voor Noorwegen       | - OIOUBL Verkoopfactuur <br>- OIOUBL Projectfactuur <br>- OIOUBL Verkoopcreditnota <br>- OIOUBL Projectcreditnota | - Verkoopfactuur genereren (NO) <br>- Projectfactuur genereren (NO) <br>- Verkoopcreditnota genereren (NO) <br>- Projectcreditnota genereren (NO)          | Noorwegen          | EUR-00023<br> NO-00010 |
-| Elektronische factuur Spanje (ES)   | Verkoop- en projectfacturen voor Spanje        | - Verkoopfactuur (ES) <br>- Projectfactuur (ES)                                                                     | - Verkoopfactuur genereren (ES) <br>- Projectfactuur genereren (ES)                                                                                           | Spanje           | EUR-00023 <br>ES-00025 |
-| Elektronische factuur Italië (IT)   | Verkoop- en projectfacturen voor Italië        | - (Preview) Verkoopfactuur (IT) <br> - Projectfactuur (IT)                                                           | - Verkoopfactuur <br> - Projectfactuur                                                                                                                           | Italië           | EUR-00023 <br>IT-00036 |
-| PEPPOL Elektronische factuur         | PEPPOL Verkoop- en projectfacturen genereren | - PEPPOL Verkoopfactuur <br>- PEPPOL Projectfactuur <br>- PEPPOL Verkoopcreditnota <br> - PEPPOL Projectcreditnota | - PEPPOL Verkoopfactuur genereren <br>- PEPPOL Projectfactuur genereren <br>- PEPPOL Verkoopcreditnota genereren <br>- PEPPOL Projectcreditnota genereren |                 | EUR-00023              |
-
-
-## <a name="electronic-invoice-processing-in-finance-and-supply-chain-management"></a>Verwerking van elektronische facturen in Finance en Supply Chain Management
-
-Tijdens de verwerking voert u de volgende taken uit:
-
-1. Een bedrijfsdocument (factuur) indienen via de invoegtoepassing Elektronische facturering.
-2. De uitvoeringslogboeken voor het indienen weergeven.
-
-### <a name="submit-business-documents"></a>Bedrijfsdocumenten indienen
-
-Tijdens het normale indieningsproces is de communicatie tussen de client en de invoegtoepassing Elektronische facturering in twee richtingen. Het doel is twee hoofdtaken uit te voeren tijdens het indienen van elektronische documenten:
-
-1. Alle elektronische documenten verzenden die moeten worden ingediend vanuit Finance en die de juiste status voor indienen hebben en die voldoen aan de selectiecriteria.
-2. Importeer in Finance de respons die de invoegtoepassing Elektronische facturering retourneert voor eerder ingediende elektronische documenten. Na het importeren worden de reacties geparseerd en wordt de status van de bedrijfsdocumenten dienovereenkomstig bijgewerkt.
-
-U kunt bedrijfsdocumenten handmatig of op basis van uw planningsvereisten indienen.
-
-1. Ga naar **Organisatiebeheer \> Periodiek \> Elektronische documenten \> Elektronische documenten indienen**.
-2. Als u een document voor het eerst indient, moet u altijd de optie **Documenten opnieuw indienen** op **Nee** instellen. Stel deze optie in op **Ja** als u een document opnieuw moet indienen via de service.
-3. Selecteer op het sneltabblad **Op te nemen records** de optie **Filter** om het dialoogvenster **Query** te openen. Hier kunt u een query samenstellen om documenten te selecteren die u wilt indienen.
-
-![Het dialoogvenster Elektronische documenten indienen](media/e-invoicing-services-get-started-submission-form.png)
-
-### <a name="filter-query"></a>Filterquery
-
-1. Voer in dialoogvenster **Query** op het tabblad **Bereik** filtercriteria in aan de hand van de velden **Tabel**, **Afgeleide tabel**, **Veld** en **Criteria**.
-2. Selecteer **Toevoegen** om zo veel criteria toe te voegen als u nodig hebt om de bedrijfsdocumenten te selecteren.
-
-    ![Filtercriteria voor indienen instellen](media/e-invoicing-services-get-started-set-up-submission-filter-criteria.png)
-
-3. Selecteer **OK** om het dialoogvenster **Query** te sluiten.
-4. Klik op **OK** om de geselecteerde bedrijfsdocumenten in te dienen bij de invoegtoepassing Elektronische facturering.
+1. Selecteer de elektronische factureringsfunctie die u hebt gemaakt.
+2. Controleer op het tabblad **Versie** of de **concept** versie is geselecteerd.
+3. Selecteer op het tabblad **Setups** de optie **Setup van de toepassing**.
 
     > [!NOTE]
-    > Wanneer u voor het eerst een document via de service verzendt, wordt u gevraagd de verbinding met de invoegtoepassing voor elektronische facturering te bevestigen. Selecteer **Klik hier om verbinding te maken met de service voor het indienen van elektronische documenten**.
-    >
-    > ![Berichtvenster Verbinding maken met de service voor het indienen van elektronische documenten](media/e-invoicing-services-get-started-dialog-form-connect-e-Invoicing-services.png)
-    >
-    > Als de verbinding is gelukt, ontvangt u een bevestigingsbericht.
-    >
-    > ![Bevestiging van de verbinding met de invoegtoepassing Elektronische facturering](media/e-invoicing-services-get-started-confirmation-connection-e-invoicing-services.png)
+    > Controleer of uw organisatie is ingesteld als de **Actieve** configuratieprovider. Zie [Configuratieprovider maken en deze als actief markeren](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md) voor meer informatie.
 
-5. Sluit het dialoogvenster.
+4. Selecteer **Functie-instellingen** en selecteer vervolgens **Verbonden toepassing**.
+5. Selecteer in de sectie **Elektronische documenttypen** de optie **Toevoegen**.
+6. Selecteer voor elk bedrijfsdocument dat door de functie wordt ondersteund, een **Tabelnaam** waarde volgens de volgende tabel en voer deze in.
 
-> [!NOTE]
-> Na elke indiening wordt in het actiecentrum het aantal ingediende documenten weergegeven.
->
-> ![Actiecentrumberichten](media/e-invoicing-services-get-started-view-action-center-messages.png)
+    | Functienaam                         | Bedrijfsdocument | Tabelnaam |
+    |--------------------------------------|-------------------|------------|
+    | Elektronische facturen Oostenrijk (AT)    | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
+    | Elektronische factuur België (BE)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
+    | Braziliaans NF-e (BR)                  | <p>Belastingdocument</p><p>Correctiebrief</p> | Belastingdocument |
+    | Braziliaans NFS-e ABRASF Curitiba (BR) | Service belastingdocument | Belastingdocument |
+    | Braziliaans NFS-e São Paulo (BR)       | Service belastingdocument | Belastingdocument |
+    | Elektronische factuur Denemarken (DK)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
+    | Elektronische factuur Egypte (EG)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
+    | Elektronische factuur Estland (EE)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
+    | Finse Elektronische factuur (FI)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
+    | Elektronische factuur Frankrijk (FR)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
+    | Elektronische factuur Duitsland (DE)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
+    | FatturaPA (IT)                       | <p>Verkoopfactuur</p><p>Projectfactuur | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
+    | Mexicaanse CFDI Interfactura (MX)       | <p>Verkoopfactuur</p><p>Pakbon</p><p>Voorraadoverdracht</p><p>Betalingscomplement</p> | Klantfacturenjournaal |
+    | Elektronische factuur Nederland (NL)        | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
+    | Elektronische factuur Noorwegen (NO)    | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
+    | Elektronische factuur Spanje (ES)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
+    | PEPPOL Elektronische factuur            | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
 
-### <a name="submission-by-batch"></a>Indienen per batch
+7. Selecteer voor elk bedrijfsdocument dat door de functie wordt ondersteund, een **Context** waarde volgens de volgende tabel en voer deze in.
 
-In plaats van handmatig documenten in te dienen, kunt u het indieningsproces automatiseren en op de achtergrond uitvoeren, op basis van een geconfigureerde frequentie van batchuitvoering.
+    | Functienaam                         | Bedrijfsdocument | Context |
+    |--------------------------------------|-------------------|---------|
+    | Elektronische facturen Oostenrijk (AT)    | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
+    | Elektronische factuur België (BE)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
+    | Braziliaans NF-e (BR)                  | <p>Belastingdocument</p><p>Correctiebrief</p> | <p>Contextmodel klantfactuur – Context belastingdocument</p><p>Contextmodel klantfactuur – FD-correctiebriefcontext</p> |
+    | Braziliaans NFS-e ABRASF Curitiba (BR) | Service belastingdocument| Contextmodel klantfactuur – Context belastingdocument |
+    | Braziliaans NFS-e São Paulo (BR)       | Service belastingdocument| Contextmodel klantfactuur – Context belastingdocument |
+    | Elektronische factuur Denemarken (DK)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
+    | Elektronische factuur Egypte (EG)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
+    | Elektronische factuur Estland (EE)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
+    | Finse Elektronische factuur (FI)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
+    | Elektronische factuur Frankrijk (FR)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
+    | Elektronische factuur Duitsland (DE)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
+    | FatturaPA (IT)                       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
+    | Mexicaanse CFDI Interfactura (MX)       | <p>Verkoopfactuur</p><p>Pakbon</p><p>Voorraadoverdracht</p><p>Betalingscomplement</p> | Contextmodel klantfactuur – Context klantfactuur |
+    | Elektronische factuur Nederland (NL)        | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
+    | Elektronische factuur Noorwegen (NO)    | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
+    | Elektronische factuur Spanje (ES)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
+    | PEPPOL Elektronische factuur            | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
 
-1. Stel in het dialoogvenster **Elektronische documenten indienen** op het sneltabblad **Op de achtergrond uitvoeren** de optie **Batchverwerking** in op **Ja**.
-2. Configureer op het tabblad **Terugkeer** de frequentie voor de batchverwerking.
+8. Selecteer voor elk bedrijfsdocument dat door de functie wordt ondersteund, een waarde voor **Zakelijke documenttoewijzing** volgens de volgende tabel en voer deze in.
 
-![Indienen per batch instellen](media/e-invoicing-services-get-started-set-up-submission-batch.png)
+    | Functienaam                         | Bedrijfsdocument | Bedrijfsdocumenttoewijzing |
+    |--------------------------------------|-------------------|---------------------------|
+    | Elektronische facturen Oostenrijk (AT)    | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
+    | Elektronische factuur België (BE)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
+    | Braziliaans NF-e (BR)                  | <p>Belastingdocument</p><p>Correctiebrief</p> | <p>Fiscale documenttoewijzing – Fiscale documenttoewijzing</p><p>Toewijzing belastingdocument – correctiebrieftoewijzing</p> |
+    | Braziliaans NFS-e ABRASF Curitiba (BR) | Service belastingdocument | Fiscale documenttoewijzing – Fiscale documenttoewijzing |
+    | Braziliaans NFS-e São Paulo (BR)       | Service belastingdocument | Fiscale documenttoewijzing – Fiscale documenttoewijzing |
+    | Elektronische factuur Denemarken (DK)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
+    | Elektronische factuur Egypte (EG)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
+    | Elektronische factuur Estland (EE)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
+    | Finse Elektronische factuur (FI)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
+    | Elektronische factuur Frankrijk (FR)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
+    | Elektronische factuur Duitsland (DE)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
+    | FatturaPA (IT)                       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
+    | Mexicaanse CFDI Interfactura (MX)       | <p>Verkoopfactuur</p><p>Pakbon</p><p>Voorraadoverdracht</p><p>Betalingscomplement</p> | Factuurmodeltoewijzing – Klantfactuur |
+    | Elektronische factuur Nederland (NL)        | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
+    | Elektronische factuur Noorwegen (NO)    | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
+    | Elektronische factuur Spanje (ES)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
+    | PEPPOL Elektronische factuur            | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
 
-### <a name="view-all-submission-logs"></a>Alle indieningslogboeken weergeven
+Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie mogelijk extra configuratie nodig. Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor specifieke stappen.
 
-1. Ga naar **Organisatiebeheer \> Periodiek \> Elektronische documenten \> Indieningslogboek voor elektronische documenten**.
-2. Selecteer in het veld **Documenttype** het documenttype waarop u wilt filteren.
+## <a name="deploy-the-electronic-invoicing-feature"></a>De elektronische factureringsfunctie implementeren
 
-    ![Het documenttype selecteren waarvoor u de indieningslogboeken wilt weergeven](media/e-invoicing-services-get-started-select-document-type-for-viewing-submission-log.png)
+1. Selecteer op het tabblad **Versies** de versie van de elektronische factureringsfunctie die u wilt implementeren.
+2. Selecteer **Status wijzigen** \> **Voltooien**.
+3. Selecteer **Status wijzigen** \> **Publiceren**.
+4. Selecteer **Implementeren**.
+5. Stel de optie **Implementeren op verbonden toepassing** in op **Ja**.
+6. Selecteer op de pagina **Toepassing verbinden** de verbinding die is gekoppeld aan uw exemplaar van Finance of Supply Chain Management.
+7. Stel de optie **Implementeren op serviceomgeving** in op **Ja**.
+8. Selecteer in het veld **Serviceomgeving** de omgeving van de invoegtoepassing voor elektronische facturering waarin u de elektronische factureringsfunctie wilt implementeren.
+9. Selecteer in het veld **Vanaf datum** de datum waarop de functie voor elektronische facturering moet ingaan in de invoegvoeging voor elektronische facturering.
+10. Selecteer **OK**.
 
-    > [!IMPORTANT]
-    > De waarde die wordt weergegeven in de kolom **Indieningsstatus** staat voor de status die is gerelateerd aan de voltooiing van het indieningsproces zelf. Hiermee wordt aangegeven of de volgorde van acties die in RCS is geconfigureerd, tot aan het einde is uitgevoerd, ongeacht of het elektronische document is goedgekeurd of afgewezen. De waarde die wordt weergegeven in de kolom **Indieningsstatus** staat niet voor de status van het ingediende document. U kunt de status van het ingediende document (dat wil zeggen, of het document is goedgekeurd of afgewezen) weergeven op het sneltabblad **Logboek verwerkingsacties** in de details van het indieningslogboek, zoals hierna wordt beschreven.
+## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>De elektronische factureringsfunctie inschakelen in Finance of Supply Chain Management
 
-3. Selecteer **Query's \> Details van indiening** in het actievenster.
-4. Geef de details van indieningslogboeken weer.
+1. Meld u aan bij Finance of Supply Chain Management en controleer of u bij de juiste rechtspersoon bent.
+2. Ga naar **Organisatiebeheer** \> **Instellen** \> **Parameters voor elektronische documenten**.
+3. Selecteer op het tabblad **Functies** de functieverwijzing of -verwijzingen die in de volgende tabel worden weergegeven om de elektronische factureringsfunctie in te schakel voor Finance of Supply Chain Management.
 
-    ![Details van indieningslogboeken](media/e-invoicing-services-get-started-view-submission-log-form.png)
+    | Functienaam                         | Land/regio  | Functieverwijzing |
+    |--------------------------------------|-----------------|-------------------|
+    | Elektronische facturen Oostenrijk (AT)    | Oostenrijk         | EUR-00023 |
+    | Elektronische factuur België (BE)      | België         | EUR-00023 |
+    | Braziliaans NF-e (BR)                  | Brazilië          | BR-00053 |
+    | Braziliaans NFS-e ABRASF Curitiba (BR) | Brazilië          | BR-00095 |
+    | Braziliaans NFS-e São Paulo (BR)       | Brazilië          | BR-00095 |
+    | Elektronische factuur Denemarken (DK)       | Denemarken         | <p>EUR-00023</p><p>DK-00001</p> |
+    | Elektronische factuur Nederland (NL)        | Nederland | EUR-00023 |
+    | Elektronische factuur Egypte (EG)     | Egypte           | EG-00008 |
+    | Elektronische factuur Estland (EE)     | Estland         | EUR-00023 |
+    | Elektronische factuur Finland (FI)      | Finland         | EUR-00023 |
+     Elektronische factuur Frankrijk (FR)       | Frankrijk           | EUR-00023 |
+    | Elektronische factuur Duitsland (DE)       | Duitsland         | EUR-00023 |
+    | Mexicaanse CFDI Interfactura (MX)       | Mexico          | <p>MX-00010</p><p>MX-00016</p> |
+    | Elektronische factuur Noorwegen (NO)    | Noorwegen          | <p>EUR-00023</p><p>NO-00010</p> |
+    | Elektronische factuur Spanje (ES)      | Spanje           | <p>EUR-00023</p><p>ES-00025</p> |
+    | Elektronische factuur Italië (IT)      | Italië           | <p>EUR-00023</p><p>IT-00036</p> |
+    | PEPPOL Elektronische factuur            | Europa          | EUR-00023 |
 
-Welke resultaten die in het indieningslogboek worden weergegeven, is afhankelijk van de instelling van de functie e-Facturering in RCS. Ongeacht de instellingen, heeft het indieningslogboek altijd drie sneltabbladen:
+4. Selecteer **Opslaan**.
 
-- **Verwerkingsacties**: dit sneltabblad toont het uitvoeringslogboek voor de acties die zijn geconfigureerd in de functieversie die is ingesteld in RCS. De kolom **Status** geeft aan of de actie met goed gevolg is uitgevoerd.
-- **Actiebestanden**: dit sneltabblad toont de tussenliggende bestanden die zijn gegenereerd tijdens de uitvoering van de acties. U kunt **Weergeven** selecteren om het bestand te downloaden en de inhoud ervan weer te geven.
-- **Logboek verwerkingsacties**: dit sneltabblad toont de resultaten van de communicatie tussen de invoegtoepassing voor elektronische facturering en de doelwebservice. Het toont ook wat er is geretourneerd door de verwerking door de webservice.
+## <a name="issue-electronic-invoices"></a>Elektronische facturen uitgeven
+
+1. Ga naar **Organisatiebeheer** \> **Periodiek** \> **Elektronische documenten** \> **Elektronische documenten indienen**.
+2. Selecteer **Filter** op het sneltabblad **Op te nemen record**.
+3. Selecteer **Toevoegen** om een tabelnaam aan het queryfilter toe te voegen.
+4. Selecteer de tabel met de facturen.
+
+    > [!NOTE]
+    > De tabelnaam moet worden weergegeven in de tabel in de sectie [De instellingen van de toepassing configureren](#configure-the-application-setup) eerder in dit onderwerp.
+
+5. Selecteer de veldnaam in de tabel waarop u de query wilt uitvoeren.
+6. Voer de tabelnaam en veldnaam in voor de criteria waarop een query moet worden uitgevoerd.
+7. Herhaal stap 5 en 6 om meer velden en criteria aan de query toe te voegen en selecteer **OK**.
+8. Selecteer **OK**.
+
+## <a name="view-submission-logs"></a>Indieningslogboeken weergeven
+
+1. Ga naar **Organisatiebeheer** \> **Periodiek** \> **Elektronische documenten** \> **Indieningslogboek voor elektronische documenten**.
+2. Selecteer in het veld **Documenttype** de tabel die de facturen bevat.
+
+    > [!NOTE]
+    > De tabelnaam moet worden weergegeven in de tabel in de sectie [De instellingen van de toepassing configureren](#configure-the-application-setup) eerder in dit onderwerp.
+
+3. Selecteer een factuur in het raster en selecteer **Informatie opvragen** \> **Details van indiening**.
+
+Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie mogelijk extra configuratie nodig. Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor specifieke stappen.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
@@ -343,7 +234,4 @@ Welke resultaten die in het indieningslogboek worden weergegeven, is afhankelijk
 - [Aan de slag met de invoegtoepassing voor elektronische facturering voor Brazilië](e-invoicing-bra-get-started.md)
 - [Aan de slag met de invoegtoepassing voor elektronische facturering voor Mexico](e-invoicing-mex-get-started.md)
 - [Aan de slag met de invoegtoepassing voor elektronische facturering voor Italië](e-invoicing-ita-get-started.md)
-- [De invoegtoepassing voor elektronische facturering instellen](e-invoicing-setup.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Elektronische klantfacturen in Egypte](emea-egy-e-invoices.md)

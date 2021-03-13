@@ -1,6 +1,6 @@
 ---
 title: Kolomdefinities in financiële rapporten
-description: Dit artikel bevat informatie over kolomdefinities. Een kolomdefinitie is een rapportonderdeel, of bouwsteen, waarmee de inhoud van kolommen in een financieel rapport wordt gedefinieerd. Net zoals bij rijdefinities kunnen de basisdefinities van kolommen worden gebruikt in meerdere rapporten.
+description: Dit artikel bevat informatie over kolomdefinities. Een kolomdefinitie is een rapportonderdeel waarmee de inhoud van kolommen in een rapport wordt gedefinieerd.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 611e5cdfd2289bb2c690a72659e9ba47d6309cfe
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 820604fac96f5c86be3f7206ca88b3eb1fc6c32a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687225"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093104"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Kolomdefinities in financiële rapporten
 
@@ -226,7 +226,7 @@ Een gebruiker maakt een rapport voor een dynamische halfjaarlijkse prognose. De 
 | Kolombreedte        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Afdrukbeheer       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
-De gebruiker dubbelklikt op een kolomkopcel om het dialoogvenster **Kolomkop** te openen en voert de volgende informatie in.
+De gebruiker dubbelklikt op een kolomkopcel in kolom B om het dialoogvenster **Kolomkop** te openen en voert de volgende informatie in.
 
 | Veld              | Waarde                 |
 |--------------------|-----------------------|
@@ -236,7 +236,6 @@ De gebruiker dubbelklikt op een kolomkopcel om het dialoogvenster **Kolomkop** t
 | Reden      | Er is niets geselecteerd. |
 | Verspreiden van        | B                     |
 | Verspreiden tot          | BASE                  |
-| Budgetkoptekst      | BASE+1 tot eindkolom  |
 
 Nadat de gebruiker de gegevens heeft ingevoerd, klikt zij op **OK**. De gebruiker dubbelklikt nu op de kolomkopcel in kolom C om het dialoogvenster **Kolomkop** te openen en voert de volgende informatie in.
 
@@ -246,8 +245,8 @@ Nadat de gebruiker de gegevens heeft ingevoerd, klikt zij op **OK**. De gebruike
 | AutoTekst invoegen    | Er is niets geselecteerd. |
 | Opmaakopties     | Vak                   |
 | Reden      | Er is niets geselecteerd. |
-| Verspreiden van        | C                     |
-| Verspreiden tot          | BASE+2                |
+| Verspreiden van        | BASE+1                |
+| Verspreiden tot          | Ma                     |
 
 Elke keer dat dit rapport wordt gegenereerd, wordt het woord "Werkelijk" afgedrukt in de kolommen die werkelijke gegevens bevatten, en wordt het woord "Budget" afgedrukt in de kolommen die budgetprognoses bevatten. Bovendien wordt het aantal kolommen elke maand gecorrigeerd.
 
@@ -383,7 +382,7 @@ U kunt deze standaardinstellingen wijzigen.</td>
     </tr>
     <tr>
     <td>ACCT (rekeningcodes)</td>
-    <td>Geef de segmentwaarden of dimensiewaarden van financiële gegevens weer die van toepassing zijn op elke rij. Bij rekening- en transactiedetailrapporten wordt de volledig gekwalificeerde rekening afgedrukt (bijvoorbeeld <strong>110140-070-0101</strong>). Als er bereiken zijn opgegeven in de kolom <strong>Koppeling naar financiële dimensies</strong> in een bijbehorende rijdefinitie, wordt het bereik tussen rechte haken geplaatst en behandeld als één waarde (bijvoorbeeld <strong>[110140:110700]-070-[0101:0200]</strong>). Bij financiële rapporten en rapporten met een hoog abstractieniveau waarin mogelijk meerdere rekeningen worden gecombineerd, wordt de financiële gegevenskoppeling uit de rijdefinitie afgedrukt (bijvoorbeeld <strong>1100:1200</strong>).</td>
+    <td>Geef de segmentwaarden of dimensiewaarden van financiële gegevens weer die van toepassing zijn op elke rij. Bij rekening- en transactiedetailrapporten wordt de volledig gekwalificeerde rekening afgedrukt (bijvoorbeeld <strong>110140-070-0101</strong>). Als er bereiken zijn opgegeven in de kolom <strong>Koppeling naar financiële dimensies</strong> in een bijbehorende rijdefinitie, wordt het bereik tussen rechte haken geplaatst en behandeld als één waarde (bijvoorbeeld, <strong>[110140:110700]-070-[0101:0200]</strong>). Bij financiële rapporten en rapporten met een hoog abstractieniveau waarin mogelijk meerdere rekeningen worden gecombineerd, wordt de financiële gegevenskoppeling uit de rijdefinitie afgedrukt (bijvoorbeeld <strong>1100:1200</strong>).</td>
     </tr>
     <tr>
     <td>FILL</td>
@@ -599,6 +598,3 @@ U kunt het bedrag in een kolom delen door een opgegeven aantal perioden. De form
 [Rijdefinities in Ontwerper financiële rapporten](row-definitions-financial-reporting.md)
 
 [Geavanceerde opmaakopties in financiële rapportage](advanced-formatting-options-financial-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
