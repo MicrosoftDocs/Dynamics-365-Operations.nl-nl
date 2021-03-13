@@ -1,6 +1,6 @@
 ---
 title: Nieuwe documentgebruikersinterface in bedrijfsdocumentbeheer
-description: Dit onderwerp biedt informatie over het gebruik van de nieuwe documentgebruikersinterface (UI) in de functie voor bedrijfsdocumentbeheer van het ER-raamwerk (elektronische rapportage).
+description: Dit onderwerp biedt informatie over het gebruik van de nieuwe documentgebruikersinterface in de functie voor bedrijfsdocumentbeheer van Elektronische rapportage.
 author: v-anamir
 manager: AnnBe
 ms.date: 05/12/2019
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2cb6e0da4af07b9b8486bf1e5bda29523cbd08e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 64ac52385ae6145f7428ebbc3cb77e395557bce2
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681347"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092220"
 ---
-# <a name="new-document-user-interface-in-business-document-management"></a>Nieuwe documentgebruikersinterface in bedrijfsdocumentbeheer
+# <a name="new-document-user-interface-in-business-document-management"></a>Nieuwe gebruikersinterface voor documenten in beheer van bedrijfsdocumenten
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,6 +64,3 @@ Voer de volgende stappen uit om deze functie in te schakelen voor alle rechtsper
 De knop **Nieuw document** wordt gebruikt om een sjabloon te maken en bewerken in een ER-indelingsconfiguratie die door een andere provider wordt geleverd. In dit voorbeeld is de provider Microsoft. Wanneer u **Nieuw document** selecteert, ziet u alle sjablonen die eigendom zijn van huidige en andere providers. Nadat u de sjabloon hebt geselecteerd, wordt deze geopend om te worden bewerkt. De bewerkte sjabloon wordt vervolgens opgeslagen in een nieuwe ER-indelingsconfiguratie die automatisch wordt gegenereerd.
 
 Zie [Overzicht van Beheer van bedrijfsdocumenten](er-business-document-management.md)voor meer informatie.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

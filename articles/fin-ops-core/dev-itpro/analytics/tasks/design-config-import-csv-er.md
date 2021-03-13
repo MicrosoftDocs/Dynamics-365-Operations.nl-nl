@@ -1,6 +1,6 @@
 ---
 title: ER-configuraties ontwerpen om gegevens te importeren uit externe CSV-bestanden
-description: Gebruik deze procedure voor het ontwerpen van ER-configuraties (elektronische rapportage) om gegevens te importeren in de Finance and Operations-toepassing vanuit een extern bestand in CSV-indeling.
+description: Gebruik deze procedure voor het ontwerpen van configuraties elektronische rapportage om gegevens te importeren in een Finance and Operations-app vanuit een extern bestand in CSV-indeling.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b542b6250bcc72334659e050f7ab6d5bd87d3508
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7fbae4570448a6bb1309ffe0092ff9b07825d717
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682040"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092761"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>ER-configuraties ontwerpen om gegevens te importeren uit externe CSV-bestanden
 
@@ -124,6 +124,3 @@ Voer voor testdoeleinden de toewijzing van de indeling uit met behulp van het 10
     * Bekijk de uitvoer in XML-indeling, die de gegevens vertegenwoordigt die zijn geïmporteerd vanuit het geselecteerde bestand en overgezet naar het gegevensmodel. Alle 7 regels van het geïmporteerde CSV-bestand zijn verwerkt. Regel 1 van de titels van de opgenomen velden is overgeslagen, 4 transacties zijn correct geparseerd en 2 transacties zijn aangeduid als ongeldig.
 3. Sluit de pagina.
 4. Sluit de pagina.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

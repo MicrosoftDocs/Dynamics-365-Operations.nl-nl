@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: 4b89e911f3c6eb8ffa0cfe049ef9bfc2ed306021
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4425753"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077626"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 
@@ -41,11 +40,11 @@ In de overige secties van dit onderwerp wordt beschreven hoe werknemers met de i
 
 ## <a name="all-jobs-tab"></a>Tabblad Alle taken
 
-Op het tabblad **Alle taken** vindt u een takenlijst waarin alle productietaken worden weergegeven met de status *Niet gestart*, *Gestopt* of *Gestart*.
+Op het tabblad **Alle taken** vindt u een takenlijst waarin alle productietaken worden weergegeven met de status *Niet gestart*, *Gestopt* of *Gestart*. (Deze tabbladnaam is aanpasbaar en kan anders zijn voor uw systeem.)
 
 ![Tabblad Alle taken](media/pfei-all-jobs-tab.png "Tabblad Alle taken")
 
-De takenlijst heeft de volgende kolommen. (De nummers komen overeen met de nummers in de vorige afbeelding.)
+De takenlijst heeft de volgende kolommen. De nummers komen overeen met de nummers in de vorige afbeelding.
 
 1. **Selectiekolom**: in de linkerkolom worden vinkjes gebruikt om taken aan te duiden die door de werknemer zijn geselecteerd. Werknemers kunnen meerdere taken tegelijk selecteren in de lijst. Als u alle taken in de lijst wilt selecteren, selecteert u het vinkje in de kolomkop. Als één taak is geselecteerd, worden details over die taak weergegeven in het onderste gedeelte van de pagina.
 1. **Taakstatuskolom**: in deze kolom worden symbolen gebruikt om de status van elke taak aan te geven. Taken zonder symbool in deze kolom hebben de status *Niet gestart*. Een groen driehoekje geeft taken aan die de status *Gestart* hebben. Twee gele verticale lijnen geven taken met de status *Gestopt* aan.
@@ -60,9 +59,11 @@ De takenlijst heeft de volgende kolommen. (De nummers komen overeen met de numme
 
 ## <a name="active-jobs-tab"></a>Tabblad Actieve taken
 
+Op de tabbladen **Actieve taken** wordt een lijst weergegeven met alle taken die de aangemelde werknemer al heeft gestart. (Deze tabbladnaam is aanpasbaar en kan anders zijn voor uw systeem.)
+
 ![Tabblad Actieve taken](media/pfei-active-jobs-tab.png "Tabblad Actieve taken")
 
-De takenlijst op het tabblad **Actieve taken** heeft de volgende kolommen:
+De lijst met actieve taken heeft de volgende kolommen:
 
 - **Selectiekolom**: in de linkerkolom worden vinkjes gebruikt om taken aan te duiden die door de werknemer zijn geselecteerd. Werknemers kunnen meerdere taken tegelijk selecteren in de lijst. Als u alle taken in de lijst wilt selecteren, selecteert u het vinkje in de kolomkop. Als één taak is geselecteerd, worden details over die taak weergegeven in het onderste gedeelte van de pagina.
 - **Order**: in deze kolom wordt het productieordernummer voor een taak weergegeven.
@@ -72,6 +73,28 @@ De takenlijst op het tabblad **Actieve taken** heeft de volgende kolommen:
 - **Voltooid**: deze kolom bevat de hoeveelheid die al is voltooid voor een taak.
 - **Buiten gebruik gesteld**: deze kolom bevat de hoeveelheid die al buiten gebruik is gesteld voor een taak.
 - **Resterend**: in deze kolom wordt de hoeveelheid weergegeven die nog moet worden voltooid voor een taak.
+
+## <a name="my-machine-tab"></a>Tabblad Mijn machine
+
+Op het tabblad **Mijn machine** kunnen werknemers een activum selecteren dat is gekoppeld aan een machineresource in de filterset op het tabblad **Alle taken**. De werknemer kan vervolgens de status en gesteldheid van het geselecteerde activum weergeven door waarden te lezen voor maximaal vier geselecteerde tellers en lijsten met recente onderhoudsverzoeken en geregistreerde uitvaltijden. De werknemer kan ook onderhoud voor het geselecteerde activum aanvragen en uitvaltijd van de machine registreren en bewerken. (Deze tabbladnaam is aanpasbaar en kan anders zijn voor uw systeem.)
+ 
+![Het tabblad Mijn machine](media/pfei-my-machine-tab.png "Het tabblad Mijn machine")
+
+Het tabblad **Mijn machine** heeft de volgende kolommen. De nummers komen overeen met de nummers in de vorige afbeelding.
+
+1. **Machineactiva**: selecteer het machineactivum dat u wilt volgen. Typ een naam die u wilt selecteren in een lijst met overeenkomende activa of selecteer het vergrootglaspictogram dat u wilt selecteren in een lijst met alle activa die zijn gekoppeld aan de resources in het filter van de takenlijst.
+
+    > [!NOTE]
+    > Gebruikers van Supply Chain Management kunnen zo nodig een resource aan elk activum toewijzen via de pagina **Alle activa** (op het tabblad **Vaste activa** met de vervolgkeuzelijst **Resource**). Zie [Een activum maken](../asset-management/objects/create-an-object.md) voor meer informatie.
+
+1. **Instellingen**: selecteer het tandwielpictogram om een dialoogvenster te openen waarin u kunt kiezen welke tellers voor het geselecteerde machineactivum moeten worden weergegeven. Waarden voor deze tellers worden boven aan het tabblad **Activabeheer** weergegeven. In het menu **Instellingen** (in de volgende schermopname) kunt u maximaal vier tellers inschakelen. Voor elke teller die u wilt inschakelen, gebruikt u het zoekveld boven aan de tegel om een teller te selecteren. Het zoekveld bevat alle tellers die zijn gekoppeld aan het activum dat boven aan de pagina **Activabeheer** is geselecteerd. Stel elke teller in om de **samengevoegde** waarde of de laatste **werkelijke** waarde voor de teller te controleren. Als u bijvoorbeeld een teller in stelt die bijhoudt hoeveel uur de machine al draait, moet u de teller instellen op **Samengevoegd**. Als u een teller instelt om de meest recente bijgewerkte temperatuur of druk te meten, moet u deze instellen op **Werkelijk**. Selecteer **OK** om de instellingen op te slaan en het dialoogvenster te sluiten.
+
+    ![Het tabblad Mijn machine](media/pfei-my-machine-tab-settings.png "Het tabblad Mijn machine")
+
+1. **Onderhoud aanvragen**: selecteer deze knop om een dialoogvenster te openen waarin u een onderhoudsaanvraag kunt maken. U kunt een omschrijving en een notitie maken. De aanvraag wordt onder de aandacht gebracht van een Supply Chain Management-gebruiker, die de onderhoudsaanvraag vervolgens kan converteren naar een onderhoudswerkorder.
+1. **Uitvaltijd registreren**: selecteer deze knop om een dialoogvenster te openen waarin u de uitvaltijd van machines kunt registreren. U kunt een redencode selecteren en een datum/tijd voor de uitvaltijd invoeren. De registratie van uitvaltijd van machines wordt gebruikt om de efficiëntie van de machineactiva te berekenen.
+1. **Weergeven of bewerken**: selecteer deze knop om een dialoogvenster te openen waarin u bestaande uitvaltijdrecords kunt bewerken of weergeven.
+
 
 ## <a name="starting-and-completing-production-jobs"></a>Productietaken starten en voltooien
 
@@ -124,7 +147,7 @@ Bijvoorbeeld: Shannon, een werkvloermedewerker bij Contoso, wil deelnemen aan ee
 
 In beide scenario's gaat Shannon nadat ze de selectie heeft bevestigd, naar de aanmeldingspagina of naar een pagina die wacht tot ze bevestigt dat ze van haar indirecte activiteit is teruggekeerd. De pagina die wordt weergegeven, is afhankelijk van de configuratie van de uitvoeringsinterface van de werkvloer. (Zie [Uitvoeringsinterface van de werkvloer configureren](production-floor-execution-configure.md) voor meer informatie.)
 
-## <a name="working-on-breaks"></a>Werken in pauzes
+## <a name="registering-breaks"></a>Pauzes registreren
 
 Werknemers kunnen pauzes registreren. Pauzes kunnen flexibel worden gedefinieerd, zoals wordt beschreven in [Salaris op basis van registraties](pay-based-on-registrations.md).
 
@@ -146,6 +169,3 @@ Werknemers kunnen een document openen dat aan een taak is gekoppeld door **Instr
 1. De werknemer neemt de guide door om de taak te leren.
 
 Zie [Mixed Reality-guides verschaffen aan werknemers in productie](instruction-guides-in-production-overview.md) voor meer informatie over het maken, toewijzen en gebruiken van guides voor HoloLens.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Een configuratie in Lifecycle Services uploaden
-description: In dit onderwerp wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe configuratie voor elektronische rapportage (ER) kan maken en uploaden in Microsoft Dynamics Lifecycle Services (LCS).
+description: In dit onderwerp wordt uitgelegd hoe u een nieuwe configuratie voor Elektronische rapportage (ER) maakt en uploadt in Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ebafb52882fd33f4f0ef140c5d23d3288af97a2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92fc6d7a8b2508c9a1f7b56ca8115adbd6ae00ea
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684158"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092536"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Een configuratie in Lifecycle Services uploaden
 
@@ -145,6 +145,3 @@ In dit voorbeeld maakt u een configuratie en uploadt u deze in LCS voor het voor
     De ER-configuratie die u hebt geüpload, moet worden vermeld.
 
     De geüploade LCS-configuratie kan naar een ander exemplaar worden geïmporteerd als providers toegang tot dit LCS-project hebben.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

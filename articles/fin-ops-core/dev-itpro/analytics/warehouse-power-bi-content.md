@@ -1,6 +1,6 @@
 ---
 title: Power BI-inhoud Magazijnprestaties
-description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud voor magazijnprestaties. U vindt hier een uitleg hoe u toegang krijgt tot de Power BI-rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud voor magazijnprestaties.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 4594c6c09abdac72a03ac1338701d2291b234106
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: be4acbb8eae3fd7d8dd0db4f99c3a2db06808f21
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687396"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092811"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>Power BI-inhoud Magazijnprestaties
 
@@ -111,6 +111,3 @@ De volgende belangrijke samengevoegde metingen worden gebruikt als de basis van 
 | Verzendprestaties        | Verzonden per product                       | CustPackingSlipOnTimeStatus           | Vroeg, Op tijd en Laat (zie de beschrijvingen eerder in deze tabel). |
 | Verzendprestaties        | Verzonden per klant                      | CustPackingSlipOnTimeStatus           | Vroeg, Op tijd en Laat (zie de beschrijvingen eerder in deze tabel). |
 | Verzendprestaties        | Verzonden per locatie/magazijn              | CustPackingSlipOnTimeStatus           | Vroeg, Op tijd en Laat (zie de beschrijvingen eerder in deze tabel). |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

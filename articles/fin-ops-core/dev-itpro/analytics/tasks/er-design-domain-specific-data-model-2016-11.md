@@ -1,6 +1,6 @@
 ---
 title: ER Ontwerp domeinspecifiek gegevensmodel
-description: In de volgende stappen wordt uitgelegd hoe een gebruiker in de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe configuratie voor elektronische rapportage (ER) kan maken die een gegevensmodel voor elektronische betalingsdocumenten bevat.
+description: In dit onderwerp wordt beschreven hoe u een nieuwe ER-configuratie (Electronic Reporting) maakt die een gegevensmodel voor elektronische betalingsdocumenten bevat.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 268f661079b80551b36ad2e1877615d878350051
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1eb2c6e5b5f186fb6db7c32a9982807274e5ea1b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681944"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092686"
 ---
 # <a name="er-design-domain-specific-data-model"></a>ER Ontwerp domeinspecifiek gegevensmodel
 
@@ -187,6 +187,3 @@ U maakt een nieuw gegevensmodel voor de geselecteerde configuratie. Deze configu
 65. Klik op Opslaan.
 66. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Elektronische ER-documenten genereren voor betalingen met een indelingsconfiguratie
-description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een nieuwe configuratie voor elektronische rapportage (ER) kan maken om elektronische documenten te genereren voor de verwerking van betalingen.
+description: In dit onderwerp wordt beschreven hoe u een nieuwe ER-indelingsconfiguratie (Electronic Reporting) gebruikt om elektronische documenten voor de verwerking van betalingen te genereren.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6e88df5c2f92ee2b9b448ba100c8bc4105eddae4
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 816f98660a5508ada203f49a71e0785548fb9a31
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681728"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092195"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>Elektronische ER-documenten genereren voor betalingen met een indelingsconfiguratie
 
@@ -81,6 +81,3 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure Een c
 25. Klik op OK.
     * Analyseer het gemaakte betalingsbestand in XML-indeling. Vergelijken het met de ontworpen documentindeling en de gedefinieerde kenmerken van de betalingstransactie.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

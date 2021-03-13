@@ -1,6 +1,6 @@
 ---
 title: De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
-description: Voordat u deze stappen uitvoert, moet u eerst de stappen in de taakbegeleiding ER modeltoewijzingsconfiguraties uitvoeren en moet u toegang hebben tot Microsoft Dynamics Lifecycle Services (LCS).
+description: In dit onderwerp wordt beschreven hoe u een ER-configuratie (Electronic Reporting) ontwerpt en de afhankelijkheid ervan van andere softwareonderdelen opgeeft.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: dd9516ac68c46649ebc50711357b97179bfc1b2c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681968"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092145"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
 
@@ -139,6 +139,3 @@ We verwijderen gemaakte configuraties uit het systeem en downloaden deze terug u
 26. Vouw in de structuur 'Voorbeeldgegevensmodel' uit.
     * Houd er rekening mee dat de modeltoewijzingsconfiguratie 'Voorbeeldtoewijzing' is gedownload met de geselecteerde gegevensmodelconfiguratie. De twee bestanden worden samen gedownload omdat 'Voorbeeldtoewijzing' is gedefinieerd als implementatie van het geselecteerde gegevensmodel en omdat het toepasbaar is op de toepassing. De configuratie 'Voorbeeldtoewijzing (alternatief)' is niet gedownload omdat niet is voldaan aan de voorwaarde voor de vereiste toepassingsversie.   
     * Als u zich aanmeldt bij Finance and Operations, dezelfde provider registreert, toegang krijgt tot hetzelfde LCS-project en dezelfde gegevensmodelconfiguratie downloadt, wordt de configuratie 'Voorbeeldtoewijzing (alternatief)' gedownload en wordt de configuratie 'Voorbeeldtoewijzing' overgeslagen.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

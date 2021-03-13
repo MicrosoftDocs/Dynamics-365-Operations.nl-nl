@@ -3,7 +3,7 @@ title: Opgeslagen weergaven
 description: In dit onderwerp wordt beschreven hoe u de functies voor opgeslagen weergaven gebruikt.
 author: jasongre
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 8537ec87c625e8b54cdf7574216d66f285da3a48
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 54f8c4bcac53f7cceb25f73b24311e93884be95d
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693696"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077444"
 ---
 # <a name="saved-views"></a>Opgeslagen weergaven
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Introductie
 
@@ -123,12 +124,14 @@ Voer deze stappen uit om een weergave te publiceren:
 1. Maak een persoonlijke kopie van de weergave die u wilt publiceren en sla deze op. 
 2. Selecteer terwijl die weergave is geladen de naam van de weergave om het vervolgkeuzemenu voor de weergavekiezer te openen. 
 3. Selecteer de knop **Meer** en selecteer vervolgens **Publiceren**. Het dialoogvenster Publiceren wordt geopend.
-4. Voer een naam en desgewenst een omschrijving voor de weergave in. De naam die u invoert, is de naam die gebruikers die deze weergave ontvangen, te zien krijgen in hun weergavekiezers. De namen van gepubliceerde weergaven voor een pagina moeten uniek zijn. Dubbele namen zijn niet toegestaan, ook niet als de lijst met rollen of rechtspersonen waarop de weergaven worden toegepast, verschilt.
-5. **Versie 10.0.9 en later:** bepaal of de weergave moet worden gepubliceerd als de standaardweergave voor de geselecteerde gebruikers. Wanneer van een weergave de standaardweergave wordt gemaakt, zien gebruikers deze weergave de volgende keer dat ze de doelpagina openen. De enkele algemene standaardweergave van alle beoogde gebruikers wordt gewijzigd. Gebruikers kunnen hun standaardweergave echter nog steeds wijzigen na publicatie.
-6. Voeg de beveiligingsrollen toe die overeenkomen met de gebruikers voor wie deze weergave is bedoeld. 
-7. **Versie 10.0.13 en hoger:** bepaal of u de weergave wilt publiceren naar de onderliggende rollen van elke geselecteerde beveiligingsrol. Als u dit doet, schakelt u het selectievakje **Onderliggende rollen opnemen** in de rij voor de gewenste beveiligingsrollen in. Dit selectievakje is niet beschikbaar voor rollen die geen onderliggende rollen hebben.
-7. Voeg de rechtspersonen toe waarvoor deze weergave beschikbaar moet zijn. 
-8. Selecteer **Publiceren**.
+4. Voer een naam in voor de weergave. De naam die u invoert, is de naam die gebruikers die deze weergave ontvangen, te zien krijgen in hun weergavekiezers. De namen van gepubliceerde weergaven voor een pagina moeten uniek zijn. Dubbele namen zijn niet toegestaan, ook niet als de lijst met rollen of rechtspersonen waarop de weergaven worden toegepast, verschilt.
+5. **10.0.17 of hoger bijwerken**: als de functie voor **(Preview) Vertalingsondersteuning voor organisatieweergaven** is ingeschakeld, kunt u vertalingen voor uw weergavenaam in net zoveel talen toevoegen als voor uw organisatie nodig is door de knop **Vertalingen** naast het veld **Naam** te selecteren. De weergavenaam wordt vervolgens weergegeven voor gebruikers in de huidige taal. U kunt ook de standaardtaal instellen om de vertaling op te geven die wordt weergegeven voor gebruikers die talen gebruiken waarvoor geen vertaling is gedefinieerd.
+5. Optioneel: voer een omschrijving voor de weergave in, zodat gebruikers die deze weergave ontvangen, het doel ervan beter begrijpen. 
+6. Bepaal of de weergave moet worden gepubliceerd als de standaardweergave voor de geselecteerde gebruikers. Wanneer van een weergave de standaardweergave wordt gemaakt, zien gebruikers deze weergave de volgende keer dat ze de doelpagina openen. De enkele algemene standaardweergave van alle beoogde gebruikers wordt gewijzigd. Gebruikers kunnen hun standaardweergave echter nog steeds wijzigen na publicatie.
+7. Voeg de beveiligingsrollen toe die overeenkomen met de gebruikers voor wie deze weergave is bedoeld. 
+8. Bepaal of u de weergave wilt publiceren naar de onderliggende rollen van elke geselecteerde beveiligingsrol. Als u dit doet, schakelt u het selectievakje **Onderliggende rollen opnemen** in de rij voor de gewenste beveiligingsrollen in. Dit selectievakje is niet beschikbaar voor rollen die geen onderliggende rollen hebben.
+9. Voeg de rechtspersonen toe waarvoor deze weergave beschikbaar moet zijn. 
+10. Selecteer **Publiceren**.
 
 In sommige omgevingen kan het enige tijd duren (maximaal een uur) voordat gebruikers de gepubliceerde weergave kunnen zien.
 
@@ -146,27 +149,15 @@ Als de wijzigingen die u wilt aanbrengen in een gepubliceerde weergave alleen be
 1. Schakel over naar de gepubliceerde weergave voor de parameters die u wilt bijwerken. 
 2. Selecteer **Opnieuw publiceren** in het vervolgkeuzemenu voor de weergavekiezer. Als u versie 10.0.12 of eerder gebruikt, moet u **Publiceren** selecteren en vervolgens **Ja** om de bestaande weergave bij te werken.
 3. Werk de naam, omschrijving, beveiligingsrollen en rechtspersonen voor de weergave bij. 
-4. Selecteer **Publiceren**. 
-5. **Versie 10.0.8 en eerder:** als u de naam van de gepubliceerde weergave hebt bijgewerkt, moet u ook de gepubliceerde weergave met de oude naam verwijderen. (Zie voor meer informatie de sectie [Gepubliceerde weergaven beheren](saved-views.md#managing-published-views).)
+4. Selecteer **Publiceren**. Als u oorspronkelijk deze gepubliceerde weergave als standaardweergave hebt geselecteerd, is dit weer de standaardweergave voor gebruikers nadat u deze opnieuw hebt gepubliceerd. 
 
-**Versie 10.0.9 en hoger:** als u oorspronkelijk deze gepubliceerde weergave als standaardweergave hebt geselecteerd, is dit weer de standaardweergave voor gebruikers nadat u deze opnieuw hebt gepubliceerd.
-
-Als de wijzigingen in de gepubliceerde weergave betrekking hebben op de persoonlijke instellingen of filters gekoppeld aan de weergave, gaat u als volgt te werk: 
-
-**Versie 10.0.13 en hoger:** breng de vereiste wijzigingen direct aan in de weergave. Er moet een sterretje (\*) naast de weergavenaam worden weergegeven.
+Als de wijzigingen in de gepubliceerde weergave betrekking hebben op de persoonlijke instellingen of filters gekoppeld aan de weergave, gaat u als volgt te werk.
 
 1. Laad de gepubliceerde weergave die u wilt wijzigen. 
 2. Breng de vereiste wijzigingen in het lokale concept aan.
 3. Selecteer **Opnieuw publiceren** in het vervolgkeuzemenu voor de weergavekiezer.
 4. Selecteer **Ja** om aan te geven dat u de weergave samen met de niet-opgeslagen wijzigingen wilt publiceren. 
 5. Pas de publicatieparameters aan die moeten worden gecorrigeerd en selecteer **Publiceren**. 
-
-**Versie 10.0.12 en eerder**
-
-1. Laad de gepubliceerde weergave die u wilt wijzigen. 
-2. Sla een kopie van de gepubliceerde weergave op om een lokaal concept van de gepubliceerde weergave te maken. 
-3. Wijzig het lokale concept met de benodigde wijzigingen.
-4. Publiceer de weergave onder de oorspronkelijke naam. 
 
 ## <a name="managing-published-views"></a>Gepubliceerde weergaven beheren
 
@@ -179,20 +170,20 @@ De volgende set acties is beschikbaar voor de lijst met alle gepubliceerde weerg
 - **Opnieuw publiceren**: gebruik de actie **Opnieuw publiceren** om een weergave opnieuw te publiceren nadat publicatieparameters (naam, omschrijving, beveiligingsrollen of rechtspersonen) zijn gewijzigd.
 - **Publiceren**: gebruik de actie **Publiceren** om een weergave te publiceren die momenteel niet is gepubliceerd. 
 - **Publicatie ongedaan maken**: gebruik de actie **Publicatie ongedaan maken** om een weergave inactief te maken. De weergave is nog steeds beschikbaar in het systeem, maar gebruikers zien deze niet in de weergaveselectie totdat de weergave opnieuw wordt gepubliceerd.
-- **Opslaan als persoonlijk**: gebruik de actie **Opslaan als persoonlijk** om een persoonlijk conceptexemplaar van de gepubliceerde weergave te maken. Deze mogelijkheid helpt u de inhoud te begrijpen van een weergave die niet naar u is gepubliceerd of die nog niet is gepubliceerd. U kunt deze ook gebruiken om een weergave te bewerken en opnieuw te publiceren. Deze mogelijkheid is geïntroduceerd in versie 10.0.12.
+- **Opslaan als persoonlijk**: gebruik de actie **Opslaan als persoonlijk** om een persoonlijk conceptexemplaar van de gepubliceerde weergave te maken. Deze mogelijkheid helpt u de inhoud te begrijpen van een weergave die niet naar u is gepubliceerd of die nog niet is gepubliceerd. U kunt deze ook gebruiken om een weergave te bewerken en opnieuw te publiceren.
 - **Verwijderen**: gebruik de actie **Verwijderen** om een gepubliceerde of niet-gepubliceerde weergave definitief te verwijderen. Met deze actie verwijdert u de weergave ook voor alle gebruikers in het systeem. Het verwijderen van gepubliceerde weergaven wordt van kracht nadat op de knop **Opslaan** is geklikt. Nadat een weergave is verwijderd, kan deze niet meer worden hersteld. 
 
 ## <a name="managing-views-globally"></a>Weergaven globaal beheren
 
 Hoewel sommige beheermogelijkheden op elke pagina zichtbaar zijn, zoals in dit onderwerp wordt aangegeven, kunnen weergaven door **systeembeheerders** en **beheerders van opgeslagen weergaven** op een meer holistische wijze voor het systeem worden beheerd via de pagina **Persoonlijke instellingen**. Deze pagina biedt de volgende secties en mogelijkheden: 
 
-- **Gepubliceerde weergaven**: in deze sectie worden alle weergaven vermeld die voor uw organisatie zijn gepubliceerd. Hier kunt u een weergave opnieuw publiceren nadat u de beveiligingsrollen of rechtspersonen in de weergave hebt aangepast. U kunt weergaven ook exporteren, verwijderen of de publicatie ervan ongedaan maken. In versie 10.0.12 en hoger kunt u de actie **Opslaan als persoonlijk** gebruiken om een persoonlijke kopie van een weergave te maken, zodat u de weergave kunt bijwerken of een beter begrip van de inhoud kunt krijgen. 
-- **Niet-gepubliceerde weergaven**: in deze sectie worden alle organisatieweergaven in uw systeem weergegeven die momenteel niet zijn gepubliceerd. Deze weergaven komen het vaakst in het systeem via de importmogelijkheid. U kunt deze weergaven publiceren, exporteren of verwijderen. Met de actie **Snel publiceren** die is toegevoegd in versie 10.0.12, kunnen meerdere weergaven uit deze sectie in één actie worden gepubliceerd met behulp van de bestaande configuratie voor beveiligingsrollen en rechtspersonen. In versie 10.0.12 en hoger kunt u de actie **Opslaan als persoonlijk** gebruiken om een persoonlijke kopie van deze weergaven te maken, zodat u een beter begrip van de inhoud kunt krijgen.
+- **Gepubliceerde weergaven**: in deze sectie worden alle weergaven vermeld die voor uw organisatie zijn gepubliceerd. Hier kunt u een weergave opnieuw publiceren nadat u de beveiligingsrollen of rechtspersonen in de weergave hebt aangepast. U kunt weergaven ook exporteren, verwijderen of de publicatie ervan ongedaan maken. U kunt de actie **Opslaan als persoonlijk** gebruiken om een persoonlijke kopie van een weergave te maken, zodat u de weergave kunt bijwerken of een beter begrip van de inhoud kunt krijgen. 
+- **Niet-gepubliceerde weergaven**: in deze sectie worden alle organisatieweergaven in uw systeem weergegeven die momenteel niet zijn gepubliceerd. Deze weergaven komen het vaakst in het systeem via de importmogelijkheid. U kunt deze weergaven publiceren, exporteren of verwijderen. Met de actie **Snel publiceren** die is toegevoegd in versie 10.0.12, kunnen meerdere weergaven uit deze sectie in één actie worden gepubliceerd met behulp van de bestaande configuratie voor beveiligingsrollen en rechtspersonen. U kunt de actie **Opslaan als persoonlijk** gebruiken om persoonlijke kopieën van deze weergaven te maken, zodat u een beter begrip van de inhoud kunt krijgen.
 - **Persoonlijke weergaven**: alle weergaven die zijn gemaakt door gebruikers in het systeem. U kunt hier een persoonlijke weergave voor de organisatie publiceren of een of meer van deze weergaven naar andere gebruikers kopiëren. U kunt deze weergaven ook publiceren, exporteren of verwijderen.
 - **Gebruikers instellingen**: selecteer de gebruiker die u wilt bekijken of pas het vermogen van de gebruiker om personalisatie te gebruiken aan voor het gehele systeem of voor specifieke pagina's die de gebruiker heeft bezocht. U kunt de persoonlijke instellingen van de gebruiker in het systeem weergeven en ermee werken. U kunt ook alle persoonlijke instellingen voor die gebruiker verwijderen of de functietoelichtingen voor de gebruiker opnieuw instellen. Als functietoelichtingen opnieuw worden ingesteld, worden pop-upvensters die nieuwe functies hebben geïntroduceerd en die de gebruiker eerder heeft gesloten, opnieuw weergegeven wanneer de gebruiker die functies opnieuw tegenkomt.
 - **Systeeminstellingen**: u kunt aanpassingen voor alle gebruikers in het systeem tijdelijk uitschakelen. In dat geval worden geen aanpassingen voor gebruikers toegepast en worden alle pagina's opnieuw ingesteld op de standaardstatus. Als u aanpassingen later weer wilt inschakelen, worden alle aanpassingen opnieuw toegepast. U kunt alle aanpassingen voor alle gebruikers in het systeem ook permanent verwijderen. Er is geen enkele manier om aanpassingen terug te halen die zijn verwijderd. Voordat u deze taak uitvoert, moet u er daarom voor zorgen dat u aanpassingen hebt geëxporteerd die u later mogelijk wilt.
 
-Gebruikers die toegang hebben tot de pagina **Aanpassing** kunnen ook persoonlijke sjablonen of organisatieweergaven importeren met de knop **Weergaven importeren** in het actievenster. In versie 10.0.12 en hoger is een mechanisme toegevoegd voor het onmiddellijk publiceren van weergaven wanneer deze worden geïmporteerd.
+Gebruikers die toegang hebben tot de pagina **Aanpassing** kunnen ook persoonlijke sjablonen of organisatieweergaven importeren met de knop **Weergaven importeren** in het actievenster. Voor organisatieweergaven kunt u **Onmiddellijk publiceren** selecteren om de weergaven beschikbaar te maken voor gebruikers zonder dat deze nog expliciet worden gepubliceerd.
 
 ## <a name="known-issues"></a>Bekende problemen
 Voor een lijst met bekende problemen met opgeslagen weergaven raadpleegt u [Formulieren maken waarin opgeslagen weergaven volledig worden gebruikt](../../dev-itpro/user-interface/understanding-saved-views.md).
@@ -204,27 +195,7 @@ Voor een lijst met bekende problemen met opgeslagen weergaven raadpleegt u [Form
 > [!NOTE]
 > Voor de functie **Opgeslagen weergaven** moet het personalisatiesysteem in Finance and Operations zijn ingeschakeld. Als persoonlijke instellingen zijn uitgeschakeld voor de gehele omgeving, worden weergaven wel uitgeschakeld, ook als u de onderstaande stappen uitvoert. 
 
-**Versie 10.0.13 en later**
-
-De functie **Opgeslagen weergaven** is niet meer aanwezig in de preview. Deze is nu rechtstreeks toegankelijk via functiebeheer in elke willekeurige omgeving.
-
-**Versies 10.0.9 tot en met 10.0.12**
-
-De functie **Opgeslagen weergaven** is in een elke omgeving rechtstreeks beschikbaar in functiebeheer. Net als bij andere previewfuncties is het inschakelen van deze functie in productie afhankelijk van de [aanvullende gebruiksrechtovereenkomst](https://go.microsoft.com/fwlink/?linkid=2105274).
-
-**10.0.8 / Platformupdate 32 en eerder**
-
-De functie **Opgeslagen weergaven** kan worden ingeschakeld in omgevingen in laag 1 (Dev/Test) en in laag 2 (Sandbox) om extra tests en ontwerpwijzigingen te kunnen doorvoeren, door de volgende stappen uit te voeren.
-
-1. **De vlucht inschakelen**: voer de volgende SQL-instructie uit: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
-
-2. **IIS opnieuw instellen** om de statische flightingcache leeg te maken. 
-3. **De functie zoeken**: ga naar het werkgebied **Functiebeheer**. Als **Opgeslagen weergaven** niet in de lijst voorkomen, selecteert u **Controleren op updates**.
-4. **De functie inschakelen**: zoek de functie **Opgeslagen weergaven** in de lijst met functies en selecteer **Nu inschakelen** in het detailvenster.
-
-Alle volgende gebruikerssessies worden gestart met opgeslagen weergaven ingeschakeld.
+U kunt de functie **Opgeslagen weergaven** in- en uitschakelen via Functiebeheer in elke omgeving. Wanneer de functie is ingeschakeld, worden opgeslagen weergaven ingeschakeld in alle volgende gebruikerssessies.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>Wat gebeurt er met bestaande persoonlijke instellingen wanneer weergaven worden ingeschakeld? 
 
@@ -253,6 +224,3 @@ Voor pagina's met grote weergavekiezers (zowel persoonlijke instellingen als que
 
 - Als u van een tegel naar een pagina navigeert, wordt de query uitgevoerd, ongeacht de query die aan de standaardweergave is gekoppeld. Als u deze tegel hebt gemaakt nadat weergaven zijn ingeschakeld, wordt door het selecteren van een tegel de pagina geopend met de weergave die aan die tegel is gekoppeld.
 - Als u naar een pagina gaat en dat invoerpunt query bevat, wordt de oorspronkelijke query uitgevoerd in plaats van de query van de standaardweergave. Wanneer dat gebeurt, moet u een waarschuwing krijgen in een informatief bericht wanneer de weergave wordt geladen. U kunt ook bevestigen door naar deze pagina over te schakelen nadat de pagina is geladen,aangezien de weergavequery in dat geval sowieso moet worden uitgevoerd.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

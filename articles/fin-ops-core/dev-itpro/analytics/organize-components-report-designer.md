@@ -1,6 +1,6 @@
 ---
 title: Rapportonderdelen indelen in Report Designer
-description: Nadat u bouwstenen hebt ontworpen en rapporten hebt gegenereerd, is het handig om deze objecten te ordenen zodat gebruikers ze eenvoudig kunnen vinden. In dit artikel wordt uitgelegd hoe u bestaande rapporten, bouwstenen en objecten in Report Designer kunt organiseren.
+description: In dit onderwerp wordt uitgelegd hoe u bestaande rapporten, bouwstenen en objecten in Report Designer kunt organiseren.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0b55dcee00f571228ec1e933306d77d9edc12866
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685806"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092418"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Rapportonderdelen indelen in Report Designer
 
@@ -62,7 +62,7 @@ U kunt rapportdefinities groeperen om meerdere rapporten tegelijk te genereren. 
 3. Breng de gewenste wijzigingen aan op het tabblad **Rapportgroep**.
 4. Klik in het menu **Bestand** op **Opslaan** om de gewijzigde rapportgroep op te slaan of klik op de knop **Opslaan** ![Opslaan](media/save.gif "Opslaan") in de werkbalk.
 
-> [OPMERKING] Als u rapporten hebt gepland die met ingestelde intervallen moeten worden gegenereerd, kunt u die instellingen negeren en onmiddellijk een rapport genereren.
+> Als u rapporten hebt gepland die met ingestelde intervallen moeten worden gegenereerd, kunt u die instellingen negeren en onmiddellijk een rapport genereren.
 
 ### <a name="generate-a-report-group-report"></a>Een rapportgroeprapport genereren
 
@@ -148,6 +148,3 @@ Alleen standaardinstellingen voor de basisperiode worden opgeslagen met de rappo
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Financiële rapportage](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

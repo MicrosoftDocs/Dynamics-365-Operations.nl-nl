@@ -1,6 +1,6 @@
 ---
 title: 'ER Indeling configureren voor tellen en totaliseren (deel 4: Indeling uitvoeren)'
-description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van Systeembeheerder of Ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken voor tellen en totaliseren op basis van gegevens van de reeds gegenereerde tekstuitvoer.
+description: In dit onderwerp wordt beschreven hoe u een indeling voor elektronische rapportage configureert voor tellen en totaliseren op basis van de gegevens van de reeds gegenereerde tekstuitvoer. (Deel 4)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8f37fc3c611e9c5328f4d99be8c7c63ab59b2f08
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c5576229e8b81824dff6d0b38b8ab5483e04ade8
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684638"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092942"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-4---run-format"></a>ER Indeling configureren voor tellen en totaliseren (deel 4: Indeling uitvoeren)
 
@@ -103,6 +103,3 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 21. Klik op Openen.
     * Controleer het gemaakte XML-bestand dat de tellings- en totaliseringsgegevens bevat die tijdens de uitvoering van de geselecteerde configuratie zijn verzameld.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

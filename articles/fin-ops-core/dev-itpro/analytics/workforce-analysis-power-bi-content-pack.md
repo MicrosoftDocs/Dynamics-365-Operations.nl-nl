@@ -1,6 +1,6 @@
 ---
 title: Power BI-inhoud Metrische gegevens personeel
-description: In dit onderwerp wordt de Power BI-inhoud Metrische gegevens personeel besproken. U vindt hier een uitleg hoe u toegang krijgt tot de rapporten en informatie over het gegevensmodel en de entiteiten waarmee de inhoud is samengesteld.
+description: In dit onderwerp wordt de Power BI-inhoud Metrische gegevens personeel besproken.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5e921b9ca7d46b3365068a5cdcb029396b62a0ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d0622cebcfca15acf50cf62e8a77af360d4f1bda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687346"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092786"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Power BI-inhoud Metrische gegevens personeel
 
@@ -86,6 +86,3 @@ De volgende tabel bevat de entiteiten waarop de inhoud is gebaseerd.
 | Trend werknemer           | Werknemers in de loop van de tijd, personeelsbezetting, bedrijf en positie                                 | Bedrijf, Geografische locatie, Werknemersnaam, Rapporteert aan, Kalender-offset, Datum, Werknemertitel, Demografische gegevens, Aanstelling, Functie |
 | Project voor massaal aanstellen        | Aantal projecten voor massaal aanstellen, projecteigenaar en projectstatus                     | Bedrijf, Regel voor massaal aanstellen. |
 | Regel voor massaal aanstellen           | Afdeling, type dienstverband en positie                                           | Datum, Functie, Project voor massaal aanstellen |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

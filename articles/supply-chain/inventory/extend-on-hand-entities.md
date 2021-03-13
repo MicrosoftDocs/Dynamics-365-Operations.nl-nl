@@ -10,23 +10,22 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e3bf3a7d48b0aa3e48845882be0ee86da17ed040
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2e805b9379c73f7b7eb2820662fad70e28181ebf
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425514"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5043388"
 ---
 # <a name="extend-inventory-on-hand-data-entities"></a>Gegevensentiteiten voor voorhanden voorraad uitbreiden
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Management biedt [uitbreidings](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md)functies waarmee u [velden aan tabellen kunt toevoegen via extensies](../../fin-ops-core/dev-itpro/extensibility/add-field-extension). In dit onderwerp vindt u een voorbeeld waarin wordt aangegeven hoe u uitgebreide velden aan de weergaven `INVENTORSITEONHANDENTITY` en `INVENTWAREHOUSEONHANDENTITY` kunt toevoegen, zodat de voorzieningen van voorhanden voorraad van gegevensentiteiten met extensies kunnen werken. Zie [Overzicht van Gegevensbeheer](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md) voor meer informatie over gegevensentiteiten.
+Microsoft Dynamics 365 Supply Chain Management biedt [uitbreidings](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md)functies waarmee u [velden aan tabellen kunt toevoegen via extensies](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md). In dit onderwerp vindt u een voorbeeld waarin wordt aangegeven hoe u uitgebreide velden aan de weergaven `INVENTORSITEONHANDENTITY` en `INVENTWAREHOUSEONHANDENTITY` kunt toevoegen, zodat de voorzieningen van voorhanden voorraad van gegevensentiteiten met extensies kunnen werken. Zie [Overzicht van Gegevensbeheer](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md) voor meer informatie over gegevensentiteiten.
 
 > [!NOTE]
 > Hier volgt een lijst met een aantal gegevensentiteiten voor voorhanden voorraad:
@@ -69,6 +68,3 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 Nadat u deze stappen hebt voltooid, kunt u de voorhanden voorraad per de locatie en de voorhanden voorraad per magazijn uitbreiden door de nieuwe velden toe te voegen. Op deze manier zorgt u ervoor dat de uitgebreide velden worden herkend en opgenomen in de gegevensmigratie waarbij deze gegevensentiteiten worden gebruikt.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

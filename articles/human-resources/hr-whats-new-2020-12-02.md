@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aba35563266d1149131124f489f89da61432bfb2
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: 36d82efa182bff12442d51908d634cbddbd13fa9
+ms.sourcegitcommit: fc852ae4939089a294d00fdf9cad8d6372ffb012
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669160"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5080033"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 2 december 2020
 
@@ -61,7 +60,7 @@ Deze versie bevat de volgende correcties.
 | 514087 | BenefitEligibilityProcessResult moet de datum/tijd bevatten die bij de verwerking is gebruikt. | BenefitEligibity-verwerkingsresultaat bevat nu de datum/tijd voor de laatste verwerking, die eerder ontbrak. |
 | 526903 | De inschrijving van vergoedingen is mislukt voor programma's met afhankelijken wanneer **Begunstigden automatisch selecteren** is ingeschakeld in **Gedeelde Human Resources-parameters**. | Het probleem is opgelost waarbij de inschrijving van vergoedingen is mislukt voor programma's met afhankelijken wanneer de optie **Begunstigden automatisch selecteren** is ingeschakeld voor standaard begunstigden. |
 | 521922 | De parameter **Afwezigheid tonen zonder details** geeft details weer over verlofaanvragen in de verzuimkalender van het team. | Het type verlof, het kleurtype verlof en de details worden per dag weergegeven in de verzuimkalender van het team wanneer **Afwezigheid tonen zonder details** is ingesteld op **Ja** in de **Verlof- en verzuimparameters**. Dit is opgelost en nu wordt het type verlof niet weergegeven en wordt de standaardkleur voor verlof (donkerblauw) gebruikt voor alle types verlof in de verzuimkalender van het team. |
-| 527316 | Titelwijzigingen voor vacatures, functies en werknemersmeldingen worden niet gesynchroniseerd. | Er is eerder een titelrelatie toegevoegd aan de entiteiten Vacature, Functie en Werknemer. De synchronisatie voor deze relatie werkt voor de synchronisatie van Human Resources naar Common Data Service, maar niet voor meldingen van Common Data Service. Dit is opgelost. |
+| 527316 | Titelwijzigingen voor vacatures, functies en werknemersmeldingen worden niet gesynchroniseerd. | Er is eerder een titelrelatie toegevoegd aan de entiteiten Vacature, Functie en Werknemer. De synchronisatie voor deze relatie werkt voor de synchronisatie van Human Resources naar Dataverse, maar niet voor meldingen van Dataverse. Dit is opgelost. |
 | 512275 | Verwijder de kleuropties van **Verlof- en verzuimparameters**. | Nu de kleuren voor het verloftype zijn bepaald, zijn de kleuropties niet langer nodig in de **Verlof- en verzuimparameters**. Daarom zijn deze verwijderd. |
 | 437112 | Misleidend foutbericht tijdens het toewijzen van werknemersfuncties. | Het foutbericht is bijgewerkt bij het aannemen van een werknemer en bij het toewijzen van de werknemer aan een niet-actieve functie. Bijgewerkt bericht **De opgegeven functie is niet actief vanaf de begindatum van de aanstelling. Controleer de duur van deze functie.** |
 | 527816 | Prestatieproblemen met de pagina **Verlof**. | De prestaties zijn verbeterd op de pagina **Verlof**. |
@@ -92,6 +91,3 @@ Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](https://doc
 [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

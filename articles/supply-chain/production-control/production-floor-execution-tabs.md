@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 81c5c83128bb81523dee6ede549eece7b0d80e30
-ms.sourcegitcommit: d9d1ddce6a334ade8b32b5ea3ac4c1e1a8f72715
+ms.openlocfilehash: 786ea9a3da98e9f1812b007d4301cb47680e6894
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664267"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077573"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer ontwerpen
 
@@ -57,7 +56,7 @@ Voer de volgende stappen uit om een nieuw tabblad te maken en te configureren:
 1. Geef de koptekst van de pagina de volgende instellingen:
 
     - **Tabbladnaam**: geef een naam op voor het tabblad.
-    - **Hoofdweergave**: selecteer uit twee vooraf gedefinieerde takenlijsten (*Actieve taken* of *Alle taken*).
+    - **Hoofdweergave**: maak een selectie uit de vooraf gedefinieerde takenlijsten (*Actieve taken*, *Alle taken* of *Mijn machine*).
     - **Detailweergave**: selecteer uit een lege waarde of **Taakdetails**. Als u de lege waarde selecteert, wordt op het tabblad geen gedetailleerde weergave weergegeven. Als u **Taakdetails selecteert**, bevat de gedetailleerde weergave een gedetailleerde omschrijving van de taak die in de takenlijst in de hoofdweergave is geselecteerd.
 
 1. Kies in de sectie **Primaire werkbalk** welke knoppen beschikbaar moeten zijn op de primaire werkbalk. De kolom **Beschikbare acties** geeft een lijst weer met alle knoppen die kunnen worden toegevoegd. De kolommen **Geselecteerde acties** geeft een lijst weer met alle knoppen die in de huidige configuratie zijn opgenomen. Gebruik de knoppen tussen de kolommen om geselecteerde artikelen naar wens tussen de kolommen te verplaatsen. Gebruik de knoppen omhoog en omlaag naast de kolom **Geselecteerde acties** om de volgorde te bepalen waarin de knoppen in de gebruikersinterface worden weergegeven.
@@ -79,6 +78,3 @@ Nadat u alle benodigde tabbladen hebt ontworpen, kunt u deze aan een configurati
 1. Ga zo nodig verder om extra tabbladen toe te voegen.
 
 1. Gebruik de knoppen **Omhoog verplaatsen** en **Omlaag verplaatsen** op de werkbalk om de tabbladen naar wens te rangschikken. De tabbladen worden van links naar rechts weergegeven in de volgorde die op de bovenstaande schermopname wordt weergegeven (het tabblad bovenaan wordt links weergegeven).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

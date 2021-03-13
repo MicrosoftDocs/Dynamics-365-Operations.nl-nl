@@ -1,6 +1,6 @@
 ---
 title: 'ER Financiële dimensies gebruiken als gegevensbron (deel 4: het rapport uitvoeren)'
-description: In de volgende stappen wordt uitgelegd hoe een gebruiker die is toegewezen aan de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-gegevensmodel (elektronische rapportage) kan configureren om financiële dimensies te gebruiken als bron voor ER-rapporten.
+description: In dit onderwerp wordt beschreven hoe u een ER-model (Electronic Reporting) configureert om financiële dimensies te gebruiken als gegevensbron voor ER-rapporten. (Deel 4)
 author: NickSelin
 manager: AnnBe
 ms.date: 05/27/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fb7f49310aa25ff7c17ab4bcd50e1842be84fe2d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c1fe332de84339d3369ba495ca13f50c4901f366
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684734"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092270"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>ER Financiële dimensies gebruiken als gegevensbron (deel 4: het rapport uitvoeren)
 
@@ -49,6 +49,3 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen uitvoeren in de proce
 ![Pagina ER-configuraties](../media/er-financial-dimensions-guides-run3.png)
     * Controleer de gegenereerde uitvoer. Voor elke transactie van de geselecteerde batch worden de financiële dimensies uit de bijbehorende ingestelde dimensies weergegeven. Voer dit rapport uit en selecteer verschillende dimensies om te zien of het rapport niet afhankelijk is van het geselecteerde aantal dimensies of het aantal dimensies dat voor dit exemplaar is geconfigureerd.  
 ![Pagina ER-configuraties](../media/er-financial-dimensions-guides-run4.png)
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

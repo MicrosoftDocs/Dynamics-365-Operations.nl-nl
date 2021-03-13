@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ff68761ce1cf2174be8ebb9732b9348439a53a32
-ms.sourcegitcommit: d24ebce50421f8656d23bb1e47cd636ad2e2ca0a
+ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664291"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077472"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer configureren
 
@@ -65,6 +64,12 @@ Deze functie voegt een knop toe aan de uitvoeringsinterface voor de werkvloer wa
 
 - Functie voor vergrendelen van taakkaartapparaat en taakkaartterminal zodat ze kunnen worden schoongemaakt
 
+### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Functionaliteit van activabeheer voor de uitvoeringsinterface voor de werkvloer
+
+Met deze functie voegt u een Activabeheer-tabblad toe aan de interface voor het uitvoeren van productielijnen. Werknemers kunnen dit tabblad gebruiken om een activum te selecteren dat is verbonden met een machineresource die zich in het geselecteerde filter van de takenlijst bevindt. Voor de geselecteerde machineactiva kan de werknemer de status en de staat van het activum uit tellerwaarden weergeven voor maximaal vier geselecteerde tellers. Als u deze functie wilt gebruiken, schakelt u de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in:
+
+- Functionaliteit van activabeheer voor de uitvoeringsinterface voor de werkvloer
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Werken met uitvoeringsconfiguraties voor de werkvloer
 
 Als u de apparaatconfiguraties wilt maken en beheren, gaat u naar productie **Productiebeheer \> Instellen \> Productie-uitvoering \> Uitvoering werkvloer configureren**. Op de pagina **Uitvoering werkvloer configureren** wordt een lijst met bestaande configuraties weergegeven. Op deze pagina kunt u de volgende acties uitvoeren:
@@ -94,6 +99,3 @@ Met een batchtaak worden vermeldingen in de verwijzingstabel periodiek opgeschoo
 1. Selecteer in het actievenster de optie **Clientconfiguraties opschonen**.
 1. Stel in het dialoogvenster **Clientconfiguratie opschonen** het veld **Aantal dagen** in op het aantal dagen inactiviteit (vóór vandaag) dat u in aanmerking wilt nemen. U verwijdert alle configuraties en aanmeldingsrecords voor apparaten die gedurende die tijd niet actief zijn geweest.
 1. Selecteer **OK** om de relevante configuraties op basis van de instelling **Aantal dagen** op te schonen.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

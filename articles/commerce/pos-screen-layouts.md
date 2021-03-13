@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
+ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4411509"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5032928"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Weergaveconfiguraties van POS-gebruikersinterface
 
@@ -117,6 +116,9 @@ In compacte POS-indelingen worden de knoppenrasters automatisch van boven naar b
 
 ![Knoppenrasters voor compacte indelingen](../commerce/media/Compact-View-Button-Grids.png)
 
+> [!NOTE]
+> De grootte van de knoppen in de ontwerper wordt aangepast aan de grootte van het venster en geven mogelijk niet de werkelijke knoppen aan die in POS worden weergegeven. U kunt de indeling van het knoppenraster het beste simuleren door de ontwerpvensters aan te passen tot dezelfde grootte als het POS.
+
 ### <a name="images"></a>Afbeeldingen
 
 Voor elke indelingsgrootte in een schermindeling kunt u afbeeldingen opgeven die moeten worden opgenomen in de POS-gebruikersinterface. Voor volledige POS-indelingen kan één afbeelding worden opgegeven voor het welkomstscherm. Deze afbeelding wordt links als het eerste element in de gebruikersinterface weergegeven. In het scherm **Transactie** kunnen afbeeldingen worden gebruikt als tabbladafbeeldingen of als logo. In compacte POS-indelingen worden deze afbeeldingen niet gebruikt.
@@ -205,6 +207,3 @@ In de ontwerper van het knoppenraster kunt u knoppenrasters configureren die kun
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [De indelingsontwerper voor Retail-verkooppunten (POS) installeren](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

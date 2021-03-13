@@ -10,24 +10,22 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 981bbf03480abfd812b4020173b7acfdad0fef14
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: 1d709d99737ad05af1fb19d9f3ef7b87a8db80d3
+ms.sourcegitcommit: da17648c296b22d517eadb2f71c7803672e5648d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594955"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5031815"
 ---
 # <a name="upload-and-serve-static-files"></a>Statische bestanden uploaden en verwerken
 
-[!include [banner](../includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+[!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een statisch bestand uploadt in Microsoft Dynamics 365 Commerce Site Builder en hoe u een aangepaste URL en bestandsnaam maakt die u kunt gebruiken om dat bestand aan te vragen.
 
@@ -107,6 +105,3 @@ Als u het URL-pad wilt wijzigen, volgt u deze stappen.
 [Afbeeldingen bijsnijden](dam-crop-images.md)
 
 [Focuspunten van afbeelding aanpassen](dam-custom-focal-point.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

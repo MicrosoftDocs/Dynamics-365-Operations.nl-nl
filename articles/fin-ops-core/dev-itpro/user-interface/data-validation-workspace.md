@@ -1,6 +1,6 @@
 ---
 title: Werkgebied Controlelijst voor gegevensvalidatie
-description: Met het werkgebied Controlelijst voor gegevensvalidatie kunt u processen voor validatie van gegevens over bedrijven, gebieden en mensen volgen. De controlelijst kan worden gebruikt tijdens een nieuwe implementatie, na een upgrade of na een migratie.
+description: Met het werkgebied Controlelijst voor gegevensvalidatie kunt u processen voor validatie van gegevens over bedrijven, gebieden en mensen volgen.
 author: bking
 manager: AnnBe
 ms.date: 01/12/2018
@@ -14,12 +14,12 @@ ms.reviewer: rhaertle
 ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.openlocfilehash: a3ac338670fdc9fc7cb526cdcdc1e7199904da8f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e50d4c94c0b8468a80ad214a21c8f5e0dedae71
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687570"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092326"
 ---
 # <a name="data-validation-checklist-workspace"></a>Werkgebied Controlelijst voor gegevensvalidatie
 
@@ -39,8 +39,7 @@ De tegels **Overzicht** bieden een overzicht van het proces en bevatten indicato
 
 In de sectie **Taken en status** wordt de status van het algehele gegevensvalidatieproject weergegeven op verschillende manieren: status per rechtspersoon, per gebied en per takenlijst. U kunt het filter selecteren om de status voor een specifiek bedrijf weer te geven. Elk statustabblad bevat een specificatie op basis van het percentage dat is voltooid en het aantal taken dat resteert.
 
-Het laatste tabblad is voor de gedetailleerde takenlijst. Deze lijst bevat de volledige takenlijst.
-U kunt de lijst met taken op verschillende manieren filteren. Klik op **Taak bewerken** om de status van een taak te wijzigen of een taak toe te wijzen. Klik op **Bijlagen** om bijlagen voor een taak te bekijken.
+Het laatste tabblad is voor de gedetailleerde takenlijst. Deze lijst bevat de volledige takenlijst. U kunt de lijst met taken op verschillende manieren filteren. Klik op **Taak bewerken** om de status van een taak te wijzigen of een taak toe te wijzen. Klik op **Bijlagen** om bijlagen voor een taak te bekijken.
 
 De naam van de taak is een hyperlink naar de pagina waar de gebruiker naartoe moet gaan om het werk te voltooien. U kunt deze hyperlink vervolgens instellen met behulp van het veld **Naam menuopdracht** wanneer u een taak bewerkt of maakt via het formulier **Gegevensvalidatieproject configureren**.
 
@@ -57,6 +56,3 @@ Voordat u het werkgebied **Controlelijst voor gegevensvalidatie** kunt gebruiken
 U gebruikt taakgebieden om gegevensvalidatietaken te groeperen in logische gebieden van eigendom in uw organisatie. Leveranciers, Klanten of Grootboek kunnen bijvoorbeeld als taakgebieden worden gebruikt.
 
 De optie **Naam menuopdracht** wordt gekoppeld aan de taakwerkinzet en kan worden gebruikt om rechtstreeks naar de gekoppelde pagina te gaan via de taakkoppeling in het werkgebied. Bijvoorbeeld een gegevensvalidatietaak om het rapport **Ouderdom van leveranciers** voor leveranciers uit te voeren, kan worden gekoppeld aan de **Rapport Ouderdom van leveranciers**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dda102b993ecc92a5089eb54d2708c2adebc572f
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442014"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044016"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Geconsolideerde financiële overzichten genereren
 
@@ -67,14 +66,14 @@ In de volgende afbeelding ziet u een kolomdefinitie in een indeling naast elkaar
 ![Kolomdefinitie in een indeling naast elkaar](./media/column-definition-side-by-side-format.png "Kolomdefinitie in een indeling naast elkaar")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Consolidaties waarin organisatiestructuren worden gebruikt die worden gemaakt van rechtspersonen
-Met organisatiehiërarchieën die dimensies of rechtspersonen bevatten, worden op dynamische wijze rapporteringsstructuurdefinities gemaakt in Financiële rapportage. Een eenvoudige manier om consolidaties te stroomlijnen is een organisatiehiërarchie toe te voegen aan uw rapport in Financiële rapportage. Op basis van de rapportdatum wordt in Financiële rapportage de organisatiehiërarchie op of vóór de ingangsdatum geselecteerd, zoals in de volgende afbeelding wordt weergegeven.
+Met organisatiehiërarchieën die dimensies of rechtspersonen bevatten, worden op dynamische wijze rapporteringsstructuurdefinities gemaakt in Financiële rapportage. Een eenvoudige manier om consolidaties te stroomlijnen is een organisatiehiërarchie toe te voegen aan uw rapport in Financiële rapportage. Op basis van de rapportdatum wordt in Financial Reporting de organisatiehiërarchie op of vóór de ingangsdatum geselecteerd, zoals in de volgende afbeelding wordt weergegeven.
 
 ![Rapporteringsstructuurdefinitie op dynamische wijze maken](./media/dynamically-create-reporting-tree-definitions.png "Rapporteringsstructuurdefinitie op dynamische wijze maken")
 
 ## <a name="consolidations-that-involve-eliminations"></a>Consolidaties die betrekking hebben op schrappingen
 Schrappingstransacties vormen een veelvoorkomend onderdeel van het consolidatieproces. In dit voorbeeld worden vijf rekeningen tijdens de consolidatie geschrapt: 142600, 211400, 401420, 401180 en 510820. Bedrijven kunnen hun intercompany-rekeningen op een verschillende manier instellen. Een aantal bedrijven stelt bijvoorbeeld het laatste cijfer in op 9 als de rekening wordt gebruikt in intercompany-transacties. Ongeacht de methode kunt u schrappingen in uw geconsolideerde financiële overzichten weergeven als u de intercompany-rekeningen kent.
 
-In de volgende afbeelding ziet u een kolomdefinitie voor een geconsolideerd inkomstenoverzicht. Er zijn drie intercompany-rekeningen voor winst en verlies gedefinieerd voor elk bedrijf met het dimensiefilter. Kolom D bevat de schrappingsrekeningen alleen voor het bedrijf USMF en kolom E bevat alleen schrappingen voor het bedrijf DEMF. Zowel kolom D als kolom E zijn zo ingesteld dat ze **niet** in het financiële overzicht worden afgedrukt.
+In de volgende afbeelding ziet u een kolomdefinitie voor een geconsolideerd inkomstenoverzicht. Er zijn drie intercompany-rekeningen voor winst en verlies gedefinieerd voor elk bedrijf met het dimensiefilter. In de kolommen F, G en H staan alleen de schrappingrekeningen voor de bedrijven USMF, USRT en DEMF. Deze kolommen zijn zo ingesteld dat ze **niet** in het financiële overzicht worden afgedrukt.
 
 ![Kolomdefinitie voor geconsolideerd inkomstenoverzicht](./media/column-definition-consolidated-income-statement.png "Kolomdefinitie voor geconsolideerd inkomstenoverzicht")
 
@@ -140,7 +139,7 @@ Verschillende rechtspersonen kunnen verschillende fiscale kalenders hebben, maar
 - Maak een kolomdefinitie en gebruik de periode en het jaar om de juiste perioden voor elk bedrijf toe te wijzen.
 - Geef bij **Instellingen** \> **Overige** \> **Aanvullende opties** aan of u wilt consolideren met behulp van de einddatum van de periode of het periodenummer.
 
-Wanneer u de kolomdefinitie ontwerpt voor meerdere bedrijven met verschillende boekperioden, is het belangrijk dat u overweegt welk bedrijf wordt toegewezen aan het veld **Bedrijfsnaam** in de rapportdefinitie. De fiscale kalender van dat bedrijf wordt gebruikt als de fiscale basiskalender voor de rapportdefinitie. In de volgende tabel ziet u bijvoorbeeld de instelling van de boekperiode voor de bedrijven USMF en INMF. Voor geconsolideerde rapporten wilt u de fiscale kalender gebruiken die USMF gebruikt. De kolom 'Toewijzen' geeft de equivalente duur en het jaar voor elk bedrijf weer als een rapport wordt gegenereerd voor 30 juni 2018.
+Wanneer u de kolomdefinitie ontwerpt voor meerdere bedrijven met verschillende boekperioden, is het belangrijk dat u overweegt welk bedrijf wordt toegewezen aan het veld **Bedrijfsnaam** in de rapportdefinitie. De fiscale kalender van dat bedrijf wordt gebruikt als de fiscale basiskalender voor de rapportdefinitie. In de volgende tabel ziet u bijvoorbeeld de instelling van de boekperiode die is ingesteld voor de bedrijven USMF en INMF. Voor geconsolideerde rapporten wilt u de fiscale kalender gebruiken die USMF gebruikt. De kolom 'Toewijzen' geeft de equivalente duur en het jaar voor elk bedrijf weer als een rapport wordt gegenereerd voor 30 juni 2018.
 
 | Bedrijf   | Boekjaar                                  | Toewijzing                     |
 |-----------|----------------------------------------------|-----------------------------|
@@ -224,6 +223,3 @@ Om correct omgerekende bedragen te verkrijgen als valuta's worden gebruikt, word
 Zie het bovenliggende onderwerp van dit onderwerp [Overzicht van Financiële consolidaties en valutaomzetting](./financial-consolidations-currency-translation.md) voor meer informatie over consolidatie en valutaomrekeningen.
 
 Zie voor informatie over het invoeren van details van online consolidaties [Online financiële consolidaties](./consolidate-online.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

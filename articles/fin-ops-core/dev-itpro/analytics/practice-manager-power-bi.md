@@ -1,6 +1,6 @@
 ---
 title: Power BI-inhoud Praktijkbeheerder
-description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Praktijkbeheerder. In dit onderwerp wordt uitgelegd hoe u toegang krijgt tot rapporten in de inhoud en wordt informatie gegeven over het gegevensmodel en de gegevensentiteiten waarmee de inhoud is samengesteld.
+description: In dit onderwerp wordt beschreven wat is opgenomen in de Power BI-inhoud Praktijkbeheerder.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 17a68e5aedb8b085c85d1ed7b6ad87f3eaecfc25
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f01109b360b23adf84673e84e6240f8f4431340d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685700"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092452"
 ---
 # <a name="practice-manager-power-bi-content"></a>Power BI-inhoud Praktijkbeheerder
 
@@ -117,6 +117,3 @@ In de volgende secties worden de samengevoegde metingen uitgelegd die worden geb
 | Belangrijke samengevoegde meting       | Veld               | Omschrijving |
 |---------------------------------|---------------------|-------------|
 | Geplande kosten voltooide activiteit | Sum(TotalCostPrice) | De totale kostprijs in ramingen voor alle projecttransactietypen met voltooide taken. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

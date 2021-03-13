@@ -1,6 +1,6 @@
 ---
 title: ER-expressies ontwerpen om methoden voor toepassingsklassen aan te roepen
-description: Deze handleiding bevat informatie over het opnieuw gebruiken van de bestaande toepassingslogica in ER-configuraties (elektronische rapportage) door vereiste methoden van toepassingsklassen aan te roepen in ER-expressies.
+description: Dit onderwerp bevat informatie over het opnieuw gebruiken van de bestaande toepassingslogica in ER-configuraties (elektronische rapportage) door vereiste methoden van toepassingsklassen aan te roepen.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2de6464aaceadd60a82a70f428f42cd4f864eb8
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682016"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092080"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>ER-expressies ontwerpen om methoden voor toepassingsklassen aan te roepen
 
@@ -157,6 +157,3 @@ Voer voor testdoeleinden de toewijzing van de indeling uit met behulp van het Sa
 2. Klik op OK.
     * Bekijk de uitvoer in XML-indeling, die de gegevens vertegenwoordigt die zijn geïmporteerd vanuit het geselecteerde bestand en overgezet naar het gegevensmodel. Slechts 3 regels van het geïmporteerde TXT-bestand zijn verwerkt. De ongeldige IBAN-code op regel 4 is overgeslagen en een foutbericht wordt weergegeven in het infologboek.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

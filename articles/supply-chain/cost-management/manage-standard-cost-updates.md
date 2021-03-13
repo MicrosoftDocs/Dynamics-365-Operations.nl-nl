@@ -3,52 +3,51 @@ title: Updates voor standaardkosten beheren
 description: 'Updates van standaardkostengegevens kunnen worden beheerd met twee verschillende benaderingen: de benadering met één versie en de benadering met twee versies.'
 author: AndersGirke
 manager: tfehr
-ms.date: 10/24/2017
+ms.date: 01/15/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion
+ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 69992
 ms.assetid: 468de7af-c7b5-4345-bd5a-ba3aa5a900cc
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5a7beeafa6d0bb22a687278ccebc3127409e1ee0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: Release 10.0.17
+ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
+ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425496"
+ms.lasthandoff: 01/19/2021
+ms.locfileid: "5024665"
 ---
 # <a name="manage-standard-cost-updates"></a>Updates voor standaardkosten beheren
 
 [!include [banner](../includes/banner.md)]
 
-Updates van standaardkostengegevens kunnen worden beheerd met twee verschillende benaderingen: de benadering met één versie en de benadering met twee versies. 
+Updates van standaardkostengegevens kunnen worden beheerd met twee verschillende benaderingen: de benadering met één versie en de benadering met twee versies.
 
 Bij de benadering met één versie wordt één kostprijsberekeningsversie gebruikt die alle kostenregistraties bevat. Deze registraties omvatten de oorspronkelijke koten en alle kostenupdates.
 
-Bij de methode met twee versies wordt één versie gebruikt die registraties van de oorspronkelijke kosten bevat en een tweede versie die registraties alle van kostenupdates bevat. Het belangrijkste voordeel van de methode met twee versies is de duidelijke afbakening en tracering van kostenupdates in een aparte kostprijsberekeningsversie, zonder dat dit gevolgen heeft voor de oorspronkelijke kostprijsberekeningsversie. De methode met twee versies kan worden gebruikt om meerdere incrementele updates te identificeren, waarbij elke incrementele update een aparte kostprijsberekeningsversie heeft die de incrementele kostenrecords bevat. 
+Bij de methode met twee versies wordt één versie gebruikt die registraties van de oorspronkelijke kosten bevat en een tweede versie die registraties alle van kostenupdates bevat. Het belangrijkste voordeel van de methode met twee versies is de duidelijke afbakening en tracering van kostenupdates in een aparte kostprijsberekeningsversie, zonder dat dit gevolgen heeft voor de oorspronkelijke kostprijsberekeningsversie. De methode met twee versies kan worden gebruikt om meerdere incrementele updates te identificeren, waarbij elke incrementele update een aparte kostprijsberekeningsversie heeft die de incrementele kostenrecords bevat.
 
-**Voorbeeld:** 
+## <a name="example"></a>Voorbeeld
 
-Het volgende voorbeeld illustreert hoe de methoden met één versie en met twee versies kunnen worden gebruikt voor het bijwerken van standaardkosten in een productieomgeving. Bijvoorbeeld updates die nieuwe artikelen of foutcorrecties weerspiegelen. Ga ervanuit dat één kostprijsberekeningsversie de standaardkosten voor het huidige jaar voorstelt. De id voor deze versie is 2016-STD. Versie 2016-STD bevat de huidige actieve kosten voor alle artikelen. Bovendien bevat ze alle route-gerelateerde kostencategorieën en overheadberekeningsformules die aan het begin van het jaar 2016 bekend waren. 2016-STD is de oorspronkelijke kostprijsberekeningsversie.
+Het volgende voorbeeld illustreert hoe de methoden met één versie en met twee versies kunnen worden gebruikt voor het bijwerken van standaardkosten in een productieomgeving. Bijvoorbeeld updates die nieuwe artikelen of foutcorrecties weerspiegelen. Ga ervanuit dat één kostprijsberekeningsversie de standaardkosten voor het huidige jaar voorstelt. De id voor deze versie is 2020-STD. Versie 2020-STD bevat de huidige actieve kosten voor alle artikelen. Bovendien bevat ze alle route-gerelateerde kostencategorieën en overheadberekeningsformules die aan het begin van het jaar 2020 bekend waren. 2020-STD is de oorspronkelijke kostprijsberekeningsversie.
 
--   **Methode met één versie voor updates van kostengegevens** − In de methode met één versie, bevat de oorspronkelijke kostprijsberekeningsversie 2016-STD alle kostenregistraties. Kostenupdates worden in 2016-STD vastgelegd en de status ervan wordt ingesteld op “In behandeling.” De kosten in behandeling kunnen handmatig worden ingevoerd voor een nieuw inkoopartikel of kunnen worden berekend voor een geproduceerd artikel om correcties weer te geven. Wanneer de methode met één versie wordt gebruikt, vereisen de stuklijstberekeningen geen terugvalgegevensbron, omdat alle actieve kosten in de kostprijsberekeningsversie zijn opgenomen. Nadat de kosten in behandeling actief worden, bevat de oorspronkelijke kostprijsberekeningsversie 2016-STD opnieuw alle huidige actieve kosten.
--   **Methode met twee versies voor updates van kostengegevens** − De methode met twee versies vereist een extra kostprijsberekeningsversie die alleen de kostenupdates bevat. De id voor deze versie is 2016-STD-WIJZIGINGEN. Kostenupdates worden in 2016-STD-WIJZIGINGEN vastgelegd en hun status wordt ingesteld op “In behandeling.” Bij de methode met twee kostprijsberekeningsversies vereisen de stuklijstberekeningen van wachtende kosten voor gefabriceerde artikelen een terugvalgegevensbron. Dit is zo omdat de extra kostprijsberekeningsversie 2016-STD-WIJZIGINGEN alleen een subset van kostengegevens bevat. De terugval kan worden uitgedrukt als de actieve kosten, of als de opgegeven kostprijsberekeningsversie 2016-STD, omdat beide de bron van kostengegevens identificeren wanneer die niet bestaat in 2016-STD-WIJZIGINGEN. Nadat de wachtende kosten zijn geactiveerd, zal de oorspronkelijke kostprijsberekeningsversie 2016-STD-WIJZIGINGEN opnieuw alle huidige actieve kosten bevatten die de updates weergeven, terwijl de oorspronkelijke kostprijsberekeningsversie 2016-STD niet wordt beïnvloed. Bij de methode met twee kostprijsberekeningsversies worden updates voorkomen door blokkeringsbeleid voor de oorspronkelijke kostprijsberekeningsversie. De extra kostprijsberekeningsversie moet precies hetzelfde blokkeringsbeleid hebben als de oorspronkelijke kostprijsberekeningsversie, met uitzondering van de opgegeven begindatum en het selectieve gebruik van blokkeringsbeleid om updates toe te staan. De opgegeven begindatum moet bij elke batch wijzigingen worden bijgewerkt om de geplande activeringsdatum te reflecteren.
+- **Methode met één versie voor updates van kostengegevens** − In de methode met één versie, bevat de oorspronkelijke kostprijsberekeningsversie 2020-STD alle kostenregistraties. Kostenupdates worden in 2020-STD vastgelegd en de status ervan wordt ingesteld op In behandeling. De kosten in behandeling kunnen handmatig worden ingevoerd voor een nieuw inkoopartikel of kunnen worden berekend voor een geproduceerd artikel om correcties weer te geven. Wanneer de methode met één versie wordt gebruikt, vereisen de stuklijstberekeningen geen terugvalgegevensbron, omdat alle actieve kosten in de kostprijsberekeningsversie zijn opgenomen. Nadat de kosten in behandeling actief worden, bevat de oorspronkelijke kostprijsberekeningsversie 2020-STD opnieuw alle huidige actieve kosten.
+- **Methode met twee versies voor updates van kostengegevens** − De methode met twee versies vereist een extra kostprijsberekeningsversie die alleen de kostenupdates bevat. De id voor deze versie is 2020-STD-WIJZIGINGEN. Kostenupdates worden in 2020-STD-WIJZIGINGEN vastgelegd en de status ervan wordt ingesteld op In behandeling. Bij de methode met twee kostprijsberekeningsversies vereisen de stuklijstberekeningen van wachtende kosten voor gefabriceerde artikelen een terugvalgegevensbron. Dit is zo omdat de extra kostprijsberekeningsversie 2020-STD-WIJZIGINGEN alleen een subset van kostengegevens bevat. De terugval kan worden uitgedrukt als de actieve kosten, of als de opgegeven kostprijsberekeningsversie 2020-STD, omdat beide de bron van kostengegevens identificeren wanneer die niet bestaat in 2020-STD-WIJZIGINGEN. Nadat de kosten in behandeling zijn geactiveerd, bevat de kostprijsberekeningsversie 2020-STD-WIJZIGINGEN de huidige actieve kosten die de updates weergeven, terwijl de oorspronkelijke kostprijsberekeningsversie 2020-STD niet wordt beïnvloed. Bij de methode met twee kostprijsberekeningsversies worden updates voorkomen door blokkeringsbeleid voor de oorspronkelijke kostprijsberekeningsversie. De extra kostprijsberekeningsversie moet precies hetzelfde blokkeringsbeleid hebben als de oorspronkelijke kostprijsberekeningsversie, met uitzondering van de opgegeven begindatum en het selectieve gebruik van blokkeringsbeleid om updates toe te staan. De opgegeven begindatum moet bij elke batch wijzigingen worden bijgewerkt om de geplande activeringsdatum te reflecteren.
 
-In het voorgaande voorbeeld werd één extra kostprijsberekeningsversie gebruikt om updates tijdens het jaar 2016 te beheren. Er kan meer dan een extra kostprijsberekeningsversie worden gebruikt, bijvoorbeeld een aparte versie voor elke batch met updates. Wanneer meer dan één extra kostprijsberekening wordt gebruikt, dan moet de terugval worden uitgedrukt als de actieve kosten, omdat de actieve kosten over meerdere kostprijsberekeningsversies zijn verdeeld.
+In het voorgaande voorbeeld werd één extra kostprijsberekeningsversie gebruikt om updates tijdens het jaar 2020 te beheren. Er kan meer dan een extra kostprijsberekeningsversie worden gebruikt, bijvoorbeeld een aparte versie voor elke batch met updates. Wanneer meer dan één extra kostprijsberekening wordt gebruikt, dan moet de terugval worden uitgedrukt als de actieve kosten, omdat de actieve kosten over meerdere kostprijsberekeningsversies zijn verdeeld.
 
+## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Financiële dimensies voor de standaardkostenherwaardering
 
+Wanneer een nieuwe standaardprijs wordt geactiveerd, wordt de waarde van de voorhanden voorraad doorgaans geherwaardeerd met de transacties voor standaardkostenherwaardering. De financiële dimensies van het artikel worden vervolgens gewoonlijk geboekt op de transacties. Als u echter wilt bepalen of en hoe de financiële dimensies worden geboekt, gebruikt u [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de functie met de naam *Opties voor standaard financiële dimensies voor de standaardherwaardering van de kosten van de voorraad* in te schakelen. Nadat u deze functie hebt ingeschakeld, gaat u naar **Kostenbeheer > Instelling voor boekhoudingbeleid voorraad > Parameters** en stelt u de nieuwe vervolgkeuzelijst **Oorsprong van financiële dimensie** in op een van de volgende waarden:
 
-
-
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- **Geen**: er worden geen financiële dimensies geboekt op de herwaarderingstransacties. Als u een vereiste financiële dimensie hebt in uw rekeningstructuur, wordt het herwaarderingsproces nog steeds uitgevoerd, maar worden boekhoudvermeldingen gemaakt die geen financiële dimensies hebben. In dit geval ontvangen gebruikers eerst een waarschuwingsbericht, zodat ze de herwaardering zo nodig kunnen annuleren.
+- **Tabel**: de financiële dimensies van het artikel worden geboekt op de herwaarderingstransacties. Dit is de standaardinstelling en is consistent met het oorspronkelijke systeemgedrag zonder de functie *Opties voor standaard financiële dimensies voor de standaardherwaardering van de kosten van de voorraad* in te schakelen.
+- **Boeking**: de financiële dimensies van de geherwaardeerde transactie worden geboekt op de herwaarderingstransacties. Standaard worden de financiële dimensies van de voorraadrekening van de oorspronkelijke transactie gebruikt voor zowel de voorraadrekening als de herwaarderingsrekening.

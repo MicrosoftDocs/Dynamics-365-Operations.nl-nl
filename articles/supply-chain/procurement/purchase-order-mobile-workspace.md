@@ -1,7 +1,7 @@
 ---
 title: Mobiel werkgebied Goedkeuring van inkooporder
 description: In dit onderwerp vindt u informatie over het mobiele werkgebied Goedkeuring van inkooporders waarin u inkooporders kunt weergeven en op ze reageren via acties. U kunt bijvoorbeeld een inkooporder goedkeuren of afwijzen.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 30211
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68676fba895dcc91fd3dba065788f3be3a6e9ee4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7f952f3af36620a20a5c991fd9e1ccfd56119f47
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425612"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022301"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Mobiel werkgebied Goedkeuring van inkooporder
 
@@ -113,6 +112,3 @@ Nadat u de inkooporder die aan u is toegewezen hebt bekeken en de workflowinstru
 5. Selecteer de gewenste actie.
 6. Voer op de pagina **Taak voltooien** een opmerking in. Houd er rekening mee dat als u de actie **Delegeren** kiest, u een gebruiker moet selecteren aan wie de taak wordt gedelegeerd.
 7. Selecteer **Gereed**. Nadat u uw werkruimte hebt vernieuwd, staat de inkooporder niet meer in de lijst. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

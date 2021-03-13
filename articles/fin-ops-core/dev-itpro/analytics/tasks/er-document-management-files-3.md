@@ -1,6 +1,6 @@
 ---
 title: ER Documentbeheerbestanden gebruiken in uitvoer van indelingen (deel 3 - Indeling maken)
-description: In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeembeheerder of ontwikkelaar voor elektronische rapportage een indeling voor elektronische rapportage (ER) kan maken met de documentbeheerbestanden in ER-uitvoer.
+description: In dit onderwerp wordt beschreven hoe u een indeling voor elektronische rapportage configureert om documentbeheerbestanden te gebruiken in ER-uitvoer. (Deel 3)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: bfcc03fa7470d4f2fa45ef012e30acef0712bf99
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 432cf4c41a7a223ab07b02edf6da7eac9965cff0
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681848"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092611"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-3---create-format"></a>ER Documentbeheerbestanden gebruiken in uitvoer van indelingen (deel 3 - Indeling maken)
 
@@ -119,6 +119,3 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 23. Klik op Opslaan.
 24. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

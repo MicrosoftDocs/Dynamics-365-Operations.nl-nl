@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 54ad180b7f4691ead3563b077eadadc3b9b20588
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: a41f69958d84fb67b7cd8b6b4c7de38da23552f3
+ms.sourcegitcommit: 2b76d4443b2867205db156648125a894f395a495
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4425889"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5091080"
 ---
 # <a name="get-started-with-planning-optimization"></a>Aan de slag met Planningsoptimalisatie
 
@@ -41,21 +40,42 @@ De functie Planningsoptimalisatie biedt momenteel geen ondersteuning voor alle f
 
 Voordat u Planningsoptimalisatie inschakelt, kunt u het beste de resultaten van de analyse voor passende Planningsoptimalisatie evalueren. Zie [Analyse voor passende Planningsoptimalisatie](planning-optimization-fit-analysis.md) voor meer informatie.
 
-### <a name="availability"></a>Beschikbaarheid
-Planningsoptimalisatie is momenteel beschikbaar in de volgende Azure-regio's: Verenigde Staten, Canada, Europa, Verenigd Koninkrijk en Australië. Als u de invoegtoepassing vanuit een andere geografische regio probeert te installeren, wordt in LCS een bericht weergegeven dat deze niet wordt ondersteund.
+## <a name="availability"></a>Beschikbaarheid
+
+Planningsoptimalisatie is momenteel beschikbaar in de volgende Azure-regio's: Verenigde Staten, Canada, Europa, Verenigd Koninkrijk, Australië en Azië/Pacific. Als u de invoegtoepassing vanuit een andere geografische regio probeert te installeren, wordt in LCS een bericht weergegeven dat deze niet wordt ondersteund.
 
 Planningsoptimalisatie wordt niet ondersteund voor on-premises implementaties van Dynamics 365 Supply Chain Management.
 
-### <a name="licensing"></a>Licenties
+## <a name="licensing"></a>Licenties
 
 Als u de hoofdplanning kunt uitvoeren met uw huidige licentie, hoeft u geen extra licentie aan te schaffen om Planningsoptimalisatie te kunnen gebruiken.
 
-### <a name="install-the-add-in"></a>De invoegtoepassing installeren
+## <a name="install-and-enable-planning-optimization"></a>Planningsoptimalisatie installeren en inschakelen
 
-Als u Planningsoptimalisatie wilt gebruiken, moet u de invoegtoepassing Planningsoptimalisatie voor Dynamics 365 Supply Chain Management gebruiken. U kunt de invoegtoepassing openen vanuit uw LCS-project en de functie Planningsoptimalisatie inschakelen via de gebruikersinterface van Supply Chain Management.
+Als u Planningsoptimalisatie wilt gebruiken, moet u ervoor zorgen dat het systeem aan alle vereisten voldoet. Vervolgens moet u de licentiesleutel inschakelen en de invoegtoepassing Planningsoptimalisatie voor Dynamics 365 Supply Chain Management installeren.
 
-> [!NOTE]
-> De vereiste voor Planningsoptimalisatie is een omgeving met grote beschikbaarheid voor LCS, tier 2 of hoger (geen OneBox-omgeving), met Dynamics 365 Supply Chain Management versie 10.0.7 of hoger. Als u de invoegtoepassing in een OneBox-omgeving probeert te installeren, wordt de installatie niet voltooid en moet u de installatie annuleren.
+### <a name="prerequisites"></a>Vereisten
+
+Voordat u de invoegtoepassing Planningsoptimalisatie installeert, moet aan de volgende vereisten zijn voldaan:
+
+- U moet Supply Chain Management uitvoeren in een omgeving met grote beschikbaarheid voor LCS, tier 2 of hoger (geen OneBox-omgeving), met Dynamics 365 Supply Chain Management versie 10.0.7 of hoger. Als u de invoegtoepassing in een OneBox-omgeving probeert te installeren, wordt de installatie niet voltooid en moet u de installatie annuleren.
+
+- Uw systeem moet zijn ingesteld voor Power Platform-integratie. Zie [Vereisten voor het instellen van invoegtoepassingen](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#prerequisites-for-setting-up-add-ins) en [Invoegtoepassingen instellen](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#set-up-add-ins) voor meer informatie.
+
+### <a name="enable-the-planning-optimization-license"></a>De Planningsoptimalisatie-licentie inschakelen
+
+Als u Planningsoptimalisatie wilt gebruiken, moet u de configuratiesleutel ervan activeren. U doet dit als volgt:
+
+1. Plaats uw systeem in de onderhoudsmodus, zoals wordt beschreven in [Onderhoudsmodus](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Ga naar **Systeembeheer \> Instellingen \> Licentieconfiguratie**.
+1. Schakel op het tabblad **Configuratiesleutels** het selectievakje in voor **Planningsoptimalisatie**.
+1. Schakel de onderhoudsmodus uit, zoals wordt beschreven in [Onderhoudsmodus](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+### <a name="install-the-planning-optimization-add-in"></a>De invoegtoepassing Planningsoptimalisatie installeren
+
+U moet de invoegtoepassing installeren vanuit uw LCS-project en vervolgens de functie Planningsoptimalisatie inschakelen via de gebruikersinterface van Supply Chain Management.
+
+De invoegtoepassing Planningsoptimalisatie installeren:
 
 1. Meld u aan bij LCS en open de gewenste omgeving.
 1. Ga naar **Volledige details**.
@@ -64,16 +84,16 @@ Als u Planningsoptimalisatie wilt gebruiken, moet u de invoegtoepassing Planning
 1. Selecteer **Planningsoptimalisatie**.
 1. Volg de installatiehandleiding en ga akkoord met de voorwaarden en bepalingen.
 1. Selecteer **Installeren**.
-1. Op het sneltabblad **Invoegtoepassingen voor omgeving** zou u moeten zien dat planningsoptimalisatie wordt geïnstalleerd.
+1. Op het sneltabblad **Invoegtoepassingen voor omgeving** ziet u dat Planningsoptimalisatie wordt geïnstalleerd.
 1. Na een paar minuten moet **Installeren** veranderen in **Geïnstalleerd** (u moet de pagina mogelijk vernieuwen). Wanneer Planningsoptimalisering is geïnstalleerd, kunt u het activeren in Dynamics 365 Supply Chain Management.
 
 Het hoofddoel van het installeren van de invoegtoepassing Planningsoptimalisatie is het verbinden van de service en de omgeving. Daarom moet u de invoegtoepassing afzonderlijk installeren in elke omgeving waarin u Planningsoptimalisatie wilt gebruiken, ongeacht eventuele code die tussen de omgevingen wordt verplaatst.
 
-### <a name="planning-optimization-integration"></a>Integratie van Planningsoptimalisatie
+## <a name="integrate-planning-optimization-with-your-system"></a>Planningsoptimalisatie integreren met uw systeem
 
 Als u wilt configureren of de invoegtoepassing Planningsoptimalisatie moet worden gebruikt voor hoofdplanning, gaat u naar **Hoofdplanning** \> **Instellen** \> **Integratie van Planningsoptimalisatie**.
 
-#### <a name="connection-status"></a>Verbindingsstatus
+### <a name="connection-status"></a>Verbindingsstatus
 
 De verbindingsstatus geeft de huidige status aan van de verbinding tussen Supply Chain Management en de service Planningsoptimalisatie. De volgende tabel bevat de mogelijke waarden.
 
@@ -85,7 +105,7 @@ De verbindingsstatus geeft de huidige status aan van de verbinding tussen Supply
 | Verbinding wordt uitgeschakeld | Een aanvraag om de verbinding met de service Planningsoptimalisatie uit te schakelen, wordt momenteel uitgevoerd. | Nee |
 | Status ophalen | Het systeem wacht op statusinformatie van de service Planningsoptimalisatie. | Nee |
 
-#### <a name="the-use-planning-optimization-option"></a>De optie Planningsoptimalisatie gebruiken
+### <a name="the-use-planning-optimization-option"></a>De optie Planningsoptimalisatie gebruiken
 
 De instelling van de optie **Planningsoptimalisatie gebruiken** bepaalt welke planningsengine wordt gebruikt voor de hoofdplanning:
 
@@ -112,6 +132,3 @@ Als Planningsoptimalisatie is ingeschakeld, wordt de hoofdplanning uitgevoerd me
 [Filters op een plan toepassen](plan-filters.md)
 
 [Een planningstaak annuleren](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

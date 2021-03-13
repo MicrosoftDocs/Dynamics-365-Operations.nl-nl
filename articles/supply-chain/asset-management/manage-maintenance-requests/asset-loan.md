@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetObjectLoanSend, EntAssetObjectLoanListPage, EntAssetObjectLoanReturn, EntAssetObjectLoanInfoPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: cba680d0ad626e0275539d7478a83639a9d22635
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 355e3d3e0e952db14a03810145528f9701804ca2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425507"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022327"
 ---
 # <a name="asset-loans"></a>Geleende activa
 
@@ -58,6 +57,3 @@ Op de pagina **Actieve geleende activa** kunt u een lijst weergeven met alle gel
 3. Voer de datum en de tijd in het veld **Geretourneerd** in.
 4. Selecteer **OK**.
 5. Vernieuw de pagina met de lijst **Actieve geleende activa** en u ziet dat het geleende activum niet meer op de lijst voorkomt.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

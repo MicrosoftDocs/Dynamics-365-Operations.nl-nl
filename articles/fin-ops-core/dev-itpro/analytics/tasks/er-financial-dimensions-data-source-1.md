@@ -1,6 +1,6 @@
 ---
 title: 'ER Financiële dimensies gebruiken als gegevensbron (deel 1: Gegevensmodel ontwerpen)'
-description: In de volgende stappen wordt uitgelegd hoe een systeembeheerder of ontwikkelaar voor elektronische rapportage een ER-gegevensmodel (elektronische rapportage) kan configureren om financiële dimensies te gebruiken als bron voor ER-rapporten.
+description: In dit onderwerp wordt beschreven hoe u een ER-model (Electronic Reporting) configureert om financiële dimensies te gebruiken als gegevensbron voor ER-rapporten. (Deel 1)
 author: NickSelin
 manager: AnnBe
 ms.date: 05/27/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 35c4a05fb15a7e3166c6d075569debcf9cbc3cc3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 92d29d954debddd509eaba6b710f39b218da2c77
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681704"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092170"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-1---design-data-model"></a>ER Financiële dimensies gebruiken als gegevensbron (deel 1: Gegevensmodel ontwerpen)
 
@@ -108,6 +108,3 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen in de procedure "Een 
 
 ![Pagina voor ontwerper van ER-gegevensmodel](../media/er-financial-dimensions-guides-data-model.png)
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -10,22 +10,21 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 768b20ecc8d15353258c9b3af69b897957d3de60
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
+ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594953"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5053408"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Meerdere ophaal- en bezorgmethodes inschakelen voor klantorders
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 In Microsoft Dynamics 365 Commerce versie 10.0.16 en hoger kunnen organisaties meerdere leveringsmethoden definiëren die door kopers of verkoopvertegenwoordigers kunnen worden gekozen wanneer ze een order maken die wordt opgehaald in een winkel. Op deze manier kunnen organisaties meerdere afhaalopties aan hun klanten aanbieden. Veel detailhandelaren bieden een klant bijvoorbeeld de keuze voor ophalen in de winkel of bij een afhaalpunt. Commerce ondersteunt de configuratie van deze verschillende ophaalmethodes. Gebruikers kunnen daarvan profiteren wanneer ze klantorders maken in een ondersteund Commerce-kanaal (e-commerce, Call Center of winkel).
 
@@ -86,6 +85,3 @@ Wanneer meerdere leveringsmethodes schikbaar zijn voor een kanaal, wordt er een 
 ## <a name="considerations-for-distributed-order-management"></a>Overwegingen voor gedistribueerd orderbeheer
 
 De [DOM-functies (gedistribueerd orderbeheer)](https://docs.microsoft.com/dynamics365/commerce/dom) in Commerce negeren alle verkoopregels die zijn gemarkeerd voor ophalen in een winkel. Deze functies zijn bijgewerkt om ervoor te zorgen dat verkoopregels die zijn gekoppeld aan geconfigureerde leveringsmethoden de DOM-logica omzeilen en niet opnieuw worden toegewezen aan een nieuw leveringsmagazijn.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
