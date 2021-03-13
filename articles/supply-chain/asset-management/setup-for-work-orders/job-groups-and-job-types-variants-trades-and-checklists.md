@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetJobTypeDefaultForecast, EntAssetJobTrade, EntAssetJobTypeDefaultCopy, EntAssetChecklistVariableValueLookup, EntAssetChecklistTemplateCreate, EntAssetJobVariant, EntAssetJobTypeDefaultReference, EntAssetJobTypeDefaultChecklist, EntAssetJobTypeDefault, EntAssetJobType, EntAssetJobTypeDefaultChecklistCopy, EntAssetChecklistTemplate, EntAssetJobTypeDefaultDescription, EntAssetJobTypeLookup, EntAssetJobTypeDefaultToolCopy, EntAssetJobTypePreviewPart, EntAssetJobTypeDefaultTool, EntAssetJobTypeDefaultForecastCopy, EntAssetChecklistTemplateLookup, EntAssetJobGroup, EntAssetChecklistVariable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8bf7c53a6150a2beeca5c6e9b5ab4ea98584158d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a335d642457fdd84ec42e285425fdc6212889cc0
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425425"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021268"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorieën van onderhoudstaaktypen en onderhoudstaaktypen, varianten van onderhoudstaaktypen, onderhoudstaakspecialismen en onderhoudscontrolelijsten
 
@@ -267,6 +266,3 @@ In Activabeheer kunt u eventuele wijzigingen in prognoses voor typen onderhoudst
 2. In het dialoogvenster **Prognose type onderhoudstaken bijwerken**, op het Sneltabblad **Records om op te nemen**, kunt u selecties voor specifieke typen onderhoudstaken toevoegen als u deze nodig hebt. Selecteer **Filter** en selecteer vervolgens **selecteren** om de selecties te maken.
 3. Indien nodig kunt u de automatische update op het Sneltabblad **Op de achtergrond uitvoeren** instellen als een batchtaak.
 4. Selecteer **OK** om de update van de prognose te starten.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Een vrijgaveorder maken voor inkoop van een inkoopovereenkomst
 description: Deze procedure laat zien hoe u een inkoopovereenkomst gebruikt wanneer u een inkooporder maakt.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/09/2019
 ms.topic: business-process
@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee0c40dfc3c820343c7054238cc2da47e8203d59
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7c095eaf1a93d6f1a803c6c9618c930fb2eda2d2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425384"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021059"
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>Een vrijgaveorder maken voor inkoop van een inkoopovereenkomst
 
@@ -59,6 +58,3 @@ Deze procedure laat zien hoe u een inkoopovereenkomst gebruikt wanneer u een ink
 3. Sluit de pagina.
 4. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

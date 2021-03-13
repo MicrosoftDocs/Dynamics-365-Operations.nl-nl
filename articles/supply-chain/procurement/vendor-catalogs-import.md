@@ -1,7 +1,7 @@
 ---
 title: Leverancierscatalogi importeren
 description: Dit onderwerp beschrijft het importproces van leverancierscatalogusgegevens.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 03/20/2018
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests, CatVendorCatalogDetails, CatVendorCatalogReleaseApprovedProducts, CatVendorCMRDetails, CatVendorCatalogProductPerCompanyStatus, CatVendorMaintenanceEventLog, CatVendorCatalogReviewTool, CatVendorCatalogFileUpload, CatVendorCatalogMaintenanceRequest, CatVendorCatalogFileInLegalEntity, CatVendorCatalogSchema, CatVendorCatalogFilePreviewPane, CatVendorCatalogImportParameter
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 7ed2c50b28fdbd1baf4caa0a8a7f2f05d6a53fd6
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6a6fc2b4fe4245a1fe5b5a7eaafe8cc7fd337ab9
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425864"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020749"
 ---
 # <a name="import-vendor-catalogs"></a>Leverancierscatalogi importeren
 
@@ -70,6 +69,3 @@ De sjabloon voor het catalogusimportbestand is een XSD-bestand dat u kunt gebrui
 3. Selecteer in het dialoogvenster **Opslaan als** de locatie waar u de sjabloon voor het catalogusbestand wilt opslaan, waarna u het bestand opslaat.
 
 Voor meer informatie en voorbeelden verwijzen we naar dit blogbericht: [Leverancierscatalogi in Dynamics AX.](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
