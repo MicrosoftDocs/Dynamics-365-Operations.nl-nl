@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationObjectChange, EntAssetFunctionalLocationObjectInstall, EntAssetFunctionalLocationObject
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85b9f473cc725896a00501510eea02d7cfb21782
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5ea67e2392d8e25a2a5f3cb7e1ff5032322f2c48
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425335"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022025"
 ---
 # <a name="install-assets-on-functional-locations"></a>Activa installeren op functionele locaties
 
@@ -83,6 +82,3 @@ Wanneer de instellingsgegevens beschikbaar zijn, kunt u een activum gaan maken.
 1. Controleer op de pagina **Alle functionele locaties** of de functionele locatie waar u wilt dat het activum automatisch wordt gemaakt, gebruikmaakt van het type functionele locatie dat u voor dit doel hebt gemaakt.
 2. Alle de functionele locatie in de lijst.
 3. Selecteer **Status van functionele locatie bijwerken** en selecteer vervolgens de levenscyclusstatus die u voor dit doel hebt gemaakt. Er wordt nu automatisch één activum op de functionele locatie geïnstalleerd. Dit activum heeft dezelfde naam als de functionele locatie.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
