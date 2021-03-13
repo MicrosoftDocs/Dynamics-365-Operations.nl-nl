@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425828"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014478"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Taak voor het opruimen van voorhanden artikelen in magazijnbeheer
 
@@ -50,7 +49,12 @@ Wanneer de taak wordt uitgevoerd, heeft deze een toegewezen grootte van 100. Met
 
 ## <a name="possible-user-impact"></a>Mogelijke gevolgen voor de gebruiker
 
-Gebruikers kunnen last hebben van het probleem als met de taak voor het opruimen van voorhanden artikelen alle records voor een bepaald niveau (zoals het nummerplaatniveau) worden verwijderd. In dit geval werkt de functionaliteit voor de observatie dat voorraad voorheen beschikbaar was op een nummerplaat mogelijk niet correct omdat de relevante voorhanden artikelen niet meer beschikbaar zijn. (Deze functie controleert de voorwaarde **Hoeveelheid \<\> 0** in de instellingen **Weergave van dimensies** wanneer gebruikers informatie over voorhanden voorraad bekijken.) De prestatieverbetering die de opruimtaak biedt, moet dit geringe functionaliteitsverlies echter ruimschoots compenseren.
+Gebruikers kunnen last hebben van het probleem als met de taak voor het opruimen van voorhanden artikelen alle records voor een bepaald niveau (zoals het nummerplaatniveau) worden verwijderd. In dit geval werkt de functionaliteit voor de observatie dat voorraad voorheen beschikbaar was op een nummerplaat mogelijk niet correct omdat de relevante voorhanden artikelen niet meer beschikbaar zijn. Dit kan bijvoorbeeld worden ervaren in de volgende situaties:
+
+- In de **Voorhanden voorraad** wanneer de gebruiker de voorwaarde **Hoeveelheid \<\>0** deselecteert of de voorwaarde **Afgesloten transacties** selecteert in de instellingen **Weergave van dimensies**.
+- In een **Fysieke voorraad per voorraaddimensie**-rapport voor perioden in het verleden wanneer de gebruiker de parameter **Begindatum** instelt.
+
+De prestatieverbetering die de opschoningstaak oplevert moet deze kleine verliezen in functionaliteit echter goed maken.
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>De instelling voor maximale uitvoeringstijd beschikbaar maken
 
@@ -58,6 +62,3 @@ De instelling **Maximale uitvoeringstijd** is standaard niet beschikbaar. Als u 
 
 - **Module:** *Magazijnbeheer*
 - **Functienaam:** *Maximale uitvoeringstijd voor de taak voor het opruimen van voorhanden artikelen in magazijnbeheer*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

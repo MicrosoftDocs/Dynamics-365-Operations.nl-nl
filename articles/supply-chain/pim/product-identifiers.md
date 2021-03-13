@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f28193f9671bcae1345d5c1085ea3f2446e6e088
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529181"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011360"
 ---
 # <a name="product-identifiers"></a>Product-id's
 
@@ -44,7 +43,7 @@ In veel gevallen is het productnummer oorspronkelijk niet gemaakt in Dynamics 36
 
 Wanneer u Supply Chain Management implementeert, moet u extra aandacht aan uw strategie voor productnummers besteden. Een goed nummeringssysteem verbetert de logistieke stromen en kan fouten helpen voorkomen. Een goede product-id bestaat uit maximaal 15 tekens. In het ideale geval bestaat de id uit minder dan 10 tekens en bevat deze niet meer dan vijf classificerende tekens. U kunt ook zoeknamen gebruiken om snelle zoekacties mogelijk te maken. Een zoeknaam is een extra naam die de classificaties van een product vertegenwoordigt.
 
-Wanneer u Common Data Service gebruikt, is het productnummer in Supply Chain Management ook het productnummer in de Common Data Service. Productvarianten worden als aparte producten naar de Common Data Service gesynchroniseerd.
+Wanneer u Microsoft Dataverse gebruikt, is het productnummer in Supply Chain Management ook het productnummer in Microsoft Dataverse. Productvarianten worden als aparte producten naar Dataverse gesynchroniseerd.
 
 ## <a name="item-number-and-product-dimensions"></a>Artikelnummer en productdimensies
 
@@ -167,7 +166,7 @@ De volgende tabel biedt een overzicht van de resultaten van het importeren en ha
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Productentiteit-id (alle product-id's exporteren)
 
-Het model voor productentiteit-id's is gemaakt om versie 1.0 van CDS te kunnen inrichten met alle id's die worden gebruikt om te verwijzen naar een product. Om deze taak te vereenvoudigen, worden alle id's samengevoegd in één algemene id-tabel, zodat ze kunnen worden geëxporteerd als één model. Houd er rekening mee dat deze versie van CDS het model voor product-id's niet gebruikt. Daarom hebben de entiteit **Entiteit voor Common Data Service-id voor productentiteit** en dit proces een beperkt praktisch nut en worden deze waarschijnlijk gewijzigd in de toekomst.
+Het model voor productentiteit-id's is gemaakt om versie 1.0 van Dataverse te kunnen inrichten met alle id's die worden gebruikt om te verwijzen naar een product. Om deze taak te vereenvoudigen, worden alle id's samengevoegd in één algemene id-tabel, zodat ze kunnen worden geëxporteerd als één model. Houd er rekening mee dat deze versie van Dataverse het model voor product-id's niet gebruikt. Daarom hebben de entiteit **Entiteit voor Common Data Service-id voor productentiteit** en dit proces een beperkt praktisch nut en worden deze waarschijnlijk gewijzigd in de toekomst.
 
 De tabel met product-id's is een globale tabel die wordt gevuld op basis van alle verwijzingstabellen van de hoofdrechtspersoon via een terugkerende batchtaak. U moet een rechtspersoon en een productcategoriehiërarchie selecteren als de definitie van het bereik van het globale productmodel. Er wordt alleen een globale tabel met product-id's gegenereerd voor producten die voor de geselecteerde rechtspersoon zijn vrijgegeven en producten die deel uitmaken van de producthiërarchie die is geselecteerd voor de rol **Common Data Service** in de productcategoriehiërarchie.
 
@@ -175,7 +174,7 @@ Hierbij wordt ervan uitgegaan dat producthoofdgegevens voornamelijk worden behee
 
 Ga als volgt te werk om de omgeving te configureren.
 
-1. Selecteer de categoriehiërarchie voor CDS. Als op de pagina **Rolkoppelingen categoriehiërarchie** geen hiërarchie is gekoppeld aan de rol **Common Data Service** , moet u een nieuwe koppeling maken. Selecteer de rol **Common Data Service** en koppel vervolgens de categoriehiërarchie die staat voor het productaanbod dat moet worden gesynchroniseerd naar CDS.
+1. Selecteer de categoriehiërarchie voor Dataverse. Als op de pagina **Rolkoppelingen categoriehiërarchie** geen hiërarchie is gekoppeld aan de rol **Common Data Service** , moet u een nieuwe koppeling maken. Selecteer de rol **Common Data Service** en koppel vervolgens de categoriehiërarchie die staat voor het productaanbod dat moet worden gesynchroniseerd naar Dataverse.
 2. Selecteer de rechtspersoon voor globale producthoofdgegevens. Selecteer op de pagina **Parameters productgegevensbeheer** op het tabblad **Productkenmerken** het hoofdbedrijf waar de product- en artikel-id's voornamelijk worden beheerd.
 3. Definieer de id-codetypen en -codes die moeten worden geëxporteerd. Ga naar **Productgegevensbeheer** &gt; **Instellingen** &gt; **Identificatiecodes voor producten**. Selecteer **Codes genereren** om de typen id-codes te genereren. Een codetypevermelding wordt gegenereerd voor elk type id dat wordt gevonden in de geselecteerde rechtspersoon.
 
@@ -190,6 +189,3 @@ Nu kunt u de gegevensentiteiten **Entiteit voor Common Data Service-id voor prod
 ## <a name="related-topic"></a>Verwant onderwerp
 
 [Producten en productvarianten zoeken tijdens orderinvoer](search-products-product-variants.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

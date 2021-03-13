@@ -1,7 +1,7 @@
 ---
 title: Een externe catalogus instellen voor PunchOut eProcurement
 description: In dit onderwerp wordt het gebruik beschreven van een externe of PunchOut-catalogus voor het verzamelen van offertegegevens van een leverancier en het toevoegen ervan aan een bestelopdracht.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 11/02/2017
 ms.topic: article
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchVendorPortalRequests, CatExternalCatalogConfiguration, CatCXMLCartLogList
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dc6a38b1a9eebdee64762671bb501e5e1294399
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 1f6e551f9d3d181674595e945bf1fb4c62a70ed5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425820"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016372"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>Een externe catalogus instellen voor PunchOut eProcurement
 
@@ -45,7 +44,7 @@ De externe catalogus moet ervoor zorgen dat een werknemer die een opdracht tot i
 2. Registreer de leverancier in Supply Chain Management. Voordat u configuraties kunt instellen om toegang te krijgen tot de externe catalogus van de leverancier, moet u de leverancier en de contactpersoon van de leverancier eerst instellen in Microsoft Dynamics 365. De leverancier van de externe catalogus moet ook aan de geselecteerde aanschaffingscategorie worden toegevoegd. Zie voor meer informatie over het registreren van leveranciers het onderwerp [Gebruikers van leverancierssamenwerking beheren](manage-vendor-collaboration-users.md). Zie voor uitleg over het toewijzen van leveranciers aan een inkoopcategorie het onderwerp [Leveranciers goedkeuren voor specifieke aanschaffingscategorieën](tasks/approve-vendors-specific-procurement-categories.md).
 3. Let erop dat de maateenheden en de valuta waarmee de leverancier werkt, zijn ingesteld. Zie voor informatie over het maken van een maateenheid [Maateenheid beheren](../pim/tasks/manage-unit-measure.md).
 4. Configureer de externe leverancierscatalogus op basis van de vereisten voor de site van de externe catalogus van uw leverancier. Zie [De externe leverancierscatalogus configureren](#configure-the-external-vendor-catalog) voor meer informatie over deze taak.
-5. Test de configuraties van de externe catalogus van de leverancier om te verifiëren dat de instellingen geldig zijn en dat u toegang kunt krijgen tot de externe catalogus van de leverancier. Gebruik de actie **Instellingen valideren** om het bericht voor instellen van de aanvraag te valideren, dat u hebt gedefinieerd. Dit bericht moet ervoor zorgen dat de externe catalogussite van de leverancier wordt geopend in een browservenster. Zolang de validatie duurt, kunt u geen artikelen en services bij de leverancier bestellen. Om artikelen en diensten te bestellen, moet u de catalogus van de leverancier benaderen via een opdracht tot inkoop.
+5. Test de configuraties van de externe catalogus van de leverancier om te verifiëren dat de instellingen geldig zijn en dat u toegang kunt krijgen tot de externe catalogus van de leverancier. Gebruik de actie **Instellingen valideren** om het door u gedefinieerde bericht voor het instellen van de aanvraag te valideren. Dit bericht moet ervoor zorgen dat de externe catalogussite van de leverancier wordt geopend in een browservenster. Zolang de validatie duurt, kunt u geen artikelen en services bij de leverancier bestellen. Om artikelen en diensten te bestellen, moet u de catalogus van de leverancier benaderen via een opdracht tot inkoop.
 6. Activeer de externe catalogus door middel van de knop **Catalogus activeren** op de pagina **Externe catalogi**. De externe catalogus moet worden geactiveerd voordat werknemers deze kunnen gebruiken. U kunt de externe catalogus op elk gewenst moment uitschakelen.
 
 
@@ -54,19 +53,18 @@ De externe catalogus moet ervoor zorgen dat een werknemer die een opdracht tot i
 Deze sectie biedt meer details over taak 4 uit de vorige sectie.
 
 1. Voer een naam en omschrijving in voor de externe catalogus van de leverancier. De naam die u invoert, wordt weergegeven op de winkelwagen die de externe catalogus vertegenwoordigt die wordt weergegeven aan werknemers die een opdracht tot inkoop maken. Een werknemer kan op de winkelwagen klikken om de catalogus te openen op de site van de externe catalogus van de leverancier.
-2. Voeg een afbeelding toe met behulp van de actie **Externe catalogusafbeelding**. De afbeelding wordt weergegeven op de winkelwagen die de externe catalogus vertegenwoordigt die wordt weergegeven aan werknemers die een opdracht tot inkoop maken. De breedte en hoogte van de afbeelding moeten gelijk zijn. Anders wordt de afbeelding niet correct weergegeven.
+2. Voeg een afbeelding toe met behulp van de actie **Externe catalogusafbeelding**. De afbeelding wordt weergegeven op de winkelwagen die de externe catalogus vertegenwoordigt die wordt weergegeven aan werknemers die een opdracht tot inkoop maken. De breedte en hoogte van de afbeelding moeten gelijk zijn. Anders wordt de afbeelding niet correct weergegeven.
 3. Geef aan of de website van de externe catalogus van de leverancier moet worden weergegeven in hetzelfde browservenster als waarin de werknemer de inkoopopdracht heeft gemaakt, of dat deze in een nieuw venster wordt geopend.
 4. Selecteer de leverancier voor de catalogus. In de lijst **Rechtspersonen** is er een rij voor elke rechtspersoon waarvoor de leverancier is ingesteld. Als u wilt toestaan dat gebruikers producten rechtstreeks uit de catalogus van de leverancier bestellen in sommige rechtspersonen maar niet in andere, kunt u dit instellen met de knoppen **Toegang voorkomen** of **Toegang toestaan** voor elke rechtspersoon waarvoor u de catalogus al dan niet toegankelijk wilt maken.
 5. Voer in het veld **Standaardvervalperiode (dagen)** het aantal dagen in dat een offerte uit de externe catalogus geldig is en kan worden gebruikt om in te kopen bij de externe leverancier. Wanneer een offerte wordt gemaakt en opgehaald van de site van de externe catalogus van de leverancier, dan is de offerte geldig met ingang van de huidige systeemdatum en blijft geldig gedurende het aantal dagen dat u in dit veld invoert.
-6. Klik op de knop **Toevoegen** om de aanschaffingscategorieën aan de externe catalogus toe te wijzen. Selecteer vervolgens een categorie in de lijst Categorienaam. De lijst met categorieën is een superset van aanschaffingscategorieën waaraan de leverancier is toegewezen in alle rechtspersonen die zijn ingesteld voor de leverancier.
+6. Klik op de knop **Toevoegen** om de aanschaffingscategorieën aan de externe catalogus toe te wijzen. Selecteer vervolgens een categorie in de lijst Categorienaam. De lijst met categorieën is een superset van aanschaffingscategorieën waaraan de leverancier is toegewezen in alle rechtspersonen die zijn ingesteld voor de leverancier.
 
     > [!NOTE]
-    > Aanschaffingsbeleidsregels worden gebruikt om toegang tot categorieën toe te staan of te verbieden voor de kopende rechtspersoon of de ontvangende operationele eenheid. Punchout naar een externe catalogus vereist dat toegang wordt toegestaan tot tenminste één van de aanschaffingscategorieën die is toegewezen aan de catalogus.
+    > Aanschaffingsbeleidsregels worden gebruikt om toegang tot categorieën toe te staan of te verbieden voor de kopende rechtspersoon of de ontvangende operationele eenheid. Punchout naar een externe catalogus vereist dat toegang wordt toegestaan tot tenminste één van de aanschaffingscategorieën die is toegewezen aan de catalogus.
 
 7. Stel het cXML bericht voor instellen van de aanvraag in, dat wordt verzonden naar de leverancier. De automatisch gegenereerde berichtindeling is de minimale sjabloon die is vereist om een sessie starten. Vul waarden in voor de codes.
 
-U kunt op elk gewenst moment de door het systeem gegenereerde berichtsjabloon laden door te klikken op **Berichtindeling herstellen**. 
-Houd er rekening mee dat als u de berichtindeling herstelt, het huidige bericht wordt vervangen door de automatisch gegenereerde berichtindeling met lege codes.
+U kunt op elk gewenst moment de door het systeem gegenereerde berichtsjabloon laden door te klikken op **Berichtindeling herstellen**. Houd er rekening mee dat als u de berichtindeling herstelt, het huidige bericht wordt vervangen door de automatisch gegenereerde berichtindeling met lege codes.
 
 ### <a name="cxml-setup-message"></a>cXML-instellingsbericht
 Hieronder volgt een beschrijving van de codes die zijn opgenomen in de sjabloon:
@@ -91,7 +89,7 @@ Geef een naam op voor het extrinsieke element dat de leverancier kan herkennen, 
 Zie voor meer informatie over het cXML-protocol de [cXML.org-website](http://cxml.org/).
 
 ## <a name="post-back-message"></a>Terugpostbericht
-Het terugpostbericht is het bericht dat wordt ontvangen van de leverancier wanneer de gebruiker bij de externe site uitcheckt en terugkeert naar Supply Chain Management. Terugpostberichten kunnen niet worden geconfigureerd. De berichten zijn gebaseerd op de definitie van het cXML-protocol. Hier is de informatie die deel kan uitmaken van het terugpostbericht dat is ontvangen voor een inkoopregel.
+Het terugpostbericht is het bericht dat wordt ontvangen van de leverancier wanneer de gebruiker bij de externe site uitcheckt en terugkeert naar Supply Chain Management. Terugpostberichten kunnen niet worden geconfigureerd. De berichten zijn gebaseerd op de definitie van het cXML-protocol. Hier is de informatie die deel kan uitmaken van het terugpostbericht dat is ontvangen voor een inkoopregel.
 
 | Bericht ontvangen van leverancier | Gekopieerd naar inkoopregel|
 |------------------------------|----------------------------------------------------------|
@@ -114,5 +112,3 @@ Als een product in de catalogus van de externe leverancier is aangevraagd, kan d
 
 - [Verbeteringen inkoop-cXML](purchasing-cxml-enhancements.md)
 - [Externe catalogi gebruiken voor PunchOut eProcurement](use-external-catalogs-for-punchout.md)
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

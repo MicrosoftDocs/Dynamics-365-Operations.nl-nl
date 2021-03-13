@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bd85d9cd2d7273ad6e05d794a96e4d6a8d7c526
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425244"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010767"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Van toepassing zijnde prijzen en kortingen opzoeken
 
@@ -60,6 +59,3 @@ Zorg ervoor dat het veld Klantrekening klantnummer US-001 bevat.
     * Er zijn twee regelkortingovereenkomsten voor product T0012, die een korting van 5% opgeven voor een orderregelhoeveelheid van 1 tot 10, en een korting van 7% voor orderhoeveelheden boven 10. Merk op dat de kortingen worden toegepast op een groep producten, in dit voorbeeld groepscode 01, waarvan product T0012 lid is.  
 4. Sluit de pagina.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

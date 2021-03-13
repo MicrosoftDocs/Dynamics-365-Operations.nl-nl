@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup,  ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3ae3d8a7c437ffd41a4864bd8548aa84c8ab8f32
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c368e461860a41d0110f5aed79c2aac49c437d68
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425303"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011398"
 ---
 # <a name="create-an-intercompany-plan"></a>Een intercompany-plan maken
 
@@ -54,6 +53,3 @@ Deze procedure laat zien hoe u een intercompany-plan maakt. Het bedrijf van de d
 2. Klik in de lijst op de koppeling in de geselecteerde rij. Klik op de koppeling voor StaticPlan. U moet in het bedrijf USMF zijn.  
 3. Klik op **Geplande orders**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

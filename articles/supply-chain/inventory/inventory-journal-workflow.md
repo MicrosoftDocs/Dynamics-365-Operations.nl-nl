@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventJournalTableWorkflowDropDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 623c628f3359efc1f76e1d06387905f981deca0b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d9f57d35adac0820d0635ab97a4cb4cefc1d504c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425201"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011667"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Goedkeuringswerkstromen voor voorraadjournalen
 
@@ -31,6 +30,13 @@ In dit onderwerp wordt beschreven hoe u goedkeuringswerkstromen voor voorraadjou
 
 > [!NOTE]
 > Goedkeuringswerkstromen voor voorraadjournalen zijn alleen van toepassing op transacties die zijn vastgelegd in de module Voorraadbeheer. Ze werken niet met voorraadjournalen die vanuit de module Magazijnbeheer zijn geactiveerd.
+
+## <a name="turn-on-the-inventory-journal-approval-workflows-feature"></a>De functie Goedkeuringswerkstromen voor voorraadjournalen inschakelen
+
+Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+
+- **Module:** *Voorraad- en magazijnbeheer*
+- **Functienaam:** *Goedkeuringswerkstroom voor voorraadjournaal*
 
 ## <a name="create-your-inventory-journal-approval-workflows"></a>Uw goedkeuringswerkstromen voor voorraadjournalen maken
 
@@ -112,6 +118,3 @@ De werkstroomhistorie voor een journaal controleren:
 1. Vouw in het navigatiedeelvenster **Voorraadbeheer \> Journaalposten \> Artikelen** uit en selecteer vervolgens een voorraadjournaaltype.
 1. Open het relevante journaal.
 1. Selecteer de knop **Werkstroom** in het actievenster om een vervolgdialoogvenster te openen. Selecteer **Workflowhistorie**. Zie voor meer informatie [Werkstroomhistorie bekijken](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

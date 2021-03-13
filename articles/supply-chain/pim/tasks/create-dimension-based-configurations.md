@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, EcoResDimensionBasedConfiguration, ConfigChooseFromRoute, ConfigChooseFromGroup, ConfigChoiceApprove
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c3e5cd2677480b14739f963cf4a74efaa7f2bd2a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 74ac3b2202a6a8c99d0a4ddce60b305f7d2a48f6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425448"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011267"
 ---
 # <a name="create-dimension-based-configurations"></a>Op dimensies gebaseerde configuraties maken
 
@@ -53,6 +52,3 @@ Deze procedure laat zien hoe u een configuratie voor een op dimensies gebaseerd 
     * Voer een omschrijving van de configuratie in om uit te leggen wat deze bevat.  
 11. Klik op OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

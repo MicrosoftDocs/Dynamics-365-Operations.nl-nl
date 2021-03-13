@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 28445592d7a2a8964b1642ae52cff08be6feabbe
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0c0c1bafb5b36bb9ddc00061e0040a199c8c033d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529501"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010842"
 ---
 # <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Voorraadcorrecties uit Supply Chain Management synchroniseren met Field Service
 
@@ -45,20 +44,20 @@ De volgende sjabloon en onderliggende taken worden gebruikt voor het synchronise
 **Taak in het project Gegevensintegratie**
 - Magazijn
 
-## <a name="entity-set"></a>Entiteitset
+## <a name="table-set"></a>Tabelset
 | Field Service    | Supply Chain Management                 |
 |------------------|----------------------------------------|
 | msdyn_warehouses | Magazijnen                             |
 
-## <a name="entity-flow"></a>Entiteitstroom
-Magazijnen die worden gemaakt en beheerd in Supply Chain Management kunnen worden gesynchroniseerd met Field Service via een Common Data Service-gegevensintegratieproject (CDS). Met de functie voor geavanceerde query's en projectfilters kunnen de magazijnen die u wilt synchroniseren met Field Service worden beheerd. Magazijnen die vanuit Supply Chain Management worden gesynchroniseerd, worden gemaakt in Field Service met het veld **Wordt extern onderhouden** ingesteld op **Ja** en de record ingesteld op alleen-lezen.
+## <a name="table-flow"></a>Tabelstroom
+Magazijnen die worden gemaakt en beheerd in Supply Chain Management, kunnen worden gesynchroniseerd met Field Service via een Microsoft Dataverse-gegevensintegratieproject (CDS). Met de functie voor geavanceerde query's en projectfilters kunnen de magazijnen die u wilt synchroniseren met Field Service worden beheerd. Magazijnen die vanuit Supply Chain Management worden gesynchroniseerd, worden gemaakt in Field Service met de kolom **Wordt extern beheerd** ingesteld op **Ja** en de record ingesteld op alleen-lezen.
 
 ## <a name="field-service-crm-solution"></a>Field Service CRM-oplossing
-Ter ondersteuning van de integratie tussen Field Service en Supply Chain Management is extra functionaliteit nodig in de CRM-oplossing Field Service. In de oplossing is het veld **Wordt extern beheerd** toegevoegd aan de entiteit **Magazijn (msdyn_warehouses)**. Op basis van dit veld kunt u zien of het magazijn wordt beheerd vanuit Supply Chain Management of dat het alleen bestaat in Field Service. De instellingen voor deze velden zijn:
+Ter ondersteuning van de integratie tussen Field Service en Supply Chain Management is extra functionaliteit nodig in de CRM-oplossing Field Service. In de oplossing is de kolom **Wordt extern beheerd** toegevoegd aan de tabel **Magazijn (msdyn_warehouses)**. Op basis van deze kolom kunt u zien of het magazijn wordt beheerd vanuit Supply Chain Management of dat het alleen bestaat in Field Service. De instellingen voor deze kolom zijn:
 - **Ja** – het product is afkomstig uit Supply Chain Management en kan niet worden bewerkt in Sales.
 - **Nee**: het magazijn is rechtstreeks ingevoerd in Field Service en wordt hier beheerd.
 
-Gebruik het veld **Wordt extern beheerd** om de synchronisatie van voorraadniveaus, -correcties, -overboekingen en -gebruik voor werkorders te beheren. Alleen magazijnen met **Wordt extern beheerd** = **Ja** kunnen worden gebruikt voor rechtstreekse synchronisatie met hetzelfde magazijn in het andere systeem. 
+Gebruik de kolom **Wordt extern beheerd** om de synchronisatie van voorraadniveaus, -correcties, -overboekingen en -gebruik voor werkorders te beheren. Alleen magazijnen met **Wordt extern beheerd** = **Ja** kunnen worden gebruikt voor rechtstreekse synchronisatie met hetzelfde magazijn in het andere systeem. 
 
 > [!NOTE]
 > Het is mogelijk om meerdere magazijnen in Field Service te maken (met **Wordt extern beheerd** = Nee) en deze toe te wijzen aan één magazijn, met de functies voor geavanceerde query's en filters. Dit wordt gebruikt in situaties waarin u wilt dat Field Service het gedetailleerde voorraadniveau beheert en alleen updates naar Supply Chain Management verzendt. In dit geval ontvangt Field Service geen updates over voorraadniveaus van Supply Chain Management. Zie voor meer informatie [Voorraadcorrecties vanuit Field Service synchroniseren naar Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) en [Werkorders in Field Service synchroniseren met verkooporders in Finance and Operations](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
@@ -81,6 +80,3 @@ In de volgende afbeelding ziet u de sjabloontoewijzing in Gegevensintegratie.
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Magazijnen (Supply Chain Management naar Field Service): Warehouse
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/Warehouse1.png)](./media/Warehouse1.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
