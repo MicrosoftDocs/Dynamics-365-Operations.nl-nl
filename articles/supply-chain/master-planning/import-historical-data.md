@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.assetid: 59c0d269-9db0-48e7-b8c7-9a388781a9ca
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c66481b1dd8650960cad2947425c1e6c7450afcb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d6ba2e1a3a884d29bff491f914aa2d5f9ece2b84
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425684"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154222"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Historische gegevens voor vraagprognoses importeren
 
@@ -34,31 +33,31 @@ Om te helpen de nauwkeurigheid van vraagprognoses te garanderen moet u zoveel mo
 In het werkgebied **Gegevensbeheer** ziet u een overzicht van alle velden in de entiteit.
 
 1. Open het werkgebied **Gegevensbeheer**.
-2. Klik op de tegel **Gegevensentiteiten**.
+2. Selecteer de tegel **Gegevensentiteiten**.
 3. Zoek in de entiteitlijst naar **Historische externe vraag**.
-4. Klik op **Doelvelden**. De volgende entiteitvelden zijn verplicht: locatie (**DeliveringSiteId**), datum (**DemandDate**), hoeveelheid (**DemandQuantity**) en artikelnummer (**ItemNumber**) of artikeltoewijzingssleutel (**ProductAllocationKeyId**).
+4. Selecteer **Doelvelden**. De volgende entiteitvelden zijn verplicht: locatie (**DeliveringSiteId**), datum (**DemandDate**), hoeveelheid (**DemandQuantity**) en artikelnummer (**ItemNumber**) of artikeltoewijzingssleutel (**ProductAllocationKeyId**).
 
 Als u de gegevensentiteit wilt gebruiken, moet u een Microsoft Excel-bestand of een door komma's gescheiden waarden (CSV)-bestand hebben met de historische vraaggegevens. Het volgende voorbeeld laat zien hoe u gegevens importeert uit een CSV-bestand.
 
+Zie [Gegevensimport- en exporttakenoverzicht](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) en de gerelateerde onderwerpen voor meer informatie over het importeren van gegevens, waaronder het opschonen van gegevens na een import.
+
 ## <a name="example"></a>Voorbeeld
 
-U kunt het volgende bestand als voorbeeld gebruiken. Download de [HistoricalDemandData](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/365OperationsDemandForecast). Dit bestand bevat de historische vraaggegevens voor artikel D0001. Het bevat alleen de volgende verplichte velden: locatie, hoeveelheid en vraagdatum.
+U kunt het volgende bestand als voorbeeld gebruiken. Download de [HistoricalDemandData](https://docs.microsoft.com/dynamics/s-e/). Dit bestand bevat de historische vraaggegevens voor artikel D0001. Het bevat alleen de volgende verplichte velden: locatie, hoeveelheid en vraagdatum.
 
 1. Selecteer het bedrijf waarin de historische vraaggegevens moeten worden geïmporteerd.
 2. Open het werkgebied **Gegevensbeheer**.
-3. Klik op de tegel **Importeren**.
+3. Selecteer de tegel **Importeren**.
 4. Voer een naam voor het importproject in, zoals **Historische vraag importeren voor artikel D0001**.
 5. Selecteer in het veld **Brongegevensindeling** de bestandsindeling van het bestand dat u importeert. Als u het bestand HistoricalDemandData voor dit voorbeeld wilt importeren, selecteert u **CSV**.
 6. Selecteer in het veld **Entiteit** **Historische externe vraag**.
 7. Sla het bestand op uw computer op en upload het vervolgens.
-8. Klik op **Importeren**.
+8. Selecteer **Importeren**.
 9. De pagina **Uitvoeringsoverzicht** wordt automatisch geopend. Controleer de geïmporteerde gegevens op de pagina.
 
 Nadat u de historische vraaggegevens hebt geïmporteerd, kunt u een vraagprognose genereren.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Een statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Een statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md)  
+[Overzicht van Gegevensimport- en exporttaken](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)

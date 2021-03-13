@@ -1,6 +1,6 @@
 ---
 title: Verwijderde of afgeschafte functies in eerdere releases
-description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die gepland zijn om te verwijderen uit Dynamics 365 for Finance and Operations en eerdere versies van dat product.
+description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die gepland zijn om te verwijderen uit Dynamics 365 for Finance and Operations en eerdere versies.
 author: sericks007
 manager: AnnBe
 ms.date: 09/21/2020
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679951"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154380"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Verwijderde of afgeschafte functies in eerdere releases
 
@@ -39,7 +39,7 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd of afgeschaft
 
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
-Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://docs.microsoft.com/dynamics/s-e/). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 met Platformupdate 31
 
@@ -970,7 +970,7 @@ Deze tool is gebruikt om belangrijke gegevens van Microsoft Dynamics CRM te inte
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De functionaliteit is vervangen door een andere functie. |
-| **Vervangen door een andere functie?**   | Common data service                                      |
+| **Vervangen door een andere functie?**   | Dataverse                                      |
 | **Betrokken productgebieden**         | Connector voor Dynamics                         |
 | **Status**                         | Verwijderd sinds Dynamics AX 7.0.                           |
 
@@ -1373,6 +1373,3 @@ De Windows 8-tabletapp leverde functionaliteit voor het invoeren van onkosten en
 |     <strong>Betrokken productgebieden</strong>     |                                              Grootboek                                              |
 |             <strong>Status</strong>             |                                      Verwijderd sinds Dynamics AX 2012                                      |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

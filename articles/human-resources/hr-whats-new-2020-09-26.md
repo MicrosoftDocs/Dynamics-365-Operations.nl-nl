@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ac72489c3b2dacfde280606a83221e8514793701
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527405"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152192"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 26 september 2020
 
@@ -31,7 +30,7 @@ ms.locfileid: "4527405"
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Dynamics 365 Human Resources. Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
-Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
+Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
 
 ## <a name="in-this-release"></a>In deze versie
 
@@ -58,7 +57,7 @@ Deze versie bevat de volgende correcties.
 | 481401 | De toerekeningsverwerking loopt vast wanneer de toerekeningsdatumbasis valt na de begindatum van de toerekening en aan het einde van de maand | Toerekeningsverwerking is bijgewerkt zodat er geen vertraging optreedt wanneer de toerekeningsdatumbasis valt na de begindatum van de toerekening en aan het einde van de maand. |
 | 447167 | De lijsten met verlopende records bevatten inactieve werknemers | Het tabblad **Verlopende records** in **Personeelsbeheer** bevatte inactieve werknemers. Nu bevatten de lijsten alleen actieve werknemers. |
 | 486840 | Er wordt een verkeerde verlof- of verzuimaanvraag geopend via **Aan mij toegewezen werkitems** | Als een verlof- of verzuimaanvraag wordt geselecteerd via **Aan mij toegewezen werkitems** wordt niet meer de meest recente verlof- of verzuimaanvraag geopend die aan de huidige gebruiker is toegewezen. |
-| 506868 | Het veld **Titel** van Common Data Service niet ingesteld voor de entiteit **Functiepositie** | Het veld **Titel** in de entiteiten **Functie** en **Functiepositie** wordt weergegeven als niet opgegeven. Het veld **Titel** wordt nu weergegeven. |
+| 506868 | Het veld **Titel** van Dataverse niet ingesteld voor de entiteit **Functiepositie** | Het veld **Titel** in de entiteiten **Functie** en **Functiepositie** wordt weergegeven als niet opgegeven. Het veld **Titel** wordt nu weergegeven. |
 | 430359 | Geen toegang tot taken van de offboarding-controlelijst waaraan manager- en werknemersrollen zijn toegewezen | Werknemers met een toekomstige ontslagdatum konden geen toegang krijgen tot hun controlelijsttaken als ze alleen een werknemersrol of managerrol hadden. Nu kunnen gebruikers die alleen een werknemers- of managerrol hebben, toegang krijgen tot offboarding-taken met een toekomstige ontslagdatum. |
 | 458102 | Nieuwe werknemers worden niet weergegeven in de entiteit **Gegevens werknemerssalaris** wanneer ze worden gemaakt | Nieuwe werknemers worden opgenomen in de entiteit voor gegevens van werknemerssalaris zonder dat de salarisgegevens voor de werknemer hoeven te worden geopend voordat de entiteit wordt geëxporteerd. |
 
@@ -85,6 +84,3 @@ Zie [Overzicht van Dynamics 365 Human Resources 2019 release wave 2](https://doc
 [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Updateproces](hr-admin-setup-update-process.md)
 [Functies beheren](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

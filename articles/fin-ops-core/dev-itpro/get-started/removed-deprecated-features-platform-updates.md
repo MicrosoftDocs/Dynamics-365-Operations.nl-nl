@@ -3,7 +3,7 @@ title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van Finance and Operations-apps.
 author: sericks007
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: d57182aa34c4897ef3703d0f8ed08d032c261170
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689561"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154082"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
 
@@ -32,7 +32,55 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de v
 
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
-Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://docs.microsoft.com/dynamics/s-e/). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+
+## <a name="feature-removed-effective-january-28-2021"></a>Functie verwijderd met ingang van 28 januari 2021
+
+### <a name="batch-job-to-handle-sql-index-defragmentation"></a>Batchtaak voor het verwerken van defragmentatie SQL-index
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Deze functie is verwijderd om de overhead van het bedienen, controleren en onderhouden van het indexbeheer door klanten te verminderen. |
+| **Vervangen door een andere functie?**   | In de toekomst wordt het indexonderhoud uitgevoerd door Microsoft-services. Dit proces vindt doorlopend plaats zonder dat dit van invloed is op de werkbelasting van de gebruiker. |
+| **Betrokken productgebieden**         | Finance and Operations-apps|
+| **Implementatieoptie**              | Cloudimplementatie: heeft gevolgen voor door Microsoft beheerde productieomgevingen en Tier 2 tot en met Tier 5-sandboxomgevingen. |
+| **Status**                         | Deze functie wordt verwijderd. |
+
+
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.17 van Finance and Operations-apps
+
+> [!IMPORTANT]
+> Versie 10.0.17 is beschikbaar als onderdeel van een previewversie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Veelgestelde vragen over updates van service met één versie](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-2015"></a>Visual Studio2015
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Ter ondersteuning van de meest recente versies van Visual Studio moeten enkele wijzigingen worden aangebracht in de X++-extensies voor Visual Studio. Deze wijzigingen zijn niet compatibel met Visual Studio 2015. |
+| **Vervangen door een andere functie?**   | Visual Studio 2017 vervangt Visual Studio 2015 als de geïmplementeerde en vereiste versie. |
+| **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Afgeschaft. Bij het bijwerken worden de vorige X++-hulpprogramma's verwijderd uit Visual Studio 2015, en worden de bijgewerkte hulpprogramma's niet geïnstalleerd in Visual Studio 2015. Dit heeft geen invloed op gehoste builds. Voor het bouwen van virtuele machines moet de buildpijplijn (builddefinitie) handmatig worden bijgewerkt om de afhankelijkheid van MSBuild 14.0 (Visual Studio 2015) te wijzigen in MSBuild 15.0 (Visual Studio 2017), zoals beschreven in [Een oudere pijplijn bijwerken in Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
+
+### <a name="user-avatar"></a>Gebruikersavatar 
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De gebruikersavatar die aan de rechterkant van de navigatiebalk wordt weergegeven, is opgehaald met een API uit het Dynamics 365-koptekstbesturingselement en die is afgeschaft. |
+| **Vervangen door een andere functie?**   | Gebruikers zien in plaats daarvan hun initialen in een cirkel op de navigatiebalk. Dit is dezelfde visuele weergave die momenteel op ontwikkelapparaten wordt gebruikt. |
+| **Betrokken productgebieden**         | Webclient |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Verwijderd vanaf versie 10.0.17 |
+
+### <a name="enterprise-portal-ep-deprecation"></a>Afschaffing van Enterprise Portal (EP)  
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De metagegevensartefacten die aan Dynamics AX 2012 Enterprise Portal (EP) zijn gekoppeld, zijn afgeschaft, omdat EP nooit in de Finance and Operations-apps werd ondersteund. |
+| **Vervangen door een andere functie?**   | No |
+| **Betrokken productgebieden**         | Webclient |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Afgeschaft. De hele EP-code moet worden verwijderd in de versie van oktober 2021. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.15 van Finance and Operations-apps
 
@@ -192,6 +240,3 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Eerdere aankondigingen over verwijderde of afgeschafte functies
 Zie [Verwijderde of afgeschafte functies in eerdere versies](../migration-upgrade/deprecated-features.md) voor meer informatie over functies die zijn verwijderd of vervangen in eerdere versies.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

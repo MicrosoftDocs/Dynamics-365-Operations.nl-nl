@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: bcf58a7005a8e61c5fba9c5065d75ebae8b909cc
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4695134"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154148"
 ---
 # <a name="help-system"></a>Help-systeem
 
@@ -163,7 +163,4 @@ In de volgende tabel worden onze websites weergegeven. Sites die een sterretje (
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Deze site host inhoud uit eerdere versies. |
 | [Dynamics Community](https://community.dynamics.com/) | Deze site host blogs, forums en video's. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Deze site biedt evaluatie- en verkoopinformatie. |
-| [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Deze site host trainingsresources, downloadbare rapporten en whitepapers en is de primaire ondersteuningssite voor serviceplanhouders. Mogelijk is een serviceplan vereist om toegang te krijgen tot bepaalde bronnen op de site. |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+| [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Deze site host trainingsresources, downloadbare rapporten en whitepapers en is de primaire ondersteuningssite voor serviceplanhouders. Mogelijk is een serviceplan vereist om toegang te krijgen tot bepaalde bronnen op de site. |
