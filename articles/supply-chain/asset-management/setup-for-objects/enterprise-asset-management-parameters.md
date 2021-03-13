@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e4b76ba90ab03cd35e72eff8acc89f780659fa5
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425550"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020648"
 ---
 # <a name="asset-management-parameters"></a>Parameters voor activabeheer
 
@@ -34,25 +33,24 @@ In Activabeheer moeten algemene parameters met betrekking tot activa, werkorders
 > [!NOTE]
 > Zie [Een demo-omgeving implementeren](../../../fin-ops-core/dev-itpro/deployment/deploy-demo-environment.md) voor instructies als u een systeem wilt instellen dat demogegevens bevat voor het testen van functies voor activabeheer.
 
-Koppeling **Activa**
+## <a name="the-assets-tab"></a>Het tabblad Activa
+
+Het tabblad **Activa** biedt de volgende instellingen:
 
 - **Standaard functionele locatie** is de standaard functionele locatie, die automatisch wordt geselecteerd voor activa wanneer u nieuwe activa maakt.  
 - Selecteer in het veld **Standaardkalender** een kalender die moet worden gebruikt voor het berekenen van KPI's voor activa als er geen resource is geselecteerd voor een activum.  
 - Selecteer in het veld **Weergave** de standaardweergave die wordt weergegeven wanneer u **Activaweergave** opent (**Activabeheer** > **Algemeen** > **Activa** > **Activaweergave**).
 - **Standaard aanvraagtype** is het standaardtype onderhoudsaanvraag, dat automatisch wordt geselecteerd wanneer u een nieuwe aanvraag maakt.  
-- Als u projecten wilt maken die betrekking hebben op activa, worden projectrelaties met betrekking tot de selectie van **Hoofdproject**, **Projecthiërarchie** en de optie **Automatisch projecten maken** ingesteld in **Parameters voor activabeheer**.  
-- In het veld **Projectmasker voor werkorder** definieert u het aantal subprojecten dat is toegestaan voor werkorders en subactiva. Een werkordermasker wordt gebruikt om te definiëren hoeveel werkorders kunnen worden gemaakt voor een activum en gebruikt in het gerelateerde werkorderproject. Het werkordermasker wordt ingesteld in het veld **Verwant werkordermasker** in **Parameters voor activabeheer** (**Activabeheer** > **Instellingen** > **Parameters voor activabeheer** > **Werkorders**).  
-    >[!NOTE]
-    >De indeling voor een verwant werkordermasker is een aantal hash-tekens (#), afhankelijk van het maximumaantal werkorders dat u verwacht te maken voor een activum. Voorbeeld: met ## kunt u tot 99 subprojecten maken.  
 - Prognoses voor taaktypen worden opgeslagen in het project dat is geselecteerd in het veld **Prognose project**. Voor elk taaktype wordt automatisch een nieuwe activiteit gemaakt voor het prognoseproject. Prognoses voor het taaktype worden vervolgens opgeslagen in het prognoseproject.  
-- Selecteer in het veld **Model** het prognosemodel dat wordt gebruikt voor taaktype- en werkorderprognoses.  
+- Selecteer in het veld **Model** het prognosemodel dat wordt gebruikt voor taaktype- en werkorderprognoses.
 
+## <a name="the-work-orders-tab"></a>Het tabblad Werkorders
 
-Koppeling **Werkorders**
+Het tabblad **Werkorders** biedt de volgende instellingen:
 
 - **Standaard werkordertype** definieert standaardinstellingen bij het maken van een werkorder.  
 - **Preventief werkordertype** definieert het type werkorder dat wordt gebruikt bij het maken van werkorders op basis van onderhoudsplannen. Als dit veld leeg blijft, wordt het werkordertype in het veld **Standaard werkordertype** gebruikt.  
-- In het veld **Verwant werkordermasker** definieert u het maximumaantal werkorders dat aan een werkorder kan worden gekoppeld. Met ## kunt u bijvoorbeeld maximaal 99 verwante werkorders hebben. Als u een masker definieert zoals hier wordt beschreven, worden gerelateerde werkorders genummerd als [werkorder-id van de werkorder waaraan een werkorder is gerelateerd] -01, -02, -03, enzovoort. Als u geen masker in dit veld definieert, krijgt een verwante werkorder de volgende sequentiële werkorder-id.  
+- In het veld **Verwant werkordermasker** definieert u het maximumaantal werkorders dat aan een werkorder kan worden gekoppeld. Met ## kunt u bijvoorbeeld maximaal 99 verwante werkorders hebben. Als u een masker definieert zoals hier wordt beschreven, worden gerelateerde werkorders genummerd [werkorder-id van de werkorder waaraan een werkorder is gerelateerd]-01, -02, -03 enzovoort. Als u geen masker in dit veld definieert, krijgt een verwante werkorder de volgende sequentiële werkorder-id.  
 - Selecteer **Ja** bij **Fouten kopiëren** als u automatisch fouten die zijn geregistreerd voor werkorders wilt kopiëren naar gerelateerde onderhoudsaanvragen. 
 - In het veld **Niveau** definieert u het functionele locatieniveau dat automatisch in een werkorder wordt ingevoegd als alle gerelateerde werkordertaken naar dezelfde functionele locatie verwijzen. Als de werkordertaken niet allemaal betrekking hebben op dezelfde functionele locatie op het gedefinieerde niveau, wordt het veld **Functionele locatie** leeg gelaten in de werkorder. Als u bijvoorbeeld het cijfer '1' in dit veld invoegt, is dat het hoogste niveau in een functionele locatiestructuur. Als u het cijfer '0' in dit veld invoegt, hebt u geen specifiek functioneel locatieniveau gedefinieerd, maar alleen aangegeven dat de functionele locatie alleen aan de werkorder wordt toegevoegd als alle werkordertaken in een werkorder aan dezelfde functionele locatie zijn gerelateerd.  
 - Journalen die worden gebruikt bij het boeken van verbruik in een werkorder kunnen worden geselecteerd op het sneltabblad **Algemeen** in de velden **Uur**, **Artikel** en **Onkosten**.  
@@ -67,8 +65,9 @@ Koppeling **Werkorders**
     - Instellingen voor onderhoudsronden  
 - Op het sneltabblad **Categorie** kunnen standaardcategorieën met betrekking tot verbruik op werkorders worden gedefinieerd.  
 
+## <a name="the-work-order-scheduling-tab"></a>Het tabblad Planning werkorder
 
-Koppeling **Planning van werkorders**
+Het tabblad **Planning werkorder** biedt de volgende instellingen op het sneltabblad **Algemeen**:
 
 - **Time fence plannen** definieert een periode in dagen, berekend vanaf de verwachte begindatum van de werkorder, waarin werkordertaken worden gepland.  
 - Het **hoofdplan** heeft betrekking op resources in de module **Organisatiebeheer**. Als u in dit veld een hoofdplan selecteert, kunt u capaciteitsreserveringen die betrekking hebben werkorders bekijken in **Capaciteitsreserveringen** (**Organisatiebeheer** > **Resources** > **Resources** > selecteer resource > tabblad **Resource** > knop **Capaciteitsreserveringen**). Als u dit veld leeg laat, kunt u capaciteitsbelasting die betrekking heeft werkorders bekijken in **Capaciteitsbelasting** (**Organisatiebeheer** \> **Resources** \> **Resources** \> selecteer resource \> tabblad **Resource** \> knop **Capaciteitsbelasting**).  
@@ -100,13 +99,10 @@ De velden die worden beschreven in de volgende lijst hebben betrekking op bereke
   - Ervan uitgaande dat er geen verantwoordelijke medewerker en verantwoordelijke medewerkersgroep zijn geselecteerd in een te plannen werkorder, komt u door de waarden van de beoordelingsscore in de bovenstaande velden **Voorkeursmedewerker**, **Voorkeursmedewerkersgroep**, **Activalocatie** en **Begindatum** op te tellen en af te trekken uit op een totaal van 3010,00. Dit betekent een hoge score voor de medewerker die al is geselecteerd als voorkeursmedewerker en die is opgenomen in de voorkeursmedewerkersgroep in de werkorder, terwijl de medewerker zich ook nog eens in dezelfde faciliteit bevindt als het activum waarvoor een taak moet worden gepland. Dit betekent dat er een goede kans is dat de medewerker in kwestie wordt geselecteerd om de taak uit te voeren tijdens de planning van werkorders.  
   - Als de waarde '0,00' in een van de acht bovenstaande velden wordt ingevoegd, wordt die beoordelingsscore niet gebruikt tijdens de planning van werkorders.  
 
-Koppeling **Documenttypen**
+## <a name="the-document-types-tab"></a>Het tabblad Documenttypen
 
 Selecteer de documenttypen die beschikbaar moeten zijn voor het afdrukken van bijlagen met betrekking tot een werkorderrapport. Dit wordt gedaan door een documenttype te selecteren in de sectie **Beschikbaar** en de ![pijl naar voren](media/15-setup-for-objects.png) te selecteren. Als u een geselecteerd documenttype wilt verwijderen, selecteert u het documenttype in de sectie **Geselecteerd** en selecteert u de ![pijl terug](media/16-setup-for-objects.png).
 
-Koppeling **Nummerreeksen**
+## <a name="the-number-sequences-tab"></a>Het tabblad Nummerreeksen
 
 Selecteer de vereiste nummerreeksen in deze sectie. Er zijn twee nummerreeksen voor activa: de ene voor handmatig gemaakte activa en de andere voor activa die zijn gemaakt via in behandeling zijnde activa.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

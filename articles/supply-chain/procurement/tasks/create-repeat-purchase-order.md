@@ -1,7 +1,7 @@
 ---
 title: Een herhalingsinkooporder maken
 description: In dit onderwerp wordt beschreven hoe u een herhalingsinkooporder (IO) kunt maken door regels vanuit een eerder inkooporderdocument naar een nieuwe inkooporder of naar een bestaande inkooporder te kopiëren.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/29/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9bf5e92ad6bc62dd008a51aacca891cb7253a723
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 65eb801fb363ce2484dcce4d086d1b2b5ad3388f
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4425794"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017337"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Een herhalingsinkooporder maken
 
@@ -70,6 +69,3 @@ In plaats van een volledige order te kopiëren, is het gebruikelijker om een nie
 4. Selecteer de regel met de gewenste inkooporder. Merk op dat de ene orderregel in deze inkooporder eveneens is geselecteerd.  
 5. Selecteer **OK**. De extra orderregel is toegevoegd aan uw inkooporder.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

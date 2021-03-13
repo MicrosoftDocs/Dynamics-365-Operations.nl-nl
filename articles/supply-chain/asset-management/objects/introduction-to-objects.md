@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetTimeline, EntAssetObjectTableLookup, EntAssetObjectTableParent, EntAssetObjectOverview, EntAssetObjectImage, EntAssetObjectTable, EntAssetLifecycleStateLog, EntAssetObjectWorkOrderActive, EntAssetObjectAttribute
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26b8e3aaa2b249d09b304242155d646483cbe971
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2f629ebdf7423ca75fe215b0a3223478685fe95c
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425259"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018565"
 ---
 # <a name="introduction-to-assets"></a>Inleiding tot activa
 
@@ -78,6 +77,3 @@ De knoppen in het actievenster zijn geordend op tabbladen. In de volgende tabel 
 | Reserveonderdelen          | Een lijst met goedgekeurde en alternatieve reserveonderdelen weergeven die voor het activum kunnen worden gebruikt.                                                                               |
 | Activaverbruik    | Een rapport afdrukken waarin verbruiksregistraties voor het activum worden weergegeven.                                                                                                |
 | Activafout          | Een rapport afdrukken waarin foutregistraties voor het activum worden weergegeven.                                                                                                      |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetOutboundObjectsListPage, EntAssetOutboundObjectsDeliver, EntAssetInboundObjectsListPage, EntAssetInboundObjectsRecieve
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a7239bf5f8e53e61c4259abbcbf2ff740f4cef55
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e6dfadf6824c6a3df7be9b3b6f3d9f5dd2749e34
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425502"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018066"
 ---
 # <a name="inbound-and-outbound-assets"></a>Inkomende en uitgaande activa
 
@@ -71,6 +70,3 @@ Wanneer u de onderhouds- of reparatietaak hebt voltooid, kunt u het activum als 
 2. Selecteer het activum of het onderhoudsverzoek.
 3. Selecteer **Activa afleveren**.
 4. Voer de datum en de tijd in het veld **Afgeleverd** in. Selecteer vervolgens **OK**. De record wordt verwijderd uit de pagina met de lijst **Uitgaande activa**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
