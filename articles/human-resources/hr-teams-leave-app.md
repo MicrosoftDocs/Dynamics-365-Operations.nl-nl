@@ -2,7 +2,7 @@
 title: Verlofaanvragen beheren in Teams
 description: In dit onderwerp wordt beschreven hoe u verlof kunt aanvragen in de Dynamics 365 Human Resources-app in Microsoft Teams.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
-ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
+ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4418066"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128156"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Verlofaanvragen beheren in Teams
 
@@ -196,7 +196,6 @@ De app Human Resources in teams heeft de volgende toegankelijkheidsproblemen, di
 | --- | --- |
 | Door te zoomen naar 400% op het bureaublad zijn enkele actieknoppen niet meer zichtbaar. | U kunt beter een vergrootglas gebruiken, totdat dit zoomniveau wel wordt ondersteund. |
 | Op het tabblad **Vrije tijd** kondigt VoiceOver een actieknop aan tijdens het lezen van de koptekst voor het vrijetijdsrooster. | De koptekst en elementen in het rooster worden gegroepeerd per jaar en ze kunnen worden samengevouwen. VoiceOver interpreteert dit als een uitvoerbaar item, maar dat is niet zo. |
-| Als u swipet terwijl een pop-up of menu is geopend, slaat VoiceOver de inhoud van het pop-upmenu of menu over. | Verken de inhoud met vingerscannen. |
 | Op het tabblad **Vrije tijd** is er een extra veeggebaar wanneer u naar **Redencode** navigeert in een nieuw verzoek. | Er is geen verborgen besturingselement waar het veeggebaar naartoe probeert te navigeren. |
 | Als u op het tabblad **Vrij tijd** veegt terwijl de kalender geopend is, komt u buiten het besturingselement terecht in plaats van bovenaan een nieuwe aanvraag of tijdens het bewerken van een aanvraag. | Wanneer u bij **Ga naar vandaag** komt, zie dat dan als het einde van het besturingselement en veeg in de omgekeerde richting om terug te gaan naar het begin. |
 | VoiceOver leest de labels voor datums niet. | De datums in paren zijn altijd **Begindatum** en **Einddatum**. |
@@ -229,6 +228,3 @@ Als u toegang tot de app Human Resources in Microsoft Teams wilt beperken voor u
 [Microsoft Teams downloaden en installeren](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Microsoft Teams-helpcentrum](https://support.office.com/teams)</br>
 [Human Resources-app in Teams](hr-admin-teams-leave-app.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

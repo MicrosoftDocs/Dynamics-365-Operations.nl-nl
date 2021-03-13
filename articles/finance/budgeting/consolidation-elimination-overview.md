@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13151
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 566b1ecef3f9e540c651fe214accadcf32f4fbed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee029e6cf1f271c5839e8d0dc1b1e4b7f91fb9a2
+ms.sourcegitcommit: f51ef395f0c0cb2203ce26b4091bbf0296e7916e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4442083"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5120474"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Overzicht van consolidatie en schrapping
 
@@ -60,6 +59,7 @@ De optie **Financiële rapportage** heeft onbeperkte aangiftevaluta´s. De gegev
 De optie **Financiële rapportage** is de oplossing, omdat gegevens op transactieniveau voor zoveel bedrijven kan worden weergegeven als in de rapportagestructuurdefinitie zijn opgenomen.
 
 4.  We gebruiken budgetplanning of budgetbeheer en dit moet worden geconsolideerd.
+
 De optie **Financiële rapportage** is de oplossing om budgetplannings- of budgetbeheergegevens samen te voegen.
 
 5.  Onze dochterondernemingen zitten over de hele wereld verspreid en we hebben meerdere rekeningschema's. Wat is de beste methode om onze gegevens te consolideren?
@@ -86,10 +86,10 @@ De optie **Financiële rapportage** is de oplossing. Over organisatiehiërarchie
 
 Als u de optie **Bedrijfssaldi exporteren** gebruikt om vanuit één exemplaar te exporteren en vervolgens de optie **Consolidatie met import** in het andere exemplaar gebruikt, kunt u de gegevens consolideren.
 
+11. Kan ik een consolidatie maken met mijn budget in de status **CONCEPT**? 
+            
+U kunt uw budgetten niet verwerken of voltooien in het consolidatiebedrijf. Het is raadzaam Financial Reporting te gebruiken om conceptbudgetten te consolideren.
 
 Zie [Herwaardering van valuta in een consolidatiebedrijf](../general-ledger/currency-revaluation-consolidation-company.md) voor meer informatie.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

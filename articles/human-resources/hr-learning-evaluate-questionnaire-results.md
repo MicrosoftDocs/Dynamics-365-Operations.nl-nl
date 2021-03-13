@@ -2,7 +2,7 @@
 title: De resultaten van vragenlijsten bekijken en evalueren
 description: In dit artikel wordt beschreven hoe u de resultaten van vragenlijsten die respondenten invullen, kunt weergeven en beoordelen.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: ceb21af75dca2756d8e07f315ddee0246554c854
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff2136e1f0a87b7d77968ca1163e64f8838b234b
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4418039"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5116111"
 ---
 # <a name="view-and-evaluate-the-results-of-questionnaires"></a>De resultaten van vragenlijsten bekijken en evalueren
 
@@ -44,7 +44,7 @@ U kunt ook verschillende rapporten genereren om resultaten gesorteerd op persoon
 
 ## <a name="answer-session-results"></a>Antwoordsessieresultaten
 
-Nadat de respondenten een vragenlijst hebben ingevuld, kunt u de resultaten van de voltooide antwoordsessies bekijken. Een antwoordsessie is de reactie van een gebruiker op een vragenlijst. U kunt details over voltooide antwoordsessies bekijken op de pagina **Antwoorden**. De antwoordsessies die op de pagina **Antwoorden** zijn opgenomen worden gefilterd op diverse manieren, afhankelijk van hoe u de pagina opent:
+Nadat de respondenten een vragenlijst hebben ingevuld, kunt u de resultaten van de voltooide antwoordsessies bekijken. Een antwoordsessie is de reactie van een gebruiker op een vragenlijst. U kunt details over voltooide antwoordsessies bekijken op de pagina **Antwoorden**. De antwoordsessies die op de pagina **Antwoorden** zijn opgenomen, worden gefilterd op diverse manieren, afhankelijk van hoe u de pagina opent:
 
 -   Alle vragenlijsten
 -   Een specifieke vragenlijst
@@ -52,9 +52,9 @@ Nadat de respondenten een vragenlijst hebben ingevuld, kunt u de resultaten van 
 
 Via de pagina **Antwoorden** kunt u details bekijken over antwoorden, verdiende punten, antwoorden van een respondent in elke resultaatgroep en de vraaghiërarchie die voor de geselecteerde vragenlijst werd gebruikt, indien een vraaghiërarchie werd gebruikt. U kunt ook de volgende rapporten genereren en afdrukken:
 
--   **Resultatenrapport** - Dit rapport geeft een grafische weergave van de punten die per resultaatgroep voor de geselecteerde antwoordsessie zijn behaald.
+-   **Resultatenrapport** - Dit rapport geeft een grafische weergave van de punten die per resultaatgroep voor de geselecteerde antwoordsessie zijn behaald.
 -   **Antwoordrapport** - Dit rapport geeft de antwoorden die de respondent voor elke vraag in de vragenlijst heeft geselecteerd.
--   **Incorrecte antwoorden** – Dit rapport geeft informatie over de onjuiste antwoorden die de respondent heeft geselecteerd.
+-   **Incorrecte antwoorden** – Dit rapport geeft informatie over de onjuiste antwoorden die de respondent heeft geselecteerd.
 
 > [!NOTE]
 > Het rapport **Resultaten** is alleen beschikbaar als u resultatengroepen voor de vragenlijst gebruikt en u **Vragenlijsten** hebt geselecteerd op de pagina **Vragenlijsten**. Het rapport **Antwoord** en het rapport **Incorrecte antwoorden** zijn alleen beschikbaar als u **Antwoordrapport** hebt geselecteerd op de pagina **Vragenlijsten**.
@@ -72,5 +72,3 @@ U kunt vragenlijststatistieken gebruiken voor het analyseren van de resultaten v
 -   Criteria selecteren of controleren voor het analyseren van resultaten per respondent of kenmerken van de vragenlijst. U kunt bijvoorbeeld door het selecteren van een **postcode** de correlatie analyseren tussen de locatie en de juiste antwoorden van een respondent.
 
 De instellingen die u definieert, worden opgeslagen en kunnen worden gebruikt om resultaten periodiek opnieuw te berekenen.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (7 februari 2020)
 description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 7 februari 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/07/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 42fac6e34db10efb047b4cb0fc3c7752330e5bcf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0a45eed4e094cedb9d6d8ed0cb2bdc81eb31b76e
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526829"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128108"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-7-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (7 februari 2020)
 
@@ -57,9 +57,9 @@ De volgende voorbeeldfuncties zijn beschikbaar op 3 februari 2020:
 
 Platform update 32 komt binnenkort beschikbaar. [Meer informatie over Platform update 32 vindt u hier](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
 
-### <a name="updated-common-data-service-solution"></a>Common Data Service-oplossing is bijgewerkt
+### <a name="updated-dataverse-solution"></a>Dataverse-oplossing is bijgewerkt
 
-Binnenkort komt een nieuwe Common Data Service-oplossing beschikbaar met de volgende wijzigingen:
+Binnenkort komt een nieuwe Dataverse-oplossing beschikbaar met de volgende wijzigingen:
 
 | Beschrijving | Wisselgeld |
 | ----------------------------------------- | --- |
@@ -70,7 +70,7 @@ Binnenkort komt een nieuwe Common Data Service-oplossing beschikbaar met de volg
 | Entiteiten voor nieuwe instellingen voor variabele compensatie | **Type variabelecompensatieplan**</br>**Variabelecompensatieplan**</br>**Vestigingsregels**</br>**Niveau variabelecompensatieplan** |
 | Nieuwe entiteit **Medewerkerkalender aanstelling** | Entiteit **Werkkalender** toegevoegd |
 | Nieuwe entiteit **Salarispositiedetail** | **Salarispositiedetail** toegevoegd |
-| Nieuwe entiteit **Titel** | **Titel** toegevoegd. De nieuwe entiteit **Titel** wordt opgenomen in het synchronisatie proces tussen Human Resources en Common Data Service. Er wordt niet eerst verwezen vanuit de entiteiten **Functiepositie** of **Functie**. |
+| Nieuwe entiteit **Titel** | **Titel** toegevoegd. De nieuwe entiteit **Titel** wordt opgenomen in het synchronisatie proces tussen Human Resources en Dataverse. Er wordt niet eerst verwezen vanuit de entiteiten **Functiepositie** of **Functie**. |
 
 ## <a name="see-also"></a>Zie ook
 
@@ -78,5 +78,3 @@ Binnenkort komt een nieuwe Common Data Service-oplossing beschikbaar met de volg
 [Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

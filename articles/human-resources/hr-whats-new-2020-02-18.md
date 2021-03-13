@@ -1,8 +1,8 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (18 februari 2020)
 description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 18 februari 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/18/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 002b1b8b86c4fb40f46c239669cd5dfead251bfe
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e087095807f587536f2dad7e65fbc8beaa88878e
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526973"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128060"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (18 februari 2020)
 
@@ -43,17 +43,17 @@ Het nieuwe formulier **Medewerker** onthoudt nu zoekwaarden wanneer u de weergav
 
 Met de tegels voor vaste- en variabele-compensatiebeheer worden nu de juiste records weergegeven in het nieuwe formulier **Medewerker**. Is alleen van toepassing op de preview-functie voor het gestroomlijnde formulier voor werknemers. U kunt deze preview-functie inschakelen in **Functiebeheer**. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie.
 
-## <a name="empty-status-field-for-some-leave-request-records-in-common-data-service-414915"></a>Leeg veld Status voor sommige records voor verlofaaanvragen in Common Data Service (414915)
+## <a name="empty-status-field-for-some-leave-request-records-in-dataverse-414915"></a>Leeg veld Status voor sommige records voor verlofaaanvragen in Dataverse (414915)
 
-Met deze wijziging wordt een probleem in Common Data Service verholpen als het veld **Status** in een verlofaanvraag is ingesteld op **Controleren**. De status wordt nu weergegeven in Common Data Service.
+Met deze wijziging wordt een probleem in Dataverse verholpen als het veld **Status** in een verlofaanvraag is ingesteld op **Controleren**. De status wordt nu weergegeven in Dataverse.
 
 ## <a name="skill-gap-analysis-only-possible-for-assigned-job-411390"></a>Vaardigheidshiaatanalyse alleen mogelijk voor toegewezen taak (411390)
 
 U kunt nu een Vaardigheidshiaatanalyse uitvoeren op elke taak die in Human Resources is gedefinieerd.
 
-## <a name="system-currency-doesnt-sync-from-common-data-service-to-human-resources-in-new-environments-418011"></a>Systeemvaluta wordt niet gesynchroniseerd vanuit Common Data Service met Human Resources in nieuwe omgevingen (418011)
+## <a name="system-currency-doesnt-sync-from-dataverse-to-human-resources-in-new-environments-418011"></a>Systeemvaluta wordt niet gesynchroniseerd vanuit Dataverse met Human Resources in nieuwe omgevingen (418011)
 
-De systeemvaluta in Common Data Service kan nu worden gesynchroniseerd met Human Resources.
+De systeemvaluta in Dataverse kan nu worden gesynchroniseerd met Human Resources.
 
 ## <a name="in-preview"></a>Preview
 
@@ -63,9 +63,9 @@ De systeemvaluta in Common Data Service kan nu worden gesynchroniseerd met Human
 
 ## <a name="coming-soon"></a>Binnenkort beschikbaar
 
-### <a name="updated-common-data-service-solution"></a>Common Data Service-oplossing is bijgewerkt
+### <a name="updated-dataverse-solution"></a>Dataverse-oplossing is bijgewerkt
 
-Binnenkort komt een nieuwe Common Data Service-oplossing beschikbaar met de volgende wijzigingen:
+Binnenkort komt een nieuwe Dataverse-oplossing beschikbaar met de volgende wijzigingen:
 
 | Beschrijving | Wisselgeld |
 | ----------------------------------------- | --- |
@@ -76,7 +76,7 @@ Binnenkort komt een nieuwe Common Data Service-oplossing beschikbaar met de volg
 | Entiteiten voor nieuwe instellingen voor variabele compensatie | **Type variabelecompensatieplan**</br>**Variabelecompensatieplan**</br>**Vestigingsregels**</br>**Niveau variabelecompensatieplan** |
 | Nieuwe entiteit **Medewerkerkalender aanstelling** | Entiteit **Werkkalender** toegevoegd |
 | Nieuwe entiteit **Salarispositiedetail** | **Salarispositiedetail** toegevoegd |
-| Nieuwe entiteit **Titel** | **Titel** toegevoegd. De nieuwe entiteit **Titel** wordt opgenomen in het synchronisatie proces tussen Human Resources en Common Data Service. Er wordt niet eerst verwezen vanuit de entiteiten **Functiepositie** of **Functie**. |
+| Nieuwe entiteit **Titel** | **Titel** toegevoegd. De nieuwe entiteit **Titel** wordt opgenomen in het synchronisatie proces tussen Human Resources en Dataverse. Er wordt niet eerst verwezen vanuit de entiteiten **Functiepositie** of **Functie**. |
 
 ## <a name="see-also"></a>Zie ook
 
@@ -84,5 +84,3 @@ Binnenkort komt een nieuwe Common Data Service-oplossing beschikbaar met de volg
 [Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

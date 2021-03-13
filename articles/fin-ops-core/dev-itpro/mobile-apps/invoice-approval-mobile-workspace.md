@@ -1,6 +1,6 @@
 ---
 title: Mobiel werkgebied Goedkeuring van facturen
-description: Dit onderwerp biedt informatie over het mobiele werkgebied Goedkeuring van facturen. Dit werkgebied geeft een lijst met facturen die aan u zijn toegewezen via het workflowproces voor de koptekst van de leveranciersfactuur.
+description: Dit onderwerp biedt informatie over het mobiele werkgebied Goedkeuring van facturen.
 author: abruer
 manager: AnnBe
 ms.date: 12/01/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1a7aa1a03791b8ccb7050389097d1272f5930a49
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683403"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127564"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Mobiel werkgebied Goedkeuring van facturen
 
@@ -86,6 +86,3 @@ Download en installeer de mobiele Finance and Operations-app:
 7.  Selecteer **Bijlagen** om eventuele notities of bestanden weer te geven, die zijn gekoppeld aan de factuur.
 8.  Selecteer op de pagina **Factuurdetails** de juiste workflowactie uit om uw beoordelingsproces te voltooien.
 9.  Selecteer **Gereed**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

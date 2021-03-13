@@ -1,6 +1,6 @@
 ---
 title: Instellingen voor twee keer wegschrijven van Lifecycle Services
-description: In dit onderwerp wordt uitgelegd hoe u een verbinding voor twee keer wegschrijven kunt instellen tussen een nieuwe Finance and Operations-omgeving en een nieuwe Dataverse-omgeving via Microsoft Dynamics Lifecycle Services (LCS).
+description: In dit onderwerp wordt uitgelegd hoe u een verbinding voor twee keer wegschrijven kunt instellen vanuit Microsoft Dynamics Lifecycle Services (LCS).
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 01/06/2020
@@ -18,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: df67e498b963af3ded7464f46f37bb4b2ca7d852
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683519"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127588"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Instellingen voor twee keer wegschrijven van Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [preview-banner](../../includes/preview-banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -56,7 +54,7 @@ Voer de onderstaande stappen uit om de verbinding voor twee keer wegschrijven in
     - Als al een Dataverse-omgeving is ingericht voor uw tenant, kunt u deze selecteren.
 
         1. Stel de optie **Dataverse configureren** in op **Ja**.
-        2. Selecteer in het veld **Beschikbare omgevingen** de omgeving die u met uw Finance and Operations-gegevens wilt integreren. De lijst bevat alle omgevingen waarvoor u beheerdersbevoegdheden hebt.
+        2. Selecteer in de kolom **Beschikbare omgevingen** de omgeving die u met uw Finance and Operations-gegevens wilt integreren. De lijst bevat alle omgevingen waarvoor u beheerdersbevoegdheden hebt.
         3. Schakel het selectie **Akkoord** in om aan te geven dat u akkoord gaat met de voorwaarden.
 
         ![Het tabblad Dataverse als al een Dataverse-omgeving is ingericht voor uw tenant](../dual-write/media/lcs_setup_1.png)
@@ -76,9 +74,9 @@ Voer de onderstaande stappen uit om de verbinding voor twee keer wegschrijven in
         ![Het tabblad Dataverse wanneer uw tenant nog geen Dataverse-omgeving heeft](../dual-write/media/lcs_setup_2.png)
 
 7. Voer de resterende stappen in de wizard **Implementatie-instellingen** uit.
-8. Als de omgevingsstatus **Geïmplementeerd** is, opent u de pagina met omgevingsdetails. In de sectie **Dataverse-omgevingsgegevens** worden de namen weergegeven van de gekoppelde Finance and Operations-omgeving en Dataverse-omgeving.
+8. Als de omgevingsstatus **Geïmplementeerd** is, opent u de pagina met omgevingsdetails. In de sectie **Power Platform-integratie** worden de namen weergegeven van de gekoppelde Finance and Operations-omgeving en Dataverse-omgeving.
 
-    ![De sectie Dataverse-omgevingsgegevens](../dual-write/media/lcs_setup_3.png)
+    ![Sectie Power Platform-integratie](../dual-write/media/lcs_setup_3.png)
 
 9. Een beheerder van de Finance and Operations-omgeving moet zich aanmelden bij LCS en **Koppeling naar CDS for Apps** selecteren om de koppeling te voltooien. Op de pagina met omgevingsgegevens worden de contactgegevens van de beheerder weergegeven.
 
@@ -86,10 +84,8 @@ Voer de onderstaande stappen uit om de verbinding voor twee keer wegschrijven in
 
 10. Selecteer **Koppeling naar CDS for Apps** om het werkgebied **Gegevensintegratie** in de Finance and Operations-omgeving te openen en de beschikbare sjablonen te beheren.
 
-    ![De knop Koppeling naar CDS for Apps in de sectie Dataverse-omgevingsgegevens](../dual-write/media/lcs_setup_4.png)
+    ![De knop Koppeling naar CDS for Apps in de sectie Power Platform-integratie](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
 > U kunt omgevingen niet ontkoppelen met behulp van LCS. Als u een omgeving wilt ontkoppelen, opent u het werkgebied **Gegevensintegratie** in de Finance and Operations-omgeving en selecteert u **Koppeling verbreken**.
 
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

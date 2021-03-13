@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle, EcoResVersionNameLookup, RetailStyleGroupTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 19171
 ms.assetid: 81fa3709-4ab8-4fbf-9806-359892a05985
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bdfd9482d30bd65cf84fae032df78e1243e05239
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 285e9d2d184a899f1ffa502d59a853ba83cda491
+ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425216"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5118676"
 ---
 # <a name="product-dimensions"></a>Productdimensies
 
@@ -122,7 +121,7 @@ Voordat u de versiedimensie kunt gebruiken, moet deze zijn ingeschakeld in uw sy
 
 ### <a name="areas-where-the-version-dimension-isnt-supported"></a>Gebieden waar de versiedimensie niet wordt ondersteund
 
-De volgende gebieden ondersteunen de versiedimensie niet, omdat de invoering van deze dimensie zou leiden tot fouten:
+De versiedimensie wordt niet ondersteund in de volgende gebieden (u kunt deze gebieden nog wel gebruiken, maar u kunt er geen versieproducten (producten waar de versiedimensie wordt gebruikt) aan toevoegen). U kunt bijvoorbeeld geen versieartikel toevoegen aan een leverancierscatalogus. De reden hiervoor is dat er tijdens het toevoegen van producten met de versiedimensie aan deze gebieden een aantal belangrijke wijzigingen kunnen worden aangebracht.
 
 - Maandoverzicht kostenobject
 - Overzichtcache van kostenobject
@@ -146,6 +145,3 @@ De versiedimensie werkt net als andere productdimensies. Vanwege de specifieke a
 
 > [!IMPORTANT]
 > Als u de versiedimensie inschakelt en gebruikt, werken sommige oplossingen die verwijzen naar de voorraaddimensies mogelijk niet meer naar behoren. Neem contact op met de ISV (Independent Software Vendor) voor de desbetreffende oplossingen om deze problemen te bevestigen en op te lossen. Zie [De versiedimensie inschakelen](#enable-version-dim) voor meer informatie.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (25 februari 2020)
 description: In dit artikel worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 25 februari 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/25/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1302686aeba52de484ad520efe292fafefc39ebf
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 4faecb83518f3ef8af825872abc2a6ffb94162fc
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526805"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128017"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-25-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (25 februari 2020)
 
@@ -55,15 +55,15 @@ Met deze wijziging wordt een waarschuwing weergegeven wanneer u een positie prob
 
 Deze wijziging corrigeert het probleem waarbij extra afmeldingen van deelnemers aan het prestatieoverzicht worden toegevoegd.
 
-## <a name="worker-position-assignment-not-created-in-common-data-service-when-selected-on-the-new-worker-dialog-413479"></a>De toewijzing van de werknemerpositie wordt niet gemaakt in Common Data Service, wanneer deze is geselecteerd in het dialoogvenster Nieuwe werknemer (413479)
+## <a name="worker-position-assignment-not-created-in-dataverse-when-selected-on-the-new-worker-dialog-413479"></a>De toewijzing van de werknemerpositie wordt niet gemaakt in Dataverse, wanneer deze is geselecteerd in het dialoogvenster Nieuwe werknemer (413479)
 
-Deze wijziging corrigeert het probleem bij het aanstellen van een nieuwe werknemer en het toewijzen van de nieuwe aanstelling aan een positie via het dialoogvenster **Nieuwe werknemer**. De positietoewijzing wordt nu weerspiegeld in Common Data Service.
+Deze wijziging corrigeert het probleem bij het aanstellen van een nieuwe werknemer en het toewijzen van de nieuwe aanstelling aan een positie via het dialoogvenster **Nieuwe werknemer**. De positietoewijzing wordt nu weerspiegeld in Dataverse.
 
 ## <a name="coming-soon"></a>Binnenkort beschikbaar
 
-### <a name="updated-common-data-service-solution"></a>Common Data Service-oplossing is bijgewerkt
+### <a name="updated-dataverse-solution"></a>Dataverse-oplossing is bijgewerkt
 
-Binnenkort komt een nieuwe Common Data Service-oplossing beschikbaar met de volgende wijzigingen:
+Binnenkort komt een nieuwe Dataverse-oplossing beschikbaar met de volgende wijzigingen:
 
 | Beschrijving | Wisselgeld |
 | ----------------------------------------- | --- |
@@ -74,9 +74,9 @@ Binnenkort komt een nieuwe Common Data Service-oplossing beschikbaar met de volg
 | Entiteiten voor nieuwe instellingen voor variabele compensatie | **Type variabelecompensatieplan**</br>**Variabelecompensatieplan**</br>**Vestigingsregels**</br>**Niveau variabelecompensatieplan** |
 | Nieuwe entiteit **Medewerkerkalender aanstelling** | Entiteit **Werkkalender** toegevoegd |
 | Nieuwe entiteit **Salarispositiedetail** | **Salarispositiedetail** toegevoegd |
-| Nieuwe entiteit **Titel** | **Titel** toegevoegd. De nieuwe entiteit **Titel** wordt opgenomen in het synchronisatie proces tussen Human Resources en Common Data Service. Er wordt niet eerst verwezen vanuit de entiteiten **Functiepositie** of **Functie**. |
+| Nieuwe entiteit **Titel** | **Titel** toegevoegd. De nieuwe entiteit **Titel** wordt opgenomen in het synchronisatie proces tussen Human Resources en Dataverse. Er wordt niet eerst verwezen vanuit de entiteiten **Functiepositie** of **Functie**. |
 
-In de komende weken zijn deze entiteitswijzigingen beschikbaar in alle omgevingen. Handmatig de meest recente Common Data Service-oplossing voor Human Resources installeren:
+In de komende weken zijn deze entiteitswijzigingen beschikbaar in alle omgevingen. Handmatig de meest recente Dataverse-oplossing voor Human Resources installeren:
 
 1.  Ga naar het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com).
 
@@ -106,5 +106,3 @@ De volgende voorbeeldfuncties zijn beschikbaar vanaf 3 februari 2020:
 [Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
