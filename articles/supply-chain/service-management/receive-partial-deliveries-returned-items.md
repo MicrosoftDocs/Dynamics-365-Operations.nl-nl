@@ -11,42 +11,41 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf35169d8afd6e88b8ebe921514ed6d55607a4dd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 31db10ad820bf049192ba0446b59da16cab3c553
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425190"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010592"
 ---
-# <a name="receive-partial-deliveries-of-returned-items"></a><span data-ttu-id="b1c78-103">Deelleveringen van geretourneerde artikelen ontvangen</span><span class="sxs-lookup"><span data-stu-id="b1c78-103">Receive partial deliveries of returned items</span></span>    
+# <a name="receive-partial-deliveries-of-returned-items"></a><span data-ttu-id="b61e5-103">Deelleveringen van geretourneerde artikelen ontvangen</span><span class="sxs-lookup"><span data-stu-id="b61e5-103">Receive partial deliveries of returned items</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="b1c78-104">Gedeeltelijke leveringen worden gedefinieerd aan de hand van retourorderregels en niet aan de hand van retourorderleveringen.</span><span class="sxs-lookup"><span data-stu-id="b1c78-104">Partial deliveries are defined in terms of return order lines, not return order shipments.</span></span>
+<span data-ttu-id="b61e5-104">Gedeeltelijke leveringen worden gedefinieerd aan de hand van retourorderregels en niet aan de hand van retourorderleveringen.</span><span class="sxs-lookup"><span data-stu-id="b61e5-104">Partial deliveries are defined in terms of return order lines, not return order shipments.</span></span>
 
-<span data-ttu-id="b1c78-105">Dit betekent dat wanneer u de volledige hoeveelheid ontvangt die is aangegeven op één retourorderregel, maar u niets van de andere regels in de retourorder ontvangt, de levering geen gedeeltelijke levering is.</span><span class="sxs-lookup"><span data-stu-id="b1c78-105">This means that if you receive the full quantity that is indicated on one return order line, but you receive nothing from the other lines in the return order, the delivery is not a partial delivery.</span></span> <span data-ttu-id="b1c78-106">Als echter voor een retourorderregel bijvoorbeeld tien eenheden van een bepaald artikel moeten worden geretourneerd en u maar vier eenheden ontvangt, is dit een gedeeltelijke levering.</span><span class="sxs-lookup"><span data-stu-id="b1c78-106">However, if a return order line requires 10 units of a particular item to be returned, but you receive only four, it is a partial delivery.</span></span>
+<span data-ttu-id="b61e5-105">Dit betekent dat wanneer u de volledige hoeveelheid ontvangt die is aangegeven op één retourorderregel, maar u niets van de andere regels in de retourorder ontvangt, de levering geen gedeeltelijke levering is.</span><span class="sxs-lookup"><span data-stu-id="b61e5-105">This means that if you receive the full quantity that is indicated on one return order line, but you receive nothing from the other lines in the return order, the delivery is not a partial delivery.</span></span> <span data-ttu-id="b61e5-106">Als echter voor een retourorderregel bijvoorbeeld tien eenheden van een bepaald artikel moeten worden geretourneerd en u maar vier eenheden ontvangt, is dit een gedeeltelijke levering.</span><span class="sxs-lookup"><span data-stu-id="b61e5-106">However, if a return order line requires 10 units of a particular item to be returned, but you receive only four, it is a partial delivery.</span></span>
 
-<span data-ttu-id="b1c78-107">Als een retourzending minder bevat dan de volledige hoeveelheid van een retourorderregel, kunt u wachten totdat u de rest van de te retourneren hoeveelheid ontvangt of u kunt de gedeeltelijke hoeveelheid registreren en boeken.</span><span class="sxs-lookup"><span data-stu-id="b1c78-107">If a return shipment contains less than the full quantity of a return order line, you can set the shipment aside and wait for the rest of the returned quantity to arrive, or you can register and post the partial quantity.</span></span>
+<span data-ttu-id="b61e5-107">Als een retourzending minder bevat dan de volledige hoeveelheid van een retourorderregel, kunt u wachten totdat u de rest van de te retourneren hoeveelheid ontvangt of u kunt de gedeeltelijke hoeveelheid registreren en boeken.</span><span class="sxs-lookup"><span data-stu-id="b61e5-107">If a return shipment contains less than the full quantity of a return order line, you can set the shipment aside and wait for the rest of the returned quantity to arrive, or you can register and post the partial quantity.</span></span>
 
-## <a name="register-and-post-a-partial-quantity"></a><span data-ttu-id="b1c78-108">Een gedeeltelijke hoeveelheid registreren en boeken</span><span class="sxs-lookup"><span data-stu-id="b1c78-108">Register and post a partial quantity</span></span>
+## <a name="register-and-post-a-partial-quantity"></a><span data-ttu-id="b61e5-108">Een gedeeltelijke hoeveelheid registreren en boeken</span><span class="sxs-lookup"><span data-stu-id="b61e5-108">Register and post a partial quantity</span></span>
 
-1.  <span data-ttu-id="b1c78-109">Nadat u een retourorder voor aankomst in het formulier **Aankomstoverzicht - Magazijn: %1, Dok: %2, Journaalnaam: %3** hebt geselecteerd, klikt u op **Begin aankomst** om het aankomstjournaal te maken en klikt u vervolgens op **Journalen** \> **Aankomsten van ontvangsten tonen** om het formulier **Locatiejournaal** te openen.</span><span class="sxs-lookup"><span data-stu-id="b1c78-109">After you select a return order for arrival on the **Arrival overview - Warehouse: %1, Dock: %2, Journal name: %3** form, click **Start arrival** to create the arrival journal, and then click **Journals** \> **Show arrivals from receipts** to open the **Location journal** form.</span></span>
+1.  <span data-ttu-id="b61e5-109">Nadat u een retourorder voor aankomst in het formulier **Aankomstoverzicht - Magazijn: %1, Dok: %2, Journaalnaam: %3** hebt geselecteerd, klikt u op **Begin aankomst** om het aankomstjournaal te maken en klikt u vervolgens op **Journalen** \> **Aankomsten van ontvangsten tonen** om het formulier **Locatiejournaal** te openen.</span><span class="sxs-lookup"><span data-stu-id="b61e5-109">After you select a return order for arrival on the **Arrival overview - Warehouse: %1, Dock: %2, Journal name: %3** form, click **Start arrival** to create the arrival journal, and then click **Journals** \> **Show arrivals from receipts** to open the **Location journal** form.</span></span>
 
-2.  <span data-ttu-id="b1c78-110">Selecteer de regel van het journaal waarmee u wilt werken en klik op **Regels** om het formulier **Journaalregels, locaties** te openen.</span><span class="sxs-lookup"><span data-stu-id="b1c78-110">Select the line of the journal that you want to work with, and then click **Lines** to open the **Journal lines, locations** form.</span></span>
+2.  <span data-ttu-id="b61e5-110">Selecteer de regel van het journaal waarmee u wilt werken en klik op **Regels** om het formulier **Journaalregels, locaties** te openen.</span><span class="sxs-lookup"><span data-stu-id="b61e5-110">Select the line of the journal that you want to work with, and then click **Lines** to open the **Journal lines, locations** form.</span></span>
 
-3.  <span data-ttu-id="b1c78-111">Selecteer de regel van het artikelnummer waarvoor slechts een gedeeltelijke hoeveelheid is gearriveerd en klik op **Functies** \> **Splitsen** om het formulier **Splitsen** te openen.</span><span class="sxs-lookup"><span data-stu-id="b1c78-111">Select the line of the item number for which only a partial quantity has arrived, and then click **Functions** \> **Split** to open the **Split** form.</span></span>
+3.  <span data-ttu-id="b61e5-111">Selecteer de regel van het artikelnummer waarvoor slechts een gedeeltelijke hoeveelheid is gearriveerd en klik op **Functies** \> **Splitsen** om het formulier **Splitsen** te openen.</span><span class="sxs-lookup"><span data-stu-id="b61e5-111">Select the line of the item number for which only a partial quantity has arrived, and then click **Functions** \> **Split** to open the **Split** form.</span></span>
 
-4.  <span data-ttu-id="b1c78-112">Voer in het veld **Gesplitste hoeveelheid** de hoeveelheid in voor het totaal aantal artikelen dat is ontvangen en klik op **OK**.</span><span class="sxs-lookup"><span data-stu-id="b1c78-112">In the **Split quantity** field, enter the quantity for the total number of items that have been received, and then click **OK**.</span></span>
+4.  <span data-ttu-id="b61e5-112">Voer in het veld **Gesplitste hoeveelheid** de hoeveelheid in voor het totaal aantal artikelen dat is ontvangen en klik op **OK**.</span><span class="sxs-lookup"><span data-stu-id="b61e5-112">In the **Split quantity** field, enter the quantity for the total number of items that have been received, and then click **OK**.</span></span>
 
-5.  <span data-ttu-id="b1c78-113">Selecteer in het formulier **Journaalregels, locaties** de regel voor de hoeveelheid artikelen die is ontvangen en klik op **Boeken**.</span><span class="sxs-lookup"><span data-stu-id="b1c78-113">On the **Journal lines, locations** form, select the line for the quantity of items that has arrived, and then click **Post**.</span></span> <span data-ttu-id="b1c78-114">U kunt de regel voor de extra hoeveelheid boeken nadat de artikelen zijn ontvangen.</span><span class="sxs-lookup"><span data-stu-id="b1c78-114">You can post the line for the additional quantity after the items have arrived.</span></span>
+5.  <span data-ttu-id="b61e5-113">Selecteer in het formulier **Journaalregels, locaties** de regel voor de hoeveelheid artikelen die is ontvangen en klik op **Boeken**.</span><span class="sxs-lookup"><span data-stu-id="b61e5-113">On the **Journal lines, locations** form, select the line for the quantity of items that has arrived, and then click **Post**.</span></span> <span data-ttu-id="b61e5-114">U kunt de regel voor de extra hoeveelheid boeken nadat de artikelen zijn ontvangen.</span><span class="sxs-lookup"><span data-stu-id="b61e5-114">You can post the line for the additional quantity after the items have arrived.</span></span>
 
 
 
