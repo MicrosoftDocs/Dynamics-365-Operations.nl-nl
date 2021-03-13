@@ -2,7 +2,7 @@
 title: Adreswijzigingen weergeven en beheren
 description: In dit onderwerp wordt uitgelegd hoe u adreswijzigingen kunt weergeven en beheren in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a69d723b45e834b022491c8eaf2a7fb580e54f1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8746f449f2b30b2e2119446c1912842c420acbfc
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417924"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152048"
 ---
 # <a name="view-and-manage-address-changes"></a>Adreswijzigingen weergeven en beheren
 
@@ -125,9 +125,6 @@ HR-medewerkers kunnen adreswijzigingen weergeven en controleren vanuit het werkg
 Wanneer u de tegel **Adreswijzigingen** selecteert, worden in een nieuwe pagina de details van eventuele adreswijzigingen weergegeven. U kunt desgewenst **Toekomstige adreswijzigingen opnemen** in de rechterbovenhoek selecteren om de adreswijzigingen met een toekomstige datum weer te geven.
 
 > [!NOTE]
-> Als u een waarschuwing of een e-mailbericht over deze adreswijzigingen wilt ontvangen, kunt u een nieuwe waarschuwingsregel maken op het tabblad **Opties** in het actievenster. Zie [Waarschuwingsregels maken](/fin-ops-core/fin-ops/get-started/create-alert-rules.md) voor meer informatie over het maken van waarschuwingsregels.<br><br>
+> Als u een waarschuwing of een e-mailbericht over deze adreswijzigingen wilt ontvangen, kunt u een nieuwe waarschuwingsregel maken op het tabblad **Opties** in het actievenster. Zie [Waarschuwingsregels maken](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts) voor meer informatie over het maken van waarschuwingsregels.<br><br>
 
-> Als u een werkstroom voor de adreswijzigingen wilt configureren, kunt u de optie **Extern verzenden** in uw waarschuwingsregel selecteren en vervolgens Power Automate gebruiken om de zakelijke gebeurtenis te activeren en een werkstroom te configureren. Zie [Waarschuwingen als zakelijke gebeurtenissen](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md) voor meer informatie.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> Als u een werkstroom voor de adreswijzigingen wilt configureren, kunt u de optie **Extern verzenden** in uw waarschuwingsregel selecteren en vervolgens Power Automate gebruiken om de zakelijke gebeurtenis te activeren en een werkstroom te configureren. Zie [Waarschuwingen als zakelijke gebeurtenissen](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events) voor meer informatie.

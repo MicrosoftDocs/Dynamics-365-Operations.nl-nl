@@ -1,5 +1,5 @@
 ---
-title: Controleer of Twee keer wegschrijven is geconfigureerd in Finance and Operations-apps en Dataverse
+title: Configuratie van twee keer wegschrijven in Finance and Operations-apps en Dataverse controleren
 description: In dit onderwerp wordt uitgelegd hoe u kunt bepalen of Twee keer wegschrijven is geconfigureerd in Finance and Operations-apps en Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f389bcf133cc7e6a086167d5e26c1b8795d0fa30
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 361d6555b60e02832c337b6f416b2b3627b6d365
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685534"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129302"
 ---
-# <a name="verify-that-dual-write-is-configured-in-finance-and-operations-apps-and-dataverse"></a>Controleer of Twee keer wegschrijven is geconfigureerd in Finance and Operations-apps en Dataverse
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Configuratie van twee keer wegschrijven in Finance and Operations-apps en Dataverse controleren
 
 [!include [banner](../../includes/banner.md)]
 
@@ -51,13 +51,10 @@ Voor informatie over het oplossen van problemen wanneer u gegevens maakt in Fina
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>Controleren of Twee keer wegschrijven is geconfigureerd in Dataverse
 
-Wanneer u gegevens maakt en u het veld **Bedrijf** ziet op pagina's in Dataverse, is Twee keer wegschrijven geconfigureerd.
+Wanneer u gegevens maakt en u de kolom **Bedrijf** ziet op pagina's in Dataverse, is Twee keer wegschrijven geconfigureerd.
 
 ![De Dataverse-verbinding controleren](media/verify_cds.png)
 
 Voor informatie over het oplossen van problemen wanneer u gegevens maakt in Dataverse leest u [Problemen met live synchronisatie oplossen](dual-write-troubleshooting-live-sync.md).
 
 Voor informatie over het weergeven van foutdetails als u fouten tegenkomt bij het maken van gegevens in Dataverse, raadpleegt u [Het traceerlogboek voor de invoegtoepassing inschakelen en weergeven in Dataverse om foutdetails weer te geven](dual-write-troubleshooting.md#enable-view-trace).
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

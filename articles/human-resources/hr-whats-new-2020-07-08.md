@@ -1,8 +1,8 @@
 ---
 title: Nieuwe of gewijzigde functies in Dynamics 365 Human Resources (08 juli 2020)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 8 juli 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 14dfd925009cb2a9d40044e27f28521ff4d331b7
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528468"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130392"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Nieuwe of gewijzigde functies in Dynamics 365 Human Resources (8 juli 2020)
 
@@ -71,9 +71,9 @@ De gemaakte en gewijzigde systeemvelden zijn nu ingeschakeld in de tabel **WorkC
 
 In deze release is een fout (null-referentie) gecorrigeerd in de gestroomlijnde werknemersgegevens wanneer u een werknemer aanneemt met behulp van de optie **Aanstelling en details toevoegen**.
 
-## <a name="changes-made-in-the-common-data-service-worker-entity-dont-reflect-in-human-resources-455652"></a>Wijzigingen die in de entiteit Common Data Service-medewerker zijn aangebracht, zijn niet zichtbaar in Human Resources (455652)
+## <a name="changes-made-in-the-dataverse-worker-entity-dont-reflect-in-human-resources-455652"></a>Wijzigingen die in de entiteit Dataverse-medewerker zijn aangebracht, zijn niet zichtbaar in Human Resources (455652)
 
-Wijzigingen in de volgende velden in de entiteit **Medewerker** in Common Data Service worden nu in Human Resources weergegeven:
+Wijzigingen in de volgende velden in de entiteit **Medewerker** in Dataverse worden nu in Human Resources weergegeven:
 
 - **Werkt thuis**
 - **Anciënniteitsdatum**
@@ -131,9 +131,9 @@ Een DMF-entiteit is nu beschikbaar voor opschorten van toerekeningen.
 
 ## <a name="coming-soon"></a>Binnenkort beschikbaar
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Check List-entiteiten opgenomen in Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>Check List-entiteiten opgenomen in Dataverse
 
-Controlelijstentiteiten voor de processen Onboarding, Offboarding, Overdracht en Bedrijfs zijn binnenkort beschikbaar in Common Data Service.
+Controlelijstentiteiten voor de processen Onboarding, Offboarding, Overdracht en Bedrijfs zijn binnenkort beschikbaar in Dataverse.
 
 ## <a name="see-also"></a>Zie ook
 
@@ -141,6 +141,3 @@ Controlelijstentiteiten voor de processen Onboarding, Offboarding, Overdracht en
 [Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Overzicht van twee keer wegschrijven
-description: Dit onderwerp biedt een overzicht van twee keer wegschrijven. Twee keer wegschrijven is een infrastructuur die vrijwel-realtime interactie biedt tussen modelgestuurde Microsoft Dynamics 365-apps en Finance and Operations-apps.
+description: Dit onderwerp biedt een overzicht van twee keer wegschrijven wat een near-realtime interactie biedt tussen Customer Engagement- en Finance and Operations-apps.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 02/06/2020
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 85530cf644c7b7ffe922a6fb3288f4e05c5df91c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3937850a9df716113591e49b25373beb48e3acdd
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685608"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130000"
 ---
 # <a name="dual-write-overview"></a>Overzicht van twee keer wegschrijven
 
@@ -53,7 +53,7 @@ De infrastructuur voor twee keer wegschrijven is uitbreidbaar en betrouwbaar en 
 + Gecombineerde weergave van activiteiten- en foutlogbestanden voor gegevensbeheerders
 + Mogelijkheid om aangepaste waarschuwingen en drempels te configureren en om zich te abonneren op meldingen
 + Intuïtieve gebruikersinterface (UI) voor filtering en transformaties
-+ Mogelijkheid om afhankelijkheden en relaties tussen entiteiten in te stellen en weer te geven
++ Mogelijkheid om afhankelijkheden en relaties tussen tabellen in te stellen en weer te geven
 + Uitbreidbaarheid voor zowel standaard als aangepaste tabellen en kaarten
 + Betrouwbaar levenscyclusbeheer voor toepassingen
 + Kant-en-klare instelling voor nieuwe klanten
@@ -93,7 +93,7 @@ Twee keer wegschrijven biedt gegevensintegratie tussen Microsoft Dynamics 365-to
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>Wat houdt Twee keer wegschrijven in voor ontwikkelaars en architecten van Customer Engagement-apps?
 
-Met Twee keer wegschrijven wordt de gegevensstroom tussen Finance and Operations-apps en Customer Engagement-apps geautomatiseerd. Twee keer wegschrijven bestaat uit twee AppSource-oplossingen die in Dataverse worden geïnstalleerd. De oplossingen vergroten het entiteitsschema, invoegtoepassingen en workflows in Dataverse, zodat deze kunnen worden aangepast aan de ERP-grootte. Voor een succesvolle implementatie moeten ontwikkelaars en architecten van Customer Engagement-apps deze wijzigingen begrijpen en samenwerken met hun tegenhangers in Finance and Operations-apps.
+Met Twee keer wegschrijven wordt de gegevensstroom tussen Finance and Operations-apps en Customer Engagement-apps geautomatiseerd. Twee keer wegschrijven bestaat uit twee AppSource-oplossingen die in Dataverse worden geïnstalleerd. De oplossingen vergroten het tabelschema, invoegtoepassingen en workflows in Dataverse, zodat deze kunnen worden aangepast aan de ERP-grootte. Voor een succesvolle implementatie moeten ontwikkelaars en architecten van Customer Engagement-apps deze wijzigingen begrijpen en samenwerken met hun tegenhangers in Finance and Operations-apps.
 
 Om pariteit met Finance and Operations-toepassingen tot stand te brengen, brengt Twee keer wegschrijven een aantal belangrijke wijzigingen in het Dataverse-schema aan. Als u het plan begrijpt, kunt u voorkomen dat u ontwerp- en ontwikkelingsproblemen in de toekomst voorkomen.
 
@@ -103,12 +103,9 @@ Om pariteit met Finance and Operations-toepassingen tot stand te brengen, brengt
 
 + Als u gegevensverlies tijdens de valutaoverdracht tussen Finance and Operations-apps en Dataverse wilt voorkomen, kunt u het aantal decimalen in het valutagegevenstype van Customer Engagement-apps uitbreiden. Met deze functie worden bestaande rijen automatisch omgezet in de nieuwe uitgebreide status in de metagegevenslaag. Tijdens deze procedure wordt de valutawaarde omgezet in decimale gegevens in plaats van geldgegevens en de valutawaarde ondersteunt 10 decimalen. Deze functie is optioneel en organisaties die niet meer dan vier decimalen nodig hebben, hoeven zich niet aan te melden. Zie [Migratie van valutagegevenstype voor twee keer wegschrijven](currrency-decimal-places.md) voormeer informatie.
 
-+ [Ingangsdatum](../../dev-tools/date-effectivity.md) wordt toegevoegd aan Dataverse. Hiermee wordt ondersteuning geboden voor vroegere, huidige en toekomstige datums in dezelfde entiteit.
++ [Ingangsdatum](../../dev-tools/date-effectivity.md) wordt toegevoegd aan Dataverse. Hiermee wordt ondersteuning geboden voor vroegere, huidige en toekomstige gegevens in dezelfde tabel.
 
 + [Omrekeningen van producteenheden](../../../../supply-chain/pim/tasks/manage-unit-measure.md) worden ondersteund voor producten, offertes, orders en facturen.
 
 Zie [Nieuwe of gewijzigde functies in twee keer wegschrijven](whats-new-dual-write.md) voor meer informatie over aanstaande wijzigingen.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

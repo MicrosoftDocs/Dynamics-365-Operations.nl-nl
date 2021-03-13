@@ -1,5 +1,5 @@
 ---
-title: Problemen met de module Twee keer wegschrijven oplossen in Finance and Operations-apps
+title: Problemen met Twee keer wegschrijven in Finance and Operations-apps oplossen
 description: Dit onderwerp bevat informatie over het oplossen van problemen met betrekking tot de module Twee keer wegschrijven in Finance and Operations-apps.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2241e7e6219f95115f55bc45a4d94550276e1e21
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3ffeb2de0acc1761bccf62a1a124852c504e2a3a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683618"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131240"
 ---
-# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Problemen met de module Twee keer wegschrijven oplossen in Finance and Operations-apps
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Problemen met Twee keer wegschrijven in Finance and Operations-apps oplossen
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,7 +44,7 @@ Als u de pagina **Twee keer wegschrijven** niet kunt openen door het selecteren 
 
 **Vereiste referenties om het probleem op te lossen:** dezelfde gebruiker die Twee keer wegschrijven heeft ingesteld.
 
-Het volgende foutbericht kan worden weergegeven wanneer u een nieuwe entiteit probeert te configureren voor Twee keer wegschrijven. De enige gebruiker die een toewijzing kan maken, is de gebruiker die de verbinding voor Twee keer wegschrijven heeft ingesteld.
+Het volgende foutbericht kan worden weergegeven wanneer u een nieuwe tabel probeert te configureren voor Twee keer wegschrijven. De enige gebruiker die een toewijzing kan maken, is de gebruiker die de verbinding voor Twee keer wegschrijven heeft ingesteld.
 
 *Statuscode van antwoord geeft geen positief resultaat: 401 (Niet-geautoriseerd)*
 
@@ -77,7 +77,7 @@ Deze fout treedt op wanneer de gekoppelde Dataverse-omgeving niet beschikbaar is
 
 Maak een ticket voor het gegevensintegratieteam om het probleem op te lossen. Koppel de netwerktracering zodat het gegevensintegratieteam de toewijzingen kan markeren als **Wordt niet uitgevoerd** in de backend.
 
-## <a name="error-while-trying-to-start-an-table-mapping"></a>Fout tijdens het starten van een tabeltoewijzing
+## <a name="error-while-trying-to-start-a-table-mapping"></a>Fout tijdens het starten van een tabeltoewijzing
 
 Er wordt een foutbericht van de volgende strekking weergegeven wanneer u deze status van een toewijzing probeert in te stellen op **Wordt uitgevoerd**:
 
@@ -86,7 +86,4 @@ Er wordt een foutbericht van de volgende strekking weergegeven wanneer u deze st
 De correctie voor deze fout is afhankelijk van de oorzaak van de fout:
 
 + Als de toewijzing afhankelijke toewijzingen heeft, moet u ervoor zorgen dat u de afhankelijke toewijzingen van deze tabeltoewijzing inschakelt.
-+ Er zijn mogelijk geen bron- of doelvelden toegewezen aan de toewijzing. Als een veld in de Finance and Operations-app ontbreekt, volgt u de stappen in de sectie [Probleem met ontbrekende entiteitsvelden in toewijzingen](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Als een veld in Dataverse ontbreekt, klikt u op de knop **Tabellen vernieuwen** in de toewijzing, zodat de velden automatisch opnieuw worden gevuld in de toewijzing.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
++ De toewijzing mist mogelijk bron- of doelkolommen. Als een kolom in de Finance and Operations-app ontbreekt, volgt u de stappen in de sectie [Probleem met ontbrekende tabelkolommen in toewijzingen](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Als een kolom in Dataverse ontbreekt, klikt u op de knop **Tabellen vernieuwen** in de toewijzing, zodat de kolommen automatisch opnieuw worden gevuld in de toewijzing.

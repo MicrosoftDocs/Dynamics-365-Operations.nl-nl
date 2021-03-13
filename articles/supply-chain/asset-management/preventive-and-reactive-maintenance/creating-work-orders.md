@@ -1,9 +1,9 @@
 ---
 title: Werkorders maken
 description: In dit onderwerp wordt uitgelegd hoe u werkorders maakt in Activabeheer.
-author: josaw1
+author: johanhoffmann
 manager: tfehr
-ms.date: 08/27/2019
+ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,47 +11,87 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
-ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f94f8bc20753e38ce1cb6eccdfbc85c2e491ffad
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.dyn365.ops.version: 10.0.17
+ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
+ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4425483"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "5131788"
 ---
 # <a name="creating-work-orders"></a>Werkorders maken
 
 [!include [banner](../../includes/banner.md)]
 
- 
+Nadat u preventieve onderhoudstaken hebt gepland, is de volgende stap het maken van werkorders voor de taken. U kunt deze stap uitvoeren met een van de onderhoudsschema's. De geplande taken in een onderhoudsschema kunnen verschillende verwijzingstypen hebben, zoals beschreven in de volgende tabel.
 
-Wanneer u preventieve onderhoudstaken hebt gepland, is de volgende stap het maken van werkorders voor de taken. Dit kunt u doen in een van de onderhoudsschema's. De geplande taken in een onderhoudsschema kunnen verschillende verwijzingstypen hebben:
+| Verwijzingstype | Beschrijving |
+|---|---|
+| Onderhoudsplannen | Taken voor preventief onderhoud op basis van de typen onderhoudsplan *Tijd* of *Teller*. |
+| Onderhoudsrondes | Taken voor preventief onderhoud met verschillende activa waarvoor een vergelijkbaar type onderhoud is vereist. |
+| Onderhoudsverzoek | Een handmatig gemaakte aanvraag voor onderhoud of reparatie van een activum. Deze aanvraag kan worden geconverteerd naar een werkorder. |
 
-| Verwijzingstype | Beschrijving                    |
-|-----------------------|------------------------------------------------------------------------------------------------------------|
-| Onderhoudsplannen     | Taken voor preventief onderhoud op basis van de typen onderhoudsplan Tijd of Teller.                       |
-| Onderhoudsrondes    | Taken voor preventief onderhoud met verschillende activa waarvoor een vergelijkbaar type onderhoud is vereist.           |
-| Onderhoudsverzoek   | Handmatig gemaakt verzoek om onderhoud of reparatie van een activum, dat kan worden omgezet in een werkorder. |
+## <a name="create-work-orders-based-on-your-maintenance-schedule"></a>Werkorders maken op basis van uw onderhoudsschema
 
+Volg deze stappen om werkorders te maken op basis van uw onderhoudsschema.
 
-1. Klik op **Activabeheer** > **Algemeen** > **Hele onderhoudsschema** of **Openstaande onderhoudsschemaregels** of **Openstaande onderhoudsschemagroepen**.
+1. Open een van de volgende pagina's, afhankelijk van hoe u schema-artikelen voor uw werkorders wilt selecteren:
 
-2. Selecteer de geplande onderhoudstaken waarvoor u een werkorder wilt maken en klik op **Werkorder**. In het dialoogvenster **Werkorders maken** wordt het totaal aantal geraamde uren voor de geselecteerde regels weergegeven in het veld **Prognose voor onderhoudsuren**.
+    - Alle onderhoudsschema's (**Activabeheer \> Beheerschema \> Alle onderhoudsschema's**)
+    - Open onderhoudsschemaregels (**Activabeheer \> Beheerschema \> Alle onderhoudsschemaregels**)
+    - Open onderhoudsschemagroepen (**Activabeheer \> Beheerschema \> Onderhoudsschemagroepen openen**)
 
-3. Selecteer in de sectie **Parameters** hoeveel werkorders er gemaakt moeten. U kunt één werkorder per onderhoudsschemaregel maken of een aantal werkorders op basis van uw selecties in de sectie **Eén werkorder per**.
+1. Schakel in het raster het selectievakje in voor elke geplande onderhoudstaak waarvoor u een werkorder wilt maken. Selecteer vervolgens in het actievenster **Werkorder**.
 
-4. Selecteer een **Werkordertype** dat wordt gebruikt voor alle werkorders die u maakt. In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Werkorders maken**.
+    Het dialoogvenster **Werkorders maken** wordt weergegeven. Het veld **Prognose voor onderhoudsuren** toont het totaal aantal geraamde uren voor de geselecteerde regels.
 
-![Figuur 1](media/18-preventive-maintenance.png)
+    ![Dialoogvenster Werkorders maken](media/18-preventive-maintenance.png)
 
-5. Klik op **OK**. Er worden een of meer werkorders gemaakt.
+1. Geef in de sectie **Parameters** het aantal werkorders op dat u wilt maken. Een van de volgende opties selecteren:
 
+    - **Eén werkorder per regel** – Eén werkorder per onderhoudsschemaregel maken.
+    - **Eén werkorder per** – Werkorders maken die gegroepeerd zijn volgens de instellingen van de andere opties die beschikbaar worden wanneer u deze optie selecteert.
 
+1. Selecteer in het veld **Werkordertype** het werkordertype dat u wilt gebruiken voor alle werkorders die u maakt.
+1. Selecteer **OK** om de werkorders volgens uw instellingen te maken.
 
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Werkorderregels groeperen die automatisch worden gemaakt terwijl een onderhoudsplan wordt uitgevoerd
+
+> [!IMPORTANT]
+> De functionaliteit die in deze sectie wordt beschreven, is beschikbaar als onderdeel van een beperkte previewversie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Veelgestelde vragen over updates van service met één versie](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+Met deze functie kunt u regels definiëren voor het groeperen van werkorderregels onder één werkorder wanneer het systeem is ingesteld om automatisch werkorders te genereren op basis van een onderhoudsplan. Eerder automatisch gegenereerde werkorders kunnen slechts één regel bevatten. U kunt werkorders nu echter wel groeperen op bijvoorbeeld activa, activatype of functionele locatie. (Handmatig gegenereerde werkorders konden al op deze manier worden gegroepeerd, zoals wordt beschreven in de vorige sectie van dit onderwerp.)
+
+### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Groepering inschakelen voor automatisch gegenereerde werkorders
+
+Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+
+- **Module:** *Activabeheer*
+- **Functienaam:** *(Preview) Regels toepassen voor het groeperen van werkorders tijdens het uitvoeren van een onderhoudsplan*
+
+### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>Groepering instellen voor automatisch gegenereerde werkorders
+
+Volg deze stappen om groepering in te stellen voor automatisch gegenereerde werkorders.
+
+1. Ga naar **Activabeheer \> Instellen \> Preventief onderhoud \> Onderhoudsplannen**.
+1. Volg deze stappen voor elk plan waarin u gegroepeerde werkorders wilt genereren:
+
+    1. Selecteer het plan in het lijstvenster.
+    1. Controleer op sneltabblad **Regels** of het selectievakje **Automatisch maken** op elke regel is ingeschakeld.
+
+1. Ga naar **Activabeheer \> Periodiek \> Preventief onderhoud \> Onderhoudsplannen plannen**.
+1. Geef in het dialoogvenster **Onderhoudsplannen plannen** in de sectie **Periode** de tijdshorizon op voor het plan (hoe ver vooruit moet worden gekeken bij het zoeken naar geplande onderhoudstaken om werk voor te genereren).
+1. Stel de optie **Automatisch maken van werkorder vanuit schema** in op *Ja*.
+1. Selecteer in het gedeelte **Werkorder** een van de volgende opties:
+
+    - **Eén werkorder per regel** – Eén werkorder per onderhoudsschemaregel maken. (Deze optie biedt dezelfde functionaliteit die beschikbaar is wanneer de functie *Regels toepassen voor het groeperen van werkorders tijdens het uitvoeren van een onderhoudsplan* is uitgeschakeld.)
+    - **Eén werkorder per** – Werkorders maken die gegroepeerd zijn volgens de instellingen van de andere opties die beschikbaar worden wanneer u deze optie selecteert.
+
+1. Als u wilt dat de opties worden toegepast wanneer u slechts enkele van uw onderhoudsplannen uitvoert, voegt u op het tabblad **Op te nemen records** desgewenst filters toe, net als voor andere batchtaken in Microsoft Dynamics 365 Supply Chain Management.
+1. Stel op het sneltabblad **Uitvoeren op achtergrond** desgewenst batch- en planningsopties in, op dezelfde manier als u doet voor andere batchtaken in Supply Chain Management.
+1. Selecteer **OK** om de geselecteerde onderhoudsplannen uit te voeren en/of te plannen.

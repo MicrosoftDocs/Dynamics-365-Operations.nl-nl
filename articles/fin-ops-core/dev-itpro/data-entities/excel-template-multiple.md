@@ -1,5 +1,5 @@
 ---
-title: Gegevens importeren vanuit Excel-sjablonen voor gegevensentiteiten die meerdere werkbladen bevatten
+title: Sjablonen met meerdere werkbladen
 description: In dit onderwerp wordt beschreven hoe u gegevens importeert met Excel-gegevensentiteitsjablonen in Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 618b62364353f409f6971ddd9adc7d55297d09cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb505f33e497cf16cd6cdeddee1f88d01797f3ef
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688074"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130576"
 ---
-# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Gegevens importeren vanuit Excel-sjablonen voor gegevensentiteiten die meerdere werkbladen bevatten
+# <a name="data-templates-with-multiple-worksheets"></a>Sjablonen met meerdere werkbladen
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,6 +49,3 @@ In gevallen waarin een nieuwe versie van hetzelfde bestand of een volledig nieuw
 ## <a name="upload-a-file-using-run-project"></a>Een bestand uploaden met Project uitvoeren
 
 U kunt een Excel-bestand uploaden met de optie **Project uitvoeren** om een importproject uit te voeren. Upload alleen bestanden met dezelfde werkbladen als de bestaande toewijzingen voor de gegevensentiteiten in het gegevensproject. Als een werkblad in het onlangs geüpload bestand niet wordt gevonden, wordt er een fout weergegeven en wordt er gestopt met importeren. Als de toewijzing aan het werkblad moet worden gewijzigd voor een entiteit, moeten de toewijzingen in het gegevensproject vanuit het gegevensproject worden bijgewerkt voordat u het bestand in de ervaring **Project uitvoeren** gebruikt.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

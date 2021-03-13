@@ -1,6 +1,6 @@
 ---
-title: Problemen tijdens eerste installatie oplossen
-description: In dit onderwerp vindt u informatie over het oplossen van problemen die kunnen optreden tijdens de eerste installatie van de integratie van twee keer wegschrijven met Finance and Operations- apps en Dataverse.
+title: Problemen tijdens de initiële instelling oplossen
+description: In dit onderwerp vindt u informatie over het oplossen van problemen die optreden tijdens de eerste installatie van de integratie van twee keer wegschrijven.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ac6ec5003794fb5875fed6a2c4403c1444ab8b2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cfbc1ab3ef6d47f6ec2d8ca4ca4b8940784e6e49
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685581"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129976"
 ---
-# <a name="troubleshoot-issues-during-initial-setup"></a>Problemen tijdens eerste installatie oplossen
+# <a name="troubleshoot-issues-during-initial-setup"></a>Problemen tijdens de initiële instelling oplossen
 
 [!include [banner](../../includes/banner.md)]
 
@@ -71,13 +71,13 @@ Voer de volgende stappen uit om een app goed te keuren.
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Controleren of bedrijfsgegevens en teams voor twee keer wegschrijven op de juiste wijze zijn ingesteld tijdens het koppelen
 
-Om er zeker van te zijn dat twee keer wegschrijven goed werkt, worden de bedrijven die u tijdens de configuratie selecteert, in de Dataverse-omgeving gemaakt. Standaard zijn deze bedrijven alleen-lezen en wordt de eigenschap **IsDualWriteEnable** ingesteld op **True**. Daarnaast worden de standaard bedrijfseenheid die eigenaar is en het team gemaakt en wordt de bedrijfsnaam opgenomen. Voordat u de toewijzingen inschakelt, controleert u of de standaard eigenaar van het team is opgegeven. Voer de volgende stappen uit om de entiteit **Bedrijven (CDM\_Company)** te zoeken.
+Om er zeker van te zijn dat twee keer wegschrijven goed werkt, worden de bedrijven die u tijdens de configuratie selecteert, in de Dataverse-omgeving gemaakt. Standaard zijn deze bedrijven alleen-lezen en wordt de eigenschap **IsDualWriteEnable** ingesteld op **True**. Daarnaast worden de standaard bedrijfseenheid die eigenaar is en het team gemaakt en wordt de bedrijfsnaam opgenomen. Voordat u de toewijzingen inschakelt, controleert u of de standaard eigenaar van het team is opgegeven. Voer de volgende stappen uit om de tabel **Bedrijven (CDM\_Company)** te zoeken.
 
 1. Selecteer in de modelgestuurde app in Dynamics 365 het filter in de rechterbovenhoek.
 2. Selecteer **Bedrijf** in de vervolgkeuzelijst.
 3. Selecteer **Uitvoeren** om de resultaten weer te geven.
 4. Selecteer het bedrijf dat was gekoppeld tijdens het configureren van twee keer wegschrijven.
-5. Controleer of het veld **Standaardeigenaarsteam** een waarde heeft. In de volgende afbeelding is het veld **Standaardeigenaarsteam** ingesteld op **USMF twee keer wegschrijven**.
+5. Controleer of de kolom **Standaardeigenaarsteam** een waarde heeft. In de volgende afbeelding is de kolom **Standaardeigenaarsteam** ingesteld op **USMF twee keer wegschrijven**.
 
     ![Het standaardeigenaarsteam controleren](media/default_owning_team.png)
 
@@ -88,6 +88,3 @@ Mogelijk wordt het volgende foutbericht weergegeven wanneer u toewijzingen probe
 *Fout met twee keer wegschrijven - Registratie van invoegtoepassing mislukt: \[(Kan partitietoewijzing voor project DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea niet ophalen. Fout: de maximum toegestane partities overschreden voor toewijzing DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], Er zijn een of meer fouten opgetreden.*
 
 De huidige limiet voor het koppelen van de omgevingen is ongeveer 40 rechtspersonen. Deze fout treedt op als u toewijzingen probeert in te schakelen en er meer dan 40 rechtspersonen tussen de omgevingen zijn gekoppeld.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

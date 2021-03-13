@@ -1,5 +1,5 @@
 ---
-title: Op aanvraag synchroniseren met de prijsengine van Dynamics 365 Supply Chain Management
+title: Op verzoek synchroniseren met de Supply Chain Management-prijsengine
 description: In dit onderwerp wordt beschreven hoe u de prijsengine in Microsoft Dynamics 365 Supply Chain Management gebruikt vanuit Dynamics 365 Sales.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 45a9de18a3ff9c50eba8b316171b492605d683d4
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4451411"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130648"
 ---
-# <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>Op aanvraag synchroniseren met de prijsengine van Dynamics 365 Supply Chain Management
+# <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Op verzoek synchroniseren met de Supply Chain Management-prijsengine
 
 [!include [banner](../../includes/banner.md)]
 
@@ -40,7 +40,7 @@ Microsoft Dynamics 365 Supply Chain Management bevat een prijsengine waarmee han
 3. Voeg een nieuwe orderregel toe.
 4. Als u een nieuwe order maakt, selecteert u **Prijsorder** in het actievenster. Als u een bestaande order bijwerkt, selecteert u **Opnieuw berekenen** in het actievenster.
 
-    De volgende velden worden automatisch ingevuld:
+    De volgende kolommen worden automatisch ingevuld:
 
     + Detailbedrag
     + Kortingspercentage
@@ -58,17 +58,14 @@ Microsoft Dynamics 365 Supply Chain Management bevat een prijsengine waarmee han
 
 ## <a name="how-it-works"></a>Hoe het werkt
 
-Wanneer u **Prijsorder** selecteert in Sales, wordt de functie **Totalen** op het tabblad **Verkooporder \> Weergeven** in Supply Chain Management aangeroepen voor de bijbehorende verkooporder. De waarden in het ordertotaal in Sales worden gebruikt om de overeenkomende velden in Supply Chain Management in te vullen.
+Wanneer u **Prijsorder** selecteert in Sales, wordt de functie **Totalen** op het tabblad **Verkooporder \> Weergeven** in Supply Chain Management aangeroepen voor de bijbehorende verkooporder. De waarden in het ordertotaal in Sales worden gebruikt om de overeenkomende kolommen in Supply Chain Management in te vullen.
 
 Wanneer het verkoopordertotaal wordt berekend in Supply Chain Management, worden de bestaande handelsovereenkomsten en verkoopovereenkomsten voor de klant en de producten in de verkooporder geëvalueerd. Deze informatie wordt gebruikt om de totalen te berekenen. Wanneer **Prijsorder** is geselecteerd, worden in Sales automatisch alle instellingen weergegeven die zijn geconfigureerd in Supply Chain Management.
 
 ## <a name="limitations"></a>Beperkingen
 
-Wanneer de velden in Sales zijn ingevuld, gelden de volgende beperkingen:
+Wanneer de kolommen in Sales zijn ingevuld, gelden de volgende beperkingen:
 
 + De instellingen van toeslagen en toeslagtoewijzingen in Supply Chain Management worden niet in Sales gerepliceerd.
-+ Voor prijzen wordt geen rekening gehouden met speciale adviesprijzen die zijn opgegeven in het veld **Detailhandelafzetkanaal** op de pagina Verkooporderregel in Supply Chain Management.
++ Voor prijzen wordt geen rekening gehouden met speciale adviesprijzen die zijn opgegeven in de kolom **Detailhandelafzetkanaal** op de pagina Verkooporderregel in Supply Chain Management.
 + Kortingen die zijn gedefinieerd in de sectie **Beheer van handelstoeslag** van Supply Chain Management worden niet meegenomen.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

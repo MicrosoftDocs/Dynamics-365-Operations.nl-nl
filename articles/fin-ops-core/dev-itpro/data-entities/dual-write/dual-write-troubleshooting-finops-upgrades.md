@@ -1,5 +1,5 @@
 ---
-title: Problemen oplossen met betrekking tot upgrades van Finance and Operations-apps
+title: Problemen met betrekking tot upgrades van Finance and Operations-apps oplossen
 description: Dit onderwerp bevat informatie over het oplossen van problemen met betrekking tot upgrades van Finance and Operations-apps.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c76b35ed3af766f42484a118a4a0407d969b5240
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a11ce426d7f30b6b124bd2022514a0201c2b332c
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683594"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131216"
 ---
-# <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Problemen oplossen met betrekking tot upgrades van Finance and Operations-apps
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Problemen met betrekking tot upgrades van Finance and Operations-apps oplossen
 
 [!include [banner](../../includes/banner.md)]
 
@@ -42,7 +42,7 @@ Dit onderwerp bevat informatie voor het oplossen van problemen voor de integrati
 
 **Vereiste rol om de fout op te lossen:** systeembeheerder
 
-Er wordt mogelijk een foutbericht van de volgende strekking weergegeven wanneer u probeert de entiteit **DualWriteprojectConfiguration** te gebruiken om een Finance and Operations-app bij te werken naar Platform update 30.
+Er wordt mogelijk een foutbericht van de volgende strekking weergegeven wanneer u probeert de tabel **DualWriteprojectConfiguration** te gebruiken om een Finance and Operations-app bij te werken naar Platform update 30.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -62,7 +62,7 @@ Volg deze stappen om het probleem op te lossen.
 8. Selecteer **Synchroniseren** om een volledige databasesynchronisatie uit te voeren.
 9. Nadat de synchronisatie van de volledige database is geslaagd, voert u de synchronisatiestap voor de Microsoft Dynamics-database in Lifecycle Services (LCS) opnieuw uit en gebruikt u de handmatige upgradescripts als dat van toepassing is, zodat u kunt doorgaan met de update.
 
-## <a name="missing-entity-fields-issue-on-maps"></a>Problemen met ontbrekende entiteitsvelden in toewijzingen
+## <a name="missing-table-columns-issue-on-maps"></a>Probleem met ontbrekende tabelkolommen in toewijzingen
 
 **Vereiste rol om de fout op te lossen:** systeembeheerder
 
@@ -70,27 +70,24 @@ Op de pagina **Twee keer wegschrijven** kan een foutbericht van de volgende stre
 
 *Ontbrekend bronveld \<field name\> in het schema.*
 
-![Voorbeeld van foutbericht met ontbrekende bronvelden](media/error_missing_field.png)
+![Voorbeeld van foutbericht over ontbrekende bronkolommen](media/error_missing_field.png)
 
-Als u het probleem wilt verhelpen, voert u eerst deze stappen uit om te controleren of de velden in de entiteit aanwezig zijn.
+Als u het probleem wilt verhelpen, voert u eerst deze stappen uit om te controleren of de kolommen in de tabel aanwezig zijn.
 
 1. Meld u aan bij de VM voor de Finance and Operations-app.
-2. Ga naar **Werkruimten \> Gegevensbeheer**, selecteer de tegel **Raamwerkparameters** en selecteer vervolgens op het tabblad **Tabelinstellingen** de optie **Entiteitslijst vernieuwen** om de tabellen te vernieuwen.
-3. Ga naar **Werkruimten \> Gegevensbeheer**, selecteer het tabblad **Gegevenstabellen** en controleer of de entiteit wordt weergegeven. Als de entiteit niet wordt weergegeven, meldt u zich aan bij de VM voor de Finance and Operations-app en controleert u of de entiteit beschikbaar is.
+2. Ga naar **Werkruimten \> Gegevensbeheer**, selecteer de tegel **Raamwerkparameters** en selecteer vervolgens op het tabblad **Tabelinstellingen** de optie **Tabellijst vernieuwen** om de tabellen te vernieuwen.
+3. Ga naar **Werkruimten \> Gegevensbeheer**, selecteer het tabblad **Gegevenstabellen** en controleer of de tabel wordt weergegeven. Als de tabel niet wordt weergegeven, meldt u zich aan bij de VM voor de Finance and Operations-app en controleert u of de tabel beschikbaar is.
 4. Open de pagina **Tabeltoewijzing** op de pagina **Twee keer wegschrijven** in de Finance and Operations-app.
-5. Selecteer **Entiteitslijst vernieuwen** om de velden in de tabeltoewijzingen automatisch te vullen.
+5. Selecteer **Tabellijst vernieuwen** om de kolommen in de tabeltoewijzingen automatisch te vullen.
 
 Als het probleem nog steeds niet is opgelost, voert u de volgende stappen uit.
 
 > [!IMPORTANT]
-> Deze stappen begeleiden u bij het verwijderen van een entiteit en het toevoegen ervan. U kunt problemen voorkomen door de stappen exact uit te voeren.
+> Deze stappen begeleiden u bij het verwijderen van een tabel en het toevoegen ervan. U kunt problemen voorkomen door de stappen exact uit te voeren.
 
 1. Ga in de Finance and Operations-app naar **Werkruimten \> Gegevensbeheer** en selecteer de tegel **Gegevenstabellen**.
-2. Zoek de entiteit waarvoor het kenmerk ontbreekt. Klik op **Doeltoewijzing aanpassen** op de werkbalk.
+2. Zoek de tabel waarvoor het kenmerk ontbreekt. Klik op **Doeltoewijzing aanpassen** op de werkbalk.
 3. Klik in het deelvenster **Fasering aan doel toewijzen** op **Toewijzing genereren**.
 4. Open de pagina **Tabeltoewijzing** op de pagina **Twee keer wegschrijven** in de Finance and Operations-app.
 5. Als het kenmerk niet automatisch wordt ingevuld op de toewijzing, voegt u dit handmatig toe door te klikken op de knop **Kenmerk toevoegen** en vervolgens op **Opslaan**. 
 6. Selecteer de toewijzing en klik op **Uitvoeren**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

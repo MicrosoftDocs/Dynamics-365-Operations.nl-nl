@@ -2,7 +2,7 @@
 title: Uw werknemers organiseren met afdelingen, taken en posities
 description: Afdelingen, taken en functies zijn organisatie-elementen die worden onderhouden in Human resources. Dit artikel bevat conceptuele informatie over deze elementen.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources, Retail
+ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 826de9e1e5d70ba1ec088b44254c871726b5c38e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e1dace0dc6477e259d1004440c4cda8060bf90e3
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417963"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130224"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Uw werknemers organiseren met afdelingen, taken en posities
 
@@ -165,6 +165,3 @@ U kunt de gegevens vermeld in de vorige tabel wijzigen voor een functie of een t
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

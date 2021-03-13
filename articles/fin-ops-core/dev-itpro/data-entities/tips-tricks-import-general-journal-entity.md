@@ -1,5 +1,5 @@
 ---
-title: Best practices voor het importeren van boekstukken met de entiteit Algemeen journaal
+title: Boekstukken importeren met behulp van de entiteit Algemeen journaal
 description: In dit artikel vindt u tips voor het importeren van gegevens in het algemeen journaal met behulp van de entiteit Algemeen journaal.
 author: rcarlson
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5b36e11bd9ef338334f7ac1b6412edb7754010f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8ccb479cf7bcf86c01ed274a7a39856d538f220f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687638"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129594"
 ---
-# <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Best practices voor het importeren van boekstukken met de entiteit Algemeen journaal
+# <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Boekstukken importeren met behulp van de entiteit Algemeen journaal
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,6 +65,3 @@ In de volgende secties wordt het effect van deze instellingen beschreven. Tevens
 - Als het veld **Boekstuknummer** is ingesteld op **Automatisch gegenereerd**, mislukt het importeren. De instelling **Automatisch gegenereerd** voor het veld **Boekstuknummer** wordt niet ondersteund.
 
 Standaard gebruikt de entiteit Algemeen journaal verwerking op basis van sets. Nadat u de zakelijke vereisten voor uw organisatie hebt beoordeeld, kunt u de instelling **Op sets gebaseerde verwerking** wijzigen door te klikken op **Gegevensentiteiten** in de werkruimte **Gegevensbeheer**. Op sets gebaseerde verwerking wordt gebruikt om het importproces te versnellen. Als u geen gebruikmaakt van op sets gebaseerde verwerking, verloopt het importeren van de entiteit Algemeen journaal langzamer.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
