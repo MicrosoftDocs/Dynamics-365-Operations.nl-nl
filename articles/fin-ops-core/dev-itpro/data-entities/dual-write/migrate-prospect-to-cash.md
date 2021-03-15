@@ -98,3 +98,6 @@ Omdat gegevens uit de tabel **Producten** zijn ontworpen om op één manier te s
 ## <a name="quote-and-quote-product-tables"></a>Offerte- en offerteproducttabellen
 
 Volg voor de tabel **Offerte** de instructies in de sectie [Ordertabel](#order-table) eerder in dit onderwerp. Volg voor de tabel **Offerteproduct** de instructies in de sectie [Orderproducttabel](#order-products-table) eerder in dit onderwerp.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

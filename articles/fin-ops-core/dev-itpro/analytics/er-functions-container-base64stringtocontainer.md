@@ -80,3 +80,6 @@ In dit voorbeeld codeert de **\#MediaAsBase64String**-gegevensbron de binaire in
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Containerfuncties](er-functions-category-container.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

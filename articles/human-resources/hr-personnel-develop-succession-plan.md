@@ -56,3 +56,6 @@ Wanneer uw organisatie groeit, moet u de opvolgingsplanning in gang zetten. Gedu
 27. Selecteer **Resultaat**.
 28. Selecteer **Rapport**. In de rapportenlijst worden de beste overeenkomsten bovenaan het rapport vermeld. U kunt zien dat een hiaatelement wordt vermeld. Een hiaat is het verschil tussen het kwalificatietoewijzingsniveau en het kwalificatieniveau van de persoon.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

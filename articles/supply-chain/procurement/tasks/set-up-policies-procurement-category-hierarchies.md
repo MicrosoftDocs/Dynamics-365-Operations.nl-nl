@@ -51,3 +51,6 @@ Gebruik deze procedure voor het instellen van regels voor het bestellen van prod
 6. Selecteer een optie in het veld **Leveranciersselectie**. Selecteer een regel om te bepalen welk type leveranciers kan worden geselecteerd voor de categorie bij het maken van bestelopdrachten.  
 7. Klik op **Sluiten**. De beleidsregels die u hebt gedefinieerd zijn voor bestelopdrachten van het type Verbruik. Als u beleid wilt definiëren voor bestelopdrachten van het type Aanvulling, maakt u een regel voor het type beleidsregel genaamd Toegangsbeleidsregel voor aanvullingscategorie.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

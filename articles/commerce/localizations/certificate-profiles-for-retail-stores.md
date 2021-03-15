@@ -121,3 +121,6 @@ Als er een nieuwe versie van het certificaat wordt ingevoerd, maar deze niet in 
 
 > [!NOTE]
 > In Commerce Runtime wordt de nieuwe versie van het certificaat als eerste aangeroepen. Als het certificaat in een specifieke winkel of op een specifieke terminal niet is bijgewerkt, wordt de vorige versie aangeroepen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

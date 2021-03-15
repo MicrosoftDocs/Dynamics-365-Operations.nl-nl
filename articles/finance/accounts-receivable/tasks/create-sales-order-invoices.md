@@ -67,3 +67,6 @@ Deze taakbegeleiding beschrijft het factureren van een verkooporder, waaronder s
 10. Klik op **Annuleren**.
 11. Klik op **Ja**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

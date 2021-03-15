@@ -68,3 +68,6 @@ Nadat de initialisatie is voltooid, moet u aanvullende Commerce-gegevens configu
 - Commerce-kanalen
 - Kassa's en apparaten
 - Assortimenten
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

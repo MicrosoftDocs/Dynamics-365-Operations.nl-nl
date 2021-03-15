@@ -60,3 +60,6 @@ Dit is handig als u een overzicht wilt weergeven van de verwachte capaciteitsbel
 >[!NOTE]
 >Zie [Capaciteitsbelasting voor geplande werkorders berekenen](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md) als u zich alleen wilt richten op capaciteitsplanning voor geplande werkorders.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Dynamics 365 Commerce-sites worden het best ondersteund door de volgende webbrow
 [robots.txt-bestanden beheren](manage-robots-txt-files.md)
 
 [Detectie van winkels op basis van de locatie inschakelen](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

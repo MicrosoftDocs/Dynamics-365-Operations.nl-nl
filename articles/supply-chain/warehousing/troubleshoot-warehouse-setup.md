@@ -39,3 +39,6 @@ U kunt geen rollen gebruiken behalve de beheerdersrol voor toegang tot de app-em
 ### <a name="issue-resolution"></a>Probleemoplossing
 
 De app-emulator van het mobiele apparaat is zo ingesteld dat deze alleen met de Administrator-account werkt. Voor alle test- en live-procesdoeleinden is het raadzaam de magazijn-app zelf te gebruiken.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

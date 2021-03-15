@@ -105,3 +105,6 @@ Een andere manier om handmatige vereffening voor dit voorbeeld uit te voeren, ga
 1. Vereffen fact1 en fact2 na elkaar met vrachtfactuur. Vrachtfactuur is volledig vereffend.
 
 Zoals dit voorbeeld laat zien, mag vereffening van vrachtfacturen met negatieve bedragen alleen handmatig worden gedaan. Hierdoor is het altijd mogelijk de vrachtfacturen met negatieve bedragen te vereffenen met een vrachtfactuur die niet volledig is vereffend omdat u dan de vereffeningsvolgorde kunt bepalen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

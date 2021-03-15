@@ -59,3 +59,6 @@ Het bovenste knooppunt van de structuur toont de voorhanden hoeveelheid van het 
 9. Klik op **Verzonden verkooporders**.
 10. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

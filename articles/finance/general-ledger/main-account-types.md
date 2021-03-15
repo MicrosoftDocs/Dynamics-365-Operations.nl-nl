@@ -40,3 +40,6 @@ Zie voor meer informatie [Categorieën van hoofdrekening instellen](tasks/set-up
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

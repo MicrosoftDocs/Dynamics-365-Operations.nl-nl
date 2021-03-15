@@ -148,3 +148,6 @@ U kunt de pagina **Werkdetails** gebruiken om het werk weer te geven dat is gema
 > Wanneer het dialoogvenster **Werkpool wijzigen** wordt weergegeven, is het veld **Werkpool-id** standaard leeg. Als het veld leeg is wanneer u **OK** selecteert om wijzigingen toe te passen, wordt de werkpool volledig uit het werk verwijderd.
 >
 > Naast het schakelen tussen werkpools kunt u deze procedure gebruiken om een werkpool toe te voegen aan een werkitem dat geen werkpools heeft of om een werkpool te verwijderen uit een werkitem dat wel een werkpool heeft.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

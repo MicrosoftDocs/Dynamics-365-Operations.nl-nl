@@ -88,3 +88,6 @@ Commerce gebruikt organisatiehiërarchieën om kanalen structuur te geven. Met o
 > [!NOTE]
 > Als u de verkoopfunctionaliteit voor Commerce wilt gebruiken, moet de configuratiesleutel voor **Meerdere verzendadressen** zijn ingeschakeld. Deze configuratiesleutel kunt u vinden in de **handelsconfiguratiesleutels** onder **Systeembeheer**\> **Instellingen** \> **Licentieconfiguratie**. Dit is vereist vanwege verschillende validaties op basis van het afleveradres dat is geconfigureerd op het niveau van de verkooporderregel.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

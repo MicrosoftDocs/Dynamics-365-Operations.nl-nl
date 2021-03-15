@@ -62,3 +62,6 @@ In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 ### <a name="field-service-products-with-inventory-unit-supply-chain-management-to-field-service-products"></a>Field Service-producten met Voorraadeenheid (Supply Chain Management naar Field Service): Products
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSProduct1.png)](./media/FSProduct1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

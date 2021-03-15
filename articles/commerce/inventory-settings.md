@@ -92,3 +92,6 @@ De volgende afbeelding toont een voorbeeld van een winkelwagen met het bericht B
 [Winkelselectiemodule](store-selector.md)
 
 [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Deze procedure toont hoe u coproducten van een bestaande formuleversie kopieert 
 6. Klik op OK.
 7. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

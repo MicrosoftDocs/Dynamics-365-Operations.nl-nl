@@ -84,3 +84,6 @@ Als u activabeheerfuncties beschikbaar wilt maken in de mobiele app Finance and 
 Zie [Het mobiele werkgebied Activabeheer gebruiken](asset-management-mobile-workspace.md) voor meer informatie over het werken met het mobiele werkgebied **Activabeheer**.
 
 Zie de [Startpagina van mobiele app](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md) voor meer informatie over de mobiele app Finance and Operations (Dynamics 365).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Deze procedure toont hoe u artikelen registreert via het artikelontvangstjournaa
 2. Klik op Productontvangstbon.
 3. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

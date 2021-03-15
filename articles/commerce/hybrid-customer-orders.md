@@ -40,3 +40,6 @@ Als een winkelwagenregel is geselecteerd en **Selectie kiezen**, **Selectie verz
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Klantorders in Modern POS (MPOS)](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

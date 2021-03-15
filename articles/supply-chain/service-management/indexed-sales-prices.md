@@ -42,3 +42,6 @@ Als de basisprijs bijvoorbeeld EUR 1.000 is en de index 110, dan is de verkooppr
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

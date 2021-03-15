@@ -55,3 +55,6 @@ Deze procedure laat zien hoe u productieorders plant die nog niet voor een vesti
 4. Klik op Materialen.
     * Op deze pagina kunt u het geschatte materiaalverbruik voor de bewerkingen op de productieorder en de huidige beschikbare voorraad bekijken.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Deze procedure doorloopt het maken van een productpakket en het gebruik ervan in
 17. Klik op Maken.
 18. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

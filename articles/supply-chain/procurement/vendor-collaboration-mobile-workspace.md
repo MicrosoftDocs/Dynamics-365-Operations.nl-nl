@@ -169,3 +169,6 @@ Alle wijzigingen die zijn aangebracht in de orderregelreactie worden hier weerge
 
 ### <a name="open-confirmed-orders"></a>Openstaande bevestigde orders
 Wanneer de inkooporder is bevestigd door de klant (wat inhoudt dat de inkooporder is gewijzigd naar de status **Bevestigd**) wordt hij weergegeven als openstaande bevestigde order. Hij blijft in de lijst staan, totdat hij wordt geregistreerd als ontvangen door de klant.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

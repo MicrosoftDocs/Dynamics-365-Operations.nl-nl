@@ -102,3 +102,6 @@ Als uw leveranciers de interface van de leverancierssamenwerking gebruiken, kunn
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

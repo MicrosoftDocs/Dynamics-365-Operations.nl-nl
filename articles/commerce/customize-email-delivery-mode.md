@@ -71,3 +71,6 @@ Volg de volgende stappen om e-mailsjablonen te configureren voor specifieke leve
 [Callcenterorders maken](tasks/create-call-center-orders.md)
 
 [Leveringsmethode wijzigen in POS](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

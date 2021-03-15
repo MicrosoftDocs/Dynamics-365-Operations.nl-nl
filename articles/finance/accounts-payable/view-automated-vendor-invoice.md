@@ -37,3 +37,6 @@ Als een geïmporteerde factuur afhankelijk is van het proces voor indiening bij 
 - **Onderbroken**: de geautomatiseerde processen die zijn gedefinieerd op de pagina **Parameters van module Leveranciers** zijn uitgevoerd, maar ten minste één stap in het proces is mislukt. De status **Onderbroken** wordt ook toegepast als het veld **Opnemen in geautomatiseerde verwerking** is ingesteld op **Nee**. U kunt de fouten weergeven door **Meest recente resultaten weergeven** te selecteren.
 - **In werkstroom**: de geïmporteerde factuur is bij het werkstroomsysteem ingediend via het geautomatiseerde proces voor indiening bij de werkstroom of handmatig.
 - **Werkstroom voltooid**: het werkstroomproces is voltooid voor de geïmporteerde factuur.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

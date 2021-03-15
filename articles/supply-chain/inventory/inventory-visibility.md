@@ -527,3 +527,6 @@ De query's die in de vorige voorbeelden worden weergegeven, kunnen een resultaat
 ```
 
 De velden met hoeveelheden zijn gestructureerd als een woordenboek met metingen en de bijbehorende waarden.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

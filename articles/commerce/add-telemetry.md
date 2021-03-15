@@ -121,3 +121,6 @@ Voer de volgende stappen uit om een extern script rechtstreeks toe te voegen aan
 [Een auteursrechtmelding toevoegen](add-copyright-notice.md)
 
 [Talen toevoegen aan uw site](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ Via de lijstpagina **Alle activa** kunt u een rapport met activafouten afdrukken
 >[!NOTE]
 >U kunt een foutrapport voor verschillende activa of activatypen afdrukken door **Activabeheer** > **Rapporten** > **Activa** > **Fout in activum** te selecteren.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -125,3 +125,6 @@ Gebruik de volgende richtlijnen bij het bepalen in welke Power Apps-omgeving u H
 ## <a name="grant-access-to-the-environment"></a>Toegang verlenen tot de omgeving
 
 Standaard heeft de globale beheerder die de omgeving heeft gemaakt toegang tot deze omgeving. Aan alle overige gebruikers van de toepassing moet u uitdrukkelijk toestemming verlenen. U moet gebruikers toevoegen en de juiste rollen aan deze gebruikers toewijzen in de Human Resources-omgeving. De globale beheerder die Human Resources heeft geïmplementeerd, moet ook Attract en Onboard starten om de initialisatie te voltooien en toegang in te schakelen voor andere tenantgebruikers. Totdat dit gebeurt, kunnen andere gebruikers geen toegang krijgen tot Attract en Onboard en krijgen ze toegangsovertredingsfouten. Zie voor meer informatie [Nieuwe gebruikers maken](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) en [Gebruikers toewijzen aan beveiligingsrollen](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ In de twee illustraties hieronder ziet u een planningstaak in het dialoogvenster
 - U kunt een batchtaak instellen op het sneltabblad **Op de achtergrond uitvoeren** als u de ronden met vaste intervallen wilt plannen.  
 - Als een ronde is opgenomen in verschillende werkordergroepen (zie [Werkordergroepen](../work-orders/work-order-pools.md)), wordt één record voor elke groep weergegeven in **Openstaande onderhoudsschemagroepen**. Dit wordt gedaan om de filteropties voor werkordergroepen te optimaliseren.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

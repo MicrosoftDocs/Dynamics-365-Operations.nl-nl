@@ -64,3 +64,6 @@ Om deze procedure te kunnen uitvoeren moet u de rol van systeembeheerder of mach
 29. Klik op OK.
 30. Selecteer een reden waarom u te vroeg uitklokt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

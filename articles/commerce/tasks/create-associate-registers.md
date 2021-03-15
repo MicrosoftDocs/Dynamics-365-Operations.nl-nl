@@ -43,3 +43,6 @@ In deze procedure wordt weergegeven hoe u een kassa op het verkooppunt (POS) kun
     * Het EFT POS-kassanummer wordt gebruikt om aan de betalingsverwerker te melden welke betalingsterminal autorisatieaanvragen verzendt. Deze waarde wordt vaak de "terminal-id" of "TID" genoemd. De TID is meestal te vinden op een sticker op het betalingsapparaat.  
 9. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -141,3 +141,6 @@ U kunt de fouthoeveelheid van een productieorder niet rapporteren, tenzij u ook 
 ## <a name="can-i-trace-the-serial-numbers-of-finished-goods-against-the-serial-numbers-of-consumed-goods"></a>Kan ik de serienummers van eindproducten traceren op basis van de serienummers van verbruikte goederen?
 
 U kunt de serienummers van eindproducten niet traceren op basis van de serienummers van het materiaal dat een productieorder verbruikt om die eindproducten te maken. Dit scenario wordt momenteel niet ondersteund. U kunt dit probleem omzeilen door productieorders te maken voor een hoeveelheid van 1.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

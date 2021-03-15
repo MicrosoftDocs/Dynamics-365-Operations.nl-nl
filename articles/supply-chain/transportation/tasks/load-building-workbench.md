@@ -66,3 +66,6 @@ U kunt nu de ladingopbouwstrategie toewijzen aan een sjabloon voor ladingopbouw.
 1. Controleer de voorgestelde ladingen en de voorgestelde ladingsregels.
 1. Selecteer in het actievenster de optie **Ladingen maken** om ladingen te maken die zijn gebaseerd op de brondocumentregels op het sneltabblad **Voorgestelde ladingregels**.
 1. Sluit de pagina **Workbench voor ladingopbouw**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

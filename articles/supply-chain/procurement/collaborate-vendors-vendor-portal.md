@@ -103,3 +103,6 @@ De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die ee
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

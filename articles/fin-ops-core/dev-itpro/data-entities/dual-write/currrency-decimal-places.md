@@ -95,3 +95,6 @@ Als u wilt dat de valutanauwkeurigheid voor een bepaalde valuta afwijkt van de v
 ### <a name="tables-currency-column"></a>tabellen: kolom Valuta
 
 Het aantal decimalen achter de komma dat kan worden geconfigureerd voor specifieke valutakolommen is beperkt tot vier.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

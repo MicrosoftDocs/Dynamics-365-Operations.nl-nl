@@ -66,3 +66,6 @@ Nu wordt een standaardtype functionele locatie gemaakt dat alleen wordt gebruikt
 
 >[!NOTE] 
 >Op het sneltabblad **Algemeen** krijgt u een overzicht van het aantal activatypen, onderhoudsplannen, kenmerkvereisten voor activa, toegestane typen, kenmerken en functionele locaties die zijn ingesteld voor het type functionele locatie. Het veld **Functionele locaties** bevat het aantal functionele locaties dat het type functionele locatie gebruikt. Gebruik de knop **Kopiëren** om instellingen van een functioneel locatietype naar het geselecteerde functionele locatietype te kopiëren.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

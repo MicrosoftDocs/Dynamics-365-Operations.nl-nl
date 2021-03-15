@@ -46,3 +46,6 @@ In dit onderwerp wordt uitgelegd u betalingstermijnen voor instelt voor leveranc
 16. Voer de hoofdrekening in waarnaar de contantkorting voor klantfacturen wordt geboekt, en voer vervolgens de hoofdrekening in waarnaar de contantkorting voor leveranciersfacturen wordt geboekt. Als **Korting tegenrekeningen** is ingesteld op **Hoofdrekening voor leverancierskortingen gebruiken**, wordt de hoofdrekening gebruikt. Als de optie is ingesteld op **Rekeningen op de factuurregels**, wordt de contantkorting geboekt naar de activa-/onkostenrekeningen op de regels van de factuur.  
 17. Selecteer **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

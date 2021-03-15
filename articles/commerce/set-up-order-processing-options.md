@@ -83,3 +83,6 @@ Nadat u het callcenterkanaal hebt geconfigureerd en kanaalgebruikers hebt gedefi
 > [!NOTE]
 > Als u de functionaliteit voor callcenters wilt gebruiken, moet de configuratiesleutel voor **Meerdere verzendadressen** zijn ingeschakeld. Deze configuratiesleutel kunt u vinden in de **handelsconfiguratiesleutels** onder **Systeembeheer**\> **Instellingen** \> **Licentieconfiguratie**. Dit is vereist vanwege de callcenterfunctionaliteit die verschillende validaties uitvoert op basis van het afleveradres dat is geconfigureerd op het niveau van de verkooporderregel. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Als u van plan bent om buiten kantoor te zijn of anderszins niet beschikbaar ben
 8. Typ in het veld **Einddatum** de datum en een tijd.
 9. Schakel het selectievakje **Ingeschakeld** in om de machtigingsregel te activeren. 
 10. Voer in het veld **Opmerking** tekst in met uw reden voor het delegeren van de werkitems.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

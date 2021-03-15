@@ -77,3 +77,6 @@ Voer de volgende stappen uit om een module voor snelle weergave toe te voegen aa
 [Productverzamelingsmodule](product-collection-module-overview.md)
 
 [Module voor zoekresultaten](search-result-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

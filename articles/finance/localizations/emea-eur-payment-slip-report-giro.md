@@ -62,3 +62,6 @@ Nadat u de indeling voor betalingsbonbijlagen hebt ingesteld voor verkoopfacture
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

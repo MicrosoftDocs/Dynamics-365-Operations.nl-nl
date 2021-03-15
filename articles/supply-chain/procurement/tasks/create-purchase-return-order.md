@@ -67,3 +67,6 @@ Deze procedure laat zien hoe u een inkoopretourorder kunt maken door de actie Cr
 4. Typ een waarde in het veld **Productontvangstbon**. Dit veld wordt gebruikt om een verwijzing in te voeren die als boekstuk voor het productontvangstbonjournaal wordt gebruikt.  
 5. Klik op **OK**. De goederen zijn nu geregistreerd als verzonden voor de inkoopretourorder, en er is een productontvangstbonjournaal gemaakt. U kunt de actie Productontvangstbon gebruiken om de journalen te controleren die voor de inkooporder zijn gemaakt en om te zien wat is ontvangen of geretourneerd, en wanneer.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

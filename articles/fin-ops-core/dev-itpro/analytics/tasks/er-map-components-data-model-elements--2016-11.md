@@ -113,3 +113,6 @@ Elke indelingsversie kan worden geconfigureerd als beschikbaar voor gebruik vana
 1. Vouw de sectie ISO-land-/regiocodes uit.
     * Elke indelingstoegang kan worden beperkt door bepaalde landen/regio's te identificeren waarin een indeling van toepassing is. Als de lijst met landen/regio's voor een specifieke indeling leeg is, kan deze indeling worden gebruikt in elk bedrijf. Als enkele ISO-land-/regiocodes worden ingevoegd in de lijst met landen/regio's, kan deze indeling alleen in bedrijven worden gebruikt waarvan het primaire adres in de land-/regiocode uit die lijst is gelegen.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

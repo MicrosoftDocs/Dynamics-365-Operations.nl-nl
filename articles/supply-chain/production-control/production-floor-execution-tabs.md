@@ -78,3 +78,6 @@ Nadat u alle benodigde tabbladen hebt ontworpen, kunt u deze aan een configurati
 1. Ga zo nodig verder om extra tabbladen toe te voegen.
 
 1. Gebruik de knoppen **Omhoog verplaatsen** en **Omlaag verplaatsen** op de werkbalk om de tabbladen naar wens te rangschikken. De tabbladen worden van links naar rechts weergegeven in de volgorde die op de bovenstaande schermopname wordt weergegeven (het tabblad bovenaan wordt links weergegeven).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

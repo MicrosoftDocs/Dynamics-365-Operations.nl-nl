@@ -238,3 +238,6 @@ Een garantie is een service die wordt geleverd voor een specifiek uniek product.
 [Assortimenten instellen](set-up-assortments.md)
 
 [Overzicht van Nummerreeksen](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

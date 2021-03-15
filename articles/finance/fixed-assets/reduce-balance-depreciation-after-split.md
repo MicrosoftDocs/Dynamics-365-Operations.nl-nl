@@ -44,3 +44,6 @@ De volgende voorwaarden zijn bijvoorbeeld van toepassing:
 Het bedrag dat moet worden afgeschreven voor het oorspronkelijke activum, is $1.822,25. Dit bedrag is gelijk aan de NBW voordat de gesplitste transactie is geboekt ($9.111,25), plus de verwervingscorrectie die wordt gegenereerd tijdens het boeken van de gesplitste transactie (-$8.000,-), plus de afschrijvingscorrectie die wordt gegenereerd tijdens de gesplitste transactie ($711,-). Daarom is de afschrijving voor het tweede jaar (1.822,25 × 18 procent) ÷ 12 = $27,33.
 
 Het bedrag dat moet worden afgeschreven voor het nieuwe vaste activum in het eerste jaar is (8.000 × 18 procent) ÷ 12 = $120.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

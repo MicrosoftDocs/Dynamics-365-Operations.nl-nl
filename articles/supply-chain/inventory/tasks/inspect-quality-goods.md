@@ -50,3 +50,6 @@ In dit onderwerp wordt uitgelegd hoe u een kwaliteitsorder verwerkt. U kunt deze
 4. Selecteer **OK**.
 5. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

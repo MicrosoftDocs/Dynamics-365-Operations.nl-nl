@@ -131,3 +131,6 @@ Een functionele locatie met gerelateerde sublocaties kan worden verwijderd als e
 
 >[!NOTE]
 >Als u een functionele locatie niet kunt verwijderen, kunt u in plaats daarvan de verwijdering afhandelen door een levenscyclusstatus van functionele locaties in te stellen voor dit doel. Zo kunt u bijvoorbeeld een fase 'Buiten gebruik gesteld' of 'Verwijderd' instellen, die geen actieve fase mag zijn, in het formulier **Levenscyclusstatussen van functionele locaties**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ U kunt alle serviceordertransacties registreren en boeken via het project dat u 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

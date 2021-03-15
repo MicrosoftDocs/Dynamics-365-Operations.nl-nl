@@ -95,3 +95,6 @@ Cyclustelling is een magazijnproces dat u kunt gebruiken om voorhanden voorraada
 21. Klik op **OK**.
 22. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

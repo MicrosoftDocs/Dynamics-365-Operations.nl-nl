@@ -64,3 +64,5 @@ De entiteit MyLeaveRequests in Microsoft Dynamics 365 Human Resources levert de 
 
 - [Een verlofverzoek indienen bij een werkstroom](hr-developer-api-myleaverequests-submit.md)
 - [Verificatie](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

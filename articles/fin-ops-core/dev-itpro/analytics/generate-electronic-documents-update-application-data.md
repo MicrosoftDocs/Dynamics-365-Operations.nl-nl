@@ -40,3 +40,6 @@ Voor meer informatie over deze functie speelt u de set taakbegeleidingen ER: Doc
 - [ER-gegevensmodel configureren: Intrastat (model)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [ER-modeltoewijzing configureren: Intrastat (toewijzing)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [ER-indeling configureren: Intrastat (indeling)](https://go.microsoft.com/fwlink/?linkid=849038)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

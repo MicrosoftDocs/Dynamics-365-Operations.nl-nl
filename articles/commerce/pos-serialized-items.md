@@ -135,3 +135,6 @@ Validaties voor serienummers worden ook uitgevoerd wanneer een gebruiker de bewe
 [Binnenkomende voorraadbewerking in POS](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Uitgaande voorraadbewerking in POS](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

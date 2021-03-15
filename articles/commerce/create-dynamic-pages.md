@@ -96,3 +96,6 @@ Nadat de aangepaste pagina is gepubliceerd, wordt deze gebruikt in plaats van de
 [Toegankelijkheid van pagina-inhoud controleren](verify-accessibility.md)
 
 [Uitbreidbaarheid van online afzetkanaal](e-commerce-extensibility/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

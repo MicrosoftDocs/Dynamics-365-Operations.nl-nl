@@ -57,3 +57,6 @@ Deze procedure begeleidt u bij het maken van geavanceerde regels voor journalen.
 4. Schakel in de structuur het selectievakje 'de groep waarvoor u boeking voor deze journaalnaam wilt toestaan.' in.
 5. Klik op **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

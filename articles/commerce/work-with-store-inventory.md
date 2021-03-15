@@ -71,3 +71,6 @@ Voorraadtellingen kunnen gepland of ongepland worden uitgevoerd. Geplande voorra
 ## <a name="inventory-lookup"></a>Zoeken in voorraad
 
 De producthoeveelheid die momenteel voorhanden is voor meerdere winkels en magazijnen kan worden weergegeven op de pagina **Zoeken in voorraad**. Naast de huidige voorhanden hoeveelheid kunnen de toekomstige ATP-hoeveelheden (Available To Promise) worden weergegeven voor elke winkel. Selecteer de winkel waarvoor u de ATP-hoeveelheden wilt weergeven en selecteer vervolgens **Beschikbaarheid van de winkel weergeven**. Zie [Voorraadbeschikbaarheid voor detailhandelkanalen berekenen](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels) voor informatie over de beschikbare configuratieopties.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

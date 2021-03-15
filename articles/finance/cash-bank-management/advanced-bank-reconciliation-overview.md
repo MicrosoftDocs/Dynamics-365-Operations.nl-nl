@@ -50,3 +50,6 @@ Met de functie voor geavanceerde bankafstemming kunt u bankafschriften importere
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

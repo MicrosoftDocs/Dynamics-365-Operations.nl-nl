@@ -207,3 +207,6 @@ In het volgende scenario wordt de magazijnapp op een mobiel apparaat gebruikt om
 
     > [!NOTE]
    > Het systeem maakt voor elke verplaatsing één werk-id die moet worden voltooid. Als u een locatie opgeeft die al een voorraad bevat, wordt er slechts één werk-id gemaakt. Als u een nieuwe locatie opgeeft, worden er twee werk-Id's gemaakt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

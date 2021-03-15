@@ -50,3 +50,6 @@ Een afschrijving van vaste activa kan in één stap worden uitgevoerd voor alle 
 5. Klik op Journaal maken.
 6. Ga naar Vaste activa > Journaalboekingen > Vaste-activajournaal.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

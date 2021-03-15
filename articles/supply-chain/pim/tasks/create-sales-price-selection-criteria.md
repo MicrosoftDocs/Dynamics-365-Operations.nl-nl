@@ -53,3 +53,6 @@ Deze procedure laat zien hoe u een selectiecriterium voor de verkoopprijs maakt 
 4. Selecteer Klantengroep 10 in het veld Criteria. 
 5. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

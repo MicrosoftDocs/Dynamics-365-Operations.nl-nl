@@ -46,3 +46,6 @@ Het berekende bedrag van de afgeschreven constante kosten van een gefabriceerd a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

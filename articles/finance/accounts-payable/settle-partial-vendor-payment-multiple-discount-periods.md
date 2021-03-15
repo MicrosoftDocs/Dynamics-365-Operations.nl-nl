@@ -139,3 +139,6 @@ Op 20 juli voert April een laatste betaling van 200,00 uit. Er wordt geen kortin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Deze pagina bevat koppelingen naar relevante documentatie met betrekking tot de 
 ## <a name="configure-continuity-programs"></a>Continuïteitsprogramma's configureren
 
 [Continuïteitsprogramma's instellen voor callcenters](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

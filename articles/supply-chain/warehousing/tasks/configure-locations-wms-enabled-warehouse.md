@@ -174,3 +174,6 @@ Deze begeleiding toont hoe u de locatie-instelling configureert voor een nieuw W
 6. Klik in de lijst op de koppeling in de geselecteerde rij.
 7. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

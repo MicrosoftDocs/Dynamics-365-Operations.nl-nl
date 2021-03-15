@@ -298,3 +298,6 @@ Als u de functies MX-00010 en MX-00016 (CFDI-factuur en CFDI-annulering) inschak
 - [Overzicht van de invoegtoepassing voor elektronische facturering](e-invoicing-service-overview.md)
 - [Aan de slag met de invoegtoepassing voor elektronische facturering](e-invoicing-get-started.md)
 - [De invoegtoepassing voor elektronische facturering instellen](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

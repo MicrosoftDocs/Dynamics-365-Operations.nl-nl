@@ -67,3 +67,6 @@ Deze procedure laat zien hoe u een beleid voor het totaliseren van kosten maakt 
     * Ga door totdat alle kostenplaatsen zijn toegewezen aan de overeenkomstige secundaire kostenelementen.  
 16. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

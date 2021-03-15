@@ -48,3 +48,6 @@ Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is
     - Voer zo nodig organisaties toe.  
     - Als u een organisatie wilt toevoegen, klikt u op **Bewerken** en vervolgens op **Invoegen** om de organisatie toe te voegen. Wanneer u klaar bent met het aanbrengen van wijzigingen, kunt u een concept **opslaan** en/of de wijzigingen **publiceren**.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

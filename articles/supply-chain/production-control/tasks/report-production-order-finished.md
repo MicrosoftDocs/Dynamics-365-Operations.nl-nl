@@ -51,3 +51,6 @@ Deze procedure toont aan hoe u een productieorder gereedmeldt. Het bedrijf van d
 4. Klik in de lijst op de koppeling in de geselecteerde rij.
     * Het gereedmeldingsjournaal is geboekt. Als u aan het journaal correcties wilt aanbrengen, kunt u handmatig een nieuw journaal maken waarin u wijzigingen kunt aanbrengen.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -235,3 +235,6 @@ Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie 
 - [Aan de slag met de invoegtoepassing voor elektronische facturering voor Mexico](e-invoicing-mex-get-started.md)
 - [Aan de slag met de invoegtoepassing voor elektronische facturering voor Italië](e-invoicing-ita-get-started.md)
 - [Elektronische klantfacturen in Egypte](emea-egy-e-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

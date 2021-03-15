@@ -121,3 +121,6 @@ U kunt betalingen met ontoereikend saldo verwerken door **Betaling met ontoereik
 [Kredietblokkeringen voor verkooporders](./cm-sales-order-credit-holds.md)
 
 [Periodieke taken voor klantkredietbeheer](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

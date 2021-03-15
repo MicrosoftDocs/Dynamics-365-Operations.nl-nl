@@ -157,3 +157,6 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 71. Sluit de pagina.
 72. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

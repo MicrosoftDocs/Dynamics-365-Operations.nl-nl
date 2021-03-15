@@ -87,3 +87,6 @@ De volgende afbeelding toont een rechtspersoon die is toegevoegd aan de hiërarc
 [Overzicht van kanalen](channels-overview.md)
 
 [Vereisten voor het instellen van kanalen](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

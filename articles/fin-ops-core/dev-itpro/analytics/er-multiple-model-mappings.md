@@ -182,3 +182,6 @@ De modeltoewijzing **InvoiceProject-kopie** van de configuratie **Toewijzing pro
 - [ER-modeltoewijzing in afzonderlijke ER-configuraties beheren](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [ER-modeltoewijzingen configureren afhankelijk van landencontext](er-country-dependent-model-mapping.md)
 - [Wijzigingen API raamwerk voor elektronische rapportage](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

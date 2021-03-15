@@ -73,3 +73,6 @@ Deze procedure is gericht op de instellingen die nodig is om een vaste kanbanreg
     * Hierdoor worden 5 kanbans gemaakt.  
     * Voor deze kanbanregel zijn werden er 5 kanbans gemaakt, voor elk 10. Dit is de laatste stap in deze procedure.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

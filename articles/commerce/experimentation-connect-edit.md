@@ -94,3 +94,6 @@ Als u het bereik van uw experiment als **volledig** hebt gedefinieerd in de wiza
 
 ## <a name="next-step"></a>Volgende stap
 [Preview van een experiment weergeven en een experiment publiceren](experimentation-preview-publish.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

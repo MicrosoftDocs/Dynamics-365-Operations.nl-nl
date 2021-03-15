@@ -45,3 +45,6 @@ In Microsoft Dynamics 365 Human Resources vormen wachtdagen een mijlpaal voor ge
    | **Wachtdag** | Selecteer de wachtdag die moet worden gebruikt voor de berekening van de wachtdatum. |
 
 4. Selecteer **Opslaan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -166,3 +166,6 @@ Het proces voor het verwerken van leverancierskortingen omvat meerdere, vaak saa
 - Nauwkeurige kortingsclaims genereren
 - De verwachte te ontvangen en tussentijdse winst boeken in het grootboek
 - Het saldo van de leverancier en het inkomstenoverzicht bijwerken met de vergoeding die verschuldigd is
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

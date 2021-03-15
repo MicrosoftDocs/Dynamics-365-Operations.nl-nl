@@ -345,3 +345,6 @@ Als de toewijzingsbasis voor het voorgedefinieerde dimensielid Elektriciteit wor
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Toewijzingsgrondslagen](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

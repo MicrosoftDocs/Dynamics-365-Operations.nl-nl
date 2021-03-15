@@ -123,3 +123,6 @@ Als uurkosten, artikelkosten en onkosten worden bijgewerkt in andere Microsoft D
 In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Prognose voor werkorder bijwerken**.
 
 ![Figuur 2](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

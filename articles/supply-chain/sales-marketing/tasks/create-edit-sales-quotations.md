@@ -69,3 +69,6 @@ Deze procedure toont hoe u een verkoopofferte maakt en bijwerkt. U kunt deze pro
 13. Klik op **Verkooporders**.
 14. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

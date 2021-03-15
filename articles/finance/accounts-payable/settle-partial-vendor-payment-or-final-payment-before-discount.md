@@ -141,3 +141,6 @@ April boekt het betalingsjournaal en controleert de leveranciertransacties op de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1373,3 +1373,6 @@ De Windows 8-tabletapp leverde functionaliteit voor het invoeren van onkosten en
 |     <strong>Betrokken productgebieden</strong>     |                                              Grootboek                                              |
 |             <strong>Status</strong>             |                                      Verwijderd sinds Dynamics AX 2012                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

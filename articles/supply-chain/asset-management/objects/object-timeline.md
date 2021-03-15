@@ -48,3 +48,6 @@ De tijdlijn wordt telkens bijgewerkt wanneer de pagina wordt geopend. De tijdlij
 - Werkorders, inclusief geboekte artikelen en notities
 - Storingen
 - Voorwaardebeoordelingen
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Deze procedure laat zien hoe een artikel kan worden uitgeleend aan een werknemer
 2. Klik op Bewerken.
 3. Voer in het veld Werkelijke teruggave een datum in.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ U kunt rentecodes instellen om verschillende rentebedragen te berekenen op basis
 21. Voer het rentepercentage per maand in dat wordt gebruikt om de rente te berekenen vanaf maand 7. In dit voorbeeld is dit 2,5.
 22. Klik op Sluiten om de instelling te beëindigen.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

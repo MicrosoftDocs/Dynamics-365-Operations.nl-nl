@@ -59,3 +59,6 @@ Klik op **Servicebeheer** \> **Periodiek** \> **Verzendbord**.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

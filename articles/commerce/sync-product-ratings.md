@@ -134,3 +134,6 @@ In de volgende afbeelding ziet u een voorbeeld van de productbeoordelingen in ca
 [Beoordelingen en recensies beheren](manage-reviews.md)
 
 [Beoordelingen en recensies configureren](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

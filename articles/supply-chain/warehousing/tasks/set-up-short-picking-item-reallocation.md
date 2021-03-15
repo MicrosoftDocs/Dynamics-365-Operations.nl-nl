@@ -63,3 +63,6 @@ Voor deze procedure is gebruikgemaakt van het demobedrijf USMF.
 6. Selecteer in de lijst een **gebruikers-id**. Bijvoorbeeld 24.
 7. Vouw het sneltabblad **Werk** uit.
 8. Selecteer **Ja** in het veld **Handmatige artikelhertoewijzing toestaan**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

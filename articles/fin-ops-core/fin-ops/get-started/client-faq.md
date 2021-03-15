@@ -54,3 +54,6 @@ De optie **Details weergeven** is beschikbaar op een paar manieren:
 
 - Als een besturingselement mogelijkheden voor **Details weergeven** heeft, en als het besturingselement een waarde heeft, wordt die waarde weergegeven als hyperlink. U kunt op de hyperlink klikken om een pagina te openen die aanvullende informatie bevat.
 - **Details weergeven** is ook een optie in de snelmenu's. Zie de vorige sectie voor meer informatie over wanneer de snelmenu's worden weergegeven wanneer u met de rechtermuisknop klikt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

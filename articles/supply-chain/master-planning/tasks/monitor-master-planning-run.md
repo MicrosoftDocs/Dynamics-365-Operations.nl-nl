@@ -126,3 +126,6 @@ De kleur wordt alleen weergegeven op het laagste niveau in het Gantt-diagram. Se
 1. Selecteer in het raster de rij waarin het veld **Veld** is ingesteld op **Artikelnummer**.
 1. Voer een waarde in het veld **Criteria** in.
 1. Selecteer **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

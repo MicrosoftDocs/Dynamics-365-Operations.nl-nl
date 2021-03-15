@@ -666,3 +666,6 @@ U moet het werk voor de gesorteerde voorraadverzameling voltooien. Wanneer dit i
     Werk is voltooid.
 
 Vanaf dit punt zijn alle andere magazijnprocessen van toepassing.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Deze procedure beschrijft hoe u alle geplande orders kunt weergeven die door een
 8. Vouw de sectie Details van upstream vraag uit.
     * In deze sectie ziet u de details voor de wijze waarop de vraag wordt vervuld. U moet mogelijk wachten totdat de hoofdplanning is uitgevoerd in het toeleveringsbedrijf, voordat u hier aanvullende informatie kunt zien.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

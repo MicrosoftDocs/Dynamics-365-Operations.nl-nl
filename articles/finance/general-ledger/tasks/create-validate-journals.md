@@ -42,3 +42,6 @@ Deze procedure maakt en valideert journalen en journaalregels. U kunt deze proce
 12. Klik op **Boeken**.
 13. Klik op **Boekstuk**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

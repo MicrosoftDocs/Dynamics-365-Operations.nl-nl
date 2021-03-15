@@ -81,3 +81,6 @@ Scan de streepjescode op de afgedrukte pakbon terwijl u de lijst met transacties
 ### <a name="void-a-suspended-transaction"></a>Een uitgestelde transactie ongeldig maken
 
 U kunt een uitgestelde transactie ongeldig maken door de transactie op te halen en vervolgens de bewerking **Ongeldig gemaakte transactie** uit te voeren of door de transactie te selecteren in de lijst **Transactie intrekken** en **Annuleren** te selecteren op de appbalk. De winkel kan ook zo worden geconfigureerd dat gebruikers wordt gevraagd om uitgestelde transacties ongeldig te maken wanneer ze hun dienst sluiten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

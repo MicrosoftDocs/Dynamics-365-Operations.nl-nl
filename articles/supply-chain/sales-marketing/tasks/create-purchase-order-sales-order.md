@@ -68,3 +68,6 @@ Deze procedure toont u hoe u een inkooporder maakt op basis van een verkooporder
     - De **verwijzingspartij** garandeert dat de kosten van de huidige inkoop worden doorbelast in de bijgevoegde verkooporder.  
     - U kunt naar de oorspronkelijke verkooporder navigeren door de koppeling te openen in het veld **Verwijzingsnummer**.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

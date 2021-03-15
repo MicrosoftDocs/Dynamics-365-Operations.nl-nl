@@ -55,3 +55,6 @@ De lopende gemiddelde kostprijs voor magazijn GW en batch AAA is EUR 11,20 en de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

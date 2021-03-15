@@ -65,3 +65,6 @@ Deze procedure laat zien hoe u voorstellen voor minimumbehoefteplanning kunt ber
 5. Klik op **Plannen** in het actievenster.
 6. Klik op **Artikelbehoefteplanning**. Merk op dat de **minimumhoeveelheid** is bijgewerkt met de nieuwe minimumhoeveelheid uit het veiligheidsvoorraadjournaal.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

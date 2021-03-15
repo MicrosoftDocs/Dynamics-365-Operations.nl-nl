@@ -96,3 +96,6 @@ De volgende onderdelen van financiële rapportage maken het gemakkelijk om rappo
 
 ## <a name="additional-resources"></a>Aanvullende resources
 [Financiële rapporten genereren](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

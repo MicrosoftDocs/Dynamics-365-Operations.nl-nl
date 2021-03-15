@@ -53,3 +53,6 @@ Voordat u verantwoordelijke onderhoudsmedewerkers kunt instellen, moet u de mede
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Verantwoordelijke onderhoudsmedewerkers**.
 
 ![Pagina Verantwoordelijke onderhoudsmedewerkers](media/08-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

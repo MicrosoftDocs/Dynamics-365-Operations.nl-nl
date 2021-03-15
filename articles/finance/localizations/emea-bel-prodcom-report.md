@@ -60,3 +60,6 @@ Gebruik de pagina **PRODCOM** om PRODCOM-perioden te maken en verkoopregels naar
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

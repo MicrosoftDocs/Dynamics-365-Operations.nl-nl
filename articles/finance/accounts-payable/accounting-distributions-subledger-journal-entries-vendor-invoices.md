@@ -249,3 +249,6 @@ Indien het journaal in de subadministratie onjuist is wanneer u een afdrukvoorbe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

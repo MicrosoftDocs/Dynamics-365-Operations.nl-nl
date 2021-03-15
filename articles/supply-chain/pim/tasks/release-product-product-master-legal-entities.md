@@ -36,3 +36,6 @@ Deze procedure laat zien hoe u een product of productmodel vrijgeeft aan een of 
 6. Klik op Volgende.
 7. Klik op Voltooien.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

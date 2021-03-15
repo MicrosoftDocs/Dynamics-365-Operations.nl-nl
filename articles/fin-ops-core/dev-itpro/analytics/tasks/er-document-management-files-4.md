@@ -69,3 +69,6 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 11. Klik op OK.
     * Controleer de gegenereerde uitvoer. Merk op dat voor elke bijlage één XML-knooppunt is gemaakt. De inhoud van de bijlage is gevuld met de XML-uitvoer in de tekstindeling MIME (base64).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Deze procedure laat zien hoe u een bijkomende toewijzing instelt. Dit wordt gewo
 14. Typ een getal in het veld Bijzondere kosten.
 15. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

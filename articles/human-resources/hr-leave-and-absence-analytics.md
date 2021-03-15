@@ -45,3 +45,5 @@ Dynamics 365 Human Resources biedt een analyse waarmee u inzicht kunt krijgen in
 
 - [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)
 - [Een verlof- en verzuimplan maken](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

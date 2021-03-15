@@ -185,3 +185,6 @@ namespace TalentODataPoC
 ```
 
 Wanneer u een toegangstoken hebt opgehaald, geeft u het token in de autorisatiekoptekst door als een bearertoken met elke aanvraag die u naar de gegevens-API verzendt, zoals hierboven is beschreven.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

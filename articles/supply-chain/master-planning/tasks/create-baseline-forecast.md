@@ -81,3 +81,6 @@ Een productieplanner kan een basislijnprognose maken of door prognosemodellen vo
 5. Klik op Regeldetails voor prognose.
     * Op deze pagina kunt u de nauwkeurigheidswaarden, de historische vraag en de prognose weergeven. U kunt ook wijzigingen aanbrengen in de prognose.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

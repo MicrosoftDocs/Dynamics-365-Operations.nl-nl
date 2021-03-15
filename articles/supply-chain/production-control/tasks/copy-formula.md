@@ -64,3 +64,6 @@ Deze procedure is gericht op het maken van een formule met dezelfde ingrediënte
 5. Klik op Selecteren.
 6. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

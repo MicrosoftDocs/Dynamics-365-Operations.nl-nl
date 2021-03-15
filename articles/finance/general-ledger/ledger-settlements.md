@@ -74,3 +74,6 @@ U kunt een vereffening omkeren die ten onrechte is aangebracht.
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>De lijst met rekeningen bijwerken die zijn opgenomen in de lijst met transacties
 
 Selecteer **Rekeningen voor grootboekvereffeningen** om een dialoogvenster te openen waarin u de rekeningen kunt bewerken die zijn opgenomen in de lijst met transacties. Selecteer **Nieuw** om nieuwe rekeningen aan de lijst toe te voegen. Deze lijst wordt gebruikt voor het filteren van de transacties die worden weergegeven op de pagina **Grootboekvereffeningen**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

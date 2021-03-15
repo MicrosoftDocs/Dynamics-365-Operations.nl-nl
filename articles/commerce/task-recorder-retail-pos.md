@@ -145,3 +145,6 @@ Wanneer u op de taakbegeleiding in de zoekresultaten klikt, kunt u de stappen we
 
 > [!NOTE]
 > Help in Retail Modern POS en Cloud POS opent geen taakbegeleiding op basis van het formulier waar u zich bevindt of de bewerking die u uitvoert. U moet de procesnaam in het zoekvak typen en op **Zoeken** klikken.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

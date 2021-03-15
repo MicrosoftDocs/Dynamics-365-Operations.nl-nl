@@ -76,3 +76,6 @@ Volg deze stappen om te controleren of de betalingsmethode voor de klantrekening
 [De limieten voor de producthoeveelheid instellen voor B2B-e-commercesites](quantity-limits.md)
 
 [Updates voor SDK's en modulebibliotheken](../e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

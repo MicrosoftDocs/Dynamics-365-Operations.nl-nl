@@ -39,3 +39,6 @@ Deze procedure laat zien hoe u redenen voor hoge productieafwijking voor een pro
 6. Klik op Kostenvergelijking weergeven.
 7. Klik op Sluiten.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

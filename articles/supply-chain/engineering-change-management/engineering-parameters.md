@@ -56,3 +56,6 @@ In de volgende tabel worden de velden beschreven die beschikbaar zijn op het tab
 | Regel voor ernstcategorie | Geef op hoe de ernst van een order voor een technische wijziging moet worden vastgesteld. Selecteer *Handmatig* als de gebruiker een waarde moet invoeren in het veld **Ernst**. Selecteer *Berekenen* als u wilt dat de waarde van het veld **Ernst** wordt berekend wanneer u **Ernst berekenen** selecteert in het actievenster van de order voor technische wijzigingen. In dit geval worden de prioriteitsregels gebruikt die zijn gedefinieerd op de pagina **Regelset voor ernst**. Selecteer *Automatisch berekenen* als u de waarde van het veld **Ernst** automatisch wilt laten berekenen en invullen op basis van de regelsets voor de ernst. |
 | Betrokken producten opnieuw vrijgeven | Dit veld is van toepassing wanneer u producten opnieuw vrijgeeft via een order voor technische wijzigingen. U kunt opgeven of alle producten of alleen de getroffen producten moeten worden voorgesteld in het dialoogvenster **Releases**. |
 | Vrij te geven stuklijstniveaus | De diepte van het stuklijstniveau dat moet worden vrijgegeven. Als de stuklijst meer niveaus heeft (dieper is) dan de waarde die hier is opgegeven, worden alleen de niveaus vrijgegeven die tot aan de opgegeven waarde zijn doorgegeven. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

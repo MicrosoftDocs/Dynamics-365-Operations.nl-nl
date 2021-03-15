@@ -163,3 +163,6 @@ Voor alle algemene problemen moet u de gebeurtenislogboeken voor Modern POS of I
 [Online betaalmiddelen opslaan met de Adyen-connector](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
 [Overzicht van betalingen voor meerdere kanalen](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

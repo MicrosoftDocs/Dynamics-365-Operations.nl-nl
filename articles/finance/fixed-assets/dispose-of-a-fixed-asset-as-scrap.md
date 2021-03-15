@@ -81,3 +81,6 @@ In de volgende afbeelding wordt het vaste-activasaldo weergegeven.
 In de volgende afbeelding wordt het boekstuk weergegeven dat is geboekt.
 
 [![Nettoboekwaarde](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

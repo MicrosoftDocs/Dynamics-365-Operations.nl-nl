@@ -133,3 +133,6 @@ De volgende afbeelding toont een voorbeeld van de instellingen voor de toewijzin
 [Een callcenterkanaal instellen](channel-setup-callcenter.md)
 
 [Dynamics 365-betalingsconnector voor Adyen](../retail/dev-itpro/adyen-connector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

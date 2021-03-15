@@ -239,3 +239,6 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 1. Selecteer **Gereed**.
 
     ![Een bijlage toevoegen aan een onderhoudsverzoek](media/am-mobile-10.png "Een bijlage toevoegen aan een onderhoudsverzoek")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

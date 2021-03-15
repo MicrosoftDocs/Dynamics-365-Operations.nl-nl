@@ -164,3 +164,6 @@ Als u de conceptversie van de bewerkbare indeling wilt uitvoeren, moet u deze [u
 
 - [Een nieuwe ER-configuratie ontwerpen om rapporten in Word-indeling te genereren](../er-design-configuration-word.md)
 - [Afbeeldingen en vormen insluiten in documenten die u genereert met ER](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

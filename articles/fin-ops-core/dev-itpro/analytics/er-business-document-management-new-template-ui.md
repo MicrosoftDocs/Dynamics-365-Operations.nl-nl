@@ -64,3 +64,6 @@ Voer de volgende stappen uit om deze functie in te schakelen voor alle rechtsper
 De knop **Nieuw document** wordt gebruikt om een sjabloon te maken en bewerken in een ER-indelingsconfiguratie die door een andere provider wordt geleverd. In dit voorbeeld is de provider Microsoft. Wanneer u **Nieuw document** selecteert, ziet u alle sjablonen die eigendom zijn van huidige en andere providers. Nadat u de sjabloon hebt geselecteerd, wordt deze geopend om te worden bewerkt. De bewerkte sjabloon wordt vervolgens opgeslagen in een nieuwe ER-indelingsconfiguratie die automatisch wordt gegenereerd.
 
 Zie [Overzicht van Beheer van bedrijfsdocumenten](er-business-document-management.md)voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

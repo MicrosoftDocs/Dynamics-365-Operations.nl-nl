@@ -240,3 +240,6 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Eerdere aankondigingen over verwijderde of afgeschafte functies
 Zie [Verwijderde of afgeschafte functies in eerdere versies](../migration-upgrade/deprecated-features.md) voor meer informatie over functies die zijn verwijderd of vervangen in eerdere versies.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ In de volgende tabel ziet u de mogelijke documentstatussen van pagina-elementen 
 [Overzicht sjablonen en indelingen](templates-layouts-overview.md)
 
 [Sitenavigatie aanpassen](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

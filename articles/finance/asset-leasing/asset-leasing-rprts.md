@@ -164,3 +164,6 @@ Het rapport Gewogen gemiddelde kortingspercentage voldoet aan de Amerikaanse GAA
 |     Valuta                          |     De afkorting voor de gebruikte transactievaluta. Alle rapporten converteren de transactievaluta naar de aangiftevaluta.  |
 |     Resterende leasebetalingen          |     Het totale bedrag aan onbetaalde leasebetalingen uit het betalingsschema dat resteert vanaf de **Begindatum**.            |
 |     Gewogen resterende betalingen       |     De resterende leasebetalingen vermenigvuldigd met het gebruikte kortingspercentage.   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

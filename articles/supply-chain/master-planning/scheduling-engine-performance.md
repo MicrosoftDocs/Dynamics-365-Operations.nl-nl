@@ -328,3 +328,6 @@ De waarde voor **Time-out optimalisatiepogingen** bepaalt hoeveel seconden maxim
 
 > [!NOTE]
 > De waarden die voor de time-outs zijn ingesteld, worden toegepast voor het plannen van vrijgegeven productieorders en van geplande orders als onderdeel van MRP. Hierdoor kan het instellen van zeer hoge waarden leiden tot een aanzienlijke toename van de uitvoeringstijd van MRP wanneer deze wordt uitgevoerd voor een plan met veel geplande productieorders.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

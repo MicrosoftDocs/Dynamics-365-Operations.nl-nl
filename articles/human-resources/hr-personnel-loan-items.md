@@ -55,3 +55,6 @@ Als een artikel beschadigd is of verloren raakt, noteert u een fictieve teruggav
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

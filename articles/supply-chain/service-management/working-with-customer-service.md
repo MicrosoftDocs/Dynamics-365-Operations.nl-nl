@@ -48,3 +48,6 @@ De onderwerpen in deze sectie bevatten een overzicht van het bedrijfsproces en d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -164,3 +164,6 @@ In de volgende tabel worden onze websites weergegeven. Sites die een sterretje (
 | [Dynamics Community](https://community.dynamics.com/) | Deze site host blogs, forums en video's. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Deze site biedt evaluatie- en verkoopinformatie. |
 | [CustomerSource](https://docs.microsoft.com/dynamics/s-e/)\* | Deze site host trainingsresources, downloadbare rapporten en whitepapers en is de primaire ondersteuningssite voor serviceplanhouders. Mogelijk is een serviceplan vereist om toegang te krijgen tot bepaalde bronnen op de site. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

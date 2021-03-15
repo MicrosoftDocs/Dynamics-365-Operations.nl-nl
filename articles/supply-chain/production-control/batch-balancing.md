@@ -186,3 +186,6 @@ Er zijn twee uitzonderingen op de regel dat batchorders van toepassing zijn voor
 1. Als de formulemaateenheid verschilt van de voorraadmaateenheid van het actieve ingrediënt, is de batchorder niet van toepassing voor batchverdeling.
 
 Een batchorder die niet van toepassing is voor batchverdeling, loopt via de normale procescyclus voor batchorders.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ In Microsoft Dynamics 365 Human Resources kunt u tegels configureren voor naviga
    | **End** | De einddatum en -tijd waarop de tegel beschikbaar moet zijn. |
 
 4. Selecteer **Opslaan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ De volgende beperkingen gelden wanneer u koppelingen maakt in boekingsdefinities
 Zie voor meer informatie [Voorbeelden van boekdefinities](example-posting-definitions.md). 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

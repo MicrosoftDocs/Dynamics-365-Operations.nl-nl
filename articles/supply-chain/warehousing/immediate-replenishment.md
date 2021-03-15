@@ -56,3 +56,6 @@ Als directe aanvulling wordt geselecteerd voor een locatie-instructieregel, maar
 
 - Zorg ervoor dat de toegepaste vraagaanvullingssjabloon is ingesteld om de juiste locatiesjablonen en werksjablonen te gebruiken van het type **Aanvulling**.
 - Zorg ervoor dat er voldoende voorhanden voorraad beschikbaar is op de locaties waar de vraagaanvullingssjabloon naar voorhanden voorraad voor aanvulling zoekt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

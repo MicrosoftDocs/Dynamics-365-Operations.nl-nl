@@ -110,3 +110,6 @@ Arnie wijzigt de waarde in het veld **Contantkorting gebruiken** terug naar **No
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

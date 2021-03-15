@@ -85,3 +85,6 @@ De ontvangstprofielen worden direct toegewezen aan printers via het hardwareprof
 
 > [!NOTE]
 > Als twee printers worden gebruikt, kan één printer worden gebruikt om standaard 40 kolom thermische ontvangstbewijzen af te drukken. De tweede printer wordt meestal gebruikt voor het afdrukken van ontvangsttypen van een hele pagina die meer informatie vereisen. Deze ontvangsttypen omvatten de ontvangsten van klantorders en klantfacturen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ U kunt annulerings- en correctiefacturen op twee manieren identificeren:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

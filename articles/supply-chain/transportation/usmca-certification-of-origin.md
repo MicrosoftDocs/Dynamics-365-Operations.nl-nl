@@ -139,3 +139,6 @@ De gebruiker die het certificaat ondertekent, moet het aantal pagina's (voor con
 ### <a name="page-numbers"></a>Paginanummers
 
 De huidige pagina en het aantal pagina's dat onder aan het document wordt afgedrukt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

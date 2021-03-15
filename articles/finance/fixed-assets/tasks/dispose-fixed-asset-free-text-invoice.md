@@ -40,3 +40,6 @@ In dit onderwerp ziet hoe u een vast activum afstoot met een vrije-tekstfactuur.
 10. Typ of selecteer een waarde in het veld **Vaste activa**.
 11. Selecteer **Boeken**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

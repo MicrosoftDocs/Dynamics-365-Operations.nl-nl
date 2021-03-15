@@ -48,3 +48,6 @@ Bekijk het volgende scenario: Voor een lasbewerking is een stukje metalen plaat 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

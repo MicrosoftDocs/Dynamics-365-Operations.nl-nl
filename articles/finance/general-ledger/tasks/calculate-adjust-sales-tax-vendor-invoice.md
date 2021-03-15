@@ -43,3 +43,6 @@ In dit onderwerp wordt uitgelegd hoe u de btw op een leveranciersfactuur aanpast
 13. Selecteer **OK**.
 14. Selecteer **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

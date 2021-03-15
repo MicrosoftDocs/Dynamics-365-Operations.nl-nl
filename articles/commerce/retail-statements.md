@@ -87,3 +87,6 @@ Als u een overzicht boekt, worden verkooporders en facturen gemaakt voor de verk
 - Verkopen waarvoor een klant was toegevoegd aan de transactie in POS genereren afzonderlijke verkooporders en facturen, één voor elke unieke klant.
 
 Betalingsdagboeken worden automatisch gemaakt voor de betalingen in de instructie en de voorraad wordt bijgewerkt voor de POS-winkel.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

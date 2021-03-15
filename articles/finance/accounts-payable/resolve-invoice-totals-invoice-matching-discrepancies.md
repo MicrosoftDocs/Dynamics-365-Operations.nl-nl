@@ -43,3 +43,6 @@ Nadat u het verschil hebt aangegeven, kunt u contact opnemen met de leverancier 
 Zie voor meer informatie [Uitzonderingen onderzoeken/oplossen](tasks/research-resolve-exceptions.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Er zijn twee configuratieopties beschikbaar. Kies de optie die het meest geschik
 [Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

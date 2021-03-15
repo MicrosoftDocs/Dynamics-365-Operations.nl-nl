@@ -132,3 +132,6 @@ Als Planningsoptimalisatie is ingeschakeld, wordt de hoofdplanning uitgevoerd me
 [Filters op een plan toepassen](plan-filters.md)
 
 [Een planningstaak annuleren](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

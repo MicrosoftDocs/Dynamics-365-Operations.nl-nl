@@ -62,3 +62,6 @@ De instelling **Maximale uitvoeringstijd** is standaard niet beschikbaar. Als u 
 
 - **Module:** *Magazijnbeheer*
 - **Functienaam:** *Maximale uitvoeringstijd voor de taak voor het opruimen van voorhanden artikelen in magazijnbeheer*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

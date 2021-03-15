@@ -93,3 +93,6 @@ U kunt uw budgetten niet verwerken of voltooien in het consolidatiebedrijf. Het 
 Zie [Herwaardering van valuta in een consolidatiebedrijf](../general-ledger/currency-revaluation-consolidation-company.md) voor meer informatie.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

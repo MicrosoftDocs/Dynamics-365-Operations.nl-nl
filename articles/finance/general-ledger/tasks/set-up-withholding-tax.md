@@ -48,3 +48,6 @@ In dit onderwerp wordt uitgelegd hoe bronbelasting instelt. *Bronbelasting* is b
 18. Selecteer **Opslaan**.
 19. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

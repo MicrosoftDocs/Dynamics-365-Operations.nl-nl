@@ -118,3 +118,6 @@ De knoppen in de groep **Project** op het tabblad **Werkorder** van het actieven
 >[!NOTE]
 >Prognoses die voor een werkorder zijn gemaakt, kunnen worden opgenomen wanneer de hoofdplanning wordt uitgevoerd door het prognosemodel te gebruiken dat is geselecteerd op de pagina **Parameters voor activabeheer**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

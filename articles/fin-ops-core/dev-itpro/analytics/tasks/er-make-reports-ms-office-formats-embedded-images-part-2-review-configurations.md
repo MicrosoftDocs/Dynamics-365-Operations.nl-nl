@@ -91,3 +91,6 @@ Deze procedure is bedoeld voor gebruikers met de rol Systeembeheerder of Elektro
     * Sommige labels die worden weergegeven in het voorgedrukte chequeformulier, worden in het rapport opgenomen wanneer het wordt gemaakt voor testdoeleinden. Deze labels worden echter niet afgedrukt tijdens het echte afdrukken, omdat het voorgedrukte formulier deze al bevat.  
 15. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

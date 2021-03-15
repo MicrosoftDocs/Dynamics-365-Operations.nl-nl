@@ -76,3 +76,6 @@ Voeg tot slot een geautomatiseerde taak toe voor de toewijzing van de budgetplan
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

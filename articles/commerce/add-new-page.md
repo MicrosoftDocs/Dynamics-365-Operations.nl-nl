@@ -92,3 +92,6 @@ Voer de volgende stappen uit om een nieuwe sitepagina aan uw site toe te voegen.
 [Toegankelijkheid van pagina-inhoud controleren](verify-accessibility.md)
 
 [Dynamische e-commercepagina's maken op basis van URL-parameters](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

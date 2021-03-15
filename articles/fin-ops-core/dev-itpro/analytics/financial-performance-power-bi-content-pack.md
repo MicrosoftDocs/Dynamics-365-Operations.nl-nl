@@ -88,3 +88,6 @@ De volgende entiteiten zijn gebruikt als basis voor de **financiële prestatie**
 - ChartofAccounts
 
 Deze entiteiten zijn gebruikt om berekende eenheden in het gegevensmodel te maken. De berekende eenheden worden vervolgens gebruikt om de Key Performance Indicators (KPI's) en rapporten te berekenen, die in de inhoud worden gebruikt. Standaard levert de inhoud gegevens voor drie voorafgaande jaren en één jaar in de toekomst. Om extra berekeningen op te nemen in uw rapporten en dashboard, kunt u de [Microsoft Excel-werkmap wijzigen](https://docs.microsoft.com/dynamics/s-e/). Deze werkmap is het standaardgegevensmodel, dat is gebruikt om de inhoud te maken.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

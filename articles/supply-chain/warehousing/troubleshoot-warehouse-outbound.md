@@ -61,3 +61,6 @@ Er wordt een artikel toegevoegd aan een verkoopregel voor rechtstreekse levering
 ### <a name="issue-resolution"></a>Probleemoplossing
 
 Microsoft heeft dit probleem beoordeeld en heeft vastgesteld dat het een functiebeperking is. In WMS wordt rechtstreekse levering momenteel niet ondersteund. Als u rechtstreekse levering wilt gebruiken, moet u dus een niet-WMS artikel en -magazijn selecteren.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

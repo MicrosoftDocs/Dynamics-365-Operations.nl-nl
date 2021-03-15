@@ -70,3 +70,6 @@ Als u uitbesteed werk wilt modelleren voor lean manufacturing, moet u een werkce
 24. Klik in het veld Eenheid op de vervolgkeuzeknop om de zoekopdracht te openen.
 25. ResolveChanges de Eenheid.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

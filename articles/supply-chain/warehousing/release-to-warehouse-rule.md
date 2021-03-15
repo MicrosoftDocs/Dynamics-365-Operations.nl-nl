@@ -130,3 +130,6 @@ In dit scenario ziet u hoe de functie werkt voor magazijnen die zijn ingesteld o
 
 > [!NOTE]
 > Hetzelfde resultaat wordt verwacht wanneer de tweede regel gedeeltelijk is gereserveerd. In dit geval wordt werk gemaakt voor de gereserveerde regelhoeveelheid, maar niet voor de niet-gereserveerde hoeveelheid.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

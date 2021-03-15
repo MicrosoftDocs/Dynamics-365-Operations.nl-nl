@@ -249,3 +249,6 @@ In dit scenario wordt toegelicht hoe de instellingen die eerder in dit onderwerp
 1. Selecteer in de verkooporder die u zojuist hebt gemaakt op het sneltabblad **Verkooporderregels** de optie **Regel toevoegen** om nog een regel toe te voegen.
 1. Stel op de nieuwe regel het veld **Artikelnummer** in op *M9200* en het veld **Hoeveelheid** op *1*.
 1. Herhaal regels 6 tot en met 9 om de regel te reserveren en vrij te geven naar het magazijn. Net zoals eerder maakt het systeem een **nieuwe** zending aan voor de regel die u hebt toegevoegd. Maaromdat het artikel afkomstig is van de artikel groep **CarAudio**, **kan het niet de beperkingen doorgeven die u hebt ingesteld voor de gemengde ladingsgroep**. Daarom wordt deze **toegevoegd aan een nieuwe lading**. Als u geen gemengde ladingsgroep had opgegeven op de ladingsopbouwsjabloon, zou deze zending zijn toegevoegd aan de eerste lading.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

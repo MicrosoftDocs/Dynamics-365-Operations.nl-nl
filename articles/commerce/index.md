@@ -55,3 +55,6 @@ Selecteer een functiegebied voor meer informatie hierover.
 - [Uw e-Commerce-site beheren](online-store-overview.md)
 - [Fraud Protection](dev-itpro/DFP.md)
 - [Ontwikkeling en uitbreidbaarheid van handel](dev-itpro/dev-retail-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

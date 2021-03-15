@@ -73,3 +73,6 @@ De inkooporder moet worden bevestigd voordat de productontvangst kan worden verw
 6. Vouw de sectie **Regels** samen.
 7. Selecteer **OK** om de ontvangst te boeken.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

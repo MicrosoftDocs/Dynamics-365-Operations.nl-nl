@@ -66,3 +66,6 @@ De aanmeldservice kan worden uitgebreid om extra aanmeldenapparaten, zoals uitge
 ## <a name="using-extended-logon"></a>Uitgebreide aanmelding gebruiken
 
 Wanneer de uitgebreide aanmelding is geconfigureerd, en een werknemer een streepjescode of een magneetstrip is toegewezen, moet de werknemer enkel zijn of haar kaart doorhalen wanneer de POS-aanmeldpagina wordt weergegeven. Als een wachtwoord ook vereist is voordat aanmelding kan plaatsvinden, wordt de werknemer gevraagd zijn of haar wachtwoord in te voeren.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

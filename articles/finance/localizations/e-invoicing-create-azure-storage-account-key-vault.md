@@ -80,3 +80,6 @@ In dit onderwerp voert u twee belangrijke stappen uit:
 9. Selecteer in het veld **Principal** de principal door **Invoegtoepassing voor elektronische facturering** toe te voegen.
 10. Selecteer **Toevoegen** en selecteer **Sleutelkluiswijzigingen opslaan**.
 11. Kopieer op de pagina **Overzicht** de **DNS-naam**-waarde voor de sleutelkluis. Deze waarde wordt gebruikt tijdens de installatie van de service in RCS en wordt de *sleutel-kluis-URI* genoemd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

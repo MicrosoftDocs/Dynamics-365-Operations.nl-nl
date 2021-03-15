@@ -63,3 +63,6 @@ Voordat u deze procedure kunt uitvoeren, moet u btw-id's instellen. Deze procedu
 25. Typ of selecteer een waarde in het veld Nummer van belastingvrijstelling.
 26. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

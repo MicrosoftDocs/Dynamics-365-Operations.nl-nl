@@ -117,3 +117,6 @@ Als zowel Adyen- als PayPal-betalingsconnectors nodig zijn, voegt u beide module
 [Dynamics 365-betalingsconnector voor PayPal](paypal.md)
 
 [SCA (sterke klantverificatie) met Adyen-connector](adyen_redirect.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

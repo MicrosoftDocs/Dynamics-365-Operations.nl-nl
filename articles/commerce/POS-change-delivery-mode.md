@@ -46,3 +46,6 @@ Nadat u de nieuwe leveringsmethode hebt geselecteerd, wordt de transactiepagina 
 [Callcenterorders maken](tasks/create-call-center-orders.md)
 
 [Transactionele e-mails aanpassen per leveringsmethode](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

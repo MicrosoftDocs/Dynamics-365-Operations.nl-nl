@@ -54,3 +54,6 @@ Deze procedure is gericht op het terugdraaien van een onjuiste kanbantaakstatus.
     * Selecteer dezelfde taak.  
     * De taakstatus voor de kanbantaak is terug Gepland, wat wordt aangeduid door een leeg kanbanpictogram.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

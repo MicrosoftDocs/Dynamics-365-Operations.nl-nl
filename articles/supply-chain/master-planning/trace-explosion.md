@@ -47,3 +47,6 @@ U kunt details over vertragingen en acties voor een geselecteerde order bekijken
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

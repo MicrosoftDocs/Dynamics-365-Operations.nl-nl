@@ -138,3 +138,6 @@ Zie de sectie [Voorbeeld](#example) voor koppelingen naar een voorbeeld en een a
 Zie voor een voorbeeld [De tabeltoewijzing Klanten V3—contactpersonen inschakelen](enable-entity-map.md#enable-table-map)
 
 Zie [Overwegingen voor initiële synchronisatie](initial-sync-guidance.md) voor een alternatieve aanpak die is gebaseerd op gegevensvolumes in elke entiteit waarvoor een initiële synchronisatie moet worden uitgevoerd.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

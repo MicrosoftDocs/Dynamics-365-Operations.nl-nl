@@ -150,3 +150,6 @@ Meer informatie over aangepaste velden vindt u in [Aangepaste velden maken en ge
 [Een exemplaar verwijderen](hr-admin-setup-remove-instance.md)</br>
 [Het updateproces](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

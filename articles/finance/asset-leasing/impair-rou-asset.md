@@ -101,3 +101,6 @@ In de volgende tabellen ziet u de waarden die zijn ingesteld op de tabbladen **A
 7. Ga naar de tabellen verplichtingen en activumtransacties om het netto-effect van de waardevermindering te bekijken. De waardeverminderingskosten hebben het RoU-activum verlaagd, maar de boekwaarde van de leaseverplichtingen is niet gewijzigd.
 
 De waardevermindering heeft een ander effect waaraan u aandacht moet schenken. Omdat het bedrag van het RoU-activum nu veel kleiner is dan de leaseverplichtingen, moet het bedrag anders worden afgeschreven dan eerder. Het activum wordt nu op lineaire wijze afgeschreven gedurende de resterende 84 maanden van de lease, te beginnen op de transactiedatum.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

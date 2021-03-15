@@ -82,3 +82,6 @@ Deze procedure legt de stappen uit in het proces voor jaarafsluiting dat saldi n
 23. De jaarafsluiting wordt standaard in de batchmodus uitgevoerd. Het is een best practice om processen met een lange uitvoeringstijd in batchmodus uit te voeren. Dit is meestal een dergelijk proces, en daarom wordt standaard de batchmodus geselecteerd.  
 24. Klik op **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

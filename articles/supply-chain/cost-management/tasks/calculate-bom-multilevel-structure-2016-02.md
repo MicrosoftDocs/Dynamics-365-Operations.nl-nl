@@ -48,3 +48,6 @@ Deze procedure laat zien hoe u de kostprijs van een eindproduct berekent door mi
 11. Sluit de pagina.
 12. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

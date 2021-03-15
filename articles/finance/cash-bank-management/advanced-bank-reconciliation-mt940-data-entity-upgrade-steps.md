@@ -63,3 +63,6 @@ Met de volgende stappen kunt u de entiteit voor import van bankafschriften toevo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

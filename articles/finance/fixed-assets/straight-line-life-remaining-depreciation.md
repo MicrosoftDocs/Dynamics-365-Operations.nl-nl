@@ -79,3 +79,6 @@ Het afschrijvingsbedrag is elk jaar hetzelfde: (Verwervingskosten - restwaarde) 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

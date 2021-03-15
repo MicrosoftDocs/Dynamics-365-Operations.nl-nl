@@ -257,3 +257,6 @@ Nadat u locatie-instructies hebt gemaakt, kunt u elke instructiecode aan een wer
 
 - Video: [Configuratie van magazijnbeheer: diepgravend](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Help-onderwerp: [Magazijnwerk beheren met werksjablonen en locatierichtlijnen](control-warehouse-location-directives.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

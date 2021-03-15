@@ -85,3 +85,6 @@ In de volgende afbeelding ziet u voorbeeldgegevens van een rechtspersoon.
 [Overzicht van kanalen](channels-overview.md)
 
 [Vereisten voor het instellen van kanalen](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -191,3 +191,6 @@ De status van de geselecteerde taak en de status van alle getraceerde taken voor
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

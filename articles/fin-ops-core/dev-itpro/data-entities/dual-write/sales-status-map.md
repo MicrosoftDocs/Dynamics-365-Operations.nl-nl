@@ -150,3 +150,6 @@ Volg deze stappen als u het kenmerk **isIntegrationUser** wilt inschakelen.
     ![De waarde van de kolom Integratiegebruikersmodus wijzigen in Ja](media/sales-map-user-mode-yes.png)
 
 Uw verkooporders zijn nu toegewezen.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

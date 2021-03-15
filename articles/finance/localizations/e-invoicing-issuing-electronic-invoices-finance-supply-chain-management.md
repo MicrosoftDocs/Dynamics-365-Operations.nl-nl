@@ -93,3 +93,6 @@ De indieningslogboeken bevatten de volgende extra functies:
 - **Indieningen annuleren**: - deze functie maakt een speciaal indieningsproces mogelijk in scenario's waarin de elektronische factuur moet worden goedgekeurd door een externe webservice. Het geeft de invoegtoepassing voor elektronische facturering de opdracht om een specifiek bericht van de webservice te verzenden dat is bedoeld om de status van een goedgekeurde elektronische factuur in de webservicedatabase te annuleren.
 - **Document opnieuw indienen**: - een elektronisch document opnieuw indienen dat reeds is verzonden naar de invoegtoepassing voor elektronische facturering. Er wordt een geheel nieuw logboek gemaakt op de pagina **Indieningsdetails**.
 - **Gerelateerde indiening verzenden**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

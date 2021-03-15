@@ -579,3 +579,6 @@ De volgende tabel toont de lijst met ER-configuraties die configureerbare bedrij
 |                             | Pakbon verkooporder (Excel) (LT)           |
 |                             | Pakbon verkooporder (Excel) (PL)           |
 |                             | Pakbon verkooporder (Word)                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Deze procedure toont hoe één medewerker in een of meerdere vergoedingen kan wo
 14. Klik in de lijst op de koppeling in de geselecteerde rij.
 15. Met deze pagina kunt u weergeven welke werknemers in de vergoeding zijn geregistreerd en welke werknemers niet zijn geregistreerd.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

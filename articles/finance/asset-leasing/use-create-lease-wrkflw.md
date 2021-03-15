@@ -44,3 +44,6 @@ Voordat u deze procedure gaat gebruiken, moet u ervoor zorgen dat ten minste Ã©Ã
 
 8. Als u een werkstroom wilt stoppen, selecteert u op de pagina **Werkstroomhistorie** de optie **Intrekken**. Voer in het dialoogvenster dat verschijnt een opmerking in en selecteer vervolgens **OK**.
 9. Als u een werkstroom wilt deactiveren of een eerder gemaakte werkstroom wilt activeren, gaat u naar **Activa leasen \> Instellingen \> Leasewerkstroom**. Selecteer vervolgens op de pagina **Leasewerkstroom** **Werkstroom \> Versies**. Als u een huidige werkstroom wilt deactiveren, selecteert u de actieve lease in het dialoogvenster Leaseversie en selecteert u **Deactiveren**. Als u een bestaande werkstroom wilt activeren, selecteert u de werkstroom en selecteert u **Activeren**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

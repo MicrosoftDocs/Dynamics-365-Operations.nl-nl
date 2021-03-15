@@ -111,3 +111,6 @@ Ga naar het tabblad **e-Commerce** op de pagina **Retail-beheer** in LCS en sele
 [Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen](add-cdn-support.md)
 
 [Detectie van winkels op basis van de locatie inschakelen](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -177,3 +177,6 @@ In deze sectie werkt u door aan de werkorder waaraan u werkte in de vorige secti
 1. Selecteer in het actievenster op het tabblad **Factureren** de optie **Nieuw factuurvoorstel**.
 1. Schakel in het dialoogvenster **Factuurvoorstel maken** in de sectie **Projecttransacties** het selectievakje **Selecteren** in voor elke regel die u wilt factureren.
 1. Selecteer **OK** om het dialoogvenster te sluiten en het nieuwe factuurvoorstel te bekijken.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

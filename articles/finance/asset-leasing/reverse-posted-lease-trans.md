@@ -55,3 +55,6 @@ Voer de volgende stappen uit om een teruggeboekte transactie in te trekken.
 Wanneer u **Terugboeking traceren** selecteert, wordt er een dialoogvenster weergegeven waarin zowel de oorspronkelijke transacties als de teruggeboekte transacties worden weergegeven, samen met een gekoppeld traceernummer.
 
 U kunt intrekkingen ook traceren met de betreffende pagina **Schema's**. Het veld **Terugboeken** is gewist, terwijl het veld **Journaal geboekt** is geselecteerd. Bovendien wordt het veld **Laatste journaalnummer** bijgewerkt met het journaalnummer van de intrekkingstransactie en wordt het veld **Journaalnummer** bijgewerkt met het terugboekingsjournaalnummer.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

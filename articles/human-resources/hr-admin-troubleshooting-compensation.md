@@ -47,3 +47,6 @@ Hier is de documentatie voor compensatie:
 - Proces:
 
     - [Compensatie verwerken](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

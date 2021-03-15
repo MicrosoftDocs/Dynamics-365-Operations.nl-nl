@@ -70,3 +70,6 @@ Wanneer u handmatig of automatisch serviceorders maakt vanaf de serviceovereenko
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

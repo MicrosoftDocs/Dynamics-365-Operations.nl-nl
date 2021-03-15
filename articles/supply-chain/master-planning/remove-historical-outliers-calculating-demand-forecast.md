@@ -50,3 +50,6 @@ U kunt uitschieters uitsluiten om de prognosenauwkeurigheid te verbeteren. Deze 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

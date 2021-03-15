@@ -51,3 +51,6 @@ Deze taakbegeleier behandelt verschillende methoden die worden gebruikt om klant
 21. Voer in het veld **Betalingsreferentie** een betalingsreferentie in. De betalingsreferentie is alleen vereist als u ervoor kiest de betaling op te nemen op een depositostrook.  
 22. Klik in het **actievenster** op **Boeken** om de klantbetalingen te boeken. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

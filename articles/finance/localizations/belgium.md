@@ -49,3 +49,6 @@ Voor informatie over het instellen en maken van de INTERVAT-belastingaangifte vo
 - [Overzicht van elektronische rapportage](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Lokalisatie en wettelijk voorgeschreven functies](../../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

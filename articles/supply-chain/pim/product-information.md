@@ -95,3 +95,6 @@ Het werkgebied bestaat uit een overzicht van de tegels en twee lijsten. De lijst
 ### <a name="manually-creating-a-new-released-product"></a>Handmatig een nieuw vrijgegeven product maken
 
 U kunt handmatig een vrijgegeven product maken in een enkelvoudige run, afhankelijk van de bedrijfsprocessen van de organisatie en eventuele regels die bepalen of deze functie moet worden gebruikt. Deze functie maakt een nieuw product en geeft dit automatisch vrij naar de huidige rechtspersoon. Om een nieuw product te maken, klikt u op **Vrijgegeven producten** in het werkgebied **Vrijgegeven productonderhoud** of op de lijstpagina **Vrijgegeven product**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

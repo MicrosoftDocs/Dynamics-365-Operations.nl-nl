@@ -50,3 +50,6 @@ Voer deze stappen uit om de elementen van een parallelle vertakking te ontwerpen
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht van Workflows maken](create-workflow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

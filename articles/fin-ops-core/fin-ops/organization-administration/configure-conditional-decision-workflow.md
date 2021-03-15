@@ -52,3 +52,6 @@ Het systeem bepaalt welke tak wordt gebruikt om het aangeboden document te verwe
     2. Selecteer een record in het gebied **Voorwaarde valideren** van het formulier.
     3. Klik op **Testen**. Het systeem evalueert de registratie en bepaalt of het voldoet aan de voorwaarden die u hebt gedefinieerd.
     4. Klik op **OK** of **Annuleren** om terug te gaan naar het formulier **Eigenschappen**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

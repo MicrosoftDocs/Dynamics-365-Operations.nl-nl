@@ -63,3 +63,6 @@ In de volgende tabel vindt u een overzicht van termen die u moet kennen wanneer 
 [Overzicht sjablonen en indelingen](templates-layouts-overview.md)
 
 [Sitenavigatie aanpassen](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

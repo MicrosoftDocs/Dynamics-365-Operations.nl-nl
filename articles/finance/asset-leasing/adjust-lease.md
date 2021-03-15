@@ -134,3 +134,6 @@ Als een lease is gecorrigeerd, kunt u de verschillende versies ervan weergeven. 
 
 2. Als u historische planningen wilt weergeven, opent u de gewijzigde lease op de pagina **Leaseoverzicht**, selecteert u het gewenste boek en vervolgens in het actievenster **Historie van boekversie**.
 3. Selecteer op de pagina **Boekversie** een versie en een schema om weer te geven.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

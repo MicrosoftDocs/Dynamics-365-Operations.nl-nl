@@ -121,3 +121,6 @@ Nadat de ontwerpfunctie is geladen, kunt u **Start** kiezen om terug te gaan naa
 [Overwegingen bij SEO (Search Engine Optimization) voor uw site](search-engine-optimization-considerations.md)
 
 [Beveiligingsbeleid voor inhoud (CSP) beheren](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

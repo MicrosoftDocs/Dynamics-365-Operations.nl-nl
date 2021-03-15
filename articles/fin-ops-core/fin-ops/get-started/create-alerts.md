@@ -102,3 +102,6 @@ U kunt geen waarschuwingen maken voor bepaalde secundaire gegevensbronnen op for
     ```
 2. Maak een waarschuwing in het formulier SysTableBrowser.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

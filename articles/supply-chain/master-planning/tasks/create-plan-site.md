@@ -54,3 +54,6 @@ De productieplanner berekent het materiaal en de capaciteitsbehoeften voor de pr
 2. Klik op Fiatteren.
 3. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

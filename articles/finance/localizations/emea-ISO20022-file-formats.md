@@ -128,3 +128,6 @@ Raadpleeg voor meer informatie over de elektronische aangifte [Overzicht van ele
 - [Betalingsmethode voor ISO20022-kredietoverdracht instellen](./tasks/set-up-method-payment-iso20022-credit-transfer.md)
 - [Betalingsmethode voor ISO20022 automatische afschrijving instellen](./tasks/setup-method-payment-iso20022-direct-debit.md)
 - [Leveranciers en bankrekeningen voor leveranciers voor ISO20022-kredietoverdrachten instellen](./tasks/set-up-vendor-iso20022-credit-transfers.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

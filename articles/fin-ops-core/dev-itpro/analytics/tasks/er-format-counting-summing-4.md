@@ -103,3 +103,6 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 21. Klik op Openen.
     * Controleer het gemaakte XML-bestand dat de tellings- en totaliseringsgegevens bevat die tijdens de uitvoering van de geselecteerde configuratie zijn verzameld.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

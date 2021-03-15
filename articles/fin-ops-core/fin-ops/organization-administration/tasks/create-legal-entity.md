@@ -45,3 +45,6 @@ Een rechtspersoon is een organisatie die wordt geïdentificeerd via registratie 
 15. Vouw de sectie **Belastingregistratie** uit. Voer in de sectie **Belastingregistratie** de registratienummers in die worden gebruikt om te rapporteren aan de belastingdienst.
 16. Vouw de sectie **1099-belasting** uit. Voer in de **1099-belasting** 1099-gegevens voor de rechtspersoon in.  
 17. Klik op **Opslaan**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

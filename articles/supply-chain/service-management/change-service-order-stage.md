@@ -40,3 +40,6 @@ Volg deze stappen om een serviceorder te verplaatsen naar de volgende fase in de
 4.  Selecteer in het formulier **Servicefase wijzigen** de gewenste fase.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

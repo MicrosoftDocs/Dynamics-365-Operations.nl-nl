@@ -52,3 +52,6 @@ In het werkgebied **Gegevensbeheer** kunt u een overzicht krijgen van doelentite
 
     ![Figuur 3](media/03-data-management.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

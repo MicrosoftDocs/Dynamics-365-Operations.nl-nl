@@ -82,3 +82,6 @@ Als u een venster voor batchverwerking instelt, wordt er een waarschuwing verzon
 
 1. Ga naar **Systeembeheer** &gt; **Periodieke taken** &gt; **Waarschuwingen** &gt; **Waarschuwingen voor vervaldatum**.
 2. Voer de gewenste gegevens in in het dialoogvenster **Waarschuwingen voor vervaldatum**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

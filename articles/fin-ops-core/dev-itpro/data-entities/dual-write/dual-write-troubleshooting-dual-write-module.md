@@ -87,3 +87,6 @@ De correctie voor deze fout is afhankelijk van de oorzaak van de fout:
 
 + Als de toewijzing afhankelijke toewijzingen heeft, moet u ervoor zorgen dat u de afhankelijke toewijzingen van deze tabeltoewijzing inschakelt.
 + De toewijzing mist mogelijk bron- of doelkolommen. Als een kolom in de Finance and Operations-app ontbreekt, volgt u de stappen in de sectie [Probleem met ontbrekende tabelkolommen in toewijzingen](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Als een kolom in Dataverse ontbreekt, klikt u op de knop **Tabellen vernieuwen** in de toewijzing, zodat de kolommen automatisch opnieuw worden gevuld in de toewijzing.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

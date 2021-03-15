@@ -97,3 +97,6 @@ U kunt grondstoffen voor een gedeeltelijke hoeveelheid van eindproducten of in e
     De eenheden die beschikbaar zijn, worden gedefinieerd in de volgordegroep-id voor de eenheid van het eindproduct.
 
     Voor een eindproduct kan bijvoorbeeld de volgende eenheidsomrekening tussen kilo's (kg) en pallets (PL) bestaan: 1 PL = 100 kg. Als u een productieorder voor 10.000 kg van het eindproduct wilt maken, kunt u grondstoffen vrijgeven voor het aantal pallets dat u wilt produceren. Selecteer **PL** als de eenheid en selecteer vervolgens de bijbehorende waarde in het veld **Hoeveelheid**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

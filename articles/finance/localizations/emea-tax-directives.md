@@ -32,3 +32,6 @@ EU-richtlijn bevat voorschriften die moeten worden gevolgd door alle lidstaten m
 
 > [!NOTE]
 > Controleer of het veld **Btw-specificatie** is ingesteld op **Registratievaluta** of **Registratie- en bedrijfsvaluta** op de pagina **Formulierinstelling** op het tabblad **Algemeen** (**Klanten > Instellen > Formulieren > Formulierinstelling** of **Projectbeheer en boekhouding > Instellen > Formulieren > Formulierinstelling**).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

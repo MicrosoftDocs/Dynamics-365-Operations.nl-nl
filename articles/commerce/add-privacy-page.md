@@ -108,3 +108,6 @@ Naar het fragment kan nu worden verwezen in de sjabloon voor andere sitepagina's
 [Conformiteit van cookie](cookie-compliance.md)
 
 [Gebruikers-id's vervangen die zijn gekoppeld aan wijzigingen in bijgehouden inhoud](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ De configuratieversie wordt verwijderd en er wordt een bevestigingsbericht weerg
 > [!NOTE]
 > Configuraties kunnen alleen worden verwijderd door de configuratieprovider die deze heeft gemaakt. Als de configuratie is gedeeld met een andere organisatie, moet het delen van de configuratie ongedaan worden maken voordat u deze kunt verwijderen.
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

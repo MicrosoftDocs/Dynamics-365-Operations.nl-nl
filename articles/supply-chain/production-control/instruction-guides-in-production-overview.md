@@ -409,3 +409,6 @@ Wanneer Supply Chain Management de taken voor de productievloer genereert, worde
 - Als u verschillende routebewerkingsrelaties definieert die de relatie *Alle* bevatten en hieraan guides toewijst, worden alleen de guides van de meest specifieke relatie voor de taak weergegeven.  
 
 ![Diagram voor het oplossen van de relevante guides](media/instruction-guides-Resolve.png "Diagram voor het oplossen van de relevante guides")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Deze taakbegeleiding toont hoe leveranciersfacturen moeten worden geregistreerd 
 12. Klik op **Boeken**.
 13. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

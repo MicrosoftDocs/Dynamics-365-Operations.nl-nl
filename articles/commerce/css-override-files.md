@@ -113,3 +113,6 @@ Ga als volgt te werk om een CSS-overschrijvingsbestand op uw site te deactiveren
 [Talen toevoegen aan uw site](add-languages-to-site.md)
 
 [Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

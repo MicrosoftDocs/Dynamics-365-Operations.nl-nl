@@ -105,3 +105,6 @@ Tijdens het testen van preview-functies of het uitproberen van nieuwe mogelijkhe
 [Nieuwe of gewijzigde functies in Dynamics 365 Human Resource](hr-admin-whats-new.md)</br>
 [Lifecycle-beleid voor software](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Voor orderregels met ophalen in winkel of bij een afhaallocatie, wordt de btw-gr
 
 [Berekening van btw-vrijstelling](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

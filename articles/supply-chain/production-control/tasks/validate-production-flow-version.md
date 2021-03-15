@@ -63,3 +63,6 @@ Deze procedure toont aan hoe u een nieuwe productiestroom en een eerste versie v
     * De periode voor de werkelijke cyclustijd is het aantal dagen dat taken worden samengevoegd vanaf de werkelijke minuut achterwaarts om de werkelijke cyclustijd te berekenen. De waarde kan altijd worden gewijzigd en wordt alleen gebruikt voor de berekening van de werkelijke cyclustijden.  
 13. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

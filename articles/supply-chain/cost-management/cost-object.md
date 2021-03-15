@@ -81,3 +81,6 @@ De volgende tabel toont wat een kostenobject is en wat een voorraadobject is.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

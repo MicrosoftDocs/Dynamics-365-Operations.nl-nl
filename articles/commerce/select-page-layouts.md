@@ -79,3 +79,6 @@ Voer de volgende stappen uit om een andere indeling voor een bestaande pagina te
 
 [Dynamische e-commercepagina's maken op basis van URL-parameters](create-dynamic-pages.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

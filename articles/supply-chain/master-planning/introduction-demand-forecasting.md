@@ -102,3 +102,6 @@ De maateenheid van de vraagprognose hoeft geen specifieke betekenis te hebben. D
 [Uitschieters verwijderen uit historische transactiegegevens bij het berekenen van een vraagprognose](remove-historical-outliers-calculating-demand-forecast.md)
 
 [De functie voor vraagprognose uitbreiden](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

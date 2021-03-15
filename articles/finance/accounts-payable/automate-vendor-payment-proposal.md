@@ -143,3 +143,6 @@ De volgende functies en bevoegdheden zijn toegevoegd voor de automatisering van 
 | Informatie opvragen over geplande exemplaren | Betalingsmedewerker leveranciers, centrale betalingsmedewerker leveranciers | Deze functie verleent de rechten om de automatiseringsreeks voor betalingsvoorstellen en exemplaren weer te geven via de volgende bevoegdheden:<ul><li>Planningsexemplaren weergeven</li><li>De weekweergave met exemplaren bekijken</li></ul> |
 | Informatie opvragen over planningsreeks      | None                                                                       | Deze functie verleent de rechten om de instellingen voor de reeks en exemplaren weer te geven via de volgende bevoegdheden:<ul><li>Planningsexemplaren weergeven</li><li>De lijstpagina met exemplaren weergeven</li><li>De weekweergave met exemplaren bekijken</li></ul>|
 | Planningsexemplaren onderhouden     | None                                                                       | Deze functie geeft de rechten voor het maken en onderhouden van een exemplaar via de volgende bevoegdheden:<ul><li>Planningsexemplaren onderhouden</li><li>De weekweergave met exemplaren bekijken</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

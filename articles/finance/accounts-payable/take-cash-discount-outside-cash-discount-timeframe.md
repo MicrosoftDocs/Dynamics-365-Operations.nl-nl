@@ -90,3 +90,6 @@ Informatie over korting wordt onder aan de pagina **Openstaande transacties vere
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Bij deze taak wordt het demobedrijf USMF gebruikt.
 10. Klik op Opslaan.
 11. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

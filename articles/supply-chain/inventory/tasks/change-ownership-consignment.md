@@ -54,3 +54,6 @@ Deze procedure laat zien hoe u de eigenaar van de consignatievoorraad wijzigt va
 2. Klik op OK.
 3. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

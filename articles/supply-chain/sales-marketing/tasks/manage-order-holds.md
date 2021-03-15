@@ -69,3 +69,6 @@ U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen 
     - De actie **Wissen en indienen** is alleen van toepassing wanneer u gebruik maakt van de Callcenterfunctionaliteit.  
 8. Klik op **Wachtstanden wissen**. De wachtstand is nu van de order gewist en verwijderd uit de lijst met actieve wachtstanden. Als u alle wachtstanden wilt bekijken, of een subset daarvan op basis van een specifieke status, wijzigt u de waarde in het veld Weergeven.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

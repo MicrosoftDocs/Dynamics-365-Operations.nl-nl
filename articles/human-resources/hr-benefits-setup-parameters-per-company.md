@@ -42,3 +42,5 @@ Voor elke organisatie die vergoedingen biedt, moet u instellingen configureren v
    | **Standaard e-mailadres van afzender** | Het e-mailadres dat moet worden gebruikt voor het verzenden van het bevestigingsbericht. |
 
 3. Selecteer **Opslaan**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

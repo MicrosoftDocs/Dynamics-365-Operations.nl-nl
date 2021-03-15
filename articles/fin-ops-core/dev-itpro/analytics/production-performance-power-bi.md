@@ -128,3 +128,6 @@ In de volgende tabel ziet u de belangrijke dimensies die worden gebruikt als fil
 | Entiteiten                  | Id en Naam                                                   |
 | Resources                 | Resource-id, Resourcenaam, Resourcetype en Resourcegroep |
 | Producten                  | Productnummer, Productnaam, Artikel-id en Artikelgroep         |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

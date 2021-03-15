@@ -68,3 +68,6 @@ Met de werkruimte **Leveranciersfactuurregistratie** kunt u zich concentreren op
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Automatisering leveranciersfactuur - automatiseringsverwerking hervatten voor meerdere facturen
 Wanneer een geïmporteerde factuur niet via het geautomatiseerde proces naar de werkstroom is verzonden, wordt deze door het systeem verwijderd voor verdere geautomatiseerde verwerking. Een crediteurenadministrateur kan de factuur controleren en bewerken voordat deze door het geautomatiseerde proces opnieuw wordt ingediend bij de werkstroom. Wanneer een foutreden met dezelfde correctie voor meerdere facturen kan worden opgelost, kunt u het geautomatiseerde proces opnieuw starten op de pagina **Geautomatiseerde factuurverwerking hervatten**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

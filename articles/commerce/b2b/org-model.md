@@ -62,3 +62,6 @@ Gebruikers van Commerce Headquarters kunnen de eigenschapswaarden voor alle klan
 [De betalingsmethode voor de klantrekening configureren voor B2B-e-commercesites](payment-method.md)
 
 [De limieten voor de producthoeveelheid instellen voor B2B-e-commercesites](quantity-limits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

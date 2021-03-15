@@ -79,3 +79,6 @@ Wanneer clusterverzameling wordt toegepast, is artikelbevestiging van groot bela
 1. Open op een menu-item voor mobiele apparaten het instellingsformulier voor werkbevestiging: **Magazijnbeheer** \> **Magazijnbeheer** \> **Instellingen** \> **Mobiel apparaat** \> **Menuopties voor mobiel apparaat**.
 
 1. Open in de menuoptie voor het mobiele apparaat **Werkbevestigingsinstellingen**. Met de optie **Productbevestiging** kunt u elk stuk van de voorraad tijdens het scannen vanaf het mobiele apparaat controleren.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

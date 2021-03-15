@@ -87,3 +87,6 @@ Ga als volgt te werk om betalingen en creditnota's te negeren bij het berekenen 
 
 1. Ga naar **Navigatievenster > Modules > Crediteringen en aanmaningen > Instellingen > Parameters van module Klanten** en klik op het tabblad **Aanmaningen**. 
 2. Wijzig de waarde van **Betalingen en creditnota's negeren bij het berekenen van aanmaningscode** in **Ja**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Een module voor leveringsopties kan alleen aan een uitcheckmodule worden toegevo
 [Toeslagen voor koptekst naar rato afstemmen op verkoopregels](pro-rate-charges-matching-lines.md)
 
 [Leveringsmethoden instellen](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

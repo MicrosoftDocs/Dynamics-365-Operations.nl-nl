@@ -82,3 +82,6 @@ Als de cheque die is omgekeerd is uitgegeven voor een klantrestitutie, gebeurt o
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

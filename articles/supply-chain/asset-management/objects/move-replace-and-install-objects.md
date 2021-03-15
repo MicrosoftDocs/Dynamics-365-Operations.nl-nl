@@ -90,3 +90,6 @@ Gebruik de functie **Activum installeren** om een activastructuur op een functio
 4. Selecteer de nieuwe locatie in het veld **Functionele locatie**.
 5. Standaard is het veld **Geldig vanaf** ingesteld op de huidige datum en tijd. U kunt echter een andere datum en tijd selecteren waarop de installatie in de activastructuur geldig wordt.
 6. Selecteer **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

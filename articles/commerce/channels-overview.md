@@ -88,3 +88,6 @@ After you create a channel, you may need to complete some of the below tasks:
 [Een callcenterkanaal instellen](channel-setup-callcenter.md)
 
 [Organisatiehiërarchieën instellen](channels-org-hierarchies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

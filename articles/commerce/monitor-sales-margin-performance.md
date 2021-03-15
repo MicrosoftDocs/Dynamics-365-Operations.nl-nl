@@ -48,3 +48,6 @@ Daarnaast kunnen gebruikers met twee unieke rapporten, die gebruik maken van hiÃ
 - Werkgebied **Categorie- en productbeheer** &gt; **Retail en Commerce** &gt; **Product en categorieÃ«n** &gt; **Winkelbeheer** &gt; **Rapporten**
 - Werkgebied **Prijzen- en kortingsbeheer** &gt; **Retail en Commerce** &gt; **Prijzen en kortingen** &gt; **Winkelbeheer** &gt; **Rapporten**
 - Sectie **Query's en rapporten** &gt; **Retail en Commerce** &gt; **Query's en rapporten** &gt; **Verkooprapporten**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

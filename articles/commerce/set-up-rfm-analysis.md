@@ -96,3 +96,6 @@ Met deze procedure kunt u de historie van een FRM-analyse record weergeven of wi
 2. Selecteer op de pagina **RFM-analyse** de record die u wilt weergeven.
 3. Selecteer het sneltabblad **Historie** om de recordhistorie te bekijken.
 4. Selecteer **Historie wissen** om de recordhistorie te wissen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

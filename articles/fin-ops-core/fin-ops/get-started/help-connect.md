@@ -99,3 +99,6 @@ Als u wilt samenwerken met Microsoft aan hulpprogramma's en processen voor het a
 [Resources voor Taakrecorder](../../dev-itpro/user-interface/task-recorder.md)  
 [Documentatie of training maken met Taakrecorder](../../dev-itpro/user-interface/task-recorder-training-docs.md)  
 [Custom Help GitHub repository](https://github.com/microsoft/dynamics356f-o-custom-help)  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -208,3 +208,6 @@ Bij de consolidatie van het grootboek is een nieuwe optie toegevoegd om de boekh
 -  U kunt nu kiezen of de boekhoudings- of de rapporteringsvaluta van het bronbedrijf moet worden gebruikt als de transactievaluta in het consolidatiebedrijf.
 
 - De boekhoudings- of rapporteringsvalutabedragen van het bronbedrijf worden rechtstreeks gekopieerd naar de boekhoudings- of rapporteringsvalutabedragen in het consolidatiebedrijf, als een van de valuta's hetzelfde is. De valutabedragen voor de boekhouding en de rapportering in het consolidatiebedrijf worden berekend met behulp van de wisselkoers als geen van beide valuta's hetzelfde is.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

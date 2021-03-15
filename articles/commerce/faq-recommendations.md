@@ -99,3 +99,6 @@ Nadat u productaanbevelingen hebt ingeschakeld, moet u het deelvenster met aanbe
 [Handmatig gecureerde aanbevelingen maken](create-editorial-recommendation-lists.md)
 
 [Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

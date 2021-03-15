@@ -264,3 +264,6 @@ Verkooporders met een geforceerde blokkeringsreden kunnen niet automatisch worde
 Kredietbeheer kan momenteel alleen worden gebruikt voor verkooporders. Vrije-tekst facturen, POS-verkooporders en Callcenter-orders gebruiken de tijdelijke kredietlimieten en verzekering/garanties die u toevoegt om de kredietlimiet aan te passen. Ze maken geen gebruik van de blokkeringsregels en ze worden niet in de blokkeringslijst geplaatst als er een probleem is met de kredietlimiet.
 
 Er is geen ondersteuning voor projectfacturen in kredietbeheer.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

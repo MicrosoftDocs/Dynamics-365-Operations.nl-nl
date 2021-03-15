@@ -81,3 +81,6 @@ Als u een gebruikers-ID wilt wijzigen, moet u de naam van de sleutel in de datab
 Zie [B2B-gebruikers exporteren naar Azure AD](../implement-b2b.md) voor meer opties voor het implementeren van B2B-gebruikers.
 
 Zie [Vooraf geconfigureerde systeemaccounts](../pre-configured-system-accounts.md) voor informatie over vooraf geconfigureerde systeemaccounts
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

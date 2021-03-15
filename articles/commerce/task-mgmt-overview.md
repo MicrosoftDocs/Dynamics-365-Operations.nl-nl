@@ -52,3 +52,6 @@ In de volgende afbeelding wordt de conceptuele architectuur van taakbeheer in Co
 [Takenlijsten toewijzen aan winkels of werknemers](task-mgmt-assign-lists.md)
 
 [Taakbeheer in POS](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ De lijst van de zoekresultaten is beperkt tot 10 items. Als in de resultaten nie
 ## <a name="development"></a>Ontwikkeling
 
 Vanuit ontwikkelingsperspectief is de navigatiezoekfunctionaliteit heel handig te leveren omdat er vrijwel geen vertraging is tussen de levering van menuopdrachten en het vermogen te verschijnen in de zoekresultaten. Zolang de menu-items aan het navigatievenster of het dashboard zijn gekoppeld, worden ze automatisch doorzoekbaar.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

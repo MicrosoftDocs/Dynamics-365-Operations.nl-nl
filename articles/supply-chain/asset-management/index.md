@@ -37,3 +37,6 @@ De onderstaande afbeelding is een illustratie van de interfaces met andere modul
 ![Overzicht van de integratie van Activabeheer](media/overview-integrate2.jpg)
 
 Met Activabeheer kunt u taken met betrekking tot het beheren en onderhouden van vele soorten apparatuur in uw bedrijf efficiënt beheren en uitvoeren, bijvoorbeeld machines, productieapparatuur en voertuigen. Activabeheer ondersteunt oplossingen in tal van industrieën.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

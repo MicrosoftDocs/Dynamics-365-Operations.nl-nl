@@ -51,3 +51,6 @@ Bij elke nieuwe functie moeten klanten het Vrijgaveplan en de documentatie 'Nieu
 ## <a name="when-the-deprecation-date-is-identified-where-will-it-be-communicated"></a>Wanneer de afschaffingsdatum is bepaald, waar wordt deze dan bekendgemaakt?
 
 De afschaffing van één boekstuk is een aanzienlijke wijziging die op tal van manieren wordt doorgegeven. De afschaffing wordt lang voor de afschaffingsdatum een feit is, doorgegeven via de productdocumentatie, een blogpost en aankondigingen op toepasselijke Microsoft-conferenties.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

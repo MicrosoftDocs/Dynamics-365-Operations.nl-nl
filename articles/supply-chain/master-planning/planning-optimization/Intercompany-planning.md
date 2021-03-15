@@ -87,3 +87,6 @@ Voor dit voorbeeld wordt een geplande inkooporder gemaakt in het bedrijf USMF om
 In de volgende afbeelding ziet u hoe dit voorbeeld op de pagina **Tracering van de behoefte op meer niveaus** kan worden weergegeven voor de geplande productieorder.
 
 ![Intercompany-voorbeeld met drie bedrijven](media/IntercompanyPlanning2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

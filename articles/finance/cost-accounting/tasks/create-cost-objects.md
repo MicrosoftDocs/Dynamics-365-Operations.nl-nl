@@ -50,3 +50,6 @@ Deze procedure laat zien hoe u kostenobjecten maakt door het importeren van fina
 ## <a name="view-the-imported-cost-centers"></a>De geïmporteerde kostenplaatsen weergeven
 1. Klik op Dimensieleden weergeven.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

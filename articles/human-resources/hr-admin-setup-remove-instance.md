@@ -85,3 +85,6 @@ De omgeving herstellen:
 
 > [!Warning]
 > Power Apps-omgevingen worden slechts zeven dagen na verwijdering bewaard. U moet de omgeving binnen zeven dagen herstellen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

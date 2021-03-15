@@ -94,3 +94,6 @@ Zie [Modules voor beoordelingen en recensies](ratings-reviews-modules.md) voor m
 [Modules voor beoordelingen en recensies configureren op pagina's met productdetails](ratings-reviews-modules.md)
 
 [Productbeoordelingen synchroniseren in Dynamics 365 Retail](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

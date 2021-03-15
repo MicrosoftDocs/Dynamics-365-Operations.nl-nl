@@ -110,3 +110,6 @@ Op de pagina **Details gepland werk** (**Magazijnbeheer \> Werk \> Details gepla
 Als u de batchtaken voor het verwerken van waves wilt weergeven, selecteert u **Batchtaken** in het actievenster op de pagina **Alle waves**.
 
 In deze weergave kunt u alle details van de batchtaak voor elk van de batchtaak-ID´s weergeven.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Volg deze stappen om de leasingconventie weer te geven of toe te wijzen.
 3. Selecteer **Opslaan**.
 
 Wanneer een lease wordt gemaakt, wordt de aanvangsdatum van elk boek automatisch ingevoerd op basis van de begindatum die is ingevoerd voor de lease en de leasingconventie die is opgegeven voor het boek.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

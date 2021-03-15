@@ -101,3 +101,6 @@ Voer deze stappen uit om een URL te publiceren.
 [Toegankelijkheid van pagina-inhoud controleren](verify-accessibility.md)
 
 [Dynamische e-commercepagina's maken op basis van URL-parameters](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

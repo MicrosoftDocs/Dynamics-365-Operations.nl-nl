@@ -102,3 +102,5 @@ Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365
 - [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)
 - [Handleiding voor ontwikkelaars](hr-developer-overview.md)
 - [Gebruikershandleiding](hr-hrpro-overview.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Met de optie **Afstemmen na importeren** wordt automatisch het bankafschrift gev
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

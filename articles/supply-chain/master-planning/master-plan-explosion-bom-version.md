@@ -47,3 +47,6 @@ In de volgende afbeelding ziet u het proces voor de vraagexplosie van de hoofdpl
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

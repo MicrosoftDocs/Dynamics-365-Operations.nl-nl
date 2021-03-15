@@ -82,3 +82,6 @@ Verloftypen in Dynamics 365 Human Resources geven de typen verlof aan die werkne
 - [Een werktijdenkalender maken](hr-leave-and-absence-working-time-calendar.md)
 - [Verlof uitstellen](hr-leave-and-absence-suspend-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

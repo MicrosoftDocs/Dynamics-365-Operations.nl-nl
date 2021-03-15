@@ -81,3 +81,6 @@ In deze voorbeelden ziet u hoe u verschillende typen workflowvoorwaarden kunt ma
 [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)<br>
 [Beleid voor verlof inkopen/verkopen beheren](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

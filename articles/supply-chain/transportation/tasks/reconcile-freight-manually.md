@@ -60,3 +60,6 @@ Wanneer u een vervoerderfactuur en een vrachtfactuur afstemt, wordt dat regel vo
 5. Klik om de koppeling in het veld Verwijzing naar journaalnummer te volgen.
 6. Klik op Regels.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ De volgende afbeelding laat zien hoe u kanaalupdates kunt publiceren.
 [Een afzetkanaalnavigatiehiërarchie maken](create-channel-hierarchy.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

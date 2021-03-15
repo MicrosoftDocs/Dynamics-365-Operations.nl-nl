@@ -127,3 +127,6 @@ In de callcenter-app kunnen callcentermedewerkers de ophaalwinkel of -locatie se
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Module ophaalinformatie](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Deze procedure laat zien hoe u een productieorder vrijgeeft. Het bedrijf van de 
 6. Klik op OK.
 7. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -143,3 +143,6 @@ De volgende velden worden toegevoegd aan de menuoptie op het mobiele apparaat wa
 - Standaard redencode voor telling
 - Redencode voor telling weergeven
 - Redencode voor telling bewerken
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Bij het instellen van uw rekeningstructuren zijn er enkele aanbevelingen die u k
 Wanneer u tevreden bent met uw nieuwe instellingen of een wijziging in de rekeningstructuur, moet u deze activeren. Als een rekeningstructuur is toegewezen aan een grootboek, kan deze activering een langdurig proces zijn, omdat alle niet-geboekte transacties in het systeem moeten worden gesynchroniseerd met de nieuwe structuur. Geboekte transacties worden niet beïnvloed door wijzigingen in de rekeningstructuur.
 
 Zie voor meer informatie [Uw rekeningschema plannen](plan-chart-of-accounts.md), [Financiële dimensies](financial-dimensions.md) en [Rekening- en dimensiecombinaties invoeren (gesegmenteerd invoerbesturingselement)](enter-account-dimension-combinations-segmented-entry-control.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Voer de volgende stappen uit om het thema te selecteren dat op uw site wordt toe
 
 [Een nieuw thema maken](e-commerce-extensibility/create-theme.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

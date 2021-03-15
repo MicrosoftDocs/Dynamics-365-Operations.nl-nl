@@ -96,3 +96,6 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 7. Klik op OK.
     * Controleer de gegenereerde uitvoer. Merk op dat naast het factuurbericht in XML-indeling, voor elke bijlage één bestand is gemaakt. De bijlagebestanden worden gevuld met de gecomprimeerde uitvoer in binaire indeling.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

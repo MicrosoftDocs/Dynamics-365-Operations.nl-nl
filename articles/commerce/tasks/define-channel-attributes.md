@@ -71,3 +71,6 @@ Verrijk het kanaal door kanaal- en productkenmerken toe te voegen. U moet het ka
 33. Klik op OK.
 34. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

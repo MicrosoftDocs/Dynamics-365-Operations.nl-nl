@@ -52,3 +52,6 @@ De workbench voor ladingopbouw maakt gebruik van de adressen van klanten en de l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

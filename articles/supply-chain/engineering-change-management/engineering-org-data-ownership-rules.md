@@ -66,3 +66,6 @@ Aangezien het technische bedrijf eigenaar is van de technisch relevante gegevens
 
     - Wanneer deze documenten aan andere rechtspersonen worden vrijgegeven, worden de documenten beschermd tegen verwijdering door het operationele bedrijf.
     - Andere rechtspersonen kunnen volledig nieuwe lokale documenten toevoegen. Het operationele bedrijf is eigenaar van deze lokale documenten en beheert deze.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

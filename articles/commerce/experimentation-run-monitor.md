@@ -52,3 +52,6 @@ Als u om welke reden dan ook wijzigingen moet aanbrengen in uw variaties, voert 
 
 ## <a name="next-step"></a>Volgende stap
 [Een variant promoveren en een experiment voltooien](experimentation-review-complete.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

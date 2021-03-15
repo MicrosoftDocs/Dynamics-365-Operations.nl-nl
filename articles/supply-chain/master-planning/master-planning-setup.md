@@ -226,3 +226,6 @@ Doorlooptijd + negatieve dagen + datum van vandaag – datum nodig
 Het systeem gebruikt alleen de geplande orders die binnen deze time fence vallen en er wordt een nieuwe geplande order daarbuiten gemaakt. Het voordeel van dynamische negatieve dagen is dat het de individuele productdoorlooptijd omvat, om bestaande orders opnieuw te gebruiken en te voorkomen dat nieuwe geplande orders worden gemaakt die eindigen op een latere dag, vanwege vertragingen die worden veroorzaakt door de doorlooptijd. 
 
 Zie [Negatieve dagen en dynamische negatieve dagen](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

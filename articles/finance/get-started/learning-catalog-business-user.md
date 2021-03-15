@@ -60,3 +60,6 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | Inhoud | Beschrijving  | Format  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Grondbeginselen van Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl)    | Laat zien dat u bekend bent met Microsoft Dynamics 365, het Power Platform, cloudconcepten, licentieopties en implementatie- en releaseopties | Examen, kosten verschillen per regio |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

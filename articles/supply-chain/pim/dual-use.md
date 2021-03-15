@@ -107,3 +107,6 @@ U gebruikt de pagina **Certificaten voor tweeërlei gebruik** om de vereiste cer
     | Afdrukken op factuur | Schakel dit selectievakje in om het certificaatnummer af te drukken op facturen die naar het opgegeven land worden verzonden tijdens het opgegeven datumbereik. |
     | Afdrukken op pakbon | Schakel dit selectievakje in om het certificaatnummer af te drukken op pakbonnen die naar het opgegeven land worden verzonden tijdens het opgegeven datumbereik. |
     | Afdrukken op verkooporder | Schakel dit selectievakje in om het certificaatnummer af te drukken op verkooporders die naar het opgegeven land worden verzonden tijdens het opgegeven datumbereik. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

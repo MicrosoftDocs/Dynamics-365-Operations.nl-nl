@@ -100,3 +100,6 @@ In dit onderwerp wordt beschreven hoe u het automatisch afdrukken van een SSCC-l
 7. Selecteer **Opslaan**.
 8. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

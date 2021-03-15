@@ -202,3 +202,6 @@ Zie voor meer informatie over het configureren van e-mails in Dynamics 365 Comme
 [E-mail ontvangstbewijzen instellen](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [E-mailontvangstbewijzen verzenden vanuit Modern POS](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

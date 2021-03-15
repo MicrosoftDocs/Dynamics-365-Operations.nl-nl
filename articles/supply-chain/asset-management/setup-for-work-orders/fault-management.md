@@ -132,3 +132,6 @@ Volg deze stappen om een lijst met suggesties voor oplossing en reparatie te mak
 
 > [!NOTE]
 > U kunt de namen van uw foutsymptomen, -gebieden, -typen, -oorzaken en -oplossingen wijzigen als dat nodig is. De naamswijzigingen worden automatisch weergegeven in de gerelateerde foutregistraties.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

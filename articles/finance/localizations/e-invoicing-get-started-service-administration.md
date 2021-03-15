@@ -150,3 +150,6 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 
 3. Voer in het veld **Omgeving** de naam in voor de omgeving voor de invoegtoepassing voor e-facturering.
 4. Selecteer **Opslaan** en sluit de pagina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

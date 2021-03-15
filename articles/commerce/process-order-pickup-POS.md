@@ -57,3 +57,6 @@ Als u de ophaalhoeveelheid moet wijzigen nadat u de artikelen hebt geselecteerd 
 Als de functie **Verbeterde gebruikerservaring voor de verwerking van afhaalorders in Point of Sale** is ingeschakeld, kunnen organisaties een knop voor de bewerking **Ophaalregels wijzigen** toevoegen aan de schermindeling van de transactiepagina. Nadat u het winkelwagentje voor de ophaaltransactie in het POS hebt gemaakt en artikelen hebt geselecteerd, kunt u **Ophaalregels wijzigen** selecteren als u de ophaalartikelen moet wijzigen, maar niet de hele transactie ongeldig wilt maken. In het dialoogvenster **Ophaalregels wijzigen** dat verschijnt, kunt u de ophaalartikelen en -hoeveelheden wijzigen. Het winkelwagentje voor de transactie wordt vervolgens bijgewerkt om uw wijzigingen weer te geven.
 
 ![Het dialoogvenster Ophaalartikelen wijzigen](media/pickupchange.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

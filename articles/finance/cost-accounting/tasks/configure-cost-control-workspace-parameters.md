@@ -58,3 +58,6 @@ Gebruik deze procedure om het werkgebied kostenbeheer te configureren, zodat man
 27. Typ of selecteer een waarde in het veld Dimensiehiërarchieknooppunt van een kostenobject.
     * Nadat u een kostenobjectdimensiehiërarchie hebt geselecteerd, vouwt u de kostenelementdimensiehiërarchie uit om de gewenste kostenwaarden te zien. U kunt bijvoorbeeld de hiërarchie uitvouwen naar Productieoverhead om de waarde te zien.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

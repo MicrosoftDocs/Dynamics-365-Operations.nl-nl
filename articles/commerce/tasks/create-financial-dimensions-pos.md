@@ -47,3 +47,6 @@ Deze procedure doorloopt het maken van financiële dimensies voor verkooppuntreg
 17. Zoek en selecteer in de lijst de dimensiewaarde voor het register dat wordt bijgewerkt.
 18. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

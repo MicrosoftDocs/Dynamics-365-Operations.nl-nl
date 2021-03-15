@@ -165,3 +165,6 @@ Als u leverancierfiltercodes wilt instellen, voert u de volgende stappen uit.
 ## <a name="see-also"></a>Zie ook
 
 [Zie het blogbericht WMS-Magazijnfiltercodes voor meer informatie.](http://blog.dynamics-for-operations.com/2017/09/26/wms-warehouse-filter-codes/)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

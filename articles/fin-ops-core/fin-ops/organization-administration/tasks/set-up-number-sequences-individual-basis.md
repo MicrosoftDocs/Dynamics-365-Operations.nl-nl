@@ -40,3 +40,6 @@ In dit onderwerp wordt uitgelegd hoe op een individuele basis nummerreeksen kunn
 8. Vouw de sectie **Algemeen** uit. Geef op het sneltabblad Algemeen op of de nummerreeks handmatig is en doorlopend of niet-doorlopend. Voer ook de laagste en hoogste nummers in die in de nummerreeks kunnen worden gebruikt. Een niet-doorlopende nummerreeks wijzigen in een doorlopende nummerreeks wordt niet aanbevolen. De nummerreeks zal niet echt continu worden. Deze wijziging kan ook overtredingen van dubbele sleutels veroorzaken in de database. Doorlopende nummerreeksen hebben bovendien een grotere invloed op de prestaties.   
 9. Klik op **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

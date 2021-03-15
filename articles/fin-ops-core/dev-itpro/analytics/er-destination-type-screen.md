@@ -38,3 +38,6 @@ Als u **Ingeschakeld** instelt op **Ja**, wordt een voorbeeld van de uitvoer gem
 
 - [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 - [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Wanneer de overzichten groepsgewijs worden geboekt, zodat het boeken van transac
 Details van de financiële afstemming voor een dienst worden gesynchroniseerd met Commerce Headquarters door middel van de P-taak.
 
 In financiële detailhandeloverzichten in Commerce Headquarters worden geen totalen berekend om de details op de overzichtsregels weer te geven. In plaats daarvan worden de voltooide bedragen in de POS-client gebruikt om financiële overzichten voor detailhandelwinkels te maken en te boeken.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

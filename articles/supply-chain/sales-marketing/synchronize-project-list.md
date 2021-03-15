@@ -66,3 +66,6 @@ Wijzigingen bijhouden voor gegevensentiteitprojecten inschakelen
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Projecten (Supply Chain Management naar Field Service): Projects
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSProject1.png)](./media/FSProject1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

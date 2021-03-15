@@ -201,3 +201,6 @@ Om goedgekeurde inkoopbestelopdrachtregels samen te voegen, volgt u deze stappen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

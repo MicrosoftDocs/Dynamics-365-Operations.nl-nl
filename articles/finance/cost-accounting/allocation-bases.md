@@ -429,3 +429,6 @@ Hier volgt een voorbeeld van een kostenverdelingsregel als de formuletoewijzings
 |    CC002    |     FI      | 3,075.00  | (3,075.00 ÷ 18,162.50) × bedrag  |
 |    CC003    |     VOB      | 13,250.00 | (13,250.00 ÷ 18,162.50) × bedrag |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

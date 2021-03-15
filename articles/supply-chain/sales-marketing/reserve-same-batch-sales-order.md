@@ -44,3 +44,6 @@ Als u voorraad reserveert voor een product op een verkooporderregel die is inges
 - Er zijn onvoldoende houdbaarheidsdagen resterend voor de batch op basis van de vervaldatum en houdbaarheidsdatum plus eventuele van toepassing zijnde verkoopbare dagen voor de klant.
 
 Voor artikelen die zijn gekoppeld aan een opslagdimensiegroep waarvoor **Magazijnbeheerprocessen gebruiken** is ingeschakeld, kunt u specifieke batchnummers reserveren door een reserveringshiërarchie te gebruiken met de gedefinieerde voorraaddimensie voor batchnummers die boven de locatiedimensie is gedefinieerd. Via de pagina **Batchreservering** voor verkoop- en transferorderregels kunt u ook meerdere regels selecteren en reserveren op basis van de beschikbare batchnummers. Zie [Flexibel reseveringsbeleid voor dimensies op magazijnniveau](../warehousing/flexible-warehouse-level-dimension-reservation.md) voor meer informatie over wat u moet doen als u een reserveringshiërarchie gebruikt die de batchnummerdimensie onder de locatie bevat.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

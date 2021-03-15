@@ -58,3 +58,6 @@ Stel bijzondere kosten voor leveranciersbetalingen in. Bij deze taak wordt het d
     * Deze valuta is voor de bijzondere kosten. De betalingsvaluta wordt gebruikt om te bepalen wanneer de regel voor bijzondere kosten moet worden beoordeeld op basis van de valuta van de betaling. Zo kan uw bank bijvoorbeeld bijzondere kosten in rekening brengen wanneer een betaling wordt gedaan in EUR, terwijl voor alle andere betalingen geen kosten worden berekend.  
 18. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

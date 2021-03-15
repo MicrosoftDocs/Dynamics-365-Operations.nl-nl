@@ -89,3 +89,6 @@ Automatisch gemaakte serviceorders kunt u met behulp van servicetaken groeperen.
 2. Op het tabblad **Instellen** selecteert u **Per servicetaak** in het veld **Serviceorders combineren**.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

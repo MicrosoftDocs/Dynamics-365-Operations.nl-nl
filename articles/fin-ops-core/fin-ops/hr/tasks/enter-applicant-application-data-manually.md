@@ -61,3 +61,6 @@ Deze procedure laat zien hoe u handmatig informatie over sollicitanten en hun so
 6. Klik op Opslaan.
     * Nadat u de sollicitatie hebt opgeslagen, kunt u er documenten aan toevoegen, met inbegrip van de ervaring van de sollicitant, bekroningen en begeleidende brief.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

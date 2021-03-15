@@ -81,3 +81,6 @@ Dit onderwerp toont hoe een rechtstreekse levering voor een verkooporder wordt g
     - De pagina Rechtstreekse levering fungeert als workbench die de inkoper voorziet van een overzicht van alle verkooporderregels die rechtstreeks moeten worden geleverd. Deze pagina biedt ook de mogelijkheid om de betreffende inkooporders te maken. Bovendien kunnen ze de openstaande rechtstreekse leveringsorders en bevestigde orders op de tabbladen Bevestiging en Levering weergeven.  
     - Nadat u een order voor rechtstreekse levering hebt gemaakt, wordt deze automatisch naar het tabblad Bevestiging verplaatst. U kunt de order rechtstreeks op deze pagina bevestigen. Als de aankoop is bevestigd, wordt deze automatisch naar het tabblad Levering verplaatst, waar u de ontvangst ervan kunt registreren.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

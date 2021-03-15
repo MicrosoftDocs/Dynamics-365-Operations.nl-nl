@@ -45,3 +45,6 @@ Wanneer u een journaal invoert, kunt u klikken op **Transitorische grootboekpost
 
 
 Zie voor meer informatie [Toerekeningsschema's maken](tasks/create-accrual-schemes.md) en [Toenametransacties voor grootboek maken](tasks/create-ledger-accrual-transactions.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

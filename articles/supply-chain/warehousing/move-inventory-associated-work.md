@@ -58,3 +58,6 @@ Voor de werknemers die gereserveerde voorraad mogen verplaatsen, schakelt u het 
 Deze functie is ook beschikbaar gemaakt voor de oudere versies Microsoft Dynamics AX 2012 R3 en zal beschikbaar zijn als onderdeel van CU12.
 U kunt hem ook afzonderlijk downloaden via KB-nummer 3192548. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

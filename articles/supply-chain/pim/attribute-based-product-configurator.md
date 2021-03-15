@@ -140,3 +140,6 @@ De laatste stap bestaat eruit op kenmerken gebaseerde verkoopprijzen voor de pro
 1. Open in het actievenster het tabblad **Model** en selecteer in de groep **Details productmodel** **Versies**.
 1. De pagina **Versies** wordt geopend. Controleer of de **Methode voor prijscalculatie** in ingesteld op **Op kenmerken gebaseerd**.
     ![De methode voor prijscalculatie instellen op Op kenmerken gebaseerd](media/prod-config-versions.png "De methode voor prijscalculatie instellen op Op kenmerken gebaseerd")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

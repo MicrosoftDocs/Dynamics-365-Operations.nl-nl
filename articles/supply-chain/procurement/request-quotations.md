@@ -246,3 +246,6 @@ In het voorbeeld hieronder ziet u de hoogste en laagste status op de offerteaanv
 | Accepteer een van de biedingen. (of ten minste één regel) |                          Ontvangen                           |                           Geaccepteerd                           |                    Ontvangen                    |                    Geaccepteerd                     |                   Ontvangen                   |                   Geaccepteerd                    |
 |           Wijs alle andere biedingen af.           |                          Afgewezen                           |                           Geaccepteerd                           |                    Afgewezen                    |                    Geaccepteerd                     |                   Afgewezen                   |                   Geaccepteerd                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

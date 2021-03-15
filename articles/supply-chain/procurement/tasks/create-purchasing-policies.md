@@ -56,3 +56,6 @@ Dit onderwerp laat zien hoe u aanschafbeleid kunt maken voor afstemming met uw b
 4. Selecteer **Sluiten**.
 - Nu kunt u beleidsregels instellen voor het aanschafbeleid. Merk op dat een type beleidsregel geen overlappende regels kan hebben die tegelijkertijd actief zijn binnen een enkel inkoopbeleid.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

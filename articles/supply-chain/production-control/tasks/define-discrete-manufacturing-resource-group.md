@@ -57,3 +57,6 @@ Een resourcegroep is een set van bronnen voor bedrijfsactiviteiten die meestal c
 6. Zoek en selecteer de gewenste record in de lijst.
 7. Klik in de lijst op de koppeling in de geselecteerde rij.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

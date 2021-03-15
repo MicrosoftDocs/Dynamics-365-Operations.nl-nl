@@ -51,3 +51,6 @@ In de volgende schermafbeelding ziet u een voorbeeld van de pagina **Geplande on
 
 ![Figuur 1](media/07-work-order-scheduling.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

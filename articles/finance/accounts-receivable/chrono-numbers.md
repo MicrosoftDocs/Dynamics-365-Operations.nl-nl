@@ -105,3 +105,6 @@ Wanneer u een document boekt, wordt de betreffende nummerreeksgroep aan het docu
 
 > [!NOTE]
 > In sommige landen is er al een specifieke logica geïmplementeerd voor documentnummering. In dit geval heeft de landspecifieke logica voorrang op de functie voor **chronologische nummering**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

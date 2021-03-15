@@ -143,3 +143,6 @@ De resterende metagegevens, bijvoorbeeld Locatie, worden niet weergegeven op de 
 --------
 
 [Overzicht van installatie en configuratie van de magazijnapp](install-configure-warehousing-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

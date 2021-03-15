@@ -48,3 +48,6 @@ Wanneer u terugbetalingstransacties maakt, wordt een leveranciersfactuur gemaakt
 
 5. Als u de gemaakte terugbetalingstransacties wilt weergeven, gebruikt u het rapport **Terugbetaling** (**Klanten \> Query's en rapporten \> Terugbetalingsrapport**).
 6. In Leveranciers maakt u een betaling voor de leveranciersfacturen die met het terugbetalingsproces zijn gemaakt. Zie [Overzicht van leveranciersbetalingen](../accounts-payable/Vendor-payments-workspace.md) voor informatie over het betalen van leverancers.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

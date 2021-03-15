@@ -42,3 +42,6 @@ De serviceobjecten zijn de activum en de producten van een klant waarvoor u een 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

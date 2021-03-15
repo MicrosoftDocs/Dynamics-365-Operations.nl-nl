@@ -75,3 +75,6 @@ Voor- en achtervoegsel naam                | msdyn\_nameaffixes          | Met d
 [!include [Vendor groups](includes/VendVendorGroup-msdyn-vendorgroups.md)]
 
 [!include [Vendor payment methods](includes/VendorPaymentMethod-msdyn-vendorpaymentmethods.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

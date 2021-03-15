@@ -48,3 +48,6 @@ Deze procedure laat zien hoe u sollicitaties kunt controleren die zijn ontvangen
 2. Klik in de lijst op de koppeling in de geselecteerde rij.
 3. Vouw de sectie Bijlagen uit.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

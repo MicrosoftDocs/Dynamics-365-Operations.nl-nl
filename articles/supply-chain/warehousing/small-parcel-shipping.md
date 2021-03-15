@@ -279,3 +279,6 @@ Voer de volgende stappen uit om de zending in te pakken.
     ![Voorbeeldverzendlabel](media/sps-label-example.png "Voorbeeldverzendlabel")
 
 1. De waarden **Containermanifest-id** en **Totale vrachtkosten** zijn toegevoegd als ontvangen van de vervoerder.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

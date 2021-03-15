@@ -70,3 +70,6 @@ Wanneer u de onderhouds- of reparatietaak hebt voltooid, kunt u het activum als 
 2. Selecteer het activum of het onderhoudsverzoek.
 3. Selecteer **Activa afleveren**.
 4. Voer de datum en de tijd in het veld **Afgeleverd** in. Selecteer vervolgens **OK**. De record wordt verwijderd uit de pagina met de lijst **Uitgaande activa**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

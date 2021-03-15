@@ -45,3 +45,6 @@ Nadat een werver een project voor massaal aanstellen heeft gemaakt en de positie
 8. Maak in de lijst de markering van de geselecteerde rij ongedaan.
     * Selecteer de volgende projectpositie en ga door met het invoeren van de werknemersinformatie voor elke persoon die u aanstelt.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

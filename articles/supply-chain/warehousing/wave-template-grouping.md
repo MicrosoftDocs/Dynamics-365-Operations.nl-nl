@@ -200,3 +200,6 @@ Een nieuwe wave is gemaakt voor deze zending, omdat deze een andere vervoerderss
 1. Selecteer de wave-id die is aangemaakt op basis van de derde verkooporder.
 1. Selecteer de koppeling van de wave-id om de pagina Wave-gegevens te openen.
 1. U ziet dat de zending is toegevoegd aan het sneltabblad **Wave-regels** , samen met de zending voor de eerste verkooporder.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

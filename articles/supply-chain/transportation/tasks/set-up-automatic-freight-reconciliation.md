@@ -71,3 +71,6 @@ Deze procedure laat zien hoe u gegevens instelt voor automatische vrachtafstemmi
 11. Typ of selecteer een waarde in het veld Redencode voor onderbetaling.
 12. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

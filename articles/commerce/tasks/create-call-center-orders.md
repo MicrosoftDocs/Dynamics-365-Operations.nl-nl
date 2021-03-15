@@ -61,3 +61,6 @@ Deze procedure doorloopt het opzoeken van een klant, het maken van een nieuwe or
 
 [Leveringsmethode wijzigen in POS](../pos-change-delivery-mode.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

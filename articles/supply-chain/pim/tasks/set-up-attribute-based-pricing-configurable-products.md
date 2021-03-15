@@ -51,3 +51,6 @@ In dit onderwerp wordt uitgelegd hoe u op kenmerken gebaseerde prijsdetails inst
 8. Typ een waarde in het veld **Expressie**. Typ bijvoorbeeld `50`. 
 9. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

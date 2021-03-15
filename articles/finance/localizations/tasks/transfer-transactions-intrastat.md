@@ -152,3 +152,6 @@ Deze procedure begeleidt u bij het instellen van Intrastat-parameters en overboe
     
 Controleer de overgeboekte gegevens, waaronder land/regio van bestemming/verzending, land van oorsprong, gewicht, hoeveelheid, hoeveelheid in extra eenheden, basisproduct, transactiecode, factuurbedragen en statistische bedragen. U kunt gegevens indien nodig wijzigen.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

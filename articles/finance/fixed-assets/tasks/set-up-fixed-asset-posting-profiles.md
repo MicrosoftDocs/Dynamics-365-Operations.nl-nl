@@ -122,3 +122,6 @@ Deze taakbegeleiding stelt boekingsprofielen voor vaste activa in.  Het gebruikt
 88. Geef in het veld **Hoofdrekening** de gewenste waarden op.
 89. Geef in het veld **Tegenrekening** de gewenste waarden op.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Op het tabblad **Valutaomrekening** definieert u de rechtspersoon, de rekening, 
 Zie het bovenliggende onderwerp van dit onderwerp [Overzicht van Financiële consolidaties en valutaomzetting](./financial-consolidations-currency-translation.md) voor meer informatie over consolidatie en valutaomrekeningen.
 
 Zie voor informatie over scenario's waarin u mogelijk geconsolideerde financiële overzichten genereert [Geconsolideerde financiële overzichten genereren](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

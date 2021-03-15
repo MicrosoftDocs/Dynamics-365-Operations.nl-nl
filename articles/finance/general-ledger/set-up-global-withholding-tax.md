@@ -47,3 +47,6 @@ Dit onderwerp biedt een overzicht van de stappen voor het instellen van globale 
 7. Stel bronbelastinggroepen in op de pagina **Artikelbronbelastinggroepen** voor een artikel of service.
 
 8. Stel **Minimaal factuurbedrag** in op de pagina **Grootboekparameters > Bronbelasting**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

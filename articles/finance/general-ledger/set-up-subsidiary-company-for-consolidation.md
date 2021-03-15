@@ -80,3 +80,6 @@ Ongeacht of u rekeningen hebt toegewezen, schakelt u het selectievakje **Consoli
 
 > [!NOTE]
 > U kunt deze methode gebruiken voor het maken van een rekeningschema in de geconsolideerde rechtspersoon op basis van het rekeningschema in een van de rechtspersonen van het filiaal. Zie [Consolidatiegroepen en extra consolidatierekeningen maken](../budgeting/consolidation-account-groups-consolidation-accounts.md) voor meer informatie. Wijs dan een geschikt consolidatieomrekeningsprincipe toe aan elke geconsolideerde hoofdrekening en voer de consolidatie uit voor alle rechtspersonen van het filiaal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

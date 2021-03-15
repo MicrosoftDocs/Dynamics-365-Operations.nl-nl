@@ -60,3 +60,6 @@ Wanneer **Beperken voor restituties zonder ontvangstbewijs** is ingesteld op **J
 
 Als een transactie zowel een retour met een ontvangstbewijs als een retour zonder een ontvangstbewijs heeft, worden de beperkingsvoorwaarden niet afgedwongen omdat de transactie een retourwerkstroom met een ontvangstbewijs is. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ De manager Compensatie en emolumenten kan werknemers toewijzen aan vaste compens
     * Als het Vastecompensatieplan een stappenplan is, selecteert u de stap die het juiste salaristarief voor de werknemer bevat. Als het vastecompensatieplan een schaal- of bandplan is, voert u het salaristarief voor de werknemer in. Het salaristarief wordt gevalideerd op basis van de tolerantie-instellingen voor het plan en de minimale en maximale referentiepunten voor het compensatieniveau van de taak.  
 8. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

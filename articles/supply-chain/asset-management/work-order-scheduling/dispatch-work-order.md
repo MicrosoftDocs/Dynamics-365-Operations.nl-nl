@@ -59,3 +59,6 @@ In de volgende afbeelding ziet u een voorbeeld van selecties voor verzending in 
 [!NOTE]
 Als u de planning voor een werkorder wilt verwijderen, selecteert u de werkorder in **Alle werkorders** en klikt u vervolgens op **Planning verwijderen** op het tabblad **Algemeen**. Werk de levenscyclusstatus voor de werkorder handmatig bij als u de planning verwijdert.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

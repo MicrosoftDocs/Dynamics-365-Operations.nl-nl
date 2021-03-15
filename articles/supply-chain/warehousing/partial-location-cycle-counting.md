@@ -61,3 +61,6 @@ In dit voorbeeld moet alleen artikelnummer A0001 in magazijn 61 worden geteld.
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Cyclustelling](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

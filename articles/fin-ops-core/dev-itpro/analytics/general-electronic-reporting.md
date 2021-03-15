@@ -298,3 +298,6 @@ De lijst met ER-configuraties voor Finance wordt continu bijgewerkt. Open de [Al
 
 - [Configuraties voor elektronische rapportage (ER) maken](electronic-reporting-configuration.md)
 - [De levenscyclus van de configuratie van elektronische rapportage (ER) beheren](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ Als u filters op basis van de bedrijfscontext wilt toepassen op uw aangepaste fo
 
 :::image type="content" source="media/apply-company-context.png" alt-text="Bedrijfscontext toepassen":::
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

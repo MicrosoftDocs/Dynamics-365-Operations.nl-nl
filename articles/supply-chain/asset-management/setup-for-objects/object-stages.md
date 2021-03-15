@@ -69,3 +69,6 @@ Nadat u de vereiste levenscyclusstatussen van activa hebt gemaakt, kunt u levens
 
 6. Selecteer **Updates van levenscyclusstatussen** om de levenscyclusstatussen van activa te definiëren die een geselecteerde levenscyclusstatus kunnen volgen.
 7. U gebruikt het sneltabblad **Activastatus** als u activa verwerkt die u voor reparatie ontvangt. In de sectie **Inkomend/uitgaand** kunt u levenscyclusstatussen van activa selecteren om de werkstroom aan te geven van een activum dat u voor reparatie ontvangt. Als u leenactiva aanbiedt aan klanten of afdelingen, kunt u in de sectie **Loan** levenscyclusstatussen selecteren voor leenactiva.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

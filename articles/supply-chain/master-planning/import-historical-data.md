@@ -61,3 +61,6 @@ Nadat u de historische vraaggegevens hebt geïmporteerd, kunt u een vraagprognos
 
 [Een statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md)  
 [Overzicht van Gegevensimport- en exporttaken](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

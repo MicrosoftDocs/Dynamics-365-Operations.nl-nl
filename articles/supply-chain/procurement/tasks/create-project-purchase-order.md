@@ -47,3 +47,6 @@ Deze procedure laat zien hoe u een projectinkooporder maakt. In deze taak wordt 
     * Controleer of de verkoop- en kostprijzen beschikbaar zijn. Als deze niet beschikbaar zijn maar wel zijn vereist, moet u de informatie invoeren.  
 14. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

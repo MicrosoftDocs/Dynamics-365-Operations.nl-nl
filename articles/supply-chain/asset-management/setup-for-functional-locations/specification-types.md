@@ -63,3 +63,6 @@ U kunt uw eigen kenmerktypen maken Bovendien kunt u productdimensies overbrengen
 9. Sla de record op.
 
     Het veld **Typen functionele locatie** bevat het aantal functionele locaties dat het kenmerktype gebruikt. Het veld **Activatypen** bevat het aantal activatypen dat hiervan gebruikmaakt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

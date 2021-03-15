@@ -83,3 +83,6 @@ Wanneer u klaar bent om de workflow op te slaan en te activeren, volgt u deze st
 
     - Om deze versie van de workflow te activeren, klikt u op **De nieuwe versie activeren**. Wanneer een workflow actief is, kunnen gebruiker documenten ter verwerking bij de workflow aanbieden.
     - Als u deze versie niet wilt activeren, klikt op **De nieuwe versie niet activeren**. U kunt de workflow later activeren.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

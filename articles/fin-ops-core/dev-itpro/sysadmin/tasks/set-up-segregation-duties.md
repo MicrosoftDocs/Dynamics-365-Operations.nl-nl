@@ -42,3 +42,6 @@ U kunt regels instellen om taken te scheiden die door verschillende gebruikers m
 
 > [!IMPORTANT] 
 > Wanneer u een regel maakt, wordt niet gecontroleerd of de regels voor de scheiding van taken worden nageleefd. U kunt een regel maken die een conflict veroorzaakt voor bestaande rollen. Bestaande gebruikersroltoewijzingen kunnen ook in conflict zijn met de nieuwe regel. U moet de conformiteit valideren nadat u een regel hebt gemaakt of gewijzigd. Zie [Conflicten bij scheiding van taken identificeren en oplossen](identify-resolve-conflicts-segregation-duties.md) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -133,3 +133,6 @@ Om sjabloonstuklijsten te gebruiken, moet u twee nummerreeksen instellen. Stel Ã
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

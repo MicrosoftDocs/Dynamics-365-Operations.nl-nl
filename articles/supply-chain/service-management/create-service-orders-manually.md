@@ -101,3 +101,6 @@ U kunt een serviceorder maken in het formulier **Verkooporders** met behulp van 
 
 [Serviceorders maken (klasseformulier)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

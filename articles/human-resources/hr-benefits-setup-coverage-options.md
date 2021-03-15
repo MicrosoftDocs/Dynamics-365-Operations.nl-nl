@@ -59,3 +59,6 @@ Nadat u de dekkingsopties hebt gedefinieerd, koppelt u de dekkingsopties aan een
    | **Dekkingsbedrag werknemer toestaan** | Geeft aan of werknemers het dekkingsbedrag voor vergoedingen via selfservice mogen wijzigen wanneer ze vergoedingen selecteren. Als u dit selectievakje inschakelt, worden de parameters van het vergoedingsplan berekend op basis van het dekkingsbedrag dat de werknemer invoert in Werknemerselfservice. |
 
 6. Selecteer **Opslaan**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

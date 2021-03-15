@@ -42,3 +42,6 @@ Deze procedure laat zien hoe u leverancierssamenwerking gebruikt om gegevens wee
 1. Ga naar Leverancierssamenwerking > Consignatievoorraad > Voorhanden consignatievoorraad.
     * De pagina Voorhanden consignatievoorraad geeft de voorraad weer die u bezit in het magazijn van de klant. U kunt extra dimensies weergeven, zoals de locatie en het magazijn, door op het tabblad Dimensies weergeven te klikken.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

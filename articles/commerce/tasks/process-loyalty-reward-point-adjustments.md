@@ -49,3 +49,6 @@ Deze procedure toont hoe u de loyaliteitskaartgegevens opzoekt en de beloningspu
 15. Klik op Kaarttransacties.
 16. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

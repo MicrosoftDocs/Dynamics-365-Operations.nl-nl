@@ -43,3 +43,6 @@ Een geldige stuklijstversie, of deze nu locatiespecifiek of algemeen is, moet vo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

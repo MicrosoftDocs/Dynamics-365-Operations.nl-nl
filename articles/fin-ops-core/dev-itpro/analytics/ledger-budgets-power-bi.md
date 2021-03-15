@@ -57,3 +57,6 @@ De volgende tabel bevat informatie over de metrische gegevens op elke rapportpag
 | Grootboeken                   | Grootboeken die kunnen worden gebruikt om het rapport te filteren naar het huidige grootboek              |
 | Budgetcodes              | Budgetcodes om rapporten op te filteren                                                |
 | Rechtspersonen            | Rechtspersonen die kunnen worden gebruikt om het rapport te filteren naar de huidige rechtspersoon |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

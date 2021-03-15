@@ -104,3 +104,6 @@ De berekeningen zijn niet opgenomen in de validatie. U moet het productconfigura
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Deze taak geeft aan hoe u een sjabloon voor een vrije-tekstfactuur kunt toewijze
     + Jaar: selecteer deze optie en geef het aantal jaren op in het veld Per. Als u bijvoorbeeld 2 invoert, wordt elke twee jaar een factuur gegenereerd voor deze klant.  
 14. Voer een getal in het veld **Per** in.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

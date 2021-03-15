@@ -145,3 +145,6 @@ In dit voorbeeld maakt u een configuratie en uploadt u deze in LCS voor het voor
     De ER-configuratie die u hebt geüpload, moet worden vermeld.
 
     De geüploade LCS-configuratie kan naar een ander exemplaar worden geïmporteerd als providers toegang tot dit LCS-project hebben.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

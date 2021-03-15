@@ -115,3 +115,6 @@ Voor meer informatie over het instellen van elektronische facturen, kunt u de vo
 
 > [!NOTE] 
 > Hoewel deze taakbegeleidingen zijn gemaakt voor de specifieke Deense e-factuurindeling *OIOUBL*, zijn ze met kleine afwijkingen van toepassing op andere ondersteunde landen/regio's.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

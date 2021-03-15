@@ -61,3 +61,6 @@ In dit onderwerp wordt uitgelegd hoe u een consignatieaanvullingsorder maakt waa
 3. Selecteer **Overzicht**. De artikelen die zijn ontvangen als consignatievoorraad en die eigendom zijn van de leverancier, zijn voorhanden in de voorraad. De resterende hoeveelheid op de consignatieaanvullingsorder wordt weergegeven in het veld **Totaal van order**.  
 4. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

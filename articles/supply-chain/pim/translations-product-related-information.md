@@ -127,3 +127,6 @@ Vertalingen van productgerelateerde informatie kunnen op elk moment worden behee
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

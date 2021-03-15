@@ -190,3 +190,6 @@ De volgende details worden geïmporteerd en opgenomen in de nieuwe werknemersrec
 
 [Virtuele Dataverse-entiteiten configureren](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Wat is Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

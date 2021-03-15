@@ -59,3 +59,6 @@ Wanneer u gebruikers aan rollen toewijst, worden de regels voor de scheiding van
 
 > [!NOTE]
 > Als er meerdere conflicten worden vermeld voor dezelfde gebruiker, selecteert u de gebruikersrecord en evalueert u de toegewezen rollen op de pagina **Gebruikers**. Om dit conflict te voorkomen valideert u elke regel nadat deze is toegevoegd of gewijzigd.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

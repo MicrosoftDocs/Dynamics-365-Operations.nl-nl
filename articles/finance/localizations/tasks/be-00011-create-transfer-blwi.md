@@ -50,3 +50,6 @@ Klant- of leverancierstransacties gemarkeerd met een van de gekozen betalingsdoe
 17. Klik op OK.
 18. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

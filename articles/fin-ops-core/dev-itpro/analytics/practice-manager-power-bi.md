@@ -117,3 +117,6 @@ In de volgende secties worden de samengevoegde metingen uitgelegd die worden geb
 | Belangrijke samengevoegde meting       | Veld               | Omschrijving |
 |---------------------------------|---------------------|-------------|
 | Geplande kosten voltooide activiteit | Sum(TotalCostPrice) | De totale kostprijs in ramingen voor alle projecttransactietypen met voltooide taken. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ In de onderstaande afbeelding ziet u een voorbeeld van de detailweergave **Activ
 - U kunt activa van de ene activiteit voor uitvaltijd voor onderhoud naar een andere kopiëren. Selecteer in **Alle activiteiten voor uitvaltijd voor onderhoud** de knop **Activiteiten voor uitvaltijd voor onderhoud kopiëren** en selecteer de gewenste opties in de velden **Van activiteiten voor uitvaltijd voor onderhoud** en **Naar activiteiten voor uitvaltijd voor onderhoud** en klik op **OK**.
 - Klik in **Alle activiteiten voor uitvaltijd voor onderhoud** op de knop **Onderhoudsschemaregels** of de knop **Actieve werkorders** om de gerelateerde lijsten te openen en de regels voor de geselecteerde activiteit voor uitvaltijd voor onderhoud weer te geven.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

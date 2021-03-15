@@ -50,3 +50,6 @@ Deze taak helpt u bij het maken van een bankfaciliteitsovereenkomst om een kredi
 18. Klik op Uitbreiden.
 19. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

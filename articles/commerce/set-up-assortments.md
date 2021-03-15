@@ -54,3 +54,6 @@ Na het voltooien van de vereisten kunt u een assortiment maken en dit aan uw kan
 2. Selecteer de kanalen of de groepen kanalen op hoog niveau waarop het assortiment van toepassing is.
 3. Productcategorieën, individuele producten of productvarianten toevoegen aan het assortiment. U kunt alle producten in een specifieke categorie plaatsen of u kunt geselecteerde producten uitsluiten van een categorie die is opgenomen in het assortiment.
 4. Assortiment publiceren. Wanneer u een assortiment publiceert, wordt de assortimentsplanner automatisch uitgevoerd. Dit proces genereert de lijst van producten. Na het uitvoeren van dit proces, worden deze producten beschikbaar voor de kanalen waar het productassortiment aan is toegewezen. Als wijzigingen zijn aangebracht aan een gepubliceerd assortiment of aan de kanalen waar het assortiment aan is toegewezen, moet het assortiment worden bijgewerkt. Om het assortiment bij te werken wanneer wijzigingen worden aangebracht, kunt u de assortimentsplanner uitvoeren als batchtaak.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

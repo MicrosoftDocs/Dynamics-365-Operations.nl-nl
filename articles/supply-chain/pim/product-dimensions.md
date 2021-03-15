@@ -145,3 +145,6 @@ De versiedimensie werkt net als andere productdimensies. Vanwege de specifieke a
 
 > [!IMPORTANT]
 > Als u de versiedimensie inschakelt en gebruikt, werken sommige oplossingen die verwijzen naar de voorraaddimensies mogelijk niet meer naar behoren. Neem contact op met de ISV (Independent Software Vendor) voor de desbetreffende oplossingen om deze problemen te bevestigen en op te lossen. Zie [De versiedimensie inschakelen](#enable-version-dim) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

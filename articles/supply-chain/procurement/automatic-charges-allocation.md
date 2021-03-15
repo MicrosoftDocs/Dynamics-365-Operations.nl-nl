@@ -176,3 +176,6 @@ Met de volgende procedure wordt aangegeven hoe u toeslagen op koptekstniveau kun
         > Wanneer u werkt met het raster **Regels kiezen die u wilt uitsluiten van toewijzing**, moet u het raster geopend laten totdat u **Toewijzen** selecteert. Als u het raster sluit voordat u **Toewijzen** selecteert, gaan de instellingen in het raster verloren. Daarom worden toeslagen toegewezen op basis van de criteria die u eerder hebt gedefinieerd.
 
 1. Selecteer **Toewijzen** om uw instellingen toe te passen en het dialoogvenster te sluiten.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

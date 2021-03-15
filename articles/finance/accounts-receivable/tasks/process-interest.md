@@ -67,3 +67,6 @@ Deze procedure laat zien hoe u rentenota's maakt, afdrukt en boekt. Bij deze taa
 5. Klik op **OK**.
 6. Selecteer Geboekt in het veld **Status**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

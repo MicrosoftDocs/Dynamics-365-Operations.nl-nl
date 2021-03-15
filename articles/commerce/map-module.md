@@ -81,3 +81,6 @@ Zie [Winkelselectiemodule](store-selector.md) voor meer informatie over het conf
 [Bing Kaarten voor uw organisatie beheren](./dev-itpro/manage-bing-maps.md)
 
 [V8-webbesturingselement van Bing Kaarten](https://docs.microsoft.com/bingmaps/v8-web-control/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

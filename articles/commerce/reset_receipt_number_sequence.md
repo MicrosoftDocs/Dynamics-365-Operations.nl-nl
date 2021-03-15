@@ -67,3 +67,6 @@ Met de functie **Datum voor opnieuw instellen** kunt u toekomstige datums voor o
 
 > [!NOTE]
 > Afhankelijk van de datum voor opnieuw instellen die u selecteert en de ontvangstbewijsindeling, hebt u mogelijk dubbele ontvangstbewijsnummers. Hoewel het verkooppunt (POS) deze situaties kan verwerken, is er hierdoor meer tijd nodig voor het verwerken van retouren, aangezien verkoopmedewerkers moeten kiezen uit dubbele ontvangstbewijzen. Andere complicaties met betrekking tot het opschonen van gegevens kunnen zich voordoen als de dubbele ontvangstbewijzen geen gepland gevolg hebben. Daarom raden we aan om dynamische datumtekens (bijvoorbeeld **ddd**, **MM**, **DD** en **YY**) te gebruiken om dubbele ontvangstbewijsnummers na opnieuw instellen te voorkomen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

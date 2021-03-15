@@ -45,3 +45,6 @@ U kunt de zoekopdracht verder verfijnen door documenttype te selecteren, bijvoor
 [![Toegepast filter en importeren voor type bedrijfsdocument](media/rcs-enhanced-filtering-applied.JPG)](./media/rcs-enhanced-filtering-applied.JPG) 
 
 Gefilterde resultaten kunnen in een RCS-opslagplaats van een gebruiker of een Dynamics 365 Finance-omgeving worden geïmporteerd, hetzij afzonderlijk, hetzij als een set. Hiertoe selecteert u de groep configuraties en klikt u op **Importeren.**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

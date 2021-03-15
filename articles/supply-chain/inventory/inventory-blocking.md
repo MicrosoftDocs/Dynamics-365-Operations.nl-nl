@@ -69,3 +69,6 @@ U kunt opgeven welke voorraadstatussen blokkeringsstatussen zijn door de paramet
 [Processen voor kwaliteitsbeheer](quality-management-processes.md)
 
 [Inspecteer de kwaliteit van goederen](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

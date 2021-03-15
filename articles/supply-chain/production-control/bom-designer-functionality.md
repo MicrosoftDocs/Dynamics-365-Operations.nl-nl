@@ -120,3 +120,6 @@ Klik op **Instellingen** om de gegevens aan te passen die in de structuurweergav
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

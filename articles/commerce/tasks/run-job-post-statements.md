@@ -43,3 +43,6 @@ Deze procedure doorloopt de configuratie en uitvoering van een terugkerende batc
 8. Klik op OK.
 9. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

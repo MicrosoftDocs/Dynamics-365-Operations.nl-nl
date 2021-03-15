@@ -62,3 +62,6 @@ Geboekte journaalboekstuk kunnen als boekstuksjablonen worden opgeslagen en toeg
 29. Voer in het veld **Bedrag** het bedrag in dat op het boekstuk moet worden toegepast. Het veld **Bedrag** wordt alleen weergegeven als de boekstuksjabloon van het type Procent is.  
 30. Klik op **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

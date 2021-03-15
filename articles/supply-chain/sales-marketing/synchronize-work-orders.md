@@ -76,3 +76,6 @@ In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Werkorders met Project (Field Service naar Supply Chain Management): WorkOrderService
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSWOP4.png)](./media/FSWOP4.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

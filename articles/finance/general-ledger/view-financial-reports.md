@@ -86,3 +86,6 @@ Als u een financieel rapport wilt exporteren, klikt u in het actievenster op **E
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

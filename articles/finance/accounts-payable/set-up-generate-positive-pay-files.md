@@ -164,3 +164,6 @@ Als u een positief betalingsbestand moet wijzigen, kunt u het intrekken. Selecte
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

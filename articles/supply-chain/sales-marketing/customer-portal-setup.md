@@ -85,3 +85,6 @@ Om uw portals effectief te beheren, moet u inzicht hebben in de Power Apps-porta
 - [Een portal bijwerken](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Portalconfiguratie migreren](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Solution Lifecycle Management: Dynamics 365 voor Customer Engagement-apps](https://www.microsoft.com/download/details.aspx?id=57777)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Als u de standaardkosten voor nieuwe artikelen wilt corrigeren, aanpassen of bij
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -135,3 +135,6 @@ Voordat u een vrije tekst-factuur boekt, kunt u het volledige boekhoudingsjourna
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

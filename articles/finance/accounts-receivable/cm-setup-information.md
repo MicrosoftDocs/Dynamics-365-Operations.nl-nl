@@ -152,3 +152,6 @@ Volg deze stappen om regels toe te voegen die de kredietlimiet aangeven die word
 2. Selecteer de vergelijkingsoperator waarmee wordt gedefinieerd hoe de informatie over de scoregroep moet worden geëvalueerd.
 3. Voer de waarde in die moet worden vergeleken met de waarde die is opgegeven voor de scoregroep.
 4. Voer de kredietlimiet in die moet worden toegewezen als de klantgegevens overeenkomen met de waarde die is opgegeven voor de scoregroep. U kunt bijvoorbeeld een automatische kredietlimiet maken voor de scoregroep **Laag**. Als het aantal jaren in bedrijf een van de scoregroepen is, kunt u één regel definiëren die een kredietlimiet van 100.000 toewijst als de klant vijf jaar in bedrijf is en een andere regel die een kredietlimiet van 200.000 limiet toewijst als de klant 10 jaar in bedrijf is.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

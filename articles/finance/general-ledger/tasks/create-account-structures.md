@@ -60,3 +60,6 @@ Deze taakbegeleiding helpt u bij het maken van een rekeningstructuur. De stappen
 29. Klik in het **actievenster** op **Activeren**.
 30. Klik op **Activeren**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Gebruik deze procedure om een rapporthiërarchie te maken voor organisatierappor
     * Selecteer het dimensielid dat met het knooppunt overeenkomt.  
 59. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

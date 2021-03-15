@@ -242,3 +242,6 @@ Raadpleeg de tabel in het volgende onderdeel voor meer informatie over datummeth
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Voordat u de functie *Extra locatiezone* kunt gebruiken, moet deze zijn ingescha
 7. Selecteer **Maken**.
 8. U ontvangt berichten waarin wordt vermeld dat nieuwe locaties zijn toegevoegd. Klik op de knop **Berichten weergeven** om de berichten weer te geven.
 9. Ga naar **Magazijnbeheer \> Instellingen \> Magazijn \> Locaties**. De nieuwe locaties worden weergegeven in de lijst en alle zonevelden zijn beschikbaar (dat wil zeggen: het bestaande zoneveld en de nieuwe extra zonevelden).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

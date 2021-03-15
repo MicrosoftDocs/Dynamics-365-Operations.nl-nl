@@ -39,3 +39,6 @@ Voordat u producten voor wederverkoop kunt aanbieden in uw handelskanalen, moet 
 4. **Producten toevoegen aan assortimenten.** Een assortiment vertegenwoordigt een verzameling producten die u via uw kanalen aanbiedt. U kunt een of meer assortimenten definiëren en elk product kan aan een of meer assortimenten worden toegewezen. Als u producten aan kanalen wil toewijzen, wijst u de assortimenten toe aan de desbetreffende kanalen. Wanneer u een assortiment maakt, kunt u producten toevoegen die nog niet aan een rechtspersoon zijn vrijgegeven. Voordat de producten aan de kanalen beschikbaar kunnen worden gesteld, moet u de producten echter aan een rechtspersoon vrijgeven.
 5. **Producten toevoegen aan navigatiehiërarchieën.** Voordat producten online of op het verkooppunt (POS) kunnen worden doorgebladerd, moeten ze worden gecategoriseerd in een Commerce-navigatiehiërarchie.
 6. **Producten toevoegen aan catalogi.** Hoewel deze stap optioneel is voor POS, moeten online winkels de producten opnemen in ten minste één catalogus.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

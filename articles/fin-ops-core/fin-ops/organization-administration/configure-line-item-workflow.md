@@ -54,3 +54,6 @@ Volg deze stappen om op te geven of dezelfde workflow wordt gebruikt om alle reg
     6. Klik op **Testen** om te controleren of de door u ingevoerde set voorwaarden correct is ingesteld. Seelecteer op de pagina **Workflowvoorwaarde testen** in het gebied **Voorwaarde valideren** een record en klik op **Testen**. Het systeem evalueert de registratie en bepaalt of het voldoet aan de voorwaarden die u hebt gedefinieerd. Klik op **OK** of **Annuleren** om terug te gaan naar de pagina **Eigenschappen**.
 
     Selecteer op het tabblad **Workflow** de workflow die u wilt gebruiken om regelartikelen te verwerken die aan de set voorwaarden voldoen die u hebt gedefinieerd.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

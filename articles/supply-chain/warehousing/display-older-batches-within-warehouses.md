@@ -39,3 +39,6 @@ De configuratie **Weergave oudere batches in magazijn** is beschikbaar in menuop
 
 - Stel onder **Magazijnbeheer** > **Instellingen** > **Mobiel apparaat** > **Menuopties voor mobiel apparaat** de menuoptie **Bestaand werk gebruiken** in op **Ja** en selecteer **Waarschuwen** in het veld **Oudste batch verzamelen**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -162,3 +162,6 @@ Omwille van prestaties en technische redenen kunnen momenteel alleen aangepaste 
 ### <a name="can-i-reference-custom-fields-from-the-developer-tools"></a>Kan ik naar aangepaste velden verwijzen vanuit de hulpprogramma's voor ontwikkelaars?  
 
 Aangepaste velden kunnen alleen via de gebruikersinterface worden beheerd en er kan niet naar worden verwezen op basis van code. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

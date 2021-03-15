@@ -65,3 +65,6 @@ Met deze instelling kunt u een transportlading bevestigen die een volledige of e
 
 1. Selecteer **Magazijnbeheer** \> **Ladingen** \> **Transportladingen**.
 2. Selecteer in het actievenster op het tabblad **Verzenden en ontvangen** in de groep **Bevestigen** de optie **Transport**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

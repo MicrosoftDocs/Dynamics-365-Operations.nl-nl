@@ -139,3 +139,6 @@ U kunt verschillen in de getelde waarde aanpassen en vervolgens de getelde waard
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

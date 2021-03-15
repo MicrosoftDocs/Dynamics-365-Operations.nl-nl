@@ -52,3 +52,6 @@ U moet ook de doorlooptijd voor het transport tussen de magazijnen instellen op 
 2. Selecteer in het veld **Plaats van ontvangst** **Magazijn**.
 3. Selecteer het **Magazijn van verzending**, **Magazijn van ontvangst**, en **Transportdagen**. 
 4. (Optioneel) U kunt ook de transporttijd, afhankelijk van de leveringsmethode, onder het tabblad **Transportdagen per leveringsmethode** instellen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

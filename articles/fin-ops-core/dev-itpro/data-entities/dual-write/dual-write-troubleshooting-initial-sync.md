@@ -211,3 +211,6 @@ Als rijen in de tabel klant waarden hebben in de kolommen **ContactPersonID** en
     De initiële synchronisatie van de rijen is nu voltooid.
 
 8. Schakel het bijhouden van wijzigingen in voor de tabel **Klanten V3** in de Finance and Operations-app.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

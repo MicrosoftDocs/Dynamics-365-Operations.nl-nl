@@ -61,3 +61,6 @@ Deze procedure laat zien hoe u een standaardstatus voor een productlevenscyclus 
 > [!NOTE]
 > Stel dat u een actieve status hebt ingesteld, dan kunt u nu de actieve status selecteren om toe te staan dat het product wordt gebruikt in de Hoofdplanning en in de berekening op stuklijstniveau. Uiteraard is dit alleen zinvol als de productgegevens zijn opgegeven die vereist zijn voor een consistente planning.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

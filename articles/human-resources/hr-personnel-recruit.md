@@ -225,3 +225,6 @@ U kunt een kandidaat zo nodig ontslaan nadat u deze hebt aangenomen. Een kandida
 [Virtuele Dataverse-entiteiten configureren](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Uw personeel organiseren](hr-personnel-departments-jobs-positions.md)<br>
 [De onderdelen van een taak instellen](hr-personnel-jobs.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

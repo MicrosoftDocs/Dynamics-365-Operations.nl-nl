@@ -69,3 +69,6 @@ De sjabloon voor het catalogusimportbestand is een XSD-bestand dat u kunt gebrui
 3. Selecteer in het dialoogvenster **Opslaan als** de locatie waar u de sjabloon voor het catalogusbestand wilt opslaan, waarna u het bestand opslaat.
 
 Voor meer informatie en voorbeelden verwijzen we naar dit blogbericht: [Leverancierscatalogi in Dynamics AX.](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

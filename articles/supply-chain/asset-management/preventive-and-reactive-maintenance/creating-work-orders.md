@@ -95,3 +95,6 @@ Volg deze stappen om groepering in te stellen voor automatisch gegenereerde werk
 1. Als u wilt dat de opties worden toegepast wanneer u slechts enkele van uw onderhoudsplannen uitvoert, voegt u op het tabblad **Op te nemen records** desgewenst filters toe, net als voor andere batchtaken in Microsoft Dynamics 365 Supply Chain Management.
 1. Stel op het sneltabblad **Uitvoeren op achtergrond** desgewenst batch- en planningsopties in, op dezelfde manier als u doet voor andere batchtaken in Supply Chain Management.
 1. Selecteer **OK** om de geselecteerde onderhoudsplannen uit te voeren en/of te plannen.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

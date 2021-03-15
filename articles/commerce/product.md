@@ -91,3 +91,6 @@ Volg deze stappen om productaanbevelingen in te stellen:
 [Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

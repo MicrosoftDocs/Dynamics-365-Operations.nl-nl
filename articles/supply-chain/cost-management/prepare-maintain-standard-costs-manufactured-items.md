@@ -72,3 +72,6 @@ Als u routegegevens wilt gebruiken voor kostprijsberekening, zijn er extra voorb
 
 [Producten instellen die kunnen worden geproduceerd of kunnen worden aangeschaft](manufactured-items-treated-as-purchased-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

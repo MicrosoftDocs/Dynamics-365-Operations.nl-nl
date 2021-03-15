@@ -36,3 +36,6 @@ Deze procedure laat zien hoe u een menuoptie maakt voor een mobiel apparaat voor
 5. Selecteer Indirect in het veld Modus.
 6. Selecteer Nummerplaten consolideren in het veld Activiteitscode.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

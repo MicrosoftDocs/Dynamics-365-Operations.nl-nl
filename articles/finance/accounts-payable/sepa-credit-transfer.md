@@ -125,3 +125,6 @@ Wanneer u betalingen genereert, wordt het betalingsbestand gegenereerd, en u wor
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

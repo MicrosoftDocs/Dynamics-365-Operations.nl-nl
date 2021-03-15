@@ -76,3 +76,6 @@ In de taakplanning wordt ook gebruikgemaakt van de efficiëntiepercentages die v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

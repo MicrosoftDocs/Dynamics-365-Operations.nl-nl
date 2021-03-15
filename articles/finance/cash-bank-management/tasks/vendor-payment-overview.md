@@ -62,3 +62,6 @@ Deze taakhandleiding leidt u door verschillende methoden die worden gebruikt voo
 33. Klik op **OK** om de betalingen te genereren.
 34. Klik op **Boeken** als alle betalingen zijn goedgekeurd en gegenereerd. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ De volgende procedure beschrijft de relatie tussen activa, werkorders, projecten
 
 7. Als u een overzicht wilt weergeven van de projecten die aan een vast activum zijn gekoppeld, selecteert u **Vaste activa** > **Vaste activa** > **Vaste activa** en selecteert u vervolgens in het veld **Vaste-activanummer** de koppeling naar het vaste activum om de detailweergave te openen. Vouw het deelvenster **Gerelateerde informatie**, rechts van de pagina, uit en selecteer het sneltabblad **Gekoppelde projecten**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

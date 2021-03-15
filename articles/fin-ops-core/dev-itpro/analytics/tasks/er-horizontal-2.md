@@ -51,3 +51,6 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 8. Klik op OK.
     * Controleer de gegenereerde uitvoer. Houd er rekening mee dat het nieuwe Excel-bestand hetzelfde aantal kolommen bevat als voor financiële dimensies zijn ingeschakeld. De rapportkoptekst in deze kolommen geeft de namen van de financiële dimensies weer. De transactieregels in deze kolommen geven de financiële dimensies weer. Voer dit rapport uit en selecteer verschillende dimensies om te zien of het rapport niet afhankelijk is van het geselecteerde aantal dimensies of het aantal dimensies dat voor dit exemplaar is geconfigureerd.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

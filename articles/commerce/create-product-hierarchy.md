@@ -79,3 +79,6 @@ Categoriekenmerkgroepen kunnen ook naar behoefte worden toegewezen aan elke groe
 [Productcategorieën en producten beheren ](category-management-product-creation.md)
 
 [De sorteervolgorde voor entiteiten voor merchandising wijzigen](custom-order-categories-nav-retail-prod-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

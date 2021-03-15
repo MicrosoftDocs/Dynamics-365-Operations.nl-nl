@@ -114,3 +114,6 @@ In de volgende afbeelding ziet u een voorbeeldconfiguratie voor een vrijgegeven 
 [Rechtspersonen maken](channels-legal-entities.md)
 
 [Een variantgroep maken](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

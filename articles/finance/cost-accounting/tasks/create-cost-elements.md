@@ -57,3 +57,6 @@ Er zijn verschillende manieren om kostenelementen in Kostprijsboekhouding te mak
 1. Klik op Dimensieleden weergeven.
     * Geef in uw bedrijf de geïmporteerde grootboekrekeningen als kostenelementen weer om de kosten daarnaartoe te laten stromen.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

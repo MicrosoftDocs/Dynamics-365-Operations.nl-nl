@@ -38,3 +38,6 @@ Deze procedure laat zien hoe u een inkooporder kunt maken voor een eenmalige lev
 5. Klik op OK.
     * De inkooporder kan nu worden voltooid en verwerkt als elke andere order. Er zijn geen speciale kenmerken verbonden aan hoe dit gebeurt. Op de factuur wordt een transactie voor de leveranciersrekening aangegeven die met de order is gemaakt, waarna de betaling wordt verwerkt.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

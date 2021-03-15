@@ -101,3 +101,6 @@ Bij het uitvoeren van de hoofdplanning worden twee geplande orders gemaakt: een 
 > Nadat een geplande order die is vastgelegd voor een opdracht tot inkoop is gefiatteerd, bewaart de planningsengine de behoeftetracering voor de opdracht tot inkoop. Als later wordt geconstateerd dat in de gefiatteerde order een bepaalde hoeveelheid ontbreekt die nodig is om aan de opdracht tot inkoop te voldoen, wordt een nieuwe geplande order gemaakt voor het verschil.
 
 Zie [Overzicht van opdrachten tot inkoop](../../procurement/purchase-requisitions-overview.md) voor meer informatie over opdrachten tot inkoop.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

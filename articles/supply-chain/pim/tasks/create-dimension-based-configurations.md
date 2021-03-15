@@ -52,3 +52,6 @@ Deze procedure laat zien hoe u een configuratie voor een op dimensies gebaseerd 
     * Voer een omschrijving van de configuratie in om uit te leggen wat deze bevat.  
 11. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

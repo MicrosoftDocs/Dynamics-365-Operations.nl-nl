@@ -66,3 +66,5 @@ Wervingsprojecten kunnen u helpen uw wervingsproces te beheren. Nadat u een werv
 32. Selecteer **Status wervingsproject**.
 33. Selecteer **Starten**. De status **Gestart** betekent dat het project klaar is om sollicitaties te ontvangen.  
 34. Selecteer **OK**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

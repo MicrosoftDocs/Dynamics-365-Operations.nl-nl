@@ -49,3 +49,6 @@ Hoewel de functionele validatie van een ERP-toepassing niet volledig gegevensagn
     - Valideer alleen nadat u op een bepaalde transactie hebt gefilterd in plaats van algemene validatie. Filter bijvoorbeeld voor het aantal records op het transactienummer of de transactiedatum, zodat alle overige transacties worden uitgesloten. 
     - Als u een klantsaldo of een budgetcontrole controleert, slaat u eerst de waarde op en voegt u vervolgens uw transactiewaarde toe om het verwachte resultaat te valideren, in plaats van een vaste verwachte waarde te valideren. 
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

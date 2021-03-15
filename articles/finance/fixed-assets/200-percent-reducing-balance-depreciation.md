@@ -89,3 +89,6 @@ Bij de methode 200% degressieve afschrijving wordt 200 procent door het aantal j
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

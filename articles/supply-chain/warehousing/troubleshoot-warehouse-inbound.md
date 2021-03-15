@@ -64,3 +64,6 @@ Met een nieuwe functie voor verwerking van inkomende ladingen, *Meerontvangst vo
 1. Te grote ontvangst van laadhoeveelheden
 
 Zie [Geregistreerde ladinghoeveelheden boeken op inkooporders](inbound-load-handling.md#post-registered-quantities) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

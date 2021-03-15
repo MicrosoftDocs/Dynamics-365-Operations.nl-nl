@@ -62,3 +62,6 @@ Deze procedure laat zien hoe u een maateenheid kunt definiëren, vertalingen voo
 6. Klik op **OK**.
 7. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

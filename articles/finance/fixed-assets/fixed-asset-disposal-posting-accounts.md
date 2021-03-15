@@ -42,3 +42,6 @@ Door de afboekingstransactie voor een activum in een groep met lage waarden, wor
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

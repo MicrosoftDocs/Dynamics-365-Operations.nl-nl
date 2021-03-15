@@ -69,3 +69,6 @@ In de volgende afbeelding ziet u een voorbeeld van een e-commerce uitcheckpagina
 [Orderbevestigingsmodule](order-confirmation-module.md)
 
 [Module voor orderdetails](account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

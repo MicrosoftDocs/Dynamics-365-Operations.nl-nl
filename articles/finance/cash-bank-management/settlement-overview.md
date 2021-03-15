@@ -77,3 +77,6 @@ Wanneer u een transactie probeert te vereffenen, ziet u mogelijk een symbool dat
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Restbedrag vereffenen](settle-remainder.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

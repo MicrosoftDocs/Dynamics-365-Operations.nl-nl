@@ -44,3 +44,6 @@ Zo ook kunnen in de kolom **Status van derden** de volgende waarden worden weerg
 In het onderstaande diagram ziet u beide sets statuswaarden en de relatie tussen deze twee sets.
 
 [ ![Statuswaarden van experimenten](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

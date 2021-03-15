@@ -44,3 +44,6 @@ Indien u geen tijdvenster opgeeft voor een serviceovereenkomstregel, moet de ser
 
 [Tijdvensters maken](create-time-windows.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

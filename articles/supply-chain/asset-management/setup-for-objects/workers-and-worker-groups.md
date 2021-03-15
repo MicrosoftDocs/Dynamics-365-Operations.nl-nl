@@ -63,3 +63,6 @@ U kunt ook groepen onderhoudsmedewerkers maken en hieraan onderhoudsmedewerkers 
 6. Als een resourcegroep moet worden gerelateerd aan de geselecteerde onderhoudsmedewerkersgroep, selecteert u **Kopiëren uit resourcegroep**. Selecteer in het veld **Groep** de resourcegroep waarvan u de kalenderinstellingen wilt kopiëren. Selecteer vervolgens in het veld **Medewerkersgroep** de medewerkersgroep waar u de kalenderinstellingen van de resourcegroep naartoe wilt kopiëren. Deze stap is alleen relevant als u wilt dat onderhoudsmedewerkers de kalender gebruiken die is gerelateerd aan een resource (werkplaats) tijdens de planning van de werkorder.
 
     Het veld op het sneltabblad **Details** toont het aantal groepen onderhoudsmedewerkers dat is ingesteld voor de geselecteerde groep onderhoudsmedewerkers.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

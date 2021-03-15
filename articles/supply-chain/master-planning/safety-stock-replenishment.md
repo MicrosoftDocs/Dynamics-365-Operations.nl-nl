@@ -115,3 +115,6 @@ De prioriteit van het afhandelen van transacties voor de vereiste van de veiligh
 Tijdens de behoefteplanningsfase van de hoofdplanning geldt de lagere prioriteit voor aanvulling van de veiligheidsvoorraad niet meer. Voorhanden voorraad kan worden gebruikt vóór alle andere vraagsoorten. Tijdens de berekening van vertraging wordt er nieuwe logica toegevoegd om de vertraagde verkoopregels, stuklijstregelbehoeften en alle andere soorten vraag te analyseren en te bepalen of een tijdige levering mogelijk is als de veiligheidsvoorraad wordt gebruikt. Als wordt vastgesteld dat vertragingen kunnen worden beperkt met veiligheidsvoorraad, wordt veiligheidsvoorraad gebruikt om te voorzien in de behoeften op de verkoop- of stuklijstregels en wordt vervolgens de veiligheidsvoorraad aangevuld.
 
 Als het plan of artikel niet is ingesteld voor de berekening van vertraging, heeft de beperking van veiligheidsvoorraad dezelfde prioriteit als andere soorten vraag. Dit betekent dat er een reserve voor voorhanden voorraad en andere beschikbare voorraad bestaat voor andere soorten vraag.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

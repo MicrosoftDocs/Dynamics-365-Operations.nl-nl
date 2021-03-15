@@ -90,3 +90,6 @@ Als u de stappen in deze procedure wilt voltooien, moet u eerst de procedure "ER
  30. Selecteer Ja in het veld Voorafmelding maken toestaan voor inactieve bankrekeningen:.  
  31. Klik op Opslaan.  
  32. Sluit de pagina.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

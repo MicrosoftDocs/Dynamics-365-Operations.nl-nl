@@ -55,3 +55,6 @@ De rol van deze taakbegeleidingen is penningmeester. Bij deze taak wordt het dem
 16. Sluit de pagina.
 17. Klik op het tabblad Gepostdateerde cheques.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

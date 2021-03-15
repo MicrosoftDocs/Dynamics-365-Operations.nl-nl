@@ -137,3 +137,6 @@ Soms moet u de kredietlimiet van de klant handmatig controleren. U zou bijvoorbe
 1.  Klik op **Verkoop en marketing** \> **Algemeen** \> **Verkooporders** \> **Alle verkooporders**. Dubbelklik op een verkooporder.
 
 2.  Klik in het formulier **Verkooporder** in het actievenster op het tabblad **Beheren** op **Kredietlimiet controleren**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

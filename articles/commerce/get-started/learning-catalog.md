@@ -140,3 +140,6 @@ Zoek de juiste online training, persoonlijk workshops en evenementen voor uw rol
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

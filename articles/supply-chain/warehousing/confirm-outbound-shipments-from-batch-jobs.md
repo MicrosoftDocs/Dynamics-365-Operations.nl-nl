@@ -53,3 +53,6 @@ Een geplande batchtaak instellen voor het uitvoeren van de bevestiging van de ui
 1. Selecteer **OK** in het dialoogvenster **Verzending bevestigen** om de batchtaak aan de batchwachtrij toe te voegen.
 
 Zie voor meer informatie [Overzicht van batchverwerking](../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

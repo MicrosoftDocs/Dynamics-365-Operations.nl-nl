@@ -39,3 +39,6 @@ Als u probeert een verkoophoeveelheid (veld **SalesQty**) voor een artikel van h
 
 U kunt geen verkoophoeveelheid instellen voor producten die serviceartikelen zijn. Als u bijvoorbeeld een service voor het installeren van een artikel aanbiedt, is het niet zinvol om een hoeveelheid vast te leggen, omdat er geen fysiek artikel is. Er is alleen een service.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

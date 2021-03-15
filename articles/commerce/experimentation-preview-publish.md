@@ -59,3 +59,6 @@ Wanneer u publicatiegroepen gebruikt bij experimenten, moet u rekening houden me
 
 ## <a name="next-step"></a>Volgende stap
 [Een experiment uitvoeren en controleren](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

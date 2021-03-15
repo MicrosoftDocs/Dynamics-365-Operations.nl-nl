@@ -72,3 +72,6 @@ Wanneer u de geconfigureerde ER-indeling uitvoert, wordt de gekoppelde Word-sjab
 
 - [ER-configuraties opnieuw gebruiken met Excel-sjablonen om rapporten te genereren in Word-indeling](./tasks/er-design-configuration-word-2016-11.md)
 - [Afbeeldingen en vormen insluiten in documenten die u genereert met ER](electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

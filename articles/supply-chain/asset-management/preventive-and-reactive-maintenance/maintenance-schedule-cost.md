@@ -53,3 +53,6 @@ In de onderstaande afbeelding ziet u de resultaten van de kostenberekening van e
 
 ![Figuur 1](media/17-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

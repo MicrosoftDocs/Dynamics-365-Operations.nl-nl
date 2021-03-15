@@ -58,3 +58,6 @@ Deze procedure laat zien hoe u een kanbanregel kunt maken die meerdere activitei
     * Merk op dat de kanban twee procestaken van de productiestroom bevat. De eerste is SpeakerAssemblyAndPolish, en de tweede is SpeakerTestAndPackaging.  
     * Dit is de laatste stap.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

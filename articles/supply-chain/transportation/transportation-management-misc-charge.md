@@ -30,3 +30,6 @@ Zoals met alle diverse toeslagen, moeten door transport veroorzaakte toeslagen w
 Ga naar **Transportbeheer > Instellingen > Beoordeling > Diverse toeslagen** om de kwalificatiecriteria te definiëren die bepalen wanneer een specifieke **toeslagcode** op een toeslag wordt toegepast.
 
 U moet minimaal één instellen voor elke relevante **Toeslagmodule**-instelling (*Klant* en *Leverancier*) waarvoor **Type diverse toeslagen** is ingesteld op *Geen*. Als deze ontbreekt, worden het diverse toeslagbedag *niet* aan de order toegevoegd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

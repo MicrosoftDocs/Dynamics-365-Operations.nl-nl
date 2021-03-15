@@ -153,3 +153,6 @@ De rekening die is geselecteerd voor elk onkostentype wordt gedebiteerd wanneer 
 
 > [!NOTE]
 > De tegenrekening wordt geselecteerd op het leaseniveau op de regels voor het betalingsschema administratieve kosten. Deze tegenrekening kan aan de leverancier of aan een grootboekrekening zijn gekoppeld.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

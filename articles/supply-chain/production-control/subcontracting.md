@@ -302,3 +302,6 @@ Er wordt een productieorder van 10 stuks gemaakt voor het product D8100, Kast me
     ![Kostenvergelijkingsdiagrammen](./media/subcontract35_cost-comparison-charts.png)
 
 Ontbrekende instellingen in gegevens.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

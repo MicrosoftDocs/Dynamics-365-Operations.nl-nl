@@ -107,3 +107,6 @@ In de volgende schermopname ziet u een voorbeeld van berekeningsresultaten in **
 ![Voorbeeld van berekeningsresultaten in Datumbeheer werkorder](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

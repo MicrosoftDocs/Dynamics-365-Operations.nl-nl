@@ -45,3 +45,6 @@ Voer de volgende stappen uit om een vast activum opnieuw te classificeren:
 5. Typ een datum in het veld **Datum herclassificatie**.
 6. Typ of selecteer een waarde in het veld **Boekstuknummering**.
 7. Klik op **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

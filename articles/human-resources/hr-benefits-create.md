@@ -53,3 +53,6 @@ Deze taak laat zien hoe u vergoedingselementen maakt die worden gebruikt bij het
 6. Typ in het veld Begindatum de datum en een tijd.
 7. Klik op Vergoeding maken.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

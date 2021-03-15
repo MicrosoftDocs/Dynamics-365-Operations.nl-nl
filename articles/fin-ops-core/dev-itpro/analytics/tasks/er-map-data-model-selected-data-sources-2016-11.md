@@ -146,3 +146,6 @@ In de volgende stappen wordt uitgelegd hoe een gebruiker met de rol van systeemb
 5. Selecteer de ingevulde versie van de huidige configuratie.
     * Merk op dat de gemaakte configuratie wordt opgeslagen als voltooide versie 1.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

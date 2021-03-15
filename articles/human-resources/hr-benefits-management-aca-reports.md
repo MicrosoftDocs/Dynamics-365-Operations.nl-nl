@@ -207,3 +207,6 @@ De dekkingsinformatie voor de afhankelijken van de werknemer wordt weergegeven.
 
 > [!NOTE]
 > Op de pagina worden alleen vergoedingsplannen weergegeven die zijn gemarkeerd als **Aan te geven onder ACA**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

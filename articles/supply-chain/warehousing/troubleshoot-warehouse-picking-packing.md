@@ -109,3 +109,6 @@ Wanneer u het proces *Door systeem gestuurde clusterverzameling* gebruikt en een
 ### <a name="issue-resolution"></a>Probleemoplossing
 
 U kunt dit probleem oplossen door het clusterprofiel te bewerken en de optie **Posities activeren** in te stellen op *Nee*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

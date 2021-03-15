@@ -70,3 +70,6 @@ In deze procedure worden als voorbeeld verfproducten gebruikt om aan te geven ho
 8. Gebruik het snelfilter om te filteren op het veld Artikelnummer met de waarde 'P300'.
     * De orders worden nu geordend op basis van de prioriteit van grootte en kleur en het begin van de geplande orders op de vroegste orderdatum en leveringsdatum. Valideer de kolom Orderdatum of de begindatum in het feitenvak Schemadetails.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

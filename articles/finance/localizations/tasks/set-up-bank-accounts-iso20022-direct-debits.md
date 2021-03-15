@@ -68,3 +68,6 @@ Dit is de vierde van vijf taken die het proces voor klantenbetalingen toelichten
 8. Klik op OK.
 9. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Als u de oplossing Field Service-integratie wilt gebruiken, moet u de volgende o
 - Field Service (versie 8.2.0.286) of een latere versie van Dynamics 365 9.1.x - uitgebracht in november 2018
 - De oplossing Prospect naar contant geld (P2C) voor Dynamics 365, versie 1.15.0.1 of een hogere versie. De oplossing kan worden gedownload van [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
 - De oplossing Field Service-integratie, -project en -voorraad voor Dynamics 365, versie 2.0.0.0 of een hogere versie. De oplossing kan worden gedownload van [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

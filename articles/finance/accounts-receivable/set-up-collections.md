@@ -114,3 +114,6 @@ Zie de volgende onderwerpen voor meer informatie:
 
  - [Incassogegevens controleren](tasks/review-collections-information.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

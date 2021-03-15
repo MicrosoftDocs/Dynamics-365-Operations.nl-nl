@@ -49,3 +49,6 @@ Er zijn bijvoorbeeld 5.001 vaste-activa-id's, drie boeken worden gekoppeld aan e
 
 > [!Note] 
 > Als de parameter **Afschrijving samenvatten** is ingeschakeld wanneer u een afschrijvingsvoorstel maakt, heeft de waarde in het veld **Aantal boeken per journaal - Afschrijvingsvoorstel** geen effect. In dit geval is het aantal boeken per journaal 6000. Dit is de intern gedefinieerde limiet.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -99,3 +99,6 @@ De APQC Unified Library (augustus 2016, alle talen) bevat de taakbegeleidingen d
 [Nieuwe of bijgewerkte taakbegeleidingen (mei 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Nieuwe of bijgewerkte taakbegeleidingen (november 2016)](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

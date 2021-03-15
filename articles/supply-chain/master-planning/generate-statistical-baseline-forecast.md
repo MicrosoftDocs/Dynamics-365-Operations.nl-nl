@@ -77,3 +77,6 @@ Als de prognose niet wordt gegenereerd voor een grote set artikelen, maar bijvoo
 - [Handmatige correcties aanbrengen in de basislijnprognose](manual-adjustments-baseline-forecast.md)
 
 - [Een gecorrigeerde vraagprognose autoriseren](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

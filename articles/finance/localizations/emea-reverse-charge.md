@@ -136,3 +136,6 @@ De volgende pagina's en menuopdrachten die betrekking hebben op de instellingen 
  - **Parameters voor buitenlandse handel** (**Belasting** > **Instellingen** > **Btw** > **Buitenlandse handel** > **Parameters voor buitenlandse handel**). Zie [Land-/regio-eigenschappen instellen](#Set-up-Country/region-properties).
 
 Het selectievakje **Omgekeerde toeslag** is beschikbaar op de pagina's **Btw-groep** en **Geboekte btw**. Zie [Btw-groepen en artikelgroepen voor btw instellen](#sales-tax-item-sales-tax-groups), [Omgekeerde toeslag op een verkoopfactuur](#reverse-charge-sale) en [Omgekeerde toeslag op een verkoopfactuur](#reverse-charge-purchase).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

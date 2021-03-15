@@ -106,3 +106,6 @@ Voer de volgende stappen uit om een URL om te leiden naar een andere URL.
 [Uw domeinnaam configureren](configure-your-domain-name.md)
 
 [Talen toevoegen aan uw site](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

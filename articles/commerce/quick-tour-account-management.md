@@ -95,3 +95,6 @@ Zie [Accountbeheer](account-management.md) voor meer informatie over accountbehe
 
 [Overzicht van pagina's met winkelwagen en kassa](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

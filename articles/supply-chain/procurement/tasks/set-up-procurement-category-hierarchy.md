@@ -44,3 +44,6 @@ Deze procedure laat zien hoe u nieuwe knooppunten in een hiërarchie van aanscha
 4. Selecteer de producten die u wilt toevoegen aan de aanschaffingscategorie.
 5. Selecteer de pijl om de producten aan de tabel **Geselecteerd** toe te voegen.
 6. Selecteer **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

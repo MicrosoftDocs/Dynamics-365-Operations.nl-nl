@@ -72,3 +72,6 @@ In de weergave **Magazijnorderregels** kunt u de voortgang van de inkomende ontv
 
 - Ga naar **Magazijnbeheer \> Query's en rapporten \> Magazijnorderregels** en gebruik het filter om te zoeken naar regels.
 - Ga naar **Inkoopbeheer \> Inkooporders \> Alle inkooporders** en open de relevante inkooporder. Selecteer in de sectie **Inkooporderregels** een of meer regels en selecteer op de werkbalk **Magazijn \> Magazijnontvangstbonnen**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

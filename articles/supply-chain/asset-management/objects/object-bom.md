@@ -83,3 +83,6 @@ U kunt handmatig artikelregels voor activa maken.
 5. Als het artikel vervalt, geeft u een einddatum op in het veld **Vervaldatum**.
 6. Selecteer het artikel in het veld **Artikelnummer**. De naam wordt automatisch in het veld **Productnaam** ingevoerd.
 7. Voer in het veld **Hoeveelheid** de gebruikte hoeveelheid in. Het veld **Eenheid** wordt automatisch bijgewerkt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

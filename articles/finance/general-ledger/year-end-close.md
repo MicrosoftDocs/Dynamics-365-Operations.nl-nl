@@ -87,3 +87,6 @@ Zie [Het grootboek aan het einde van de periode afsluiten](close-general-ledger-
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

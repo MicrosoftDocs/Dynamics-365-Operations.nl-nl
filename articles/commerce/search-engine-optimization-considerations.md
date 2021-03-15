@@ -55,3 +55,6 @@ Omdat Dynamics 365 Commerce ondersteuning biedt voor WYSIWYG-voorbeelden in visu
 [Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie](add-telemetry.md)
 
 [Beveiligingsbeleid voor inhoud (CSP) beheren](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

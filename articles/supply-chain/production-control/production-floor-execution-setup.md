@@ -79,3 +79,6 @@ In het bovenste gedeelte van de volgende afbeelding ziet u hoe de interface er s
 Standaard wordt de uitvoeringsinterface van de werkvloer afgemeld als niemand deze gedurende 12 uur gebruikt. Een gebruiker van Supply Chain Management moet zich vervolgens opnieuw aanmelden. U kunt de time-outlimiet echter uitbreiden naar maximaal 90 dagen.
 
 Als u de time-outlimiet wilt uitbreiden, meldt u zich aan bij Supply Chain Management en gaat u naar **Systeembeheer \> Gebruikers \> Sessieverlengingen**. Geef de gebruikersaccount voor Supply Chain Management op die wordt gebruikt om u aan te melden bij het apparaat en het aantal uren dat de sessie actief moet blijven.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

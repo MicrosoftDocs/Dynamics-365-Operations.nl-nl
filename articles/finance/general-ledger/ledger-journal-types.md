@@ -67,3 +67,6 @@ Dit onderwerp beschrijft de journaaltypes die u kunt instellen voor financiële 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

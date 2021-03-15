@@ -97,3 +97,6 @@ In de volgende afbeelding ziet u een voorbeeld van het resulterende diagram.
 ![Visualisatie van zone vs. werkstatus](media/work-viz-chart.png "Visualisatie van zone vs. werkstatus")
 
 Dit diagram toont twee zones met de naam **VERDIEPING** en **BULK**, plus een zone met de naam **Leeg**. De **lege** zone vertegenwoordigt alle werkregels die geen deel uitmaken van een zone. In het diagram worden altijd alle niet-gerelateerde gefilterde gegevens als **Leeg** weergegeven, zodat u zo veel mogelijk inzicht krijgt. In de **VERDIEPING**-zone worden in het diagram drie afgesloten regels en vier openstaande regels weergegeven. In de **BULK**-zone worden in het diagram vier afgesloten regels, één openstaande regel en 24 geannuleerde regels weergegeven. Tot slot worden in het diagram acht afgesloten regels weergegeven die geen deel uitmaken van een zone en die dus **leeg** zijn.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

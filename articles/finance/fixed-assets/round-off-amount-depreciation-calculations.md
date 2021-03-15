@@ -49,3 +49,6 @@ Afschrijving zonder afronding wordt berekend als 2444,44. Zoals te zien in de vo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Deze procedure is gericht op de instelling van een beschikkingscode die op een m
 6. Typ een waarde in het veld Beschikkingscode retourneren.
     * De retourbeschikkingscode definieert de rest van het retourorderproces voor de geregistreerde artikelen. In dit voorbeeld moet de klant een creditnota ontvangen. Voeg een retourbeschikkingscode toe die een actiecredit bevat.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

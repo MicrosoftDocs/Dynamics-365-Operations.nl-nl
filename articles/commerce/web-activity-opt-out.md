@@ -55,3 +55,6 @@ Beheerders kunnen geverifieerde gebruikers zichzelf laten afmelden voor het verz
 ### <a name="custom-extensions"></a>Aangepaste extensies
 
 Beheerders kunnen hun eigen extensies maken om de afmelding voor gebruikers te beheren. Zie [Retail Server-API's aanroepen](e-commerce-extensibility/call-retail-server-apis.md) en [Uitbreidbaarheid van online afzetkanaal](e-commerce-extensibility/overview.md). voor meer informatie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Deze procedure toont de instellingen die nodig zijn om een kanbanregel voor opna
     * Hierdoor worden twee kanbans gemaakt.  
     * Voor deze opnamekanbanregel werden er 2 kanbans gemaakt, voor elk 5.  Dit is de laatste stap in deze procedure.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

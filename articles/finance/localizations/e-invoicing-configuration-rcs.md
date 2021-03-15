@@ -290,3 +290,6 @@ Wanneer een elektronische factureringsfunctie van een andere is afgeleid, werkt 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Elektronische facturen uitgeven in Finance en Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

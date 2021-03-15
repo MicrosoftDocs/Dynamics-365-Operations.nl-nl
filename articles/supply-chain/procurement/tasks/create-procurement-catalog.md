@@ -65,3 +65,6 @@ In dit onderwerp wordt uitgelegd hoe u een aanschaffingscatalogus maakt. Deze ta
 7. Selecteer **Toevoegen aan regels**.
 8. Selecteer **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

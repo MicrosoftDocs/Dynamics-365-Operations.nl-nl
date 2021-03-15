@@ -54,3 +54,6 @@ Als u het nummer van de vaste activa niet hebt gedefinieerd in de sjabloon van d
 
 > [!WARNING]
 > De vaste-activarecord wordt niet verwijderd als er transacties naar het gekoppelde boek worden geboekt of als het nieuwe vaste activum op een journaalregel wordt ingevoerd maar niet wordt geboekt. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

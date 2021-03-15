@@ -72,3 +72,6 @@ In dit artikel wordt uitgelegd hoe u de resultaten van het geschiktheidsproces w
    | **Resulterende status** | Dit komt wel of niet in aanmerking. De status van het resultaat komt niet in aanmerking als de werknemer niet voldoet aan de criteria voor de geschiktheidsregel, als er vereiste informatie ontbreekt voor de werknemer, zoals een betalingsfrequentie of vaste compensatie, of als er gegevens ontbreken in het vergoedingsplan waardoor werknemers niet kunnen worden ingeschreven. |
    | **Resulterend bericht** | Geeft aan waarom een werknemer niet in aanmerking komt voor een vergoedingsplan of is geslaagd voor een geschiktheidsregel. |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

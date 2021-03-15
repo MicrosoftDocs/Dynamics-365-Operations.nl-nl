@@ -98,3 +98,6 @@ Wanneer u een voorbeeld bekijkt van pagina's die zijn gebaseerd op de sjabloon w
 
 [Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

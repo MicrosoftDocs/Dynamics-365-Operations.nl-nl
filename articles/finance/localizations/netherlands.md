@@ -32,3 +32,6 @@ Dit onderwerp bevat koppelingen naar documentatiebronnen voor Nederland.
 - [Elektronische belastingaangiften (EVAT)](tasks/nl-00010-electronic-tax-declarations-evat.md)
 - [Semansys XBRL-integratie](tasks/nl-00003-semansys-xbrl-integration.md)
 - [Auditfile (XML Auditfile Financieel, XAF)](emea-nl-audit-file.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

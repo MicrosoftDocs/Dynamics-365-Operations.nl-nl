@@ -41,3 +41,6 @@ Deze procedure laat zien hoe u een nieuw productmodel maakt met op dimensies geb
     * Selecteer de op dimensies gebaseerde configuratietechnologie.  
 9. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

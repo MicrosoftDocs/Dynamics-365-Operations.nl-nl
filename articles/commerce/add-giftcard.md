@@ -93,3 +93,6 @@ Zie [Kassamodule](add-checkout-module.md) voor instructies over het toevoegen va
 [Ondersteuning voor externe geschenkbonnen](./dev-itpro/gift-card.md)
 
 [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -100,3 +100,6 @@ In de volgende afbeelding ziet u een grafisch overzicht van de verschillende pro
 
 ![Figuur 6](media/06-integration-to-pma.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

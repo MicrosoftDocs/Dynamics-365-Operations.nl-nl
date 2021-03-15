@@ -88,3 +88,6 @@ In dit geval worden de twee voorhanden stuks van artikelnummer COMP meegenomen. 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

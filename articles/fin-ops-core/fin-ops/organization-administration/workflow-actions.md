@@ -141,3 +141,6 @@ Wanneer een fiatteur een wijziging in een document aanvraagt, wordt het document
 Stel dat Sam een onkostennota van EUR 12.000 heeft ingediend, die is toegewezen aan Suzan. Als Suzan een wijziging aanvraagt, wordt de onkostennota teruggestuurd naar Sam.
 
 Sam kan de onkostennota opnieuw indienen. Hij kan eerst de gevraagde wijzigingen aanbrengen of de oorspronkelijke versie van de onkostennota opnieuw indienen. Als Sam de onkostennota opnieuw indient, wordt het ter goedkeuring naar Frank verzonden omdat hij de eerste fiatteur in het goedkeuringsproces is.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

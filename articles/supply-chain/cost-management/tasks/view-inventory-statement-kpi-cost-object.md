@@ -38,3 +38,6 @@ Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is
 7. Voer een datum in het veld Begindatum in.
 8. Voer een datum in het veld Einddatum in.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

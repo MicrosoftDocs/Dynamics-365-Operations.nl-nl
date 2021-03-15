@@ -114,3 +114,6 @@ De resultaten verschillen vanwege de informatie die beschikbaar is wanneer u het
 [![Voorbeeld 2](media/ReplenTemp_example_2.png "Voorbeeld 2")](media/ReplenTemp_example_2_large.png)
 
 Als u de maximumhoeveelheid wilt ophalen voor de aangevulde locaties, moet u daarom de optie **Splitsen toestaan** op *Ja* instellen in de locatie-instructies voor het verzamelen van de aanvulling.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

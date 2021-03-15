@@ -86,3 +86,6 @@ Voor invoer van verkooporderregels is het standaardgedrag als volgt: open de pag
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Deze taakregistratie behandelt de basisstappen voor het maken van een letsel- of
 36. Klik op Opslaan.
     * De casestatus kan op elk moment worden bijgewerkt.  Stel de case in op In behandeling, als de verwerking van het letsel of de ziekte in behandeling is.  Zodra u het incident afsluit, kunt u alleen kosten, behandelingen of registraties toevoegen of verwijderen die met het incident te maken hebben.  Om andere informatie te wijzigen, opent u de case opnieuw.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

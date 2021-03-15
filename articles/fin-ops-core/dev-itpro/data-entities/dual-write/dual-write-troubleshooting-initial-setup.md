@@ -88,3 +88,6 @@ Mogelijk wordt het volgende foutbericht weergegeven wanneer u toewijzingen probe
 *Fout met twee keer wegschrijven - Registratie van invoegtoepassing mislukt: \[(Kan partitietoewijzing voor project DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea niet ophalen. Fout: de maximum toegestane partities overschreden voor toewijzing DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], Er zijn een of meer fouten opgetreden.*
 
 De huidige limiet voor het koppelen van de omgevingen is ongeveer 40 rechtspersonen. Deze fout treedt op als u toewijzingen probeert in te schakelen en er meer dan 40 rechtspersonen tussen de omgevingen zijn gekoppeld.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

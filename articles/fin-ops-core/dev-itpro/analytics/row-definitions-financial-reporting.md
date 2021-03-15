@@ -187,3 +187,6 @@ Om het gemakkelijker te maken om de kolommen waarin u werkt in de rijdefinitie w
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Financiële rapportage](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

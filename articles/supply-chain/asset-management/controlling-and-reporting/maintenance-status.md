@@ -67,3 +67,6 @@ In de volgende afbeelding is informatie over functionele locaties toegevoegd. Nu
 
 ![Voorbeeld van maandelijkse werkbelasting met functionele locaties](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -231,3 +231,6 @@ De volgende rollen bieden alleen-lezentoegang of tot de bijlageviewer voor deze 
 + **Leveranciersmedewerker** en **Leveranciersmanager** : de functie Leveranciersfacturen onderhouden is toegewezen aan deze rollen.
 
 Als de gebruikersrol bewerkingsrechten op een pagina biedt, heeft de gebruiker standaard ook bewerkingsrechten voor de bijlagenviewer voor de acties markeren, blokkeren en aantekeningen. Als er echter scenario's zijn waarin een specifieke rol moet beschikken over bewerkingsrechten voor de pagina, maar niet voor de bijlageviewer, kunnen de betreffende bevoegdheden uit de voorgaande lijst worden gebruikt om te voldoen aan de use-case.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

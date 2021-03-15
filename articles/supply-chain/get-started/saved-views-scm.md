@@ -112,3 +112,6 @@ In de volgende tabel worden de opgeslagen weergaven beschreven die beschikbaar z
 | Alle waves | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergave voor de verwerking van waves |
 | Workbench ladingplanning | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergave voor de workbench werkplanning |
 | Werkgegevens | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergave voor de pagina Werkgegevens |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

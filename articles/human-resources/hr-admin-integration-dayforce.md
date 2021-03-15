@@ -676,3 +676,6 @@ Werknemers kunnen paspoortgegevens opgeven. Deze informatie is van het identific
 
 Werknemers kunnen meerdere identificatienummers van het identificatietype **Paspoort** opgeven. Echter alleen de huidige actieve paspoortvermelding wordt geïntegreerd in Dayforce. Als alle paspoortvermeldingen zijn verlopen, wordt het paspoort dat als laatste is uitgegeven geïntegreerd in Dayforce.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

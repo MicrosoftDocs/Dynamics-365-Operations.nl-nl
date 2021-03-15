@@ -166,3 +166,6 @@ U kunt transacties ongedaan maken en opnieuw invoeren. Als u een transactie onge
 2. Klik op **Ja** als het bericht "Als u dit salarisoverzicht omkeert, wordt een omgekeerd salarisoverzicht gemaakt als tegenboeking voor dit salarisoverzicht. Geen van beide salarisoverzichten kan worden bewerkt. Wilt u dit salarisoverzicht omkeren? wordt getoond. 
 
 Na het omkeren van het salarisoverzicht kunt u een nieuw salarisoverzicht genereren voor de werknemer uit het inkomstenoverzicht dat u eerder hebt gemaakt. Zorg ervoor dat u onjuiste regels uit het inkomstenoverzicht corrigeert voordat u het nieuwe salarisoverzicht genereert en genereer vervolgens nieuwe salarisoverzichten met de juiste bedragen. 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

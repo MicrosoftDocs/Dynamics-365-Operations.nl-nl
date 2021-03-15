@@ -207,3 +207,6 @@ In de ontwerper van het knoppenraster kunt u knoppenrasters configureren die kun
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [De indelingsontwerper voor Retail-verkooppunten (POS) installeren](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

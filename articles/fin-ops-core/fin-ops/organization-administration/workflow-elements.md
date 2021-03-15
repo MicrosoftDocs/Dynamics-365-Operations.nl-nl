@@ -89,3 +89,6 @@ Een *parallelle activiteit* is een workflowelement dat twee of meer workflowvert
 ### <a name="subworkflow"></a>Subworkflow
 
 Een *subworkflow* is een workflow die wordt uitgevoerd in de context van een andere workflow.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

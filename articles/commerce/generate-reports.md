@@ -137,3 +137,6 @@ Ga als volgt te werk om een rapport **Verkoop van organisatie** te genereren.
 ## <a name="additional-resources"></a>Aanvullende resources
 
 - [Startpagina Commerce](../retail/index.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

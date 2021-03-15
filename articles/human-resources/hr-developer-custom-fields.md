@@ -40,3 +40,5 @@ Zorg ervoor dat aangepaste velden die u maakt, worden ingeschakeld, zodat u ze k
 [Dataverse-tabellen](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities)</br>
 [Maken en werken met aangepaste velden](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields)</br>
 [Aangepaste velden in gegevensentiteiten weergeven](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/user-defined-fields#exposing-custom-fields-on-data-entities)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

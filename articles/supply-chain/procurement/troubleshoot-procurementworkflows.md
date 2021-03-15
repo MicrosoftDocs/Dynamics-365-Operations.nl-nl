@@ -79,3 +79,6 @@ Nadat u inkooporders hebt geannuleerd die de status *Bevestigd* hadden, worden d
 
 Dit probleem doet zich alleen voor bij inkooporders waarvoor wijzigingsbeheer van toepassing is. Deze gebeurtenis treedt op omdat de annulering wordt beschouwd als een wijziging die moet worden goedgekeurd. De goedkeuring kan automatisch door het systeem worden uitgevoerd. Daarom moet de geannuleerde inkooporder worden ingediend bij de goedkeuringswerkstroom, zodat deze de status *Goedgekeurd* krijgt. Op dat moment wordt de inkooporder niet meer weergegeven in de lijst met conceptinkooporders in de werkruimte **Voorbereiding van inkooporder**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

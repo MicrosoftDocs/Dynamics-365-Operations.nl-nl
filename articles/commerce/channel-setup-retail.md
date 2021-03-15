@@ -181,3 +181,6 @@ Volg deze stappen om kluizen in te stellen.
 
 [Een callcenterkanaal instellen](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ De volgende afbeelding toont een schermafbeelding van een KPI-berekening voor vi
 - U kunt meerdere activa selecteren in **Alle activa** en op de knop **KPI's voor activa** op het tabblad **Algemeen** klikken. Klik vervolgens op **OK** in het dialoogvenster **KPI's voor activa berekenen** om KPI's te berekenen voor de geselecteerde activa.  
 - De resultaten van een KPI-berekening kunnen de [registraties van uitvaltijd voor onderhoud](../work-orders/maintenance-downtime.md) omvatten, afhankelijk van de instellingen en het gebruik van redencodes voor uitvaltijd voor onderhoud. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Deze taakbegeleiding boekt de financiële gegevens voor het vaste-activaboek ove
     * Controleer resultaten voordat de vaste-activumboeken worden overgeboekt.  
 10. Klik op **Overboeken**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

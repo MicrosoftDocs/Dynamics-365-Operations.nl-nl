@@ -315,3 +315,6 @@ Momenteel hebben beide werk-id's dezelfde doelnummerplaat. Om de volgende stappe
 In de volgende afbeelding wordt weergegeven hoe het voltooide cross-dockingwerk kan worden weergegeven in Microsoft Dynamics 365 Supply Chain Management.
 
 ![Cross-dockingwerk voltooid](media/PlannedCrossDockingWork.png "Cross-dockingwerk voltooid")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

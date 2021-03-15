@@ -56,3 +56,6 @@ De analyse van de tijd die wordt gebruikt om werkitems te verwerken, kan helpen 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

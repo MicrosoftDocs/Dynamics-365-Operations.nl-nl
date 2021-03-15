@@ -157,3 +157,6 @@ Ga naar **Detailhandel en commerce \> Kanalen \> Winkels \> Alle winkels \> Over
 Met deze instelling zorgt u ervoor dat backoffice-overzichten dezelfde transacties als ploegen bevatten in het POS en dat de gegevens worden samengevat op basis van die ploegen.
 
 Zie [Winkelconfiguraties voor detailhandeloverzichten](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements) voor meer informatie over overzichten en afsluitingsmethoden.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

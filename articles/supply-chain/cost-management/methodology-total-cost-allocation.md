@@ -61,3 +61,6 @@ Het veld **Kostentoewijzing bijproduct** op de pagina **Coproducten** is een ops
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

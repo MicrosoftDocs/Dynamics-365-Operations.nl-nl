@@ -75,3 +75,6 @@ Er wordt bronbelasting berekend in **Journaal met betalingen van leverancier**. 
 Het afgeleide bronbelastingbedrag wordt afgetrokken van de leveranciersbetaling en geboekt op de **rekening voor bronbelasting** in een gerelateerd boekstuk.
 
 ![Bronbelastingrekening met een gerelateerd boekstuk](media/withholding-tax-adjusted.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -117,3 +117,6 @@ U selecteert standaardrekeningen op de pagina **Instellen van standaardaccount**
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

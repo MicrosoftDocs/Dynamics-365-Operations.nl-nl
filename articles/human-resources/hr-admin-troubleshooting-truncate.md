@@ -104,3 +104,6 @@ Op basis van de velden die u hebt geselecteerd voor het diagram worden voor elk 
 **Aanvullende optie**
 
 In Human Resources kunt u mogelijk ook het werkgebied **Mensen** gebruiken om bepaalde hiërarchiegerelateerde informatie weer te geven.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

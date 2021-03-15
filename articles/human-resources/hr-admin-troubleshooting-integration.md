@@ -181,3 +181,6 @@ Vernieuw de gegevensentiteiten in Finance door naar **Gegevensbeheer \> Raamwerk
 - Gegevensbeheer:
 
   - [Gegevensbeheer](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

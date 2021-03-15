@@ -81,3 +81,6 @@ In de volgende afbeelding ziet u een hiërarchie waarin verschillende kanalen zi
 [Een detailhandelafzetkanaal instellen](channel-setup-retail.md)
     
 [Een online afzetkanaal instellen](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

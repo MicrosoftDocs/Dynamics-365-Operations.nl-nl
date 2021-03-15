@@ -241,3 +241,6 @@ Houd rekening met de volgende beste praktijken wanneer u een organisatiehiërarc
 - Voordat u belangrijke herstructureringsscenario´s modelleert, gebruikt u de ingangsdatums van de hiërarchie om een impactanalyse en een validatietest uit te voeren.
 - Gebruik conceptmodus om een hiërarchie te wijzigen voordat u een nieuwe versie in een productieomgeving publiceert.
 - Beperk het aantal mensen met machtigingen om organisaties toe te voegen of te verwijderen uit een hiërarchie in een productieomgeving. Een kleiner aantal beperkt de kans dat kostbare fouten optreden en correcties moeten worden uitgevoerd.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

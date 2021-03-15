@@ -90,3 +90,6 @@ Wanneer u een stuklijstrapport genereert, kunt u het land van oorsprong opnemen 
 Er wordt een rapport gegenereerd en weergegeven met informatie over het land van oorsprong voor elk onderdeel. Hier volgt een voorbeeld van het rapport.
 
 ![Rapport voor Land van oorsprong](media/country-of-origin-report.png "Rapport voor Land van oorsprong")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

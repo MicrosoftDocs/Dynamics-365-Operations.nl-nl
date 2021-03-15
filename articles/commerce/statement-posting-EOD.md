@@ -173,3 +173,6 @@ Andere back-endverbeteringen die gebruikers kunnen zien, zijn aangebracht in de 
 
     - Ga naar **Detailhandel en commerce** \> **Instelling van hoofdkantoor** \> **Parameters** \> **Commerce-parameters**. Selecteer op het tabblad **Boeken** op het sneltabblad **Voorraadbijwerking** in het veld **Detailniveau** **Overzicht**.
     - Ga naar **Detailhandel en commerce** \> **Instelling van hoofdkantoor** \> **Parameters** \> **Commerce-parameters**. Stel vervolgens op het tabblad **Boeken** op het sneltabblad **Samenvoeging** de optie **Boekstuktransacties** in op **Ja**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

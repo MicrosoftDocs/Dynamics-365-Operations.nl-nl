@@ -94,3 +94,6 @@ U kunt het Kanbanplanningsbord openen via het menu-item op de volgende pagina's:
 
 [Planning van kanbantaken voor lean manufacturing](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Volg deze stappen om een transportmethode te maken.
 1. Selecteer **Nieuw** om een nieuwe transportmethode te maken.
 1. Voer een unieke id en een omschrijvende naam in voor de transportmethode.
 1. Sluit de pagina.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

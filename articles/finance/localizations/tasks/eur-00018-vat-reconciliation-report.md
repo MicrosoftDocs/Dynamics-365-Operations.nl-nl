@@ -40,3 +40,6 @@ In deze procedure ziet u hoe u het btw-afstemmingsrapport genereert dat beschikb
 6. Selecteer Ja in het veld Details weergeven.
 7. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

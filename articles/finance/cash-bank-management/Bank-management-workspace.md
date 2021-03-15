@@ -63,3 +63,6 @@ De pagina **Analyses** bevat belangrijke metrische gegevens over de bankrekening
 -   Saldo per valuta
 
 U kunt bankanalyses bekijken voor alle bedrijven in het werkgebied **Overzicht van contant geld - alle bedrijven**. Zie [Power BI-inhoud Overzicht van contant geld](Cash-Overview-Power-BI-content.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ U kunt informatiecodes koppelen zodat bij activering van een informatiecode onmi
 **Voorbeeld 2: Informatiecodes koppelen aan informatiecodegroepen**
 
 Als u bepaalde producten verkoopt, bijvoorbeeld mobiele apparaten, wilt u altijd specifieke informatie verzamelen, zoals een telefoonnummer, mobiele uitrustingsidentificatie (MEID) en serienummer. U wilt echter ook andere informatie verzamelen voor een tablet dan bij een mobiele telefoon. U kunt een informatiecodegroep instellen die vragen bevat voor het telefoonnummer, MEID en het serienummer en vervolgens de informatiecodegroep koppelen aan een afzonderlijke informatiecode. Wanneer de productspecifieke informatiecode wordt geactiveerd, kan de informatiecodegroep vervolgens worden geactiveerd zodat u de gemeenschappelijke gegevens kunt verzamelen zonder daarvoor meerdere sets gekoppelde informatiecodes te definiëren voor elk apparaat.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

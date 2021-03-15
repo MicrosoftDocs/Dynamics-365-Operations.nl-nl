@@ -85,3 +85,6 @@ Wanneer meerdere leveringsmethodes schikbaar zijn voor een kanaal, wordt er een 
 ## <a name="considerations-for-distributed-order-management"></a>Overwegingen voor gedistribueerd orderbeheer
 
 De [DOM-functies (gedistribueerd orderbeheer)](https://docs.microsoft.com/dynamics365/commerce/dom) in Commerce negeren alle verkoopregels die zijn gemarkeerd voor ophalen in een winkel. Deze functies zijn bijgewerkt om ervoor te zorgen dat verkoopregels die zijn gekoppeld aan geconfigureerde leveringsmethoden de DOM-logica omzeilen en niet opnieuw worden toegewezen aan een nieuw leveringsmagazijn.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

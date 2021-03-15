@@ -63,3 +63,6 @@ De parameter **Hoeveelheid** bepaalt of de gehele hoeveelheid of de fysiek geres
 -   Als u de parameters **Hoeveelheid** en **Vrijgave van gedeeltelijk vrijgegeven orders toestaan** wilt instellen voor transferorders, klikt u op **Magazijnbeheer** \> **Vrijgave naar magazijn** \> **Transferorders automatisch vrijgeven**.
 
 -   Als u de parameters **Hoeveelheid** en **Vrijgave van gedeeltelijk vrijgegeven orders toestaan** wilt instellen voor verkooporders, klikt u op **Magazijnbeheer** \> **Vrijgave naar magazijn** \> **Verkooporders automatisch vrijgeven**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

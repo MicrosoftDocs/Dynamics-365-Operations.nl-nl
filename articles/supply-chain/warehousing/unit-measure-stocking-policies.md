@@ -49,3 +49,6 @@ Als onderdeel van het maken van vrijgegeven producten, moet u standaardeenheden 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ Een *werkbalk* bevat hulpmiddelen, zoals de mogelijkheid om velden toe te voegen
 Een *lijst* is de naam voor een verzameling records waardoor u kunt bladeren. U kunt deze records naar de pagina overbrengen door ze te selecteren. Vaak wordt er een raster geopend.
 
 ![De volgende afbeelding laat voorbeelden van werkbalken, rasters en lijsten zien.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

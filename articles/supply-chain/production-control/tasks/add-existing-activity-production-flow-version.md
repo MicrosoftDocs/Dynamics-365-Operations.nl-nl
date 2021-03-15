@@ -55,3 +55,6 @@ Deze taak vereist dat er al een productiestroom met versie en activiteiten is ge
 3. Typ of selecteer een waarde in het veld Activiteit.
 4. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

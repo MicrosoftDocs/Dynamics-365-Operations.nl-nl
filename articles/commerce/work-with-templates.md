@@ -149,3 +149,6 @@ Nadat u een voorbeeld van de wijzigingen in de sjabloon hebt bekeken, volgt u ee
 [Overzicht sjablonen en indelingen](templates-layouts-overview.md)
 
 [Werken met vooraf ingestelde indelingen](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -103,3 +103,6 @@ In het volgende voorbeeld ziet u hoe een detailhandelaar deze taak kan uitvoeren
 [Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

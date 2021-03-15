@@ -51,3 +51,6 @@ Wanneer een nieuwe standaardprijs wordt geactiveerd, wordt de waarde van de voor
 - **Geen**: er worden geen financiële dimensies geboekt op de herwaarderingstransacties. Als u een vereiste financiële dimensie hebt in uw rekeningstructuur, wordt het herwaarderingsproces nog steeds uitgevoerd, maar worden boekhoudvermeldingen gemaakt die geen financiële dimensies hebben. In dit geval ontvangen gebruikers eerst een waarschuwingsbericht, zodat ze de herwaardering zo nodig kunnen annuleren.
 - **Tabel**: de financiële dimensies van het artikel worden geboekt op de herwaarderingstransacties. Dit is de standaardinstelling en is consistent met het oorspronkelijke systeemgedrag zonder de functie *Opties voor standaard financiële dimensies voor de standaardherwaardering van de kosten van de voorraad* in te schakelen.
 - **Boeking**: de financiële dimensies van de geherwaardeerde transactie worden geboekt op de herwaarderingstransacties. Standaard worden de financiële dimensies van de voorraadrekening van de oorspronkelijke transactie gebruikt voor zowel de voorraadrekening als de herwaarderingsrekening.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

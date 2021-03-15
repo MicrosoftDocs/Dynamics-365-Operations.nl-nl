@@ -89,3 +89,6 @@ Deze taakhandleiding laat zien hoe een mandaat voor automatische afschrijving wo
 3. Selecteer de klant aan wie u het mandaat hebt toegevoegd.
 4. Typ of selecteer een waarde in het veld **Mandaat-id voor automatische afschrijving**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

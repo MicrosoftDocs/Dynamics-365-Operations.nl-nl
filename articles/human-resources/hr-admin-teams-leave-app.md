@@ -134,3 +134,6 @@ Als u toegang tot de app Human Resources in Microsoft Teams wilt beperken voor u
 [Microsoft Teams-helpcentrum](https://support.office.com/teams)</br>
 [Verlofaanvragen beheren in Teams](hr-teams-leave-app.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

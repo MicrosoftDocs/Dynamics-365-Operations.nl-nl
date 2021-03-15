@@ -66,3 +66,6 @@ Alle standaard Dataverse-tabellen worden uitgebreid via verwijzingen naar de kol
 8. Nadat **Offertes** is uitgebreid, past u een filter toe met `CUSTGROUP != "<company>"` als querytekenreeks.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Dialoogvenster Query bewerken voor CDS-verkoopoffertekoptekst":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

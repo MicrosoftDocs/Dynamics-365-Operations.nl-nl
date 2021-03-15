@@ -78,3 +78,6 @@ In dit onderwerp leest u hoe u een prestatiebeoordeling maakt, met een beschrijv
 34. Selecteer het tabblad **Beoordeling**. Bij elke status waarin de beoordeling zich bevindt, kunnen de werknemer en de manager opmerkingen toevoegen voor iedere doelstelling of competentie.  
 35. Selecteer het tabblad **Afmeldingen**. De werknemer en manager kunnen de beoordeling afmelden. Wanneer alle vereiste afmeldingen zijn uitgevoerd, wordt de status gewijzigd naar **Voltooid** en zijn geen wijzigingen meer mogelijk.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

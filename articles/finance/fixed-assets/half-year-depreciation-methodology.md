@@ -41,3 +41,6 @@ Het eerste jaar wordt afgesloten in december 2020, wat betekent dat het einde va
    [![Afschrijvingsschema voor afschrijvingsconventie van half jaar](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 De uitgebreide afschrijvingsperioden die door de conventie van een half jaar worden toegevoegd, bieden een meer nauwkeurige toewijzing van afschrijving. De conventie van zes maanden resulteert in gelijkmatigere afschrijvingskosten, wat handig is voor rapportage over winst- en verliesrekening.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

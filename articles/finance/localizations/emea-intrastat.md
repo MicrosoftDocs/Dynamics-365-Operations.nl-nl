@@ -239,3 +239,6 @@ Gebruik de pagina **Parameters buitenlandse handel** om de parameters in de volg
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ In dit onderwerp wordt uitgelegd u beleidsregels instelt voor leveranciersfactur
 16. Selecteer **OK**.
 17. Sluit de pagina's om terug te keren naar de startpagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ Deze procedure is gemaakt voor gebruikers met de toegewezen rol van Systeembehee
 68. Klik op Opslaan.
     * Het veld Uitvoering in geeft aan dat deze groepering in runtime in het geheugen wordt uitgevoerd, hoewel er geen aggregaties zijn gedefinieerd en de geselecteerde gegevensbron van het type Tabelrecords naar dezelfde Intrastat-tabel verwijst. Dit komt doordat de gegevensbron een aantal berekende velden bevat die nog niet kunnen worden omgezet naar het niveau van de SQL-database.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

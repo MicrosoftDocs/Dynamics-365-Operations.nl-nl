@@ -57,3 +57,6 @@ Het zoeken van een gekwalificeerde pool kandidaten voor vacatures kan moeilijk z
 24. Sluit de pagina.
 25. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

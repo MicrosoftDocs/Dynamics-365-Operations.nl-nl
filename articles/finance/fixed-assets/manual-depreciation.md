@@ -75,3 +75,6 @@ Het totaal van de percentages voor alle intervallen hoeft niet gelijk te zijn aa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

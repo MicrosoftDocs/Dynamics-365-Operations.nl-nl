@@ -61,3 +61,6 @@ Deze entiteit beschrijft de screeningtypen die door het bedrijf zijn ingesteld v
 
 [Integratie-API voor sollicitantenvolgsysteem - Inleiding](hr-admin-integration-ats-api-introduction.md)<br>
 [Voorbeeldquery voor Kandidaten voor aanstelling](hr-admin-integration-ats-api-candidate-to-hire-example-query.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

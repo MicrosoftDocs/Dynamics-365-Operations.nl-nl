@@ -49,3 +49,6 @@ Een wederkerige relatie kan eenvoudig worden ingesteld op de pagina **Intercompa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

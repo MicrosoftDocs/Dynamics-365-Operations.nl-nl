@@ -82,3 +82,6 @@ Als u het lease-importraamwerk gebruikt om leases bij te werken en het procestyp
 
 1. Ga naar **Activa leasen \> Raamwerk voor het importeren van leases \> Instellen \> Selectie veld bijwerken**.
 2. Selecteer op de pagina die wordt weergegeven de velden die moeten worden bijgewerkt en selecteer vervolgens de groene pijl om deze naar de lijst **Geselecteerde velden** te verplaatsen. Alleen velden in de lijst **Geselecteerde velden** kunnen worden bijgewerkt met de lease-import suite.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

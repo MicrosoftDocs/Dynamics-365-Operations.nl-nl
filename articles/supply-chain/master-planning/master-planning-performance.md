@@ -161,3 +161,6 @@ Voordat de behoefteplanningsstap wordt gestart, is er een stap vóór de behoeft
 - **Eén zware routine tegelijk**: voer een hoofdplanning niet tegelijk met een andere zware routine uit.
 - **Het sessielogboek controleren**.
 - **Filteren van artikelen**: gebruik de levenscyclusstatus om artikelen uit de uitvoering van de hoofdplanning uit te sluiten. (Gebruik de artikelnummers niet.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

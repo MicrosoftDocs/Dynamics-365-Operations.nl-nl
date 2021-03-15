@@ -60,3 +60,5 @@ Nadat u een verlofplan hebt gemaakt in Dynamics 365 Human Resources, wijst u dit
 
 - [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)
 - [Een verlof- en verzuimplan maken](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

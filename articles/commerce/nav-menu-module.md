@@ -72,3 +72,6 @@ Zie [Koptekstmodule](author-header-module.md) voor meer informatie over het toev
 [Conformiteit van cookie](cookie-compliance.md)
 
 [Koptekstmodule](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

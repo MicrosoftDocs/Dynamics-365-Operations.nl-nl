@@ -82,3 +82,6 @@ Er zijn twee opties met betrekking tot reserveringen op de pagina de **Parameter
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Het voorraadreserveringsbeleid op de pagina Productieparameters
 
 De waarde van het veld **Reservering** op het tabblad **Algemeen** op de pagina **Productieparameters** bepaalt het standaardpunt in het productieproces waarop de voorraad moet worden gereserveerd. De voorraad kan bijvoorbeeld worden gereserveerd wanneer het werk wordt gepland of wanneer het werk is gestart.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

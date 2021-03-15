@@ -47,3 +47,6 @@ Gebruik deze procedure voor het beheren van de gegevensbron voor het grootboek v
 14. Selecteer Huidige in het veld Boekingslaag.
 15. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

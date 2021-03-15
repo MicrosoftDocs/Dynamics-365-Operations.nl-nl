@@ -71,3 +71,6 @@ Een budgetplansjabloon wordt gemaakt door de budgetmanager in Microsoft Word en 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

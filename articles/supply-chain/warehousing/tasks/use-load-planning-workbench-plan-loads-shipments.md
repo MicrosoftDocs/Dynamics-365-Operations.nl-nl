@@ -60,3 +60,6 @@ In dit onderwerp wordt getoond hoe u de workbench voor ladingplanning kunt gebru
 5. Selecteer **Toewijzen**.
 6. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

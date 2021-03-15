@@ -99,3 +99,6 @@ Deze procedure doorloopt het maken van een nieuw Commerce-kanaal en het definië
 65. Klik op Opslaan.
 66. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

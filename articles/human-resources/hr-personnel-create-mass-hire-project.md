@@ -48,3 +48,6 @@ Deze procedure doorloopt het proces van het instellen van een project voor massa
     * Selecteer desgewenst de afdeling voor de nieuwe posities.  
 13. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

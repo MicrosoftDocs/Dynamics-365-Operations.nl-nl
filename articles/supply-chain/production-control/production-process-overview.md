@@ -87,3 +87,6 @@ De volgende stappen in de productiecyclus kunnen plaatsvinden voor alle ordertyp
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

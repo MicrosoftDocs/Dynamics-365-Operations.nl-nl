@@ -283,3 +283,6 @@ Om waarden voor deze specificatie in te stellen, gaat u naar **Productgegevensbe
 De specificatie *Tunnel voor gevaarlijke materiaal materialen* beperkt de typen tunnels via welke een gevaarlijke stof kan worden getransporteerd door de typen tunnels te identificeren die moeten worden gebruikt. Tunnelcategorieën worden vastgesteld op basis van toepasselijke voorschriften voor het transport van gevaarlijke stoffen. Deze specificatie is doorgaans alleen van toepassing op wegtransport.
 
 Om waarden voor deze specificatie in te stellen, gaat u naar **Productgegevensbeheer \> Instellen \> Vervoersdocumentatie gevaarlijke stoffen \> Tunnel voor gevaarlijke stoffen**. Op de pagina **Tunnel voor gevaarlijke stoffen** kunt u een willekeurig aantal tunnel-id's maken en deze configureren met een identificatiecode en een korte beschrijving.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

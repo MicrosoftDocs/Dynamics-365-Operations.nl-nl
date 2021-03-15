@@ -161,3 +161,6 @@ Voer de volgende stappen uit om het geheim voor de Redis-cacheverbindingsreeks o
 > Telkens wanneer u een van de verbindingsreeksen bijwerkt, moet u ook de geheime waarden bijwerken.
 
 U bent nu klaar met het inrichten van de vereiste Azure-resources. De volgende stap is het [installeren van de invoegtoepassing IoT-intelligentie in Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

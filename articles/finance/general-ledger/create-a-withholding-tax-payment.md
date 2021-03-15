@@ -40,3 +40,6 @@ De procedure voor de taak Betaling bronbelasting vereffent bronbelastingsaldi va
 7. Klik op **OK**.
 
 ![Parameters voor bronbelastingbetaling](media/withholding-tax-payment.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

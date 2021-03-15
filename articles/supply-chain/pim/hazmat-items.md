@@ -220,3 +220,6 @@ Voer deze stappen uit om de compatibiliteitscontrole uit te voeren.
 1. Selecteer in het Actievenster op het tabblad **Ladingen** in de groep **Acties** de optie **Compatibiliteitscontrole**.
 
 U ontvangt een bericht waarin u wordt geïnformeerd over de resultaten van de controle.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

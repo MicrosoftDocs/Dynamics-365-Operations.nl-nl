@@ -35,3 +35,6 @@ Met Transportbeheer kunt u geografische locaties in zones verdelen. Het verdelen
 - **Routeplanning optimaliseren**: door specifieke routeplannen toe te wijzen aan specifieke zones.
 
 U definieert zones op basis van de waarden in metagegevensvelden (zoals land, postcodebereik of vervoerdersservice) die elke zone kwalificeren. Zonedefinities zijn niet vereist als uw transportprijzen niet met een zoneconcept werken.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ In de volgende afbeelding ziet u een voorbeeld van een werkorderrapport dat op b
 
 ![Figuur 2](media/21-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

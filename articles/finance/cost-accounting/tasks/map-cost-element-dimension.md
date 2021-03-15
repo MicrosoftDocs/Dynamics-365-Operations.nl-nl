@@ -43,3 +43,6 @@ Een kostencontroller kan deze procedure gebruiken om een kostenelementdimensie t
     * Selecteer voor dit voorbeeld dimensielid 6001004 Telefono.  
 11. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

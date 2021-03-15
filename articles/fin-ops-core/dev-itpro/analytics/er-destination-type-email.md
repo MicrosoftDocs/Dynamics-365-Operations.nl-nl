@@ -139,3 +139,6 @@ In de volgende afbeelding ziet u het proces, zoals beschreven in dit onderwerp, 
 - [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 - [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 - [Formuleontwerper in elektronische rapportage (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

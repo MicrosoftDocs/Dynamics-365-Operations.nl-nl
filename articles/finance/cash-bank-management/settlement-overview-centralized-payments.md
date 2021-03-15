@@ -107,3 +107,6 @@ Voor betalingen aan leveranciers gebruiken de transacties bestemd voor en afkoms
 
 ## <a name="withholding-tax"></a>Bronbelasting
 De leveranciersrekening die aan de factuur is gekoppeld, wordt gebruikt om te bepalen of de bronbelasting berekend moet worden. Als bronbelasting van toepassing is, wordt deze berekend in de rechtspersoon die aan de factuur is gekoppeld. Als de rechtspersonen verschillende valuta gebruiken, wordt de wisselkoers gebruikt van de rechtspersoon die aan de factuur is gekoppeld.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

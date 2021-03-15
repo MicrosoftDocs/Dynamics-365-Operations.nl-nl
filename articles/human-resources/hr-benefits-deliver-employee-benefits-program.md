@@ -68,3 +68,6 @@ In dit artikel leest u hoe u vergoedingselementen maakt die worden gebruikt bij 
 16. Selecteer een optie in het veld Basis.
 17. Voer een nummer in het veld Bedrag of tarief in.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

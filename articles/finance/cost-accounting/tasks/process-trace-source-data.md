@@ -44,3 +44,6 @@ Alle gegevensverwerking wordt uitgevoerd door taken. Voor elke taak en gegevensp
     * Selecteer voor dit voorbeeld Fiscaal 2017 periode 9.  
 14. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Met de verzendfunctie Toeslag worden de volgende POS-bewerkingen gebruikt: Alle 
 De mogelijkheid om afleveradressen te selecteren, blijft ongewijzigd.
 
 De verzendmethoden die kunnen worden gebruikt om te voldoen aan de orderregel zijn gebaseerd op de configuratie van geldige leveringsmethoden voor producten en adressen. Omdat de regels over geldige leveringsmethoden alleen worden beheerd in Headquarters, voert de POS-client een realtime aanroep uit om de geldige leveringsmethoden voor een verzendregel op te halen.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

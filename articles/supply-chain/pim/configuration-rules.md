@@ -45,3 +45,6 @@ Het wijzigen van configuratieregels heeft geen invloed op bestaande configuratie
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

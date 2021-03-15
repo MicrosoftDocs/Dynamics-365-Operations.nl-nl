@@ -48,3 +48,6 @@ Wanneer u een pakbon bijwerkt voor een geretourneerd artikel dat van een verkoop
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

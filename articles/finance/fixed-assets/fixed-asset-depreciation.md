@@ -56,3 +56,6 @@ Zie voor meer informatie [Afschrijvingsmethoden en conventies](depreciation-meth
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

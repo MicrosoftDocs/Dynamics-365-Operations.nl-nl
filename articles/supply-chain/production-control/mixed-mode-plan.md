@@ -68,3 +68,6 @@ Voor volledige flexibiliteit in de gemengde modus wordt u aangeraden het product
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

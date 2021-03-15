@@ -106,3 +106,6 @@ De volgende afbeelding toont een voorbeeldknooppunt met toegevoegde productkenme
 [Assortimenten instellen](set-up-assortments.md)
 
 [Kenmerken en kenmerkgroepen beheren](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

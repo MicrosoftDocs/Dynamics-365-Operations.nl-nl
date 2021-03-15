@@ -54,3 +54,6 @@ Wanneer u onderhoudsverzoeken hebt gemaakt, kunt u deze eenvoudig omzetten in we
 
     ![Nieuwe werkorder openen](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Voor de implementatie van Lean Manufacturing hebben we een productiestroom- en -
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

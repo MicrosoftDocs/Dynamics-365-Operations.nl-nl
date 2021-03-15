@@ -94,3 +94,6 @@ Voer de volgende stappen uit om een breadcrumb-module aan een PDP toe te voegen 
 [Module met vakje voor kopen](add-buy-box.md)
 
 [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

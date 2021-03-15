@@ -47,3 +47,6 @@ In alle gevallen dient u nauwkeurig te overwegen hoe de standaardkosten moeten w
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

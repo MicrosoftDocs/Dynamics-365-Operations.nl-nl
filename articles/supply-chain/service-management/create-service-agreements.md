@@ -61,3 +61,6 @@ In dit onderwerp wordt beschreven hoe u serviceovereenkomsten maakt met de funct
 [Overzicht van Servicelevelovereenkomsten opstellen en tot stand brengen](service-agreements.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

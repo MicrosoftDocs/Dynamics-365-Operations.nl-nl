@@ -162,3 +162,6 @@ Uw CDN is nu correct geconfigureerd voor gebruik met uw Commerce-site.
 [Meerdere B2C-tenants configureren in een Commerce-omgeving](configure-multi-B2C-tenants.md)
 
 [Detectie van winkels op basis van de locatie inschakelen](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Deze procedure laat zien hoe u overboekingsdocumenten voor goederenverplaatsing 
 10. Klik op Pakbon.
 11. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

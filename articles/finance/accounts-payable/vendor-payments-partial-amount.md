@@ -53,3 +53,6 @@ U voert misschien een gedeeltelijke betaling uit, waarbij het bedrag dat nog moe
 
 
 Zie [Overzicht van leveranciersbetaling](../cash-bank-management/tasks/vendor-payment-overview.md) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

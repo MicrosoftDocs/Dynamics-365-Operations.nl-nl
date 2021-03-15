@@ -143,3 +143,6 @@ Zie de volgende onderwerpen voor meer informatie:
 - [Twee valuta's](dual-currency.md)
 - [Btw-overzicht](indirect-taxes-overview.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

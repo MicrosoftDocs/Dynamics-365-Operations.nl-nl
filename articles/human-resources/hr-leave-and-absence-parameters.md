@@ -92,3 +92,6 @@ Voordat u verlof- en verzuimplannen instelt in Dynamics 365 Human Resources, kun
 ## <a name="see-also"></a>Zie ook
 
 - [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

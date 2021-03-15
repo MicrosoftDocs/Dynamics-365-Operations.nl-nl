@@ -53,3 +53,6 @@ In dit onderwerp wordt beschreven hoe u laadsjablonen instelt en hoe u een laads
 1. Selecteer in het actievenster op het tabblad **Vraag en aanbod** in de groep **Toevoegen** de optie **Aan nieuwe lading**.
 1. Selecteer in het dialoogvenster **Laadsjabloon** in het veld **Laadsjabloon-ID** de toe te passen sjabloon.
 1. Selecteer **OK** om de sjabloon toe te passen.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Een plantype kan dekkingsopties definiëren. De dekkingsopties worden gedefiniee
    | **Tijdsvenster voor rapportage** | Geeft het tijdsvenster in dagen op voor de rapportage van de levensgebeurtenis. **Opmerking**: als u geen tijdsduur invoert, wordt aangenomen dat het rapportagevenster nul is en wordt de levensgebeurtenis niet verwerkt. |
 
 5. Selecteer **Opslaan**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

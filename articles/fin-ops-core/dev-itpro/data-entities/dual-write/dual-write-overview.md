@@ -109,3 +109,6 @@ Om pariteit met Finance and Operations-toepassingen tot stand te brengen, brengt
 
 Zie [Nieuwe of gewijzigde functies in twee keer wegschrijven](whats-new-dual-write.md) voor meer informatie over aanstaande wijzigingen.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

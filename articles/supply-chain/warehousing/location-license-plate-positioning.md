@@ -280,3 +280,6 @@ Nu de functie *Positionering van locatie nummerplaat* is ingesteld en de voorraa
     ![Locatie positie 1](media/LocationLicensePlatePositioning.png "Locatie positie 1")
 
 1. Voer de nummerplaat-id in die u voor de locatie hebt gemaakt en volg de aanwijzingen om de verkooporder te verzamelen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Deze procedure is gericht op het uitvoeren van kanbanprocestaken. De eerste taak
 6. Voer in het veld Goede hoeveelheid een getal in.
 7. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -407,3 +407,6 @@ U kunt nu verkooporder 2 verzamelen. Dit werd gedeblokkeerd toen het aanvullings
 - U kunt desgewenst de beschikbaarheid van aanvullingswerk voor elke werkkop handmatig wijzigen vanaf de pagina **Werkgegevens**.
 - Wanneer het systeem de beschikbaarheid van aanvullingswerk instelt, houdt het rekening met voorraad die al aanwezig is op de locatie voordat enig werk is voltooid
 - Elk verkooporderwerk is gekoppeld aan specifiek aanvullingswerk. Er is geen corresponderende functionaliteit voor beschikbaarheid van verkoopwerk.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

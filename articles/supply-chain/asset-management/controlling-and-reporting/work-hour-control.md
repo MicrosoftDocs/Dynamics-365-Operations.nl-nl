@@ -73,3 +73,6 @@ In onderstaande schermafbeelding ziet u een voorbeeld van een berekening van een
 U kunt uren ook berekenen door meerdere activa te selecteren in **Alle activa** of **Actieve activa**. Vervolgens klikt u op de knop **Uurcontrole** op het sneltabblad **Algemeen**. De geselecteerde activa worden automatisch ingevoegd in het veld **Activum** op het sneltabblad **Op te nemen records**. Klik op **OK** in het dialoogvenster **Uurcontrole activa** om de berekening voor de geselecteerde activa weer te geven. Dezelfde procedure kan worden uitgevoerd voor functionele locaties in **Alle functionele locaties** of **Actieve functionele locaties** en voor werkorders in **Alle werkorders** of **Actieve werkorders**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

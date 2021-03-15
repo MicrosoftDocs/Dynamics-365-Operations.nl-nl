@@ -65,3 +65,6 @@ Werkgevers moeten weten wanneer hun werknemers een letsel oplopen of ziek worden
     * De rapporteringsinstantie is de instantie waarbij het incident moet worden gerapporteerd. Schakel het selectievakje in voor de instantie die de standaardinstantie is waaraan u letsel en ziekte rapporteert.  
 23. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

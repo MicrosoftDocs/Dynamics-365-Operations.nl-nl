@@ -44,3 +44,6 @@ De functionaliteit voor algemene bronbelasting is verbeterd voor leveranciers- e
 
 > [!NOTE]
 > De functionaliteit voor algemene bronbelasting kan niet worden ingeschakeld voor landen/regio's waar al lokale bronbelastingoplossingen bestaan. Deze gebieden zijn onder andere, maar niet uitsluitend India, Brazilië, Thailand, Saudi-Arabië, Ierland, Groot-Brittannië en de Verenigde Staten.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

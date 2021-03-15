@@ -42,3 +42,6 @@ In dit onderwerp wordt beschreven hoe u een gedeeld product maakt. Het wordt gew
 3. In het veld **Traceringsdimensiegroep** typt of selecteert u een waarde. De traceringsdimensiegroep bepaalt welke traceringsdimensies u voor elke transactie voor het product moet invoeren en hoe het in voorraad wordt verwerkt.  
 4. Selecteer **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

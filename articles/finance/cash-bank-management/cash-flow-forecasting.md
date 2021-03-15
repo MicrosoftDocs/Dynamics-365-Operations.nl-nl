@@ -149,3 +149,6 @@ Bovendien kunt u gegevens van cashflowprognoses weergeven voor specifieke accoun
 - **Aanbodprognose**: selecteer **Cashflowprognoses** om de toekomstige cashflows die zijn gekoppeld aan de geselecteerde aanbodprognose van items weer te geven.
 - **Vraagprognose**: selecteer **Cashflowprognoses** om de toekomstige cashflows die zijn gekoppeld aan de geselecteerde vraagprognose van items weer te geven.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

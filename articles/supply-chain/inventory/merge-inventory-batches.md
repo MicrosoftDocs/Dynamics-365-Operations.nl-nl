@@ -139,3 +139,6 @@ U kunt het voorraadjournaal goedkeuren voor de batchsamenvoeging vanaf de lijstp
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Waarom kan ik de informatie over variabel gewicht niet zien in het voorraadjournaal nadat ik een artikel met variabel gewicht heb samengevoegd?
 U kunt batches van catch weight-artikels samenvoegen, net zoals alle andere artikels. De catch weight-informatie wordt echter niet weergegeven op het voorraadjournaal. Wij raden u aan de catch weight-informatie na te gaan voordat u de batchsamenvoeging overdraagt naar het voorraadjournaal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

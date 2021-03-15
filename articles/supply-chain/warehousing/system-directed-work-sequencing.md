@@ -304,3 +304,6 @@ De door het systeem gestuurde query's voor werkvolgorde zijn *inclusief*. Het is
 Daarom werd in het voorbeeld uit dit scenario ook werk-id *4* vastgelegd door de query. Toen deze id werd gemaakt, werden er twee regels toegevoegd: een voor 25 ea en een andere voor 10 ea. Het werk werd nog steeds getoond aan de gebruiker, omdat ten minste één werkregel een hoeveelheid van minder dan 20 ea heeft.
 
 Afhankelijk van het scenario kunt u dit gedrag voorkomen door werkopsplitsingen te gebruiken.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

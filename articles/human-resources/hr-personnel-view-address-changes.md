@@ -128,3 +128,6 @@ Wanneer u de tegel **Adreswijzigingen** selecteert, worden in een nieuwe pagina 
 > Als u een waarschuwing of een e-mailbericht over deze adreswijzigingen wilt ontvangen, kunt u een nieuwe waarschuwingsregel maken op het tabblad **Opties** in het actievenster. Zie [Waarschuwingsregels maken](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts) voor meer informatie over het maken van waarschuwingsregels.<br><br>
 
 > Als u een werkstroom voor de adreswijzigingen wilt configureren, kunt u de optie **Extern verzenden** in uw waarschuwingsregel selecteren en vervolgens Power Automate gebruiken om de zakelijke gebeurtenis te activeren en een werkstroom te configureren. Zie [Waarschuwingen als zakelijke gebeurtenissen](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

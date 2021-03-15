@@ -35,3 +35,6 @@ In dit onderwerp wordt beschreven hoe een gebruiker met de systeembeheerder-rol 
 5. Selecteer in het veld **Tijdzone** een optie in de vervolgkeuzelijst.
 6. Selecteer **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

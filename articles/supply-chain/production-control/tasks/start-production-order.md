@@ -70,3 +70,6 @@ Deze procedure toont hoe u een productieorder start op de werkvloer. Tijd- en ma
 7. Klik op Boeken.
 8. Klik op OK.
     * In het routekaartjournaal wordt de bestede tijd voor de afzonderlijke bewerkingen vastgelegd. Goede en foutieve hoeveelheid kan ook worden gerapporteerd.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

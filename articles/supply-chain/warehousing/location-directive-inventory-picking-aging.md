@@ -139,3 +139,6 @@ De LIFO-strategie zoekt naar de locatie die de nieuwste ouderdomsdatum bevat en 
 1. De regel waar het veld **Werktype** de waarde *Orderverzamelen* bevat, geeft een **Locatie** weer met de waarde *FL-001*. Deze locatie bevat de nummer plaat met de nieuwste ouderdomsdatum (LIFO).
 
 In deze scenario's hebt u gezien hoe de de locatiestrategie op basis van ouderdom werk naar de voorraadlocatie stuurt met de oudste voorraad of met de nieuwste voorraad, afhankelijk van de geselecteerde strategie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

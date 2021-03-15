@@ -56,3 +56,6 @@ Voordat u het werkgebied **Controlelijst voor gegevensvalidatie** kunt gebruiken
 U gebruikt taakgebieden om gegevensvalidatietaken te groeperen in logische gebieden van eigendom in uw organisatie. Leveranciers, Klanten of Grootboek kunnen bijvoorbeeld als taakgebieden worden gebruikt.
 
 De optie **Naam menuopdracht** wordt gekoppeld aan de taakwerkinzet en kan worden gebruikt om rechtstreeks naar de gekoppelde pagina te gaan via de taakkoppeling in het werkgebied. Bijvoorbeeld een gegevensvalidatietaak om het rapport **Ouderdom van leveranciers** voor leveranciers uit te voeren, kan worden gekoppeld aan de **Rapport Ouderdom van leveranciers**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

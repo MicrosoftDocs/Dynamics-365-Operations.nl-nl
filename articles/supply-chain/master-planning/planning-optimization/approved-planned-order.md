@@ -42,3 +42,6 @@ Via het veld **Status** kunt u uw voortgang in de gaten houden aan de hand van d
 - **Goedgekeurd:** als u wijzigingen wilt behouden of van plan bent om een geplande order te fiatteren, wijzigt u de status in *Goedgekeurd*. Geplande orders met de status *Goedgekeurd* worden als vaststaand en verwachte levering beschouwd door de hoofdplanning. Ze worden dus niet gewijzigd of verwijderd tijdens een latere hoofdplanningsuitvoering. Om dit te bereiken, kopieert de planningslogica de *goedgekeurde* geplande orders van de oude planversie naar de nieuwe planversie tijdens de hoofdplanning. *Goedgekeurde* geplande orders worden alleen als levering beschouwd in het specifieke hoofdplan.
 
 U kunt geplande orders vanuit de werkruimte **Hoofdplanning**, de lijst **Geplande order** of de lijsten **Geplande productieorders**, **Geplande inkooporders** en **Geplande overboeking** beheren.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

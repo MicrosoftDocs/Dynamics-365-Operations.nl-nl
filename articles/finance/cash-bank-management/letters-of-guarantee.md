@@ -64,3 +64,6 @@ Zie de volgende onderwerpen voor meer informatie:
 [Bankfaciliteiten en boekingsprofielen voor borgstellingen instellen](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

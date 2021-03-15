@@ -141,3 +141,6 @@ Download en installeer de mobiele Finance and Operations-app:
 4.  Selecteer de gewenste klant.
 5.  Selecteer **Contactgegevens** of **Verkooporders**. Als u **Verkooporders** selecteert, wordt een lijst met verkooporders voor de klant weergegeven.
 6.  Selecteer **Verkooporders**. U kunt nu informatie over de verkooporderregels, informatie over verzendingen, contactgegevens voor de klant en contactgegevens voor de ordermedewerker weergeven.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

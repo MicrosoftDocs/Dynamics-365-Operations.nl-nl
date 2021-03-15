@@ -53,3 +53,6 @@ Deze procedure laat zien hoe u een model van extra's voor een hub kunt maken en 
 9. Klik op Opslaan.
 10. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

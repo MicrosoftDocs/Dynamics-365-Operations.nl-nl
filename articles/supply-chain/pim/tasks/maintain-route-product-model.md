@@ -66,3 +66,6 @@ Het uitvoeren van deze procedure vereist dat er een productconfiguratiemodel is.
 15. Typ of selecteer een waarde in het veld Vereiste.
 16. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

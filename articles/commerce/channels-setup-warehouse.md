@@ -146,3 +146,6 @@ De volgende afbeelding toont details voor een geconfigureerd magazijn.
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

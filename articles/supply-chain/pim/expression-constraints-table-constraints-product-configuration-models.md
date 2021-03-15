@@ -253,3 +253,6 @@ U kunt geen gereserveerde sleutelwoorden gebruiken als oplossernamen voor kenmer
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

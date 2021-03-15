@@ -199,3 +199,6 @@ Als u een meer analytisch overzicht van de verschillende prestatiemetingen voor 
 
 Als u een meer analytisch overzicht van de verschillende prestatiemetingen voor de promotie wilt, kunt u de analyseweergave gebruiken. Als u naar de analyseweergave wilt gaan, klikt u op **Verkoop en marketing** \> **Handelstoeslagen** \> **Handelstoeslagovereenkomsten**. Klik in het actievenster op **Analyse**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

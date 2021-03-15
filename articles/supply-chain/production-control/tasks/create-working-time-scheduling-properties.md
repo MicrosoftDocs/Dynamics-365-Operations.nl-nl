@@ -43,3 +43,6 @@ Eigenschappen van werktijdplanningen worden gebruikt om werktijdsintervallen te 
 3. Typ een waarde in het veld Waarde.
 4. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ Voordat Microsoft met een oplossing voor het probleem komt, moet u overwegen de 
 - Decimale waarden in de standaardkosten vermijden. Probeer de standaardkosten te definiëren zodat het veld **Prijshoeveelheid** wordt ingesteld op *1*. Als u een waarde voor de **Prijshoeveelheid** van meer dan *1* moet opgeven, moet u proberen het aantal decimalen in de standaardkosten per eenheid te minimaliseren. (In de ideale situatie moeten er minder dan twee decimalen zijn.) Vermijd bijvoorbeeld standaardkosteninstellingen zoals **Prijs** = *10* en **Prijshoeveelheid** = *3* te definiëren, omdat hiermee standaardkosten per eenheid van 3,333333 worden geproduceerd (waarbij de decimale waarde wordt herhaald).
 - Probeer in de meeste documenten te voorkomen dat er meerdere regels zijn met dezelfde combinatie van product- en financiële voorraaddimensies.
 - De mate van parallellisatie verminderen. (In dit geval kan het systeem sneller worden, omdat er minder updateconflicten zijn en er minder nieuwe pogingen worden ondernomen.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

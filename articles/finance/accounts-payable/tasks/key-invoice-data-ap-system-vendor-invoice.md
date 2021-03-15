@@ -72,3 +72,6 @@ Deze taakbegeleider helpt u een leveranciersfactuur van een inkooporder te maken
 19. Klik op **Boeken**.
 20. Het formulier sluiten. Merk op dat de inkooporder niet meer wordt weergegeven als ontvangen maar als niet gefactureerd.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

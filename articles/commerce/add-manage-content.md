@@ -56,3 +56,6 @@ Selecteer een van de volgende onderwerpen om aan de slag te gaan.
 [Statussen en levenscyclus van document](document-states-overview.md)
 
 [Het delen van inhoud door meerdere kanalen inschakelen en gebruiken](cross-channel-sharing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

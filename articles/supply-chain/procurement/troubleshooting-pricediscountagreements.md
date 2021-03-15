@@ -124,3 +124,6 @@ Dit gedrag is verwacht. Omdat opdrachten niet altijd worden goedgekeurd, moet ee
 
 U kunt handelsovereenkomsten maken voor eventuele antwoorden op een offerteaanvraag (RFQ), ongeacht of deze zijn geaccepteerd of afgewezen. Zie [Overzicht van Offerteaanvragen](request-quotations.md) voor meer informatie.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

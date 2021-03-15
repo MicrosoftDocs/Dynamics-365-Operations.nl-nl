@@ -95,3 +95,6 @@ Mogelijk moet u de voltooiing van een inkooporder uitstellen. Zo hebt u bijvoorb
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ De standaard bronbelastinggroep en artikelbronbelastinggroep worden als standaar
 Bronbelasting wordt berekend en geboekt met **Journaal met betalingen van klant**. U kunt de toepasselijke bronbelastingcode en het werkelijke bronbelastingbedrag handmatig aanpassen op het tabblad **Bronbelasting** op de pagina **Transacties vereffenen**.
 
 Het berekende bronbelastingbedrag wordt afgetrokken van de klantbetaling en geboekt op de **tegenrekening voor bronbelasting** in een gerelateerd boekstuk.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

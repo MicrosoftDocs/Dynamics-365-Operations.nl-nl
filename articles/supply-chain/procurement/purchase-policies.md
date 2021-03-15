@@ -150,3 +150,6 @@ De regels voor het maken van inkooporders en consolidatie van de vraag bepaalt d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

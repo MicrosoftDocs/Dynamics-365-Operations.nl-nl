@@ -67,3 +67,6 @@ Gebruik voor deze procedure het demobedrijf USMF. Deze procedure is bedoeld voor
 
 ## <a name="save-a-free-text-invoice-as-a-template"></a>Een vrije-tekstfactuur opslaan als een sjabloon
 U kunt ook een bestaande vrije-tekstfactuur als een sjabloon opslaan. Wanneer u Opslaan in sjabloon selecteert op het tabblad Factuur, moet u een naam en beschrijving voor de sjabloon opgeven. Als er al een sjabloon met deze naam bestaat, wordt dit in een melding aangegeven. U kunt nog steeds op OK klikken om deze sjabloon te vervangen. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

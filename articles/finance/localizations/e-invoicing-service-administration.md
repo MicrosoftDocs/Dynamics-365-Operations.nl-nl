@@ -138,3 +138,6 @@ De omgeving moet worden geconfigureerd op het tabblad **Indieningsservices** van
 
 - [Elektronische facturen configureren in RCS](e-invoicing-configuration-rcs.md)
 - [Elektronische facturen uitgeven in Finance en Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

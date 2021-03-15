@@ -176,3 +176,6 @@ Voor een lijst van mogelijkheden die in on-premises implementaties beschikbaar z
 
 \* In on-premises-omgevingen geeft PerfTimer alleen resultaten weer voor de client.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

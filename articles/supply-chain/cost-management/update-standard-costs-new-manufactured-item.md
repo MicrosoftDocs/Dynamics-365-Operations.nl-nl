@@ -52,3 +52,6 @@ Als u nieuwe productieartikelen wilt toevoegen tijdens de bevriezingsperiode, vo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

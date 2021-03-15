@@ -147,3 +147,6 @@ De aanvullende configuratiepagina's zijn geordend op functionaliteit.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

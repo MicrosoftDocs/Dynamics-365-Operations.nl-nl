@@ -50,3 +50,6 @@ De service verzendt e-mailberichten met behulp van vooraf gedefinieerde e-mailsj
 De volgende afbeelding toont de structuur van de waarschuwingsmeldingen die per e-mail worden ontvangen.
 
 [![Waarschuwingsberichten op basis van een sjabloon voor maken van records, veldwijzigingen en sjabloonverwijdering](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

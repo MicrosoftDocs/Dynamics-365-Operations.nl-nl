@@ -598,3 +598,6 @@ Als de medewerker op een werkdag niet komt opdagen voor het werk en er geen gepl
 - Verzuim automatisch invoegen
 
 Wanneer de dagelijkse registraties worden berekend voor een medewerker waarvoor flexibele uren zijn ingeschakeld, wordt de verzuimcode opgegeven in het veld **Flextijd automatisch invoegen-** gebruikt als een standaardverzuimcode. Als voor de medewerker flexibele uren niet zijn ingeschakeld, wordt de verzuimcode gebruikt die is opgegeven in het veld **Verzuim automatisch invoegen**. Als in een bedrijf medewerkers met en zonder flexibele uren actief zijn, moeten beide parameters worden ingesteld.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

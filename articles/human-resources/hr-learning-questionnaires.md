@@ -44,3 +44,6 @@ De volgende tabel bevat koppelingen naar informatie over de kerntaken van vragen
 | [Een vragenlijst ontwerpen](hr-learning-design-questionnaires.md) | Dit artikel bevat informatie over het ontwerpen van een vragenlijst. Het ontwerpproces omvat het instellen van vereisten, antwoorden en vragen, en vervolgens het combineren hiervan in een vragenlijst. |
 | [Vragenlijsten plannen en distribueren](hr-learning-distribute-questionnaires.md) | Dit artikel geeft informatie over het verspreiden van een vragenlijst onder respondenten en het uitvoeren van vragenlijsten. |
 | [De resultaten van een vragenlijst bekijken en evalueren](hr-learning-evaluate-questionnaire-results.md) | Dit artikel biedt informatie over het weergeven en evalueren van de resultaten van ingevulde vragenlijsten. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

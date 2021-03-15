@@ -70,3 +70,6 @@ U gebruikt te pagina **Exporteren** (**Systeembeheer \> Werkruimten \> Importere
 5. Selecteer **OK** om te exporteren.
 
 Wanneer de export is voltooid, ontvangt u een bericht waarin het aantal records wordt weergegeven dat is opgeslagen in elk bestand. U kunt de bestanden vervolgens importeren in de geconsolideerde rechtspersoon.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

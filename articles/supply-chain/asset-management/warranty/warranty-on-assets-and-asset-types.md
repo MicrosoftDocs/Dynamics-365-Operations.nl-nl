@@ -53,3 +53,6 @@ In dit onderwerp wordt uitgelegd hoe u garanties op activa en activatypen kunt i
 
 > [!NOTE]
 > Wanneer u een werkorder maakt voor een activum dat wordt gedekt door een garantie van een leverancier, ontvangt u een melding over de garantieovereenkomst als de werkorder een verwachte begindatum heeft gedurende de garantieperiode. U kunt de werkorder vervolgens desgewenst annuleren.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

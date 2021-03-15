@@ -41,3 +41,6 @@ De btw wordt berekend en naar hoofdrekeningen geboekt die in de grootboekboeking
 11. Selecteer in het veld **Contantkorting van klant** de hoofdrekening om contantkorting voor **btw-codes** die zijn gekoppeld aan deze **grootboekboekingsgroep** te boeken. Dit is optioneel en als er geen rekening is ingevoerd, wordt de hoofdrekening op **Contantkortingscodes** gebruikt. Het kan handig zijn om verschillende rekeningen per **grootboekboekingsgroep** te gebruiken als de optie Btw op contantkorting omkeren op **Btw-groepen** wordt gebruikt.  
 12. Klik op **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

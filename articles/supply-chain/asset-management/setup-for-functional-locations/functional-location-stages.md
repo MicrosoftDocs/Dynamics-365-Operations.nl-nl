@@ -62,3 +62,6 @@ Wanneer u de levenscyclusstatussen hebt gemaakt die zijn vereist voor uw functio
 5. Als u alle beschikbare statussen voor een model wilt selecteren, klikt u op de knop ![Alle beschikbare fasen selecteren](media/03-setup-for-functional-locations.png). Alle statussen worden overgebracht naar de sectie **Geselecteerde levenscyclusstatussen**.
 6. Als u een geselecteerde status uit het model wilt verwijderen, selecteert u de status in de sectie **Geselecteerde levenscyclusstatussen** en selecteert u vervolgens de knop ![pijl terug](media/04-setup-for-functional-locations.png).
 7. Selecteer **Updates van levenscyclusstatussen** om te definiëren welke levenscyclusstatussen een geselecteerde status kunnen volgen.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

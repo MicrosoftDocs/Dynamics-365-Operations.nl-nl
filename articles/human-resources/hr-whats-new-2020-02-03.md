@@ -65,3 +65,6 @@ Binnenkort komt een nieuwe Dataverse-oplossing beschikbaar met de volgende wijzi
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

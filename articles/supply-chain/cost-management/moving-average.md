@@ -154,3 +154,6 @@ In dit voorbeeld van zwevend gemiddelde wordt het voorraadwaarderapport afgedruk
 
 > [!NOTE]
 > U kunt het grootboek niet op de voorraad afstemmen met de sorteeroptie **Transactietijd**. Het rapport moet worden afgedrukt met behulp van de optie **Boekingsdatum** .
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

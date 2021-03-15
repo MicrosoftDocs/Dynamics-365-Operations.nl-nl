@@ -44,3 +44,6 @@ Alleen werk van het type **Verkoop**, **Overboekingsuitgifte**, **Orderverzameli
 Om het werk te deblokkeren, worden eventuele resterende werkregels door het systeem geannuleerd en worden de magazijngegevens hersteld die aan de werk-id zijn gekoppeld die de gebruiker heeft opgegeven. Normale magazijnverwerkingsactiviteiten voor de desbetreffende artikelhoeveelheid kunnen vervolgens worden hervat.
 
 Als u het desbetreffende artikel op een specifieke locatie wilt neerzetten nadat het werk is geannuleerd, moet de gebruiker een voorraadmutatie of hoeveelheidcorrectie gebruiken op een mobiel apparaat.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ In de volgende afbeelding wordt de logica weergegeven die wordt gebruikt wanneer
 In de volgende afbeelding wordt de logica weergegeven die wordt gebruikt wanneer het gelijktijdigheidsbeheer voor de korting is ingesteld op **Beste prijs alleen binnen de prioriteit, altijd samengesteld op basis van prioriteit**.
 
 ![Logica voor de beste prijs alleen binnen de prioriteit, altijd samengesteld op basis van prioriteit](./media/Model_2.png "Logica voor de beste prijs alleen binnen de prioriteit, altijd samengesteld op basis van prioriteit").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

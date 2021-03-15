@@ -104,3 +104,6 @@ Zie [Mobiele apparaten instellen voor magazijnwerk](configure-mobile-devices-war
 Zie [Overzicht van Werkbeleid magazijn](warehouse-work-policies.md) voor meer informatie over het productiescenario *Gereedmelden*.
 
 Zie [Magazijnverwerking van inkomende ladingen voor inkooporders](inbound-load-handling.md) voor meer informatie over het beheer van inkomende ladingen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

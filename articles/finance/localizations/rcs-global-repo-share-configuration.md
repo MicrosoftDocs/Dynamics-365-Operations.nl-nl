@@ -72,3 +72,6 @@ Nadat u een configuratie hebt gemaakt onder uw configuratieprovider, kunt u deze
 De configuratie wordt gedeeld met de externe organisatie en is beschikbaar voor die organisatie in de algemene opslagplaats. Hier vandaan kan het worden geïmporteerd in het exemplaar van RCS of in de exemplaren van Finance and Operations-apps van de organisatie.
 
 6. Als u het delen van een configuratie die eerder met een externe organisatie is gedeeld ongedaan wilt maken, selecteert u de configuratie en klikt u op **Delen ongedaan maken**. Selecteer vervolgens **OK**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Deze procedure laat zien hoe u de voorhanden voorraad handmatig bijwerkt met beh
 25. Sluit de pagina.
 26. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

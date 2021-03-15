@@ -56,3 +56,6 @@ Deze procedure toont hoe u snel een nieuwe formule maakt door uit een bestaande 
 3. Klik op OK.
 4. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

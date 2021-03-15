@@ -54,3 +54,6 @@ Nadat de gegevens in Kostprijsboekhouding zijn geïmporteerd, kunt u hiermee ver
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

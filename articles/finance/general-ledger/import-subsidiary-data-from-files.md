@@ -60,3 +60,6 @@ In dit onderwerp wordt uitgelegd hoe u gegevens van externe systemen voorbereidt
 8. Stel de optie **Batchverwerking** in op **Ja** om de consolidatie te laten uitvoeren als batchtaak op een specifiek tijdstip. Selecteer **OK** als u de consolidatie onmiddellijk wilt uitvoeren. 
 
 De transacties en saldi die zijn opgegeven voor de consolidatie in de dochtermaatschappijen worden toegevoegd aan de desbetreffende rekeningen van het geconsolideerde bedrijf.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

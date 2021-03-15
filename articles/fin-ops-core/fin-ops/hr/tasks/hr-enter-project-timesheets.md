@@ -51,3 +51,6 @@ Met deze procedure kunt u een urenstaat maken met behulp van een leeg urenstaatf
 21. Klik op **Aanbieden**.
 22. Klik op **Aanbieden**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

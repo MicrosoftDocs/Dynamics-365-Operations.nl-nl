@@ -65,3 +65,6 @@ In de volgende secties wordt het effect van deze instellingen beschreven. Tevens
 - Als het veld **Boekstuknummer** is ingesteld op **Automatisch gegenereerd**, mislukt het importeren. De instelling **Automatisch gegenereerd** voor het veld **Boekstuknummer** wordt niet ondersteund.
 
 Standaard gebruikt de entiteit Algemeen journaal verwerking op basis van sets. Nadat u de zakelijke vereisten voor uw organisatie hebt beoordeeld, kunt u de instelling **Op sets gebaseerde verwerking** wijzigen door te klikken op **Gegevensentiteiten** in de werkruimte **Gegevensbeheer**. Op sets gebaseerde verwerking wordt gebruikt om het importproces te versnellen. Als u geen gebruikmaakt van op sets gebaseerde verwerking, verloopt het importeren van de entiteit Algemeen journaal langzamer.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

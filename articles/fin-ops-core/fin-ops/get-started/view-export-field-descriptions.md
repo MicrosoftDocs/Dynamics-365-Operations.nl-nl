@@ -107,3 +107,6 @@ Zie de sectie 'Zoeken naar pagina's' eerder in dit artikel voor meer informatie 
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Veldbeschrijvingen aanpassen](../../dev-itpro/user-interface/customize-field-help.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

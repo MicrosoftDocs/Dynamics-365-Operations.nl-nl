@@ -110,3 +110,6 @@ U kunt betalingen met ontoereikend saldo verwerken door op Betaling met ontoerei
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

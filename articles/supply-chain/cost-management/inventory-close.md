@@ -86,3 +86,6 @@ Soms zult u een voltooide voorraadafsluiting moeten omkeren en de vereffeningen 
 > [!NOTE] 
 > Alleen de laatste afgesloten voorraadperiode kan opnieuw worden geopend. Als u een eerdere voorraadafsluiting wilt omkeren, moet u de volgende voorraadafsluitingen een voor een omkeren, te beginnen met de meest recente afsluiting.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

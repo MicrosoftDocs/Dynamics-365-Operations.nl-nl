@@ -73,3 +73,6 @@ Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 36
 
 - [Wat u moet weten over grootboek in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

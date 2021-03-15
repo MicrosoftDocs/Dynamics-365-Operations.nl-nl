@@ -67,3 +67,6 @@ Het afschrijvingsvoorstel op 31 januari luidt als volgt: Geschatte hoeveelheid x
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

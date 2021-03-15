@@ -82,3 +82,6 @@ Ga als volgt te werk om een omleiding te maken voor een antwoordpagina voor de s
 [Een nieuwe sitepagina toevoegen](add-new-page.md)
 
 [Een pagina-URL maken](create-page-url.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Kalenders beschrijven de capaciteit en werktijd van bronnen voor bedrijfsactivit
 12. Selecteer **OK**.
 13. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

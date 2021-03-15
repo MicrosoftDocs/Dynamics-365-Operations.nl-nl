@@ -112,3 +112,6 @@ Nadat u de inkooporder die aan u is toegewezen hebt bekeken en de workflowinstru
 5. Selecteer de gewenste actie.
 6. Voer op de pagina **Taak voltooien** een opmerking in. Houd er rekening mee dat als u de actie **Delegeren** kiest, u een gebruiker moet selecteren aan wie de taak wordt gedelegeerd.
 7. Selecteer **Gereed**. Nadat u uw werkruimte hebt vernieuwd, staat de inkooporder niet meer in de lijst. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

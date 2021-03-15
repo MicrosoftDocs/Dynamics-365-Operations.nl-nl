@@ -110,3 +110,6 @@ Er is een nieuwe sjabloonstuklijst gemaakt met regels die overeenkomen met de re
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

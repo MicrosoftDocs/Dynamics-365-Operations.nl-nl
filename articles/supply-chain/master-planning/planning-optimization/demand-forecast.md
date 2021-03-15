@@ -273,3 +273,6 @@ Een prognosereductiesleutel moet worden toegewezen aan de behoefteplanningsgroep
 ### <a name="reduce-a-forecast-by-transactions"></a>Een prognose op basis van transacties reduceren
 
 Wanneer u **Transacties - reductiesleutel** of **Transacties - dynamische periode** selecteert als de methode voor het reduceren van prognosebehoeften, kunt u opgeven met welke transacties de prognose wordt gereduceerd. Selecteer op de pagina **Behoefteplanningsgroepen** op het sneltabblad **Overige** in het veld **Prognose reduceren met** **Alle transacties** als de prognose moeten worden gereduceerd met alle transacties of **Orders** als de prognose alleen met verkooporders moet worden gereduceerd.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

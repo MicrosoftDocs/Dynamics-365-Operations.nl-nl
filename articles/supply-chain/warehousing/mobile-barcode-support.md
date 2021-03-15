@@ -34,3 +34,6 @@ De magazijnapp van Dynamics 365 Supply Chain Management is getest met een select
 
 Als klant wordt u aangeraden de app Magazijn voor mobiel scannen op bepaalde hardware te testen voordat u besluit welke hardware u wilt aanschaffen.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

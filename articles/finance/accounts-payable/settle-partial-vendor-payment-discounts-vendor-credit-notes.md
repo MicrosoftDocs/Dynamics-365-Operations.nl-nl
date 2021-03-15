@@ -70,3 +70,6 @@ April kan de leveranciertransacties op de pagina **Leveranciertransacties** cont
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

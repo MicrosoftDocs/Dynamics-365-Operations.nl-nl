@@ -67,3 +67,6 @@ De inkoopprijsrecords voor artikelen worden ook gebruikt als verwijzingsinformat
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

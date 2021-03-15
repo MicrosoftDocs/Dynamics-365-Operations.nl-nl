@@ -39,3 +39,6 @@ Deze procedure laat zien hoe u een werkklasse instelt. Werkklassen worden gebrui
     * Als u een locatietype selecteert, stelt dit een beperking in op waar artikelen kunnen worden geplaatst nadat ze zijn verzameld. Deze instelling wordt gebruikt wanneer een locatierichtlijn probeert de locatie op te lossen of als een magazijnwerknemer handmatig de locatie voor menuopdrachten van mobiele apparaten verschaft.  
 8. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

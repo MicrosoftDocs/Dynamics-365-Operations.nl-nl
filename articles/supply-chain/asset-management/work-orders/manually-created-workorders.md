@@ -165,3 +165,6 @@ In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Werk
 >[!NOTE]
 >Als u automatisch werkorders wil maken kunt u onderhoudsplantaken plannen of 'automatisch maken' instellen voor [onderhoudsplannen](../preventive-and-reactive-maintenance/maintenance-plans.md) of [onderhoudsronden](../preventive-and-reactive-maintenance/maintenance-rounds.md) voor een activum. Werkorders die zijn gemaakt op basis van onderhoudsverzoeken in de lijstpagina **Alle onderhoudsschema's**, hebben de typen onderhoudstaken die in de onderhoudsverzoeken zijn geselecteerd.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

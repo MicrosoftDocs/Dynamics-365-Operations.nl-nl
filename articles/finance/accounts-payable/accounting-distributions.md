@@ -56,3 +56,6 @@ De algemene boekhoudingsverdelingsmogelijkheden bevatten de volgende opties om b
 In versie 10.0.13 is een functie toegevoegd waarmee de tabel voor de boekhoudingsverdeling wordt gevalideerd om ervoor te zorgen dat de nieuwe velden correct worden ingesteld. Dit is de functie **Extra validatie van gegevens voor documenten inschakelen met behulp van het boekhoudkundig framework voor brondocumenten**. Als u deze functie wilt gebruiken, moet u deze eerst inschakelen via de werkruimte **Functiebeheer**. Als u de functie wilt inschakelen, zoekt u de functienaam in het veld **Zoeken** op de pagina **Functiebeheer** en selecteert u **Nu inschakelen**.
 
 Zie [Boekhoudingsverdelingen en journaalposten in de subadministratie voor leveranciersfacturen](accounting-distributions-subledger-journal-entries-vendor-invoices.md) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

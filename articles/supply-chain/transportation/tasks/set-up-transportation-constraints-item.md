@@ -43,3 +43,6 @@ Met deze procedure wordt een transportbeperking ingesteld om te voorkomen dat ee
 10. Klik op Opslaan.
 11. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

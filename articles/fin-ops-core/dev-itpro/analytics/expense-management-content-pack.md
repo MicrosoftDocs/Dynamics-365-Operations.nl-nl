@@ -93,3 +93,6 @@ De inhoud bevat een reeks rapportpagina's. Elke pagina bestaat uit een set metri
 | Werknemersstatistieken | Onkostennota´s per kostentype            |
 |                     | Persoonlijke onkosten                       |
 |                     | Onkostennota´s per statistiekengroep     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

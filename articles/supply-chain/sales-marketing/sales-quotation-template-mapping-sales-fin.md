@@ -142,3 +142,6 @@ In de volgende afbeeldingen ziet u een voorbeeld van de toewijzing van een sjabl
 
 [Prospect naar contant geld](prospect-to-cash.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

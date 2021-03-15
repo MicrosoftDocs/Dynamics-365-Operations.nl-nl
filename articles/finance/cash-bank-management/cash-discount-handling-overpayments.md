@@ -138,3 +138,6 @@ Het contantkortingsbedrag wordt verminderd van €10,50 tot €10,00. De betalin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

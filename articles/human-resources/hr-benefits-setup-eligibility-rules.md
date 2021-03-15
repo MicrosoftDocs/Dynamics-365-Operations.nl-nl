@@ -176,3 +176,6 @@ Programma's zijn een reeks vergoedingsplannen die een gemeenschappelijke set ges
    | **Geschiktheidsregels** | Selecteer de geschiktheidsregels die u wilt toepassen op het vergoedingsprogramma. U definieert de geschiktheidsregels op het tabblad **Geschiktheidsregels** op deze pagina. |
    
 4. Selecteer **Opslaan**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

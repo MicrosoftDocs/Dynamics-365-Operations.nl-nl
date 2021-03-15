@@ -84,3 +84,6 @@ De voorraad die nog niet is gereserveerd, wordt gereserveerd tijdens het generer
 Zodra alle orderverzamelregels zijn verzameld op de pagina **Orderverzamellijstregistratie**, wordt de bijbehorende zending voltooid. Het proces voor pakbonnen voor verkooporders kan vervolgens worden geïnitialiseerd op basis van de verzamelde voorraad.
 
 [![Uitgaande zendingen bijwerken](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

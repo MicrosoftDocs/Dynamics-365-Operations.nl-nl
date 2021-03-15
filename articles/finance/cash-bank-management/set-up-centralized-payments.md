@@ -57,3 +57,6 @@ U kunt standaardbeschrijvingen definiëren voor intercompany-vereffeningsboekstu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

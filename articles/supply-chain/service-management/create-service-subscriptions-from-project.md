@@ -54,3 +54,6 @@ U kunt nu abonnementstransacties voor het abonnement maken.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

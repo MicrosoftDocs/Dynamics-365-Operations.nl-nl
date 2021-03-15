@@ -84,3 +84,6 @@ Nadat u de regels hebt gekopieerd, kunt u de gegevens zo nodig bewerken.
 U kunt een vrije-tekstfactuur maken op basis van een sjabloon. Wanneer u **Nieuw van sjabloon** op het tabblad **Factuur** selecteert, kunt u een sjabloonnaam en de klantrekening voor de nieuwe vrije-tekstfactuur selecteren. Standaardwaarden, zoals de betalingsvoorwaarden en betalingsmethode, kunnen automatisch van de klant worden overgenomen, of u kunt de waarden gebruiken die zijn opgeslagen in de sjabloon.
 
 Er wordt een nieuwe vrije-tekstfactuur gemaakt en u kunt de waarden indien nodig bewerken.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

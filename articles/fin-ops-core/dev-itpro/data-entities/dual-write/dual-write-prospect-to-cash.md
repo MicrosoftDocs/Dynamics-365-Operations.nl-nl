@@ -160,3 +160,6 @@ Dit zijn de gerelateerde kerntabeltoewijzingen voor prospect naar contant geld:
 [!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
 
 [!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -129,3 +129,6 @@ Met vragenlijstplanning kunt u vragenlijsten plannen voor en distribueren naar m
 2. Klik op Beëindigen.
 3. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

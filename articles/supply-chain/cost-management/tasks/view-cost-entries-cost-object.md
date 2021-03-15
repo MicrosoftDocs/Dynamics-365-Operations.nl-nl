@@ -38,3 +38,6 @@ Deze procedure toont hoe u kosteninvoer voor een kostenobject weergeeft. Het bed
 7. Gebruik het snelfilter om op het veld Nummer te filteren met de waarde 'p000031'.
     * Als de kosteninvoer leeg is, stelt u Begindatum in op 31 januari 2012 en Einddatum op 31 december 2012.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

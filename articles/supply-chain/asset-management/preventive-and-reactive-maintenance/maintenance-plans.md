@@ -238,3 +238,6 @@ U kunt het systeem configureren om een teller automatisch opnieuw in te stellen 
 1. Ga naar **Activabeheer \> Instellingen \> Werkorders \> Levenscyclusstatussen**.
 1. Selecteer in het lijstvenster de status van de levenscyclus van de werkorder waarop de relevante teller opnieuw moet worden ingesteld.
 1. Stel op het sneltabblad **Algemeen** de optie **Teller opnieuw instellen** in op *Ja*.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

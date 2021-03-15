@@ -142,3 +142,6 @@ Voer de volgende stappen uit om een scenario uit te schakelen.
 2. Selecteer **Configureren** op de tegel voor het scenario.
 3. Selecteer **Volgende** om naar de laatste wizardpagina te gaan.
 4. Stel de optie om het scenario uit te schakelen in.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

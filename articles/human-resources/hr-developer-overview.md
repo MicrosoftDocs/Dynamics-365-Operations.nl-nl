@@ -62,3 +62,6 @@ Deze ontwikkelaarsgids bevat een API en een verwijzing naar aangepaste velden. O
 - [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)
 - [Beheerdershandleiding](hr-admin-overview.md)
 - [Gebruikershandleiding](hr-hrpro-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

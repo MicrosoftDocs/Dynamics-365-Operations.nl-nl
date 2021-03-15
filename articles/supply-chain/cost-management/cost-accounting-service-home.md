@@ -36,3 +36,6 @@ Met de invoegtoepassing Service kostprijsboekhouding voor Microsoft Dynamics 365
 ## <a name="related-resources"></a>Gerelateerde bronnen
 
 [Aan de slag met de service kostprijsboekhouding](cost-accounting-service-get-started.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

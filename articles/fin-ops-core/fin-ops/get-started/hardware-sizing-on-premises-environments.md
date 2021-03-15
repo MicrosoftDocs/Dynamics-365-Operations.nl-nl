@@ -141,3 +141,6 @@ De Orchestrator-service beheert uw implementatie en de gerelateerde communicatie
 ## <a name="virtualization-and-oversubscription"></a>Virtualisering en te veel abonnementen
 
 Bedrijfskritieke services, zoals de AOS, moeten worden gehost op virtuele hosts met eigen resources: cores, geheugen en schijfruimte.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

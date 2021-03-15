@@ -108,3 +108,6 @@ Om werknemers in staat te stellen deze wijziging door te voeren, kunt u een menu
 - **Voorraadstatus weergeven:** *Ja*
 
 U kunt desgewenst andere velden op de pagina instellen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

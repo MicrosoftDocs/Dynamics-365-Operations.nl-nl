@@ -79,3 +79,6 @@ Met dit onderwerp kunt u de processen van het niet-conformeringsbeheer inschakel
 4. Typ een waarde in het veld **Beschrijving**.
 5. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -208,3 +208,6 @@ De catalogus, de categorie, werknemer en de afbeeldingen van klanten die in offl
 5. Volg een vergelijkbaar proces voor andere entiteiten, zoals Categorie, Werknemer en Klant.
 
     [![Offlineafbeelding](./media/offline2.png)](./media/offline2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

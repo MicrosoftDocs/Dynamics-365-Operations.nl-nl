@@ -93,3 +93,6 @@ Microsoft FastTrack for Dynamics 365 is onze succesvolle klantenservice die is b
 ## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>Als u een upgrade uitvoert van Dynamics AX 2012 of migreert van AX 2009
 
 Als u een upgrade uitvoert van Microsoft Dynamics AX 2012 of migreert van Microsoft Dynamics AX 2009, is het mogelijk dat u in aanmerking komt voor een langere evaluatieperiode. Neem contact op <daxcf@microsoft.com> voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ Deze procedure doorloopt het maken van een nieuw online kanaal en het toevoegen 
 3. Voer de distributieplanning 1070 uit om wijzigingen te synchroniseren naar de kanaaldatabase. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

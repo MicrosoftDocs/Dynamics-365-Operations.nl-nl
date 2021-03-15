@@ -65,3 +65,6 @@ Vereisten:
 12. Sluit de pagina.
 13. Vernieuw de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

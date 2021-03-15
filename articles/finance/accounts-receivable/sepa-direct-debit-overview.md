@@ -83,3 +83,6 @@ Onder beide Automatische incassoschema's van SEPA hebben klanten bepaalde rechte
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

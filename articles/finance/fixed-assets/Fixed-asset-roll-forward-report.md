@@ -66,3 +66,6 @@ In de volgende tabel worden de velden beschreven die beschikbaar zijn in het rap
 |           Afstotingen: uitvalwaarde            |                                                                                               De uitvalwaarde voor het vaste-activaboek met een afstoting – uitvaltransactie.                                                                                               |
 |           Afstotingen: winst/verlies            |                                                                                 De winst- of verlieswaarde die wordt berekend als onderdeel van de afstotingstransactie voor het vaste-activaboek.                                                                                 |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

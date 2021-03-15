@@ -108,3 +108,6 @@ Stel, een werknemer klokt in om 10:00 uur en selecteert een verzuimcode waarmee 
 ### <a name="calculate-and-approve-absence"></a>Verzuim berekenen en goedkeuren
 
 - Selecteer **Tijd en aanwezigheid** &gt; **Controleren en goedkeuren** &gt; **Goedkeuren of berekenen**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

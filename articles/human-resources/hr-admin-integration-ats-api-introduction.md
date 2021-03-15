@@ -137,3 +137,5 @@ Optiesets:
 [Wat is Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [De Microsoft Dataverse web-API gebruiken](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
 [Optiesets maken en bijwerken met de web-API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

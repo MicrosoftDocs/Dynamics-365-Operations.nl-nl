@@ -48,3 +48,6 @@ U moet een nieuwe menuoptie maken met de modus werk, die geen bestaand werk gebr
 - Nummerplaat ontvangen en wegzetten
 
 De opties om de brondocumentregels te identificeren zijn inkooporderartikel, inkooporderregel, retourorder, transferorderartikel en transferorderregel. Deze opties kunnen de ontvangstvolgorde op een enkele nummerplaat wijzigen. De laatste optie is op ladingsartikel. U kunt meerdere artikelen toevoegen aan een nummerplaat, maar u kunt niet schakelen tussen meerdere ladingen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

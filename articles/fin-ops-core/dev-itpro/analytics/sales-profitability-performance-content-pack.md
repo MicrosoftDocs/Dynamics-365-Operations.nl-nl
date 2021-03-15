@@ -107,3 +107,6 @@ De volgende belangrijke dimensies in de Verkoop-cube worden gebruikt als filters
 | Datums            | Datums                                                |
 
 Standaard worden gegevens in de inhoud weergegeven voor het huidige kalenderjaar. U kunt echter het datumfilter in de sectie rapportfilters wijzigen. U kunt ook het bedrijfsfilter wijzigen.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

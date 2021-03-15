@@ -120,3 +120,6 @@ Klik op **Instellingen** om de gegevens aan te passen die in de structuurweergav
 |     Stuklijst     | Gebruik de selectievakjes om de criteria te selecteren die in de boomstructuur worden weergegeven. In de formuleontwerper worden de geselecteerde criteria onder aan de tabbladen weergegeven. |
 |    route    |                                           Gebruik de selectievakjes om de criteria te selecteren die voor de routes worden weergegeven.                                           |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

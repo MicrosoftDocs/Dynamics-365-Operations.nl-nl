@@ -74,3 +74,6 @@ Dit houdt verband met een functie die in behandeling is en die wordt gepland als
 [Aan de slag met Planningsoptimalisatie](get-started.md)
 
 [Analyse aanpassen aan Planningsoptimalisatie](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

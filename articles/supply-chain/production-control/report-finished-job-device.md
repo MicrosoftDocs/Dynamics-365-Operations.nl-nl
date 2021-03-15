@@ -238,3 +238,6 @@ Voer de volgende stappen uit om te bepalen of werknemers een bestaande nummerpla
 
 > [!NOTE]
 > Ga naar **Magazijnbeheer \> Instellen \> Documentroutering \> Documentroutering** om het label te configureren. Zie [Afdrukken van nummerplaatlabel inschakelen](../warehousing/tasks/license-plate-label-printing.md) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ U kunt gegevens van een gepostdateerde cheque die u van een klant hebt ontvangen
 15. Klik op Boeken.
 16. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

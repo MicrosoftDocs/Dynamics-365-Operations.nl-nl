@@ -94,3 +94,6 @@ Wanneer u verbruiksregistraties uitvoert, worden financiële dimensies met betre
 >[!NOTE]
 >Voor alle drie de registratietypen wordt de combinatie van financiële dimensies gevalideerd en ongeldige combinaties worden blanco gemaakt. Dit is standaardinstelling bij andere Finance and Operations-apps.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

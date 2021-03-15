@@ -97,3 +97,6 @@ Bekijk deze video van 3 minuten op YouTube over [Het magazijnsjabloon gebruiken 
 ## <a name="related-topic"></a>Verwant onderwerp
 
 [Sjablonen voor configuratiegegevens](../../dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

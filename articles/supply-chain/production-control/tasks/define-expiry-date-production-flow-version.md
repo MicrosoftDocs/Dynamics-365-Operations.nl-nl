@@ -40,3 +40,6 @@ Om de geldigheid en de verwerking van een productiestroomversie te voltooien op 
 6. Voer in het veld Vervaldatum een datum en tijd in.
     * Een nieuwe versie wordt niet gestart of geactiveerd voor de vervaldatum. Het is ook niet meer mogelijk om taken voor deze productiestroom te maken of te starten. U kunt gestarte taken na de vervaldatum nog uitvoeren.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

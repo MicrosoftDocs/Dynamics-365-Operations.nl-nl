@@ -57,3 +57,6 @@ De manier waarop u uw hiërarchie van functionele locaties bouwt, is afhankelijk
 In de volgende afbeelding ziet u een voorbeeld van functionele locaties die zijn gebaseerd op klanten.
 
 ![Diagram met functionele locaties op basis van klanten](media/04-overview-image.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

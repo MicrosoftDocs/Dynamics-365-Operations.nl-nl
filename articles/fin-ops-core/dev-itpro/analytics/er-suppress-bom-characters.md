@@ -66,3 +66,6 @@ Voer de juiste procedure uit om de functionaliteit tijdens runtime te controlere
 ## <a name="see-also"></a>Zie ook
 
 - [De uitvoering van XML-elementen in ER-indelingen uitstellen](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

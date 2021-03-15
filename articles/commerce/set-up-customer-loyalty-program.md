@@ -150,3 +150,6 @@ Bovendien kunnen detailhandelaren de maximale limiet aan beloningspunten per loy
 
     > [!NOTE]
     > In tegenstelling tot andere periodieke kortingen, zoals hoeveelheidskorting, eenvoudige korting, combinatiekorting en drempelkorting, worden met de verzendkorting geen kortingsregels gemaakt. Wijzigingen in de verzendkosten worden echter rechtstreeks aangebracht en de naam van de korting wordt toegevoegd aan de omschrijving van de kosten.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

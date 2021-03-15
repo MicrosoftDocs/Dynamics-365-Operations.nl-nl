@@ -77,3 +77,6 @@ In de volgende afbeelding wordt de gegevensstroom weergegeven.
 [Filters op een plan toepassen](plan-filters.md)
 
 [Een planningstaak annuleren](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

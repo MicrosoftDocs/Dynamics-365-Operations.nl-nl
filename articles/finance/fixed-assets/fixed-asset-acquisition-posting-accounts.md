@@ -44,3 +44,6 @@ Zie voor meer informatie [Verwerving van activa via inkoop](acquire-assets-procu
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

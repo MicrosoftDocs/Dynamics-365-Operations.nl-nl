@@ -241,3 +241,6 @@ Uw indeling moet eerst beschikbaar zijn in de ER-configuraties. Als aan deze voo
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 
 [Actieafhankelijke ER-bestemmingen configureren](er-action-dependent-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

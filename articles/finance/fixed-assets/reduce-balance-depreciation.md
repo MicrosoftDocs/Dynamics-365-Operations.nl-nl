@@ -84,3 +84,6 @@ Door de methode Degressief te gebruiken, wordt 30 procent van de afschrijvingsba
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

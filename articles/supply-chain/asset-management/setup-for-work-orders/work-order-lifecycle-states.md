@@ -138,3 +138,6 @@ Nadat u de levenscyclusstatussen voor werkorders hebt gemaakt die vereist zijn v
 9. Sla het levenscyclusmodel voor de werkorder op.
 
 ![Pagina Levenscyclusmodellen van werkorder](media/15-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

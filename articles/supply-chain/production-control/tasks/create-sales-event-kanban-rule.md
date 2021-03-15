@@ -73,3 +73,6 @@ Deze procedure is gericht op de instellingen die nodig is voor het maken van een
 2. Klik op Behoeftetraceringsstructuur weergeven.
     * Er wordt een kanban gemaakt met dezelfde hoeveelheid als de verkoopregel. U kunt ook de materiaaluitgiften zien die nodig zijn om L0050 te produceren. Dit is de laatste stap in deze procedure.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

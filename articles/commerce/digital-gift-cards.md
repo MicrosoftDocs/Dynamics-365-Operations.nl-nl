@@ -100,3 +100,6 @@ Voer de volgende stappen uit om een aangepast bedrag te configureren voor een di
 [Een online functionaliteitsprofiel maken](online-functionality-profile.md)
 
 [Ondersteuning voor externe geschenkbonnen](./dev-itpro/gift-card.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

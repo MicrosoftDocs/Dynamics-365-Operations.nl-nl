@@ -120,3 +120,6 @@ Wanneer de transacties voor maart 2011 worden gefactureerd, wordt de verkoopprij
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

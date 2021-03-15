@@ -77,3 +77,6 @@ U kunt een bericht over een mislukte gebeurtenis in de app voor magazijnbeheer a
 1. Ga door met werken totdat alle relevante berichten opnieuw zijn ingesteld.
 
 U kunt een gebeurtenisbericht **Mislukt** ook verwijderen met de optie **Verwijderen** op de werkbalk **Gebeurtenisberichten van de app voor magazijnbeheer**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

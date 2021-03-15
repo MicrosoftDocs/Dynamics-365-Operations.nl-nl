@@ -48,3 +48,6 @@ Deze taak werkt de afschrijvingsconventie voor een opgegeven vaste-activagroep b
 15. Klik op OK.
     *  De resultaten van het proces worden weergegeven in het rapport Groepsgewijs bijwerken.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

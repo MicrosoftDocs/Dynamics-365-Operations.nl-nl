@@ -47,3 +47,6 @@ Op de pagina **Activatransacties** worden de transacties weergegeven die het lea
 Als u de onkostentransacties voor de lease wilt weergeven, selecteert u een lease op de pagina **Leaseoverzicht** en selecteert u **Boeken** om de leaseboeken te openen die aan de leaserecord zijn gekoppeld. Slecteer vervolgens **Onkostentransacties**.
 
 Op de pagina **Onkostentransacties** worden alle onkosten weergegeven die zijn geboekt tegen de lease, zoals rentelasten, afschrijvingskosten en de administratieve kosten.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

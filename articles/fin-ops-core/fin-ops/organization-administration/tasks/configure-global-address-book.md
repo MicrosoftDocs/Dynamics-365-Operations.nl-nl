@@ -45,3 +45,6 @@ Het bedrijf van de demogegevens dat wordt gebruikt om deze taak te maken is USMF
 13. Zoek en selecteer de gewenste record in de lijst. Druk op de Shift-toets om meerdere rollen te selecteren om toe te voegen aan het venster **Geselecteerde rollen** en klik op de pijl om de geselecteerde rollen toe te voegen.  
 14. Klik op **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

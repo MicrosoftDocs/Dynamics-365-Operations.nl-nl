@@ -63,3 +63,6 @@ In de volgende afbeelding ziet u een voorbeeld van een functionaliteitsprofiel.
 [Overzicht van schermindeling](pos-screen-layouts.md)       
 
 [Retail Hardware Station configureren en installeren](retail-hardware-station-configuration-installation.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

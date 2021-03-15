@@ -52,3 +52,6 @@ Controleer of de metingen 'Cashflowmeting V2' en 'LedgerCovLiquidityMeasurement'
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>Zijn de entiteiten van de Entiteitopslag vernieuwd?
 
 U moet uw entiteiten periodiek vernieuwen om er zeker van te zijn dat de gegevens actueel en nauwkeurig zijn. Als u een specifieke entiteit handmatig wilt vernieuwen, gaat u naar **Systeembeheer \> Setup \> Entiteitopslag**, selecteert u de entiteit en u vervolgens **Vernieuwen**. De gegevens kunnen ook automatisch worden bijgewerkt. Stel op de pagina **Entiteitopslag** de optie **Automatisch vernieuwen** in op **Ja**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Om het gemakkelijker en sneller te maken om de acties te definiëren die zijn ge
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

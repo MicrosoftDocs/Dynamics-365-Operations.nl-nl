@@ -40,3 +40,6 @@ Voordat kanbantaken kunnen worden gemaakt en activiteiten kunnen worden verwerkt
 5. Klik op Activeren.
 6. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

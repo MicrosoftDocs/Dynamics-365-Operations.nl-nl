@@ -38,3 +38,6 @@ In de volgende schermafbeelding ziet u een voorbeeld van een onderhoudsmedewerke
 
 Kalenderinstellingen voor hulpmiddelen en activa zijn niet nodig voor de planning van werkorders. De veronderstelling is dat hulpmiddelen en activa 24 uur per dag beschikbaar zijn voor onderhoud.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

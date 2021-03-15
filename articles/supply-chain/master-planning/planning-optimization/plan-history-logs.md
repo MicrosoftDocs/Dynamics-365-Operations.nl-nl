@@ -46,3 +46,6 @@ Naast de begintijd en status van taken kunt u het logboek voor een bepaalde taak
 [Filters op een plan toepassen](plan-filters.md)
 
 [Een planningstaak annuleren](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

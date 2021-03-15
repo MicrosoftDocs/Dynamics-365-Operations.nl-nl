@@ -97,3 +97,6 @@ Wanneer u vrije tekst, klanten en projectcreditnota's afdrukt, bevatten deze de 
 
 > [!NOTE]
 > Zorg ervoor dat de afdrukbare indelingen van de documenten correct zijn geconfigureerd, op basis van de veronderstelling dat verwijzingen naar oorspronkelijke facturen worden afgedrukt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

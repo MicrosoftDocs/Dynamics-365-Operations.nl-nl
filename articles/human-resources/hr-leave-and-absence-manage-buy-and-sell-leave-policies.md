@@ -80,3 +80,6 @@ U kunt werknemers in staat stellen om verlof te kopen en te verkopen door een be
 [Verlof- en verzuimplannen toerekenen](hr-leave-and-absence-accrue.md)</br>
 [Verlof inkopen en verkopen](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

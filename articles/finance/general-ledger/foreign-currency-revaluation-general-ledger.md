@@ -112,3 +112,6 @@ U kunt de resultaten van de verouderde herwaarderingsvolgorde omkeren, maar moge
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

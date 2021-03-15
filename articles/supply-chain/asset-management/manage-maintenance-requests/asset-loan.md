@@ -57,3 +57,6 @@ Op de pagina **Actieve geleende activa** kunt u een lijst weergeven met alle gel
 3. Voer de datum en de tijd in het veld **Geretourneerd** in.
 4. Selecteer **OK**.
 5. Vernieuw de pagina met de lijst **Actieve geleende activa** en u ziet dat het geleende activum niet meer op de lijst voorkomt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

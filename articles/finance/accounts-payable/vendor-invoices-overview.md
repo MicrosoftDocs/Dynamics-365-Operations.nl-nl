@@ -129,3 +129,6 @@ U kunt het factuurtotaal weergeven op de pagina **Leveranciersfacturen in behand
 - [Factuurgegevens invoeren in leveranciers met behulp van een goedkeuringsjournaal](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Factuurgegevens invoeren in het AP-systeem met behulp van de facturengroep](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
 - [Een leveranciersfactuur in het factuurjournaal registreren](tasks/record-vendor-invoice-invoice-journal.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

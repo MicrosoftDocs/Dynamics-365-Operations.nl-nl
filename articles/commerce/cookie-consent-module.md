@@ -61,3 +61,6 @@ Zie [Koptekstmodule](author-header-module.md) voor meer informatie over koptekst
 [Koptekstmodule](author-header-module.md) 
 
 [Conformiteit van cookie](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

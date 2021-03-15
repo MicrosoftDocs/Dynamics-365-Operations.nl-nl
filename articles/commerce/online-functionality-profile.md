@@ -66,3 +66,6 @@ In de volgende afbeelding ziet u een voorbeeld van een online functionaliteitspr
 [Een detailhandelafzetkanaal instellen](channel-setup-retail.md)
 
 [Een callcenterkanaal instellen](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

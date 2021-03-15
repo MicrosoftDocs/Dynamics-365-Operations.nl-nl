@@ -76,3 +76,6 @@ De locatie-instructies bepalen *waar* artikelen moeten worden verzameld en *waar
 
 - Video: [Configuratie van magazijnbeheer: diepgravend](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Help-onderwerp: [Locatie-instructies maken](create-location-directive.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

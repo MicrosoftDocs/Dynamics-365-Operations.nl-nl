@@ -57,3 +57,6 @@ Het uitvoeren van deze procedure vereist een bestaand productconfiguratiemodel. 
     * Controleer of een van de productdimensies actief is en daardoor een waarde of kenmerk moeten toegewezen krijgen.  
 9. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

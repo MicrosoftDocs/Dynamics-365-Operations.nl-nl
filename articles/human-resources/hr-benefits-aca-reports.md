@@ -87,3 +87,6 @@ Als u gedekte personen moet rapporteren omdat u interne verzekering aanbiedt, ku
 
 > [!NOTE]
 > Alleen vergoedingsplannen die zijn gemarkeerd als **Aan te geven onder ACA** worden getoond in het informatievenster.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

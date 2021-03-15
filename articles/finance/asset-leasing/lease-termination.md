@@ -158,3 +158,6 @@ In de volgende tabellen ziet u de waarden die zijn ingesteld op de tabbladen **A
 11. Als u het nettoeffect wilt bekijken van de beëindiging, waarbij het RoU-activum en de leaseverplichtingen 0 (nul) zijn, opent u de tabellen Verplichtingen en Activumtransacties.
 
 De leasestatus moet nu **Beëindigd** zijn. Er worden geen journaalboekingen meer geboekt op deze lease tenzij, de beëindiging ongedaan wordt gemaakt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

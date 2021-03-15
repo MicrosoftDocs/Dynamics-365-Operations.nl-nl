@@ -58,3 +58,6 @@ Deze procedure laat zien hoe u een leveranciersrekening maakt en een adres en co
 7. Sluit de pagina.
 8. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

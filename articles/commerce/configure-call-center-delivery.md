@@ -94,3 +94,6 @@ U kunt desgewenst een versnellingscode koppelen aan een leveringsmethode die u c
 Orders die de volgende dag met luchtpost worden verzonden, moeten bijvoorbeeld elke dag om 13:00 in het magazijn worden opgehaald. In dit geval kan een versnellingscode worden gemaakt en die code kan worden gekoppeld aan een leveringsmethode voor levering de volgende dag die in het systeem is geconfigureerd. Als het magazijn de orderverzamelingswave maakt, kan de juiste versnellingscode in het veld **Spoed** worden gebruikt als filter, zodat orderverzameling alleen wordt uitgevoerd voor orders met leveringsmethoden die zijn gekoppeld aan deze code.
 
 Wanneer een callcenterorder wordt ingevoerd, kan een versnellingscode ook handmatig worden toegepast op de verkooporderkop of op een afzonderlijke verkooporderregel. De code kan weer worden gebruikt voor sorteren of rapportagedoeleinden. Soms moet een order zorgvuldig worden verwerkt vanwege een probleem van de klantenservice. In dit geval kan een specifieke versnellingscode worden toegepast op de orderkop of -regels om de order te helpen identificeren en prioriteren tijdens de afhandeling.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

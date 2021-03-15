@@ -49,3 +49,6 @@ Redencodes zijn optioneel. U kunt zelf bepalen of een redencode is vereist wanne
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Deze procedure demonstreert hoe verkooporders worden bevestigd. U ziet hoe u Ã©Ã
 11. Klik op **OK**.
 12. Klik op **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

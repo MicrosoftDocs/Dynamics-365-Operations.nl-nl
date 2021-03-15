@@ -82,3 +82,6 @@ Klik op de pagina **Project voor massaal aanstellen** op **Project openen** of *
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

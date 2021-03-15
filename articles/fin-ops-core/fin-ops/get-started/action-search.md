@@ -75,3 +75,6 @@ In het vorige voorbeeld, werden de resultaten van de actiezoekopdracht van het s
 ## <a name="action-search-vs-navigation-search"></a>Actiezoekopdracht vergeleken met navigatiezoekopdracht
 
 Actiezoekopdrachten zijn bedoeld om acties op een pagina te zoeken en uit te voeren, maar is er een apart zoekmechanisme voor het zoeken en navigeren naar pagina's. Zie het artikel [Navigatiezoekfunctie](navigation-search.md) voor meer informatie over deze functie.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

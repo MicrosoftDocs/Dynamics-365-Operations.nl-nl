@@ -111,3 +111,6 @@ Wanneer u het veld **Kostprijs retour** op een retourorderregel gebruikt om de r
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

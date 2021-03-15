@@ -41,3 +41,6 @@ Deze opsomming specificeert de optieset voor de waarden voor FLSA-vrijstellingss
 
 [Integratie-API voor sollicitantenvolgsysteem - Inleiding](hr-admin-integration-ats-api-introduction.md)<br>
 [Voorbeeldquery voor wervingsaanvraag](hr-admin-integration-ats-api-recruiting-request-example-query.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

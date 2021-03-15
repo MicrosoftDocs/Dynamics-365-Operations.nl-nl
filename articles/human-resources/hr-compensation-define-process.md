@@ -100,3 +100,6 @@ Compensatieprocessen worden gebruikt om nieuwe compensatiebedragen en toekenning
 10. Klik op Goedgekeurd.
     * Nadat de record is goedgekeurd, kan deze naar de officiële compensatierecord van de werknemer worden geladen. De nieuwe compensatie is van kracht vanaf de transactiedatum die in het compensatieproces werd ingesteld.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

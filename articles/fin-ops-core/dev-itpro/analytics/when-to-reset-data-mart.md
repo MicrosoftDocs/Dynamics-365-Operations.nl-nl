@@ -54,3 +54,6 @@ Er zijn omstandigheden waarin het niet wordt aangeraden een datamart opnieuw in 
 > De volgende punten geven twee zaken aan die met een datamart-reset *niet* gebeuren. <br>
 > - Met resets worden rapportontwerpen niet gewist. <br>
 > - Met resets worden bedrijfs- of gebruikersgegevens niet gewist, tenzij u dat hebt aangegeven.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

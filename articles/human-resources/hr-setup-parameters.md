@@ -50,3 +50,6 @@ De instellingen op het tabblad **Nummerreeks** bepalen de reeksen die worden geb
 
 > [!NOTE]
 > Het aantal uren dat is gewerkt, kan niet groter zijn dan 1250, en de lengte van het dienstverband kan niet langer dan 12 maanden zijn. Deze maximumwaarden zijn in overeenstemming met de federale wetgeving in de verenigde Staten. Tot slot bepalen de instellingen op het tabblad **Selfservice werknemer** welke informatie managers kunnen invoeren namens hun werknemers.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

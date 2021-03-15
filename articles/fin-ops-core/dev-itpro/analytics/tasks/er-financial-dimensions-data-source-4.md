@@ -49,3 +49,6 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen uitvoeren in de proce
 ![Pagina ER-configuraties](../media/er-financial-dimensions-guides-run3.png)
     * Controleer de gegenereerde uitvoer. Voor elke transactie van de geselecteerde batch worden de financiële dimensies uit de bijbehorende ingestelde dimensies weergegeven. Voer dit rapport uit en selecteer verschillende dimensies om te zien of het rapport niet afhankelijk is van het geselecteerde aantal dimensies of het aantal dimensies dat voor dit exemplaar is geconfigureerd.  
 ![Pagina ER-configuraties](../media/er-financial-dimensions-guides-run4.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

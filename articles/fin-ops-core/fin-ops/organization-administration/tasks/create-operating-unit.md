@@ -41,3 +41,6 @@ Een operationele eenheid is een organisatie die wordt gebruikt om het beheer van
     + Voer informatie in over communicatiemethoden, zoals e-mailadressen, URL's en telefoonnummers. Als u een nieuwe communicatierecord wilt invoeren, klikt u op Nieuw. Als u een bestaande communicatierecord wilt wijzigen, klikt u op **Meer opties > Geavanceerd**.   
 6. Indien nodig kunt u het **Nummer van de operationele eenheid** wijzigen. Let op, dit nummer is een unieke identifier voor het corresponderende **Partij**-record en mag niet hetzelfde zijn als een andere operationele eenheid.
 7. Selecteer **Opslaan**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

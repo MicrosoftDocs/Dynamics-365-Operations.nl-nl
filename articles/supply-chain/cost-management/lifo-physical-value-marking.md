@@ -150,3 +150,6 @@ In het volgende afbeelding worden de effecten van het LIFO-voorraadmodel op deze
 - Voorraadafsluitingen worden aangegeven met verticale rode streepjes en het label *Voorraadafsluiting*.
 - Vereffeningen die door voorraadafsluitingen worden uitgevoerd, worden weergegeven met rode diagonale stippelpijlen die van een ontvangst naar een uitgifte lopen.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

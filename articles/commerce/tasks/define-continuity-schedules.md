@@ -63,3 +63,6 @@ In dit onderwerp worden de stappen besproken voor het instellen van een continu√
     * Wanneer dit artikel wordt verkocht in een callcenter, wordt de extra bedrijfslogica toegepast van het geselecteerde continu√Øteitsprogramma.  
 7. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

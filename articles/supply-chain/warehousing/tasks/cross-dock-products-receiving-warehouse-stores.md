@@ -48,3 +48,6 @@ Deze procedure doorloopt de stappen om een cross-dock te maken en te verwerken o
 15. Zoek en selecteer in de lijst een magazijn dat producten heeft ontvangen.
 16. Klik op Order om de orders weer te geven die voor het geselecteerde magazijn zijn gemaakt
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

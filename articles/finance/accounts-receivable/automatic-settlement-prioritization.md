@@ -82,3 +82,6 @@ Als er geen vereffeningsprioriteit voor de gebruiker gedefinieerd is, worden tra
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ Zie [Integratie vaste activa](fixed-asset-integration.md) voor meer informatie.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

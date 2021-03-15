@@ -110,3 +110,6 @@ De productieplanner plant de materiaalbehoeften voor artikelen die co-producten 
 19. Selecteer Nee in het veld Alle planningsprocessen uitschakelen.
 20. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

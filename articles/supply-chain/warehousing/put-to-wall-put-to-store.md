@@ -540,3 +540,6 @@ Als de sorteerposities handmatig moeten worden gesloten, moet de optie **Sorteer
 
 > [!IMPORTANT]
 > Nadat de verplaatsingswerkzaamheden zijn gemaakt op basis van de sorteerlocatie, moet u het werk niet annuleren. Anders worden de positie en de containers uit het systeem verwijderd en zijn ze niet beschikbaar voor verdere verwerking. De voorraad wordt ook verwijderd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

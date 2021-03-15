@@ -54,3 +54,6 @@ In het prestatiejournaal wordt informatie vastgelegd die te maken heeft met hoe 
 20. Typ in het Veld Bschrijving 'Hartelijk dank voor alle hulp tijdens de conferentie!'.
 21. Klik op Verzenden.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

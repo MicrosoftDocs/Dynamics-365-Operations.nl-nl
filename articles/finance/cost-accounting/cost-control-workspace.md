@@ -157,3 +157,6 @@ Aanvullende resources
 [Toegangsrechten definiëren voor controllers voor kostenobjecten](access-rights-cost-object-controller.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

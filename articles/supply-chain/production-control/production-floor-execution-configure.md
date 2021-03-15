@@ -99,3 +99,6 @@ Met een batchtaak worden vermeldingen in de verwijzingstabel periodiek opgeschoo
 1. Selecteer in het actievenster de optie **Clientconfiguraties opschonen**.
 1. Stel in het dialoogvenster **Clientconfiguratie opschonen** het veld **Aantal dagen** in op het aantal dagen inactiviteit (vóór vandaag) dat u in aanmerking wilt nemen. U verwijdert alle configuraties en aanmeldingsrecords voor apparaten die gedurende die tijd niet actief zijn geweest.
 1. Selecteer **OK** om de relevante configuraties op basis van de instelling **Aantal dagen** op te schonen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

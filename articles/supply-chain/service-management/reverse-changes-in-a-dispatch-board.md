@@ -50,3 +50,6 @@ Gebruik de volgende stappen om onopgeslagen wijzigingen in een verzendbord om te
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

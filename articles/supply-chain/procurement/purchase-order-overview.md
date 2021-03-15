@@ -91,3 +91,6 @@ Het veld **Goedkeuringsstatus** wordt gebruikt wanneer een inkooporder een contr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

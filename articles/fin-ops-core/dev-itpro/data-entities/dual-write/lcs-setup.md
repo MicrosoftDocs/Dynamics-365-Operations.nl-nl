@@ -89,3 +89,6 @@ Voer de onderstaande stappen uit om de verbinding voor twee keer wegschrijven in
 > [!NOTE]
 > U kunt omgevingen niet ontkoppelen met behulp van LCS. Als u een omgeving wilt ontkoppelen, opent u het werkgebied **Gegevensintegratie** in de Finance and Operations-omgeving en selecteert u **Koppeling verbreken**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

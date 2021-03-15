@@ -63,3 +63,6 @@ Het demobedrijf dat wordt gebruikt om deze registratie te maken is USRT. Deze re
 5. Klik op Exporteren.
 6. Klik op PDF.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

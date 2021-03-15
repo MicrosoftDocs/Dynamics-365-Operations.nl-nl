@@ -41,3 +41,6 @@ Een verkooporder heeft bijvoorbeeld twee artikelen: een voor levering en een voo
 ### <a name="issue-resolution"></a>Probleemoplossing
 
 De vrijgavestatus is alleen van toepassing op orderregels met artikelen waarvoor magazijnbeheer is ingeschakeld. Daarom blijft de vrijgavestatus *Gedeeltelijk vrijgegeven* in dit scenario. Microsoft heeft dit probleem beoordeeld en heeft vastgesteld dat het een functiebeperking is. Een uitbreiding kan worden toegevoegd als onderdeel van de pakbon en het factureringsproces om de vrijgavestatus bij te werken.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

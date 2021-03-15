@@ -76,3 +76,6 @@ De Power BI-inhoud **CustCollectionsBICrossCompany** bevat een rapport dat uit e
 | Aanmaningen         | <ul><li>Verzamelingscodebedragen</li><li>Details bedragen aanmaningscode</li><li>Bedrag aanmaningen per bedrijf</li><li>Bedrag aanmaningen per klantengroep</li><li>Bedrag aanmaningen per regio</li></ul> |
 
 De grafieken en tegels op al deze rapporten kunnen worden gefilterd en op het dashboard worden vastgemaakt. Zie voor meer informatie over filteren en vastmaken in Power BI [Een dashboard maken en configureren](https://powerbi.microsoft.com/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). U kunt ook de functionaliteit voor het exporteren van onderliggende gegevens gebruiken om de onderliggende gegevens te exporteren die worden samengevat in een visualisatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

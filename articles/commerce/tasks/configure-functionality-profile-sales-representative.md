@@ -36,3 +36,6 @@ Deze procedure geeft aan hoe u de instellingen van het functionaliteitsprofiel v
 4. Selecteer een optie in het veld Vragen om verkoopvertegenwoordiger.
 5. Selecteer Ja in het veld Verkoopvertegenwoordiger vereisen.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

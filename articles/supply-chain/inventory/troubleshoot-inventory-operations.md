@@ -157,3 +157,6 @@ Dit probleem treedt op wanneer de voorraadtransactiehoeveelheid is opgegeven als
 
 > [!IMPORTANT]
 > Het is raadzaam het script zorgvuldig te bewerken voor uw omgeving, het te testen in een testomgeving en vervolgens de resulterende gegevens te controleren voordat u het script in een productieomgeving uitvoert.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

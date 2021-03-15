@@ -72,3 +72,6 @@ In deze procedure wordt aangegeven hoe u verouderde vrijgegeven producten of pro
 
 8. Zoek en selecteer de gewenste record in de lijst.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

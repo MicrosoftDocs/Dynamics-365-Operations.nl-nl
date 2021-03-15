@@ -343,3 +343,6 @@ Hier volgen enkele opmerkingen en tips voor het werken met de functie:
 
 - Als u dynamische locaties gebruikt, wordt aanvullingswerk gemaakt voor de eerste beschikbare locatie of voor een locatie die al voorraad bevat, als de locatie-instructieactie is ingesteld op het gebruik van de strategie **Consolideren**.
 - Als u vaste locaties gebruikt in plaats van zones, moet u [standaard min/max-aanvulling gebruiken](tasks/set-up-min-max-replenishment-process.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

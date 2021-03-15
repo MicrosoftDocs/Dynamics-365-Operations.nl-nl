@@ -74,3 +74,6 @@ Op de pagina **Onderhoudsbudgetregels** kunt u handmatig een nieuwe budgetregel 
 
 - U weet dat de revisie van bepaalde activa momenteel in de planningsfase is, maar gerelateerde taken zijn nog niet in het Activabeheer opgenomen. Budgetkosten voor deze taken moeten echter worden opgenomen in het onderhoudsbudget.
 - Nieuwe activa of activatypen zijn gemaakt nadat u het onderhoudsbudget hebt gemaakt, maar er zijn nog geen onderhoudsplannen voor de activa of activatypen ingesteld. Budgetkosten voor deze activatypen moeten echter worden opgenomen in het onderhoudsbudget.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

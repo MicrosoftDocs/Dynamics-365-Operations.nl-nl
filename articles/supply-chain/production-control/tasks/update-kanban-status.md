@@ -47,3 +47,6 @@ Wanneer een kanban per ongeluk is geleegd of als een ontvangen kanban moet worde
 2. Markeer in de lijst de geselecteerde rij.
     * De status van de materiaalverwerkingseenheid is Geleegd.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

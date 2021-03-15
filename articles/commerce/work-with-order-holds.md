@@ -102,3 +102,6 @@ Als gebruikers een wachtstand willen wissen maar aanvullende wijzigingen in de o
 ## <a name="reporting-options"></a>Rapportageopties
 
 Ga naar **Detailhandel en commerce** \> **Query's en rapporten** \> **Callcenterrapporten** \> **Rapport Orderwachtstanden** als u een rapport wilt uitvoeren over orderwachtstanden op datumbereik, wachtstandcode of andere gerelateerde criteria.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

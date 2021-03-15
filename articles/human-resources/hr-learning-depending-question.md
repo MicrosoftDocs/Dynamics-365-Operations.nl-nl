@@ -56,3 +56,6 @@ Voorwaardelijke vragen stellen u in staat op te geven welke opvolgende vraag aan
 10. Selecteer "Questions\I am paid fairly for the work I do." in de structuur.
     * Merk op dat de vraagstructuur wordt bijgewerkt om de afhankelijkheid aan te geven.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

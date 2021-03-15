@@ -71,3 +71,6 @@ Detailhandelaren kiezen er vaak voor om bepaalde producten, zoals nieuwe artikel
 
 > [!NOTE]
 > Wanneer de configuratie **Alle kortingen voorkomen** is ingesteld op **Ja**, worden er geen kortingen toegepast op het product. Er worden zelfs geen kortingen op basis van betalingsmethode toegepast.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

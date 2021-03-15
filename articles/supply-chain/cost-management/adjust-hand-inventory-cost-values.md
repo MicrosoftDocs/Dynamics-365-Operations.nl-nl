@@ -43,3 +43,6 @@ Dit artikel is ingesteld met het FIFO-voorraadmodel (first in, first out) en de 
 -   5 februari: een hoeveelheid van 1 tegen 13,00 EUR aan kosten
 
 Als u de kosten van deze twee artikelen wilt instellen op USD 15,00, gebruikt u de optie voor het corrigeren van de voorhanden voorraad om de openstaande voorhanden hoeveelheden te corrigeren vanaf de laatste voorraadafsluitingsperiode. **Opmerking:** de boekingsdatum van de correctietransactie voor de voorhanden voorraad is de datum van de laatste voorraadafsluiting. Deze datum kan niet worden gewijzigd.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

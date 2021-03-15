@@ -41,3 +41,6 @@ De volgende opties zijn beschikbaar voor het overboeken van batches uit de subad
 In versie 10.0.8 werden verbeteringen uitgevoerd om de prestaties van de optie Asynchroon te verbeteren. Deze functie is ingeschakeld onder de functienaam **Prestatieoptimalisatie voor overboeken van subadministratie naar grootboek**. 
  
 Deze functionaliteit verbetert de overdracht van gegevens vanuit de subadministratie naar het grootboek. Dit maakt het proces efficiënter, en groepeert sets van kleinere transacties bijeen voor overboeking. Hierdoor kan de batchserver efficiënter worden gebruikt. Voor deze functionaliteit moet de batchserver zijn ingesteld en online en functioneel zijn, zodat de optie voor asynchrone overdracht werkt. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

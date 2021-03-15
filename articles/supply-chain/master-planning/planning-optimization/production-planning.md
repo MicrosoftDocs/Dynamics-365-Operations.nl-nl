@@ -83,3 +83,6 @@ Voor planningsscenario's die productie omvatten, wordt u aangeraden gefilterde h
 Hoewel afhankelijke onderliggende artikelen automatisch worden gedetecteerd en opgenomen in hoofdplanningsuitvoeringen wanneer de ingebouwde hoofdplanningsengine wordt gebruikt, wordt deze actie niet uitgevoerd via Planningsoptimalisatie.
 
 Als bijvoorbeeld één bout uit de stuklijststructuur van product A ook wordt gebruikt om product B te produceren, moeten alle producten in de stuklijststructuur van producten A en B in het filter worden opgenomen. Omdat het zeer complex kan zijn ervoor te zorgen dat alle producten deel uitmaken van het filter, raden we u aan om gefilterde hoofdplanningsuitvoeringen te vermijden wanneer het gaat om productieorders.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

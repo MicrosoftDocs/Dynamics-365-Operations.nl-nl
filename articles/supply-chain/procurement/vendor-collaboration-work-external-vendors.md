@@ -258,3 +258,6 @@ De gebruiker die parameters voor het proces voor offerteaanvragen instelt, kan m
 - %createddate%
 
 Als een aanpassing vereist is en wordt verzonden nadat de offerteaanvraag is verzonden, wordt de offerteaanvraag opnieuw verzonden naar alle uitgenodigde leveranciers. Het gepubliceerde document wordt ook bijgewerkt op de pagina **Gepubliceerde offerteaanvragen openen**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

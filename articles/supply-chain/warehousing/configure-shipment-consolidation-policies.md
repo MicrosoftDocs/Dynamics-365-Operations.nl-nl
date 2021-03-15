@@ -353,3 +353,6 @@ In de volgende scenario's wordt beschreven hoe u het consolidatiebeleid voor zen
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Beleidsregels voor consolidatie van zendingen](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

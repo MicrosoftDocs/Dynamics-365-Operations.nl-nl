@@ -71,3 +71,6 @@ U kunt de historie van een element in een servicestuklijst vastleggen. Elke keer
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

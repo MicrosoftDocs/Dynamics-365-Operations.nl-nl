@@ -47,3 +47,6 @@ Stort klantbetalingen. Bij deze taak wordt het demobedrijf USMF gebruikt.
 17. Selecteer **OK**. De eerste pagina wordt gebruikt om de depositostrook te maken.  
 18. Selecteer **OK**. De tweede stap is het afdrukken van de depositostrook, maar deze stap is niet vereist.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

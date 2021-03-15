@@ -42,3 +42,6 @@ Als de lading meer dan een zending bevat, kunt u een hoofdvrachtbrief maken. Dez
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

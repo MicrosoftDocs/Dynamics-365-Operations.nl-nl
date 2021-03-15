@@ -41,3 +41,6 @@ Voer de volgende stappen uit om meerdere betalingsschema's te bevestigen.
     - Schakel de parameter **Voor alle boeken** in om alle boeken te bevestigen.
 
 De informatie voor de nieuw bevestigde boeken wordt weergegeven op de pagina **Bevestigde boeken**. Nadat de betalingsschema's zijn bevestigd, kunnen de journaalposten voor eerste toerekening worden geboekt op basis van de leases.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

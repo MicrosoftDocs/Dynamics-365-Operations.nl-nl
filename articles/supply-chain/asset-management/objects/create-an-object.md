@@ -115,3 +115,6 @@ Op dit sneltabblad kunt u onderhoudsronden toevoegen of verwijderen die zijn ger
 ## <a name="financial-dimensions"></a>Financiële dimensies
 
 U kunt financiële dimensies selecteren voor het activum.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -105,3 +105,6 @@ In Supply Chain Management wordt nu stuklijstberekening ondersteund waarin trans
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

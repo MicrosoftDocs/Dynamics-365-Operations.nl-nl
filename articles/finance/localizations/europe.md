@@ -99,3 +99,6 @@ Dit onderwerp bevat informatie en koppelingen naar bronnen die u kunnen helpen b
 
 - [Overzicht van elektronische rapportage](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

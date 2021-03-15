@@ -52,3 +52,6 @@ In dit artikel worden de stappen beschreven voor het maken en instellen van een 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

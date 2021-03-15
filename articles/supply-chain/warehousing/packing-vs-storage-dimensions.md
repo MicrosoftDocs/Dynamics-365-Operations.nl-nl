@@ -133,3 +133,6 @@ In dit proces maakt u een zending op basis van de *verpakkings* dimensie van het
 1. Open het mobiele apparaat, meld u aan bij magazijn 63 en ga naar **Voorraad \> Aanpassen in**.
 1. Voer **Loc** = *SHORT-01* in. Maak een nieuwe nummerplaat met **Artikel** = *A0001* en **Hoeveelheid** = *1 st*.
 1. Selecteer **OK**. U ontvangt de fout "Locatie SHORT-01 is mislukt omdat artikel A0001 niet in de opgegeven dimensies van de locatie past". Dit komt omdat de dimensies van het type *Opslag* van het product groter zijn dan de dimensies die in het locatieprofiel zijn opgegeven.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

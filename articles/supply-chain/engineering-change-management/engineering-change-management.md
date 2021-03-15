@@ -184,3 +184,6 @@ De meeste velden in orders voor technische wijzigingen zijn hetzelfde als de vel
 | Gezonde werkomgeving en veiligheid | Opgeven of de regels voor een gezonde werkomgeving en veiligheid van toepassing zijn op de wijziging. Als dat zo is, kunt u de toepasselijke regels selecteren. |
 
 Met de knop **Wijzigingsgegevens onderhouden/kopiëren** kunt u de wijzigingsgegevens kopiëren tussen producten waarin dit probleem optreedt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

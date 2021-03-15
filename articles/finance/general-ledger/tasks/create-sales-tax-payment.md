@@ -36,3 +36,6 @@ De procedure voor de taak Btw vereffenen en boeken vereffent btw-saldi op de btw
 5. Voer in het veld **Transactiedatum** een datum in.
 6. Klik op **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Deze procedure toont hoe u transacties tussen grootboekrekeningen vereffent en e
 7. Klik op Grootboekvereffeningen.
 8. Markeer in de lijst de geselecteerde rij.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ Als alternatief kan een organisatie op het tabblad **RMA/Retour** van de pagina 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Betalingsmethoden in callcenters](work-with-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

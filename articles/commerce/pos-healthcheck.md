@@ -82,3 +82,6 @@ Er kunnen ook aangepaste statuscontroles worden gemaakt om apparaten te testen d
 ## <a name="related-articles"></a>Gerelateerde artikelen
 
 [MPOS-triggers (Modern POS) en afdrukken](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

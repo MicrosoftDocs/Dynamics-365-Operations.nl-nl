@@ -146,3 +146,6 @@ De volgende tabel geeft het resultaat van de berekening voor een voorraadobject.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

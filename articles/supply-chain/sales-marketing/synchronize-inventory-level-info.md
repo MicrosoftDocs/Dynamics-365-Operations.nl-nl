@@ -92,3 +92,6 @@ U kunt filters toepassen met Geavanceerde query´s en filters, zodat dat alleen 
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Productvoorraad (Supply Chain Management naar Field Service): Productvoorraad
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

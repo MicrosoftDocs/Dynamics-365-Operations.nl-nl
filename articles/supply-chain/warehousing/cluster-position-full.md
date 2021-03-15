@@ -275,3 +275,6 @@ In dit scenario is de clusterverzameling voltooid en wordt de gebruiker geïnstr
     U ontvangt het bericht Cluster voltooid.
 
 U kunt nu de menuoptie **Orderverzamelen** gebruiken om het resterende aantal te verzamelen. Vervolgens kunt u met de menuopdracht **Verkoop laden** de artikelen van de faseringslocatie naar het laaddok verplaatsen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

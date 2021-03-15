@@ -41,3 +41,6 @@ GTIN-codes worden toegewezen door de organisatie GS1. In dit voorbeeld voert u e
 11. Typ een waarde in het veld GTIN.
 12. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

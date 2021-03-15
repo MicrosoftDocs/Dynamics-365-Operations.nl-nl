@@ -49,3 +49,6 @@ In Activabeheer kunt u documenten zo instellen dat deze automatisch worden gekop
 
 4. Selecteer **Bijlagen**. De standaardpagina **Documentverwerking** wordt weergegeven.
 5. Stel de documenten of notities in die aan de activadocumentrecord moeten worden gekoppeld. Nadat u documenten hebt gekoppeld, wordt in het veld **Bijlagen** het aantal documenten weergegeven dat aan de record is gerelateerd.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

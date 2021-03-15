@@ -67,3 +67,6 @@ Voor dit voorbeeld controleert u of aan gebruiker SHANNON de rol van machineoper
 6. In het veld **Productie-eenheid** kunt u het standaardfilter voor de medewerker instellen. Dit zorgt ervoor dat alleen productietaken voor de geselecteerde productie-eenheid worden weergegeven wanneer de medewerker zich bij het apparaat aanmeldt. Voer de gewenste waarde in.
 7. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ U kunt voorlopige budgetregisterregels maken voor een specifiek budgetmodel en d
 19. Klik op Bijwerken.
     * Om de resultaten van de update te zien, klikt u op de blauwe balk op Berichtdetails.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

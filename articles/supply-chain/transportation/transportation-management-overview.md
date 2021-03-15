@@ -86,3 +86,6 @@ Supply Chain Management bevat een strategie voor het opbouwen van ladingen die d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

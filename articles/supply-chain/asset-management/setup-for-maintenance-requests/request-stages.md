@@ -80,3 +80,6 @@ Nadat u de levenscyclusstatussen hebt gemaakt die vereist zijn voor uw onderhoud
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Levenscyclusmodellen van onderhoudsverzoeken**.
 
 ![Pagina Levenscyclusmodellen van onderhoudsverzoeken](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

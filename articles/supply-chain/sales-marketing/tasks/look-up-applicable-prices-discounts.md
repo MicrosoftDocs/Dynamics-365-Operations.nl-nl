@@ -59,3 +59,6 @@ Zorg ervoor dat het veld Klantrekening klantnummer US-001 bevat.
     * Er zijn twee regelkortingovereenkomsten voor product T0012, die een korting van 5% opgeven voor een orderregelhoeveelheid van 1 tot 10, en een korting van 7% voor orderhoeveelheden boven 10. Merk op dat de kortingen worden toegepast op een groep producten, in dit voorbeeld groepscode 01, waarvan product T0012 lid is.  
 4. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

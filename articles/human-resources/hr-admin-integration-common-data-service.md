@@ -126,3 +126,6 @@ Een volledige synchronisatie uitvoeren voor een tabel tussen Human Resources en 
 [Veelgestelde vragen over virtuele tabellen voor Human Resources](hr-admin-virtual-entity-faq.md)<br>
 [Wat is Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
 [Terminologiewijzigingen](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

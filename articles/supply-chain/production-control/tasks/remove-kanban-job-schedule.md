@@ -45,3 +45,6 @@ Deze procedure richt zich op het verwijderen van een geplande proceskanbantaak u
 4. Klik op OK.
     * Hiermee wordt de huidige taakstatus teruggedraaid van Gepland naar Niet-gepland en wordt de taak verwijderd van het verwerkingsbord.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

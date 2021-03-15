@@ -74,3 +74,6 @@ De servicetaakrelaties die zijn gemaakt voor een serviceorder, zijn beschikbaar 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Voer de volgende stappen uit als u winkeldetectie op basis van locatie wilt insc
 [Meerdere B2C-tenants configureren in een Commerce-omgeving](configure-multi-B2C-tenants.md)
 
 [Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen](add-cdn-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

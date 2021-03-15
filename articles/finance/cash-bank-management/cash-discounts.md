@@ -65,3 +65,6 @@ Op 15 februari wordt een factuur geboekt voor 1000 USD met contantkortingsvoorwa
 > [!NOTE]
 > Als de optie Contantkortingen berekenen voor gedeeltelijke betalingen is geselecteerd op de pagina's Parameters van module Klanten of Parameters van module Leveranciers, wordt de wisselkoers gebruikt die geldt op de datum van elke deelbetaling. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

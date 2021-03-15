@@ -60,3 +60,6 @@ De vereffening is 100,00 en omvat een betaling van 99,00 en een korting van 1,00
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

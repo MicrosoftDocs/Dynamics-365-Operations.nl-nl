@@ -38,3 +38,6 @@ In dit onderwerp ziet u hoe u een nieuwe vaste-activagroep maakt. Het gebruikt d
 8. Selecteer in het veld **Afschrijvingsconventie** een optie.
 9. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

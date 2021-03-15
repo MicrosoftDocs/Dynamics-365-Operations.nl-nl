@@ -59,3 +59,6 @@ Zie de volgende onderwerpen voor meer informatie:
 
 - [Financiële dimensies](financial-dimensions.md)
 - [Geavanceerde regelstructuren maken en toewijzen](tasks/create-assign-advanced-rule-structures.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

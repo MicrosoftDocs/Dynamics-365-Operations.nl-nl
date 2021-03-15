@@ -103,3 +103,6 @@ Voer deze stappen uit om een mediagaleriemodule aan een marketingpagina toe te v
 [Containermodule](add-container-module.md)
 
 [Afbeeldingen uploaden](dam-upload-images.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

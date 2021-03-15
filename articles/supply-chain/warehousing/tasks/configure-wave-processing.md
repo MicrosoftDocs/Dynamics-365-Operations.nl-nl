@@ -60,3 +60,6 @@ In deze begeleiding wordt beschreven hoe u de criteria instelt die bepalen wat v
 Bij verkooporders en kanbanorders moet de voorraad zijn gereserveerd voordat de order aan het magazijn wordt vrijgegeven. Anders kunnen artikelen of toewijzingsregels niet in een golf worden verwerkt. Voor productieorders hebt u ook de mogelijkheid om Gedeeltelijke reservering toestaan te kiezen. Dit is bijvoorbeeld handig als u de materialen hebt die u nodig hebt om een productie te starten. U kunt dan wachten totdat de extra materialen beschikbaar worden om het proces te voltooien. Als u deze optie selecteert, moet u de vrijgave naar het magazijnproces handmatig herhalen wanneer de aanvullende materialen beschikbaar worden.  
 25. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

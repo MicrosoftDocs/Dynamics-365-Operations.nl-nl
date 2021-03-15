@@ -72,3 +72,6 @@ De lijstpagina **Kanbantaakplanning** bevat feitenblok waarin de beschikbare en 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Leenartikelen zijn records waarmee u fysieke artikelen, zoals telefoons of compu
 14. Klik op OK.
 15. Vernieuw de pagina.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

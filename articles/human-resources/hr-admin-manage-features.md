@@ -94,3 +94,5 @@ Let op: vermeld geen persoonlijke gegevens (gegevens die uw identiteit vrijgeven
 
 - [Nieuw in Human Resources](hr-admin-whats-new.md)
 - [Releaseplan voor Dynamics 365 en Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

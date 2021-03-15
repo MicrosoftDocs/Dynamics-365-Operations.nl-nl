@@ -80,3 +80,6 @@ We hebben metagegevens over de Intrastat-tabelrecords toegevoegd.
 3.    Klik op **OK**. 
     
 De gemaakte ER‑metagegevensconfiguratie is opgeslagen als XML-bestand dat kan worden geïmporteerd naar RCS en gebruikt als de bron van informatie over metagegevens voor het bedrijfsdomein voor buitenlandse handel. Op basis van deze informatie kunnen we de toewijzing opgeven tussen de metagegevens van de toepassing en het ER-gegevensmodel.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

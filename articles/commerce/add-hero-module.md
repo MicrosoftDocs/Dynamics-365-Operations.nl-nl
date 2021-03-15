@@ -106,3 +106,6 @@ Voer de volgende stappen uit om een heldmodule aan een nieuwe pagina toe te voeg
 [Text Block-module](add-content-rich-block.md)
 
 [Videospelermodule](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

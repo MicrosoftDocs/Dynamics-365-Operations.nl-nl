@@ -168,3 +168,6 @@ Voor het voorbeeldscenario moet u twee locatieprofielen voorbereiden.
 
 > [!NOTE]
 > De locatievelden worden alleen bijgewerkt door magazijntransacties. Als u de voorraad verplaatst met behulp van een journaal of andere processen die niet WHS zijn, worden de velden niet bijgewerkt.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ In de volgende tabel wordt weergegeven hoe de uiterste tijdstippen voor orderinv
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

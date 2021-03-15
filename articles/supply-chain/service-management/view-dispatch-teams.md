@@ -52,3 +52,6 @@ Zie voor informatie over het toewijzen van een werknemer aan een team [Een voork
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

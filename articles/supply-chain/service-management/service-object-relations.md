@@ -77,3 +77,6 @@ De stuklijstontwikkelaar openen via een serviceobjectrelatie
 
 Indien u automatisch serviceorders voor een serviceovereenkomst maakt, worden de serviceobjectrelaties in de overeenkomst ook in de serviceorders gemaakt.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

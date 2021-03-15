@@ -70,3 +70,6 @@ Nadat de site is gemaakt, hebben alleen gebruikers in de beveiligingsgroepen die
 [Overwegingen bij SEO (Search Engine Optimization) voor uw site](search-engine-optimization-considerations.md)
 
 [Beveiligingsbeleid voor inhoud (CSP) beheren](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

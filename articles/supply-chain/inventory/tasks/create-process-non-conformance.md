@@ -66,3 +66,6 @@ In dit onderwerp wordt het beheer van non-conformiteiten, op basis van een besta
 2. Selecteer **Non-conformiteit afsluiten**.
 3. Selecteer **Ja**.
 4. Sluit de pagina's.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

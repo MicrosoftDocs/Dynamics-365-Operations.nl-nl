@@ -69,3 +69,6 @@ Deze procedure laat zien hoe u een loyaliteitsschema definieert. Loyaliteitssche
 27. Klik op Opslaan.
     * Elke keer dat u de kanalen voor een loyaliteitsschema wijzigt, moet u Loyaliteitsschema verwerken uitvoeren. Op die manier krijgen de kanalen bijgewerkte loyaliteitsschema's.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

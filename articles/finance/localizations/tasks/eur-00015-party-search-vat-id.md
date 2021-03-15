@@ -41,3 +41,6 @@ Deze procedure is van toepassing op alle Europese landen/regio's. De procedure i
 7. Klik op Zoeken..
     * Alle partijen met die registratie-id worden weergegeven.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

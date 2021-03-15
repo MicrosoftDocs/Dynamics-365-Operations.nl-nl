@@ -150,3 +150,6 @@ Op dit sneltabblad wordt de impact weergegeven van het geselecteerde alternatief
 ## <a name="additional-resources"></a>Aanvullende resources
 
 [Orderbelofte](delivery-dates-available-promise-calculations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

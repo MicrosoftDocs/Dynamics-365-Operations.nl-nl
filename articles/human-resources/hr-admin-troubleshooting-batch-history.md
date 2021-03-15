@@ -64,3 +64,6 @@ Plan een automatische taak om de batchtaakgeschiedenis op te schonen. Het is raa
 
 8. Wijzig indien nodig andere parameters onder **Uitvoeren op de achtergrond** en selecteer vervolgens **OK**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

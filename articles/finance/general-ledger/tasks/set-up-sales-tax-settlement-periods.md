@@ -50,3 +50,6 @@ Bij deze taak wordt het demobedrijf USMF gebruikt.
 16. Selecteer **Nieuw periode-interval**. Als het eerste periode-interval is ingevoerd, kunnen nieuwe perioden automatisch worden gemaakt. U kunt later nieuwe periode-intervallen toevoegen.  
 17. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

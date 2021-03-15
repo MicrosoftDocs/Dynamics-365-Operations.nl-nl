@@ -84,3 +84,6 @@ Voer deze stappen uit om de functionaliteit voor hoeveelheidslimieten voor B2B-o
 [Gebruikers van zakenpartners op B2B-sites voor e-commerce beheren](manage-b2b-users.md)
 
 [De betalingsmethode voor de klantrekening configureren voor B2B-e-commercesites](payment-method.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

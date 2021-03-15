@@ -78,3 +78,6 @@ Deze procedure laat zien hoe u een loyaliteitsprogramma instelt met twee loyalit
 39. Sluit de pagina.
 40. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

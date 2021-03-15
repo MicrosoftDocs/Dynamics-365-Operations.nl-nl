@@ -87,3 +87,6 @@ In de volgende tabel worden verschillende typen automatische productaanbevelinge
 [Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

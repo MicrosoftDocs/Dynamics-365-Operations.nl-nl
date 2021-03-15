@@ -77,3 +77,6 @@ Wanneer u echter een artikel gebruikt met een 'batch eronder'-reserveringshiëra
 Dit is zo ontworpen. Als u een dimensie boven de dimensie **Locatie** in de reserveringshiërarchie plaatst, moet u deze eerst opgeven voordat wordt vrijgegeven aan het magazijn. Microsoft heeft dit probleem beoordeeld en heeft vastgesteld dat het een functiebeperking was tijdens vrijgaven van het magazijn vanuit de workbench Ladingplanning. Gedeeltelijke hoeveelheden kunnen niet worden vrijgegeven als een of meer dimensies boven de **locatie** niet zijn opgegeven.
 
 Zie voor meer informatie [Flexibel reserveringsbeleid voor dimensies op magazijnniveau](flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

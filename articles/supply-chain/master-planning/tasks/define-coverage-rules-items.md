@@ -101,3 +101,6 @@ Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is
 11. Voer in het veld **Inkooptijd** 5 in.
 12. Klik op **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

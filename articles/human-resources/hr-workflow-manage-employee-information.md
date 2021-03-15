@@ -73,3 +73,6 @@ Voer de volgende stappen uit om een eenvoudige workflow te configureren die word
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

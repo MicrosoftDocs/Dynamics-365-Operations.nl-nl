@@ -111,3 +111,6 @@ De volgende belangrijke samengevoegde metingen worden gebruikt als de basis van 
 | Verzendprestaties        | Verzonden per product                       | CustPackingSlipOnTimeStatus           | Vroeg, Op tijd en Laat (zie de beschrijvingen eerder in deze tabel). |
 | Verzendprestaties        | Verzonden per klant                      | CustPackingSlipOnTimeStatus           | Vroeg, Op tijd en Laat (zie de beschrijvingen eerder in deze tabel). |
 | Verzendprestaties        | Verzonden per locatie/magazijn              | CustPackingSlipOnTimeStatus           | Vroeg, Op tijd en Laat (zie de beschrijvingen eerder in deze tabel). |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

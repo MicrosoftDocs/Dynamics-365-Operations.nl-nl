@@ -276,3 +276,6 @@ Als een gebruiker niet binnen de toegekende tijd actie onderneemt op een documen
 
 5. Herhaal stappen 3 tot en met 4 voor elke gebruiker die u aan het escalatiepad wilt toevoegen. U kunt de volgorde van de gebruikers wijzigen.
 6. Als de gebruikers in het escalatiepad niet binnen de gestelde tijd op het document reageren, onderneemt het systeem automatisch actie op het document. Om de actie in te stellen die het systeem moet uitvoeren, selecteert u de rij **Actie** en klikt u op het tabblad **Actie beëindigen**. Selecteer hier een actie.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

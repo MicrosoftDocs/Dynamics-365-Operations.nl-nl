@@ -156,3 +156,6 @@ De volgende afbeelding illustreert de gevolgen van het LIFO-voorraadmodel bij ge
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Wanneer u cyclustellingsplannen gebruikt om telwerk te maken, kunt u de werkelij
 14. Klik op OK.
 15. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

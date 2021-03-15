@@ -302,3 +302,6 @@ Voer de volgende stappen uit om een pagina met factuurdetails in Site Builder te
 [Inhoudsblokkenmodule](../add-hero-module.md)
 
 [Productverzameling](../product-collection-module-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ Deze procedure laat zien hoe u een nieuwe status voor een productlevenscyclus ma
 3. Typ een waarde in het veld Status.
 4. Typ een waarde in het veld Omschrijving.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

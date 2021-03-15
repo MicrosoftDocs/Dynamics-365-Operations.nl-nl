@@ -87,3 +87,6 @@ Bij de methode 150% degressieve afschrijving wordt 150 procent door het aantal j
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

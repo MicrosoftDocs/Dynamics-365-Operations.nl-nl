@@ -37,3 +37,6 @@ Wanneer er meerdere vervoerders en vervoerdersservices zijn voor hetzelfde route
 1. Voer in het veld **Naam** een beschrijvende naam voor de groep in.
 1. Voeg op sneltabblad **Details** een rij toe en selecteer een vervoerder en een vervoerdersservice ervoor. Herhaal deze stap totdat u net zoveel vervoerders hebt toegevoegd als u nodig hebt voor de groep.
 1. Sluit de pagina.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

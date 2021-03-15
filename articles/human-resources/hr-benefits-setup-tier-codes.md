@@ -41,3 +41,6 @@ Dynamics 365 Human Resources gebruikt laagcodes met tariefvergoedingen die worde
    | **Beschrijving** | Een beschrijving van de code van een vergoedingslaag. |
 
 4. Selecteer **Opslaan**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

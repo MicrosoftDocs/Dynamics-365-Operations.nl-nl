@@ -58,3 +58,6 @@ U kunt doelstellingen maken, activiteiten toevoegen aan doelstellingen, metingen
     * Vaak zijn meerdere doelstellingen hetzelfde of vergelijkbaar voor teamleden of alle werknemers.     Uw HR-beheerder of -manager kan doelstellingsgroepen maken die een of meer doelsjablonen bevatten. U kunt doelstellingen toevoegen vanuit een doelstellingsgroep en deze dan aanpassen voor uw tijdslijnen.  
     * Wanneer u een beoordeling maakt, kunt u daaraan doelstellingen toevoegen. In de taakhandleiding voor beoordelingen wordt uitgelegd hoe u doelstellingen aan uw beoordelingen toevoegt.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ De traceringsdimensie **Eigenaar** ontbreekt wanneer de magazijn-app wordt gebru
 ### <a name="issue-resolution"></a>Probleemoplossing
 
 Microsoft heeft dit probleem beoordeeld en heeft vastgesteld dat het een functiebeperking is. Momenteel ondersteunt magazijnbeheer alleen voorraad die eigendom is van de rechtspersoon.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

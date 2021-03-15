@@ -106,3 +106,6 @@ Als u eenheidsomrekeningen naar Excel wilt exporteren, selecteert u op de pagina
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Maateenheid beheren](tasks/manage-unit-measure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

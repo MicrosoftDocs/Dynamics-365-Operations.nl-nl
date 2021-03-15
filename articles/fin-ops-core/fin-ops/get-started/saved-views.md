@@ -224,3 +224,6 @@ Voor pagina's met grote weergavekiezers (zowel persoonlijke instellingen als que
 
 - Als u van een tegel naar een pagina navigeert, wordt de query uitgevoerd, ongeacht de query die aan de standaardweergave is gekoppeld. Als u deze tegel hebt gemaakt nadat weergaven zijn ingeschakeld, wordt door het selecteren van een tegel de pagina geopend met de weergave die aan die tegel is gekoppeld.
 - Als u naar een pagina gaat en dat invoerpunt query bevat, wordt de oorspronkelijke query uitgevoerd in plaats van de query van de standaardweergave. Wanneer dat gebeurt, moet u een waarschuwing krijgen in een informatief bericht wanneer de weergave wordt geladen. U kunt ook bevestigen door naar deze pagina over te schakelen nadat de pagina is geladen,aangezien de weergavequery in dat geval sowieso moet worden uitgevoerd.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

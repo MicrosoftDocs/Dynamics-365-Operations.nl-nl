@@ -70,3 +70,6 @@ Met het upgradeproces verplaatst u uw bestaande instellingen en alle uw bestaand
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

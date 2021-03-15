@@ -255,3 +255,5 @@ De locatie-id die wordt gebruikt voor het werknemersadres, maakt geen deel uit v
 In de volgende afbeelding ziet u een voorbeeld van een sjabloontoewijzing in de Data Integrator. 
 
 ![Sjabloontoewijzing](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

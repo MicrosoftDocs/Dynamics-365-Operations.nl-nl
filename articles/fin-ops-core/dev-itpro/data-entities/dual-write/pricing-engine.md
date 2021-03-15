@@ -69,3 +69,6 @@ Wanneer de kolommen in Sales zijn ingevuld, gelden de volgende beperkingen:
 + De instellingen van toeslagen en toeslagtoewijzingen in Supply Chain Management worden niet in Sales gerepliceerd.
 + Voor prijzen wordt geen rekening gehouden met speciale adviesprijzen die zijn opgegeven in de kolom **Detailhandelafzetkanaal** op de pagina Verkooporderregel in Supply Chain Management.
 + Kortingen die zijn gedefinieerd in de sectie **Beheer van handelstoeslag** van Supply Chain Management worden niet meegenomen.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

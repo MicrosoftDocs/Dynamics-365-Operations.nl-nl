@@ -91,3 +91,6 @@ De vereisten voor het uitvoeren van de procedure met een andere dataset zijn een
 12. Sluit de pagina.
 13. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

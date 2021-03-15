@@ -43,3 +43,6 @@ Dit probleem kan ook een kwestie van timing zijn. Volg deze stappen om de batcht
 1. Selecteer **Bewerken** boven aan de pagina en stel de geplande begindatum/-tijd in waarmee de analyses dichter bij de huidige tijd worden vernieuwd.
 
 ![Batchtaken](media/batch-jobs.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

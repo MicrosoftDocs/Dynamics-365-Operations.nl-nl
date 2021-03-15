@@ -95,3 +95,6 @@ Deze procedure toont u hoe u het berekenen en bijhouden van verkoopprovisie inst
 17. Selecteer in de lijst de provisiegroep die u eerder hebt gemaakt.
 18. Selecteer **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

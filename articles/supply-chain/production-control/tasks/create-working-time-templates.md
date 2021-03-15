@@ -78,3 +78,6 @@ Werktijdsjablonen de definiëren de werkuren door een week en worden gebruikt om
 3. Vouw de sectie Zondag uit.
 4. Selecteer Ja in het veld Gesloten voor ophalen.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

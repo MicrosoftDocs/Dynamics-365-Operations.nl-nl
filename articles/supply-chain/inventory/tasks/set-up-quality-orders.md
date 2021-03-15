@@ -135,3 +135,5 @@ Deze procedure laat zien hoe u een kwaliteitsbeheerproces kunt inschakelen waarb
 
 > [!NOTE]
 > De functie *Kwaliteitsbeheer voor magazijnprocessen* biedt aanvullende opties voor het instellen van kwaliteitskoppelingen. Er wordt een nieuwe voorwaarde toegevoegd (**Toepasselijk magazijntype**) en een nieuwe instelling (**Kwaliteitsverwerkingsbeleid**). Als u deze functie hebt ingeschakeld, vindt u in [Kwaliteitsbeheer voor magazijnprocessen](../quality-management-for-warehouses-processes.md) meer informatie.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ De knoppen in het actievenster zijn geordend op tabbladen. In de volgende tabel 
 | Reserveonderdelen          | Een lijst met goedgekeurde en alternatieve reserveonderdelen weergeven die voor het activum kunnen worden gebruikt.                                                                               |
 | Activaverbruik    | Een rapport afdrukken waarin verbruiksregistraties voor het activum worden weergegeven.                                                                                                |
 | Activafout          | Een rapport afdrukken waarin foutregistraties voor het activum worden weergegeven.                                                                                                      |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

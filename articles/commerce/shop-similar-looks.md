@@ -115,3 +115,6 @@ In de volgende afbeelding ziet u het selectievakje **Koppeling voor vergelijkbar
 [Aanbevelingen maken met voorbeeldgegevens](product-recommendations-demo-data.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

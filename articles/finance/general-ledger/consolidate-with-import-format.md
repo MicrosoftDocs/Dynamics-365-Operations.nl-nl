@@ -42,3 +42,6 @@ In de volgende tabel wordt de importindeling vermeld die u moet gebruiken bij he
 | 6            | Bedrijfseenheid, 1 Afdeling, 2 | De kenmerken van financiële dimensies die in de segmentvolgorde zijn gedefinieerd.<p>U kunt de pagina **Exporteren** gebruiken om te controleren hoe de kenmerken zijn gedefinieerd.</p> |
 | 7            | 002,1,658 | <ul><li>De waarde van financiële dimensie</li><li>De financiële dimensie, als de index die wordt geleverd in RecordDimensions</li><li>Een dubbelzinnige, unieke record-id die gekoppeld is aan de unieke record-id van RecordTrans of RecordTrans2</li></ul> |
 | 8            | 002,1,1 | <ul><li>Dimensiewaarden die aan de transactie zijn gekoppeld vanuit Recordbudget</li><li>De financiële dimensie, als de index die wordt geleverd in RecordDimensions</li><li>Een dubbelzinnige regelrecord-ID die is afgestemd op de volgorde van de transactieregels in het bestand</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

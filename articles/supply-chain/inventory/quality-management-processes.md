@@ -100,3 +100,6 @@ Het is daarom een goed idee om een uniek documenttype voor correcties te defini√
 [Kwaliteitsorders instellen](tasks/set-up-quality-orders.md)
 
 [Inspecteer de kwaliteit van goederen](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

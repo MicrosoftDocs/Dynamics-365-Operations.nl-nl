@@ -98,3 +98,6 @@ In de volgende afbeelding ziet u het selectievakje **Koppeling voor vergelijkbar
 [Handmatig gecureerde aanbevelingen maken](create-editorial-recommendation-lists.md)
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

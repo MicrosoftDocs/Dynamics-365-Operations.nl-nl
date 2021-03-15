@@ -64,3 +64,6 @@ De taalinstellingen van de gebruiker van het POS kunnen worden ingesteld via **A
 | **Bedrijf** | Standaard                    | Standaard                                                       |
 | **Winkel**   | Overschrijft bedrijf          | Overschrijft bedrijf                                             |
 | **Gebruiker**    | Overschrijft opslag of bedrijf | Nooit                                                         |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

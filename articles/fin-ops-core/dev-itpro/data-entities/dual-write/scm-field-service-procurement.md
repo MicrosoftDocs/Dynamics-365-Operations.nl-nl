@@ -215,3 +215,6 @@ De volgende sjablonen zijn beschikbaar voor de integratie van inkoopgerelateerde
 [!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
 
 [!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

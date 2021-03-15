@@ -83,3 +83,6 @@ Als u rekeningen wilt toewijzen aan de leaseboeken en groepen die zijn gemaakt, 
     > [!NOTE]
     > De geselecteerde financiële of operationele rekening wordt gedebiteerd wanneer de factuur voor de geplande onkosten wordt geboekt.
     > **Verschuiving leaseonkosten** wordt gebruikt als boekingstype voor transacties van administratieve kosten, maar boekt naar de gedefinieerde **Tegenrekening** in de **Betalingschemaregels voor administratieve kosten** in de leasedetails of het leaseboekformulier.   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

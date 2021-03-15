@@ -89,3 +89,6 @@ Zie voor meer informatie het onderwerp [Btw-tarieven op basis van Marginale basi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

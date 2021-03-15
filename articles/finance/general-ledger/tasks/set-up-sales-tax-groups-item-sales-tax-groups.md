@@ -49,3 +49,6 @@ Deze taakregistratie doorloopt de instelling van btw-groepen en btw-groepen voor
 19. Klik in de lijst op de koppeling in de geselecteerde rij.
 20. Klik op **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

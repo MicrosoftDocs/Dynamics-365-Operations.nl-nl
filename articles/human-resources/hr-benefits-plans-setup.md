@@ -159,3 +159,6 @@ U kunt een omschrijving opgeven van het plan om werknemers te helpen bij het sel
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Plannen** de optie **Vergoedingsplannen**.
 
 2. Selecteer **Flex-kredietprogramma's**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

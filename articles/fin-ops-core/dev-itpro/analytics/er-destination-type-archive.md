@@ -57,3 +57,6 @@ Als de locatie van het documenttype is ingesteld op **Azure-opslag**, kunt u een
 - [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 - [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 - [Documentbeheer configureren](../../fin-ops/organization-administration/configure-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

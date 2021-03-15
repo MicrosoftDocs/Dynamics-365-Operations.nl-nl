@@ -67,3 +67,6 @@ Dit is de vijfde van vijf procedures die het proces weergeven voor innen van kla
 11. Klik op OK.
 12. Klik op OK.
 13. Klik op Betalingen maken.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Deze procedure doorloopt hoe u de lijst van betalingsproviders weergeeft en hoe 
 24. Klik op het selectievakje Standaardverwerker voor nieuwe creditcards.
 25. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operati
 83. Klik op Opslaan.
 84. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

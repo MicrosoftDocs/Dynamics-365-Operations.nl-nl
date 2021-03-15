@@ -62,3 +62,6 @@ Deze procedure is gericht op het maken van een beleid voor berekening van de kan
 8. Klik in de lijst op de koppeling in de geselecteerde rij.
     * Selecteer het beleid Speaker2016 dat u zojuist in de vorige deeltaak hebt gemaakt.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

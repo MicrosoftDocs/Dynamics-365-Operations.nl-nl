@@ -72,3 +72,6 @@ U kunt kalenders ook filteren op manager of afdeling. De primaire positietoewijz
 
 Zie [Kalenderparameters configureren](hr-leave-and-absence-parameters.md?configure-calendar-parameters) voor meer informatie over kalenderinstellingen.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Open vragen stellen respondenten in staat om hun eigen antwoord te geven. U kunt
     * Een invoertype Tekst of Notitie wordt gebruikt voor een open vraag.  
 6. Voer uw vraag in het veld Tekst in.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

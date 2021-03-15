@@ -78,3 +78,6 @@ Human Resources verbindt mensen en bedrijfsgegevens met elkaar om u te helpen uw
 [Verlof en verzuim beheren](hr-leave-and-absence-overview.md)</br>
 [Werknemers ontwikkelen](hr-develop-performance-management-overview.md)</br>
 [Cursussen maken](hr-learning-courses.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

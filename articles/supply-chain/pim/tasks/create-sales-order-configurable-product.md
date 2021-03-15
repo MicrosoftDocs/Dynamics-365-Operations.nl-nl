@@ -52,3 +52,6 @@ Deze procedure laat zien hoe u een configuratiesjabloon toepast op een product i
 
 ## <a name="select-the-product-configuration"></a>Selecteer de productconfiguratie
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

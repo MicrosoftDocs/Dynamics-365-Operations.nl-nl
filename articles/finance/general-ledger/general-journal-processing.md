@@ -104,3 +104,6 @@ De mogelijkheid om een journaal in een werkstroom met de status 'Onherstelbaar' 
 
 ## <a name="delete-journal-lines"></a>Journaalregels verwijderen
 De mogelijkheid om alle journaalregels snel te verwijderen, is in een journaal ingeschakeld onder **Functies** > **Journaalregels verwijderen**. Als u deze functie wilt inschakelen, selecteert u op de pagina **Functiebeheer** de optie **Prestatie-optimalisaties van journaal verwijderen**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

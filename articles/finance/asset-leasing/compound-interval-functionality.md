@@ -159,3 +159,6 @@ In de volgende tabel worden de eerste twaalf maanden van het betalingsschema wee
 
 > [!NOTE]
 > Als het type annuïteit is gewijzigd in **Te betalen annuïteit**, vindt de betaling plaats in januari in plaats van in december.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

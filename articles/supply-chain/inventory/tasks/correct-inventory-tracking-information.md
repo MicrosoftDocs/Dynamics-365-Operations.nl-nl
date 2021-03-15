@@ -63,3 +63,6 @@ Deze procedure begeleidt u door het proces voor het maken en boeken van een voor
 2. Klik op Transacties.
     * Hier ziet u de transacties die werden gemaakt toen u uw journaal boekte.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -147,3 +147,6 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen uitvoeren in de proce
 4. Klik op Voltooien.
 5. Klik op OK.
 ![Pagina voor ontwerper van ER-modeltoewijzingen](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

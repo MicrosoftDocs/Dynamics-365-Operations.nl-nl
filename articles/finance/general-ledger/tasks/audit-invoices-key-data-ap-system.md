@@ -61,3 +61,6 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt. De leveranciersmanager o
 9. Klik in het actievenster op **Controleren**.
 10. Klik op **Vereffeningsgegevens**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

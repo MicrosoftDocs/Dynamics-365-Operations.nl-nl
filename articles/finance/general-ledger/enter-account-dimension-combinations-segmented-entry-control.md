@@ -113,3 +113,6 @@ In de volgende tabel worden de sneltoetsen op het toetsenbord beschreven die kun
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

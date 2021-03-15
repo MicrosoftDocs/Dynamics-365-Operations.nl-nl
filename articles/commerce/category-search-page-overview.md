@@ -110,3 +110,6 @@ De volgende onderdelen zijn essentieel voor een pagina met zoekresultaten:
 
 [Overzicht van pagina's voor accountbeheer](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

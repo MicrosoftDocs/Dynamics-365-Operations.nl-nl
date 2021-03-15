@@ -105,3 +105,6 @@ In het volgende voorbeeld ziet u hoe een **rapport met voorraadwaarden** wordt g
 1. Op de pagina **Uitvoeringsoverzicht** die wordt geopend, kunt u de status van uw exporttaak en een lijst met entiteiten zien die zijn geëxporteerd. Selecteer de entiteit **Voorraadwaarde** in de sectie **Verwerkingsstatus entiteit** en selecteer vervolgens **Bestand downloaden** om de geëxporteerde gegevens van die entiteit te downloaden.
 
 Zie [Overzicht van Gegevensimport- en exporttaken](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) voor meer informatie over het gebruik van gegevensbeheer voor het exporteren van gegevens.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

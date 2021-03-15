@@ -41,3 +41,6 @@ Als er een conflict is met het rekeningschema, kan het scheidingsteken voor het 
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>Bepalen of uw omgeving bijgewerkte scheidingstekens vereist 
 Als scheidingstekens in uw bijgewerkte omgeving conflicten veroorzaken, kan het instabiel zijn wanneer u waarden invoert in een besturingselement voor het invoeren van segmenten of dimensies. Dit houdt in dat u altijd zoekopdrachten of een flyout-menu moet gebruiken voor het invoeren van combinaties van rekeningen en dimensies.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

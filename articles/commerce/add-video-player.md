@@ -105,3 +105,6 @@ Voer de volgende stappen uit om een videospelermodule aan een nieuwe pagina toe 
 [Text Block-module](add-content-rich-block.md)
 
 [Inhoudsblokmodule](add-hero-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -79,3 +79,5 @@ Er wordt een banner weergegeven op de pagina **Koppelingen** van het werkgebied 
 Nadat redencodes naar Personeelsbeheer zijn gemigreerd, wordt de optie voor het gebruik ervan in Vergoedingenbeheer automatisch ingesteld op **Ja**.
 
 [![Redencode gebruiken in Vergoedingenbeheer](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ De voettekst die de copyrightgegevens bevat, wordt automatisch weergegeven onder
 
 [Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

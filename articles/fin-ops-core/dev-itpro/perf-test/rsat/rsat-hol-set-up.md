@@ -803,3 +803,6 @@ In deze sectie maakt u een opgeslagen variabele in de eerste testcase, maakt u e
 2. Controleer of de testcases zijn geslaagd.
 
     ![Het veld Resultaat ingesteld op Geslaagd voor beide testcases](./media/setup_rsa_tool_105.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

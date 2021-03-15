@@ -109,3 +109,6 @@ Voor het inschakelen en gebruiken van de invoegtoepassing voor elektronische fac
 - [Servicebeheer](e-invoicing-service-administration.md)
 - [Elektronische facturen configureren in RCS](e-invoicing-configuration-rcs.md)
 - [Elektronische facturen uitgeven in Finance en Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

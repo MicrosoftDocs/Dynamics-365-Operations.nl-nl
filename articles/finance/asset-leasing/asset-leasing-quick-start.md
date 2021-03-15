@@ -252,3 +252,6 @@ Voer de volgende stappen uit om een nieuwe lease te maken.
 
    Op de pagina **Transacties leaseverplichtingen** worden de eerste toerekening, rentebetaling voor lease, leasebetaling en het saldo van leaseverplichtingen weergegeven. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

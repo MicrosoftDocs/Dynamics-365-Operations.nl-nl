@@ -57,3 +57,6 @@ Wanneer u dit rapport genereert, zijn de volgende standaardvelden beschikbaar. U
 Als u alleen niet-btw-rekeningen wilt weergeven in het rapport, stelt u een filtervoorwaarde in, zoals een asterisk (\*), zoals wordt weergegeven in de volgende afbeelding.
 
 ![Rapport met niet-belastingrekeningen](media/taxspecperledgertrans.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

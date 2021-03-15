@@ -835,3 +835,6 @@ De volgende randapparaten zijn getest met een gedeeld IIS-hardwarestation, samen
 [Randapparatuursimulator voor Commerce](dev-itpro/retail-peripheral-simulator.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

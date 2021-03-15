@@ -64,3 +64,5 @@ U vindt meningen, nieuws en andere informatie over Kostenbeheer in de [blog van 
 #### <a name="task-guides"></a>Taakbegeleidingen
 
 Extra informatie is beschikbaar als taakbegeleidingen. Klik op elke pagina op de knop Help als u een taakbegeleiding wilt openen.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

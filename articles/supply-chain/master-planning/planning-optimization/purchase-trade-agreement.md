@@ -89,3 +89,6 @@ De volgende tabel bevat voorbeelden die laten zien hoe verschillende instellinge
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Inkoopovereenkomsten](../../procurement/purchase-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Naarmate bedrijven zich ontwikkelen en omstandigheden veranderen, is het mogelij
 U kunt het proces **Saldostatistieken van klant bijwerken** uitvoeren om de berekening van saldostatistieken bij te werken die worden weergegeven op de pagina **Saldostatistieken opvragen**. Deze informatie wordt gebruikt voor het berekenen van risicoscores en de waarden die worden weergegeven in de feitenblokken met kredietstatistieken op de pagina **Klant**.
 
 Wanneer u het proces uitvoert, worden saldostatistieken voor één klant bijgewerkt. Als u een batchtaak wilt instellen om het proces uit te voeren voor meerdere klanten, kunt de pagina **Saldostatistieken berekenen** gebruiken (**Kredietbeheer \> Periodieke taken \> Saldostatistieken berekenen**).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

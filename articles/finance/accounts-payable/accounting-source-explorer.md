@@ -50,3 +50,6 @@ Voor deze documenten kunt u ook naar het werkelijke brondocument van Boekhouding
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

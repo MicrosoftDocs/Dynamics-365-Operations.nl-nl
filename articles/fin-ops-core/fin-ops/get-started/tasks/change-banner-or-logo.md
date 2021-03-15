@@ -39,3 +39,6 @@ De volgende procedure toont de stappen die systeembeheerders kunnen gebruiken om
 6. Ga naar **Navigatievenster > Modules > Algemeen > Algemeen > Standaarddashboard**. U zou de nieuwe banner of logoafbeelding op het dashboard moeten zien.  
     
     U moet uw bedrijf mogelijk wijzigen, met de bedrijfskiezer, in het bedrijf waarvoor u de banner hebt geüpload.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

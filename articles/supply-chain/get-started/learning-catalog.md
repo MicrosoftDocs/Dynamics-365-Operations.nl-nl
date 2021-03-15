@@ -186,3 +186,6 @@ Vind de juiste online training in persoonlijk workshops en evenementen voor uw r
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

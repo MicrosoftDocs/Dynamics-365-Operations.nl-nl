@@ -106,3 +106,6 @@ Overweeg de volgende vereisten voor de uitvoering als u assortimenten voor uw Co
 - **Verkopen en retouren buiten assortimenten**: met deze mogelijkheid kunnen detailhandelaren hun assortimenten effectief beheren, doordat ze het aantal beschikbare producten beperken tot producten die tot de kernproductmix voor de winkel behoren. Hierdoor kunnen detailhandelaren ook situaties verwerken waarin een product per ongeluk is weggelaten uit een assortiment of waarin een product buiten de ingangsdatums voor het assortiment is geretourneerd.
 
 Als productgegevens niet bestaan in de kanaaldatabase, start het POS realtime oproepen naar het hoofkantoor om de vereiste informatie op te halen, zodat het product kan worden verkocht, geretourneerd of op een bestelling kan worden geplaatst. Productgegevens die op deze manier worden opgehaald, zijn alleen beschikbaar tijdens het bereik van deze transactie. Het product wordt niet toegevoegd aan de assortimentdefinitie. Daarom worden volgende realtime aanroepen gestart indien vereist.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

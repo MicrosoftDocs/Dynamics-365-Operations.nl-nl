@@ -295,3 +295,6 @@ Fabrikam ontvangt een betaling van 75,00 EUR van klant 4000, Northwind Traders. 
 | Klanten (Fabrikam West)    |              | 75,00         |
 | Te ontvangen van Fabrikam East (Fabrikam West) | 25,00        |               |
 | Crediteuren (Fabrikam West)    |              | 25,00         |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ De gecorrigeerde kosten per uur en de taaktijd worden geboekt in een productiejo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

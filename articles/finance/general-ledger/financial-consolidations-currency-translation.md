@@ -181,3 +181,6 @@ Hier volgen enkele consolidatiescenario's die in Financiële rapportage worden o
 
 ## <a name="generating-consolidated-financial-statements"></a>Geconsolideerde financiële overzichten genereren
 Zie voor informatie over scenario's waarin u mogelijk geconsolideerde financiële overzichten genereert [Geconsolideerde financiële overzichten genereren](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

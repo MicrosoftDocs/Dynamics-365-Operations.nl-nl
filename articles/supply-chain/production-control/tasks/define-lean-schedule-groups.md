@@ -55,3 +55,6 @@ Kanbanschemagroepen zijn gedefinieerd om producten te groeperen en te onderschei
 3. Klik in het veld Artikeltoewijzingssleutel op de vervolgkeuzeknop om de zoekopdracht te openen.
 4. Klik in de lijst op de koppeling in de geselecteerde rij.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

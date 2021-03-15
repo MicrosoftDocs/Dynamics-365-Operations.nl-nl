@@ -62,3 +62,6 @@ De profielen voor vaardigheidstoewijzing maken het mogelijk huidige werknemers o
 U kunt een analyse van een vaardigheidsprofiel maken om een lijst met de competenties van een werknemer, sollicitant of een contactpersoon vanaf een bepaalde datum te bekijken. U kunt een vaardigheidshiaatanalyse maken om de vaardigheden van een persoon te vergelijken met de vaardigheden die zijn vereist voor een bepaalde functie  
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

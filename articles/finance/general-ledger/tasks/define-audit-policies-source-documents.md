@@ -87,3 +87,6 @@ In dit onderwerp wordt beschreven hoe u controlebeleidsregels instelt en uitvoer
 57. Vouw de sectie **Koppelingen** uit.
 58. Zoek en selecteer de gewenste record in de lijst.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

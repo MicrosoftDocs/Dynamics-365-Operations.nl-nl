@@ -61,3 +61,6 @@ Via deze procedure kunt u een inkooporder maken die is gecontroleerd op beschikb
 4. Klik op Fouten of waarschuwingen van budgetcontrole.
 5. Klik op Sluiten.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

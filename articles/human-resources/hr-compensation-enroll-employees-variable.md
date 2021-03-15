@@ -41,3 +41,6 @@ De manager Compensatie en emolumenten kan werknemers inschrijven op plannen voor
 8. Schakel de uitbreiding van de sectie Organisatieoverschrijvingen om.
     * Als rekening moeten worden gehouden met de prestaties van de werknemer kunnen de prestaties van verschillende afdelingen of een andere afdeling dan de afdeling die is toegewezen aan de functie van de werknemer worden overschreven. De kolom Percentage met 100 in totaal zijn.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

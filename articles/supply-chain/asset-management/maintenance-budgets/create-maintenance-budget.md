@@ -58,3 +58,6 @@ U kunt ook een nieuw onderhoudsbudget maken door een bestaand budget te kopiëre
 
 > [!NOTE]
 > Het onderhoudsbudget berekent alleen budgetkosten op basis van regels voor onderhoudsplannings. Als u de werkelijke kosten voor dezelfde periode wilt berekenen, kunt u die berekening uitvoeren op de pagina **Kostenbeheer activa**. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

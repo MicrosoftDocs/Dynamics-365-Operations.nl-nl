@@ -87,3 +87,6 @@ De weergavevolgorde voor de kanaalnavigatiehiërarchie wordt weerspiegeld in HQ,
 
 > [!NOTE]
 > De functie voor aangepast sorteren is standaard uitgeschakeld. Zie [Functiebeheer](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview) voor meer informatie over het inschakelen van deze functie en andere functies.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

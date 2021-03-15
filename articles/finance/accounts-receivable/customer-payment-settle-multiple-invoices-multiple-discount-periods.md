@@ -100,3 +100,6 @@ Arnie bekijkt de informatie op de pagina **Klanttransacties**.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

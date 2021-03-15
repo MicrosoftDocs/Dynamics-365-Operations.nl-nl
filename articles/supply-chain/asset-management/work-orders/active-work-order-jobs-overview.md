@@ -42,3 +42,6 @@ In de onderstaande afbeelding ziet u een voorbeeld van de lijstpagina **Actieve 
 
 Voor een korte omschrijving van de knoppen op de lijstpagina **Actieve onderhoudstaken voor werkorder** raadpleegt u [Inleiding op werkorders](../work-orders/introduction-to-work-orders.md) waarin identieke knoppen worden beschreven.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

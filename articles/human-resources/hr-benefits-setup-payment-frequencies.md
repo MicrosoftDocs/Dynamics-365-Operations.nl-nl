@@ -56,3 +56,6 @@ In de velden voor de conversiefactoren wordt de conversiefactor van de betalings
    | **Uurconversiefactor** | De jaarlijkse conversiefactor voor de betalingsfrequentie. De jaarlijkse conversiefactor voor de maandelijkse salarisfrequentie is bijvoorbeeld: </br></br>(12 maandelijkse betalingen/2080 uur) = 0,005769
 
 4. Selecteer **Opslaan**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

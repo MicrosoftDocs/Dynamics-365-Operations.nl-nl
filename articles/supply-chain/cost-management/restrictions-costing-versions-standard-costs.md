@@ -50,3 +50,6 @@ De kostengegevens van een artikel voor standaardkosten kunnen worden gekopieerd 
 
 [Voorbereiding van het onderhoud van standaardkosten voor gefabriceerde artikelen](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

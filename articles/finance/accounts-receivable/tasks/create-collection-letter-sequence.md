@@ -58,3 +58,6 @@ Gebruik deze taakbegeleider om een aanmaningsreeks te maken. Bij deze taak wordt
 26. Vouw het sneltabblad **Notitie** uit.
 27. Voer de tekst in die op de aanmaning moet worden weergegeven voor de geselecteerde aanmaningscode. Deze tekst kunt u in meerdere talen vertalen via het menu Vertalingen boven het notitievakje.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

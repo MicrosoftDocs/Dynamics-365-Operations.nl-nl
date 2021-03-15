@@ -45,3 +45,6 @@ Verschillende configuratie-instellingen zijn van invloed op de werking van de Ac
 
     > [!NOTE]
     > U kunt deze optie het beste op **Nee** instellen. De instelling van deze optie wordt gebruikt als validatie en controle om te voorkomen dat een gesloten boekversie onbedoeld wordt afgeschreven. U kunt de nettoboekwaarde en de toekomstige afschrijvingsberekeningen nauwkeurig bijhouden door de optie op **Nee** in te stellen.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

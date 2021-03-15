@@ -67,3 +67,6 @@ Als u meerdere orders tegelijk wilt fiatteren, kunt u de uitvoeringstijd of pres
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

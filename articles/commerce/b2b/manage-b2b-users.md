@@ -139,3 +139,6 @@ Volg deze stappen om zakenpartners en gebruikers rechtstreeks in Commerce Headqu
 [De limieten voor de producthoeveelheid instellen voor B2B-e-commercesites](quantity-limits.md)
 
 [Overzicht van Nummerreeksen](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

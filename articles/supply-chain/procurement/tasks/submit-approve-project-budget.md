@@ -56,3 +56,6 @@ Deze taak is gemaakt met de gegevensset van USSI.
 21. Typ een waarde in het veld **Opmerking**.
 22. Klik op **Aanbieden**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

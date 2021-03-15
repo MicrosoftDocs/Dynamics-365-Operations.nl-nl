@@ -59,3 +59,6 @@ Nadat bankafschrifttransacties zijn verwerkt, wordt een nieuw grootboekjournaal 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ U moet gegevensentiteiten gebruiken om productgegevens te importeren en te expor
 
 > [!NOTE]
 > U kunt de gegevensentiteit **Vrijgegeven producten V2** alleen gebruiken om producten in het systeem te importeren als het gedeelde product al is gemaakt. Anders moet u de gegevensentiteit **Product maken** gebruiken om producten in het systeem te importeren.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

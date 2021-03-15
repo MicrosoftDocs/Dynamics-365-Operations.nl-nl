@@ -184,3 +184,6 @@ Bij deze procedure wordt het demobedrijf USMF gebruikt.
     * Controleer of het rapport de transacties met bankdocumentnummer, faciliteitslimiet, verbruikt bedrag en het saldobedrag van de faciliteit vermeldt.  
 8. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

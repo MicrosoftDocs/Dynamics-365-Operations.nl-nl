@@ -38,3 +38,6 @@ Voordat u de hubconsolidatie kunt gebruiken, moet u de optie **Planning in trans
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Deze procedure doorloopt het maken van kanaalspecifieke verkoopprijshandelsovere
 38. Klik in het actievenster op **Verkopen**.
 39. Klik op **Verkoopprijs**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

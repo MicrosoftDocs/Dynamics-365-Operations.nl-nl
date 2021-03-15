@@ -102,3 +102,6 @@ Het uitvoermagazijn en de uitvoerlocatie van een uitbestede resourcegroep worden
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

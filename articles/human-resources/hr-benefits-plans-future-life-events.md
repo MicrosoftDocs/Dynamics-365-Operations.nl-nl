@@ -46,3 +46,6 @@ U kunt toekomstige levensgebeurtenissen plannen in Dynamics 365 Human Resources.
    | Regel | Het regelnummer van de toekomstige levensgebeurtenis. |
 
 4. Selecteer **Opslaan**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

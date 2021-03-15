@@ -142,3 +142,6 @@ In dit onderwerp wordt uitgelegd hoe u incassogegevens controleert en wat de ver
 5. Selecteer **Lijst weergeven**.
 - Een klantrekening selecteren of de standaardinvoer accepteren. Standaard is dit de geselecteerde klantrekening op de lijstpagina of in het formulier van waaruit u dit formulier hebt geopend. Als u het formulier vanuit een lijstpagina hebt geopend, zijn de klanten in de lijst de klanten die in de incassoverzameling zijn opgenomen die op de lijstpagina wordt gebruikt.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

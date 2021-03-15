@@ -64,3 +64,6 @@ Een kostenraming biedt ook de volgende informatie:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

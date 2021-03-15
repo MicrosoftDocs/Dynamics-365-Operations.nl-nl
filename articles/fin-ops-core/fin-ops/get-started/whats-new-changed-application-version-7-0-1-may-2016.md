@@ -106,3 +106,6 @@ In dit artikel worden de functies beschreven die in Microsoft Dynamics AX versie
 [Nieuwe of gewijzigde functies op de startpagina van Finance and Operations](whats-new-changed.md)
 
 [Nieuwe of bijgewerkte taakbegeleidingen (mei 2016)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

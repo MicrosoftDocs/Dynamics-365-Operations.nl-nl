@@ -49,3 +49,6 @@ In gevallen waarin een nieuwe versie van hetzelfde bestand of een volledig nieuw
 ## <a name="upload-a-file-using-run-project"></a>Een bestand uploaden met Project uitvoeren
 
 U kunt een Excel-bestand uploaden met de optie **Project uitvoeren** om een importproject uit te voeren. Upload alleen bestanden met dezelfde werkbladen als de bestaande toewijzingen voor de gegevensentiteiten in het gegevensproject. Als een werkblad in het onlangs geüpload bestand niet wordt gevonden, wordt er een fout weergegeven en wordt er gestopt met importeren. Als de toewijzing aan het werkblad moet worden gewijzigd voor een entiteit, moeten de toewijzingen in het gegevensproject vanuit het gegevensproject worden bijgewerkt voordat u het bestand in de ervaring **Project uitvoeren** gebruikt.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ Ga als volgt te werk om de geïntegreerde service [Microsoft Accessibility Insig
 [Een landingspagina voor een categorie verrijken](enrich-category-page.md)
 
 [Dynamische e-commercepagina's maken op basis van URL-parameters](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

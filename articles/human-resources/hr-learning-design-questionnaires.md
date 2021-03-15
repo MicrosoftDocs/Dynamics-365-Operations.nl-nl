@@ -236,3 +236,5 @@ Voor het gebruiken van voorwaardelijke vragen voor het maken van een vraaghiëra
 Een rechtspersoon biedt aan klanten zowel artikelen als diensten. Zoals meestal gebeurt in zulke gevallen kopen sommige klanten alleen artikelen of alleen diensten af en andere nemen beide af. Wanneer de rechtspersoon dus een klanttevredenheidsonderzoek houdt, wordt er een voorwaardelijke structuur toegepast op de vragenlijst om te voorkomen dat klanten die alleen diensten afnemen vragen moeten beantwoorden over artikelen. 
 
 U kunt een vragenlijst ook zo opzetten dat als een respondent antwoord A selecteert voor vraag 1, vraag 2 de volgende vraag in de vragenreeks is. Als de respondent echter antwoord B voor vraag 1 selecteert, dan is vraag 5 de volgende vraag.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

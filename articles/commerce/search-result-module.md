@@ -90,3 +90,6 @@ Voer deze stappen uit om een module voor zoekresultaten aan een categoriepagina 
 [Overzicht van modulebibliotheek](starter-kit-overview.md)
 
 [Module voor snelle weergave](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

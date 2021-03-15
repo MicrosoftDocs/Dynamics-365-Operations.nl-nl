@@ -54,3 +54,6 @@ Zie voor training over functies die worden gedeeld met andere Finance and Operat
 | Inhoud  | Omschrijving | Indeling  | Lengte    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
 | [e-Commerce configureren en gebruiken in Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/) | Met de online kanalen en de e-Commerce site van Dynamics 365 Commerce kunnen detailhandelaren een online aanwezigheid van hun merk maken. | Gratis online leertraject voor zelfstudie | 4 uur   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

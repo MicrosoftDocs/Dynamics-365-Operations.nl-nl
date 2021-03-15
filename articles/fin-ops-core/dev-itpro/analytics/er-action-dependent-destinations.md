@@ -129,3 +129,6 @@ De volgende lijst met bedrijfsdocumenten wordt bepaald door de functie **Uitvoer
 [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 
 [Wijzigingen in API voor raamwerk voor elektronische rapportage in Application update 10.0.17](er-apis-app10-0-17.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

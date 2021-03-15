@@ -77,3 +77,6 @@ Deze guide laat zien hoe u een bijkomende toewijzing, een bijkomende toeslag van
 6. Klik in de lijst op de koppeling in de geselecteerde rij.
 7. Klik op Opslaan.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

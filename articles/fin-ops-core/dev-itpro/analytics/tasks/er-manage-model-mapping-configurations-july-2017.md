@@ -161,3 +161,6 @@ Omdat ER-configuraties worden gedeeld tussen bedrijven, kunt u deze taakbegeleid
 7. Klik op OK.
     * De standaardmodeltoewijzingsconfiguratie wordt door deze indelingsconfiguratie gebruikt voor het genereren van het elektronische document (de gemaakte uitvoer bevat de bedrijfscode).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

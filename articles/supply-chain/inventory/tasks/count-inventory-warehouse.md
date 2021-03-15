@@ -55,3 +55,6 @@ In dit onderwerp wordt beschreven hoe u een voorraadtellingsjournaal maakt en bo
 1. Selecteer **Voorraadmodel**.
 2. Selecteer **Transacties**. Hier kunt u de verwante transacties bekijken die worden gemaakt wanneer u uw voorraadtellingsjournaal boekt.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

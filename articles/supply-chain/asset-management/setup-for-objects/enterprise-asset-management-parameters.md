@@ -106,3 +106,6 @@ Selecteer de documenttypen die beschikbaar moeten zijn voor het afdrukken van bi
 ## <a name="the-number-sequences-tab"></a>Het tabblad Nummerreeksen
 
 Selecteer de vereiste nummerreeksen in deze sectie. Er zijn twee nummerreeksen voor activa: de ene voor handmatig gemaakte activa en de andere voor activa die zijn gemaakt via in behandeling zijnde activa.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

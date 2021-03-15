@@ -151,3 +151,6 @@ U kunt het aantal grootboektransacties beperken dat wordt gemaakt wanneer u tran
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

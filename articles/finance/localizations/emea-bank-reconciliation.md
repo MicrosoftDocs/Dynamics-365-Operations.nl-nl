@@ -58,3 +58,6 @@ Naast een bankafschrift kunnen banken specifieke berichten verschaffen met infor
 -   (SWE) BankGirot-retour: retourindeling leveranciersbetalingen. Dit komt overeen met de Bankgirot-exportindeling
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

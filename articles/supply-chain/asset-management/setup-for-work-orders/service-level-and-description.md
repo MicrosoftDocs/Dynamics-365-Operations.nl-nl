@@ -55,3 +55,6 @@ Wanneer u een werkorder maakt, kunt u de serviceniveaus hiervoor definiëren en 
 2. Selecteer **Nieuw**.
 3. Voer in het veld **Omschrijving** een omschrijving in.
 4. Selecteer **Opslaan**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

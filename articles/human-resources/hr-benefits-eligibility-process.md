@@ -54,3 +54,6 @@ Deze procedure toont hoe het geschiktheidsproces voor vergoedingen werkt. U kunt
 25. Open kolomfilter Status.
 26. Sorteren van A naar Z
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

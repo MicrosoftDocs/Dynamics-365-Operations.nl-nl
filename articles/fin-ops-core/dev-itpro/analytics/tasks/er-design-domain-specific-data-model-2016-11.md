@@ -187,3 +187,6 @@ U maakt een nieuw gegevensmodel voor de geselecteerde configuratie. Deze configu
 65. Klik op Opslaan.
 66. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

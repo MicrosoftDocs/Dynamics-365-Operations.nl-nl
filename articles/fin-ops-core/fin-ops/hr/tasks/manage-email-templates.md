@@ -47,3 +47,6 @@ U kunt informatie vanuit de database van uw organisatie overbrengen naar de blad
 8. Ga door met het typen van uw e-mailbericht, waarbij u de bladwijzervelden invoegt waar dat nodig is.
 9. Selecteer **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

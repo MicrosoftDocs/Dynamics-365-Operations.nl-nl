@@ -67,3 +67,6 @@ In dit onderwerp wordt beschreven hoe u het facturenregister gebruikt om facture
 13. Selecteer **Transacties**.
 14. Selecteer de factuur die u hebt gemaakt. De toerekening van het facturenregister is omgekeerd en geboekt naar de juiste onkostenrekening.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

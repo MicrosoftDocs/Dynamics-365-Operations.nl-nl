@@ -86,3 +86,6 @@ Download en installeer de mobiele Finance and Operations-app:
 7.  Selecteer **Bijlagen** om eventuele notities of bestanden weer te geven, die zijn gekoppeld aan de factuur.
 8.  Selecteer op de pagina **Factuurdetails** de juiste workflowactie uit om uw beoordelingsproces te voltooien.
 9.  Selecteer **Gereed**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

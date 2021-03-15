@@ -310,3 +310,6 @@ Een **IF/THEN/ELSE**-constructie zorgt ervoor dat elke berekening kan afhangen v
 U kunt rapporten ontwerpen met behulp van dimensiewaarden die een ampersand (&) bevatten.
 
 In een veld **Koppeling naar financiële dimensies** kunt u een waarde invoeren zoals **'W&V'**. Het opnemen van enkele aanhalingstekens (' ') aan beide zijden van de dimensiewaarde geeft aan dat u de letterlijke waarde gebruikt, zoals bijvoorbeeld het ampersand-teken (&).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Op smartphones en andere kleine schermen zullen de besturingselementen en de for
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Richtlijnen om ontwikkelaars en klanten toegankelijk denken in hun aanpassingen te laten verwerken
 
 Zie [Toegankelijkheid in formulieren, producten en besturingselementen](../../dev-itpro/user-interface/enable-accessibility.md) voor meer informatie over best practices van Microsoft om de toegankelijkheid te vergroten.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

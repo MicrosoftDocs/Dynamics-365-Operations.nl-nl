@@ -368,3 +368,6 @@ Wanneer een BPM-regel wordt verwijderd, wordt elke taakbegeleiding die gekoppeld
 **Verwijderde BPM-regel**
 
 - Geplande kanbantaken verplaatsen
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

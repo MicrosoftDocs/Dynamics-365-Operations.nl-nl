@@ -78,3 +78,6 @@ In de volgende tabel vindt u de entiteiten waarop de Power BI-inhoud - **Overzic
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | Samengevatte kasinkomsten, kasuitgaven en saldo met behulp van de valuta voor boekhouding van elk bedrijf |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Samengevatte kasinkomsten, kasuitgaven en saldo met behulp van de systeemvaluta voor alle bedrijven |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Samengevat nettotransactiebedrag en saldo van valuta´s op basis van de transactievaluta |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

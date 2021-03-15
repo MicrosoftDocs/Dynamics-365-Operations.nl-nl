@@ -50,3 +50,6 @@ Elke toewijzingsregel bestaat uit vier onderdelen: algemeen, bron, doel en tegen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

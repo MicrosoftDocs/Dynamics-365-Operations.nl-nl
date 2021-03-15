@@ -56,3 +56,6 @@ Wanneer u het bijwerken van de factuur instelt op batchverwerking, moet de verko
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

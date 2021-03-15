@@ -43,3 +43,6 @@ Grootboektoewijzingsregels kunnen worden gebruikt voor budgetplannen. Als u toew
 > [!NOTE]
 > U kunt geen intercompany-toewijzingsregels voor het grootboek gebruiken voor budgetplanning.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

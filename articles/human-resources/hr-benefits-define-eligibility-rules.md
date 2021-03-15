@@ -67,3 +67,6 @@ In dit onderwerp leest u hoe u geschiktheidsregels en beleid voor vergoedingen k
 10. Selecteer **Opslaan**.
 11. Het formulier sluiten.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

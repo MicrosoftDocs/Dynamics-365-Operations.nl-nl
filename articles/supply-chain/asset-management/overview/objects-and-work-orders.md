@@ -54,3 +54,6 @@ Verschillende stappen moeten worden voltooid wanneer u een onderhoudstaak voor e
 
 > [!NOTE]
 > In het algemeen geldt dat, wanneer u in Dynamics 365 Supply Chain Management en de module **Activabeheer** werkt, u **Nieuw** selecteert om een nieuwe record te maken, **Bewerken** selecteert om een bestaande record bij te werken en **Opslaan** selecteert om nieuwe of bewerkte gegevens op te slaan.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

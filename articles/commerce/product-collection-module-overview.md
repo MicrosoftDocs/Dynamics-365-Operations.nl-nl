@@ -112,3 +112,6 @@ In de volgende tabel worden de lijsttypen weergegeven die beschikbaar zijn voor 
 [Overzicht productaanbevelingen](product-recommendations.md)
 
 [Module voor snelle weergave](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

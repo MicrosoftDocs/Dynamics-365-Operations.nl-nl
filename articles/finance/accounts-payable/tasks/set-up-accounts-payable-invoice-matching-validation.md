@@ -97,3 +97,6 @@ G naar **Leveranciers > Instellen > Instelling van factuurvereffening > Tolerant
 
 1. Als u toleranties voor individuele leveranciers wilt instellen die de standaardtolerantie overschrijven, selecteer u **Leverancier**.
 2. Voer het afwijkingspercentage in dat u voor deze leverancier accepteert.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -292,3 +292,6 @@ Op de workload in schaaleenheden kunt u de volgende batchtaken beheren in **Maga
 - Wavetabelrecords verwerken
 - Berichtverwerking voor magazijnhub naar schaaleenheid
 - Aanvragen voor updates van hoeveelheden voor magazijnorderregels verwerken
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

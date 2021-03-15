@@ -54,3 +54,6 @@ Een garantieovereenkomst kan meerdere overeenkomstregels bevatten om de garantie
     4. Voer in veld **Percentage** het dekkingspercentage voor de garantieregel in. Het percentage geeft aan hoeveel door uw bedrijf wordt gedekt.
 
 ![Pagina Garantie](media/01-warranty.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

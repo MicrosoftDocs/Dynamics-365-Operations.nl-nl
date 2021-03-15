@@ -99,3 +99,6 @@ De module met de productrecensielijst bevat een vak waarin u een beoordelingshis
 [Koptekstmodule](author-header-module.md)
 
 [Voettekstmodule](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

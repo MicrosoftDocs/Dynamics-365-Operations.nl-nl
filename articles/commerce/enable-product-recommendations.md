@@ -113,3 +113,6 @@ Zie [Persoonlijke aanbevelingen inschakelen](personalized-recommendations.md) vo
 
 [Veelgestelde vragen over productaanbevelingen](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

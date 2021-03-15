@@ -276,3 +276,6 @@ Het btw-overzicht voor elk land moet voldoen aan de vereisten van de wetgeving v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

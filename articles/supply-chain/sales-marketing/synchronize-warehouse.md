@@ -80,3 +80,6 @@ In de volgende afbeelding ziet u de sjabloontoewijzing in Gegevensintegratie.
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Magazijnen (Supply Chain Management naar Field Service): Warehouse
 
 [![Sjabloontoewijzing in Gegevensintegratie](./media/Warehouse1.png)](./media/Warehouse1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

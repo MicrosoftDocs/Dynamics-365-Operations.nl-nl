@@ -49,3 +49,6 @@ U definieert het bereik van de regel binnen het beleid. Als u bijvoorbeeld een t
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

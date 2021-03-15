@@ -54,3 +54,6 @@ Daarom worden de volgende posten automatisch gemaakt om het journaal op het nive
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ Voer de volgende stappen uit om een module voor orderbevestiging aan een nieuwe 
 [Module ophaalinformatie](pickup-info-module.md)
 
 [Geschenkbonmodule](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

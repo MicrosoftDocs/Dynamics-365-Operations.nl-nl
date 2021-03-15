@@ -38,3 +38,6 @@ Bij deze registratie wordt het demobedrijf DEMF gebruikt.
 6. Voer in het veld **Korte omschrijving** een omschrijving voor interne doelen in.
 7. Klik op **Opslaan**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

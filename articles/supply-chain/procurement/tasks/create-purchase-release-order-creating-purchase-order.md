@@ -63,3 +63,6 @@ Deze procedure laat zien hoe u een inkoopovereenkomst gebruikt wanneer u een ink
 3. Sluit de pagina.
 4. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Door deze dubbele conversie veranderen de datums tussen toepassingen. Bij de dub
 4. Wijzig **de tijdzone** in **Coordinated Universal Timezone** en wijzig **Taal** in **En-US**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

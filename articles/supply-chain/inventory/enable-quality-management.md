@@ -503,3 +503,6 @@ U moet een kwaliteitskoppeling opgeven voor elke afwijking in een bedrijfsproces
 [Beheer van niet-conformering](enable-nonconformance-management.md)
 
 [Kwaliteitsbeheer voor magazijnprocessen](quality-management-for-warehouses-processes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

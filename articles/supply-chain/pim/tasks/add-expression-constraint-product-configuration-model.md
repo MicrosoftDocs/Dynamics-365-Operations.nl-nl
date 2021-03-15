@@ -50,3 +50,6 @@ Deze procedure toont hoe u een nieuwe expressie voor beperking toevoegt aan een 
 4. Klik op Sluiten.
 5. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

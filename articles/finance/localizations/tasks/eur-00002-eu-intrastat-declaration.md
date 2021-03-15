@@ -113,3 +113,6 @@ Deze procedure is gemaakt met het demobedrijf DEMF.
     * Selecteer bijvoorbeeld 'Verzendingen'.  
 27. Klik op OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

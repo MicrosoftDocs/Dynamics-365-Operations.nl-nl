@@ -53,3 +53,6 @@ Uw saldi worden vóór het bijwerken automatisch bijgewerkt of doorlopen een goe
 
 [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)</br>
 [Beleid voor verlof inkopen/verkopen beheren](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ Opbouwrecords voor een specifiek plan en datumbereik verwijderen. Toerekeningsda
 
 [Overzicht van verlof en verzuim](hr-leave-and-absence-overview.md)</br>
 [Een plan voor verlof en verzuim maken](hr-leave-and-absence-plans.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

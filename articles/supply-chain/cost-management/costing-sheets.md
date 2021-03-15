@@ -49,3 +49,6 @@ Het kostenblad wordt weergegeven als onderdeel van de pagina **Artikelkosten ber
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

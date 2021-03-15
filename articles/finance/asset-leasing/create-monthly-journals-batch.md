@@ -36,3 +36,6 @@ Als u een batchtaak wilt instellen of betalingsfacturen, afschrijving of rente v
 > Latere transacties, zoals het afschrijvingsschema verplichtingen, betalingen, afschrijving en onkosten, worden pas geboekt nadat de eerste toerekening voor bijbehorende leases is geboekt.
 >
 > De journaalposten worden gemaakt, maar ze worden pas geboekt wanneer u de opdracht **Uitvoeren** selecteert.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

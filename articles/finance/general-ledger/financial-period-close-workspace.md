@@ -107,3 +107,6 @@ Nadat een afsluitingsplanning is voltooid, schakelt u de optie **Afgesloten** in
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

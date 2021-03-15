@@ -98,3 +98,6 @@ De metagegevens voor de transportbeheer engines word verschillend geconfigureerd
 | 3        | Bestemming startpunt: postcode | Toewijzing | Tekenreeks    | Postcode    | Geselecteerd  |
 | 4        | Bestemming eindpunt: postcode   | Toewijzing | Tekenreeks    | Postcode    | Geselecteerd  |
 | 5        | Bestemmingsland           | Toewijzing | Tekenreeks    | Land/regio |           |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

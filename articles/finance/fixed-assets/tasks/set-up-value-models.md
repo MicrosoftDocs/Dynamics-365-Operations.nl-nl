@@ -53,3 +53,6 @@ In deze procedure ziet u hoe u een nieuw vaste-activaboek maakt en deze koppelt 
     * Merk op dat de waarde in Afschrijvingsperioden wordt berekend nadat de levensduur is ingesteld.  
     * U kunt de afschrijvingsconventie instellen al naar gelang de belastingvereisten.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

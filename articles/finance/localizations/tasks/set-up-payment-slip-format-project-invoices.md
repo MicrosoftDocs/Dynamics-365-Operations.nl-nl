@@ -65,3 +65,6 @@ Deze functionaliteit is alleen beschikbaar voor rechtspersonen waarvan het prima
 16. Klik op Opslaan.
 17. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

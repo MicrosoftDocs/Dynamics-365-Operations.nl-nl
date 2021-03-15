@@ -254,3 +254,6 @@ Voer deze toewijzingsindeling uit om te testen. Gebruik het bestand 1099entries.
 27. Sluit de pagina.
 28. Sluit de pagina.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

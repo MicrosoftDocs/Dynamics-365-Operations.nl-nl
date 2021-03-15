@@ -83,3 +83,6 @@ Om het probleem op te lossen van exponentieel toenemende aantallen combinaties d
 ![Formule voor het berekenen van de marginale waarde](./media/overlapping-discount-combo-06.jpg)
 
 Nadat de marginale waarde van elke korting voor een gedeelde reeks producten is berekend, worden de kortingen toegepast op de gedeelde producten in de volledige volgorde van de hoogste marginale waarde tot de laagste marginale waarde. Bij deze methode worden niet telkens alle resterende kortingsmogelijkheden vergeleken zodra één exemplaar van een korting is toegepast. In plaats daarvan worden de overlappende kortingen eenmaal vergeleken en vervolgens op volgorde toegepast. Er worden geen extra vergelijkingen uitgevoerd. U kunt de drempel voor overschakelen naar de marginale-waardemethode configureren op het tabblad **Korting** van de pagina **Commerce-parameters**. Welke tijd acceptabel is voor berekening van de totale korting, verschilt van sector tot sector. Deze tijd ligt echter over het algemeen ergens tussen enkele tientallen milliseconden tot één seconde.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

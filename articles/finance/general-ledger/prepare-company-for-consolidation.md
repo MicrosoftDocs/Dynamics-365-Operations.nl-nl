@@ -67,3 +67,6 @@ De geconsolideerde rechtspersoon is nu ingesteld voor de periodieke taak **Conso
 
 > [!NOTE]
 > U kunt de consolidatie pas uitvoeren nadat u de dochtermaatschappijen hebt voorbereid voor consolidatie. Zie [Een dochtermaatschappij voor consolidatie instellen](set-up-subsidiary-company-for-consolidation.md) voor meer informatie.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
