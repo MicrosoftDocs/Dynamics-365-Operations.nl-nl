@@ -72,14 +72,16 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.18 (mei 2021)
+                      href: get-started/whats-new-scm-10-0-18.md
                     - name: Supply Chain Management 10.0.17 (april 2021)
                       href: get-started/whats-new-scm-10-0-17.md
                     - name: Supply Chain Management 10.0.16 (februari 2021)
                       href: get-started/whats-new-scm-10-0-16.md
-                    - name: Supply Chain Management 10.0.15 (januari 2021)
-                      href: get-started/whats-new-scm-10-0-15.md
                 - name: Verwijderde of afgeschafte functies
                   items:
+                    - name: Startpagina voor verwijderde of afgeschafte functies
+                      href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
                       href: get-started/removed-deprecated-features-scm-updates.md
                     - name: Verwijderde of afgeschafte functies in eerdere releases
@@ -877,7 +879,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Where
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Logische
+                    - name: Logisch
                       items:
                         - name: Logische functies
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-logical.md?toc=/dynamics365/supply-chain/toc.json
@@ -1349,6 +1351,8 @@
                   href: cost-management/adjust-hand-inventory-cost-values.md
                 - name: Lopende gemiddelde kosten per voorraaddimensie traceren
                   href: cost-management/track-running-average-cost-per-inventory-dimension.md
+            - name: Voorraadtransacties archiveren
+              href: inventory/archive-inventory-transactions.md
             - name: Invoegtoepassing voorraadzichtbaarheid
               href: inventory/inventory-visibility.md
         - name: IoT-intelligentie
@@ -2021,6 +2025,8 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Technische versies en technische productcategorieën
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: Wijzigingsbeheer voor bestaande producten inschakelen
+              href: engineering-change-management/change-management-existing-products.md
             - name: Productlevenscyclusstatus en transacties
               href: engineering-change-management/product-lifecycle-state-transactions.md
             - name: Wijzigingen in technische producten beheren
@@ -2129,6 +2135,8 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken
                           href: production-control/production-floor-execution-use.md
+                        - name: Besturingselementstijlen van gebruikersinterface voor uitvoering op werkvloer
+                          href: production-control/production-floor-execution-styles.md
                     - name: Taakkaart configureren voor apparaten
                       href: production-control/config-job-card-device.md
                     - name: Gereedmelden vanaf het taakkaartapparaat
@@ -2729,6 +2737,54 @@
               href: transportation/tasks/set-up-shipping-carriers.md
             - name: Transportbeperkingen voor een artikel instellen
               href: transportation/tasks/set-up-transportation-constraints-item.md
+        - name: Francoprijzen
+          items:
+            - name: Overzicht van module Francoprijzen
+              href: landed-cost/landed-cost-overview.md
+            - name: Vergelijking van Francoprijzen met Transportbeheer
+              href: landed-cost/landed-cost-vs-tms.md
+            - name: De module Francoprijzen instellen en configureren
+              items:
+                - name: Parameters van francoprijzen
+                  href: landed-cost/landed-cost-parameters.md
+                - name: Parameters van francoprijzen voor inkoop en sourcing
+                  href: landed-cost/landed-cost-procurement-parameters.md
+                - name: Status van reis instellen
+                  href: landed-cost/voyage-status-setup.md
+                - name: Verzendcontainer instellen
+                  href: landed-cost/shipping-container-setup.md
+                - name: Leveringsgegevens instellen
+                  href: landed-cost/delivery-information-setup.md
+                - name: Reis met meerdere etappes instellen
+                  href: landed-cost/multi-leg-journey-setup.md
+                - name: Verzendgegevens instellen
+                  href: landed-cost/shipping-information-setup.md
+                - name: Waarden voor kostenparameters instellen
+                  href: landed-cost/costing-parameters-setup.md
+                - name: Standaardbeschrijvingen voor het grootboek
+                  href: landed-cost/defult-descriptions.md
+            - name: Leveranciersinstellingen toegevoegd voor Francoprijzen
+              href: landed-cost/vendors-landed-cost-settings.md
+            - name: 'Werken met reizen, containers en folio''s'
+              items:
+                - name: Reizen beheren
+                  href: landed-cost/manage-voyages.md
+                - name: Verzendcontainers beheren
+                  href: landed-cost/manage-shipping-containers.md
+                - name: Folio's beheren
+                  href: landed-cost/manage-folios.md
+            - name: Inkomende reizen en verzendcontainers volgen
+              href: landed-cost/inbound-tracking.md
+            - name: Francoprijzen ramen en beheren
+              href: landed-cost/estimate-manage-landed-costs.md
+            - name: Verwerking van transit
+              href: landed-cost/in-transit-processing.md
+            - name: Over-/ondertransacties verwerken
+              href: landed-cost/over-under-transactions.md
+            - name: Vragen over francoprijzen
+              href: landed-cost/landed-cost-inquiries.md
+            - name: Rapporten over francoprijzen
+              href: landed-cost/landed-cost-reports.md
         - name: Magazijnbeheer
           items:
             - name: Overzicht van Magazijnbeheer
@@ -2925,10 +2981,12 @@
                       href: warehousing/change-work-pool-on-work.md
                     - name: Artikelconsolidatie - locatiegebruik
                       href: warehousing/item-consolidation-location-utilization.md
-                    - name: Problemen met magazijnwerk oplossen
-                      href: warehousing/troubleshoot-warehouse-work.md
                     - name: Werk splitsen
                       href: warehousing/work-split.md
+                    - name: Interface voor materiaalverwerkingsapparatuur (MHAX)
+                      href: warehousing/mhax.md
+                    - name: Problemen met magazijnwerk oplossen
+                      href: warehousing/troubleshoot-warehouse-work.md
             - name: Magazijninstellingen
               items:
                 - name: Magazijnconfiguratie
@@ -2987,6 +3045,8 @@
                   items:
                     - name: De mobiele app Magazijnbeheer installeren en verbinden
                       href: warehousing/install-configure-warehouse-management-app.md
+                    - name: Gebruikersinstellingen mobiel apparaat
+                      href: warehousing/mobile-device-user-settings.md
                     - name: De app voor magazijnbeheer installeren en verbinden
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Streepjescodes scannen met een camera in de magazijnapp

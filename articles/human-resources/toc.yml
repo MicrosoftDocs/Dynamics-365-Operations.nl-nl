@@ -5,6 +5,10 @@
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 8 maart 2021
+          href: hr-whats-new-2021-03-08.md
+        - name: 22 februari 2021
+          href: hr-whats-new-2021-02-22.md
         - name: 28 januari 2021
           href: hr-whats-new-2021-01-28.md
         - name: 21 januari 2021
@@ -89,9 +93,9 @@
               href: hr-admin-integration-common-data-service.md
             - name: Dataverse-tabellen
               href: hr-developer-entities.md
-            - name: Virtuele Dataverse-entiteiten configureren
+            - name: Virtuele Dataverse-tabellen configureren
               href: hr-admin-integration-common-data-service-virtual-entities.md
-            - name: Veelgestelde vragen over virtuele entiteiten in Human Resources
+            - name: Veelgestelde vragen over virtuele tabellen in Human Resources
               href: hr-admin-virtual-entity-faq.md
             - name: Integratie met Finance configureren
               href: hr-admin-integration-finance.md
@@ -623,6 +627,8 @@
               items:
                 - name: Overzicht van Vergoedingenbeheer
                   href: hr-benefits-management-overview.md
+                - name: Werkgebied voor vergoedingenbeheer
+                  href: hr-benefits-management-workspace.md
                 - name: Vergoedingenbeheer configureren
                   items:
                     - name: Parameters voor Vergoedingenbeheer per bedrijf configureren
@@ -783,3 +789,5 @@
               href: hr-employee-self-service-workspace-name.md
             - name: Persoonlijke gegevens bewerken
               href: hr-employee-manager-self-service-edit-personal-information.md
+            - name: Het bewerken van persoonlijke gegevens beperken
+              href: hr-employee-self-service-restrict-editing.md
