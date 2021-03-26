@@ -17,102 +17,105 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89c47fc9e3627e5ecb41ecba6854729ef340493c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3974442c11e410da41613fcca9f2fad2e608997e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993133"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5248034"
 ---
-# <a name="accounts-receivable-home-page"></a><span data-ttu-id="89e9d-103">Startpagina Klanten</span><span class="sxs-lookup"><span data-stu-id="89e9d-103">Accounts receivable home page</span></span>
+# <a name="accounts-receivable-home-page"></a><span data-ttu-id="bef95-103">Startpagina Klanten</span><span class="sxs-lookup"><span data-stu-id="bef95-103">Accounts receivable home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="89e9d-104">Met Klanten kunt u klantfacturen en binnenkomende betalingen bijhouden.</span><span class="sxs-lookup"><span data-stu-id="89e9d-104">Use Accounts receivable to track customer invoices and incoming payments.</span></span> 
+<span data-ttu-id="bef95-104">Met Klanten kunt u klantfacturen en binnenkomende betalingen bijhouden.</span><span class="sxs-lookup"><span data-stu-id="bef95-104">Use Accounts receivable to track customer invoices and incoming payments.</span></span> 
 
-<span data-ttu-id="89e9d-105">U kunt klantfacturen maken die zijn gebaseerd op verkooporders of pakbonnen.</span><span class="sxs-lookup"><span data-stu-id="89e9d-105">You can create customer invoices that are based on sales orders or packing slips.</span></span> <span data-ttu-id="89e9d-106">U kunt ook vrije-tekstfacturen invoeren, die niet aan verkooporders zijn gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="89e9d-106">You can also enter free text invoices that are not related to sales orders.</span></span> <span data-ttu-id="89e9d-107">U kunt betalingen ontvangen met behulp van verschillende betalingstypen.</span><span class="sxs-lookup"><span data-stu-id="89e9d-107">You can receive payments by using several different payment types.</span></span> <span data-ttu-id="89e9d-108">Voorbeelden van betalingstypen zijn wissels, contanten, cheques, creditcards en elektronische betalingen.</span><span class="sxs-lookup"><span data-stu-id="89e9d-108">These include bills of exchange, cash, checks, credit cards, and electronic payments.</span></span> <span data-ttu-id="89e9d-109">Als uw organisatie meerdere rechtspersonen omvat, kunt u gecentraliseerde betalingen gebruiken om betalingen in één rechtspersoon te registreren namens de andere rechtspersonen.</span><span class="sxs-lookup"><span data-stu-id="89e9d-109">If your organization includes multiple legal entities, you can use centralized payments to record payments in a single legal entity on behalf of the other legal entities.</span></span>
+<span data-ttu-id="bef95-105">U kunt klantfacturen maken die zijn gebaseerd op verkooporders of pakbonnen.</span><span class="sxs-lookup"><span data-stu-id="bef95-105">You can create customer invoices that are based on sales orders or packing slips.</span></span> <span data-ttu-id="bef95-106">U kunt ook vrije-tekstfacturen invoeren, die niet aan verkooporders zijn gekoppeld.</span><span class="sxs-lookup"><span data-stu-id="bef95-106">You can also enter free text invoices that are not related to sales orders.</span></span> <span data-ttu-id="bef95-107">U kunt betalingen ontvangen met behulp van verschillende betalingstypen.</span><span class="sxs-lookup"><span data-stu-id="bef95-107">You can receive payments by using several different payment types.</span></span> <span data-ttu-id="bef95-108">Voorbeelden van betalingstypen zijn wissels, contanten, cheques, creditcards en elektronische betalingen.</span><span class="sxs-lookup"><span data-stu-id="bef95-108">These include bills of exchange, cash, checks, credit cards, and electronic payments.</span></span> <span data-ttu-id="bef95-109">Als uw organisatie meerdere rechtspersonen omvat, kunt u gecentraliseerde betalingen gebruiken om betalingen in één rechtspersoon te registreren namens de andere rechtspersonen.</span><span class="sxs-lookup"><span data-stu-id="bef95-109">If your organization includes multiple legal entities, you can use centralized payments to record payments in a single legal entity on behalf of the other legal entities.</span></span>
 
 
-<span data-ttu-id="89e9d-110">**Bedrijfsprocessen**</span><span class="sxs-lookup"><span data-stu-id="89e9d-110">**Business processes**</span></span>
+<span data-ttu-id="bef95-110">**Bedrijfsprocessen**</span><span class="sxs-lookup"><span data-stu-id="bef95-110">**Business processes**</span></span>
 
-<span data-ttu-id="89e9d-111">[![Bedrijfsproces](./media/AR-process.PNG)](./media/AR-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="89e9d-111">[![Business process](./media/AR-process.PNG)](./media/AR-process.PNG)</span></span>
+<span data-ttu-id="bef95-111">[![Bedrijfsproces](./media/AR-process.PNG)](./media/AR-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="bef95-111">[![Business process](./media/AR-process.PNG)](./media/AR-process.PNG)</span></span>
 
-## <a name="set-up-accounts-receivable"></a><span data-ttu-id="89e9d-112">Klanten instellen</span><span class="sxs-lookup"><span data-stu-id="89e9d-112">Set up Accounts receivable</span></span>
+## <a name="set-up-accounts-receivable"></a><span data-ttu-id="bef95-112">Klanten instellen</span><span class="sxs-lookup"><span data-stu-id="bef95-112">Set up Accounts receivable</span></span>
 
-<span data-ttu-id="89e9d-113">Gebruik Klanten om alle klantfacturen en binnenkomende betalingen van klanten bij te houden.</span><span class="sxs-lookup"><span data-stu-id="89e9d-113">Use Accounts receivable to track customer invoices and payments that you receive from customers.</span></span> <span data-ttu-id="89e9d-114">U kunt klantgroepen, klanten, boekingsprofielen, rentenota's, aanmaningen, provisies en parameters voor klanten, toeslagen, leveringen en bestemmingen, wissels en andere typen gegevens voor Klanten instellen.</span><span class="sxs-lookup"><span data-stu-id="89e9d-114">You can set up customer groups, customers, posting profiles, interest notes, collection letters, commissions, and parameters regarding customers, charges, deliveries and destinations, bills of exchange, and other types of Accounts receivable information.</span></span> 
+<span data-ttu-id="bef95-113">Gebruik Klanten om alle klantfacturen en binnenkomende betalingen van klanten bij te houden.</span><span class="sxs-lookup"><span data-stu-id="bef95-113">Use Accounts receivable to track customer invoices and payments that you receive from customers.</span></span> <span data-ttu-id="bef95-114">U kunt klantgroepen, klanten, boekingsprofielen, rentenota's, aanmaningen, provisies en parameters voor klanten, toeslagen, leveringen en bestemmingen, wissels en andere typen gegevens voor Klanten instellen.</span><span class="sxs-lookup"><span data-stu-id="bef95-114">You can set up customer groups, customers, posting profiles, interest notes, collection letters, commissions, and parameters regarding customers, charges, deliveries and destinations, bills of exchange, and other types of Accounts receivable information.</span></span> 
 
 :::row:::
     :::column:::
-        - [<span data-ttu-id="89e9d-115">Boekhoudingsverdelingen en journaalposten in de subadministratie voor vrije-tekstfacturen</span><span class="sxs-lookup"><span data-stu-id="89e9d-115">Accounting distributions and subledger journal entries for free text invoices</span></span>](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
-        - [<span data-ttu-id="89e9d-116">Boekingsprofielen van klant</span><span class="sxs-lookup"><span data-stu-id="89e9d-116">Customer posting profiles</span></span>](customer-posting-profiles.md)
-        - [<span data-ttu-id="89e9d-117">Instelling, autorisatie en registratie van creditcards</span><span class="sxs-lookup"><span data-stu-id="89e9d-117">Credit card setup, authorization, and capture</span></span>](credit-card-authorizations.md)
-        - [<span data-ttu-id="89e9d-118">Een klantfactuur maken</span><span class="sxs-lookup"><span data-stu-id="89e9d-118">Create a customer invoice</span></span>](configure-customer-invoices.md)
-        - [<span data-ttu-id="89e9d-119">Terugkerende facturen instellen en verwerken</span><span class="sxs-lookup"><span data-stu-id="89e9d-119">Set up and process recurring invoices</span></span>](set-up-process-recurring-invoices.md)
-        - [<span data-ttu-id="89e9d-120">Een vrije-tekstfactuur corrigeren</span><span class="sxs-lookup"><span data-stu-id="89e9d-120">Correct a free text invoice</span></span>](correct-free-text-invoice.md)
+        - [<span data-ttu-id="bef95-115">Boekhoudingsverdelingen en journaalposten in de subadministratie voor vrije-tekstfacturen</span><span class="sxs-lookup"><span data-stu-id="bef95-115">Accounting distributions and subledger journal entries for free text invoices</span></span>](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+        - [<span data-ttu-id="bef95-116">Boekingsprofielen van klant</span><span class="sxs-lookup"><span data-stu-id="bef95-116">Customer posting profiles</span></span>](customer-posting-profiles.md)
+        - [<span data-ttu-id="bef95-117">Instelling, autorisatie en registratie van creditcards</span><span class="sxs-lookup"><span data-stu-id="bef95-117">Credit card setup, authorization, and capture</span></span>](credit-card-authorizations.md)
+        - [<span data-ttu-id="bef95-118">Een klantfactuur maken</span><span class="sxs-lookup"><span data-stu-id="bef95-118">Create a customer invoice</span></span>](configure-customer-invoices.md)
+        - [<span data-ttu-id="bef95-119">Terugkerende facturen instellen en verwerken</span><span class="sxs-lookup"><span data-stu-id="bef95-119">Set up and process recurring invoices</span></span>](set-up-process-recurring-invoices.md)
+        - [<span data-ttu-id="bef95-120">Een vrije-tekstfactuur corrigeren</span><span class="sxs-lookup"><span data-stu-id="bef95-120">Correct a free text invoice</span></span>](correct-free-text-invoice.md)
     :::column-end:::
     :::column:::
-        - [<span data-ttu-id="89e9d-121">Wissels instellen</span><span class="sxs-lookup"><span data-stu-id="89e9d-121">Set up bills of exchange</span></span>](set-up-bills-exchange.md)
-        - [<span data-ttu-id="89e9d-122">Rentepercentages instellen voor een rentecode</span><span class="sxs-lookup"><span data-stu-id="89e9d-122">Set up interest rates for an interest code</span></span>](set-up-interest-rates-interest-code.md)
-        - [<span data-ttu-id="89e9d-123">Bijzondere kosten voor rente kwijtschelden, opnieuw invoeren of omkeren</span><span class="sxs-lookup"><span data-stu-id="89e9d-123">Waive, reinstate, or reverse interest fees</span></span>](waive-reinstate-reverse-interest-fees.md)
-        - [<span data-ttu-id="89e9d-124">Overzicht SEPA-incasso</span><span class="sxs-lookup"><span data-stu-id="89e9d-124">SEPA direct debit overview</span></span>](sepa-direct-debit-overview.md)
-        - [<span data-ttu-id="89e9d-125">Mandaag voor automatische afschrijving instellen voor SEPA</span><span class="sxs-lookup"><span data-stu-id="89e9d-125">Set up SEPA direct debit mandate</span></span>](sepa-direct-debit-mandate.md)
-        - [<span data-ttu-id="89e9d-126">Klanten sluiten</span><span class="sxs-lookup"><span data-stu-id="89e9d-126">Close Accounts receivable</span></span>](close-accounts-receivable.md)
+        - [<span data-ttu-id="bef95-121">Wissels instellen</span><span class="sxs-lookup"><span data-stu-id="bef95-121">Set up bills of exchange</span></span>](set-up-bills-exchange.md)
+        - [<span data-ttu-id="bef95-122">Rentepercentages instellen voor een rentecode</span><span class="sxs-lookup"><span data-stu-id="bef95-122">Set up interest rates for an interest code</span></span>](set-up-interest-rates-interest-code.md)
+        - [<span data-ttu-id="bef95-123">Bijzondere kosten voor rente kwijtschelden, opnieuw invoeren of omkeren</span><span class="sxs-lookup"><span data-stu-id="bef95-123">Waive, reinstate, or reverse interest fees</span></span>](waive-reinstate-reverse-interest-fees.md)
+        - [<span data-ttu-id="bef95-124">Overzicht SEPA-incasso</span><span class="sxs-lookup"><span data-stu-id="bef95-124">SEPA direct debit overview</span></span>](sepa-direct-debit-overview.md)
+        - [<span data-ttu-id="bef95-125">Mandaag voor automatische afschrijving instellen voor SEPA</span><span class="sxs-lookup"><span data-stu-id="bef95-125">Set up SEPA direct debit mandate</span></span>](sepa-direct-debit-mandate.md)
+        - [<span data-ttu-id="bef95-126">Klanten sluiten</span><span class="sxs-lookup"><span data-stu-id="bef95-126">Close Accounts receivable</span></span>](close-accounts-receivable.md)
     :::column-end:::
 :::row-end:::
 
 
-## <a name="set-up-credit-and-collections"></a><span data-ttu-id="89e9d-127">Crediteringen en aanmaningen instellen</span><span class="sxs-lookup"><span data-stu-id="89e9d-127">Set up credit and collections</span></span>
+## <a name="set-up-credit-and-collections"></a><span data-ttu-id="bef95-127">Crediteringen en aanmaningen instellen</span><span class="sxs-lookup"><span data-stu-id="bef95-127">Set up credit and collections</span></span>
 
-<span data-ttu-id="89e9d-128">De gegevens van klantaanmaningen worden in één centrale weergave beheerd, namelijk de pagina Aanmaningen.</span><span class="sxs-lookup"><span data-stu-id="89e9d-128">Accounts receivable collections information is managed in one central view, the Collections page.</span></span> <span data-ttu-id="89e9d-129">Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren.</span><span class="sxs-lookup"><span data-stu-id="89e9d-129">Credit and collections managers can use this central view to manage collections.</span></span> <span data-ttu-id="89e9d-130">Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit de pagina Klanten.</span><span class="sxs-lookup"><span data-stu-id="89e9d-130">Collections agents can begin the collections process from customer lists that are generated by using predefined collection criteria, or from the Customers page.</span></span>
+<span data-ttu-id="bef95-128">De gegevens van klantaanmaningen worden in één centrale weergave beheerd, namelijk de pagina Aanmaningen.</span><span class="sxs-lookup"><span data-stu-id="bef95-128">Accounts receivable collections information is managed in one central view, the Collections page.</span></span> <span data-ttu-id="bef95-129">Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren.</span><span class="sxs-lookup"><span data-stu-id="bef95-129">Credit and collections managers can use this central view to manage collections.</span></span> <span data-ttu-id="bef95-130">Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit de pagina Klanten.</span><span class="sxs-lookup"><span data-stu-id="bef95-130">Collections agents can begin the collections process from customer lists that are generated by using predefined collection criteria, or from the Customers page.</span></span>
 
-[<span data-ttu-id="89e9d-131">Crediteringen en aanmaningen in Klanten</span><span class="sxs-lookup"><span data-stu-id="89e9d-131">Credit and collections in Accounts receivable</span></span>](collections-credit-accounts-receivable.md)
+[<span data-ttu-id="bef95-131">Crediteringen en aanmaningen in Klanten</span><span class="sxs-lookup"><span data-stu-id="bef95-131">Credit and collections in Accounts receivable</span></span>](collections-credit-accounts-receivable.md)
 
-[<span data-ttu-id="89e9d-132">Klanten en crediteringen en aanmaningen configureren</span><span class="sxs-lookup"><span data-stu-id="89e9d-132">Configure Accounts receivables and Credit and collections</span></span>](accounts-receivables-set-up-overview.md)
+[<span data-ttu-id="bef95-132">Klanten en crediteringen en aanmaningen configureren</span><span class="sxs-lookup"><span data-stu-id="bef95-132">Configure Accounts receivables and Credit and collections</span></span>](accounts-receivables-set-up-overview.md)
 
-[<span data-ttu-id="89e9d-133">Crediteringen en aanmaningen instellen</span><span class="sxs-lookup"><span data-stu-id="89e9d-133">Set up Credit and collections</span></span>](set-up-collections.md)
+[<span data-ttu-id="bef95-133">Crediteringen en aanmaningen instellen</span><span class="sxs-lookup"><span data-stu-id="bef95-133">Set up Credit and collections</span></span>](set-up-collections.md)
 
-## <a name="set-up-payments-and-settlements"></a><span data-ttu-id="89e9d-134">Betalingen en vereffeningen instellen</span><span class="sxs-lookup"><span data-stu-id="89e9d-134">Set up payments and settlements</span></span>
+## <a name="set-up-payments-and-settlements"></a><span data-ttu-id="bef95-134">Betalingen en vereffeningen instellen</span><span class="sxs-lookup"><span data-stu-id="bef95-134">Set up payments and settlements</span></span>
 
-<span data-ttu-id="89e9d-135">Accepteer verschillende betalingstypen van klanten, zoals wissels, contant geld, cheques, creditcards en elektronische betalingen.</span><span class="sxs-lookup"><span data-stu-id="89e9d-135">Accept different types of payments from customers, such as bills of exchange, cash, checks, credit cards, and electronic payments.</span></span> 
+<span data-ttu-id="bef95-135">Accepteer verschillende betalingstypen van klanten, zoals wissels, contant geld, cheques, creditcards en elektronische betalingen.</span><span class="sxs-lookup"><span data-stu-id="bef95-135">Accept different types of payments from customers, such as bills of exchange, cash, checks, credit cards, and electronic payments.</span></span> 
 
 :::row:::
     :::column:::
-        - [<span data-ttu-id="89e9d-136">Een klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingperioden omvatten</span><span class="sxs-lookup"><span data-stu-id="89e9d-136">Use a customer payment to settle multiple invoices that span multiple discount periods</span></span>](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-        - [<span data-ttu-id="89e9d-137">Gecentraliseerde betalingen voor Klanten</span><span class="sxs-lookup"><span data-stu-id="89e9d-137">Centralized payments for Accounts receivable</span></span>](centralized-payments-accounts-receivable.md)
-        - [<span data-ttu-id="89e9d-138">Een gedeeltelijke klantbetaling en de definitieve betaling volledig vereffenen vóór de kortingsdatum</span><span class="sxs-lookup"><span data-stu-id="89e9d-138">Settle a partial customer payment and the final payment in full before the discount date</span></span>](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [<span data-ttu-id="89e9d-139">Een gedeeltelijke klantenbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum</span><span class="sxs-lookup"><span data-stu-id="89e9d-139">Settle a partial customer payment before the discount date with a final payment after the discount date</span></span>](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+        - [<span data-ttu-id="bef95-136">Een klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingperioden omvatten</span><span class="sxs-lookup"><span data-stu-id="bef95-136">Use a customer payment to settle multiple invoices that span multiple discount periods</span></span>](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+        - [<span data-ttu-id="bef95-137">Gecentraliseerde betalingen voor Klanten</span><span class="sxs-lookup"><span data-stu-id="bef95-137">Centralized payments for Accounts receivable</span></span>](centralized-payments-accounts-receivable.md)
+        - [<span data-ttu-id="bef95-138">Een gedeeltelijke klantbetaling en de definitieve betaling volledig vereffenen vóór de kortingsdatum</span><span class="sxs-lookup"><span data-stu-id="bef95-138">Settle a partial customer payment and the final payment in full before the discount date</span></span>](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+        - [<span data-ttu-id="bef95-139">Een gedeeltelijke klantenbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum</span><span class="sxs-lookup"><span data-stu-id="bef95-139">Settle a partial customer payment before the discount date with a final payment after the discount date</span></span>](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
     :::column-end:::
     :::column:::
-        - [<span data-ttu-id="89e9d-140">Een gedeeltelijke klantbetaling vereffenen met kortingen op creditnota's</span><span class="sxs-lookup"><span data-stu-id="89e9d-140">Settle a partial customer payment that has discounts on credit notes</span></span>](settle-partial-customer-payment-discounts-credit-notes.md)
-        - [<span data-ttu-id="89e9d-141">Een gedeeltelijke klantbetaling met meerdere kortingsperioden vereffenen</span><span class="sxs-lookup"><span data-stu-id="89e9d-141">Settle a partial customer payment that has multiple discount periods</span></span>](settle-partial-customer-payment-multiple-discount-periods.md)
-        - [<span data-ttu-id="89e9d-142">Klanten terugbetalen</span><span class="sxs-lookup"><span data-stu-id="89e9d-142">Reimburse customers</span></span>](reimburse-customers.md)
-        - [<span data-ttu-id="89e9d-143">Klantbetalingen voor een gedeeltelijk bedrag</span><span class="sxs-lookup"><span data-stu-id="89e9d-143">Customer payments for a partial amount</span></span>](customer-payments-partial-amount.md)
+        - [<span data-ttu-id="bef95-140">Een gedeeltelijke klantbetaling vereffenen met kortingen op creditnota's</span><span class="sxs-lookup"><span data-stu-id="bef95-140">Settle a partial customer payment that has discounts on credit notes</span></span>](settle-partial-customer-payment-discounts-credit-notes.md)
+        - [<span data-ttu-id="bef95-141">Een gedeeltelijke klantbetaling met meerdere kortingsperioden vereffenen</span><span class="sxs-lookup"><span data-stu-id="bef95-141">Settle a partial customer payment that has multiple discount periods</span></span>](settle-partial-customer-payment-multiple-discount-periods.md)
+        - [<span data-ttu-id="bef95-142">Klanten terugbetalen</span><span class="sxs-lookup"><span data-stu-id="bef95-142">Reimburse customers</span></span>](reimburse-customers.md)
+        - [<span data-ttu-id="bef95-143">Klantbetalingen voor een gedeeltelijk bedrag</span><span class="sxs-lookup"><span data-stu-id="bef95-143">Customer payments for a partial amount</span></span>](customer-payments-partial-amount.md)
     :::column-end:::
 :::row-end:::
 
 
-### <a name="additional-resources"></a><span data-ttu-id="89e9d-144">Aanvullende bronnen</span><span class="sxs-lookup"><span data-stu-id="89e9d-144">Additional resources</span></span>
+### <a name="additional-resources"></a><span data-ttu-id="bef95-144">Aanvullende bronnen</span><span class="sxs-lookup"><span data-stu-id="bef95-144">Additional resources</span></span>
 
-#### <a name="whats-new-and-in-development"></a><span data-ttu-id="89e9d-145">Wat is nieuw en in ontwikkeling</span><span class="sxs-lookup"><span data-stu-id="89e9d-145">What's new and in development</span></span>
+#### <a name="whats-new-and-in-development"></a><span data-ttu-id="bef95-145">Wat is nieuw en in ontwikkeling</span><span class="sxs-lookup"><span data-stu-id="bef95-145">What's new and in development</span></span>
 
-<span data-ttu-id="89e9d-146">Ga naar de [Microsoft Dynamics 365-roadmap](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland.</span><span class="sxs-lookup"><span data-stu-id="89e9d-146">Go to the [Microsoft Dynamics 365 Roadmap](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features are planned.</span></span> 
+<span data-ttu-id="bef95-146">Ga naar de [Microsoft Dynamics 365-roadmap](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland.</span><span class="sxs-lookup"><span data-stu-id="bef95-146">Go to the [Microsoft Dynamics 365 Roadmap](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features are planned.</span></span> 
 
-#### <a name="blogs"></a><span data-ttu-id="89e9d-147">Weblogs</span><span class="sxs-lookup"><span data-stu-id="89e9d-147">Blogs</span></span>
+#### <a name="blogs"></a><span data-ttu-id="bef95-147">Weblogs</span><span class="sxs-lookup"><span data-stu-id="bef95-147">Blogs</span></span>
 
-<span data-ttu-id="89e9d-148">U kunt adviezen, nieuws en andere informatie over Klanten en andere oplossingen vinden op de [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en de [Microsoft Dynamics 365 Finance and Operations - Financials-blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="89e9d-148">You can find opinions, news, and other information about Accounts receivable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
+<span data-ttu-id="bef95-148">U kunt adviezen, nieuws en andere informatie over Klanten en andere oplossingen vinden op de [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en de [Microsoft Dynamics 365 Finance and Operations - Financials-blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="bef95-148">You can find opinions, news, and other information about Accounts receivable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
 
-<span data-ttu-id="89e9d-149">De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="89e9d-149">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in Dynamics 365.</span></span>
+<span data-ttu-id="bef95-149">De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="bef95-149">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in Dynamics 365.</span></span>
 
-#### <a name="task-guides"></a><span data-ttu-id="89e9d-150">Taakbegeleiders</span><span class="sxs-lookup"><span data-stu-id="89e9d-150">Task guides</span></span>
-<span data-ttu-id="89e9d-151">Extra informatie is beschikbaar als taakbegeleiders binnen de toepassing.</span><span class="sxs-lookup"><span data-stu-id="89e9d-151">Additional help is available as task guides inside the application.</span></span> <span data-ttu-id="89e9d-152">Klik op elke pagina op de knop Help als u een taakbegeleider wilt openen.</span><span class="sxs-lookup"><span data-stu-id="89e9d-152">To access task guides, click the Help button on any page.</span></span>
+#### <a name="task-guides"></a><span data-ttu-id="bef95-150">Taakbegeleiders</span><span class="sxs-lookup"><span data-stu-id="bef95-150">Task guides</span></span>
+<span data-ttu-id="bef95-151">Extra informatie is beschikbaar als taakbegeleiders binnen de toepassing.</span><span class="sxs-lookup"><span data-stu-id="bef95-151">Additional help is available as task guides inside the application.</span></span> <span data-ttu-id="bef95-152">Klik op elke pagina op de knop Help als u een taakbegeleider wilt openen.</span><span class="sxs-lookup"><span data-stu-id="bef95-152">To access task guides, click the Help button on any page.</span></span>
 
-#### <a name="videos"></a><span data-ttu-id="89e9d-153">Video's</span><span class="sxs-lookup"><span data-stu-id="89e9d-153">Videos</span></span>
+#### <a name="videos"></a><span data-ttu-id="bef95-153">Video's</span><span class="sxs-lookup"><span data-stu-id="bef95-153">Videos</span></span>
 
-<span data-ttu-id="89e9d-154">Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="89e9d-154">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
-
-
+<span data-ttu-id="bef95-154">Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="bef95-154">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 
 
 
 
 
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

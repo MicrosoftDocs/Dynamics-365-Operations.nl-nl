@@ -17,46 +17,49 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cf6f0bc27121e6c1a0b4bba2ad1ca31909423c92
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d35d1a734ebff3abdf49083c282b5dfb64b445bd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969067"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5212416"
 ---
-# <a name="fixed-assets-home-page"></a><span data-ttu-id="96a53-103">Startpagina Vaste activa</span><span class="sxs-lookup"><span data-stu-id="96a53-103">Fixed assets home page</span></span>
+# <a name="fixed-assets-home-page"></a><span data-ttu-id="6fb65-103">Startpagina Vaste activa</span><span class="sxs-lookup"><span data-stu-id="6fb65-103">Fixed assets home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="96a53-104">Vaste activa zijn waardevolle zaken, bijvoorbeeld gebouwen, voertuigen, grond en apparatuur, die het eigendom zijn van een persoon of organisatie.</span><span class="sxs-lookup"><span data-stu-id="96a53-104">Fixed assets are items of value, such as buildings, vehicles, land, and equipment, which are owned by an individual or organization.</span></span> 
+<span data-ttu-id="6fb65-104">Vaste activa zijn waardevolle zaken, bijvoorbeeld gebouwen, voertuigen, grond en apparatuur, die het eigendom zijn van een persoon of organisatie.</span><span class="sxs-lookup"><span data-stu-id="6fb65-104">Fixed assets are items of value, such as buildings, vehicles, land, and equipment, which are owned by an individual or organization.</span></span> 
 
-<span data-ttu-id="96a53-105">U kunt aanschafgegevens voor vaste activa instellen en invoeren, en deze beheren door ze af te schrijven en een drempel voor kapitalisatie in te stellen om de afschrijving te bepalen.</span><span class="sxs-lookup"><span data-stu-id="96a53-105">You can set up and enter acquisition information for fixed assets, and then manage them by depreciating them and setting a capitalization threshold to determine depreciation.</span></span> <span data-ttu-id="96a53-106">U kunt correcties berekenen voor de vaste activa of de vaste activa afstoten.</span><span class="sxs-lookup"><span data-stu-id="96a53-106">You can calculate adjustments to the fixed assets, and also dispose of them.</span></span> <span data-ttu-id="96a53-107">Wanneer u Grootboek gebruikt samen met Vaste activa, kunt u de huidige waarde van alle vaste activa weergeven.</span><span class="sxs-lookup"><span data-stu-id="96a53-107">When you use General ledger together with Fixed assets, you can view the current value of all fixed assets.</span></span> <span data-ttu-id="96a53-108">De manier waarop vaste activa worden verwerkt, moet overeenstemmen met zowel internationale boekhoudregels als de boekhoudwetgeving van elk land of elke regio.</span><span class="sxs-lookup"><span data-stu-id="96a53-108">The way in which fixed assets are handled must correspond to both international accounting standards and the accounting legislation in each country/region.</span></span> <span data-ttu-id="96a53-109">Deze vereisten kunnen bijvoorbeeld regels zijn voor het vastleggen van aanschaf- en afstotingstransacties, afschrijving, levensduur en opwaarderingen en afwaarderingen van vaste activa.</span><span class="sxs-lookup"><span data-stu-id="96a53-109">Requirements might include rules for recording acquisition and disposal transactions, depreciation, lifetimes, and write-ups and write-downs of fixed assets.</span></span> <span data-ttu-id="96a53-110">Veel van deze regels zijn geïntegreerd in de functionaliteit van Vaste activa.</span><span class="sxs-lookup"><span data-stu-id="96a53-110">The Fixed assets functionality incorporates many of these standards and rules.</span></span>
+<span data-ttu-id="6fb65-105">U kunt aanschafgegevens voor vaste activa instellen en invoeren, en deze beheren door ze af te schrijven en een drempel voor kapitalisatie in te stellen om de afschrijving te bepalen.</span><span class="sxs-lookup"><span data-stu-id="6fb65-105">You can set up and enter acquisition information for fixed assets, and then manage them by depreciating them and setting a capitalization threshold to determine depreciation.</span></span> <span data-ttu-id="6fb65-106">U kunt correcties berekenen voor de vaste activa of de vaste activa afstoten.</span><span class="sxs-lookup"><span data-stu-id="6fb65-106">You can calculate adjustments to the fixed assets, and also dispose of them.</span></span> <span data-ttu-id="6fb65-107">Wanneer u Grootboek gebruikt samen met Vaste activa, kunt u de huidige waarde van alle vaste activa weergeven.</span><span class="sxs-lookup"><span data-stu-id="6fb65-107">When you use General ledger together with Fixed assets, you can view the current value of all fixed assets.</span></span> <span data-ttu-id="6fb65-108">De manier waarop vaste activa worden verwerkt, moet overeenstemmen met zowel internationale boekhoudregels als de boekhoudwetgeving van elk land of elke regio.</span><span class="sxs-lookup"><span data-stu-id="6fb65-108">The way in which fixed assets are handled must correspond to both international accounting standards and the accounting legislation in each country/region.</span></span> <span data-ttu-id="6fb65-109">Deze vereisten kunnen bijvoorbeeld regels zijn voor het vastleggen van aanschaf- en afstotingstransacties, afschrijving, levensduur en opwaarderingen en afwaarderingen van vaste activa.</span><span class="sxs-lookup"><span data-stu-id="6fb65-109">Requirements might include rules for recording acquisition and disposal transactions, depreciation, lifetimes, and write-ups and write-downs of fixed assets.</span></span> <span data-ttu-id="6fb65-110">Veel van deze regels zijn geïntegreerd in de functionaliteit van Vaste activa.</span><span class="sxs-lookup"><span data-stu-id="6fb65-110">The Fixed assets functionality incorporates many of these standards and rules.</span></span>
 
-<span data-ttu-id="96a53-111">[![Bedrijfsproces](./media/FA-process.PNG)](./media/FA-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="96a53-111">[![Business process](./media/FA-process.PNG)](./media/FA-process.PNG)</span></span>
-
-
-
-### <a name="additional-resources"></a><span data-ttu-id="96a53-112">Aanvullende bronnen</span><span class="sxs-lookup"><span data-stu-id="96a53-112">Additional resources</span></span>
-
-#### <a name="whats-new-and-in-development"></a><span data-ttu-id="96a53-113">Wat is nieuw en in ontwikkeling</span><span class="sxs-lookup"><span data-stu-id="96a53-113">What's new and in development</span></span>
-
-<span data-ttu-id="96a53-114">Ga naar de [releaseplannen voor Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland.</span><span class="sxs-lookup"><span data-stu-id="96a53-114">Go to the [Microsoft Dynamics 365 release plans](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features have been planned.</span></span> 
-
-#### <a name="blogs"></a><span data-ttu-id="96a53-115">Weblogs</span><span class="sxs-lookup"><span data-stu-id="96a53-115">Blogs</span></span>
-
-<span data-ttu-id="96a53-116">U kunt adviezen, nieuws en andere informatie vinden in de [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en de [Microsoft Dynamics 365 Finance and Operations - Financials-blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="96a53-116">You can find opinions, news, and other information on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
-
-<span data-ttu-id="96a53-117">De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="96a53-117">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in Dynamics 365.</span></span>
-
-#### <a name="task-guides"></a><span data-ttu-id="96a53-118">Taakbegeleiders</span><span class="sxs-lookup"><span data-stu-id="96a53-118">Task guides</span></span>
-<span data-ttu-id="96a53-119">Extra informatie is beschikbaar als taakbegeleiders.</span><span class="sxs-lookup"><span data-stu-id="96a53-119">Additional help is available as task guides.</span></span> <span data-ttu-id="96a53-120">Klik op elke pagina op de knop Help als u een taakbegeleider wilt openen.</span><span class="sxs-lookup"><span data-stu-id="96a53-120">To access task guides, click the Help button on any page.</span></span>
-
-#### <a name="videos"></a><span data-ttu-id="96a53-121">Video's</span><span class="sxs-lookup"><span data-stu-id="96a53-121">Videos</span></span>
-
-<span data-ttu-id="96a53-122">Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="96a53-122">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
+<span data-ttu-id="6fb65-111">[![Bedrijfsproces](./media/FA-process.PNG)](./media/FA-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="6fb65-111">[![Business process](./media/FA-process.PNG)](./media/FA-process.PNG)</span></span>
 
 
+
+### <a name="additional-resources"></a><span data-ttu-id="6fb65-112">Aanvullende bronnen</span><span class="sxs-lookup"><span data-stu-id="6fb65-112">Additional resources</span></span>
+
+#### <a name="whats-new-and-in-development"></a><span data-ttu-id="6fb65-113">Wat is nieuw en in ontwikkeling</span><span class="sxs-lookup"><span data-stu-id="6fb65-113">What's new and in development</span></span>
+
+<span data-ttu-id="6fb65-114">Ga naar de [releaseplannen voor Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland.</span><span class="sxs-lookup"><span data-stu-id="6fb65-114">Go to the [Microsoft Dynamics 365 release plans](https://go.microsoft.com/fwlink/?linkid=2010158) to see what new features have been planned.</span></span> 
+
+#### <a name="blogs"></a><span data-ttu-id="6fb65-115">Weblogs</span><span class="sxs-lookup"><span data-stu-id="6fb65-115">Blogs</span></span>
+
+<span data-ttu-id="6fb65-116">U kunt adviezen, nieuws en andere informatie vinden in de [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) en de [Microsoft Dynamics 365 Finance and Operations - Financials-blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span><span class="sxs-lookup"><span data-stu-id="6fb65-116">You can find opinions, news, and other information on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise) and the [Microsoft Dynamics 365 Finance and Operations - Financials blog](https://community.dynamics.com/365/financeandoperations/b/financials).</span></span>
+
+<span data-ttu-id="6fb65-117">De [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog) biedt Microsoft Dynamics-partners één bron met informatie over wat nieuw is en welke trends er zijn in Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="6fb65-117">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in Dynamics 365.</span></span>
+
+#### <a name="task-guides"></a><span data-ttu-id="6fb65-118">Taakbegeleiders</span><span class="sxs-lookup"><span data-stu-id="6fb65-118">Task guides</span></span>
+<span data-ttu-id="6fb65-119">Extra informatie is beschikbaar als taakbegeleiders.</span><span class="sxs-lookup"><span data-stu-id="6fb65-119">Additional help is available as task guides.</span></span> <span data-ttu-id="6fb65-120">Klik op elke pagina op de knop Help als u een taakbegeleider wilt openen.</span><span class="sxs-lookup"><span data-stu-id="6fb65-120">To access task guides, click the Help button on any page.</span></span>
+
+#### <a name="videos"></a><span data-ttu-id="6fb65-121">Video's</span><span class="sxs-lookup"><span data-stu-id="6fb65-121">Videos</span></span>
+
+<span data-ttu-id="6fb65-122">Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="6fb65-122">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 
 
 
 
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
