@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a3a64593a2155d35e78b0d854c7367fa65d1c5c8
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: af0461588971342b62104fce9b5bfa25e329d7c9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5018541"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252985"
 ---
 # <a name="maintenance-rounds"></a>Onderhoudsrondes
 
@@ -78,7 +78,7 @@ In **Activabeheer** kunt u onderhoudsronden maken voor verschillende activa. Daa
 20. Sla de instellingen op.
 
 >[!NOTE]
->In de velden **Activa** en **Regels** in de groep **Details** van het sneltabblad **Koptekst** ziet u het totaal aantal activa en regels voor de geselecteerde onderhoudsronde.
+>In de velden **Activa** en **Regels** in de groep **Details** van het sneltabblad **Header** ziet u het totaal aantal activa en regels voor de geselecteerde onderhoudsronde.
 
 In de onderstaande afbeelding ziet u een voorbeeld van een onderhoudsronde die drie activa bevat.
 

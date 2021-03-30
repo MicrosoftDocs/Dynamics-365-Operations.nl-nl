@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a3612c0c24814f7637234894cc176c2a2be001ba
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c71f85cac11c4f11d63ba8f55932ec8f0520d924
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5007036"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246112"
 ---
 # <a name="job-scheduling"></a>Taakplanning
 
@@ -66,7 +66,7 @@ De planningsengine controleert combinaties van resources om na te gaan of deze c
 -   **Duur** - De planningsengine kiest de resource met de kortste doorlooptijd. **Opmerking:** Plannen op duur kan ervoor zorgen dat de prestaties minder zijn als dezelfde resourcegroep veel resources bevat en secundaire bewerkingen worden gebruikt. Er kunnen maximaal 32 resources worden ingepland per bewerking. Als u meer resources inplant, wordt een infologboek weergegeven en wordt bij de taakplanning niet de beste alternatieve resource gevonden.
 -   **Prioriteit** – De planningsengine kiest de resource met de hoogste prioriteit als er twee of meer resources zijn met identieke mogelijkheden en niveaus. De bron met de laagste numerieke waarde in dit veld heeft de hoogste prioriteit.
 
-Wanneer u taakplanning uitvoert, plant het systeem de resources op basis van de beperkingen die u in de resourceparameters definieert. De capaciteit van resources kunt u bepalen met behulp van de agenda-instellingen. Het systeem rekent de belasting voor resources tijdens het planningsproces. **Opmerking:** Voor producties waarvoor de bewerkingsplanningsfunctie wordt gebruikt, kunt u de taakplanning uitvoeren na de bewerkingsplanning. Als u de bewerkingsplanning niet gebruikt, kunt u de taakplanning afzonderlijk uitvoeren.
+Wanneer u taakplanning uitvoert, plant het systeem de resources op basis van de beperkingen die u in de resourceparameters definieert. De capaciteit van resources kunt u bepalen met behulp van de agenda-instellingen. Het systeem berekent de ladingen voor resources tijdens het planningsproces. **Opmerking:** Voor producties waarvoor de bewerkingsplanningsfunctie wordt gebruikt, kunt u de taakplanning uitvoeren na de bewerkingsplanning. Als u de bewerkingsplanning niet gebruikt, kunt u de taakplanning afzonderlijk uitvoeren.
 
 ## <a name="maximum-capacities-for-resources-per-job-order"></a>De maximumcapaciteit van resources per taakorder
 Tijdens het taakplanningsproces worden taken aan resources toegewezen. U kunt de maximumcapaciteit van resources per taakorder vaststellen. U kunt het systeem bijvoorbeeld instellen met de beperking dat er niet meer dan 50% van de totale capaciteit mag worden gepland voor een productieorder. Deze instellingen bieden u meer controle over het plannen van resources op niveau van de taak. Dit helpt problemen te voorkomen als er niet voldoende capaciteit beschikbaar is om gelijktijdige producties uit te voeren.

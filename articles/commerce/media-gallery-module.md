@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 045568797722a621ea4e6c82d10dbb266b9e8162
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e9b5a8123c64dce2ba65758f0312a899646cf948
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982461"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252553"
 ---
 # <a name="media-gallery-module"></a>Module Mediagalerie
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven wat mediagaleriemodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Met mediagaleriemodules worden een of meer afbeeldingen weergegeven in een galerieweergave. Mediagaleriemodules ondersteunen miniatuurafbeeldingen die horizontaal kunnen worden gerangschikt (als een rij onder de afbeelding) of verticaal (als een kolom naast de afbeelding). Mediagaleriemodules bieden ook mogelijkheden waarmee afbeeldingen kunnen worden ingezoomd (vergroot) of weergegeven in de modus volledig scherm. Een afbeelding wordt pas weergegeven in een mediagaleriemodule als deze beschikbaar is in de mediabibliotheek van de Commerce Site Builder. Momenteel worden in mediagaleriemodules alleen afbeeldingen ondersteund.
 
