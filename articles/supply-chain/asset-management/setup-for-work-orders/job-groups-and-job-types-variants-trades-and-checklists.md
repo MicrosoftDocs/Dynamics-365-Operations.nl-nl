@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a335d642457fdd84ec42e285425fdc6212889cc0
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: c283a35f540105b4036305fb9118e090ad1528ba
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5021268"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206020"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorieën van onderhoudstaaktypen en onderhoudstaaktypen, varianten van onderhoudstaaktypen, onderhoudstaakspecialismen en onderhoudscontrolelijsten
 
@@ -132,8 +132,8 @@ Sjablonen voor onderhoudscontrolelijsten kunnen worden gebruikt als algemene set
 
 5. Typ een naam voor de regel voor de onderhoudscontrolelijst in het veld **Type**. Voor elk type onderhoudscontrolelijst worden de gerelateerde velden weergegeven op het Sneltabblad **Regeldetails**. De volgende waarden zijn beschikbaar:
 
-    - **Tekst** – de regel bevat tekst die beschrijft wat u moet doen. U kunt dit type onderhoudscontrolelijst gebruiken als u wilt dat een medewerker iets controleert of inspecteert, zonder een specifiek (meetbaar) resultaat te verwachten. Nadat u dit type hebt geselecteerd, voert u een naam of koptekst in het veld **Naam** in. Voer in het veld **Instructies** een omschrijving in voor wat moet worden gedaan. Als de stap verplicht is voor de onderhoudscontrolelijst, stelt u de optie **Verplicht** in op **Ja**.
-    - **Koptekst** - De regel wordt gebruikt als koptekst voor het groeperen van de onderhoudscontrolelijstregels die eronder worden weergegeven. Dit type is handig als u verschillende onderhoudscontrolelijstregels hebt die in specifieke gebieden kunnen worden onderverdeeld. Kopteksten bieden een overzicht voor de werknemer die een onderhoudscontrolelijst met veel regels voor onderhoudscontrole moet voltooien. Nadat u dit type hebt geselecteerd, voert u een beschrijvende naam in het veld **Naam** in.
+    - **Tekst** – de regel bevat tekst die beschrijft wat u moet doen. U kunt dit type onderhoudscontrolelijst gebruiken als u wilt dat een medewerker iets controleert of inspecteert, zonder een specifiek (meetbaar) resultaat te verwachten. Nadat u dit type hebt geselecteerd, voert u een naam of header in het veld **Naam** in. Voer in het veld **Instructies** een omschrijving in voor wat moet worden gedaan. Als de stap verplicht is voor de onderhoudscontrolelijst, stelt u de optie **Verplicht** in op **Ja**.
+    - **Header** - De regel wordt gebruikt als header voor het groeperen van de onderhoudscontrolelijstregels die eronder worden weergegeven. Dit type is handig als u verschillende onderhoudscontrolelijstregels hebt die in specifieke gebieden kunnen worden onderverdeeld. Headers bieden een overzicht voor de werknemer die een onderhoudscontrolelijst met veel regels voor onderhoudscontrole moet voltooien. Nadat u dit type hebt geselecteerd, voert u een beschrijvende naam in het veld **Naam** in.
     - **Sjabloon** - de regel wordt gebruikt om een verwijzing naar een bestaande sjabloon te maken. Nadat u dit type hebt geselecteerd, voert u een naam voor de sjabloon in het veld **Naam** in. Selecteer in het veld **Sjabloon** cd sjabloon.
     - **Variabele** – De regel wordt gebruikt om een mogelijk resultaat in een bereik te definiëren. Zie de sectie [Een variabele controlelijst voor onderhoud maken](#create-a-maintenance-checklist-variable) voor informatie over het instellen van variabelen voor onderhoudscontrolelijsten. Nadat u dit type hebt geselecteerd, voert u een beschrijvende naam voor de variabele in het veld **Naam** in. Selecteer de variabele in het veld **Variabele**. Voer in het veld **Instructies** een omschrijving in voor wat moet worden gedaan. Als de stap verplicht is voor de onderhoudscontrolelijst, stelt u de optie **Verplicht** in op **Ja**.
     - **Meting** - De regel wordt gebruikt om een specifieke meting vast te leggen. U kunt de meting instellen die moet worden gerelateerd aan een vooraf gedefinieerde teller. Nadat u dit type hebt geselecteerd, voert u een naam voor de sjabloon in het veld **Naam** in. Als deze stap verplicht is voor de onderhoudscontrolelijst, stelt u de optie **Verplicht** in op **Ja**. Als u de metingsregel wilt gebruiken als een tellerregistratie, selecteert u de teller in het veld **Teller**. Het gerelateerde veld **Eenheid** wordt automatisch bijgewerkt. Als u een teller hebt geselecteerd, selecteert u de bijwerkmethode in het veld **Waarde**. Voer in de velden **Min. waarde** en **Max. waarde** het toegestane waardebereik in. Voer in het veld **Instructies** een omschrijving in voor wat moet worden gedaan.

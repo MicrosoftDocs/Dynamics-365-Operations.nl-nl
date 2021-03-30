@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d8c3289ec049eeaa5a03b6cec02be85213c3bfa7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 18dbcf32f85bca51bf48e5ed8c64fedc99f66082
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004517"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216830"
 ---
 # <a name="manage-warehouse-workers"></a>Magazijnmedewerkers beheren
 
@@ -42,7 +42,7 @@ Op de pagina **Arbeidsstandaarden** kunt u de berekeningsmethoden definiëren di
 Om de arbeidsstandaarden in te schakelen die u hebt gedefinieerd, moet u de optie **Arbeidsstandaarden toestaan** selecteren voor elk magazijn waar arbeidsstandaarden worden gebruikt.
 
 ## <a name="monitoring-and-controlling-warehouse-work"></a>Magazijnwerk bewaken en beheren
-Op de pagina **Alle werk** kunt u al het werk controleren en beheren dat is gepland, wordt uitgevoerd, en voltooid. Vanaf deze pagina kunt u verschillende processen, zoals toewijzingen van magazijnwerkgebruikers en werkprioriteit bijwerken. U kunt ook inzoomen op de details die aan de werkkoptekst en het de werkregels zijn gekoppeld om inzicht te krijgen in de verwachte of voltooide processen. 
+Op de pagina **Alle werk** kunt u al het werk controleren en beheren dat is gepland, wordt uitgevoerd, en voltooid. Vanaf deze pagina kunt u verschillende processen, zoals toewijzingen van magazijnwerkgebruikers en werkprioriteit bijwerken. U kunt ook inzoomen op de details die aan de werkheader en het de werkregels zijn gekoppeld om inzicht te krijgen in de verwachte of voltooide processen. 
 
 Als u de optie **Arbeidsstandaarden** inschakelt, kunt u de berekende geschatte tijd voor het werk zien. Wanneer nu het werk wordt uitgevoerd, wordt ook de werkelijke tijd weergegeven voor elke werkbewerking. Op deze manier kunt u de geraamde tijdberekeningen vergelijken met de werkelijke tijd. 
 

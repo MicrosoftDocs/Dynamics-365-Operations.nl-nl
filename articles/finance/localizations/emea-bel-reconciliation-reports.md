@@ -16,12 +16,12 @@ ms.search.region: Belgium
 ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 8958185ce13cad773f22239c74962ede142659eb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 76625b6f2860dcae5fa6c04eab462cec87db8d9a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988330"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236324"
 ---
 # <a name="reconciliation-reports-for-belgium"></a>Afstemmingsrapporten voor België
 
