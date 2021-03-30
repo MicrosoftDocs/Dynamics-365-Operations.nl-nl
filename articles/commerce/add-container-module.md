@@ -1,6 +1,6 @@
 ---
 title: Module Container
-description: In dit onderwerp wordt beschreven wat containermodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
+description: In dit onderwerp worden containermodules voor functies beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 09/15/2020
@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 23d81eaee6684ff2b041f93edd05076af66d322d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 43017cbb76c38eed6951a9e87c763cf919c3bd93
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980526"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206410"
 ---
-# <a name="container-module"></a>Module Container
+# <a name="container-module"></a>Containermodule
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven wat containermodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
+In dit onderwerp worden containermodules voor functies beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
 Een container module is een module waarin andere modules worden gehost. Het primaire doel van een containermodule is het definiëren van de indeling van de modules die de container bevat, door de ingestelde eigenschappen. Deze modules kunnen bijvoorbeeld naast elkaar worden weergegeven in een indeling met twee kolommen, drie kolommen, vier kolommen of zes kolommen. Ze kunnen ook worden beperkt tot de breedte van de container of ze kunnen het scherm vullen. Er kan een koptekst aan elke containermodule worden toegevoegd.
 

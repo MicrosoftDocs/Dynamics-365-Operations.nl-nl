@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9d8945348cbe3255ecc497f129d125ad11e9ceab
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d0e5fa731d4b808cda9863074d17d1917410f399
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000844"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213669"
 ---
 # <a name="delivery-options-module"></a>Module voor leveringsopties
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp worden modules voor leveringsopties beschreven en toegelicht hoe u ze configureert in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Met de modules voor leveringsopties kunnen klanten een leveringsmethode selecteren voor hun online bestelling, zoals verzending of ophalen. Voor het bepalen van de leveringsmethode is een verzendadres vereist. Als het verzendadres wordt gewijzigd, moeten de leveringsopties weer worden opgehaald. Als een order alleen de artikelen bevat die worden opgehaald in een winkel, wordt deze module automatisch verborgen.
 

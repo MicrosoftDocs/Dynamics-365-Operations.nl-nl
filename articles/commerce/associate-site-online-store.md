@@ -1,5 +1,5 @@
 ---
-title: Een online Dynamics 365 Commerce-site koppelen aan een online kanaal
+title: Een Dynamics 365 Commerce-site koppelen aan een online kanaal
 description: In dit onderwerp wordt uitgelegd hoe u uw Microsoft Dynamics 365 Commerce-site verbindt met een of meer online winkels.
 author: bicyclingfool
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fc93441bd09deccdb8c7ecf955c0ec5177c0b31e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bb39b54e45e387067720dcbc5d9ccffbf8bf08b4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980018"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211517"
 ---
-# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Een online Dynamics 365 Commerce-site koppelen aan een online kanaal
+# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Een Dynamics 365 Commerce-site koppelen aan een online kanaal
 
 [!include [banner](includes/banner.md)]
 
