@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74dbad4cb348f19b51ba8b84a1cd41fc5049708e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 785ff004adcd94e7c4c6c5918d632ce662aa7989
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006330"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205117"
 ---
 # <a name="store-selector-module"></a>Winkelselectiemodule
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven wat de winkelselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Klanten kunnen de winkelselectiemodule gebruiken om een product in een geselecteerde winkel op te halen na een online aankoop. In Commerce versie 10.0.13 bevat de winkelselectiemodule ook extra mogelijkheden voor een overzicht van een **Winkel zoeken**-pagina waarin nabijgelegen winkels worden weergegeven.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6639de250557ce9a25fc2cde3807abf64b0ddc18
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: def99a34404357e28501de5ccf11c6130d53f34f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993445"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213813"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Optionele functies voor een Dynamics 365 Commerce-evaluatieomgeving configureren
 
@@ -102,7 +102,7 @@ Voor elke transactionele gebeurtenis waarvoor u e-mailberichten wilt verzenden, 
 
 Mogelijk wilt u de e-mailsjablonen aanpassen zodat deze verschillende afbeeldingen gebruiken. U kunt ook de koppelingen in de sjablonen bijwerken, zodat deze naar uw evaluatieomgeving leiden. In deze procedure wordt uitgelegd hoe u de standaardsjablonen kunt downloaden, aanpassen en bijwerken in het systeem.
 
-1. Download via een webbrowser [het zipbestand met standaard e-mailsjablonen voor Microsoft Dynamics 365 Commerce-evaluatie](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) naar uw lokale computer. Dit bestand bevat de volgende HTML-documenten:
+1. Download via een webbrowser het [zipbestand met standaard e-mailsjablonen voor Microsoft Dynamics 365 Commerce-evaluatie](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) naar uw lokale computer. Dit bestand bevat de volgende HTML-documenten:
 
     - Sjabloon voor orderbevestiging
     - Sjabloon voor uitgifte van geschenkbon
@@ -133,19 +133,19 @@ Als de e-mail wordt weergegeven, worden deze tokens vervangen door de werkelijke
 
 De volgende tokens gelden voor de algehele verkooporder.
 
-| Naam van token | Token  |
+| Naam van token | Token |
 |-------------------|-------|
 | Ordernummer      | %salesid% |
 | Naam van klant   | %customername% |
 | Afleveradres  | %deliveryaddress% |
-| Factureringsadres   | %customeraddress% |
+| Factuuradres   | %customeraddress% |
 | Besteldatum        | %shipdate% |
 | Bezorgingsmodus     | %modeofdelivery% |
 | Korting          | %discount% |
 | Btw         | %tax% |
 | Ordertotaal       | %total% |
 
-#### <a name="sales-line"></a>Verkoopregel
+#### <a name="sales-line"></a>Verkoopregel 
 
 De volgende tokens worden voor elk product in de order vervangen door waarden.
 
@@ -157,9 +157,9 @@ De volgende tokens worden voor elk product in de order vervangen door waarden.
 | Productlijst - begin   | \<!--%tablebegin.salesline% --\> |
 | Productlijst - eind     | \<!--%tableend.salesline%--\> |
 | Productnaam           | %lineproductname% |
-| Omschrijving            | %lineproductdescription% |
+| Beschrijving            | %lineproductdescription% |
 | Hoeveelheid               | %linequantity% |
-| Regel met eenheidsprijs        | %lineprice% (controleren) |
+| Regel met eenheidsprijs        | %lineprice% (verifiëren) |
 | totaal regelartikel        | %linenetamount% |
 | regelkorting          | %linediscount% |
 | Verzenddatum              | %lineshipdate% |

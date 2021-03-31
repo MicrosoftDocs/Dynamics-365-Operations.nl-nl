@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cb32b014ac35e33db28d3dee03b01dfa43f5d6a5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5e800daa6eeb54a2eda535cb57aa45559b59b4ea
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980501"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206457"
 ---
 # <a name="checkout-module"></a>Betalingsmodule
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een betalingsmodule aan een pagina toevoegt en de vereiste eigenschappen instelt.
-
-## <a name="overview"></a>Overzicht
 
 Een betalingsmodule is een speciale container die als host fungeert voor alle modules die nodig zijn om een order te maken. De module omvat een stapsgewijze stroom die een klant gebruikt om alle relevante informatie in te voeren voor een aankoop. Deze legt het verzendadres, de verzendmethode en de factureringsgegevens vast. Deze biedt ook een orderoverzicht en andere informatie die betrekking heeft op een klantorder.
 
