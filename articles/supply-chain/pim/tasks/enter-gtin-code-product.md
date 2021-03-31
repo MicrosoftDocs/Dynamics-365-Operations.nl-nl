@@ -15,29 +15,32 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ccb90e99d624174758389280108cfe3e65659e0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0fc95d34125f3e1d9b07339d4134a4a974b3fcbf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5011242"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216028"
 ---
-# <a name="enter-the-gtin-code-for-a-product"></a><span data-ttu-id="a032c-103">De GTIN-code invoeren voor een product</span><span class="sxs-lookup"><span data-stu-id="a032c-103">Enter the GTIN code for a product</span></span>
+# <a name="enter-the-gtin-code-for-a-product"></a><span data-ttu-id="227e7-103">De GTIN-code invoeren voor een product</span><span class="sxs-lookup"><span data-stu-id="227e7-103">Enter the GTIN code for a product</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a032c-104">GTIN-codes worden toegewezen door de organisatie GS1.</span><span class="sxs-lookup"><span data-stu-id="a032c-104">GTIN codes are assigned by the GS1 organization.</span></span> <span data-ttu-id="a032c-105">In dit voorbeeld voert u een code voor het productnummer M0001 in, voor het demogegevensbedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="a032c-105">In this example, you will enter a code for product number M0001 in demo data company USMF.</span></span>
+<span data-ttu-id="227e7-104">GTIN-codes worden toegewezen door de organisatie GS1.</span><span class="sxs-lookup"><span data-stu-id="227e7-104">GTIN codes are assigned by the GS1 organization.</span></span> <span data-ttu-id="227e7-105">In dit voorbeeld voert u een code voor het productnummer M0001 in, voor het demogegevensbedrijf USMF.</span><span class="sxs-lookup"><span data-stu-id="227e7-105">In this example, you will enter a code for product number M0001 in demo data company USMF.</span></span>
 
-1. <span data-ttu-id="a032c-106">Klik op Vrijgegeven productonderhoud.</span><span class="sxs-lookup"><span data-stu-id="a032c-106">Click Released product maintenance.</span></span>
-2. <span data-ttu-id="a032c-107">Klik op Vrijgegeven producten.</span><span class="sxs-lookup"><span data-stu-id="a032c-107">Click Released products.</span></span>
-3. <span data-ttu-id="a032c-108">Vouw het feitenvak Productafbeelding uit.</span><span class="sxs-lookup"><span data-stu-id="a032c-108">Expand the Product image FactBox.</span></span>
-4. <span data-ttu-id="a032c-109">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="a032c-109">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="a032c-110">Klik in het actievenster op Voorraad beheren.</span><span class="sxs-lookup"><span data-stu-id="a032c-110">On the Action Pane, click Manage inventory.</span></span>
-6. <span data-ttu-id="a032c-111">Klik op GTIN-codes.</span><span class="sxs-lookup"><span data-stu-id="a032c-111">Click GTIN codes.</span></span>
-7. <span data-ttu-id="a032c-112">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="a032c-112">Click New.</span></span>
-8. <span data-ttu-id="a032c-113">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="a032c-113">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="a032c-114">Typ of selecteer een waarde in het veld Eenheid.</span><span class="sxs-lookup"><span data-stu-id="a032c-114">In the Unit field, enter or select a value.</span></span>
-10. <span data-ttu-id="a032c-115">Selecteer een optie in het veld GTIN-codes.</span><span class="sxs-lookup"><span data-stu-id="a032c-115">In the GTIN code field, select an option.</span></span>
-11. <span data-ttu-id="a032c-116">Typ een waarde in het veld GTIN.</span><span class="sxs-lookup"><span data-stu-id="a032c-116">In the GTIN field, type a value.</span></span>
-12. <span data-ttu-id="a032c-117">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="a032c-117">Close the page.</span></span>
+1. <span data-ttu-id="227e7-106">Klik op Vrijgegeven productonderhoud.</span><span class="sxs-lookup"><span data-stu-id="227e7-106">Click Released product maintenance.</span></span>
+2. <span data-ttu-id="227e7-107">Klik op Vrijgegeven producten.</span><span class="sxs-lookup"><span data-stu-id="227e7-107">Click Released products.</span></span>
+3. <span data-ttu-id="227e7-108">Vouw het feitenvak Productafbeelding uit.</span><span class="sxs-lookup"><span data-stu-id="227e7-108">Expand the Product image FactBox.</span></span>
+4. <span data-ttu-id="227e7-109">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="227e7-109">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="227e7-110">Klik in het actievenster op Voorraad beheren.</span><span class="sxs-lookup"><span data-stu-id="227e7-110">On the Action Pane, click Manage inventory.</span></span>
+6. <span data-ttu-id="227e7-111">Klik op GTIN-codes.</span><span class="sxs-lookup"><span data-stu-id="227e7-111">Click GTIN codes.</span></span>
+7. <span data-ttu-id="227e7-112">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="227e7-112">Click New.</span></span>
+8. <span data-ttu-id="227e7-113">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="227e7-113">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="227e7-114">Typ of selecteer een waarde in het veld Eenheid.</span><span class="sxs-lookup"><span data-stu-id="227e7-114">In the Unit field, enter or select a value.</span></span>
+10. <span data-ttu-id="227e7-115">Selecteer een optie in het veld GTIN-codes.</span><span class="sxs-lookup"><span data-stu-id="227e7-115">In the GTIN code field, select an option.</span></span>
+11. <span data-ttu-id="227e7-116">Typ een waarde in het veld GTIN.</span><span class="sxs-lookup"><span data-stu-id="227e7-116">In the GTIN field, type a value.</span></span>
+12. <span data-ttu-id="227e7-117">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="227e7-117">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

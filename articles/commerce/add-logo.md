@@ -18,58 +18,61 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 073c3d6f8d5ee88d51efb41f6b9c1a204b82fa12
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 143c1ab33547119ceab0a4fba165669bc8b22bf4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980302"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207574"
 ---
-# <a name="add-a-logo"></a><span data-ttu-id="62f5a-103">Een logo toevoegen</span><span class="sxs-lookup"><span data-stu-id="62f5a-103">Add a logo</span></span>
+# <a name="add-a-logo"></a><span data-ttu-id="de63f-103">Een logo toevoegen</span><span class="sxs-lookup"><span data-stu-id="de63f-103">Add a logo</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="62f5a-104">In dit onderwerp wordt beschreven hoe u een logo aan uw site toevoegt in Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="62f5a-104">This topic describes how to add a logo to your site in Microsoft Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="de63f-104">In dit onderwerp wordt beschreven hoe u een logo aan uw site toevoegt in Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="de63f-104">This topic describes how to add a logo to your site in Microsoft Dynamics 365 Commerce.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="62f5a-105">Overzicht</span><span class="sxs-lookup"><span data-stu-id="62f5a-105">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="de63f-105">Overzicht</span><span class="sxs-lookup"><span data-stu-id="de63f-105">Overview</span></span>
 
-<span data-ttu-id="62f5a-106">Wanneer u uw site bouwt, is het toevoegen van uw bedrijfs- of merklogo aan de koptekst van de site waarschijnlijk een van de eerste dingen die u doet.</span><span class="sxs-lookup"><span data-stu-id="62f5a-106">When you build your site, one of the first things that you will probably do is add your company or brand logo to the site's header.</span></span> <span data-ttu-id="62f5a-107">De online modulebibliotheek van Dynamics 365 Commerce bevat een module die deze taak gemakkelijk maakt.</span><span class="sxs-lookup"><span data-stu-id="62f5a-107">The Dynamics 365 Commerce online module library provides a module that makes this task easy.</span></span>
+<span data-ttu-id="de63f-106">Wanneer u uw site bouwt, is het toevoegen van uw bedrijfs- of merklogo aan de koptekst van de site waarschijnlijk een van de eerste dingen die u doet.</span><span class="sxs-lookup"><span data-stu-id="de63f-106">When you build your site, one of the first things that you will probably do is add your company or brand logo to the site's header.</span></span> <span data-ttu-id="de63f-107">De online modulebibliotheek van Dynamics 365 Commerce bevat een module die deze taak gemakkelijk maakt.</span><span class="sxs-lookup"><span data-stu-id="de63f-107">The Dynamics 365 Commerce online module library provides a module that makes this task easy.</span></span>
 
-<span data-ttu-id="62f5a-108">U kunt een logo direct aan een sjabloon, indeling of pagina toevoegen.</span><span class="sxs-lookup"><span data-stu-id="62f5a-108">You can add a logo directly to a template, layout, or page.</span></span> <span data-ttu-id="62f5a-109">Op deze manier kunt u eenvoudig het logo wijzigen dat op specifieke pagina's of groepen pagina's wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="62f5a-109">In this way, you can easily change the logo that appears on specific pages or groups of pages.</span></span> <span data-ttu-id="62f5a-110">In dit onderwerp komen echter de meest voorkomende scenario's aan bod, waarbij u uw logo toevoegt aan een koptekstfragment dat op alle pagina's van uw site kan worden hergebruikt.</span><span class="sxs-lookup"><span data-stu-id="62f5a-110">However, this topic covers the most frequent scenario, where you add your logo to a header fragment that can be reused across all the pages of your site.</span></span>
+<span data-ttu-id="de63f-108">U kunt een logo direct aan een sjabloon, indeling of pagina toevoegen.</span><span class="sxs-lookup"><span data-stu-id="de63f-108">You can add a logo directly to a template, layout, or page.</span></span> <span data-ttu-id="de63f-109">Op deze manier kunt u eenvoudig het logo wijzigen dat op specifieke pagina's of groepen pagina's wordt weergegeven.</span><span class="sxs-lookup"><span data-stu-id="de63f-109">In this way, you can easily change the logo that appears on specific pages or groups of pages.</span></span> <span data-ttu-id="de63f-110">In dit onderwerp komen echter de meest voorkomende scenario's aan bod, waarbij u uw logo toevoegt aan een koptekstfragment dat op alle pagina's van uw site kan worden hergebruikt.</span><span class="sxs-lookup"><span data-stu-id="de63f-110">However, this topic covers the most frequent scenario, where you add your logo to a header fragment that can be reused across all the pages of your site.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="62f5a-111">Vereisten</span><span class="sxs-lookup"><span data-stu-id="62f5a-111">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="de63f-111">Vereisten</span><span class="sxs-lookup"><span data-stu-id="de63f-111">Prerequisites</span></span>
 
-<span data-ttu-id="62f5a-112">Voordat u een logo aan alle pagina's van uw site kunt toevoegen, moet u deze taken uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="62f5a-112">Before you can add a logo to all the pages of your site, you must complete these tasks.</span></span>
+<span data-ttu-id="de63f-112">Voordat u een logo aan alle pagina's van uw site kunt toevoegen, moet u deze taken uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="de63f-112">Before you can add a logo to all the pages of your site, you must complete these tasks.</span></span>
 
-1. <span data-ttu-id="62f5a-113">Upload uw logo naar de mediabibliotheek.</span><span class="sxs-lookup"><span data-stu-id="62f5a-113">Upload your logo to the Media Library.</span></span>
-1. <span data-ttu-id="62f5a-114">Maak een koptekstfragment.</span><span class="sxs-lookup"><span data-stu-id="62f5a-114">Create a header fragment.</span></span> <span data-ttu-id="62f5a-115">Zie [Werken met fragmenten](work-with-fragments.md) voor meer informatie over het maken en gebruiken van fragmenten.</span><span class="sxs-lookup"><span data-stu-id="62f5a-115">For more information about how to create and use fragments, see [Work with fragments](work-with-fragments.md).</span></span>
-1. <span data-ttu-id="62f5a-116">Neem het koptekstfragment op in de sjabloon die door de pagina's van uw site worden gebruiken voor hun indelings- en moduleopties.</span><span class="sxs-lookup"><span data-stu-id="62f5a-116">Include the header fragment in the template that the pages of your site use for their layout and module options.</span></span> <span data-ttu-id="62f5a-117">Zie [Werken met sjablonen](work-with-templates.md) voor meer informatie over het gebruik van sjablonen.</span><span class="sxs-lookup"><span data-stu-id="62f5a-117">For more information about templates, see [Work with templates](work-with-templates.md).</span></span>
+1. <span data-ttu-id="de63f-113">Upload uw logo naar de mediabibliotheek.</span><span class="sxs-lookup"><span data-stu-id="de63f-113">Upload your logo to the Media Library.</span></span>
+1. <span data-ttu-id="de63f-114">Maak een koptekstfragment.</span><span class="sxs-lookup"><span data-stu-id="de63f-114">Create a header fragment.</span></span> <span data-ttu-id="de63f-115">Zie [Werken met fragmenten](work-with-fragments.md) voor meer informatie over het maken en gebruiken van fragmenten.</span><span class="sxs-lookup"><span data-stu-id="de63f-115">For more information about how to create and use fragments, see [Work with fragments](work-with-fragments.md).</span></span>
+1. <span data-ttu-id="de63f-116">Neem het koptekstfragment op in de sjabloon die door de pagina's van uw site worden gebruiken voor hun indelings- en moduleopties.</span><span class="sxs-lookup"><span data-stu-id="de63f-116">Include the header fragment in the template that the pages of your site use for their layout and module options.</span></span> <span data-ttu-id="de63f-117">Zie [Werken met sjablonen](work-with-templates.md) voor meer informatie over het gebruik van sjablonen.</span><span class="sxs-lookup"><span data-stu-id="de63f-117">For more information about templates, see [Work with templates](work-with-templates.md).</span></span>
 
-## <a name="add-a-logo-to-a-header-fragment"></a><span data-ttu-id="62f5a-118">Een logo toevoegen aan een koptekstfragment</span><span class="sxs-lookup"><span data-stu-id="62f5a-118">Add a logo to a header fragment</span></span>
+## <a name="add-a-logo-to-a-header-fragment"></a><span data-ttu-id="de63f-118">Een logo toevoegen aan een koptekstfragment</span><span class="sxs-lookup"><span data-stu-id="de63f-118">Add a logo to a header fragment</span></span>
 
-<span data-ttu-id="62f5a-119">Volg deze stappen om een logo toe te voegen aan het koptekstfragment voor uw site.</span><span class="sxs-lookup"><span data-stu-id="62f5a-119">To add a logo to the header fragment for your site, follow these steps.</span></span>
+<span data-ttu-id="de63f-119">Volg deze stappen om een logo toe te voegen aan het koptekstfragment voor uw site.</span><span class="sxs-lookup"><span data-stu-id="de63f-119">To add a logo to the header fragment for your site, follow these steps.</span></span>
 
-1. <span data-ttu-id="62f5a-120">Selecteer **Fragmenten** in het navigatievenster aan de linkerkant.</span><span class="sxs-lookup"><span data-stu-id="62f5a-120">In the navigation pane on the left, select **Fragments**.</span></span>
-1. <span data-ttu-id="62f5a-121">Selecteer het koptekstfragment dat u eerder hebt gemaakt en selecteer **Bewerken**.</span><span class="sxs-lookup"><span data-stu-id="62f5a-121">Select the header fragment that you created, and then select **Edit**.</span></span>
-1. <span data-ttu-id="62f5a-122">Vouw de koptekstmodule uit.</span><span class="sxs-lookup"><span data-stu-id="62f5a-122">Expand the header module.</span></span>
-1. <span data-ttu-id="62f5a-123">Geef in het eigenschappenvenster voor de koptekstmodule een afbeelding op en een koppeling voor het logo.</span><span class="sxs-lookup"><span data-stu-id="62f5a-123">In the property pane for the header module, provide an image and link for the logo.</span></span> 
-1. <span data-ttu-id="62f5a-124">Sla het koptekstfragment op, voltooi de bewerking ervan en publiceer het fragment.</span><span class="sxs-lookup"><span data-stu-id="62f5a-124">Save the header fragment, finish editing it, and publish it.</span></span>
+1. <span data-ttu-id="de63f-120">Selecteer **Fragmenten** in het navigatievenster aan de linkerkant.</span><span class="sxs-lookup"><span data-stu-id="de63f-120">In the navigation pane on the left, select **Fragments**.</span></span>
+1. <span data-ttu-id="de63f-121">Selecteer het koptekstfragment dat u eerder hebt gemaakt en selecteer **Bewerken**.</span><span class="sxs-lookup"><span data-stu-id="de63f-121">Select the header fragment that you created, and then select **Edit**.</span></span>
+1. <span data-ttu-id="de63f-122">Vouw de koptekstmodule uit.</span><span class="sxs-lookup"><span data-stu-id="de63f-122">Expand the header module.</span></span>
+1. <span data-ttu-id="de63f-123">Geef in het eigenschappenvenster voor de koptekstmodule een afbeelding op en een koppeling voor het logo.</span><span class="sxs-lookup"><span data-stu-id="de63f-123">In the property pane for the header module, provide an image and link for the logo.</span></span> 
+1. <span data-ttu-id="de63f-124">Sla het koptekstfragment op, voltooi de bewerking ervan en publiceer het fragment.</span><span class="sxs-lookup"><span data-stu-id="de63f-124">Save the header fragment, finish editing it, and publish it.</span></span>
 
-<span data-ttu-id="62f5a-125">Als u het bijgewerkte koptekstfragment publiceert, wordt uw logo weergegeven op alle sitepagina's die gebruikmaken van de sjabloon die het koptekstfragment bevat.</span><span class="sxs-lookup"><span data-stu-id="62f5a-125">After you publish the updated header fragment, all site pages that use the template that contains the header fragment will show your logo.</span></span>
+<span data-ttu-id="de63f-125">Als u het bijgewerkte koptekstfragment publiceert, wordt uw logo weergegeven op alle sitepagina's die gebruikmaken van de sjabloon die het koptekstfragment bevat.</span><span class="sxs-lookup"><span data-stu-id="de63f-125">After you publish the updated header fragment, all site pages that use the template that contains the header fragment will show your logo.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="62f5a-126">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="62f5a-126">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="de63f-126">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="de63f-126">Additional resources</span></span>
 
-[<span data-ttu-id="62f5a-127">Selecteer een thema voor de site</span><span class="sxs-lookup"><span data-stu-id="62f5a-127">Select a site theme</span></span>](select-site-theme.md)
+[<span data-ttu-id="de63f-127">Selecteer een thema voor de site</span><span class="sxs-lookup"><span data-stu-id="de63f-127">Select a site theme</span></span>](select-site-theme.md)
 
-[<span data-ttu-id="62f5a-128">Werken met CSS-overschrijvingsbestanden</span><span class="sxs-lookup"><span data-stu-id="62f5a-128">Work with CSS override files</span></span>](css-override-files.md)
+[<span data-ttu-id="de63f-128">Werken met CSS-overschrijvingsbestanden</span><span class="sxs-lookup"><span data-stu-id="de63f-128">Work with CSS override files</span></span>](css-override-files.md)
 
-[<span data-ttu-id="62f5a-129">Een favicon toevoegen</span><span class="sxs-lookup"><span data-stu-id="62f5a-129">Add a favicon</span></span>](add-favicon.md)
+[<span data-ttu-id="de63f-129">Een favicon toevoegen</span><span class="sxs-lookup"><span data-stu-id="de63f-129">Add a favicon</span></span>](add-favicon.md)
 
-[<span data-ttu-id="62f5a-130">Een welkomstbericht toevoegen</span><span class="sxs-lookup"><span data-stu-id="62f5a-130">Add a welcome message</span></span>](add-welcome-message.md)
+[<span data-ttu-id="de63f-130">Een welkomstbericht toevoegen</span><span class="sxs-lookup"><span data-stu-id="de63f-130">Add a welcome message</span></span>](add-welcome-message.md)
 
-[<span data-ttu-id="62f5a-131">Een auteursrechtmelding toevoegen</span><span class="sxs-lookup"><span data-stu-id="62f5a-131">Add a copyright notice</span></span>](add-copyright-notice.md)
+[<span data-ttu-id="de63f-131">Een auteursrechtmelding toevoegen</span><span class="sxs-lookup"><span data-stu-id="de63f-131">Add a copyright notice</span></span>](add-copyright-notice.md)
 
-[<span data-ttu-id="62f5a-132">Talen toevoegen aan uw site</span><span class="sxs-lookup"><span data-stu-id="62f5a-132">Add languages to your site</span></span>](add-languages-to-site.md)
+[<span data-ttu-id="de63f-132">Talen toevoegen aan uw site</span><span class="sxs-lookup"><span data-stu-id="de63f-132">Add languages to your site</span></span>](add-languages-to-site.md)
 
-[<span data-ttu-id="62f5a-133">Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie</span><span class="sxs-lookup"><span data-stu-id="62f5a-133">Add script code to site pages to support telemetry</span></span>](add-telemetry.md)
+[<span data-ttu-id="de63f-133">Scriptcode toevoegen aan sitepagina's voor ondersteuning van telemetrie</span><span class="sxs-lookup"><span data-stu-id="de63f-133">Add script code to site pages to support telemetry</span></span>](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

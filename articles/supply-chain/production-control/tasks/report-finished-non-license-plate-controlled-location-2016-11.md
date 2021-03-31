@@ -16,48 +16,51 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 180035668d9c8a03b83f669af7459725eecc8def
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9aeac631e32876d6c19cb964f28e65491137049a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4981176"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204491"
 ---
-# <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a><span data-ttu-id="a355f-103">Gereedmelden bij een locatie waar nummerplaten niet worden gecontroleerd (toepassing, mei 2016)</span><span class="sxs-lookup"><span data-stu-id="a355f-103">Report as finished to a non-license plate controlled location  (Application, May 2016)</span></span>
+# <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a><span data-ttu-id="33991-103">Gereedmelden bij een locatie waar nummerplaten niet worden gecontroleerd (toepassing, mei 2016)</span><span class="sxs-lookup"><span data-stu-id="33991-103">Report as finished to a non-license plate controlled location  (Application, May 2016)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="a355f-104">Deze taakbegeleiding toont een voorbeeld van gereedmelding bij een locatie waar geen nummerplaten worden gecontroleerd.</span><span class="sxs-lookup"><span data-stu-id="a355f-104">This task guide shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="a355f-105">Een toepasselijk werkbeleid is de vereiste voor deze taak.</span><span class="sxs-lookup"><span data-stu-id="a355f-105">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="a355f-106">Een vorige taakbegeleiding liet zien hoe het werkbeleid wordt ingesteld.</span><span class="sxs-lookup"><span data-stu-id="a355f-106">A previous task guide showed the setup of the work policy.</span></span> <span data-ttu-id="a355f-107">Voor deze taakbegeleiding is de toepassing Dynamics AX 7.0.1 of hoger vereist.</span><span class="sxs-lookup"><span data-stu-id="a355f-107">This task guide requires Dynamics AX application 7.0.1 or later.</span></span>
+<span data-ttu-id="33991-104">Deze taakbegeleiding toont een voorbeeld van gereedmelding bij een locatie waar geen nummerplaten worden gecontroleerd.</span><span class="sxs-lookup"><span data-stu-id="33991-104">This task guide shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="33991-105">Een toepasselijk werkbeleid is de vereiste voor deze taak.</span><span class="sxs-lookup"><span data-stu-id="33991-105">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="33991-106">Een vorige taakbegeleiding liet zien hoe het werkbeleid wordt ingesteld.</span><span class="sxs-lookup"><span data-stu-id="33991-106">A previous task guide showed the setup of the work policy.</span></span> <span data-ttu-id="33991-107">Voor deze taakbegeleiding is de toepassing Dynamics AX 7.0.1 of hoger vereist.</span><span class="sxs-lookup"><span data-stu-id="33991-107">This task guide requires Dynamics AX application 7.0.1 or later.</span></span>
 
 
 
 
-## <a name="set-up-an-output-location"></a><span data-ttu-id="a355f-108">Een uitvoerlocatie instellen</span><span class="sxs-lookup"><span data-stu-id="a355f-108">Set up an output location</span></span>
-1. <span data-ttu-id="a355f-109">Ga naar Organisatiebeheer > Resources > Resourcegroepen.</span><span class="sxs-lookup"><span data-stu-id="a355f-109">Go to Organization administration > Resources > Resource groups.</span></span>
-2. <span data-ttu-id="a355f-110">Selecteer resourcegroep '5102' in de lijst.</span><span class="sxs-lookup"><span data-stu-id="a355f-110">In the list, select resource group '5102'.</span></span>
-3. <span data-ttu-id="a355f-111">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="a355f-111">Click Edit.</span></span>
-4. <span data-ttu-id="a355f-112">Voer '51' in het veld Uitvoermagazijn in.</span><span class="sxs-lookup"><span data-stu-id="a355f-112">In the Output warehouse field, enter '51'.</span></span>
-5. <span data-ttu-id="a355f-113">Voer '001' in het veld Uitvoerlocatie in.</span><span class="sxs-lookup"><span data-stu-id="a355f-113">In the Output location field, enter '001'.</span></span>
-    * <span data-ttu-id="a355f-114">Locatie 001 is geen locatie waar nummerplaten worden gecontroleerd.</span><span class="sxs-lookup"><span data-stu-id="a355f-114">Location 001 isn't a license plate–controlled location.</span></span> <span data-ttu-id="a355f-115">U kunt een uitvoerlocatie waar geen nummerplaten worden gecontroleerd alleen instellen als er een toepasselijk werkbeleid voor de locatie bestaat.</span><span class="sxs-lookup"><span data-stu-id="a355f-115">You can set up a non–license plate output location only if an applicable work policy exists for the location.</span></span>  
+## <a name="set-up-an-output-location"></a><span data-ttu-id="33991-108">Een uitvoerlocatie instellen</span><span class="sxs-lookup"><span data-stu-id="33991-108">Set up an output location</span></span>
+1. <span data-ttu-id="33991-109">Ga naar Organisatiebeheer > Resources > Resourcegroepen.</span><span class="sxs-lookup"><span data-stu-id="33991-109">Go to Organization administration > Resources > Resource groups.</span></span>
+2. <span data-ttu-id="33991-110">Selecteer resourcegroep '5102' in de lijst.</span><span class="sxs-lookup"><span data-stu-id="33991-110">In the list, select resource group '5102'.</span></span>
+3. <span data-ttu-id="33991-111">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="33991-111">Click Edit.</span></span>
+4. <span data-ttu-id="33991-112">Voer '51' in het veld Uitvoermagazijn in.</span><span class="sxs-lookup"><span data-stu-id="33991-112">In the Output warehouse field, enter '51'.</span></span>
+5. <span data-ttu-id="33991-113">Voer '001' in het veld Uitvoerlocatie in.</span><span class="sxs-lookup"><span data-stu-id="33991-113">In the Output location field, enter '001'.</span></span>
+    * <span data-ttu-id="33991-114">Locatie 001 is geen locatie waar nummerplaten worden gecontroleerd.</span><span class="sxs-lookup"><span data-stu-id="33991-114">Location 001 isn't a license plate–controlled location.</span></span> <span data-ttu-id="33991-115">U kunt een uitvoerlocatie waar geen nummerplaten worden gecontroleerd alleen instellen als er een toepasselijk werkbeleid voor de locatie bestaat.</span><span class="sxs-lookup"><span data-stu-id="33991-115">You can set up a non–license plate output location only if an applicable work policy exists for the location.</span></span>  
 
-## <a name="create-a-production-order-and-report-it-as-finished"></a><span data-ttu-id="a355f-116">Een productieorder maken en gereedmelden</span><span class="sxs-lookup"><span data-stu-id="a355f-116">Create a production order and report it as finished</span></span>
-1. <span data-ttu-id="a355f-117">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="a355f-117">Close the page.</span></span>
-2. <span data-ttu-id="a355f-118">Ga naar Productiebeheer > Productieorders > Alle productieorders.</span><span class="sxs-lookup"><span data-stu-id="a355f-118">Go to Production control > Production orders > All production orders.</span></span>
-3. <span data-ttu-id="a355f-119">Klik op Nieuwe productieorder.</span><span class="sxs-lookup"><span data-stu-id="a355f-119">Click New production order.</span></span>
-4. <span data-ttu-id="a355f-120">Voer 'L0101' in het veld Artikelnummer in.</span><span class="sxs-lookup"><span data-stu-id="a355f-120">In the Item number field, enter 'L0101'.</span></span>
-5. <span data-ttu-id="a355f-121">Klik op Maken.</span><span class="sxs-lookup"><span data-stu-id="a355f-121">Click Create.</span></span>
-6. <span data-ttu-id="a355f-122">Klik in het actievenster op Productieorder.</span><span class="sxs-lookup"><span data-stu-id="a355f-122">On the Action Pane, click Production order.</span></span>
-7. <span data-ttu-id="a355f-123">Klik op Raming.</span><span class="sxs-lookup"><span data-stu-id="a355f-123">Click Estimate.</span></span>
-8. <span data-ttu-id="a355f-124">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="a355f-124">Click OK.</span></span>
-9. <span data-ttu-id="a355f-125">Klik op Start.</span><span class="sxs-lookup"><span data-stu-id="a355f-125">Click Start.</span></span>
-10. <span data-ttu-id="a355f-126">Klik op het tabblad Algemeen.</span><span class="sxs-lookup"><span data-stu-id="a355f-126">Click the General tab.</span></span>
-11. <span data-ttu-id="a355f-127">Selecteer 'Nooit' in het veld Automatisch stuklijstverbruik.</span><span class="sxs-lookup"><span data-stu-id="a355f-127">In the Automatic BOM consumption field, select 'Never'.</span></span>
-12. <span data-ttu-id="a355f-128">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="a355f-128">Click OK.</span></span>
-13. <span data-ttu-id="a355f-129">Klik op Gereedmelden.</span><span class="sxs-lookup"><span data-stu-id="a355f-129">Click Report as finished.</span></span>
-14. <span data-ttu-id="a355f-130">Klik op het tabblad Algemeen.</span><span class="sxs-lookup"><span data-stu-id="a355f-130">Click the General tab.</span></span>
-15. <span data-ttu-id="a355f-131">Selecteer Ja in het veld Fout accepteren.</span><span class="sxs-lookup"><span data-stu-id="a355f-131">Select Yes in the Accept error field.</span></span>
-16. <span data-ttu-id="a355f-132">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="a355f-132">Click OK.</span></span>
-17. <span data-ttu-id="a355f-133">Klik in het actievenster op Magazijn.</span><span class="sxs-lookup"><span data-stu-id="a355f-133">On the Action Pane, click Warehouse.</span></span>
-18. <span data-ttu-id="a355f-134">Klik op Werkdetails.</span><span class="sxs-lookup"><span data-stu-id="a355f-134">Click Work details.</span></span>
-    * <span data-ttu-id="a355f-135">Toen de productieorder gereedgemeld werd, is er geen werk gegenereerd voor wegzetten.</span><span class="sxs-lookup"><span data-stu-id="a355f-135">When the production order was reported as finished, no work was generated for put-away.</span></span> <span data-ttu-id="a355f-136">Dit komt doordat er een werkbeleid is gedefinieerd waarmee wordt voorkomen dat werk wordt gegenereerd wanneer product L0101 wordt gereedgemeld bij locatie 001.</span><span class="sxs-lookup"><span data-stu-id="a355f-136">This occurs because a work policy is defined that prevents work from being generated when product L0101 is reported as finished to location 001.</span></span>  
+## <a name="create-a-production-order-and-report-it-as-finished"></a><span data-ttu-id="33991-116">Een productieorder maken en gereedmelden</span><span class="sxs-lookup"><span data-stu-id="33991-116">Create a production order and report it as finished</span></span>
+1. <span data-ttu-id="33991-117">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="33991-117">Close the page.</span></span>
+2. <span data-ttu-id="33991-118">Ga naar Productiebeheer > Productieorders > Alle productieorders.</span><span class="sxs-lookup"><span data-stu-id="33991-118">Go to Production control > Production orders > All production orders.</span></span>
+3. <span data-ttu-id="33991-119">Klik op Nieuwe productieorder.</span><span class="sxs-lookup"><span data-stu-id="33991-119">Click New production order.</span></span>
+4. <span data-ttu-id="33991-120">Voer 'L0101' in het veld Artikelnummer in.</span><span class="sxs-lookup"><span data-stu-id="33991-120">In the Item number field, enter 'L0101'.</span></span>
+5. <span data-ttu-id="33991-121">Klik op Maken.</span><span class="sxs-lookup"><span data-stu-id="33991-121">Click Create.</span></span>
+6. <span data-ttu-id="33991-122">Klik in het actievenster op Productieorder.</span><span class="sxs-lookup"><span data-stu-id="33991-122">On the Action Pane, click Production order.</span></span>
+7. <span data-ttu-id="33991-123">Klik op Raming.</span><span class="sxs-lookup"><span data-stu-id="33991-123">Click Estimate.</span></span>
+8. <span data-ttu-id="33991-124">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="33991-124">Click OK.</span></span>
+9. <span data-ttu-id="33991-125">Klik op Start.</span><span class="sxs-lookup"><span data-stu-id="33991-125">Click Start.</span></span>
+10. <span data-ttu-id="33991-126">Klik op het tabblad Algemeen.</span><span class="sxs-lookup"><span data-stu-id="33991-126">Click the General tab.</span></span>
+11. <span data-ttu-id="33991-127">Selecteer 'Nooit' in het veld Automatisch stuklijstverbruik.</span><span class="sxs-lookup"><span data-stu-id="33991-127">In the Automatic BOM consumption field, select 'Never'.</span></span>
+12. <span data-ttu-id="33991-128">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="33991-128">Click OK.</span></span>
+13. <span data-ttu-id="33991-129">Klik op Gereedmelden.</span><span class="sxs-lookup"><span data-stu-id="33991-129">Click Report as finished.</span></span>
+14. <span data-ttu-id="33991-130">Klik op het tabblad Algemeen.</span><span class="sxs-lookup"><span data-stu-id="33991-130">Click the General tab.</span></span>
+15. <span data-ttu-id="33991-131">Selecteer Ja in het veld Fout accepteren.</span><span class="sxs-lookup"><span data-stu-id="33991-131">Select Yes in the Accept error field.</span></span>
+16. <span data-ttu-id="33991-132">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="33991-132">Click OK.</span></span>
+17. <span data-ttu-id="33991-133">Klik in het actievenster op Magazijn.</span><span class="sxs-lookup"><span data-stu-id="33991-133">On the Action Pane, click Warehouse.</span></span>
+18. <span data-ttu-id="33991-134">Klik op Werkdetails.</span><span class="sxs-lookup"><span data-stu-id="33991-134">Click Work details.</span></span>
+    * <span data-ttu-id="33991-135">Toen de productieorder gereedgemeld werd, is er geen werk gegenereerd voor wegzetten.</span><span class="sxs-lookup"><span data-stu-id="33991-135">When the production order was reported as finished, no work was generated for put-away.</span></span> <span data-ttu-id="33991-136">Dit komt doordat er een werkbeleid is gedefinieerd waarmee wordt voorkomen dat werk wordt gegenereerd wanneer product L0101 wordt gereedgemeld bij locatie 001.</span><span class="sxs-lookup"><span data-stu-id="33991-136">This occurs because a work policy is defined that prevents work from being generated when product L0101 is reported as finished to location 001.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
