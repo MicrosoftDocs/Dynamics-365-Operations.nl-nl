@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 6edabc51981d8935672b44e53b453cfbaca9031b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3b20b41d27e5faeac7ea88940c086ae33390dc29
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004647"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217000"
 ---
 # <a name="item-consolidation---location-utilization"></a>Locatiegebruik bij artikelconsolidatie
 
@@ -113,7 +113,7 @@ In deze sectie wordt beschreven hoe u uw systeem voorbereidt op het gebruik van 
 
 1. Ga naar **Magazijnbeheer \> Instellen \> Mobiel apparaat \> Menuopties voor mobiel apparaat**.
 1. Selecteer in het actievenster de optie **Nieuw** om een menuoptie te maken voor sorteren.
-1. Stel in de koptekst de volgende waarden in:
+1. Stel in de header de volgende waarden in:
 
     - **Naam menuopdracht:** *Correctie in*
     - **Titel:** *Correctie in*
@@ -185,7 +185,7 @@ In het volgende scenario wordt de magazijnapp op een mobiel apparaat gebruikt om
 ### <a name="consolidate-locations"></a>Locaties consolideren
 
 1. Ga naar **Magazijnbeheer \> Periodieke taken \> Artikelconsolidatie**.
-1. Selecteer in de koptekst een magazijn waarvoor u de consolidatie wilt uitvoeren. Typ **51** in het veld *Magazijn*.
+1. Selecteer in de header een magazijn waarvoor u de consolidatie wilt uitvoeren. Typ **51** in het veld *Magazijn*.
 
     Er wordt een record weergegeven voor elke locatie waar artikel *M9201* is gecorrigeerd. In de kolom **Gebruikspercentage** wordt de volumetrische capaciteit van elke locatie weergegeven.
 

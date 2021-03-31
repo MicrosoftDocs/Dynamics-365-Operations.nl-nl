@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 6fec80dd2836a5400a7178e732fe1d5da41aca4a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f60e07c1faae9bc3cb6d3c843e72e6000cff7591
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995790"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220505"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Klantorders in POS (Point of Sale)
 
@@ -92,7 +92,7 @@ Controleer of de [schermindeling](https://docs.microsoft.com/dynamics365/commerc
 - **Geselecteerde producten ophalen**: deze bewerking wordt gebruikt om op te geven dat bepaalde regels in de winkelwagen voor de transactie van een bepaalde winkellocatie worden opgehaald.
 - **Alle producten uitvoeren**: deze bewerking wordt gebruikt om op te geven dat alle regels in de winkelwagen voor de transactie worden uitgevoerd. Als deze bewerking wordt gebruikt in POS, wordt de klantorder omgezet in een cash-and-carry-transactie.
 - **Geselecteerde producten uitvoeren** : deze bewerking wordt gebruikt om op te geven dat bepaalde regels in de winkelwagen voor de transactie worden uitgevoerd door de klant op het moment van aankoop. Deze bewerking is alleen nuttig in een scenario met een [hybride order](https://docs.microsoft.com/dynamics365/commerce/hybrid-customer-orders).
-- **Order terugroepen**: deze bewerking wordt gebruikt om klantorders te zoeken en op te halen, zodat POS-gebruikers deze kunnen bewerken of annuleren of hierop de benodigde bewerkingen voor afhandeling kunnen uitvoeren.
+- **Order intrekken**: deze bewerking wordt gebruikt om klantorders te zoeken en op te halen, zodat POS-gebruikers deze kunnen bewerken of annuleren of hierop de benodigde bewerkingen voor afhandeling kunnen uitvoeren.
 - **Leveringsmethode wijzigen**: deze bewerking kan worden gebruikt om snel de leveringsmethode te wijzigen voor regels die al voor verzending zijn geconfigureerd, zonder dat gebruikers de stroom 'alle producten verzenden' of 'geselecteerde producten verzenden' opnieuw doorlopen.
 - **Deposito overschrijven**: deze bewerking kan worden gebruikt om het depositobedrag te wijzigen dat de klant voor de geselecteerde klantorder betaalt.
 
@@ -134,7 +134,7 @@ Detailhandelorders die in het online- of winkelkanaal worden gemaakt, kunnen zo 
 In versie 10.0.17 en hoger kunnen gebruikers in aanmerking komende orders bewerken via de POS-toepassing, zelfs als de order gedeeltelijk is vervuld. Orders die volledig zijn gefactureerd, kunnen echter nog steeds niet worden bewerkt via POS. Als u deze functie wilt inschakelen, schakelt u de optie **Gedeeltelijk afgehandelde orders bewerken in Point of Sale** in de werkruimte **Functiebeheer** in. Als deze functie niet is ingeschakeld of als u versie 10.0.16 of eerder gebruikt, kunnen gebruikers alleen klantorders in POS bewerken als de order volledig is geopend. Als de functie is ingeschakeld, kunt u bovendien beperken welke winkels gedeeltelijk vervulde orders kunnen bewerken. De optie om deze mogelijkheid voor specifieke winkels uit te schakelen, kan worden geconfigureerd via het **Functionaliteitsprofiel** op het sneltabblad **Algemeen**.
 
 
-1. Selecteer **Order terugroepen**.
+1. Selecteer **Order intrekken**.
 2. Gebruik **Zoeken** om filters in te voeren om de order te vinden en selecteer vervolgens **Toepassen**.
 3. Selecteer de order in de lijst met resultaten en selecteer vervolgens **Bewerken**. Als de knop **Bewerken** niet beschikbaar is, heeft de order een status waarin deze niet kan worden bewerkt.
 4. Breng in het winkelwagentje voor de transactie de benodigde wijzigingen aan in de klantorder. Sommige wijzigingen zijn mogelijk niet toegestaan tijdens het bewerken.
@@ -145,7 +145,7 @@ In versie 10.0.17 en hoger kunnen gebruikers in aanmerking komende orders bewerk
 
 ### <a name="cancel-a-customer-order"></a>Een klantorder annuleren
 
-1. Selecteer **Order terugroepen**.
+1. Selecteer **Order intrekken**.
 2. Gebruik **Zoeken** om filters in te voeren om de order te vinden en selecteer vervolgens **Toepassen**.
 3. Selecteer de order in de lijst met resultaten en selecteer vervolgens **Annuleren**. Als de knop **Annuleren** niet beschikbaar is, heeft de order een status waarin deze niet meer kan worden geannuleerd.
 4. Als er annuleringskosten zijn geconfigureerd, bevestigt u deze. U kunt de annuleringskosten aanpassen voordat u deze bevestigt, indien nodig. 

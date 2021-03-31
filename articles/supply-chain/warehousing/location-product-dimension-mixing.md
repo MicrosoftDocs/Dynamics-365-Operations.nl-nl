@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: c4e42864bfde9ed0650a88961b5a71b33b34c89d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: b0309c7a7240d7cac9e5b5724a028f2dc70199e4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004597"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217024"
 ---
 # <a name="location-product-dimension-mixing"></a>Productdimensies op locaties combineren
 
@@ -136,7 +136,7 @@ Aan elke locatie in het magazijn moet een locatieprofiel zijn gekoppeld, dat de 
     - **Criteria:** *BULK*
 
 1. Selecteer **OK**.
-1. Selecteer in het actievenster op de pagina **Locatie-instructies** **Opslaan**.
+1. Selecteer in het actievenster van de pagina **Locatie-instructies** **Opslaan**.
 
 > [!NOTE]
 > Ga naar het sneltabblad **Locatie-instructieactie**. Als u in het veld **Strategie** de locatiestrategie *Samenvoegen* gebruikt, wordt de configuratie van het snelttabblad **Toegestane productdimensiecombinaties** in de **Locatieprofielen** overschreven. Artikelen worden dan weggezet op dezelfde locatie, ook als dit gedrag niet is toegestaan volgens de configuratie.
@@ -145,7 +145,7 @@ Aan elke locatie in het magazijn moet een locatieprofiel zijn gekoppeld, dat de 
 
 1. Ga naar **Magazijnbeheer \> Instellen \> Mobiel apparaat \> Menuopties voor mobiel apparaat**.
 1. Selecteer in het actievenster de optie **Nieuw** om een menuoptie te maken dat u wilt gebruiken voor sorteren.
-1. Stel in de koptekst de volgende waarden in:
+1. Stel in de header de volgende waarden in:
 
     - **Menuoptie:** *IO-regel ontvangst*
     - **Titel:** *IO-regel ontvangst*
