@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3163975a8cc99c4b07fdbe03fa57ea6cfef53cd9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 22f441f7dc3d53fee263ebb059679510c2e3d054
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995210"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226432"
 ---
 # <a name="cost-control-workspace"></a>Werkgebied voor kostenbeheer 
 
@@ -56,7 +56,7 @@ Op het sneltabblad **Gegevens filteren** definieert u de basis van de gegevens v
 | Grootboek van kostprijsboekhouding                                            | **Grootboek van kostprijsboekhouding** waarop het rapport is gebaseerd. De waarde wordt afgeleid van het veld **Kostenbeheereenheid**. |
 | Kostenbeheereenheid                                                 | De waarde die u selecteert bepaalt het grootboek voor kostprijsboekhouding en kostenobjecten waarop dit rapport wordt gebaseerd. |
 | Statistische dimensiehiërarchie, Dimensiehiërarchie van een kostenelement | Met een configuratierecord van het werkgebied **Kostenbeheer** kunnen niet-monetaire of monetaire waarden worden gerapporteerd, maar niet in dezelfde indeling. Selecteer een waarde in het veld **Dimensiehiërarchie van een kostenelement** om monetaire waarden te rapporteren. Selecteer een waarde in het veld **Statistische dimensiehiërarchie** om niet-monetaire waarden te rapporteren. De record van de dimensiehiërarchie die u selecteert, bepaalt de structuur van de rapportage- en samenvoegingsniveaus.<blockquote>[!NOTE]<br>Als u niet-monetaire en monetaire waarden naast elkaar wilt weergeven, kunt u gegevens exporteren naar Microsoft Excel voor het Microsoft Power BI-inhoudpakket.</blockquote> |
-| Dimensiehiërarchie van een kostenobject                                   | Selecteer de dimensiehiërarchie van de kostenobjectdimensie die aansluit bij het doel van de rapportage die u definieert. |
+| Dimensiehiërarchie van kostenobject                                   | Selecteer de dimensiehiërarchie van de kostenobjectdimensie die aansluit bij het doel van de rapportage die u definieert. |
 | Oorspronkelijk versie van budget                                           | Selecteer de budgetversie-id die fungeert als het oorspronkelijke budget in de context van dit rapport. |
 | Herziene versie van budget                                            | Selecteer de budgetversie-id die fungeert als het herziene budget in de context van dit rapport. |
 

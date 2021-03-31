@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 2156542ed0932fab6fb4fa4035e009ad89eeb18f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2e7df580557486c67fc82af19f742bc8002cb881
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003748"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231075"
 ---
 # <a name="process-customer-order-pickups-in-pos"></a>Ophalen van klantorders in POS verwerken
 
@@ -27,9 +27,9 @@ ms.locfileid: "5003748"
 
 Wanneer een [klantorder](customer-orders-overview.md) wordt gemaakt om in de winkel op te halen, kan een winkelgebruiker de POS-toepassing gebruiken om het ophalen van voorraad te starten. In het POS wordt waar nodig de laatste betalingsvastlegging uitgevoerd. Daarnaast worden de voorraad en de financiële boeking voltooid voor de hoeveelheden die worden opgehaald.
 
-Als u een winkelgebruiker bent, kunt u de ophaalbewerking uitvoeren met de bewerking **Order terugroepen** of **Orderafhandeling** in het POS. U moet eerst een van de volgende stappen uitvoeren om de bewerking **Ophalen** beschikbaar te maken:
+Als u een winkelgebruiker bent, kunt u de ophaalbewerking uitvoeren met de bewerking **Order intrekken** of **Orderafhandeling** in het POS. U moet eerst een van de volgende stappen uitvoeren om de bewerking **Ophalen** beschikbaar te maken:
 
-- Als u de bewerking **Order terugroepen** wilt gebruiken, zoekt u naar de order en selecteert u de order die wordt opgehaald.
+- Als u de bewerking **Order intrekken** wilt gebruiken, zoekt u naar de order en selecteert u de order die wordt opgehaald.
 - Als u de bewerking **Orderafhandeling** wilt gebruiken, zoekt u naar een of meer orderregels en selecteert u deze.
 
 Als de geselecteerde order of orderregels niet zijn geconfigureerd voor ophalen in die specifieke winkel of als de order al volledig is opgehaald, is de bewerking **Ophalen** niet beschikbaar.

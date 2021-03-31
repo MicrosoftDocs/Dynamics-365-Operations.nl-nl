@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0984710220171f36a520e471c6c55bf12d97675b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7d1520828bc626784f1555d8878a1fdad1bd5b9e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972019"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227371"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Positieve betalingsbestanden instellen en genereren
 
@@ -71,7 +71,7 @@ Positieve betalingsbestanden kunnen vertrouwelijke informatie over begunstigden 
 </tr>
 <tr class="odd">
 <td>Trek een positief betalingsbestand voor de bank in op de pagina <strong>Samenvatting van positief betalingsbestand</strong>.</td>
-<td><strong>Positief betalingsbestand terugroepen</strong> (BankPositivePayRecall)</td>
+<td><strong>Positief betalingsbestand intrekken</strong> (BankPositivePayRecall)</td>
 </tr>
 </tbody>
 </table>
