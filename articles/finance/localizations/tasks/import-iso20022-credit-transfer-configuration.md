@@ -15,32 +15,35 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 38e3c5b3b85eb9ad17270cf7002046896d305548
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: af34a91b2a265755cd1905401e0b7451f9fc1168
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988258"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5218777"
 ---
-# <a name="import-iso20022-credit-transfer-configuration"></a><span data-ttu-id="46155-103">Configuratie van ISO20022-kredietoverdracht importeren</span><span class="sxs-lookup"><span data-stu-id="46155-103">Import ISO20022 credit transfer configuration</span></span>
+# <a name="import-iso20022-credit-transfer-configuration"></a><span data-ttu-id="16596-103">Configuratie van ISO20022-kredietoverdracht importeren</span><span class="sxs-lookup"><span data-stu-id="16596-103">Import ISO20022 credit transfer configuration</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="46155-104">In deze procedure ziet u hoe u een configuratie voor elektronische rapportage van leveranciersbetalingen importeert.</span><span class="sxs-lookup"><span data-stu-id="46155-104">This procedure shows how to import a vendor payment electronic reporting configuration.</span></span> <span data-ttu-id="46155-105">De Duitse kredietoverdrachtindeling ISO 20022 wordt hier als voorbeeld gebruikt.</span><span class="sxs-lookup"><span data-stu-id="46155-105">The German ISO 20022 credit transfer format is used as an example.</span></span> <span data-ttu-id="46155-106">Deze procedure kan worden gebruikt voor andere beschikbare indelingen voor elektronische rapportage.</span><span class="sxs-lookup"><span data-stu-id="46155-106">This procedure can be used for other available electronic reporting format.</span></span> 
+<span data-ttu-id="16596-104">In deze procedure ziet u hoe u een configuratie voor elektronische rapportage van leveranciersbetalingen importeert.</span><span class="sxs-lookup"><span data-stu-id="16596-104">This procedure shows how to import a vendor payment electronic reporting configuration.</span></span> <span data-ttu-id="16596-105">De Duitse kredietoverdrachtindeling ISO 20022 wordt hier als voorbeeld gebruikt.</span><span class="sxs-lookup"><span data-stu-id="16596-105">The German ISO 20022 credit transfer format is used as an example.</span></span> <span data-ttu-id="16596-106">Deze procedure kan worden gebruikt voor andere beschikbare indelingen voor elektronische rapportage.</span><span class="sxs-lookup"><span data-stu-id="16596-106">This procedure can be used for other available electronic reporting format.</span></span> 
 
-<span data-ttu-id="46155-107">Deze taak is gemaakt met het demobedrijf DEMF, maar u kunt elk bedrijf uit de demogegevens gebruiken om deze taak uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="46155-107">This task was created using the demo data company DEMF but you can use any demo data company to complete this task.</span></span>
+<span data-ttu-id="16596-107">Deze taak is gemaakt met het demobedrijf DEMF, maar u kunt elk bedrijf uit de demogegevens gebruiken om deze taak uit te voeren.</span><span class="sxs-lookup"><span data-stu-id="16596-107">This task was created using the demo data company DEMF but you can use any demo data company to complete this task.</span></span>
 
-<span data-ttu-id="46155-108">Dit is de eerste van vijf taken die samen het leveranciersbetalingproces toelichten door middel van elektronische rapportageconfiguraties.</span><span class="sxs-lookup"><span data-stu-id="46155-108">This is the first of five tasks, that together illustrate the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="46155-109">Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.</span><span class="sxs-lookup"><span data-stu-id="46155-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="16596-108">Dit is de eerste van vijf taken die samen het leveranciersbetalingproces toelichten door middel van elektronische rapportageconfiguraties.</span><span class="sxs-lookup"><span data-stu-id="16596-108">This is the first of five tasks, that together illustrate the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="16596-109">Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.</span><span class="sxs-lookup"><span data-stu-id="16596-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
-1. <span data-ttu-id="46155-110">Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.</span><span class="sxs-lookup"><span data-stu-id="46155-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="46155-111">Selecteer in de lijst met beschikbare configuratieproviders de waarde Microsoft.</span><span class="sxs-lookup"><span data-stu-id="46155-111">In the list of available configuration providers, select Microsoft.</span></span>
-3. <span data-ttu-id="46155-112">Klik op Instellingen als actief.</span><span class="sxs-lookup"><span data-stu-id="46155-112">Click Set active.</span></span>
-4. <span data-ttu-id="46155-113">Klik op Opslagplaatsen.</span><span class="sxs-lookup"><span data-stu-id="46155-113">Click Repositories.</span></span>
-5. <span data-ttu-id="46155-114">Klik op Openen.</span><span class="sxs-lookup"><span data-stu-id="46155-114">Click Open.</span></span>
-6. <span data-ttu-id="46155-115">Klik op Filters weergeven.</span><span class="sxs-lookup"><span data-stu-id="46155-115">Click Show filters.</span></span>
-7. <span data-ttu-id="46155-116">Pas de volgende filter toe: voer in het veld "Configuratienaam" de waarde "ISO20022 Kredietoverdracht (DE)" in met de filteroperator "begint met".</span><span class="sxs-lookup"><span data-stu-id="46155-116">Apply the following filters: Enter a filter value of "ISO20022 Credit transfer (DE)" on the "Configuration name" field using the "begins with" filter operator</span></span>
-    * <span data-ttu-id="46155-117">Of zoek de configuratie in de lijst, selecteer deze en verplaats de configuratie naar de taak Importeren.</span><span class="sxs-lookup"><span data-stu-id="46155-117">Alternatively, you can find the configuration in the list, select it, and then move it to the Import task.</span></span>  
-8. <span data-ttu-id="46155-118">Klik op Importeren.</span><span class="sxs-lookup"><span data-stu-id="46155-118">Click Import.</span></span>
-    * <span data-ttu-id="46155-119">Als de knop Importeren niet beschikbaar is, betekent dit dat deze configuratie al is geïmporteerd.</span><span class="sxs-lookup"><span data-stu-id="46155-119">If the Import button is not available, it means that the configuration has  already been imported.</span></span>  
-9. <span data-ttu-id="46155-120">Klik op Ja.</span><span class="sxs-lookup"><span data-stu-id="46155-120">Click Yes.</span></span>
+1. <span data-ttu-id="16596-110">Ga naar Organisatiebeheer > Werkruimten > Elektronische rapportage.</span><span class="sxs-lookup"><span data-stu-id="16596-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="16596-111">Selecteer in de lijst met beschikbare configuratieproviders de waarde Microsoft.</span><span class="sxs-lookup"><span data-stu-id="16596-111">In the list of available configuration providers, select Microsoft.</span></span>
+3. <span data-ttu-id="16596-112">Klik op Instellingen als actief.</span><span class="sxs-lookup"><span data-stu-id="16596-112">Click Set active.</span></span>
+4. <span data-ttu-id="16596-113">Klik op Opslagplaatsen.</span><span class="sxs-lookup"><span data-stu-id="16596-113">Click Repositories.</span></span>
+5. <span data-ttu-id="16596-114">Klik op Openen.</span><span class="sxs-lookup"><span data-stu-id="16596-114">Click Open.</span></span>
+6. <span data-ttu-id="16596-115">Klik op Filters weergeven.</span><span class="sxs-lookup"><span data-stu-id="16596-115">Click Show filters.</span></span>
+7. <span data-ttu-id="16596-116">Pas de volgende filter toe: voer in het veld "Configuratienaam" de waarde "ISO20022 Kredietoverdracht (DE)" in met de filteroperator "begint met".</span><span class="sxs-lookup"><span data-stu-id="16596-116">Apply the following filters: Enter a filter value of "ISO20022 Credit transfer (DE)" on the "Configuration name" field using the "begins with" filter operator</span></span>
+    * <span data-ttu-id="16596-117">Of zoek de configuratie in de lijst, selecteer deze en verplaats de configuratie naar de taak Importeren.</span><span class="sxs-lookup"><span data-stu-id="16596-117">Alternatively, you can find the configuration in the list, select it, and then move it to the Import task.</span></span>  
+8. <span data-ttu-id="16596-118">Klik op Importeren.</span><span class="sxs-lookup"><span data-stu-id="16596-118">Click Import.</span></span>
+    * <span data-ttu-id="16596-119">Als de knop Importeren niet beschikbaar is, betekent dit dat deze configuratie al is geïmporteerd.</span><span class="sxs-lookup"><span data-stu-id="16596-119">If the Import button is not available, it means that the configuration has  already been imported.</span></span>  
+9. <span data-ttu-id="16596-120">Klik op Ja.</span><span class="sxs-lookup"><span data-stu-id="16596-120">Click Yes.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
