@@ -16,31 +16,34 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 402ddf9a2646b2db0346e01504e8188120f16ae5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8366bfff16bac8ef8f7b15cb97417d474b52f59c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982208"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232756"
 ---
-# <a name="configure-and-run-job-to-calculate-statements"></a><span data-ttu-id="03523-103">Configureren en uitvoeren van taak om overzichten te berekenen</span><span class="sxs-lookup"><span data-stu-id="03523-103">Configure and run job to calculate statements</span></span>
+# <a name="configure-and-run-job-to-calculate-statements"></a><span data-ttu-id="b6b0d-103">Configureren en uitvoeren van taak om overzichten te berekenen</span><span class="sxs-lookup"><span data-stu-id="b6b0d-103">Configure and run job to calculate statements</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="03523-104">Deze procedure doorloopt de configuratie en uitvoering van terugkerende batchtaken om overzichten te maken en te berekenen voor een geselecteerde winkel of groep winkels.</span><span class="sxs-lookup"><span data-stu-id="03523-104">This procedure walks through configuring and running recurrent batch jobs to create and calculate statements for a selected store or group of stores.</span></span> <span data-ttu-id="03523-105">Deze procedure gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="03523-105">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="b6b0d-104">Deze procedure doorloopt de configuratie en uitvoering van terugkerende batchtaken om overzichten te maken en te berekenen voor een geselecteerde winkel of groep winkels.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-104">This procedure walks through configuring and running recurrent batch jobs to create and calculate statements for a selected store or group of stores.</span></span> <span data-ttu-id="b6b0d-105">Deze procedure gebruikt het demobedrijf USRT.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-105">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="03523-106">Ga naar Alle werkruimten > Financiën van winkel.</span><span class="sxs-lookup"><span data-stu-id="03523-106">Go to All workspaces > Store financials.</span></span>
-2. <span data-ttu-id="03523-107">Klik op Overzichten berekenen.</span><span class="sxs-lookup"><span data-stu-id="03523-107">Click Calculate statements.</span></span>
-    * <span data-ttu-id="03523-108">Selecteer een specifieke winkel of een knooppunt als u de batchtaak wilt maken voor een groep winkels.</span><span class="sxs-lookup"><span data-stu-id="03523-108">Select either a specific store, or a node if you want to create the batch job for a group of stores.</span></span>  
-    * <span data-ttu-id="03523-109">Klik op de pijl om uw selectie toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="03523-109">Click the arrow to add your selection.</span></span>  
-3. <span data-ttu-id="03523-110">Klik op het tabblad Op de achtergrond uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="03523-110">Click the Run in the background tab.</span></span>
-4. <span data-ttu-id="03523-111">Selecteer 'Ja' onder Batchverwerking.</span><span class="sxs-lookup"><span data-stu-id="03523-111">Under Batch processing, select 'Yes'.</span></span>
-5. <span data-ttu-id="03523-112">Klik op Terugkeerpatroon.</span><span class="sxs-lookup"><span data-stu-id="03523-112">Click Recurrence.</span></span>
-6. <span data-ttu-id="03523-113">Voer een datum in het veld Startdatum in.</span><span class="sxs-lookup"><span data-stu-id="03523-113">In the Start date field, enter a date.</span></span>
-7. <span data-ttu-id="03523-114">Voer een tijd in het veld Begintijd in.</span><span class="sxs-lookup"><span data-stu-id="03523-114">In the Start time field, enter a time.</span></span>
-8. <span data-ttu-id="03523-115">Selecteer de optie Geen einddatum.</span><span class="sxs-lookup"><span data-stu-id="03523-115">Select the No end date option.</span></span>
-9. <span data-ttu-id="03523-116">Voer 'Dagen' in het veld Patrooneenheid in.</span><span class="sxs-lookup"><span data-stu-id="03523-116">In the PatternUnit field, enter 'Days'.</span></span>
-10. <span data-ttu-id="03523-117">Voer een getal in het veld Per in.</span><span class="sxs-lookup"><span data-stu-id="03523-117">In the Per field, enter a number.</span></span>
-11. <span data-ttu-id="03523-118">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="03523-118">Click OK.</span></span>
-12. <span data-ttu-id="03523-119">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="03523-119">Click OK.</span></span>
+1. <span data-ttu-id="b6b0d-106">Ga naar Alle werkruimten > Financiën van winkel.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-106">Go to All workspaces > Store financials.</span></span>
+2. <span data-ttu-id="b6b0d-107">Klik op Overzichten berekenen.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-107">Click Calculate statements.</span></span>
+    * <span data-ttu-id="b6b0d-108">Selecteer een specifieke winkel of een knooppunt als u de batchtaak wilt maken voor een groep winkels.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-108">Select either a specific store, or a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="b6b0d-109">Klik op de pijl om uw selectie toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-109">Click the arrow to add your selection.</span></span>  
+3. <span data-ttu-id="b6b0d-110">Klik op het tabblad Op de achtergrond uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-110">Click the Run in the background tab.</span></span>
+4. <span data-ttu-id="b6b0d-111">Selecteer 'Ja' onder Batchverwerking.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-111">Under Batch processing, select 'Yes'.</span></span>
+5. <span data-ttu-id="b6b0d-112">Klik op Terugkeerpatroon.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-112">Click Recurrence.</span></span>
+6. <span data-ttu-id="b6b0d-113">Voer een datum in het veld Startdatum in.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-113">In the Start date field, enter a date.</span></span>
+7. <span data-ttu-id="b6b0d-114">Voer een tijd in het veld Begintijd in.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-114">In the Start time field, enter a time.</span></span>
+8. <span data-ttu-id="b6b0d-115">Selecteer de optie Geen einddatum.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-115">Select the No end date option.</span></span>
+9. <span data-ttu-id="b6b0d-116">Voer 'Dagen' in het veld Patrooneenheid in.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-116">In the PatternUnit field, enter 'Days'.</span></span>
+10. <span data-ttu-id="b6b0d-117">Voer een getal in het veld Per in.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-117">In the Per field, enter a number.</span></span>
+11. <span data-ttu-id="b6b0d-118">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-118">Click OK.</span></span>
+12. <span data-ttu-id="b6b0d-119">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="b6b0d-119">Click OK.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

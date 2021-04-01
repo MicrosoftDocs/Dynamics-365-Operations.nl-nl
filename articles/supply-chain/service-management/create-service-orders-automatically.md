@@ -17,56 +17,59 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9bcb9611fd5e59cbfafbc8419a421ad0905e8b9f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 790c9007b4387b31e65cac650a57b873a37a70d0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001444"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234844"
 ---
-# <a name="create-service-orders-automatically"></a><span data-ttu-id="e854c-103">Automatisch serviceorders maken</span><span class="sxs-lookup"><span data-stu-id="e854c-103">Create service orders automatically</span></span>    
+# <a name="create-service-orders-automatically"></a><span data-ttu-id="30179-103">Automatisch serviceorders maken</span><span class="sxs-lookup"><span data-stu-id="30179-103">Create service orders automatically</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="e854c-104">U kunt serviceorders maken voor één serviceovereenkomst of voor meerdere serviceovereenkomsten.</span><span class="sxs-lookup"><span data-stu-id="e854c-104">You can create service orders for one service agreement or for several service agreements.</span></span> <span data-ttu-id="e854c-105">Wanneer deze zijn gemaakt, kunt u uw serviceorders weergeven in het formulier **Serviceorders**.</span><span class="sxs-lookup"><span data-stu-id="e854c-105">When they are created, you can view your service orders in the **Service orders** form.</span></span>
+<span data-ttu-id="30179-104">U kunt serviceorders maken voor één serviceovereenkomst of voor meerdere serviceovereenkomsten.</span><span class="sxs-lookup"><span data-stu-id="30179-104">You can create service orders for one service agreement or for several service agreements.</span></span> <span data-ttu-id="30179-105">Wanneer deze zijn gemaakt, kunt u uw serviceorders weergeven in het formulier **Serviceorders**.</span><span class="sxs-lookup"><span data-stu-id="30179-105">When they are created, you can view your service orders in the **Service orders** form.</span></span>
 
-<span data-ttu-id="e854c-106">Serviceorders worden alleen gemaakt voor de geldige periode van de serviceovereenkomst.</span><span class="sxs-lookup"><span data-stu-id="e854c-106">Service orders are created only for the valid period of the service agreement.</span></span> <span data-ttu-id="e854c-107">Als het interval dat u opgeeft in het dialoogvenster **Serviceorders maken**, vóór de begindatum of na de einddatum van de serviceovereenkomst valt, worden alleen serviceorders gemaakt voor dat deel van het interval dat binnen de datums van de serviceovereenkomst valt.</span><span class="sxs-lookup"><span data-stu-id="e854c-107">If the interval that you specify in the **Create service orders** form is before the starting date or after the ending date of the service agreement, service orders are created only for the part of the interval that is within the service agreement dates.</span></span>
+<span data-ttu-id="30179-106">Serviceorders worden alleen gemaakt voor de geldige periode van de serviceovereenkomst.</span><span class="sxs-lookup"><span data-stu-id="30179-106">Service orders are created only for the valid period of the service agreement.</span></span> <span data-ttu-id="30179-107">Als het interval dat u opgeeft in het dialoogvenster **Serviceorders maken**, vóór de begindatum of na de einddatum van de serviceovereenkomst valt, worden alleen serviceorders gemaakt voor dat deel van het interval dat binnen de datums van de serviceovereenkomst valt.</span><span class="sxs-lookup"><span data-stu-id="30179-107">If the interval that you specify in the **Create service orders** form is before the starting date or after the ending date of the service agreement, service orders are created only for the part of the interval that is within the service agreement dates.</span></span>
 
-<span data-ttu-id="e854c-108">Wanneer u handmatig of automatisch serviceorders maakt vanaf de serviceovereenkomstregel, moet de serviceorder binnen het interval vallen dat met de begindatum en de einddatum voor de regel is ingesteld, tenzij u op de regel geen einddatum hebt ingesteld.</span><span class="sxs-lookup"><span data-stu-id="e854c-108">When you create service orders manually or automatically from the service agreement line, the service order must be in the time interval that is defined by the starting and ending dates for the line, unless you do not specify an ending date on the line.</span></span>
+<span data-ttu-id="30179-108">Wanneer u handmatig of automatisch serviceorders maakt vanaf de serviceovereenkomstregel, moet de serviceorder binnen het interval vallen dat met de begindatum en de einddatum voor de regel is ingesteld, tenzij u op de regel geen einddatum hebt ingesteld.</span><span class="sxs-lookup"><span data-stu-id="30179-108">When you create service orders manually or automatically from the service agreement line, the service order must be in the time interval that is defined by the starting and ending dates for the line, unless you do not specify an ending date on the line.</span></span>
 
-## <a name="create-service-orders-automatically-for-a-service-agreement"></a><span data-ttu-id="e854c-109">Automatisch serviceorders maken voor een serviceovereenkomst</span><span class="sxs-lookup"><span data-stu-id="e854c-109">Create service orders automatically for a service agreement</span></span>
+## <a name="create-service-orders-automatically-for-a-service-agreement"></a><span data-ttu-id="30179-109">Automatisch serviceorders maken voor een serviceovereenkomst</span><span class="sxs-lookup"><span data-stu-id="30179-109">Create service orders automatically for a service agreement</span></span>
 
-1.  <span data-ttu-id="e854c-110">Klik op **Servicebeheer** \> **Algemeen** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.</span><span class="sxs-lookup"><span data-stu-id="e854c-110">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="30179-110">Klik op **Servicebeheer** \> **Algemeen** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.</span><span class="sxs-lookup"><span data-stu-id="30179-110">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="e854c-111">Selecteer een serviceovereenkomst.</span><span class="sxs-lookup"><span data-stu-id="e854c-111">Select a service agreement.</span></span>
+2.  <span data-ttu-id="30179-111">Selecteer een serviceovereenkomst.</span><span class="sxs-lookup"><span data-stu-id="30179-111">Select a service agreement.</span></span>
 
-3.  <span data-ttu-id="e854c-112">Klik op het tabblad **Leveren** en klik vervolgens op **Geplande serviceorders**.</span><span class="sxs-lookup"><span data-stu-id="e854c-112">Click the **Deliver** tab, and then click **Planned service orders**.</span></span>
+3.  <span data-ttu-id="30179-112">Klik op het tabblad **Leveren** en klik vervolgens op **Geplande serviceorders**.</span><span class="sxs-lookup"><span data-stu-id="30179-112">Click the **Deliver** tab, and then click **Planned service orders**.</span></span>
 
-4.  <span data-ttu-id="e854c-113">Geef datums op in de velden **Datum vanaf** en **Datum t/m** om de serviceperiode te definiëren.</span><span class="sxs-lookup"><span data-stu-id="e854c-113">Specify dates in the **From date** and **To date** fields to define the service period.</span></span>
+4.  <span data-ttu-id="30179-113">Geef datums op in de velden **Datum vanaf** en **Datum t/m** om de serviceperiode te definiëren.</span><span class="sxs-lookup"><span data-stu-id="30179-113">Specify dates in the **From date** and **To date** fields to define the service period.</span></span>
 
-5.  <span data-ttu-id="e854c-114">Schakel het selectievakje **Infologboek weergeven** in om een lijst weer te geven van de serviceorders die zijn gemaakt.</span><span class="sxs-lookup"><span data-stu-id="e854c-114">Select the **Show Infolog** check box to display a list of the service orders that are created.</span></span>
+5.  <span data-ttu-id="30179-114">Schakel het selectievakje **Infologboek weergeven** in om een lijst weer te geven van de serviceorders die zijn gemaakt.</span><span class="sxs-lookup"><span data-stu-id="30179-114">Select the **Show Infolog** check box to display a list of the service orders that are created.</span></span>
 
-6.  <span data-ttu-id="e854c-115">Selecteer transactietypen in de veldgroep **Transactietypen opnemen**.</span><span class="sxs-lookup"><span data-stu-id="e854c-115">Select transaction types in the **Include transaction types** field group.</span></span> <span data-ttu-id="e854c-116">De transactietypen vertegenwoordigen de regels die zijn gemaakt in de serviceovereenkomst en elk transactietype dat u selecteert, genereert verscheidene serviceorders, afhankelijk van de service-interval die is opgegeven op de serviceovereenkomstregel.</span><span class="sxs-lookup"><span data-stu-id="e854c-116">The transaction types represent the lines that are created in the service agreement, and each transaction type that you select generates several service orders, depending on the service interval that is specified on the service agreement line.</span></span>
+6.  <span data-ttu-id="30179-115">Selecteer transactietypen in de veldgroep **Transactietypen opnemen**.</span><span class="sxs-lookup"><span data-stu-id="30179-115">Select transaction types in the **Include transaction types** field group.</span></span> <span data-ttu-id="30179-116">De transactietypen vertegenwoordigen de regels die zijn gemaakt in de serviceovereenkomst en elk transactietype dat u selecteert, genereert verscheidene serviceorders, afhankelijk van de service-interval die is opgegeven op de serviceovereenkomstregel.</span><span class="sxs-lookup"><span data-stu-id="30179-116">The transaction types represent the lines that are created in the service agreement, and each transaction type that you select generates several service orders, depending on the service interval that is specified on the service agreement line.</span></span>
 
-7.  <span data-ttu-id="e854c-117">Schakel het selectievakje **Continu** in om eventuele ontbrekende serviceorders in een continue serie van serviceorders te maken.</span><span class="sxs-lookup"><span data-stu-id="e854c-117">To create any service orders that are missing from continuous series of service orders, select the **Continuous** check box.</span></span>
+7.  <span data-ttu-id="30179-117">Schakel het selectievakje **Continu** in om eventuele ontbrekende serviceorders in een continue serie van serviceorders te maken.</span><span class="sxs-lookup"><span data-stu-id="30179-117">To create any service orders that are missing from continuous series of service orders, select the **Continuous** check box.</span></span>
 
-8.  <span data-ttu-id="e854c-118">Klik tot slot op **OK**.</span><span class="sxs-lookup"><span data-stu-id="e854c-118">Click **OK**.</span></span>
+8.  <span data-ttu-id="30179-118">Klik tot slot op **OK**.</span><span class="sxs-lookup"><span data-stu-id="30179-118">Click **OK**.</span></span>
 
-## <a name="create-service-orders-automatically-for-several-service-agreements"></a><span data-ttu-id="e854c-119">Automatisch serviceorders maken voor meerdere serviceovereenkomsten</span><span class="sxs-lookup"><span data-stu-id="e854c-119">Create service orders automatically for several service agreements</span></span>
+## <a name="create-service-orders-automatically-for-several-service-agreements"></a><span data-ttu-id="30179-119">Automatisch serviceorders maken voor meerdere serviceovereenkomsten</span><span class="sxs-lookup"><span data-stu-id="30179-119">Create service orders automatically for several service agreements</span></span>
 
-1.  <span data-ttu-id="e854c-120">Klik op **Servicebeheer** \> **Periodiek** \> **Serviceorders** \> **Serviceorders maken**.</span><span class="sxs-lookup"><span data-stu-id="e854c-120">Click **Service management** \> **Periodic** \> **Service orders** \> **Create service orders**.</span></span>
+1.  <span data-ttu-id="30179-120">Klik op **Servicebeheer** \> **Periodiek** \> **Serviceorders** \> **Serviceorders maken**.</span><span class="sxs-lookup"><span data-stu-id="30179-120">Click **Service management** \> **Periodic** \> **Service orders** \> **Create service orders**.</span></span>
 
-2.  <span data-ttu-id="e854c-121">Klik op **Selecteren** om criteria voor het maken van serviceorders te selecteren en toe te voegen of te verwijderen.</span><span class="sxs-lookup"><span data-stu-id="e854c-121">Click **Select** to make selections to add or remove criteria to use to create service orders.</span></span>
+2.  <span data-ttu-id="30179-121">Klik op **Selecteren** om criteria voor het maken van serviceorders te selecteren en toe te voegen of te verwijderen.</span><span class="sxs-lookup"><span data-stu-id="30179-121">Click **Select** to make selections to add or remove criteria to use to create service orders.</span></span>
 
-3.  <span data-ttu-id="e854c-122">Klik op **OK**.</span><span class="sxs-lookup"><span data-stu-id="e854c-122">Click **OK**.</span></span>
+3.  <span data-ttu-id="30179-122">Klik op **OK**.</span><span class="sxs-lookup"><span data-stu-id="30179-122">Click **OK**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="e854c-123">Zie ook</span><span class="sxs-lookup"><span data-stu-id="e854c-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="30179-123">Zie ook</span><span class="sxs-lookup"><span data-stu-id="30179-123">See also</span></span>
 
-[<span data-ttu-id="e854c-124">Serviceorders</span><span class="sxs-lookup"><span data-stu-id="e854c-124">Service orders</span></span>](service-orders.md)
+[<span data-ttu-id="30179-124">Serviceorders</span><span class="sxs-lookup"><span data-stu-id="30179-124">Service orders</span></span>](service-orders.md)
 
-[<span data-ttu-id="e854c-125">Automatisch serviceorders maken</span><span class="sxs-lookup"><span data-stu-id="e854c-125">Automatically create service orders</span></span>](auto-create-service-orders.md)
+[<span data-ttu-id="30179-125">Automatisch serviceorders maken</span><span class="sxs-lookup"><span data-stu-id="30179-125">Automatically create service orders</span></span>](auto-create-service-orders.md)
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
