@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f2e782bed4cd9f2f13e2ee45afffaef277279131
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: e1c75db4ef5d07e4ae396401a851389b7ecb9242
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5020124"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244370"
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a>Consignmentvoorraad bewaken door middel van leverancierssamenwerking
 
@@ -35,7 +35,7 @@ Deze procedure laat zien hoe u leverancierssamenwerking gebruikt om gegevens wee
     * De lijst geeft de productontvangstbonregels weer die zijn gegenereerd toen het eigendom van de consignatievoorraad is gewijzigd van de leverancier in de klant. Mogelijk moet u naar rechts schuiven om hoeveelheden en andere informatie weer te geven. U kunt de informatie in deze lijst gebruiken om facturen voor de klant te genereren. U kunt de gegevens ook exporteren naar Microsoft Excel.   
 2. Klik op Inkooporder weergeven.
 3. Vouw de sectie Regeldetails uit.
-    * De regel wordt gemarkeerd als Consignatie en in de koptekstsectie wordt aangegeven dat de status van de inkooporder Ontvangen is.  
+    * De regel wordt gemarkeerd als Consignatie en in de headersectie wordt aangegeven dat de status van de inkooporder Ontvangen is.  
 4. Sluit de pagina.
 
 ## <a name="view-on-hand-inventory"></a>Voorhanden voorraad weergeven

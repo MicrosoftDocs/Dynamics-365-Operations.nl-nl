@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d0338447cba847f3677f5e3de7144fc75da01ddf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016926"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237371"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Overzicht van Offerteaanvragen
 
@@ -80,23 +80,23 @@ U selecteert de sjabloon voor de e-mailmelding die naar leveranciers wordt verzo
 - %Reden voor retour van bieding%
 - %Reden voor aanpassing%
 - %Aanpassing voorbereid door%
-- %Bedrijf%
+- %Company%
 - %Naam offerteaanvraagcase%
 - %Vervaldatum/-tijd%
-- %Datum%
+- %Date%
 
-De tokens %Reden voor retour van biedng% en %Reden voor aanpassing% worden vervangen door tekst die de inkoopmedewerker kan invoeren wanneer hij of zij de aanpassing voltooid in de wizard **Aanpassing**. De waarden voor de tokens %Aanpassing voorbereid door% en %Bedrijf% worden automatisch opgehaald uit de offerteaanvraag. De token %Datum% wordt vervangen door de huidige datum.
+De tokens %Reden voor retour van biedng% en %Reden voor aanpassing% worden vervangen door tekst die de inkoopmedewerker kan invoeren wanneer hij of zij de aanpassing voltooid in de wizard **Aanpassing**. De waarden voor de tokens %Aanpassing voorbereid door% en %Company% worden automatisch opgehaald uit de offerteaanvraag. De token %Date% wordt vervangen door de huidige datum.
 
 Als u een offerteaanvraag annuleren wilt nadat deze verzonden, kunt u dat doen vanuit de offerteaanvraagcase. Voor het annuleren moet de e-mailsjabloon de annuleringsmelding verzenden naar contactpersonen van de leverancier. De sjabloon moet zijn geselecteerd op de pagina **Parameters voor inkoopbeheer**. Als de sjabloon wordt gemaakt, kan deze de volgende vervangingstokens bevatten:
 
 - %Annuleringsreden%
 - %Offerteaanvraagcase%
 - %Offerteaanvraag geannuleerd door%
-- %Bedrijf%
+- %Company%
 - %Naam offerteaanvraagcase%
-- %Datum%
+- %Date%
 
-De token %Annuleringsreden% wordt vervangen door tekst die de inkoopmedewerker kan invoeren in de wizard **Annulering**. De token %Datum% wordt vervangen door de huidige datum.
+De token %Annuleringsreden% wordt vervangen door tekst die de inkoopmedewerker kan invoeren in de wizard **Annulering**. De token %Date% wordt vervangen door de huidige datum.
 
 Als u redencodes wilt gebruiken in een bieding om aan te geven waarom deze is afgewezen of geaccepteerd, moet u redencodes instellen op de pagina **Leveranciersredenen**.
 
