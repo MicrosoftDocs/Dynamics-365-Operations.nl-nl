@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea89d54f1ce3a1e971d41623bf44f909f7dfdf09
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 7072c34ccbffc6bf135f55fd594cac4d9ea5a463
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5131277"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237511"
 ---
 # <a name="asset-leasing-conventions"></a>Conventies voor het leasen van activa
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp worden conventies voor geleasde activa beschreven. Leasingconventies worden gebruikt om de aanvangsdatum van een leaseboek te bepalen. Als de leasingconventie is ingesteld op **Geen**, is de aanvangsdatum gelijk aan de begindatum voor de lease (dat wil zeggen de waarde van het veld **Begindatum lease**). Als de leasingconventie is ingesteld op **Volledige maand**, is de aanvangsdatum de eerste dag van de maand waarin de begindatum van de lease valt.
 

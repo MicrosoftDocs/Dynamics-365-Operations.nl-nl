@@ -1,6 +1,6 @@
 ---
 title: Aanbevelingen voor vergelijkbare omschrijving inschakelen
-description: In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare omschrijvingen kunt inschakelen in in Microsoft Dynamics 365 Commerce.
+description: In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare omschrijvingen kunt inschakelen in Microsoft Dynamics 365 Commerce.
 author: bsokolov
 manager: AnnBe
 ms.date: 01/13/2021
@@ -18,18 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b3b7abf47a3bdacaa4b91ae32b68a809a84b0b1d
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: b6b397b1f21e3dfcdb4a2b7fe67ddb541d090a97
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5098620"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234384"
 ---
-# <a name="enable-shop-similar-description-recommendations"></a>Aanbevelingen voor vergelijkbare omschrijving inschakelen
+# <a name="enable-shop-similar-description-recommendations"></a>Aanbevelingen voor vergelijkbare omschrijvingen inschakelen
 
 [!include [banner](includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare omschrijvingen kunt inschakelen in in Microsoft Dynamics 365 Commerce.
+In dit onderwerp wordt beschreven hoe u productaanbevelingen voor vergelijkbare omschrijvingen kunt inschakelen in Microsoft Dynamics 365 Commerce.
 
 De aanbevelingen van de optie voor voor vergelijkbare omschrijvingen in Dynamics 365 Commerce maakt gebruik van kunstmatige intelligentie en machine learning (AI-ML) om aanbevelingen te geven voor producten met vergelijkbare omschrijvingen als waar de klant naar op zoek is. Door de aanbevelingen voor vergelijkbare omschrijvingen beschikbaar te maken voor alle detailhandelkanalen in Commerce, kunnen detailhandelaren klanten helpen te vinden wat ze zoeken.
 

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 3051a3b5895a46801a1a154324ec9872dfcb82a0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fac3f75dd601eaabe47fb4e8ad8d10b33307a5a4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989549"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235997"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Online en offline verkooppuntbewerkingen (POS)
 
@@ -153,7 +153,7 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 633 | Vervaldatum van offerte | Met deze bewerking kan de gebruiker de vervaldatum op een verkoopofferte weergeven of wijzigen. | Ja | Ja | Nee | Ja\* | Nee |
 | 627 | Opnieuw berekenen | Alle klantorderregels en btw opnieuw berekenen, op basis van de huidige configuratie. | Ja | Ja | Nee | Ja\* | Nee |
 | 143 | Toeslagen opnieuw berekenen | De automatische toeslagen die op de order zijn toegepast, opnieuw berekenen. | Ja | Ja | Nee | Nee| Nee |
-| 515 | Order terugroepen | Met deze bewerking kan de gebruiker klantorders en verkoopoffertes zoeken en intrekken. | Ja | Ja | Ja | Nee | Nee |
+| 515 | Order intrekken | Met deze bewerking kan de gebruiker klantorders en verkoopoffertes zoeken en intrekken. | Ja | Ja | Ja | Nee | Nee |
 | 504 | Transactie intrekken | Met deze bewerking kan de gebruiker een eerder uitgestelde transactie voor de huidige winkel intrekken. | Ja | Ja | Nee | Ja‡ | Nee |
 | 305 | Loyaliteitspunten inwisselen | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Ja |
 | 635 | Verzendkosten terugbetalen | Met deze bewerking kan de gebruiker verzendkosten voor een geannuleerde order terugbetalen. | Nee | Nee | Nee | Nee | Nee |
@@ -176,7 +176,7 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 638 | Verkoopvertegenwoordiger instellen op regel | Met deze bewerking kan de gebruiker een van de in aanmerking komende provisieverkoopgroepen (vertegenwoordigers) selecteren voor de momenteel geselecteerde regel. | Ja | Ja | Nee | Ja | Nee |
 | 630 | Alle producten verzenden | De afhandelingsmodus instellen op **Verzenden** voor alle regelartikelen. | Ja | Ja | Nee | Ja\* | Nee |
 | 629 | Geselecteerde producten verzenden | De afhandelingsmodus voor de geselecteerde regels instellen op **Verzenden**. | Ja | Ja | Nee | Ja\* | Nee |
-| 115 | Journaal weergeven | Het journaal van de winkel weergeven. U kunt transacties weergeven, ontvangstbewijzen en giftontvangsten opnieuw afdrukken en terugroepen voor retour. | Ja | Ja | Ja | Ja\*\* | Nee |
+| 115 | Journaal weergeven | Het journaal van de winkel weergeven. U kunt transacties weergeven, ontvangstbewijzen en giftontvangsten opnieuw afdrukken en intrekken voor retour. | Ja | Ja | Ja | Ja\*\* | Nee |
 | 802 | Voorraadtelling | Met deze bewerking kan de gebruiker voorraadtellingsjournalen maken of wijzigen voor fysieke voorraad of cyclustellingen. | Ja | Ja | Ja | Nee | Nee |
 | 401 | Submenu | Met deze bewerking gaat de gebruiker naar een ander gekoppeld knoppenraster. | Ja | Ja | Ja | Ja | Nee |
 | 1054 | Ploeg uitstellen | De huidige ploeg uitstellen zodat een nieuwe of andere ploeg kan worden geactiveerd voor het huidige register. | Ja | Ja | Ja | Nee | Nee |

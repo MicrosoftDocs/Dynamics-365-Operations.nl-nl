@@ -16,12 +16,12 @@ ms.search.region: Belgium
 ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 17db364ac7a5c156cede31cac2450216baed445d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cd67cc87fa9b22d030f7d1ff63685c898597f2e0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978275"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236333"
 ---
 # <a name="export-ledger-transactions"></a>Grootboektransacties exporteren
 
