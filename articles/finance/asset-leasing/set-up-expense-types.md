@@ -17,44 +17,47 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2019-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3ab31b16c6ae07466d7655832701e71092064fe1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1538826f140393eec59be9ff4df5242d5ced9d8f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969498"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249744"
 ---
-# <a name="set-up-expense-types"></a><span data-ttu-id="6f97b-103">Onkostentypen instellen</span><span class="sxs-lookup"><span data-stu-id="6f97b-103">Set up expense types</span></span>
+# <a name="set-up-expense-types"></a><span data-ttu-id="0a523-103">Onkostentypen instellen</span><span class="sxs-lookup"><span data-stu-id="0a523-103">Set up expense types</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6f97b-104">In dit onderwerp wordt uitgelegd hoe u onkostentypen instelt in Activa leasen.</span><span class="sxs-lookup"><span data-stu-id="6f97b-104">This topic explains how to set up expense types in Asset leasing.</span></span> <span data-ttu-id="6f97b-105">Kosten die niet in het betalingsschema worden vertegenwoordigd, worden *onkosten* genoemd.</span><span class="sxs-lookup"><span data-stu-id="6f97b-105">Costs that aren't represented by the payment schedule are known as *expense costs*.</span></span> <span data-ttu-id="6f97b-106">Voorbeelden van deze kosten zijn: onroerendgoedbelastingen, onderhoudskosten van algemene ruimten en verzekeringskosten.</span><span class="sxs-lookup"><span data-stu-id="6f97b-106">Examples of these costs include property taxes, common area maintenance costs, and insurance expenses.</span></span>
+<span data-ttu-id="0a523-104">In dit onderwerp wordt uitgelegd hoe u onkostentypen instelt in Activa leasen.</span><span class="sxs-lookup"><span data-stu-id="0a523-104">This topic explains how to set up expense types in Asset leasing.</span></span> <span data-ttu-id="0a523-105">Kosten die niet in het betalingsschema worden vertegenwoordigd, worden *onkosten* genoemd.</span><span class="sxs-lookup"><span data-stu-id="0a523-105">Costs that aren't represented by the payment schedule are known as *expense costs*.</span></span> <span data-ttu-id="0a523-106">Voorbeelden van deze kosten zijn: onroerendgoedbelastingen, onderhoudskosten van algemene ruimten en verzekeringskosten.</span><span class="sxs-lookup"><span data-stu-id="0a523-106">Examples of these costs include property taxes, common area maintenance costs, and insurance expenses.</span></span>
 
-## <a name="add-an-administrative-expense-type"></a><span data-ttu-id="6f97b-107">Een administratief onkostentype toevoegen</span><span class="sxs-lookup"><span data-stu-id="6f97b-107">Add an administrative expense type</span></span>
+## <a name="add-an-administrative-expense-type"></a><span data-ttu-id="0a523-107">Een administratief onkostentype toevoegen</span><span class="sxs-lookup"><span data-stu-id="0a523-107">Add an administrative expense type</span></span>
 
-1. <span data-ttu-id="6f97b-108">Ga naar **Activa leasen \> Instellingen \> Onkostentypen**.</span><span class="sxs-lookup"><span data-stu-id="6f97b-108">Go to **Asset leasing \> Setup \> Expense types**.</span></span>
-2. <span data-ttu-id="6f97b-109">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="6f97b-109">Select **New**.</span></span>
-3. <span data-ttu-id="6f97b-110">Voer in de betreffende velden het nieuwe onkostentype en een omschrijving in.</span><span class="sxs-lookup"><span data-stu-id="6f97b-110">In the appropriate fields, enter the new expense type and a description.</span></span>
+1. <span data-ttu-id="0a523-108">Ga naar **Activa leasen \> Instellingen \> Onkostentypen**.</span><span class="sxs-lookup"><span data-stu-id="0a523-108">Go to **Asset leasing \> Setup \> Expense types**.</span></span>
+2. <span data-ttu-id="0a523-109">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="0a523-109">Select **New**.</span></span>
+3. <span data-ttu-id="0a523-110">Voer in de betreffende velden het nieuwe onkostentype en een omschrijving in.</span><span class="sxs-lookup"><span data-stu-id="0a523-110">In the appropriate fields, enter the new expense type and a description.</span></span>
 
-## <a name="assign-accounts-to-administrative-costs"></a><span data-ttu-id="6f97b-111">Rekeningen toewijzen aan administratieve kosten</span><span class="sxs-lookup"><span data-stu-id="6f97b-111">Assign accounts to administrative costs</span></span>
+## <a name="assign-accounts-to-administrative-costs"></a><span data-ttu-id="0a523-111">Rekeningen toewijzen aan administratieve kosten</span><span class="sxs-lookup"><span data-stu-id="0a523-111">Assign accounts to administrative costs</span></span>
 
-<span data-ttu-id="6f97b-112">Vervolgens koppelt u rekeningen aan de onkostentypen.</span><span class="sxs-lookup"><span data-stu-id="6f97b-112">Next, you should associate accounts with the expense types.</span></span> <span data-ttu-id="6f97b-113">Deze rekeningen worden gedebiteerd wanneer er onkostenschemaposten worden geboekt.</span><span class="sxs-lookup"><span data-stu-id="6f97b-113">These accounts will be debited when expense schedule entries are posted.</span></span> <span data-ttu-id="6f97b-114">De tegenrekening wordt opgegeven op de regels **Betalingschema voor administratieve kosten** van elke lease.</span><span class="sxs-lookup"><span data-stu-id="6f97b-114">The offset account is specified on the **Executory costs payment schedule** lines on each lease.</span></span>
+<span data-ttu-id="0a523-112">Vervolgens koppelt u rekeningen aan de onkostentypen.</span><span class="sxs-lookup"><span data-stu-id="0a523-112">Next, you should associate accounts with the expense types.</span></span> <span data-ttu-id="0a523-113">Deze rekeningen worden gedebiteerd wanneer er onkostenschemaposten worden geboekt.</span><span class="sxs-lookup"><span data-stu-id="0a523-113">These accounts will be debited when expense schedule entries are posted.</span></span> <span data-ttu-id="0a523-114">De tegenrekening wordt opgegeven op de regels **Betalingschema voor administratieve kosten** van elke lease.</span><span class="sxs-lookup"><span data-stu-id="0a523-114">The offset account is specified on the **Executory costs payment schedule** lines on each lease.</span></span>
 
-1. <span data-ttu-id="6f97b-115">Ga naar **Activa leasen \> Instellingen \> Parameters voor activa leasen**.</span><span class="sxs-lookup"><span data-stu-id="6f97b-115">Go to **Asset leasing \> Setup \> Asset leasing parameters**.</span></span>
-2. <span data-ttu-id="6f97b-116">Selecteer het onkostentype op het tabblad **Rekeningen**, op het sneltabblad **Administratieve kosten**, in het veld **Onkosten type**.</span><span class="sxs-lookup"><span data-stu-id="6f97b-116">On the **Accounts** tab, on the **Executory costs** FastTab, in the **Expense type** field, select the expense type.</span></span>
-3. <span data-ttu-id="6f97b-117">Selecteer **Toevoegen**.</span><span class="sxs-lookup"><span data-stu-id="6f97b-117">Select **Add**.</span></span>
-4. <span data-ttu-id="6f97b-118">Selecteer in het veld **Boektype** het boektype dat u wilt koppelen aan de administratieve kosten.</span><span class="sxs-lookup"><span data-stu-id="6f97b-118">In the **Book type** field, select the book type to link to the administrative costs.</span></span>
+1. <span data-ttu-id="0a523-115">Ga naar **Activa leasen \> Instellingen \> Parameters voor activa leasen**.</span><span class="sxs-lookup"><span data-stu-id="0a523-115">Go to **Asset leasing \> Setup \> Asset leasing parameters**.</span></span>
+2. <span data-ttu-id="0a523-116">Selecteer het onkostentype op het tabblad **Rekeningen**, op het sneltabblad **Administratieve kosten**, in het veld **Onkosten type**.</span><span class="sxs-lookup"><span data-stu-id="0a523-116">On the **Accounts** tab, on the **Executory costs** FastTab, in the **Expense type** field, select the expense type.</span></span>
+3. <span data-ttu-id="0a523-117">Selecteer **Toevoegen**.</span><span class="sxs-lookup"><span data-stu-id="0a523-117">Select **Add**.</span></span>
+4. <span data-ttu-id="0a523-118">Selecteer in het veld **Boektype** het boektype dat u wilt koppelen aan de administratieve kosten.</span><span class="sxs-lookup"><span data-stu-id="0a523-118">In the **Book type** field, select the book type to link to the administrative costs.</span></span>
 
     > [!NOTE]
-    > <span data-ttu-id="6f97b-119">U kunt meerdere boektypen aan dezelfde onkostenrekening koppelen.</span><span class="sxs-lookup"><span data-stu-id="6f97b-119">Multiple book types can be linked to the same expense account.</span></span>
+    > <span data-ttu-id="0a523-119">U kunt meerdere boektypen aan dezelfde onkostenrekening koppelen.</span><span class="sxs-lookup"><span data-stu-id="0a523-119">Multiple book types can be linked to the same expense account.</span></span>
 
-5. <span data-ttu-id="6f97b-120">Geef in het veld **Rekeningcode** op voor welke leases u het boek wilt toepassen:</span><span class="sxs-lookup"><span data-stu-id="6f97b-120">In the **Account code** field, specify which leases the book should be applied to:</span></span>
+5. <span data-ttu-id="0a523-120">Geef in het veld **Rekeningcode** op voor welke leases u het boek wilt toepassen:</span><span class="sxs-lookup"><span data-stu-id="0a523-120">In the **Account code** field, specify which leases the book should be applied to:</span></span>
 
-    - <span data-ttu-id="6f97b-121">**Alle**: pas het boek toe op alle leases.</span><span class="sxs-lookup"><span data-stu-id="6f97b-121">**All** – Apply the book to all leases.</span></span>
-    - <span data-ttu-id="6f97b-122">**Groep**: pas het boek toe op een specifieke groep leases.</span><span class="sxs-lookup"><span data-stu-id="6f97b-122">**Group** – Apply the book to a specific group of leases.</span></span>
-    - <span data-ttu-id="6f97b-123">**Tabel**: pas het boek toe op specifieke leases.</span><span class="sxs-lookup"><span data-stu-id="6f97b-123">**Table** – Apply the book to specific leases.</span></span>
+    - <span data-ttu-id="0a523-121">**Alle**: pas het boek toe op alle leases.</span><span class="sxs-lookup"><span data-stu-id="0a523-121">**All** – Apply the book to all leases.</span></span>
+    - <span data-ttu-id="0a523-122">**Groep**: pas het boek toe op een specifieke groep leases.</span><span class="sxs-lookup"><span data-stu-id="0a523-122">**Group** – Apply the book to a specific group of leases.</span></span>
+    - <span data-ttu-id="0a523-123">**Tabel**: pas het boek toe op specifieke leases.</span><span class="sxs-lookup"><span data-stu-id="0a523-123">**Table** – Apply the book to specific leases.</span></span>
 
-6. <span data-ttu-id="6f97b-124">Als u **Groep** of **Tabel** hebt geselecteerd in het veld **Rekeningcode**, selecteert u een rekeningnummer of groepnummer in het veld **Rekening-/groepnummer**.</span><span class="sxs-lookup"><span data-stu-id="6f97b-124">If you selected **Group** or **Table** in the **Account code** field, select an account number or group number in the **Account/Group number** field.</span></span>
-7. <span data-ttu-id="6f97b-125">Selecteer in de desbetreffende velden de hoofdrekening voor financiële leases en de hoofdrekening voor operationele leases.</span><span class="sxs-lookup"><span data-stu-id="6f97b-125">In the appropriate fields, select the finance lease main account and the operating lease main account.</span></span>
+6. <span data-ttu-id="0a523-124">Als u **Groep** of **Tabel** hebt geselecteerd in het veld **Rekeningcode**, selecteert u een rekeningnummer of groepnummer in het veld **Rekening-/groepnummer**.</span><span class="sxs-lookup"><span data-stu-id="0a523-124">If you selected **Group** or **Table** in the **Account code** field, select an account number or group number in the **Account/Group number** field.</span></span>
+7. <span data-ttu-id="0a523-125">Selecteer in de desbetreffende velden de hoofdrekening voor financiële leases en de hoofdrekening voor operationele leases.</span><span class="sxs-lookup"><span data-stu-id="0a523-125">In the appropriate fields, select the finance lease main account and the operating lease main account.</span></span>
 
-<span data-ttu-id="6f97b-126">Wanneer u deze stappen hebt voltooid, kunt u onkosten toevoegen via de regels **Betalingsschema voor administratieve kosten** op de pagina **Leasedetails** van een geselecteerde lease.</span><span class="sxs-lookup"><span data-stu-id="6f97b-126">When you've completed these steps, you can add expenses through the **Executory costs payment schedule** lines on the **Lease details** page of a selected lease.</span></span> <span data-ttu-id="6f97b-127">U kunt ook onkosten toevoegen wanneer u een nieuwe lease maakt.</span><span class="sxs-lookup"><span data-stu-id="6f97b-127">Alternatively, you can add expenses when you create a new lease.</span></span>
+<span data-ttu-id="0a523-126">Wanneer u deze stappen hebt voltooid, kunt u onkosten toevoegen via de regels **Betalingsschema voor administratieve kosten** op de pagina **Leasedetails** van een geselecteerde lease.</span><span class="sxs-lookup"><span data-stu-id="0a523-126">When you've completed these steps, you can add expenses through the **Executory costs payment schedule** lines on the **Lease details** page of a selected lease.</span></span> <span data-ttu-id="0a523-127">U kunt ook onkosten toevoegen wanneer u een nieuwe lease maakt.</span><span class="sxs-lookup"><span data-stu-id="0a523-127">Alternatively, you can add expenses when you create a new lease.</span></span>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
