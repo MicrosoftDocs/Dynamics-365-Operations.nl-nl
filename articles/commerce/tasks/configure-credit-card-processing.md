@@ -15,49 +15,52 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 611cc49d2373247da141d2fafc149d05f3bd13b0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d365dfce8e8fbd332111d96eeb2a431151d7a342
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006105"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234216"
 ---
-# <a name="configure-credit-card-processing"></a><span data-ttu-id="d4ffd-103"> Creditcardverwerking configureren</span><span class="sxs-lookup"><span data-stu-id="d4ffd-103">Configure credit card processing</span></span>
+# <a name="configure-credit-card-processing"></a><span data-ttu-id="e46ae-103"> Creditcardverwerking configureren</span><span class="sxs-lookup"><span data-stu-id="e46ae-103">Configure credit card processing</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d4ffd-104">Deze procedure doorloopt hoe u de lijst van betalingsproviders weergeeft en hoe u een betaalrekening configureert voor klanten.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-104">This procedure walks through how to view the list of payment providers and how to configure a payment account for accounts receivable.</span></span> <span data-ttu-id="d4ffd-105">Deze procedure gebruikt het demobedrijf USRT en is bedoeld voor beheerders en IT-professionals.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-105">This procedure uses the USRT company in demo data and is intended for Administrators and IT Professionals.</span></span>
+<span data-ttu-id="e46ae-104">Deze procedure doorloopt hoe u de lijst van betalingsproviders weergeeft en hoe u een betaalrekening configureert voor klanten.</span><span class="sxs-lookup"><span data-stu-id="e46ae-104">This procedure walks through how to view the list of payment providers and how to configure a payment account for accounts receivable.</span></span> <span data-ttu-id="e46ae-105">Deze procedure gebruikt het demobedrijf USRT en is bedoeld voor beheerders en IT-professionals.</span><span class="sxs-lookup"><span data-stu-id="e46ae-105">This procedure uses the USRT company in demo data and is intended for Administrators and IT Professionals.</span></span>
 
 
-## <a name="view-a-list-of-payment-providers"></a><span data-ttu-id="d4ffd-106">Een lijst van betalingsproviders weergeven</span><span class="sxs-lookup"><span data-stu-id="d4ffd-106">View a list of payment providers</span></span>
-1. <span data-ttu-id="d4ffd-107">Ga naar Leveranciers > Instelling van betalingen > Betalingsservice.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-107">Go to Accounts receivable > Payments setup > Payment services.</span></span>
-2. <span data-ttu-id="d4ffd-108">Klik op Beschikbare providers weergeven.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-108">Click View available providers.</span></span>
+## <a name="view-a-list-of-payment-providers"></a><span data-ttu-id="e46ae-106">Een lijst van betalingsproviders weergeven</span><span class="sxs-lookup"><span data-stu-id="e46ae-106">View a list of payment providers</span></span>
+1. <span data-ttu-id="e46ae-107">Ga naar Leveranciers > Instelling van betalingen > Betalingsservice.</span><span class="sxs-lookup"><span data-stu-id="e46ae-107">Go to Accounts receivable > Payments setup > Payment services.</span></span>
+2. <span data-ttu-id="e46ae-108">Klik op Beschikbare providers weergeven.</span><span class="sxs-lookup"><span data-stu-id="e46ae-108">Click View available providers.</span></span>
 
-## <a name="configure-payment-account"></a><span data-ttu-id="d4ffd-109">Betaalrekening configureren</span><span class="sxs-lookup"><span data-stu-id="d4ffd-109">Configure payment account</span></span>
-1. <span data-ttu-id="d4ffd-110">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-110">Click New.</span></span>
-2. <span data-ttu-id="d4ffd-111">Typ een waarde in het veld Betalingsservice.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-111">In the Payment service field, type a value.</span></span>
-3. <span data-ttu-id="d4ffd-112">Selecteer een optie in het veld Betalingsconnector.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-112">In the Payment connector field, select an option.</span></span>
-4. <span data-ttu-id="d4ffd-113">Schakel de uitbreiding van de sectie Betalingsservicerekening om.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-113">Toggle the expansion of the Payment service account section.</span></span>
-5. <span data-ttu-id="d4ffd-114">Typ 'PROD' in het veld Omgeving:.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-114">In the Environment: field, type 'PROD'.</span></span>
-6. <span data-ttu-id="d4ffd-115">Klik op Typen creditcard.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-115">Click Credit card types.</span></span>
-7. <span data-ttu-id="d4ffd-116">Klik in het veld Betalingsjournaal op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-116">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="d4ffd-117">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-117">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="d4ffd-118">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-118">Click Add.</span></span>
-10. <span data-ttu-id="d4ffd-119">Typ een waarde in het veld Valuta.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-119">In the Currency field, type a value.</span></span>
-11. <span data-ttu-id="d4ffd-120">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-120">In the list, find and select the desired record.</span></span>
-12. <span data-ttu-id="d4ffd-121">Klik in het veld Betalingsjournaal op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-121">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
-13. <span data-ttu-id="d4ffd-122">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-122">In the list, click the link in the selected row.</span></span>
-14. <span data-ttu-id="d4ffd-123">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-123">Click Add.</span></span>
-15. <span data-ttu-id="d4ffd-124">Typ een waarde in het veld Valuta.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-124">In the Currency field, type a value.</span></span>
-16. <span data-ttu-id="d4ffd-125">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-125">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="d4ffd-126">U kunt deze stappen herhalen voor zoveel kaarttypen als u nodig hebt.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-126">You can repeat these steps for as many card types as you need.</span></span>  
-17. <span data-ttu-id="d4ffd-127">Klik in het veld Betalingsjournaal op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-127">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
-18. <span data-ttu-id="d4ffd-128">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-128">In the list, click the link in the selected row.</span></span>
-19. <span data-ttu-id="d4ffd-129">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-129">Click Add.</span></span>
-20. <span data-ttu-id="d4ffd-130">Typ een waarde in het veld Valuta.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-130">In the Currency field, type a value.</span></span>
-21. <span data-ttu-id="d4ffd-131">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-131">Click Save.</span></span>
-22. <span data-ttu-id="d4ffd-132">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-132">Close the page.</span></span>
-23. <span data-ttu-id="d4ffd-133">Klik op Valideren.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-133">Click Validate.</span></span>
-24. <span data-ttu-id="d4ffd-134">Klik op het selectievakje Standaardverwerker voor nieuwe creditcards.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-134">Click the Default processor for new credit cards checkbox.</span></span>
-25. <span data-ttu-id="d4ffd-135">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="d4ffd-135">Click Save.</span></span>
+## <a name="configure-payment-account"></a><span data-ttu-id="e46ae-109">Betaalrekening configureren</span><span class="sxs-lookup"><span data-stu-id="e46ae-109">Configure payment account</span></span>
+1. <span data-ttu-id="e46ae-110">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="e46ae-110">Click New.</span></span>
+2. <span data-ttu-id="e46ae-111">Typ een waarde in het veld Betalingsservice.</span><span class="sxs-lookup"><span data-stu-id="e46ae-111">In the Payment service field, type a value.</span></span>
+3. <span data-ttu-id="e46ae-112">Selecteer een optie in het veld Betalingsconnector.</span><span class="sxs-lookup"><span data-stu-id="e46ae-112">In the Payment connector field, select an option.</span></span>
+4. <span data-ttu-id="e46ae-113">Schakel de uitbreiding van de sectie Betalingsservicerekening om.</span><span class="sxs-lookup"><span data-stu-id="e46ae-113">Toggle the expansion of the Payment service account section.</span></span>
+5. <span data-ttu-id="e46ae-114">Typ 'PROD' in het veld Omgeving:.</span><span class="sxs-lookup"><span data-stu-id="e46ae-114">In the Environment: field, type 'PROD'.</span></span>
+6. <span data-ttu-id="e46ae-115">Klik op Typen creditcard.</span><span class="sxs-lookup"><span data-stu-id="e46ae-115">Click Credit card types.</span></span>
+7. <span data-ttu-id="e46ae-116">Klik in het veld Betalingsjournaal op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="e46ae-116">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="e46ae-117">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="e46ae-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="e46ae-118">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="e46ae-118">Click Add.</span></span>
+10. <span data-ttu-id="e46ae-119">Typ een waarde in het veld Valuta.</span><span class="sxs-lookup"><span data-stu-id="e46ae-119">In the Currency field, type a value.</span></span>
+11. <span data-ttu-id="e46ae-120">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="e46ae-120">In the list, find and select the desired record.</span></span>
+12. <span data-ttu-id="e46ae-121">Klik in het veld Betalingsjournaal op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="e46ae-121">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="e46ae-122">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="e46ae-122">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="e46ae-123">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="e46ae-123">Click Add.</span></span>
+15. <span data-ttu-id="e46ae-124">Typ een waarde in het veld Valuta.</span><span class="sxs-lookup"><span data-stu-id="e46ae-124">In the Currency field, type a value.</span></span>
+16. <span data-ttu-id="e46ae-125">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="e46ae-125">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="e46ae-126">U kunt deze stappen herhalen voor zoveel kaarttypen als u nodig hebt.</span><span class="sxs-lookup"><span data-stu-id="e46ae-126">You can repeat these steps for as many card types as you need.</span></span>  
+17. <span data-ttu-id="e46ae-127">Klik in het veld Betalingsjournaal op de vervolgkeuzeknop om de zoekopdracht te openen.</span><span class="sxs-lookup"><span data-stu-id="e46ae-127">In the Payment journal field, click the drop-down button to open the lookup.</span></span>
+18. <span data-ttu-id="e46ae-128">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="e46ae-128">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="e46ae-129">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="e46ae-129">Click Add.</span></span>
+20. <span data-ttu-id="e46ae-130">Typ een waarde in het veld Valuta.</span><span class="sxs-lookup"><span data-stu-id="e46ae-130">In the Currency field, type a value.</span></span>
+21. <span data-ttu-id="e46ae-131">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="e46ae-131">Click Save.</span></span>
+22. <span data-ttu-id="e46ae-132">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="e46ae-132">Close the page.</span></span>
+23. <span data-ttu-id="e46ae-133">Klik op Valideren.</span><span class="sxs-lookup"><span data-stu-id="e46ae-133">Click Validate.</span></span>
+24. <span data-ttu-id="e46ae-134">Klik op het selectievakje Standaardverwerker voor nieuwe creditcards.</span><span class="sxs-lookup"><span data-stu-id="e46ae-134">Click the Default processor for new credit cards checkbox.</span></span>
+25. <span data-ttu-id="e46ae-135">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="e46ae-135">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
