@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 03c9f6752a0bb9641f67d65580aca18276e43e9a
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 534b5dbc54a516fea0b3f7090042d247c1076737
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115651"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231537"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Facturen indienen bij het werkstroomsysteem en productontvangstbonregels koppelen
 
@@ -35,7 +35,7 @@ Als onderdeel van een contactloos factureringsproces van Leveranciers kunt u het
 
 Wanneer u automatisch facturen naar het werkstroomsysteem verzendt, moet u beginnen met een geïmporteerde factuur. Om ervoor te zorgen dat de factuur vanaf het begin tot het einde zonder handmatige interventie kan worden verwerkt, moet u een geautomatiseerde boekingstaak opnemen in de werkstroomconfiguratie. Facturen die gerelateerd zijn aan inkooporders (IO's) en facturen die een niet-IO-inkoopcategorie en niet-voorraadregels bevatten, kunnen automatisch bij het werkstroomsysteem worden ingediend. Facturen die handmatig worden ingevoerd, moeten handmatig naar het werkstroomsysteem worden verzonden.
 
-De waarde **Ingediend door** in de werkstroom is de gebruikers-id die is ingevoerd voor de achtergrondtaak **Leveranciersfacturen indienen bij werkstroom** op de pagina **Procesautomatisering**. De gebruiker die deze gebruikers-id heeft, kan de factuur indien nodig terugroepen van het werkstroomsysteem.
+De waarde **Ingediend door** in de werkstroom is de gebruikers-id die is ingevoerd voor de achtergrondtaak **Leveranciersfacturen indienen bij werkstroom** op de pagina **Procesautomatisering**. De gebruiker die deze gebruikers-id heeft, kan de factuur indien nodig intrekken van het werkstroomsysteem.
 
 ## <a name="matching-posted-product-receipts-to-invoice-lines-that-have-a-three-way-matching-policy"></a>Geboekte productontvangstbonnen vereffenen met factuurregels die een drieweg-overeenstemmingsbeleid hebben
 
