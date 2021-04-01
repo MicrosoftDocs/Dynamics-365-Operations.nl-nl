@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd854b2188b07830e5641ccdd4bb02804a07b55c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6f9f19f0714fc160792a29261e21fe4ec8d62c4b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975628"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5249234"
 ---
 # <a name="general-journal-processing"></a>Algemene journaalverwerking
 
@@ -99,7 +99,7 @@ U kunt **Boeking simuleren** voor de meeste journalen vinden in het menu **Valid
 ## <a name="journal-unlock"></a>Journaal ontgrendelen
 Op de journaalpagina is een knop beschikbaar om een journaal te ontgrendelen waarvan de status 'Vergrendeld door systeem' is ingesteld op Ja. Deze ontgrendeling kan worden uitgevoerd door een systeembeheerder die eventuele batchtaken heeft geanalyseerd en bevestigd dat het journaal niet meer actief wordt verwerkt door een batchtaak. Deze knop wordt ingeschakeld door de functie **Knop Journaal ontgrendelen** op de pagina **Functiebeheer** . 
 
-## <a name="workflow-recall"></a>Werkstroom terugroepen 
+## <a name="workflow-recall"></a>Werkstroom intrekken 
 De mogelijkheid om een journaal in een werkstroom met de status 'Onherstelbaar' terug te roepen, wordt ingeschakeld via de knop **Workflow** in een journaal en op de pagina **Workflowhistorie**. Deze wordt ingeschakeld door de functie **De workflowstatus voor journalen opnieuw instellen** op de pagina **Functiebeheer**.
 
 ## <a name="delete-journal-lines"></a>Journaalregels verwijderen

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 457c547947ce6182d03e7a8276b380bc08535bca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 30506b17331d15e1164f513b34ff71f612828f8b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985107"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256686"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Financiële dimensies toevoegen aan het CFO-werkgebied
 
@@ -33,7 +33,7 @@ In dit onderwerp wordt uitgelegd hoe u financiële dimensies toevoegt aan het we
 1. Werk in Finance op de pagina **Entiteitopslag** de maateenheden **LedgerActivityMeasure** en **BudgetActivityMeasure** bij.
 2. Open Toepassingsverkenner in Microsoft Visual Studio en zoek naar **LedgerCFO**.
 3. Open onder **Resources** **LedgerCFOWorkspacePBIX**.
-4. Wanneer de resource wordt geopend in Microsoft Power BI-bureaublad, selecteert u **Gegevens ophalen**, **SQL Server-database** en vervolgens **Verbinden**.
+4. Wanneer de resource wordt geopend in Microsoft Power BI Desktop, selecteert u **Gegevens ophalen**, **SQL Server-database** en vervolgens **Verbinden**.
 5. Voer de servernaam in en **AxDW** als de gedatabase. Selecteer **DirectQuery** en vervolgens **OK**.
 6. Zoek en selecteer **LedgerActivityMeasure\_DimensionCombination**, en selecteer vervolgens **laden**.
 

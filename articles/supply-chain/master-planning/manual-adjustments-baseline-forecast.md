@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: afdcbb98c96b2a685f64a16886b9a064ed13c2c0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 90d19e9465abc71125931a7946febe2d633c3181
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4967025"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251956"
 ---
 # <a name="make-manual-adjustments-to-the-baseline-forecast"></a>Handmatige correcties aanbrengen in de basislijnprognose
 
@@ -36,7 +36,7 @@ Voordat u handmatige aanpassingen uitvoert, is het belangrijk dat u een paar con
 ## <a name="grid-on-the-adjusted-demand-forecast-page"></a>Raster op de pagina Gecorrigeerde vraagprognose
 De **Gecorrigeerde vraagprognose** pagina bevat een raster met de volgende structuur:
 
--   De eerste kolom geeft de artikelen, artikeltoewijzingssleutels, bedrijven, enzovoort weer, waarvoor de prognose is gegenereerd. De ondertitel van de pagina bevat een omschrijving van de huidige prognosedimensies die in het raster worden weergegeven. Als de ondertitel van de pagina bijvoorbeeld **Bedrijf / Locatie / Artikeltoewijzingssleutel** is en een van de rijkopteksten in het raster **USMF / 1 / D\_Alloc** is, bevat die rij de prognose voor het USMF-bedrijf, locatie 1 en de artikeltoewijzingssleutel **D\_Alloc**.
+-   De eerste kolom geeft de artikelen, artikeltoewijzingssleutels, bedrijven, enzovoort weer, waarvoor de prognose is gegenereerd. De ondertitel van de pagina bevat een omschrijving van de huidige prognosedimensies die in het raster worden weergegeven. Als de ondertitel van de pagina bijvoorbeeld **Bedrijf / Locatie / Artikeltoewijzingssleutel** is en een van de rijheaderen in het raster **USMF / 1 / D\_Alloc** is, bevat die rij de prognose voor het USMF-bedrijf, locatie 1 en de artikeltoewijzingssleutel **D\_Alloc**.
 -   De volgende kolommen zijn de prognoseverzamelingen waarvoor de prognose is gegenereerd. Elke kolomkop is de eerste datum van de prognoseverzameling die in de kolom wordt weergegeven.
 -   De waarden in de cellen vertegenwoordigen de prognose voor één artikel, artikeltoewijzingssleutel enzovoort, voor die specifieke prognosebucket.
 
