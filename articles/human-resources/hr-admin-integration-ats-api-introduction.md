@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 48e368fe69443a5105ddba78a887bf9159bfe52a
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 61d8502a8f420d387b5b7f48fca2f8a680f6f3f8
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125588"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464027"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Integratie-API voor sollicitantenvolgsysteem - Inleiding
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 In dit onderwerp wordt de Dynamics 365 Human Resources integratie-API voor sollicitantenvolgsysteem (ATS) beschreven. De API is bedoeld om gestroomlijnde integraties tussen Dynamics 365 Human Resources en ATS-partners mogelijk te maken.
 
@@ -121,10 +123,10 @@ Optiesets:
 - [Leeg Ja Nee](hr-admin-integration-ats-api-blank-yes-no.md)
 - [Status van voltooiing](hr-admin-integration-ats-api-completion-status.md)
 - [Type contact](hr-admin-integration-ats-api-contact-type.md)
-- [Basis van educatief tegoed](hr-admin-integration-ats-api-education-credit-basis.md)
+- [Creditbasis van opleiding](hr-admin-integration-ats-api-education-credit-basis.md)
 - [Geslacht](hr-admin-integration-ats-api-gender.md)
 - [Burgerlijke staat](hr-admin-integration-ats-api-marital-status.md)
-- [Maanden van jaar](hr-admin-integration-ats-api-months-of-year.md)
+- [Maanden van het jaar](hr-admin-integration-ats-api-months-of-year.md)
 - [Nee Ja](hr-admin-integration-ats-api-no-yes.md)
 - [Periode-eenheid](hr-admin-integration-ats-api-period-unit.md)
 - [Screeningfrequentie](hr-admin-integration-ats-api-screening-frequency.md)

@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 7b1f2fd953c1678a5099f4f3b5cf08fa6674f4db
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112102"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466033"
 ---
 # <a name="configure-life-event-types"></a>Typen levensgebeurtenissen configureren
 
-Microsoft Dynamics 365 Human Resources gebruikt typen levensgebeurtenissen om gebeurtenissen te definiëren waarbij de inschrijving voor vergoedingen van werknemers kan worden bijgewerkt. Bijvoorbeeld trouwen of een kind krijgen. Elke id voor typen levensgebeurtenissen kan aan slechts één type levensgebeurtenis worden gekoppeld. Als u bijvoorbeeld een levensgebeurtenis-id met de naam Adreswijziging hebt gemaakt die is gekoppeld aan het gebeurtenistype Adreswijziging werknemers, kunt u geen andere id maken met Adreswijziging werknemers als type levensgebeurtenis voor werknemers. 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+Dynamics 365 Human Resources gebruikt typen levensgebeurtenissen om gebeurtenissen te definiëren waarbij de inschrijving voor vergoedingen van werknemers kan worden bijgewerkt. Bijvoorbeeld trouwen of een kind krijgen. Elke id voor typen levensgebeurtenissen kan aan slechts één type levensgebeurtenis worden gekoppeld. Als u bijvoorbeeld een levensgebeurtenis-id met de naam Adreswijziging hebt gemaakt die is gekoppeld aan het gebeurtenistype Adreswijziging werknemers, kunt u geen andere id maken met Adreswijziging werknemers als type levensgebeurtenis voor werknemers. 
 
 Nadat u typen levensgebeurtenissen hebt gemaakt, moet u deze aan plantypen koppelen. Zie [Plantypen maken](hr-benefits-setup-plan-types.md) voor meer informatie.
 
