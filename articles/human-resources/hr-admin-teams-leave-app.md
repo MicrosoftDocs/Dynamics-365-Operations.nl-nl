@@ -3,7 +3,7 @@ title: Human resources-app in Teams
 description: In dit onderwerp maakt u kennis met de Microsoft Dynamics 365 Human Resources-app in Microsoft Teams.
 author: andreabichsel
 manager: tfehr
-ms.date: 09/30/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba520f873de5b20111f9134e87281bcdf4025785
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 86abe32f76f2cc21c773727be07a44be49cdbac7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112081"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487868"
 ---
 # <a name="human-resources-app-in-teams"></a>Human resources-app in Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Met de Microsoft Dynamics 365 Human Resources-app in Microsoft Teams kunnen werknemers snel verlof aanvragen en informatie over hun verlofsaldo bekijken in Microsoft Teams. Werknemers kunnen communiceren met een bot om informatie aan te vragen. Het tabblad **Verlof** bevat meer gedetailleerde informatie. Daarnaast kunnen ze mensen informatie sturen over uw aanstaande verlof in teams en chats buiten de Human Resources-app.
 
-![Bot voor verlof-app in Human Resources Teams](./media/hr-admin-teams-leave-app-bot.png)
+![Bot voor verlof-app in Human Resources Teams](./media/hr-teams-leave-app-bot.png)
 
 ![Tabblad Verlof in verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab.png)
 
@@ -39,16 +39,18 @@ Met de Microsoft Dynamics 365 Human Resources-app in Microsoft Teams kunnen werk
 
 ## <a name="install-and-setup"></a>Installeren en instellen
 
-De Human resources-app is te vinden in het Teams-archief. Zie [Verlofaanvragen in Teams beheren](hr-teams-leave-app.md) voor meer informatie over het installeren van de Teams-app.
+De Dynamics 365 Human Resources-app is te vinden in het Teams-archief. Zie [Verlofaanvragen in Teams beheren](hr-teams-leave-app.md) voor meer informatie over het installeren van de Teams-app.
 
 Zie [Machtigingsbeleid voor apps beheren in Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies) voor informatie over het beheren van app-machtigingen in Teams.
 
+Als u wilt dat uw gebruikers de verlof- en verzuimkalender in de app bekijken, moet u de **Verlof- en verzuimkalender in Teams** in Functiebeheer inschakelen. Meer informatie over het inschakelen van functies vindt u in [Functies beheren](hr-admin-manage-features.md).
+
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Meldingen inschakelen voor de Human Resources-app in Teams
 
-Als u wilt dat gebruikers meldingen over verlofaanvragen ontvangen in de Teams-app, moet u meldingen in Human Resources inschakelen.
+Als u wilt dat gebruikers meldingen over verlofaanvragen ontvangen in de Teams-app, moet u meldingen in Dynamics 365 Human Resources inschakelen.
 
 >[!NOTE]
->Alleen gebruikers die zijn aangemeld bij Teams en de Teams-app Human Resources gebruiken, ontvangen meldingen.
+>Alleen gebruikers die zijn aangemeld bij Teams en de Dynamics 365 Human Resources Teams-app gebruiken, ontvangen meldingen.
 
 1. Selecteer in Human Resources de optie **Systeembeheer**.
 
@@ -66,7 +68,7 @@ Als u wilt dat gebruikers meldingen over verlofaanvragen ontvangen in de Teams-a
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Teams-meldingen in- of uitschakelen voor afzonderlijke gebruikers
 
-Nadat u meldingen voor de Teams-app Human Resources teams hebt ingeschakeld, kunt u meldingen in- of uitschakelen voor afzonderlijke gebruikers.
+Nadat u meldingen voor de Dynamics 365 Human Resources Teams-app hebt ingeschakeld, kunt u meldingen in- of uitschakelen voor afzonderlijke gebruikers.
 
 1. Selecteer in Human Resources de optie **Systeembeheer**.
 
@@ -82,9 +84,28 @@ Nadat u meldingen voor de Teams-app Human Resources teams hebt ingeschakeld, kun
 
 6. Selecteer **Opslaan**.
 
-## <a name="known-issues"></a>Bekende problemen
+## <a name="supported-languages"></a>Ondersteunde talen
 
-| Uitgeven | Status |
+De Dynamics 365 Human Resources-app in Teams ondersteunt de volgende talen:
+
+| Landinstellingen-id | Taal |
+| --- | --- |
+| de-DE | Duits (Duitsland) |
+| es-ES | Spaans (Spanje) |
+| es-MX | Spaans (Mexico) |
+| fr-CA | Frans (Canada) |
+| fr-FR | Frans (Frankrijk) |
+| it-IT | Italiaans (Italië) |
+| nl-NL | Nederlands (Nederland) |
+| pt-BR | Portugees (Brazilië) |
+| tr-TR | Turks (Turkije) |
+| zh-CN | Chinees (vereenvoudigd) |
+
+## <a name="notes"></a>Opmerkingen
+
+De volgende werkitems staan op de planning voor toekomstige releases:
+
+| Werkitem | Status |
 | --- | --- |
 | Het saldo is onjuist bij het indienen van verlof voor een toekomstige datum. | Prognose maken is nog niet beschikbaar. Het saldo wordt weergegeven voor de huidige datum. |
 | Kan een aanvraag **Wordt gecontroleerd** niet annuleren. | Deze functionaliteit wordt momenteel niet ondersteund en wordt in een toekomstige versie toegevoegd. |
@@ -100,7 +121,7 @@ Als een gebruiker contact met u opneemt omdat deze zich niet kan aanmelden bij d
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Fout bij het goedkeuren van verlofaanvragen in de Human Resources-app in Teams
 
-Als gebruikers een foutmelding krijgen tijdens het goedkeuren van verlofaanvragen in de Teams-app, voert u de volgende stappen uit voor het oplossen van problemen:
+Als gebruikers een foutmelding krijgen tijdens het goedkeuren van verlofaanvragen in de Teams-app, probeert u de volgende stappen voor het oplossen van problemen:
 
 1. Controleer of hun Teams-account dezelfde is als de account die ze voor toegang tot Human Resources gebruiken.
 

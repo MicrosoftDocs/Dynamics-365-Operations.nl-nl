@@ -17,29 +17,24 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89e6010440599c5e60415c1261927de73f520034
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 254a94548bc75ee6d1eae1d1c9f3ae4bdbf58855
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965954"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470972"
 ---
-# <a name="create-reason-codes"></a>Redencodes maken    
+# <a name="create-reason-codes"></a>Redencodes maken
 
 [!include [banner](../includes/banner.md)]
 
+1. Ga naar **Servicebeheer** \> **Instellen** \> **Serviceorders** \> **Redencodes voor fase**.
 
-1.  Klik op **Servicebeheer** \> **Instellen** \> **Serviceorders** \> **Redencodes voor fase**.
+1. Selecteer **Nieuw** om een nieuwe redencode te maken.
 
-2.  Druk op CTRL+N om een nieuwe redencode te maken.
-
-3.  Druk op CTRL+S om de redencode op te slaan.
+1. Selecteer **Opslaan** om de nieuwe redencode op te slaan.
 
 Wanneer u wordt u gevraagd een redencode op te geven voor het bijwerken van een serviceorderfase, kunt u een van de redencodes selecteren die u hier maakt.
 
-  
-
-
-
-
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

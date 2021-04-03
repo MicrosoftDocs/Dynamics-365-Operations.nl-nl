@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 518b70223b2f6bf86809ccce77a2cf67c30e4168
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bcfca0ddd52245ae2206f15ef9fa979675fca825
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977533"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470686"
 ---
 # <a name="set-up-disposition-codes"></a>Beschikkingscodes instellen 
 
@@ -33,15 +33,15 @@ U kunt beschikkingscodes instellen om aan te geven hoe een artikel moet worden v
 
 U kunt ook een redencode instellen om te verklaren waarom een artikel is teruggestuurd. Zie voor meer informatie over het instellen van redencodes [Redencodes voor retouren instellen](set-up-return-reason-code.md).
 
-1.  Klik op **Verkoop en marketing** \> **Instellen** \> **Verkooporders** \> **Retouren** \> **Beschikkingscodes**.
+1.  Ga naar **Verkoop en marketing** \> **Instellen** \> **Verkooporders** \> **Retouren** \> **Beschikkingscodes**.
 
-2.  Klik op **New** of druk op Ctrl+N om een nieuwe beschikkingscode te maken.
+2.  Selecteer **Nieuw** om een nieuwe beschikkingscode te maken.
 
 3.  Voer een unieke beschrijvende naam in, selecteer een actie en voer een beschrijving van de beschikkingscode in.
 
-4.  Als u toeslagen voor de klant aan deze beschikkingscode wilt koppelen, klikt u op de knop **Toeslagen** om het formulier **Toeslagen instellen** te openen.
+4.  Als u toeslagen voor de klant aan deze beschikkingscode wilt koppelen, selecteert u de knop **Toeslagen** om het formulier **Toeslagen instellen** te openen.
 
-5.  Als u externe codes wilt definiëren die overeenkomen met de beschikkingscodes van het bedrijf, klikt u op de knop **Externe codes** om het formulier **Externe codes** te openen.
+5.  Als u externe codes wilt definiëren die overeenkomen met de beschikkingscodes van het bedrijf, selecteert u de knop **Externe codes** om het formulier **Externe codes** te openen.
 
 ## <a name="see-also"></a>Zie ook
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6b21d4d631bcdf603b38212f5f76bb78937d3d3c
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: f1c3ced43b1f5693c5d5466fd97a20beb358fa20
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115071"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463329"
 ---
 # <a name="configure-leave-and-absence-types"></a>Verlof- en verzuimtypen configureren
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Verloftypen in Dynamics 365 Human Resources geven de typen verlof aan die werknemers kunnen rapporteren. U kunt de typen verlof aanpassen op basis van de behoeften van uw organisatie. Voorbeelden van verloftypen zijn:
 
@@ -72,8 +74,7 @@ Verloftypen in Dynamics 365 Human Resources geven de typen verlof aan die werkne
    
  3. Stel **Verloftype voor transporteren** in voor het verloftype. Wanneer u deze optie selecteert, worden transportsaldi overgeboekt naar het opgegeven verloftype. Het verloftype voor transporteren moet ook worden opgenomen in het plan voor verlof en verzuim. 
  
- 4. Definieer **vervalregels** voor het verloftype. Wanneer u deze optie configureert, kunt u als eenheid voor dagen of maanden kiezen en de duur instellen voor de vervaldatum. U kunt ook de ingangsdatum van de verloopregel instellen. Alle verlofsaldi die aanwezig zijn op het tijdstip van de vervaldatum, worden afgetrokken van het verloftype en worden weergegeven in het verlofsaldo. 
- 
+ 4. Definieer **vervalregels** voor het verloftype. Wanneer u deze optie configureert, kunt u als eenheid voor dagen of maanden kiezen en de duur instellen voor de vervaldatum. U kunt ook de ingangsdatum van de verloopregel instellen. De ingangsdatum wordt gebruikt om te bepalen wanneer moet worden begonnen met het uitvoeren van de batchtaak die de vervaldatum van het verlof verwerkt, of de datum waarop de regel van kracht wordt. De vervaldatum zelf vindt altijd plaats op de begindatum van het verlofplan zodra de batchtaak is ingesteld op verwerken. De begindatum van het plan kan bijvoorbeeld 1-1-2020 zijn, maar de regel is pas gemaakt op 1-6-2020. Door de ingangsdatum in te stellen op 1-6-2020, wordt de regel verwerkt op de volgende jaargrens, dus op 1-1-2021. Alle verlofsaldi die aanwezig zijn op het tijdstip van de vervaldatum, worden afgetrokken van het verloftype en worden weergegeven in het verlofsaldo. 
  
 ## <a name="see-also"></a>Zie ook
 

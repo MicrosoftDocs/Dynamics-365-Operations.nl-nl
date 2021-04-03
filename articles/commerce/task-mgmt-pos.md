@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 889cc90b534de33ccd0e2bea367b2da42b5d72e0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 18ba781795058de6228c712c6a22e59038e96368
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006180"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478357"
 ---
 # <a name="task-management-in-pos"></a>Taakbeheer in POS
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt taakbeheer in de POS-toepassing (Point of Sale, verkooppunt) van Microsoft Dynamics 365 Commerce .
-
-## <a name="overview"></a>Overzicht
 
 De POS-toepassing van Dynamics 365 Commerce bevat functies voor taakbeheer waarmee winkelmanagers en werknemers taken kunnen beheren en de taakstatus kunnen bijwerken. Winkelmedewerkers kunnen toegang krijgen tot taken door de tegel **Taken** te selecteren op de POS-startpagina of door taakmeldingen te selecteren. Standaard worden winkelmedewerkers naar het tabblad **Mijn taken** geleid, waar ze de taken kunnen bekijken die aan hen zijn toegewezen. Ze kunnen echter gemakkelijk overschakelen naar de tabbladen **Achterstallige taken**, **Openstaande taken** en **Takenlijsten**.
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c2bf77e32271102cf908f0588ae4d84ffade20a8
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 0447096548a4cb6caacf146f9c9a8e968c989acf
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5116015"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468102"
 ---
 # <a name="assign-workers-to-a-leave-plan"></a>Medewerkers toewijzen aan een verlofplan
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Nadat u een verlofplan hebt gemaakt in Dynamics 365 Human Resources, wijst u dit toe aan werknemers.
 

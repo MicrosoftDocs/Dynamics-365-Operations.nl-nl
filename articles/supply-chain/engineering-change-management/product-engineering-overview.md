@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b081cd8d56217b8cf76db824c29482d453fc9ea3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3fde9194ece4774c4d39785e337caf2413052159
+ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001943"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476670"
 ---
 # <a name="engineering-change-management-overview"></a>Overzicht van technisch wijzigingsbeheer
 
@@ -44,20 +44,24 @@ Het beheer van technische wijzigingen helpt u productversies te plannen en beher
 
 De voorgaande video ([Mogelijkheden voor wijzigingsbeheer in Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) is opgenomen in de [Finance and Operations speellijst](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) beschikbaar op YouTube.
 
-## <a name="turn-on-engineering-change-management-for-your-system"></a>Het beheer van technische wijzigingen voor uw systeem inschakelen
+## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>De functies voor technisch wijzigingsbeheer en versiedimensiefuncties inschakelen voor uw systeem
 
-Schakel eerst het beheer van technische wijzigingen in door de volgende stappen uit te voeren.
+Voordat u technisch wijzigingsbeheer gebruiken, moet u zowel de functie *Engineering Change Management* (beheer voor technische wijzigingen) als de bijbehorende configuratiesleutel inschakelen. Als u ook de versiedimensie van producten in transacties wilt bijhouden (optioneel), moet u ook de functie *Productdimensieversie* en de bijbehorende configuratiesleutel inschakelen.
+
+Schakel eerst deze functies in door de volgende stappen uit te voeren.
 
 1. Ga naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Controleer op updates.
 1. Schakel de functie in met de naam **Technisch wijzigingsbeheer**.
+1. Schakel ook de functie genaamd **Productdimensieversie** in als u deze wilt gebruiken.
 
-Schakel vervolgens de configuratiesleutel voor **beheer van technische wijzigingen** in door de volgende stappen uit te voeren.
+Schakel vervolgens de configuratiesleutels in door de volgende stappen uit te voeren.
 
 1. Plaats uw systeem in de onderhoudsmodus, zoals wordt beschreven in [Onderhoudsmodus](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Ga naar **Systeembeheer \> Instellingen \> Licentieconfiguratie**.
-1. Vouw het knooppunt **Handel** uit en schakel het selectievakje **Technisch wijzigingsbeheer**.
+1. Vouw het knooppunt **Handel** uit
+1. Schakel het selectievakje **Engineering Change Management** in.
+1. Schakel ook het selectievakje **Productdimensie - Versie** in als u deze optie wilt gebruiken.
 1. Schakel de onderhoudsmodus uit, zoals wordt beschreven in [Onderhoudsmodus](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

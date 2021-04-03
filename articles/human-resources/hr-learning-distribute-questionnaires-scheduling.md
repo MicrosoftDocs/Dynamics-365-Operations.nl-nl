@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0cd101bfe88ae1acb051ba11a676da66ef6a3db6
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 50be7631ec303171640b7fa9e6d283a198bd1a52
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115457"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465001"
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Vragenlijsten distribueren met een planning
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Met vragenlijstplanning kunt u vragenlijsten plannen voor en distribueren naar meerdere respondenten. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.
 
@@ -55,7 +57,7 @@ Met vragenlijstplanning kunt u vragenlijsten plannen voor en distribueren naar m
 
 11. Typ in het veld Tekst de tekst van uw e-mail. Let erop dat de variabele kan worden gebruikt om waarden in het systeem te vertegenwoordigen.
 
-    * Voorbeeld: Beste %P%, Meld u aan bij de Werknemerselfservice en vul de vragenlijst Personeelsgezondheid in.  Contoso  
+    * Voorbeeld: Beste %P%, Meld u aan bij de Selfservice voor werknemers en vul de vragenlijst Personeelsgezondheid in.  Contoso  
 
 12. Klik op Opslaan.
 
