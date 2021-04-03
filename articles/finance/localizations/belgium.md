@@ -14,12 +14,12 @@ ms.search.region: belgium
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c74f28df0a4431e1905f7c6e5c706cf7dde62dc2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 412440d67011210058597c30a3f91f390b3b984d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006018"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5265011"
 ---
 # <a name="belgium-overview"></a>Overzicht België
 

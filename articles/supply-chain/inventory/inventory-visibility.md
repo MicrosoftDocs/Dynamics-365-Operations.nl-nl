@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 4e588be2ac5aae395ca66e3c9a743a67d71db7c0
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114665"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574217"
 ---
 # <a name="inventory-visibility-add-in"></a>Invoegtoepassing Voorraadzichtbaarheid
 
@@ -48,11 +48,64 @@ Zie voor meer informatie [Lifecycle Services-resources](https://docs.microsoft.c
 Voordat u de invoegtoepassing voor voorraadzichtbaarheid kunt installeren, moet u het volgende doen:
 
 - Schaf een LCS-implementatieproject aan met minimaal één geïmplementeerde omgeving.
-- Genereer de bètasleutels voor uw aanbod in LCS.
-- Schakel de bètasleutels in voor uw aanbod voor uw gebruiker in LCS.
-- Neem contact op met het Microsoft Voorraadzichtbaarheid-productteam en geef een omgevings-ID op waar u de invoegtoepassing voor voorraadzichtbaarheid wilt implementeren.
+- Zorg ervoor dat aan de vereisten voor het instellen van invoegvoegingen die beschikbaar zijn in het [Overzicht van invoegvoegingen](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) is voldaan. Voor Voorraadzichtbaarheid is geen koppeling voor twee keer wegschrijven vereist.
+- Neem contact op met het team op [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) om de volgende drie vereiste bestanden op te halen:
+
+    - `Inventory Visibility Dataverse Solution.zip`
+    - `Inventory Visibility Configuration Trigger.zip`
+    - `Inventory Visibility Integration.zip` (als u een eerdere versie van Supply Chain Management uitvoert dan versie 10.0.18)
+
+> [!NOTE]
+> De landen en regio's die momenteel worden ondersteund, zijn Canada, de Verenigde Staten en de Europese Unie (EU).
 
 Als u vragen hebt over deze vereisten, neemt u contact op met het productteam voor voorraadzichtbaarheid.
+
+### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Dataverse instellen
+
+Volg deze stappen om Dataverse in te stellen.
+
+1. Een serviceprincipe aan uw tenant toevoegen:
+
+    1. Installeer Azure AD PowerShell Module v2, zoals beschreven in [Azure Active Directory PowerShell for Graph installeren](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. Voer de volgende PowerShell-opdracht uit.
+
+        ```powershell
+        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+
+        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+        ```
+
+1. Een toepassingsgebruiker voor Voorraadzichtbaarheid maken in Dataverse:
+
+    1. Open de URL van uw Dataverse-omgeving.
+    1. Ga naar **Geavanceerde instellingen \> Systeem \> \> Gebruikers** en maak een toepassingsgebruiker. Gebruik het weergavemenu om de paginaweergave te wijzigen in **Toepassingsgebruikers**.
+    1. Selecteer **Nieuw**. Stel de toepassings-id in op *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*. (De object-id wordt automatisch geladen wanneer u de wijzigingen opslaat.) U kunt de naam aanpassen. U kunt de naam bijvoorbeeld wijzigen in *Voorraadzichtbaarheid*. Wanneer u klaar bent, selecteert u **Opslaan**.
+    1. Selecteer **Rol toewijzen** en selecteer vervolgens **Systeembeheerder**. Als er een rol is met de naam **Common Data Service-gebruiker**, selecteert u ook deze rol.
+
+    Zie [Een toepassingsgebruiker maken](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user) voor meer informatie.
+
+1. Het bestand `Inventory Visibility Dataverse Solution.zip` met de gerelateerde entiteiten van de Dataverse-configuratie en Power Apps importeren:
+
+    1. Ga naar de pagina **Oplossingen**.
+    1. Selecteer **Importeren**.
+
+1. De triggerstroom voor de configuratie-upgrade importeren:
+
+    1. Ga naar de pagina Microsoft Flow.
+    1. Zorg ervoor dat de verbinding met de naam *Dataverse (verouderd)* bestaat. (Als deze verbinding niet bestaat, maakt u deze.)
+    1. Importeer het bestand `Inventory Visibility Configuration Trigger.zip`. Nadat dit bestand is geïmporteerd, wordt de trigger weergegeven onder **Mijn stromen**.
+    1. Initialiseer de volgende vier variabelen op basis van de omgevingsgegevens:
+
+        - Tenant-id van Azure
+        - Client-id van de Azure-toepassing
+        - Client-geheim van de Azure-toepassing
+        - Eindpunt van voorraadzichtbaarheid
+
+            Zie de sectie [Integratie van voorraadzichtbaarheid instellen](#setup-inventory-visibility-integration) verder op in dit onderwerp voor meer informatie over deze variabele.
+
+        ![Configuratietrigger](media/configuration-trigger.png "Configuratietrigger")
+
+    1. Selecteer **Inschakelen**.
 
 ### <a name="install-the-add-in"></a><a name="install-add-in"></a>De invoegtoepassing installeren
 
@@ -61,14 +114,16 @@ Om de invoegtoepassing voor voorraadzichtbaarheid te installeren, moet u het vol
 1. Meld u aan bij de [Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index)-portal.
 1. Selecteer op de startpagina het project waar uw omgeving is geïmplementeerd.
 1. Selecteer op de projectpagina de omgeving waarin u de invoegtoepassing wilt installeren.
-1. Schuif op de omgevingspagina naar beneden totdat u de sectie **Invoegtoepassingen voor omgeving** ziet. Als de sectie niet zichtbaar is, controleert u of de vereiste bètasleutels volledig zijn verwerkt.
+1. Schuif op de omgevingspagina naar beneden tot u de sectie **Invoegvoegingen voor omgeving** ziet in de sectie **Power Platform-Integratie**, waar u de naam van de Dataverse-omgeving kunt vinden.
 1. Selecteer in de sectie **Invoegtoepassingen voor omgeving** de optie **Een nieuwe invoegtoepassing installeren**.
+
     ![De omgevingspagina in LCS](media/inventory-visibility-environment.png "De omgevingspagina in LCS")
+
 1. Selecteer de koppeling **Een nieuwe invoegtoepassing installeren**. Er wordt een lijst met beschikbare invoegtoepassingen geopend.
-1. Selecteer **Voorraadservice** in de lijst. (Deze kan nu worden weergegeven als **Invoegtoepassing Voorraadzichtbaarheid voor Dynamics 365 Supply Chain Management** .)
+1. Selecteer **Voorraadzichtbaarheid** in de lijst.
 1. Voer waarden in voor de volgende velden voor uw omgeving:
 
-    - **AAD-toepassings-id**
+    - **Id AAD-toepassing (client)**
     - **AAD-tenant-id**
 
     ![Toevoegen in installatiepagina](media/inventory-visibility-setup.png "Instellingspagina invoegtoepassing")
@@ -76,11 +131,74 @@ Om de invoegtoepassing voor voorraadzichtbaarheid te installeren, moet u het vol
 1. Ga akkoord met de voorwaarden door het selectievakje **Voorwaarden** in te schakelen.
 1. Selecteer **Installeren**. De status van de invoegtoepassing wordt weergegeven als **Wordt geïnstalleerd**. Na voltooiing vernieuwt u de pagina zodat de status wordt gewijzigd in **Geïnstalleerd**.
 
-### <a name="get-a-security-service-token"></a>Een beveiligingsservicetoken ophalen
+### <a name="uninstall-the-add-in"></a><a name="uninstall-add-in"></a>De invoegtoepassing verwijderen
+
+Selecteer **Verwijderen** als u de invoegtoepassing wilt verwijderen. Wanneer u LCS vernieuwt, wordt de invoegtoepassing Voorraadzichtbaarheid verwijderd. Met het verwijderingsproces wordt de registratie van de invoegtoepassing verwijderd en wordt ook een taak gestart om alle bedrijfsgegevens te verwijderen die in de service zijn opgeslagen.
+
+## <a name="consume-on-hand-inventory-data-from-supply-chain-management"></a>Gegevens van voorhanden voorraad verbruiken vanuit Supply Chain Management
+
+### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Het integratiepakket voor voorraadzichtbaarheid implementeren
+
+Als u Supply Chain Management versie 10.0.17 of eerder uitvoert, neemt u contact op met het ondersteuningsteam voor voorraadzichtbaarheid op [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) om het pakketbestand op te halen. Implementeer het pakket vervolgens in LCS.
+
+> [!NOTE]
+> Als er tijdens de implementatie een fout optreedt omdat de versies niet overeenkomen, moet u het X++-project handmatig in uw ontwikkelomgeving importeren. Maak vervolgens het implementeerbare pakket in uw ontwikkelomgeving en implementeer dit in uw productieomgeving.
+> 
+> De code is opgenomen in Supply Chain Management versie 10.0.18. Als u die versie of een latere versie uitvoert, is implementatie niet vereist.
+
+Zorg ervoor dat de volgende functies zijn ingeschakeld in uw Supply Chain Management-omgeving. (Standaard zijn deze ingeschakeld.)
+
+| Beschrijving van functie | Codeversie | Klasse in-/uitschakelen |
+|---|---|---|
+| Het gebruik van voorraaddimensies in de tabel InventSum in- of uitschakelen | 10.0.11 | InventUseDimOfInventSumToggle |
+| Het gebruik van voorraaddimensies in de tabel InventSumDelta in- of uitschakelen | 10.0.12 | InventUseDimOfInventSumDeltaToggle |
+
+### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Integratie van voorraadzichtbaarheid instellen
+
+1. Open in Supply Chain Management de werkruimte **[Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** en schakel de functie **Integratie van voorraadzichtbaarheid** in.
+1. Ga naar **Voorraadbeheer \> Instellen \> Parameters voor integratie van voorraadzichtbaarheid** en voer de URL in van de omgeving in waarin u Voorraadzichtbaarheid uitvoert.
+
+    Zoek de Azure-regio van uw LCS-omgeving op en voer vervolgens de URL in. De URL heeft de volgende notatie:
+
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+
+    Als u bijvoorbeeld in Europa bent, heeft uw omgeving een van de volgende URL's:
+
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+
+    De volgende regio's zijn momenteel niet beschikbaar.
+
+    | Azure-regio | Korte naam regio |
+    |---|---|
+    | Australië - oost | eau |
+    | Australië - zuidoost | seau |
+    | Canada - centraal | cca |
+    | Canada - oost | eca |
+    | Noord-Europa | neu |
+    | West-Europa | weu |
+    | VS - oost | eus |
+    | VS - west | wus |
+
+1. Ga naar **Voorraadbeheer \> Periodiek \> Integratie van voorraadzichtbaarheid** en schakel de taak in. Alle gebeurtenissen voor voorraadwijziging van Supply Chain Management worden nu geboekt naar Voorraadzichtbaarheid.
+
+## <a name="the-inventory-visibility-add-in-public-api"></a><a name="inventory-visibility-public-api"></a>De openbare API-invoegtoepassing Voorraadzichtbaarheid
+
+De openbare REST API van de invoegtoepassing Voorraadzichtbaarheid biedt verschillende specifieke eindpunten voor integratie. Deze ondersteunt drie hoofdinteractietypen:
+
+- Wijzigingen in de voorhanden voorraad naar de invoegtoepassing boeken vanuit een extern systeem
+- Huidige voorhanden hoeveelheden opvragen vanuit een extern systeem
+- Automatische synchronisatie met voorhanden Supply Chain Management-voorraad
+
+Automatische synchronisatie maakt geen deel uit van de openbare API. In plaats daarvan wordt de automatisch synchronisatie op de achtergrond verwerkt voor omgevingen waarin de Invoegvoeging Voorraadzichtbaarheid is ingeschakeld.
+
+### <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Authenticatie
+
+Het platformbeveiligingstoken wordt gebruikt om de invoegvoeging Voorraadzichtbaarheid aan te roepen. U moet daarom een *Azure Active Directory (Azure AD)-token* genereren met de Azure AD-toepassing. Vervolgens moet u het Azure AD-token gebruiken om het *toegangstoken* op te halen van de beveiligingsservice.
 
 Ga als volgt te werk om een beveiligingsservicetoken te verkrijgen:
 
-1. Meld u aan bij Azure Portal en gebruik dit om `clientId` en `clientSecret` voor uw Supply Chain Management-toepassing te zoeken.
+1. Meld u aan bij Azure Portal en gebruik het token om `clientId` en `clientSecret` voor uw Supply Chain Management-toepassing te zoeken.
 1. Haal een Azure Active Directory-token (`aadToken`) op door een HTTP-aanvraag met de volgende eigenschappen in te dienen:
     - **URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
     - **methode** - `GET`
@@ -127,7 +245,7 @@ Ga als volgt te werk om een beveiligingsservicetoken te verkrijgen:
 1. Dien een HTTP-aanvraag in met de volgende eigenschappen:
     - **URL** - `https://securityservice.operations365.dynamics.com/token`
     - **methode** - `POST`
-    - **HTTP-koptekst**: neem de API-versie op (sleutel is `Api-Version` en waarde is `1.0`)
+    - **HTTP-header**: neem de API-versie op (sleutel is `Api-Version` en waarde is `1.0`)
     - **Inhoud hoofdtekst**: neem de JSON-aanvraag op die u in de vorige stap hebt gemaakt.
 
 1. U ontvangt als reactie een `access_token`. Dit is wat u nodig hebt als Bearer-token voor het aanroepen van de Voorraadzichtbaarheid-API. Hier volgt een voorbeeld.
@@ -140,27 +258,7 @@ Ga als volgt te werk om een beveiligingsservicetoken te verkrijgen:
     }
     ```
 
-### <a name="uninstall-the-add-in"></a>De invoegtoepassing verwijderen
-
-Selecteer **Verwijderen** als u de invoegtoepassing wilt verwijderen. Vernieuw LCS en de invoegtoepassing Voorraadzichtbaarheid wordt verwijderd. Met het verwijderingsproces wordt de registratie van de invoegtoepassing verwijderd en wordt ook een taak gestart om alle bedrijfsgegevens te verwijderen die in de service zijn opgeslagen.
-
-## <a name="inventory-visibility-add-in-public-api"></a>Openbare API invoegtoepassing Voorraadzichtbaarheid
-
-De openbare REST API van de invoegtoepassing Voorraadzichtbaarheid biedt verschillende specifieke integratie-eindpunten. Deze ondersteunt drie hoofdinteractietypen:
-
-- Wijzigingen in de voorhanden voorraad van een extern systeem naar de invoegtoepassing boeken.
-- Huidige voorhanden hoeveelheden opvragen vanuit een extern systeem.
-- Automatische synchronisatie met voorhanden Supply Chain Management-voorraad.
-
-De automatische synchronisatie maakt geen deel uit van de openbare API, maar wordt in plaats daarvan verwerkt op de achtergrond voor omgevingen die de invoegtoepassing Voorraadzichtbaarheid hebben ingeschakeld.
-
-### <a name="authentication"></a>Authenticatie
-
-Het platformbeveiligingstoken wordt gebruikt om de invoegtoepassing Voorraadzichtbaarheid aan te roepen, dus u moet een Azure Active Directory-token genereren met uw Azure Active Directory-toepassing.
-
-Zie [De invoegtoepassing Voorraadzichtbaarheid installeren](#install-add-in) voor meer informatie over het verkrijgen van het beveiligingstoken.
-
-### <a name="configure-the-inventory-visibility-api"></a>De Voorraadzichtbaarheid-API configureren
+### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>De Voorraadzichtbaarheid-API configureren
 
 Voordat u de service gaat gebruiken, moet u de configuraties uitvoeren die in de volgende subsecties worden beschreven. De configuratie kan variëren afhankelijk van de details van uw omgeving. Deze bevat hoofdzakelijk vier delen:
 
@@ -232,7 +330,7 @@ U zou twee indexen hebben die als volgt zijn gedefinieerd:
 
 Het lege haakje aggregeert op basis van de product-ID binnen de partitie.
 
-De indexering bepaalt hoe u de resultaten kunt groeperen op basis van de `groupBy`-queryinstelling. Als u in dit geval geen `groupBy`-waarden definieert, krijgt u totalen op `productid`. Als u `groupBy` als `groupBy=ColorId&groupBy=SizeId` definieert, worden meerdere regels als resultaat gegeven, op basis van de verschillende combinaties van kleur en grootte in het systeem.
+De indexering bepaalt hoe u de resultaten kunt groeperen op basis van de `groupBy`-queryinstelling. Als u in dit geval geen `groupBy`-waarden definieert, krijgt u totalen op `productid`. Als u `groupBy` als `groupBy=ColorId&groupBy=SizeId` definieert, worden er meerdere regels als resultaat gegeven, op basis van de verschillende combinaties van kleur en grootte in het systeem.
 
 U kunt uw querycriteria in de aanvraagbody plaatsen.
 
@@ -257,7 +355,7 @@ Hier volgt een voorbeeldquery voor het product met de combinatie kleur en groott
 
 #### <a name="custom-measurement"></a>Aangepaste meting
 
-De standaardmetingshoeveelheden worden gekoppeld aan Supply Chain Management, maar mogelijk wilt u een hoeveelheid hebben die bestaat uit een combinatie van de standaardmetingen. Hiervoor kunt u een configuratie van aangepaste hoeveelheden hebben, die worden toegevoegd aan de uitvoer van de query's voor voorhanden voorraad.
+De standaardmetingshoeveelheden worden gekoppeld aan Supply Chain Management. Maar mogelijk wilt u een hoeveelheid hebben die bestaat uit een combinatie van de standaardmetingen. Hiervoor kunt u een configuratie van aangepaste hoeveelheden hebben, die worden toegevoegd aan de uitvoer van de query's voor voorhanden voorraad.
 
 Met deze functie kunt u een set maateenheden definiëren die wordt toegevoegd, en/of een set maateenheden die wordt afgetrokken, zodat de aangepaste meting wordt gevormd.
 
@@ -350,7 +448,7 @@ De exacte URL waarnaar de gebeurtenis wordt geboekt, is afhankelijk van uw geogr
 
 Na verificatie kan deze URL worden gebruikt in combinatie met de HTTP `POST`-methode voor het verzenden van gebeurtenissen voor wijzigingen van de voorhanden voorraad naar de service.
 
-Een speciale koptekst wordt gebruikt voor de communicatie met Dynamics 365-services via HTTP-aanvragen, waarbij de omgevings-ID van het Supply Chain Management-exemplaar wordt aangegeven waaraan de gegevens zijn gekoppeld. Bijvoorbeeld:
+Een speciale header wordt gebruikt voor de communicatie met Dynamics 365-services via HTTP-aanvragen, waarbij de omgevings-ID van het Supply Chain Management-exemplaar wordt aangegeven waaraan de gegevens zijn gekoppeld. Bijvoorbeeld:
 
 `x-ms-environment-id: 2db79622-f97a-4d64-9844-d12efed41796`
 

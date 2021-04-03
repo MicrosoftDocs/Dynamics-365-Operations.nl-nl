@@ -3,10 +3,9 @@ title: Uw organisatiehiërarchie plannen
 description: Voordat u de installatieorganisaties en -hiërarchieën instelt, moet u begrijpen hoe u uw bedrijf het beste modelleert.
 author: sericks007
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 7bf683487a20203d49fbab680373fbf48a5c58b6
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154404"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569356"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Uw organisatiehiërarchie plannen
 
@@ -166,7 +165,7 @@ De operationele eenheden gebruiken de context van het land van de hoofdrechtsper
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Als de organisatie als rechtspersoon is gemodelleerd
 
-Voor landen/regio's die ondersteund worden, kunnen de meeste wettelijke rapporten worden gemaakt. Zie de [Microsoft Dynamics Localization Portal](https://docs.microsoft.com/dynamics/s-e/) voor informatie over welke rapporten voor elk land/regio beschikbaar zijn. (Een CustomerSource-aanmelding is een verplicht.)
+Voor landen/regio's die ondersteund worden, kunnen de meeste wettelijke rapporten worden gemaakt. 
 
 > [!NOTE]
 > Een boekingslaag in het grootboek stelt u in staat tot het aanpassingsvermeldingen in een overkoepelend bedrijf te maken dat een andere boekhoudingsnorm dan het onderliggende bedrijf gebruikt. Bijvoorbeeld, voor een bedrijf dat algemeen geaccepteerde boekhoudkundige praktijken in het Verenigd Koninkrijk (UK GAAP) gebruikt, kunt u aanpassingsvermeldingen maken in de boekingslaag. Deze boekingen kunnen in een moederbedrijf worden geconsolideerd dat algemeen geaccepteerde boekhoudprincipes (GAAP) in de Verenigde Staten gebruikt. De wijzigingsvermeldingen beïnvloeden Britse GAAP-rapportage niet.

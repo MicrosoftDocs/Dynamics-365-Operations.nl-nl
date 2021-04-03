@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1d9482a45cb8f2ea52e7f58d55e30cfe56694d04
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985949"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582714"
 ---
-# <a name="add-support-for-a-content-delivery-network-cdn"></a>Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen
-
+# <a name="add-support-for-a-content-delivery-network-cdn"></a>Ondersteuning voor een CDN (netwerk voor contentlevering) toevoegen
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u een CDN (Content Delivery Network) toevoegt aan uw Microsoft Dynamics 365 Commerce-omgeving.
-
-## <a name="overview"></a>Overzicht
 
 Wanneer u een e-commerce-omgeving instelt in Dynamics 365 Commerce, kunt u deze configureren om met uw CDN-service te werken. 
 
@@ -96,8 +93,8 @@ Voer de volgende stappen uit om een routeringsregel in te stellen in de Azure Fr
 1. Voer in het veld **Naam** de tekst **standaard** in.
 1. Selecteer **HTTP en HTTPS** in het veld **Geaccepteerd protocol**.
 1. Voer in het veld **Frontend hosts** **dynamics-ecom-tenant-name.azurefd.net** in.
-1. Voer onder **Af te stemmen patronen** in het bovenste veld **/\** _ in.
-1. Stel onder _*Routedetails** de optie **Routetype** in op **Doorsturen**.
+1. Voer onder **Af te stemmen patronen** in het bovenste veld **/\*** in.
+1. Stel onder **Routedetails** de optie **Routetype** in op **Doorsturen**.
 1. Selecteer in het veld **Back-endgroep** de optie **ecom-backend**.
 1. Selecteer in de veldgroep **Protocol voor doorsturen** de optie **Afstemmen op aanvraag**. 
 1. Stel de optie **URL herschrijven** in op **Uitgeschakeld**.
@@ -109,8 +106,8 @@ Voer de volgende stappen uit om een cachingregel in te stellen in de Azure Front
 1. Voer in het veld **Naam** de tekst **statics** in.
 1. Selecteer **HTTP en HTTPS** in het veld **Geaccepteerd protocol**.
 1. Voer in het veld **Frontend hosts** **dynamics-ecom-tenant-name.azurefd.net** in.
-1. Voer onder **Af te stemmen patronen** in het bovenste veld **/\_msdyn365/\_scnr/\** _ in.
-1. Stel onder _*Routedetails** de optie **Routetype** in op **Doorsturen**.
+1. Voer onder **Af te stemmen patronen** in het bovenste veld **/\_msdyn365/\_scnr/\*** in.
+1. Stel onder **Routedetails** de optie **Routetype** in op **Doorsturen**.
 1. Selecteer in het veld **Back-endgroep** de optie **ecom-backend**.
 1. Selecteer in de veldgroep **Protocol voor doorsturen** de optie **Afstemmen op aanvraag**.
 1. Stel de optie **URL herschrijven** in op **Uitgeschakeld**.
@@ -143,25 +140,7 @@ Uw CDN is nu correct geconfigureerd voor gebruik met uw Commerce-site.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Uw domeinnaam configureren](configure-your-domain-name.md)
-
-[Een nieuwe e-commerce-tenant implementeren](deploy-ecommerce-site.md)
-
-[Een e-commerce-site maken](create-ecommerce-site.md)
-
-[Een Dynamics 365 Commerce-site koppelen aan een online kanaal](associate-site-online-store.md)
-
-[robots.txt-bestanden beheren](manage-robots-txt-files.md)
-
-[URL-omleidingen in bulk uploaden](upload-bulk-redirects.md)
-
-[Een B2C-tenant instellen in Commerce](set-up-B2C-tenant.md)
-
-[Aangepaste pagina's voor gebruikersaanmeldingen instellen](custom-pages-user-logins.md)
-
-[Meerdere B2C-tenants configureren in een Commerce-omgeving](configure-multi-B2C-tenants.md)
-
-[Detectie van winkels op basis van de locatie inschakelen](enable-store-detection.md)
+[Implementatieopties voor netwerk voor contentlevering](cdn-options.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

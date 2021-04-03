@@ -6,7 +6,6 @@ manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c2b0d5be38425b5ceebb38b7964f5ec600b1c838
-ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
+ms.openlocfilehash: 79a971e3de43cb0161d4ac5012f657a947bc567c
+ms.sourcegitcommit: afbdc268bcdb1755d7f1bc79ad1b7fc801b2e2f5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141899"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5579967"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Inkoop integreren tussen Supply Chain Management en Field Service
 
@@ -47,8 +46,8 @@ Als u Supply Chain Management wilt integreren met Field Service, moet u de volge
 
 ### <a name="prerequisites"></a>Vereisten
 
-+ **Twee keer wegschrijven**: zie [de startpagina van Twee keer wegschrijven](dual-write-home-page.md#dual-write-setup) voor meer informatie.
-+ **Dynamics 365 Field Service**: zie [Dynamics 365 Field Service installeren](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service) voor meer informatie.
+- **Twee keer wegschrijven**: zie [de startpagina van Twee keer wegschrijven](dual-write-home-page.md#dual-write-setup) voor meer informatie.
+- **Dynamics 365 Field Service**: zie [Dynamics 365 Field Service installeren](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service) voor meer informatie.
 
 Wanneer deze functies zijn ingeschakeld in Microsoft Dataverse, worden met Twee keer wegschrijven en Field Service verschillende oplossingslagen geïntroduceerd die de omgeving uitbreiden met nieuwe metagegevens, formulieren, weergaven en logica. Deze oplossingen kunnen in elke volgorde worden ingeschakeld, maar meestal installeert u ze in de hier opgegeven volgorde:
 
@@ -57,8 +56,8 @@ Wanneer deze functies zijn ingeschakeld in Microsoft Dataverse, worden met Twee 
 3. **Supply Chain Management Extended**: Supply Chain Management Extended wordt automatisch geïnstalleerd wanneer Twee keer wegschrijven wordt ingeschakeld in een omgeving. 
 4. **OneFSSCM-oplossing**: OneFSSCM wordt automatisch geïnstalleerd door de oplossing (Field Service of Supply Chain Management) die als laatste wordt geïnstalleerd.
 
-    + Als Field Service al in de omgeving is geïnstalleerd en u Twee keer wegschrijven inschakelt, waarmee Supply Chain Management Extended wordt geïnstalleerd, wordt OneFSSCM geïnstalleerd.
-    + Als Supply Chain Management Extended al in de omgeving is geïnstalleerd en u Field Service installeert, wordt OneFSSCM geïnstalleerd.
+    - Als Field Service al in de omgeving is geïnstalleerd en u Twee keer wegschrijven inschakelt, waarmee Supply Chain Management Extended wordt geïnstalleerd, wordt OneFSSCM geïnstalleerd.
+    - Als Supply Chain Management Extended al in de omgeving is geïnstalleerd en u Field Service installeert, wordt OneFSSCM geïnstalleerd.
 
 ## <a name="initial-synchronization"></a>Initiële synchronisatie
 
@@ -124,22 +123,22 @@ Daarnaast bevat Dataverse logica waarmee leveranciers aan hun gerelateerde reken
 
 ## <a name="supported-scenarios"></a>Ondersteunde scenario's
 
-+ Inkooporders kunnen door gebruikers van Dataverse worden gemaakt en bijgewerkt. Het proces en de gegevens worden echter bepaald door Supply Chain Management. De beperkingen voor updates van inkooporderkolommen in Supply Chain Management zijn van toepassing wanneer updates afkomstig zijn van Field Service. U kunt bijvoorbeeld een inkooporder niet bijwerken als deze is voltooid. 
-+ Als de inkooporder wordt beheerd door wijzigingsbeheer in Supply Chain Management, kan een Field Service-gebruiker de inkooporder alleen bijwerken als de goedkeuringsstatus van Supply Chain Management *Concept* is.
-+ Verschillende kolommen worden alleen door Supply Chain Management beheerd en kunnen niet worden bijgewerkt in Field Service. Als u wilt weten welke kolommen niet kunnen worden bijgewerkt, controleert u de toewijzingstabellen in het product. De meeste kolommen zijn voor het gemak ingesteld op alleen-lezen op Dataverse-pagina's. 
+- Inkooporders kunnen door gebruikers van Dataverse worden gemaakt en bijgewerkt. Het proces en de gegevens worden echter bepaald door Supply Chain Management. De beperkingen voor updates van inkooporderkolommen in Supply Chain Management zijn van toepassing wanneer updates afkomstig zijn van Field Service. U kunt bijvoorbeeld een inkooporder niet bijwerken als deze is voltooid. 
+- Als de inkooporder wordt beheerd door wijzigingsbeheer in Supply Chain Management, kan een Field Service-gebruiker de inkooporder alleen bijwerken als de goedkeuringsstatus van Supply Chain Management *Concept* is.
+- Verschillende kolommen worden alleen door Supply Chain Management beheerd en kunnen niet worden bijgewerkt in Field Service. Als u wilt weten welke kolommen niet kunnen worden bijgewerkt, controleert u de toewijzingstabellen in het product. De meeste kolommen zijn voor het gemak ingesteld op alleen-lezen op Dataverse-pagina's. 
 
     Zo worden de kolommen voor prijsgegevens beheerd door Supply Chain Management. Supply Chain Management heeft handelsovereenkomsten waarvan Field Service gebruik kan maken. Kolommen, zoals **Eenheidsprijs**, **Korting** en **Nettobedrag**, zijn alleen afkomstig uit Supply Chain Management. Als u ervoor wilt zorgen dat de prijs wordt gesynchroniseerd met Field Service, moet u de functie **Synchroniseren** gebruiken op de pagina's **Inkooporder** en **Product inkooporder** in Dataverse wanneer inkoopordergegevens zijn ingevoerd. Zie [Synchroniseren met de inkoopgegevens op aanvraag van Dynamics 365 Supply Chain Management](#sync-procurement) voor meer informatie.
 
-+ De kolom **Totalen** is alleen beschikbaar in Field Service omdat er geen actuele totalen zijn van de inkooporder in Supply Chain Management. De totalen in Supply Chain Management worden berekend op basis van meerdere parameters die niet beschikbaar zijn in Field Service.
-+ Inkooporderregels waarin alleen een inkoopcategorie wordt opgegeven of waarin het opgegeven product een artikel is van het producttype *Service* of het producttype Field Service, kan alleen worden gestart in Supply Chain Management. De regels worden vervolgens gesynchroniseerd met Dataverse en zijn zichtbaar in Field Service.
-+ Als alleen Field Service is geïnstalleerd, en Supply Chain Management niet, is de kolom **Magazijn** verplicht voor de inkooporder. Als Supply Chain Management is geïnstalleerd, is dit echter niet nodig, omdat Supply Chain Management inkooporderregels kan bevatten waarin geen magazijn wordt opgegeven in bepaalde situaties.
-+ Productontvangstbonnen (inkooporderontvangstbonnen in Dataverse) worden beheerd door Supply Chain Management en kunnen niet worden gemaakt vanuit Dataverse als Supply Chain Management is geïnstalleerd. De productontvangstbonnen van Supply Chain Management worden gesynchroniseerd vanuit Supply Chain Management met Dataverse.
-+ Minderlevering is toegestaan in Supply Chain Management. Met de OneFSSCM-oplossing wordt logica toegevoegd zodat wanneer de productontvangstbonregel (of inkooporderontvangstproduct in Dataverse) wordt gemaakt of bijgewerkt, een voorraadjournaalrij wordt gemaakt in Dataverse om de resterende hoeveelheid die in bestelling is voor scenario's van minderlevering aan te passen.
+- De kolom **Totalen** is alleen beschikbaar in Field Service omdat er geen actuele totalen zijn van de inkooporder in Supply Chain Management. De totalen in Supply Chain Management worden berekend op basis van meerdere parameters die niet beschikbaar zijn in Field Service.
+- Inkooporderregels waarin alleen een inkoopcategorie wordt opgegeven of waarin het opgegeven product een artikel is van het producttype *Service* of het producttype Field Service, kan alleen worden gestart in Supply Chain Management. De regels worden vervolgens gesynchroniseerd met Dataverse en zijn zichtbaar in Field Service.
+- Als alleen Field Service is geïnstalleerd, en Supply Chain Management niet, is de kolom **Magazijn** verplicht voor de inkooporder. Als Supply Chain Management is geïnstalleerd, is dit echter niet nodig, omdat Supply Chain Management inkooporderregels kan bevatten waarin geen magazijn wordt opgegeven in bepaalde situaties.
+- Productontvangstbonnen (inkooporderontvangstbonnen in Dataverse) worden beheerd door Supply Chain Management en kunnen niet worden gemaakt vanuit Dataverse als Supply Chain Management is geïnstalleerd. De productontvangstbonnen van Supply Chain Management worden gesynchroniseerd vanuit Supply Chain Management met Dataverse.
+- Minderlevering is toegestaan in Supply Chain Management. Met de OneFSSCM-oplossing wordt logica toegevoegd zodat wanneer de productontvangstbonregel (of inkooporderontvangstproduct in Dataverse) wordt gemaakt of bijgewerkt, een voorraadjournaalrij wordt gemaakt in Dataverse om de resterende hoeveelheid die in bestelling is voor scenario's van minderlevering aan te passen.
 
 ## <a name="unsupported-scenarios"></a>Niet-ondersteunde scenario's
 
-+ Field Service voorkomt dat regels worden toegevoegd aan een geannuleerde inkooporder in Supply Chain Management. Als oplossing kunt u de systeemstatus van de inkooporder wijzigen in Field Service en vervolgens de nieuwe regel toevoegen in Field Service of Supply Chain Management.
-+ Hoewel inkooprijen van invloed zijn op voorraadniveaus in beide systemen, zorgt deze integratie niet voor de uitlijning van de voorraad in Supply Chain Management en Field Service. Zowel Field Service als Supply Chain Management hebben andere processen waarmee voorraadniveaus worden bijgewerkt. Deze processen vallen buiten de scope van de inkoop.
+- Field Service voorkomt dat regels worden toegevoegd aan een geannuleerde inkooporder in Supply Chain Management. Als oplossing kunt u de systeemstatus van de inkooporder wijzigen in Field Service en vervolgens de nieuwe regel toevoegen in Field Service of Supply Chain Management.
+- Hoewel inkooprijen van invloed zijn op voorraadniveaus in beide systemen, zorgt deze integratie niet voor de uitlijning van de voorraad in Supply Chain Management en Field Service. Zowel Field Service als Supply Chain Management hebben andere processen waarmee voorraadniveaus worden bijgewerkt. Deze processen vallen buiten de scope van de inkoop.
 
 ## <a name="status-management"></a>Statusbeheer
 
@@ -161,13 +160,13 @@ Regelgoedkeuringsstatussen zijn alleen actief wanneer er een regelwerkstroom is.
 
 De volgende regels worden toegepast op de statuskolommen:
 
-+ De status in Supply Chain Management kan niet worden bijgewerkt vanuit Field Service. In sommige gevallen wordt de status in Field Service echter bijgewerkt wanneer de inkooporderstatus in Supply Chain Management wordt gewijzigd.
-+ Als een inkooporder in Supply Chain Management onder wijzigingsbeheer valt en er een wijziging wordt verwerkt, is de goedkeuringsstatus *Concept* of *Wordt gecontroleerd*. In dit geval wordt de goedkeuringsstatus van Field Service ingesteld op *Null*.
-+ Als de goedkeuringsstatus van de inkooporder in Supply Chain Management is ingesteld op *Goedgekeurd*, *In externe controle*, *Bevestigd* of *Voltooid*, wordt de goedkeuringsstatus van de inkooporder van Field Service ingesteld op *Goedgekeurd*.
-+ Als de goedkeuringsstatus van de inkooporder in Supply Chain Management is ingesteld op *Afgewezen*, wordt de goedkeuringsstatus van de inkooporder van Field Service ingesteld op *Afgewezen*.
-+ Als de status van de documentkoptekst in Supply Chain Management wordt gewijzigd in *Openstaande order (nabestelling)* en de inkooporderstatus van Field Service *Concept* of *Geannuleerd* is, wordt de status van de inkooporder van Field Service gewijzigd in *Verzonden*.
-+ Als de status van de documentkoptekst in Supply Chain Management wordt gewijzigd in *Geannuleerd* en er geen inkooporderontvangstproducten in Field Service zijn gekoppeld aan de inkooporder (via inkooporderproducten), wordt de systeemstatus van Field Service ingesteld op *Geannuleerd*.
-+ Als de status van de inkooporderregel in Supply Chain Management *Geannuleerd* is, wordt de status van het inkooporderproduct in Field Service ingesteld op *Geannuleerd*. Als de status van de inkooporderregel in Supply Chain Management wordt gewijzigd van *Geannuleerd* in *Nabestelling*, wordt de status van het productartikel van de inkooporder in Field Service bovendien ingesteld op *In behandeling*.
+- De status in Supply Chain Management kan niet worden bijgewerkt vanuit Field Service. In sommige gevallen wordt de status in Field Service echter bijgewerkt wanneer de inkooporderstatus in Supply Chain Management wordt gewijzigd.
+- Als een inkooporder in Supply Chain Management onder wijzigingsbeheer valt en er een wijziging wordt verwerkt, is de goedkeuringsstatus *Concept* of *Wordt gecontroleerd*. In dit geval wordt de goedkeuringsstatus van Field Service ingesteld op *Null*.
+- Als de goedkeuringsstatus van de inkooporder in Supply Chain Management is ingesteld op *Goedgekeurd*, *In externe controle*, *Bevestigd* of *Voltooid*, wordt de goedkeuringsstatus van de inkooporder van Field Service ingesteld op *Goedgekeurd*.
+- Als de goedkeuringsstatus van de inkooporder in Supply Chain Management is ingesteld op *Afgewezen*, wordt de goedkeuringsstatus van de inkooporder van Field Service ingesteld op *Afgewezen*.
+- Als de status van de documentkoptekst in Supply Chain Management wordt gewijzigd in *Openstaande order (nabestelling)* en de inkooporderstatus van Field Service *Concept* of *Geannuleerd* is, wordt de status van de inkooporder van Field Service gewijzigd in *Verzonden*.
+- Als de status van de documentkoptekst in Supply Chain Management wordt gewijzigd in *Geannuleerd* en er geen inkooporderontvangstproducten in Field Service zijn gekoppeld aan de inkooporder (via inkooporderproducten), wordt de systeemstatus van Field Service ingesteld op *Geannuleerd*.
+- Als de status van de inkooporderregel in Supply Chain Management *Geannuleerd* is, wordt de status van het inkooporderproduct in Field Service ingesteld op *Geannuleerd*. Als de status van de inkooporderregel in Supply Chain Management wordt gewijzigd van *Geannuleerd* in *Nabestelling*, wordt de status van het productartikel van de inkooporder in Field Service bovendien ingesteld op *In behandeling*.
 
 ## <a name="sync-with-the-supply-chain-management-procurement-data-on-demand"></a><a id="sync-procurement"></a>Op verzoek synchroniseren met de Supply Chain Management-inkoopgegevens
 

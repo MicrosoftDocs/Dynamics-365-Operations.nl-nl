@@ -3,10 +3,9 @@ title: Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voork
 description: In dit onderwerp wordt uitgelegd hoe u de geconfigureerde onderdelen voor elektronische rapportage (ER) kunt inspecteren om runtimeproblemen te voorkomen.
 author: NickSelin
 manager: AnnBe
-ms.date: 12/04/2020
+ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4ba696fb7a8d9083d11cc29953cf1340a581afcf
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 86db6dc27a8a76e90494e3dc7a7cc9c828f9ec37
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797336"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574120"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voorkomen
 
@@ -205,6 +204,33 @@ De volgende tabel biedt een overzicht van de inspecties die ER biedt. Als u meer
 <td>Waarschuwing</td>
 <td>Gedefinieerde naam &lt;onderdeelnaam&gt; bestaat niet in de naam van het Excel-werkblad &lt;werkbladnaam&gt;</td>
 </tr>
+<tr>
+<td><a href='#i14'>Niet-gesynchroniseerde indeling</a></td>
+<td>Gegevensintegriteit</td>
+<td>Waarschuwing</td>
+<td>
+<p>Label &lt;Gelabeld besturingselement voor Word&gt; bestaat niet in Word-sjabloonbestand</p>
+<p><b>Runtimefout:</b> &lt;label Gelabeld besturingselement voor Word&gt; bestaat niet in Word-sjabloonbestand.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i15'>Geen standaardtoewijzing</a></td>
+<td>Gegevensintegriteit</td>
+<td>Fout</td>
+<td>
+<p>Er bestaan meerdere modeltoewijzingen voor het gegevensmodel &lt;modelnaam (hoofddescriptor)&gt; in de configuraties &lt;configuratienamen,gescheiden door komma's&gt;. Stel een van de configuraties als standaard in</p>
+<p><b>Runtimefout:</b> er bestaan meerdere modeltoewijzingen voor het gegevensmodel &lt;modelnaam (hoofddescriptor)&gt; in de configuraties &lt;configuratienamen,gescheiden door komma's&gt;. Stel een van de configuraties als standaard in.</p>
+</td>
+</tr>
+<tr>
+<td><a href='#i16'>Inconsistente instelling van kop- of voettekstonderdelen</a></td>
+<td>Gegevensintegriteit</td>
+<td>Fout</td>
+<td>
+<p>Kop-/voetteksten (&lt;onderdeeltype: Kop- of voettekst&gt;) zijn inconsistent</p>
+<p><b>Runtime:</b> het laatst geconfigureerde onderdeel wordt tijdens runtime gebruikt als de conceptversie van de geconfigureerde ER-indeling wordt uitgevoerd.</p>
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -219,7 +245,7 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 
     ![Het veld X en het gegevenstype Geheel getal toegevoegd aan de gegevensmodelstructuur op de pagina Gegevensmodel](./media/er-components-inspections-01.png)
 
-3. Voeg in het deelvenster voor gegevensbronnen voor modeltoewijzing een gegevensbron van het type **Berekend veld** toe.
+3. Voeg in de ontwerper voor modeltoewijzing, in het deelvenster **Gegevensbronnen**, een gegevensbron van het type **Berekend veld** toe.
 4. Noem de nieuwe gegevensbron **Y** en configureer deze zodat deze de expressie `INTVALUE(100)` bevat.
 5. Bind **X** aan **Y**.
 6. Wijzig in de ontwerper van het gegevensmodel het gegevenstype van het veld **X** van **Geheel getal** in **Int64**.
@@ -229,7 +255,7 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 
 8. Selecteer **Valideren** om het onderdeel voor modeltoewijzing van de geselecteerde ER-configuratie te inspecteren op de pagina **Configuraties**.
 
-    ![Valideren om het onderdeel voor modeltoewijzing te inspecteren op de pagina Configuraties](./media/er-components-inspections-01a.png)
+    ![Het onderdeel voor modeltoewijzing inspecteren op de pagina Configuraties](./media/er-components-inspections-01a.png)
 
 9. Zoals u ziet, treedt er een validatiefout op. In het bericht staat dat de waarde van het type **Geheel getal** dat de expressie `INTVALUE(100)` van de gegevensbron **Y** als resultaat geeft, niet kan worden opgeslagen in gegevensmodelveld **X** van het type **Int64**.
 
@@ -294,10 +320,10 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 
     ![Gegevensmodelstructuur met veld X en gegevenstype Geheel getal op de pagina Gegevensmodel](./media/er-components-inspections-01.png)
 
-3. Voeg in het deelvenster voor gegevensbronnen voor modeltoewijzing een gegevensbron van het type **Berekend veld** toe.
+3. Voeg in de ontwerper voor modeltoewijzing, in het deelvenster **Gegevensbronnen**, een gegevensbron van het type **Berekend veld** toe.
 4. Noem de nieuwe gegevensbron **Y** en configureer deze zodat deze de expressie `INTVALUE(100)` bevat.
 5. Bind **X** aan **Y**.
-6. Verwijder in de ontwerper voor modeltoewijzingen in het deelvenster voor gegevensbronnen de gegevensbron **Y**.
+6. Verwijder in de ontwerper voor modeltoewijzingen, in het deelvenster **Gegevensbronnen**, de gegevensbron **Y**.
 7. Selecteer **Valideren** om het bewerkbare onderdeel voor modeltoewijzing te inspecteren op de pagina **Ontwerper modeltoewijzing**.
 
     ![Het bewerkbare onderdeel voor ER-modeltoewijzing inspecteren op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-03.gif)
@@ -316,11 +342,11 @@ Maak de binding van gegevensmodelveld **X** ongedaan zodat niet langer wordt ver
 
 #### <a name="option-2"></a>Optie 2
 
-Voeg in het deelvenster voor gegevensbronnen van de ontwerper voor modeltoewijzingen gegevensbron **Y** opnieuw toe.
+Voeg in de ontwerper voor modeltoewijzing, in het deelvenster **Gegevensbronnen**, de gegevensbron **Y** opnieuw toe.
 
 ## <a name="executability-of-an-expression-with-filter-function"></a><a id="i4"></a>Uitvoerbaarheid van een expressie met FILTER-functie
 
-De ingebouwde ER-functie [FILTER](er-functions-list-filter.md) wordt gebruikt om toegang te krijgen tot toepassingstabellen, weergaven of gegevensentiteiten door een enkele SQL-aanroep te plaatsen om de vereiste gegevens als een lijst met records op te halen. Een gegevensbron van het type **Recordlijst** wordt gebruikt als argument van deze functie en geeft de toepassingsbron voor de oproep aan. In ER wordt gecontroleerd of er een directe SQL-query kan worden gemaakt naar een gegevensbron waarnaar wordt verwezen in de functie `FILTER`. Als er geen directe query kan worden gemaakt, treedt een validatiefout op in de ontwerper voor ER-modeltoewijzing. Het bericht dat wordt weergegeven, geeft aan dat de ER-expressie die de functie `FILTER` bevat, niet kan worden uitgevoerd tijdens runtime. 
+De ingebouwde ER-functie [FILTER](er-functions-list-filter.md) wordt gebruikt om toegang te krijgen tot toepassingstabellen, weergaven of gegevensentiteiten door een enkele SQL-aanroep te plaatsen om de vereiste gegevens als een lijst met records op te halen. Een gegevensbron van het type **Recordlijst** wordt gebruikt als argument van deze functie en geeft de toepassingsbron voor de oproep aan. In ER wordt gecontroleerd of er een directe SQL-query kan worden gemaakt naar een gegevensbron waarnaar wordt verwezen in de functie `FILTER`. Als er geen directe query kan worden gemaakt, treedt een validatiefout op in de ontwerper voor ER-modeltoewijzing. Het bericht dat wordt weergegeven, geeft aan dat de ER-expressie die de functie `FILTER` bevat, niet kan worden uitgevoerd tijdens runtime.
 
 De volgende stappen laten zien hoe dit probleem kan optreden.
 
@@ -373,15 +399,15 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 
     ![De gegevensbron configureren op de pagina 'Groeperen op'-parameters bewerken](./media/er-components-inspections-05a.gif)
 
-6. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de geconfigureerde gegevensbron **GroupedTrans** kan worden opgevraagd.
+6. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie in de geconfigureerde gegevensbron **GroupedTrans** kan worden opgevraagd.
 7. Wijzig de gegevensbron **Trans** door een genest veld van het type **Berekend veld** toe te voegen om het bijgesneden leveranciersrekeningnummer te krijgen.
 8. Noem de nieuwe gegevensbron **$AccNumber** en configureer deze zodat deze de expressie `TRIM(Trans.AccountNum)` bevat.
 
     ![De gegevensbron configureren op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-05a.png)
 
-9. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de geconfigureerde gegevensbron **GroupedTrans** kan worden opgevraagd.
+9. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie in de geconfigureerde gegevensbron **GroupedTrans** kan worden opgevraagd.
 
-    ![Valideer het ER-modeltoewijzingsonderdeel en controleer of de geconfigureerde gegevensbron GroupedTrans kan worden opgevraagd op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-05b.png)
+    ![Het ER-modeltoewijzingsonderdeel valideren en controleren of de gegevensbron GroupedTrans kan worden opgevraagd op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-05b.png)
 
 10. Er treedt een validatiefout op, omdat de gegevensbron **Trans** een genest veld van het type **Berekend veld** bevat waarmee de aanvraag voor de gegevensbron **GroupedTrans** niet kan worden omgezet naar de directe SQL-instructie.
 
@@ -425,15 +451,15 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 
     ![De gegevensbron configureren op de pagina Join-ontwerper](./media/er-components-inspections-06a.gif)
 
-10. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de geconfigureerde gegevensbron **JoinedList** kan worden opgevraagd.
+10. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie in de geconfigureerde gegevensbron **JoinedList** kan worden opgevraagd.
 11. Wijzig de expressie van de gegevensbron **Vendor.FilteredTrans** van `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` in `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)`.
-12. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de geconfigureerde gegevensbron **JoinedList** kan worden opgevraagd.
+12. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie in de geconfigureerde gegevensbron **JoinedList** kan worden opgevraagd.
 
     ![Het bewerkbare modeltoewijzingsonderdeel valideren en controleren of de gegevensbron JoinedList kan worden opgevraagd op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-06b.png)
 
 13. Er treedt een validatiefout op omdat de expressie van de gegevensbron **Vendor.FilteredTrans** kan niet worden omgezet naar de directe SQL-aanroep. Bovendien staat de directe SQL-aanroep staat niet toe dat de aanroep van de gegevensbron **JoinedList** wordt omgezet in de directe SQL-instructie.
 
-    ![Runtimefouten uit de mislukte validatie van JoinedList-gegevensbron op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-06c.png)
+    ![Runtimefouten uit de mislukte validatie van de JoinedList-gegevensbron op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-06c.png)
 
 In de volgende afbeelding wordt de runtimefout weergegeven die optreedt als u de waarschuwing negeert en **Uitvoeren** selecteert om een indeling uit te voeren die is geconfigureerd voor gebruik van de modeltoewijzing.
 
@@ -472,11 +498,11 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 9. Noem de nieuwe gegevensbron **FilteredVendor** en configureer deze zodat deze de expressie `WHERE(Vendor, Vendor.AccountNum="US-101")` bevat.
 10. Selecteer **Valideren** om het bewerkbare onderdeel voor modeltoewijzing te inspecteren op de pagina **Ontwerper modeltoewijzing**.
 
-    ![Valideren om het bewerkbare onderdeel voor modeltoewijzing te inspecteren op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-07a.png)
+    ![Het bewerkbare onderdeel voor ER-modeltoewijzing inspecteren op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-07a.png)
 
 11. In de validatiewaarschuwingen wordt u geadviseerd om de **FILTER**-functie te gebruiken in plaats van de **WHERE**-functie voor de gegevensbronnen **FilteredVendor** en **FilteredTrans**.
 
-    ![Validatiewaarschuwingen waarin de filter-functie wordt aanbevolen in plaats van de where-functie op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-07b.png)
+    ![Aanbeveling voor gebruik van de functie FILTER in plaats van de functie WHERE op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-07b.png)
 
 ### <a name="automatic-resolution"></a>Automatische oplossing
 
@@ -484,7 +510,7 @@ Selecteer **Corrigeren** om de **WHERE**-functie automatisch te vervangen door d
 
 U kunt ook de rij selecteren voor een enkele waarschuwing in het raster en vervolgens **Selectie corrigeren** selecteren. In dit geval wordt de expressie automatisch gewijzigd in de gegevensbron die in de geselecteerde waarschuwing wordt vermeld.
 
-![Corrigeren selecteren om de functie voor vervanging van de where-functie door de filter-functie automatisch uit te voeren op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-07c.png)
+![Corrigeren selecteren om automatisch de functie WHERE te vervangen door de functie FILTER op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-07c.png)
 
 ### <a name="manual-resolution"></a>Handmatige oplossing
 
@@ -501,15 +527,15 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 3. Geef de nieuwe gegevensbron de naam **Vendor**. Selecteer in het veld **Tabel** de optie **VendTable** om aan te geven dat deze gegevensbron de tabel VendTable moet opvragen.
 4. Voeg een gegevensbron van het type **Berekend veld** toe om records voor verschillende leveranciers op te halen.
 5. Noem de nieuwe gegevensbron **FilteredVendor** en configureer deze zodat deze de expressie `FILTER(Vendor, OR(Vendor.AccountNum="US-101",Vendor.AccountNum="US-102"))` bevat.
-6. Voeg een gegevensbron van het type **Berekend veld** toe om transacties van alle gefilterde leveranciers op te halen.
+6. Een gegevensbron van het type **Berekend veld** toevoegen om de transacties van alle gefilterde leveranciers op te halen.
 7. Noem de nieuwe gegevensbron **FilteredVendorTrans** en configureer deze zodat deze de expressie `ALLITEMS(FilteredVendor.'<Relations'.'VendTrans.VendTable_AccountNum')` bevat.
 8. Selecteer **Valideren** om het bewerkbare onderdeel voor modeltoewijzing te inspecteren op de pagina **Ontwerper modeltoewijzing**.
 
-    ![Pagina Ontwerper modeltoewijzing, knop Valideren](./media/er-components-inspections-08a.png)
+    ![Het bewerkbare onderdeel voor modeltoewijzing inspecteren op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-08a.png)
 
 9. Zoals u ziet, treedt er een validatiewaarschuwing op. Het bericht beveelt aan dat u de **ALLITEMSQUERY**-functie gebruikt in plaats van de **ALLITEMS**-functie voor de gegevensbron **FilteredVendorTrans**.
 
-    ![Validatiewaarschuwing voor gebruik van een ALLITEMSQUERY-functie in plaats van de ALLITEMS-functie voor het ER-modeltoewijzingsonderdeel op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-08b.png)
+    ![Aanbeveling voor gebruik van de functie ALLITEMSQUERY in plaats van de functie ALLITEMS op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-08b.png)
 
 ### <a name="automatic-resolution"></a>Automatische oplossing
 
@@ -517,7 +543,7 @@ Selecteer **Corrigeren** om de **ALLITEMS**-functie automatisch te vervangen doo
 
 U kunt ook de rij selecteren voor een enkele waarschuwing in het raster en vervolgens **Selectie corrigeren** selecteren. In dit geval wordt de expressie automatisch gewijzigd in de gegevensbron die in de geselecteerde waarschuwing wordt vermeld.
 
-![Pagina Ontwerper modeltoewijzing, selecteer Selectie corrigeren](./media/er-components-inspections-08c.png)
+![Corrigeren selecteren op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-08c.png)
 
 ### <a name="manual-resolution"></a>Handmatige oplossing
 
@@ -525,7 +551,7 @@ U kunt de expressies van alle gegevensbronnen die worden vermeld in het validati
 
 ## <a name="consideration-of-empty-list-cases"></a><a id="i9"></a>Controle op lege lijstcases
 
-U kunt uw ER-indeling of modeltoewijzingsonderdeel zodanig configureren dat de veldwaarde van een gegevensbron van het type **Recordlijst** wordt opgehaald. In ER wordt gecontroleerd of in uw ontwerp de case in overweging wordt genomen wanneer een gegevensbron die wordt aangeroepen geen records bevat (dus leeg is), om runtimefouten te voorkomen wanneer een waarde wordt opgehaald uit een veld van een niet-bestaande record.
+U kunt uw ER-indeling of model toewijzingsonderdeel zodanig configureren dat de veldwaarde van een gegevensbron van het type **Recordlijst** wordt opgehaald. In ER wordt gecontroleerd of in uw ontwerp de case in overweging wordt genomen wanneer een gegevensbron die wordt aangeroepen geen records bevat (dus leeg is), om runtimefouten te voorkomen wanneer een waarde wordt opgehaald uit een veld van een niet-bestaande record.
 
 De volgende stappen laten zien hoe dit probleem kan optreden.
 
@@ -540,7 +566,7 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 
     ![Geneste velden toevoegen op de pagina Gegevensmodel](./media/er-components-inspections-09a.png)
 
-6. Voeg in het deelvenster voor gegevensbronnen voor modeltoewijzing een gegevensbron van het type **Dynamics 365 for Operations \\ Tabelrecords** toe.
+6. Voeg in de ontwerper voor modeltoewijzing, in het deelvenster **Gegevensbronnen**, een gegevensbron van het type **Dynamics 365 for Operations \\ Tabelrecords** toe.
 7. Geef de nieuwe gegevensbron de naam **Vendor**. Selecteer in het veld **Tabel** de optie **VendTable** om aan te geven dat deze gegevensbron de tabel VendTable moet opvragen.
 8. Voeg een gegevensbron van het type **Algemeen \\ Gebruikersinvoerparameter** toe om te zoeken naar een leveranciersrekening in het runtimedialoogvenster.
 9. Geef de nieuwe gegevensbron de naam **RequestedAccountNum**. Voer in het veld **Label** de tekst **Rekeningnummer leverancier** in. Laat in het veld **Naam van gegevenstype voor bewerkingen** de standaardwaarde **Description** ongewijzigd.
@@ -574,11 +600,11 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 
 16. Zoals u ziet, treedt er een validatiefout op. Het bericht geeft aan dat er een fout kan worden gegenereerd voor de geconfigureerde indelingsonderdelen **Statement\\Party\\Name** en **Statement\\Party\\AccountNum** tijdens runtime als de lijst `model.Vendor` leeg is.
 
-    ![Validatiefout waarbij mogelijke fouten worden gemeld voor de geconfigureerde indelingonderdelen](./media/er-components-inspections-09d.png)
+    ![Validatiefout bij een mogelijke fout voor de geconfigureerde indelingonderdelen](./media/er-components-inspections-09d.png)
 
 In de volgende afbeelding wordt de runtimefout weergegeven die optreedt als u de waarschuwing negeert, **Uitvoeren** selecteert om de indeling uit te voeren en het rekeningnummer van een niet-bestaande leverancier selecteert. Omdat de aangevraagde leverancier niet bestaat, is de lijst `model.Vendor` leeg (bevat dus geen records).
 
-![Runtimefouten tijdens het uitvoeren van de indelingstoewijzing](./media/er-components-inspections-09e.png)
+![Runtimefouten die optreden tijdens het uitvoeren van de indelingstoewijzing](./media/er-components-inspections-09e.png)
 
 ### <a name="automatic-resolution"></a>Automatische oplossing
 
@@ -632,13 +658,13 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 
 9. Selecteer **Valideren** om het bewerkbare onderdeel voor modeltoewijzing te inspecteren op de pagina **Ontwerper modeltoewijzing**.
 
-    ![De filterfunctie valideren die is toegepast op de leveranciergegevensbron in cache op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-10a.png)
+    ![De functie FILTER valideren die is toegepast op de in de cache opgeslagen gegevensbron Leverancier op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-10a.png)
 
 10. Zoals u ziet, treedt er een validatiefout op. Het bericht geeft aan dat de **FILTER**-functie niet kan worden toegepast op de gegevensbron **Vendor** in de cache.
 
 In de volgende afbeelding wordt de runtimefout weergegeven die optreedt als u de waarschuwing negeert en **Uitvoeren** selecteert om de indeling uit te voeren.
 
-![Runtimefout die optreedt tijdens het uitvoeren vanj de indelingstoewijzing op de pagina Indelingsontwerper](./media/er-components-inspections-10b.png)
+![Runtimefout die optreedt tijdens het uitvoeren van de indelingstoewijzing op de pagina Indelingsontwerper](./media/er-components-inspections-10b.png)
 
 ### <a name="automatic-resolution"></a>Automatische oplossing
 
@@ -656,7 +682,7 @@ Wijzig de expressie van de gegevensbron **FilteredVendor** van `FILTER(Vendor, V
 
 ## <a name="missing-binding"></a><a id="i11"></a>Binding ontbreekt
 
-Wanneer u een ER-indelingsonderdeel configureert, wordt het basis-ER-gegevensmodel als standaard gegevensbron aangeboden voor de ER-indeling. Wanneer de geconfigureerde ER-indeling wordt uitgevoerd, wordt de [standaardmodeltoewijzing](er-country-dependent-model-mapping.md) voor het basismodel gebruikt om het gegevensmodel met toepassingsgegevens te vullen. In de ER-indelingsontwerper wordt een waarschuwing weergegeven als u een indelingselement koppelt aan een gegevensmodelitem dat niet is gekoppeld aan een gegevensbron in de modeltoewijzing die momenteel is geselecteerd als standaardmodeltoewijzing voor de bewerkbare indeling. Dit type binding kan niet in runtime worden uitgevoerd, omdat de indeling die wordt uitgevoerd geen gebonden element kan vullen met toepassingsgegevens. Daarom treedt er een fout op tijdens runtime.
+Wanneer u een ER-indelingsonderdeel configureert, wordt het basis-ER-gegevensmodel als standaard gegevensbron aangeboden voor de ER-indeling. Wanneer de geconfigureerde ER-indeling wordt uitgevoerd, wordt de [standaardmodeltoewijzing](er-country-dependent-model-mapping.md) voor het basismodel gebruikt om het gegevensmodel met toepassingsgegevens te vullen. In de ER-indelignsontwerper wordt een waarschuwing weergegeven als u een indelingselement koppelt aan een gegevensmodelitem dat niet is gekoppeld aan een gegevensbron in de modeltoewijzing die momenteel is geselecteerd als standaardmodeltoewijzing voor de bewerkbare indeling. Dit type binding kan niet in runtime worden uitgevoerd, omdat de indeling die wordt uitgevoerd geen gebonden element kan vullen met toepassingsgegevens. Daarom treedt er een fout op tijdens runtime.
 
 De volgende stappen laten zien hoe dit probleem kan optreden.
 
@@ -671,10 +697,10 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 
     ![Geneste velden toevoegen aan het leveranciersitem op de pagina Gegevensmodel](./media/er-components-inspections-11a.png)
 
-6. Voeg in het deelvenster voor gegevensbronnen voor modeltoewijzing een gegevensbron van het type **Dynamics 365 for Operations \\ Tabelrecords** toe.
+6. Voeg in de ontwerper voor modeltoewijzing, in het deelvenster **Gegevensbronnen**, een gegevensbron van het type **Dynamics 365 for Operations \\ Tabelrecords** toe.
 7. Geef de nieuwe gegevensbron de naam **Vendor**. Selecteer in het veld **Tabel** de optie **VendTable** om aan te geven dat deze gegevensbron de tabel VendTable moet opvragen.
 8. Voeg een gegevensbron van het type **Algemeen \\ Gebruikersinvoerparameter** toe om te informeren naar een leveranciersrekening in het runtimedialoogvenster.
-Geef de nieuwe gegevensbron de naam **RequestedAccountNum**. Voer in het veld **Label** de tekst **Rekeningnummer leverancier** in. Laat in het veld **Naam van gegevenstype voor bewerkingen** de standaardwaarde **Description** ongewijzigd.
+9. Geef de nieuwe gegevensbron de naam **RequestedAccountNum**. Voer in het veld **Label** de tekst **Rekeningnummer leverancier** in. Laat in het veld **Naam van gegevenstype voor bewerkingen** de standaardwaarde **Description** ongewijzigd.
 10. Voeg een gegevensbron van het type **Berekend veld** toe om een leverancier te filteren die is opgevraagd.
 11. Noem de nieuwe gegevensbron **FilteredVendor** en configureer deze zodat deze de expressie `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)` bevat.
 12. Bind de gegevensmodelitems op de volgende manier aan geconfigureerde gegevensbronnen:
@@ -685,7 +711,7 @@ Geef de nieuwe gegevensbron de naam **RequestedAccountNum**. Voer in het veld **
     > [!NOTE]
     > Het gegevensmodelveld **Vendor.Name** blijft ongebonden.
 
-    ![Gegevensmodelitems die zijn gebonden aan geconfigureerde gegevensbronnen en een gegevensmodusitem op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-11b.png)
+    ![Gegevensmodelitems die zijn gebonden aan geconfigureerde gegevensbronnen en een gegevensmodusitem dat ongebonden blijft op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-11b.png)
 
 13. Voeg in de indelingsstructuur de volgende items toe om een uitgaand document te genereren in XML-indeling dat de details bevat van de leveranciers waarnaar is geïnformeerd:
 
@@ -708,7 +734,7 @@ Geef de nieuwe gegevensbron de naam **RequestedAccountNum**. Voer in het veld **
 
 16. Zoals u ziet, treedt er een validatiewaarschuwing op. Het bericht geeft aan dat gegevensbronveld **model.Vendor.Name** niet is gebonden aan een gegevensbron in de modeltoewijzing die is geconfigureerd voor gebruik door de indeling. Daarom kan het indelingselement **Statement\\Party\\Name** niet worden gevuld tijdens runtime en kan er een runtime-uitzondering optreden.
 
-    ![ER-indelingsonderdeel valideren op de pagina Indelingsontwerper](./media/er-components-inspections-11d.png)
+    ![Het ER-indelingsonderdeel valideren op de pagina Indelingsontwerper](./media/er-components-inspections-11d.png)
 
 In de volgende afbeelding wordt de runtimefout weergegeven die optreedt als u de waarschuwing negeert en **Uitvoeren** selecteert om de indeling uit te voeren.
 
@@ -726,7 +752,7 @@ Wijzig de geconfigureerde modeltoewijzing door een binding toe te voegen voor he
 
 #### <a name="option-2"></a>Optie 2
 
-Wijzig de geconfigureerde indeling door een binding te verwijderen voor het indelingselement **Statement\\Party\\Name**.
+Wijzig de geconfigureerde indeling door de binding te verwijderen voor het indelingselement **Statement\\Party\\Name**.
 
 ## <a name="not-linked-template"></a><a id="i12"></a>Niet-gekoppelde sjabloon
 
@@ -743,7 +769,7 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 
     ![Het bewerkbare-bestandsonderdeel van werkmapbestand valideren op de pagina Indelingsontwerper](./media/er-components-inspections-12a.gif)
 
-7. Zoals u ziet, treedt er een validatiewaarschuwing op. Het bericht geeft aan dat het werkmapbestand **B.xlsx** niet is gekoppeld aan onderdelen en dat het wordt verwijderd nadat de status van de configuratieversie is gewijzigd.
+7. Zoals u ziet, treedt er een validatiewaarschuwing op. Het bericht geeft aan dat het werkmapbestand B.xlsx niet is gekoppeld aan onderdelen en dat het wordt verwijderd nadat de status van de configuratieversie is gewijzigd.
 
 ### <a name="automatic-resolution"></a>Automatische oplossing
 
@@ -766,7 +792,7 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
     > [!IMPORTANT]
     > Controleer of de toegevoegde Excel-werkmap geen naam **ReportTitle** bevat.
 
-4. Voeg het volgende **Excel\\Cell**-element **Titel** toe als het geneste element van het element **Rapport**. Voer in het veld **Excel-bereik** de waarde **ReportTitle** in.
+4. Voeg het **Excel\\Cell**-element **Titel** toe als een genest element van het element **Rapport**. Voer in het veld **Excel-bereik** de waarde **ReportTitle** in.
 5. Selecteer **Valideren** om het bewerkbare indelingsonderdeel te inspecteren op de pagina **Indelingsontwerper**.
 
     ![De geneste elementen en velden valideren op de pagina Indelingsontwerper](./media/er-components-inspections-13a.png)
@@ -793,6 +819,55 @@ Wijzig de geconfigureerde indeling door alle elementen te verwijderen die verwij
 
 Zie [De structuur van een sjabloon voor bedrijfsdocumenten bijwerken](er-bdm-update-structure.md) als u wilt weten hoe de indelingsstructuur kan worden gesynchroniseerd met een ER-sjabloon in de sjablooneditor van [Beheer van bedrijfsdocumenten](er-business-document-management.md).
 
+## <a name="not-synced-with-a-word-template-format"></a><a id="i14"></a>Niet gesynchroniseerd met een Word-sjabloonindeling
+
+Wanneer u een ER-indelingsonderdeel [configureert](er-fillable-excel.md) om een Word-sjabloon te gebruiken voor het genereren van een uitgaand document, kunt u het element **Excel\\File** handmatig toevoegen, de vereiste Word-sjabloon toevoegen als een bijlage van het bewerkbare onderdeel en die bijlage selecteren in het toegevoegde element **Excel\\File**.
+
+> [!NOTE]
+> Wanneer het Word-document is gekoppeld, geeft de ontwerper van de ER-indeling het bewerkbare element weer als **Word\\File**.
+
+Op deze manier geeft u aan dat het toegevoegde element de geselecteerde sjabloon tijdens runtime zal vullen. Omdat de toegevoegde Word-sjabloon extern is ontworpen, kan de bewerkbare ER-indeling mogelijk verwijzingen naar Word-inhoudsbesturingselementen bevatten die ontbreken in de toegevoegde sjabloon. In de ER-indelingsontwerper wordt een waarschuwing weergegeven over eventuele verschillen tussen de eigenschappen van de ER-indelingselementen die verwijzen naar inhoudsbesturingselementen die niet in de toegevoegde Word-sjabloon zijn opgenomen.
+
+Zie [De bewerkbare indeling configureren om de overzichtssectie te onderdrukken](er-design-configuration-word-suppress-controls.md#configure-to-suppress-control) voor een voorbeeld van het optreden van dit probleem.
+
+### <a name="automatic-resolution"></a>Automatische oplossing
+
+Er is geen optie beschikbaar om dit probleem automatisch op te lossen.
+
+### <a name="manual-resolution"></a>Handmatige oplossing
+
+#### <a name="option-1"></a>Optie 1
+
+Wijzig de geconfigureerde indeling door de formule **Verwijderd** te verwijderen uit het indelingselement dat wordt genoemd in de validatiewaarschuwing.
+
+#### <a name="option-2"></a>Optie 2
+
+Pas het gebruik van de Word-sjabloon aan door het vereiste label [toe te voegen](er-design-configuration-word-suppress-controls.md#tag-control) aan het relevante Word-inhoudsbesturingselement.
+
+## <a name="no-default-mapping"></a><a id="i15"></a>Geen standaardtoewijzing
+
+Wanneer de inspectie [Ontbrekende binding](#i11) is uitgevoerd, worden de geïnspecteerde indelingsbindingen geëvalueerd aan de hand van de bindingen van het relevante modeltoewijzingsonderdeel. Aangezien u [verschillende](./tasks/er-manage-model-mapping-configurations-july-2017.md) ER-modeltoewijzingsconfiguraties kunt importeren in uw Finance-exemplaar en elke configuratie het toepasselijke modeltoewijzingsonderdeel kan bevatten, moet één configuratie als de standaardconfiguratie worden geselecteerd. Als u anders de geïnspecteerde ER-indeling probeert uit te voeren, te bewerken of te valideren, treedt er een uitzondering op en ontvangt u het volgende bericht: "Er bestaat meer dan één modeltoewijzing voor het gegevensmodel \<model name (root descriptor)\> in de configuraties \<configuration names separated by comma\>. Stel een van de configuraties als standaard in.
+
+Zie [Verschillende afgeleide toewijzingen voor één modelbasis beheren](er-multiple-model-mappings.md) voor een voorbeeld dat laat zien hoe dit probleem kan optreden en hoe dit kan worden opgelost.
+
+## <a name="inconsistent-setting-of-header-or-footer-components"></a><a id="i16"></a>Inconsistente instelling van kop- of voettekstonderdelen
+
+Wanneer u een onderdeel voor een ER-indeling [configureert](er-fillable-excel.md) om een Excel-sjabloon te gebruiken voor het genereren van een uitgaand document, kunt u het onderdeel **Excel\\Header** toevoegen om kopteksten boven aan een werkblad in een Excel-werkmap toe te voegen. U kunt ook het onderdeel **Excel\\Footer** toevoegen om voetteksten onder aan een werkblad toe te voegen. Voor elk onderdeel **Excel\\Header** of **Excel\\Footer** dat u toevoegt, moet u de weergave-eigenschap **Vormgeving kop-/voettekst** zo instellen dat de pagina's worden opgegeven waarvoor het onderdeel wordt uitgevoerd. Aangezien u verschillende onderdelen voor **Excel\\Header** of **Excel\\Footer** kunt configureren voor een enkel onderdeel **Werkblad** en u verschillende kop- of voetteksten kunt genereren voor verschillende typen pagina's in een Excel-werkblad, moet u één onderdeel **Excel\\Header** of **Excel\\Footer** configureren voor een specifieke waarde van de eigenschap **Vormgeving kop-/voettekst**. Als meerdere onderdelen **Excel\\Header** of **Excel\\Footer** zijn geconfigureerd voor een specifieke waarde van de eigenschap **Vormgeving kop-/voettekst**, treedt er een validatiefout op en wordt het volgende foutbericht weergegeven: 'Kop-/voetteksten (&lt;onderdeeltype: Koptekst of Voettekst&gt;) zijn inconsistent'.
+
+### <a name="automatic-resolution"></a>Automatische oplossing
+
+Er is geen optie beschikbaar om dit probleem automatisch op te lossen.
+
+### <a name="manual-resolution"></a>Handmatige oplossing
+
+#### <a name="option-1"></a>Optie 1
+
+Pas de geconfigureerde indeling aan door een van de inconsistente onderdelen **Excel\\Header** of **Excel\\Footer** te verwijderen.
+
+#### <a name="option-2"></a>Optie 2
+
+Wijzig de waarde van de eigenschap **Vormgeving kop-/voettekst** voor een van de inconsistente onderdelen **Excel\\Header** of **Excel\\Footer**.
+
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [De ER-functie ALLITEMS](er-functions-list-allitems.md)
@@ -812,6 +887,10 @@ Zie [De structuur van een sjabloon voor bedrijfsdocumenten bijwerken](er-bdm-upd
 [De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen](trace-execution-er-troubleshoot-perf.md)
 
 [Overzicht van Beheer van bedrijfsdocumenten](er-business-document-management.md)
+
+[Besturingselementen voor Word-inhoud onderdrukken in gegenereerde rapporten](er-design-configuration-word-suppress-controls.md)
+
+[Verschillende afgeleide toewijzingen voor één modelbasis beheren](er-multiple-model-mappings.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

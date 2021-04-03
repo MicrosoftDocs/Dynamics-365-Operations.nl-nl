@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d91f377af2514af932ea585adb75a56bdee13871
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ec7417d44a7c2aa413a9cda75996c153727632dd
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988471"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592641"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Aan de slag met de invoegtoepassing voor elektronische facturering voor Mexico
 
@@ -291,7 +291,7 @@ Nadat u de functie **Integratie configureerbare invoegtoepassing voor elektronis
     ![Details van indieningslogboeken van annuleringen weergeven](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Privacyverklaring
-Als u de functies MX-00010 en MX-00016 (CFDI-factuur en CFDI-annulering) inschakelt, moet u misschien beperkte gegevens verzenden, waaronder de btw-id van de organisatie. Deze gegevens worden verzonden naar instanties van derden die door de belastingdienst zijn gemachtigd elektronische facturen naar de belastingdienst te verzenden in de vooraf gedefinieerde indeling die nodig is voor integratie met de webservice van de overheid. Een beheerder kan de functies MX-00010 en MX-00016 (CFDI-factuur en CFDI-annulering) in- en uitschakelen door te navigeren naar **Organisatiebeheer \> Instellingen \> Parameters voor elektronische documenten**. Selecteer het tabblad **Functies** en selecteer de rijen met de functies MX-00010 en MX-00016 en maak de gewenste selectie. Op gegevens die zijn geïmporteerd van deze externe systemen naar deze Dynamics 365 online service , is de [privacyverklaring](https://go.microsoft.com/fwlink/?LinkId=512132) van toepassing. Zie de secties met betrekking tot de Privacyverklaring in documentatie over landspecifieke functies voor meer informatie.
+Voor het inschakelen van de functie **CFDI Mexicaanse elektronische factuur (MX)** moeten mogelijk beperkte gegevens worden verzonden, waaronder de belastingregistratie-id voor de organisatie. Deze gegevens worden verzonden naar instanties van derden die door de belastingdienst zijn gemachtigd elektronische facturen naar de belastingdienst te verzenden in de vooraf gedefinieerde indeling die nodig is voor integratie met de webservice van de overheid. Een beheerder kan de functie **CFDI Mexicaanse elektronische factuur (MX)** in- en uitschakelen door te navigeren naar **Organisatiebeheer \> Instellingen \> Parameters voor elektronische documenten**. Selecteer op het tabblad **Functies** de rijen met de functie **CFDI Mexicaanse elektronische factuur (MX)** en maak de juiste selectie. Op gegevens die zijn geïmporteerd van deze externe systemen naar deze Dynamics 365 online service , is de [privacyverklaring](https://go.microsoft.com/fwlink/?LinkId=512132) van toepassing. Zie de secties met betrekking tot de Privacyverklaring in documentatie over landspecifieke functies voor meer informatie.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

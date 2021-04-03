@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
+ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131788"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500569"
 ---
 # <a name="creating-work-orders"></a>Werkorders maken
 
@@ -62,8 +62,7 @@ Volg deze stappen om werkorders te maken op basis van uw onderhoudsschema.
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Werkorderregels groeperen die automatisch worden gemaakt terwijl een onderhoudsplan wordt uitgevoerd
 
-> [!IMPORTANT]
-> De functionaliteit die in deze sectie wordt beschreven, is beschikbaar als onderdeel van een beperkte previewversie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Veelgestelde vragen over updates van service met één versie](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 Met deze functie kunt u regels definiëren voor het groeperen van werkorderregels onder één werkorder wanneer het systeem is ingesteld om automatisch werkorders te genereren op basis van een onderhoudsplan. Eerder automatisch gegenereerde werkorders kunnen slechts één regel bevatten. U kunt werkorders nu echter wel groeperen op bijvoorbeeld activa, activatype of functionele locatie. (Handmatig gegenereerde werkorders konden al op deze manier worden gegroepeerd, zoals wordt beschreven in de vorige sectie van dit onderwerp.)
 
