@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0ea50500ed52069ab9f6aae0dfb2d6cffc47cbff
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f7aaa4e1fee12092be0389f0641e64712e869e6a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006835"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260354"
 ---
 # <a name="mass-create-sales-quotations"></a>Verkoopoffertes massaal maken
 
@@ -41,10 +41,10 @@ Deze procedure toont hoe u efficiënt offertes maakt met een reeks producten of 
 9. Selecteer in het veld Rekeningtype de optie 'Klant'.
 10. Typ of selecteer een waarde in het veld Klantrekening.
 11. Klik op OK.
-    * Een offerte kan alleen een sjabloon worden als u op de offertekoptekst instellingsstappen uitvoert. U moet dit doen voordat u regels aan de offerte toevoegt.   
+    * Een offerte kan alleen een sjabloon worden als u op de offerteheader instellingsstappen uitvoert. U moet dit doen voordat u regels aan de offerte toevoegt.   
 12. Klik in het actievenster op Opties.
 13. Klik op Weergave wijzigen.
-14. Klik op Weergave kopteksten.
+14. Klik op Weergave headers.
 15. Vouw de sectie Instellingen uit.
 16. Typ of selecteer een waarde in het veld Groep-id.
 17. Typ een waarde in het veld Sjabloonnaam.

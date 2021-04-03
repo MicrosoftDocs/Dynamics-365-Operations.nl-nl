@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b2ec7130fbe8c397c30cdc2a76f34ecfdfdc0737
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 01b05b9df81d8d812d107a1c5b91ba368e9e737e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017913"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263633"
 ---
 # <a name="maintenance-checklists"></a>Onderhoudscontrolelijsten
 
@@ -43,7 +43,7 @@ Wanneer u met onderhoudscontrolelijsten in een werkorder werkt, kunt u de vooraf
 
 3. In **Controlelijst voor onderhoudstaken voor werkorders** ziet u controlelijsten voor alle werkordertaken. Als de werkordertaken verschillende typen onderhoudstaken hebben, kunnen de onderhoudscontrolelijsten verschillen voor elke werkordertaak. Selecteer een werkordertaak om met de gerelateerde onderhoudscontrolelijst te werken. Details van de geselecteerde regel in een onderhoudscontrolelijst worden weergegeven op het sneltabblad **Regeldetails**.
 
-4. Vul alle regels van de onderhoudscontrolelijst één voor één in in de volgorde waarin ze worden weergegeven. U voltooit een regel in een onderhoudscontrolelijst door de velden op het sneltabblad **Regeldetails** in te vullen. De informatie die nodig is voor het invullen van een regel kan variëren, afhankelijk van het regeltype. Op een regel van het type **Tekst** voegt u bijvoorbeeld een notitie toe waarin wordt uitgelegd wat het resultaat is van die controle. Op een regel van het type **Meting** voert u de tellerwaarde in die u hebt afgelezen op de apparatuur en kunt u zo nodig ook een notitie toevoegen. Een regel van het type **Koptekst** in de onderhoudscontrolelijst wordt gebruikt als kop om de regels van de onderhoudscontrolelijst eronder te groeperen. U hoeft geen koptekst in te vullen. Net als voor alle andere typen onderhoudscontrolelijstregels kunt u een notitie toevoegen aan een regel van het type **Koptekst**.
+4. Vul alle regels van de onderhoudscontrolelijst één voor één in in de volgorde waarin ze worden weergegeven. U voltooit een regel in een onderhoudscontrolelijst door de velden op het sneltabblad **Regeldetails** in te vullen. De informatie die nodig is voor het invullen van een regel kan variëren, afhankelijk van het regeltype. Op een regel van het type **Tekst** voegt u bijvoorbeeld een notitie toe waarin wordt uitgelegd wat het resultaat is van die controle. Op een regel van het type **Meting** voert u de tellerwaarde in die u hebt afgelezen op de apparatuur en kunt u zo nodig ook een notitie toevoegen. Een regel van het type **Header** in de onderhoudscontrolelijst wordt gebruikt als kop om de regels van de onderhoudscontrolelijst eronder te groeperen. U hoeft geen header in te vullen. Net als voor alle andere typen onderhoudscontrolelijstregels kunt u een notitie toevoegen aan een regel van het type **Header**.
 
 5. Als instructies betrekking hebben op een regel in een onderhoudscontrolelijst, is het selectievakje **Instructies** ingeschakeld. Lees de instructies voor de geselecteerde regel in de onderhoudscontrolelijst in het veld **Instructies** op het sneltabblad **Regeldetails**.
 
@@ -65,7 +65,7 @@ Onderhoudscontrolelijsten worden gemaakt op basis van de definitie in de standaa
 
 4. Typ een naam voor de regel voor de onderhoudscontrolelijst in het veld **Type**. Voor elk type onderhoudscontrolelijst worden de gerelateerde velden weergegeven op het sneltabblad **Regeldetails**.
     - **Tekst**: gebruik dit type om een onderhoudscontrolelijstregel met tekst toe te voegen die beschrijft wat moet worden gedaan. U kunt dit type onderhoudscontrolelijst bijvoorbeeld gebruiken als u wilt dat een medewerker iets controleert of inspecteert, zonder een specifiek (meetbaar) resultaat te verwachten. Nadat u dit type hebt geselecteerd, voert u op het sneltabblad **Regelsdetails** in het veld **Instructies** de tekst in waarin wordt beschreven wat moet worden gedaan.
-    - **Koptekst**: een regel van dit type in de onderhoudscontrolelijst wordt gebruikt als kop om de regels van de onderhoudscontrolelijst eronder te groeperen. Dit type is handig als u verschillende onderhoudscontrolelijstregels hebt die in specifieke gebieden kunnen worden onderverdeeld. Nadat u dit type hebt geselecteerd, voert u een beschrijvende naam in het veld **Naam** in.
+    - **Header**: een regel van dit type in de onderhoudscontrolelijst wordt gebruikt als kop om de regels van de onderhoudscontrolelijst eronder te groeperen. Dit type is handig als u verschillende onderhoudscontrolelijstregels hebt die in specifieke gebieden kunnen worden onderverdeeld. Nadat u dit type hebt geselecteerd, voert u een beschrijvende naam in het veld **Naam** in.
     - **Sjabloon**: dit type is niet van toepassing wanneer u handmatig een onderhoudscontrolelijstregel toevoegt aan een werkordertaak.  
     - **Variabele**: dit type wordt gebruikt om een mogelijk resultaat in een bereik te definiëren op de onderhoudscontroleregel. Raadpleeg [Categorieën van onderhoudstaaktypen en onderhoudstaaktypen, varianten van onderhoudstaaktypen, onderhoudstaakspecialismen en onderhoudscontrolelijsten](../setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md) voor meer informatie over hoe u variabelen voor onderhoudscontrolelijsten instelt. Nadat u dit type hebt geselecteerd, voert u een beschrijvende naam voor de variabele in het veld **Naam** in. Selecteer de variabele in het veld **Variabele** op het sneltabblad **Regeldetails**. Voer in het veld **Instructies** een omschrijvende tej=kst in voor wat moet worden gedaan.
     - **Meting**: gebruik dit type om een specifieke meting op de onderhoudscontrolelijstregel vast te leggen. Nadat u dit type hebt geselecteerd, voert u een naam voor de meting in het veld **Naam** in. Selecteer op het sneltabblad **Regeldetails** in de velden **Teller** en **Eenheid** de toepasselijke waarden. Voer in het veld **Instructies** een omschrijvende tej=kst in voor wat moet worden gedaan.
