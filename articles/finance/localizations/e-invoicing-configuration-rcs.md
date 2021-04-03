@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bb4a426bb54ee21197f9954d946d60ea55f5eb76
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104366"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592617"
 ---
 # <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>De invoegtoepassing voor elektronische facturering configureren in Regulatory Configuration Services (RCS)
 
@@ -64,7 +64,6 @@ In de volgende tabel worden de functies voor elektronische facturering weergegev
 | België        | Elektronische factuur België (BE)      | Verkoopfacturen en projectfacturen |
 | Brazilië         | Braziliaans NF-e (BR)                  | Fiscaal documentmodel 55, correcties, annuleringen en afkeuringen |
 | Brazilië         | Braziliaans NFS-e ABRASF Curitiba (BR) | Service belastingdocumenten |
-| Brazilië         | Braziliaans NFS-e São Paulo (BR)       | Service belastingdocumenten |
 | Denemarken        | Elektronische factuur Denemarken (DK)       | Verkoopfacturen en projectfacturen |
 | Egypte          | Elektronische factuur Egypte (EG) | Verkoopfacturen en projectfacturen |
 | Estland        | Elektronische factuur Estland (EE)     | Verkoopfacturen en projectfacturen |
@@ -119,10 +118,6 @@ In de volgende lijsten worden de configuraties van de ER-indelingen vermeld die 
 
 - NFS-e ABRASF Curitiba (BR)
 - NFS-e ABRASF opvragen Curitiba (BR)
-
-#### <a name="brazilian-br-nfs-e-nfs-e-so-paulo-city"></a>Braziliaans (BR) NFS-e: NFS-e São Paulo-stad
-
-- NFS-e Sao Paulo (BR)
 
 #### <a name="danish-dk-electronic-invoice-sales-and-project-invoices-for-denmark"></a>Deense (DK) elektronische factuur: verkoop- en projectfacturen voor Denemarken
 
@@ -210,7 +205,7 @@ In de volgende tabel staan de beschikbare acties en of deze momenteel in het alg
 | Braziliaanse SEFAZ-service aanroepen                  | Integreren met Braziliaanse SEFAZ-service voor het indienen van belastingdocument.       | Preview           |
 | Mexicaanse PAC-service aanroepen                      | Integreren met Mexicaanse VS-service voor CFDI-indiening.                      | Preview           |
 | Reactie verwerken                              | Het antwoord analyseren dat u van het webserviceoproep hebt ontvangen.                     | Algemeen beschikbaar  |
-| MS Power Automate gebruiken                         | Integreren met stroom die is gebouwd in Microsoft Power Automate.                       | Preview           |
+| MS Power Automate gebruiken                         | Integreer met stroom die is ingebouwd in Microsoft Power Automate.                       | Preview           |
 
 ## <a name="configuration-providers"></a>Configuratieproviders
 

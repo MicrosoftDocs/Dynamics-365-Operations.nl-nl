@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8c787dbc9889139df76b9b102deb18fce567e382
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: b704699c5e04f38c3b79691f935287f8f9c24fba
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5017863"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5263705"
 ---
 # <a name="manually-created-work-orders"></a>Handmatig gemaakte werkorders
 
@@ -73,7 +73,7 @@ Let op de volgende punten:
 
 - De kritieke eigenschappen van een werkorder worden telkens opnieuw berekend wanneer een werkordertaak wordt toegevoegd aan of verwijderd uit de werkorder.
 
-- In de detailweergave **Alle werkorders** > tabblad **Koptekst** > sneltabblad **Planning** kunt u een verantwoordelijke onderhoudsmedewerkersgroep of een verantwoordelijke onderhoudsmedewerker selecteren in het veld **Verantwoordelijke groep** of **Verantwoordelijke**. Deze instellingen kunnen worden gewijzigd terwijl de werkorder actief is. Ze kunnen bijvoorbeeld worden gewijzigd als de levenscyclusstatus van de werkorder verandert. De automatische selectie tijdens het maken van de werkorder is gebaseerd op de instellingen op de pagina **Verantwoordelijke onderhoudsmedewerkers**. Als u werkordertaken toevoegt of verwijdert nadat u een werkorder hebt gemaakt, en als de velden **Verantwoordelijke groep** en **Verantwoordelijke** leeg zijn wanneer u de werkorder bijwerkt, zoekt Activabeheer naar een mogelijke overeenkomst op de instellingenpagina voor een verantwoordelijke onderhoudsmedewerkersgroep of een verantwoordelijke onderhoudsmedewerker. Als het veld **Verantwoordelijke groep** of **Verantwoordelijke** al is ingesteld wanneer u de werkorder bijwerkt, worden er geen wijzigingen aangebracht. Zie [Verantwoordelijke onderhoudsmedewerkers](../setup-for-maintenance-requests/responsible-workers.md) voor meer informatie over verantwoordelijke onderhoudsmedewerkers en onderhoudsmedewerkersgroepen.
+- In de detailweergave **Alle werkorders** > tabblad **Header** > sneltabblad **Planning** kunt u een verantwoordelijke onderhoudsmedewerkersgroep of een verantwoordelijke onderhoudsmedewerker selecteren in het veld **Verantwoordelijke groep** of **Verantwoordelijke**. Deze instellingen kunnen worden gewijzigd terwijl de werkorder actief is. Ze kunnen bijvoorbeeld worden gewijzigd als de levenscyclusstatus van de werkorder verandert. De automatische selectie tijdens het maken van de werkorder is gebaseerd op de instellingen op de pagina **Verantwoordelijke onderhoudsmedewerkers**. Als u werkordertaken toevoegt of verwijdert nadat u een werkorder hebt gemaakt, en als de velden **Verantwoordelijke groep** en **Verantwoordelijke** leeg zijn wanneer u de werkorder bijwerkt, zoekt Activabeheer naar een mogelijke overeenkomst op de instellingenpagina voor een verantwoordelijke onderhoudsmedewerkersgroep of een verantwoordelijke onderhoudsmedewerker. Als het veld **Verantwoordelijke groep** of **Verantwoordelijke** al is ingesteld wanneer u de werkorder bijwerkt, worden er geen wijzigingen aangebracht. Zie [Verantwoordelijke onderhoudsmedewerkers](../setup-for-maintenance-requests/responsible-workers.md) voor meer informatie over verantwoordelijke onderhoudsmedewerkers en onderhoudsmedewerkersgroepen.
 
 - Op de pagina [Onderhoudsstatus](../controlling-and-reporting/maintenance-status.md) kunt u een berekening uitvoeren om een overzicht te krijgen van de werkbelasting voor inkomende en voltooide werkorders.  
 

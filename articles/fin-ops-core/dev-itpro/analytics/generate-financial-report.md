@@ -1,12 +1,11 @@
 ---
 title: Financiële rapporten genereren
 description: Dit onderwerp biedt informatie over het genereren van een financieel rapport.
-author: aprilolson
+author: jinniew
 manager: AnnBe
-ms.date: 09/26/2018
+ms.date: 03/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e8b688cb1e4589eb076015d01dc4f0f0db14787e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 742361162c2f502bf479a9ab518054020617af93
+ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688312"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5572416"
 ---
 # <a name="generate-financial-reports"></a>Financiële rapporten genereren
 
@@ -30,7 +29,7 @@ ms.locfileid: "4688312"
 
 Dit onderwerp biedt informatie over het genereren van een financieel rapport.
 
-Om een rapport te genereren, open de rapportdefinitie en klik vervolgens op de knop Genereren in de werkbalk. Het venster De Status van de rapportwachtrij wordt geopend en geeft de locatie van uw rapport in de wachtrij aan. Standaard, wordt het gegenereerde rapport in de Webkijker geopend.
+Om een rapport te genereren, open de rapportdefinitie en selecteer vervolgens de knop **Genereren** op de werkbalk. Het venster **Status van de rapportwachtrij** wordt geopend en geeft de locatie van uw rapport in de wachtrij aan. Standaard, wordt het gegenereerde rapport in de Webkijker geopend.
 
 De volgende opties zijn beschikbaar voor het genereren van rapporten:
 
@@ -43,14 +42,24 @@ Wanneer u een rapport genereert, worden de opties gebruikt die u op de tabbladen
 
 Voor het genereren van een financieel rapport gaat u naar **Grootboek** \> **Query's en rapporten** \> **Financiële rapporten**.
 
-- Selecteer het rapport dat u wilt genereren en klik op **Genereren**.
-- Vul het veld **Rapportdatum** in en klik op **OK**.
+- Selecteer het rapport dat u wilt genereren en selecteer vervolgens **Genereren**.
+- Vul het veld **Rapportdatum** in en selecteer **OK**.
 
 Als het rapport is gegenereerd, kan het rapport worden weergeven in de sectie **Rapporten**.
 
 U kunt het rapport **weergeven** of **verwijderen**.
 
-Als u een rapport wilt genereren met **Rapportontwerper**, opent u de rapportdefinitie en klikt u op de knop Genereren in de werkbalk. Het venster De Status van de rapportwachtrij wordt geopend en geeft de locatie van uw rapport in de wachtrij aan. Standaard, wordt het gegenereerde rapport in de Webkijker geopend.
+Als u een rapport wilt genereren met **Rapportontwerper**, opent u de rapportdefinitie en selecteer u vervolgens de knop **Genereren** op de werkbalk. Het venster **Status van de rapportwachtrij** wordt geopend en geeft de locatie van uw rapport in de wachtrij aan. Standaard, wordt het gegenereerde rapport in de Webkijker geopend.
+
+## <a name="report-groups"></a>Rapportgroepen
+
+Rapportgroepen zijn een efficiënte manier om verschillende rapporten tegelijk te genereren. Stel dat u weet dat uw gebruikers aan het einde van de maand acht rapporten per maand genereren. Maak een rapportgroep en selecteer in plaats van **Genereren** voor elk van de acht rapporten in de groep de optie **Genereren** voor de hele rapportgroep, zodat de acht rapporten in één stap worden gegenereerd. Wanneer de rapporten in de geselecteerde rapportgroep zijn gegenereerd, kunt u naar **Financiële rapporten** (**Grootboek > Opvragen en rapporten > Financiële rapporten**) gaan om de afzonderlijke rapporten weer te geven. Voer de volgende stappen uit om een rapportgroep in te stellen:
+
+1. Selecteer **Rapportgroepen** in Report Designer. 
+2. Selecteer de bestaande rapportdefinities die u in de rapportgroep wilt opnemen. 
+3. Selecteer overschrijvende bedrijfs-, detail- en datuminstellingen voor elk van de rapporten die in de groep worden opgenomen.
+   Het is raadzaam om voor elk rapport **Bedrijf**, **Periode**, **Jaar** en **Detailniveau** in te stellen. 
+4. Sla de rapportgroep op.
 
 ## <a name="schedule-report-generation"></a>Het genereren van rapporten plannen
 Veel bedrijven hebben een aantal standaardrapporten die op geplande tijdstippen worden uitgevoerd in overeenstemming met hun bedrijfsprocessen. U kunt een rapport plannen om regelmatig worden gegenereerd, bijvoorbeeld dagelijks, wekelijks, maandelijks, of jaarlijks. U kunt één rapport plannen, of een groep rapporten die betrekking hebben op meerdere bedrijven. U moet uw referenties invoeren voor elk bedrijf dat is opgegeven, zoals die in een rapporteringsstructuurdefinitie. Als de gebruikersgegevens niet geldig zijn wordt in het rapport alleen de informatie waar u voor gemachtigd bent weergegeven, zoals het bedrijf waar u op dat moment bent aangemeld. De uitvoer informatie wordt eerst gelezen uit de rapportgroep, en vervolgens uit de afzonderlijke rapporten.
@@ -62,36 +71,36 @@ Als rapportplanning worden gemaakt en opgeslagen, worden deze weergegeven in het
 
 ### <a name="create-a-report-schedule"></a>Een rapportplanning maken.
 
-1. In Report Designer, op het Bestand menu, klik Nieuw, en selecteer Rapportplan. Het dialoogvenster Nieuwe Rapportplanning wordt geopend.
-2. Onder Instellingen, selecteer een afzonderlijk rapport of een rapportgroep voor de planning. Alleen rapporten of rapportgroepen voor de selectie bedrijven of bouwstenen waarvoor u momenteel bent aangemeld, zijn beschikbaar.
-3. Schakel het selectievakje Actief in om de rapportplanning in te schakelen. Alleen de maker (ontwerper) van het rapport of een beheerder kan een rapportplanning in- of uitschakelen.
-4. Klik op de knop Machtigingen om bedrijfsreferenties in te voeren. Standaard worden uw aanmeldingsgegevens gebruikt voor het bedrijf waarbij u bent aangemeld. Als er ook andere bedrijven zijn, zoals in rapporteringsstructuurdefinities, selecteert u Afzonderlijke referenties gebruiken en voert u vervolgens de referenties in voor alle overige bedrijven in de rapportplanning. U kunt Windows-verificatie selecteren of een gebruikersnaam en wachtwoord voor elk bedrijf typen. Selecteer het selectievakje om Sla referenties om de gebruikergegevens voor deze bedrijven op te slaan, en klik vervolgens OK om het dialoogvenster te sluiten.
-5. Onder Frequentie, in het veld Beginherhaling, selecteer de datum wanneer de planning moet beginnen. Standaard wordt de huidige systeemdatum van de clientcomputer geselecteerd.
-6. Selecteer in het veld Rapport uitvoeren op het tijdstip waarop het rapport moet worden uitgevoerd. Als u een tijdstip vóór de huidige systeemtijd invoert, wordt het rapport uitgevoerd op de volgende geplande datum.
-7. Geef in het gebied Terugkeerpatroon op hoe vaak het rapport moet worden uitgevoerd. Standaard is Dagelijks geselecteerd met een waarde voor Interval (dagen) van 1. Overige opties zijn Wekelijks, Maandelijks of Jaarlijks.
+1. Selecteer in Report Designer in het menu **Bestand** de optie **Nieuw** en selecteer vervolgens **Rapportplan**. Het dialoogvenster **Nieuwe rapportplanning** wordt geopend.
+2. Selecteer onder **Instellingen** een afzonderlijk rapport of een rapportgroep voor de planning. Alleen rapporten of rapportgroepen voor de selectie bedrijven of bouwstenen waarvoor u momenteel bent aangemeld, zijn beschikbaar.
+3. Schakel het selectievakje **Actief** in om de rapportplanning in te schakelen. Alleen de maker (ontwerper) van het rapport of een beheerder kan een rapportplanning in- of uitschakelen.
+4. Selecteer de knop **Machtigingen** om bedrijfreferenties in te voeren. Standaard worden uw aanmeldingsgegevens gebruikt voor het bedrijf waarbij u bent aangemeld. Als andere bedrijven zijn inbegrepen, zoals in rapporteringsstructuurdefinities, selecteert u **Afzonderlijke gebruikersgegevens gebruiken** en voert u vervolgens de gebruikersgegevens in voor elk ander bedrijf dat in de rapportplanning is opgenomen. U kunt **Windows-Verificatie** selecteren of een gebruikersnaam en wachtwoord voor elk bedrijf typen. Schakel het selectievakje **Referenties opslaan** in om de gebruikergegevens voor deze bedrijven op te slaan en selecteer vervolgens **OK** om het dialoogvenster te sluiten.
+5. Selecteer onder **Frequentie**, in het veld **Beginherhaling** de datum wanneer de planning moet ingaan. Standaard wordt de huidige systeemdatum van de clientcomputer geselecteerd.
+6. Selecteer in het veld **Rapport uitvoeren op** de tijd waarop het rapport moet worden uitgevoerd. Als u een tijdstip vóór de huidige systeemtijd invoert, wordt het rapport uitgevoerd op de volgende geplande datum.
+7. Geef in het gebied **Herhalingspatroon** op hoe dikwijls het rapport wordt uitgevoerd. Standaard is **Dagelijks** geselecteerd met een waarde voor Interval (dagen) van 1. Overige opties zijn Wekelijks, Maandelijks of Jaarlijks.
 8. Selecteer in het gebied Bereik van terugkeerpatroon wanneer het rapport niet meer moet worden gegenereerd.
 
-    - Geen einddatum – De rapportplanning wordt oneindig uitgevoerd.
-    - Aantal voorvallen – De rapportplanning wordt het opgegeven aantal keer uitgevoerd en daarna uitgeschakeld.
-    - Beëindigen voor – De rapportplanning wordt beëindigd op de opgegeven datum.
+    - **Geen einddatum**: de rapportplanning wordt voor onbepaalde tijd uitgevoerd.
+    - **Aantal voorvallen**: de rapportplanning wordt het opgegeven aantal keren uitgevoerd en wordt vervolgens uitgeschakeld.
+    - **Beëindigen voor**: de rapportplanning eindigt op de opgegeven datum.
 
-9. Klik op Opslaan op de werkbalk. Geef in het dialoogvenster Opslaan als een unieke naam en beschrijving op voor de rapportplanning.
+9. Selecteer **Opslaan**. Geef in het dialoogvenster **Opslaan als** een unieke naam en beschrijving op voor de rapportplanning.
 
 Om rapportplanning te kopieeren moet u de rol van ontwerper of beheerder hebben. Zelfs als een beheerder het rapportplan wijzigt, behoudt het rapport de referenties van de gebruiker die het rapport heeft gemaakt.
 
 ### <a name="copy-a-report-schedule"></a>Een rapportplanning kopiëren.
 
-1. In Report Designer, klik op Rapportplannen in het navigatievenster, en open een rapportplan om te kopiëren.
-2. Klik in het menu Bestand op Opslaan als en typ een nieuwe naam en beschrijving voor de planning in het dialoogvenster Opslaan als. Klik op OK. De nieuwe planning wordt weergegeven in het navigatievenster.
-3. In het nieuwe schema, wijzigt u de velden en informatie als nodig, en klik vervolgens Opslaan op de werkbalk, of klik Opslaan op het Bestand menu.
+1. Selecteer in Report Designer de optie **Rapportplannen** in het navigatievenster en open een rapportplan om te kopiëren.
+2. Selecteer in het **Bestand** menu, de optie **Opslaan als** en voer vervolgens een nieuwe naam en omschrijving voor het plan in het dialoogvenster **Opslaan als** in. Selecteer **OK**. De nieuwe planning wordt nu weergegeven in het navigatievenster.
+3. Wijzig on het nieuwe schema naar behoefte de velden en informatie en selecteer vervolgens **Opslaan** op de werkbalk of **Opslaan** in het menu **Bestand**.
 
 Om een rapportplan te verwijderen, moet u de eigenaar van het rapportplan zijn of rol van beheerder hebben.
 
 ### <a name="delete-a-report-schedule"></a>Verwijder een rapportplanning.
 
-1. Klik in Report Designer in het navigatievenster op Rapportgroepen.
-2. Selecteer de rapportplanning die u wilt verwijderen en klik vervolgens op Verwijderen of druk op de toets Delete.
-3. Klik in het bevestigingsvenster voor het verwijderen op Ja om de rapportplanning permanent te verwijderen. Als u geen machtigingen hebt om de planning te verwijderen, wordt een bericht weergegeven en het rapport wordt niet verwijderd.
+1. Selecteer in Report Designer de optie **Rapportplannen** in het navigatievenster.
+2. Selecteer vervolgens het te verwijderen rapportplan en selecteer **Verwijderen** of druk op de toets **Delete**.
+3. Selecteer **Ja** in het dialoogvenster voor de verwijderingsverificatie om het rapportplan definitief te verwijderen. Als u geen machtigingen hebt om de planning te verwijderen, wordt een bericht weergegeven en het rapport wordt niet verwijderd.
 
 ### <a name="credentials-and-report-schedules"></a>Referenties en rapportschema's
 
@@ -103,10 +112,10 @@ Bijvoorbeeld: een gebruiker meldt zich aan bij bedrijf A met een gebruikersnaam 
 - Een rapport in een rapportgroep is gewijzigd.
 - Er is een nieuw rapport voor een aanvullend bedrijf toegevoegd aan een rapportgroep.
 
-Om door te gaan, klik op de knop Machtigingen in het dialoogvenster Rapportplanning, en voer vervolgens de juiste referenties in.
+U kunt doorgaan door de knop **Machtigingen** in het dialoogvenster **Rapportplanning** te selecteren en vervolgens de juiste referenties in te voeren.
 
 ## <a name="missing-account-analysis-feature"></a>Analysefunctie ontbrekende rekeningen
-U kunt voor financiële rekeningen en dimensies zoeken die kunnen missen van alle rijdefinities, rapporteringsstructuurdefinities, en rapportdefinities in een bouwsteengroep. Dit is handig wanneer u verschillende rekening of bouwstenen maakt of bijwerkt gedurende een korte periode, en u wilt controleren of alle nieuwe informatie in uw rapporten is opgenomen.
+U kunt voor financiële rekeningen en dimensies zoeken die kunnen missen van alle rijdefinities, rapporteringsstructuurdefinities, en rapportdefinities in een bouwsteengroep. Dit is handig wanneer u verschillende rekeningen of bouwstenen maakt of bijwerkt gedurende een korte periode, en u wilt controleren of alle nieuwe informatie in uw rapporten is opgenomen.
 
 Er worden ontbrekende rekeningen bepaald door de laagste en hoogste waarden te gebruiken van de rijdefinitie of rapporteringsstructuurdefinitie, waarna een lijst wordt weergegeven met rekeningen die zich niet in de rijdefinitie of rapporteringsstructuurdefinitie bevinden, maar wel in de financiële gegevens. Als een ontbrekende rekening hoger of lager is dan de waarden in de rijdefinitie, wordt deze rekening niet in de lijst met ontbrekende rekeningen opgenomen.
 
@@ -120,24 +129,24 @@ Rapporten die waardebereiken hebben minder kans om ontbrekende rekeningen te heb
 
 ### <a name="run-missing-account-analysis"></a>Draai ontbrekende rekeninganalyse
 
-1. In Report Designer, klik Extra, en klik dan op Ontbrekende Rekeninganalyse.
-2. Selecteer in het veld Bedrijfsfilter een bedrijf waarop u de resultaten wilt filteren of selecteer Alles (geen filter) om resultaten van alle beschikbare bedrijven weer te geven.
-3. Selecteer in het veld Dimensiefilter een dimensie waarop u de resultaten wilt filteren of selecteer Alles (geen filter) om resultaten van alle beschikbare dimensies weer te geven.
-4. Selecteer in het veld Groeperen op een optie voor het sorteren van de resultaten. U kunt resultaten sorteren op de bouwsteen waarop deze van invloed zijn of op de dimensie en waardesets.
+1. Selecteer in Report Designer de optie **Extra** en selecteer vervolgens **Ontbrekende Rekeninganalyse**.
+2. Selecteer in het veld **Bedrijfsfilter** een bedrijf om resultaten te filteren of selecteer **Alle (geen filter)** om alle resultaten van alle beschikbare bedrijven weer te geven.
+3. Selecteer in het veld **Dimensiefilter** een dimensie om resultaten te filteren of selecteer **Alle (geen filter)** om alle dimensiegegevens voor alle beschikbare dimensies weer te geven.
+4. Selecteer in het veld **Groeperen op** een optie om de resultaten te sorteren. U kunt resultaten sorteren op de bouwsteen waarop deze van invloed zijn of op de dimensie en waardesets.
 5. Controleer de weergegeven resultaten. Wanneer u in het bovenste deelvenster een item selecteert, wordt in het onderste deelvenster aanvullende informatie over de uitzondering weergegeven. Dit omvat gerelateerde dimensies, waarden en rapporten.
-6. Om het desbetreffende item te openen, klikt op het gekoppelde pictogram dat in het lijstdeelvenster wordt weergegeven, of met de rechtermuisknop op het item en selecteer Openen Om meerdere artikelen te selecteren, houdt de CTRL ingedrukt terwijl u de artikelen in het onderste deelvenster selecteert.
-7. Als eventuele waarden, bouwstenen, of rapporten worden geretourneerd die niet in de analyse worden opgenomen, klik dan met de rechtermuiskno op het item en selecteer Uitsluiten, of selecteer het Uitsluiten selectievakje naast het item om het artikel uit de lijst te verwijderen. De uitgesloten artikelen niet opgenomen wanneer de lijst wordt vernieuwd. Houd de Ctrl-toets ingedrukt terwijl u in het onderste deelvenster items selecteert als u meerdere items wilt selecteren. Schakel het selectievakje Uitgesloten bouwstenen en waarden weergeven in en klik op Vernieuwen als u alle items wilt weergeven, waaronder eventuele items die u eerder hebt uitgesloten van de analyse.
-8. Klik op Vernieuwen om uitzonderingen te vernieuwen die u hebt opgelost. Klik op Ja om alle resultaten te vernieuwen of klik op Nee om alleen de opgeloste items te vernieuwen.
+6. Om het desbetreffende item te openen, selecteert u het gekoppelde pictogram dat in het lijstdeelvenster wordt weergegeven of klikt umet de rechtermuisknop op het item en selecteert u **Openen**. Als u meerdere items wilt selecteren, houdt u de toets **Ctrl** ingedrukt terwijl u de items in het onderste deelvenster selecteert.
+7. Als eventuele waarden, bouwstenen, of rapporten worden geretourneerd die niet in de analyse moeten worden opgenomen, klikt u met de rechtermuiskno op het item en selecteert u **Uitsluiten** of schakelt u het selectievakje **Uitsluiten** naast het item in om het artikel uit de lijst te verwijderen. De uitgesloten artikelen niet opgenomen wanneer de lijst wordt vernieuwd. Als u meerdere items wilt selecteren, houdt u de toets **Ctrl** ingedrukt terwijl u de items in het onderste deelvenster selecteert. Schakel het selectievakje **Uitgesloten bouwstenen en waarden weergeven** in en selecteer vervolgens **Vernieuwen** als u alle items wilt weergeven, waaronder eventuele items die u eerder hebt uitgesloten van de analyse.
+8. Selecteer **Vernieuwen** om uitzonderingen te vernieuwen die u hebt geadresseerd. Selecteer **Ja** om volledige vernieuwing van alle resultaten uit te voeren of selecteer **Nee** om een gedeeltelijke vernieuwing uit te voeren van de geadresseerde items.
 
     > [!NOTE]
     > Het formulier wordt tijdens het openen automatisch vernieuwd, tenzij het formulier in de afgelopen 15 minuten al is geopend.
 
-9. Wanneer er problemen worden opgelost, klik op OK om het dialoogvenster te sluiten.
+9. Wanneer er problemen worden opgelost, selecteert u **OK** om het dialoogvenster te sluiten.
 
 ## <a name="keyboard-shortcuts-for-missing-account-analysis"></a>Sneltoetsen voor ontbrekende rekeninganalyse
 Wanneer u een ontbrekende rekeninganalyse uitvoert, zijn de volgende sneltoetsen beschikbaar.
 
-| Actie                           | Gebruik deze toetsenbordsneltoets |
+| Gewenste bewerking                           | Druk op |
 |--------------------------------------|----------------------------|
 | Filteren op bedrijf                    | Alt+C                      |
 | Filteren op dimensie                  | Alt+D                      |
