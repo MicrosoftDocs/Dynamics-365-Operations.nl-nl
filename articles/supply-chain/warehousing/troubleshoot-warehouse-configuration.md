@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 09b5770190fea9591f422b61ce6deedb2b9fa790
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993998"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487092"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Problemen met magazijnconfiguratie oplossen
 
@@ -109,5 +109,32 @@ Om werknemers in staat te stellen deze wijziging door te voeren, kunt u een menu
 
 U kunt desgewenst andere velden op de pagina instellen.
 
+## <a name="the-dock-management-profile-of-a-location-profile-is-not-preventing-inventory-types-from-being-mixed"></a>Het dockbeheerprofiel van een locatieprofiel zorgt er niet voor dat voorraadtypen niet worden gemengd.
+
+### <a name="issue-description"></a>Probleembeschrijving
+
+U maakt gebruik van *Beleidsregels voor samenvoegen van zendingen*. U hebt een *dockbeheerprofiel* ingesteld voor een *locatieprofiel*, maar wanneer er werk wordt gemaakt, worden de voorraadtypen gemengd op de laatste locatie.
+
+### <a name="issue-resolution"></a>Probleemoplossing
+
+Voor dockbeheerprofielen moet werk vooraf worden opgesplitst. Met andere woorden, het dockbeheerprofiel verwacht dat een werkkoptekst niet meerdere wegzetlocaties bevat.
+
+Er moet een werkkoptekstopsplitsing worden ingesteld om het mengen van voorraad op een effectieve manier te beheren via het dockbeheerprofiel.
+
+In dit voorbeeld is ons dockbeheerprofiel zo geconfigureerd dat **Voorraadtypen die niet mogen worden gemengd** wordt ingesteld op *Zending-id*. Hiervoor stellen we een werkkoptekstopsplitsing in:
+
+1. Ga naar **Magazijnbeheer \> Instellen \> Werk \> Werksjablonen**.
+1. Selecteer het **Werkordertype** dat u wilt bewerken (bijvoorbeeld *Inkooporders*).
+1. Selecteer de werksjabloon die u wilt bewerken.
+1. Selecteer **Query bewerken** in het actievenster.
+1. Open het tabblad **Sorteren** en voeg een rij toe met de volgende instellingen:
+    - **Tabel** - *Tijdelijke werktransacties*
+    - **Afgeleide tabel** - *Tijdelijke werktransacties*
+    - **Veld** - *Zending-id*
+1. Selecteer **OK**.
+1. U keert terug naar de pagina **Werksjablonen**. Selecteer **Opsplitsingen voor werkkoptekst** in het actievenster.
+1. Selecteer **Bewerken** in het actievenster.
+1. Schakel het selectievakje in dat is gekoppeld aan de **veldnaam** *Zending-id*.
+1. Selecteer **Opslaan** in het actievenster.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

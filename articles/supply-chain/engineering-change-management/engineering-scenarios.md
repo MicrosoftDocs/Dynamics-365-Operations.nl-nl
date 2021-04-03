@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 19fab4f6b81eaf6e3605b6668212eece10606360
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 56e868f3050432db8d3b1721da435665f554d90d
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987573"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487916"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>De functies van Technisch wijzigingsbeheer
 
@@ -397,7 +397,6 @@ De technicus controleert nu de aanvraag van de klant en maakt een wijzigingsorde
 
 1. Selecteer vervolgens in het actievenster op het tabblad **Wijzigingsorder** in de groep **Status wijzigen** de optie **Goedkeuren**.
 1. Selecteer **Verwerken** om de gegevens van het product bij te werken.
-1. Selecteer **Voltooien** om de wijzigingsorder te markeren als voltooid.
 
 ## <a name="release-the-changed-product"></a>Het gewijzigde product vrijgeven
 
@@ -411,5 +410,8 @@ Het product kan nu weer worden vrijgegeven aan het bedrijf *USMF* en vervolgens 
 1. Selecteer **OK** om het dialoogvenster **Vrijgaven** te sluiten en terug te gaan naar de wijzigingsorder.
 1. Selecteer in het actievenster op het tabblad **Wijzigingsorder** in de groep **Productreleases** de optie **Verwerken** om de betrokken producten vrij te geven voor de geselecteerde bedrijven. U kunt ook **Productstructuur vrijgeven** selecteren om het vrijgaveproces te starten.
 
+## <a name="complete-the-change-order"></a>De wijzigingsorder voltooien
+
+Als u de wijzigingsorder wilt markeren als voltooid, waarmee wordt aangegeven dat er geen acties meer zijn, selecteert u **Voltooien** in het actiedeelvenster.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

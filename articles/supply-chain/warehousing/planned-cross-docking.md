@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 722b004e607cb2e6b7de292d92b67b18c2024696
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970301"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556261"
 ---
 # <a name="planned-cross-docking"></a>Gepland cross-docken
 
@@ -37,14 +37,14 @@ Bij ontvangst van inkomende orders identificeert de cross-dockingconfiguratie au
 > [!NOTE]
 > Registratie van voorraadtransacties wordt **niet** ongedaan gemaakt wanneer het cross-dockingwerk wordt geannuleerd, zelfs als de instelling voor deze mogelijkheid is ingeschakeld in de parameters van magazijnbeheer.
 
-## <a name="turn-on-the-planned-cross-docking-feature"></a>De functie Gepland cross-docken inschakelen
+## <a name="turn-on-the-planned-cross-docking-features"></a>De functies voor gepland cross-docken inschakelen
 
-Voordat u geavanceerd gepland cross-docken kunt gebruiken, moet de functie zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
+Als de functies die in dit onderwerp worden beschreven, nog niet in het systeem aanwezig zijn, gaat u naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de volgende functies in de volgende volgorde in:
 
-- **Module:** *Magazijnbeheer*
-- **Functienaam:** *Gepland cross-docken*
+1. *Gepland cross-docken*
+2. *Sjablonen met locatie-instructies voor cross-docken*
 
-## <a name="setup"></a>Instellen
+## <a name="setup"></a>Instelling
 
 ### <a name="regenerate-load-posting-methods"></a>Boekingsmethoden voor lading opnieuw genereren
 
@@ -89,6 +89,10 @@ Gepland cross-docken wordt geïmplementeerd als een boekingsmethode voor lading.
     - **Opnieuw valideren bij ontvangst levering:** *Nee*
 
         Met deze optie wordt bepaald of de levering opnieuw moet worden gevalideerd tijdens de ontvangst. Als deze optie is ingesteld op *Ja*, worden zowel het maximumtijdvenster als het bereik voor vervaldagen gecontroleerd.
+
+    - **Instructiecode:** laat dit veld leeg
+
+        Met deze optie is het systeem in staat om locatie-instructies te gebruiken om de beste locatie te bepalen waar de voorraad voor cross-docken naartoe kan worden verplaatst. U kunt de optie instellen door een instructiecode toe te wijzen aan elke relevante sjabloon voor cross-docken. Elke instructiecode duidt een unieke locatie-instructie aan.
 
     - **Tijdvenster valideren:** *Ja*
 

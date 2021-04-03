@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ebb9833be5e51fe59e9895e67cd8e55058078aa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 265709f298d9310d5d647eaa029ece778d2e226e
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001339"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470636"
 ---
 # <a name="repair-management"></a>Reparatiebeheer       
 
@@ -37,15 +37,11 @@ U geeft instellingen voor de symptomen, diagnose en oplossing op. Deze instellin
 
 Met de volgende instellingsformulieren kunt u gegevens invoeren waarmee de symptomen, diagnose en oplossing voor de reparatie worden ingesteld.
 
-1.  Klik op **Servicebeheer** \> **Instellen** \> **Repareren** \> **Voorwaarden**.
-
-2.  Klik op **Servicebeheer** \> **Instellen** \> **Repareren** \> **Symptoomgebieden**.
-
-3.  Klik op **Servicebeheer** \> **Instellen** \> **Repareren** \> **Diagnosegebieden**.
-
-4.  Klik op **Servicebeheer** \> **Instellen** \> **Repareren** \> **Oplossingen**.
-
-5.  Klik op **Servicebeheer** \> **Instellen** \> **Repareren** \> **Reparatiefasen**.
+- **Servicebeheer** \> **Instellen** \> **Repareren** \> **Voorwaarden**.
+- **Servicebeheer** \> **Instellen** \> **Repareren** \> **Symptoomgebieden**.
+-  **Servicebeheer** \> **Instellen** \> **Repareren** \> **Diagnosegebieden**.
+- **Servicebeheer** \> **Instellen** \> **Repareren** \> **Oplossingen**.
+- **Servicebeheer** \> **Instellen** \> **Repareren** \> **Reparatiefasen**.
 
 ## <a name="symptoms-and-conditions"></a>Symptomen en voorwaarden
 
@@ -81,19 +77,19 @@ U kunt voor elke stap in het reparatieproces reparatieregels maken.
 
 ## <a name="create-a-repair-line-on-a-service-order"></a>Een reparatieregel maken in een serviceorder
 
-1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
+1.  Ga naar **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
 
 2.  Selecteer de serviceorder met het serviceobject dat moet worden gerepareerd.
 
-3.  Klik op **Repareren** \> **Reparatieregels** om het formulier **Reparatieregels** te openen.
+3.  Selecteer **Repareren** \> **Reparatieregels** om het formulier **Reparatieregels** te openen.
 
-4.  Druk op Ctrl+N om een nieuwe regel te definiëren.
+4.  Selecteer **Nieuw** om een nieuwe regel te maken.
 
 5.  Selecteer een serviceobject. U kunt elk serviceobject selecteren dat op de serviceorder is ingesteld met een objectrelatie.
 
-6.  Selecteer op de reparatieregel de vooraf ingestelde waarden voor de symptomen, diagnose en uitvoering die relevant zijn en klik zo nodig op het tabblad **Opmerking** om een notitie te maken voor de reparatieregel.
+6.  Selecteer op de reparatieregel de vooraf ingestelde waarden voor de symptomen, diagnose en uitvoering die relevant zijn en selecteer zo nodig het tabblad **Opmerking** om een notitie te maken voor de reparatieregel.
 
-7.  Druk op CTRL+S om de nieuwe reparatieregel op te slaan. Het veld **Aanmaakdatum en -tijd** op het tabblad **Algemeen** van het formulier **Reparatieregels** wordt bijgewerkt met het tijdstip waarop de regel is opgeslagen.
+7.  Selecteer **Opslaan** om de nieuwe reparatieregel op te slaan. Het veld **Aanmaakdatum en -tijd** op het tabblad **Algemeen** van het formulier **Reparatieregels** wordt bijgewerkt met het tijdstip waarop de regel is opgeslagen.
 
 ## <a name="tracking-progress-and-resolving-a-repair-issue"></a>De voortgang bijhouden en een reparatieprobleem oplossen
 

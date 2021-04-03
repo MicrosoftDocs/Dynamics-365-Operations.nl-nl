@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: EntAssetMaintenancePlan
+ms.search.form: EntAssetMaintenancePlan, EntAssetObjectType, EntAssetCounterType, EntAssetWorkOrderLifecycleModel
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9ec4929e9ea608318b83a2ae6033c4b25855f4dd
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 09ae8b0ce56b08db0ba400b19676bd698c90a561
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077545"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500809"
 ---
 # <a name="maintenance-plans"></a>Onderhoudsplannen
 
@@ -195,8 +195,7 @@ In de volgende afbeelding ziet u een voorbeeld van een onderhoudsplan dat is ing
 
 ## <a name="counter-based-maintenance-enhancements"></a>Verbeteringen in het onderhoud op basis van teller
 
-> [!IMPORTANT]
-> De functionaliteit die in deze sectie wordt beschreven, is beschikbaar als onderdeel van een beperkte previewversie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Veelgestelde vragen over updates van service met één versie](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 De functie *Onderhoudsverbeteringen op basis van teller* heeft de volgende functionaliteit:
 

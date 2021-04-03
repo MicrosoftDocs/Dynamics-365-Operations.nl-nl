@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a822f5f7bb76604bbebdb3282fd51985d3ccba8e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c20e17cf9f20fd6317cd61bc6dfc019eb20612af
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4978033"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235012"
 ---
 # <a name="inventory-journals"></a>Voorraadjournalen
 
@@ -107,7 +107,7 @@ Een ander verschil tussen de journaalgegevensentiteiten is de mogelijkheid om sa
 -   Voorraadmutatiejournaal
 
 Deze twee voorraadjournalen ondersteunen alleen het scenario *Voorraad initialiseren* als onderdeel van het importeren van een gegevensbeheerproject:
--  Wanneer geen journaalnummer voor de koptekst is opgegeven, maar een nummerreeks voor het journaaltype is opgegeven, worden met de importtaak automatisch journaalkopteksten per 1000 regels gemaakt. Bijvoorbeeld resulteert het importeren van 2020 regels in de volgende drie kopteksten:
+-  Wanneer geen journaalnummer voor de header is opgegeven, maar een nummerreeks voor het journaaltype is opgegeven, worden met de importtaak automatisch journaalheaderen per 1000 regels gemaakt. Bijvoorbeeld resulteert het importeren van 2020 regels in de volgende drie headers:
     -  Kop 1: bevat 1000 regels
     -  Kop 2: bevat 1000 regels
     -  Kop 3: bevat 20 regels

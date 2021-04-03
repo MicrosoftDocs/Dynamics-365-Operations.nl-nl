@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 09/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: 98d67e240cdd5e64fef1aaf24b4907d1af42056a
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4797386"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567974"
 ---
 # <a name="workflow-faq"></a>Veelgestelde vragen over werkstromen
 
@@ -49,7 +48,7 @@ Hier volgen enkele belangrijke punten met betrekking tot het toevoegen van waars
     - Actiecentrumberichten kunnen worden gemaakt voor specifieke gebruikers, zoals een bericht dat is gemaakt op basis van een workflow in X++.
     - [Werkstromen bevatten zakelijke gebeurtenissen](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) die de klant kan gebruiken voor het activeren van Flows met de gewenste meldingen.   
 
-Als gebruikers niet de juiste meldingen vanuit het actiecentrum ontvangen wanneer aan hen een werkitem voor werkstromen wordt toegewezen, gebruikt u [Zakelijke gebeurtenissen voor werkstromen](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) met Microsoft Power Automate om aanvullende of andere meldingen te bieden.
+Overzicht: als gebruikers niet de juiste meldingen vanuit het actiecentrum ontvangen wanneer aan hen een workflowwerkitem wordt toegewezen, gebruikt u [Zakelijke gebeurtenissen voor werkstromen](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/business-events/business-events-workflow) met Microsoft Power Automate om aanvullende of andere meldingen te bieden.
 
 ## <a name="why-is-workflow-editor-not-able-to-start-under-ad-fs"></a>Waarom kan ik de werkstroomeditor niet starten onder AD FS?
 Wanneer de workfloweditor wordt uitgevoerd onder AD FS (Active Directory Federation Services) in een bijgewerkte omgeving, kan de workfloweditor problemen ondervinden bij het starten. Als dit het geval is, zorgt u ervoor dat de URL https://dynamicsaxworkfloweditor/ wordt toegevoegd aan de eigenschap **Microsoft Dynamics 365 for Operations On-premises - Workflow - Systeemeigen toepassing** in de AD FS-instellingen.
