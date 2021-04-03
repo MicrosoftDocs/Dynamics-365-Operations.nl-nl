@@ -17,44 +17,47 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7e3277a61bd776c665d598583165e0dbd856e8c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 15247587f04813121473f24d4c3c849ec1ba7bb8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010367"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5259525"
 ---
-# <a name="view-the-start-time-and-duration-of-a-service-order"></a><span data-ttu-id="8df97-103">De begintijd en de duur van een serviceorder weergeven</span><span class="sxs-lookup"><span data-stu-id="8df97-103">View the start time and duration of a service order</span></span> 
+# <a name="view-the-start-time-and-duration-of-a-service-order"></a><span data-ttu-id="ae15e-103">De begintijd en de duur van een serviceorder weergeven</span><span class="sxs-lookup"><span data-stu-id="ae15e-103">View the start time and duration of a service order</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="8df97-104">U kunt zien wanneer het werk aan de serviceorder is gestart en wanneer de serviceorder zal zijn voltooid.</span><span class="sxs-lookup"><span data-stu-id="8df97-104">You can view when the work on the service order was started and when the service order is going to be completed.</span></span>
+<span data-ttu-id="ae15e-104">U kunt zien wanneer het werk aan de serviceorder is gestart en wanneer de serviceorder zal zijn voltooid.</span><span class="sxs-lookup"><span data-stu-id="ae15e-104">You can view when the work on the service order was started and when the service order is going to be completed.</span></span>
 
-<span data-ttu-id="8df97-105">Ook kunt u bekijken wanneer de tijdregistratie voor een serviceorder is gestart en gestopt.</span><span class="sxs-lookup"><span data-stu-id="8df97-105">You can also view when the time recording for a service order was started and stopped.</span></span> <span data-ttu-id="8df97-106">Wanneer een serviceorder wordt gestopt, wordt de tijd opgeschort waarop de serviceorder moet zijn voltooid.</span><span class="sxs-lookup"><span data-stu-id="8df97-106">When a service order is stopped, the time at which the service order must be completed is postponed.</span></span>
+<span data-ttu-id="ae15e-105">Ook kunt u bekijken wanneer de tijdregistratie voor een serviceorder is gestart en gestopt.</span><span class="sxs-lookup"><span data-stu-id="ae15e-105">You can also view when the time recording for a service order was started and stopped.</span></span> <span data-ttu-id="ae15e-106">Wanneer een serviceorder wordt gestopt, wordt de tijd opgeschort waarop de serviceorder moet zijn voltooid.</span><span class="sxs-lookup"><span data-stu-id="ae15e-106">When a service order is stopped, the time at which the service order must be completed is postponed.</span></span>
 
-## <a name="view-the-start-time-for-a-service-order"></a><span data-ttu-id="8df97-107">De begintijd voor een serviceorder weergeven</span><span class="sxs-lookup"><span data-stu-id="8df97-107">View the start time for a service order</span></span>
+## <a name="view-the-start-time-for-a-service-order"></a><span data-ttu-id="ae15e-107">De begintijd voor een serviceorder weergeven</span><span class="sxs-lookup"><span data-stu-id="ae15e-107">View the start time for a service order</span></span>
 
-1.  <span data-ttu-id="8df97-108">Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.</span><span class="sxs-lookup"><span data-stu-id="8df97-108">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="8df97-109">Selecteer een order en dubbelklik erop om het formulier met details te openen.</span><span class="sxs-lookup"><span data-stu-id="8df97-109">Select and double-click an order to open the details form.</span></span>
+1.  <span data-ttu-id="ae15e-108">Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.</span><span class="sxs-lookup"><span data-stu-id="ae15e-108">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="ae15e-109">Selecteer een order en dubbelklik erop om het formulier met details te openen.</span><span class="sxs-lookup"><span data-stu-id="ae15e-109">Select and double-click an order to open the details form.</span></span>
 
-2.  <span data-ttu-id="8df97-110">Op het tabblad **Algemeen** wordt de tijd waarop het werk voor een serviceorder is begonnen, weergegeven in het veld **Begintijd**.</span><span class="sxs-lookup"><span data-stu-id="8df97-110">On the **General** tab, view the time that the work was started for a service order in the **Start time** field.</span></span>
+2.  <span data-ttu-id="ae15e-110">Op het tabblad **Algemeen** wordt de tijd waarop het werk voor een serviceorder is begonnen, weergegeven in het veld **Begintijd**.</span><span class="sxs-lookup"><span data-stu-id="ae15e-110">On the **General** tab, view the time that the work was started for a service order in the **Start time** field.</span></span>
 
-## <a name="view-the-time-remaining-to-complete-a-service-order"></a><span data-ttu-id="8df97-111">Weergeven hoelang het nog duurt om een serviceorder te voltooien</span><span class="sxs-lookup"><span data-stu-id="8df97-111">View the time remaining to complete a service order</span></span>
+## <a name="view-the-time-remaining-to-complete-a-service-order"></a><span data-ttu-id="ae15e-111">Weergeven hoelang het nog duurt om een serviceorder te voltooien</span><span class="sxs-lookup"><span data-stu-id="ae15e-111">View the time remaining to complete a service order</span></span>
 
-1.  <span data-ttu-id="8df97-112">Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.</span><span class="sxs-lookup"><span data-stu-id="8df97-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="8df97-113">Selecteer een order en dubbelklik erop om het formulier met details te openen.</span><span class="sxs-lookup"><span data-stu-id="8df97-113">Select and double-click an order to open the details form.</span></span>
+1.  <span data-ttu-id="ae15e-112">Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.</span><span class="sxs-lookup"><span data-stu-id="ae15e-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="ae15e-113">Selecteer een order en dubbelklik erop om het formulier met details te openen.</span><span class="sxs-lookup"><span data-stu-id="ae15e-113">Select and double-click an order to open the details form.</span></span>
 
-2.  <span data-ttu-id="8df97-114">Op het tabblad **Algemeen** wordt de tijd die het nog duurt voordat de serviceorder is voltooid, weergegeven in het veld **Laatste tijd voltooiing**.</span><span class="sxs-lookup"><span data-stu-id="8df97-114">On the **General** tab, view the time remaining to complete a service order in the **Latest completion time** field.</span></span>
+2.  <span data-ttu-id="ae15e-114">Op het tabblad **Algemeen** wordt de tijd die het nog duurt voordat de serviceorder is voltooid, weergegeven in het veld **Laatste tijd voltooiing**.</span><span class="sxs-lookup"><span data-stu-id="ae15e-114">On the **General** tab, view the time remaining to complete a service order in the **Latest completion time** field.</span></span>
 
-## <a name="view-the-start-time-and-stop-time-recording-entries-for-a-service-order"></a><span data-ttu-id="8df97-115">De geregistreerde begin- en eindtijd voor een serviceorder weergeven</span><span class="sxs-lookup"><span data-stu-id="8df97-115">View the start time and stop time recording entries for a service order</span></span>
+## <a name="view-the-start-time-and-stop-time-recording-entries-for-a-service-order"></a><span data-ttu-id="ae15e-115">De geregistreerde begin- en eindtijd voor een serviceorder weergeven</span><span class="sxs-lookup"><span data-stu-id="ae15e-115">View the start time and stop time recording entries for a service order</span></span>
 
-1.  <span data-ttu-id="8df97-116">Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.</span><span class="sxs-lookup"><span data-stu-id="8df97-116">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="8df97-117">Selecteer een order en dubbelklik erop om het formulier met details te openen.</span><span class="sxs-lookup"><span data-stu-id="8df97-117">Select and double-click an order to open the details form.</span></span>
+1.  <span data-ttu-id="ae15e-116">Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.</span><span class="sxs-lookup"><span data-stu-id="ae15e-116">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span> <span data-ttu-id="ae15e-117">Selecteer een order en dubbelklik erop om het formulier met details te openen.</span><span class="sxs-lookup"><span data-stu-id="ae15e-117">Select and double-click an order to open the details form.</span></span>
 
-2.  <span data-ttu-id="8df97-118">Klik in het **Actievenster** op het tabblad **Verzenden** \> **Tijd vastleggen** om het formulier **SLA-tijd vastleggen** te openen en de tijdregistraties voor de serviceorder weer te geven.</span><span class="sxs-lookup"><span data-stu-id="8df97-118">On the **Action Pane**, click the **Dispatch** tab \> **Time recording** to open the **SLA time recording** form and view the time recording entries for the service order.</span></span>
+2.  <span data-ttu-id="ae15e-118">Klik in het **Actievenster** op het tabblad **Verzenden** \> **Tijd vastleggen** om het formulier **SLA-tijd vastleggen** te openen en de tijdregistraties voor de serviceorder weer te geven.</span><span class="sxs-lookup"><span data-stu-id="ae15e-118">On the **Action Pane**, click the **Dispatch** tab \> **Time recording** to open the **SLA time recording** form and view the time recording entries for the service order.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="8df97-119">Zie ook</span><span class="sxs-lookup"><span data-stu-id="8df97-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ae15e-119">Zie ook</span><span class="sxs-lookup"><span data-stu-id="ae15e-119">See also</span></span>
 
-<span data-ttu-id="8df97-120">[Serviceorders (formulier)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="8df97-120">[Service orders (form)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))</span></span>
+<span data-ttu-id="ae15e-120">[Serviceorders (formulier)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="ae15e-120">[Service orders (form)](https://technet.microsoft.com/library/aa554361\(v=ax.60\))</span></span>
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
