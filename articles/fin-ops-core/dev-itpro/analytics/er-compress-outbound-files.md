@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERFormatDestinationTable
 audience: Application User, IT Pro
@@ -17,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 30de55f9e55911290750c148621fd3d4531686c2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8a8f55b33624b057a6abf9af5084209ac6a0c778
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680849"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5562329"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Grote documenten comprimeren die worden gegenereerd in elektronische rapportage 
 
 [!include [banner](../includes/banner.md)]
 
-U kunt het [Raamwerk elektronische rapportage (ER)](general-electronic-reporting.md) gebruiken om een oplossing te configureren waarmee transactiegegevens worden opgehaald om een uitgaand document te genereren. Dit gegenereerde document kan vrij groot zijn. Als dit type document wordt gegenereerd, wordt het geheugen van de [Application Object Server (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) gebruikt om het document op te slaan. Op een bepaald moment moet het document worden gedownload vanuit uw Microsoft Dynamics 365 Finance-toepassing. Momenteel is de maximale grootte van één document dat wordt gegenereerd in ER, beperkt tot 2 gigabytes (GB). Bovendien is de grootte van een gedownload bestand in Finance momenteel [beperkt](https://fix.lcs.dynamics.com/Issue/Details?bugId=489291) tot 1 GB. Daarom moet u een ER-oplossing configureren waarmee de kans wordt verkleind dat deze beperkingen worden overschreden en dat u de uitzondering **De stroom is te lang** of **Overloop of negatieve overloop in de rekenkundige bewerking** ontvangt.
+U kunt het [Raamwerk elektronische rapportage (ER)](general-electronic-reporting.md) gebruiken om een oplossing te configureren waarmee transactiegegevens worden opgehaald om een uitgaand document te genereren. Dit gegenereerde document kan vrij groot zijn. Als dit type document wordt gegenereerd, wordt het geheugen van de [Application Object Server (AOS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/dev-tools/access-instances#location-of-packages-source-code-and-other-aos-configurations) gebruikt om het document op te slaan. Op een bepaald moment moet het document worden gedownload vanuit uw Microsoft Dynamics 365 Finance-toepassing. Momenteel is de maximale grootte van één document dat wordt gegenereerd in ER, beperkt tot 2 gigabytes (GB). Bovendien is de grootte van een gedownload bestand in Finance momenteel [beperkt](https://fix.lcs.dynamics.com/Issue/Details?kb=4569432&bugId=453907&dbType=3) tot 1 GB. Daarom moet u een ER-oplossing configureren waarmee de kans wordt verkleind dat deze beperkingen worden overschreden en dat u de uitzondering **De stroom is te lang** of **Overloop of negatieve overloop in de rekenkundige bewerking** ontvangt.
 
 Als u een oplossing configureert, kunt u uw ER-indeling in de Operations-ontwerper aanpassen door een hoofdelement van het type **Map** toe te voegen om de inhoud te comprimeren die door een van de bijbehorende geneste elementen wordt gegenereerd. Compressie werkt 'just in time', zodat het piekgeheugengebruik en de grootte van het bestand dat wordt gedownload, kunnen worden gereduceerd.
 

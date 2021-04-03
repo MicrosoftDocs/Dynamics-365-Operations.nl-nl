@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 20203a342b2bead4eb211597f4b73bbf35477a03
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: b46e49ec3510c93383216fdffeca2793a9076872
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115675"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560454"
 ---
 # <a name="unified-product-experience"></a>Uniforme productervaring
 
@@ -92,9 +91,13 @@ Omdat het product als een SKU wordt voorgesteld, kunt u de concepten van afzonde
 
 Als de functie voor twee keer wegschrijven is ingeschakeld, worden de producten van Finance and Operations gesynchroniseerd in andere Dynamics 365-producten in de status **Concept**. Ze worden toegevoegd aan de eerste prijslijst met dezelfde valuta. Met andere woorden: ze worden toegevoegd aan de eerste prijslijst in een Dynamics 365-app die overeenkomt met de valuta van uw rechtspersoon waar het product wordt vrijgegeven in een Finance and Operations-app. Als er geen prijslijst voor de opgegeven valuta is, wordt automatisch een prijslijst gemaakt en wordt het product eraan toegewezen. 
 
+De huidige implementatie van de invoegtoepassingen voor twee keer wegschrijven die de standaardprijslijst aan de eenheid koppelen, zoeken de valuta die aan de app is gekoppeld en zoeken met de Finance and Operations-app naar de eerste prijslijst in de app voor klantbetrokkenheid met behulp van alfabetisch sorteren op de naam van de prijslijst. Als u een standaardprijslijst voor een specifieke valuta wilt instellen wanneer u meerdere prijslijsten voor die valuta hebt, moet u de naam van de prijslijst bijwerken naar een naam die eerder in de alfabetische volgorde voorkomt dan andere prijslijsten voor die valuta.
+
 Standaard worden producten van Finance and Operations-apps gesynchroniseerd met andere Dynamics 365-app in de status **Concept**. Om het product te synchroniseren met de status **Actief**, zodat u het rechtstreeks in verkooporderoffertes kunt gebruiken, moet u bijvoorbeeld de volgende instelling kiezen: ga naar **Systeem > Beheer > Systeembeheer > Systeeminstellingen > tabblad Verkoop** en selecteer **Producten maken in actieve status = Ja**. 
 
 Wanneer producten worden gesynchroniseerd, moet u een waarde invoeren voor het veld **Verkoopeenheid** in de Finance and Operations-app, omdat dit een verplicht veld is in Sales.
+
+Het maken van productfamilies vanuit Dynamics 365 Sales wordt niet ondersteund bij de synchronisatie van het tweemaal wegschrijven van producten.
 
 De synchronisatie van producten gebeurt vanuit de Finance and Operations-app naar Dataverse. Dit betekent dat de waarden van de kolommen van de producttabel weliswaar kunnen worden gewijzigd in Dataverse, maar dat bij activering van de synchronisatie (wanneer een productkolom wordt gewijzigd in een Finance and Operations-app), de waarden in Dataverse worden overschreven. 
 

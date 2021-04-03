@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: CostingVersion, InventItemPrice
+ms.search.form: CostingVersion, InventItemPrice, InventParameters
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 69992
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 166d12d707deabc59f7613a5016851b30fcc42d8
-ms.sourcegitcommit: 41baf654a2553cfe5c715feb9cc03e48cfc12598
+ms.openlocfilehash: fc4ae40e9740ce76e79b76c2bff2c690568abff2
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "5024665"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500593"
 ---
 # <a name="manage-standard-cost-updates"></a>Updates voor standaardkosten beheren
 
@@ -45,6 +45,8 @@ Het volgende voorbeeld illustreert hoe de methoden met één versie en met twee 
 In het voorgaande voorbeeld werd één extra kostprijsberekeningsversie gebruikt om updates tijdens het jaar 2020 te beheren. Er kan meer dan een extra kostprijsberekeningsversie worden gebruikt, bijvoorbeeld een aparte versie voor elke batch met updates. Wanneer meer dan één extra kostprijsberekening wordt gebruikt, dan moet de terugval worden uitgedrukt als de actieve kosten, omdat de actieve kosten over meerdere kostprijsberekeningsversies zijn verdeeld.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Financiële dimensies voor de standaardkostenherwaardering
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Wanneer een nieuwe standaardprijs wordt geactiveerd, wordt de waarde van de voorhanden voorraad doorgaans geherwaardeerd met de transacties voor standaardkostenherwaardering. De financiële dimensies van het artikel worden vervolgens gewoonlijk geboekt op de transacties. Als u echter wilt bepalen of en hoe de financiële dimensies worden geboekt, gebruikt u [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de functie met de naam *Opties voor standaard financiële dimensies voor de standaardherwaardering van de kosten van de voorraad* in te schakelen. Nadat u deze functie hebt ingeschakeld, gaat u naar **Kostenbeheer > Instelling voor boekhoudingbeleid voorraad > Parameters** en stelt u de nieuwe vervolgkeuzelijst **Oorsprong van financiële dimensie** in op een van de volgende waarden:
 

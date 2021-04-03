@@ -16,14 +16,17 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 78cb1c5a90061af224fcd5933af81b6c5cd7e57d
-ms.sourcegitcommit: 5d62c53d84f2ec27136427acfd4314d055298a7b
+ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5123463"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500689"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Standaard opgeslagen weergaven voor Supply Chain Management
+
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management bevat diverse opgeslagen weergaven die u kunt inschakelen en waar nodig gebruiken. Sommige van deze standaard opgeslagen weergaven zijn geoptimaliseerd en genoemd naar een specifieke rol of taak (bijvoorbeeld "Kwaliteitsbeheer" of "Ontvangen"). Andere zijn in zoverre geoptimaliseerd dat ze alleen de velden en instellingen bevatten die volgens de gebruiksstatistieken van Microsoft het vaakst door klanten worden gebruikt. Deze opgeslagen weergaven worden meestal *vereenvoudigde weergaven* genoemd. In dit onderwerp worden de standaard opgeslagen weergaven beschreven die beschikbaar zijn en wordt uitgelegd hoe u deze weergaven kunt inschakelen en aanpassen.
 

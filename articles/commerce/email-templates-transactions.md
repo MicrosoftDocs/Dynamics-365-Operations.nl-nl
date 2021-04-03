@@ -3,7 +3,7 @@ title: E-mailsjablonen maken voor transactiegebeurtenissen
 description: In dit onderwerp wordt beschreven hoe u e-mailsjablonen kunt maken, uploaden en configureren voor transactiegebeurtenissen in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 245ca998ef3e6d172df3525f06d7901f3f41b650
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 756e2a64ef4c33c347106968eb6bc79a413c3ff7
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000775"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555240"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>E-mailsjablonen maken voor transactiegebeurtenissen
 
@@ -39,7 +39,7 @@ Voordat u een bepaalde transactiegebeurtenis aan een e-mailsjabloon kunt toewijz
 
 Volg deze stappen om een e-mailsjabloon te maken.
 
-1. Ga in Commerce Headquarters naar **E-mailsjablonen van organisatie** onder **Retail en Commerce \> Instelling van hoofdkantoor \> E-mailsjablonen van organisatie** of **Organisatiebeheer \> Instellingen \> E-mailsjablonen van organisatie**.
+1. Ga in Commerce Headquarters naar **Retail en Commerce \> Instelling van hoofdkantoor \> E-mailsjablonen van organisatie** of **Organisatiebeheer \> Instellingen \> E-mailsjablonen van organisatie**.
 1. Selecteer **Nieuw**.
 1. Stel onder **Algemeen** de volgende velden in:
 
@@ -78,28 +78,29 @@ Hier volgt een voorbeeld.
 
 Met de volgende tijdelijke aanduidingen worden gegevens opgehaald en weergegeven die zijn gedefinieerd op het niveau van de verkooporder (in tegenstelling tot het niveau van de verkoopregel).
 
-| Naam van tijdelijke aanduiding    | Waarde van tijdelijke aanduiding                                                |
-|---------------------|------------------------------------------------------------------|
-| customername        | De naam van de klant die de order heeft geplaatst.                   |
-| salesid             | De verkoop-id van de order.                                       |
-| deliveryaddress     | Het afleveradres voor verzonden orders.                         |
-| customeraddress     | Het adres van de klant.                                     |
-| deliverydate        | De leveringsdatum.                                               |
-| shipdate            | De verzenddatum.                                                   |
-| modeofdelivery      | De leveringsmethode van de order.                                  |
-| toeslagen             | De totale kosten voor de order.                                 |
-| btw                 | De totale belasting voor de order.                                     |
-| totaal               | Het totale bedrag voor de order.                                  |
-| ordernetamount      | Het totaalbedrag voor de order, min de totale belasting.             |
-| korting            | De totale korting voor de order.                                |
-| storename           | De naam van de winkel waar de order is geplaatst.                |
-| storeaddress        | Het adres van de winkel die de order heeft geplaatst.                  |
-| storeopenfrom       | De openingstijd van de winkel die de order heeft geplaatst.             |
-| storeopento         | De sluitingstijd van de winkel die de order heeft geplaatst.             |
-| pickupstorename     | De naam van de winkel waar de order wordt opgehaald.         |
-| pickupstoreaddress  | Het adres van de winkel waar de order wordt opgehaald.      |
-| pickupopenstorefrom | De openingstijd van de winkel waar de order wordt opgehaald. |
-| pickupopenstoreto   | De sluitingstijd van de winkel waar de order wordt opgehaald. |
+| Naam van tijdelijke aanduiding     | Waarde van tijdelijke aanduiding                                            |
+| -------------------- | ------------------------------------------------------------ |
+| customername         | De naam van de klant die de order heeft geplaatst.               |
+| salesid              | De verkoop-id van de order.                                   |
+| deliveryaddress      | Het afleveradres voor verzonden orders.                     |
+| customeraddress      | Het adres van de klant.                                 |
+| customeremailaddress | Het e-mailadres dat de klant bij het uitchecken heeft ingevoerd.     |
+| deliverydate         | De leveringsdatum.                                           |
+| shipdate             | De verzenddatum.                                               |
+| modeofdelivery       | De leveringsmethode van de order.                              |
+| toeslagen              | De totale kosten voor de order.                             |
+| btw                  | De totale belasting voor de order.                                 |
+| totaal                | Het totale bedrag voor de order.                              |
+| ordernetamount       | Het totaalbedrag voor de order, min de totale belasting.         |
+| korting             | De totale korting voor de order.                            |
+| storename            | De naam van de winkel waar de order is geplaatst.            |
+| storeaddress         | Het adres van de winkel die de order heeft geplaatst.              |
+| storeopenfrom        | De openingstijd van de winkel die de order heeft geplaatst.         |
+| storeopento          | De sluitingstijd van de winkel die de order heeft geplaatst.         |
+| pickupstorename      | De naam van de winkel waar de order wordt opgehaald.     |
+| pickupstoreaddress   | Het adres van de winkel waar de order wordt opgehaald.  |
+| pickupopenstorefrom  | De openingstijd van de winkel waar de order wordt opgehaald. |
+| pickupopenstoreto    | De sluitingstijd van de winkel waar de order wordt opgehaald. |
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Tijdelijke aanduidingen voor orderregels (verkoopregelniveau)
 
@@ -169,11 +170,8 @@ Hier volgt een voorbeeld.
 
 U kunt ontvangstbewijzen per e-mail verzenden naar klanten die aankopen doen bij een POS-verkooppunt. Over het algemeen komen de stappen voor het maken van de sjabloon voor per e-mail verzonden ontvangstbewijzen overeen met de stappen voor het maken van sjablonen voor andere transactiegebeurtenissen. De volgende wijzigingen zijn echter vereist:
 
-- De e-mail-id van de e-mailsjabloon moet **emailRecpt** zijn.
-- De tekst van het ontvangstbewijs wordt in het e-mail bericht ingevoegd met de tijdelijke aanduiding **%message%**. Om er zeker van te zijn dat de tekst van het ontvangstbewijs juist wordt weergegeven, plaatst u de tijdelijke aanduiding **%message%** tussen de HTML-tags **&lt;pre&gt;** en **&lt;/pre&gt;**.
-- Regeleinden in de HTML voor de kop- en voettekst van het e-mailbericht worden geconverteerd naar HTML-tags van het type **&lt;br /&gt;**, zodat de hoofdtekst van het ontvangstbewijs correct wordt weergegeven. Als u ongewenste verticale ruimte in uw ontvangstbewijzen wilt verwijderen, verwijdert u regeleinden in de HTML waar verticale ruimte niet nodig is.
-
-Zie voor meer informatie over het configureren van e-mailontvangstbewijzen [E-mailontvangstbewijzen instellen](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts).
+- De tekst van het ontvangstbewijs wordt in het e-mailbericht ingevoegd met de tijdelijke aanduiding **%message%**. Om er zeker van te zijn dat de tekst van het ontvangstbewijs juist wordt weergegeven, plaatst u de tijdelijke aanduiding **%message%** tussen de HTML-tags **&lt;pre&gt;** en **&lt;/pre&gt;**.
+- De tijdelijke aanduiding **%receiptid%** kan worden gebruikt om een QR-code of streepjescode weer te geven die de ontvangst-id vertegenwoordigt. (QR-codes en streepjescodes worden dynamisch gegenereerd en gebruikt door een service van derden.) Zie [Een QR-code of streepjescode toevoegen aan transactionele e-mails en ontvangstberichten](add-qr-code-barcode-email.md) voor meer informatie over het weergeven van een QR-code of streepjescode in een per e-mail verzonden ontvangstbewijs.
 
 ## <a name="upload-the-email-html"></a>De e-mail-HTML uploaden
 
