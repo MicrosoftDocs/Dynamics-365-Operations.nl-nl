@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077472"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556309"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer configureren
 
@@ -41,7 +42,8 @@ De uitvoeringsinterface voor de werkvloer zelf, plus een aantal optionele instel
 
 ### <a name="the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer
 
-Dit is de primaire functie die in dit onderwerp wordt beschreven. Hiermee wordt de uitvoeringsinterface voor de werkvloer aan uw systeem toegevoegd. Schakel deze in door de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in te schakelen:  
+Dit is de primaire functie die in dit onderwerp wordt beschreven. Hiermee wordt de uitvoeringsinterface voor de werkvloer aan uw systeem toegevoegd. Schakel deze in door de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in te schakelen:
+
 - Uitvoering werkvloer
 
 ### <a name="generate-license-plates"></a>Nummerplaten genereren
@@ -79,6 +81,7 @@ Als u de apparaatconfiguraties wilt maken en beheren, gaat u naar productie **Pr
 
 Configureer vervolgens de verschillende instellingen voor de geselecteerde apparaatconfiguratie. De volgende velden zijn beschikbaar:
 
+- **Alleen in- en uitklokken**: stel deze optie in op *Ja* om een vereenvoudigde interface te maken die alleen inklok- en uitklokfunctionaliteit biedt. Hierdoor worden de meeste andere opties op deze pagina uitgeschakeld. U moet eerst alle regels verwijderen uit het sneltabblad **Tabselectie** voordat u deze optie kunt inschakelen.
 - **Hoeveelheid rapporteren bij uitklokken**: stel deze optie in op *Ja* om werknemers te vragen om bij het uitklokken feedback te rapporteren over taken die in uitvoering zijn. Als deze optie wordt ingesteld op *Nee*, wordt dit niet aan werknemers gevraagd.
 - **Werknemer vergrendelen**: wanneer deze optie is ingesteld op *Nee*, worden werknemers onmiddellijk afgemeld nadat ze een registratie hebben gemaakt (zoals een nieuwe taak). Het apparaat keert dan terug naar de aanmeldingspagina. Als deze optie is ingesteld op *Ja*, blijven werknemers aangemeld bij het taakkaartapparaat. Een werknemer kan zich echter handmatig afmelden, zodat een andere werknemer zich kan aanmelden terwijl het taakkaartapparaat actief blijft onder dezelfde systeemgebruikersaccount. Meer informatie over deze typen accounts vindt u in [Toegewezen gebruikers](config-job-card-device.md#assigned-users).
 - **De werkelijke registratietijd gebruiken**: stel deze optie in op *Ja* om de tijd in te stellen voor elke nieuwe registratie die gelijk is aan de exacte tijd waarop de registratie is ingediend door de werknemer. Als deze optie is ingesteld op *Nee*, wordt in plaats daarvan de aanmeldingstijd gebruikt. U stelt deze optie meestal in op *Ja* als u de opties **Werknemer vergrendelen** en/of **Eén werknemer** hebt ingesteld op *Ja*, waarbij werknemers vaak aangemeld blijven gedurende langere perioden.

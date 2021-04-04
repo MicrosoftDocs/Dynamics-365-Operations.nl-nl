@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e2ffd12011b133bb13b69b49d6e894c6a887a8a0
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142318"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487020"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>De mobiele app Magazijnbeheer installeren en verbinden
 
@@ -31,11 +31,9 @@ ms.locfileid: "5142318"
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> In dit onderwerp wordt beschreven hoe u de nieuwe mobiele app Magazijnbeheer configureert, die momenteel weergegeven in openbare preview is. Zie [De magazijnapp installeren en verbinden](../../supply-chain/warehousing/install-configure-warehousing-app.md) als u informatie zoekt over het configureren van de oude magazijnapp.
+> In dit onderwerp wordt beschreven hoe u de nieuwe mobiele app Magazijnbeheer configureert. Zie [De magazijnapp installeren en verbinden](../../supply-chain/warehousing/install-configure-warehousing-app.md) als u informatie zoekt over het configureren van de oude magazijnapp.
 
-De openbare preview van de mobiele app Magazijnbeheer kan worden gedownload in Microsoft App Center. Deze wordt als zelfstandig onderdeel geleverd. Daarom moet u de app op elk apparaat downloaden en vervolgens configureren om verbinding te maken met uw Microsoft Dynamics 365 Supply Chain Management-omgeving.
-
-In dit onderwerp wordt uitgelegd hoe u de mobiele app Magazijnbeheer op al uw mobiele apparaten installeert en configureert om verbinding te maken met uw Supply Chain Management-omgeving. U kunt elk apparaat handmatig configureren of u kunt verbindingsinstellingen importeren via een bestand of door een QR-code te scannen.
+In dit onderwerp wordt uitgelegd hoe u de mobiele app Magazijnbeheer downloadt en op al uw mobiele apparaten installeert en hoe u de app configureert om verbinding te maken met uw Supply Chain Management-omgeving. U kunt elk apparaat handmatig configureren of u kunt verbindingsinstellingen importeren via een bestand of door een QR-code te scannen.
 
 ## <a name="system-requirements"></a>Systeemvereisten
 
@@ -53,17 +51,27 @@ Voordat u een app kunt gebruiken, moet een gerelateerde functie zijn ingeschakel
 
 ## <a name="get-the-warehouse-management-mobile-app"></a>De mobiele app Magazijnbeheer downloaden
 
-Gebruik een van de volgende koppelingen om de app te downloaden:
+Voor kleinere implementaties kunt u de app vanuit de relevante store op elk apparaat installeren en vervolgens handmatig de verbinding configureren voor de omgevingen die u gebruikt.
 
-- **Windows (UWP):** [Previewprogramma voor App Center - Windows](https://go.microsoft.com/fwlink/?linkid=2154406)
+Voor grotere implementaties kunt u de implementatie en/of configuratie van de app automatiseren. Dit kan handiger zijn als u meerdere apparaten beheert. U kunt bijvoorbeeld een oplossing voor het beheer van mobiele apparaten en een oplossing voor het beheer van mobiele toepassingen gebruiken, zoals [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Zie [Apps aan Microsoft Intune toevoegen](https://docs.microsoft.com/mem/intune/apps/apps-add) voor informatie over het gebruik van Intune om toepassingen toe te voegen.
 
-    Aangezien deze app een preview-app is, zijn er enkele extra stappen vereist om deze te installeren. Zie voor details [Een build van App Center installeren](https://docs.microsoft.com/appcenter/distribution/installation).
+### <a name="install-the-app-from-an-app-store"></a>De app installeren vanuit een app store
 
-- **Android:** [Previewprogramma van App Center - Android](https://go.microsoft.com/fwlink/?linkid=2154613)
+De gemakkelijkste manier om de app op één apparaat te installeren, is de app te installeren vanuit een app store, die altijd de meest recente, algemene versie bevat. Microsoft Intune kan ook toepassingen ophalen van de app stores. Gebruik een van de volgende koppelingen om de app vanuit een app store te installeren:
 
-    Aangezien deze app een preview-app is, zijn er enkele extra stappen vereist om deze te installeren. Zie voor details [Android-apps testen](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+- **Windows (UWP):** [Magazijnbeheer in Microsoft Store](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
 
-Voor kleinere implementaties kunt u de app vanuit de relevante store op elk apparaat installeren en vervolgens handmatig de verbinding configureren voor de omgevingen die u gebruikt. U kunt de implementatie en/of configuratie van de app echter ook automatiseren. Deze aanpak is wellicht als u veel apparaten beheert en een oplossing voor beheer van mobiele apparaten en voor beheer van mobiele toepassingen gebruikt, zoals [Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Zie [Apps aan Microsoft Intune toevoegen](https://docs.microsoft.com/mem/intune/apps/apps-add) voor informatie over het gebruik van Intune om toepassingen toe te voegen.
+- **Android:** [Magazijnbeheer in Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.WarehouseManagement)
+
+### <a name="download-the-app-from-microsoft-app-center"></a>De app downloaden vanuit Microsoft App Center
+
+In plaats daarvan kunt u de app downloaden via het Microsoft App Center. Het App Center voorziet in installeerbare pakketten die u extern kunt laden. Naast de huidige versie kunt u met het App Center ook eerdere versies downloaden en preview-versies weergeven met toekomstige functies die u kunt proberen. Gebruik een van de volgende koppelingen om huidige, vorige of preview-versies van de mobiele app Magazijnbeheer te downloaden vanuit het Microsoft App Center:
+
+- **Windows (UWP):** [Magazijnbeheer (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+    Zie [Een build installeren vanuit App Center](https://docs.microsoft.com/appcenter/distribution/installation) voor instructies voor het installeren van een gedownload pakket op een Windows-apparaat en het instellen van de vereiste certificaten.
+
+- **Android:** [Magazijnbeheer (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+    Als u een preview-versie downloadt, zijn er enkele extra stappen vereist om deze te installeren. Zie voor details [Android-apps testen](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Een webservicetoepassing maken in Azure Active Directory
 

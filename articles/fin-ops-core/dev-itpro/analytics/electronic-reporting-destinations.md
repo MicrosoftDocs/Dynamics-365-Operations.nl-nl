@@ -2,11 +2,10 @@
 title: Bestemmingen van elektronische rapportage (ER)
 description: Dit onderwerp biedt informatie over het beheer van ER-bestemmingen (elektronische rapportage), de ondersteunde typen bestemmingen en beveiligingsoverwegingen.
 author: nselin
-manager: AnnBe
-ms.date: 01/21/2021
+manager: tfehr
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 0fe0992412edf6f78be4ed293052e3501a7224ad
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097276"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569714"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Bestemmingen van elektronische rapportage (ER)
 
@@ -51,7 +50,7 @@ Er is ook een bestemmingstype [Afdrukken](er-destination-type-print.md). Als u d
 
 ## <a name="overview"></a>Overzicht
 
-U kunt alleen bestemmingen instellen voor ER-configuraties die zijn [geïmporteerd](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) in het huidige Finance-exemplaar en voor de indelingen die beschikbaar zijn op de pagina **Configuraties van elektronische rapportage**. De functionaliteit voor het beheer van ER-bestemmingen is beschikbaar onder **Organisatiebeheer** \> **Elektronische rapportage** \>**Bestemming voor elektronische rapportage**.
+U kunt alleen bestemmingen instellen voor ER-configuraties die zijn [geïmporteerd](general-electronic-reporting.md#importing-an-er-component-from-lcs-to-use-it-internally) in het huidige Finance-exemplaar en voor de indelingen die beschikbaar zijn op de pagina **Configuraties van elektronische rapportage**. De functionaliteit voor het beheer van ER-bestemmingen is beschikbaar onder **Organisatiebeheer** \> **Elektronische rapportage** \> **Bestemming voor elektronische rapportage**.
 
 ### <a name="default-behavior"></a>Standaardgedrag
 
@@ -120,7 +119,7 @@ Wanneer u bestandsbestemmingen voor een geselecteerde indeling configureert, con
 
 [![Configuratiekoppeling](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
-Tegelijkertijd kunt u meerdere [versies](general-electronic-reporting.md#component-versioning) van de indeling hebben die zijn geïmporteerd in het huidige Finance-exemplaar. U kunt deze weergeven als u de **Configuratie** koppeling selecteert die wordt aangeboden wanneer u het veld **Verwijzing** selecteert.
+Tegelijkertijd kunt u meerdere [versies](general-electronic-reporting.md#component-versioning) van de indeling hebben die zijn geïmporteerd in het huidige Finance-exemplaar. U kunt deze weergeven als u de koppeling **Configuratie** selecteert die wordt aangeboden wanneer u het veld **Verwijzing** selecteert.
 
 [![Configuratieversies](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
@@ -166,12 +165,14 @@ Om de PDF-conversie optie beschikbaar te maken in het huidige Finance-exemplaar,
 
 ### <a name="applicability"></a>Toepasbaarheid
 
-De optie PDF-conversie kan alleen worden ingeschakeld voor bestandsonderdelen die worden gebruikt om uitvoer in Office- (Excel of Word) indeling (**Excel-bestand**) te genereren. Wanneer deze optie is ingeschakeld, wordt de uitvoer die in de Office-indeling is gegenereerd, automatisch geconverteerd naar PDF-indeling.
-
-### <a name="limitations"></a>Beperkingen
+De optie PDF-conversie kan alleen worden ingeschakeld voor bestandsonderdelen die worden gebruikt om uitvoer in Office- (Excel of Word) indeling (**Excel-bestand**) te genereren. Wanneer deze optie is ingeschakeld, wordt de uitvoer die in de Office-indeling is gegenereerd, automatisch geconverteerd naar PDF-indeling. In versies van Finance **vóór 10.0.18** kunt u deze optie alleen inschakelen voor onderdelen van het type **Excel\\File** waarmee uitvoer in [Excel](er-fillable-excel.md)- of [Word](er-design-configuration-word.md)-indeling wordt gegenereerd. In versie **10.0.18 en hoger** kunt u deze optie echter ook inschakelen voor onderdelen van het type **Common\\File**.
 
 > [!NOTE]
-> Deze functie is een voorbeeldfunctie en is onderworpen aan de gebruiksvoorwaarden die worden beschreven in [aanvullende gebruiksvoorwaarden voor Microsoft Dynamics 365-voorbeelden](https://go.microsoft.com/fwlink/?linkid=2105274).
+> Let goed op het waarschuwingsbericht dat u ontvangt wanneer u de PDF-conversieoptie inschakelt voor een ER-onderdeel van het type **Common\\File**. In dit bericht wordt aangegeven dat u bij het ontwerpen niet kunt garanderen dat het geselecteerde bestandsonderdeel de inhoud in PDF-indeling of de naar PDF converteerbare inhoud tijdens runtime beschikbaar zal maken. U moet de optie daarom alleen instellen als u zeker weet dat het geselecteerde bestandsonderdeel is geconfigureerd om de inhoud in PDF-indeling of de naar PDF converteerbare inhoud tijdens runtime beschikbaar te maken.
+> 
+> Als u de PDF-conversieoptie instelt voor een onderdeel van het type **Excel\\File**, als dat onderdeel inhoud in een andere indeling dan PDF beschikbaar maakt en als de beschikbaar gestelde inhoud niet naar PDF-indeling kan worden geconverteerd, treedt er een uitzondering op tijdens runtime. Het bericht dat u ontvangt, geeft aan dat de gegenereerde inhoud niet kan worden geconverteerd naar PDF-indeling.
+
+### <a name="limitations"></a>Beperkingen
 
 De optie PDF-conversie is alleen beschikbaar voor cloudimplementaties.
 

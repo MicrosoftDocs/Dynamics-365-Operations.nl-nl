@@ -1,5 +1,5 @@
 ---
-title: Robots.txt-bestanden beheren
+title: robots.txt-bestanden beheren
 description: In dit onderwerp wordt beschreven hoe u robots.txt-bestanden beheert in Microsoft Dynamics 365 Commerce.
 author: BrianShook
 manager: annbe
@@ -16,21 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2e25a584121b700e566c29dbfe3fbbd72bf998cc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: afd7982179dc9845c9adc24e8c7c9951a04460a3
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982536"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477703"
 ---
-# <a name="manage-robotstxt-files"></a>Robots.txt-bestanden beheren
-
+# <a name="manage-robotstxt-files"></a>robots.txt-bestanden beheren
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u robots.txt-bestanden beheert in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 De uitsluitingsstandaard voor robots, of robots.txt, is een standaard die websites gebruiken om te communiceren met webrobots. Hiermee worden webrobots geïnstrueerd over de gebieden van een website die niet bezocht mogen worden. Robots worden vaak gebruikt door zoekmachines om websites te indexeren.
 

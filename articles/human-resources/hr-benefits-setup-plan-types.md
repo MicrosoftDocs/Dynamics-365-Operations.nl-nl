@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e24c11fb6e84a7480a40b706b106cd8465470f5c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 1d8db6900e6b697e988e2a7e9e31828b70e4ad0d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112071"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463907"
 ---
 # <a name="create-plan-types"></a>Plantypen maken
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Een plantype in Microsoft Dynamics 365 Human Resources is een groepering op hoog niveau van specifieke typen vergoedingen. Elk plantype heeft een plantypecode waarmee de regels voor het plantype worden bepaald. Het plantype Basis leven heeft bijvoorbeeld de plantypecode Leven, omdat het een type levensverzekering is en moet voldoen aan de regels die zijn vastgelegd voor de plantypecode Leven. Een ander plantype kan Aanvullend leven zijn, eveneens met plantypecode Leven.
 
