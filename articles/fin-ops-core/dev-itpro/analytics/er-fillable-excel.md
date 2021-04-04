@@ -3,10 +3,9 @@ title: Een configuratie ontwerpen voor het genereren van documenten in Excel-ind
 description: Dit onderwerp bevat informatie over het ontwerpen van een ER-indeling (Elektronische rapportage) voor het invullen van een Excel-sjabloon en het genereren van uitgaande Excel-documenten.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2020
+ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8d6a18741d57829d1929fb8362dc4ba8e03a1bd
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: a82afcdeb45bad79a008c3135ef332cf01c0b580
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094024"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574168"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 
@@ -54,7 +53,7 @@ U moet een onderdeel **Excel\\Bestand** toevoegen aan de geconfigureerde ER-inde
 Als u de indeling van het uitgaande document wilt opgeven, voegt u een Excel-werkmap met de extensie .xlsx toe aan het onderdeel **Excel\\Bestand** als sjabloon voor uitgaande documenten.
 
 > [!NOTE]
-> Wanneer u handmatig een sjabloon toevoegt, moet u een [documenttype](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) gebruiken dat in de [ER-parameters](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) voor dat doel is geconfigureerd.
+> Wanneer u handmatig een sjabloon toevoegt, moet u een [documenttype](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types) gebruiken dat in de [ER-parameters](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) voor dat doel is geconfigureerd.
 
 ![Een bijlage toevoegen aan het onderdeel Excel\Bestand](./media/er-excel-format-add-file-component2.png)
 
@@ -140,6 +139,36 @@ Zie [Afbeeldingen en vormen insluiten in documenten die u genereert met ER](elec
 
 Het onderdeel **Pagina-einde** zorgt ervoor dat er een nieuwe pagina wordt gestart in Excel. Dit onderdeel is niet vereist als u de standaardpaginering van Excel wilt gebruiken, maar u moet deze functie gebruiken wanneer u wilt dat Excel uw ER-indeling volgt om de paginering te structureren.
 
+## <a name="footer-component"></a>Voettekstonderdeel
+
+Het onderdeel **Voettekst** wordt gebruikt om voetteksten in te vullen onder aan een gegenereerd werkblad in een Excel-werkmap.
+
+> [!NOTE]
+> U kunt dit onderdeel voor elk onderdeel **Werkblad** toevoegen als u verschillende voetteksten voor verschillende werkbladen wilt opgeven in een gegenereerde Excel-werkmap.
+
+Wanneer u een afzonderlijk onderdeel **Voettekst** configureert, kunt u de eigenschap **Vormgeving kop-/voettekst** gebruiken om de pagina's op te geven waarop het onderdeel wordt gebruikt. De volgende waarden zijn beschikbaar:
+
+- **Alle**: voer het geconfigureerde onderdeel **Voettekst** uit voor alle pagina's van het bovenliggende Excel-werkblad.
+- **Eerste**: voer het geconfigureerde onderdeel **Voettekst** uit voor alleen de eerste pagina van het bovenliggende Excel-werkblad.
+- **Even**: voer het geconfigureerde onderdeel **Voettekst** uit voor alleen de even pagina's van het bovenliggende Excel-werkblad.
+- **Oneven**: voer het geconfigureerde onderdeel **Voettekst** uit voor alleen de oneven pagina's van het bovenliggende Excel-werkblad.
+
+Voor een enkel onderdeel **Werkblad** kunt u verschillende onderdelen **Voettekst** toevoegen. Deze onderdelen hebben een andere waarde voor de eigenschap **Vormgeving kop-/voettekst**. Op deze manier kunt u verschillende voetteksten genereren voor verschillende typen pagina's in een Excel-werkblad.
+
+> [!NOTE]
+> Zorg ervoor dat elk onderdeel **Voettekst** dat u toevoegt aan een enkel onderdeel **Werkblad** een andere waarde heeft voor de eigenschap **Vormgeving kop-/voettekst**. Als dit niet het geval is, treedt er een [validatiefout](er-components-inspections.md#i16) op. Het foutbericht dat u ontvangt, informeert u over de inconsistentie.
+
+Voeg onder het onderdeel **Voettekst** de vereiste geneste onderdelen van de **Tekst\\Tekenreeks**, **Tekst\\Datum/tijd** of een ander type toe. Configureer de bindingen voor deze onderdelen om op te geven hoe de voettekst van uw pagina wordt ingevuld.
+
+U kunt ook speciale [opmaakcodes](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) gebruiken om de inhoud van een gegenereerde voettekst correct op te maken. Volg de stappen in [Voorbeeld 1](#example-1), verderop in dit onderwerp, om te weten te komen hoe u deze methode moet gebruiken.
+
+> [!NOTE]
+> Wanneer u ER-indelingen configureert, moet u rekening houden met de Excel-[limiet](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) en het maximale aantal tekens voor een enkele kop- of voettekst.
+
+## <a name="header-component"></a>Koptekstonderdeel
+
+Het onderdeel **Koptekst** wordt gebruikt om kopteksten in te vullen boven aan een gegenereerd werkblad in een Excel-werkmap. Dit wordt op dezelfde wijze gebruikt als het onderdeel **Voettekst**.
+
 ## <a name="edit-an-added-er-format"></a>Een toegevoegde ER-indeling bewerken
 
 ### <a name="update-a-template"></a>Een sjabloon bewerken
@@ -175,6 +204,48 @@ Wanneer een uitgaand document in een Microsoft Excel-werkmapindeling wordt gegen
     >[!NOTE]
     > Herberekening van formules wordt handmatig uitgevoerd wanneer een gegenereerd document wordt geopend voor preview met Excel.
     > Gebruik deze optie niet als u een ER-bestemming configureert die uitgaat van het gebruik van een gegenereerd document zonder de preview in Excel (PDF-conversie, e-mailing enz.) omdat het gegenereerde document mogelijk geen waarden bevat in cellen die formules bevatten.
+
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a>Voorbeeld 1: inhoud van de voettekst opmaken
+
+1. Gebruik de geleverde ER-configuraties om afdrukbaar FTI-document (vrije-tekstfactuur) te [genereren](er-generate-printable-fti-forms.md).
+2. Controleer de voettekst van het gegenereerde document. De pagina bevat informatie over het huidige paginanummer en het totale aantal pagina's in het document.
+
+    ![De voettekst van een gegenereerd document controleren in Excel-indeling](./media/er-fillable-excel-footer-1.gif)
+
+3. [Open](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) in de ontwerper van de ER-indeling het voorbeeld van een ER-indeling voor controledoeleinden.
+
+    De voettekst van het werkblad **Factuur** wordt gegenereerd op basis van de instellingen van twee onderdelen **Tekenreeks** die zich onder het onderdeel **Voettekst** bevinden:
+
+    - Het eerste onderdeel **Tekenreeks** vult de volgende speciale opmaakcodes in om het toepassen van specifieke opmaak af te dwingen in Excel:
+
+        - **&C**: hiermee lijnt u de voettekst in het midden uit.
+        - **&"Segoe UI,Regular"&8**: de voettekst wordt weergegven in het lettertype "Segoe UI Regular" met een grootte van 8 punten.
+
+    - Het tweede onderdeel **Tekenreeks** vult de tekst in die het huidige paginanummer en het totale aantal pagina's in het huidige document bevat.
+
+    ![Het ER-indelingsonderdeel voor de voettekst valideren op de pagina Indelingsontwerper](./media/er-fillable-excel-footer-2.png)
+
+4. Pas de voorbeeld-ER-indeling aan om de voettekst van de huidige pagina te wijzigen:
+
+    1. [Maak](er-quick-start2-customize-report.md#DeriveProvidedFormat) een afgeleide ER-indeling **Vrije-tekstfactuur (Excel) aangepast** op basis van de voorbeeld-ER-indeling.
+    2. Voeg het eerste nieuwe stel onderdelen **Tekenreeks** toe voor het onderdeel **Voettekst** van het werkblad **Factuur**:
+
+        1. Voeg een onderdeel **Tekenreeks** toe die de bedrijfsnaam links uitlijnt en deze weergeeft in het 8-punts lettertype "Segoe UI Regular" (**"&L&"Segoe UI,Regular"&8"**).
+        2. Voeg een onderdeel **Tekenreeks** toe waarmee de bedrijfsnaam wordt ingevuld (**model.InvoiceBase.CompanyInfo.Name**).
+
+    3. Voeg het tweede nieuwe stel onderdelen **Tekenreeks** toe voor het onderdeel **Voettekst** van het werkblad **Factuur**:
+
+        1. Voeg een onderdeel **Tekenreeks** toe die de verwerkingsdatum rechts uitlijnt en deze weergeeft in het 8-punts lettertype "Segoe UI Regular" (**"&R&"Segoe UI,Regular"&8"**).
+        2. Voeg een onderdeel **Tekenreeks** toe om de verwerkingsdatum in te vullen in een aangepaste notatie (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd")**).
+
+        ![Het ER-indelingsonderdeel voor de voettekst controleren op de pagina Indelingsontwerper](./media/er-fillable-excel-footer-3.png)
+
+    4. [Voltooi](er-quick-start2-customize-report.md#CompleteDerivedFormat) de conceptversie van de afgeleide ER-indeling **Vrije-tekstfactuur (Excel) aangepast**.
+
+5. [Configureer](er-generate-printable-fti-forms.md#configure-print-management) afdrukbeheer om de afgeleide aangepaste ER-indeling **Vrije-tekstfactuur (Excel)** te gebruiken in plaats van de voorbeeld-ER-indeling.
+6. Genereer een afdrukbaar FTI-document en controleer de voettekst van het gegenereerde document.
+
+    ![De voettekst van een gegenereerd document controleren in Excel-indeling](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

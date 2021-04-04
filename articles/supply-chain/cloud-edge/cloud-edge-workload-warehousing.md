@@ -18,12 +18,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 91e614889c719ae700b13e54150e5025d64e2b97
-ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
+ms.openlocfilehash: 9b5d8c9e77fb98dfb7031a3868303970fe3bf865
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104935"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580960"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
 
@@ -85,7 +85,14 @@ De hub is eigenaar van de volgende gegevens:
 > [!NOTE]
 > De inkomende inkooporderstroom is conceptueel verschillend van de uitgaande stroom. U kunt hetzelfde magazijn voor de schaaleenheid of de hub gebruiken, afhankelijk van of de inkooporder naar het magazijn is vrijgegeven. Wanneer u een order naar het magazijn hebt vrijgegeven, kunt u alleen met die order werken terwijl u zich hebt aangemeld bij de schaaleenheid.
 
-Als u het proces *vrijgeven naar magazijn* gebruikt, worden [*magazijnorders*](cloud-edge-warehouse-order.md) gemaakt en wordt het eigendom van de gerelateerde ontvangende stroom toegewezen aan de schaaleenheid. De hub kan inkomende ontvangst niet registreren.
+Als u het proces *Vrijgeven naar magazijn* gebruikt, worden [*magazijnorders*](cloud-edge-warehouse-order.md) gemaakt en wordt het eigendom van de gerelateerde ontvangende stroom toegewezen aan de schaaleenheid. De hub kan inkomende ontvangst niet registreren.
+
+U moet zich aanmelden bij de hub om het proces *Vrijgeven aan magazijn* te gebruiken. Ga naar een van de volgende pagina's om uit te voeren of te plannen:
+
+- **Inkoopbeheer > Inkooporders > Alle inkooporders > Magazijn > Acties > Vrijgeven aan magazijn**
+- **Magazijnbeheer > Vrijgave naar magazijn > Automatische vrijgave van inkooporders**
+
+Wanneer u **Automatische vrijgave van inkooporders** gebruikt, kunt u specifieke inkooporderregels selecteren op basis van een query. Een standaardscenario is het instellen van een terugkerende batchtaak waarbij alle bevestigde inkooporderregels worden vrijgegeven die naar verwachting de volgende dag zullen binnenkomen.
 
 De medewerker kan het ontvangstproces uitvoeren met behulp van een magazijn-app die is verbonden met de schaaleenheid. De gegevens worden vervolgens door de schaaleenheid geregistreerd en gerapporteerd voor de inkomende magazijnorder. Het maken en verwerken van de volgende wegzetactie wordt ook afgehandeld door de schaaleenheid.
 
@@ -222,7 +229,7 @@ In de volgende tabel ziet u welke inkomende functies worden ondersteund en waar 
 | Transferorderregel ontvangen en wegzetten                        | Ja | No |
 | Werk annuleren (inkomende)                                              | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | <p>Ja, maar alleen als de optie <b>Ontvangst ongedaan maken bij annulering van werk</b> (op de pagina <b>Parameters voor magazijnbeheer</b>) wordt uitgeschakeld</p> |
 | Inkooporder productontvangstbon verwerken                          | Ja | No |
-| Ontvangen van inkooporder met minderlevering                        | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Nee, omdat u alleen de volledige hoeveelheden op de magazijnorderregel kunt annuleren |
+| Ontvangen van inkooporder met minderlevering                        | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Ja, maar alleen door een annuleringsaanvraag vanuit de hub te maken |
 | Ontvangen van inkooporder met meerlevering                        | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Ja  |
 | Ontvangen met aanmaak van werk *Cross-docken*                   | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | No |
 | Ontvangen met aanmaak van werk *Kwaliteitsorder*                  | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | No |

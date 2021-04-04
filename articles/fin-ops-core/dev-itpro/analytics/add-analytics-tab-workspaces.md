@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: kfend
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 53c9d6343422f64aed74ce436bafd2c8b2ce1c3e
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4e757ce585b16b23d65506068dcc337211107199
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680931"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568485"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analyses aan werkgebieden toevoegen met Power BI Embedded
 
@@ -28,12 +27,12 @@ ms.locfileid: "4680931"
 > [!NOTE]
 > Deze functie wordt ondersteund in Finance and Operations (versie 7.2 en hoger).
 
-## <a name="introduction"></a>Introductie
+## <a name="introduction"></a>Inleiding
 In dit onderwerp wordt beschreven hoe u een Microsoft Power BI-rapport insluit op het tabblad **Analyses** van een werkgebied. In het hier gebruikte voorbeeld wordt het werkgebied **Reserveringenbeheer** in de toepassing Wagenparkbeheer uitgebreid om een analytisch werkgebied in te sluiten in het tabblad **Analyses**.
 
 ## <a name="prerequisites"></a>Vereisten
 + Open een ontwikkelaaromgeving waarop Platformupdate 8 of hoger wordt uitgevoerd.
-+ Een analyserapport (.pbix-bestand) dat is gemaakt met Microsoft Power BI Desktop-bureaublad en dat een gegevensmodel bevat dat de entiteitsopslagdatabase als bron heeft.
++ Een analyserapport (.pbix-bestand) dat is gemaakt met Microsoft Power BI Desktop en dat een gegevensmodel bevat dat de entiteitsopslagdatabase als bron heeft.
 
 ## <a name="overview"></a>Overzicht
 Of u een bestaand werkgebied van de toepassing uitbreidt of een nieuw werkgebied introduceert, u kunt in beide de ingesloten analytische weergaven gebruiken om begrijpelijke en interactieve weergaven van uw zakelijke gegevens te maken. Het proces voor het toevoegen van een analytisch werkgebiedtabblad bestaat uit vier stappen.

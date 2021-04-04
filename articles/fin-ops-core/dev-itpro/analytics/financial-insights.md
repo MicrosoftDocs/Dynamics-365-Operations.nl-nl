@@ -1,12 +1,11 @@
 ---
-title: Financial Insights
-description: Financial Insights gebruikt Microsoft Power BI om KPI's, grafieken en financiële overzichten samen te voegen.
+title: Financiële analyse
+description: Financiële analyse gebruikt Microsoft Power BI om financiële KPI's, grafieken en financiële overzichten samen te voegen.
 author: kweekley
 manager: AnnBe
 ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,20 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9aaf24147900c890a14c60ab969da7124c538911
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 22de5f3e2e475aa681be2d8868fb1d939f3f8638
+ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115723"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5572361"
 ---
-# <a name="financial-insights"></a>Financial Insights
+# <a name="financial-analysis"></a>Financiële analyse
 
 [!include [banner](../includes/banner.md)]
 
-**Financial Insights** gebruikt Microsoft Power BI om KPI's, grafieken en financiële overzichten samen te voegen. Power BI is ingesloten in de toepassing. De focus van **Financial Insights** is analytische rapportage. Persoonlijkheden binnen een organisatie kunnen weergeven, onderzoeken en reageren. 
+**Financiële analyse** gebruikt Microsoft Power BI om financiële KPI's, grafieken en financiële overzichten samen te voegen. Power BI is ingesloten in de toepassing. De focus van **Financiële analyse** is analytische rapportage. Persoonlijkheden binnen een organisatie kunnen weergeven, onderzoeken en reageren. 
 
-**Financial Insights** combineert gegevens uit het grootboek en subjournalen om een completer beeld te geven van de financiële toestand van een organisatie.
+**Financiële analyse** combineert gegevens uit het grootboek en subjournalen om een completer beeld te geven van de financiële toestand van een organisatie.
 
 > [!NOTE]
 > Dit document gebruikt de volgende Power BI-terminologie:
@@ -38,14 +37,14 @@ ms.locfileid: "5115723"
 > - **Pagina**: een tabblad in een enkel .pbix-bestand. Elke pagina kan een of meer visuele elementen bevatten.
 > - **Zichtbaar**: één bron van gegevens, zoals een kaart, KPI, diagram, grafiek, matrix of financieel overzicht. Een pagina met een financieel overzicht als visueel element kan geen andere visuele elementen hebben vanwege de grootte van de gegevens waarover wordt gerapporteerd.
 
-Op dit moment wordt **Financial Insights** gebruikt om gegevens voor de actieve rechtspersoon of alle rechtspersonen te bekijken. In toekomstige versies verandert de werkruimte tot een plaats waar u Power BI kunt gebruiken om visuele elementen te bewerken en te maken.
+Op dit moment wordt **Financiële analyse** gebruikt om gegevens voor de actieve rechtspersoon of alle rechtspersonen te bekijken. In toekomstige versies verandert de werkruimte tot een plaats waar u Power BI kunt gebruiken om visuele elementen te bewerken en te maken.
 
-De werkruimte **CFO-overzicht** toont de dezelfde visuele elementen als **Financial Insights**, maar is gericht op laten weergeven en filteren van de gegevens in bestaande rapporten. In toekomstige versies is het mogelijk nieuwe visuele elementen toe te voegen aan de werkruimte **Financial Insights**. De nieuwe visuele elementen zijn wellicht ook beschikbaar in werkruimten die zijn gericht op andere functies, zoals projectmanagers of leveranciermanagers. De werkruimte **CFO overzicht** blijft gegevens tonen voor alle rechtspersonen, ongeacht de rechtspersonen waartoe de rol toegang heeft.
+De werkruimte **CFO-overzicht** toont de dezelfde visuele elementen als **Financiële analyse**, maar is gericht op laten weergeven en filteren van de gegevens in bestaande rapporten. In toekomstige versies is het mogelijk nieuwe visuele elementen toe te voegen aan de werkruimte **Financiële analyse**. De nieuwe visuele elementen zijn wellicht ook beschikbaar in werkruimten die zijn gericht op andere functies, zoals projectmanagers of leveranciermanagers. De werkruimte **CFO overzicht** blijft gegevens tonen voor alle rechtspersonen, ongeacht de rechtspersonen waartoe de rol toegang heeft.
 
 ## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance-setup
 **Grootboek**
 
-Het hoofdrekeningtype en de hoofdrekeningcategorieën worden gebruikt om de juiste standaardhoofdrekeningen in te vullen op het financieel overzicht **Balans** en de verschillende **winst- en verliesrekeningen** in **Financial Insights**.
+Het hoofdrekeningtype en de hoofdrekeningcategorieën worden gebruikt om de juiste standaardhoofdrekeningen in te vullen op het financieel overzicht **Balans** en de verschillende **winst- en verliesrekeningen** in **Financiële analyse**.
 
 Op de pagina **Hoofdrekeningen** moet u uw hoofdrekening definiëren zodat er een van de volgende typen aan wordt toegewezen:
 
@@ -57,14 +56,14 @@ Op de pagina **Hoofdrekeningen** moet u uw hoofdrekening definiëren zodat er ee
 
 Wijs geen ander hoofdrekeningtype, zoals **Balans** of **Winst en verlies**, aan uw hoofdrekeningen toe. Rapportage kan niet het type hoofdrekening bepalen wanneer andere typen hoofdrekeningen worden toegewezen, omdat deze niet gedetailleerd genoeg zijn. Het type hoofdrekening moet worden bepaald om verplichtingen en opbrengst weer te geven als positieve bedragen in financiële rapporten.
 
-Om op de financiële overzichten te worden weergegeven en te worden opgenomen in diverse andere visuele elementen, zoals KPI's, moet aan elke hoofdrekening een hoofdrekeningcategorie worden toegewezen. De hoofdrekeningcategorieën zijn verbeterd, zodat ze een weergavevolgorde bevatten. De weergavevolgorde wordt specifiek gebruikt in financiële overzichten in **Financial Insights**. Nadat u een hoofdrekeningcategorie hebt bewerkt of toegevoegd, kunt u de waarde van de **weergavevolgorde** wijzigen om de volgorde te definiëren waarin hoofdrekeningcategorieën kunnen worden weergegeven in een financieel overzicht. Als u de weergavevolgorde voor veel hoofdrekeningcategorieën moet wijzigen, kunt u de functie Openen in Excel gebruiken om snel te bewerken en de wijzigingen weer te publiceren in de toepassing.
+Om op de financiële overzichten te worden weergegeven en te worden opgenomen in diverse andere visuele elementen, zoals KPI's, moet aan elke hoofdrekening een hoofdrekeningcategorie worden toegewezen. De hoofdrekeningcategorieën zijn verbeterd, zodat ze een weergavevolgorde bevatten. De weergavevolgorde wordt specifiek gebruikt in financiële overzichten in **Financiële analyse**. Nadat u een hoofdrekeningcategorie hebt bewerkt of toegevoegd, kunt u de waarde van de **weergavevolgorde** wijzigen om de volgorde te definiëren waarin hoofdrekeningcategorieën kunnen worden weergegeven in een financieel overzicht. Als u de weergavevolgorde voor veel hoofdrekeningcategorieën moet wijzigen, kunt u de functie Openen in Excel gebruiken om snel te bewerken en de wijzigingen weer te publiceren in de toepassing.
 
 ## <a name="entity-store"></a>Entiteitopslag
-De gegevens voor **Financial Insights** worden gehaald uit de entiteitopslag (**Systeembeheer** \> **Instellen** \> **Entiteitopslag**). Als u de werkruimte **CFO-overzicht** of **Financial Insights** opent en het volgende waarschuwingsbericht wordt weergegeven in de visuele elementen, moet u de entiteiten bijwerken.
+De gegevens voor **Financiële analyse** worden gehaald uit de entiteitopslag (**Systeembeheer** \> **Instellen** \> **Entiteitopslag**). Als u de werkruimte **CFO-overzicht** of **Financiële analyse** opent en het volgende waarschuwingsbericht wordt weergegeven in de visuele elementen, moet u de entiteiten bijwerken.
 
 ![Waarschuwing](./media/Cantdisplay.png)
 
-U moet de volgende entiteiten bijwerken om gegevens te zien in de werkruimten **Financial Insights** en **CFO-overzicht**:
+U moet de volgende entiteiten bijwerken om gegevens te zien in de werkruimte **Financiële analyse**:
 
 - BudgetActivityMeasure
 - Transactiegegevens financiële rapportage versie 3 
@@ -74,8 +73,6 @@ U moet de volgende entiteiten bijwerken om gegevens te zien in de werkruimten **
 - Inkoop-cube
 - Verkoop-cube
 
-In de vorige versie werden de entiteiten LedgerActivityMeasure en VendPaymentBIMeasure gebruikt voor gegevens in de werkruimte **CFO-overzicht**. Ze worden echter niet meer gebruikt in de huidige versie.
-
 U kunt een terugkerende batch definiëren om de gegevens in de entiteiten regelmatig bij te werken. Omdat elke entiteit volledig opnieuw wordt gemaakt tijdens een update, selecteert u de tijd en de frequentie van entiteitupdates zorgvuldig. De primaire entiteit die wordt gebruikt voor financiële overzichten, is de FinancialReportingTransactionData-entiteit. U kunt daarom die entiteit vaker bijwerken.
 
 ## <a name="security"></a>Beveiliging
@@ -83,22 +80,21 @@ De gegevens in ingesloten Power BI-rapporten kunnen momenteel niet worden beperk
 
 | Functie                                    | Rollen | Beschrijving |
 |-----------------------------------------|-------|------------|
-| Werkgebied CFO-overzicht weergeven             | CFO (Chief Financial Officer) | Deze functie biedt toegang tot de werkruimte CFO-overzicht. Standaard wordt het actieve bedrijf gebruikt als filter. U kunt echter alle rechtspersonen toevoegen, ongeacht of de gebruiker toegang tot de andere rechtspersonen heeft. |
-| Financiële inzichten voor huidig bedrijf weergeven | <ul><li>Accountant</li><li>Accountingmanager</li><li>Supervisor boekhouding</li><li>Accountant</li><li>Budgetbeheerder</li><li>President-directeur</li><li>Hoofdmedewerker financiën</li><li>Financieel controller</li></ul> | Deze functie geeft toegang tot Financial Insights. Standaard wordt het actieve bedrijf gebruikt als filter. U kunt geen andere rechtspersonen toevoegen. |
-| Financiële inzichten voor geheel bedrijf weergeven   | In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 is deze functie niet toegewezen aan een rol. In de volgende versie wordt deze functie toegewezen aan de rol van CFO. | Deze functie biedt toegang tot de menuoptie voor de werkruimte CFO-overzicht. Standaard wordt het actieve bedrijf gebruikt als filter. U kunt echter alle rechtspersonen toevoegen, ongeacht of de gebruiker toegang tot de andere rechtspersonen heeft. |
+| Financiële analyse voor huidig bedrijf weergeven | <ul><li>Accountant</li><li>Accountingmanager</li><li>Accounting supervisor</li><li>Accountant</li><li>Budgetbeheerder</li><li>President-directeur</li><li>Hoofdmedewerker financiën</li><li>Financieel controller</li></ul> | Deze functie geeft toegang tot Financiële analyse. Standaard wordt het actieve bedrijf gebruikt als filter. U kunt geen andere rechtspersonen toevoegen. |
+| Financiële analyse voor hele bedrijf weergeven   | In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3 is deze functie niet toegewezen aan een rol. In de volgende versie wordt deze functie toegewezen aan de rol van CFO. | Deze functie biedt toegang tot de menuoptie voor de werkruimte CFO-overzicht. Standaard wordt het actieve bedrijf gebruikt als filter. U kunt echter alle rechtspersonen toevoegen, ongeacht of de gebruiker toegang tot de andere rechtspersonen heeft. |
 
 
-## <a name="financial-reporting-vs-financial-insights"></a>Financiële rapportage versus Financiële inzichten
-Hoewel **Financial Insights** financiële overzichten bevat, is het geen vervanging voor Financiële rapportage in de toepassing. De standaard financiële overzichten in **Financial Insights** zijn beperkt in bereik en bevatten niet alle soorten financiële overzichten. Financiële rapportage is nog steeds het primaire hulpmiddel voor het ontwerpen, maken en genereren van wettelijke financiële overzichten.
+## <a name="financial-reporting-vs-financial-analysis"></a>Financiële rapportage versus Financiële analyse
+Hoewel **Financiële analyse** financiële overzichten bevat, is het geen vervanging voor Financiële rapportage in de toepassing. De standaard financiële overzichten in **Financiële analyse** zijn beperkt in bereik en bevatten niet alle soorten financiële overzichten. Financiële rapportage is nog steeds het primaire hulpmiddel voor het ontwerpen, maken en genereren van wettelijke financiële overzichten.
 
 Op basis van het volgende vergelijkingsdiagram kunt u onderscheid maken tussen de twee opties:
 
 
-|                                                          | Financiële rapportage                                               | Financial Insights |
+|                                                          | Financial Reporting                                               | Financiële analyse |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
-| **Standaardrapporten bewerken**                                 | Ja                                                               | Nee |
-| **Nieuwe rapporten maken**                                   | Ja                                                               | Nee |
-| **Rapporten afdrukken**                                        | Ja                                                               | Nee |
+| **Standaardrapporten bewerken**                                 | Ja                                                               | No |
+| **Nieuwe rapporten maken**                                   | Ja                                                               | No |
+| **Druk rapporten af**                                        | Ja                                                               | Nee |
 | **Exporteren naar Excel**                                      | Ja                                                               | Beperkt Exporteert onbewerkte gegevens naar Excel, niet opgemaakt rapport |
 | **Ondersteuning van rapporthiërarchie/organisatiehiërarchie**   | Ja                                                               | Nee |
 | **Rapport van gegevens in subadministratie**                             | Ja Beperkt tot alleen leverancier, klant                              | Ja Leverancier, klant, leverancier-/klantgroepen, leverancier-/klantadressen, enz. |
@@ -108,7 +104,7 @@ Op basis van het volgende vergelijkingsdiagram kunt u onderscheid maken tussen d
 | **Rapport van externe gegevens**                              | Nee                                                                | Nee |
 | **Consolidaties ondersteunen**                               | Ja                                                               | Beperkt Kan rapporteren over meerdere bedrijven, maar alleen valuta voor boekhouding gebruiken |
 
-Naast de gebruikersinterface in het oorspronkelijke werkgebied **CFO-overzicht** zijn nu nieuwe KPI's, diagrammen en financiële overzichten beschikbaar. De volgende financiële overzichten zijn beschikbaar:
+De volgende financiële overzichten zijn beschikbaar:
 
 - Proefbalans
 - Balans
@@ -121,7 +117,7 @@ Naast de gebruikersinterface in het oorspronkelijke werkgebied **CFO-overzicht**
 - Verkopen per klant
 
 ## <a name="edit-visuals"></a>Visuele elementen bewerken
-In de eerste versie van **Financial Insights** kan geen van de visuele elementen worden bewerkt. In toekomstige versies kunnen gebruikers met de juiste beveiliging nieuwe visuele elementen maken, bestaande visuele elementen kopiëren en visuele elementen bewerken. Hoewel de .pbix-bestanden die de rapporten bevatten als resources beschikbaar zijn, wordt niet aanbevolen dat u de standaardrapporten bewerkt. Er worden aanvullende wijzigingen aangebracht in de visuele elementen gegevensmodel, standaardrapporten en aangepaste financiële overzichten die worden gebruikt om de financiële overzichten te maken. Dus als u wilt profiteren van nieuwe functies en wijzigingen in het gegevensmodel in de volgende versie, moet u eventuele wijzigingen die u hebt aangebracht in de standaardrapporten via Microsoft Power BI Desktop opnieuw aanbrengen.
+In eerdere versies van **Financiële analyse** kon geen van de visuele elementen worden bewerkt. In toekomstige versies kunnen gebruikers met de juiste beveiliging nieuwe visuele elementen maken, bestaande visuele elementen kopiëren en visuele elementen bewerken. Hoewel de .pbix-bestanden die de rapporten bevatten als resources beschikbaar zijn, wordt niet aanbevolen dat u de standaardrapporten bewerkt. Er worden aanvullende wijzigingen aangebracht in de visuele elementen gegevensmodel, standaardrapporten en aangepaste financiële overzichten die worden gebruikt om de financiële overzichten te maken. Dus als u wilt profiteren van nieuwe functies en wijzigingen in het gegevensmodel in de volgende versie, moet u eventuele wijzigingen die u hebt aangebracht in de standaardrapporten via Microsoft Power BI Desktop opnieuw aanbrengen.
 
 ## <a name="filtering"></a>Filteren
 Gebruikers kunnen het rapport filteren met behulp van het deelvenster **Filter** aan de linkerzijde. Dit venster is het hetzelfde venster dat beschikbaar is via Power BI Desktop. Er zijn verschillende niveaus van filteren, waarvan sommige mogelijk niet beschikbaar zijn, afhankelijk van wat u hebt geselecteerd op een pagina (tabblad) en of u de detailanalysemogelijkheden gebruikt:
@@ -168,7 +164,7 @@ De volgende dimensies worden gebruikt in de standaardrapporten. Geen van deze di
 - Plaats
 
 > [!IMPORTANT] 
-> Als u transacties voor meerdere leveranciers of klanten in één boekstuk samenvat met behulp van de financiële journalen, zijn de gegevens onjuist. Rapportage kan niet bepalen welke leverancier of klant is gekoppeld aan een bepaalde grootboekrekening in een journaalpost, omdat deze informatie nergens wordt onderhouden. Daarom raden we niet aan dat u meerdere leveranciers, klanten, vaste activa of projecten in één boekstuk invoert.
+> Als u transacties voor meerdere leveranciers of klanten in één boekstuk samenvat met behulp van de financiële journalen, zijn de gegevens onjuist. Het rapportageproces kan niet bepalen welke leverancier of klant is gekoppeld aan een bepaalde grootboekrekening in een journaalpost, omdat deze informatie nergens wordt onderhouden. Daarom raden we niet aan dat u meerdere leveranciers, klanten, vaste activa of projecten in één boekstuk invoert.
 
 ## <a name="drill-on-data"></a>Inzoomen op gegevens
 
@@ -243,7 +239,7 @@ Power BI bevat geen optie om lege rijen te verbergen en weer te geven. Als een r
 
 ## <a name="additional-resources-for-power-bi"></a>Aanvullende bronnen voor Power BI
 
-De informatie in de volgende bronnen is niet vereist is om de ingesloten rapporten voor de werkruimte **CFO overzicht** of **Financial Insights** in te schakelen in een productieomgeving. In plaats daarvan zijn ze handig voor ontwikkelaarsmachines en als u uw eigen Power BI-rapporten wilt insluiten in Finance.
+De informatie in de volgende bronnen is niet vereist is om de ingesloten rapporten voor de werkruimte **Financiële analyse** in te schakelen in een productieomgeving. In plaats daarvan zijn ze handig voor ontwikkelaarsmachines en als u uw eigen Power BI-rapporten wilt insluiten in Finance.
 
 - [Toegang krijgen tot analytische werkruimten en rapporten voor een omgeving met één computer](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 

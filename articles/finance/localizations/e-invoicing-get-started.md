@@ -3,7 +3,7 @@ title: Aan de slag met de invoegtoepassing voor elektronische facturering
 description: Dit onderwerp bevat informatie waarmee u aan de slag kunt met de invoegtoepassing Elektronische facturering in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 02/03/2021
+ms.date: 02/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 07954c5c96f390bc651794f8b6c61f2a1a17ab8b
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 56227e031f8205836bcae9ce26006fc8091c2863
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111215"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592545"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Aan de slag met de invoegtoepassing voor elektronische facturering
 
@@ -38,7 +38,6 @@ In de volgende tabel worden de functies voor elektronische facturering en de bed
 | Elektronische factuur België (BE)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
 | Braziliaans NF-e (BR)                  | <p>Fiscaal model 55-document</p><p>Correctiebrief</p> |
 | Braziliaans NFS-e ABRASF Curitiba (BR) | Service belastingdocument |
-| Braziliaans NFS-e São Paulo (BR)       | Service belastingdocument |
 | Elektronische factuur Denemarken (DK)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
 | Elektronische factuur Egypte (EG)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
 | Elektronische factuur Estland (EE)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> |
@@ -64,14 +63,14 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Een elektronische factureringsfunctie vanuit de Microsoft-configuratieprovider importeren 
 
 1. Meld u aan bij uw RCS-account (Regulatory Configuration Service).
-2. Selecteer in de werkruimte **Globalisatiefunctie** in de sectie **Functies** de tegel **e-Facturering**.
+2. Selecteer in de werkruimte **Globalisatiefunctie** in de sectie **Functies** de tegel **Invoegtoepassing voor elektronische facturering**.
 3. Selecteer **Importeren** en vervolgens **Synchroniseren**.
 4. Filter de kolom **Configuratieprovider** op de term **Microsoft**.
 5. Selecteer de naam van een elektronische factureringsfunctie in de tabel aan het begin van dit onderwerp en selecteer **Importeren**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Een omgeving voor de elektronische factureringsfunctie onder uw organisatieprovider maken
 
-1. Selecteer in RCS, in de sectie **Functies** van de werkruimte **Globalisatiefunctie**, de tegel **e-Facturering**.
+1. Selecteer in RCS, in de sectie **Functies** van het werkgebied **Globalisatiefunctie** de tegel **Invoegtoepassing voor elektronische facturering**.
 2. Selecteer **Toevoegen** > **Gebaseerd op bestaande functie** en voer in het veld **Naam** de naam van de elektronische factureringsfunctie in.
 3. Voer in het veld **Omschrijving** een omschrijving in voor de functie.
 4. Selecteer in het veld **Basisfunctie** de geïmporteerde elektronische factureringsfunctie van de Microsoft-configuratieprovider.
@@ -79,7 +78,9 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 
 ## <a name="configure-the-electronic-invoicing-feature"></a>De elektronische factureringsfunctie configureren
 
-Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie mogelijk extra configuratie nodig. Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor de specifieke stappen.
+Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie mogelijk extra configuratie nodig. 
+
+Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor de specifieke stappen.
 
 ## <a name="configure-the-application-setup"></a>De instellingen van de toepassing configureren
 
@@ -92,7 +93,7 @@ Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie 
 
 4. Selecteer **Functie-instellingen** en selecteer vervolgens **Verbonden toepassing**.
 5. Selecteer in de sectie **Elektronische documenttypen** de optie **Toevoegen**.
-6. Selecteer voor elk bedrijfsdocument dat door de functie wordt ondersteund, een **Tabelnaam** waarde volgens de volgende tabel en voer deze in.
+6. Selecteer voor elk bedrijfsdocument dat door de functie wordt ondersteund, een waarde voor **Tabelnaam** volgens de volgende tabel en voer deze in.
 
     | Functienaam                         | Bedrijfsdocument | Tabelnaam |
     |--------------------------------------|-------------------|------------|
@@ -100,7 +101,6 @@ Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie 
     | Elektronische factuur België (BE)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
     | Braziliaans NF-e (BR)                  | <p>Belastingdocument</p><p>Correctiebrief</p> | Belastingdocument |
     | Braziliaans NFS-e ABRASF Curitiba (BR) | Service belastingdocument | Belastingdocument |
-    | Braziliaans NFS-e São Paulo (BR)       | Service belastingdocument | Belastingdocument |
     | Elektronische factuur Denemarken (DK)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
     | Elektronische factuur Egypte (EG)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
     | Elektronische factuur Estland (EE)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
@@ -114,7 +114,7 @@ Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie 
     | Elektronische factuur Spanje (ES)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
     | PEPPOL Elektronische factuur            | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
 
-7. Selecteer voor elk bedrijfsdocument dat door de functie wordt ondersteund, een **Context** waarde volgens de volgende tabel en voer deze in.
+7. Selecteer voor elk bedrijfsdocument dat door de functie wordt ondersteund, een waarde voor **Context** volgens de volgende tabel en voer deze in.
 
     | Functienaam                         | Bedrijfsdocument | Context |
     |--------------------------------------|-------------------|---------|
@@ -122,7 +122,6 @@ Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie 
     | Elektronische factuur België (BE)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
     | Braziliaans NF-e (BR)                  | <p>Belastingdocument</p><p>Correctiebrief</p> | <p>Contextmodel klantfactuur – Context belastingdocument</p><p>Contextmodel klantfactuur – FD-correctiebriefcontext</p> |
     | Braziliaans NFS-e ABRASF Curitiba (BR) | Service belastingdocument| Contextmodel klantfactuur – Context belastingdocument |
-    | Braziliaans NFS-e São Paulo (BR)       | Service belastingdocument| Contextmodel klantfactuur – Context belastingdocument |
     | Elektronische factuur Denemarken (DK)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
     | Elektronische factuur Egypte (EG)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
     | Elektronische factuur Estland (EE)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
@@ -144,7 +143,6 @@ Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie 
     | Elektronische factuur België (BE)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
     | Braziliaans NF-e (BR)                  | <p>Belastingdocument</p><p>Correctiebrief</p> | <p>Fiscale documenttoewijzing – Fiscale documenttoewijzing</p><p>Toewijzing belastingdocument – correctiebrieftoewijzing</p> |
     | Braziliaans NFS-e ABRASF Curitiba (BR) | Service belastingdocument | Fiscale documenttoewijzing – Fiscale documenttoewijzing |
-    | Braziliaans NFS-e São Paulo (BR)       | Service belastingdocument | Fiscale documenttoewijzing – Fiscale documenttoewijzing |
     | Elektronische factuur Denemarken (DK)       | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
     | Elektronische factuur Egypte (EG)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
     | Elektronische factuur Estland (EE)     | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
@@ -158,7 +156,9 @@ Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie 
     | Elektronische factuur Spanje (ES)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
     | PEPPOL Elektronische factuur            | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
 
-Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie mogelijk extra configuratie nodig. Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor specifieke stappen.
+Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie mogelijk extra configuratie nodig.
+
+Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor specifieke stappen.
 
 ## <a name="deploy-the-electronic-invoicing-feature"></a>De elektronische factureringsfunctie implementeren
 
@@ -177,27 +177,26 @@ Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie 
 
 1. Meld u aan bij Finance of Supply Chain Management en controleer of u bij de juiste rechtspersoon bent.
 2. Ga naar **Organisatiebeheer** \> **Instellen** \> **Parameters voor elektronische documenten**.
-3. Selecteer op het tabblad **Functies** de functieverwijzing of -verwijzingen die in de volgende tabel worden weergegeven om de elektronische factureringsfunctie in te schakel voor Finance of Supply Chain Management.
+3. Selecteer op het tabblad **Functies** de land-/regiospecifieke functie om de functie voor elektronische facturering in te schakel voor Finance of Supply Chain Management. In de volgende tabel vindt u een lijst met de beschikbare functies voor elektronische facturering voor specifieke landen/regio's. 
 
-    | Functienaam                         | Land/regio  | Functieverwijzing |
-    |--------------------------------------|-----------------|-------------------|
-    | Elektronische facturen Oostenrijk (AT)    | Oostenrijk         | EUR-00023 |
-    | Elektronische factuur België (BE)      | België         | EUR-00023 |
-    | Braziliaans NF-e (BR)                  | Brazilië          | BR-00053 |
-    | Braziliaans NFS-e ABRASF Curitiba (BR) | Brazilië          | BR-00095 |
-    | Braziliaans NFS-e São Paulo (BR)       | Brazilië          | BR-00095 |
-    | Elektronische factuur Denemarken (DK)       | Denemarken         | <p>EUR-00023</p><p>DK-00001</p> |
-    | Elektronische factuur Nederland (NL)        | Nederland | EUR-00023 |
-    | Elektronische factuur Egypte (EG)     | Egypte           | EG-00008 |
-    | Elektronische factuur Estland (EE)     | Estland         | EUR-00023 |
-    | Elektronische factuur Finland (FI)      | Finland         | EUR-00023 |
-     Elektronische factuur Frankrijk (FR)       | Frankrijk           | EUR-00023 |
-    | Elektronische factuur Duitsland (DE)       | Duitsland         | EUR-00023 |
-    | Mexicaanse CFDI Interfactura (MX)       | Mexico          | <p>MX-00010</p><p>MX-00016</p> |
-    | Elektronische factuur Noorwegen (NO)    | Noorwegen          | <p>EUR-00023</p><p>NO-00010</p> |
-    | Elektronische factuur Spanje (ES)      | Spanje           | <p>EUR-00023</p><p>ES-00025</p> |
-    | Elektronische factuur Italië (IT)      | Italië           | <p>EUR-00023</p><p>IT-00036</p> |
-    | PEPPOL Elektronische factuur            | Europa          | EUR-00023 |
+    | Functienaam                                          | Land/regio  |
+    |-------------------------------------------------------|-----------------|
+    | Elektronische facturen Oostenrijk (AT)                     | Oostenrijk         |
+    | Elektronische factuur België (BE)                       | België         |
+    | CFDI Mexicaanse elektronische factuur (MX)                  | Mexico          |
+    | Elektronische factuur Denemarken (DK)                        | Denemarken         |
+    | Elektronische factuur Nederland (NL)                         | Nederland |
+    | Elektronische factuur Egypte (EG)                      | Egypte           |
+    | Elektronische factuur Estland (EE)                      | Estland         |
+    | Elektronische factuur Finland (FI)                       | Finland         |
+    | Elektronische factuur Frankrijk (FR)                        | Frankrijk          |
+    | Elektronische factuur Duitsland (DE)                        | Duitsland         |
+    | Elektronische factuur Italië (IT)                       | Italië           |
+    | NF-e Federal - Braziliaanse elektronische factuur (BR)      | Brazilië          |
+    | NFS-e - Elektronische factuur voor Braziliaanse service (plaats)   | Brazilië          |
+    | Elektronische factuur Noorwegen (NO)                     | Noorwegen          |
+    | PEPPOL Elektronische factuur                             | Algemeen          |
+    | Elektronische factuur Spanje (ES)                       | Spanje           |
 
 4. Selecteer **Opslaan**.
 
@@ -226,11 +225,11 @@ Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie 
 
 3. Selecteer een factuur in het raster en selecteer **Informatie opvragen** \> **Details van indiening**.
 
-Afhankelijk van het land of de regio heeft de elektronische factureringsfunctie mogelijk extra configuratie nodig. Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor specifieke stappen.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
 - [Overzicht van de invoegtoepassing voor elektronische facturering](e-invoicing-service-overview.md)
+- [Aan de slag met servicebeheer via de invoegtoepassing voor elektronische facturering](e-invoicing-get-started-service-administration.md)
 - [Aan de slag met de invoegtoepassing voor elektronische facturering voor Brazilië](e-invoicing-bra-get-started.md)
 - [Aan de slag met de invoegtoepassing voor elektronische facturering voor Mexico](e-invoicing-mex-get-started.md)
 - [Aan de slag met de invoegtoepassing voor elektronische facturering voor Italië](e-invoicing-ita-get-started.md)

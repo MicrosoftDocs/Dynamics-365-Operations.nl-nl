@@ -3,7 +3,7 @@ title: Aan de slag met de serviceadministratie voor de invoegtoepassing voor ele
 description: In dit onderwerp wordt uitgelegd hoe u aan de slag gaat met de invoegtoepassing voor elektronische facturering.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 111ec65aa826795125d4a9ce835f72e1a0f41b7b
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 05b00380cec7511adad2467d3f252799a4aaee5c
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104363"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592521"
 ---
 # <a name="get-started-with-electronic-invoicing-add-on-service-administration"></a>Aan de slag met de serviceadministratie voor de invoegtoepassing voor elektronische facturering
 
@@ -35,7 +35,7 @@ ms.locfileid: "5104363"
 Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereisten zijn voldaan:
 
 - U moet toegang hebben tot uw Microsoft Dynamics Lifecycle Services-account (LCS).
-- U moet een LCS-project hebben dat versie 10.0.13 of hoger van Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management bevat. Daarnaast moeten deze apps worden geïmplementeerd in een van de volgende Azure-geografische gebieden:
+- U moet een LCS-project hebben dat versie 10.0.17 of hoger van Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management bevat. Daarnaast moeten deze apps worden geïmplementeerd in een van de volgende Azure-geografische gebieden:
 
     - VS - oost
     - VS - west
@@ -52,6 +52,13 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 2. Selecteer de tegel **Beheer van voorbeeldfuncties**.
 3. Selecteer **e-Factureringsservice** in het gedeelte **Openbare voorbeeldfuncties**.
 4. Controleer of de optie **Voorbeeldfunctie ingeschakeld** op **Ja** is ingesteld.
+5. Selecteer uw LCS-implementatieproject op uw LCS-dashboard. Het LCS-project moet worden uitgevoerd.
+7. Selecteer op het tabblad **Invoegtoepassingen voor omgeving** de optie **Een nieuwe invoegtoepassing installeren**.
+8. Selecteer **Services voor elektronische facturering** en voer in het veld **AAD-toepassings-id** **091c98b0-a1c9-4b02-b62c-7753395ccabe** in. Dit is een vaste waarde.
+10. Voer in het veld **AAD-tenant-id** de tenant-id van uw Azure-abonnementsaccount in.
+11. Neem de algemene voorwaarden door en schakel vervolgens het selectievakje in.
+12. Selecteer **Installeren**.
+
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-the-electronic-invoicing-add-on"></a>De parameters voor RCS-integratie met de invoegtoepassing voor elektronisch factureren instellen
 
@@ -73,7 +80,7 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 ## <a name="create-key-vault-secret"></a>Key Vault-geheim maken
 
 1. Meld u aan bij uw RCS-account.
-2. Selecteer in de werkruimte **Globalisatiefunctie** in de sectie **Omgeving** de tegel **e-Facturering**.
+2. Selecteer in de werkruimte **Globalisatiefunctie** in de sectie **Omgeving** de tegel **Invoegtoepassing voor elektronische facturering**.
 3. Selecteer op de pagina **Omgevingsinstellingen** op het actiedeelvenster de optie **Serviceomgeving** en selecteer **Key Vault-parameters**.
 4. Selecteer **Nieuw** om een Key Vault-geheim te maken.
 5. Voer in het veld **Naam** de naam in voor het Key Vault-geheim. Voer in het veld **Beschrijving** een beschrijving in.
@@ -82,22 +89,31 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 
 ## <a name="create-storage-account-secret"></a>Een opslagaccountgeheim maken
 
-1. Selecteer op de pagina **Key Vault-parameters** in de sectie **Certificaten** de optie **Toevoegen**.
-2. Voer in het veld **Naam** de naam in voor het opslagaccountgeheim. Voer in het veld **Beschrijving** een beschrijving in.
-3. Selecteer in het veld **Type** de optie **Certificaat**.
-4. Selecteer **Opslaan** en sluit de pagina.
+1. Ga naar **Systeembeheer** > **Instellingen** > **Key Vault-parameters** en selecteer een Key vault-geheim.
+2. Selecteer **Toevoegen** in de sectie **Certificaten**.
+3. Voer in het veld **Naam** de naam van de opslagrekening en in het veld **Beschrijving** een beschrijving in.
+4. Selecteer in het veld **Type** de optie **Certificaat**.
+5. Selecteer **Opslaan** en sluit de pagina.
+
+## <a name="create-a-digital-certificate-secret"></a>Een digitaal certificaatgeheim maken
+
+1. Ga naar **Systeembeheer** > **Instellingen** > **Key Vault-parameters** en selecteer een Key vault-geheim.
+2. Selecteer **Toevoegen** in de sectie **Certificaten**.
+3. Voer in het veld **Naam** de naam van het digitale certificaatgeheim en in het veld **Beschrijving** een beschrijving in.
+4. Selecteer in het veld **Type** de optie **Certificaat**.
+5. Selecteer **Opslaan** en sluit de pagina.
 
 ## <a name="create-an-electronic-invoicing-add-on-environment"></a>Een omgeving van de invoegtoepassing voor elektronische facturering maken
 
 1. Meld u aan bij uw RCS-account.
-2. Selecteer in de werkruimte **Globalisatiefunctie** in de sectie **Omgeving** de tegel **e-Facturering**.
+2. Selecteer in de werkruimte **Globalisatiefunctie** in de sectie **Omgeving** de tegel **Invoegtoepassing voor elektronische facturering**.
 
 ## <a name="create-a-service-environment"></a>Een serviceomgeving maken
 
-1. Selecteer op de pagina **Omgevingsinstellingen** op het actiedeelvenster de optie **Serviceomgeving**.
+1. Selecteer op de pagina **Omgevingsinstellingen** in het actievenster de optie **Serviceomgeving**.
 2. Selecteer **Nieuw** om een nieuwe serviceomgeving te maken.
 3. Voer in het veld **Naam** de naam in voor de omgeving voor e-facturering. Voer in het veld **Beschrijving** een beschrijving in.
-4. Selecteer in het veld **Opslag SAS-tokengeheim** de naam van het certificaat dat moet worden gebruikt om toegang tot het opslagaccount te verifiëren.
+4. Selecteer in het veld **Opslag SAS-tokengeheim** de naam van het opslagaccountgeheim dat moet worden gebruikt om toegang tot het opslagaccount te verifiëren.
 5. In de sectie **Gebruikers** selecteert u **Toevoegen** om een gebruiker toe te voegen die elektronische facturen via de omgeving mag indienen en ook verbinding mag maken met het opslagaccount.
 6. Voer in het veld **Gebruikers-id** het alias van de gebruiker in. Voer in het veld **E-mail** het e-mailadres van de gebruiker in.
 7. Selecteer **Opslaan**.

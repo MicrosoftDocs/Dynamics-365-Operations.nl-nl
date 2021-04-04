@@ -3,7 +3,7 @@ title: Verlofaanvragen beheren in Teams
 description: In dit onderwerp wordt beschreven hoe u verlof kunt aanvragen in de Dynamics 365 Human Resources-app in Microsoft Teams.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/28/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 79bded5a241a8d5de1847adff3e663359ce1b26f
+ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5128156"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5571723"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Verlofaanvragen beheren in Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Met de Microsoft Dynamics 365 Human Resources-app in Microsoft Teams kunt u snel verlof aanvragen en informatie over uw verlofsaldo bekijken rechtstreeks vanuit Microsoft Teams. U kunt werken met een bot om informatie aan te vragen en een verlofaanvraag te starten. Het tabblad **Verlof** bevat meer gedetailleerde informatie. U kunt mensen ook informatie sturen over uw geplande verlof in teams en chats buiten de app Human Resources.
+Met de Dynamics 365 Human Resources-app in Microsoft Teams kunt u snel verlof aanvragen en informatie over uw verlofsaldo bekijken rechtstreeks vanuit Microsoft Teams. U kunt werken met een bot om informatie aan te vragen en een verlofaanvraag te starten. Het tabblad **Verlof** bevat meer gedetailleerde informatie. U kunt mensen ook informatie sturen over uw geplande verlof in Teams en chats buiten de app Human Resources.
 
 ## <a name="install-the-app"></a>De app installeren
 
-De Human resources-app is te vinden in het Teams-archief.
+De Dynamics 365 Human Resources-app is te vinden in het Teams-archief.
 
 1. Selecteer de drie puntjes in Microsoft Teams.
 
@@ -70,29 +70,21 @@ Na de installatie van de app wordt er een welkomstbericht weergegeven, zodat u w
 
 U kunt de bot vragen om het volgende te doen:
 
-- Informatie over verlofsaldo weergeven voor elk verloftype waarvoor u zich hebt ingeschreven.
-
-   ![Saldo weergeven in verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-bot-balances.png)
- 
-- Aanvullende informatie weergeven over een bepaald verloftype.
-
-   ![Details weergeven in verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-bot-details.png)
-
 - Een verlofaanvraag voor u starten.
 
-   ![Verlof aanvragen in verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-bot-request.png)
- 
-Nadat u een verlofaanvraag hebt gestart, kunt u de dagen direct in de kaart aanpassen.
+  ![Een verlofaanvraag starten in Teams-chat](./media/hr-teams-leave-app-initiate.png)
 
-![Aanvraag bewerken in verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-bot-edit.png)
- 
-Wanneer u klaar bent met het invoeren van gegevens, selecteert u **Verzenden** om deze ter goedkeuring in te dienen. U kunt ook **Opslaan als concept** selecteren als u later wilt terugkeren naar het concept.
+- In het chatgesprek wordt een verlofaanvraag voor u ingevuld. Selecteer **Verlof aanvragen** en bewerk de details voor uw aanvraag.
 
-![Aanvraag indienen in verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-bot-submit.png)
+  ![Details van verlofaanvraag bewerken](./media/hr-teams-leave-app-details.png)
+
+- Wanneer u klaar bent met het bewerken van uw verlofaanvraagdetails, selecteert u **Indienen** om de aanvraag voor goedkeuring in te dienen.
+
+  ![Verlofaanvraag indienen](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Uw verlof beheren in Teams
 
-Op het tabblad **Verlof** kunt u het volgende bekijken:
+Op het tabblad **Verlof** kunt u het volgende bekijken: 
 
 - Saldo-informatie voor elk type verlof waarvoor u zich hebt ingeschreven
 
@@ -164,21 +156,51 @@ Als u een manager met directe ondergeschikten bent, kunt u de goedgekeurde en in
 
 1. Selecteer **Verlof** in de Human Resources-app in Teams.
 
-2. Selecteer **Teamkalender**.
+2. Selecteer **Teamkalender**. In de kalender worden de goedgekeurde en in behandeling zijnde verlofaanvragen van uw directe ondergeschikten weergegeven.
 
    ![Kalender weergeven in Teams-app Human Resources](./media/hr-teams-leave-app-view-calendar.png)
 
-In de kalender worden de goedgekeurde en in behandeling zijnde verlofaanvragen van uw directe ondergeschikten weergegeven.
+   > [!NOTE]
+   > Als u de teamkalender niet kunt zien, vraagt u uw beheerder deze in te schakelen. Zie [Installeren en instellen](hr-admin-teams-leave-app.md#install-and-setup) voor meer informatie.
 
-![Verlofkalender in Teams-app Human Resources](./media/hr-teams-leave-app-calendar.png)
+## <a name="supported-languages"></a>Ondersteunde talen
+
+De Dynamics 365 Human Resources-app in Teams ondersteunt de volgende talen:
+
+| Landinstellingen-id | Taal |
+| --- | --- |
+| de-DE | Duits (Duitsland) |
+| es-ES | Spaans (Spanje) |
+| es-MX | Spaans (Mexico) |
+| fr-CA | Frans (Canada) |
+| fr-FR | Frans (Frankrijk) |
+| it-IT | Italiaans (Italië) |
+| nl-NL | Nederlands (Nederland) |
+| pt-BR | Portugees (Brazilië) |
+| tr-TR | Turks (Turkije) |
+| zh-CN | Chinees (vereenvoudigd) |
 
 ## <a name="troubleshooting"></a>Problemen oplossen
 
-Als u problemen ondervindt met het aanmelden bij of het gebruik van de Human Resources Teams-app, volgt u de onderstaande instructies voor het oplossen van problemen. Als u na het oplossen van problemen nog steeds problemen ondervindt, neemt u contact op met de ondersteuning. Zie voor meer informatie [Ondersteuning krijgen](hr-admin-troubleshooting-support.md).
+Als u problemen ondervindt met het aanmelden bij of het gebruik van de Dynamics 365 Human Resources Teams-app, volgt u de onderstaande instructies voor het oplossen van problemen. Als u na het oplossen van problemen nog steeds problemen ondervindt, neemt u contact op met de ondersteuning. Zie voor meer informatie [Ondersteuning krijgen](hr-admin-troubleshooting-support.md).
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Kan me niet aanmelden bij de Human Resources-app in Teams
 
 Als u zich niet kunt aanmelden bij de app, is het mogelijk dat de account die u gebruikt om u aan te melden bij Microsoft Teams niet is gekoppeld aan een werknemersrecord in Dynamics 365 Human Resources. Neem contact op met uw systeembeheerder om er zeker van te zijn dat de werknemersrecord goed is gekoppeld.
+
+### <a name="translations-dont-display-correctly"></a>Vertalingen worden niet op de juiste manier weergegeven
+
+Als vertalingen niet worden weergegeven zoals u verwacht, moet u ervoor zorgen dat de taal die u selecteert in Teams overeenkomt met de taal die is geselecteerd bij **Gebruikersopties** in Human Resources.
+
+Kijk in Teams naar **Taal van de app** bij **Instellingen**.
+
+![Teams-instellingen](./media/hr-teams-leave-app-settings.png)
+
+Selecteer in Human Resources de optie **Instellingen** en **Gebruikersopties**. Controleer of het veld **Taal** overeenkomt met het veld **Taal van de app** in Teams.
+
+![Gebruikersopties in Human Resources](./media/hr-teams-leave-app-user-options.png)
+
+Als u nog steeds vertaalproblemen ondervindt, laat u het ons weten. Zie [Ondersteuning voor Finance and Operations-apps of Lifecycle Services (LCS) krijgen](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-support?toc=/dynamics365/human-resources/toc.json) voor meer informatie.
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Fout bij het goedkeuren van verlofaanvragen in de Human Resources-app in Teams
 
@@ -198,7 +220,6 @@ De app Human Resources in teams heeft de volgende toegankelijkheidsproblemen, di
 | Op het tabblad **Vrije tijd** kondigt VoiceOver een actieknop aan tijdens het lezen van de koptekst voor het vrijetijdsrooster. | De koptekst en elementen in het rooster worden gegroepeerd per jaar en ze kunnen worden samengevouwen. VoiceOver interpreteert dit als een uitvoerbaar item, maar dat is niet zo. |
 | Op het tabblad **Vrije tijd** is er een extra veeggebaar wanneer u naar **Redencode** navigeert in een nieuw verzoek. | Er is geen verborgen besturingselement waar het veeggebaar naartoe probeert te navigeren. |
 | Als u op het tabblad **Vrij tijd** veegt terwijl de kalender geopend is, komt u buiten het besturingselement terecht in plaats van bovenaan een nieuwe aanvraag of tijdens het bewerken van een aanvraag. | Wanneer u bij **Ga naar vandaag** komt, zie dat dan als het einde van het besturingselement en veeg in de omgekeerde richting om terug te gaan naar het begin. |
-| VoiceOver leest de labels voor datums niet. | De datums in paren zijn altijd **Begindatum** en **Einddatum**. |
 | Op het tabblad **Chat** wordt de focus naar boven verplaatst wanneer u een datum invoert terwijl u het hulpprogramma of de toetsenbordnavigatie gebruikt. | Druk op de Tab-toets totdat u het invoergebied weer bereikt. |
 
 ## <a name="privacy-notice"></a>Privacyverklaring

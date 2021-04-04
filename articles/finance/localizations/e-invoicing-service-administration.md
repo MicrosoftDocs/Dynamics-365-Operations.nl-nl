@@ -3,7 +3,7 @@ title: Beheeronderdelen van de invoegtoepassing voor elektronische facturering
 description: Dit onderwerp biedt informatie over de onderdelen die zijn gerelateerd aan het beheer van de invoegtoepassing voor elektronische facturering.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6f630ebb694217c3bd52378a649933a670c090f2
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 70ef47dd45200a14c9d780f3c280c554d0e52ac3
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104365"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592569"
 ---
 # <a name="electronic-invoicing-add-on-administration-components"></a>Beheeronderdelen van de invoegtoepassing voor elektronische facturering
 
@@ -39,11 +39,15 @@ Gebruik Microsoft Azure om de geheimen voor het Key Vault- en opslagaccount te m
 
 Gebruik Microsoft Dynamics Lifecycle Services (LCS) om de invoegtoepassing voor de microservices voor het LCS-implementatieproject in te schakelen.
 
-Selecteer in LCS de tegel **Beheer van previewfuncties** en schakel de functie **e-Factureringsservice** in.
+> [!NOTE]
+> Voor de installatie van de microservice-invoegtoepassing in LCS is ten minste een Tier 2 virtuele machine vereist. Zie [Omgevingsplanning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) voor meer informatie over omgevingsplanning.
+ 
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
 
 Dynamics 365 Regulatory Configuration Services (RCS) is de interface waarmee u de invoegtoepassing voor elektronische facturering configureert. Resources, zoals omgevingen en functies voor elektronische facturering, worden gemaakt, beheerd en gehost in RCS. Wanneer de resources gereed zijn, worden ze gepubliceerd in de invoegtoepassingsservice voor elektronische facturering.
+
+Zie [Wettelijke services](https://marketing.configure.global.dynamics.com/) voor registratie bij RCS.
 
 Zie [Regulatory Configuration Services (RCS) - Globalisatiefuncties](rcs-globalization-feature.md) voor meer informatie over RCS
 
@@ -53,22 +57,14 @@ Voordat u RCS kunt gebruiken voor het configureren van elektronische facturen, m
 
 #### <a name="service-endpoint"></a>Service-eindpunt
 
-De URL van de invoegtoepassing voor elektronische facturering kan variëren, afhankelijk van de geografie van het Azure-datacenter. In de volgende tabel wordt de beschikbaarheid per regio vermeld:
+De invoegtoepassing voor elektronische facturering is beschikbaar in verschillende Azure-datacentergeografieën. In de volgende tabel wordt de beschikbaarheid per regio vermeld.
 
-| Geografie Azure-datacenter | URL van service-eindpunt                                                       |
-|----------------------------|----------------------------------------------------------------------------|
-| VS - oost                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-| VS - west                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-| Noordelijke EU                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-| Westelijke EU                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
-
-#### <a name="application-id"></a>Sollicitatie-ID
-
-De toepassings-id is de id van de invoegtoepassing voor elektronische facturering. In dit geval is de waarde vast: **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
-
-#### <a name="lcs-environment-id"></a>LCS-omgevings-id
-
-De LCS-omgevings-id is de id van het LCS-abonnement van uw organisatie.
+| Geografie Azure-datacenter |
+|----------------------------|
+| VS - oost                    |
+| VS - west                    |
+| Noordelijke EU                   |
+| Westelijke EU                    |
 
 ### <a name="service-environments"></a>Serviceomgevingen
 
