@@ -3,7 +3,7 @@ title: Elektronische facturen uitgeven in Finance en Supply Chain Management
 description: In dit onderwerp wordt uitgelegd hoe u elektronische facturen uitgeeft in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management via de invoegtoepassing voor elektronisch factureren.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 02/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 187f5a20d088b4fcd7af2a6576357a69c2efc2c6
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 099ebb56710e920f7b1453f32f23f59a80486ebf
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104364"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486948"
 ---
 # <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Elektronische facturen uitgeven in Finance en Supply Chain Management
 
@@ -35,25 +35,35 @@ In dit onderwerp wordt uitgelegd hoe u elektronische facturen uitgeeft in Micros
 
 ## <a name="feature-activation"></a>Functieactivering
 
-Als u wilt beginnen met het uitgeven van elektronische facturen via de invoegtoepassing voor elektronische facturering, moet u de Functieverwijzing activeren in Finance en Supply Chain Management.
+Als u elektronische facturen wilt uitgeven via de invoegtoepassing voor elektronische facturering, moet u de functie activeren in Finance en Supply Chain Management.
 
-Elke functieverwijzing komt overeen met een specifieke elektronische factureringsfunctie die voldoet aan de vereisten voor elektronische facturering van een land/regio.
+Elke functie komt overeen met een specifieke elektronische factureringsfunctie die voldoet aan de vereisten voor elektronische facturering van een land/regio.
 
-De volgende tabel toont de lijst met functieverwijzingen die door de invoegtoepassing voor elektronische facturering worden ondersteund.
+De volgende tabel toont de lijst met functies die mogelijk worden ondersteund door de invoegtoepassing voor elektronische facturering.
 
-| Functieverwijzing | Naam                                              | Land/regio |
-|-------------------|---------------------------------------------------|----------------|
-| BR-00053          | Federale NF-e - Braziliaanse elektronische factuur       | Brazilië         |
-| BR-00095          | Braziliaanse elektronische NFS-e-facturen               | Brazilië         |
-| DK-00001          | e-Facturering naar de publieke sector (OIOUBL) - DK    | Denemarken        |
-| EG-00008          | e-Facturering voor Egypte                             | Egypte          |
-| ES-00025          | Elektronische factuur voor de publieke sector           | Spanje          |
-| EUR-00023         | e-Facturering van de Europese Unie naar de publieke sector       | Europa         |
-| ITA-00036         | IT - e-facturering voor de publieke sector (FatturaPA) | Italië          |
-| MX-00010          | e-Facturering CFDI                                  | Mexico         |
-| MX-00016          | E-Facturering CFDI - annuleringsproces           | Mexico         |
+| Naam                                              | Land/regio |
+|---------------------------------------------------|----------------|
+|Oostenrijkse elektronische factuur                        |Oostenrijk         |
+|Belgische elektronische factuur                         |België         |
+|Federale NF-e - Braziliaanse elektronische factuur       |Brazilië          |
+|NFS-e - Elektronische factuur voor Braziliaanse service (plaats)|Brazilië          |
+|Deense elektronische factuur                          |Denemarken         |
+|Egyptische elektronische factuur                        |Egypte           |
+|Estse elektronische factuur                        |Estland         |
+|Finse elektronische factuur                         |Finland         |
+|Franse elektronische factuur                          |Frankrijk          |
+|Duitse elektronische factuur                          |Duitsland         |
+|PEPPOL - Wereldwijde elektronische factuur                 |Algemeen          |
+|Italiaanse elektronische factuur                         |Italië           |
+|CFDI - Mexicaanse elektronische factuur                  |Mexico          |
+|Nederlandse elektronische factuur                           |Nederland     |
+|Noorse elektronische factuur                       |Noorwegen          |
+|Spaanse elektronische factuur                         |Spanje           |
 
-In de gevallen waarin er een oudere elektronische factureringsfunctie is, ondersteund door de lokalisatie van het land, maakt de activering van de functieverwijzing de uitgifte van elektronische facturen mogelijk via de invoegtoepassing voor elektronische facturering en schakelt de eerdere functie uit.
+Als er een oudere functie voor elektronische facturering is die wordt ondersteund door de lokalisatie van een land/regio, zorgt de activering van deze functies ervoor dat de oudere functie wordt uitgeschakeld en dat de uitgifte van elektronische facturen mogelijk wordt via de invoegtoepassing voor elektronische facturering.
+
+> [!IMPORTANT]
+> Nadat de functie voor het integreren van elektronische facturering is ingeschakeld, is de nieuwe elektronische factureringservaring standaard uitgeschakeld. U kunt het functieconcept gebruiken om selectief nieuwe ervaringen voor rechtspersonen in te schakelen met behulp van land-/regiospecifieke functionaliteit. Met de optie **Algemeen** wordt de nieuwe ervaring bepaald voor de resterende landen/regio's die niet specifiek in de tabel worden vermeld.
 
 ## <a name="submit-electronic-documents"></a>Elektronische documenten indienen
 
