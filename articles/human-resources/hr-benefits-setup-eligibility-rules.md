@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2920a03eaec226b306d03ebf8b899113128c410e
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 872b5cface7af19e2ef970e624c0cb5ce14e75b1
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5112063"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466129"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Geschiktheidsregels en -opties configureren
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Nadat u de vereiste parameters voor vergoedingenbeheer hebt geconfigureerd in Microsoft Dynamics 365 Human Resources, kunt u geschiktheidsregels, bundels, perioden en programma's maken die u aan uw vergoedingsplannen gaat koppelen.
 

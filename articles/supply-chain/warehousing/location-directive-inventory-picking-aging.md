@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f8d5e4d82c66d178ceafcdbfb3eb9a941172aa01
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9107a14a79883dc0e33de311baeec5fd6d692a35
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004622"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500497"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling
 
@@ -119,7 +119,7 @@ De FIFO-strategie zoekt naar de locatie die de oudste ouderdomsdatum bevat en wi
 1. Selecteer op de pagina **Verkooporder** in het actievenster op het tabblad **Magazijn** in de groep **Acties** de optie **Vrijgave naar magazijn**. U ontvangt meldingen. Het systeem maakt een zending, voegt deze toe aan een nieuwe lading en maakt het vereiste werk.
 1. Selecteer op het sneltabblad **Verkooporderregels** in het menu **Magazijn** de optie **Werkdetails** om het werk dat voor deze verkooporder is gemaakt, te openen. De regel waar het veld **Werktype** de waarde *Orderverzamelen* bevat, geeft een **Locatie** weer met de waarde *FL-002*. Deze locatie bevat de nummer plaat met de oudste ouderdomsdatum (FIFO).
 1. Selecteer **Magazijn \> Details van zending**.
-1. Op het sneltabblad *_Algemeen_* noteert u de wave-id zodat u deze kunt gebruiken in scenario 2.
+1. Op het sneltabblad **Algemeen** maakt u een notitie van de wave-id, zodat u deze kunt gebruiken in scenario 2.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>Scenario 2: LIFO-locatie instellen en gebruiken
 
