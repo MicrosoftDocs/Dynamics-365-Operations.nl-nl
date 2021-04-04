@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5fd978c1e9db7e7ce3c06bbeb45b59854f1582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea5952376fe30f489d385c8f8295fbf86f2af085
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974655"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470725"
 ---
 # <a name="create-service-task-relations"></a>Servicetaakrelaties maken    
 
@@ -32,13 +32,13 @@ U kunt servicetaken koppelen aan serviceovereenkomsten of serviceorders om de se
 
 ## <a name="create-a-relation-with-a-service-agreement"></a>Een relatie maken met een serviceovereenkomst
 
-1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.
+1.  Ga naar **Servicebeheer** \> **Algemeen** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.
 
 2.  Selecteer een bestaande serviceovereenkomst of maak een nieuwe serviceovereenkomst.
 
-3.  Klik in het actievenster op de knop **Servicetaken**.
+3.  Selecteer in het actiedeelvenster de knop **Servicetaken**.
 
-4.  Druk in het formulier **Servicetaken** op CTRL+N om een nieuwe regel te maken en selecteer vervolgens een servicetaak in de lijst **Servicetaak** om de servicetaak te koppelen aan de serviceovereenkomst.
+4.  Selecteer in het formulier **Servicetaken** de optie **Nieuw** om een nieuwe regel te maken en selecteer vervolgens een servicetaak in de lijst **Servicetaak** om de servicetaak te koppelen aan de serviceovereenkomst.
 
 5.  Voer op het tabblad **Beschrijving** interne of externe notitieomschrijvingen in de vrije-tekstvelden in.
 
@@ -50,13 +50,13 @@ Een servicetaakrelatie die is gemaakt voor een serviceovereenkomst, is beschikba
 
 ## <a name="create-a-relation-with-a-service-order"></a>Een relatie maken met een serviceorder
 
-1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
+1.  Ga naar **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
 
 2.  Selecteer een bestaande serviceorder of maak een nieuwe serviceorder.
 
-3.  Klik in het actievenster op de knop **Servicetaken**.
+3.  Selecteer in het actiedeelvenster de knop **Servicetaken**.
 
-4.  Druk in het formulier **Servicetaken** op CTRL+N om een nieuwe regel te maken en selecteer vervolgens een servicetaak in de lijst **Servicetaak** om de servicetaken te koppelen aan de serviceorder.
+4.  Selecteer in het formulier **Servicetaken** de optie **Nieuw** om een nieuwe regel te maken en selecteer vervolgens een servicetaak in de lijst **Servicetaak** om de servicetaken te koppelen aan de serviceorder.
 
 5.  Voer op het tabblad **Beschrijving** interne of externe notitieomschrijvingen in de vrije-tekstvelden in.
 

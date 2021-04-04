@@ -3,7 +3,7 @@ title: Rentepercentages instellen voor een rentecode
 description: Rentecodes bevatten instellingen die bepalen wanneer kosten voor de rente geheven worden en hoe deze berekend wordt op achterstallige rekeningen.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1169a397dfdd32f728a09e2ad279842edc289c19
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5d9ff856e34eb894c5d0ab5fe17c8e95f62fff57
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971623"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555360"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Rentepercentages instellen voor een rentecode
 
@@ -46,10 +46,19 @@ U kunt de rentevoeten instellen die een opgegeven percentage berekenen.
 
 - Rentebedrag is van toepassing op alle valuta's.
 - Optionele limieten voor het rentebedrag kunnen worden ingevoerd.
-- <strong>Percentage</strong> is geselecteerd** <strong>in het veld **Rente berekenen op basis van</strong> op de pagina <strong>Rentecodes instellen</strong>.
+- **Percentage** is geselecteerd in het veld **Rente berekenen op basis van** op de pagina **Rentecodes instellen**.
 
 Als u bijvoorbeeld een rentecode wilt instellen die 5 procent rente aanrekent voor elke twee maanden dat de factuurbetaling voorbij de vervaldatum is, voert u 2 in het veld **Bereken rente elke** in en selecteert u **Maand**.
 
+> [!NOTE] 
+> Het nieuwe algoritme voor het berekenen van rentenota's wordt toegevoegd met behulp van Functiebeheer. Als u dit algoritme wilt gebruiken, moet u de functie **(GBL) Toestaan om rente per dag te berekenen als jaarlijks percentage gedeeld door 365** inschakelen. Zie [Overzicht van functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voor meer informatie over het inschakelen van de functie.
+> 
+> De formule voor de berekening van het rentenotabedrag luidt: 
+>  
+> Bedrag rentenota = Verschuldigd bedrag * Jaarlijks rente % / 365 * Aantal dagen achterstallig
+>  
+> Deze functie is beschikbaar in versie 10.0.18 of hoger.    
+ 
 ## <a name="interest-rates-based-on-amounts"></a>Rentevoeten op basis van bedragen
 U kunt de rentevoeten instellen die een opgegeven bedrag berekenen per valuta.
 - Een rentebedrag wordt opgegeven voor elke valuta in de rentecode.

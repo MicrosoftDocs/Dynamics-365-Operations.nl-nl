@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 572ee0755e331d19b41442e3614effb92db95a92
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: b89d257e3874ad7395c0a2c02f259c2f063aa8d0
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125420"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500617"
 ---
 # <a name="recruiting-request"></a>Wervingsaanvraag
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 In dit onderwerp wordt de entiteit Wervingsaanvraag voor Dynamics 365 Human Resources beschreven.
 
@@ -98,7 +100,8 @@ Beschrijft een aanvraag om personeel voor een functie te werven.
 | **Waarde taaktype-id**<br>_mshr_fk_jobtype_id_value<br>*GUID* | Alleen-lezen<br>Optioneel<br>Refererende sleutel: mshr_hcmjobtypeentityid van de entiteit mshr_hcmjobtypenentity | De door het systeem gegenereerde unieke id van het taaktype dat is gekoppeld aan de taak voor de wervingsaanvraag. |
 | **Vrijstellingsstatus**<br>mshr_exemptstatus<br>*Taakvrijstellingsstatus* optieset | Alleen-lezen<br>Optioneel | De FLSA-vrijstellingsstatus op basis van het taaktype. |
 | **Geschatte begindatum**<br>mshr_estimatedstartdate<br>*Datum* | Lezen/schrijven<br>Vereist | De geschatte datum waarop een kandidaat met werken zou beginnen. |
-| **Externe omschrijving**<br>mshr_externaldescription<br>*Tekenreeks* | Lezen/schrijven<br>Optioneel | Een omschrijving van de taak of positie van de kandidaat. | Lage compensatiedrempel<br>mshr_compensationlowthreshold<br>*Dubbel* | Lezen/schrijven<br>Optioneel | Ondergrens voor het compensatieniveau. |
+| **Externe omschrijving**<br>mshr_externaldescription<br>*Tekenreeks* | Lezen/schrijven<br>Optioneel | Een omschrijving van de taak of positie van de kandidaat. | 
+| **Lage compensatiedrempel**<br>mshr_compensationlowthreshold<br>*Dubbel* | Lezen/schrijven<br>Optioneel | Ondergrens voor het compensatieniveau. |
 | **Compensatiecontrolepunt**<br>mshr_compensationcontrolpoint<br>*Dubbel* | Lezen/schrijven<br>Optioneel | Controlepunt voor het compensatieniveau. |
 | **Hoge compensatiedrempel**<br>mshr_compensationhighthreshold<br>*Dubbel* | Lezen/schrijven<br>Optioneel | Bovengrens voor het compensatieniveau. |
 | **Compensatieniveau**<br>mshr_compensationlevelid<br>*Tekenreeks* | Lezen/schrijven<br>Optioneel | Het compensatieniveau van de taak. Een taak kan meerdere compensatieniveaus hebben. Met dit kenmerk wordt het geselecteerde taakcompensatieniveau voor deze aanvraag aangegeven. |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b1b3bafb24ff6eb0c42d901fac3b6668cedf39ef
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
+ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963305"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470514"
 ---
 # <a name="work-with-location-directives"></a>Werken met locatie-instructies
 
@@ -239,7 +239,7 @@ U kunt meerdere locatierichtlijnacties voor elke regel definiëren. Een volgnumm
     - **Naar boven afronden tot de volledige LP- en FEFO-batch**: deze strategie combineert de elementen van de strategieën *FEFO-batchreservering* en *Naar boven afronden tot de volledige LP*. Deze is alleen geldig voor batchartikelen en locatie-instructies met het werktype *Verzamelen*. Voor de regel moet batch zijn ingeschakeld voor het gebruik van de strategie *FEFO-batchreservering* en de strategie *Afronden naar boven tot de volledige LP* kan alleen worden gebruikt voor aanvulling. Als deze strategie samen met een locatievoorraadlimiet wordt geconfigureerd, kan hierdoor de geselecteerde neerzetwerklocatie overbelast raken en de voorraadlimieten worden genegeerd.
     - **Afronden naar boven tot volledige LP**: deze strategie wordt gebruikt om de voorraadhoeveelheid naar boven af te ronden om overeen te komen met de nummerplaathoeveelheid die is toegewezen aan de artikelen die moeten worden verzameld. U kunt deze strategie alleen gebruiken voor locatie-instructies voor aanvullen van het type *Verzamelen*. Als deze strategie samen met een locatievoorraadlimiet wordt geconfigureerd, kan hierdoor de geselecteerde neerzetwerklocatie overbelast raken en de voorraadlimieten worden genegeerd.
     - **Nummerplaatgeleid**: gebruik deze strategie wanneer u de order aan het magazijn vrijgeeft om verzamel-en-neerzetwerkzaamheden te maken. U kunt deze aanpak gebruiken voor meerdere nummerplaten. Deze strategie probeert orderverzamelingswerk te reserveren en te maken voor de locaties die de gevraagde nummerplaten bevatten die aan de transferorderregels zijn gekoppeld. Als deze acties echter niet kunnen worden voltooid, maar u nog steeds orderverzamelingstaken wilt maken, moet u terugvallen op een andere strategie voor locatie-instructieacties. Afhankelijk van de vereisten voor uw bedrijfsproces wilt u mogelijk ook naar voorraad zoeken in een ander gebied van het magazijn.
-    - **Lege locatie zonder inkomend werk**: gebruik deze strategie om lege locaties te vinden. Een locatie wordt beschouwd als leeg als het geen fysieke voorraad en geen verwacht inkomend werk heeft. U kunt deze strategie alleen gebruiken voor locatie-instructies die het werktype *Verzamelen* hebben.
+    - **Lege locatie zonder inkomend werk**: gebruik deze strategie om lege locaties te vinden. Een locatie wordt beschouwd als leeg als het geen fysieke voorraad en geen verwacht inkomend werk heeft. U kunt deze strategie alleen gebruiken voor locatie-instructies die het werktype *Wegzetten* hebben.
     - **Oudercom locatie FIFO**: gebruik de FIFO-strategie (first in, first out: eerste erin, eerste eruit) om artikelen met en zonder batchtracering te verzenden, op basis van de datum waarop de voorraad in het magazijn binnenkomt. Deze mogelijkheid kan vooral nuttig zijn voor voorraad zonder batchtracering, waarbij geen vervaldatum beschikbaar is voor sorteren. De FIFO-strategie zoekt naar de locatie die de oudste ouderdomsdatum bevat en wijst dan op basis van die ouderdomsdatum orderverzamelen toe.
     - **Oudercom locatie LIFO**: gebruik de LIFO-strategie (last in, last out: laatste erin, laatste eruit) om artikelen met en zonder batchtracering te verzenden, op basis van de datum waarop de voorraad in het magazijn binnenkomt. Deze mogelijkheid kan vooral nuttig zijn voor voorraad zonder batchtracering, waarbij geen vervaldatum beschikbaar is voor sorteren. De LIFO-strategie zoekt naar de locatie die de nieuwste ouderdomsdatum bevat en wijst dan op basis van die ouderdomsdatum orderverzamelen toe.
 

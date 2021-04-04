@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 6fbd0ead6d73f4b032bdc3805fce87ec9c802535
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0b7756aebac2b8f0881c95b27e5a7c845557be4c
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006155"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477555"
 ---
-# <a name="task-management-overview"></a>Overzicht van taakbeheer
+# <a name="task-management-overview"></a>Overzicht van Taakbeheer
 
 [!include [banner](includes/banner.md)]
 
 Dit onderwerp biedt een overzicht van taakbeheer voor managers en medewerkers in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 In een detailhandelsomgeving is het altijd moeilijk om ervoor te zorgen dat de taken op het juiste moment door de juiste persoon worden uitgevoerd. Detailhandelaren moeten werknemers kunnen informeren over aanstaande taken en een gerelateerde zakelijke context bieden, zodat de taken op de juiste manier en op tijd kunnen worden voltooid.
 

@@ -16,20 +16,18 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a1af453349d69ef94d725e138a898c73ea052fa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997595"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477751"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Meerdere B2C-tenants configureren in een Commerce-omgeving
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven wanneer en hoe u meerdere Microsoft Azure Active Directory (Azure AD) B2C-tenants (Business-to-consumers) per kanaal instelt voor gebruikersverificatie in een specifieke Dynamics 365 Commerce-omgeving.
-
-## <a name="overview"></a>Overzicht
 
 Dynamics 365 Commerce gebruikt de Azure AD-B2C-cloudidentiteitsservice om gebruikersreferenties en verificatiestromen te ondersteunen. Gebruikers kunnen de verificatiestromen gebruiken om te registreren, om zich aan te melden en hun wachtwoord opnieuw in te stellen. Azure AD B2C slaat gevoelige gebruikersverificatiegegevens op, zoals de gebruikersnaam en het wachtwoord. De gebruikersrecord is uniek voor elke B2C-tenant en gebruikt de referenties voor de gebruikersnaam (e-mailadres) of de referentie van de sociale identiteitsprovider.
 

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
+ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cb696c365e02ab3e3b28da19b8b33f1975c142f8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bd1268893d0869d2414b944493c8b8859f27abc
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983539"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501121"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Hoofdplanning met vraagprognoses
 
@@ -249,7 +249,7 @@ Daarom worden de volgende geplande orders gemaakt.
 Een prognosereductiesleutel wordt gebruikt in de methoden **Transacties - reductiesleutel** en **Percentage - reductiesleutel** voor het reduceren van prognosebehoeften. Voer deze stappen uit om een reductiesleutel te maken en in te stellen.
 
 1. Ga naar **Hoofdplanning \> Instellen \> Behoefteplanning \> Reductiesleutels**.
-2. Selecteer **Nieuw** of druk op **Ctrl+N** om een reductiesleutel te maken.
+2. Selecteer **Nieuw** om een reductiesleutel te maken.
 3. Voer in het veld **Reductiesleutel** een unieke id voor de prognosereductiesleutel in. Voer vervolgens in het veld **Naam** een naam in. 
 4. Definieer de perioden en het reductiesleutelpercentage in elke periode:
 
@@ -265,8 +265,8 @@ Een prognosereductiesleutel moet worden toegewezen aan de behoefteplanningsgroep
 2. Selecteer in het veld **Reductiesleutel** op het sneltabblad **Overige** de reductiesleutel die u aan de behoefteplanningsgroep wilt toewijzen. De reductiesleutel wordt vervolgens toegepast op alle artikelen van de behoefteplanningsgroep.
 3. Als u een reductiesleutel wilt gebruiken om tijdens de hoofdplanning een prognose reductie te berekenen, moet u deze instelling opgeven in de instellingen van het prognoseplan of het hoofdplan. Ga naar een van de volgende locaties:
 
-    - Hoofdplanning \> Instellen \> Plannen \> Prognoseplannen
-    - Hoofdplanning \> Instellen \> Plannen \> Hoofdplannen
+    - **Hoofdplanning \> Instellen \> Plannen \> Prognoseplannen**
+    - **Hoofdplanning \> Instellen \> Plannen \> Hoofdplannen**
 
 4. Selecteer op de pagina **Prognoseplannen** of **Hoofdplannen** op het sneltabblad **Algemeen** in het veld **Gebruikte methode voor het reduceren van prognosebehoeften** **Percentage - reductiesleutel** of **Transacties - reductiesleutel**.
 
@@ -274,5 +274,69 @@ Een prognosereductiesleutel moet worden toegewezen aan de behoefteplanningsgroep
 
 Wanneer u **Transacties - reductiesleutel** of **Transacties - dynamische periode** selecteert als de methode voor het reduceren van prognosebehoeften, kunt u opgeven met welke transacties de prognose wordt gereduceerd. Selecteer op de pagina **Behoefteplanningsgroepen** op het sneltabblad **Overige** in het veld **Prognose reduceren met** **Alle transacties** als de prognose moeten worden gereduceerd met alle transacties of **Orders** als de prognose alleen met verkooporders moet worden gereduceerd.
 
+## <a name="forecast-models-and-submodels"></a>Prognosemodellen en submodellen
+
+In deze sectie wordt beschreven hoe u prognosemodellen maakt en hoe u meerdere prognosemodellen combineert door submodellen in te stellen.
+
+Een *prognosemodel* benoemt en identificeert een bepaalde prognose. Nadat u het prognosemodel hebt gemaakt, kunt u er prognoseregels aan toevoegen. Als u prognoseregels voor meerdere artikelen wilt toevoegen, gebruikt u de pagina **Vraagprognoseregels**. U kunt prognoseregels voor een specifiek geselecteerd artikel toevoegen op de pagina **Vrijgegeven producten**.
+
+Een prognosemodel kan prognoses van andere prognosemodellen bevatten. U bereikt dit resultaat door andere prognosemodellen toe te voegen als *submodellen* van een bovenliggend prognosemodel. U moet elk relevant model maken voordat u dit kunt toevoegen als submodel van een bovenliggend prognosemodel.
+
+De resulterende structuur biedt u een krachtige manier om prognoses te beheren, omdat u hiermee de invoer uit meerdere afzonderlijke prognoses kunt combineren (samengevoegd). Daarom is het vanuit oogpunt van planning eenvoudig om prognoses voor simulaties te combineren. U kunt bijvoorbeeld een simulatie instellen die is gebaseerd op de combinatie van een normale prognose met de prognose voor een lentepromotie.
+
+### <a name="submodel-levels"></a>Submodelniveaus
+
+Er is geen limiet voor het aantal submodellen dat aan een bovenliggend prognosemodel kan worden toegevoegd. De structuur kan echter slechts één niveau diep zijn. Met andere woorden, een prognosemodel dat een submodel is van een ander prognosemodel kan geen eigen submodellen hebben. Wanneer u submodellen aan een prognosemodel toevoegt, controleert het systeem of dat prognosemodel al een submodel of een ander prognosemodel is.
+
+Als er in de hoofdplanning een submodel met eigen submodellen wordt gevonden, wordt een foutbericht weergegeven.
+
+#### <a name="submodel-levels-example"></a>Voorbeeld van submodelniveaus
+
+Prognosemodel A heeft prognosemodel B als submodel. Prognosemodel B kan daarom geen eigen submodellen hebben. Als u een submodel probeert toe te voegen aan prognosemodel B, wordt het volgende foutbericht weergegeven: 'Prognosemodel B is een submodel voor model A'.
+
+### <a name="aggregating-forecasts-across-forecast-models"></a>Prognoses samenvoegen in prognosemodellen
+
+Prognoseregels die op dezelfde dag plaatsvinden, worden samengevoegd in hun prognosemodel en de submodellen.
+
+#### <a name="aggregation-example"></a>Voorbeeld van samenvoeging
+
+Prognosemodel A heeft prognosemodel B en C als submodellen.
+
+- Prognosemodel A bevat een vraagprognose voor 2 stuks op 15 juni.
+- Prognosemodel B bevat een vraagprognose voor 3 stuks op 15 juni.
+- Prognosemodel C bevat een vraagprognose voor 4 stuks op 15 juni.
+
+De resulterende vraagprognose is één vraag naar 9 stuks (2 + 3 + 4) op 15 juni.
+
+> [!NOTE]
+> Elk submodel heeft eigen parameters, niet de parameters van het bovenliggende prognosemodel.
+
+### <a name="create-a-forecast-model"></a>Een prognosemodel maken
+
+Volg deze stappen om een prognosemodel te maken:
+
+1. Ga naar **Hoofdplanning \> Instellen \> Vraagprognose \> Prognosemodellen**.
+1. Selecteer **Nieuw** in het actievenster.
+1. Stel de volgende velden in voor het nieuwe prognosemodel:
+
+    - **Model**: hier kunt u een unieke ID voor het model invoeren.
+    - **Naam**: voer een beschrijvende naam in voor het model.
+    - **Gestopt**: u moet deze optie meestal instellen op *Nee*. Stel het alleen in op *Ja* als u wilt voorkomen dat alle prognoseregels die aan het model zijn toegewezen, worden bewerkt.
+
+    > [!NOTE]
+    > Het veld **Opnemen in cashflowprognoses** en de velden op het sneltabblad **Project** zijn niet gerelateerd aan de hoofdplanning. Daarom kunt u ze in deze context negeren. U moet ze alleen in overweging nemen wanneer u werkt met prognoses voor de module **Projectbeheer en boekhouding**.
+
+### <a name="assign-submodels-to-a-forecast-model"></a>Submodellen toewijzen aan een prognosemodel
+
+Volg deze stappen om submodellen aan een prognosemodel toe te wijzen.
+
+1. Ga naar **Voorraadbeheer \> Instellen \> Prognose \> Prognosemodellen**.
+1. Selecteer in het lijstdeelvenster het prognosemodel waarvoor u een submodel wilt instellen.
+1. Selecteer op het sneltabblad **Submodel** de optie **Toevoegen** om een rij toe te voegen aan het raster.
+1. Stel in de nieuwe rij de volgende velden in.
+
+    - **Submodel**: selecteer het prognosemodel dat u wilt toevoegen als submodel. Dit prognosemodel moet al bestaan en mag geen eigen submodellen hebben.
+    - **Naam**: voer een beschrijvende naam in voor het submodel. Deze naam kan bijvoorbeeld de relatie van het submodel met het bovenliggende prognosemodel aangeven.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c321531ace9e17f7d099be6280fd30500b991577
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d268c6fc90457c9f84f66ea5dbf86df356bea0f4
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991710"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470663"
 ---
 # <a name="set-up-return-reason-codes"></a>Redencodes voor retouren instellen   
 
@@ -31,9 +31,9 @@ ms.locfileid: "4991710"
 
 ## <a name="set-up-return-reason-code-groups"></a>Redencodegroepen instellen voor retouren 
 
-1.  Klik op **Verkoop en marketing** \> **Instellen** \> **Verkooporders** \> **Retouren** \> **Groepen redencode retour**.
+1.  Ga naar **Verkoop en marketing** \> **Instellen** \> **Verkooporders** \> **Retouren** \> **Groepen redencode retour**.
 
-2.  Druk op CTRL + N om een regel voor een nieuwe retourredencodegoep te maken.
+2.  Selecteer **Nieiw** om een regel voor een nieuwe retourredencodegroep te maken.
 
 3.  Typ een ID voor deze groep in het veld **Groep redencode retour**.
 
@@ -43,7 +43,7 @@ ms.locfileid: "4991710"
 
 Deze procedure helpt u bij het instellen van retourredencodes die u kunt gebruiken om aan te geven waarom een product door de klant is geretourneerd.
 
-1.  Klik op **Verkoop en marketing** \> **Instellen** \> **Verkooporders** \> **Retouren** \> **Redencodes retour**.
+1.  Ga naar **Verkoop en marketing** \> **Instellen** \> **Verkooporders** \> **Retouren** \> **Redencodes retour**.
 
 2.  Druk op CTRL+N om een nieuwe retourredencoderegel te maken.
 

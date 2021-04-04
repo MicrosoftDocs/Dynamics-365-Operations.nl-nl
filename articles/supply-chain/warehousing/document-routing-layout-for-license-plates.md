@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 66ba73ab5c790aa4a67419842f63f6f741bf0d3a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7c20d3d0540f8f1a05928df9aff5253745982da9
+ms.sourcegitcommit: 4ecc1bf82fbb04882d7ef5e1994ef3c07ef953dc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4973755"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5558257"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Indeling van documentroutering voor nummerplaatlabels
 
 [!include [banner](../includes/banner.md)]
+
 
 De indeling van de documentroutering bepaalt de indeling van nummerplaatlabels en de gegevens die erop worden afgedrukt. U configureert de afdruktriggerpunten wanneer u menuopdrachten voor mobiele apparaten en werksjablonen instelt.
 
@@ -51,6 +52,10 @@ Als onderdeel van het afdrukproces wordt de tekst `$LicensePlateId$` in dit voor
 Als u de waarden wilt weergeven die worden afgedrukt, gaat u naar **Magazijnbeheer \> Query's en rapporten \> Nummerplaatlabels**.
 
 Er zijn verschillende veelgebruikte hulpmiddelen voor het genereren van labels om helpen de tekst voor de labelindeling op te maken. Veel van deze hulpmiddelen ondersteunen de `$FieldName$`-indeling. Daarnaast gebruikt Microsoft Dynamics 365 Supply Chain Management speciale opmaaklogica als onderdeel van de veldtoewijzing voor de indeling van de documentroutering.
+
+## <a name="turn-on-this-feature-for-your-system"></a>Deze functie inschakelen voor uw systeem
+
+Als de functies die in dit onderwerp worden beschreven, nog niet in het systeem aanwezig zijn, gaat u naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Verbeterde indelingen voor nummerplaatlabels* in.
 
 ## <a name="custom-number-formats"></a>Aangepaste getalnotaties
 
