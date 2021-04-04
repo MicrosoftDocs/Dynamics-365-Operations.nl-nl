@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9aca699283a9de6ea551bd02184498aed88143e9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 9774d5f4e97d3f768366ba552e5928929bacf508
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991635"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470924"
 ---
 # <a name="set-up-service-order-stages"></a>Serviceorderfasen instellen 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Klik op **Servicebeheer** \> **Instellen** \> **Serviceorders** \> **Servicefasen**.
+1.  Ga naar **Servicebeheer** \> **Instellen** \> **Serviceorders** \> **Servicefasen**.
 
-2.  Druk op Ctrl+N om een nieuwe record te maken.
+2.  Selecteer **Nieuw** om een nieuwe record te maken.
 
 3.  Geef in de velden **Servicefase** en **Beschrijving** een servicefase-ID en omschrijving op.
 

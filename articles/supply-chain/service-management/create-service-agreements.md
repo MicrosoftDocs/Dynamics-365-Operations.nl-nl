@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef5ca8cc9c80581b9f7ef69bd8c4403d3d0296e8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: f883d5b312c042a995e30998fc24da5b1c02f22a
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4965955"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470852"
 ---
 # <a name="create-service-agreements"></a>Serviceovereenkomsten maken
 
@@ -33,8 +33,8 @@ In dit onderwerp wordt beschreven hoe u serviceovereenkomsten maakt met de funct
 ## <a name="create-a-service-agreement-from-service-management"></a>Een serviceovereenkomst maken via Servicebeheer
 
 1. Ga naar **Servicebeheer**.
-2. Klik op **Serviceovereenkomsten** om in de koptekst van de pagina een nieuwe serviceovereenkomstregel te maken. 
-3. Klik op **Nieuw**. Voer een omschrijving in, selecteer een verwijzing naar een project in het veld **Project-id** en vul de rest van de velden en regels voor de serviceovereenkomst in. Klik op **Opslaan**.
+2. Selecteer **Serviceovereenkomsten** om in de koptekst van de pagina een nieuwe serviceovereenkomstregel te maken. 
+3. Selecteer **Nieuw**. Voer een omschrijving in, selecteer een verwijzing naar een project in het veld **Project-id** en vul de rest van de velden en regels voor de serviceovereenkomst in. Selecteer **Opslaan**.
 4. Selecteer op het tabblad **Relaties** de optie **Serviceobjecten** of **Servicetaken** om serviceobject- of servicetaakrelaties voor de serviceovereenkomst te maken. U kunt de serviceobjecten en -taken waarvoor u relaties hebt gemaakt, toevoegen aan de regels van de serviceovereenkomst.
 5. Maak serviceovereenkomstregels in het onderste deel van de pagina door regels te kopiëren uit een servicesjabloon of een andere serviceovereenkomst of door de serviceovereenkomstregels handmatig te maken.
 
@@ -45,14 +45,14 @@ In dit onderwerp wordt beschreven hoe u serviceovereenkomsten maakt met de funct
 
 1. Voeg vanaf de pagina **Serviceovereenkomsten** een serviceovereenkomstregel toe in het lijnenraster. 
 2. Voer de juiste gegevens voor de serviceovereenkomstregel in. 
-3. Druk op **CTRL+S** om de regel op te slaan en sluit de pagina.
+3. Selecteer **Opslaan** om de regel op te slaan en sluit de pagina.
 
 ## <a name="create-a-service-agreement-from-project"></a>Een serviceovereenkomst maken via Project
 
-1. Klik op **Projectbeheer en boekhouding**.
-2. Klik op **Alle projecten**.
+1. Selecteer **Projectbeheer en boekhouding**.
+2. Selecteer **Alle projecten**.
 3. Selecteer het project in de lijst.
-4. Klik in het **actievenster** op **Beheren**. Klik in de groep **Nieuwe actie** op **Service** en selecteer **Serviceovereenkomst**.
+4. Selecteer in het **actiedeelvenster** de optie **Beheren**. Selecteer in de groep **Nieuwe actie** de optie **Service** en selecteer **Serviceovereenkomst**.
 5. Voer de beschreven stappen in de sectie **Een serviceovereenkomst maken** uit om de projectverwijzing in te voeren.
 
 

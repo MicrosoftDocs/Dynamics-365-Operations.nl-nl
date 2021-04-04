@@ -16,12 +16,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: d1259fe9a62077c9e24671c5646ea5f7e4a71e31
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 177f0cda9cb80e55ea96b97a7f5355cd403ed333
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988349"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5236330"
 ---
 # <a name="intervat-tax-declaration"></a>INTERVAT-belastingaangifte
 
