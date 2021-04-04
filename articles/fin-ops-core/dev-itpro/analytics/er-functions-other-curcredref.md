@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,41 +16,44 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3923126060963122634d90c2ba8a380f534e9178
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d5f126d71abdc9e3e488b4e8476850dc7763fe5a
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686757"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5567611"
 ---
-# <a name="curcredref-er-function"></a><span data-ttu-id="d695e-103">De ER-functie CURCREDREF</span><span class="sxs-lookup"><span data-stu-id="d695e-103">CURCREDREF ER function</span></span>
+# <a name="curcredref-er-function"></a><span data-ttu-id="3cbe3-103">De ER-functie CURCREDREF</span><span class="sxs-lookup"><span data-stu-id="3cbe3-103">CURCREDREF ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d695e-104">De functie `CURCREDREF` retourneert een *tekenreekswaarde* voor een crediteurverwijzing, op basis van de cijfers van het opgegeven factuurnummer.</span><span class="sxs-lookup"><span data-stu-id="d695e-104">The `CURCREDREF` function returns a *String* value that represents a creditor reference, based on the digits of the specified invoice number.</span></span>
+<span data-ttu-id="3cbe3-104">De functie `CURCREDREF` retourneert een *tekenreekswaarde* voor een crediteurverwijzing, op basis van de cijfers van het opgegeven factuurnummer.</span><span class="sxs-lookup"><span data-stu-id="3cbe3-104">The `CURCREDREF` function returns a *String* value that represents a creditor reference, based on the digits of the specified invoice number.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d695e-105">Syntaxis</span><span class="sxs-lookup"><span data-stu-id="d695e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3cbe3-105">Syntaxis</span><span class="sxs-lookup"><span data-stu-id="3cbe3-105">Syntax</span></span>
 
 ```vb
 CURCREDREF (invoice number digits)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="d695e-106">Argumenten</span><span class="sxs-lookup"><span data-stu-id="d695e-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="3cbe3-106">Argumenten</span><span class="sxs-lookup"><span data-stu-id="3cbe3-106">Arguments</span></span>
 
-<span data-ttu-id="d695e-107">`invoice number digits`: *Tekenreeks*</span><span class="sxs-lookup"><span data-stu-id="d695e-107">`invoice number digits`: *String*</span></span>
+<span data-ttu-id="3cbe3-107">`invoice number digits`: *Tekenreeks*</span><span class="sxs-lookup"><span data-stu-id="3cbe3-107">`invoice number digits`: *String*</span></span>
 
-<span data-ttu-id="d695e-108">Een tekstwaarde die voor de cijfers van een factuurnummer staat.</span><span class="sxs-lookup"><span data-stu-id="d695e-108">A text value that represents the digits of an invoice number.</span></span>
+<span data-ttu-id="3cbe3-108">Een tekstwaarde die voor de cijfers van een factuurnummer staat.</span><span class="sxs-lookup"><span data-stu-id="3cbe3-108">A text value that represents the digits of an invoice number.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="d695e-109">Retourwaarden</span><span class="sxs-lookup"><span data-stu-id="d695e-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="3cbe3-109">Retourwaarden</span><span class="sxs-lookup"><span data-stu-id="3cbe3-109">Return values</span></span>
 
-<span data-ttu-id="d695e-110">*Tekenreeks*</span><span class="sxs-lookup"><span data-stu-id="d695e-110">*String*</span></span>
+<span data-ttu-id="3cbe3-110">*Tekenreeks*</span><span class="sxs-lookup"><span data-stu-id="3cbe3-110">*String*</span></span>
 
-<span data-ttu-id="d695e-111">De resulterende tekstwaarde.</span><span class="sxs-lookup"><span data-stu-id="d695e-111">The resulting text value.</span></span>
+<span data-ttu-id="3cbe3-111">De resulterende tekstwaarde.</span><span class="sxs-lookup"><span data-stu-id="3cbe3-111">The resulting text value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d695e-112">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="d695e-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="3cbe3-112">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="3cbe3-112">Example</span></span>
 
-<span data-ttu-id="d695e-113">`CURCredRef ("VEND-200002")` retourneert **2200002**.</span><span class="sxs-lookup"><span data-stu-id="d695e-113">`CURCredRef ("VEND-200002")` returns **"2200002"**.</span></span>
+<span data-ttu-id="3cbe3-113">`CURCredRef ("VEND-200002")` retourneert **2200002**.</span><span class="sxs-lookup"><span data-stu-id="3cbe3-113">`CURCredRef ("VEND-200002")` returns **"2200002"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="d695e-114">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="d695e-114">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="3cbe3-114">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="3cbe3-114">Additional resources</span></span>
 
-[<span data-ttu-id="d695e-115">Andere functies (voor specifiek zakelijk domein)</span><span class="sxs-lookup"><span data-stu-id="d695e-115">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+[<span data-ttu-id="3cbe3-115">Andere functies (voor specifiek zakelijk domein)</span><span class="sxs-lookup"><span data-stu-id="3cbe3-115">Other (business domain–specific) functions</span></span>](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
