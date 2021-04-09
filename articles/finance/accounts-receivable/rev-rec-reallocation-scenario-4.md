@@ -2,11 +2,9 @@
 title: Hertoewijzing van opbrengsttoerekening - Scenario 4
 description: In dit onderwerp wordt een hertoewijzingsscenario besproken waarin een regel wordt verwijderd uit een bestaande, gedeeltelijk gefactureerde verkooporder. In dit scenario wordt hetzelfde resultaat geproduceerd, ongeacht of de regel uit de verkooporder wordt verwijderd of wordt ingesteld op de status Geannuleerd.
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 50a2d0d2ca28d9b62713502700f2c4bd2e42751e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2b53145ac1ef4b277afadb4262fd1e704a2e7662
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238299"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830659"
 ---
 # <a name="revenue-recognition-reallocation--scenario-4"></a>Hertoewijzing van opbrengsttoerekening - Scenario 4
 

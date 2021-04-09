@@ -2,11 +2,9 @@
 title: Hertoewijzing van opbrengsttoerekening - Scenario 1
 description: In dit onderwerp wordt een hertoewijzingsscenario besproken waarin twee verkooporders worden ingevoerd, maar alleen worden bevestigd. Hetzelfde scenario levert vergelijkbare resultaten op als meer dan twee verkooporders zijn bevestigd.
 author: kweekley
-manager: aolson
 ms.date: 12/21/2020
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Customer
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 25fb32ce72555e573cd37a0ab092b51b99bb4372
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f94b054d213dc2b347f4e5a7b2f4c2a51d519f57
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260872"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823999"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>Hertoewijzing van opbrengsttoerekening - Scenario 1
 

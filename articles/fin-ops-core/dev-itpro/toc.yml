@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: Platform updates voor 10.0.16 (februari 2021)
                   href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: Platform updates voor 10.0.15 (januari 2021)
-                  href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -226,6 +224,10 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: 'Geïntegreerde medewerker, taak en functie'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Adresboek van partij en globaal adresboek
+                              href: data-entities/dual-write/party-gab.md
+                            - name: Power Portal gebruiken met het gegevensmodel van partij
+                              href: data-entities/dual-write/party-gab-portal.md
                             - name: Integratie met notitie
                               href: data-entities/dual-write/notes-integration.md
                             - name: Toewijzingsverwijzing
@@ -526,13 +528,15 @@
                   items:
                     - name: On-premises projecten instellen in LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: On-premises omgevingen instellen en implementeren
+                    - name: On-premises omgevingen instellen en implementeren (Platform update 41 en later)
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: On-premises omgevingen instellen en implementeren (Platform updates 12 tot en met 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Installatiestappen voor onderdelen van detailhandelskanaal in een on-premises omgeving
                       href: deployment/deploy-retail-onprem.md
                     - name: Aangepaste modellen voor on-premises omgevingen ontwikkelen en implementeren
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Onderhoud van omgeving
+                - name: Omgevingsbewerkingen
                   items:
                     - name: Updates toepassen op een on-premises implementatie
                       href: deployment/apply-updates-on-premises.md
@@ -542,6 +546,8 @@
                       href: user-interface/client-disconnected.md
                     - name: AOS-knooppunten voor alleen batch en alleen interactief configureren in on-premises implementaties
                       href: deployment/onprem-batchonly.md
+                    - name: Hoge beschikbaarheid configureren voor SSRS-knooppunten (SQL Server Reporting Services)
+                      href: deployment/onprem-SSRSHA.md
                     - name: Proxy's voor on-premises omgevingen configureren
                       href: deployment/onprem-reverseproxy.md
                     - name: On-premises diagnoses
@@ -1136,20 +1142,24 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Integratie met Microsoft Power Platform
           items:
-            - name: Integratie van Microsoft Power Platform met Finance and Operations
-              href: power-platform/overview.md
-            - name: Overzicht van invoegtoepassingen
-              href: power-platform/add-ins-overview.md
-            - name: Entiteitsmodellen
-              href: power-platform/entity-modeling.md
-            - name: Levenscyclusbeheer voor toepassing
-              href: power-platform/application-lifecycle-management.md
-            - name: Beheerdersreferentie voor Finance and Operations en Dataverse
-              href: power-platform/admin-reference.md
-            - name: Power Apps-portals met Finance and Operations
-              href: power-platform/power-portal-reference.md
-            - name: Veelgestelde vragen over virtuele Finance and Operations-entiteiten
-              href: power-platform/faq.md
+            - name: Virtuele entiteiten
+              items:
+                - name: Integratie van Microsoft Power Platform met Finance and Operations
+                  href: power-platform/overview.md
+                - name: Entiteitsmodellen
+                  href: power-platform/entity-modeling.md
+                - name: Levenscyclusbeheer voor toepassing
+                  href: power-platform/application-lifecycle-management.md
+                - name: Beheerdersreferentie voor Finance and Operations en Dataverse
+                  href: power-platform/admin-reference.md
+                - name: Power Apps-portals met Finance and Operations
+                  href: power-platform/power-portal-reference.md
+                - name: Veelgestelde vragen over virtuele Finance and Operations-entiteiten
+                  href: power-platform/faq.md
+            - name: Invoegtoepassingen
+              items:
+                - name: Overzicht van invoegtoepassingen
+                  href: power-platform/add-ins-overview.md
         - name: Mobiel platform
           items:
             - name: Resources voor mobiel platform
@@ -1390,6 +1400,8 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Zelfstudie voor Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
+            - name: Niet-beheerders configureren
+              href: perf-test/rsat/rsat-configure-nonadmin.md
             - name: Best practices
               href: perf-test/rsat/rsat-best-practices.md
             - name: Gegevensonafhankelijk testen met Regression Suite Automation Tool

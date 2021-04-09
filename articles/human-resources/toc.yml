@@ -5,6 +5,8 @@
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 22 maart 2021
+          href: hr-whats-new-2021-03-22.md
         - name: 8 maart 2021
           href: hr-whats-new-2021-03-08.md
         - name: 22 februari 2021
@@ -265,6 +267,8 @@
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: Prestaties optimaliseren met automatische opschoningstaken
               href: hr-admin-troubleshooting-batch-history.md
+            - name: Vastgelopen batchtaken opnieuw instellen
+              href: hr-admin-troubleshooting-batch-execution.md
             - name: Analytische rapporten worden niet bijgewerkt
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Kan geen omgeving maken in het Power Apps-beheercentrum

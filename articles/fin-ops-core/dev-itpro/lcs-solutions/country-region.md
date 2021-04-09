@@ -2,7 +2,6 @@
 title: Globalisatieresources
 description: Dit onderwerp bevat een lijst met resources met meer informatie over land- en regiospecifieke functies en aanbiedingen.
 author: kfend
-manager: AnnBe
 ms.date: 02/19/2021
 ms.topic: index-page
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26411c24751f698a6789bbbd687aca8f378f7d65
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 95989a395781e790da6aedc9079c3aaebf98f9ae
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560913"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748460"
 ---
 # <a name="globalization-resources"></a>Globalisatieresources
 

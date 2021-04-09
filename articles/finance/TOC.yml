@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16 (februari 2021)
                       href: get-started/whats-new-changed-10-0-16.md
-                    - name: Finance 10.0.15 (januari 2021)
-                      href: get-started/whats-new-changed-10-0-15.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -1418,13 +1416,13 @@
               href: ../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=/dynamics365/finance/toc.json
             - name: Wettelijk voorgeschreven updates
               href: localizations/regulatory-updates.md
-            - name: Invoegtoepassing voor elektronische facturering
+            - name: Elektronische facturering
               items:
-                - name: Overzicht van de invoegtoepassing voor elektronische facturering
+                - name: Overzicht van Elektronische facturering
                   href: localizations/e-invoicing-service-overview.md
-                - name: Administratieonderdelen van invoegtoepassing voor elektronische facturering
+                - name: Beheeronderdelen voor elektronische facturering
                   href: localizations/e-invoicing-service-administration.md
-                - name: De invoegvoegconfiguratie voor elektronische facturering in Regulatory Configuration Services (RCS) configureren
+                - name: Elektronische facturering in Regulatory Configuration Services (RCS) configureren
                   href: localizations/e-invoicing-configuration-rcs.md
                 - name: Elektronische facturen uitgeven in Finance en Supply Chain Management
                   href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md
@@ -1432,20 +1430,22 @@
                   href: localizations/e-invoicing-create-azure-storage-account-key-vault.md
                 - name: Aan de slag
                   items:
-                    - name: Aan de slag met servicebeheer via de invoegtoepassing voor elektronische facturering
+                    - name: Aan de slag met servicebeheer voor Elektronische facturering
                       href: localizations/e-invoicing-get-started-service-administration.md
-                    - name: Aan de slag met de invoegtoepassing voor elektronische facturering
+                    - name: Aan de slag met Elektronische facturering
                       href: localizations/e-invoicing-get-started.md
-                    - name: Aan de slag met de invoegtoepassing voor elektronische facturering voor Brazilië
+                    - name: Aan de slag met Elektronische facturering voor Brazilië
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: Aan de slag met de invoegtoepassing voor elektronische facturering voor Egypte
+                    - name: Aan de slag met Elektronische facturering voor Egypte
                       href: localizations/e-invoicing-eg-get-started.md
-                    - name: Aan de slag met de invoegtoepassing voor elektronische facturering voor Italië
+                    - name: Aan de slag met Elektronische facturering voor Italië
                       href: localizations/e-invoicing-ita-get-started.md
-                    - name: Aan de slag met de invoegtoepassing voor elektronische facturering voor Mexico
+                    - name: Aan de slag met Elektronische facturering voor Mexico
                       href: localizations/e-invoicing-mex-get-started.md
-                    - name: De invoegtoepassing voor elektronische facturering instellen
+                    - name: Elektronische facturering instellen
                       href: localizations/e-invoicing-setup.md
+                - name: Veelgestelde vragen over Elektronische facturering
+                  href: localizations/e-invoicing-faq.md
             - name: Australië
               items:
                 - name: Overzicht Australië
@@ -1798,6 +1798,10 @@
                   href: localizations/emea-egy-invoice-layout.md
                 - name: Elektronische klantfacturen in Egypte
                   href: localizations/emea-egy-e-invoices.md
+                - name: Btw-aangifte voor Egypte
+                  href: localizations/emea-egy-vat-declaration.md
+                - name: Bronbelastingaangifte voor Egypte
+                  href: localizations/emea-egy-wht-declaration.md
             - name: Estland
               items:
                 - name: Overzicht Estland
@@ -2082,6 +2086,38 @@
                   href: localizations/india.md
                 - name: Reikwijdte van de Indiase lokalisaties
                   href: localizations/apac-ind-scope.md
+                - name: Nieuwe of gewijzigde functies in de lokalisatie voor India
+                  items:
+                    - name: Nieuwe of gewijzigde functies in 10.0.0
+                      href: localizations/apac-ind-news-letter-10-0-00.md
+                    - name: Nieuwe of gewijzigde functies in 10.0.01
+                      href: localizations/apac-ind-news-letter-10-0-01.md
+                    - name: Nieuwe of gewijzigde functies in 10.0.02
+                      href: localizations/apac-ind-news-letter-10-0-02.md
+                    - name: Nieuwe of gewijzigde functies in 10.0.03
+                      href: localizations/apac-ind-news-letter-10-0-03.md
+                    - name: Nieuwe of gewijzigde functies in 10.0.04
+                      href: localizations/apac-ind-news-letter-10-0-04.md
+                    - name: Nieuwe of gewijzigde functies in 10.0.05
+                      href: localizations/apac-ind-news-letter-10-0-05.md
+                    - name: Nieuwe of gewijzigde functies in 10.0.06
+                      href: localizations/apac-ind-news-letter-10-0-06.md
+                    - name: Nieuwe of gewijzigde functies in 10.0.07
+                      href: localizations/apac-ind-news-letter-10-0-07.md
+                    - name: Nieuwe of gewijzigde functies in 10.0.08
+                      href: localizations/apac-ind-news-letter-10-0-08.md
+                    - name: Nieuwe of gewijzigde functies in 10.0.09
+                      href: localizations/apac-ind-news-letter-10-0-09.md
+                    - name: Nieuwe of gewijzigde functies in 10.0.10
+                      href: localizations/apac-ind-news-letter-10-0-10.md
+                    - name: Nieuwe of gewijzigde functies in 10.0.11
+                      href: localizations/apac-ind-news-letter-10-0-11.md
+                    - name: Nieuwe of gewijzigde functies in 10.0.12
+                      href: localizations/apac-ind-news-letter-10-0-12.md
+                    - name: Nieuwe of gewijzigde functies in 10.0.13
+                      href: localizations/ind-news-letter-10-0-13.md
+                    - name: Nieuwe of gewijzigde functies in 10.0.14
+                      href: localizations/apac-ind-news-letter-10-0-14.md
                 - name: Vaste activa
                   items:
                     - name: Overzicht van Vaste activa voor India
@@ -2108,210 +2144,198 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Overboeking van kapitaalitems naar het vaste activum
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: GST India
+                - name: Indirecte belastingen
                   items:
-                    - name: Overzicht van GST in India
-                      href: localizations/apac-ind-gst.md
-                    - name: Nieuwe of gewijzigde functies in de GST-lokalisatie voor India
+                    - name: GST India
                       items:
-                        - name: Nieuwe of gewijzigde functies in 10.0.0
-                          href: localizations/apac-ind-news-letter-10-0-00.md
-                        - name: Nieuwe of gewijzigde functies in 10.0.01
-                          href: localizations/apac-ind-news-letter-10-0-01.md
-                        - name: Nieuwe of gewijzigde functies in 10.0.02
-                          href: localizations/apac-ind-news-letter-10-0-02.md
-                        - name: Nieuwe of gewijzigde functies in 10.0.03
-                          href: localizations/apac-ind-news-letter-10-0-03.md
-                        - name: Nieuwe of gewijzigde functies in 10.0.04
-                          href: localizations/apac-ind-news-letter-10-0-04.md
-                        - name: Nieuwe of gewijzigde functies in 10.0.05
-                          href: localizations/apac-ind-news-letter-10-0-05.md
-                        - name: Nieuwe of gewijzigde functies in 10.0.06
-                          href: localizations/apac-ind-news-letter-10-0-06.md
-                        - name: Nieuwe of gewijzigde functies in 10.0.07
-                          href: localizations/apac-ind-news-letter-10-0-07.md
-                        - name: Nieuwe of gewijzigde functies in 10.0.08
-                          href: localizations/apac-ind-news-letter-10-0-08.md
-                        - name: Nieuwe of gewijzigde functies in 10.0.09
-                          href: localizations/apac-ind-news-letter-10-0-09.md
-                        - name: Nieuwe of gewijzigde functies in 10.0.10
-                          href: localizations/apac-ind-news-letter-10-0-10.md
-                        - name: Nieuwe of gewijzigde functies in 10.0.11
-                          href: localizations/apac-ind-news-letter-10-0-11.md
-                        - name: Nieuwe of gewijzigde functies in 10.0.12
-                          href: localizations/apac-ind-news-letter-10-0-12.md
-                        - name: Nieuwe of gewijzigde functies in 10.0.13
-                          href: localizations/ind-news-letter-10-0-13.md
-                        - name: Nieuwe of gewijzigde functies in 10.0.14
-                          href: localizations/apac-ind-news-letter-10-0-14.md
-                    - name: GST-referentiegroepen India
-                      href: localizations/apac-ind-gst-reference-groups.md
-                    - name: GST-integratie voor kassa's
-                      href: ../retail/localizations/apac-ind-cash-registers.md?toc=/dynamics365/finance/toc.json
-                    - name: Hoofdgegevens instellen
-                      items:
-                        - name: Verticaal bedrijfssegment maken
-                          href: localizations/apac-ind-GST-create-business-vertical.md
-                        - name: Staatcode en gebied van vakbond bijwerken
-                          href: localizations/apac-ind-GST-update-state-code-union-territory.md
-                        - name: Een GSTIN-model maken
-                          href: localizations/apac-ind-GST-create-gstin-master.md
-                        - name: GSTIN's en nummerreeksen voor verwijzingen definiëren
-                          href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
-                        - name: HSN-codes en Service Accounting Codes definiëren
-                          href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
-                        - name: Belastingtarieftype maken
-                          href: localizations/apac-ind-GST-create-tax-rate-type.md
-                        - name: Hoofdaccounts maken voor het GST-boekingstype
-                          href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
-                        - name: Vereffeningsperiode voor belasting maken
-                          href: localizations/apac-ind-GST-create-tax-settlement-period.md
-                        - name: GSTIN koppelen aan een belastingregistratiegroep
-                          href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
-                    - name: Belastinginstellingen
-                      items:
-                        - name: Een belastingconfiguratie definiëren en implementeren voor rechtspersonen
-                          href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
-                        - name: Configuratie van belastingtypen toewijzen - douane
-                          href: localizations/apac-ind-GST-map-configuration-tax-types.md
-                        - name: Tarieven- en percentagetabellen instellen
-                          href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
-                        - name: Een btw-hiërarchie en de compensatieregels instellen
-                          href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
-                    - name: Inkooptransactie
-                      items:
-                        - name: Inkopen bij niet-geregistreerde leveranciers
-                          href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
-                        - name: Een belastbaar artikel kopen bij een niet-geregistreerde leverancier
-                          href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
-                        - name: Inkopen bij geregistreerde leveranciers
-                          href: localizations/apac-ind-GST-purchases-registered-vendor.md
-                        - name: Inkopen van goederen met korting
-                          href: localizations/apac-ind-GST-purchase-discounted-goods.md
-                        - name: Inkoop van vrijgestelde goederen
-                          href: localizations/apac-ind-GST-purchase-exempted-goods.md
-                        - name: Inkoop van btw vrijgestelde goederen
-                          href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
-                        - name: Inkopen van niet-GST-goederen
-                          href: localizations/apac-ind-GST-purchase-non-gst-goods.md
-                        - name: Inkopen van samengestelde handelaars
-                          href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
-                        - name: Inkopen van belastbare goederen met verzendkosten
-                          href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
-                        - name: Een inkoopfactuur met belastbare goederen herzien
-                          href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
-                        - name: Inkopen van vaste activa
-                          href: localizations/apac-ind-GST-purchase-fixed-asset.md
-                        - name: Een creditnota maken op basis van een inkoopfactuur
-                          href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
-                        - name: Een debetnota maken op basis van een inkoopfactuur
-                          href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
-                        - name: Kwaliteitsorders waarbij het bemonsteringsartikel vernietigd wordt
-                          href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
-                        - name: Inkoopretourorders
-                          href: localizations/apac-ind-GST-purchase-return-order.md
-                        - name: Vooruitbetalingen van leveranciers met terugboekingskosten
-                          href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
-                    - name: Verkooptransactie
-                      items:
-                        - name: Verkoop van belastbare goederen aan klanten
-                          href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
-                        - name: Verkoop aan geregistreerde klanten
-                          href: localizations/apac-ind-GST-sell-registered-customer.md
-                        - name: Vrije-tekstfacturen
-                          href: localizations/apac-ind-GST-free-text-invoices.md
-                        - name: Verkoop van belastbare goederen met terugboekingskosten
-                          href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
-                        - name: Verkoop van vrijgestelde artikelen
-                          href: localizations/apac-ind-GST-sales-exempted-item.md
-                        - name: Verkoop van btw vrijgestelde goederen
-                          href: localizations/apac-ind-GST-sell-zero-rated-goods.md
-                        - name: Verkoop van niet-GST-goederen
-                          href: localizations/apac-ind-GST-sell-non-gst-goods.md
-                        - name: Verkoop van belastbare goederen met een korting en een voorlopige beoordeling
-                          href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
-                        - name: Verkoop van belastbare goederen met belasting op verzendkosten
-                          href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
-                        - name: Verkoop waarbij prijzen inclusief en exclusief btw zijn
-                          href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
-                        - name: Een debetnota maken op basis van een verkoopfactuur
-                          href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
-                        - name: Een creditnota maken op basis van een verkoopfactuur
-                          href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
-                        - name: Verkoopfacturen die worden gesplitst op basis van afleveradressen
-                          href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
-                        - name: Retourorders
-                          href: localizations/apac-ind-GST-return-order-form.md
-                    - name: Buitenlandse transacties
-                      items:
-                        - name: Goederen met GST importeren
-                          href: localizations/apac-ind-GST-import-goods-gst.md
-                        - name: Services met GST importeren
-                          href: localizations/apac-ind-import-services-gst.md
-                        - name: Van btw vrijgestelde goederen exporteren
-                          href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
-                        - name: Van belasting vrijgestelde services exporteren
-                          href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
-                    - name: Voorraadtransactie
-                      items:
-                        - name: Voorraadtransferorders
-                          href: localizations/apac-ind-stock-transfer.md
-                        - name: Voorraadtransferorders met belasting op de transferprijs
-                          href: localizations/apac-ind-GST-stock-transfer-transactions.md
-                    - name: Klantbetalingstransactie
-                      items:
-                        - name: Vooruitbetalingen inclusief btw
-                          href: localizations/apac-ind-GST-advance-payment-includes-tax.md
-                        - name: Vooruitbetalingen die worden vereffend tijdens het boeken van de factuur
-                          href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
-                        - name: Handmatige vereffening van een vooruitbetaling en een factuur inclusief btw
-                          href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
-                        - name: Betaling van facturen inclusief btw
-                          href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
-                        - name: Vooruitbetalingen inclusief btw herzien
-                          href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
-                        - name: Restituties van klantbetalingen
-                          href: localizations/apac-ind-GST-customer-payment-refund.md
-                    - name: Directe belastingtransactie
+                        - name: Overzicht van GST in India
+                          href: localizations/apac-ind-gst.md
+                        - name: Belastingengine
+                          items:
+                            - name: Overzicht van belastingengine
+                              href: general-ledger/tax-engine.md
+                            - name: Configuratie importeren
+                              href: general-ledger/tax-engine-import-configuration.md
+                            - name: Geavanceerde formuleontwerper
+                              href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
+                            - name: Toepasbaarheid van belastingberekenfunctie
+                              href: general-ledger/tax-engine-applicability.md
+                            - name: Belastingonderdelen maken
+                              href: localizations/tax-engine-create-tax-component.md
+                            - name: Integratie van belastingengine
+                              href: general-ledger/tax-engine-integration.md
+                            - name: De belastingengine uitbreiden
+                              href: general-ledger/extend-tax-engine-configurations.md
+                            - name: De tabel TaxDocumentJSON opschonen
+                              href: localizations/gte-clean-up-tax-document-json-table.md
+                            - name: Problemen met GTE oplossen
+                              href: localizations/tax-engine-trouble-shooting.md
+                        - name: Hoofdgegevens instellen
+                          items:
+                            - name: Verticaal bedrijfssegment maken
+                              href: localizations/apac-ind-GST-create-business-vertical.md
+                            - name: Staatcode en gebied van vakbond bijwerken
+                              href: localizations/apac-ind-GST-update-state-code-union-territory.md
+                            - name: Een GSTIN-model maken
+                              href: localizations/apac-ind-GST-create-gstin-master.md
+                            - name: GSTIN's en nummerreeksen voor verwijzingen definiëren
+                              href: localizations/apac-ind-GST-define-gstin-numbers-number-sequences.md
+                            - name: HSN-codes en Service Accounting Codes definiëren
+                              href: localizations/apac-ind-GST-hsn-service-accounting-codes.md
+                            - name: Belastingtarieftype maken
+                              href: localizations/apac-ind-GST-create-tax-rate-type.md
+                            - name: Hoofdaccounts maken voor het GST-boekingstype
+                              href: localizations/apac-ind-GST-create-main-accounts-GST-posting-type.md
+                            - name: Vereffeningsperiode voor belasting maken
+                              href: localizations/apac-ind-GST-create-tax-settlement-period.md
+                            - name: GSTIN koppelen aan een belastingregistratiegroep
+                              href: localizations/apac-ind-GST-attach-GSTIN-tax-registration-group.md
+                        - name: Belastinginstellingen
+                          items:
+                            - name: Een belastingconfiguratie definiëren en implementeren voor rechtspersonen
+                              href: localizations/apac-ind-GST-define-tax-configuration-deploy-legal-entities.md
+                            - name: Configuratie van belastingtypen toewijzen - douane
+                              href: localizations/apac-ind-GST-map-configuration-tax-types.md
+                            - name: Tarieven- en percentagetabellen instellen
+                              href: localizations/apac-ind-GST-set-up-rate-percentage-tables.md
+                            - name: Een btw-hiërarchie en de compensatieregels instellen
+                              href: localizations/apac-ind-GST-set-up-activate-tax-hierarchy-tree.md
+                            - name: GST-referentiegroepen India
+                              href: localizations/apac-ind-gst-reference-groups.md
+                        - name: Btw-transacties
+                          items:
+                            - name: Inkooptransacties
+                              items:
+                                - name: Inkopen bij niet-geregistreerde leveranciers
+                                  href: localizations/apac-ind-GST-purchases-unregistered-vendor.md
+                                - name: Een belastbaar artikel kopen bij een niet-geregistreerde leverancier
+                                  href: localizations/apac-ind-gst-unregistered-vendor-purchase.md
+                                - name: Inkopen bij geregistreerde leveranciers
+                                  href: localizations/apac-ind-GST-purchases-registered-vendor.md
+                                - name: Inkopen van goederen met korting
+                                  href: localizations/apac-ind-GST-purchase-discounted-goods.md
+                                - name: Inkoop van vrijgestelde goederen
+                                  href: localizations/apac-ind-GST-purchase-exempted-goods.md
+                                - name: Inkoop van btw vrijgestelde goederen
+                                  href: localizations/apac-ind-GST-purchase-zero-rated-goods.md
+                                - name: Inkopen van niet-GST-goederen
+                                  href: localizations/apac-ind-GST-purchase-non-gst-goods.md
+                                - name: Inkopen van samengestelde handelaars
+                                  href: localizations/apac-ind-GST-purchase-from-composite-dealer.md
+                                - name: Inkopen van belastbare goederen met verzendkosten
+                                  href: localizations/apac-ind-GST-purchase-taxable-goods-shipping-charges.md
+                                - name: Een inkoopfactuur met belastbare goederen herzien
+                                  href: localizations/apac-ind-GST-revised-purchase-invoice-taxable-goods.md
+                                - name: Inkopen van vaste activa
+                                  href: localizations/apac-ind-GST-purchase-fixed-asset.md
+                                - name: Een creditnota maken op basis van een inkoopfactuur
+                                  href: localizations/apac-ind-GST-credit-note-against-purchase-invoice.md
+                                - name: Een debetnota maken op basis van een inkoopfactuur
+                                  href: localizations/apac-ind-GST-debit-note-against-purchase-invoice.md
+                                - name: Kwaliteitsorders waarbij het bemonsteringsartikel vernietigd wordt
+                                  href: localizations/apac-ind-GST-quality-order-involves-destruction-sampling-item.md
+                                - name: Inkoopretourorders
+                                  href: localizations/apac-ind-GST-purchase-return-order.md
+                                - name: Vooruitbetalingen van leveranciers met terugboekingskosten
+                                  href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                            - name: Verkooptransacties
+                              items:
+                                - name: Verkoop van belastbare goederen aan klanten
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-consumer.md
+                                - name: Verkoop aan geregistreerde klanten
+                                  href: localizations/apac-ind-GST-sell-registered-customer.md
+                                - name: Vrije-tekstfacturen
+                                  href: localizations/apac-ind-GST-free-text-invoices.md
+                                - name: Verkoop van belastbare goederen met terugboekingskosten
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-reverse-charge.md
+                                - name: Verkoop van vrijgestelde artikelen
+                                  href: localizations/apac-ind-GST-sales-exempted-item.md
+                                - name: Verkoop van btw vrijgestelde goederen
+                                  href: localizations/apac-ind-GST-sell-zero-rated-goods.md
+                                - name: Verkoop van niet-GST-goederen
+                                  href: localizations/apac-ind-GST-sell-non-gst-goods.md
+                                - name: Verkoop van belastbare goederen met een korting en een voorlopige beoordeling
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-discount-provisional-assessment.md
+                                - name: Verkoop van belastbare goederen met belasting op verzendkosten
+                                  href: localizations/apac-ind-GST-sell-taxable-goods-tax-shipping-charges.md
+                                - name: Verkoop waarbij prijzen inclusief en exclusief btw zijn
+                                  href: localizations/apac-ind-GST-sales-prices-include-exclude-tax.md
+                                - name: Een debetnota maken op basis van een verkoopfactuur
+                                  href: localizations/apac-ind-GST-debit-note-against-sales-invoice.md
+                                - name: Een creditnota maken op basis van een verkoopfactuur
+                                  href: localizations/apac-ind-GST-credit-note-against-sales-invoice.md
+                                - name: Verkoopfacturen die worden gesplitst op basis van afleveradressen
+                                  href: localizations/apac-ind-GST-sales-invoice-split-based-on-delivery-addresses.md
+                                - name: Retourorders
+                                  href: localizations/apac-ind-GST-return-order-form.md
+                            - name: Buitenlandse transacties
+                              items:
+                                - name: Goederen met GST importeren
+                                  href: localizations/apac-ind-GST-import-goods-gst.md
+                                - name: Services met GST importeren
+                                  href: localizations/apac-ind-import-services-gst.md
+                                - name: Van btw vrijgestelde goederen exporteren
+                                  href: localizations/apac-ind-GST-export-goods-zero-rated-tax.md
+                                - name: Van belasting vrijgestelde services exporteren
+                                  href: localizations/apac-ind-GST-export-services-zero-rated-tax.md
+                                - name: Credit- of debetnota voor een exportorder
+                                  href: localizations/apac-ind-GST-credit-debit-note-against-export-order.md
+                            - name: Voorraadtransfertransacties
+                              items:
+                                - name: Voorraadtransferorders
+                                  href: localizations/apac-ind-stock-transfer.md
+                                - name: Voorraadtransferorders met belasting op de transferprijs
+                                  href: localizations/apac-ind-GST-stock-transfer-transactions.md
+                            - name: Klantbetalingstransacties
+                              items:
+                                - name: Vooruitbetalingen inclusief btw
+                                  href: localizations/apac-ind-GST-advance-payment-includes-tax.md
+                                - name: Vooruitbetalingen die worden vereffend tijdens het boeken van de factuur
+                                  href: localizations/apac-ind-GST-advance-payment-settled-during-invoice-posting.md
+                                - name: Handmatige vereffening van een vooruitbetaling en een factuur inclusief btw
+                                  href: localizations/apac-ind-GST-manually-settle-payment-invoice-tax.md
+                                - name: Betaling van facturen inclusief btw
+                                  href: localizations/apac-ind-GST-pay-invoice-includes-tax.md
+                                - name: Vooruitbetalingen inclusief btw herzien
+                                  href: localizations/apac-ind-GST-revise-advanced-payment-tax.md
+                                - name: Restituties van klantbetalingen
+                                  href: localizations/apac-ind-GST-customer-payment-refund.md
+                            - name: Belastingcorrectie
+                              items:
+                                - name: Bedrag belastingcorrectie
+                                  href: localizations/apac-ind-GST-tax-adjustments.md
+                                - name: Een belastingjournaal maken
+                                  href: localizations/apac-ind-GST-tax-journal.md
+                            - name: Vragen over belastingdocument
+                              items:
+                                - name: Belastingquery
+                                  href: localizations/apac-ind-GST-tax-inquiry.md
+                        - name: Btw-vereffening
+                          items:
+                            - name: Belastingvereffening op basis van regels
+                              href: localizations/apac-ind-GST-tax-settlement.md
+                        - name: GSTR-aangiften
+                          items:
+                            - name: Nieuwe indelingen voor GSTR-1- en GSTR-2-retouren
+                              href: localizations/apac-ind-GST-new-GSTR1-GSTR2-return-formats.md
+                            - name: Nieuw oOffline GSTR-hulpmiddel voor ANX-1 en aankoopregister
+                              href: localizations/apac-ind-GST-new-GSTR-offline-tool-ANX1-purchase-register.md
+                            - name: GSTR-rapportgegevens genereren voor belastingretouren
+                              href: localizations/apac-ind-GST-tax-returns.md
+                            - name: Verwerking van meerdere batches inschakelen voor GSTR-rapporten
+                              href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                - name: Directe belastingen
+                  items:
+                    - name: Bronbelasting voor India
                       items:
                         - name: GST opnemen bij berekenen van belastinginhoudingen
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
                         - name: GST opnemen bij berekenen van belastingincasso's
                           href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
-                    - name: Bedrag belastingaanpassing
-                      href: localizations/apac-ind-GST-tax-adjustments.md
-                    - name: Belastingvereffening op basis van regels
-                      href: localizations/apac-ind-GST-tax-settlement.md
-                    - name: Een belastingjournaal maken
-                      href: localizations/apac-ind-GST-tax-journal.md
-                    - name: GSTR-rapportgegevens genereren voor belastingretouren
-                      href: localizations/apac-ind-GST-tax-returns.md
-                    - name: Verwerking van meerdere batches inschakelen voor GSTR-rapporten
-                      href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
-                    - name: Belastingquery
-                      href: localizations/apac-ind-GST-tax-inquiry.md
-                    - name: De tabel TaxDocumentJSON opschonen
-                      href: localizations/gte-clean-up-tax-document-json-table.md
-                - name: Belastingengine
-                  items:
-                    - name: Overzicht van belastingengine
-                      href: general-ledger/tax-engine.md
-                    - name: Configuratie importeren
-                      href: general-ledger/tax-engine-import-configuration.md
-                    - name: Geavanceerde formuleontwerper
-                      href: ../fin-ops-core/dev-itpro/analytics/er-advanced-formula-editor.md?toc=/dynamics365/finance/toc.json
-                    - name: Toepasbaarheid van belastingberekenfunctie
-                      href: general-ledger/tax-engine-applicability.md
-                    - name: Belastingonderdelen maken
-                      href: localizations/tax-engine-create-tax-component.md
-                    - name: Integratie van belastingengine
-                      href: general-ledger/tax-engine-integration.md
-                    - name: De belastingengine uitbreiden
-                      href: general-ledger/extend-tax-engine-configurations.md
-                    - name: Problemen met GTE oplossen
-                      href: localizations/tax-engine-trouble-shooting.md
-                - name: Veelgestelde vragen over belastingdrempels
-                  href: localizations/apac-ind-tax-thresholds.md
+                        - name: Veelgestelde vragen over belastingdrempels
+                          href: localizations/apac-ind-tax-thresholds.md
+                        - name: TCS bij verkoop van goederen
+                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
             - name: Italië
               items:
                 - name: Overzicht Italië
@@ -2568,6 +2592,8 @@
                   href: localizations/emea-ltu-vat-statement-details.md
                 - name: i.SAF-rapportage voor Litouwen
                   href: localizations/emea-ltu-isaf.md
+                - name: Standaard auditfile voor belasting (SAF-T) voor Litouwen
+                  href: localizations/emea-ltu-saf-t.md
             - name: Maleisië
               items:
                 - name: Overzicht Maleisië
@@ -2930,6 +2956,8 @@
                       href: localizations/rus-deferred-expenses-register.md
                     - name: Belastingregisters voor cashflows
                       href: localizations/rus-cash-flow-tax-registers.md
+                    - name: Geschatte onkostenregisters
+                      href: localizations/rus-rated-expenses-registers.md
             - name: Saoedi-Arabië
               items:
                 - name: Overzicht Saoedi-Arabië
@@ -3381,11 +3409,11 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Toepassingsspecifieke metagegevens voorbereiden
                       items:
-                        - name: (ER) Toepassingsmetagegevens voor gebruik in RCS voorbereiden
+                        - name: Toepassingsmetagegevens in ER voorbereiden voor gebruik in RCS
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) Toepassingsmetagegevens openen door gebruik van ER-configuratie
+                        - name: Toepassingsmetagegevens in RCS openen door gebruik van ER-configuratie
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: (RCS) Toepassingsmetagegevens openen door gebruik van verbonden toepassingen
+                        - name: Toepassingsmetagegevens in RCS openen door gebruik van verbonden toepassingen
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/dynamics365/finance/toc.json
                         - name: Modeltoewijzingen definiëren en gegevensbronnen selecteren
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/dynamics365/finance/toc.json
@@ -3403,7 +3431,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/dynamics365/finance/toc.json
                     - name: Uw indeling upgraden door een nieuwe basisversie van die indeling aan te nemen
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/dynamics365/finance/toc.json
-            - name: Formuleontwerpers in elektronische rapportage
+            - name: Formuleontwerpers in ER
               items:
                 - name: Formuleontwerper
                   href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/dynamics365/finance/toc.json
@@ -3675,7 +3703,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-qrcode.md?toc=/dynamics365/finance/toc.json
                         - name: 'Tekst: Text'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
-            - name: ER-indelingen ontwerpen voor het genereren van uitgaande elektronische documenten in verschillende indelingen
+            - name: ER-indelingen ontwerpen voor het genereren van uitgaande documenten in verschillende indelingen
               items:
                 - name: Ontwerpconfiguraties om uitgaande documenten te genereren in Excel-indeling
                   items:
@@ -3703,7 +3731,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Afbeeldingen en vormen insluiten
                   items:
-                    - name: (ER) Afbeeldingen en vormen insluiten in documenten die u genereert
+                    - name: Afbeeldingen en vormen insluiten in documenten die u genereert
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/dynamics365/finance/toc.json
                     - name: Voorbeeld van het insluiten van afbeeldingen en vormen
                       items:
@@ -3717,7 +3745,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: Stuklijsttekens onderdrukken in gegenereerde bestanden
                   href: ../fin-ops-core/dev-itpro/analytics/er-suppress-bom-characters.md?toc=/dynamics365/finance/toc.json
-            - name: Toepassingsgegevens bijwerken met behulp van elektronische rapportage
+            - name: Toepassingsgegevens bijwerken met ER
               items:
                 - name: Elektronische documenten genereren en toepassingsgegevens bijwerken
                   href: ../fin-ops-core/dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/dynamics365/finance/toc.json
@@ -3763,8 +3791,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Regulatory services (RCS)
                   items:
-                    - name: Regulatory Configuration Services (RCS) - globalisatiefuncties
-                      href: localizations/rcs-globalization-feature.md
+                    - name: Globaliseringsfuncties in RCS
+                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
                     - name: ER-configuraties downloaden naar Finance
                       items:
                         - name: Configuraties downloaden uit RCS
@@ -3896,17 +3924,17 @@
                     - name: Bestemmingstypen
                       items:
                         - name: Bestemming voor archieven
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-archive.md?toc=/dynamics365/finance/toc.json
                         - name: Bestemming voor e-mail
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-email.md?toc=/dynamics365/finance/toc.json
                         - name: Bestemming voor bestanden
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-file.md?toc=/dynamics365/finance/toc.json
                         - name: Bestemming voor Power BI
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-powerbi.md?toc=/dynamics365/finance/toc.json
                         - name: Bestemming voor printers
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-print.md?toc=/dynamics365/finance/toc.json
                         - name: Bestemming voor scherm
-                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md
+                          href: ../fin-ops-core/dev-itpro/analytics/er-destination-type-screen.md?toc=/dynamics365/finance/toc.json
                     - name: Bestemmingen configureren
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Actieafhankelijke bestemmingen configureren
@@ -3919,11 +3947,11 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
                     - name: Verbeteringen in de traceringsresultaten van gegenereerde ER-rapporten en vergelijkingen met basislijnwaarden
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
-                    - name: Testen automatiseren met elektronische rapportage
+                    - name: Testen automatiseren met ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
                 - name: Bedrijfsprocessen automatiseren met behulp van configuraties voor elektronische rapportage
                   items:
-                    - name: Elektronische rapportage configureren om gegevens op te halen in Power BI
+                    - name: ER configureren om gegevens op te halen in Power BI
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: Formulieren genereren voor afdrukbare vrije-tekstfacturen (FTI)
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
