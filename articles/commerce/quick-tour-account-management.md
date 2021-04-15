@@ -2,11 +2,9 @@
 title: Overzicht van pagina's voor accountbeheer
 description: In dit onderwerp wordt een overzicht gegeven van de pagina's voor accountbeheer in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4cd4ee3ef2b1c3538ec267fe12eef38d525f6a83
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dc4ae56be1740f0160b4e4777f8db93a6bc4e704
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244809"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792262"
 ---
 # <a name="account-management-pages-overview"></a>Overzicht van pagina's voor rekeningbeheer
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt een overzicht gegeven van de pagina's voor accountbeheer in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Met accountbeheerpagina's kunnen klanten informatie bekijken die betrekking heeft op hun account en orders. De pagina's voor accountbeheer bevatten de landingspagina, het gebruikersprofiel, en pagina's voor het gebruikersprofiel, adressen, de orderhistorie, orderdetails, loyaliteit en verlanglijst.
 

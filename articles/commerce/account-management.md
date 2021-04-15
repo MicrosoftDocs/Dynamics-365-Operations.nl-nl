@@ -2,11 +2,9 @@
 title: Accountbeheerpagina's en -modules
 description: In dit onderwerp worden de pagina's en modules voor accountbeheer in Microsoft Dynamics 365 Commerce besproken.
 author: v-chgri
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 29523d03fb687684dae7d0ce08208905cce702df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: df4959a61f1b2948c62a558523a848ff8b2fe0a8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206626"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796289"
 ---
 # <a name="account-management-pages-and-modules"></a>Accountbeheerpagina's en -modules
 
@@ -51,9 +49,9 @@ De pagina Orderhistorie werkt met de module Orderhistorie om alle recente orders
 
 De pagina Orderdetails bevat gedetailleerde informatie voor elke order en wordt geopend vanuit de pagina Orderhistorie. Er wordt gebruikgemaakt van de module Orderdetails, die met de verkoop-id of transactie-id de orderdetails ophalen.
 
-### <a name="user-profile-page"></a>Pagina Gebruikersprofiel
+### <a name="my-profile-page"></a>Mijn profielpagina
 
-Op de pagina Gebruikersprofiel worden de gegevens van een gebruikersaccount weergegeven, zoals naam en e-mailadres van de gebruiker. Deze gebruikt gebruikersprofielgegevens en gebruikersprofielbewerkingsmodules. Het e-mailadres kan niet worden verwijderd, maar wel worden bewerkt. De gebruikersprofielpagina bevat ook gebruikersvoorkeuren waarmee een gebruiker zich kan aan- of afmelden voor bepaalde functies, zoals personalisatie van aanbevelingslijsten. 
+Op de pagina Mijn profiel worden de accountprofielgegevens van de gebruiker weergegeven met behulp van de accountprofielmodule. De pagina toont het e-mailadres dat is gekoppeld aan het account van de gebruiker, evenals voorkeuren die voor het account zijn ingesteld. Als u aangepaste klantkenmerken instelt, worden deze kenmerken ook weergegeven in een sectie 'Aanvullende informatie'. Gebruikers kunnen hun naam, voorkeuren of aanvullende informatie (indien beschikbaar) bewerken.
 
 ### <a name="user-address-page"></a>Pagina Gebruikersadres
 
