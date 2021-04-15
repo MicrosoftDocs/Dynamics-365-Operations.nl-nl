@@ -1,12 +1,10 @@
 ---
-title: Veldnamen configureren in de magazijnapp
-description: In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren in Dynamics 365 Supply Chain Management.
+title: Velden configureren voor de mobiele app Magazijnbeheer
+description: In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van velden die worden weergegeven in de mobiele app Magazijnbeheer kunt definiëren en configureren.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -18,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c22a4314c36ba7112456ef264df500af98996f3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c6ed726536085b836f4014c59ea8df4755577ab5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232954"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808817"
 ---
-# <a name="configure-app-field-names-in-the-warehouse-app"></a>Veldnamen in de magazijnapp configureren
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Velden configureren voor de mobiele app Magazijnbeheer
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren in Dynamics 365 Supply Chain Management. 
+In dit onderwerp wordt beschreven hoe u veldnamen en prioriteiten van velden die worden weergegeven in de mobiele app Magazijnbeheer kunt definiëren en configureren.
 
 > [!NOTE]
-> Dit onderwerp is van toepassing op functies in Magazijnbeheer. Het geldt niet voor functies in Voorraadbeheer. Magazijnbeheer is een toepassing waarmee u magazijntaken kunt uitvoeren. U kunt de in de app gebruikte veldnamen definiëren en configureren en u kunt ook de prioriteit configureren waaraan de veldnamen moeten worden toegewezen. In dit onderwerp wordt uitgelegd hoe u deze veldnamen en prioriteiten van de magazijnapp kunt definiëren en configureren en hoe ze worden gebruikt in Magazijnbeheer. Raadpleeg de zelfstudie [Overzicht van installatie en configuratie van de magazijnapp](install-configure-warehousing-app.md) voor gedetailleerde informatie over het configureren van de verbinding met Magazijnbeheer.
+> Dit onderwerp is van toepassing op functies in Magazijnbeheer. Het geldt niet voor functies in Voorraadbeheer. De mobiele app Magazijnbeheer is een toepassing waarmee u magazijntaken kunt uitvoeren. U kunt de in de app gebruikte veldnamen definiëren en configureren en u kunt ook de prioriteit configureren waaraan de veldnamen moeten worden toegewezen. In dit onderwerp wordt uitgelegd hoe u deze veldnamen en prioriteiten van de mobiele app Magazijnbeheer kunt definiëren en configureren en hoe ze worden gebruikt in Magazijnbeheer.
 
 ## <a name="configure-warehouse-app-field-names"></a>Veldnamen van magazijnapp configureren
 
@@ -142,7 +140,7 @@ De resterende metagegevens, bijvoorbeeld Locatie, worden niet weergegeven op de 
 <a name="additional-resources"></a>Aanvullende bronnen
 --------
 
-[Overzicht van installatie en configuratie van de magazijnapp](install-configure-warehousing-app.md)
+[De mobiele app Magazijnbeheer installeren en verbinden](../warehousing/install-configure-warehouse-management-app.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

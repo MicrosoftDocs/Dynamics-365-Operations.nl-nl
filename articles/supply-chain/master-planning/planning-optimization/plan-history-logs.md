@@ -2,11 +2,9 @@
 title: Planhistorie en planningslogboeken weergeven
 description: In dit onderwerp wordt uitgelegd hoe u de historie van planningstaken kunt weergeven die zijn geactiveerd door de functionaliteit Planningsoptimalisatie.
 author: ChristianRytt
-manager: tfehr
 ms.date: 10/30/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MPSPlanRegenerationJobList, MPSPlanRegenerationJobLogs
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 7cf79b5754f507e90aeb501508d76c7afcf656a6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1726d127883f9849fe87888134c0c174377ecf2b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239369"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813022"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Planhistorie en planningslogboeken weergeven
 

@@ -2,11 +2,9 @@
 title: 'Gemengde planmodus: combineer discrete sourcing, processourcing en lean sourcing'
 description: Dit onderwerp biedt informatie over de gemengde planmodus.
 author: cvocph
-manager: tfehr
 ms.date: 11/03/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
@@ -18,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d3febb420637c95e05e58444d0e2a67e5fa2b87
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 84a580ff6e8fe91de1ce0af315f322487dd8a3b2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260498"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814845"
 ---
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Gemengde planmodus: combineer discrete sourcing, processourcing en lean sourcing
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp biedt informatie over de gemengde planmodus. Bij de gemengde planmodus kunt u uw leveringsketen modelleren op basis van de materiaalstroom. Dynamics 365 Supply Chain Management zorgt ervoor dat de materiaalstroom uw modellen volgt, ongeacht het leveringsbeleid dat is geselecteerd (kanbans, productieorders, inkooporders, batchorders of transferorders). 
+Dit onderwerp biedt informatie over de gemengde planmodus. Bij de gemengde planmodus kunt u uw leveringsketen modelleren op basis van de materiaalstroom. Dynamics 365 Supply Chain Management zorgt ervoor dat de materiaalstroom uw modellen volgt, ongeacht het leveringsbeleid dat is geselecteerd (kanbans, productieorders, inkooporders, batchorders of overboekingsorders). 
 
 U kunt uw algemene strategie voor productlevering selecteren, ongeacht de productstructuur.  
 
@@ -64,7 +62,7 @@ Resourceverbruik vereist dat het magazijn waarin de materialen worden verzameld,
 Voor werk dat onafhankelijk is van een leveringsbeleid hoeft u geen informatie te wijzigen op de stuklijst als de levering verandert. Bij ad-hoc wijzigingen zorgt Supply Chain Management ervoor dat de materialen van het juiste magazijn afkomstig zijn.
 
 ## <a name="process-manufacturing--the-production-type"></a>Procesfabricage - het productietype
-Voor volledige flexibiliteit in de gemengde modus wordt u aangeraden het productietype stuklijsten te gebruiken voor alle producten. Vervolgens kunt u productieorders, kanbans, transferorders of inkooporders voor het leveren van een product gebruiken. Voor procesfabricage moet u het productietype **Formule**, **Coproduct**, **Bijproduct** of **Planningsartikel** gebruiken. Kanbans en productieorders kunnen niet voor deze productietypen worden gebruikt.
+Voor volledige flexibiliteit in de gemengde modus wordt u aangeraden het productietype stuklijsten te gebruiken voor alle producten. Vervolgens kunt u productieorders, kanbans, overboekingsorders of inkooporders voor het leveren van een product gebruiken. Voor procesfabricage moet u het productietype **Formule**, **Coproduct**, **Bijproduct** of **Planningsartikel** gebruiken. Kanbans en productieorders kunnen niet voor deze productietypen worden gebruikt.
 
 
 

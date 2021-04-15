@@ -1,12 +1,10 @@
 ---
-title: Preview van Dynamics 365 Supply Chain Management 10.0.17 (april 2021)
+title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.17 (april 2021)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.17.
 author: kamaybac
-manager: annbe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,19 +14,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 985879ef765bf3074387a909d508f0f93a4771ed
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 4b4e551f5c687f0021ddba0c9f5b73af528b7140
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571807"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813166"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10017-april-2021"></a>Preview van Dynamics 365 Supply Chain Management 10.0.17 (april 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.17 (april 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in de preview van Microsoft Dynamics 365 Supply Chain Management versie 10.0.17. Deze versie heeft een buildnummer van 10.0.761 en is als volgt beschikbaar:
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.17. Deze versie heeft een buildnummer van 10.0.761 en is als volgt beschikbaar:
 
 - **Preview van versie:** februari 2021
 - **Algemene beschikbaarheid van versie (zelfupdate):** maart 2021
@@ -36,9 +33,9 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in de
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-Deze versie bevat de volgende functies. Sommige van de functies in de lijst zijn nog steeds in preview, terwijl andere mogelijk al algemeen beschikbaar zijn. Volg de koppelingen naar het [releaseeplan](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
+Deze versie bevat de volgende functies.  Volg de koppelingen naar het [releaseeplan](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
 
-De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
+De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken. Sommige van de functies in de lijst zijn mogelijk nog steeds in preview, hoewel de meeste nu algemeen beschikbaar zijn.
 
 ### <a name="asset-management"></a>Activabeheer
 
@@ -68,9 +65,13 @@ De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-
 
 - [Mobiele toepassing Magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Zie [De app Magazijnbeheer installeren en verbinden](../warehousing/install-configure-warehouse-management-app.md) en [Instellingen voor gebruikers van mobiele apparaten](../warehousing/mobile-device-user-settings.md) voor meer informatie.
 
+- Meldingen voor uitvoering van wave<br> - Zie [Meldingen voor uitvoering van wave](../warehousing/wave-execution-notifications.md) voor meer informatie
+
 ### <a name="manufacturing"></a>Productie
 
-- [Mogelijkheden voor activabeheer in de interface voor de uitvoering van productielijnen](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Zie [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) voor meer informatie.
+- [Mogelijkheden voor activabeheer in de interface voor de uitvoering van productielijnen](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Zie [Uitvoeringsinterface voor de werkvloer configureren](../production-control/production-floor-execution-configure.md) voor meer informatie.
+
+- Geïntegreerde nummerreeks voor taak-id's<br> - Voor meer informatie zie 
 
 - [Het standaardreserveringsprincipe voor materialen in productie overschrijven](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Zie [Het standaardreserveringsprincipe voor materialen in de productie overschrijven](../production-control/override-default-reservation-principle.md) voor meer informatie.
 

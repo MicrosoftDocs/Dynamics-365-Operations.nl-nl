@@ -2,11 +2,9 @@
 title: Vracht afstemmen in transportbeheer
 description: In dit onderwerp wordt het vrachtafstemmingsproces beschreven.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSFBDetailReconcile, TMSInvoiceTable,TMSInvoiceLineReconcile,TMSReconcileInvoice, TMSFreightBillDetail, TMSFreightBillTypeAssignment, TMSRejectInvoiceLine, TMSMiscellaneousCharge
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7af7bbb500de25e0a796147fae42cd7d943be9df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d523af235d645bd282af07d6a1f617bca5fba2dc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205221"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809081"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>Vracht afstemmen in transportbeheer
 
@@ -35,7 +33,7 @@ Vrachtafstemming kan handmatig plaatsvinden of kan automatisch worden uitgevoerd
 
 ## <a name="the-freight-reconciliation-process"></a>Het proces van vrachtafstemming
 
-Vrachttarieven worden berekend door de tarief-engine die is gekoppeld aan de desbetreffende vervoerder. Wanneer een lading wordt bevestigd, wordt een vrachtfactuur gegenereerd en worden de vrachttarieven hier naartoe overgebracht. De vrachttarieven worden toegewezen als diverse toeslagen aan het desbetreffende brondocument (inkooporder, verkooporder en/of transferorder), afhankelijk van de instelling die wordt gebruikt voor het normale factureringsproces. Het vrachtafstemmingsproces (ook wel vereffeningsproces genoemd) kan starten zodra de vrachtfactuur van de vervoerder binnenkomt. De factuur kan elektronisch of op papier worden ontvangen. Als de factuur wordt ontvangen op papier, kunt u een elektronische factuur genereren door de vrachtfactuur als sjabloon te gebruiken.
+Vrachttarieven worden berekend door de tarief-engine die is gekoppeld aan de desbetreffende vervoerder. Wanneer een lading wordt bevestigd, wordt een vrachtfactuur gegenereerd en worden de vrachttarieven hier naartoe overgebracht. De vrachttarieven worden toegewezen als diverse toeslagen aan het desbetreffende brondocument (inkooporder, verkooporder en/of overboekingsorder), afhankelijk van de instelling die wordt gebruikt voor het normale factureringsproces. Het vrachtafstemmingsproces (ook wel vereffeningsproces genoemd) kan starten zodra de vrachtfactuur van de vervoerder binnenkomt. De factuur kan elektronisch of op papier worden ontvangen. Als de factuur wordt ontvangen op papier, kunt u een elektronische factuur genereren door de vrachtfactuur als sjabloon te gebruiken.
 
 [![Vrachtafstemmingsproces](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 

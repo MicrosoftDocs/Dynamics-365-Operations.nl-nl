@@ -2,7 +2,6 @@
 title: Interface voor materiaalverwerkingsapparatuur (MHAX)
 description: In dit onderwerp wordt beschreven hoe u de interface voor materiaalverwerkingsapparatuur (Material Handling Equipment Interface, MHAX) in kunt stellen zodat u verbinding kunt maken met externe fysieke MH-systemen (Material Handling).
 author: Mirzaab
-manager: tfehr
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ea021529d7417fb3170c859c7fffcb2cfd23a43f
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 9273e4a1f6b3f57086c921c4beb0530a67ccd976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571837"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810505"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interface voor materiaalverwerkingsapparatuur (MHAX)
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Met de *interface voor materiaalverwerkingsapparatuur* (MHAX) kunt u externe fysieke MH-systemen (Material Handling) koppelen aan een magazijn dat wordt beheerd via een WMS-systeem voor geavanceerd magazijnbeheer in Microsoft Dynamics 365 Supply Chain Management. De interface tussen het WMS- en MH-systemen bestaat uit twee wachtrijen: een voor uitgaande gebeurtenissen (WMS naar MH) en een voor inkomende gebeurtenissen (MH naar WMS). Het WMS-systeem genereert uitgaande gebeurtenissen op basis van werkregels die zijn gemaakt tijdens verschillende processen voor het aanmaken en uitvoeren van werk. Het MH-systeem controleert vervolgens het WMS-systeem regelmatig op nieuwe gebeurtenissen en verwerkt de responsen. Nadat het MH-systeem de verwerking van de gebeurtenissen in overeenstemming met werkinstructies heeft voltooid, verstuurt het inkomende gebeurtenissen, zoals die voor de voltooiing van een werkregel of voor het verzamelen van een tekort aan artikelen voor een order.
 
