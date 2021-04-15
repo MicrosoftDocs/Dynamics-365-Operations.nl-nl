@@ -2,11 +2,9 @@
 title: Werken met modules
 description: In dit onderwerp wordt beschreven hoe en wanneer u modules in Microsoft Dynamics 365 Commerce gebruikt.
 author: phinneyridge
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eddee09fa81c18bc464b7768921981e6b5159a3e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6d872719d3b1aa27ccfdcf36d7739c883e7b4996
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210894"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801356"
 ---
 # <a name="work-with-modules"></a>Werken met modules
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe en wanneer u modules in Microsoft Dynamics 365 Commerce gebruikt.
-
-## <a name="overview"></a>Overzicht
 
 Modules zijn logische bouwstenen die de paginastructuur vormen en verschillende doeleinden en bereiken hebben. Sommige modules zijn containers op een hoog niveau en zijn alleen bedoeld voor het vasthouden en organiseren van andere modules (onderliggende modules). Andere modules, zoals een eenvoudige afbeeldingsmodule, hebben een specifiek doel. Modules, zoals carrouselmodules, vallen ergens tussen deze twee categorieën.
 

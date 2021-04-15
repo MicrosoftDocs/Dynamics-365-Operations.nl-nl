@@ -2,11 +2,9 @@
 title: Gecombineerde nummerplaat ontvangen
 description: In dit onderwerp wordt beschreven hoe u met ontvangst van gecombineerde nummerplaten werk kunt registreren en maken voor meerdere artikelen met een mobiel apparaat.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSLicensePlate
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 948942f137b75c83cc337c5b05300ed8b8857ab8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b17b3a4d704c5bfd051426e708d39022e59cc67a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227717"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810457"
 ---
 # <a name="mixed-license-plate-receiving"></a>Gecombineerde nummerplaat ontvangen
 
@@ -47,7 +45,7 @@ U moet een nieuwe menuoptie maken met de modus werk, die geen bestaand werk gebr
 - Gecombineerde nummerplaat ontvangen
 - Nummerplaat ontvangen en wegzetten
 
-De opties om de brondocumentregels te identificeren zijn inkooporderartikel, inkooporderregel, retourorder, transferorderartikel en transferorderregel. Deze opties kunnen de ontvangstvolgorde op een enkele nummerplaat wijzigen. De laatste optie is op ladingsartikel. U kunt meerdere artikelen toevoegen aan een nummerplaat, maar u kunt niet schakelen tussen meerdere ladingen.
+De opties om de brondocumentregels te identificeren zijn inkooporderartikel, inkooporderregel, retourorder, overboekingsorderartikel en overboekingsorderregel. Deze opties kunnen de ontvangstvolgorde op een enkele nummerplaat wijzigen. De laatste optie is op ladingsartikel. U kunt meerdere artikelen toevoegen aan een nummerplaat, maar u kunt niet schakelen tussen meerdere ladingen.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

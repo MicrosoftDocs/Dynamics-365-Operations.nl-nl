@@ -2,11 +2,9 @@
 title: De uitvoeringsinterface voor de werkvloer configureren
 description: In dit onderwerp wordt beschreven hoe u een of meer configuraties maakt voor de uitvoeringsinterface van de werkvloer. Wanneer u de uitvoeringsinterface van de werkvloer opent, worden automatisch een geselecteerde configuratie en een taakfilter geladen die specifiek zijn voor de browser en het apparaat. In de configuratie stelt u de beleidsregels in die toegepast moeten worden op een specifiek gebruik.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
-ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
+ms.openlocfilehash: 79e21977e4ef8bce88c97a8fb253345ccc8d6b4f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/08/2021
-ms.locfileid: "5556309"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814725"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer configureren
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Medewerkers op de werkvloer gebruiken de uitvoeringsinterface van de werkvloer om hun dagelijkse werkzaamheden te registreren, bijvoorbeeld wanneer taken worden gestart, feedback over taken wordt geregistreerd, indirecte activiteiten worden geregistreerd en verzuim wordt gerapporteerd. Deze registraties vormen de basis voor het bijhouden van de voortgang en de kosten van productieorders, en voor het berekenen van de basis voor het salaris van de werknemers.
 
@@ -67,6 +64,8 @@ Deze functie voegt een knop toe aan de uitvoeringsinterface voor de werkvloer wa
 - Functie voor vergrendelen van taakkaartapparaat en taakkaartterminal zodat ze kunnen worden schoongemaakt
 
 ### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Functionaliteit van activabeheer voor de uitvoeringsinterface voor de werkvloer
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Met deze functie voegt u een Activabeheer-tabblad toe aan de interface voor het uitvoeren van productielijnen. Werknemers kunnen dit tabblad gebruiken om een activum te selecteren dat is verbonden met een machineresource die zich in het geselecteerde filter van de takenlijst bevindt. Voor de geselecteerde machineactiva kan de werknemer de status en de staat van het activum uit tellerwaarden weergeven voor maximaal vier geselecteerde tellers. Als u deze functie wilt gebruiken, schakelt u de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in:
 

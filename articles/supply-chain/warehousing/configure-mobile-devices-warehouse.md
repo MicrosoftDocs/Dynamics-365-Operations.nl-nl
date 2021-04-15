@@ -2,11 +2,9 @@
 title: Mobiele apparaten instellen voor magazijnwerk
 description: In dit onderwerp wordt beschreven hoe u de menu-items configureert die magazijnmedewerkers gebruiken om werk op een mobiel apparaat uit te voeren.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db4c3a8c4bae226b5e154f4761e30b7341bc527b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232978"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808793"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiele apparaten instellen voor magazijnwerk
 
@@ -64,7 +62,7 @@ Als het veld **Modus** voor een menuoptie is ingesteld op **Indirect**, kunt u e
 | De cache van de nummerreeks legen | Verwijderen nummerreeksnummers van de nummerreekscache. Deze activiteit wordt gewoonlijk uitgevoerd door een systeembeheerder om cachingsproblemen op te lossen bij gebruik van mobiele apparaten. |
 | Batchbeschikking wijzigen | Sta een werknemer toe om een batchbeschikkingscode voor een artikel en een batch op te geven. Deze selectie werkt de beschikkingscode bij die voor de batch is opgegeven. |
 | Geopende werklijst weergeven | Geef een lijst met beschikbaar werk weer aan een specifieke gebruiker. De gebruiker kan vervolgens uit te voeren werk selecteren en wordt hier naartoe geleid. Deze lijst is bedoeld voor weergave op tabletapparaten met een schermgrootte van 7 inch of meer. Wanneer u deze optie selecteert, komen de menuopties **Query bewerken** en **Veldenlijst** beschikbaar. Op de pagina **Query bewerken** kunt u criteria instellen voor het werk dat in de lijst wordt weergegeven. Op de pagina **Veldenlijst** kunt u selecteren welke velden in de werklijst worden weergegeven. Zo kunt u bijvoorbeeld het aantal velden beperken dat wordt weergegeven zodat de gebruiker sneller het meest passende werkitem kan selecteren. Op het sneltabblad **Algemeen** in het veld **Records per pagina** kunt u tevens selecteren hoeveel werkrecords per pagina worden weergegeven. Als de optie **Toestaan dat gebruikers kunnen filteren op type werktransactie** is geselecteerd, bevat de werklijst een besturingselement **Werk filteren** waarmee de gebruiker kan filteren op transactietype. In de werklijst krijgen gebruikers alleen werk te zien waarvoor zij toegangsmachtiging hebben. U moet ervoor zorgen dat gebruikers machtiging voor een of meer gebruikergeleide menuopties hebben die de specifieke werkklassetypen ondersteunen waartoe zij toegang moeten hebben. De machtigingen worden geverifieerd wanneer de gebruiker probeert om werk van de lijst uit te voeren.|
-| Transferorder maken op basis van nummerplaten | Met deze functie kunnen magazijnmedewerkers overboekingsorders direct via de app voor magazijnbeheer maken en verwerken. De magazijnmedewerkers beginnen met het selecteren van het doelmagazijn en vervolgens kunnen ze met de app een of meer nummerplaten scannen. Wanneer de magazijnmedewerker **Order voltooien** selecteert, worden met een batchtaak de vereiste overboekingsorder en orderregels gemaakt op basis van de voorhanden voorraad die voor deze nummerplaten is geregistreerd. Zie [Overboekingsorders maken vanuit de app voor magazijnbeheer](create-transfer-order-from-warehouse-app.md) voor meer informatie
+| overboekingsorder maken op basis van nummerplaten | Hiermee kunnen magazijnmedewerkers transferorders rechtstreeks vanuit de mobiele app Magazijnbeheer maken en verwerken. De magazijnmedewerkers beginnen met het selecteren van het doelmagazijn en vervolgens kunnen ze met de app een of meer nummerplaten scannen. Wanneer de magazijnmedewerker **Order voltooien** selecteert, worden met een batchtaak de vereiste overboekingsorder en orderregels gemaakt op basis van de voorhanden voorraad die voor deze nummerplaten is geregistreerd. Zie [Overboekingsorders maken vanuit de app voor magazijnbeheer](create-transfer-order-from-warehouse-app.md) voor meer informatie
 
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Menuopties configureren om het werk voor een andere werknemer of proces te maken
@@ -121,7 +119,7 @@ U kunt een menuoptie instellen die het werk voor een andere werknemer zal maken 
 <td>Registreer de ontvangst van een hoeveelheid van een artikel door het RMA-nummer te registreren, en zet de artikelen weg. Dezelfde werknemer voert beide acties uit.</td>
 </tr>
 <tr>
-<td rowspan="6">Transferorder</td>
+<td rowspan="6">overboekingsorder</td>
 <td>Ontvangen overboekingorder-artikel</td>
 <td>Registreer de ontvangst van een hoeveelheid van een artikel en maak weggezet werk voor een andere werknemer.
 
@@ -138,7 +136,7 @@ U kunt een menuoptie instellen die het werk voor een andere werknemer zal maken 
 <td>Registreer de ontvangst van een hoeveelheid van een artikel en maak weggezet werk voor een andere werknemer.</td>
 </tr>
 <tr>
-<td>Transferorderregel ontvangen en wegzetten</td>
+<td>overboekingsorderregel ontvangen en wegzetten</td>
 <td>Registreer de ontvangst van een hoeveelheid van een artikel, en zet de artikelen weg. Dezelfde werknemer voert beide acties uit.</td>
 </tr>
 <tr>

@@ -2,11 +2,9 @@
 title: Inkomende voorraadbewerking in POS
 description: In dit onderwerp worden de mogelijkheden van inkomende voorraadbewerking van het verkooppunt (POS) beschreven.
 author: hhaines
-manager: annbe
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 2254453201817d906de9805e2cfd3c9e74c9497c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6efc20de5309bc7ec209a557a4bc12c6a0a42a43
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234480"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804326"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Binnenkomende voorraadbewerking in POS
 
@@ -32,7 +30,7 @@ ms.locfileid: "5234480"
 In Microsoft Dynamics 365 Commerce versie 10.0.10 en hoger worden inkomende en uitgaande bewerkingen op het verkooppunt (POS) vervangen door de bewerking voor orderverzameling en ontvangst.
 
 > [!NOTE]
-> In Commerce versie 10.0.10 en hoger worden alle nieuwe functies in de POS-toepassing die verband houden met de ontvangst van winkelvoorraad op basis van inkooporders en transferorders, toegevoegd aan de POS-bewerking voor **Inkomende bewerking**. Als u momenteel orderverzameling en ontvangst in POS gebruikt, kunt u het beste een strategie ontwikkelen voor het overbrengen van deze bewerking naar de nieuwe inkomende en uitgaande bewerkingen. Hoewel de orderverzamelings- en ontvangstbewerking niet uit het product wordt verwijderd, vinden er geen verdere investeringen in die bewerking plaats, vanuit functioneel of prestatieperspectief, na versie 10.0.9.
+> In Commerce versie 10.0.10 en hoger worden alle nieuwe functies in de POS-toepassing die verband houden met de ontvangst van winkelvoorraad op basis van inkooporders en overboekingsorders, toegevoegd aan de POS-bewerking voor **Inkomende bewerking**. Als u momenteel orderverzameling en ontvangst in POS gebruikt, kunt u het beste een strategie ontwikkelen voor het overbrengen van deze bewerking naar de nieuwe inkomende en uitgaande bewerkingen. Hoewel de orderverzamelings- en ontvangstbewerking niet uit het product wordt verwijderd, vinden er geen verdere investeringen in die bewerking plaats, vanuit functioneel of prestatieperspectief, na versie 10.0.9.
 
 ## <a name="prerequisite-configure-an-asynchronous-document-framework"></a>Vereiste: een asynchroon documentraamwerk configureren
 
@@ -78,26 +76,26 @@ Voordat uw organisatie de functionaliteit voor inkomende bewerkingen kan gebruik
 
 Met de inkomende bewerking kunnen POS-gebruikers de volgende taken uitvoeren:
 
-- Voorraad ontvangen in winkelvoorraad vanuit bevestigde inkooporderdocumenten of verzonden transferorderdocumenten.
+- Voorraad ontvangen in winkelvoorraad vanuit bevestigde inkooporderdocumenten of verzonden overboekingsorderdocumenten.
 - Informatie weergeven over historische voorraadontvangsten voor een periode van zeven dagen nadat het document volledig is ontvangen.
-- Nieuwe aanvragen voor inkomende transferorders maken.
+- Nieuwe aanvragen voor inkomende overboekingsorders maken.
 
-Wanneer de inkomende bewerking vanuit de POS-toepassing wordt gestart, wordt er een lijstpaginaweergave getoond. In deze weergave worden openstaande inkooporder- en transferorderdocumenten weergegeven met voorraadregels die staan gepland voor ontvangst door de huidige winkel. Als gebruikers een specifiek document willen zoeken en selecteren, kunnen zij door de lijst bladeren of de zoekfunctie gebruiken.
+Wanneer de inkomende bewerking vanuit de POS-toepassing wordt gestart, wordt er een lijstpaginaweergave getoond. In deze weergave worden openstaande inkooporder- en overboekingsorderdocumenten weergegeven met voorraadregels die staan gepland voor ontvangst door de huidige winkel. Als gebruikers een specifiek document willen zoeken en selecteren, kunnen zij door de lijst bladeren of de zoekfunctie gebruiken.
 
 De lijst met inkomende voorraaddocumenten bestaat uit drie tabbladen:
 
 - **Actief**: dit tabblad toont documenten die volledig of gedeeltelijk geopend zijn en die regels of hoeveelheden op regels bevatten die nog moeten worden ontvangen.
-- **Concept**: dit tabblad toont nieuwe aanvragen voor inkomende transferorders die door de winkel zijn gemaakt. De documenten zijn echter alleen lokaal opgeslagen. Ze zijn nog niet ingediend bij Commerce Headquarters voor verwerking.
-- **Voltooid**: op dit tabblad wordt een lijst weergegeven met inkooporder- of transferorderdocumenten die de winkel volledig heeft ontvangen in de afgelopen zeven dagen. Dit tabblad is alleen bedoeld voor informatieve doeleinden. Alle gegevens over de documenten zijn alleen-lezen gegevens voor de winkel.
+- **Concept**: dit tabblad toont nieuwe aanvragen voor inkomende overboekingsorders die door de winkel zijn gemaakt. De documenten zijn echter alleen lokaal opgeslagen. Ze zijn nog niet ingediend bij Commerce Headquarters voor verwerking.
+- **Voltooid**: op dit tabblad wordt een lijst weergegeven met inkooporder- of overboekingsorderdocumenten die de winkel volledig heeft ontvangen in de afgelopen zeven dagen. Dit tabblad is alleen bedoeld voor informatieve doeleinden. Alle gegevens over de documenten zijn alleen-lezen gegevens voor de winkel.
 
 Wanneer u documenten op een van de tabbladen bekijkt, kan het veld **Status** helpen beter inzicht te krijgen in de fase waarin het document zich bevindt.
 
-- **Concept**: het transferorderdocument is alleen lokaal opgeslagen in de kanaaldatabase van de winkel. Er is nog geen informatie over de aanvraag voor de transferorder ingediend bij Commerce Headquarters.
-- **Aangevraagd**: de inkooporder of transferorder is gemaakt in Commerce Headquarters en is volledig open. Er zijn nog geen ontvangsten voor het document verwerkt. Voor documenten van het type inkooporderdocument kan de ontvangst op elk gewenst moment plaatsvinden terwijl de status **Aangevraagd** is.
-- **Gedeeltelijk verzonden**: het transferorderdocument bevat een of meer regels of gedeeltelijke regelhoeveelheden die zijn geboekt als verzonden door het uitgaande magazijn. Deze verzonden regels kunnen via de inkomende bewerking worden ontvangen.
-- **Volledig verzonden**: de transferorder heeft alle regels en volledige regelhoeveelheden geboekt als verzonden door het uitgaande magazijn. Het hele document kan via de inkomende bewerking worden ontvangen.
-- **Gedeeltelijk ontvangen**: sommige regels of hoeveelheden in het inkooporder- of transferorderdocument zijn ontvangen door de winkel, maar sommige regels blijven openstaan.
-- **Volledig ontvangen**: alle regels en hoeveelheden in het inkooporder- of transferorderdocument zijn volledig ontvangen. De documenten zijn alleen toegankelijk op het tabblad **Voltooid** en zijn alleen-lezen voor winkelgebruikers.
+- **Concept**: het overboekingsorderdocument is alleen lokaal opgeslagen in de kanaaldatabase van de winkel. Er is nog geen informatie over de aanvraag voor de overboekingsorder ingediend bij Commerce Headquarters.
+- **Aangevraagd**: de inkooporder of overboekingsorder is gemaakt in Commerce Headquarters en is volledig open. Er zijn nog geen ontvangsten voor het document verwerkt. Voor documenten van het type inkooporderdocument kan de ontvangst op elk gewenst moment plaatsvinden terwijl de status **Aangevraagd** is.
+- **Gedeeltelijk verzonden**: het overboekingsorderdocument bevat een of meer regels of gedeeltelijke regelhoeveelheden die zijn geboekt als verzonden door het uitgaande magazijn. Deze verzonden regels kunnen via de inkomende bewerking worden ontvangen.
+- **Volledig verzonden**: de overboekingsorder heeft alle regels en volledige regelhoeveelheden geboekt als verzonden door het uitgaande magazijn. Het hele document kan via de inkomende bewerking worden ontvangen.
+- **Gedeeltelijk ontvangen**: sommige regels of hoeveelheden in het inkooporder- of overboekingsorderdocument zijn ontvangen door de winkel, maar sommige regels blijven openstaan.
+- **Volledig ontvangen**: alle regels en hoeveelheden in het inkooporder- of overboekingsorderdocument zijn volledig ontvangen. De documenten zijn alleen toegankelijk op het tabblad **Voltooid** en zijn alleen-lezen voor winkelgebruikers.
 - **In uitvoering**: deze status wordt gebruikt om gebruikers van het apparaat te informeren dat een andere gebruiker actief werkt aan het document.
 - **Onderbroken**: deze status wordt weergegeven nadat de optie **Ontvangen onderbreken** is geselecteerd om het ontvangstproces tijdelijk te stoppen.
 - **Verwerkt in HQ**: het document is vanuit de POS-toepassing ingediend bij Commerce Headquarters, maar het is nog niet geboekt naar Commerce Headquarters. Het document doorloopt het proces voor asynchrone documentboeking. Nadat het document is geboekt naar Commerce Headquarters, moet de status worden bijgewerkt naar **Volledig ontvangen** of **Gedeeltelijk ontvangen**.
@@ -107,15 +105,15 @@ Wanneer u een documentregel in de lijst selecteert, wordt een **detailvenster** 
 
 In de lijstpaginaweergave voor het document kunt u **Orderdetails** op de appbalk selecteren om de details van het document weer te geven. U kunt ook ontvangstverwerking activeren voor in aanmerking komende documentregels.
 
-In de lijstpaginaweergave voor documenten kunt u ook een nieuwe ingaande transferorderaanvraag voor een winkel maken. De documenten blijven de status **Concept** houden en kunnen worden aangepast of verwijderd totdat ze voor verwerking naar Commerce Headquarters worden verzonden. Nadat de regels zijn ingediend bij Commerce Headquarters, kunnen de transferorderregels niet meer worden gewijzigd vanuit de POS-toepassing.
+In de lijstpaginaweergave voor documenten kunt u ook een nieuwe ingaande overboekingsorderaanvraag voor een winkel maken. De documenten blijven de status **Concept** houden en kunnen worden aangepast of verwijderd totdat ze voor verwerking naar Commerce Headquarters worden verzonden. Nadat de regels zijn ingediend bij Commerce Headquarters, kunnen de overboekingsorderregels niet meer worden gewijzigd vanuit de POS-toepassing.
 
 ## <a name="receiving-process"></a>Ontvangstproces
 
-Nadat u een inkooporder- of transferorderdocument hebt geselecteerd op het tabblad **Actief**, kunt u **Orderdetails** selecteren om het ontvangstproces te starten.
+Nadat u een inkooporder- of overboekingsorderdocument hebt geselecteerd op het tabblad **Actief**, kunt u **Orderdetails** selecteren om het ontvangstproces te starten.
 
 De weergave **Nu ontvangen** wordt standaard weergegeven. Deze weergave is geoptimaliseerd voor het scannen van streepjescodes. De weergave kan worden gebruikt voor het samenstellen van een lijst met artikelen die zijn gescand, zodat deze artikelen kunnen worden ontvangen. Als u het ontvangstproces wilt starten, kunt u beginnen met het scannen van streepjescodes voor artikelen.
 
-Wanneer streepjescodes van artikelen worden gescand in de weergave **Nu ontvangen**, worden de artikelen gevalideerd op basis van het geselecteerde inkooporder- of transferorderdocument om ervoor te zorgen dat elk gescand artikel overeenkomt met een geldig artikel in het document. In de weergave **Nu ontvangen** wordt aangenomen dat elke scan van een streepjescode de ontvangst van een hoeveelheid van één eenheid vertegenwoordigt, tenzij een hoeveelheid is ingesloten in de streepjescode. U kunt in deze weergave herhaaldelijk streepjescodes scannen om een lijst samen te stellen met alle artikelen en hoeveelheden voor de ontvangst.
+Wanneer streepjescodes van artikelen worden gescand in de weergave **Nu ontvangen**, worden de artikelen gevalideerd op basis van het geselecteerde inkooporder- of overboekingsorderdocument om ervoor te zorgen dat elk gescand artikel overeenkomt met een geldig artikel in het document. In de weergave **Nu ontvangen** wordt aangenomen dat elke scan van een streepjescode de ontvangst van een hoeveelheid van één eenheid vertegenwoordigt, tenzij een hoeveelheid is ingesloten in de streepjescode. U kunt in deze weergave herhaaldelijk streepjescodes scannen om een lijst samen te stellen met alle artikelen en hoeveelheden voor de ontvangst.
 
 ### <a name="example-scenario"></a>Voorbeeldscenario
 
@@ -125,13 +123,13 @@ In een scenario waarbij de artikelhoeveelheid groot is, kan de gebruiker de hoev
 
 Hoewel de weergave **Nu ontvangen** is geoptimaliseerd voor het scannen van streepjescodes, kunnen gebruikers ook **Product ontvangen** op de appbalk selecteren en vervolgens de artikel-id of streepjescodegegevens invoeren via een dialoogvenster. Nadat het ingevoerde artikel is gevalideerd, wordt de gebruiker gevraagd de ontvangsthoeveelheid in te voeren.
 
-De weergave **Nu ontvangen** biedt gebruikers een gerichte manier om te zien welke producten zij ontvangen. U kunt ook de weergave **Volledige orderlijst** gebruiken. Deze weergave toont de volledige lijst met documentregels voor het geselecteerde inkooporder- of transferorderdocument. Gebruikers kunnen handmatig regels selecteren in de lijst en vervolgens in het **detailvenster** het veld **Ontvangsthoeveelheid** voor de geselecteerde regel bijwerken. In de weergave **Volledige orderlijst** kunnen gebruikers streepjescodes scannen of de functie **Product ontvangen** gebruiken om de artikel-id of streepjescode en gegevens over de ontvangen hoeveelheid in te voeren, zonder eerst de overeenkomende artikelregel in de lijst te hoeven selecteren.
+De weergave **Nu ontvangen** biedt gebruikers een gerichte manier om te zien welke producten zij ontvangen. U kunt ook de weergave **Volledige orderlijst** gebruiken. Deze weergave toont de volledige lijst met documentregels voor het geselecteerde inkooporder- of overboekingsorderdocument. Gebruikers kunnen handmatig regels selecteren in de lijst en vervolgens in het **detailvenster** het veld **Ontvangsthoeveelheid** voor de geselecteerde regel bijwerken. In de weergave **Volledige orderlijst** kunnen gebruikers streepjescodes scannen of de functie **Product ontvangen** gebruiken om de artikel-id of streepjescode en gegevens over de ontvangen hoeveelheid in te voeren, zonder eerst de overeenkomende artikelregel in de lijst te hoeven selecteren.
 
 ### <a name="over-receiving-validations"></a>Validaties van meerontvangsten
 
 Tijdens het ontvangstproces voor de documentregels worden validaties uitgevoerd. Deze omvatten validaties voor meerlevering. Als een gebruiker meer voorraad probeert te ontvangen dan via een inkooporder is besteld, maar de meerlevering niet is geconfigureerd of de ontvangen hoeveelheid hoger is dan de tolerantie voor meerlevering die is geconfigureerd voor de inkooporderregel, ontvangt de gebruiker een fout en kan hij of zij de extra hoeveelheid niet ontvangen.
 
-Meerontvangst is niet toegestaan voor transferorderdocumenten. Gebruikers ontvangen altijd fouten als ze meer proberen te ontvangen dan voor de transferorderregel is verzonden.
+Meerontvangst is niet toegestaan voor overboekingsorderdocumenten. Gebruikers ontvangen altijd fouten als ze meer proberen te ontvangen dan voor de overboekingsorderregel is verzonden.
 
 ### <a name="close-purchase-order-lines"></a>Inkooporderregels sluiten
 
@@ -197,25 +195,25 @@ Stel de parameter **Automatische validatie inschakelen** in op **Ja** in **Comme
 
 Wanneer u alle hoeveelheden voor **Nu ontvangen** voor producten hebt ingevoerd, moet u **Ontvangst voltooien** selecteren op de appbalk.
 
-Wanneer gebruikers een inkooporderontvangst voltooien, wordt er gevraagd om een waarde op te geven in het veld **Ontvangstbewijsnummer** als deze functionaliteit is geconfigureerd. Meestal is deze waarde gelijk aan de identificatie van de pakbon van de leverancier. De gegevens bij **Ontvangstbewijsnummer** worden opgeslagen in het productontvangstbonjournaal in Commerce Headquarters. Er worden geen ontvangstbewijsnummers vastgelegd voor transferorderontvangsten.
+Wanneer gebruikers een inkooporderontvangst voltooien, wordt er gevraagd om een waarde op te geven in het veld **Ontvangstbewijsnummer** als deze functionaliteit is geconfigureerd. Meestal is deze waarde gelijk aan de identificatie van de pakbon van de leverancier. De gegevens bij **Ontvangstbewijsnummer** worden opgeslagen in het productontvangstbonjournaal in Commerce Headquarters. Er worden geen ontvangstbewijsnummers vastgelegd voor overboekingsorderontvangsten.
 
 Bij het gebruik van asynchrone documentverwerking wordt de ontvangst ingediend via een asynchroon documentraamwerk. De tijd die nodig is om het document te boeken, is afhankelijk van de grootte van het document (het aantal regels) en het algemene verwerkingsverkeer dat op de server plaatsvindt. Dit proces neemt doorgaans slechts enkele seconden in beslag. Als het boeken van documenten mislukt, wordt de gebruiker hiervan op de hoogte gesteld via de documentlijst **Inkomende bewerking** op het tabblad Actief, waarbij de documentstatus wordt bijgewerkt naar **Verwerking mislukt**. De gebruiker kan vervolgens het mislukte document in POS selecteren om de foutmeldingen en de reden voor de fout te bekijken in het **detailvenster**. Een mislukt document blijft niet-geboekt en de gebruiker moet teruggaan naar de documentregels door **Orderdetails** te selecteren in POS. De gebruiker moet het document vervolgens bijwerken met correcties op basis van de fouten. Nadat een document is gecorrigeerd, kan de gebruiker het opnieuw proberen te verwerken door **Afhandeling voltooien** te selecteren op de appbalk.
 
-## <a name="create-an-inbound-transfer-order"></a>Een inkomende transferorder maken
+## <a name="create-an-inbound-transfer-order"></a>Een inkomende overboekingsorder maken
 
-Gebruikers kunnen vanuit POS nieuwe transferorderdocumenten maken. U kunt het proces starten door **Nieuw** te selecteren op de appbalk terwijl u zich in de hoofddocumentlijst **Inkomende bewerking** bevindt. U wordt vervolgens gevraagd een magazijn of winkel te selecteren bij **Verplaatsen van** vanwaaruit de voorraad zal worden geleverd aan uw winkellocatie. De waarden zijn beperkt tot de selectie die is gedefinieerd in de configuratie van de afhandelingsgroep van de winkel. In een inkomende transferaanvraag is uw huidige winkel altijd het magazijn bij **Verplaatsen naar** voor de transferorder. Die waarde kan niet worden gewijzigd.
+Gebruikers kunnen vanuit POS nieuwe overboekingsorderdocumenten maken. U kunt het proces starten door **Nieuw** te selecteren op de appbalk terwijl u zich in de hoofddocumentlijst **Inkomende bewerking** bevindt. U wordt vervolgens gevraagd een magazijn of winkel te selecteren bij **Verplaatsen van** vanwaaruit de voorraad zal worden geleverd aan uw winkellocatie. De waarden zijn beperkt tot de selectie die is gedefinieerd in de configuratie van de afhandelingsgroep van de winkel. In een inkomende transferaanvraag is uw huidige winkel altijd het magazijn bij **Verplaatsen naar** voor de overboekingsorder. Die waarde kan niet worden gewijzigd.
 
-U kunt naar behoefte waarden invoeren in de velden **Verzenddatum**, **Ontvangstdatum** en **Leveringsmethode**. U kunt ook een notitie toevoegen die samen met de koptekst van de transferorder wordt opgeslagen als bijlage bij het document in Commerce Headquarters.
+U kunt naar behoefte waarden invoeren in de velden **Verzenddatum**, **Ontvangstdatum** en **Leveringsmethode**. U kunt ook een notitie toevoegen die samen met de koptekst van de overboekingsorder wordt opgeslagen als bijlage bij het document in Commerce Headquarters.
 
-Nadat de kopregelgegevens zijn gemaakt, kunt u producten toevoegen aan de transferorder. Als u het toevoegen van artikelen en aangevraagde hoeveelheden wilt starten, selecteert u **Product toevoegen**. In het **detailvenster** kunt u ook een regelspecifieke notitie aan de journaalregels toevoegen. Deze notities worden opgeslagen als een regelbijlage.
+Nadat de kopregelgegevens zijn gemaakt, kunt u producten toevoegen aan de overboekingsorder. Als u het toevoegen van artikelen en aangevraagde hoeveelheden wilt starten, selecteert u **Product toevoegen**. In het **detailvenster** kunt u ook een regelspecifieke notitie aan de journaalregels toevoegen. Deze notities worden opgeslagen als een regelbijlage.
 
-Nadat regels in de inkomende transferorder zijn ingevoerd, moet u **Opslaan** selecteren om de wijzigingen in het document lokaal op te slaan of **Aanvraag indienen** om de orderdetails in te dienen bij Commerce Headquarters voor verdere verwerking. Als u **Opslaan** selecteert, wordt het conceptdocument opgeslagen in de kanaaldatabase en kan het uitgaande magazijn het document pas uitvoeren nadat het via **Aanvraag indienen** is verwerkt. Selecteer **Opslaan** alleen als u de aanvraag voor verwerking in Commerce Headquarters nog niet wilt doorvoeren.
+Nadat regels in de inkomende overboekingsorder zijn ingevoerd, moet u **Opslaan** selecteren om de wijzigingen in het document lokaal op te slaan of **Aanvraag indienen** om de orderdetails in te dienen bij Commerce Headquarters voor verdere verwerking. Als u **Opslaan** selecteert, wordt het conceptdocument opgeslagen in de kanaaldatabase en kan het uitgaande magazijn het document pas uitvoeren nadat het via **Aanvraag indienen** is verwerkt. Selecteer **Opslaan** alleen als u de aanvraag voor verwerking in Commerce Headquarters nog niet wilt doorvoeren.
 
 Als een document lokaal wordt opgeslagen, kunt u het vinden op het tabblad **Concepten** van de documentlijst **Inkomende bewerking**. Hoewel een document de status **Concept** heeft, kunt u het bewerken door **Bewerken** te selecteren. U kunt regels bijwerken, toevoegen of verwijderen als dat nodig is. U kunt ook het hele document verwijderen terwijl het de status **Concept** heeft door **Verwijderen** te selecteren op het tabblad **Concepten**.
 
-Nadat het conceptdocument is ingediend bij Commerce Headquarters, wordt het weergegeven op het tabblad **Actief** en heeft het de status **Aangevraagd**. Op dit punt kan het aangevraagde inkomende transferorderdocument niet meer worden bewerkt door gebruikers in de inkomende winkel of het inkomende magazijn. Alleen gebruikers in het uitgaande magazijn kunnen het document bewerken door **Uitgaande bewerking** te selecteren in de POS-toepassing. De bewerkingsvergrendeling zorgt ervoor dat er geen conflicten optreden omdat een inkomende aanvrager de transferorder wijzigt op het moment dat de uitgaande verzender bezig is en met het verzamelen en verzenden van de order. Als er wijzigingen vereist zijn vanuit de inkomende winkel of het inkomende magazijn nadat de transferorder is ingediend, moet contact met de uitgaande vervoerder worden opgenomen en moet worden gevraagd de wijzigingen in te voeren.
+Nadat het conceptdocument is ingediend bij Commerce Headquarters, wordt het weergegeven op het tabblad **Actief** en heeft het de status **Aangevraagd**. Op dit punt kan het aangevraagde inkomende overboekingsorderdocument niet meer worden bewerkt door gebruikers in de inkomende winkel of het inkomende magazijn. Alleen gebruikers in het uitgaande magazijn kunnen het document bewerken door **Uitgaande bewerking** te selecteren in de POS-toepassing. De bewerkingsvergrendeling zorgt ervoor dat er geen conflicten optreden omdat een inkomende aanvrager de overboekingsorder wijzigt op het moment dat de uitgaande verzender bezig is en met het verzamelen en verzenden van de order. Als er wijzigingen vereist zijn vanuit de inkomende winkel of het inkomende magazijn nadat de overboekingsorder is ingediend, moet contact met de uitgaande vervoerder worden opgenomen en moet worden gevraagd de wijzigingen in te voeren.
 
-Nadat het document de status **Aangevraagd** heeft gekregen, wordt het weergegeven op het tabblad **Actief**. Het kan echter nog niet worden ontvangen door de inkomende winkel of het inkomende magazijn. Nadat het uitgaande magazijn de transferorder geheel of gedeeltelijk heeft verzonden, kan de inkomende winkel of het inkomende magazijn ontvangsten in POS boeken. Wanneer de transferorderdocumenten worden verwerkt door de uitgaande zijde, wordt hun status bijgewerkt van **Aangevraagd** naar **Verzonden** of **Gedeeltelijk verzonden**. Nadat de documenten de status **Verzonden** of **Gedeeltelijk verzonden** hebben gekregen, kan de inkomende winkel of het inkomende magazijn ontvangsten met deze documenten boeken door middel van het ontvangstproces voor inkomende bewerking.
+Nadat het document de status **Aangevraagd** heeft gekregen, wordt het weergegeven op het tabblad **Actief**. Het kan echter nog niet worden ontvangen door de inkomende winkel of het inkomende magazijn. Nadat het uitgaande magazijn de overboekingsorder geheel of gedeeltelijk heeft verzonden, kan de inkomende winkel of het inkomende magazijn ontvangsten in POS boeken. Wanneer de overboekingsorderdocumenten worden verwerkt door de uitgaande zijde, wordt hun status bijgewerkt van **Aangevraagd** naar **Verzonden** of **Gedeeltelijk verzonden**. Nadat de documenten de status **Verzonden** of **Gedeeltelijk verzonden** hebben gekregen, kan de inkomende winkel of het inkomende magazijn ontvangsten met deze documenten boeken door middel van het ontvangstproces voor inkomende bewerking.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 

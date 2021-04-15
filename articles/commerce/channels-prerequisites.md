@@ -2,11 +2,9 @@
 title: Vereisten voor het instellen van kanalen
 description: Dit onderwerp geeft een overzicht van de vereisten voor het instellen van kanalen in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 270f751e860e56a03e20df720c088f275d0298e7
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 33fcead6c0b08db17f24b638376a23b8b6024a5b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477919"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800514"
 ---
 # <a name="channel-setup-prerequisites"></a>Vereisten voor het instellen van kanalen
 
