@@ -2,11 +2,9 @@
 title: Vooraf gedefinieerde productvarianten maken
 description: Deze procedure begeleidt u bij het maken van productvarianten voor een productmodel met behulp van de combinaties van productdimensies.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductMasterDimension, EcoResProductVariants, EcoResProductVariantSuggestions, EcoResProductVariantsPendingReleaseFormPart
 audience: Application User
@@ -15,61 +13,61 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c33bbc7fa0ef7c3ce9768dd3688f9d1d575a513e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8340d295ffd072c95d9b174507ef4203131c8165
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259861"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809345"
 ---
-# <a name="create-predefined-product-variants"></a><span data-ttu-id="d55b9-103">Vooraf gedefinieerde productvarianten maken</span><span class="sxs-lookup"><span data-stu-id="d55b9-103">Create predefined product variants</span></span>
+# <a name="create-predefined-product-variants"></a><span data-ttu-id="77132-103">Vooraf gedefinieerde productvarianten maken</span><span class="sxs-lookup"><span data-stu-id="77132-103">Create predefined product variants</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d55b9-104">Deze procedure begeleidt u bij het maken van productvarianten voor een productmodel met behulp van de combinaties van productdimensies.</span><span class="sxs-lookup"><span data-stu-id="d55b9-104">This procedure walks through creating product variants for a product master using the combinations of product dimensions.</span></span> <span data-ttu-id="d55b9-105">Het demobedrijf dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="d55b9-105">The demo company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="77132-104">Deze procedure begeleidt u bij het maken van productvarianten voor een productmodel met behulp van de combinaties van productdimensies.</span><span class="sxs-lookup"><span data-stu-id="77132-104">This procedure walks through creating product variants for a product master using the combinations of product dimensions.</span></span> <span data-ttu-id="77132-105">Het demobedrijf dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="77132-105">The demo company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-product-master"></a><span data-ttu-id="d55b9-106">Een productmodel maken</span><span class="sxs-lookup"><span data-stu-id="d55b9-106">Create a product master</span></span>
-1. <span data-ttu-id="d55b9-107">Ga naar Productgegevensbeheer > Producten > Productmodellen.</span><span class="sxs-lookup"><span data-stu-id="d55b9-107">Go to Product information management > Products > Product masters.</span></span>
-2. <span data-ttu-id="d55b9-108">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="d55b9-108">Click New.</span></span>
-3. <span data-ttu-id="d55b9-109">Typ een waarde in het veld Productnummer.</span><span class="sxs-lookup"><span data-stu-id="d55b9-109">In the Product number field, type a value.</span></span>
-    * <span data-ttu-id="d55b9-110">Handmatig invoeren van een productnummer is alleen verplicht als er geen nummerreeks is ingesteld voor het productnummerveld.</span><span class="sxs-lookup"><span data-stu-id="d55b9-110">Entering a product number manually is only required if no number sequence has been set for the product number field.</span></span> <span data-ttu-id="d55b9-111">Met andere woorden: sla de stap over als een nummerreeks voor het veld is ingesteld.</span><span class="sxs-lookup"><span data-stu-id="d55b9-111">In other words, skip the step if number sequence has been set for the field.</span></span>  
-4. <span data-ttu-id="d55b9-112">Typ een waarde in het veld Productnaam.</span><span class="sxs-lookup"><span data-stu-id="d55b9-112">In the Product name field, type a value.</span></span>
-5. <span data-ttu-id="d55b9-113">Typ of selecteer een waarde in het veld Productdimensiegroep.</span><span class="sxs-lookup"><span data-stu-id="d55b9-113">In the Product dimension group field, enter or select a value.</span></span>
-    * <span data-ttu-id="d55b9-114">Selecteer de productdimensiegroep SizeCol (Grootte en Kleur).</span><span class="sxs-lookup"><span data-stu-id="d55b9-114">Select the product dimension group SizeCol (Size and Color).</span></span>  
-6. <span data-ttu-id="d55b9-115">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="d55b9-115">Click OK.</span></span>
+## <a name="create-a-product-master"></a><span data-ttu-id="77132-106">Een productmodel maken</span><span class="sxs-lookup"><span data-stu-id="77132-106">Create a product master</span></span>
+1. <span data-ttu-id="77132-107">Ga naar Productgegevensbeheer > Producten > Productmodellen.</span><span class="sxs-lookup"><span data-stu-id="77132-107">Go to Product information management > Products > Product masters.</span></span>
+2. <span data-ttu-id="77132-108">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="77132-108">Click New.</span></span>
+3. <span data-ttu-id="77132-109">Typ een waarde in het veld Productnummer.</span><span class="sxs-lookup"><span data-stu-id="77132-109">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="77132-110">Handmatig invoeren van een productnummer is alleen verplicht als er geen nummerreeks is ingesteld voor het productnummerveld.</span><span class="sxs-lookup"><span data-stu-id="77132-110">Entering a product number manually is only required if no number sequence has been set for the product number field.</span></span> <span data-ttu-id="77132-111">Met andere woorden: sla de stap over als een nummerreeks voor het veld is ingesteld.</span><span class="sxs-lookup"><span data-stu-id="77132-111">In other words, skip the step if number sequence has been set for the field.</span></span>  
+4. <span data-ttu-id="77132-112">Typ een waarde in het veld Productnaam.</span><span class="sxs-lookup"><span data-stu-id="77132-112">In the Product name field, type a value.</span></span>
+5. <span data-ttu-id="77132-113">Typ of selecteer een waarde in het veld Productdimensiegroep.</span><span class="sxs-lookup"><span data-stu-id="77132-113">In the Product dimension group field, enter or select a value.</span></span>
+    * <span data-ttu-id="77132-114">Selecteer de productdimensiegroep SizeCol (Grootte en Kleur).</span><span class="sxs-lookup"><span data-stu-id="77132-114">Select the product dimension group SizeCol (Size and Color).</span></span>  
+6. <span data-ttu-id="77132-115">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="77132-115">Click OK.</span></span>
 
-## <a name="add-product-dimensions"></a><span data-ttu-id="d55b9-116">Productdimensies toevoegen</span><span class="sxs-lookup"><span data-stu-id="d55b9-116">Add product dimensions</span></span>
-1. <span data-ttu-id="d55b9-117">Klik op Productdimensies.</span><span class="sxs-lookup"><span data-stu-id="d55b9-117">Click Product dimensions.</span></span>
-    * <span data-ttu-id="d55b9-118">Dit voorbeeld toont hoe productdimensies handmatig worden ingevoerd.</span><span class="sxs-lookup"><span data-stu-id="d55b9-118">This example shows how to manually enter product dimensions.</span></span> <span data-ttu-id="d55b9-119">U kunt er ook voor kiezen een grootte, kleur of een stijlgroep te selecteren die de productdimensiewaarden bevat die u wilt gebruiken.</span><span class="sxs-lookup"><span data-stu-id="d55b9-119">You can also choose to select a size, color or style group that includes the product dimension values you want to use.</span></span>  
-2. <span data-ttu-id="d55b9-120">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="d55b9-120">Click New.</span></span>
-3. <span data-ttu-id="d55b9-121">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="d55b9-121">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="d55b9-122">Typ of selecteer een waarde in het veld Grootte.</span><span class="sxs-lookup"><span data-stu-id="d55b9-122">In the Size field, enter or select a value.</span></span>
-5. <span data-ttu-id="d55b9-123">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d55b9-123">In the Name field, type a value.</span></span>
-6. <span data-ttu-id="d55b9-124">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="d55b9-124">Click New.</span></span>
-7. <span data-ttu-id="d55b9-125">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="d55b9-125">In the list, mark the selected row.</span></span>
-8. <span data-ttu-id="d55b9-126">Typ of selecteer een waarde in het veld Grootte.</span><span class="sxs-lookup"><span data-stu-id="d55b9-126">In the Size field, enter or select a value.</span></span>
-9. <span data-ttu-id="d55b9-127">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d55b9-127">In the Name field, type a value.</span></span>
-10. <span data-ttu-id="d55b9-128">Klik op het tabblad Kleuren.</span><span class="sxs-lookup"><span data-stu-id="d55b9-128">Click the Colors tab.</span></span>
-11. <span data-ttu-id="d55b9-129">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="d55b9-129">Click New.</span></span>
-12. <span data-ttu-id="d55b9-130">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="d55b9-130">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="d55b9-131">Typ of selecteer een waarde in het veld Kleur.</span><span class="sxs-lookup"><span data-stu-id="d55b9-131">In the Color field, enter or select a value.</span></span>
-14. <span data-ttu-id="d55b9-132">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d55b9-132">In the Name field, type a value.</span></span>
-15. <span data-ttu-id="d55b9-133">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="d55b9-133">Click New.</span></span>
-16. <span data-ttu-id="d55b9-134">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="d55b9-134">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="d55b9-135">Typ of selecteer een waarde in het veld Kleur.</span><span class="sxs-lookup"><span data-stu-id="d55b9-135">In the Color field, enter or select a value.</span></span>
-18. <span data-ttu-id="d55b9-136">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="d55b9-136">In the Name field, type a value.</span></span>
-19. <span data-ttu-id="d55b9-137">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="d55b9-137">Click Save.</span></span>
-20. <span data-ttu-id="d55b9-138">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="d55b9-138">Close the page.</span></span>
+## <a name="add-product-dimensions"></a><span data-ttu-id="77132-116">Productdimensies toevoegen</span><span class="sxs-lookup"><span data-stu-id="77132-116">Add product dimensions</span></span>
+1. <span data-ttu-id="77132-117">Klik op Productdimensies.</span><span class="sxs-lookup"><span data-stu-id="77132-117">Click Product dimensions.</span></span>
+    * <span data-ttu-id="77132-118">Dit voorbeeld toont hoe productdimensies handmatig worden ingevoerd.</span><span class="sxs-lookup"><span data-stu-id="77132-118">This example shows how to manually enter product dimensions.</span></span> <span data-ttu-id="77132-119">U kunt er ook voor kiezen een grootte, kleur of een stijlgroep te selecteren die de productdimensiewaarden bevat die u wilt gebruiken.</span><span class="sxs-lookup"><span data-stu-id="77132-119">You can also choose to select a size, color or style group that includes the product dimension values you want to use.</span></span>  
+2. <span data-ttu-id="77132-120">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="77132-120">Click New.</span></span>
+3. <span data-ttu-id="77132-121">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="77132-121">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="77132-122">Typ of selecteer een waarde in het veld Grootte.</span><span class="sxs-lookup"><span data-stu-id="77132-122">In the Size field, enter or select a value.</span></span>
+5. <span data-ttu-id="77132-123">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="77132-123">In the Name field, type a value.</span></span>
+6. <span data-ttu-id="77132-124">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="77132-124">Click New.</span></span>
+7. <span data-ttu-id="77132-125">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="77132-125">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="77132-126">Typ of selecteer een waarde in het veld Grootte.</span><span class="sxs-lookup"><span data-stu-id="77132-126">In the Size field, enter or select a value.</span></span>
+9. <span data-ttu-id="77132-127">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="77132-127">In the Name field, type a value.</span></span>
+10. <span data-ttu-id="77132-128">Klik op het tabblad Kleuren.</span><span class="sxs-lookup"><span data-stu-id="77132-128">Click the Colors tab.</span></span>
+11. <span data-ttu-id="77132-129">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="77132-129">Click New.</span></span>
+12. <span data-ttu-id="77132-130">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="77132-130">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="77132-131">Typ of selecteer een waarde in het veld Kleur.</span><span class="sxs-lookup"><span data-stu-id="77132-131">In the Color field, enter or select a value.</span></span>
+14. <span data-ttu-id="77132-132">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="77132-132">In the Name field, type a value.</span></span>
+15. <span data-ttu-id="77132-133">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="77132-133">Click New.</span></span>
+16. <span data-ttu-id="77132-134">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="77132-134">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="77132-135">Typ of selecteer een waarde in het veld Kleur.</span><span class="sxs-lookup"><span data-stu-id="77132-135">In the Color field, enter or select a value.</span></span>
+18. <span data-ttu-id="77132-136">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="77132-136">In the Name field, type a value.</span></span>
+19. <span data-ttu-id="77132-137">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="77132-137">Click Save.</span></span>
+20. <span data-ttu-id="77132-138">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="77132-138">Close the page.</span></span>
 
-## <a name="generate-product-variants"></a><span data-ttu-id="d55b9-139">Productvarianten genereren</span><span class="sxs-lookup"><span data-stu-id="d55b9-139">Generate product variants</span></span>
-1. <span data-ttu-id="d55b9-140">Klik op Productvarianten.</span><span class="sxs-lookup"><span data-stu-id="d55b9-140">Click Product variants.</span></span>
-2. <span data-ttu-id="d55b9-141">Klik op Variantsuggesties.</span><span class="sxs-lookup"><span data-stu-id="d55b9-141">Click Variant suggestions.</span></span>
-3. <span data-ttu-id="d55b9-142">Klik op Alles selecteren.</span><span class="sxs-lookup"><span data-stu-id="d55b9-142">Click Select all.</span></span>
-    * <span data-ttu-id="d55b9-143">In dit voorbeeld worden alle mogelijke varianten geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="d55b9-143">In this example, all possible variants are selected.</span></span> <span data-ttu-id="d55b9-144">Als alleen een subset van de mogelijke productdimensiecombinaties wordt gebruikt om varianten te maken, kunt u de afzonderlijke items selecteren.</span><span class="sxs-lookup"><span data-stu-id="d55b9-144">If only a subset of the possible product dimension combinations will be used to create variants, you can select the individual entries.</span></span>  
-4. <span data-ttu-id="d55b9-145">Klik op Maken.</span><span class="sxs-lookup"><span data-stu-id="d55b9-145">Click Create.</span></span>
-    * <span data-ttu-id="d55b9-146">U kunt omschrijvingen voor al uw varianten genereren op basis van de combinatie van productdimensiewaarden.</span><span class="sxs-lookup"><span data-stu-id="d55b9-146">You can generate descriptions for all your variants based on the combination of product dimension values.</span></span> <span data-ttu-id="d55b9-147">De omschrijvingen zijn optioneel.</span><span class="sxs-lookup"><span data-stu-id="d55b9-147">The descriptions are optional.</span></span>  
-5. <span data-ttu-id="d55b9-148">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="d55b9-148">Click Save.</span></span>
+## <a name="generate-product-variants"></a><span data-ttu-id="77132-139">Productvarianten genereren</span><span class="sxs-lookup"><span data-stu-id="77132-139">Generate product variants</span></span>
+1. <span data-ttu-id="77132-140">Klik op Productvarianten.</span><span class="sxs-lookup"><span data-stu-id="77132-140">Click Product variants.</span></span>
+2. <span data-ttu-id="77132-141">Klik op Variantsuggesties.</span><span class="sxs-lookup"><span data-stu-id="77132-141">Click Variant suggestions.</span></span>
+3. <span data-ttu-id="77132-142">Klik op Alles selecteren.</span><span class="sxs-lookup"><span data-stu-id="77132-142">Click Select all.</span></span>
+    * <span data-ttu-id="77132-143">In dit voorbeeld worden alle mogelijke varianten geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="77132-143">In this example, all possible variants are selected.</span></span> <span data-ttu-id="77132-144">Als alleen een subset van de mogelijke productdimensiecombinaties wordt gebruikt om varianten te maken, kunt u de afzonderlijke items selecteren.</span><span class="sxs-lookup"><span data-stu-id="77132-144">If only a subset of the possible product dimension combinations will be used to create variants, you can select the individual entries.</span></span>  
+4. <span data-ttu-id="77132-145">Klik op Maken.</span><span class="sxs-lookup"><span data-stu-id="77132-145">Click Create.</span></span>
+    * <span data-ttu-id="77132-146">U kunt omschrijvingen voor al uw varianten genereren op basis van de combinatie van productdimensiewaarden.</span><span class="sxs-lookup"><span data-stu-id="77132-146">You can generate descriptions for all your variants based on the combination of product dimension values.</span></span> <span data-ttu-id="77132-147">De omschrijvingen zijn optioneel.</span><span class="sxs-lookup"><span data-stu-id="77132-147">The descriptions are optional.</span></span>  
+5. <span data-ttu-id="77132-148">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="77132-148">Click Save.</span></span>
 
 
 
