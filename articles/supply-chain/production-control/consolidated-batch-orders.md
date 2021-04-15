@@ -2,11 +2,9 @@
 title: Geconsolideerde batchorders
 description: In dit artikel wordt het concept van geconsolideerde batchorders beschreven.
 author: ShylaThompson
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PmfAddToConsOrder, PmfBulkItemConv, PmfBulkPackOnHand, PmfConsOrderListPage
 audience: Application User
@@ -18,29 +16,29 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed722ba0c79afa038f1af7b4491f3ff18b052067
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e8d7656889b69cfd1dcffb45b52eb649bce59629
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246376"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809225"
 ---
-# <a name="consolidated-batch-orders"></a><span data-ttu-id="1c86f-103">Geconsolideerde batchorders</span><span class="sxs-lookup"><span data-stu-id="1c86f-103">Consolidated batch orders</span></span>
+# <a name="consolidated-batch-orders"></a><span data-ttu-id="a087a-103">Geconsolideerde batchorders</span><span class="sxs-lookup"><span data-stu-id="a087a-103">Consolidated batch orders</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="1c86f-104">In dit artikel wordt het concept van geconsolideerde batchorders beschreven.</span><span class="sxs-lookup"><span data-stu-id="1c86f-104">This article describes the concept of consolidated batch orders.</span></span>
+<span data-ttu-id="a087a-104">In dit artikel wordt het concept van geconsolideerde batchorders beschreven.</span><span class="sxs-lookup"><span data-stu-id="a087a-104">This article describes the concept of consolidated batch orders.</span></span>
 
-<span data-ttu-id="1c86f-105">Een bulkartikel dat is geproduceerd wordt beschouwd als een bovenliggend artikel, terwijl een verpakt artikel wordt beschouwd als een onderliggend artikel.</span><span class="sxs-lookup"><span data-stu-id="1c86f-105">A bulk item that is produced is considered a parent item, whereas a packed item is considered a child item.</span></span> <span data-ttu-id="1c86f-106">De relatie tussen het bulkartikel en het verpakte artikel wordt uitgedrukt in een bulkartikelconversie.</span><span class="sxs-lookup"><span data-stu-id="1c86f-106">The relation between the bulk item and the packed item is expressed in a bulk item conversion.</span></span> <span data-ttu-id="1c86f-107">Deze bulkartikelconversie is gedefinieerd op het bulkartikel zelf.</span><span class="sxs-lookup"><span data-stu-id="1c86f-107">This bulk item conversion is defined on the bulk item itself.</span></span>  
+<span data-ttu-id="a087a-105">Een bulkartikel dat is geproduceerd wordt beschouwd als een bovenliggend artikel, terwijl een verpakt artikel wordt beschouwd als een onderliggend artikel.</span><span class="sxs-lookup"><span data-stu-id="a087a-105">A bulk item that is produced is considered a parent item, whereas a packed item is considered a child item.</span></span> <span data-ttu-id="a087a-106">De relatie tussen het bulkartikel en het verpakte artikel wordt uitgedrukt in een bulkartikelconversie.</span><span class="sxs-lookup"><span data-stu-id="a087a-106">The relation between the bulk item and the packed item is expressed in a bulk item conversion.</span></span> <span data-ttu-id="a087a-107">Deze bulkartikelconversie is gedefinieerd op het bulkartikel zelf.</span><span class="sxs-lookup"><span data-stu-id="a087a-107">This bulk item conversion is defined on the bulk item itself.</span></span>  
 
-<span data-ttu-id="1c86f-108">Verpakte artikelen kunnen verpakt zijn in containers van één of meerdere maten die als één eenheid worden beschouwd.</span><span class="sxs-lookup"><span data-stu-id="1c86f-108">Packed items can be packaged into containers of either a single size or multiple sizes that are considered one unit.</span></span> <span data-ttu-id="1c86f-109">Door de orders voor een bulkartikel te consolideren, kunt u alle gerelateerde batchorders in één weergave bekijken zodat u kunt bepalen of er nog werk moet worden voltooid.</span><span class="sxs-lookup"><span data-stu-id="1c86f-109">By consolidating the orders for a bulk item, you can see all the related batch orders in a single view that can help you determine any remaining work that must be completed.</span></span>  
+<span data-ttu-id="a087a-108">Verpakte artikelen kunnen verpakt zijn in containers van één of meerdere maten die als één eenheid worden beschouwd.</span><span class="sxs-lookup"><span data-stu-id="a087a-108">Packed items can be packaged into containers of either a single size or multiple sizes that are considered one unit.</span></span> <span data-ttu-id="a087a-109">Door de orders voor een bulkartikel te consolideren, kunt u alle gerelateerde batchorders in één weergave bekijken zodat u kunt bepalen of er nog werk moet worden voltooid.</span><span class="sxs-lookup"><span data-stu-id="a087a-109">By consolidating the orders for a bulk item, you can see all the related batch orders in a single view that can help you determine any remaining work that must be completed.</span></span>  
 
-<span data-ttu-id="1c86f-110">Een geconsolideerde batchorder kan elke combinatie van de volgende orders bevatten:</span><span class="sxs-lookup"><span data-stu-id="1c86f-110">A consolidated batch order can contain any combination of the following orders:</span></span>
+<span data-ttu-id="a087a-110">Een geconsolideerde batchorder kan elke combinatie van de volgende orders bevatten:</span><span class="sxs-lookup"><span data-stu-id="a087a-110">A consolidated batch order can contain any combination of the following orders:</span></span>
 
--   <span data-ttu-id="1c86f-111">Één bulkorder en meerdere verpakte orders</span><span class="sxs-lookup"><span data-stu-id="1c86f-111">A single bulk order and multiple packed orders</span></span>
--   <span data-ttu-id="1c86f-112">Meerdere bulkorders en meerdere verpakte orders</span><span class="sxs-lookup"><span data-stu-id="1c86f-112">Multiple bulk orders and multiple packed orders</span></span>
--   <span data-ttu-id="1c86f-113">Meerdere bulkorder en één verpakte order</span><span class="sxs-lookup"><span data-stu-id="1c86f-113">Multiple bulk orders and a single packed order</span></span>
--   <span data-ttu-id="1c86f-114">Alleen verpakte orders</span><span class="sxs-lookup"><span data-stu-id="1c86f-114">Only packed orders</span></span>
+-   <span data-ttu-id="a087a-111">Één bulkorder en meerdere verpakte orders</span><span class="sxs-lookup"><span data-stu-id="a087a-111">A single bulk order and multiple packed orders</span></span>
+-   <span data-ttu-id="a087a-112">Meerdere bulkorders en meerdere verpakte orders</span><span class="sxs-lookup"><span data-stu-id="a087a-112">Multiple bulk orders and multiple packed orders</span></span>
+-   <span data-ttu-id="a087a-113">Meerdere bulkorder en één verpakte order</span><span class="sxs-lookup"><span data-stu-id="a087a-113">Multiple bulk orders and a single packed order</span></span>
+-   <span data-ttu-id="a087a-114">Alleen verpakte orders</span><span class="sxs-lookup"><span data-stu-id="a087a-114">Only packed orders</span></span>
 
 
 
