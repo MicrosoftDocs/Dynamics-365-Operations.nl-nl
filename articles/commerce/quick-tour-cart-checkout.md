@@ -2,11 +2,9 @@
 title: Overzicht van pagina's met winkelwagen en kassa
 description: In dit onderwerp vindt u een overzicht van de pagina's met winkelwagen en kassa in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4f7c708aa7f1a858e78cdbda809b90b944606022
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d0b5a74a9880a5cabfdbc124f557998540c94a4d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244786"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792238"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Overzicht van pagina's met winkelwagen en kassa
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp vindt u een overzicht van de pagina's met winkelwagen en kassa in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Op de winkelwagenpagina van een e-commerce-website worden alle artikelen weergegeven die een klant aan de winkelwagen heeft toegevoegd. De winkelwagenpagina wordt gemaakt met de winkelwagenmodule. De winkelwagenmodule is een container die alle modules beheert die nodig zijn om artikelen in de winkelwagen te presenteren. De winkelwagenmodule kan ook andere modules gebruiken om het orderoverzicht en eventuele promotiecodes weer te geven die op de klantorder zijn toegepast.
 

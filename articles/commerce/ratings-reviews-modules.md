@@ -2,11 +2,9 @@
 title: Beoordelings- en recensiemodules
 description: In dit onderwerp worden de modules voor beoordelingen en recensies beschreven die worden gebruikt op de pagina's met productdetails in Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: 26658ebdbc70613baf30c344664133b9cf5911ca
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dee9a6a7e2a5278f069958ce00689b1beb9b1bd7
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243764"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792142"
 ---
 # <a name="ratings-and-reviews-modules"></a>Beoordelings- en recensiemodules
 

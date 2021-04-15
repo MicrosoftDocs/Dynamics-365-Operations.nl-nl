@@ -2,11 +2,9 @@
 title: Voorraadbeheer winkel
 description: In dit onderwerp worden de typen documenten beschreven waarmee u de voorraad van uw organisatie kunt beheren.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 43625d17e0e2827396edb69a1d1d73a8472294ea
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c4891f9dcb031f4cb8dfb91f3fe1a301aad9838e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252529"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793868"
 ---
 # <a name="commerce-inventory-management"></a>Commerce-voorraadbeheer
 
@@ -41,7 +39,7 @@ De Commerce-toepassingen op CSU ondersteunen niet de volgende traceringsdimensie
 
 - De POS-toepassing kan beperkte ondersteuning bieden voor de volgende dimensies. Het POS voert mogelijk automatisch enkele van de dimensies in voorraadtransacties in op basis van de configuratie van het magazijn of de winkel. Het POS ondersteunt de dimensies niet volledig op de manier waarop ze worden ondersteund als een verkooptransactie handmatig in Commerce Headquarters wordt ingevoerd. 
 
-- **Magazijnlocatie**: wanneer deze de nieuwe POS-bewerkingen [inkomende bewerking](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) en [uitgaande bewerking](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) gebruiken, kunnen gebruikers een magazijnvoorraadlocatie selecteren voor het ontvangen van artikelen of het verzenden van uitgaande transferorderartikelen. Als ze de verouderde bewerking **Verzamelen en ontvangen** gebruiken, is er beperkte ondersteuning voor locatiebeheer beschikbaar voor ontvangst en verzending van uitgaande overdrachten. Deze ondersteuning is alleen beschikbaar als de optie **Magazijnbeheerproces gebruiken** is ingeschakeld voor het artikel en het winkelmagazijn. Een voorraadlocatie kan momenteel niet worden gebruikt met de bewerking **Voorraadtelling** of de bewerking **Zoeken in voorraad**.
+- **Magazijnlocatie**: wanneer deze de nieuwe POS-bewerkingen [inkomende bewerking](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) en [uitgaande bewerking](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) gebruiken, kunnen gebruikers een magazijnvoorraadlocatie selecteren voor het ontvangen van artikelen of het verzenden van uitgaande overboekingsorderartikelen. Als ze de verouderde bewerking **Verzamelen en ontvangen** gebruiken, is er beperkte ondersteuning voor locatiebeheer beschikbaar voor ontvangst en verzending van uitgaande overdrachten. Deze ondersteuning is alleen beschikbaar als de optie **Magazijnbeheerproces gebruiken** is ingeschakeld voor het artikel en het winkelmagazijn. Een voorraadlocatie kan momenteel niet worden gebruikt met de bewerking **Voorraadtelling** of de bewerking **Zoeken in voorraad**.
 
 - **Nummerplaat**: nummerplaten zijn alleen van toepassing wanneer de optie **Magazijnbeheerproces gebruiken** is ingeschakeld voor het artikel en het winkelmagazijn. Als in het POS voorraad wordt ontvangen in een winkelmagazijn via de bewerking **Inkomende bewerking** of de bewerking **Verzameling en ontvangen** waarbij het magazijnbeheerproces is ingeschakeld, en als de locatie die is geselecteerd om het artikel in te ontvangen, aan een locatieprofiel is gekoppeld waarvoor een controle van de nummerplaat is vereist, past de POS-toepassing systematisch een nummerplaat toe op de ontvangstregel. POS-gebruikers kunnen deze nummerplaatgegevens niet wijzigen of beheren. Als volledig beheer van nummerplaten is vereist, adviseren we de winkel gebruik te maken van de [app voor magazijnbeheer](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/install-configure-warehousing-app) of de client in de back-office om de ontvangst van deze artikelen te beheren.
 
@@ -60,9 +58,9 @@ De Commerce-toepassingen op CSU ondersteunen niet de volgende traceringsdimensie
 
 Inkooporders worden gemaakt in Commerce Headquarters. Als een winkelmagazijn in de koptekst van de inkooporder of op inkooporderregels is opgenomen, kunnen de regels in de winkel worden ontvangen via de bewerking [Inkomende bewerking](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) in het POS. 
 
-## <a name="transfer-orders"></a>Transferorders
+## <a name="transfer-orders"></a>overboekingsorders
 
-Transferorders kunnen worden gemaakt in Commerce Headquarters of via de bewerking [Inkomende bewerking](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) of [Uitgaande bewerking](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) in het POS. Gebruik de POS-bewerking **Inkomende bewerking** om een aanvraag voor een transferorder te maken zodat de voorraad naar de winkel wordt verzonden vanuit een ander magazijn of een andere winkellocatie. Gebruik de POS-bewerking **Uitgaande bewerking** om een aanvraag voor een transferorder te maken voor verzending van voorraad vanuit de winkel naar een ander magazijn of een andere winkellocatie. Nadat een transferorder voor een winkel is gemaakt, kan die winkel de voorraadontvangst voor de transferorder beheren via de bewerking **Inkomende bewerking** in het POS. Als de winkelvoorraad naar een andere locatie wordt verzonden, wordt de bewerking **Uitgaande bewerking** in het POS gebruikt om het uitgaande verzendproces van die winkel te beheren.
+overboekingsorders kunnen worden gemaakt in Commerce Headquarters of via de bewerking [Inkomende bewerking](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) of [Uitgaande bewerking](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) in het POS. Gebruik de POS-bewerking **Inkomende bewerking** om een aanvraag voor een overboekingsorder te maken zodat de voorraad naar de winkel wordt verzonden vanuit een ander magazijn of een andere winkellocatie. Gebruik de POS-bewerking **Uitgaande bewerking** om een aanvraag voor een overboekingsorder te maken voor verzending van voorraad vanuit de winkel naar een ander magazijn of een andere winkellocatie. Nadat een overboekingsorder voor een winkel is gemaakt, kan die winkel de voorraadontvangst voor de overboekingsorder beheren via de bewerking **Inkomende bewerking** in het POS. Als de winkelvoorraad naar een andere locatie wordt verzonden, wordt de bewerking **Uitgaande bewerking** in het POS gebruikt om het uitgaande verzendproces van die winkel te beheren.
 
 ## <a name="stock-counts"></a>Voorraadtellingen
 
