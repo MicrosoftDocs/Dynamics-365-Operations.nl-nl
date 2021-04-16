@@ -2,11 +2,9 @@
 title: Maandelijkse journaalposten maken in een batch
 description: In dit onderwerp wordt uitgelegd hoe u journaalposten in een batch maakt om de efficiëntie te verhogen wanneer de maandelijkse leasekosten worden vastgelegd.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,25 +15,25 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6fd1815620095909e290fd03c404d964baa04a94
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 664001dd6e9da449dec65750da53d58bd27438b4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241557"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816023"
 ---
-# <a name="create-monthly-journal-entries-in-a-batch"></a><span data-ttu-id="14273-103">Maandelijkse journaalposten maken in een batch</span><span class="sxs-lookup"><span data-stu-id="14273-103">Create monthly journal entries in a batch</span></span>
+# <a name="create-monthly-journal-entries-in-a-batch"></a><span data-ttu-id="bb3be-103">Maandelijkse journaalposten maken in een batch</span><span class="sxs-lookup"><span data-stu-id="bb3be-103">Create monthly journal entries in a batch</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="14273-104">In dit onderwerp wordt uitgelegd hoe u journaalposten in een batch maakt om de efficiëntie te verhogen wanneer de maandelijkse leasekosten worden vastgelegd.</span><span class="sxs-lookup"><span data-stu-id="14273-104">This topic explains how to create journal entries in a batch to help increase efficiency when monthly lease expenses are recorded.</span></span> <span data-ttu-id="14273-105">Batchverwerking kan worden gebruikt om journaalposten te maken op basis van meerdere schema's.</span><span class="sxs-lookup"><span data-stu-id="14273-105">Batch processing can be used to create journal entries from multiple schedules.</span></span> <span data-ttu-id="14273-106">Deze journaalposten kunnen bijvoorbeeld leasebetalingen, afschrijvingen van verplichtingen, afschrijving van RoU-activa en administratieve kosten bevatten.</span><span class="sxs-lookup"><span data-stu-id="14273-106">These journal entries can include lease payments, liability amortization, right-of-use (ROU) asset amortization, and executory cost expenses.</span></span> <span data-ttu-id="14273-107">U kunt ook batchverwerking gebruiken om de eerste toerekening van meerdere leases tegelijk uit te voeren of om tegelijkertijd overgangscorrecties voor meerdere leases te maken.</span><span class="sxs-lookup"><span data-stu-id="14273-107">You can also use batch processing to do the initial recognition of multiple leases at the same time, or to create transition adjustments for multiple leases at the same time.</span></span>
+<span data-ttu-id="bb3be-104">In dit onderwerp wordt uitgelegd hoe u journaalposten in een batch maakt om de efficiëntie te verhogen wanneer de maandelijkse leasekosten worden vastgelegd.</span><span class="sxs-lookup"><span data-stu-id="bb3be-104">This topic explains how to create journal entries in a batch to help increase efficiency when monthly lease expenses are recorded.</span></span> <span data-ttu-id="bb3be-105">Batchverwerking kan worden gebruikt om journaalposten te maken op basis van meerdere schema's.</span><span class="sxs-lookup"><span data-stu-id="bb3be-105">Batch processing can be used to create journal entries from multiple schedules.</span></span> <span data-ttu-id="bb3be-106">Deze journaalposten kunnen bijvoorbeeld leasebetalingen, afschrijvingen van verplichtingen, afschrijving van RoU-activa en administratieve kosten bevatten.</span><span class="sxs-lookup"><span data-stu-id="bb3be-106">These journal entries can include lease payments, liability amortization, right-of-use (ROU) asset amortization, and executory cost expenses.</span></span> <span data-ttu-id="bb3be-107">U kunt ook batchverwerking gebruiken om de eerste toerekening van meerdere leases tegelijk uit te voeren of om tegelijkertijd overgangscorrecties voor meerdere leases te maken.</span><span class="sxs-lookup"><span data-stu-id="bb3be-107">You can also use batch processing to do the initial recognition of multiple leases at the same time, or to create transition adjustments for multiple leases at the same time.</span></span>
 
-<span data-ttu-id="14273-108">Als u een batchtaak wilt instellen of betalingsfacturen, afschrijving of rente voor meerdere leases wilt verwerken, gaat u naar **Activa leasen \> Periodiek \> Batchjournaal maken**.</span><span class="sxs-lookup"><span data-stu-id="14273-108">To set up a batch job, or to process payment invoices, depreciation, or interest for multiple leases, go to **Asset leasing \> Periodic \> Batch journal creation**.</span></span> <span data-ttu-id="14273-109">In het dialoogvenster dat wordt weergegeven, kunt u de planning selecteren waaruit de journaalposten moeten worden gemaakt.</span><span class="sxs-lookup"><span data-stu-id="14273-109">In the dialog box that appears, you can select the schedule that the journal entries should be created from.</span></span> <span data-ttu-id="14273-110">U kunt ook opgeven of het batchproces moet worden uitgevoerd voor specifieke entiteiten, leasegroepen of leaseboeken.</span><span class="sxs-lookup"><span data-stu-id="14273-110">You can also specify whether the batch process should be run for specific entities, lease groups, or lease books.</span></span>
+<span data-ttu-id="bb3be-108">Als u een batchtaak wilt instellen of betalingsfacturen, afschrijving of rente voor meerdere leases wilt verwerken, gaat u naar **Activa leasen \> Periodiek \> Batchjournaal maken**.</span><span class="sxs-lookup"><span data-stu-id="bb3be-108">To set up a batch job, or to process payment invoices, depreciation, or interest for multiple leases, go to **Asset leasing \> Periodic \> Batch journal creation**.</span></span> <span data-ttu-id="bb3be-109">In het dialoogvenster dat wordt weergegeven, kunt u de planning selecteren waaruit de journaalposten moeten worden gemaakt.</span><span class="sxs-lookup"><span data-stu-id="bb3be-109">In the dialog box that appears, you can select the schedule that the journal entries should be created from.</span></span> <span data-ttu-id="bb3be-110">U kunt ook opgeven of het batchproces moet worden uitgevoerd voor specifieke entiteiten, leasegroepen of leaseboeken.</span><span class="sxs-lookup"><span data-stu-id="bb3be-110">You can also specify whether the batch process should be run for specific entities, lease groups, or lease books.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="14273-111">Latere transacties, zoals het afschrijvingsschema verplichtingen, betalingen, afschrijving en onkosten, worden pas geboekt nadat de eerste toerekening voor bijbehorende leases is geboekt.</span><span class="sxs-lookup"><span data-stu-id="14273-111">Subsequent transactions, such as liability amortization schedules, payments, depreciation, and expenses, will be posted only after the initial recognition for corresponding leases is posted.</span></span>
+> <span data-ttu-id="bb3be-111">Latere transacties, zoals het afschrijvingsschema verplichtingen, betalingen, afschrijving en onkosten, worden pas geboekt nadat de eerste toerekening voor bijbehorende leases is geboekt.</span><span class="sxs-lookup"><span data-stu-id="bb3be-111">Subsequent transactions, such as liability amortization schedules, payments, depreciation, and expenses, will be posted only after the initial recognition for corresponding leases is posted.</span></span>
 >
-> <span data-ttu-id="14273-112">De journaalposten worden gemaakt, maar ze worden pas geboekt wanneer u de opdracht **Uitvoeren** selecteert.</span><span class="sxs-lookup"><span data-stu-id="14273-112">The journal entries are created, but they won't be posted until you select the **Run** command.</span></span>
+> <span data-ttu-id="bb3be-112">De journaalposten worden gemaakt, maar ze worden pas geboekt wanneer u de opdracht **Uitvoeren** selecteert.</span><span class="sxs-lookup"><span data-stu-id="bb3be-112">The journal entries are created, but they won't be posted until you select the **Run** command.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
