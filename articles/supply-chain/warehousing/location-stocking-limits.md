@@ -2,11 +2,9 @@
 title: Opslaglimieten van locatie
 description: Dit onderwerp beschrijft de functionaliteit voor opslaglimieten van locaties.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e336b54b894669f8a49091473314e1d7d2639e5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9fb3c35f2f2e0fd7c0e3afe132efb4c51f163a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216976"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831261"
 ---
 # <a name="location-stocking-limits"></a>Opslaglimieten van locatie
 
@@ -83,7 +81,7 @@ In dit voorbeeld voert u een ontvangststroom voor de inkooporder uit voor twee r
 
 U ontvangt eerst een hoeveelheid van *4* eenheden *PL* in grootte *S* en controleert de opslagregellocaties voor het werk dat is gemaakt. U ontvangt vervolgens een hoeveelheid van *4* eenheden *PL* in grootte *L* en controleert de opslagregellocaties voor het werk dat is gemaakt.
 
-1. In de magazijn-app meldt u zich aan met *24* als gebruikers-id en *1* als wachtwoord.
+1. In de mobiele app Magazijnbeheer meldt u zich aan met *24* als gebruikers-id en *1* als wachtwoord.
 1. Selecteer **Inkomend** \> **Inkoop ontvangen**.
 1. Ontvang *4* *PL* van artikelnummer *D0013* in grootte *S*.
 1. Controleer het wegzetwerk dat is gemaakt. Het volgende resultaat wordt weergegeven:

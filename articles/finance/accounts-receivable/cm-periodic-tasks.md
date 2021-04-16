@@ -2,11 +2,9 @@
 title: Periodieke taken voor kredietbeheer
 description: In dit onderwerp worden de periodieke taken beschreven die een noodzakelijk onderdeel zijn van het proces voor het beheren van kredietlimieten voor klanten.
 author: mikefalkner
-manager: AnnBe
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a034d563c12c4ba8b99e13b30ea2683555a01276
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5e5d1ad7b0b151d67bd96513e9ce0c82c172a601
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254482"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835287"
 ---
 # <a name="periodic-credit-management-tasks"></a>Periodieke taken voor kredietbeheer
 

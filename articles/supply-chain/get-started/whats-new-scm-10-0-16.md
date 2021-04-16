@@ -2,11 +2,9 @@
 title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.16 (februari 2021)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.16.
 author: kamaybac
-manager: annbe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f9eb0685fcefe5d0734dc01fa82971958c3952d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236070"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829975"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.16 (februari 2021)
 
@@ -35,11 +33,13 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-Deze versie bevat de volgende functies. Sommige van de functies in de lijst zijn nog steeds in preview, terwijl andere mogelijk al algemeen beschikbaar zijn. Volg de koppelingen naar het [releaseeplan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
+Deze versie bevat de volgende functies. Volg de koppelingen naar het [releaseeplan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
 
 - [Aanpasbare uitvoeringsinterface voor de werkvloer](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Zie [Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren](../production-control/production-floor-execution-setup.md) voor meer informatie.
 
 - [Invoegtoepassing Voorraadzichtbaarheid voor Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Zie [Invoegtoepassing Voorraadzichtbaarheid](../inventory/inventory-visibility.md) voor meer informatie
+
+- Geïntegreerde nummerreeks voor taak-id's<br> - Zie [Geïntegreerde nummerreeks voor taak-id's](../production-control/unified-job-ids.md) voor meer informatie.
 
 - [Nummerplaten op brondocumentregels valideren](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Zie [Overzicht van Magazijnconfiguratie](../warehousing/warehouse-configuration.md) voor meer informatie.
 
@@ -74,8 +74,8 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Z
 - [Problemen met reserveringen in magazijnbeheer oplossen](../warehousing/troubleshoot-warehouse-reservations.md)
 - [Problemen oplossen met verkooporders](../sales-marketing/troubleshooting-sales.md)
 - [Problemen oplossen met verkoopoffertes](../sales-marketing/troubleshooting-salesquotation.md)
-- [Problemen met de upgrade en migratie naar geavanceerd magazijnbeheer oplossen](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Verbindingsproblemen in de magazijnapp oplossen](../warehousing/troubleshoot-warehouse-app-connection.md)
+- [Problemen met upgrade en migratie naar geavanceerd magazijnbeheer oplossen](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
+- [Problemen oplossen met de verbinding met de mobiele app Magazijnbeheer](../warehousing/troubleshoot-warehouse-app-connection.md)
 - [Problemen met magazijnconfiguratie oplossen](../warehousing/troubleshoot-warehouse-configuration.md)
 - [Problemen met magazijnaanvulling oplossen](../warehousing/troubleshoot-warehouse-replenishment.md)
 - [Problemen met magazijninstellingen oplossen](../warehousing/troubleshoot-warehouse-setup.md)

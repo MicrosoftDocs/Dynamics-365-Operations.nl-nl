@@ -1,12 +1,10 @@
 ---
-title: Batchvrijgave van gedeeltelijk gereserveerde transferorders
-description: In dit onderwerp wordt beschreven hoe u de batchvrijgave van gedeeltelijk gereserveerde transferorders vanaf een mobiel apparaat instelt en toepast.
+title: Batchvrijgave van gedeeltelijk gereserveerde overboekingsorders
+description: In dit onderwerp wordt beschreven hoe u de batchvrijgave van gedeeltelijk gereserveerde overboekingsorders vanaf een mobiel apparaat instelt en toepast.
 author: pjacobse
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, WHSFulfillmentPolicy
 audience: Application User
@@ -16,25 +14,25 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b13e3525049c893a7193b549f5b4ba63b8841b87
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7802fe379941b915450b7c60c1187187038c95f2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233266"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837508"
 ---
-# <a name="batch-release-of-partially-reserved-transfer-orders"></a>Batchvrijgave van gedeeltelijk gereserveerde transferorders
+# <a name="batch-release-of-partially-reserved-transfer-orders"></a>Batchvrijgave van gedeeltelijk gereserveerde overboekingsorders
 
 [!include [banner](../includes/banner.md)]
 
-Met de functionaliteit voor batchvrijgave van gedeeltelijk gereserveerde transferorders kunt u transferorders met een batchtaak gedeeltelijk vrijgeven aan een magazijn.
+Met de functionaliteit voor batchvrijgave van gedeeltelijk gereserveerde overboekingsorders kunt u overboekingsorders met een batchtaak gedeeltelijk vrijgeven aan een magazijn.
 Omdat u een gedeeltelijke hoeveelheid kunt vrijgeven, hoeft u niet te wachten tot de hele orderhoeveelheid in het magazijn beschikbaar is voordat u een order vrijgeeft.
 
 De vrijgave van orders aan een magazijn is een geavanceerd magazijnbeheerproces. Dit proces omvat activiteiten, zoals orderverzamelen, verpakken en verzenden, die een magazijnmedewerker kan uitvoeren via een mobiel apparaat.
 
 ## <a name="where-it-applies"></a>Waar van toepassing
 
-Voor deze functionaliteit worden transferorders met een batchtaak vrijgegeven aan een magazijn. Deze functie is handig wanneer u niet voldoende voorraad in het magazijn hebt, maar nog steeds artikelen van het ene naar het andere magazijn wilt overbrengen.
+Voor deze functionaliteit worden overboekingsorders met een batchtaak vrijgegeven aan een magazijn. Deze functie is handig wanneer u niet voldoende voorraad in het magazijn hebt, maar nog steeds artikelen van het ene naar het andere magazijn wilt overbrengen.
 
 ## <a name="how-it-is-set-up"></a>De instelling
 
@@ -42,7 +40,7 @@ Voor deze functionaliteit worden transferorders met een batchtaak vrijgegeven aa
 
 Voordat een order gedeeltelijk kan worden vrijgegeven aan een magazijn in een batch, moet aan de uitvoeringscriteria worden voldaan. Deze uitvoeringscriteria worden bepaald door het uitvoeringsbeleid.
 
-Uitvoeringsbeleid voor transferorders en verkooporders wordt opgegeven op bedrijfsniveau. Afhankelijk van de instellingen van het uitvoeringsbeleid, wordt de vrijgave van orders in een batch goedgekeurd of afgekeurd. De orders worden vervolgens dienovereenkomstig verwerkt.
+Uitvoeringsbeleid voor overboekingsorders en verkooporders wordt opgegeven op bedrijfsniveau. Afhankelijk van de instellingen van het uitvoeringsbeleid, wordt de vrijgave van orders in een batch goedgekeurd of afgekeurd. De orders worden vervolgens dienovereenkomstig verwerkt.
 
 -   Als u uitvoeringsbeleid wilt maken voor transfer- en verkooporders, klikt u op **Magazijnbeheer** \> **Instellingen** \> **Vrijgave naar magazijn** \> **Uitvoeringsbeleid** en maakt u een uitvoeringsbeleid door een naam en een omschrijving in te voeren.
 
@@ -50,7 +48,7 @@ Uitvoeringsbeleid voor transferorders en verkooporders wordt opgegeven op bedrij
 
 ### <a name="set-the-fulfillment-policies-for-transfer-orders-and-sales-orders"></a>Het uitvoeringsbeleid opgeven voor transfer- en verkooporders
 
--   Als u het uitvoeringsbeleid voor transferorders wilt instellen, klikt u op **Voorraadbeheer** \> **Instellingen** \> **Parameters voor voorraad- en magazijnbeheer** \> **Transferorders** \> **Magazijnbeheer** en selecteert u een uitvoeringsbeleid voor transferorders.
+-   Als u het uitvoeringsbeleid voor overboekingsorders wilt instellen, klikt u op **Voorraadbeheer** \> **Instellingen** \> **Parameters voor voorraad- en magazijnbeheer** \> **overboekingsorders** \> **Magazijnbeheer** en selecteert u een uitvoeringsbeleid voor overboekingsorders.
 
 -   Als u het uitvoeringsbeleid voor verkooporders wilt instellen, klikt u op **Klanten** \> **Instellingen** \> **Parameters van module Klanten** \> **Magazijnbeheer** en selecteert u een uitvoeringsbeleid voor verkooporders.
 
@@ -60,7 +58,7 @@ Een batchtaak wordt gebruikt voor het vrijgeven van orders naar een magazijn in 
 
 De parameter **Hoeveelheid** bepaalt of de gehele hoeveelheid of de fysiek gereserveerde hoeveelheid in de batch moet worden vrijgegeven. De parameter **Vrijgave van gedeeltelijk vrijgegeven orders toestaan** bepaalt of orders in de batch moeten worden geaccepteerd of afgewezen als ze eerder gedeeltelijk zijn vrijgegeven.
 
--   Als u de parameters **Hoeveelheid** en **Vrijgave van gedeeltelijk vrijgegeven orders toestaan** wilt instellen voor transferorders, klikt u op **Magazijnbeheer** \> **Vrijgave naar magazijn** \> **Transferorders automatisch vrijgeven**.
+-   Als u de parameters **Hoeveelheid** en **Vrijgave van gedeeltelijk vrijgegeven orders toestaan** wilt instellen voor overboekingsorders, klikt u op **Magazijnbeheer** \> **Vrijgave naar magazijn** \> **overboekingsorders automatisch vrijgeven**.
 
 -   Als u de parameters **Hoeveelheid** en **Vrijgave van gedeeltelijk vrijgegeven orders toestaan** wilt instellen voor verkooporders, klikt u op **Magazijnbeheer** \> **Vrijgave naar magazijn** \> **Verkooporders automatisch vrijgeven**.
 

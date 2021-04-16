@@ -2,11 +2,9 @@
 title: Problemen met de upgrade en migratie naar geavanceerd magazijnbeheer oplossen
 description: In dit onderwerp wordt beschreven hoe u veelvoorkomende problemen kunt oplossen die kunnen optreden tijdens upgraden en migreren naar geavanceerd magazijnbeheer.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5bfee31ce27e919086f978fb3ff88ca61a65eba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208082"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826390"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>Problemen met de upgrade en migratie naar geavanceerd magazijnbeheer oplossen
 
@@ -34,11 +32,11 @@ In dit onderwerp wordt beschreven hoe u veelvoorkomende problemen kunt oplossen 
 
 ### <a name="issue-description"></a>Probleembeschrijving
 
-U ontvangt dit foutbericht in de magazijn-app, omdat zelfondertekende certificaten niet worden vertrouwd op Android 8+ in on-premises-omgevingen.
+U ontvangt dit foutbericht in de mobiele app Magazijnbeheer, omdat zelfondertekende certificaten niet worden vertrouwd op Android 8+ in on-premises-omgevingen.
 
 ### <a name="issue-resolution"></a>Probleemoplossing
 
-Gebruik een externe (openbare) certificeringsinstantie (CA). Er is een oplossing voor dit probleem beschikbaar in versie 1.9.0.0 van de magazijn-app. Zie [Verbindingsproblemen in de magazijnapp oplossen](troubleshoot-warehouse-app-connection.md) voor informatie over dit probleem en hoe u het kunt oplossen.
+Gebruik een externe (openbare) certificeringsinstantie (CA). Er is een oplossing voor dit probleem beschikbaar in versie 1.9.0.0 van de magazijn-app. Zie [Verbindingsproblemen in de mobiele app Magazijnbeheer oplossen](troubleshoot-warehouse-app-connection.md) voor informatie over dit probleem en hoe u het kunt oplossen.
 
 ## <a name="what-is-the-approved-process-for-moving-from-basic-warehousing-to-advanced-warehousing"></a>Wat is het goedgekeurde proces voor het verplaatsen van basaal magazijnbeheer naar geavanceerd magazijnbeheer?
 

@@ -2,13 +2,11 @@
 title: Inzicht in materiaaluitzonderingen
 description: In dit onderwerp wordt beschreven hoe u meer inzicht in uitzonderingen voor grondstoffen voor productieorders en batchorders kunt krijgen.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage, WHSProdWaveTableManageBOMPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 1705903
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 87f82733388501f2f902e7ebba8b547d9ae5ed16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246160"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831981"
 ---
 # <a name="visibility-into-material-exceptions"></a>Inzicht in materiaaluitzonderingen
 
@@ -59,7 +57,11 @@ Wanneer u de tegel selecteert, wordt de pagina **Vrijgave naar magazijn** geopen
 
 Wanneer een stuklijst- of formuleregel wordt vrijgegeven, wordt deze toegevoegd aan een nieuwe productiewave of een bestaande open wave, afhankelijk van de configuratie van de sjabloon voor de productiewave. Door middel van de configuratie van de wavesjabloon kunt u een wave ook zo instellen dat deze automatisch wordt verwerkt wanneer een stuklijst- of formuleregel wordt vrijgegeven. Wanneer de wave wordt verwerkt, wordt magazijnwerk voor het verzamelen van grondstoffen gegenereerd. Als de wavesjabloon zo is geconfigureerd dat golven ten tijde van de release niet worden verwerkt, behoudt de wave een niet-verwerkte status. Op de tegel **Niet-verwerkte waves die aandacht vereisen** wordt aangegeven hoeveel stuklijst- en formuleregels met een grondstofdatum gelijk aan of vóór de werkgebieddatum in niet-verwerkte waves zijn vrijgegeven aan het magazijn. De regels moeten ook worden gebruikt door een bewerkingsresource die voldoet aan het filter van het werkgebied.
 
-Wanneer de tegel wordt geselecteerd, wordt de pagina **Alle productie-waves** geopend. Deze pagina wordt gefilterd op het aantal open waves dat waveregels bevat uit vrijgegeven stuklijst- en formuleregels die voldoen aan de criteria voor de tegel. Via de pagina **Alle productie-waves** kunt u de wave handmatig verwerken.
+Wanneer de tegel wordt geselecteerd, wordt de pagina **Alle productie-waves** geopend. Deze pagina wordt gefilterd op het aantal open waves dat waveregels bevat uit vrijgegeven stuklijst- en formuleregels die voldoen aan de criteria voor de tegel.
+
+### <a name="manually-maintain-production-waves"></a>Handmatig productiewaves onderhouden
+
+Op de pagina **Alle productiewaves** kunt u knoppen op het tabblad **Wave** van het actievenster gebruiken om een golf handmatig te **verwerken** en vrij te **geven**. U ook de optie **Producties onderhouden** gebruiken om **Prod BOM Pool**-gegevens weer te geven en te onderhouden, die worden gebruikt om het waveproces af te handelen.
 
 ## <a name="open-warehouse-work-needing-attention"></a>Openstaand magazijnwerk dat aandacht vereist
 

@@ -2,11 +2,9 @@
 title: Herwaardering van vreemde valuta voor Grootboek
 description: 'Dit onderwerp bevat een overzicht van de volgende onderdelen van het herwaarderingsproces van vreemde valuta voor het grootboek: instellingen, het proces uitvoeren, berekening voor het proces en het omkeren van de herwaarderingstransacties, indien nodig.'
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7433c6753b612a9721917c036a8b36b7e3165177
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e2f24c60b3fb82532f50e58dde9a19f5fefb25d5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249258"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832917"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Herwaardering van vreemde valuta voor Grootboek
 
@@ -83,7 +81,7 @@ De hoofdrekening wordt geherwaardeerd op 31 januari.  De niet-gerealiseerde wins
 
 | Huidig saldo in transactievaluta | Huidig saldo in valuta voor boekhouding | Wisselkoers voor herwaardering | Nieuw bedrag in valuta voor boekhouding | Niet-gerealiseerde winst/verlies    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| EUR 500                                     | USD 1000                                   | 166.6667                         | EUR 833,33 (500 x 1,666667)        | 166,67 verlies (833,33 – 1000) |
+| EUR 500                                     | USD 1000                                   | 166.6667                         | USD 833,33 (500 x 1,666667)        | 166,67 verlies (833,33 – 1000) |
 
 De volgende vermelding in de boekhouding wordt gemaakt.
 

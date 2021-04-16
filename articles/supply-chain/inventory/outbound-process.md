@@ -2,11 +2,9 @@
 title: Overzicht van Uitgaand proces
 description: Dit onderwerp biedt een overzicht van het uitgaande proces in Voorraadbeheer.
 author: perlynne
-manager: tfehr
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 24406f107d796891c315b39d3eff4351ae0aa5be
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e9f9da7d6e3ede9816757fb57f0b802ce4d41360
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209678"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825934"
 ---
 # <a name="outbound-process-overview"></a>Overzicht van Uitgaand proces
 
@@ -33,9 +31,9 @@ Dit onderwerp biedt een overzicht van het uitgaande proces in Voorraadbeheer.
 
 ## <a name="output-orders"></a>Uitvoerorders
 
-Uitvoerorders worden gebruikt om verkooporderregels en transferorderregels te koppelen aan de processen voor uitgaande orderverzamelingen waarvoor wordt gebruikgemaakt van orderverzamellijsten.
+Uitvoerorders worden gebruikt om verkooporderregels en overboekingsorderregels te koppelen aan de processen voor uitgaande orderverzamelingen waarvoor wordt gebruikgemaakt van orderverzamellijsten.
 
-Wanneer orderverzamellijsten worden gegenereerd op basis van verkooporders of transferorders, worden er automatisch uitvoerorders en verzendingen gemaakt. Een orderverzamellijst heeft een één-op-één-relatie met een zending. De transferorderzending of pakbon van de verkooporder kan worden verwerkt vanuit de zending. 
+Wanneer orderverzamellijsten worden gegenereerd op basis van verkooporders of overboekingsorders, worden er automatisch uitvoerorders en verzendingen gemaakt. Een orderverzamellijst heeft een één-op-één-relatie met een zending. De overboekingsorderzending of pakbon van de verkooporder kan worden verwerkt vanuit de zending. 
 
 In het volgende diagram wordt een overzicht gegeven van het proces voor uitgaande orders. 
 
@@ -43,7 +41,7 @@ In het volgende diagram wordt een overzicht gegeven van het proces voor uitgaand
 
 U kunt uitgaande regels instellen om te bepalen hoe het uitgaande proces moet worden uitgevoerd. U kunt het verzendproces aansturen door middel van deze regels. U kunt de regels in het bijzonder gebruiken om te bepalen tijdens welke fase van het proces een zending kan worden verzonden. De volgende instellingen bepalen hoe de uitgaande processen worden verwerkt.
 
-## <a name="picking-route-status-for-sales-and-transfer-orders"></a>Status van de orderverzamelroute voor verkoop- en transferorders 
+## <a name="picking-route-status-for-sales-and-transfer-orders"></a>Status van de orderverzamelroute voor verkoop- en overboekingsorders 
 
 Ga naar **Klant** \> **Instellingen** \> **Parameters van module Klanten** en selecteer op het tabblad **Updates** een waarde in het veld **Status orderverzamelroute**.
 
@@ -51,9 +49,9 @@ Ga naar **Klant** \> **Instellingen** \> **Parameters van module Klanten** en se
 
 Als het veld **Status orderverzamelroute** is ingesteld op **Voltooid**, wordt het orderverzamelproces automatisch uitgevoerd als onderdeel van het proces voor het genereren van orderverzamellijsten. Als het veld is ingesteld op **Geactiveerd**, moeten de regels van de orderverzamellijst handmatig worden bijgewerkt.
 
-Dezelfde instellingen zijn van toepassing op transferorders. Ga naar **Voorraadbeheer** \> **Instellingen** \> **Parameters voor voorraad- en magazijnbeheer** en selecteer op het tabblad **Transport** een waarde in het veld **Status orderverzamelroute**.
+Dezelfde instellingen zijn van toepassing op overboekingsorders. Ga naar **Voorraadbeheer** \> **Instellingen** \> **Parameters voor voorraad- en magazijnbeheer** en selecteer op het tabblad **Transport** een waarde in het veld **Status orderverzamelroute**.
 
-[![Veld Status orderverzamelroute voor transferorders](./media/picking-route-status-transfer-order.png)](./media/picking-route-status-transfer-order.png)
+[![Veld Status orderverzamelroute voor overboekingsorders](./media/picking-route-status-transfer-order.png)](./media/picking-route-status-transfer-order.png)
 
 ## <a name="end-output-inventory-orders"></a>Uitvoerorders voor voorraad beëindigen
 

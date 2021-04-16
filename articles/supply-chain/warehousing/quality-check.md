@@ -2,11 +2,9 @@
 title: Kwaliteitscontrole
 description: Dit onderwerp bevat informatie over de functie voor kwaliteitscontrole. Met deze functie kunnen magazijnmedewerkers snel controleren op kwaliteit terwijl zij artikelen ontvangen naar het inkomend docking-gebied.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 31afcfcb9d8dbb91f4ea4e3e7a7282c2a87328d4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228460"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838221"
 ---
 # <a name="quality-check"></a>Kwaliteitscontrole
 
@@ -301,7 +299,7 @@ Nadat de inkooporder is gemaakt, kunt u deze ontvangen met de menuopdracht **IO-
 
 #### <a name="receive-pallet-1"></a>Pallet 1 ontvangen
 
-1. Meld u aan bij de magazijnapp als een gebruiker voor magazijn *51*. (Geef *51* op als gebruikers-id en *1* als wachtwoord.)
+1. Meld u aan bij de mobiele app Magazijnbeheer als een gebruiker voor magazijn *51*. (Geef *51* op als gebruikers-id en *1* als wachtwoord.)
 1. Ga naar **Inkomend \> IO-regel ontvangst**.
 1. Voer in het veld **Inkoopordernummer** het inkoopordernummer in.
 1. Bevestig het inkoopordernummer.

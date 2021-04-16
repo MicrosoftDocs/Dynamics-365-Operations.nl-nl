@@ -2,11 +2,9 @@
 title: Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.12 (augustus 2020)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.12.
 author: kamaybac
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 8fdd831bd774f65e1737d5dec3046fa5ea978390
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0513dffb6395eaf00f4c71df91938a5db6486daf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258966"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832197"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.12 (augustus 2020)
 
@@ -47,11 +45,11 @@ Deze versie bevat de volgende functies. De functietitels verwijzen naar extra in
 
 - [Kerninzichten voor IoT-intelligentie](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Zie voor meer informatie [Startpagina van IoT-intelligentie](../iot/iot-intelligence-home-page.md).
 
-- [Verbeteringen voor nummerplaat ontvangen voor de mobiele magazijnapp (vervolg)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Zie voor meer informatie [Nummerplaat ontvangen via de magazijnapp](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Verbeteringen voor nummerplaat ontvangen voor de mobiele magazijnapp (vervolg)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Zie voor meer informatie [Nummerplaat ontvangen via de mobiele app Magazijnbeheer](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Grootschalige implementatie voor Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Zie voor meer informatie [Overzicht van installatie en configuratie van de magazijnapp](../warehousing/install-configure-warehousing-app.md).
+- [Grootschalige implementatie voor Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Zie [De mobiele app Magazijnbeheer installeren en verbinden](../warehousing/install-configure-warehouse-management-app.md) voor meer informatie.
 
-- [Maximale uitvoeringstijd voor het opschonen van de aanwezige vermeldingen voor magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Zie voor meer informatie [Opschoningstaak van voorhanden voorraadgegevens voor magazijnbeheer](../warehousing/onhand-cleanup.md).
+- [Maximale uitvoeringstijd voor het opschonen van de vermeldingen van voorhanden voorraad voor magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Zie voor meer informatie [Opschoningstaak van voorhanden voorraadgegevens voor magazijnbeheer](../warehousing/onhand-cleanup.md).
 
 - [Ondersteuning van Planningsoptimalisatie voor inkoophandelsovereenkomsten](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/planning-optimization-support-purchase-trade-agreements)<br> - Zie voor meer informatie [Hoofdplanning met inkoophandelsovereenkomsten](../master-planning/planning-optimization/purchase-trade-agreement.md).
 

@@ -2,7 +2,6 @@
 title: Over-/ondertransacties
 description: Dit onderwerp bevat informatie die u zal helpen bij het instellen van beleidsregels voor over-/ondertransacties, zodat het systeem kan bepalen hoe moet worden omgegaan met de verwerking van te veel of te weinig goederen wanneer deze worden ontvangen.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9027d5dc73ebd78a65429f7bc63a1ebf8ef60dac
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: c7e75e39877b36e482dd4aaa5cc7c8f84d57d81b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500977"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833732"
 ---
 # <a name="overunder-transactions"></a>Over-/ondertransacties
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Wanneer de orders in een reis worden verwerkt, verwacht het systeem dat de artikelhoeveelheid die is ontvangen in het uiteindelijke doelmagazijn voor verbruik overeenkomt met de hoeveelheid die is opgegeven op de inkooporderregels die aan de reis zijn gekoppeld. Aangezien de exacte hoeveelheid op de inkooporderregels echter niet altijd in het magazijn wordt ontvangen, definieert de module **Francoprijzen** een reeks regels die worden gebruikt voor het verwerken van te veel en te weinig ontvangen goederen. Deze regels zijn vooral belangrijk omdat de oorspronkelijke inkooporder is gefactureerd en niet meer kan worden gewijzigd. Door beleidsregels voor over-/ondertransacties in te stellen, zorgt u dat het systeem kan bepalen hoe moet worden omgegaan met de verwerking van te veel of te weinig goederen wanneer deze worden ontvangen. U kunt ook handmatig over- en ondervoorraad beheren met de pagina **Over-/ondertransacties**.
 
@@ -101,7 +99,7 @@ Als u over-/ondertransacties wilt weergeven, selecteert u het tabblad **Overzich
 | Reis | De reis waar de inkoopregel aan was gekoppeld. |
 | Verzendcontainer | De container waar de inkoopregel aan was gekoppeld. |
 | Ontvangstjournaal | Het ontvangstjournaal waaruit de over-/onderregel is gegenereerd. |
-| Verwijzing | Een verwijzing naar de inkooporder of de transferorder die aan de over-/ondertransactie is gekoppeld. |
+| Verwijzing | Een verwijzing naar de inkooporder of de overboekingsorder die aan de over-/ondertransactie is gekoppeld. |
 | Nummer | De inkooporder waarnaar in de over-/ondertransactie wordt verwezen. |
 | Leverancier | De leverancier waar de over- of onderinformatie betrekking op heeft. |
 | Nummer van goederen in transit | Het nummer van de goederen in transit, indien van toepassing. |
@@ -140,5 +138,5 @@ Het actievenster op de pagina **Over-/onder transacties** bevat de volgende opdr
 
 - **Maken \> Mutatie**: mutatiejournaal voor de geselecteerde transactie maken en boeken. Voor ondertransacties wordt automatisch een mutatiejournaal gemaakt en geboekt voor het verschil tussen de verwachte en de werkelijk ontvangen hoeveelheid. Selecteer deze opdracht voor overtransacties als u wilt dat de leverancier het kostenverschil realiseert.
 - **Maken \> Inkooporder**: een inkooporder maken voor het verschil tussen de verwachte en de werkelijk ontvangen hoeveelheid van de geselecteerde transactie. Selecteer deze opdracht voor overtransacties als uw organisatie het kostenverschil zal realiseren.
-- **Maken \> Transfer naar bestemming**: deze opdracht geldt alleen voor transferorders. Selecteer deze opdracht als u de over- of onderhoeveelheid naar het doelmagazijn wilt over brengen.
-- **Maken \> Transfer naar oorsprong**: deze opdracht geldt alleen voor transferorders. Selecteer deze opdracht als u de over- of onderhoeveelheid naar het magazijn van herkomst wilt over brengen.
+- **Maken \> Transfer naar bestemming**: deze opdracht geldt alleen voor overboekingsorders. Selecteer deze opdracht als u de over- of onderhoeveelheid naar het doelmagazijn wilt over brengen.
+- **Maken \> Transfer naar oorsprong**: deze opdracht geldt alleen voor overboekingsorders. Selecteer deze opdracht als u de over- of onderhoeveelheid naar het magazijn van herkomst wilt over brengen.

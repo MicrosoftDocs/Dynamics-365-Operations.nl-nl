@@ -2,11 +2,9 @@
 title: Problemen met het instellen van cashflowprognoses oplossen
 description: Dit onderwerp bevat beantwoorden op vragen die u kunt hebben wanneer u cashflowprognoses configureert. Hierin komen veelgestelde vragen (FAQ) over de opzet voor cashflow, updates van cashflow en cashflow Power BI aan de orde.
 author: panolte
-manager: AnnBe
-ms.date: 12/03/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2020-12-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1cde9321259753bd0cacab3706c7f8455598ff3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7b4760d7a0d0c14e2df8df20c2f81ec41e077cc0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232484"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827309"
 ---
 # <a name="troubleshoot-cash-flow-forecasting-setup"></a>Problemen met het instellen van cashflowprognoses oplossen
 
@@ -47,11 +45,19 @@ Er moeten verschillende stappen worden uitgevoerd voordat cashflowprognoses in P
 
 ## <a name="why-did-cash-flow-power-bi-work-in-previous-versions-but-is-now-blank"></a>Waarom werkt cashflow Power BI in vorige versies, maar is nu leeg?
 
-Controleer of de metingen 'Cashflowmeting V2' en 'LedgerCovLiquidityMeasurement' van Entiteitopslag zijn geconfigureerd. Zie [Power BI-integratie met Entiteitopslag](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md) voor more informatie over hoe u kunt werken met Entiteitopslag. Controleer of alle vereiste stappen voor het weergeven van Power BI-inhoud zijn uitgevoerd. Zie [Power BI-inhoud Overzicht van contant geld](Cash-Overview-Power-BI-content.md).
+Controleer of de metingen 'Cashflowmeting V2' en 'LedgerCovLiquidityMeasurement' van Entiteitopslag zijn geconfigureerd. Meer informatie over het werken met gegevens in Entiteitopslag vindt u in het onderwerp [Power BI-integratie met Entiteitopslag](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md). Controleer of alle benodigde stappen voor het weergeven van Power BI-inhoud zijn voltooid. Zie [Power BI-inhoud Overzicht van contant geld](Cash-Overview-Power-BI-content.md).
 
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>Zijn de entiteiten van de Entiteitopslag vernieuwd?
 
 U moet uw entiteiten periodiek vernieuwen om er zeker van te zijn dat de gegevens actueel en nauwkeurig zijn. Als u een specifieke entiteit handmatig wilt vernieuwen, gaat u naar **Systeembeheer \> Setup \> Entiteitopslag**, selecteert u de entiteit en u vervolgens **Vernieuwen**. De gegevens kunnen ook automatisch worden bijgewerkt. Stel op de pagina **Entiteitopslag** de optie **Automatisch vernieuwen** in op **Ja**.
 
+## <a name="which-calculation-method-should-be-used-when-calculating-cash-flow-forecasts"></a>Welke berekeningsmethode moet worden gebruikt bij het berekenen van cashflowprognoses?
+
+De berekeningsmethode Cashflowprognose biedt twee belangrijke selectieopties. Met de optie **Nieuw** worden cashflowprognoses berekend voor nieuwe documenten en documenten die zijn gewijzigd sinds de laatste batchverwerking is uitgevoerd. Deze optie wordt meestal sneller uitgevoerd omdat een kleinere subset van documenten wordt verwerkt. Met de optie **Totaal** worden cashflowprognoses voor elk document in het systeem opnieuw berekend. Deze optie kost meer tijd omdat er meer werk te voltooien is.
+
+### <a name="how-do-i-improve-the-performance-of-the-cash-flow-forecasting-recurring-batch-job"></a>Hoe verbeter ik de prestaties van de terugkerende batchtaak voor cashflowprognoses?
+
+We raden u aan uw cashflowprognose eenmaal per dag uit te voeren tijdens daluren met behulp van de berekeningsmethode **Nieuw**. We raden u aan dit zes dagen per week te doen. Voer vervolgens eenmaal per week een cashflowprognose met de berekeningsmethode **Totaal** uit op de dag met de minste hoeveelheid activiteit.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
