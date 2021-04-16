@@ -2,11 +2,9 @@
 title: Zendingen automatisch bijwerken
 description: Dit onderwerp biedt een overzicht van de functionaliteit waarmee zendingen automatisch worden bijgewerkt.
 author: josaw1
-manager: tfehr
 ms.date: 11/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTemplateTable,SalesTableListPage,SalesTable,WHSWaveTableListPage
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f10c5c5dd1d287b51a6dda482614d6520bb3a1f9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: efa672bc264a39a4356e1581a6401cb331522c17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233146"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810528"
 ---
 # <a name="shipment-auto-updates"></a>Zendingen automatisch bijwerken
 
@@ -32,21 +30,21 @@ De functie voor het automatisch bijwerken van zendingen werkt automatisch de hoe
 
 Wanneer de functie voor het automatisch bijwerken van zendingen niet wordt gebruikt, worden alleen afnames van de hoeveelheid automatisch doorgestuurd totdat het magazijnwerk is gemaakt. Gebruikers moeten regels handmatig bijwerken of verwijderen en ze moeten vervolgens de regels opnieuw vrijgeven als er orderhoeveelheden worden verhoogd of als er nieuwe orderregels worden toegevoegd. Met de functie voor het automatisch bijwerken van zendingen kunnen bedrijven naadloos updates aan het magazijn doorgeven zonder bang te hoeven zijn dat bijbehorende verzendingen en ladingen niet overeenkomen met de orderregelupdates.
 
-De functie voor het automatisch bijwerken van zendingen is van toepassing op zowel verkooporderregels als transferorderregels en wordt ingeschakeld voor een specifiek magazijn. Daarom kunnen bedrijven een ander beleid voor het automatisch bijwerken van zendingen toepassen voor een magazijn, als dat nodig is. Het beleid voor het automatisch bijwerken van de hoeveelheid wordt standaard toegepast voor alle magazijnen die gebruikmaken van magazijnbeheerprocessen. Wanneer deze standaardbeleidsinstelling wordt gebruikt, worden alleen afnames van de hoeveelheid automatisch doorgegeven aan een zending en lading totdat het magazijnwerk wordt gemaakt. Dit gedrag is hetzelfde als werd gebruikt voordat de functie voor automatische zendingupdates werd geïntroduceerd.
+De functie voor het automatisch bijwerken van zendingen is van toepassing op zowel verkooporderregels als overboekingsorderregels en wordt ingeschakeld voor een specifiek magazijn. Daarom kunnen bedrijven een ander beleid voor het automatisch bijwerken van zendingen toepassen voor een magazijn, als dat nodig is. Het beleid voor het automatisch bijwerken van de hoeveelheid wordt standaard toegepast voor alle magazijnen die gebruikmaken van magazijnbeheerprocessen. Wanneer deze standaardbeleidsinstelling wordt gebruikt, worden alleen afnames van de hoeveelheid automatisch doorgegeven aan een zending en lading totdat het magazijnwerk wordt gemaakt. Dit gedrag is hetzelfde als werd gebruikt voordat de functie voor automatische zendingupdates werd geïntroduceerd.
 
 ## <a name="main-elements-of-the-functionality"></a>Hoofdelementen van de functionaliteit
 
-De functie voor het automatisch bijwerken van zendingen is met name afhankelijk van de verzendstatus om te bepalen of de hoeveelheid op een laadregel moet worden gewijzigd wanneer een wijziging wordt aangebracht op een verkooporderregel of transferorderregel. De functie werk ook primair met de status van de zending om te bepalen wanneer een nieuwe laadregel automatisch moet worden toegevoegd aan een bestaande lading. Wanneer de status van de zending **In wave** of hoger is, vindt er geen automatische update plaats.
+De functie voor het automatisch bijwerken van zendingen is met name afhankelijk van de verzendstatus om te bepalen of de hoeveelheid op een laadregel moet worden gewijzigd wanneer een wijziging wordt aangebracht op een verkooporderregel of overboekingsorderregel. De functie werk ook primair met de status van de zending om te bepalen wanneer een nieuwe laadregel automatisch moet worden toegevoegd aan een bestaande lading. Wanneer de status van de zending **In wave** of hoger is, vindt er geen automatische update plaats.
 
-Er wordt ook rekening gehouden met de wavestatus voor automatische updates. Wanneer de wave die betrekking heeft op de ladingsregel, de status **Geblokkeerd**, **In uitvoering**, **Vrijgegeven**, **Orderverzameld** of **Verzonden** heeft, en een gebruiker de hoeveelheid op een ladingsregel probeert te verminderen ( via een vermindering van de hoeveelheid op de verkooporder regel of de transferorderregel), wordt het volgende foutbericht weer gegeven: "Reserveringen kunnen niet worden verwijderd omdat er werk is gemaakt dat afhankelijk is van de reserveringen". Ook wanneer de wave een van de eerder vermelde statussen heeft en een gebruiker de hoeveelheid van de ladingsregel indirect probeert te vergroten door de hoeveelheid op de verkooporderregel of de transferorderregel te verhogen, wordt de hoeveelheid op de ladingsregel niet automatisch verhoogd. In dit geval moet de ladingsregel handmatig worden bijgewerkt.
+Er wordt ook rekening gehouden met de wavestatus voor automatische updates. Wanneer de wave die betrekking heeft op de ladingsregel, de status **Geblokkeerd**, **In uitvoering**, **Vrijgegeven**, **Orderverzameld** of **Verzonden** heeft, en een gebruiker de hoeveelheid op een ladingsregel probeert te verminderen ( via een vermindering van de hoeveelheid op de verkooporder regel of de overboekingsorderregel), wordt het volgende foutbericht weer gegeven: "Reserveringen kunnen niet worden verwijderd omdat er werk is gemaakt dat afhankelijk is van de reserveringen". Ook wanneer de wave een van de eerder vermelde statussen heeft en een gebruiker de hoeveelheid van de ladingsregel indirect probeert te vergroten door de hoeveelheid op de verkooporderregel of de overboekingsorderregel te verhogen, wordt de hoeveelheid op de ladingsregel niet automatisch verhoogd. In dit geval moet de ladingsregel handmatig worden bijgewerkt.
 
 ## <a name="scenarios"></a>Scenario's
 
 De functie voor het automatisch bijwerken van zendingen ondersteunt vier scenario's: het toevoegen van een nieuwe orderregel, het vergroten van de hoeveelheid op een orderregel, het verlagen van de hoeveelheid op een orderregel en het verwijderen van een orderregel.
 
-- **Een nieuwe orderregel toevoegen**: wanneer het veld **Zending automatisch bijwerken** op het sneltabblad **Magazijn** van de pagina **Magazijnen** (**Magazijnbeheer \> Instellingen \> Magazijn \> Magazijnen**) is ingesteld op **Altijd**, wordt de bestaande lading niet bijgewerkt als er een verzending is voor de order en er een nieuwe orderregel wordt toegevoegd aan een verkooporder of transferorder nadat er al een lading is gemaakt voor de verkooporder. Er wordt een nieuwe ladingsregel zonder verwijzing naar de bestaande lading gemaakt en aan de bestaande zending gekoppeld. De nieuwe regel wordt toegevoegd aan de lading en vrijgegeven.
-- **De hoeveelheid op een orderregel verhogen**: wanneer het veld **Zending automatisch bijwerken** is ingesteld op **Altijd**, als er een zending bestaat voor de order en de hoeveelheid op een bestaande verkooporderregel of transferorderregel wordt verhoogd wanneer er al een lading is gemaakt voor de verkooporder, wordt de ladingsregel verhoogd met dezelfde hoeveelheid als de orderregel. Als de lading is vrijgegeven maar er geen werk is gemaakt, wordt de ladingsregel verhoogd met dezelfde hoeveelheid als de orderregel.
-- **De hoeveelheid op een orderregel verlagen**: wanneer het veld **Zending automatisch bijwerken** is ingesteld op **Altijd** of op **Bij afname van hoeveelheid**, als er een verzending voor de order is en de hoeveelheid op een bestaande verkooporderregel of transferorderregel wordt verlaagd nadat er al een lading voor de verkooporder is gemaakt, wordt de hoeveelheid op de bijbehorende ladingsregel aangepast, tenzij de hoeveelheid op de ladingsregel al gelijk is aan of kleiner is dan de nieuwe hoeveelheid op de orderregel. In dat geval wordt de ladingsregel niet beïnvloed. Als de lading is vrijgegeven maar er geen werk is gemaakt, wordt de hoeveelheid op de bijbehorende ladingsregel aangepast, tenzij de hoeveelheid op de ladingsregel al gelijk is aan of kleiner is dan de nieuwe hoeveelheid op de orderregel. In dat geval wordt de ladingsregel wel beïnvloed.
+- **Een nieuwe orderregel toevoegen**: wanneer het veld **Zending automatisch bijwerken** op het sneltabblad **Magazijn** van de pagina **Magazijnen** (**Magazijnbeheer \> Instellingen \> Magazijn \> Magazijnen**) is ingesteld op **Altijd**, wordt de bestaande lading niet bijgewerkt als er een verzending is voor de order en er een nieuwe orderregel wordt toegevoegd aan een verkooporder of overboekingsorder nadat er al een lading is gemaakt voor de verkooporder. Er wordt een nieuwe ladingsregel zonder verwijzing naar de bestaande lading gemaakt en aan de bestaande zending gekoppeld. De nieuwe regel wordt toegevoegd aan de lading en vrijgegeven.
+- **De hoeveelheid op een orderregel verhogen**: wanneer het veld **Zending automatisch bijwerken** is ingesteld op **Altijd**, als er een zending bestaat voor de order en de hoeveelheid op een bestaande verkooporderregel of overboekingsorderregel wordt verhoogd wanneer er al een lading is gemaakt voor de verkooporder, wordt de ladingsregel verhoogd met dezelfde hoeveelheid als de orderregel. Als de lading is vrijgegeven maar er geen werk is gemaakt, wordt de ladingsregel verhoogd met dezelfde hoeveelheid als de orderregel.
+- **De hoeveelheid op een orderregel verlagen**: wanneer het veld **Zending automatisch bijwerken** is ingesteld op **Altijd** of op **Bij afname van hoeveelheid**, als er een verzending voor de order is en de hoeveelheid op een bestaande verkooporderregel of overboekingsorderregel wordt verlaagd nadat er al een lading voor de verkooporder is gemaakt, wordt de hoeveelheid op de bijbehorende ladingsregel aangepast, tenzij de hoeveelheid op de ladingsregel al gelijk is aan of kleiner is dan de nieuwe hoeveelheid op de orderregel. In dat geval wordt de ladingsregel niet beïnvloed. Als de lading is vrijgegeven maar er geen werk is gemaakt, wordt de hoeveelheid op de bijbehorende ladingsregel aangepast, tenzij de hoeveelheid op de ladingsregel al gelijk is aan of kleiner is dan de nieuwe hoeveelheid op de orderregel. In dat geval wordt de ladingsregel wel beïnvloed.
 - **Een orderregel verwijderen**: wanneer het veld **Zending automatisch bijwerken** is ingesteld op **Altijd** of op **Bij afname van hoeveelheid**, als de gebruiker probeert een orderregel te verwijderen waarvoor een ladingsregel bestaat, wordt een foutbericht weergegeven.
 
 ## <a name="example-scenario"></a>Voorbeeldscenario
@@ -61,7 +59,7 @@ Voer de volgende stappen uit om de functie voor automatische updates van zending
 2. Selecteer magazijn **24**.
 3. Wijzig in het sneltabblad **Magazijn** in het veld **Zending automatisch bijwerken** de waarde van **Bij afname van hoeveelheid** in **Altijd**.
 
-Nadat u de waarde hebt gewijzigd in **Altijd**, worden alle verhogingen of afnames in de hoeveelheden op verkooporderregels en transferorderregels en eventuele toevoegingen van nieuwe regels weerspiegeld in zendingen en ladingen voor het geselecteerde magazijn, rekening houdend met de hierboven genoemde beperkingen.
+Nadat u de waarde hebt gewijzigd in **Altijd**, worden alle verhogingen of afnames in de hoeveelheden op verkooporderregels en overboekingsorderregels en eventuele toevoegingen van nieuwe regels weerspiegeld in zendingen en ladingen voor het geselecteerde magazijn, rekening houdend met de hierboven genoemde beperkingen.
 
 ### <a name="change-the-wave-template-so-that-load-lines-arent-automatically-processed"></a>De wavesjabloon wijzigen zodat de ladingsregels niet automatisch worden verwerkt
 

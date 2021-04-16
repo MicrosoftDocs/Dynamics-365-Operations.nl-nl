@@ -2,11 +2,9 @@
 title: Een pagina-URL maken
 description: In dit onderwerp worden de basisconcepten en procedures beschreven voor het maken van een pagina-URL op uw site.
 author: bicyclingfool
-manager: annbe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8e221bd975fd984379724b751f6c026acfda7b07
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 98743d8948669f32d3c74e1915c7ed53db81141c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207890"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795686"
 ---
 # <a name="create-a-page-url"></a>Een pagina-URL maken
-
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp worden de basisconcepten en procedures beschreven voor het maken van een pagina-URL op uw site.
-
-## <a name="overview"></a>Overzicht
 
 De volledige of absolute URL die naar een pagina op uw site verwijst, bestaat uit verschillende onderdelen. De URL `https://www.contoso.com/en-us/contactus` heeft bijvoorbeeld de volgende onderdelen:
 

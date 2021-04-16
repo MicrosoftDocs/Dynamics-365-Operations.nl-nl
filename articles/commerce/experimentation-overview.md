@@ -2,11 +2,9 @@
 title: Experimenten in Dynamics 365 Commerce
 description: Met experimenten kunt u ook behandelingen van pagina-indelingen en inhoud in Site Builder maken, bewerken en beheren. Complete ondersteuning van experimenten is ingeschakeld voor e-Commerce-pagina's en -entiteiten binnen een pagina.
 author: sushma-rao
-manager: AnnBe
 ms.date: 10/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d836f0e431c444c07186da123579f5cce9895be5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7e415bc0a4ced11c5bb8393fe5dfe03a5f7cdd6c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238601"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798982"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Experimenten in Dynamics 365 Commerce
 Gebruik experimenten in Dynamics 365 Commerce om hypotheses te valideren met betrekking tot de effectiviteit van uw e-Commerce-pagina's en om beslissingen te nemen over de op gegevens gebaseerde betrouwbaarheid. Commerce ondersteunt A/B-tests op pagina's, modules en fragmenten en stelt u in staat om de invloed van voorgestelde wijzigingen op uw website te meten.

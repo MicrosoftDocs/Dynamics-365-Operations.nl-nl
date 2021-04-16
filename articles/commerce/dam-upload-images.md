@@ -2,11 +2,9 @@
 title: Afbeeldingen uploaden
 description: In dit onderwerp wordt beschreven hoe u afbeeldingen uploadt in Microsoft Dynamics 365 Commerce Site Builder.
 author: psimolin
-manager: annbe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 51571ce221714598b2e2d39c76cb69dcb57cc52b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2a0a2fdb275cbeb65c06c01128e90ba660f98c9b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213789"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799224"
 ---
 # <a name="upload-images"></a>Afbeeldingen uploaden
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u afbeeldingen uploadt in Microsoft Dynamics 365 Commerce Site Builder.
-
-## <a name="overview"></a>Overzicht
 
 Met de mediabibliotheek van de Commerce Site Builder kunt u afbeeldingen met mappen uploaden, zowel afzonderlijk als tegelijk. U moet altijd de versie van de afbeelding uploaden met de hoogste resolutie en kwaliteit, omdat de componenten voor het bepalen van de afbeeldinggrootte automatisch de afbeelding optimaliseert voor de verschillende viewports en de bijbehorende onderbrekingspunten.
 
@@ -58,7 +54,8 @@ De standaard naamgevingsconventie varieert afhankelijk van de categorie:
 - Afbeeldingen van werknemers moeten de naam "**/Workers/\{WorkerNumber\}.jpg**" hebben
 - Productafbeeldingen moeten de naam "**/Products/\{ProductNumber\}_000_001.png**" hebben
     - 001 is de reeks van de afbeelding en dit kan 001, 002, 003, 004 of 005 zijn.
-- Productvariantafbeeldingen moeten de naam "**/Products/\{ProductNumber\}\_\{Size\}\_\{Color\}\_\{Style\}\_000_001.png**" hebben
+- Productvariantafbeeldingen moeten de naam "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**" hebben
+    - Bijvoorbeeld: 93039 \^ \^ 2 \^ Zwart \^_000_001.png
 
 ## <a name="upload-an-image"></a>Een afbeelding uploaden
 

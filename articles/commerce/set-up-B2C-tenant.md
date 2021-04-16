@@ -2,11 +2,9 @@
 title: Een B2C-tenant instellen in Commerce
 description: In dit onderwerp wordt beschreven hoe u uw B2C-tenants (business-to-consumers) in Azure Active Directory (Azure AD) instelt voor de verificatie van sitegebruikers in Dynamics 365 Commerce.
 author: BrianShook
-manager: annbe
-ms.date: 06/22/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4ee667bb49e70e0c881a2db1248b3f0c7fc017ce
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: f062f40c9eb883d02c4a0ee06c797ed1b0b22665
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5478135"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793990"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Een B2C-tenant instellen in Commerce
 
@@ -30,6 +28,12 @@ ms.locfileid: "5478135"
 In dit onderwerp wordt beschreven hoe u uw B2C-tenants (business-to-consumers) in Azure Active Directory (Azure AD) instelt voor de verificatie van sitegebruikers in Dynamics 365 Commerce.
 
 Dynamics 365 Commerce gebruikt Azure AD B2C om gebruikersreferenties en verificatiestromen te ondersteunen. Een gebruiker kan zich registreren en aanmelden, en vervolgens zijn/haar wachtwoord opnieuw instellen via deze stromen. Azure AD B2C slaat gevoelige gebruikersverificatiegegevens op, zoals de gebruikersnaam en het wachtwoord. In de gebruikersrecord in de B2C-tenant wordt een record voor een lokale B2C-account of een record voor een B2C-provider van sociale identiteiten opgeslagen. Deze B2C-records verwijzen weer naar de klantrecord in de Commerce-omgeving.
+
+> [!WARNING] 
+> Azure AD B2C stelt voor 1 augustus 2021 oude (legacy) gebruikersstromen buiten gebruik. Daarom moet u de migratie van uw gebruikersstromen naar de nieuwe aanbevolen versie gaan plannen. De nieuwe versie biedt functiepariteit en nieuwe functies. De modulebibliotheek voor Commerce versie 10.0.15 of hoger moet worden gebruikt met de aanbevolen B2C-gebruikersstromen. Zie [Gebruikersstromen in Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview) voor meer informatie.
+ 
+ > [!NOTE]
+ > Commerce-evaluatieomgevingen worden geleverd met een vooraf geladen Azure AD B2C-tenant voor demonstratiedoeleinden. Het laden van uw eigen Azure AD B2C-tenant met behulp van de onderstaande stappen is niet vereist voor evaluatieomgevingen.
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Een AAD B2C-tenant maken of een koppeling met een bestaande AAD B2C-tenant instellen in de Azure-portal
 
@@ -70,17 +74,21 @@ In de volgende afbeelding ziet u een voorbeeld van een Azure AD B2C-banner **Pro
 
 ## <a name="create-the-b2c-application"></a>De B2C-toepassing maken
 
-Nadat de B2C-tenant is gemaakt, maakt u een B2C-toepassing in de tenant om te communiceren met de Commerce-acties.
+Nadat de B2C-tenant is gemaakt, maakt u een B2C-toepassing in uw nieuwe Azure AD B2C-tenant om te communiceren met Commerce.
 
 Ga als volgt te werk om de B2C-toepassing te maken:
 
-1. Selecteer **Toepassingen** (verouderd) in de Azure-portal en selecteer vervolgens **Toevoegen**.
-1. Voer onder **Naam** de naam in van de gewenste AAD B2C-toepassing.
-1. Selecteer onder **Web-app/web-API** voor **Web-app/web-API opnemen** de optie **Ja**.
-1. Selecteer **Ja** (de standaardwaarde) voor **Impliciete stroom toestaan**.
-1. Voer onder **Antwoord-URL** uw specifieke antwoord-URL's in. Zie [Antwoord-URL's](#reply-urls) hieronder voor informatie over antwoord-URL's en hoe u deze hier kunt indelen.
-1. Selecteer **Nee** (de standaard waarde) bij **Systeemeigen client opnemen**.
-1. Selecteer **Maken**.
+1. Selecteer in de Azure-portal de optie **App-registraties** en selecteer vervolgens **Nieuwe registratie**.
+1. Voer onder **Naam** de naam in die u aan deze Azure AD B2C-toepassing wilt geven.
+1. Selecteer onder **Ondersteunde accounttypen** de optie **Accounts in een identiteitsprovider of organisatiemap (voor het verifiëren van gebruikers met gebruikersstromen)**.
+1. Voer voor **Omleidings-URI** uw speciale antwoord-URL's in als type **Web**. Zie [Antwoord-URL's](#reply-urls) hieronder voor informatie over antwoord-URL's en hoe u deze kunt opmaken.
+1. Selecteer voor **Machtigingen** de optie **Beheerdersmachtigingen verlenen voor de machtigingen openid en offline_access**.
+1. Selecteer **Registreren**.
+1. Selecteer de nieuw gemaakte toepassing en navigeer naar het menu **Verificatie**. Hier kunt u indien nodig (nu of later) extra **Omleidings-URI's** toevoegen. Ga verder met de volgende stap als dit momenteel niet nodig is.
+1. Selecteer onder **Impliciete toekenning** zowel **Toegangstokens** als **Id-tokens** om ze in te schakelen voor de toepassing. Selecteer **Opslaan**.
+1. Ga naar het menu **Overzicht** van de Azure-portal en kopieer de **Toepassings(client)-id**. Noteer deze id voor latere installatiestappen (hiernaar wordt later verwezen als de **client-GUID**).
+
+Zie [De nieuwe ervaring App-registraties voor Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/app-registrations-training-guide) voor meer informatie over App-registraties in Azure AD B2C
 
 ### <a name="reply-urls"></a>Antwoord-URL's
 
@@ -102,7 +110,7 @@ Azure AD B2C biedt drie algemene typen gebruikersstromen:
 
 U kunt ervoor kiezen om de standaardgebruikersstromen van Azure AD te gebruiken. Vervolgens wordt er een pagina weergegeven die wordt gehost door AAD B2C. U kunt ook een HTML-pagina maken om het uiterlijk van deze gebruikersstroomervaringen te bepalen. 
 
-Zie [Aangepaste pagina's voor gebruikersaanmeldingen instellen](custom-pages-user-logins.md) als u de gebruikersbeleidspagina's voor Dynamics 365 Commerce wilt aanpassen. Zie voor aanvullende informatie [De interface met gebruikerservaringen in Azure Active Directory B2C aanpassen](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-customize-ui).
+Zie [Aangepaste pagina's voor gebruikersaanmeldingen instellen](custom-pages-user-logins.md) als u de gebruikersbeleidspagina's wilt aanpassen met pagina's die zijn gebouwd in Dynamics 365 Commerce. Zie voor aanvullende informatie [De interface met gebruikerservaringen in Azure Active Directory B2C aanpassen](https://docs.microsoft.com/azure/active-directory-b2c/tutorial-customize-ui).
 
 ### <a name="create-a-sign-up-and-sign-in-user-flow-policy"></a>Een gebruikersstroombeleid voor registreren en aanmelden maken
 
@@ -110,7 +118,7 @@ Voer de volgende stappen uit om een gebruikersstroombeleid voor registreren en a
 
 1. Selecteer **Gebruikersstromen (beleid)** in het linkernavigatievenster van de Azure-portal.
 1. Selecteer op de pagina **Azure AD B2C - Gebruikersstromen (beleid)** de optie **Nieuwe gebruikersstroom**.
-1. Selecteer **Registreren en aanmelden** op het tabblad **Aanbevolen**.
+1. Selecteer het beleid **Registreren en aanmelden** en selecteer vervolgens de versie **Aanbevolen**.
 1. Voer een beleidsnaam in onder **Naam**. Deze naam wordt vervolgens weer gegeven met een voorvoegsel dat wordt toegewezen door de portal (bijvoorbeeld B2C_1_).
 1. Schakel onder **Identiteitsproviders** het desbetreffende selectievakje in.
 1. Selecteer de juiste keuze voor uw bedrijf onder **Meervoudige verificatie**. 
@@ -140,9 +148,9 @@ Voer de volgende stappen uit om een gebruikersstroombeleid voor het bewerken van
 
 1. Selecteer **Gebruikersstromen (beleid)** in het linkernavigatievenster van de Azure-portal.
 1. Selecteer op de pagina **Azure AD B2C - Gebruikersstromen (beleid)** de optie **Nieuwe gebruikersstroom**.
-1. Selecteer op het tabblad **Aanbevolen** de optie **Profiel bewerken**.
+1. Selecteer **Profielen bewerken** en selecteer vervolgens de versie **Aanbevolen**.
 1. Voer onder **Naam** de gebruikersstroom voor het bewerken van profielen in. Deze naam wordt vervolgens weer gegeven met een voorvoegsel dat wordt toegewezen door de portal (bijvoorbeeld B2C_1_).
-1. Selecteer onder **Identiteitsproviders** de optie **Aanmelden met een lokaal account**.
+1. Selecteer onder **Identiteitsproviders** de optie **Aanmelden voor e-mail**.
 1. Schakel onder **Gebruikerskenmerken** de volgende selectievakjes in:
     - **E-mailadressen** (alleen **Claim retourneren**)
     - **Voornaam** (**Kenmerk verzamelen** en **Claim retourneren**)
@@ -161,7 +169,7 @@ Voer de volgende stappen uit om een gebruikersstroombeleid voor het opnieuw inst
 
 1. Selecteer **Gebruikersstromen (beleid)** in het linkernavigatievenster van de Azure-portal.
 1. Selecteer op de pagina **Azure AD B2C - Gebruikersstromen (beleid)** de optie **Nieuwe gebruikersstroom**.
-1. Selecteer op het tabblad **Aanbevolen** de optie **Wachtwoord opnieuw instellen**.
+1. Selecteer **Wachtwoord opnieuw instellen** en selecteer vervolgens de versie **Aanbevolen**.
 1. Voer onder **Naam** een naam in voor de gebruikersstroom voor het opnieuw instellen van wachtwoorden.
 1. Selecteer onder **Identiteitsproviders** de optie **Wachtwoord via e-mailadres opnieuw instellen**.
 1. Selecteer **Maken**.
@@ -225,6 +233,9 @@ De volgende afbeelding toont een voorbeeld van hoe u identiteitsproviders select
 
 In de volgende afbeelding ziet u een voorbeeld van een standaardscherm voor aanmelding waarin een knop voor aanmelding via de provider van de sociale identiteit wordt weergegeven.
 
+> [!NOTE]
+> Als u de aangepaste pagina's gebruikt die in Commerce zijn gebouwd voor uw gebruikersstromen, moeten de knoppen voor sociale identiteitsproviders worden toegevoegd met behulp van de uitbreidbaarheidsfuncties van de bibliotheek van de module Commerce. Bovendien kunnen URL- of configuratietekenreeksen in sommige gevallen hoofdlettergevoelig zijn bij het instellen van uw toepassingen bij een specifieke sociale identiteitsprovider. Raadpleeg de verbindingsinstructies van uw sociale identiteitsprovider voor meer informatie.
+ 
 ![Voorbeeld van standaardaanmeldingsscherm met knop voor aanmelding via provider van sociale identiteiten](./media/B2CImage_17.png)
 
 ## <a name="update-commerce-headquarters-with-the-new-azure-ad-b2c-information"></a>Commerce Headquarters bijwerken met de nieuwe Azure AD B2C-informatie
@@ -250,12 +261,19 @@ Voer de volgende stappen uit Headquarters bij te werken met de nieuwe Azure AD B
 ### <a name="obtain-issuer-url"></a>Uitgevers-URL ophalen
 
 Voer de volgende stappen uit om de uitgevers-URL van de identiteitsprovider te krijgen.
+1. Navigeer op de Azure AD B2C-pagina van de Azure-portal naar uw gebruikersstroom **Registreren en aanmelden**.
+1. Selecteer **Pagina-indelingen** in het linkernavigatiemenu, selecteer onder **Indelingsnaam** de optie **Gecombineerde pagina voor Registreren en aanmelden** en selecteer vervolgens **Gebruikersstroom uitvoeren**.
+1. Zorg ervoor dat uw toepassing is ingesteld op de hierboven gemaakte Azure AD B2C-toepassing en selecteer vervolgens de koppeling onder de header **Gebruikersstroom uitvoeren** die ``.../.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>`` bevat.
+1. Er wordt een metagegevenspagina weergegeven op het tabblad van uw browser. Kopieer de URL van de uitgever van de identiteitsprovider (de waarde voor **'uitgever'**).
+   - Voorbeeld: ``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
+ 
+**OF**: voer de volgende stappen uit om handmatig dezelfde URL voor metagegevens te maken.
 
 1. Maak metagegevensadres-URL met de volgende indeling met uw B2C-tenant en -beleid: ``https://<B2CTENANTNAME>.b2clogin.com/<B2CTENANTNAME>.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=<B2CSIGN-INPOLICY>``
     - Voorbeeld: ``https://d365plc.b2clogin.com/d365plc.onmicrosoft.com/v2.0/.well-known/openid-configuration?p=B2C_1_signinup``.
 1. Voer de metagegevensadres-URL in een browseradresbalk in.
 1. Kopieer in de metagegevens de uitgevers-URL van de identiteitsprovider (de waarde voor **"issuer"**).
-    - Voorbeeld: ``https://login.fabrikam.com/073405c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
+    - Voorbeeld: ``https://login.fabrikam.com/011115c3-0113-4f43-b5e2-df01266e24ae/v2.0/``.
 
 ## <a name="configure-your-b2c-tenant-in-commerce-site-builder"></a>Uw B2C-tenant configureren in Commerce Site Builder
 
@@ -300,7 +318,7 @@ Ga als volgt te werk om uw toepassingsgegevens voor AAD B2C-tenants toe te voege
     - **Tenantnaam**: de naam van uw B2C-tenant (gebruik bijvoorbeeld "fabrikam" als het domein wordt weergegeven als "fabrikam.onmicrosoft.com" voor de B2C-tenant). 
     - **Id beleid voor vergeten wachtwoorden**: de id van het beleid voor de gebruikersstroom voor vergeten wachtwoorden, bijvoorbeeld B2C_1_PasswordReset.
     - **Beleids-id voor aanmelden registreren**: de beleids-id voor registreren en aanmelden, bijvoorbeeld B2C_1_signup_signin.
-    - **Client-GUID**: de B2C-toepassings-id, bijvoorbeeld 22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6.
+    - **Client-GUID**: de B2C-toepassings-id, bijvoorbeeld '22290eb2-c52e-42e9-8b35-a2b0a3bcb9e6'.
     - **Profielbeleid-id bewerken**: de beleids-id voor het bewerken van gebruikersprofielen, bijvoorbeeld B2C_1A_ProfileEdit.
 
 1. Selecteer **OK**. De naam van de B2C-toepassing wordt nu weergegeven in de lijst.
@@ -350,7 +368,7 @@ U kunt een optionele, secundaire beheerdersaccount toevoegen in de sectie **Gebr
 
 [robots.txt-bestanden beheren](manage-robots-txt-files.md)
 
-[Upload URL-omleidingen in bulk](upload-bulk-redirects.md)Koppel een Dynamics 365 Commerce-site met een online kanaal
+[URL-omleidingen in bulk uploaden](upload-bulk-redirects.md)
 
 [Aangepaste pagina's voor gebruikersaanmeldingen instellen](custom-pages-user-logins.md)
 

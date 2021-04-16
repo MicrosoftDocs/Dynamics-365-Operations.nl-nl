@@ -2,11 +2,9 @@
 title: Video's uploaden
 description: In dit onderwerp wordt beschreven hoe u video's uploadt in Microsoft Dynamics 365 Commerce Site Builder.
 author: psimolin
-manager: annbe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d74e7116d68074bfc917784a8f51f85d5682c5d6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5ec20f8caee2f5a62230be05923dfd52600c1e35
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213837"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799200"
 ---
 # <a name="upload-videos"></a>Video's uploaden
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u video's uploadt in Microsoft Dynamics 365 Commerce Site Builder.
-
-## <a name="overview"></a>Overzicht
 
 Met de mediabibliotheek van Commerce Site Builder kunt u video's uploaden. U moet altijd de versie van een video uploaden met de hoogste bitrate en resolutie, omdat de video automatisch wordt geconverteerd om geschikt te zijn voor verschillende viewports en bijbehorende onderbrekingspunten.
 

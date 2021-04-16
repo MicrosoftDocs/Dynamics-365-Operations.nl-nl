@@ -2,11 +2,9 @@
 title: Opdrachten tot inkoop
 description: In dit onderwerp wordt beschreven hoe opdrachten tot inkoop worden ondersteund in Planningsoptimalisatie.
 author: ChristianRytt
-manager: tfehr
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched, ReqGroup
 audience: Application User
@@ -18,16 +16,16 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 20b4012e054a25d7d21c6f017d8ebcf18f6ee28d
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 564f87fe78e79107feb103f953ed4769e4734aa1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501073"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808035"
 ---
 # <a name="purchase-requisitions"></a>Opdrachten tot inkoop
 
-Via de hoofdplanning kunnen goedgekeurde opdrachten tot inkoop worden aangevuld. Daarom hoeven gebruikers voor het uitvoeren van opdrachten tot inkoop geen werkstroom te gebruiken om inkooporders te maken. In plaats daarvan kunnen opdrachten tot inkoop worden uitgevoerd door de hoofdplanning. Dankzij deze functionaliteit kan een opdracht tot inkoop een inkooporder, een transferorder of een productieorder produceren, afhankelijk van de waarde van het **Geplande ordertype** die is ingesteld voor het gerelateerde product.
+Via de hoofdplanning kunnen goedgekeurde opdrachten tot inkoop worden aangevuld. Daarom hoeven gebruikers voor het uitvoeren van opdrachten tot inkoop geen werkstroom te gebruiken om inkooporders te maken. In plaats daarvan kunnen opdrachten tot inkoop worden uitgevoerd door de hoofdplanning. Dankzij deze functionaliteit kan een opdracht tot inkoop een inkooporder, een overboekingsorder of een productieorder produceren, afhankelijk van de waarde van het **Geplande ordertype** die is ingesteld voor het gerelateerde product.
 
 ## <a name="enable-master-plans-to-include-requisitions"></a>Hoofdplannen inschakelen om opdrachten tot inkoop op te nemen
 

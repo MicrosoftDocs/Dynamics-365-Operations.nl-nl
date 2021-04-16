@@ -2,11 +2,9 @@
 title: Formules en formuleversies
 description: Dit onderwerp biedt informatie over formules en formuleversies. Een formule bepaalt de materialen, ingrediënten en uitkomsten van een bepaald proces in procesfabricage. Formules worden gebruikt voor de planning en productie van producten in procesfabricage.
 author: cvocph
-manager: tfehr
 ms.date: 09/12/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ee15fc2a3edd9d0cc8cff17123981bc90ceeff2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e8a168da2309709baaf9f8006880d738f754751d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246184"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809105"
 ---
 # <a name="formulas-and-formula-versions"></a>Formules en formuleversies
 
@@ -44,7 +42,7 @@ Wanneer u een formuleregel maakt, gebruikt u het regeltype om aan te geven hoe h
 |---------------|--------------|
 | Artikel          | Selecteer **Artikel** wanneer het artikel een grondstof of halffabricaat is dat moet worden verzameld in de voorraad, of wanneer het artikel een service is. |
 | Phantom       | Selecteer **Phantom** wanneer u formuleartikelen van elk lager niveau op formuleregels wilt exploderen. Wanneer u de batchorder raamt en de formuleartikelen worden geëxplodeerd, worden de componentartikelen als formuleregels weergegeven in de batchorder. Bovendien worden de bijbehorende routes toegevoegd aan de productieroute. Formuleartikelen worden geëxplodeerd op basis van de huidige configuratie. Wanneer u het regeltype **Phantom** gebruikt, kunt u productie- en metingconfiguraties op verschillende formuleniveaus verwerken. Als u **Phantom** voor een product op het sneltabblad **Engineering uitvoeren** van de pagina **Vrijgegeven productdetails** selecteert en dit product vervolgens in een formule gebruikt, wordt het regeltype van de formuleregel gewijzigd in **Phantom**. U kunt **Phantom** niet selecteren voor een catch weight-artikel of artikelen waarvoor het productietype **Coproduct**, **Bijproduct** of **Planningsartikel** is. |
-| Getraceerd aanbod | Selecteer **Getraceerd aanbod** om een batchorder, productieorder, kanban, transferorder of inkooporder te maken voor het ingrediënt op de formuleregel. De betreffende order wordt bepaald op basis van de standaardorderinstellingen en het productietype van het ingrediënt, en wordt gemaakt wanneer u de batchorder raamt. De vereiste ingrediënthoeveelheden worden gereserveerd voor de batchorder. |
+| Getraceerd aanbod | Selecteer **Getraceerd aanbod** om een batchorder, productieorder, kanban, overboekingsorder of inkooporder te maken voor het ingrediënt op de formuleregel. De betreffende order wordt bepaald op basis van de standaardorderinstellingen en het productietype van het ingrediënt, en wordt gemaakt wanneer u de batchorder raamt. De vereiste ingrediënthoeveelheden worden gereserveerd voor de batchorder. |
 | Leverancier        | Selecteer **Leverancier** als voor het productieproces een toeleverancier wordt gebruikt en u een subproductie of inkooporder wilt maken voor de toeleverancier. De service of de werkzaamheden die door de toeleverancier worden uitgevoerd, moeten worden gemaakt met een formule- of serviceartikel. U kunt het artikel aan het bovenliggende artikel koppelen als formuleregel. De route dient een bewerking te bevatten die is toegewezen aan de bron voor bedrijfsactiviteiten van de toeleverancier. U kunt deze bewerking aan de formuleregel koppelen door het veld **Bewerkingsnummer** te gebruiken. |
 
 ## <a name="formula-versions"></a>Formuleversies

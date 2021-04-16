@@ -2,11 +2,9 @@
 title: Ondersteuning voor een CDN (contentleveringsnetwerk) toevoegen
 description: In dit onderwerp wordt beschreven hoe u een CDN (Content Delivery Network) toevoegt aan uw Microsoft Dynamics 365 Commerce-omgeving.
 author: brianshook
-manager: annbe
-ms.date: 07/31/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d653b072eca134c765a5db5659b228648fc13c4a
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: a56f675b1fb43160625101a067c74e9fcf4f714a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582714"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797834"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Ondersteuning voor een CDN (netwerk voor contentlevering) toevoegen
 
@@ -41,11 +39,7 @@ Bovendien worden de *statische* onderdelen (Javascript- of \[CSS\]-bestanden (Ca
 
 ## <a name="set-up-ssl"></a>SSL instellen
 
-Om ervoor te zorgen dat de SSL-configuratie wordt ingesteld en dat de statische onderdelen in de cache worden opgeslagen, moet u uw CDN zo configureren dat dit is gekoppeld aan de hostnaam die door Commerce wordt gegenereerd voor uw omgeving. U moet ook het volgende patroon in cache opslaan, alleen voor statische onderdelen: 
-
-/\_msdyn365/\_scnr/\*
-
-Nadat u uw Commerce-omgeving hebt ingericht met het aangepaste domein dat is opgegeven of nadat u het aangepaste domein voor uw omgeving hebt opgegeven met behulp van een serviceaanvraag, wijst u uw aangepaste domein toe aan de hostnaam of het eindpunt dat door Commerce is gegenereerd.
+Nadat u uw Commerce-omgeving hebt ingericht met het aangepaste domein dat is opgegeven of nadat u het aangepaste domein voor uw omgeving hebt opgegeven met behulp van een serviceaanvraag, moet u de DNS-wijzigingen samen met het onboardingteam voor Commerce plannen.
 
 Zoals eerder is vermeld, ondersteunt de gegenereerde hostnaam of het eindpunt alleen een SSL-certificaat voor \*.commerce.dynamics.com. SSL wordt niet ondersteund voor aangepaste domeinen.
 
@@ -61,8 +55,8 @@ Een CDN-service kan met een Commerce-omgeving worden gebruikt. Hieronder vindt u
 Het CDN-installatieproces bestaat uit de volgende algemene stappen:
 
 1. Een front-endhost toevoegen.
-1. Een back-endpool configureren.
-1. Regels voor routering en caching instellen.
+1. Een back-endgroep configureren.
+1. Stel regels voor doorsturen in.
 
 ### <a name="add-a-front-end-host"></a>Een front-endhost toevoegen
 
@@ -74,22 +68,27 @@ Voor informatie over het instellen van de Azure Front Door Service raadpleegt u 
 
 Volg deze stappen om een back-endpool te configureren in Azure Front Door Service.
 
-1. Voeg **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** toe aan een back-endpool als een aangepaste host met een lege koptekst voor de back-endhost.
+1. Voeg **&lt;ecom-tenant-name&gt;.commerce.dynamics.com** toe aan een back-endgroep als een aangepaste host met een koptekst voor de back-endhost die hetzelfde is als **&lt;ecom-tenant-name&gt;.commerce.dynamics.com**.
 1. Laat de standaardwaarden staan onder **Taakverdeling**.
+1. Schakel statuscontroles voor de back-endgroep uit.
 
-In de volgende afbeelding ziet u het dialoogvenster **Een backend toevoegen** in de Azure Front Door Service met de naam van de back-endhost ingevuld.
+In de volgende afbeelding ziet u het dialoogvenster **Een back-end toevoegen** in de Azure Front Door Service met de naam van de back-endhost ingevuld.
 
 ![Het dialoogvenster Een backend-groep toevoegen](./media/CDN_BackendPool.png)
 
-In de volgende afbeelding ziet u het dialoogvenster **Een back-endpool toevoegen** in de Azure Front Door Service met de standaardwaarden voor taakverdeling.
+In de volgende afbeelding ziet u het dialoogvenster **Een back-endgroep toevoegen** in de Azure Front Door Service met de standaardwaarden voor taakverdeling.
 
-![Dialoogvenster Een back-endpool toevoegen (vervolg)](./media/CDN_BackendPool_2.png)
+![Dialoogvenster Een back-endgroep toevoegen (vervolg)](./media/CDN_BackendPool_2.png)
+
+> [!NOTE]
+> Zorg ervoor dat u **Statusprobes** uitschakelt bij het instellen van uw eigen Azure Front Door Service voor Commerce.
+
 
 ### <a name="set-up-rules-in-azure-front-door-service"></a>Regels in de Azure Front Door Service instellen
 
-Voer de volgende stappen uit om een routeringsregel in te stellen in de Azure Front Door Service.
+Voer de volgende stappen uit om een regel voor doorsturen in te stellen in de Azure Front Door Service.
 
-1. Voeg een routeringregel toe.
+1. Voeg een regel voor doorsturen toe.
 1. Voer in het veld **Naam** de tekst **standaard** in.
 1. Selecteer **HTTP en HTTPS** in het veld **Geaccepteerd protocol**.
 1. Voer in het veld **Frontend hosts** **dynamics-ecom-tenant-name.azurefd.net** in.
@@ -100,24 +99,6 @@ Voer de volgende stappen uit om een routeringsregel in te stellen in de Azure Fr
 1. Stel de optie **URL herschrijven** in op **Uitgeschakeld**.
 1. Stel de optie **Caching** in op **Uitgeschakeld**.
 
-Voer de volgende stappen uit om een cachingregel in te stellen in de Azure Front Door Service.
-
-1. Voeg een cachingregel toe.
-1. Voer in het veld **Naam** de tekst **statics** in.
-1. Selecteer **HTTP en HTTPS** in het veld **Geaccepteerd protocol**.
-1. Voer in het veld **Frontend hosts** **dynamics-ecom-tenant-name.azurefd.net** in.
-1. Voer onder **Af te stemmen patronen** in het bovenste veld **/\_msdyn365/\_scnr/\*** in.
-1. Stel onder **Routedetails** de optie **Routetype** in op **Doorsturen**.
-1. Selecteer in het veld **Back-endgroep** de optie **ecom-backend**.
-1. Selecteer in de veldgroep **Protocol voor doorsturen** de optie **Afstemmen op aanvraag**.
-1. Stel de optie **URL herschrijven** in op **Uitgeschakeld**.
-1. Stel de optie **Caching** in op **Uitgeschakeld**.
-1. Selecteer in het veld **Cachegedrag queryreeks** de optie **Elke unieke URL in cache plaatsen**.
-1. Selecteer de optie **Ingeschakeld** in de veldgroep **Dynamische compressie**.
-
-In de volgende afbeelding ziet u het dialoogvenster **Een regel toevoegen** in de Azure Front Door Service.
-
-![Het dialoogvenster Regel toevoegen](./media/CDN_CachingRule.png)
 
 > [!WARNING]
 > Als het domein dat u gaat gebruiken al actief en live is, maakt u een ondersteuningsticket vanuit de tegel **Ondersteuning** in [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com/) om hulp te krijgen bij uw volgende stappen. Zie [Ondersteuning voor Finance and Operations-apps of Lifecycle Services (LCS) krijgen voor meer informatie](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).

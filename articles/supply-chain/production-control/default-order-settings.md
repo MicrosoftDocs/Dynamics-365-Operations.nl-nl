@@ -2,11 +2,9 @@
 title: Standaardorderinstellingen voor dimensies en productvarianten
 description: Standaardorderinstellingen definiëren de locatie en het magazijn waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag, en de methode voor orderbelofte.
 author: t-benebo
-manager: tfehr
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventItemOrderSetup, InventItemIdLookupByDefaultOrderSetting, EcoResProductReleasedStoppedAllChartPart, UnitTestPartitions
 audience: Application User
@@ -18,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: fef622b05c56844b8927a4efcffd5a1944726cd4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 73e6a45dedba0831c15d70ad35676c62a14acabb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246256"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809153"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>Standaard orderinstellingen voor dimensies en productvarianten
 
 [!include [banner](../includes/banner.md)]
 
-Standaardorderinstellingen in Dynamics 365 Supply Chain Management definiëren de locatie en het magazijn waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag, en de methode voor orderbelofte. Standaardorderinstellingen worden gebruikt bij het maken van inkooporders, verkooporders, transferorders, voorraadjournalen, en door de hoofdplanning voor het genereren van geplande orders. Standaardorderinstellingen kunnen specifiek zijn voor het artikel, de locatie, de productvariant of de productdimensie.
+Standaardorderinstellingen in Dynamics 365 Supply Chain Management definiëren de locatie en het magazijn waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag, en de methode voor orderbelofte. Standaardorderinstellingen worden gebruikt bij het maken van inkooporders, verkooporders, overboekingsorders, voorraadjournalen, en door de hoofdplanning voor het genereren van geplande orders. Standaardorderinstellingen kunnen specifiek zijn voor het artikel, de locatie, de productvariant of de productdimensie.
 
 Voer de volgende stappen uit om de standaardorderinstellingen voor een product te definiëren.
 
@@ -72,8 +70,8 @@ De standaardorderinstellingen voor verkoop worden ook toegepast wanneer u de vol
 De standaardorderinstellingen voor voorraad worden gebruikt wanneer u de volgende items maakt:
 
 - Voorraadjournalen
-- Transferorders
-- Geplande transferorders
+- overboekingsorders
+- Geplande overboekingsorders
 
 De standaardorderinstellingen voor voorraad worden ook toegepast wanneer u de volgende items maakt:
 
@@ -91,7 +89,7 @@ Niet alle parameters van de standaardorderinstellingen worden toegepast wanneer 
 
 Wanneer u een order of een journaalregel maakt, wordt altijd geprobeerd om een standaardlocatie en standaardmagazijn te vinden. De locatie wordt niet altijd standaard weergegeven vanuit de orderinstellingen. Wanneer u bijvoorbeeld een verkooporder of een inkooporder maakt, wordt de locatie van de orderkoptekst automatisch gebruikt in de orderregels. Wanneer u een stuklijstregel maakt, wordt de locatie van de koptekst van de stuklijst gebruikt. Nadat de locatie is bepaald, wordt deze gebruikt om eventuele locatiespecifieke orderinstellingen te vinden die daarna als standaardinstellingen voor het magazijn kunnen worden gebruikt. 
 
-Het standaardordertype, de inkoop en de voorraadlevertijden kunnen worden overschreven door de behoefteplanningsregels van het artikel op de pagina **Artikelbehoefteplanning**. Hoewel de standaardorderinstellingen geen onderscheid kunnen maken tussen de doorlooptijden voor productie en die voor verplaatsing, kunnen de artikelbehoefteplanningsregels hier wel mee overweg. De instellingen voor artikelbehoefteplanning worden echter alleen gebruikt door hoofdplanning (MRP) bij het maken van geplande orders voor productie en transfer, niet wanneer u handmatig productie- en transferorders maakt. 
+Het standaardordertype, de inkoop en de voorraadlevertijden kunnen worden overschreven door de behoefteplanningsregels van het artikel op de pagina **Artikelbehoefteplanning**. Hoewel de standaardorderinstellingen geen onderscheid kunnen maken tussen de doorlooptijden voor productie en die voor verplaatsing, kunnen de artikelbehoefteplanningsregels hier wel mee overweg. De instellingen voor artikelbehoefteplanning worden echter alleen gebruikt door hoofdplanning (MRP) bij het maken van geplande orders voor productie en transfer, niet wanneer u handmatig productie- en overboekingsorders maakt. 
 
 ## <a name="default-order-settings-rules"></a>Regels voor standaardorderinstellingen
 

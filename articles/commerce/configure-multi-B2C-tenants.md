@@ -2,11 +2,9 @@
 title: Meerdere B2C-tenants configureren in een Commerce-omgeving
 description: In dit onderwerp wordt beschreven wanneer en hoe u meerdere Microsoft Azure Active Directory (Azure AD) B2C-tenants (Business-to-consumers) per kanaal instelt voor gebruikersverificatie in een specifieke Dynamics 365 Commerce-omgeving.
 author: BrianShook
-manager: annbe
-ms.date: 03/02/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2ddc8cea42ab0b5a319d4725ce8c75e57529cc63
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 4e50855368a3fa86c38c756492fc7e6cd518f497
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477751"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796094"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Meerdere B2C-tenants configureren in een Commerce-omgeving
 
@@ -55,10 +53,6 @@ In de volgende afbeelding ziet u meerdere B2C-tenants in een Commerce-omgeving.
 
 Als u besluit dat voor uw bedrijf verschillende B2C-tenants per kanaal in dezelfde Commerce-omgeving vereist zijn, voert u de procedures in de volgende secties uit om deze functie aan te vragen.
 
-## <a name="request-that-b2c-per-channel-be-enabled-in-your-environment"></a>Aanvragen om B2C per kanaal om te schakelen in uw omgeving
-
-Als u op dit moment wilt dat afzonderlijke B2C-tenantsper kanaal beschikbaar zijn in dezelfde Commerce-omgeving, moet u een aanvraag indienen bij Dynamics 365 Commerce. Zie [Ondersteuning krijgen voor Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md) voor meer informatie of bespreek dit probleem met uw contactpersoon voor Commerce-oplossingen.
-
 ## <a name="configure-b2c-tenants-in-your-environment"></a>B2C-tenants configureren in uw omgeving
 
 Voer de relevante procedures in deze sectie uit om B2C-tenants in uw omgeving te configureren.
@@ -79,11 +73,11 @@ Voer deze stappen uit om een Azure AD-B2C-tenant toe te voegen aan uw omgeving.
     - **GUID van client**: voer de id van de Azure AD-B2C-tenant in zoals deze wordt weer gegeven in de Azure Portal (niet de toepassings-id voor de B2C-tenant).
     - **Profielbeleid-id bewerken.**: voer de beleids-id in (de naam van het beleid in de Azure Portal).
 
-1. Wanneer u klaar bent met het invoeren van deze gegevens, selecteert u **OK** om de wijzigingen op te slaan.
+1. Wanneer u klaar bent met het invoeren van deze gegevens, selecteert u **OK** om de wijzigingen op te slaan. Uw nieuwe Azure AD-B2C-tenant moet nu worden weergegeven in de lijst onder **B2C-toepassingen beheren**.
 
 > [!NOTE]
 > U moet velden zoals **Bereik**, **Niet-interactieve beleids-id**, **Niet-interactieve client-id**, **Aangepast domein voor aanmelding** en **Beleids-id voor aanmelden** leeg laten tenzij het Dynamics 365 Commerce-team aangeeft dat u deze moet instellen.
-Uw nieuwe Azure AD-B2C-tenant moet nu worden weergegeven in de lijst onder **B2C-toepassingen beheren**.
+
 
 ### <a name="manage-or-delete-an-azure-ad-b2c-tenant"></a>Een Azure AD-B2C-tenant beheren of verwijderen
 
@@ -97,6 +91,7 @@ Uw nieuwe Azure AD-B2C-tenant moet nu worden weergegeven in de lijst onder **B2C
 > Wanneer een B2C-tenant is geconfigureerd voor een live/gepubliceerde site, hebben gebruikers zich mogelijk aangemeld via accounts die aanwezig zijn in de tenant. Als u een geconfigureerde tenant verwijdert uit het menu **Tenant-instellingen \> B2C-tenant**, verwijdert u de koppeling van die B2C-tenant van sites die zijn gekoppeld aan kanalen van de tenant. In dit geval kunnen uw gebruikers zich niet meer aanmelden bij hun accounts. Wees daarom zeer voorzichtig wanneer u een geconfigureerde tenant verwijdert.
 >
 > Wanneer een geconfigureerde tenant wordt verwijderd, blijven de B2C-tenant en -records behouden, maar wordt de Commerce-systeemconfiguratie van die tenant gewijzigd of verwijderd. Gebruikers die zich aanmelden bij de site, maken een nieuwe accountrecord in de standaard- of nieuw gekoppelde B2C-tenant die is geconfigureerd voor het kanaal van de site.
+
 ## <a name="configure-your-channel-with-a-b2c-tenant"></a>Uw kanaal met een B2C-tenant configureren
 
 1. Meld u aan bij Commerce Site Builder voor uw omgeving als systeembeheerder. U moet systeembeheerder zijn voor de Commerce-omgeving om Azure AD-B2C-tenants te configureren.

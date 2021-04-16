@@ -2,11 +2,9 @@
 title: Manieren om inhoud toe te voegen
 description: Dit onderwerp bevat een overzicht en specifieke koppelingen voor waar en hoe u kunt beginnen met het beheer van content met behulp van de webontwerpwerkset Microsoft Dynamics 365 Commerce Site Builder.
 author: phinneyridge
-manager: annbe
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: eb0b1c3f77bb71ba04c9110ed25fb80c2f2e61f4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e6794e528d9fa6066d7246e99a3307bb1bdc9c78
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208058"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797570"
 ---
 # <a name="ways-to-add-content"></a>Manieren om inhoud toe te voegen
 
 [!include [banner](includes/banner.md)]
 
 Dit onderwerp bevat een overzicht en koppelingen naar documentatie over het beheer van content met behulp van de webontwerpwerkset Microsoft Dynamics 365 Commerce Site Builder.
-
-## <a name="overview"></a>Overzicht
 
 Er zijn vele manieren om het uiterlijk en de inhoud van uw site te wijzigen. Afhankelijk van het vereiste aanpassingsniveau kunnen veel van deze wijzigingen door niet-ontwikkelaars worden geïmplementeerd in Site Builder, de webontwerpwerkset van Dynamics 365 Commerce. Met Site Builder kunt u sjablonen maken, thema's selecteren en modules selecteren en configureren zonder code te schrijven. Ontwikkelvaardigheden zijn daarentegen wel vereist voor het maken van een nieuw thema of een nieuwe module, omdat daarvoor de e-commerce Software Development Kit (SDK) en de implementatiewerkstroom voor Microsoft Dynamics Lifecycle Services (LCS) moeten worden gebruikt.
 
