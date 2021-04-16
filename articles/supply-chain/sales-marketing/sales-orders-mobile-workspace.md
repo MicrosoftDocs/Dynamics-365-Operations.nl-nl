@@ -2,11 +2,9 @@
 title: Mobiel werkgebied voor verkooporders
 description: Dit onderwerp biedt informatie over het mobiele werkgebied Verkooporders. Via dit werkgebied kunt u overal en altijd op de hoogte blijven van uw verkooporders.
 author: Mirzaab
-manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -17,130 +15,130 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 41d1ec66774658de6a66a99e752d81a31cd354bf
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 32e87699f6ad89ea28d622cc5b0f07608222fb11
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5260991"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817744"
 ---
-# <a name="sales-orders-mobile-workspace"></a><span data-ttu-id="bab6c-104">Mobiel werkgebied voor verkooporders</span><span class="sxs-lookup"><span data-stu-id="bab6c-104">Sales orders mobile workspace</span></span>
+# <a name="sales-orders-mobile-workspace"></a><span data-ttu-id="333ba-104">Mobiel werkgebied voor verkooporders</span><span class="sxs-lookup"><span data-stu-id="333ba-104">Sales orders mobile workspace</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="bab6c-105">Dit onderwerp biedt informatie over het mobiele werkgebied **Verkooporders**.</span><span class="sxs-lookup"><span data-stu-id="bab6c-105">This topic provides information about the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="bab6c-106">Via dit werkgebied kunt u overal en altijd op de hoogte blijven van uw verkooporders.</span><span class="sxs-lookup"><span data-stu-id="bab6c-106">This workspace helps you stay up to date about your sales orders anywhere and anytime.</span></span> 
+<span data-ttu-id="333ba-105">Dit onderwerp biedt informatie over het mobiele werkgebied **Verkooporders**.</span><span class="sxs-lookup"><span data-stu-id="333ba-105">This topic provides information about the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="333ba-106">Via dit werkgebied kunt u overal en altijd op de hoogte blijven van uw verkooporders.</span><span class="sxs-lookup"><span data-stu-id="333ba-106">This workspace helps you stay up to date about your sales orders anywhere and anytime.</span></span> 
 
-<span data-ttu-id="bab6c-107">Dit mobiele werkgebied is bedoeld om samen te worden gebruikt met de mobiele app van Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="bab6c-107">This mobile workspace is intended to be used with the Finance and Operations mobile app.</span></span>
+<span data-ttu-id="333ba-107">Dit mobiele werkgebied is bedoeld om samen te worden gebruikt met de mobiele app van Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="333ba-107">This mobile workspace is intended to be used with the Finance and Operations mobile app.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="bab6c-108">Overzicht</span><span class="sxs-lookup"><span data-stu-id="bab6c-108">Overview</span></span>
-<span data-ttu-id="bab6c-109">In het mobiele werkgebied **Verkooporders** kunt u gedetailleerde informatie over elke verkooporder weergeven.</span><span class="sxs-lookup"><span data-stu-id="bab6c-109">The **Sales orders** mobile workspace lets you view detailed information about each sales order.</span></span> <span data-ttu-id="bab6c-110">Deze informatie omvat de status van de order, contactgegevens voor de klant en contactgegevens voor degene die de order aanneemt.</span><span class="sxs-lookup"><span data-stu-id="bab6c-110">This information includes the status of the order, contact information for the customer, and contact information for the order taker.</span></span> <span data-ttu-id="bab6c-111">Het mobiele werkgebied **Verkooporders** geeft een direct overzicht van verkooporders.</span><span class="sxs-lookup"><span data-stu-id="bab6c-111">The **Sales orders** mobile workspace provides an instant view of sales orders.</span></span> <span data-ttu-id="bab6c-112">U kunt alle verkooporders weergeven, verkooporders per klant weergeven of informatie weergeven over een specifieke verkooporder.</span><span class="sxs-lookup"><span data-stu-id="bab6c-112">You can view all sales orders, view sales orders by customer, or view information about a specific sales order.</span></span> 
+## <a name="overview"></a><span data-ttu-id="333ba-108">Overzicht</span><span class="sxs-lookup"><span data-stu-id="333ba-108">Overview</span></span>
+<span data-ttu-id="333ba-109">In het mobiele werkgebied **Verkooporders** kunt u gedetailleerde informatie over elke verkooporder weergeven.</span><span class="sxs-lookup"><span data-stu-id="333ba-109">The **Sales orders** mobile workspace lets you view detailed information about each sales order.</span></span> <span data-ttu-id="333ba-110">Deze informatie omvat de status van de order, contactgegevens voor de klant en contactgegevens voor degene die de order aanneemt.</span><span class="sxs-lookup"><span data-stu-id="333ba-110">This information includes the status of the order, contact information for the customer, and contact information for the order taker.</span></span> <span data-ttu-id="333ba-111">Het mobiele werkgebied **Verkooporders** geeft een direct overzicht van verkooporders.</span><span class="sxs-lookup"><span data-stu-id="333ba-111">The **Sales orders** mobile workspace provides an instant view of sales orders.</span></span> <span data-ttu-id="333ba-112">U kunt alle verkooporders weergeven, verkooporders per klant weergeven of informatie weergeven over een specifieke verkooporder.</span><span class="sxs-lookup"><span data-stu-id="333ba-112">You can view all sales orders, view sales orders by customer, or view information about a specific sales order.</span></span> 
 
-<span data-ttu-id="bab6c-113">Het mobiele werkgebied bevat twee weergaven waarmee u verkooporders grondig kunt analyseren.</span><span class="sxs-lookup"><span data-stu-id="bab6c-113">The mobile workspace provides two views to help you analyze sale orders in depth.</span></span>
+<span data-ttu-id="333ba-113">Het mobiele werkgebied bevat twee weergaven waarmee u verkooporders grondig kunt analyseren.</span><span class="sxs-lookup"><span data-stu-id="333ba-113">The mobile workspace provides two views to help you analyze sale orders in depth.</span></span>
 
-### <a name="view-all-sales-orders"></a><span data-ttu-id="bab6c-114">Alle verkooporders weergeven</span><span class="sxs-lookup"><span data-stu-id="bab6c-114">View all sales orders</span></span>
-<span data-ttu-id="bab6c-115">In deze weergave geeft een overzicht van alle verkooporders.</span><span class="sxs-lookup"><span data-stu-id="bab6c-115">This view lists all sales orders.</span></span>
+### <a name="view-all-sales-orders"></a><span data-ttu-id="333ba-114">Alle verkooporders weergeven</span><span class="sxs-lookup"><span data-stu-id="333ba-114">View all sales orders</span></span>
+<span data-ttu-id="333ba-115">In deze weergave geeft een overzicht van alle verkooporders.</span><span class="sxs-lookup"><span data-stu-id="333ba-115">This view lists all sales orders.</span></span>
 
--   <span data-ttu-id="bab6c-116">Gebruik een van de volgende filters om de verkooporders te selecteren die u wilt weergeven:</span><span class="sxs-lookup"><span data-stu-id="bab6c-116">Use one of the following filters to select the sales orders to view:</span></span>
+-   <span data-ttu-id="333ba-116">Gebruik een van de volgende filters om de verkooporders te selecteren die u wilt weergeven:</span><span class="sxs-lookup"><span data-stu-id="333ba-116">Use one of the following filters to select the sales orders to view:</span></span>
 
-    -   <span data-ttu-id="bab6c-117">Zoeken op verkooporder</span><span class="sxs-lookup"><span data-stu-id="bab6c-117">Search by sales order</span></span>
-    -   <span data-ttu-id="bab6c-118">Zoeken op klantaccount</span><span class="sxs-lookup"><span data-stu-id="bab6c-118">Search by customer account</span></span>
-    -   <span data-ttu-id="bab6c-119">Zoeken op klantnaam</span><span class="sxs-lookup"><span data-stu-id="bab6c-119">Search by customer name</span></span>
-    -   <span data-ttu-id="bab6c-120">Zoeken op status</span><span class="sxs-lookup"><span data-stu-id="bab6c-120">Search by status</span></span>
-    -   <span data-ttu-id="bab6c-121">Zoeken op vrijgavestatus</span><span class="sxs-lookup"><span data-stu-id="bab6c-121">Search by release status</span></span>
-    -   <span data-ttu-id="bab6c-122">Zoeken op aanmaakdatum en -tijd</span><span class="sxs-lookup"><span data-stu-id="bab6c-122">Search by created date and time</span></span>
+    -   <span data-ttu-id="333ba-117">Zoeken op verkooporder</span><span class="sxs-lookup"><span data-stu-id="333ba-117">Search by sales order</span></span>
+    -   <span data-ttu-id="333ba-118">Zoeken op klantaccount</span><span class="sxs-lookup"><span data-stu-id="333ba-118">Search by customer account</span></span>
+    -   <span data-ttu-id="333ba-119">Zoeken op klantnaam</span><span class="sxs-lookup"><span data-stu-id="333ba-119">Search by customer name</span></span>
+    -   <span data-ttu-id="333ba-120">Zoeken op status</span><span class="sxs-lookup"><span data-stu-id="333ba-120">Search by status</span></span>
+    -   <span data-ttu-id="333ba-121">Zoeken op vrijgavestatus</span><span class="sxs-lookup"><span data-stu-id="333ba-121">Search by release status</span></span>
+    -   <span data-ttu-id="333ba-122">Zoeken op aanmaakdatum en -tijd</span><span class="sxs-lookup"><span data-stu-id="333ba-122">Search by created date and time</span></span>
     
--   <span data-ttu-id="bab6c-123">Nadat u de verkooporders hebt geselecteerd, kunt u de details van specifieke orders weergeven.</span><span class="sxs-lookup"><span data-stu-id="bab6c-123">After you select sales orders, you can view the details of specific orders.</span></span> <span data-ttu-id="bab6c-124">U kunt met name de volgende gegevens bekijken:</span><span class="sxs-lookup"><span data-stu-id="bab6c-124">Specifically, you can view the following information:</span></span>
+-   <span data-ttu-id="333ba-123">Nadat u de verkooporders hebt geselecteerd, kunt u de details van specifieke orders weergeven.</span><span class="sxs-lookup"><span data-stu-id="333ba-123">After you select sales orders, you can view the details of specific orders.</span></span> <span data-ttu-id="333ba-124">U kunt met name de volgende gegevens bekijken:</span><span class="sxs-lookup"><span data-stu-id="333ba-124">Specifically, you can view the following information:</span></span>
 
-    -   <span data-ttu-id="bab6c-125">Klantnaam en adresgegevens</span><span class="sxs-lookup"><span data-stu-id="bab6c-125">Customer name and address information</span></span>
-    -   <span data-ttu-id="bab6c-126">Verschillende datums voor de verkooporder, zoals de gewenste verzenddatum en de bevestigde verzenddatum</span><span class="sxs-lookup"><span data-stu-id="bab6c-126">Various dates for the sales order, such as the requested ship date and the confirmed ship date</span></span>
-    -   <span data-ttu-id="bab6c-127">Contactgegevens voor de ordermedewerker</span><span class="sxs-lookup"><span data-stu-id="bab6c-127">Contact information for the order taker</span></span>
-    -   <span data-ttu-id="bab6c-128">Contactgegevens van de klant</span><span class="sxs-lookup"><span data-stu-id="bab6c-128">Customer contact information</span></span>
-    -   <span data-ttu-id="bab6c-129">Orderregels</span><span class="sxs-lookup"><span data-stu-id="bab6c-129">Order lines</span></span>
-    -   <span data-ttu-id="bab6c-130">Zendingen die tonen hoe en wanneer een verkooporder is verzonden</span><span class="sxs-lookup"><span data-stu-id="bab6c-130">Shipments that show how and when a sales order was shipped</span></span>
+    -   <span data-ttu-id="333ba-125">Klantnaam en adresgegevens</span><span class="sxs-lookup"><span data-stu-id="333ba-125">Customer name and address information</span></span>
+    -   <span data-ttu-id="333ba-126">Verschillende datums voor de verkooporder, zoals de gewenste verzenddatum en de bevestigde verzenddatum</span><span class="sxs-lookup"><span data-stu-id="333ba-126">Various dates for the sales order, such as the requested ship date and the confirmed ship date</span></span>
+    -   <span data-ttu-id="333ba-127">Contactgegevens voor de ordermedewerker</span><span class="sxs-lookup"><span data-stu-id="333ba-127">Contact information for the order taker</span></span>
+    -   <span data-ttu-id="333ba-128">Contactgegevens van de klant</span><span class="sxs-lookup"><span data-stu-id="333ba-128">Customer contact information</span></span>
+    -   <span data-ttu-id="333ba-129">Orderregels</span><span class="sxs-lookup"><span data-stu-id="333ba-129">Order lines</span></span>
+    -   <span data-ttu-id="333ba-130">Zendingen die tonen hoe en wanneer een verkooporder is verzonden</span><span class="sxs-lookup"><span data-stu-id="333ba-130">Shipments that show how and when a sales order was shipped</span></span>
 
-### <a name="view-orders-for-a-customer"></a><span data-ttu-id="bab6c-131">Orders voor een klant weergeven</span><span class="sxs-lookup"><span data-stu-id="bab6c-131">View orders for a customer</span></span>
-<span data-ttu-id="bab6c-132">In deze weergave ziet u een overzicht van de verkooporders per klant.</span><span class="sxs-lookup"><span data-stu-id="bab6c-132">This view lists sales orders by customer.</span></span>
+### <a name="view-orders-for-a-customer"></a><span data-ttu-id="333ba-131">Orders voor een klant weergeven</span><span class="sxs-lookup"><span data-stu-id="333ba-131">View orders for a customer</span></span>
+<span data-ttu-id="333ba-132">In deze weergave ziet u een overzicht van de verkooporders per klant.</span><span class="sxs-lookup"><span data-stu-id="333ba-132">This view lists sales orders by customer.</span></span>
 
--   <span data-ttu-id="bab6c-133">Gebruik een van de volgende filters om orders voor een klant weer te geven:</span><span class="sxs-lookup"><span data-stu-id="bab6c-133">Use one of the following filters to view orders for a customer:</span></span>
+-   <span data-ttu-id="333ba-133">Gebruik een van de volgende filters om orders voor een klant weer te geven:</span><span class="sxs-lookup"><span data-stu-id="333ba-133">Use one of the following filters to view orders for a customer:</span></span>
 
-    -   <span data-ttu-id="bab6c-134">Zoeken op naam</span><span class="sxs-lookup"><span data-stu-id="bab6c-134">Search by name</span></span>
-    -   <span data-ttu-id="bab6c-135">Zoeken op account</span><span class="sxs-lookup"><span data-stu-id="bab6c-135">Search by account</span></span>
+    -   <span data-ttu-id="333ba-134">Zoeken op naam</span><span class="sxs-lookup"><span data-stu-id="333ba-134">Search by name</span></span>
+    -   <span data-ttu-id="333ba-135">Zoeken op account</span><span class="sxs-lookup"><span data-stu-id="333ba-135">Search by account</span></span>
 
--   <span data-ttu-id="bab6c-136">Nadat u een klant hebt geselecteerd, kunt u de volgende informatie weergeven:</span><span class="sxs-lookup"><span data-stu-id="bab6c-136">After you select a customer, you can view the following information:</span></span>
+-   <span data-ttu-id="333ba-136">Nadat u een klant hebt geselecteerd, kunt u de volgende informatie weergeven:</span><span class="sxs-lookup"><span data-stu-id="333ba-136">After you select a customer, you can view the following information:</span></span>
 
-    -   <span data-ttu-id="bab6c-137">Naam en groep van klant</span><span class="sxs-lookup"><span data-stu-id="bab6c-137">Customer name and group</span></span>
-    -   <span data-ttu-id="bab6c-138">Contactgegevens van de klant</span><span class="sxs-lookup"><span data-stu-id="bab6c-138">Customer contact information</span></span>
-    -   <span data-ttu-id="bab6c-139">Verkooporders van de klant en gegevens van deze verkooporders:</span><span class="sxs-lookup"><span data-stu-id="bab6c-139">Customer sales orders and details about those sales orders:</span></span>
+    -   <span data-ttu-id="333ba-137">Naam en groep van klant</span><span class="sxs-lookup"><span data-stu-id="333ba-137">Customer name and group</span></span>
+    -   <span data-ttu-id="333ba-138">Contactgegevens van de klant</span><span class="sxs-lookup"><span data-stu-id="333ba-138">Customer contact information</span></span>
+    -   <span data-ttu-id="333ba-139">Verkooporders van de klant en gegevens van deze verkooporders:</span><span class="sxs-lookup"><span data-stu-id="333ba-139">Customer sales orders and details about those sales orders:</span></span>
     
-        -   <span data-ttu-id="bab6c-140">Klantnaam en adresgegevens</span><span class="sxs-lookup"><span data-stu-id="bab6c-140">Customer name and address information</span></span>
-        -   <span data-ttu-id="bab6c-141">Verschillende verkooporderdatums</span><span class="sxs-lookup"><span data-stu-id="bab6c-141">Various sales order dates</span></span>
-        -   <span data-ttu-id="bab6c-142">Contactgegevens voor de ordermedewerker</span><span class="sxs-lookup"><span data-stu-id="bab6c-142">Contact information for the order taker</span></span>
-        -   <span data-ttu-id="bab6c-143">Contactgegevens van de klant</span><span class="sxs-lookup"><span data-stu-id="bab6c-143">Customer contact information</span></span>
-        -   <span data-ttu-id="bab6c-144">Orderregels</span><span class="sxs-lookup"><span data-stu-id="bab6c-144">Order lines</span></span>
-        -   <span data-ttu-id="bab6c-145">Zendingen die tonen hoe en wanneer een verkooporder is verzonden</span><span class="sxs-lookup"><span data-stu-id="bab6c-145">Shipments that show how and when a sales order was shipped</span></span>
+        -   <span data-ttu-id="333ba-140">Klantnaam en adresgegevens</span><span class="sxs-lookup"><span data-stu-id="333ba-140">Customer name and address information</span></span>
+        -   <span data-ttu-id="333ba-141">Verschillende verkooporderdatums</span><span class="sxs-lookup"><span data-stu-id="333ba-141">Various sales order dates</span></span>
+        -   <span data-ttu-id="333ba-142">Contactgegevens voor de ordermedewerker</span><span class="sxs-lookup"><span data-stu-id="333ba-142">Contact information for the order taker</span></span>
+        -   <span data-ttu-id="333ba-143">Contactgegevens van de klant</span><span class="sxs-lookup"><span data-stu-id="333ba-143">Customer contact information</span></span>
+        -   <span data-ttu-id="333ba-144">Orderregels</span><span class="sxs-lookup"><span data-stu-id="333ba-144">Order lines</span></span>
+        -   <span data-ttu-id="333ba-145">Zendingen die tonen hoe en wanneer een verkooporder is verzonden</span><span class="sxs-lookup"><span data-stu-id="333ba-145">Shipments that show how and when a sales order was shipped</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="bab6c-146">Vereisten</span><span class="sxs-lookup"><span data-stu-id="bab6c-146">Prerequisites</span></span>
-<span data-ttu-id="bab6c-147">De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.</span><span class="sxs-lookup"><span data-stu-id="bab6c-147">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="333ba-146">Vereisten</span><span class="sxs-lookup"><span data-stu-id="333ba-146">Prerequisites</span></span>
+<span data-ttu-id="333ba-147">De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.</span><span class="sxs-lookup"><span data-stu-id="333ba-147">The prerequisites differ, based on the version of Microsoft Dynamics 365 that has been deployed for your organization.</span></span>
 
-### <a name="prerequisites-if-you-use-supply-chain-management"></a><span data-ttu-id="bab6c-148">Vereisten als u Supply Chain Management gebruikt</span><span class="sxs-lookup"><span data-stu-id="bab6c-148">Prerequisites if you use Supply Chain Management</span></span> 
-<span data-ttu-id="bab6c-149">Als Sales naar Supply Chain Management is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Verkooporders** publiceren.</span><span class="sxs-lookup"><span data-stu-id="bab6c-149">If Supply Chain Management has been deployed for your organization, the system administrator must publish the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="bab6c-150">Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span><span class="sxs-lookup"><span data-stu-id="bab6c-150">For instructions, see [Publish a mobile workspace](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span></span>
+### <a name="prerequisites-if-you-use-supply-chain-management"></a><span data-ttu-id="333ba-148">Vereisten als u Supply Chain Management gebruikt</span><span class="sxs-lookup"><span data-stu-id="333ba-148">Prerequisites if you use Supply Chain Management</span></span> 
+<span data-ttu-id="333ba-149">Als Sales naar Supply Chain Management is geïmplementeerd in uw organisatie, moet de systeembeheerder het mobiele werkgebied **Verkooporders** publiceren.</span><span class="sxs-lookup"><span data-stu-id="333ba-149">If Supply Chain Management has been deployed for your organization, the system administrator must publish the **Sales orders** mobile workspace.</span></span> <span data-ttu-id="333ba-150">Zie voor meer informatie [Een mobiel werkgebied publiceren](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span><span class="sxs-lookup"><span data-stu-id="333ba-150">For instructions, see [Publish a mobile workspace](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).</span></span>
 
-### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="bab6c-151">Vereisten als u versie Dynamics 365 for Operations 1611 met platformupdate 3 of hoger gebruikt</span><span class="sxs-lookup"><span data-stu-id="bab6c-151">Prerequisites if you use Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
-<span data-ttu-id="bab6c-152">Als Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="bab6c-152">If Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a><span data-ttu-id="333ba-151">Vereisten als u versie Dynamics 365 for Operations 1611 met platformupdate 3 of hoger gebruikt</span><span class="sxs-lookup"><span data-stu-id="333ba-151">Prerequisites if you use Dynamics 365 for Operations version 1611 with platform update 3 or later</span></span>
+<span data-ttu-id="333ba-152">Als Dynamics 365 for Operations versie 1611, met platformupdate 3 of hoger voor uw organisatie is geïmplementeerd, moet de systeembeheerder de volgende vereisten uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="333ba-152">If Dynamics 365 for Operations version 1611 with platform update 3 or later has been deployed for your organization, the system administrator must complete the following prerequisites.</span></span> 
 
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="bab6c-153">Vereiste</span><span class="sxs-lookup"><span data-stu-id="bab6c-153">Prerequisite</span></span></th>
-<th><span data-ttu-id="bab6c-154">Rol</span><span class="sxs-lookup"><span data-stu-id="bab6c-154">Role</span></span></th>
-<th><span data-ttu-id="bab6c-155">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="bab6c-155">Description</span></span></th>
+<th><span data-ttu-id="333ba-153">Vereiste</span><span class="sxs-lookup"><span data-stu-id="333ba-153">Prerequisite</span></span></th>
+<th><span data-ttu-id="333ba-154">Rol</span><span class="sxs-lookup"><span data-stu-id="333ba-154">Role</span></span></th>
+<th><span data-ttu-id="333ba-155">Omschrijving</span><span class="sxs-lookup"><span data-stu-id="333ba-155">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="bab6c-156">KB 4013633 implementeren.</span><span class="sxs-lookup"><span data-stu-id="bab6c-156">Implement KB 4013633.</span></span></td>
-<td><span data-ttu-id="bab6c-157">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="bab6c-157">System administrator</span></span></td>
+<td><span data-ttu-id="333ba-156">KB 4013633 implementeren.</span><span class="sxs-lookup"><span data-stu-id="333ba-156">Implement KB 4013633.</span></span></td>
+<td><span data-ttu-id="333ba-157">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="333ba-157">System administrator</span></span></td>
 
-<td><span data-ttu-id="bab6c-158">KB 4013633 is een X++-update of metagegevenshotfix die het mobiele werkgebied <strong>Verkooporders</strong> bevat.</span><span class="sxs-lookup"><span data-stu-id="bab6c-158">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Sales orders</strong> mobile workspace.</span></span> <span data-ttu-id="bab6c-159">Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4013633.</span><span class="sxs-lookup"><span data-stu-id="bab6c-159">To implement KB 4013633, your system administrator must follow these steps.</span></span>
+<td><span data-ttu-id="333ba-158">KB 4013633 is een X++-update of metagegevenshotfix die het mobiele werkgebied <strong>Verkooporders</strong> bevat.</span><span class="sxs-lookup"><span data-stu-id="333ba-158">KB 4013633 is an X++ update or metadata hotfix that contains the <strong>Sales orders</strong> mobile workspace.</span></span> <span data-ttu-id="333ba-159">Uw systeembeheerder moet de volgende stappen uitvoeren voor het implementeren van KB 4013633.</span><span class="sxs-lookup"><span data-stu-id="333ba-159">To implement KB 4013633, your system administrator must follow these steps.</span></span>
 <ol>
-<li><span data-ttu-id="bab6c-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Metagegevens-hotfix downloaden uit  Microsoft Dynamics Lifecycle Services (LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="bab6c-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
-<li><span data-ttu-id="bab6c-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">De metagegevenshotfix installeren</a>.</span><span class="sxs-lookup"><span data-stu-id="bab6c-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Install the metadata hotfix</a>.</span></span></li>
-<li><span data-ttu-id="bab6c-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Een implementeerbaar pakket maken</a> dat de ApplicationSuite en <strong>SCMMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</span><span class="sxs-lookup"><span data-stu-id="bab6c-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
-<li><span data-ttu-id="bab6c-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Het implementeerbare pakket toepassen</a></span><span class="sxs-lookup"><span data-stu-id="bab6c-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Apply the deployable package</a>.</span></span></li>
+<li><span data-ttu-id="333ba-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Metagegevens-hotfix downloaden uit  Microsoft Dynamics Lifecycle Services (LCS)</a>.</span><span class="sxs-lookup"><span data-stu-id="333ba-160"><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Download the metadata hotfix from Microsoft Dynamics Lifecycle Services (LCS)</a>.</span></span></li>
+<li><span data-ttu-id="333ba-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">De metagegevenshotfix installeren</a>.</span><span class="sxs-lookup"><span data-stu-id="333ba-161"><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Install the metadata hotfix</a>.</span></span></li>
+<li><span data-ttu-id="333ba-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Een implementeerbaar pakket maken</a> dat de ApplicationSuite en <strong>SCMMobile</strong>-modellen bevat en het implementeerbare pakket vervolgens uploaden naar LCS.</span><span class="sxs-lookup"><span data-stu-id="333ba-162"><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Create a deployable package</a> that contains the <strong>SCMMobile</strong> model, and then upload the deployable package to LCS.</span></span></li>
+<li><span data-ttu-id="333ba-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Het implementeerbare pakket toepassen</a></span><span class="sxs-lookup"><span data-stu-id="333ba-163"><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Apply the deployable package</a>.</span></span></li>
 
 </ol></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="bab6c-164">Het mobiele werkgebied <strong>Verkooporders</strong> publiceren.</span><span class="sxs-lookup"><span data-stu-id="bab6c-164">Publish the <strong>Sales orders</strong> mobile workspace.</span></span></td>
-<td><span data-ttu-id="bab6c-165">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="bab6c-165">System administrator</span></span></td>
-<td><span data-ttu-id="bab6c-166">Zie <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Mobiel werkgebied publiceren</a>.</span><span class="sxs-lookup"><span data-stu-id="bab6c-166">See <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
+<td><span data-ttu-id="333ba-164">Het mobiele werkgebied <strong>Verkooporders</strong> publiceren.</span><span class="sxs-lookup"><span data-stu-id="333ba-164">Publish the <strong>Sales orders</strong> mobile workspace.</span></span></td>
+<td><span data-ttu-id="333ba-165">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="333ba-165">System administrator</span></span></td>
+<td><span data-ttu-id="333ba-166">Zie <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Mobiel werkgebied publiceren</a>.</span><span class="sxs-lookup"><span data-stu-id="333ba-166">See <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="bab6c-167">De mobiele app downloaden en installeren</span><span class="sxs-lookup"><span data-stu-id="bab6c-167">Download and install the mobile app</span></span>
-<span data-ttu-id="bab6c-168">Download en installeer de mobiele Finance and Operations-app:</span><span class="sxs-lookup"><span data-stu-id="bab6c-168">Download and install the Finance and Operations mobile app:</span></span>
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="333ba-167">De mobiele app downloaden en installeren</span><span class="sxs-lookup"><span data-stu-id="333ba-167">Download and install the mobile app</span></span>
+<span data-ttu-id="333ba-168">Download en installeer de mobiele Finance and Operations-app:</span><span class="sxs-lookup"><span data-stu-id="333ba-168">Download and install the Finance and Operations mobile app:</span></span>
 
--   [<span data-ttu-id="bab6c-169">Voor Android-telefoons</span><span class="sxs-lookup"><span data-stu-id="bab6c-169">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
--   [<span data-ttu-id="bab6c-170">Voor iPhones</span><span class="sxs-lookup"><span data-stu-id="bab6c-170">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="333ba-169">Voor Android-telefoons</span><span class="sxs-lookup"><span data-stu-id="333ba-169">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="333ba-170">Voor iPhones</span><span class="sxs-lookup"><span data-stu-id="333ba-170">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="bab6c-171">Aanmelden bij de mobiele app</span><span class="sxs-lookup"><span data-stu-id="bab6c-171">Sign in to the mobile app</span></span>
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="333ba-171">Aanmelden bij de mobiele app</span><span class="sxs-lookup"><span data-stu-id="333ba-171">Sign in to the mobile app</span></span>
 
-1.  <span data-ttu-id="bab6c-172">Start de app op uw mobiele apparaat.</span><span class="sxs-lookup"><span data-stu-id="bab6c-172">Start the app on your mobile device.</span></span>
-2.  <span data-ttu-id="bab6c-173">Voer uw Dynamics 365-URL in.</span><span class="sxs-lookup"><span data-stu-id="bab6c-173">Enter your Dynamics 365 URL.</span></span>
-3.  <span data-ttu-id="bab6c-174">De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren.</span><span class="sxs-lookup"><span data-stu-id="bab6c-174">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="bab6c-175">Voer uw referenties in.</span><span class="sxs-lookup"><span data-stu-id="bab6c-175">Enter your credentials.</span></span>
-4.  <span data-ttu-id="bab6c-176">Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven.</span><span class="sxs-lookup"><span data-stu-id="bab6c-176">After you sign in, the available workspaces for your company is shown.</span></span> <span data-ttu-id="bab6c-177">Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.</span><span class="sxs-lookup"><span data-stu-id="bab6c-177">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
+1.  <span data-ttu-id="333ba-172">Start de app op uw mobiele apparaat.</span><span class="sxs-lookup"><span data-stu-id="333ba-172">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="333ba-173">Voer uw Dynamics 365-URL in.</span><span class="sxs-lookup"><span data-stu-id="333ba-173">Enter your Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="333ba-174">De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren.</span><span class="sxs-lookup"><span data-stu-id="333ba-174">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="333ba-175">Voer uw referenties in.</span><span class="sxs-lookup"><span data-stu-id="333ba-175">Enter your credentials.</span></span>
+4.  <span data-ttu-id="333ba-176">Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven.</span><span class="sxs-lookup"><span data-stu-id="333ba-176">After you sign in, the available workspaces for your company is shown.</span></span> <span data-ttu-id="333ba-177">Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.</span><span class="sxs-lookup"><span data-stu-id="333ba-177">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-<span data-ttu-id="bab6c-178">[![Opvragen om te vernieuwen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="bab6c-178">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
+<span data-ttu-id="333ba-178">[![Opvragen om te vernieuwen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="333ba-178">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a><span data-ttu-id="bab6c-179">Informatie over verkooporders voor een klant weergeven met het mobiele werkgebied Verkooporders</span><span class="sxs-lookup"><span data-stu-id="bab6c-179">View information about sales orders for a customer by using the Sales order mobile workspace</span></span>
+## <a name="view-information-about-sales-orders-for-a-customer-by-using-the-sales-order-mobile-workspace"></a><span data-ttu-id="333ba-179">Informatie over verkooporders voor een klant weergeven met het mobiele werkgebied Verkooporders</span><span class="sxs-lookup"><span data-stu-id="333ba-179">View information about sales orders for a customer by using the Sales order mobile workspace</span></span>
 
-1.  <span data-ttu-id="bab6c-180">Selecteer op uw mobiele apparaat het werkgebied **Verkooporders**.</span><span class="sxs-lookup"><span data-stu-id="bab6c-180">On your mobile device, select the **Sales orders** workspace.</span></span>
-2.  <span data-ttu-id="bab6c-181">Selecteer **Orders voor een klant weergeven**.</span><span class="sxs-lookup"><span data-stu-id="bab6c-181">Select **View orders for a customer**.</span></span>
-3.  <span data-ttu-id="bab6c-182">Gebruik rekening- of klantnaamgegevens om de klant te zoeken.</span><span class="sxs-lookup"><span data-stu-id="bab6c-182">Use account or customer name information to find the customer.</span></span>
-4.  <span data-ttu-id="bab6c-183">Selecteer de gewenste klant.</span><span class="sxs-lookup"><span data-stu-id="bab6c-183">Select the customer.</span></span>
-5.  <span data-ttu-id="bab6c-184">Selecteer **Contactgegevens** of **Verkooporders**.</span><span class="sxs-lookup"><span data-stu-id="bab6c-184">Select **Contact information** or **Sales orders**.</span></span> <span data-ttu-id="bab6c-185">Als u **Verkooporders** selecteert, wordt een lijst met verkooporders voor de klant weergegeven.</span><span class="sxs-lookup"><span data-stu-id="bab6c-185">If you select **Sales orders**, a list of sales orders for the customer is shown.</span></span>
-6.  <span data-ttu-id="bab6c-186">Selecteer **Verkooporders**.</span><span class="sxs-lookup"><span data-stu-id="bab6c-186">Select **Sales order**.</span></span> <span data-ttu-id="bab6c-187">U kunt nu informatie over de verkooporderregels, informatie over verzendingen, contactgegevens voor de klant en contactgegevens voor de ordermedewerker weergeven.</span><span class="sxs-lookup"><span data-stu-id="bab6c-187">You can now view information about sales order lines, information about shipments, customer contact information, and contact information for the order taker.</span></span>
+1.  <span data-ttu-id="333ba-180">Selecteer op uw mobiele apparaat het werkgebied **Verkooporders**.</span><span class="sxs-lookup"><span data-stu-id="333ba-180">On your mobile device, select the **Sales orders** workspace.</span></span>
+2.  <span data-ttu-id="333ba-181">Selecteer **Orders voor een klant weergeven**.</span><span class="sxs-lookup"><span data-stu-id="333ba-181">Select **View orders for a customer**.</span></span>
+3.  <span data-ttu-id="333ba-182">Gebruik rekening- of klantnaamgegevens om de klant te zoeken.</span><span class="sxs-lookup"><span data-stu-id="333ba-182">Use account or customer name information to find the customer.</span></span>
+4.  <span data-ttu-id="333ba-183">Selecteer de gewenste klant.</span><span class="sxs-lookup"><span data-stu-id="333ba-183">Select the customer.</span></span>
+5.  <span data-ttu-id="333ba-184">Selecteer **Contactgegevens** of **Verkooporders**.</span><span class="sxs-lookup"><span data-stu-id="333ba-184">Select **Contact information** or **Sales orders**.</span></span> <span data-ttu-id="333ba-185">Als u **Verkooporders** selecteert, wordt een lijst met verkooporders voor de klant weergegeven.</span><span class="sxs-lookup"><span data-stu-id="333ba-185">If you select **Sales orders**, a list of sales orders for the customer is shown.</span></span>
+6.  <span data-ttu-id="333ba-186">Selecteer **Verkooporders**.</span><span class="sxs-lookup"><span data-stu-id="333ba-186">Select **Sales order**.</span></span> <span data-ttu-id="333ba-187">U kunt nu informatie over de verkooporderregels, informatie over verzendingen, contactgegevens voor de klant en contactgegevens voor de ordermedewerker weergeven.</span><span class="sxs-lookup"><span data-stu-id="333ba-187">You can now view information about sales order lines, information about shipments, customer contact information, and contact information for the order taker.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
