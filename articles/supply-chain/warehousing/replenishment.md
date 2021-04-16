@@ -2,11 +2,9 @@
 title: Overzicht van Aanvulling
 description: Dit onderwerp beschrijft de aanvullingsstrategieën die beschikbaar zijn voor magazijnen die gebruikmaken van de functionaliteit die beschikbaar is in Magazijnbeheer.
 author: Mirzaab
-manager: tfehr
 ms.date: 02/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSReplenishmentTemplates, WHSInventFixedLocation, WHSRequestType
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56df730dc4d66e07591ed11240d2bbd5efe9ee2c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f2b9ae560a991d50b9e63e6c3d73f01ce72394fb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236591"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814459"
 ---
 # <a name="replenishment-overview"></a>Overzicht van Aanvulling
 
@@ -51,7 +49,7 @@ De pagina **Aanvullingssjabloon** bevat een selectievakje **Gebruik van niet-ger
 
 **Aanvullingseenheid** is de minimum eenheid voor aanvullen. Dit moet een geheel getal zijn dat een veelvoud is van de eenheid. Het systeem voert een afronding uit naar de hoogste eenheid die mogelijk is bij het maken van werk.
 
-Vraagaanvulling wordt ondersteund voor verkooporders, transferorders, productieorders en kanbans. 
+Vraagaanvulling wordt ondersteund voor verkooporders, overboekingsorders, productieorders en kanbans. 
 
 ## <a name="minmax-replenishment"></a>Min/Max aanvulling
 In Min/Max aanvulling wordt voorraad aangevuld zodat deze tussen de minimale en maximale limieten blijft die zijn ingesteld. Dit proces gebeurt meestal eenmaal per dag om te garanderen dat alle orderverzamellocaties tot het maximumniveau zijn gevuld voordat het orderverzamelen van start gaat. 

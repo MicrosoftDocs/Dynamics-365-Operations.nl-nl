@@ -1,12 +1,10 @@
 ---
 title: Magazijnmedewerkers beheren
-description: In dit artikel wordt beschreven hoe u de magazijnapp kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
+description: In dit artikel wordt beschreven hoe u de mobiele app Magazijnbeheer kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage, WHSResetUserPassword
 audience: Application User
@@ -17,18 +15,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 18dbcf32f85bca51bf48e5ed8c64fedc99f66082
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f5676879f631fce9c9c674250a07723131906fa
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216830"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818963"
 ---
 # <a name="manage-warehouse-workers"></a>Magazijnmedewerkers beheren
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel wordt beschreven hoe u de magazijnapp kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
+In dit artikel wordt beschreven hoe u de mobiele app Magazijnbeheer kunt gebruiken om het werk te helpen beheren en controleren dat door werknemers in uw magazijnen wordt uitgevoerd.
 
 Als u de functionaliteit in Magazijnbeheer gebruikt, wordt naar alle bewerkingen van magazijnwerknemers verwezen als *werk*. Werk zoals het orderverzamelen, verplaatsen en tellen van voorhanden voorraad wort geregistreerd door mobiele apparaten te gebruiken. Voordat een magazijnwerknemer werk kan uitvoeren, moet hij of zij aan een werknemer in Human resources worden gekoppeld. Aan elk **Werknemer**-account kunnen meerdere magazijnwerkgebruikers zijn gekoppeld. Deze werkgebruikers kunnen in verschillende magazijnen werken en kunnen verschillende niveaus van toegang tot de verschillende menu's voor mobiele apparaten hebben. U kunt de gebruikers van het magazijnwerk zien als meerdere aanmeldingen voor de geselecteerde werknemer. Elke werkgebruiker heeft een standaardmagazijn en de specifieke workflows worden beschikbaar gemaakt door de menuopties die voor die werkgebruiker beschikbaar zijn. 
 
@@ -51,7 +49,7 @@ Bovendien kunt u de geschatte tijd gebruiken in de regels om automatisch werk te
 De analyse van de tijd die wordt gebruikt om werkitems te verwerken, kan helpen verbeteringen van de efficiëntie van magazijnmedewerkers te bereiken. De volgende rapporten zijn beschikbaar om met deze analyse te helpen:
 
 -   **Arbeid door gebruiker** - Dit rapport bevat werknemersproductiviteit op basis van werkelijke tijden, vergeleken met verwachte tijden.
--   **Transactietype voor arbeid door werk** U kunt dit rapport gebruiken om ondoelmatigheden in specifieke magazijnprocessen te onderzoeken. U ziet bijvoorbeeld dat verzamelingen voor transferorders deze week langer duren dan in vorige weken. U kunt deze informatie vervolgens gebruiken voor verder onderzoek.
+-   **Transactietype voor arbeid door werk** U kunt dit rapport gebruiken om ondoelmatigheden in specifieke magazijnprocessen te onderzoeken. U ziet bijvoorbeeld dat verzamelingen voor overboekingsorders deze week langer duren dan in vorige weken. U kunt deze informatie vervolgens gebruiken voor verder onderzoek.
 
 
 

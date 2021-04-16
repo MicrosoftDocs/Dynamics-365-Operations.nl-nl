@@ -2,7 +2,6 @@
 title: Goederen in transit verwerken
 description: In dit onderwerp wordt beschreven hoe u met orders voor goederen in transit werkt. Wanneer een order of reis is ingesteld voor de verwerking van goederen in transit, kunnen goederen worden gefactureerd voordat deze voor verbruik in het magazijn zijn ontvangen.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 77e30f8679c9422e895432c023997b5ff4768ebd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500399"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823404"
 ---
 # <a name="goods-in-transit-processing"></a>Goederen in transit verwerken
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven hoe u met orders voor goederen in transit werkt. Dit type order wordt alleen gebruikt door de module **Francoprijzen**. Wanneer een order of reis is ingesteld voor de verwerking van goederen in transit, hoeft u niet te wachten totdat de goederen door het magazijn worden ontvangen voordat u ze kunt factureren. De goederen worden in dit geval gefactureerd wanneer ze het magazijn van de leverancier of de haven van vertrek verlaten en de financiële kosten worden herkend wanneer de reis begint. Met deze functionaliteit kunt u voorraad op de juiste manier in eigendom nemen, omdat goederen vaak eigendom van uw organisatie worden wanneer ze de haven verlaten.
 
@@ -135,7 +133,7 @@ Met Francoprijzen worden de volgende processen voor het maken van werk aan de me
 
 De configuratie-instellingen voor deze processen lijken op de instellingen voor het [ontvangen en het maken van processen voor het maken van wegzetwerk](https://technet.microsoft.com/library/dn553216.aspx). Met het proces *Artikel van goederen in transit ontvangen en wegzetten* wordt echter ook het volgende veld toegevoegd.
 
-- **Container voltooid inschakelen**: Als deze optie is ingesteld op *Ja* wanneer het wegzetwerk is voltooid, biedt de magazijnapp een extra optie met de naam **Container voltooid**. Wanneer deze optie is geselecteerd, wordt de werknemer gevraagd te bevestigen dat de container is voltooid. Op dat moment worden alle korte ontvangsten verwerkt als een transactie voor minderlevering.
+- **Container voltooid inschakelen**: Als deze optie is ingesteld op *Ja* wanneer het wegzetwerk is voltooid, biedt de mobiele app Magazijnbeheer een extra optie met de naam **Container voltooid**. Wanneer deze optie is geselecteerd, wordt de werknemer gevraagd te bevestigen dat de container is voltooid. Op dat moment worden alle korte ontvangsten verwerkt als een transactie voor minderlevering.
 
 ### <a name="location-directives"></a>Locatie-instructies
 

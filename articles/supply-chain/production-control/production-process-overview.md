@@ -2,11 +2,9 @@
 title: Overzicht van productieproces
 description: In dit onderwerp vindt u een overzicht van de productieprocessen. De verschillende fasen van productieorders, batchorders en kanbans worden beschreven, van het maken van de order tot het afsluiten van de boekperiode.
 author: cvocph
-manager: tfehr
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace, ProdParmCostEstimation, ProdParmRelease, ProdSchedule, ProdTableListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12780fc1fa9f6a9c25495ace34b9731df49d5ae6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dcdd8097279027df2fa5cf22cc38cc8a5e2a13e3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209414"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814579"
 ---
 # <a name="production-process-overview"></a>Overzicht van productieproces
 
@@ -51,7 +49,7 @@ Verschillende producten en de productietopologieën vereisen het gebruik van ver
 Om het productieprincipe te selecteren dat het beste past bij een bepaald product en een gerelateerde markt, moet u de behoeften van productie en logistiek in overweging nemen, alsmede de klantverwachtingen over levertijden.
 
 -   **Maken naar voorraad** - Dit is het klassieke productieprincipe, waarbij producten voor voorraad worden geproduceerd op basis van prognose of minimumvoorraadaanvulling (de laatstgenoemde wordt meestal berekend op basis van prognose of historisch verbruik).
--   **Maken naar order** - Standaardproducten worden gemaakt naar order of voltooid naar order. Hoewel de voorproductie kan worden uitgevoerd met behulp van het principe Maken naar voorraad, worden dure stappen in de waardeketen of stappen waarbij varianten worden gemaakt, geactiveerd door een verkooporder of een transferorder.
+-   **Maken naar order** - Standaardproducten worden gemaakt naar order of voltooid naar order. Hoewel de voorproductie kan worden uitgevoerd met behulp van het principe Maken naar voorraad, worden dure stappen in de waardeketen of stappen waarbij varianten worden gemaakt, geactiveerd door een verkooporder of een overboekingsorder.
 -   **Configureren naar order** - Zoals bij het principe Makeren naar order, worden de laatste bewerkingen van de waardeketen naar order gemaakt. De werkelijke productvariant die wordt geproduceerd is niet vooraf gedefinieerd, maar wordt gemaakt op het moment van orderinvoer, op basis van het configuratiemodel van het verkoopproduct. Het principe Configureren naar order vereist een bepaald niveau van proceseenmaking voor een bepaalde productregel.
 -   **Engineer naar order** – Processen voor Engineer naar order worden meestal uitgevoerd via een project en beginnen meestal met de engineeringfase. Tijdens de engineeringfase worden de werkelijke producten die zijn vereist voor het vervullen van de order ontworpen en beschreven. Vervolgens kunnen productieorders, batchorders of kanbans worden gemaakt om de producten te vervaardigen.
 

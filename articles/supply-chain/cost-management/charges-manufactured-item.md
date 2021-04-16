@@ -2,11 +2,9 @@
 title: Toeslagen voor een geproduceerd artikel weergeven
 description: De constante kosten van een gefabriceerd artikel staan voor de instellingstijden van de bewerking en voor de componenten die een constante hoeveelheid of een constant uitvalbedrag hebben.
 author: AndersGirke
-manager: tfehr
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: f8d7fd7488630d9d24d5d7dc31ea39a10385a290
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d65e3c4220c05d143d57413749ef805fd58dcf08
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235503"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813262"
 ---
 # <a name="display-charges-for-a-manufactured-item"></a>Toeslagen voor een geproduceerd artikel weergeven
 

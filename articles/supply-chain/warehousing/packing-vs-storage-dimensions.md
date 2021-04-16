@@ -2,11 +2,9 @@
 title: Verschillende dimensies voor verpakking en opslag instellen
 description: In dit onderwerp wordt aangegeven voor welk proces (verpakking, opslag of geneste verpakking) elke opgegeven dimensie wordt gebruikt.
 author: mirzaab
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: aa5cbf807e809238489c539d3ad8c0bc34421774
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: e997f8bccde7856303d8b3c6407143598ccc6030
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501289"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818915"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Verschillende dimensies voor verpakking en opslag instellen
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Sommige artikelen worden verpakt of opgeslagen op een manier die u mogelijk nodig hebt om fysieke dimensies op een andere manier bij te houden voor elk van de verschillende processen. Met de functie *Verpakkingsproductdimensie* kunt u voor elk product een of meer typen dimensies instellen. Elk dimensietype biedt een reeks fysieke afmetingen (gewicht, breedte, diepte en hoogte) en legt het proces vast waarin deze fysieke metingwaarden van toepassing zijn. Wanneer deze functie is ingeschakeld, ondersteunt het systeem de volgende typen dimensies:
 

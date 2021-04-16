@@ -2,11 +2,9 @@
 title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.15 (januari 2021)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.15.
 author: kamaybac
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1d2aa12e77080b530847bfdbde4dbe3a67431c3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e550f310fe3ec0aaee9c16f3edccd775921a64be
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258894"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821148"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.15 (januari 2021)
 
@@ -35,11 +33,11 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-Deze versie bevat de volgende functies. Sommige van de functies in de lijst zijn nog steeds in preview, terwijl andere mogelijk al algemeen beschikbaar zijn. Volg de koppelingen naar het [releaseeplan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
+Deze versie bevat de volgende functies. Volg de koppelingen naar het [releaseeplan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
 
 - Beheer van scale unit voor cloud en rand met werklasten voor productie en magazijnverwerking<br> - Zie [Schaaleenheden voor Cloud en Edge voor productie en magazijnbeheerworkloads](../cloud-edge/cloud-edge-landing-page.md) voor meer informatie.
 
-- [Transferorders maken en verwerken vanuit de magazijnapp](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Zie [Transferorders maken vanuit de magazijn-app](../warehousing/create-transfer-order-from-warehouse-app.md) voor meer informatie.
+- [overboekingsorders maken en verwerken vanuit de magazijnapp](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Zie [overboekingsorders maken vanuit de magazijn-app](../warehousing/create-transfer-order-from-warehouse-app.md) voor meer informatie.
 
 - [Standaard antwoordvelden voor offerteaanvragen voor biedingen van leveranciers](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Zie [Overzicht van offerteaanvragen](../procurement/request-quotations.md) voor meer informatie.
 

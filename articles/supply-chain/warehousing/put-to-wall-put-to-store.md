@@ -2,11 +2,9 @@
 title: Put to wall - put to store
 description: Dit onderwerp bevat informatie over de functionaliteit Put to wall - put to store. Met deze functie kunt u scenario's afhandelen waarin u een product moet consolideren naar een inpakvoorbereidingsruimte op basis van configureerbare criteria. Dit helpt om de orderverzameltijd te verkorten omdat orderverzamelen op één doelnummerplaat mogelijk is en meer wegzetplaatsen kunnen worden gebruikt dan bij het clusterverzamelen.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationType, WHSLocationProfile, WHSLocation, WHSPackProfile, WHSWaveStepCode, WHSOutboundSortTemplate, WHSPostMethod, WHSWaveTemplateTable, WHSLocDirTable, WHSWorkClass, WHSWorkTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e2dcfa18af457ea21618704bafa2ed81c615d952
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cf34a61d0b3f784b5a424473588d05bf8703635c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228508"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823282"
 ---
 # <a name="put-to-wall---put-to-store"></a>Put to wall - put to store
 
@@ -524,7 +522,7 @@ Nu alle voorraad op de sorteerlocatie is geplaatst, moet deze worden gesorteerd 
 
 Als de sorteerposities handmatig moeten worden gesloten, moet de optie **Sorteerpositie automatisch sluiten** voor de uitgaande sorteersjabloon zijn ingesteld op *Nee* en moet er worden afgesloten voordat de voorraad kan worden verplaatst naar het laaddeurgebied. Posities kunnen op verschillende manieren worden gesloten:
 
-- Via de magazijnapp:
+- Via de mobiele app Magazijnbeheer:
 
     - De gebruiker kan een van de artikelen scannen die zich al op de positie bevinden en vervolgens **Sluiten** selecteren om de positie te sluiten.
     - Als de gebruiker een container scant die al is gesorteerd, wordt een foutbericht weergegeven. De gebruiker kan echter wel doorgaan met het sluiten van de positie.

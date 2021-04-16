@@ -2,7 +2,6 @@
 title: Francoprijzen ramen en beheren
 description: U kunt via de automatische kosteninstellingen een raming voor de francoprijzen bepalen. In dit onderwerp wordt uitgelegd hoe u verschillende scenario's kunt definiëren om een nauwkeurigere raming te leveren.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/26/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: cbd652f2b29f7a78ad9e4e1d3dda4a3ef8a9f3f3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 510f5fc4910dde2f91fe2d666abb23a9bd7381f1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501265"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823428"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Francoprijzen ramen en beheren
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 U kunt via de [automatische kosteninstellingen](auto-cost-setup.md) een raming voor de francoprijzen bepalen. Daarnaast kunt u verschillende scenario's definiëren om een nauwkeurigere raming te leveren. Deze scenario's worden opgeslagen. Daarom kunt u ze later bekijken en ze vergelijken met de werkelijke gegevens in een rapport. U kunt de artikelprijs ook bijwerken.
 
