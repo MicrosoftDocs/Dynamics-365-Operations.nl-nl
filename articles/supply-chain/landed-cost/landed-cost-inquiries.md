@@ -2,7 +2,6 @@
 title: Query's voor francoprijzen
 description: In dit onderwerp wordt beschreven hoe u de verschillende typen query's kunt opzoeken en gebruiken die beschikbaar zijn voor de module Francoprijzen.
 author: sherry-zheng
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 10f5948b4e3df089aef982269143254d9ac1e8a9
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 22a2e76780adb43b053b6cf7fd08411a4a60aeac
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500351"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823356"
 ---
 # <a name="landed-cost-inquiries"></a>Query's voor francoprijzen
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="voyage-line-inquiries"></a>Query's voor reisregels
 
@@ -41,8 +39,8 @@ Het tabblad **Overzicht** van de querypagina **Reisregels** bevat een raster met
 | Kolom | Beschrijving |
 |---|---|
 | **Artikelnummer** | Het artikel voor de reisregel. |
-| **Verwijzing** | Het type order (inkooporder of transferorder). |
-| **Nummer** | Het nummer van de inkooporder of transferorder. |
+| **Verwijzing** | Het type order (inkooporder of overboekingsorder). |
+| **Nummer** | Het nummer van de inkooporder of overboekingsorder. |
 | **Folio** | De folio die aan de reisregel is gekoppeld. |
 | **Container** | De container die aan de reisregel is gekoppeld. |
 | **Reis** | De reis die aan de reisregel is gekoppeld. |
@@ -91,8 +89,8 @@ In de volgende tabel worden de kolommen in het raster op de pagina **Artikeltrac
 | **Productnaam** | De naam van het artikel voor de inkooporderregel. |
 | **Hoeveelheid** | De hoeveelheid van de inkooporderregel voor de inkooporderregel. |
 | **Eenheid** | De maateenheid voor de inkooporderregel. |
-| **Verwijzing** | Het type order (inkooporder of transferorder) |
-| **Verwijzingsnummer** | Het nummer van de inkooporder of transferorder. |
+| **Verwijzing** | Het type order (inkooporder of overboekingsorder) |
+| **Verwijzingsnummer** | Het nummer van de inkooporder of overboekingsorder. |
 | **Nalevering** | Een symbool geeft aan dat er naleveringen van verkooporders zijn voor het artikel. |
 | (Overige dimensies) | U kunt indien nodig kolommen voor extra dimensies weergeven. Deze dimensies zijn batchnummer, voorraadstatus en magazijn. Selecteer in het actievenster **Dimensies weergeven** om een dialoogvenster te openen waarin u de dimensies kunt selecteren die u wilt opnemen. |
 

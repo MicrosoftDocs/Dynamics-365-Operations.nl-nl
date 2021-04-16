@@ -2,11 +2,9 @@
 title: Werken met locatie-instructies
 description: In dit onderwerp wordt beschreven hoe u met locatie-instructies werkt. Locatie-instructies zijn door gebruiker gedefinieerde regels voor het aangeven van verzamel- en wegzetlocaties voor voorraadverplaatsingen.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
-ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
+ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470514"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838389"
 ---
 # <a name="work-with-location-directives"></a>Werken met locatie-instructies
 
@@ -152,7 +150,7 @@ De velden op het sneltabblad **Locatie-instructies** zijn specifiek voor het wer
     > [!IMPORTANT]
     > U moet twee regels met dezelfde structuur en instelling opgeven, maar u moet de optie **Meerdere SKU's** op *Ja* instellen voor één regel en *Nee* voor de andere, zodat u zowel sets met meerdere artikelen als sets met één SKU kunt doen. Daarom hebt u voor neerzetbewerkingen twee identieke locatie-instructies nodig, zelfs als u geen onderscheid hoeft te maken tussen enkele en meerdere SKU's op een werk-id. Als u deze locatie-instructies niet instelt, komen er onverwachte locaties voor bedrijfsprocessen uit de toegepaste locatie-instructie. U moet een vergelijkbare instelling gebruiken voor locatie-instructies met het **Werktype** *Verzamelen* als u orders met meerdere SKU's wilt verwerken.
 
-    Gebruik de optie **Meerdere SKU's** voor werkregels die meer dan één artikelnummer verwerken. (Het artikelnummer is leeg bij de werkdetails en wordt weergegeven als **Meerdere** op de verwerkingspagina's in de magazijn-app.)
+    Gebruik de optie **Meerdere SKU's** voor werkregels die meer dan één artikelnummer verwerken. (Het artikelnummer is leeg bij de werkdetails en wordt weergegeven als **Meerdere** op de verwerkingspagina's in de mobiele app Magazijnbeheer.)
 
     In een typisch voorbeeldscenario is een werksjabloon zo ingesteld dat deze over meerdere verzamel/neerzetparen beschikt. In dat geval kunt u zoeken naar een specifieke faseringslocatie voor regels met het **Werktype** *Neerzetten*.
 
@@ -171,7 +169,7 @@ De velden op het sneltabblad **Locatie-instructies** zijn specifiek voor het wer
     > [!NOTE]
     > Dit veld is alleen beschikbaar voor de geselecteerde werkordertypen waar aanvulling is toegestaan. Zie voor een volledige lijst de sectie [Velden die specifiek zijn voor werkordertypen](#fields-specific-types).
 
-- **Beschikkingscode**: dit veld wordt gebruikt voor locatie-instructies met het werkordertype *Inkooporders*, *Eindproducten wegzetten* of *Retourorders* en een werktype *Neerzetten*. Gebruik dit om de stroom te leiden voor het gebruik van een specifieke locatie-instructie, afhankelijk van de beschikkingscode die een medewerker in de magazijn-app heeft geselecteerd. U kunt bijvoorbeeld terugkerende goederen naar een inspectielocatie sturen voordat deze naar de voorraad worden geretourneerd. U kunt een beschikkingscode koppelen aan een voorraadstatus. Op deze manier kan deze worden gebruikt om de voorraadstatus te wijzigen als onderdeel van een ontvangstproces. U hebt bijvoorbeeld een beschikkingscode *QA* die de voorraadstatus instelt op *QA*. U kunt vervolgens een afzonderlijke locatie-instructie krijgen om die voorraad naar een quarantainelocatie te verplaatsen.
+- **Beschikkingscode**: dit veld wordt gebruikt voor locatie-instructies met het werkordertype *Inkooporders*, *Eindproducten wegzetten* of *Retourorders* en een werktype *Neerzetten*. Gebruik dit om de stroom te leiden voor het gebruik van een specifieke locatie-instructie, afhankelijk van de beschikkingscode die een medewerker in de mobiele app Magazijnbeheer heeft geselecteerd. U kunt bijvoorbeeld terugkerende goederen naar een inspectielocatie sturen voordat deze naar de voorraad worden geretourneerd. U kunt een beschikkingscode koppelen aan een voorraadstatus. Op deze manier kan deze worden gebruikt om de voorraadstatus te wijzigen als onderdeel van een ontvangstproces. U hebt bijvoorbeeld een beschikkingscode *QA* die de voorraadstatus instelt op *QA*. U kunt vervolgens een afzonderlijke locatie-instructie krijgen om die voorraad naar een quarantainelocatie te verplaatsen.
 
     > [!NOTE]
     > Dit veld is alleen beschikbaar voor de geselecteerde werkordertypen waar aanvulling is toegestaan. Zie voor een volledige lijst de sectie [Velden die specifiek zijn voor werkordertypen](#fields-specific-types).
@@ -205,7 +203,7 @@ Gebruik het sneltabblad **Regels** om voorwaarden vast te leggen voor het toepas
     > [!NOTE]
     > Deze instelling **Naar boven afronden op eenheid** werkt alleen voor het werkordertype *Grondstoffen verzamelen* en alleen voor locatie-instructies waarvoor het veld **Werktype** is ingesteld op *Verzamelen*.
 
-- **Verpakkingshoeveelheid zoeken**: als u een verpakkingshoeveelheid opgeeft op een verkooporder, een transferorder of een productieorder, kunt u met dit selectievakje het systeem beperken, zodat er alleen locaties met minimaal die verpakkingshoeveelheid kunnen worden geselecteerd.
+- **Verpakkingshoeveelheid zoeken**: als u een verpakkingshoeveelheid opgeeft op een verkooporder, een overboekingsorder of een productieorder, kunt u met dit selectievakje het systeem beperken, zodat er alleen locaties met minimaal die verpakkingshoeveelheid kunnen worden geselecteerd.
 
     > [!NOTE]
     > Dit werkt alleen voor locatie-instructies van het type *Verzamelen*.
@@ -238,7 +236,7 @@ U kunt meerdere locatierichtlijnacties voor elke regel definiëren. Een volgnumm
     - **FEFO-batchreservering**: deze strategie maakt gebruik van FEFO-batchreserveringen (first expired, first out: eerst verlopen, eerst eruit). Gebruik deze strategie wanneer de voorraad wordt gevonden aan de hand van eenv batchvervaldatum en waarvoor een batchreservering is toegewezen. U kunt deze strategie alleen maar voor batch ingeschakelde artikelen gebruiken. Deze strategie is alleen geldig wanneer het veld **Werktype** is ingesteld op *Verzamelen*.
     - **Naar boven afronden tot de volledige LP- en FEFO-batch**: deze strategie combineert de elementen van de strategieën *FEFO-batchreservering* en *Naar boven afronden tot de volledige LP*. Deze is alleen geldig voor batchartikelen en locatie-instructies met het werktype *Verzamelen*. Voor de regel moet batch zijn ingeschakeld voor het gebruik van de strategie *FEFO-batchreservering* en de strategie *Afronden naar boven tot de volledige LP* kan alleen worden gebruikt voor aanvulling. Als deze strategie samen met een locatievoorraadlimiet wordt geconfigureerd, kan hierdoor de geselecteerde neerzetwerklocatie overbelast raken en de voorraadlimieten worden genegeerd.
     - **Afronden naar boven tot volledige LP**: deze strategie wordt gebruikt om de voorraadhoeveelheid naar boven af te ronden om overeen te komen met de nummerplaathoeveelheid die is toegewezen aan de artikelen die moeten worden verzameld. U kunt deze strategie alleen gebruiken voor locatie-instructies voor aanvullen van het type *Verzamelen*. Als deze strategie samen met een locatievoorraadlimiet wordt geconfigureerd, kan hierdoor de geselecteerde neerzetwerklocatie overbelast raken en de voorraadlimieten worden genegeerd.
-    - **Nummerplaatgeleid**: gebruik deze strategie wanneer u de order aan het magazijn vrijgeeft om verzamel-en-neerzetwerkzaamheden te maken. U kunt deze aanpak gebruiken voor meerdere nummerplaten. Deze strategie probeert orderverzamelingswerk te reserveren en te maken voor de locaties die de gevraagde nummerplaten bevatten die aan de transferorderregels zijn gekoppeld. Als deze acties echter niet kunnen worden voltooid, maar u nog steeds orderverzamelingstaken wilt maken, moet u terugvallen op een andere strategie voor locatie-instructieacties. Afhankelijk van de vereisten voor uw bedrijfsproces wilt u mogelijk ook naar voorraad zoeken in een ander gebied van het magazijn.
+    - **Nummerplaatgeleid**: gebruik deze strategie wanneer u de order aan het magazijn vrijgeeft om verzamel-en-neerzetwerkzaamheden te maken. U kunt deze aanpak gebruiken voor meerdere nummerplaten. Deze strategie probeert orderverzamelingswerk te reserveren en te maken voor de locaties die de gevraagde nummerplaten bevatten die aan de overboekingsorderregels zijn gekoppeld. Als deze acties echter niet kunnen worden voltooid, maar u nog steeds orderverzamelingstaken wilt maken, moet u terugvallen op een andere strategie voor locatie-instructieacties. Afhankelijk van de vereisten voor uw bedrijfsproces wilt u mogelijk ook naar voorraad zoeken in een ander gebied van het magazijn.
     - **Lege locatie zonder inkomend werk**: gebruik deze strategie om lege locaties te vinden. Een locatie wordt beschouwd als leeg als het geen fysieke voorraad en geen verwacht inkomend werk heeft. U kunt deze strategie alleen gebruiken voor locatie-instructies die het werktype *Wegzetten* hebben.
     - **Oudercom locatie FIFO**: gebruik de FIFO-strategie (first in, first out: eerste erin, eerste eruit) om artikelen met en zonder batchtracering te verzenden, op basis van de datum waarop de voorraad in het magazijn binnenkomt. Deze mogelijkheid kan vooral nuttig zijn voor voorraad zonder batchtracering, waarbij geen vervaldatum beschikbaar is voor sorteren. De FIFO-strategie zoekt naar de locatie die de oudste ouderdomsdatum bevat en wijst dan op basis van die ouderdomsdatum orderverzamelen toe.
     - **Oudercom locatie LIFO**: gebruik de LIFO-strategie (last in, last out: laatste erin, laatste eruit) om artikelen met en zonder batchtracering te verzenden, op basis van de datum waarop de voorraad in het magazijn binnenkomt. Deze mogelijkheid kan vooral nuttig zijn voor voorraad zonder batchtracering, waarbij geen vervaldatum beschikbaar is voor sorteren. De LIFO-strategie zoekt naar de locatie die de nieuwste ouderdomsdatum bevat en wijst dan op basis van die ouderdomsdatum orderverzamelen toe.

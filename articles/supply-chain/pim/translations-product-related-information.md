@@ -2,11 +2,9 @@
 title: Veelgestelde vragen (FAQ) over productgerelateerde vertalingen
 description: Dit onderwerp beschrijft hoe u vertalingen voor producten, productdimensiewaarden en productkenmerken kunt beheren.
 author: cvocph
-manager: tfehr
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysTranslationDetail, SysTranslationLanguage, SysTranslationList, EcoResProductListPage, EcoResProductVariants, EcoResProductDetailsExtended, EcoResProductCreate, EcoResProductDetails, RetailSizeGroupTable, RetailStyleGroupTable, RetailColorGroupTable, PCTranslationLanguageLookup, EcoResProductCategory
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Product information
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55cf7ef19fddf79c1dc81e6fbec1d1672026ebc1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dba501acb3a360f2936ff407b549df6d7eb358ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223381"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841570"
 ---
 # <a name="product-related-translations-faq"></a>Veelgestelde vragen (FAQ) over productgerelateerde vertalingen
 
@@ -114,7 +112,7 @@ Volg deze stappen om een dimensiewaardegroep te maken:
 1.  Klik op **Productgegevensbeheer** &gt; **Instellen** &gt; **Variantgroepen**.
 2.  Selecteer **Grootte** **groepen**, **Kleurgroepen** of **Stijlgroepen**.
 3.  Klik op **Nieuw**, en typ vervolgens een naam voor de groep in het veld **Grootte** **groep**, **Kleurgroep** of **Stijlgroep**. Klik op **Afmetingen**, **Kleuren** of **Stijlen** om regels voor de groepen te maken.
-4.  Klik op de pagina **Groottegroep** regels, **Kleurgroepregels** of **Stijlgroepregels** op **Nieuw**, en maak de grootte, de kleuren en de stijlen voor de groepen.
+4.  Klik op de pagina **Groottegroep** regels, **Kleurgroepregels** of **Stijlgroepregels** op **Nieuw** en maak de grootte, de kleuren en de stijlen voor de groepen.
 
 Om vertalingen voor waarden in een dimensiewaardegroep te beheren, volgt u deze stappen:
 1.  Volg de stappen in de vorige procedure om een dimensiewaardegroep te maken om de pagina **Groottegroepregels**, **Kleurgroepregels** of **Stijlgroepregels** te openen.

@@ -2,11 +2,9 @@
 title: De mobiele app Magazijnbeheer installeren en verbinden
 description: In dit onderwerp wordt uitgelegd hoe u de mobiele app Magazijnbeheer op al uw mobiele apparaten installeert en configureert om verbinding te maken met uw Microsoft Dynamics 365 Supply Chain Management-omgeving.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,20 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 378fff6274902025b1fca487874f37ed30df25ed
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487020"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835601"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>De mobiele app Magazijnbeheer installeren en verbinden
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> In dit onderwerp wordt beschreven hoe u de nieuwe mobiele app Magazijnbeheer configureert. Zie [De magazijnapp installeren en verbinden](../../supply-chain/warehousing/install-configure-warehousing-app.md) als u informatie zoekt over het configureren van de oude magazijnapp.
+> In dit onderwerp wordt beschreven hoe u de nieuwe mobiele app Magazijnbeheer configureert. Zie [De magazijnapp installeren en verbinden](../../supply-chain/warehousing/install-configure-warehousing-app.md) als u informatie zoekt over het configureren van de oude magazijnapp (die nu is afgeschaft).
 
 In dit onderwerp wordt uitgelegd hoe u de mobiele app Magazijnbeheer downloadt en op al uw mobiele apparaten installeert en hoe u de app configureert om verbinding te maken met uw Supply Chain Management-omgeving. U kunt elk apparaat handmatig configureren of u kunt verbindingsinstellingen importeren via een bestand of door een QR-code te scannen.
 

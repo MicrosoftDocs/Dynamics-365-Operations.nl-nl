@@ -2,11 +2,9 @@
 title: Standaardkosten bijwerken voor een nieuw gefabriceerd artikel
 description: Dit artikel bevat richtlijnen voor het bijwerken van standaardkosten voor een nieuw gefabriceerd artikel.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03b5fb1311f5a483914c83563d989e1732d431ad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1411246f1d0a8ea870423ba6f210294a033656fc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219456"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842100"
 ---
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Standaardkosten bijwerken voor een nieuw gefabriceerd artikel
 

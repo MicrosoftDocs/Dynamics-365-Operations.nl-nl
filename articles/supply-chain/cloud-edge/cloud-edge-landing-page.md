@@ -2,11 +2,9 @@
 title: Schaaleenheden voor Cloud en Edge voor workloads voor productie en magazijnbeheer
 description: Dit onderwerp geeft informatie over schaaleenheden voor Cloud en Edge voor workloads voor productie en magazijnbeheer.
 author: cabeln
-manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-09-23
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fb0d8e0226b11e93503979c202da917de1df6319
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3eacc9d0cf53fa8af3ff166006cb8fab32445331
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240432"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836705"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Schaaleenheden voor Cloud en Edge voor workloads voor productie en magazijnbeheer
 
@@ -124,10 +122,10 @@ Zie de [workload-details van productieschaaleenheid](cloud-edge-workload-manufac
 Voor magazijnbeheer leveren cloud- en edge-schaaleenheden de volgende mogelijkheden, zelfs wanneer er geen edge-eenheden zijn verbonden met de cloud:
 
 - De verwerking van geselecteerde wave-methoden is ingeschakeld voor verkooporders en vraagaanvulling.
-- Magazijnmedewerkers kunnen in de magazijn-app het werk voor verkoop en aanvulling van het magazijn uitvoeren.
-- Magazijnmedewerkers kunnen in de magazijn-app de voorhanden voorraad opzoeken.
-- Magazijnmedewerkers kunnen in de magazijn-app voorraadbewegingen maken en uitvoeren.
-- Magazijnmedewerkers kunnen in de magazijn-app inkooporders registreren en wegzetwerk doen.
+- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer het werk voor verkoop en aanvulling van het magazijn uitvoeren.
+- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer de voorhanden voorraad opzoeken.
+- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer voorraadbewegingen maken en uitvoeren.
+- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer inkooporders registreren en wegzetwerk doen.
 
 Zie de [workload-details van magazijnschaaleenheid](cloud-edge-workload-warehousing.md) voor meer informatie.
 

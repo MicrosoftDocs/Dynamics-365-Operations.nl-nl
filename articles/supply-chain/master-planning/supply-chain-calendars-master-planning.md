@@ -2,11 +2,9 @@
 title: Kalenders en hoofdplanning
 description: Dit onderwerp biedt een overzicht van toeleveringskalenders en hoe deze de hoofdplanning beïnvloeden.
 author: t-benebo
-manager: tfehr
 ms.date: 08/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 64a9e356d93b42193c2992fb4029814c5fd63e7e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5261136"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841762"
 ---
 # <a name="calendars-and-master-planning"></a>Kalenders en hoofdplanning
 
@@ -75,13 +73,13 @@ Hoofdplanning kan worden ingesteld zodat het alle handelsovereenkomsten voor lev
 U kunt een kalender toewijzen aan een magazijn om de open datums aan te geven voor ontvangst en verzending. Als er geen kalender is toegewezen aan een magazijn, wordt ervan uitgegaan dat alle dagen open zijn. 
 
 > [!Note]
-> Een kalender toewijzen aan een transitmagazijn heeft geen invloed. Transitmagazijnen worden gebruikt voor de ondersteuning van transferorders. De toepasselijke datums voor verzending of ontvangst voor de orders worden gedefinieerd door de open dagen in het magazijn 'Vanaf' en het magazijn 'Naar' en de leveringsmethodekalender.
+> Een kalender toewijzen aan een transitmagazijn heeft geen invloed. Transitmagazijnen worden gebruikt voor de ondersteuning van overboekingsorders. De toepasselijke datums voor verzending of ontvangst voor de orders worden gedefinieerd door de open dagen in het magazijn 'Vanaf' en het magazijn 'Naar' en de leveringsmethodekalender.
 
 #### <a name="closed-for-pickup-policy"></a>Beleid Gesloten voor ophalen
 Als u wilt aangeven dat een magazijn open is voor ontvangst, maar ophalen niet mogelijk is, kunt u het **Beleid Gesloten voor ophalen** gebruiken binnen de magazijnkalender. Dit geldt ook voor ophalen door klanten. 
 
 ### <a name="transport-calendar"></a>Transportkalender 
-Om de datums aan te geven die beschikbaar zijn voor het verzenden van transferorders vanuit een **Van magazijn** kunt u een **transportkalender** toewijzen. U kunt een transportkalender per leveringsmethode of per leveringsmodus en van-magazijn instellen. De transportkalender wordt ingesteld in **Verkoop en marketing > Instellen > Distributie > Leveringsmethoden**. Selecteer een leveringsmethode en klik op de knop **Transportkalender**.
+Om de datums aan te geven die beschikbaar zijn voor het verzenden van overboekingsorders vanuit een **Van magazijn** kunt u een **transportkalender** toewijzen. U kunt een transportkalender per leveringsmethode of per leveringsmodus en van-magazijn instellen. De transportkalender wordt ingesteld in **Verkoop en marketing > Instellen > Distributie > Leveringsmethoden**. Selecteer een leveringsmethode en klik op de knop **Transportkalender**.
 
 Een regel kan worden gemaakt voor elk magazijn en elke leveringsmethode, waarbij de kalender wordt toegevoegd aan de kolom **Transportkalender**. Deze geeft de transportkalender op die wordt toegepast wanneer goederen worden verzonden vanuit het magazijn met behulp van de opgegeven leveringsmethode. Als u een transportkalender wilt toepassen op alle zendingen met behulp van een bepaalde leveringsmethode, kan een regel worden gemaakt zonder het magazijn op te geven.  Dit is van invloed op alle zendingen met de opgegeven leveringsmethode, ongeacht het magazijn. 
 
@@ -113,15 +111,15 @@ Houd er rekening mee dat de kalender van de behoefteplanningsgroep kan worden in
 1. Artikelbehoefteplanningsgroep op de pagina **Details van vrijgegeven producten**
 1. Standaard artikelbehoefteplanningsgroep in **Parameters hoofdplanning**
 
-### <a name="shipping-date-of-a-planned-transfer-order"></a>Verzenddatum van een geplande transferorder
-Bij het maken van een transferorder tussen twee magazijnen worden de verzenddatum en de ontvangstdatum opgenomen in de transferorderkop, samen met het 'Van'-magazijn en het 'Naar'-magazijn. Het verschil tussen deze twee datums is de verwachte transporttijd (in dagen) tussen de magazijnen.
+### <a name="shipping-date-of-a-planned-transfer-order"></a>Verzenddatum van een geplande overboekingsorder
+Bij het maken van een overboekingsorder tussen twee magazijnen worden de verzenddatum en de ontvangstdatum opgenomen in de overboekingsorderkop, samen met het 'Van'-magazijn en het 'Naar'-magazijn. Het verschil tussen deze twee datums is de verwachte transporttijd (in dagen) tussen de magazijnen.
 
-De verzenddatum van een geplande transferorder geeft de datum aan waarop de goederen worden verzonden vanuit het 'Van'-magazijn. De kalenders die worden gebruikt voor het opgeven van de beschikbare verzenddatum, worden op prioriteit weergegeven: 
+De verzenddatum van een geplande overboekingsorder geeft de datum aan waarop de goederen worden verzonden vanuit het 'Van'-magazijn. De kalenders die worden gebruikt voor het opgeven van de beschikbare verzenddatum, worden op prioriteit weergegeven: 
 1. Magazijnkalender van het 'Van'-magazijn
 1. Behoefteplanningsgroepskalender (zie terugvalorder voor deze kalender hierboven); als er een magazijnkalenderset is, is de verzenddatum een open datum in de kalender. Als er geen magazijnkalender is, wordt de kalender van de behoefteplanningsgroep gebruikt. 
 
-### <a name="receipt-date-of-a-planned-transfer-order"></a>Ontvangstdatum van een geplande transferorder
-De ontvangstdatum van een transferorder geeft de datum aan waarop de goederen worden ontvangen in het 'Naar'-magazijn.
+### <a name="receipt-date-of-a-planned-transfer-order"></a>Ontvangstdatum van een geplande overboekingsorder
+De ontvangstdatum van een overboekingsorder geeft de datum aan waarop de goederen worden ontvangen in het 'Naar'-magazijn.
 
 De kalenders die worden gebruikt voor het opgeven van de ontvangstdatum, worden op prioriteit weergegeven: 
 1. Kalender van behoefteplanningsgroep 

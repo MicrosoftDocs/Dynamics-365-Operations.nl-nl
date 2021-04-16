@@ -2,11 +2,9 @@
 title: De magazijnapp installeren en verbinden
 description: In dit onderwerp wordt uitgelegd hoe u de magazijnapp op al uw mobiele apparaten installeert en configureert om verbinding te maken met uw Microsoft Dynamics 365 Supply Chain Management-omgeving. U kunt elk apparaat handmatig configureren of u kunt verbindingsinstellingen importeren via een bestand of door een QR-code te scannen.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,19 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5486972"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835557"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>De app voor magazijnbeheer installeren en verbinden
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> In dit onderwerp wordt beschreven hoe u de oude magazijnapp kunt configureren. Zie [De mobiele app Magazijnbeheer installeren en verbinden](install-configure-warehouse-management-app.md) als u wilt weten hoe u de nieuwe mobiele app Magazijnbeheer kunt configureren.
+> In dit onderwerp wordt beschreven hoe u de oude magazijn-app configureert (die nu is afgeschaft). Zie [De mobiele app Magazijnbeheer installeren en verbinden](install-configure-warehouse-management-app.md) als u wilt weten hoe u de nieuwe mobiele app Magazijnbeheer kunt configureren.
 
 > [!NOTE]
 > In dit onderwerp wordt beschreven hoe u de magazijnapp voor cloudimplementaties configureert. Als u op zoek bent naar informatie over hoe u de magazijnapp configureert voor on-premises implementaties, raadpleegt u [Magazijnbeheer voor on-premises implementaties](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).

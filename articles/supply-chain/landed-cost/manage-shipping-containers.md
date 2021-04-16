@@ -2,7 +2,6 @@
 title: containers beheren
 description: In dit onderwerp wordt beschreven hoe u met containers werkt. containers worden gebruikt om goederen te groeperen die fysiek zijn gegroepeerd. Ze worden ook gebruikt wanneer kosten alleen over deze goederen moeten worden gedeeld, meestal omdat ze fysiek zijn gegroepeerd.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,23 +15,22 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: e75deb5f4acd647408e93957bb99f04f548108f6
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 9b42292194d40f6b0cc6203130bedc1fbb45eec8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501337"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833804"
 ---
 # <a name="manage-shipping-containers"></a>containers beheren
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 containers worden gebruikt om goederen te groeperen die fysiek zijn gegroepeerd. Ze worden ook gebruikt wanneer kosten alleen over deze goederen moeten worden gedeeld, meestal omdat ze fysiek zijn gegroepeerd.
 
 Als u goederen wilt weergeven en verwerken via de pagina voor containers, gaat u naar **Francoprijzen \> containers \> Alle containers**. Op de pagina **Alle containers** wordt een lijst weergegeven met alle beschikbare containers. U kunt de knoppen in het actievenster gebruiken om containers te maken, te verwijderen en met containers te werken. Selecteer een container in de lijst om de details van de container weer te geven op de pagina **containers**.
 
-In het bovenste gedeelte van de pagina met gegevens over de container worden de container en de informatie over kostprijsberekening weergegeven. In de sectie **Regels** worden de folio's, artikelen en inkooporders of transferorders weergegeven die aan de container zijn gekoppeld.
+In het bovenste gedeelte van de pagina met gegevens over de container worden de container en de informatie over kostprijsberekening weergegeven. In de sectie **Regels** worden de folio's, artikelen en inkooporders of overboekingsorders weergegeven die aan de container zijn gekoppeld.
 
 ## <a name="action-pane"></a>Actievenster
 
@@ -47,8 +45,8 @@ In de volgende tabel worden de knoppen beschreven die op het tabblad **Beheren**
 | Ontvangstlijst boeken | Boek een ontvangstlijst of bekijk de productontvangstlijst voor alle inkooporderregels in de container. Als er zendingen naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van een ontvangstlijst geopend voor elk bedrijf. |
 | Productontvangstbon boeken | Boek een productontvangst voor alle inkooporderregels in de container. |
 | Factuur boeken | Boek een factuur voor alle inkooporderregels in de container. Als er zendingen naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van facturen geopend voor elk bedrijf. |
-| Verzenden transferorders | Boek een transferorderzending voor alle transferorderregels in de container. Alleen de regels in de container van het type transferorder worden in het dialoogvenster weergegeven. |
-| Transferorder ontvangen | Boek een transferorderontvangst voor alle transferorderregels in de container. Goederen in een container of transport kunt u het eenvoudigst ontvangen in het dialoogvenster Ontvangen en is een van de drie beschikbare opties. U kunt ook goederen ontvangen via ontvangstjournaals of verwerking via mobiele apparaten. |
+| Verzenden overboekingsorders | Boek een overboekingsorderzending voor alle overboekingsorderregels in de container. Alleen de regels in de container van het type overboekingsorder worden in het dialoogvenster weergegeven. |
+| overboekingsorder ontvangen | Boek een overboekingsorderontvangst voor alle overboekingsorderregels in de container. Goederen in een container of transport kunt u het eenvoudigst ontvangen in het dialoogvenster Ontvangen en is een van de drie beschikbare opties. U kunt ook goederen ontvangen via ontvangstjournaals of verwerking via mobiele apparaten. |
 | Ontvangstjournaal maken | U kunt een ontvangstjournaal genereren voor organisaties met behulp van geavanceerde magazijnfuncties. De opties zijn _Hoeveelheid initialiseren_ (aanbevolen) en _Maken van goederen in transit_ of _Maken op basis van inkooporders_. De laatste twee opties zijn afhankelijk van of de verwerking van goederen in transit wordt gebruikt. |
 | Naam wijzigen | Open een dialoogvenster waarin u de naam van een geselecteerde container kunt wijzigen. |
 | Trajectsjabloon wijzigen | Wijzig de trajectsjabloon. Nadat u de trajectsjabloon hebt gewijzigd, moet u mogelijk opnieuw de optie **Automatische kosten zoeken** selecteren of handmatig weer kosten toevoegen, omdat de verzendkosten worden verwijderd. |

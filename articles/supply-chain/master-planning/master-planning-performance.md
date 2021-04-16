@@ -2,11 +2,9 @@
 title: Prestaties van hoofdplanning verbeteren
 description: In dit onderwerp worden de verschillende opties beschreven waarmee u de prestaties van de hoofdplanning kunt verbeteren of problemen kunt oplossen.
 author: t-benebo
-manager: tfehr
 ms.date: 12/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 54f39793b6e8b24a13a4b80b59ba35f10e8f3da5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 73ef52580ffe80c6c5cc9f77c2088d071a749ca7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237468"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833444"
 ---
 # <a name="improve-master-planning-performance"></a>Prestaties van hoofdplanning verbeteren
 
@@ -136,7 +134,7 @@ Het veld **Automatisch filteren op artikelen met directe vraag** is te vinden op
 
 ### <a name="pre-processing"></a>Voorverwerking
 De parameter **Voorverwerking: automatisch filteren op artikelen met directe vraag** zorgt ervoor dat de voorbewerkingsfase van de hoofdplanning alleen artikelen bevat die voldoen aan ten minste een van de volgende voorwaarden:
-  - Het artikel heeft een verwachte ontvangst of uitgifte, zoals een inkooporder, verkooporder, offerte, transferorder of productieorder. 
+  - Het artikel heeft een verwachte ontvangst of uitgifte, zoals een inkooporder, verkooporder, offerte, overboekingsorder of productieorder. 
   - Voor het artikel bestaat artikelbehoefteplanning met veiligheidsvoorraad (minimale voorhanden voorraad).
   - Er bestaat prognosevraag na vandaag voor het artikel.
   - Er bestaat prognoseaanbod na vandaag voor het artikel.

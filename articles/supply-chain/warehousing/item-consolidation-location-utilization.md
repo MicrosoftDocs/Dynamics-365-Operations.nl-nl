@@ -2,11 +2,9 @@
 title: Locatiegebruik bij artikelconsolidatie
 description: Dit onderwerp bevat informatie over de functionaliteit waarmee magazijnbeheerders het volumetrische gebruik van locaties in het magazijn kunnen weergeven en filteren. Managers kunnen locaties selecteren en voorraadmutaties uitvoeren, rechtstreeks vanaf de pagina Artikelconsolidatie om artikelen te consolideren en zodoende de magazijnruimte beter te gebruiken.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 3b20b41d27e5faeac7ea88940c086ae33390dc29
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 892190ea7bad34dfd308796b93a1828e0e8e11b9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217000"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835560"
 ---
 # <a name="item-consolidation---location-utilization"></a>Locatiegebruik bij artikelconsolidatie
 
@@ -149,7 +147,7 @@ In deze sectie wordt beschreven hoe u uw systeem voorbereidt op het gebruik van 
 
 ## <a name="example-scenario"></a>Voorbeeldscenario
 
-In het volgende scenario wordt de magazijnapp op een mobiel apparaat gebruikt om een *aanpassing in* voor de voorraad in te stellen op twee locaties in het magazijn.
+In het volgende scenario wordt de mobiele app Magazijnbeheer op een mobiel apparaat gebruikt om een *aanpassing in* voor de voorraad in te stellen op twee locaties in het magazijn.
 
 ### <a name="add-inventory-to-locations"></a>Voorraad toevoegen aan locaties
 

@@ -2,11 +2,9 @@
 title: Taakkaart configureren voor apparaten
 description: In dit onderwerp worden de verschillende opties beschreven voor het configureren van het taakkaartapparaat.
 author: johanhoffmann
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgRegistrationSetupTouch, JmgRegistrationTouchUserConfiguration
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: c139fb7daa0f40b6b7afb0a707f714502d3146d1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2ccfbadb48e2ecd274e68201bbbc7858ab01203a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246352"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836585"
 ---
 # <a name="configure-job-card-for-devices"></a>Taakkaart configureren voor apparaten
 
@@ -50,7 +48,7 @@ Als u deze functie beschikbaar wilt maken, schakelt u de volgende functies in [f
 
 Als u deze functie beschikbaar wilt maken, schakelt u de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
-- (Preview) Functie voor vergrendelen van taakkaartapparaat en taakkaartterminal zodat ze kunnen worden schoongemaakt
+- Functie voor vergrendelen van taakkaartapparaat en taakkaartterminal zodat ze kunnen worden schoongemaakt
 
 ## <a name="manage-your-device-configurations"></a>Uw apparaatconfiguraties beheren
 

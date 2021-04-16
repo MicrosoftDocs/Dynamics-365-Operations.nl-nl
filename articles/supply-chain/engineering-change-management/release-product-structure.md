@@ -2,11 +2,9 @@
 title: Productstructuren van de vrijgave
 description: In dit onderwerp wordt beschreven hoe u volledige productstructuren kunt vrijgeven naast het vrijgeven van producten in combinatie met hun technische versies. Op deze manier kunt u ervoor zorgen dat productgegevens die technisch relevant zijn gemakkelijk kunnen worden hergebruikt in verschillende rechtspersonen.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgProductReleaseSiteBulkEdit, EngChgProductReleaseSendListPage, EngChgProductReleaseSendDetails,EngChgProductReleaseSelection,EngChgProductReleaseReceiveListPage, EngChgProductReleaseReceiveDetails, EngChgProductReleasePreviewPane, EngChgProductReleasePolicy, EngChgProductReleasePart, EngChgProductReleaseNote
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c1304d3277e12bc602fa5bc25a61e1f95edba59c
-ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
+ms.openlocfilehash: e9cd90d74b92754d4a5432485d5dd59c31e34c61
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5580910"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841980"
 ---
 # <a name="release-product-structures"></a>Productstructuren van de vrijgave
 

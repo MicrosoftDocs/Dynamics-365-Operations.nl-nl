@@ -2,11 +2,9 @@
 title: Werkorders maken
 description: In dit onderwerp wordt uitgelegd hoe u werkorders maakt in Activabeheer.
 author: johanhoffmann
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3982232e5008d6f8c283d6cecfaf2fa6e66150a1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500569"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836729"
 ---
 # <a name="creating-work-orders"></a>Werkorders maken
 
@@ -62,8 +60,6 @@ Volg deze stappen om werkorders te maken op basis van uw onderhoudsschema.
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Werkorderregels groeperen die automatisch worden gemaakt terwijl een onderhoudsplan wordt uitgevoerd
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 Met deze functie kunt u regels definiëren voor het groeperen van werkorderregels onder één werkorder wanneer het systeem is ingesteld om automatisch werkorders te genereren op basis van een onderhoudsplan. Eerder automatisch gegenereerde werkorders kunnen slechts één regel bevatten. U kunt werkorders nu echter wel groeperen op bijvoorbeeld activa, activatype of functionele locatie. (Handmatig gegenereerde werkorders konden al op deze manier worden gegroepeerd, zoals wordt beschreven in de vorige sectie van dit onderwerp.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Groepering inschakelen voor automatisch gegenereerde werkorders
@@ -71,7 +67,7 @@ Met deze functie kunt u regels definiëren voor het groeperen van werkorderregel
 Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
 
 - **Module:** *Activabeheer*
-- **Functienaam:** *(Preview) Regels toepassen voor het groeperen van werkorders tijdens het uitvoeren van een onderhoudsplan*
+- **Functienaam:** *Regels toepassen voor het groeperen van werkorders tijdens het uitvoeren van een onderhoudsplan*
 
 ### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>Groepering instellen voor automatisch gegenereerde werkorders
 

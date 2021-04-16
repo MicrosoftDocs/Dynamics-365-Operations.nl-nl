@@ -2,11 +2,9 @@
 title: Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
 description: Dit onderwerp bevat informatie over de functie waarmee schaaleenheden kunnen worden gebruikt om geselecteerde processen uit te voeren vanuit de magazijnbeheer-workload.
 author: perlynne
-manager: tfeyr
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, SysSecRolesEditUsers
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9b5d8c9e77fb98dfb7031a3868303970fe3bf865
-ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
+ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5580960"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832389"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
 
@@ -57,7 +55,7 @@ De schaaleenheden zijn eigenaar van de volgende gegevens:
   - **Voorraadmutaties** (handmatig verplaatsen en verplaatsen door sjabloonwerk)
   - **Inkooporders** (wegzetwerk via een magazijnorder wanneer inkooporders niet aan ladingen zijn gekoppeld)
   - **Verkooporders** (eenvoudig verzamel- en laadwerk)
-  - **Transferorders** (alleen uitgaand met eenvoudig order verzamelen en laden)
+  - **overboekingsorders** (alleen uitgaand met eenvoudig order verzamelen en laden)
 
 - **Ontvangstgegevens voor magazijnorders**: deze gegevens worden alleen gebruikt voor inkooporders die handmatig naar een magazijn worden vrijgegeven.
 - **Nummerplaatgegevens**: nummerplaten kunnen op de hub en de schaaleenheid worden gemaakt. Er is toegewezen conflictafhandeling verstrekt. Deze gegevens zijn niet magazijnspecifiek.
@@ -66,11 +64,11 @@ De schaaleenheden zijn eigenaar van de volgende gegevens:
 
 De hub is eigenaar van de volgende gegevens:
 
-- Alle brondocumenten, zoals verkooporders en transferorders
+- Alle brondocumenten, zoals verkooporders en overboekingsorders
 - Ordertoewijzing en verwerking van uitgaande belasting
 - De processen voor vrijgeven naar magazijn, verzendingen en waves maken, en voltooien van waves
 
-De schaaleenheden zijn eigenaar van de feitelijke wave-verwerking (zoals werktoewijzing, aanvullingswerk en het maken van de vraag) nadat de wave is vrijgegeven. Daarom kunnen magazijnmedewerkers het uitgaande werk verwerken met behulp van een magazijn-app die is verbonden met de schaaleenheid.
+De schaaleenheden zijn eigenaar van de feitelijke wave-verwerking (zoals werktoewijzing, aanvullingswerk en het maken van de vraag) nadat de wave is vrijgegeven. Daarom kunnen magazijnmedewerkers het uitgaande werk verwerken met behulp van een mobiele app Magazijnbeheer die is verbonden met de schaaleenheid.
 
 ![Waveverwerkingsstroom](./media/wes-wave-processing-ga.png "Waveverwerkingsstroom")
 
@@ -94,7 +92,7 @@ U moet zich aanmelden bij de hub om het proces *Vrijgeven aan magazijn* te gebru
 
 Wanneer u **Automatische vrijgave van inkooporders** gebruikt, kunt u specifieke inkooporderregels selecteren op basis van een query. Een standaardscenario is het instellen van een terugkerende batchtaak waarbij alle bevestigde inkooporderregels worden vrijgegeven die naar verwachting de volgende dag zullen binnenkomen.
 
-De medewerker kan het ontvangstproces uitvoeren met behulp van een magazijn-app die is verbonden met de schaaleenheid. De gegevens worden vervolgens door de schaaleenheid geregistreerd en gerapporteerd voor de inkomende magazijnorder. Het maken en verwerken van de volgende wegzetactie wordt ook afgehandeld door de schaaleenheid.
+De medewerker kan het ontvangstproces uitvoeren met behulp van een mobiele app Magazijnbeheer die is verbonden met de schaaleenheid. De gegevens worden vervolgens door de schaaleenheid geregistreerd en gerapporteerd voor de inkomende magazijnorder. Het maken en verwerken van de volgende wegzetactie wordt ook afgehandeld door de schaaleenheid.
 
 Als u het proces van *vrijgave naar magazijn* niet gebruikt en dus geen *magazijnorders* gebruikt, kan de hub de magazijnontvangst en de werkverwerking onafhankelijk van schaaleenheden verwerken.
 
@@ -110,17 +108,17 @@ Gebruikersrollen op een schaaleenheid worden toegewezen als onderdeel van de oor
 
 Als u de rollen wilt wijzigen die aan een gebruiker zijn toegewezen, gaat u naar **Systeembeheer \> Beveiliging \> Gebruikers aan rollen toewijzen**. Gebruikers die alleen als magazijnbeheerders werken, moeten alleen de rol *Magazijnbeheerder bij workload* toegewezen krijgen. Op deze manier zorgt u ervoor dat gebruikers alleen toegang hebben tot de ondersteunde functies. Verwijder alle andere rollen die aan deze gebruikers zijn toegewezen.
 
-Gebruikers die als magazijnbeheerders werken op de hub én schaaleenheden, moeten de bestaande rol *Magazijnmedewerker* toegewezen krijgen. Houd er rekening mee dat magazijnmedewerkers toegang hebben tot functies (zoals de ontvangstverwerking van transferorders) die in de gebruikersinterface worden weergegeven, maar die momenteel niet worden ondersteund voor schaaleenheden.
+Gebruikers die als magazijnbeheerders werken op de hub én schaaleenheden, moeten de bestaande rol *Magazijnmedewerker* toegewezen krijgen. Houd er rekening mee dat magazijnmedewerkers toegang hebben tot functies (zoals de ontvangstverwerking van overboekingsorders) die in de gebruikersinterface worden weergegeven, maar die momenteel niet worden ondersteund voor schaaleenheden.
 
 ## <a name="supported-wes-processes"></a>Ondersteunende WES-processen
 
 De volgende processen voor magazijnuitvoering kunnen worden ingeschakeld voor een WES-workload op een schaaleenheid:
 
-- Geselecteerde wavemethoden voor verkoop- en transferorders (toewijzing, vraagaanvulling, containervorming, maken van werk en afdrukken van wavelabels)
-- Magazijnwerk voor verkoop- en transferorders verwerken met de magazijn-app (inclusief aanvullingswerk)
-- Zoeken in voorhanden voorraad met behulp van de magazijn-app
-- Voorraadmutaties maken en uitvoeren met behulp van de magazijn-app
-- Inkooporders registreren en wegzetwerk doen met de magazijn-app
+- Geselecteerde wavemethoden voor verkoop- en overboekingsorders (toewijzing, vraagaanvulling, containervorming, maken van werk en afdrukken van wavelabels)
+- Magazijnwerk voor verkoop- en transferorders verwerken met de mobiele app Magazijnbeheer (inclusief aanvullingswerk)
+- Zoeken in voorhanden voorraad met behulp van de mobiele app Magazijnbeheer
+- Voorraadmutaties maken en uitvoeren met behulp van de mobiele app Magazijnbeheer
+- Inkooporders registreren en wegzetwerk doen met de mobiele app Magazijnbeheer
 
 De volgende werkordertypen worden momenteel ondersteund voor WES-workloads op schaaleenheid-implementaties:
 
@@ -130,10 +128,10 @@ De volgende werkordertypen worden momenteel ondersteund voor WES-workloads op sc
 - Voorraadmutatie
 - Inkooporders (gekoppeld aan magazijnorders)
 
-Er wordt momenteel geen verwerking van andere typen brondocumenten of magazijnwerk ondersteund voor schaaleenheden. Voor bijvoorbeeld een WES-workload voor een schaaleenheid kunt u geen proces voor het ontvangen van transferorders (ontvangst transfer) of verwerking van cyclustellingswerk uitvoeren.
+Er wordt momenteel geen verwerking van andere typen brondocumenten of magazijnwerk ondersteund voor schaaleenheden. Voor bijvoorbeeld een WES-workload voor een schaaleenheid kunt u geen proces voor het ontvangen van overboekingsorders (ontvangst transfer) of verwerking van cyclustellingswerk uitvoeren.
 
 > [!NOTE]
-> Menu-items en knoppen voor mobiele apparaten voor niet-ondersteunde functies worden niet weergegeven in de _magazijn-app_ wanneer deze is verbonden met een schaaleenheidimplementatie.
+> Menu-items en knoppen voor mobiele apparaten voor niet-ondersteunde functies worden niet weergegeven in de _mobiele app Magazijnbeheer_ wanneer deze is verbonden met een schaaleenheidimplementatie.
 
 > [!WARNING]
 > Als u een workload uitvoert voor een schaaleenheid, kunt u geen niet-ondersteunde processen voor dat specifieke magazijn op de hub uitvoeren. De tabellen die later in dit onderwerp worden verstrekt, documenteren de ondersteunde capaciteiten.
@@ -164,7 +162,7 @@ De volgende magazijnbeheerfunctionaliteit wordt momenteel niet ondersteund voor 
 - Magazijnwerkverwerking met verzendingsnotities
 - Magazijnwerkverwerking met het activeren van de cyclustellingdrempel
 - Magazijnwerkverwerking met materiaalverwerking/magazijnautomatisering
-- Gebruik van de installatiekopie met productmodelgegevens (bijvoorbeeld in de magazijn-app)
+- Gebruik van de installatiekopie met productmodelgegevens (bijvoorbeeld in de mobiele app Magazijnbeheer)
 
 > [!WARNING]
 > Een aantal magazijnfuncties is niet beschikbaar voor magazijnen met de werkbelasting van magazijnbeheer voor een schaaleenheid en wordt ook niet ondersteund voor de werkbelasting van de hub of schaaleenheid.
@@ -173,7 +171,7 @@ De volgende magazijnbeheerfunctionaliteit wordt momenteel niet ondersteund voor 
 > 
 > Specifieke functies (zoals *blokkeren van werk*) die worden ondersteund voor zowel de hub als schaaleenheden, worden alleen ondersteund voor de eigenaar van de gegevens.
 
-### <a name="outbound-supported-only-for-sales-and-transfer-orders"></a>Uitgaand (wordt alleen ondersteund voor verkoop- en transferorders)
+### <a name="outbound-supported-only-for-sales-and-transfer-orders"></a>Uitgaand (wordt alleen ondersteund voor verkoop- en overboekingsorders)
 
 In de volgende tabel ziet u welke uitgaande functies worden ondersteund en waar deze worden ondersteund, wanneer de workloads van magazijnbeheer worden gebruikt in cloud- en edge-schaaleenheden.
 
@@ -196,10 +194,10 @@ In de volgende tabel ziet u welke uitgaande functies worden ondersteund en waar 
 | Verzendbevestiging                    | Ja  | No |
 | Zendingsbevestiging met 'Bevestigen en overboeking'                    | No  | No |
 | Verwerking van pakbon en facturering                | Ja | No |
-| Korte orderverzameling (verkoop- en transferorders)                    | No  | No |
-| Meerverzameling (verkoop- en transferorders)                     | No  | No |
-| Wijziging van werklocaties (verkoop- en transferorders)         | No  | Ja|
-| Werk voltooien (verkoop- en transferorders)                    | No  | Ja|
+| Korte orderverzameling (verkoop- en overboekingsorders)                    | No  | No |
+| Meerverzameling (verkoop- en overboekingsorders)                     | No  | No |
+| Wijziging van werklocaties (verkoop- en overboekingsorders)         | No  | Ja|
+| Werk voltooien (verkoop- en overboekingsorders)                    | No  | Ja|
 | Werkrapport afdrukken                                            | Ja | No |
 | Wavelabel                                                   | No  | Ja|
 | Werk splitsen                                                   | No  | Ja|
@@ -226,7 +224,7 @@ In de volgende tabel ziet u welke inkomende functies worden ondersteund en waar 
 | Artikelontvangst laden                                             | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | No |
 | Ontvangen en wegzetten van nummerplaat                              | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | No |
 | Ontvangen en wegzetten van artikel voor overboekingorder                        | Ja | No |
-| Transferorderregel ontvangen en wegzetten                        | Ja | No |
+| overboekingsorderregel ontvangen en wegzetten                        | Ja | No |
 | Werk annuleren (inkomende)                                              | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | <p>Ja, maar alleen als de optie <b>Ontvangst ongedaan maken bij annulering van werk</b> (op de pagina <b>Parameters voor magazijnbeheer</b>) wordt uitgeschakeld</p> |
 | Inkooporder productontvangstbon verwerken                          | Ja | No |
 | Ontvangen van inkooporder met minderlevering                        | <p>Ja, wanneer er geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | Ja, maar alleen door een annuleringsaanvraag vanuit de hub te maken |
@@ -253,7 +251,7 @@ In de volgende tabel ziet u welke functies voor magazijnbewerkingen en het afhan
 | Mutatie                                           | Ja | Ja                          |
 | Mutatie door sjabloon                               | Ja | Ja                          |
 | Magazijntransfer                                 | Ja | No                           |
-| Transferorders maken vanuit de magazijn-app           | Ja | No                           |
+| Overboekingsorder maken vanuit de mobiele app Magazijnbeheer           | Ja | No                           |
 | Correctie (in/uit)                                | Ja | No                           |
 | Wijziging van voorraadstatus                            | Ja | No                           |
 | Cyclustelling en Telverschillen verwerken | Ja | No                           |

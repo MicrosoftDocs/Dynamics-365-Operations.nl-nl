@@ -2,11 +2,9 @@
 title: Magazijnverwerking van inkomende ladingen voor inkooporders
 description: In dit onderwerp wordt het magazijnverwerkingsproces voor inkomende ladingen voor inkooporders beschreven.
 author: omulvad
-manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fec2e7f39569c52ec17c5d0b2474eca720e0180a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235335"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835625"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Magazijnverwerking van inkomende ladingen voor inkooporders
 
@@ -66,7 +64,7 @@ Wanneer een inkomende lading voor het eerst in het magazijn arriveert, moeten ma
 
 - **Een menu op het mobiele apparaat dat is geconfigureerd om het ontvangen van ladingen te ondersteunen**
 
-    De [magazijnapp](install-configure-warehousing-app.md) voor mobiele apparaten ondersteunt de volgende processen voor het maken van werk:
+    De [mobiele app Magazijnbeheer](../warehousing/install-configure-warehouse-management-app.md) voor mobiele apparaten ondersteunt de volgende processen voor het maken van werk:
 
     - Artikelontvangst laden
     - Ontvangen en wegzetten van artikel laden
@@ -285,7 +283,7 @@ Als u deze scenario's wilt doorlopen met de opgegeven voorbeeldrecords en -waard
 
 Voordat magazijnmedewerkers een mobiel apparaat kunnen gebruiken om een inkomende voorraad te registreren die aan een lading is gekoppeld, moet u hiervoor een menuopdracht van mobiel apparaat maken.
 
-In deze sectie maakt u een menuopdracht voor een mobiel apparaat en voegt u deze toe aan een bestaand menu. Een magazijnmedewerker kan vervolgens de menuoptie selecteren in de magazijnapp.
+In deze sectie maakt u een menuopdracht voor een mobiel apparaat en voegt u deze toe aan een bestaand menu. Een magazijnmedewerker kan vervolgens de menuoptie selecteren in de mobiele app Magazijnbeheer.
 
 1. Ga naar **Magazijnbeheer \> Instellingen \> Mobiel apparaat \> Menuopties voor mobiel apparaat** en zorg ervoor dat het menu met mobiele apparaten een menuoptie bevat met de volgende instellingen:
 
