@@ -2,11 +2,9 @@
 title: Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering in Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9c91ffcb03793db2f2ef3a9631ab549ace3f735d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2e41510f1f5810dde9683235384f89008f888471
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259086"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821268"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
 
@@ -34,6 +32,18 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 > [!NOTE]
 > Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://docs.microsoft.com/dynamics/s-e/). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Verwijderde of verouderde functies in versie 10.0.18 van Supply Chain Management
+
+### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - Magazijnbeheer (de magazijn-app)
+
+|   |  |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Met ingang van april 2021 wordt *Dynamics 365 for Finance and Operations - Magazijnbeheer* (de magazijn-app) afgeschaft en wordt na april 2022 niet meer ondersteund. Het is nu vervangen door de *mobiele app Magazijnbeheer*, die werd uitgebracht met versie 10.0.17 van Supply Chain Management. De nieuwe app is een complete vervanging, maar maakt gebruik van hetzelfde onderliggende framework, waardoor migratie eenvoudig is. Indien nodig kunnen de twee apps naast elkaar worden gebruikt om gebruikers te helpen zich geleidelijk aan te passen terwijl ze de nieuwe app leren gebruiken.<br><br>Zie [Mobiele toepassing Magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) en [De mobiele app Magazijnbeheer installeren en verbinden](../warehousing/install-configure-warehouse-management-app.md) voor meer informatie over de mobiele app Magazijnbeheer. |
+| **Vervangen door een andere functie?**   | Ja, vervangen door de nieuwe mobiele app Magazijnbeheer. |
+| **Betrokken productgebieden**         | Supply Chain Management - magazijn-app |
+| **Implementatieoptie**              | Cloud en on-premises |
+| **Status**                         | Afgeschaft. De magazijn-app krijgt ondersteuning met fout- en beveiligingscorrecties, maar functieverbeteringen worden niet langer geleverd. Na april 2022 wordt de oude magazijn-app niet meer ondersteund en worden klanten gevraagd om over te stappen naar de nieuwe mobiele app Magazijnbeheer. De oude magazijn-app wordt vervolgens verwijderd uit de Microsoft Store en Google Play Store.  |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10015-release"></a>Verwijderde of verouderde functies in versie 10.0.15 van Supply Chain Management
 

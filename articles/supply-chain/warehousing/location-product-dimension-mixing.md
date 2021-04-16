@@ -2,11 +2,9 @@
 title: Productdimensies op locaties combineren
 description: Dit onderwerp biedt informatie over het combineren van productdimensies op locaties. Deze functionaliteit voor locatieprofielen helpt het locatiebeheer te verbeteren wanneer productvarianten of producten met dimensies worden gebruikt, zoals in de kledingsector. Hiermee kunt u bepalen of configuraties, kleuren, stijlen en formaat kunnen worden gecombineerd voor een bepaald locatieprofiel, of dat een van deze dimensies of een combinatie van deze dimensies op dezelfde locatie kan worden geplaatst.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: b0309c7a7240d7cac9e5b5724a028f2dc70199e4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 28f59052a74b6d8b263c7a8a8b6061f2c4b34c89
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217024"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831285"
 ---
 # <a name="location-product-dimension-mixing"></a>Productdimensies op locaties combineren
 
@@ -206,9 +204,9 @@ U maakt een inkoop order met drie regels: twee regels voor hetzelfde productnumm
 
 9. Selecteer **Opslaan**.
 
-### <a name="receive-purchase-order-lines-in-the-warehouse-app"></a>Inkooporderregels ontvangen in de magazijnapp
+### <a name="receive-purchase-order-lines-in-the-warehouse-management-mobile-app"></a>Inkooporderregels ontvangen in de mobiele app Magazijnbeheer
 
-1. Meld u aan bij de magazijnapp als een gebruiker die toegang heeft tot magazijn *24*.
+1. Meld u aan bij de mobiele app Magazijnbeheer als een gebruiker die toegang heeft tot magazijn *24*.
 1. Selecteer het menu **Inkomend**.
 1. Selecteer **IO-regel ontvangst**.
 1. Selecteer het veld **PONUM** en voer vervolgens het inkoopordernummer in.

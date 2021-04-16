@@ -2,11 +2,9 @@
 title: Instellingsproces van geavanceerde bankafstemming
 description: Met Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Microsoft Dynamics 365 Finance. In dit artikel worden de instellingsregels voor afstemming uitgelegd.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ee84ad09806e8efbf37de659851c086a6e955921
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f4db43f50cc279ffc6c0ae91a16378de9567dd8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232436"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822970"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>Instellingsproces van geavanceerde bankafstemming
 

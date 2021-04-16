@@ -2,11 +2,9 @@
 title: Werkorders in Field Service synchroniseren met verkooporders in Supply Chain Management
 description: In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het synchroniseren van werkorders in Field Service met verkooporders in Supply Chain Management.
 author: ChristianRytt
-manager: tfehr
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3453d0f6e6217ab63047410c459dc65d8cc4df5c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 15a61b1fe4a267552708fa02fe482f7702668e06
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235431"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824961"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Werkorders in Field Service synchroniseren met verkooporders in Supply Chain Management
 

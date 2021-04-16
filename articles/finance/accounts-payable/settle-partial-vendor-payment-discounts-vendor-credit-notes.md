@@ -2,11 +2,9 @@
 title: Een gedeeltelijke leveranciersbetaling vereffenen met kortingen op creditnota's
 description: Dit artikel begeleidt u door een scenario waarin een creditnota voor een factuur wordt vereffend.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a23ef6bff5f135e7f4189add776aeed18fbe79
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6e634796c7143c14a872c721f298f3ab28cbddd6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227299"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827837"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-credit-notes"></a>Een gedeeltelijke leveranciersbetaling vereffenen met kortingen op creditnota's
 
@@ -42,10 +40,10 @@ Op 29 juni maakt April een factuur voor 1000,00 voor leverancier 3050. Op 2 juli
 
 Informatie over korting voor de creditnota wordt onder de pagina **Openstaande transacties vereffenen** weergegeven.
 
-|                              |           |
+| Veld                        | Waarde     |
 |------------------------------|-----------|
-| Datum van contantkorting           | 13-7-2015 |
-| Contantkortingsbedrag         | 2,00      |
+| Datum voor contantkorting           | 13-7-2015 |
+| Contantkortingsbedrag         | 2.00      |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 0,00      |
 | Contantkortingsbedrag dat moet worden toegepast | 2,00      |

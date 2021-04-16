@@ -2,11 +2,9 @@
 title: INTERVAT-belastingaangifte
 description: Dit onderwerp biedt land-/regiospecifieke informatie over het instellen en maken van de INTERVAT-belastingaangifte voor rechtspersonen in alleen België.
 author: anasyash
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxIntervat
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 177f0cda9cb80e55ea96b97a7f5355cd403ed333
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7dda9ae45966c166468d87a7816077c385166856
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236330"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839901"
 ---
 # <a name="intervat-tax-declaration"></a>INTERVAT-belastingaangifte
 

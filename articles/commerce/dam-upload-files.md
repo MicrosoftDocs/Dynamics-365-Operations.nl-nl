@@ -2,11 +2,9 @@
 title: Andere bestanden uploaden dan afbeeldingen en video's
 description: In dit onderwerp wordt beschreven hoe u andere binaire bestanden dan afbeeldingen en video's kunt uploaden in Microsoft Dynamics 365 Commerce Site Builder.
 author: psimolin
-manager: annbe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c065aa961cf5c2d6770ae47c63a75953e6d38e00
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 380bcccd1053cbcc276e964ce97f16d1d39ea75a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222532"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799248"
 ---
 # <a name="upload-files-other-than-images-and-videos"></a>Andere bestanden uploaden dan afbeeldingen en video's
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u andere bestanden dan afbeeldingen en video's kunt uploaden in Microsoft Dynamics 365 Commerce Site Builder.
-
-## <a name="overview"></a>Overzicht
 
 De mediabibliotheek van Commerce-site builder ondersteunt het uploaden van andere binaire elementen dan afbeeldingen of video's. U kunt bijvoorbeeld bestanden uploaden uit Microsoft Excel, Microsoft Word, Microsoft PowerPoint of PDF-bestanden.
 

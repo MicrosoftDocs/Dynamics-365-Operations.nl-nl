@@ -2,11 +2,9 @@
 title: Hoofdplanning instellen
 description: Dit onderwerp beschrijft diverse belangrijke strategieën en parameters die worden gebruikt voor het instellen van de hoofdplanning.
 author: t-benebo
-manager: tfehr
 ms.date: 07/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 5fd24ad91b669b054b88cd187309038f1716e582
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe7ff2ab877182dd3145e39574aa7229c48b6057
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256202"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833396"
 ---
 # <a name="set-up-master-planning"></a>Hoofdplanning instellen
 

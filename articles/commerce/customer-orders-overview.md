@@ -2,11 +2,9 @@
 title: Klantorders in POS (Point of Sale)
 description: Dit onderwerp bevat informatie over klantorders in POS (Point of Sale). Klantorders worden ook wel speciale orders genoemd. In dit onderwerp worden de gerelateerde parameters en transactiestromen besproken.
 author: josaw1
-manager: AnnBe
 ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: f60e07c1faae9bc3cb6d3c843e72e6000cff7591
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220505"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821003"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Klantorders in POS (Point of Sale)
 
@@ -61,7 +59,8 @@ In Commerce-versie 10.0.12 en hoger kunnen organisaties bepalen of de magazijnen
 
 Wanneer u in POS met klantorders werkt, moet u rekening houden met enkele van de instellingen van het winkelafzetkanaal. Deze instellingen vindt u op de pagina **Winkels** in Commerce Headquarters.
 
-- **Magazijn**: dit veld geeft het magazijn aan dat wordt gebruikt om te voldoen aan orders die zijn geconfigureerd voor verzending vanuit de winkel.
+- **Magazijn**: dit veld geeft het magazijn aan dat wordt gebruikt bij het verminderen van de voorraad voor contant geld en ophaalorders van klanten die aan deze winkel zijn gekoppeld. Als aanbevolen procedure moedigen we het gebruik van unieke magazijnen voor elk winkelkanaal aan om problemen met tegenstrijdige bedrijfslogica in winkels te voorkomen.
+- **Verzendmagazijn**: dit veld geeft het magazijn aan dat wordt gebruikt bij het verminderen van de voorraad voor klantorders die vanuit de geselecteerde winkel worden verzonden. Als de functie **Mogelijkheid om locaties op te geven als 'Verzenden ' of 'Ophalen' binnen Afhandelingsgroep** is ingeschakeld in uw omgeving, kunnen POS-gebruikers een specifiek magazijn kiezen om vanuit POS te verzenden, in plaats van een winkel te kiezen om vanuit te verzenden. Wanneer die functie is ingeschakeld, wordt het verzendmagazijn daarom niet meer gebruikt, omdat de gebruiker het specifieke magazijn kiest om de order te verzenden vanaf het moment dat de order wordt gemaakt.
 - **Toewijzing van afhandelingsgroep**: selecteer deze knop (op het tabblad **Instellen** in het actievenster) om de afhandelingsgroepen waarnaar wordt verwezen te koppelen om opties voor afhaallocaties of de bron van verzending weer te geven wanneer klantorders worden gemaakt in POS.
 - **Op bestemming gebaseerde btw gebruiken**: met deze optie wordt aangegeven of het verzendadres wordt gebruikt om de btw-groep te bepalen die wordt toegepast op orderregels die worden verzonden naar het adres van de klant.
 - **Op klant gebaseerde btw gebruiken**: met deze optie wordt aangegeven of de gedefinieerde btw-groep voor het afleveradres van de klant wordt gebruikt om de btw te bepalen voor klantorders die in POS voor verzending naar het huis van de klant worden gemaakt.
