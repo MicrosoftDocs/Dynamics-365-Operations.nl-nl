@@ -2,11 +2,9 @@
 title: Belastingen en zendingen plannen met behulp van de Workbench ladingplanning
 description: In dit onderwerp wordt getoond hoe u de workbench voor ladingplanning kunt gebruiken om een lading te maken voor een verkooporder.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSHistory, WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 277b91944d8f7ee79bed9b85ee6ebd275e72c75b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0ef95dfc3dba8ef162d0be145a52b7153912cb77
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223285"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828245"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Belastingen en zendingen plannen met behulp van de Workbench ladingplanning
 
@@ -46,7 +44,7 @@ In dit onderwerp wordt getoond hoe u de workbench voor ladingplanning kunt gebru
 
 ## <a name="create-a-new-load"></a>Een nieuwe lading maken
 1. Ga naar het **navigatiedeelvenster > Modules > Transportbeheer > Planning > Workbench ladingplanning**.
-2. Selecteer het tabblad **Verkoopregels**. Nu gaat u de lading samenstellen voor de verkooporder die u zojuist hebt gemaakt. Ladingen kunnen worden samengesteld op basis van de vraag en aanbod van inkooporders, transferorders en verkooporders.  
+2. Selecteer het tabblad **Verkoopregels**. Nu gaat u de lading samenstellen voor de verkooporder die u zojuist hebt gemaakt. Ladingen kunnen worden samengesteld op basis van de vraag en aanbod van inkooporders, overboekingsorders en verkooporders.  
 3. Selecteer in het actievenster de optie **Vraag en aanbod**.
 4. Selecteer **Naar nieuwe lading**.
 5. Selecteer in het veld **Ladingsjabloon-id** de vervolgkeuzeknop om de zoekopdracht te openen. De sjabloon voor laden definieert maximummetingen voor gewicht en volume van de volledige lading. Zo kan de laadsjabloon bijvoorbeeld de grootte van een container of een vrachtwagen vertegenwoordigen. Een artikel selecteren.

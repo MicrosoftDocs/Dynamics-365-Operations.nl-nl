@@ -2,11 +2,9 @@
 title: Werk uitbesteden
 description: Dit onderwerp helpt u een procedure voor het uitbesteden van werk in de productie op te zetten in Dynamics 365 Supply Chain Management.
 author: christophernread
-manager: tfehr
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f771c15d98abe3689054d43cc8b33632121522a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255536"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825177"
 ---
 # <a name="subcontracting"></a>Werk uitbesteden
 
@@ -210,7 +208,7 @@ Er wordt een productieorder van 10 stuks gemaakt voor het product D8100, Kast me
 
     ![Twee soorten werk voor orderverzameling van grondstoffen op de pagina Werk](./media/subcontract22_work-page.png)
 
-26. Start de magazijn-app om het magazijnwerk voor bewerking 10 te starten.
+26. Start de mobiele app Magazijnbeheer om het magazijnwerk voor bewerking 10 te starten.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -222,13 +220,13 @@ Er wordt een productieorder van 10 stuks gemaakt voor het product D8100, Kast me
     - Selecteer in het veld **Van bewerkingsnummer** de optie **10**.
     - Selecteer in het veld **Tot bewerkingsnummer** de optie **10**.
 
-    ![Ingestelde waarden op het tabblad Algemeen](./media/subcontract23_start-dialog.png)
+    ![Ingestelde waarden op het tabblad Algemeen 1](./media/subcontract23_start-dialog.png)
 
 31. Selecteer **OK** om het dialoogvenster **Starten** te sluiten en terug te keren naar de pagina **Alle productieorders**.
 
     De status van de productieorder is nu **Gestart**. De materialen voor bewerking 10 worden verbruikt door een automatische boeking van het orderverzamellijstjournaal. Het tijdverbruik voor bewerking 10 wordt verantwoord door een automatische boeking van een routekaartjournaal.
 
-32. Start de magazijn-app om het magazijnwerk voor bewerking 20 te starten.
+32. Start de mobiele app Magazijnbeheer om het magazijnwerk voor bewerking 20 te starten.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -240,7 +238,7 @@ Er wordt een productieorder van 10 stuks gemaakt voor het product D8100, Kast me
     - Typ **10** in het veld **Hoeveelheid**.
     - Selecteer **Nee** in het veld **Orderverzamellijst nu boeken**.
 
-    ![Ingestelde waarden op het tabblad Algemeen](./media/subcontract24_general-tab.png)
+    ![Ingestelde waarden op het tabblad Algemeen 2](./media/subcontract24_general-tab.png)
 
 35. Selecteer **OK** om het dialoogvenster **Starten** te sluiten en terug te keren naar de pagina **Alle productieorders**.
 

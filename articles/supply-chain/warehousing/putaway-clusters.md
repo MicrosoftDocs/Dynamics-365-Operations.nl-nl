@@ -2,11 +2,9 @@
 title: Wegzetclusters
 description: Wegzetclusters bieden u de mogelijkheid om meerdere nummerplaten tegelijk te verzamelen en ze vervolgens mee te nemen om op verschillende locaties weg te zetten. Dit kan zeer nuttig zijn voor handelsbedrijven, waarbij de nummerplaten doorgaans geen volledige pallets met voorraad zijn.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5552959068d109bffe32b8074666bcd63b57183a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3a7d1b7109b83b26c8187a7f0d271f1c82f6d63
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228436"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840360"
 ---
 # <a name="putaway-clusters"></a>Wegzetclusters
 
@@ -230,7 +228,7 @@ Dit scenario simuleert het verwerken van wegzetclusters.
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>De voorraad ontvangen en in een cluster sorteren
 
-1. Meld u aan bij de magazijnapp als een gebruiker die is ingesteld voor magazijn *61*.
+1. Meld u aan bij de mobiele app Magazijnbeheer als een gebruiker die is ingesteld voor magazijn *61*.
 1. Selecteer **Inkomend** in het hoofdmenu.
 1. Selecteer in het menu **Inkomend** de optie **Cluster ontvangen en sorteren**.
 1. Voer in het veld **Inkoopordernummer** het inkoopordernummer in.
@@ -272,7 +270,7 @@ Voordat de artikelen in het cluster kunnen worden weggezet, moet het cluster wor
 
 #### <a name="put-the-cluster-away"></a>Het cluster wegzetten
 
-1. Meld u aan bij de magazijnapp als een gebruiker die is ingesteld voor magazijn *61*.
+1. Meld u aan bij de mobiele app Magazijnbeheer als een gebruiker die is ingesteld voor magazijn *61*.
 1. Selecteer **Inkomend** in het hoofdmenu.
 1. Selecteer in het menu **Inkomend** de optie **Cluster wegzetten**.
 1. Selecteer **Cluster-id** en voer de cluster-id in die u eerder voor het gesloten cluster hebt ingevoerd.

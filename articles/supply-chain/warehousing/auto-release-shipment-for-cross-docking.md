@@ -2,11 +2,9 @@
 title: Automatische vrijgave van zending voor cross-docken
 description: In dit onderwerp wordt een strategie voor cross-docken beschreven waarmee u automatisch een vraagorder kunt vrijgeven aan het magazijn wanneer de productieorder die de vraaghoeveelheid levert is gereedgemeld, zodat de hoeveelheid rechtstreeks vanuit de locatie voor productie-uitvoer naar de uitgaande locatie kan worden verplaatst.
 author: omulvad
-manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 619133cb1ef5f85222a42a08fd5fb77250c3d911
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1c831030659b38b52932e504f744d24d999958a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233170"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831429"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Automatische vrijgave van zending voor cross-docken
 
@@ -28,15 +26,15 @@ ms.locfileid: "5233170"
 
 In dit onderwerp wordt een strategie voor cross-docken beschreven waarmee u automatisch een vraagorder kunt vrijgeven aan het magazijn wanneer de productieorder die de vraaghoeveelheid levert is gereedgemeld. Op deze manier wordt de hoeveelheid die nodig is voor het uitvoeren van de vraagorder rechtstreeks vanuit de locatie voor productie-uitvoer naar de uitgaande locatie wordt verplaatst.
 
-Cross-docken is een magazijnverwerkingsstroom waarbij de hoeveelheid die nodig is om een uitgaande order te vervullen direct naar de outbound dock of het faseringsgebied voor de order wordt gestuurd vanaf de locatie waar de inkomende order is ontvangen. (De inkomende order kan een inkooporder, een transferorder of een productieorder zijn.) Hoewel de functie voor geavanceerd cross-docken alle leverings- en vraagorders ondersteunt en vereist dat de uitgaande vraag moet worden vrijgegeven voordat de cross-dockmogelijkheid wordt geïdentificeerd, heeft de functie voor het automatisch vrijgeven van zendingen deze kenmerken:
+Cross-docken is een magazijnverwerkingsstroom waarbij de hoeveelheid die nodig is om een uitgaande order te vervullen direct naar de outbound dock of het faseringsgebied voor de order wordt gestuurd vanaf de locatie waar de inkomende order is ontvangen. (De inkomende order kan een inkooporder, een overboekingsorder of een productieorder zijn.) Hoewel de functie voor geavanceerd cross-docken alle leverings- en vraagorders ondersteunt en vereist dat de uitgaande vraag moet worden vrijgegeven voordat de cross-dockmogelijkheid wordt geïdentificeerd, heeft de functie voor het automatisch vrijgeven van zendingen deze kenmerken:
 
-- Het ondersteunt alleen productieorders als aanbod en alleen verkooporders en transferorders als vraag.
+- Het ondersteunt alleen productieorders als aanbod en alleen verkooporders en overboekingsorders als vraag.
 - De bewerking voor cross-docken kan ook worden gestart als de vraagorder niet is vrijgegeven aan het magazijn voordat de ontvangstbevestiging is geregistreerd (dat wil zeggen voordat de productie is gereedgemeld).
 
 Deze functionaliteit voor cross-docken heeft twee voordelen:
 
 - Met de magazijnbewerkingen kunt u de stap van het wegzetten van hoeveelheden gereedgemelde goederen in het normale opslaggebied van het magazijn overslaan, als deze hoeveelheden simpelweg opnieuw zullen worden opgehaald om de uitgaande order te vervullen. In plaats daarvan kunnen de hoeveelheden eenmalig worden verplaatst van de uitvoerlocatie naar een verpakkings-/verzendlocatie. Op deze manier helpt de functionaliteit om het aantal keren dat voorraad wordt verwerkt tot een minimum te beperken, waardoor maximale tijds- en ruimtebesparingen op de werkvloer in het magazijn mogelijk worden.
-- De magazijnbewerkingen kunnen de vrijgave van verkooporders en transferorders naar het magazijn uitstellen tot de uitvoer van eindproducten voor de bijbehorende productieorder is gereedgemeld. Dit voordeel is vooral relevant in productieomgevingen voor maken naar order, waar de doorlooptijden van de productie gewoonlijk langer zijn dan de levertijden in productieomgevingen voor maken naar voorraad.
+- De magazijnbewerkingen kunnen de vrijgave van verkooporders en overboekingsorders naar het magazijn uitstellen tot de uitvoer van eindproducten voor de bijbehorende productieorder is gereedgemeld. Dit voordeel is vooral relevant in productieomgevingen voor maken naar order, waar de doorlooptijden van de productie gewoonlijk langer zijn dan de levertijden in productieomgevingen voor maken naar voorraad.
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -48,7 +46,7 @@ Deze functionaliteit voor cross-docken heeft twee voordelen:
 | Werkklasse | Er moet een werkklasse-id voor cross-docken worden gemaakt voor het werkordertype **Cross-docken**. |
 | Werksjablonen | Werksjablonen van het werkordertype **Cross-docken** zijn vereist voor het maken van verzamel- en wegzetwerk voor cross-docken. |
 | Locatie-instructies | De locatie-instructies werkordertype **Cross-docken** zijn vereist om weggezet werk te begeleiden op de locaties waar verkooporderhoeveelheden worden verpakt en verzonden. |
-| Markering tussen een vraagorder en een productieorder | Het magazijnsysteem kan de automatische vrijgave van verzending van de uitgaande order alleen activeren en werk voor cross-docken maken vanaf de uitvoerlocatie bij de actie gereedmelding als verkooporders en transferorders zijn gereserveerd en gemarkeerd voor een productieorder. |
+| Markering tussen een vraagorder en een productieorder | Het magazijnsysteem kan de automatische vrijgave van verzending van de uitgaande order alleen activeren en werk voor cross-docken maken vanaf de uitvoerlocatie bij de actie gereedmelding als verkooporders en overboekingsorders zijn gereserveerd en gemarkeerd voor een productieorder. |
 
 ## <a name="example-cross-docking-flow"></a>Voorbeeld van cross-dockstroom
 
@@ -163,7 +161,7 @@ Voer de volgende stappen uit om de hoeveelheid gereed product te cross-docken na
 8. Selecteer op de pagina **Productieorder** in het actievenster, op het tabblad **Productieorder** in de groep **Proces** de optie **Raming** en selecteer vervolgens **OK**. De order wordt geraamd en de hoeveelheid van de grondstof wordt gereserveerd voor de productie.
 9. Selecteer in het actievenster op het tabblad **Productieorder** in de groep **Proces** de optie **Vrijgave** en selecteer vervolgens **OK**. Er wordt verzamelwerk in het magazijn gemaakt voor de grondstoffen.
 10. Open en controleer het werk. Selecteer in het actievenster op het tabblad **Magazijn** in de groep **Algemeen** de optie **Werkgegevens**. Noteer de werk-id.
-11. Meld u aan bij de Magazijnbeheer-app om werkzaamheden uit te voeren in magazijn 51.
+11. Meld u aan bij de mobiele app Magazijnbeheer om werkzaamheden uit te voeren in magazijn 51.
 12. Ga naar **Productie** \> **Productieverzamelen**.
 13. Voer de werk-id in om de orderverzameling van grondstoffen te starten en te voltooien. 
 

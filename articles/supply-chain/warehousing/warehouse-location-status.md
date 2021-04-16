@@ -2,11 +2,9 @@
 title: Status magazijnlocatie
 description: In dit onderwerp vindt u een overzicht van de functie Status magazijnlocatie.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSLocation
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: e343fbd33ca616b0e20efb1f1fd66ed4863a72dd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4f31fd424760aa677df9235e53dc4af20cc2ea94
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248614"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837340"
 ---
 # <a name="warehouse-location-status"></a>Status magazijnlocatie
 
@@ -53,7 +51,7 @@ Voordat u de functie *Status magazijnlocatie* kunt gebruiken, moet deze zijn ing
 
 ### <a name="prepare-the-sample-data-that-is-required-for-the-example-scenario"></a>De voorbeeldgegevens voorbereiden die zijn vereist voor het voorbeeldscenario
 
-Voordat u het scenario gaat doorlopen, moet u voorbeeld gegevens activeren en de functie configureren, zoals in deze sectie wordt beschreven. Om het voorbeeld scenario te voltooien, moet u de magazijnapp of de browser-emulator gebruiken. De stappen die hier worden gegeven, maken gebruik van de magazijnapp. De stappen voor de op de browser gebaseerde emulator zijn vergelijkbaar.
+Voordat u het scenario gaat doorlopen, moet u voorbeeld gegevens activeren en de functie configureren, zoals in deze sectie wordt beschreven. Om het voorbeeld scenario te voltooien, moet u de mobiele app Magazijnbeheer of de browser-emulator gebruiken. De stappen die hier worden gegeven, maken gebruik van de mobiele app Magazijnbeheer. De stappen voor de op de browser gebaseerde emulator zijn vergelijkbaar.
 
 #### <a name="use-the-usmf-legal-entity"></a>De rechtspersoon USMF gebruiken
 

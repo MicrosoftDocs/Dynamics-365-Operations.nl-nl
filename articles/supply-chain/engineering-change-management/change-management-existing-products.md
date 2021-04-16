@@ -2,11 +2,9 @@
 title: Wijzigingsbeheer voor bestaande producten inschakelen
 description: In dit onderwerp wordt uitgelegd hoe u wijzigingsbeheer voor bestaande producten kunt inschakelen. Het beschrijft ook gevallen waarin het vermogen om wijzigingsbeheer in te stellen beperkt is.
 author: t-benebo
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,17 +12,16 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 8b9f34f5980937da62610d9668a95816ba6054ef
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: be7b17c1049f60379764c5424422ff1ac6ee1770
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500857"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830095"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Wijzigingsbeheer voor bestaande producten inschakelen
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u wijzigingsbeheer voor bestaande producten kunt inschakelen. Het beschrijft ook gevallen waarin het vermogen om wijzigingsbeheer in te stellen beperkt is.
 

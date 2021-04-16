@@ -2,11 +2,9 @@
 title: Problemen met inkomende magazijnbewerkingen oplossen
 description: In dit onderwerp wordt beschreven hoe u veelvoorkomende problemen kunt oplossen die kunnen optreden tijdens werken met inkomende magazijnbewerkingen in Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6875c3c644b9993a384ba4d8623640536d7307e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250877"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828221"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Problemen met inkomende magazijnbewerkingen oplossen
 
@@ -65,5 +63,22 @@ Met een nieuwe functie voor verwerking van inkomende ladingen, *Meerontvangst vo
 
 Zie [Geregistreerde ladinghoeveelheden boeken op inkooporders](inbound-load-handling.md#post-registered-quantities) voor meer informatie.
 
+## <a name="when-i-register-inbound-orders-i-receive-the-following-error-message-the-quantity-is-not-valid"></a>Wanneer ik inkomende orders registreer, krijg ik het volgende foutbericht: 'De hoeveelheid is niet geldig'.
+
+### <a name="issue-description"></a>Probleembeschrijving
+
+Als het veld **Groeperingsbeleid nummerplaten** is ingesteld op *Door gebruiker gedefinieerd* voor een menu-item voor mobiele apparaten dat wordt gebruikt om inkomende orders te registreren, ontvangt u een foutbericht ('De hoeveelheid is niet geldig') en kunt u de registratie niet voltooien.
+
+### <a name="issue-cause"></a>Oorzaak van probleem
+
+Wanneer *Door gebruiker gedefinieerd* wordt gebruikt als groeperingsbeleid voor kentekenplaten, splitst het systeem de inkomende voorraad op in afzonderlijke nummerplaten, zoals aangegeven door de eenheidsvolgordegroep. Als batch- of serienummers worden gebruikt om het artikel bij te houden dat wordt ontvangen, moeten de hoeveelheden van elke batch of serie worden opgegeven per nummerplaat die is geregistreerd. Als de hoeveelheid die is opgegeven voor een nummerplaat groter is dan de hoeveelheid die nog moet worden ontvangen voor de huidige dimensies, wordt het foutbericht weergegeven.
+
+### <a name="issue-resolution"></a>Probleemoplossing
+
+Wanneer u een artikel registreert met behulp van een menu-item voor mobiele apparaten waarbij het veld **Groeperingsbeleid nummerplaten** is ingesteld op *Door gebruiker gedefinieerd*, moet u mogelijk nummerplaatnummers, batchnummers of serienummers bevestigen of invoeren.
+
+Op de bevestigingspagina van de nummerplaat toont het systeem de hoeveelheid die is toegewezen voor de huidige nummerplaat. Op de bevestigingspagina's voor batch- of serienummers toont het systeem de hoeveelheid die nog moet worden ontvangen voor de huidige nummerplaat. Het bevat ook een veld waarin u de hoeveelheid kunt invoeren die u wilt registreren voor die combinatie van nummerplaat en batch- of serienummer. Zorg er in dat geval voor dat de hoeveelheid die wordt geregistreerd voor de nummerplaat niet groter is dan de hoeveelheid die nog moet worden ontvangen.
+
+Als er te veel nummerplaten worden gegenereerd bij inkomende orderregistratie, kan de waarde van het veld **Groeperingsbeleid nummerplaten** worden gewijzigd in *Nummerplaatgroepering*, kan een nieuwe eenheidsvolgordegroep aan het artikel worden toegewezen of kan de optie **Nummerplaatgroepering** worden gedeactiveerd voor de eenheidsvolgordegroep.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

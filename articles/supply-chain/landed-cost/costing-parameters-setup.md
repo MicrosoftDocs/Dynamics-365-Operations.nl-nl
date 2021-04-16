@@ -2,7 +2,6 @@
 title: Instelling van parameterwaarden voor kostprijsberekening
 description: Wanneer u de module Francoprijzen instelt, kunt u verschillende sets algemene waarden definiëren die beschikbaar zijn wanneer u specifieke typen parameterwaarden voor kostprijsberekening selecteert in andere delen van de app. In dit onderwerp wordt uitgelegd hoe u deze waardensets instelt.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 51c3360afc48f4f9143118ee6139803b95e5df28
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 634635f7b751753033d1df8f56706b1e20479953
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500473"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841930"
 ---
 # <a name="costing-parameter-values-setup"></a>Instelling van parameterwaarden voor kostprijsberekening
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Wanneer u de module **Francoprijzen** instelt, kunt u verschillende sets algemene waarden en gerelateerde instellingen per waarde definiëren. Deze waarden zijn dan beschikbaar wanneer u specifieke typen parameterwaarden voor kostprijsberekening selecteert in andere delen van de app. In dit onderwerp wordt uitgelegd hoe u deze waardensets instelt.
 
@@ -90,21 +88,21 @@ In de volgende tabel worden de velden beschreven die op elke rij in het raster b
 > [!NOTE]
 > Het kostentype van het artikel is aan het artikel gekoppeld via het veld **Kostentypegroep** op het sneltabblad **Inkoop** van de pagina **Vrijgegeven product** van het artikel.
 
-## <a name="transfer-order-cost-type-groups"></a>Kostentypegroepen voor transferorders
+## <a name="transfer-order-cost-type-groups"></a>Kostentypegroepen voor overboekingsorders
 
-Met kostentypegroepen voor transferorders kunt u bepalen hoe *automatische kosten* worden gevonden. Vergelijkbare artikelen worden gekoppeld. Alle artikelen met een heffingstarief van 7 procent kunnen bijvoorbeeld tot een specifieke kostentypegroep behoren.
+Met kostentypegroepen voor overboekingsorders kunt u bepalen hoe *automatische kosten* worden gevonden. Vergelijkbare artikelen worden gekoppeld. Alle artikelen met een heffingstarief van 7 procent kunnen bijvoorbeeld tot een specifieke kostentypegroep behoren.
 
-U kunt kostentypegroepen voor transferorders onderhouden door naar **Francoprijzen \> Kostprijsberekening instellen \> Kostentypegroepen voor transferorders** te gaan. De pagina **Kostentypegroepen voor transferorders** bevat een raster met alle bestaande kostentypegroepen voor transferorders. U kunt de knoppen in het actiedeelvenster gebruiken om rijen in het raster toe te voegen, te verwijderen en te bewerken.
+U kunt kostentypegroepen voor overboekingsorders onderhouden door naar **Francoprijzen \> Kostprijsberekening instellen \> Kostentypegroepen voor overboekingsorders** te gaan. De pagina **Kostentypegroepen voor overboekingsorders** bevat een raster met alle bestaande kostentypegroepen voor overboekingsorders. U kunt de knoppen in het actiedeelvenster gebruiken om rijen in het raster toe te voegen, te verwijderen en te bewerken.
 
 In de volgende tabel worden de instellingen beschreven die op elke rij in het raster beschikbaar zijn.
 
 | Veld | Beschrijving |
 |---|---|
-| Kostentypegroepen voor transferorders | Voer een unieke naam in voor de kostentypegroep van de transferorder (bijvoorbeeld *Heffing 7%*). |
-| Beschrijving | Voer een omschrijving van de kostentypegroep voor transferorders in. Deze omschrijving kan gedetailleerde informatie geven over het niveau of het type toeslag dat aan de kostentypegroep voor transferorders is gekoppeld. |
+| Kostentypegroepen voor overboekingsorders | Voer een unieke naam in voor de kostentypegroep van de overboekingsorder (bijvoorbeeld *Heffing 7%*). |
+| Beschrijving | Voer een omschrijving van de kostentypegroep voor overboekingsorders in. Deze omschrijving kan gedetailleerde informatie geven over het niveau of het type toeslag dat aan de kostentypegroep voor overboekingsorders is gekoppeld. |
 
 > [!NOTE]
-> Het kostentype voor transferorders is aan het artikel gekoppeld via het veld **Kostengroep voor transferorders** op het sneltabblad **Inkoop** van de pagina **Vrijgegeven product** van het artikel.
+> Het kostentype voor overboekingsorders is aan het artikel gekoppeld via het veld **Kostengroep voor overboekingsorders** op het sneltabblad **Inkoop** van de pagina **Vrijgegeven product** van het artikel.
 
 ## <a name="cost-templates"></a>Kostensjablonen
 

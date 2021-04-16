@@ -2,7 +2,6 @@
 title: Folio's beheren
 description: In dit onderwerp wordt beschreven hoe u met folio's werkt. Een folio bestaan uit goederen van één leverancier voor één entiteit of bedrijf per zending. De goederen in een folio kunnen zich in één container bevinden of zijn verdeeld over meerdere containers.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2205ad8da1987130e97054b3f20749bce61198dd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 99159d2197648b8f17a719b74c8cd6ea4bffe550
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500833"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833828"
 ---
 # <a name="manage-folios"></a>Folio's beheren
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Een folio wordt vaak bepaald door douanevoorschriften. De folio kan bestaan uit goederen van één leverancier voor één entiteit of bedrijf per zending. De goederen in een folio kunnen zich in één container bevinden of zijn verdeeld over meerdere containers.
 
@@ -55,8 +53,8 @@ In de volgende tabel worden de knoppen beschreven die op het tabblad **Beheren**
 | Ontvangstlijst boeken | Boek een ontvangstlijst voor alle inkooporderregels in het folio. Als er zendingen naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van een ontvangstlijst geopend voor elk bedrijf. |
 | Productontvangstbon boeken | Boek een productontvangstbon voor alle inkooporderregels in het folio. Als er transporten naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van productontvangsten geopend voor elk bedrijf. |
 | Factuur boeken | Boek een factuur voor alle inkooporderregels in het folio. Als er transporten naar meerdere bedrijven worden gebruikt, wordt er een nieuw dialoogvenster voor het boeken van facturen geopend voor elk bedrijf. |
-| Verzenden transferorders | Boek een transferorder voor alle transferorderregels die betrekking hebben op het huidige folio in de gerelateerde zending. |
-| Transferorder ontvangen | Boek een transferorderontvangst voor alle transferorderregels die betrekking hebben op het huidige folio in de gerelateerde zending. |
+| Verzenden overboekingsorders | Boek een overboekingsorder voor alle overboekingsorderregels die betrekking hebben op het huidige folio in de gerelateerde zending. |
+| overboekingsorder ontvangen | Boek een overboekingsorderontvangst voor alle overboekingsorderregels die betrekking hebben op het huidige folio in de gerelateerde zending. |
 | Goederen in transit ontvangen | Ontvang alle orderregels die in transit zijn in het folio. |
 | Documenten ontvangen | Stel de instelling van de optie **Documenten ontvangen** in op *Ja*. Met deze knop kunt u het artikel en/of de inkoopregel vergrendelen zodat deze niet verder kan worden bijgewerkt. |
 | Automatisch kosten zoeken | Zoek relevante transportkosten. Als deze kosten al zijn gevonden of bijgewerkt, ontvangt u het volgende bericht: 'Er bestaan niet-gefactureerde kostenregels. Wilt u deze overschrijven?' Houd er rekening mee dat transportkosten die aan het folio zijn gekoppeld en die zijn gefactureerd, niet worden overschreven. |

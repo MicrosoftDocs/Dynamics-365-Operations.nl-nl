@@ -2,11 +2,9 @@
 title: Hoofdplanning met vraagprognoses
 description: In dit onderwerp wordt uitgelegd hoe u vraagprognoses opneemt tijdens de hoofdplanning met Planningsoptimalisatie.
 author: ChristianRytt
-manager: tfehr
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7bd1268893d0869d2414b944493c8b8859f27abc
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 88e93e7a363bf5db3d25d7fe6a0ab390f79912b0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501121"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833300"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Hoofdplanning met vraagprognoses
 
@@ -70,7 +68,7 @@ Voer de volgende stappen uit om een behoefteplanningsgroep zo te configureren da
         - **Orders**: alleen verkooporders moeten de prognose verminderen.
 
         > [!NOTE]
-        > Als u *Alle transacties* selecteert, worden transacties met zowel vraag als aanbod in dezelfde voorraaddimensies beschouwd als neutraal en genegeerd tijdens de prognosereductie. Als de planningsdimensie bijvoorbeeld is ingesteld op alleen site, niet magazijn, wordt een transferorder tussen site 1, magazijn 11 en site 1, magazijn 13 genegeerd en wordt de resterende vraagprognose niet verminderd.
+        > Als u *Alle transacties* selecteert, worden transacties met zowel vraag als aanbod in dezelfde voorraaddimensies beschouwd als neutraal en genegeerd tijdens de prognosereductie. Als de planningsdimensie bijvoorbeeld is ingesteld op alleen site, niet magazijn, wordt een overboekingsorder tussen site 1, magazijn 11 en site 1, magazijn 13 genegeerd en wordt de resterende vraagprognose niet verminderd.
 
     - **Intercompany-orders opnemen**: stel deze optie in op *Ja* als intercompany-orders moeten worden opgenomen wanneer de prognose wordt verminderd. In het andere geval kiest u voor *Nee*.
     - **Klantprognose opnemen in de vraagprognose**: geef op of een klantprognose moet worden opgenomen in de algemene prognose. Deze optie bepaalt hoe werkelijke vraag de geprognosticeerde vraag verlaagt. U kunt deze optie gebruiken om ervoor te zorgen dat de hoofdplanning de levering van artikelen vervoert die door bepaalde klanten zijn gekocht.

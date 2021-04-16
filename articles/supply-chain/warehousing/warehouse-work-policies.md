@@ -2,11 +2,9 @@
 title: Werkbeleidsregels
 description: In dit onderwerp wordt uitgelegd u werkbeleidsregels instelt.
 author: perlynne
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 3e7814790bce0aee648421e3a69d702fd0012404
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248542"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838125"
 ---
 # <a name="work-policies"></a>Werkbeleidsregels
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u het systeem en de magazijn-app instelt zodat deze werkbeleidsregels ondersteunen. Met deze functie kunt u de voorraad snel registreren zonder wegzetwerk te maken wanneer u inkoop- of transferorders ontvangt of wanneer u productieprocessen voltooit. Dit onderwerp biedt algemene informatie. Zie voor gedetailleerde informatie over de ontvangst van nummerplaten [Nummerplaat ontvangen via de magazijnapp](warehousing-mobile-device-app-license-plate-receiving.md).
+In dit onderwerp wordt uitgelegd hoe u het systeem en de mobiele app Magazijnbeheer instelt zodat deze werkbeleidsregels ondersteunen. Met deze functie kunt u de voorraad snel registreren zonder wegzetwerk te maken wanneer u inkoop- of overboekingsorders ontvangt of wanneer u productieprocessen voltooit. Dit onderwerp biedt algemene informatie. Zie voor gedetailleerde informatie over de ontvangst van nummerplaten [Nummerplaat ontvangen via de mobiele app Magazijnbeheer](warehousing-mobile-device-app-license-plate-receiving.md).
 
-Met een werkbeleid wordt bepaald of magazijnwerk wordt gemaakt wanneer een geproduceerd artikel wordt gereedgemeld of wanneer goederen worden ontvangen via de magazijn-app. U stelt elk werkbeleid in door de voorwaarden te definiëren waaronder het beleid van toepassing is: de werkordertypen en -processen, de voorraadlocatie en (optioneel) de producten. Een inkooporder voor product *A0001* moet bijvoorbeeld worden ontvangen op locatie *RECV* in magazijn *24*. Later wordt het product verbruikt in een ander proces op locatie *RECV*. In dat geval kunt u een werkbeleid instellen om te voorkomen dat wegzetwerk wordt gemaakt wanneer een werknemer product *A0001* meldt als ontvangen op de locatie *RECV*.
+Met een werkbeleid wordt bepaald of magazijnwerk wordt gemaakt wanneer een geproduceerd artikel wordt gereedgemeld of wanneer goederen worden ontvangen via de mobiele app Magazijnbeheer. U stelt elk werkbeleid in door de voorwaarden te definiëren waaronder het beleid van toepassing is: de werkordertypen en -processen, de voorraadlocatie en (optioneel) de producten. Een inkooporder voor product *A0001* moet bijvoorbeeld worden ontvangen op locatie *RECV* in magazijn *24*. Later wordt het product verbruikt in een ander proces op locatie *RECV*. In dat geval kunt u een werkbeleid instellen om te voorkomen dat wegzetwerk wordt gemaakt wanneer een werknemer product *A0001* meldt als ontvangen op de locatie *RECV*.
 
 > [!NOTE]
 > - Voor een actief werkbeleid moet u minimaal één locatie definiëren op het sneltabblad **Voorraadlocaties** van de pagina **Werkbeleidsregels**. 
@@ -297,7 +295,7 @@ Wanneer de productieorder gereedgemeld wordt, wordt er geen werk gegenereerd voo
 
 Zie [Mobiele apparaten instellen voor magazijnwerk](configure-mobile-devices-warehouse.md) voor meer informatie over menuopties voor mobiele apparaten.
 
-Zie voor meer informatie over de ontvangst van nummerplaten en werkbeleid [Nummerplaat ontvangen via de magazijnapp](warehousing-mobile-device-app-license-plate-receiving.md).
+Zie voor meer informatie over de ontvangst van nummerplaten en werkbeleid [Nummerplaat ontvangen via de mobiele app Magazijnbeheer](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Zie [Magazijnverwerking van inkomende ladingen voor inkooporders](inbound-load-handling.md) voor meer informatie over het beheer van inkomende ladingen.
 

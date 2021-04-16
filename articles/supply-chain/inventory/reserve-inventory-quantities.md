@@ -2,11 +2,9 @@
 title: Voorraadhoeveelheden reserveren
 description: Dit onderwerp beschrijft de verschillende opties die beschikbaar zijn voor het reserveren van voorraad.
 author: perlynne
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c28cede05d10a9929c83e87c53fddd53e99db1e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d1fcdb43f95892c541be2c31101d8f592f5d5e16
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209582"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834188"
 ---
 # <a name="reserve-inventory-quantities"></a>Voorraadhoeveelheden reserveren
 
@@ -77,7 +75,7 @@ Bij een verkooporder die automatisch moet worden gereserveerd en moet worden gel
 
 Er zijn twee opties met betrekking tot reserveringen op de pagina de **Parameters voor voorraad- en magazijnbeheer**:
 -   Met de optie **Bestelde artikelen reserveren** op het tabblad **Algemeen** kunt u artikelontvangsten reserveren die worden besteld voor artikeluitgiften in Klanten, Projectbeheer en boekhouding en Productiecontrole. Als u deze optie uitschakelt, kunt u alleen artikelen reserveren die fysiek zijn ontvangen. Als een bepaald artikel is ingesteld voor ontvangst van negatieve voorraad, is dit veld niet relevant.
--   De optie **Artikelen automatisch reserveren** optie op het tabblad **Transport** definieert de standaardinstelling als de artikelen automatisch voor transferorders zijn. De standaardinstellingen kunnen op afzonderlijke transferorders worden overschreven.
+-   De optie **Artikelen automatisch reserveren** optie op het tabblad **Transport** definieert de standaardinstelling als de artikelen automatisch voor overboekingsorders zijn. De standaardinstellingen kunnen op afzonderlijke overboekingsorders worden overschreven.
 
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Het voorraadreserveringsbeleid op de pagina Productieparameters
 
