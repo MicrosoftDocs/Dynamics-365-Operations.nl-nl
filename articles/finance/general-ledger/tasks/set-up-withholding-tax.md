@@ -2,11 +2,9 @@
 title: Bronbelasting instellen
 description: In dit onderwerp wordt uitgelegd hoe bronbelasting instelt.
 author: twheeloc
-manager: AnnBe
 ms.date: 07/11/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxWithholdTable, TaxWithholdData, TaxWithholdGroup
 audience: Application User
@@ -15,38 +13,38 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ae7b13f743336e01f17248c8d6492b31e8044ef
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 592afb7542fa44dcb1bf3f7354937d3c21fb1a87
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222306"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813463"
 ---
-# <a name="set-up-withholding-tax"></a><span data-ttu-id="208d8-103">Bronbelasting instellen</span><span class="sxs-lookup"><span data-stu-id="208d8-103">Set up withholding tax</span></span>
+# <a name="set-up-withholding-tax"></a><span data-ttu-id="c02f3-103">Bronbelasting instellen</span><span class="sxs-lookup"><span data-stu-id="c02f3-103">Set up withholding tax</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="208d8-104">In dit onderwerp wordt uitgelegd hoe bronbelasting instelt.</span><span class="sxs-lookup"><span data-stu-id="208d8-104">This topic explains how to set up withholding tax.</span></span> <span data-ttu-id="208d8-105">*Bronbelasting* is belasting op leveranciers waarbij geen btw-transacties worden gemaakt.</span><span class="sxs-lookup"><span data-stu-id="208d8-105">*Withholding tax* is a tax on vendors that does not create sales tax transactions.</span></span> <span data-ttu-id="208d8-106">Bronbelasting die is berekend over betalingen van leveranciers is een schuld.</span><span class="sxs-lookup"><span data-stu-id="208d8-106">Withholding tax that is calculated on vendor payments is a liability.</span></span> <span data-ttu-id="208d8-107">Daarom zijn alleen balansrekeningen of schuldenrekeningen geldige rekeningen voor het boeken van bronbelasting.</span><span class="sxs-lookup"><span data-stu-id="208d8-107">Therefore, only balance sheet accounts or liability accounts are valid accounts for posting withholding tax.</span></span> <span data-ttu-id="208d8-108">Deze taakbegeleider toont hoe u bronbelasting instelt.</span><span class="sxs-lookup"><span data-stu-id="208d8-108">This task guide demonstrates how to set up withholding tax.</span></span>
+<span data-ttu-id="c02f3-104">In dit onderwerp wordt uitgelegd hoe bronbelasting instelt.</span><span class="sxs-lookup"><span data-stu-id="c02f3-104">This topic explains how to set up withholding tax.</span></span> <span data-ttu-id="c02f3-105">*Bronbelasting* is belasting op leveranciers waarbij geen btw-transacties worden gemaakt.</span><span class="sxs-lookup"><span data-stu-id="c02f3-105">*Withholding tax* is a tax on vendors that does not create sales tax transactions.</span></span> <span data-ttu-id="c02f3-106">Bronbelasting die is berekend over betalingen van leveranciers is een schuld.</span><span class="sxs-lookup"><span data-stu-id="c02f3-106">Withholding tax that is calculated on vendor payments is a liability.</span></span> <span data-ttu-id="c02f3-107">Daarom zijn alleen balansrekeningen of schuldenrekeningen geldige rekeningen voor het boeken van bronbelasting.</span><span class="sxs-lookup"><span data-stu-id="c02f3-107">Therefore, only balance sheet accounts or liability accounts are valid accounts for posting withholding tax.</span></span> <span data-ttu-id="c02f3-108">Deze taakbegeleider toont hoe u bronbelasting instelt.</span><span class="sxs-lookup"><span data-stu-id="c02f3-108">This task guide demonstrates how to set up withholding tax.</span></span>
 
-1. <span data-ttu-id="208d8-109">Ga naar **Navigatievenster > Modules > Belasting > Indirecte belastingen> Bronbelasting > Bronbelastingscodes**.</span><span class="sxs-lookup"><span data-stu-id="208d8-109">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax codes**.</span></span>
-2. <span data-ttu-id="208d8-110">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="208d8-110">Select **New**.</span></span>
-3. <span data-ttu-id="208d8-111">Typ een waarde in het veld **Bronbelastingcode**.</span><span class="sxs-lookup"><span data-stu-id="208d8-111">In the **Withholding tax code** field, type a value.</span></span>
-4. <span data-ttu-id="208d8-112">Voer in het veld **Bronbelastingnaam** de naam van de bronbelastingcode in.</span><span class="sxs-lookup"><span data-stu-id="208d8-112">In the **Withholding tax name** field, enter the name of the withholding tax code.</span></span>
-5. <span data-ttu-id="208d8-113">Selecteer in het veld **Hoofdrekening** de hoofdrekening voor het boeken van de bronbelastingschuld.</span><span class="sxs-lookup"><span data-stu-id="208d8-113">In the **Main account** field, select the main account for posting the withholding tax liability.</span></span>
-6. <span data-ttu-id="208d8-114">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="208d8-114">Select **Save**.</span></span>
-7. <span data-ttu-id="208d8-115">Selecteer **Waarden** en markeer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="208d8-115">Select **Values** and mark the desired record in the list.</span></span>
-8. <span data-ttu-id="208d8-116">Voer in het veld **Waarde** een percentage in dat voor de berekening van de bronbelasting wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="208d8-116">In the **Value** field, enter a percentage used for the calculation of the withholding tax.</span></span>
-9. <span data-ttu-id="208d8-117">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="208d8-117">Select **Save**.</span></span>
-10. <span data-ttu-id="208d8-118">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="208d8-118">Close the page.</span></span>
-11. <span data-ttu-id="208d8-119">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="208d8-119">Select **Save**.</span></span>
-12. <span data-ttu-id="208d8-120">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="208d8-120">Close the page.</span></span>
-13. <span data-ttu-id="208d8-121">Ga naar **Navigatievenster > Modules > Belasting > Indirecte belastingen> Bronbelasting > Bronbelastinggroepen**.</span><span class="sxs-lookup"><span data-stu-id="208d8-121">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax groups**.</span></span>
-14. <span data-ttu-id="208d8-122">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="208d8-122">Select **New**.</span></span>
-15. <span data-ttu-id="208d8-123">Voer in het veld **Bronbelastinggroep** de id van de bronbelastinggroep in.</span><span class="sxs-lookup"><span data-stu-id="208d8-123">In the **Withholding tax group** field, enter the identifier of the withholding tax group.</span></span>
-16. <span data-ttu-id="208d8-124">Voer in het veld **Beschrijving** de naam van de bronbelastinggroep in.</span><span class="sxs-lookup"><span data-stu-id="208d8-124">In the **Description** field, enter the name of the withholding tax group.</span></span>
-17. <span data-ttu-id="208d8-125">Selecteer de bronbelastingcode in het veld **Bronbelastingcode**.</span><span class="sxs-lookup"><span data-stu-id="208d8-125">In the **Withholding tax code** field, select the withholding tax code.</span></span>
-18. <span data-ttu-id="208d8-126">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="208d8-126">Select **Save**.</span></span>
-19. <span data-ttu-id="208d8-127">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="208d8-127">Close the page.</span></span>
+1. <span data-ttu-id="c02f3-109">Ga naar **Navigatievenster > Modules > Belasting > Indirecte belastingen> Bronbelasting > Bronbelastingscodes**.</span><span class="sxs-lookup"><span data-stu-id="c02f3-109">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax codes**.</span></span>
+2. <span data-ttu-id="c02f3-110">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="c02f3-110">Select **New**.</span></span>
+3. <span data-ttu-id="c02f3-111">Typ een waarde in het veld **Bronbelastingcode**.</span><span class="sxs-lookup"><span data-stu-id="c02f3-111">In the **Withholding tax code** field, type a value.</span></span>
+4. <span data-ttu-id="c02f3-112">Voer in het veld **Bronbelastingnaam** de naam van de bronbelastingcode in.</span><span class="sxs-lookup"><span data-stu-id="c02f3-112">In the **Withholding tax name** field, enter the name of the withholding tax code.</span></span>
+5. <span data-ttu-id="c02f3-113">Selecteer in het veld **Hoofdrekening** de hoofdrekening voor het boeken van de bronbelastingschuld.</span><span class="sxs-lookup"><span data-stu-id="c02f3-113">In the **Main account** field, select the main account for posting the withholding tax liability.</span></span>
+6. <span data-ttu-id="c02f3-114">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="c02f3-114">Select **Save**.</span></span>
+7. <span data-ttu-id="c02f3-115">Selecteer **Waarden** en markeer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="c02f3-115">Select **Values** and mark the desired record in the list.</span></span>
+8. <span data-ttu-id="c02f3-116">Voer in het veld **Waarde** een percentage in dat voor de berekening van de bronbelasting wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="c02f3-116">In the **Value** field, enter a percentage used for the calculation of the withholding tax.</span></span>
+9. <span data-ttu-id="c02f3-117">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="c02f3-117">Select **Save**.</span></span>
+10. <span data-ttu-id="c02f3-118">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="c02f3-118">Close the page.</span></span>
+11. <span data-ttu-id="c02f3-119">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="c02f3-119">Select **Save**.</span></span>
+12. <span data-ttu-id="c02f3-120">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="c02f3-120">Close the page.</span></span>
+13. <span data-ttu-id="c02f3-121">Ga naar **Navigatievenster > Modules > Belasting > Indirecte belastingen> Bronbelasting > Bronbelastinggroepen**.</span><span class="sxs-lookup"><span data-stu-id="c02f3-121">Go to **Navigation pane > Modules > Tax > Indirect taxes > Withholding tax > Withholding tax groups**.</span></span>
+14. <span data-ttu-id="c02f3-122">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="c02f3-122">Select **New**.</span></span>
+15. <span data-ttu-id="c02f3-123">Voer in het veld **Bronbelastinggroep** de id van de bronbelastinggroep in.</span><span class="sxs-lookup"><span data-stu-id="c02f3-123">In the **Withholding tax group** field, enter the identifier of the withholding tax group.</span></span>
+16. <span data-ttu-id="c02f3-124">Voer in het veld **Beschrijving** de naam van de bronbelastinggroep in.</span><span class="sxs-lookup"><span data-stu-id="c02f3-124">In the **Description** field, enter the name of the withholding tax group.</span></span>
+17. <span data-ttu-id="c02f3-125">Selecteer de bronbelastingcode in het veld **Bronbelastingcode**.</span><span class="sxs-lookup"><span data-stu-id="c02f3-125">In the **Withholding tax code** field, select the withholding tax code.</span></span>
+18. <span data-ttu-id="c02f3-126">Selecteer **Opslaan**.</span><span class="sxs-lookup"><span data-stu-id="c02f3-126">Select **Save**.</span></span>
+19. <span data-ttu-id="c02f3-127">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="c02f3-127">Close the page.</span></span>
 
 
 
