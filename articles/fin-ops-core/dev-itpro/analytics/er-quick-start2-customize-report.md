@@ -2,7 +2,6 @@
 title: Een ER-indeling aanpassen om een aangepast elektronisch document te genereren
 description: In dit onderwerp wordt uitgelegd hoe u een door Microsoft geleverde ER-indeling (Electronic Reporting) kunt aanpassen, zodat een aangepast elektronisch document wordt gegenereerd.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/22/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c643c913d9bc9233c891709593dff995284e2e5
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7355fbb3321a6b5707ab561e88aed2d22cc967cd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568992"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743648"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Een ER-indeling aanpassen om een aangepast elektronisch document te genereren
 

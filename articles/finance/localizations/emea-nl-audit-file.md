@@ -5,7 +5,6 @@ author: liza-golub
 ms.date: 05/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxEvatParameters_NL
 audience: Application User
@@ -14,12 +13,12 @@ ms.search.region: Netherlands
 ms.author: elgolu
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b97247b4f9c849361c069b115658a05cbdb4dca7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 32aa934e8ed997795081b6addba74a275e44e11c
+ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208443"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "5612917"
 ---
 # <a name="audit-file-xml-auditfile-financieel-xaf"></a>Auditfile (XML Auditfile Financieel, XAF)
 

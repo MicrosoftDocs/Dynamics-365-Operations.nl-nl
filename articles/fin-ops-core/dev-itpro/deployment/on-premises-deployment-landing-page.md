@@ -2,8 +2,7 @@
 title: Startpagina van On-premises implementatie
 description: Dit onderwerp bevat informatie en koppelingen naar inhoud over on-premises implementaties.
 author: sericks007
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: dc9642ee224290891c738c9d0d2b96ff119a1622
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564055"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749300"
 ---
 # <a name="on-premises-deployment-home-page"></a>Startpagina van On-premises implementatie
 
@@ -38,14 +37,16 @@ U kunt Dynamics 365 Finance and Operations (on-premises) implementeren. Wanneer 
 
 ## <a name="onboard"></a>Onboarden
 - [Een on-premises project instellen in Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [On-premises omgevingen instellen en implementeren (platvormupdate 12 en later)](setup-deploy-on-premises-pu12.md)
+- [On-premises omgevingen instellen en implementeren (platvormupdate 41 en later)](setup-deploy-on-premises-pu41.md)
+- [On-premises omgevingen instellen en implementeren (Platform updates 12 tot en met 40)](setup-deploy-on-premises-pu12.md)
 - [Netwerkprinterapparaten installeren in on-premises omgevingen](../analytics/install-network-printer-onprem.md)
 - [SQL Server Reporting Services configureren voor on-premises implementaties](../analytics/configure-ssrs-on-premises.md)
-- [Aangepaste modellen ontwikkelen voor on-premises-omgevingen](develop-deploy-custom-models-on-premises.md)
+- [Aangepaste modellen voor on-premises omgevingen ontwikkelen en implementeren](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Werken in uw on-premises implementatie
+- [Hoge beschikbaarheid configureren voor SSRS-knooppunten (SQL Server Reporting Services)](onprem-SSRSHA.md)
 - [Documentbeheer configureren](../../fin-ops/organization-administration/configure-document-management.md)
-- [Configuraties van elektronische rapportage importeren](../analytics/electronic-reporting-import-ger-configurations.md)
+- [Configuraties van elektronische aangifte (ER) importeren](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Mogelijkheden voor het genereren, publiceren en afdrukken van documenten in on-premises implementaties](../analytics/printing-capabilities-on-premises.md)
 - [Proxy's voor on-premises omgevingen configureren](onprem-reverseproxy.md)
 - [Technische ondersteuning instellen voor Finance and Operations apps](../lifecycle-services/support-experience.md)

@@ -1,8 +1,7 @@
 ---
-title: Overzicht van Human resources
-description: Human resources stroomlijnt veel routinematige registratietaken en automatiseert een aantal processen die betrekking hebben op de personeelsbezetting van uw organisatie. Het biedt tevens een kader voor het personeel van Human resources voor het beheren van gebieden van toezicht. Deze gebieden zijn werknemerwerving en behoud, vergoedingenbeheer, training, beoordelingsgesprekken en wijzigingsbeheer.
+title: Overzicht van Human Resources
+description: Human resources stroomlijnt routinematige registratietaken, automatiseert processen die betrekking hebben op de personeelsbezetting van uw organisatie en biedt een raamwerk voor HR-personeel voor het beheren van overzichtsgebieden.
 author: andreabichsel
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -14,14 +13,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fb04ed91c28dc87bdcf4e218cbeaf99f5442ab4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d6f70e7626100646feb12e8544b5ab943097b1a3
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566693"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752175"
 ---
-# <a name="human-resources-overview"></a>Overzicht van Human resources
+# <a name="human-resources-overview"></a>Overzicht van Human Resources
 
 [!include [banner](../includes/banner.md)]
 

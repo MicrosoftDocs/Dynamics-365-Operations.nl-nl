@@ -2,7 +2,6 @@
 title: Vergelijking van functies tussen cloud en on-premises
 description: In dit onderwerp ziet u welke functies worden ondersteund in de cloud en on-premises.
 author: sericks007
-manager: AnnBe
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 52dfff77fa7d14e560ce20596a4d79edeadb5390
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566631"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744046"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Vergelijking van functies tussen cloud en on-premises
 
@@ -43,9 +42,9 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 |---------------------|-----------------------------|-----------|-----------------|
 | Conformiteit en certificaten        |                                                                                           | Ja       | Ja             |
 |                                      | SOC 1-certificering van type 1                                                                | Ja       | Nee              |
-| Gegevensbeheer en -integratie      |                                                                                           | Ja       | Ja             
+| Gegevensbeheer en -integratie      |                                                                                           | Ja       | Ja             |
 |                                      | Gegevens exporteren naar uw eigen datawarehouse                                                    | Ja       | Ja             |
-|                                      | De export van incrementele updates naar een gegevensentiteit inschakelen                                 | Ja       | Ja              |
+|                                      | De export van incrementele updates naar een gegevensentiteit inschakelen                                 | Ja       | Ja             |
 |                                      | Gegevensintegraties                                                                         | Ja       | Ja             |
 | Documentbeheer                  |                                                                                           | Ja       | Ja             |
 | Financieel beheer                 |                                                                                           | Ja       | Ja             |
@@ -62,8 +61,8 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 |                                      | Analytische werkgebieden                                                                     | Ja       | No              |
 |                                      | Intelligent bedrijfsproces: Aanbevelingen                                             | Ja       | Nee              |
 |                                      | Power BI-rapporten met OData opstellen met Power BI Desktop- of Excel PowerQuery-hulpprogramma's    | Ja       | Nee              |
-|                                      | SSRS (SQL Server Reporting Services) ondersteunt uitschalen                                 | Ja       | Nee              |
-|                                      | Telemetrie wordt overgebracht naar de cloud                                                   | Ja       | Nee              |
+|                                      | SSRS (SQL Server Reporting Services) ondersteunt uitschalen                                 | Ja       | Ja             |
+|                                      | Telemetrie wordt overgebracht naar de cloud                                                   | Ja       | No              |
 | Lifecycle Services                   |                                                                                           | Ja       | Ja             |
 |                                      | Configureerbare bedrijfsprocessen                                                           | Ja       | Nee              |
 | Lokalisaties                        |                                                                                           | Ja       | Ja             |
@@ -85,7 +84,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 
 | **Gebied**                | **Functie**             | **Cloud** | **On-premises** |
 |-------------------------|-------------------|-----------|-----------------|
-| Activabeheer                     |                                                                                           | Ja       | No |
+| Activabeheer                     |                                                                                           | Ja       | No              |
 | Conformiteit en certificaten        |                                                                                           | Ja       | Ja             |
 |                                      | SOC 1-certificering van type 1                                                                | Ja       | Nee              |
 | Kostprijsboekhouding                      |                                                                                           | Ja       | Ja             |
@@ -96,7 +95,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 | Gegevensbeheer en -integratie      |                                                                                           | Ja       | Ja             |
 |                                      | Uitbreiding op configuratiebasis                                                            | Ja       | Nee              |
 |                                      | Gegevens exporteren naar uw eigen datawarehouse                                                    | Ja       | Ja             |
-|                                      | De export van incrementele updates naar een gegevensentiteit inschakelen                                 | Ja       | Ja              |
+|                                      | De export van incrementele updates naar een gegevensentiteit inschakelen                                 | Ja       | Ja             |
 |                                      | Gegevensintegraties                                                                         | Ja       | Ja             |
 | Documentbeheer                  |                                                                                           | Ja       | Ja             |
 | Help                                 |                                                                                           | Ja       | Nee              |
@@ -111,8 +110,8 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 |                                      | Analytische werkgebieden                                                                     | Ja       | No              |
 |                                      | Intelligent bedrijfsproces: Aanbevelingen                                             | Ja       | Nee              |
 |                                      | Power BI-rapporten met OData opstellen met Power BI Desktop- of Excel PowerQuery-hulpprogramma's    | Ja       | Nee              |
-|                                      | SSRS (SQL Server Reporting Services) ondersteunt uitschalen                                 | Ja       | Nee              |
-|                                      | Telemetrie wordt overgebracht naar de cloud                                                   | Ja       | Nee              |
+|                                      | SSRS (SQL Server Reporting Services) ondersteunt uitschalen                                 | Ja       | Ja             |
+|                                      | Telemetrie wordt overgebracht naar de cloud                                                   | Ja       | No              |
 | Voorraadbeheer                 |                                                                                           | Ja       | Ja             |
 | Lifecycle Services                   |                                                                                           | Ja       | Ja             |
 |                                      | Configureerbare bedrijfsprocessen                                                           | Ja       | Nee              |

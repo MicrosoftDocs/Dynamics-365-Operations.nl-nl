@@ -2,7 +2,6 @@
 title: De parameters van een ER-indeling per rechtspersoon instellen
 description: In dit onderwerp wordt uitgelegd hoe u de para meters van een ER-indeling (Elektronische rapportage) per rechts persoon kunt instellen.
 author: NickSelin
-manager: AnnBe
 ms.date: 10/29/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: eebca6575a0b23f75baabbb91727f498de44d9cb
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 4003208a1f02db134bbec1ecf90c1cdd2973e67f
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570705"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751149"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>De parameters van een ER-indeling per rechtspersoon instellen
 

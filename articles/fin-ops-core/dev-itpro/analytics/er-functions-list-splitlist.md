@@ -2,8 +2,7 @@
 title: De ER-functie SPLITLIST
 description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) SPLITLIST.
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
+ms.date: 03/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af8c413726ca8d9f92eff18807e7fa9002fc9d37
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 99e199e238b3132622a8b305895637b430e8f6d2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559133"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745564"
 ---
 # <a name="splitlist-er-function"></a>De ER-functie SPLITLIST
 
@@ -29,10 +28,16 @@ ms.locfileid: "5559133"
 
 De functie `SPLITLIST` splitst de opgegeven lijst in sublijsten (of batches) waarvan elk het opgegeven aantal records bevat. De functie retourneert vervolgens het resultaat als een nieuwe waarde van het type *Recordlijst* die uit de batches bestaat.
 
-## <a name="syntax"></a>Syntaxis
+## <a name="syntax-1"></a>Syntaxis 1
 
 ```vb
 SPLITLIST (list, number)
+```
+
+## <a name="syntax-2"></a>Syntaxis 2
+
+```vb
+SPLITLIST (list, number, on-demand reading flag)
 ```
 
 ## <a name="arguments"></a>Argumenten
@@ -44,6 +49,10 @@ Het geldige pad van een gegevensbron van het gegevenstype *Recordlijst*.
 `number`: *Geheel getal*
 
 Het maximum aantal records per batch.
+
+`on-demand reading flag`: *Booleaans*
+
+Een *Booleaanse* waarde die aangeeft of elementen van sublijsten op aanvraag moeten worden gegenereerd.
 
 ## <a name="return-values"></a>Retourwaarden
 
@@ -62,6 +71,8 @@ De geretourneerde lijst batches bevat de volgende elementen:
 - **BatchNumber**: *Geheel getal*
 
     Het nummer van de huidige batch in de geretourneerde lijst.
+
+Wanneer de on-demand leesmarkering is ingesteld op **Waar**, worden sublijsten op aanvraag gegenereerd, waardoor het geheugenverbruik kan worden beperkt, maar prestaties kunnen verslechteren als elementen niet opeenvolgend worden gebruikt.
 
 ## <a name="example"></a>Voorbeeld
 

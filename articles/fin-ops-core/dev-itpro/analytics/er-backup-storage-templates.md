@@ -2,7 +2,6 @@
 title: Back-upopslag van ER-sjablonen
 description: In dit onderwerp wordt uitgelegd hoe u de back-upopslag voor elektronische rapportage (ER) gebruikt voor het herstellen van sjablonen.
 author: NickSelin
-manager: AnnBe
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d1bf2f13833b4441812b1c5326f897415c752091
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: b41760bb58cbef66146b3f1af6f30c6a35a18727
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565620"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743842"
 ---
 # <a name="backup-storage-of-er-templates"></a>Back-upopslag van ER-sjablonen
 

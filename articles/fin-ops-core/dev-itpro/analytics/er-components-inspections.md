@@ -2,7 +2,6 @@
 title: Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voorkomen
 description: In dit onderwerp wordt uitgelegd hoe u de geconfigureerde onderdelen voor elektronische rapportage (ER) kunt inspecteren om runtimeproblemen te voorkomen.
 author: NickSelin
-manager: AnnBe
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86db6dc27a8a76e90494e3dc7a7cc9c828f9ec37
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574120"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753835"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voorkomen
 
@@ -666,19 +665,19 @@ In de volgende afbeelding wordt de runtimefout weergegeven die optreedt als u de
 
 ![Runtimefout die optreedt tijdens het uitvoeren van de indelingstoewijzing op de pagina Indelingsontwerper](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution"></a>Automatische oplossing
+### <a name="automatic-resolution&quot;></a>Automatische oplossing
 
 Er is geen optie beschikbaar om dit probleem automatisch op te lossen.
 
-### <a name="manual-resolution"></a>Handmatige oplossing
+### <a name=&quot;manual-resolution&quot;></a>Handmatige oplossing
 
-#### <a name="option-1"></a>Optie 1
+#### <a name=&quot;option-1&quot;></a>Optie 1
 
 De markering **Cache** verwijderen uit de gegevensbron **Vendor**. De gegevensbron **FilteredVendor** wordt dan uitvoerbaar, maar de gegevensbron **Vendor** waarnaar wordt verwezen in de tabel VendTable wordt elke keer geopend wanneer de gegevensbron **FilteredVendor** wordt aangeroepen.
 
-#### <a name="option-2"></a>Optie 2
+#### <a name=&quot;option-2&quot;></a>Optie 2
 
-Wijzig de expressie van de gegevensbron **FilteredVendor** van `FILTER(Vendor, Vendor.AccountNum="US-101")` in `WHERE(Vendor, Vendor.AccountNum="US-101")`. In dit geval wordt de gegevensbron **Vendor** waarnaar wordt verwezen in de tabel VendTable alleen geopend tijdens de eerste aanroep van de gegevensbron **Vendor**. De selectie van records wordt echter in het geheugen uitgevoerd. Deze benadering kan daardoor leiden tot slechte prestaties.
+Wijzig de expressie van de gegevensbron **FilteredVendor** van `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")` in `WHERE(Vendor, Vendor.AccountNum="US-101")`. In dit geval wordt de gegevensbron **Vendor** waarnaar wordt verwezen in de tabel VendTable alleen geopend tijdens de eerste aanroep van de gegevensbron **Vendor**. De selectie van records wordt echter in het geheugen uitgevoerd. Deze benadering kan daardoor leiden tot slechte prestaties.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Binding ontbreekt
 
