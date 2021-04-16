@@ -2,11 +2,9 @@
 title: Betalingsmethode voor ISO20022-kredietoverdracht instellen
 description: IN deze procedure ziet u hoe u de betalingsmethode van de leverancier instelt voor ISO20022-kredietoverdracht of een ander type betaling door middel van elektronische rapportage en zo een bestand aanmaakt.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendPaymMode
 audience: Application User
@@ -15,37 +13,37 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ae91ce361ab3e4e799ec82ca9e05c9e11d81ed1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 643be31db625d0db12f1df18b9e797013da98ece
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256565"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832467"
 ---
-# <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a><span data-ttu-id="853ac-103">Betalingsmethode voor ISO20022-kredietoverdracht instellen</span><span class="sxs-lookup"><span data-stu-id="853ac-103">Set up method of payment for ISO20022 credit transfer</span></span>
+# <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a><span data-ttu-id="4717b-103">Betalingsmethode voor ISO20022-kredietoverdracht instellen</span><span class="sxs-lookup"><span data-stu-id="4717b-103">Set up method of payment for ISO20022 credit transfer</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="853ac-104">IN deze procedure ziet u hoe u de betalingsmethode van de leverancier instelt voor ISO20022-kredietoverdracht of een ander type betaling door middel van elektronische rapportage en zo een bestand aanmaakt.</span><span class="sxs-lookup"><span data-stu-id="853ac-104">This procedure shows how to set up the vendor method of payment for ISO20022 credit transfer or any other payment type using electronic reporting to generate a file.</span></span> 
+<span data-ttu-id="4717b-104">IN deze procedure ziet u hoe u de betalingsmethode van de leverancier instelt voor ISO20022-kredietoverdracht of een ander type betaling door middel van elektronische rapportage en zo een bestand aanmaakt.</span><span class="sxs-lookup"><span data-stu-id="4717b-104">This procedure shows how to set up the vendor method of payment for ISO20022 credit transfer or any other payment type using electronic reporting to generate a file.</span></span> 
 
-<span data-ttu-id="853ac-105">Voordat u deze taak uitvoert, moet u indelingconfiguraties voor export en betaalrekeningen hebben ingesteld.</span><span class="sxs-lookup"><span data-stu-id="853ac-105">Before you complete this task, you must export format configurations and set up payment accounts.</span></span>
+<span data-ttu-id="4717b-105">Voordat u deze taak uitvoert, moet u indelingconfiguraties voor export en betaalrekeningen hebben ingesteld.</span><span class="sxs-lookup"><span data-stu-id="4717b-105">Before you complete this task, you must export format configurations and set up payment accounts.</span></span>
 
-<span data-ttu-id="853ac-106">Deze taak is gemaakt met het demobedrijf DEMF.</span><span class="sxs-lookup"><span data-stu-id="853ac-106">This task was created using the DEMF demo data company.</span></span>
+<span data-ttu-id="4717b-106">Deze taak is gemaakt met het demobedrijf DEMF.</span><span class="sxs-lookup"><span data-stu-id="4717b-106">This task was created using the DEMF demo data company.</span></span>
 
-<span data-ttu-id="853ac-107">Dit is de derde van vijf taken die het leveranciersbetalingproces toelichten door middel van elektronische rapportageconfiguraties.</span><span class="sxs-lookup"><span data-stu-id="853ac-107">This is the third procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="853ac-108">Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.</span><span class="sxs-lookup"><span data-stu-id="853ac-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="4717b-107">Dit is de derde van vijf taken die het leveranciersbetalingproces toelichten door middel van elektronische rapportageconfiguraties.</span><span class="sxs-lookup"><span data-stu-id="4717b-107">This is the third procedure, out of five, that illustrates the vendor payment process using electronic reporting configurations.</span></span> <span data-ttu-id="4717b-108">Deze procedure is voor een functie die is toegevoegd in Dynamics 365 for Operations, versie 1611.</span><span class="sxs-lookup"><span data-stu-id="4717b-108">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
-1. <span data-ttu-id="853ac-109">Ga naar Leveranciers > Betalingsinstelling > Betalingsmethoden.</span><span class="sxs-lookup"><span data-stu-id="853ac-109">Go to Accounts payable > Payment setup > Methods of payment.</span></span>
-2. <span data-ttu-id="853ac-110">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="853ac-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="853ac-111">Filter bijvoorbeeld op het veld Betalingsmethode met een waarde van 'SEPA CT'.</span><span class="sxs-lookup"><span data-stu-id="853ac-111">For example, filter on the Method of payment field with a value of 'SEPA CT'.</span></span>
-3. <span data-ttu-id="853ac-112">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="853ac-112">Click Edit.</span></span>
-4. <span data-ttu-id="853ac-113">Selecteer Totaal in het veld Periode.</span><span class="sxs-lookup"><span data-stu-id="853ac-113">In the Period field, select 'Total'.</span></span>
-5. <span data-ttu-id="853ac-114">Selecteer Elektronische betaling in het veld Betalingstype.</span><span class="sxs-lookup"><span data-stu-id="853ac-114">In the Payment type field, select 'Electronic payment'.</span></span>
-6. <span data-ttu-id="853ac-115">Vouw de sectie Bestandsindelingen uit.</span><span class="sxs-lookup"><span data-stu-id="853ac-115">Expand the File formats section.</span></span>
-7. <span data-ttu-id="853ac-116">Selecteer Ja in het veld Algemene elektronische rapportage.</span><span class="sxs-lookup"><span data-stu-id="853ac-116">Select Yes in the Generic electronic reporting field.</span></span>
-8. <span data-ttu-id="853ac-117">Typ of selecteer een waarde in het veld Indelingsconfiguratie exporteren.</span><span class="sxs-lookup"><span data-stu-id="853ac-117">In the Export format configuration field, enter or select a value.</span></span>
-    * <span data-ttu-id="853ac-118">Selecteer in de lijst de waarde ISO20022 Kredietoverdracht (DE).</span><span class="sxs-lookup"><span data-stu-id="853ac-118">In the list, select the value ISO20022 Credit transfer (DE).</span></span> <span data-ttu-id="853ac-119">Als de lijst leeg is, betekent dit dat er geen configuratie voor de exportindeling voor leveranciersbetalingen is geïmporteerd en geactiveerd.</span><span class="sxs-lookup"><span data-stu-id="853ac-119">If the list is empty, the vendor payment export format configuration is not imported and active.</span></span>  
-9. <span data-ttu-id="853ac-120">Selecteer Bank in het veld Bankrekening.</span><span class="sxs-lookup"><span data-stu-id="853ac-120">In the Account type field, select 'Bank'.</span></span>
-10. <span data-ttu-id="853ac-121">Geef de waarden 'DEMF OPER' op in het veld Betalingsrekening.</span><span class="sxs-lookup"><span data-stu-id="853ac-121">In the Payment account field, specify the values 'DEMF OPER'.</span></span>
-11. <span data-ttu-id="853ac-122">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="853ac-122">Click Save.</span></span>
+1. <span data-ttu-id="4717b-109">Ga naar Leveranciers > Betalingsinstelling > Betalingsmethoden.</span><span class="sxs-lookup"><span data-stu-id="4717b-109">Go to Accounts payable > Payment setup > Methods of payment.</span></span>
+2. <span data-ttu-id="4717b-110">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="4717b-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="4717b-111">Filter bijvoorbeeld op het veld Betalingsmethode met een waarde van 'SEPA CT'.</span><span class="sxs-lookup"><span data-stu-id="4717b-111">For example, filter on the Method of payment field with a value of 'SEPA CT'.</span></span>
+3. <span data-ttu-id="4717b-112">Klik op Bewerken.</span><span class="sxs-lookup"><span data-stu-id="4717b-112">Click Edit.</span></span>
+4. <span data-ttu-id="4717b-113">Selecteer Totaal in het veld Periode.</span><span class="sxs-lookup"><span data-stu-id="4717b-113">In the Period field, select 'Total'.</span></span>
+5. <span data-ttu-id="4717b-114">Selecteer Elektronische betaling in het veld Betalingstype.</span><span class="sxs-lookup"><span data-stu-id="4717b-114">In the Payment type field, select 'Electronic payment'.</span></span>
+6. <span data-ttu-id="4717b-115">Vouw de sectie Bestandsindelingen uit.</span><span class="sxs-lookup"><span data-stu-id="4717b-115">Expand the File formats section.</span></span>
+7. <span data-ttu-id="4717b-116">Selecteer Ja in het veld Algemene elektronische rapportage.</span><span class="sxs-lookup"><span data-stu-id="4717b-116">Select Yes in the Generic electronic reporting field.</span></span>
+8. <span data-ttu-id="4717b-117">Typ of selecteer een waarde in het veld Indelingsconfiguratie exporteren.</span><span class="sxs-lookup"><span data-stu-id="4717b-117">In the Export format configuration field, enter or select a value.</span></span>
+    * <span data-ttu-id="4717b-118">Selecteer in de lijst de waarde ISO20022 Kredietoverdracht (DE).</span><span class="sxs-lookup"><span data-stu-id="4717b-118">In the list, select the value ISO20022 Credit transfer (DE).</span></span> <span data-ttu-id="4717b-119">Als de lijst leeg is, betekent dit dat er geen configuratie voor de exportindeling voor leveranciersbetalingen is geïmporteerd en geactiveerd.</span><span class="sxs-lookup"><span data-stu-id="4717b-119">If the list is empty, the vendor payment export format configuration is not imported and active.</span></span>  
+9. <span data-ttu-id="4717b-120">Selecteer Bank in het veld Bankrekening.</span><span class="sxs-lookup"><span data-stu-id="4717b-120">In the Account type field, select 'Bank'.</span></span>
+10. <span data-ttu-id="4717b-121">Geef de waarden 'DEMF OPER' op in het veld Betalingsrekening.</span><span class="sxs-lookup"><span data-stu-id="4717b-121">In the Payment account field, specify the values 'DEMF OPER'.</span></span>
+11. <span data-ttu-id="4717b-122">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="4717b-122">Click Save.</span></span>
 
 
 
