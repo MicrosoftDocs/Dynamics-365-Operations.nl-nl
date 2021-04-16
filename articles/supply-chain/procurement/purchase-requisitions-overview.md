@@ -1,12 +1,10 @@
 ---
 title: Overzicht opdracht tot inkoop
 description: In dit onderwerp wordt de workflow voor opdrachten tot inkoop beschreven en de verschillende statussen die een opdracht tot inkoop kan hebben.
-author: RichardLuan
-manager: tfehr
+author: kamaybac
 ms.date: 11/02/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
-ms.author: riluan
+ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6d3cc8043062fe304ef8127a2abbaeb787c4761f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0fc2f6104bc8a79ea4e8b6d0061f4b135026de0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5215932"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825249"
 ---
 # <a name="purchase-requisition-overview"></a>Overzicht opdracht tot inkoop
 
@@ -134,7 +132,7 @@ Als u een regel in een opdracht tot inkoop die is afgewezen opnieuw indient, dan
 U kunt in een opdracht tot inkoop de kosten van een product over meerdere financiële rekeningen verspreiden. Als uw organisatie dimensies gebruikt, zoals kostencentra en afdelingen, kunt u de kosten van een product verspreiden over dimensies voor financiële rekeningen.
 
 ## <a name="requisition-purposes"></a>Bestelopdrachtdoelen
-De bestelopdrachtdoelen maken het proces van de uitvoering van opdrachten tot vraag meer flexibel. Bij het maken van een opdracht kunt u er één van twee doelen aan toewijzen: verbruik of aanvulling. Afhankelijk van het bestelopdrachtdoel en hoe uw organisatie is geconfigureerd, kan aan een bestelvraag worden voldaan met een inkooporder, een transferorder, een productieorder of een kanban.  
+De bestelopdrachtdoelen maken het proces van de uitvoering van opdrachten tot vraag meer flexibel. Bij het maken van een opdracht kunt u er één van twee doelen aan toewijzen: verbruik of aanvulling. Afhankelijk van het bestelopdrachtdoel en hoe uw organisatie is geconfigureerd, kan aan een bestelvraag worden voldaan met een inkooporder, een overboekingsorder, een productieorder of een kanban.  
 
 In het inkoopbeleid kunt u de bestelopdrachtdoelen bepalen die beschikbaar zijn bij het maken van een opdracht voor uw organisatie.
 
@@ -144,7 +142,7 @@ Een opdracht die een verbruiksdoel heeft, vertegenwoordigt een vraag naar artike
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Opdrachten bestemd voor aanvulling
 
-Een opdracht die een aanvullingsdoel heeft, vertegenwoordigt een verzoek voor het aanvullen van de voorraad. U maakt bijvoorbeeld een opdracht om producten aan te vullen zodat ze op een specifiek moment kunnen worden verkocht op een specifieke detailhandellocatie. De vraag die is gemaakt door dit soort opdracht kan worden voldaan door inkooporder, transferorder, productieorder of kanban.  
+Een opdracht die een aanvullingsdoel heeft, vertegenwoordigt een verzoek voor het aanvullen van de voorraad. U maakt bijvoorbeeld een opdracht om producten aan te vullen zodat ze op een specifiek moment kunnen worden verkocht op een specifieke detailhandellocatie. De vraag die is gemaakt door dit soort opdracht kan worden voldaan door inkooporder, overboekingsorder, productieorder of kanban.  
 
 Wanneer de opdracht een aanvullingsdoel heeft, wordt vraag uitgedrukt als een aantal in plaats van een geldbedrag. Daarom zijn vorderingsboekhouding, budgettaire controle, bedrijfsregels voor vaststellen van vaste activa (BRAD), projectboekhouding en alle bijbehorende regels niet van toepassing. Alleen producten die zijn aangelegd en vrijgegeven voor de opgegeven rechtspersoon kunnen gebruikt worden om te voldoen aan een aanvullingsopdracht. Als u de producten wilt definiëren die beschikbaar zijn wanneer het bestelopdrachtdoel is vervuld, gebruikt u de pagina **Toegangsbeleidsregel voor aanvullingscategorie**.  
 

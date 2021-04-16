@@ -2,7 +2,6 @@
 title: Preview van Dynamics 365 Supply Chain Management 10.0.18 (mei 2021)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.18.
 author: kamaybac
-manager: annbe
 ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0a75cd0b02c48421edebac0b83576095bea65bb6
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: dc53d2c40414993e43ac90ce4f878c7d1c425eb2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571783"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832125"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Preview van Dynamics 365 Supply Chain Management 10.0.18 (mei 2021)
 
@@ -36,17 +35,17 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in de
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-Deze versie bevat de volgende functies. Sommige van de functies in de lijst zijn nog steeds in preview, terwijl andere mogelijk al algemeen beschikbaar zijn. Volg de koppelingen naar het [releaseeplan](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
+Deze versie bevat de volgende functies. Volg de koppelingen naar het [releaseeplan](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
 
 - Automatische vrijgave van inkooporders (verbeteringen in [Magazijnuitvoering en met schaaleenheden in de cloud](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Zie [Werkbelasting voor magazijnbeheer voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-warehousing.md) voor meer informatie.
 
 - [Verbeteringen in de voorraadprestaties op ondernemingsschaal en archivering](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Zie [Voorraadtransacties archiveren](../inventory/archive-inventory-transactions.md) voor meer informatie
 
-- [Kortingbeheer](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)
+- [Kortingbeheer](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Zie [Overzicht van module Kortingsbeheer](../rebate-management/rebate-management-overview.md) voor meer informatie
 
 - Vereenvoudigde interface voor alleen in- en uitklokken (verbetering voor [Verbeterde uitvoeringsinterface voor productievloer bij productie](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Zie [Uitvoeringsinterface voor de werkvloer configureren](../production-control/production-floor-execution-configure.md) voor meer informatie.
 
-De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
+De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken. Sommige van de functies in de lijst zijn nog steeds in preview, terwijl andere mogelijk al algemeen beschikbaar zijn. 
 
 ## <a name="new-and-updated-documentation-resources"></a>Nieuwe en bijgewerkte documentatiebronnen
 

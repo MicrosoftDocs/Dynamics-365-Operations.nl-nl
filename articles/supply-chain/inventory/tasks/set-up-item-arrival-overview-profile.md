@@ -2,11 +2,9 @@
 title: Een aankomstoverzichtsprofiel instellen voor een artikel
 description: Dit onderwerp is gericht op de instelling van een profiel van aankomstoverzicht.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/30/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 49670e4287faf3e50a824a5cbedd83ea7dbb8152
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b0394d1b4288dac0ff913b125017571a8c0bc95a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5244346"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829831"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Een ontvangstoverzichtsprofiel instellen voor een artikel
 
@@ -49,7 +47,7 @@ Dit onderwerp is gericht op de instelling van een profiel van aankomstoverzicht.
 13. Vouw de sectie **Aankomstquerygegevens** uit of samen.
 14. Selecteer Vestiging 2 in het veld **Beperken tot vestiging**. Dit stelt een filter in om alleen de ontvangstregels met deze site weer te geven.  
 15. Stel de optie **Inkooporders** in op **Ja**. Regels vanuit inkooporders selecteren.  
-16. Stel de optie **Transferorders** in op **Ja**. Regels vanuit transferorders selecteren.  
+16. Stel de optie **overboekingsorders** in op **Ja**. Regels vanuit overboekingsorders selecteren.  
 17. Selecteer **Opslaan**.
 18. Sluit de pagina.
 

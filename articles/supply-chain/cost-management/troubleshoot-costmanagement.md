@@ -1,12 +1,10 @@
 ---
 title: Problemen met kostenbeheer oplossen
 description: In dit onderwerp wordt beschreven hoe u problemen kunt oplossen die kunnen optreden tijdens het werken met kostenbeheer.
-author: riluan
-manager: tfehr
+author: AndersGirke
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: dceaca64132857d796a16c2450a372ba05712cf5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fc6a48a44a529c82c2a9ee818af95569d9bcb249
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262448"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834284"
 ---
 # <a name="troubleshoot-cost-management"></a>Problemen met kostenbeheer oplossen
 
@@ -37,7 +35,7 @@ Met de functies [Opslag naar ouderdom gerangschikt voorraadrapport](inventory-ag
 
 Subtotalen kunnen problemen veroorzaken wanneer het resultaat wordt geëxporteerd, vooral als gebruikers de recordvolgorde wijzigen.
 
-Als u de subtotalen wilt controleren, kunt u het resultaat exporteren naar Microsoft Excel. Ook kunt u, als u subtotalen binnen Supply Chain Management wilt controleren, [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de functies *Nieuw rasterbesturingselement* en *(Preview) Groeperen in rasters* in te schakelen. Dit biedt een veel flexibelere manier om het subtotaal voor een groep per kolom te bekijken. Zie [Rastermogelijkheden](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md) voor meer informatie.
+Als u de subtotalen wilt controleren, kunt u het resultaat exporteren naar Microsoft Excel. Ook kunt u, als u subtotalen binnen Supply Chain Management wilt controleren, [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de functies *Nieuw rasterbesturingselement* en *Groeperen in rasters* in te schakelen. Dit biedt een veel flexibelere manier om het subtotaal voor een groep per kolom te bekijken. Zie [Rastermogelijkheden](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md) voor meer informatie.
 
 ### <a name="inventory-value-storage-report-doesnt-support-ledger-account-information"></a>Rapport opslag van voorraadwaarden biedt geen ondersteuning voor gegevens over grootboekrekeningen
 

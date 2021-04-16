@@ -2,7 +2,6 @@
 title: Status van transport instellen
 description: In dit onderwerp wordt beschreven hoe u de statuswaarden kunt bepalen die gebruikers aan transporten kunt toewijzen.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,21 +15,20 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: b7180cc9ab2d13f2260635d717adb7aab2177ab9
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 80433c17ed9d790d88b20ecc253c8e4459ffea10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500881"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829783"
 ---
 # <a name="voyage-status-setup"></a>Status van transport instellen
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Op de pagina **Transportstatussen** kunt u de set statuswaarden instellen die gebruikers kunnen toewijzen aan transporten. Gebruikers kunnen statuswaarden voor transporten toewijzen aan alle niveaus van een transport: transport, verzendcontainer, folio, inkooporder en artikel (inkoopregels en transferorderregels). Deze worden voor twee doelen gebruikt:
+Op de pagina **Transportstatussen** kunt u de set statuswaarden instellen die gebruikers kunnen toewijzen aan transporten. Gebruikers kunnen statuswaarden voor transporten toewijzen aan alle niveaus van een transport: transport, verzendcontainer, folio, inkooporder en artikel (inkoopregels en overboekingsorderregels). Deze worden voor twee doelen gebruikt:
 
-- De gebruiker informeren over de status van transport, verzendcontainer, folio, inkooporder of artikel (inkoopregels en transferorderregels).
+- De gebruiker informeren over de status van transport, verzendcontainer, folio, inkooporder of artikel (inkoopregels en overboekingsorderregels).
 - Het gebruik beperken van het kostengebied door wijziging of verwijdering te voorkomen.
 
 Als u uw transportstatussen wilt instellen, gaat u naar **Francoprijzen \> Instellen \> Transportstatussen**. Hier kunt u statussen toevoegen, verwijderen en bewerken met de knoppen in het actievenster.

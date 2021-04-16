@@ -2,11 +2,9 @@
 title: Overzicht van technisch wijzigingsbeheer
 description: Dit onderwerp biedt een overzicht van het beheer van technische wijzigingen, waarmee u productversies kunt plannen en beheren en productlevenscycli en technische wijzigingen kunt beheren.
 author: t-benebo
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3fde9194ece4774c4d39785e337caf2413052159
-ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
+ms.openlocfilehash: 964db71efc9dc81d60199e37de8668de9d667496
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476670"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842076"
 ---
 # <a name="engineering-change-management-overview"></a>Overzicht van technisch wijzigingsbeheer
 

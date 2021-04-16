@@ -2,11 +2,9 @@
 title: Dezelfde batch voor een verkooporder reserveren
 description: In dit artikel wordt beschreven hoe u een product instelt om de reservering van voorraad voor één batch van voorraad toe te staan.
 author: omulvad
-manager: tfehr
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c7745b1306142678760318cc47f54b93d6f727a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e0937be76aa687ed986ff83e67f2db3e2dadd0f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231811"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807651"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Dezelfde batch voor een verkooporder reserveren
 
@@ -43,7 +41,7 @@ Als u voorraad reserveert voor een product op een verkooporderregel die is inges
 - De batchdatum is verlopen op basis van de vervaldatum en eventuele van toepassing zijnde verkoopbare dagen voor de klant. Het artikel kan nog in aanmerking komen voor reservering als de artikelmodelgroep voor het artikel een FEFO (First Expiry First Out)-datumcontrole heeft en als de houdbaarheidsdatum is geselecteerd als orderverzamelcriterium.
 - Er zijn onvoldoende houdbaarheidsdagen resterend voor de batch op basis van de vervaldatum en houdbaarheidsdatum plus eventuele van toepassing zijnde verkoopbare dagen voor de klant.
 
-Voor artikelen die zijn gekoppeld aan een opslagdimensiegroep waarvoor **Magazijnbeheerprocessen gebruiken** is ingeschakeld, kunt u specifieke batchnummers reserveren door een reserveringshiërarchie te gebruiken met de gedefinieerde voorraaddimensie voor batchnummers die boven de locatiedimensie is gedefinieerd. Via de pagina **Batchreservering** voor verkoop- en transferorderregels kunt u ook meerdere regels selecteren en reserveren op basis van de beschikbare batchnummers. Zie [Flexibel reseveringsbeleid voor dimensies op magazijnniveau](../warehousing/flexible-warehouse-level-dimension-reservation.md) voor meer informatie over wat u moet doen als u een reserveringshiërarchie gebruikt die de batchnummerdimensie onder de locatie bevat.
+Voor artikelen die zijn gekoppeld aan een opslagdimensiegroep waarvoor **Magazijnbeheerprocessen gebruiken** is ingeschakeld, kunt u specifieke batchnummers reserveren door een reserveringshiërarchie te gebruiken waarbij de gedefinieerde voorraaddimensie voor batchnummers boven de locatiedimensie is gedefinieerd. Dit type reserveringshiërarchie wordt ook wel een *batch-boven-\[locatie\]*-reserveringshiërarchie genoemd. Via de pagina **Batchreservering** voor verkoop- en overboekingsorderregels kunt u ook meerdere regels selecteren en reserveren op basis van de beschikbare batchnummers. Zie [Flexibel reseveringsbeleid voor dimensies op magazijnniveau](../warehousing/flexible-warehouse-level-dimension-reservation.md) voor meer informatie over wat u moet doen als u een reserveringshiërarchie gebruikt die de batchnummerdimensie onder de locatie (*Batch-onder-\[locatie\]*), bevat.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

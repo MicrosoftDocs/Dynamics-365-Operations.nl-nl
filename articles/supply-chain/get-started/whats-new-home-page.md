@@ -2,11 +2,9 @@
 title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management
 description: Dit onderwerp verwijst naar onderwerpen waarin de nieuwe en gewijzigde functies in elke versie van Dynamics 365 Supply Chain Management worden beschreven.
 author: kamaybac
-manager: tfehr
 ms.date: 12/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 686f37f4817b3ec33ab362926964cb527df602ad
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 805ff02a8de7948048f96eb37a5ec9a63f3dbc62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259038"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821220"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management
 
@@ -33,6 +31,7 @@ U ziet in de volgende onderwerpen wat er nieuw of gewijzigd is in alle versies v
 
 | Versie | Build nr. | Beschikbaarheid van automatische update | Meer informatie |
 |---|---|---|---|
+| 10.0.17 | 10.0.761 | 2021 april | [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management versie 10.0.17](whats-new-scm-10-0-17.md) |
 | 10.0.16 | 10.0.689 | 2021 februari | [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management versie 10.0.16](whats-new-scm-10-0-16.md) |
 | 10.0.15 | 10.0.644 | 2021 januari | [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management versie 10.0.15](whats-new-scm-10-0-15.md) |
 | 10.0.14 | 10.0.605 | november 2020 | [Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management versie 10.0.14](whats-new-scm-10-0-14.md) |

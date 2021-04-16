@@ -1,12 +1,10 @@
 ---
 title: Voorbeelden en logica voor naar ouderdom gerangschikt voorraadrapport
 description: Dit onderwerp bevat enkele voorbeelden voor het interpreteren van de resultaten van een naar ouderdom gerangschikt voorraadrapport.
-author: RichardLuan
-manager: tfehr
+author: AndersGirke
 ms.date: 5/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-5-29
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1d9c70a7931c009cd53fbd28a3f4c768d04964a4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: edc974bcbd72ef62438fd6271a6fd0e56143f976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214413"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821580"
 ---
 # <a name="inventory-aging-report-examples-and-logic"></a>Voorbeelden en logica voor naar ouderdom gerangschikt voorraadrapport
 
@@ -59,8 +57,8 @@ Het voorbeeldsysteem bevat de volgende voorraadtransacties voor een vrijgegeven 
 | Inkooporder | 1    | 11        | Ingekocht |       | 15 maart      | 15 maart       | 10       | 1.000       | 1.000                |
 | Inkooporder | 2    | 21        | Ingekocht |       | 15 maart      | 15 maart       | 10       | 2,000       | 2,000                |
 | Inkooporder | 1    | 11        | Ontvangen  |       | 15 april      |                | 5        |             | 375                  |
-| Transferorder | 1    | 11        |           | Verkocht  | mei 2         | mei 2          | -5       | -458,33     | -458,33              |
-| Transferorder | 1    | 12        | Ingekocht |       | mei 2         | mei 2          | 5        | 458.33      | 458.33               |
+| overboekingsorder | 1    | 11        |           | Verkocht  | mei 2         | mei 2          | -5       | -458,33     | -458,33              |
+| overboekingsorder | 1    | 12        | Ingekocht |       | mei 2         | mei 2          | 5        | 458.33      | 458.33               |
 | Verkooporder    | 1    | 12        |           | Verkocht  | mei 3         | mei 3          | -1       | -91,67      | -91,67               |
 
 ## <a name="how-quantities-and-amounts-in-each-period-bucket-are-calculated"></a>Berekenen van hoeveelheden en bedragen in de periodebuckets
