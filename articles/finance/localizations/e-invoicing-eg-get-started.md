@@ -1,12 +1,10 @@
 ---
-title: Aan de slag met de invoegtoepassing voor elektronische facturering voor Egypte
-description: Dit onderwerp bevat informatie waarmee u aan de slag kunt met de invoegtoepassing Elektronische facturering voor Egypte in Finance en Supply Chain Management.
+title: Aan de slag met Elektronische facturering voor Egypte
+description: Dit onderwerp bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Egypte in Finance en Supply Chain Management.
 author: gionoder
-manager: AnnBe
-ms.date: 02/26/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,34 +15,35 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 68ee08226f440e850a080600dbf5e16768b45e43
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: f6175a50a88d2d636bfafc5988265b8657630758
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592593"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840191"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-egypt"></a>Aan de slag met de invoegtoepassing voor elektronische facturering voor Egypte
+# <a name="get-started-with-electronic-invoicing-for-egypt"></a>Aan de slag met Elektronische facturering voor Egypte
 
 [!include [banner](../includes/banner.md)]
 
 [!include [banner](../includes/preview-banner.md)]
 
-Dit onderwerp bevat informatie waarmee u aan de slag kunt met de invoegtoepassing Elektronische facturering voor Egypte. Dit onderwerp liedt u door de configuratiestappen die landafhankelijk zijn in Regulatory Configuration Services (RCS) en vullen de stappen aan die worden beschreven in [Aan de slag met de invoegtoepassing voor elektronische facturering](e-invoicing-get-started.md).
+Dit onderwerp bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Egypte. Dit onderwerp leidt u door de configuratiestappen die landafhankelijk zijn in Regulatory Configuration Services (RCS) en vullen de stappen aan die worden beschreven in het onderwerp [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
 
 ## <a name="country-specific-configuration-for-egyptian-electronic-invoice-eg-electronic-invoicing-feature"></a>Landspecifieke configuratie voor Egyptische elektronische factuur (EG) voor elektronische facturering
 
-U moet enkele stappen voltooien om de functie Egyptische elektronische factuur (EG) voor elektronisch factureren te configureren. Sommige parameters van de configuraties worden met standaardwaarden gepubliceerd, dus ze moeten worden gecontroleerd en bijgewerkt om beter bij uw bedrijfsactiviteiten te passen.
+Sommige parameters van de **Egyptische elektronische factuur (EG) voor elektronische facturering** worden met standaardwaarden gepubliceerd. Controleer de waarden en werk ze zo nodig bij zodat deze beter aansluiten bij uw zakelijke bewerkingsbehoeften voordat u de functie Elektronische facturering in de serviceomgeving implementeert.
+
+Deze sectie is een aanvulling op de sectie **Landspecifieke configuratie voor de functie voor elektronische facturering** in het onderwerp [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
 
 ### <a name="prerequisites"></a>Vereisten
 
 Voordat u de procedure in deze sectie kunt uitvoeren, moet u het volgende doen:
 
-- Een digitaal certificaat maken zoals wordt beschreven in de sectie **Digitaal certificaatgeheim maken** in [Aan de slag met servicebeheer via de invoegtoepassing voor elektronische facturering](e-invoicing-get-started-service-administration.md). Voor testdoeleinden levert de Egyptische belastingdienst specifieke digitale testcertificaten die alleen tijdens de test- en oplossingvalidatiefasen mogen worden gebruikt. Raadpleeg de website van de Egyptische belastingdienst via de koppeling die is verstrekt in de [Egyptische SDK voor e-facturering](https://sdk.sit.invoicing.eta.gov.eg/faq/) voor meer informatie.
-- Maak een Egyptische elektronische factuur (EG) voor de functie voor elektronische facturering voor uw organisatie, zoals beschreven in de sectie **Een functie voor elektronische facturering maken onder uw organisatieprovider** in [Aan de slag met de invoegtoepassing voor elektronische facturering](e-invoicing-get-started.md).
+- Een digitaal certificaat maken zoals wordt beschreven in de sectie **Digitaal certificaatgeheim maken** in [Aan de slag met servicebeheer via Elektronische facturering](e-invoicing-get-started-service-administration.md). Voor testdoeleinden levert de Egyptische belastingdienst specifieke digitale testcertificaten die alleen tijdens de test- en oplossingvalidatiefasen mogen worden gebruikt. Raadpleeg de website van de Egyptische belastingdienst via de koppeling die is verstrekt in de [Egyptische SDK voor e-facturering](https://sdk.sit.invoicing.eta.gov.eg/faq/) voor meer informatie.
 
-1. Selecteer in RCS, in de sectie **Functies** van het werkgebied **Globalisatiefunctie** de tegel **Invoegtoepassing voor elektronische facturering**.
-2. Controleer op de pagina **Invoegtoepassing voor functies voor elektronische facturering** of de functie voor elektronische facturering **Egyptische elektronische factuur (EG)** die u hebt gemaakt is geselecteerd.
+1. Selecteer in RCS in de werkruimte **Globalisatiefunctie** in de sectie **Functies** de tegel **Elektronische facturering**.
+2. Controleer op de pagina **Functies voor elektronische facturering** of de functie voor elektronische facturering **Egyptische elektronische factuur (EG)** die u hebt gemaakt is geselecteerd.
 3. Controleer op het tabblad **Versies** of de **concept** versie is geselecteerd.
 4. Selecteer op het tabblad **Instellingen** de functie **Verkoopfactuur** in het raster.
 5. Selecteer **Bewerken** en selecteer op het tabblad **Acties** in de veldgroep **Acties** de optie **Json-document ondertekenen voor Egyptische belastingdienst**.
@@ -52,18 +51,16 @@ Voordat u de procedure in deze sectie kunt uitvoeren, moet u het volgende doen:
 7. Selecteer in de veldgroep **Acties** de optie **Integreren met de Egyptische ETA-service**. Herhaal deze stap voor de twee voorvallen van deze actie.
 8. Selecteer in de veldgroep **Parameters** de optie **URL van webservice** en **URL van aanmeldingsservice** en controleer indien nodig de URL-parameters. Raadpleeg de website van de Egyptische belastingdienst voor de test- en productie-URL via de koppeling die is verstrekt in de [Egyptische SDK voor e-facturering](https://sdk.sit.invoicing.eta.gov.eg/faq/).
 9. Selecteer **Opslaan** en sluit de pagina.
-10. Zie [Aan de slag met de invoegtoepassing voor elektronische facturering](e-invoicing-get-started.md) om de toepassingsinstellingen te configureren.
+10. Zie [Aan de slag met de invoegtoepassing Elektronische facturering](e-invoicing-get-started.md) voor de implementatie van de functie Elektronische facturering in de sericeomgeving.
 
 ## <a name="country-specific-configuration-of-the-application-setup-for-the-egyptian-electronic-invoice-eg-electronic-invoicing-feature"></a>Landspecifieke configuratie van de toepassingsinstellingen voor de functie Egyptische elektronische factuur (EG) voor elektronische facturering
 
-De configuratie van de toepassingsinstellingen voor de functie **Egyptische elektronische factuur (EG)** voor elektronische facturering vereist het uitvoeren van specifieke stappen. U moet deze stappen voltooien voordat u de functie Elektronische facturering implementeert in de serviceomgeving voor uw invoegtoepassing Elektronische facturering.
+Voltooi deze stappen voordat u de toepassingsinstellingen implementeert naar uw verbonden toepassing Finance of Supply Chain Management.
 
-### <a name="prerequisites"></a>Vereisten
+Deze sectie is een aanvulling op de sectie **Landspecifieke configuratie van toepassingsinstellingen** in het onderwerp [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
 
-Voordat u de procedure in deze sectie voltooit, maakt en initieert u een functie **Egyptische elektronische factuur (EG)** voor elektronische facturering om de toepassingsinstellingen te configureren voor de functie **Egyptische elektronische factuur (EG)** voor elektronische facturering zoals beschreven in de sectie **De toepassingsinstellingen configureren** in het onderwerp [Aan de slag met de invoegtoepassing voor elektronische facturering](e-invoicing-get-started.md).
-
-1. Selecteer in RCS, in de sectie **Functies** van het werkgebied **Globalisatiefunctie** de tegel **Invoegtoepassing voor elektronische facturering**.
-2. Controleer op de pagina **Invoegtoepassing voor functies voor elektronische facturering** of de functie voor elektronische facturering **Egyptische elektronische factuur (EG)** die u hebt gemaakt is geselecteerd.
+1. Selecteer in RCS in de werkruimte **Globalisatiefunctie** in de sectie **Functies** de tegel **Elektronische facturering**.
+2. Controleer op de pagina **Functies voor elektronische facturering** of de functie voor elektronische facturering **Egyptische elektronische factuur (EG)** die u hebt gemaakt is geselecteerd.
 3. Controleer op het tabblad **Versies** of de **concept** versie is geselecteerd.
 4. Selecteer op het tabblad **Instellingen** de optie **Toepassingsinstellingen** en selecteer in het veld **Verbonden toepassing** de toepassing waarin u wilt implementeren.
 5. Controleer in het veld **Tabelnaam** of het klantfactuurjournaal is geselecteerd.
@@ -75,7 +72,7 @@ Voordat u de procedure in deze sectie voltooit, maakt en initieert u een functie
 11. Selecteer in het veld **Indieningsstatus** de optie **In behandeling**.
 12. Selecteer in het veld **Gegevensentiteitsnaam** de optie **Verkoopfactuurkopteksten V2**.
 13. Selecteer in het veld **Modeltoewijzing** de optie **Responsgegevens voor Egypte importeren** bij **(Preview) Importindeling responsgegevens voor Egypte** en selecteer vervolgens **Opslaan**.
-14. Zie [Aan de slag met de invoegtoepassing Elektronische facturering](e-invoicing-get-started.md) voor de implementatie van de functie Elektronische facturering.
+14. Zie [Aan de slag met Elektronische facturering](e-invoicing-get-started.md) om de toepassingsinstellingen te implementeren in de verbonden toepassing Finance of Supply Chain Management.
 
 ## <a name="privacy-notice"></a>Privacyverklaring
 
@@ -83,9 +80,9 @@ Voor het inschakelen van de functie **Egyptische elektronische factuur (EG)** mo
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-- [Overzicht van de invoegtoepassing voor elektronische facturering](e-invoicing-service-overview.md)
-- [Aan de slag met servicebeheer via de invoegtoepassing voor elektronische facturering](e-invoicing-get-started-service-administration.md)
-- [Aan de slag met de invoegtoepassing voor elektronische facturering](e-invoicing-get-started.md)
+- [Overzicht van Elektronische facturering](e-invoicing-service-overview.md)
+- [Aan de slag met servicebeheer voor Elektronische facturering](e-invoicing-get-started-service-administration.md)
+- [Aan de slag met Elektronische facturering](e-invoicing-get-started.md)
 - [Elektronische klantfacturen in Egypte](emea-egy-e-invoices.md)
 
 

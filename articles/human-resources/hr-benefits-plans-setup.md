@@ -2,11 +2,9 @@
 title: Een nieuw vergoedingsplan maken
 description: Vergoedingsplannen maken in Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
-ms.date: 04/06/2020
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitPlanListPage, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7d398da8fa53f39cfbdc3911d5acd0967f0c5d5b
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: da11799d3340798067fc03061159896f44750c77
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5464273"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5805725"
 ---
-# <a name="create-a-benefits-plan"></a>Een nieuw vergoedingsplan maken
+# <a name="create-a-benefit-plan"></a>Een vergoedingsplan maken
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -46,9 +44,8 @@ In dit artikel wordt beschreven hoe u vergoedingsplannen in Dynamics 365 Human R
    | **Programma** | Geeft een programma aan waaraan u het plan desgewenst kunt toewijzen. |
    | **Bundel** | Geeft een bundel aan waaraan u het plan desgewenst kunt toewijzen. |
    | **Master** | Geeft aan of het plan het hoofdplan is binnen de bundel waaraan het is toegewezen. |
-   | **Status** | Geeft de huidige status van het vergoedingsplan aan. De standaardwaarde is Actief. Als u de status wijzigt in Inactief, is het plan niet beschikbaar als keuzemogelijkheid tijdens de inschrijving. |
    | **Geldig vanaf datum en tijd** | De datum en het tijdstip waarop het plan start. De standaardwaarde is de huidige systeemdatum. |
-   | **Geldig tot datum en tijd** | De datum en het tijdstip waarop het plan eindigt (de status is ingesteld op inactief). De standaardwaarde is 12/31/2154, wat 'nooit' betekent. |
+   | **Geldig tot datum en tijd** | De datum en het tijdstip waarop het plan eindigt. De standaardwaarde is 12/31/2154, wat 'nooit' betekent. |
 
 4. Geef op het tabblad **Configuratie** waarden op voor de volgende velden, afhankelijk van het type plan dat u gaat maken:
 
@@ -56,18 +53,18 @@ In dit artikel wordt beschreven hoe u vergoedingsplannen in Dynamics 365 Human R
    | --- | --- | --- |
    | Medical (Medical, Dental, Vision, HMO) | COBRA | Geeft aan of het plan in aanmerking komt voor COBRA (Consolidated Omnibus Budget Reconciliation Act). |
    | Medical (Medical, Dental, Vision, HMO) | HIPAA | Geeft aan of het plan in aanmerking komt voor HIPAA is (Health Insurance Portability and Accountability Act). |
-   | <ul><li>Medical (Medical, Dental, Vision, HMO)</li><li>Overige (PTO, Fitness)</li><li>Overige</li><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li><li>Pensioenplan (bijvoorbeeld 401(k))</li><li>FSA</li></ul> | In aanmerking komende voorbelasting | Geeft aan of er bijdragen kunnen worden geleverd aan het plan voordat er belasting wordt toegepast. |
-   | <ul><li>Medical (Medical, Dental, Vision, HMO)</li><li>Overige (PTO, Fitness)</li><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li><li>Pensioenplan (bijvoorbeeld 401(k))</li><li>FSA</li></ul> | In aanmerking komende belasting boeken | Geeft aan of er bijdragen kunnen worden geleverd aan het plan nadat er belasting is toegepast. |
-   | <ul><li>Medical (Medical, Dental, Vision, HMO)</li><li>Overige (PTO, Fitness)</li><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li><li>Pensioenplan (bijvoorbeeld 401(k))</li><li>FSA</li></ul> | Inzender | Geeft aan wie bijdraagt aan het plan: de werknemer, de werkgever of beide. |
-   | <ul><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li></ul> | Minimale dekking | Het minimumbedrag aan verzekeringsdekking dat nodig is voor het plan. |
-   | <ul><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li></ul> | Maximale dekking | Het maximumbedrag aan verzekeringsdekking dat nodig is voor het plan. |
-   | <ul><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li></ul> | Dekkingsverhogingen gebruiken | Geeft aan of moet worden gecontroleerd of het dekkingsbedrag overeenkomt met een geldig incrementeel bedrag. |
-   | <ul><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li></ul> | Verhogingsbedrag | Het incrementele bedrag aan verzekeringsdekking dat nodig is voor het plan. Als het incrementele bedrag bijvoorbeeld 1.000 is, kan een werknemer geen verzekering van €200.500 hebben; het bedrag moet naar boven worden afgerond op €201.000 of naar beneden worden afgerond op €200.000. |
-   | <ul><li>Langdurige arbeidsongeschiktheid</li><li>ADD (Basic life, Voluntary life)</li></ul> | Verhogingsrichting | Geeft de richting voor afronden aan, omhoog of omlaag, wanneer het dekkingsbedrag niet voldoet aan de waarde van het verhogingsbedrag. |
+   | Medical (Medical, Dental, Vision, HMO)<br><br>Overige (PTO, Fitness)<br><br>Overige<br><br>Langdurige arbeidsongeschiktheid<br><br>ADD (Basic life, Voluntary life)<br><br>Pensioenplan (bijvoorbeeld 401(k))<br><br>FSA | In aanmerking komende voorbelasting | Geeft aan of er bijdragen kunnen worden geleverd aan het plan voordat er belasting wordt toegepast. |
+   | Medical (Medical, Dental, Vision, HMO)<br><br>Overige (PTO, Fitness)<br><br>Langdurige arbeidsongeschiktheid<br><br>ADD (Basic life, Voluntary life)<br><br>Pensioenplan (bijvoorbeeld 401(k))<br><br>FSA | In aanmerking komende belasting boeken | Geeft aan of er bijdragen kunnen worden geleverd aan het plan nadat er belasting is toegepast. |
+   | Medical (Medical, Dental, Vision, HMO)<br><br>Overige (PTO, Fitness)<br><br>Langdurige arbeidsongeschiktheid<br><br>ADD (Basic life, Voluntary life)<br><br>Pensioenplan (bijvoorbeeld 401(k))<br><br>FSA | Inzender | Geeft aan wie bijdraagt aan het plan: de werknemer, de werkgever of beide. |
+   | Langdurige arbeidsongeschiktheid<br><br>ADD (Basic life, Voluntary life) | Minimale dekking | Het minimumbedrag aan verzekeringsdekking dat nodig is voor het plan. |
+   | Langdurige arbeidsongeschiktheid<br><br>ADD (Basic life, Voluntary life) | Maximale dekking | Het maximumbedrag aan verzekeringsdekking dat nodig is voor het plan. |
+   | Langdurige arbeidsongeschiktheid<br><br>ADD (Basic life, Voluntary life) | Dekkingsverhogingen gebruiken | Geeft aan of moet worden gecontroleerd of het dekkingsbedrag overeenkomt met een geldig incrementeel bedrag. |
+   | Langdurige arbeidsongeschiktheid<br><br>ADD (Basic life, Voluntary life) | Verhogingsbedrag | Het incrementele bedrag aan verzekeringsdekking dat nodig is voor het plan. Als het incrementele bedrag bijvoorbeeld 1.000 is, kan een werknemer geen verzekering van €200.500 hebben; het bedrag moet naar boven worden afgerond op €201.000 of naar beneden worden afgerond op €200.000. |
+   | Langdurige arbeidsongeschiktheid<br><br>ADD (Basic life, Voluntary life) | Verhogingsrichting | Geeft de richting voor afronden aan, omhoog of omlaag, wanneer het dekkingsbedrag niet voldoet aan de waarde van het verhogingsbedrag. |
    | ADD (Basic life, Voluntary life) | Bewijs van verzekerbaarheid | Geeft aan of een werknemer bewijs moet leveren van de verzekerbaarheid. |
    | ADD (Basic life, Voluntary life) | Bedrag | Het bedrag in valuta voor de boekhouding. Dit veld is alleen actief als het selectievakje Bewijs van verzekerbaarheid is ingeschakeld. |
-   | <ul><li>Pensioenplan (bijvoorbeeld 401(k))</li><li>FSA</li></ul> | Minimale jaarlijkse bijdrage | Het bedrag van de minimale bijdrage die nodig is voor het plan. |
-   | <ul><li>Pensioenplan (bijvoorbeeld 401(k))</li><li>FSA</li></ul> | Maximale jaarlijkse bijdrage | Het bedrag van de maximale bijdrage die nodig is voor het plan. |
+   | Pensioenplan (bijvoorbeeld 401(k))<br><br>FSA | Minimale jaarlijkse bijdrage | Het bedrag van de minimale bijdrage die nodig is voor het plan. |
+   | Pensioenplan (bijvoorbeeld 401(k))<br><br>FSA | Maximale jaarlijkse bijdrage | Het bedrag van de maximale bijdrage die nodig is voor het plan. |
    | Pensioenplan (bijvoorbeeld 401(k)) | Maximum jaarlijks bedrag werkgever | Het maximale bedrag dat een werkgever mag bijdragen aan het pensioenplan van een werknemer tijdens een vergoedingsperiode. U moet het selectievakje Match werkgever inschakelen als u dit veld wilt gebruiken. |
    | Pensioenplan (bijvoorbeeld 401(k)) | Werkgeversmatch | Geeft aan of de werkgever bijdraagt aan het pensioenplan van de werknemer. |
    | Pensioenplan (bijvoorbeeld 401(k)) | Matchpercentage werkgever | Het percentage van een werknemersbijdrage dat de werkgever zal matchen. |
@@ -122,7 +119,7 @@ U kunt de medewerkers weergeven die zich hebben ingeschreven voor een geselectee
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Plannen** de optie **Vergoedingsplannen**.
 
-2. Selecteer **Geregistreerde medewerkers**.
+2. Selecteer op het tabblad **Vergoedingen** in de navigatiebalk de optie **Geregistreerde medewerkers**.
 
 ## <a name="attach-coverage-options"></a>Dekkingsopties koppelen
 
@@ -130,7 +127,7 @@ U kunt dekkingsopties toevoegen aan het geselecteerde vergoedingsplan. Door het 
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Plannen** de optie **Vergoedingsplannen**.
 
-2. Selecteer **Dekkingsopties koppelen**.
+2. Selecteer op het tabblad **Vergoedingen** in de navigatiebalk de optie **Dekkingsopties koppelen**.
 
 ## <a name="override-eligibility-rules"></a>Geschiktheidsregels overschrijven
 
@@ -138,7 +135,7 @@ U kunt medewerkers aan een plan toevoegen als uitzonderingen op de geschiktheids
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Plannen** de optie **Vergoedingsplannen**.
 
-2. Selecteer **Geschiktheidsregel overschrijven**.
+2. Selecteer op het tabblad **Vergoedingen** in de navigatiebalk de optie **Geschiktheidsregel overschrijven**.
 
 ## <a name="view-attached-periods"></a>Gekoppelde perioden weergeven
 
@@ -146,21 +143,21 @@ U kunt een lijst met de beschikbare vergoedingsperioden weergeven.
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Plannen** de optie **Vergoedingsplannen**.
 
-2. Selecteer **Perioden**.
+2. Selecteer het tabblad **Perioden** in de navigatiebalk.
 
-## <a name="view-plan-information"></a>Plangegevens weergeven
+## <a name="view-plan-description"></a>Omschrijving van plan weergeven
 
-U kunt een omschrijving opgeven van het plan om werknemers te helpen bij het selecteren van hun vergoedingen. De plangegevens die u hier invoert, worden weergegeven in Werknemerselfservice bij het aanwijzen van het plan in de lijst met dekkingsopties.
+U kunt een omschrijving opgeven van het plan om werknemers te helpen bij het selecteren van hun vergoedingen. De planbeschrijving die u hier invoert, wordt weergegeven in Werknemerselfservice bij het aanwijzen van het plan in de lijst met dekkingsopties.
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Plannen** de optie **Vergoedingsplannen**.
 
-2. Selecteer **Plangegevens**.
+2. Selecteer op het tabblad **Vergoedingen** in de navigatiebalk de optie **Planbeschrijving**.
 
 ## <a name="view-flex-credit-programs"></a>Programma's voor flexibele kredieten weergeven
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Plannen** de optie **Vergoedingsplannen**.
 
-2. Selecteer **Flex-kredietprogramma's**.
+2. Selecteer op het tabblad **Vergoedingen** in de navigatiebalk de optie **Programma's voor flexibele kredieten**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

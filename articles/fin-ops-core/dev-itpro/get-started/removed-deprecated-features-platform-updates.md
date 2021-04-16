@@ -2,7 +2,6 @@
 title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van Finance and Operations-apps.
 author: sericks007
-manager: AnnBe
 ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f363b122e30990f5b36e69fd8fe271bdc15e2e79
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ac3b5274aaea2e267685e80d051c81489ece50eb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563989"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814315"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
 
@@ -37,7 +36,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ### <a name="batch-job-to-handle-sql-index-defragmentation"></a>Batchtaak voor het verwerken van defragmentatie SQL-index
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Deze functie is verwijderd om de overhead van het bedienen, controleren en onderhouden van het indexbeheer door klanten te verminderen. |
 | **Vervangen door een andere functie?**   | In de toekomst wordt het indexonderhoud uitgevoerd door Microsoft-services. Dit proces vindt doorlopend plaats zonder dat dit van invloed is op de werkbelasting van de gebruiker. |
@@ -48,12 +47,10 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.17 van Finance and Operations-apps
 
-> [!IMPORTANT]
-> Versie 10.0.17 is beschikbaar als onderdeel van een previewversie. De inhoud en de functies kunnen worden gewijzigd. Meer informatie over preview-versies vindt u in [Veelgestelde vragen over updates van service met één versie](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Ter ondersteuning van de meest recente versies van Visual Studio moeten enkele wijzigingen worden aangebracht in de X++-extensies voor Visual Studio. Deze wijzigingen zijn niet compatibel met Visual Studio 2015. |
 | **Vervangen door een andere functie?**   | Visual Studio 2017 vervangt Visual Studio 2015 als de geïmplementeerde en vereiste versie. |
@@ -63,7 +60,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ### <a name="user-avatar"></a>Gebruikersavatar 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De gebruikersavatar die aan de rechterkant van de navigatiebalk wordt weergegeven, is opgehaald met een API uit het Dynamics 365-koptekstbesturingselement en die is afgeschaft. |
 | **Vervangen door een andere functie?**   | Gebruikers zien in plaats daarvan hun initialen in een cirkel op de navigatiebalk. Dit is dezelfde visuele weergave die momenteel op ontwikkelapparaten wordt gebruikt. |
@@ -73,7 +70,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ### <a name="enterprise-portal-ep-deprecation"></a>Afschaffing van Enterprise Portal (EP)  
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De metagegevensartefacten die aan Dynamics AX 2012 Enterprise Portal (EP) zijn gekoppeld, zijn afgeschaft, omdat EP nooit in de Finance and Operations-apps werd ondersteund. |
 | **Vervangen door een andere functie?**   | No |
@@ -85,7 +82,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11-ondersteuning voor Dynamics 365 is afgeschaft
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Met ingang van december 2020 wordt Microsoft Internet Explorer 11-ondersteuning voor alle Dynamics 365-producten afgeschaft en wordt Internet Explorer 11 na augustus 2021 niet meer ondersteund.<br><br>Dit heeft invloed op klanten die Dynamics 365-producten gebruiken die zijn ontworpen om via een Internet Explorer 11-interface te worden gebruikt. Na augustus 2021 wordt Internet Explorer 11 niet ondersteund voor dergelijke Dynamics 365-producten. |
 | **Vervangen door een andere functie?**   | Wij raden klanten aan om overstappen op Microsoft Edge.|
@@ -96,7 +93,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio-invoegtoepassing voor het toepassen van hotfixes voor metagegevens
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Hotfixes voor metagegevens worden niet meer ondersteund met de updates van de [One Version](../../fin-ops/get-started/one-version.md)-service die zijn geïntroduceerd in juli 2018 en versie 8.1. |
 | **Vervangen door een andere functie?**   | Er zijn geen afzonderlijke hotfixes voor metagegevens beschikbaar voor ondersteunde versies. In plaats hiervan worden cumulatieve kwaliteitsupdates toegepast. |
@@ -109,7 +106,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ### <a name="online-users-page"></a>Online gebruikers (pagina) 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Dit is een verouderde pagina die is gemaakt voor de vorige client/serverarchitectuur. De informatie op deze pagina is niet altijd nauwkeurig, wat verwarrend en misleidend kan zijn. |
 | **Vervangen door een andere functie?**   | In een toekomstige update wordt een nieuwe pagina geleverd.|
@@ -123,7 +120,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Aangepaste code gedefinieerd in SSRS-rapporteigenschappen 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | In het algemeen biedt aangepaste code beperkte voordelen, terwijl er tegelijkertijd aanzienlijke resources en berekeningen nodig zijn. Aangepaste code wordt voornamelijk gebruikt door rapportauteurs om openbare methoden aan te roepen vanuit aangepaste code-assembly's. De cloudservice biedt echter geen ondersteuning voor verwijzingen naar aangepaste assembly's voor SSRS-rapporten. |
 | **Vervangen door een andere functie?**   | Rapportauteurs kunnen ervoor kiezen om door te gaan met het verwijzen naar openbare .NET API's voor wiskundige, conversie- en opmaakbewerkingen van willekeurige tekstvakexpressies. Zie [Code toevoegen aan een rapport (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15) voor meer informatie.  |
@@ -133,7 +130,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Upgrade van drie jQuery-componentbibliotheken 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Er worden drie jQuery-componentbibliotheken bijgewerkt voor beveiligingscorrecties en voor het onderhouden van de valuta.   
 | **Vervangen door een andere functie?**   | Dit betreft de volgende bibliotheken: jQuery (naar versie 3.5.0 van versie 2.1.4), jQuery UI (naar versie 1.12.1 van versie 1.11.4), jQuery qTip (naar versie 3.0.3 van 2.2.1). De migratierichtlijnen zijn online beschikbaar via jQuery.  |
@@ -143,7 +140,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ### <a name="existing-grid-controlforcelegacygrid-api"></a>Bestaand rasterbesturingselement/forceLegacyGrid() API
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Het bestaande rasterbesturingselement wordt vervangen door het nieuwe rasterbesturingselement. |
 | **Vervangen door een andere functie?**   | Het [nieuwe rasterbesturingselement](../..//fin-ops/get-started/grid-capabilities.md) |
@@ -153,7 +150,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ### <a name="personalization-without-saved-views"></a>Persoonlijke instellingen zonder opgeslagen weergaven 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Het personalisatiesubsysteem is opnieuw ontworpen met de functie Opgeslagen weergaven, zodat de prestaties beter zijn en er extra mogelijkheden zijn. |
 | **Vervangen door een andere functie?**   | Opgeslagen weergaven |
@@ -166,7 +163,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Formulieruitbreidingen voor raster- of groepsbesturingselementen met ongeldige veldverwijzingen
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | De gegevensgroepeigenschap voor raster- of groepsbesturingselementen wordt gebruikt om automatisch alle velden van een veldgroep weer te geven. Een raster- of groepsbesturingselement dat door een uitbreiding wordt toegevoegd, kan velden bevatten die niet meer in de veldgroep zijn gedefinieerd of er kunnen velden ontbreken die zijn gedefinieerd voor de veldgroep. Dit kan inconsistent gedrag veroorzaken tijdens runtime. Platformupdates voor versie 10.0.12 van Finance and Operations-apps categoriseren dit probleem nu als een *waarschuwing*. U kunt dit probleem oplossen door de formulierextensie te openen en op te slaan.
 | **Vervangen door een andere functie?**   | Deze compilerwaarschuwing wordt vervangen door een compilerfout in een toekomstige update. |
@@ -178,7 +175,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Expliciete veilige lijsten voor selfservice-omgevingen
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Het proces voor het verplaatsen van IP naar veilige lijsten is gewijzigd. Selfservice biedt geen ondersteuning meer voor veilig IP-lijsten. |
 | **Vervangen door een andere functie?**   | Zie [Voorwaardelijke toegang voor Azure Active Directory configureren](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access) voor meer informatie.|
@@ -188,7 +185,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ### <a name="visual-studio-2015"></a>Visual Studio 2015
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Ter ondersteuning van de meest recente versies van Visual Studio moeten enkele wijzigingen worden aangebracht in de X++-extensies voor Visual Studio. Deze wijzigingen zijn niet compatibel met Visual Studio 2015. |
 | **Vervangen door een andere functie?**   | Visual Studio 2017 vervangt Visual Studio 2015 als de geïmplementeerde en vereiste versie. |
@@ -198,7 +195,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Veldgroepen die ongeldige veldverwijzingen bevatten
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Veldgroepen in metagegevensdefinities van tabellen kunnen veldverwijzingen bevatten die niet geldig zijn. Als deze veldgroepen worden geïmplementeerd, kan dit runtime-fouten veroorzaken in Financial Reporting en Microsoft SQL Server Reporting Services (SSRS). Platform update 23 heeft een *compilerwaarschuwing* geïntroduceerd waardoor dit metagegevensprobleem wordt opgelost. Platform updates voor versie 10.0.11 van Finance and Operations-apps categoriseren dit probleem als een *compilerfout*.<p>Volg deze stappen om dit probleem op te lossen.</p><ol><li>Verwijder de ongeldige veldverwijzing uit de groepsdefinitie van het tabelveld.</li><li>Compileer opnieuw.</li><li>Controleer of er fouten zijn opgelost.</li></ol> |
 | **Vervangen door een andere functie?**   | Deze compilerfout vervangt permanent de compilerwaarschuwing.  |
@@ -208,7 +205,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV-licenties die zijn gemaakt met het SHA1-hashalgoritme
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Het proces voor het maken van ISV-licenties (Independent Software Vendor) is gewijzigd. Zie [Licenties voor onafhankelijke softwareleveranciers (ISV)](../dev-tools/isv-licensing.md#appendix-create-self-signed-certificates-for-test-purposes) voor meer informatie. |
 | **Vervangen door een andere functie?**   | Ja. Gebruik Windows PowerShell om licenties te maken. |
@@ -219,7 +216,8 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 ## <a name="platform-update-32"></a>Platformupdate 32
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Dialoogvenster Wijziging in werkstroom aanvragen bevat niet langer een vervolgkeuzelijst voor gebruikersselectie
-|   |  |
+
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Dit was een beveiligingsprobleem omdat de aanvraag voor wijziging naar een onbedoelde gebruiker kon worden verzonden. Dit was ook een bruikbaarheidsprobleem omdat de gebruiker werd gedwongen te bepalen bij wie de werkstroom oorspronkelijk vandaan kwam en deze handmatig te selecteren.  |
 | **Vervangen door een andere functie?**   | Nee |
@@ -228,7 +226,8 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Status**                         | De vervolgkeuzelijst voor gebruikersselectie werd in Platform update 32 verwijderd uit het dialoogvenster Wijziging in werkstroom aanvragen. Aanvragen voor verzoeken om wijzigingen worden automatisch naar de persoon verzonden bij wie de werkstroom oorspronkelijk vandaan kwam, zoals bedoeld. Zie [Acties in goedkeuringsprocessen voor werkstroom](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change) voor meer informatie over deze functionaliteit. |
 
 ### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>Ingesloten drillthrough-koppelingen worden niet meer ondersteund in gepagineerde documenten die worden weergegeven door de cloudgehoste service 
-|   |  |
+
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Navigatie-URL's die zijn ingesloten in documenten die door de service worden weergegeven, kunnen gevoelige bedrijfsgegevens bevatten. De ondersteuning voor ingesloten drillthrough-koppelingen in documenten wordt verwijderd als een beveiligingsmaatregel om de gegevens van klanten beter te beschermen. Gebruikers profiteren ook van betere prestaties en kunnen interactief documenten genereren als gevolg van deze wijziging.  |
 | **Vervangen door een andere functie?**   | No |

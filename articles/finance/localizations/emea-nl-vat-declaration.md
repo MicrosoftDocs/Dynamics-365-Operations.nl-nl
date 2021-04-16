@@ -6,20 +6,18 @@ ms.author: AnnBe
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-manager: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Netherlands
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e00586a85360ecf2c77cf44fdc75fac97d094a61
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 62fd9705db65b89677f455ee2ef07b41f6fa29de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234100"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816871"
 ---
 # <a name="vat-declaration-for-the-netherlands"></a>Btw-aangifte voor Nederland
 

@@ -2,11 +2,9 @@
 title: CODA-bankafschrift
 description: Dit onderwerp bevat informatie over CODA. Dit is een rapportindeling die in het Belgische elektronische banksysteem wordt gebruikt.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, BankCodaAccountStatement, BankCodaAccountStatementLines, BankCodaParameters, BankCodaTrans, BankCodaTransCategory, BankCodaTransDefTable, BankCodaTransFamily
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Belgium
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ae014541bebc253d529665fcd841c571e142d783
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 04e14f4afe3ad4505b140699956832d9b12ae48b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209873"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839907"
 ---
 # <a name="coda-bank-statement"></a>CODA-bankafschrift
 

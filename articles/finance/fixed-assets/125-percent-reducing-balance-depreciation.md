@@ -2,11 +2,9 @@
 title: Degressieve afschrijving van 125 procent
 description: Dit artikel biedt een overzicht van de afschrijvingsmethode Degressieve afschrijving van 125 procent.
 author: saraschi2
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ed1a382325396b30d3921904bcc3ac70f95633b1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e1d05ec02d47a563c0d7ae7cb0fafdbad45bd140
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219886"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827189"
 ---
 # <a name="125-percent-reducing-balance-depreciation"></a>Degressieve afschrijving van 125 procent
 
@@ -66,7 +64,7 @@ Als u **Fiscaal** als het afschrijvingsjaar selecteert, zijn de volgende opties 
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>Voorbeeld van een 125% degressieve afschrijving
 
-|                                |        |
+| &nbsp;                         | &nbsp; |
 |--------------------------------|--------|
 | Bijboekingskosten               | 11.000 |
 | Restwaarde                  | 1.000  |

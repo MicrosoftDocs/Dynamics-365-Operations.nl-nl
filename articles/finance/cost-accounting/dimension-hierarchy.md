@@ -2,11 +2,9 @@
 title: Dimensiehiërarchie
 description: Dit onderwerp bevat informatie over dimensiehiërarchieën. U gebruikt een dimensiehiërarchie om de rapportagestructuur, het kostenbeleid en de beveiligingsinstelling in Kostprijsboekhouding te definiëren.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2a2e48b15bedd25b685686fa18a91f30b600331c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217381"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810169"
 ---
 # <a name="dimension-hierarchy"></a>Dimensiehiërarchie
 
@@ -124,12 +122,13 @@ Een dimensiehiërarchie die voldoet aan de rapportagevereisten van de organisati
 
 De dimensiehiërarchie voor rapportage kan worden ingesteld zoals hier wordt weergegeven.
 
-|                   | Bereiken van dimensieleden   |                         |
+**Bereiken van dimensieleden**
+
+|   Knooppunten           |   Van dimensielid   |   Tot dimensielid   |
 |-------------------|---------------------------|-------------------------|
-| **Knooppunten**         | **Van dimensielid** | **Tot dimensielid** |
 | Organisatie      |                           |                         |
 | &nbsp;&nbsp;Beheer         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Financiën   | CC002                     | CC003                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Financiën   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;HR        | CC001                     | CC001                   |
 | &nbsp;&nbsp;Productie    |                           |                         |
@@ -146,12 +145,13 @@ Een dimensiehiërarchie die voldoet aan de beleidsvereiste kan worden ingesteld 
 
 De dimensiehiërarchie voor het beleid kan worden ingesteld zoals hier wordt weergegeven.
 
-|                   | Bereiken van dimensieleden   |                         |
+**Bereiken van dimensieleden**
+
+|   Knooppunten           |   Van dimensielid   |   Tot dimensielid   |
 |-------------------|---------------------------|-------------------------|
-| **Knooppunten**         | **Van dimensielid** | **Tot dimensielid** |
 | Kostengedrag     |                           |                         |
 | &nbsp;&nbsp;Vaste kosten    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Variabele kosten | 40001                     | 40010                   |
+| &nbsp;&nbsp;Variabele kosten | 40001                     | 40010                   |
 
 > [!NOTE]
 > Onder **Bereiken van dimensieleden** kan een knooppunt 1:_n_ bereiken van dimensieleden bevatten. U kunt de dimensielid-id´s invoegen die nog niet bestaan als dimensieleden. Deze benadering maakt de hiërarchie flexibel voor de toekomst.  
@@ -297,9 +297,10 @@ Alle managers kunnen mogelijk toegang krijgen tot zeer gevoelige bedrijfsgegeven
 
 Het nieuwe sneltabblad **Gebruikers** is beschikbaar in de hiërarchieontwerper. Hier kunt u een of meer gebruikers-id´s in elk knooppunt van de hiërarchie invoegen.
 
-|                 | Gebruikers            | Bereiken van dimensieleden   |                         |
+**Gebruikers en bereiken van dimensieleden**
+
+|   Knooppunten         |   Gebruikers-ID        |   Van dimensielid   |   Tot dimensielid   |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Knooppunten**       | **Gebruikers-id**      | **Van dimensielid** | **Tot dimensielid** |
 | Organisatie    | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Beheer         | april            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Financiën   | Alicia           | CC002                     | CC003                   |

@@ -1,8 +1,7 @@
 ---
 title: Informatie vinden met zoekopdrachten
-description: Veel velden hebben zoekopdrachten waarmee u gemakkelijk de juiste of de gewenste waarde vindt. Enkele verbeteringen zijn toegevoegd aan de lookups, die deze besturingselementen bruikbaarder maken en gebruikers productiever. In dit onderwerp vindt u informatie over deze nieuwe lookupfuncties en handige tips voor een optimaal gebruik van lookups in het systeem.
+description: In dit onderwerp vindt u informatie over opzoekfuncties en handige tips voor een optimaal gebruik van opzoekfuncties in het systeem.
 author: jasongre
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ae5f31c2cc46bf395acfbd053168e88aa69ebdc
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: adb8e1a0fef93fdd66a4cbac82689ff7a19aca4a
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566289"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754771"
 ---
 # <a name="find-information-by-using-lookups"></a>Informatie vinden met zoekopdrachten
 

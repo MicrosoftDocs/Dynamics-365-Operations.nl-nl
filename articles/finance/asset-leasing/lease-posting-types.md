@@ -2,11 +2,9 @@
 title: Boekingstypen voor lease
 description: In dit onderwerp worden de boekingstypen beschreven die worden gebruikt voor activa-leasingtransacties.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9b7d8c545c1addaa570d54855bbad6c576783007
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ddc229f3ab8e048390f27503e2c6c26bd1a6f24f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229497"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841136"
 ---
 # <a name="lease-posting-types"></a>Boekingstypen voor lease
 
@@ -90,15 +88,6 @@ De rekening is gekoppeld aan de contra-activumrekening van het RoU-activum. Deze
 **Voorbeeldjournaalposten:** afschrijvingstoerekening<br>
 **Debet:** afschrijvingskosten XXX<br>
 **Credit:** samengevoegde afschrijving XXX
-
-## <a name="retained-earnings"></a>Ingehouden winst
-
-De rekening is gekoppeld aan ingehouden inkomsten. Deze rekening kan worden gedebiteerd of gecrediteerd in een journaalpost transitiecorrectie met behulp van de volledige retrospectieve methode of de cumulatieve achterstallige optie A-methode. Het verschil tussen het oorspronkelijke RoU-activum en de leaseverplichtingen wordt geboekt op ingehouden winsten. In zeldzame gevallen kunnen de ingehouden winsten ook worden beïnvloed tijdens het wijzigen van de lease, als de classificatie van een lease wordt gewijzigd van financieel naar operationeel om het RoU-activum omhoog of omlaag te schrijven, zodat het gelijk is aan de leaseverplichtingen.
-
-**Voorbeeldjournaalposten:** transitiecorrectie (volledige retrospectieve methode of de cumulatieve achterstallige optie A-methode)<br>
-**Debet:** leaseverplichtingen XXX<br>
-**Credit:** leaseactivum XXX<br>
-**Credit:** ingehouden inkomsten XXX
 
 ## <a name="variable-payment"></a>Variabele betaling
 

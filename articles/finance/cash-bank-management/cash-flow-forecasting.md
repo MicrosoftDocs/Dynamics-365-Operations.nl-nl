@@ -1,12 +1,10 @@
 ---
 title: Cashflowprognose
 description: Dit onderwerp bevat een overzicht van het cashflowprognoseproces. Ook wordt uitgelegd hoe cashflowprognoses worden geïntegreerd met andere modules in het systeem.
-author: saraschi2
-manager: AnnBe
-ms.date: 08/03/2020
+author: JodiChristiansen
+ms.date: 12/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 98bf906569f99c74fef747381e8f27b1d9f91a5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2a0bcb5266472b3d0e936d27c9f599d2c6b16d7a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232460"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819645"
 ---
 # <a name="cash-flow-forecasting"></a>Cashflowprognose
 
@@ -45,8 +43,7 @@ Cashflowprognose kan worden geïntegreerd met Grootboek, Klanten, Leveranciers, 
 - **Budgetregistervermeldingen** - budgetjournaalposten die zijn geselecteerd voor cashflowprognoses.
 - **Vraagprognoses** : voorraadprognosemodelregels die worden geselecteerd voor cashflowprognoses.
 - **Aanbodprognoses** : voorraadprognosemodelregels die worden geselecteerd voor cashflowprognoses.
-
-Hoewel er geen directe integratie met projectbeheer en boekhouding is, zijn er verschillende manieren om projecttransacties in de cashflowprognose op te nemen. Geboekte projectfacturen worden opgenomen in de prognose als onderdeel van openstaande klanttransacties. Door projecten geïnitieerde verkooporders en inkooporders worden in de prognose als openstaande orders opgenomen nadat ze in het systeem zijn ingevoerd. U kunt ook projectprognoses overbrengen naar een grootboekbudgetmodel. Dit grootboekbudgetmodel wordt vervolgens opgenomen in de cashflowprognose als onderdeel van de budgetregistervermeldingen.
+- **Projectprognoses**: projectbeheer- en boekhoudprognoses met behulp van prognosemodel.
 
 ## <a name="configuration"></a>Configuratie
 
@@ -96,6 +93,14 @@ Prognoses voor vraag en aanbod van voorraad kunnen worden opgenomen in cashflowp
 Met een nieuw tabblad op de pagina **Cashflowprognose instellen** kunt u bepalen welke financiële dimensies moeten worden gebruikt voor het filteren in het werkgebied **Cashflowprognose**. Dit tabblad wordt alleen weergegeven wanneer de functie Cashflowprognoses is ingeschakeld. 
 
 Kies op het tabblad **Dimensies** in de lijst de dimensies die u wilt gebruiken voor het filteren en verplaats deze naar de rechterkolom met de pijltoetsen. Er kunnen slechts twee dimensies worden geselecteerd voor het filteren van cashflowprognosegegevens. 
+
+### <a name="project-management-and-accounting"></a>Projectbeheer en boekhouding
+
+In versie 10.0.17 maakt een nieuwe functie integratie met Projectbeheer en boekhouding en cashflowprognose mogelijk. Schakel in de werkruimte **Functiebeheer** de functie **Cashflowprojectprognose** in om de verwachte kosten en opbrengsten op te nemen in de cashflowprognose. Selecteer op het tabblad **Projectbeheer en boekhouding** van de pagina **Instelling cashflowprognose** de project- en transactietypen die in de cashflowprognose moeten worden opgenomen. Selecteer vervolgens het projectprognosemodel. Een submodel van het reductietype werkt het beste. De liquiditeitsrekeningen die zijn ingevoerd in de instelling Klanten worden gebruikt als de standaardliquiditeitsrekeningen. Daarom hoeft u geen standaardliquiditeitsrekeningen in te voeren wanneer u de cashflowprognose instelt. Een budgetmodel kan ook worden gebruikt, maar er kan slechts één type worden geselecteerd op de pagina **Instelling cashflowprognose** voor Projectbeheer en boekhouding. Een prognosemodel biedt de meeste flexibiliteit wanneer Projectbeheer en boekhouding of Project Operations wordt gebruikt.
+
+Als de functie Cashflowprojectprognose is ingeschakeld, kan de cashflowprognose voor elk project worden weergegeven op de pagina **Alle projecten**. Selecteer in het actievenster op het tabblad **Plannen** in de groep **Prognose** de optie **Cashflowprognose**. In de werkruimten **Kasoverzicht** (zie de sectie [Rapportage](#reporting) verderop in dit onderwerp) toont het type projectprognosetransactie de instroom (projectprognoseopbrengst) en de uitstroom (projectprognosekosten). De bedragen kunnen alleen worden opgenomen als het veld **Projectfase** in de werkruimten **Kasoverzicht** is ingesteld op **Onderhanden**.
+
+Projecttransacties worden nog steeds op verschillende manieren opgenomen in de cashflowprognose, ongeacht of de functie **Cashflowprojectprognose** is ingeschakeld. Geboekte projectfacturen worden opgenomen in de prognose als onderdeel van openstaande klanttransacties. Door projecten geïnitieerde verkooporders en inkooporders worden in de prognose als openstaande orders opgenomen nadat ze in het systeem zijn ingevoerd. U kunt ook projectprognoses overbrengen naar een grootboekbudgetmodel. Dit grootboekbudgetmodel wordt vervolgens opgenomen in de cashflowprognose als onderdeel van de budgetregistervermeldingen. Als u de functie **Cashflowprojectprognose** hebt ingeschakeld, brengt u projectprognoses niet over naar een grootboekbudgetmodel, omdat deze actie ertoe leidt dat de projectprognoses twee keer worden geteld.
 
 ### <a name="calculation"></a>Berekening
 

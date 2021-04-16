@@ -2,11 +2,9 @@
 title: EUR-00002 Een EU Intrastat-aangifte genereren
 description: Deze procedure begeleidt u bij de stappen die nodig zijn om de Intrastat-aangifte in de elektronische bestandsindeling te exporteren en een voorbeeld te bekijken van de aangiftegegevens in een Excel-indeling.
 author: Anasyash
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport, IntrastatParameters, IntrastatCommodityLookup, IntrastatCompressParameters, Intrastat, SysQueryForm
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: anasyash
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f42f7dbb22300f31b10ece9a44a563c8d438b50b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 24caceffd8c0bf29a3f9cc45b7bd1977e119359d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228025"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822600"
 ---
 # <a name="eur-00002-generate-an-eu-intrastat-declaration"></a>EUR-00002 Een EU Intrastat-aangifte genereren
 

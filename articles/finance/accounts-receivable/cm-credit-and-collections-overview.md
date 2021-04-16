@@ -2,11 +2,9 @@
 title: Overzicht van Crediteringen en aanmaningen
 description: In dit onderwerp wordt een overzicht gegeven van de functionaliteit voor Crediteringen en aanmaningen.
 author: mikefalkner
-manager: AnnBe
 ms.date: 09/04/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6bba210bc282e031606acca4ad73e18d8b42167d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7929150cd9f6c28620f4c4d4cb7b57b02d27a104
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257628"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835407"
 ---
 # <a name="credit-and-collections-overview"></a>Overzicht van Crediteringen en aanmaningen
 

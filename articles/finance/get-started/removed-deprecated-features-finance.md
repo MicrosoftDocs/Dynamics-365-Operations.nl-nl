@@ -2,11 +2,9 @@
 title: Verwijderde of afgeschafte functies in Dynamics 365 Finance
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
-ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
+ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5474058"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836908"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Verwijderde of afgeschafte functies in Dynamics 365 Finance
 
@@ -39,7 +37,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>LCS-opslagplaats als een opslagoptie voor configuraties voor elektronische rapportage
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Vervangen door de nieuwe algemene opslagplaats voor Regulatory Configuration Service (RCS) |
 | **Vervangen door een andere functie?**   | Ja |
@@ -51,7 +49,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>Indelingen Btw-aangifte (CZ) en Export van controleoverzicht (CZ) voor elektronische aangifte voor Tsjechië
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Vervangen door nieuwe indelingen |
 | **Vervangen door een andere functie?**   | Ja |
@@ -61,7 +59,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>"Exportindeling voor grootboektransacties (BE)" elektronische rapporteringsindeling en het bijbehorende model "Exporteren van grootboektransacties (BE)" voor België
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Vervangen met nieuwe ER-indeling onder het model "Standaard auditfile (SAF-T)".  |
 | **Vervangen door een andere functie?**   | Ja |
@@ -71,7 +69,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>Het rapport 'VAT 100' voor het Verenigd Koninkrijk in SSRS-indeling
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Vervangen door nieuwe ER-indeling - 'VAT-aangifte Excel (VK)'-indeling onder 'Belastingaangiftemodel'.  |
 | **Vervangen door een andere functie?**   | Ja |
@@ -83,7 +81,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11-ondersteuning voor Dynamics 365 is afgeschaft
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Met ingang van december 2020 wordt Microsoft Internet Explorer 11-ondersteuning voor alle Dynamics 365-producten afgeschaft en wordt Internet Explorer 11 na augustus 2021 niet meer ondersteund.<br><br>Dit heeft invloed op klanten die Dynamics 365-producten gebruiken die zijn ontworpen om via een Internet Explorer 11-interface te worden gebruikt. Na augustus 2021 wordt Internet Explorer 11 niet ondersteund voor dergelijke Dynamics 365-producten. |
 | **Vervangen door een andere functie?**   | Wij raden klanten aan om overstappen op Microsoft Edge.|
@@ -95,7 +93,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Poolse SSRS-rapporten: Btw-register voor verkoop, Btw-register voor inkoop, Btw-register EU-overzicht – functieverwijzing PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Niet wettelijk vereist.  |
 | **Vervangen door een andere functie?**   | Ja (Excel-indeling voor standaardauditbestand met btw-aangifte - JPK_VDEK) |
@@ -107,7 +105,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ### <a name="norwegian-standard-main-accounts"></a>Standaard hoofdrekeningen Noors
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Nieuw ontwerp  |
 | **Vervangen door een andere functie?**   | Ja (vervangen door specifieke aanvraagparameters voor ER-indeling) |
@@ -118,7 +116,8 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Verwijderde of verouderde functies in versie 10.0.7 van Finance
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Dialoogvenster Wijziging in werkstroom aanvragen bevat niet langer een vervolgkeuzelijst voor gebruikersselectie
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Gewijzigd in de functie met selectie van rekeninggroepen.  |
 | **Vervangen door een andere functie?**   | Ja |

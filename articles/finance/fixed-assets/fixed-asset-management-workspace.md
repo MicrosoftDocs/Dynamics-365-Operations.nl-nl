@@ -2,11 +2,9 @@
 title: Werkgebied Beheer van vaste activa
 description: Dit onderwerp bevat informatie over het werkgebied Beheer van vaste activa. Dit werkgebied bevat informatie die betrekking heeft op de vaste activa die zijn ingevoerd in het systeem. Het bevat een overzichtsweergave en een analyseweergave.
 author: saraschi2
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 1b2a42889d0e6acfc23e4fd450405ef31ca810fd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 66c8d40aae65d48bea2f975432e6ec8ad741c76f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240932"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826805"
 ---
 # <a name="fixed-asset-management-workspace"></a>Werkgebied Beheer van vaste activa
 

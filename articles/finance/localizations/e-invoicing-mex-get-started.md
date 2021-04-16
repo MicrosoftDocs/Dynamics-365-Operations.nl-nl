@@ -1,12 +1,10 @@
 ---
-title: Aan de slag met de invoegtoepassing voor elektronische facturering voor Mexico
-description: Dit onderwerp bevat informatie waarmee u aan de slag kunt met de invoegtoepassing Elektronische facturering voor Mexico in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management.
+title: Aan de slag met Elektronische facturering voor Mexico
+description: Dit onderwerp bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Mexico.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,25 +15,25 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ec7417d44a7c2aa413a9cda75996c153727632dd
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592641"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840047"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Aan de slag met de invoegtoepassing voor elektronische facturering voor Mexico
+# <a name="get-started-with-electronic-invoicing-for-mexico"></a>Aan de slag met Elektronische facturering voor Mexico
 
 [!include [banner](../includes/banner.md)]
 
 > [!IMPORTANT]
-> De invoegtoepassing Elektronische facturering voor Mexico ondersteunt momenteel mogelijk niet alle functies die beschikbaar zijn in het document Comprobante Fiscal Digital por Internet (CFDI) en in de gerelateerde integratie die in Microsoft Dynamics 365 Finance of Dynamics 365 Supply Chain Management is ingebouwd.
+> Elektronische facturering voor Mexico ondersteunt momenteel mogelijk niet alle functies die beschikbaar zijn in het document Comprobante Fiscal Digital por Internet (CFDI) en in de gerelateerde integratie die in Microsoft Dynamics 365 Finance of Dynamics 365 Supply Chain Management is ingebouwd.
 
-Dit onderwerp bevat informatie waarmee u aan de slag kunt met de invoegtoepassing Elektronische facturering voor Mexico. U wordt door de configuratiestappen geleid die landafhankelijk zijn in de Regulatory Configuration Services (RCS) en Finance. Daarnaast begeleidt het u door de stappen die u moet volgen om CFDI-facturen via de service in te dienen en er wordt uitgelegd hoe u de verwerkingsresultaten en de status van CFDI-facturen controleert.
+Dit onderwerp bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Mexico. U wordt door de configuratiestappen geleid die landafhankelijk zijn in de Regulatory Configuration Services (RCS) en Finance. Daarnaast begeleidt het u door de stappen die u moet volgen om CFDI-facturen via de service in te dienen en er wordt uitgelegd hoe u de verwerkingsresultaten en de status van CFDI-facturen controleert.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u de stappen in dit onderwerp uitvoert, moet u de stappen uitvoeren in [Aan de slag met de invoegtoepassing voor elektronische facturering](e-invoicing-get-started.md).
+Voordat u de stappen in dit onderwerp uitvoert, moet u de stappen uitvoeren in [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
 
 ## <a name="rcs-setup"></a>RCS-instellingen
 
@@ -47,7 +45,7 @@ Tijdens de RCS-instelling voert u de volgende taken uit:
 4. De functie e-Facturering voor CFDI-facturen publiceren.
 
 > [!NOTE]
-> 'De functie e-Facturering' is de algemene naam voor de resource die wordt geconfigureerd en gepubliceerd voor gebruik op de server van de invoegtoepassing voor elektronische facturering. In dit geval zijn CFDI-facturen (MX) de functie e-Facturering die u gaat instellen.
+> 'De functie e-Facturering' is de algemene naam voor de resource die wordt geconfigureerd en gepubliceerd voor gebruik op de server voor elektronische facturering. In dit geval zijn CFDI-facturen (MX) de functie e-Facturering die u gaat instellen.
 
 ## <a name="import-the-e-invoicing-feature"></a>De functie e-Facturering importeren
 
@@ -153,9 +151,9 @@ Voor het indienen van een annulering van een CFDI-factuur, moet u de functie **A
 
 ![De status van de functie e-Facturering wijzigen](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-electronic-invoicing-add-on-integration-in-finance"></a>Integratie van invoegtoepassing voor elektronisch factureren instellen in Finance
+## <a name="set-up-electronic-invoicing--integration-in-finance"></a>Integratie van Elektronisch factureren instellen in Finance
 
-Als u de invoegtoepassing voor elektronische facturering in Finance wilt instellen, voert u de volgende taken uit:
+Als u elektronische facturering in Finance wilt instellen, voert u de volgende taken uit:
 
 1. Importeer het ER-gegevensmodel, de toewijzing voor het ER-gegevensmodel en de indelingen die nodig zijn voor CFDI-facturen.
 2. Responstypen configureren voor het bijwerken van de CFDI-facturen. Deze responstypen worden gebruikt voor de respons van de PAC-server (geautoriseerde certificeringsaanbieder).
@@ -194,7 +192,7 @@ Als u de invoegtoepassing voor elektronische facturering in Finance wilt instell
     - Voer voor **Klantfactuurjournaal** de optie **Klantfactuurcontext** in.
     - Voer voor **Projectfactuur** de optie **Projectfactuurcontext** in.
 
-4. Selecteer **Responstypen** om de responstypen te configureren die kunnen worden geretourneerd vanuit de invoegtoepassing voor elektronische facturering en die worden opgenomen in een klantfactuurjournaal of projectfactuur.
+4. Selecteer **Responstypen** om de responstypen te configureren die kunnen worden geretourneerd vanuit Elektronische facturering en die worden opgenomen in een klantfactuurjournaal of projectfactuur.
 5. Selecteer **Nieuw** en selecteer in het veld **Responstype** de optie **Respons**.
 6. Selecteer in het veld **Indieningsstatus** de optie **In behandeling**.
 7. Selecteer in het veld **Modeltoewijzing** de optie **Importindeling responsbericht – Modeltoewijzing van responsbericht**.
@@ -206,7 +204,7 @@ Als u de invoegtoepassing voor elektronische facturering in Finance wilt instell
 
 ## <a name="process-electronic-invoices-in-finance"></a>Elektronische facturen in Finance verwerken 
 
-Tijdens de verwerking van CFDI-facturen in Finance via de invoegtoepassing voor elektronische facturering kunt u de volgende taken uitvoeren:
+Tijdens de verwerking van CFDI-facturen in Finance via Elektronische facturering kunt u de volgende taken uitvoeren:
 
 - CFDI-facturen indienen.
 - De uitvoeringslogboeken voor het indienen weergeven.
@@ -214,7 +212,7 @@ Tijdens de verwerking van CFDI-facturen in Finance via de invoegtoepassing voor 
 
 ### <a name="submit-cfdi-invoices"></a>CFDI-facturen indienen
 
-Nadat u de functie **Integratie configureerbare invoegtoepassing voor elektronisch factureren** hebt ingeschakeld, kunt u het proces **Elektronische factuur exporteren/importeren** (**Klanten \> Facturen \> E-facturen**) voor het indienen van CFDI-facturen niet meer gebruiken. Het wordt vervangen door een nieuw proces met de naam **Elektronische documenten indienen**.
+Nadat u de functie **Integratie configureerbare functie voor elektronisch factureren** hebt ingeschakeld, kunt u het proces **Elektronische factuur exporteren/importeren** (**Klanten \> Facturen \> E-facturen**) voor het indienen van CFDI-facturen niet meer gebruiken. Het wordt vervangen door een nieuw proces met de naam **Elektronische documenten indienen**.
 
 > [!NOTE]
 > Voordat u het nieuwe proces **Elektronische documenten indienen** gebruikt, moet u controleren of de instellingen die nodig zijn voor de Mexicaanse e-facturen zijn voltooid. Zie [CFDI-indeling versie 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3) voor meer informatie.
@@ -226,7 +224,7 @@ Nadat u de functie **Integratie configureerbare invoegtoepassing voor elektronis
 ![Een CFDI-document indienen](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
 > [!NOTE]
-> Wanneer u voor het eerst een document via de service verzendt, wordt u gevraagd de verbinding met de invoegtoepassing voor elektronische facturering te bevestigen. Selecteer **Klik hier om verbinding te maken met de service voor het indienen van elektronische documenten**.
+> Wanneer u voor het eerst een document via de service verzendt, wordt u gevraagd de verbinding met Elektronische facturering te bevestigen. Selecteer **Klik hier om verbinding te maken met de service voor het indienen van elektronische documenten**.
 
 ### <a name="view-submission-logs"></a>Indieningslogboeken weergeven
 
@@ -234,7 +232,7 @@ U kunt de indieningslogboeken voor alle ingediende documenten of voor slechts é
 
 #### <a name="view-all-submission-logs"></a>Alle indieningslogboeken weergeven
 
-Nadat u de functie **Integratie configureerbare invoegtoepassing voor elektronisch factureren** hebt ingeschakeld, is er een nieuwe pagina beschikbaar waarmee u het indieningsproces voor documenten kunt opvolgen. U kunt deze pagina gebruiken om de indieningslogboeken voor alle ingediende documenten weer te geven.
+Nadat u de functie **Integratie configureerbare functie voor elektronisch factureren** hebt ingeschakeld, is er een nieuwe pagina beschikbaar waarmee u het indieningsproces voor documenten kunt opvolgen. U kunt deze pagina gebruiken om de indieningslogboeken voor alle ingediende documenten weer te geven.
 
 1. Ga naar **Organisatiebeheer \> Periodiek \> Elektronische documenten \> Indieningslogboek voor elektronische documenten**.
 2. Selecteer in het veld **Documenttype** **Klantfactuurjournaal** om te filteren op de vereiste elektronische documenten.
@@ -249,26 +247,26 @@ De informatie in de indieningslogboeken wordt verdeeld over drie sneltabbladen:
 
 - **Verwerkingsacties**: dit sneltabblad toont het uitvoeringslogboek voor de acties die zijn geconfigureerd in de functieversie die is ingesteld in RCS. De kolom **Status** geeft aan of de actie met goed gevolg is uitgevoerd.
 - **Actiebestanden**: dit sneltabblad toont de tussenliggende bestanden die zijn gegenereerd tijdens de uitvoering van de acties. U kunt **Weergave** selecteren om het bestand te downloaden en weer te geven.
-- **Logboek verwerkingsacties**: dit sneltabblad toont de resultaten van de communicatie tussen de invoegtoepassing voor elektronische facturering en de doelwebservice. Het toont ook wat er is geretourneerd door de verwerking vanuit de webservice. De kolom **Foutcode** geeft de retourcode weer die is geretourneerd door de autorisatie-webservice.
+- **Logboek verwerkingsacties**: dit sneltabblad toont de resultaten van de communicatie tussen Elektronische facturering en de doelwebservice. Het toont ook wat er is geretourneerd door de verwerking vanuit de webservice. De kolom **Foutcode** geeft de retourcode weer die is geretourneerd door de autorisatie-webservice.
 
 Wanneer de ingediende CFDI-factuur is geautoriseerd, wordt de status ervan gewijzigd in **Goedgekeurd**.
 
 #### <a name="view-submission-logs-from-cfdi-invoices"></a>Indieningslogboeken weergeven vanuit CFDI-facturen
 
-Nadat u de functie **Integratie configureerbare invoegtoepassing voor elektronisch factureren** hebt ingeschakeld, kunt u ook de indieningslogboeken van CFDI-facturen weergeven.
+Nadat u de functie **Integratie configureerbare functie voor elektronisch factureren** hebt ingeschakeld, kunt u ook de indieningslogboeken van CFDI-facturen weergeven.
 
 1. Ga naar **Klanten \> Query's en rapporten \> CFDI (elektronische facturen)**.
-2. Selecteer een CFDI-factuur die is ingediend nadat de functie **Integratie configureerbare invoegtoepassing voor elektronisch factureren** is ingeschakeld.
+2. Selecteer een CFDI-factuur die is ingediend nadat de functie **Integratie configureerbare functie voor elektronisch factureren** is ingeschakeld.
 3. Selecteer in het actievenster op het tabblad **Historie** de optie **Logboek elektronische documenten**.
 
 ![Indieningslogboeken weergeven vanuit CFDI-facturen](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
 > [!NOTE]
-> Voor CFDI-facturen die zijn ingediend voordat de functie **Integratie configureerbare invoegtoepassing voor elektronisch factureren** is ingeschakeld, is de knop **Historie** beschikbaar. De knop **Historie** is niet beschikbaar voor CFDI-facturen die zijn ingediend nadat de functie **Integratie configureerbare invoegtoepassing voor elektronisch factureren** is ingeschakeld.
+> Voor CFDI-facturen die zijn ingediend voordat de functie **Integratie configureerbare functie voor elektronisch factureren** is ingeschakeld, is de knop **Historie** beschikbaar. De knop **Historie** is niet beschikbaar voor CFDI-facturen die zijn ingediend nadat de functie **Integratie configureerbare functie voor elektronisch factureren** is ingeschakeld.
 
 ### <a name="submit-cancellation-of-cfdi-invoices"></a>De annulering van CFDI-facturen indienen
 
-Nadat u de functie **Integratie configureerbare invoegtoepassing voor elektronisch factureren** hebt ingeschakeld, kan het oude proces voor het annuleren van CFDI-facturen niet meer worden gebruikt. Deze wordt vervangen door een nieuw annuleringsproces dat is ingesloten op de pagina **Indieningslogboek voor elektronische documenten**.
+Nadat u de functie **Integratie configureerbare functie voor elektronisch factureren** hebt ingeschakeld, kan het oude proces voor het annuleren van CFDI-facturen niet meer worden gebruikt. Deze wordt vervangen door een nieuw annuleringsproces dat is ingesloten op de pagina **Indieningslogboek voor elektronische documenten**.
 
 1. Ga naar **Klanten \> Query's en rapporten \> CFDI (elektronische facturen)**.
 2. Als de CFDI-factuur de status **Goedgekeurd** heeft , selecteert u **Functies \> CFDI annuleren**.
@@ -295,9 +293,9 @@ Voor het inschakelen van de functie **CFDI Mexicaanse elektronische factuur (MX)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-- [Overzicht van de invoegtoepassing voor elektronische facturering](e-invoicing-service-overview.md)
-- [Aan de slag met de invoegtoepassing voor elektronische facturering](e-invoicing-get-started.md)
-- [De invoegtoepassing voor elektronische facturering instellen](e-invoicing-setup.md)
+- [Overzicht van Elektronische facturering](e-invoicing-service-overview.md)
+- [Aan de slag met Elektronische facturering](e-invoicing-get-started.md)
+- [Elektronische facturering instellen](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

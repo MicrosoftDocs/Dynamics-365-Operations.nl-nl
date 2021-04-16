@@ -2,11 +2,9 @@
 title: Export grootboektransacties
 description: Dit onderwerp bevat informatie over het exporteren van grootboekrekeningsaldi naar een ASCII-bestand (tekst zonder opmaak) in CED-indeling voor België.
 author: anasyash
-manager: AnnBe
 ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxReportExtraFieldsBE
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Belgium
 ms.author: roschlom
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: cd67cc87fa9b22d030f7d1ff63685c898597f2e0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a2865984236f3282ee05ddc875bf9a6925df4fa5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236333"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839904"
 ---
 # <a name="export-ledger-transactions"></a>Grootboektransacties exporteren
 

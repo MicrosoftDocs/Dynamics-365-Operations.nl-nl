@@ -2,11 +2,9 @@
 title: Redencodes instellen
 description: Dynamics 365 Human Resources gebruikt redencodes om uit te leggen waarom de vergoedingen van een werknemer veranderen.
 author: andreabichsel
-manager: tfehr
 ms.date: 01/25/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c799a81f38a5dbd5996afbda9529fa83d7fe5cf9
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: ee74cb8b11c9b72940448077ee485ade4c0b7a39
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468390"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801042"
 ---
 # <a name="set-up-reason-codes"></a>Redencodes instellen
 
