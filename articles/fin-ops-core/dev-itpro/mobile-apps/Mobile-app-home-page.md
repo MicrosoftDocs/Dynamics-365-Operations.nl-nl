@@ -2,7 +2,6 @@
 title: Startpagina mobiele app
 description: In dit onderwerp wordt de mobiele app voor Finance and Operations (Dynamics 365) beschreven en worden koppelingen verstrekt naar bronnen die u kunnen helpen deze toe te passen in uw organisatie.
 author: ChrisGarty
-manager: AnnBe
 ms.date: 01/22/2020
 ms.topic: article
 ms.prod: ''
@@ -15,49 +14,49 @@ ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 925d1fff51317b592a7af61ebd797fa70ab5b6f4
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: cda743983f84edf0fa8c513013de812698cbb9ba
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5567183"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748216"
 ---
-# <a name="mobile-app-home-page"></a><span data-ttu-id="f3bf6-103">Startpagina mobiele app</span><span class="sxs-lookup"><span data-stu-id="f3bf6-103">Mobile app home page</span></span>
+# <a name="mobile-app-home-page"></a><span data-ttu-id="38710-103">Startpagina mobiele app</span><span class="sxs-lookup"><span data-stu-id="38710-103">Mobile app home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f3bf6-104">In dit onderwerp wordt de mobiele app voor **Finance and Operations (Dynamics 365)** beschreven en worden koppelingen verstrekt naar bronnen die u kunnen helpen deze toe te passen in uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-104">This topic describes the **Finance and Operations (Dynamics 365)** mobile app and provides links to resources that can help you implement it in your organization.</span></span>
+<span data-ttu-id="38710-104">In dit onderwerp wordt de mobiele app voor **Finance and Operations (Dynamics 365)** beschreven en worden koppelingen verstrekt naar bronnen die u kunnen helpen deze toe te passen in uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="38710-104">This topic describes the **Finance and Operations (Dynamics 365)** mobile app and provides links to resources that can help you implement it in your organization.</span></span>
 
-<a name="overview"></a><span data-ttu-id="f3bf6-105">Overzicht</span><span class="sxs-lookup"><span data-stu-id="f3bf6-105">Overview</span></span>
+<a name="overview"></a><span data-ttu-id="38710-105">Overzicht</span><span class="sxs-lookup"><span data-stu-id="38710-105">Overview</span></span>
 --------
 
-<span data-ttu-id="f3bf6-106">De mobiele app stelt uw organisatie in staat de eigen bedrijfsprocessen beschikbaar te maken op mobiele apparaten.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-106">The mobile app enables your organization to make its business processes available on mobile devices.</span></span> <span data-ttu-id="f3bf6-107">Nadat uw IT-beheerder de mobiele werkgebieden voor uw organisatie heeft ingeschakeld, kunnen gebruikers zich aanmelden bij de app en direct beginnen met het uitvoeren van bedrijfsprocessen vanaf hun mobiele apparaten.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-107">After your IT admin enables the mobile workspaces for your organization, users can sign in to the app and immediately begin to run business processes from their mobile devices.</span></span> <span data-ttu-id="f3bf6-108">De mobiele app omvat de volgende functies waarmee de productiviteit kan worden verhoogd:</span><span class="sxs-lookup"><span data-stu-id="f3bf6-108">The mobile app includes the following features that can help increase productivity:</span></span>
+<span data-ttu-id="38710-106">De mobiele app stelt uw organisatie in staat de eigen bedrijfsprocessen beschikbaar te maken op mobiele apparaten.</span><span class="sxs-lookup"><span data-stu-id="38710-106">The mobile app enables your organization to make its business processes available on mobile devices.</span></span> <span data-ttu-id="38710-107">Nadat uw IT-beheerder de mobiele werkgebieden voor uw organisatie heeft ingeschakeld, kunnen gebruikers zich aanmelden bij de app en direct beginnen met het uitvoeren van bedrijfsprocessen vanaf hun mobiele apparaten.</span><span class="sxs-lookup"><span data-stu-id="38710-107">After your IT admin enables the mobile workspaces for your organization, users can sign in to the app and immediately begin to run business processes from their mobile devices.</span></span> <span data-ttu-id="38710-108">De mobiele app omvat de volgende functies waarmee de productiviteit kan worden verhoogd:</span><span class="sxs-lookup"><span data-stu-id="38710-108">The mobile app includes the following features that can help increase productivity:</span></span>
 
-- <span data-ttu-id="f3bf6-109">Gebruikers kunnen zakelijke gegevens bekijken, bewerken en hierop reageren, zelfs als zij niet voortdurend een netwerkverbinding hebben of als hun mobiele apparaten volledig offline zijn.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-109">Users can view, edit, and act on business data, even if they have intermittent network connectivity or their mobile devices are completely offline.</span></span> <span data-ttu-id="f3bf6-110">Als een apparaat de netwerkverbinding herstelt, worden offline gegevensbewerkingen automatisch gesynchroniseerd.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-110">When a device reestablishes a network connection, offline data operations are automatically synchronized.</span></span>
-- <span data-ttu-id="f3bf6-111">IT-beheerders of ontwikkelaars kunnen mobiele werkgebieden bouwen en publiceren die zijn op maat zijn gemaakt voor hun organisatie.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-111">IT admins or developers can build and publish mobile workspaces that have been tailored to their organization.</span></span> <span data-ttu-id="f3bf6-112">De app gebruikt uw bestaande code-elementen.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-112">The app uses your existing code assets.</span></span> <span data-ttu-id="f3bf6-113">Daarom hoeft u uw validatieprocedures, bedrijfslogica of beveiligingsconfiguratie niet opnieuw te implementeren.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-113">Therefore, you don't have to re-implement your validation procedures, business logic, or security configuration.</span></span>
-- <span data-ttu-id="f3bf6-114">IT-beheerders of ontwikkelaars kunnen op eenvoudige wijze mobiele werkgebieden ontwerpen met behulp van de ontwerper voor werkgebieden, die werkt via aanwijzen en klikken, die deel uitmaakt van de webclient.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-114">IT admins or developers can easily design mobile workspaces by using the point-and-click workspace designer that is included with the web client.</span></span>
-- <span data-ttu-id="f3bf6-115">IT-beheerders of ontwikkelaars kunnen desgewenst de offline mogelijkheden van werkgebieden optimaliseren met behulp van het raamwerk voor uitbreiding van bedrijfslogica.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-115">IT admins or developers can optionally optimize the offline capabilities of workspaces by using the Business logic extensibility framework.</span></span> <span data-ttu-id="f3bf6-116">Omdat gegevens nog steeds worden verwerkt terwijl een apparaat offline is, blijven uw mobiele scenario's rijk en vloeiend, zelfs als apparaten geen constante netwerkverbinding hebben.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-116">Because data continues to be processed while a device is offline, your mobile scenarios remain rich and fluid, even if devices don't have constant network connectivity.</span></span>
+- <span data-ttu-id="38710-109">Gebruikers kunnen zakelijke gegevens bekijken, bewerken en hierop reageren, zelfs als zij niet voortdurend een netwerkverbinding hebben of als hun mobiele apparaten volledig offline zijn.</span><span class="sxs-lookup"><span data-stu-id="38710-109">Users can view, edit, and act on business data, even if they have intermittent network connectivity or their mobile devices are completely offline.</span></span> <span data-ttu-id="38710-110">Als een apparaat de netwerkverbinding herstelt, worden offline gegevensbewerkingen automatisch gesynchroniseerd.</span><span class="sxs-lookup"><span data-stu-id="38710-110">When a device reestablishes a network connection, offline data operations are automatically synchronized.</span></span>
+- <span data-ttu-id="38710-111">IT-beheerders of ontwikkelaars kunnen mobiele werkgebieden bouwen en publiceren die zijn op maat zijn gemaakt voor hun organisatie.</span><span class="sxs-lookup"><span data-stu-id="38710-111">IT admins or developers can build and publish mobile workspaces that have been tailored to their organization.</span></span> <span data-ttu-id="38710-112">De app gebruikt uw bestaande code-elementen.</span><span class="sxs-lookup"><span data-stu-id="38710-112">The app uses your existing code assets.</span></span> <span data-ttu-id="38710-113">Daarom hoeft u uw validatieprocedures, bedrijfslogica of beveiligingsconfiguratie niet opnieuw te implementeren.</span><span class="sxs-lookup"><span data-stu-id="38710-113">Therefore, you don't have to re-implement your validation procedures, business logic, or security configuration.</span></span>
+- <span data-ttu-id="38710-114">IT-beheerders of ontwikkelaars kunnen op eenvoudige wijze mobiele werkgebieden ontwerpen met behulp van de ontwerper voor werkgebieden, die werkt via aanwijzen en klikken, die deel uitmaakt van de webclient.</span><span class="sxs-lookup"><span data-stu-id="38710-114">IT admins or developers can easily design mobile workspaces by using the point-and-click workspace designer that is included with the web client.</span></span>
+- <span data-ttu-id="38710-115">IT-beheerders of ontwikkelaars kunnen desgewenst de offline mogelijkheden van werkgebieden optimaliseren met behulp van het raamwerk voor uitbreiding van bedrijfslogica.</span><span class="sxs-lookup"><span data-stu-id="38710-115">IT admins or developers can optionally optimize the offline capabilities of workspaces by using the Business logic extensibility framework.</span></span> <span data-ttu-id="38710-116">Omdat gegevens nog steeds worden verwerkt terwijl een apparaat offline is, blijven uw mobiele scenario's rijk en vloeiend, zelfs als apparaten geen constante netwerkverbinding hebben.</span><span class="sxs-lookup"><span data-stu-id="38710-116">Because data continues to be processed while a device is offline, your mobile scenarios remain rich and fluid, even if devices don't have constant network connectivity.</span></span>
 
-## <a name="elements-of-the-mobile-app"></a><span data-ttu-id="f3bf6-117">Elementen van de mobiele app</span><span class="sxs-lookup"><span data-stu-id="f3bf6-117">Elements of the mobile app</span></span>
-<span data-ttu-id="f3bf6-118">Navigeren in de mobiele app omvat vier basisconcepten: het dashboard, de werkgebieden, de pagina's en de acties.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-118">Navigation in the mobile app consists of four basic concepts: the dashboard, workspaces, pages, and actions.</span></span> 
+## <a name="elements-of-the-mobile-app"></a><span data-ttu-id="38710-117">Elementen van de mobiele app</span><span class="sxs-lookup"><span data-stu-id="38710-117">Elements of the mobile app</span></span>
+<span data-ttu-id="38710-118">Navigeren in de mobiele app omvat vier basisconcepten: het dashboard, de werkgebieden, de pagina's en de acties.</span><span class="sxs-lookup"><span data-stu-id="38710-118">Navigation in the mobile app consists of four basic concepts: the dashboard, workspaces, pages, and actions.</span></span> 
 
-<span data-ttu-id="f3bf6-119">[![Navigatieconcepten in de mobiele app](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span><span class="sxs-lookup"><span data-stu-id="f3bf6-119">[![Navigation concepts in the mobile app](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span></span>
+<span data-ttu-id="38710-119">[![Navigatieconcepten in de mobiele app](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span><span class="sxs-lookup"><span data-stu-id="38710-119">[![Navigation concepts in the mobile app](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)</span></span>
 
-1. <span data-ttu-id="f3bf6-120">Wanneer u de app start, gaat u naar het **dashboard**.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-120">When you start the app, you go to the **dashboard**.</span></span>
-2. <span data-ttu-id="f3bf6-121">Op het dashboard ziet u een lijst met **werkgebieden** die zijn gepubliceerd.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-121">On the dashboard, you can see a list of **workspaces** that have been published.</span></span>
-3. <span data-ttu-id="f3bf6-122">In elk werkgebied ziet u een lijst met **pagina's** die beschikbaar zijn voor dat werkgebied.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-122">In each workspace, you can see a list of **pages** that are available for that workspace.</span></span>
-4. <span data-ttu-id="f3bf6-123">Nadat u op een pagina bent aangekomen, kunt u verschillende acties uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-123">After you're on a page, you can perform several actions.</span></span> <span data-ttu-id="f3bf6-124">Hieronder vindt u enkele voorbeelden:</span><span class="sxs-lookup"><span data-stu-id="f3bf6-124">Here are some examples:</span></span>
+1. <span data-ttu-id="38710-120">Wanneer u de app start, gaat u naar het **dashboard**.</span><span class="sxs-lookup"><span data-stu-id="38710-120">When you start the app, you go to the **dashboard**.</span></span>
+2. <span data-ttu-id="38710-121">Op het dashboard ziet u een lijst met **werkgebieden** die zijn gepubliceerd.</span><span class="sxs-lookup"><span data-stu-id="38710-121">On the dashboard, you can see a list of **workspaces** that have been published.</span></span>
+3. <span data-ttu-id="38710-122">In elk werkgebied ziet u een lijst met **pagina's** die beschikbaar zijn voor dat werkgebied.</span><span class="sxs-lookup"><span data-stu-id="38710-122">In each workspace, you can see a list of **pages** that are available for that workspace.</span></span>
+4. <span data-ttu-id="38710-123">Nadat u op een pagina bent aangekomen, kunt u verschillende acties uitvoeren.</span><span class="sxs-lookup"><span data-stu-id="38710-123">After you're on a page, you can perform several actions.</span></span> <span data-ttu-id="38710-124">Hieronder vindt u enkele voorbeelden:</span><span class="sxs-lookup"><span data-stu-id="38710-124">Here are some examples:</span></span>
 
-    - <span data-ttu-id="f3bf6-125">Gedetailleerde gegevens bekijken.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-125">View detailed data.</span></span>
-    - <span data-ttu-id="f3bf6-126">Naar andere pagina's navigeren voor gerelateerde gegevens, zoals entiteitsdetails of regels.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-126">Navigate to other pages for related data, such as entity details or lines.</span></span>
-    - <span data-ttu-id="f3bf6-127">Een overzicht van **acties** bekijken, die beschikbaar zijn voor die pagina.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-127">See a list of **actions** that are available for that page.</span></span> <span data-ttu-id="f3bf6-128">Via acties kunt u gegevens maken of bestaande gegevens bewerken.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-128">Actions let you create or edit existing data.</span></span>
+    - <span data-ttu-id="38710-125">Gedetailleerde gegevens bekijken.</span><span class="sxs-lookup"><span data-stu-id="38710-125">View detailed data.</span></span>
+    - <span data-ttu-id="38710-126">Naar andere pagina's navigeren voor gerelateerde gegevens, zoals entiteitsdetails of regels.</span><span class="sxs-lookup"><span data-stu-id="38710-126">Navigate to other pages for related data, such as entity details or lines.</span></span>
+    - <span data-ttu-id="38710-127">Een overzicht van **acties** bekijken, die beschikbaar zijn voor die pagina.</span><span class="sxs-lookup"><span data-stu-id="38710-127">See a list of **actions** that are available for that page.</span></span> <span data-ttu-id="38710-128">Via acties kunt u gegevens maken of bestaande gegevens bewerken.</span><span class="sxs-lookup"><span data-stu-id="38710-128">Actions let you create or edit existing data.</span></span>
 
-## <a name="implementation-process"></a><span data-ttu-id="f3bf6-129">Implementatieproces</span><span class="sxs-lookup"><span data-stu-id="f3bf6-129">Implementation process</span></span>
-<span data-ttu-id="f3bf6-130">In de volgende afbeelding ziet u het proces voor de implementatie van zowel mobiele werkgebieden die door Microsoft worden geleverd als ook aangepaste mobiele werkgebieden.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-130">The following illustration shows the process for implementing both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> 
+## <a name="implementation-process"></a><span data-ttu-id="38710-129">Implementatieproces</span><span class="sxs-lookup"><span data-stu-id="38710-129">Implementation process</span></span>
+<span data-ttu-id="38710-130">In de volgende afbeelding ziet u het proces voor de implementatie van zowel mobiele werkgebieden die door Microsoft worden geleverd als ook aangepaste mobiele werkgebieden.</span><span class="sxs-lookup"><span data-stu-id="38710-130">The following illustration shows the process for implementing both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> 
 
-<span data-ttu-id="f3bf6-131">[![Implementatieproces voor mobiele apps](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)</span><span class="sxs-lookup"><span data-stu-id="f3bf6-131">[![Mobile apps implementation process](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)</span></span>
+<span data-ttu-id="38710-131">[![Implementatieproces voor mobiele apps](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)</span><span class="sxs-lookup"><span data-stu-id="38710-131">[![Mobile apps implementation process](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)</span></span>
 
-<span data-ttu-id="f3bf6-132">De volgende tabel bevat koppelingen naar resources die u kunnen helpen bij de implementatie van zowel mobiele werkgebieden die door Microsoft worden geleverd als ook aangepaste mobiele werkgebieden.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-132">The following table includes links to resources that can help you implement both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> <span data-ttu-id="f3bf6-133">De nummers in de eerste kolom komen overeen met de genummerde stappen in de bovenstaande afbeelding.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-133">The numbers in the first column correspond to the numbered steps in the previous illustration.</span></span>
+<span data-ttu-id="38710-132">De volgende tabel bevat koppelingen naar resources die u kunnen helpen bij de implementatie van zowel mobiele werkgebieden die door Microsoft worden geleverd als ook aangepaste mobiele werkgebieden.</span><span class="sxs-lookup"><span data-stu-id="38710-132">The following table includes links to resources that can help you implement both mobile workspaces that are provided by Microsoft and custom mobile workspaces.</span></span> <span data-ttu-id="38710-133">De nummers in de eerste kolom komen overeen met de genummerde stappen in de bovenstaande afbeelding.</span><span class="sxs-lookup"><span data-stu-id="38710-133">The numbers in the first column correspond to the numbered steps in the previous illustration.</span></span>
 
 <table>
 <colgroup>
@@ -68,91 +67,91 @@ ms.locfileid: "5567183"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="f3bf6-134">Stap</span><span class="sxs-lookup"><span data-stu-id="f3bf6-134">Step</span></span></th>
-<th><span data-ttu-id="f3bf6-135">Rol</span><span class="sxs-lookup"><span data-stu-id="f3bf6-135">Role</span></span></th>
-<th><span data-ttu-id="f3bf6-136">Actie</span><span class="sxs-lookup"><span data-stu-id="f3bf6-136">Action</span></span></th>
-<th><span data-ttu-id="f3bf6-137">Bronnen die u helpen de actie te voltooien</span><span class="sxs-lookup"><span data-stu-id="f3bf6-137">Resources to help you complete the action</span></span></th>
+<th><span data-ttu-id="38710-134">Stap</span><span class="sxs-lookup"><span data-stu-id="38710-134">Step</span></span></th>
+<th><span data-ttu-id="38710-135">Rol</span><span class="sxs-lookup"><span data-stu-id="38710-135">Role</span></span></th>
+<th><span data-ttu-id="38710-136">Actie</span><span class="sxs-lookup"><span data-stu-id="38710-136">Action</span></span></th>
+<th><span data-ttu-id="38710-137">Bronnen die u helpen de actie te voltooien</span><span class="sxs-lookup"><span data-stu-id="38710-137">Resources to help you complete the action</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="f3bf6-138">1</span><span class="sxs-lookup"><span data-stu-id="f3bf6-138">1</span></span></td>
-<td><span data-ttu-id="f3bf6-139">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="f3bf6-139">System administrator</span></span></td>
-<td><span data-ttu-id="f3bf6-140">Implementeer de Finance and Operations-app in uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-140">Implement the Finance and Operations app in your organization.</span></span></td>
-<td><ul><li><span data-ttu-id="f3bf6-141">Als u nog geen versie van Microsoft Dynamics 365 hebt geïmplementeerd, raadpleeg dan <a href="../deployment/deploy-demo-environment.md">Een demo-omgeving implementeren</a>.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-141">If you haven&#39;t yet deployed a version of Microsoft Dynamics 365, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span></li><li><span data-ttu-id="f3bf6-142">Een lijst met mobiele werkgebieden die u kunt gebruiken, vindt u in <a href="mobile-workspaces-released.md">Recentelijk gepubliceerde mobiele werkgebieden</a>.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-142">To see a list of mobile workspaces that can be used, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span></li></ul></td>
+<td><span data-ttu-id="38710-138">1</span><span class="sxs-lookup"><span data-stu-id="38710-138">1</span></span></td>
+<td><span data-ttu-id="38710-139">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="38710-139">System administrator</span></span></td>
+<td><span data-ttu-id="38710-140">Implementeer de Finance and Operations-app in uw organisatie.</span><span class="sxs-lookup"><span data-stu-id="38710-140">Implement the Finance and Operations app in your organization.</span></span></td>
+<td><ul><li><span data-ttu-id="38710-141">Als u nog geen versie van Microsoft Dynamics 365 hebt geïmplementeerd, raadpleeg dan <a href="../deployment/deploy-demo-environment.md">Een demo-omgeving implementeren</a>.</span><span class="sxs-lookup"><span data-stu-id="38710-141">If you haven&#39;t yet deployed a version of Microsoft Dynamics 365, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span></li><li><span data-ttu-id="38710-142">Een lijst met mobiele werkgebieden die u kunt gebruiken, vindt u in <a href="mobile-workspaces-released.md">Recentelijk gepubliceerde mobiele werkgebieden</a>.</span><span class="sxs-lookup"><span data-stu-id="38710-142">To see a list of mobile workspaces that can be used, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span></li></ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="f3bf6-143">2</span><span class="sxs-lookup"><span data-stu-id="f3bf6-143">2</span></span></td>
-<td><span data-ttu-id="f3bf6-144">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="f3bf6-144">System administrator</span></span></td>
-<td><span data-ttu-id="f3bf6-145"><strong>Als u Microsoft Dynamics 365 for Operations versie 1611 gebruikt:</strong> Download en installeer KB's waarmee de mobiele werkgebieden die door Microsoft worden geleverd worden ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-145"><strong>If you&#39;re using Microsoft Dynamics 365 for Operations version 1611:</strong> Download and install KBs that enable the mobile workspaces that are provided by Microsoft.</span></span></td>
-<td><span data-ttu-id="f3bf6-146">Zie de volgende onderwerpen voor meer informatie:</span><span class="sxs-lookup"><span data-stu-id="f3bf6-146">See the following topics for more information:</span></span>
+<td><span data-ttu-id="38710-143">2</span><span class="sxs-lookup"><span data-stu-id="38710-143">2</span></span></td>
+<td><span data-ttu-id="38710-144">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="38710-144">System administrator</span></span></td>
+<td><span data-ttu-id="38710-145"><strong>Als u Microsoft Dynamics 365 for Operations versie 1611 gebruikt:</strong> Download en installeer KB's waarmee de mobiele werkgebieden die door Microsoft worden geleverd worden ingeschakeld.</span><span class="sxs-lookup"><span data-stu-id="38710-145"><strong>If you&#39;re using Microsoft Dynamics 365 for Operations version 1611:</strong> Download and install KBs that enable the mobile workspaces that are provided by Microsoft.</span></span></td>
+<td><span data-ttu-id="38710-146">Zie de volgende onderwerpen voor meer informatie:</span><span class="sxs-lookup"><span data-stu-id="38710-146">See the following topics for more information:</span></span>
 <ul>
 
-<li><span data-ttu-id="f3bf6-147"><a href="../../../finance/cost-accounting/cost-controlling-mobile-workspace.md">Mobiel werkgebied voor kostenbeheer</a></span><span class="sxs-lookup"><span data-stu-id="f3bf6-147"><a href="../../../finance/cost-accounting/cost-controlling-mobile-workspace.md">Cost controlling mobile workspaces</a></span></span></li>
-<li><span data-ttu-id="f3bf6-148"><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Mobiel werkgebied voorhanden voorraad</a></span><span class="sxs-lookup"><span data-stu-id="f3bf6-148"><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Inventory on-hand mobile workspace</a></span></span></li>
-<li><span data-ttu-id="f3bf6-149"><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Mobiele werkbieden voor verkooporders</a></span><span class="sxs-lookup"><span data-stu-id="f3bf6-149"><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Sales orders mobile workspaces</a></span></span></li>
-<li><span data-ttu-id="f3bf6-150"><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Mobiel werkgebied voor leverancierssamenwerking</a></span><span class="sxs-lookup"><span data-stu-id="f3bf6-150"><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Vendor collaboration mobile workspace</a></span></span></li>
-<li><span data-ttu-id="f3bf6-151"><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Tijdinvoer voor project voor mobiel werkgebied</a></span><span class="sxs-lookup"><span data-stu-id="f3bf6-151"><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Project time entry mobile workspace</a></span></span></li>
-<li><span data-ttu-id="f3bf6-152"><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Mobiel werkgebied voor onkostenbeheer</a></span><span class="sxs-lookup"><span data-stu-id="f3bf6-152"><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Expense management mobile workspace</a></span></span></li>
+<li><span data-ttu-id="38710-147"><a href="../../../finance/cost-accounting/cost-controlling-mobile-workspace.md">Mobiel werkgebied voor kostenbeheer</a></span><span class="sxs-lookup"><span data-stu-id="38710-147"><a href="../../../finance/cost-accounting/cost-controlling-mobile-workspace.md">Cost controlling mobile workspaces</a></span></span></li>
+<li><span data-ttu-id="38710-148"><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Mobiel werkgebied voorhanden voorraad</a></span><span class="sxs-lookup"><span data-stu-id="38710-148"><a href="../../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md">Inventory on-hand mobile workspace</a></span></span></li>
+<li><span data-ttu-id="38710-149"><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Mobiele werkbieden voor verkooporders</a></span><span class="sxs-lookup"><span data-stu-id="38710-149"><a href="../../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md">Sales orders mobile workspaces</a></span></span></li>
+<li><span data-ttu-id="38710-150"><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Mobiel werkgebied voor leverancierssamenwerking</a></span><span class="sxs-lookup"><span data-stu-id="38710-150"><a href="../../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md">Vendor collaboration mobile workspace</a></span></span></li>
+<li><span data-ttu-id="38710-151"><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Tijdinvoer voor project voor mobiel werkgebied</a></span><span class="sxs-lookup"><span data-stu-id="38710-151"><a href="../../../finance/project-management/project-time-entry-mobile-workspace.md">Project time entry mobile workspace</a></span></span></li>
+<li><span data-ttu-id="38710-152"><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Mobiel werkgebied voor onkostenbeheer</a></span><span class="sxs-lookup"><span data-stu-id="38710-152"><a href="../../../finance/expense-management/expense-management-mobile-workspace.md">Expense management mobile workspace</a></span></span></li>
 
 </ul></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="f3bf6-153">3</span><span class="sxs-lookup"><span data-stu-id="f3bf6-153">3</span></span></td>
-<td><span data-ttu-id="f3bf6-154">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="f3bf6-154">System administrator</span></span></td>
-<td><span data-ttu-id="f3bf6-155">Publiceer de mobiele werkgebieden die worden geleverd door Microsoft.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-155">Publish the mobile workspaces that are provided by Microsoft.</span></span></td>
-<td><span data-ttu-id="f3bf6-156"><a href="publish-mobile-workspace.md">Een mobiel werkgebied publiceren</a>
-</span><span class="sxs-lookup"><span data-stu-id="f3bf6-156"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a>
+<td><span data-ttu-id="38710-153">3</span><span class="sxs-lookup"><span data-stu-id="38710-153">3</span></span></td>
+<td><span data-ttu-id="38710-154">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="38710-154">System administrator</span></span></td>
+<td><span data-ttu-id="38710-155">Publiceer de mobiele werkgebieden die worden geleverd door Microsoft.</span><span class="sxs-lookup"><span data-stu-id="38710-155">Publish the mobile workspaces that are provided by Microsoft.</span></span></td>
+<td><span data-ttu-id="38710-156"><a href="publish-mobile-workspace.md">Een mobiel werkgebied publiceren</a>
+</span><span class="sxs-lookup"><span data-stu-id="38710-156"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a>
 </span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="f3bf6-157">4</span><span class="sxs-lookup"><span data-stu-id="f3bf6-157">4</span></span></td>
-<td><span data-ttu-id="f3bf6-158">Ontwikkelaar of onafhankelijke softwareleveranciers (Independent software vendors - ISV's)</span><span class="sxs-lookup"><span data-stu-id="f3bf6-158">Developer or independent software vendor (ISV)</span></span></td>
-<td><span data-ttu-id="f3bf6-159">Gebruik het mobiele plaftorm om aangepaste mobiele werkgebieden te maken.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-159">Use the mobile platform to create custom mobile workspaces.</span></span></td>
-<td><span data-ttu-id="f3bf6-160"><a href="platform/mobile-platform-home-page.md">Mobiel platform</a></span><span class="sxs-lookup"><span data-stu-id="f3bf6-160"><a href="platform/mobile-platform-home-page.md">Mobile platform</a></span></span></td>
+<td><span data-ttu-id="38710-157">4</span><span class="sxs-lookup"><span data-stu-id="38710-157">4</span></span></td>
+<td><span data-ttu-id="38710-158">Ontwikkelaar of onafhankelijke softwareleveranciers (Independent software vendors - ISV's)</span><span class="sxs-lookup"><span data-stu-id="38710-158">Developer or independent software vendor (ISV)</span></span></td>
+<td><span data-ttu-id="38710-159">Gebruik het mobiele plaftorm om aangepaste mobiele werkgebieden te maken.</span><span class="sxs-lookup"><span data-stu-id="38710-159">Use the mobile platform to create custom mobile workspaces.</span></span></td>
+<td><span data-ttu-id="38710-160"><a href="platform/mobile-platform-home-page.md">Mobiel platform</a></span><span class="sxs-lookup"><span data-stu-id="38710-160"><a href="platform/mobile-platform-home-page.md">Mobile platform</a></span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="f3bf6-161">5</span><span class="sxs-lookup"><span data-stu-id="f3bf6-161">5</span></span></td>
-<td><span data-ttu-id="f3bf6-162">ISV</span><span class="sxs-lookup"><span data-stu-id="f3bf6-162">ISV</span></span></td>
-<td><span data-ttu-id="f3bf6-163">Maak een implementeerbaar pakket met aangepaste mobiele werkgebieden en upload het pakket naar Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="f3bf6-163">Create a deployable package that contains custom mobile workspaces, and upload the package to Microsoft Dynamics Lifecycle Services (LCS).</span></span></td>
-<td><span data-ttu-id="f3bf6-164"><a href="../deployment/create-apply-deployable-package.md">Een implementeerbaar pakket maken</a></span><span class="sxs-lookup"><span data-stu-id="f3bf6-164"><a href="../deployment/create-apply-deployable-package.md">Create a deployable package</a></span></span></td>
+<td><span data-ttu-id="38710-161">5</span><span class="sxs-lookup"><span data-stu-id="38710-161">5</span></span></td>
+<td><span data-ttu-id="38710-162">ISV</span><span class="sxs-lookup"><span data-stu-id="38710-162">ISV</span></span></td>
+<td><span data-ttu-id="38710-163">Maak een implementeerbaar pakket met aangepaste mobiele werkgebieden en upload het pakket naar Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="38710-163">Create a deployable package that contains custom mobile workspaces, and upload the package to Microsoft Dynamics Lifecycle Services (LCS).</span></span></td>
+<td><span data-ttu-id="38710-164"><a href="../deployment/create-apply-deployable-package.md">Een implementeerbaar pakket maken</a></span><span class="sxs-lookup"><span data-stu-id="38710-164"><a href="../deployment/create-apply-deployable-package.md">Create a deployable package</a></span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="f3bf6-165">6</span><span class="sxs-lookup"><span data-stu-id="f3bf6-165">6</span></span></td>
-<td><span data-ttu-id="f3bf6-166">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="f3bf6-166">System administrator</span></span></td>
-<td><span data-ttu-id="f3bf6-167">Pas het implementeerbare pakket toe met de aangepaste werkbieden die worden geleverd door uw onafhankelijke sofwareleverancier (ISV).</span><span class="sxs-lookup"><span data-stu-id="f3bf6-167">Apply the deployable package that contains the custom workspaces that are provided by the independent software vendor (ISV).</span></span></td>
-<td><span data-ttu-id="f3bf6-168"><a href="../deployment/apply-deployable-package-system.md">Een implementeerbaar pakket toepassen</a></span><span class="sxs-lookup"><span data-stu-id="f3bf6-168"><a href="../deployment/apply-deployable-package-system.md">Apply a deployable package</a></span></span></td>
+<td><span data-ttu-id="38710-165">6</span><span class="sxs-lookup"><span data-stu-id="38710-165">6</span></span></td>
+<td><span data-ttu-id="38710-166">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="38710-166">System administrator</span></span></td>
+<td><span data-ttu-id="38710-167">Pas het implementeerbare pakket toe met de aangepaste werkbieden die worden geleverd door uw onafhankelijke sofwareleverancier (ISV).</span><span class="sxs-lookup"><span data-stu-id="38710-167">Apply the deployable package that contains the custom workspaces that are provided by the independent software vendor (ISV).</span></span></td>
+<td><span data-ttu-id="38710-168"><a href="../deployment/apply-deployable-package-system.md">Een implementeerbaar pakket toepassen</a></span><span class="sxs-lookup"><span data-stu-id="38710-168"><a href="../deployment/apply-deployable-package-system.md">Apply a deployable package</a></span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="f3bf6-169">7</span><span class="sxs-lookup"><span data-stu-id="f3bf6-169">7</span></span></td>
-<td><span data-ttu-id="f3bf6-170">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="f3bf6-170">System administrator</span></span></td>
-<td><span data-ttu-id="f3bf6-171">Publiceer de aangepaste mobiele werkgebieden die worden geleverd door de ISV.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-171">Publish the custom mobile workspaces that are provided by the ISV.</span></span></td>
-<td><span data-ttu-id="f3bf6-172"><a href="publish-mobile-workspace.md">Mobiel werkgebied publiceren</a></span><span class="sxs-lookup"><span data-stu-id="f3bf6-172"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a></span></span></td>
+<td><span data-ttu-id="38710-169">7</span><span class="sxs-lookup"><span data-stu-id="38710-169">7</span></span></td>
+<td><span data-ttu-id="38710-170">Systeembeheerder</span><span class="sxs-lookup"><span data-stu-id="38710-170">System administrator</span></span></td>
+<td><span data-ttu-id="38710-171">Publiceer de aangepaste mobiele werkgebieden die worden geleverd door de ISV.</span><span class="sxs-lookup"><span data-stu-id="38710-171">Publish the custom mobile workspaces that are provided by the ISV.</span></span></td>
+<td><span data-ttu-id="38710-172"><a href="publish-mobile-workspace.md">Mobiel werkgebied publiceren</a></span><span class="sxs-lookup"><span data-stu-id="38710-172"><a href="publish-mobile-workspace.md">Publish a mobile workspace</a></span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="f3bf6-173">8</span><span class="sxs-lookup"><span data-stu-id="f3bf6-173">8</span></span></td>
-<td><span data-ttu-id="f3bf6-174">Gebruiker</span><span class="sxs-lookup"><span data-stu-id="f3bf6-174">User</span></span></td>
-<td><span data-ttu-id="f3bf6-175">Download en installeer de mobiele app.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-175">Download and install the mobile app.</span></span></td>
-<td><span data-ttu-id="f3bf6-176">
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Finance and Operations-app voor Android</a></span><span class="sxs-lookup"><span data-stu-id="f3bf6-176">
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">Finance and Operations app for Android</a></span></span><BR/><span data-ttu-id="f3bf6-177">
-<a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and Operations-app voor iOS</a></span><span class="sxs-lookup"><span data-stu-id="f3bf6-177">
+<td><span data-ttu-id="38710-173">8</span><span class="sxs-lookup"><span data-stu-id="38710-173">8</span></span></td>
+<td><span data-ttu-id="38710-174">Gebruiker</span><span class="sxs-lookup"><span data-stu-id="38710-174">User</span></span></td>
+<td><span data-ttu-id="38710-175">Download en installeer de mobiele app.</span><span class="sxs-lookup"><span data-stu-id="38710-175">Download and install the mobile app.</span></span></td>
+<td><span data-ttu-id="38710-176">
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Finance and Operations-app voor Android</a></span><span class="sxs-lookup"><span data-stu-id="38710-176">
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">Finance and Operations app for Android</a></span></span><BR/><span data-ttu-id="38710-177">
+<a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and Operations-app voor iOS</a></span><span class="sxs-lookup"><span data-stu-id="38710-177">
 <a href="https://go.microsoft.com/fwlink/?linkid=850663">Finance and Operations app for iOS</a></span></span><BR/>
-<span data-ttu-id="f3bf6-178">(Windows Phone wordt niet ondersteund)</span><span class="sxs-lookup"><span data-stu-id="f3bf6-178">(Windows Phone unsupported)</span></span>
+<span data-ttu-id="38710-178">(Windows Phone wordt niet ondersteund)</span><span class="sxs-lookup"><span data-stu-id="38710-178">(Windows Phone unsupported)</span></span>
 </td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="f3bf6-179">9</span><span class="sxs-lookup"><span data-stu-id="f3bf6-179">9</span></span></td>
-<td><span data-ttu-id="f3bf6-180">Gebruiker</span><span class="sxs-lookup"><span data-stu-id="f3bf6-180">User</span></span></td>
-<td><span data-ttu-id="f3bf6-181">Meld u aan en gebruik de mobiele app.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-181">Sign in, and use the mobile app.</span></span> <span data-ttu-id="f3bf6-182">De app omvat de mobiele werkgebieden die zijn gepubliceerd door de systeembeheerder.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-182">The app includes the mobile workspaces that have been published by the system administrator.</span></span></td>
-<td><span data-ttu-id="f3bf6-183">Een lijst met mobiele werkgebieden die door Microsoft worden geleverd, vindt u in <a href="mobile-workspaces-released.md">Recentelijk gepubliceerde mobiele werkgebieden</a>.</span><span class="sxs-lookup"><span data-stu-id="f3bf6-183">To see a list of mobile workspaces that are provided by Microsoft, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span>
+<td><span data-ttu-id="38710-179">9</span><span class="sxs-lookup"><span data-stu-id="38710-179">9</span></span></td>
+<td><span data-ttu-id="38710-180">Gebruiker</span><span class="sxs-lookup"><span data-stu-id="38710-180">User</span></span></td>
+<td><span data-ttu-id="38710-181">Meld u aan en gebruik de mobiele app.</span><span class="sxs-lookup"><span data-stu-id="38710-181">Sign in, and use the mobile app.</span></span> <span data-ttu-id="38710-182">De app omvat de mobiele werkgebieden die zijn gepubliceerd door de systeembeheerder.</span><span class="sxs-lookup"><span data-stu-id="38710-182">The app includes the mobile workspaces that have been published by the system administrator.</span></span></td>
+<td><span data-ttu-id="38710-183">Een lijst met mobiele werkgebieden die door Microsoft worden geleverd, vindt u in <a href="mobile-workspaces-released.md">Recentelijk gepubliceerde mobiele werkgebieden</a>.</span><span class="sxs-lookup"><span data-stu-id="38710-183">To see a list of mobile workspaces that are provided by Microsoft, see <a href="mobile-workspaces-released.md">Mobile workspaces recently released</a>.</span></span>
 </td>
 </tr>
 </tbody>
 </table>
 
-## <a name="troubleshooting"></a><span data-ttu-id="f3bf6-184">Problemen oplossen</span><span class="sxs-lookup"><span data-stu-id="f3bf6-184">Troubleshooting</span></span>
-[<span data-ttu-id="f3bf6-185">Resources voor mobiel platform</span><span class="sxs-lookup"><span data-stu-id="f3bf6-185">Mobile platform resources</span></span>](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+## <a name="troubleshooting"></a><span data-ttu-id="38710-184">Problemen oplossen</span><span class="sxs-lookup"><span data-stu-id="38710-184">Troubleshooting</span></span>
+[<span data-ttu-id="38710-185">Resources voor mobiel platform</span><span class="sxs-lookup"><span data-stu-id="38710-185">Mobile platform resources</span></span>](platform/mobile-platform-home-page.md#troubleshooting-the-app)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
