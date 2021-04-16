@@ -2,11 +2,9 @@
 title: Sjablonen van provider voor statistische dimensieleden en providers van maateenheden
 description: In dit onderwerp vindt u informatie over statistische dimensieleden en sjablonen van provider van statistische maateenheden. Statistische dimensieleden kunnen worden gebruikt als een toewijzingsgrondslag in beleid, zoals kostenverdeling en kostentoewijzing. Ze kunnen ook worden gebruikt voor rapportage van verbruik van niet-monetaire kosten.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ceb274c05874438206c1b3f8fc279a6f39e2b69
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 330b7dfd3937d0d7c4a394b55972d75e876aea17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208818"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833061"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Sjablonen van provider voor statistische dimensieleden en providers van maateenheden
 
@@ -160,9 +158,9 @@ Nadat de brongegevens voor de statistische maateenheden zijn verwerkt, worden de
 | 31-01-2017      | 2.00      | VTE's                | Voltijdse werknemers | CC002       |
 | 31-01-2017      | 2.00      | VTE's                | Voltijdse werknemers | CC003       |
 
-**Statistische posten**
+**Statistische boekingen**
 
-| Kostenobject |    | Grootboekdatum | Statistisch dimensielid |  Omschrijving        | Magnitude |
+| Kostenobject |  Beschrijving  | Boekingsdatum | Statistisch dimensielid |  Beschrijving        | Magnitude |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
 | CC001       | HR | 31-01-2017      | VTE's                         | Voltijdse werknemers | 1,00      |
 | CC002       | FI | 31-01-2017      | VTE's                         | Voltijdse werknemers | 2.00      |
@@ -326,9 +324,9 @@ Ga naar **Grootboek van kostprijsboekhouding** \> **Actuele versie** \> **Behere
 | 31-01-2017      | 4,100.00   | Elektriciteit  | Elektriciteitsverbruik | CC002       |
 | 31-01-2017      | 15.000,00  | Elektriciteit  | Elektriciteitsverbruik | CC003       |
 
-**Statistische posten**
+**Statistische boekingen**
 
-| Kostenobject |    | Grootboekdatum | Statistisch dimensielid |      Omschrijving                   | Magnitude  |
+| Kostenobject | Beschrijving | Boekingsdatum | Statistisch dimensielid |      Beschrijving                   | Magnitude  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
 | CC001       | HR | 31-01-2017      | Elektriciteit                  | Elektriciteitsverbruik | 2,450.00   |
 | CC002       | FI | 31-01-2017      | Elektriciteit                  | Elektriciteitsverbruik | 4,100.00   |
@@ -336,11 +334,11 @@ Ga naar **Grootboek van kostprijsboekhouding** \> **Actuele versie** \> **Behere
 
 Als de toewijzingsbasis voor het voorgedefinieerde dimensielid Elektriciteit wordt toegewezen als een toewijzingsgrondslag in een distributieregel, worden de kosten verdeeld met behulp van de volgende toewijzingsfactor.
 
-| Kostenobject |    | Magnitude | Toewijzingsfactor          |
-|-------------|----|-----------|----------------------------|
-| CC001       | HR | 2,450.00  | (2.450 ÷ 21.550) × bedrag  |
-| CC002       | FI | 4,100.00  | (4.100 ÷ 21.550) × bedrag  |
-| CC003       | VOB | 15.000,00 | (15.000 ÷ 21.550) × bedrag |
+| Kostenobject | Beschrijving   | Magnitude | Toewijzingsfactor          |
+|-------------|---------------|-----------|----------------------------|
+| CC001       | HR            | 2,450.00  | (2.450 ÷ 21.550) × bedrag  |
+| CC002       | FI            | 4,100.00  | (4.100 ÷ 21.550) × bedrag  |
+| CC003       | VOB            | 15.000,00 | (15.000 ÷ 21.550) × bedrag |
 
 ## <a name="additional-resources"></a>Aanvullende resources
 

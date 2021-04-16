@@ -1,12 +1,10 @@
 ---
-title: Aan de slag met de serviceadministratie voor de invoegtoepassing voor elektronische facturering
-description: In dit onderwerp wordt uitgelegd hoe u aan de slag gaat met de invoegtoepassing voor elektronische facturering.
+title: Aan de slag met servicebeheer voor Elektronische facturering
+description: In dit onderwerp wordt uitgelegd hoe u aan de slag gaat met Elektronische facturering.
 author: gionoder
-manager: AnnBe
-ms.date: 03/12/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,18 +15,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 05b00380cec7511adad2467d3f252799a4aaee5c
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: ec431cb4a3620459d905f64a80fd820a2113290f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592521"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840143"
 ---
-# <a name="get-started-with-electronic-invoicing-add-on-service-administration"></a>Aan de slag met de serviceadministratie voor de invoegtoepassing voor elektronische facturering
+# <a name="get-started-with-electronic-invoicing-service-administration"></a>Aan de slag met servicebeheer voor Elektronische facturering
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -46,7 +42,7 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 - U moet de functie Globalisatie voor uw RCS-account in Functiebeheer activeren. Zie [Regulatory Configuration Services (RCS) - Globalisatiefuncties](rcs-globalization-feature.md) voor meer informatie.
 - U moet een Key Vault-resource en een opslagaccount in Azure maken. Zie [Een Azure-opslagaccount en Key Vault maken](e-invoicing-create-azure-storage-account-key-vault.md) voor meer informatie.
 
-## <a name="install-the-add-on-for-microservices-in-lifecycle-services"></a>De invoegtoepassing voor microservices in Lifecycle Services installeren
+## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>De invoegtoepassing voor microservices in Lifecycle Services installeren
 
 1. Meld u aan bij uw LCS-account.
 2. Selecteer de tegel **Beheer van voorbeeldfuncties**.
@@ -54,13 +50,14 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 4. Controleer of de optie **Voorbeeldfunctie ingeschakeld** op **Ja** is ingesteld.
 5. Selecteer uw LCS-implementatieproject op uw LCS-dashboard. Het LCS-project moet worden uitgevoerd.
 7. Selecteer op het tabblad **Invoegtoepassingen voor omgeving** de optie **Een nieuwe invoegtoepassing installeren**.
-8. Selecteer **Services voor elektronische facturering** en voer in het veld **AAD-toepassings-id** **091c98b0-a1c9-4b02-b62c-7753395ccabe** in. Dit is een vaste waarde.
+8. Selecteer **Services voor elektronische facturering**.
+9. Voer in het veld **AAD-toepassings-id** **091c98b0-a1c9-4b02-b62c-7753395ccabe** in. Dit is een vaste waarde.
 10. Voer in het veld **AAD-tenant-id** de tenant-id van uw Azure-abonnementsaccount in.
 11. Neem de algemene voorwaarden door en schakel vervolgens het selectievakje in.
 12. Selecteer **Installeren**.
 
 
-## <a name="set-up-the-parameters-for-rcs-integration-with-the-electronic-invoicing-add-on"></a>De parameters voor RCS-integratie met de invoegtoepassing voor elektronisch factureren instellen
+## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>De parameters voor RCS-integratie met Elektronisch facturering instellen
 
 1. Meld u aan bij uw RCS-account.
 2. Selecteer in het werkgebied **Elektronische rapportage** in de sectie **Verwante koppelingen** de optie **Parameters van elektronische rapportage**.
@@ -74,58 +71,56 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
     | Westelijke EU                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
 
 4. Controleer of het veld **Toepassings-id** is ingesteld op **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Dit is een vaste waarde.
-5. Voer in het veld **LCS-omgevings-id** de id van uw LCS-abonnementsaccount in.
+5. Voer in het veld **LCS-omgevings-id** de id van uw LCS-omgeving in.
 6. Selecteer **Opslaan** en sluit de pagina.
 
-## <a name="create-key-vault-secret"></a>Key Vault-geheim maken
+## <a name="create-key-vault-references"></a>Key Vault-verwijzingen maken
 
 1. Meld u aan bij uw RCS-account.
-2. Selecteer in de werkruimte **Globalisatiefunctie** in de sectie **Omgeving** de tegel **Invoegtoepassing voor elektronische facturering**.
+2. Selecteer in de werkruimte **Globalisatiefunctie** in de sectie **Omgeving** de tegel **Elektronische facturering**.
 3. Selecteer op de pagina **Omgevingsinstellingen** op het actiedeelvenster de optie **Serviceomgeving** en selecteer **Key Vault-parameters**.
-4. Selecteer **Nieuw** om een Key Vault-geheim te maken.
-5. Voer in het veld **Naam** de naam in voor het Key Vault-geheim. Voer in het veld **Beschrijving** een beschrijving in.
-6. Plak in het veld **Key Vault-URI** het geheim van Azure Key Vault.
+4. Selecteer **Nieuw** om een Key Vault-verwijzing te maken.
+5. Voer in het veld **Naam** de naam in voor de Key Vault-verwijzing. Voer in het veld **Beschrijving** een beschrijving in.
+6. Plak in het veld **Key Vault-URI** het Key Vault-geheim van Azure Key Vault. Zie [Een Azure-opslagaccount en Key Vault maken](e-invoicing-create-azure-storage-account-key-vault.md) voor meer informatie.
 7. Selecteer **Opslaan**.
 
 ## <a name="create-storage-account-secret"></a>Een opslagaccountgeheim maken
 
-1. Ga naar **Systeembeheer** > **Instellingen** > **Key Vault-parameters** en selecteer een Key vault-geheim.
-2. Selecteer **Toevoegen** in de sectie **Certificaten**.
-3. Voer in het veld **Naam** de naam van de opslagrekening en in het veld **Beschrijving** een beschrijving in.
-4. Selecteer in het veld **Type** de optie **Certificaat**.
-5. Selecteer **Opslaan** en sluit de pagina.
+1. Selecteer op de pagina **Omgevingsinstellingen** in het actiedeelvenster de optie **Serviceomgeving** > **Key Vault-parameters**.
+2. Selecteer een **Key Vault-verwijzing** en selecteer **Toevoegen** in de sectie **Certificaten**.
+3. Voer in het veld **Naam** de naam in voor het opslagaccountgeheim. Zie [Een Azure-opslagaccount en Key Vault maken](e-invoicing-create-azure-storage-account-key-vault.md) voor meer informatie.
+4. Voer in het veld **Beschrijving** een beschrijving in.
+5. Selecteer in het veld **Type** de optie **Geheim**.
+6. Selecteer **Opslaan** en sluit de pagina.
 
 ## <a name="create-a-digital-certificate-secret"></a>Een digitaal certificaatgeheim maken
 
-1. Ga naar **Systeembeheer** > **Instellingen** > **Key Vault-parameters** en selecteer een Key vault-geheim.
-2. Selecteer **Toevoegen** in de sectie **Certificaten**.
-3. Voer in het veld **Naam** de naam van het digitale certificaatgeheim en in het veld **Beschrijving** een beschrijving in.
-4. Selecteer in het veld **Type** de optie **Certificaat**.
-5. Selecteer **Opslaan** en sluit de pagina.
-
-## <a name="create-an-electronic-invoicing-add-on-environment"></a>Een omgeving van de invoegtoepassing voor elektronische facturering maken
-
-1. Meld u aan bij uw RCS-account.
-2. Selecteer in de werkruimte **Globalisatiefunctie** in de sectie **Omgeving** de tegel **Invoegtoepassing voor elektronische facturering**.
+1. Selecteer op de pagina **Omgevingsinstellingen** in het actiedeelvenster de optie **Serviceomgeving** en selecteer **Key Vault-parameters**.
+2. Selecteer een **Key Vault-verwijzing** en selecteer **Toevoegen** in de sectie **Certificaten**.
+3. Voer in het veld **Naam** de naam in voor het digitale certificaatgeheim. Zie [Een Azure-opslagaccount en Key Vault maken](e-invoicing-create-azure-storage-account-key-vault.md) voor meer informatie.
+4. Voer in het veld **Beschrijving** een beschrijving in.
+5. Selecteer in het veld **Type** de optie **Certificaat**.
+6. Selecteer **Opslaan** en sluit de pagina.
 
 ## <a name="create-a-service-environment"></a>Een serviceomgeving maken
 
-1. Selecteer op de pagina **Omgevingsinstellingen** in het actievenster de optie **Serviceomgeving**.
-2. Selecteer **Nieuw** om een nieuwe serviceomgeving te maken.
-3. Voer in het veld **Naam** de naam in voor de omgeving voor e-facturering. Voer in het veld **Beschrijving** een beschrijving in.
-4. Selecteer in het veld **Opslag SAS-tokengeheim** de naam van het opslagaccountgeheim dat moet worden gebruikt om toegang tot het opslagaccount te verifiëren.
-5. In de sectie **Gebruikers** selecteert u **Toevoegen** om een gebruiker toe te voegen die elektronische facturen via de omgeving mag indienen en ook verbinding mag maken met het opslagaccount.
-6. Voer in het veld **Gebruikers-id** het alias van de gebruiker in. Voer in het veld **E-mail** het e-mailadres van de gebruiker in.
-7. Selecteer **Opslaan**.
-8. Als uw land-/regiospecifieke facturen een keten certificaten vereisen om digitale handtekeningen toe te passen, selecteert u in het actiedeelvenster de optie **Key Vault-parameters** en vervolgens **Keten van certificaten** en voert u deze stappen uit:
-
+1. Meld u aan bij uw RCS-account.
+2. Selecteer in de werkruimte **Globalisatiefunctie** in de sectie **Omgeving** de tegel **Elektronische facturering**.
+3. Selecteer op de pagina **Omgevingsinstellingen** in het actievenster de optie **Serviceomgeving**.
+4. Selecteer **Nieuw** om een nieuwe serviceomgeving te maken.
+5. Voer in het veld **Naam** de naam in voor de omgeving voor e-facturering. Voer in het veld **Beschrijving** een beschrijving in.
+6. Selecteer in het veld **Opslag SAS-tokengeheim** de naam van het opslagaccountgeheim dat moet worden gebruikt om toegang tot het opslagaccount te verifiëren.
+7. In de sectie **Gebruikers** selecteert u **Toevoegen** om een gebruiker toe te voegen die elektronische facturen via de omgeving mag indienen en ook verbinding mag maken met het opslagaccount.
+8. Voer in het veld **Gebruikers-id** het alias van de gebruiker in. Voer in het veld **E-mail** het e-mailadres van de gebruiker in.
+9. Selecteer **Opslaan**.
+10. Als uw land-/regiospecifieke facturen een keten certificaten vereisen om digitale handtekeningen toe te passen, selecteert u in het actiedeelvenster de optie **Key Vault-parameters** en vervolgens **Keten van certificaten** en voert u deze stappen uit:
     1. Selecteer **Nieuw** om een keten certificaten te maken.
     2. Voer in het veld **Naam** de naam in voor de certificaatketen. Voer in het veld **Beschrijving** een beschrijving in.
     3. Selecteer in het gedeelte **Certificaten** de oiptie **Toevoegen** om een certificaat aan de keten toe te voegen.
     4. Met de knop **Omhoog** of **Omlaag** kunt u de positie van het certificaat in de keten wijzigen.
     5. Selecteer **Opslaan** en sluit de pagina.
     6. Sluit de pagina.
-9. Selecteer op de pagina **Serviceomgeving** in het actiedeelvenster de optie **Publiceren** om de omgeving naar de cloud te publiceren. De waarde van het veld **Status** wordt gewijzigd in **Gepubliceerd**.
+11. Selecteer op de pagina **Serviceomgeving** in het actiedeelvenster de optie **Publiceren** om de omgeving naar de cloud te publiceren. De waarde van het veld **Status** wordt gewijzigd in **Gepubliceerd**.
 
 ## <a name="create-a-connected-application"></a>Een verbonden toepassing maken
 
@@ -144,12 +139,12 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 3. Selecteer in het veld **Serviceomgeving** een serviceomgeving.
 4. Selecteer **Opslaan** en sluit de pagina.
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance-and-supply-chain-management"></a>De integratie van de invoegtoepassing voor elektronisch factureren instellen in Finance and Supply Chain Management
+## <a name="set-up-electronic-invoicing-integration-in-finance-and-supply-chain-management"></a>De integratie van Elektronische facturering instellen in Finance en Supply Chain Management
 
-### <a name="turn-on-the-electronic-invoicing-add-on-integration-feature"></a>De integratie van de invoegtoepassing voor elektronisch factureren inschakelen
+### <a name="turn-on-the-electronic-invoicing-integration-feature"></a>De functie voor integratie van Elektronische facturering inschakelen
 
 1. Meld u aan bij uw Finance of Supply Chain Management-exemplaar.
-2. Zoek in de werkruimte **Functiebeheer** naar de functie **Integratie invoegtoepassing voor elektronisch factureren**. Als deze functie niet op de pagina wordt weergegeven, selecteert u **Controleren op updates**.
+2. Zoek in de werkruimte **Functiebeheer** naar de functie **Integratie voor elektronisch factureren**. Als deze functie niet op de pagina wordt weergegeven, selecteert u **Controleren op updates**.
 3. Selecteer de functie en selecteer **Nu inschakelen**.
 
 ### <a name="set-up-the-service-endpoint-url"></a>De URL van het service-eindpunt instellen
@@ -164,8 +159,18 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
     | Noordelijke EU                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
     | Westelijke EU                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
 
-3. Voer in het veld **Omgeving** de naam in voor de omgeving voor de invoegtoepassing voor e-facturering.
+3. Voer in het veld **Omgeving** de naam in voor de serviceomgeving die is gepubliceerd in Elektronische facturering.
 4. Selecteer **Opslaan** en sluit de pagina.
 
+### <a name="enable-flighting-keys"></a>Flighting-codes inschakelen
+
+Schakel flighting-codes in voor Microsoft Dynamics 365 Finance of Microsoft Dynamics 365 Supply Chain Management 10.0.17 of lager. 
+1. Voer de volgende SQL-opdracht uit:
+
+    INVOEGEN IN SYSFLIGHTING-WAARDEN (FLIGHT-NAAM, INGESCHAKELD) ('BusinessDocumentSubmissionServiceEnabled', 1)
+    
+    INVOEGEN IN SYSFLIGHTING-WAARDEN (FLIGHT-NAAM, INGESCHAKELD) ('ElectronicInvoicingServiceIntegrationFeature', 1)
+
+2. Voer een IISreset-opdracht uit voor alle AOS's.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

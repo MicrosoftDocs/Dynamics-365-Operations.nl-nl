@@ -2,11 +2,9 @@
 title: Gedeeltelijke betaling uitvoeren vóór de kortingsdatum met definitieve betaling na de kortingsdatum
 description: Dit artikel bespreekt het effect van het vereffenen van betalingen aan facturen voor klanten. Het scenario richt zich op de gevolgen in de subadministratie, niet in het grootboek.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87408e864ab8e6101fc908e744231f10d0d2e664
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250549"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835142"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Gedeeltelijke betaling uitvoeren vóór de kortingsdatum met definitieve betaling na de kortingsdatum
 
@@ -48,10 +46,10 @@ Op 2 juli verricht klant 4027 een gedeeltelijke betaling van 297,00 voor de fact
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven. Als u de waarde **Te vereffenen bedrag** niet wijzigt in 297,00, verschillen de waarden **Contantkortingsbedrag**. Wanneer de betaling wordt geboekt, wordt echter 3,00 als contantkorting toegepast, omdat de vereffening automatisch de waarde **Bedrag om te vereffenen **corrigeert.
 
-|                              |           |
+| Veld                        | Waarde     |
 |------------------------------|-----------|
-| Datum voor contantkorting           | 09-07-2015 |
-| Contantkortingsbedrag         | 10,00     |
+| Datum voor contantkorting           | 7/09/2015 |
+| Contantkortingsbedrag         | 10.00     |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 0,00      |
 | Contantkortingsbedrag dat moet worden toegepast | 3,00      |
@@ -73,9 +71,9 @@ Op 11 juli (wat na de kortingsperiode is) betaalt klant 4027 de rest van de fact
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven.
 
-|                              |           |
+| Veld                        | Waarde     |
 |------------------------------|-----------|
-| Datum van contantkorting           | 7/09/2015 |
+| Datum voor contantkorting           | 7/09/2015 |
 | Contantkortingsbedrag         | 0,00      |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 3,00      |
@@ -89,10 +87,10 @@ Als Arnie de waarde in het veld **Contantkorting gebruiken** wijzigt in **Altijd
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven.
 
-|                              |           |
+| Veld                        | Waarde     |
 |------------------------------|-----------|
-| Datum van contantkorting           | 7/09/2015 |
-| Contantkortingsbedrag         | 7,00      |
+| Datum voor contantkorting           | 7/09/2015 |
+| Contantkortingsbedrag         | 7.00      |
 | Contantkorting gebruiken            | Altijd    |
 | Toegepaste contantkorting          | 3,00      |
 | Contantkortingsbedrag dat moet worden toegepast | 7,00      |

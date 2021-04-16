@@ -2,11 +2,9 @@
 title: EU-verkooplijst rapportering
 description: Dit artikel biedt informatie over rapportage van de EU-verkooplijst (Europese Unie).
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EUSalesList
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d87931994edc4502927edfa15e6506f2e5d42f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 672bb37a4d191c4b4f72b234ba98766ffd223f69
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214471"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826124"
 ---
 # <a name="eu-sales-list-reporting"></a>Rapport ICL-lijst
 

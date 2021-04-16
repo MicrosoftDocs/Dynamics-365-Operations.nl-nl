@@ -2,11 +2,9 @@
 title: Een gedeeltelijke klantenbetaling met meerdere kortingsperioden vereffenen
 description: In dit artikel wordt getoond hoe gedeeltelijke klantbetalingen worden vereffend wanneer er meerdere kortingsperioden zijn.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c5047debd0f3d035ec5fc8bc24745183b28e9f0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241709"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835095"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Een gedeeltelijke klantenbetaling met meerdere kortingsperioden vereffenen
 
@@ -56,7 +54,7 @@ Op 28 juni voert Klant 4031 een gedeeltelijke betaling van 294,00 uit. Omdat 28 
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven. Als u de waarde **Te vereffenen bedrag** niet wijzigt in **294,00**, zullen de waarden **Contantkortingsbedrag** die worden weergegeven verschillen. Wanneer de betaling wordt geboekt, wordt echter 6,00 als contantkorting toegepast, omdat de vereffening automatisch de waarde **Bedrag om te vereffenen** corrigeert voor u.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Datum van contantkorting           | 6/30/2015 |
 | Contantkortingsbedrag         | 20,00     |
@@ -75,7 +73,7 @@ Op 8 juli betaalt de klant de rest van het factuurbedrag. Er wordt een korting v
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven.
 
-|                              |           |
+| &nbsp;                       | &nbsp;    |
 |------------------------------|-----------|
 | Datum van contantkorting           | 09-07-2015 |
 | Contantkortingsbedrag         | 30,00     |

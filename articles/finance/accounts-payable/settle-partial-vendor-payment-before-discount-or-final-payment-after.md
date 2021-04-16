@@ -2,11 +2,9 @@
 title: Gedeeltelijke betaling uitvoeren vóór de kortingsdatum en definitieve betaling na de kortingsdatum
 description: Dit artikel begeleidt u door een scenario waarbij meerdere gedeeltelijke betalingen worden gedaan, waarvan enkele binnen de periode van de contantkorting en andere buiten deze periode.
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e125ca5fbebcf062eb17f56a2ef6669d1b6d6ae3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d34a9dd53b6a287ef512a5479c0ad1a51211577b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227323"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810337"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Gedeeltelijke betaling uitvoeren vóór de kortingsdatum en definitieve betaling na de kortingsdatum
 
@@ -48,10 +46,10 @@ Op 2 Juli wil April 300,00 van deze factuur vereffenen. De betaling komt in aanm
 
 Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven.
 
-|                              |           |
+| Veld                        | Waarde     |
 |------------------------------|-----------|
-| Datum van contantkorting           | 09-07-2015 |
-| Contantkortingsbedrag         | -10,00    |
+| Datum voor contantkorting           | 7/09/2015 |
+| Contantkortingsbedrag         | -10.00    |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 0,00      |
 | Contantkortingsbedrag dat moet worden toegepast | -3,00     |
@@ -73,9 +71,9 @@ April betaalt de rest van deze factuur op 15 juli, wat na de kortingsperiode val
 
 Informatie over korting wordt onder aan de pagina **Transacties vereffenen** weergegeven. April ziet dat ze al een korting van 3,00 heeft genomen.
 
-|                              |           |
+| Veld                        | Waarde     |
 |------------------------------|-----------|
-| Datum van contantkorting           | 09-07-2015 |
+| Datum voor contantkorting           | 7/09/2015 |
 | Contantkortingsbedrag         | 0,00      |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | -3,00     |
@@ -99,10 +97,10 @@ Als de leverancier April een korting geeft, hoewel zij na de kortingsdatum betaa
 
 Informatie over korting wordt onder aan de pagina **Transacties vereffenen** weergegeven.
 
-|                              |           |
+| Veld                        | Waarde     |
 |------------------------------|-----------|
-| Datum van contantkorting           | 09-07-2015 |
-| Contantkortingsbedrag         | 7,00      |
+| Datum voor contantkorting           | 7/09/2015 |
+| Contantkortingsbedrag         | 7.00      |
 | Contantkorting gebruiken            | Altijd    |
 | Toegepaste contantkorting          | -3,00     |
 | Contantkortingsbedrag dat moet worden toegepast | -7,00     |

@@ -2,11 +2,9 @@
 title: Meer dan de berekende korting voor een leveranciersbetaling nemen
 description: Dit artikel begeleidt u door een scenario waarbij een contantkorting voor een bedrag wordt toegepast die meer is dan de korting die oorspronkelijk op de factuur beschikbaar is. Dit scenario kan optreden als een organisatie een overeenkomst met de leverancier aangaat om een lager bedrag op de factuur te betalen.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a56331f76867aeac0bad0912749d96f959513e0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 62f2088ff04a0ef5ffe6ffe47b85f47e6957264d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235880"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810241"
 ---
 # <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Meer dan de berekende korting voor een leveranciersbetaling nemen
 
@@ -38,10 +36,10 @@ Leverancier 3051 laat Fabrikam een contantkorting van 4 procent nemen als een fa
 
 Informatie over korting wordt onder aan de pagina **Transacties vereffenen** weergegeven.
 
-|                              |           |
+| Veld                        | Waarde     |
 |------------------------------|-----------|
-| Datum van contantkorting           | 7/12/2015 |
-| Contantkortingsbedrag         | 60,00     |
+| Datum voor contantkorting           | 7/12/2015 |
+| Contantkortingsbedrag         | 60.00     |
 | Contantkorting gebruiken            | Normaal    |
 | Toegepaste contantkorting          | 0,00      |
 | Contantkortingsbedrag dat moet worden toegepast | 60,00     |

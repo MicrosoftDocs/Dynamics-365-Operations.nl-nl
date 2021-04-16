@@ -2,11 +2,9 @@
 title: Voorbereiden op go-live van Human Resources
 description: Deze pagina bevat richtlijnen voor de voorbereiding op een go-live met Dynamics 365 Human Resources.
 author: rachel-profitt
-manager: tfehr
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 72e36519a365c321ee8bf5972310240e18d29180
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 2f6dbcbd92a99699ce8d7e91c1a7e89a6063035f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467578"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795136"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Voorbereiden op go-live van Human Resources
 

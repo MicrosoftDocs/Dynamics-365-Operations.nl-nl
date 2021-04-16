@@ -2,11 +2,9 @@
 title: Databaselogboeken configureren en beheren
 description: U kunt wijzigingen in tabellen en velden in Dynamics 365 Human Resources bijhouden met databaselogboeken.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8057ebd0bc061c6bf78d8674c45e0885ffce681c
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: d22ff9f3ce68c81f37840342c795d7d162eb027b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467644"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801330"
 ---
 # <a name="configure-and-manage-database-logging"></a>Databaselogboeken configureren en beheren
 
@@ -68,7 +66,22 @@ Selecteer specifieke velden die u in het logboek wilt opnemen in plaats van gehe
 Met de wizard **Logboek van wijzigingen in database maken** kunt u databaselogboeken instellen. De wizard biedt een flexibele manier om logboeken voor tabellen of velden in te stellen.
 
 1. Ga naar **Systeembeheer > Koppelingen > Database > Databaselogboek instellen**. Selecteer **Nieuw** om de wizard **Logboek van wijzigingen in database maken** te starten.
-2. Voer de wizard uit.
+2. Selecteer **Volgende**. 
+3. Selecteer op de pagina **Tabellen en velden** van de wizard de tabellen en velden waarvoor u databaseregistratie wilt inschakelen en selecteer **Volgende**.
+
+   > [!Note]
+   > Databaseregistratie is niet beschikbaar voor alle tabellen in de Human Resources-database. Als u **Alle tabellen weergeven** selecteert onder de lijst, wordt de lijst met tabellen en velden uitgebreid om alle databasetabellen weer te geven waarvoor databaseregistratie beschikbaar is, maar dit is een subset van de volledige lijst met databasetabellen.
+
+4. Selecteer op de pagina **Typen wijzigingen** van de wizard de gegevensbewerkingen waarvoor u wijzigingen voor elk van de tabellen en velden wilt bijhouden en selecteer **Volgende**. Zie de onderstaande tabel voor een beschrijving van de gegevensbewerkingen die beschikbaar zijn voor logboekregistratie.
+5. Bekijk op de pagina **Voltooien** de wijzigingen die worden aangebracht en selecteer **Voltooien**.
+
+| Bewerking | Beschrijving |
+| -- | -- |
+| Nieuwe transacties traceren | Maak een logboek voor nieuwe records die in de tabel worden gemaakt. |
+| Update | Maak een logboek voor updates van tabelrecords of updates voor afzonderlijk geselecteerde velden in de tabel. Als u ervoor kiest om updates voor de tabel te registreren, wordt er elke keer een logboekrecord gemaakt als een update wordt uitgevoerd voor een veld van een record in de tabel. Als u ervoor kiest om updates voor specifieke velden te registreren, wordt alleen een logboekrecord gemaakt bij updates van die velden van tabelrecords. |
+| Delete | Maak een logboek voor records die uit de tabel worden verwijderd. |
+| Sleutel hernoemen | Maak een logboekrecord wanneer de naam van een tabelsleutel wordt gewijzigd. |
+
 
 ## <a name="clean-up-database-logs"></a>Databaselogboeken opschonen
 

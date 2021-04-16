@@ -2,11 +2,9 @@
 title: Jaarafsluiting
 description: In dit onderwerp worden de vereiste instellingen en stappen beschreven voor het uitvoeren van het jaarafsluitingsproces van het grootboek.
 author: kweekley
-manager: AnnBe
 ms.date: 04/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f31258b610e56249355fb84291b864e318a6e174
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cdb81df1701851330b0501c03e41eb10e639bc77
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223969"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842315"
 ---
 # <a name="year-end-close"></a>Jaarafsluiting
 

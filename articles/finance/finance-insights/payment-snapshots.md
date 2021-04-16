@@ -2,11 +2,9 @@
 title: Overzicht van momentopnamen (preview)
 description: In dit onderwerp wordt de functie Momentopnamen beschreven. Hiermee kunt u een cashflowprognose maken voor latere analyse of vergelijking met werkelijke waarden. Wanneer u een cashflow prognose genereert, kunt u die prognose opslaan als een 'momentopname'. U kunt deze momentopnamen vervolgens gebruiken om de rekeningen te bewerken die in de prognose zijn opgenomen of om de prognose in de momentopname te vergelijken met de werkelijke waarden.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b9d201125e9d9178ccfc1a7e52a20f1f12529345
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 07854d47fa2e42ea0d49cde193a2040415acf089
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222940"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827237"
 ---
 # <a name="snapshots-overview-preview"></a>Overzicht van momentopnamen (preview)
 
