@@ -1,12 +1,10 @@
 ---
 title: Onderhoudsplannen
 description: In dit onderwerp wordt uitgelegd wat onderhoudsplannen zijn in Activabeheer.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectType, EntAssetCounterType, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 09ae8b0ce56b08db0ba400b19676bd698c90a561
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500809"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839602"
 ---
 # <a name="maintenance-plans"></a>Onderhoudsplannen
 
@@ -195,8 +193,6 @@ In de volgende afbeelding ziet u een voorbeeld van een onderhoudsplan dat is ing
 
 ## <a name="counter-based-maintenance-enhancements"></a>Verbeteringen in het onderhoud op basis van teller
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 De functie *Onderhoudsverbeteringen op basis van teller* heeft de volgende functionaliteit:
 
 - De optie om automatisch een teller in te voegen met de waarde *0* (nul) wanneer een activum wordt gemaakt. Deze optie kan nuttig zijn wanneer u voorspellend onderhoud gebruikt dat is gebaseerd op tellers. Wanneer de functie *Onderhoudsverbeteringen op basis van teller* niet wordt gebruikt, moeten tellers met de waarde *0* (nul) handmatig worden ingevoegd.
@@ -209,7 +205,7 @@ De functie *Onderhoudsverbeteringen op basis van teller* heeft de volgende funct
 Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
 
 - **Module:** *Activabeheer*
-- **Functienaam**: *(preview) Onderhoudsverbeteringen op basis van teller*
+- **Functienaam**: *Onderhoudsverbeteringen op basis van teller*
 
 ### <a name="create-and-initialize-counters-when-an-asset-is-created"></a>Tellers maken en initialiseren wanneer een activum wordt gemaakt
 

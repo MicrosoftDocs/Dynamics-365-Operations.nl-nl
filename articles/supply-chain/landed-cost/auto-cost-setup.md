@@ -2,7 +2,6 @@
 title: Instellingen van automatische kosten
 description: In dit onderwerp wordt beschreven hoe u kostenregels in kunt stellen voor verschillende inkomende reisniveaus. Op basis van deze regels worden de kosten berekend en automatisch toegevoegd. Daarom hoeven gebruikers de kosten niet handmatig toe te voegen.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
@@ -16,19 +15,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 86dcbfbe6e00e7324e29541da6d682794e7487b3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 2e9135019323db74a4dca9343d315cbbf9683e32
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501145"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841954"
 ---
 # <a name="auto-costs-setup"></a>Instellingen van automatische kosten
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-U kunt de pagina **Automatische kosten** gebruiken om kostenregels in te stellen voor verschillende kostengebieden (zoals reizen, verzendingscontainers, folio´s, inkooporders, artikelen of transferorderregels). Op basis van de regels en de velden die gebruikers selecteren wanneer ze records maken voor een van de kostengebieden, berekent het systeem de kosten en voegt het deze automatisch toe. Daarom hoeven gebruikers de kosten niet handmatig toe te voegen.
+U kunt de pagina **Automatische kosten** gebruiken om kostenregels in te stellen voor verschillende kostengebieden (zoals reizen, verzendingscontainers, folio´s, inkooporders, artikelen of overboekingsorderregels). Op basis van de regels en de velden die gebruikers selecteren wanneer ze records maken voor een van de kostengebieden, berekent het systeem de kosten en voegt het deze automatisch toe. Daarom hoeven gebruikers de kosten niet handmatig toe te voegen.
 
 Als u wilt werken met automatische kosten, gaat u naar **Francoprijzen \> Kosten instellen \> Automatische kosten**. Stel vervolgens uw automatische kostenregels in zoals beschreven in de rest van dit onderwerp.
 
@@ -75,7 +73,7 @@ Voeg op het sneltabblad **Regels** een rij toe voor elke valuta die kan worden g
 
 Voor artikelen en inkooporders wordt de valuta van elke inkooporderregel vergeleken met de valuta's die zijn opgegeven op het sneltabblad **Regels**. Deze wordt alleen toegepast op de kostenwaarde die is ingesteld voor de overeenkomende regel of het overeenkomende artikel. Als er geen regel is ingesteld voor de valuta van de regel of het artikel, worden de automatische kosten niet toegepast op die regel of dat artikel.
 
-Voor andere typen kostengebieden zijn alle regels op het sneltabblad **Regels** van toepassing op elke reis, verzendingscontainer, folio of transferorderregel die overeenkomt met de waarden die in de koptekst zijn vastgelegd.
+Voor andere typen kostengebieden zijn alle regels op het sneltabblad **Regels** van toepassing op elke reis, verzendingscontainer, folio of overboekingsorderregel die overeenkomt met de waarden die in de koptekst zijn vastgelegd.
 
 In de volgende tabel worden alle velden beschreven die kunnen verschijnen op elke regel. Welke velden beschikbaar zijn, is echter afhankelijk van het kostengebied dat momenteel is geselecteerd.
 

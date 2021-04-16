@@ -2,11 +2,9 @@
 title: Problemen met magazijnconfiguratie oplossen
 description: In dit onderwerp wordt beschreven hoe u veelvoorkomende problemen kunt oplossen die kunnen optreden tijdens het configureren van Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 1dbd947f0740d22e0f79e6d5c272beb64715c8a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487092"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814387"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Problemen met magazijnconfiguratie oplossen
 
@@ -38,13 +36,13 @@ Dit foutbericht wordt weergegeven wanneer u een nummerplaat-id of locatie scant.
 
 ### <a name="issue-resolution"></a>Probleemoplossing
 
-Controleer of de id van de nummerplaat niet al is gereserveerd. Dit probleem doet zich voor wanneer de waarde die een gebruiker in de magazijn-app heeft gescand zowel een geldige locatie als een geldige id voor een nummerplaat is. Dit probleem is echter opgelost in versie 10.0.11.
+Controleer of de id van de nummerplaat niet al is gereserveerd. Dit probleem doet zich voor wanneer de waarde die een gebruiker in de mobiele app Magazijnbeheer heeft gescand zowel een geldige locatie als een geldige id voor een nummerplaat is. Dit probleem is echter opgelost in versie 10.0.11.
 
 ## <a name="i-receive-the-following-error-message-license-plate-must-be-specified-for-this-location"></a>Het volgende foutbericht wordt weergegeven: "De nummerplaat moet worden opgegeven voor deze locatie."
 
 ### <a name="issue-description"></a>Probleembeschrijving
 
-Dit foutbericht wordt weergegeven als u een transferorder maakt met behulp van een magazijn dat is ingeschakeld voor geavanceerd magazijnbeheer (WMS) en vervolgens, als het werk is voltooid, probeert u de zending te bevestigen.
+Dit foutbericht wordt weergegeven als u een overboekingsorder maakt met behulp van een magazijn dat is ingeschakeld voor geavanceerd magazijnbeheer (WMS) en vervolgens, als het werk is voltooid, probeert u de zending te bevestigen.
 
 ### <a name="issue-resolution"></a>Probleemoplossing
 
@@ -82,15 +80,15 @@ Locatie-instructies van het werkordertype *Verkooporders* en het werktype *Wegze
 
 Een nieuwe functie *Alle acties van locatie-instructies voor meerdere SKU's evalueren* is toegevoegd in versie 10.0.15 (zie [KB 4579866](https://fix.lcs.dynamics.com/Issue/Details?kb=4579866&bugId=475946&dbType=3&qc=1bc41a56de7a3ee419fa76397a6bf282fce5be9b93e427c08a6d916d1dfa3091)). Met deze functie worden alle acties van locatie-instructies voor meerdere SKU's geëvalueerd. Als u deze functie nodig hebt, kunt u deze met [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) inschakelen.
 
-## <a name="i-cant-use-the-warehouse-app-to-do-partial-picking"></a>Ik kan de magazijn-app niet gebruiken om gedeeltelijke orderverzameling uit te voeren.
+## <a name="i-cant-use-the-warehouse-management-mobile-app-to-do-partial-picking"></a>Ik kan de mobiele app Magazijnbeheer niet gebruiken om gedeeltelijke orderverzameling uit te voeren.
 
 ### <a name="issue-description"></a>Probleembeschrijving
 
-Voor verkoop- en transferorders kunt u geen artikelen overslaan en gedeeltelijke orderverzameling uitvoeren.
+Voor verkoop- en overboekingsorders kunt u geen artikelen overslaan en gedeeltelijke orderverzameling uitvoeren.
 
 ### <a name="issue-resolution"></a>Probleemoplossing
 
-Schakel op de pagina **Menuopties voor mobiel apparaat** voor elke menuopdracht die is ingesteld op het verwerken van verkooporders of transferorders de optie **Splitsing van werk toestaan** op het sneltabblad **Algemeen** in op *Ja*.
+Schakel op de pagina **Menuopties voor mobiel apparaat** voor elke menuopdracht die is ingesteld op het verwerken van verkooporders of overboekingsorders de optie **Splitsing van werk toestaan** op het sneltabblad **Algemeen** in op *Ja*.
 
 ## <a name="how-can-i-do-an-inventory-status-change-for-partial-quantity-work"></a>Hoe kan ik een voorraadstatus wijzigen voor een gedeeltelijke hoeveelheid werk?
 
@@ -100,7 +98,7 @@ U wilt een voorraadstatus wijzigen voor een gedeeltelijke hoeveelheid van een ba
 
 ### <a name="issue-resolution"></a>Probleemoplossing
 
-Om werknemers in staat te stellen deze wijziging door te voeren, kunt u een menuopdracht maken voor de magazijn-app. Maak (of bewerk) op de pagina **Menuopties voor mobiel apparaat** een menuopdracht met een van de volgende instellingen:
+Om werknemers in staat te stellen deze wijziging door te voeren, kunt u een menuopdracht maken voor de mobiele app Magazijnbeheer. Maak (of bewerk) op de pagina **Menuopties voor mobiel apparaat** een menuopdracht met een van de volgende instellingen:
 
 - **Modus:** *werk*
 - **Bestaand werk gebruiken:** *Nee*

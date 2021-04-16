@@ -2,11 +2,9 @@
 title: Online en offline verkooppuntbewerkingen (POS)
 description: Dit onderwerp bevat meer informatie over POS-bewerkingen (Point Of Sale) in Dynamics 365 Commerce. Hier wordt aangegeven waar in de toepassing de bewerkingen kunnen worden aangeroepen en of deze beschikbaar zijn in de offlinemodus.
 author: jblucher
-manager: AnnBe
 ms.date: 02/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: fac3f75dd601eaabe47fb4e8ad8d10b33307a5a4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dac3eb0da704e06376d8ca969e06fb177ce15a6b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235997"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804276"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Online en offline verkooppuntbewerkingen (POS)
 
@@ -119,7 +117,7 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 914 | POS-venster minimaliseren | Deze bewerking wordt niet ondersteund. | Niet van toepassing | Niet van toepassing | Niet van toepassing | Niet van toepassing | Nee |
 | 1000 | Lade openen | Een niet-verkoopbewerking uitvoeren en de momenteel geselecteerde kassalade openen. | Ja | Ja | Ja | Ja | Nee |
 | 928 | Orderafhandeling | Met deze bewerking kunnen gebruikers orders voor afhalen in de winkel verzamelen, verpakken, verzenden of intrekken. | Ja | Ja | Ja | Nee | Nee |
-| 805 | Uitgaande bewerking | Toegang verkrijgen tot functies voor het beheren van zendingen van uitgaande transferorders. | Ja | Nee | Ja | Nee| Nee |
+| 805 | Uitgaande bewerking | Toegang verkrijgen tot functies voor het beheren van zendingen van uitgaande overboekingsorders. | Ja | Nee | Ja | Nee| Nee |
 | 129 | Btw voor regelproducten overschrijven | Het btw-tarief voor het geselecteerde regelartikel overschrijven en een ander opgegeven btw-tarief gebruiken. | Ja | Ja | Nee | Ja | Nee |
 | 130 | Btw voor regelproducten overschrijven vanuit lijst | Het btw-tarief voor het geselecteerde regelartikel overschrijven en het tarief gebruiken dat de gebruiker selecteert in een lijst. | Ja | Ja | Nee | Ja | Nee |
 | 127 | Btw voor transacties overschrijven | Het btw-tarief voor de transactie overschrijven en een ander opgegeven tarief gebruiken. | Ja | Ja | Nee | Ja | Nee |

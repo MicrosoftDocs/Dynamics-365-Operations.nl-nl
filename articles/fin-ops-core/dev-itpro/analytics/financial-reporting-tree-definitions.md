@@ -1,27 +1,26 @@
 ---
 title: Rapportagestructuurdefinities in financiële rapporten
 description: In dit artikel worden drie rapportagestructuurdefinities beschreven. Een rapportagestructuurdefinitie is een rapportcomponent waarmee de structuur van een organisatie wordt gedefinieerd.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/07/2019
+author: jinniew
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 367df467d20fb7c60821c9de1f86758196f4faf3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 42612a14b81f78199aa5678d6f8525e4bd87ca8c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568770"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819933"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Rapportagestructuurdefinities in financiële rapporten
 
@@ -74,7 +73,7 @@ Als u een rapportagestructuurdefinitie wilt maken, volgt u deze stappen:
     | Opnemen/Tekenpositie       | Deze sectie geeft de dimensies weer die in de financiële gegevens worden gedefinieerd en toont het aantal tekens in de langste waarde die is gedefinieerd voor elke dimensie. Schakel het selectievakje voor een dimensie in om die dimensie op te nemen in de rapportagestructuurhiërarchie. |
     | Segmenthiërarchie en -bereiken     | Deze sectie toont de dimensiehiërarchie. U kunt de dimensies in de lijst verplaatsen om hun rapportagevolgorde te wijzigen. In de velden **Van dimensie** en **Naar dimensie** kunt u een reeks van waarden in elke dimensie opgeven. Als u geen bereik opgeeft, worden alle dimensiewaarden ingevoegd in de rapportagestructuur.<blockquote>[!NOTE] Als u meer dan één dimensie gebruikt, worden alleen de dimensiecombinaties die zijn geboekt in de resultaten weergegeven.</blockquote> |
 
-    Voor een schermopname die een voorbeeld van het dialoogvenster **Rapportage-eenheden uit dimensies invoegen** laat zien, raadpleegt u de sectie 'Voorbeeld van het dialoogvenster Rapportage-eenheden uit dimensies invoegen' verderop in dit artikel.
+    Voor een afbeelding met een voorbeeld van het dialoogvenster **Rapportage-eenheden uit dimensies invoegen** raadpleegt u de sectie Voorbeeld van het dialoogvenster Rapportage-eenheden uit dimensies invoegen verderop in dit artikel.
 
 5. Om aanvullende segmenten te maken (bijvoorbeeld door een segment te splitsen in twee kortere segmenten), klikt u op de juiste locatie in een veld **Tekenpositie** en klikt u vervolgens op **Segmenten splitsen**.
 6. Om twee segmenten tot één segment samen te voegen, klikt u in een van de segmentvakken om de segmenten samen te voegen en klikt u vervolgens op **Segmenten combineren**.
@@ -186,23 +185,23 @@ Hier is de structuur van de rapportage-eenheden in de volgende rapportagestructu
 - De rapportage-eenheden op het laagste detailniveau (Home Sales, Auto Sales, Client Services en Operations) zijn afdelingen in de financiële gegevens. Deze rapportage-eenheden bevinden zich in het gearceerde gebied van het diagram.
 - De samenvattingseenheden op hoger niveau vatten informatie van de detaileenheden samen.
 
-[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Structuur van Contoso-overzichtsrapport - Voorbeeld 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Structuur van rapportage-eenheid – Voorbeeld 2
 
 In het volgende diagram heeft de rapportagestructuur een organisatiestructuur die op bedrijfsfunctie is verdeeld.
 
-[![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Structuur van Contoso-overzichtsrapport - Voorbeeld 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Voorbeeld van het dialoogvenster Rapportage-eenheden uit dimensies invoegen
 
 De volgende afbeelding toont een voorbeeld van het dialoogvenster **Rapportage-eenheden uit dimensies invoegen**. In dit voorbeeld retourneren de resultaten de combinatie van business units, kostenplaatsen en afdelingen.
 
-[![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Rapporteringseenheden invoegen](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 De resulterende rapportagestructuurdefinitie is gesorteerd op business unit, vervolgens op kostenplaats en tot slot op afdeling. De dimensie voor de vijfde rapportage-eenheid is **Bedrijfseenheid = \[001\], Kostenplaats =\[\], Afdeling = \[022\]** en identificeert een rapportage-eenheid voor rekeningen die specifiek zijn voor bedrijfseenheid 001 en afdeling 022.
 
-[![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Afbeelding van de rapportagestructuur](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Voorbeelden van samenvoeging van gegevens
 
@@ -210,13 +209,13 @@ De volgende voorbeelden geven mogelijke informatie weer die worden gebruikt in e
 
 #### <a name="example-1"></a>Voorbeeld 1
 
-[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![totalisatie van meerdere bedrijven](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Voorbeeld 2
 
-[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Totalisatie van afdelingen van meerdere bedrijven](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Financiële rapportage](financial-reporting-intro.md)
 

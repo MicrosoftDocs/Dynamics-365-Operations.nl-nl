@@ -2,11 +2,9 @@
 title: Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 description: In dit onderwerp wordt beschreven hoe de uitvoeringsinterface van de werkvloer moet worden gebruikt vanuit het perspectief van een werknemer.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecution
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 38bc07d37b5c51f143846110c87cff9952d52b0e
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500785"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814651"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 De uitvoeringsinterface van de werkvloer is geoptimaliseerd voor aanraakinteractie. Het ontwerp biedt een visueel contrast dat voldoet aan de toegankelijkheidsvereisten voor werkvloeromgevingen. Het biedt dezelfde functionele mogelijkheden als het taakkaartapparaat. Het biedt echter ook de mogelijkheid om meerdere taken tegelijk te starten vanuit een takenlijst. (Deze mogelijkheid wordt ook wel *bundeling van taken* genoemd.) Bovendien kunnen werknemers via een takenlijst een guide openen die is gemaakt in Microsoft Dynamics 365 Guide. Op deze manier kunnen zij visuele instructies krijgen voor een HoloLens.
 
@@ -90,7 +87,7 @@ Het tabblad **Mijn machine** heeft de volgende kolommen. De nummers komen overee
 
 1. **Instellingen**: selecteer het tandwielpictogram om een dialoogvenster te openen waarin u kunt kiezen welke tellers voor het geselecteerde machineactivum moeten worden weergegeven. Waarden voor deze tellers worden boven aan het tabblad **Activabeheer** weergegeven. In het menu **Instellingen** (in de volgende schermopname) kunt u maximaal vier tellers inschakelen. Voor elke teller die u wilt inschakelen, gebruikt u het zoekveld boven aan de tegel om een teller te selecteren. Het zoekveld bevat alle tellers die zijn gekoppeld aan het activum dat boven aan de pagina **Activabeheer** is geselecteerd. Stel elke teller in om de **samengevoegde** waarde of de laatste **werkelijke** waarde voor de teller te controleren. Als u bijvoorbeeld een teller in stelt die bijhoudt hoeveel uur de machine al draait, moet u de teller instellen op **Samengevoegd**. Als u een teller instelt om de meest recente bijgewerkte temperatuur of druk te meten, moet u deze instellen op **Werkelijk**. Selecteer **OK** om de instellingen op te slaan en het dialoogvenster te sluiten.
 
-    ![Het tabblad Mijn machine](media/pfei-my-machine-tab-settings.png "Het tabblad Mijn machine")
+    ![De instellingen van het tabblad Mijn machine](media/pfei-my-machine-tab-settings.png "De instellingen van het tabblad Mijn machine")
 
 1. **Onderhoud aanvragen**: selecteer deze knop om een dialoogvenster te openen waarin u een onderhoudsaanvraag kunt maken. U kunt een omschrijving en een notitie maken. De aanvraag wordt onder de aandacht gebracht van een Supply Chain Management-gebruiker, die de onderhoudsaanvraag vervolgens kan converteren naar een onderhoudswerkorder.
 1. **Uitvaltijd registreren**: selecteer deze knop om een dialoogvenster te openen waarin u de uitvaltijd van machines kunt registreren. U kunt een redencode selecteren en een datum/tijd voor de uitvaltijd invoeren. De registratie van uitvaltijd van machines wordt gebruikt om de efficiëntie van de machineactiva te berekenen.

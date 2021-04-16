@@ -1,12 +1,10 @@
 ---
-title: Aan de slag met de invoegtoepassing voor elektronische facturering voor Italië
-description: Dit onderwerp bevat informatie waarmee u aan de slag kunt met de invoegtoepassing Elektronische facturering voor Italië in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management.
+title: Aan de slag met Elektronische facturering voor Italië
+description: Dit onderwerp bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Italië.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,26 +15,26 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9c50000c98bdde2c9da43b3110686aa5d01e8081
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259215"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840095"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>Aan de slag met de invoegtoepassing voor elektronische facturering voor Italië
+# <a name="get-started-with-electronic-invoicing-for-italy"></a>Aan de slag met Elektronische facturering voor Italië
 
 [!include [banner](../includes/banner.md)]
 
 
 > [!IMPORTANT]
-> De invoegtoepassing elektronische facturering voor Italië ondersteunt momenteel mogelijk niet alle functies die beschikbaar zijn voor elektronische facturen in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management. 
+> Elektronische facturering voor Italië ondersteunt momenteel mogelijk niet alle functies die beschikbaar zijn voor elektronische facturen in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management. 
 
-Dit onderwerp bevat informatie waarmee u aan de slag kunt met de invoegtoepassing Elektronische facturering voor Italië. U wordt door de configuratiestappen geleid die landafhankelijk zijn in de Regulatory Configuration Services (RCS) en Finance. Verder wordt u door het proces voor het indienen van elektronische facturen geleid die worden gegenereerd in de Italiaanse **FatturaPA**-indeling via de service, en hierin wordt uitgelegd hoe u de resultaten van de verwerking kunt controleren.
+Dit onderwerp bevat informatie waarmee u aan de slag kunt met Elektronische facturering voor Italië. U wordt door de configuratiestappen geleid die landafhankelijk zijn in de Regulatory Configuration Services (RCS) en Finance. Verder wordt u door het proces voor het indienen van elektronische facturen geleid die worden gegenereerd in de Italiaanse **FatturaPA**-indeling via de service, en hierin wordt uitgelegd hoe u de resultaten van de verwerking kunt controleren.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Voordat u de stappen in dit onderwerp uitvoert, moet u de stappen uitvoeren in [Aan de slag met de invoegtoepassing voor elektronische facturering](e-invoicing-get-started.md).
+Voordat u de stappen in dit onderwerp uitvoert, moet u de stappen uitvoeren in [Aan de slag met Elektronische facturering](e-invoicing-get-started.md).
 
 ## <a name="rcs-setup"></a>RCS-instellingen
 
@@ -48,7 +46,7 @@ Tijdens de RCS-instelling voert u de volgende taken uit:
 4. Publiceer de functie e-Facturering.
 
 > [!NOTE]
-> 'De functie e-Facturering' is de algemene naam voor de resource die wordt geconfigureerd en gepubliceerd voor gebruik op de server van de invoegtoepassing voor elektronische facturering. In dit geval is het exporteren van elektronische klantfacturen de functie e-Facturering die u gaat instellen.
+> 'De functie e-Facturering' is de algemene naam voor de resource die wordt geconfigureerd en gepubliceerd voor gebruik op de server voor elektronische facturering. In dit geval is het exporteren van elektronische klantfacturen de functie e-Facturering die u gaat instellen.
 
 ## <a name="import-the-e-invoicing-feature"></a>De functie e-Facturering importeren
 
@@ -153,7 +151,7 @@ U kunt de functie e-Facturering publiceren door de versiestatus te wijzigen in *
 
 ![De status van de functie e-Facturering wijzigen](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance"></a>De integratie van de invoegtoepassing voor elektronisch factureren instellen in Finance
+## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Integratie van Elektronisch factureren instellen in Finance
 
 Tijdens de instelling van Finance voert u de volgende taken uit:
 
@@ -193,12 +191,12 @@ Tijdens de instelling van Finance voert u de volgende taken uit:
 
 Tijdens de verwerking in Finance voert u de volgende taken uit:
 
-1. Italiaanse e-facturen genereren via de invoegtoepassing voor elektronische facturering
+1. Italiaanse e-facturen genereren via Elektronische facturering
 2. De uitvoeringslogboeken weergeven en de resultaten van de verwerking beoordelen
 
 ### <a name="generate-electronic-invoices"></a>Elektronische facturen genereren
 
-Nadat u de functie **Integratie configureerbare invoegtoepassing voor elektronisch factureren** hebt ingeschakeld en de functie **IT00036** hebt geactiveerd, kan het oude Finance-proces voor het genereren van Italiaanse e-facturen niet meer worden gebruikt. Het wordt vervangen door een nieuw proces met de naam **Elektronische documenten indienen**.
+Nadat u de functie **Integratie configureerbare functie voor elektronisch factureren** hebt ingeschakeld en de functie **IT00036** hebt geactiveerd, kan het oude Finance-proces voor het genereren van Italiaanse e-facturen niet meer worden gebruikt. Het wordt vervangen door een nieuw proces met de naam **Elektronische documenten indienen**.
 
 U kunt de documenten handmatig indienen op basis van uw behoefte aan e-factuurdocumenten.
 
@@ -220,7 +218,7 @@ U kunt de documenten handmatig indienen op basis van uw behoefte aan e-factuurdo
 2. Selecteer **OK** om het dialoogvenster **Query** te sluiten.
 3. Klik op **OK** om de geselecteerde documenten in te dienen.
 
-> ![OPMERKING] Wanneer u voor het eerst een document via de service verzendt, wordt u gevraagd de verbinding met de invoegtoepassing voor elektronische facturering te bevestigen. Selecteer **Klik hier om verbinding te maken met de service voor het indienen van elektronische documenten**.
+> ![OPMERKING] Wanneer u voor het eerst een document via de service verzendt, wordt u gevraagd de verbinding met Elektronische facturering te bevestigen. Selecteer **Klik hier om verbinding te maken met de service voor het indienen van elektronische documenten**.
 
 #### <a name="view-submission-logs"></a>Indieningslogboeken weergeven
 
@@ -242,9 +240,9 @@ U kunt de indieningslogboeken voor alle ingediende documenten weergeven.
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Overzicht van de invoegtoepassing voor elektronische facturering](e-invoicing-service-overview.md)
-- [Aan de slag met de invoegtoepassing voor elektronische facturering](e-invoicing-get-started.md)
-- [De invoegtoepassing voor elektronische facturering instellen](e-invoicing-setup.md)
+- [Overzicht van Elektronische facturering](e-invoicing-service-overview.md)
+- [Aan de slag met Elektronische facturering](e-invoicing-get-started.md)
+- [Elektronische facturering instellen](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
