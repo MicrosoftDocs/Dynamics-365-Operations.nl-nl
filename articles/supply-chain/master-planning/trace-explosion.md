@@ -2,11 +2,9 @@
 title: Tracering gebruiken voor explosie
 description: In dit artikel wordt uitgelegd hoe u tracering kunt gebruiken om de oorzaken achter het resultaat van een orderexplosie te onderzoeken.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransExplosion
 audience: Application User
@@ -18,32 +16,32 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 677b62055d71ee7ba1419fc2d7e6738b9438cb16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f7f2a50c5e30155c11d653601187c36cb385aa4a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216148"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839192"
 ---
-# <a name="use-tracing-for-explosion"></a><span data-ttu-id="59f60-103">Tracering gebruiken voor explosie</span><span class="sxs-lookup"><span data-stu-id="59f60-103">Use tracing for explosion</span></span>
+# <a name="use-tracing-for-explosion"></a><span data-ttu-id="93b53-103">Tracering gebruiken voor explosie</span><span class="sxs-lookup"><span data-stu-id="93b53-103">Use tracing for explosion</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="59f60-104">In dit artikel wordt uitgelegd hoe u tracering kunt gebruiken om de oorzaken achter het resultaat van een orderexplosie te onderzoeken.</span><span class="sxs-lookup"><span data-stu-id="59f60-104">This article explains how you can use tracing to explore the causes behind the outcome of an order explosion.</span></span>
+<span data-ttu-id="93b53-104">In dit artikel wordt uitgelegd hoe u tracering kunt gebruiken om de oorzaken achter het resultaat van een orderexplosie te onderzoeken.</span><span class="sxs-lookup"><span data-stu-id="93b53-104">This article explains how you can use tracing to explore the causes behind the outcome of an order explosion.</span></span>
 
-<span data-ttu-id="59f60-105">Door tracering in te schakelen, kunt u informatie weergeven over de factoren die bijdroegen tot het resultaat van de explosie van een bepaalde order.</span><span class="sxs-lookup"><span data-stu-id="59f60-105">By enabling tracing, you can view information about the factors that contributed to the outcome of the explosion of a particular order.</span></span> <span data-ttu-id="59f60-106">Hier volgen enkele voorbeelden voor het gebruik van de traceerinformatie:</span><span class="sxs-lookup"><span data-stu-id="59f60-106">The following examples show how you can use the tracing information:</span></span>
+<span data-ttu-id="93b53-105">Door tracering in te schakelen, kunt u informatie weergeven over de factoren die bijdroegen tot het resultaat van de explosie van een bepaalde order.</span><span class="sxs-lookup"><span data-stu-id="93b53-105">By enabling tracing, you can view information about the factors that contributed to the outcome of the explosion of a particular order.</span></span> <span data-ttu-id="93b53-106">Hier volgen enkele voorbeelden voor het gebruik van de traceerinformatie:</span><span class="sxs-lookup"><span data-stu-id="93b53-106">The following examples show how you can use the tracing information:</span></span>
 
--   <span data-ttu-id="59f60-107">Bekijk relaties tussen de acties op geplande orders om de supply chain en voorraadreserveringen te optimaliseren.</span><span class="sxs-lookup"><span data-stu-id="59f60-107">View relations between the actions on planned orders to optimize the supply chain and inventory reservations.</span></span>
--   <span data-ttu-id="59f60-108">Bekijk relaties van orders die al zijn goedgekeurd.</span><span class="sxs-lookup"><span data-stu-id="59f60-108">View relations to orders that are already approved.</span></span> <span data-ttu-id="59f60-109">U kunt zich richten op automatisch fiattering van afgeleide voorschriften en vervolgens orders nauwkeuriger op prioriteit indelen.</span><span class="sxs-lookup"><span data-stu-id="59f60-109">You can focus on automatically firming derived requirements and then prioritize orders more accurately.</span></span>
--   <span data-ttu-id="59f60-110">Simuleer planningsresultaten om te bepalen of de planningsparameters optimaal zijn.</span><span class="sxs-lookup"><span data-stu-id="59f60-110">Simulate planning results to determine whether the planning parameters are optimal.</span></span>
--   <span data-ttu-id="59f60-111">Bepaal hoe informatie zoals productiedata, hoeveelheden en prioriteiten voor een order zijn bepaald.</span><span class="sxs-lookup"><span data-stu-id="59f60-111">Identify how information such as production dates, quantities, and priorities for an order were determined.</span></span>
+-   <span data-ttu-id="93b53-107">Bekijk relaties tussen de acties op geplande orders om de supply chain en voorraadreserveringen te optimaliseren.</span><span class="sxs-lookup"><span data-stu-id="93b53-107">View relations between the actions on planned orders to optimize the supply chain and inventory reservations.</span></span>
+-   <span data-ttu-id="93b53-108">Bekijk relaties van orders die al zijn goedgekeurd.</span><span class="sxs-lookup"><span data-stu-id="93b53-108">View relations to orders that are already approved.</span></span> <span data-ttu-id="93b53-109">U kunt zich richten op automatisch fiattering van afgeleide voorschriften en vervolgens orders nauwkeuriger op prioriteit indelen.</span><span class="sxs-lookup"><span data-stu-id="93b53-109">You can focus on automatically firming derived requirements and then prioritize orders more accurately.</span></span>
+-   <span data-ttu-id="93b53-110">Simuleer planningsresultaten om te bepalen of de planningsparameters optimaal zijn.</span><span class="sxs-lookup"><span data-stu-id="93b53-110">Simulate planning results to determine whether the planning parameters are optimal.</span></span>
+-   <span data-ttu-id="93b53-111">Bepaal hoe informatie zoals productiedata, hoeveelheden en prioriteiten voor een order zijn bepaald.</span><span class="sxs-lookup"><span data-stu-id="93b53-111">Identify how information such as production dates, quantities, and priorities for an order were determined.</span></span>
 
-<span data-ttu-id="59f60-112">U kunt details over vertragingen en acties voor een geselecteerde order bekijken.</span><span class="sxs-lookup"><span data-stu-id="59f60-112">You can view details about futures and actions for a selected order.</span></span> <span data-ttu-id="59f60-113">Op de pagina **Explosie** is traceringsinformatie beschikbaar op het tabblad **Uitleg** in het bovenste venster.</span><span class="sxs-lookup"><span data-stu-id="59f60-113">On the **Explosion** page, tracing information is available on the **Explanation** tab in the upper pane.</span></span> <span data-ttu-id="59f60-114">Tracering treedt op wanneer u een order laat exploderen.</span><span class="sxs-lookup"><span data-stu-id="59f60-114">Tracing occurs when you explode an order.</span></span> <span data-ttu-id="59f60-115">Klik op **Bijwerken** om de tracering voor de order te starten en schakel het selectievakje **Trace activeren** in.</span><span class="sxs-lookup"><span data-stu-id="59f60-115">To start tracing for the order, click **Update**, and then select the **Enable trace** check box.</span></span> <span data-ttu-id="59f60-116">U kunt het veld **Tekst zoeken** gebruiken om in het logboek te zoeken naar specifieke informatie.</span><span class="sxs-lookup"><span data-stu-id="59f60-116">You can use the **Find text** field to search the log for specific information.</span></span> <span data-ttu-id="59f60-117">Zoekresultaten worden gemarkeerd in de structuur.</span><span class="sxs-lookup"><span data-stu-id="59f60-117">Search results are highlighted in the tree.</span></span>
+<span data-ttu-id="93b53-112">U kunt details over vertragingen en acties voor een geselecteerde order bekijken.</span><span class="sxs-lookup"><span data-stu-id="93b53-112">You can view details about futures and actions for a selected order.</span></span> <span data-ttu-id="93b53-113">Op de pagina **Explosie** is traceringsinformatie beschikbaar op het tabblad **Uitleg** in het bovenste venster.</span><span class="sxs-lookup"><span data-stu-id="93b53-113">On the **Explosion** page, tracing information is available on the **Explanation** tab in the upper pane.</span></span> <span data-ttu-id="93b53-114">Tracering treedt op wanneer u een order laat exploderen.</span><span class="sxs-lookup"><span data-stu-id="93b53-114">Tracing occurs when you explode an order.</span></span> <span data-ttu-id="93b53-115">Klik op **Bijwerken** om de tracering voor de order te starten en schakel het selectievakje **Trace activeren** in.</span><span class="sxs-lookup"><span data-stu-id="93b53-115">To start tracing for the order, click **Update**, and then select the **Enable trace** check box.</span></span> <span data-ttu-id="93b53-116">U kunt het veld **Tekst zoeken** gebruiken om in het logboek te zoeken naar specifieke informatie.</span><span class="sxs-lookup"><span data-stu-id="93b53-116">You can use the **Find text** field to search the log for specific information.</span></span> <span data-ttu-id="93b53-117">Zoekresultaten worden gemarkeerd in de structuur.</span><span class="sxs-lookup"><span data-stu-id="93b53-117">Search results are highlighted in the tree.</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="59f60-118">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="59f60-118">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="93b53-118">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="93b53-118">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="59f60-119">Overzicht van Hoofdplannen</span><span class="sxs-lookup"><span data-stu-id="59f60-119">Master plans overview</span></span>](master-plans.md)
+[<span data-ttu-id="93b53-119">Overzicht van Hoofdplannen</span><span class="sxs-lookup"><span data-stu-id="93b53-119">Master plans overview</span></span>](master-plans.md)
 
 
 
