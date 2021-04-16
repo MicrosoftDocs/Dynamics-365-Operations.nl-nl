@@ -2,11 +2,9 @@
 title: Kredietbrieven
 description: Kredietbrieven zijn bankdocumenten die vaak worden gebruikt voor de inkoop en verkoop van goederen over de internationale grenzen heen.
 author: panolte
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
@@ -17,39 +15,39 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e733238943b723d17a4588252aa85ef4123c9796
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bdd586f8b43b640d636937c13e92609098a48115
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5253910"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815831"
 ---
-# <a name="letters-of-credit"></a><span data-ttu-id="c7996-103">Kredietbrieven</span><span class="sxs-lookup"><span data-stu-id="c7996-103">Letters of credit</span></span>
+# <a name="letters-of-credit"></a><span data-ttu-id="d76ff-103">Kredietbrieven</span><span class="sxs-lookup"><span data-stu-id="d76ff-103">Letters of credit</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c7996-104">Kredietbrieven zijn bankdocumenten die vaak worden gebruikt voor de inkoop en verkoop van goederen over de internationale grenzen heen.</span><span class="sxs-lookup"><span data-stu-id="c7996-104">Letters of credit are bank documents that are commonly used for the purchase and sale of goods across international borders.</span></span> 
+<span data-ttu-id="d76ff-104">Kredietbrieven zijn bankdocumenten die vaak worden gebruikt voor de inkoop en verkoop van goederen over de internationale grenzen heen.</span><span class="sxs-lookup"><span data-stu-id="d76ff-104">Letters of credit are bank documents that are commonly used for the purchase and sale of goods across international borders.</span></span> 
 
-<span data-ttu-id="c7996-105">Kredietbrieven worden voor internationale transacties gebruikt om ervoor te zorgen dat betalingen worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="c7996-105">Letters of credit are used for international transactions to ensure that payments will be made.</span></span> <span data-ttu-id="c7996-106">Een kredietbrief is een overeenkomst die dor een bank wordt uitgegeven, waarin de bank akkoord gaat om namens de koper de betaling te garanderen als aan de voorwaarden van de overeenkomst tussen de koper en verkoper is voldaan.</span><span class="sxs-lookup"><span data-stu-id="c7996-106">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to ensure payment on behalf of the buyer, if the terms of the agreement between the buyer and seller are met.</span></span> <span data-ttu-id="c7996-107">Merk op dat een kredietbrief ook een documentair krediet wordt genoemd.</span><span class="sxs-lookup"><span data-stu-id="c7996-107">Note that a letter of credit is also referred to as a documentary credit (DC).</span></span> 
+<span data-ttu-id="d76ff-105">Kredietbrieven worden voor internationale transacties gebruikt om ervoor te zorgen dat betalingen worden uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="d76ff-105">Letters of credit are used for international transactions to ensure that payments will be made.</span></span> <span data-ttu-id="d76ff-106">Een kredietbrief is een overeenkomst die dor een bank wordt uitgegeven, waarin de bank akkoord gaat om namens de koper de betaling te garanderen als aan de voorwaarden van de overeenkomst tussen de koper en verkoper is voldaan.</span><span class="sxs-lookup"><span data-stu-id="d76ff-106">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to ensure payment on behalf of the buyer, if the terms of the agreement between the buyer and seller are met.</span></span> <span data-ttu-id="d76ff-107">Merk op dat een kredietbrief ook een documentair krediet wordt genoemd.</span><span class="sxs-lookup"><span data-stu-id="d76ff-107">Note that a letter of credit is also referred to as a documentary credit (DC).</span></span> 
 
-<span data-ttu-id="c7996-108">Voor een importkredietbrief is de rechtspersoon de koper of de aanvrager van de kredietbrief.</span><span class="sxs-lookup"><span data-stu-id="c7996-108">For an import letter of credit, the legal entity is the buyer or the applicant for the letter of credit.</span></span> <span data-ttu-id="c7996-109">Voor een exportkredietbrief is de rechtspersoon de verkoper of de begunstigde van de kredietbrief.</span><span class="sxs-lookup"><span data-stu-id="c7996-109">For an export letter of credit, the legal entity is the seller or the beneficiary of the letter of credit.</span></span> <span data-ttu-id="c7996-110">De volgende partijen zijn betrokken bij een kredietbrief:</span><span class="sxs-lookup"><span data-stu-id="c7996-110">The following parties are involved with a letter of credit:</span></span> 
+<span data-ttu-id="d76ff-108">Voor een importkredietbrief is de rechtspersoon de koper of de aanvrager van de kredietbrief.</span><span class="sxs-lookup"><span data-stu-id="d76ff-108">For an import letter of credit, the legal entity is the buyer or the applicant for the letter of credit.</span></span> <span data-ttu-id="d76ff-109">Voor een exportkredietbrief is de rechtspersoon de verkoper of de begunstigde van de kredietbrief.</span><span class="sxs-lookup"><span data-stu-id="d76ff-109">For an export letter of credit, the legal entity is the seller or the beneficiary of the letter of credit.</span></span> <span data-ttu-id="d76ff-110">De volgende partijen zijn betrokken bij een kredietbrief:</span><span class="sxs-lookup"><span data-stu-id="d76ff-110">The following parties are involved with a letter of credit:</span></span> 
 
- - <span data-ttu-id="c7996-111">De aanvrager (koper) die van plan is om voor de goederen te betalen</span><span class="sxs-lookup"><span data-stu-id="c7996-111">The applicant (buyer) who intends to pay for the goods</span></span> 
- - <span data-ttu-id="c7996-112">De begunstigde (verkoper) die de betaling zal ontvangen</span><span class="sxs-lookup"><span data-stu-id="c7996-112">The beneficiary (seller) who will receive the payment</span></span>
- - <span data-ttu-id="c7996-113">De uitgevende bank die de kredietbrief uitgeeft</span><span class="sxs-lookup"><span data-stu-id="c7996-113">The issuing bank that issues the letter of credit</span></span>
- - <span data-ttu-id="c7996-114">De adviserende bank die de transactie namens de aanvrager uitvoert</span><span class="sxs-lookup"><span data-stu-id="c7996-114">The advising bank that carries out the transaction on behalf of the applicant</span></span>
+ - <span data-ttu-id="d76ff-111">De aanvrager (koper) die van plan is om voor de goederen te betalen</span><span class="sxs-lookup"><span data-stu-id="d76ff-111">The applicant (buyer) who intends to pay for the goods</span></span> 
+ - <span data-ttu-id="d76ff-112">De begunstigde (verkoper) die de betaling zal ontvangen</span><span class="sxs-lookup"><span data-stu-id="d76ff-112">The beneficiary (seller) who will receive the payment</span></span>
+ - <span data-ttu-id="d76ff-113">De uitgevende bank die de kredietbrief uitgeeft</span><span class="sxs-lookup"><span data-stu-id="d76ff-113">The issuing bank that issues the letter of credit</span></span>
+ - <span data-ttu-id="d76ff-114">De adviserende bank die de transactie namens de aanvrager uitvoert</span><span class="sxs-lookup"><span data-stu-id="d76ff-114">The advising bank that carries out the transaction on behalf of the applicant</span></span>
 
-<span data-ttu-id="c7996-115">De kredietbrief bevat een beschrijving van de goederen, eventuele vereiste documenten, de datum van de zending en de vervaldatum waarna de betaling niet wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="c7996-115">The letter of credit includes a description of the goods, any required documents, the date of shipment, and the expiration date after which payment will not be made.</span></span> <span data-ttu-id="c7996-116">De uitgevende bank incasseert een marge voor de kredietbrief.</span><span class="sxs-lookup"><span data-stu-id="c7996-116">The issuing bank collects a margin for the letter of credit.</span></span> 
+<span data-ttu-id="d76ff-115">De kredietbrief bevat een beschrijving van de goederen, eventuele vereiste documenten, de datum van de zending en de vervaldatum waarna de betaling niet wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="d76ff-115">The letter of credit includes a description of the goods, any required documents, the date of shipment, and the expiration date after which payment will not be made.</span></span> <span data-ttu-id="d76ff-116">De uitgevende bank incasseert een marge voor de kredietbrief.</span><span class="sxs-lookup"><span data-stu-id="d76ff-116">The issuing bank collects a margin for the letter of credit.</span></span> 
 
-<span data-ttu-id="c7996-117">Een kredietbrief kan herroepelijk of onherroepelijk zijn.</span><span class="sxs-lookup"><span data-stu-id="c7996-117">A letter of credit can be revocable or irrevocable.</span></span> <span data-ttu-id="c7996-118">De aard van een kredietbrief kan overdraagbaar, niet-overdraagbaar of roulerend zijn.</span><span class="sxs-lookup"><span data-stu-id="c7996-118">The nature of a letter of credit can be transferable, non transferable, or revolving.</span></span> <span data-ttu-id="c7996-119">Normaal gezien is een kredietbrief een onherroepelijke en bevestigde overeenkomst dat de betaling aan een specifieke begunstigde wordt uitgevoerd na indiening van volledige en nauwkeurige verzendingsdocumentatie.</span><span class="sxs-lookup"><span data-stu-id="c7996-119">Typically, a letter of credit is an irrevocable and confirmed agreement that payment will be made to a specific beneficiary upon submission of complete and accurate shipping documentation.</span></span>
+<span data-ttu-id="d76ff-117">Een kredietbrief kan herroepelijk of onherroepelijk zijn.</span><span class="sxs-lookup"><span data-stu-id="d76ff-117">A letter of credit can be revocable or irrevocable.</span></span> <span data-ttu-id="d76ff-118">De aard van een kredietbrief kan overdraagbaar, niet-overdraagbaar of roulerend zijn.</span><span class="sxs-lookup"><span data-stu-id="d76ff-118">The nature of a letter of credit can be transferable, non transferable, or revolving.</span></span> <span data-ttu-id="d76ff-119">Normaal gezien is een kredietbrief een onherroepelijke en bevestigde overeenkomst dat de betaling aan een specifieke begunstigde wordt uitgevoerd na indiening van volledige en nauwkeurige verzendingsdocumentatie.</span><span class="sxs-lookup"><span data-stu-id="d76ff-119">Typically, a letter of credit is an irrevocable and confirmed agreement that payment will be made to a specific beneficiary upon submission of complete and accurate shipping documentation.</span></span>
 
-<span data-ttu-id="c7996-120">Zie de volgende onderwerpen voor meer informatie:</span><span class="sxs-lookup"><span data-stu-id="c7996-120">For more information, see the following topics:</span></span>
+<span data-ttu-id="d76ff-120">Zie de volgende onderwerpen voor meer informatie:</span><span class="sxs-lookup"><span data-stu-id="d76ff-120">For more information, see the following topics:</span></span>
 
-[<span data-ttu-id="c7996-121">Kredietbrief importeren</span><span class="sxs-lookup"><span data-stu-id="c7996-121">Import letter of credit</span></span>](tasks/import-letter-credit.md)
+[<span data-ttu-id="d76ff-121">Kredietbrief importeren</span><span class="sxs-lookup"><span data-stu-id="d76ff-121">Import letter of credit</span></span>](tasks/import-letter-credit.md)
 
-[<span data-ttu-id="c7996-122">Kredietbrief exporteren</span><span class="sxs-lookup"><span data-stu-id="c7996-122">Export letter of credit</span></span>](tasks/export-letter-credit.md)
+[<span data-ttu-id="d76ff-122">Kredietbrief exporteren</span><span class="sxs-lookup"><span data-stu-id="d76ff-122">Export letter of credit</span></span>](tasks/export-letter-credit.md)
 
-[<span data-ttu-id="c7996-123">Een bankfaciliteitsovereenkomst maken voor een kredietbrief</span><span class="sxs-lookup"><span data-stu-id="c7996-123">Create a bank facility agreement for a letter of credit</span></span>](tasks/create-bank-facility-agreement-letter-credit.md)
+[<span data-ttu-id="d76ff-123">Een bankfaciliteitsovereenkomst maken voor een kredietbrief</span><span class="sxs-lookup"><span data-stu-id="d76ff-123">Create a bank facility agreement for a letter of credit</span></span>](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
 
