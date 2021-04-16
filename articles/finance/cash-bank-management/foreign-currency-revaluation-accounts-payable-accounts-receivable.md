@@ -2,11 +2,9 @@
 title: Herwaardering van valuta voor Leveranciers en Klanten
 description: Schommelingen in wisselkoersen leiden ertoe dat de theoretische waarde (boekwaarde) van openstaande transacties in vreemde valuta in de loop van de tijd variëren. Dit artikel bevat informatie over de herwaardering van vreemde valuta die u kunt uitvoeren om de waarde van openstaande transacties in Leveranciers en Klanten bij te werken.
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a95e446184b48be6d48347155ce14554602accbe
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0df0ae1aa0e75eb8c64d5ca31fcd3605b5112cdd
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254006"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815903"
 ---
 # <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Herwaardering van valuta voor Leveranciers en Klanten
 

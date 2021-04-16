@@ -2,11 +2,9 @@
 title: Aan de slag met Activalease
 description: In dit onderwerp wordt de functie Activalease beschreven en wordt u begeleid bij de stappen voor het maken van een activalease en leert u informatie voor deze leases weer te geven.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b4f1bdf74dc5319f0b3ba145969b064ad33d5010
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6d5b51e89ec0e64182671872573ec0140939a836
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229593"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814123"
 ---
 # <a name="asset-leasing-get-started"></a>Aan de slag met Activalease
 
@@ -41,16 +39,16 @@ Een geleasd activum bevat de volgende hoofdcomponenten:
 
 - **Leaseovereenkomst**: de leaseverstrekker is eigenaar van het activum en komt met de leasenemer overeen om een activum te leasen voor een bepaalde periode in ruil voor periodieke leasebetalingen. Naast de juridische overeenkomst tussen de leaseverstrekker en de leasenemer worden in de leaseovereenkomst beheerbeslissingen vastgelegd, zoals de waarschijnlijkheid van het toepassen van een verlengingsoptie en eigendomsoverdracht.
 
-- **Leaseberekening en classificatie per boekhoudstandaard**: met de leaseberekening en -classificatie wordt de boekhoudstandaard aangegeven die wordt toegepast bij de eerste en de latere meting, alsmede de classificatietest waarmee wordt bepaald wat het leasetype is. Een lease kan een financiële lease zijn, een operationele lease, een kortlopende lease of een lease met geringe waarde. Het systeem berekent ook de huidige waarde van toekomstige minimale leasebetalingen met het oog op waardering en classificatie.
+- **Leaseberekening en classificatie per boekhoudstandaard**: met de leaseberekening en -classificatie wordt de boekhoudstandaard aangegeven die wordt toegepast bij de eerste en de latere meting, alsmede de classificatietest waarmee wordt bepaald wat het leasetype is. Een lease kan een financiële lease zijn, een operationele lease, een kortlopende lease of een lease met geringe waarde. Het systeem berekent ook de huidige nettowaarde van toekomstige minimale leasebetalingen met het oog op waardering en classificatie.
 
-- **Leasetransacties**: Activalease ondersteunt de eerste toerekening van het activum met gebruiksrecht voor leases op de balans, alsmede volgende metingen voor leases op de balans of leases niet op de balans. Met de transactie van eerste toerekening wordt de huidige waarde van toekomstige minimale leasebetalingen gemeten. Deze gegevens worden gebruikt om de waarde van het eerste activum met gebruiksrecht en leaseverplichtingen te bepalen, die van invloed zijn op de balans van de organisatie. De volgende meting van maandelijkse leasetransacties heeft betrekking op de accumulatie van rente over de leaseverplichting, waarmee de leaseverplichting wordt verhoogd. Ook wordt de toerekening van leasebetalingen gemeten waarmee de leaseverplichting wordt verlaagd en die later aan de leaseverstrekker wordt betaald. De meting omvat ook de afschrijving van het activum met gebruiksrecht.
+- **Leasetransacties**: Activalease ondersteunt de eerste toerekening van het activum met gebruiksrecht voor leases op de balans, alsmede volgende metingen voor leases op de balans of leases niet op de balans. Met de transactie van eerste toerekening wordt de huidige nettowaarde van toekomstige minimale leasebetalingen gemeten. Deze gegevens worden gebruikt om de waarde van het eerste activum met gebruiksrecht en leaseverplichtingen te bepalen, die van invloed zijn op de balans van de organisatie. De volgende meting van maandelijkse leasetransacties heeft betrekking op de accumulatie van rente over de leaseverplichting, waarmee de leaseverplichting wordt verhoogd. Ook wordt de toerekening van leasebetalingen gemeten waarmee de leaseverplichting wordt verlaagd en die later aan de leaseverstrekker wordt betaald. De meting omvat ook de afschrijving van het activum met gebruiksrecht.
 
   Voor leases buiten de balans berekent het systeem de lineaire leasekosten over dat wat minder is: de economische levensduur van het activum of de leaseperiode. Met leasecorrecties worden contractwijzigingen, zoals een lease-uitbreiding, en de waardeverminderingstransactie gemeten waarin het activum met gebruiksrecht voor niet-terugvorderbare kosten wordt gebruikt.
 
   Activalease wordt geïntegreerd met Grootboek om ervoor te zorgen dat uw rekeningschema met alle geboekte leasetransacties wordt bijgewerkt. Activalease wordt geïntegreerd met Leveranciers om facturen van de leaseverstrekker bij te houden in Leveranciers en toekomstige betalingen vanuit Leveranciers te verrichten. Dankzij de integratie met Vaste activa kunt u vanuit Vaste activa leases in het register van vaste activa bijhouden en transacties voor activa met gebruiksrecht boeken, zoals de eerste toerekening, afschrijving en waardevermindering van het activum.   
 
 ## <a name="asset-leasing-components"></a>Componenten van Activalease 
-In Activalease worden leasegegevens, betalingsschema's, begin- en einddatums en de betalingsfrequentie toegewezen. Ook worden berekeningen van de huidige waarde, maandelijkse leasebetalingen, rente en lease-afschrijving geautomatiseerd. Het systeem voert leaseclassificatietests uit, afhankelijk van de configuratie. Ook worden de bijbehorende leasetransacties gemaakt en geboekt, die zijn gebaseerd op het kader dat is gedefinieerd door de boekhoudstandaard die u volgt.
+In Activalease worden leasegegevens, betalingsschema's, begin- en einddatums en de betalingsfrequentie toegewezen. Ook worden berekeningen van de huidige nettowaarde, maandelijkse leasebetalingen, rente en lease-afschrijving geautomatiseerd. Het systeem voert leaseclassificatietests uit, afhankelijk van de configuratie. Ook worden de bijbehorende leasetransacties gemaakt en geboekt, die zijn gebaseerd op het kader dat is gedefinieerd door de boekhoudstandaard die u volgt.
 
 In het volgende diagram ziet u het leaseboek, de lease, het berekende betalingsschema, de classificatietests voor leases en leaseboeken en de bijbehorende boekhoudtransacties.
 
@@ -62,13 +60,13 @@ In het volgende diagram ziet u het leaseboek, de lease, het berekende betalingss
 
 - **Economische levensduur activum**: dit zijn de resterende perioden van de economische levensduur van een activum vanaf de begindatum van de lease. De economische levensduur van een activum wordt in aanmerking genomen in de classificatietestvergelijking. Deze verschilt van de economische levensduur zoals gedefinieerd in Vaste activa.
 
-- **Verhoogd leningtarief**: dit is het rentepercentage dat wordt gebruikt om de huidige waarde te berekenen. Het systeem gebruikt het impliciete tarief als het is gedefinieerd in de leasegegevens om de huidige waarde van de leasebetalingen te berekenen. Als het impliciete tarief niet is gedefinieerd, gebruikt het systeem het verhoogde leningtarief.
+- **Verhoogd leningtarief**: dit is het rentepercentage dat wordt gebruikt om de huidige nettowaarde te berekenen. Het systeem gebruikt het impliciete tarief als het is gedefinieerd in de leasegegevens om de huidige nettowaarde van de leasebetalingen te berekenen. Als het impliciete tarief niet is gedefinieerd, gebruikt het systeem het verhoogde leningtarief.
 
 - **Type annuïteit**: dit is de leasebetaling die verschuldigd is aan het begin van de betalingsperiode of aan het einde van de periode. Dit kan een vooruitbetaling of te betalen annuïteit zijn (aan het begin van de leasebetalingsperiode) of een normale annuïteit (aan het einde van de leasebetalingsperiode).
 
   De eerste maand wordt als periodenummer nul voor vooruitbetaling beschouwd. De eerste maand wordt beschouwd als periode één voor achterstallige betalingen.
 
-- **Samenstellingsinterval**: hiermee wordt het aantal perioden vertegenwoordigd waarover rente per jaar wordt samengesteld. Dit kan maandelijks zijn (12 perioden per jaar), per kwartaal (4 perioden per jaar), halfjaarlijks (2 perioden per jaar) of jaarlijks (1 periode per jaar). Het aantal perioden wordt meegenomen in de berekening van de huidige waarde.
+- **Samenstellingsinterval**: hiermee wordt het aantal perioden vertegenwoordigd waarover rente per jaar wordt samengesteld. Dit kan maandelijks zijn (12 perioden per jaar), per kwartaal (4 perioden per jaar), halfjaarlijks (2 perioden per jaar) of jaarlijks (1 periode per jaar). Het aantal perioden wordt meegenomen in de berekening van de huidige nettowaarde.
 
 - **Begindatum**: dit is de datum waarop de leaseverstrekker het activum beschikbaar maakt voor gebruik door de leasenemer. Alle leaseberekeningen en -transacties worden gebaseerd op de begindatum. De begindatum moet aan het begin van een periode (eerste van de maand) zijn om de nauwkeurigheid van volgende berekeningen te garanderen. U kunt het veld **Handtekeningdatum contract** gebruiken om de werkelijke datum waarop het contract is ondertekend in te voeren.
 
@@ -81,7 +79,7 @@ In het volgende diagram ziet u het leaseboek, de lease, het berekende betalingss
 
 - **Betalingsfrequentie**: hiermee wordt aangegeven of de betaling maandelijks, per kwartaal, halfjaarlijks of jaarlijks wordt uitgevoerd. De einddatum wordt automatisch berekend op basis van de begindatum en het aantal ingevoerde perioden.
 
-- **Betalingsschema**: dit is de berekende huidige waarde, gebaseerd op de tijdsduur van de leasebetalingen, het bedrag van de betalingen, de samenstellingsperioden en het type annuïteit.
+- **Betalingsschema**: dit is de berekende huidige nettowaarde, gebaseerd op de tijdsduur van de leasebetalingen, het bedrag van de betalingen, de samenstellingsperioden en het type annuïteit.
 
 - **Perioden**: dit zijn de leaseperioden die het samenstellingsinterval en het annuïteitstype aangeven. Het samenstellingsinterval bepaalt hoe perioden worden verdeeld. U kunt de volgende samenstellingsintervallen instellen:
 
@@ -92,10 +90,10 @@ In het volgende diagram ziet u het leaseboek, de lease, het berekende betalingss
 
 De eerste periode begint met periode nul als het annuïteitstype te betalen annuïteit is. Anders begint de eerste periode met één als het annuïteitstype achterstallige betalingen is.
 
-- **Maanden**: hiermee wordt het aantal kalendermaanden aangegeven voor de duur van de lease. Het betalingsbedrag is het verschuldigde bedrag zoals gedefinieerd in de betalingsfrequentie. De berekende huidige waarde is de op de huidige waarde gebaseerde leasebetaling per periode, de samenstellingsintervallen en het verhoogde leentarief.
+- **Maanden**: hiermee wordt het aantal kalendermaanden aangegeven voor de duur van de lease. Het betalingsbedrag is het verschuldigde bedrag zoals gedefinieerd in de betalingsfrequentie. De berekende huidige nettowaarde is de op de huidige nettowaarde gebaseerde leasebetaling per periode, de samenstellingsintervallen en het verhoogde leentarief.
 
 > [!NOTE] 
-> De huidige waarde wordt berekend op basis van de verdisconteerde cashflowvergelijking.
+> De huidige nettowaarde wordt berekend op basis van de verdisconteerde cashflowvergelijking.
 
 - **Boeken**: dit zijn de vooraf geconfigureerde instellingen die aan elke lease worden gekoppeld. Met het boek worden de toegepaste boekhoudstandaard, leasetypen en drempel gedefinieerd die worden gebruikt als de basis voor de classificatietests. Classificatietests worden gebruikt om het leasetype automatisch op te geven.
 
@@ -107,7 +105,7 @@ De eerste periode begint met periode nul als het annuïteitstype te betalen annu
 
   - **Leasetermijn**: dit is het percentage van de economische levensduur die in de classificatietest moet worden gebruikt. De lease wordt door het systeem geclassificeerd als financieel als het leasetype is ingesteld op automatisch en als de leasetermijn voor de economische levensduur van het activum groter is dan of gelijk is aan het hier gedefinieerde percentage.
 
-  - **Huidige waarde**: dit is het percentage van de reële waarde van het activum, die in de classificatietest moet worden gebruikt. De lease wordt door het systeem geclassificeerd als financieel als het leasetype is ingesteld op automatisch en als de huidige waarde van toekomstige leasebetalingen voor de reële waarde van het activum groter is dan of gelijk is aan het hier gedefinieerde percentage.
+  - **Huidige nettowaarde**: dit is het percentage van de reële waarde van het activum, die in de classificatietest moet worden gebruikt. De lease wordt door het systeem geclassificeerd als financieel als het leasetype is ingesteld op automatisch en als de huidige nettowaarde van toekomstige leasebetalingen voor de reële waarde van het activum groter is dan of gelijk is aan het hier gedefinieerde percentage.
 
   - **Kortlopend lease**: als de leasetermijn kleiner is dan of gelijk is aan de gedefinieerde waarde, wordt de lease geclassificeerd als een kortlopende lease.
 
@@ -115,7 +113,7 @@ De eerste periode begint met periode nul als het annuïteitstype te betalen annu
 
   - **Leaseclassificatie en -transacties**: de leaseclassificatie is een geautomatiseerd proces om de leases te classificeren op basis van de gedefinieerde drempels in boeken naast andere classificatietestcriteria om te bepalen of de lease een financiële lease, operationele lease, kortlopende lease of lease met geringe waarde is. Dit wordt ook gebruikt om aan te geven of de uitgestelde gebruiksvergoeding wordt gevolgd.
 
-Classificatietests omvatten de overdracht van eigendom, de aankoopoptie, de leasetermijn, de huidige waarde en het unieke activum. In het volgende diagram worden de classificatietests voor de lease getoond.
+Classificatietests omvatten de overdracht van eigendom, de aankoopoptie, de leasetermijn, de huidige nettowaarde en het unieke activum. In het volgende diagram worden de classificatietests voor de lease getoond.
 
 [![Classificatietests voor lease](./media/overview-03.png)](./media/overview-03.png)
 
@@ -124,22 +122,22 @@ Elk leasetype verwerkt boekhouding anders voor verschillende leasetransacties. D
 ## <a name="asset-leasing-transactions"></a>Transacties voor Activalease
 
 #### <a name="initial-recognition"></a>Initiële toerekening 
-Met de eerste toerekening van een geleasd activum wordt de berekende huidige waarde gebruikt, zodat het activum op de balans kan worden gerapporteerd. De journaalregel hiervoor wordt automatisch gegenereerd. Met deze transactie wordt de rekening van het activum met gebruiksrecht gedebiteerd en wordt de passivarekening van de operationele lease gecrediteerd. Dit gaat als volgt: Als een vast activum aan de lease is gekoppeld, wordt de invoer voor eerste toerekening weergegeven als een bijboeking van vaste activa. In dit scenario moet u een boekingsprofiel voor vaste activa definiëren om te boeken naar de rekening van het activum met gebruiksrecht. 
+Met de eerste toerekening van een geleaset activum wordt de berekende huidige nettowaarde gebruikt, zodat het activum op de balans kan worden gerapporteerd. De journaalregel hiervoor wordt automatisch gegenereerd. Met deze transactie wordt de rekening van het activum met gebruiksrecht gedebiteerd en wordt de passivarekening van de operationele lease gecrediteerd. Dit gaat als volgt: Als een vast activum aan de lease is gekoppeld, wordt de invoer voor eerste toerekening weergegeven als een bijboeking van vaste activa. In dit scenario moet u een boekingsprofiel voor vaste activa definiëren om te boeken naar de rekening van het activum met gebruiksrecht. 
 
 > [!NOTE]
 > Operationele leases worden alleen ondersteund door US GAAP ASC 842.
 
 |     Type                                          |     Debet                     |     Krediet                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
-|     Operationele lease onder US GAAP              |     Activum met gebruiksrecht      |     Verplichtingen operationele lease       |
-|     Financiële lease onder IFRS en US GAAP        |     Activum met gebruiksrecht      |     Verplichtingen operationele lease       |
+|     Operationele lease onder US GAAP            |     Activum met gebruiksrecht        |     Verplichtingen operationele lease     |
+|     Financiële lease onder IFRS en US GAAP      |     Activum met gebruiksrecht        |     Financiële leaseverplichtingen       |
 
 #### <a name="lease-liability-amortization-interest-expense"></a>Afschrijving van leaseverplichtingen (rentelasten) 
 De rente voor een lease wordt toegerekend door rente te berekenen voor het beginsaldo van de lease, de periodeleasebetaling, het verhoogde leningtarief en de samengestelde intervalperioden per jaar. Met het rentebedrag wordt de passivarekening van de operationele lease verhoogd door deze te crediteren. Dit wordt op de balans van de organisatie weergegeven. De transactie bevat ook een debetpost voor de rekening voor rentelasten, die wordt weergegeven in de winst- en verliesrekening voor financiële leases, en voor de rekening voor leasekosten voor operationele leases.
 
 |     Type                                          |     Debet                     |     Krediet                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
-|     Invoer van verplichtingen van operationele lease onder US GAAP ASC 842    |     Rente-uitgaven          |     Verplichtingen operationele lease         |
+|     Invoer van verplichtingen van operationele lease onder US GAAP ASC 842    |     Onkosten van lease         |     Verplichtingen operationele lease         |
 |     Invoer van verplichtingen van financiële lease onder IFRS en US GAAP      |     Rente-uitgaven          |     Financiële leaseverplichtingen           |
 
 #### <a name="accrued-lease-payment"></a>Transitorische leasebetaling
@@ -151,7 +149,7 @@ Een transitorische leasebetaling wordt toegerekend als een toekomstige leasebeta
 |     Financiële lease onder IFRS en US GAAP        |  Financiële leaseverplichtingen      |   Leveranciersaansprakelijkheid (subadministratie)/nog te betalen bedragen  |
 
 #### <a name="asset-depreciation"></a>Afschrijving van activa
-Het activum met gebruiksrecht wordt afgeschreven over datgene wat minder is, de economische levensduur van het activum of de leasetermijn. De methode voor het berekenen van de afschrijving voor US GAAP (ASC 842) is gebaseerd op het verschil tussen de lineaire onkosten van de lease en het rentebedrag. Rente op financiële leases wordt berekend met een standaard lineaire methode. De lease-afschrijving is van invloed op de winst- en verliesrekening door de rentelasten te debiteren. De balans wordt beïnvloed door de samengevoegde rekening van het activum met gebruiksrecht voor financiële leases te crediteren. Voor operationele leases wordt de afschrijving op de rekening voor leasekosten gecrediteerd. Als de lease aan een vast activum is gekoppeld, worden de afschrijvingstransacties alleen vanuit de module voor vaste activa uitgevoerd. 
+Het activum met gebruiksrecht wordt afgeschreven over datgene wat minder is, de economische levensduur van het activum of de leasetermijn. De methode voor het berekenen van de afschrijving voor de operationele lease onder US GAAP (ASC 842) is gebaseerd op het verschil tussen de lineaire onkosten van de lease en het rentebedrag. Afschrijving op financiële leases wordt berekend met een standaard lineaire methode. De lease-afschrijving is van invloed op de winst- en verliesrekening door de rentelasten te debiteren. De balans wordt beïnvloed door de samengevoegde rekening van het activum met gebruiksrecht voor financiële leases te crediteren. Als de lease aan een vast activum is gekoppeld, worden de afschrijvingstransacties alleen vanuit de module voor vaste activa uitgevoerd. 
 
 |     Type                                          |     Debet                     |     Krediet                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |

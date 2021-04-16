@@ -2,11 +2,9 @@
 title: Valutawisselkoersen importeren
 description: Dit onderwerp bevat informatie over de vereisten voor het importeren van deviezenreferentiekoersen die zijn gepubliceerd door wisselkoersproviders.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 37f3897f9f2a0db0bb7ccb6851fba36814ab0c7b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 20b8496bc3074eae6535eea4cfe0b254f2773e6a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249114"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823735"
 ---
 # <a name="import-currency-exchange-rates"></a>Valutawisselkoersen importeren
 
@@ -35,9 +33,8 @@ In de volgende gedeelten wordt de stroom informatie beschreven die wordt gebruik
 ## <a name="configure-an-exchange-rate-provider"></a>Een wisselkoersprovider configureren
 Voordat u wisselkoersen kunt importeren, moet u de informatie instellen die wordt vereist door de providers die de wisselkoersen aanbieden. Gebruik de pagina **Wisselkoersproviders configureren** om de wisselkoersproviders te selecteren. Sommige wisselkoersproviders zijn opgenomen in de demonstratiegegevens in Dynamics 365 Finance. De volgende tabel bevat omschrijvingen voor de besturingselementen op deze pagina.
 
-|           |                                                                                                                                                                                                                             |
-|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Veld** | **Omschrijving**                                                                                                                                                                                                             |
+| Veld | Beschrijving                   |
+|-----------|-----------------------------------|
 | **Naam**  | De naam van de wisselkoersprovider.                                                                                                                                                                                     |
 | **Sleutel**   | De unieke id voor alle configuratie-informatie die de provider vereist. Deze informatie wordt automatisch toegevoegd voor elke wisselkoersprovider die u toevoegt. |
 | **Value** | Informatie voor elke sleutel. Deze informatie wordt toegevoegd voor elke wisselkoersprovider die u toevoegt.                                                                                         |
@@ -45,9 +42,8 @@ Voordat u wisselkoersen kunt importeren, moet u de informatie instellen die word
 ## <a name="import-currency-exchange-rates"></a>Valutawisselkoersen importeren
 U kunt wisselkoersen importeren vanuit de bron van wisselkoersproviders en ze toevoegen op de pagina **Valutawisselkoersen**. Gebruik de pagina **Valutawisselkoersen importeren** om de wisselkoersen te importeren. De volgende tabel bevat omschrijvingen van de velden die nodig zijn om het importproces met succes te voltooien.
 
-|                                        |                                                                                                                                                                                                                                                                                                                                                                             |
-|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Veld**                              | **Omschrijving**                                                                                                                                                                                                                                                                                                                                                             |
+| Veld | Beschrijving                   |
+|-----------|-----------------------------------|
 | **Wisselkoerstype**                 | Een wisselkoerstype.                                                                                                                                                                                                                                                                                                                                                      |
 | **Wisselkoersprovider**             | Een wisselkoersprovider.                                                                                                                                                                                                                                                                                                                                                  |
 | **Importeren vanaf**                       | Met deze parameter wordt bepaald of vanaf de huidige datum of voor een specifiek datumbereik wordt geïmporteerd. Voer begin- en einddatums in of selecteer deze, als u een datumbereik wilt gebruiken.                                                                                                                                                                                                                |

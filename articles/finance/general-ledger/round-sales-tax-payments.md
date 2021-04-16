@@ -2,11 +2,9 @@
 title: Btw-betalingen en afrondingsregels
 description: In dit artikel wordt uitgelegd hoe de instelling van afrondingregels voor de btw-dienst werkt en afronding van het btw-saldo tijdens de taak Btw vereffenen en boeken.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 04/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7be9be728a6515bb1fc1c9bc90938a3d33ea8da8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: edbe92d009c77702a21d32afb5aebe93bc5e2ee0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5204949"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815375"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>Btw-betalingen en afrondingsregels
 

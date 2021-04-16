@@ -1,12 +1,10 @@
 ---
-title: De invoegtoepassing voor elektronische facturering instellen
-description: In dit onderwerp wordt uitgelegd hoe u de invoegtoepassing voor elektronische facturering in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management instelt.
+title: Elektronische facturering instellen
+description: In dit onderwerp wordt uitgelegd hoe u elektronische facturering in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management instelt.
 author: gionoder
-manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,62 +15,62 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5821a512b2beaf7ba2b8015355f04562f7b3b38a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fd0dda0adb292c10eea0a770ae0eae33d5f91f17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5209941"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839999"
 ---
-# <a name="set-up-the-electronic-invoicing-add-on"></a>De invoegtoepassing voor elektronische facturering instellen
+# <a name="set-up-electronic-invoicing"></a>Elektronische facturering instellen
 
 [!include [banner](../includes/banner.md)]
 
 
-Het instellen van de functie van de invoegtoepassing voor elektronische facturering betreft het proces om de vereiste configuratie te maken via de RCS-omgeving (Regulatory Configuration Services) en die configuratie te publiceren naar de server van de invoegtoepassing voor elektronische facturering. Met de instelling kunt u de configureerbare regels maken waarmee de invoegtoepassing voor elektronische facturering een beveiligd protocol via internet kan gebruiken om met een externe entiteit te communiceren en gegevens uit te wisselen via webservices.
+Het instellen van de functie Elektronische facturering betreft het proces om de vereiste configuratie te maken via de RCS-omgeving (Regulatory Configuration Services) en die configuratie te publiceren naar de server voor elektronische facturering. Met de instelling kunt u de configureerbare regels maken waarmee Elektronische facturering een beveiligd protocol via internet kan gebruiken om met een externe entiteit te communiceren en gegevens uit te wisselen via webservices.
 
 De configureerbaarheid is gebaseerd op de indelingsconfiguratie voor elektronische rapportage als een middel om inhoud samen te stellen die via digitale bestanden wordt verzonden en ontvangen. Het is ook gebaseerd op de configuratie van communicatieacties om aanvragen te verzenden naar en reacties te ontvangen van externe webservices zonder dat u code hoeft te schrijven.
 
 ## <a name="overview"></a>Overzicht
 
-"De functie van de invoegtoepassing voor elektronische facturering" is de algemene naam voor de resource die wordt geconfigureerd en gepubliceerd voor gebruik op de server van de invoegtoepassing voor elektronische facturering. Met de instelling van de functie wordt onder andere het gebruik van configuratie-indelingen voor elektronische rapportage gecombineerd om configureerbare export- en importbestanden te maken, en het gebruik van acties en actiestromen om het maken van configureerbare regels mogelijk te maken voor het verzenden van aanvragen, het importeren van reacties en het parseren van de reactie-inhoud.
+'De functie Elektronische facturering' is de algemene naam voor de resource die wordt geconfigureerd en gepubliceerd voor gebruik op de server voor elektronische facturering. Met de instelling van de functie wordt onder andere het gebruik van configuratie-indelingen voor elektronische rapportage gecombineerd om configureerbare export- en importbestanden te maken, en het gebruik van acties en actiestromen om het maken van configureerbare regels mogelijk te maken voor het verzenden van aanvragen, het importeren van reacties en het parseren van de reactie-inhoud.
 
-In de volgende afbeelding worden de hoofdonderdelen van een functie van de invoegtoepassing voor elektronische facturering weergegeven.
+In de volgende afbeelding worden de hoofdonderdelen van een functie voor elektronische facturering weergegeven.
 
-![Overzicht van de functie van de invoegtoepassing voor elektronische facturering](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![Overzicht van de functie voor elektronische facturering](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 Vanwege variaties in factuurindelingen en actiestromen kan de functie-instelling variëren afhankelijk van het land of de regio of afhankelijk van bedrijfsvereisten.
 
-## <a name="set-up-the-electronic-invoicing-add-on-feature"></a>De functie van de invoegtoepassing voor elektronische facturering instellen
+## <a name="set-up-the-electronic-invoicing-feature"></a>De functie voor elektronische facturering instellen
 
-Het instellingsproces moet in uw RCS-omgeving worden uitgevoerd. Voer de volgende stappen uit om een nieuwe functie van de invoegtoepassing voor elektronische facturering te maken.
+Het instellingsproces moet in uw RCS-omgeving worden uitgevoerd. Voer de volgende stappen uit om een nieuwe functie voor elektronische facturering te maken.
 
 1. Meld u aan bij uw RCS-omgeving.
-2. Selecteer in de werkruimte **Globalisatiefuncties** in de sectie **Functies** de tegel **Invoegtoepassing voor elektronische facturering**.
-3. Selecteer op de pagina **Functies van de invoegtoepassing voor elektronische facturering** **Importeren** om het gegevensmodel voor elektronische rapportage vanuit de algemene opslagplaats te importeren.
-4. Selecteer **Toevoegen** om een functie van de invoegtoepassing voor elektronische facturering te maken. U kunt de functie helemaal opnieuw maken of deze afleiden van een bestaande functie van de invoegtoepassing voor elektronische facturering.
+2. Selecteer in de werkruimte **Globalisatiefuncties** in de sectie **Functies** de tegel **Elektronische facturering**.
+3. Selecteer op de pagina **Functies voor elektronische facturering** de optie **Importeren** om het gegevensmodel voor elektronische rapportage vanuit de algemene opslagplaats te importeren.
+4. Selecteer **Toevoegen** om een functie voor elektronische facturering te maken. U kunt de functie helemaal opnieuw maken of deze afleiden van een bestaande functie voor elektronische facturering.
 
-    ![Een functie van de invoegtoepassing voor elektronische facturering toevoegen](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![Een functie voor elektronische facturering toevoegen](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
-> Als u een nieuwe functie van de invoegtoepassing voor elektronische facturering maakt, heeft deze een versienummer en is de standaardstatus ervan ingesteld op **Concept**.
+> Als u een nieuwe functie voor elektronische facturering maakt, heeft deze een versienummer en is de standaardstatus ervan ingesteld op **Concept**.
 
 ### <a name="configurations"></a>Configuraties
 
-Configuraties bevatten de configuraties voor elektronische rapportage die nodig zijn voor transformaties en voor het maken van de bestanden die tijdens de communicatie met externe webservices worden uitgewisseld. Een functie van de invoegtoepassing voor elektronische facturering kan zoveel configuraties van bestandsindelingen voor elektronische rapportage hebben als nodig is op basis van de technische integratiespecificatie die wordt opgegeven door de provider van de webservice.
+Configuraties bevatten de configuraties voor elektronische rapportage die nodig zijn voor transformaties en voor het maken van de bestanden die tijdens de communicatie met externe webservices worden uitgewisseld. Een functie voor elektronische facturering kan zoveel configuraties van bestandsindelingen voor elektronische rapportage hebben als nodig is op basis van de technische integratiespecificatie die wordt opgegeven door de provider van de webservice.
 
-Voer de volgende stappen uit om ER-indelingen toe te voegen aan de functie van de invoegtoepassing voor elektronische facturering.
+Voer de volgende stappen uit om ER-indelingen toe te voegen aan de functie voor elektronische facturering.
 
-1. Selecteer op de pagina **Functies van de invoegtoepassing voor elektronische facturering** op het tabblad **Configuraties** de optie **Toevoegen** om configuraties voor ER-bestandsindelingen toe te voegen voor de functie van de invoegtoepassing voor elektronische facturering.
+1. Selecteer op de pagina **Functies voor elektronische facturering** op het tabblad **Configuraties** de optie **Toevoegen** om configuraties voor ER-bestandsindelingen toe te voegen voor de functie voor elektronische facturering.
 
-    ![Configuraties voor de functie van de invoegtoepassing voor elektronische facturering toevoegen](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![Configuraties voor de functie voor elektronische facturering toevoegen](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
-    > Wanneer u een geheel nieuwe functie van de invoegtoepassing voor elektronische facturering maakt, moet u alle configuraties voor de ER-bestandsindelingen handmatig toevoegen. Wanneer u een functie van de invoegtoepassing voor elektronische facturering afleidt van een bestaande functie, worden de configuraties voor ER-bestandsindelingen automatisch gemaakt, omdat deze worden overgenomen van de oorspronkelijke functie van de invoegtoepassing voor elektronische facturering.
+    > Wanneer u een geheel nieuwe functie voor elektronische facturering maakt, moet u alle configuraties voor de ER-bestandsindelingen handmatig toevoegen. Wanneer u een functie voor elektronische facturering afleidt van een bestaande functie, worden de configuraties voor ER-bestandsindelingen automatisch gemaakt, omdat deze worden overgenomen van de oorspronkelijke functie voor elektronische facturering.
 
 2. Selecteer **Bewerken** om de pagina **Indelingsontwerper** te openen. Op deze pagina kunt u de configuratie voor de ER-bestandsindeling bewerken.
 
-    ![Configuraties voor de functie van de invoegtoepassing voor elektronische facturering bewerken](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![Configuraties voor de functie voor elektronische facturering bewerken](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Terwijl u de indeling bewerkt, wordt de status van de configuratieversie ingesteld op **Concept**.
@@ -83,20 +81,20 @@ Voer de volgende stappen uit om ER-indelingen toe te voegen aan de functie van d
 
 ### <a name="feature-setups"></a>Functie-instellingen
 
-Met functie-instellingen worden de regels voor communicatie en beveiliging met een externe webservice opgenomen. Een functie van de invoegtoepassing voor elektronische facturering kan zoveel functie-instellingen hebben als nodig zijn op basis van de bedrijfsregel die u wilt toepassen.
+Met functie-instellingen worden de regels voor communicatie en beveiliging met een externe webservice opgenomen. Een functie voor elektronische facturering kan zoveel functie-instellingen hebben als nodig zijn op basis van de bedrijfsregel die u wilt toepassen.
 
-Voer de volgende stappen uit om functie-instellingen toe te voegen aan de functie van de invoegtoepassing voor elektronische facturering.
+Voer de volgende stappen uit om functie-instellingen toe te voegen aan de functie voor elektronische facturering.
 
-1. Selecteer op de pagina **Functies van de invoegtoepassing voor elektronische facturering** op het tabblad **Instellingen** de optie **Toevoegen** om functie-instellingen toe te voegen aan de functie van de invoegtoepassing voor elektronische facturering.
+1. Selecteer op de pagina **Functies voor elektronische facturering** op het tabblad **Instellingen** de optie **Toevoegen** om functie-instellingen toe te voegen aan de functie voor elektronische facturering.
 
-    ![Functie-instellingen van de invoegtoepassing voor elektronische facturering toevoegen](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![Functie-instellingen voor elektronische facturering toevoegen](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
-    > Wanneer u een geheel nieuwe functie van de invoegtoepassing voor elektronische facturering maakt, moet u alle benodigde functie-instellingen handmatig toevoegen. Wanneer u een functie van de invoegtoepassing voor elektronische facturering afleidt van een bestaande functie, worden alle functie-instellingen automatisch gemaakt, omdat deze worden overgenomen van de oorspronkelijke functie van de invoegtoepassing voor elektronische facturering.
+    > Wanneer u een geheel nieuwe functie voor elektronische facturering maakt, moet u alle benodigde functie-instellingen handmatig toevoegen. Wanneer u een functie voor elektronische facturering afleidt van een bestaande functie, worden alle functie-instellingen automatisch gemaakt, omdat deze worden overgenomen van de oorspronkelijke functie voor elektronische facturering.
 
 2. Selecteer **Bewerken** om de instellingen van de functieversie te bewerken.
 
-    ![Functie-instellingen van de invoegtoepassing voor elektronische facturering bewerken](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![Functie-instellingen voor elektronische facturering bewerken](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. Gebruik de pagina **Instellingen functieversie** om acties, toepasbaarheidsregels en variabelen te configureren.
 
@@ -104,7 +102,7 @@ Voer de volgende stappen uit om functie-instellingen toe te voegen aan de functi
 
 ### <a name="actions"></a>Acties
 
-Acties zijn een vooraf gedefinieerde lijst met bewerkingen die in sequentiële volgorde worden uitgevoerd. Deze lijst bevat het overzicht van de stappen die nodig zijn voor de volledige uitvoering van de functie van de invoegtoepassing voor elektronische facturering. De acties kunnen, in dezelfde functie van de invoegtoepassing voor elektronische facturering, communicatie in beide richtingen bevatten: een aanvraag voor een bestemming verzenden en een reactie ontvangen en de inhoud ervan parseren.
+Acties zijn een vooraf gedefinieerde lijst met bewerkingen die in sequentiële volgorde worden uitgevoerd. Deze lijst bevat het overzicht van de stappen die nodig zijn voor de volledige uitvoering van de functie voor elektronische facturering. De acties kunnen, in dezelfde functie voor elektronische facturering, communicatie in beide richtingen bevatten: een aanvraag voor een bestemming verzenden en een reactie ontvangen en de inhoud ervan parseren.
 
 Elke actie bevat een vooraf gedefinieerde lijst met parameters die vereist zijn voor de actie om het desbetreffende doel te bereiken. Er kunnen desgewenst extra parameters worden opgegeven.
 
@@ -255,7 +253,7 @@ De beschikbare parameters verschillen, afhankelijk van de actie die is geselecte
 
 ### <a name="applicability-rules"></a>Toepasbaarheidsregels
 
-Met toepasbaarheidsregels kunt u logische regels maken waarmee de gebruikscontext voor de functie-instelling wordt bepaald. Met de overeenkomst tussen de context die door het bedrijfsdocument wordt gegeven dat wordt verzonden voor verwerking samen met de criteria voor toepasbaarheidsregels, wordt dus bepaald welke functie van de invoegtoepassing voor elektronische facturering wordt gebruikt om die verzending te verwerken.
+Met toepasbaarheidsregels kunt u logische regels maken waarmee de gebruikscontext voor de functie-instelling wordt bepaald. Met de overeenkomst tussen de context die door het bedrijfsdocument wordt gegeven dat wordt verzonden voor verwerking samen met de criteria voor toepasbaarheidsregels, wordt dus bepaald welke functie voor elektronische facturering wordt gebruikt om die verzending te verwerken.
 
 #### <a name="set-up-applicability-rules"></a>Toepasbaarheidsregels instellen
 
@@ -290,7 +288,7 @@ In de volgende tabel worden de velden beschreven die beschikbaar zijn op het tab
 
 ### <a name="variables"></a>Variabelen
 
-U kunt variabelen maken en deze vervolgens als de invoerwaarde gebruiken voor een parameter van een bepaalde actie. U kunt ze ook gebruiken voor uitwisseling van informatie tussen de services van de invoegtoepassing voor elektronische facturering en de client. Deze informatie is het resultaat van de uitvoering van een specifieke actie als onderdeel van de stroom van verzendingen.
+U kunt variabelen maken en deze vervolgens als de invoerwaarde gebruiken voor een parameter van een bepaalde actie. U kunt ze ook gebruiken voor uitwisseling van informatie tussen de services voor elektronische facturering en de client. Deze informatie is het resultaat van de uitvoering van een specifieke actie als onderdeel van de stroom van verzendingen.
 
 #### <a name="set-up-variables"></a>Variabelen instellen
 
@@ -318,45 +316,45 @@ Met de validatie wordt de consistentie van de gehele configuratie gecontroleerd.
 
 ## <a name="environments"></a>Omgevingen
 
-De omgeving van een invoegtoepassing voor elektronische facturering moet worden gekoppeld aan de functie van de invoegtoepassing voor elektronische facturering en hiervoor worden ingeschakeld. Omgevingen van de invoegtoepassing voor elektronische facturering moeten vooraf worden gemaakt en gepubliceerd via de configuratie van globalisatiefuncties in de RCS-account van uw organisatie.
+De omgeving voor elektronische facturering moet worden gekoppeld aan de functie voor elektronische facturering en hiervoor worden ingeschakeld. Omgevingen voor elektronische facturering moeten vooraf worden gemaakt en gepubliceerd via de configuratie van globalisatiefuncties in de RCS-account van uw organisatie.
 
-Voer de volgende stappen uit om de omgeving van een invoegtoepassing voor elektronische facturering in te schakelen voor de functie van de invoegtoepassing voor elektronische facturering.
+Voer de volgende stappen uit om de omgeving voor elektronische facturering in te schakelen voor de functie voor elektronische facturering.
 
-1. Selecteer op de pagina **Functies van de invoegtoepassing voor elektronische facturering** op het tabblad **Omgevingen** de optie **Inschakelen** om de omgeving van een invoegtoepassing voor elektronische facturering toe te voegen.
+1. Selecteer op de pagina **Functies voor elektronische facturering** op het tabblad **Omgevingen** de optie **Inschakelen** om de omgeving voor elektronische facturering toe te voegen.
 2. Voer in het veld **Geldig vanaf** de datum in waarop de nieuwe omgeving van kracht wordt.
 
-![Een omgeving van de invoegtoepassing voor elektronische facturering inschakelen](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![Een omgeving voor elektronische facturering inschakelen](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>Organisaties
 
-De functie van de invoegtoepassing voor elektronische facturering kan in meerdere organisaties worden gedeeld.
+De functie voor elektronische facturering kan in meerdere organisaties worden gedeeld.
 
-- Selecteer op de pagina **Functies van de invoegtoepassing voor elektronische facturering** op het tabblad **Organisaties** de optie **Delen met** om de organisatie toe te voegen waarmee u de functie van de invoegtoepassing voor elektronische facturering wilt delen.
+- Selecteer op de pagina **Functies voor elektronische facturering** op het tabblad **Organisaties** de optie **Delen met** om de organisatie toe te voegen waarmee u de functie voor elektronische facturering wilt delen.
 
-Selecteer **Delen ongedaan maken** als u het delen van de functie van de invoegtoepassing voor elektronische facturering met de organisatie wilt beëindigen.
+Selecteer **Delen ongedaan maken** als u het delen van de functie voor elektronische facturering met de organisatie wilt beëindigen.
 
 ## <a name="versions"></a>Versies
 
-Met versies kan de levenscyclus van de functie van de invoegtoepassing voor elektronische worden beheerd door de status ervan te beheren. U kunt een nieuwe versie van een bestaande functie van de invoegtoepassing voor elektronische facturering maken of, wanneer de gehele configuratie voor de functie van de invoegtoepassing voor elektronische facturering is voltooid, kunt u de status van de functie wijzigen in **Voltooid** en vervolgens in **Publiceren**.
+Met versies kan de levenscyclus van de functie voor elektronische worden beheerd door de status ervan te beheren. U kunt een nieuwe versie van een bestaande functie voor elektronische facturering maken of, wanneer de gehele configuratie voor de functie voor elektronische facturering is voltooid, kunt u de status van de functie wijzigen in **Voltooid** en vervolgens in **Publiceren**.
 
-### <a name="create-a-new-version-of-an-existing-electronic-invoicing-add-on-feature"></a>Een nieuwe versie van een bestaande functie van de invoegtoepassing voor elektronische facturering maken
+### <a name="create-a-new-version-of-an-existing-electronic-invoicing-feature"></a>Een nieuwe versie van een bestaande functie voor elektronische facturering maken
 
-1. Selecteer op de pagina **Functies van de invoegtoepassing voor elektronische facturering** in het raster aan de linkerzijde de functie van de invoegtoepassing voor elektronische facturering.
-2. Selecteer op het tabblad **Versies** **Nieuw** om een nieuwe versie van de functie van de invoegtoepassing voor elektronische facturering toe te voegen.
+1. Selecteer op de pagina **Functies voor elektronische facturering** in het raster aan de linkerzijde de functie voor elektronische facturering.
+2. Selecteer op het tabblad **Versies** de optie **Nieuw** om een nieuwe versie van de functie voor elektronische facturering toe te voegen.
 
-### <a name="change-the-status-of-the-electronic-invoicing-add-on-feature"></a>De status van de functie van de invoegtoepassing voor elektronische facturering wijzigen
+### <a name="change-the-status-of-the-electronic-invoicing-feature"></a>De status van de functie voor elektronische facturering wijzigen
 
-Voer de volgende stappen uit om de levenscyclus van de functie van de invoegtoepassing voor elektronische facturering te beheren.
+Voer de volgende stappen uit om de levenscyclus van de functie voor elektronische facturering te beheren.
 
-1. Selecteer op de pagina **Functies van de invoegtoepassing voor elektronische facturering** in het raster aan de linkerzijde de functie van de invoegtoepassing voor elektronische facturering.
+1. Selecteer op de pagina **Functies voor elektronische facturering** in het raster aan de linkerzijde de functie voor elektronische facturering.
 2. Selecteer op het tabblad **Versies** de optie **Status wijzigen** en wijzig de status vervolgens van **Concept** in **Voltooid**.
-3. U wordt gevraagd te bevestigen dat u de functie van de invoegtoepassing voor elektronische facturering en alle bijbehorende onderdelen wilt voltooien. Selecteer **Ja** als u de actie wilt bevestigen of **Nee** als u de actie wilt annuleren.
+3. U wordt gevraagd te bevestigen dat u de functie voor elektronische facturering en alle bijbehorende onderdelen wilt voltooien. Selecteer **Ja** als u de actie wilt bevestigen of **Nee** als u de actie wilt annuleren.
 
     > [!NOTE]
-    > Als u **Ja** selecteert, wordt de status van configuratieversies , die onderdelen zijn van de functie van de invoegtoepassing voor elektronische facturering, automatisch gewijzigd van **Concept** in **Voltooid**.
+    > Als u **Ja** selecteert, wordt de status van configuratieversies , die onderdelen zijn van de functie voor elektronische facturering, automatisch gewijzigd van **Concept** in **Voltooid**.
 
 4. Selecteer **Status wijzigen** en wijzig de status vervolgens van **Voltooid** in **Publiceren**.
-5. U wordt gevraagd te bevestigen dat u de functie van de invoegtoepassing voor elektronische facturering en alle bijbehorende onderdelen wilt publiceren naar de algemene opslagplaats. Selecteer **Ja** als u de actie wilt bevestigen of **Nee** als u de actie wilt annuleren.
+5. U wordt gevraagd te bevestigen dat u de functie voor elektronische facturering en alle bijbehorende onderdelen wilt publiceren naar de algemene opslagplaats. Selecteer **Ja** als u de actie wilt bevestigen of **Nee** als u de actie wilt annuleren.
 
     > [!NOTE]
     > Als u **Ja** selecteert, wordt de status van configuratieversies automatisch gewijzigd van **Voltooid** in **Gedeeld**.
