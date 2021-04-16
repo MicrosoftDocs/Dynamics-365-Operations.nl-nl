@@ -2,11 +2,9 @@
 title: Gegevens voor productmodellen overboeken
 description: Het exporteren van gegevens voor een productconfiguratiemodel vereist dat u ten minste één productmodel beschikbaar hebt.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCImport
 audience: Application User
@@ -15,26 +13,26 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 691622ddc5b6ab9a43f69c058185f97e5fd73e14
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 94372960c7478ec07540edb6bce9ca8bc68ec39f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220723"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825489"
 ---
-# <a name="transfer-data-for-product-models"></a><span data-ttu-id="4e19d-103">Gegevens voor productmodellen overboeken</span><span class="sxs-lookup"><span data-stu-id="4e19d-103">Transfer data for product models</span></span>
+# <a name="transfer-data-for-product-models"></a><span data-ttu-id="79c65-103">Gegevens voor productmodellen overboeken</span><span class="sxs-lookup"><span data-stu-id="79c65-103">Transfer data for product models</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="4e19d-104">Het exporteren van gegevens voor een productconfiguratiemodel vereist dat u ten minste één productmodel beschikbaar hebt.</span><span class="sxs-lookup"><span data-stu-id="4e19d-104">Exporting data for a product configuration model requires that you have at least one product model available.</span></span> <span data-ttu-id="4e19d-105">Deze procedure gebruikt het model Geavanceerde luidspreker in het demobedrijf USMF om u te tonen hoe u gegevens voor dit model exporteert.</span><span class="sxs-lookup"><span data-stu-id="4e19d-105">This procedure uses the High end speaker model in the demo company USMF to show you how to export data for this model.</span></span>
+<span data-ttu-id="79c65-104">Het exporteren van gegevens voor een productconfiguratiemodel vereist dat u ten minste één productmodel beschikbaar hebt.</span><span class="sxs-lookup"><span data-stu-id="79c65-104">Exporting data for a product configuration model requires that you have at least one product model available.</span></span> <span data-ttu-id="79c65-105">Deze procedure gebruikt het model Geavanceerde luidspreker in het demobedrijf USMF om u te tonen hoe u gegevens voor dit model exporteert.</span><span class="sxs-lookup"><span data-stu-id="79c65-105">This procedure uses the High end speaker model in the demo company USMF to show you how to export data for this model.</span></span>
 
-1. <span data-ttu-id="4e19d-106">Klik op Definitie van productvariantmodel.</span><span class="sxs-lookup"><span data-stu-id="4e19d-106">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="4e19d-107">Klik op Productconfiguratiemodellen.</span><span class="sxs-lookup"><span data-stu-id="4e19d-107">Click Product configuration models.</span></span>
-3. <span data-ttu-id="4e19d-108">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="4e19d-108">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="4e19d-109">Selecteer het model Geavanceerde luidspreker voor deze procedure.</span><span class="sxs-lookup"><span data-stu-id="4e19d-109">Select the High end speaker model for this procedure.</span></span>  
-4. <span data-ttu-id="4e19d-110">Klik in het actievenster op Model.</span><span class="sxs-lookup"><span data-stu-id="4e19d-110">On the Action Pane, click Model.</span></span>
-5. <span data-ttu-id="4e19d-111">Klik op Basisproduct exporteren.</span><span class="sxs-lookup"><span data-stu-id="4e19d-111">Click Export product model.</span></span>
-    * <span data-ttu-id="4e19d-112">Het downloadgedrag verschilt van browser tot browser, afhankelijk van hoe de beveiligingsinstellingen zijn ingesteld.</span><span class="sxs-lookup"><span data-stu-id="4e19d-112">The download behavior varies from browser to browser depending on how the security settings are set up.</span></span>  
+1. <span data-ttu-id="79c65-106">Klik op Definitie van productvariantmodel.</span><span class="sxs-lookup"><span data-stu-id="79c65-106">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="79c65-107">Klik op Productconfiguratiemodellen.</span><span class="sxs-lookup"><span data-stu-id="79c65-107">Click Product configuration models.</span></span>
+3. <span data-ttu-id="79c65-108">Zoek en selecteer de gewenste record in de lijst.</span><span class="sxs-lookup"><span data-stu-id="79c65-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="79c65-109">Selecteer het model Geavanceerde luidspreker voor deze procedure.</span><span class="sxs-lookup"><span data-stu-id="79c65-109">Select the High end speaker model for this procedure.</span></span>  
+4. <span data-ttu-id="79c65-110">Klik in het actievenster op Model.</span><span class="sxs-lookup"><span data-stu-id="79c65-110">On the Action Pane, click Model.</span></span>
+5. <span data-ttu-id="79c65-111">Klik op Basisproduct exporteren.</span><span class="sxs-lookup"><span data-stu-id="79c65-111">Click Export product model.</span></span>
+    * <span data-ttu-id="79c65-112">Het downloadgedrag verschilt van browser tot browser, afhankelijk van hoe de beveiligingsinstellingen zijn ingesteld.</span><span class="sxs-lookup"><span data-stu-id="79c65-112">The download behavior varies from browser to browser depending on how the security settings are set up.</span></span>  
 
 
 

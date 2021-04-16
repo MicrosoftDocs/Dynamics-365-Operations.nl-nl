@@ -2,11 +2,9 @@
 title: Gegevensentiteiten voor voorhanden voorraad uitbreiden
 description: In dit onderwerp vindt u een voorbeeld waarin wordt aangegeven hoe u uitgebreide velden aan de weergaven INVENTORSITEONHANDENTITY en INVENTWAREHOUSEONHANDENTITY kunt toevoegen, zodat de voorzieningen van voorhanden voorraad van gegevensentiteiten met extensies kunnen werken.
 author: sherry-zheng
-manager: tfehr
 ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,41 +12,41 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 0f48e424a9ab3349d3c114ecbd01424005b9a9c6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7863f37e66727e2e80ea8c8b013ee49930e7c684
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219336"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829903"
 ---
-# <a name="extend-inventory-on-hand-data-entities"></a><span data-ttu-id="1aec3-103">Gegevensentiteiten voor voorhanden voorraad uitbreiden</span><span class="sxs-lookup"><span data-stu-id="1aec3-103">Extend inventory on-hand data entities</span></span>
+# <a name="extend-inventory-on-hand-data-entities"></a><span data-ttu-id="db4f0-103">Gegevensentiteiten voor voorhanden voorraad uitbreiden</span><span class="sxs-lookup"><span data-stu-id="db4f0-103">Extend inventory on-hand data entities</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="1aec3-104">Microsoft Dynamics 365 Supply Chain Management biedt [uitbreidings](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md)functies waarmee u [velden aan tabellen kunt toevoegen via extensies](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md).</span><span class="sxs-lookup"><span data-stu-id="1aec3-104">Microsoft Dynamics 365 Supply Chain Management provides [extensibility](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) features that let you [add fields to tables through extension](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md).</span></span> <span data-ttu-id="1aec3-105">In dit onderwerp vindt u een voorbeeld waarin wordt aangegeven hoe u uitgebreide velden aan de weergaven `INVENTORSITEONHANDENTITY` en `INVENTWAREHOUSEONHANDENTITY` kunt toevoegen, zodat de voorzieningen van voorhanden voorraad van gegevensentiteiten met extensies kunnen werken.</span><span class="sxs-lookup"><span data-stu-id="1aec3-105">This topic provides an example that shows how to add extended fields to the `INVENTORSITEONHANDENTITY` and `INVENTWAREHOUSEONHANDENTITY` views, so that the capabilities of the inventory on-hand data entities can work with the extensions.</span></span> <span data-ttu-id="1aec3-106">Zie [Overzicht van Gegevensbeheer](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md) voor meer informatie over gegevensentiteiten.</span><span class="sxs-lookup"><span data-stu-id="1aec3-106">For more information about data entities, see [Data management overview](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).</span></span>
+<span data-ttu-id="db4f0-104">Microsoft Dynamics 365 Supply Chain Management biedt [uitbreidings](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md)functies waarmee u [velden aan tabellen kunt toevoegen via extensies](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md).</span><span class="sxs-lookup"><span data-stu-id="db4f0-104">Microsoft Dynamics 365 Supply Chain Management provides [extensibility](../../fin-ops-core/dev-itpro/extensibility/extensibility-home-page.md) features that let you [add fields to tables through extension](../../fin-ops-core/dev-itpro/extensibility/add-field-extension.md).</span></span> <span data-ttu-id="db4f0-105">In dit onderwerp vindt u een voorbeeld waarin wordt aangegeven hoe u uitgebreide velden aan de weergaven `INVENTORSITEONHANDENTITY` en `INVENTWAREHOUSEONHANDENTITY` kunt toevoegen, zodat de voorzieningen van voorhanden voorraad van gegevensentiteiten met extensies kunnen werken.</span><span class="sxs-lookup"><span data-stu-id="db4f0-105">This topic provides an example that shows how to add extended fields to the `INVENTORSITEONHANDENTITY` and `INVENTWAREHOUSEONHANDENTITY` views, so that the capabilities of the inventory on-hand data entities can work with the extensions.</span></span> <span data-ttu-id="db4f0-106">Zie [Overzicht van Gegevensbeheer](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md) voor meer informatie over gegevensentiteiten.</span><span class="sxs-lookup"><span data-stu-id="db4f0-106">For more information about data entities, see [Data management overview](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="1aec3-107">Hier volgt een lijst met een aantal gegevensentiteiten voor voorhanden voorraad:</span><span class="sxs-lookup"><span data-stu-id="1aec3-107">Here is a list of some of the inventory on-hand data entities:</span></span>
+> <span data-ttu-id="db4f0-107">Hier volgt een lijst met een aantal gegevensentiteiten voor voorhanden voorraad:</span><span class="sxs-lookup"><span data-stu-id="db4f0-107">Here is a list of some of the inventory on-hand data entities:</span></span>
 >
-> - <span data-ttu-id="1aec3-108">Voorhanden voorraad op locatie</span><span class="sxs-lookup"><span data-stu-id="1aec3-108">Inventory on-hand by site</span></span>
-> - <span data-ttu-id="1aec3-109">Voorhanden voorraad op locatie V2</span><span class="sxs-lookup"><span data-stu-id="1aec3-109">Inventory on-hand by site V2</span></span>
-> - <span data-ttu-id="1aec3-110">Voorhanden voorraad per magazijn</span><span class="sxs-lookup"><span data-stu-id="1aec3-110">Inventory on-hand by warehouse</span></span>
-> - <span data-ttu-id="1aec3-111">Voorhanden voorraad per magazijn V2</span><span class="sxs-lookup"><span data-stu-id="1aec3-111">Inventory on-hand by warehouse v2</span></span>
+> - <span data-ttu-id="db4f0-108">Voorhanden voorraad op locatie</span><span class="sxs-lookup"><span data-stu-id="db4f0-108">Inventory on-hand by site</span></span>
+> - <span data-ttu-id="db4f0-109">Voorhanden voorraad op locatie V2</span><span class="sxs-lookup"><span data-stu-id="db4f0-109">Inventory on-hand by site V2</span></span>
+> - <span data-ttu-id="db4f0-110">Voorhanden voorraad per magazijn</span><span class="sxs-lookup"><span data-stu-id="db4f0-110">Inventory on-hand by warehouse</span></span>
+> - <span data-ttu-id="db4f0-111">Voorhanden voorraad per magazijn V2</span><span class="sxs-lookup"><span data-stu-id="db4f0-111">Inventory on-hand by warehouse v2</span></span>
 
-<span data-ttu-id="1aec3-112">Nadat u velden hebt toegevoegd aan tabellen die in de weergave `inventSiteOnHandView` worden gebruikt, moet u de engine synchroniseren zodat de extensies correct worden herkend.</span><span class="sxs-lookup"><span data-stu-id="1aec3-112">After you add fields to tables that are used by the `inventSiteOnHandView` view, you must sync the engine so that the extensions are correctly recognized.</span></span>
+<span data-ttu-id="db4f0-112">Nadat u velden hebt toegevoegd aan tabellen die in de weergave `inventSiteOnHandView` worden gebruikt, moet u de engine synchroniseren zodat de extensies correct worden herkend.</span><span class="sxs-lookup"><span data-stu-id="db4f0-112">After you add fields to tables that are used by the `inventSiteOnHandView` view, you must sync the engine so that the extensions are correctly recognized.</span></span>
 
-1. <span data-ttu-id="1aec3-113">Breid de weergave `InventSiteOnHandView` uit door het extensieveld toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="1aec3-113">Extend the `InventSiteOnHandView` view by adding the extension field.</span></span>
-1. <span data-ttu-id="1aec3-114">Breid de weergave `InventSiteOnHandAggregatedView` uit met de extensievelden.</span><span class="sxs-lookup"><span data-stu-id="1aec3-114">Extend the `InventSiteOnHandAggregatedView` view with the extension fields.</span></span>
-1. <span data-ttu-id="1aec3-115">Breid de viewBuilder-klasse `InventSiteOnHandAggregatedViewBuilder` uit door de `getExtensionFields()`-methode te wijzigen.</span><span class="sxs-lookup"><span data-stu-id="1aec3-115">Extend the `InventSiteOnHandAggregatedViewBuilder` viewBuilder class by modifying the `getExtensionFields()` method.</span></span> <span data-ttu-id="1aec3-116">Op deze manier wijst u oude weergavevelden toe aan nieuwe weergavevelden wanneer viewBuilder-synchronisatie wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="1aec3-116">In this way, you map old view fields to new view fields when viewBuilder synchronization is run.</span></span>
+1. <span data-ttu-id="db4f0-113">Breid de weergave `InventSiteOnHandView` uit door het extensieveld toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="db4f0-113">Extend the `InventSiteOnHandView` view by adding the extension field.</span></span>
+1. <span data-ttu-id="db4f0-114">Breid de weergave `InventSiteOnHandAggregatedView` uit met de extensievelden.</span><span class="sxs-lookup"><span data-stu-id="db4f0-114">Extend the `InventSiteOnHandAggregatedView` view with the extension fields.</span></span>
+1. <span data-ttu-id="db4f0-115">Breid de viewBuilder-klasse `InventSiteOnHandAggregatedViewBuilder` uit door de `getExtensionFields()`-methode te wijzigen.</span><span class="sxs-lookup"><span data-stu-id="db4f0-115">Extend the `InventSiteOnHandAggregatedViewBuilder` viewBuilder class by modifying the `getExtensionFields()` method.</span></span> <span data-ttu-id="db4f0-116">Op deze manier wijst u oude weergavevelden toe aan nieuwe weergavevelden wanneer viewBuilder-synchronisatie wordt uitgevoerd.</span><span class="sxs-lookup"><span data-stu-id="db4f0-116">In this way, you map old view fields to new view fields when viewBuilder synchronization is run.</span></span>
 
-<span data-ttu-id="1aec3-117">U hebt bijvoorbeeld de volgende vier velden aan de `InventTable`-tabel toegevoegd:</span><span class="sxs-lookup"><span data-stu-id="1aec3-117">For example, you've added the following four fields to the `InventTable` table through extension:</span></span>
+<span data-ttu-id="db4f0-117">U hebt bijvoorbeeld de volgende vier velden aan de `InventTable`-tabel toegevoegd:</span><span class="sxs-lookup"><span data-stu-id="db4f0-117">For example, you've added the following four fields to the `InventTable` table through extension:</span></span>
 
-- <span data-ttu-id="1aec3-118">Aangepast veld 1</span><span class="sxs-lookup"><span data-stu-id="1aec3-118">Custom field 1</span></span>
-- <span data-ttu-id="1aec3-119">Aangepast veld 2</span><span class="sxs-lookup"><span data-stu-id="1aec3-119">Custom field 2</span></span>
-- <span data-ttu-id="1aec3-120">Aangepast veld 3</span><span class="sxs-lookup"><span data-stu-id="1aec3-120">Custom field 3</span></span>
-- <span data-ttu-id="1aec3-121">Aangepast veld 4</span><span class="sxs-lookup"><span data-stu-id="1aec3-121">Custom field 4</span></span>
+- <span data-ttu-id="db4f0-118">Aangepast veld 1</span><span class="sxs-lookup"><span data-stu-id="db4f0-118">Custom field 1</span></span>
+- <span data-ttu-id="db4f0-119">Aangepast veld 2</span><span class="sxs-lookup"><span data-stu-id="db4f0-119">Custom field 2</span></span>
+- <span data-ttu-id="db4f0-120">Aangepast veld 3</span><span class="sxs-lookup"><span data-stu-id="db4f0-120">Custom field 3</span></span>
+- <span data-ttu-id="db4f0-121">Aangepast veld 4</span><span class="sxs-lookup"><span data-stu-id="db4f0-121">Custom field 4</span></span>
 
-<span data-ttu-id="1aec3-122">In dit geval moet u de `getExtensionFields()`-methode op de volgende manier wijzigen.</span><span class="sxs-lookup"><span data-stu-id="1aec3-122">In the case, you must modify the `getExtensionFields()` method in the following way.</span></span>
+<span data-ttu-id="db4f0-122">In dit geval moet u de `getExtensionFields()`-methode op de volgende manier wijzigen.</span><span class="sxs-lookup"><span data-stu-id="db4f0-122">In the case, you must modify the `getExtensionFields()` method in the following way.</span></span>
 
 ```xpp
 [ExtensionOf(classStr(InventSiteOnHandAggregatedViewBuilder))]
@@ -67,7 +65,7 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 }
 ```
 
-<span data-ttu-id="1aec3-123">Nadat u deze stappen hebt voltooid, kunt u de voorhanden voorraad per de locatie en de voorhanden voorraad per magazijn uitbreiden door de nieuwe velden toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="1aec3-123">After you complete these steps, you can extend the inventory on-hand by site and inventory on-hand by warehouse data entities by adding the new fields.</span></span> <span data-ttu-id="1aec3-124">Op deze manier zorgt u ervoor dat de uitgebreide velden worden herkend en opgenomen in de gegevensmigratie waarbij deze gegevensentiteiten worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="1aec3-124">In this way, you ensure that the extended fields are recognized and included during data migration that uses those data entities.</span></span>
+<span data-ttu-id="db4f0-123">Nadat u deze stappen hebt voltooid, kunt u de voorhanden voorraad per de locatie en de voorhanden voorraad per magazijn uitbreiden door de nieuwe velden toe te voegen.</span><span class="sxs-lookup"><span data-stu-id="db4f0-123">After you complete these steps, you can extend the inventory on-hand by site and inventory on-hand by warehouse data entities by adding the new fields.</span></span> <span data-ttu-id="db4f0-124">Op deze manier zorgt u ervoor dat de uitgebreide velden worden herkend en opgenomen in de gegevensmigratie waarbij deze gegevensentiteiten worden gebruikt.</span><span class="sxs-lookup"><span data-stu-id="db4f0-124">In this way, you ensure that the extended fields are recognized and included during data migration that uses those data entities.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

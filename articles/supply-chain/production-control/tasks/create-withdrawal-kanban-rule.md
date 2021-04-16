@@ -2,11 +2,9 @@
 title: Een opnamekanbanregel maken
 description: Deze procedure toont de instellingen die nodig zijn om een kanbanregel voor opname te maken om materiaal in een lean-omgeving over te boeken.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, UnitOfMeasureLookup, KanbanCreate
 audience: Application User
@@ -16,52 +14,52 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d1e1fc6dff80457cecdcd1659ffa42fd6c9c4447
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2adbcdbb2d278b25dce1d8c027e66367e9c0930e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263989"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828821"
 ---
-# <a name="create-a-withdrawal-kanban-rule"></a><span data-ttu-id="d040f-103">Een opnamekanbanregel maken</span><span class="sxs-lookup"><span data-stu-id="d040f-103">Create a withdrawal kanban rule</span></span>
+# <a name="create-a-withdrawal-kanban-rule"></a><span data-ttu-id="05e1c-103">Een opnamekanbanregel maken</span><span class="sxs-lookup"><span data-stu-id="05e1c-103">Create a withdrawal kanban rule</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d040f-104">Deze procedure toont de instellingen die nodig zijn om een kanbanregel voor opname te maken om materiaal in een lean-omgeving over te boeken.</span><span class="sxs-lookup"><span data-stu-id="d040f-104">This procedure shows the setup that is needed to create a withdrawal kanban rule for transferring material in a lean environment.</span></span> <span data-ttu-id="d040f-105">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="d040f-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="d040f-106">Deze procedure is bedoeld voor de Procesingenieur of de Waardestroombeheerder, want zij bereiden de aanvulling van nieuw of gewijzigd materiaal voor.</span><span class="sxs-lookup"><span data-stu-id="d040f-106">This procedure is intended for the Process Engineer or the Value Stream Manager, as they prepare replenishment of new or modified material.</span></span>
+<span data-ttu-id="05e1c-104">Deze procedure toont de instellingen die nodig zijn om een kanbanregel voor opname te maken om materiaal in een lean-omgeving over te boeken.</span><span class="sxs-lookup"><span data-stu-id="05e1c-104">This procedure shows the setup that is needed to create a withdrawal kanban rule for transferring material in a lean environment.</span></span> <span data-ttu-id="05e1c-105">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="05e1c-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="05e1c-106">Deze procedure is bedoeld voor de Procesingenieur of de Waardestroombeheerder, want zij bereiden de aanvulling van nieuw of gewijzigd materiaal voor.</span><span class="sxs-lookup"><span data-stu-id="05e1c-106">This procedure is intended for the Process Engineer or the Value Stream Manager, as they prepare replenishment of new or modified material.</span></span>
 
 
-## <a name="create-new-kanban-rule"></a><span data-ttu-id="d040f-107">Nieuwe kanbanregel maken</span><span class="sxs-lookup"><span data-stu-id="d040f-107">Create new kanban rule</span></span>
-1. <span data-ttu-id="d040f-108">Ga naar Kanbanregels.</span><span class="sxs-lookup"><span data-stu-id="d040f-108">Go to Kanban rules.</span></span>
-2. <span data-ttu-id="d040f-109">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="d040f-109">Click New.</span></span>
-3. <span data-ttu-id="d040f-110">Selecteer Opname in het veld Type.</span><span class="sxs-lookup"><span data-stu-id="d040f-110">In the Type field, select 'Withdrawal'.</span></span>
-    * <span data-ttu-id="d040f-111">Het opnametype wordt gebruikt voor kanbanregels om materiaal of goederen over te boeken.</span><span class="sxs-lookup"><span data-stu-id="d040f-111">The Withdrawal type is used for kanban rules to transfer material or goods.</span></span>  
-4. <span data-ttu-id="d040f-112">Typ of selecteer een waarde in het veld Eerste planactiviteit.</span><span class="sxs-lookup"><span data-stu-id="d040f-112">In the First plan activity field, enter or select a value.</span></span>
-    * <span data-ttu-id="d040f-113">Selecteer ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="d040f-113">Select ReplenishSpeakerComponents.</span></span>   <span data-ttu-id="d040f-114">Deze activiteit wordt ingesteld om onderdelen van magazijn 11, locatie 11 naar magazijn 12 en locatie 12 te verplaatsen.</span><span class="sxs-lookup"><span data-stu-id="d040f-114">This activity is set up to move components from warehouse 11, location 11 to warehouse 12, and location 12.</span></span>  
-5. <span data-ttu-id="d040f-115">Typ of selecteer een waarde in het veld Product.</span><span class="sxs-lookup"><span data-stu-id="d040f-115">In the Product field, enter or select a value.</span></span>
-    * <span data-ttu-id="d040f-116">Selecteer M0007.</span><span class="sxs-lookup"><span data-stu-id="d040f-116">Select M0007.</span></span>  
-6. <span data-ttu-id="d040f-117">Voer in het veld Levertijd een nummer in.</span><span class="sxs-lookup"><span data-stu-id="d040f-117">In the Lead time field, enter a number.</span></span>
-    * <span data-ttu-id="d040f-118">Bijvoorbeeld 60.</span><span class="sxs-lookup"><span data-stu-id="d040f-118">For example, 60.</span></span>  
-7. <span data-ttu-id="d040f-119">Typ of selecteer een waarde in het veld Maateenheid.</span><span class="sxs-lookup"><span data-stu-id="d040f-119">In the Unit of measure field, enter or select a value.</span></span>
-    * <span data-ttu-id="d040f-120">Bijvoorbeeld Minuten.</span><span class="sxs-lookup"><span data-stu-id="d040f-120">For example, Minutes.</span></span>  
+## <a name="create-new-kanban-rule"></a><span data-ttu-id="05e1c-107">Nieuwe kanbanregel maken</span><span class="sxs-lookup"><span data-stu-id="05e1c-107">Create new kanban rule</span></span>
+1. <span data-ttu-id="05e1c-108">Ga naar Kanbanregels.</span><span class="sxs-lookup"><span data-stu-id="05e1c-108">Go to Kanban rules.</span></span>
+2. <span data-ttu-id="05e1c-109">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="05e1c-109">Click New.</span></span>
+3. <span data-ttu-id="05e1c-110">Selecteer Opname in het veld Type.</span><span class="sxs-lookup"><span data-stu-id="05e1c-110">In the Type field, select 'Withdrawal'.</span></span>
+    * <span data-ttu-id="05e1c-111">Het opnametype wordt gebruikt voor kanbanregels om materiaal of goederen over te boeken.</span><span class="sxs-lookup"><span data-stu-id="05e1c-111">The Withdrawal type is used for kanban rules to transfer material or goods.</span></span>  
+4. <span data-ttu-id="05e1c-112">Typ of selecteer een waarde in het veld Eerste planactiviteit.</span><span class="sxs-lookup"><span data-stu-id="05e1c-112">In the First plan activity field, enter or select a value.</span></span>
+    * <span data-ttu-id="05e1c-113">Selecteer ReplenishSpeakerComponents.</span><span class="sxs-lookup"><span data-stu-id="05e1c-113">Select ReplenishSpeakerComponents.</span></span>   <span data-ttu-id="05e1c-114">Deze activiteit wordt ingesteld om onderdelen van magazijn 11, locatie 11 naar magazijn 12 en locatie 12 te verplaatsen.</span><span class="sxs-lookup"><span data-stu-id="05e1c-114">This activity is set up to move components from warehouse 11, location 11 to warehouse 12, and location 12.</span></span>  
+5. <span data-ttu-id="05e1c-115">Typ of selecteer een waarde in het veld Product.</span><span class="sxs-lookup"><span data-stu-id="05e1c-115">In the Product field, enter or select a value.</span></span>
+    * <span data-ttu-id="05e1c-116">Selecteer M0007.</span><span class="sxs-lookup"><span data-stu-id="05e1c-116">Select M0007.</span></span>  
+6. <span data-ttu-id="05e1c-117">Voer in het veld Levertijd een nummer in.</span><span class="sxs-lookup"><span data-stu-id="05e1c-117">In the Lead time field, enter a number.</span></span>
+    * <span data-ttu-id="05e1c-118">Bijvoorbeeld 60.</span><span class="sxs-lookup"><span data-stu-id="05e1c-118">For example, 60.</span></span>  
+7. <span data-ttu-id="05e1c-119">Typ of selecteer een waarde in het veld Maateenheid.</span><span class="sxs-lookup"><span data-stu-id="05e1c-119">In the Unit of measure field, enter or select a value.</span></span>
+    * <span data-ttu-id="05e1c-120">Bijvoorbeeld Minuten.</span><span class="sxs-lookup"><span data-stu-id="05e1c-120">For example, Minutes.</span></span>  
 
-## <a name="set-quantities-for-kanban"></a><span data-ttu-id="d040f-121">Hoeveelheden voor kanban instellen</span><span class="sxs-lookup"><span data-stu-id="d040f-121">Set quantities for kanban</span></span>
-1. <span data-ttu-id="d040f-122">Stel Standaardhoeveelheid in op '5'.</span><span class="sxs-lookup"><span data-stu-id="d040f-122">Set Default quantity to '5'.</span></span>
-    * <span data-ttu-id="d040f-123">Dit is de hoeveelheid die voor elke kanban wordt overgeboekt.</span><span class="sxs-lookup"><span data-stu-id="d040f-123">This is the quantity that will be transferred for each kanban.</span></span>  
-2. <span data-ttu-id="d040f-124">Voer 2 in het veld Vaste kanbanhoeveelheid in.</span><span class="sxs-lookup"><span data-stu-id="d040f-124">In the Fixed kanban quantity field, enter '2'.</span></span>
-    * <span data-ttu-id="d040f-125">Dit is het aantal kanbans die actief moeten zijn.</span><span class="sxs-lookup"><span data-stu-id="d040f-125">This is the amount of kanbans that should be active.</span></span> <span data-ttu-id="d040f-126">In dit geval 2 kanbans die elk 5 overboeken.</span><span class="sxs-lookup"><span data-stu-id="d040f-126">In this case, 2 kanbans transferring 5 each.</span></span>  
-3. <span data-ttu-id="d040f-127">Typ '1' in het veld Minimum waarschuwingsgrens.</span><span class="sxs-lookup"><span data-stu-id="d040f-127">In the Alert boundary minimum field, enter '1'.</span></span>
-    * <span data-ttu-id="d040f-128">Gebruikt om het minimumaantal van volledige kanbans bij te houden die bij de bestemming moeten zijn.</span><span class="sxs-lookup"><span data-stu-id="d040f-128">Used to keep track of the minimum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="d040f-129">Dit wordt bijvoorbeeld gebruikt op het overzicht van kanbanhoeveelheid.</span><span class="sxs-lookup"><span data-stu-id="d040f-129">For example, this is used on the kanban quantity overview.</span></span>  
-4. <span data-ttu-id="d040f-130">Typ '2' in het veld Maximum waarschuwingsgrens.</span><span class="sxs-lookup"><span data-stu-id="d040f-130">In the Alert boundary maximum field, enter '2'.</span></span>
-    * <span data-ttu-id="d040f-131">Gebruikt om het maximumaantal van volledige kanbans bij te houden die bij de bestemming moeten zijn.</span><span class="sxs-lookup"><span data-stu-id="d040f-131">Used to keep track of the maximum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="d040f-132">Dit wordt bijvoorbeeld gebruikt op het overzicht van kanbanhoeveelheid.</span><span class="sxs-lookup"><span data-stu-id="d040f-132">For example, this is used on the kanban quantity overview.</span></span>  
+## <a name="set-quantities-for-kanban"></a><span data-ttu-id="05e1c-121">Hoeveelheden voor kanban instellen</span><span class="sxs-lookup"><span data-stu-id="05e1c-121">Set quantities for kanban</span></span>
+1. <span data-ttu-id="05e1c-122">Stel Standaardhoeveelheid in op '5'.</span><span class="sxs-lookup"><span data-stu-id="05e1c-122">Set Default quantity to '5'.</span></span>
+    * <span data-ttu-id="05e1c-123">Dit is de hoeveelheid die voor elke kanban wordt overgeboekt.</span><span class="sxs-lookup"><span data-stu-id="05e1c-123">This is the quantity that will be transferred for each kanban.</span></span>  
+2. <span data-ttu-id="05e1c-124">Voer 2 in het veld Vaste kanbanhoeveelheid in.</span><span class="sxs-lookup"><span data-stu-id="05e1c-124">In the Fixed kanban quantity field, enter '2'.</span></span>
+    * <span data-ttu-id="05e1c-125">Dit is het aantal kanbans die actief moeten zijn.</span><span class="sxs-lookup"><span data-stu-id="05e1c-125">This is the amount of kanbans that should be active.</span></span> <span data-ttu-id="05e1c-126">In dit geval 2 kanbans die elk 5 overboeken.</span><span class="sxs-lookup"><span data-stu-id="05e1c-126">In this case, 2 kanbans transferring 5 each.</span></span>  
+3. <span data-ttu-id="05e1c-127">Typ '1' in het veld Minimum waarschuwingsgrens.</span><span class="sxs-lookup"><span data-stu-id="05e1c-127">In the Alert boundary minimum field, enter '1'.</span></span>
+    * <span data-ttu-id="05e1c-128">Gebruikt om het minimumaantal van volledige kanbans bij te houden die bij de bestemming moeten zijn.</span><span class="sxs-lookup"><span data-stu-id="05e1c-128">Used to keep track of the minimum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="05e1c-129">Dit wordt bijvoorbeeld gebruikt op het overzicht van kanbanhoeveelheid.</span><span class="sxs-lookup"><span data-stu-id="05e1c-129">For example, this is used on the kanban quantity overview.</span></span>  
+4. <span data-ttu-id="05e1c-130">Typ '2' in het veld Maximum waarschuwingsgrens.</span><span class="sxs-lookup"><span data-stu-id="05e1c-130">In the Alert boundary maximum field, enter '2'.</span></span>
+    * <span data-ttu-id="05e1c-131">Gebruikt om het maximumaantal van volledige kanbans bij te houden die bij de bestemming moeten zijn.</span><span class="sxs-lookup"><span data-stu-id="05e1c-131">Used to keep track of the maximum amount of full kanbans that should be at the destination.</span></span> <span data-ttu-id="05e1c-132">Dit wordt bijvoorbeeld gebruikt op het overzicht van kanbanhoeveelheid.</span><span class="sxs-lookup"><span data-stu-id="05e1c-132">For example, this is used on the kanban quantity overview.</span></span>  
 
-## <a name="create-kanbans"></a><span data-ttu-id="d040f-133">Kanbans maken</span><span class="sxs-lookup"><span data-stu-id="d040f-133">Create kanbans</span></span>
-1. <span data-ttu-id="d040f-134">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="d040f-134">Click Save.</span></span>
-    * <span data-ttu-id="d040f-135">De kanbanregel moet worden opgeslagen voordat kanbans kunnen worden gemaakt.</span><span class="sxs-lookup"><span data-stu-id="d040f-135">The kanban rule needs to be saved before kanbans can be created.</span></span>  
-2. <span data-ttu-id="d040f-136">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="d040f-136">Click Add.</span></span>
-    * <span data-ttu-id="d040f-137">Er zijn geen actieve kanbans, omdat het voorgestelde 'Aantal nieuwe kanbans' 2 is. Dit is gelijk aan de 'Vaste kanbanhoeveelheid'.</span><span class="sxs-lookup"><span data-stu-id="d040f-137">Note that there are no active kanbans because the suggested 'Number of new kanbans' is 2, which is equal to the 'Fixed kanban quantity'.</span></span>  
-3. <span data-ttu-id="d040f-138">Klik op Maken.</span><span class="sxs-lookup"><span data-stu-id="d040f-138">Click Create.</span></span>
-    * <span data-ttu-id="d040f-139">Hierdoor worden twee kanbans gemaakt.</span><span class="sxs-lookup"><span data-stu-id="d040f-139">This will create two kanbans.</span></span>  
-    * <span data-ttu-id="d040f-140">Voor deze opnamekanbanregel werden er 2 kanbans gemaakt, voor elk 5.</span><span class="sxs-lookup"><span data-stu-id="d040f-140">Note that 2 kanbans, for 5 each, was created for this withdrawal kanban rule.</span></span>  <span data-ttu-id="d040f-141">Dit is de laatste stap in deze procedure.</span><span class="sxs-lookup"><span data-stu-id="d040f-141">This is the last step in this procedure.</span></span>  
+## <a name="create-kanbans"></a><span data-ttu-id="05e1c-133">Kanbans maken</span><span class="sxs-lookup"><span data-stu-id="05e1c-133">Create kanbans</span></span>
+1. <span data-ttu-id="05e1c-134">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="05e1c-134">Click Save.</span></span>
+    * <span data-ttu-id="05e1c-135">De kanbanregel moet worden opgeslagen voordat kanbans kunnen worden gemaakt.</span><span class="sxs-lookup"><span data-stu-id="05e1c-135">The kanban rule needs to be saved before kanbans can be created.</span></span>  
+2. <span data-ttu-id="05e1c-136">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="05e1c-136">Click Add.</span></span>
+    * <span data-ttu-id="05e1c-137">Er zijn geen actieve kanbans, omdat het voorgestelde 'Aantal nieuwe kanbans' 2 is. Dit is gelijk aan de 'Vaste kanbanhoeveelheid'.</span><span class="sxs-lookup"><span data-stu-id="05e1c-137">Note that there are no active kanbans because the suggested 'Number of new kanbans' is 2, which is equal to the 'Fixed kanban quantity'.</span></span>  
+3. <span data-ttu-id="05e1c-138">Klik op Maken.</span><span class="sxs-lookup"><span data-stu-id="05e1c-138">Click Create.</span></span>
+    * <span data-ttu-id="05e1c-139">Hierdoor worden twee kanbans gemaakt.</span><span class="sxs-lookup"><span data-stu-id="05e1c-139">This will create two kanbans.</span></span>  
+    * <span data-ttu-id="05e1c-140">Voor deze opnamekanbanregel werden er 2 kanbans gemaakt, voor elk 5.</span><span class="sxs-lookup"><span data-stu-id="05e1c-140">Note that 2 kanbans, for 5 each, was created for this withdrawal kanban rule.</span></span>  <span data-ttu-id="05e1c-141">Dit is de laatste stap in deze procedure.</span><span class="sxs-lookup"><span data-stu-id="05e1c-141">This is the last step in this procedure.</span></span>  
 
 
 
