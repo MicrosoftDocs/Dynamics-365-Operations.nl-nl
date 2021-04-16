@@ -2,11 +2,9 @@
 title: Ontvangstbewijsindelingen instellen en ontwerpen
 description: In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te bepalen hoe ontvangsten, facturen en andere documenten worden afgedrukt. Dynamics 365 Commerce heeft een ontwerper voor formulierindelingen waarmee u gemakkelijk en grafisch verschillende soorten formulierindelingen kunt maken en veranderen.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailFormLayout
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c44798c6b879ebd95618d976beebe1d41b40dcdd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 281a5e2be6f43f5a83ef7435b2041423dd5d4caa
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243740"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792118"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Ontvangstbewijsindelingen instellen en ontwerpen
 

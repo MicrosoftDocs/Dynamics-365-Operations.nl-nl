@@ -2,11 +2,9 @@
 title: Domeinen in Dynamics 365 Commerce
 description: In dit onderwerp wordt beschreven hoe domeinen worden verwerkt in Microsoft Dynamics 365 Commerce.
 author: BrShoo
-manager: AnnBe
-ms.date: 09/03/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: bafa49cc570ddf7e0ff9c3dcb1b6902fb341b790
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8d4381c64b69f8b62dcb509407c4f04dcee696ae
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225784"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5792794"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeinen in Dynamics 365 Commerce
 
@@ -40,7 +38,7 @@ Wanneer u een e-commerce-omgeving inricht in [Microsoft Dynamics Lifecycle Servi
 
 De volgende afbeelding toont het inrichtingsscherm voor e-Commerce van LCS met het vak **Ondersteunde hostnamen** gemarkeerd. 
 
-![Inrichtingsscherm voor e-Commerce van LCS met het vak **Ondersteunde hostnamen** gemarkeerd](./media/Domains_ProvisioningeCommerceScreen.png)
+![Inrichtingsscherm voor e-Commerce van LCS met het vak **Ondersteunde hostnamen** gemarkeerd](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 U kunt een serviceverzoek maken om extra domeinen aan een omgeving toe te voegen als het inrichten al heeft plaatsgevonden. Als u een serviceaanvraag wilt maken in LCS, gaat u in uw omgeving naar **Ondersteuning \> Ondersteuningsproblemen** en selecteert u **Een incident indienen**.
 
