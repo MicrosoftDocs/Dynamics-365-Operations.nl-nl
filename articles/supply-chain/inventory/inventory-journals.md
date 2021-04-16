@@ -2,11 +2,9 @@
 title: Voorraadjournalen
 description: In dit onderwerp wordt beschreven hoe u voorraadjournalen kunt gebruiken om diverse typen fysieke voorraadtransacties te boeken.
 author: perlynne
-manager: tfehr
 ms.date: 04/05/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c20e17cf9f20fd6317cd61bc6dfc019eb20612af
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a94c5371db10fa4f0090f2d177b1a01233ab0f30
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235012"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826030"
 ---
 # <a name="inventory-journals"></a>Voorraadjournalen
 
@@ -54,7 +52,7 @@ Wanneer u een voorraadcorrectiejournaal gebruikt, kunt u kosten aan een artikel 
 
 ### <a name="transfer"></a>Overboeken
 
-U kunt overboekingsjournalen gebruiken om artikelen tussen voorraadlocaties, batches, of productvarianten te boeken, zonder kostenimplicaties te koppelen. U kunt bijvoorbeeld artikelen van het ene magazijn naar een ander magazijn in hetzelfde bedrijf overboeken. Wanneer u een overboekingsjournaal gebruikt, moet u de dimensies "van" en "naar" beide opgeven (bijvoorbeeld, voor Locatie en Magazijn). De voorhanden voorraad voor de gedefinieerde voorraaddimensie wordt dienovereenkomstig bijgewerkt. Voorraadoverboekingen reflecteren de onmiddellijke verplaatsing van materiaal. Transitvoorraad wordt niet getraceerd. Als transitvoorraad moet worden gevolgd, kunt u in plaats daarvan beter een transferorder gebruiken. Wanneer u een overboekingsjournaal boekt, worden twee voorraadtransacties gemaakt voor elke journaalregel:
+U kunt overboekingsjournalen gebruiken om artikelen tussen voorraadlocaties, batches, of productvarianten te boeken, zonder kostenimplicaties te koppelen. U kunt bijvoorbeeld artikelen van het ene magazijn naar een ander magazijn in hetzelfde bedrijf overboeken. Wanneer u een overboekingsjournaal gebruikt, moet u de dimensies "van" en "naar" beide opgeven (bijvoorbeeld, voor Locatie en Magazijn). De voorhanden voorraad voor de gedefinieerde voorraaddimensie wordt dienovereenkomstig bijgewerkt. Voorraadoverboekingen reflecteren de onmiddellijke verplaatsing van materiaal. Transitvoorraad wordt niet getraceerd. Als transitvoorraad moet worden gevolgd, kunt u in plaats daarvan beter een overboekingsorder gebruiken. Wanneer u een overboekingsjournaal boekt, worden twee voorraadtransacties gemaakt voor elke journaalregel:
 
 -   Een voorraaduitgifte op de "van"-locatie.
 -   Een voorraadontvangst op de "aan"-locatie.

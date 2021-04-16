@@ -2,11 +2,9 @@
 title: Samenvoeging van waardemodellen en afschrijvingsboeken voor vaste activa
 description: 'In eerdere versies waren er twee waardevaststellingsconcepten voor vaste activa: waardemodellen en afschrijvingsboeken. In versie 1611 van Microsoft Dynamics 365 for Operations zijn functionaliteiten van waardemodellen en afschrijvingsboeken samengevoegd in één concept dat de naam boek draagt.'
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 26409b6416a5b4e93ccd051b1625633ea12e22ac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f027a856dbd596ede84c39e30ee2227aab9329f2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212464"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826733"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Samenvoeging van waardemodellen en afschrijvingsboeken voor vaste activa
 
@@ -34,9 +32,8 @@ De nieuwe functionaliteit 'boek' is gebaseerd op bestaande functionaliteit van w
 ## <a name="setup"></a>Instellen
 Standaard boeken de boeken naar zowel het grootboek (GB) als ook het subgrootboek voor vaste activa. Boeken hebben een nieuwe optie **Boeken naar grootboek**, waarmee u het boeken naar het GB kunt uitschakelen en alleen laat boeken naar het vaste-activasubgrootboek. Deze functionaliteit lijkt op het vroegere boekingsgedrag voor afschrijvingsboeken. De instelling voor journaalnamen heeft een nieuwe boekingslaag met de naam Geen. Deze boekingslaag is specifiek toegevoegd voor vaste-activatransacties. Om transacties te boeken voor boeken die niet naar het GB boeken, moet u een journaalnaam gebruiken waarvoor de boekingslaag is ingesteld op **Geen**.
 
-|                                                  |                                 |                                 |                                                         |
+| &nbsp;                                           | Afschrijvingsboek               | Waardemodel                     | Boek (nieuw)                                              |
 |--------------------------------------------------|---------------------------------|---------------------------------|---------------------------------------------------------|
-|                                                  | Afschrijvingsboek               | Waardemodel                     | Boek (nieuw)                                              |
 | Boeken naar het GB                                   | Nooit                           | Altijd                          | Optie om te boeken naar het GB                                |
 | Boekingslagen                                   | Niet van toepassing                  | 3: Huidig, Bewerkingen en Btw | 11: Huidig, Bewerkingen, Btw, 7 aangepaste lagen en Geen |
 | Journaalnamen                                    | Journaalnamen afschrijvingsboek | GB - Journaalnamen              | GB - Journaalnamen                                      |
@@ -46,9 +43,8 @@ Standaard boeken de boeken naar zowel het grootboek (GB) als ook het subgrootboe
 ## <a name="processes"></a>Processen
 Processen maken nu gebruik van een gemeenschappelijke pagina. Sommige processen zijn alleen toegestaan als de optie **Boeken naar grootboek** in de boekconfiguratie is ingesteld op **Nee**.
 
-|                                |                           |                     |                                          |
+| &nbsp;                                           | Afschrijvingsboek               | Waardemodel                     | Boek (nieuw)                                              |
 |--------------------------------|---------------------------|---------------------|------------------------------------------|
-|                                | Afschrijvingsboek         | Waardemodel         | Boek (nieuw)                               |
 | Transactie-invoer              | Afschrijvingsboekjournaal | Vaste-activajournaal | Vaste-activajournaal                      |
 | Bonusafschrijving             | Toegestaan                   | Niet toegestaan         | Toegestaan                                  |
 | Historische transacties verwijderen | Toegestaan                   | Niet toegestaan         | Toegestaan, tenzij u boekt naar het GB |
@@ -57,9 +53,8 @@ Processen maken nu gebruik van een gemeenschappelijke pagina. Sommige processen 
 ## <a name="inquiries-and-reports"></a>Query's en rapporten
 Query's en rapporten ondersteunen alle boeken. Rapporten die niet in de volgende tabel worden vermeld, ondersteunden voorheen zowel afschrijvingsboeken als ook waardemodellen en ondersteunen verder alle boektypen. Het veld **Boekingslaag** is ook toegevoegd aan rapporten, zodat u eenvoudiger transactieboekingen kunt identificeren.
 
-|                                       |                                |                          |                          |
+| &nbsp;                                           | Afschrijvingsboek               | Waardemodel                     | Boek (nieuw)                                              |
 |---------------------------------------|--------------------------------|--------------------------|--------------------------|
-|                                       | Afschrijvingsboek              | Waardemodel              | Boek (nieuw)               |
 | Query's                             | Afschrijvingsboektransacties | Vaste-activatransacties | Vaste-activatransacties |
 | Vaste-activaoverzicht                 | Niet toegestaan                    | Toegestaan                  | Toegestaan                  |
 | Basis van vaste activa                     | Toegestaan                        | Niet toegestaan              | Toegestaan                  |

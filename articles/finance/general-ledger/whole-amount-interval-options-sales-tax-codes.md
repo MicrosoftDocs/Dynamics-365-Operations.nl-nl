@@ -2,11 +2,9 @@
 title: Berekeningsopties Volledige bedrag en Interval voor btw-codes
 description: In dit artikel worden de opties voor het veld Berekeningsmethode voor btw-codes uitgelegd en wordt uitgelegd hoe btw wordt berekend voor intervallen en gehele bedragen.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxData, TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0414f835b7797d2ed554f8d9dbd95b2ad47bba43
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 48569da2d504e4c380ca89bfec4450ad1b9888e5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234112"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842363"
 ---
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Berekeningsopties Volledige bedrag en Interval voor btw-codes
 
@@ -46,9 +44,8 @@ Als een bedrag de bovengrens van het vorige interval en de ondergrens van het vo
 ## <a name="example-whole-amount-method-of-calculation"></a>Voorbeeld: Berekeningsmethode is volledige bedrag
 Op de pagina Waarden btw-code worden de btw-tarieven ingesteld met de volgende intervallen:
 
-|                   |                   |              |
+| Ondergrens     | Bovengrens     | Btw-tarief     |
 |-------------------|-------------------|--------------|
-| **Ondergrens** | **Bovengrens** | **Btw-tarief** |
 | 0,00              | 50,00             | 30%          |
 | 50,00             | 100,00            | 20%          |
 | 100,00            | 0,00              | 10%          |
@@ -65,9 +62,8 @@ De btw wordt berekend op het volledige belastbare bedrag.
 ## <a name="example-interval-method-of-calculation"></a>Voorbeeld: Berekeningsmethode Interval
 Op de pagina Waarden worden de btw-tarieven ingesteld met de volgende intervallen:
 
-|                   |                   |              |
+| Ondergrens     | Bovengrens     | Btw-tarief     |
 |-------------------|-------------------|--------------|
-| **Ondergrens** | **Bovengrens** | **Btw-tarief** |
 | 0,00              | 50,00             | 30%          |
 | 50,00             | 100,00            | 20%          |
 | 100,00            | 0,00              | 10%          |

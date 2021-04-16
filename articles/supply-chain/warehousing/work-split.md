@@ -2,11 +2,9 @@
 title: Werk splitsen
 description: Dit onderwerp bevat informatie over de functionaliteit voor gesplitst werk. Met deze functie kunt u grote werkorders splitsen in meerdere kleinere werkorders die u vervolgens aan meerdere magazijnmedewerkers kunt toewijzen. Op deze manier kan het werk tegelijkertijd worden verzameld door verschillende magazijnmedewerkers.
 author: mirzaab
-manager: tfehr
 ms.date: 10/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6dbf0f6dd0c691db74eaad2174d8f9849b4cb26a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245077"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830757"
 ---
 # <a name="work-split"></a>Werk splitsen
 
@@ -69,7 +67,7 @@ Met de functie *Werk splitsen* worden de volgende twee knoppen toegevoegd aan he
 >
 > - Het werk wordt momenteel gesplitst door een andere gebruiker. Als u de splitsingspagina probeert te openen voor werk dat al wordt gesplitst door een andere gebruiker, wordt het volgende foutbericht weergegeven: "Het werk met id \#\#\#\# wordt momenteel gesplitst. Probeer het over een paar minuten opnieuw. Neem contact op met een supervisor als u dit bericht blijft ontvangen."
 
-Een nieuwe reden voor het blokkeren van werk, *Werk gesplitst*, geeft aan dat de werk-id op dat moment wordt gesplitst. Deze wordt weergegeven op de pagina **Werk splitsen** en in de magazijn-app als een gebruiker het werk probeert uit te voeren. Wanneer er blokkeringsredenen worden gebruikt, wordt de naam van het veld **Geblokkeerde wave** van de werk-id gewijzigd in **Geblokkeerd**.
+Een nieuwe reden voor het blokkeren van werk, *Werk gesplitst*, geeft aan dat de werk-id op dat moment wordt gesplitst. Deze wordt weergegeven op de pagina **Werk splitsen** en in de mobiele app Magazijnbeheer als een gebruiker het werk probeert uit te voeren. Wanneer er blokkeringsredenen worden gebruikt, wordt de naam van het veld **Geblokkeerde wave** van de werk-id gewijzigd in **Geblokkeerd**.
 
 ## <a name="initiate-a-work-split"></a>Een werksplitsing starten
 
@@ -147,9 +145,9 @@ Als u het splitsen van werk wilt voltooien, moet de blokkeringsreden *Gesplitst 
 
 Nadat de blokkeringsreden *Gesplitst werk* is verwijderd, kan het werk worden uitgevoerd op het mobiele apparaat, mits de status **Geblokkeerd** is ingesteld op *Nee* in de werk-id.
 
-## <a name="user-blocking-on-the-warehouse-app"></a>Gebruikers blokkeren in de magazijn-app
+## <a name="user-blocking-on-the-warehouse-management-mobile-app"></a>Gebruiker blokkeren in de mobiele app Magazijnbeheer
 
-Als u de magazijn-app probeert te gebruiken voor verzamelen van werk voor een werk-ID die al wordt gesplitst, wordt het volgende foutbericht weergegeven: "Het werk met id \#\#\#\# wordt momenteel gesplitst." Als dit foutbericht wordt weergegeven, selecteert u **Annuleren**. Vervolgens kunt u doorgaan met het verwerken van ander werk.
+Als u de mobiele app Magazijnbeheer probeert te gebruiken voor verzamelen van werk voor een werk-id die al wordt gesplitst, wordt het volgende foutbericht weergegeven: "Het werk met id \#\#\#\# wordt momenteel gesplitst." Als dit foutbericht wordt weergegeven, selecteert u **Annuleren**. Vervolgens kunt u doorgaan met het verwerken van ander werk.
 
 ## <a name="other-blocked-operations"></a>Andere geblokkeerde bewerkingen
 

@@ -2,11 +2,9 @@
 title: Correctieve facturering
 description: Een creditnota is een document dat het bedrag dat de koper heeft betaald, vermindert of schrapt.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/15/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Denmark, Germany, France, Ireland, Netherlands, United Kingdom
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14e5dbae1bc6aae7767fa5344b1d499254e1db1f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 601460b2fcf49536dd8f068faadd2cd3ae9cd5f2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236309"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839880"
 ---
 # <a name="corrective-invoicing"></a>Correctieve facturering
 

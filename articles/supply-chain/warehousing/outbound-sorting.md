@@ -2,11 +2,9 @@
 title: Uitgaand sorteren
 description: Dit onderwerp biedt informatie over uitgaand sorteren. Deze functionaliteit vereenvoudigt het verwerken van kleine containers en helpt magazijnmedewerkers de palletcapaciteit in de vrachtwagen beter te plannen en te organiseren.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPack, WHSOutboundSortTemplate, WHSOutboundSortPositionAssignments, WHSLocationType, WHSLoactionProfile
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 44807e8d9915652c1c9d365de47d594a0c4f90e5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3c576209a86f776ac424f7fb9f2b606bea774a67
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225950"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828389"
 ---
 # <a name="outbound-sorting"></a>Uitgaand sorteren
 

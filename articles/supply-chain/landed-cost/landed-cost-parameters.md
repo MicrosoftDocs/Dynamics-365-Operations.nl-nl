@@ -2,7 +2,6 @@
 title: Instellen van parameters voor francoprijzen
 description: In dit onderwerp wordt beschreven hoe u algemene gegevens en configuratie-instellingen kunt instellen die in de hele module Francoprijzen worden gebruikt voor boekingen, statusupdates, nummerreeksen en gedrag.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 489c0db50d52c1e58eab73ad19a73babf22b4de7
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 973f23a18166abeb05bdea660ef69230d9a8c4c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500761"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833900"
 ---
 # <a name="landed-cost-parameters-setup"></a>Instellen van parameters voor francoprijzen
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 U gebruikt de pagina **Parameters voor francoprijzen** om algemene gegevens en configuratie-instellingen in te stellen die in de hele module **Francoprijzen** worden gebruikt voor boekingen, statusupdates, nummerreeksen en gedrag. Het instellen van parameters wordt door rechtspersonen gedeeld en kan door een beheerder worden gewijzigd.
 
@@ -140,6 +138,6 @@ Op de pagina **Alle reizen** kunnen gebruikers alle reizen voor alle rechtsperso
 
 ## <a name="feature-visibility-tab"></a>Tabblad Functiezichtbaarheid
 
-Met Francoprijzen worden functies (velden en functies) aan meerdere gebruikte pagina's in Microsoft Dynamics 365 Supply Chain Management toegevoegd. Deze pagina's omvatten pagina's die betrekking hebben op hoofdgegevens van leveranciers, vrijgegeven producten, inkooporders, transferorders en magazijninstellingen. Als u Francoprijzen gebruikt, moet u deze functies overal zichtbaar maken voordat u hiervan kunt profiteren. Als u Francoprijzen niet gebruikt, kunt u de functies verbergen.
+Met Francoprijzen worden functies (velden en functies) aan meerdere gebruikte pagina's in Microsoft Dynamics 365 Supply Chain Management toegevoegd. Deze pagina's omvatten pagina's die betrekking hebben op hoofdgegevens van leveranciers, vrijgegeven producten, inkooporders, overboekingsorders en magazijninstellingen. Als u Francoprijzen gebruikt, moet u deze functies overal zichtbaar maken voordat u hiervan kunt profiteren. Als u Francoprijzen niet gebruikt, kunt u de functies verbergen.
 
 Stel op het tabblad **Functiezichtbaarheid** van de pagina **Parameters voor francoprijzen** de optie **Activeren** in op *Ja* om de functies voor Francoprijzen zichtbaar te maken op locaties waar deze beschikbaar zijn. Stel de optie in op *Nee* om de functies op gemeenschappelijke pagina's buiten Francoprijzen te verbergen. Zelfs wanneer de optie is ingesteld op *Nee*, blijft de module zelf, inclusief de pagina **Parameters voor francoprijzen**, beschikbaar voor gebruikers die over de juiste toegangsmachtigingen beschikken.

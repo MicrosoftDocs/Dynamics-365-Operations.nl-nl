@@ -2,11 +2,9 @@
 title: Bankrekeningen voor ISO20022-kredietoverdrachten voor een bank instellen
 description: In deze procedure ziet u hoe u de bedrijfsspecifieke bankrekeninggegevens instelt die vereist zijn voor het genereren van SEPA-betalingsbestanden.
 author: mrolecki
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankAccountTable, OMLegalEntity, BankAccountTableLookUp
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5ad1ebbea9bca41f43f3f4098114116e32f8517b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a3ddcae4a53fffa07bd386174811c12150f2f162
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205465"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819475"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-credit-transfers"></a>Bankrekeningen voor ISO20022-kredietoverdrachten voor een bank instellen
 

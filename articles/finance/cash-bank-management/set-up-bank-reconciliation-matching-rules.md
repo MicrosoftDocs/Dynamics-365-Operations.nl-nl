@@ -2,11 +2,9 @@
 title: Afstemmingsregels voor bankafstemming instellen
 description: In dit onderwerp wordt beschreven hoe afstemmingsregels en sets afstemmingsregels kunnen worden ingesteld om het bankafstemmingsproces te vereenvoudigen. Afstemmingsregels zijn een reeks criteria die worden gebruikt om regels van bankafschriften en bankdocumentregels te filteren tijdens het afstemmingsproces.
 author: panolte
-manager: AnnBe
 ms.date: 08/24/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 39b03bd0834b5142d21a4ab17a7d7ad18c4a574b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c630449b8666593f69d9299ad1c0726369cc030a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231513"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834951"
 ---
 # <a name="set-up-bank-reconciliation-matching-rules"></a>Afstemmingsregels voor bankafstemming instellen
 
@@ -42,9 +40,8 @@ De afstemmingsregels zoeken standaard naar het eerste bankdocument dat voldoet a
 > [!NOTE] 
 > De geselecteerde optie bepaalt welke velden worden weergegeven.
 
-|                                    |                                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Actie**                         |                                                                                                                                                                                                                                                                                                               | **Beschikbare selectiecriteria wanneer de actie wordt geselecteerd**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Actie | Beschrijving   | Beschikbare selectiecriteria wanneer de actie wordt geselecteerd     |
+|--------|---------------|----------------------------------------------------------|
 | **Afstemmen met bankdocument**       | Maak criteria om op te geven hoe de bankdocumenten en bankafschriftregels worden afgestemd wanneer de afstemmingsregel wordt uitgevoerd vanuit de pagina **Werkblad voor bankafstemming**. De transactieregels worden geselecteerd in overeenstemming met de aanvullende criteria die zijn ingesteld op de sneltabbladen.                                | **Stap 1: De afstemmingsregel definiëren** – selecteer criteria om op te geven welke bankafschriften met Finance-banktransacties moeten worden afgestemd. **Stap 2 (optioneel): selecteer de overzichtregels ten opzichte waarvan afstemmingsregels moeten worden uitgevoerd:** Pas een filter toe op de afschriftregel ten opzichte waarvan de regels moeten worden uitgevoerd.                                                                                                                                                                                                                                                                                                               |
 | **Terugboekingsregels op een afschrift wissen** | Maak criteria om op te geven hoe terugboekingsregels moeten worden verwijderd van de pagina **Werkblad voor bankafstemming** wanneer de afstemmingsregel wordt uitgevoerd. Deze optie wordt gebruikt wanneer de bank een fout maakt en er twee bankafschriftregels moeten worden weergegeven in het geïmporteerde bankafschrift en de regels moeten worden afgestemd. | **Stap 1**: **terugboekingsregels op afschrift zoeken**: voeg selectiecriteria toe om terugboekingsregels van het bankafschrift te selecteren. Als u bijvoorbeeld alleen cheques wilt selecteren, selecteert u de **Banktransactiecode**, selecteert u het plusteken (+) in het veld **Operator** en voert u vervolgens **Cheques** in het veld Waarde in. **Stap 2: oorspronkelijke afschriftregels zoeken**: u kunt selectiecriteria toevoegen om bankdocumentregels af te stemmen op bankafschriftregels. **Stap 3: Finance-banktransacties zoeken** – u kunt selectiecriteria toevoegen om Finance-banktransacties af te stemmen op bankafschriftregels. |
 | **Nieuwe transacties markeren**          | Maak criteria om op te geven hoe nieuwe transacties moeten worden gemarkeerd op de pagina **Werkblad voor bankafstemming** wanneer de afstemmingsregel wordt uitgevoerd.                                                                                                                                                                 | **Stap 1: afschriftregels zoeken**: voeg selectievelden toe om op te geven welke bankafschriftregels moeten worden geselecteerd op de pagina **Bankafstemmingswerkblad**. **Stap 2: Finance and Operations zoeken**: u kunt selectiecriteria toevoegen om bankdocumentregels te zoeken. Als er geen bankdocument wordt gevonden, wordt een afschriftregel als een nieuwe transactie gemarkeerd.                                                                                                                                                                                                                                             |

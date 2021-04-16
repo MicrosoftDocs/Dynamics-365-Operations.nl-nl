@@ -2,11 +2,9 @@
 title: Facturen indienen bij het werkstroomsysteem en productontvangstbonregels koppelen
 description: In dit onderwerp wordt het proces uitgelegd van het indienen van leveranciersfacturen bij het werkstroomsysteem en het automatisch vereffenen van geboekte productontvangstbonregels met leveranciersfacturen.
 author: abruer
-manager: AnnBe
 ms.date: 09/08/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 534b5dbc54a516fea0b3f7090042d247c1076737
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 84699746349024854a4eeb9cee62960ec38bc338
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231537"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827813"
 ---
 # <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Facturen indienen bij het werkstroomsysteem en productontvangstbonregels koppelen
 
@@ -41,7 +39,9 @@ De waarde **Ingediend door** in de werkstroom is de gebruikers-id die is ingevoe
 
 Als onderdeel van een contactloos proces voor leveranciersfacturering kan het systeem automatisch de geboekte productontvangstbonnen vereffenen met factuu regels. Voor deze taak moet een drieweg-overeenstemmingsbeleid worden gedefinieerd. Deze functie is beschikbaar als de functie **Automatisering van leveranciersfacturering** is ingeschakeld op de pagina **Functiebeheer**.
 
-Het proces wordt uitgevoerd totdat de hoeveelheid van de vereffende productontvangstbonnen gelijk is aan de factuurhoeveelheid. Als onderdeel van dit proces kunt u het maximum aantal keren opgeven dat het systeem moet proberen de productontvangstbonnen aan een factuurregel te koppelen voordat wordt geconcludeerd dat het proces is mislukt. Het proces wordt op de achtergrond uitgevoerd, elk uur of per dag. U kunt het geautomatiseerde vereffeningsproces uitvoeren als onderdeel van het proces voor het indienen van facturen bij het werkstroomsysteem. U kunt het ook als een zelfstandig proces uitvoeren. De instellingen voor het proces voor vereffening van productontvangstbonnen met factuurregels worden geconfigureerd op het tabblad **Automatisering van leveranciersfacturering** van de pagina **Parameters van module Leveranciers** (**Leveranciers \> Instellen \> Parameters van module Leveranciers**).
+Het vereffeningsproces wordt uitgevoerd totdat de hoeveelheid van de vereffende productontvangstbonnen gelijk is aan de factuurhoeveelheid. Als er echter meerdere productontvangsten zijn voor één factuurregel, moet u het proces meerdere keren uitvoeren om de volledige hoeveelheid te vereffenen. U kunt het maximum aantal keren opgeven dat het systeem moet proberen de productontvangstbonnen aan een factuurregel te koppelen voordat wordt geconcludeerd dat het proces is mislukt. Het proces wordt op de achtergrond uitgevoerd, elk uur of per dag. 
+
+U kunt het geautomatiseerde vereffeningsproces uitvoeren als onderdeel van het proces voor het indienen van facturen bij het werkstroomsysteem. U kunt het ook als een zelfstandig proces uitvoeren. De instellingen voor het proces voor vereffening van productontvangstbonnen met factuurregels worden geconfigureerd op het tabblad **Automatisering van leveranciersfacturering** van de pagina **Parameters van module Leveranciers** (**Leveranciers \> Instellen \> Parameters van module Leveranciers**).
 
 Factuurregels met een drieweg-overeenstemmingsbeleid waarbij de hoeveelheid op de afgestemde ontvangst kleiner is dan de factuurhoeveelheid, worden opgenomen in het proces voor automatische afstemming met productontvangstbonnen.
 

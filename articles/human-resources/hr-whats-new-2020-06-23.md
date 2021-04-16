@@ -2,11 +2,9 @@
 title: Nieuwe of gewijzigde functies in Dynamics 365 Human Resources (25 juni 2020)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Human Resources voor 23 juni 2020.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0f767ad634a37b7231a7998184ef130668c8a8dc
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 49853eaaf9d4e0fa44c22b3f0927ae4ab034cf8e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5463617"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802306"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Nieuwe of gewijzigde functies in Dynamics 365 Human Resources (23 juni 2020)
 

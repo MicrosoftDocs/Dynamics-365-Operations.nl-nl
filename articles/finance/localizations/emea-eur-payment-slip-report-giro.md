@@ -2,11 +2,9 @@
 title: Betalingsbonrapport voor Europa
 description: Dit onderwerp bevat informatie over betalingsbonrapporten voor Europa.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMLegalEntities, ProjFormletterParameters, CustFormletterParameters
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Belgium, Denmark, Finland, Norway, Switzerland
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31cff0eca98aa04f8813eebdae345f05b286894e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 82d399821eaa5317702b2ed419f706578322496d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258178"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826116"
 ---
 # <a name="payment-slip-report-for-europe"></a>Betalingsbonrapport voor Europa
 

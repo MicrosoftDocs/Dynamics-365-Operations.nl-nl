@@ -2,11 +2,9 @@
 title: Beleid voor flexibele dimensiereservering op magazijnniveau
 description: In dit onderwerp wordt het beleid voor voorraadreservering beschreven waarmee bedrijven die batch-getraceerde producten verkopen en hun logistiek uitvoeren als WMS-bewerkingen, specifieke batches kunnen reserveren voor klantverkooporders, hoewel de reserveringshiërarchie die aan de producten is gekoppeld, reservering van specifieke batches niet toestaat.
 author: perlynne
-manager: tfehr
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReservationHierarchy, WHSWorkTrans, WHSWorkInventTrans, WHSInventTableReservationHierarchy, WHSReservationHierarchyCreate, WHSInventTableReservationHierarchy
 audience: Application User
@@ -15,33 +13,33 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: b7d855914e59d90dd082c9e9a027604579a2f411
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 17ae3cc788c60917807acece2fc21f6c52d8ffe0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235407"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835673"
 ---
-# <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Beleid voor flexibele dimensiereservering op magazijnniveau
+# <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Flexibel reseveringsbeleid voor dimensies op magazijnniveau
 
 [!include [banner](../includes/banner.md)]
 
-Wanneer een hiërarchie voor voorraadreservering van het type 'Batch-onder\[locatie\]' is gekoppeld aan producten, kunnen bedrijven die batch-getraceerde producten verkopen en hun logistiek uitvoeren als bewerkingen die zijn ingeschakeld voor het Microsoft Dynamics 365 WMS (Warehouse Management System), geen specifieke batches van die producten reserveren voor klantverkooporders.
+Wanneer een hiërarchie voor voorraadreservering van het type *Batch-onder\[locatie\]* is gekoppeld aan producten, kunnen bedrijven die batch-getraceerde producten verkopen en hun logistiek uitvoeren als bewerkingen die zijn ingeschakeld voor het Microsoft Dynamics 365 WMS (Warehouse Management System), geen specifieke batches van die producten reserveren voor klantverkooporders.
 
 Op vergelijkbare wijze kunnen specifieke nummerplaten niet worden gereserveerd voor producten op verkooporders wanneer deze producten zijn gekoppeld aan de standaardreserveringshiërarchie.
 
-In dit onderwerp wordt het beleid voor voorraadreservering beschreven waarmee deze bedrijven specifieke batches of nummerplaten kunnen reserveren, zelfs wanneer de producten zijn gekoppeld aan een 'Batch-onder\[locatie\]' reserveringshiërarchie.
+In dit onderwerp wordt het beleid voor voorraadreservering beschreven waarmee deze bedrijven specifieke batches of nummerplaten kunnen reserveren, zelfs wanneer de producten zijn gekoppeld aan een *Batch-onder\[locatie\]* reserveringshiërarchie.
 
 ## <a name="inventory-reservation-hierarchy"></a>Hiërarchie voor voorraadreservering
 
 In deze sectie wordt de bestaande hiërarchie voor voorraadreservering samengevat.
 
-De hiërarchie voor voorraadreservering bepaalt dat de vraagorder, wat de opslagdimensies betreft, de verplichte dimensies van locatie, magazijn en voorraadstatus bevat, terwijl de magazijnlogica verantwoordelijk is voor het toewijzen van een locatie aan de gevraagde hoeveelheden en voor reservering van de locatie. Met andere woorden, in de interacties tussen de vraagorder en de magazijnbewerkingen wordt de vraagorder verwacht aan te geven van waaruit de order moet worden verzonden (dat wil zeggen welke locatie en welk magazijn). In het magazijn wordt vervolgens vertrouwd op de magazijnlogica om de vereiste hoeveelheid in het magazijn te vinden.
+De voorraadreserveringshiërarchie schrijft voor dat de vraagorder voor opslagdimensies de verplichte dimensies van de site-, magazijn- en voorraadstatus bevat. Met andere woorden, de verplichte dimensies zijn alle dimensies boven de locatiedimensie in de reserveringshiërarchie, terwijl de magazijnlogica verantwoordelijk is voor het toewijzen van een locatie aan de gevraagde hoeveelheden en het reserveren van de locatie. In de interacties tussen de vraagorder en de magazijnbewerkingen wordt verwacht dat de vraagorder aangeeft van waaruit de order moet worden verzonden (dat wil zeggen welke locatie en welk magazijn). In het magazijn wordt vervolgens vertrouwd op de magazijnlogica om de vereiste hoeveelheid in het magazijn te vinden.
 
 Om het operationele model van het bedrijf weer te geven, zijn de traceringsdimensies (batch- en serienummers) echter flexibeler. Een hiërarchie voor voorraadreservering kan rekening houden met scenario's waarin de volgende voorwaarden van toepassing zijn:
 
-- Het bedrijf is afhankelijk van zijn magazijnbewerkingen om het picken te beheren van hoeveelheden met batch- of serienummers nadat de hoeveelheden zijn gevonden in de magazijnopslagruimte. Dit model wordt vaak *Batch-onder\[locatie\]* genoemd. Dit wordt meestal gebruikt wanneer de batch- of serienummer-id van een product niet van belang is voor de klanten die de vraag bij het verkopende bedrijf plaatsen.
-- Als batch- of serienummers deel uitmaken van de orderspecificatie van een klant en deze worden vastgelegd in de vraagorder, worden de magazijnbewerkingen waarmee de hoeveelheden in het magazijn worden gevonden, beperkt door de specifieke aangevraagde nummers en mogen deze niet worden gewijzigd. Dit model wordt vaak *Batch-boven\[locatie\]* genoemd.
+- Het bedrijf is afhankelijk van zijn magazijnbewerkingen om het picken te beheren van hoeveelheden met batch- of serienummers *nadat* de hoeveelheden zijn gevonden in de magazijnopslagruimte. Dit model wordt vaak *Batch-onder\[locatie\]* of *Serienummer-onder\[locatie\]* genoemd. Dit wordt meestal gebruikt wanneer de batch- of serienummer-id van een product niet van belang is voor de klanten die de vraag bij het verkopende bedrijf plaatsen.
+- Het bedrijf is afhankelijk van zijn magazijnbewerkingen om het picken te beheren van hoeveelheden met batch- of serienummers *voordat* de hoeveelheden zijn gevonden in de magazijnopslagruimte. Als batch- of serienummers nodig zijn als onderdeel van de orderspecificatie van een klant, worden deze vastgelegd in de vraagorder en mogen de magazijnbewerkingen waarmee de hoeveelheden in het magazijn worden gevonden deze niet wijzigen. Dit model wordt *Batch-boven\[locatie\]* of *Serienummer-boven\[locatie\]* genoemd. Omdat de dimensies boven locatie de specifieke vereisten zijn voor de eisen waaraan moet worden voldaan, wordt deze niet toegewezen door de magazijnlogica. Deze dimensies **moeten** altijd worden opgegeven op de vraagorder of in de bijbehorende reserveringen.
 
 In deze scenario's is de uitdaging dat slechts één reserveringshiërarchie kan worden toegewezen aan elk vrijgegeven product. Daarom kan voor verwerking van getraceerde artikelen door het WMS, nadat de hiërarchietoewijzing bepaalt wanneer het batch- of serienummer moet worden gereserveerd (wanneer de vraagorder wordt opgenomen of tijdens het picken in het magazijn), deze timing niet worden gewijzigd op ad-hocbasis.
 
@@ -49,16 +47,16 @@ In deze scenario's is de uitdaging dat slechts één reserveringshiërarchie kan
 
 ### <a name="business-scenario"></a>Bedrijfsscenario
 
-In dit scenario gebruikt een bedrijf een voorraadstrategie waarin eindproducten worden bijgehouden met batchnummers. In dit bedrijf wordt ook de WMS-werkbelasting gebruikt. Omdat deze werkbelasting goede logica bevat voor het plannen en uitvoeren van magazijnpick- en verzendbewerkingen voor artikelen met batchnummers, worden de meeste gerede artikelen gekoppeld aan een voorraadreserveringshiërarchie van het type 'Batch-onder\[locatie\]'. Het voordeel van dit type operationele instelling is dat beslissingen (in feite reserveringsbeslissingen) over welke batches moeten worden gepickt en waar deze in het magazijn moeten worden geplaatst, worden uitgesteld totdat de magazijnpickbewerkingen beginnen. Ze worden niet genomen wanneer de order van de klant wordt geplaatst.
+In dit scenario gebruikt een bedrijf een voorraadstrategie waarin eindproducten worden bijgehouden met batchnummers. In dit bedrijf wordt ook de WMS-werkbelasting gebruikt. Omdat deze werkbelasting goede logica bevat voor het plannen en uitvoeren van magazijnpick- en verzendbewerkingen voor artikelen met batchnummers, worden de meeste gerede artikelen gekoppeld aan een voorraadreserveringshiërarchie van het type *Batch-onder\[locatie\]*. Het voordeel van dit type operationele instelling is dat beslissingen (in feite reserveringsbeslissingen) over welke batches moeten worden gepickt en waar deze in het magazijn moeten worden geplaatst, worden uitgesteld totdat de magazijnpickbewerkingen beginnen. Ze worden niet genomen wanneer de order van de klant wordt geplaatst.
 
-Hoewel de reserveringshiërarchie 'Batch-onder\[locatie\]' de bedrijfsdoelstellingen van het bedrijf goed vervult, vereisen veel van de vaste klanten van het bedrijf dezelfde batch als ze eerder kochten, wanneer ze producten opnieuw bestellen. Daarom zoekt het bedrijf naar flexibiliteit in de manier waarop de batchreserveringsregels worden verwerkt, zodat, afhankelijk van de vraag van de klant naar hetzelfde artikel, de volgende werking optreedt:
+Hoewel de reserveringshiërarchie *Batch-onder\[locatie\]* de bedrijfsdoelstellingen van het bedrijf goed vervult, vereisen veel van de vaste klanten van het bedrijf dezelfde batch als ze eerder kochten, wanneer ze producten opnieuw bestellen. Daarom zoekt het bedrijf naar flexibiliteit in de manier waarop de batchreserveringsregels worden verwerkt, zodat, afhankelijk van de vraag van de klant naar hetzelfde artikel, de volgende werking optreedt:
 
 - Een batchnummer kan worden geregistreerd en gereserveerd wanneer de order wordt opgenomen door de verkoopverwerker en kan niet worden gewijzigd tijdens magazijnbewerkingen en/of door andere vraag worden gebruikt. Dit gedrag helpt te garanderen dat het bestelde batchnummer naar de klant wordt verzonden.
 - Als het batchnummer niet van belang is voor de klant, kunnen de magazijnbewerkingen een batchnummer bepalen tijdens het pickwerk, nadat de registratie en de reservering van de verkooporder zijn uitgevoerd.
 
 ### <a name="allowing-reservation-of-a-specific-batch-on-the-sales-order"></a>Reserveren van een specifieke batch in de verkooporder toestaan
 
-Voor de gewenste flexibiliteit in het batchreserveringsgedrag voor artikelen die zijn gekoppeld aan de voorraadreserveringshiërarchie 'Batch-onder\[locatie\]' moeten voorraadbeheerders het selectievakje **Reservering op vraagorder toestaan** inschakelen voor het **Batchnummer**-niveau op de pagina **Voorraadreserveringshiërarchieën**.
+Voor de gewenste flexibiliteit in het batchreserveringsgedrag voor artikelen die zijn gekoppeld aan de voorraadreserveringshiërarchie *Batch-onder\[locatie\]* moeten voorraadbeheerders het selectievakje **Reservering op vraagorder toestaan** inschakelen voor het niveau **Batchnummer** op de pagina **Voorraadreserveringshiërarchieën**.
 
 ![De voorraadreserveringshiërarchie flexibel maken](media/Flexible-inventory-reservation-hierarchy.png)
 
@@ -69,25 +67,25 @@ Wanneer het **Batchnummer**-niveau in de hiërarchie wordt geselecteerd, worden 
 >
 > **Batchnummer** en **Nummerplaat** zijn de enige niveaus in de hiërarchie die openstaan voor het flexibele reserveringsbeleid. Met andere woorden, u kunt het selectievakje **Reservering op vraagorder toestaan** niet inschakelen voor de niveaus **Locatie** of **Serienummer**.
 >
-> Als uw reserveringshiërarchie de serienummerdimensie bevat (die altijd onder het niveau **Batchnummer** moet liggen) en als u batchspecifieke reservering voor het batchnummer hebt ingeschakeld, blijft het systeem de reservering van serienummers en pickbewerkingen verwerken op basis van de regels die van toepassing zijn op het reserveringsbeleid 'Serienummer-onder\[locatie\]'.
+> Als uw reserveringshiërarchie de serienummerdimensie bevat (die altijd onder het niveau **Batchnummer** moet liggen) en als u batchspecifieke reservering voor het batchnummer hebt ingeschakeld, blijft het systeem de reservering van serienummers en pickbewerkingen verwerken op basis van de regels die van toepassing zijn op het reserveringsbeleid *Serienummer-onder\[locatie\]*.
 
-U kunt op elk moment batchreservering toestaan voor een bestaande reserveringshiërarchie van het type 'Batch-onder\[locatie\]' in uw implementatie. Deze wijziging heeft geen invloed op reserveringen en open magazijnwerkzaamheden die zijn gemaakt voordat de wijziging plaatsvond. Het selectievakje **Reservering op vraagorder toestaan** kan echter niet worden gewist als voorraadtransacties van het uitgiftetype **Besteld en gereserveerd**, **Fysiek gereserveerd** of **Besteld** bestaan voor een of meer artikelen die aan die reserveringshiërarchie zijn gekoppeld.
+U kunt op elk moment batchreservering toestaan voor een bestaande reserveringshiërarchie van het type *Batch-onder\[locatie\]* in uw implementatie. Deze wijziging heeft geen invloed op reserveringen en open magazijnwerkzaamheden die zijn gemaakt voordat de wijziging plaatsvond. Het selectievakje **Reservering op vraagorder toestaan** kan echter niet worden gewist als voorraadtransacties van het uitgiftetype **Besteld en gereserveerd**, **Fysiek gereserveerd** of **Besteld** bestaan voor een of meer artikelen die aan die reserveringshiërarchie zijn gekoppeld.
 
 > [!NOTE]
 > Als de bestaande reserveringshiërarchie van een artikel geen batchspecificatie op de order toestaat, kunt u deze opnieuw toewijzen aan een reserveringshiërarchie die batchspecificatie toestaat, mits de structuur van het hiërarchieniveau in beide hiërarchieën hetzelfde is. Gebruik de functie **Reserveringshiërarchie wijzigen voor artikelen** om de nieuwe toewijzing uit te voeren. Deze wijziging kan relevant zijn wanneer u flexibele batchreservering wilt voorkomen voor een subset van batch-getraceerde artikelen, maar wel wilt toestaan voor de rest van de productportefeuille.
 
-Ongeacht of u het selectievakje **Reservering op vraagorder toestaan** hebt ingeschakeld, als u geen specifiek batchnummer voor het artikel wilt reserveren op een orderregel, geldt toch standaardlogica voor magazijnbewerkingen die geldig is voor een reserveringshiërarchie van het type 'Batch-onder\[locatie\]'.
+Ongeacht of u het selectievakje **Reservering op vraagorder toestaan** hebt ingeschakeld, als u geen specifiek batchnummer voor het artikel wilt reserveren op een orderregel, geldt toch standaardlogica voor magazijnbewerkingen die geldig is voor een reserveringshiërarchie van het type *Batch-onder\[locatie\]* .
 
 ### <a name="reserve-a-specific-batch-number-for-a-customer-order"></a>Een specifiek batchnummer reserveren voor een klantorder
 
-Nadat de reserveringshiërarchie 'Batch-onder\[locatie\]' van een batch-getraceerd artikel is ingesteld om reservering van specifieke batchnummers op verkooporders toe te staan, kunnen verkooporderverwerkers klantorders voor hetzelfde artikel op een van de volgende manieren opnemen, afhankelijk van de aanvraag van de klant:
+Nadat de reserveringshiërarchie *Batch-onder\[locatie\]* van een batch-getraceerd artikel is ingesteld om reservering van specifieke batchnummers op verkooporders toe te staan, kunnen verkooporderverwerkers klantorders voor hetzelfde artikel op een van de volgende manieren opnemen, afhankelijk van de aanvraag van de klant:
 
 - **Ordergegevens invoeren zonder batchnummer**: deze benadering moet worden gebruikt wanneer de batchspecificatie van het product niet van belang is voor de klant. Alle bestaande processen die zijn gekoppeld aan de verwerking van een order van dit type, blijven ongewijzigd. Er zijn geen extra overwegingen vereist van de kant van de gebruikers.
 - **Ordergegevens invoeren en een specifiek batchnummer reserveren**: deze benadering moet worden gebruikt wanneer de klant een specifieke batch aanvraagt. Normaal gesproken vragen klanten om een specifieke batch bij het opnieuw bestellen van een product dat ze eerder hebben gekocht. Dit type batchspecifieke reservering wordt ook wel *order-toegezegde reservering* genoemd.
 
 De volgende set regels is geldig wanneer hoeveelheden worden verwerkt en een batchnummer wordt toegezegd aan een specifieke order:
 
-- Als u reservering van een specifiek batchnummer voor een artikel wilt toestaan onder het reserveringsbeleid 'Batch-onder\[locatie\]', moeten alle dimensies tot aan de locatie worden gereserveerd. Dit bereik omvat meestal de nummerplaatdimensie.
+- Als u reservering van een specifiek batchnummer voor een artikel wilt toestaan onder het reserveringsbeleid *Batch-onder\[locatie\]*, moeten alle dimensies tot aan de locatie worden gereserveerd. Dit bereik omvat meestal de nummerplaatdimensie.
 - Locatie-instructies worden niet gebruikt wanneer het pickwerk wordt gemaakt voor een verkoopregel die gebruikmaakt van order-toegezegde batchreservering.
 - Tijdens magazijnverwerking van werk voor order-toegezegde batches mag de gebruiker noch het systeem het batchnummer wijzigen. (Deze verwerking bevat uitzonderingsafhandeling.)
 
@@ -131,19 +129,19 @@ Voor dit voorbeeld moeten demogegevens worden geïnstalleerd en moet u het **USM
 2. Selecteer **Nieuw**.
 3. Voer in de verkooporderkop in het veld **Klantrekening** **US-003** in.
 4. Voeg een regel toe voor het nieuwe artikel en voer **10** in als hoeveelheid. Zorg dat het veld **Magazijn** is ingesteld op **24**.
-5. Selecteer op het sneltabblad **Verkooporderregels** **Voorraad** en selecteer vervolgens in de groep **Onderhouden** **Batchreservering**. De pagina **Batchreservering** toont een lijst met batches die beschikbaar zijn voor reservering voor de orderregel. Voor dit voorbeeld wordt een hoeveelheid van **20** weergegeven voor batchnummer **B11** en een hoeveelheid van **10** voor batchnummer **B22**. De pagina **Batchreservering** kan niet worden geopend vanaf een regel als het artikel op die regel is gekoppeld aan de reserveringshiërarchie 'Batch-onder\[locatie\]', tenzij deze is ingesteld voor het toestaan van batchspecifieke reservering.
+5. Selecteer op het sneltabblad **Verkooporderregels** **Voorraad** en selecteer vervolgens in de groep **Onderhouden** **Batchreservering**. De pagina **Batchreservering** toont een lijst met batches die beschikbaar zijn voor reservering voor de orderregel. Voor dit voorbeeld wordt een hoeveelheid van **20** weergegeven voor batchnummer **B11** en een hoeveelheid van **10** voor batchnummer **B22**. De pagina **Batchreservering** kan niet worden geopend vanaf een regel als het artikel op die regel is gekoppeld aan de reserveringshiërarchie *Batch-onder\[locatie\]*, tenzij deze is ingesteld voor het toestaan van batchspecifieke reservering.
 
     > [!NOTE]
     > Als u een specifieke batch voor een verkooporder wilt reserveren, moet u de pagina **Batchreservering** gebruiken.
     >
-    > Als u het batchnummer rechtstreeks op de verkooporderregel invoert, gedraagt het systeem zich alsof u een specifieke batchwaarde hebt ingevoerd voor een artikel dat onderworpen is aan het reserveringsbeleid 'Batch-onder\[locatie\]'. Wanneer u de regel opslaat, wordt er een waarschuwingsbericht weergegeven. Als u bevestigt dat het batchnummer direct op de orderregel moet worden opgegeven, wordt de regel niet verwerkt door de normale magazijnbeheerlogica.
+    > Als u het batchnummer rechtstreeks op de verkooporderregel invoert, gedraagt het systeem zich alsof u een specifieke batchwaarde hebt ingevoerd voor een artikel dat onderworpen is aan het reserveringsbeleid *Batch-onder\[locatie\]*. Wanneer u de regel opslaat, wordt er een waarschuwingsbericht weergegeven. Als u bevestigt dat het batchnummer direct op de orderregel moet worden opgegeven, wordt de regel niet verwerkt door de normale magazijnbeheerlogica.
     >
-    > Als u de hoeveelheid reserveert via de pagina **Reservering**, wordt er geen specifieke batch gereserveerd en volgt de uitvoering van de magazijnbewerkingen voor de regel de regels die van toepassing zijn onder het reserveringsbeleid voor 'Batch-onder\[locatie\]'.
+    > Als u de hoeveelheid reserveert via de pagina **Reservering**, wordt er geen specifieke batch gereserveerd en volgt de uitvoering van de magazijnbewerkingen voor de regel de regels die van toepassing zijn onder het reserveringsbeleid voor *Batch-onder\[locatie\]*.
 
-    Over het algemeen werkt en communiceert deze pagina op dezelfde manier als waarop deze werkt en communiceert met artikelen die een bijbehorende reserveringshiërarchie hebben van het type 'Batch-boven\[locatie\]'. De volgende uitzonderingen zijn echter van toepassing:
+    Over het algemeen werkt en communiceert deze pagina op dezelfde manier als waarop deze werkt en communiceert met artikelen die een bijbehorende reserveringshiërarchie hebben van het type *Batch-boven\[locatie\]*. De volgende uitzonderingen zijn echter van toepassing:
 
     - Op het sneltabblad **Batchnummers toegezegd aan bronregel** worden de batchnummers weergegeven die zijn gereserveerd voor de orderregel. De batchwaarden in het raster worden in de loop van de afhandelingscyclus van de orderregel weergegeven, inclusief de magazijnverwerkingsfasen. Op het sneltabblad **Overzicht** wordt reguliere orderregelreservering (dat wil zeggen reservering die wordt uitgevoerd voor de dimensies boven het niveau **Locatie**) weergegeven in het raster tot het punt wanneer het magazijnwerk wordt gemaakt. De werkentiteit neemt vervolgens de regelreservering over en de regelreservering wordt niet meer op de pagina weergegeven. Het sneltabblad **Batchnummers toegezegd aan bronregel** helpt garanderen dat de verkooporderverwerker de batchnummers op een willekeurig moment tijdens de levenscyclus, tot aan facturering, kan weergeven die zijn toegezegd aan de order van de klant.
-    - Een gebruiker kan niet alleen een specifieke batch reserveren, maar ook handmatig de specifieke locatie en de nummerplaat van de batch selecteren in plaats van deze automatisch te laten selecteren door het systeem. Deze mogelijkheid houdt verband met het ontwerp van het order-toegezegde batchreserveringsmechanisme. Zoals eerder gezegd, wanneer een batchnummer is gereserveerd voor een artikel onder het reserveringsbeleid 'Batch-onder\[locatie\]', moeten alle dimensies tot aan de locatie worden gereserveerd. Daarom bevat magazijnwerk de opslagdimensies die zijn gereserveerd door de gebruikers die met de orders hebben gewerkt en dit vertegenwoordigt mogelijk niet altijd een artikelopslagplaatsing die handig is of zelfs mogelijk is voor pickbewerkingen. Als orderverwerkers bekend zijn met de magazijnbeperkingen, willen ze mogelijk handmatig de specifieke locaties en de nummerplaten selecteren wanneer ze een batch reserveren. In dat geval moet de gebruiker de functie **Dimensies weergeven** gebruiken in de koptekst van de pagina en moet deze de locatie en de nummerplaat toevoegen aan het raster op het sneltabblad **Overzicht**.
+    - Een gebruiker kan niet alleen een specifieke batch reserveren, maar ook handmatig de specifieke locatie en de nummerplaat van de batch selecteren in plaats van deze automatisch te laten selecteren door het systeem. Deze mogelijkheid houdt verband met het ontwerp van het order-toegezegde batchreserveringsmechanisme. Zoals eerder gezegd, wanneer een batchnummer is gereserveerd voor een artikel onder het reserveringsbeleid *Batch-onder\[locatie\]*, moeten alle dimensies tot aan de locatie worden gereserveerd. Daarom bevat magazijnwerk de opslagdimensies die zijn gereserveerd door de gebruikers die met de orders hebben gewerkt en dit vertegenwoordigt mogelijk niet altijd een artikelopslagplaatsing die handig is of zelfs mogelijk is voor pickbewerkingen. Als orderverwerkers bekend zijn met de magazijnbeperkingen, willen ze mogelijk handmatig de specifieke locaties en de nummerplaten selecteren wanneer ze een batch reserveren. In dat geval moet de gebruiker de functie **Dimensies weergeven** gebruiken in de koptekst van de pagina en moet deze de locatie en de nummerplaat toevoegen aan het raster op het sneltabblad **Overzicht**.
 
 6. Selecteer op de pagina **Batchreservering** de regel voor batch **B11** en selecteer vervolgens **Regel reserveren**. Er is geen speciale logica voor het toewijzen van locaties en nummerplaten tijdens automatische reservering. U kunt de hoeveelheid handmatig invoeren in het veld **Reservering**. Op het sneltabblad **Batchnummers toegezegd aan bronregel** wordt batch **B11** weergegeven als **Toegezegd**.
 
@@ -172,7 +170,7 @@ Voor dit voorbeeld moeten demogegevens worden geïnstalleerd en moet u het **USM
     Het werk waarmee de pickbewerking wordt afgehandeld voor batchhoeveelheden die zijn toegezegd aan de verkooporder, heeft de volgende kenmerken:
 
     - Voor het maken van werk gebruikt het systeem werksjablonen, maar geen locatierichtlijnen. Alle standaardinstellingen die zijn gedefinieerd voor werksjablonen, zoals een maximaal aantal pickregels of een specifieke maateenheid, worden toegepast om te bepalen wanneer nieuw werk moet worden gemaakt. De regels die zijn gekoppeld aan locatierichtlijnen voor het identificeren van picklocaties, worden echter niet meegerekend, omdat alle voorraaddimensies al worden opgegeven door de order-toegezegde reservering. Deze voorraaddimensies omvatten de dimensies op het opslagniveau van het magazijn. Daarom neemt het werk deze dimensies over zonder locatierichtlijnen te hoeven raadplegen.
-    - Het batchnummer wordt niet weergegeven op de pickregel (zoals het geval is voor de werkregel die is gemaakt voor een artikel met een bijbehorende 'Batch-boven\[locatie\]' reserveringshiërarchie). In plaats daarvan worden het 'van'-batchnummer en alle andere opslagdimensies weergegeven in de werkvoorraadtransactie van de werkregel waarnaar wordt verwezen vanuit de gekoppelde voorraadtransacties.
+    - Het batchnummer wordt niet weergegeven op de pickregel (zoals het geval is voor de werkregel die is gemaakt voor een artikel met een bijbehorende *Batch-boven\[locatie\]* reserveringshiërarchie). In plaats daarvan worden het 'van'-batchnummer en alle andere opslagdimensies weergegeven in de werkvoorraadtransactie van de werkregel waarnaar wordt verwezen vanuit de gekoppelde voorraadtransacties.
 
         ![Magazijnvoorraadtransactie voor werk dat afkomstig is uit order-toegezegde reservering](media/Work-inventory-transactions-for-order-committed-reservation.png)
 
@@ -215,7 +213,7 @@ U kunt de reservering van licentieplaten voor de order op elk punt in uw impleme
 
 Zelfs als het selectievakje **Reservering op vraagorder toestaan** is ingeschakeld voor het niveau **Nummerplaat**, is het toch *niet* mogelijk een specifieke nummerplaat te reserveren voor de order. In dit geval geldt de standaardmagazijnbewerkingslogica die geldig is voor de reserveringshiërarchie.
 
-Als u een specifieke nummerplaat wilt reserveren, moet u een [OData-proces (Open Data Protocol)](../../fin-ops-core/dev-itpro/data-entities/odata.md) gebruiken. U kunt deze reservering rechtstreeks vanuit een verkooporder uitvoeren in de toepassing door de optie **Order-toegezegde reserveringen per nummerplaat** van de opdracht **Openen in Excel** te gebruiken. In de entiteitgegevens die worden geopend in de Excel-invoegtoepassing moet u de volgende gegevens over de reservering invoeren en vervolgens **Publiceren** selecteren om de gegevens terug te sturen naar Supply Chain Management:
+Als u een specifieke nummerplaat wilt reserveren, moet u een proces [Open Data Protocol (OData)](../../fin-ops-core/dev-itpro/data-entities/odata.md) gebruiken. In de toepassing kunt u deze reservering rechtstreeks vanuit een verkooporder uitvoeren met behulp van de optie **Orders-toegezegde reserveringen per nummerplaat** van de opdracht **Openen in Excel**. In de entiteitgegevens die worden geopend in de Excel-invoegtoepassing moet u de volgende gegevens over de reservering invoeren en vervolgens **Publiceren** selecteren om de gegevens terug te sturen naar Supply Chain Management:
 
 - Verwijzing (alleen de waarde *Verkooporder* wordt ondersteund.)
 - Het ordernummer (de waarde kan worden afgeleid van de partij)
@@ -409,7 +407,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Ja</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Locatie overschrijven</strong> in de magazijnbeheer-app wanneer u pickwerk start.</li>
+<li>Selecteer de menuoptie <strong>Locatie overschrijven</strong> in de mobiele app Magazijnbeheer wanneer u verzamelwerk start.</li>
 <li>Selecteer <strong>Voorstellen</strong>.</li>
 <li>Bevestig de nieuwe locatie die is voorgesteld op basis van de beschikbaarheid van de batchhoeveelheid.</li>
 </ol>
@@ -426,7 +424,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>No</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Locatie overschrijven</strong> in de magazijnbeheer-app wanneer u pickwerk start.</li>
+<li>Selecteer de menuoptie <strong>Locatie overschrijven</strong> in de mobiele app Magazijnbeheer wanneer u verzamelwerk start.</li>
 <li>Voer handmatig een locatie in.</li>
 </ol>
 </td>
@@ -454,7 +452,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Niet van toepassing</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Volledig</strong> in de magazijnbeheer-app wanneer u verzamelwerk verwerkt.</li>
+<li>Selecteer de menuoptie <strong>Volledig</strong> in de mobiele app Magazijnbeheer wanneer u verzamelwerk verwerkt.</li>
 <li>Voer in het veld <strong>Verzamelhoeveelheid</strong> een gedeeltelijke hoeveelheid van de vereiste pick in om de volledige capaciteit aan te geven.</li>
 </ol>
 </td>
@@ -529,7 +527,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Ja</td>
 <td>
 <ol>
-<li>Start een mutatie in de magazijnbeheer-app.</li>
+<li>Start een mutatie in de mobiele app Magazijnbeheer.</li>
 <li>Voer een 'van'- en een 'naar'-locatie in.</li>
 </ol></td>
 <td>
@@ -645,7 +643,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Ja</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de magazijnbeheer-app wanneer u pickwerk verwerkt.</li>
+<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de mobiele app Magazijnbeheer wanneer u verzamelwerk uitvoert.</li>
 <li>Typ <strong>0</strong> (nul) in het veld <strong>Orderverzamelhoeveelheid</strong>.</li>
 <li>Voer in het veld <strong>Reden</strong> de tekst <strong>Geen hertoewijzing</strong> in.</li>
 </ol>
@@ -674,7 +672,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Ja</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de magazijnbeheer-app wanneer u pickwerk verwerkt.</li>
+<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de mobiele app Magazijnbeheer wanneer u verzamelwerk uitvoert.</li>
 <li>Typ <strong>0</strong> (nul) in het veld <strong>Orderverzamelhoeveelheid</strong>.</li>
 <li>Voer in het veld <strong>Reden</strong> de tekst <strong>Geen hertoewijzing</strong> in.</li>
 </ol>
@@ -698,7 +696,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Ja</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de magazijnbeheer-app wanneer u pickwerk verwerkt.</li>
+<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de mobiele app Magazijnbeheer wanneer u verzamelwerk uitvoert.</li>
 <li>Typ <strong>0</strong> (nul) in het veld <strong>Korte-verzamelhoeveelheid</strong>.</li>
 <li>Selecteer in het veld <strong>Reden</strong> de optie <strong>Kort orderverzamelen met handmatige hertoewijzing</strong>.</li>
 <li>Selecteer de locatie/nummerplaat in de lijst.</li>
@@ -724,7 +722,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>No</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de magazijnbeheer-app wanneer u pickwerk verwerkt.</li>
+<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de mobiele app Magazijnbeheer wanneer u verzamelwerk uitvoert.</li>
 <li>Typ <strong>0</strong> (nul) in het veld <strong>Korte-verzamelhoeveelheid</strong>.</li>
 <li>Selecteer in het veld <strong>Reden</strong> de optie <strong>Kort orderverzamelen met handmatige hertoewijzing</strong>.</li>
 </ol>
@@ -737,7 +735,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>No</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de magazijnbeheer-app wanneer u pickwerk verwerkt.</li>
+<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de mobiele app Magazijnbeheer wanneer u verzamelwerk uitvoert.</li>
 <li>Typ <strong>0</strong> (nul) in het veld <strong>Korte-verzamelhoeveelheid</strong>.</li>
 <li>Selecteer in het veld <strong>Reden</strong> de optie <strong>Kort orderverzamelen met handmatige hertoewijzing</strong>.</li>
 <li>Selecteer de locatie/nummerplaat in de lijst.</li>
@@ -761,7 +759,7 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 <td>Niet van toepassing</td>
 <td>
 <ol>
-<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de magazijnbeheer-app wanneer u pickwerk verwerkt.</li>
+<li>Selecteer de menuoptie <strong>Korte verzameling</strong> in de mobiele app Magazijnbeheer wanneer u verzamelwerk uitvoert.</li>
 <li>Typ <strong>0</strong> (nul) in het veld <strong>Korte-verzamelhoeveelheid</strong>.</li>
 <li>Selecteer in het veld <strong>Reden</strong> de optie <strong>Kort orderverzamelen met automatische hertoewijzing</strong>.</li>
 </ol>
@@ -850,9 +848,17 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
     - Catch weight-beheer
     - Fysieke negatieve voorraad
     - Reservering tegen besteld aanbod
-    - Transferorders en picken van grondstoffen
+    - overboekingsorders en picken van grondstoffen
 
 - De containerconsolidatieregel voor verpakking per instructie-eenheid heeft beperkingen. Voor order-toegezegde reserveringen wordt aangeraden geen containervormingssjablonen te gebruiken waarvoor het veld **Verpakken per instructie-eenheid** is ingeschakeld. In het huidige ontwerp worden er geen locatie-instructies gebruikt wanneer magazijnwerk wordt gemaakt. Daarom wordt alleen de laagste eenheid in de eenheidsvolgordegroep toegepast tijdens de wavestap voor containervorming.
+
+## <a name="see-also"></a>Zie ook
+
+- [Batchnummers in Magazijnbeheer](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/batch-numbers-in-warehouse-management)
+- [Dezelfde batch reserveren voor een verkooporder](../sales-marketing/reserve-same-batch-sales-order.md)
+- [Oudste batch verzamelen op een mobiel apparaat](pick-oldest-batch.md)
+- [Bevestiging van batch en nummerplaat](batch-and-license-plate-confirmation.md)
+- [Problemen met reserveringen in magazijnbeheer oplossen](troubleshoot-warehouse-reservations.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

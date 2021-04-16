@@ -2,7 +2,6 @@
 title: Francoprijzen versus Transportbeheer
 description: Microsoft Dynamics 365 Supply Chain Management biedt twee verschillende modules om met transport, Transportbeheer (TMS) en Francoprijzen te werken. In dit onderwerp wordt de functionaliteit samengevat die de twee modules gemeen hebben en komen de verschillen tussen de twee aan de orde.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9349537754d7e6fd0e278c55d5d762267953800c
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500713"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833852"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Francoprijzen versus Transportbeheer
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Microsoft Dynamics 365 Supply Chain Management biedt twee verschillende modules om met transport, **Transportbeheer** (TMS) en **Francoprijzen** te werken. In dit onderwerp wordt de functionaliteit samengevat die de twee modules gemeen hebben en komen de verschillen tussen de twee aan de orde. U kunt deze informatie gebruiken om te bepalen welke module het beste bij uw bedrijf past. U vindt wellicht dat bepaalde zakelijke werkwijzen beter werken met TMS, terwijl andere het beste werken met Francoprijzen. U kunt er vervolgens voor kiezen om, afhankelijk van uw bedrijfsbehoeften, maar één module te gebruiken of om de twee modules te combineren.
 
@@ -102,7 +100,7 @@ Bovendien kunnen de overheadkosten die aan de verzending van goederen zijn gekop
 
 In de volgende lijst komen een paar concepten voor de toeslag- en kostenfuncties in Francoprijzen aan de order:
 
-- **Kostengebied**: kosten en toeslagen kunnen aan verschillende niveaus, of *kostengebieden* worden gekoppeld. De kosten kunnen worden toegepast op het niveau van het traject en worden opgesplitst voor elk artikel in het traject. Verder kunnen kosten worden toegepast op het niveau van de container, inkooporder, artikel of transferorder. Elke kostenpost kan in de diverse gebieden afzonderlijk worden beheerd en wordt opgesplitst in kosten per artikel.
+- **Kostengebied**: kosten en toeslagen kunnen aan verschillende niveaus, of *kostengebieden* worden gekoppeld. De kosten kunnen worden toegepast op het niveau van het traject en worden opgesplitst voor elk artikel in het traject. Verder kunnen kosten worden toegepast op het niveau van de container, inkooporder, artikel of overboekingsorder. Elke kostenpost kan in de diverse gebieden afzonderlijk worden beheerd en wordt opgesplitst in kosten per artikel.
 - **Verdelingsmethode**: Er zijn verschillende verdelingsmethoden beschikbaar in Francoprijzen. Toeslagen op kosten kunnen worden verdeeld per hoeveelheid, bedrag in dollars, waarde, gewicht, volume, afmeting of een door de gebruiker gedefinieerde volumemaat.
 - **Vereffenings-/verschillenbeheer**: toeslagen op kosten worden ingesteld als hun eigen kostencodetype in Francoprijzen. Met elk kostencodetype kunt u een vereffeningsrekening definiëren voor geschatte kosten, en ook rekeningen voor toerekeningen en inkoopprijsverschillen voor afwijkingen in geschatte kosten versus werkelijke kosten. Wanneer de geschatte kosten in eerste instantie worden geboekt, wordt er een creditnota naar de vereffeningsrekening geboekt. Nadat de werkelijke facturen zijn geboekt, worden de werkelijke kosten op toeslagen geboekt en worden de geschatte kosten gedebiteerd van de vereffeningsrekening.
 
@@ -154,19 +152,19 @@ In elke etappe van een traject kunt u de status van elke inkooporderregel en de 
 
 Het kan belangrijk zijn om te beheren hoe goederen worden opgesplitst en opgeslagen op een vaartuig. Op een vaartuig kunnen goederen worden opgeslagen in één container of in meerdere containers. Wanneer goederen worden ontvangen, worden deze in containers ontvangen. Het kan zijn dat verschillende containers op een reis worden ontvangen op verschillende tijden of op verschillende datums.
 
-Zowel TMS als Francoprijzen bieden functionaliteit voor het beheren van de ontvangst van goederen in een container. TMS gebruikt het concept van ladingen om de goederen, inkooporders en transferorders te beheren die aan een container zijn gekoppeld. TMS ondersteunt de ontvangst op basis van een verpakking die wordt ontvangen via een advance shipping notice (ASN). Francoprijzen gebruikt het concept van containers om inkooporders te verwerken en overheadkosten te beheren die aan een container op een schip zijn gekoppeld.
+Zowel TMS als Francoprijzen bieden functionaliteit voor het beheren van de ontvangst van goederen in een container. TMS gebruikt het concept van ladingen om de goederen, inkooporders en overboekingsorders te beheren die aan een container zijn gekoppeld. TMS ondersteunt de ontvangst op basis van een verpakking die wordt ontvangen via een advance shipping notice (ASN). Francoprijzen gebruikt het concept van containers om inkooporders te verwerken en overheadkosten te beheren die aan een container op een schip zijn gekoppeld.
 
 ### <a name="tms-receiving-by-container-features"></a>TMS-functies voor het ontvangen per container
 
-TMS ondersteunt inkomende ASN's, alle ontvangstvarianten via de magazijnapp en alle ontvangstmethoden via de Supply Chain Management-client.
+TMS ondersteunt inkomende ASN's, alle ontvangstvarianten via de mobiele app Magazijnbeheer en alle ontvangstmethoden via de Supply Chain Management-client.
 
 ### <a name="landed-cost-receiving-by-container-features"></a>Functies in Francoprijzen voor het ontvangen per container
 
 Ter ondersteuning van het ontvangen per container worden met Francoprijzen containerrecords gemaakt en inkooporders gekoppeld met een specifieke container met behulp van de bijbehorende container-id. Overheadkosten kunnen vervolgens op die container worden toegepast en worden opgesplitst, zodat ze aan de relevante inkooporders worden gekoppeld.
 
-Containers in Francoprijzen kunnen worden ontvangen via een nieuw type ontvangst, dat ook wel *ontvangst van goederen in transit* wordt genoemd, of via ontvangst via mobiele apparaten. Wanneer er ontvangstjournalen worden gebruikt, kunnen de hoeveelheden worden geïnitialiseerd vanuit de order voor goederen in transit of de oorspronkelijke inkooporderregels in de container. Francoprijzen biedt twee werktypen voor de ontvangst via de magazijnapp.
+Containers in Francoprijzen kunnen worden ontvangen via een nieuw type ontvangst, dat ook wel *ontvangst van goederen in transit* wordt genoemd, of via ontvangst via mobiele apparaten. Wanneer er ontvangstjournalen worden gebruikt, kunnen de hoeveelheden worden geïnitialiseerd vanuit de order voor goederen in transit of de oorspronkelijke inkooporderregels in de container. Francoprijzen biedt twee werktypen voor de ontvangst via de mobiele app Magazijnbeheer.
 
-Francoprijzen verstrekt geen ASN voor de elektronische ontvangst van goederen. Daarnaast worden magazijnappstromen waarmee de ontvangst van ladingen, nummerplaten en gemengde nummerplaten worden verwerkt, niet ondersteund.
+Francoprijzen verstrekt geen ASN voor de elektronische ontvangst van goederen. Daarnaast worden stromen van de mobiele app Magazijnbeheer waarmee de ontvangst van ladingen, nummerplaten en gemengde nummerplaten worden verwerkt, niet ondersteund.
 
 ## <a name="rate-shopping-by-vendor"></a>Tarieven zoeken per leverancier
 
@@ -198,14 +196,14 @@ Het systeem kan chauffeurs toegestaan om in te checken bij een specifieke dokdeu
 
 In Francoprijzen kunnen ramingen worden opgeslagen voor de datum en tijd waarop een container wordt geleverd.
 
-## <a name="transfer-orders-and-additional-costs"></a>Transferorders en extra kosten
+## <a name="transfer-orders-and-additional-costs"></a>overboekingsorders en extra kosten
 
-Vaak moeten bedrijven goederen kunnen overbrengen tussen magazijnen. Wanneer dit type overdracht plaatsvindt, worden er kosten aan gekoppeld die u wilt herkennen. In Francoprijzen kunnen transferorders worden toegevoegd aan een reis of vaartuig om de verplaatsing van goederen te volgen van het ene magazijn naar het andere, de levertijd en de verwachte leveringsdatum te schatten en overheadkosten aan de overdracht van goederen toe te voegen.
+Vaak moeten bedrijven goederen kunnen overbrengen tussen magazijnen. Wanneer dit type overdracht plaatsvindt, worden er kosten aan gekoppeld die u wilt herkennen. In Francoprijzen kunnen overboekingsorders worden toegevoegd aan een reis of vaartuig om de verplaatsing van goederen te volgen van het ene magazijn naar het andere, de levertijd en de verwachte leveringsdatum te schatten en overheadkosten aan de overdracht van goederen toe te voegen.
 
-### <a name="tms-transfer-order-cost-features"></a>Functies in Francoprijzen voor kosten van transferorders
+### <a name="tms-transfer-order-cost-features"></a>Functies in Francoprijzen voor kosten van overboekingsorders
 
-In TMS kunt u vrachtkosten maken die zijn gekoppeld aan overdrachten. Hoewel deze toeslagen kunnen worden bekeken vanuit de transferorder, worden de francoprijzen niet toegevoegd aan de artikelkosten. Vrachtafstemming wordt ondersteund door een vrachtfactuur te maken die is gebaseerd op deze toeslagen. Deze vrachtfactuur wordt vervolgens vereffend met een vrachtfactuur van een leverancier.
+In TMS kunt u vrachtkosten maken die zijn gekoppeld aan overdrachten. Hoewel deze toeslagen kunnen worden bekeken vanuit de overboekingsorder, worden de francoprijzen niet toegevoegd aan de artikelkosten. Vrachtafstemming wordt ondersteund door een vrachtfactuur te maken die is gebaseerd op deze toeslagen. Deze vrachtfactuur wordt vervolgens vereffend met een vrachtfactuur van een leverancier.
 
-### <a name="landed-cost-transfer-order-cost-features"></a>Functies in Francoprijzen voor kosten van transferorders
+### <a name="landed-cost-transfer-order-cost-features"></a>Functies in Francoprijzen voor kosten van overboekingsorders
 
-Met Francoprijzen kunt u transferorders toevoegen aan een vaartuig of reis. Op deze manier kunt u verzendkosten aan de reis toevoegen als voorraadvereffening op het moment dat de transferorder wordt ontvangen. De overheadkosten kunnen worden gefactureerd voor de werkelijke kosten en worden bijgehouden voor een reis om de kosten van verkochte goederen bij te werken. Hoewel voor transferorders in de standaardrelease geen goederen in transit worden gebruikt, kunnen ze wel aan transporten worden toegevoegd. De francoprijzen worden opgeteld bij de totale kosten van elk artikel.
+Met Francoprijzen kunt u overboekingsorders toevoegen aan een vaartuig of reis. Op deze manier kunt u verzendkosten aan de reis toevoegen als voorraadvereffening op het moment dat de overboekingsorder wordt ontvangen. De overheadkosten kunnen worden gefactureerd voor de werkelijke kosten en worden bijgehouden voor een reis om de kosten van verkochte goederen bij te werken. Hoewel voor overboekingsorders in de standaardrelease geen goederen in transit worden gebruikt, kunnen ze wel aan transporten worden toegevoegd. De francoprijzen worden opgeteld bij de totale kosten van elk artikel.
