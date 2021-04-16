@@ -2,11 +2,9 @@
 title: Consolidatiebeleid voor zendingen configureren
 description: In dit onderwerp wordt uitgelegd hoe u standaard- en aangepast consolidatiebeleid voor zendingen instelt.
 author: GarmMSFT
-manager: tfehr
 ms.date: 05/12/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, TMSMode, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 1b8bc7d0fe4486b108b277d5cd4200768cd92b96
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 03150ccdaeaf48754f04a4329cb1bc14ea2b6895
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214221"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840408"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Consolidatiebeleid voor zendingen configureren
 
@@ -69,8 +67,8 @@ Volg deze stappen om standaardbeleid voor de consolidatie van zendingen in te st
 
     - Een beleid **CrossOrder** voor het beleidstype *Verkooporders* (mits u over ten minste één magazijn beschikt dat is ingesteld om de eerdere consolidatiefunctie te gebruiken)
     - Een beleid **Standaard** voor het beleidstype *Verkooporder*
-    - Een beleid **Standaard** voor het beleidstype *Transferorder*
-    - Een beleid **CrossOrder** voor het beleidstype *Transferorders* (mits u over ten minste één magazijn beschikt dat is ingesteld om de eerdere consolidatiefunctie te gebruiken)
+    - Een beleid **Standaard** voor het beleidstype *overboekingsorder*
+    - Een beleid **CrossOrder** voor het beleidstype *overboekingsorders* (mits u over ten minste één magazijn beschikt dat is ingesteld om de eerdere consolidatiefunctie te gebruiken)
 
     > [!NOTE]
     > - Beide gevallen van het beleid **CrossOrder** beschouwen dezelfde reeks velden als de eerdere logica, behalve voor het veld voor het ordernummer. (Dat veld wordt gebruikt om regels in zendingen te consolideren, op basis van factoren zoals het magazijn, de leveringsmethode en het adres.)
@@ -88,7 +86,7 @@ Voer de volgende stappen uit om standaardbeleid voor de consolidatie van zending
 1. Selecteer in het actievenster de optie **Standaardinstelling maken** om het volgende beleid te maken:
 
     - Een beleid **Standaard** voor het beleidstype *Verkooporder*
-    - Een beleid **Standaard** voor het beleidstype *Transferorder*
+    - Een beleid **Standaard** voor het beleidstype *overboekingsorder*
 
     > [!NOTE]
     > Beide gevallen van het beleid **Standaard** beschouwen dezelfde reeks velden als de eerdere logica, inclusief het veld voor het ordernummer. (Dat veld wordt gebruikt om regels in zendingen te consolideren, op basis van factoren zoals het ordernummer, de leveringsmethode en het adres.)

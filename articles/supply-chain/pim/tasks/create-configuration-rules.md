@@ -2,11 +2,9 @@
 title: Configuratieregels maken
 description: Met deze procedure worden configuratieregels gemaakt die kunnen worden gebruikt voor een op dimensies gebaseerde configuratie om bepaalde combinaties van stuklijstregels af te dwingen of te voorkomen.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BOMTable, BOMConfigRule, ConfigItemIdLookup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9ef9f4d464fb2a61dd03914efcf7a584fe955ae9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 21cdca1c33b106bd153a436a7fec4f0eeaa0d620
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213373"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820053"
 ---
 # <a name="create-configuration-rules"></a>Configuratieregels maken
 

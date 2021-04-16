@@ -2,11 +2,9 @@
 title: Automatische fiattering met Planningsoptimalisatie
 description: In dit onderwerp wordt uitgelegd hoe u automatische fiattering gebruikt met Planningsoptimalisatie.
 author: ChristianRytt
-manager: tfehr
 ms.date: 11/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,21 +16,23 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 9106137fe6dd097beea9914cdde541e581946f46
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3542e343de29c9fd9d19ed99cab4b4eebacd2899
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227789"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812998"
 ---
 # <a name="autofirming-with-planning-optimization"></a>Automatische fiattering met Planningsoptimalisatie
 
 [!include [banner](../../includes/banner.md)]
 
-Met automatische fiattering kunt u geplande orders fiatteren (vrijgeven) als onderdeel van het hoofdplanningsproces. Wanneer geplande orders worden gefiatteerd, worden deze omgezet in werkelijke inkooporders, transferorders of productie orders. Wanneer Planningsoptimalisatie wordt gebruikt, worden geplande orders gefiatteerd tijdens de uitvoering van een hoofdplanning wanneer de orderdatum (dat wil zeggen de begindatum) binnen de time fence voor fiattering valt.
+Met automatische fiattering kunt u geplande orders fiatteren (vrijgeven) als onderdeel van het hoofdplanningsproces. Wanneer geplande orders worden gefiatteerd, worden deze omgezet in werkelijke inkooporders, overboekingsorders of productie orders. Wanneer Planningsoptimalisatie wordt gebruikt, worden geplande orders gefiatteerd tijdens de uitvoering van een hoofdplanning wanneer de orderdatum (dat wil zeggen de begindatum) binnen de time fence voor fiattering valt.
 
 > [!NOTE]
 > Een geplande inkooporder kan alleen automatisch automatisch worden gefiatteerd als het artikel is gekoppeld aan een leverancier.
+> 
+> Vaste afgeleide orders (inkooporders uitbesteden) geven de status *Wordt gecontroleerd* weer wanneer het bijhouden van aanvraagwijzigingen is ingeschakeld.
 
 ## <a name="turn-on-autofirming"></a>Automatische fiattering inschakelen
 

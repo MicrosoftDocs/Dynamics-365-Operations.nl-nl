@@ -2,11 +2,9 @@
 title: Gedeeltelijke cyclustelling van locatie
 description: Cyclustellingsplannen sturen de werkelijke telbewerkingen aan. U kunt verzoeken dat alleen specifieke producten en productvarianten worden geteld, in plaats van alle voorhanden voorraad op een locatie.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abafe64a17b7b284e5e045da33bb15cf3c42800b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e4fa017c9702524d4637ef73a4c2e506a9c53b28
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234676"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818891"
 ---
 # <a name="partial-location-cycle-counting"></a>Gedeeltelijke cyclustelling van locatie
 
@@ -48,7 +46,7 @@ Voordat gedeeltelijk cyclustellingswerk kan worden verwerkt, moet u ten minste *
 Voor het gedeeltelijke cyclustellingsproces wordt de datum/tijd **Laatste cyclustelling** voor de locatie niet bijgewerkt, ook niet als alle voorhanden artikelen op een bepaalde locatie worden geteld. De gedeeltelijke cyclustelling houdt geen rekening met de parameter **Dagen tussen cyclustellingen** op de pagina **Cyclustelplannen**. Gedeeltelijke cyclustelling biedt geen ondersteuning voor gelijktijdige telling van meerdere artikelen op dezelfde locatie. De functionaliteit voor gedeeltelijke cyclustellingen kan ertoe leiden dat dezelfde locatie meerdere keren wordt geteld voor een artikel wanneer **Cyclustellingsplan verwerken** wordt uitgevoerd. Geef filters op in het veld **Locaties selecteren** om dat scenario te vermijden.
 
 > [!NOTE]
-> De magazijn-app beschikt niet over de knop **LP of artikel toevoegen** wanneer u het gedeeltelijke cyclustellingsproces gebruikt.
+> De mobiele app Magazijnbeheer beschikt niet over de knop **LP of artikel toevoegen** wanneer u het gedeeltelijke cyclustellingsproces gebruikt.
 
 ## <a name="example"></a>Voorbeeld
 

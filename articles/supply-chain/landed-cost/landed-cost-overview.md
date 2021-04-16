@@ -2,7 +2,6 @@
 title: De module Francoprijzen
 description: Met de module Francoprijzen kunnen bedrijven beter hun inkomende verzendbewerkingen stroomlijnen door gebruikers de volledige financiële en logistieke controle te geven over geïmporteerde vracht, van fabrikant tot magazijn.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -15,24 +14,23 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9d04c377080a1d301efb771b98c249f610a3289d
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 524fcdbcf9ba607fe9bcec1f1e894beb45f265e6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500327"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823332"
 ---
 # <a name="landed-cost-module"></a>De module Francoprijzen
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Met de module **Francoprijzen** kunnen bedrijven beter hun inkomende verzendbewerkingen stroomlijnen door gebruikers de volledige financiële en logistieke controle te geven over geïmporteerde vracht, van fabrikant tot magazijn. Voor geïmporteerde goederen kunnen francoprijzen 40 procent of meer van de totale kosten van elk geïmporteerd artikel uitmaken. Daarom is het de uitdaging om nauwkeurige schattingen te maken voor francoprijzen.
 
 Bedrijven kunnen Francoprijzen gebruiken om de volgende taken uit te voeren:
 
 - De francoprijzen schatten op het moment dat ze een reis maken.
-- De francoprijzen verdelen over meerdere artikelen en inkooporders of transferorders in één reis.
+- De francoprijzen verdelen over meerdere artikelen en inkooporders of overboekingsorders in één reis.
 - De overdracht van goederen ondersteunen tussen fysieke locaties door de francoprijzen te herkennen.
 - Toerekeningen herkennen voor goederen in transit.
 

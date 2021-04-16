@@ -1,12 +1,10 @@
 ---
 title: Overboekingsorders maken via de app voor magazijnbeheer
-description: In dit onderwerp wordt beschreven hoe u overboekingsorders kunt maken en verwerken via de functie van de app voor magazijnbeheer
+description: In dit onderwerp wordt beschreven hoe u overboekingsorders kunt maken en verwerken via de mobiele app Magazijnbeheer
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 855b057706bc2f8315084a3cebec6f855a4d01e7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214125"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838365"
 ---
-# <a name="create-transfer-orders-from-the-warehouse-app"></a>Overboekingsorders maken via de app voor magazijnbeheer
+# <a name="create-transfer-orders-from-the-warehouse-app"></a>overboekingsorders maken vanuit de magazijnapp
 
 [!include [banner](../includes/banner.md)]
 
-Met deze functie kunnen magazijnmedewerkers overboekingsorders direct via de app voor magazijnbeheer maken en verwerken. De magazijnmedewerkers beginnen met het selecteren van het doelmagazijn en vervolgens kunnen ze met de app een of meer nummerplaten scannen om de nummerplaten aan de overboekingsorder toe te voegen. Wanneer de magazijnmedewerker **Order voltooien** selecteert, worden met een batchtaak de vereiste overboekingsorder en orderregels gemaakt op basis van de voorhanden voorraad die voor deze nummerplaten is geregistreerd.
+Met deze functie kunnen magazijnmedewerkers overboekingsorders rechtstreeks vanuit de mobiele app Magazijnbeheer maken en verwerken. De medewerker begint met het selecteren van het doelmagazijn en kan vervolgens met de app een of meer nummerplaten scannen om de nummerplaten aan de overboekingsorder toe te voegen. Wanneer de magazijnmedewerker **Order voltooien** selecteert, worden met een batchtaak de vereiste overboekingsorder en orderregels gemaakt op basis van de voorhanden voorraad die voor deze nummerplaten is geregistreerd.
 
-## <a name="enable-the-create-transfer-orders-from-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>De functie voor het maken van overboekingsorders inschakelen via de functie van de app voor magazijnbeheer
+## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>De functie voor het maken van overboekingsorders inschakelen via de functie van de app voor magazijnbeheer
 
 Voordat u deze functie kunt gebruiken, moet u deze functie en de bijbehorende vereisten in uw systeem inschakelen. Beheerders kunnen gebruikmaken van de pagina voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en deze zo nodig in te schakelen.
 
@@ -50,8 +48,8 @@ Hier volgen algemene richtlijnen voor het instellen van een menuoptie voor mobie
 1. Selecteer **Nieuw** om een nieuwe menuoptie toe te voegen. Voer vervolgens de volgende instellingen in om aan de slag te gaan:
 
     - **Naam menuoptie**: wijs een naam toe zoals deze moet worden weergegeven in Supply Chain Management.
-    - **Titel**: wijs een menunaam toe, zoals deze moet worden gepresenteerd aan de medewerkers in de app voor magazijnbeheer.
-    - **Modus**: stel de modus in op *Indirect* (met deze app voor magazijnbeheer wordt geen werk gemaakt).
+    - **Titel**: wijs een menunaam toe, zoals deze moet worden gepresenteerd aan de medewerkers in de mobiele app Magazijnbeheer.
+    - **Modus**: stel de modus in op *Indirect* (met deze menuoptie wordt geen werk gemaakt).
     - **Activiteitscode**: stel deze waarde in op *Overboekingsorder op basis van nummerplaten maken* zodat de magazijnmedewerkers een overboekingsorder op basis van een of meer gescande nummerplaten kunnen maken.
 
 1. Gebruik de instelling **Beleid voor het maken van overboekingsorderregels** om te bepalen hoe overboekingsorderregels door deze menuoptie worden gemaakt. De regels worden gemaakt/bijgewerkt op basis van de voorhanden voorraad die is geregistreerd voor de gescande nummerplaten. Kies een van de volgende waarden:
@@ -74,7 +72,7 @@ Hier volgen algemene richtlijnen voor het instellen van een menuoptie voor mobie
 
 ## <a name="create-a-transfer-order-based-on-license-plates"></a>Een overboekingsorder maken op basis van nummerplaten
 
-De app voor magazijnbeheer heeft een eenvoudig proces voor het maken van overboekingsorders op basis van nummerplaten. Hiervoor doet de medewerker het volgende met de app voor magazijnbeheer:
+De mobiele app Magazijnbeheer heeft een eenvoudig proces voor het maken van overboekingsorders op basis van nummerplaten. Hiervoor doet de medewerker het volgende met de mobiele app Magazijnbeheer:
 
 1. Maak de overboekingsorder en bepaal het doelmagazijn.
 1. Bepaal elke nummerplaat die moet worden verzonden.
@@ -89,7 +87,7 @@ Dit scenario biedt een overzicht van het proces voor het ophalen van overboeking
 
 Als u dit scenario wilt doorlopen met de voorgestelde waarden, moet u in een systeem werken waarop demogegevens zijn geïnstalleerd en moet u de rechtspersoon *USMF* selecteren voordat u begint.
 
-In dit scenario wordt ervan uitgegaan dat u zowel de mogelijkheid [Overboekingsorders maken en verwerken via de functie van de app voor magazijnbeheer](#enable-create-transfer-order-from-warehouse-app) als de mogelijkheid [Verwerking van gebeurtenissen van de app voor magazijnbeheer](warehouse-app-events.md) hebt ingeschakeld.
+In dit scenario wordt ervan uitgegaan dat u zowel de mogelijkheid [overboekingsorders maken en verwerken via de functie van de app voor magazijnbeheer](#enable-create-transfer-order-from-warehouse-app) als de mogelijkheid [Verwerking van gebeurtenissen van de app voor magazijnbeheer](warehouse-app-events.md) hebt ingeschakeld.
 
 U moet niet alleen het proces voor het maken van overboekingsorders instellen in de menuopties voor mobiele apparaten, maar er moeten ook aanvullende sjablonen, locatie-instructies en batchtaken worden ingesteld en ingeschakeld.
 
@@ -101,12 +99,12 @@ U bent een detailhandelaar en hebt meerdere nummerplaten, die elk een combinatie
 
 ### <a name="create-a-mobile-device-menu-item-for-creating-transfer-orders"></a>Een menuoptie voor mobiel apparaten instellen om overboekingsorders te maken
 
-In deze sectie wordt uitgelegd hoe u een nieuwe menuoptie voor mobiele apparaten instelt voor het maken van overboekingsorders. Stel de **Modus** in op *Indirect* en de **Activiteitscode** op *Overboekingsorder maken op basis van nummerplaten*.
+In deze sectie wordt uitgelegd hoe u een nieuwe menuoptie voor mobiele apparaten instelt voor het maken van overboekingsorders. Stel de **Modus** in op *Indirect* en de **Activiteitscode** op *overboekingsorder maken op basis van nummerplaten*.
 
 1. Ga naar **Magazijnbeheer \> Instellen \> Mobiel apparaat \> Menuopties voor mobiel apparaat**.
 1. Selecteer **Nieuw**.
-1. Voer in het veld **Naam menuoptie** de naam *Overboekingsorder maken* in.
-1. Voer in het veld **Titel** de omschrijving *Overboekingsorder maken* in.
+1. Voer in het veld **Naam menuoptie** de naam *overboekingsorder maken* in.
+1. Voer in het veld **Titel** de beschrijving *overboekingsorder maken* in.
 1. Selecteer *Indirect* in het veld **Modus**.
 1. Selecteer bij **Activiteitscode** de optie *Overboekingsorder maken op basis van nummerplaten*
 1. Selecteer bij **Beleid voor het maken van orderregels** de optie *Nummerplaatgeleid met regelreservering*.
@@ -244,7 +242,7 @@ Voeg hoeveelheden van fysieke voorhanden voorraad toe met behulp van de volgende
 > [!NOTE]
 > U moet de nummerplaat maken en locaties gebruiken waarmee u gecombineerde artikelen kunt overbrengen, zoals NP-010.
 
-### <a name="create-and-process-transfer-orders-from-the-warehouse-app"></a>Transferorders maken en verwerken vanuit de magazijnapp
+### <a name="create-and-process-transfer-orders-from-the-warehouse-app"></a>overboekingsorders maken en verwerken vanuit de magazijnapp
 
 1. Open de app en meld u aan als gebruiker *51*. Het magazijn van de huidige gebruiker is 51.
 1. Selecteer de menuoptie **Overboekingsorder maken** van de menulocatie die u tijdens het instellen hebt toegevoegd.
@@ -258,9 +256,9 @@ Voor het genoemde voorbeeld zijn twee **Gebeurtenissen van de app voor magazijnb
 
 ### <a name="inquire-the-warehouse-app-events"></a><a name="#inquire-the-warehouse-app-events"></a>Informatie opvragen over gebeurtenissen van de app voor magazijnbeheer
 
-U kunt de gebeurtenissenwachtrij en gebeurtenisberichten die zijn gegenereerd door de magazijnapp weergeven door naar **Magazijnbeheer \> Query's en rapporten \> Logboeken voor mobiel apparaat \> Gebeurtenissen in app voor magazijnbeheer** te gaan.
+U kunt de gebeurtenissenwachtrij en gebeurtenisberichten die zijn gegenereerd door de mobiele app Magazijnbeheer weergeven door naar **Magazijnbeheer \> Query's en rapporten \> Logboeken voor mobiel apparaat \> Gebeurtenissen in app voor magazijnbeheer** te gaan.
 
-De berichten van de gebeurtenis *Overboekingsorder maken* ontvangen de status *Wachten*, wat betekent dat de batchtaak **Gebeurtenissen van de app voor magazijnbeheer verwerken** de gebeurtenisberichten niet ophaalt en verwerkt. Zodra de status van het gebeurtenisbericht verandert in *In wachtrij*, worden de gebeurtenissen met de batchtaak verwerkt. Dit gebeurt op hetzelfde moment als het maken van de gebeurtenis *Overboekingsorder voltooien* (wanneer een medewerker de knop **Order voltooien** in de app voor magazijnbeheer selecteert). Wanneer de berichten van de gebeurtenis *Overboekingsorder maken* zijn verwerkt, wordt de status gewijzigd in *Voltooid* of *Mislukt*. Wanneer de status van *Overboekingsorder voltooien* wordt gewijzigd in *Voltooid*, worden alle gerelateerde gebeurtenissen uit de wachtrij verwijderd.
+De berichten van de gebeurtenis *Overboekingsorder maken* ontvangen de status *Wachten*, wat betekent dat de batchtaak **Gebeurtenissen van de app voor magazijnbeheer verwerken** de gebeurtenisberichten niet ophaalt en verwerkt. Zodra de status van het gebeurtenisbericht verandert in *In wachtrij*, worden de gebeurtenissen met de batchtaak verwerkt. Dit gebeurt op hetzelfde moment als het maken van de gebeurtenis *Overboekingsorder voltooien* (wanneer een medewerker de knop **Order voltooien** in de mobiele app Magazijnbeheer selecteert). Wanneer de berichten van de gebeurtenis *Overboekingsorder maken* zijn verwerkt, wordt de status gewijzigd in *Voltooid* of *Mislukt*. Wanneer de status van *Overboekingsorder voltooien* wordt gewijzigd in *Voltooid*, worden alle gerelateerde gebeurtenissen uit de wachtrij verwijderd.
 
 Omdat de **Gebeurtenissen van de app voor magazijnbeheer** voor het maken van gegevens van overboekingsorders niet worden verwerkt door de batchtaak voordat de berichten zijn gewijzigd in de status *In wachtrij*, moet u de aangevraagde overboekingsordernummers opzoeken als onderdeel van het veld **ID**. Het veld **ID** bevindt zich in de koptekst van de pagina **Gebeurtenissen van de app voor magazijnbeheer**.
 
@@ -276,11 +274,11 @@ Zie [Verwerking van de gebeurtenis van de app voor magazijnbeheer](warehouse-app
 
 Tijdens dit scenario is het volgende gebeurd:
 
-1. Met de app voor magazijnbeheer hebt u een menuoptie geselecteerd waarbij de activiteitscode **Overboekingsorder maken op basis van een nummerplaat** wordt gebruikt.
+1. Met de mobiele app Magazijnbeheer hebt u een menuoptie geselecteerd waarbij de activiteitscode **Overboekingsorder maken op basis van een nummerplaat** wordt gebruikt.
 1. De app heeft u gevraagd het doelmagazijn voor de overboekingsorder te selecteren. Het bronmagazijn is altijd het magazijn waarbij u momenteel als medewerker bent aangemeld.
 1. Bij de selectie van het doelmagazijn heeft het systeem een ID-nummer voor de komende overboekingsorder gereserveerd (op basis van de nummerreeks van de overboekingsorder die in uw systeem is gedefinieerd), maar de overboekingsorder is nog niet gemaakt.
 1. Toen u de nummerplaat *NP10* scande met de voorhanden voorraad die naar het nieuwe magazijn moet worden verplaatst, is er een **Gebeurtenis van de app voor magazijnbeheer** toegevoegd aan de gebeurtenissenwachtrij om later te worden verwerkt. De magazijngebeurtenis bevatte berichtgegevens over de scan, inclusief het bedoelde overboekingsordernummer.
-1. In de app voor magazijnbeheer is er toen de knop **Order voltooien** is geselecteerd, een nieuwe gebeurtenis van de app voor magazijnbeheer **Overboekingsorder voltooien** gemaakt en is met de gerelateerde bestaande gebeurtenis **Overboekingsorder maken** de status gewijzigd in **In wachtrij**.
+1. In de mobiele app Magazijnbeheer is er toen de knop **Order voltooien** is geselecteerd, een nieuwe gebeurtenis van de app voor magazijnbeheer **Overboekingsorder voltooien** gemaakt en is met de gerelateerde bestaande gebeurtenis **Overboekingsorder maken** de status gewijzigd in **In wachtrij**.
 1. In de backend heeft de batchtaak **Gebeurtenissen van de app voor magazijnbeheer verwerken** de gebeurtenis **In wachtrij** opgehaald en de voorhanden voorraad verzameld die gerelateerd is aan de gescande nummerplaat. Op basis van de voorhanden voorraad zijn de werkelijke overboekingsorderregel en de gekoppelde regels gemaakt. Met de taak is ook het veld **Beleid voor uitgaande verzendingen** voor de overboekingsorder ingevuld met de waarde op basis van de geconfigureerde optie *Vrijgeven en bevestigen van verzending* en is de nummerplaat gekoppeld voor de regels voor de strategie **Nummerplaatgeleid**.
 1. Op basis van de waarde in het veld **Beleid voor uitgaande verzendingen** van de overboekingsorderregel heeft de query van de batchtaak **Automatische vrijgave van overboekingsorders** nu geresulteerd in de vrijgave van de overboekingsorder aan het verzendmagazijn. En dankzij de instelling van de gebruikte **Wavesjabloon**, **Werksjabloon** en **Locatie-instructies** is het werk automatisch verwerkt en is **Status lading** gewijzigd in *Geladen*.
 1. De batchtaak **Uitgaande verzendingen verwerken** wordt uitgevoerd voor de lading, wat erin resulteert dat de overboekingsorder wordt verzonden en de Advance Shipment Notice (ASN) wordt gegenereerd.
@@ -294,13 +292,13 @@ Tijdens dit scenario is het volgende gebeurd:
 
 De functie *Overboekingsorders maken en verwerken via de app voor magazijnbeheer* moet worden ingeschakeld. Zie [De functie voor het maken van overboekingsorders via de app voor magazijnbeheer inschakelen](#enable-create-transfer-order-from-warehouse-app) voor meer informatie.
 
-### <a name="warehouse-app-processes"></a>Processen van de app voor magazijnbeheer
+### <a name="warehouse-management-mobile-app-processes"></a>Processen van de mobiele app Magazijnbeheer
 
 #### <a name="why-cant-i-see-the-menu-button-complete-order"></a>Waarom zie ik de menuknop "Order voltooien" niet?
 
 Er moet ten minste één nummerplaat aan de overboekingsorder zijn toegewezen.
 
-#### <a name="can-several-warehouse-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>Kunnen meerdere gebruikers van de app voor magazijnbeheer tegelijkertijd nummerplaten aan dezelfde overboekingsorder toevoegen?
+#### <a name="can-several-warehouse-management-mobile-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>Kunnen meerdere gebruikers van de mobiele app Magazijnbeheer tegelijkertijd nummerplaten aan dezelfde overboekingsorder toevoegen?
 
 Ja, meerdere magazijnmedewerkers kunnen nummerplaten in dezelfde overboekingsorder scannen.
 
@@ -312,11 +310,11 @@ Nee, een nummerplaat kan aan slechts aan één overboekingsorder tegelijk worden
 
 Nee, u kunt geen aanvullende nummerplaten toevoegen aan een overboekingsorder met de gebeurtenis van de app voor magazijnbeheer **Overboekingsorder voltooien**.
 
-#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Hoe kan ik bestaande overboekingsorders vinden die moeten worden gebruikt via de knop "Overboekingsorder selecteren" in de app voor magazijnbeheer, als de order nog niet is gemaakt in het backend-systeem?
+#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Hoe kan ik bestaande overboekingsorders vinden die moeten worden gebruikt via de knop "Overboekingsorder selecteren" in de mobiele app Magazijnbeheer, als de order nog niet is gemaakt in het backend-systeem?
 
 Op dit moment kunt u geen overboekingsorders opzoeken in de app, maar u kunt de overboekingsordernummers vinden op de pagina **Gebeurtenissen van de app voor magazijnbeheer**. Zie [Informatie opvragen over de gebeurtenissen van de app voor magazijnbeheer](#inquire-the-warehouse-app-events) voor meer informatie.
 
-#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-app"></a>Kan ik handmatig het overboekingsordernummer selecteren dat moet worden gebruikt vanuit de app voor magazijnbeheer?
+#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Kan ik handmatig het overboekingsordernummer selecteren dat moet worden gebruikt vanuit de mobiele app Magazijnbeheer?
 
 Alleen automatisch gegenereerde overboekingsordernummers via nummerreeksen worden ondersteund.
 

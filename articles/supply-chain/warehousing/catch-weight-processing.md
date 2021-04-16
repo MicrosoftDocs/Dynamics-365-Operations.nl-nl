@@ -2,30 +2,27 @@
 title: Verwerking van catch weight-producten bij magazijnbeheer
 description: In dit onderwerp wordt beschreven hoe werksjablonen en locatie-instructies kunnen worden gebruikt om te bepalen hoe en waar werk wordt gedaan in het magazijn.
 author: perlynne
-manager: tfehr
 ms.date: 08/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
+ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench, WHSCatchWeightTagRegistration, WHSCatchWeightTagFullDimDiscrepancies, WHSCatchWeightTagChangeWeightDropDownDialog, WHSCatchWeightLinkWorkLineTagDropDownDialog
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 45f8d53b5ac212866a9c693e0039631507e14dd7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3882e40b4083f9246a03db3078cae8e18bec3c1e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233074"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808913"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Verwerking van catch weight-producten bij magazijnbeheer
 
 [!include [banner](../includes/banner.md)]
-
 
 ## <a name="feature-exposure"></a>Functierisico
 
@@ -52,7 +49,7 @@ Omdat het gewicht van de voorraad wanneer die een magazijn binnenkomt kan afwijk
 > [!NOTE]
 > Met activiteit van mobiel apparaat worden de transactiecorrecties alleen geactiveerd als de methode voor uitgaande gewichtafwijking van het beleid voor afhandeling van catch weight-artikelen van het artikel is ingesteld op **Afwijking van gewicht toestaan**.
 
-**Voorbeeld 1**
+### <a name="example-1"></a>Voorbeeld 1
 
 In een **Gereedmelden**-productieproces is het binnenkomende gewicht van een nummerplaat met acht dozen van een catch weight-product vastgelegd als 80,1 kg. De nummerplaat wordt vervolgens opgeslagen in het gedeelte met eindproducten en gedurende de opslagperiode gaat wat gewicht aan de lucht verloren.
 
@@ -60,7 +57,7 @@ Het gewicht van dezelfde nummerplaat wordt later tijdens de orderverzameling in 
 
 In dit geval past het systeem automatisch het verschil aan door het boeken van een transactie voor de ontbrekende 0,3 kg.
 
-**Voorbeeld 2**
+### <a name="example-2"></a>Voorbeeld 2
 
 In zijn definitie is een product ingesteld om een minimumgewicht van 8 kg en een maximumgewicht van 12 kg te tolereren voor de **Doos** catch weight-eenheid.
 
@@ -106,7 +103,7 @@ En als een artikel labeltracering heeft, is er een parameter voor de **methode v
 **Als gebruik wordt gemaakt van het bijhouden van catch weight-labels**, moet altijd een label worden gemaakt voor elke catch weight-eenheid die wordt ontvangen, en elk label moet altijd worden gekoppeld aan een gewicht.
 
 Bijvoorbeeld: **Doos** is de catch weight-eenheid en u ontvangt een pallet van acht dozen. In dit geval moeten acht unieke catch weight-labels worden gemaakt en aan elk label moet een gewicht worden gekoppeld. Afhankelijk van het inkomende catch weight-label, kan het totale gewicht van alle acht dozen worden vastgelegd en het gemiddelde gewicht kan vervolgens toebedeeld worden aan elke doos, of er kan een uniek gewicht voor elke doos worden vastgelegd.
-Wanneer u de functie **Bestaande codes voor catch weight gebruiken bij het gereedmelden van productieorders** gebruikt terwijl het proces via een menuopdracht op een mobiel apparaat is ingeschakeld, wordt de voorraad bijgewerkt op basis van bestaande codegegevens voor catch weight. Hierdoor wordt in de magazijnbeheer-app niet gevraagd om de catch weight-codegegevens vast te leggen als onderdeel van een productielijst voor voltooide bewerkingen.
+Wanneer u de functie **Bestaande codes voor catch weight gebruiken bij het gereedmelden van productieorders** gebruikt terwijl het proces via een menuopdracht op een mobiel apparaat is ingeschakeld, wordt de voorraad bijgewerkt op basis van bestaande codegegevens voor catch weight. Hierdoor wordt in de mobiele app Magazijnbeheer niet gevraagd om de catch weight-codegegevens vast te leggen als onderdeel van een productielijst voor voltooide bewerkingen.
 
 **Als geen gebruik wordt gemaakt van het bijhouden van catch weight-labels** dan kan het gewicht worden vastgelegd voor elke dimensieset (bijvoorbeeld voor elke nummerplaat en traceringsdimensie). Het gewicht kan ook worden vastgelegd op basis van een samengevoegd niveau, zoals vijf nummerplaten (pallets).
 
@@ -194,7 +191,11 @@ Niet alle workflows ondersteunen verwerking van catch weight-producten bij magaz
 
 ### <a name="catch-weight-tags"></a>Catch weight-labels
 
-Een catch weight-label kan worden gemaakt via een magazijnapp-proces, het kan handmatig in het formulier worden gemaakt of het kan worden gemaakt met een gegevensentiteitproces. Als een catch weight-label is gekoppeld aan een documentregel van een inkomende bron, zoals een inkooporderregel, wordt het label geregistreerd. Als de regel wordt gebruikt voor uitgaande verwerking, wordt het label bijgewerkt als verzonden.
+Een catch weight-label kan worden gemaakt via een proces in de mobiele app Magazijnbeheer, kan handmatig in het formulier **Magazijnbeheer > Query's en rapporten > Catch weigh-labels** worden gemaakt of kan worden gemaakt met een gegevensentiteitproces. Als een catch weight-label is gekoppeld aan een documentregel van een inkomende bron, zoals een inkooporderregel, wordt het label geregistreerd. Als de regel wordt gebruikt voor uitgaande verwerking, wordt het label bijgewerkt als verzonden. U kunt alle historische registraties van catch weight-labels bekijken via de optie **Registratie van catch weight-labels** op de pagina **Catch weight-label**.
+
+U kunt de optie **Labele vastgelegd gewicht wijzigen** gebruiken om de gewichtswaarde voor een catch weight-label handmatig bij te werken. Houd er rekening mee dat het gewicht voor de voorhanden voorraad niet wordt aangepast als onderdeel van dit handmatige proces, maar u de pagina **Voorhanden verschillen voor artikelen met catch weight-labels** om eventuele verschillen tussen de momenteel actieve catch weight-labels en de huidige voorraad op te zoeken.
+
+Andere handmatige opties zijn voor het **registreren van labels** naar een brondocumentregel en het **registreren van werk** op basis van bestaand magazijnwerk.
 
 Naast de beperkingen die momenteel van toepassing zijn op catch weight-producten hebben gelabelde catch weight-producten nog andere beperkingen die momenteel van toepassing zijn.
 
