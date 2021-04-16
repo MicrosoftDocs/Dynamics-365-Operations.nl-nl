@@ -1,12 +1,10 @@
 ---
-title: Nummerplaat ontvangen via de magazijnapp
-description: In dit onderwerp wordt uitgelegd hoe u de magazijnapp kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
+title: Nummerplaat ontvangen via de mobiele app voor Magazijnbeheer
+description: In dit onderwerp wordt uitgelegd hoe u de mobiele app Magazijnbeheer kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
 author: perlynne
-manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: f921d08572038d2ac53948825a8ca2459103b7f7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8c662da296bea7def443cb166bd3f7e501c9abcc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245149"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823186"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-app"></a>Nummerplaat ontvangen via de magazijnapp
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Nummerplaat ontvangen via de mobiele app voor Magazijnbeheer
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u de magazijnapp kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
+In dit onderwerp wordt uitgelegd hoe u de mobiele app Magazijnbeheer kunt instellen om het ontvangstproces met nummerplaat in de fysieke voorraad te ondersteunen.
 
-Met deze functie kunt u snel de ontvangst van de inkomende voorraad vastleggen die is gerelateerd aan een voorschotbericht (advance shipping notice, ASN). Het systeem maakt automatisch een ASN wanneer magazijnbeheerprocessen worden gebruikt om een transferorder te verzenden. Voor het inkooporderproces kan een ASN handmatig worden vastgelegd of kan deze automatisch worden geïmporteerd met behulp van een inkomend ASN-gegevensentiteitproces.
+Met deze functie kunt u snel de ontvangst van de inkomende voorraad vastleggen die is gerelateerd aan een voorschotbericht (advance shipping notice, ASN). Het systeem maakt automatisch een ASN wanneer magazijnbeheerprocessen worden gebruikt om een overboekingsorder te verzenden. Voor het inkooporderproces kan een ASN handmatig worden vastgelegd of kan deze automatisch worden geïmporteerd met behulp van een inkomend ASN-gegevensentiteitproces.
 
 De ASN-gegevens worden gekoppeld aan ladingen en zendingen via *de verpakkingsstructuren*, waarbij pallets (bovenliggende nummerplaten) dozen kunnen bevatten (geneste nummerplaten).
 
@@ -49,7 +47,7 @@ Wanneer u binnenkomende artikelen registreert via een werkbeleid waarmee werk wo
 
 ### <a name="work-policies-without-work-creation"></a>Werkbeleid zonder dat er werk wordt gemaakt
 
-U kunt het proces voor nummerplaatontvangst gebruiken zonder werk te maken. Als u werkbeleid definieert met een werkorder van het type *Ontvangst van transferorder* en/of *Inkooporders* en u het proces *Ontvangen en wegzetten van nummerplaat* gebruikt, wordt met de volgende twee processen van de mobiele app voor Magazijnbeheer geen werk gemaakt. In plaats daarvan registreren ze de inkomende fysieke voorraad op de nummerplaat plaat bij het dock voor binnenkomende ontvangsten.
+U kunt het proces voor nummerplaatontvangst gebruiken zonder werk te maken. Als u werkbeleid definieert met een werkorder van het type *Ontvangst van overboekingsorder* en/of *Inkooporders* en u het proces *Ontvangen en wegzetten van nummerplaat* gebruikt, wordt met de volgende twee processen van de mobiele app voor Magazijnbeheer geen werk gemaakt. In plaats daarvan registreren ze de inkomende fysieke voorraad op de nummerplaat plaat bij het dock voor binnenkomende ontvangsten.
 
 - *Ontvangen van nummerplaat*
 - *Ontvangen en wegzetten van nummerplaat*
@@ -72,7 +70,7 @@ Als u deze functionaliteit op uw systeem beschikbaar wilt maken, moet u de funct
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>De pagina met het ontvangstoverzicht weergeven of overslaan
 
-U kunt de functie *Bepalen of de pagina met het ontvangstoverzicht wordt weergegeven op mobiele apparaten* gebruiken om te profiteren van de extra gedetailleerde magazijnbeheer-appstroom als onderdeel van het nummerplaatontvangstproces.
+U kunt de functie *Bepalen of de pagina met het ontvangstoverzicht wordt weergegeven op mobiele apparaten* gebruiken om te profiteren van de extra gedetailleerde stroom van de mobiele app Magazijnbeheer als onderdeel van het nummerplaatontvangstproces.
 
 Als deze functie is ingeschakeld, bevatten de menuopdrachten van het mobiele apparaat voor het ontvangen en opslaan van nummerplaten de instelling **Pagina met het ontvangstoverzicht weergeven**. Deze instelling heeft de volgende opties:
 
@@ -81,21 +79,21 @@ Als deze functie is ingeschakeld, bevatten de menuopdrachten van het mobiele app
 
 Om deze functionaliteit beschikbaar te maken op uw systeem, moet u de functie *Bepalen of de pagina met het ontvangstoverzicht wordt weergegeven op mobiele apparaten* in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) inschakelen.
 
-## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Verhinderen dat met transferorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn
+## <a name="prevent-transfer-ordershipped-license-plates-from-being-used-at-warehouses-other-than-the-destination-warehouse"></a>Verhinderen dat met overboekingsorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn
 
 Een ontvangstproces voor een nummerplaat kan niet worden gebruikt als een ASN een nummerplaat-id bevat die al bestaat en fysieke voorraadgegevens bevat op een magazijnlocatie anders dan de magazijnlocatie waar de nummerplaatregistratie wordt uitgevoerd.
 
-Voor transferorderscenario's waarbij het transitmagazijn geen nummerplaten volgt (en dus ook geen fysieke voorhanden voorraad per nummerplaat bijhoudt), kunt u de functie *Verhinderen dat met transferorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn* gebruiken om fysieke voorraadupdates te voorkomen in nummerplaten in transit.
+Voor overboekingsorderscenario's waarbij het transitmagazijn geen nummerplaten volgt (en dus ook geen fysieke voorhanden voorraad per nummerplaat bijhoudt), kunt u de functie *Verhinderen dat met overboekingsorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn* gebruiken om fysieke voorraadupdates te voorkomen in nummerplaten in transit.
 
-Als u deze functionaliteit op uw systeem beschikbaar wilt maken, moet u de functie *Verhinderen dat met transferorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn* in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) inschakelen.
+Als u deze functionaliteit op uw systeem beschikbaar wilt maken, moet u de functie *Verhinderen dat met overboekingsorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn* in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) inschakelen.
 
 Voer de volgende stappen uit om de functionaliteit te beheren wanneer deze functie beschikbaar is.
 
 1. Ga naar **Magazijnbeheer \> Instellingen \> Parameters voor magazijnbeheer**.
 1. Stel op het tabblad **Algemeen** op het sneltabblad **Nummerplaten** het veld **Beleid voor nummerplaten transitmagazijn** in op een van de volgende waarden:
 
-    - **Hergebruik toestaan van niet-getraceerde nummerplaat**: het systeem werkt op dezelfde manier als wanneer functie de *Verhinderen dat met transferorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn* niet beschikbaar is. Deze waarde is de standaardinstelling wanneer u de functie voor het eerst activeert.
-    - **Hergebruik verhinderen van niet-getraceerde nummerplaat**: alleen voorhanden updates die zijn gerelateerd aan een geleverde nummerplaat worden toegestaan in het doelmagazijn totdat de transferorder is ontvangen.
+    - **Hergebruik toestaan van niet-getraceerde nummerplaat**: het systeem werkt op dezelfde manier als wanneer functie de *Verhinderen dat met overboekingsorder verzonden nummerplaten worden gebruikt voor andere magazijnen dan het doelmagazijn* niet beschikbaar is. Deze waarde is de standaardinstelling wanneer u de functie voor het eerst activeert.
+    - **Hergebruik verhinderen van niet-getraceerde nummerplaat**: alleen voorhanden updates die zijn gerelateerd aan een geleverde nummerplaat worden toegestaan in het doelmagazijn totdat de overboekingsorder is ontvangen.
 
 ## <a name="more-information"></a>Meer informatie
 

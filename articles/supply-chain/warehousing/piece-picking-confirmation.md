@@ -1,12 +1,10 @@
 ---
-title: Bevestiging door stuksverzameling
-description: In dit onderwerp wordt beschreven hoe u bevestiging voor stuksverzameling instelt en toepast vanaf een mobiel apparaat.
+title: Bevestiging orderverzameling
+description: Met stuksverzameling kunt u elk stuk in uw voorraad bevestigen via picking- of tellingswerk op een mobiel apparaat.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm, WHSRFMenuItem
 audience: Application User
@@ -16,22 +14,22 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 852bd29ae18b4903906aa7fb97a06389cd7cd3bc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3f9da533998341de60d210e196baae64d285d372
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232858"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818843"
 ---
-# <a name="piece-picking-confirmation"></a>Bevestiging door stuksverzameling
+# <a name="piece-picking-confirmation"></a>Bevestiging orderverzameling
 
 [!include [banner](../includes/banner.md)]
 
 Met stuksverzameling kunt u elk stuk in uw voorraad bevestigen via picking- of tellingswerk op een mobiel apparaat. Voor orderverzameling kunt u de hoeveelheid werk die moet worden verwerkt, bevestigen tot en met de hoeveelheid die is opgegeven op het werk dat moet worden gepickt. Voor tellingswerk kunt u de voorraad scannen die u telt en de totale hoeveelheid bijhouden.
 
-Wanneer u stuksverzameling inschakelt, wordt productbevestiging automatisch ingeschakeld. Voor verzameling van het type werk wordt een maximum aantal stuks ingeschakeld. Zo kunt u een maximum instellen voor het aantal delen dat tijdens het werk moet worden bevestigd. De maximumhoeveelheid is gebaseerd op de huidige werkeenheid die wordt verwerkt. Werk van het type telling staat geen maximum toe.
+Wanneer u stuksverzameling inschakelt, wordt productbevestiging automatisch ingeschakeld. Voor verzameling van het type werk kunt u een maximum aantal stuks instellen. Zo kunt u een maximum instellen voor het aantal delen dat tijdens het werk moet worden bevestigd. De maximumhoeveelheid is gebaseerd op de huidige werkeenheid die wordt verwerkt. Werk van het type telling staat geen maximum toe.
 
-U kunt ook de hoeveelheid en eenheid (maateenheid) gebruiken, die is gekoppeld aan een gescande streepjescode. Dit functioneert voor ontvangst op inkomende stromen, inclusief gecombineerde nummerplaatontvangst, inkooporderartikel, transferorderartikel en ladingsitem. Het functioneert ook voor stuksverzameling waarbij het scannen van de streepjescode de hoeveelheid toevoegt aan het totale aantal bevestigde stuks, met conversie tussen de maateenheid in de streepjescode en de werkeenheid. Als bij het tellen van de maateenheid in de streepjescode wordt bevestigd dat de hoeveelheid is toegestaan voor het tellen van de nummerreeksgroep, wordt de hoeveelheid wordt toegevoegd aan het totale aantal.
+U kunt ook de hoeveelheid en eenheid (maateenheid) gebruiken, die is gekoppeld aan een gescande streepjescode. Dit functioneert voor ontvangst op inkomende stromen, inclusief gecombineerde nummerplaatontvangst, inkooporderartikel, overboekingsorderartikel en ladingsitem. Het functioneert ook voor stuksverzameling waarbij het scannen van de streepjescode de hoeveelheid toevoegt aan het totale aantal bevestigde stuks, met conversie tussen de maateenheid in de streepjescode en de werkeenheid. Als bij het tellen van de maateenheid in de streepjescode wordt bevestigd dat de hoeveelheid is toegestaan voor het tellen van de nummerreeksgroep, wordt de hoeveelheid wordt toegevoegd aan het totale aantal.
 
 ## <a name="where-it-applies"></a>Waar van toepassing
 

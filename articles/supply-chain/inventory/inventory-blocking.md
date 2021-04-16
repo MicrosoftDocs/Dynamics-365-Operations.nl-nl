@@ -2,11 +2,9 @@
 title: Voorraadblokkering
 description: Dit onderwerp geeft een overzicht van voorraadblokkering, dat deel van het kwaliteitsinspectieproces in Supply Chain Management is. U kunt voorraadblokkering gebruiken om te voorkomen dat artikelen worden verwerkt of verbruikt.
 author: perlynne
-manager: tfehr
 ms.date: 03/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1d4b006f37904c0ae20691aaa98c75f1d5833b7
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: d07313050b59a32756fa5e31037f1831a2cbe862
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487892"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829879"
 ---
 # <a name="inventory-blocking"></a>Voorraadblokkering
 
@@ -63,7 +61,7 @@ In het volgende voorbeeld wordt een kwaliteitsorder gegenereerd wanneer de pakbo
 
 ## <a name="blocking-items-by-using-inventory-status-blocking"></a>Artikelen blokkeren via blokkering van voorraadstatus
 
-U kunt opgeven welke voorraadstatussen blokkeringsstatussen zijn door de parameter **Voorraadblokkering** op de pagina **Voorraadstatussen** te gebruiken . U kunt geen voorraadstatussen als blokkeringsstatus gebruiken voor productieorders, verkooporders, transferorders, uitgaande transacties of projectintegraties. Gebruik voor uitgaand werk artikelen met een beschikbare voorraadstatus. Als artikelen de status **Verbroken** hebben en de hoofdplanning op deze artikelen wordt uitgevoerd, worden de artikelen als ontbrekend beschouwd en wordt de voorraad automatisch aangevuld.
+U kunt opgeven welke voorraadstatussen blokkeringsstatussen zijn door de parameter **Voorraadblokkering** op de pagina **Voorraadstatussen** te gebruiken . U kunt geen voorraadstatussen als blokkeringsstatus gebruiken voor productieorders, verkooporders, overboekingsorders, uitgaande transacties of projectintegraties. Gebruik voor uitgaand werk artikelen met een beschikbare voorraadstatus. Als artikelen de status **Verbroken** hebben en de hoofdplanning op deze artikelen wordt uitgevoerd, worden de artikelen als ontbrekend beschouwd en wordt de voorraad automatisch aangevuld.
 
 ## <a name="take-care-when-blocking-items-that-use-both-inventory-status-blocking-and-quality-order-blocking"></a>Let op wanneer u artikelen blokkeert waarvoor zowel blokkering van voorraadstatus als blokkering van kwaliteitsorder wordt gebruikt
 

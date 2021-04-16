@@ -2,7 +2,6 @@
 title: Inkomende reizen en verzendcontainertrajecten traceren
 description: In dit onderwerp wordt uitgelegd hoe u de pagina Inkomende tracering kunt gebruiken om de voortgang van uw reizen en verzendcontainertrajecten bij te houden.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,21 +15,20 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 678f2b6cda0592e0393bb15f372cb4be84778932
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 40f8e48b8e52c109023cf0ea5a55657754e1d5b3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501241"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823380"
 ---
 # <a name="track-inbound-voyages-and-shipping-container-journeys"></a>Inkomende reizen en verzendcontainertrajecten traceren
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Op de pagina **Inkomende tracering** kunt u de voortgang van uw reizen en verzendcontainertrajecten bijhouden. Elke reis en elk traject wordt uitgesplitst naar *activiteiten*, die elk een eigen rij op de pagina hebben. U kunt de pagina gebruiken om geschatte datums en werkelijke datums per activiteit weer te geven en in te voeren.
 
-Normaal gesproken wordt bij deze activiteiten, afhankelijk van de instellingen in het [traceringscontrolecentrum](delivery-information-setup.md#tracking-control-center), automatisch de geschatte aankomstdatum op de eindbestemming weergegeven. Bovendien wordt de leveringsdatum of de bevestigde datum op de inkooporderregels meestal bijgewerkt met de einddatum, afhankelijk van de instellingen. Voor transferorderregels kunt u het systeem instellen om de ontvangstdatum bij te werken.
+Normaal gesproken wordt bij deze activiteiten, afhankelijk van de instellingen in het [traceringscontrolecentrum](delivery-information-setup.md#tracking-control-center), automatisch de geschatte aankomstdatum op de eindbestemming weergegeven. Bovendien wordt de leveringsdatum of de bevestigde datum op de inkooporderregels meestal bijgewerkt met de einddatum, afhankelijk van de instellingen. Voor overboekingsorderregels kunt u het systeem instellen om de ontvangstdatum bij te werken.
 
 Als u de pagina **Inkomende tracering** wilt openen, gaat u naar **Francoprijzen \> Tracering \> Inkomende tracering**.
 

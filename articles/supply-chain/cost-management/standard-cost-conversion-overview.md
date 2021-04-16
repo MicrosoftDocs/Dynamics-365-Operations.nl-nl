@@ -2,11 +2,9 @@
 title: Standaardkostprijsconversie - Overzicht
 description: Dit artikel geeft een procesoverzicht om u te helpen bij het instellen en uitvoeren van een standaardkostprijsconversie. De genoemde stappen zijn bedoeld om te worden voltooid nadat u de vereisten voor een standaardkostprijsconversie hebt voltooid.
 author: AndersGirke
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38a2fcca25afd4e29acc758065c1d9bdfdfa6b2c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fdcb45918b404f8a47f27bcea7c02a8397c9336f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239561"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821436"
 ---
 # <a name="standard-cost-conversion-overview"></a>Standaardkostprijsconversie - Overzicht
 

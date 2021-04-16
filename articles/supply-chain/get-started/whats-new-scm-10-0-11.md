@@ -2,11 +2,9 @@
 title: Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.11 (juni 2020)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.11.
 author: kamaybac
-manager: tfehr
 ms.date: 04/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 16195e8dd99161cd812dea7dd6f3024b10b94713
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fa6a57266838fff4c34384337200fc6f24cbe640
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258990"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821172"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.11 (juli 2020)
 
@@ -39,7 +37,7 @@ Deze versie bevat de volgende functies. De functietitels verwijzen naar extra in
 
 - [Opslag voor rapporten voorhanden voorraad](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
 
-- [Verbeteringen voor nummerplaat ontvangen voor de mobiele magazijnapp](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Zie voor meer informatie [Nummerplaat ontvangen via de magazijnapp](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Verbeteringen voor nummerplaat ontvangen voor de mobiele magazijnapp](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Zie voor meer informatie [Nummerplaat ontvangen via de mobiele app Magazijnbeheer](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
 - [Verbeteringen voor regelreserveringen voor het formulier batchnummerreservering](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Zie voor meer informatie [Dezelfde batch reserveren voor een verkooporder](../sales-marketing/reserve-same-batch-sales-order.md).
 
