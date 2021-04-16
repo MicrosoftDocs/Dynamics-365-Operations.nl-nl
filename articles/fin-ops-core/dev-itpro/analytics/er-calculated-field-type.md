@@ -2,7 +2,6 @@
 title: Ondersteuning van parameteraanroepen voor ER-gegevensbronnen van het type Berekend veld
 description: Dit onderwerp biedt informatie over het gebruik van het type Berekend veld voor ER-gegevensbronnen.
 author: NickSelin
-manager: AnnBe
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1c2c13cd3f165826e0d5b5ac901ffa61895301e7
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 897133a27f9d3da2f576ce675c0949f824cde881
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5569196"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749484"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Ondersteuning van parameteraanroepen voor ER-gegevensbronnen van het type Berekend veld
 
@@ -194,7 +193,7 @@ Op de pagina **Indelingsontwerper** heeft het geconfigureerde berekende paramete
 
 ![Uitgevouwen lijst met berekende veldniveaus](media/er-calculated-field-type-08.png)
 
-### <a name="use-the-configured-calculated-field-for-binding-format-elements"></a>Het geconfigureerde berekende veld gebruiken voor het binden van indelingselementen
+### <a name="use-the-configured-calculated-field-for-binding-format-elements&quot;></a>Het geconfigureerde berekende veld gebruiken voor het binden van indelingselementen
 
 1. Selecteer **Model.Data2.Levels** om het geconfigureerde berekende veld te selecteren.
 2. Selecteer het indelingselement **Statement.Taxation.Regular**.
@@ -215,7 +214,7 @@ Op de pagina **Indelingsontwerper** heeft het geconfigureerde berekende paramete
 9. Selecteer **Binden**.
 10. Selecteer **Ja** om de vervanging van de op dat moment gebruikte gegevensbron, **Niveau3**, door de nieuwe gegevensbron **Niveaus** in alle geneste opmaakelementen onder het geselecteerde indelingselement te bevestigen.
 
-   Wanneer u het argument van het berekende parameterveld voor het XML-element dat het belastingniveau vertegenwoordigt (bijvoorbeeld **Model.Data2.Levels("Verlaagd")** opgeeft als tekstwaarde), hoeft u dit niet meer te doen voor geneste XML-kenmerken. De bindingen nemen automatisch de waarde over van het argument dat is gedefinieerd op het bovenliggende niveau (**Model.Data2.Levels.aggregated.Base**, niet **Model.Data2.Levels("Verlaagd").aggregated.Base**).
+   Wanneer u het argument van het berekende parameterveld voor het XML-element dat het belastingniveau vertegenwoordigt (bijvoorbeeld **Model.Data2.Levels(&quot;Verlaagd")** opgeeft als tekstwaarde), hoeft u dit niet meer te doen voor geneste XML-kenmerken. De bindingen nemen automatisch de waarde over van het argument dat is gedefinieerd op het bovenliggende niveau (**Model.Data2.Levels.aggregated.Base**, niet **Model.Data2.Levels("Verlaagd").aggregated.Base**).
 
 Terugkerende aanroepen van berekende parametervelden worden niet ondersteund.
 

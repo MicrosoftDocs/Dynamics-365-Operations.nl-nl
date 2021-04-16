@@ -2,11 +2,9 @@
 title: Het updateproces
 description: Microsoft Dynamics 365 Human Resources is echt software in de vorm van een service (SaaS) die voortdurende 'touchless' updates verzorgt met wijzigingen in toepassingen en platforms.
 author: andreabichsel
-manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27561bfd9cb4f115cc507954c837ea93f9c93b72
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466827"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791528"
 ---
 # <a name="update-process"></a>Het updateproces
 
@@ -58,14 +56,14 @@ Indien nodig biedt Human Resources ook de volgende typen oplossingen:
 
 Releases worden beoordeeld, getest en gevalideerd in een interne omgeving. Nadat de builds zijn afgemeld, worden ze geïmplementeerd voor productie.
 
-## <a name="release-cadence-exceptions-in-2020"></a>Uitzonderingen in releasetempo in 2020
+## <a name="release-cadence-exceptions-in-2021"></a>Uitzonderingen in releasetempo in 2021
 
-Om rekening te houden met feestdagen, is de releaseplanning voor november en december 2020 als volgt:
+Om rekening te houden met feestdagen, is de releaseplanning voor november en december 2021 als volgt:
 
-- Release van november: 2 november - 13 november
-- Release van december: 30 november - 11 december
+- Release van november: 1 november - 14 november
+- Release van december: 29 november - 12 december
  
-Her releasetempo van een keer per twee weken wordt op de gebruikelijke manier hervat op 11 januari 2021.
+Her releasetempo van een keer per twee weken wordt op de gebruikelijke manier hervat op 10 januari 2022.
 
 ## <a name="communications"></a>Berichtgeving
 

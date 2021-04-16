@@ -2,11 +2,9 @@
 title: Afmelden voor verzamelen van gebeurtenissen voor webactiviteit
 description: In dit onderwerp wordt uitgelegd hoe u bezoekers van uw website in staat kunt stellen om zich af te melden voor het verzamelen van gebeurtenissen voor webactiviteiten in Microsoft Dynamics 365 Commerce.
 author: aamiral
-manager: AnnBe
 ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,19 +14,17 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 244d612fa01529df4fff250df50a06526632fcf1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 86f475cc0b78c620309301516b6c3b525b640637
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210918"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791552"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>Afmelden voor verzamelen van gebeurtenissen voor webactiviteit
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u klanten in staat kunt stellen zich af te melden voor het verzamelen van gebeurtenissen voor webactiviteiten in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Met Dynamics 365 Commerce kunnen sitebeheerders de webactiviteiten analyseren van gebruikers van hun e-commercesites. Op die manier kunnen ze beter begrijpen hoe hun sites worden gebruikt en kunnen ze de sites optimaliseren voor een verbeterde gebruikerservaring en voor het behalen van zakelijke doelstellingen.
 

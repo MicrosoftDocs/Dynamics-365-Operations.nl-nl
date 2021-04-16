@@ -2,11 +2,9 @@
 title: Vragenlijsten maken
 description: Dit artikel beschrijft het proces om een vragenlijst te maken. Als eerste stap ontwerpt u de vragenlijst Wanneer u een vragenlijst ontwerpt, schrijft u niet alleen de vragen en antwoorden, maar maakt u ook de structuur waardoor antwoorden worden geregistreerd en getabelleerd.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection, HcmLearningWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: eb4632d7f7d73dbef690be16419e5f3aa25e880e
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: c117864f3a4e21faed450fa11821e7e3432642fb
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467814"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791384"
 ---
 # <a name="create-questionnaires"></a>Vragenlijsten maken
 
