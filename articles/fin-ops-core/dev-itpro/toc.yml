@@ -224,10 +224,12 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: 'Geïntegreerde medewerker, taak en functie'
                               href: data-entities/dual-write/integrated-hr.md
-                            - name: Adresboek van partij en globaal adresboek
+                            - name: Partij en globaal adresboek
                               href: data-entities/dual-write/party-gab.md
-                            - name: Power Portal gebruiken met het gegevensmodel van partij
+                            - name: Power Portal gebruiken met het gegevensmodel Partij
                               href: data-entities/dual-write/party-gab-portal.md
+                            - name: Bijwerken naar het model voor partij en globaal adresboek
+                              href: data-entities/dual-write/upgrade-party-gab.md
                             - name: Integratie met notitie
                               href: data-entities/dual-write/notes-integration.md
                             - name: Toewijzingsverwijzing
@@ -714,6 +716,8 @@
               items:
                 - name: X++ en foutopsporingsfuncties
                   href: dev-tools/new-x-debugger-features.md
+                - name: Visual Studio 2017-vereiste voor X++
+                  href: dev-tools/developer-tools-vs2017.md
                 - name: Foutopsporing in X++-code
                   href: dev-tools/debug-xpp.md
                 - name: EventHandlerResult-klassen in aanvraag- of responsscenario's
@@ -1026,10 +1030,14 @@
                       href: perf-test/atl-faq.md
             - name: Ingangsdatum
               href: dev-tools/date-effectivity.md
-            - name: ISV-licenties
-              href: dev-tools/isv-licensing.md
-            - name: ISV-licentie on-premises
-              href: dev-tools/isv-licensing-on-prem.md
+            - name: Ontwikkeling voor onafhankelijke softwareleveranciers
+              items:
+                - name: X++-modules aan pakketten koppelen met ISV Studio
+                  href: dev-tools/isv-studio-solutions.md
+                - name: ISV-licenties
+                  href: dev-tools/isv-licensing.md
+                - name: ISV-licentie on-premises
+                  href: dev-tools/isv-licensing-on-prem.md
         - name: Algemene verordening gegevensbescherming (AVG)
           items:
             - name: Overzicht van Algemene verordening gegevensbescherming (AVG)
@@ -1142,10 +1150,10 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Integratie met Microsoft Power Platform
           items:
+            - name: Integratie van Microsoft Power Platform met Finance and Operations
+              href: power-platform/overview.md
             - name: Virtuele entiteiten
               items:
-                - name: Integratie van Microsoft Power Platform met Finance and Operations
-                  href: power-platform/overview.md
                 - name: Entiteitsmodellen
                   href: power-platform/entity-modeling.md
                 - name: Levenscyclusbeheer voor toepassing
@@ -1454,6 +1462,8 @@
               href: lifecycle-services/support-experience.md
             - name: Ervaringen met ondersteuning voor Finance and Operations-apps beheren
               href: lifecycle-services/cloud-powered-support-lcs.md
+            - name: Productieondersteuning en -controle
+              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: Systeembeheer
           items:
             - name: Startpagina van Systeembeheer

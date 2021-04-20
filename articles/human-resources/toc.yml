@@ -5,6 +5,8 @@
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 5 april 2021
+          href: hr-whats-new-2021-04-05.md
         - name: 22 maart 2021
           href: hr-whats-new-2021-03-22.md
         - name: 8 maart 2021
@@ -305,6 +307,8 @@
               href: hr-admin-integration-choose-technology.md
             - name: Dataverse-integratie configureren
               href: hr-admin-integration-common-data-service.md
+            - name: Virtuele Dataverse-tabellen configureren
+              href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: Integratie met Finance configureren
               href: hr-admin-integration-finance.md
             - name: Integratie met Dayforce configureren
@@ -321,7 +325,13 @@
                   href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Problemen met Office-integratie oplossen
                   href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
-        - name: Entiteit API-verwijzing
+        - name: Problemen met het ontwikkelen van virtuele Dataverse-tabellen oplossen
+          items:
+            - name: Virtuele Dataverse-tabelquery's optimaliseren
+              href: hr-developer-optimize-virtual-table-queries.md
+            - name: Veelgestelde vragen over virtuele tabellen in Human Resources
+              href: hr-admin-virtual-entity-faq.md
+        - name: Verwijzing entiteits-API's
           items:
             - name: Verificatie
               href: hr-developer-api-authentication.md
@@ -419,6 +429,22 @@
                   href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
                 - name: Type kwalificatieniveau
                   href: hr-admin-integration-ats-api-skill-level-type.md
+        - name: API voor integratie van salarisadministratie
+          items:
+            - name: Inleiding
+              href: hr-admin-integration-payroll-api-introduction.md
+            - name: Entiteiten voor salarisadministratie genereren en beoordelen
+              href: hr-admin-integration-payroll-api-generate-review-entities.md
+            - name: Werknemer in salarisadministratie
+              href: hr-admin-integration-payroll-api-payroll-employee.md
+            - name: Adres medewerker salarisadministratie
+              href: hr-admin-integration-payroll-api-payroll-worker-address.md
+            - name: Vast compensatieplan in salarisadministratie
+              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+            - name: Salarispositiefunctie
+              href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: Salarispositie
+              href: hr-admin-integration-payroll-api-payroll-position.md
     - name: Gebruikershandleiding
       items:
         - name: Overzicht
