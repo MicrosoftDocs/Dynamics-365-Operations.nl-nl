@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b5126b29351ca3093e75e878682f7a07186898
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a39dbdcae29df5e838673dc1fe77ae7e76ebfc86
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752961"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908336"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Entiteitsgegevens weergeven en bijwerken met Excel 
 
@@ -45,7 +45,7 @@ Voor meer informatie over het gebruik van de Excel-invoegtoepassing, bekijkt u d
 2. Selecteer de optie **Openen in Excel** en open de werkmap die wordt gegenereerd. Deze werkmap heeft bindingsgegevens voor de entiteit, een verwijzing naar uw omgeving en een verwijzing naar de Excel-invoegtoepassing.
 3. Selecteer in Excel de optie **Bewerken inschakelen** zodat de Excel-invoegtoepassing kan worden uitgevoerd. De Excel-invoegtoepassing wordt uitgevoerd in een deelvenster aan de rechterkant van het Excel-venster.
 4. Als u de Excel-invoegtoepassing voor het eerst uitvoert, selecteert u **Deze invoegtoepassing vertrouwen**.
-5. Als u wordt gevraagd om u aan te melden, selecteert u **Aanmelden**. Vervolgens meldt u zich aan met de referenties waarmee u zich ook hebt aangemeld bij de Finance and Operations-app. Als dat mogelijk is, gebruikt de Excel-invoegtoepassing een vorige aanmeldingscontext van de browser om u automatisch aan te melden. (Zie voor informatie over de browser die op basis van het besturingssysteem wordt gebruikt [Browsers die worden gebruikt door Office-invoegtoepassingen](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.). Om ervoor te zorgen dat de aanmelding is geslaagd, controleert u de gebruikersnaam in de rechterbovenhoek van de Excel-invoegtoepassing. 
+5. Als u wordt gevraagd om u aan te melden, selecteert u **Aanmelden**. Vervolgens meldt u zich aan met de referenties waarmee u zich ook hebt aangemeld bij de Finance and Operations-app. Als dat mogelijk is, gebruikt de Excel-invoegtoepassing een vorige aanmeldingscontext van de browser om u automatisch aan te melden. (Zie voor informatie over de browser die op basis van het besturingssysteem wordt gebruikt [Browsers die worden gebruikt door Office-invoegtoepassingen](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.). Om ervoor te zorgen dat de aanmelding is geslaagd, controleert u de gebruikersnaam in de rechterbovenhoek van de Excel-invoegtoepassing. 
 
 De Excel-invoegtoepassing leest automatisch de gegevens voor de entiteit die u hebt geselecteerd. Houd er rekening mee dat de werkmap geen gegevens bevat, totdat de Excel-invoegtoepassing deze inleest.
 
@@ -60,7 +60,7 @@ De Excel-invoegtoepassing leest automatisch de gegevens voor de entiteit die u h
 
 6. Selecteer **OK** en vervolgens **Ja** om de wijziging te bevestigen. De Excel-invoegtoepassing wordt opnieuw gestart en metagegevens worden geladen.
 
-    De knop **Ontwerpen** is nu beschikbaar. Als de Excel-invoegtoepassing een knop **Applets laden** bevat, bent u waarschijnlijk niet aangemeld als de juiste gebruiker. Zie voor meer informatie 'De knop Applets laden wordt getoond' in de sectie [Problemen oplossen](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) in dit onderwerp.
+    De knop **Ontwerpen** is nu beschikbaar. Als de Excel-invoegtoepassing een knop **Applets laden** bevat, bent u waarschijnlijk niet aangemeld als de juiste gebruiker. Zie voor meer informatie 'De knop Applets laden wordt getoond' in de sectie [Problemen oplossen](../office-integration/use-excel-add-in.md#troubleshooting) in dit onderwerp.
 
 7. Selecteer **Ontwerp**. De Excel-invoegtoepassing haalt entiteit metagegevens op.
 8. Selecteer **Tabel toevoegen**. Een lijst met entiteiten wordt geopend. De entiteiten worden weergegeven in de indeling 'Naam - label'.
@@ -138,7 +138,7 @@ Er zijn enkele problemen die kunnen worden opgelost met enkele eenvoudige stappe
 
 - **De knop Applets laden wordt getoond**: als de Excel-invoegtoepassing een knop **Applets laden** bevat nadat u zich hebt aangemeld, bent u waarschijnlijk niet aangemeld als de juiste gebruiker. Controleer of de juiste gebruikersnaam zichtbaar is in de rechterbovenhoek van het Excel-invoegtoepassing. Als een onjuiste gebruikersnaam wordt getoond, selecteert u deze en meldt u zich af en vervolgens weer aan met de juiste gebruiker.
 - **U ontvangt een melding 'Verboden'**: als u het foutbericht 'Verboden' krijgt wanneer de Excel-invoegtoepassing metagegevens laadt, is de account die is aangemeld bij de Excel-invoegtoepassing niet gemachtigd om de beoogde service, instantie of database te gebruiken. Controleer of de juiste gebruikersnaam zichtbaar is in de rechterbovenhoek van het Excel-invoegtoepassing. Als een onjuiste gebruikersnaam wordt getoond, selecteert u deze en meldt u zich af en vervolgens weer aan met de juiste gebruiker.
-- **Een lege webpagina wordt weergegeven via Excel**: als een lege webpagina wordt geopend tijdens het aanmelden, vereist de account AD FS, maar is de versie van Excel waarin u de invoegtoepassing uitvoert niet recent genoeg om het aanmeldingsvenster weer te geven. Werk Excel bij naar een meer recente versie. Als u de versie van Excel wilt bijwerken wanneer u werkt in een onderneming die zich op het Deferred-kanaal bevindt, wijzigt u met het [hulpprogramma Office Deployment](https://technet.microsoft.com/library/jj219422.aspx) van [het Deferred-kanaal naar het Current-kanaal](https://technet.microsoft.com/library/mt455210.aspx).
+- **Een lege webpagina wordt weergegeven via Excel**: als een lege webpagina wordt geopend tijdens het aanmelden, vereist de account AD FS, maar is de versie van Excel waarin u de invoegtoepassing uitvoert niet recent genoeg om het aanmeldingsvenster weer te geven. Werk Excel bij naar een meer recente versie. Als u de versie van Excel wilt bijwerken wanneer u werkt in een onderneming die zich op het Deferred-kanaal bevindt, wijzigt u met het [hulpprogramma Office Deployment](/deployoffice/overview-office-deployment-tool) van [het Deferred-kanaal naar het Current-kanaal](/deployoffice/overview-update-channels).
 - **U ontvangt een time-out terwijl u gegevenswijzigingen publiceert**: als u time-outberichten ontvangt terwijl u gegevenswijzigingen naar een entiteit probeert te publiceren, moet u overwegen de batchgrootte voor publicatie voor de betrokken werkmap te verkleinen. Entiteiten waarmee grotere hoeveelheden logica voor recordwijzigingen worden geactiveerd, vereisen mogelijk dat updates in kleinere batches worden verzonden om time-outs te voorkomen.
 
 

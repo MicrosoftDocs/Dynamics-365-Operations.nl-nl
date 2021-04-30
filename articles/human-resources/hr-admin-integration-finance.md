@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a81e5c56e219ec9d7fb95ac6cc053fb13601f0f2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ac4c15b4dbf60f378ba325adedb377e12585481a
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801162"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889951"
 ---
 # <a name="configure-integration-with-finance"></a>Integratie met Finance configureren
 
@@ -29,7 +29,7 @@ ms.locfileid: "5801162"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Voor de integratie van Dynamics 365 Human Resources met Dynamics 365 Finance kunt u de sjabloon Human Resources naar Finance in [Data Integrator](https://docs.microsoft.com/powerapps/administrator/data-integrator). Met de sjabloon Human Resources naar Finance worden gegevensstromen voor taken, functies en werknemers ingeschakeld. Met de sjabloon kunnen gegevens stromen van Human Resources naar Finance, niet andersom.
+Voor de integratie van Dynamics 365 Human Resources met Dynamics 365 Finance kunt u de sjabloon Human Resources naar Finance in [Data Integrator](/powerapps/administrator/data-integrator). Met de sjabloon Human Resources naar Finance worden gegevensstromen voor taken, functies en werknemers ingeschakeld. Met de sjabloon kunnen gegevens stromen van Human Resources naar Finance, niet andersom.
 
 ![Integratiestroom van Human Resources naar Finance](./media/hr-admin-integration-finance-flow.png)
 
@@ -248,7 +248,7 @@ Bij de integratie van gegevens van Human Resources in Finance wordt een poging g
 
 Dit probleem kan zich voordoen met **Medewerker**, waarvoor **Personeelsnummer** wordt gebruikt om overeenkomende records te vinden, en **Posities**. Voor taken worden geen nummerreeksen gebruikt. Het resultaat hiervan is dat als dezelfde taak-id aanwezig is in zowel Human Resources als Finance, de Dynamics 365 Finance-informatie wordt overschreven door de Human Resources-informatie. 
 
-Om problemen met dubbele id's te voor komen, kunt u een voorvoegsel toevoegen aan de [nummerreeks](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json) of een beginnummer instellen voor de nummerreeks die buiten het bereik van het andere systeem valt. 
+Om problemen met dubbele id's te voor komen, kunt u een voorvoegsel toevoegen aan de [nummerreeks](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json) of een beginnummer instellen voor de nummerreeks die buiten het bereik van het andere systeem valt. 
 
 De locatie-id die wordt gebruikt voor het werknemersadres, maakt geen deel uit van een nummerreeks. Wanneer een werknemersadres uit Human Resources wordt geïntegreerd in Finance, kan er een dubbele adresrecord worden gemaakt als het werknemersadres al bestaat in Finance. 
 

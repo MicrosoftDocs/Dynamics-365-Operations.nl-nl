@@ -16,12 +16,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1c481a468b2d624f029082fe27e7f14ecf7c068d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ad7feb837594186f4282103881745c4cfc944d52
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803484"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891049"
 ---
 # <a name="set-up-the-components-of-a-job"></a>De onderdelen van een taak instellen
 
@@ -86,7 +86,7 @@ U onderhoudt functietaken met behulp van de pagina **Functietaken**. Voer op de 
 U gebruikt verantwoordelijkheidsgebieden om aan te geven voor welke werkrollen, processen en producten een werknemer op een positie voor een functie verantwoordelijk is. Voor bijvoorbeeld een functie met de titel 'Boekhouder' kan een verantwoordelijkheidsgebied 'Financiële rapportage voor Product A' zijn. U onderhoudt verantwoordelijkheidsgebieden met behulp van de pagina **Verantwoordelijkheidsgebied**. Deze pagina vindt u met de functie Zoeken. Voer op de pagina **Verantwoordelijkheidsgebied** een naam en een omschrijving voor de verantwoordelijkheid in. In het veld **Notitie** kunt u desgewenst aanvullende informatie invoeren. De notities kunnen worden bijgewerkt voor een specifieke functie zonder de notities te wijzigen die u hier hebt ingevoerd.
 
 ## <a name="steps-for-creating-a-job"></a>Stappen voor het maken van een taak
-Raadpleeg het artikel [Nieuwe taken definiëren](../fin-and-ops/hr/tasks/define-new-jobs.md) voor de stapsgewijze procedure voor het maken van een nieuwe taak. 
+Raadpleeg het artikel [Nieuwe taken definiëren](./hr-personnel-define-jobs.md) voor de stapsgewijze procedure voor het maken van een nieuwe taak. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

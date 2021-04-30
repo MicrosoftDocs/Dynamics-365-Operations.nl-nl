@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814651"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907712"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 
@@ -136,7 +136,7 @@ De werknemer selecteert de derde taak op het tabblad **Alle taken** en selecteer
 
 ## <a name="working-on-indirect-activities"></a>Werken aan indirecte activiteiten
 
-Indirecte activiteiten zijn activiteiten die niet direct zijn gerelateerd aan een productieorder. Indirecte activiteiten kunnen flexibel worden gedefinieerd, zoals wordt beschreven in [Indirecte activiteiten instellen voor tijd en aanwezigheid](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
+Indirecte activiteiten zijn activiteiten die niet direct zijn gerelateerd aan een productieorder. Indirecte activiteiten kunnen flexibel worden gedefinieerd, zoals wordt beschreven in [Indirecte activiteiten instellen voor tijd en aanwezigheid](/dynamicsax-2012/appuser-itpro/set-up-indirect-activities-for-time-and-attendance).
 
 Bijvoorbeeld: Shannon, een werkvloermedewerker bij Contoso, wil deelnemen aan een bedrijfsvergadering en vergaderingen worden beschouwd als een indirecte activiteit. Een van de volgende twee scenario's is van toepassing:
 

@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d6dffb1ea03b8d11519087163d2837d6cfe3df4e
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832389"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899162"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
 
@@ -33,13 +33,13 @@ ms.locfileid: "5832389"
 
 ## <a name="warehouse-execution-on-scale-units"></a>Magazijnuitvoering op schaaleenheden
 
-Deze functie schakelt schaaleenheden in om geselecteerde processen van de magazijnbeheermogelijkheden uit te voeren. Cloud-schaaleenheden voeren hun workloads uit in de cloud met behulp van de toegewezen verwerkingscapaciteit in de door u geselecteerde Microsoft Azure-regio. Voor edge-schaaleenheden kunt u bepaalde workloads onafhankelijk on-premises uitvoeren, zelfs als de schaaleenheden tijdelijk niet verbonden zijn met de cloud.
+Deze functie schakelt schaaleenheden in om geselecteerde processen van de magazijnbeheermogelijkheden uit te voeren.
 
 In dit onderwerp worden magazijnuitvoeringen in een magazijn dat is gedefinieerd als een schaaleenheid een *Warehouse Execution System* (*WES*) genoemd.
 
 ## <a name="prerequisites"></a>Vereisten
 
-U moet beschikken over een Dynamics 365 Supply Chain Management-hub en een schaaleenheid die met de magazijnbeheerworkload is geïmplementeerd. Zie [Cloud- en edge-schaaleenheden voor productie- en magazijnbeheerworkloads](cloud-edge-landing-page.md) voor meer informatie over de architectuur en het implementatieproces.
+U moet beschikken over een Dynamics 365 Supply Chain Management-hub en een schaaleenheid die met de magazijnbeheerworkload is geïmplementeerd. Zie [Gebruik schaaleenheden om de ondersteuning voor workloads in Supply Chain Management te vergroten](cloud-edge-landing-page.md) voor meer informatie over de architectuur en het implementatieproces.
 
 ## <a name="how-the-wes-workload-works-on-scale-units"></a>Hoe de WES-workload werkt op schaaleenheden
 
@@ -297,6 +297,8 @@ Op de workload in schaaleenheden kunt u de volgende batchtaken beheren in **Maga
 - Wavetabelrecords verwerken
 - Berichtverwerking voor magazijnhub naar schaaleenheid
 - Aanvragen voor updates van hoeveelheden voor magazijnorderregels verwerken
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

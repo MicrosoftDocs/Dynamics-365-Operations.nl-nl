@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2443bb057a8b7fe280ed26ecae4e50f671b5e082
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818794"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908825"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Configuratie voor Financiële inzichten (preview)
 
@@ -69,7 +69,7 @@ U kunt de volgende handmatige configuratiestappen uitvoeren, of u kunt het confi
     13. Selecteer **Resources \> Alle oude instellingen**.
     14. Selecteer op de bovenste navigatiebalk **Instellingen** en vervolgens **Aanpassingen**.
     15. Selecteer **Resources voor ontwikkelaars**.
-    16. Stel het veld **Id van verwijzingsgegevens van exemplaar** in op de id van de Dataverse-organisatie die u eerder hebt genoteerd.
+    16. Kopieer de waarde van de **Dataverse-organisatie-id**.
     17. Noteer de URL voor de Dataverse-organisatie in de adresbalk van de browser. De URL kan bijvoorbeeld `https://org42b2b3d3.crm.dynamics.com` zijn.
 
 2. Als u de functie Cashflowprognoses of Budgetprognoses wilt gebruiken, voert u de volgende stappen uit om de annotatielimiet voor uw organisatie bij te werken tot minimaal 50 MB:
@@ -286,12 +286,12 @@ catch {
 
 # <a name="use-a-windows-powershell-script"></a>[Windows PowerShell-script gebruiken](#tab/use-a-powershell-script)
 
-Er is een Windows PowerShell-script meegeleverd, zodat u eenvoudig de Azure-resources kunt instellen die worden beschreven in de module [Export naar Azure Data Lake configureren](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake). Als u liever handmatig de instellingen opgeeft, slaat u deze procedure over en gaat u verder met de procedure in de sectie [Handmatige instellingen](#manual-setup).
+Er is een Windows PowerShell-script meegeleverd, zodat u eenvoudig de Azure-resources kunt instellen die worden beschreven in de module [Export naar Azure Data Lake configureren](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md). Als u liever handmatig de instellingen opgeeft, slaat u deze procedure over en gaat u verder met de procedure in de sectie [Handmatige instellingen](#manual-setup).
 
 > [!NOTE]
 > Voer de volgende stappen uit om het PowerShell-script uit te voeren. De Azure CLI-optie 'Probeer het' of het uitvoeren van het script op uw pc werkt mogelijk niet.
 
-Voer de volgende stappen uit om Azure te configureren met het Windows PowerShell-script. U moet beschikken over rechten om een Azure-resourcegroep, Azure-resources en een Azure AD-toepassing te maken. Zie voor informatie over de vereiste machtigingen [Azure AD-machtigingen controleren](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
+Voer de volgende stappen uit om Azure te configureren met het Windows PowerShell-script. U moet beschikken over rechten om een Azure-resourcegroep, Azure-resources en een Azure AD-toepassing te maken. Zie voor informatie over de vereiste machtigingen [Azure AD-machtigingen controleren](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
 
 1. Ga in de [Azure Portal](https://portal.azure.com) naar het Azure-abonnement van uw bestemming. Selecteer de knop **Cloud Shell** rechts van het veld **Zoeken**.
 2. Selecteer **PowerShell**.
@@ -943,18 +943,7 @@ finally {
 ```
 ---
 
-## <a name="configure-the-entity-store"></a>De entiteitsopslag configureren
 
-Voer de volgende stappen uit om de entiteitsopslag in te stellen in uw Finance-omgeving.
-
-1. Ga naar **Systeembeheer \> Instellen \> Systeemparameters \> Gegevensverbindingen**.
-2. Stel de optie **Data Lake-integratie inschakelen** in op **Ja**.
-3. Stel de volgende Key Vault-velden in:
-
-    - **Toepassings-id (client)**: voer de id van de toepassingsclient in die u eerder hebt gemaakt.
-    - **Toepassingsgeheim**: voer het geheim in dat u hebt opgeslagen voor de toepassing die u eerder hebt gemaakt.
-    - **DNS-naam**: u kunt de DNS-naam (Domain Name System) vinden op de pagina met toepassingsdetails voor de toepassing die u eerder hebt gemaakt.
-    - **Geheime naam**: voer een **storage-account-connection-string** in.
 
 ## <a name="configure-the-data-lake"></a>Het data lake configureren
 
@@ -991,6 +980,19 @@ De invoegtoepassing wordt binnen enkele minuten geïnstalleerd.
     | CDS-tenant-id (directory-id van AAD)               | De tenant-id van het Dataverse-exemplaar. Als u deze waarde wilt zoeken, opent u de [Azure Portal](https://portal.azure.com), gaat u naar **Azure Active Directory** en kopieert u de waarde van **Tenant-id**. |
     | Geef gebruikersobject-id op met systeembeheerderrol | De Azure AD-gebruikersobject-id van de gebruiker in Dataverse. Deze gebruiker moet een systeembeheerder van het Dataverse-exemplaar zijn. Als u deze waarde wilt vinden, opent u de [Azure Portal](https://portal.azure.com), gaat u naar **Azure Active Directory \> Gebruikers**, selecteert u de gebruiker en kopieert u vervolgens in de sectie **Identiteit** de waarde **Object-id**. |
     | Is dit de standaard CDS-omgeving voor de tenant?      | Schakel dit selectievakje in als het Dataverse-exemplaar het eerste productie-exemplaar is dat is gemaakt. Als het Dataverse-exemplaar handmatig is gemaakt, schakelt u dit selectievakje uit. |
+
+## <a name="configure-the-entity-store"></a>De entiteitsopslag configureren
+
+Voer de volgende stappen uit om de entiteitsopslag in te stellen in uw Finance-omgeving.
+
+1. Ga naar **Systeembeheer \> Instellen \> Systeemparameters \> Gegevensverbindingen**.
+2. Stel de optie **Data Lake-integratie inschakelen** in op **Ja**.
+3. Stel de volgende Key Vault-velden in:
+
+    - **Toepassings-id (client)**: voer de id van de toepassingsclient in die u eerder hebt gemaakt.
+    - **Toepassingsgeheim**: voer het geheim in dat u hebt opgeslagen voor de toepassing die u eerder hebt gemaakt.
+    - **DNS-naam**: u kunt de DNS-naam (Domain Name System) vinden op de pagina met toepassingsdetails voor de toepassing die u eerder hebt gemaakt.
+    - **Geheime naam**: voer een **storage-account-connection-string** in.
 
 ## <a name="feedback-and-support"></a>Feedback en ondersteuning
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: bacc27c1a9066892c51110d28ba9a2ad26bebe77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b740da1a8a349f4a1a80b41bf717c388fd3db0c0
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839290"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881827"
 ---
 # <a name="archive-inventory-transactions"></a>Voorraadtransacties archiveren
 
@@ -38,7 +38,7 @@ Als een combinatie van `itemId` en `inventDimId` slechts één ontvangst- of uit
 
 ## <a name="turn-on-the-feature-in-your-system"></a>De functie inschakelen in uw systeem
 
-Als de functies die in dit onderwerp worden beschreven, nog niet in het systeem aanwezig zijn, gaat u naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de *archieffunctie voorraadtransacties* in.
+Als de functies die in dit onderwerp worden beschreven, nog niet in het systeem aanwezig zijn, gaat u naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de *archieffunctie voorraadtransacties* in. Deze functie kan niet meer worden uitgeschakeld nadat deze is ingeschakeld.
 
 ## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>Waar u rekening mee moet worden houden voordat u voorraadtransacties archiveert
 

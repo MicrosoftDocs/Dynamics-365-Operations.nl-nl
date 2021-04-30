@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 03dd6f81185e8944019eaadbb77690e4cd9ba9a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751311"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893599"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Bestemmingen van elektronische rapportage (ER)
 
@@ -57,7 +57,7 @@ Het standaardgedrag voor een ER-indelingsconfiguratie is afhankelijk van het typ
 
 Als u de optie voor **Batchverwerking** instelt op **Nee**, wordt in het dialoogvenster **Intrastat-rapport** op het sneltabblad **Op de achtergrond uitvoeren** een ER-indeling direct in de interactieve modus uitgevoerd. Wanneer deze uitvoering is voltooid, wordt een gegenereerd uitgaand document beschikbaar gemaakt voor downloaden.
 
-Als u de optie **Batchverwerking** instelt op **Ja**, wordt er een ER-indeling uitgevoerd in [batch](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview)modus. De desbetreffende batchtaak wordt gemaakt op basis van de parameters die u opgeeft op het tabblad **Op de achtergrond uitvoeren** van het dialoogvenster **ER-parameters**.
+Als u de optie **Batchverwerking** instelt op **Ja**, wordt er een ER-indeling uitgevoerd in [batch](../sysadmin/batch-processing-overview.md)modus. De desbetreffende batchtaak wordt gemaakt op basis van de parameters die u opgeeft op het tabblad **Op de achtergrond uitvoeren** van het dialoogvenster **ER-parameters**.
 
 > [!NOTE]
 > De taakomschrijving informeert u over de uitvoering van een ER-indelingstoewijzing. Ook bevat deze de naam van de ER-component die wordt uitgevoerd.
@@ -70,7 +70,7 @@ U kunt op verschillende plaatsen informatie over deze taak vinden:
 - Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Elektronische rapportagetaken** om de status van de geplande taak en de uitvoeringsresultaten van de voltooide taak te controleren. Wanneer de taakuitvoering is voltooid, selecteert u **Bestanden weergeven** op de pagina **Elektronische rapportagetaken** om een gegenereerd uitgaand document op te halen.
 
     > [!NOTE]
-    > Dit document wordt opgeslagen als een bijlage van de huidige taakrecord en wordt aangestuurd door het raamwerk voor [documentbeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management). Het [documenttype](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) dat wordt gebruikt voor het opslaan van ER-artefacten van dit type, wordt geconfigureerd in de [ER-parameters](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+    > Dit document wordt opgeslagen als een bijlage van de huidige taakrecord en wordt aangestuurd door het raamwerk voor [documentbeheer](../../fin-ops/organization-administration/configure-document-management.md). Het [documenttype](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) dat wordt gebruikt voor het opslaan van ER-artefacten van dit type, wordt geconfigureerd in de [ER-parameters](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 - Selecteer op de pagina **Elektronische rapportagetaken** de optie **Bestanden weergeven** om de lijst met fouten en waarschuwingen weer te geven die tijdens de uitvoering van de taak zijn gegenereerd.
 

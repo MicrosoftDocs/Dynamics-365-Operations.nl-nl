@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 728984678d78cf626e2b30222f1d1e603e05d117
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ab4cd4a390782936a74977ac2aef3790aa8ac1af
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755053"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891690"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>ER-configuraties opnieuw gebruiken met Excel-sjablonen om rapporten te genereren in Word-indeling
 
@@ -90,7 +90,7 @@ Momenteel wordt het Excel-document gebruikt als sjabloon voor het genereren van 
 
 U kunt nu de elementen van het aangepaste XML-onderdeel **Rapport** aan de inhoudsbesturingselementen van het Word-document toewijzen.
 
-Als u ervaring hebt met het ontwerpen van Word-documenten als formulieren die [inhoudsbesturingselementen](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) bevatten die toegewezen zijn aan elementen van [aangepaste XML-onderdelen](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019), voert u alle stappen in de volgende procedure uit om het document te maken. Zie [Formulieren maken die gebruikers in Word kunnen invullen of afdrukken](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b) voor meer informatie. Sla anders de volgende procedure over.
+Als u ervaring hebt met het ontwerpen van Word-documenten als formulieren die [inhoudsbesturingselementen](/office/client-developer/word/content-controls-in-word) bevatten die toegewezen zijn aan elementen van [aangepaste XML-onderdelen](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019), voert u alle stappen in de volgende procedure uit om het document te maken. Zie [Formulieren maken die gebruikers in Word kunnen invullen of afdrukken](https://support.office.com/article/Create-forms-that-users-complete-or-print-in-Word-040c5cc1-e309-445b-94ac-542f732c8c8b) voor meer informatie. Sla anders de volgende procedure over.
 
 ## <a name="get-a-word-document-that-has-a-custom-xml-part-and-do-data-mapping"></a><a id='get-word-doc'></a>Een Word-document met een aangepast XML-onderdeel ophalen en gegevenstoewijzing uitvoeren
 

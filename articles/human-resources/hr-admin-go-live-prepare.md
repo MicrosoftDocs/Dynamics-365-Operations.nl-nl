@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2f6dbcbd92a99699ce8d7e91c1a7e89a6063035f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: df2c55a8a69efa20c6d8c41e97c9e1f80ee1640d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795136"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892748"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Voorbereiden op go-live van Human Resources
 
@@ -43,7 +43,7 @@ In de volgende tabel worden alle stappen in het proces weergegeven, de verwachte
 | 2 | Controlelijst invullen en verzenden | Nadat acceptatietesten door gebruiker (UAT) zijn voltooid | Partner/klant | Volg de instructies die worden geleverd in [Go-live-beoordeling van FastTrack](hr-admin-go-live-prepare.md#fasttrack-go-live-assessment). |
 | 3 | Projectbeoordeling (FastTrack) | FastTrack Architect* | Architect verschaft een beoordeling na ontvangst van de controlelijst en blijft verder controleren totdat vragen zijn opgehelderd en eventuele oplossingen zijn gevonden. |
 | 4 | Projectworkshop (FastTrack) | FastTrack Architect* | |
-| 5 | Gegevenspakketten importeren | Is afhankelijk van het project | Partner/klant | Volg de instructies in [Overzicht gegevensbeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).|
+| 5 | Gegevenspakketten importeren | Is afhankelijk van het project | Partner/klant | Volg de instructies in [Overzicht gegevensbeheer](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).|
 | 6 | Gereed voor productie | Nadat alle vorige stappen zijn uitgevoerd | Partner/klant | Partner/klant kan de controle over de productieomgeving overnemen.|
 | 7 | Cutover-activiteiten | Is afhankelijk van het project | Partner/klant | |
 | 8 | Go-live | Is afhankelijk van het project | Klant | |
@@ -66,7 +66,7 @@ Tijdens de UAT-fase moet u alle bedrijfsprocessen die u hebt geïmplementeerd en
 
 - We raden u aan uw UAT-proces te starten met een schone omgeving waarin de gegevens uit uw GOLD-configuratie vóór het begin van het UAT-proces naar de omgeving worden gekopieerd. Wij raden u aan de productieomgeving als uw GOLD-omgeving te gebruiken totdat u live gaat, waarna de omgeving een productieomgeving wordt.
 - Testcases omvatten het gehele bereik van vereisten. 
-- Test met behulp van gemigreerde gegevens. Deze gegevens moeten hoofdgegevens zoals werknemers, taken en posities omvatten. Neem ook beginsaldi op, zoals verlof- en verzuimtoerekeningen. Neem tot slot openstaande transacties op, zoals huidige inschrijvingen voor vergoedingen. Voer testen met alle typen gegevens uit, zelfs als de gegevensset niet is voltooid. 
+- Test met behulp van gemigreerde gegevens. Deze moeten gegevens zoals werknemers, taken en posities omvatten. Neem ook beginsaldi op, zoals verlof- en verzuimtoerekeningen. Neem tot slot openstaande transacties op, zoals huidige inschrijvingen voor vergoedingen. Voer testen met alle typen gegevens uit, zelfs als de gegevensset niet is voltooid. 
 - Test met behulp van de juiste beveiligingsrollen (standaardrollen en aangepaste rollen) die aan gebruikers zijn toegewezen. 
 - Zorg ervoor dat de oplossing voldoet aan alle bedrijfsspecifieke en sectorspecifieke wettelijke vereisten. 
 - Documenteer alle functies en verkrijg goedkeuring en meld u af bij de klant. 
@@ -86,7 +86,7 @@ Voorafgaand aan uw go-live, moet u een simulatie go-live uitvoeren om de stappen
 
 ## <a name="fasttrack-go-live-assessment"></a>Go-live-beoordeling van FastTrack
 
-Klanten die zijn gekwalificeerd voor FastTrack en werken met FastTrack Solution Architect, voeren een go-live-evaluatie uit met Microsoft FastTrack. Zie  [Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview) voor meer informatie. 
+Klanten die zijn gekwalificeerd voor FastTrack en werken met FastTrack Solution Architect, voeren een go-live-evaluatie uit met Microsoft FastTrack. Zie  [Microsoft FastTrack](/dynamics365/fasttrack/) voor meer informatie. 
 
 Ongeveer acht weken vóór go-live zal het FastTrack-team u vragen een [Go-live-controlelijst](https://go.microsoft.com/fwlink/?linkid=2146013) in te vullen.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835557"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909374"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>De app voor magazijnbeheer installeren en verbinden
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835557"
 > In dit onderwerp wordt beschreven hoe u de oude magazijn-app configureert (die nu is afgeschaft). Zie [De mobiele app Magazijnbeheer installeren en verbinden](install-configure-warehouse-management-app.md) als u wilt weten hoe u de nieuwe mobiele app Magazijnbeheer kunt configureren.
 
 > [!NOTE]
-> In dit onderwerp wordt beschreven hoe u de magazijnapp voor cloudimplementaties configureert. Als u op zoek bent naar informatie over hoe u de magazijnapp configureert voor on-premises implementaties, raadpleegt u [Magazijnbeheer voor on-premises implementaties](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> In dit onderwerp wordt beschreven hoe u de magazijnapp voor cloudimplementaties configureert. Als u op zoek bent naar informatie over hoe u de magazijnapp configureert voor on-premises implementaties, raadpleegt u [Magazijnbeheer voor on-premises implementaties](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 De magazijnapp is beschikbaar in Google Play Store en Microsoft Store. Deze wordt als zelfstandig onderdeel geleverd. Daarom moet u de app op elk apparaat downloaden en vervolgens configureren om verbinding te maken met uw Microsoft Dynamics 365 Supply Chain Management-omgeving.
 
@@ -54,7 +54,7 @@ Gebruik een van de volgende koppelingen om de app te downloaden:
 - **Windows (UWP):** [Dynamics 365 for Finance and Operations - Magazijnbeheer in de Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Warehousing - Dynamics 365 in de Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Voor kleinere implementaties wilt u de app mogelijk vanuit de relevante store op elk apparaat installeren en vervolgens handmatig de verbinding configureren voor de omgevingen die u gebruikt. In versie 1.7.0.0 en hoger van de magazijnapp kunt u echter ook de implementatie en/of configuratie van de app automatiseren. U zult deze aanpak wellicht handig vinden als u veel apparaten beheert en een oplossing voor beheer van mobiele apparaten gebruikt, zoals [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Zie [Apps aan Microsoft Intune toevoegen](https://docs.microsoft.com/mem/intune/apps/apps-add) voor informatie over het gebruik van Intune om toepassingen toe te voegen.
+Voor kleinere implementaties wilt u de app mogelijk vanuit de relevante store op elk apparaat installeren en vervolgens handmatig de verbinding configureren voor de omgevingen die u gebruikt. In versie 1.7.0.0 en hoger van de magazijnapp kunt u echter ook de implementatie en/of configuratie van de app automatiseren. U zult deze aanpak wellicht handig vinden als u veel apparaten beheert en een oplossing voor beheer van mobiele apparaten gebruikt, zoals [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Zie [Apps aan Microsoft Intune toevoegen](/mem/intune/apps/apps-add) voor informatie over het gebruik van Intune om toepassingen toe te voegen.
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Een webservicetoepassing maken in Azure Active Directory
 
@@ -89,11 +89,11 @@ Als u de magazijnapp wilt inschakelen voor interactie met een specifieke Supply 
 
 Zie de volgende bronnen voor meer informatie over het instellen van webservicetoepassingen in Azure AD.
 
-- Zie [Procedure: Azure PowerShell gebruiken om een service-principal te maken met een certificaat](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell) voor instructies voor het gebruik van Windows PowerShell om webservicetoepassingen in te stellen in Azure AD.
+- Zie [Procedure: Azure PowerShell gebruiken om een service-principal te maken met een certificaat](/azure/active-directory/develop/howto-authenticate-service-principal-powershell) voor instructies voor het gebruik van Windows PowerShell om webservicetoepassingen in te stellen in Azure AD.
 - Zie de volgende onderwerpen voor gedetailleerde informatie over het handmatig maken van een webservicetoepassing in Azure AD.
 
-    - [Snelstart: Een toepassing registreren op het Microsoft-identiteitsplatform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Procedure: de portal gebruiken om een Azure AD-toepassing en een service-principal te maken die toegang hebben tot bronnen](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Snelstart: Een toepassing registreren op het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app)
+    - [Procedure: de portal gebruiken om een Azure AD-toepassing en een service-principal te maken die toegang hebben tot bronnen](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Een gebruikersaccount in Supply Chain Management maken en configureren
 
@@ -121,7 +121,7 @@ Verificatie met Azure AD biedt een veilige manier om een mobiel apparaat te verb
 
 Certificaten kunnen worden gebruikt als geheimen om de identiteit van de toepassing te bewijzen wanneer een token wordt aangevraagd. Het openbare gedeelte van het certificaat wordt geüpload naar de app-registratie in de Azure-portal, terwijl het volledige certificaat moet worden geïmplementeerd op elk apparaat waarop de magazijnapp is geïnstalleerd. Uw organisatie is verantwoordelijk voor het beheer van het certificaat wat betreft rotatie en dergelijke. U kunt zelfondertekende certificaten gebruiken, maar u moet altijd met niet-exporteerbare certificaten werken.
 
-U moet het certificaat lokaal beschikbaar maken voor elk apparaat waarop u de magazijnapp uitvoert. Zie [Certificaten voor verificatie gebruiken in Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure) voor informatie over het beheren van certificaten voor door Intune beheerde apparaten als u Intune gebruikt.
+U moet het certificaat lokaal beschikbaar maken voor elk apparaat waarop u de magazijnapp uitvoert. Zie [Certificaten voor verificatie gebruiken in Microsoft Intune](/mem/intune/protect/certificates-configure) voor informatie over het beheren van certificaten voor door Intune beheerde apparaten als u Intune gebruikt.
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>De toepassing configureren door verbindingsinstellingen te importeren
 

@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7a53efb753a75916c85dc4a45a3c64872a7f5d32
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841762"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908366"
 ---
 # <a name="calendars-and-master-planning"></a>Kalenders en hoofdplanning
 
@@ -90,7 +90,7 @@ Als u wilt opgeven op welke datums een klant leveringen kan accepteren, kunt u e
 
 Opmerking: u kunt slechts één kalender per klant opnemen. Als u een kalender voor elk adres van een klant moet opnemen, kunt u één klant per adres maken en er vervolgens de desbetreffende kalender aan toewijzen. 
 
-De aangevraagde ontvangstdatum op de verkooporderregels is afhankelijk van de kalender van de klant en de controlemethode voor leveringsdatums. U vindt meer informatie over hoe de vroegste leveringsdatum wordt berekend in [Orderbelofte](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+De aangevraagde ontvangstdatum op de verkooporderregels is afhankelijk van de kalender van de klant en de controlemethode voor leveringsdatums. U vindt meer informatie over hoe de vroegste leveringsdatum wordt berekend in [Orderbelofte](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Verzendkalender voor een rechtspersoon
 Om de datums aan te geven waarop een rechtspersoon goederen kan verzenden, kunt u een verzendkalender instellen onder **Organisatiebeheer > Organisaties > Rechtspersonen**. Selecteer de rechtspersoon en voeg de kalender toe op het tabblad **Buitenlandse handel en logistiek**, in het veld **Verzendkalender**. De verzendkalender zal fungeren als een bron van standaardwaarden voor alle magazijnkalenders in de rechtspersoon. 

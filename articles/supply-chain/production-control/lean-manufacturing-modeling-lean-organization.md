@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfc0497286ae0286cde05412c82fcaac76f4042a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 476dfd6be55ce484cb9bc101ac27dc6181f3c010
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837628"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910372"
 ---
 # <a name="modeling-a-lean-organization"></a>Een lean organisatie modelleren
 
@@ -51,7 +51,7 @@ De waardestroom van de toekomstige status kan als productiestroomversie worden g
 
 De waardestroom zelf wordt gemodelleerd als operationele eenheid. Daarom kan de waardestroom als financiële dimensie worden gebruikt.
 
-Zie [Een operationele eenheid maken](../../fin-and-ops/organization-administration/tasks/create-operating-unit.md) voor meer informatie over het maken van operationele eenheden.
+Zie [Een operationele eenheid maken](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md) voor meer informatie over het maken van operationele eenheden.
 
 ## <a name="costing-for-lean-manufacturing-based-on-the-production-flow"></a>Kostprijsberekening voor lean manufacturing op basis van de productiestroom
 De periodieke consolidatie van de kosten voor een productiestroom corrigeert de verwante OHW-rekening en maakt het mogelijk afwijkingen vast te stellen voor de producten die door de productiestroom worden geleverd.

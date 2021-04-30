@@ -16,18 +16,18 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: e85c18e548d82b2a369a1e8a5573800067b1935c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d346251e82737624edfce88dc7b2ee10280f6877
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808059"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907662"
 ---
 # <a name="get-started-with-planning-optimization"></a>Aan de slag met Planningsoptimalisatie
 
 [!include [banner](../../includes/banner.md)]
 
-Zoals [eerder aangekondigd](https://docs.microsoft.com/dynamics365/supply-chain/get-started/removed-deprecated-features-scm-updates#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios) is Planningsoptimalisatie gepland om de bestaande ingebouwde hoofdplanningsengine te vervangen.
+Zoals [eerder aangekondigd](../../get-started/removed-deprecated-features-scm-updates.md#use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios) is Planningsoptimalisatie gepland om de bestaande ingebouwde hoofdplanningsengine te vervangen.
 
 Als u momenteel de ingebouwde hoofdplanningsengine gebruikt, moet u nu beginnen met het plannen van uw migratie naar Planningsoptimalisatie. Het is belangrijk dat u het migratieproces onmiddellijk start, omdat de bewerkingen kunnen worden beïnvloed wanneer afschaffing wordt afgedwongen. We raden u dringend aan de migratie vóór 1 december 2020 te voltooien om te voorkomen dat zich op het laatste moment problemen voordoen wanneer de afschaffing wordt afgedwongen. 
 

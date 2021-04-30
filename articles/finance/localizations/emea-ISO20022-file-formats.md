@@ -13,12 +13,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: v-lenest
 ms.search.validFrom: 2017-06-01
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a95dd6caf01e2c1079d6d9690b52e9ef65d87ea8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0df3f840162cf93c9e9f5f34a22e8b49171ea71f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839955"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891156"
 ---
 # <a name="import-iso20022-files"></a>ISO20022-bestanden importeren
 
@@ -114,7 +114,7 @@ Wanneer u een indelingsconfiguratie van LCS importeert, kunt u de hele configura
  - **Pain.002**: deze indeling wordt samen met de betalingsmodeltoewijzing naar bestemming ISO20022 gebruikt om het bestand pain.002 te importeren in het journaal met leverancierbetalingsoverboekingen
  - **Camt.054**: deze indeling wordt samen met de betalingsmodeltoewijzing naar bestemming ISO20022 gebruikt om het bestand camt.054 te importeren in het journaal met leverancierbetalingsoverboekingen Dezelfde indelingsconfiguratie wordt gebruikt voor de importfunctionaliteit voor klantbetalingen, maar de andere toewijzing wordt gebruikt in de configuratie van betalingsmodeltoewijzing voor bestemming ISO20022.
 
-Raadpleeg voor meer informatie over de elektronische aangifte [Overzicht van elektronische rapportage](../../dev-itpro/analytics/general-electronic-reporting.md).
+Raadpleeg voor meer informatie over de elektronische aangifte [Overzicht van elektronische rapportage](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="additional-resources"></a>Aanvullende resources
 - [Leveranciersbetalingen maken en exporteren met de ISO20022-betalingsindeling](./tasks/create-export-vendor-payments-iso20022-payment-format.md)

@@ -1,8 +1,8 @@
 ---
 title: De levenscyclus van de configuratie van elektronische rapportage (ER) beheren
-description: In dit onderwerp wordt beschreven hoe u de levenscyclus van ER-configuratie (elektronische rapportage) voor de Microsoft Dynamics 365 Finance-oplossing kunt beheren.
+description: In dit onderwerp wordt beschreven hoe u de levenscyclus van ER-configuratie (elektronische rapportage) voor Microsoft Dynamics 365 Finance kunt beheren.
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 165f2c981b550f8a6fd4d2ce08763e6fa3c8b6e7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750101"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893196"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>De levenscyclus van de configuratie van elektronische rapportage (ER) beheren
 
@@ -45,7 +45,7 @@ Elektronische rapportage (ER) is een engine die officieel vereiste en land/regio
 
 - Een sjabloon beschikbaar maken zodat deze in andere exemplaren kan worden gebruikt:
 
-    - Een documentsjabloon die is gemaakt, transformeren naar een ER-configuratie en de configuratie van het huidige toepassingsexemplaar exporteren als een XML-pakket dat lokaal of in LCS kan worden opgeslagen.
+    - Een documentsjabloon die is gemaakt, transformeren naar een ER-configuratie en de configuratie van het huidige toepassingsexemplaar exporteren als een XML-pakket dat lokaal of in LCS (Lifecycle Services) kan worden opgeslagen.
     - Een ER-configuratie naar een toepassingsdocumentsjabloon transformeren.
     - Een XML-pakket dat lokaal of in LCS is opgeslagen importeren in het huidige exemplaar.
 
@@ -78,11 +78,22 @@ Het is raadzaam om ER-configuraties in de ontwikkelingsomgeving te ontwerpen als
 - Gebruikers met de rol **Ontwikkelaar elektronische rapportage** of **Functioneel consultant elektronische rapportage** kunnen configuraties bewerken en deze voor testdoeleinden uitvoeren. Dit scenario kan aanroepen veroorzaken van methoden van klassen en tabellen die schadelijk kunnen zijn voor bedrijfsgegevens en de prestaties van het exemplaar.
 - Aanroepen van methoden van klassen en tabellen als ER-gegevensbronnen van ER-configuraties worden niet beperkt door invoerpunten en geregistreerde bedrijfsinhoud. Daardoor kunnen gebruikers met de rol **Ontwikkelaar elektronische rapportage** of **Functioneel consultant elektronische rapportage** toegang krijgen tot gevoelige bedrijfsgegevens.
 
-ER-configuraties die zijn ontworpen in de ontwikkelomgeving, kunnen worden geüpload naar de testomgeving voor de configuratie-evaluatie (juiste procesintegratie, nauwkeurigheid van resultaten en prestaties) en kwaliteitscontrole, zoals nauwkeurigheid van op rollen gebaseerde toegangsrechten, scheiding van taken enzovoort. De functies die de uitwisseling van ER-configuratie mogelijk maken, kunnen voor dit doel worden gebruikt. Tot slot kunnen bewezen ER-configuraties worden geüpload naar LCS waar ze kunnen worden gedeeld met serviceabonnees, of naar de productieomgeving voor intern gebruik, zoals in de volgende afbeelding wordt getoond.
+ER-configuraties die zijn ontworpen in de ontwikkelomgeving, kunnen worden [geüpload](#data-persistence-consideration) naar de testomgeving voor de configuratie-evaluatie (juiste procesintegratie, nauwkeurigheid van resultaten en prestaties) en kwaliteitscontrole, zoals nauwkeurigheid van op rollen gebaseerde toegangsrechten, scheiding van taken enzovoort. De functies die de uitwisseling van ER-configuratie mogelijk maken, kunnen voor dit doel worden gebruikt. Bewezen ER-configuraties kunnen worden geüpload naar LCS waar ze kunnen worden gedeeld met serviceabonnees, of [geïmporteerd](#data-persistence-consideration) naar de productieomgeving voor intern gebruik.
 
 ![Levenscyclus van ER-configuratie](./media/ger-configuration-lifecycle.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Overweging voor gegevenspersistentie
+
+U kunt verschillende [versies](general-electronic-reporting.md#component-versioning) van een [ER-configuratie](general-electronic-reporting.md#Configuration) afzonderlijk [importeren](tasks/er-import-configuration-lifecycle-services.md) in uw Finance-exemplaar. Wanneer een nieuwe versie van een ER-configuratie wordt geïmporteerd, bepaalt het systeem de inhoud van de conceptversie van deze configuratie:
+
+   - Wanneer de geïmporteerde versie lager is dan de hoogste versie van deze configuratie in het huidige exemplaar van Finance, blijft de inhoud van de conceptversie van deze configuratie ongewijzigd.
+   - Wanneer de geïmporteerde versie hoger is dan een andere versie van deze configuratie in het huidige exemplaar van Finance, wordt de inhoud van de geïmporteerde versie naar de conceptversie van deze configuratie gekopieerd, waarin u de laatst voltooide versie kunt bewerken.
+
+Als deze configuratie eigendom is van de configuratie [provider](general-electronic-reporting.md#Provider) die momenteel is geactiveerd, is de conceptversie van deze configuratie zichtbaar op het sneltabblad **Versies** van de pagina **Configuraties** (**Organisatiebeheer** > **Elektronische rapportage** > **Configuraties**). U kunt de conceptversie van de configuratie selecteren en de inhoud ervan [wijzigen](er-quick-start2-customize-report.md#ConfigureDerivedFormat) met behulp van de relevante ER-ontwerper. Wanneer de conceptversie van een ER-configuratie hebt bewerkt, komt de inhoud niet meer overeen met de inhoud van de hoogste versie van deze configuratie in het huidige exemplaar van Finance. Om te voorkomen dat uw wijzigingen verloren gaan, wordt een fout weergegeven dat de import niet kan worden voortgezet omdat de versie van deze configuratie hoger is dan de hoogste versie van deze configuratie in het huidige exemplaar van Finance. Wanneer dit zich voordoet, bijvoorbeeld bij de indelingsconfiguratie **X**, wordt de fout **Indeling 'X'-versie niet voltooid** weergegeven.
+
+Als u de wijzigingen die u in de conceptversie hebt aangebracht ongedaan wilt maken, selecteert u in het sneltabblad **Versies** de hoogste voltooide of gedeelde versie van uw ER-configuratie in Finance en selecteert u vervolgens de optie **Deze versie ophalen**. De inhoud van de geselecteerde versie wordt naar de conceptversie gekopieerd.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838389"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911291"
 ---
 # <a name="work-with-location-directives"></a>Werken met locatie-instructies
 
@@ -44,8 +44,8 @@ Voordat u een locatie-instructie kunt maken, moet u deze stappen volgen om er ze
 1. Ga naar **Magazijnbeheer \> Instellen \> Magazijn \> Magazijnen**.
 1. Een magazijn maken.
 1. Stel op het sneltabblad **Magazijn** de optie **Magazijnbeheerprocessen gebruiken** in op *Ja*.
-1. Locaties, locatietypen, locatieprofielen en locatie-indelingen maken. Zie [Locaties configureren in een magazijn met WMS-ondersteuning](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse) voor meer informatie.
-1. Maak locaties, zones en zonegroepen. Zie [Magazijn instellen](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) en [Locaties configureren in een magazijn met WMS-ondersteuning](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse) voor meer informatie.
+1. Locaties, locatietypen, locatieprofielen en locatie-indelingen maken. Zie [Locaties configureren in een magazijn met WMS-ondersteuning](./tasks/configure-locations-wms-enabled-warehouse.md) voor meer informatie.
+1. Maak locaties, zones en zonegroepen. Zie [Magazijn instellen](../../commerce/channels-setup-warehouse.md) en [Locaties configureren in een magazijn met WMS-ondersteuning](./tasks/configure-locations-wms-enabled-warehouse.md) voor meer informatie.
 
 ## <a name="work-order-types-for-location-directives"></a>Werkordertypen voor locatie-instructies
 
@@ -143,7 +143,7 @@ De velden op het sneltabblad **Locatie-instructies** zijn specifiek voor het wer
 - **Instructiecode**: selecteer de instructiecode om aan een werksjabloon of aanvullingssjabloon te koppelen. Op de pagina **Instructiecode** kunt u nieuwe codes maken die kunnen worden gebruikt om werksjablonen of aanvullingssjablonen te koppelen aan locatie-instructies. Instructiecodes kunnen ook worden gebruikg om een koppeling tussen een werksjabloonregel en een locatie-instructie tot stand te brengen (zoals een laaddeur of faseringslocatie).
 
     > [!TIP]
-    > Als er een instructiecode is ingesteld, zoekt het systeem niet naar locatie-instructies op volgnummer wanneer er werk moet worden gegenereerd. In plaats daarvan wordt gezocht op instructiecode. Zo kunt u specifiek opgeven welke locatiesjabloon wordt gebruikt voor een bepaalde stap in een werksjabloon, zoals de stap voor de fasering van materialen.
+    > Als er een instructiecode is ingesteld, zoekt het systeem niet naar locatie-instructies op volgnummer wanneer er werk moet worden gegenereerd. In plaats daarvan wordt gezocht op instructiecode. Zo kunt u specifiek opgeven welke locatierichtlijn wordt gebruikt voor een bepaalde stap in een werksjabloon, zoals de stap voor de fasering van materialen.
 
 - **Meerdere SKU's**: stel deze optie in op *Ja* om meerdere voorraadeenheden (SKU's) op een locatie te kunnen gebruiken. Er moeten bijvoorbeeld meerdere SKU's worden ingeschakeld voor de laaddeurlocatie. Als u meerdere SKU's inschakelt, wordt uw neerzetlocatie volgens verwachting opgegeven bij werk. De neerzetlocatie kan echter alleen een locatie met meerdere artikelen verwerken (als het werk bestaat uit verschillende SKU's die moeten worden verzameld en opgeslagen). Het is niet mogelijk een neerzetlocatie met één SKU te verwerken. Als u deze optie op *Nee* instelt, wordt de neetzetlocatie alleen opgegeven als deze slechts één type SKU heeft.
 
@@ -249,7 +249,7 @@ Voor dit scenario moet u twee locatie-instructieacties definiëren. De eerste ac
 
 ## <a name="next-step"></a>Volgende stap
 
-Nadat u locatie-instructies hebt gemaakt, kunt u elke instructiecode aan een werksjablooncode voor het maken van werk koppelen. Zie voor meer informatie [Magazijnwerk beheren met werksjablonen en locatie-instructies](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
+Nadat u locatie-instructies hebt gemaakt, kunt u elke instructiecode aan een werksjablooncode voor het maken van werk koppelen. Zie voor meer informatie [Magazijnwerk beheren met werksjablonen en locatie-instructies](./control-warehouse-location-directives.md).
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

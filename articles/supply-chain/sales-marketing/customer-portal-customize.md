@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 16d5c13c0fbff8c5033b0d1e9dd0d07851521126
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840768"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908995"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>De klantportal aanpassen en gebruiken
 
@@ -33,14 +33,14 @@ De klantportal bevat een paar webpagina's en standaard acties. Het volgende site
 
 In de volgende onderwerpen vindt u informatie over Power Apps-portals en hoe u portals kunt aanpassen:
 
-- [Werken met sjablonen](https://docs.microsoft.com/powerapps/maker/portals/work-with-templates): dit onderwerp biedt een algemeen overzicht van de werking van Power Apps-portals en over hoe u portals eenvoudig kunt aanpassen.
-- [Portalinhoud beheren](https://docs.microsoft.com/dynamics365/portals/manage-portal-content): in dit onderwerp wordt uitgelegd hoe u de inhoud die u in uw portal opneemt, kunt beheren en aanpassen.
-- [CSS bewerken](https://docs.microsoft.com/powerapps/maker/portals/edit-css): hier vindt u informatie over het aanbrengen van meer complexe aanpassingen in de gebruikersinterface van uw portal.
-- [Een thema maken voor uw portal](https://docs.microsoft.com/dynamics365/portals/create-theme): hier vindt u informatie over het maken van een UI-thema voor uw portal.
-- [De portalinhoud eenvoudig maken en publiceren](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content): hier vindt u informatie over het beheren van de onderliggende gegevens en tabellen die u gebruikt voor uw portal.
-- [Een contactpersoon configureren voor gebruik in een portal](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts): in dit onderwerp wordt uitgelegd hoe u gebruikersrollen maakt en aanpast, en hoe beveiliging en verificatie in Power Apps-portals worden uitgevoerd.
-- [Notities voor tabelformulieren en webformulieren configureren in portals](https://docs.microsoft.com/powerapps/maker/portals/configure-notes): in dit onderwerp wordt uitgelegd hoe u documenten en extra opslagruimte aan uw portal toevoegt.
-- [Foutafhandeling voor portalwebsite](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log): in dit onderwerp wordt uitgelegd hoe u foutlogboeken voor portals kunt weergeven en in uw Microsoft Azure-blobopslagaccount kunt opslaan.
+- [Werken met sjablonen](/powerapps/maker/portals/work-with-templates): dit onderwerp biedt een algemeen overzicht van de werking van Power Apps-portals en over hoe u portals eenvoudig kunt aanpassen.
+- [Portalinhoud beheren](/dynamics365/portals/manage-portal-content): in dit onderwerp wordt uitgelegd hoe u de inhoud die u in uw portal opneemt, kunt beheren en aanpassen.
+- [CSS bewerken](/powerapps/maker/portals/edit-css): hier vindt u informatie over het aanbrengen van meer complexe aanpassingen in de gebruikersinterface van uw portal.
+- [Een thema maken voor uw portal](/dynamics365/portals/create-theme): hier vindt u informatie over het maken van een UI-thema voor uw portal.
+- [De portalinhoud eenvoudig maken en publiceren](/dynamics365/portals/create-expose-portal-content): hier vindt u informatie over het beheren van de onderliggende gegevens en tabellen die u gebruikt voor uw portal.
+- [Een contactpersoon configureren voor gebruik in een portal](/powerapps/maker/portals/configure/configure-contacts): in dit onderwerp wordt uitgelegd hoe u gebruikersrollen maakt en aanpast, en hoe beveiliging en verificatie in Power Apps-portals worden uitgevoerd.
+- [Notities voor tabelformulieren en webformulieren configureren in portals](/powerapps/maker/portals/configure-notes): in dit onderwerp wordt uitgelegd hoe u documenten en extra opslagruimte aan uw portal toevoegt.
+- [Foutafhandeling voor portalwebsite](/powerapps/maker/portals/admin/view-portal-error-log): in dit onderwerp wordt uitgelegd hoe u foutlogboeken voor portals kunt weergeven en in uw Microsoft Azure-blobopslagaccount kunt opslaan.
 
 ## <a name="customize-the-order-creation-process"></a>Het proces voor het maken van orders aanpassen
 
@@ -88,7 +88,7 @@ Dit zijn de standaard stappen voor het indienen van een order vanuit de klantpor
 
 Voor een soepele gebruikerservaring worden in de klantportal automatisch waarden ingevuld voor verschillende vereiste velden. Deze waarden zijn gebaseerd op informatie in de contactpersoonrecord van de klant die de order indient.
 
-Voor elke [contactpersoonrij](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) die hoort bij een klant die de klantportal gebruikt om orders te verzenden, moeten er waarden worden opgegeven voor de volgende vereiste velden. Anders worden er fouten weergegeven.
+Voor elke [contactpersoonrij](/powerapps/maker/portals/configure/configure-contacts) die hoort bij een klant die de klantportal gebruikt om orders te verzenden, moeten er waarden worden opgegeven voor de volgende vereiste velden. Anders worden er fouten weergegeven.
 
 - **Bedrijf**: de rechtspersoon waarbij de order hoort
 - **Potentiële klant**: de klantrekening die aan de geselecteerde order is gekoppeld.
@@ -134,16 +134,16 @@ Voor artikelen zijn de volgende kolommen vereist:
 
 U moet ervoor zorgen dat uw klantportal waarden voor al deze kolommen bevat.
 
-Zie [Formulieren voor snel maken aanmaken of bewerken voor een gestroomlijnde gegevensinvoer](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms) als u kolommen aan de pagina wilt toevoegen of kolommen wilt verwijderen.
+Zie [Formulieren voor snel maken aanmaken of bewerken voor een gestroomlijnde gegevensinvoer](/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms) als u kolommen aan de pagina wilt toevoegen of kolommen wilt verwijderen.
 
 Zie de volgende informatie in de documentatie over Power Apps-portals als u de manier wilt wijzigen waarop de kolommen worden ingesteld en hoe waarden worden ingesteld wanneer de pagina wordt opgeslagen:
 
-- [Veld vooraf invullen](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
-- [Waarde instellen bij opslaan](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
+- [Veld vooraf invullen](/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
+- [Waarde instellen bij opslaan](/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
 
 ## <a name="customize-the-home-page"></a>De startpagina aanpassen
 
-Alle besturingselementen in de klantportal zijn ingebouwde besturingselementen voor Power Apps-portals. U kunt deze aanpassen door de stappen uit te voeren in [Een pagina samenstellen](https://docs.microsoft.com/powerapps/maker/portals/compose-page) in de documentatie voor Power Apps-portals.
+Alle besturingselementen in de klantportal zijn ingebouwde besturingselementen voor Power Apps-portals. U kunt deze aanpassen door de stappen uit te voeren in [Een pagina samenstellen](/powerapps/maker/portals/compose-page) in de documentatie voor Power Apps-portals.
 
 Het enige aangepaste besturingselement dat in de sjabloon voor de klantportal is opgenomen, wordt gebruikt om de tegels op de startpagina te maken.
 
@@ -151,7 +151,7 @@ Het enige aangepaste besturingselement dat in de sjabloon voor de klantportal is
 
 Volg deze stappen om de tegels te wijzigen.
 
-1. Open de [Portalbeheer-app](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal).
+1. Open de [Portalbeheer-app](/powerapps/maker/portals/configure/configure-portal).
 1. Selecteer **Paginasjablonen** in het navigatievenster aan de linkerkant.
 
     ![Navigatievenster van portalbeheer](media/customer-portal-nav.png "Navigatievenster van portalbeheer")
@@ -167,11 +167,11 @@ Volg deze stappen om de tegels te wijzigen.
 
 Zie de volgende bronnen voor meer informatie over hoe u de klantportal kunt instellen en aanpassen:
 
-- [Documentatie over Power Apps-portals](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Documentatie over Power Apps-portals](/powerapps/maker/portals/overview)
 - [Documentatie over twee keer wegschrijven](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
-- [Informatie over Portallevenscyclus](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Een portal bijwerken](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Portalconfiguratie migreren](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Informatie over Portallevenscyclus](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Een portal bijwerken](/powerapps/maker/portals/admin/upgrade-portal)
+- [Portalconfiguratie migreren](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Solution Lifecycle Management: Dynamics 365 voor Customer Engagement-apps](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a167e6ba4a3b4161e964e5018944af0901000b01
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e8d65cc1f946f921523607eff850b29f9ff9bf1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841474"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910156"
 ---
 # <a name="automatic-allocation-of-charges"></a>Automatische toewijzing van toeslagen
 
@@ -144,7 +144,7 @@ Nadat uw toeslagcodes zijn ingesteld, voert u de volgende stappen uit om de auto
     - **Locatie** en **Magazijn**: geef een locatie en magazijn op als toeslagen alleen moeten worden toegepast op een specifieke locatie en specifiek magazijn.
     - **Behouden**: selecteer dit selectievakje om de toeslagtransacties te behouden nadat de facturering is voltooid, zodat de toeslag telkens wordt toegepast wanneer u een nieuwe factuur voor de geselecteerde klantrekening maakt.
 
-1. **Alleen voor verkooporders**: als u gelaagde toeslagen wilt berekenen, raadpleegt u [Gelaagde toeslagen op verkooporders](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) voor informatie.
+1. **Alleen voor verkooporders**: als u gelaagde toeslagen wilt berekenen, raadpleegt u [Gelaagde toeslagen op verkooporders](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) voor informatie.
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>Toeslagen van de koptekst aan een regel toewijzen
 

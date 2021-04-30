@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d7fc01906a017d4214d4794097a11b4a3416b95
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b117f408b8ac8baabf7e8af3b383526f404441a4
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801114"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889855"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Een app voor terugkerende gegevensexporten maken
 
@@ -43,12 +43,12 @@ In deze zelfstudie worden de volgende technologieën gebruikt:
 - **[Dynamics 365 Human Resources](https://dynamics.microsoft.com/talent/overview/)** – De hoofdgegevensbron voor medewerkers die worden geëxporteerd.
 - **[Azure Logic Apps](https://azure.microsoft.com/services/logic-apps/)** – De technologie waarmee de terugkerende exportbewerking kan worden georganiseerd en gepland.
 
-    - **[Connectors](https://docs.microsoft.com/azure/connectors/apis-list)** – De technologie die wordt gebruikt om de logische app aan de vereiste eindpunten te koppelen.
+    - **[Connectors](/azure/connectors/apis-list)** – De technologie die wordt gebruikt om de logische app aan de vereiste eindpunten te koppelen.
 
-        - [HTTP met Azure AD](https://docs.microsoft.com/connectors/webcontents/)-connector
-        - [OneDrive voor Bedrijven](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness)-connector
+        - [HTTP met Azure AD](/connectors/webcontents/)-connector
+        - [OneDrive voor Bedrijven](/azure/connectors/connectors-create-api-onedriveforbusiness)-connector
 
-- **[REST API uit het DMF-pakket](../dev-itpro/data-entities/data-management-api.md)** – De technologie die wordt gebruikt om het exportproces te activeren en de voortgang te controleren.
+- **[REST API uit het DMF-pakket](../fin-ops-core/dev-itpro/data-entities/data-management-api.md)** – De technologie die wordt gebruikt om het exportproces te activeren en de voortgang te controleren.
 - **[OneDrive voor bedrijven](https://onedrive.live.com/about/business/)** – De bestemming voor de geëxporteerde medewerkers.
 
 ## <a name="prerequisites"></a>Vereisten
@@ -84,11 +84,11 @@ Het grootste deel van de oefening bestaat uit het maken van de logische app.
     ![Pagina voor het maken van logische apps](media/integration-logic-app-creation-1.png)
 
 2. Start in Logic Apps Designer met een lege logische app.
-3. Voeg een [trigger voor de planning met terugkeerpatroon](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence) toe om de logische app elke 24 uur (of volgens een door u gewenste planning) uit te voeren.
+3. Voeg een [trigger voor de planning met terugkeerpatroon](/azure/connectors/connectors-native-recurrence) toe om de logische app elke 24 uur (of volgens een door u gewenste planning) uit te voeren.
 
     ![Dialoogvenster voor terugkeerpatroon](media/integration-logic-app-recurrence-step.png)
 
-4. Roep de DMF REST API [ExportToPackage](../dev-itpro/data-entities/data-management-api.md#exporttopackage) aan om de export van uw gegevenspakket te plannen.
+4. Roep de DMF REST API [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage) aan om de export van uw gegevenspakket te plannen.
 
     1. Gebruik de actie **Een HTTP-aanvraag aanroepen** vanuit de HTTP met de Azure AD-connector.
 
@@ -122,13 +122,13 @@ Het grootste deel van de oefening bestaat uit het maken van de logische app.
     > [!TIP]
     > U kunt desgewenst elke stap een andere naam geven die meer zegt dan de standaardnaam, **Een HTTP-aanvraag aanroepen**. U kunt bijvoorbeeld de naam van deze stap veranderen in **ExportToPackage**.
 
-5. [Initialiseer een variabele](https://docs.microsoft.com/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) om de uitvoeringsstatus van de **ExportToPackage**-aanvraag op te slaan.
+5. [Initialiseer een variabele](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) om de uitvoeringsstatus van de **ExportToPackage**-aanvraag op te slaan.
 
     ![Actie Variabele initialiseren](media/integration-logic-app-initialize-variable-step.png)
 
 6. Wacht tot de uitvoeringsstatus van de gegevensexport **Voltooid** is.
 
-    1. Voeg een [Until-lus](https://docs.microsoft.com/azure/logic-apps/logic-apps-control-flow-loops#until-loop) toe die wordt herhaald totdat de variabele **ExecutionStatus** de waarde **Voltooid** heeft.
+    1. Voeg een [Until-lus](/azure/logic-apps/logic-apps-control-flow-loops#until-loop) toe die wordt herhaald totdat de variabele **ExecutionStatus** de waarde **Voltooid** heeft.
     2. Voeg de actie **Vertraging** toe, zodat vijf seconden wordt gewacht voordat de huidige uitvoeringsstatus van de export wordt gecontroleerd.
 
         ![Container Until-lus](media/integration-logic-app-until-loop-step.png)
@@ -136,9 +136,9 @@ Het grootste deel van de oefening bestaat uit het maken van de logische app.
         > [!NOTE]
         > Stel het aantal iteraties in op **15** om maximaal 75 seconden (15 keer 5 seconden) te wachten totdat de export is voltooid. Als het exporteren langer duurt, past u het aantal iteraties aan.        
 
-    3. Voeg de actie **HTTP-aanvraag aanroepen** aan om de DMF REST API [GetExecutionSummaryStatus](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) aan te roepen en stel de variabele **ExecutionStatus** in op het resultaat van de **GetExecutionSummaryStatus**-respons.
+    3. Voeg de actie **HTTP-aanvraag aanroepen** aan om de DMF REST API [GetExecutionSummaryStatus](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) aan te roepen en stel de variabele **ExecutionStatus** in op het resultaat van de **GetExecutionSummaryStatus**-respons.
 
-        > In dit voorbeeld wordt geen foutcontrole uitgevoerd. De API **GetExecutionSummaryStatus** kan ook definitieve mislukt-statussen retourneren (dat wil zeggen een andere status dan **Voltooid**). Zie de [API-documentatie](../dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) voor meer informatie.
+        > In dit voorbeeld wordt geen foutcontrole uitgevoerd. De API **GetExecutionSummaryStatus** kan ook definitieve mislukt-statussen retourneren (dat wil zeggen een andere status dan **Voltooid**). Zie de [API-documentatie](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexecutionsummarystatus) voor meer informatie.
 
         - **Methode:** POST
         - **URL van de aanvraag:** https://\<hostname\>/namespaces\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExecutionSummaryStatus
@@ -156,7 +156,7 @@ Het grootste deel van de oefening bestaat uit het maken van de logische app.
 
 7. Haal de download-URL van het geëxporteerde pakket op.
 
-    - Voeg de actie **HTTP-aanvraag aanroepen** toe om de DMF REST API [GetExportedPackageUrl](../dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) aan te roepen.
+    - Voeg de actie **HTTP-aanvraag aanroepen** toe om de DMF REST API [GetExportedPackageUrl](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#getexportedpackageurl) aan te roepen.
 
         - **Methode:** POST
         - **URL van de aanvraag:** https://\<hostname\>/namespaces\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
@@ -166,7 +166,7 @@ Het grootste deel van de oefening bestaat uit het maken van de logische app.
 
 8. Download het geëxporteerde pakket.
 
-    - Voeg een HTTP **GET**-aanvraag (een ingebouwde [HTTP-connectoractie](https://docs.microsoft.com/azure/connectors/connectors-native-http)) toe om het pakket te downloaden van de URL die in de vorige stap is geretourneerd.
+    - Voeg een HTTP **GET**-aanvraag (een ingebouwde [HTTP-connectoractie](/azure/connectors/connectors-native-http)) toe om het pakket te downloaden van de URL die in de vorige stap is geretourneerd.
 
         - **Methode:** GET
         - **URI:** body('Invoke\_an\_HTTP\_request\_3').value
@@ -179,9 +179,9 @@ Het grootste deel van de oefening bestaat uit het maken van de logische app.
         > [!NOTE]
         > Voor deze aanvraag is geen extra verificatie vereist omdat de URL die de API **GetExportedPackageUrl** retourneert, een token voor handtekeningen voor gedeelde toegang bevat dat toegang geeft tot het downloaden van het bestand.
 
-9. Sla het gedownloade pakket op met de [OneDrive voor Bedrijven](https://docs.microsoft.com/azure/connectors/connectors-create-api-onedriveforbusiness)-connector.
+9. Sla het gedownloade pakket op met de [OneDrive voor Bedrijven](/azure/connectors/connectors-create-api-onedriveforbusiness)-connector.
 
-    - De OneDrive voor Bedrijven-actie [Bestand maken](https://docs.microsoft.com/connectors/onedriveforbusinessconnector/#create-file) toevoegen.
+    - De OneDrive voor Bedrijven-actie [Bestand maken](/connectors/onedriveforbusinessconnector/#create-file) toevoegen.
     - Maak zo nodig verbinding met uw OneDrive voor Bedrijven-account.
 
         - **Mappad:** een door u gekozen map

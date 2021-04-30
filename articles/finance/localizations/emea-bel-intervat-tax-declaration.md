@@ -14,12 +14,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 7dda9ae45966c166468d87a7816077c385166856
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6a8fa56d705d4b4ecb936fd2f49bc773509e38dd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839901"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894859"
 ---
 # <a name="intervat-tax-declaration"></a>INTERVAT-belastingaangifte
 
@@ -593,7 +593,7 @@ In [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/V2) ku
 
 -   INTERVAT-indeling (BE)
 
-Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](https://docs.microsoft.com/dynamics365/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 ## <a name="additional-sales-tax-report-boxes"></a>Aanvullende btw-rapportvakken
 

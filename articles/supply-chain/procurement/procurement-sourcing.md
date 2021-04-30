@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 96e112432ba79d2657a8d440e8e040fca45392a2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d94426580d65dc1639de4b2dd1b3f283724a1a9e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825513"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909199"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Startpagina Inkoopbeheer
 
@@ -83,12 +83,12 @@ Inkoopbeheer omvat alle stappen van het identificeren van een behoefte aan produ
 ## <a name="prices-and-discounts"></a>Prijzen en kortingen
 -   [Inkoopovereenkomsten](purchase-agreements.md)
 -   [Een inkoopovereenkomst maken](tasks/create-purchase-agreement.md)
--   [Leverancierskortingen](https://docs.microsoft.com/dynamics/s-e/) (whitepaper)
+-   [Leverancierskortingen](/dynamics/s-e/) (whitepaper)
 
 ## <a name="product-receipt-and-invoicing"></a>Productontvangstbon en facturering
 -   [Productontvangst tegen inkooporders](product-receipt-against-purchase-orders.md)
--   [Overzicht van leveranciersfacturen](../../financials/accounts-payable/vendor-invoices-overview.md)
--   [Boekingsprofielen van leverancier](../../financials/accounts-payable/vendor-posting-profiles.md)
+-   [Overzicht van leveranciersfacturen](../../finance/accounts-payable/vendor-invoices-overview.md)
+-   [Boekingsprofielen van leverancier](../../finance/accounts-payable/vendor-posting-profiles.md)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Workflows voor inkoopbeheer
 -   [Overzicht van inkoopbeheer](procurement-sourcing-overview.md)

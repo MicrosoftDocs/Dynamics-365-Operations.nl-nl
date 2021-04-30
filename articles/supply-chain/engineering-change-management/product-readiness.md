@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 23ee82922a2103d02a4c1fe0c364fa381c4984c3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3acdde483cb997b4a16a497f145c7c087c6906b5
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842004"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909714"
 ---
 # <a name="product-readiness"></a>Productgereedheid
 
@@ -142,7 +142,7 @@ Stel de volgende velden in voor elke rij die u toevoegt.
 | Bedrijf | Als u het veld **Uitvoeren in** instelt op *Eén bedrijf*, selecteert u het bedrijf. |
 | Type eigenaar | Selecteer of gereedheidscontroles die worden gegenereerd in de rij moeten worden toegewezen aan een persoon of een team. |
 | Eigenaar | Selecteer de persoon of het team waaraan de gereedheidscontroles die worden gegenereerd in de rij moeten worden toegewezen. |
-| Vragenlijst | Selecteer de vragenlijst die voor de controlelijst moet worden gebruikt. De controlelijst is een lokale controlelijst in het bedrijf waar de gereedheidscontrole is uitgevoerd. Het systeem moet kunnen beoordelen of de controlelijst correct is beantwoord. Daarom moet de controlelijst zo zijn ingesteld dat een evaluatie wordt uitgevoerd op basis van juiste antwoorden. Zie [Vragenlijsten gebruiken](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) en verwante onderwerpen voor meer informatie over het maken van vragenlijsten. |
+| Vragenlijst | Selecteer de vragenlijst die voor de controlelijst moet worden gebruikt. De controlelijst is een lokale controlelijst in het bedrijf waar de gereedheidscontrole is uitgevoerd. Het systeem moet kunnen beoordelen of de controlelijst correct is beantwoord. Daarom moet de controlelijst zo zijn ingesteld dat een evaluatie wordt uitgevoerd op basis van juiste antwoorden. Zie [Vragenlijsten gebruiken](/dynamicsax-2012/appuser-itpro/using-questionnaires) en verwante onderwerpen voor meer informatie over het maken van vragenlijsten. |
 | Automatische goedkeuring | Records voor gereedheidscontroles bevatten een selectievakje **Goedgekeurd** waarmee de goedkeuringsstatus wordt aangegeven. Selecteer het selectievakje **Automatische goedkeuring** voor controles die direct op Goedgekeurd moeten worden gezet nadat de toegewezen gebruiker ze voltooid. Wis dit selectievakje uit als u expliciete goedkeuring als extra stap verplicht wilt maken. |
 | Verplicht | Schakel dit selectievakje in voor controles die door de toegewezen gebruiker moeten worden voltooid. Verplichte controles kunnen niet worden overgeslagen. |
 

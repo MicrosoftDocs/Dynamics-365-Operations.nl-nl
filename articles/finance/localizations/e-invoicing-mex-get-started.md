@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c1112ba8394afb3aa9c9b4f68249524498bd8b32
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840047"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894878"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Aan de slag met Elektronische facturering voor Mexico
 
@@ -86,7 +86,7 @@ U kunt een nieuwe versie maken als bijvoorbeeld URL's moeten worden bijgewerkt. 
 
     ![De pagina Indelingsontwerper openen](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
-3. Gebruik de pagina **Indelingsontwerper** om de configuratie van bestanden met een ER-indeling te bewerken en weer te geven. Zie [Configuraties voor elektronische documenten maken](../../dev-itpro/analytics/electronic-reporting-configuration.md) voor meer informatie.
+3. Gebruik de pagina **Indelingsontwerper** om de configuratie van bestanden met een ER-indeling te bewerken en weer te geven. Zie [Configuraties voor elektronische documenten maken](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md) voor meer informatie.
 
     ![Pagina Indelingsontwerper](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
 
@@ -161,7 +161,7 @@ Als u elektronische facturering in Finance wilt instellen, voert u de volgende t
 ### <a name="import-the-er-data-model-er-data-model-mapping-and-context-configurations-for-cfdi-invoices"></a>Het ER-gegevensmodel, de toewijzing voor het ER-gegevensmodel en contextconfiguraties voor CFDI-facturen importeren
 
 1. Meld u aan bij Finance.
-2. Selecteer in de werkruimte **Elektronische rapportage** in de sectie **Configuratieaanbieders** de tegel **Microsoft**. Controleer of deze configuratieaanbieder is ingesteld op **Actief**. Zie [Aanbieders van configuraties maken en deze als actief markeren](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11) voor informatie over de manier waarop u een aanbieder als deze als **Actief** kunt instellen.
+2. Selecteer in de werkruimte **Elektronische rapportage** in de sectie **Configuratieaanbieders** de tegel **Microsoft**. Controleer of deze configuratieaanbieder is ingesteld op **Actief**. Zie [Aanbieders van configuraties maken en deze als actief markeren](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md) voor informatie over de manier waarop u een aanbieder als deze als **Actief** kunt instellen.
 3. Selecteer **Opslagplaatsen**.
 4. Selecteer **Algemene resource \> Openen**.
 5. Importeer **Factuurmodel**, **Factuurmodeltoewijzing**, **CFDI-factuurindeling (MX)**, **Indeling annuleringsverzoek CFDI-factuur (MX)** en **Indeling annulering CFDI-factuur (MX)**.
@@ -215,7 +215,7 @@ Tijdens de verwerking van CFDI-facturen in Finance via Elektronische facturering
 Nadat u de functie **Integratie configureerbare functie voor elektronisch factureren** hebt ingeschakeld, kunt u het proces **Elektronische factuur exporteren/importeren** (**Klanten \> Facturen \> E-facturen**) voor het indienen van CFDI-facturen niet meer gebruiken. Het wordt vervangen door een nieuw proces met de naam **Elektronische documenten indienen**.
 
 > [!NOTE]
-> Voordat u het nieuwe proces **Elektronische documenten indienen** gebruikt, moet u controleren of de instellingen die nodig zijn voor de Mexicaanse e-facturen zijn voltooid. Zie [CFDI-indeling versie 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3) voor meer informatie.
+> Voordat u het nieuwe proces **Elektronische documenten indienen** gebruikt, moet u controleren of de instellingen die nodig zijn voor de Mexicaanse e-facturen zijn voltooid. Zie [CFDI-indeling versie 3.3](./latam-mex-cfdi-3-3.md) voor meer informatie.
 
 1. Ga naar **Organisatiebeheer \> Periodiek \> Elektronische documenten \> Elektronische documenten indienen**.
 2. Als u een document voor het eerst indient, moet u altijd de optie **Documenten opnieuw indienen** op **Nee** instellen. Stel deze optie in op **Ja** als u een document opnieuw moet indienen via de service.

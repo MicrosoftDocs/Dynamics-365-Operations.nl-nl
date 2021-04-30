@@ -13,12 +13,12 @@ ms.search.region: Netherlands
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b5df46a8ac604183a826137a47455b1088dddddb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62364a5b7fba2a9dec2e63657556d90828109c19
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840867"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892337"
 ---
 # <a name="deliver-xbrl-to-the-dutch-regulatory-body-via-semansys-xbrlone"></a>XBRL aan de Nederlandse regelgevende instantie bezorgen via Semansys XBRLOne
 
@@ -34,7 +34,7 @@ Voor dit proces zijn de volgende vereisten nodig:
 - Kennis van de juiste taxonomie waarvoor u rapporteert en de bevestiging dat u aan een Nederlandse regelgevende instantie levert.
 - Importeer de elektronische rapporteringsconfiguraties **Nederlands XBRL-integratiemodel** en **Semansys XBRL (NL)**.
 
-Zie voor meer informatie over het downloaden van ER-configuraties vanuit Microsoft Dynamics Lifecycle Services (LCS) [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+Zie voor meer informatie over het downloaden van ER-configuraties vanuit Microsoft Dynamics Lifecycle Services (LCS) [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 
 In het volgende voorbeeld ziet u welke stappen een gebruiker moet uitvoeren om de gegevens voor een jaarrapport voor 2019 te exporteren. 
 

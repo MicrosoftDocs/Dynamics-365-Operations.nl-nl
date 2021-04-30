@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aadf43d478eb4bf5af20df02dcc6399a7a2e71a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8e95fa06745840a6ba1782f135af0e7625c934aa
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743502"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893247"
 ---
 # <a name="expense-management-power-bi-content"></a>Power BI-inhoud onkostenbeheer
 
@@ -41,7 +41,7 @@ Twee Power BI-inhoudpakketten zijn beschikbaar voor gebruik met onkostenbeheer i
 Alle bedragen worden weergegeven in de bedrijfsvaluta. Gegevens voor alle bedrijven worden weergegeven, maar indien nodig kunt u een bedrijfsfilter toevoegen. 
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
-U vindt de Power BI-inhoud Admin Dashboard.pbix en Expense Personal Dashboard.pbix in de bibliotheek met gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+U vindt de Power BI-inhoud Admin Dashboard.pbix en Expense Personal Dashboard.pbix in de bibliotheek met gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 De inhoud is beschikbaar via de werkruimte voor onkostenbeheer als ingesloten Power Bi-inhoud. Elke onkosteneigenaar kan toegang verkrijgen tot persoonlijke onkosten van zichzelf, terwijl alleen medewerkers en managers van de afdeling Crediteuren toegang hebben tot de beheerinhoud om onkostengegevens van alle gebruikers te bekijken.
 
 ## <a name="refreshing-the-power-bi-content"></a>De Power BI-inhoud vernieuwen

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 3c4382336e53bc09c51dd845446af9a20a2ba8af
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c43b45c7919be4673224b0f83606c390d0bb6265
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794464"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891073"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Afdelingen maken en deze opnemen in de afdelingenhiërarchie
 
@@ -53,7 +53,7 @@ Als u een afdeling wilt toevoegen aan de afdelingshiërarchie, volgt u deze stap
 6.  Wanneer u klaar bent, klikt u op **Publiceren** in de hiërarchieontwerper. U kunt een ingangsdatum invoeren waarmee wordt aangegeven wanneer de hiërarchie moet worden gepubliceerd. Als u bijvoorbeeld een nieuwe afdeling wilt toevoegen aan het begin van het volgende kalenderjaar, stelt u de ingangsdatum in op 1 januari van het nieuwe kalenderjaar. De wijzigingen in de hiërarchie worden op die datum van kracht.
 
 ## <a name="steps-for-creating-a-department"></a>Stappen voor het maken van een afdeling
-Raadpleeg het artikel [Nieuwe afdelingen definiëren](../fin-and-ops/hr/tasks/define-new-departments.md) voor de stapsgewijze procedure voor het maken van een nieuwe afdeling. 
+Raadpleeg het artikel [Nieuwe afdelingen definiëren](./hr-personnel-define-departments.md) voor de stapsgewijze procedure voor het maken van een nieuwe afdeling. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

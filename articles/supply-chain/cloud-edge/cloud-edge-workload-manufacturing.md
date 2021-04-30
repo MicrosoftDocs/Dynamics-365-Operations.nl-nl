@@ -16,22 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a8c263104e209a81e33ea0db9e5fecddff3bc95b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809777"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899090"
 ---
-# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Productie-uitvoeringsworkloads voor cloud- en edge-schaaleenheden
+# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
+> De werkbelasting voor productie-uitvoering is op dit moment als voorbeeld beschikbaar.
 > Sommige bedrijfsfuncties worden niet volledig ondersteund in de openbare preview wanneer workloadschaaleenheden worden gebruikt.
 
-Bij productie-uitvoering leveren cloud- en edge-schaaleenheden de volgende mogelijkheden, zelfs wanneer edge-eenheden niet zijn verbonden met de hub:
+In de productie-uitvoering leveren schaaleenheden de volgende mogelijkheden:
 
 - Machineoperators en werkvloersupervisors kunnen toegang krijgen tot het operationele productieplan.
 - Machineoperators kunnen het plan up-to-date houden door afzonderlijke en procesproductietaken uit te voeren.
@@ -108,5 +109,6 @@ Als u de geschiedenis wilt weergeven van de productietaken die op een schaaleenh
 
 De taak _Berichtverwerker productiehub naar schaaleenheid_ verwerkt gegevens van de hub naar de schaaleenheid. Deze taak wordt automatisch gestart wanneer de productie-uitvoeringsworkload wordt geïmplementeerd. U kunt dit echter op elk gewenst moment handmatig uitvoeren door naar **Productiecontrole \> Periodieke taken \> Backoffice workloadbeheer \> Berichtverwerker productiehub naar schaaleenheid** te gaan.
 
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

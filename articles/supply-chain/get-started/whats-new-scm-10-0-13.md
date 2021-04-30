@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: f405fba2b28ccae6b3aadbcf683d050040587cde
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f491cebacad1e289e6b004d573916eaf8ec0e110
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832173"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909544"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10013-october-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.13 (oktober 2020)
 
@@ -33,23 +33,23 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-Deze versie bevat de volgende functies. De functietitels verwijzen naar extra informatie op de site [Release plans](https://docs.microsoft.com/dynamics365/release-plans/). Extra koppelingen verwijzen naar extra documentatie die momenteel beschikbaar is voor die functie. De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
+Deze versie bevat de volgende functies. De functietitels verwijzen naar extra informatie op de site [Release plans](/dynamics365/release-plans/). Extra koppelingen verwijzen naar extra documentatie die momenteel beschikbaar is voor die functie. De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 
-- [De terminologie 'annulering van voorraadafsluiting' wijzigen in 'voorraadafsluiting omkeren'](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Zie voor meer informatie [Voorraad sluiten](../cost-management/inventory-close.md).
+- [De terminologie 'annulering van voorraadafsluiting' wijzigen in 'voorraadafsluiting omkeren'](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/change-terminology-inventory-closing-cancellation-inventory-closing-reverse)<br> - Zie voor meer informatie [Voorraad sluiten](../cost-management/inventory-close.md).
 
-- [Uitgaande zendingen vanuit batchtaken bevestigen](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Zie voor meer informatie [Uitgaande zendingen vanuit batchtaken bevestigen](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
+- [Uitgaande zendingen vanuit batchtaken bevestigen](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/confirm-outbound-shipments-batch-jobs)<br> - Zie voor meer informatie [Uitgaande zendingen vanuit batchtaken bevestigen](../warehousing/confirm-outbound-shipments-from-batch-jobs.md).
 
-- [Delegeren van meerdere inkoopwerkitems](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Zie voor meer informatie [Werkitems in een werkstroom delegeren](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
+- [Delegeren van meerdere inkoopwerkitems](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/delegation-multiple-purchasing-work-items)<br> - Zie voor meer informatie [Werkitems in een werkstroom delegeren](../../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md).
 
-- [Serienummers invoeren bij het gereedmelden vanaf het taakkaartapparaat](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Zie voor meer informatie [Gereedmelden vanaf het taakkaartapparaat](../production-control/report-finished-job-device.md).
+- [Serienummers invoeren bij het gereedmelden vanaf het taakkaartapparaat](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/enter-serial-numbers-while-reporting-as-finished-job-card-device)<br> - Zie voor meer informatie [Gereedmelden vanaf het taakkaartapparaat](../production-control/report-finished-job-device.md).
 
-- [Nieuwe voorraaddimensies voor het bijhouden van productversies en uitgebreide uitbreidbaarheid](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Zie voor meer informatie [Productdimensies](../pim/product-dimensions.md).
+- [Nieuwe voorraaddimensies voor het bijhouden van productversies en uitgebreide uitbreidbaarheid](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/new-inventory-dimensions-product-version-tracking-enhanced-extensibility)<br> - Zie voor meer informatie [Productdimensies](../pim/product-dimensions.md).
 
-- [Op order toegezegde reservering op basis van nummerplaten](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Zie voor meer informatie [Reservering van een flexibele nummerplaat](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
+- [Op order toegezegde reservering op basis van nummerplaten](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/order-committed-reservation-based-license-plates-lp-picking-processing)<br> - Zie voor meer informatie [Reservering van een flexibele nummerplaat](../warehousing/flexible-warehouse-level-dimension-reservation.md#flexible-license-plate-reservation).
 
-- [Overzicht van werkorderverzamelregel](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
+- [Overzicht van werkorderverzamelregel](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-pick-line-overview)
 
-- [Verbeteringen in werkbeleid voor inkomend werk](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Zie voor meer informatie [Magazijnbeleid](../warehousing/warehouse-work-policies.md).
+- [Verbeteringen in werkbeleid voor inkomend werk](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/work-policy-enhancements-inbound-work)<br> - Zie voor meer informatie [Magazijnbeleid](../warehousing/warehouse-work-policies.md).
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
@@ -65,7 +65,7 @@ Voor informatie over de correcties die zijn opgenomen in alle updates die deel u
 
 Bent u benieuwd naar de komende en onlangs uitgebrachte voorzieningen in een van onze bedrijfsapps of platforms?
 
-Bekijk [Dynamics 365: releasewave 2-plan van 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). We hebben alle details in één document verzameld die u kunt gebruiken voor uw planning.
+Bekijk [Dynamics 365: releasewave 2-plan van 2020](/dynamics365-release-plan/2020wave2/index). We hebben alle details in één document verzameld die u kunt gebruiken voor uw planning.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Verwijderde en afgeschafte functies voor Supply Chain Management
 

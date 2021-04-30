@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: e98f1803e43df0fbd5ab700b959faaeee017b7a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834495"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897763"
 ---
 # <a name="one-voucher"></a>Eén boekstuk
 
@@ -48,7 +48,7 @@ Met de bestaande functionaliteit voor financiële journalen (algemeen journaal, 
 
 ## <a name="issues-with-one-voucher"></a>Problemen met één boekstuk
 
-De functionaliteit van één boekstuk veroorzaakt problemen bij de vereffening, belastingberekening, transactieterugboeking, afstemming van subgrootboek naar grootboek, financiële rapportage en meer. (Meer informatie over problemen die bij de vereffening optreden, vindt u bijvoorbeeld in [Eén boekstuk met meerdere klant- of leveranciersrecords](https://docs.microsoft.com/dynamics365/finance/accounts-payable/single-voucher-multiple-customer-vendor-records).) Als u correct wilt werken en rapporteren, zijn voor deze processen en rapporten transactiedetails nodig. Hoewel sommige scenario's mogelijk nog goed werken, afhankelijk van de instellingen van uw organisatie, zijn er vaak problemen als meerdere transacties in één boekstuk worden ingevoerd.
+De functionaliteit van één boekstuk veroorzaakt problemen bij de vereffening, belastingberekening, transactieterugboeking, afstemming van subgrootboek naar grootboek, financiële rapportage en meer. (Meer informatie over problemen die bij de vereffening optreden, vindt u bijvoorbeeld in [Eén boekstuk met meerdere klant- of leveranciersrecords](../accounts-payable/single-voucher-multiple-customer-vendor-records.md).) Als u correct wilt werken en rapporteren, zijn voor deze processen en rapporten transactiedetails nodig. Hoewel sommige scenario's mogelijk nog goed werken, afhankelijk van de instellingen van uw organisatie, zijn er vaak problemen als meerdere transacties in één boekstuk worden ingevoerd.
 
 U boekt bijvoorbeeld het volgende boekstuk met meerdere regels.
 

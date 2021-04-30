@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 132d91c2a17fa5116d7aa6650e4ee807a03030bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8fe6d8a4ca42cd1f3c3b26a9c52f1a639170252c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802282"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894601"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (6 oktober 2020)
 
@@ -30,7 +30,7 @@ ms.locfileid: "5802282"
 
 In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of die binnenkort worden vrijgegeven in Dynamics 365 Human Resources. Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
-Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
+Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
 
 ## <a name="in-this-release"></a>In deze versie
 
@@ -42,7 +42,7 @@ De volgende functie is algemeen beschikbaar in deze release.
 
 | Functie | Vrijgaveplan | Documentatie |
 | --- | --- | --- |
-| Meer inzicht in verlofkalenders | [Meer inzicht in verlofkalenderweergaven bieden](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-leave-calendar-views) | [Team- en bedrijfskalenders weergeven](hr-employee-self-service-calendar.md) |
+| Meer inzicht in verlofkalenders | [Meer inzicht in verlofkalenderweergaven bieden](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-leave-calendar-views) | [Team- en bedrijfskalenders weergeven](hr-employee-self-service-calendar.md) |
 
 ### <a name="bug-fixes"></a>Correcties
 
@@ -70,9 +70,9 @@ Van de volgende nieuwe functies kan een voorbeeld worden bekeken. Zie [Functies 
 
 | Functie | Vrijgaveplan | Documentatie |
 | --- | --- | --- |
-| Human Resources-app in Microsoft Teams | [Verlof en verzuim van werknemers in Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Human Resources-app in Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Verlofaanvragen beheren in Teams](hr-teams-leave-app.md) |
-| Uitgebreide aanvragen en goedkeuringen voor werkstromen | [Verbeteringen in de ervaring van werkstromen voor organisatie en personeelsbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Configuratieoptie om de lijst Aan mij toegewezen werkitems te positioneren](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| Virtuele entiteiten in Dataverse voor Human Resources | [Dynamics 365 Human Resources-kerngegevens in Dataverse uitbreiden](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [Virtuele entiteiten van Dataverse configureren](hr-admin-integration-common-data-service-virtual-entities.md) |
+| Human Resources-app in Microsoft Teams | [Verlof en verzuim van werknemers in Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Human Resources-app in Teams](./hr-admin-teams-leave-app.md)<br>[Verlofaanvragen beheren in Teams](hr-teams-leave-app.md) |
+| Uitgebreide aanvragen en goedkeuringen voor werkstromen | [Verbeteringen in de ervaring van werkstromen voor organisatie en personeelsbeheer](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Configuratieoptie om de lijst Aan mij toegewezen werkitems te positioneren](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| Virtuele entiteiten in Dataverse voor Human Resources | [Dynamics 365 Human Resources-kerngegevens in Dataverse uitbreiden](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/expand-dynamics-365-human-resources-core-data-common-data-service) | [Virtuele entiteiten van Dataverse configureren](hr-admin-integration-common-data-service-virtual-entities.md) |
 
 ## <a name="coming-soon"></a>Binnenkort beschikbaar
 
@@ -82,14 +82,14 @@ De volgende nieuwe functies zijn gepland voor toekomstige versies:
 
 - **Redencodes voor vergoedingenbeheer**: binnenkort worden redencodes voor vergoedingenbeheer gecombineerd met bestaande redencodes in Human Resources. Als u redencodes van meer dan 15 tekens hebt gemaakt in Vergoedingenbeheer, moet u de naam van de redencodes in het formulier **Redencodes** wijzigen in een code van maximaal 15 tekens. Nadat u de naam hebt bijgewerkt, wordt de redencode weergegeven onder het bestaande redencodeformulier in Personeelsbeheer. Deze wijziging wordt in de toekomst beschikbaar en heeft geen invloed op bestaande functionaliteit.
 
-- **Aangepaste koppelingen in Selfservice manager**: ter ondersteuning van managers worden de mogelijkheden in Selfservice manager uitgebreid. We voegen de mogelijkheid toe om aangepaste koppelingen toe te voegen op het tabblad **Mijn team**. Deze functie is vergelijkbaar met de functie voor aangepaste koppelingen op het tabblad **Mijn gegevens** in Selfservice werknemer. Zie [Aangepaste koppelingen in Selfservice manager](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) voor meer informatie.
+- **Aangepaste koppelingen in Selfservice manager**: ter ondersteuning van managers worden de mogelijkheden in Selfservice manager uitgebreid. We voegen de mogelijkheid toe om aangepaste koppelingen toe te voegen op het tabblad **Mijn team**. Deze functie is vergelijkbaar met de functie voor aangepaste koppelingen op het tabblad **Mijn gegevens** in Selfservice werknemer. Zie [Aangepaste koppelingen in Selfservice manager](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) voor meer informatie.
 
-Zie [Overzicht van Dynamics 365 Human Resources 2019 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/) voor een volledige lijst met geplande functies en de bijbehorende geplande versies.
+Zie [Overzicht van Dynamics 365 Human Resources 2019 release wave 2](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/) voor een volledige lijst met geplande functies en de bijbehorende geplande versies.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
-[Overzicht van Dynamics 365 Human Resources 2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Overzicht van Dynamics 365 Human Resources 2020 release wave 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
 

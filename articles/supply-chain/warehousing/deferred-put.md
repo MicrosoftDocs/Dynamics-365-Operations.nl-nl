@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dad97e13624449d287ded74e7e25f94eb0dbde3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f571f80330d2cc7858ef11271b0466d71aa9709c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838317"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908006"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Uitgestelde verwerking van magazijnwerk
 
@@ -28,7 +28,7 @@ In dit onderwerp wordt de functionaliteit beschreven die uitgestelde verwerking 
 
 Met de functionaliteit voor uitgestelde verwerking kunnen magazijnmedewerkers doorgaan met ander werk terwijl de wegzetbewerking op de achtergrond wordt verwerkt. Uitgestelde verwerking is nuttig wanneer veel werkregels moeten worden verwerkt en de werknemer dat werk asynchroon kan laten verwerken. Het is ook handig wanneer de server ad-hoc of niet-geplande verhogingen in verwerkingstijd kan hebben, en de toegenomen verwerkingstijd kan invloed hebben op de productiviteit van de gebruiker.
 
-Verwerking in de achtergrond wordt bereikt met het SysOperation-Framework. Zie [Overzicht SysOperation Framework](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview) voor meer informatie.
+Verwerking in de achtergrond wordt bereikt met het SysOperation-Framework. Zie [Overzicht SysOperation Framework](/dynamicsax-2012/developer/sysoperation-framework-overview) voor meer informatie.
 
 ## <a name="configuring-the-work-processing-policies"></a>Het beleid voor werkverwerking configureren
 

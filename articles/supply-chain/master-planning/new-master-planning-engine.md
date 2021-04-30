@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9590213ef73f7623aff10d4c8ee3efbea0e7984b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823452"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907686"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migratie naar Planningsoptimalisatie voor hoofdplanning
 
@@ -63,8 +63,12 @@ Uitzonderingen voor de migratie naar Planningsoptimalisatie zijn momenteel allee
 
 Nadat de vereiste functies beschikbaar zijn, geeft Microsoft een respijtperiode totdat de uitzondering is verlopen. De omgevingsbeheerder wordt geïnformeerd wanneer de vereiste functies beschikbaar zijn geworden en de respijtperiode is gestart.
 
+In het volgende stroomdiagram worden de gegevens in dit onderwerp samengevat, zodat u snel kunt zien of u een uitzondering moet aanvragen. Als u een uitzondering moet aanvragen, vult u de [Plannings- en uitzonderingsvragenlijst voor optimalisatie](https://go.microsoft.com/fwlink/?linkid=2144962) in en dient u deze in.
+
+![Stroomdiagram uitzonderingen](media/exception-diagram.png "Stroomdiagram uitzonderingen")
+
 > [!NOTE]
-> U kunt alleen een uitzondering voor productieomgevingen aanvragen, niet voor sandbox-omgevingen. Als u de uitzonderingsfout voor Planningsoptimalisatie in een IaaS-sandboxomgeving (infrastructure as a service) wilt uitschakelen, voert u de SQL-query uit die in [Sandbox-omgevingen](#faq-sandbox) wordt geleverd.
+> U kunt alleen een uitzondering aanvragen voor tenants die een productieomgeving (gaan) bevatten en niet voor tenants met alleen een sandboxomgeving. Als u de uitzonderingsfout voor Planningsoptimalisatie in een IaaS-sandboxomgeving (infrastructure as a service) wilt uitschakelen, voert u de SQL-query uit die in [Sandbox-omgevingen](#faq-sandbox) wordt geleverd.
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 244d378316caf639c3520a1179dd82955d94220a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833852"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909470"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Francoprijzen versus Transportbeheer
 
@@ -51,8 +51,8 @@ In TMS en Francoprijzen worden geen verwijzingsgegevens gedeeld voor entiteiten 
 
 In de volgende rapporten wordt niet samengewerkt met de functie goederen in transit die Francoprijzen biedt:
 
-- [Rapport van totalen voor intercompany-goederen in transit](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
-- [Rapport van totalen voor intercompany-goederen in transit](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Rapport van totalen voor intercompany-goederen in transit](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Rapport van totalen voor intercompany-goederen in transit](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
 
 In deze rapporten wordt ervan uitgenomen dat goederen worden overgebracht zodra u een verkooppakbon uitgeeft en dat ze bij ontvangst in de voorraad worden opgenomen. Goederen in transit worden echter niet op deze manier verwerkt. Als u de goederen in transit en intercompany-functies tezamen gebruikt, zijn de resultaten voor beide rapporten daarom onjuist.
 

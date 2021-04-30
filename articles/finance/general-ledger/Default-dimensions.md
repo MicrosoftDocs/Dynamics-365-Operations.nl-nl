@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 7783c22659c5a2b070648c82a8b72e49e17b8e34
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823855"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897303"
 ---
 # <a name="financial-dimensions-and-posting"></a>Financiële dimensies en boeken 
 
@@ -83,17 +83,17 @@ De standaarddimensie in de journaalkoptekst zorgt dat afdeling 023 standaard wor
 
 Wanneer de regel wordt geboekt, wordt echter de vaste dimensie is toegepast en wordt de regel geboekt naar afdeling 022. De volgende afbeelding toont het geboekte boekstuk, waarbij de vaste dimensie is toegepast voor de verkooprekening.
 
-[![Boekstuktransacties](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Boekstuktransacties met vaste dimensie toegepast](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Voorbeeld 2
 
 Dit voorbeeld gebruikt dezelfde instelling als het eerste voorbeeld. We voegen echter een tweede component toe en gebruiken de afdelingsdimensie als een salderende dimensie. In het volgende voorbeeld is **Afdeling** ingesteld als de salderende financiële dimensie voor het grootboek USMF.
 
-[![Grootboek](./media/ledger.png)](./media/ledger.png)
+[![Illustratie die Afdeling als salderende financiële dimensie toont](./media/ledger.png)](./media/ledger.png)
 
 Wanneer de instellingen voor dezelfde journaalkoptekst worden gebruikt en dezelfde transactie wordt geboekt, wordt eerst de vaste dimensie toegepast. De salderingslogica wordt toegepast om te garanderen dat elke afdeling een salderende post heeft. In de volgende afbeelding ziet u de boekstuktransacties met de salderingspost nadat de vaste dimensie is toegepast.
 
-[![Boekstuktransacties](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Boekstuktransacties nadat de salderingspost is vereffend](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Voorbeeld 3
 
@@ -119,11 +119,11 @@ Enkele van de volgende bronnen verwijzen naar een eerdere versie van onze softwa
 
 [Uw rekeningschema plannen](plan-chart-of-accounts.md) 
 
-[Uw rekeningschema plannen in AX 2012 (blog)](https://blogs.msdn.microsoft.com/axsa/2014/06/12/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7/): deze koppeling opent deel 1 van een reeks van zeven delen.
+[Uw rekeningschema plannen in AX 2012 (blog)](/archive/blogs/axsa/planning-your-chart-of-accounts-in-ax-2012-part-1-of-7): deze koppeling opent deel 1 van een reeks van zeven delen.
 
-[Standaardinstellingen voor dimensies in boekhoudingsverdelingen](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
+[Standaardinstellingen voor dimensies in boekhoudingsverdelingen](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-in-accounting-distributions-part-1-introduction)
 
-[Standaardinstellingen voor dimensies in dimensieraamwerk](https://docs.microsoft.com/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
+[Standaardinstellingen voor dimensies in dimensieraamwerk](/archive/blogs/ax_gfm_framework_team_blog/dimension-defaulting-part-1-financial-dimensions-discovery)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

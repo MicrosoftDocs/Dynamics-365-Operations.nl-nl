@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f8310def6f33b807f7f749e659432e482245d007
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: dc723728801909c67cb823a043a2ae3e7eaf9f05
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803868"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892198"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Tekstafbreking in de positiehiërarchie vermijden en exporteren naar Visio
 
@@ -38,7 +38,7 @@ Dit is zo ontworpen.
 
 **Resolutie**
 
-Helaas kunnen gebruikers de grootte van de tekst niet gemakkelijk wijzigen. U kunt de positiehiërarchie echter uit Human Resources exporteren en vervolgens importeren in Microsoft Visio. Hoewel het volgende artikel is geschreven voor Microsoft Dynamics AX 2012, is het proces ook van toepassing op Human Resources: [Een positiehiërarchie exporteren naar Microsoft Visio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
+Helaas kunnen gebruikers de grootte van de tekst niet gemakkelijk wijzigen. U kunt de positiehiërarchie echter uit Human Resources exporteren en vervolgens importeren in Microsoft Visio. Hoewel het volgende artikel is geschreven voor Microsoft Dynamics AX 2012, is het proces ook van toepassing op Human Resources: [Een positiehiërarchie exporteren naar Microsoft Visio](/dynamicsax-2012/appuser-itpro/export-a-position-hierarchy-to-microsoft-visio).
 
 Volg deze stappen om te exporteren naar Visio.
 

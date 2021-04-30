@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 9d8b9977d733c87566249bcb9658b80c4350c17d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a4de42c23bf96591d1ac99ed32438fe34a485998
+ms.sourcegitcommit: 05868764acd3d77970724a30c49c5ae5ffb6ca5b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792020"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5906644"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Coupons voor detailhandelverkoop instellen
 
@@ -38,6 +38,8 @@ Om een coupon te maken, maakt u de korting en de coupon afzonderlijk. U koppelt 
 
 > [!NOTE]
 > Nadat een coupon is gekoppeld aan een korting, worden verschillende velden op de kortingspagina in Commerce alleen-lezen, omdat deze worden beheerd door de instellingen van de coupon. Deze velden zijn de velden voor de status en de standaarddatumbereiken.
+> 
+> Wanneer u de coupon in het callcenterkanaal gebruikt, moet u de knop **Opnieuw berekenen** selecteren **(tabblad Verkopen > Berekenen > Herberekenen)** om de korting die aan het coupon is gekoppeld, toe te staan. Deze extra stap wordt in een toekomstige versie verwijderd.
 
 ### <a name="limited-use-coupons"></a>Coupons met gebruiksbeperkingen
 

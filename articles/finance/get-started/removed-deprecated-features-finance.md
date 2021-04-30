@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte functies in Dynamics 365 Finance
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Finance.
 author: roschlom
-ms.date: 02/08/2021
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
+ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836908"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5898282"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Verwijderde of afgeschafte functies in Dynamics 365 Finance
 
@@ -31,7 +31,20 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn g
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
 > [!NOTE]
-> Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+> Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Verwijderde of verouderde functies in versie 10.0.20 van Finance
+
+### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>Configuratie van de HU-indeling (RTIR Query Invoice Data Request)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Uitgesloten van verwerking van elektronische berichten bij samenwerking met Hongaars online factureringssysteem |
+| **Vervangen door een andere functie?**   | No |
+| **Betrokken productgebieden**         | Sollicitatie |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Afgeschaft: Uiterlijk op 15 april 2022 zal de indelingsconfiguratie "RTIR Query Invoice Data Request (HU)" niet langer worden ondersteund. |
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Verwijderde of verouderde functies in versie 10.0.17 van Finance
 

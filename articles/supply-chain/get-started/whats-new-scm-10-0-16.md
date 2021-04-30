@@ -12,14 +12,14 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
-ms.search.validFrom: 2020-11-31
+ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82afad71340e97ef1f86159d013e842d456b2a46
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829975"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909914"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.16 (februari 2021)
 
@@ -33,17 +33,17 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-Deze versie bevat de volgende functies. Volg de koppelingen naar het [releaseeplan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
+Deze versie bevat de volgende functies. Volg de koppelingen naar het [releaseeplan](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
 
-- [Aanpasbare uitvoeringsinterface voor de werkvloer](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Zie [Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren](../production-control/production-floor-execution-setup.md) voor meer informatie.
+- [Aanpasbare uitvoeringsinterface voor de werkvloer](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Zie [Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren](../production-control/production-floor-execution-setup.md) voor meer informatie.
 
-- [Invoegtoepassing Voorraadzichtbaarheid voor Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Zie [Invoegtoepassing Voorraadzichtbaarheid](../inventory/inventory-visibility.md) voor meer informatie
+- [Invoegtoepassing Voorraadzichtbaarheid voor Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Zie [Invoegtoepassing Voorraadzichtbaarheid](../inventory/inventory-visibility.md) voor meer informatie
 
 - Geïntegreerde nummerreeks voor taak-id's<br> - Zie [Geïntegreerde nummerreeks voor taak-id's](../production-control/unified-job-ids.md) voor meer informatie.
 
-- [Nummerplaten op brondocumentregels valideren](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Zie [Overzicht van Magazijnconfiguratie](../warehousing/warehouse-configuration.md) voor meer informatie.
+- [Nummerplaten op brondocumentregels valideren](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Zie [Overzicht van Magazijnconfiguratie](../warehousing/warehouse-configuration.md) voor meer informatie.
 
-- [Visualisatie van uitgaande workload voor magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Zie [Visualisatie van uitgaande workload](../warehousing/outbound-workload-visualization.md) voor meer informatie.
+- [Visualisatie van uitgaande workload voor magazijnbeheer](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Zie [Visualisatie van uitgaande workload](../warehousing/outbound-workload-visualization.md) voor meer informatie.
 
 De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 
@@ -99,7 +99,7 @@ Voor informatie over de correcties die zijn opgenomen in alle updates die deel u
 
 Bent u benieuwd naar de komende en onlangs uitgebrachte voorzieningen in een van onze bedrijfsapps of platforms?
 
-Bekijk [Dynamics 365: releasewave 2-plan van 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). We hebben alle details in één document verzameld die u kunt gebruiken voor uw planning.
+Bekijk [Dynamics 365: releasewave 2-plan van 2020](/dynamics365-release-plan/2020wave2/index). We hebben alle details in één document verzameld die u kunt gebruiken voor uw planning.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Verwijderde en afgeschafte functies voor Supply Chain Management
 

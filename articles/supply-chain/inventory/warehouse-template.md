@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c4b5b6db9126f9b520945f63b24db26fdbdccf8c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2bc35794a83365205ebc0907419d3f0801713580
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816623"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908438"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Een magazijn instellen op basis van een magazijnconfiguratiesjabloon
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een magazijn instelt op basis van een magazijnconfiguratiesjabloon. Er zijn verschillende vooraf gedefinieerde sjablonen die u kunt gebruiken. Zie voor informatie over het gebruik van deze sjablonen [Gegevenssjablonen voor configuratie](../../dev-itpro/data-entities/configuration-data-templates.md).
+In dit onderwerp wordt uitgelegd hoe u een magazijn instelt op basis van een magazijnconfiguratiesjabloon. Er zijn verschillende vooraf gedefinieerde sjablonen die u kunt gebruiken. Zie voor informatie over het gebruik van deze sjablonen [Gegevenssjablonen voor configuratie](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Scenario's waarin configuratiesjablonen nuttig kunnen zijn
 
@@ -88,13 +88,13 @@ U kunt een zipbestand voor het gegevenspakket downloaden. Dit bestand bevat alle
 4. Selecteer **+ Bestand toevoegen** en upload het zipbestand voor het gegevenspakket.
 5. Selecteer **Importeren**. In de weergave **Uitgebreid** kunt u de optie **Filteren** gebruiken om snel een overzicht te krijgen van problemen die tijdens het importeren kunnen optreden.
 
-Met **Uitvoeringslogboek weergeven** kunt u gedetailleerde informatie weergeven over elk gegevensitem dat wordt geïmporteerd. U kunt de weergave Faseringsgegevens gebruiken om snel naar de doelgegevens te gaan. Op deze manier ziet u hoe de geïmporteerde gegevens eruitzien op de gerelateerde pagina's in de toepassing. Wanneer u de standaardgegevenssjablonen gebruikt, werkt de importvolgorde voor elke gegevensentiteit op de vooraf gedefinieerde manier om ervoor te zorgen dat alle afhankelijke gegevens eerst worden geïmporteerd. Als aangepaste gegevensentiteiten deel uitmaken van het project, moet u ervoor zorgen dat de juiste volgorde is gedefinieerd. Zie [Gegevenssjablonen voor configuratie](../../dev-itpro/data-entities/configuration-data-templates.md) voor meer informatie.
+Met **Uitvoeringslogboek weergeven** kunt u gedetailleerde informatie weergeven over elk gegevensitem dat wordt geïmporteerd. U kunt de weergave Faseringsgegevens gebruiken om snel naar de doelgegevens te gaan. Op deze manier ziet u hoe de geïmporteerde gegevens eruitzien op de gerelateerde pagina's in de toepassing. Wanneer u de standaardgegevenssjablonen gebruikt, werkt de importvolgorde voor elke gegevensentiteit op de vooraf gedefinieerde manier om ervoor te zorgen dat alle afhankelijke gegevens eerst worden geïmporteerd. Als aangepaste gegevensentiteiten deel uitmaken van het project, moet u ervoor zorgen dat de juiste volgorde is gedefinieerd. Zie [Gegevenssjablonen voor configuratie](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md) voor meer informatie.
 
 Bekijk deze video van 3 minuten op YouTube over [Het magazijnsjabloon gebruiken om de configuratie te kopiëren voor Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs) voor meer informatie over het gebruik van magazijnsjablonen om de configuratie van een magazijn van het ene bedrijf naar een nieuw bedrijf in dezelfde instantie te kopiëren.
 
 ## <a name="related-topic"></a>Verwant onderwerp
 
-[Sjablonen voor configuratiegegevens](../../dev-itpro/data-entities/configuration-data-templates.md)
+[Sjablonen voor configuratiegegevens](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

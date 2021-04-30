@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f67bb8e218c98c6f227f5e1f05f9ba7b35da37c7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 356cdf0fc6bc2dbc086ff186805a97755d98e49e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832149"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909520"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10014-november-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.14 (november 2020)
 
@@ -33,7 +33,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-Deze versie bevat een bijgewerkt platform en algemene verbeteringen, maar bevat geen specifiek nieuwe functies voor Supply Chain Management. Zie de site [Releaseplannen](https://docs.microsoft.com/dynamics365/release-plans/) voor meer informatie over aanstaande functies.
+Deze versie bevat een bijgewerkt platform en algemene verbeteringen, maar bevat geen specifiek nieuwe functies voor Supply Chain Management. Zie de site [Releaseplannen](/dynamics365/release-plans/) voor meer informatie over aanstaande functies.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
@@ -49,7 +49,7 @@ Voor informatie over de correcties die zijn opgenomen in alle updates die deel u
 
 Bent u benieuwd naar de komende en onlangs uitgebrachte voorzieningen in een van onze bedrijfsapps of platforms?
 
-Bekijk [Dynamics 365: releasewave 2-plan van 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). We hebben alle details in één document verzameld die u kunt gebruiken voor uw planning.
+Bekijk [Dynamics 365: releasewave 2-plan van 2020](/dynamics365-release-plan/2020wave2/index). We hebben alle details in één document verzameld die u kunt gebruiken voor uw planning.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Verwijderde en afgeschafte functies voor Supply Chain Management
 

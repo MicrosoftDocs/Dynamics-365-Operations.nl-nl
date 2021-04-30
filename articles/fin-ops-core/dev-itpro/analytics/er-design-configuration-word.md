@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 4885caf017fa0f9d36d293fa32aad53c21d3f162
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7790d7e581b9b4260a4c57af84b02a182dde953d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753571"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894071"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Een nieuwe ER-configuratie ontwerpen om rapporten in Word-indeling te genereren
 
@@ -38,7 +38,7 @@ Als u een Word-document wilt gebruiken als sjabloon voor rapporten in Word-indel
 Het ER-indelingsonderdeel van de oplossing moet het indelingselement **Excel\\File** bevatten en dat indelingselement moet zijn gekoppeld aan het Word-document dat wordt gebruikt als sjabloon voor gegenereerde rapporten tijdens runtime. Om het ER-indelingsonderdeel te configureren, moet u de [concept](general-electronic-reporting.md#component-versioning)-versie van de gemaakt ER-configuratie in de ER-indelingsontwerper openen. Voeg vervolgens het element **Excel\\File** toe, koppel uw Word-sjabloon aan de bewerkbare ER-indeling en koppel die sjabloon aan het **Excel\\File**-element dat u hebt toegevoegd.
 
 > [!NOTE]
-> Wanneer u een sjabloon koppelt, moet u een [documenttype](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) gebruiken dat eerder is [geconfigureerd](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) in de ER-parameters om sjablonen van ER-indelingen op te slaan.
+> Wanneer u een sjabloon koppelt, moet u een [documenttype](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) gebruiken dat eerder is [geconfigureerd](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) in de ER-parameters om sjablonen van ER-indelingen op te slaan.
 
 ![Een sjabloon koppelen op de pagina Indelingontwerper](./media/er-design-configuration-word-image3.gif)
 
@@ -46,11 +46,11 @@ U kunt **Excel\\Range** en **Excel\\Cell** geneste elementen toevoegen voor het 
 
 ![Geneste elementen toevoegen op de pagina Indelingsontwerper](./media/er-design-configuration-word-image4.gif)
 
-Wanneer u uw wijzigingen opslaat in de ER-indeling tijdens het ontwerpen, wordt de hiërarchische indelingsstructuur opgeslagen in de gekoppelde Word-sjabloon als een [aangepast XML-onderdeel](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) met de naam **Rapport**. U moet de gewijzigde sjabloon openen, downloaden uit Finance, lokaal opslaan en openen in de Word-bureaubladtoepassing. In de volgende afbeelding ziet u de lokaal opgeslagen voorbeeldsjabloon voor het controlerapport met het aangepaste XML-onderdeel **Rapport**.
+Wanneer u uw wijzigingen opslaat in de ER-indeling tijdens het ontwerpen, wordt de hiërarchische indelingsstructuur opgeslagen in de gekoppelde Word-sjabloon als een [aangepast XML-onderdeel](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) met de naam **Rapport**. U moet de gewijzigde sjabloon openen, downloaden uit Finance, lokaal opslaan en openen in de Word-bureaubladtoepassing. In de volgende afbeelding ziet u de lokaal opgeslagen voorbeeldsjabloon voor het controlerapport met het aangepaste XML-onderdeel **Rapport**.
 
 ![Voorbeeld van de voorbeeldrapportsjabloon in de Word-bureaubladtoepassing](./media/er-design-configuration-word-image5.gif)
 
-Wanneer bindingen van de indelingselementen **Excel\\Range** en **Excel\\Cell** worden uitgevoerd tijdens de runtime, komen de gegevens van elke binding in het gegenereerde Word-document als afzonderlijk veld van het aangepaste XML-onderdeel **Rapport**. Als u de waarden uit de velden van het aangepaste XML-onderdeel in een gegenereerd document wilt invoeren, moet u de juiste Word-[inhoudsbesturingselementen](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) toevoegen aan de Word-sjabloon om als tijdelijke aanduidingen te dienen voor gegevens die tijdens runtime worden ingevuld. Als u wilt opgeven hoe inhoudsbesturingselementen worden ingevuld, kunt u elk inhoudsbesturingselement aan het juiste veld van het aangepaste XML-onderdeel **Rapport** toewijzen.
+Wanneer bindingen van de indelingselementen **Excel\\Range** en **Excel\\Cell** worden uitgevoerd tijdens de runtime, komen de gegevens van elke binding in het gegenereerde Word-document als afzonderlijk veld van het aangepaste XML-onderdeel **Rapport**. Als u de waarden uit de velden van het aangepaste XML-onderdeel in een gegenereerd document wilt invoeren, moet u de juiste Word-[inhoudsbesturingselementen](/office/client-developer/word/content-controls-in-word) toevoegen aan de Word-sjabloon om als tijdelijke aanduidingen te dienen voor gegevens die tijdens runtime worden ingevuld. Als u wilt opgeven hoe inhoudsbesturingselementen worden ingevuld, kunt u elk inhoudsbesturingselement aan het juiste veld van het aangepaste XML-onderdeel **Rapport** toewijzen.
 
 ![Inhoudsbesturingselementen toevoegen en toewijzen in de Word-bureaubladtoepassing](./media/er-design-configuration-word-image6.gif)
 

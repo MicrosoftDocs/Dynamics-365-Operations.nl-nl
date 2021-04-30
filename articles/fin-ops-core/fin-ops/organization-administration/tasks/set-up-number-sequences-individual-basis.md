@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 74422a9f2b737053288d21ba7a578c854cab1335
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 83ebcf96aa6a5b5c757285be1c5602ac4e8f50fc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747316"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890853"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Nummerreeksen instellen op een individuele basis
 
@@ -30,7 +30,7 @@ In dit onderwerp wordt uitgelegd hoe op een individuele basis nummerreeksen kunn
 2. Selecteer **Nummerreeksen selecteren**.
 3. Typ een waarde in het veld **Nummerreekscode**.
 4. Typ een waarde in het veld **Naam**.
-5. Selecteer op het sneltabblad **Bereikparameters** een bereik voor de nummerreeks en selecteer bereikwaarden in de vervolgkeuzelijst. De scope bepaalt welke organisaties de nummerreeks gebruiken. Bovendien kunnen nummerreeksen die een ander bereik hebben dan **Gedeeld**, segmenten hebben die overeenkomen met hun bereik. Een nummerreeks met een bereik van **Rechtspersoon** kan bijvoorbeeld een segment voor rechtspersoon hebben. Zie [Overzicht van nummerreeksen](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview) voor meer informatie over bereiken. 
+5. Selecteer op het sneltabblad **Bereikparameters** een bereik voor de nummerreeks en selecteer bereikwaarden in de vervolgkeuzelijst. De scope bepaalt welke organisaties de nummerreeks gebruiken. Bovendien kunnen nummerreeksen die een ander bereik hebben dan **Gedeeld**, segmenten hebben die overeenkomen met hun bereik. Een nummerreeks met een bereik van **Rechtspersoon** kan bijvoorbeeld een segment voor rechtspersoon hebben. Zie [Overzicht van nummerreeksen](../number-sequence-overview.md) voor meer informatie over bereiken. 
 6. Vouw de sectie **Segmenten** uit.
     - Definieer de notatie voor de nummerreeks door segmenten toe te voegen, te verwijderen en opnieuw te ordenen.  
     - De nummerreeksen van alle bereiken kunnen *constante segmenten* en *alfanumerieke segmenten* bevatten. Constante segmenten bevatten een set alfanumerieke tekens die niet veranderen. Gebruik dit segmenttype om een koppelteken of andere scheidingstekens toe te voegen tussen nummerreekssegmenten. De alfanumerieke segmenten bevatten een combinatie van hekjes (#) en ampersands (&). Deze tekens stellen letters en cijfers voor die omhoog gaan telkens als een nummer uit de reeks wordt gebruikt. Gebruik een hekje (#) om stijgende nummers aan te geven en een en-teken (&) om stijgende letters aan te geven. De indeling `#####_2014` maakt bijvoorbeeld de reeks `00001_2014`, `00002_2014` enzovoort. Er moet ten minste één alfanumeriek segment zijn. Bereiksegmenten, zoals bedrijf of rechtspersoon, zijn niet verplicht. Als u geen bereiksegmenten in de indeling opneemt, worden getallen nog steeds voor de geselecteerde verwijzing per bereik gegenereerd.  

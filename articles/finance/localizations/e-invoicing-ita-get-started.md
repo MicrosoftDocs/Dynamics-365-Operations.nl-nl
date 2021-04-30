@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840095"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894772"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Aan de slag met Elektronische facturering voor Italië
 
@@ -201,7 +201,7 @@ Nadat u de functie **Integratie configureerbare functie voor elektronisch factur
 U kunt de documenten handmatig indienen op basis van uw behoefte aan e-factuurdocumenten.
 
 > [!NOTE]
-> Voordat u doorgaat, controleert u of de instellingen die nodig zijn voor de Italiaanse e-facturen zijn voltooid. Zie [Elektronische klantfacturen](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices) voor meer informatie. Houd er rekening mee dat sommige instellingsstappen die in dat onderwerp worden beschreven, mogelijk niet beschikbaar zijn vanwege de activering van elektronische facturering.
+> Voordat u doorgaat, controleert u of de instellingen die nodig zijn voor de Italiaanse e-facturen zijn voltooid. Zie [Elektronische klantfacturen](./emea-ita-e-invoices.md) voor meer informatie. Houd er rekening mee dat sommige instellingsstappen die in dat onderwerp worden beschreven, mogelijk niet beschikbaar zijn vanwege de activering van elektronische facturering.
 
 1. Ga naar **Organisatiebeheer \> Periodiek \> Elektronische documenten \> Elektronische documenten indienen**.
 2. Als u een document voor het eerst indient, moet u de optie **Documenten opnieuw indienen** op **Nee** instellen. Stel deze optie in op **Ja** als u een document opnieuw moet indienen via de service.

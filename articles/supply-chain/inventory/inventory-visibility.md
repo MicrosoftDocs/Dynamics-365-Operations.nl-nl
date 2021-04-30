@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e294ada8dd3e764987aa363adb2614416986575b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821124"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910420"
 ---
 # <a name="inventory-visibility-add-in"></a>Invoegtoepassing Voorraadzichtbaarheid
 
@@ -39,7 +39,7 @@ In dit onderwerp wordt beschreven hoe u de invoegtoepassing voor voorraadzichtba
 
 U moet de invoegtoepassing voor voorraadzichtbaarheid installeren met behulp van Microsoft Dynamics Lifecycle Services (LCS). LCS is een portal voor samenwerking die een omgeving en een reeks regelmatig bijgewerkte services biedt waarmee u de toepassingslevensduur van uw Dynamics 365 Finance and Operations-apps kunt beheren.
 
-Zie voor meer informatie [Lifecycle Services-resources](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs).
+Zie voor meer informatie [Lifecycle Services-resources](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
 ### <a name="prerequisites"></a>Vereisten
 
@@ -48,10 +48,13 @@ Voordat u de invoegtoepassing voor voorraadzichtbaarheid kunt installeren, moet 
 - Schaf een LCS-implementatieproject aan met minimaal één geïmplementeerde omgeving.
 - Zorg ervoor dat aan de vereisten voor het instellen van invoegvoegingen die beschikbaar zijn in het [Overzicht van invoegvoegingen](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) is voldaan. Voor Voorraadzichtbaarheid is geen koppeling voor twee keer wegschrijven vereist.
 - Neem contact op met het team op [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) om de volgende drie vereiste bestanden op te halen:
-
     - `Inventory Visibility Dataverse Solution.zip`
     - `Inventory Visibility Configuration Trigger.zip`
     - `Inventory Visibility Integration.zip` (als u een eerdere versie van Supply Chain Management uitvoert dan versie 10.0.18)
+- Volg de instructies in [Quickstart: registreer een toepassing bij het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app) om een toepassing te registreren en een clientgeheim aan AAD toe te voegen in uw Azure-abonnement.
+    - [Een toepassing registreren](/azure/active-directory/develop/quickstart-register-app)
+    - [Een clientgeheim toevoegen](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+    - De **Toepassings-id (client)**, **Clientgeheim** en **Tenant-id** worden in de volgende stappen gebruikt.
 
 > [!NOTE]
 > De landen en regio's die momenteel worden ondersteund, zijn Canada, de Verenigde Staten en de Europese Unie (EU).
@@ -64,7 +67,7 @@ Volg deze stappen om Dataverse in te stellen.
 
 1. Een serviceprincipe aan uw tenant toevoegen:
 
-    1. Installeer Azure AD PowerShell Module v2, zoals beschreven in [Azure Active Directory PowerShell for Graph installeren](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. Installeer Azure AD PowerShell Module v2, zoals beschreven in [Azure Active Directory PowerShell for Graph installeren](/powershell/azure/active-directory/install-adv2).
     1. Voer de volgende PowerShell-opdracht uit.
 
         ```powershell
@@ -80,7 +83,12 @@ Volg deze stappen om Dataverse in te stellen.
     1. Selecteer **Nieuw**. Stel de toepassings-id in op *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*. (De object-id wordt automatisch geladen wanneer u de wijzigingen opslaat.) U kunt de naam aanpassen. U kunt de naam bijvoorbeeld wijzigen in *Voorraadzichtbaarheid*. Wanneer u klaar bent, selecteert u **Opslaan**.
     1. Selecteer **Rol toewijzen** en selecteer vervolgens **Systeembeheerder**. Als er een rol is met de naam **Common Data Service-gebruiker**, selecteert u ook deze rol.
 
-    Zie [Een toepassingsgebruiker maken](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user) voor meer informatie.
+    Zie [Een toepassingsgebruiker maken](/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user) voor meer informatie.
+
+1. Als de standaardtaal van Dataverse niet **Engels** is:
+
+    1. Ga naar **Geavanceerde instelling \> Beheer \> Talen**.
+    1. Selecteer **Engels (LanguageCode=1033)** en selecteer **Toepassen**.
 
 1. Het bestand `Inventory Visibility Dataverse Solution.zip` met de gerelateerde entiteiten van de Dataverse-configuratie en Power Apps importeren:
 
@@ -158,12 +166,12 @@ Zorg ervoor dat de volgende functies zijn ingeschakeld in uw Supply Chain Manage
 
     Zoek de Azure-regio van uw LCS-omgeving op en voer vervolgens de URL in. De URL heeft de volgende notatie:
 
-    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com`
 
     Als u bijvoorbeeld in Europa bent, heeft uw omgeving een van de volgende URL's:
 
-    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
-    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com`
 
     De volgende regio's zijn momenteel niet beschikbaar.
 
@@ -212,13 +220,13 @@ Ga als volgt te werk om een beveiligingsservicetoken te verkrijgen:
 
     ```json
     {
-    "token_type": "Bearer",
-    "expires_in": "3599",
-    "ext_expires_in": "3599",
-    "expires_on": "1610466645",
-    "not_before": "1610462745",
-    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-    "access_token": "eyJ0eX...8WQ"
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "expires_on": "1610466645",
+        "not_before": "1610462745",
+        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+        "access_token": "eyJ0eX...8WQ"
     }
     ```
 
@@ -255,6 +263,43 @@ Ga als volgt te werk om een beveiligingsservicetoken te verkrijgen:
         "expires_in": 1200
     }
     ```
+
+### <a name="sample-request"></a><a name="inventory-visibility-sample-request"></a>Voorbeeldaanvraag
+
+Ter referentie is hier een voorbeeld-HTTP-aanvraag, waarin u alle hulpmiddelen of programmeertaal kunt gebruiken om deze aanvraag te verzenden, zoals ``Postman``.
+
+```json
+# Url
+# replace {RegionShortName} and {EnvironmentId} with your value
+https://inventoryservice.{RegionShortName}-il301.gateway.prod.island.powerapps.com/api/environment/{EnvironmentId}/onhand
+
+# Method
+Post
+
+# Header
+# replace {access_token} with the one get from security service
+Api-version: "1.0"
+Content-Type: "application/json"
+Authorization: "Bearer {access_token}"
+
+# Body
+{
+    "id": "id-bike-0001",
+    "organizationId": "usmf",
+    "productId": "Bike",
+    "quantities": {
+        "pos": {
+            "inbound": 5
+        }  
+    },
+    "dimensions": {
+        "SizeId": "Small",
+        "ColorId": "Red",
+        "SiteId": "1",
+        "LocationId": "11"
+    }
+}
+```
 
 ### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>De Voorraadzichtbaarheid-API configureren
 
@@ -338,7 +383,7 @@ Hier volgt een voorbeeldquery voor het product met de combinatie kleur en groott
 {
     "filters": {
         "OrganizationId": ["usmf"],
-        "ProductId": ["MyProduct"],
+        "ProductId": ["MyProduct1", "MyProduct2"],
         "LocationId": ["21"],
         "SiteId": ["2"],
         "ColorId": ["Red"]
@@ -350,6 +395,8 @@ Hier volgt een voorbeeldquery voor het product met de combinatie kleur en groott
     "returnNegative": true
 }
 ```
+
+Voor het veld `filters` worden momenteel alleen meerdere waarden voor `ProductId` ondersteund. Als `ProductId` een lege matrix is, worden alle producten opgevraagd.
 
 #### <a name="custom-measurement"></a>Aangepaste meting
 

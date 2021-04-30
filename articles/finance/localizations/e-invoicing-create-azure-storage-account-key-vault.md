@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b7df4933c1373893e00f48ea3a21bd5af40719a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2786d350fde2399aadb35dc653bc15123e0e6d91
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840215"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893797"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Een Azure-opslagaccount en een sleutelkluis maken
 
@@ -30,8 +30,8 @@ ms.locfileid: "5840215"
 
 Voordat u de stappen in dit onderwerp kunt voltooien, moet u controleren of de volgende zijn uitgevoerd:
 
-- Maak een sleutelkluis-resource in Azure. Zie [Over Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/overview) voor meer informatie.
-- Maak een Azure-opslagaccount (Blob-opslag). Zie [Azure-opslagaccount onderhouden](https://docs.microsoft.com/azure/storage/blobs/) voor meer informatie.
+- Maak een sleutelkluis-resource in Azure. Zie [Over Azure Key Vault](/azure/key-vault/general/overview) voor meer informatie.
+- Maak een Azure-opslagaccount (Blob-opslag). Zie [Azure-opslagaccount onderhouden](/azure/storage/blobs/) voor meer informatie.
 
 ## <a name="overview"></a>Overzicht
 
@@ -83,4 +83,3 @@ In dit onderwerp voert u twee belangrijke stappen uit:
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

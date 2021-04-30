@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 502205f76f1519153caf6e976ffbb5eb9412c4ea
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1f034017c2cd8736c1e3ce286924bf305961390
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818555"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898055"
 ---
 # <a name="finance-insights-home-page-preview"></a>Startpagina van Financiële inzichten (preview)
 
@@ -31,7 +31,7 @@ Financiële inzichten biedt configureerbare en uitbreidbare modellen om u te hel
 
 De preview van Financiële inzichten is beschikbaar voor proefimplementaties in de Verenigde Staten van Amerika, Europa en het Verenigd Koninkrijk. Microsoft voegt incrementeel ondersteuning toe voor meer regio's.
 
-Preview-functies kunnen en zouden alleen moeten worden ingeschakeld in Tier-2 sandbox-omgevingen. Setup-modellen en AI-modellen die in een sandbox-omgeving zijn gemaakt, kunnen niet naar een productieomgeving worden gemigreerd. Zie voor meer informatie [Aanvullende gebruiksrechtovereenkomst voor Microsoft Dynamics 365 Previews](https://docs.microsoft.com/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+Preview-functies kunnen en zouden alleen moeten worden ingeschakeld in Tier-2 sandbox-omgevingen. Setup-modellen en AI-modellen die in een sandbox-omgeving zijn gemaakt, kunnen niet naar een productieomgeving worden gemigreerd. Zie voor meer informatie [Aanvullende gebruiksrechtovereenkomst voor Microsoft Dynamics 365 Previews](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
 
 ## <a name="prerequisites"></a>Vereisten
 
@@ -43,7 +43,7 @@ Als u wilt deelnemen aan het preview-programma, vult u de [Preview Financiële i
 
 ### <a name="system-requirements"></a>Systeemvereisten
 
-Een Tier-2-sandbox-omgeving (multi-box) is vereist voor de preview van Financiële inzichten. Zie [Omgevingsplanning](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/environment-planning) voor achtergrondinformatie over omgevingen.
+Een Tier-2-sandbox-omgeving (multi-box) is vereist voor de preview van Financiële inzichten. Zie [Omgevingsplanning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) voor achtergrondinformatie over omgevingen.
 
 ### <a name="version-requirements"></a>Versievereisten
 
@@ -79,7 +79,7 @@ U moet een gegevensintegratorproject maken, zodat de gegevens die het machine le
 Wanneer u de configuratiestappen hebt voltooid en demogegevens hebt ingesteld, moet u elke mogelijkheid die u wilt gebruiken, inschakelen en instellen: klantbetalingsvoorspellingen, cashflowprognoses en budgetvoorstellen.
 
 ### <a name="enable-customer-payment-predictions"></a>Voorspellingen voor klantbetalingen inschakelen
-Als u demogegevens gebruikt om klantbetalingsvoorspellingen te testen, moet u mogelijk extra demogegevens importeren om het AI-model te kunnen maken. Zie [Demogegevens instellen voor betalingsvoorspellingen](set-up-demo-data.md) voor de specifieke stappen om demogegevens te importeren.
+Als u demogegevens gebruikt om klantbetalingsvoorspellingen te testen, moet u mogelijk extra demogegevens importeren om het AI-model te kunnen maken. 
 
 Als u Voorspellingen van klantbetalingen wilt inschakelen, moet u een reeks stappen uitvoeren om een machine learning model te maken waarin de gegevens van uw organisatie worden gebruikt om voorspellingen te genereren over wanneer klanten waarschijnlijk openstaande facturen betalen, en wanneer bepaalde facturen waarschijnlijk zullen worden betaald. Zie [Voorspellingen van klantbetalingen inschakelen](enable-cust-paymnt-prediction.md) voor meer informatie en de stappen die u moet uitvoeren. 
 

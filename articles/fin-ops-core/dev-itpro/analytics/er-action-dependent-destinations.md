@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac0efbbe645969cdf0419bf533d34e38b76fb67a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751227"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893573"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Actieafhankelijke ER-bestemmingen configureren
 
@@ -60,7 +60,7 @@ Als u het documenttype **Elke** selecteert, wordt **Automatische detectie** auto
     - Wanneer de actie **Verzenden** wordt opgegeven tijdens runtime, wordt de ER-bestemming **E-mail** toegepast.
     - Wanneer de actie **Afdrukken** wordt opgegeven tijdens runtime, wordt de ER-bestemming **Printer** toegepast.
 
-U kunt bijvoorbeeld de ER-indeling **Vrije-tekstfactuur (Excel)** gebruiken om een [vrije-tekstfactuur](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) af te drukken wanneer u deze boekt. Als u een gegenereerd document wilt routeren, moet u ER-bestemmingen configureren voor deze ER-indeling. U moet bijvoorbeeld mogelijk deze ER-bestemmingen configureren om het volgende uit te voeren voor een gegenereerd document:
+U kunt bijvoorbeeld de ER-indeling **Vrije-tekstfactuur (Excel)** gebruiken om een [vrije-tekstfactuur](../../../finance/accounts-receivable/create-free-text-invoice-new.md) af te drukken wanneer u deze boekt. Als u een gegenereerd document wilt routeren, moet u ER-bestemmingen configureren voor deze ER-indeling. U moet bijvoorbeeld mogelijk deze ER-bestemmingen configureren om het volgende uit te voeren voor een gegenereerd document:
 
 - Het document archiveren als de ER-indeling wordt uitgevoerd, maar er geen actiecode is opgegeven (bijvoorbeeld wanneer het document elektronisch wordt verzonden).
 - Een voorbeeld van het document weergeven in een webbrowser wanneer een gebruiker de actie **Weergeven** uitvoert.
@@ -82,7 +82,7 @@ In de volgende afbeelding wordt getoond hoe u het alternatieve configureren van 
 
 Wanneer er een ER-indeling wordt uitgevoerd en er gebruikersacties zijn opgegeven door gebruikers die de juiste [machtigingen](electronic-reporting-destinations.md#security-considerations) hebben om geconfigureerde bestemmingsinstellingen tijdens runtime te wijzigen, wordt een dialoogvenster weergegeven dat de optie biedt om de geconfigureerde bestemmingsinstellingen te wijzigen. Dit dialoogvenster is optioneel en heeft een uiterlijk dat afhankelijk is van hoe de oproep waarmee het ER-framework wordt uitgevoerd, een ER-indeling implementeert. Als dit dialoogvenster wordt weergegeven, worden de ER-bestemmingen in het dialoogvenster ingeschakeld op basis van de geleverde gebruikersactie.
 
-Hieronder ziet u een voorbeeld van het dialoogvenster **Bestemming van indeling voor elektronische rapportage** dat wordt weergegeven wanneer er een vrije-tekstfactuur wordt [geboekt](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) en de ER-indeling **Vrije-tekstfactuur** wordt uitgevoerd om dit document te genereren, als de actie **Printer** is opgegeven en ER-bestemmingen voor deze indeling zijn geconfigureerd, zoals eerder in dit onderwerp is beschreven.
+Hieronder ziet u een voorbeeld van het dialoogvenster **Bestemming van indeling voor elektronische rapportage** dat wordt weergegeven wanneer er een vrije-tekstfactuur wordt [geboekt](../../../finance/accounts-receivable/create-free-text-invoice-new.md) en de ER-indeling **Vrije-tekstfactuur** wordt uitgevoerd om dit document te genereren, als de actie **Printer** is opgegeven en ER-bestemmingen voor deze indeling zijn geconfigureerd, zoals eerder in dit onderwerp is beschreven.
 
 ![Dialoogvenster met de mogelijkheid om de oorspronkelijk geconfigureerde ER-bestemmingen te wijzigen voor de lopende ER-indeling](./media/er-destination-action-dependent-02.gif)
 

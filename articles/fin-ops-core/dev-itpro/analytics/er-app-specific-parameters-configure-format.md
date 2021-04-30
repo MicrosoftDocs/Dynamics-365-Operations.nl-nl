@@ -2,7 +2,8 @@
 title: ER-indelingen configureren om parameters te gebruiken die per rechtspersoon worden opgegeven
 description: In dit onderwerp wordt uitgelegd hoe u ER-indelingen (Elektronische rapportage) kunt configureren voor het gebruik van parameters die worden opgegeven per rechtspersoon.
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3802675b2fe0615f4c2ad682462a233c67f18f1a
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751173"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853488"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>ER-indelingen configureren om parameters te gebruiken die per rechtspersoon worden opgegeven
 
@@ -28,7 +29,7 @@ ms.locfileid: "5751173"
 
 ## <a name="overview"></a>Overzicht
 
-In veel van de speciale indelingen voor elektronische rapporten die u zult ontwerpen, moet u gegevens filteren met behulp van een set waarden die specifiek zijn voor elke rechtspersoon van uw exemplaar (bijvoorbeeld een set belastingcodes om btw-transacties te filteren). Op dit moment worden waarden die afhankelijk zijn van de rechtspersoon (bijvoorbeeld btw-codes) gebruikt in expressies van de ER-indeling gebruikt om regels voor gegevensfiltering op te geven wanneer filters van dit type zijn geconfigureerd in een ER-indeling. Daarom wordt de ER-indeling rechtspersoonspecifiek gemaakt en moet u, om de vereiste rapporten te kunnen genereren, afgeleide kopieën van de oorspronkelijke ER-indeling maken voor elke rechtspersoon waarvoor u de ER-indeling moet uitvoeren. Elke afgeleide ER-indeling moet worden bewerkt om rechtspersoonspecifieke waarden in te voeren, opnieuw gebaseerd wanneer de oorspronkelijke (basis)versie is bijgewerkt, geëxporteerd vanuit een testomgeving en geïmporteerd in een productieomgeving wanneer deze moet worden geïmplementeerd voor productiegebruik enzovoort. Het onderhoud van dit type geconfigureerde ER-oplossing is daarom zeer ingewikkeld en tijdrovend om verschillende redenen:
+In veel van de speciale indelingen voor elektronische rapporten die u zult ontwerpen, moet u gegevens filteren met behulp van een set waarden die specifiek zijn voor elke rechtspersoon van uw exemplaar (bijvoorbeeld een set belastingcodes om btw-transacties te filteren). Op dit moment worden waarden die afhankelijk zijn van de rechtspersoon (bijvoorbeeld btw-codes) gebruikt in expressies van de ER-indeling gebruikt om regels voor gegevensfiltering op te geven wanneer filters van dit type zijn geconfigureerd in een ER-indeling. Daarom wordt de ER-indeling rechtspersoonspecifiek gemaakt en moet u, om de vereiste rapporten te kunnen genereren, afgeleide kopieën van de oorspronkelijke ER-indeling maken voor elke rechtspersoon waarvoor u de ER-indeling moet uitvoeren. Elke afgeleide ER-indeling moet worden bewerkt om rechtspersoonspecifieke waarden in te voeren, opnieuw gebaseerd wanneer de oorspronkelijke (basis)versie is bijgewerkt, geëxporteerd vanuit een testomgeving en geïmporteerd in een productieomgeving wanneer deze moet worden geïmplementeerd voor productiegebruik enzovoort. Het onderhoud van dit type geconfigureerde ER-oplossing is daarom ingewikkeld en tijdrovend om verschillende redenen:
 
 -   Hoe meer rechtspersonen er zijn, des te meer configuraties voor ER-indelingen moeten worden bijgehouden.
 -   Voor onderhoud aan ER-configuraties moeten zakelijke gebruikers over ER-kennis beschikken.
@@ -86,7 +87,7 @@ In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc
 
     ![De gegevensbron Model.Data.Summary met de lijst met belastingtransacties](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
-    Het berekende veld **Model.Data.Summary.Level** is zo geconfigureerd dat het een ER-expressie bevat. Opmerking: de btw-codes (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** en **InVAT0**) zijn in de code vastgelegd in deze configuratie. Deze ER-indeling is daarom afhankelijk van de rechtspersoon waar deze btw-codes zijn geconfigureerd.
+    Het berekende veld **Model.Data.Summary.Level** is zo geconfigureerd dat het een ER-expressie bevat. De btw-codes (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** en **InVAT0**) zijn in de code vastgelegd in deze configuratie. Deze ER-indeling is daarom afhankelijk van de rechtspersoon waar deze btw-codes zijn geconfigureerd.
 
     ![Het berekende veld Model.Data.Summary.Level met in code vastgelegde belastingcodes](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
@@ -153,12 +154,12 @@ Vervolgens voegt u een nieuwe gegevensbron toe om aan te geven hoe zakelijke geb
 1.  Selecteer op het tabblad **Toewijzing** de optie **Toevoegen**.
 2.  Selecteer **Indelingsopsomming\Zoekopdracht**.
 
-    U hebt zojuist vastgesteld dat elke regel die door zakelijke gebruikers wordt opgegeven voor het herkennen van het belastingniveau een waarde van een ER-indelingsopsomming retourneert. Het type gegevensbron **Zoekopdracht** is toegankelijk onder de blokken **Gegevensmodel** en **Dynamics 365 for Operations** en in het blok **Indelingsopsomming**. Hierdoor kunnen er geen ER-gegevensmodelopsommingen en toepassingsopsommingen worden gebruikt om het type waarden op te geven dat wordt geretourneerd voor gegevensbronnen van dat type.
+    U hebt zojuist vastgesteld dat elke regel die door zakelijke gebruikers wordt opgegeven voor het herkennen van het belastingniveau een waarde van een ER-indelingsopsomming retourneert. Het type gegevensbron **Zoekopdracht** is toegankelijk onder de blokken **Gegevensmodel** en **Dynamics 365 for Operations** en in het blok **Indelingsopsomming**. Hierdoor kunnen er geen ER-gegevensmodelopsommingen en toepassingsopsommingen worden gebruikt om het type waarden op te geven dat wordt geretourneerd voor gegevensbronnen van dat type. Zie [Gegevensbronnen voor opzoeken configureren om ER-toepassingsspecifieke parameters te gebruiken](er-lookup-data-sources.md) voor meer informatie over gegevensbronnen voor **Opzoeken**.
     
 3.  Voer in het veld **Naam** de tekst **Selectie** in.
 4.  Selecteer in het veld **Indelingspsomming** de optie **Lijst met belastingniveaus**.
 
-    U hebt zojuist opgegeven dat een zakelijke gebruiker voor elke regel die in deze gegevensbron is opgegeven een van de waarden van de indelingsopsomming **lijst met belastingniveaus** moet selecteren als geretourneerde waarde.
+    U hebt opgegeven dat een zakelijke gebruiker voor elke regel die in deze gegevensbron is opgegeven een van de waarden van de indelingsopsomming **lijst met belastingniveaus** moet selecteren als geretourneerde waarde.
     
 5.  Selecteer **Zoekopdracht bewerken**.
 6.  Selecteer **Kolommen**.
@@ -307,6 +308,8 @@ Als u wilt leren hoe u de geconfigureerde ER-indeling **Indeling voor het opzoek
 [Formuleontwerper in elektronische aangifte](general-electronic-reporting-formula-designer.md)
 
 [De parameters van een ER-indeling per rechtspersoon instellen](er-app-specific-parameters-set-up.md)
+
+[Gegevensbronnen voor opzoeken configureren om de functie ER-toepassingsspecifieke parameters te gebruiken](er-lookup-data-sources.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbf5ed3d0f83619746ae66ae7008940f4600060c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6aede26fb7d371806624742792ded5be23ad0e51
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824913"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908079"
 ---
 # <a name="credit-limits-for-customers"></a>Kredietlimieten voor klanten
 
@@ -90,7 +90,7 @@ Gebruik het formulier **Parameters van module Klanten** om de vergelijkingsinfor
 
 **Waar vindt u informatie over het resterende krediet van een klant?**
 
-Informatie over het saldo en het resterende kredietbedrag van de klant wordt berekend en opgeslagen wanneer u een ouderdomsmomentopname maakt, en wordt weergegeven in het formulier **Aanmaningen**. De bedragen in het formulier **Aanmaningen** bevatten mogelijk niet alle transactieactiviteiten totdat een nieuwe ouderdomsmomentopname wordt gemaakt. Zie [Aanmaningen en crediteringen in Klanten](https://technet.microsoft.com/library/hh209221.aspx) voor meer informatie.
+Informatie over het saldo en het resterende kredietbedrag van de klant wordt berekend en opgeslagen wanneer u een ouderdomsmomentopname maakt, en wordt weergegeven in het formulier **Aanmaningen**. De bedragen in het formulier **Aanmaningen** bevatten mogelijk niet alle transactieactiviteiten totdat een nieuwe ouderdomsmomentopname wordt gemaakt. Zie [Aanmaningen en crediteringen in Klanten](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable) voor meer informatie.
 
 Informatie over het saldo en het resterende kredietbedrag van de klant wordt afhankelijk van de geselecteerde documenten berekend wanneer verkooporders, pakbonnen en klantfacturen worden bijgewerkt. Als het bedrag van het document waarin u werkt de kredietlimiet overschrijdt, wordt een bericht weergegeven.
 

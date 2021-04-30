@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a48a20939b346b2d8536128107a730761b13f71c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a405fee368bb1789addbdf4316a007e85616d98d
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820708"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897083"
 ---
 # <a name="electronic-reporting-sample-vendor-checks"></a>Voorbeeldleverancierscheques voor elektronische rapportage
 
@@ -34,13 +34,13 @@ Microsoft Dynamics 365 Finance bevat bovendien een voorbeeldindeling waarin de c
 
 ## <a name="what-do-i-have-to-set-up"></a>Wat moet ik instellen?
 
-- Voordat u cheques kunt afdrukken met ER, moet er ten minste één actieve chequeconfiguratie in uw ER-configuraties worden geïmporteerd. Zie voor instructies het onderwerp [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+- Voordat u cheques kunt afdrukken met ER, moet er ten minste één actieve chequeconfiguratie in uw ER-configuraties worden geïmporteerd. Zie voor instructies het onderwerp [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 - Wanneer u Contanten en bankbeheer-cheques voor de bankrekening configureert, schakelt u het selectievakje **Algemene elektronische exportindeling** in en selecteert u vervolgens de juiste cheque-indeling als een export-indelingsconfiguratie.
 - U moet ook het aantal bonregels opgeven dat wordt afgedrukt op de remise. Zorg ervoor dat u de koptekstrijen opneemt als u dit aantal berekent. Het aanbevolen aantal bonregels voor de twee voorbeeldcheque-indelingen is 17. Dit aantal varieert echter, afhankelijk van uw chequevoorraad en uw printerstuurprogramma's.
 - Het is raadzaam dat u een testcheque afdrukt om de chequelay-out te controleren. Selecteer de optie **Proefafdruk** om een testcheque af te drukken. De voorbeeldcheque-indelingen werken het beste als **Marges** is ingesteld op **Geen** in de geavanceerde printereigenschappen voor Microsoft Excel. Nadat de testcheque is gegenereerd, schakelt u de bewerking van de Excel-uitvoer in en configureert u de paginalay-out zodanig dat alle marges zijn ingesteld op **0** (nul). Vergelijk de testkopie van de cheques met uw chequevoorraad en pas de instellingen aan totdat u tevreden met de uitlijning bent.
 - Wanneer u betalingen genereert voor de geconfigureerde bankrekening in het betalingsjournaal, worden de cheques afgedrukt met behulp van de opgegeven indeling.
 
-Zie [Een indeling voor elektronische aangifte wijzigen](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md) voor meer informatie.
+Zie [Een indeling voor elektronische aangifte wijzigen](../../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md) voor meer informatie.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 53e9c42f718665165be97e5022a9e767b0436e59
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 61f86cd6168d700a5316768b328466b08d9e8f51
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802210"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892604"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-22-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 22 februari 2021
 
@@ -32,7 +32,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of di
 
 Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
-Zie [Overzicht van Dynamics 365 Human Resources 2021 release wave 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
+Zie [Overzicht van Dynamics 365 Human Resources 2021 release wave 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
 
 ## <a name="in-this-release"></a>In deze versie
 
@@ -44,7 +44,7 @@ De volgende functie zijn algemeen beschikbaar in deze release.
 
 | Functie | Vrijgaveplan | Documentatie |
 | --- | --- | --- |
-| Dynamics 365 Human Resources-app voor Microsoft Teams | [Verlof en verzuim van werknemers in Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Human Resources-app in Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Verlofaanvragen beheren in Teams](hr-teams-leave-app.md) |
+| Dynamics 365 Human Resources-app voor Microsoft Teams | [Verlof en verzuim van werknemers in Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Human Resources-app in Teams](./hr-admin-teams-leave-app.md)<br>[Verlofaanvragen beheren in Teams](hr-teams-leave-app.md) |
 
 ### <a name="bug-fixes"></a>Correcties
 
@@ -68,9 +68,9 @@ Van de volgende nieuwe functies kan een voorbeeld worden bekeken. Zie [Functies 
 
 | Functie | Vrijgaveplan | Documentatie |
 | --- | --- | --- |
-| Bedrijfsweergave van verlof voor managers | [Bedrijfsweergave van werknemersverlof voor managers](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Parameters voor verlof en verzuim configureren](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
-| Werkgebied voor vergoedingenbeheer | [Werkruimte Vergoedingenbeheer (preview)](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Werkgebied voor vergoedingenbeheer](hr-benefits-management-workspace.md) |
-| Voorkomen dat werknemers zakelijke contactgegevens bewerken | [Voorkomen dat werknemers zakelijke contactgegevens bewerken](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [Bewerken van persoonlijke gegevens beperken](hr-employee-self-service-restrict-editing.md)|
+| Bedrijfsweergave van verlof voor managers | [Bedrijfsweergave van werknemersverlof voor managers](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Parameters voor verlof en verzuim configureren](./hr-leave-and-absence-parameters.md) |
+| Werkgebied voor vergoedingenbeheer | [Werkruimte Vergoedingenbeheer (preview)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Werkgebied voor vergoedingenbeheer](hr-benefits-management-workspace.md) |
+| Voorkomen dat werknemers zakelijke contactgegevens bewerken | [Voorkomen dat werknemers zakelijke contactgegevens bewerken](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [Bewerken van persoonlijke gegevens beperken](hr-employee-self-service-restrict-editing.md)|
 
 ## <a name="coming-soon"></a>Binnenkort beschikbaar
 
@@ -78,15 +78,15 @@ Van de volgende nieuwe functies kan een voorbeeld worden bekeken. Zie [Functies 
 | --- | --- |
 | Vaardigheden die een manager voor diens werknemers invoert, kunnen automatisch worden goedgekeurd door een workflow | Binnenkort beschikbaar. |
 
-Zie [Overzicht van Dynamics 365 Human Resources 2021 release wave 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/) voor een volledige lijst met geplande functies en de bijbehorende geplande versies.
+Zie [Overzicht van Dynamics 365 Human Resources 2021 release wave 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/) voor een volledige lijst met geplande functies en de bijbehorende geplande versies.
 
 ## <a name="terminology-updates-for-microsoft-dataverse"></a>Terminologiewijzigingen voor Microsoft Dataverse
 
-Met ingang van november 2020 is Common Data Service omgedoopt tot [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro). Zie voor meer informatie de [officiële aankondiging](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) op het Power Apps-blog. Met deze naamswijziging is een aantal termen in Dataverse bijgewerkt. *Entiteit* is nu bijvoorbeeld *tabel* en *veld* is nu *kolom*. Zie [Terminologiewijzigingen](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates) voor meer informatie.
+Met ingang van november 2020 is Common Data Service omgedoopt tot [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro). Zie voor meer informatie de [officiële aankondiging](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) op het Power Apps-blog. Met deze naamswijziging is een aantal termen in Dataverse bijgewerkt. *Entiteit* is nu bijvoorbeeld *tabel* en *veld* is nu *kolom*. Zie [Terminologiewijzigingen](/powerapps/maker/data-platform/data-platform-intro#terminology-updates) voor meer informatie.
 
 In deze versie is de terminologie met betrekking tot de Dynamics 365 Human Resources-integratie met Dataverse in de hele toepassing bijgewerkt om deze wijzigingen weer te geven. Het formulier **Common Data Service-integratie** heet nu bijvoorbeeld **Microsoft Dataverse-integratie**.
 
-Meer informatie over de integratie van Dynamics 365 Human Resources met Microsoft Dataverse vindt u in [De Microsoft Dataverse-integratie configureren](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service) en [De virtuele Microsoft Dataverse-tabellen configureren](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+Meer informatie over de integratie van Dynamics 365 Human Resources met Microsoft Dataverse vindt u in [De Microsoft Dataverse-integratie configureren](./hr-admin-integration-common-data-service.md) en [De virtuele Microsoft Dataverse-tabellen configureren](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 ## <a name="updates-to-service-deployment"></a>Updates voor service-implementatie
 
@@ -94,12 +94,12 @@ Vanaf de release van 22 februari 2021 passen wij onze regionale service update-i
 
 We blijven het implementatieritme van twee weken volgen. Het kan klanten echter bekend zijn dat updates meestal op een andere dag van de cyclus van twee weken op hun Human Resources-omgevingen worden toegepast dan in vorige versies.
 
-Zie het [Updateproces](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-setup-update-process) voor meer informatie over het updateproces voor de service.
+Zie het [Updateproces](./hr-admin-setup-update-process.md) voor meer informatie over het updateproces voor de service.
 
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
-[Overzicht van Dynamics 365 Human Resources 2021 release wave 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[Overzicht van Dynamics 365 Human Resources 2021 release wave 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
 

@@ -2,11 +2,11 @@
 title: Introductiepagina Activa leasen
 description: Dit onderwerp bevat een overzicht van de documentatie voor Activa leasen en koppelingen naar specifieke onderwerpen.
 author: moaamer
-ms.date: 10/27/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 532601d08d52e9edaf97253df4efd2fc10985dc0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 202a353929fbcd8d81593db155d7bfeebb8f3021
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816143"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898105"
 ---
 # <a name="asset-leasing-home-page"></a>Introductiepagina Activa leasen
 
@@ -28,7 +28,9 @@ ms.locfileid: "5816143"
 
 In dit onderwerp vindt u een overzicht van de Help-onderwerpen die beschikbaar zijn voor Activa leasen en koppelingen naar specifieke onderwerpen. 
 
-Activalease is een geavanceerde functie voor het beheren, bijhouden en automatiseren van financiële transacties voor geleasde activa in Microsoft Dynamics 365 Finance. Activalease voldoet aan de internationale boekhoudstandaarden (IFRS 16) en de US GAAP-normen (ASC 842). In Activalease worden de gegevens over de leases vastgelegd en verwerkt en worden journaalboekingen gegenereerd voor de gehele levenscyclus van de lease, vanaf de eerste toerekening, maandelijkse journaalboekingen, tot en met waardevermindering en beëindiging van de lease.  
+Activalease is een geavanceerde functie voor het beheren, bijhouden en automatiseren van financiële transacties voor geleasde activa in Microsoft Dynamics 365 Finance. Activalease voldoet aan de internationale boekhoudstandaarden (IFRS 16) en de US GAAP-normen (ASC 842). In Activalease worden de gegevens over de leases vastgelegd en verwerkt en worden journaalboekingen gegenereerd voor de gehele levenscyclus van de lease, vanaf de eerste toerekening, maandelijkse journaalboekingen, tot en met waardevermindering en beëindiging van de lease.
+
+Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied **Functiebeheer** gebruiken om de status van de functie te controleren en desgewenst in te schakelen. Zoek in het werkgebied **Functiebeheer** de functie **Activaleasing** en klik op de knop **Nu inschakelen**.
 
 ## <a name="asset-leasing-topics"></a>Onderwerpen voor Activa leasen
 Het volgende onderwerp is beschikbaar voor het configureren en gebruiken van Activa leasen. 
@@ -82,7 +84,7 @@ In dit onderwerp vindt u een beknopt overzicht van de rapporten die beschikbaar 
 
 ### <a name="whats-new-and-in-development"></a>Nieuw functies en functies in ontwikkeling
 
-Ga naar de [releaseplannen voor Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland. 
+Ga naar de [releaseplannen voor Microsoft Dynamics 365](/dynamics365/release-plans/) om te zien welke nieuwe functies er zijn gepland. 
 
 ### <a name="blogs"></a>Weblogs
 

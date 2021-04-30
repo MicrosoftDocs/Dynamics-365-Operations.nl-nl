@@ -1,169 +1,195 @@
 ---
-title: Schaaleenheden voor Cloud en Edge voor workloads voor productie en magazijnbeheer
+title: Gebruik schaaleenheden om de ondersteuning voor workloads in Supply Chain Management te vergroten
 description: Dit onderwerp geeft informatie over schaaleenheden voor Cloud en Edge voor workloads voor productie en magazijnbeheer.
 author: cabeln
-ms.date: 10/06/2020
+ms.date: 04/13/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: SCM
+ms.search.region: Global
 ms.author: cabeln
-ms.search.validFrom: 2020-09-23
-ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3eacc9d0cf53fa8af3ff166006cb8fab32445331
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.search.validFrom: 2021-04-13
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: c47088edd89413d196e904bc7eaa115585bf8464
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836705"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899138"
 ---
-# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Schaaleenheden voor Cloud en Edge voor workloads voor productie en magazijnbeheer
+# <a name="use-scale-units-to-help-increase-resilience-for-supply-chain-management-workloads"></a>Gebruik schaaleenheden om de ondersteuning voor workloads in Supply Chain Management te vergroten
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-De schaaleenheden voor Cloud en Edge maken distributie van de workloads voor de werkvloer en magazijn tussen verschillende omgevingen mogelijk. Deze functionaliteit kan helpen de prestaties te verbeteren, serviceonderbrekingen te voorkomen en de uptime te maximaliseren. Deze wordt geleverd door de volgende invoegtoepassingen:
+> [!IMPORTANT]
+> De capaciteit van de schaaleenheid voor Microsoft Dynamics 365 Supply Chain Management wordt voor u beschikbaar gemaakt onder de voorwaarden die van toepassing zijn op de service. Zie [Juridische informatie voor Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkID=290927) voor meer informatie.
+>
+> Door schaaleenheden voor cloud en edge in te schakelen, bevestigt u dat bepaalde gegevens die zijn gerelateerd aan de configuratie en verwerking van cloud- en edge-schaaleenheden, kunnen worden opgeslagen in een datacenter in de Verenigde Staten. Zie de sectie [Gegevensverwerking tijdens het beheer van schaaleenheden](#data-processing-management) verderop in dit onderwerp voor meer informatie over gegevensverwerking voor cloud- en edgeschaaleenheden.
 
-- Invoegtoepassing Cloud schaaleenheid voor Dynamics 365 Supply Chain Management
-- Invoegtoepassing Edge schaaleenheid voor Dynamics 365 Supply Chain Management
+## <a name="core-value-proposition-for-scale-units"></a>Basiswaardevoorstel voor schaaleenheden
 
 Bedrijven die werken met productie en distributie moeten belangrijke bedrijfsprocessen 24x7 kunnen uitvoeren, zonder onderbreking en op schaal. Met behulp van de schaaleenheden voor Cloud en Egde kunnen bedrijven belangrijke bedrijfskritische productie- en magazijnprocessen zonder onderbreking uitvoeren, zelfs niet wanneer deze met incidentele problemen met netwerkverbindingen of latentie te kampen krijgen.
 
-## <a name="public-preview-information"></a>Informatie over openbare preview
+De schaaleenheden voor Cloud en Edge maken distributie van de workloads voor de werkvloer en magazijn tussen verschillende omgevingen mogelijk. Deze functionaliteit kan helpen de prestaties te verbeteren, serviceonderbrekingen te voorkomen en de uptime te maximaliseren. Schaaleenheden worden geleverd via de volgende invoegingen voor uw Supply Chain Management-abonnement:
 
-De preview bevat één omgeving die fungeert als een cloud-hub van uw Dynamics 365 Supply Chain Management-omgeving en een omgeving die fungeert als een Cloud schaaleenheid.
+- Invoegtoepassing voor cloudschaaleenheden voor Dynamics 365 Supply Chain Management (*beschikbaar april 2021)*
+- Invoegtoepassing voor edgeschaaleenheden voor Dynamics 365 Supply Chain Management (*binnenkort beschikbaar)*
 
-<!-- You will also be able to use Local Business Data (LBD) to configure an on-premises environment as an edge scale unit for the hub you received as part of the preview program.-->
-
-### <a name="preview-availability"></a>Beschikbaarheid van de preview
-
-De preview voor schaaleenheden voor Cloud en Egde wordt in oktober 2020 beschikbaar voor bestaande klanten van Supply Chain Management.
-
-oor toegang tot de preview-release 10.0.15/platformupdate 39 van oktober voor implementatie in uw [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/v2)-omgeving moet u deel uitmaken van het Preview Early Access-programma (PEAP) voor Supply Chain Management. U kunt deelnemen aan PEAP als u al lid bent van het bredere [Dynamics Insider Program](https://experience.dynamics.com/insider). Selecteer het programma met de naam 'Finance + Operations: Preview Early Access-programma (PEAP).'
-
-> [!IMPORTANT]
-> De schaaleenheidsmogelijkheid voor Supply Chain Management is alleen beschikbaar voor u als u akkoord gaat met de [Voorwaarden voor Cloud + Edge Preview voor Finance and Operations](https://Aka.ms/SCMCnETerms).
-
-### <a name="data-processing-for-the-preview"></a>Gegevensverwerking voor de preview
-
-Tijdens de openbare preview worden sommige beheerservices alleen in de Verenigde Staten gehost. Wanneer de functie echter algemeen beschikbaar wordt, zijn deze beheerservices beschikbaar in alle geografieën die worden ondersteund door Supply Chain Management. Dit is van invloed op de overdracht en opslag van beheerinformatie die door de schaaleenhedenbeheerder wordt gebruikt, waaronder:
-
-- Uw tenant-namen en -id's
-- Uw LCS project-id's
-- E-mailadressen van beheerders die zijn gebruikt om zich aan te melden
-- Omgevings-id's voor hub en schaaleenheden
-- Configuraties van workloads
-- Verzamelde meetgegevens (zoals latentie en doorvoer), die worden weergegeven op de pagina voor kaartanalyse
-
-Gegevens die zijn overgebracht naar en opgeslagen in de Amerikaanse datacenters, worden verwijderd wanneer de preview-omgevingen worden afgesloten.
-
-### <a name="sign-up-for-the-preview"></a>Meld u aan voor de preview
-
-Om u aan te melden voor de Cloud en Edge-preview voor Supply Chain Management, moet uw organisatie al beschikken over een actieve cloudomgeving voor Supply Chain Management.
-
-De mogelijkheden voor schaaleenheden zijn momenteel in openbare preview. Wanneer u zich aanmeldt, moet u een gebruikersaccount voor de specifieke tenant gebruiken. U moet ook een projecteigenaar of een omgevingsbeheerder in LCS zijn voor een actief Dynamics 365 LCS-project in die tenant.
-
-Wanneer u zich aanmeldt voor de preview, selecteert u een tenant en gaat u door met de aanmeldingsstappen. Zodra Microsoft de preview-capaciteit kan toewijzen, sturen we u een e-mail met daarin de inrichtingsgegevens en de promotiecodes voor twee omgevingen (een hub en een schaaleenheid) voor het desbetreffende LCS-project. Vervolgens kunt u de twee omgevingen als fase 2-sandbox-omgevingen implementeren. Deze omgevingen zijn 60 dagen geldig vanaf de aanmaakdatum van de promotiecodes. U kunt de twee omgevingen pas gebruiken als de stap die in de volgende alinea is beschreven, is voltooid.
-
-Nadat u bij Microsoft hebt bevestigd dat de twee omgevingen zijn geïmplementeerd met behulp van de promotiecodes, wordt een van de omgevingen geconfigureerd als een hub en de andere als een schaaleenheid. U kunt vervolgens de schaaleenheden configureren en geselecteerde magazijnbeheer- en productieworkloads implementeren met behulp van de [Portal voor schaaleenhedenbeheer](https://aka.ms/SCMSUM).
-
-Preview-omgevingen worden na 60 dagen automatisch verwijderd. Ze kunnen echter eerder worden verwijderd als ze kennelijk niet worden gebruikt. Nadat de preview-omgevingen zijn verwijderd, kunt u zich aanmelden en in de wachtrij staan voor een nieuwe preview-implementatie.
-
-Als u zich wilt aanmelden voor de preview, gaat u naar de [Portal voor schaaleenhedenbeheer](https://aka.ms/SCMSUM).
-
-### <a name="limitations-that-apply-during-the-preview-period"></a>Beperkingen die van toepassing zijn tijdens de evaluatieperiode
-
-> [!IMPORTANT]
-> Voor de eerste fase van het previewprogramma voor deze functie ondersteunt Microsoft alleen hubs met een schaaleenheid voor de cloud, niet voor hubs met Edge-schaaleenheden. Edge-schaaleenheden worden on-premises geïnstalleerd en zullen naar verwachting beschikbaar worden tijdens een aanstaande fase van het programma.
-
-Omdat de schaaleenheden van cloud en edge een preview-functie zijn, zijn de services die hieraan zijn gekoppeld, momenteel slechts beschikbaar in beperkte landen en regio's. Door schaaleenheden voor cloud en edge in te schakelen, bevestigt u dat bepaalde gegevens die zijn gerelateerd aan de configuratie en verwerking van cloud- en edge-schaaleenheden, kunnen worden opgeslagen in een datacenter in de Verenigde Staten. Door cloud- en edge-schaaleenheden in te schakelen, gaat u ook akkoord met de [Voorwaarden voor de Cloud + Edge Preview voor Finance and Operations](https://Aka.ms/SCMCnETerms). Zie de [documentatie](https://aka.ms/scmcne) voor meer informatie over de schaaleenheden voor cloud en edge.
-
-Uw privacy is belangrijk voor Microsoft. Lees onze [Privacyverklaring](https://aka.ms/privacy) voor meer informatie.
-
-> [!IMPORTANT]
-> Sommige bedrijfsfuncties worden niet volledig ondersteund in de openbare preview wanneer workloads worden gebruikt voor schaaleenheden. Voor meer informatie over de functionele workloads, zie de secties verderop in dit onderwerp.
+Workloadcapaciteiten worden doorlopend vrijgegeven door middel van incrementele verbeteringen.
 
 ## <a name="scale-units-and-dedicated-workloads"></a>Schaaleenheden en toegewezen workloads
 
+Schaaleenheden bereiden uw centrale Supply Chain Management-hubomgeving uit met extra toegewezen verwerkingscapaciteit. Schaaleenheden kunnen in de cloud worden uitgevoerd. U kunt ze ook aan de edge, on-premises bij uw lokale faciliteit gebruiken.
+
 :::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 met schaaleenheden":::
 
-Schaaleenheden bereiden uw centrale Supply Chain Management-hubomgeving uit met extra toegewezen verwerkingscapaciteit. Schaaleenheden kunnen in de cloud worden uitgevoerd. U kunt ze ook op de edge van uw lokale faciliteit gebruiken. De schaaleenheden kunnen tijdelijk worden losgekoppeld van de hub-omgeving. Wanneer deze zijn verbonden, ontvangen schaaleenheden alle informatie die nodig is om de toegewezen verwerking uit te voeren voor toegewezen workloads.
+Schaaleenheden bieden veerkracht, betrouwbaarheid en schaal voor de toegewezen workloads. De edgeschaaleenheden kunnen tijdelijk worden losgekoppeld van de cloudhubomgeving en werknemers blijven werken in de toegewezen werkbelasting.
 
-:::image type="content" source="media/cloud_edge-previewoptions.png" alt-text="Opties voor schaaleenheden in de openbare preview":::
+Een *workload* is een gedefinieerde set bedrijfsfunctionaliteit die kan worden weggelaten en overgedragen aan een schaaleenheid. De workload voor magazijnbeheer is al vrijgegeven, maar de workloadvoorziening voor productie-uitvoering is nog in preview.
 
-Voor de openbare preview kunt u een hub-omgeving met geselecteerde workloads configureren op een cloud-schaaleenheid met behulp van de portal voor schaaleenhedenbeheer. Preview-deelnemers die toegang hebben tot een LBD (Local Business Data) on-premises-omgeving, kunnen de LBD-omgeving ook configureren als edge-schaaleenheid.
+U kunt uw hub-omgeving en cloud-schaaleenheden voor geselecteerde workloads configureren met behulp van de [portal voor schaaleenhedenbeheer](https://sum.dynamics.com). U kunt ook meerdere workloads per schaaleenheid toewijzen. Zie de sectie [Vereisten en beperkingen voor cloudschaaleenheden](#cloud-scale-unit-prerequisites) verderop in dit onderwerp voor informatie over de vereisten en beperkingen voor cloudschaaleenheden in de huidige versie.
 
-Een workload is een gedefinieerde set bedrijfsfunctionaliteit die kan worden weggelaten en overgedragen aan een schaaleenheid. Op dit moment bevat de preview twee typen workloads:
+### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Toegewezen workloadfuncties voor magazijnbeheer in een schaaleenheid
 
-- Productieregistratie
-- Magazijnbeheer
+De workload voor magazijnbeheer is de eerste gedistribueerde workload voor schaaleenheden die is vrijgegeven voor algemene beschikbaarheid.
 
-U kunt een van elk type workload per schaaleenheid toewijzen. 
+Bij magazijnbeheer bieden schaaleenheden de volgende mogelijkheden:
+
+- Het systeem kan geselecteerde wave-methoden verwerken voor verkooporders en vraagaanvulling.
+- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer het werk voor verkoop en aanvulling van het magazijn uitvoeren.
+- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer de voorhanden voorraad opzoeken.
+- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer voorraadbewegingen maken en uitvoeren.
+- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer inkooporders registreren en wegzetwerk doen.
+
+Zie [Workloads voor magazijnbeheer voor cloud- en edgeschaaleenheden](cloud-edge-workload-warehousing.md) voor meer informatie.
 
 ### <a name="dedicated-manufacturing-execution-workload-capabilities-in-a-scale-unit"></a>Toegewezen workloadfuncties voor productie-uitvoering in een schaaleenheid
 
-Voor productie-uitvoering, leveren cloud- en edge-schaaleenheden de volgende mogelijkheden, zelfs wanneer de edge-eenheden niet zijn verbonden met de cloud:
+De eerste release van de productieworkload is momenteel in preview en biedt de volgende mogelijkheden:
 
 - Machineoperators en werkvloersupervisors kunnen toegang krijgen tot het operationele productieplan.
 - Machineoperators kunnen het plan up-to-date houden door afzonderlijke en procesproductietaken uit te voeren.
 - De werkvloersupervisor kan het operationele plan aanpassen.
 - Medewerkers hebben toegang tot tijd en aanwezigheid voor in- en uitklokken op de edge, om de juiste salarisberekening voor medewerkers te garanderen.
 
-Zie de [workload-details van productieschaaleenheid](cloud-edge-workload-manufacturing.md) voor meer informatie.
+Zie [Werkbelasting voor productie-uitvoering voor cloud- en edgeschaaleenheden](cloud-edge-workload-manufacturing.md) voor meer informatie.
 
-### <a name="dedicated-warehouse-management-workload-capabilities-in-a-scale-unit"></a>Toegewezen workloadfuncties voor magazijnbeheer in een schaaleenheid
+## <a name="considerations-before-you-enable-the-distributed-hybrid-topology-for-supply-chain-management"></a>Overwegingen voordat u de gedistribueerde, hybride topologie voor Supply Chain Management inschakelt
 
-Voor magazijnbeheer leveren cloud- en edge-schaaleenheden de volgende mogelijkheden, zelfs wanneer er geen edge-eenheden zijn verbonden met de cloud:
+Door de gedistribueerde, hybride topologie in te schakelen zorgt u ervoor dat de Supply Chain Management-cloudomgeving functioneert als een hub. U kunt ook extra omgevingen koppelen die als schaaleenheden in de cloud of aan de edge zijn geconfigureerd.
 
-- De verwerking van geselecteerde wave-methoden is ingeschakeld voor verkooporders en vraagaanvulling.
-- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer het werk voor verkoop en aanvulling van het magazijn uitvoeren.
-- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer de voorhanden voorraad opzoeken.
-- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer voorraadbewegingen maken en uitvoeren.
-- Magazijnmedewerkers kunnen in de mobiele app Magazijnbeheer inkooporders registreren en wegzetwerk doen.
+### <a name="prerequisites-and-limitations-for-cloud-scale-units"></a><a name="cloud-scale-unit-prerequisites"></a>Vereisten en beperkingen voor cloudschaaleenheden
 
-Zie de [workload-details van magazijnschaaleenheid](cloud-edge-workload-warehousing.md) voor meer informatie.
+In de huidige versie voor schaaleenheden zijn sommige voorzieningen nog niet beschikbaar, maar kunnen ze in incrementele versies over een bepaalde periode worden toegevoegd.
 
-## <a name="onboard-scale-units-for-your-supply-chain-management-environment"></a>Schaaleenheden onboarden voor uw Supply Chain Management-omgeving
+#### <a name="you-must-be-a-licensed-customer-of-supply-chain-management"></a>U moet een gelicentieerde klant zijn van Supply Chain Management
 
-### <a name="deploy-the-preview-for-cloud-and-edge-scale-units"></a>De preview voor cloud- en edge-schaaleenheden implementeren
+Als u wilt werken met de gedistribueerde topologie, moet u beschikken over een licentie voor Supply Chain Management. Uw bestaande cloudomgeving wordt de hub in uw hybride topologie. U kunt sandbox-omgevingen en productieomgevingen declareren als hubomgevingen en u kunt schaaleenheden toevoegen op basis van de invoegtoepassingen die u koopt.
 
-In de volgende afbeelding ziet u de aanmeldings- en inrichtingsstroom voor de openbare preview voor de cloud-schaaleenheden.
+#### <a name="your-existing-project-must-be-administered-via-the-global-commercial-version-of-lcs"></a>Uw bestaande project moet worden beheerd via de algemene commerciële versie van LCS
 
-:::image type="content" source="media/cloud_edge-previewsignup.png" alt-text="Aanmeldingsstappen voor de preview":::
+Het bestaande Microsoft Dynamics LCS-project (Lifecyle Services) moet voldoen aan de volgende versievereisten:
 
-### <a name="select-your-lcs-project-tenant-and-the-detailed-preview-process"></a>Uw LCS-project-tenant selecteren en het gedetailleerde preview-proces
+- Het project moet worden beheerd via de algemene commerciële versie van LCS op [lcs.dynamics.com](https://lcs.dynamics.com).
+- Lokale versies van LCS (zoals [eu.lcs.dynamics.com](https://eu.lcs.dynamics.com) en [fr.lcs.dynamics.com](https://fr.lcs.dynamics.com)) worden niet ondersteund.
+- Overheidscloudversies van LCS worden niet ondersteund.
+- De Mooncake -versie van LCS wordt niet ondersteund.
 
-In de openbare preview toont de [portal voor schaaleenhedenbeheer](https://aka.ms/SCMSUM) de lijst met tenants waarvan uw account deel uitmaakt en waar u eigenaar of een omgevingsbeheerder voor een LCS-project bent.
+#### <a name="your-current-production-environment-must-be-of-the-self-service-type-in-lcs"></a>Uw huidige productieomgeving moet van het type Selfservice in LCS zijn
 
-Als de tenant die u zoekt niet in deze lijst voorkomt, gaat u naar [LCS](https://lcs.dynamics.com/v2) en controleert u of u een omgevingsbeheerder of een projecteigenaar bent van het LCS-project voor die tenant. Alleen Azure Active Directory (Azure AD)-accounts van de geselecteerde tenant zijn geautoriseerd om de aanmeldingservaring te voltooien.
+Uw huidige productieomgeving moet zijn getagd als het type **Selfservice** in LCS. Dit type geeft aan dat de tenant van uw LCS-project al is geconverteerd zodat deze het Azure Service Fabric-hostmodel ondersteunt.
+
+> [!IMPORTANT]
+> Omgevingstypen die worden uitgevoerd als infrastructuur als een service (IaaS) worden niet ondersteund. Deze omgevingen worden meestal getagd met het type **Beheerd door Microsoft** in LCS. Als u omgevingen van dit type hebt, moet u samen met uw Microsoft-contactpersoon de tijdlijn van uw migratie naar het **SelfService-type** afspreken.
+
+Microsoft is bezig met de overgang van alle cloudomgevingen van Supply Chain Management van een IaaS-model naar een topologie die in Service Fabric wordt gehost. Hierdoor is de schaalbaarheid beter en is servicebeheer eenvoudiger. Implementatie- en onderhoudsbewerkingen verlopen daarom sneller. Zo worden serviceonderdelen ook gemigreerd naar het concept van microservices en gaat het servicehostingmodel [over](https://docs.microsoft.com/virtualization/windowscontainers/about/containers-vs-vm) van een VM-model (virtuele machine) naar een lichtgewicht containerarchitectuur.
+
+Uiteindelijk zal dezelfde op Service Fabric gebaseerde service-infrastructuur zowel cloud- als edge-exemplaren van de service ondersteunen, ongeacht of een exemplaar een hub is in de cloud of een schaaleenheid in de cloud of op de edge.
+
+Voordat u gebruik kunt maken van de hybride topologie die schaaleenheden ondersteunt, moet uw projecttenant overstappen naar het door Service Fabric gehoste model. Bovendien moet elke omgeving die als een hub fungeert, worden geconverteerd.
+
+> [!TIP]
+> Als u informatie wilt opvragen over de status van uw LCS-projecttenant, moet u het type omgeving in [LCS](https://lcs.dynamics.com/) opvragen of contact opnemen met uw partner of Microsoft-contactpersoon.
+
+#### <a name="local-business-data-on-premises-environments-arent-supported-as-hubs-for-scale-units"></a>Lokale omgevingen met bedrijfsgegevens (on-premises) worden niet ondersteund als hubs voor schaaleenheden.
+
+On-premises omgevingen kunnen niet worden gebruikt als hubs voor schaaleenheden. Deze omgevingen moeten altijd als cloud worden gehost.
+
+#### <a name="scale-unit-management-capabilities-are-limited"></a>De voorzieningen voor beheer van schaaleenheden zijn beperkt
+
+Beheervoorzieningen die kunnen helpen bij de verplaatsing van werkbelasting zijn beperkt. Sommige beheerbewerkingen worden niet op een selfservice-manier ondersteund en u moet misschien ondersteuning aanvragen via uw partner of Microsoft-contactpersoon. Voorbeelden hiervan zijn workloadverloop tussen schaaleenheden en tijdelijk ad-hocverloop in scenario's.
+
+#### <a name="metrics-and-measurements-arent-yet-available"></a>Metrische gegevens en metingen zijn nog niet beschikbaar
+
+Metrische gegevens en maateenheden die u kunnen helpen de beste toepassing voor de schaaleenheden te selecteren, zijn nog niet beschikbaar. Werk samen met uw Microsoft-contactpersoon of implementatiepartner om de nuttigste toepassing te selecteren.
+
+### <a name="data-processing-during-management-of-scale-units"></a><a name="data-processing-management"></a>Gegevensverwerking tijdens het beheer van schaaleenheden
+
+Wanneer u uw Dynamics 365-omgeving in staat stelt om de gedistribueerde, hybride topologie voor cloud- en edgeschaaleenheden te ondersteunen, worden sommige beheerservices alleen in de Verenigde Staten gehost, zoals voor LCS. Dit gedrag heeft invloed op de overdracht en opslag van bepaalde beheer- en configuratiegegevens die worden gebruikt door de [portal voor schaaleenhedenbeheer](https://sum.dynamics.com). Hieronder volgen een aantal voorbeelden:
+
+- Uw tenant-namen en -id's
+- Uw LCS project-id's
+- E-mailadressen van beheerder en projecteigenaar die voor aanmelding worden gebruikt
+- Omgevings-id's voor de hub en schaaleenheden
+- Workloadconfiguraties, waaronder de namen en fysieke adressen van rechtspersonen en faciliteiten, zodat uw topologie op een geografische kaart kan worden weergegeven
+- Verzamelde metrische gegevens (zoals vertraging en doorvoer) die worden weergegeven op de analysepagina van de kaart om het nuttigste gebruik van uw schaaleenheden te selecteren
+
+Gegevens die worden overgebracht naar en opgeslagen in de Amerikaanse datacentra, worden verwijderd volgens het bewaarbeleid van Microsoft. Uw privacy is belangrijk voor Microsoft. Lees onze [Privacyverklaring](https://go.microsoft.com/fwlink/?LinkId=521839) voor meer informatie.
+
+## <a name="onboarding-in-two-stages"></a>Onboarding in twee fasen
+
+Het onboardingsproces voor de gedistribueerde, hybride topologie heeft twee fasen. Tijdens de eerste fase moet u aanpassingen valideren om ervoor te zorgen dat ze werken in de gedistribueerde topologie met schaaleenheden. Sandbox- en productieomgevingen worden alleen tijdens de tweede fase verplaatst.
+
+### <a name="stage-1-evaluate-customizations-in-one-box-development-environments"></a>Fase 1: Aanpassingen in ontwikkelomgevingen met één vak evalueren
+
+Voordat u uw sandbox- of productieomgevingen gaat opnemen, is het raadzaam om schaaleenheden te onderzoeken in een ontwikkelopstelling, zoals een omgeving met één vak (ook wel een tier-1-omgeving genoemd), zodat u processen, aanpassingen en oplossingen kunt valideren. In deze fase worden gegevens en aanpassingen toegepast op de omgevingen met één vak. Eén omgeving krijgt de rol van de heb en de andere de rol van een schaaleenheid. Deze opzet biedt de beste manier om problemen op te lossen. U kunt ook de nieuwste build voor vroege toegang (PEAP) gebruiken om deze fase te voltooien.
+
+Voor fase 1 moet u de [implementatieprogramma's voor schaaleenheden gebruiken voor ontwikkelomgevingen met één vak](https://github.com/microsoft/SCMScaleUnitDevTools). Met deze hulpprogramma's kunt u hub- en schaaleenheden configureren in een of twee afzonderlijke omgevingen met één vak. De hulpprogramma's worden geleverd als binaire versie en in broncode op GitHub. Bestudeer de project-wiki die een [stapsgewijze gebruikshandleiding](https://github.com/microsoft/SCMScaleUnitDevTools/wiki/Step-by-step-usage-guide) bevat hoe u de hulpmiddelen gebruikt.
+
+### <a name="stage-2-acquire-add-ins-and-deploy-in-your-sandbox-and-production-environments"></a>Fase 2: invoegvoegingen verkrijgen en implementeren in uw sandbox- en productieomgevingen
+
+Als u een van uw sandbox- of productieomgevingen aan de nieuwe topologie wilt toevoegen, moet u invoegtoepassingen voor een of meer cloudschaaleenheden (en in de toekomst voor edgeschaaleenheden) verkrijgen. Via de invoegingtoepassingen worden overeenkomstige project- en omgevingseenheden in [LCS](https://lcs.dynamics.com/) toegekend, zodat de omgevingen van schaaleenheden kunnen worden geïmplementeerd.
+
+> [!NOTE]
+> De invoegtoepassingen voor schaaleenheden zijn niet gekoppeld aan een beperkt aantal gebruikers, maar kunnen door elke gebruiker in het bestaande abonnement worden gebruikt, op basis van de rollen die de beheerder toewijst.
+
+Schaaleenheden worden in meerdere voorraadeenheden (SKU's) en prijsopties aangeboden. Daarom kunt u de optie kiezen die het beste voldoet aan uw geplande maandelijkse transactievolume- en prestatievereisten.
+
+De SKU op invoerniveau staat bekend als *Basic* en de beter presterende SKU wordt *Standard* genoemd. Elke SKU wordt vooraf geladen met een bepaald aantal maandelijkse transacties. U kunt het maandelijkse transactiebudget echter verhogen door invoegingen voor overschrijding toe te voegen voor elke SKU.
+
+:::image type="content" source="media/SKUs-highlevel.png" alt-text="Invoegtoepassingen voor cloudschaaleenheden":::
+
+> [!TIP]
+> Werk samen met uw partner en Microsoft om inzicht te krijgen in de grootte van de maandelijkse transacties die u nodig hebt en die het beste passen bij uw vereisten.
+
+De aankoop van elke invoegtoepassing voor schaaleenheden geeft u niet alleen een maandelijks volume aan transacties, maar zorgt ook voor een specifiek aantal omgevingsslots in LCS. Voor elke invoegtoepassing voor cloudschaaleenheden hebt u recht op één nieuw productieslot en één nieuw sandboxslot. Tijdens de onboarding wordt een nieuw LCS-project toegevoegd met deze slots. De gebruiksrechten voor de de slots zijn zo gebonden dat ze moeten worden gebruikt als schaaleenheden met een cloudhub.
+
+Bij invoegtoepassingen voor overschrijding hebt u geen recht op nieuwe omgevingsslots.
+
+Als u nog meer sandbox-omgevingen wilt aanschaffen, kunt u extra normale sandboxslots aanschaffen. Microsoft kan u dan helpen om deze slots als sandbox-schaaleenheden voor de hybride topologie in te schakelen.
+
+## <a name="onboard-to-the-distributed-hybrid-topology-for-supply-chain-management"></a>Onboarden bij de gedistribueerde hybride topologie voor Supply Chain Management
+
+### <a name="select-your-lcs-project-tenant-and-the-detailed-onboarding-process"></a>Uw LCS-projecttenant selecteren en het gedetailleerde onboardingsproces
+
+Nadat u de onboardingsplanning hebt voltooid voor de gedistribueerde, hybride topologie voor Supply Chain Management, gebruikt u de [portal voor schaaleenhedenbeheer](https://aka.ms/SCMSUM) om het onboardingsproces te starten. In de portal selecteert u het tabblad **Dynamics 365 Tenants**. Dit tabblad toont de lijst met tenants waarvan uw account deel uitmaakt en waar u eigenaar of een omgevingsbeheerder voor een LCS-project bent.
+
+Als de tenant die u zoekt niet in de lijst voorkomt, gaat u naar [LCS](https://lcs.dynamics.com/v2) en controleert u of u een omgevingsbeheerder of een projecteigenaar bent van het LCS-project voor die tenant. Alleen Azure Active Directory (Azure AD)-accounts van de geselecteerde tenant zijn geautoriseerd om de aanmeldingservaring te voltooien.
 
 > [!NOTE]
 > Nadat u wijzigingen hebt toegepast op LCS, kan het tot 30 minuten duren voordat de lijst met tenants de wijzigingen weergeeft.
 
-Voor elke tenant wordt in de lijst de status van de aanmelding weergegeven.
+Voor elke tenant wordt in de lijst de onboardingstatus weergegeven.
 
-:::image type="content" source="media/cloud_edge-Signup1.png" alt-text="Aanmeldingsoptie voor een tenant":::
+:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Lijst met tenants op het tabblad Dynamics 365 Tenants":::
 
-Schakel het selectievakje **Klik hier om u aan te melden** in om uw LCS-tenant te registreren om deel te nemen aan de preview. U moet de voorwaarden accepteren. U moet ook een zakelijk e-mailadres opgeven waar Microsoft berichten met betrekking tot het aanmeldingsproces voor de preview kan verzenden.
+Selecteer **Klik hier om aan de slag te gaan** voor het aanvragen van onboarding voor de LCS-tenant. U moet de voorwaarden accepteren. U moet ook een zakelijk e-mailadres opgeven waar Microsoft berichten met betrekking tot het onboardingsproces kan verzenden.
 
-:::image type="content" source="media/cloud_edge-Signup2.png" alt-text="Aanmelding indienen voor een tenant":::
+:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Aanmelding indienen voor een tenant":::
 
-Microsoft zal uw aanvraag beoordelen en u op de hoogte brengen van de volgende stappen door een e-mailbericht te verzenden naar het adres dat u hebt opgegeven op het aanmeldingsformulier.
+Microsoft zal uw aanvraag beoordelen en u op de hoogte brengen van de volgende stappen door een e-mailbericht te verzenden naar het adres dat u hebt opgegeven in het aanmeldingsformulier. Microsoft werkt nauw samen met u om schaaleenheden in te stellen in de hybride topologie voor uw bedrijfsscenario.
 
-Nadat u toegang hebt gekregen tot het preview-programma, ontvangt u twee promotiecodes voor uw LCS-project. U kunt deze promotiecodes nu gebruiken om twee omgevingen in LCS te implementeren. De omgevingen moeten PEAP-release 10.0.15 of hoger gebruiken. Wanneer u de promotiecodes hebt toegepast, geeft u dit aan Microsoft door (volgens de instructie), zodat we de omgevingen voor de preview-functies kunnen inschakelen. Microsoft laat u weten wanneer deze configuratiestap is voltooid.
-
-U kunt nu schaaleenheden en workloads configureren in uw preview-omgeving.
-
-> [!IMPORTANT]
-> Wanneer u cloud-schaaleenheden configureert, kunt u [alle vereiste stappen uitvoeren in de portal voor schaaleenheid-beheer](#scale-unit-manager-portal).
-<!-- 
-> If want to use edge scale units with your preview deployment, you must do all scale unit configuration in the user interface on the hub as described in [Configure the hub environment for use with edge scale units](cloud-edge-edge-scale-units-lbd.md#configure-the-hub-environment). You can't use Scale Unit Manager portal if you include an edge scale unit. -->
+Nadat de onboarding is voltooid, kunt u de poort gebruiken om schaaleenheden en workloads te configureren.
 
 ### <a name="manage-cloud-scale-units-and-workloads-by-using-the-scale-unit-manager-portal"></a><a name="scale-unit-manager-portal"></a>Cloud-schaaleenheden en workloads beheren via de portal voor schaaleenhedenbeheer
 
@@ -171,21 +197,15 @@ Ga naar de [portal voor schaaleenhedenbeheer](https://aka.ms/SCMSUM) en meld u a
 
 :::image type="content" source="media/cloud_edge-Manage.png" alt-text="Schaaleenheid- en workloadbeheerervaring":::
 
-Selecteer **Schaaleenheden toevoegen** om een of meer schaaleenheden toe te voegen die beschikbaar zijn in uw topologie. In de preview wordt de cloud-schaaleenheid weergegeven die u hebt geïmplementeerd vanuit een van de promotiecodes die u hebt ontvangen als onderdeel van het preview-programma.
+Selecteer **Schaaleenheden toevoegen** om een of meer schaaleenheden toe te voegen die beschikbaar zijn in uw abonnementen.
 
-<!--  [!IMPORTANT]
-> In the public preview, the Scale Unit Manager portal shows the cloud scale unit that you received as part of the preview program. Any edge scale unit that you created based on an LBD configuration can't be managed in the Scale Unit Manager portal yet. For configuration details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md) -->
-
-Op het tabblad **Gedefinieerde workloads** kunt u de knop **Workload maken** gebruiken om een magazijnbeheer- of een productie-uitvoeringsworkload toe te voegen aan een van uw schaaleenheden. Voor elke workload moet u de context opgeven van de processen waarvan de workload de eigenaar is. Voor magazijnbeheerworkloads is de context een specifiek magazijn in een specifieke locatie en rechtspersoon. Voor productie-uitvoeringsworkloads is de context een specifieke locatie in een rechtspersoon.
+Op het tabblad **Gedefinieerde workloads** kunt u de knop **Workload maken** gebruiken om een magazijnbeheerworkload toe te voegen aan een van uw schaaleenheden. Voor elke workload moet u de context opgeven van de processen waarvan de workload de eigenaar is. Voor magazijnbeheerworkloads is de context een specifiek magazijn in een specifieke locatie en rechtspersoon.
 
 :::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Workloads maken":::
 
-> [!IMPORTANT]
-> Met de portal voor schaaleenhedenbeheer in de preview kunt u geen workloads verwijderen uit schaaleenheden of een schaaleenheid van een hub opheffen nadat de toewijzing is gemaakt. Als u een toewijzing moet verwijderen, neemt u contact op met uw contactpersoon voor preview-programmabeheer.
+> [!TIP]
+> Na verloop van tijd worden incrementele verbeteringen toegevoegd aan schaaleenhedenbeheer om de LCS-bewerkingen eenvoudiger te maken. De specifieke mogelijkheden voor de huidige versie worden gedocumenteerd in een handboek voor onboarding dat beschikbaar is voor klanten in het onboardingsproces naar de gedistribueerde, hybride topologie voor Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->
 
-<!-- ### Create an edge scale unit using your custom on-premises hardware appliance
-
-In the public preview, you can create on-premises edge scale units on your custom hardware using the LBD environments. For details, see [Deploy custom edge scale units on custom hardware using LBD](cloud-edge-edge-scale-units-lbd.md). -->
-
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

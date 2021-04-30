@@ -2,7 +2,7 @@
 title: Overzicht van Beheer van bedrijfsdocumenten
 description: Dit onderwerp biedt informatie over het gebruiken van de functie Beheer van bedrijfsdocumenten van het ER-raamwerk.
 author: NickSelin
-ms.date: 12/15/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5589925b7bfba3d9315c3828fd1ec5993a09a59
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01067a253651bbeddcc5f02c8c15c916b25b6684
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749532"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891300"
 ---
 # <a name="business-document-management-overview"></a>Overzicht van Beheer van bedrijfsdocumenten
 
@@ -45,9 +45,9 @@ Als u Beheer van bedrijfsdocumenten wilt gebruiken voor het bewerken van sjablon
 
 ## <a name="business-document-availability"></a>Beschikbaarheid van bedrijfsdocumenten
 
-Een volledige lijst met alle rapporten die zijn gepland voor de release van oktober 2019, vindt u in [Configureerbare rapportage voor bedrijfsdocumenten in Word en Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
+Een volledige lijst met alle rapporten die zijn gepland voor de release van oktober 2019, vindt u in [Configureerbare rapportage voor bedrijfsdocumenten in Word en Excel](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-Een volledige lijst met alle rapporten die zijn gepland voor de release van oktober 2020, vindt u in [Configureerbare bedrijfsdocumenten - Word-sjablonen](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
+Een volledige lijst met alle rapporten die zijn gepland voor de release van oktober 2020, vindt u in [Configureerbare bedrijfsdocumenten - Word-sjablonen](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
 In toekomstige versies komen meer rapporten beschikbaar. Speciale meldingen over aanvullende rapporten worden afzonderlijk verzonden. Zie de sectie [Lijst met ER-configuraties die in Finance zijn vrijgegeven ter ondersteuning van configureerbare bedrijfsdocumenten](#list-of-configurations-cbd) hieronder voor meer informatie over hoe u de lijst met beschikbare rapporten kunt bekijken.
 
@@ -272,7 +272,23 @@ De optie **Sjabloon bewerken** is beschikbaar voor de geselecteerde sjabloon. De
 
 ![De start van het bewerkingsproces bevestigen om een nieuwe sjabloon te maken](./media/BDM-Overview-EditingTemplate4.png)
 
+Als er geen provider is, wordt aangeboden om deze te maken. Als er geen actieve provider is, kunt u deze kiezen voor activering.
+
+Als u een provider wilt maken, wijzigt u de naam van de provider in het veld **Naam**, werkt u het internetadres van de nieuwe provider bij in het veld **Internetadres** en selecteert u **OK** om te bevestigen.
+
+   ![Nieuwe provider maken in BDM](./media/bdm_create_provider.png)
+
+Als u de bestaande provider wilt activeren, kiest u de naam van de provider in het veld **Configuratieprovider** en selecteert u **OK** om de provider als actief in te stellen.
+
+   ![Provider activeren in BDM](./media/bdm_choose_provider.png)
+
+> [!NOTE]
+> Elke BDM-sjabloon verwijst naar de provider als auteur van de configuratie. Daarom is een actieve provider vereist voor de sjabloon.
+
+
 De optie **Nieuw document** is altijd beschikbaar voor een sjabloon in een ER-indelingsconfiguratie die wordt verschaft door de huidige en een andere provider (Microsoft in dit geval) die geen revisie heeft. De bewerkte sjabloon wordt vervolgens opgeslagen in een nieuwe ER-indelingsconfiguratie die automatisch wordt gegenereerd.
+
+
 
 ### <a name="start-editing-a-template"></a>Een sjabloon bewerken
 
@@ -419,7 +435,7 @@ Waarschijnlijk bent u aangemeld bij het huidige exemplaar van de app van het Azu
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>Lijst met ER-configuraties die in Financiën zijn vrijgegeven ter ondersteuning van configureerbare bedrijfsdocumenten
 
-De [lijst](general-electronic-reporting.md#list-of-configurations) met ER-configuraties voor Finance wordt continu bijgewerkt. Open de [Algemene opslagplaats](er-download-configurations-global-repo.md) om de lijst met ER-configuraties te bekijken die momenteel worden ondersteund. U kunt de Algemene opslagplaats [filteren](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo) om de lijst met ER-configuraties te controleren die gebruikt worden om configureerbare bedrijfsdocumenten te ondersteunen.
+De [lijst](general-electronic-reporting.md#list-of-configurations) met ER-configuraties voor Finance wordt continu bijgewerkt. Open de [Algemene opslagplaats](er-download-configurations-global-repo.md) om de lijst met ER-configuraties te bekijken die momenteel worden ondersteund. U kunt de Algemene opslagplaats [filteren](../../../finance/localizations/enhanced-filtering-global-repo.md) om de lijst met ER-configuraties te controleren die gebruikt worden om configureerbare bedrijfsdocumenten te ondersteunen.
 
 ![De inhoud van de algemene opslagplaats op de pagina Opslagplaats van configuratie filteren](./media/bdm-overview-filterglobalrepo.gif)
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d2cbab3177756fbf5df4f07350a6449f0b22e028
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
+ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791942"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857268"
 ---
 # <a name="peripherals"></a>Randapparaten
 
@@ -142,6 +142,9 @@ UWP is, voor de randapparatuur, gerelateerd aan Windows-ondersteuning voor plug 
 ### <a name="keyboard-wedge"></a>Keyboard-wedge
 
 Keyboard-wedge-apparaten verzenden gegevens naar de computer alsof deze gegevens zijn ingevoerd op een toetsenbord. Standaard krijgen dus het veld dat actief is op het POS de gegevens die worden gescand of ingelezen. In sommige gevallen kan dit gedrag kan ertoe leiden dat het verkeerde type gegevens in een veld worden gescand. Een streepjescode kan bijvoorbeeld worden gescand in een veld dat is bedoeld voor het vastleggen van creditcard-gegevens. In veel gevallen bevat het POS logica waarmee wordt bepaald of de gescande of ingelezen gegevens een streepjescode of magneetstrip op een kaart betreffen. Daarmee kunnen de gegevens dan correct worden verwerkt. Wanneer apparaten zijn ingesteld als OPOS in plaats van keyboard-wedge-apparaten, is er echter meer controle over hoe de gegevens van deze apparaten kunnen worden gebruikt, omdat meer 'bekend' is over het apparaat waarvan de gegevens afkomstig zijn. Gegevens uit een streepjescodescanner worden bijvoorbeeld automatisch herkend als een streepjescode en de bijbehorende record wordt gemakkelijker en sneller gevonden in de database, dan wanneer een algemene zoektekenreeks wordt gebruikt zoals bij keyboard-wedge-apparaten.
+
+> [!NOTE]
+> Wanneer toetsenbordscanners worden gebruikt in het POS, moeten ze zo worden geprogrammeerd dat een regelterugloop of een **Enter**-gebeurtenis wordt ingevoerd na het laatste gescande teken. Als deze configuratie niet wordt uitgevoerd, werken toetsenbordscanners niet goed. Raadpleeg de documentatie van de fabrikant bij uw apparaat voor informatie over het toevoegen van de regelterugloop.  
 
 ### <a name="native-printer"></a>Native printer
 

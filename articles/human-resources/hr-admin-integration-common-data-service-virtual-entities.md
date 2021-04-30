@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4d80680f66d8669425482a54066f48af8ebcfbc8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805101"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890047"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Virtuele Dataverse-tabellen configureren
 
@@ -34,7 +34,7 @@ Dynamics 365 Human Resources is een virtuele gegevensbron in Microsoft Dataverse
 Als u bewerkingen voor maken, lezen, bijwerken en verwijderen voor entiteiten van Human Resources wilt inschakelen vanuit Dataverse, moet u de entiteiten beschikbaar maken als virtuele tabellen in Dataverse. Op deze manier kunt u bewerkingen voor maken, lezen, bijwerken en verwijderen uitvoeren vanuit Dataverse en Microsoft Power Platform op gegevens in Human Resources. De bewerkingen ondersteunen ook de validaties van de volledige bedrijfslogica van Human Resources om de gegevensintegriteit te waarborgen bij het schrijven van gegevens naar de entiteiten.
 
 > [!NOTE]
-> Human Resources-entiteiten komen overeen met Dataverse-tabellen. Voor meer informatie over Dataverse (voorheen Common Data Service) en bijgewerkte terminologie, zie [Wat is Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
+> Human Resources-entiteiten komen overeen met Dataverse-tabellen. Voor meer informatie over Dataverse (voorheen Common Data Service) en bijgewerkte terminologie, zie [Wat is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
 
 ## <a name="available-virtual-tables-for-human-resources"></a>Beschikbare virtuele tabellen voor Human Resources
 
@@ -51,7 +51,7 @@ Virtuele tabellen voor Human Resources zijn niet hetzelfde als de native Dataver
 De native tabellen voor Human Resources worden afzonderlijk gegenereerd en onderhouden in de HCM Common-oplossing in Dataverse. Met native tabellen worden de gegevens opgeslagen in Dataverse en is synchronisatie met de Human Resources-toepassingdatabase vereist.
 
 > [!NOTE]
-> Zie [Dataverse-tabellen](https://docs.microsoft.com/dynamics365/human-resources/hr-developer-entities) voor een lijst met de native Dataverse-tabellen voor Human Resources.
+> Zie [Dataverse-tabellen](./hr-developer-entities.md) voor een lijst met de native Dataverse-tabellen voor Human Resources.
 
 ## <a name="setup"></a>Instelling
 
@@ -71,7 +71,7 @@ Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over he
 
 ### <a name="register-the-app-in-microsoft-azure"></a>De app registreren in Microsoft Azure
 
-U moet uw Human Resources-exemplaar registreren in de Azure-portal, zodat het Microsoft-identiteitsplatform verificatie- en machtigingsservices kan bieden voor de app en de gebruikers. Ga voor meer informatie over het registreren van apps in Azure naar [Snelstart: Een toepassing registreren bij het Microsoft-identiteitsplatform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+U moet uw Human Resources-exemplaar registreren in de Azure-portal, zodat het Microsoft-identiteitsplatform verificatie- en machtigingsservices kan bieden voor de app en de gebruikers. Ga voor meer informatie over het registreren van apps in Azure naar [Snelstart: Een toepassing registreren bij het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app).
 
 1. Open de [Microsoft Azure-portal](https://portal.azure.com).
 
@@ -93,7 +93,7 @@ U moet uw Human Resources-exemplaar registreren in de Azure-portal, zodat het Mi
 
 10. Geef een omschrijving op, selecteer een duur en selecteer **Toevoegen**.
 
-11. Leg de waarde van het geheim vast. U voert deze gegevens in wanneer u [de gegevensbron van de virtuele tabel configureert](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
+11. Registreer de waarde van het geheim uit de eigenschap **Waarde** van de tabel. U voert deze gegevens in wanneer u [de gegevensbron van de virtuele tabel configureert](hr-admin-integration-common-data-service-virtual-entities.md#configure-the-virtual-table-data-source).
 
     > [!IMPORTANT]
     > Maak nu een notitie van de waarde van het geheim. Het geheim wordt nooit meer weergegeven nadat u deze pagina hebt verlaten.
@@ -215,12 +215,11 @@ In het uitschuifvenster worden de meest recente uitvoeringsresultaten voor het p
 
 ## <a name="see-also"></a>Zie ook
 
-[Wat is Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)<br>
-[Tabellen in Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/entity-overview)<br>
-[Overzicht van tabelrelaties](https://docs.microsoft.com/powerapps/maker/common-data-service/relationships-overview)<br>
-[Virtuele tabellen maken en bewerken die gegevens uit een externe gegevensbron bevatten](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
-[Wat zijn Power Apps-portals?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
-[Overzicht van het maken van apps in Power Apps](https://docs.microsoft.com/powerapps/maker/)
-
+[Wat is Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)<br>
+[Tabellen in Dataverse](/powerapps/maker/common-data-service/entity-overview)<br>
+[Overzicht van tabelrelaties](/powerapps/maker/common-data-service/relationships-overview)<br>
+[Virtuele tabellen maken en bewerken die gegevens uit een externe gegevensbron bevatten](/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
+[Wat zijn Power Apps-portals?](/powerapps/maker/portals/overview)<br>
+[Overzicht van het maken van apps in Power Apps](/powerapps/maker/)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c5e8f4e7b27cdffe97d73e67d33f023155b60ef0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822752"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890771"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -25,7 +25,7 @@ ms.locfileid: "5822752"
 
 In dit onderwerp worden de reglementaire updates genoemd die zijn gepland en vrijgegeven in door Dynamics 365 Finance ondersteunde lokalisaties. Leveringstijdlijnen kunnen worden gewijzigd en verwachte functionaliteit kan verschillen of niet worden vrijgegeven. Zie [Microsoft-beleid](https://go.microsoft.com/fwlink/p/?linkid=2007332) voor meer informatie. 
 
-Wettelijk voorgeschreven updates zijn functies die worden geïmplementeerd ter ondersteuning van nieuwe of gewijzigde landspecifieke wetgeving. Raadpleeg de [Dynamics 365- en Power Platform-releaseplannen](https://docs.microsoft.com/business-applications-release-notes/index) voor meer informatie over geplande en vrijgegeven landspecifieke functies.
+Wettelijk voorgeschreven updates zijn functies die worden geïmplementeerd ter ondersteuning van nieuwe of gewijzigde landspecifieke wetgeving. Raadpleeg de [Dynamics 365- en Power Platform-releaseplannen](/business-applications-release-notes/index) voor meer informatie over geplande en vrijgegeven landspecifieke functies.
 
 Microsoft streeft ernaar nieuwe wettelijke eisen zo vroeg mogelijk te implementeren. De werkelijke leveringsdatum is afhankelijk van de aankondigingsdatum van de wet, de beschikbaarheid van de vereistedetails van de lokale autoriteiten, de beschikbaarheid van de validatiehulpprogramma's en de grootte en complexiteit van de wijziging.
 

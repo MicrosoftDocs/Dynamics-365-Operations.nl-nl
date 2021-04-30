@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80799b770f0ede9ca1175a44dd738ae635d012c2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 038e741978bce033621bad428321a4b14ac90650
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793820"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889831"
 ---
 # <a name="manage-features-in-human-resources"></a>Functies in Human resources beheren
 
@@ -29,9 +29,9 @@ ms.locfileid: "5793820"
 
 Als onderdeel van onze doorlopende implementatie van nieuwe mogelijkheden voor Microsoft Dynamics 365 Human Resources willen we klanten zo snel mogelijk laten kennismaken met nieuwe functies. We bieden previews-functies die bijna gereed zijn voor algemene beschikbaarheid en die uitgebreid zijn getest. Het enige wat we nog willen doen is een definitieve ronde van feedback van klanten en validatie voordat we de functies algemeen vrijgeven.
 
-Ga voor meer informatie over nieuwe functies in Human Resources naar [Nieuw in Human Resources](hr-admin-whats-new.md) en [Releaseplan voor Dynamics 365 en Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1).
+Ga voor meer informatie over nieuwe functies in Human Resources naar [Nieuw in Human Resources](hr-admin-whats-new.md) en [Releaseplan voor Dynamics 365 en Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products).
 
-Het werkgebied **Functiebeheer** bevat een lijst met functies die in elke versie worden geleverd. Nieuwe functies zijn standaard uitgeschakeld. U kunt het werkgebied gebruiken om deze in te schakelen en de bijbehorende documenten weer te geven. Zie [Overzicht Functiebeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview)voor meer informatie over Functiebeheer.
+Het werkgebied **Functiebeheer** bevat een lijst met functies die in elke versie worden geleverd. Nieuwe functies zijn standaard uitgeschakeld. U kunt het werkgebied gebruiken om deze in te schakelen en de bijbehorende documenten weer te geven. Zie [Overzicht Functiebeheer](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)voor meer informatie over Functiebeheer.
 
 Alle nieuwe functies behouden gedurende minimaal 30 dagen en doorgaans 30-60 dagen de previewstatus. De belangrijkste functies zijn over het algemeen beschikbaar in oktober en april van elk jaar na de previewperiode. Zodra u nieuwe functies in het werkgebied **Functiebeheer** ziet, kunt u deze inschakelen. Sommige functies zijn mogelijk standaard ingeschakeld.
 
@@ -93,6 +93,6 @@ Let op: vermeld geen persoonlijke gegevens (gegevens die uw identiteit vrijgeven
 ## <a name="see-also"></a>Zie ook
 
 - [Nieuw in Human Resources](hr-admin-whats-new.md)
-- [Releaseplan voor Dynamics 365 en Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
+- [Releaseplan voor Dynamics 365 en Power Platform](/dynamics365/release-plans/?panel=products1#pivot=products)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

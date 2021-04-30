@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ca8868069fca4453efbb76694702a554da6d7aa6
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791528"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892270"
 ---
 # <a name="update-process"></a>Het updateproces
 
@@ -39,7 +39,7 @@ Er worden regelmatig updates uitgebracht voor alle omgevingen. Human Resources w
 
 Human Resources-updates worden automatisch op alle omgevingen toegepast. Human Resources biedt twee typen releases:
 
-- **Service-updates**: tweewekelijkse updates die correcties en nieuwe functies bevatten. Service-updates bevatten ook toepasselijke platformupdates wanneer ze worden uitgebracht. Zie [Tabel 3: platform-releases](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases) om na te gaan wanneer platform-updates gewoonlijk worden uitgebracht. Tweewekelijkse updates bieden een gefaseerde globale implementatie tussen regio's. Zie [Nieuwe of gewijzigde functies in Dynamics 365 Human Resources](hr-admin-whats-new.md) voor meer informatie over tweewekelijkse updates.
+- **Service-updates**: tweewekelijkse updates die correcties en nieuwe functies bevatten. Service-updates bevatten ook toepasselijke platformupdates wanneer ze worden uitgebracht. Zie [Tabel 3: platform-releases](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases) om na te gaan wanneer platform-updates gewoonlijk worden uitgebracht. Tweewekelijkse updates bieden een gefaseerde globale implementatie tussen regio's. Zie [Nieuwe of gewijzigde functies in Dynamics 365 Human Resources](hr-admin-whats-new.md) voor meer informatie over tweewekelijkse updates.
 
     Alle ondersteunde gegevenscentra worden tweewekelijks bijgewerkt, tenzij anders aangegeven. In de volgende regio's worden tweewekelijkse updates uitgebracht: Verenigde Staten, Australië, Europa, Groot-Brittannië, Azië en Canada. 
 
@@ -71,11 +71,11 @@ Op de volgende locaties kunt u nagaan wat er is gepland voor Human Resources en 
 
 - [Dynamics 365 Human Resources-roadmap](https://dynamics.microsoft.com/roadmap/human-resources/)
 
-- [Dynamics 365-releaseplannen](https://docs.microsoft.com/dynamics365/release-plans/)
+- [Dynamics 365-releaseplannen](/dynamics365/release-plans/)
 
 - [Nieuwe of gewijzigde functies in Dynamics 365 Human Resources](hr-admin-whats-new.md)
 
-- [Problemen zoeken in Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs) (alleen voor fouten die betrekking hebben op platforms)
+- [Problemen zoeken in Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs.md) (alleen voor fouten die betrekking hebben op platforms)
 
 - [Human resources-blog](https://community.dynamics.com/365/talent/b/dynamics365fortalent)
 
@@ -83,7 +83,7 @@ Op de volgende locaties kunt u nagaan wat er is gepland voor Human Resources en 
 
 ## <a name="preview-features-in-a-sandbox-environment"></a>Preview-functies in een sandbox-omgeving
 
-U kunt preview-functies in een sandbox-omgeving valideren voordat u deze in uw productie-omgeving inschakelt. Zie [Overzicht van functiebeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) voor meer informatie over het inschakelen van nieuwe functies.
+U kunt preview-functies in een sandbox-omgeving valideren voordat u deze in uw productie-omgeving inschakelt. Zie [Overzicht van functiebeheer](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voor meer informatie over het inschakelen van nieuwe functies.
 
 Alle nieuwe functies behouden gedurende minimaal 30 dagen en doorgaans 30-60 dagen de previewstatus. De belangrijkste functies zijn over het algemeen beschikbaar in oktober en april van elk jaar na de previewperiode. Zodra u nieuwe functies in het werkgebied Functiebeheer ziet, kunt u deze inschakelen. Sommige functies zijn mogelijk standaard ingeschakeld.
 
@@ -101,9 +101,9 @@ Tijdens het testen van preview-functies of het uitproberen van nieuwe mogelijkhe
 
 ## <a name="see-also"></a>Zie ook
 
-[Releaseplannen voor Dynamics 365 en Power Platform](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Releaseplannen voor Dynamics 365 en Power Platform](/dynamics365/release-plans)</br>
 [Nieuwe of gewijzigde functies in Dynamics 365 Human Resource](hr-admin-whats-new.md)</br>
-[Lifecycle-beleid voor software](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Lifecycle-beleid voor software](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md)
 
 
 

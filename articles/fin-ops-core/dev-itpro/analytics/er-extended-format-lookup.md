@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ff00b577428c96804af5af29a91c7048bf736400
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 62bc6587ad80fd318038f5dfc5ff68821b2a65cd
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753331"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893927"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Gebruikers toestaan om een ER-indelingsverwijzing in te stellen die informatie opvraagt uit de algemene opslagplaats
 
@@ -30,7 +30,7 @@ U kunt het ER-raamwerk ([elektronische rapportage](general-electronic-reporting.
 
 Gewoonlijk moet u opgeven welke ER-indeling in een bepaald bedrijfsproces moet worden gebruikt. Selecteer hiervoor één ER-indeling in een opzoekveld dat is geconfigureerd als onderdeel van specifieke parameters voor het bedrijfsproces. Deze opzoekvelden worden meestal geïmplementeerd met behulp van de toepasselijke API van het ER-raamwerk. Zie [ER-raamwerk-API: code om een zoekactie voor indelingstoewijzing weer te geven](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
-Wanneer u bijvoorbeeld [parameters voor de buitenlandse handel](https://docs.microsoft.com/dynamics365/finance/localizations/emea-intrastat#set-up-foreign-trade-parameters) configureert, moet u de verwijzingen naar afzonderlijke ER-indelingen instellen die worden gebruikt om de Intrastat-aangifte en het controlerapport Intrastat-aangifte te genereren. In de screenshots hieronder ziet u hoe het opzoekveld voor ER-indelingen eruitziet op de pagina **Parameters buitenlandse handel**.
+Wanneer u bijvoorbeeld [parameters voor de buitenlandse handel](../../../finance/localizations/emea-intrastat.md#set-up-foreign-trade-parameters) configureert, moet u de verwijzingen naar afzonderlijke ER-indelingen instellen die worden gebruikt om de Intrastat-aangifte en het controlerapport Intrastat-aangifte te genereren. In de screenshots hieronder ziet u hoe het opzoekveld voor ER-indelingen eruitziet op de pagina **Parameters buitenlandse handel**.
 
 Dit opzoekveld is leeg als het huidige Finance-exemplaar geen aan het Intrastat-bedrijfsproces gerelateerde ER-indelingen bevat.
 

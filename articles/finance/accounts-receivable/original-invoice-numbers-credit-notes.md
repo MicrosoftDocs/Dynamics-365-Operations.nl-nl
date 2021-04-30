@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ce06a0ce4f2a308e1917ac2c7cbc66f0494a2ec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811505"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897327"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Verwijzingen naar oorspronkelijke facturen in creditnota's
 
@@ -30,7 +30,7 @@ In sommige landen en regio's is er een wettelijke vereiste dat afgedrukte credit
 
 ## <a name="prerequisites"></a>Vereisten
 
-- Schakel in de werkruimte **Functiebeheer** de functie **Creditfactuurindeling voor verkoop- en projectfactuurrapporten** in. Zie [Overzicht van functiebeheer](../../fin-and-ops/get-started/feature-management/feature-management-overview.md) voor meer informatie.
+- Schakel in de werkruimte **Functiebeheer** de functie **Creditfactuurindeling voor verkoop- en projectfactuurrapporten** in. Zie [Overzicht van functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voor meer informatie.
 - De afdrukbare indelingen van de vereiste documenten moeten in Afdrukbeheer worden geconfigureerd.
 
 De functionaliteit die in dit onderwerp wordt beschreven, is van toepassing op de volgende documenten:

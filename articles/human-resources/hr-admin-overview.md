@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3eb5d686ff6edf11cdbde6c4799a99815719da71
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a5f6ff75667f79894fce09b4fafeeaf31eea31e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801138"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889759"
 ---
 # <a name="administration-overview"></a>Beheer - overzicht
 
@@ -46,10 +46,10 @@ Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365
   - [Integratie met Dayforce configureren](hr-admin-integration-dayforce.md)
   - [Een app voor het exporteren van terugkerende gegevens maken](hr-admin-integration-recurring-data-export.md)
   - Integreren met Office
-    - [Zelfstudie voor Office-integratie](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Entiteitsgegevens bijwerken in Excel](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Ervaringen met Openen in Excel maken](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [Problemen met Office-integratie oplossen](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [Zelfstudie voor Office-integratie](../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Entiteitsgegevens bijwerken in Excel](../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Ervaringen met Openen in Excel maken](../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
+    - [Problemen met Office-integratie oplossen](../fin-ops-core/dev-itpro/office-integration/office-integration-troubleshooting.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json)
 
 - [Functies beheren](hr-admin-manage-features.md)
 
@@ -84,7 +84,7 @@ Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365
   - [Documentatie of training maken met Taakrecorder](../fin-ops-core/dev-itpro/user-interface/task-recorder-training-docs.md?toc=/dynamics365/human-resources/toc.json)
 
 - Problemen met Human Resources oplossen
-  - [Ondersteuning](hr-admin-troubleshooting-support.md)
+  - [Ondersteuning](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md)
   - [Prestaties optimaliseren met automatische opschoningstaken](hr-admin-troubleshooting-batch-history.md)
   - [Analytische rapporten worden niet bijgewerkt](hr-admin-troubleshooting-analytic-reports.md)
   - [Kan geen omgeving maken in het Power Apps-beheercentrum](hr-admin-troubleshooting-power-apps.md)

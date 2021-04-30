@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 94665b3646456b689a8e65e94b098e86e467d5e3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86e20b9e60e890833c0eb8573e92c0fbb27f8c9a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813070"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908414"
 ---
 # <a name="monitor-and-manage-iot-intelligence"></a>IoT-intelligentie controleren en beheren
 
@@ -56,9 +56,9 @@ Wanneer een scenario wordt uitgevoerd, zijn de volgende wijzigingen niet toegest
 
 U kunt de signalen van fabrieksmachines simuleren. Voor meer informatie wordt verwezen naar deze onderwerpen.
 
-+ [IoT DevKit AZ3166 verbinden met Azure IoT-hub](https://docs.microsoft.com/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
-+ [Raspberry Pi online simulator verbinden met Azure IoT-hub (Node.js)](https://docs.microsoft.com/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
-+ [Overzicht van oplossingsversneller voor apparaatsimulatie](https://docs.microsoft.com/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
++ [IoT DevKit AZ3166 verbinden met Azure IoT-hub](/azure/iot-hub/iot-hub-arduino-iot-devkit-az3166-get-started)
++ [Raspberry Pi online simulator verbinden met Azure IoT-hub (Node.js)](/azure/iot-hub/iot-hub-raspberry-pi-web-simulator-get-started)
++ [Overzicht van oplossingsversneller voor apparaatsimulatie](/azure/iot-accelerators/iot-accelerators-device-simulation-overview)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

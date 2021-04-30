@@ -2,7 +2,7 @@
 title: Video's
 description: Op deze pagina worden door Microsoft gemaakte procedures en Tech Talk-video's met betrekking tot Finance and Operations-apps weergegeven die beschikbaar zijn op YouTube en andere sites.
 author: sericks007
-ms.date: 02/11/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: eae8e95d39a5b9ade24e7fe9c9407d29e67a8727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fc34f1691447b9c34e1572229f9c545913039626
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754699"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881731"
 ---
 # <a name="videos"></a>Video's 
 
@@ -84,6 +84,9 @@ Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/U
 
 ## <a name="videos-for-dynamics-365-finance"></a>Video's voor Dynamics 365 Finance
 
+### <a name="business-document-management"></a>Beheer van bedrijfsdocumenten
+- [Een nieuw bedrijfsdocument maken met Beheer van bedrijfsdocumenten](https://www.youtube.com/watch?v=gAIYl-mM_pw)
+
 ### <a name="customize-the-app"></a>De app aanpassen
 - [Aangepaste velden toevoegen](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
 - [Power Apps insluiten](https://www.youtube.com/watch?v=x3qyA1bH-NY)
@@ -106,12 +109,15 @@ Op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/U
 ### <a name="revenue-recognition"></a>Opbrengsttoerekening
 - [Opbrengsttoerekening gebruiken](https://youtu.be/v3amIsiqvoo)
 
-### <a name="tax-engine"></a>Belastingberekenfunctie
+### <a name="tax-engine"></a>Belastingengine
 
-- [Overzicht van Belastingberekenfunctie](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
+- [Overzicht van belastingengine](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 
 ## <a name="videos-for-dynamics-365-supply-chain-management"></a>Video's voor Dynamics 365 Supply Chain Management
+
+### <a name="business-document-management"></a>Beheer van bedrijfsdocumenten
+- [Een nieuw bedrijfsdocument maken met Beheer van bedrijfsdocumenten](https://www.youtube.com/watch?v=gAIYl-mM_pw)
 
 ### <a name="costs"></a>Kosten
 - [Het mobiele werkgebied Kostenbeheer](https://youtu.be/imsuTg8rUVk)

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 22a372ad4bfcae4a1d66635921a680cdb04cc2f0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1231c942e2ab3dd6b48655ac8c6e24c87165c009
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840841"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908538"
 ---
 # <a name="manage-vendor-collaboration-users"></a>Gebruikers van leverancierssamenwerking beheren
 
@@ -62,7 +62,7 @@ Voordat u een aanvraag voor de inrichting van een nieuwe gebruiker kunt indienen
 4. Schakel in het gedeelte **Gebruikersrollen toewijzen** het selectievakje **Toewijzen** in voor de beveiligingsrollen die de nieuwe gebruiker moet hebben.
 5. Klik op **Aanbieden**.
 
-Wanneer de leveranciersgebruikersaanvraag wordt ingediend, wordt het veld **Toegang tot leverancierssamenwerking toegestaan** ingesteld op **Ja** voor de geselecteerde leveranciersrekening en wordt er een gebruikersaanvraagworkflow gestart. Als onderdeel van de werkstroom wordt een nieuwe gebruiker gemaakt en worden er beveiligingsrollen toegewezen. Daarnaast wordt een Azure B2B-service geactiveerd die interactie met de Azure-portal initieert en een nieuwe of bestaande AAD-account koppelt aan de Supply Chain Management-gebruikersaccount. Zie voor meer informatie Wat is [Azure Azure AD B2B-samenwerking?](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Wanneer de leveranciersgebruikersaanvraag wordt ingediend, wordt het veld **Toegang tot leverancierssamenwerking toegestaan** ingesteld op **Ja** voor de geselecteerde leveranciersrekening en wordt er een gebruikersaanvraagworkflow gestart. Als onderdeel van de werkstroom wordt een nieuwe gebruiker gemaakt en worden er beveiligingsrollen toegewezen. Daarnaast wordt een Azure B2B-service geactiveerd die interactie met de Azure-portal initieert en een nieuwe of bestaande AAD-account koppelt aan de Supply Chain Management-gebruikersaccount. Zie voor meer informatie Wat is [Azure Azure AD B2B-samenwerking?](/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Een gebruiker inactief maken
 

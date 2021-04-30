@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2335721cfe8fd7ff3f76e3c7ca2560a56d45d583
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ecf6ef7b7f052ebbb1201dcd04a7431f5b72ce5
+ms.sourcegitcommit: b64c52d85aa6f110f3b1959a5521637dd8631b5b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818675"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867442"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>Een gegevensintegratorproject maken (preview)
 
@@ -59,6 +59,7 @@ In dit onderwerp wordt uitgelegd hoe u een gegevensintegratorproject maakt.
     1. Maak gegevensintegratieprojecten voor de volgende sjablonen met de verbindingsset die u zojuist hebt gemaakt:
 
         - Resultaten van inzichten voor klantbetalingen (CDS naar Fin and OPS)
+            - Als u versie 10.0.17 of hoger gebruikt, moet u de sjabloon gebruiken met de naam Inzichten in klantbetalingen (CDS naar Fin en Ops 10.0.17+).
         - Resultaten van cashflowtijdreeksen (CDS naar Fin and Ops)
         - Resultaten van budgettijdreeksen (CDS naar Fin and OPS)
 

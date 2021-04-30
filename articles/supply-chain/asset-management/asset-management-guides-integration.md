@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 4af14a66c839ccee02008057ad1de8ef5b9d291b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813912"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908562"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Dynamics 365 Supply Chain Management (Asset Management) integreren met Dynamics 365 Guides
 
@@ -30,12 +30,12 @@ Voordat u guides kunt koppelen aan werkorders voor Asset Management, moet u de v
 - [Dynamics 365 Supply Chain Management](../../fin-ops-core/fin-ops/index.md) versie 10.0.9 of later installeren.
 - [Twee keer wegschrijven inschakelen voor Supply Chain Management-apps](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md).
 - [Flight inschakelen](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#features-flighted-in-data-management-and-enabling-flighted-features) voor de functie **MRGuidesFeature**. (Voor productieomgevingen moet u eerst een ondersteuningsticket indienen om uw tenant aan de flightinggroep toe te voegen.)
-- [Schakel de volgende configuratiesleutels](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) in op de pagina **Licentieconfiguratie**:
+- [Schakel de volgende configuratiesleutels](/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) in op de pagina **Licentieconfiguratie**:
 
     - Asset Management \> Asset Management mixed reality
     - Mixed reality \> Mixed reality-guide
 
-- [Dynamics 365 Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) versie 200.0.0.96 of later installeren.
+- [Dynamics 365 Guides](/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) versie 200.0.0.96 of later installeren.
 
 ## <a name="use-dynamics-365-guides-with-asset-management"></a>Dynamics 365 Guides gebruiken met Asset Management
 
@@ -47,8 +47,8 @@ Voer de volgende stappen uit om een guide aan een sjabloon voor onderhoudscontro
 
 1. Maak een guide met de apps Dynamics 365 Guides voor pc en HoloLens. De volgende onderwerpen bevatten informatie over het maken van guides:
 
-    - [De pc-app gebruiken om een guide te maken](https://docs.microsoft.com/dynamics365/mixed-reality/guides/pc-app-overview)
-    - [De HoloLens-app gebruiken om uw hologrammen te plaatsen](https://docs.microsoft.com/dynamics365/mixed-reality/guides/hololens-app-overview)
+    - [De pc-app gebruiken om een guide te maken](/dynamics365/mixed-reality/guides/pc-app-overview)
+    - [De HoloLens-app gebruiken om uw hologrammen te plaatsen](/dynamics365/mixed-reality/guides/hololens-app-overview)
 
 1. Maak in Supply Chain Management [een sjabloon voor onderhoudscontrolelijsten](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-checklist-template).
 1. Koppel de guide die u hebt gemaakt aan een regel voor de onderhoudscontrolelijst in de nieuwe sjabloon voor onderhoudscontrolelijsten:

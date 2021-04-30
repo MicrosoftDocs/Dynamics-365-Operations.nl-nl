@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f2f40bec79c0b5ce26882e1146c1751b9b6eee01
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753307"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893903"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 
@@ -159,7 +159,7 @@ Voor een enkel onderdeel **Werkblad** kunt u verschillende onderdelen **Voetteks
 
 Voeg onder het onderdeel **Voettekst** de vereiste geneste onderdelen van de **Tekst\\Tekenreeks**, **Tekst\\Datum/tijd** of een ander type toe. Configureer de bindingen voor deze onderdelen om op te geven hoe de voettekst van uw pagina wordt ingevuld.
 
-U kunt ook speciale [opmaakcodes](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) gebruiken om de inhoud van een gegenereerde voettekst correct op te maken. Volg de stappen in [Voorbeeld 1](#example-1), verderop in dit onderwerp, om te weten te komen hoe u deze methode moet gebruiken.
+U kunt ook speciale [opmaakcodes](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) gebruiken om de inhoud van een gegenereerde voettekst correct op te maken. Volg de stappen in [Voorbeeld 1](#example-1), verderop in dit onderwerp, om te weten te komen hoe u deze methode moet gebruiken.
 
 > [!NOTE]
 > Wanneer u ER-indelingen configureert, moet u rekening houden met de Excel-[limiet](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) en het maximale aantal tekens voor een enkele kop- of voettekst.

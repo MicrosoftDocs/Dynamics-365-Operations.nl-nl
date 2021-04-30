@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60ebe19d53e87e385af8e32c32b9c0cc43291eba
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 403cd616faef2f856c21a771d46607c41987f0bb
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832869"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897523"
 ---
 # <a name="general-ledger-home-page"></a>Startpagina Grootboek
 
@@ -52,7 +52,7 @@ Bovendien moeten de regels periodiek worden bijgewerkt wanneer de belastingdiens
 
 #### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 
-Ga naar de [releaseplannen voor Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland. 
+Ga naar de [releaseplannen voor Microsoft Dynamics 365](/dynamics365/release-plans/) om te zien welke nieuwe functies er zijn gepland. 
 
 #### <a name="financial-reporting"></a>Financiële rapportage
 Ga naar het onderwerp [Overzicht van Financial Reporting](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md) voor informatie over financiële rapporten.
