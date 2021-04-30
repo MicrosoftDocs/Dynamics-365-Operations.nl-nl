@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 599f9728019cd6bc59c59a4f08df06c6c9c9ac31
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f70e377d6844b5c4f9201f0a561ad9cfcab2eda1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798412"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890120"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Integratie-API voor sollicitantenvolgsysteem - Inleiding
 
@@ -45,21 +45,21 @@ Deze API is gebouwd op Microsoft Dataverse (voorheen Common Data Service). Alle 
 
 Voor meer algemene informatie over de Microsoft Dataverse web-API, zie:
 
-- [Wat is Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)
-- [De Microsoft Dataverse web-API gebruiken](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)
-- [Microsoft Dataverse ontwikkelaarshandleiding](https://docs.microsoft.com/powerapps/developer/data-platform)
+- [Wat is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)
+- [De Microsoft Dataverse web-API gebruiken](/powerapps/developer/data-platform/webapi/overview)
+- [Microsoft Dataverse ontwikkelaarshandleiding](/powerapps/developer/data-platform)
 
-De bovenstaande documentatie bevat gedetailleerde informatie en richtlijnen voor ontwikkelaars voor het gebruik van de Dataverse web-API, zoals [verificatie beheren](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/authenticate-web-api), [bewerkingen uitvoeren](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/perform-operations-web-api), [Postman gebruiken met de API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/use-postman-web-api) en [wijzigingen bijhouden of deltatokens gebruiken](https://docs.microsoft.com/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) met de API.
+De bovenstaande documentatie bevat gedetailleerde informatie en richtlijnen voor ontwikkelaars voor het gebruik van de Dataverse web-API, zoals [verificatie beheren](/powerapps/developer/data-platform/webapi/authenticate-web-api), [bewerkingen uitvoeren](/powerapps/developer/data-platform/webapi/perform-operations-web-api), [Postman gebruiken met de API](/powerapps/developer/data-platform/webapi/use-postman-web-api) en [wijzigingen bijhouden of deltatokens gebruiken](/powerapps/developer/data-platform/use-change-tracking-synchronize-data-external-systems) met de API.
 
 ### <a name="option-sets"></a>Optiesets
 
-Het gegevensmodel voor de API voor ATS-integratie die in dit document wordt beschreven, bevat optiesets die opgesomde waarden bevatten die aan entiteitseigenschappen zijn gekoppeld. Zie [Optiesets maken en bijwerken met de web-API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets) voor gedetailleerde informatie over het werken met optiesets in de Dataverse web-API. Voor elke Dataverse-omgeving worden optiesets gedefinieerd.
+Het gegevensmodel voor de API voor ATS-integratie die in dit document wordt beschreven, bevat optiesets die opgesomde waarden bevatten die aan entiteitseigenschappen zijn gekoppeld. Zie [Optiesets maken en bijwerken met de web-API](/powerapps/developer/data-platform/webapi/create-update-optionsets) voor gedetailleerde informatie over het werken met optiesets in de Dataverse web-API. Voor elke Dataverse-omgeving worden optiesets gedefinieerd.
 
 ### <a name="virtual-tables-for-human-resources-in-dataverse"></a>Virtuele tabellen in Dataverse voor Human Resources
 
 De eindpunten voor de API voor ATS-integratie maken gebruik van de mogelijkheden van het virtuele tabelplatform van Microsoft Dataverse. Standaard worden de virtuele tabellen en de bijbehorende API-eindpunten niet geïmplementeerd voor Human Resources-omgevingen, waardoor organisaties kunnen bepalen welke OData-eindpunten beschikbaar worden voor de omgeving. Als u de API wilt gebruiken, moeten de virtuele tabellen voor de Human Resources-entiteiten worden gegenereerd voor de omgeving. 
 
-Zie [Dataverse virtuele tabellen configureren](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities) voor informatie over het genereren van de virtuele tabellen voor de API.
+Zie [Dataverse virtuele tabellen configureren](./hr-admin-integration-common-data-service-virtual-entities.md) voor informatie over het genereren van de virtuele tabellen voor de API.
 
 ## <a name="data-model"></a>Gegevensmodel
 
@@ -134,8 +134,8 @@ Optiesets:
 ## <a name="see-also"></a>Zie ook
 
 [Kandidaten werven](hr-personnel-recruit.md)<br>
-[Wat is Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro)<br>
-[De Microsoft Dataverse web-API gebruiken](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/overview)<br>
-[Optiesets maken en bijwerken met de web-API](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
+[Wat is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
+[De Microsoft Dataverse web-API gebruiken](/powerapps/developer/data-platform/webapi/overview)<br>
+[Optiesets maken en bijwerken met de web-API](/powerapps/developer/data-platform/webapi/create-update-optionsets)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 7d5768a6cb2b3623333fab93a42ac5840e87ec68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ddfc0670a5fca24d996e9ab605e267f9f3f26f19
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818605"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897883"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>Externe gegevens in cashflowprognoses gebruiken (preview)
 
@@ -33,7 +33,7 @@ Externe gegevens kunnen worden ingevoerd of geïmporteerd in cashflowprognoses. 
 
 Gebruik het tabblad **Externe bron** op de pagina **Instelling van cashflowprognose** (**Contanten en bankbeheer \> Cashflowprognose**) om instellingen op te geven die het gebruik van externe gegevens in cashflowprognoses ondersteunen.
 
-Zie voor meer informatie over het instellen [Cashflowprognose](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting).
+Zie voor meer informatie over het instellen [Cashflowprognose](../cash-bank-management/cash-flow-forecasting.md).
 
 Als u externe gegevens wilt invoeren voor cashflowprognoses, kunt u de ervaring Openen in Excel gebruiken voor het invoeren en wijzigen van externe gegevens. Selecteer de knop **Externe gegevens** en selecteer vervolgens **Externe gegevens toevoegen** of **Bestaande externe gegevens bewerken**. Wanneer het Microsoft Excel-bestand wordt geopend, kunt u informatie invoeren in de volgende velden:
 

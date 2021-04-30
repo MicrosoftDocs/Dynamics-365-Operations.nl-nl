@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b6393fe8679981c9d512a4d0f654391ba9d85452
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9bec501fdc1736d044585609e21b5bb47b8d6879
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794776"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893120"
 ---
 # <a name="overview"></a>Overzicht
 
@@ -33,7 +33,7 @@ De gebruikershandleiding voor Dynamics 365 Human Resources bevat instructies ove
 
 [Parameters voor Human Resources configureren](hr-setup-parameters.md)</br>
 [Gedeelde Human Resources-parameters onderhouden](hr-setup-shared-parameters.md)</br>
-[Werkstromen voor Human Resources instellen](hr-setup-workflows.md)</br>
+[Werkstromen voor Human Resources instellen](./hr-workflow-manage-employee-information.md)</br>
 [Datum- en tijdvelden begrijpen](hr-setup-date-time-fields.md)</br>
 
 ## <a name="configure-organization-settings"></a>Organisatie-instellingen configureren

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fa6a57266838fff4c34384337200fc6f24cbe640
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b66fd7c0ca79f21ff51beee22e4fc57c37a1904
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821172"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909592"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.11 (juli 2020)
 
@@ -33,19 +33,19 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-Deze versie bevat de volgende functies. De functietitels verwijzen naar extra informatie op de site [Release plans](https://docs.microsoft.com/dynamics365/release-plans/). Extra koppelingen verwijzen naar extra documentatie of video's die momenteel beschikbaar zijn voor die functie. De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
+Deze versie bevat de volgende functies. De functietitels verwijzen naar extra informatie op de site [Release plans](/dynamics365/release-plans/). Extra koppelingen verwijzen naar extra documentatie of video's die momenteel beschikbaar zijn voor die functie. De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 
-- [Opslag voor rapporten voorhanden voorraad](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
+- [Opslag voor rapporten voorhanden voorraad](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
 
-- [Verbeteringen voor nummerplaat ontvangen voor de mobiele magazijnapp](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Zie voor meer informatie [Nummerplaat ontvangen via de mobiele app Magazijnbeheer](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Verbeteringen voor nummerplaat ontvangen voor de mobiele magazijnapp](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Zie voor meer informatie [Nummerplaat ontvangen via de mobiele app Magazijnbeheer](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Verbeteringen voor regelreserveringen voor het formulier batchnummerreservering](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Zie voor meer informatie [Dezelfde batch reserveren voor een verkooporder](../sales-marketing/reserve-same-batch-sales-order.md).
+- [Verbeteringen voor regelreserveringen voor het formulier batchnummerreservering](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Zie voor meer informatie [Dezelfde batch reserveren voor een verkooporder](../sales-marketing/reserve-same-batch-sales-order.md).
 
-- [Nieuwe gegevensentiteiten voor het productiegebied](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+- [Nieuwe gegevensentiteiten voor het productiegebied](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 
-- [Te grote ontvangst van laadhoeveelheden](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Zie voor meer informatie [Magazijnverwerking van inkomende ladingen voor inkooporders](../warehousing/inbound-load-handling.md).
+- [Te grote ontvangst van laadhoeveelheden](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Zie voor meer informatie [Magazijnverwerking van inkomende ladingen voor inkooporders](../warehousing/inbound-load-handling.md).
 
-- [Gereedmelden voor batchnummers van apparaat voor taakkaarten](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Zie voor meer informatie [Gereedmelden vanaf het taakkaartapparaat](../production-control/report-finished-job-device.md).
+- [Gereedmelden voor batchnummers van apparaat voor taakkaarten](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Zie voor meer informatie [Gereedmelden vanaf het taakkaartapparaat](../production-control/report-finished-job-device.md).
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
@@ -61,7 +61,7 @@ Voor informatie over de correcties die zijn opgenomen in alle updates die deel u
 
 Bent u benieuwd naar de komende en onlangs uitgebrachte voorzieningen in een van onze bedrijfsapps of platforms?
 
-Bekijk [Dynamics 365: releasewave 1-plan van 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). We hebben alle details in één document verzameld die u kunt gebruiken voor uw planning.
+Bekijk [Dynamics 365: releasewave 1-plan van 2020](/dynamics365-release-plan/2020wave1/index). We hebben alle details in één document verzameld die u kunt gebruiken voor uw planning.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Verwijderde en afgeschafte functies voor Supply Chain Management
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce180c28be2cea1115937b1b1fbdf2323903e4ad
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 953f477e7e00cde7f814ff28d3dfd8ed7075dafc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743372"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893221"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Financiële prestatieoplossing PowerBI.com
 
@@ -85,7 +85,7 @@ De volgende entiteiten zijn gebruikt als basis voor de **financiële prestatie**
 - Ledgers
 - ChartofAccounts
 
-Deze entiteiten zijn gebruikt om berekende eenheden in het gegevensmodel te maken. De berekende eenheden worden vervolgens gebruikt om de Key Performance Indicators (KPI's) en rapporten te berekenen, die in de inhoud worden gebruikt. Standaard levert de inhoud gegevens voor drie voorafgaande jaren en één jaar in de toekomst. Om extra berekeningen op te nemen in uw rapporten en dashboard, kunt u de [Microsoft Excel-werkmap wijzigen](https://docs.microsoft.com/dynamics/s-e/). Deze werkmap is het standaardgegevensmodel, dat is gebruikt om de inhoud te maken.
+Deze entiteiten zijn gebruikt om berekende eenheden in het gegevensmodel te maken. De berekende eenheden worden vervolgens gebruikt om de Key Performance Indicators (KPI's) en rapporten te berekenen, die in de inhoud worden gebruikt. Standaard levert de inhoud gegevens voor drie voorafgaande jaren en één jaar in de toekomst. Om extra berekeningen op te nemen in uw rapporten en dashboard, kunt u de [Microsoft Excel-werkmap wijzigen](/dynamics/s-e/). Deze werkmap is het standaardgegevensmodel, dat is gebruikt om de inhoud te maken.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

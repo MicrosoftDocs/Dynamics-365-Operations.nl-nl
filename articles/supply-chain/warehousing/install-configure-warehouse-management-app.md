@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 378fff6274902025b1fca487874f37ed30df25ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46c5d4ec78a1e5ed708687e8da6eb379697d5f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835601"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908947"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>De mobiele app Magazijnbeheer installeren en verbinden
 
@@ -50,7 +50,7 @@ Voordat u een app kunt gebruiken, moet een gerelateerde functie zijn ingeschakel
 
 Voor kleinere implementaties kunt u de app vanuit de relevante store op elk apparaat installeren en vervolgens handmatig de verbinding configureren voor de omgevingen die u gebruikt.
 
-Voor grotere implementaties kunt u de implementatie en/of configuratie van de app automatiseren. Dit kan handiger zijn als u meerdere apparaten beheert. U kunt bijvoorbeeld een oplossing voor het beheer van mobiele apparaten en een oplossing voor het beheer van mobiele toepassingen gebruiken, zoals [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Zie [Apps aan Microsoft Intune toevoegen](https://docs.microsoft.com/mem/intune/apps/apps-add) voor informatie over het gebruik van Intune om toepassingen toe te voegen.
+Voor grotere implementaties kunt u de implementatie en/of configuratie van de app automatiseren. Dit kan handiger zijn als u meerdere apparaten beheert. U kunt bijvoorbeeld een oplossing voor het beheer van mobiele apparaten en een oplossing voor het beheer van mobiele toepassingen gebruiken, zoals [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Zie [Apps aan Microsoft Intune toevoegen](/mem/intune/apps/apps-add) voor informatie over het gebruik van Intune om toepassingen toe te voegen.
 
 ### <a name="install-the-app-from-an-app-store"></a>De app installeren vanuit een app store
 
@@ -65,10 +65,10 @@ De gemakkelijkste manier om de app op één apparaat te installeren, is de app t
 In plaats daarvan kunt u de app downloaden via het Microsoft App Center. Het App Center voorziet in installeerbare pakketten die u extern kunt laden. Naast de huidige versie kunt u met het App Center ook eerdere versies downloaden en preview-versies weergeven met toekomstige functies die u kunt proberen. Gebruik een van de volgende koppelingen om huidige, vorige of preview-versies van de mobiele app Magazijnbeheer te downloaden vanuit het Microsoft App Center:
 
 - **Windows (UWP):** [Magazijnbeheer (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
-    Zie [Een build installeren vanuit App Center](https://docs.microsoft.com/appcenter/distribution/installation) voor instructies voor het installeren van een gedownload pakket op een Windows-apparaat en het instellen van de vereiste certificaten.
+    Zie [Een build installeren vanuit App Center](/appcenter/distribution/installation) voor instructies voor het installeren van een gedownload pakket op een Windows-apparaat en het instellen van de vereiste certificaten.
 
 - **Android:** [Magazijnbeheer (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
-    Als u een preview-versie downloadt, zijn er enkele extra stappen vereist om deze te installeren. Zie voor details [Android-apps testen](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+    Als u een preview-versie downloadt, zijn er enkele extra stappen vereist om deze te installeren. Zie voor details [Android-apps testen](/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Een webservicetoepassing maken in Azure Active Directory
 
@@ -103,11 +103,11 @@ Als u de mobiele app Magazijnbeheer wilt inschakelen voor interactie met een spe
 
 Zie de volgende bronnen voor meer informatie over het instellen van webservicetoepassingen in Azure AD.
 
-- Zie [Procedure: Azure PowerShell gebruiken om een service-principal te maken met een certificaat](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell) voor instructies voor het gebruik van Windows PowerShell om webservicetoepassingen in te stellen in Azure AD.
+- Zie [Procedure: Azure PowerShell gebruiken om een service-principal te maken met een certificaat](/azure/active-directory/develop/howto-authenticate-service-principal-powershell) voor instructies voor het gebruik van Windows PowerShell om webservicetoepassingen in te stellen in Azure AD.
 - Zie de volgende onderwerpen voor gedetailleerde informatie over het handmatig maken van een webservicetoepassing in Azure AD.
 
-    - [Snelstart: Een toepassing registreren op het Microsoft-identiteitsplatform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Procedure: de portal gebruiken om een Azure AD-toepassing en een service-principal te maken die toegang hebben tot bronnen](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Snelstart: Een toepassing registreren op het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app)
+    - [Procedure: de portal gebruiken om een Azure AD-toepassing en een service-principal te maken die toegang hebben tot bronnen](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Een gebruikersaccount in Supply Chain Management maken en configureren
 
@@ -135,7 +135,7 @@ Verificatie met Azure AD biedt een veilige manier om een mobiel apparaat te verb
 
 Certificaten kunnen worden gebruikt als geheimen om de identiteit van de toepassing te bewijzen wanneer een token wordt aangevraagd. Het openbare gedeelte van het certificaat wordt geüpload naar de app-registratie in de Azure-portal, terwijl het volledige certificaat moet worden geïmplementeerd op elk apparaat waarop de mobiele app Magazijnbeheer is geïnstalleerd. Uw organisatie is verantwoordelijk voor het beheer van het certificaat wat betreft rotatie en dergelijke. U kunt zelfondertekende certificaten gebruiken, maar u moet altijd met niet-exporteerbare certificaten werken.
 
-U moet het certificaat lokaal beschikbaar maken voor elk apparaat waarop u de mobiele app Magazijnbeheer uitvoert. Zie [Certificaten voor verificatie gebruiken in Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure) voor informatie over het beheren van certificaten voor door Intune beheerde apparaten als u Intune gebruikt.
+U moet het certificaat lokaal beschikbaar maken voor elk apparaat waarop u de mobiele app Magazijnbeheer uitvoert. Zie [Certificaten voor verificatie gebruiken in Microsoft Intune](/mem/intune/protect/certificates-configure) voor informatie over het beheren van certificaten voor door Intune beheerde apparaten als u Intune gebruikt.
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>De toepassing configureren door verbindingsinstellingen te importeren
 

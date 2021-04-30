@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 743298a1c32f5fc706ad7a47d9b559569946889b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: efa9be4a5243444c2bf0b154836efbf8cfa76de9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832659"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894665"
 ---
 # <a name="vat-reporting-for-europe"></a>Btw-aangifte voor Europa
 
@@ -248,9 +248,9 @@ d<li>De transactie <strong>Belastingbasisbedrag</strong> of <strong>Belastingbed
 
 U kunt elektronische rapportage (ER) gebruiken om overzichten en aangifte te configureren en om gegevens te exporteren in verschillende elektronische indelingen zonder de X ++-code te wijzigen. Voor aanvullende informatie:
 
--   [Overzicht van elektronische rapportage](../../dev-itpro/analytics/general-electronic-reporting.md)
--   [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
--   [Lokalisatievereisten: een GER-configuratie maken](../../dev-itpro/analytics/electronic-reporting-configuration.md)
+-   [Overzicht van elektronische rapportage](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+-   [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+-   [Lokalisatievereisten: een GER-configuratie maken](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md)
 
 ## <a name="countryspecific-resources-for-vat-statements"></a>Landspecifieke resources voor btw-overzichten
 Het btw-overzicht voor elk land moet voldoen aan de vereisten van de wetgeving van het land. Er zijn vooraf gedefinieerde algemene modellen en indelingen van btw-overzichten voor de landen die in de volgende tabel staan.

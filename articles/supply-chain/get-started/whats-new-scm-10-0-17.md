@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4b4e551f5c687f0021ddba0c9f5b73af528b7140
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3faffad2bff18278a54a26f77c1423f2246d086e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813166"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907958"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.17 (april 2021)
 
@@ -33,65 +33,65 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-Deze versie bevat de volgende functies.  Volg de koppelingen naar het [releaseeplan](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
+Deze versie bevat de volgende functies.  Volg de koppelingen naar het [releaseeplan](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
 
 De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken. Sommige van de functies in de lijst zijn mogelijk nog steeds in preview, hoewel de meeste nu algemeen beschikbaar zijn.
 
 ### <a name="asset-management"></a>Activabeheer
 
-- [Regels toepassen voor het groeperen van werkorders tijdens het uitvoeren van een onderhoudsplan](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/apply-rules-grouping-work-orders-while-running-maintenance-plan)<br> - Zie [Werkorders maken](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md) voor meer informatie.
+- [Regels toepassen voor het groeperen van werkorders tijdens het uitvoeren van een onderhoudsplan](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/apply-rules-grouping-work-orders-while-running-maintenance-plan)<br> - Zie [Werkorders maken](../asset-management/preventive-and-reactive-maintenance/creating-work-orders.md) voor meer informatie.
 
-- [Klanten factureren voor onderhoudswerk](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/bill-customers-maintenance-work)<br> - Zie [Factureren voor onderhoud aan activa van klanten](../asset-management/integration-to-project-management-and-accounting/customer-billing.md) voor meer informatie.
+- [Klanten factureren voor onderhoudswerk](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/bill-customers-maintenance-work)<br> - Zie [Factureren voor onderhoud aan activa van klanten](../asset-management/integration-to-project-management-and-accounting/customer-billing.md) voor meer informatie.
 
-- [Onderhoud plannen op basis van geaccumuleerde waarden activateller](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/plan-maintenance-based-accumulated-asset-counter-values)<br> - Zie [Onderhoudsplannen](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md) voor meer informatie.
+- [Onderhoud plannen op basis van geaccumuleerde waarden activateller](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/plan-maintenance-based-accumulated-asset-counter-values)<br> - Zie [Onderhoudsplannen](../asset-management/preventive-and-reactive-maintenance/maintenance-plans.md) voor meer informatie.
 
 ### <a name="inventory-and-logistics"></a>Voorraad en logistiek
 
-- [Integratieraamwerk voor materiaalverwerkingsapparatuur voor automatische magazijnprocessen (voorheen MHAX)](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/integration-framework-material-handling-equipment-automated-warehouse-processes-previously-mhax)<br> - Zie [Interface voor materiaalverwerkingsapparatuur (MHAX)](../warehousing/mhax.md) voor meer informatie.
+- [Integratieraamwerk voor materiaalverwerkingsapparatuur voor automatische magazijnprocessen (voorheen MHAX)](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/integration-framework-material-handling-equipment-automated-warehouse-processes-previously-mhax)<br> - Zie [Interface voor materiaalverwerkingsapparatuur (MHAX)](../warehousing/mhax.md) voor meer informatie.
 
-- [Francoprijzen](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)<br> - Zie [Module Francoprijzen](../landed-cost/landed-cost-overview.md) voor meer informatie.
+- [Francoprijzen](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/landed-cost)<br> - Zie [Module Francoprijzen](../landed-cost/landed-cost-overview.md) voor meer informatie.
 
-- [Afmetingen voor verpakking en opslag](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - Zie [Verschillende dimensies instellen voor verpakking en opslag](../warehousing/packing-vs-storage-dimensions.md) voor meer informatie.
+- [Afmetingen voor verpakking en opslag](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)<br> - Zie [Verschillende dimensies instellen voor verpakking en opslag](../warehousing/packing-vs-storage-dimensions.md) voor meer informatie.
 
-- [Opgeslagen weergaven voor voorraad en logistiek](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-inventory-logistics)<br> - Zie [Standaard opgeslagen weergaven voor Supply Chain Management](saved-views-scm.md) voor meer informatie.
+- [Opgeslagen weergaven voor voorraad en logistiek](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-inventory-logistics)<br> - Zie [Standaard opgeslagen weergaven voor Supply Chain Management](saved-views-scm.md) voor meer informatie.
 
-- [Maken van magazijnwerk plannen](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-warehouse-work-creation)<br> - Zie [Het maken van werk plannen tijdens wave](../warehousing/configure-wave-schedule-work-creation.md) voor meer informatie.
+- [Maken van magazijnwerk plannen](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-warehouse-work-creation)<br> - Zie [Het maken van werk plannen tijdens wave](../warehousing/configure-wave-schedule-work-creation.md) voor meer informatie.
 
-- [Standaard financiële dimensies instellen voor herwaarderingsboekstukken voor standaardkosten van voorraad](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/set-default-financial-dimensions-inventory-standard-cost-revaluation-vouchers)<br> - Zie [Standaardkostenupdates beheren](../cost-management/manage-standard-cost-updates.md) voor meer informatie.
+- [Standaard financiële dimensies instellen voor herwaarderingsboekstukken voor standaardkosten van voorraad](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/set-default-financial-dimensions-inventory-standard-cost-revaluation-vouchers)<br> - Zie [Standaardkostenupdates beheren](../cost-management/manage-standard-cost-updates.md) voor meer informatie.
 
-- [Verzending van kleine pakketten (SPS)](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/small-parcel-shipping-sps)<br> - Zie [Verzending van kleine pakketten](../warehousing/small-parcel-shipping.md) voor meer informatie.
+- [Verzending van kleine pakketten (SPS)](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/small-parcel-shipping-sps)<br> - Zie [Verzending van kleine pakketten](../warehousing/small-parcel-shipping.md) voor meer informatie.
 
-- [Magazijnuitvoering met schaaleenheden in de cloud](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)<br> - Zie [Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-warehousing.md) en [Magazijnorders voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-warehouse-order.md) voor meer informatie.
+- [Magazijnuitvoering met schaaleenheden in de cloud](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud)<br> - Zie [Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-warehousing.md) en [Magazijnorders voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-warehouse-order.md) voor meer informatie.
 
-- [Mobiele toepassing Magazijnbeheer](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Zie [De app Magazijnbeheer installeren en verbinden](../warehousing/install-configure-warehouse-management-app.md) en [Instellingen voor gebruikers van mobiele apparaten](../warehousing/mobile-device-user-settings.md) voor meer informatie.
+- [Mobiele toepassing Magazijnbeheer](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application)<br> - Zie [De app Magazijnbeheer installeren en verbinden](../warehousing/install-configure-warehouse-management-app.md) en [Instellingen voor gebruikers van mobiele apparaten](../warehousing/mobile-device-user-settings.md) voor meer informatie.
 
 - Meldingen voor uitvoering van wave<br> - Zie [Meldingen voor uitvoering van wave](../warehousing/wave-execution-notifications.md) voor meer informatie
 
 ### <a name="manufacturing"></a>Productie
 
-- [Mogelijkheden voor activabeheer in de interface voor de uitvoering van productielijnen](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Zie [Uitvoeringsinterface voor de werkvloer configureren](../production-control/production-floor-execution-configure.md) voor meer informatie.
+- [Mogelijkheden voor activabeheer in de interface voor de uitvoering van productielijnen](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Zie [Uitvoeringsinterface voor de werkvloer configureren](../production-control/production-floor-execution-configure.md) voor meer informatie.
 
 - Geïntegreerde nummerreeks voor taak-id's<br> - Voor meer informatie zie 
 
-- [Het standaardreserveringsprincipe voor materialen in productie overschrijven](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Zie [Het standaardreserveringsprincipe voor materialen in de productie overschrijven](../production-control/override-default-reservation-principle.md) voor meer informatie.
+- [Het standaardreserveringsprincipe voor materialen in productie overschrijven](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Zie [Het standaardreserveringsprincipe voor materialen in de productie overschrijven](../production-control/override-default-reservation-principle.md) voor meer informatie.
 
-- [Opgeslagen weergaven voor productiebeheer](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Zie [Standaard opgeslagen weergaven voor Supply Chain Management](saved-views-scm.md) voor meer informatie.
+- [Opgeslagen weergaven voor productiebeheer](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Zie [Standaard opgeslagen weergaven voor Supply Chain Management](saved-views-scm.md) voor meer informatie.
 
-- [Productie-uitvoering met schaaleenheden in de cloud](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Zie [Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-manufacturing.md) voor meer informatie.
+- [Productie-uitvoering met schaaleenheden in de cloud](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Zie [Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-manufacturing.md) voor meer informatie.
 
 ### <a name="planning"></a>Planning
 
-- [Ondersteuning voor time fence behoefteplanning voor Planningsoptimalisatie](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/coverage-time-fence-support-planning-optimization)<br> - Zie [Time fences voor behoefteplanning](../master-planning/planning-optimization/coverage-time-fence.md) voor mee informatie.
+- [Ondersteuning voor time fence behoefteplanning voor Planningsoptimalisatie](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/coverage-time-fence-support-planning-optimization)<br> - Zie [Time fences voor behoefteplanning](../master-planning/planning-optimization/coverage-time-fence.md) voor mee informatie.
 
-- [Ondersteuning van prognosesubmodel voor planningsoptimalisatie](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/forecast-submodel-support-planning-optimization)<br> - Zie voor meer informatie [Hoofdplanning met vraagprognoses](../master-planning/planning-optimization/demand-forecast.md).
+- [Ondersteuning van prognosesubmodel voor planningsoptimalisatie](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/forecast-submodel-support-planning-optimization)<br> - Zie voor meer informatie [Hoofdplanning met vraagprognoses](../master-planning/planning-optimization/demand-forecast.md).
 
-- [Ondersteuning van opdrachten tot inkoop voor Planningsoptimalisatie](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/purchase-requisition-support-planning-optimization)<br> - Zie [Opdrachten tot inkoop](../master-planning/planning-optimization/purchase-requisitions.md) voor meer informatie.
+- [Ondersteuning van opdrachten tot inkoop voor Planningsoptimalisatie](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/purchase-requisition-support-planning-optimization)<br> - Zie [Opdrachten tot inkoop](../master-planning/planning-optimization/purchase-requisitions.md) voor meer informatie.
 
-- [Opgeslagen weergaven voor geplande orders](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-planned-orders)<br> - Zie [Standaard opgeslagen weergaven voor Supply Chain Management](saved-views-scm.md) voor meer informatie.
+- [Opgeslagen weergaven voor geplande orders](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-planned-orders)<br> - Zie [Standaard opgeslagen weergaven voor Supply Chain Management](saved-views-scm.md) voor meer informatie.
 
 ### <a name="product-information-management"></a>Productgegevensbeheer
 
-- [Wijzigingsbeheer voor bestaande producten inschakelen](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enable-change-management-existing-products)<br> - Zie [Wijzigingsbeheer voor bestaande producten inschakelen](../engineering-change-management/change-management-existing-products.md) voor meer informatie.
+- [Wijzigingsbeheer voor bestaande producten inschakelen](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enable-change-management-existing-products)<br> - Zie [Wijzigingsbeheer voor bestaande producten inschakelen](../engineering-change-management/change-management-existing-products.md) voor meer informatie.
 
 ## <a name="new-and-updated-documentation-resources"></a>Nieuwe en bijgewerkte documentatiebronnen
 
@@ -145,7 +145,7 @@ Voor informatie over de correcties die zijn opgenomen in alle updates die deel u
 
 Bent u benieuwd naar de komende en onlangs uitgebrachte voorzieningen in een van onze bedrijfsapps of platforms?
 
-Bekijk [Dynamics 365: releasewave 1-plan van 2021](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/). We hebben alle details in één document verzameld die u kunt gebruiken voor uw planning.
+Bekijk [Dynamics 365: releasewave 1-plan van 2021](/dynamics365-release-plan/2021wave1/). We hebben alle details in één document verzameld die u kunt gebruiken voor uw planning.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Verwijderde en afgeschafte functies voor Supply Chain Management
 

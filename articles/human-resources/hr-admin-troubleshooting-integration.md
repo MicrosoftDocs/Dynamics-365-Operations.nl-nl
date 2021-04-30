@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9d2d590c95aa4069a1bed306910486c47200cdfd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5befac6c72153332319eefc1aaeab30c33f4c69
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794848"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892246"
 ---
 # <a name="integration-with-finance-faq"></a>Veelgestelde vragen over integratie met Finance
 
@@ -50,7 +50,7 @@ Synchronisatie met Dataverse is standaard uitgeschakeld in nieuwe omgevingen die
 
 ## <a name="can-i-create-a-new-mapping-without-using-the-templates"></a>Kan ik een nieuwe toewijzing maken zonder de sjablonen te gebruiken?
 
-Sjablonen vormen het beginpunt. U kunt uw eigen sjabloon maken, maar een sjabloon is altijd vereist bij het maken van een integratieproject. Zie voor meer informatie over Gegevensintegrator (DI), sjablonen en projecten [Gegevens integreren in Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+Sjablonen vormen het beginpunt. U kunt uw eigen sjabloon maken, maar een sjabloon is altijd vereist bij het maken van een integratieproject. Zie voor meer informatie over Gegevensintegrator (DI), sjablonen en projecten [Gegevens integreren in Microsoft Dataverse](/powerapps/administrator/data-integrator).
 
 ## <a name="can-i-map-financial-dimensions-to-transfer-between-human-resources-and-finance"></a>Kan ik financiële dimensies toewijzen voor overdracht tussen Human Resources en Finance?
 
@@ -145,7 +145,7 @@ De integratie met Finance is een proces dat uit twee stappen bestaat. Controleer
 
 Als de gegevens niet zoals verwacht in Dataverse worden weergegeven, controleert u of de entiteit in de integratie wordt ondersteund. Als u aanvullende gegevens in Dataverse wilt opnemen, is een wijziging aan Microsoft-zijde vereist.
 
-Als de entiteit wordt ondersteund en de gegevens beschikbaar zijn in Dataverse, controleert u of de toewijzing in Gegevensintegrator juist is. Als de integratortoewijzing er goed uitziet, controleert u of de taken voor gegevensbeheer zonder problemen zijn uitgevoerd. Er kunnen fouten optreden tijdens de uitvoering van de batchtaken. Zie [Gegevensbeheer](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json) voor meer informatie over Gegevensbeheer.
+Als de entiteit wordt ondersteund en de gegevens beschikbaar zijn in Dataverse, controleert u of de toewijzing in Gegevensintegrator juist is. Als de integratortoewijzing er goed uitziet, controleert u of de taken voor gegevensbeheer zonder problemen zijn uitgevoerd. Er kunnen fouten optreden tijdens de uitvoering van de batchtaken. Zie [Gegevensbeheer](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json) voor meer informatie over Gegevensbeheer.
 
 ## <a name="the-addresses-for-my-employees-are-incorrect-after-i-import-them-into-finance-what-should-i-do"></a>De adressen van mijn werknemers zijn onjuist nadat ik deze in Finance heb geïmporteerd. Wat moet ik doen?
 
@@ -172,15 +172,15 @@ Vernieuw de gegevensentiteiten in Finance door naar **Gegevensbeheer \> Raamwerk
 
 - Gegevensintegrator (DI): 
 
-  - [Gegevens integreren in Microsoft Dataverse](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+  - [Gegevens integreren in Microsoft Dataverse](/powerapps/administrator/data-integrator)
 
-  - [Foutbeheer en probleemoplossing van Gegevensintegrator](https://docs.microsoft.com/powerapps/administrator/data-integrator-error-management)
+  - [Foutbeheer en probleemoplossing van Gegevensintegrator](/powerapps/administrator/data-integrator-error-management)
 
-  - [Reageren op DSR-aanvragen voor door het systeem gegenereerde logboeken in Power Apps, Microsoft Power Automate en Dataverse](https://docs.microsoft.com/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
+  - [Reageren op DSR-aanvragen voor door het systeem gegenereerde logboeken in Power Apps, Microsoft Power Automate en Dataverse](/powerapps/administrator/powerapps-gdpr-dsr-guide-systemlogs)
 
 - Gegevensbeheer:
 
-  - [Gegevensbeheer](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+  - [Gegevensbeheer](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=%2ffin-and-ops%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

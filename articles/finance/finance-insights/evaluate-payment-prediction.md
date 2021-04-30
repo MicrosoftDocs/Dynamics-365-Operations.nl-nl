@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818612"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897907"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Het aanvankelijke voorspellingsmodel voor klantbetalingen evalueren (preview)
 
@@ -41,7 +41,7 @@ Met deze koppeling kunt u naar AI Builder gaan, waar u meer over het huidige mod
 
 In de geopende pagina wordt de volgende informatie weergegeven:
 
-- In de sectie **Prestaties** ziet u de kwaliteit van het model. Zie voor meer informatie over deze beoordeling [Prestaties van het voorspellingsmodel](https://docs.microsoft.com/ai-builder/prediction-performance) in de AI Builder-documentatie.
+- In de sectie **Prestaties** ziet u de kwaliteit van het model. Zie voor meer informatie over deze beoordeling [Prestaties van het voorspellingsmodel](/ai-builder/prediction-performance) in de AI Builder-documentatie.
 - De sectie **Meest invloedrijke gegevens** laat zien hoe belangrijk verschillende invoertypen van gegevens voor uw model waren. U kunt deze lijst en de bijbehorende percentages evalueren om te bepalen of de gegevens consistent zijn met wat u van uw bedrijf en markt weet.
 
     [![Secties Prestaties en Meest invloedrijke gegevens voor het voorspellingsmodel](./media/models.png)](./media/models.png)

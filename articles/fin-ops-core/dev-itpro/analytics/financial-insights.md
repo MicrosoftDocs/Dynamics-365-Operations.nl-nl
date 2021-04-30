@@ -2,8 +2,7 @@
 title: Financiële analyse
 description: Financiële analyse gebruikt Microsoft Power BI om financiële KPI's, grafieken en financiële overzichten samen te voegen.
 author: kweekley
-manager: AnnBe
-ms.date: 05/22/2019
+ms.date: 04/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 22de5f3e2e475aa681be2d8868fb1d939f3f8638
-ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
+ms.openlocfilehash: 71fd1ad15320fda162a289e9c5741aec2ce76778
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5572361"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894903"
 ---
 # <a name="financial-analysis"></a>Financiële analyse
 
@@ -65,10 +64,9 @@ De gegevens voor **Financiële analyse** worden gehaald uit de entiteitopslag (*
 
 U moet de volgende entiteiten bijwerken om gegevens te zien in de werkruimte **Financiële analyse**:
 
-- BudgetActivityMeasure
 - Transactiegegevens financiële rapportage versie 3 
+- Crediteringen en aanmaningen V2
 - CustCollectionsBIMeasurements
-- LedgerActivityMeasure
 - LedgerCovLiquidityMeasurement
 - Inkoop-cube
 - Verkoop-cube
@@ -241,9 +239,9 @@ Power BI bevat geen optie om lege rijen te verbergen en weer te geven. Als een r
 
 De informatie in de volgende bronnen is niet vereist is om de ingesloten rapporten voor de werkruimte **Financiële analyse** in te schakelen in een productieomgeving. In plaats daarvan zijn ze handig voor ontwikkelaarsmachines en als u uw eigen Power BI-rapporten wilt insluiten in Finance.
 
-- [Toegang krijgen tot analytische werkruimten en rapporten voor een omgeving met één computer](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
+- [Toegang krijgen tot analytische werkruimten en rapporten voor een omgeving met één computer](/archive/blogs/dynamicsaxbi/accessing-analytical-workspaces-on-1box-environment)
 
-- [Analyses aan werkgebieden toevoegen met Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+- [Analyses aan werkgebieden toevoegen met Power BI Embedded](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d8d2b1f98803bc159d3164d4a7c883e088ca7e56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f0ed7d3344b43c477923ebd8c69acfb6630e6f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837652"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910396"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Leverancierssamenwerking met externe leveranciers
 
@@ -33,7 +33,7 @@ Meer informatie over wat externe leveranciers kunnen doen in de interface voor l
 > [!NOTE]
 > De informatie in dit onderwerp over leverancierssamenwerking geldt alleen voor de huidige versie van Supply Chain Management. In Microsoft Dynamics AX 7.0 (februari 2016) en Microsoft Dynamics AX toepassingsversie 7.0.1 (mei 2016) werkt u met leveranciers samen via de module **Leveranciersportal**. Zie [Samenwerken met leveranciers met behulp van de leveranciersportal](collaborate-vendors-vendor-portal.md) voor informatie over de module **Leveranciersportal**.
 
-Meer informatie over hoe leveranciers leverancierssamenwerking kunnen gebruiken in factureringsprocessen vindt u in [Werkgebied voor samenwerkingsfacturering van leveranciers](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md) Meer informatie over hoe u nieuwe gebruikers van leverancierssamenwerking inricht, vindt u in [Leverancierssamenwerkingsgebruikers beheren](manage-vendor-collaboration-users.md)
+Meer informatie over hoe leveranciers leverancierssamenwerking kunnen gebruiken in factureringsprocessen vindt u in [Werkgebied voor samenwerkingsfacturering van leveranciers](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md) Meer informatie over hoe u nieuwe gebruikers van leverancierssamenwerking inricht, vindt u in [Leverancierssamenwerkingsgebruikers beheren](manage-vendor-collaboration-users.md)
 
 ## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>De gegevens definiëren die voor leveranciers te zien zijn wanneer ze reageren op inkooporders
 

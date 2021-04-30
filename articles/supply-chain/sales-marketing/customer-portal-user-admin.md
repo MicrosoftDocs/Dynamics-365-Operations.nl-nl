@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 4d6d88f69f9b958c9e8f49695d07d0b593da2258
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840696"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907760"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Gebruikers van klantportal maken en beheren
 
@@ -44,26 +44,26 @@ Voordat u nieuwe klanten gaat uitnodigen, moet u controleren of u de tabeltoewij
 
 ## <a name="the-invitation-process"></a>Het uitnodigingsproces
 
-Als u een bestaande contactpersoon wilt uitnodigen voor de klantportal, volgt u de stappen in [Contactpersonen uitnodigen voor uw portals](https://docs.microsoft.com/powerapps/maker/portals/configure/invite-contacts) in de documentatie voor Power Apps-portals.
+Als u een bestaande contactpersoon wilt uitnodigen voor de klantportal, volgt u de stappen in [Contactpersonen uitnodigen voor uw portals](/powerapps/maker/portals/configure/invite-contacts) in de documentatie voor Power Apps-portals.
 
-Voordat u een klant kunt uitnodigen voor deelname aan de klantportal, controleert u of de [contactpersoonrecord van de klant](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) beschikbaar is en op de volgende manier is ingesteld:
+Voordat u een klant kunt uitnodigen voor deelname aan de klantportal, controleert u of de [contactpersoonrecord van de klant](/powerapps/maker/portals/configure/configure-contacts) beschikbaar is en op de volgende manier is ingesteld:
 
 1. Stel het veld **Bedrijf** in op de rechtspersoon in Supply Chain Management waaraan u de klant wilt toewijzen.
 2. Stel het veld **Accountnummer** in op het nummer van het klantaccount in Supply Chain Management waaraan u de klant wilt toewijzen.
 
 Nadat een contactpersoon is gemaakt, kunt u deze bekijken in Supply Chain Management.
 
-Zie [Een contactpersoon configureren voor gebruik in een portal](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) in de documentatie van Power Apps-portals voor meer informatie.
+Zie [Een contactpersoon configureren voor gebruik in een portal](/powerapps/maker/portals/configure/configure-contacts) in de documentatie van Power Apps-portals voor meer informatie.
 
 ## <a name="out-of-box-web-roles-and-table-permissions"></a>Standaard webrollen en tabelmachtigingen
 
-Gebruikersrollen in Power Apps-portals worden gedefinieerd door [webrollen](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) en [tabelmachtigingen](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions). Een paar rollen zijn standaard gedefinieerd voor de klantportal. U kunt nieuwe rollen maken en bestaande rollen wijzigen of verwijderen.
+Gebruikersrollen in Power Apps-portals worden gedefinieerd door [webrollen](/powerapps/maker/portals/configure/create-web-roles) en [tabelmachtigingen](/powerapps/maker/portals/configure/assign-entity-permissions). Een paar rollen zijn standaard gedefinieerd voor de klantportal. U kunt nieuwe rollen maken en bestaande rollen wijzigen of verwijderen.
 
 ### <a name="out-of-box-web-roles"></a>Standaard webrollen
 
 In deze sectie worden de webrollen beschreven die bij de klantportal worden meegeleverd.
 
-Zie [Webrollen voor portals maken](https://docs.microsoft.com/powerapps/maker/portals/configure/create-web-roles) en [Op records gebaseerde beveiliging toevoegen met behulp van tabelmachtigingen voor portals](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions) in de documentatie van Power Apps-portals voor meer informatie over het wijzigen van de standaard gebruikersrollen.
+Zie [Webrollen voor portals maken](/powerapps/maker/portals/configure/create-web-roles) en [Op records gebaseerde beveiliging toevoegen met behulp van tabelmachtigingen voor portals](/powerapps/maker/portals/configure/assign-entity-permissions) in de documentatie van Power Apps-portals voor meer informatie over het wijzigen van de standaard gebruikersrollen.
 
 #### <a name="administrator"></a>Beheerder
 

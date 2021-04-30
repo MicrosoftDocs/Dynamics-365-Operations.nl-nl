@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 42896c85fe72690aadafb878eb7e899c6fe10c32
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dd49edeb92e6a23723b1b6b6ea7800b69a81bd0f
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823783"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897595"
 ---
 # <a name="electronic-messaging"></a>Elektronische berichten
 
@@ -29,7 +29,7 @@ De overheden en wetgevende instanties van verschillende landen en regio's wereld
 
 De functionaliteit Elektronische berichten in Finance ondersteunt diverse processen voor elektronische interactie tussen Finance en de systemen die overheden en wetgevende instanties bieden voor het rapporteren, indienen en ontvangen van officiële informatie.
 
-De functionaliteit Elektronische berichten is geïntegreerd met de module **Elektronische rapportage** (ER). Daarom kunt u twee ER-indelingen voor elektronische berichten instellen. Zie [Elektronische rapportage](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting) voor meer informatie.
+De functionaliteit Elektronische berichten is geïntegreerd met de module **Elektronische rapportage** (ER). Daarom kunt u twee ER-indelingen voor elektronische berichten instellen. Zie [Elektronische rapportage](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting) voor meer informatie.
 
 Elektronische berichten is gebaseerd op de volgende entiteiten:
 
@@ -56,7 +56,7 @@ De functionaliteit Elektronische berichten ondersteunt de volgende scenario's:
 
 ## <a name="set-up-electronic-messaging"></a>Elektronische berichten instellen
 
-Met Elektronische berichten kunt u verschillende elektronische rapportageprocessen voor verschillende documenttypen onderhouden. In sommige complexe scenario's worden elektronische berichten ingesteld om een combinatie van veel berichtstatussen, berichtitemstatussen, acties, extra velden en uitvoerbare klassen te hebben. Voor deze scenario's zijn pakketten met gegevensentiteiten beschikbaar voor import. Als u de pakketten met gegevensentiteiten wilt gebruiken, moet u deze naar een rechtspersoon importeren met behulp van het hulpprogramma Gegevensbeheer. Zie [Gegevensbeheer](../../dev-itpro/data-entities/data-entities-data-packages.md) voor meer informatie over het gebruik van het hulpprogramma Gegevensbeheer.
+Met Elektronische berichten kunt u verschillende elektronische rapportageprocessen voor verschillende documenttypen onderhouden. In sommige complexe scenario's worden elektronische berichten ingesteld om een combinatie van veel berichtstatussen, berichtitemstatussen, acties, extra velden en uitvoerbare klassen te hebben. Voor deze scenario's zijn pakketten met gegevensentiteiten beschikbaar voor import. Als u de pakketten met gegevensentiteiten wilt gebruiken, moet u deze naar een rechtspersoon importeren met behulp van het hulpprogramma Gegevensbeheer. Zie [Gegevensbeheer](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md) voor meer informatie over het gebruik van het hulpprogramma Gegevensbeheer.
 
 Als u een pakket met gegevensentiteiten niet importeert, kunt u de functionaliteit Elektronische berichten handmatig instellen. In dat geval moet u de volgende onderdelen instellen:
 

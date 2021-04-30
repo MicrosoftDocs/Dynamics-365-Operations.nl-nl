@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 12bc3cbccb1577c278489f640299510b3ced17e7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ccc1d52b83f9319af1c6336c1876c795c70028a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811081"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908514"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>Problemen met prijzen, kortingen, overeenkomsten en aftrek oplossen
 
@@ -37,7 +37,7 @@ Wanneer u de verzenddatum wijzigt, ontvangt u mogelijk het bericht 'Prijzen en k
 
 Het bericht wordt geactiveerd wanneer een van de datums of andere parameters wordt gewijzigd. Het doel van het bericht is er zeker van te zijn dat u op de hoogte bent van prijswijzigingen die kunnen optreden als gevolg van deze wijzigingen.
 
-Het bericht is de TAE-prompt (handelsovereenkomst). Zie [Evaluatiebeleid voor handelsovereenkomsten](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper) voor een volledige beschrijving.
+Het bericht is de TAE-prompt (handelsovereenkomst). Zie [Evaluatiebeleid voor handelsovereenkomsten](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper) voor een volledige beschrijving.
 
 ## <a name="a-purchase-order-receipt-doesnt-include-all-charges"></a>Een inkooporderontvangst bevat niet alle toeslagen.
 

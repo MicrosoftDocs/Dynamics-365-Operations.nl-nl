@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fe7ff2ab877182dd3145e39574aa7229c48b6057
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e30b02a6f98f638954adc7ec335babd518b92bf4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833396"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909398"
 ---
 # <a name="set-up-master-planning"></a>Hoofdplanning instellen
 
@@ -106,11 +106,11 @@ Voor elk plan moet u op het sneltabblad **Algemeen** van de pagina **Hoofdplanne
 
 ### <a name="operations-scheduling"></a>Bewerkingsplanning
 
-U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces. Bij het plannen van bewerkingen worden de bewerkingen voor de productieroute niet in taken opgesplitst. Zie [Bewerkingsplanning](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) voor meer informatie over bewerkingsplanning.
+U kunt het plannen van bewerkingen gebruiken om een algemene schatting te geven voor de duur van het productieproces. Bij het plannen van bewerkingen worden de bewerkingen voor de productieroute niet in taken opgesplitst. Zie [Bewerkingsplanning](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) voor meer informatie over bewerkingsplanning.
 
 ### <a name="job-scheduling"></a>Taakplanning
 
-Taakplanning is een meer gedetailleerde planningsmethode, waarbij elke bewerking wordt verdeeld in de afzonderlijke taken. De taakplanning bevat informatie over de capaciteit. Deze wordt meestal gebruikt voor het plannen van afzonderlijke taken op de werkvloer voor een onmiddellijke of een korte periode. Zie [Taakplanning](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling) voor meer informatie over taakplanning.
+Taakplanning is een meer gedetailleerde planningsmethode, waarbij elke bewerking wordt verdeeld in de afzonderlijke taken. De taakplanning bevat informatie over de capaciteit. Deze wordt meestal gebruikt voor het plannen van afzonderlijke taken op de werkvloer voor een onmiddellijke of een korte periode. Zie [Taakplanning](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling) voor meer informatie over taakplanning.
 
 ## <a name="time-fences-in-days"></a>Time fences in dagen
 
@@ -158,7 +158,7 @@ In actieberichten worden wijzigingen voorgesteld die kunnen worden aangebracht i
 
 Door de optie **Actiebericht** in te stellen op **Ja** kunt u de time fence voor het actiebericht die voor het artikel is gedefinieerd tijdens de hoofdplanning overschrijven. In dit geval geeft u hier op gedurende hoeveel dagen de hoofdplanning actieberichten voor behoeften moet genereren. De timefence voor actieberichten wordt vooruit vanaf de huidige datum berekend.
 
-Zie [Actieberichten](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/action-messages) voor meer informatie over actieberichten.
+Zie [Actieberichten](/dynamics365/unified-operations/supply-chain/master-planning/action-messages) voor meer informatie over actieberichten.
 
 > [!NOTE]
 > De berekening van actieberichten veroorzaakt een langere uitvoeringstijd voor de hoofdplanning. Als actieberichten niet regelmatig worden geanalyseerd en toegepast (dagelijks, wekelijks, enzovoort), kunt u overwegen de berekening uit te schakelen tijdens de uitvoering van de hoofdplanning. Als u de berekening wilt uitschakelen, stelt u op de pagina **Hoofdplannen** de time fence **Actiebericht** op **0** (nul) voor het hoofdplan dat u uitvoert. Controleer ook of de instelling **Actiebericht** is uitgeschakeld voor alle behoefteplanningsgroepen.
@@ -223,7 +223,7 @@ Doorlooptijd + negatieve dagen + datum van vandaag – datum nodig
 
 Het systeem gebruikt alleen de geplande orders die binnen deze time fence vallen en er wordt een nieuwe geplande order daarbuiten gemaakt. Het voordeel van dynamische negatieve dagen is dat het de individuele productdoorlooptijd omvat, om bestaande orders opnieuw te gebruiken en te voorkomen dat nieuwe geplande orders worden gemaakt die eindigen op een latere dag, vanwege vertragingen die worden veroorzaakt door de doorlooptijd. 
 
-Zie [Negatieve dagen en dynamische negatieve dagen](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days) voor meer informatie.
+Zie [Negatieve dagen en dynamische negatieve dagen](/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days) voor meer informatie.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

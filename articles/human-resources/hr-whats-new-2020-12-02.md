@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7d9ecea08f5095e7fa8501d690bbabbd54e6501
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d95c92fe15f4dfe77d2bc8a153f86165c17edb4e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802234"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892628"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 2 december 2020
 
@@ -30,7 +30,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of di
 
 Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
-Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
+Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
 
 ## <a name="in-this-release"></a>In deze versie
 
@@ -42,10 +42,10 @@ De volgende functie zijn algemeen beschikbaar in deze release.
 
 | Functie | Vrijgaveplan | Documentatie |
 | --- | --- | --- |
-| Managers kunnen wervingsaanvragen voor functies indienen | [Managers kunnen een wervingsaanvraag voor open functies indienen](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Een wervingsaanvraag toevoegen](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
-| Uitgebreid kandidaatprofiel in Personeelsbeheer | [Uitgebreid kandidaatprofiel in Personeelsbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Een kandidaatprofiel toevoegen of bewerken](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
-| Vereenvoudigde integraties met wervingsproviders inschakelen | [Vereenvoudigde integraties met wervingsproviders inschakelen](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Kandidaten werven](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
-| Aangepaste koppelingen in Selfservice manager | [Aangepaste koppelingen in Selfservice manager](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) | [Aangepaste koppelingen in Selfservice manager](https://aka.ms/MSSCustomLinks) |
+| Managers kunnen wervingsaanvragen voor functies indienen | [Managers kunnen een wervingsaanvraag voor open functies indienen](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Een wervingsaanvraag toevoegen](./hr-personnel-recruit.md#add-a-recruiting-request) |
+| Uitgebreid kandidaatprofiel in Personeelsbeheer | [Uitgebreid kandidaatprofiel in Personeelsbeheer](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Een kandidaatprofiel toevoegen of bewerken](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
+| Vereenvoudigde integraties met wervingsproviders inschakelen | [Vereenvoudigde integraties met wervingsproviders inschakelen](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Kandidaten werven](./hr-personnel-recruit.md) |
+| Aangepaste koppelingen in Selfservice manager | [Aangepaste koppelingen in Selfservice manager](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) | [Aangepaste koppelingen in Selfservice manager](./hr-employee-manager-self-service-custom-links.md) |
 
 
 ### <a name="bug-fixes"></a>Correcties
@@ -72,23 +72,23 @@ Van de volgende nieuwe functies kan een voorbeeld worden bekeken. Zie [Functies 
 
 | Functie | Vrijgaveplan | Documentatie |
 | --- | --- | --- |
-| Human Resources-app in Microsoft Teams | [Verlof en verzuim van werknemers in Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Human Resources-app in Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Verlofaanvragen beheren in Teams](hr-teams-leave-app.md) |
-| Uitgebreide aanvragen en goedkeuringen voor werkstromen | [Verbeteringen in de ervaring van werkstromen voor organisatie en personeelsbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Configuratieoptie om de lijst Aan mij toegewezen werkitems te positioneren](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| Integratie met LinkedIn Talent Hub | [Integratie met LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [Integreren met LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-linkedin) |
-|Bedrijfsweergave van verlof voor managers | [Bedrijfsweergave van werknemersverlof voor managers](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Parameters voor verlof en verzuim configureren](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
-|Meer inzicht in verlofsaldi bieden| [Meer inzicht in verlofsaldi bieden](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [Werknemerverlof beheren](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-employee-leave) |
-| Managers kunnen wervingsaanvragen voor functies indienen | [Managers kunnen een wervingsaanvraag voor open functies indienen](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Een wervingsaanvraag toevoegen](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
-| Uitgebreid kandidaatprofiel in Personeelsbeheer | [Uitgebreid kandidaatprofiel in Personeelsbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Een kandidaatprofiel toevoegen of bewerken](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
-| Vereenvoudigde integraties met wervingsproviders inschakelen | [Vereenvoudigde integraties met wervingsproviders inschakelen](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Kandidaten werven](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
+| Human Resources-app in Microsoft Teams | [Verlof en verzuim van werknemers in Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Human Resources-app in Teams](./hr-admin-teams-leave-app.md)<br>[Verlofaanvragen beheren in Teams](hr-teams-leave-app.md) |
+| Uitgebreide aanvragen en goedkeuringen voor werkstromen | [Verbeteringen in de ervaring van werkstromen voor organisatie en personeelsbeheer](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Configuratieoptie om de lijst Aan mij toegewezen werkitems te positioneren](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| Integratie met LinkedIn Talent Hub | [Integratie met LinkedIn Talent Hub](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [Integreren met LinkedIn Talent Hub](./hr-admin-integration-linkedin.md) |
+|Bedrijfsweergave van verlof voor managers | [Bedrijfsweergave van werknemersverlof voor managers](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Parameters voor verlof en verzuim configureren](./hr-leave-and-absence-parameters.md) |
+|Meer inzicht in verlofsaldi bieden| [Meer inzicht in verlofsaldi bieden](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [Werknemerverlof beheren](./hr-leave-and-absence-manage-employee-leave.md) |
+| Managers kunnen wervingsaanvragen voor functies indienen | [Managers kunnen een wervingsaanvraag voor open functies indienen](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Een wervingsaanvraag toevoegen](./hr-personnel-recruit.md#add-a-recruiting-request) |
+| Uitgebreid kandidaatprofiel in Personeelsbeheer | [Uitgebreid kandidaatprofiel in Personeelsbeheer](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Een kandidaatprofiel toevoegen of bewerken](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
+| Vereenvoudigde integraties met wervingsproviders inschakelen | [Vereenvoudigde integraties met wervingsproviders inschakelen](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Kandidaten werven](./hr-personnel-recruit.md) |
 
 ## <a name="coming-soon"></a>Binnenkort beschikbaar
 
-Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/) voor een volledige lijst met geplande functies en de bijbehorende geplande versies.
+Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/) voor een volledige lijst met geplande functies en de bijbehorende geplande versies.
 
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
-[Overzicht van Dynamics 365 Human Resources 2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Overzicht van Dynamics 365 Human Resources 2020 release wave 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
 

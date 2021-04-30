@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 69304cbffafa4c20dbbbb31d5c19920f669761b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 95ffe90795b9781408607257f3f63bf68c489b56
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800160"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891812"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Nieuwe of gewijzigde functies in Dynamics 365 Human Resources (20 augustus 2020)
 
@@ -65,15 +65,15 @@ Een DMF-entiteit is nu beschikbaar voor opschorten van toerekeningen.
 
 U kunt velden verplicht maken met behulp van de aanpassingsmogelijkheden van Human Resources. Voor deze functie zijn **Opgeslagen weergaven** vereist. Voor meer informatie over opgeslagen weergaven zie:
 
-- [Opgeslagen weergaven - algemene beschikbaarheid](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) in het Dynamics 365 2020 releasewave 2-plan
-- [Formulieren maken waarin opgeslagen weergaven volledig worden gebruikt](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- [Opgeslagen weergaven - algemene beschikbaarheid](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) in het Dynamics 365 2020 releasewave 2-plan
+- [Formulieren maken waarin opgeslagen weergaven volledig worden gebruikt](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>Human Resources-toepassing in Teams
 
 Werknemers kunnen vrije tijd bekijken en aanvragen in Microsoft Teams. Ze kunnen met een bot werken om verlofaanvragen te maken. Ga voor meer informatie naar:
 
-- [Voorziening voor verlof en verzuim van werknemers in Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) in het Dynamics 365 2020 releasewave 1-plan
-- [Human Resources-app in Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
+- [Voorziening voor verlof en verzuim van werknemers in Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) in het Dynamics 365 2020 releasewave 1-plan
+- [Human Resources-app in Teams](./hr-admin-teams-leave-app.md)
 
 ## <a name="coming-soon"></a>Binnenkort beschikbaar
 
@@ -117,7 +117,7 @@ We hebben onlangs twee problemen geconstateerd met betrekking tot de entiteit **
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
-[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
 

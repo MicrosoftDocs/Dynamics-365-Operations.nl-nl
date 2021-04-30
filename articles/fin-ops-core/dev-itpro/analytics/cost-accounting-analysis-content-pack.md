@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e9253537b7d306384747ca1e492def13c48aa678
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 424135233ffdc73d17336ec4e3e97ccd52dab1ff
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755495"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893323"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Analyse van kostprijsboekhouding Power BI-inhoud
 
@@ -40,7 +40,7 @@ Zie voor meer informatie over kostprijsboekhouding [Startpagina kostprijsboekhou
 Als u beveiliging op toegangsniveau in kostprijsboekhouding definieert en combineert met beveiliging op rijniveau in Power BI, kunt u alle kostenobjecteigenaren toegang verlenen tot de Power BI-inhoud voor **Analyse kostprijsboekhouding**. Alle gegevens in de visualisaties worden vervolgens gefilterd op basis van het toegangsniveau dat in de kostprijsboekhouding wordt beheerd. Zie [Beveiliging instellen voor de kostprijsboekhoudingsanalyse van Power BI-inhoud](setup-security-cost-accounting-content-pack.md) voor meer informatie over beveiliging op toegangsniveau en beveiliging op rijniveau .
 
 ## <a name="accessing-the-power-bi-content"></a>Toegang tot de Power BI-inhoud
-U vindt de Power BI-inhoud voor **Analyse kostprijsboekhouding** in de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+U vindt de Power BI-inhoud voor **Analyse kostprijsboekhouding** in de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS). Zie voor meer informatie over hoe u de inhoud downloadt en in uw organisatie implementeert [Power BI-inhoud in LCS van Microsoft en uw partners](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 
 Let erop dat u de inhoud **Analyse kostprijsboekhouding** downloadt die geldt voor de versie van Microsoft Dynamics 365 die u gebruikt.
 

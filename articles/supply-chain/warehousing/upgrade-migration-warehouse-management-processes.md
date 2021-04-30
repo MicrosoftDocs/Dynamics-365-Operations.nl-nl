@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe8969345b8499bacfeecb0a1535174ce988eabc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 31bfc203e9db28acee4b5b52b36f64d90dc4f714
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837412"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909250"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Upgrade van magazijnbeheer van Microsoft Dynamics AX 2012 naar Supply Chain Management 
 
@@ -66,7 +66,7 @@ Voordat u vrijgegeven producten in de module **Magazijnbeheer** kunt gebruiken, 
 1.  Maak tenminste één nieuw locatieprofiel.
 2.  Klik op **Magazijnbeheer** &gt; **Instellingen** &gt; **Magazijnbeheerprocessen inschakelen** &gt; **Magazijninstellingen inschakelen**.
 3.  Op de pagina **Magazijninstellingen inschakelen** voegt u de magazijnen toe die u wilt inschakelen. U kunt deze stap rechtstreeks op de pagina uitvoeren of door middel van de integratie met Microsoft Office.
-4.  Wijs een locatieprofiel toe aan alle locaties. U kunt deze stap eenvoudig uitvoeren door middel van de integratie met Microsoft Office rechtstreeks vanaf de pagina. U kunt de gegevens exporteren en importeren, of de entiteit voor gegevensverwerking in [Gegevensbeheer](../../dev-itpro/data-entities/data-entities.md) gebruiken.
+4.  Wijs een locatieprofiel toe aan alle locaties. U kunt deze stap eenvoudig uitvoeren door middel van de integratie met Microsoft Office rechtstreeks vanaf de pagina. U kunt de gegevens exporteren en importeren, of de entiteit voor gegevensverwerking in [Gegevensbeheer](../../fin-ops-core/dev-itpro/data-entities/data-entities.md) gebruiken.
 5.  Valideer de wijzigingen. Als onderdeel van het validatieproces worden verschillende validaties van gegevensintegriteit uitgevoerd. Als onderdeel van een groter upgradeproces moeten mogelijk problemen die optreden worden gecorrigeerd in de bron-implementatie. In dit geval is een aanvullende gegevensupgrade vereist.
 6.  Verwerk de wijzigingen.
 
@@ -77,7 +77,7 @@ Voordat u vrijgegeven producten in de module **Magazijnbeheer** kunt gebruiken, 
 3.  Definieer op de pagina **Reserveringshiërarchie** een nieuwe reserveringshiërarchie op basis van de opslag- en traceringsdimensiegroepen van het artikel.
 4.  Maak een of meer eenheidvolgordegroepen die ten minste dezelfde eenheden bevatten die worden gebruikt voor de voorraadeenheden van het artikel.
 5.  Klik op **Magazijnbeheer** &gt; **Instellingen** &gt; **Magazijnbeheerprocessen inschakelen** &gt; **Opslagdimensiegroep voor artikelen wijzigen**.
-6.  Voeg op de pagina **Opslagdimensiegroep voor artikelen wijzigen** de artikelnummers, opslagdimensiegroepen en eenheidvolgordegroepen toe. U kunt deze stap rechtstreeks op de pagina uitvoeren met behulp van de Microsoft Office-integratie of door middel van het gegevensentiteitsproces in [Gegevensbeheer](../../dev-itpro/data-entities/data-entities.md).
+6.  Voeg op de pagina **Opslagdimensiegroep voor artikelen wijzigen** de artikelnummers, opslagdimensiegroepen en eenheidvolgordegroepen toe. U kunt deze stap rechtstreeks op de pagina uitvoeren met behulp van de Microsoft Office-integratie of door middel van het gegevensentiteitsproces in [Gegevensbeheer](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 7.  Valideer de wijzigingen. Als onderdeel van het validatieproces worden verschillende validaties van gegevensintegriteit uitgevoerd. Als onderdeel van een groter upgradeproces moeten mogelijk problemen die optreden worden gecorrigeerd in de bron-implementatie. In dit geval is een aanvullende gegevensupgrade vereist.
 8.  Verwerk de wijzigingen. Het bijwerken van alle voorraaddimensies kan even duren. U kunt de voortgang controleren met behulp van de taken voor batchtaken.
 

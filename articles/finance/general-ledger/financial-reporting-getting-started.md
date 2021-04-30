@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37af06a33667f7cfe5df182d5197dee5edc912b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811282"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897031"
 ---
 # <a name="get-started-with-financial-reporting"></a>Aan de slag met Financial Reporting 
 
@@ -148,7 +148,7 @@ Probleem 1: Report Designer start niet wanneer u **Nieuw** of **Bewerken** selec
 * Selecteer **Instellingen** in Internet Explorer en selecteer vervolgens **Internetopties**. Selecteer het tabblad **Beveiliging**. Selecteer Vertrouwde sites. Wijzig de optie in het gebied Beveiligingsniveau voor deze zone in **Normaal-laag**.
 * Schakel de pop-upblokkering uit in de browser.
 * Voor werkstations moet Microsoft .NET Framework 4.6.2 of hoger worden geïnstalleerd. Deze versie van Microsoft .NET Framework kan worden gedownload en geïnstalleerd via het [Microsoft Downloadcentrum](https://www.microsoft.com/download/details.aspx?id=53345).
-* Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de Report Designer-client te downloaden. Als u in de incognito modus van Chrome werkt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognito modus is ingeschakeld. Zie [Systeemvereisten voor cloudimplementaties](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements) voor meer informatie over de ClickOnce-extensie van Chrome.
+* Als u Chrome gebruikt, moet u een ClickOnce-extensie installeren om de Report Designer-client te downloaden. Als u in de incognito modus van Chrome werkt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognito modus is ingeschakeld. Zie [Systeemvereisten voor cloudimplementaties](../../fin-ops-core/fin-ops/get-started/system-requirements.md) voor meer informatie over de ClickOnce-extensie van Chrome.
 * Als u Microsoft Edge met een Chrome-browser gebruikt, hoeft u geen ClickOnce-extensie te installeren voor Edge Chromium. U moet de optie ClickOnce echter inschakelen om de Report Designer-client te downloaden. Als u de incognitomodus gebruikt, moet u ervoor zorgen dat de ClickOnce-extensie voor de incognitomodus is ingeschakeld.
      1. Open een nieuwe browser in Microsoft Edge.
      2. Voer **edge://flags** in en selecteer **Enter**.

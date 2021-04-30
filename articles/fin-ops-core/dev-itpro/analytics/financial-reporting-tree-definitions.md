@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 42612a14b81f78199aa5678d6f8525e4bd87ca8c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
+ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819933"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866297"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Rapportagestructuurdefinities in financiële rapporten
 
@@ -52,9 +52,7 @@ Een rapportagestructuurdefinitie bevat de kolommen die in de volgende tabel word
 | Omschrijving van eenheid      | De titel van de rapportage-eenheid wordt weergegeven in de kop- of voettekst van het rapport als u **UnitDesc** opgeeft als een code in het tabblad **Kop- en voetteksten** van de rapportdefinitie. De titel verschijnt in de omschrijving van de rapportrij als u **UnitDesc** opgeeft in de cel **Omschrijving** van de rijdefinitie. |
 | Dimensies            | Een rapportage-eenheid die informatie rechtstreeks uit de financiële gegevens haalt. Deze definieert de logische plaatsing en de lengte voor de rekening en de gerelateerde segmenten. Elke rapportage-eenheidrij moet een dimensie in deze kolom hebben. U kunt ook een dimensie opnemen in een samenvattingseenheidrij (bijvoorbeeld voor uitgaven die rechtstreeks zijn gerelateerd aan die eenheid). Als u een dimensie invoert in een samenvattingseenheidrij, mogen rekeningen die in bovenliggende eenheden worden gebruikt niet in onderliggende eenheden worden gebruikt. Anders kunnen er dubbele bedragen ontstaan. |
 | Rijdefinities       | De naam van de rijdefinitie voor de rapportage-eenheid. In alle eenheden van de rapporteringsstructuur wordt dezelfde rijdefinitie gebruikt. Wanneer u een rapport genereert, wordt deze rijdefinitie gebruikt voor elke rapporteringseenheid. De rijdefinitie kan meerdere koppelingen naar financiële dimensies bevatten. Als een rijdefinitie is opgegeven in de rapportagestructuur, schakelt u het selectievakje **Rijdefinitie van rapportagestructuur gebruiken** op het tabblad **Rapport** van de rapportdefinitie in. |
-| Rijkoppeling              | De rijkoppeling om voor de rapporteringseenheid te gebruiken. Rijkoppelingen worden gedefinieerd voor de rijdefinitie om de financiële dimensies te identificeren waarmee een koppeling wordt gemaakt. |
-| Externe koppeling         | De rijkoppeling om voor deze rapporteringseenheid te gebruiken. Rijkoppelingen worden gedefinieerd voor de rijdefinitie om het rapport te identificeren waarmee moet worden gekoppeld. |
-| Extern bestand         | Het bestandspad van het werkblad voor financiële rapportage waaraan gegevens moeten worden ontleend. |
+| Koppeling Financiële dimensies| De koppeling Financiële dimensies voor de rapporteringseenheid. Koppelingen voor financiële dimensies worden gedefinieerd voor de rijdefinitie om de financiële dimensies te identificeren waarmee een koppeling wordt gemaakt. |
 | Paginaopties          | Deze kolom bepaalt of de details voor de rapportage-eenheid worden onderdrukt wanneer het rapport wordt weergegeven of afgedrukt. |
 | Samentelling %              | Het percentage van de rapportage-eenheid die aan de bovenliggende eenheid moet worden toegewezen. Het percentage dat u in deze kolom invoert geldt voor elke rij van de rijdefinitie voordat de waarde in de rij aan het bovenliggende rapport wordt toegevoegd. Als een onderliggende eenheid bijvoorbeeld over twee afdelingen moet worden verdeeld, worden de bedragen in elke rij vermenigvuldigd met 50 procent voordat deze aan het afdelingsrapport worden toegevoegd. Eén rapportage-eenheid kan geen twee bovenliggende eenheden hebben. Om de bedragen van een rapportage-eenheid toe te toewijzen aan twee bovenliggende eenheden, maakt u een andere rapportage-eenheid die dezelfde dimensie heeft om de aanvullende 50 procent te totaliseren. Typ gehele percentages zonder een komma. Zo staat bijvoorbeeld **25** voor 25 procent toewijzing aan het bovenliggende object. Als u een komma (**,25**) opneemt, wordt 0,25 procent toegerekend aan het bovenliggende object. Als u een percentage van minder dan 1 procent wilt gebruiken, gebruikt u de optie **Samenstelling &lt;1%** in de rapportdefinitie. Deze optie bevindt zich op het tabblad **Overige opties** in het dialoogvenster **Rapportinstellingen**. U opent dit dialoogvenster met de knop **Overige** op het tabblad **Instellingen** van de rapportdefinitie. |
 | Eenheidbeveiliging         | Beperkingen voor de gebruikers en groepen die toegang kunnen krijgen tot de informatie voor de rapportage-eenheid. |
@@ -113,10 +111,10 @@ Elke rapportagestructuurdefinitie wordt in unieke weergaven getoond. Er is een g
 
 De volgende typen rapportage-eenheden worden gebruikt in financiële rapportage:
 
-- Een detaileenheid haalt rechtstreeks informatie uit de financiële gegevens, uit een Excel-werkblad of uit een ander werkblad voor financiële rapportage.
+- Een detaileenheid haalt informatie rechtstreeks uit de financiële gegevens.
 - Een samenvattingseenheid vat gegevens van eenheden op een lager niveau samen.
 
-Een bovenliggende rapportage-eenheid is een samenvattingseenheid die informatie van een detaileenheid samenvoegt. Een samenvattingseenheid kan zowel detail- als een samenvattingseenheid zijn. Daarom kan een samenvattingseenheid informatie ontlenen aan een eenheid van een lager niveau, de financiële gegevens of een Excel-werkblad. Een bovenliggende eenheid kan de onderliggende eenheid van een bovenliggende eenheid van een hoger niveau zijn. Een onderliggende rapportage-eenheid kan een detaileenheid zijn die rechtstreeks informatie uit de financiële gegevens of een Excel-werkblad haalt. Een onderliggende rapportage-eenheid kan ook een tussenliggende samenvattingseenheid zijn. Met andere woorden, het kan de bovenliggende eenheid zijn van een eenheid van een lager niveau en tevens de onderliggende eenheid van een samenvattingseenheid van een hoger niveau. In het bekendste scenario voor rapportage-eenheden hebben bovenliggende eenheden een lege cel in de kolom **Dimensies** en hebben onderliggende eenheden koppelingen naar specifieke combinaties of dimensies met jokertekens.
+Een bovenliggende rapportage-eenheid is een samenvattingseenheid die informatie van een detaileenheid samenvoegt. Een samenvattingseenheid kan zowel detail- als een samenvattingseenheid zijn. Daarom kan een samenvattingseenheid informatie ontlenen aan een eenheid van een lager niveau of de financiële gegevens. Een bovenliggende eenheid kan de onderliggende eenheid van een bovenliggende eenheid van een hoger niveau zijn. Een onderliggende rapportage-eenheid kan een detaileenheid zijn die rechtstreeks informatie uit de financiële gegevens haalt. Een onderliggende rapportage-eenheid kan ook een tussenliggende samenvattingseenheid zijn. Met andere woorden, het kan de bovenliggende eenheid zijn van een eenheid van een lager niveau en tevens de onderliggende eenheid van een samenvattingseenheid van een hoger niveau. In het bekendste scenario voor rapportage-eenheden hebben bovenliggende eenheden een lege cel in de kolom **Dimensies** en hebben onderliggende eenheden koppelingen naar specifieke combinaties of dimensies met jokertekens.
 
 ### <a name="organize-reporting-units"></a>Rapportage-eenheden indelen
 
@@ -160,20 +158,7 @@ U kunt voorkomen dat bepaalde gebruikers en groepen een rapportage-eenheid opene
 1. Open in Report Designer de rapportagestructuurdefinitie die u wilt wijzigen.
 2. Dubbelklik op de cel **Eenheidbeveiliging** voor de rapportage-eenheidrij waarvan u de toegang wilt verwijderen.
 3. Selecteer in het dialoogvenster **Eenheidbeveiliging** een naam en klik vervolgens op **Verwijderen**.
-4. Klik tot slot op **OK**.
-
-### <a name="link-to-reports"></a>Koppelen aan rapporten
-
-Nadat u een **rapportkolom** hebt gemaakt in de rijdefinitie en het rapport hebt opgegeven voor opname in het rapport, moet u de rapportagestructuur bijwerken met de gekoppelde kolom en de informatie over het rapport. Een rapport kan worden geïmporteerd in elke eenheid in de rapportagestructuur.
-
-### <a name="identify-the-report-in-a-reporting-tree"></a>Het rapport identificeren in een rapportagestructuur
-
-1. Open in Report Designer de rapportagestructuurdefinitie die u wilt wijzigen.
-2. In de kolom **Rijdefinities** is de informatie in de cellen gebaseerd op de informatie voor de geselecteerde rij, omdat dezelfde rijdefinitie moet worden gebruikt in alle eenheden van de rapportagestructuur. Dubbelklik op de cel **Rijdefinities** en selecteer vervolgens de rijdefinitie die informatie over het rapport bevat.
-3. Selecteer in de cel **Werkbladkoppeling** voor een rapportage-eenheid de naam van de koppeling die overeenkomt met het rapport.
-4. Voer in de cel **Werkmap- of rapportpad** voor een rapportage-eenheid de naam van het rapport in of blader om het rapport te selecteren.
-5. Voer, als u een werkblad in een rapport wilt opgeven, de naam van het werkblad in de cel **Naam van werkblad** in.
-6. Herhaal stappen 3 tot en met 5 voor elke rapportage-eenheid die gegevens uit een rapport moet ontvangen. Om te voorkomen dat foutieve gegevens in het rapport worden weergegeven, moet u ervoor zorgen dat de juiste namen van rapporten worden weergegeven in de bijbehorende eenheid van de rapportage-structuur.
+4. Klik op **OK**.
 
 ## <a name="examples"></a>Voorbeelden
 ### <a name="reporting-unit-structure--example-1"></a>Structuur van rapportage-eenheid – Voorbeeld 1

@@ -2,7 +2,8 @@
 title: Winkelselectiemodule
 description: In dit onderwerp wordt beschreven wat de winkelselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e73338666c0bd8c0dc8df840b308ec758ee812dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798628"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853412"
 ---
 # <a name="store-selector-module"></a>Winkelselectiemodule
 
@@ -32,11 +33,32 @@ Klanten kunnen de winkelselectiemodule gebruiken om een product in een geselecte
 
 Met de winkelselectiemodule kunnen gebruikers een locatie (plaats, provincie, adres enzovoort) invoeren om naar winkels te zoeken binnen een zoekradius. Wanneer de module voor het eerst wordt geopend, wordt de locatie van de browser van de klant gebruikt om winkels te vinden (als toestemming is gegeven).
 
-## <a name="store-selector-module-usage-in-e-commerce"></a>Gebruik van winkelselectiemodule in e-Commerce
+## <a name="store-selector-module-usage"></a>Gebruik van winkelselectiemodule
 
 - Een module voor winkelselectie kan worden gebruikt op een pagina met productgegevens (PDP) om een winkel te selecteren voor ophalen.
 - Een module voor winkelselectie kan worden gebruikt op een winkelwagentjepagina om een winkel te selecteren voor ophalen.
 - Een module voor winkelselectie kan worden gebruikt op een zelfstandige pagina waarop alle beschikbare winkels worden weergegeven.
+
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Afhandelingsgroep instellen in Commerce Headquarters
+
+De winkelselector geeft alleen beschikbare winkels weer, als de afhandelingsgroep is ingesteld in Commerce Headquarters. Zie [Afhandelingsgroep instellen](customer-orders-overview.md#set-up-fulfillment-groups) voor meer informatie.
+
+Bovendien moeten voor elke winkel in de afhandelingsgroep de lengte- en breedtegraad van de winkellocatie in Headquarters zijn gedefinieerd.
+
+Voer deze stappen uit om de waarden voor lengtegraad en breedtegraad voor een winkellocatie te configureren in Commerce Headquarters.
+
+1. Ga naar **Voorraadbeheer \> Instellen \> Opsplitsing van voorraad**.
+1. Selecteer de magazijnlocatie in het linkerdeelvenster.
+1. Selecteer **Geavanceerd** op het sneltabblad **Adressen**.
+
+    ![Voorbeeld van winkeldetails in Headquarters](./media/Store-address.png)
+
+1. Selecteer **Bewerken** in het actievenster.
+1. Voer op het sneltabblad **Algemeen** de waarden in voor **Breedtegraad** en **Lengtegraad**.
+
+    ![Voorbeeld van de instelling voor breedte- en lengtegraad voor een winkel in Headquarters](./media/Store-latitude-longitude.png)
+
+1. Selecteer **Opslaan** in het actievenster. 
 
 ## <a name="bing-maps-integration"></a>Bing Kaarten-integratie
 
@@ -48,6 +70,7 @@ Voor de REST API van Automatische suggesties moet u ervoor zorgen dat de volgend
 - Voeg aan de **img-src**-richtlijn **&#42;.virtualearth.net** toe.
 - Voeg aan de **script-src**-instructie **&#42;.bing.com, &#42;.virtualearth.net** toe.
 - Voeg aan de **script style-src**-instructie **&#42;.bing.com** toe.
+
  
 ## <a name="pickup-in-store-mode"></a>Ophalen in winkelmodus
 

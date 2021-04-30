@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2db444d4a5e40c1bbfdab9e044aff43031b6e9f4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c0eab7b0b1325d18f77ab5b8c9704781beba856
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826685"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897859"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Geconsolideerde financiële overzichten genereren
 
@@ -34,7 +34,7 @@ De eenvoudigste methode voor consolidatie met behulp van Financiële rapportage 
 3. Maak een rapporteringsstructuur dat een rapporteringsknooppunt bevat voor elk bedrijf dat u in geconsolideerde rapporten gebruikt.
 
 > [!TIP]
-> Zie voor meer informatie over het maken en beheren van rijdefinities, kolomdefinities en rapporteringsstructuren [Onderdelen van een financieel rapport](../../dev-itpro/analytics/financial-report-components.md).
+> Zie voor meer informatie over het maken en beheren van rijdefinities, kolomdefinities en rapporteringsstructuren [Onderdelen van een financieel rapport](../../fin-ops-core/dev-itpro/analytics/financial-report-components.md).
 
 In de volgende afbeelding ziet u hoe u een rapporteringsstructuurdefinitie kunt gebruiken in Financiële rapportage om elk bedrijf te identificeren dat u consolideert.
 

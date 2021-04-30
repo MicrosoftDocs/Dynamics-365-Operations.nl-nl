@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-05-14
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e70d8fc62150d68503552754e94c7130d8960c76
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f8244d512c9e1236fc52cd4a91cdc78cc2b9b984
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802354"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893096"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-14-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (14 mei 2020)
 
@@ -33,7 +33,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dy
 
 ## <a name="platform-changes"></a>Platformwijzigingen
 
-In de release van deze week zijn platformwijzigingen opgenomen. Zie [Platformupdates voor versie 10.0.10 van Finance and Operations-apps (mei 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34) voor meer informatie. Deze versie bevat correcties en wijzigingen in opgeslagen weergaven.
+In de release van deze week zijn platformwijzigingen opgenomen. Zie [Platformupdates voor versie 10.0.10 van Finance and Operations-apps (mei 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-34.md) voor meer informatie. Deze versie bevat correcties en wijzigingen in opgeslagen weergaven.
  
 ## <a name="ensure-dataverse-picklists-are-consistent-with-leave-enums-436343"></a>Zorg ervoor dat Dataverse-selectielijsten consistent zijn met Verlof-enums (436343)
 
@@ -116,7 +116,7 @@ U kunt een verloftype voor transporteren opgeven voor verlofsaldi waarvoor trans
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
-[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
 

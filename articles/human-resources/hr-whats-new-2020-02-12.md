@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c4453b5507f9972a4bfbc18a92f98b90b8e9c983
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0d5991f23723056d7ee766c00ed0f4ee16ff0f85
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790471"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890929"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-12-2020"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources (12 februari 2020)
 
@@ -55,7 +55,7 @@ De volgende voorbeeldfuncties zijn beschikbaar op 3 februari 2020:
 
 ### <a name="platform-update-32"></a>Platformupdate 32 
 
-Platform update 32 komt binnenkort beschikbaar. [Meer informatie over Platform update 32 vindt u hier](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32).
+Platform update 32 komt binnenkort beschikbaar. [Meer informatie over Platform update 32 vindt u hier](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-32.md).
 
 ### <a name="updated-dataverse-solution"></a>Dataverse-oplossing is bijgewerkt
 
@@ -75,7 +75,7 @@ Binnenkort komt een nieuwe Dataverse-oplossing beschikbaar met de volgende wijzi
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
-[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
 

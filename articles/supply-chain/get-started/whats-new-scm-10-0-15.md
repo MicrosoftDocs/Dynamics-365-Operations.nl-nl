@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: e550f310fe3ec0aaee9c16f3edccd775921a64be
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8c993c10bdd3517ed8a3e192851b4716cba1c638
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821148"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909962"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.15 (januari 2021)
 
@@ -33,23 +33,23 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-Deze versie bevat de volgende functies. Volg de koppelingen naar het [releaseeplan](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
+Deze versie bevat de volgende functies. Volg de koppelingen naar het [releaseeplan](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
 
 - Beheer van scale unit voor cloud en rand met werklasten voor productie en magazijnverwerking<br> - Zie [Schaaleenheden voor Cloud en Edge voor productie en magazijnbeheerworkloads](../cloud-edge/cloud-edge-landing-page.md) voor meer informatie.
 
-- [overboekingsorders maken en verwerken vanuit de magazijnapp](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Zie [overboekingsorders maken vanuit de magazijn-app](../warehousing/create-transfer-order-from-warehouse-app.md) voor meer informatie.
+- [overboekingsorders maken en verwerken vanuit de magazijnapp](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Zie [overboekingsorders maken vanuit de magazijn-app](../warehousing/create-transfer-order-from-warehouse-app.md) voor meer informatie.
 
-- [Standaard antwoordvelden voor offerteaanvragen voor biedingen van leveranciers](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Zie [Overzicht van offerteaanvragen](../procurement/request-quotations.md) voor meer informatie.
+- [Standaard antwoordvelden voor offerteaanvragen voor biedingen van leveranciers](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Zie [Overzicht van offerteaanvragen](../procurement/request-quotations.md) voor meer informatie.
 
-- [Invoegtoepassing Engineering Change Management voor Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Zie [Overzicht van technisch wijzigingsbeheer](../engineering-change-management/product-engineering-overview.md) voor meer informatie.
+- [Invoegtoepassing Engineering Change Management voor Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/engineering-change-management)<br> - Zie [Overzicht van technisch wijzigingsbeheer](../engineering-change-management/product-engineering-overview.md) voor meer informatie.
 
-- [Mixed-reality-guides voor productie](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Zie [Mixed-reality-guides bieden voor werknemers in productie](../production-control/instruction-guides-in-production-overview.md) voor meer informatie.
+- [Mixed-reality-guides voor productie](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mixed-reality-guides-manufacturing)<br> - Zie [Mixed-reality-guides bieden voor werknemers in productie](../production-control/instruction-guides-in-production-overview.md) voor meer informatie.
 
-- [Nieuwe gebruikerservaring voor uitvoering op de productievloer](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Zie [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) voor meer informatie.
+- [Nieuwe gebruikerservaring voor uitvoering op de productievloer](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/mes-terminal-enhancements-discrete-manufacturing)<br> - Zie [Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken](../production-control/production-floor-execution-use.md) voor meer informatie.
 
-- [Gebeurtenissen in magazijnapp verwerken](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Zie [Gebeurtenisverwerking in magazijn-app](../warehousing/warehouse-app-events.md) voor meer informatie.
+- [Gebeurtenissen in magazijnapp verwerken](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/process-warehouse-app-events)<br> - Zie [Gebeurtenisverwerking in magazijn-app](../warehousing/warehouse-app-events.md) voor meer informatie.
 
-- [Opgeslagen weergaven voor de pagina Vrijgegeven producten](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Zie [Opgeslagen weergaven](../../fin-ops-core/fin-ops/get-started/saved-views.md) voor meer informatie.
+- [Opgeslagen weergaven voor de pagina Vrijgegeven producten](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/saved-views-released-products-page)<br> - Zie [Opgeslagen weergaven](../../fin-ops-core/fin-ops/get-started/saved-views.md) voor meer informatie.
 
 - Document van USMCA-oorsprongscertificaat<br> - Zie [USMCA-certificaat van oorsprong](../transportation/usmca-certification-of-origin.md).
 
@@ -69,7 +69,7 @@ Voor informatie over de correcties die zijn opgenomen in alle updates die deel u
 
 Bent u benieuwd naar de komende en onlangs uitgebrachte voorzieningen in een van onze bedrijfsapps of platforms?
 
-Bekijk [Dynamics 365: releasewave 2-plan van 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/index). We hebben alle details in één document verzameld die u kunt gebruiken voor uw planning.
+Bekijk [Dynamics 365: releasewave 2-plan van 2020](/dynamics365-release-plan/2020wave2/index). We hebben alle details in één document verzameld die u kunt gebruiken voor uw planning.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Verwijderde en afgeschafte functies voor Supply Chain Management
 

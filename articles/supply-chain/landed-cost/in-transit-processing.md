@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fff3c3cfe5d0628fd4df6e719b72bc134c9d9c0a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823404"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909446"
 ---
 # <a name="goods-in-transit-processing"></a>Goederen in transit verwerken
 
@@ -40,7 +40,7 @@ Wanneer u de module **Francoprijzen** inschakelt, worden de standaardentiteit vo
 
 Wanneer de optie **Beheer van goederen in transit** is ingesteld op *Ja* voor het record met de leveringsvoorwaarden dat van toepassing is, worden de goederen in het transitmagazijn opgeslagen. Deze actie wordt alleen geactiveerd als de voorraadontvangst niet wordt verwerkt voordat er een factuur is verwerkt. Wanneer de leveringsvoorwaarden voor een order zijn ingesteld voor gebruik van goederen in transit, kunnen gebruikers geen productontvangstbon meer voor de inkooporder boeken. Als ze dat proberen, treedt er een fout op. In het foutbericht wordt aangegeven dat zij de functionaliteit voor goederen in transit moeten gebruiken om door te gaan.
 
-Als u met gegevens over leveringsvoorwaarden voor goederen in transit wilt werken, gaat u naar **Inkoopbeheer \> Instellen \> Distributie \> Leveringsvoorwaarden**. In de volgende tabel worden de velden beschreven die met de module **Francoprijzen** worden toegevoegd aan de pagina **Leveringsvoorwaarden** ter ondersteuning van de functionaliteit voor goederen in transit. Beide velden worden op het sneltabblad **Algemeen** weergegeven. Zie [Leveringsvoorwaarden (formulier)](https://technet.microsoft.com/library/aa575567.aspx) voor meer informatie over de andere velden op deze pagina.
+Als u met gegevens over leveringsvoorwaarden voor goederen in transit wilt werken, gaat u naar **Inkoopbeheer \> Instellen \> Distributie \> Leveringsvoorwaarden**. In de volgende tabel worden de velden beschreven die met de module **Francoprijzen** worden toegevoegd aan de pagina **Leveringsvoorwaarden** ter ondersteuning van de functionaliteit voor goederen in transit. Beide velden worden op het sneltabblad **Algemeen** weergegeven. Zie [Leveringsvoorwaarden (formulier)](/dynamicsax-2012//terms-of-delivery-form) voor meer informatie over de andere velden op deze pagina.
 
 | Veld | Beschrijving |
 |---|---|
@@ -55,7 +55,7 @@ Bij Francoprijzen worden twee nieuwe magazijntypen toegevoegd: *goederen in tran
 
 Het magazijntype *goederen in transit* wordt gekoppeld aan uw magazijn voor goederen in transit en dat magazijn wordt gebruikt om de goederen op orders voor goederen in transit te verwerken voordat ze in het definitieve doelmagazijn worden ontvangen. Over het algemeen is één magazijn voor goederen in transit voldoende voor elke locatie als Locatie en Magazijn de enige voorraaddimensies zijn die voor voorraadbeheer worden gebruikt. Als de voorraaddimensie Locatie ook wordt gebruikt, moet er voor elke combinatie van een locatie en magazijn een magazijn voor goederen-in-transit worden ingesteld, zodat ook de standaardlocatie kan worden opgegeven.
 
-Als u wilt werken met instellingen voor goederen in transit voor uw magazijnen, gaat u naar **Voorraadbeheer \> Instellen \> Opsplitsing van voorraad \> Magazijnen**. In de volgende tabel worden de velden beschreven die met de module **Francoprijzen** worden toegevoegd aan de pagina **Magazijnen** ter ondersteuning van de functionaliteit voor goederen in transit. Beide velden worden op het sneltabblad **Algemeen** weergegeven. Zie [Magazijnen (formulier)](https://technet.microsoft.com/library/aa620570.aspx) voor informatie over de andere velden op de pagina.
+Als u wilt werken met instellingen voor goederen in transit voor uw magazijnen, gaat u naar **Voorraadbeheer \> Instellen \> Opsplitsing van voorraad \> Magazijnen**. In de volgende tabel worden de velden beschreven die met de module **Francoprijzen** worden toegevoegd aan de pagina **Magazijnen** ter ondersteuning van de functionaliteit voor goederen in transit. Beide velden worden op het sneltabblad **Algemeen** weergegeven. Zie [Magazijnen (formulier)](/dynamicsax-2012//warehouses-form) voor informatie over de andere velden op de pagina.
 
 | Veld | Beschrijving |
 |---|---|
@@ -109,7 +109,7 @@ U kunt goederen ook ontvangen door een ontvangstjournaal te maken. U kunt een on
     - **Maken op basis van goederen in transit**: stel deze optie in op *Ja* als u hoeveelheden uit de geselecteerde regels voor in transit wilt halen voor de geselecteerde reis, container of folio.
     - **Maken op basis van orderregels**: Stel deze optie in op *Ja* om de standaardhoeveelheid in het ontvangstjournaal van de inkooporderregels in te stellen. De standaardhoeveelheid in het ontvangstjournaal kan alleen op deze manier worden ingesteld als de hoeveelheid op de inkooporderregel overeenkomt met de hoeveelheid op de in transit-order.
 
-1. Verwerk het ontvangstjournaal zoals is beschreven in [Artikelontvangsten registreren met een artikelontvangstjournaal](https://technet.microsoft.com/library/aa571129.aspx).
+1. Verwerk het ontvangstjournaal zoals is beschreven in [Artikelontvangsten registreren met een artikelontvangstjournaal](/dynamicsax-2012/appuser-itpro/register-item-receipts-with-an-item-arrival-journal).
 
 > [!NOTE]
 > Het ontvangstjournaal wordt meestal gebruikt in situaties waarin locaties en tracering van batch-/serienummers worden gebruikt, maar magazijnbeheer niet wordt gebruikt.
@@ -131,15 +131,14 @@ Met Francoprijzen worden de volgende processen voor het maken van werk aan de me
 - Artikelontvangst voor goederen in transit
 - Artikel van goederen in transit ontvangen en wegzetten
 
-De configuratie-instellingen voor deze processen lijken op de instellingen voor het [ontvangen en het maken van processen voor het maken van wegzetwerk](https://technet.microsoft.com/library/dn553216.aspx). Met het proces *Artikel van goederen in transit ontvangen en wegzetten* wordt echter ook het volgende veld toegevoegd.
+De configuratie-instellingen voor deze processen lijken op de instellingen voor het [ontvangen en het maken van processen voor het maken van wegzetwerk](/dynamicsax-2012/appuser-itpro/configure-mobile-devices-for-warehouse-work). Met het proces *Artikel van goederen in transit ontvangen en wegzetten* wordt echter ook het volgende veld toegevoegd.
 
 - **Container voltooid inschakelen**: Als deze optie is ingesteld op *Ja* wanneer het wegzetwerk is voltooid, biedt de mobiele app Magazijnbeheer een extra optie met de naam **Container voltooid**. Wanneer deze optie is geselecteerd, wordt de werknemer gevraagd te bevestigen dat de container is voltooid. Op dat moment worden alle korte ontvangsten verwerkt als een transactie voor minderlevering.
 
 ### <a name="location-directives"></a>Locatie-instructies
 
-Met Francoprijzen wordt een nieuw type werkorder met de naam *Goederen in transit* toegevoegd aan de pagina **Locatie-instructies**. Dit type werkorder moet op dezelfde manier worden geconfigureerd als de [typen werkorders voor inkooporders](https://technet.microsoft.com/library/dn553184.aspx).
+Met Francoprijzen wordt een nieuw type werkorder met de naam *Goederen in transit* toegevoegd aan de pagina **Locatie-instructies**. Dit type werkorder moet op dezelfde manier worden geconfigureerd als de [typen werkorders voor inkooporders](/dynamicsax-2012/appuser-itpro/create-a-work-template).
 
 ### <a name="work-templates"></a>Werksjablonen
 
-Met Francoprijzen wordt een nieuw type werkorder met de naam *Goederen in transit* toegevoegd aan de pagina **Werksjablonen**. Dit type werkorder moet op dezelfde manier worden geconfigureerd als de [werksjablonen voor inkooporders](https://technet.microsoft.com/library/dn553184.aspx).
-
+Met Francoprijzen wordt een nieuw type werkorder met de naam *Goederen in transit* toegevoegd aan de pagina **Werksjablonen**. Dit type werkorder moet op dezelfde manier worden geconfigureerd als de [werksjablonen voor inkooporders](/dynamicsax-2012/appuser-itpro/create-a-work-template).

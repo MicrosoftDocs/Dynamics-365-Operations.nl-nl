@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5854fa8c89f1a72c32bd480e71c1cd0a743c6cd7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b973be365b3afa8461f7709c1ecee835c5dcf2f1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803340"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890646"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-22-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 22 maart 2021
 
@@ -32,7 +32,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of di
 
 Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
-Zie [Overzicht van Dynamics 365 Human Resources 2021 release wave 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
+Zie [Overzicht van Dynamics 365 Human Resources 2021 release wave 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
 
 ## <a name="in-this-release"></a>In deze versie
 
@@ -44,7 +44,7 @@ De volgende functie zijn algemeen beschikbaar in deze release.
 
 | Functie | Vrijgaveplan | Documentatie |
 | --- | --- | --- |
-| Optie om de annulering en reset van vastgelopen batchtaken af te dwingen (560976) | NA | [Vastgelopen batchtaken opnieuw instellen](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-troubleshooting-batch-execution) |
+| Optie om de annulering en reset van vastgelopen batchtaken af te dwingen (560976) | NA | [Vastgelopen batchtaken opnieuw instellen](./hr-admin-troubleshooting-batch-execution.md) |
 | Kleine UX-updates voor het maken van een nieuw vergoedingsplan (419941) | NA | [Een nieuw vergoedingsplan maken](hr-benefits-plans-setup.md) |
 
 ### <a name="bug-fixes"></a>Correcties
@@ -74,8 +74,8 @@ Van de volgende nieuwe functies kan een voorbeeld worden bekeken. Zie [Functies 
 
 | Functie | Vrijgaveplan | Documentatie |
 | --- | --- | --- |
-| Werkgebied voor vergoedingenbeheer | [Werkruimte Vergoedingenbeheer (preview)](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Werkgebied voor vergoedingenbeheer](hr-benefits-management-workspace.md) |
-| Voorkomen dat werknemers zakelijke contactgegevens bewerken | [Voorkomen dat werknemers zakelijke contactgegevens bewerken](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [Bewerken van persoonlijke gegevens beperken](hr-employee-self-service-restrict-editing.md)|
+| Werkgebied voor vergoedingenbeheer | [Werkruimte Vergoedingenbeheer (preview)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Werkgebied voor vergoedingenbeheer](hr-benefits-management-workspace.md) |
+| Voorkomen dat werknemers zakelijke contactgegevens bewerken | [Voorkomen dat werknemers zakelijke contactgegevens bewerken](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [Bewerken van persoonlijke gegevens beperken](hr-employee-self-service-restrict-editing.md)|
 
 ## <a name="coming-soon"></a>Binnenkort beschikbaar
 
@@ -83,12 +83,12 @@ Van de volgende nieuwe functies kan een voorbeeld worden bekeken. Zie [Functies 
 | --- | --- |
 | Vaardigheden die een manager voor diens werknemers invoert, kunnen automatisch worden goedgekeurd door een workflow | Binnenkort beschikbaar. |
 
-Zie [Overzicht van Dynamics 365 Human Resources 2021 release wave 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/) voor een volledige lijst met geplande functies en de bijbehorende geplande versies.
+Zie [Overzicht van Dynamics 365 Human Resources 2021 release wave 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/) voor een volledige lijst met geplande functies en de bijbehorende geplande versies.
 
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
-[Overzicht van Dynamics 365 Human Resources 2021 release wave 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[Overzicht van Dynamics 365 Human Resources 2021 release wave 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
 

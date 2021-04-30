@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 25719de3d86785442e00f7375de525b95bdb094d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753691"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894143"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Aangepaste opslaglocaties opgeven voor gegenereerde documenten
 
@@ -27,7 +27,7 @@ Met de API (Application Programming Interface) van het ER-raamwerk kunt u de lij
 
 ## <a name="prerequisites"></a>Vereisten
 
-Implementeer een topologie die ondersteuning biedt voor continuous build. Zie [Topologieën implementeren die ondersteuning bieden voor continue bouw- en testautomatisering](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation) voor meer informatie. U moet ook toegang hebben tot deze topologie voor een van de volgende rollen:
+Implementeer een topologie die ondersteuning biedt voor continuous build. Zie [Topologieën implementeren die ondersteuning bieden voor continue bouw- en testautomatisering](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation) voor meer informatie. U moet ook toegang hebben tot deze topologie voor een van de volgende rollen:
 
 - Ontwikkelaar elektronische rapportage
 - Functioneel consultant elektronische rapportage
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Wijzig de bestaande klasse `AssetRollForwardService` en schrijf code om een aangepaste bestemmingsfabriek in te stellen voor de rapportuitvoeringsfunctie. Wanneer een aangepaste bestemmingsfabriek is opgebouwd, wordt de toepassingsgestuurde parameter die een bestemmingsmap opgeeft doorgegeven. Op deze manier wordt de bestemmingsmap gebruikt om gegenereerde bestanden op te slaan.
 
     > [!NOTE] 
-    > Controleer of de opgegeven map (**c:\\0** in dit voorbeeld) aanwezig is in het lokale bestandssysteem van de server waarop de AOS-service wordt uitgevoerd. Anders wordt een uitzondering [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) gegenereerd tijdens runtime.
+    > Controleer of de opgegeven map (**c:\\0** in dit voorbeeld) aanwezig is in het lokale bestandssysteem van de server waarop de AOS-service wordt uitgevoerd. Anders wordt een uitzondering [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) gegenereerd tijdens runtime.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

@@ -13,25 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9fabc308b1b0682c6fdce3e81e7335417846bebd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743528"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893271"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>ER-configuraties ontwerpen om byte order mark (BOM) in gegenereerde bestanden te onderdrukken
 
 [!include [banner](../includes/banner.md)]
 
-U kunt een [Electronic reporting (ER)](general-electronic-reporting.md) [oplossing](er-quick-start1-new-solution.md) ontwerpen om uitgaande documenten te genereren. Als u documenten wilt genereren als tekst- of XML-bestanden, moet de oplossing een ER-[configuratie](general-electronic-reporting.md#Configuration) bevatten die een ER-[indelings](general-electronic-reporting.md#FormatComponentOutbound)component bevat. Als u de [tekenversleuteling](https://docs.microsoft.com/windows/win32/intl/character-sets) wilt opgeven die de set tekens in gegenereerde bestanden vertegenwoordigt, moet de ER-indeling het indelingselement **Common\\File** bevatten. Om het ER-indelingsonderdeel te configureren, moet u de [concept](general-electronic-reporting.md#component-versioning)-versie van de ER-configuratie in de ER-indelingsontwerper openen en het element **Common\\File** toevoegen. Geef in het veld **Codering** de codering op van uitgaande bestanden die tijdens runtime worden gegenereerd met dit onderdeel.
+U kunt een [Electronic reporting (ER)](general-electronic-reporting.md) [oplossing](er-quick-start1-new-solution.md) ontwerpen om uitgaande documenten te genereren. Als u documenten wilt genereren als tekst- of XML-bestanden, moet de oplossing een ER-[configuratie](general-electronic-reporting.md#Configuration) bevatten die een ER-[indelings](general-electronic-reporting.md#FormatComponentOutbound)component bevat. Als u de [tekenversleuteling](/windows/win32/intl/character-sets) wilt opgeven die de set tekens in gegenereerde bestanden vertegenwoordigt, moet de ER-indeling het indelingselement **Common\\File** bevatten. Om het ER-indelingsonderdeel te configureren, moet u de [concept](general-electronic-reporting.md#component-versioning)-versie van de ER-configuratie in de ER-indelingsontwerper openen en het element **Common\\File** toevoegen. Geef in het veld **Codering** de codering op van uitgaande bestanden die tijdens runtime worden gegenereerd met dit onderdeel.
 
 > [!NOTE]
 > Als de indeling een onjuiste coderingsnaam bevat, ontstaat er een fout wanneer u de wijzigingen in de instellingen van de indeling opslaat.
 
 ![Een hoofdelement toevoegen op de pagina Indelingsontwerper](./media/er-suppress-bom-characters-image1.gif)
 
-Als u **UTF-8**, **UTF-16** of **UTF-32** als codering opgeeft, komt de optie **BOM-tekens onderdrukken** beschikbaar. Stel deze optie in op **Ja** om [BOM-tekens (byte order mark)](https://docs.microsoft.com/globalization/encoding/byte-order-mark) te onderdrukken in uitgaande bestanden die tijdens runtime worden gegenereerd wanneer de bewerkbare ER-indeling wordt uitgevoerd.
+Als u **UTF-8**, **UTF-16** of **UTF-32** als codering opgeeft, komt de optie **BOM-tekens onderdrukken** beschikbaar. Stel deze optie in op **Ja** om [BOM-tekens (byte order mark)](/globalization/encoding/byte-order-mark) te onderdrukken in uitgaande bestanden die tijdens runtime worden gegenereerd wanneer de bewerkbare ER-indeling wordt uitgevoerd.
 
 > [!NOTE]
 > Als u het veld **Codering** leeg laat, wordt de standaardcodering **UTF-8** gebruikt.

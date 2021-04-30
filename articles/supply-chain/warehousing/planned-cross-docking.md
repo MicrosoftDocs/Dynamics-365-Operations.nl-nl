@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 49807c90c145eee55fae2d515fd19925eb2d944c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 11e044e04e05c68af676bf97e6085e9975da5c1d
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810409"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911243"
 ---
 # <a name="planned-cross-docking"></a>Gepland cross-docken
 
@@ -28,19 +28,21 @@ In dit onderwerp wordt geavanceerd gepland cross-docking beschreven. Cross-docki
 
 Bij cross-docken kunnen de werknemers het wegzetten van inkomende artikelen en het verzamelen voor uitgaande artikelen overslaan voor voorraat die al voor een uitgaande order is gemarkeerd. Zo wordt het aantal aanrakingsmomenten voor voorraad waar mogelijk zo klein mogelijk gehouden. Omdat er minder interactie is met het systeem, kan worden bespaard op tijd en ruimte op de magazijnvloer.
 
-Voordat cross-docken kan worden uitgevoerd, moet de gebruiker een nieuwe sjabloon voor cross-docken configureren, waarin de voorraadbron en andere reeksen vereisten voor cross-docken worden opgegeven. Wanneer de uitgaande order wordt gemaakt, moet de regel worden gemarkeerd voor een inkomende order die hetzelfde artikel bevat.
+Voordat u cross-docken kunt uitvoeren, moet u een nieuwe sjabloon voor cross-docken configureren, waarin de voorraadbron en andere reeksen vereisten voor cross-docken worden opgegeven. Wanneer de uitgaande order wordt gemaakt, moet de regel worden gemarkeerd voor een inkomende order die hetzelfde artikel bevat. U kunt het veld met de richtlijncode selecteren in de sjabloon voor cross-docken, vergelijkbaar met de manier waarop u aanvullings- en inkooporders instelt.
 
 Bij ontvangst van inkomende orders identificeert de cross-dockingconfiguratie automatisch dat cross-docken vereist is, en maakt het werk aan voor verplaatsing van de vereiste hoeveelheid op basis van de configuratie van de locatie-instructie.
 
 > [!NOTE]
-> Registratie van voorraadtransacties wordt **niet** ongedaan gemaakt wanneer het cross-dockingwerk wordt geannuleerd, zelfs als de instelling voor deze mogelijkheid is ingeschakeld in de parameters van magazijnbeheer.
+> Registratie van voorraadtransacties wordt *niet* ongedaan gemaakt wanneer het cross-dockingwerk wordt geannuleerd, zelfs als de instelling voor deze mogelijkheid is ingeschakeld in de parameters van magazijnbeheer.
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>De functies voor gepland cross-docken inschakelen
 
 Als de functies die in dit onderwerp worden beschreven, nog niet in het systeem aanwezig zijn, gaat u naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de volgende functies in de volgende volgorde in:
 
 1. *Gepland cross-docken*
-2. *Sjablonen met locatie-instructies voor cross-docken*
+1. *Sjablonen met locatie-instructies voor cross-docken*
+    > [!NOTE]
+    > Met deze functie kunt u het veld **Richtlijncode** opgeven in de sjabloon voor cross-docken, vergelijkbaar met de manier waarop u aanvullingssjablonen instelt. Als u deze functie inschakelt, kunt u geen richtlijncode toevoegen aan de regels van de werksjabloon voor cross-docken voor de laatste regel *Wegzetten*. Zo zorgt u ervoor dat de uiteindelijke plaats kan worden bepaald tijdens het maken van het werk voordat er werksjablonen worden gebruikt.
 
 ## <a name="setup"></a>Instelling
 
@@ -90,7 +92,7 @@ Gepland cross-docken wordt geïmplementeerd als een boekingsmethode voor lading.
 
     - **Instructiecode:** laat dit veld leeg
 
-        Met deze optie is het systeem in staat om locatie-instructies te gebruiken om de beste locatie te bepalen waar de voorraad voor cross-docken naartoe kan worden verplaatst. U kunt de optie instellen door een instructiecode toe te wijzen aan elke relevante sjabloon voor cross-docken. Elke instructiecode duidt een unieke locatie-instructie aan.
+        Deze optie wordt ingeschakeld door de functie *Sjablonen voor cross-docken met locatierichtlijnen*. Het systeem gebruikt locatierichtlijnen om de beste locatie te bepalen waar de voorraad voor cross-docken naartoe kan worden verplaatst. U kunt de optie instellen door een instructiecode toe te wijzen aan elke relevante sjabloon voor cross-docken. Als er instructiecode is ingesteld, worden de locatie-instructies niet op volgorde doorzocht, maar wordt er op instructiecode gezocht wanneer werk wordt gegenereerd. Op deze manier kunt u locatierichtlijnen beperken die voor een bepaalde sjabloon voor cross-docken worden gebruikt.
 
     - **Tijdvenster valideren:** *Ja*
 

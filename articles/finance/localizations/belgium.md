@@ -2,7 +2,7 @@
 title: Overzicht België
 description: In dit onderwerp vindt u een overzicht van de specifieke functionaliteit voor België.
 author: ShylaThompson
-ms.date: 07/25/2019
+ms.date: 04/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: belgium
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e771ebce34dd8c12d436f2258515022f8f9692a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1a87a68675bc1f45c07256b18721341646450d39
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840320"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893822"
 ---
 # <a name="belgium-overview"></a>Overzicht België
 
@@ -40,13 +40,14 @@ Voor informatie over het instellen en maken van de INTERVAT-belastingaangifte vo
 |----------------------------|--------------------------|----------------------------------------|
 |Rapport Belgisch Luxemburgs Wissel Instituut (BLWI)|**Btw** > **Aangiften** > **Buitenlandse handel** > **BLWI** | Zie [Rapportage voor betalingssaldo instellen (België)](tasks/be-00011-set-up-payment-balance-reporting.md) als u de BLWI-informatie wilt instellen. Zie [Transacties maken en overboeken naar het BLWI (België)](tasks/be-00011-create-transfer-blwi.md) als u het BLWI-rapport wilt genereren.| 
 |PRODCOM-rapport|**Btw** > **Aangiften** > **Buitenlandse handel** > **PRODCOM**|Fabrikanten van industriële producten verzenden het PRODCOM-rapport aan het Nationaal Instituut voor de Statistiek (NIS) in reactie op het jaarlijkse PRODCOM-onderzoek. Het PRODCOM-rapport bevat productiestatistieken voor industriële producten die worden vervaardigd door productiebedrijven die in België gevestigd zijn. Dit rapport wordt meestal gebruikt door accountants en boekhoudmanagers. Zie voor meer informatie [PRODCOM instellen en onderhouden](emea-bel-prodcom-report.md). |
+|Journaalrapporten|**Grootboek** > **Vragen en rapporten** > **Journaalrapporten**|Belgische bedrijven moeten geregeld een rapport afdrukken voor elk journaal. Het rapport bevat een chronologische lijst met alle boekingen naar de grootboekrekeningen voor elk journaal. Deze rapporten bewijzen de integriteit van de boekhouding en worden gebruikt tijdens het financiële audits om de btw-vereffening af te stemmen met de boekingen op de bijbehorende grootboekrekeningen. Zie [Journaalrapporten (boekingsjournalen)](emea-bel-journal-reports.md) voor meer informatie. |
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Microsoft Dynamics Localization Portal: Rapport België](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/Belgium.html) (CustomerSource-account vereist)
-- [Overzicht van elektronische rapportage](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-- [Lokalisatie en wettelijk voorgeschreven functies](../../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json)
+- [Overzicht van elektronische rapportage](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Lokalisatie en wettelijk voorgeschreven functies](../../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 14df61a68ed402365bd26257cfc5e9b6b4c14db3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2bf587933aa24e772e6cebca94ee6e8648ec7f10
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803364"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890670"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-january-21-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources, 21 januari 2021
 
@@ -31,7 +31,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn of di
 
 Zie [Updateproces](hr-admin-setup-update-process.md) voor meer informatie over het updateproces en de planning.
 
-Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
+Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/) voor meer informatie over nieuwe functies en de verwachte algemene beschikbaarheidsdatums ervan.
 
 
 ## <a name="in-this-release"></a>In deze versie
@@ -44,8 +44,8 @@ De volgende functie zijn algemeen beschikbaar in deze release.
 
 | Functie | Vrijgaveplan | Documentatie |
 | --- | --- | --- |
-| Platformupdate 10.0.16(40) | -- | [Platformupdates voor versie 10.0.16 van Finance and Operations-apps (februari 2021)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16) |
-| Uitgebreide aanvragen en goedkeuringen voor werkstromen | [Verbeteringen in de ervaring van werkstromen voor organisatie en personeelsbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Configuratieoptie om de lijst Aan mij toegewezen werkitems te positioneren](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| Platformupdate 10.0.16(40) | -- | [Platformupdates voor versie 10.0.16 van Finance and Operations-apps (februari 2021)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md) |
+| Uitgebreide aanvragen en goedkeuringen voor werkstromen | [Verbeteringen in de ervaring van werkstromen voor organisatie en personeelsbeheer](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Configuratieoptie om de lijst Aan mij toegewezen werkitems te positioneren](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
 | Wijzigingen voor compliance met de Affordable Care Act (ACA) voor formulier 1095-C, formulier 1095-B en elektronische rapportage in oudere vergoedingen | -- | -- | 
 | Vergoedingenbeheer ondersteunt nu rapportage conform de ACA voor in de VS gevestigde rechtspersonen | -- | [ACA-rapporten genereren in Vergoedingenbeheer](hr-benefits-management-aca-reports.md) |
 | In Vergoedingenbeheer zijn nu niveaus voor vergoedingentarieven en dubbele niveaus voor vergoedingentarieven zichtbaar  | -- | -- |
@@ -80,13 +80,13 @@ Van de volgende nieuwe functies kan een voorbeeld worden bekeken. Zie [Functies 
 
 | Functie | Vrijgaveplan | Documentatie |
 | --- | --- | --- |
-| Human Resources-app in Microsoft Teams | [Verlof en verzuim van werknemers in Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Human Resources-app in Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Verlofaanvragen beheren in Teams](hr-teams-leave-app.md) |
-| Integratie met LinkedIn Talent Hub | [Integratie met LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [Integreren met LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-linkedin) |
-| Bedrijfsweergave van verlof voor managers | [Bedrijfsweergave van werknemersverlof voor managers](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Parameters voor verlof en verzuim configureren](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
-|Meer inzicht in verlofsaldi bieden| [Meer inzicht in verlofsaldi bieden](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [Werknemerverlof beheren](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-employee-leave) |
-| Managers kunnen wervingsaanvragen voor functies indienen | [Managers kunnen een wervingsaanvraag voor open functies indienen](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Een wervingsaanvraag toevoegen](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
-| Uitgebreid kandidaatprofiel in Personeelsbeheer | [Uitgebreid kandidaatprofiel in Personeelsbeheer](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Een kandidaatprofiel toevoegen of bewerken](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
-| Vereenvoudigde integraties met wervingsproviders inschakelen | [Vereenvoudigde integraties met wervingsproviders inschakelen](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Kandidaten werven](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
+| Human Resources-app in Microsoft Teams | [Verlof en verzuim van werknemers in Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Human Resources-app in Teams](./hr-admin-teams-leave-app.md)<br>[Verlofaanvragen beheren in Teams](hr-teams-leave-app.md) |
+| Integratie met LinkedIn Talent Hub | [Integratie met LinkedIn Talent Hub](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [Integreren met LinkedIn Talent Hub](./hr-admin-integration-linkedin.md) |
+| Bedrijfsweergave van verlof voor managers | [Bedrijfsweergave van werknemersverlof voor managers](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Parameters voor verlof en verzuim configureren](./hr-leave-and-absence-parameters.md) |
+|Meer inzicht in verlofsaldi bieden| [Meer inzicht in verlofsaldi bieden](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [Werknemerverlof beheren](./hr-leave-and-absence-manage-employee-leave.md) |
+| Managers kunnen wervingsaanvragen voor functies indienen | [Managers kunnen een wervingsaanvraag voor open functies indienen](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Een wervingsaanvraag toevoegen](./hr-personnel-recruit.md#add-a-recruiting-request) |
+| Uitgebreid kandidaatprofiel in Personeelsbeheer | [Uitgebreid kandidaatprofiel in Personeelsbeheer](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Een kandidaatprofiel toevoegen of bewerken](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
+| Vereenvoudigde integraties met wervingsproviders inschakelen | [Vereenvoudigde integraties met wervingsproviders inschakelen](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Kandidaten werven](./hr-personnel-recruit.md) |
 
 ## <a name="coming-soon"></a>Binnenkort beschikbaar
 | Functie | Gegevens |
@@ -94,20 +94,20 @@ Van de volgende nieuwe functies kan een voorbeeld worden bekeken. Zie [Functies 
 | Bevestiging per e-mail voor inschrijving voor vergoedingen | Deze functie biedt de optie om een bevestigingsbericht te zenden naar werknemers wanneer ze in Werknemerselfservice niet meer zijn geregistreerd voor vergoedingen. Meer informatie over dit onderwerp vindt u in [Parameters voor Vergoedingenbeheer per bedrijf configureren](hr-benefits-setup-parameters-per-company.md). |
 | Vaardigheden die een manager voor diens werknemers invoert, kunnen automatisch worden goedgekeurd door een workflow | Binnenkort beschikbaar. |
 
-Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/) voor een volledige lijst met geplande functies en de bijbehorende geplande versies.
+Zie [Overzicht van Dynamics 365 Human Resources 2020 release wave 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/) voor een volledige lijst met geplande functies en de bijbehorende geplande versies.
 
 ## <a name="terminology-updates-for-microsoft-dataverse"></a>Terminologiewijzigingen voor Microsoft Dataverse
 
-Met ingang van november 2020 is Common Data Service omgedoopt tot [Microsoft Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro). Zie voor meer informatie de [officiële aankondiging](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) op het Power Apps-blog. In combinatie met deze naamswijziging zijn een aantal termen in Dataverse gewijzigd. *Entiteit* is nu bijvoorbeeld *tabel* en *veld* is nu *kolom*. Zie [Terminologiewijzigingen](https://docs.microsoft.com/powerapps/maker/data-platform/data-platform-intro#terminology-updates) voor meer informatie.
+Met ingang van november 2020 is Common Data Service omgedoopt tot [Microsoft Dataverse](/powerapps/maker/data-platform/data-platform-intro). Zie voor meer informatie de [officiële aankondiging](https://powerapps.microsoft.com/blog/reshape-the-future-of-work-with-microsoft-dataverse-for-teams-now-generally-available/) op het Power Apps-blog. In combinatie met deze naamswijziging zijn een aantal termen in Dataverse gewijzigd. *Entiteit* is nu bijvoorbeeld *tabel* en *veld* is nu *kolom*. Zie [Terminologiewijzigingen](/powerapps/maker/data-platform/data-platform-intro#terminology-updates) voor meer informatie.
 
 In deze versie is de terminologie met betrekking tot de Dynamics 365 Human Resources-integratie met Dataverse in de hele toepassing bijgewerkt om deze wijzigingen weer te geven. Het formulier **Common Data Service-integratie** heet nu bijvoorbeeld **Microsoft Dataverse-integratie**.
 
-Meer informatie over de integratie van Dynamics 365 Human Resources met Microsoft Dataverse vindt u in [De Microsoft Dataverse-integratie configureren](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service) en [De virtuele Microsoft Dataverse-tabellen configureren](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-common-data-service-virtual-entities).
+Meer informatie over de integratie van Dynamics 365 Human Resources met Microsoft Dataverse vindt u in [De Microsoft Dataverse-integratie configureren](./hr-admin-integration-common-data-service.md) en [De virtuele Microsoft Dataverse-tabellen configureren](./hr-admin-integration-common-data-service-virtual-entities.md).
 
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
-[Overzicht van Dynamics 365 Human Resources 2020 release wave 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Overzicht van Dynamics 365 Human Resources 2020 release wave 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2927a976c38e9ed8166c62b030d665a159119ae1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 36be4a85dbbd28839afd45b6ed167b4c8181ae72
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826414"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909496"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Scenario-instelling voor IoT-intelligentie
 
@@ -42,7 +42,7 @@ Het scenario **Apparatuuruitval** heeft de volgende afhankelijkheden:
 Volg deze stappen om het scenario te configureren.
 
 1. Meld u aan bij Supply Chain Management.
-2. Schakel de functievlag voor IoT-intelligentie in. Zie [Overzicht van functiebeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) voor meer informatie.
+2. Schakel de functievlag voor IoT-intelligentie in. Zie [Overzicht van functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voor meer informatie.
 3. Configureer de metrische gegevens. Zie [Metrische gegevens configureren](iot-metrics-setup.md#configure-metrics) voor meer informatie.
 4. Ga naar **Productiebeheer \> Instellingen \> IoT-intelligentie- \> Scenariobeheer**.
 6. Selecteer op de tegel **Apparatuuruitval** de optie **Configureren** om de configuratiewizard te openen.
