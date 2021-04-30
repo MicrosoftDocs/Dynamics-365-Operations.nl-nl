@@ -15,48 +15,48 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a621328817171be7df0622507c84f5c6f6fe90a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f83dfe19e442b9e81d63a2b1dd3dd44aa2f594bc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5746430"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891178"
 ---
-# <a name="char-er-function"></a><span data-ttu-id="2b116-103">De ER-functie CHAR</span><span class="sxs-lookup"><span data-stu-id="2b116-103">CHAR ER function</span></span>
+# <a name="char-er-function"></a><span data-ttu-id="fdec7-103">De ER-functie CHAR</span><span class="sxs-lookup"><span data-stu-id="fdec7-103">CHAR ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2b116-104">De functie `CHAR` retourneert een waarde van het type *Tekenreeks* van één teken waarnaar wordt verwezen door het opgegeven Unicode-nummer.</span><span class="sxs-lookup"><span data-stu-id="2b116-104">The `CHAR` function returns a *String* value that presents a single character that is referenced by the specified Unicode number.</span></span>
+<span data-ttu-id="fdec7-104">De functie `CHAR` retourneert een waarde van het type *Tekenreeks* van één teken waarnaar wordt verwezen door het opgegeven Unicode-nummer.</span><span class="sxs-lookup"><span data-stu-id="fdec7-104">The `CHAR` function returns a *String* value that presents a single character that is referenced by the specified Unicode number.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2b116-105">Syntaxis</span><span class="sxs-lookup"><span data-stu-id="2b116-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fdec7-105">Syntaxis</span><span class="sxs-lookup"><span data-stu-id="fdec7-105">Syntax</span></span>
 
 ```vb
 CHAR (number)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="2b116-106">Argumenten</span><span class="sxs-lookup"><span data-stu-id="2b116-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="fdec7-106">Argumenten</span><span class="sxs-lookup"><span data-stu-id="fdec7-106">Arguments</span></span>
 
-<span data-ttu-id="2b116-107">`number`: *Geheel getal*</span><span class="sxs-lookup"><span data-stu-id="2b116-107">`number`: *Integer*</span></span>
+<span data-ttu-id="fdec7-107">`number`: *Geheel getal*</span><span class="sxs-lookup"><span data-stu-id="fdec7-107">`number`: *Integer*</span></span>
 
-<span data-ttu-id="2b116-108">Een getal dat overeenkomt met een verwacht enkel teken.</span><span class="sxs-lookup"><span data-stu-id="2b116-108">A number that corresponds to an expected single character.</span></span>
+<span data-ttu-id="fdec7-108">Een getal dat overeenkomt met een verwacht enkel teken.</span><span class="sxs-lookup"><span data-stu-id="fdec7-108">A number that corresponds to an expected single character.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="2b116-109">Retourwaarden</span><span class="sxs-lookup"><span data-stu-id="2b116-109">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="fdec7-109">Retourwaarden</span><span class="sxs-lookup"><span data-stu-id="fdec7-109">Return values</span></span>
 
-<span data-ttu-id="2b116-110">*Tekenreeks*</span><span class="sxs-lookup"><span data-stu-id="2b116-110">*String*</span></span>
+<span data-ttu-id="fdec7-110">*Tekenreeks*</span><span class="sxs-lookup"><span data-stu-id="fdec7-110">*String*</span></span>
 
-<span data-ttu-id="2b116-111">De resulterende tekstwaarde.</span><span class="sxs-lookup"><span data-stu-id="2b116-111">The resulting text value.</span></span>
+<span data-ttu-id="fdec7-111">De resulterende tekstwaarde.</span><span class="sxs-lookup"><span data-stu-id="fdec7-111">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="2b116-112">Gebruiksaanwijzingen</span><span class="sxs-lookup"><span data-stu-id="2b116-112">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="fdec7-112">Gebruiksaanwijzingen</span><span class="sxs-lookup"><span data-stu-id="fdec7-112">Usage notes</span></span>
 
-<span data-ttu-id="2b116-113">De door deze functie geretourneerde tekenreeks is afhankelijk van de codering die in het bovenliggende indelingselement **FILE** is geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="2b116-113">The string that this function returns depends on the encoding that is selected in the parent **FILE** format element.</span></span> <span data-ttu-id="2b116-114">Zie voor een overzicht van ondersteunde coderingen [Coderingsklasse](https://msdn.microsoft.com/library/system.text.encoding(v=vs.110).aspx).</span><span class="sxs-lookup"><span data-stu-id="2b116-114">For a list of the supported encodings, see [Encoding class](https://msdn.microsoft.com/library/system.text.encoding(v=vs.110).aspx).</span></span>
+<span data-ttu-id="fdec7-113">De door deze functie geretourneerde tekenreeks is afhankelijk van de codering die in het bovenliggende indelingselement **FILE** is geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="fdec7-113">The string that this function returns depends on the encoding that is selected in the parent **FILE** format element.</span></span> <span data-ttu-id="fdec7-114">Zie voor een overzicht van ondersteunde coderingen [Coderingsklasse](/dotnet/api/system.text.encoding).</span><span class="sxs-lookup"><span data-stu-id="fdec7-114">For a list of the supported encodings, see [Encoding class](/dotnet/api/system.text.encoding).</span></span>
 
-## <a name="example"></a><span data-ttu-id="2b116-115">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="2b116-115">Example</span></span>
+## <a name="example"></a><span data-ttu-id="fdec7-115">Voorbeeld</span><span class="sxs-lookup"><span data-stu-id="fdec7-115">Example</span></span>
 
-<span data-ttu-id="2b116-116">`CHAR (255)` retourneert **ÿ**.</span><span class="sxs-lookup"><span data-stu-id="2b116-116">`CHAR (255)` returns **"ÿ"**.</span></span>
+<span data-ttu-id="fdec7-116">`CHAR (255)` retourneert **ÿ**.</span><span class="sxs-lookup"><span data-stu-id="fdec7-116">`CHAR (255)` returns **"ÿ"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="2b116-117">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="2b116-117">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="fdec7-117">Aanvullende resources</span><span class="sxs-lookup"><span data-stu-id="fdec7-117">Additional resources</span></span>
 
-[<span data-ttu-id="2b116-118">Tekstfuncties</span><span class="sxs-lookup"><span data-stu-id="2b116-118">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="fdec7-118">Tekstfuncties</span><span class="sxs-lookup"><span data-stu-id="fdec7-118">Text functions</span></span>](er-functions-category-text.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
