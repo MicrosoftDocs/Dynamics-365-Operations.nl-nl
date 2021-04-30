@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 497061500660e41c8f82c73e5dd6c085810c9209
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744046"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910444"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Vergelijking van functies tussen cloud en on-premises
 
@@ -84,7 +84,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 
 | **Gebied**                | **Functie**             | **Cloud** | **On-premises** |
 |-------------------------|-------------------|-----------|-----------------|
-| Activabeheer                     |                                                                                           | Ja       | No              |
+| Activabeheer                     |                                                                                           | Ja       | Ja             |
 | Conformiteit en certificaten        |                                                                                           | Ja       | Ja             |
 |                                      | SOC 1-certificering van type 1                                                                | Ja       | Nee              |
 | Kostprijsboekhouding                      |                                                                                           | Ja       | Ja             |
@@ -147,7 +147,7 @@ De volgende tabellen bevatten de toepassingsgebieden. Ondersteuning voor cloud e
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Voor een lijst van mogelijkheden die in on-premises implementaties beschikbaar zijn, raadpleegt u [Functies in Commerce voor on-premises implementaties](../../../retail/retail-onprem.md).
+Voor een lijst van mogelijkheden die in on-premises implementaties beschikbaar zijn, raadpleegt u [Functies in Commerce voor on-premises implementaties](../../../commerce/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 

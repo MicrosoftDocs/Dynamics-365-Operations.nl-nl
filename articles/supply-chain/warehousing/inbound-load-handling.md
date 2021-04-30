@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62317f7e42c5392dce32a667f05f22e5c970abc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835625"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910010"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Magazijnverwerking van inkomende ladingen voor inkooporders
 
 In dit onderwerp wordt het magazijnverwerkingsproces voor inkomende ladingen voor inkooporders beschreven.
 
-Voor elke inkomende lading moet het systeem al een gerelateerde verkooporder bevatten en kan het ook een gerelateerde ladingspecificatie en/of transportplan bevatten. Zie [Bedrijfsproces: Transport plannen voor inkomende ladingen](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads) voor meer informatie over het maken en beheren van inkomende ladingen.
+Voor elke inkomende lading moet het systeem al een gerelateerde verkooporder bevatten en kan het ook een gerelateerde ladingspecificatie en/of transportplan bevatten. Zie [Bedrijfsproces: Transport plannen voor inkomende ladingen](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads) voor meer informatie over het maken en beheren van inkomende ladingen.
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Overzicht: hoe inkomende ladingen worden gemaakt, geregistreerd en ontvangen
 
@@ -38,11 +38,11 @@ In de volgende afbeelding ziet u de gangbare stroom voor het verwerken van inkom
 
 1. **Er wordt een record voor een inkomende lading gemaakt om de ontvangst en de inhoud te plannen.**
 
-    De record voor inkomende lading vertegenwoordigt een leverancierszending met een of meer inkooporders. De lading komt naar verwachting in het magazijn aan als één fysieke transporteenheid (bijvoorbeeld een trucklading). De record met de inkomende lading wordt gebruikt voor planningsdoeleinden en laat de logistiek coördinator de voortgang van de lading van de leverancier volgen. De record wordt ook gebruikt om orderregelhoeveelheden te registreren en de voortgang te beheren via magazijnbewerkingen, zoals ontvangst en opslag. Ladingen kunnen automatisch of handmatig worden gemaakt, en worden gebaseerd op een inkooporder of een geavanceerde verzendmelding (Advanced Shipment Notice, ASN) van de leverancier. Zie [Een inkomende lading maken of wijzigen](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load) voor meer informatie.
+    De record voor inkomende lading vertegenwoordigt een leverancierszending met een of meer inkooporders. De lading komt naar verwachting in het magazijn aan als één fysieke transporteenheid (bijvoorbeeld een trucklading). De record met de inkomende lading wordt gebruikt voor planningsdoeleinden en laat de logistiek coördinator de voortgang van de lading van de leverancier volgen. De record wordt ook gebruikt om orderregelhoeveelheden te registreren en de voortgang te beheren via magazijnbewerkingen, zoals ontvangst en opslag. Ladingen kunnen automatisch of handmatig worden gemaakt, en worden gebaseerd op een inkooporder of een geavanceerde verzendmelding (Advanced Shipment Notice, ASN) van de leverancier. Zie [Een inkomende lading maken of wijzigen](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load) voor meer informatie.
 
 1. **De leverancier bevestigt de verzending van de lading.**
 
-    Wanneer de leverancier de lading verzendt, bevestigt de logistiek coördinator in het ontvangende magazijn de verzending van de lading. Als het ontvangende bedrijf gebruikmaakt van de module **Transportbeheer**, worden door de bevestiging van de inkomende zending andere taakverdelingsprocessen geactiveerd die aan de binnenkomende ladingen zijn gekoppeld. Zie [Een lading voor verzending bevestigen](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping) voor meer informatie.
+    Wanneer de leverancier de lading verzendt, bevestigt de logistiek coördinator in het ontvangende magazijn de verzending van de lading. Als het ontvangende bedrijf gebruikmaakt van de module **Transportbeheer**, worden door de bevestiging van de inkomende zending andere taakverdelingsprocessen geactiveerd die aan de binnenkomende ladingen zijn gekoppeld. Zie [Een lading voor verzending bevestigen](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping) voor meer informatie.
 
 1. **De lading arriveert in het magazijn en werknemers registreren hoeveelheden.**
 

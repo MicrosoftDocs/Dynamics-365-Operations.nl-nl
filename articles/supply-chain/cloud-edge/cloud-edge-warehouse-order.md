@@ -2,27 +2,21 @@
 title: Magazijnorders voor cloud- en randschaaleenheden
 description: Dit onderwerp biedt informatie over de mogelijkheid voor magazijnorders die wordt gebruikt als onderdeel van de werkbelasting van de magazijnschaaleenheid.
 author: perlynne
-ms.date: 01/14/2021
+ms.date: 04/13/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: WHSWarehouseOrderLine, WHSWarehouseReceiptEntry, PurchTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: global
-ms.search.industry: SCM
+ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2021-01-14
-ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: f2401102ab44f5c24f5cd6f545f30438db0a36cf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.search.validFrom: 2021-04-13
+ms.dyn365.ops.version: 10.0.19
+ms.openlocfilehash: c24c08771c83453bb65312700cf994c7a800b7fd
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836681"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899114"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Magazijnorders voor cloud- en randschaaleenheden
 
@@ -72,6 +66,8 @@ In de weergave **Magazijnorderregels** kunt u de voortgang van de inkomende ontv
 
 - Ga naar **Magazijnbeheer \> Query's en rapporten \> Magazijnorderregels** en gebruik het filter om te zoeken naar regels.
 - Ga naar **Inkoopbeheer \> Inkooporders \> Alle inkooporders** en open de relevante inkooporder. Selecteer in de sectie **Inkooporderregels** een of meer regels en selecteer op de werkbalk **Magazijn \> Magazijnontvangstbonnen**.
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

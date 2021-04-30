@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 770800e63de73c60e0e811734d4273ff2392620f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c55c36358b8acf93ab25a358d4d7cd6a4212c2b2
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829685"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909422"
 ---
 # <a name="master-planning-setup-wizard"></a>Wizard voor instellen van hoofdplanning
 
@@ -45,13 +45,13 @@ Op de eerste pagina van de wizard wordt gevraagd naar de specifieke vereisten va
 
 Als het aantal threads dat wordt berekend groter is dan 75 procent van het beschikbare aantal threads, wordt deze beperkt tot 75 procent van het aantal threads dat beschikbaar is voor elke klant. (Het aantal beschikbare threads wordt voor elke klant bepaald.)
 
-Zie [Aantal threads](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads) voor meer informatie.
+Zie [Aantal threads](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads) voor meer informatie.
 
 ### <a name="bundle-size"></a>Bundelgrootte
 
 De bundelgrootte wordt ingesteld op **1**. Deze waarde is vaak de beste, omdat de prestaties van de Hoofdplanning hierdoor mede worden verbeterd.
 
-Zie [Aantal taken in de taakbundel van de helper](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle) voor meer informatie.
+Zie [Aantal taken in de taakbundel van de helper](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle) voor meer informatie.
 
 ### <a name="firming-bundle-size"></a>Grootte van fiatteringsbundel
 
@@ -64,7 +64,7 @@ Bundelberekening = (aantal geplande orders × (timefence voor fiattering ÷ time
 
 De cachegrootte wordt ingesteld op **Maximum**. Deze waarde is vaak de beste, omdat de prestaties van de Hoofdplanning hierdoor mede worden verbeterd.
 
-Zie [Tijd toewijzen aan taken in een takenbundel](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle) voor meer informatie.
+Zie [Tijd toewijzen aan taken in een takenbundel](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle) voor meer informatie.
 
 ### <a name="manufacturing-setup"></a>Productie-instellingen
 
@@ -88,7 +88,7 @@ De resterende vragen op deze pagina en hun antwoorden volgen hetzelfde schema:
 - **Ja, zoals gedefinieerd in deze hoofdplanning** – de wizard stelt de optie **Prognoseplan (timefence)** in op **Ja**. Het aantal dagen dat u invoert, wordt gebruikt en overschrijft de waarden die zijn ingesteld bij de behoefteplanningsgroepen.
 - **Ja, zoals gedefinieerd in de behoefteplanningsgroep** – de wizard stelt de optie **Prognoseplan (timefence)** in op **Nee**.
 
-Zie [Taakplanning](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling) voor meer informatie.
+Zie [Taakplanning](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling) voor meer informatie.
 
 ## <a name="scheduling-options"></a>Planningsopties
 
@@ -99,7 +99,7 @@ Uw antwoord op de eerste vraag op deze pagina ('Wilt u bewerkingen plannen die z
 - **Ja** – Taakplanning wordt gebruikt.
 - **Nee** – Bewerkingsplanning wordt gebruikt.
 
-Zie [Bewerkingsplanning](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) en [Taakplanning](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling) voor meer informatie.
+Zie [Bewerkingsplanning](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) en [Taakplanning](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling) voor meer informatie.
 
 ## <a name="updates-of-demand-and-supply"></a>Updates van vraag en aanbod
 

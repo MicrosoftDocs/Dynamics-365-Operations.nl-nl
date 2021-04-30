@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3639c05b24de31cfa09d2d9d0cf427122f51eae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa8faf0f0f45f901151b3b20a1792b3d8f264fa6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810193"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897619"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>Toegangsrechten voor controllers voor kostenobjecten
 
@@ -62,9 +62,8 @@ In het volgende voorbeeld ziet u hoe een dimensiehiërarchie eruit kan zien.
 
 U kunt het sneltabblad **Gebruikers** in de hiërarchieontwerper gebruiken om een of meer gebruikers-id's op elk knooppunt in te voegen.
 
-|                                   | Gebruikers            | Bereiken van dimensieleden   |                         |
+|             Knooppunten                 | Gebruikers            | Van dimensielid     |   Tot dimensielid   |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **Knooppunten**                         | **Gebruikers-id**      | **Van dimensielid** | **Tot dimensielid** |
 | Organisatie                      | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Beheer                 | april            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Financiën   | Alicia           | CC002                     | CC003                   |
@@ -95,14 +94,14 @@ De instellingen voor de hiërarchie van toegangslijsten worden gebruikt voor het
     - Power BI-gegevensvisualisaties die zijn ingesloten in de Dynamics 365 Finance-client
 
 > [!IMPORTANT]
-> - Voordat de hiërarchie van toegangslijsten van invloed kan zijn op gegevens in Power BI, moeten de hiërarchie van toegangslijsten en beveiliging op rijniveau in Power BI worden gekoppeld. Zie [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md) voor meer informatie.
+> - Voordat de hiërarchie van toegangslijsten van invloed kan zijn op gegevens in Power BI, moeten de hiërarchie van toegangslijsten en beveiliging op rijniveau in Power BI worden gekoppeld. Zie [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md) voor meer informatie.
 > - Dit onderwerp bevat de vereisten waaraan moet worden voldaan voordat u het werkgebied **Kostenbeheer** kunt gebruiken.
 
 Aanvullende resources
 
 - [Werkgebied voor kostenbeheer](cost-control-workspace.md)
 - [Dimensiehiërarchie](dimension-hierarchy.md)
-- [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [Beveiliging instellen voor het inhoudpakket Kostprijsboekhouding](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

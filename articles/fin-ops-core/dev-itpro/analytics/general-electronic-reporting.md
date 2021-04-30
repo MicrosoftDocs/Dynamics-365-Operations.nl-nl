@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f172e4d3e9c175a93d6fd64f0aa1933a48860bca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d22a6fc336708028ce4953df50360c233398303d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750053"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893172"
 ---
 # <a name="electronic-reporting-er-overview"></a>Overzicht van elektronische rapportage (ER)
 
@@ -183,11 +183,11 @@ Houd er rekening mee dat dit type opslagplaats toegankelijk is in de volgende om
 
 Zie [ER-configuraties (Elektronische rapportage) importeren](./electronic-reporting-import-ger-configurations.md) voor meer informatie.
 
-Een opslagplaats **RCS** biedt toegang tot de lijst met configuraties van een specifiek exemplaar van [Regulatory Configuration Service (RCS)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) dat is geselecteerd in de fase van registratie van de opslagplaats. Met ER kunt u voltooide of gedeelde configuraties vanuit het geselecteerde RCS-exemplaar importeren in het huidige exemplaar, zodat u ze kunt gebruiken voor elektronische rapportage.
+Een opslagplaats **RCS** biedt toegang tot de lijst met configuraties van een specifiek exemplaar van [Regulatory Configuration Service (RCS)](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) dat is geselecteerd in de fase van registratie van de opslagplaats. Met ER kunt u voltooide of gedeelde configuraties vanuit het geselecteerde RCS-exemplaar importeren in het huidige exemplaar, zodat u ze kunt gebruiken voor elektronische rapportage.
 
 Zie [ER-configuraties (Elektronische rapportage) importeren vanuit RCS](./rcs-download-configurations.md) voor meer informatie.
 
-Een **algemene opslagplaats** biedt toegang tot de lijst met configuraties in de algemene opslagplaats in de [configuratieservice](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Dit type ER-opslagplaats kan alleen worden geregistreerd voor de Microsoft-provider. Vanuit de algemene opslagplaats kunt u de meest recente versies van ER-configuraties importeren in het huidige exemplaar.
+Een **algemene opslagplaats** biedt toegang tot de lijst met configuraties in de algemene opslagplaats in de [configuratieservice](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration). Dit type ER-opslagplaats kan alleen worden geregistreerd voor de Microsoft-provider. Vanuit de algemene opslagplaats kunt u de meest recente versies van ER-configuraties importeren in het huidige exemplaar.
 
 Zie voor meer informatie [Configuraties voor Elektronische rapportage (ER) importeren uit de algemene opslagplaats van de configuratieservice](./er-download-configurations-global-repo.md).
 

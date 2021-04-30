@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 263650cae4b8408f1f7a4a27c43294d2f51c1444
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: edbfad387496cb3381c6298b9141129c6a878335
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800136"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891836"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-06-2020"></a>Nieuwe of gewijzigde functies in Dynamics 365 Human Resources (06 augustus 2020)
 
@@ -33,23 +33,23 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dy
 
 ## <a name="platform-update-1001236-is-now-available"></a>Platform update 10.0.12(36) is nu beschikbaar
 
-Zie [Platformupdates voor versie 10.0.12 van Finance and Operations-apps (augustus 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12) voor meer informatie.
+Zie [Platformupdates voor versie 10.0.12 van Finance and Operations-apps (augustus 2020)](../fin-ops-core/dev-itpro/get-started/whats-new-platform-update-10-0-12.md) voor meer informatie.
 
 ## <a name="data-management-framework-dmf-entities-for-benefits-management"></a>DMF-entiteiten (Data Management Framework) voor vergoedingenbeheer
  
 Entiteiten voor vergoedingenbeheer worden vrijgegeven. DMF-entiteiten staan het importeren en exporteren van gegevens toe om het configureren van vergoedingenbeheer te vereenvoudigen. Er is een sjabloon voor vergoedingenbeheer beschikbaar voor het verplaatsen van gegevens. De sjabloon exporteert en importeert de gegevens op volgorde om gegevensafhankelijkheden te behouden. Ga voor meer informatie naar:
 
-- [DMF-entiteitsondersteuning](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) in het Dynamics 365 2020 releasewave 1-plan
-- [Overzicht van Gegevensbeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages)
+- [DMF-entiteitsondersteuning](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/dmf-entity-support) in het Dynamics 365 2020 releasewave 1-plan
+- [Overzicht van Gegevensbeheer](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md)
 
 
 ## <a name="claire-creates-a-workflow-for-buying-and-selling-leave-requests-446557"></a>Claire maakt een werkstroom voor het kopen en verkopen van verlofaanvragen (446557)
 
 Ga voor meer informatie naar:
 
-- [Toestaan dat werknemers verlof kopen en verkopen](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) in het Dynamics 365 2020 releasewave 2-plan
-- [Beleid voor verlof inkopen/verkopen beheren](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [Verlof inkopen en verkopen](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [Toestaan dat werknemers verlof kopen en verkopen](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) in het Dynamics 365 2020 releasewave 2-plan
+- [Beleid voor verlof inkopen/verkopen beheren](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [Verlof inkopen en verkopen](./hr-employee-self-service-buy-sell-leave.md)
 
 
 ## <a name="worker-postal-addresses-v2-entity-has-access-across-legal-entities-with-restricted-access-459126"></a>Postadressen van werknemer v2-entiteit heeft toegang voor rechtspersonen met beperkte toegang (459126)
@@ -62,7 +62,7 @@ Wanneer u de tijdelijke aanduiding gebruikt om een prestatiebeoordeling te opene
 
 ## <a name="new-entities-for-buying-and-selling-leave-473180"></a>Nieuwe entiteiten voor verlof kopen en verkopen (473180)
 
-De entiteiten van het Data Management Framework zijn nu beschikbaar voor verlof kopen en verkopen. Zie [Overzicht van Gegevensbeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages) voor meer informatie.
+De entiteiten van het Data Management Framework zijn nu beschikbaar voor verlof kopen en verkopen. Zie [Overzicht van Gegevensbeheer](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md) voor meer informatie.
 
 ## <a name="when-viewing-record-information-and-using-advanced-filters-a-user-could-gain-access-to-other-employees-records-472490"></a>Bij het weergeven van recordgegevens en het gebruik van geavanceerde filters kan een gebruiker toegang krijgen tot de records van andere werknemers (472490)
 
@@ -96,9 +96,9 @@ Met deze wijziging wordt de detectie van circulaire verwijzingen in de positiehi
 
 Sommige organisaties bieden een werknemers de mogelijkheid om hun verlof te kopen of verkopen. Dit proces wordt vaak handmatig beheerd. Deze functie automatiseert het beheer van beleidsregels en aanvragen voor de HR-afdeling. Het beheerproces voor verlof wordt gestroomlijnd en fouten worden geëlimineerd. Ga voor meer informatie naar:
 
-- [Toestaan dat werknemers verlof kopen en verkopen](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) in het Dynamics 365 2020 releasewave 2-plan
-- [Beleid voor verlof inkopen/verkopen beheren](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-buy-and-sell-leave-policies)
-- [Verlof inkopen en verkopen](https://docs.microsoft.com/dynamics365/human-resources/hr-employee-self-service-buy-sell-leave)
+- [Toestaan dat werknemers verlof kopen en verkopen](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/allow-employees-buy-sell-leave) in het Dynamics 365 2020 releasewave 2-plan
+- [Beleid voor verlof inkopen/verkopen beheren](./hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
+- [Verlof inkopen en verkopen](./hr-employee-self-service-buy-sell-leave.md)
 
 ## <a name="leave-accrual-for-a-single-company-or-single-plan"></a>Toerekening van verlof voor één bedrijf of één plan
 
@@ -126,15 +126,15 @@ In deze versie kunt u een regel maken voor het opschorten van verloftoerekeninge
 
 U kunt velden verplicht maken met behulp van de aanpassingsmogelijkheden van Human Resources. Voor deze functie zijn **Opgeslagen weergaven** vereist. Voor meer informatie over opgeslagen weergaven zie:
 
-- [Opgeslagen weergaven - algemene beschikbaarheid](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) in het Dynamics 365 2020 releasewave 2-plan
-- [Formulieren maken waarin opgeslagen weergaven volledig worden gebruikt](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- [Opgeslagen weergaven - algemene beschikbaarheid](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) in het Dynamics 365 2020 releasewave 2-plan
+- [Formulieren maken waarin opgeslagen weergaven volledig worden gebruikt](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>Human Resources-toepassing in Teams
 
 Werknemers kunnen vrije tijd bekijken en aanvragen in Microsoft Teams. Ze kunnen met een bot werken om verlofaanvragen te maken. Ga voor meer informatie naar:
 
-- [Voorziening voor verlof en verzuim van werknemers in Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) in het Dynamics 365 2020 releasewave 1-plan
-- [Human Resources-app in Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
+- [Voorziening voor verlof en verzuim van werknemers in Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) in het Dynamics 365 2020 releasewave 1-plan
+- [Human Resources-app in Teams](./hr-admin-teams-leave-app.md)
 
 ### <a name="dmf-entity-available-for-accrual-suspensions"></a>DMF-entiteit beschikbaar voor opschorten van toerekeningen
 
@@ -172,7 +172,7 @@ In het werkgebied voor **Functiebeheer** kunnen functies worden weergegeven die 
 ## <a name="see-also"></a>Zie ook
 
 [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)</br>
-[Overzicht van releasewave 2 van Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Overzicht van releasewave 2 van Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Het updateproces](hr-admin-setup-update-process.md)</br>
 [Functies beheren](hr-admin-manage-features.md)
 

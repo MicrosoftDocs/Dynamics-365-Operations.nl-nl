@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: dcb952ccc68f5f19119f8b72285667e259b00429
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c4cad305e3d130b3283ca3424c84f60e2d13307
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840720"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907810"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>De klantportal installeren, instellen en bijwerken
 
@@ -27,7 +27,7 @@ ms.locfileid: "5840720"
 
 Voor het implementeren van de klantportal hebt u de volgende licenties nodig:
 
-- **Power Apps-portals**: deze licentie is vereist om de klantportal te hosten. Portals worden op basis van gebruik in licentie gegeven. Zie [Licentievereisten voor Power Apps-portals](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals) voor meer informatie.
+- **Power Apps-portals**: deze licentie is vereist om de klantportal te hosten. Portals worden op basis van gebruik in licentie gegeven. Zie [Licentievereisten voor Power Apps-portals](/power-platform/admin/powerapps-flow-licensing-faq#portals) voor meer informatie.
 - **Twee keer wegschrijven**: u moet over de vereiste licenties beschikken om twee keer wegschrijven in te schakelen voor Supply Chain Management-tabellen. Zie [Systeemvereisten voor twee keer wegschrijven](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md) voor meer informatie.
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Afhankelijkheden voor twee keer wegschrijven en Power Apps-portals
@@ -40,7 +40,7 @@ In tegenstelling tot andere functies van Supply Chain Management, bevindt de kla
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Vereiste instellingen om de klantportal in te schakelen
 
-Nadat u hebt vastgesteld dat u over de vereiste licenties beschikt, kunt u Twee keer wegschrijven instellen zoals beschreven in de [Initiële synchronisatie-instructies voor Twee keer wegschrijven](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
+Nadat u hebt vastgesteld dat u over de vereiste licenties beschikt, kunt u Twee keer wegschrijven instellen zoals beschreven in de [Initiële synchronisatie-instructies voor Twee keer wegschrijven](/dynamics365/supply-chain/sales-marketing/enable-entity-map).
 
 Zorg ervoor dat u de volgende tabeltoewijzingen in twee keer wegschrijven inschakelt:
 
@@ -74,14 +74,14 @@ Later wordt mogelijk meer functionaliteit aan de klantportal toegevoegd. Eventue
 
 Als u wilt weten hoe u de klantportal kunt instellen en aanpassen, moet u eerst de volgende documentatie voor de onderliggende technologieën controleren:
 
-- [Documentatie over Power Apps-portals](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Documentatie over Power Apps-portals](/powerapps/maker/portals/overview)
 - [Documentatie over twee keer wegschrijven](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
 Om uw portals effectief te beheren, moet u inzicht hebben in de Power Apps-portals en Microsoft Dataverse-levenscyclus. Voor meer informatie raadpleegt u de volgende bronnen:
 
-- [Informatie over Portallevenscyclus](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Een portal bijwerken](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Portalconfiguratie migreren](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Informatie over Portallevenscyclus](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Een portal bijwerken](/powerapps/maker/portals/admin/upgrade-portal)
+- [Portalconfiguratie migreren](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Solution Lifecycle Management: Dynamics 365 voor Customer Engagement-apps](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6cb8050980b9b54480d09a59379430cd229ff141
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44df05083cd3c91e5dcbdb3062665c2145d92a7e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801090"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889807"
 ---
 # <a name="copy-an-instance"></a>Een exemplaar kopiëren
 
@@ -39,7 +39,7 @@ Houd rekening met de volgende tips als u een exemplaar wilt kopiëren:
 
 - U moet een beheerder zijn in de doelomgeving, zodat u zich kunt aanmelden nadat u het exemplaar hebt gekopieerd.
 
-- Wanneer u de Human Resources-database kopieert, kopieert u niet de elementen (apps of gegevens) die zijn opgenomen in een Microsoft Power Apps-omgeving. Zie [Een omgeving kopiëren](https://docs.microsoft.com/power-platform/admin/copy-environment) voor informatie over het kopiëren van elementen in een Power Apps-omgeving. De Power Apps-omgeving die u wilt overschrijven, moet een sandbox-omgeving zijn. U moet een globale tenantbeheerder zijn om een Power Apps-productieomgeving te wijzigen in een sandbox-omgeving. Zie [Schakelen tussen exemplaren](https://docs.microsoft.com/dynamics365/admin/switch-instance) voor meer informatie over het wijzigen van een Power Apps-omgeving.
+- Wanneer u de Human Resources-database kopieert, kopieert u niet de elementen (apps of gegevens) die zijn opgenomen in een Microsoft Power Apps-omgeving. Zie [Een omgeving kopiëren](/power-platform/admin/copy-environment) voor informatie over het kopiëren van elementen in een Power Apps-omgeving. De Power Apps-omgeving die u wilt overschrijven, moet een sandbox-omgeving zijn. U moet een globale tenantbeheerder zijn om een Power Apps-productieomgeving te wijzigen in een sandbox-omgeving. Zie [Schakelen tussen exemplaren](/dynamics365/admin/switch-instance) voor meer informatie over het wijzigen van een Power Apps-omgeving.
 
 - Als u een exemplaar in uw sandbox-omgeving kopieert en u de sandbox-omgeving wilt integreren met Dataverse, moet u aangepaste velden opnieuw toepassen op Dataverse-tabellen. Zie [Aangepaste velden toepassen op Dataverse](hr-admin-setup-copy-instance.md?apply-custom-fields-to-common-data-service).
 
@@ -80,7 +80,7 @@ Als u deze taak wilt voltooien, kopieert u eerst een exemplaar en meldt u zich v
 
 6. Selecteer de Power Apps-omgeving die u wilt kopiëren en selecteer vervolgens **Kopiëren**.
 
-7. Wanneer het kopieerproces is voltooid, meldt u zich aan bij het doelexemplaar en schakelt u Dataverse-integratie in. Zie voor meer informatie en instructies [Dataverse-integratie configureren](https://docs.microsoft.com/dynamics365/talent/hr-common-data-service-integration).
+7. Wanneer het kopieerproces is voltooid, meldt u zich aan bij het doelexemplaar en schakelt u Dataverse-integratie in. Zie voor meer informatie en instructies [Dataverse-integratie configureren](./hr-admin-integration-common-data-service.md).
 
 ## <a name="data-elements-and-statuses"></a>Gegevenselementen en statussen
 
@@ -142,7 +142,7 @@ Voer de volgende stappen uit voor elk aangepast veld dat wordt weergegeven in Da
 
 Door het proces van uitschakelen, wijzigingen toepassen, opnieuw inschakelen en wijzigingen weer toepassen, wordt het schema in Dataverse bijgewerkt met de aangepaste velden.
 
-Meer informatie over aangepaste velden vindt u in [Aangepaste velden maken en gebruiken](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields).
+Meer informatie over aangepaste velden vindt u in [Aangepaste velden maken en gebruiken](../fin-ops-core/fin-ops/get-started/user-defined-fields.md).
 
 ## <a name="see-also"></a>Zie ook
 

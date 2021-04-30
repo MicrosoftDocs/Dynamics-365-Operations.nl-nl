@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5d3b85e076292b9d41de6a4cf3198ed9b38d27c8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828029"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897691"
 ---
 # <a name="mobile-invoice-approvals"></a>Mobiele factuurgoedkeuringen
 
@@ -32,7 +32,7 @@ Met de mobiele mogelijkheden kan een zakelijke gebruiker mobiele ervaringen ontw
 
 | Vereiste                                                                                            | Omschrijving                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Vooraf gelezen mobiel handboek                                                                                |[Mobiel platform](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
+| Vooraf gelezen mobiel handboek                                                                                |[Mobiel platform](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Een omgeving met versie 1611 en Platformupdate 3 (november 2016)                   |
 | Installeer hotfix KB 3204341.                                                                              | Taakrecorder kan onterecht twee Sluiten-opdrachten voor vervolgkeuzelijstdialoogvensters registreren. Dit is opgenomen in Platformupdate 3 (update van november 2016). |
 | Installeer hotfix KB 3207800.                                                                              | Met deze hotfix kunnen bijlagen worden weergegeven op de mobiele client. Dit is opgenomen in Platformupdate 3 (update van november 2016).           |
@@ -213,7 +213,7 @@ Als u de pagina met factuurdetails wilt inschakelen voor mobiele apparaten, gebr
 
 11. Nadat alle velden uit de vorige twee stappen zijn toegevoegd, klikt u op **Gereed**. De pagina moet lijken op de volgende afbeelding.
     
-    [![Pagina nadat velden zijn toegevoegd.](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Illustratie met extra toegevoegde velden](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Klik op **Gereed** om de bewerkingsmodus af te sluiten.
 

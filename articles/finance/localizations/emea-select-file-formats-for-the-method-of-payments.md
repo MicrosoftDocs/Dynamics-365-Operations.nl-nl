@@ -14,12 +14,12 @@ ms.search.region: Belgium, France, Germany, Norway, Spain, Sweden, Switzerland
 ms.author: v-lenest
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 97bf9a70c1fc170ca8878a99bd16c9a0cb9c7309
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 895fbe2a46d99aed175676c22ba13c30d6d8b98e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818288"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894674"
 ---
 # <a name="file-formats-for-methods-of-payment"></a>Bestandsindelingen voor betalingsmethoden
 
@@ -36,7 +36,7 @@ Er zijn twee methoden waarmee u bestandsindelingen kunt verkrijgen voor gebruik 
 
 ### <a name="method-1-electronic-reporting-file-formats"></a>Methode 1: bestandsindelingen elektronische rapportage
 
-Voor bestandsindelingen die zijn gebaseerd op ER-configuraties, moet u de configuraties van Lifecycle Services (LCS) importeren. Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md). Nadat u configuraties voor rapportage hebt geïmporteerd voor deze bestandsindelingen, zijn de geïmporteerde indelingen beschikbaar om te selecteren op de pagina **Betalingsmethoden**. Het proces voor het importeren en selecteren van bestandsindelingen voor Europa is vergelijkbaar met de procedure voor Japan. Zie [JBA-betalingsbestandsindeling inschakelen](tasks/jba-payment-file-format.md) voor meer informatie
+Voor bestandsindelingen die zijn gebaseerd op ER-configuraties, moet u de configuraties van Lifecycle Services (LCS) importeren. Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md). Nadat u configuraties voor rapportage hebt geïmporteerd voor deze bestandsindelingen, zijn de geïmporteerde indelingen beschikbaar om te selecteren op de pagina **Betalingsmethoden**. Het proces voor het importeren en selecteren van bestandsindelingen voor Europa is vergelijkbaar met de procedure voor Japan. Zie [JBA-betalingsbestandsindeling inschakelen](tasks/jba-payment-file-format.md) voor meer informatie
 
 ### <a name="method-2-x-file-formats"></a>Methode 2: X++-bestandsindelingen
 

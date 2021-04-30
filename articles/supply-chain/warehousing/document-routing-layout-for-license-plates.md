@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: faf54fec2885f868c66987a7b481559d0c5615d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b5bf6815f225dcca8f9e89e2c85942ce8a2ccd7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838269"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907982"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Indeling van documentroutering voor nummerplaatlabels
 
@@ -73,7 +73,7 @@ De volgende voorbeelden laten zien hoe u het veld met de werkhoeveelheid(**Hoeve
 - Als u altijd vier cijfers wilt weergeven (met nullen als tijdelijke aanduidingen ), gebruikt u `$Qty:0000$`. Als de hoeveelheid bijvoorbeeld 10 is, wordt in het label "0010" weergegeven.
 - Gebruik `$Qty:0.00$` om altijd twee decimalen weer te geven. Als de hoeveelheid bijvoorbeeld 10 is, wordt in het label "10,00" weergegeven.
 
-Zie [Aangepaste numerieke tekenreeksen](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings) voor een volledige lijst met de beschikbare notatiereeksen voor getallen.
+Zie [Aangepaste numerieke tekenreeksen](/dotnet/standard/base-types/custom-numeric-format-strings) voor een volledige lijst met de beschikbare notatiereeksen voor getallen.
 
 ## <a name="custom-string-formats"></a>Aangepaste tekenreeksen
 
@@ -95,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 In dit voorbeeld wordt de datum 30 april 2020 afgedrukt als "30-04-2020".
 
-Zie [Aangepaste reeksen voor datum en tijd](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings) voor een volledige lijst met de beschikbare notatiereeksen voor datum/tijd.
+Zie [Aangepaste reeksen voor datum en tijd](/dotnet/standard/base-types/custom-date-and-time-format-strings) voor een volledige lijst met de beschikbare notatiereeksen voor datum/tijd.
 
 ## <a name="print-individual-lines-from-multiline-data"></a>Afzonderlijke regels uit gegevens met meerdere regels afdrukken
 

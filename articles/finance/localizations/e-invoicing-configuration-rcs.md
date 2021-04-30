@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840239"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897715"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Elektronische facturering in Regulatory Configuration Services (RCS) configureren
 
@@ -50,6 +50,14 @@ De functies ondersteunen ten slotte de uitwisseling van berichten met externe we
 
 De beschikbaarheid van de functies voor elektronische facturering is afhankelijk van het land of de regio. Sommige functies zijn algemeen beschikbaar, maar andere functies zijn nog in preview.
 
+#### <a name="generally-available-features"></a>Functies voor algemene beschikbaarheid
+
+In de volgende tabel worden de functies voor elektronische facturering weergegeven die algemeen beschikbaar zijn.
+
+| Land/regio | Functienaam                         | Bedrijfsdocument |
+|----------------|--------------------------------------|-------------------|
+| Egypte          | Elektronische factuur Egypte (EG) | Verkoopfacturen en projectfacturen |
+
 #### <a name="preview-features"></a>Voorbeeldfuncties
 
 In de volgende tabel worden de functies voor elektronische facturering weergegeven die momenteel in preview zijn.
@@ -61,7 +69,6 @@ In de volgende tabel worden de functies voor elektronische facturering weergegev
 | Brazilië         | Braziliaans NF-e (BR)                  | Fiscaal documentmodel 55, correcties, annuleringen en afkeuringen |
 | Brazilië         | Braziliaans NFS-e ABRASF Curitiba (BR) | Service belastingdocumenten |
 | Denemarken        | Elektronische factuur Denemarken (DK)       | Verkoopfacturen en projectfacturen |
-| Egypte          | Elektronische factuur Egypte (EG) | Verkoopfacturen en projectfacturen |
 | Estland        | Elektronische factuur Estland (EE)     | Verkoopfacturen en projectfacturen |
 | Finland        | Elektronische factuur Finland (FI)      | Verkoopfacturen en projectfacturen |
 | Frankrijk         | Elektronische factuur Frankrijk (FR)       | Verkoopfacturen en projectfacturen |
@@ -202,6 +209,91 @@ In de volgende tabel staan de beschikbare acties en of deze momenteel in het alg
 | Mexicaanse PAC-service aanroepen                      | Integreren met Mexicaanse VS-service voor CFDI-indiening.                      | Preview           |
 | Reactie verwerken                              | Het antwoord analyseren dat u van het webserviceoproep hebt ontvangen.                     | Algemeen beschikbaar  |
 | MS Power Automate gebruiken                         | Integreer met stroom die is ingebouwd in Microsoft Power Automate.                       | Preview           |
+
+### <a name="applicability-rules"></a>Toepasbaarheidsregels
+
+Toepasselijkheidsregels zijn configureerbare clausules die zijn gedefinieerd op het niveau van de functie Elektronische facturering. De regels zijn geconfigureerd om een context te bieden voor de uitvoering van functies voor elektronische facturering via de set met mogelijkheden voor Elektronische facturering.
+
+Wanneer een bedrijfsdocument van Finance of Supply Chain Management wordt ingediend bij elektronische facturering, bevat het bedrijfsdocument geen expliciete verwijzing waarmee de mogelijkhedenset voor Elektronische facturering een bepaalde elektronische factureringsfunctie kan aanroepen om de indiening te verwerken.
+
+Wanneer het bedrijfsdocument echter correct is geconfigureerd, bevat het de nodige elementen waarmee kan worden opgelost welke functie voor elektronische facturering moet worden geselecteerd en vervolgens de elektronische factuur kan genereren.
+
+Met de toepasselijkheidsregels kan de mogelijkheid voor Elektronische facturering worden ingesteld om de exacte elektronische factureringsfuncties te vinden die moeten worden gebruikt om de indiening te verwerken. Dit gebeurt door de inhoud van het ingediende bedrijfsdocument af te stemmen met de clausules uit de Toepasselijkheidsregels.
+
+Twee functies voor elektronische facturering met gerelateerde toepasselijkheidsregels worden bijvoorbeeld geïmplementeerd in de mogelijkhedenset Elektronische facturering.
+
+| Functie voor elektronische facturering | Toepasbaarheidsregels        |
+|------------------------------|--------------------------- |
+| V                            | <p>Land = BR</p><p>en</p><p>Rechtspersoon = BRMF</p>  |
+| B                            | <p>Land = MX</p><p>en</p><p>Rechtspersoon = MXMF</p>  |
+
+Als een bedrijfsdocument van Finance of Supply Chain Management wordt ingediend bij de mogelijkhedenset voor Elektronische facturering, bevat het bedrijfsdocument de volgende ingevulde kenmerken:
+
+- Land = BR
+- Rechtspersoon = BRMF
+
+De mogelijkhedenset voor Elektronische facturering selecteert de elektronische factureringsfunctie **A** om de indiening te verwerken en de elektronische factuur te genereren.
+
+Dit gebeurt op dezelfde manier als het bedrijfsdocument het volgende bevat:
+
+- Land = MX
+- Rechtspersoon = MXMF
+
+Elektronische factureringsfunctie **B** wordt is geselecteerd om de elektronische factuur te genereren.
+
+De configuratie van toepasselijkheidsregels kan niet dubbelzinnig zijn. Dit betekent dat twee of meer elektronische factureringsfuncties niet dezelfde clausules kunnen hebben, anders leidt dit tot geen selectie. Als er sprake is van een duplicatie van elektronische factureringsfuncties, gebruikt u om dubbelzinnigheid te voorkomen aanvullende clausules zodat de mogelijkhedenset voor elektronische facturering onderscheid kan maken tussen de twee elektronische factureringsfuncties.
+
+De elektronische factureringsfunctie **C** is bijvoorbeeld een kopie van de elektronische factureringsfunctie **A**.
+
+| Functie voor elektronische facturering | Toepasbaarheidsregels        |
+|------------------------------|--------------------------- |
+| V                            | <p>Land = BR</p><p>en</p><p>Rechtspersoon = BRMF</p>  |
+| C                            | <p>Land = BR</p><p>en</p><p>Rechtspersoon = BRMF</p>  |
+
+In dit voorbeeld staat functie **C** voor een zakelijke documentinzending die het volgende bevat:
+
+- Land = BR
+- Rechtspersoon = BRMF
+
+De mogelijkheid voor elektronische facturering kan niet onderscheiden welke functie voor elektronische facturering moet worden gebruikt om de indiening te verwerken, omdat de inzendingen exact dezelfde clausules bevatten.
+
+Om onderscheid te maken tussen de twee functies via toepasselijkheidsregels, moet een nieuwe clausule worden toegevoegd aan een van de functies zodat de mogelijkhedenset voor elektronische facturering de juiste functie voor elektronische facturering kan selecteren.
+
+| Functie voor elektronische facturering | Toepasbaarheidsregels        |
+|------------------------------|--------------------------- |
+| V                            | <p>Land = BR</p><p>en</p><p>Rechtspersoon = BRMF</p>  |
+| C                            | <p>Land = BR</p><p>en</p><p>Rechtspersoon = BRMF</p><p>en</p><p>Model=55</p>  |
+
+Om het maken van complexere clausules te ondersteunen zijn de volgende bronnen beschikbaar:
+
+Logische operators:
+- En
+- Of
+
+Typen operators:
+- Equal
+- Not equal
+- Greater than
+- Less than
+- Groter dan of gelijk aan
+- Kleiner dan of gelijk aan
+- Contains
+- Begint met
+
+Gegevenstypen:
+- Tekenreeks
+- Nummer
+- Booleaans
+- Datum
+- UUID
+
+Mogelijkheid om clausules te groeperen en de groep op te heffen.
+Het voorbeeld ziet er zo uit.
+
+| Functie voor elektronische facturering | Toepasbaarheidsregels        |
+|------------------------------|--------------------------- |
+| C                            | <p>Land = BR</p><p>en</p><p>(Rechtspersoon = BRMF</p><p>of</p><p>Model=55)</p>  |
+
 
 ## <a name="configuration-providers"></a>Configuratieproviders
 

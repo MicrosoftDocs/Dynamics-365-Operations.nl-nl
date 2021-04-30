@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a5e1cea5a249b6087ef87560dd06bc026dd129
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822126"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898205"
 ---
 # <a name="budget-planning-overview"></a>Overzicht van Budgetplanning
 
@@ -75,7 +75,7 @@ De volgende illustratie bevat een voorbeeld waar het hoofdkantoor van het bedrij
 
 Op de pagina **Organisatiehiërarchie** kunt u een organisatiehiërarchie opgeven als een budgetplanningshiërarchie voor elk budgetplanningsproces. De budgetplanningshiërarchie hoeft niet overeen te komen met de standaardorganisatiehiërarchie die wordt gebruikt voor andere doeleinden. Omdat deze hiërarchie wordt gebruikt om gegevens samen te voegen en te distribueren, kunt u deze wellicht een andere structuur geven. In het voorbeeldschema bevinden de verkoopafdelingen zich onder een hoofdkantoorniveau dat budget- en financiële afdelingen bevat. Deze structuur verschilt waarschijnlijk van de structuur die wordt gebruikt om bewerkingen voor de verkoopafdelingen te beheren. Slechts één organisatiehiërarchie kan worden toegewezen aan elk budgetplanningsproces.
 
-Zie [Organisaties en organisatiehiërarchieën](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md) voor meer informatie.
+Zie [Organisaties en organisatiehiërarchieën](../../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md) voor meer informatie.
 
 ### <a name="user-security"></a>Gebruikersbeveiliging
 
@@ -163,7 +163,7 @@ Naast kolommen voor budgetbedragen kunt u kolommen definiëren voor de velden vo
 
 Voor het voorbeeldschema wilt u mogelijk kolommen maken voor de scenario's "Verkoop vorig jaar", "Contracten" en "Prognose". (In de volgende afbeelding ziet u de relevante sectie van het voorbeeldschema.) U kunt vervolgens één scenario of al deze scenario's in afzonderlijke kolommen opdelen voor elk kwartaal van het boekjaar, zodat de manager van de verkoopafdeling nauwkeurig prognosebedragen voor elke periode kan invoeren.
 
-[![Kolommen](./media/columns.png)](./media/columns.png)
+[![Illustratie van secties van het schema voor het toevoegen van kolommen](./media/columns.png)](./media/columns.png)
 
 U kunt ook opgeven of elk indelingselement (kolom) bewerkbaar is en of het beschikbaar is in een werkbladsjabloon die voor die indeling is gemaakt. Voor het voorbeeldschema zijn in de indeling die voor de ramingsfase wordt gebruikt, de prognosekolommen bewerkbaar, terwijl de kolommen "Verkoop vorig jaar" en "Contracten" alleen-lezen zijn.
 

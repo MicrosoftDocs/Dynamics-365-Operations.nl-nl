@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd9ee69e180f2ff605c4f373a95d2346ccc73c0e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 126e9969f312ff7f6a6c64b733708754e7659214
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807939"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909226"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Workflows voor inkoopbeheer
 
@@ -47,7 +47,7 @@ De volgende workflowtypen zijn beschikbaar voor Inkoop en sourcing.
 | Workflow voor toepassing voor het toevoegen van leveranciers | Controle- en goedkeuringsworkflows maken voor het toevoegen van nieuwe leveranciers via leverancieraanvragen. |
 
 > [!IMPORTANT]
-> Wanneer u een nieuwe werkstroom toevoegt, worden mogelijk ook de volgende verouderde werkstromen weergegeven in het dialoogvenster **Werkstroom maken**. Deze zijn gerelateerd aan de functionaliteit *bevestiging van ontvangst* die beschikbaar was in [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), maar die nu is afgeschaft. Deze werkstromen worden momenteel niet ondersteund.
+> Wanneer u een nieuwe werkstroom toevoegt, worden mogelijk ook de volgende verouderde werkstromen weergegeven in het dialoogvenster **Werkstroom maken**. Deze zijn gerelateerd aan de functionaliteit *bevestiging van ontvangst* die beschikbaar was in [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), maar die nu is afgeschaft. Deze werkstromen worden momenteel niet ondersteund.
 > 
 > - Workflow voor melding van vervaldatum levering
 > - Workflow voor melding van ontvangen factuur

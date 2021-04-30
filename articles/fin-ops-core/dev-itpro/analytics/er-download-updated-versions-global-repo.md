@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 1e021105c19273db5ded7cb0902eca1d502ced8e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 724048991fc8864ef72a5155af66b9c709f4b875
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753355"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893951"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Bijgewerkte versies van ER-configuraties importeren
 
@@ -28,7 +28,7 @@ ms.locfileid: "5753355"
 
 Om [ER-configuraties](general-electronic-reporting.md#Configuration) (Electronic Reporting) te delen, wordt gebruik gemaakt van [ER-opslagplaatsen](general-electronic-reporting.md#Repository). U kunt configuraties vanuit verschillende opslagplaatsen [importeren](download-electronic-reporting-configuration-lcs.md) in uw exemplaar van Microsoft Dynamics 365 Finance. Wanneer u configuraties importeert, kunnen [configuratie providers](general-electronic-reporting.md#Provider) nieuwe [versies](general-electronic-reporting.md#component-versioning) van opslagplaatsen publiceren zodat deze kunnen worden gedeeld.
 
-In dit onderwerp wordt uitgelegd hoe u ER-configuraties importeert uit de algemene opslagplaats van de configuratieservice. Zie [Microsoft Dynamics 365 for Finance and Operations - Regulatory services, configuratieservice](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) voor meer informatie.
+In dit onderwerp wordt uitgelegd hoe u ER-configuraties importeert uit de algemene opslagplaats van de configuratieservice. Zie [Microsoft Dynamics 365 for Finance and Operations - Regulatory services, configuratieservice](/business-applications-release-notes/october18/dynamics365-finance-operations/regulatory-service-configuration) voor meer informatie.
 
 ## <a name="review-the-available-updated-versions"></a>Controleren welke bijgewerkte versies beschikbaar zijn
 

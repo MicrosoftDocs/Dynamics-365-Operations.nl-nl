@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7b66951b9c742af4aa11f681af8f9583a2d97d8a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841858"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908288"
 ---
 # <a name="safety-margins"></a>Veiligheidsmarges
 
@@ -87,7 +87,7 @@ Wanneer een uitgiftemarge wordt toegepast, komen gerelateerde leverings- en beho
 
 ### <a name="turn-on-safety-margins-in-feature-management"></a>Veiligheidsmarges inschakelen in Functiebeheer
 
-Voordat u deze functie kunt gebruiken met Planningsoptimalisatie, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
+Voordat u deze functie kunt gebruiken met Planningsoptimalisatie, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
 
 - **Module:** _Hoofdplanning_
 - **Functienaam:** _Marges voor Planningsoptimalisatie_

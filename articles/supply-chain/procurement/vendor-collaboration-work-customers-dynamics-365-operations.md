@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c734b62dff6fc6151e192f239ad319b78f8faa8f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5931d718d34db81ebd032eda821f071d9d329a26
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825201"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908030"
 ---
 # <a name="vendor-collaboration-with-customers"></a>Leverancierssamenwerking met klanten
 
@@ -31,7 +31,7 @@ In dit onderwerp wordt beschreven hoe u leverancierssamenwerking kunt gebruiken 
 - **Inkooporderbevestiging**: controleer inkooporders en reageer hierop.
 - **Biedingen van leverancier**: bekijk offerteaanvragen en reageer hierop door te bieden.
 - **Leveranciersgegevens**: bekijk modelgegevens van leveranciers en werk deze bij.
-- **Facturering**: werk met facturen. In dit onderwerp komt het werkgebied **Facturering** niet aan bod. Zie [Werkgebied voor samenwerkingsfacturering van leveranciers](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md) voor meer informatie over dit werkgebied.
+- **Facturering**: werk met facturen. In dit onderwerp komt het werkgebied **Facturering** niet aan bod. Zie [Werkgebied voor samenwerkingsfacturering van leveranciers](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md) voor meer informatie over dit werkgebied.
 
 Leveranciers kunnen ook informatie over de consignatievoorraad controleren.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819275"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908923"
 ---
 # <a name="routes-and-operations"></a>Routes en bewerkingen
 
@@ -79,7 +79,7 @@ Voordat een route in de planning of het productieproces kan worden gebruikt, moe
 
 Elke route kan afzonderlijk worden goedgekeurd of afgekeurd. Houd er rekening mee dat wanneer de goedkeuring van een route wordt ingetrokken, dit ook gebeurt voor alle gerelateerde routeversies. In de parameters van productiebeheer kunt u opgeven of de goedkeuring van routes kan vervallen en of de goedgekeurde routes kunnen worden gewijzigd.  
 
-Als u een logboek moet bijhouden waarin wordt geregistreerd wie de routes goedkeurt, kunt u elektronische handtekeningen vereisen voor routegoedkeuring. Gebruikers moeten dan hun identiteit bevestigen door middel van een [elektronische handtekening](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Als u een logboek moet bijhouden waarin wordt geregistreerd wie de routes goedkeurt, kunt u elektronische handtekeningen vereisen voor routegoedkeuring. Gebruikers moeten dan hun identiteit bevestigen door middel van een [elektronische handtekening](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
 Een bewerking is een stap in het productieproces. Elke bewerking heeft een ID en een eenvoudige beschrijving. In de volgende tabellen staan gangbare voorbeelden van bewerkingen in een machinewerkplaats.
@@ -185,7 +185,7 @@ Wanneer u een routeversie activeert, wijst u deze aan als de standaardversie van
 
 ### <a name="electronic-signatures"></a>Elektronische handtekeningen
 
-Als u een logboek moet bijhouden waarin wordt geregistreerd wie de routeversies goedkeurt en activeert, kunt u elektronische handtekeningen voor deze taken vereisen. Gebruikers die routeversies goedkeuren en activeren, moeten dan hun identiteit bevestigen door middel van een [elektronische handtekening](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Als u een logboek moet bijhouden waarin wordt geregistreerd wie de routeversies goedkeurt en activeert, kunt u elektronische handtekeningen voor deze taken vereisen. Gebruikers die routeversies goedkeuren en activeren, moeten dan hun identiteit bevestigen door middel van een [elektronische handtekening](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ### <a name="product-change-that-uses-case-management"></a>Productwijziging door middel van casebeheer
 
@@ -253,7 +253,7 @@ Daarom is als Activering is geselecteerd voor Overlapping, de rest van de instel
 
 - [Bronmogelijkheden](resource-capabilities.md)
 
-- [Overzicht van elektronische handtekeningen](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [Overzicht van elektronische handtekeningen](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 

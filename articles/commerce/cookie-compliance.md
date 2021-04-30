@@ -2,7 +2,7 @@
 title: Conformiteit van cookie
 description: In dit onderwerp worden overwegingen voor compliance op het gebied van cookies en het standaardbeleid in Microsoft Dynamics 365 Commerce beschreven.
 author: BrianShook
-ms.date: 08/31/2020
+ms.date: 04/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2cc2089bc3052c0c59cb0414f8301123a9a30df2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796022"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908179"
 ---
 # <a name="cookie-compliance"></a>Conformiteit van cookie
 
@@ -50,6 +50,57 @@ In de volgende tabel wordt de huidige verwijzingslijst van cookies weergegeven d
 | x-ms-cpim-slice                             | Wordt gebruikt om aanvragen naar het toepasselijke serverexemplaar voor productieverificatie te routeren. |
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Wordt gebruikt voor het onderhouden van de SSO-sessie.                        |
 | x-ms-cpim-trans                             | Wordt gebruikt voor het traceren van transacties (het aantal geopende tabbladen dat wordt geverifieerd tegen een Business-to-consumer-site (B2C)), inclusief de huidige transactie. |
+| \_msdyn365___muid_                            | Wordt gebruikt als Experimenten is geactiveerd voor de omgeving. wordt gebruikt als userId voor experimentdoeleinden. |
+| \_msdyn365___exp_                             | Wordt gebruikt als Experimenten is geactiveerd voor de omgeving; wordt gebruikt voor het meten van de prestaties voor de taakverdeling.         |
+
+
+
+Als een sitegebruiker een koppeling voor social media op een site selecteert, worden de cookies in de volgende tabel ook in de browser bijgehouden.
+
+
+| Domein                      | Cookie               | Beschrijving                                                  | Bron                                          |
+| --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| .linkedin.com                | UserMatchHistory         | Id-synchronisatie van LinkedIn-advertenties                                      | LinkedIn-feed en Insight-label                                |
+| .linkedin.com               | li_sugr                  | Browser-id                                           | LinkedIn Insight-label als IP-adres niet in een opgegeven land/regio is |
+| .linkedin.com               | BizographicsOptOut       | Bepaalt de afmeldstatus voor tracering van derden.              | Besturingselementen voor LinkedIn-gast en pagina's voor afmelden bedrijfstak           |
+| .linkedin.com               | \_guid                    | Browser-id voor Google Ads.                            | LinkedIn-feed                                                |
+| .linkedin.com               | li_oatml                 | Indirecte lid-id voor conversietracering, retargeting en analyses. | LinkedIn Ads en Insight-labels                                |
+| Verschillende first-party domeinen | li_fat_id                | Indirecte lid-id voor conversietracering, retargeting en analyses. | LinkedIn Ads en Insight-labels                                |
+| .adsymptotic.com            | U                        | Browser-id                                           | LinkedIn Insight-label als IP-adres niet in een opgegeven land/regio is |
+| .linkedin.com                | bcookie                  | Cookie browser-id                                            | Aanvragen voor LinkedIn                                         |
+| .linkedin.com                | bscookie                 | Veilige browsercookie                                        | Aanvragen voor LinkedIn                                         |
+| .linkedin.com               | lang                     | Hiermee stelt u standaard landinstelling en taal in.                                 | Aanvragen voor LinkedIn                                         |
+| .linkedin.com                | lidc                     | Gebruikt voor routering.                                             | Aanvragen voor LinkedIn                                         |
+| .linkedin.com               | aam_uuid                 | Adobe-cookie voor doelgroepbeheer                                                     | Instellen voor synchronisatie van id                                              |
+| .linkedin.com               | \_ga                      | Google Analytics-cookie                                            | Google Analytics                                             |
+| .linkedin.com               | \_gat                     | Google Analytics-cookie                                             | Google Analytics                                             |
+| .linkedin.com               | liap                     | Google Analytics-cookie                                             | Google Analytics                                             |
+| .linkedin.com               | lissc                    |                                                              |                                                              |
+| .facebook.com               | c_user                   | Cookie bevat de gebruikers-id van de momenteel aangemelde gebruiker.  |   Facebook                                                           |
+| .facebook.com               | datr                     | Gebruikt om de webbrowser aan te geven die wordt gebruikt om verbinding te maken met Facebook, onafhankelijk van de aangemelde gebruiker. | Facebook                                                             |
+| .facebook.com               | wd                       | Slaat de dimensies van het browservenster op en wordt gebruikt door Facebook om de weergave van de pagina te optimaliseren. | Facebook                                                             |
+| .facebook.com               | xs                       | Een nummer met twee cijfers dat het sessienummer aangeeft. Het tweede deel van de waarde is een sessiegeheim. |  Facebook                                                            |
+| .facebook.com               | fr                       | Bevat een unieke browser en gebruikers-id, gebruikt voor doelgerichte reclame. |  Facebook                                                            |
+| .facebook.com               | sb                       | Gebruikt om Facebook-suggesties voor vrienden te verbeteren.                                |  Facebook                                                            |
+| .facebook.com               | spin                     |                                                              |  Facebook                                                            |
+| .twitter.com                | guest_id                 |                                                              |  Twitter                                                            |
+| .twitter.com                | kdt                      |                                                              |  Twitter                                                             |
+| .twitter.com                | personalization_id       | Cookie bevat de gebruikers-id van de momenteel aangemelde gebruiker.  |  Twitter                                                             |
+| .twitter.com                | remember_checked_on      |                                                              | Twitter                                                              |
+| .twitter.com                | twid                     |                                                              |  Twitter                                                             |
+| .pinterest.com              | \_auth                    | Cookie bevat de gebruikers-id van de momenteel aangemelde gebruiker.  |   Pinterest                                                           |
+| .pinterest.com              | \_b                       |                                                              |   Pinterest                                                           |
+| .pinterest.com              | \_pinterest_pfob          |                                                              |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_referrer      | Cookie bevat pagina's wanneer de gebruiker op de knop Pinterest klikt.      |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_sess          | Cookie bevat pagina's wanneer de gebruiker op de knop Pinterest klikt.      |  Pinterest                                                            |
+| .pinterest.com              | \_routing_id              |                                                              |  Pinterest                                                            |
+| .pinterest.com              | bei                      |                                                              |  Pinterest                                                            |
+| .pinterest.com              | cm_sub                   | Bevat een gebruikers-id en de tijdstempel op het moment dat de cookie werd gemaakt. |  Pinterest                                                            |
+| .pinterest.com              | csrftoken                | Cookie bevat pagina's wanneer de gebruiker op de knop Pinterest klikt.      | Pinterest                                                             |
+| .pinterest.com              | sessionFunnelEventLogged | Cookie bevat pagina's wanneer de gebruiker op de knop Pinterest klikt.      | Pinterest                                                             |
+| .pinterest.com              | Lokale opslag            |                                                              |  Pinterest                                                            |
+| .pinterest.com              | Servicemedewerkers          |                                                              |  Pinterest                                                            |
+
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Cookietoestemming van sitegebruiker op een e-Commerce-site 
 

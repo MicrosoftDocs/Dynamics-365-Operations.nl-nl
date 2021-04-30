@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 760763078d10c56c8bc485601a2f14979d28ac11
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830731"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897157"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Overzicht SEPA-kredietoverdracht
 
@@ -54,7 +54,7 @@ De indeling voor kredietoverdrachtbetaling voor Europese landen wordt uitgevoerd
 U moet altijd naar de bibliotheek voor gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS) gaan en de meest recente lijst weergeven met beschikbare bestanden die het activumtype **GER-configuratie** hebben. In de volgende sectie, 'Wat moet ik instellen?' vindt u een koppeling naar het onderwerp met informatie over het maken van een LCS-opslagplaats voor het controleren van de beschikbare configuraties en het importeren van geselecteerde configuraties.
 
 ## <a name="what-do-i-have-to-set-up"></a>Wat moet ik instellen?
--   Voordat u kredietoverdrachtbestanden kunt maken, moet tenminste één actieve kredietoverdrachtconfiguratie in uw ER-configuraties worden geïmporteerd. Zie voor instructies het onderwerp [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+-   Voordat u kredietoverdrachtbestanden kunt maken, moet tenminste één actieve kredietoverdrachtconfiguratie in uw ER-configuraties worden geïmporteerd. Zie voor instructies het onderwerp [Elektronische rapportageconfiguraties downloaden vanuit Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 -   Wanneer u betalingsmethoden voor leveranciers configureert, selecteert u het selectievakje **Algemene elektronische rapportage**. Selecteer vervolgens de gewenste kredietoverdrachtindeling (bijvoorbeeld **ISO 20022 Kredietoverdracht**) als exportindelingsconfiguratie.
 -   U moet ook de rechtspersoon en bankrekeninggegevens instellen.
 -   Bankrekeningnummers, IBAN's en soms SWIFT-codes (BIC's) of andere id's zijn vereist om geldige kredietoverdracht betalingen te kunnen maken. Daarom moet u deze instellen voor de bankrekening van de leverancier en de bankrekening van de organisatie die de overdracht aanvraagt.

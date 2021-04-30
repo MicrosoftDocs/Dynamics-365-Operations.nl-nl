@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df430dada52ac1aa910a3d2007aacf65d8032383
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 48830c975f1bdfd953f57e7c0b6601a78e3a521b
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812542"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910034"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Overzicht van Offerteaanvragen
 
@@ -43,7 +43,7 @@ U kunt een offerteaanvraagcase maken op basis van geplande orders, een opdracht 
 
 Nadat u de offerteaanvraagcase hebt voorbereid en leveranciers hebt toegevoegd, selecteert u **Verzenden** (**Verzenden en publiceren** voor de openbare sector) op de offerteaanvraagcase. Er wordt een offerteaanvraagjournaal gemaakt voor elke leverancier waarnaar u een offerteaanvraag verzendt. U kunt afdrukopties configureren voor de actie Verzenden om een rapport voor elke leverancier af te drukken naar een archief of om een rapport te verzenden naar het e-mailadres van elke leverancier. Bovendien kunt u het offerteaanvraagjournaal voor elke leverancier gebruiken om een rapport te genereren dat u later kunt verzenden of opnieuw kunt verzenden naar een leverancier. U kunt de actie Verzenden ook zo configureren dat een antwoordblad wordt gegenereerd dat de leverancier kan invullen.
 
-Dit onderwerp behandelt het proces voor het afhandelen van offerteaanvragen wanneer geen gebruik wordt gemaakt van leverancierssamenwerking. Als uw systeem is ingesteld voor leverancierssamenwerking, kunnen leveranciers rechtstreeks biedingen invoeren in Supply Chain Management. Meer informatie vindt u in [Leverancierssamenwerking met klanten](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) en [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md).
+Dit onderwerp behandelt het proces voor het afhandelen van offerteaanvragen wanneer geen gebruik wordt gemaakt van leverancierssamenwerking. Als uw systeem is ingesteld voor leverancierssamenwerking, kunnen leveranciers rechtstreeks biedingen invoeren in Supply Chain Management. Meer informatie vindt u in [Leverancierssamenwerking met klanten](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations) en [Leverancierssamenwerking met externe leveranciers](vendor-collaboration-work-external-vendors.md).
 
 Als u een offerteaanvraag moet wijzigen nadat u deze hebt verzonden, kunt u de offerteaanvraag na voltooiing opnieuw verzenden naar leveranciers met de twee aanpassingsacties: Maken en Voltooien.
 
@@ -165,7 +165,7 @@ Als u het aanpassingsproces zo wilt configureren dat het meer beperkend is, moet
 
 Als u het minder beperkende aanpassingsproces wilt gebruiken, hoeft u **Maken** niet te selecteren voordat u de velden kunt wijzigen in een offerteaanvraagcase die al is verzonden. U moet wel handmatig een aanpassingsnotitie toevoegen aan de offerteaanvraag en de case opnieuw verzenden. Deze benadering kan alleen worden gebruikt als geen van de antwoorden (biedingen) is bewerkt. Als u een antwoord hebt ingevoerd en dit de status **Ontvangen** heeft, is de knop **Verzenden** niet beschikbaar. In dit geval moet u **Maken** en vervolgens **Voltooien** selecteren, zoals in het meer beperkende proces. Het antwoord wordt vervolgens opnieuw ingesteld op basis van de wijzigingen in de offerteaanvraagcase.
 
-Als leveranciers de interface voor leverancierssamenwerking gebruiken om biedingen in te voeren, moet u het aanpassingsproces altijd gebruiken om leveranciers op de hoogte brengen van wijzigingen in de offerteaanvraagcase. Dit proces voorkomt een situatie waarin leveranciers bieden op een verouderde offerteaanvraagcase terwijl hun bod wordt uitgevoerd. Meer informatie over de nieuwe functionaliteit voor leverancierssamenwerking vindt u in [Leverancierssamenwerking met externe leveranciers](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
+Als leveranciers de interface voor leverancierssamenwerking gebruiken om biedingen in te voeren, moet u het aanpassingsproces altijd gebruiken om leveranciers op de hoogte brengen van wijzigingen in de offerteaanvraagcase. Dit proces voorkomt een situatie waarin leveranciers bieden op een verouderde offerteaanvraagcase terwijl hun bod wordt uitgevoerd. Meer informatie over de nieuwe functionaliteit voor leverancierssamenwerking vindt u in [Leverancierssamenwerking met externe leveranciers](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors).
 
 Als u extra leveranciers wilt uitnodigen om te bieden en er geen wijzigingen zijn aangebracht in de offerteaanvraagcase, kunt u de knop **Verzenden** gebruiken. De leveranciers die u hebt toegevoegd, worden weergegeven op de pagina **Verzenden** en ontvangen de e-mailuitnodiging.
 

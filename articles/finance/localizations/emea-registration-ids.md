@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 01f9ef1bcf520ba5dd44c3a1e79cf0ea6c777eef
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a062235bfce6ccb8ad62c8c299418e933d3d42f9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818319"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894693"
 ---
 # <a name="registration-ids"></a>Registratie-id's
 
@@ -55,7 +55,7 @@ Registratiecategorie is een registratie-id voor land/regio die is goedgekeurd vo
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Registratie-id's voor globale-adresboekrecords invoeren
 
-Het globale adresboek bevat geconsolideerde adresgegevens voor klanten, leveranciers, contactpersonen, zakenrelaties en rechtspersonen. Zie voor meer informatie [Overzicht globaal adresboek](../../fin-and-ops/organization-administration/overview-global-address-book.md). De partijrecords die zijn opgeslagen in het globale adresboek, kunnen een of meer adresrecords bevatten. Deze adressen worden gebruikt voor verschillende doeleinden, zoals facturering of levering. U kunt registratie-id's voor adresgegevens instellen voor klanten, leveranciers, werknemers en rechtspersonen. Zoek de partij (rechtspersoon, leverancier, klant, werknemer) waarvoor u de registratie-id wilt invoeren en klik vervolgens op **Registratie-id's** in formulieren die zijn gerelateerd aan partij, rechtspersoon, leverancier, klant, werknemer om de pagina **Adressen beheren** te openen. Klik op het tabblad **Btw-registratie** op **Toevoegen** en voer de volgende informatie over de registratie-id in.
+Het globale adresboek bevat geconsolideerde adresgegevens voor klanten, leveranciers, contactpersonen, zakenrelaties en rechtspersonen. Zie voor meer informatie [Overzicht globaal adresboek](../../fin-ops-core/fin-ops/organization-administration/overview-global-address-book.md). De partijrecords die zijn opgeslagen in het globale adresboek, kunnen een of meer adresrecords bevatten. Deze adressen worden gebruikt voor verschillende doeleinden, zoals facturering of levering. U kunt registratie-id's voor adresgegevens instellen voor klanten, leveranciers, werknemers en rechtspersonen. Zoek de partij (rechtspersoon, leverancier, klant, werknemer) waarvoor u de registratie-id wilt invoeren en klik vervolgens op **Registratie-id's** in formulieren die zijn gerelateerd aan partij, rechtspersoon, leverancier, klant, werknemer om de pagina **Adressen beheren** te openen. Klik op het tabblad **Btw-registratie** op **Toevoegen** en voer de volgende informatie over de registratie-id in.
 
 
 |Veld                |Omschrijving                                                |
