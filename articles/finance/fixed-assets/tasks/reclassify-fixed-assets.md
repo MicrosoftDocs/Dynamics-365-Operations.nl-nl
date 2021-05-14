@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8935213c4629de408a48df5e54a2122324e1b3e7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fbfb754459fad1f3b1509f4f9c65c20e0385b013
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823927"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944706"
 ---
 # <a name="reclassify-fixed-assets"></a>Vaste activa opnieuw classificeren
 
@@ -27,11 +27,25 @@ Als u een activum opnieuw wilt classificeren, moet u dit overbrengen naar een ni
 
 Wanneer een vast activum opnieuw wordt ingedeeld:
 
-* Alle boeken voor het bestaande vaste activum worden gemaakt voor het nieuwe vaste activum. Informatie die was ingesteld voor het oorspronkelijke vaste activum is naar het nieuwe vaste activum gekopieerd. De status van de boeken voor het oorspronkelijke vaste activum is Gesloten. 
+- Alle boeken voor het bestaande vaste activum worden gemaakt voor het nieuwe vaste activum. Informatie die was ingesteld voor het oorspronkelijke vaste activum is naar het nieuwe vaste activum gekopieerd. De status van de boeken voor het oorspronkelijke vaste activum is Gesloten. 
 
-* De nieuwe boeken van het nieuwe vaste activum bevatten de datum van het opnieuw classificeren in het veld **Verwervingsdatum**. De datum in het veld **Uitvoeringsdatum afschrijving** is gekopieerd uit de oorspronkelijke activumgegevens. Als de afschrijving al is begonnen, geeft het veld **Datum waarop de afschrijving** het laatst is uitgevoerd de datum van het opnieuw classificeren weer. 
+- De nieuwe boeken voor het nieuwe vaste activum bevatten de datum van het opnieuw classificeren in het veld **Verwervingsdatum**. De datum in het veld **Uitvoeringsdatum afschrijving** is gekopieerd uit de oorspronkelijke activumgegevens. Als de afschrijving al is begonnen, geeft het veld **Datum waarop de afschrijving** het laatst is uitgevoerd de datum van het opnieuw classificeren weer. 
 
-* De bestaande vaste-activatransacties voor het oorspronkelijke vaste activum zijn geannuleerd en opnieuw gegenereerd voor het nieuwe vaste activum.
+- De bestaande vaste-activatransacties voor het oorspronkelijke vaste activum zijn geannuleerd en opnieuw gegenereerd voor het nieuwe vaste activum.
+
+- Wanneer een activum met een overboekingstransactie opnieuw is geclassificeerd, toont het systeem een bericht in het **Actiecentrum** om aan te geven dat een overboekingstransactie niet werd voltooid tijdens het herclassificatieproces. Een overboekingstransactie moet worden voltooid om de bestaande herclassificatietransacties naar de juiste financiële dimensies te verplaatsen. 
+
+   Tijdens het herclassificatieproces worden de volgende acties uitgevoerd om het activumsaldo van het oorspronkelijke activum naar het nieuwe activum opnieuw te classificeren. 
+   
+   - Het herclassificatieproces kopieert de gegevens van het oorspronkelijke vaste-activaboek naar het nieuwe vaste-activaboek.
+
+   - De herclassificatietransactie gebruikt gegevens van de oorspronkelijke geboekte verwerving die informatie over financiële dimensies bevat die in de verwervingstransactie zijn opgenomen.  
+   
+   - Tegelijkertijd draait het herclassificatieproces de verwerving van de oorspronkelijke activum en de activumoverboekingstransactie terug. 
+
+Het volgende diagram en procedure geven een voorbeeld van het herclassificatieproces. 
+
+[![Diagram met het herclassificatieproces](../media/reclassification-process-01.png)](../media/reclassification-process-01.png)
 
 Voer de volgende stappen uit om een vast activum opnieuw te classificeren:
 
@@ -42,7 +56,7 @@ Voer de volgende stappen uit om een vast activum opnieuw te classificeren:
     * Als de nieuwe vaste-activagroep aan een nummerreeks is gekoppeld, wordt het veld **Nieuw nummer voor vaste activa** bijgewerkt met het nummer uit de nummerreeks voor de nieuwe vaste-activagroep. Anders wordt het veld **Nieuw nummer voor vaste activa** bijgewerkt met het nummer uit de nummerreeks die is geconfigureerd op de pagina **Vaste-activaparameters**. Als op de pagina **Vaste-activaparameters** geen nummerrreeks is geconfigureerd, typ dan een nummer in het veld **Nieuw nummer voor vaste activa**.  
 5. Typ een datum in het veld **Datum herclassificatie**.
 6. Typ of selecteer een waarde in het veld **Boekstuknummering**.
-7. Klik op **OK**.
+7. Selecteer **OK**.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

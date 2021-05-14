@@ -2,7 +2,7 @@
 title: Vrije tijd aanvragen
 description: Vraag vrije tijd aan in Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0159935e98e720d401923230dd7b69e22581df84
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4885c91eb0406acda2cf60ed4e30f494ebaa2a99
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790687"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924849"
 ---
 # <a name="request-time-off"></a>Vrije tijd aanvragen
 
@@ -45,7 +45,7 @@ U kunt aanvragen voor vrije tijd indienen, uw vakantie- en verlofsaldi weergeven
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Een bijlage toevoegen aan een bestaande aanvraag
 
-Wanneer u een bestaande verlofaanvraag bijwerkt, kunt u een bijlage toevoegen. U kunt ook alle gerelateerde aanvragen voor een bepaalde datum weergeven. 
+Wanneer u een bestaande verlofaanvraag bijwerkt, kunt u een bijlage toevoegen. U kunt ook alle gerelateerde aanvragen voor een bepaalde datum weergeven.
 
 ## <a name="view-leave-balances"></a>Verlofsaldi weergeven
 
@@ -58,6 +58,20 @@ Wanneer u een bestaande verlofaanvraag bijwerkt, kunt u een bijlage toevoegen. U
 1. Selecteer in het werkgebied **Selfservice werknemer** de optie **Meer** (...) op de tegel **Verlofsaldi**.
 
 2. Als u uw goedgekeurde verlofaanvragen wilt weergeven, selecteert u **Goedgekeurde vrije tijd**. Als u uw uitstaande verlofaanvragen wilt weergeven, selecteert u **Verlofaanvragen**.
+
+## <a name="cancel-time-off-requests"></a>Verlofaanvragen annuleren
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+1. Selecteer in het werkgebied **Selfservice werknemer** de optie **Vrije tijd weergeven** op de tegel **Verlofsaldi**.
+
+2. Selecteer in het formulier **Verlof** een of meer verlofaanvragen die u wilt annuleren.
+
+3. Selecteer de knop **Annuleren**.
+
+4. Voer in het deelvenster **Details van annulering** een opmerking in en selecteer Vervolgens **Indienen**.
+
+   ![Verlofaanvraag annuleren](media/hr-leave-and-absence-cancel.png)
 
 ## <a name="see-also"></a>Zie ook
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd11068a31b5324d87416e7c00f75a59743f695a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 83587df3963d215fec020150e6b707e431c1b6eb
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813502"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944772"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Btw-vereffeningsperioden instellen
 
@@ -37,9 +37,7 @@ Bij deze taak wordt het demobedrijf USMF gebruikt.
 7. Selecteer in het veld **Betalingscondities** de gewenste record in het vervolgkeuzemenu. De gerelateerde btw-dienst kan als leverancier worden ingesteld en de btw-vereffening maakt een open leveranciersfactuur. De betalingstermijnen bepalen de vervaldatum voor de open leveranciersfactuur.  
 8. Selecteer een type voor de vereffeningsperiode-intervallen.
 9. Voer het aantal periode-intervaleenheden per periode in. Bijvoorbeeld, een kwartaal heeft 3 maanden.
-10. Schakel het selectievakje **Batchverwerking gebruiken voor btw-vereffening** in of uit. Het vereffeningsproces voor de vereffeningsperiode kan als batchtaak in de achtergrond worden verwerkt. Dit wordt aanbevolen voor een groot aantal btw-transacties binnen een periode-interval.  
-    > [!NOTE]
-    > Momenteel wordt dit niet ondersteund in Spanje, Japan en Nederland.
+10. Schakel het selectievakje **Batchverwerking gebruiken voor btw-vereffening** in of uit. Het vereffeningsproces voor de vereffeningsperiode kan als batchtaak in de achtergrond worden verwerkt. Dit wordt aanbevolen voor een groot aantal btw-transacties binnen een periode-interval.
 11. Schakel het selectievakje **Genereren van tegengerekende btw-transacties voorkomen** in of uit. Standaard genereert het systeem tegengerekende btw-transacties tijdens het vereffeningsproces, wat kan leiden tot prestatieprobleem als er een groot aantal btw-transacties binnen een periode-interval is. Schakel dit selectievakje in om genereren van tegengerekende btw-transacties te voorkomen.
 12. Vouw het tabblad **Periode-intervallen** uit.
 13. Selecteer **Toevoegen**.

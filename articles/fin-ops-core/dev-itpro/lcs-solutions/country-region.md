@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95989a395781e790da6aedc9079c3aaebf98f9ae
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3e7ba3405b6113bf612c685c4cccd9cf50f1187
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748460"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920852"
 ---
 # <a name="globalization-resources"></a>Globalisatieresources
 
 ## <a name="local-and-regional-deployments"></a>Lokale en regionale implementaties
 Als uw overheidsvoorschriften vereisen dat gegevens anders worden opgeslagen of anders worden onderhouden dan is vereist voor andere landen/regio's, moet u mogelijk rekening houden met vereisten voor het land of de regio tijdens de implementatiefase. De volgende resources zijn mogelijk relevant voor u:
 
-[Finance and Operations-apps die worden geëxploiteerd door 21Vianet in China](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Finance and Operations -apps die worden geëxploiteerd door 21Vianet in China](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Lokalisatie en wettelijk voorgeschreven functies
 
@@ -60,7 +60,7 @@ De volgende resources bevatten informatie over geplande en nieuwe lokalisatiefun
 -   [Meldingen indienen over land-/regiospecifieke wettelijk voorgeschreven functies](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Dynamics 365-releaseplannen
-De [Dynamics 365-releaseplannen](https://docs.microsoft.com/business-applications-release-notes/) bevatten beschrijvingen van nieuwe en verbeterde functies die zijn gepland voor de zakelijke toepassingen en toepassingsplatforms van Dynamics 365. 
+De [Dynamics 365-releaseplannen](/business-applications-release-notes/) bevatten beschrijvingen van nieuwe en verbeterde functies die zijn gepland voor de zakelijke toepassingen en toepassingsplatforms van Dynamics 365. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Nieuwe functies in Finance and Operations-apps
 Op de [startpagina Nieuwe of gewijzigde functies in Finance and Operations-apps](../../fin-ops/get-started/whats-new-changed.md) worden de functies vermeld die zijn opgenomen in specifieke releases van de Finance and Operations-apps.

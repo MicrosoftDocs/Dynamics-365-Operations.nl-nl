@@ -2,7 +2,8 @@
 title: Module Mediagalerie
 description: In dit onderwerp wordt beschreven wat mediagaleriemodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b0b1ec7324ff60ee7cdd01c97c8c08260bd8c947
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de0bc650393b035adea4570c5e64ecb76283117e
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802810"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937381"
 ---
 # <a name="media-gallery-module"></a>Module Mediagalerie
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven wat mediagaleriemodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
@@ -49,11 +51,13 @@ In het voorbeeld in de volgende afbeelding host een koopvak op een PDP productaf
 |---------------|--------|-------------|
 | Bron afbeelding | **Paginacontext** of **Product-id** | De standaardwaarde is **Paginacontext**. Als **Paginacontext** is geselecteerd, verwacht de module dat de pagina de product-id-informatie opgeeft. Als **product-id** is geselecteerd, moet de product-id voor een afbeelding worden opgegeven als de waarde van de eigenschap **Product-id**. Deze mogelijkheid is beschikbaar in Commerce versie 10.0.12. |
 | Product-ID | Een product-id | Deze eigenschap is alleen van toepassing als de waarde van de eigenschap **Afbeeldingsbron** **Product-id** is. |
-| Inzoomen op afbeelding | **Inline** of **Container** | Met deze eigenschap kan de gebruiker afbeeldingen in de module mediagalerie in- of uitzoomen. Een afbeelding kan inline of in een afzonderlijke container naast de afbeelding worden ingezoomd. Deze mogelijkheid is beschikbaar in 10.0.12 |
-| Zoomschaal | Een decimaal getal | Met deze eigenschap geeft u de schaalfactor voor het zoomen van afbeeldingen op. Als de waarde bijvoorbeeld is ingesteld op **2,5** is, worden afbeeldingen 2,5 keer vergroot.|
-| Volledig scherm | **True** of **False** | Deze eigenschap geeft aan of afbeeldingen in de modus volledig scherm kunnen worden weergegeven. In de modus volledig scherm kunnen afbeeldingen ook verder worden vergroot als de zoomfunctie is ingeschakeld. Deze mogelijkheid is beschikbaar in Commerce versie 10.0.13. |
+| Inzoomen op afbeelding | **Inline** of **Container** | Met deze eigenschap kan de gebruiker afbeeldingen in de module mediagalerie in- of uitzoomen. Een afbeelding kan inline of in een afzonderlijke container naast de afbeelding worden ingezoomd. Deze mogelijkheid is beschikbaar in 10.0.12. |
+| Zoomfactor | Een decimaal getal | Met deze eigenschap geeft u de schaalfactor voor het zoomen van afbeeldingen op. Als de waarde bijvoorbeeld is ingesteld op **2,5** is, worden afbeeldingen 2,5 keer vergroot. |
+| Volledig scherm | **True** of **False** | Deze eigenschap geeft aan of afbeeldingen in de modus volledig scherm kunnen worden weergegeven. In de modus volledig scherm kunnen afbeeldingen ook verder worden vergroot als de zoomfunctie is ingeschakeld. Deze mogelijkheid is beschikbaar in de Commerce-versie 10.0.13. |
+| Kwaliteit van ingezoomde afbeelding | Een getal van 1 tot en met 100 dat een percentage aangeeft en dat is geselecteerd met behulp van een schuifregelaar | Met deze eigenschap wordt de afbeeldingskwaliteit van ingezoomde afbeeldingen bepaald. Deze kan op 100 procent worden ingesteld, zodat een ingezoomde afbeelding altijd de hoogst mogelijke resolutie gebruikt. Deze eigenschap is niet van toepassing op PNG-bestanden omdat deze een verliesvrije bestandsindeling gebruiken. Deze mogelijkheid is beschikbaar vanaf de Commerce-versie 10.0.19. |
 | Afbeeldingen | Afbeeldingen die zijn geselecteerd in de mediabibliotheek van Site Builder | Naast het renderen vanuit een product kunnen afbeeldingen worden geselecteerd voor een mediagaleriemodule. Deze afbeeldingen worden toegevoegd aan alle beschikbare productafbeeldingen. Deze mogelijkheid is beschikbaar in Commerce versie 10.0.12. |
 | Oriëntatie van miniatuur | **Verticaal** of **Horizontaal** | Met deze eigenschap geeft u aan of miniatuurafbeeldingen moeten worden weergegeven in een verticale of horizontale strook. |
+| Afbeeldingen van hoofdproducten verbergen voor variant | **True** of **False** | Als deze eigenschap is ingesteld op **Waar**, worden afbeeldingen van het hoofdproduct verborgen tenzij de variant geen afbeeldingen heeft. Deze eigenschap heeft geen invloed op producten zonder varianten. |
 
 In de volgende afbeelding ziet u een voorbeeld van een module mediagalerie waarin de opties voor volledig scherm en zoomen beschikbaar zijn.
 

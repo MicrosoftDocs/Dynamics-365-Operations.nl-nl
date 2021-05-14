@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c69dc3f8e70c3b0a760f54d2251757ac997a432
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4bb73854f52525c0722683086d1b4f1dd7173306
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841618"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920652"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>Een nomenclatuur met productnummers maken voor vooraf gedefinieerde productvarianten
 
@@ -28,33 +28,33 @@ In dit onderwerp wordt aangegeven hoe u een productnummernomenclatuur instelt vo
 
 
 ## <a name="create-a-product-number-nomenclature"></a>Een productvariantnummer-nomenclatuur maken
-1. Selecteer **Definitie van productvariantmodel**.
-2. Selecteer **Nomenclatuur voor productnummers**.
-3. Selecteer **Nieuw**.
-4. Typ in het veld **Naam** een naam voor de nomenclatuur waaraan u de productdimensiegroep van het doel kunt herkennen, bijvoorbeeld `ColorSize`.
-5. Typ een waarde in het veld **Beschrijving**.
-6. Selecteer **Toevoegen**.
-7. Selecteer **Nummer van basismaster**.
-8. Selecteer **Toevoegen**.
-9. Selecteer **Tekstconstante**.
-10. Typ een waarde in het veld **Tekst**.
-11. Selecteer **Toevoegen**.
-12. Selecteer **Kleur**.
-13. Selecteer **Toevoegen**.
-14. Selecteer **Tekstconstante**.
-15. Typ een waarde in het veld **Tekst**.
-16. Selecteer **Toevoegen**.
-17. Selecteer **Grootte**.
-18. Sluit de pagina.
+
+1. Ga naar **Productgegevensbeheer \> Instellingen \> Productnomenclatuur**.
+1. Selecteer **Nieuw**.
+1. Typ in het veld **Naam** een naam voor de nomenclatuur waaraan u de productdimensiegroep van het doel kunt herkennen, bijvoorbeeld `ColorSize`.
+1. Typ een waarde in het veld **Beschrijving**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Nummer van basismaster**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Tekstconstante**.
+1. Typ een waarde in het veld **Tekst**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Kleur**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Tekstconstante**.
+1. Typ een waarde in het veld **Tekst**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Grootte**.
+1. Sluit de pagina.
 
 ## <a name="assign-the-nomenclature-to-a-product-master"></a>De nomenclatuur toewijzen aan een productmodel
+
 1. Selecteer **Productdimensiegroepen**.
 2. Selecteer de **productdimensiegroep SizeCol**.
 3. Selecteer **Bewerken**.
 4. Selecteer **Ja** in het veld **Nomenclatuur gebruiken**.
 5. Typ of selecteer een waarde in het veld **Productvariantnummer-nomenclatuur**.
 6. Sluit de pagina.
-
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

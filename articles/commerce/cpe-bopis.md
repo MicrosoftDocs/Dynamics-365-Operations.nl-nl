@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 219504da62fd4637ed01f9acbab32f873cef81b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 56319035ac092a376f0766c20eee71af6256b6f9
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795950"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936905"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving
 
@@ -29,7 +29,7 @@ In dit onderwerp wordt uitgelegd hoe u online kopen, ophalen in winkel (BOPIS) k
 
 ## <a name="prerequisite"></a>Vereiste
 
-Voltooi de procedures in dit onderwerp pas nadat uw evaluatieomgeving van Commerce is ingericht en geconfigureerd. Zie [Een omgevingomgeving van Dynamics 365 Commerce inrichten](provisioning-guide.md) en [Een evaluatieomgeving van Dynamics 365 Commerce configureren](https://docs.microsoft.com/dynamics365/commerce/cpe-post-provisioning) voor meer informatie over het inrichten en configureren van uw omgeving.
+Voltooi de procedures in dit onderwerp pas nadat uw evaluatieomgeving van Commerce is ingericht en geconfigureerd. Zie [Een omgevingomgeving van Dynamics 365 Commerce inrichten](provisioning-guide.md) en [Een evaluatieomgeving van Dynamics 365 Commerce configureren](./cpe-post-provisioning.md) voor meer informatie over het inrichten en configureren van uw omgeving.
 
 Nadat uw Commerce-omgeving is ingericht en volledig is geconfigureerd, kunt u dit onderwerp gebruiken om BOPIS-scenario's in te schakelen.
 
@@ -37,7 +37,7 @@ Nadat uw Commerce-omgeving is ingericht en volledig is geconfigureerd, kunt u di
 
 ### <a name="configure-modern-pos"></a>Modern POS configureren
 
-BOPIS-scenario's waarbij een creditcardbetaling nodig is, vereisen een hardwarestation. Het hardwarestation is ingebouwd in de Modern POS-programma's voor Windows en Android-clients. Als u met Cloud POS of Modern POS voor iOS werkt, moet de POS-client zijn gekoppeld aan een gedeeld hardwarestation. In dit onderwerp wordt uitgelegd hoe u BOPIS configureert voor Windows en Android-clients. Zie voor meer informatie over het instellen van een gedeeld hardwarestation het onderwerp [Retail Hardware Station configureren en installeren](https://docs.microsoft.com/dynamics365/commerce/retail-hardware-station-configuration-installation).
+BOPIS-scenario's waarbij een creditcardbetaling nodig is, vereisen een hardwarestation. Het hardwarestation is ingebouwd in de Modern POS-programma's voor Windows en Android-clients. Als u met Cloud POS of Modern POS voor iOS werkt, moet de POS-client zijn gekoppeld aan een gedeeld hardwarestation. In dit onderwerp wordt uitgelegd hoe u BOPIS configureert voor Windows en Android-clients. Zie voor meer informatie over het instellen van een gedeeld hardwarestation het onderwerp [Retail Hardware Station configureren en installeren](./retail-hardware-station-configuration-installation.md).
 
 1. Ga naar **Detailhandel en Commerce \> Kanaalinstellingen \> POS-instellingen \> Kassa's**.
 2. Selecteer **SANFRAN-5** registreren en vervolgens **Bewerken**.
@@ -64,7 +64,7 @@ BOPIS-scenario's waarbij een creditcardbetaling nodig is, vereisen een hardwares
 2. Selecteer de **Retail Modern POS**-toepassing om activering te starten.
 3. Selecteer **Volgende**. De velden **Server-URL**, **Apparaat-id** en **Registernummer** moeten vooraf worden ingesteld met informatie uit het configuratiebestand dat u in de vorige procedure hebt gedownload.
 4. Selecteer **Activeren**.
-5. Het verificatiedialoogvenster wordt weergegeven. Selecteer de rekening die gebruikmaakt van het e-mailadres dat eerder is gekoppeld aan werknemer **000713 - Andrew Collette**.
+5. Het verificatiedialoogvenster wordt weergegeven. Selecteer de account die gebruikmaakt van het e-mailadres dat eerder is gekoppeld aan werknemer **000713 - Andrew Collette**.
 
     > [!NOTE]
     > Als u nog geen werknemer hebt gekoppeld aan uw identiteit, wordt de activering niet voltooid. Volg in dat geval de stappen onder de sectie "Een medewerker aan uw identiteit koppelen" in het onderwerp [Een Dynamics 365 Commerce-evaluatieomgeving configureren](cpe-post-provisioning.md#associate-a-worker-with-your-identity).
@@ -87,7 +87,7 @@ BOPIS-scenario's waarbij een creditcardbetaling nodig is, vereisen een hardwares
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>Een winkelorder maken voor afhalen in de winkel
 
-1. Ga naar de URL die u hebt opgegeven in de stap [e-Commerce initialiseren](https://docs.microsoft.com/dynamics365/commerce/provisioning-guide#initialize-e-commerce) tijdens omgevingsconfiguratie.
+1. Ga naar de URL die u hebt opgegeven in de stap [e-Commerce initialiseren](./provisioning-guide.md#initialize-e-commerce) tijdens omgevingsconfiguratie.
 2. Selecteer een artikel en selecteer **Toevoegen aan winkelwagen**.
 3. Selecteer op de pagina met de boodschappentas de optie **Dit ophalen** voor de orderregel die u zojuist hebt toegevoegd.
 4. Voer in het dialoogvenster **Een winkel selecteren** **San Francisco** in en selecteer vervolgens de knop **Zoeken**.
@@ -112,7 +112,7 @@ BOPIS-scenario's waarbij een creditcardbetaling nodig is, vereisen een hardwares
 
 ### <a name="synchronize-online-orders-to-the-back-office"></a>Online orders synchroniseren naar de backoffice
 
-Zie [Online verkopen en betalingen boeken](https://docs.microsoft.com/dynamics365/commerce/tasks/posting-online-sales-payments) voor informatie over het synchroniseren van online orders.
+Zie [Online verkopen en betalingen boeken](./tasks/posting-online-sales-payments.md) voor informatie over het synchroniseren van online orders.
 
 ### <a name="pick-up-an-order-in-the-store"></a>Een order ophalen in winkel
 
@@ -148,19 +148,19 @@ Voor alle algemene problemen moet u de gebeurtenislogboeken voor Modern POS of I
 
 [Veelgestelde vragen over evaluatieomgeving voor Dynamics 365 Commerce](cpe-faq.md)
 
-[Microsoft Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
+[Microsoft Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide)
 
-[Retail Cloud Scale Unit (RCSU)](https://docs.microsoft.com/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
+[Retail Cloud Scale Unit (RCSU)](/business-applications-release-notes/october18/dynamics365-retail/retail-cloud-scale-unit)
 
 [Microsoft Azure-portal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce-website](https://aka.ms/Dynamics365CommerceWebsite)
 
-[De Adyen-betalingsconnector](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
+[De Adyen-betalingsconnector](./dev-itpro/adyen-connector.md?tabs=8-1-3)
 
-[Online betaalmiddelen opslaan met de Adyen-connector](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
+[Online betaalmiddelen opslaan met de Adyen-connector](./dev-itpro/adyen-connector-listpi.md)
 
-[Overzicht van betalingen voor meerdere kanalen](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+[Overzicht van betalingen voor meerdere kanalen](./omni-channel-payments.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

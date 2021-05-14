@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b6bf158361f95b6551b29f195616cf21f908b802
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800634"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936939"
 ---
 # <a name="set-up-an-online-channel"></a>Een online afzetkanaal instellen
 
@@ -67,7 +67,7 @@ Als uw e-Commerce site ondersteuning biedt voor meerdere talen, vouwt u de secti
 
 ## <a name="set-up-payment-account"></a>Betalingsrekening instellen
 
-In de sectie **Betalingsrekening** kunt u een externe betalingsverschaffer toevoegen. Zie [Dynamics 365-betalingsconnector voor Adyen](../retail/dev-itpro/adyen-connector.md) voor meer informatie over het instellen van een Adyen-betalingsconnector.
+In de sectie **Betalingsrekening** kunt u een externe betalingsverschaffer toevoegen. Zie [Dynamics 365-betalingsconnector voor Adyen](./dev-itpro/adyen-connector.md) voor meer informatie over het instellen van een Adyen-betalingsconnector.
 
 ## <a name="additional-channel-setup"></a>Aanvullende afzetkanaalinstellingen
 
@@ -130,7 +130,7 @@ De volgende afbeelding toont een voorbeeld van de instellingen voor de toewijzin
 
 [Een callcenterkanaal instellen](channel-setup-callcenter.md)
 
-[Dynamics 365-betalingsconnector voor Adyen](../retail/dev-itpro/adyen-connector.md)
+[Dynamics 365-betalingsconnector voor Adyen](./dev-itpro/adyen-connector.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
 description: Dit onderwerp bevat informatie over het gebruik van de functie voor prestatietracering in Elektronische rapportage (ER) om prestatieproblemen op te lossen.
 author: NickSelin
-ms.date: 06/12/2019
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0cf76a9b9af0fc648cb61cefbe92dc7aaa436692
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754211"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944648"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
 
@@ -47,10 +47,10 @@ U moet ook de volgende bestanden downloaden en lokaal opslaan.
 
 | Bestand                                  | Inhoud                               |
 |---------------------------------------|---------------------------------------|
-| Versie 1 prestatietraceringsmodel     | [Voorbeeldconfiguratie van model voor ER-gegevens](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)    |
-| Versie 1 metagegevens voor prestatietracering  | [Voorbeeldconfiguratie van ER-metagegevens](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)      |
-| Versie 1.1 Toewijzing voor prestatietracering | [Voorbeeldconfiguratie van ER-modeltoewijzing](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Versie 1.1 Indeling voor prestatietracering  | [Voorbeeldconfiguratie van ER-indeling](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg)       |
+| Versie 1 prestatietraceringsmodel     | [Voorbeeldconfiguratie van model voor ER-gegevens](https://download.microsoft.com/download/0/a/a/0aa84e48-8040-4c46-b542-e3bf15c9b2ad/Performancetracemodelversion.1.xml)    |
+| Versie 1 metagegevens voor prestatietracering  | [Voorbeeldconfiguratie van ER-metagegevens](https://download.microsoft.com/download/a/9/3/a937e8c4-1f8a-43e4-83ee-7d599cf7d983/Performancetracemetadataversion.1.xml)      |
+| Versie 1.1 Toewijzing voor prestatietracering | [Voorbeeldconfiguratie van ER-modeltoewijzing](https://download.microsoft.com/download/7/7/3/77379bdc-7b22-4cfc-9b64-a9147599f931/Performancetracemappingversion1.1.xml) |
+| Versie 1.1 Indeling voor prestatietracering  | [Voorbeeldconfiguratie van ER-indeling](https://download.microsoft.com/download/8/6/8/868ba581-5a06-459e-b173-fb00f038b37f/Performancetraceformatversion1.1.xml)       |
 
 ### <a name="configure-er-parameters"></a>ER-parameters configureren
 
@@ -84,7 +84,7 @@ Om beschikbaar te zijn in het opzoekveld **Andere** moet een documenttype voor d
 Stel dat u bent begonnen met het ontwerpen van een nieuwe ER-oplossing om een nieuw rapport te genereren waarin leverancierstransacties worden gepresenteerd. Op dit moment kunt u de transacties voor een geselecteerde leverancier vinden op de pagina **Leveranciertransacties** (ga naar **Leveranciers \> Leveranciers \> Alle leveranciers**, selecteer een leverancier en selecteer in het actievenster op het tabblad **Leverancier** in de groep **Transacties** de optie **Transacties**). U wilt echter alle leverancierstransacties tegelijk in één elektronisch document in XML-indeling hebben. Deze oplossing bestaat uit verschillende ER-configuraties met het vereiste gegevensmodel en de vereiste metagegevens, modeltoewijzing en indelingscomponenten.
 
 1. Meld u aan bij het exemplaar van RCS dat is ingericht voor uw bedrijf.
-2. In deze zelfstudie maakt en wijzigt u configuraties voor het voorbeeldbedrijf **Litware, Inc.** Zorg er daarom voor dat deze configuratieprovider is toegevoegd aan RCS en als actief is geselecteerd. Zie de procedure [Aanbieders van configuraties maken en deze als actief markeren](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11) voor instructies.
+2. In deze zelfstudie maakt en wijzigt u configuraties voor het voorbeeldbedrijf **Litware, Inc.** Zorg er daarom voor dat deze configuratieprovider is toegevoegd aan RCS en als actief is geselecteerd. Zie de procedure [Aanbieders van configuraties maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md) voor instructies.
 3. Selecteer in het werkgebied **Elektronische rapportage** de tegel **Rapportconfiguraties**.
 4. Importeer op de pagina **Configuraties** de ER-configuraties die u als vereiste hebt gedownload in RCS, in de volgende volgorde: gegevensmodel, metagegevens, modeltoewijzing, indeling. Volg deze stappen voor elke configuratie:
 
@@ -101,7 +101,7 @@ Stel dat u klaar bent met het ontwerpen van de eerste versie van de ER-oplossing
 ### <a name="import-an-er-configuration-from-rcs-into-finance-and-operations"></a><a id='import-configuration'></a>Een ER-configuratie uit RCS importeren in Finance and Operations
 
 1. Meld u aan bij uw exemplaat van de toepassing.
-2. Voor deze zelfstudie importeert u configuraties vanuit uw RCS-exemplaar (waarin u de ER-onderdelen ontwerpt) in uw exemplaar (waar u ze test en uiteindelijk gebruikt). Daarom moet u ervoor zorgen dat alle vereiste artefacten zijn voorbereid. Zie voor meer instructies de procedure [Configuraties voor Elektronische rapportage (ER) importeren uit Regulatory Configuration Services (RCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/rcs-download-configurations).
+2. Voor deze zelfstudie importeert u configuraties vanuit uw RCS-exemplaar (waarin u de ER-onderdelen ontwerpt) in uw exemplaar (waar u ze test en uiteindelijk gebruikt). Daarom moet u ervoor zorgen dat alle vereiste artefacten zijn voorbereid. Zie voor meer instructies de procedure [Configuraties voor Elektronische rapportage (ER) importeren uit Regulatory Configuration Services (RCS)](rcs-download-configurations.md).
 3. Voer de volgende stappen uit om de configuraties uit RCS in de toepassing te importeren:
 
     1. Selecteer in het werkgebied **Elektronische rapportage** op de tegel voor de configuratieprovider **Litware, Inc.** de optie **Opslagplaatsen**.

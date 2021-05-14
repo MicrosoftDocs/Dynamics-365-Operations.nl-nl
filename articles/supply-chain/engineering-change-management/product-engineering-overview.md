@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 964db71efc9dc81d60199e37de8668de9d667496
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842076"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947515"
 ---
 # <a name="engineering-change-management-overview"></a>Overzicht van technisch wijzigingsbeheer
 
@@ -48,7 +48,7 @@ Voordat u technisch wijzigingsbeheer gebruiken, moet u zowel de functie *Enginee
 
 Schakel eerst deze functies in door de volgende stappen uit te voeren.
 
-1. Ga naar [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+1. Ga naar de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Controleer op updates.
 1. Schakel de functie in met de naam **Technisch wijzigingsbeheer**.
 1. Schakel ook de functie genaamd **Productdimensieversie** in als u deze wilt gebruiken.
@@ -57,9 +57,12 @@ Schakel vervolgens de configuratiesleutels in door de volgende stappen uit te vo
 
 1. Plaats uw systeem in de onderhoudsmodus, zoals wordt beschreven in [Onderhoudsmodus](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Ga naar **Systeembeheer \> Instellingen \> Licentieconfiguratie**.
-1. Vouw het knooppunt **Handel** uit
-1. Schakel het selectievakje **Engineering Change Management** in.
-1. Schakel ook het selectievakje **Productdimensie - Versie** in als u deze optie wilt gebruiken.
+1. Vouw het knooppunt **Handel** uit.
+1. Schakel de configuratiesleutel voor de hoofdfunctie in door het selectievakje **Engineering Change Management** te selecteren. (Het is niet nodig om het knooppunt uit te vouwen, tenzij u ook een of beide subfuncties wilt uitschakelen.)
+1. Als u ook de versiedimensie wilt gebruiken schakelt u het selectievakje **Productdimensie - Versie** in. (Dit selectievakje vindt u verder naar beneden in de lijst, niet genest onder het knooppunt **Engineering Change Management**.)
 1. Schakel de onderhoudsmodus uit, zoals wordt beschreven in [Onderhoudsmodus](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+> [!IMPORTANT]
+> Vanaf april 2022 worden de licentiesleutels voor zowel **Engineering Change Management** als voor **Productdimensie - Versie** standaard ingeschakeld voor alle nieuwe installaties, maar u kunt ze zo nodig ook uitschakelen.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

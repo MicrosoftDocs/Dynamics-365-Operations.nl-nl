@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 275a51620fad50f725dad7a37bd8ee776cf0ce4c
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890771"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941135"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -47,6 +47,7 @@ Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke update
 |      Brazilië         |   2020 oktober      | 10.0.16      |   DRCST-declaratie SC - SEF 262/2020   |
 |      Brazilië         |   2020 oktober      | 10.0.16      |   SPED FIscal ICMS / IPI-record C176   |
 |      Brazilië         |   2020 december      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006 - Identificatie van de intermediair van het digitale platform (updates van indelings- en validatieregels)   |
+|      Brazilië         |   2021 maart         | 10.0.17, 10.0.18, 10.0.19         |    SPED-REINF-indeling 1.5.1
 |      Europa        |   2021 januari       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Brexit - Noord-Ierland-protocol heeft invloed op rapportage van intracommunautaire handel in EU-landen  |
 |      Duitsland        |   2021 januari       | 10.0.16HF      |   De indeling voor btw-voorschotmeldingen voor ELSTER UstVA is uitgebreid met twee nieuwe vakken 37,50 voor het afschrijven van onherstelbare schuld  |
 |      Duitsland        |   2021 januari       | 10.0.17      |   Wijzigingen in XML-structuur voor btw-voorschotmeldingen voor ELSTER (UstVA)  |

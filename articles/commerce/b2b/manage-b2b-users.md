@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7c1bd8d9cb494cef78fa7c14f6c391821d48749a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799848"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936651"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gebruikers van zakenpartners op B2B-e-commercewebsite beheren
 
@@ -43,7 +43,7 @@ Als u de functie voor de mogelijkheden van B2B-e-commerce wilt inschakelen in Co
 
 ## <a name="create-a-number-sequence-and-add-it-to-commerce-shared-parameters"></a>Een nummerreeks maken en deze toevoegen aan gedeelde Commerce-parameters
 
-Nummerreeksen worden gebruikt om leesbare, unieke id´s te maken voor hoofdgegevensregistraties en transactieregistraties die deze nodig hebben. Zie [Overzicht van nummerreeksen](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview) voor meer informatie over nummerreeksen.
+Nummerreeksen worden gebruikt om leesbare, unieke id´s te maken voor hoofdgegevensregistraties en transactieregistraties die deze nodig hebben. Zie [Overzicht van nummerreeksen](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md) voor meer informatie over nummerreeksen.
 
 Volg deze stappen om een nummerreeks te maken en deze toe te voegen aan gedeelde Commerce-parameters in Commerce Headquarters.
 
@@ -136,7 +136,7 @@ Volg deze stappen om zakenpartners en gebruikers rechtstreeks in Commerce Headqu
 
 [De limieten voor de producthoeveelheid instellen voor B2B-e-commercesites](quantity-limits.md)
 
-[Overzicht van Nummerreeksen](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+[Overzicht van Nummerreeksen](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

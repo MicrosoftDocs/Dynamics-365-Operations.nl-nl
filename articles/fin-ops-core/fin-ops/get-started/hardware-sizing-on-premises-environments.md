@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 55dc237629b7b595b03d48adabc6b31492171e25
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748740"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923475"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Vereisten vaststellen voor grootte van de hardware voor on-premises omgevingen
 
@@ -134,7 +134,7 @@ Voor de algemene beschikbaarheid hoeft slechts één SSRS-knooppunt te worden ge
 
 ## <a name="environment-orchestrator"></a>Orchestrator-omgeving
 
-De Orchestrator-service beheert uw implementatie en de gerelateerde communicatie met LCS. Deze service wordt geïmplementeerd als de primaire Service Fabric-service en vereist ten minste drie VM's. Deze service bevindt zich op dezelfde locatie als de Service Fabric-configuratieservices. De omvang moet voldoen aan de piekbelasting van het cluster. Zie voor meer informatie [Implementatie van Service Fabric-cluster plannen en voorbereiden](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+De Orchestrator-service beheert uw implementatie en de gerelateerde communicatie met LCS. Deze service wordt geïmplementeerd als de primaire Service Fabric-service en vereist ten minste drie VM's. Deze service bevindt zich op dezelfde locatie als de Service Fabric-configuratieservices. De omvang moet voldoen aan de piekbelasting van het cluster. Zie voor meer informatie [Implementatie van Service Fabric-cluster plannen en voorbereiden](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualisering en te veel abonnementen
 

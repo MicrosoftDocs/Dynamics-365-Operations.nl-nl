@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae36f1436ddd7f41bf0c3510b47cbc440224f484
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 04997aba427ae6013c8154593b09ae1a45a580c3
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890047"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935748"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Virtuele Dataverse-tabellen configureren
 
@@ -102,27 +102,15 @@ U moet uw Human Resources-exemplaar registreren in de Azure-portal, zodat het Mi
 
 Installeer de Dynamics 365 HR Virtual Table-app in uw Power Apps-omgeving om het pakket van de virtuele tabel te implementeren naar Dataverse.
 
-1. Open het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com).
+1. Open in Human Resources de pagina **Integratie met Microsoft Dataverse**.
 
-2. Selecteer in de lijst **Omgevingen** de Power Apps-omgeving die aan uw Human Resources-exemplaar is gekoppeld.
+2. Selecteer het tabblad **Virtuele tabellen**.
 
-3. Selecteer in het gedeelte **Resources** van de pagina de optie **Dynamics 365-apps**.
+3. Selecteer **Virtual Table-app installeren**.
 
-4. Selecteer de actie **App installeren**.
+### <a name="configure-the-virtual-table-data-source"></a>De gegevensbron van de virtuele tabel configureren
 
-5. Selecteer **Dynamics 365 HR Virtual Table** en selecteer **Volgende**.
-
-6. Controleer en markeer om de servicevoorwaarden te accepteren.
-
-7. Selecteer **Installeren**.
-
-De installatie duurt een paar minuten. Wanneer de installatie is voltooid, gaat u door naar de volgende stappen.
-
-![De Dynamics 365 HR Virtual Table-app installeren vanuit het Power Platform-beheercentrum](./media/hr-admin-integration-virtual-entities-power-platform-install.jpg)
-
-### <a name="configure-the-virtual-table-data-source"></a>De gegevensbron van de virtuele tabel configureren 
-
-In de volgende stap configureert u de gegevensbron van de virtuele tabel in de Power Apps-omgeving. 
+In de volgende stap configureert u de gegevensbron van de virtuele tabel in de Power Apps-omgeving.
 
 1. Open het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com).
 
@@ -133,6 +121,9 @@ In de volgende stap configureert u de gegevensbron van de virtuele tabel in de P
 4. Selecteer op de **Oplossingsstatushub** het pictogram **Geavanceerd zoeken** in de rechtsbovenhoek van de toepassingspagina.
 
 5. Selecteer op de pagina **Geavanceerd zoeken** in de vervolgkeuzelijst **Zoeken naar** de optie **Finance and Operations Virtual Data Source Configurations**.
+
+   > [!NOTE]
+   > De installatie van de Virtual Table-app uit de vorige instellingsstap kan enkele minuten duren. Als **Configuraties voor virtuele Finance and Operations-gegevensbronnen** niet beschikbaar is in de lijst, moet u even wachten en de lijst vernieuwen.
 
 6. Selecteer **Resultaten**.
 
@@ -186,7 +177,7 @@ Verleen als volgt machtigingen voor de twee Azure AD-toepassingen in Human Resou
 
 Wanneer het instellen is voltooid, kunt u de virtuele tabellen selecteren die u in uw Dataverse-exemplaar wilt genereren en inschakelen.
 
-1. Open in Human Resources de pagina **Integratie met Dataverse**.
+1. Open in Human Resources de pagina **Integratie met Microsoft Dataverse**.
 
 2. Selecteer het tabblad **Virtuele tabellen**.
 
@@ -197,7 +188,7 @@ Wanneer het instellen is voltooid, kunt u de virtuele tabellen selecteren die u 
 
 4. Selecteer **Genereren/vernieuwen**.
 
-![Integratie met Dataverse](./media/hr-admin-integration-common-data-service-integration.jpg)
+![Integratie met Dataverse](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>Status van het genereren van tabellen controleren
 

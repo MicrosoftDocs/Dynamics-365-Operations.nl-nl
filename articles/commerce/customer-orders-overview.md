@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821003"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936725"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Klantorders in POS (Point of Sale)
 
@@ -42,7 +42,7 @@ Voordat u de bestelfunctionaliteit van de klant in POS probeert te gebruiken, mo
 
 ### <a name="configure-modes-of-delivery"></a>Leveringsmethoden configureren
 
-Als u klantorders wilt gebruiken, moet u de leveringsmethoden configureren die door het winkelafzetkanaal kunnen worden gebruikt. U moet minimaal één leveringsmethode definiëren die kan worden gebruikt wanneer orderregels vanuit een winkel naar een klant worden verzonden. U moet ook minimaal één ophaalmethode definiëren die kan worden gebruikt wanneer orderregels uit de winkel worden opgehaald. Leveringsmethoden worden gedefinieerd op de pagina **Leveringsmethoden** in Commerce Headquarters. Zie [Leveringsmethoden definiëren](https://docs.microsoft.com/dynamics365/commerce/configure-call-center-delivery#define-delivery-modes) voor meer informatie over het instellen van leveringsmethoden.
+Als u klantorders wilt gebruiken, moet u de leveringsmethoden configureren die door het winkelafzetkanaal kunnen worden gebruikt. U moet minimaal één leveringsmethode definiëren die kan worden gebruikt wanneer orderregels vanuit een winkel naar een klant worden verzonden. U moet ook minimaal één ophaalmethode definiëren die kan worden gebruikt wanneer orderregels uit de winkel worden opgehaald. Leveringsmethoden worden gedefinieerd op de pagina **Leveringsmethoden** in Commerce Headquarters. Zie [Leveringsmethoden definiëren](./configure-call-center-delivery.md#define-delivery-modes) voor meer informatie over het instellen van leveringsmethoden.
 
 ![De pagina Leveringsmethoden](media/customer-order-modes-of-delivery.png)
 
@@ -78,19 +78,19 @@ Voordat u probeert klantorders in POS te maken, moet u de betreffende parameters
 - **Percentage annuleringskosten**: als een toeslag moet worden toegepast wanneer een klantorder wordt geannuleerd, geeft u het bedrag van die toeslag op.
 - **Code annuleringskosten**: geef de toeslagcode voor Klanten op die moet worden gebruikt wanneer een annuleringstoeslag wordt toegepast op geannuleerde klantorders via POS. De toeslagcode definieert de financiële boekingslogica voor de annuleringstoeslag.
 - **Code verzendkosten**: als de optie **Geavanceerde automatische toeslagen gebruiken** is ingesteld op **Ja**, heeft deze parameter geen effect. Als deze optie is ingesteld op **Nee**, wordt de gebruikers gevraagd handmatig een verzendtoeslag in te voeren bij het maken van klantorders in POS. Gebruik deze parameter om een toeslagcode voor Klanten toe te wijzen die wordt toegepast op orders wanneer gebruikers een verzendingstoeslag invoeren. De toeslagcode definieert de financiële boekingslogica voor de verzendingstoeslag.
-- **Geavanceerde automatische toeslagen gebruiken**: stel deze optie in op **Ja** als u automatisch door het systeem berekende toeslagen wilt gebruiken wanneer er klantorders worden gemaakt in POS. Deze automatische toeslagen kunnen worden gebruikt om verzendkosten of andere order- of artikeltoeslagen te berekenen. Zie [Geavanceerde automatische toeslagen voor meerdere kanalen](https://docs.microsoft.com/dynamics365/commerce/omni-auto-charges) voor meer informatie over het instellen en gebruiken van geavanceerde automatische toeslagen.
+- **Geavanceerde automatische toeslagen gebruiken**: stel deze optie in op **Ja** als u automatisch door het systeem berekende toeslagen wilt gebruiken wanneer er klantorders worden gemaakt in POS. Deze automatische toeslagen kunnen worden gebruikt om verzendkosten of andere order- of artikeltoeslagen te berekenen. Zie [Geavanceerde automatische toeslagen voor meerdere kanalen](./omni-auto-charges.md) voor meer informatie over het instellen en gebruiken van geavanceerde automatische toeslagen.
 
 ![Het tabblad Klantorders op de pagina Commerce-parameters](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Transactieschermindelingen bijwerken in POS
 
-Controleer of de [schermindeling](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts) in POS is geconfigureerd om het maken en beheren van klantorders te ondersteunen en of alle vereiste POS-bewerkingen zijn geconfigureerd. Hier volgt een aantal POS-bewerkingen die worden aanbevolen om het maken en beheren van klantorders goed te ondersteunen:
+Controleer of de [schermindeling](./pos-screen-layouts.md) in POS is geconfigureerd om het maken en beheren van klantorders te ondersteunen en of alle vereiste POS-bewerkingen zijn geconfigureerd. Hier volgt een aantal POS-bewerkingen die worden aanbevolen om het maken en beheren van klantorders goed te ondersteunen:
 - **Alle producten verzenden**: deze bewerking wordt gebruikt om op te geven dat alle regels in de winkelwagen voor de transactie naar een bestemming worden verzonden.
 - **Geselecteerde producten verzenden**: deze bewerking wordt gebruikt om op te geven dat bepaalde regels in de winkelwagen voor de transactie naar een bestemming worden verzonden.
 - **Alle producten ophalen**: deze bewerking wordt gebruikt om op te geven dat alle regels in de winkelwagen voor de transactie van een bepaalde winkellocatie worden opgehaald.
 - **Geselecteerde producten ophalen**: deze bewerking wordt gebruikt om op te geven dat bepaalde regels in de winkelwagen voor de transactie van een bepaalde winkellocatie worden opgehaald.
 - **Alle producten uitvoeren**: deze bewerking wordt gebruikt om op te geven dat alle regels in de winkelwagen voor de transactie worden uitgevoerd. Als deze bewerking wordt gebruikt in POS, wordt de klantorder omgezet in een cash-and-carry-transactie.
-- **Geselecteerde producten uitvoeren** : deze bewerking wordt gebruikt om op te geven dat bepaalde regels in de winkelwagen voor de transactie worden uitgevoerd door de klant op het moment van aankoop. Deze bewerking is alleen nuttig in een scenario met een [hybride order](https://docs.microsoft.com/dynamics365/commerce/hybrid-customer-orders).
+- **Geselecteerde producten uitvoeren** : deze bewerking wordt gebruikt om op te geven dat bepaalde regels in de winkelwagen voor de transactie worden uitgevoerd door de klant op het moment van aankoop. Deze bewerking is alleen nuttig in een scenario met een [hybride order](./hybrid-customer-orders.md).
 - **Order intrekken**: deze bewerking wordt gebruikt om klantorders te zoeken en op te halen, zodat POS-gebruikers deze kunnen bewerken of annuleren of hierop de benodigde bewerkingen voor afhandeling kunnen uitvoeren.
 - **Leveringsmethode wijzigen**: deze bewerking kan worden gebruikt om snel de leveringsmethode te wijzigen voor regels die al voor verzending zijn geconfigureerd, zonder dat gebruikers de stroom 'alle producten verzenden' of 'geselecteerde producten verzenden' opnieuw doorlopen.
 - **Deposito overschrijven**: deze bewerking kan worden gebruikt om het depositobedrag te wijzigen dat de klant voor de geselecteerde klantorder betaalt.
@@ -128,7 +128,7 @@ Controleer of de [schermindeling](https://docs.microsoft.com/dynamics365/commerc
 Detailhandelorders die in het online- of winkelkanaal worden gemaakt, kunnen zo nodig worden teruggeroepen en bewerkt via POS.
 
 > [!IMPORTANT]
-> Niet alle detailhandelorders kunnen worden bewerkt via de POS-toepassing. Orders die in een callcenterkanaal worden gemaakt, kunnen niet worden bewerkt via POS als de instelling [Ordervoltooiing inschakelen](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) is ingeschakeld voor het callcenterkanaal. Om de juiste verwerking van de betaling te garanderen, moeten orders die afkomstig zijn uit een callcenterkanaal en waarvoor de functionaliteit Ordervoltooiing inschakelen wordt gebruikt, worden bewerkt via de callcentertoepassing in Commerce Headquarters.
+> Niet alle detailhandelorders kunnen worden bewerkt via de POS-toepassing. Orders die in een callcenterkanaal worden gemaakt, kunnen niet worden bewerkt via POS als de instelling [Ordervoltooiing inschakelen](./set-up-order-processing-options.md#enable-order-completion) is ingeschakeld voor het callcenterkanaal. Om de juiste verwerking van de betaling te garanderen, moeten orders die afkomstig zijn uit een callcenterkanaal en waarvoor de functionaliteit Ordervoltooiing inschakelen wordt gebruikt, worden bewerkt via de callcentertoepassing in Commerce Headquarters.
 
 In versie 10.0.17 en hoger kunnen gebruikers in aanmerking komende orders bewerken via de POS-toepassing, zelfs als de order gedeeltelijk is vervuld. Orders die volledig zijn gefactureerd, kunnen echter nog steeds niet worden bewerkt via POS. Als u deze functie wilt inschakelen, schakelt u de optie **Gedeeltelijk afgehandelde orders bewerken in Point of Sale** in de werkruimte **Functiebeheer** in. Als deze functie niet is ingeschakeld of als u versie 10.0.16 of eerder gebruikt, kunnen gebruikers alleen klantorders in POS bewerken als de order volledig is geopend. Als de functie is ingeschakeld, kunt u bovendien beperken welke winkels gedeeltelijk vervulde orders kunnen bewerken. De optie om deze mogelijkheid voor specifieke winkels uit te schakelen, kan worden geconfigureerd via het **Functionaliteitsprofiel** op het sneltabblad **Algemeen**.
 
@@ -153,7 +153,7 @@ In versie 10.0.17 en hoger kunnen gebruikers in aanmerking komende orders bewerk
 
 ## <a name="finalizing-the-customer-order-shipment-or-pickup-from-pos"></a>De verzending of het ophalen van de klantorder voltooien vanuit POS
 
-Nadat een order is gemaakt, worden de artikelen door de klant opgehaald uit een winkellocatie of verzonden, afhankelijk van de configuratie van de order. Raadpleeg de documentatie voor [afhandeling van orders in winkels](https://docs.microsoft.com/dynamics365/commerce/order-fulfillment-overview) voor meer informatie over dit proces.
+Nadat een order is gemaakt, worden de artikelen door de klant opgehaald uit een winkellocatie of verzonden, afhankelijk van de configuratie van de order. Raadpleeg de documentatie voor [afhandeling van orders in winkels](./order-fulfillment-overview.md) voor meer informatie over dit proces.
 
 ## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Asynchrone transactiestroom voor klantorders
 

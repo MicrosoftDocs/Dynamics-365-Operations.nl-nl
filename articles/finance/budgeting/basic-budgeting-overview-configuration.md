@@ -1,8 +1,8 @@
 ---
 title: Budgetteringsoverzicht
 description: Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 Finance, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operations te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
-author: ShylaThompson
-ms.date: 01/11/2018
+author: panolte
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
-ms.author: sigitac
+ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 70428d6603939d8a36c0d3452e6ffdc6e3864865
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
+ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827453"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5960044"
 ---
 # <a name="budgeting-overview"></a>Overzicht van Budgettering
 
@@ -71,7 +71,7 @@ Functionaliteit die in Microsoft Dynamics 365 Finance versie 10.0.7 (januari 202
 
 Met de functie **Budgetregistervermeldingen voor alleen hoeveelheid** kunt u een budgetregistervermelding met alleen hoeveelheden boeken. U kunt bijvoorbeeld een budgetregel boeken met een hoeveelheid van 32 en een prijs van nul, wat resulteert in een bedrag van nul. U kunt deze hoeveelheid vervolgens binnen de context van een financieel rapport gebruiken om een prijs per hoeveelheid te bepalen. U ziet dat er geen query's of rapporten zijn bijgewerkt als onderdeel van deze functie. Met deze functie kunt u alleen een bedrag van nul boeken.
 
-De functie **Budgetregistervermeldingen standaard van bedragtype** maakt het mogelijk dat het standaard bedragtype binnen een budgetregistervermelding een ander bedragtype is dan onkosten. Voor de budgetregistervermeldingsregel wordt nu standaard onkosten gebruikt wanneer het hoofdrekeningtype onkosten is, wordt standaard opbrengst gebruikt als het hoofdrekeningtype onkosten is en wordt standaard onkosten gebruikt voor alle andere rekeningtypen.
+De functie **Budgetregistervermeldingen standaard van bedragtype** maakt het mogelijk dat het standaard bedragtype binnen een budgetregistervermelding een ander bedragtype is dan onkosten. Voor de budgetregistervermeldingsregel wordt nu standaard onkosten gebruikt wanneer het hoofdrekeningtype onkosten is; standaard wordt opbrengst gebruikt als het hoofdrekeningtype opbrengst is; en standaard wordt onkosten gebruikt voor alle andere rekeningtypen.
 
 ## <a name="using-workspaces-and-inquiry-pages-to-track-budget-vs-actuals"></a>Werkruimten en querypagina's gebruiken om budget vs. werkelijk bij te houden
 De budgetmanager kan de huidige status van een budget controleren in de werkruimte **Grootboekbudgetten en prognoses**. De tabbladen **Onkostenbudgetoverschrijding** en **Inkomsten onder budget** biedt een snelle weergave van de financiële dimensies waarin de budgetdoelen niet worden gehaald of de drempel benaderen. U kunt het budgetdrempelpercentage en de financiële dimensiesets personaliseren die op deze tabbladen worden gebruikt door op **Mijn werkruimte configureren** te klikken. U kunt klikken op **Beheerders van eenheden** om de werknemers weer te geven die voor specifieke financiële dimensiecombinaties verantwoordelijk zijn die op deze tabbladen zijn geselecteerd. Als u bijvoorbeeld ziet dat het onkostenbudget van de afdeling Bedrijfsactiviteiten over de budgetdrempel gaat, kunt u de manager van de afdeling Bedrijfsactiviteiten gemakkelijk vinden en contacteren om het probleem te bespreken. 

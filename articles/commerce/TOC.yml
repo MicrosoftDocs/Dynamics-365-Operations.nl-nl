@@ -94,12 +94,12 @@
                   items:
                     - name: Startpagina van nieuwe of gewijzigde functies in Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.19 (juli 2021)
+                      href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (mei 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
                     - name: Commerce 10.0.17 (april 2021)
                       href: get-started/whats-new-commerce-10-0-17.md
-                    - name: Commerce 10.0.16 (februari 2021)
-                      href: get-started/whats-new-commerce-10-0-16.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Startpagina voor verwijderde of afgeschafte functies
@@ -184,6 +184,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/user-defined-fields.md?toc=/dynamics365/commerce/toc.json
                 - name: Canvas-apps uit Power Apps insluiten
                   href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=/dynamics365/commerce/toc.json
+                - name: Apps van derden insluiten
+                  href: ../fin-ops-core/fin-ops/get-started/embed-website.md?toc=/dynamics365/commerce/toc.json
                 - name: Informatie vinden met zoekopdrachten
                   href: ../fin-ops-core/fin-ops/get-started/use-lookups-to-find-information.md?toc=/dynamics365/commerce/toc.json
                 - name: De datum van een sessie wijzigen
@@ -280,6 +282,8 @@
                   href: dev-itpro/secure-retail-cloud-pos.md
                 - name: Configuratie en installatie van Retail Hardware Station
                   href: retail-hardware-station-configuration-installation.md
+                - name: Grootschalige implementatie van verzegelde Commerce-selfservicecomponenten
+                  href: dev-itpro/Enhanced-Mass-Deployment.md
                 - name: Grootschalige implementatie van verouderde selfservicecomponenten
                   href: dev-itpro/retail-mass-deployment.md
                 - name: Commerce-componentgebeurtenissen voor diagnostiek en probleemoplossing
@@ -368,7 +372,7 @@
                       href: pos-operations.md
                     - name: Apparaatactivering van een aangepaste Modern POS
                       href: dev-itpro/retail-POS-activation-changes.md
-                    - name: Authenticatie in Azure Active Directory voor POS-aanmelding inschakelen
+                    - name: Authenticatie in Azure Active Directory voor POS-aanmelding configureren
                       href: aad-pos-logon.md
                     - name: Producten en klanten zoeken in het POS
                       href: POS-search-improvements.md
@@ -634,6 +638,8 @@
                   href: tender_based_discounts.md
                 - name: Kortingoverzicht voor verzending
                   href: retail-shipping-discount.md
+                - name: Geschenk met inkooppromoties configureren
+                  href: gift-with-purchase.md
                 - name: Coupons instellen
                   href: retail-coupons.md
                 - name: Kortingen weergeven in POS
@@ -760,6 +766,8 @@
                   href: notifications-pos.md
                 - name: Continuïteitsprogramma's verkopen en verkooporders verwerken
                   href: tasks/use-continuity-program.md
+                - name: Incheckmeldingen van klanten in het verkooppunt inschakelen (POS)
+                  href: enable-customer-check-in.md
             - name: Retouren
               items:
                 - name: Gekoppelde restituties
@@ -922,6 +930,8 @@
                   href: manage-csp.md
                 - name: Afmelden voor verzamelen van gebeurtenissen voor webactiviteit
                   href: web-activity-opt-out.md
+                - name: Instellingen voor maateenheid toepassen
+                  href: unit-of-measure.md
             - name: Uw site-inhoud beheren
               items:
                 - name: Manieren om inhoud toe te voegen
@@ -1092,6 +1102,8 @@
                       href: delivery-options-module.md
                     - name: Module met afhaalinformatie
                       href: pickup-info-module.md
+                    - name: Inchecken voor afhaalmodule
+                      href: check-in-pickup-module.md
                     - name: Module voor orderdetails
                       href: order-confirmation-module.md
                     - name: Geschenkbonmodule
@@ -1194,6 +1206,8 @@
               href: store-performance-information.md
             - name: 'Recency-, frequentie- en monetaire analyse (RFM) instellen'
               href: set-up-rfm-analysis.md
+            - name: Microsoft Clarity instellen in Dynamics 365 Commerce
+              href: set-up-clarity.md
         - name: Globalisatie
           items:
             - name: Overzicht fiscale integratie voor Commerce-afzetkanalen
@@ -1202,6 +1216,14 @@
               href: localizations/setting-up-fiscal-integration-for-retail-channel.md
             - name: Door gebruiker gedefinieerde certificaatprofielen voor winkels
               href: localizations/certificate-profiles-for-retail-stores.md
+            - name: Regulatory Configuration Service
+              items:
+                - name: Overzicht van Regulatory configuration service
+                  href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory configuration service - globalisatiefuncties
+                  href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
+                - name: ER-configuraties maken in Regulatory configuration service en deze uploaden naar de algemene opslagplaats
+                  href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
             - name: Oostenrijk
               items:
                 - name: Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk
@@ -2210,6 +2232,8 @@
                       href: e-commerce-extensibility/module-test-file.md
                     - name: Bestand met props.autogenerated.ts voor module
                       href: e-commerce-extensibility/module-props-autogenerated-ts-file.md
+                    - name: Vooraf ingestelde moduleconfiguratie
+                      href: e-commerce-extensibility/module-config-presets.md
                 - name: Modules ontwikkelen
                   items:
                     - name: Een nieuwe module maken
@@ -2416,6 +2440,18 @@
                   href: dev-itpro/cart-view-handlers.md
                 - name: Aangepaste knoppen toevoegen in POS-koptekstbalk
                   href: dev-itpro/pos-header-bar.md
+                - name: POS-onafhankelijke verpakkings-SDK
+                  items:
+                    - name: Overzicht van POS-uitbreiding
+                      href: dev-itpro/pos-extension/pos-extension-overview.md
+                    - name: Aan de slag met de POS-uitbreidingen
+                      href: dev-itpro/pos-extension/pos-extension-getting-started.md
+                    - name: Een project voor een POS-uitbreidingspakket maken
+                      href: dev-itpro/pos-extension/create-pos-extension-package.md
+                    - name: Een appx-bestand voor de Modern POS-uitbreiding maken
+                      href: dev-itpro/pos-extension/create-pos-extension-appx.md
+                    - name: Fouten opsporen in een POS-uitbreiding
+                      href: dev-itpro/pos-extension/debug-pos-extension.md
             - name: Uitbreidbaarheid van Hardware Station
               items:
                 - name: Hardware Station en uitbreidbaarheid

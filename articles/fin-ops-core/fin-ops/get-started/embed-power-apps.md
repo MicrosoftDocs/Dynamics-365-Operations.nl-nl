@@ -2,7 +2,7 @@
 title: Canvas-apps insluiten vanuit Power Apps
 description: In dit onderwerp wordt uitgelegd hoe u canvas-apps vanuit Microsoft Power Apps kunt insluiten in de client om de functionaliteit van het product te verbeteren.
 author: jasongre
-ms.date: 11/03/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,33 +13,34 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 7b20d24f79bd84f516e005b9d4a0ecdf6ef848fc
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 18146ce5ab081b3a6376bf412805016b04da6a11
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752885"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944674"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Canvas-apps insluiten vanuit Power Apps
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Microsoft Power Apps is een service waarmee ontwikkelaars en niet-technische gebruikers aangepaste zakelijke apps kunnen maken voor mobiele apparaten, tablets en het web zonder code te hoeven schrijven. Finance and Operations-apps ondersteunen integratie met Power Apps. Canvas-apps die u, uw organisatie of anderen ontwikkelen, kunnen worden ingesloten in Finance and Operations-apps om de functionaliteit van het product te verbeteren. U kunt bijvoorbeeld een canvas-app maken in Power Apps als aanvulling op een Finance and Operations-app met informatie die uit een ander systeem wordt opgehaald.
 
-Voor meer informatie over het insluiten van Power Apps bekijkt u de korte video [PowerApps insluiten in Power Apps](https://www.youtube.com/watch?v=x3qyA1bH-NY).
+Voor meer informatie over het insluiten van canvas-apps bekijkt u de korte video [Canvas-apps insluiten](https://www.youtube.com/watch?v=x3qyA1bH-NY).
 
 ## <a name="adding-an-embedded-canvas-app-from-power-apps-to-a-page"></a>Een ingesloten canvas-app vanuit Power Apps toevoegen aan een pagina
 
 ### <a name="overview"></a>Overzicht
 
-Voordat u een canvas-app vanuit Power Apps in de client insluit, moet u eerst een app zoeken of maken met de gewenste visuele effecten of functionaliteit. Dit onderwerp bevat geen gedetailleerde beschrijving van het proces voor het maken van apps. Als u Power Apps voor het eerst gebruikt, raadpleegt u de [Power Apps-documentatie](https://docs.microsoft.com/powerapps/).
+Voordat u een canvas-app vanuit Power Apps in de client insluit, moet u eerst een app zoeken of maken met de gewenste visuele effecten of functionaliteit. Dit onderwerp bevat geen gedetailleerde beschrijving van het proces voor het maken van apps. Als u Power Apps voor het eerst gebruikt, raadpleegt u de [Power Apps-documentatie](/powerapps/).
 
 U kunt op twee manieren toegang krijgen tot een specifieke canvas-app op een pagina wanneer u klaar bent om de app in te sluiten. Kies de aanpak die het beste bij uw situatie past. Bij de eerste aanpak wordt de knop **Power Apps** gebruikt die aan het standaardactievenster is toegevoegd. Apps die u met deze methode toevoegt, worden als items op de **Power Apps**-menuknop weergegeven. Als u een van deze items selecteert, wordt een zijdeelvenster geopend met de ingesloten app. U kunt een app ook rechtstreeks op een pagina insluiten als een nieuw tabblad, sneltabblad, blad of als een nieuwe sectie in een werkgebied.
 
 Als u uw ingesloten canvas-app configureert, kunt u één veld selecteren dat u als context naar de app wilt verzenden. Met deze stap kan de app reageren op basis van de gegevens die u momenteel weergeeft.
 
 > [!NOTE]
-> U kunt dit mechanisme momenteel niet gebruiken om gemodelleerde apps in te sluiten.  
+> U kunt dit mechanisme momenteel niet gebruiken om modelgestuurde apps in te sluiten.  
 
 ### <a name="details"></a>Gegevens
 
@@ -55,7 +56,8 @@ De volgende procedure laat zien hoe u een canvas-app vanuit Power Apps in de web
 
     - Het veld **Naam** geeft de weergegeven tekst aan voor de knop of het tabblad met de ingesloten app. Vaak zult u de naam van de app in dit veld willen herhalen.
     - Met het veld **App-ID** wordt de GUID (Globally Unique Identifier) aangegeven voor de canvas-app die u wilt insluiten. Als u deze waarde wilt ophalen, gaat u naar de app op [make.powerapps.com](https://make.powerapps.com) en zoekt u in het veld **App-ID** onder **Details**.
-    - Voor **Context invoeren voor de app** kunt u eventueel het veld selecteren dat de gegevens bevat die u als invoer wilt doorgeven aan de app. Raadpleeg de sectie [Een app bouwen die gebruikmaakt van gegevens die vanuit Finance and Operations-apps zijn verzonden](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) verderop in dit onderwerp voor meer informatie over hoe de app toegang krijgt tot gegevens uit Finance and Operations-apps.
+    - Voor **Context invoeren voor de app** kunt u eventueel het veld selecteren dat de gegevens bevat die u als invoer wilt doorgeven aan de app. Meer informatie over hoe apps toegang krijgen tot gegevens die worden verzonden vanuit Finance and Operations-apps vindt u de sectie [Een app bouwen die gebruikmaakt van gegevens die vanuit Finance and Operations-apps zijn verzonden](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) verderop in dit onderwerp. 
+        - Vanaf versie 10.0.19 wordt de huidige rechtspersoon ook doorgegeven als context voor de canvas-app via de URL-parameter **cmp**. Dit heeft geen invloed op het canvas-app tot die app gebruik maakt van deze informatie. 
     - Kies de **Toepassingsgrootte** die overeenkomt met het type app dat u insluit. Selecteer **Dun** voor apps voor mobiele apparaten en **Breed** voor apps voor tablets. Zo zorgt u dat voldoende schijfruimte wordt gereserveerd voor de ingesloten app.
     - Het sneltabblad **Rechtspersonen** biedt de mogelijkheid om te kiezen voor welke rechtspersonen de app beschikbaar is. De standaardwaarde is dat de app voor alle rechtspersonen toegankelijk is. Deze optie is alleen beschikbaar als de functie [Opgeslagen weergaven](saved-views.md) is uitgeschakeld. 
 
@@ -65,7 +67,7 @@ De volgende procedure laat zien hoe u een canvas-app vanuit Power Apps in de web
 
 Nadat u een canvas-app op een pagina hebt ingesloten en hebt bevestigd dat deze correct werkt met alle gegevenscontext die wordt doorgegeven vanaf die pagina, kunt u de app met andere gebruikers in het systeem delen. Voer de volgende stappen uit om een ingesloten canvas-app te delen.
 
-1. [Deel de canvas-app](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app) met de gewenste gebruikers, zodat zij toegang kunnen krijgen tot de app in Power Apps. 
+1. [Deel de canvas-app](/powerapps/maker/canvas-apps/share-app) met de gewenste gebruikers, zodat zij toegang kunnen krijgen tot de app in Power Apps. 
 
 2. Controleer dat de beoogde gebruikers de juiste persoonlijke instellingen hebben, zodat de ingesloten app wordt weergegeven wanneer deze gebruikers de pagina bekijken. U kunt een van de twee volgende methoden gebruiken:
 
@@ -79,12 +81,14 @@ Zie [De gebruikerservaring aanpassen](personalize-user-experience.md) voor meer 
 
 ## <a name="building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps"></a>Een canvas-app maken waarin gegevens worden gebruikt die vanuit Finance and Operations-apps worden verzonden
 
-Wanneer u een canvas-app maakt die in een Finance and Operations-app wordt ingesloten, is een belangrijk onderdeel van het proces dat u de invoergegevens van die Finance and Operations-app gebruikt. Vanuit de Power Apps-ontwikkelervaring kunt u toegang krijgen tot de invoergegevens die vanuit een Finance and Operations-app worden doorgegeven met de variabele **Param("EntityId"**).
+Wanneer u een canvas-app maakt die in een Finance and Operations-app wordt ingesloten, is een belangrijk onderdeel van het proces dat u de invoergegevens van die Finance and Operations-app gebruikt. Vanuit de Power Apps-ontwikkelervaring kunt u toegang krijgen tot de invoergegevens die vanuit een Finance and Operations-app worden doorgegeven met de variabele **Param("EntityId"**). Daarnaast wordt vanaf versie 10.0.19 de huidige rechtspersoon ook doorgegeven naar de canvas-app via de variabele **Param("cmp")**. 
 
 Voor de functie OnStart van de app kunt u de invoergegevens van Finance and Operations-apps bijvoorbeeld instellen op een variabele als hieronder:
 
-```powerapps
+``` Power Apps
 If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsInput, ""));
+
+If(!IsBlank(Param("cmp")), Set(FinOpsInput, Param("cmp")), Set(FinOpsLegalEntity, ""));
 ```
 
 ## <a name="viewing-a-canvas-app"></a>Een canvas-app weergeven
@@ -112,6 +116,11 @@ Nadat een app is ingesloten op een pagina, zijn er twee manieren om deze te verw
 - Omdat de ingesloten app wordt opgeslagen als persoonlijke gegevens, worden bij het wissen van aanpassingen op uw pagina ook eventuele ingesloten apps op die pagina verwijderd. Houd er rekening mee dat het wissen van de aanpassingen van de pagina definitief is. Als u uw aanpassingen op een pagina wilt verwijderen, selecteert u **Opties** en klikt u op **Deze pagina aanpassen** en tot slot op de knop **Wissen**. Na het vernieuwen van uw browser worden alle vorige aanpassingen voor deze pagina verwijderd. Zie [De gebruikerservaring aanpassen](personalize-user-experience.md) voor meer informatie over het optimaliseren van pagina's met aanpassingen.
 
 ## <a name="appendix"></a>Bijlage
+
+### <a name="developer-modeling-a-canvas-app-on-a-form"></a>[Ontwikkelaar] Een canvas-app modelleren op een formulier
+
+In dit onderwerp wordt besproken hoe canvas-apps door middel van personalisatie kunnen worden ingesloten, maar ontwikkelaars kunnen met behulp van de Visual Studio-ontwikkelervaring ook een canvas-app toevoegen aan een formulier. Hiervoor voegt u gewoon een PowerAppsHostControl toe aan het formulier. De metagegevenseigenschappen die beschikbaar zijn in het besturingselement, bieden dezelfde mogelijkheden als personalisatie.
+
 
 ### <a name="developer-specifying-where-an-app-can-be-embedded"></a>\[Ontwikkelaar\]: opgeven waar een app kan worden ingesloten
 

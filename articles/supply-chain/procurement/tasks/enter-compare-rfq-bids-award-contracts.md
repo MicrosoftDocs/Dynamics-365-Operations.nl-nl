@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e7abe133c4d2c7a515c75709bd5616c83ebbcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0acff4165ef4d61fb0d14a8f365273ea43fac7d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811985"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920576"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Offerteaanvraagbiedingen invoeren en vergelijken en contracten toekennen
 
@@ -32,7 +32,7 @@ U kunt het bod invoeren als leverancier of als inkoopmedewerker. Zie voor meer i
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Een antwoord invoeren als leverancier
 
-1. Selecteer op het dashboard de optie **Biedingen van leverancier**.
+1. Ga naar **Leverancierssamenwerking \> Werkgebieden \> Biedingen van leverancier**.
 2. Zoek in de lijst **Uitnodigingen voor nieuw bod** een offerteaanvraag die zojuist is verzonden. Selecteer de offerteaanvraag om te controleren wat er is aangevraagd.
 3. Selecteer **Bijlagen voor offerteaanvraag** om bijlagen te controleren die zijn toegevoegd.
 4. Selecteer **bieding** om de velden bewerkbaar te maken. Zoals u ziet, is het veld **Voortgang bieding** ingesteld op **Leverancier is bezig met bijwerken**.

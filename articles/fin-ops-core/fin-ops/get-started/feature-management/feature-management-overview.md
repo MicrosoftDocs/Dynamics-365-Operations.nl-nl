@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d5d5303b6d81ad182e0e28a51790166b833bee7b
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754795"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923302"
 ---
 # <a name="feature-management-overview"></a>Overzicht van Functiebeheer
 
@@ -140,7 +140,7 @@ Met Functiebeheer kunt u de functies beheren die in elke release worden geleverd
 
 ## <a name="new-features-are-optional-for-12-months"></a>Nieuwe functies zijn gedurende 12 maanden optioneel
 
-Wanneer een nieuwe niet-essentiële functie wordt geïnstalleerd, is deze optioneel gedurende een periode van twaalf maanden. Dit geeft u en uw organisatie tijd om te plannen voor het moment dat u een functie opneemt en deze te testen voor uw dagelijkse activiteiten. Meer informatie over dit onderwerp vindt u in [Veelgestelde vragen over updates van service met één versie](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
+Wanneer een nieuwe niet-essentiële functie wordt geïnstalleerd, is deze optioneel gedurende een periode van twaalf maanden. Dit geeft u en uw organisatie tijd om te plannen voor het moment dat u een functie opneemt en deze te testen voor uw dagelijkse activiteiten. Meer informatie over dit onderwerp vindt u in [Veelgestelde vragen over updates van service met één versie](../one-version.md#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Functiebeheer gebruiken om ISV-functies of aangepaste functies in te schakelen
 
@@ -161,7 +161,7 @@ Het beleid is dat alle nieuwe functies voor een periode van twaalf maanden in aa
 De timing van updateversies is variabel, timing van omgevingsupdates is variabel en klanten kunnen ervoor kiezen sommige updates over te slaan. Hierdoor zijn bepaalde datums moeilijk te bepalen. 
 
 ### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Waar is de documentatie voor functies die verplicht worden gesteld? 
-Deze documentatie is afkomstig uit de toepassingsteams. Deze worden vaak vermeld in [Verwijderde of afgeschafte functies](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+Deze documentatie is afkomstig uit de toepassingsteams. Deze worden vaak vermeld in [Verwijderde of afgeschafte functies](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Is er een melding of signaal in het product dat een functie verplicht wordt ingeschakeld? 
 Er bestaat op dit moment geen meldingsmechanisme voor het verplicht maken van een functie.

@@ -2,7 +2,7 @@
 title: Beheeronderdelen voor elektronische facturering
 description: Dit onderwerp biedt informatie over de onderdelen die zijn gerelateerd aan het beheer van de functie voor elektronische facturering.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2e859875e124796e49000cd5ea94cfb75ecd768a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ac4a03d75898680b5655421f3024dc6f666464c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840023"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963186"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Beheeronderdelen voor elektronische facturering
 
@@ -31,7 +31,7 @@ Dit onderwerp biedt informatie over de onderdelen die zijn gerelateerd aan het b
 
 ## <a name="azure"></a>Azure
 
-Gebruik Microsoft Azure om de geheimen voor het Key Vault- en opslagaccount te maken. Gebruik de geheimen vervolgens in de configuratie van Elektronische facturering.
+Gebruik Microsoft Azure om de geheimen voor de Key Vault en het opslagaccount te maken. Gebruik de geheimen vervolgens in de configuratie van Elektronische facturering.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
@@ -87,10 +87,12 @@ De service voor elektronische facturering is verantwoordelijk voor het opslaan v
 - Een Azure-opslagaccount (Blob-opslag) waarin elektronische facturen worden opgeslagen
 - Een Azure Key Vault voor de opslag van certificaten en de URI (Uniform Resource Identifier) van het opslagaccount
 
-> [!NOTE]
-> Een speciale Key Vault en een opslagaccount van de klant moeten specifiek worden toegewezen voor gebruik met Elektronische facturering.
 
-Zie [Een Azure-opslagaccount en Key Vault maken](e-invoicing-create-azure-storage-account-key-vault.md) voor meer informatie.
+Een speciale Key Vault en een opslagaccount van de klant moeten specifiek worden toegewezen voor gebruik met Elektronische facturering. Zie [Een Azure-opslagaccount en Key Vault maken](e-invoicing-create-azure-storage-account-key-vault.md) voor meer informatie.
+
+Om de status van uw Key Vault te bewaken en waarschuwingen te ontvangen, configureert u Azure Monitor voor Key Vault. Als u logboekregistratie inschakelt voor Key Vault, kunt u controleren hoe, wanneer en door wie uw Key Vaults worden gebruikt. Meer informatie over dit onderwerp vindt u in [Bewaking en waarschuwingen ontvangen voor Azure Key Vault](/azure/key-vault/general/alert) en [Logboekregistratie inschakelen voor Key Vault](/azure/key-vault/general/howto-logging?tabs=azure-cli).
+
+Het wordt aangeraden om de geheimen regelmatig te wisselen. Zie de [Documentatie voor geheimen](/azure/key-vault/secrets/) voor meer informatie.
 
 #### <a name="users"></a>Gebruikers
 

@@ -2,7 +2,8 @@
 title: Een e-commercesite voor B2B instellen
 description: In dit onderwerp wordt beschreven hoe u een e-commercesite voor B2B (business-to-business) in Microsoft Dynamics 365 Commerce instelt.
 author: josaw1
-ms.date: 01/20/2021
+manager: AnnBe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3c6ea6118c3ba0ab77fea91b2eafa75c89b8d71d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: db33bf941303c6a74f9c6b2d5a782762f7180f1b
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799752"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937501"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Een e-commercesite voor B2B instellen
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 E-commercesites voor B2B bieden belangrijke mogelijkheden om de workflow te optimaliseren voor een B2B-gebruiker. In dit onderwerp wordt beschreven hoe u een e-commercesite voor B2B in Microsoft Dynamics 365 Commerce instelt. U doorloopt de modules en locatie-instellingen die geconfigureerd moeten worden om B2B-specifieke scenario's mogelijk te maken.
 
@@ -283,9 +285,35 @@ Voer de volgende stappen uit om een pagina met factuurdetails in Site Builder te
 1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
 1. Publiceer de URL voor de pagina.
 
+## <a name="add-a-quick-add-module-to-the-cart-page"></a>Voeg een module voor snel toevoegen toe aan de winkelwagenpagina
+
+De module snel toevoegen biedt een manier om snel meerdere artikelen aan de winkelwagen toe te voegen door artikelnummers (ook wel voorraadeenheden genoemd \[SKU\]) te gebruiken. De module snel toevoegen wordt toegevoegd aan de winkelwagenpagina van een site.
+
+Voer de volgende stappen uit om een module voor snel toevoegen toe te voegen aan een winkelwagenpagina in Commerce Site Builder.
+
+1. Ga naar **Sjablonen** en selecteer de winkelwagenpaginasjabloon van uw site.
+1. Selecteer **Bewerken**.
+1. Selecteer in het vak **Hoofd** van de module **Standaardpagina** het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
+1. Selecteer het weglatingsteken (**...**) in het vak **Container** en selecteer **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Snel toevoegen** en selecteer vervolgens **OK**.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de sjabloon in te checken en selecteer **Publiceren** om te publiceren.
+1. Ga naar **Pagina's** en selecteer de winkelwagenpagina van uw site.
+1. Selecteer in het vak **Hoofd** van de module **Standaardpagina** het weglatingsteken (**...**) en vervolgens **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Container** en selecteer vervolgens **OK**.
+1. Stel in het eigenschappendeelvenster voor de **Container**-module de eigenschap **Breedte** in op **Container vullen**.
+1. Selecteer het weglatingsteken (**...**) in het vak **Container** en selecteer **Module toevoegen**.
+1. Selecteer in het dialoogvenster **Module toevoegen** de module **Snel toevoegen** en selecteer vervolgens **OK**.
+1. Selecteer **Opslaan**, selecteer **Bewerken voltooien** om de pagina in te checken en selecteer **Publiceren** om te publiceren.
+
+> [!NOTE] 
+> De module voor snel toevoegen is beschikbaar vanaf Commerce versie 10.0.17. Als u een oudere versie van Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor meer instructies.
+
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van modulebibliotheek](../starter-kit-overview.md)
+
+[Updates voor SDK's en modulebibliotheken](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)
 
 [Overzicht van pagina schrijven](../authoring-home-overview.md)
 
@@ -299,7 +327,7 @@ Voer de volgende stappen uit om een pagina met factuurdetails in Site Builder te
 
 [Inhoudsblokkenmodule](../add-hero-module.md)
 
-[Productverzameling](../product-collection-module-overview.md)
+[Productverzamelingsmodule](../product-collection-module-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

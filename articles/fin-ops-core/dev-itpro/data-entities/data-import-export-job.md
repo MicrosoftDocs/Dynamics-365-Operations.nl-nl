@@ -2,7 +2,7 @@
 title: Overzicht van gegevensimport- en exporttaken
 description: Gebruik het werkgebied Gegevensbeheer om taken voor het importeren en exporteren van gegevens te maken en te beheren.
 author: Sunil-Garg
-ms.date: 11/02/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cb38c812aed60bddadce25f66ec77f4e428be71
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750995"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937325"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Overzicht van Gegevensimport- en exporttaken
 
@@ -161,19 +161,7 @@ Voor een snellere import van gegevens kan een parallelle verwerking van een best
     - Voer in het veld **Drempel voor records importeren** het drempelaantal in voor records importeren. Hiermee wordt het aantal records bepaald dat door een thread moet worden verwerkt. Als een bestand 10.000 records bevat, wordt met een recordaantal van 2500 met het taakaantal van 4 bedoeld dat elke thread 2500 records verwerkt.
     - Voer in het veld **Taakaantal importeren** het aantal importtaken in. Dit mag niet hoger zijn dan het maximum aantal batchthreads dat is toegewezen voor batchverwerking **Systeembeheer \> Serverconfiguratie**.
 
-## <a name="clean-up-the-staging-tables"></a>De faseringstabellen opschonen
-Vanaf Platform update 29 is deze functionaliteit afgeschaft. Deze wordt vervangen door een nieuwe versie van de functie historie opschonen die hieronder wordt toegelicht.
-
-U kunt faseringstabellen opschonen met de functie **Fasering opschonen** in het werkgebied **Gegevensbeheer**. U kunt de volgende opties gebruiken om op te geven welke records moeten worden verwijderd uit welke faseringstabel:
-
-- **Entiteit** : als alleen een entiteit is opgegeven, worden alle records uit de faseringstabel van die entiteit verwijderd. Selecteer deze optie om alle gegevens voor de entiteit in alle gegevensprojecten en alle taken te verwijderen.
-- **Taak-ID**: als alleen een taak-ID is opgegeven, worden alle records voor alle entiteiten in de geselecteerde taak verwijderd uit de betreffende faseringstabellen.
-- **Gegevensprojecten**: als alleen een gegevensproject is geselecteerd, worden alle records voor alle entiteiten en in alle taken voor het geselecteerde gegevensproject verwijderd.
-
-U kunt de opties ook combineren om verder te beperken welke recordset wordt verwijderd.
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>Taakgeschiedenis opschonen (beschikbaar in Platform update 29 en hoger)
-
+## <a name="job-history-clean-up"></a>Taakhistorie opschonen 
 De functie historie opschonen in gegevensbeheer moet worden gebruikt om een periodieke opschoning van de uitvoeringshistorie te plannen. Deze functionaliteit vervangt de vorige functie voor het opschonen van faseringstabellen, die nu is afgeschaft. De volgende tabellen worden in dit proces opgeschoond.
 
 -   Alle faseringstabellen

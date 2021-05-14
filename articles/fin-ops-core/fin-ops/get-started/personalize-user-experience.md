@@ -2,7 +2,7 @@
 title: De gebruikerservaring aanpassen
 description: In dit onderwerp wordt uitgelegd hoe u de app kunt aanpassen.
 author: jasongre
-ms.date: 09/11/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efc5afc9d685954bf736686bbed3e7575f76e7e7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744688"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944528"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
@@ -98,7 +98,7 @@ U kunt het eigenschappenvenster gebruiken om een element op de volgende manieren
 
 Het eigenschappenvenster kan andere mogelijkheden voor aanpassing hebben, afhankelijk van het element. Met het eigenschappenvenster van een tegel kunt u de tegel bijvoorbeeld promoveren tot dashboard en met het eigenschappenvenster van elementen op het standaarddashboard kunt u mogelijk een nieuw werkgebied maken.
 
-### <a name="the-personalization-toolbar"></a>De werkbalk Aanpassing
+### <a name="personalization-toolbar"></a>Aanpassingswerkbalk
 
 Als u meerdere wijzigingen in een pagina wilt aanbrengen of wijzigingen wilt doorvoeren die niet beschikbaar zijn via andere mechanismen (zoals de volgorde van elementen wijzigen), kunt u de werkbalk **Aanpassing** gebruiken. Voer een van de volgende stappen uit om de werkbalk **Aanpassing** te openen:
 
@@ -173,7 +173,90 @@ Een unieke aanpassingsmogelijkheid die beschikbaar is op het dashboard, is de mo
 
 ## <a name="sharing-personalizations"></a>Persoonlijke instellingen delen
 
-Nadat u een pagina hebt aangepast, kunt u uw aanpassingen delen met andere gebruikers door de aangepaste pagina te exporteren. U kunt vervolgens andere gebruikers vragen het personalisatiebestand te importeren. U kunt ook uw aanpassingen geven aan een gebruiker die beheerdersrechten heeft. Die gebruiker kan het aanpassingsbestand vervolgens toepassen op veel gebruikers tegelijk via de beheerpagina **Persoonlijke instellingen**.
+Nadat u een pagina hebt aangepast, kunt u op verschillende manieren uw aanpassingen delen met andere gebruikers. In de volgende lijst zijn de methoden gerangschikt op volgorde van de meest aanbevolen naar de minst aanbevolen methode.
+
+1. Weergaven naar gebruikers publiceren.
+2. Weergaven of aanpassingen naar gebruikers kopiëren.
+3. Weergaven of aanpassingen exporteren en importeren.
+
+### <a name="publish-views-to-users"></a>Weergaven naar gebruikers publiceren
+
+Als de functie [Opgeslagen weergaven](saved-views.md) is ingeschakeld en als de pagina weergaven ondersteunt, kunt u de weergave het beste met andere gebruikers delen door de weergave te publiceren naar gebruikers met een of meer beveiligingsrollen. Meer informatie over dit onderwerp vindt u in [Weergaven publiceren](saved-views.md#publishing-views).
+
+### <a name="copy-views-or-personalizations-to-users"></a>Weergaven of aanpassingen naar gebruikers kopiëren
+
+Als de functie [Opgeslagen](saved-views.md) weergaven is uitgeschakeld of als de pagina geen weergaven ondersteunt, is de aanbevolen manier om aanpassingen te delen door deze van de ene gebruiker naar de andere te kopiëren. Deze methode is alleen beschikbaar voor bevoegde gebruikers (bijvoorbeeld systeembeheerders). Beheerders kunnen echter de aanpassing van een bepaalde gebruiker in het systeem opzoeken (inclusief de persoonlijke weergave van de gebruiker als Opgeslagen weergaven is ingeschakeld) en de configuratie naar andere gebruikers kopiëren.
+
+Als Opgeslagen weergaven is ingeschakeld, volgt u deze stappen om de aanpassing te kopiëren.
+
+1. Ga naar **Systeembeheer \> Instellingen \> Persoonlijke instellingen**.
+2. U kunt persoonlijke weergaven als volgt kopiëren:
+
+    1. Selecteer **Persoonlijke weergaven**.
+    2. Selecteer de gewenste weergaven in de lijst.
+    3. Selecteer **Kopiëren naar gebruikers**.
+    4. Selecteer de gebruikers naar wie u de weergaven wilt kopiëren.
+
+    Volg deze stappen om aanpassingen te kopiëren van pagina's die geen weergaven ondersteunen:
+
+    1. Selecteer **Gebruikersinstellingen**.
+    2. Selecteer de gebruiker met de aanpassing die u wilt delen.
+    3. Selecteer **Alle aanpassingen beheren**.
+    4. Selecteer de gewenste aanpassingen in de lijst.
+    5. Selecteer **Kopiëren naar gebruikers**.
+    6. Selecteer de gebruikers naar wie u de aanpassingen wilt kopiëren.
+
+Als Opgeslagen weergaven niet is ingeschakeld, volgt u deze stappen om een aanpassingen te kopiëren.
+
+1. Ga naar **Systeembeheer \> Instellingen \> Persoonlijke instellingen**.
+2. Selecteer **Toepassing**.
+3. Selecteer de gebruikers naar wie u de aanpassing wilt kopiëren.
+4. Selecteer **Bestaande aanpassingen selecteren**.
+5. Zoek en selecteer de (enkele) aanpassing waarin u geïnteresseerd bent.
+6. Selecteer **OK**.
+
+### <a name="export-and-import-views-or-personalizations"></a>Weergaven of aanpassingen exporteren en importeren
+
+U kunt aanpassingen ook delen via export en import. Individuele gebruikers, of een beheerder die namens hen handelt, kunnen met deze methode hun aanpassingen of weergaven exporteren en vervolgens het geëxporteerde bestand aan andere gebruikers geven om te importeren. Gebruikers kunnen hun geëxporteerde aanpassingen ook geven aan een gebruiker met beheerdersbevoegdheden, waarna die gebruiker de pagina **Persoonlijke instellingen** kan gebruiken om het aanpassingsbestand op een groot aantal gebruikers tegelijk toe te passen.
+
+#### <a name="export"></a>Exporteren
+
+In het algemeen kunt u een van uw eigen weergaven of aanpassingen exporteren door de betreffende pagina te openen, de werkbalk **Persoonlijke instellingen** te openen en vervolgens **Exporteren** te selecteren. Meer informatie over de werkbalk vindt u in de sectie [Aanpassingswerkbalk](#personalization-toolbar) een stukje terug in dit artikel. Als [Opgeslagen weergaven](saved-views.md) is ingeschakeld, kunt u ook gaan naar **Instellingen \> Gebruikersopties \> Persoonlijke instellingen** om een lijst met al uw aanpassingen in het systeem weer te geven. Hier kunt u de weergaven of aanpassingen selecteren die u wilt exporteren en vervolgens **Exporteren** selecteren.
+
+Verder kunnen beheerders de aanpassingen van andere gebruikers exporteren door de volgende stappen uit te voeren.
+
+1. Ga naar **Systeembeheer \> Instellingen \> Persoonlijke instellingen**.
+2. Selecteer op het tabblad **Gebruikers** de gewenste gebruiker.
+3. Zoek en selecteer de weergave of aanpassing waarin u geïnteresseerd bent.
+4. Selecteer **Exporteren**.
+
+#### <a name="import"></a>Importeren
+
+Als u een weergave of aanpassing wilt importeren, opent u gewoon de werkbalk **Persoonlijke instellingen** en selecteert u **Importeren**. Bovendien kunnen beheerders een bestand importeren en dit direct aan een of meer gebruikers geven.
+
+Als Opgeslagen weergaven is ingeschakeld, volgt u deze stappen.
+
+1. Ga naar **Systeembeheer \> Instellingen \> Persoonlijke instellingen**.
+2. Selecteer in het actievenster **Weergaven importeren \> Gebruikersweergaven**.
+3. Selecteer de importmodus:
+
+    - **Specifieke gebruikers selecteren**: de weergave of de aanpassing geven aan geselecteerde gebruikers.
+    - **As-is importeren**: de weergave of personalisatie importeren naar dezelfde gebruiker die deze heeft geëxporteerd.
+
+4. Selecteer **Bladeren** en zoek en selecteer de aanpassing die u wilt importeren.
+5. Selecteer **Volgende**.
+6. Als u in stap 3 **Specifieke gebruikers selecteren** hebt gekozen, selecteert u de gebruikers naar wie u de personalisatie wilt importeren.
+7. Selecteer **Importeren**.
+8. Los waar nodig conflicten op.
+
+Als Opgeslagen weergaven niet is ingeschakeld, volgt u deze stappen.
+
+1. Ga naar **Systeembeheer \> Instellingen \> Persoonlijke instellingen**.
+2. Selecteer **Toepassing**.
+3. Selecteer de gebruikers naar wie u de aanpassing wilt kopiëren.
+4. Selecteer **Aanpassingen importeren uit een bestand**.
+5. Selecteer **Bladeren** en zoek en selecteer de aanpassing die u wilt importeren.
+6. Selecteer **OK**.
 
 ## <a name="administration-of-personalizations"></a>Beheer van aanpassingen
 
@@ -184,8 +267,11 @@ Zie de sectie 'Weergaven globaal beheren' in het onderwerp [Opgeslagen weergaven
 Voor klanten die de functie [Opgeslagen weergaven](saved-views.md) nog niet hebben ingeschakeld, bevat deze pagina vier tabbladen:
 
 - **Toepassen**: u kunt een aanpassing voor een of meer gebruikers importeren of selecteren. Als u een aanpassing wilt toepassen op een of meer gebruikers, selecteert u eerst een rol en gebruikers die deze rol hebben. Vervolgens selecteert u een bestaande aanpassing om toe te passen op geselecteerde gebruikers of importeert u een aanpassingsbestand. De aanpassing wordt gevalideerd en toegepast op alle geselecteerde gebruikers. Dit wordt van kracht bij de volgende keer dat ze de geselecteerde pagina openen.
+
 - **Wissen**: u kunt alle aanpassingen voor een pagina of werkgebied voor een of meer gebruikers wissen. Selecteer eerst een pagina of werkgebied voor een overzicht van de gebruikers die deze hebben aangepast. Kies vervolgens de gebruikers waarvoor de aanpassingen voor die pagina moeten worden gewist en selecteer **Wissen**. Alle aanpassingen die de geselecteerde gebruikers hebben toegepast op de geselecteerde pagina of het geselecteerde werkgebied, worden verwijderd. Deze actie kan niet ongedaan worden gemaakt. Als de pagina of het werkgebied echter een opgeslagen aanpassing heeft, kan die aanpassing opnieuw worden geïmporteerd.
+
 - **Gebruikers**: selecteer een gebruiker voor een lijst met de pagina's die de gebruiker heeft aangepast. Vervolgens kunt u in- of uitschakelen of de gebruiker voor bepaalde pagina's of voor het hele systeem aanpassingen kan doorvoeren. U kunt ook een aanpassing importeren, exporteren of wissen voor de gebruiker. Daarnaast kunt u de functietoelichtingen voor de gebruiker opnieuw instellen. Als de gebruiker pop-upvensters die nieuwe functies introduceren, eerder heeft gesloten, worden deze opnieuw weergegeven wanneer de gebruiker de volgende keer de desbetreffende functie tegenkomt.
+
 - **Systeem**: u kunt tijdelijk aanpassingen voor alle gebruikers in het systeem uitschakelen. In dat geval worden alle aanpassingen voor alle gebruikers verwijderd en worden alle pagina's opnieuw ingesteld op de standaardstatus. Als u aanpassingen later weer wilt inschakelen, worden alle aanpassingen opnieuw toegepast. U kunt alle aanpassingen voor alle gebruikers in het systeem ook permanent verwijderen. Er is geen enkele manier om aanpassingen terug te halen die zijn verwijderd. Voordat u deze taak uitvoert, moet u er daarom voor zorgen dat u aanpassingen hebt geëxporteerd die u later mogelijk wilt.
 
 ## <a name="personalizing-inventory-dimensions"></a>Voorraaddimensies aanpassen

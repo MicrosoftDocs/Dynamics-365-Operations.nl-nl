@@ -1,5 +1,5 @@
 ---
-title: Preview van Dynamics 365 Supply Chain Management 10.0.18 (mei 2021)
+title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management versie 10.0.18 (mei 2021)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.18.
 author: kamaybac
 ms.date: 03/01/2021
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d84520b8f551df847cb5d77d8dcbce1701d3795b
+ms.sourcegitcommit: d77b2175a3364694b5c74e0062e317f612416796
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909348"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5934962"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Preview van Dynamics 365 Supply Chain Management 10.0.18 (mei 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management versie 10.0.18 (mei 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in de preview van Microsoft Dynamics 365 Supply Chain Management versie 10.0.18. Deze versie heeft een buildnummer van 10.0.793 en is als volgt beschikbaar:
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.18. Deze versie heeft een buildnummer van 10.0.793 en is als volgt beschikbaar:
 
 - **Preview van versie:** maart 2021
 - **Algemene beschikbaarheid van versie (zelfupdate):** april 2021
@@ -43,9 +42,17 @@ Deze versie bevat de volgende functies. Volg de koppelingen naar het [releaseepl
 
 - [Kortingbeheer](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Zie [Overzicht van module Kortingsbeheer](../rebate-management/rebate-management-overview.md) voor meer informatie
 
+- [Instellingsbeleid van de export van de verkoopgegevensentiteit](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
+
+- [Registratie van verkoopretourregel met decimale precisie met en zonder catch weight](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-return-order-line-registration-decimal-precision-without-catch-weight)
+
+- [Verkooporderbevestiging met één klik](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation)
+
+- [Verwijderingsbeleid voor verkooporder naar inkooporderregel](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-purchase-order-line-deletion-policy)
+
 - Vereenvoudigde interface voor alleen in- en uitklokken (verbetering voor [Verbeterde uitvoeringsinterface voor productievloer bij productie](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Zie [Uitvoeringsinterface voor de werkvloer configureren](../production-control/production-floor-execution-configure.md) voor meer informatie.
 
-De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken. Sommige van de functies in de lijst zijn nog steeds in preview, terwijl andere mogelijk al algemeen beschikbaar zijn. 
+De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 
 ## <a name="new-and-updated-documentation-resources"></a>Nieuwe en bijgewerkte documentatiebronnen
 

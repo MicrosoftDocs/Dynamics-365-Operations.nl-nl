@@ -2,7 +2,7 @@
 title: Elektronische rapportage (ER) configureren om gegevens op te halen in Power BI
 description: In dit onderwerp wordt beschreven hoe u uw ER-configuratie (Elektronische rapportage) kunt gebruiken om gegevens van uw exemplaar over te dragen naar Power BI-services.
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8a53c1c3e1850dabc05a47df6d8cc785a13f6f86
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b37bc608b3b987016622d9cd0abc66e420025d26
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750077"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944432"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Elektronische rapportage (ER) configureren om gegevens op te halen in Power BI
 
@@ -68,10 +68,10 @@ Om het voorbeeld in dit onderwerp te kunnen voltooien, moet u over de volgende t
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Een ER-gegevensmodel als de bron van gegevens selecteren
 U moet een ER-gegevensmodel hebben als bron van zakelijke gegevens die worden gebruikt voor Power BI-rapporten. Dit gegevensmodel wordt geüpload vanuit de opslagplaats voor ER-configuraties. Zie voor meer informatie [Elektronische rapportageconfiguraties downloaden van Lifecycle Services](download-electronic-reporting-configuration-lcs.md) of speel de taakbegeleiding **Een ER-configuratie vanuit Lifecycle Services importeren** af. Selecteer **Intrastat** als het te uploaden gegevensmodel vanuit de geselecteerde opslagplaats voor ER-configuraties. (In dit voorbeeld wordt versie 1 van het model gebruikt.) U kunt vervolgens toegang krijgen tot de configuratie **Intrastat** ER-model op de pagina **Configuraties**.
 
-[![Pagina Configuraties](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+[![Configuratie van Intrastat ER-model op de pagina Configuratie](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Een configuratie voor de ER-indeling ontwerpen
-U moet een nieuwe configuratie voor de ER-indeling maken waarbij het gegevensmodel **Intrastat** als bron van zakelijke gegevens wordt gebruikt. Deze indelingsconfiguratie moet uitvoerresultaten als elektronische documenten in de indeling OpenXML (Excel-bestand) genereren. Speel voor meer informatie de taakbegeleiding **ER Een configuratie maken voor het genereren van rapporten in OPENXML-indeling** af. Geef de nieuwe configuratie de naam **Import-/exportactiviteiten**, zoals in de volgende afbeelding. Gebruik het Excel-bestand [ER-gegevens - import- en exportdetails](https://go.microsoft.com/fwlink/?linkid=845208) als sjabloon wanneer u de ER-indeling ontwerpt. (Speel de taakbegeleiding af voor informatie over het importeren van een indelingssjabloon.)
+U moet een nieuwe configuratie voor de ER-indeling maken waarbij het gegevensmodel **Intrastat** als bron van zakelijke gegevens wordt gebruikt. Deze indelingsconfiguratie moet uitvoerresultaten als elektronische documenten in de indeling OpenXML (Excel-bestand) genereren. Speel voor meer informatie de taakbegeleiding **ER Een configuratie maken voor het genereren van rapporten in OPENXML-indeling** af. Geef de nieuwe configuratie de naam **Import-/exportactiviteiten**, zoals in de volgende afbeelding. Gebruik het Excel-bestand [ER-gegevens - import- en exportdetails](https://download.microsoft.com/download/f/7/5/f755c0fd-025c-4aa9-920b-909abb8302ad/ER-data-import-and-export-details.xlsx) als sjabloon wanneer u de ER-indeling ontwerpt. (Speel de taakbegeleiding af voor informatie over het importeren van een indelingssjabloon.)
 
 [![Configuratie van Import-/exportactiviteiten](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
 
@@ -126,7 +126,7 @@ Klik op de knop **Instellingen** voor de nieuwe bestemmingsrecord. Ga vervolgens
 1. Selecteer op de pagina **Configuraties** (**Organisatiebeheer** &gt; **Elektronische rapportage** &gt; **Configuraties**) in de configuratiestructuur de configuratie **Import-/exportactiviteiten** die u eerder hebt gemaakt.
 2. Wijzig de status van versie 1.1 van **Concept** in **Volledig** om deze indeling voor gebruik beschikbaar te maken.
 
-    [![Pagina Configuraties](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
+    [![Configuratie van activiteiten importeren/exporteren op de pagina Configuratie](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
 
 3. Selecteer de voltooide versie van de configuratie **Import-/exportactiviteiten** en klik op **Uitvoeren**. De geconfigureerde bestemming wordt toegepast op het uitvoerresultaat dat in de Excel-indeling wordt gegenereerd.
 4. Stel de optie **Batchverwerking** in op **Ja** om dit rapport in een modus zonder toezicht uit te voeren.
@@ -187,9 +187,9 @@ Stel integratie met Power BI in. Zie voor meer informatie [Power BI-integratie v
 2. Selecteer het Power BI-rapport **Import- en exportdetails** dat u hebt gemaakt om dat rapport als actie-item weer te geven op de geselecteerde pagina.
 3. Klik op het actie-item om de pagina te openen met het rapport dat u in Power BI hebt ontworpen.
 
-    [![Rapport Import- en exportdetails](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+    [![Rapport Import- en exportdetails ontworpen in Power BI](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)
 

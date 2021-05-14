@@ -1,8 +1,8 @@
 ---
-title: Maateenheid beheren
-description: Deze procedure laat zien hoe u een maateenheid kunt definiëren, vertalingen voor de eenheid en de beschrijving ervan kunt verstrekken en conversieregels voor gerelateerde eenheden kunt definiëren.
+title: Maateenheden beheren
+description: In dit onderwerp wordt beschreven hoe u een maateenheid definieert, vertalingen voor de eenheid en de beschrijving ervan opgeeft en conversieregels voor gerelateerde eenheden definieert.
 author: sorenva
-ms.date: 07/08/2018
+ms.date: 04/09/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,53 +13,115 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 966e189e7395bec15d2c62735c6df3df2ab34b8a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d36839cd8e3398225d3421bf0f268068599ca49f
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817960"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921336"
 ---
-# <a name="manage-unit-of-measure"></a>Maateenheid beheren
+# <a name="manage-units-of-measure"></a>Maateenheden beheren
 
 [!include [banner](../../includes/banner.md)]
 
-Deze procedure laat zien hoe u een maateenheid kunt definiëren, vertalingen voor de eenheid en de beschrijving ervan kunt verstrekken en conversieregels voor gerelateerde eenheden kunt definiëren. U kunt deze procedure doorlopen met demogegevens of uw eigen gegevens.
+In dit onderwerp wordt beschreven hoe u een maateenheid definieert, vertalingen voor de eenheid en de beschrijving ervan opgeeft en conversieregels voor gerelateerde eenheden definieert.
 
-1. Ga naar **Navigatievenster > Modules > Productgegevensbeheer > Producten > Vrijgegeven productonderhoud**.
-2. Klik op **Eenheden**.
+## <a name="open-the-units-page"></a>De pagina Eenheden openen
 
-## <a name="create-a-unit-of-measure"></a>Een maateenheid maken
-1. Klik op **Nieuw**.
-2. Typ een waarde in het veld **Eenheid**. Voer de id of het symbool in dat moet worden gebruikt om te verwijzen naar de maateenheid.  
-3. Typ een waarde in het veld **Beschrijving**. Voer een beschrijvende naam in voor de maateenheid in de systeemtaal.  
-4. Selecteer een optie in het veld **Eenheidsklasse**. De eenheidsklasse definieert van welke logische groepering, zoals oppervlakte, massa of hoeveelheid, de maateenheid deel uitmaakt.  
-5. Voer een getal in het veld **Decimale precisie** in. Geef het aantal decimalen op waarop de omgerekende maateenheid wordt afgerond bij voltooiing van een berekening met de maateenheid.  
-6. Klik op **Opslaan**.
+Als u de maateenheden wilt maken die beschikbaar zijn in uw systeem en ermee wilt werken, gaat u naar **Organisatiebeheer \> Instellingen \> Eenheden \> Eenheden**.
+
+In de overige secties van dit onderwerp wordt beschreven wat u op de pagina **Eenheden** kunt doen.
+
+## <a name="create-standard-units-and-conversions"></a>Standaardeenheden en conversies maken
+
+Als uw systeem nog niet de meest gangbare maateenheden voor het metrieke systeem en/of het USCS (US Customary System) bevat, kan de wizard Eenheden instellen u helpen snel aan de slag te gaan met definities en conversies voor de basiseenheden. Als u de wizard wilt doorlopen, selecteert u **Wizard Eenheid maken** in het actievenster en volgt u de instructies op het scherm.
+
+## <a name="create-or-edit-a-unit-of-measure"></a>Een maateenheid maken of bewerken
+
+Volg deze stappen om een maateenheid te maken of te bewerken.
+
+1. Volg één van deze stappen:
+
+    - Als u een bestaande eenheid wilt bewerken, selecteert u deze in het lijstvenster.
+    - Selecteer in het actievenster **Nieuw** om een nieuwe maateenheid te maken.
+
+1. Stel in de koptekst van de record de volgende velden in:
+
+    - **Eenheid**: Voer de id of het symbool in die moet worden gebruikt om naar de eenheid te verwijzen in de systeemtaal. Deze id of dit symbool is meestal een algemene afkorting voor de eenheid, zoals *st* voor stuks of *cm* voor centimeter.
+    - **Beschrijving**: Voer een beschrijvende naam in voor de maateenheid in de systeemtaal. Deze naam is meestal de volledige naam van de eenheid, zoals *stuks* of *Centimeter*.
+
+1. Stel op het sneltabblad **Algemeen** de volgende velden in:<!-- KFM: confirm this:    - **Fixed unit assignment** and **Fixed unit** – These fields have an effect only if you're using the Microsoft Retail Essentials product. If the current unit can be mapped to one of the fixed units that are used by Retail Essentials, set the **Fixed unit assignment** option to *Yes*. Then select the fixed unit in the **Fixed unit** field. -->
+
+    - **Eenheidsklasse**: selecteer de eigenschap die de eenheid meet (zoals lengte, oppervlak, massa of hoeveelheid).
+    - **Eenhedenstelsel**: selecteer het meetsysteem waar de eenheid deel van uitmaakt (*Metrieke eenheden* of *United States Customary Units*).
+    - **Basiseenheid**: Stel deze optie in op *Ja* als u de huidige eenheid wilt gebruiken als basiseenheid voor de eenheidsklasse waartoe het behoort. In dit geval hoeft u alleen de omrekeningsfactor op te geven tussen de basiseenheid en elke aanvullende eenheid in de eenheidsklasse. Het systeem kan vervolgens omrekenen tussen alle eenheden in die eenheidsklasse. Daarom is het eenvoudiger om omrekeningen in te stellen.
+
+        Als gallon bijvoorbeeld de basiseenheid is voor de eenheidsklasse *Volume*, hoeft u alleen omrekeningsfactoren in te stellen van quart naar gallon en van pint naar gallon. Het systeem kan vervolgens ook omrekenen van quart naar pint.
+
+        U kunt slechts één basiseenheid per eenheidsklasse instellen.
+
+    - **Systeemeenheid**: Stel deze optie in op *Ja* als u de huidige eenheid wilt gebruiken als de aangenomen eenheid voor alle niet-gespecificeerde meeteenheden in de eenheidsklasse. Als bijvoorbeeld een veld waarin een hoeveelheid wordt ingevoerd geen eenheid mag opgeven (of als de gebruiker geen eenheid selecteert), wordt de eenheid gebruikt die is ingesteld als systeemeenheid voor de eenheidsklasse *Hoeveelheid*. U kunt slechts één systeemeenheid per eenheidsklasse instellen.
+    - **Decimale precisie**: Geef het aantal decimalen op waarop de waarden moeten worden afgerond die zijn opgegeven voor de huidige eenheid of waarnaar ze moeten worden omgerekend.
+
+1. Selecteer **Opslaan** in het actievenster.
 
 ## <a name="define-unit-translations"></a>Eenheidsvertalingen definiëren
-1. Ga naar het **actievenster** en klik op **Eenheidsteksten**.
-2. Klik op **Nieuw**. Gebruik eenheidstekst om een vertaling van de id of een symbool te maken waarmee de maateenheid wordt aangeduid voor gebruik op externe documenten in klant- of leverancierspecifieke talen.  
-3. Typ of selecteer een waarde in het veld **Taal**.
-4. Typ een waarde in het veld **Tekst**.
-5. Klik op **Opslaan**.
-6. Sluit de pagina.
-7. Ga naar het **actievenster** en klik op **Vertaalde eenheidsbeschrijvingen**.
-8. Klik op **Nieuw**. Definieer taalspecifieke beschrijvingen voor de maateenheid.  
-9. Typ of selecteer een waarde in het veld **Taal**.
-10. Typ een waarde in het veld **Beschrijving**.
-11. Klik op **Opslaan**.
-12. Sluit de pagina.
+
+Volg deze stappen om vertalingen te definiëren voor de id of het symbool en de beschrijving van een maateenheid.
+
+1. Maak of selecteer de eenheid waarvoor u vertalingen wilt maken.
+1. Selecteer in het actievenster de optie **Eenheidsteksten**.
+
+    De pagina **Eenheidsteksten** wordt geopend. Op deze pagina definieert u vertalingen voor de id of het symbool voor de geselecteerde eenheid. Deze vertalingen kunnen vervolgens worden gebruikt op externe documenten in klantspecifieke of leverancierspecifieke talen.
+
+1. Selecteer **Nieuw** in het actievenster.
+1. Voer in het veld **Taal** de taal in waarnaar de eenheids-id of het symbool moet worden vertaald.
+1. Voer in het veld **Tekst** de vertaling van de eenheids-ID of het eenheidssymbool in de geselecteerde taal in.
+1. Selecteer **Opslaan** in het actievenster.
+1. Sluit de pagina.
+1. Selecteer in het **actievenster** de optie **Vertaalde eenheidsbeschrijvingen**.
+
+    De pagina **Vertaalde eenheidsbeschrijvingen** wordt geopend. Op deze pagina definieert u taalspecifieke beschrijvingen voor de geselecteerde eenheid.
+
+1. Selecteer **Nieuw** in het actievenster.
+1. Voer in het veld **Taal** de taal in waarnaar de beschrijving van de eenheid moet worden vertaald.
+1. Voer in het veld **Beschrijving** de vertaling van de beschrijving in de geselecteerde taal in.
+1. Selecteer **Opslaan** in het actievenster.
+1. Sluit de pagina.
 
 ## <a name="define-unit-conversion-rules"></a>Regels voor eenheidsconversie definiëren
-1. Ga naar het **actievenster** en klik op **Eenheidsconversies**. Definieer regels om de maateenheid te converteren van en naar andere maateenheden in de geselecteerde eenheidsklasse.  
-2. Klik op **Nieuw** om het uitklapdialoogvenster te openen.
-3. Voer een getal in het veld **Factor** in. Conversiefactor tussen Van eenheid en Naar eenheid. De omrekeningsfactor van centimeter naar meter is 100, aangezien er 100 centimeters in 1 meter gaan.  
-4. Typ of selecteer een waarde in het veld **Naar eenheid**.
-5. Selecteer een optie in het veld **Afronding**. Definieer hoe de geconverteerde waarde moet worden afgerond.  
-6. Klik op **OK**.
-7. Sluit de pagina.
 
+Volg deze stappen om regels te definiëren voor omrekeningen tussen maateenheden.
 
+1. Maak of selecteer de eenheid waarvoor u omrekeningsregels wilt maken.
+1. Selecteer in het actievenster de optie **Eenheidsomrekeningen**.
+
+    De pagina **Eenheidsomrekeningen** wordt geopend. Op deze pagina definieert u regels voor het omrekenen van de maateenheid van en naar andere maateenheden in de eenheidsklasse.
+
+1. Selecteer een van de volgende tabbladen, afhankelijk van het type omrekening dat u wilt instellen:
+
+    - **Standaardomrekeningen**: Configureer standaardomrekenregels voor alle producten.
+    - **Omrekeningen binnen klasse**: Configureer productspecifieke omrekenregels voor maateenheden in dezelfde eenheidsklasse.
+    - **Omrekeningen tussen klassen**: Configureer productspecifieke omrekenregels voor maateenheden in verschillende eenheidsklassen.
+
+1. Volg één van deze stappen:
+
+    - Selecteer in het actievenster **Nieuw** om een nieuwe omrekening te maken.
+    - Als u een bestaande omrekening wilt bewerken, selecteert u de omrekening in het raster en selecteert u vervolgens **Bewerken** op de werkbalk.
+
+1. Stel in het dialoogvenster met de vervolgkeuzelijsten de volgende velden in:
+
+    - **Product**: Selecteer het specifieke product waarop de omrekening van toepassing is. Dit veld is alleen beschikbaar voor omrekeningen binnen een klasse en tussen verschillende klassen.
+    - **Formule-indeling**: Laat dit veld ingesteld op *Eenvoudig* om een eenvoudige omrekening op te geven met één factor. Stel het veld in op *Geavanceerd* om een meer ingewikkelde vergelijking in te stellen. De indeling voor geavanceerde vergelijkingen varieert, afhankelijk van de eenheidsklasse.
+    - **Van eenheid**: Dit veld geeft de geselecteerde eenheid weer. Normaal gesproken hoeft de waarde niet te wijzigen. (Als u de waarde wijzigt, moet u de pagina **Eenheidsomrekeningen** voor de geselecteerde eenheid openen om de nieuwe omrekening weer te geven nadat u deze hebt opgeslagen.)
+    - **Naar eenheid**: Selecteer de eenheid waarnaar u wilt converteren.
+    - **Afronding**: Selecteer hoe decimalen moeten worden afgerond op basis van de waarde in **Decimale precisie** van de geselecteerde eenheid (*Naar dichtstbijzijnde*, *Omhoog* of *Omlaag*).
+    - **Omrekeningsformule**: In de overige velden boven in het dialoogvenster kunt u de formule opgeven voor het omrekenen tussen de twee eenheden. Welke velden beschikbaar zijn varieert, afhankelijk van de eenheidsklasse en formule-indeling die u hebt geselecteerd.
+
+1. Selecteer **OK**.
+1. Sluit de pagina.
+
+> [!TIP]
+> U kunt ook eenheidsomrekeningen instellen per productvariant. Meer informatie over dit onderwerp vindt u in [Conversie van maateenheid per productvariant](../uom-conversion-per-product-variant.md).
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

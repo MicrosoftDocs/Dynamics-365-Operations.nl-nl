@@ -1,6 +1,6 @@
 ---
-title: Configuratie voor Financiële inzichten (preview)
-description: In dit onderwerp worden de configuratiestappen beschreven die ervoor zorgen dat uw systeem de mogelijkheden gebruikt die beschikbaar zijn in Financiële inzichten.
+title: Configuratie voor Finance Insights (preview)
+description: In dit onderwerp worden de configuratiestappen beschreven die ervoor zorgen dat uw systeem de mogelijkheden gebruikt die beschikbaar zijn in Finance Insights.
 author: ShivamPandey-msft
 ms.date: 11/25/2020
 ms.topic: article
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 60e4d69157d7b73bd9e47310adae320687230080
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908825"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941221"
 ---
-# <a name="configuration-for-finance-insights-preview"></a>Configuratie voor Financiële inzichten (preview)
+# <a name="configuration-for-finance-insights-preview"></a>Configuratie voor Finance Insights (preview)
 
 [!include [banner](../includes/banner.md)]
 
@@ -30,7 +30,7 @@ ms.locfileid: "5908825"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Financiële inzichten combineert de functionaliteit van Microsoft Dynamics 365 Finance met Microsoft Dataverse, Azure en AI Builder, zodat u beschikt over krachtige prognosefuncties voor uw organisatie. In dit onderwerp worden de configuratiestappen beschreven die ervoor zorgen dat uw systeem de mogelijkheden gebruikt die beschikbaar zijn in Financiële inzichten.
+Finance Insights combineert de functionaliteit van Microsoft Dynamics 365 Finance met Microsoft Dataverse, Azure en AI Builder, zodat u beschikt over krachtige prognosefuncties voor uw organisatie. In dit onderwerp worden de configuratiestappen beschreven die ervoor zorgen dat uw systeem de mogelijkheden gebruikt die beschikbaar zijn in Finance Insights.
 
 ## <a name="deploy-dynamics-365-finance"></a>Dynamics 365 Finance implementeren
 
@@ -42,228 +42,36 @@ Ga als volgt te werk om de omgevingen te implementeren.
 
 ## <a name="configure-dataverse"></a>Dataverse configureren
 
-U kunt de volgende handmatige configuratiestappen uitvoeren, of u kunt het configuratieproces versnellen met behulp van het Windows PowerShell-script dat wordt meegeleverd. Na het uitvoeren het PowerShell-script krijgt u waarden die u kunt gebruiken voor het configureren van Financiële inzichten. 
+Met de volgende stappen kunt u Dataverse configureren voor Finance Insights.
 
+1. Open de omgevingspagina in LCS en controleer of de sectie **Power Platform-integratie** al is ingesteld.
+    1. Als deze al is ingesteld, moet de naam worden vermeld van de Dataverse-omgeving die is gekoppeld aan de Dynamics 365 Finance-omgeving. Kopieer de naam van de Dataverse-omgeving.
+    2. Als de sectie niet is ingesteld, volgt u deze stappen:
+        1. Selecteer de knop **Instellingen** in de sectie Power Platform-integratie. Het instellen van de omgeving kan tot een uur duren.
+        2. Nadat de Dataverse-omgeving is ingesteld, moet de naam van de Dataverse-omgeving die is gekoppeld aan de Dynamics 365 Finance-omgeving in de lijst zijn vermeld. Kopieer de naam van de Dataverse-omgeving.
 > [!NOTE]
-> Open PowerShell op de pc om het script uit te voeren. U hebt mogelijk PowerShell versie 5 nodig. De Microsoft Azure Cli-optie 'Probeer het' werkt mogelijk niet.
+> Let erop dat u, nadat de omgeving is ingesteld, de knop **Koppelen aan CDS for Apps** **NIET** selecteert. Dit is niet nodig voor Finance Insights en schakelt de mogelijkheid uit om de vereiste omgevings-invoegtoepassingen in LCS te voltooien.
 
-# <a name="manual-configuration-steps"></a>[Handmatige configuratiestappen](#tab/configuration-steps)
-
-1. Open het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com/) en voer de volgende stappen uit om een nieuwe Dataverse-omgeving te maken in dezelfde Active Directory-tenant:
+2. Open het [Power Platform-beheercentrum](https://admin.powerplatform.microsoft.com/) en voer de volgende stappen uit om een nieuwe Dataverse-omgeving te maken in dezelfde Active Directory-tenant:
 
     1. Open de pagina **Omgevingen**.
 
         [![Pagina Omgevingen](./media/power-pltfrm-admin-center.png)](./media/power-pltfrm-admin-center.png)
 
-    2. Selecteer **Nieuwe omgeving**.
-    3. Selecteer **Sandbox** in het veld **Type**.
-    4. Stel de optie **Database maken** in op **Ja**.
-    5. Selecteer **Volgende**.
-    6. Selecteer de taal en valuta voor uw organisatie.
-    7. Accepteer de standaardwaarden voor de overige velden.
-    8. Selecteer **Opslaan**.
-    9. Vernieuw de pagina **Omgevingen**.
-    10. Wacht totdat de waarde van het veld **Status** is bijgewerkt naar **Gereed**.
-    11. Noteer de id van de Dataverse-organisatie.
-    12. Selecteer de omgeving en selecteer vervolgens **Instellingen**.
-    13. Selecteer **Resources \> Alle oude instellingen**.
-    14. Selecteer op de bovenste navigatiebalk **Instellingen** en vervolgens **Aanpassingen**.
-    15. Selecteer **Resources voor ontwikkelaars**.
-    16. Kopieer de waarde van de **Dataverse-organisatie-id**.
-    17. Noteer de URL voor de Dataverse-organisatie in de adresbalk van de browser. De URL kan bijvoorbeeld `https://org42b2b3d3.crm.dynamics.com` zijn.
+    2. Selecteer de Dataverse-omgeving die u hierboven hebt gemaakt en selecteer vervolgens **Instellingen**.
+    3. Selecteer **Resources \> Alle oude instellingen**.
+    4. Selecteer op de bovenste navigatiebalk **Instellingen** en vervolgens **Aanpassingen**.
+    5. Selecteer **Resources voor ontwikkelaars**.
+    6. Kopieer de waarde van de **Dataverse-organisatie-id**.
+    7. Noteer de URL voor de Dataverse-organisatie in de adresbalk van de browser. De URL kan bijvoorbeeld `https://org42b2b3d3.crm.dynamics.com` zijn.
 
-2. Als u de functie Cashflowprognoses of Budgetprognoses wilt gebruiken, voert u de volgende stappen uit om de annotatielimiet voor uw organisatie bij te werken tot minimaal 50 MB:
+3. Als u de functie Cashflowprognoses of Budgetprognoses wilt gebruiken, voert u de volgende stappen uit om de annotatielimiet voor uw organisatie bij te werken tot minimaal 50 MB:
 
     1. Open de [Power Apps-portal](https://make.powerapps.com).
     2. Selecteer de omgeving die u zojuist hebt gemaakt en selecteer vervolgens **Geavanceerde instellingen**.
     3. Selecteer **Instellingen \> E-mailconfiguratie**.
     4. Wijzig de waarde van het veld **Maximale bestandsgrootte** in **51.200**. (De waarde wordt uitgedrukt in kilobytes \[KB\].)
     5. Selecteer **OK** om uw wijzigingen op te slaan.
-
-# <a name="windows-powershell-configuration-script"></a>[Windows PowerShell-configuratiescript](#tab/powershell-configuration-script)
-
-```azurecli-interactive
-Write-Output 'The following modules need to be present for execution of this script:'
-Write-Output '  Microsoft.PowerApps.Administration.PowerShell'
-Write-Output '  Microsoft.PowerApps.PowerShell'
-Write-Output '  Microsoft.Xrm.Tooling.CrmConnector.PowerShell'
-
-try {
-    $moduleConsent = Read-Host 'Is it ok to install or update these modules as needed? (yes/no)'
-    if ($moduleConsent -ne 'yes' -and $moduleConsent -ne 'y') {
-        Write-Warning 'User declined to install required modules.'
-        return
-    }
-
-    $module = 'Microsoft.PowerApps.Administration.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '2.0.61' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '2.0.61' -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    $module = 'Microsoft.PowerApps.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '1.0.9' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '1.0.9' -AllowClobber -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    $module = 'Microsoft.Xrm.Tooling.CrmConnector.PowerShell'
-    if (-not (Get-InstalledModule -Name $module -MinimumVersion '3.3.0.892' -ErrorAction SilentlyContinue)) {
-        Install-Module -Name $module -MinimumVersion '3.3.0.892' -Force
-        Write-Output ('Installed {0} module.' -f $module)
-    }
-    else {
-        Write-Output ('{0} module found.' -f $module)
-    }
-
-    Write-Output '================================================================================='
-
-    $useMfa = $false
-    $useMfaPrompt = Read-Host "Does your organization require the use of multi-factor authentication? (yes/no)"
-    if ($useMfaPrompt -eq 'yes' -or $useMfaPrompt -eq 'y') {
-        $useMfa = $true
-    }
-    if(-not $useMfa) {
-        $credential = Get-Credential -Message 'Power Apps Credential'
-    }
-
-    $orgFriendlyName = Read-Host "Enter the name of the CDS Organization to use or create: (blank for 'FinanceInsightsOrg')"
-    if ($orgFriendlyName.Trim() -eq '') {
-        $orgFriendlyName = 'FinanceInsightsOrg'
-    }
-
-    $isDefaultOrgPrompt = Read-Host ("Is '" + $orgFriendlyName + "' the default organization for your tenant? (yes/no)")
-    if ($isDefaultOrgPrompt -eq 'yes' -or $isDefaultOrgPrompt -eq 'y') {
-        $isDefaultOrg = $true
-    }
-
-    if ($credential) {
-        Add-PowerAppsAccount -Username $credential.UserName -Password $credential.Password
-    }
-    else {
-        Add-PowerAppsAccount
-    }
-
-    if ($isDefaultOrg) {
-        $orgMatch = ('(default)')
-        $environment = (Get-AdminPowerAppEnvironment | Where-Object { $_.IsDefault -eq $true })
-    }
-    else {
-        $orgMatch = ('{0} (*)' -f $orgFriendlyName)
-        $environment = (Get-AdminPowerAppEnvironment | Where-Object { ($_.IsDefault -eq $false -and ($_.DisplayName -eq $orgFriendlyName -or $_.DisplayName -like $orgMatch)) })
-    }
-
-    $getCrmOrgParams = @{ 'OnlineType' = 'Office365' }
-    if ($credential) {
-        $getCrmOrgParams.Credential = $credential
-    }
-
-    if ($null -eq $environment) {
-        Write-Output '================================================================================='
-        Write-Output 'PowerApps environment not found. A new one will be provisioned.'
-
-        $invalid = 'invalid'
-
-        $location = $invalid
-        $cdsLocations = (Get-AdminPowerAppEnvironmentLocations | Select-Object LocationName).LocationName
-        while (-not ($location -in $cdsLocations)) {
-            $location = (Read-Host -Prompt "Enter the location in which to create the new PowerApps environment: ('help' to see values)")
-            if ($location -eq 'help') {
-                $cdsLocations
-            }
-        }
-
-        $currency = $invalid
-        $cdsCurrencies = (Get-AdminPowerAppCdsDatabaseCurrencies -Location $location | Select-Object CurrencyName).CurrencyName
-        while ($currency -ne '' -and -not ($currency -in $cdsCurrencies)) {
-            $currency = (Read-Host -Prompt "Enter the currency to use for the new PowerApps environment: ('help' to see values, blank for default)")
-            if ($currency -eq 'help') {
-                $cdsCurrencies
-            }
-        }
-
-        $language = $invalid
-        $cdsLanguages = (Get-AdminPowerAppCdsDatabaseLanguages -Location $location | Select-Object LanguageName, LanguageDisplayName)
-        while ($language -ne '' -and -not ($language -in $cdsLanguages.LanguageName)) {
-            $language = (Read-Host -Prompt "Enter the language name to use for the new PowerApps environment: ('help' to see values, blank for default)")
-            if ($language -eq 'help') {
-                $cdsLanguages | Format-Table -Property LanguageName, LanguageDisplayName
-            }
-        }
-
-        Write-Output 'Provisioning PowerApps environment. This may take several minutes.'
-
-        $sleep = 15
-
-        $envParams = @{ 'DisplayName' = $orgFriendlyName; 'EnvironmentSku' = 'Sandbox'; 'ProvisionDatabase' = $true; 'Location' = $location; 'WaitUntilFinished' = $true }
-        if ($language.Trim() -ne '') {
-            $envParams.LanguageName = $language
-        }
-        if ($currency.Trim() -ne '') {
-            $envParams.CurrencyName = $currency
-        }
-        $newEnvResult = New-AdminPowerAppEnvironment @envParams
-        if (($null -eq $newEnvResult) -or ($newEnvResult.CommonDataServiceDatabaseProvisioningState -ne 'Succeeded')) {
-            Write-Warning 'Failed to create to PowerApps environment'
-            if ($null -ne $newEnvResult) {
-                $newEnvResult
-            }
-        }
-        else {
-            $environment = $null
-            $retryCount = 0
-            while (($null -eq $environment) -and ($retryCount -lt 5)) {
-                Start-Sleep -Seconds $sleep
-                $environment = (Get-AdminPowerAppEnvironment | Where-Object { ($_.DisplayName -like $orgMatch) })
-            }
-            Write-Output ("Provisioned PowerApps environment with name: '" + $environment.DisplayName + "'")
-        }
-
-        Write-Output 'Waiting for CDS organization provisioning. This may take several minutes.'
-        if (-not $credential) {
-            $sleep = 120
-            Write-Output 'You may be prompted for credentials multiple times while checking the status of the provisioning.'
-        }
-
-        while ($null -eq $crmOrg) {
-            Start-Sleep -Seconds $sleep
-            $crmOrg = (Get-CrmOrganizations @getCrmOrgParams) | Where-Object { $_.FriendlyName -eq $orgFriendlyName }
-        }
-    }
-    else {
-        $crmOrgs = Get-CrmOrganizations @getCrmOrgParams
-        if ($UseDefaultOrganization -eq $true) {
-            $crmOrg = $crmOrgs | Where-Object { $_.FriendlyName -match $orgMatch }
-        }
-        else {
-            $crmOrg = $crmOrgs | Where-Object { $_.FriendlyName -eq $orgFriendlyName }
-        }
-    }
-
-    Write-Output '================================================================================='
-    Write-Output 'Values for PowerAI LCS Add-In:'
-    Write-Output ("  CDS organization url:             " + $crmOrg.WebApplicationUrl)
-    Write-Output ("  CDS organization ID:              " + $crmOrg.OrganizationId)
-}
-catch {
-    Write-Error $_.Exception.Message
-    Write-Warning $_.Exception.StackTrace
-    $inner = $_.Exception.InnerException
-    while ($null -ne $inner) {
-        Write-Output 'Inner Exception:'
-        Write-Error $_.Exception.Message
-        Write-Warning $_.Exception.StackTrace
-        $inner = $inner.InnerException
-    }
-}
-```
----
 
 ## <a name="configure-the-azure-setup"></a>De Azure-instellingen configureren
 
@@ -282,7 +90,7 @@ catch {
     2. Selecteer de naam van de gebruiker.
     3. Kopieer de waarde van de **Object-id**.
 
-### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a>De Azure Cloud Shell gebruiken om Data Lake-resources voor Financiële inzichten in te stellen
+### <a name="use-azure-cloud-shell-to-set-up-finance-insights-data-lake-resources"></a>De Azure Cloud Shell gebruiken om Data Lake-resources voor Finance Insights in te stellen
 
 # <a name="use-a-windows-powershell-script"></a>[Windows PowerShell-script gebruiken](#tab/use-a-powershell-script)
 
@@ -295,11 +103,14 @@ Voer de volgende stappen uit om Azure te configureren met het Windows PowerShell
 
 1. Ga in de [Azure Portal](https://portal.azure.com) naar het Azure-abonnement van uw bestemming. Selecteer de knop **Cloud Shell** rechts van het veld **Zoeken**.
 2. Selecteer **PowerShell**.
-3. Maak opslagruimte, als u hierom wordt gevraagd. Upload het Windows PowerShell-script naar de sessie.
-4. Voer het script uit.
-5. Volg de aanwijzingen om het script uit te voeren.
-6. Gebruik de informatie uit de scriptuitvoer om de invoegtoepassing **Exporteren naar Data Lake** in LCS te installeren.
-7. Gebruik de informatie uit de scriptuitvoer om de entiteitsopslag in te schakelen op de pagina **Gegevensverbindingen** in Financiën (**Systeembeheer \> Systeemparameters \> Gegevensverbindingen**).
+3. Maak opslagruimte als u hierom wordt gevraagd.
+4. Ga naar het tabblad **Azure CLI** en selecteer **Kopiëren**.  
+5. Open Kladblok en plak het PowerShell-script in een nieuw bestand. Sla het bestand op met de naam ConfigureDataLake.ps1.
+6. Upload het Windows PowerShell-script naar de sessie via de menuoptie voor uploaden in Cloud Shell.
+7. Voer het script .\ConfigureDataLake.ps1 uit.
+8. Volg de aanwijzingen om het script uit te voeren.
+9. Gebruik de informatie uit de scriptuitvoer om de invoegtoepassing **Exporteren naar Data Lake** in LCS te installeren.
+10. Gebruik de informatie uit de scriptuitvoer om de entiteitsopslag in te schakelen op de pagina **Gegevensverbindingen** in Financiën (**Systeembeheer \> Systeemparameters \> Gegevensverbindingen**).
 
 ### <a name="manual-setup"></a>Handmatige installatie
 
@@ -975,24 +786,24 @@ De invoegtoepassing wordt binnen enkele minuten geïnstalleerd.
 
     | Waarde                                                    | Beschrijving |
     |----------------------------------------------------------|-------------|
-    | Organisatie-URL CDS                                     | De URL van de Dataverse-organisatie van het Dataverse-exemplaar. Om deze waarde te vinden opent u de [Power Apps-portal](https://make.powerapps.com), selecteert u de knop **Instellingen** (tandwielsymbool) in de rechterbovenhoek en **Geavanceerde instellingen**, kopieert u de URL. (De URL eindigt op dynamics.com.) |
-    | CDS Org-id                                               | De omgevings-id van het Dataverse-exemplaar. Om deze waarde te vinden opent u de [Power Apps-portal](https://make.powerapps.com), selecteert u de knop **Instellingen** (tandwielsymbool) in de rechterbovenhoek, selecteert u **Aanpassingen \> Ontwikkelaarresources \> Verwijzingsgegevens van exemplaar** en kopieert u de waarde **Id**. |
-    | CDS-tenant-id (directory-id van AAD)               | De tenant-id van het Dataverse-exemplaar. Als u deze waarde wilt zoeken, opent u de [Azure Portal](https://portal.azure.com), gaat u naar **Azure Active Directory** en kopieert u de waarde van **Tenant-id**. |
-    | Geef gebruikersobject-id op met systeembeheerderrol | De Azure AD-gebruikersobject-id van de gebruiker in Dataverse. Deze gebruiker moet een systeembeheerder van het Dataverse-exemplaar zijn. Als u deze waarde wilt vinden, opent u de [Azure Portal](https://portal.azure.com), gaat u naar **Azure Active Directory \> Gebruikers**, selecteert u de gebruiker en kopieert u vervolgens in de sectie **Identiteit** de waarde **Object-id**. |
-    | Is dit de standaard CDS-omgeving voor de tenant?      | Schakel dit selectievakje in als het Dataverse-exemplaar het eerste productie-exemplaar is dat is gemaakt. Als het Dataverse-exemplaar handmatig is gemaakt, schakelt u dit selectievakje uit. |
-
+    | Organisatie-URL CDS                                     | De URL van de Dataverse-organisatie die u hierboven hebt gekopieerd. |
+    | CDS Org-id                                               | De id van de Dataverse-organisatie die u hierboven hebt gekopieerd. |
+5. Schakel de optie **Is dit de standaard CDS-omgeving voor de tenant?** in.
+    
 ## <a name="configure-the-entity-store"></a>De entiteitsopslag configureren
 
 Voer de volgende stappen uit om de entiteitsopslag in te stellen in uw Finance-omgeving.
 
 1. Ga naar **Systeembeheer \> Instellen \> Systeemparameters \> Gegevensverbindingen**.
-2. Stel de optie **Data Lake-integratie inschakelen** in op **Ja**.
-3. Stel de volgende Key Vault-velden in:
+2. Stel de volgende Key Vault-velden in:
 
     - **Toepassings-id (client)**: voer de id van de toepassingsclient in die u eerder hebt gemaakt.
     - **Toepassingsgeheim**: voer het geheim in dat u hebt opgeslagen voor de toepassing die u eerder hebt gemaakt.
     - **DNS-naam**: u kunt de DNS-naam (Domain Name System) vinden op de pagina met toepassingsdetails voor de toepassing die u eerder hebt gemaakt.
     - **Geheime naam**: voer een **storage-account-connection-string** in.
+3. Schakel **Data Lake-integratie inschakelen** in.
+4. Selecteer **Azure Key Vault testen** en controleer of er fouten worden gemeld.
+5. Selecteer **Azure-opslag testen** en controleer of er fouten worden gemeld.
 
 ## <a name="feedback-and-support"></a>Feedback en ondersteuning
 

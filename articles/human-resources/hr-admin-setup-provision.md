@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 177586068ddb86943f8013722e1be9e63c53fa0f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: fee496157db581bf77f444674ca858aa4383e27c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889783"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963210"
 ---
 # <a name="provision-human-resources"></a>Human resources inrichten
 
@@ -55,6 +55,9 @@ Voor extra omgevingen is onder andere het volgende van belang:
 Als u LCS wilt gebruiken om Human Resources-omgevingen te beheren, moet u eerst een LCS-project maken.
 
 1. Meld u aan bij [LCS](https://lcs.dynamics.com/Logon/Index) met de account waarmee u zich hebt geabonneerd op Human Resources.
+
+   > [!NOTE]
+   > Om te zorgen voor een goede inrichting, moet de account waarmee u de Human Resources-omgeving inricht zijn toegewezen aan de rol **Systeembeheerder** of **Systeemaanpasser** in de Power Apps-omgeving die is gekoppeld aan de Human Resources-omgeving. Meer informatie over het toewijzen van beveiligingsrollen aan gebruikers in Power Platform vindt u in [Beveiliging van gebruikers configureren voor bronnen](https://docs.microsoft.com/power-platform/admin/database-security).
 
 2. Selecteer het plusteken (**+**) om een project te maken.
 
@@ -115,13 +118,30 @@ Gebruik de volgende richtlijnen bij het bepalen in welke Power Apps-omgeving u H
    
     - **Proefomgevingen**: deze omgevingen worden met een vervaldatum gemaakt. Na de vervaldatum worden uw omgeving en eventuele exemplaren van Human Resources die zich in de omgeving bevinden, automatisch verwijderd.
    
-    - **Niet-ondersteunde regio's**: momenteel wordt Human Resources alleen ondersteund in de volgende gebieden: Verenigde Staten, Europa, Verenigd Koninkrijk, Australië, Canada en Azië.
-
-    > [!NOTE]
-    > De Human Resources-omgeving wordt ingericht in de regio waarin de Power Apps-omgeving is ingericht. Het migreren van een Human Resources-omgeving naar een andere regio wordt niet ondersteund.
+    - **Niet-ondersteunde regio's**: De omgeving moet zich in een ondersteunde geografie bevinden. Meer informatie over dit onderwerp vindt u in [Ondersteunde geografieën](hr-admin-setup-provision.md#supported-geographies).
 
 6. Nadat u hebt vastgesteld welke omgeving de juiste is om te gebruiken, kunt u doorgaan met het inrichtingsproces. 
- 
+
+### <a name="supported-geographies"></a>Ondersteunde geografieën
+
+Op dit moment ondersteunt Human Resources de volgende geografieën:
+
+- Verenigde Staten
+- Europa
+- Verenigd Koninkrijk
+- Australië
+- Canada
+- Azië 
+
+Wanneer u een Human Resources-omgeving maakt, selecteert u een Power Apps-omgeving die u aan de Human Resources-omgeving koppelt. De Human Resources-omgeving wordt vervolgens ingericht in dezelfde Azure-geografie als de geselecteerde Power Apps-omgeving. U kunt selecteren waar de Human Resources-omgeving en database fysiek aanwezig zijn, door de geografische regio te selecteren wanneer u de Power Apps-omgeving maakt die u aan de Human Resources-omgeving koppelt.
+
+U kunt de Azure-*geografie* selecteren waarin de omgeving wordt ingericht, maar u kunt niet de specifieke Azure-*regio* selecteren. Door middel van automatisering wordt de specifieke regio binnen de geografie bepaald waarin de omgeving wordt gemaakt, om de taakverdeling en prestaties te optimaliseren. Informatie over Azure-geografieën en regio's vindt u in de documentatie over [Azure-geografieën](https://azure.microsoft.com/global-infrastructure/geographies).
+
+De gegevens voor de Human Resources-omgeving worden altijd opgenomen in de Azure-geografie waarin deze worden gemaakt. De omgeving wordt echter niet altijd in dezelfde Azure-regio opgenomen. Ten behoeve van herstel na noodgevallen worden de gegevens gerepliceerd in zowel de primare Azure-regio als ook in een tweede failover-regio binnen dezelfde geografie.
+
+ > [!NOTE]
+ > Het migreren van een Human Resources-omgeving van de ene Azure-regio naar een andere wordt niet ondersteund.
+
 ## <a name="grant-access-to-the-environment"></a>Toegang verlenen tot de omgeving
 
 Standaard heeft de globale beheerder die de omgeving heeft gemaakt toegang tot deze omgeving. Aan alle overige gebruikers van de toepassing moet u uitdrukkelijk toestemming verlenen. U moet gebruikers toevoegen en de juiste rollen aan deze gebruikers toewijzen in de Human Resources-omgeving. De globale beheerder die Human Resources heeft geïmplementeerd, moet ook Attract en Onboard starten om de initialisatie te voltooien en toegang in te schakelen voor andere tenantgebruikers. Totdat dit gebeurt, kunnen andere gebruikers geen toegang krijgen tot Attract en Onboard en krijgen ze toegangsovertredingsfouten. Zie voor meer informatie [Nieuwe gebruikers maken](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) en [Gebruikers toewijzen aan beveiligingsrollen](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 

@@ -2,7 +2,7 @@
 title: Een omgeving instellen voor het opzoeken van hoofdgegevens
 description: In dit onderwerp wordt uitgelegd hoe u uw omgeving instelt om de zoekfunctie voor hoofdgegevens voor Belastingberekening te gebruiken.
 author: kai-cloud
-ms.date: 03/31/2021
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,31 +16,43 @@ ms.search.region: Global
 ms.author: pashao
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: eda093a75898bace2f3c7968933b83ccafa7fabb
-ms.sourcegitcommit: 66095f1b7e0fd2756aa29fd7deb9ce5392b7e0b2
+ms.openlocfilehash: 9f9b385df1db60b27698d90281c43fabb574af49
+ms.sourcegitcommit: 5f5afb46431e1abd8fb6e92e0189914b598dc7fd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/08/2021
-ms.locfileid: "5869055"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924149"
 ---
 # <a name="set-up-an-environment-for-master-data-lookup"></a>Een omgeving instellen voor het opzoeken van hoofdgegevens
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
-
 In dit onderwerp wordt uitgelegd hoe u uw omgeving instelt om de zoekfunctie voor hoofdgegevens voor Belastingberekening te gebruiken.
 
 1. Integratie van Power Platform instellen in Lifecycle Services (LCS). Zie [Integratie van Microsoft Power Platform - Overzicht van invoegtoepassingen](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) voor meer informatie.
 2. Dynamics 365 Finance en Microsoft Dataverse instellen. Zie [De oplossing ophalen](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#getting-the-solution) en [Verificatie en autorisatie](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#authentication-and-authorization) voor meer informatie.
-3. Importeer de *vereiste oplossing voor de virtuele entiteit belastingservice* uit de [Virtuele entiteit voor de belastingservice](https://go.microsoft.com/fwlink/?linkid=2158160).
+3. Stel de volgende entiteiten in. Zie [Virtuele entiteiten inschakelen](../../fin-ops-core/dev-itpro/power-platform/admin-reference.md#enabling-virtual-entities) voor meer informatie.
+      - CompanyInfoEntity
+      - CurrencyEntity
+      - CustCustomerV3Entity
+      - DeliveryTermsEntity
+      - EcoResProductCategoryEntity
+      - EcoResReleasedProductV2Entity
+      - LogisticsAddressCityEntity
+      - LogisticsAddressCountryRegionTranslationEntity
+      - LogisticsAddressStateEntity
+      - PurchProcurementChargeCDSEntity
+      - SalesChargeCDSEntity
+      - TaxGroupEntity
+      - TaxItemGroupHeadingEntity
+      - VendVendorV2Entity
 4. Dynamics 365 Regulatory Configuration Service (RCS) instellen. 
 5. Maak een serviceaanvraag voor Microsoft om flights met de volgende functies mogelijk te maken:
 
       - ERCdsFeature
       - TaxServiceCDSFeature
 
-6. Schakel in Finance in het werkgebied **Functiebeheer** de volgende functies in:
+6. Ga naar het werkgebied **Functiebeheer** en schakel de volgende functies in:
 
       - (Preview) Ondersteuning voor Dataverse-gegevensbronnen voor elektronische rapportage
       - (Preview) Ondersteuning voor Dataverse-gegevensbronnen van de Belastingdienst

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f342831d95f9988f9bb7807bac986e43cb317e0f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7ea30dc107213b1a2c6b2a109188066a6ea82159
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820004"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921006"
 ---
 # <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a>Een nomenclatuur met productnummers maken voor geconfigureerde productvarianten
 
@@ -26,79 +26,78 @@ ms.locfileid: "5820004"
 
 In deze procedure wordt getoond hoe u een productnummernomenclatuur instelt voor vooraf geconfigureerde productvarianten, en hoe u deze aan een configureerbaar productmodel koppelt. In deze procedure ziet u ook hoe u een configuratienomenclatuur samenstelt voor een component van een productconfiguratiemodel. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. De nieuwe productnummernomenclatuur is toegewezen aan het productmodel D0004. Deze taak wordt meestal uitgevoerd door een productontwerper.
 
-
 ## <a name="create-a-product-number-nomenclature"></a>Een productvariantnummer-nomenclatuur maken
-1. Klik op Definitie van productvariantmodel.
-2. Klik op Productnomenclatuur.
-3. Klik op Nieuw.
-4. Typ een waarde in het veld Naam.
-5. Typ een waarde in het veld Omschrijving.
-6. Klik op Toevoegen.
-7. Klik op Nummer van basismaster.
-8. Klik op Toevoegen.
-9. Klik op Tekstconstante.
-10. Markeer in de lijst de geselecteerde rij.
-11. Typ een waarde in het veld Tekst.
-12. Klik op Toevoegen.
-13. Klik op Configuratie.
-14. Sluit de pagina.
+
+1. Ga naar **Productgegevensbeheer \> Instellingen \> Productnomenclatuur**.
+1. Selecteer **Nieuw**.
+1. Typ een waarde in het veld **Naam**.
+1. Typ een waarde in het veld **Beschrijving**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Nummer van productmodel**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Tekstconstante**.
+1. Markeer in de lijst de geselecteerde rij.
+1. Typ een waarde in het veld **Tekst**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Configuratie**.
+1. Sluit de pagina.
 
 ## <a name="assign-the-product-number-nomenclature-to-a-product-master"></a>De productnummernomenclatuur toewijzen aan een productmodel
-1. Klik op Basisproducten.
-2. Gebruik de snelfilter om records te zoeken. Filter bijvoorbeeld het veld Productnummer op de waarde 'D'.
-3. Klik in de lijst op de koppeling in de geselecteerde rij.
-4. Klik op Bewerken.
-5. Selecteer Ja in het veld Nomenclatuur gebruiken.
-6. Typ of selecteer een waarde in het veld Productvariantnummer-nomenclatuur.
-7. Sluit de pagina.
-8. Sluit de pagina.
+
+1. Ga naar **Productgegevensbeheer \> Producten \> Productmodellen**.
+1. Gebruik de snelfilter om records te zoeken. Filter bijvoorbeeld het veld **Productnummer** op de waarde 'D'.
+1. Selecteer in de lijst de koppeling in de geselecteerde rij.
+1. Selecteer **Bewerken**.
+1. Selecteer *Ja* in het veld **Nomenclatuur gebruiken**.
+1. Typ of selecteer een waarde in het veld **Productvariantnummer-nomenclatuur**.
+1. Sluit de pagina.
+1. Sluit de pagina.
 
 ## <a name="create-nomenclature-for-a-product-configuration-model-component"></a>Een nomenclatuur maken voor een productconfiguratiemodelcomponent
-1. Klik op Productconfiguratiemodellen.
-2. Zoek en selecteer de gewenste record in de lijst.
-3. Klik in de lijst op de koppeling in de geselecteerde rij.
-4. Klik op Bewerken.
-5. Selecteer Ja in het veld Configuratienomenclatuur gebruiken.
-6. Klik op Toevoegen.
-7. Klik op Kenmerkwaarde.
-8. Markeer in de lijst de geselecteerde rij.
-9. Typ of selecteer een waarde in het veld Kenmerk.
-10. Klik op Toevoegen.
-11. Klik op Tekstconstante.
-12. Markeer in de lijst de geselecteerde rij.
-13. Typ een waarde in het veld Tekst.
-14. Klik op Toevoegen.
-15. Klik op Kenmerkwaarde.
-16. Markeer in de lijst de geselecteerde rij.
-17. Typ of selecteer een waarde in het veld Kenmerk.
-18. Klik op Toevoegen.
-19. Klik op Tekstconstante.
-20. Markeer in de lijst de geselecteerde rij.
-21. Typ een waarde in het veld Tekst.
-22. Klik op Toevoegen.
-23. Klik op Kenmerkwaarde.
-24. Markeer in de lijst de geselecteerde rij.
-25. Typ of selecteer een waarde in het veld Kenmerk.
-26. Klik op Toevoegen.
-27. Klik op Tekstconstante.
-28. Markeer in de lijst de geselecteerde rij.
-29. Typ een waarde in het veld Tekst.
-30. Klik op Toevoegen.
-31. Klik op Kenmerkwaarde.
-32. Markeer in de lijst de geselecteerde rij.
-33. Typ of selecteer een waarde in het veld Kenmerk.
-34. Klik op Toevoegen.
-35. Klik op Tekstconstante.
-36. Markeer in de lijst de geselecteerde rij.
-37. Typ een waarde in het veld Tekst.
-38. Klik op Toevoegen.
-39. Klik op Nummerreekswaarde.
-40. Markeer in de lijst de geselecteerde rij.
-41. Typ of selecteer een waarde in het veld Nummerreeks.
-42. Sluit de pagina.
-43. Sluit de pagina.
-44. Sluit de pagina.
 
-
+1. Ga naar **Productgegevensbeheer \> Producten \> Productconfiguratiemodellen**.
+1. Zoek en selecteer de gewenste record in de lijst.
+1. Selecteer in de lijst de koppeling in de geselecteerde rij.
+1. Selecteer **Bewerken**.
+1. Selecteer *Ja* in het veld **Configuratienomenclatuur gebruiken**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Kenmerkwaarde**.
+1. Markeer in de lijst de geselecteerde rij.
+1. Typ of selecteer een waarde in het veld **Kenmerk**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Tekstconstante**.
+1. Markeer in de lijst de geselecteerde rij.
+1. Typ een waarde in het veld **Tekst**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Kenmerkwaarde**.
+1. Markeer in de lijst de geselecteerde rij.
+1. Typ of selecteer een waarde in het veld **Kenmerk**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Tekstconstante**.
+1. Markeer in de lijst de geselecteerde rij.
+1. Typ een waarde in het veld **Tekst**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Kenmerkwaarde**.
+1. Markeer in de lijst de geselecteerde rij.
+1. Typ of selecteer een waarde in het veld **Kenmerk**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Tekstconstante**.
+1. Markeer in de lijst de geselecteerde rij.
+1. Typ een waarde in het veld **Tekst**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Kenmerkwaarde**.
+1. Markeer in de lijst de geselecteerde rij.
+1. Typ of selecteer een waarde in het veld **Kenmerk**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Tekstconstante**.
+1. Markeer in de lijst de geselecteerde rij.
+1. Typ een waarde in het veld **Tekst**.
+1. Selecteer **Toevoegen**.
+1. Selecteer **Nummerreekswaarde**.
+1. Markeer in de lijst de geselecteerde rij.
+1. Typ of selecteer een waarde in het veld **Nummerreeks**.
+1. Sluit de pagina.
+1. Sluit de pagina.
+1. Sluit de pagina.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

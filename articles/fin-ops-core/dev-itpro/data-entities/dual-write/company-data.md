@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1c3af66c0b8daa120c6ba19bd910f7531ffada0e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751405"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941024"
 ---
 # <a name="company-concept-in-dataverse"></a>Bedrijfsconcept in Dataverse
 
@@ -89,7 +89,7 @@ Er zijn verschillende manieren waarop u de bedrijfsnaam in Customer Engagement-a
 
     :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="Als u een rij kiest, wordt het standaardbedrijf gewijzigd.":::
 
-+ Als u een systeemconfigurator of -beheerder bent en u de bedrijfsgegevens in een aangepast formulier automatisch wilt laten invullen, dan kunt u [formuliergebeurtenissen](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids) gebruiken. Voeg een JavaScript-verwijzing toe aan **msdyn_/DefaultCompany.js** en gebruik de volgende gebeurtenissen. U kunt elk kant-en-klaar formulier gebruiken, bijvoorbeeld het formulier **Account**.
++ Als u een systeemconfigurator of -beheerder bent en u de bedrijfsgegevens in een aangepast formulier automatisch wilt laten invullen, dan kunt u [formuliergebeurtenissen](/powerapps/developer/model-driven-apps/clientapi/events-forms-grids) gebruiken. Voeg een JavaScript-verwijzing toe aan **msdyn_/DefaultCompany.js** en gebruik de volgende gebeurtenissen. U kunt elk kant-en-klaar formulier gebruiken, bijvoorbeeld het formulier **Account**.
 
     + **OnLoad**-gebeurtenis voor het formulier: stel de kolom **defaultCompany** in.
     + **OnChange**-gebeurtenis voor de kolom **Bedrijf**: stel de kolom **updateDefaultCompany** in.

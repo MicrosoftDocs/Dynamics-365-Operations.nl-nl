@@ -14,78 +14,57 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a0718db77399901acc8c88278c5b373b77b3cb16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 023354b0e2973f63411bf81cbeb0344333c49112
+ms.sourcegitcommit: d63e7e0593084a61362a6cad3937b1fd956c384f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811301"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923020"
 ---
 # <a name="financial-reporting-faq"></a>Veelgestelde vragen over financiële rapportage 
 
-In dit onderwerp vindt u antwoorden op eerdere vragen van andere gebruikers over financiële rapportage. 
+Dit onderwerp biedt antwoorden op veelgestelde vragen over financiële rapportage. 
 
+## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a>Hoe beperk ik de toegang tot een rapport met structuurbeveiliging?
 
-## <a name="how-do-i-restrict-access-to-a-report-using-tree-security"></a>Hoe beperk ik de toegang tot een rapport met Structuurbeveiliging?
+In het volgende voorbeeld ziet u hoe u de toegang tot een rapport beperkt in de structuurbeveiliging.
 
-Scenario: Het demobedrijf USMF wil de toegang tot een balansrapport beperken om te voorkomen dat alle gebruikers van functies voor financiële rapportage het rapport in D365 kunnen weergeven. Oplossing: U kunt Structuurbeveiliging gebruiken om de toegang tot één rapport te beperken, zodat alleen bepaalde gebruikers toegang hebben tot het rapport. 
+Het USMF-demobedrijf heeft een balansrapport waartoe niet alle gebruikers van Financiële rapportage toegang moeten krijgen. Als u de toegang wilt beperken, kunt u structuurbeveiliging gebruiken om de toegang tot één rapport te beperken, zodat alleen bepaalde gebruikers toegang hebben tot het rapport. Volg deze stappen om de toegang te beperken: 
 
-1.  Meld u aan bij Report Designer voor financiële rapportage
+1. Meld u aan bij Financial Reporter Report Designer.
+2. Maak een nieuwe structuurdefinitie. Ga naar **Bestand > Nieuw > Structuurdefinitie**.
+3. Dubbelklik op de regel **Samenvatting** in de kolom **Beveiliging van eenheid**.
+4. Klik op **Gebruikers en groepen**.  
+5. Selecteer de gebruikers of groepen die toegang tot dit rapport moeten hebben. 
+6. Selecteer **Opslaan**.
+7. Voeg in de rapportdefinitie uw nieuwe structuurdefinitie toe.
+8. Selecteer **Instelling** in de structuurdefinitie. Selecteer onder **Rapporteringseenheden selecteren** de optie **Alle eenheden opnemen**.
 
-2.  Maak een nieuwe structuurdefinitie (Bestand | Nieuw | Structuurdefinitie) a.    Dubbelklik op de regel **Samenvatting** in de kolom **Beveiliging van eenheid**.
-  i.    Klik op Gebruikers en groepen.  
-          1. Selecteer de gebruiker(s) of groep die toegang tot dit rapport wil(len) hebben. 
-          
-[![Gebruikersscherm](./media/FR-FAQ_users.png)](./media/FR-FAQ_users.png)
+## <a name="how-do-i-identify-which-accounts-do-not-match-my-balances"></a>Hoe bepaal ik welke rekeningen niet met mijn saldi overeenkomen?
 
-[![Beveiligingsscherm](./media/FR-FAQ_security.jpg)](./media/FR-FAQ_security.jpg)
+Als u een niet-salderend rapport hebt, kunt u het volgende doen om die rekeningen en afwijkingen te identificeren. 
 
-  b.    Klik op **Opslaan**.
-  
-[![De knop Opslaan](./media/FR-FAQ_save.png)](./media/FR-FAQ_save.png)
+**Financial Reporter Report Designer**
+1. Maak een nieuwe rijdefinitie in Financial Reporter Report Designer. 
+2. Selecteer **Bewerken > Rijen invoegen uit dimensies**.
+3. Selecteer **MainAccount**.  
+4. Selecteer **OK**.
+5. Sla de rijdefinitie op.
+6. Een nieuwe kolomdefinitie maken
+7. Maak een nieuwe rapportdefinitie.
+8. Selecteer **Instellingen** en schakel deze optie uit.  
+9. Genereer het rapport. 
+10. Exporteer het rapport naar Microsoft Excel.
 
-3.  Voeg in uw rapportdefinitie uw nieuwe structuurdefinitie toe
+**Dynamics 365 Finance** 
+1. Ga in Dynamics 365 Finance naar **Grootboek > Query's en rapporten > Proefbalans**.
+2. Stel de volgende parameters in:
+   - **Begindatum**: voer het begin van het boekjaar in.
+   - **Einddatum**: voer de datum in waarvoor u het rapport genereert.
+   - **Financiële dimensie**: stel dit veld in op **Hoofdrekening ingesteld**.
+ 3. Selecteer **Berekenen**.
+ 4. Exporteer het rapport naar Microsoft Excel.
 
-[![Formulier voor structuurdefinitie](./media/FR-FAQ_tree-definition.jpg)](./media/FR-FAQ_tree-definition.jpg)
-
-A.  Klik in de structuurdefinitie op Instellingen en schakel onder Rapporteringseenheden selecteren het selectievakje Alle rapporteringseenheden opnemen in
-
-[![Formulier voor selectie van rapporteringseenheden](./media/FR-FAQ_reporting-unit-selection.jpg)](./media/FR-FAQ_reporting-unit-selection.jpg)
-
-**Voor:** [![Schermopname van Voor](./media/FR-FAQ_before.png)](./media/FR-FAQ_before.png)
-
-**Na:** [![Schermopname van Na](./media/FR-FAQ_after.png)](./media/FR-FAQ_after.png)
-
-Opmerking: de reden voor het bovenstaande bericht is dat de gebruiker geen toegang heeft tot dat rapport nadat Beveiliging van eenheid is toegepast
-
-
-
-## <a name="how-do-i-determine-which-accounts-do-not-matching-my-balances-in-d365"></a>Hoe bepaal ik welke rekeningen niet overeenkomen met mijn saldi in D365?
-
-Wanneer u een rapport hebt dat niet overeenkomt met uw verwachtingen in D365, kunt u het volgende doen om die rekeningen en de afwijkingen te identificeren. 
-
-### <a name="in-financial-reporter-report-designer"></a>In Report Designer voor financiële rapportage
-
-1.  Maak een nieuwe rijdefinitie a.    Klik op Bewerken | Rijen invoegen uit dimensies i.  Selecteer MainAccount [![Scherm voor selectie van MainAccount](./media/FR-FAQ_selectmain_.png)](./media/FR-FAQ_selectmain_.png)
-    
-    ii. Klik op Ok b.    Sla de rijdefinitie op
-
-2.  Maak een nieuwe kolomdefinitie     [![Een nieuwe kolomdefinitie maken](./media/FR-FAQ_column.png)](./media/FR-FAQ_column.png)
-
-3.  Maak een nieuwe rapportdefinitie a.    Klik op instellingen en schakel de gemarkeerde selectievakjes uit [![Formulier Instellingen](./media/FR-FAQ_settings.png)](./media/FR-FAQ_settings.png)
-   
-4.  Genereer het rapport. 
-
-5.  Exporteer het rapport naar Excel.
-
-### <a name="in-d365"></a>In D365: 
-1.  Klik op Grootboek | Query's en rapporten | Proefbalans a.    Parameters i.  Begindatum: Begin van boekjaar ii. Einddatum: de datum waarvoor u het rapport hebt gegenereerd iii.    Financiële-dimensieset ingesteld op Hoofdrekening ingesteld [![Formulier Hoofdrekening](./media/FR-FAQ_mainacct.png)](./media/FR-FAQ_mainacct.png)
-      
-  b.    Klik op Berekenen
-
-2.  Exporteer het rapport naar Excel
-
-U kunt de gegevens nu kopiëren uit het Excel-rapport in FR en het D365-proefbalansrapport om de kolommen Eindsaldo te vergelijken.
-
+U kunt de gegevens nu uit het Excel-rapport in Financial Reporter kopiëren naar het proefbalansrapport zodat u de kolommen **Eindsaldo** kunt vergelijken.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

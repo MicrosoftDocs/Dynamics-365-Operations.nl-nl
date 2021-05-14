@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3087ab8853b14308da9496eead7478822cec86b8
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 824f7eb66c1d3f03df74a706e8214bcfe1d8efd9
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750735"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941191"
 ---
 # <a name="unified-product-experience"></a>Uniforme productervaring
 
@@ -47,7 +47,7 @@ De tabeltoewijzingen voor twee keer wegschrijven voor producten zijn zo ontworpe
 
 ## <a name="templates"></a>Sjablonen
 
-Productinformatie bevat alle informatie die betrekking heeft op het product en de definitie ervan, zoals de productdimensies of de tracerings- en opslagdimensies. Zoals in de volgende tabel wordt aangegeven, wordt een verzameling tabeltoewijzingen gemaakt om producten en gerelateerde informatie te synchroniseren.
+Productinformatie bevat alle informatie die betrekking heeft op het product en de definitie ervan, zoals de productdimensies of de tracerings- en opslagdimensies. Zoals in de volgende tabel wordt weergegeven, wordt er een verzameling tabeltoewijzingen gemaakt om producten en verwante informatie te synchroniseren.
 
 Finance and Operations-apps | Andere Dynamics 365-apps | Omschrijving
 -----------------------|--------------------------------|---
@@ -124,7 +124,7 @@ Productdimensies zijn kenmerken die de variant van een product identificeren. De
 
 Wanneer een product verschillende productdimensies heeft (een productmodel heeft bijvoorbeeld maat en kleur als productdimensies), wordt elk afzonderlijk product (elke productvariant) gedefinieerd als een combinatie van deze productdimensies. Productnummer B0001 is bijvoorbeeld een XS zwart T-shirt en het productnummer B0002 is een S zwart T-shirt. In dit geval worden de bestaande combinaties van productdimensies gedefinieerd. Het T-shirt in het vorige voorbeeld kan bijvoorbeeld XS en zwart, S en zwart, M en zwart, L en zwart zijn, maar kan niet XL en zwart worden. Met andere woorden de mogelijke productdimensies voor een productmodel worden opgegeven en varianten kunnen worden vrijgegeven op basis van deze waarden.
 
-Voor het bijhouden van de productdimensies die door een productmodel kunnen worden gebruikt, worden de volgende tabellen gemaakt en in Dataverse toegewezen voor elke productdimensie. Zie voor meer informatie [Overzicht met productinformatie](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/pim/product-information).
+Voor het bijhouden van de productdimensies die door een productmodel kunnen worden gebruikt, worden de volgende tabellen gemaakt en in Dataverse toegewezen voor elke productdimensie. Zie [Overzicht van productgegevens](../../../supply-chain/pim/product-information.md) voor meer informatie.
 
 [!include [product colors](includes/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
 
@@ -138,7 +138,7 @@ Voor het bijhouden van de productdimensies die door een productmodel kunnen word
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Standaardorderinstellingen en productspecifieke standaardorderinstellingen
 
-Standaardorderinstellingen definiëren de locatie en het magazijn waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag, en de methode voor orderbelofte. Deze informatie is beschikbaar in Dataverse met behulp van de standaardorderinstellingen en de entiteit voor productspecifieke standaardorderinstellingen. Meer informatie over de functionaliteit vindt u in het onderwerp [Standaardorderinstellingen](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/default-order-settings).
+Standaardorderinstellingen definiëren de locatie en het magazijn waaruit de artikelen worden geleverd of waarin ze worden opgeslagen, de minimum-, maximum-, meervoud- en standaardhoeveelheden die voor handel of voorraadbeheer worden gebruikt, de levertijden, de eindevlag, en de methode voor orderbelofte. Deze informatie is beschikbaar in Dataverse met behulp van de standaardorderinstellingen en de entiteit voor productspecifieke standaardorderinstellingen. Meer informatie over de functionaliteit vindt u in het onderwerp [Standaardorderinstellingen](../../../../supply-chain/production-control/default-order-settings.md).
 
 [!include [product sizes](includes/InventProductDefaultOrderSettingsEntity-msdyn-productdefaultordersetting.md)]
 

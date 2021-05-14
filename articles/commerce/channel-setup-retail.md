@@ -2,7 +2,7 @@
 title: Een detailhandelkanaal instellen
 description: In dit onderwerp wordt beschreven hoe u een nieuw detailhandelkanaal maakt in Microsoft Dynamics 365 Commerce.
 author: samjarawan
-ms.date: 01/27/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 713cbe68c151b6893519843611089941cabf0e70
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800586"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937529"
 ---
 # <a name="set-up-a-retail-channel"></a>Een detailhandelafzetkanaal instellen
 
@@ -68,7 +68,7 @@ In de volgende afbeelding ziet u een voorbeeldconfiguratie van een detailhandela
 
 ## <a name="additional-channel-set-up"></a>Aanvullende kanaalinstellingen
 
-Er zijn nog meer zaken die u moet instellen voor een kanaal. Deze vindt u in de sectie **Instellingen** van het **Actievenster**.
+Er zijn nog meer zaken die u moet instellen voor een kanaal. Deze vindt u in de sectie **Instellingen** van het Actievenster.
 
 Aanvullende taken die nodig zijn voor het instellen van online kanalen, zijn onder andere het instellen van betalingsmethoden, contantdeclaraties, leveringsmethoden, inkomsten- en onkostenrekeningen, secties, de toewijzing van afhandelingsgroepen en kluizen.
 
@@ -102,7 +102,7 @@ In de volgende afbeelding ziet u een voorbeeld van een contantdeclaratie.
 
 ### <a name="set-up-modes-of-delivery"></a>Leveringsmethoden instellen
 
-U kunt de geconfigureerde leveringsmethoden bekijken door **Leveringsmethoden** te selecteren op het tabblad **Instellingen** van het **actievenster**.  
+U kunt de geconfigureerde leveringsmethoden bekijken door **Leveringsmethoden** te selecteren op het tabblad **Instellingen** van het actievenster.  
 
 Voer de volgende stappen uit als u een leveringsmethode wilt wijzigen of toevoegen.
 
@@ -166,7 +166,38 @@ Volg deze stappen om kluizen in te stellen.
 1. Voer een naam in voor de kluis.
 1. Selecteer **Opslaan** in het actievenster.
 
-## <a name="additional-resources"></a>Aanvullende resources
+### <a name="ensure-unique-transaction-ids"></a>Zorgen dat unieke transactie-id's worden gemaakt
+
+Vanaf Commerce versie 10.0.18 zijn transactie-id's die zijn gegenereerd voor het POS opeenvolgend en bevatten de volgende delen:
+
+- Een vast deel, dat een samenvoeging is van een winkel-id en een terminal-id. 
+- Een volgnummer, dat uit een nummerreeks wordt genomen. 
+
+Specifiek gezegd is de indeling *{store}{terminal}-{numbersequence}*. 
+
+Aangezien transactie-id's kunnen worden gegenereerd in offline en online modi, zijn er ook wel eens dubbele transactie-id's gegenereerd. Het verwijderen van dubbele transactie-id's vereist veel handmatig herstel van gegevens. 
+
+In Commerce versie 10.0.19 is de transactie-id-indeling bijgewerkt: het nummerreeksdeel is verwijderd en in plaats daarvan wordt een nummer van 13 cijfers gebruikt dat is gegenereerd door de tijd sinds het jaar 1970 te berekenen in milliseconden. Met deze wijziging is de nieuwe transactie-ID-indeling nu *{store}-{terminal}-{millisecondsSince1970}*. Vanaf deze update is de transactie-id niet-sequentieel en dus altijd uniek. 
+
+> [!NOTE]
+> Transactie-id's zijn alleen bedoeld voor intern systeemgebruik, dus hoeven ze niet opeenvolgend te zijn. In veel landen moeten kassabon-id's echter wel opeenvolgend zijn.
+
+De nieuwe functie voor de indeling van transactie-id's kan worden ingeschakeld vanuit het werkgebied **Functiebeheer**. 
+
+Als u het gebruik van nieuwe transactie-id's wilt inschakelen, gaat u als volgt te werk:
+
+1. Ga in Commerce Headquarters naar **Systeembeheer \> Werkgebieden \> Functiebeheer**.
+1. Filter op de module Retail en Commerce.
+1. Zoek de functienaam **Nieuwe transactie-id inschakelen om dubbele transactie-id's te voorkomen**.
+1. Selecteer de functie en selecteer vervolgens **Nu inschakelen** in het het rechterdeelvenster.  
+1. Ga naar **Retail en Commerce \> Retail en Commerce IT \> Distributieplanning**.
+1. Voer de taken **1070 (Kanaalconfiguratie)** en **1170 POS-taakregistratie** uit om de ingeschakelde functie te synchroniseren met de winkels.
+1. Nadat de wijzigingen naar de winkels zijn verzonden, moeten POS-terminals worden gesloten en opnieuw worden geopend om de nieuwe transactie-id-indeling te gebruiken. 
+
+> [!NOTE]
+> Nadat de functie voor de nieuwe transactie-id-indeling is ingeschakeld, kunt u deze functie niet meer uitschakelen. Als deze echt moet worden uitgeschakeld, neem dan contact op met de Commerce-ondersteuning.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van kanalen](channels-overview.md)
 

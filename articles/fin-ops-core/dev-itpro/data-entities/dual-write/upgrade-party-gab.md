@@ -10,12 +10,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 76e64d483e833782733277a64d8dc37cbeba6130
-ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
+ms.openlocfilehash: 32128d48bfac195530d70b60e67cfd4921fc001e
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/06/2021
-ms.locfileid: "5857365"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941078"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Bijwerken naar het model voor partij en globaal adresboek
 
@@ -52,11 +52,11 @@ Deze vereisten zijn van toepassing:
 
 2. Meld u aan bij [Microsoft Azure](https://portal.azure.com/).
 
-3. Maak een [resourcegroep](https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal).
+3. Maak een [resourcegroep](/azure/azure-resource-manager/management/manage-resource-groups-portal).
 
-4. Maak een [opslagaccount](https://docs.microsoft.com/azure/storage/common/storage-account-create?tabs=azure-portal) in de resourcegroep die u hebt gemaakt.
+4. Maak een [opslagaccount](/azure/storage/common/storage-account-create?tabs=azure-portal) in de resourcegroep die u hebt gemaakt.
 
-5. Maak een [data factory](https://docs.microsoft.com/azure/data-factory/quickstart-create-data-factory-portal) boven de resourcegroep die u hebt gemaakt.
+5. Maak een [data factory](/azure/data-factory/quickstart-create-data-factory-portal) boven de resourcegroep die u hebt gemaakt.
 
 6. Open de data factory en selecteer de tegel **Author & Monitor**.
 
@@ -81,7 +81,7 @@ Deze vereisten zijn van toepassing:
     FO Linked Service_properties_type Properties_service Principal Id | Geef de client-id van de toepassing op.
     Dynamics Crm Linked Service_properties_type Properties_username | De gebruikersnaam voor de verbinding met Dynamics.
 
-    Meer informatie vindt u in [Een Resource Manager-sjabloon handmatig een niveau verhogen voor elke omgeving](https://docs.microsoft.com/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Eigenschappen van gekoppelde service](https://docs.microsoft.com/azure/data-factory/connector-dynamics-ax#linked-service-properties) en [Gegevens kopiëren met Azure Data Factory](https://docs.microsoft.com/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Meer informatie vindt u in [Een Resource Manager-sjabloon handmatig een niveau verhogen voor elke omgeving](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Eigenschappen van gekoppelde service](/azure/data-factory/connector-dynamics-ax#linked-service-properties) en [Gegevens kopiëren met Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. Valideer na de implementatie de gegevenssets, gegevensstroom en gekoppelde service van de data factory.
 
@@ -158,7 +158,7 @@ Deze vereisten zijn van toepassing:
 8. Importeer de **nieuwe records voor Partij** in de Finance and Operations-app.
 
     + Download het bestand `FONewParty.csv` vanuit Azure Blob Storage. Het pad is `partybootstrapping/output/FONewParty.csv`.
-    + Converteer het bestand `FONewParty.csv` naar een Excel-bestand en importeer het Excel-bestand in de Finance and Operations-app.  Als de CSV-import voor u werkt, kunt u het CSV-bestand direct importeren. Afhankelijk van het gegevensvolume kan het importeren enkele uren duren. Meer informatie vindt u in [Overzicht van gegevensimport- en exporttaken](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-import-export-job).
+    + Converteer het bestand `FONewParty.csv` naar een Excel-bestand en importeer het Excel-bestand in de Finance and Operations-app.  Als de CSV-import voor u werkt, kunt u het CSV-bestand direct importeren. Afhankelijk van het gegevensvolume kan het importeren enkele uren duren. Meer informatie vindt u in [Overzicht van gegevensimport- en exporttaken](../data-import-export-job.md).
 
     ![De partijrecords van Dataverse importeren](media/data-factory-import-party.png)
 

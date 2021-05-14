@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ac3b5274aaea2e267685e80d051c81489ece50eb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814315"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923533"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
 
@@ -30,7 +30,7 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de v
 
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
-Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Functie verwijderd met ingang van 28 januari 2021
 
@@ -123,7 +123,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | In het algemeen biedt aangepaste code beperkte voordelen, terwijl er tegelijkertijd aanzienlijke resources en berekeningen nodig zijn. Aangepaste code wordt voornamelijk gebruikt door rapportauteurs om openbare methoden aan te roepen vanuit aangepaste code-assembly's. De cloudservice biedt echter geen ondersteuning voor verwijzingen naar aangepaste assembly's voor SSRS-rapporten. |
-| **Vervangen door een andere functie?**   | Rapportauteurs kunnen ervoor kiezen om door te gaan met het verwijzen naar openbare .NET API's voor wiskundige, conversie- en opmaakbewerkingen van willekeurige tekstvakexpressies. Zie [Code toevoegen aan een rapport (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15) voor meer informatie.  |
+| **Vervangen door een andere functie?**   | Rapportauteurs kunnen ervoor kiezen om door te gaan met het verwijzen naar openbare .NET API's voor wiskundige, conversie- en opmaakbewerkingen van willekeurige tekstvakexpressies. Zie [Code toevoegen aan een rapport (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15) voor meer informatie.  |
 | **Betrokken productgebieden**         | Subset van ontwerpen voor toepassingsrapporten die in RDL zijn gedefinieerd en aangepaste code bevatten. |
 | **Implementatieoptie**              | Alles |
 | **Status**                         | Met versie 10.0.13 wordt door de compiler een waarschuwing gegeven voor gevallen waarin aangepaste code wordt aangetroffen in een SSRS-rapportdefinitie. U kunt het probleem oplossen door de ontwerpdefinitie van het rapport te openen en alle aangepaste code te verwijderen. Deze waarschuwing wordt vervangen door een compilerfout in een toekomstige update.   |
@@ -178,7 +178,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Het proces voor het verplaatsen van IP naar veilige lijsten is gewijzigd. Selfservice biedt geen ondersteuning meer voor veilig IP-lijsten. |
-| **Vervangen door een andere functie?**   | Zie [Voorwaardelijke toegang voor Azure Active Directory configureren](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access) voor meer informatie.|
+| **Vervangen door een andere functie?**   | Zie [Voorwaardelijke toegang voor Azure Active Directory configureren](/appcenter/general/configuring-aad-conditional-access) voor meer informatie.|
 | **Betrokken productgebieden**         | Beveiliging |
 | **Implementatieoptie**              | Cloud |
 | **Status**                         | **Afgeschaft:** deze functie is volledig afgeschaft voor selfservice-implementaties. |
@@ -223,7 +223,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Vervangen door een andere functie?**   | Nee |
 | **Betrokken productgebieden**         | Werkstroom |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | De vervolgkeuzelijst voor gebruikersselectie werd in Platform update 32 verwijderd uit het dialoogvenster Wijziging in werkstroom aanvragen. Aanvragen voor verzoeken om wijzigingen worden automatisch naar de persoon verzonden bij wie de werkstroom oorspronkelijk vandaan kwam, zoals bedoeld. Zie [Acties in goedkeuringsprocessen voor werkstroom](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change) voor meer informatie over deze functionaliteit. |
+| **Status**                         | De vervolgkeuzelijst voor gebruikersselectie werd in Platform update 32 verwijderd uit het dialoogvenster Wijziging in werkstroom aanvragen. Aanvragen voor verzoeken om wijzigingen worden automatisch naar de persoon verzonden bij wie de werkstroom oorspronkelijk vandaan kwam, zoals bedoeld. Zie [Acties in goedkeuringsprocessen voor werkstroom](../../fin-ops/organization-administration/workflow-actions.md?toc=%2fdynamics365%2fcommerce%2ftoc.json#request-change) voor meer informatie over deze functionaliteit. |
 
 ### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>Ingesloten drillthrough-koppelingen worden niet meer ondersteund in gepagineerde documenten die worden weergegeven door de cloudgehoste service 
 
@@ -233,7 +233,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Vervangen door een andere functie?**   | No |
 | **Betrokken productgebieden**         | Rapportage |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Deze functie wordt actief uit de service verwijderd.<br><br>De moderne client biedt talloze opties voor het produceren van weergaven die automatisch gegenereerde koppelingen bevatten om te helpen bij het navigeren door de toepassing. Gepagineerde documenten die door de service worden weergegeven, worden aanbevolen voor externe communicatie die per e-mail wordt verzonden, gearchiveerd en afgedrukt voor ontvangers. We hebben de ervaring verbeterd voor het direct bekijken van documenten in de browser, die rechtstreeks toegang biedt tot lokale printers. Zie [PDF-documenten bekijken met een ingesloten viewer](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/preview-pdf-documents) voor meer informatie. |
+| **Status**                         | Deze functie wordt actief uit de service verwijderd.<br><br>De moderne client biedt talloze opties voor het produceren van weergaven die automatisch gegenereerde koppelingen bevatten om te helpen bij het navigeren door de toepassing. Gepagineerde documenten die door de service worden weergegeven, worden aanbevolen voor externe communicatie die per e-mail wordt verzonden, gearchiveerd en afgedrukt voor ontvangers. We hebben de ervaring verbeterd voor het direct bekijken van documenten in de browser, die rechtstreeks toegang biedt tot lokale printers. Zie [PDF-documenten bekijken met een ingesloten viewer](../analytics/preview-pdf-documents.md) voor meer informatie. |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Eerdere aankondigingen over verwijderde of afgeschafte functies
 Zie [Verwijderde of afgeschafte functies in eerdere versies](../migration-upgrade/deprecated-features.md) voor meer informatie over functies die zijn verwijderd of vervangen in eerdere versies.

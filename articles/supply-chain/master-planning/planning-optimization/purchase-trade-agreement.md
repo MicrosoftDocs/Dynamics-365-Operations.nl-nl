@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 138bf58e07d4d6df3c2106e4176e02fcdb0a6dba
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4f50dfa5c2914ce2131cdc44582588be69b35335
+ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820413"
+ms.lasthandoff: 04/29/2021
+ms.locfileid: "5961700"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Hoofdplanning met inkoophandelsovereenkomsten
 
@@ -67,7 +67,7 @@ Nadat het systeem is voorbereid zoals is beschreven in het vorige gedeelte, moet
 1. Herhaal deze procedure voor relevant product.
 
 > [!NOTE]
-> De valuta op de regel van de inkoophandelsovereenkomst moet overeenkomen met de valuta van de geselecteerde leverancier. De hoofdplanning bevat alleen informatie uit de regels van de inkoophandelsovereenkomst waarvan de valuta overeenkomt met de valuta van de leverancier.
+> Planningsoptimalisatie biedt ondersteuning voor inkoophandelsovereenkomsten in meerdere valuta. Bij het zoeken naar een handelsovereenkomst met de optie **Laagste eenheidsprijs** wordt rekening gehouden met regels van de handelsovereenkomst met verschillende valuta's als er een wisselkoers is gedefinieerd tussen de valuta van de regel van de handelsovereenkomst en de valuta van deboekhouding van de rechtspersoon. Als dit niet het geval is, wordt de regel van de handelsovereenkomst genegeerd en wordt er een fout weergegeven tijdens de hoofdplanning. Daarom bevat de hoofdplanning informatie uit alle relevante regels van de inkoophandelsovereenkomst waar prijzen kunnen worden geconverteerd naar de valuta van de boekhouding.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Voorbeelden van de manier waarop in Planningsoptimalisatie leveranciers en levertijden worden gevonden
 

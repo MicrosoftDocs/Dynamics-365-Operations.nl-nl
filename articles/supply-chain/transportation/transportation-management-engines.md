@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6ec8714ef208b25284f218e81dda0ff94ed49d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828364"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920104"
 ---
 # <a name="transportation-management-engines"></a>Transportbeheer engines
 
@@ -94,8 +94,14 @@ De metagegevens voor de transportbeheer engines word verschillend geconfigureerd
 | 1        | Herkomst postcode            | Toewijzing | Tekenreeks    | Postcode    | Geselecteerd  |
 | 2        | Bestemming Provincie             | Toewijzing | Tekenreeks    | Staat          |           |
 | 3        | Bestemming startpunt: postcode | Toewijzing | Tekenreeks    | Postcode    | Geselecteerd  |
-| 4        | Bestemming eindpunt: postcode   | Toewijzing | Tekenreeks    | Postcode    | Geselecteerd  |
+| 4        | Bestemming eindpunt: postcode   | Toewijzing | Tekenreeks    | Postcode    | Selectie  |
 | 5        | Bestemmingsland           | Toewijzing | Tekenreeks    | Land/regio |           |
+
+### <a name="whitepaper"></a>Whitepaper
+
+Download de volgende whitepaper (geschreven ter ondersteuning van AX2012, maar is nog steeds van toepassing op Dynamics 365 Supply Chain Management) voor meer informatie.
+
+- [Transportbeheerengines](https://download.microsoft.com/download/e/0/9/e0957665-c12f-43c7-94c0-611cc49d7d61/TransportationManagementEnginesInAX.pdf)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: JOIN-gegevensbronnen gebruiken in ER-modeltoewijzingen om gegevens uit meerdere toepassingstabellen op te halen
 description: In dit onderwerp wordt uitgelegd hoe u gegevensbronnen van het type JOIN kunt gebruiken in elektronische rapportage (ER).
 author: NickSelin
-ms.date: 05/04/2020
+ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: d42016b914d7992b6f4ae1c573eb8f867ba87e22
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: be5646eaf395310c8b34586ef1274a41b5b97029
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743972"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944699"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>JOIN-gegevensbronnen gebruiken om gegevens uit meerdere toepassingstabellen op te halen in ER-modeltoewijzingen (elektronische rapportage)
 
@@ -64,13 +64,13 @@ Als u de voorbeelden in dit onderwerp wilt voltooien, moet u toegang hebben tot 
 
 U moet ook eerst de stappen in de procedure [Een configuratieprovider maken en deze als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md) voltooien.
 
-U moet echter ook downloaden vanuit het [Microsoft Downloadcentrum](https://go.microsoft.com/fwlink/?linkid=000000) en lokaal de volgende voorbeeldconfiguratiebestanden voor ER opslaan:
+Van tevoren moet u ook de volgende voorbeeldbestanden met ER-configuraties downloaden en opslaan:
 
 | **Omschrijving inhoud**  | **Bestandsnaam**   |
 |--------------------------|-----------------|
-| Voorbeeld van configuratiebestand voor **ER-gegevensmodel**, dat wordt gebruikt als de gegevensbron voor de voorbeelden.| [Model voor het leren van JOIN-gegevensbronnen.versie.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Voorbeeld van configuratiebestand voor **ER-modeltoewijzing**, dat het ER-gegevensmodel implementeert voor de voorbeelden. | [Toewijzing voor het leren van JOIN-gegevensbronnen.versie.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Voorbeeld van configuratiebestand van **ER-indeling**. In dit bestand worden de gegevens beschreven om het onderdeel van de ER-indeling te vullen voor de voorbeelden. | [Indeling voor het leren van JOIN-gegevensbronnen.versie.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Voorbeeld van configuratiebestand voor **ER-gegevensmodel**, dat wordt gebruikt als de gegevensbron voor de voorbeelden.| [Model voor het leren van JOIN-gegevensbronnen.versie.1.1.xml](https://download.microsoft.com/download/5/c/1/5c1d8a57-6ebd-425b-bc5d-c71dde92c6af/ModeltolearnJOINdatasources.version.1.xml) |
+| Voorbeeld van configuratiebestand voor **ER-modeltoewijzing**, dat het ER-gegevensmodel implementeert voor de voorbeelden. | [Toewijzing voor het leren van JOIN-gegevensbronnen.versie.1.1.xml](https://user-images.githubusercontent.com/19827601/115923048-86b10400-a432-11eb-9e57-c37a02effcb4.png)|
+| Voorbeeld van configuratiebestand van **ER-indeling**. In dit bestand worden de gegevens beschreven om het onderdeel van de ER-indeling te vullen voor de voorbeelden. | [Indeling voor het leren van JOIN-gegevensbronnen.versie.1.1.xml](https://download.microsoft.com/download/f/f/8/ff8f1b48-14d0-4c73-9145-bcdf8b5265bc/FormattolearnJOINdatasources.version.1.1.xml) |
 
 ### <a name="activate-a-configurations-provider"></a>Een configuratieprovider activeren
 
@@ -128,13 +128,13 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
     3. Binding **ConfigurationTitle: String = @.'>Relations'.Solution.Name** geeft aan dat de naam van een ER-configuratie wordt opgehaald uit het veld **Naam** van de tabel **ERSolutionTable** met beoordeling van de veel-op-één-relatie (**'Relations'**) tussen de tabellen **ERSolutionVersionTable** en **ERSolutionTable**. Namen van de ER-configuraties van het huidige toepassingsexemplaar worden weergegeven in de configuratiestructuur op de pagina **Configuraties**.
     4. Binding **@.'>Relations'.Solution.'>Relations'.SolutionVendor.Name** geeft aan dat de naam van de configuratieprovider die eigenaar is van de huidige configuratie wordt opgehaald uit het veld **Naam** van de tabel **ERVendorTable** met beoordeling van de veel-op-één-relatie tussen de tabellen **ERSolutionTable** en **ERVendorTable**. Namen van de ER-configuratieproviders worden weergegeven in de configuratiestructuur op de pagina **Configuraties** in de paginakoptekst voor elke configuratie. De volledige lijst van ER-configuratieproviders is te vinden op de tabelpagina **Organisatiebeheer \> Elektronische rapportage \> Configuratieprovider**.
 
-    ![Pagina voor ontwerper van ER-modeltoewijzingen](./media/GER-JoinDS-Set1Review.PNG)
+    ![De pagina Ontwerper ER-modeltoewijzing, lijst met gebonden gegevensmodelartikelen](./media/GER-JoinDS-Set1Review.PNG)
 
 6. Vouw in de configuratiestructuur het gegevensmodelitem **Set1.Summary** uit:
 
     1. Binding **VersionsNumber: Integer = VersionsSummary.aggregated.VersionsNumber** geeft aan dat het item **Set1.Summary.VersionsNumber** is gebonden aan het aggregatieveld **VersionsNumber** van de gegevensbron **VersionsSummary** van het type **GroupBy** dat is geconfigureerd om het aantal records van de tabel **ERSolutionVersionTable** te retourneren via de gegevensbron **Versions**.
 
-    ![Pagina voor parameters van GROUPBY-gegevensbron](./media/GER-JoinDS-Set1GroupByReview.PNG)
+    ![De pagina met parameters voor 'Groeperen op' bewerken](./media/GER-JoinDS-Set1GroupByReview.PNG)
 
 7. Sluit de pagina.
 
@@ -144,11 +144,11 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 
 1. Vouw in de configuratiestructuur de gegevensmodelitems **Set2** en **Set2.Details** uit. De binding **Details: Record list = Details** geeft aan dat het item **Set2.Details** is gekoppeld aan de gegevensbron **Details** die is geconfigureerd als gegevensbron van het type **Join**.
 
-    ![Pagina voor ontwerper van ER-modeltoewijzingen](./media/GER-JoinDS-Set2Review.PNG)
+    ![De pagina Ontwerper ER-modeltoewijzing met uitgevouwen Set2:Record-gegevensmodelartikelen](./media/GER-JoinDS-Set2Review.PNG)
 
     De **Join**-gegevensbron kan worden toegevoegd door de gegevensbron **Functions\Join** te selecteren:
 
-    ![Pagina voor ontwerper van ER-modeltoewijzingen](./media/GER-JoinDS-AddJoinDS.PNG)
+    ![De pagina Ontwerper ER-modeltoewijzing, gegevensbrontype Join](./media/GER-JoinDS-AddJoinDS.PNG)
 
 2. Selecteer de gegevensbron **Details**.
 3. Selecteer **Bewerken** in het deelvenster **Gegevensbronnen**.
@@ -196,21 +196,21 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 
     Deze indeling is bedoeld voor het vullen van een gegenereerd tekstbestand met een nieuwe regel voor elke versie van een ER-configuratie (**Version**-reeks). Elke gegenereerde regel bevat de naam van een configuratieprovider die eigenaar is van de huidige configuratie, de configuratienaam en de configuratieversie, gescheiden door puntkomma's. De laatste regel van het gegenereerde bestand bevat het aantal ontdekte versies van de ER-configuraties (**Summary**-reeks).
 
-    ![Pagina voor ontwerper van ER-indeling](./media/GER-JoinDS-FormatReview.PNG)
+    ![Pagina Ontwerper ER-indeling, tabblad Indeling](./media/GER-JoinDS-FormatReview.PNG)
 
     De gegevensbronnen **Data** en **Summary** worden gebruikt om de details van de configuratieversie in te vullen voor het gegenereerde bestand:
 
     - Informatie uit het **Set1**-gegevensmodel wordt gebruikt wanneer u **Nee** kiest voor de gegevensbron **Selector** tijdens runtime op de pagina met de gebruikersdialoog bij het uitvoeren van een ER-indeling.
     - Informatie uit het **Set2**-gegevensmodel wordt gebruikt wanneer u **Ja** kiest voor de gegevensbron **Selector** tijdens runtime op de pagina met de gebruikersdialoog bij het uitvoeren van een ER-indeling.
 
-    ![Pagina voor ontwerper van ER-indeling](./media/GER-JoinDS-FormatMappingReview.PNG)
+    ![Pagina Ontwerper ER-indeling, tabblad Toewijzing](./media/GER-JoinDS-FormatMappingReview.PNG)
 
 9. Selecteer **Uitvoeren**.
 10. Selecteer op de dialoogpagina de optie **Nee** in het veld **JOIN-gegevensbron gebruiken**.
 11. Selecteer **OK**.
 12. Gegenereerd bestand controleren
 
-    ![Pagina met ER-gebruikersdialoog](./media/GER-JoinDS-Set1Run.PNG)
+    ![Parameters voor elektronisch rapport, gegenereerd bestand zonder gebruik van JOIN-gegevensbron](./media/GER-JoinDS-Set1Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a>Uitvoeringstracering van ER-indeling analyseren
 
@@ -224,7 +224,7 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
     - **ERSolutionTable** is zo vaak aangeroepen als u configuratieversierecords hebt in de tabel **ERSolutionVersionTable**, terwijl het aantal van dergelijke aanroepen op bepaalde momenten kan worden teruggebracht voor prestatieverbetering.
     - **ERVendorTable** is tweemaal aangeroepen voor elke configuratieversierecords die is gedetecteerd in de tabel **ERSolutionVersionTable**, terwijl het aantal van dergelijke aanroepen eveneens kan worden teruggebracht.
 
-    ![Pagina voor ontwerper van ER-modeltoewijzingen](./media/GER-JoinDS-Set1Run2.PNG)
+    ![Uitvoeringsstatistieken op de modelontwerperpagina ER-model](./media/GER-JoinDS-Set1Run2.PNG)
 
 5. Sluit de pagina.
 
@@ -236,7 +236,7 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 4. Selecteer **OK**.
 5. Gegenereerd bestand controleren
 
-    ![Pagina met ER-gebruikersdialoog](./media/GER-JoinDS-Set2Run.PNG)
+    ![Parameters voor elektronisch rapport, gegenereerd bestand met gebruik van JOIN-gegevensbron](./media/GER-JoinDS-Set2Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Uitvoeringstracering van ER-indeling analyseren
 
@@ -249,11 +249,11 @@ Controleer de instellingen van het onderdeel voor ER-modeltoewijzing. Het onderd
 
     - De toepassingsdatabase is eenmaal aangeroepen om records op te halen uit de tabellen **ERVendorTable**, **ERSolutionTable** en **ERSolutionVersionTable** om toegang te krijgen tot vereiste velden.
 
-    ![Pagina voor ontwerper van ER-modeltoewijzingen](./media/GER-JoinDS-Set2Run2.PNG)
+    ![Pagina Ontwerper ER-modeltoewijzing, details uitvoeringsstatistieken](./media/GER-JoinDS-Set2Run2.PNG)
 
     - De toepassingsdatabase wordt eenmaal aangeroepen om het aantal configuratieversies te berekenen met behulp van joins die zijn geconfigureerd in de gegevensbron **Details**.
 
-    ![Pagina voor ontwerper van ER-modeltoewijzingen](./media/GER-JoinDS-Set2Run3.PNG)
+    ![Pagina Ontwerper ER-modeltoewijzing, met aanroepen naar toepassingsdatabase](./media/GER-JoinDS-Set2Run3.PNG)
 
 ## <a name="limitations"></a>Beperkingen
 

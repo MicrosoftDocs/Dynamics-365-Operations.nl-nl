@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: talent-welcome.md
+  href: ./index.md
   items:
     - name: Aan de slag
       items:
@@ -151,7 +151,7 @@
         - name: Gegevens exporteren uit Attract en Onboard
           href: attract-onboard-export-data.md
         - name: Canvas-apps uit Power Apps insluiten
-          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+          href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
         - name: Ondersteuning voor Talent
           href: talent-support.md
     - name: Personeelswerving in uw organisatie met Attract

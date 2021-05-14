@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 48bf6f7997d6159077419bcd05d27fd711c8fb4b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
+ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891025"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5953407"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Verlofaanvragen beheren in Teams
 
@@ -207,6 +207,14 @@ Als u een foutmelding krijgt tijdens het goedkeuren van verlofaanvragen in de Te
 1. Controleer of de account waarmee u zich aanmeldt bij Microsoft Teams dezelfde account is als de account die u gebruikt om toegang te krijgen tot Dynamics 365 Human Resources.
 
 2. Controleer of u een geldige fiatteur bent voor de aanvraag door de werkstroominstellingen te controleren op verlofgoedkeuring. Zie [Een werkstroom voor een verlofaanvraag maken](hr-leave-and-absence-workflow.md) voor meer informatie over werkstromen voor verlofaanvragen.
+
+### <a name="leave-approvers-dont-receive-teams-chat-messages-to-approve-leave-requests"></a>Verloffiatteurs ontvangen geen Teams-chatberichten om verlofaanvragen goed te keuren
+
+1. Zorg ervoor dat meldingen zijn ingeschakeld voor de omgeving en de gebruiker. Meer informatie over dit onderwerp vindt u in [Meldingen inschakelen voor de Human Resources-app in Teams](hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) en [Teams-meldingen in- of uitschakelen voor afzonderlijke gebruikers](hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users).
+
+2. Zorg ervoor dat gebruikers zijn aangemeld op het tabblad **Chats** met dezelfde referenties die ze gebruiken voor het goedkeuren van verlofaanvragen. Gebruik de berichten "afmelden" en vervolgens "aanmelden" om u aan te melden met de juiste referenties.
+
+3. Als het probleem blijft bestaan, controleert u als systeembeheerder de status van de systeembatch taak Zakelijke gebeurtenissen. Als de taak in de fase fase Wachtend of In uitvoering staat, controleert u deze nog eens over enkele minuten. Als de status niet verandert, kunt u een ondersteuningsticket indienen zodat ons team u kan helpen om het probleem op te lossen.
 
 ## <a name="known-accessibility-issues"></a>Bekende toegankelijkheidsproblemen
 

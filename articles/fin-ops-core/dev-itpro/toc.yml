@@ -14,12 +14,12 @@
               items:
                 - name: Startpagina van nieuwe of gewijzigde functies in Platform updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates voor 10.0.19 (juli 2021)
+                  href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Platform updates voor 10.0.18 (mei 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: Platform updates voor 10.0.17 (april 2021)
                   href: get-started/whats-new-platform-updates-10-0-17.md
-                - name: Platform updates voor 10.0.16 (februari 2021)
-                  href: get-started/whats-new-platform-updates-10-0-16.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -303,19 +303,19 @@
                         - name: Project Service Automation-integratie configureren
                           items:
                             - name: Overzicht van Project Service Automation
-                              href: ../../finance/project-management/PSA-integration.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-integration
                             - name: Project Service Automation-integratieparameters
-                              href: ../../finance/project-management/PSA-parameters.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
                             - name: Projectcontracten en projecten synchroniseren
-                              href: ../../finance/project-management/project-contracts-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
                             - name: Projecttaken synchroniseren
-                              href: ../../finance/project-management/project-tasks-template.md
+                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
                             - name: Onkostencategorieën project synchroniseren
-                              href: ../../finance/project-management/project-categories-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
                             - name: Projectramingen synchroniseren met projectprognoses
-                              href: ../../finance/project-management/project-estimates-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
                             - name: Werkelijke projectwaarden synchroniseren met het projectintegratiejournaal
-                              href: ../../finance/project-management/project-actuals-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Externe webservices gebruiken
               href: data-entities/consume-external-web-service.md
             - name: Elektronische berichten
@@ -691,7 +691,7 @@
                     - name: Overzicht van Modellen en gegevensmodelelementen maken
                       href: dev-tools/create-data-model-elements.md
                     - name: Richtlijnen voor namen van uitbreidingen
-                      href: extensibility/NamingGuidelines.md
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
                     - name: Modelaanpassingen uitschakelen en functionaliteit afschaffen
                       href: dev-tools/lock-models.md
                 - name: Rapport Aanpassingsanalyse
@@ -1072,8 +1072,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Nieuwe of gewijzigde functies in Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Bekende problemen
-                  href: lifecycle-services/known-issues.md
                 - name: Verwijderde of afgeschafte functies in Lifecycle Services (LCS)
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Gebruikershandleiding Lifecycle Services
@@ -1400,12 +1398,16 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: Regression Suite Automation Tool gebruiken
               href: perf-test/rsat/rsat-run.md
+            - name: Testcases onderhouden in de Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: Verwachte waarden valideren
               href: perf-test/rsat/rsat-validate-expected.md
             - name: Testcases keten
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Afgeleide testcases
               href: perf-test/rsat/rsat-derived-test-cases.md
+            - name: De parameterbestanden bijwerken
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
             - name: Zelfstudie voor Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
             - name: Niet-beheerders configureren
@@ -1582,6 +1584,8 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: Upgrade van AX 2012 - Gegevensupgrade in sandboxomgevingen met behulp van het dacpac-proces
                   href: migration-upgrade/upgrade-data-sandbox-dacpac.md
+                - name: Upgrade van AX 2012 - SQL-transactiereplicatie
+                  href: database/replication-setup.md
                 - name: Upgrade van AX 2012 - Gegevensupgrade in sandboxomgevingen
                   href: migration-upgrade/upgrade-data-sandbox.md
                 - name: Upgrade van AX 2012 - On-premises omgevingen

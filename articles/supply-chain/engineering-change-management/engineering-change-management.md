@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: fb71d941a5cd58701f723e56a07c6b6cca6689bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
+ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830023"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954640"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Wijzigingen in technische producten beheren
 
@@ -139,13 +139,14 @@ Terwijl u een aanvraag voor een wijziging bekijkt, selecteert u in het actievens
 
 Zoals wordt beschreven in [Technische bedrijven en regels voor gegevenseigendom](engineering-org-data-ownership-rules.md), zijn de productgegevens die u kunt bewerken, afhankelijk van het type rechtspersoon waarin u werkt (een technisch bedrijf of een operationeel bedrijf). Regels voor gegevenseigendom worden ook toegepast op orders voor technische wijzigingen. Daarom kunnen verschillende typen wijzigingen worden aangebracht, afhankelijk van de rechtspersoon waar u een order voor technische wijzigingen maakt. Hieronder volgen een aantal voorbeelden:
 
-- Voor orders voor technische wijzigingen in een **technisch bedrijf** kunt u fundamentele wijzigingen aanbrengen in de technische gegevens. U kunt bijvoorbeeld nieuwe versies van een product maken, de structuur van een product wijzigen via de stuklijst en waarden van technische kenmerken wijzigen. Selecteer voor elk betrokken product selecteert u een van de volgende waarden in het veld **Impact**:
+- Voor orders voor technische wijzigingen in een *technisch bedrijf* kunt u fundamentele wijzigingen aanbrengen in de technische gegevens. U kunt bijvoorbeeld nieuwe versies van een product maken, de structuur van een product wijzigen via de stuklijst en waarden van technische kenmerken wijzigen. Selecteer voor elk betrokken product selecteert u een van de volgende waarden in het veld **Impact**:
 
     - **Geen**: werk de bestaande productversie bij (update in versie).
     - **Nieuwe versie**: maak een nieuwe versie op basis van de geselecteerde productversie.
-    - **Nieuw product**: maak een volledig nieuw product of een productvariant die is gebaseerd op de geselecteerde productversie.
+    - **Nieuw product**: maak een volledig nieuw product dat is gebaseerd op de geselecteerde productversie.
+    - **Nieuwe variant**: maak een nieuwe variant op basis van de geselecteerde productversie. De stuklijst- en routegegevens worden gekopieerd.
 
-- Voor orders voor technische wijzigingen in een **operationeel bedrijf** kunt u de logistieke gegevens van het product wijzigen. U kunt bijvoorbeeld de bestaande stuklijst verrijken met instellingen voor sourcing, lokale routes of lokale stuklijsten toevoegen en zelfs een stuklijst verrijken door nieuwe stuklijst regels toe te voegen voor lokaal verpakkingsmateriaal, smeervloeistoffen of instructies in de lokale taal. Verrijkingen die gebruikers in het operationele bedrijf maken, blijven behouden wanneer nieuwe updates worden verzonden vanuit het technische bedrijf. Zie [Technische bedrijven en regels voor gegevenseigendom](engineering-org-data-ownership-rules.md) voor meer informatie.
+- Voor orders voor technische wijzigingen in een *operationeel bedrijf* kunt u de logistieke gegevens van het product wijzigen. U kunt bijvoorbeeld de bestaande stuklijst verrijken met instellingen voor sourcing, lokale routes of lokale stuklijsten toevoegen en zelfs een stuklijst verrijken door nieuwe stuklijst regels toe te voegen voor lokaal verpakkingsmateriaal, smeervloeistoffen of instructies in de lokale taal. Verrijkingen die gebruikers in het operationele bedrijf maken, blijven behouden wanneer nieuwe updates worden verzonden vanuit het technische bedrijf. Zie [Technische bedrijven en regels voor gegevenseigendom](engineering-org-data-ownership-rules.md) voor meer informatie.
 
     Wanneer orders voor technische wijzigingen in het technische bedrijf worden verwerkt, worden de producten alleen gemaakt en/of bijgewerkt in het technische bedrijf. Als de productmodelgegevens ook moeten worden bijgewerkt, moet u de producten dus ook vrijgeven aan de operationele bedrijven.
 

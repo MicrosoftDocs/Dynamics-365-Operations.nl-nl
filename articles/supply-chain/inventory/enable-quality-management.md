@@ -1,12 +1,12 @@
 ---
-title: Overzicht kwaliteitsbeheer
-description: In dit onderwerp wordt beschreven hoe u kwaliteitsbeheer in Dynamics 365 Supply Chain Management kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
+title: Beheer van kwaliteit en niet-conformeringen inschakelen
+description: Dit onderwerp bevat een overzicht van het proces voor het instellen en configureren van de functies voor beheer van kwaliteit en niet-conformeringen in Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-ms.date: 10/15/2019
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
+ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome, InventParameters, InventProblemType, InventProblemTypeSetup, InventQuarantineZone, InventTestDiagnosticType, InventTestReportSetup, SysUserManagement, InventTestRelatedOperations
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 94003
@@ -16,491 +16,63 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 23406f68e6ed317025a072eb3377392f0b129626
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 67d5da648e31d07d054246f5d308a6c6cdeb506c
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829927"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956249"
 ---
-# <a name="quality-management-overview"></a>Overzicht kwaliteitsbeheer
+# <a name="enable-quality-and-nonconformance-management"></a>Beheer van kwaliteit en niet-conformeringen inschakelen
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp wordt beschreven hoe u kwaliteitsbeheer in Dynamics 365 Supply Chain Management kunt gebruiken om de productkwaliteit in uw keten van toeleveranciers te verbeteren.
+Dit onderwerp bevat een overzicht van het proces voor het instellen en configureren van de functies voor beheer van kwaliteit en niet-conformeringen in Microsoft Dynamics 365 Supply Chain Management.
 
-Kwaliteitsbeheer kan u helpen keerpunttijden te beheren wanneer u te maken hebt met niet-overeenkomende producten, ongeacht hun punt van oorsprong. Omdat typen diagnoses aan correctierapportage zijn gekoppeld, kan Supply Chain Management taken plannen om problemen te corrigeren en te voorkomen dat deze worden herhaald.
+## <a name="enable-quality-and-nonconformance-management"></a><a name="enable-qm"></a>Beheer van kwaliteit en niet-conformeringen inschakelen
 
-Naast functionaliteit voor het beheer van non-conformiteit omvat het kwaliteitsbeheer functionaliteit voor het bijhouden van problemen op probleemtype (ook interne problemen) en om oplossingen als kortetermijn- of langetermijnoplossingen te identificeren. De statistieken over Key Performance Indicators (KPI´s) bieden inzicht in de geschiedenis van eerdere niet-conformeringsproblemen en de oplossingen die zijn gebruikt om ze te corrigeren. U kunt de historische gegevens gebruiken om de efficiëntie van eerdere kwaliteitsmetingen te controleren en passende stappen voor de toekomst te definiëren.
+Volg deze stappen om kwaliteitsbeheer op uw systeem in te schakelen.
 
-Wanneer u een kwaliteitskoppeling opzet, kan Supply Chain Management kwaliteitsorders genereren voor verschillende bedrijfsprocessen, gebeurtenissen en voorwaarden. De kwaliteitskoppeling kan betrekking hebben op een specifiek artikel, een specifieke groep artikelen of alle artikelen.
+1. Ga naar **Voorraadbeheer \> Instellen \> Parameters voor voorraad- en magazijnbeheer**.
+1. Stel op het tabblad **Kwaliteitsbeheer** de optie **Kwaliteitsbeheer gebruiken** in op *Ja*.
+1. Voer in het veld **Uurtarief** een uurtarief in de lokale valuta in. Het uurtarief wordt gebruikt voor het berekenen van de kosten voor bewerkingen die zijn gerelateerd aan een niet-conformering. Het uurtarief en de berekende kosten vormen referentiegegevens voor een niet-conformering. Ze worden niet samen met andere functies gebruikt.
+1. Selecteer **Rapportinstellingen**.
+1. Voeg nieuwe regels toe voor de verschillende rapporttypen en selecteer het type document dat u voor elk rapport wilt gebruiken.
+1. Sluit de pagina.
+1. Sluit de pagina.
 
-## <a name="examples-of-the-use-of-quality-management"></a>Voorbeelden van het gebruik van kwaliteitsbeheer
-Kwaliteitsbeheer is flexibel en kan op verschillende manieren worden geïmplementeerd om aan de vereisten van specifieke niveaus van toeleveringsactiviteiten te voldoen. In de volgende voorbeelden worden mogelijke toepassingen van deze functies beschreven:
+## <a name="quality-management-configuration-process"></a>Het proces voor configureren van kwaliteitsbeheer
 
--   Start automatisch een kwaliteitscontroleproces, op basis van vooraf gedefinieerde criteria (bij magazijnregistratie van een inkooporder van een specifieke leverancier).
--   Blokkeer voorraad tijdens inspectie om te voorkomen dat niet-goedgekeurde voorraad wordt gebruikt (volledig blokkeren van inkooporderhoeveelheden).
--   Gebruik artikelbemonstering als onderdeel van een kwaliteitskoppeling om te definiëren hoeveel fysieke actuele voorraad moet worden geïnspecteerd. Bemonstering kan betrekking hebben op een vaste hoeveelheid, een percentage of een volledige naamplaat.
+Voordat u de functies voor kwaliteitsbeheer kunt gebruiken en kwaliteitsorders kunt genereren, moet u het systeem en de vereisten configureren. Hieronder volgt een lijst met de stappen die nodig zijn om kwaliteitsbeheer te configureren.
 
-> [!NOTE]
-> De functie _Kwaliteitsbeheer voor magazijnprocessen_ vergroot de mogelijkheden van kwaliteitsbeheer. Als u deze functie gebruikt, zie [Kwaliteitsbeheer voor magazijnprocessen](quality-management-for-warehouses-processes.md) voor voorbeelden van hoe kwaliteitsbeheer werkt wanneer het is ingeschakeld.
+1. [Beheer van kwaliteit en niet-conformeringen inschakelen](#enable-qm).
+1. Optioneel: [Testinstrumenten configureren](quality-test-instruments.md).
+1. [Tests configureren](quality-tests.md).
+1. [Testvariabelen en resultaten configureren](quality-test-variables.md).
+1. [Testgroepen configureren](quality-test-groups.md).
+1. Optioneel: [Kwaliteitsgroepen configureren en aan producten koppelen](quality-groups.md).
+1. Optioneel: [Kwaliteitskoppelingen configureren](quality-associations.md).
 
--   Maak kwaliteitsorders voor gedeeltelijke ontvangsten. Als u een kwaliteitsorder wilt maken die is gebaseerd op de hoeveelheid die fysiek is ontvangen met een order, moet u het selectievakje **Per bijgewerkte hoeveelheid** op het formulier **Artikelbemonstering** inschakelen.
--   Maak testtypen die minimum-, maximum- en doeltestwaarden bevatten en voer vergelijkende kwalitatieve en kwantitatieve testen met vooraf gedefinieerde validatieresultaten uit.
--   Geef een acceptabel kwaliteitsniveau op om kwaliteitsmetingstoleranties te beheren.
--   Geef op welke resources een inspectiebewerking nodig hebben, zoals een testgebied en testinstrumenten.
+Nadat het configureren is voltooid, kunt u beginnen met het maken en verwerken van kwaliteitsorders. Meer informatie over het maken van en werken met kwaliteitsorders vindt u in [Kwaliteitsorders](quality-orders.md).
 
-## <a name="working-with-quality-associations"></a>Werken met kwaliteitskoppelingen
-Bedrijfsprocessen die gebruikmaken van een kwaliteitskoppeling, kunnen betrekking hebben op verschillende brondocumenten, zoals inkooporders, verkooporders of productieorders.
+## <a name="nonconformance-management-configuration-process"></a>Het proces voor configureren van niet-conformeringen
 
-Elk kwaliteitskoppelingsrecord definieert de set met testen, het aanvaardbare kwaliteitsniveau en het bemonsteringsplan dat van toepassing is op de gegenereerde kwaliteitsorders. U moet een kwaliteitskoppelingsrecord definiëren voor elke variatie in een bedrijfsproces. U kunt bijvoorbeeld een kwaliteitskoppeling opzetten die een kwaliteitsorder genereert wanneer een productontvangstbon voor een inkooporder wordt bijgewerkt. Afhankelijk van de instelling van het uitvoeringsplan, kan het activerende proces zelf worden geblokkeerd terwijl er een kwaliteitsorder geopend is of kunnen volgende processen, zoals de facturering van inkooporders, worden geblokkeerd.
+Voordat u de functies voor beheer van niet-conformeringen kunt gebruiken en niet-conformeringen kunt genereren, moet u het systeem en de vereisten configureren. Hieronder volgt een lijst met de stappen die nodig zijn om het beheer van niet-conformeringen te configureren.
 
-**Opmerking:** wanneer er kwaliteitsorders open staan, wordt de uitgave van voorraadhoeveelheden die zijn opgegeven in kwaliteitsorder automatisch geblokkeerd. Afhankelijk van de instelling **Volledig blokkeren** op de pagina **Artikelbemonsteringen**, is de hoeveelheid de hoeveelheid op de kwaliteit op de brondocumentregel.
+1. [Beheer van kwaliteit en niet-conformeringen inschakelen](#enable-qm).
+1. [Medewerkers configureren die verantwoordelijk zijn voor het goedkeuren van niet-conformeringen](quality-responsible-workers.md).
+1. [Probleemtypen configureren](quality-problem-types.md).
+1. [Quarantainezones configureren](quality-quarantine-zones.md).
+1. [Diagnosetypen configureren](quality-diagnostic-types.md).
+1. [Bewerkingen configureren](quality-operations.md).
+1. Optioneel: [Kwaliteitstoeslagen configureren](quality-charges.md).
 
-De kwaliteitskoppeling identificeert voor een opgegeven bedrijfsproces de gebeurtenis en de omstandigheden waarin een kwaliteitsorder wordt gegenereerd. De voorwaarden kunnen specifiek voor een site of een rechtspersoon zijn. Een kwaliteitsorder waarvoor destructieve testen worden uitgevoerd, kan alleen worden gegenereerd als er voorraad voor de gebeurtenis voorhanden is.
+Nadat het configureren is voltooid, kunt u beginnen met het maken en verwerken van niet-conformeringen. Meer informatie over het maken van en werken met niet-conformeringen vindt u in [Niet-conformeringen maken en verwerken](tasks/create-process-non-conformance.md).
 
-In de volgende voorbeelden ziet u hoe een kwaliteitskoppelingsrecord wordt gedefinieerd voor de verschillen in elk bedrijfsproces. Voor elk voorbeeld worden in de volgende tabel de gebeurtenissen en voorwaarden samengevat die door een kwaliteitskoppelingsrecord zijn gedefinieerd.
+## <a name="additional-resources"></a>Aanvullende bronnen
 
-<table>
-<tbody>
-<tr>
-<th>Verwijzingstype</th>
-<th>Gebeurtenistype</th>
-<th>Uitvoering</th>
-<th>Gebeurtenisblokkering</th>
-<th>Documentverwijzing</th>
-</tr>
-<tr>
-<td>Voorraad</td>
-<td>Niet van toepassing</td>
-<td>Niet van toepassing</td>
-<td>Geen</td>
-<td>Alle</td>
-</tr>
-<tr>
-<td rowspan="7">Verkoop</td>
-<td rowspan="4">Verzamelproces is gepland</td>
-<td rowspan="4">Vóór</td>
-<td>Geen</td>
-<td rowspan="22">Specifieke id, Groep of alleen Alle</td>
-</tr>
-<tr>
-<td>Verzamelproces</td>
-</tr>
-<tr>
-<td>Pakbon</td>
-</tr>
-<tr>
-<td>Factuur</td>
-</tr>
-<tr>
-<td rowspan="3">Pakbon</td>
-<td rowspan="3">Vóór</td>
-<td>Geen</td>
-</tr>
-<tr>
-<td>Pakbon</td>
-</tr>
-<tr>
-<td>Factuur</td>
-</tr>
-<tr>
-<td rowspan="15">Inkoop</td>
-<td rowspan="7">Ontvangstlijst</td>
-<td rowspan="4">Vóór</td>
-<td>Geen</td>
-</tr>
-<tr>
-<td>Ontvangstlijst</td>
-</tr>
-<tr>
-<td>Productontvangstbon</td>
-</tr>
-<tr>
-<td>Factuur</td>
-</tr>
-<tr>
-<td rowspan="3">Na</td>
-<td>Geen</td>
-</tr>
-<tr>
-<td>Productontvangstbon</td>
-</tr>
-<tr>
-<td>Factuur</td>
-</tr>
-<tr>
-<td rowspan="3">Registratie</td>
-<td rowspan="3">Niet van toepassing</td>
-<td>Geen</td>
-</tr>
-<tr>
-<td>Productontvangstbon</td>
-</tr>
-<tr>
-<td>Factuur</td>
-</tr>
-<tr>
-<td rowspan="5">Productontvangstbon</td>
-<td rowspan="3">Vóór</td>
-<td>Geen</td>
-</tr>
-<tr>
-<td>Productontvangstbon</td>
-</tr>
-<tr>
-<td>Factuur</td>
-</tr>
-<tr>
-<td rowspan="2">Na</td>
-<td>Geen</td>
-</tr>
-<tr>
-<td>Factuur</td>
-</tr>
-<tr>
-<td rowspan="8">Productie</td>
-<td rowspan="3">Registratie</td>
-<td rowspan="3">Niet van toepassing</td>
-<td>Geen</td>
-<td rowspan="12">Alle</td>
-</tr>
-<tr>
-<td>Rapporteren als gereed</td>
-</tr>
-<tr>
-<td>Beëindigen</td>
-</tr>
-<tr>
-<td rowspan="5">Rapporteren als gereed</td>
-<td rowspan="3">Vóór</td>
-<td>Geen</td>
-</tr>
-<tr>
-<td>Rapporteren als gereed</td>
-</tr>
-<tr>
-<td>Beëindigen</td>
-</tr>
-<tr>
-<td rowspan="2">Na</td>
-<td>Geen</td>
-</tr>
-<tr>
-<td>Beëindigen</td>
-</tr>
-<tr>
-<td rowspan="4">Quarantaine</td>
-<td rowspan="3">Rapporteren als gereed</td>
-<td rowspan="2">Vóór</td>
-<td>Rapporteren als gereed</td>
-</tr>
-<tr>
-<td>Beëindigen</td>
-</tr>
-<tr>
-<td>Na</td>
-<td>Beëindigen</td>
-</tr>
-<tr>
-<td>Beëindigen</td>
-<td>Vóór</td>
-<td>Beëindigen</td>
-</tr>
-<tr>
-<td rowspan="3">Routebewerking</td>
-<td rowspan="3">Rapporteren als gereed</td>
-<td rowspan="2">Vóór</td>
-<td>Geen</td>
-<td rowspan="3">Specifieke id, Groep of Alle, en Resourcespecifiek, Groep of Alle</td>
-</tr>
-<tr>
-<td>Rapporteren als gereed</td>
-</tr>
-<tr>
-<td>Na</td>
-<td>Geen</td>
-</tr>
-<tr>
-<td rowspan="3">Productie van coproducten</td>
-<td>Registratie</td>
-<td>Niet van toepassing</td>
-<td rowspan="3">Geen</td>
-<td rowspan="3">Alle</td>
-</tr>
-<tr>
-<td rowspan="2">Rapporteren als gereed</td>
-<td>Vóór</td>
-</tr>
-<tr>
-<td>Na</td>
-</tr>
-</tbody>
-</table>
-
-De volgende tabel bevat meer informatie over de manier waarop kwaliteitsorders kunnen worden gegenereerd voor specifieke typen processen.
-<div class="tableSection">
-
-<table>
-<tbody>
-<tr>
-<th>Procestypen</th>
-<th>Wanneer automatisch kwaliteitsorders kunnen worden gegenereerd</th>
-<th>Wanneer kwaliteitsorders kunnen worden gegenereerd als destructieve testen vereist zijn</th>
-<th>Informatie over voorwaarden</th>
-<th>Handmatig informatie genereren</th>
-</tr>
-<tr>
-<td>Inkooporder</td>
-<td>Vóór of nadat een ontvangstlijst of productontvangstbon voor het ontvangen materiaal wordt geboekt</td>
-<td>Nadat de productontvangstbon voor het ontvangen materiaal is geboekt, aangezien het materiaal beschikbaar dient te zijn voor destructieve testen</td>
-<td>De vereiste voor een kwaliteitsorder kan betrekking hebben op een bepaalde site, een bepaald artikel, een bepaalde leverancier of een combinatie van deze voorwaarden.</td>
-<td>Een handmatig gegenereerde kwaliteitsorder die naar een inkooporder verwijst, kan gebruik maken van informatie in een kwaliteitskoppelingsrecord, zoals het testbemonsteringsplan.</td>
-</tr>
-<tr>
-<td>Quarantaineorder</td>
-<td>Vóór of nadat de quarantaineorder is gerapporteerd als voltooid of beëindigd</td>
-<td>Kwaliteitsorders waarvoor destructieve testen vereist zijn, kunnen niet worden gegenereerd. Er wordt verondersteld dat de functie voor quarantaineorders de rangschikking verwerkt van het materiaal dat wordt vernietigd.</td>
-<td>De vereiste voor een kwaliteitsorder kan betrekking hebben op een bepaalde site, een bepaald artikel, een bepaalde leverancier of een combinatie van deze voorwaarden.</td>
-<td>Een handmatig gegenereerde kwaliteitsorder die naar een quarantaineorder verwijst, kan gebruik maken van informatie in een kwaliteitskoppelingsrecord, zoals het testbemonsteringsplan.</td>
-</tr>
-<tr>
-<td>Verkooporder</td>
-<td>Vóór een gepland orderverzamelproces of pakbonupdate voor de artikelen die worden verzonden</td>
-<td>Bij elke stap</td>
-<td>De vereiste voor een kwaliteitsorder kan betrekking hebben op een bepaalde site, een bepaald artikel, een bepaalde klant of een combinatie van deze voorwaarden.</td>
-<td>Een handmatig gegenereerde kwaliteitsorder die naar een verkooporder verwijst, kan gebruik maken van informatie in een kwaliteitskoppelingsrecord, zoals het testbemonsteringsplan.</td>
-</tr>
-<tr>
-<td>Productieorder</td>
-<td>Vóór of nadat de voltooide hoeveelheid voor de productieorder wordt gerapporteerd</td>
-<td>Nadat de voltooide hoeveelheid voor de productieorder wordt gerapporteerd</td>
-<td>De vereiste voor een kwaliteitsorder kan betrekking hebben op een bepaalde site, een bepaald artikel of een combinatie van deze voorwaarden.</td>
-<td>Een handmatig gegenereerde kwaliteitsorder die naar een productieorder verwijst, kan gebruik maken van informatie in een kwaliteitskoppelingsrecord, zoals het testbemonsteringsplan.</td>
-</tr>
-<tr>
-<td>Productieorder met een routebewerking</td>
-<td>Voor of nadat het rapport voor een bewerking wordt voltooid</td>
-<td>Nadat de rapportageproductie voor de laatste bewerking wordt voltooid</td>
-<td>De vereiste voor een kwaliteitsorder kan betrekking hebben op een bepaalde site, een bepaald artikel, een bepaalde bron voor bedrijfsactiviteiten of een combinatie van deze voorwaarden.</td>
-<td>Een handmatig gegenereerde kwaliteitsorder die naar een routebewerking verwijst, kan gebruikmaken van informatie in een kwaliteitskoppelingsrecord, zoals het testbemonsteringsplan.</td>
-</tr>
-<tr>
-<td>Voorraad</td>
-<td>Er kan niet automatisch een kwaliteitsorder worden gegenereerd voor een transactie in een voorraadjournaal of voor overdrachtordertransacties.</td>
-<td></td>
-<td></td>
-<td>Er dient handmatig een kwaliteitsorder te worden gemaakt voor de voorraadhoeveelheid van een artikel. Fysieke voorhanden voorraad is vereist.</td>
-</tr>
-</tbody>
-</table>
-
-## <a name="quality-order-auto-generation-examples"></a>Voorbeelden van het automatisch genereren van kwaliteitsorders
-
-### <a name="purchasing"></a>Inkoop
-
-Als u in de inkoop het veld **Gebeurtenistype** instelt op **Productontvangstbon** en het veld **Uitvoering** op **Na** op de pagina **Kwaliteitskoppelingen**, krijgt u de volgende resultaten: 
-
-- Als de optie **Per bijgewerkte hoeveelheid** is ingesteld op **Ja**, wordt voor elke ontvangst een kwaliteitsorder gegenereerd voor de inkooporder, op basis van de ontvangen hoeveelheid en instellingen in de artikelbemonstering. Telkens wanneer een hoeveelheid wordt ontvangen op basis van de inkooporder, worden nieuwe kwaliteitsorders gegenereerd op basis van de nieuw ontvangen hoeveelheid.
-- Als de optie **Per bijgewerkte hoeveelheid** is ingesteld op **Nee**, wordt voor de eerste ontvangst een kwaliteitsorder gegenereerd voor de inkooporder, op basis van de ontvangen hoeveelheid. Daarnaast worden een of meer kwaliteitsorders gemaakt op basis van de resterende hoeveelheid, afhankelijk van de traceringsdimensies. Er worden geen kwaliteitsorders gegenereerd voor volgende ontvangsten op de inkooporder.
-
-### <a name="production"></a>Productie
-
-Als u in de productie het veld **Gebeurtenistype** instelt op **Rapporteren als gereed** en het veld **Uitvoering** op **Na** op de pagina **Kwaliteitskoppelingen**, krijgt u de volgende resultaten:
-
-- Als de optie **Per bijgewerkte hoeveelheid** is ingesteld op **Ja**, wordt een kwaliteitsorder gegenereerd op basis van elke gereedgemelde hoeveelheid en instellingen in de artikelbemonstering. Telkens wanneer een hoeveelheid wordt gereedgemeld op basis van de productieorder, worden nieuwe kwaliteitsorders gegenereerd op basis van de nieuw gereedgemelde hoeveelheid. Deze generatielogica is consistent met inkoop.
-- Als de optie **Per bijgewerkte hoeveelheid** is ingesteld op **Nee**, wordt voor de eerste gereedgemelde hoeveelheid een kwaliteitsorder gegenereerd op basis van de gereedgemelde hoeveelheid. Daarnaast worden een of meer kwaliteitsorders gemaakt op basis van de resterende hoeveelheid, afhankelijk van de traceringsdimensies van de artikelbemonstering. Er worden geen kwaliteitsorders gegenereerd voor daaropvolgende gereedgemelde hoeveelheden.
-
-<table>
-<tbody>
-<tr>
-<th>Specificatie van kwaliteit</th>
-<th>Per bijgewerkte hoeveelheid</th>
-<th>Per traceringsdimensie</th>
-<th>Resultaat</th>
-</tr>
-<tr>
-<td>Percentage: 10%</td>
-<td>Ja</td>
-<td>
-<p>Batchnummer: Nee</p>
-<p>Serienummer: Nee</p>
-</td>
-<td>
-<p>Orderhoeveelheid: 100</p>
-<ol>
-<li>Gereedmelden voor 30
-<ul>
-<li>Kwaliteitsorder nr. 1 voor 3 (10% van 30)</li>
-</ul>
-</li>
-<li>Gereedmelden voor 70
-<ul>
-<li>Kwaliteitsorder nr. 2 voor 7 (10% van de resterende orderhoeveelheid, die gelijk is aan 70 in dit geval)</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Vaste hoeveelheid: 1</td>
-<td>Nee</td>
-<td>
-<p>Batchnummer: Nee</p>
-<p>Serienummer: Nee</p>
-</td>
-<td>Orderhoeveelheid: 100
-<ol>
-<li>Gereedmelden voor 30
-<ul>
-<li>Kwaliteitsorder nr. 1 voor 1 (voor de eerste gereedgemelde hoeveelheid, met de vaste waarde 1)</li>
-<li>Kwaliteitsorder nr. 2 voor 1 (voor de resterende hoeveelheid, die nog steeds de vaste waarde 1 heeft)</li>
-</ul>
-</li>
-<li>Gereedmelden voor 10
-<ul>
-<li>Er worden geen kwaliteitsorders gemaakt.</li>
-</ul>
-</li>
-<li>Gereedmelden voor 60
-<ul>
-<li>Er worden geen kwaliteitsorders gemaakt.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-<tr>
-<td>Vaste hoeveelheid: 1</td>
-<td>Ja</td>
-<td>
-<p>Batchnummer: Ja</p>
-<p>Serienummer: Ja</p>
-</td>
-<td>
-<p>Orderhoeveelheid: 10</p>
-<ol>
-<li>Gereedmelden voor 3: 1 voor nr. b1 nr. s1, 1 voor nr. b2 nr. s2 en 1 voor nr. b3 nr. s3
-<ul>
-<li>Kwaliteitsorder nr. 1 voor 1 van batchnr. b1, serienr. s1</li>
-<li>Kwaliteitsorder nr. 2 voor 1 van batchnr. b2, serienr. s2</li>
-<li>Kwaliteitsorder nr. 3 voor 1 van batchnr. b3, serienr. s3</li>
-</ul>
-</li>
-<li>Gereedmelden voor 2: 1 voor nr. b4 nr. s4 en 1 voor nr. b5 nr. s5
-<ul>
-<li>Kwaliteitsorder nr. 4 voor 1 van batchnr. b4, serienr. s4</li>
-<li>Kwaliteitsorder nr. 5 voor 1 van batchnr. b5, serienr. s5</li>
-</ul>
-</li>
-</ol>
-<p><strong>Opmerking:</strong> de batch kan opnieuw worden gebruikt.</p>
-</td>
-</tr>
-<tr>
-<td>Vaste hoeveelheid: 2</td>
-<td>Nee</td>
-<td>
-<p>Batchnummer: Ja</p>
-<p>Serienummer: Ja</p>
-</td>
-<td>
-<p>Orderhoeveelheid: 10</p>
-<ol>
-<li>Gereedmelden voor 4: 1 voor nr. b1 nr. s1, 1 voor nr. b2 nr. s2, 1 voor nr. b3 nr. s3 en 1 voor nr. b4, nr. s4
-<ul>
-<li>Kwaliteitsorder nr. 1 voor 1 van batchnr. b1, serienr. s1</li>
-<li>Kwaliteitsorder nr. 2 voor 1 van batchnr. b2, serienr. s2</li>
-<li>Kwaliteitsorder nr. 3 voor 1 van batchnr. b3, serienr. s3</li>
-<li>Kwaliteitsorder nr. 4 voor 1 van batchnr. b4, serienr. s4</li>
-</ul>
-<ul>
-<li>Kwaliteitsorder nr. 5 voor 2 zonder verwijzing naar een batch- en serienummer</li>
-</ul>
-</li>
-<li>Gereedmelden voor 6: 1 voor nr. b5 nr. s5, 1 voor nr. b6 nr. s6, 1 voor nr. b7 nr. s7, 1 voor nr. b8 nr. s8, 1 voor nr. b9 nr. s9; en 1 voor nr. b10 nr. s10
-<ul>
-<li>Er worden geen kwaliteitsorders gemaakt.</li>
-</ul>
-</li>
-</ol>
-</td>
-</tr>
-</tbody>
-</table>
-
-> [!NOTE]
-> Met de functie *Kwaliteitsbeheer voor magazijnprocessen* voegt u mogelijkheden toe voor het verwerken van kwaliteitsorders voor productie waarvan het **Gebeurtenistype** is ingesteld op *Gereedgemeld* en **Uitvoering** op *Na*, en voor inkopen waarvoor het **Gebeurtenistype** is ingesteld op *Registratie*. Zie [Kwaliteitsbeheer voor magazijnprocessen](quality-management-for-warehouses-processes.md) voor meer informatie.
-
-## <a name="quality-management-pages"></a>Kwaliteitsbeheerpagina's
-<table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Pagina</th>
-<th>Omschrijving</th>
-<th>Voorbeeld</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Kwaliteitskoppelingen</td>
-<td>Zie de vorige secties van dit artikel.</td>
-<td>Met een kwaliteitskoppeling worden de volgende gegevens gedefinieerd voor een gegenereerde kwaliteitsorder:
-<ul>
-<li>De transactiegebeurtenis</li>
-<li>De tests die op de artikelen moeten worden uitgevoerd</li>
-<li>Het acceptabele kwaliteitsniveau</li>
-<li>Het bemonsteringsplan</li>
-</ul>
-U moet een kwaliteitskoppeling opgeven voor elke afwijking in een bedrijfsproces waarvoor automatisch kwaliteitsorders moeten worden gegenereerd. Er kan bijvoorbeeld een kwaliteitsorder worden gegenereerd in de bedrijfsprocessen voor inkooporders, quarantaineorders, verkooporders en productieorders.</td>
-</tr>
-<tr class="even">
-<td>Tests</td>
-<td>Met deze pagina kunt u de afzonderlijke tests definiëren en bekijken aan de hand waarvan wordt bepaald of uw producten voldoen aan de kwaliteitsspecificaties. U kunt een of meer afzonderlijke tests toewijzen aan een testgroep. In dit geval geeft u ook testspecifieke informatie op, zoals de aanvaardbare meetwaarden. Meetwaarden worden gebruikt voor kwantitatieve tests en testvariabelen worden gebruikt voor kwalitatieve tests.
-<ul>
-<li>Een kwantitatieve test is van het testtype <strong>Geheel getal</strong> of <strong>Breuk</strong> en heeft ook een bepaalde maateenheid. Kwaliteitsspecificaties en testresultaten worden uitgedrukt in getallen.</li>
-<li>Het testtype van een kwalitatieve test is <strong>Optie</strong>. Voor kwalitatieve tests is aanvullende informatie nodig over de testvariabele die wordt gemeten en de vaste opties. Kwaliteitsspecificaties en testresultaten worden uitgedrukt in getallen volgens een uitkomst.</li>
-</ul></td>
-<td>Een productiebedrijf voert twee tests uit op ingekocht materiaal: een kwantitatieve test op de kwaliteit van het materiaal en een kwalitatieve test op beschadigde verpakking. Het bedrijf definieert aanvullende gegevens voor de kwalitatieve test om de testvariabele (beschadigde verpakking) en de bijbehorende uitkomst te bepalen. Het bedrijf maakt gebruikt van de pagina <strong>Testgroepen</strong> om de twee tests toe te wijzen aan een testgroep en om specifieke informatie voor de tests op te geven. De testgroep wordt toegewezen aan een kwaliteitsorder, zodat het bedrijf kan rapporteren over de testresultaten van de twee tests.</td>
-</tr>
-<tr class="odd">
-<td>Testgroepen</td>
-<td>Gebruik deze pagina voor het instellen, bewerken en weergeven van testgroepen en de afzonderlijke tests die zijn toegewezen aan een testgroep. In het bovenste deelvenster worden testgroepen weergegeven en in het onderste deelvenster worden de tests weergegeven die aan een geselecteerde testgroep zijn toegewezen. U wijst beleid toe aan een testgroep, zoals een bemonsteringsplan, een acceptabel kwaliteitsniveau en of een destructieve test moet worden uitgevoerd. Wanneer u een afzonderlijke test aan een testgroep toewijst, definieert u extra informatie, zoals de volgorde, datums en geldigheidsdatums. Voor een kwantitatieve test omvatten de gedefinieerde gegevens ook de acceptabele meetwaarden. Voor een kwalitatieve test omvatten de gegevens de testvariabele en standaarduitkomst. De testgroep die aan een kwaliteitsorder is toegewezen, bepaalt de standaardverzameling aan tests die moeten worden uitgevoerd op het opgegeven artikel. U kunt echter ook tests toevoegen aan en verwijderen of wijzigen in de kwaliteitsorder. De testresultaten worden vastgelegd voor elke test in een kwaliteitsorder.</td>
-<td>Een productiebedrijf stelt een testgroep in voor elke wijziging van in de kwaliteitsrichtlijnen van het bedrijf. De verschillende testgroepen vertegenwoordigen de verschillen in de bemonsteringsplannen, de verzameling tests die moet worden uitgevoerd, de AQL en andere factoren. Voor kwantitatieve tests zijn er ook verschillen in de acceptabele meetwaarden. Het bedrijf dwingt zijn kwaliteitsrichtlijnen af door op de pagina <strong>Kwaliteitskoppelingen</strong> een testgroep toe te wijzen aan elke regel voor het automatisch genereren van kwaliteitsorders en een testgroep toe te wijzen aan handmatig gemaakte kwaliteitsorders.</td>
-</tr>
-<tr class="even">
-<td>Artikelkwaliteitsgroepen</td>
-<td>Gebruik deze pagina om de artikelen die aan een kwaliteitsgroep zijn toegewezen of de kwaliteitsgroepen die aan een artikel zijn toegewezen, in te stellen, te bewerken en weer te geven. Een kwaliteitsgroep bevat algemene testvereisten voor artikelen. Wanneer u de testvereisten hebt gedefinieerd op de pagina <strong>Testgroepen</strong>, kunt u de regels voor het automatisch genereren van kwaliteitsorders definiëren. Om het proces te vereenvoudigen, definieert u geen regels voor afzonderlijke artikelen. In plaats daarvan definieert u regels voor een kwaliteitsgroep op de pagina <strong>Kwaliteitskoppelingen</strong>. U kunt de pagina <strong>Artikelkwaliteitsgroepen</strong> ook gebruiken voor een bepaalde kwaliteitsgroep om relevante artikelen aan die groep toe te wijzen. U kunt de pagina <strong>Artikelkwaliteitsgroepen</strong> ook gebruiken voor een bepaald artikel om relevante kwaliteitsgroepen aan dat artikel toe te wijzen.</td>
-<td>Een bedrijf dat artikelen vervaardigt koopt verschillende grondstoffen in waarvoor testvereisten gelden voor een op handen zijnde inspectie. Het bedrijf definieert een kwaliteitsgroep en wijst de artikelnummers die aan de grondstoffen zijn gekoppeld, aan deze groep toe. Later koopt het bedrijf een nieuw grondstoftype in waarop dezelfde testvereisten van toepassing zijn. In plaats van nieuwe testvereisten voor de nieuwe grondstof in te stellen, voegt het bedrijf het artikelnummer voor de nieuwe grondstof aan de bestaande kwaliteitsgroep toe. Hetzelfde productiebedrijf produceert tevens artikelen met dezelfde productietestvereisten en stuurt artikelen met dezelfde vereisten door voor tests die worden uitgevoerd voordat er een verzending plaatsvindt. Het bedrijf definieert twee extra kwaliteitsgroepen en wijst de relevante artikelnummers aan elke groep toe.</td>
-</tr>
-<tr class="odd">
-<td>Testvariabelen</td>
-<td>Gebruik deze pagina om de variabelen te definiëren die aan een kwalitatieve test zijn gekoppeld. Voor elke variabele definieert u genummerde uitkomsten die de mogelijke opties vertegenwoordigen. U definieert tests op de pagina <strong>Tests</strong>. Voor kwalitatieve tests moet u het testtype instellen op <strong>Optie</strong>. Gebruik de pagina <strong>Testgroepen</strong> om een testvariabele aan een afzonderlijke test toe te wijzen.</td>
-<td>Een productiebedrijf dat koekjes produceert, maakt gebruik van een inspectietest voor het eindproduct. Deze inspectietest omvat verschillende variabelen. Een van deze variabelen is Smaak met de mogelijke uitkomsten Goed en Slecht. Een tweede variabele is Kleur met als mogelijke uitkomsten Te donker, Te licht en Correct.</td>
-</tr>
-<tr class="even">
-<td>Uitkomsten van testvariabele</td>
-<td>Gebruik deze pagina om de mogelijke testresultaten in te stellen, te bewerken en weer te geven voor een testvariabele die aan een kwaliteitstest is gekoppeld. Voor elke uitkomst wijst u de status <strong>Gehaald</strong> of <strong>Mislukt</strong> toe. U moet een variabele en de bijbehorende uitkomsten instellen voor elke kwaliteitstest die is ingesteld op de pagina <strong>Tests</strong>. (Voor kwalitatieve tests wordt het testtype ingesteld op <strong>Optie</strong> op de pagina <strong>Tests</strong>.) Gebruik de pagina <strong>Testgroepen</strong> om een testvariabele en de standaarduitkomst toe te wijzen aan een afzonderlijke kwaliteitstest.</td>
-<td>Een productiebedrijf dat koekjes produceert, maakt gebruik van een inspectietest voor het eindproduct. Deze inspectietest omvat verschillende variabelen. Een van deze variabelen is Smaak met de mogelijke uitkomsten Goed en Slecht. Een tweede variabele is Kleur met als mogelijke uitkomsten Te donker, Te licht en Correct. Aan elke uitkomst wordt de status <strong>Gehaald</strong> of <strong>Mislukt</strong> toegewezen. De inspecteur rapporteert gedurende de inspectietest voor elke variabele de testresultaten door een van de uitkomsten te selecteren.</td>
-</tr>
-</tbody>
-</table>
-
-
-
-<a name="additional-resources"></a>Aanvullende resources
---------
-
-[Processen voor kwaliteitsbeheer](quality-management-processes.md)
-
-[Beheer van niet-conformering](enable-nonconformance-management.md)
-
-[Kwaliteitsbeheer voor magazijnprocessen](quality-management-for-warehouses-processes.md)
-
+- [Overzicht van kwaliteitsbeheer](quality-management-processes.md)
+- [Beheer van kwaliteit en niet-conformeringen inschakelen](enable-quality-management.md)
+- [Kwaliteitsbeheer voor magazijnprocessen](quality-management-for-warehouses-processes.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

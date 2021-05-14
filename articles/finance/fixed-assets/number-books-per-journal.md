@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: fb2a25d9e2ffc26f0a37a09cdf3e28a7ca4b84bc
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c56b5a333854c9a95fdc74b8f98a3552ff0f7719
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892402"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944796"
 ---
 # <a name="number-of-books-per-journal"></a>Aantal boeken per journaal
 
@@ -47,9 +47,5 @@ De batchverwerkingstaak sluit afgesloten boeken uit. In een batchtaak voor afsch
 De limiet van het aantal boeken wordt toegepast als er geen dubbele activa-id's in hetzelfde journaal aanwezig zijn. Als de activa-id echter hetzelfde is als de boek-id, kan het aantal boeken per journaal worden overschreden om de activa-id in hetzelfde journaal te houden.
 
 Er zijn bijvoorbeeld 5.001 vaste-activa-id's, drie boeken worden gekoppeld aan elke vaste-activa-id en elk activaboek wordt naar dezelfde boekingslaag geboekt. U voert de afschrijving uit voor drie opeenvolgende maanden, zonder samenvatting.  Het afschrijvingsjournaal wordt gemaakt via een batch taak en er worden zeven journalen gemaakt met 667 vaste-activa-id's en drie boeken voor elke vaste-activa-id. Het resultaat is 2.001 boeken. Over drie maanden zijn er dus 6.003 journaalregels om dezelfde activa-id's in hetzelfde journaal te behouden. Er wordt ook één journaal gemaakt met 332 vaste-activa-id's en drie boeken voor elke vaste-activa-id. Over drie maanden zijn er 2.988 regels.
-
-> [!NOTE] 
-> Als de parameter **Afschrijving samenvatten** is ingeschakeld wanneer u een afschrijvingsvoorstel maakt, heeft de waarde in het veld **Aantal boeken per journaal - Afschrijvingsvoorstel** geen effect. In dit geval is het aantal boeken per journaal 6000. Dit is de intern gedefinieerde limiet.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

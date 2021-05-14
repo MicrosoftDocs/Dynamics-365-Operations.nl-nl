@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5064ea3b9435d0fb9e97c00df6b17a304b8a6a0f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 799619e6fc03174c8ad47512ea839ca7b2aab20e
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827717"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898131"
 ---
 # <a name="accounts-receivable-home-page"></a>Startpagina Klanten
 
@@ -39,61 +39,45 @@ U kunt klantfacturen maken die zijn gebaseerd op verkooporders of pakbonnen. U k
 
 Gebruik Klanten om alle klantfacturen en binnenkomende betalingen van klanten bij te houden. U kunt klantgroepen, klanten, boekingsprofielen, rentenota's, aanmaningen, provisies en parameters voor klanten, toeslagen, leveringen en bestemmingen, wissels en andere typen gegevens voor Klanten instellen. 
 
-:::row:::
-    :::column:::
-        - [Boekhoudingsverdelingen en journaalposten in de subadministratie voor vrije-tekstfacturen](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
-        - [Boekingsprofielen van klant](customer-posting-profiles.md)
-        - [Instelling, autorisatie en registratie van creditcards](credit-card-authorizations.md)
-        - [Een klantfactuur maken](configure-customer-invoices.md)
-        - [Terugkerende facturen instellen en verwerken](set-up-process-recurring-invoices.md)
-        - [Een vrije-tekstfactuur corrigeren](correct-free-text-invoice.md)
-    :::column-end:::
-    :::column:::
-        - [Wissels instellen](set-up-bills-exchange.md)
-        - [Rentepercentages instellen voor een rentecode](set-up-interest-rates-interest-code.md)
-        - [Bijzondere kosten voor rente kwijtschelden, opnieuw invoeren of omkeren](waive-reinstate-reverse-interest-fees.md)
-        - [Overzicht SEPA-incasso](sepa-direct-debit-overview.md)
-        - [Mandaag voor automatische afschrijving instellen voor SEPA](sepa-direct-debit-mandate.md)
-        - [Klanten sluiten](close-accounts-receivable.md)
-    :::column-end:::
-:::row-end:::
-
-
+- [Boekhoudingsverdelingen en journaalposten in de subadministratie voor vrije-tekstfacturen](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+- [Boekingsprofielen van klant](customer-posting-profiles.md)
+- [Instelling, autorisatie en registratie van creditcards](credit-card-authorizations.md)
+- [Een klantfactuur maken](configure-customer-invoices.md)
+- [Terugkerende facturen instellen en verwerken](set-up-process-recurring-invoices.md)
+- [Een vrije-tekstfactuur corrigeren](correct-free-text-invoice.md)
+- [Wissels instellen](set-up-bills-exchange.md)
+- [Rentepercentages instellen voor een rentecode](set-up-interest-rates-interest-code.md)
+- [Bijzondere kosten voor rente kwijtschelden, opnieuw invoeren of omkeren](waive-reinstate-reverse-interest-fees.md)
+- [Overzicht SEPA-incasso](sepa-direct-debit-overview.md)
+- [Mandaag voor automatische afschrijving instellen voor SEPA](sepa-direct-debit-mandate.md)
+- [Klanten sluiten](close-accounts-receivable.md)
+    
 ## <a name="set-up-credit-and-collections"></a>Crediteringen en aanmaningen instellen
 
 De gegevens van klantaanmaningen worden in één centrale weergave beheerd, namelijk de pagina Aanmaningen. Credit- en incassomanagers kunnen deze centrale weergave gebruiken om aanmaningen te beheren. Incassomedewerkers kunnen het incassoproces starten vanuit klantlijsten die worden gegenereerd met de vooraf gedefinieerde incassocriteria, of vanuit de pagina Klanten.
 
-[Crediteringen en aanmaningen in Klanten](collections-credit-accounts-receivable.md)
-
-[Klanten en crediteringen en aanmaningen configureren](accounts-receivables-set-up-overview.md)
-
-[Crediteringen en aanmaningen instellen](set-up-collections.md)
+- [Crediteringen en aanmaningen in Klanten](collections-credit-accounts-receivable.md)
+- [Klanten en crediteringen en aanmaningen configureren](accounts-receivables-set-up-overview.md)
+- [Crediteringen en aanmaningen instellen](set-up-collections.md)
 
 ## <a name="set-up-payments-and-settlements"></a>Betalingen en vereffeningen instellen
 
 Accepteer verschillende betalingstypen van klanten, zoals wissels, contant geld, cheques, creditcards en elektronische betalingen. 
 
-:::row:::
-    :::column:::
-        - [Een klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingperioden omvatten](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-        - [Gecentraliseerde betalingen voor Klanten](centralized-payments-accounts-receivable.md)
-        - [Een gedeeltelijke klantbetaling en de definitieve betaling volledig vereffenen vóór de kortingsdatum](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [Een gedeeltelijke klantenbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
-    :::column-end:::
-    :::column:::
-        - [Een gedeeltelijke klantbetaling vereffenen met kortingen op creditnota's](settle-partial-customer-payment-discounts-credit-notes.md)
-        - [Een gedeeltelijke klantbetaling met meerdere kortingsperioden vereffenen](settle-partial-customer-payment-multiple-discount-periods.md)
-        - [Klanten terugbetalen](reimburse-customers.md)
-        - [Klantbetalingen voor een gedeeltelijk bedrag](customer-payments-partial-amount.md)
-    :::column-end:::
-:::row-end:::
-
-
+- [Een klantbetaling gebruiken om meerdere facturen te vereffenen die verschillende kortingperioden omvatten](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+- [Gecentraliseerde betalingen voor Klanten](centralized-payments-accounts-receivable.md)
+- [Een gedeeltelijke klantbetaling en de definitieve betaling volledig vereffenen vóór de kortingsdatum](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+- [Een gedeeltelijke klantenbetaling uitvoeren vóór de kortingsdatum met een definitieve betaling na de kortingsdatum](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+- [Een gedeeltelijke klantbetaling vereffenen met kortingen op creditnota's](settle-partial-customer-payment-discounts-credit-notes.md)
+- [Een gedeeltelijke klantbetaling met meerdere kortingsperioden vereffenen](settle-partial-customer-payment-multiple-discount-periods.md)
+- [Klanten terugbetalen](reimburse-customers.md)
+- [Klantbetalingen voor een gedeeltelijk bedrag](customer-payments-partial-amount.md)
+   
 ### <a name="additional-resources"></a>Aanvullende bronnen
 
 #### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
 
-Ga naar de [Microsoft Dynamics 365-roadmap](https://go.microsoft.com/fwlink/?linkid=2010158) om te zien welke nieuwe functies er zijn gepland. 
+Ga naar de [Microsoft Dynamics 365-roadmap](/dynamics365/release-plans/) om te zien welke nieuwe functies er zijn gepland. 
 
 #### <a name="blogs"></a>Weblogs
 

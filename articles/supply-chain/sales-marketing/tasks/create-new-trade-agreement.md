@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad1221bb57aea4c93cb60fc29caec2d3b41798f9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 592b3d0265a3be92a5a823c6aabdd40b4e3f0a27
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836393"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919936"
 ---
 # <a name="create-a-new-trade-agreement"></a>Een nieuwe handelsovereenkomst maken
 
@@ -26,8 +26,8 @@ ms.locfileid: "5836393"
 
 Deze procedure laat zien hoe u een handelsovereenkomst maakt waarin u een nieuwe productverkoopprijs registreert die u met een specifieke klant bent overeengekomen. U kunt deze procedure uitvoeren in het demogegevensbedrijf USMF of met uw eigen gegevens. Als u uw eigen gegevens gebruikt, moet u voordat u deze guide start ervoor zorgen dat er een handelsovereenkomstjournaal bestaat met de naam Standaard, waarvan de relatie is ingesteld op "Prijs (verkoop)".
 
-
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>Een nieuw handelsovereenkomstjournaal maken en boeken
+
 1. Ga naar **Navigatievenster > Modules > Verkoop en marketing > Prijzen en kortingen > Handelsovereenkomstjournalen**.
 2. Klik op **Nieuw**.
 3. Klik in het veld **Naam** op de vervolgkeuzeknop om de zoekopdracht te openen.
@@ -37,7 +37,7 @@ Deze procedure laat zien hoe u een handelsovereenkomst maakt waarin u een nieuwe
     
     In dit voorbeeld werkt u de prijs voor een specifieke klant bij, wat betekent dat u mogelijk Tabel moet kiezen. Als u de catalogusprijs van het product zou bijwerken, zou u Alle selecteren, zodat de nieuwe prijs voor alle klanten geldt. Als u onderscheid zou maken tussen verschillende prijzen uit verschillende klantsegmenten, zou u Groep selecteren. Als u Groep wilt selecteren, moet u klantprijsgroepen hebben ingesteld.  
 
-7. Klik in het veld **Rekening selecteren** op de vervolgkeuzeknop om de zoekopdracht te openen.
+7. Klik in het veld **Account selecteren** op de vervolgkeuzeknop om de zoekopdracht te openen.
 8. Zoek en selecteer de gewenste record in de lijst.
 9. Selecteer Tabel in het veld **Artikelcode**.
     
@@ -58,22 +58,26 @@ Deze procedure laat zien hoe u een handelsovereenkomst maakt waarin u een nieuwe
 20. Klik op **OK**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Handelsovereenkomsten voor een product weergeven
+
 1. Ga naar **Navigatievenster > Modules > Productgegevensbeheer > Producten > Vrijgegeven producten**.
 2. Zoek en selecteer in de lijst het product waarvan u de prijs zojuist hebt bijgewerkt.
 3. Klik in het **actievenster** op **Verkopen**.
 4. Klik op **Handelsovereenkomsten weergeven**.
     
-    Controleer de gegevens van de prijshandelsovereenkomst die u zojuist hebt gemaakt.    
+    Controleer de gegevens van de prijshandelsovereenkomst die u zojuist hebt gemaakt.
 
 5. Sluit de pagina.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 ### <a name="whitepaper"></a>Whitepaper
+
 Download de volgende whitepaper (geschreven ter ondersteuning van AX2012, maar is nog steeds van toepassing op Dynamics 365 Supply Chain Management) voor meer informatie.
-- [Handelsovereenkomsten](https://mbs.microsoft.com/files/public/CS/AX2012R3/TradeagreementsinAX.pdf)
+
+- [Handelsovereenkomsten](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
 
 ### <a name="community-blogs"></a>Community-blogs
+
 - [Verkoopprijzen in Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 
 

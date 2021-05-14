@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: a63ff89a6fcbffc57eff14f310a080a35521ef34
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0c29d68b29475c2c7040d06e60f7624c49a42002
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890071"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951927"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>BYOD geplande batchtaken optimaliseren
 
@@ -89,6 +89,12 @@ De functie BYOD heeft de volgende beperkingen:
 **Probleem:** wanneer er voor een entiteit een volledige push wordt uitgevoerd, ziet u een grote set records in BYOD wanneer u een **select**-instructie gebruikt. Wanneer u echter een incrementele push uitvoert, ziet u slechts enkele records in BYOD. Het lijkt alsof de incrementele push alle records heeft verwijderd en alleen de gewijzigde records in BYOD heeft toegevoegd.
 
 **Oplossing:** de SQL-tabellen voor het bijhouden van wijzigingen hebben mogelijk niet de verwachte status. In dit soort gevallen wordt aangeraden om Wijzigingen bijhouden uit te schakelen voor de entiteit en vervolgens weer in te schakelen. Meer informatie vindt u in [Wijzigingen bijhouden voor entiteiten inschakelen](../fin-ops-core/dev-itpro/data-entities/entity-change-track.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
+
+### <a name="staging-tables-arent-clearing"></a>Faseringstabellen worden niet geleegd
+
+**Probleem**: Wanneer u fasering voor het project gebruikt, worden de faseringstabellen niet op de juiste manier geleegd. Er worden steeds meer gegevens aan de tabellen toegevoegd, wat tot prestatieproblemen leidt.
+
+**Oplossing**: In de faseringstabellen wordt zeven dagen historie aangehouden. Historische gegevens ouder dan zeven dagen worden automatisch uit de faseringstabellen gewist door de batchtaak **Exportfasering opschonen**. Als deze taak niet correct wordt uitgevoerd, worden de tabellen niet op de juiste manier leeggemaakt. Als u deze batchtaak opnieuw start, wordt het proces voortgezet om de faseringstabellen automatisch op te schonen.
 
 ## <a name="see-also"></a>Zie ook
 

@@ -1,5 +1,5 @@
 ---
-title: Werkgebied voor leveranciersfactuurregistratie
+title: Werkgebied voor automatisering van leveranciersfacturen
 description: In dit onderwerp wordt uitgelegd hoe u het werkgebied instelt dat is gerelateerd aan leveranciersfacturen en waar de gegevens worden weergegeven die beschikbaar zijn via Microsoft Power BI.
 author: abruer
 ms.date: 09/28/2020
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: bac57056af6d85bb30600e13628279801508741d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7216c2f6e593e3ca11d78903f318d5f217b19674
+ms.sourcegitcommit: 375dd11a9e4076394a33e99f11371ab53e80c337
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837246"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954130"
 ---
-# <a name="vendor-invoice-entry-workspace"></a>Werkgebied voor invoer van leveranciersfacturen
+# <a name="vendor-invoice-automation-workspace"></a>Werkgebied voor automatisering van leveranciersfacturen
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -30,11 +30,11 @@ In dit onderwerp wordt uitgelegd hoe u het werkgebied instelt dat is gerelateerd
 
 ## <a name="overview"></a>Overzicht
 
-In het werkgebied **Leveranciersfactuurregistratie** wordt informatie weergegeven die is gerelateerd aan de verwerking van leveranciersfacturen. Dit werkgebied bevat de weergave **Mijn werk** en de pagina **Analyse - alle bedrijven**. In de weergave **Mijn werk** vindt u overzichtstegels, rasters met leverancierstransacties en gerelateerde leveranciersgegevens. Op de pagina **Analyse - alle bedrijven** worden de mogelijkheden van Power BI gebruikt om visualisaties te tonen die zijn gerelateerd aan leveranciersfacturen.
+In het werkgebied **Automatisering van leveranciersfacturen** wordt informatie weergegeven die is gerelateerd aan de verwerking van leveranciersfacturen. Dit werkgebied bevat de weergave **Mijn werk** en de pagina **Analyse - alle bedrijven**. In de weergave **Mijn werk** vindt u overzichtstegels, rasters met leverancierstransacties en gerelateerde leveranciersgegevens. Op de pagina **Analyse - alle bedrijven** worden de mogelijkheden van Power BI gebruikt om visualisaties te tonen die zijn gerelateerd aan leveranciersfacturen.
 
 ## <a name="set-up-the-workspace-to-show-power-bi-content"></a>Het werkgebied zo instellen dat Power BI-inhoud wordt weergegeven
 
-U moet deze instelling voltooien voordat gegevens in Power BI-visualisaties in het werkgebied **Leveranciersfactuurregistratie** kunnen worden weergegeven.
+U moet deze instelling voltooien voordat gegevens in Power BI-visualisaties in het werkgebied **Automatisering van leveranciersfacturen** kunnen worden weergegeven.
 
 1. Filter in het werkgebied **Functiebeheer** de lijst om de functie **Automatisering van leveranciersfacturen** te vinden.
 3. Selecteer **Nu inschakelen**.
@@ -54,7 +54,7 @@ Als u de informatie wilt weergeven die in het werkgebied wordt weergegeven, moet
 
 ### <a name="company-selection"></a>Bedrijfsselectie
 
-Wanneer de functie **Leveranciersfacturen automatiseren** is ingeschakeld, wordt het veld **Bedrijf** boven aan het werkgebied weergegeven. De selectie in het veld **Bedrijf** is van invloed op alle informatie die in het werkgebied wordt weergegeven. In de weergave wordt standaard informatie weergegeven over het bedrijf waarbij u zich hebt aangemeld. Door een ander bedrijf te selecteren in het veld **Bedrijf** kunt u informatie over dat bedrijf weergeven in het werkgebied. U kunt vervolgens een tegel in het werkgebied selecteren om naar de gerelateerde pagina in het geselecteerde bedrijf te gaan.
+Wanneer de functie **Automatisering van leveranciersfacturen** is ingeschakeld, wordt het veld **Bedrijf** boven aan het werkgebied weergegeven. De selectie in het veld **Bedrijf** is van invloed op alle informatie die in het werkgebied wordt weergegeven. In de weergave wordt standaard informatie weergegeven over het bedrijf waarbij u zich hebt aangemeld. Door een ander bedrijf te selecteren in het veld **Bedrijf** kunt u informatie over dat bedrijf weergeven in het werkgebied. U kunt vervolgens een tegel in het werkgebied selecteren om naar de gerelateerde pagina in het geselecteerde bedrijf te gaan.
 
 ### <a name="summary-tiles"></a>Overzichtstegels
 

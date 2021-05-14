@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3faffad2bff18278a54a26f77c1423f2246d086e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: fd8c306dd6c3aeb7ef41b4eb3f6f8bad040035c2
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907958"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935600"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.17 (april 2021)
 
@@ -35,7 +35,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 Deze versie bevat de volgende functies.  Volg de koppelingen naar het [releaseeplan](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
 
-De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken. Sommige van de functies in de lijst zijn mogelijk nog steeds in preview, hoewel de meeste nu algemeen beschikbaar zijn.
+De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 
 ### <a name="asset-management"></a>Activabeheer
 
@@ -71,13 +71,13 @@ De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-
 
 - [Mogelijkheden voor activabeheer in de interface voor de uitvoering van productielijnen](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Zie [Uitvoeringsinterface voor de werkvloer configureren](../production-control/production-floor-execution-configure.md) voor meer informatie.
 
-- Geïntegreerde nummerreeks voor taak-id's<br> - Voor meer informatie zie 
+- [Productie-uitvoering met schaaleenheden in de cloud](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Zie [Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-manufacturing.md) voor meer informatie.
 
 - [Het standaardreserveringsprincipe voor materialen in productie overschrijven](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Zie [Het standaardreserveringsprincipe voor materialen in de productie overschrijven](../production-control/override-default-reservation-principle.md) voor meer informatie.
 
 - [Opgeslagen weergaven voor productiebeheer](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Zie [Standaard opgeslagen weergaven voor Supply Chain Management](saved-views-scm.md) voor meer informatie.
 
-- [Productie-uitvoering met schaaleenheden in de cloud](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Zie [Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-manufacturing.md) voor meer informatie.
+- Geïntegreerde nummerreeks voor taak-id's<br> - Zie [Geïntegreerde nummerreeks voor taak-id's](../production-control/unified-job-ids.md) voor meer informatie.
 
 ### <a name="planning"></a>Planning
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: shajain
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-11-03
-ms.openlocfilehash: 364cc5adf0358ffa952750149ad31d62cbd35e87
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fa93b1262049d80148ff23b3d7223ec0f6c2fe68
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751429"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941161"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>De Dynamics 365 Commerce-prijsengine gebruiken met Dynamics 365 Sales
 
@@ -31,7 +31,7 @@ In dit onderwerp wordt beschreven hoe u de prijsengine in Microsoft Dynamics 365
 
 De Dynamics 365 Commerce-prijsengine ondersteunt de meeste B2C-prijsscenario's (Business-to-consumer), zoals prijzen op winkelniveau, prijzen op basis van relatie en loyaliteit, combinatiekortingen, kwantumkortingen en drempelkortingen. De prijsengine gebruikt complexe regels om de beste prijs voor een bepaalde offerte of order te bepalen.
 
-Wanneer u [twee keer wegschrijven](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview) gebruikt, hebt u drie opties voor uw prijsbehoeften. U kunt de statische prijzen gebruiken die afkomstig zijn van de prijslijst in Dynamics 365 Sales, de prijsengine in Dynamics 365 Supply Chain Management of de prijsengine in Dynamics 365 Commerce. Onder deze opties is de Commerce-prijsengine het meest geschikt voor B2C-scenario's.
+Wanneer u [twee keer wegschrijven](./dual-write-overview.md) gebruikt, hebt u drie opties voor uw prijsbehoeften. U kunt de statische prijzen gebruiken die afkomstig zijn van de prijslijst in Dynamics 365 Sales, de prijsengine in Dynamics 365 Supply Chain Management of de prijsengine in Dynamics 365 Commerce. Onder deze opties is de Commerce-prijsengine het meest geschikt voor B2C-scenario's.
 
 ## <a name="use-the-commerce-pricing-engine-in-sales"></a>De Commerce-prijsengine gebruiken in Sales
 
@@ -42,7 +42,7 @@ Wanneer gebruikers een offerte in Sales starten, kopieert het raamwerk voor twee
 
 ## <a name="prerequisites"></a>Vereisten
 
-- Voordat u de Commerce-prijsengine in Sales kunt gebruiken, moet u de stappen in [Prospect naar contant geld in twee keer wegschrijven](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/) volgen.
+- Voordat u de Commerce-prijsengine in Sales kunt gebruiken, moet u de stappen in [Prospect naar contant geld in twee keer wegschrijven](./dual-write-prospect-to-cash.md) volgen.
 - U moet evaluatie van handelsovereenkomst uitschakelen door de volgende stappen uit te voeren:
 
     1. Ga in uw Commerce-omgeving naar **Klanten \> Instellen \> Parameters van module Klanten**.
@@ -50,7 +50,7 @@ Wanneer gebruikers een offerte in Sales starten, kopieert het raamwerk voor twee
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Prospect naar contant geld in twee keer wegschrijven](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+[Prospect naar contant geld in twee keer wegschrijven](./dual-write-prospect-to-cash.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

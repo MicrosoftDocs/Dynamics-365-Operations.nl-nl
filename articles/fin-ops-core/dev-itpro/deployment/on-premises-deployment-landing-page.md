@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 4de916fcd09b4eaa041dea0a1d1f843ce0e8f10a
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749300"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5940956"
 ---
 # <a name="on-premises-deployment-home-page"></a>Startpagina van On-premises implementatie
 
@@ -56,10 +56,10 @@ U kunt Dynamics 365 Finance and Operations (on-premises) implementeren. Wanneer 
 - [Hetzelfde AD FS-exemplaar opnieuw gebruiken voor meerdere omgevingen](onprem-reuseadfs.md)
 
 ## <a name="commerce"></a>Handel
-- [Functies in Commerce voor on-premises implementaties](../../../retail/retail-onprem.md)
+- [Functies in Commerce voor on-premises implementaties](../../../commerce/retail-onprem.md)
 - [Installatiestappen voor onderdelen van detailhandelskanaal in een on-premises omgeving](deploy-retail-onprem.md)
-- [Modern POS (MPOS) configureren, installeren en activeren](../../../retail/retail-modern-pos-device-activation.md)
-- [Commerce Scale Unit configureren en installeren](../../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Modern POS (MPOS) configureren, installeren en activeren](../../../commerce/retail-modern-pos-device-activation.md)
+- [Commerce Scale Unit configureren en installeren](../../../commerce/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
 ## <a name="upgrade"></a>Bijwerken
 - [Intern upgradeproces voor on-premises omgevingen](../migration-upgrade/on-prem-upgrade.md)

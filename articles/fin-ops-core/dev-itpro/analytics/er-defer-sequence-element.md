@@ -2,7 +2,7 @@
 title: De uitvoering van reekselementen in ER-indelingen uitstellen
 description: In dit onderwerp wordt uitgelegd hoe u de uitvoering van een reekselement uitstelt in een ER-indeling (elektronische rapportage).
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: cdcbc828fadce641cbee2cc6135be819a03275c9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a7904924d1c2830287e26eb9fb71bd9a03f210d9
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894095"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944504"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>De uitvoering van reekselementen in ER-indelingen uitstellen
 
@@ -57,14 +57,14 @@ Als u het voorbeeld nog niet hebt ingevuld in het onderwerp [De uitvoering van r
 
 | Omschrijving inhoud            | Bestandsnaam |
 |--------------------------------|-----------|
-| Configuratie van model voor ER-gegevens    | [Model voor het leren van uitgestelde elementen.versie.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Configuratie van ER-modeltoewijzing | [Toewijzing voor het leren van uitgestelde elementen.versie.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuratie van model voor ER-gegevens    | [Model voor het leren van uitgestelde elementen.versie.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| Configuratie van ER-modeltoewijzing | [Toewijzing voor het leren van uitgestelde elementen.versie.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Voordat u begint, moet u ook de volgende configuratie van de voorbeeld-ER-oplossing downloaden en opslaan.
 
 | Omschrijving inhoud     |Bestandsnaam |
 |-------------------------|----------|
-| ER-indelingsconfiguratie | [Indeling voor het leren van uitgestelde reeksen.versie.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| ER-indelingsconfiguratie | [Indeling voor het leren van uitgestelde reeksen.versie.1.xml](https://download.microsoft.com/download/0/f/5/0f55c341-8285-4d92-a46d-475d9a010927/Formattolearndeferredsequences.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>De voorbeeld-ER-configuraties importeren
 
@@ -169,7 +169,7 @@ Controleer de instellingen van de ER-modeltoewijzingscomponent die is geconfigur
 1. Selecteer **Uitvoeren** op de pagina **Indelingsontwerper**.
 2. Download het bestand dat door de webbrowser wordt aangeboden en open het bestand ter controle.
 
-    ![Gedownload bestand](./media/ER-DeferredSequence-Run.png)
+    ![Gedownload voorbeeldbestand met rapport](./media/ER-DeferredSequence-Run.png)
 
 U ziet dat overzichtsregel 22 de som van de belastingswaarden voor de verwerkte transacties weergeeft. Omdat de indeling is geconfigureerd voor het gebruik van de binding **model.Gegevens.Samenvatting.Totaal** om dit totaal te retourneren, wordt de som berekend door de **TotalSum**-aggregatie van de gegevensbron **Gegroepeerd** van het type *GroupBy* aan te roepen die de modeltoewijzing gebruikt. Voor het berekenen van deze aggregatie doorloopt de modeltoewijzing bij herhaling alle transacties die in gegevensbron **Gefilterd** zijn geselecteerd. Door de uitvoeringstijden van de regels 21 en 22 te vergelijken kunt u vaststellen dat berekening van de som 10 milliseconden (ms) duurde. Door de uitvoeringstijden van de regels 2 en 21 te vergelijken kunt u vaststellen dat het genereren van alle transactieregels 7 milliseconden (ms) duurde. Daarom was er in totaal 17 ms nodig.
 
@@ -202,7 +202,7 @@ Als het volume van transacties veel groter is dan het volume in het huidige voor
 12. Selecteer **Opslaan** en vervolgens **Uitvoeren**.
 13. Download en controleer het bestand dat door de webbrowser wordt aangeboden.
 
-    ![Gedownload bestand](./media/ER-DeferredSequence-Run1.png)
+    ![Gedownload bestand - Opgetelde btw-waarden](./media/ER-DeferredSequence-Run1.png)
 
     Regel 21 bevat het lopende totaal van belastingswaarden die voor alle verwerkte transacties worden berekend door de gegenereerde uitvoer als gegevensbron te gebruiken. Deze gegevensbron begint aan het begin van het rapport en gaat door tot met de laatste belastingstransactie. Regel 22 bevat de som van de belastingswaarden voor alle verwerkte transacties die worden berekend in de modeltoewijzing met behulp van de gegevensbron van het type *GroupBy*. U ziet dat deze waarden gelijk zijn. Daarom kan de op uitvoer gebaseerde optelling worden gebruikt in plaats van **GroupBy**. Door de uitvoeringstijden van de regels 2 en 21 te vergelijken kunt u vaststellen dat het genereren van de transactieregels en het totaliseren 9 milliseconden (ms) duurde. Daarom is de aangepaste indeling ongeveer twee keer sneller dan de oorspronkelijke indeling voor wat betreft het genereren van gedetailleerde regels en het totaliseren van belastingswaarden.
 
@@ -211,7 +211,7 @@ Als het volume van transacties veel groter is dan het volume in het huidige voor
 16. Selecteer **Opslaan** en vervolgens **Uitvoeren**.
 17. Download en controleer het bestand dat door de webbrowser wordt aangeboden.
 
-    ![Gedownload bestand](./media/ER-DeferredSequence-Run2.png)
+    ![Gedownload bestand met bewerkte formule](./media/ER-DeferredSequence-Run2.png)
 
     Zoals u ziet, is het lopende totaal van de belastingswaarden op de laatste transactiegegevensregel gelijk aan de som op de overzichtsregel.
 
@@ -224,7 +224,7 @@ Als u bijvoorbeeld de som van de belastingswaarden in de koptekst van uw rapport
 3. Selecteer **Opslaan** en vervolgens **Uitvoeren**.
 4. Download en controleer het bestand dat door de webbrowser wordt aangeboden.
 
-    ![Gedownload bestand](./media/ER-DeferredSequence-Run3.png)
+    ![Gedownload bestand voor optellen in rapportkoptekst](./media/ER-DeferredSequence-Run3.png)
 
     De som van de belastingswaarden op de overzichtsregel 2 is nu gelijk aan 0 (nul), omdat dit totaal nu wordt berekend op basis van de gegenereerde uitvoer. Wanneer regel 2 wordt gegenereerd, bevat de gegenereerde uitvoer nog geen regels met transactiedetails. U kunt deze indeling zo configureren dat de uitvoering van het reekselement **Rapport\\Regels\\Samenvatting** wordt uitgevoerd totdat het reekselement **Rapport\\Regels\\Record** voor alle belastingstransacties is uitgevoerd.
 
@@ -238,7 +238,7 @@ Als u bijvoorbeeld de som van de belastingswaarden in de koptekst van uw rapport
 3. Selecteer **Opslaan** en vervolgens **Uitvoeren**.
 4. Download en controleer het bestand dat door de webbrowser wordt aangeboden.
 
-    ![Gedownload bestand](./media/ER-DeferredSequence-Run4.png)
+    ![Gedownload bestand - uitgestelde uitvoering](./media/ER-DeferredSequence-Run4.png)
 
     Het reekselement **Rapport\\Regels\\Overzicht** wordt nu alleen uitgevoerd nadat alle andere artikelen die zijn genest onder het bovenliggend element, **Rapport\\Regels**, zijn uitgevoerd. Daarom wordt het uitgevoerd nadat het reekselement **Rapport\\Regels\\Record** is uitgevoerd voor alle belastingstransacties van de gegevensbron **model.Gegevens.Lijst**. De uitvoeringstijden van de regels 1, 2 en 3 en van de laatste regel 22 geven dit feit weer.
 

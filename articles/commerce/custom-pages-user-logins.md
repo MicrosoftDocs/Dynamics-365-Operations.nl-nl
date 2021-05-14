@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0318814f421ab862559965bb4b003308d6279812
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799440"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936775"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Aangepaste pagina's voor gebruikersaanmeldingen instellen
 
@@ -32,7 +32,7 @@ Als u aangepaste pagina's wilt gebruiken die zijn gemaakt in Dynamics 365 Commer
 U kunt de aangepaste Commerce-pagina's maken met de modules voor registreren, aanmelden, accountprofiel bewerken of wachtwoord opnieuw instellen, of met algemene AAD-modules. De pagina-URL's die voor deze aangepaste pagina's worden gepubliceerd, moeten vervolgens worden opgenomen in de Azure AD B2C-beleidsconfiguraties in de Azure-portal.
 
 > [!WARNING] 
-> Azure AD B2C stelt voor 1 augustus 2021 oude (legacy) gebruikersstromen buiten gebruik. Daarom moet u de migratie van uw gebruikersstromen naar de nieuwe aanbevolen versie gaan plannen. De nieuwe versie biedt functiepariteit en nieuwe functies. Zie [Gebruikersstromen in Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview) voor meer informatie.
+> Azure AD B2C stelt voor 1 augustus 2021 oude (legacy) gebruikersstromen buiten gebruik. Daarom moet u de migratie van uw gebruikersstromen naar de nieuwe aanbevolen versie gaan plannen. De nieuwe versie biedt functiepariteit en nieuwe functies. Zie [Gebruikersstromen in Azure Active Directory B2C](/azure/active-directory-b2c/user-flow-overview) voor meer informatie.
 
 >De modulebibliotheek voor Commerce versie 10.0.15 of hoger moet worden gebruikt met de aanbevolen B2C-gebruikersstromen. De standaardpagina's voor gebruikersbeleid die in Azure AD B2C worden aangeboden, kunnen ook worden gebruikt en toegevoegd aan achtergrondafbeeldingen, logo's en achtergrondkleurwijzigingen met betrekking tot het huismerk van bedrijven. Hoewel beperkter in ontwerpmogelijkheden, bieden de standaard gebruikersbeleidspagina's Azure AD B2C-beleidsfunctionaliteit zonder speciale aangepaste pagina's te maken en te configureren. 
 

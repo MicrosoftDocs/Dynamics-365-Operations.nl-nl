@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 94372960c7478ec07540edb6bce9ca8bc68ec39f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 799e7bce1ce7fd2d912b2ff5f97da61123f7293a
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825489"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920626"
 ---
 # <a name="transfer-data-for-product-models"></a>Gegevens voor productmodellen overboeken
 
@@ -26,14 +26,12 @@ ms.locfileid: "5825489"
 
 Het exporteren van gegevens voor een productconfiguratiemodel vereist dat u ten minste één productmodel beschikbaar hebt. Deze procedure gebruikt het model Geavanceerde luidspreker in het demobedrijf USMF om u te tonen hoe u gegevens voor dit model exporteert.
 
-1. Klik op Definitie van productvariantmodel.
-2. Klik op Productconfiguratiemodellen.
-3. Zoek en selecteer de gewenste record in de lijst.
+1. Ga naar **Productgegevensbeheer \> Producten \> Productconfiguratiemodellen**.
+1. Zoek en selecteer de gewenste record in de lijst.
     * Selecteer het model Geavanceerde luidspreker voor deze procedure.  
-4. Klik in het actievenster op Model.
-5. Klik op Basisproduct exporteren.
+1. Selecteer **Model** in het actievenster.
+1. Selecteer **Productmodel exporteren**.
     * Het downloadgedrag verschilt van browser tot browser, afhankelijk van hoe de beveiligingsinstellingen zijn ingesteld.  
-
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

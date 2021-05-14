@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: a091e059d4528c356a5038c750cac3a3f31a7edb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3758ff51de8217a209b40d7dd461e42ea9632f0a
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799638"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936877"
 ---
 # <a name="call-center-catalogs"></a>Callcentercatalogi
 
@@ -39,7 +39,7 @@ Direct-to-consumer marketingbedrijven zijn zeer gericht op het bijhouden van het
 
 Ga naar **Retail en Commerce** \> **Catalogi en assortimenten** \> **Alle catalogussen** voor het configureren van uw catalogus.
 
-Wanneer u een nieuwe catalogus maakt, moet u eerst de catalogus koppelen aan een of meer kanalen. Dit gebeurt op het sneltabblad **Commerce-kanalen** op het formulier **Catalogusinstelling**. Klik op **Toevoegen** en selecteer een of meer kanalen. Alleen artikelen die zijn gekoppeld aan uw geselecteerde kanaal [assortimenten](https://docs.microsoft.com/dynamics365/unified-operations/retail/assortments) kunnen worden gebruikt bij het maken van de catalogus.
+Wanneer u een nieuwe catalogus maakt, moet u eerst de catalogus koppelen aan een of meer kanalen. Dit gebeurt op het sneltabblad **Commerce-kanalen** op het formulier **Catalogusinstelling**. Klik op **Toevoegen** en selecteer een of meer kanalen. Alleen artikelen die zijn gekoppeld aan uw geselecteerde kanaal [assortimenten](/dynamics365/unified-operations/retail/assortments) kunnen worden gebruikt bij het maken van de catalogus.
 
 Om producten toe te voegen aan een catalogus moet een navigatiehiërarchie worden gekozen. De navigatiehiërarchie ondersteunt de categoriestructuur van de catalogus. U moet kiezen uit een van de navigatiehiërarchieën die zijn gekoppeld aan de kanalen die zijn geselecteerd op het sneltabblad **Commerce-kanalen** van de pagina **Catalogus**. Als een navigatiekanaal niet eerder was gekoppeld aan een kanaal, gaat u naar **Retail en Commerce** \> **Afzetkanaalinstellingen** \> **Afzetkanaalcategorieën en productkenmerken** om een standaard navigatiehiërarchie te koppelen aan elk van uw kanalen.
 

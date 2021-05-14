@@ -2,7 +2,7 @@
 title: Financiële analyse
 description: Financiële analyse gebruikt Microsoft Power BI om financiële KPI's, grafieken en financiële overzichten samen te voegen.
 author: kweekley
-ms.date: 04/09/2021
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 71fd1ad15320fda162a289e9c5741aec2ce76778
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5654084232c2988ed844862b977945c04dbb0833
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894903"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935878"
 ---
 # <a name="financial-analysis"></a>Financiële analyse
 
@@ -66,7 +66,6 @@ U moet de volgende entiteiten bijwerken om gegevens te zien in de werkruimte **F
 
 - Transactiegegevens financiële rapportage versie 3 
 - Crediteringen en aanmaningen V2
-- CustCollectionsBIMeasurements
 - LedgerCovLiquidityMeasurement
 - Inkoop-cube
 - Verkoop-cube

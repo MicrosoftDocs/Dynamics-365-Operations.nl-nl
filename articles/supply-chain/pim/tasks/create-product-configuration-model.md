@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b87b411ed24f89a674ec3fb7ac44d3ab1d8a720a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2cb9e33d7bab6ca9cd378ec40baa796d1a933ece
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819981"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921360"
 ---
 # <a name="create-a-product-configuration-model"></a>Een productconfiguratiemodel maken
 
@@ -28,57 +28,59 @@ Deze procedure toont aan hoe u een productconfiguratiemodel maakt en basisinform
 
 
 ## <a name="create-a-product-model"></a>Een productmodel maken
-1. Klik op Definitie van productvariantmodel.
-2. Klik op Productconfiguratiemodellen.
-3. Klik op Nieuw.
-4. Typ een waarde in het veld Naam.
-5. Typ een waarde in het veld Omschrijving.
-6. Selecteer een optie in het veld Oplossingsstrategie.
+
+1. Ga naar **Productgegevensbeheer \> Producten \> Productconfiguratiemodellen**.
+1. Selecteer **Nieuw**.
+1. Typ een waarde in het veld **Naam**.
+1. Typ een waarde in het veld **Beschrijving**.
+1. Selecteer een optie in het veld **Oplossingsstrategie**.
     * De oplossingsstrategie bepaalt hoe de beperkingen in een op beperkingen gebaseerd productconfiguratiemodel worden verwerkt. Deze selectie kan een invloed hebben op de prestaties van het productconfiguratiemodel.  
-7. Typ een waarde in het veld Naam.
+1. Typ een waarde in het veld **Naam**.
     * Het hoofdcomponent vertegenwoordigt het productconfiguratiemodel, maar kan ook in andere productmodellen worden gebruikt.  
-8. Klik op OK.
-9. Selecteer een optie in het veld Configuraties opnieuw gebruiken.
+1. Selecteer **OK**.
+1. Selecteer een optie in het veld **Configuraties opnieuw gebruiken**.
     * Als de parameter Configuraties opnieuw gebruiken op Ja is ingesteld, controleert het systeem identieke configuraties na elke sessie en elk hergebruik van de configuratie als een exacte overeenkomst wordt gevonden.  
 
 ## <a name="add-attributes"></a>Kenmerken toevoegen
-1. Vouw de sectie Kenmerken uit.
-2. Klik op Toevoegen.
+
+1. Vouw de sectie **Kenmerken** uit.
+2. Selecteer **Toevoegen**.
 3. Markeer in de lijst de geselecteerde rij.
-4. Typ een waarde in het veld Naam.
-5. Typ een waarde in het veld Oplossingsnaam.
+4. Typ een waarde in het veld **Naam**.
+5. Typ een waarde in het veld **Oplossingsnaam**.
     * De oplossingsnaam wordt gebruikt door oplosser van beperkingen van de productconfiguratie. Deze mag geen spaties of speciale tekens bevatten, behalve _ (onderstrepingsteken).  
-6. Typ een waarde in het veld Omschrijving.
+6. Typ een waarde in het veld **Beschrijving**.
     * De omschrijvingstekst wordt aan de gebruiker van de configuratie weergegeven en kan daarom fungeren als hulp bij het selecteren van de juiste kenmerkwaarde.  
-7. Typ of selecteer een waarde in het veld Kenmerktype.
+7. Typ of selecteer een waarde in het veld **Kenmerktype**.
     * Het kenmerktype bepaalt welke waarden beschikbaar zijn voor het kenmerk.  
-8. Schakel het selectievakje Opnemen in hergebruik in.
+8. Schakel het selectievakje **Opnemen in hergebruik** in.
     * Deze optie is alleen beschikbaar als de optie Configuraties opnieuw gebruiken is geselecteerd. Als het selectievakje van het kenmerk wordt ingeschakeld, wordt met dit kenmerk rekening gehouden wanneer het systeem naar een exacte overeenkomst zoekt.  
 
 ## <a name="add-subcomponents"></a>Subonderdelen toevoegen
-1. Vouw de sectie Subonderdelen uit.
-2. Klik op Toevoegen.
+
+1. Vouw de sectie **Subonderdelen** uit.
+2. Selecteer **Toevoegen**.
 3. Markeer in de lijst de geselecteerde rij.
-4. Typ een waarde in het veld Naam.
-5. Typ een waarde in het veld Oplossingsnaam.
-6. Typ een waarde in het veld Omschrijving.
-7. Typ of selecteer een waarde in het veld Onderdeel.
+4. Typ een waarde in het veld **Naam**.
+5. Typ een waarde in het veld **Oplossingsnaam**.
+6. Typ een waarde in het veld **Beschrijving**.
+7. Typ of selecteer een waarde in het veld **Onderdeel**.
     * Elke subonderdeel moet naar een componentdefinitie verwijzen. Dit ontwerp ondersteunt herbruikbare onderdelen en zorgt ervoor dat een onderdeel, als het is gedefinieerd, in veel productmodellen kan worden gebruikt.  
-8. Klik op Opslaan.
-9. Klik op Regeldetails van stuklijst.
+8. Selecteer **Opslaan**.
+9. Selecteer **Details van stuklijstregel**.
     * Met het formulier Regeldetails van stuklijst kan de gebruiker de vereiste eigenschappen voor het subonderdeel selecteren. Elke eigenschap kan een vaste waarde krijgen of aan een kenmerk worden toegewezen. De toewijzing aan een kenmerk zorgt ervoor dat de regeleigenschap van de stuklijst verschillende waarden krijgt, afhankelijk van de geselecteerde configuratie.  
-10. Typ of selecteer een waarde in het veld Artikelnummer.
+10. Typ of selecteer een waarde in het veld **Artikelnummer**.
     * Elke subonderdeel vertegenwoordigt een configureerbaar productmodel met op beperkingen gebaseerde configuratietechnologie. De verwijzing wordt gemaakt door het artikelnummer.  
-11. Schakel het selectievakje Instellen in.
-12. Selecteer Ja in het veld Berekening.
+11. Schakel het selectievakje **Instellen** in.
+12. Selecteer **Ja** in het veld **Berekening**.
     * Het instellen van de berekeningsoptie zorgt ervoor dat het product wordt opgenomen bij de uitvoering van een kostenberekening voor het product.  
-13. Klik op het tabblad Instellingen.
-14. Schakel het selectievakje Instellen in.
-15. Voer in het veld Hoeveelheid een getal in.
+13. Selecteer het tabblad **Instellingen**.
+14. Schakel het selectievakje **Instellen** in.
+15. Voer een getal in het veld **Hoeveelheid** in.
     * Het hoeveelheidsveld bepaalt hoeveel van dit product wordt verbruikt in het geconfigureerde product.  
-16. Schakel het selectievakje Instellen in.
-17. Voer in het veld Per reeks een getal in.
-18. Klik op OK.
+16. Schakel het selectievakje **Instellen** in.
+17. Voer in het veld **Per reeks** een getal in.
+18. Selecteer **OK**.
 
 
 

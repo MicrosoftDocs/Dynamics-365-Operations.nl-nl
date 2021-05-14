@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 54929f924bd9c2b59dec453cf580e0b2bc149d38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 31798508e4cc71e31a30dc91acebfdde8226b16c
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799464"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5937057"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>De sorteervolgorde voor entiteiten voor merchandising wijzigen
 
@@ -84,7 +84,7 @@ De weergavevolgorde voor de kanaalnavigatiehiërarchie wordt weerspiegeld in HQ,
 ![POS met aangepaste gesorteerde categorieën](./media/POSChannelCategoriesCustomSorted.png)
 
 > [!NOTE]
-> De functie voor aangepast sorteren is standaard uitgeschakeld. Zie [Functiebeheer](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview) voor meer informatie over het inschakelen van deze functie en andere functies.
+> De functie voor aangepast sorteren is standaard uitgeschakeld. Zie [Functiebeheer](/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview) voor meer informatie over het inschakelen van deze functie en andere functies.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

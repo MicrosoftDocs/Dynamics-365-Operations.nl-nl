@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f54d0ea87d8ce5ffdf5600995004e558ddd86fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c30c520e7265c2676937f5191844f6789c364e6
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833252"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921236"
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a>Op kenmerken gebaseerde prijzen instellen voor configureerbare producten
 
@@ -28,17 +28,18 @@ In dit onderwerp wordt uitgelegd hoe u op kenmerken gebaseerde prijsdetails inst
 
 
 ## <a name="create-a-new-price-model"></a>Eem nieuw prijsmodel maken
-1. Selecteer **Definitie van productvariantmodel** op de startpagina.
-2. Selecteer **Productconfiguratiemodellen** in de sectie **koppelingen**.
-3. In de lijst selecteert u de regel **Geavanceerde luidspreker**, maar selecteert u niet de koppeling voor de naam.
-4. Selecteer **Model** in het actievenster.
-5. Selecteer **Prijsmodellen**.
-6. Selecteer **Nieuw**.
-7. Typ een waarde in het veld **Naam prijsmodel**. Gebruik een naam waaraan u het model gemakkelijk kunt herkennen.  
-8. Typ een waarde in het veld **Beschrijving**.
-9. Selecteer **Opslaan**.
+
+1. Ga naar **Productgegevensbeheer \> Producten \> Productconfiguratiemodellen**.
+1. In de lijst selecteert u de regel **Geavanceerde luidspreker**, maar selecteert u niet de koppeling voor de naam.
+1. Selecteer **Model** in het actievenster.
+1. Selecteer **Prijsmodellen**.
+1. Selecteer **Nieuw**.
+1. Typ een waarde in het veld **Naam prijsmodel**. Gebruik een naam waaraan u het model gemakkelijk kunt herkennen.  
+1. Typ een waarde in het veld **Beschrijving**.
+1. Selecteer **Opslaan**.
 
 ## <a name="add-price-elements"></a>Prijselementen toevoegen
+
 1. Selecteer **Bewerken**. Elke component in een productmodel kan een element van de basisprijs en elk gewenst aantal prijsexpressieregels hebben. U kunt ook prijzen in andere valuta toevoegen.  
 2. Typ een waarde in het veld **Basisprijsexpressie**. Typ bijvoorbeeld 100. Een expressie van de basisprijs kan een numerieke waarde zijn of bestaan uit een rekenkundige berekening die een of meer kenmerken bevat.  
 3. Selecteer **Toevoegen**.

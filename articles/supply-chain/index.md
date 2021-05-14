@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d82f31212245044f27558c3cdea78fbcf4988afb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e8b92dc975fdae74e134d86169a2b9ceffe63b62
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829951"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909786"
 ---
 # <a name="supply-chain-management-home-page"></a>Startpagina Supply Chain Management
 
@@ -94,16 +94,16 @@ In de volgende opnamen van technische conferenties worden de functies voor Suppl
 
 ## <a name="blogs"></a>Weblogs
 
-Er zijn veel onderwerpen over productie en Supply Chain Management beschikbaar in de blog van het [R&D-team voor Dynamics AX Manufacturing](https://blogs.msdn.microsoft.com/axmfg/) en de [blog van het R&D-team voor Supply Chain Management in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). De meeste hiervan zijn geschreven voor de vorige versie, maar dezelfde concepten zijn nog steeds van toepassing en de procedures komen overeen in de huidige versie.
+Er zijn veel onderwerpen over productie en Supply Chain Management beschikbaar in de blog van het [R&D-team voor Dynamics AX Manufacturing](/archive/blogs/axmfg/) en de [blog van het R&D-team voor Supply Chain Management in Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). De meeste hiervan zijn geschreven voor de vorige versie, maar dezelfde concepten zijn nog steeds van toepassing en de procedures komen overeen in de huidige versie.
 
 ## <a name="white-papers"></a>Technische documenten
 
-- [Lean Manufacturing: Capable to Promise en planning van kanbantaken](https://docs.microsoft.com/dynamics/s-e/)
+- [Lean Manufacturing: Capable to Promise en planning van kanbantaken](/dynamics/s-e/)
 - [Stuklijstberekening aan de hand van kostprijsberekening](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>eLearning-cursussen
 
-Zie [Dynamics 365 Supply Chain Management op Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path) voor informatie over online cursussen en training.
+Zie [Dynamics 365 Supply Chain Management op Microsoft Learn](/learn/browse/?products=dynamics-scm&resource_type=learning+path) voor informatie over online cursussen en training.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

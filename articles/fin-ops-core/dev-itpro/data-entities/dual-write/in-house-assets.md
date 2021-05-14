@@ -1,6 +1,6 @@
 ---
 title: Interne activa voor onderhoudsbeurten
-description: In dit onderwerp wordt beschreven hoe u Microsoft Dynamics 365 Field Service kunt gebruiken om zowel klantactiva als interne activa kunt onderhouden.
+description: In dit onderwerp wordt beschreven hoe u met Microsoft Dynamics 365 Field Service zowel klantactiva als in-house activa kunt onderhouden.
 author: RamaKrishnamoorthy
 ms.date: 01/27/2020
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 040f9d26a137ebce1edc6adf28ff226b3a81e1ae
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ebda6b5679ec601513fb6d046725b396e69fe0f3
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748588"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941409"
 ---
 # <a name="in-house-assets-for-servicing"></a>Interne activa voor onderhoudsbeurten
 
@@ -31,7 +31,7 @@ ms.locfileid: "5748588"
 
 Microsoft Dynamics 365 Field Service is ontworpen voor het onderhouden van klantactiva. Activabeheer voor Dynamics 365 Supply Chain Management is ontworpen om interne activa te onderhouden. Dankzij de integratie van deze twee apps kunt u Field Service gebruiken om zowel klantactiva als interne activa te onderhouden. U kunt de activa ook classificeren, op basis van functionele locatie of hiërarchie, en het onderhoud op een gedetailleerd niveau bijhouden.
 
-Zie [Dynamics 365 Field Service en Supply Chain Management integreren](https://docs.microsoft.com/dynamics365/field-service/supply-chain-field-service-integration) voor meer informatie.
+Zie [Dynamics 365 Field Service en Supply Chain Management integreren](/dynamics365/field-service/supply-chain-field-service-integration) voor meer informatie.
 
 ## <a name="templates"></a>Sjablonen
 
