@@ -2,7 +2,7 @@
 title: Meertalige rapporten ontwerpen in Elektronische rapportage
 description: In dit onderwerp wordt uitgelegd hoe u labels voor elektronische rapporten (ER) kunt gebruiken om meertalige rapporten te ontwerpen en genereren.
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5a2e8cca441189020e6274248a48c5e9dd80e00
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 50156b8c6b3553b02d092fad9c72e90c1f70ff78
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753547"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951980"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Meertalige rapporten ontwerpen in Elektronische rapportage
 
@@ -158,6 +158,31 @@ ER ondersteunt verschillende manieren om een taal voor een gegenereerd rapport o
 - **Gedefinieerd in runtime**: genereer een rapport in een taal die is opgegeven in runtime. Als u deze waarde selecteert in het veld **Taal**, configureert u een ER-expressie die de taalcode voor de taal retourneert, zoals de taal van de bijbehorende klant.
 
     ![Geef in de ER Operation-ontwerper bij runtime een taal op als de taal van een gegenereerd rapport](./media/er-multilingual-labels-language-context-runtime.png)
+
+## <a name="culture-specific-formatting"></a>Cultuurspecifieke notaties
+
+ER ondersteunt verschillende manieren om de cultuur voor een gegenereerd rapport op te geven. Daarom kan de juiste cultuurpecifieke notatie worden gebruikt voor datum, tijd en numerieke waarden. Wanneer u een ER-indeling ontwerpt, kunt u op het tabblad **Indeling** in het veld **Cultuurvoorkeuren** een van de volgende waarden selecteren voor alle notatiecomponenten van het type **Common\\File**, **Excel\\File**, **PDF\\File** of **PDF\\Merger**:
+
+- **Gebruikersvoorkeur**: Noteer de waarden volgens de voorkeurscultuur van de gebruiker. Deze cultuur wordt gedefinieerd in het veld **Datum-, tijd- en getalnotatie** op het tabblad **Voorkeuren** van de pagina **Gebruikersopties**.
+
+    ![De voorkeurscultuur van de gebruiker definiëren als de cultuur van een gegenereerd rapport in de ER Operations-ontwerper](./media/er-multilingual-labels-culture-context-user-preferred.png)
+
+- **Expliciet gedefinieerd**: De waarden opmaken volgens de cultuur die tijdens het ontwerpen is opgegeven.
+
+    ![De cultuur definiëren die is opgegeven ten tijde van het ontwerpen als de cultuur van een gegenereerd rapport in de ER Operations-ontwerper](./media/er-multilingual-labels-culture-context-fixed.png)
+
+- **Gedefinieerd tijdens runtime**: De waarden opmaken volgens de cultuur die tijdens runtime wordt opgegeven. Als u deze waarde selecteert, configureert u op het tabblad **Toewijzing**, in het veld **Datum-, tijd- en getalnotatie**, een ER-expressie die de cultuurcode voor de cultuur retourneert, zoals de cultuur van de desbetreffende klant.
+
+    ![De cultuur definiëren die tijdens runtime wordt opgegeven als de cultuur van een gegenereerd rapport in de ER Operations-ontwerper](./media/er-multilingual-labels-culture-context-runtime.png)
+
+> [!NOTE]
+> Een ER-onderdeel waarvoor u een specifieke taal definieert, kan onderliggende ER-onderdelen bevatten die zijn geconfigureerd om een tekstwaarde in te vullen. Standaard wordt de cultuur van het bovenliggende onderdeel gebruikt om de waarden van deze onderdelen te noteren. Met de volgende ingebouwde ER-functies kunt u bindingen voor die onderdelen configureren en een alternatieve cultuur voor notatie van waarden toepassen:
+>
+> - [DATEFORMAT](er-functions-datetime-dateformat.md#syntax-2)
+> - [DATETIMEFORMAT](er-functions-datetime-datetimeformat.md#syntax-2)
+> - [NUMBERFORMAT](er-functions-text-numberformat.md#syntax-2)
+>
+> In versie 10.0.20 en hoger worden de landinstellingen van notatieonderdelen voor de typen **Common\\File** en **Excel\\File** gebruikt om waarden te noteren tijdens de [PDF-conversie](electronic-reporting-destinations.md#OutputConversionToPDF) van een gegenereerd document.
 
 ## <a name="translation"></a>Vertaling
 
