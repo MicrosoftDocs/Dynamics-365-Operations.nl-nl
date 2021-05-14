@@ -13,68 +13,69 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0db1c35779a468d9a86d18eb6c849d40bc8c03a3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 13053dd87242963586678b46c64493feb3383c4c
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820077"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920700"
 ---
-# <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a><span data-ttu-id="6730c-103">Een stuklijst maken voor een op dimensies gebaseerd productmodel</span><span class="sxs-lookup"><span data-stu-id="6730c-103">Create a bill of materials for a dimension-based product master</span></span>
+# <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a><span data-ttu-id="df6c7-103">Een stuklijst maken voor een op dimensies gebaseerd productmodel</span><span class="sxs-lookup"><span data-stu-id="df6c7-103">Create a bill of materials for a dimension-based product master</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="6730c-104">Voor deze procedure moet u de vorige 4 guides in deze reeks van acht registraties hebben voltooid.</span><span class="sxs-lookup"><span data-stu-id="6730c-104">For this procedure you should have completed the previous 4 guides in this sequence of eight recordings.</span></span> <span data-ttu-id="6730c-105">Met de eerste 4 registraties zijn gegevens ingesteld die nodig zijn om deze procedure te voltooien.</span><span class="sxs-lookup"><span data-stu-id="6730c-105">The first 4 recordings set up data that is required to complete this procedure.</span></span> <span data-ttu-id="6730c-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="6730c-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="6730c-107">Deze taak wordt doorgaans afgehandeld door de productontwerper.</span><span class="sxs-lookup"><span data-stu-id="6730c-107">This task is typically handled by the product designer.</span></span>
+<span data-ttu-id="df6c7-104">Voor deze procedure moet u de vorige 4 guides in deze reeks van acht registraties hebben voltooid.</span><span class="sxs-lookup"><span data-stu-id="df6c7-104">For this procedure you should have completed the previous 4 guides in this sequence of eight recordings.</span></span> <span data-ttu-id="df6c7-105">Met de eerste 4 registraties zijn gegevens ingesteld die nodig zijn om deze procedure te voltooien.</span><span class="sxs-lookup"><span data-stu-id="df6c7-105">The first 4 recordings set up data that is required to complete this procedure.</span></span> <span data-ttu-id="df6c7-106">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="df6c7-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="df6c7-107">Deze taak wordt doorgaans afgehandeld door de productontwerper.</span><span class="sxs-lookup"><span data-stu-id="df6c7-107">This task is typically handled by the product designer.</span></span>
 
+## <a name="select-the-product"></a><span data-ttu-id="df6c7-108">Het product selecteren</span><span class="sxs-lookup"><span data-stu-id="df6c7-108">Select the product</span></span>
 
-## <a name="select-the-product"></a><span data-ttu-id="6730c-108">Het product selecteren</span><span class="sxs-lookup"><span data-stu-id="6730c-108">Select the product</span></span>
-1. <span data-ttu-id="6730c-109">Klik op Vrijgegeven productonderhoud.</span><span class="sxs-lookup"><span data-stu-id="6730c-109">Click Released product maintenance.</span></span>
-2. <span data-ttu-id="6730c-110">Klik op Vrijgegeven producten.</span><span class="sxs-lookup"><span data-stu-id="6730c-110">Click Released products.</span></span>
-3. <span data-ttu-id="6730c-111">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="6730c-111">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="6730c-112">Zoek het vrijgegeven productmodel met op dimensies gebaseerde configuratietechnologie die u in de eerste taakbegeleider in deze reeks hebt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="6730c-112">Find the released product master with dimension-based configuration technology that you created in the first task guide in this sequence.</span></span>  
-4. <span data-ttu-id="6730c-113">Klik op Technicus in het actievenster.</span><span class="sxs-lookup"><span data-stu-id="6730c-113">On the Action Pane, click Engineer.</span></span>
-5. <span data-ttu-id="6730c-114">Klik op Stuklijstversies.</span><span class="sxs-lookup"><span data-stu-id="6730c-114">Click BOM versions.</span></span>
+1. <span data-ttu-id="df6c7-109">Ga naar **Productgegevensbeheer \> Producten \> Vrijgegeven producten**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-109">Go to **Product information management \> Products \> Released products**.</span></span>
+1. <span data-ttu-id="df6c7-110">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="df6c7-110">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="df6c7-111">Zoek het vrijgegeven productmodel met op dimensies gebaseerde configuratietechnologie die u in de eerste taakbegeleider in deze reeks hebt gemaakt.</span><span class="sxs-lookup"><span data-stu-id="df6c7-111">Find the released product master with dimension-based configuration technology that you created in the first task guide in this sequence.</span></span>  
+1. <span data-ttu-id="df6c7-112">Selecteer in het actievenster de optie **Technicus**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-112">On the Action Pane, select **Engineer**.</span></span>
+1. <span data-ttu-id="df6c7-113">Selecteer **Stuklijstversies**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-113">Select **BOM versions**.</span></span>
 
-## <a name="create-new-bom-and-bom-version"></a><span data-ttu-id="6730c-115">Een nieuwe stuklijst en stuklijstversie maken</span><span class="sxs-lookup"><span data-stu-id="6730c-115">Create new BOM and BOM version</span></span>
-1. <span data-ttu-id="6730c-116">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="6730c-116">Click New.</span></span>
-2. <span data-ttu-id="6730c-117">Klik op Stuklijst en stuklijstversie.</span><span class="sxs-lookup"><span data-stu-id="6730c-117">Click BOM and BOM version.</span></span>
-3. <span data-ttu-id="6730c-118">Typ een waarde in het veld Naam.</span><span class="sxs-lookup"><span data-stu-id="6730c-118">In the Name field, type a value.</span></span>
-    * <span data-ttu-id="6730c-119">Een vestiging instellen</span><span class="sxs-lookup"><span data-stu-id="6730c-119">Setting a site</span></span>  
-    * <span data-ttu-id="6730c-120">In deze procedure wordt geen specifieke vestiging voor de stuklijst ingesteld.</span><span class="sxs-lookup"><span data-stu-id="6730c-120">In this procedure we don't set a specific site for the BOM.</span></span>  
-4. <span data-ttu-id="6730c-121">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="6730c-121">Click OK.</span></span>
-5. <span data-ttu-id="6730c-122">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="6730c-122">Click New.</span></span>
-    * <span data-ttu-id="6730c-123">In deze procedure worden vier regels aan de stuklijst toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="6730c-123">In this procedure we will add four lines to the BOM.</span></span> <span data-ttu-id="6730c-124">Twee regels staan voor kabelopties en twee regels staan voor behuizingsopties.</span><span class="sxs-lookup"><span data-stu-id="6730c-124">Two lines represent cable options and two lines represent cabinet options.</span></span>  
-6. <span data-ttu-id="6730c-125">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="6730c-125">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="6730c-126">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="6730c-126">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="6730c-127">Selecteer artikelnummer A0001, HDMI 6' kabels.</span><span class="sxs-lookup"><span data-stu-id="6730c-127">Select item number A0001, HDMI 6' Cables.</span></span>  
-8. <span data-ttu-id="6730c-128">Typ of selecteer een waarde in het veld Configuratiegroep.</span><span class="sxs-lookup"><span data-stu-id="6730c-128">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="6730c-129">Selecteer de kabelconfiguratiegroep die is gemaakt in guide 4 in deze reeks.</span><span class="sxs-lookup"><span data-stu-id="6730c-129">Select the Cable configuration group created in guide 4 in this sequence.</span></span>  
-9. <span data-ttu-id="6730c-130">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="6730c-130">Click New.</span></span>
-    * <span data-ttu-id="6730c-131">Selecteer artikelnummer A0002, HDMI 12' kabels.</span><span class="sxs-lookup"><span data-stu-id="6730c-131">Select item number A0002, HDMI 12' Cables.</span></span>  
-10. <span data-ttu-id="6730c-132">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="6730c-132">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="6730c-133">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="6730c-133">In the Item number field, enter or select a value.</span></span>
-12. <span data-ttu-id="6730c-134">Typ of selecteer een waarde in het veld Configuratiegroep.</span><span class="sxs-lookup"><span data-stu-id="6730c-134">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="6730c-135">Selecteer de kabelconfiguratiegroep nogmaals.</span><span class="sxs-lookup"><span data-stu-id="6730c-135">Select the Cable configuration group again.</span></span>  
-13. <span data-ttu-id="6730c-136">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="6730c-136">Click New.</span></span>
-14. <span data-ttu-id="6730c-137">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="6730c-137">In the list, mark the selected row.</span></span>
-15. <span data-ttu-id="6730c-138">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="6730c-138">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="6730c-139">Selecteer artikelnummer D0002 behuizing</span><span class="sxs-lookup"><span data-stu-id="6730c-139">Select item number D0002 Cabinet.</span></span>  
-16. <span data-ttu-id="6730c-140">Typ of selecteer een waarde in het veld Configuratiegroep.</span><span class="sxs-lookup"><span data-stu-id="6730c-140">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="6730c-141">Selecteer de behuizingsconfiguratiegroep voor deze stuklijstregel.</span><span class="sxs-lookup"><span data-stu-id="6730c-141">Select the Cabinet configuration group for this BOM line.</span></span>  
-17. <span data-ttu-id="6730c-142">Klik op Nieuw.</span><span class="sxs-lookup"><span data-stu-id="6730c-142">Click New.</span></span>
-18. <span data-ttu-id="6730c-143">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="6730c-143">In the list, mark the selected row.</span></span>
-19. <span data-ttu-id="6730c-144">Typ of selecteer een waarde in het veld Artikelnummer.</span><span class="sxs-lookup"><span data-stu-id="6730c-144">In the Item number field, enter or select a value.</span></span>
-    * <span data-ttu-id="6730c-145">Selecteer artikelnummer M0007 standaardbehuizing als de laatste stuklijstregel.</span><span class="sxs-lookup"><span data-stu-id="6730c-145">Select Item number M0007 StandardCabinet as the last BOM line.</span></span>  
-20. <span data-ttu-id="6730c-146">Typ of selecteer een waarde in het veld Configuratiegroep.</span><span class="sxs-lookup"><span data-stu-id="6730c-146">In the Configuration group field, enter or select a value.</span></span>
-    * <span data-ttu-id="6730c-147">Selecteer de behuizingsconfiguratiegroep voor de laatste stuklijstregel.</span><span class="sxs-lookup"><span data-stu-id="6730c-147">Select the Cabinet configuration group for the laste BOM line.</span></span>  
+## <a name="create-new-bom-and-bom-version"></a><span data-ttu-id="df6c7-114">Een nieuwe stuklijst en stuklijstversie maken</span><span class="sxs-lookup"><span data-stu-id="df6c7-114">Create new BOM and BOM version</span></span>
 
-## <a name="approve-and-activate"></a><span data-ttu-id="6730c-148">Goedkeuren en activeren</span><span class="sxs-lookup"><span data-stu-id="6730c-148">Approve and activate</span></span>
-1. <span data-ttu-id="6730c-149">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="6730c-149">Close the page.</span></span>
-2. <span data-ttu-id="6730c-150">Klik op Goedkeuren.</span><span class="sxs-lookup"><span data-stu-id="6730c-150">Click Approve.</span></span>
-3. <span data-ttu-id="6730c-151">Typ of selecteer een waarde in het veld Goedgekeurd door.</span><span class="sxs-lookup"><span data-stu-id="6730c-151">In the Approved by field, enter or select a value.</span></span>
-4. <span data-ttu-id="6730c-152">Selecteer Ja in het veld Wilt u ook de stuklijst goedkeuren?</span><span class="sxs-lookup"><span data-stu-id="6730c-152">Select Yes in the Do you also want to approve the bill of materials? field.</span></span>
-5. <span data-ttu-id="6730c-153">Klik op OK.</span><span class="sxs-lookup"><span data-stu-id="6730c-153">Click OK.</span></span>
-6. <span data-ttu-id="6730c-154">Klik op Activeren.</span><span class="sxs-lookup"><span data-stu-id="6730c-154">Click Activate.</span></span>
+1. <span data-ttu-id="df6c7-115">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-115">Select **New**.</span></span>
+1. <span data-ttu-id="df6c7-116">Selecteer **Stuklijst en stuklijstversie**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-116">Select **BOM and BOM version**.</span></span>
+1. <span data-ttu-id="df6c7-117">Typ een waarde in het veld **Naam**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-117">In the **Name** field, type a value.</span></span>
+    * <span data-ttu-id="df6c7-118">Een vestiging instellen</span><span class="sxs-lookup"><span data-stu-id="df6c7-118">Setting a site</span></span>  
+    * <span data-ttu-id="df6c7-119">In deze procedure wordt geen specifieke vestiging voor de stuklijst ingesteld.</span><span class="sxs-lookup"><span data-stu-id="df6c7-119">In this procedure we don't set a specific site for the BOM.</span></span>  
+1. <span data-ttu-id="df6c7-120">Selecteer **OK**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-120">Select **OK**.</span></span>
+1. <span data-ttu-id="df6c7-121">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-121">Select **New**.</span></span>
+    * <span data-ttu-id="df6c7-122">In deze procedure worden vier regels aan de stuklijst toegevoegd.</span><span class="sxs-lookup"><span data-stu-id="df6c7-122">In this procedure we will add four lines to the BOM.</span></span> <span data-ttu-id="df6c7-123">Twee regels staan voor kabelopties en twee regels staan voor behuizingsopties.</span><span class="sxs-lookup"><span data-stu-id="df6c7-123">Two lines represent cable options and two lines represent cabinet options.</span></span>  
+1. <span data-ttu-id="df6c7-124">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="df6c7-124">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="df6c7-125">Typ of selecteer een waarde in het veld **Artikelnummer**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-125">In the **Item number** field, enter or select a value.</span></span>
+    * <span data-ttu-id="df6c7-126">Selecteer artikelnummer A0001, HDMI 6' kabels.</span><span class="sxs-lookup"><span data-stu-id="df6c7-126">Select item number A0001, HDMI 6' Cables.</span></span>  
+1. <span data-ttu-id="df6c7-127">Typ of selecteer een waarde in het veld **Configuratiegroep**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-127">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="df6c7-128">Selecteer de kabelconfiguratiegroep die is gemaakt in guide 4 in deze reeks.</span><span class="sxs-lookup"><span data-stu-id="df6c7-128">Select the cable configuration group created in guide 4 in this sequence.</span></span>  
+1. <span data-ttu-id="df6c7-129">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-129">Select **New**.</span></span>
+    * <span data-ttu-id="df6c7-130">Selecteer artikelnummer A0002, HDMI 12' kabels.</span><span class="sxs-lookup"><span data-stu-id="df6c7-130">Select item number A0002, HDMI 12' Cables.</span></span>  
+1. <span data-ttu-id="df6c7-131">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="df6c7-131">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="df6c7-132">Typ of selecteer een waarde in het veld **Artikelnummer**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-132">In the **Item number** field, enter or select a value.</span></span>
+1. <span data-ttu-id="df6c7-133">Typ of selecteer een waarde in het veld **Configuratiegroep**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-133">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="df6c7-134">Selecteer de kabelconfiguratiegroep opnieuw.</span><span class="sxs-lookup"><span data-stu-id="df6c7-134">Select the cable configuration group again.</span></span>  
+1. <span data-ttu-id="df6c7-135">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-135">Select **New**.</span></span>
+1. <span data-ttu-id="df6c7-136">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="df6c7-136">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="df6c7-137">Typ of selecteer een waarde in het veld **Artikelnummer**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-137">In the **Item number** field, enter or select a value.</span></span>
+    * <span data-ttu-id="df6c7-138">Selecteer artikelnummer D0002 behuizing</span><span class="sxs-lookup"><span data-stu-id="df6c7-138">Select item number D0002 Cabinet.</span></span>  
+1. <span data-ttu-id="df6c7-139">Typ of selecteer een waarde in het veld **Configuratiegroep**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-139">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="df6c7-140">Selecteer de behuizingsconfiguratiegroep voor deze stuklijstregel.</span><span class="sxs-lookup"><span data-stu-id="df6c7-140">Select the cabinet configuration group for this BOM line.</span></span>  
+1. <span data-ttu-id="df6c7-141">Selecteer **Nieuw**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-141">Select **New**.</span></span>
+1. <span data-ttu-id="df6c7-142">Markeer in de lijst de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="df6c7-142">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="df6c7-143">Typ of selecteer een waarde in het veld **Artikelnummer**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-143">In the **Item number** field, enter or select a value.</span></span>
+    * <span data-ttu-id="df6c7-144">Selecteer artikelnummer M0007 standaardbehuizing als de laatste stuklijstregel.</span><span class="sxs-lookup"><span data-stu-id="df6c7-144">Select Item number M0007 StandardCabinet as the last BOM line.</span></span>  
+1. <span data-ttu-id="df6c7-145">Typ of selecteer een waarde in het veld **Configuratiegroep**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-145">In the **Configuration group** field, enter or select a value.</span></span>
+    * <span data-ttu-id="df6c7-146">Selecteer de behuizingsconfiguratiegroep voor de laatste stuklijstregel.</span><span class="sxs-lookup"><span data-stu-id="df6c7-146">Select the Cabinet configuration group for the last BOM line.</span></span>  
+
+## <a name="approve-and-activate"></a><span data-ttu-id="df6c7-147">Goedkeuren en activeren</span><span class="sxs-lookup"><span data-stu-id="df6c7-147">Approve and activate</span></span>
+
+1. <span data-ttu-id="df6c7-148">Sluit de pagina.</span><span class="sxs-lookup"><span data-stu-id="df6c7-148">Close the page.</span></span>
+1. <span data-ttu-id="df6c7-149">Selecteer **Goedkeuren**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-149">Select **Approve**.</span></span>
+1. <span data-ttu-id="df6c7-150">Typ of selecteer een waarde in het veld **Goedgekeurd door**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-150">In the **Approved by** field, enter or select a value.</span></span>
+1. <span data-ttu-id="df6c7-151">Selecteer *Ja* in het veld **Wilt u ook de stuklijst goedkeuren?**</span><span class="sxs-lookup"><span data-stu-id="df6c7-151">Select *Yes* in the **Do you also want to approve the bill of materials?** field.</span></span>
+1. <span data-ttu-id="df6c7-152">Selecteer **OK**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-152">Select **OK**.</span></span>
+1. <span data-ttu-id="df6c7-153">Selecteer **Activeren**.</span><span class="sxs-lookup"><span data-stu-id="df6c7-153">Select **Activate**.</span></span>
 
 
 

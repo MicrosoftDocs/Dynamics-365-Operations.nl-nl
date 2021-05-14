@@ -1,0 +1,96 @@
+---
+title: Belasting wordt geboekt naar de verkeerde grootboekrekening in het boekstuk
+description: Dit onderwerp bevat informatie voor het oplossen van problemen die kunnen helpen wanneer belasting is geboekt naar de verkeerde grootboekrekening in het boekstuk.
+author: qire
+manager: beya
+ms.date: 04/12/2021
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application user
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: wangchen
+ms.search.validFrom: 2021-04-01
+ms.dyn365.ops.version: 10.0.1
+ms.openlocfilehash: 0404d71f0492e188ed5da62387bb90a336e69c5a
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.translationtype: HT
+ms.contentlocale: nl-NL
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947621"
+---
+# <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a><span data-ttu-id="908fd-103">Belasting wordt geboekt naar de verkeerde grootboekrekening in het boekstuk</span><span class="sxs-lookup"><span data-stu-id="908fd-103">Tax is posted to the wrong ledger account in the voucher</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="908fd-104">Tijdens het boeken, kan belasting naar de verkeerde grootboekrekening in het boekstuk worden geboekt.</span><span class="sxs-lookup"><span data-stu-id="908fd-104">During posting, tax might be posted to the wrong ledger account in the voucher.</span></span> <span data-ttu-id="908fd-105">Volg de stappen in de volgende secties zoals vereist om dit probleem op te lossen.</span><span class="sxs-lookup"><span data-stu-id="908fd-105">To troubleshoot this issue, follow the steps in the following sections as required.</span></span> <span data-ttu-id="908fd-106">In de voorbeelden in dit onderwerp wordt een verkooporder als bedrijfsdocument gebruikt.</span><span class="sxs-lookup"><span data-stu-id="908fd-106">The examples in this topic use a sales order as the business document.</span></span>
+
+## <a name="find-the-tax-code-of-the-incorrectly-posted-tax-transaction"></a><span data-ttu-id="908fd-107">Zoek de belastingcode van de onjuist geboekte belastingtransactie</span><span class="sxs-lookup"><span data-stu-id="908fd-107">Find the tax code of the incorrectly posted tax transaction</span></span>
+
+1. <span data-ttu-id="908fd-108">Selecteer op de pagina **Boekstuktransacties** de transactie waarmee u aan de slag wilt en selecteer vervolgens **Geboekte btw**.</span><span class="sxs-lookup"><span data-stu-id="908fd-108">On the **Voucher transactions** page, select the transaction that you want to work with, and then select **Posted sales tax**.</span></span>
+
+    <span data-ttu-id="908fd-109">[![De knop Geboekte btw op de pagina Boekstuktransacties](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)</span><span class="sxs-lookup"><span data-stu-id="908fd-109">[![Posted sales tax button on the Voucher transactions page](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)</span></span>
+
+2. <span data-ttu-id="908fd-110">Bekijk de waarde in het veld **Btw-code**.</span><span class="sxs-lookup"><span data-stu-id="908fd-110">Review the value in the **Sales tax code** field.</span></span> <span data-ttu-id="908fd-111">In dit voorbeeld is dat **Btw 19**.</span><span class="sxs-lookup"><span data-stu-id="908fd-111">In this example, it's **VAT 19**.</span></span>
+
+    <span data-ttu-id="908fd-112">[![Veld Btw-code op de pagina Geboekte btw](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)</span><span class="sxs-lookup"><span data-stu-id="908fd-112">[![Sales tax code field on the Posted sales tax page](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)</span></span>
+
+## <a name="check-the-ledger-posting-group-of-the-tax-code"></a><span data-ttu-id="908fd-113">Controleer de groep boekingen in grootboek van de belastingcode</span><span class="sxs-lookup"><span data-stu-id="908fd-113">Check the ledger posting group of the tax code</span></span>
+
+1. <span data-ttu-id="908fd-114">Ga naar **Belasting** \> **Indirecte belastingen** \> **Btw** \> **Btw-codes**.</span><span class="sxs-lookup"><span data-stu-id="908fd-114">Go to **Tax** \> **Indirect taxes** \> **Sales tax** \> **Sales tax codes**.</span></span>
+2. <span data-ttu-id="908fd-115">Zoek de belastingcode, selecteer deze en controleer vervolgens de waarde in het veld **Groep boekingen in grootboek**.</span><span class="sxs-lookup"><span data-stu-id="908fd-115">Find and select the tax code, and then review the value in the **Ledger posting group** field.</span></span> <span data-ttu-id="908fd-116">In dit voorbeeld is dat **Btw**.</span><span class="sxs-lookup"><span data-stu-id="908fd-116">In this example, it's **VAT**.</span></span>
+
+    <span data-ttu-id="908fd-117">[![Het veld Groep boekingen in grootboek op de pagina Btw-codes](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)</span><span class="sxs-lookup"><span data-stu-id="908fd-117">[![Ledger posting group field on the Sales tax codes page](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)</span></span>
+
+3. <span data-ttu-id="908fd-118">De waarde in het veld **Groep boekingen in grootboek** is een koppeling.</span><span class="sxs-lookup"><span data-stu-id="908fd-118">The value in the **Ledger posting group** field is a link.</span></span> <span data-ttu-id="908fd-119">Selecteer de koppeling om de details van de configuratie van de groep te bekijken.</span><span class="sxs-lookup"><span data-stu-id="908fd-119">To view the details of the group's configuration, select the link.</span></span> <span data-ttu-id="908fd-120">U kunt ook het veld selecteren en vasthouden (of met de rechtermuisknop klikken) en vervolgens **Details weergeven** selecteren.</span><span class="sxs-lookup"><span data-stu-id="908fd-120">Alternatively, select and hold (or right-click) in the field, and then select **View details**.</span></span>
+
+    <span data-ttu-id="908fd-121">[![Opdracht Details weergeven](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)</span><span class="sxs-lookup"><span data-stu-id="908fd-121">[![View details command](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)</span></span>
+
+4. <span data-ttu-id="908fd-122">Controleer in het veld **Te betalen btw** of het rekeningnummer juist is aan de hand van het transactietype.</span><span class="sxs-lookup"><span data-stu-id="908fd-122">In the **Sales tax payable** field, verify that the account number is correct, according to the transaction type.</span></span> <span data-ttu-id="908fd-123">Als dit niet zo is, selecteer de juiste rekening waar het naartoe geboekt moet worden.</span><span class="sxs-lookup"><span data-stu-id="908fd-123">If it isn't, select the correct account to post to.</span></span> <span data-ttu-id="908fd-124">In dit voorbeeld moet de btw van de verkooporder worden geboekt naar de rekening voor te betalen btw 222200.</span><span class="sxs-lookup"><span data-stu-id="908fd-124">In this example, the sales tax of the sales order should be posted to sales tax payable account 222200.</span></span>
+
+    <span data-ttu-id="908fd-125">[![Het veld Te betalen btw op de pagina Groep boekingen in grootboek](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)</span><span class="sxs-lookup"><span data-stu-id="908fd-125">[![Sales tax payable field on the Ledger posting groups page](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)</span></span>
+
+    <span data-ttu-id="908fd-126">De volgende tabel bevat informatie over elk veld op de pagina **Groep boekingen in grootboek**.</span><span class="sxs-lookup"><span data-stu-id="908fd-126">The following table provides information about each field on the **Ledger posting groups** page.</span></span>
+
+    | <span data-ttu-id="908fd-127">Veld</span><span class="sxs-lookup"><span data-stu-id="908fd-127">Field</span></span>                  | <span data-ttu-id="908fd-128">Beschrijving</span><span class="sxs-lookup"><span data-stu-id="908fd-128">Description</span></span> |
+    |------------------------|-------------|
+    | <span data-ttu-id="908fd-129">Te betalen btw</span><span class="sxs-lookup"><span data-stu-id="908fd-129">Sales tax payable</span></span>      | <span data-ttu-id="908fd-130">De hoofdrekening voor uitgaande btw die aan de belastinginstantie moet worden betaald.</span><span class="sxs-lookup"><span data-stu-id="908fd-130">The main account for outgoing sales taxes that are payable to the tax authority.</span></span> |
+    | <span data-ttu-id="908fd-131">Te ontvangen btw</span><span class="sxs-lookup"><span data-stu-id="908fd-131">Sales tax receivable</span></span>   | <span data-ttu-id="908fd-132">De hoofdrekening voor ontvangen btw die wordt terugbetaald door de belastinginstantie.</span><span class="sxs-lookup"><span data-stu-id="908fd-132">The main account for incoming taxes that are received from the tax authority.</span></span> |
+    | <span data-ttu-id="908fd-133">Gebruiksbelastinguitgave</span><span class="sxs-lookup"><span data-stu-id="908fd-133">Use tax expense</span></span>        | <span data-ttu-id="908fd-134">De hoofdrekening die wordt gebruikt om aftrekbare gebruiksbelastingen die leveranciers niet claimen bij of melden aan de belastinginstantie als onderdeel van omgekeerde toeslag van de Europese Unie (EU) Belasting op goederen en diensten (GST)/Harmonised Sales Tax (HST), te boeken.</span><span class="sxs-lookup"><span data-stu-id="908fd-134">The main account that is used to post deductible use taxes that vendors don't claim or report to the tax authority as part of European Union (EU) reverse charge Goods and Services Tax (GST)/Harmonized Sales Tax (HST).</span></span> <span data-ttu-id="908fd-135">**Gebruiksbelasting** moet worden geselecteerd voor de btw-code in de btw-groep die in de transactie wordt gebruikt.</span><span class="sxs-lookup"><span data-stu-id="908fd-135">**Use tax** must be selected for the sales tax code in the sales tax group that is used in the transaction.</span></span> <span data-ttu-id="908fd-136">Dit veld is niet beschikbaar als **Belastingregels btw toepassen** is geselecteerd op de pagina **Grootboekparameters**.</span><span class="sxs-lookup"><span data-stu-id="908fd-136">This field isn't available if **Apply sales tax taxation rules** is selected on the **General ledger parameters** page.</span></span> |
+    | <span data-ttu-id="908fd-137">Te betalen gebruiksbelasting</span><span class="sxs-lookup"><span data-stu-id="908fd-137">Use tax payable</span></span>        | <span data-ttu-id="908fd-138">De hoofdrekening die wordt gebruikt voor het boeken van ontvangen gebruiksbelastingen die moeten worden betaald aan de belastinginstanties.</span><span class="sxs-lookup"><span data-stu-id="908fd-138">The main account that is used to post incoming use taxes that are payable to tax authorities.</span></span> |
+    | <span data-ttu-id="908fd-139">Vereffeningsrekening</span><span class="sxs-lookup"><span data-stu-id="908fd-139">Settlement account</span></span>     | <span data-ttu-id="908fd-140">De hoofdrekening die wordt gebruikt om het nettosaldo van de grootboekrekeningen die zijn gespecificeerd in de velden **Te betalen gebruiksbelasting** en **Te ontvangen btw**, te boeken.</span><span class="sxs-lookup"><span data-stu-id="908fd-140">The main account that is used to post the net balance of the ledger accounts that are specified in the **Use tax payable** and **Sales tax receivable** fields.</span></span> |
+    | <span data-ttu-id="908fd-141">Contantkorting van leverancier</span><span class="sxs-lookup"><span data-stu-id="908fd-141">Vendor cash discount</span></span>   | <span data-ttu-id="908fd-142">De hoofdrekening die wordt gebruikt om een betalingskorting voor btw-codes die zijn gekoppeld aan deze groep voor boekingen in grootboek, te boeken.</span><span class="sxs-lookup"><span data-stu-id="908fd-142">The main account that is used to post a cash discount for sales tax codes that are associated with this ledger posting group.</span></span> |
+    | <span data-ttu-id="908fd-143">Korting klantcase</span><span class="sxs-lookup"><span data-stu-id="908fd-143">Customer case discount</span></span> | <span data-ttu-id="908fd-144">De hoofdrekening die wordt gebruikt om een betalingskorting voor btw-codes die zijn gekoppeld aan deze groep voor boekingen in grootboek, te boeken.</span><span class="sxs-lookup"><span data-stu-id="908fd-144">The main account that is used to post a cash discount for sales tax codes that are associated with this ledger posting group.</span></span> |
+
+    <span data-ttu-id="908fd-145">Zie [Groepen boekingen in grootboek instellen voor btw](tasks/set-up-ledger-posting-groups-sales-tax.md) voor meer informatie</span><span class="sxs-lookup"><span data-stu-id="908fd-145">For more information, see, [Set up Ledger posting groups for sales tax](tasks/set-up-ledger-posting-groups-sales-tax.md)</span></span>
+
+## <a name="debug-in-code-to-check-ledger-dimensions"></a><span data-ttu-id="908fd-146">Foutopsporing in code om grootboekdimensies te controleren</span><span class="sxs-lookup"><span data-stu-id="908fd-146">Debug in code to check ledger dimensions</span></span>
+
+<span data-ttu-id="908fd-147">In de code wordt de boekingsrekening bepaald door de grootboekdimensie.</span><span class="sxs-lookup"><span data-stu-id="908fd-147">In the code, the posting account is determined by the ledger dimension.</span></span> <span data-ttu-id="908fd-148">De grootboekdimensie slaat de record-id van een rekening in de database op.</span><span class="sxs-lookup"><span data-stu-id="908fd-148">The ledger dimension saves the record ID of an account in the database.</span></span>
+
+1. <span data-ttu-id="908fd-149">Voor een verkooporder voegt u een onderbrekingspunt toe aan de methoden **Tax::saveAndPost()** en **Tax::post()**.</span><span class="sxs-lookup"><span data-stu-id="908fd-149">For a sales order, add a breakpoint at the **Tax::saveAndPost()** and **Tax::post()** methods.</span></span> <span data-ttu-id="908fd-150">Let op de waarde van **\_Grootboekdimensie**.</span><span class="sxs-lookup"><span data-stu-id="908fd-150">Pay attention to the value of **\_ledgerDimension**.</span></span>
+
+    <span data-ttu-id="908fd-151">[![Voorbeeld van code voor een verkooporder met een onderbrekingspunt](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)</span><span class="sxs-lookup"><span data-stu-id="908fd-151">[![Sales order code sample that has a breakpoint](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)</span></span>
+
+    <span data-ttu-id="908fd-152">Voor een inkooporder voegt u een onderbrekingspunt toe aan de methoden **TaxPost::saveAndPost()** en **TaxPost::postToTaxTrans()**.</span><span class="sxs-lookup"><span data-stu-id="908fd-152">For a purchase order, add a breakpoint at the **TaxPost::saveAndPost()** and **TaxPost::postToTaxTrans()** methods.</span></span> <span data-ttu-id="908fd-153">Let op de waarde van **\_Grootboekdimensie**.</span><span class="sxs-lookup"><span data-stu-id="908fd-153">Pay attention to the value of **\_ledgerDimension**.</span></span>
+
+    <span data-ttu-id="908fd-154">[![Voorbeeld van code voor een inkooporder met een onderbrekingspunt](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)</span><span class="sxs-lookup"><span data-stu-id="908fd-154">[![Purchase order code sample that has a breakpoint](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)</span></span>
+
+2. <span data-ttu-id="908fd-155">Voer de volgende SQL-query uit om de weergavewaarde van de rekening te zoeken in de database op basis van de record-id die wordt opgeslagen door de grootboekdimensie.</span><span class="sxs-lookup"><span data-stu-id="908fd-155">Run the following SQL query to find the display value of the account in the database, based on the record ID that is saved by the ledger dimension.</span></span>
+
+    ```sql
+    select * from DIMENSIONATTRIBUTEVALUECOMBINATION where recid={the value of _ledgerDimension}
+    ```
+
+    <span data-ttu-id="908fd-156">[![Weergavewaarde van de record-id](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)</span><span class="sxs-lookup"><span data-stu-id="908fd-156">[![Display value of the record ID](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)</span></span>
+
+3. <span data-ttu-id="908fd-157">Bekijk de aanroepstapel om te zoeken waar de waarde **_ledgerDimension** wordt toegewezen.</span><span class="sxs-lookup"><span data-stu-id="908fd-157">Examine the callstack to find where the **_ledgerDimension** value is assigned.</span></span> <span data-ttu-id="908fd-158">Meestal is de waarde afkomstig van **TmpTaxWorkTrans**.</span><span class="sxs-lookup"><span data-stu-id="908fd-158">Usually, the value is from **TmpTaxWorkTrans**.</span></span> <span data-ttu-id="908fd-159">In dit geval moet u een onderbrekingspunt toevoegen in **TmpTaxWorkTrans::insert()** en **TmpTaxWorkTrans::update()** om te zoeken waar de toegewezen waarde wordt toegewezen.</span><span class="sxs-lookup"><span data-stu-id="908fd-159">In this case, you should add a breakpoint at **TmpTaxWorkTrans::insert()** and **TmpTaxWorkTrans::update()** to find where the value assigned.</span></span>
+
+## <a name="determine-whether-customization-exists"></a><span data-ttu-id="908fd-160">Bekijk of er een aanpassing bestaat</span><span class="sxs-lookup"><span data-stu-id="908fd-160">Determine whether customization exists</span></span>
+
+<span data-ttu-id="908fd-161">Als u de stappen in de vorige secties hebt voltooid, maar u hebt het probleem niet gevonden, bekijkt u of er een aanpassing bestaat.</span><span class="sxs-lookup"><span data-stu-id="908fd-161">If you've completed the steps in the previous sections but have found no issue, determine whether customization exists.</span></span> <span data-ttu-id="908fd-162">Als er geen aanpassing bestaat, opent u een ondersteuningsaanvraag bij Microsoft voor verdere ondersteuning.</span><span class="sxs-lookup"><span data-stu-id="908fd-162">If no customization exists, create a Microsoft service request for further support.</span></span>
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
