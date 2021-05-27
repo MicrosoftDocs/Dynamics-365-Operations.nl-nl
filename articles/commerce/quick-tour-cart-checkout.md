@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d0b5a74a9880a5cabfdbc124f557998540c94a4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a574494784e9a534307cceff584e047d870dc401
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792238"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027934"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Overzicht van pagina's met winkelwagen en kassa
 
@@ -83,7 +83,7 @@ De klant kan het uitcheckproces voltooien als gastgebruiker of als een aangemeld
 
 ### <a name="order-summary"></a>Orderoverzicht
 
-De kassa laat een overzicht zien van de regelartikelen in de winkelwagen, zodat de klant de order kan controleren voordat hij of zij de order plaatst. De regelartikelen kunnen niet worden bewerkt tijdens de uitcheckstroom. Er wordt echter een koppeling naar de winkelwagen getoond als de gebruiker wil teruggaan om de regelartikelen te bewerken.
+De kassa laat een overzicht zien van de regelartikelen in de winkelwagen, zodat de klant de order kan controleren voordat de hij of zij de order plaatst. De regelartikelen kunnen niet worden bewerkt tijdens de uitcheckstroom. Er wordt echter een koppeling naar de winkelwagen getoond als de gebruiker wil teruggaan om de regelartikelen te bewerken.
 
 Nadat de klant verzend- en factuurgegevens heeft verstrekt, wordt in het orderoverzicht het bedrag weergegeven dat verschuldigd is nadat de loyaliteitspunten, geschenkbonnen en andere betalingen zijn toegepast.
 

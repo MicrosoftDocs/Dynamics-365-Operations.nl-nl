@@ -2,11 +2,9 @@
 title: Integratie van Dynamics 365 Commerce en Microsoft Teams inschakelen
 description: In dit onderwerp wordt beschreven hoe u integratie van Microsoft Dynamics 365 Commerce en Microsoft Teams inschakelt.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c4d596f27ffe15a97dc04e2ce7e85d21f8e7161f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: eb0b8b419b302fbd0bc107bca22f8b26774ba3c7
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908390"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019830"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Integratie van Dynamics 365 Commerce en Microsoft Teams inschakelen
 
@@ -39,9 +37,9 @@ Voordat u Microsoft Teams-integratie met Commerce inschakelt, moet u de Teams-to
 
 Volg deze stappen om de Teams-toepassing te registreren bij uw tenant in de Azure-portal.
 
-1. Volg de stappen in [Snelstart: Een app registreren op het Microsoft-identiteitsplatform](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) om de Teams-toepassing te registreren bij uw tenant in de Azure-portal.
+1. Volg de stappen in [Snelstart: Een app registreren op het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app) om de Teams-toepassing te registreren bij uw tenant in de Azure-portal.
 1. Kopieer de waarde van **Id van toepassing (client)** vanaf de pagina **Overzicht** voor de geregistreerde app. U gebruikt deze waarde om Teams-integratie mogelijk te maken in Commerce Headquarters.
-1. Kopieer de certificaatwaarde die werd ingevoerd bij het [toevoegen van een certificaat](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-certificate) in stap 1. Het certificaat wordt ook wel de openbare sleutel of toepassingssleutel genoemd. U gebruikt deze waarde om Teams-integratie mogelijk te maken in Commerce Headquarters.
+1. Kopieer de certificaatwaarde die werd ingevoerd bij het [toevoegen van een certificaat](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) in stap 1. Het certificaat wordt ook wel de openbare sleutel of toepassingssleutel genoemd. U gebruikt deze waarde om Teams-integratie mogelijk te maken in Commerce Headquarters.
 
 Voer de volgende stappen uit om Teams-integratie in te schakelen in Commerce Headquarters.
 

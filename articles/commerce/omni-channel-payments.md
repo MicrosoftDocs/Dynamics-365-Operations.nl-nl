@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: 07d8e740e8f20533272c403446d5e8294c9f37a1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7b99b5f7b5b972d41e0831995bde69e9041369b9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791121"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028006"
 ---
 # <a name="omni-channel-payments-overview"></a>Overzicht van betalingen voor meerdere kanalen
 
@@ -43,11 +43,11 @@ Dit onderwerp biedt een overzicht van betalingen voor meerdere kanalen in Dynami
 
 Over het algemeen verwijst *betalingen voor meerdere kanalen* naar de mogelijkheid om een order in één kanaal te maken en in een ander kanaal te vervullen. De sleutel tot de ondersteuning van betalingen voor meerdere kanalen is het bewaren van betalingsgegevens met de rest van de orderdetails om deze betalingsgegevens vervolgens te kunnen gebruiken wanneer de order wordt ingetrokken of verwerkt in een ander kanaal. Een klassiek voorbeeld is het scenario van online kopen en ophalen in de winkel. In dit scenario worden de betalingsgegevens toegevoegd wanneer de order online wordt gemaakt. Deze worden vervolgens weer ingetrokken in het POS om het bedrag in rekening te brengen van de betalingskaart van de klant bij het ophalen. 
 
-Alle scenario's die in dit onderwerp worden beschreven, kunnen worden geïmplementeerd met de standaard-SDK Betalingen die met Commerce wordt geleverd. De [Dynamics 365-betalingsconnector voor Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) biedt een standaardimplementatie van elk scenario dat hier wordt beschreven. 
+Alle scenario's die in dit onderwerp worden beschreven, kunnen worden geïmplementeerd met de standaard-SDK Betalingen die met Commerce wordt geleverd. De [Dynamics 365-betalingsconnector voor Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3) biedt een standaardimplementatie van elk scenario dat hier wordt beschreven. 
 
 ### <a name="prerequisites"></a>Vereisten
 
-Voor elk scenario dat in dit onderwerp wordt beschreven, hebt u een betalingsconnector die betalingen voor meerdere kanalen ondersteunt. De kant-en-klare Adyen-connector kan ook worden gebruikt omdat deze de scenario's ondersteunt die beschikbaar worden gesteld via de SDK Betalingen. Voor meer informatie over het implementeren van betalingsconnectors en over de Retail SDK in het algemeen gaat u naar de startpagina [Retail voor IT-professionals en ontwikkelaars](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
+Voor elk scenario dat in dit onderwerp wordt beschreven, hebt u een betalingsconnector die betalingen voor meerdere kanalen ondersteunt. De kant-en-klare Adyen-connector kan ook worden gebruikt omdat deze de scenario's ondersteunt die beschikbaar worden gesteld via de SDK Betalingen. Voor meer informatie over het implementeren van betalingsconnectors en over de Retail SDK in het algemeen gaat u naar de startpagina [Retail voor IT-professionals en ontwikkelaars](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page#payment-connectors).
 
 #### <a name="supported-versions"></a>Ondersteunde versies
 
@@ -57,14 +57,14 @@ De mogelijkheden voor betalingen voor meerdere kanalen die in dit onderwerp word
 
 De Betalingen-SDK vertrouwt op twee sets API's (Application Programming Interface) voor betalingen. De eerste set API's heeft de naam **iPaymentProcessor**. Deze wordt gebruikt voor de implementatie van connectors voor betalingen zonder kaart die kunnen worden gebruikt in callcenters en het platform Microsoft Dynamics e-Commerce. Zie voor meer informatie over de interface **iPaymentProcessor** de whitepaper [Implement a payment connector and a payment device](https://download.microsoft.com/download/e/2/7/e2735c65-1e66-4b8d-8a3c-e6ef3a319137/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device_update.pdf) over betalingen. 
 
-De tweede set API's heeft de naam **iNamedRequestHandler**. Deze set ondersteunt de implementatie van integraties van betalingen met kaart waarbij een betalingsterminal wordt gebruikt. Zie voor meer informatie over de interface **iNamedRequestHandler** het onderwerp [Betalingsintegratie maken voor een betalingsterminal](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension). 
+De tweede set API's heeft de naam **iNamedRequestHandler**. Deze set ondersteunt de implementatie van integraties van betalingen met kaart waarbij een betalingsterminal wordt gebruikt. Zie voor meer informatie over de interface **iNamedRequestHandler** het onderwerp [Betalingsintegratie maken voor een betalingsterminal](/dynamics365/unified-operations/retail/dev-itpro/end-to-end-payment-extension). 
 
 ### <a name="setup-and-configuration"></a>Instellingen en configuratie
 
 De volgende onderdelen en installatiestappen zijn vereist:
 
-- **eCommerce-integratie:** een integratie met Commerce is vereist ter ondersteuning van scenario's waarin een order afkomstig is uit een online winkel. Zie [e-Commerce platform software development kit (SDK)](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk) voor meer informatie over de SDK Retail e-Commerce. In een demo-omgeving ondersteunt de referentiewinkel scenario's voor betalingen voor meerdere kanalen. 
-- **Configuratie van online betalingen**: de instellingen van het online kanaal moeten een betalingsconnector bevatten die is bijgewerkt ter ondersteuning van betalingen voor meerdere kanalen. U kunt ook de kant-en-klare betalingsconnector gebruiken. Zie [Adyen-betalingsconnector](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce) voor informatie over het configureren van de Adyen-betalingsconnector voor online winkels. Naast de installatiestappen voor e-commerce die in dat onderwerp worden beschreven, moet de parameter **Opslaan van betalingsgegevens toestaan in e-commerce** zijn ingesteld op **Waar** in de instellingen voor de Adyen-connector. 
+- **eCommerce-integratie:** een integratie met Commerce is vereist ter ondersteuning van scenario's waarin een order afkomstig is uit een online winkel. Zie [e-Commerce platform software development kit (SDK)](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk) voor meer informatie over de SDK Retail e-Commerce. In een demo-omgeving ondersteunt de referentiewinkel scenario's voor betalingen voor meerdere kanalen. 
+- **Configuratie van online betalingen**: de instellingen van het online kanaal moeten een betalingsconnector bevatten die is bijgewerkt ter ondersteuning van betalingen voor meerdere kanalen. U kunt ook de kant-en-klare betalingsconnector gebruiken. Zie [Adyen-betalingsconnector](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce) voor informatie over het configureren van de Adyen-betalingsconnector voor online winkels. Naast de installatiestappen voor e-commerce die in dat onderwerp worden beschreven, moet de parameter **Opslaan van betalingsgegevens toestaan in e-commerce** zijn ingesteld op **Waar** in de instellingen voor de Adyen-connector. 
 - **Configuratie van betalingen voor meerdere kanalen**: ga in de back-office naar **Retail en Commerce \> Instelling van hoofdkantoor \> Parameters \> Gedeelde Commerce-parameters**. Stel vervolgens op het tabblad **Betalingen voor meerdere kanalen** de optie **Betalingen voor meerdere kanalen gebruiken** in op **Ja**. In Commerce versies 10.0.12 en hoger bevindt deze instelling zich in het werkgebied **Functiebeheer**. Selecteer de functie **Betalingen voor meerdere kanalen** en klik op **Nu inschakelen**. 
 - **Betalingsservices:** het callcenter gebruikt de standaardbetalingsconnector op de pagina **Betalingsservices** om betalingen te verwerken. Ter ondersteuning van scenario's, zoals 'kopen in callcenter, ophalen in winkel' wilt ondersteunen, moet deze standaardbetalingsconnector de Adyen-betalingsconnector of een betalingsconnector zijn die voldoet aan de implementatievereisten voor betalingen voor meerdere kanalen.
 - **EFT-service** : betalingen via een betalingsterminal moeten worden ingesteld op het sneltabblad **EFT-service** van het hardwareprofiel. De Adyen-connector ondersteunt kant-en-klare betalingen voor meerdere kanalen. Andere betalingsconnectors die de interface **iNamedRequestHandler** ondersteunen, kunnen ook worden gebruikt als ze betalingen voor meerdere kanalen ondersteunen.
@@ -219,7 +219,7 @@ Sommige kaarten kunnen niet worden gebruikt voor betalingen voor meerdere kanale
 
 ### <a name="using-a-different-card"></a>Een andere kaart gebruiken
 
-Een klant die bij de winkel komt om een order op te halen, heeft de optie om een andere kaart te gebruiken. Wanneer de kassamedewerker het verzoek **Beschikbare betalingsmethode gebruiken** ontvangt op het moment dat dat de order wordt opgehaald, kan hij of zij vragen of de klant dezelfde kaart wil gebruiken. Als de klant de kaart kwijt is die is gebruikt om de order te maken en de order wil betalen met een andere kaart, kan de kassamedewerker de optie **Een andere betalingsmethode gebruiken** selecteren. Als de klant later terugkomt om meer artikelen voor dezelfde order op te halen en de oorspronkelijke kaartautorisatie nog steeds geldig is, kan de kassamedewerker opnieuw vragen of de klant die kaart wil gebruiken.
+Een klant die bij de winkel komt om een order op te halen, heeft de optie om een andere kaart te gebruiken. Wanneer de kassamedewerker het verzoek **Beschikbare betalingsmethode gebruiken** ontvangt op het moment dat de order wordt opgehaald, kan de kassamedewerker vragen of de klant dezelfde kaart wil gebruiken. Als de klant de kaart kwijt is die is gebruikt om de order te maken en de order wil betalen met een andere kaart, kan de kassamedewerker de optie **Een andere betalingsmethode gebruiken** selecteren. Als de klant later terugkomt om meer artikelen voor dezelfde order op te halen en de oorspronkelijke kaartautorisatie nog steeds geldig is, kan de kassamedewerker opnieuw vragen of de klant die kaart wil gebruiken.
 
 ### <a name="invalid-authorizations"></a>Ongeldige autorisaties
 
@@ -231,9 +231,9 @@ Wanneer een order met meerdere betalingsmethoden en meerdere regels wordt opgeha
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-- [Veelgestelde vragen over betalingen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
-- [Dynamics 365-betalingsconnector voor Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
-- [BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
+- [Veelgestelde vragen over betalingen](/dynamics365/unified-operations/retail/dev-itpro/payments-retail)
+- [Dynamics 365-betalingsconnector voor Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
+- [BOPIS configureren in een Dynamics 365 Commerce-evaluatieomgeving](./cpe-bopis.md)
 
 
 

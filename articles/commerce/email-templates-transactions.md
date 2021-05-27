@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 55597e83a930fc7d8bcc4c0cf09abc82cb666b25
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bfc773bec035ceee151e2e2dd8925aa772747452
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792626"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019878"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>E-mailsjablonen maken voor transactiegebeurtenissen
 
@@ -195,7 +195,7 @@ Zie voor meer informatie over het configureren van e-mails in Dynamics 365 Comme
 
 [E-mail configureren en verzenden](../fin-ops-core/fin-ops/organization-administration/configure-email.md)
 
-[E-mail ontvangstbewijzen instellen](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
+[E-mail ontvangstbewijzen instellen](/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [E-mailontvangstbewijzen verzenden vanuit Modern POS](email-receipts.md)
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3cfe144f7bba2bbc4b25024b68155045271f6366
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5a2c596293e632bb6c06af56f413fcee9e867563
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795640"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022726"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Uitgaande voorraadbewerking in POS
 
@@ -71,7 +71,7 @@ De batchtaken die u maakt, worden gebruikt voor het verwerken van documenten die
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Vereiste: Uitgaande bewerking toevoegen aan de POS-schermindeling
 
-Voordat uw organisatie de functionaliteit voor uitgaande bewerkingen kan gebruiken, moet deze de POS-bewerking **Uitgaande bewerking** configureren op een of meer van uw [POS-schermindelingen](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Voordat u de nieuwe bewerking in een productieomgeving implementeert, moet u ervoor zorgen dat u deze grondig test en de gebruikers traint in het gebruik hiervan.
+Voordat uw organisatie de functionaliteit voor uitgaande bewerkingen kan gebruiken, moet deze de POS-bewerking **Uitgaande bewerking** configureren op een of meer van uw [POS-schermindelingen](/dynamics365/unified-operations/retail/pos-screen-layouts). Voordat u de nieuwe bewerking in een productieomgeving implementeert, moet u ervoor zorgen dat u deze grondig test en de gebruikers traint in het gebruik hiervan.
 
 ## <a name="overview"></a>Overzicht
 

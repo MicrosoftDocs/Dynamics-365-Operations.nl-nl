@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b8c3ab0653fd5e3561d0bfbe85624d912756e2be
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 659211f3a74c38389f991cd2385366d175b0c7c0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794182"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020254"
 ---
 # <a name="map-module"></a>Kaartmodule
 
@@ -29,7 +29,7 @@ ms.locfileid: "5794182"
 
 In dit onderwerp worden kaartmodules beschreven en hoe u ze configureert in Microsoft Dynamics 365 Commerce.
 
-Een kaartmodule toont de locaties van winkels op een interactieve kaart die wordt gegenereerd met behulp van het [V8-webbesturingselement van Bing Kaarten](https://docs.microsoft.com/bingmaps/v8-web-control/). Er is een API-sleutel voor Bing Kaarten vereist. Deze moet worden toegevoegd aan de pagina met gedeelde parameters in Commerce Headquarters. Kaartmodules bieden verschillende weergaven, zoals Road, Aerial en Streetside, die gebruikers kunnen selecteren om kaartlocaties weer te geven. Ze maken ook interacties mogelijk, zoals in- en uitzoomen en gebruik van de locatie van de gebruiker.
+Een kaartmodule toont de locaties van winkels op een interactieve kaart die wordt gegenereerd met behulp van het [V8-webbesturingselement van Bing Kaarten](/bingmaps/v8-web-control/). Er is een API-sleutel voor Bing Kaarten vereist. Deze moet worden toegevoegd aan de pagina met gedeelde parameters in Commerce Headquarters. Kaartmodules bieden verschillende weergaven, zoals Road, Aerial en Streetside, die gebruikers kunnen selecteren om kaartlocaties weer te geven. Ze maken ook interacties mogelijk, zoals in- en uitzoomen en gebruik van de locatie van de gebruiker.
 
 Een kaartmodule werkt samen met de winkelselectiemodule om de geografische locaties van winkels te bepalen die moeten worden weergegeven op een kaart. Winkelselectie- en kaartmodules communiceren wanneer een gebruiker een winkel selecteert in een van deze modules op een sitepagina. Kaartmodules kunnen worden uitgebreid voor andere scenario's, naast interactie met winkelselectiemodules. Het aanpassen van modules is echter vereist.
 
@@ -76,7 +76,7 @@ Zie [Winkelselectiemodule](store-selector.md) voor meer informatie over het conf
 
 [Bing Kaarten voor uw organisatie beheren](./dev-itpro/manage-bing-maps.md)
 
-[V8-webbesturingselement van Bing Kaarten](https://docs.microsoft.com/bingmaps/v8-web-control/)
+[V8-webbesturingselement van Bing Kaarten](/bingmaps/v8-web-control/)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bd93744cf947dcc343d2b31d3d52b2b748c062a9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 212f425dc3603f838ce030d9ed86f2e418bef29a
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792866"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019928"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Digitale geschenkbonnen voor e-commerce
 
@@ -51,12 +51,12 @@ Digitale geschenkbonproducten moeten in Commerce Headquarters worden geconfigure
 
     ![Veld Geschenkbonproduct in Commerce Headquarters](./media/PostGiftcard.png)
 
-- Als een geschenkbon meerdere vooraf gedefinieerde bedragen moet ondersteunen (bijvoorbeeld $ 25, $ 50 en $ 100), moet de dimensie **Grootte** worden gebruikt om deze vooraf gedefinieerde bedragen in te stellen. Elk vooraf gedefinieerd bedrag wordt een variant. Zie [Productdimensies](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json) voor meer informatie.
+- Als een geschenkbon meerdere vooraf gedefinieerde bedragen moet ondersteunen (bijvoorbeeld $ 25, $ 50 en $ 100), moet de dimensie **Grootte** worden gebruikt om deze vooraf gedefinieerde bedragen in te stellen. Elk vooraf gedefinieerd bedrag wordt een variant. Zie [Productdimensies](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json) voor meer informatie.
 - Als klanten een aangepast bedrag voor een geschenkbon moeten kunnen opgeven, stelt u eerst een variant in die een aangepast bedrag toestaat. Open vervolgens het product vanuit de pagina **Vrijgegeven producten in categorie** en stel vervolgens op het sneltabblad **Commerce** het veld **Prijs intoetsen** in op **Moet geen prijs intoetsen** (zie de volgende illustratie). Met deze instelling wordt gegarandeerd dat klanten een prijs kunnen invoeren wanneer ze in een PDP door het product bladeren.
 
     ![Veld Prijs intoetsen Commerce Headquarters](./media/KeyInPrice.png)
 
-- De leveringsmodus voor een digitale geschenkbon moet worden ingesteld op **Elektronisch**. Selecteer op de pagina **Leveringsmethoden** (**Retail and commerce \> Kanaal instellen \> Leveringsmethode**) de modus **Elektronisch** in het lijstdeelvenster en voeg het digitale geschenkbonproduct aan het raster op het sneltabblad **Producten** toe (zie de volgende illustratie). Zie [Leveringsmethoden instellen](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery) voor meer informatie.
+- De leveringsmodus voor een digitale geschenkbon moet worden ingesteld op **Elektronisch**. Selecteer op de pagina **Leveringsmethoden** (**Retail and commerce \> Kanaal instellen \> Leveringsmethode**) de modus **Elektronisch** in het lijstdeelvenster en voeg het digitale geschenkbonproduct aan het raster op het sneltabblad **Producten** toe (zie de volgende illustratie). Zie [Leveringsmethoden instellen](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery) voor meer informatie.
 
     ![Digitale geschenkbonproducten op de pagina Leveringsmethode in Commerce Headquarters](./media/ElectronicMode.PNG)
 
@@ -89,9 +89,9 @@ Voer de volgende stappen uit om een aangepast bedrag te configureren voor een di
 
 [Een nieuw product maken in Commerce](create-new-product-commerce.md)
 
-[Leveringsmethoden instellen](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Leveringsmethoden instellen](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
-[Productdimensies](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)
+[Productdimensies](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)
 
 [Een profiel voor e-mailmeldingen instellen](email-notification-profiles.md)
 

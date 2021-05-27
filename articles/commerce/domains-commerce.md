@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 8d4381c64b69f8b62dcb509407c4f04dcee696ae
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792794"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022831"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeinen in Dynamics 365 Commerce
 
@@ -151,7 +151,7 @@ Het door Commerce geleverde Azure Front Door-exemplaar ondersteunt geen Apex-dom
 
   [Een nieuwe e-commerce-tenant implementeren](deploy-ecommerce-site.md)
 
-  [Een online winkelafzetkanaal instellen](online-stores.md)
+  [Een online winkelafzetkanaal instellen](./channel-setup-online.md)
 
   [Een e-commerce-site maken](create-ecommerce-site.md)
 

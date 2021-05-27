@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0c7aa3bc1d4eef7b557bd9b07b31196faab273d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791073"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022467"
 ---
 # <a name="e-commerce-site-overview"></a>Overzicht van e-commercesite
 
@@ -37,11 +37,11 @@ In Dynamics 365 Commerce gebruikt u een online kanaal om de producten, prijzen, 
 
 Er hoeft slechts één online kanaal te worden ingesteld voordat u aan de slag kunt gaan met Dynamics 365 Commerce. Een enkele e-commerce-site kan echter de online ervaring voor meerdere online winkels bieden. Als meerdere online winkels bijvoorbeeld zijn ingesteld ter ondersteuning van verschillende geografische regio's, kan één set e-commercepagina's worden gebruikt om de unieke ervaringen te bieden die door elke winkel worden gedefinieerd. Zie [Een online-site koppelen aan een kanaal](associate-site-online-store.md) voor meer informatie over het configureren van een site voor de ondersteuning van meerdere online winkels.
 
-Nadat een online winkel is ingesteld, kan deze worden gekoppeld aan de Dynamics 365 Commerce-site die als uw online winkel zal fungeren. Zie [Online winkels instellen](https://docs.microsoft.com/dynamics365/unified-operations/retail/online-stores) voor meer informatie over online winkels en hoe u deze instelt.
+Nadat een online winkel is ingesteld, kan deze worden gekoppeld aan de Dynamics 365 Commerce-site die als uw online winkel zal fungeren. Zie [Online winkels instellen](/dynamics365/unified-operations/retail/online-stores) voor meer informatie over online winkels en hoe u deze instelt.
 
 ## <a name="deploy-a-new-e-commerce-tenant"></a>Een nieuwe e-commerce-tenant implementeren
 
-Tijdens de initialisatie van een e-commercepagina wordt u gevraagd een domeinnaam op te geven. Zie [Uw domeinnaam configureren](configure-your-domain-name.md) en [Domeinen in Dynamics 365 Commerce](domains-commerce.md) voor meer informatie over domeinen in Commerce. Als u een nieuwe e-commerce-tenant wilt implementeren met behulp van [Microsoft Dynamics Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide), volgt u de stappen in [Implementatie van een nieuwe e-commerce-tenant](deploy-ecommerce-site.md). Nadat uw e-commerce-tenant is ingesteld in LCS wordt er een koppeling naar een Commerce site builder geleverd. U kunt vervolgens Commerce site builder gebruiken om uw e-commercepagina's te initialiseren en te configureren.
+Tijdens de initialisatie van een e-commercepagina wordt u gevraagd een domeinnaam op te geven. Zie [Uw domeinnaam configureren](configure-your-domain-name.md) en [Domeinen in Dynamics 365 Commerce](domains-commerce.md) voor meer informatie over domeinen in Commerce. Als u een nieuwe e-commerce-tenant wilt implementeren met behulp van [Microsoft Dynamics Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide), volgt u de stappen in [Implementatie van een nieuwe e-commerce-tenant](deploy-ecommerce-site.md). Nadat uw e-commerce-tenant is ingesteld in LCS wordt er een koppeling naar een Commerce site builder geleverd. U kunt vervolgens Commerce site builder gebruiken om uw e-commercepagina's te initialiseren en te configureren.
 
 ## <a name="initialize-your-e-commerce-site"></a>Uw e-commercepagina initialiseren
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 5ec0e13c8ecfb6003cbb905e66fc102074e7b9b6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 17ed0adefb2c3dd10e5e6020929c877cf5c3b8c9
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795520"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022618"
 ---
 # <a name="set-up-call-center-channels"></a>Callcenterkanalen instellen
 
@@ -37,7 +37,7 @@ Gebruikers moeten worden gekoppeld aan een callcenterkanaal om de functies van h
 
 Ook kan een profiel voor e-mailmelding worden geconfigureerd op het callcenterkanaal. Het profiel definieert de set met e-mailsjablonen die wordt gebruikt wanneer e-mail wordt verzonden aan klanten die orders plaatsen via het callcenterkanaal. Het activeren van de e-mail kan worden geconfigureerd voor systeemgebeurtenissen, zoals het indienen van de order of een zending.
 
-Voor het correct verwerken van verkopen via een callcenterkanaal, moeten de juiste [betalingsmethoden](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-payments) en leveringsmethoden worden gedefinieerd voor het kanaal.
+Voor het correct verwerken van verkopen via een callcenterkanaal, moeten de juiste [betalingsmethoden](/dynamics365/unified-operations/retail/work-with-payments) en leveringsmethoden worden gedefinieerd voor het kanaal.
 
 U kunt op het niveau van het callcenterkanaal andere standaardwaarden definiëren die zijn gerelateerd aan de financiële dimensies die wordt gekoppeld aan orders die zijn gemaakt door dat kanaal.
 
@@ -47,13 +47,13 @@ Drie instellingen van de configuratie van een callcenter hebben veel invloed op 
 
 ### <a name="enable-order-completion"></a>Ordervoltooiing inschakelen
 
-De instelling **Ordervoltooiing inschakelen** voor het callcenterkanaal heeft een groot effect voor de orderverwerkingstroom van verkooporders die zijn ingevoerd voor dat kanaal. Als deze instelling is ingeschakeld, moeten alle verkooporders een set validatieregels doorlopen voordat deze kunnen worden bevestigd. U voert deze regels uit door het selecteren van de knop **Voltooien** die wordt toegevoegd aan het actievenster van de verkooporderpagina. Alle verkooporders die worden gemaakt als de instelling **Ordervoltooiing inschakelen** is ingeschakeld, moeten het ordervoltooiingsproces doorlopen. Dit proces zorgt voor de opname van betalingen en validatielogica voor betalingen. Naast het uitvoeren van de betaling activeert het orderverzendproces [fraudecontroles](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts) die u in het systeem configureert. Orders waarvoor de betaling mislukt of frauduleuze validaties worden in de wachtstand geplaatst en kunnen niet worden vrijgegeven voor verdere verwerking (zoals orderverzamelen of verzending) totdat het probleem van de blokkering opgelost is.
+De instelling **Ordervoltooiing inschakelen** voor het callcenterkanaal heeft een groot effect voor de orderverwerkingstroom van verkooporders die zijn ingevoerd voor dat kanaal. Als deze instelling is ingeschakeld, moeten alle verkooporders een set validatieregels doorlopen voordat deze kunnen worden bevestigd. U voert deze regels uit door het selecteren van de knop **Voltooien** die wordt toegevoegd aan het actievenster van de verkooporderpagina. Alle verkooporders die worden gemaakt als de instelling **Ordervoltooiing inschakelen** is ingeschakeld, moeten het ordervoltooiingsproces doorlopen. Dit proces zorgt voor de opname van betalingen en validatielogica voor betalingen. Naast het uitvoeren van de betaling activeert het orderverzendproces [fraudecontroles](/dynamics365/unified-operations/retail/set-up-fraud-alerts) die u in het systeem configureert. Orders waarvoor de betaling mislukt of frauduleuze validaties worden in de wachtstand geplaatst en kunnen niet worden vrijgegeven voor verdere verwerking (zoals orderverzamelen of verzending) totdat het probleem van de blokkering opgelost is.
 
-Wanneer de instelling **Ordervoltooiing inschakelen** is ingeschakeld voor het callcenterkanaal en er regelitems zijn ingevoerd op een verkooporder, en de gebruiker van het kanaal het verkooporderformulier wil sluiten of verlaten zonder dat **Voltooid** is geselecteerd, zorgt het ordervoltooiingsporces dat de pagina Samenvatting van verkooporder wordt geopend en moet de gebruiker de order correct indienen. Als de order niet correct kan worden ingediend met de betaling, kan de gebruiker de functie [Orderwachtstanden](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) toepassen om de order in de wachtstand te plaatsen. Als de gebruiker de order wil annuleren, moet hij of zij juist deze annuleren met behulp van de functie Annuleren of Verwijderen, afhankelijk van de functie die wordt toegestaan door de beveiliging.
+Wanneer de instelling **Ordervoltooiing inschakelen** is ingeschakeld voor het callcenterkanaal en er regelitems zijn ingevoerd op een verkooporder, en de gebruiker van het kanaal het verkooporderformulier wil sluiten of verlaten zonder dat **Voltooid** is geselecteerd, zorgt het ordervoltooiingsporces dat de pagina Samenvatting van verkooporder wordt geopend en moet de gebruiker de order correct indienen. Als de order niet correct kan worden ingediend met de betaling, kan de gebruiker de functie [Orderwachtstanden](/dynamics365/unified-operations/retail/work-with-order-holds) toepassen om de order in de wachtstand te plaatsen. Als de gebruiker de order wil annuleren, moet hij of zij juist deze annuleren met behulp van de functie Annuleren of Verwijderen, afhankelijk van de functie die wordt toegestaan door de beveiliging.
 
 Als de instelling **Ordervoltooiing inschakelen** is ingeschakeld voor het callcenterkanaal, wordt het veld **Betalingsstatus** bijgehouden op de order. Het systeem berekent de **betalingsstatus** wanneer de verkooporder wordt ingediend. Alleen orders met een goedgekeurde betalingsstatus mogen verdergaan naar extra orderverwerkingsstappen, zoals verzamelen en verzenden. Als betalingen worden geweigerd, wordt de markering **Niet verwerken** ingeschakeld voor de gedetailleerde orderstatus, waarmee deze order wordt geblokkeerd totdat het betalingsprobleem is opgelost.
 
-Als de instelling **Ordervoltooiing inschakelen** is ingeschakeld wanneer gebruikers verkooporders maken en in de invoermodus regelartikel zijn, is het veld **Bron** beschikbaar op de koptekst van de hoofdverkooporder. het veld **Bron** wordt gebruikt een [catalogusbroncode](https://docs.microsoft.com/dynamics365/unified-operations/retail/call-center-catalogs) vast te leggen in een verkoopscenario voor direct marketing. Deze code kan vervolgens speciale prijzen en promoties opgeven.
+Als de instelling **Ordervoltooiing inschakelen** is ingeschakeld wanneer gebruikers verkooporders maken en in de invoermodus regelartikel zijn, is het veld **Bron** beschikbaar op de koptekst van de hoofdverkooporder. het veld **Bron** wordt gebruikt een [catalogusbroncode](/dynamics365/unified-operations/retail/call-center-catalogs) vast te leggen in een verkoopscenario voor direct marketing. Deze code kan vervolgens speciale prijzen en promoties opgeven.
 
 Zelfs als de instelling **Ordervoltooiingi inschakelen** is uitgeschakeld, kunnen gebruikers nog steeds een broncode toepassen op een verkooporder. Maar ze moeten eerst de koptekstgegevens van de verkooporder openen voor toegang tot het veld **Bron**. Er zijn dus een aantal aanvullende muisklikken nodig. Dezelfde situatie is van toepassing op functies zoals zending voltooid en afgehandelde orders. Deze functies zijn beschikbaar voor alle orders die zijn gemaakt in het callcenter. Als de instelling **Ordervoltooiing inschakelen** is ingeschakeld, kunnen gebruikers de configuratie van deze functies zien in de verkoopkoptekst in de weergave voor regelinvoer. Ze hoeven niet in te zoommen naar de koptekstgegevens van de verkooporder om de gewenste instellingen en velden te zien.
 

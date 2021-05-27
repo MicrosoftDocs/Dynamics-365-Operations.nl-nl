@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: aa00e9331693600ced2f4ead399a0c005b77ad08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d29e560d0f7b2bbc2415d7a0f6fe18f2ca17dc7c
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801502"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020727"
 ---
 # <a name="cant-configure-a-security-group-for-commerce-site-builder-during-initial-deployment"></a>Kan een beveiligingsgroep voor Commerce Site Builder niet configureren tijdens de initiële implementatie
 
@@ -38,7 +37,7 @@ Wanneer u de e-commerce-onderdelen maakt als onderdeel van het proces voor de im
 ### <a name="provision-the-e-commerce-site-with-a-user-in-the-correct-tenant"></a>De e-commercesite inrichten met een gebruiker in de juiste tenant
 
 1. Ga naar de [Azure-portal](https://portal.azure.com/).
-1. Volg onder de tenant waarvoor het LCS-project voor uw e-commercesite is ingericht de instructies in [Een basisgroep maken en leden toevoegen via Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
+1. Volg onder de tenant waarvoor het LCS-project voor uw e-commercesite is ingericht de instructies in [Een basisgroep maken en leden toevoegen via Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal).
 1. Ga naar [LCS](https://lcs.dynamics.com/) en meld u aan met een account die dezelfde tenant heeft als de Azure AD-beveiligingsgroep die u zojuist hebt gemaakt. De account moet toegang hebben om de Azure AD-beveiligingsgroep weer te geven.
 1. Voltooi de instellingsstappen om de e-commercesite te configureren. Bij de levering van de e-commerce-onderdelen moet de beveiligingsgroep nu als een optie in het dialoogvenster worden weergegeven.
 
@@ -47,6 +46,6 @@ Wanneer u de e-commerce-onderdelen maakt als onderdeel van het proces voor de im
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Een basisgroep maken en leden toevoegen met Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
+[Een basisgroep maken en leden toevoegen met Azure Active Directory](/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal)
 
 [Een nieuwe e-commercetenant implementeren](../deploy-ecommerce-site.md)

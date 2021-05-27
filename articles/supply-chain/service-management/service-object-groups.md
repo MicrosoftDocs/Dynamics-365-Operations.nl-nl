@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a559bdc8f7851e38274d9d23070f969502942ad8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 68355cb481de210a4a3bdb9e2fce16eca429e3db
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835865"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016050"
 ---
-# <a name="service-object-groups"></a>Serviceobjectgroepen 
+# <a name="service-object-groups"></a>Serviceobjectgroepen
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,17 +32,17 @@ Objectgroepen zijn handig voor het sorteren en filteren van de gegevens over obj
 
 U kunt deze groeperingsmethode gebruiken om te laten zien waar de verschillende objecten zich bevinden waarvoor uw bedrijf service verleent. Het groeperen van objecten op geografische locatie kan bijvoorbeeld ook handig zijn als u de objecten moet identificeren waarvoor uw bedrijf al services verleent in een bepaald land of een bepaalde regio.
 
-## <a name="example"></a>Voorbeeld
+## <a name="example-of-grouping-by-geographical-location"></a>Voorbeeld van groepering op geografische locatie
 
-Een klant uit België belt uw servicecentrum en wil een serviceovereenkomst maken voor een object, ABC. U hebt een objectgroep voor de geografische locatie, België, gekoppeld aan alle objecten waarvoor in België service wordt verleend. Door deze groep als filter te gebruiken, kunt u snel controleren of u al een record voor ABC in het programma hebt of dat u een nieuw object moet instellen. 
+Een klant uit België belt uw servicecentrum en wil een serviceovereenkomst maken voor een object, ABC. U hebt een objectgroep voor de geografische locatie, België, gekoppeld aan alle objecten waarvoor in België service wordt verleend. Door deze groep als filter te gebruiken, kunt u snel controleren of u al een record voor ABC in het programma hebt of dat u een nieuw object moet instellen.
 
 ## <a name="group-by-type"></a>Groeperen op type
 
 U kunt deze groeperingsmethode gebruiken om de typen objecten waarvoor uw bedrijf services verleent te laten zien. Het groeperen van objecten op type kan ook handig zijn als u bijvoorbeeld een nieuw object wilt maken op basis van vergelijkbare objecten die al in het programma bestaan.
 
-## <a name="example"></a>Voorbeeld
+## <a name="example-of-grouping-by-type"></a>Voorbeeld van groepering op type
 
-Een klant belt omdat deze een serviceovereenkomst wil instellen voor een airconditioningapparaat, HIJ. U hebt nog geen record voor dit apparaat. U hebt echter een objectgroep, getiteld Airconditioners ingesteld, en u hebt deze groep aan alle airconditioningobjecten gekoppeld. Daarom kunt u snel alle andere airconditioningapparaten zoeken en identificeren, en de sjabloongegevens van deze objecten gebruiken om de basis te leggen voor serviceovereenkomstregels voor HIJ. Als u objectgroepen op deze manier gebruikt, kunt u snel nieuwe objecten instellen en bepalen welke servicetaken hiervoor moeten worden uitgevoerd. 
+Een klant belt omdat deze een serviceovereenkomst wil instellen voor een airconditioningapparaat, HIJ. U hebt nog geen record voor dit apparaat. U hebt echter een objectgroep, getiteld Airconditioners ingesteld, en u hebt deze groep aan alle airconditioningobjecten gekoppeld. Daarom kunt u snel alle andere airconditioningapparaten zoeken en identificeren, en de sjabloongegevens van deze objecten gebruiken om de basis te leggen voor serviceovereenkomstregels voor HIJ. Als u objectgroepen op deze manier gebruikt, kunt u snel nieuwe objecten instellen en bepalen welke servicetaken hiervoor moeten worden uitgevoerd.
 
 ## <a name="create-service-object-groups"></a>Serviceobjectgroepen maken
 

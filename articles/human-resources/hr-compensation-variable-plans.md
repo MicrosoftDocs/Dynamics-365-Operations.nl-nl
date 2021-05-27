@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 874d879c04e6b16889ca6900962394036278ba10
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ab5e0db339615ad9c434e3e65b6f04ff9fb4cc25
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800874"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027765"
 ---
 # <a name="create-variable-compensation-plans"></a>Variabelecompensatieplannen maken
 
@@ -38,7 +38,7 @@ De berekening van variabele compensatiebedragen voor uw werknemers kan worden ge
 
 ### <a name="describe-vesting-rules"></a>Toekenningsregels omschrijven
 
-Bedrijven kunnen desgewenst **toekenningsregels** instellen. Met vestigingsregels wordt beschreven hoe de variabele beloning na verloop van tijd moet worden toegewezen. Een vestigingsregel kan bijvoorbeeld aangeven dat de werknemer 25 procent van zijn of haar totale beloning elk jaar voor de volgende vier jaar ontvangt. Vestigingsregels zijn alleen ter informatie.
+Bedrijven kunnen desgewenst **toekenningsregels** instellen. Met vestigingsregels wordt beschreven hoe de variabele beloning na verloop van tijd moet worden toegewezen. Een vestigingsregel kan bijvoorbeeld aangeven dat de werknemer 25 procent van de totale beloning elk jaar voor de volgende vier jaar ontvangt. Vestigingsregels zijn alleen ter informatie.
 
 ## <a name="variable-compensation-plans"></a>Variabelecompensatieplannen
 Het **variabelecompensatieplan** bevat de regels, de berekeningsmethoden en de standaardwaarden voor de berekening van variabele compensatie voor ingeschreven werknemers. Wanneer u een variabel compensatieplan maakt, moet u het variabele compensatietype instellen. Met het variabele compensatietype wordt bepaald of een valutabedrag of een aantal eenheden als beloning wordt berekend. U moet de berekeningsmethode ook instellen:
@@ -49,7 +49,7 @@ Het **variabelecompensatieplan** bevat de regels, de berekeningsmethoden en de s
 Het bedrag van de variabele toekenning kan op een percentage van de normale basisinkomsten van de werknemer of een bepaald aantal eenheden worden gebaseerd.
 
 -   Selecteer de optie **Percentage van basis** om een standaardpercentage in te voeren en geef op of de basis het vaste salaristarief van de werknemer of het controlepunt voor het compensatieniveau van de werknemer moet zijn. Het compensatieniveau wordt ingesteld op de functie van de werknemer. Een van de referentiepunten uit de compensatiestructuur kan worden ingesteld als het controlepunt in het vaste compensatieplan. Het systeem gebruikt het compensatieniveau van de functie van de werknemer en voert een kruisverwijzing uit met het controlepunt dat wordt vermeld in het vaste compensatieplan van de werknemer om het controlepuntbedrag te vinden voor het compensatieniveau van de werknemer. Het controlepuntbedrag wordt vervolgens gebruikt in plaats van het vaste loontarief van de werknemer als de basis voor de beloning.
--   Selecteer de optie **Aantal eenheden** om een standaardaantal eenheden, de waarde van elke eenheid en de valuta van de eenheidswaarde in te voeren als het compensatieplan voor een niet-contante toekenning is (bijvoorbeeld 200 eenheden van voorraad die wordt gewaardeerd op 40 USD) of alleen het aantal eenheden als het compensatieplan voor een contante toekenning is. Voor een contante beloning ontvangt de werknemer het opgegeven aantal eenheden van de valuta die wordt gebruikt voor zijn of haar vaste compensatieplan (bijvoorbeeld 500 eenheden van 1 EUR). Het besturingselement van de een-op-een-relatie kan worden gebruikt om aan te geven of er een directe een-op-een-toewijzing tussen het aantal eenheden en de waarde per eenheid is. Wanneer u een variabel compensatieplan maakt voor een op contanten gebaseerd plan met behulp van het aantal eenheden, wordt deze optie automatisch vergrendeld op **Ja** en is de eenheidwaarde **1,0000**.
+-   Selecteer de optie **Aantal eenheden** om een standaardaantal eenheden, de waarde van elke eenheid en de valuta van de eenheidswaarde in te voeren als het compensatieplan voor een niet-contante toekenning is (bijvoorbeeld 200 eenheden van voorraad die wordt gewaardeerd op 40 USD) of alleen het aantal eenheden als het compensatieplan voor een contante toekenning is. Voor een contante beloning ontvangt de werknemer het opgegeven aantal eenheden van de valuta die wordt gebruikt voor het vaste compensatieplan (bijvoorbeeld 500 eenheden van 1 EUR). Het besturingselement van de een-op-een-relatie kan worden gebruikt om aan te geven of er een directe een-op-een-toewijzing tussen het aantal eenheden en de waarde per eenheid is. Wanneer u een variabel compensatieplan maakt voor een op contanten gebaseerd plan met behulp van het aantal eenheden, wordt deze optie automatisch vergrendeld op **Ja** en is de eenheidwaarde **1,0000**.
 
 Met de instelling **Aanstellingsregel** kunt u opgeven of alle werknemers dezelfde verhoging moeten krijgen, ongeacht de datum waarop ze in dienst zijn gekomen (**Aanstellingsregel** = **Geen**) of dat werknemers een percentage krijgen van de beloning die wordt gebaseerd op de duur van het dienstverband gedurende de cyclus (**Aanstellingsregel** = **Percentage**). 
 

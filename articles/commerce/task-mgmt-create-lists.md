@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: a0e49d1eced3bb62e78c630b137a5b86121682f3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f3fcfae9f4ab458b4f14f18859f22fc25bf98623
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795232"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027619"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Takenlijsten maken en taken toevoegen
 
@@ -49,7 +49,7 @@ Volg deze stappen om taken toe te voegen aan een takenlijst.
 1. Voer in het dialoogvenster **Een nieuwe taak maken**, in het veld **Naam** een naam in voor de taak.
 1. Voer in het veld **Verschuiving van vervaldatum vanaf doeldatum** een positief of negatief geheel getal in. Voer bijvoorbeeld **-2** in als de taak twee dagen vóór de vervaldatum van de takenlijst moet zijn voltooid.
 1. Voer in het veld **Notities** gedetailleerde instructies in.
-1. Voer in het veld **Contactpersoon** de naam in van een deskundige die contact kan opnemen met de eigenaar van de taak als hij of zij hulp nodig heeft.
+1. Voer in het veld **Contactpersoon** de naam in van een deskundige die contact kan opnemen met de eigenaar van de taak als deze hulp nodig heeft.
 1. Voer in het veld **Taakkoppeling** een koppeling in op basis van de aard van de taak.
 
 > [!TIP]

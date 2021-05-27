@@ -365,9 +365,7 @@
                   href: asset-management/objects/object-specification-overview.md
             - name: Instellingen voor onderhoudsaanvragen
               items:
-                - name: Onderhoudsaanvragen
-                  href: asset-management/setup-for-maintenance-requests/requests.md
-                - name: Statussen van levenscyclus voor onderhoudsaanvragen
+                - name: Levenscyclusstatussen van onderhoudsverzoek
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: Typen onderhoudsaanvragen
                   href: asset-management/setup-for-maintenance-requests/request-types.md
@@ -3343,8 +3341,94 @@
               href: inventory/extend-on-hand-entities.md
         - name: Problemen oplossen
           items:
+            - name: Kostenbeheer
+              items:
+                - name: Ontbrekende veldinstellingen voor het kopiëren van artikelmodelgroepen naar een andere rechtspersoon
+                  href: troubleshooting/costing/copying-item-model-groups.md
+                - name: Het rapport Indirecte kosten in verwerking bevat verwijderde productieorders
+                  href: troubleshooting/costing/indirect-costs-in-pr.md
+                - name: Inkooptoerekening met een bedrag van nul geboekt voor productontvangstbon met nulwaarde
+                  href: troubleshooting/costing/posting-to-purchase.md
+                - name: Fysiek ontvangen inkooporders worden niet weergegeven in het voorraadafsluitingsrapport
+                  href: troubleshooting/costing/purchase-orders-rece.md
+                - name: Er wordt geen begindatum weergegeven op het tabblad Actieve prijzen op de pagina Artikelprijs
+                  href: troubleshooting/costing/there-is-no-from-dat.md
+            - name: Voorraadbeheer
+              items:
+                - name: Meerdere voorraadtransacties voor batchnummers zonder Bij fysieke update
+                  href: troubleshooting/inventory/multiple-inventory-t.md
+                - name: 'Als u een gereedgemeld rapport omkeert, wordt een onverwachte openstaande transactie gemaakt'
+                  href: troubleshooting/inventory/reverse-report-as-fi.md
+                - name: Kan geen nieuwe notities weergeven die aan een journaal zijn gekoppeld in het orderverzamellijstrapport
+                  href: troubleshooting/inventory/unable-to-print-the.md
+                - name: De hoeveelheid op een gestarte quarantaineorder wordt niet bijgewerkt wanneer de order wordt gesplitst
+                  href: troubleshooting/inventory/quantity-on-a-start.md
+                - name: Het veld Datum laatst getest wordt niet bijgewerkt wanneer er meerdere kwaliteitsorders worden gemaakt
+                  href: troubleshooting/inventory/the-field-last-test.md
+                - name: Bij het splitsen van een catch weight-hoeveelheid wordt een minimumhoeveelheid gebruikt in plaats van een nominale hoeveelheid
+                  href: troubleshooting/inventory/while-splitting-the.md
+            - name: Hoofdplanning
+              items:
+                - name: Rechtsreeks afgeleide gefiatteerde orders worden verwerkt door een in-review werkstroom
+                  href: troubleshooting/planning/firmed-directly-deri.md
+                - name: Hoofdplanning genereert geplande orders voor phantom-producten
+                  href: troubleshooting/planning/planned-orders-are-g.md
+                - name: Geplande inkooporder die wordt gemaakt wanneer een aankoop binnen negatieve dagen bestaat
+                  href: troubleshooting/planning/planning-optimisatio.md
+                - name: Kan de kostprijs niet uploaden in prognoseboekingen voor vraag
+                  href: troubleshooting/planning/unable-to-upload-the.md
+                - name: Kan de prognosedimensie voor magazijnvraag niet verwijderen van prognoseregels
+                  href: troubleshooting/planning/warehouse-removal-fr.md
+            - name: Inkoop
+              items:
+                - name: Kan een klantgerichte verkooporder in het VEL-bedrijf niet factureren
+                  href: troubleshooting/procurement/not-able-to-invoice-.md
+                - name: Kan geen regel aan een opdracht tot inkoop toevoegen na het aanvragen van een wijziging
+                  href: troubleshooting/procurement/purchase-requisition.md
+            - name: Productgegevensbeheer
+              items:
+                - name: Kan geen sjabloon toepassen om een vrijgegeven product te maken
+                  href: troubleshooting/products/apply-template-in-re.md
+                - name: Kan een artikel niet importeren met de entiteit Vrijgegeven producten V2
+                  href: troubleshooting/products/cannot-import-with-r.md
+                - name: In inkooporders wordt geen vertaalde producttekst weergegeven
+                  href: troubleshooting/products/when-the-customer-ad.md
+            - name: Productiebeheer
+              items:
+                - name: Instellingen voor wisprincipe op stuklijstregels worden niet gerespecteerd
+                  href: troubleshooting/production/flushing-principle-n.md
+                - name: Batchnummer wordt gewist bij het selecteren van een nieuwe partij-id
+                  href: troubleshooting/production/when-customer-is-try.md
+                - name: Later selecteren wordt niet gerespecteerd bij het opnieuw instellen van productieorders via een batchtaak
+                  href: troubleshooting/production/late-selection-is-no.md
+                - name: Gebruikers kunnen de verzameling van materiaalregels ongedaan maken voor producten die zijn gereedgemeld
+                  href: troubleshooting/production/raw-material-lines-a.md
+                - name: Fout bij het boeken van een rapport als voltooid journaal
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: Het magazijn in het orderverzamellijstjournaal wordt niet bijgewerkt op een stuklijstregel
+                  href: troubleshooting/production/the-warehouse-in-pic.md
+            - name: Kortingsbeheer
+              items:
+                - name: Het cumuleren van klantkortingen met artikelkortingsgroepen mislukt
+                  href: troubleshooting/rebates/cumulating-customer-.md
+            - name: Verkoop en marketing
+              items:
+                - name: Systeembeheerders kunnen orderwachtstanden niet wissen omdat ze niet zijn geautoriseerd
+                  href: troubleshooting/sales/system-administrator.md
+            - name: Transportbeheer
+              items:
+                - name: Kan alleen de hoofdrekening als kredietrekening toevoegen om afstemmingsredenen
+                  href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Magazijnbeheer
               items:
+                - name: Er treedt een fout op bij het kiezen van de locatie tijdens de registratie van de orderverzamellijst
+                  href: troubleshooting/warehousing/error-cannot-update.md
+                - name: In het verpakkingsstation worden geen productnotities weergegeven
+                  href: troubleshooting/warehousing/packing-station-not-.md
+                - name: 'Locatieprofiel staat negatieve voorraad niet toe, maar negatieve voorhanden voorraad is toegestaan'
+                  href: troubleshooting/warehousing/location-profile-set.md
+                - name: Er wordt slechts één label voor meerdere werkkoppen afgedrukt op één ontvangstbewijs
+                  href: troubleshooting/warehousing/when-receipting-prod.md
                 - name: U kunt een zending niet bevestigen vanwege een probleem met de kalender
                   href: troubleshooting/warehousing/load-has-active-appo.md
                 - name: U kunt een zending niet bevestigen vanwege onvolledig of ontbrekend werk

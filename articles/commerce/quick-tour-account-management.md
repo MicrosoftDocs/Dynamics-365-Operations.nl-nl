@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dc4ae56be1740f0160b4e4777f8db93a6bc4e704
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792262"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027958"
 ---
 # <a name="account-management-pages-overview"></a>Overzicht van pagina's voor rekeningbeheer
 
@@ -39,7 +39,7 @@ In de volgende afbeelding ziet u een voorbeeld van de landingspagina voor accoun
 
 ### <a name="my-profile-page"></a>Mijn profielpagina
 
-Op de pagina **Mijn profiel** worden de accountgegevens van de klant weergegeven, zoals zijn of haar naam en telefoonnummer. De klant kan zijn of haar profielgegevens op deze pagina bijwerken. Deze pagina kan zodanig worden aangepast dat er extra voorkeuren voor het klantaccount zijn, zoals een optie om te kiezen voor marketing via e-mail.
+Op de pagina **Mijn profiel** worden de accountgegevens van de klant weergegeven, zoals de naam en het telefoonnummer. De klant kan de profielgegevens op deze pagina bijwerken. Deze pagina kan zodanig worden aangepast dat er extra voorkeuren voor het klantaccount zijn, zoals een optie om te kiezen voor marketing via e-mail.
 
 In de volgende afbeelding ziet u een voorbeeld van een pagina **Mijn profiel** die is gemaakt met de modulebibliotheek.
 
@@ -47,7 +47,7 @@ In de volgende afbeelding ziet u een voorbeeld van een pagina **Mijn profiel** d
 
 ### <a name="addresses-page"></a>Pagina Adressen
 
-Op de pagina **Adressen** kan de klant adressen aan zijn of haar account toevoegen. Ook wordt de lijst met adressen weergegeven die de klant eerder heeft toegevoegd of opgeslagen voor het account. Dit zijn adressen die de klant op deze pagina heeft ingevoerd of tijdens het plaatsen van een order.
+Op de pagina **Adressen** kan de klant adressen aan de account toevoegen. Ook wordt de lijst met adressen weergegeven die de klant eerder heeft toegevoegd of opgeslagen voor het account. Dit zijn adressen die de klant op deze pagina heeft ingevoerd of tijdens het plaatsen van een order.
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Adressen**.
 
@@ -55,7 +55,7 @@ In de volgende afbeelding ziet u een voorbeeld van de pagina **Adressen**.
 
 ### <a name="order-history-and-order-details-pages"></a>Pagina's Orderhistorie en Orderdetails
 
-Op de pagina **Orderhistorie** wordt een overzicht weergegeven van alle orders die de klant heeft ingediend met zijn of haar account. Het geeft een beknopt overzicht van de artikelen die zijn besteld, het bevestigingsnummer, de verkoop-id, de traceringsgegevens en andere informatie. Als de klant een gedetailleerde uitsplitsing wil zien van elke order, is er een pagina **Orderdetails**. Deze pagina bevat informatie zoals het verzendadres, de betalingsgegevens, kortingen, belastingen en verzendkosten voor de order.
+Op de pagina **Orderhistorie** wordt een overzicht weergegeven van alle orders die de klant heeft ingediend met de account. Het geeft een beknopt overzicht van de artikelen die zijn besteld, het bevestigingsnummer, de verkoop-id, de traceringsgegevens en andere informatie. Als de klant een gedetailleerde uitsplitsing wil zien van elke order, is er een pagina **Orderdetails**. Deze pagina bevat informatie zoals het verzendadres, de betalingsgegevens, kortingen, belastingen en verzendkosten voor de order.
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Orderhistorie**.
 
@@ -75,7 +75,7 @@ In de volgende afbeelding ziet u een voorbeeld van een pagina **Loyaliteitsprogr
 
 ### <a name="wishlist-page"></a>Wensenlijstpagina
 
-Op de pagina **Verlanglijst** wordt een lijst weergegeven met de artikelen die de klant aan zijn of haar lijst heeft toegevoegd. Zowel de producten als de productvarianten kunnen worden toegevoegd aan de verlanglijst. Op deze pagina kan de klant een artikel uit de verlanglijst verwijderen of een artikel rechtstreeks aan de winkelwagen toevoegen.
+Op de pagina **Verlanglijst** wordt een lijst weergegeven met de artikelen die de klant aan de lijst heeft toegevoegd. Zowel de producten als de productvarianten kunnen worden toegevoegd aan de verlanglijst. Op deze pagina kan de klant een artikel uit de verlanglijst verwijderen of een artikel rechtstreeks aan de winkelwagen toevoegen.
 
 In de volgende afbeelding ziet u een voorbeeld van een pagina **Verlanglijst**.
 

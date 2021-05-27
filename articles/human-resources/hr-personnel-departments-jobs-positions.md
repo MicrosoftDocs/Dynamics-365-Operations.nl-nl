@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 48427bb52d4e398edba152ff25e28c3625b6a5d3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 31b9532eea82fd5b88fe59718af7be4d242dc885
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803580"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027885"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Uw werknemers organiseren met afdelingen, taken en posities
 
@@ -120,7 +120,7 @@ Als u een werknemer aan een positie toewijst, vult u die positie in. U kunt mede
 
 Posities zijn belangrijke elementen van het lagere niveau van een organisatiehiërarchie. In het formulier Positie kunt u de positie opgeven waaraan een positie rapporteert. Wanneer u een werknemer toewijst aan een positie die aan een andere positie rapporteert, maakt u een rapporteringsrelatie tussen de werknemers die zijn toegewezen aan de twee posities. 'Boekhouder A' rapporteert bijvoorbeeld aan de positie "Supervisor boekhouding". Kim Akers is toegewezen aan de positie "Supervisor boekhouding" en Sanjay Patel is toegewezen aan de positie "Boekhouder A". Dit betekent dat Sanjay Patel rapporteert aan Kim Akers. 
 
-Als uw organisatie gebruikmaakt van een matrixhiërarchie of een andere aangepaste hiërarchie, kunt u positiehiërarchietypen instellen en vervolgens rapporteringsrelaties toevoegen aan posities voor elke hiërarchie die u hebt ingesteld. Lori Penor is bijvoorbeeld een algemeen manager bij Adventure Works en is toegewezen aan de positie 'Algemeen manager '. Lori beheert de ontwikkeling van een product dat wordt gebruikt voor het reinigen van widgets. Lori wil dat een boekhouder haar helpt met de financiën voor de ontwikkeling van het product. Daarom heeft ze Sanjay Patel als haar boekhouder aangeworven. Sanjay rapporteert rechtstreeks aan Kim Akers, maar werkt ook met Lori Penor met betrekking tot de financiën voor de ontwikkeling van de widgetreiniger. 
+Als uw organisatie gebruikmaakt van een matrixhiërarchie of een andere aangepaste hiërarchie, kunt u positiehiërarchietypen instellen en vervolgens rapporteringsrelaties toevoegen aan posities voor elke hiërarchie die u hebt ingesteld. Lori Penor is bijvoorbeeld een algemeen manager bij Adventure Works en is toegewezen aan de positie 'Algemeen manager '. Lori beheert de ontwikkeling van een product dat wordt gebruikt voor het reinigen van widgets. Lori wil hulp van een boekhouder met de financiën voor de ontwikkeling van het product. Daarom heeft ze Sanjay Patel als boekhouder aangeworven. Sanjay rapporteert rechtstreeks aan Kim Akers, maar werkt ook met Lori Penor met betrekking tot de financiën voor de ontwikkeling van de widgetreiniger. 
 
 In het vorige voorbeeld zou u de volgende taken voltooien voor het instellen van de werkrelatie tussen Sanjay Patel en Lori Penor:
 1.  Maak een aangepast positiehiërarchietype genaamd "Widget" om een hiërarchie te maken die posities bevat die verantwoordelijk zijn voor het werken aan de widgetreiniger.
@@ -159,7 +159,7 @@ Voor sommige records, kunt u toekomstige wijzigingen aan de record opgeven. De v
 </tbody>
 </table>
 
-U kunt de gegevens vermeld in de vorige tabel wijzigen voor een functie of een taak en een datum opgeven waarop de wijzigingen in de positie of de taak moeten ingaan. Een positie kan bijvoorbeeld alleen worden toegewezen aan één werknemer, maar Sanjay Patel, die is toegewezen aan de positie Boekhouder A, vertrekt binnen twee weken. Joe Healy vervangt Sanjay Patel wanneer hij vertrekt. Hoewel Sanjay nog steeds aan zijn positie is toegewezen, kunt u Joe Healy zo toewijzen aan dezelfde positie dat de toewijzing slechts ingaat na de laatste dag van Sanjay.
+U kunt de gegevens vermeld in de vorige tabel wijzigen voor een functie of een taak en een datum opgeven waarop de wijzigingen in de positie of de taak moeten ingaan. Een positie kan bijvoorbeeld alleen worden toegewezen aan één werknemer, maar Sanjay Patel, die is toegewezen aan de positie Boekhouder A, vertrekt binnen twee weken. Joe Healy vervangt Sanjay Patel wanneer Sanjay vertrekt. Hoewel Sanjay nog steeds aan zijn positie is toegewezen, kunt u Joe Healy zo toewijzen aan dezelfde positie dat de toewijzing slechts ingaat na de laatste dag van Sanjay.
 
 
 

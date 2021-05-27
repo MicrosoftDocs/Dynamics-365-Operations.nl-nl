@@ -15,20 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d6f0a155b38b1d732d17bd2f964677862ff363e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808659"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016127"
 ---
 # <a name="cost-and-date-control"></a>Kosten- en datumcontrole
 
 [!include [banner](../../includes/banner.md)]
 
- 
-
-In Activabeheer kunt u kosten berekenen om een overzicht te krijgen van de werkelijke kosten ten opzichte van budgetkosten voor activa, functionele locaties en werkorders. Werkelijke kosten worden gebaseerd op geboekte transacties. 
+In Activabeheer kunt u kosten berekenen om een overzicht te krijgen van de werkelijke kosten ten opzichte van budgetkosten voor activa, functionele locaties en werkorders. Werkelijke kosten worden gebaseerd op geboekte transacties.
 
 U kunt ook een datumberekening maken als u geplande begin- en einddatums wilt vergelijken met de werkelijke begin- en einddatums van werkorders.
 
@@ -46,8 +44,8 @@ De berekeningen voor activa, functionele locaties en werkorders zijn bijna ident
 
 5. U kunt het veld **Niveau** gebruiken om aan te geven hoe gedetailleerd de regels voor kostencontrole moeten zijn met betrekking tot functionele locaties. 
 
-    Als u bijvoorbeeld het getal 1 invoegt in het veld en u een hiërarchie met meerdere niveaus voor functionele locaties hebt, worden alle kostenbeheerregels voor een functionele locatie weergegeven op het hoogste niveau. Daarom kunnen de uren op een regel zijn opgeteld op basis van functionele locaties die zich op een lager niveau bevinden. 
-    
+    Als u bijvoorbeeld het getal 1 invoegt in het veld en u een hiërarchie met meerdere niveaus voor functionele locaties hebt, worden alle kostenbeheerregels voor een functionele locatie weergegeven op het hoogste niveau. Daarom kunnen de uren op een regel zijn opgeteld op basis van functionele locaties die zich op een lager niveau bevinden.
+
     Als u het getal 0 in het veld **Niveau** invoegt, wordt er een gedetailleerd resultaat met alle kostenbeheerregels weergegeven op alle niveaus voor functionele locaties waarop deze betrekking hebben.
 
 6. Selecteer Ja voor de wisselknop **Openstaande toegezegde kosten weergeven** als u die kolom wilt opnemen in de berekening.
@@ -64,7 +62,7 @@ De berekeningen voor activa, functionele locaties en werkorders zijn bijna ident
 
 10. Klik op de pagina **Kostenbeheer activa** op de knoppen **Groeperen op** om het vereiste detailniveau van de berekening weer te geven. De geselecteerde knoppen **Groeperen op** worden gemarkeerd. U kunt knoppen activeren of deactiveren door erop te klikken.
 
-## <a name="example"></a>Voorbeeld
+## <a name="example-of-calculation-results-in-asset-cost-control"></a>Voorbeeld van berekeningsresultaten in Kostenbeheer activa
 
 In de onderstaande schermopname ziet u een voorbeeld van berekeningsresultaten in **Kostenbeheer activa**.
 
@@ -76,7 +74,6 @@ In de onderstaande schermopname ziet u een voorbeeld van berekeningsresultaten i
 ![Voorbeeld van berekeningsresultaten in Kostenbeheer activa](media/02-controlling-and-reporting.png)
 
 U kunt kosten ook berekenen door meerdere activa te selecteren in **Alle activa** of **Actieve activa**. Vervolgens klikt u op de knop **Kostenbeheer** op het tabblad **Algemeen**. In het dialoogvenster **Kostenbeheer activa** worden de geselecteerde activa automatisch ingevoegd in het veld **Activum** op het sneltabblad **Op te nemen records**. Klik op **OK** om een kostenberekening voor de geselecteerde activa weer te geven. Dezelfde procedure kan worden uitgevoerd voor functionele locaties in **Alle functionele locaties** of **Actieve functionele locaties** en voor werkorders in **Alle werkorders** of **Actieve werkorders**.
-
 
 ## <a name="work-order-date-control"></a>Datumbeheer werkorder
 
@@ -94,7 +91,7 @@ Gebruik deze pagina om een overzicht te krijgen van verwachte begin- en einddatu
 
 6. Klik op de knoppen **Groeperen op** om het vereiste detailniveau van de kostenberekening weer te geven. De geselecteerde knoppen **Groeperen op** worden gemarkeerd. U kunt knoppen activeren of deactiveren door erop te klikken.
 
-## <a name="example"></a>Voorbeeld
+## <a name="example-of-calculation-results-in-work-order-date-control"></a>Voorbeeld van berekeningsresultaten in Datumbeheer werkorder
 
 In de volgende schermopname ziet u een voorbeeld van berekeningsresultaten in **Datumbeheer werkorder**.
 

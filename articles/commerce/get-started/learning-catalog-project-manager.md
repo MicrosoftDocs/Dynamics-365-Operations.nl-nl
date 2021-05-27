@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: e17f1fe2200426a91fa3fafd0772f269c9324acd
-ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
+ms.openlocfilehash: 7b9d3684b112bfe38e410edafa6b9256de0c140b
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "5640653"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019610"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-commerce"></a>Trainingscatalogus voor implementatieprojectmanagers die werken met Dynamics 365 Commerce
 
@@ -31,9 +31,9 @@ Zie voor training over functies die worden gedeeld met andere Finance and Operat
 
 | Inhoud | Omschrijving  | Indeling  | Lengte    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------|
-| [De bedrijfswaarde van Microsoft Dynamics 365 en Power Platform leren kennen](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Met deze leerervaring volgt u een traject dat begint met aangeven hoe digitale transformatie en de kracht van zakelijke toepassingen uw bedrijf kunnen omvormen. Wij bespreken hoe Dynamics 365 en Power Platform u helpen om weloverwogen beslissingen te nemen op basis van de behoeften en doelstellingen van uw organisatie. Dit gebeurt via vier bouwstenen van digitale transformatie: modern, uniform, intelligent en aanpasbaar. | Gratis online leertraject voor zelfstudie   | 6.5 uur   |
-| [Aan de slag met Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-commerce/)  | Dynamics 365 Commerce, gebaseerd op de beproefde mogelijkheden van Dynamics 365 Retail, biedt een allesomvattende oplossing voor meer kanalen die een universele ervaring biedt voor de backoffice, in de winkel, in het callcenter en bij digitale activiteiten. Met Dynamics 365 Commerce kunt u merkloyaliteit opbouwen via aangepaste klantafspraken, de omzet verhogen door verbeterde werknemerproductiviteit, de activiteiten optimaliseren om de kosten te verlagen en de toeleveringsketen efficiënter te maken. Dit leidt tot betere bedrijfsresultaten | Gratis online leertraject voor zelfstudie   | 2 uur   |
-| [Aan de slag met Dynamics 365 Fraud Protection](https://docs.microsoft.com/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection is een op een cloud gebaseerde oplossing die is ontworpen voor e-commerce, fysieke winkels en verkopers voor alle kanalen, om hun inkomsten en reputatie te beschermen door tools en mogelijkheden te bieden om fraude en misbruik te beperken, operationele kosten te verlagen en acceptatiepercentages te verhogen, terwijl gebruikersaccounts worden beschermd tegen fraude. | Gratis online leertraject voor zelfstudie | 35 minuten |
+| [De bedrijfswaarde van Microsoft Dynamics 365 en Power Platform leren kennen](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Met deze leerervaring volgt u een traject dat begint met aangeven hoe digitale transformatie en de kracht van zakelijke toepassingen uw bedrijf kunnen omvormen. Wij bespreken hoe Dynamics 365 en Power Platform u helpen om weloverwogen beslissingen te nemen op basis van de behoeften en doelstellingen van uw organisatie. Dit gebeurt via vier bouwstenen van digitale transformatie: modern, uniform, intelligent en aanpasbaar. | Gratis online leertraject voor zelfstudie   | 6.5 uur   |
+| [Aan de slag met Dynamics 365 Commerce](/learn/paths/get-started-dynamics-365-commerce/)  | Dynamics 365 Commerce, gebaseerd op de beproefde mogelijkheden van Dynamics 365 Retail, biedt een allesomvattende oplossing voor meer kanalen die een universele ervaring biedt voor de backoffice, in de winkel, in het callcenter en bij digitale activiteiten. Met Dynamics 365 Commerce kunt u merkloyaliteit opbouwen via aangepaste klantafspraken, de omzet verhogen door verbeterde werknemerproductiviteit, de activiteiten optimaliseren om de kosten te verlagen en de toeleveringsketen efficiënter te maken. Dit leidt tot betere bedrijfsresultaten | Gratis online leertraject voor zelfstudie   | 2 uur   |
+| [Aan de slag met Dynamics 365 Fraud Protection](/learn/modules/get-started-fraud-protection/)| Dynamics 365 Fraud Protection is een op een cloud gebaseerde oplossing die is ontworpen voor e-commerce, fysieke winkels en verkopers voor alle kanalen, om hun inkomsten en reputatie te beschermen door tools en mogelijkheden te bieden om fraude en misbruik te beperken, operationele kosten te verlagen en acceptatiepercentages te verhogen, terwijl gebruikersaccounts worden beschermd tegen fraude. | Gratis online leertraject voor zelfstudie | 35 minuten |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 22939e8fd63a355effecf0c16fecd20377faa3a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791049"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018601"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Toeslagen voor koptekst naar rato verdelen voor overeenkomende verkoopregels
 
@@ -30,7 +30,7 @@ ms.locfileid: "5791049"
 
 Dit onderwerp beschrijft de functionaliteit waarmee automatische toeslagen op koptekstniveau worden gegroepeerd en naar rato worden verdeeld voor Commerce-verkoopregels. Deze functionaliteit is beschikbaar voor transacties die zijn gemaakt op het verkooppunt (POS) in Retail versie 10.0.1 en verkopen die zijn gemaakt in een callcenter in Retail versie 10.0.2.
 
-Deze functionaliteit is alleen beschikbaar als de functie voor [geavanceerde automatische toeslagen](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges) is ingeschakeld via de optie op de pagina **Commerce-parameters**. Bovendien kan de verbeterde berekeningsmethode voor automatische toeslagen alleen worden toegepast op verkooporders die zijn gemaakt via Commerce-kanalen (het POS, een callcenter en het platform Dynamics e-Commerce).
+Deze functionaliteit is alleen beschikbaar als de functie voor [geavanceerde automatische toeslagen](/dynamics365/unified-operations/retail/omni-auto-charges) is ingeschakeld via de optie op de pagina **Commerce-parameters**. Bovendien kan de verbeterde berekeningsmethode voor automatische toeslagen alleen worden toegepast op verkooporders die zijn gemaakt via Commerce-kanalen (het POS, een callcenter en het platform Dynamics e-Commerce).
 
 Deze nieuwe functionaliteit biedt organisaties meer flexibiliteit in de manier waarop automatische toeslagen op koptekstniveau worden berekend en toegepast op verkooptransacties.
 
@@ -38,7 +38,7 @@ In versies van de app die eerder zijn dan versie 10.0.1, worden automatische toe
 
 Bijvoorbeeld: automatische toeslagen op koptekstniveau worden gedefinieerd voor leveringsmethode **99** en leveringsmethode **11**. Een verkooporder wordt gemaakt en de leveringsmethode **99** wordt gedefinieerd op de orderkoptekst. Sommige verkoopregels zijn echter zo ingesteld dat ze worden verzonden met behulp van de leveringsmethode **11**. In dit geval worden alleen de toeslagen op koptekstniveau die zijn gekoppeld aan leveringsmethode **99**, meegenomen en toegepast op de verkooporder.
 
-In Commerce hebben de toeslagen op koptekstniveau een extra functie waarmee u een [configuratie van gelaagde toeslagen](https://docs.microsoft.com/dynamics365/unified-operations/retail/configure-call-center-delivery) kunt definiëren die is gebaseerd op de orderwaarde. Bijvoorbeeld: als de orderwaarde tussen 50,00 en 200,00 EUR is, wil een organisatie mogelijk vrachtkosten van 5,00 EUR in rekening brengen. Als de waarde tussen 200,01 en 500,00 EUR ligt, zijn de vrachtkosten echter mogelijk 4,00 EUR.
+In Commerce hebben de toeslagen op koptekstniveau een extra functie waarmee u een [configuratie van gelaagde toeslagen](/dynamics365/unified-operations/retail/configure-call-center-delivery) kunt definiëren die is gebaseerd op de orderwaarde. Bijvoorbeeld: als de orderwaarde tussen 50,00 en 200,00 EUR is, wil een organisatie mogelijk vrachtkosten van 5,00 EUR in rekening brengen. Als de waarde tussen 200,01 en 500,00 EUR ligt, zijn de vrachtkosten echter mogelijk 4,00 EUR.
 
 Sommige organisaties willen de voordelen van de berekening van gelaagde toeslagen die wordt verschaft met de toeslagen op koptekstniveau. In scenario's met gecombineerde leveringsmethoden, wil men er echter ook voor zorgen dat de toeslagen die worden berekend, worden gebaseerd op een overeenkomst met de leveringsmethode die is gedefinieerd op elke verkoopregel.
 
@@ -72,7 +72,7 @@ Een verkooporder wordt gemaakt in het callcenter en de leveringsmethode wordt in
 
 In dit scenario wordt de gehele order geëvalueerd op basis van de tabel voor automatische toeslagen voor leveringsmethode **99**. Het volledige totaal van alle verkoopregels wordt gebruikt om een overeenkomende laag in de configuratie van automatische toeslagen te bepalen, en deze toeslagen worden toegepast op het niveau van de orderkoptekst. In dit voorbeeld is het ordertotaal € 165,00 en de vrachtkosten van € 15,00 worden toegepast op de orderkoptekst. Automatische toeslagen die worden geconfigureerd voor leveringsmethode **11**, worden nooit toegepast of er wordt nooit naar verwezen.
 
-In dit scenario wordt als een klant enkele artikelen op de order retourneert en als de [code voor toeslagen zo is geconfigureerd dat deze wordt gerestitueerd](https://docs.microsoft.com/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), de totale toeslag op koptekstniveau systematisch toegepast op de restitutie, zelfs als slechts enkele artikelen worden geretourneerd.
+In dit scenario wordt als een klant enkele artikelen op de order retourneert en als de [code voor toeslagen zo is geconfigureerd dat deze wordt gerestitueerd](/dynamics365/unified-operations/retail/omni-auto-charges#setup-and-configuration-2), de totale toeslag op koptekstniveau systematisch toegepast op de restitutie, zelfs als slechts enkele artikelen worden geretourneerd.
 
 ### <a name="scenario-2"></a>Scenario 2
 

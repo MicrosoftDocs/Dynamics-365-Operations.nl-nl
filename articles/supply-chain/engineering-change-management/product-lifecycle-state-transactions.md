@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 421fae6eab20eea50b9ce677a1ae7993add6cb93
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8bb3d5848b7e2c50a8fdaba1c6a1a7c0087d1390
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842052"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6016951"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Levenscyclusstatussen van producten en transacties
 
@@ -74,5 +74,24 @@ De volgende velden zijn beschikbaar voor elk proces dat wordt vermeld op het sne
 
 Als u meer levenscyclusstatusregels toevoegt als aanpassing, kunt u deze regels weergeven in de gebruikersinterface door **Processen vernieuwen** te selecteren in het bovenste deelvenster. De knop **Processen vernieuwen** is alleen beschikbaar voor beheerders.
 
+## <a name="lifecycle-states-for-released-products-and-product-variants"></a>Levenscyclusstatussen voor vrijgegeven producten en productvarianten
+
+Voor een product dat varianten heeft (hoofdproduct en varianten), heeft het hoofdproduct een levenscyclusstatus en elk van de varianten kan ook een andere levenscyclusstatus hebben.
+
+Voor specifieke processen wordt het proces ook geblokkeerd als de variant of het product is geblokkeerd. Om te bepalen of een proces is geblokkeerd, worden de volgende controles uitgevoerd:
+
+- Voor technisch beheerde producten:
+  - Als de huidige technische versie is geblokkeerd, blokkeert u het proces.
+  - Als de huidige variant is geblokkeerd, blokkeert u het proces.
+  - Als het vrijgegeven product is geblokkeerd, blokkeert u het proces.
+- Voor standaardproducten:
+  - Als de huidige variant is geblokkeerd, blokkeert u het proces.
+  - Als het vrijgegeven product is geblokkeerd, blokkeert u het proces.
+
+Stel dat u slechts één variant (rood) van een bepaald product (t-shirt) wilt verkopen en de verkoop van alle andere varianten op dit moment wilt blokkeren. U kunt dit implementeren met de volgende instellingen:
+
+- Wijs het product een levenscyclusstatus toe waardoor het proces kan plaatsvinden. Wijs het product t-shirt bijvoorbeeld de levenscyclusstatus *Verkoopbaar* toe zodat het bedrijfsproces *Verkooporder* kan plaatsvinden.
+- Wijs de verkoopbare variant een levenscyclusstatus toe waardoor het proces kan plaatsvinden. Wijs bijvoorbeeld de rode variant ook de levenscyclus *Verkoopbaar* toe.
+- Aan alle andere varianten wordt een andere levenscyclusstatus toegewezen waardoor het proces is geblokkeerd. Wijs bijvoorbeeld de witte variant (en alle andere varianten) de levenscyclusstatus *Niet verkoopbaar* toe, waardoor het bedrijfsproces *Verkooporder* wordt geblokkeerd.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

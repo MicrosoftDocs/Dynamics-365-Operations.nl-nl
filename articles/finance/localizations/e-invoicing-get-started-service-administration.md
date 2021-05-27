@@ -2,7 +2,7 @@
 title: Aan de slag met servicebeheer voor Elektronische facturering
 description: In dit onderwerp wordt uitgelegd hoe u aan de slag gaat met Elektronische facturering.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ec431cb4a3620459d905f64a80fd820a2113290f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840143"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980970"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Aan de slag met servicebeheer voor Elektronische facturering
 
@@ -33,10 +33,10 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 - U moet toegang hebben tot uw Microsoft Dynamics Lifecycle Services-account (LCS).
 - U moet een LCS-project hebben dat versie 10.0.17 of hoger van Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management bevat. Daarnaast moeten deze apps worden geïmplementeerd in een van de volgende Azure-geografische gebieden:
 
-    - VS - oost
-    - VS - west
-    - Noordelijke EU
-    - Westelijke EU
+    - Verenigde Staten
+    - Europa
+    - Verenigd Koninkrijk
+    - Azië
 
 - U moet toegang hebben tot uw Dynamics 365 Regulatory Configuration Services-account (RCS).
 - U moet de functie Globalisatie voor uw RCS-account in Functiebeheer activeren. Zie [Regulatory Configuration Services (RCS) - Globalisatiefuncties](rcs-globalization-feature.md) voor meer informatie.
@@ -46,11 +46,12 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 
 1. Meld u aan bij uw LCS-account.
 2. Selecteer de tegel **Beheer van voorbeeldfuncties**.
-3. Selecteer **e-Factureringsservice** in het gedeelte **Openbare voorbeeldfuncties**.
+3. Selecteer **Elektronische facturering** in het gedeelte **Openbare voorbeeldfuncties**.
 4. Controleer of de optie **Voorbeeldfunctie ingeschakeld** op **Ja** is ingesteld.
-5. Selecteer uw LCS-implementatieproject op uw LCS-dashboard. Het LCS-project moet worden uitgevoerd.
-7. Selecteer op het tabblad **Invoegtoepassingen voor omgeving** de optie **Een nieuwe invoegtoepassing installeren**.
-8. Selecteer **Services voor elektronische facturering**.
+5. Selecteer een LCS-project op uw LCS-projectdashboard.
+6. Selecteer in het LCS-project op het LCS-omgevingsdashboard uw LCS-implementatieproject. Het LCS-implementatieproject moet worden uitgevoerd.
+7. Selecteer op het tabblad **Power Platform-integratie** in de veldgroep **Omgevingsinvoegtoepassingen** de optie **Een nieuwe invoegtoepassing installeren**.
+8. Selecteer **Elektronische facturering**.
 9. Voer in het veld **AAD-toepassings-id** **091c98b0-a1c9-4b02-b62c-7753395ccabe** in. Dit is een vaste waarde.
 10. Voer in het veld **AAD-tenant-id** de tenant-id van uw Azure-abonnementsaccount in.
 11. Neem de algemene voorwaarden door en schakel vervolgens het selectievakje in.
@@ -65,10 +66,10 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 
     | Datacenter Azure-geografie | URI van service-eindpunt                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | VS - oost                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | VS - west                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | Noordelijke EU                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | Westelijke EU                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | Verenigde Staten              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Europa                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Verenigd Koninkrijk             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Azië                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 4. Controleer of het veld **Toepassings-id** is ingesteld op **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Dit is een vaste waarde.
 5. Voer in het veld **LCS-omgevings-id** de id van uw LCS-omgeving in.
@@ -152,12 +153,12 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 1. Ga naar **Organisatiebeheer \> Instellen \> Parameters voor elektronische documenten**.
 2. Voer op het tabblad **Indieningsservice** in het veld **Service-eindpunt URL** het juiste service-eindpunt in voor uw geografische Azure-regio, zoals wordt weergegeven in de volgende tabel.
 
-    | Datacenter Azure-geografie | URL van service-eindpunt                                                       |
+    | Datacenter Azure-geografie | URI van service-eindpunt                                                       |
     |----------------------------|----------------------------------------------------------------------------|
-    | VS - oost                    | `https://electronicinvoicing.eus-il301.gateway.prod.island.powerapps.com/` |
-    | VS - west                    | `https://electronicinvoicing.wus-il301.gateway.prod.island.powerapps.com/` |
-    | Noordelijke EU                   | `https://electronicinvoicing.neu-il301.gateway.prod.island.powerapps.com/` |
-    | Westelijke EU                    | `https://electronicinvoicing.weu-il301.gateway.prod.island.powerapps.com/` |
+    | Verenigde Staten              | <p>`https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Europa                     | <p>`https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Verenigd Koninkrijk             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
+    | Azië                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
 3. Voer in het veld **Omgeving** de naam in voor de serviceomgeving die is gepubliceerd in Elektronische facturering.
 4. Selecteer **Opslaan** en sluit de pagina.

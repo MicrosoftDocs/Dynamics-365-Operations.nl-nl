@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51ffdb508f09ceaaefb458cd614b9c64604eb639
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 40377ece3685c50a448bf48e1d001fb1ecbbff3e
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797906"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028054"
 ---
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>Taakbegeleiders opslaan in LCS en opnieuw afspelen
 
@@ -30,11 +30,11 @@ ms.locfileid: "5797906"
 
 Microsoft Dynamics 365 Human Resources is geïmplementeerd via Microsoft Dynamics Lifecycle Services (LCS)
 
-**Probleem**
+**Uitgeven**
 
-De klant wil nieuwe taakregistraties in zijn of haar LCS-project opslaan en de opgeslagen taakbegeleiders vervolgens opnieuw afspelen.
+De klant wil nieuwe taakregistraties in het LCS-project opslaan en de opgeslagen taakbegeleiders vervolgens opnieuw afspelen.
 
-**Resolutie**
+**Oplossing**
 
 Ga als volgt te werk om een taakregistratie in LCS op te slaan.
 

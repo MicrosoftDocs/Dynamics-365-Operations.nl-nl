@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2adb8b969a6e86becaa3c0a3b59d8f8f259e5a64
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834591"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026200"
 ---
 # <a name="set-up-postdated-checks"></a>Gepostdateerde cheques instellen
 
@@ -53,7 +53,11 @@ De rol van deze procedure is penningmeester. Bij deze procedure wordt het demobe
     * Selecteer de bankrekening die wordt gebruikt om het factuurbedrag af te trekken.  
 18. Klik op Opslaan.
 19. Sluit de pagina.
-
-
+> [!NOTE]
+> Als u een gepostdateerde cheque wilt boeken naar een bankrekening wanneer de sessiedatum later is dan of gelijk is aan de vervaldatum, moet u de functie **Vervaldatumvalidatie van boeking betalingsjournaal met gepostdateerde cheques naar een bankrekening** inschakelen. Met deze functie kunt u betalingsjournalen boeken voor leveranciers of klanten met gepostdateerde cheques, wanneer de sessiedatum later is dan of gelijk is aan de vervaldatum.
+> 
+> Bij het instellen van de **Betalingsmethode** (**Crediteuren > Betalingsinstellingen > Betalingsmethoden**) moet u de **Overbruggingsrekening** niet invullen. In dit geval wordt de tegenrekening gevuld met de bankrekening, die is ingesteld in **Betalingsmethode**.
+>  
+> Wanneer de functie is ingeschakeld en de sessiedatum eerder is dan de vervaldatum, wordt het volgende foutbericht weergegeven bij het boeken van een betalingsjournaal: 'Vervaldatum moet eerder zijn dan of gelijk zijn aan de sessiedatum als het type tegenrekening Bank is'. Als de functie niet is ingeschakeld, kunt u een betalingsjournaal met een gepostdateerde cheque maken wanneer de sessiedatum eerder is dan de vervaldatum.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
