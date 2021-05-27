@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4df5ebaf6e8ae8414515bd11087adcd05a88e581
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835142"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027523"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Gedeeltelijke betaling uitvoeren vóór de kortingsdatum met definitieve betaling na de kortingsdatum
 
@@ -38,13 +38,13 @@ Op 25 juni voert Arnie een factuur in en boekt deze voor 1.000,00 voor klant 402
 | FTI-10020 | Factuur          | 6/25/2015 | 10020   | 1.000,00                             |                                       | 1.000,00 | USD      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Gedeeltelijke betaling vóór de datum van contantkorting
-Op 2 juli verricht klant 4027 een gedeeltelijke betaling van 297,00 voor de factuur. De betaling komt in aanmerking voor een contantkorting, omdat Fabrikam contantkortingen op gedeeltelijke betalingen biedt, en de gedeeltelijke betaling wordt uitgevoerd vóór de datum van de contantkorting. Klant 4027 heeft daarom een contantkorting van 3,00. Arnie registreert de betaling voor klant 4027 door het Betalingsjournaal te gebruiken. Arnie opent vervolgens de pagina **Transacties vereffenen**, zodat hij de factuur kan markeren voor vereffening.
+Op 2 juli verricht klant 4027 een gedeeltelijke betaling van 297,00 voor de factuur. De betaling komt in aanmerking voor een contantkorting, omdat Fabrikam contantkortingen op gedeeltelijke betalingen biedt, en de gedeeltelijke betaling wordt uitgevoerd vóór de datum van de contantkorting. Klant 4027 heeft daarom een contantkorting van 3,00. Arnie registreert de betaling voor klant 4027 door het Betalingsjournaal te gebruiken. Arnie opent vervolgens de pagina **Transacties vereffenen**, zodat Arnie de factuur kan markeren voor vereffening.
 
 | Markeren     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Debetbedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
 | Geselecteerd | Normaal            | FTI-10020 | 4027    | 6/25/2015 | 25/7/2015 | 10020   | 1.000,00                             | USD      | 297,00           |
 
-Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven. Als u de waarde **Te vereffenen bedrag** niet wijzigt in 297,00, verschillen de waarden **Contantkortingsbedrag**. Wanneer de betaling wordt geboekt, wordt echter 3,00 als contantkorting toegepast, omdat de vereffening automatisch de waarde **Bedrag om te vereffenen **corrigeert.
+Informatie over korting wordt onder aan de pagina **Openstaande transacties vereffenen** weergegeven. Als u de waarde **Te vereffenen bedrag** niet wijzigt in 297,00, verschillen de waarden **Contantkortingsbedrag**. Wanneer de betaling wordt geboekt, wordt echter 3,00 als contantkorting toegepast, omdat de vereffening automatisch de waarde **Bedrag om te vereffenen** corrigeert.
 
 | Veld                        | Waarde     |
 |------------------------------|-----------|
@@ -95,7 +95,7 @@ Informatie over korting wordt onder aan de pagina **Openstaande transacties vere
 | Toegepaste contantkorting          | 3,00      |
 | Contantkortingsbedrag dat moet worden toegepast | 7,00      |
 
-Arnie wijzigt de waarde in het veld **Contantkorting gebruiken** terug naar **Normaal**, omdat hij deze klant niet de resterende contantkorting van 7,00 laat nemen. Vervolgens boekt Arnie de betaling. Wanneer Arnie de pagina **Klanttransacties** opent, ziet hij dat de factuur een saldo van 0,00 heeft. Hij ziet ook dat er twee betalingen zijn. Eén betaling is voor 297,00 en heeft 3,00 contantkorting en de andere betaling is voor 700,00.
+Arnie wijzigt de waarde in het veld **Contantkorting gebruiken** terug naar **Normaal**, omdat Arnie deze klant niet de resterende contantkorting van 7,00 laat nemen. Vervolgens boekt Arnie de betaling. Wanneer Arnie de pagina **Klanttransacties** opent, heeft de factuur een saldo van 0,00. Er zijn twee betalingen: Eén betaling is voor 297,00 en heeft 3,00 contantkorting en de andere betaling is voor 700,00.
 
 | Boekstuk    | Transactietype | Datum      | Factuur | Debetbedrag in transactievaluta | Creditbedrag in transactievaluta | Saldo | Valuta |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

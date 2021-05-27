@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4ba1fcdffec27e848afaf4b821df85240139f41f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7d37b1c8ed23bf93f0480c76e10b8aaed86fe2a2
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812806"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015972"
 ---
 # <a name="product-configuration-overview"></a>Overzicht van Productconfiguratie
 
@@ -36,6 +36,7 @@ Een geslaagde verplaatsing van een vervaardiging-naar-voorraadinstelling naar ee
 Er zijn verschillende modelleringsprincipes voor productconfiguratie, zoals op regels gebaseerd, op dimensies gebaseerd en op beperkingen gebaseerd modelleren. Uit onderzoek blijkt dat de op beperkingen gebaseerde methodologie het aantal coderegels in modellen met ongeveer 50 procent kan verminderen door het gebruik van andere modelleringsprincipes. Daarom kan deze methodologie de totale kosten van eigendom (TCO) drukken. Door over te stappen vanuit een op regels gebaseerd model dat is gebaseerd op X++-code, op een model dat op beperkingen is gebaseerd, hebt u geen ontwikkelaarslicentie meer nodig om productmodellen te onderhouden.
 
 ## <a name="product-configuration"></a>Productconfiguratie
+
 De industrialisatieperiode heeft geleid tot grote verwezenlijkingen in de productie van hoogwaardige en functierijke producten tegen betaalbare prijzen. De schaaleconomieën hebben het voor de meeste mensen in de geïndustrialiseerde wereld mogelijk gemaakt auto's, tv's, huishoudapparaten en andere goederen te kopen die de meesten van ons nodig vinden in het dagelijks leven.  
 
 Als meerdere producten basisproducten zijn geworden, is de noodzaak ontstaan om er onderscheid tussen te maken. Het directe antwoord van fabrikanten op deze uitdaging is geweest om varianten van elk product te maken, zodat de klanten meerdere alternatieve hebben. Deze strategie heeft tot toegenomen prognose-uitdagingen geleid en tevens tot een verhoging van voorraadkosten en onverkochte producten die verouderd raken.  
@@ -44,9 +45,10 @@ Door een configureren-op-bestelling filosofie te hanteren kunnen fabrikanten aan
 
 De sleutel tot succes moet u deze hier productportfolio zorgvuldig analyseren, en gebruikspatronen in zowel productfuncties als processen zoeken. Het algemene doel is componenten identificeren die kunnen worden gefabriceerd met dezelfde apparatuur in alle varianten kunnen worden gebruikt.  
 
-De nieuwe Productconfiguratie-functieset bevat een gebruikersinterface (UI) die een visueel overzicht geeft van de productconfiguratiemodelstructuur, en een complete beperkingsyntaxis die niet hoeft te worden gecompileerd. Daarom kunnen bedrijven die een configuratiepraktijk willen ondersteunen gemakkelijker aan de slag gaan. Zoals in de volgende secties wordt uitgelegd, heeft een productontwerper geen ondersteuning meer nodig van een ontwikkelaar om een productconfguratiemodel te maken, te testen en vrij te geven aan de verkooporganisatie.
+De nieuwe productconfiguratie-functieset bevat een gebruikersinterface (UI) die een visueel overzicht geeft van de productconfiguratiemodelstructuur, en een complete beperkingsyntaxis die niet hoeft te worden gecompileerd. Daarom kunnen bedrijven die een configuratiepraktijk willen ondersteunen gemakkelijker aan de slag gaan. Zoals in de volgende secties wordt uitgelegd, heeft een productontwerper geen ondersteuning meer nodig van een ontwikkelaar om een productconfguratiemodel te maken, te testen en vrij te geven aan de verkooporganisatie.
 
 ## <a name="building-a-product-configuration-model"></a>Een productconfiguratiemodel maken
+
 Er zijn verschillende benaderingen die een gebruiker kan kiezen bij het maken van een productconfiguratiemodel. Een optie is om een opeenvolgende stroom te volgen door eerst alle verwijzingsgegevens te maken, zoals productmodellen, verschillende producten, en operationele bronnen en deze vervolgens bij te voegen als componenten, stuklijstregels, routebewerkingen en andere elementen van het productconfiguratiemodel. Als alternatief kunt u een meer iteratieve aanpak selecteren door eerst het model te maken en vervolgens verwijzingsgegevens toe te voegen wanneer dat nodig is.
 
 ### <a name="components"></a>Onderdelen
@@ -58,7 +60,7 @@ Een productconfiguratiemodel bestaat uit een of meerdere onderdelen die door sub
 Elke component heeft een of meer kenmerken die de eigenschappen ervan identificeren. De kenmerken zijn wat gebruikers tijdens het configuratieproces kiezen. Kenmerken bepalen relaties tussen en binnen componenten door middel van opname in beperkingen of berekeningen. Via voorwaarden die op stuklijstregels worden toegepast, kunnen de kenmerken worden gebruikt om te bepalen uit welke fysieke onderdelen het geconfigureerde product moet bestaan. Bovendien kan een kenmerk de eigenschap van een stuklijstregel bepalen door middel van een toewijzingsmechanisme. Vergelijkbare functionaliteit er bestaat voor routebewerkingen voor zowel opname als eigenschapsinstellingen.
 
 >[!NOTE]
-> Wanneer u kenmerktypen maakt, moet u niet een groot aantal waarden maken voor het domein van het kenmerktype. Dit kan leiden tot vertragingen in de productconfiguratie. 
+> Wanneer u kenmerktypen maakt, moet u niet een groot aantal waarden maken voor het domein van het kenmerktype. Dit kan leiden tot vertragingen in de productconfiguratie.
 
 ### <a name="expression-constraints"></a>Expressiebeperkingen
 
@@ -95,6 +97,7 @@ Stuklijstregels worden opgenomen om de productiestuklijst voor elke component te
 De routebewerkingen zijn opgenomen om de productieroute te identificeren. Een routebewerking moet verwijzen naar een gedefinieerde bewerking en alle bewerkingseigenschappen kunnen op een vaste waarde worden ingesteld. Alle eigenschappen, behalve bronbehoeften kunnen aan een kenmerk in plaats van een waarde worden toegewezen.
 
 ## <a name="validating-and-testing-a-product-configuration-model"></a>Een productconfiguratiemodel valideren en testen
+
 De validatie van een productconfiguratiemodel kan op meerdere niveaus in het model plaatsvinden en kan daarom verschillende bereiken beslaan. Het laagste niveau is voor één expressiebeperking. In dit geval wordt de validatie gewoonlijk uitgevoerd door de productontwerper om te verifiëren dat de syntaxis van een expressie correct is.  
 
 Op dezelfde manier kan een voorwaarde voor een stuklijstregel een routebewerking in isolatie worden gevalideerd.  
@@ -112,6 +115,7 @@ Testen van een model is vergelijkbaar met de uitvoering van een werkelijke confi
 Om tussen componenten te navigeren, klikt u op **Volgende**, of op een onderdeel in de productconfiguratiemodelstructuur om het te selecteren.
 
 ## <a name="finalizing-a-model-for-configuration"></a>Een model voor configuratie voltooien
+
 Wanneer een productconfiguratiemodel gereed is voor gebruik in configureren-op-bestellingscenario's, moet een versie worden gemaakt. Er zijn echter meerdere opties die de modelleringservaring kunnen uitbreiden.
 
 ### <a name="user-interface"></a>Gebruikersinterface
@@ -131,35 +135,31 @@ Als het product in verschillende landen/regio's wordt verkocht, kunnen vertaling
 De laatste stap en belangrijkste in het voltooiingsproces is een versie voor het model te maken. De versie geeft de relatie aan tussen het productmodel, dat kan worden geselecteerd voor configuratie op een order of een offerteregel, en het productconfiguratiemodel. Een versie moet zijn goedgekeurd en geactiveerd voordat deze kan worden gebruikt in een configuratiesessie.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Een productconfiguratiemodel uitbreiden met de API
-Een specifieke toepassingsprogrammeringsinterface (API) is geïmplementeerd, zodat partners en anderen die een ontwikkelaarslicentie hebben, de mogelijkheden van een productconfiguratiemodel kunnen uitbreiden. Het belangrijkste doel is een mechanisme te bepalen waarmee partners en de klanten die de bestaande Product Builder gebruiken, de code die in Product Builder-modellen is ingesloten kunnen migreren naar de API. Op deze manier kunnen ze de modellen van Product Builder naar een productconfiguratie migreren. Nieuwe partners en klanten kunnen echter ook profiteren van het gebruik van de API om nieuwe productconfiguratiemodellen uit te breiden.
 
-### <a name="pcadaptor-class"></a>PCAdaptor-klasse
+Een specifieke toepassingsprogrammeringsinterface (API) is geïmplementeerd, zodat partners en anderen die een ontwikkelaarslicentie hebben, de mogelijkheden van een productconfiguratiemodel kunnen uitbreiden. Het belangrijkste doel is een mechanisme te bepalen waarmee partners en de klanten die de bestaande Product Builder gebruiken, de code die in Product Builder-modellen is ingesloten kunnen migreren naar de API. Op deze manier kunnen ze de modellen van Product Builder naar een productconfiguratie migreren. Nieuwe partners en klanten kunnen echter ook profiteren van het gebruik van de API om nieuwe productconfiguratiemodellen uit te breiden.
 
 De API wordt uitgevoerd via een set van **PCAdaptor**-klassen die de gegevensstructuur van de productconfiguratiemodellen beschikbaar maken. Een exemplaar van de klasse **PCAdaptor** moet worden gemaakt voor elk model dat wordt uitgebreid. Nadat een configuratiesessie is voltooid, wordt gecontroleerd op een exemplaar van deze klasse en wordt deze uitgevoerd wanneer deze wordt gevonden.  
 
-Het volgende stroomdiagram toont de processtroom van een catalogus.  
+Het volgende API-stroomdiagram toont de processtroom van een catalogus.  
 
 [![Stroomdiagram](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-Stroomdiagram productconfiguratie-API
+## <a name="configure-products"></a>Producten configureren
 
-## <a name="product-configuration"></a>Productconfiguratie
-De productconfiguratie kan worden uitgevoerd van de volgende locaties:
+### <a name="configure-one-or-more-products"></a>Een of meer producten configureren
 
--   Verkooporderregel
--   Verkoopofferteregel
--   Inkooporderregel
--   Productieorderregel
--   Artikelbehoefteregel (project)
+U kunt producten vanuit de volgende locaties configureren:
+
+- Verkooporderregel
+- Verkoopofferteregel
+- Inkooporderregel
+- Productieorderregel
+- Artikelbehoefteregel (project)
 
 Het doel van de configuratie is een aparte variant van het product te maken die voldoet aan de eisen van de klant. Een unieke configuratie-id wordt gemaakt voor elke nieuwe configuratie. Deze id schakelt het bijhouden via voorraad in.
 
-### <a name="multiple-sites-and-intercompany"></a>Meerdere sites en intercompany
+### <a name="multiple-sites-and-intercompany-considerations"></a>Overwegingen bij meerdere sites en intercompany
 
 Als de configuratie op een locatie of zelfs een bedrijf wordt uitgevoerd dat verschilt van de locatie of het bedrijf waar productie optreedt, worden de stuklijst en de route gemaakt voor en geplaatst op de locatie van de leverancier in het leverende bedrijf. De productvariant wordt in alle bedrijven zijn vrijgegeven die aan de leveringsketen deelnemen.
-
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

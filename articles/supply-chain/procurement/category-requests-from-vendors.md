@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fb3555e6d923fe37479c3204f0b78f7cdf510118
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 1951f85f84c3b8b2d42f49d5f464d90d410ebfa2
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938445"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015946"
 ---
 # <a name="category-requests-from-vendors"></a>Categorieaanvragen van leveranciers
 
@@ -36,10 +36,7 @@ Nadat de functie is ingeschakeld, kunt u nog steeds handmatig inkoopcategorieën
 
 Voordat een leverancier kan werken met categorieaanvragen, moet dit worden ingesteld voor leverancierssamenwerking.
 
-De leverancier moet minimaal één gebruiker voor leverancierssamenwerking hebben. Alleen leveranciersgebruikers met een of meer van de volgende beveiligingsrollen kunnen categorieaanvragen maken en indienen:
-
-- Contactpersoon leverancier (extern)
-- Leveranciersbeheerder (extern)
+De leverancier moet minimaal één gebruiker voor leverancierssamenwerking hebben. Alleen leveranciersgebruikers met de beveiligingsrol *Leverancierbeheerder (extern)* kunnen categorieaanvragen maken en indienen.
 
 Zie voor meer informatie [Samenwerking met leveranciers instellen en onderhouden](set-up-maintain-vendor-collaboration.md).
 

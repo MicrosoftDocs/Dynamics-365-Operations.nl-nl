@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6efc20de5309bc7ec209a557a4bc12c6a0a42a43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a14b98cab78896d3a6c2e567cadc1ff9a991a278
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804326"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018949"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Binnenkomende voorraadbewerking in POS
 
@@ -70,7 +70,7 @@ De batchtaken die u maakt, worden gebruikt voor het verwerken van documenten die
 
 ## <a name="prerequisite-add-inbound-operation-to-the-pos-screen-layout"></a>Vereiste: Inkomende bewerking toevoegen aan de POS-schermindeling
 
-Voordat uw organisatie de functionaliteit voor inkomende bewerkingen kan gebruiken, moet deze de POS-bewerking **Inkomende bewerking** configureren op een of meer van uw [POS-schermindelingen](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Voordat u de nieuwe bewerking in een productieomgeving implementeert, moet u ervoor zorgen dat u deze grondig test en de gebruikers traint in het gebruik hiervan.
+Voordat uw organisatie de functionaliteit voor inkomende bewerkingen kan gebruiken, moet deze de POS-bewerking **Inkomende bewerking** configureren op een of meer van uw [POS-schermindelingen](/dynamics365/unified-operations/retail/pos-screen-layouts). Voordat u de nieuwe bewerking in een productieomgeving implementeert, moet u ervoor zorgen dat u deze grondig test en de gebruikers traint in het gebruik hiervan.
 
 ## <a name="overview"></a>Overzicht
 
@@ -159,9 +159,9 @@ In Commerce versie 10.0.14 en hoger kunnen gebruikers een product ontvangen dat 
 
 Deze functie werkt alleen voor de ontvangst van inkooporders. Het is niet mogelijk om artikelen te ontvangen op overboekingsorders wanneer de artikelen niet eerder zijn besteld en verzonden vanuit het uitgaande magazijn.
 
-Gebruikers kunnen geen nieuwe producten aan een inkooporder toevoegen tijdens POS-ontvangst als de [werkstroom voor wijzigingsbeheer](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) van inkooporders is ingeschakeld in Commerce Headquarters (HQ). Als u wijzigingsbeheer wilt inschakelen, moeten alle wijzigingen in een inkooporder eerst worden goedgekeurd voordat ontvangst wordt toegestaan. Aangezien een ontvanger door dit proces nieuwe regels aan de inkooporder kan toevoegen, mislukt de ontvangst als de werkstroom voor wijzigingsbeheer is ingeschakeld. Als wijzigingsbeheer is ingeschakeld voor alle inkooporders of voor de leverancier die is gekoppeld aan de inkooporder die actief is in POS, kan de gebruiker geen nieuwe producten aan de inkooporder toevoegen tijdens POS-ontvangst.
+Gebruikers kunnen geen nieuwe producten aan een inkooporder toevoegen tijdens POS-ontvangst als de [werkstroom voor wijzigingsbeheer](../supply-chain/procurement/purchase-order-approval-confirmation.md) van inkooporders is ingeschakeld in Commerce Headquarters (HQ). Als u wijzigingsbeheer wilt inschakelen, moeten alle wijzigingen in een inkooporder eerst worden goedgekeurd voordat ontvangst wordt toegestaan. Aangezien een ontvanger door dit proces nieuwe regels aan de inkooporder kan toevoegen, mislukt de ontvangst als de werkstroom voor wijzigingsbeheer is ingeschakeld. Als wijzigingsbeheer is ingeschakeld voor alle inkooporders of voor de leverancier die is gekoppeld aan de inkooporder die actief is in POS, kan de gebruiker geen nieuwe producten aan de inkooporder toevoegen tijdens POS-ontvangst.
 
-De functionaliteit waarmee het toevoegen van regels is ingeschakeld, kan niet worden gebruikt als tijdelijke oplossing voor het ontvangen van extra hoeveelheden producten die al op de inkooporder staan. Meerontvangsten worden beheerd via de standaardinstellingen voor [meerontvangsten](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) voor de productregel op de inkooporder.
+De functionaliteit waarmee het toevoegen van regels is ingeschakeld, kan niet worden gebruikt als tijdelijke oplossing voor het ontvangen van extra hoeveelheden producten die al op de inkooporder staan. Meerontvangsten worden beheerd via de standaardinstellingen voor [meerontvangsten](#over-receiving-validations) voor de productregel op de inkooporder.
 
 Als **Regels aan inkooporder toevoegen tijdens POS-ontvangst** is ingeschakeld en een gebruiker ontvangt met de **Inkomende bewerking** in POS, dan ontvangt de gebruiker een bericht over het toevoegen van het artikel aan de inkooporder wanneer hij of zij de streepjescode scant of het productnummer invoert van een product dat niet wordt herkend als een artikel op de huidige inkooporder, maar wel wordt herkend als een geldig artikel. Als de gebruiker het artikel toevoegt aan de inkooporder, wordt de hoeveelheid die is ingevoerd in **Nu ontvangen** beschouwd als de bestelde hoeveelheid voor de inkooporderregel.
 

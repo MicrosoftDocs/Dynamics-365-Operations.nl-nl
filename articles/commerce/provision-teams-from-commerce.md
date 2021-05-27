@@ -2,11 +2,9 @@
 title: Microsoft Teams inrichten vanuit Dynamics 365 Commerce
 description: In dit onderwerp wordt beschreven hoe u Microsoft Teams inricht met behulp van organisatiegegevens vanuit Dynamics 365 Commerce.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ba7c74942735b723d1015dc4da0068fbb631bc6b
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 1cb28fb50bdc972d1dae6d03a45f70a2f3a63357
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908899"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022441"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Microsoft Teams inrichten vanuit Dynamics 365 Commerce
 
@@ -75,9 +73,9 @@ Volg deze stappen om een Commerce-organisatiehiërarchie te uploaden naar Teams.
     
 1. Ga in Commerce Headquarters naar **Retail en commerce \> Afzetkanaalinstellingen \> Configuratie van Microsoft Teams-integratie**.
 1. Selecteer **Doelgroephiërarchie downloaden** en selecteer vervolgens **Detailhandelwinkels per regio** om een CSV-bestand (Comma Separated Values) van de organisatiehiërarchie te downloaden.
-1. Installeer de Microsoft Teams PowerShell-module door de stappen in [Microsoft Teams PowerShell installeren](https://docs.microsoft.com/microsoftteams/teams-powershell-install) te volgen.
+1. Installeer de Microsoft Teams PowerShell-module door de stappen in [Microsoft Teams PowerShell installeren](/microsoftteams/teams-powershell-install) te volgen.
 1. Wanneer u wordt gevraagd in het Teams PowerShell-venster, meldt u zich aan met het beheerdersaccount voor uw Azure AD-tenant.
-1. Volg de stappen in [De doelgroephiërarchie voor uw team instellen](https://docs.microsoft.com/microsoftteams/set-up-your-team-hierarchy) om het CSV-bestand voor de doelgroephiërarchie te uploaden.
+1. Volg de stappen in [De doelgroephiërarchie voor uw team instellen](/microsoftteams/set-up-your-team-hierarchy) om het CSV-bestand voor de doelgroephiërarchie te uploaden.
 
 ## <a name="verify-that-the-organizational-hierarchy-was-uploaded-to-teams"></a>Controleren of de organisatiehiërarchie naar Teams is geüpload
 

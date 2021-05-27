@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4e50855368a3fa86c38c756492fc7e6cd518f497
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c813adb79ae1b78a052332e077393f125830633f
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796094"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027717"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Meerdere B2C-tenants configureren in een Commerce-omgeving
 
@@ -27,7 +27,7 @@ ms.locfileid: "5796094"
 
 In dit onderwerp wordt beschreven wanneer en hoe u meerdere Microsoft Azure Active Directory (Azure AD) B2C-tenants (Business-to-consumers) per kanaal instelt voor gebruikersverificatie in een specifieke Dynamics 365 Commerce-omgeving.
 
-Dynamics 365 Commerce gebruikt de Azure AD-B2C-cloudidentiteitsservice om gebruikersreferenties en verificatiestromen te ondersteunen. Gebruikers kunnen de verificatiestromen gebruiken om te registreren, om zich aan te melden en hun wachtwoord opnieuw in te stellen. Azure AD B2C slaat gevoelige gebruikersverificatiegegevens op, zoals de gebruikersnaam en het wachtwoord. De gebruikersrecord is uniek voor elke B2C-tenant en gebruikt de referenties voor de gebruikersnaam (e-mailadres) of de referentie van de sociale identiteitsprovider.
+Dynamics 365 Commerce gebruikt de Azure AD-B2C-cloudidentiteitsservice om gebruikersreferenties en verificatiestromen te ondersteunen. Gebruikers kunnen de verificatiestromen gebruiken om te registreren, om zich aan te melden en hun wachtwoord opnieuw in te stellen. Azure AD B2C slaat gevoelige verificatiegegevens van de gebruiker op, zoals de gebruikersnaam en het wachtwoord. De gebruikersrecord is uniek voor elke B2C-tenant en gebruikt de referenties voor de gebruikersnaam (e-mailadres) of de referentie van de sociale identiteitsprovider.
 
 In de meeste gevallen wordt één Azure AD-B2C-tenant gebruikt in een Commerce-omgeving. Commerce-klanten kunnen vervolgens meerdere sites maken en publiceren in dezelfde Commerce-omgeving, en dezelfde klantreferenties worden op deze sites gebruikt. Als de sites in de omgeving echter moeten worden behandeld als verschillende merken en als afzonderlijke bedrijven worden weergegeven aan gebruikers, kan een B2C-tenant worden geconfigureerd voor het kanaal dat wordt gebruikt voor de site-/merkscheiding.
 

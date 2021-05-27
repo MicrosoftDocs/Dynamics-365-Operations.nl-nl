@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d09c7be5de75511b10d7a69d4b8ac12917b0dbe8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910420"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6017001"
 ---
 # <a name="inventory-visibility-add-in"></a>Invoegtoepassing Voorraadzichtbaarheid
 
@@ -41,20 +41,23 @@ U moet de invoegtoepassing voor voorraadzichtbaarheid installeren met behulp van
 
 Zie voor meer informatie [Lifecycle Services-resources](../../fin-ops-core/dev-itpro/lifecycle-services/lcs.md).
 
-### <a name="prerequisites"></a>Vereisten
+### <a name="inventory-visibility-add-in-prerequisites"></a>Vereisten voor invoegtoepassing Voorraadzichtbaarheid
 
 Voordat u de invoegtoepassing voor voorraadzichtbaarheid kunt installeren, moet u het volgende doen:
 
 - Schaf een LCS-implementatieproject aan met minimaal één geïmplementeerde omgeving.
 - Zorg ervoor dat aan de vereisten voor het instellen van invoegvoegingen die beschikbaar zijn in het [Overzicht van invoegvoegingen](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) is voldaan. Voor Voorraadzichtbaarheid is geen koppeling voor twee keer wegschrijven vereist.
 - Neem contact op met het team op [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) om de volgende drie vereiste bestanden op te halen:
-    - `Inventory Visibility Dataverse Solution.zip`
-    - `Inventory Visibility Configuration Trigger.zip`
-    - `Inventory Visibility Integration.zip` (als u een eerdere versie van Supply Chain Management uitvoert dan versie 10.0.18)
+  - `Inventory Visibility Dataverse Solution.zip`
+  - `Inventory Visibility Configuration Trigger.zip`
+  - `Inventory Visibility Integration.zip` (als u een eerdere versie van Supply Chain Management uitvoert dan versie 10.0.18)
+- U kunt ook contact opnemen met het Voorraadzichtbaarheid-team op [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) voor de Package Deployer-pakketten. Deze pakketten kunnen worden gebruikt door een officieel hulpprogramma voor de implementatie van pakketten.
+  - `InventoryServiceBase.PackageDeployer.zip`
+  - `InventoryServiceApplication.PackageDeployer.zip` (dit pakket bevat alle wijzigingen in het `InventoryServiceBase`-pakket plus extra onderdelen van de gebruikersinterface)
 - Volg de instructies in [Quickstart: registreer een toepassing bij het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app) om een toepassing te registreren en een clientgeheim aan AAD toe te voegen in uw Azure-abonnement.
-    - [Een toepassing registreren](/azure/active-directory/develop/quickstart-register-app)
-    - [Een clientgeheim toevoegen](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
-    - De **Toepassings-id (client)**, **Clientgeheim** en **Tenant-id** worden in de volgende stappen gebruikt.
+  - [Een toepassing registreren](/azure/active-directory/develop/quickstart-register-app)
+  - [Een clientgeheim toevoegen](/azure/active-directory/develop/quickstart-register-app#add-a-certificate)
+  - De **Toepassings-id (client)**, **Clientgeheim** en **Tenant-id** worden in de volgende stappen gebruikt.
 
 > [!NOTE]
 > De landen en regio's die momenteel worden ondersteund, zijn Canada, de Verenigde Staten en de Europese Unie (EU).
@@ -63,18 +66,49 @@ Als u vragen hebt over deze vereisten, neemt u contact op met het productteam vo
 
 ### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Dataverse instellen
 
-Volg deze stappen om Dataverse in te stellen.
+Als u Dataverse wilt instellen voor gebruik met Voorraadzichtbaarheid, moet u eerst de vereisten voorbereiden en vervolgens bepalen of u Dataverse wilt instellen met het hulpprogramma Package Deployer of door de oplossingen handmatig te importeren (u hoeft niet beide te doen). Installeer vervolgens de invoegtoepassing Voorraadzichtbaarheid. In de volgende subsecties wordt beschreven hoe u elk van deze taken uitvoert.
 
-1. Een serviceprincipe aan uw tenant toevoegen:
+#### <a name="prepare-dataverse-prerequisites"></a>Vereisten Dataverse voorbereiden
 
-    1. Installeer Azure AD PowerShell Module v2, zoals beschreven in [Azure Active Directory PowerShell for Graph installeren](/powershell/azure/active-directory/install-adv2).
-    1. Voer de volgende PowerShell-opdracht uit.
+Voordat u een Dataverse gaat instellen, voegt u als volgt een serviceprincipe toe aan uw tenants:
 
-        ```powershell
-        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+1. Installeer Azure AD PowerShell Module v2, zoals beschreven in [Azure Active Directory PowerShell for Graph installeren](/powershell/azure/active-directory/install-adv2).
 
-        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
-        ```
+1. Voer de volgende PowerShell-opdracht uit:
+
+    ```powershell
+    Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+    
+    New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+    ```
+
+#### <a name="set-up-dataverse-using-the-package-deployer-tool"></a>Dataverse instellen met het hulpprogramma Package Deployer
+
+Als aan de vereisten is voldaan, gebruikt u de volgende procedure als u deze Dataverse wilt instellen met het hulpprogramma Package Deployer. Zie het volgende gedeelte voor informatie over het handmatig importeren van de oplossingen (niet beide methoden gebruiken).
+
+1. Installeer ontwikkelhulpprogramma's zoals beschreven in [Hulpprogramma's downloaden van NuGet](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
+
+1. Kies het pakket `InventoryServiceBase` of `InventoryServiceApplication` afhankelijk van de vereisten van uw bedrijf.
+
+1. De oplossingen importeren:
+    1. Voor het `InventoryServiceBase`-pakket:
+        - Pak `InventoryServiceBase.PackageDeployer.zip` uit.
+        - Zoek map `InventoryServiceBase`, bestand `[Content_Types].xml`, bestand `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll`, bestand `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config` en bestand `Microsoft.Dynamics.InventoryServiceBase.PackageExtension.dll.config`. 
+        - Kopieer elk van deze mappen en bestanden naar de map `.\Tools\PackageDeployment` die is gemaakt toen u de ontwikkelhulpprogramma's installeerde.
+    1. Voor het `InventoryServiceApplication`-pakket:
+        - Pak `InventoryServiceApplication.PackageDeployer.zip` uit.
+        - Zoek map `InventoryServiceApplication`, bestand `[Content_Types].xml`, bestand `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll`, bestand `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config` en bestand `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll.config`.
+        - Kopieer elk van deze mappen en bestanden naar de map `.\Tools\PackageDeployment` die is gemaakt toen u de ontwikkelhulpprogramma's installeerde.
+    1. Voer `.\Tools\PackageDeployment\PackageDeployer.exe` uit. Volg de instructies op uw scherm om de oplossingen te importeren.
+
+1. Wijs beveiligingsrollen toe aan de gebruiker van de toepassing.
+    1. Open de URL van uw Dataverse-omgeving.
+    1. Ga naar **Geavanceerde instelling \> Systeem \> Beveiliging \> Gebruikers** en zoek de gebruiker met de naam **#InventoryVisibility**.
+    1. Selecteer **Rol toewijzen** en selecteer vervolgens **Systeembeheerder**. Als er een rol is met de naam **Common Data Service-gebruiker**, selecteert u ook deze rol.
+
+#### <a name="set-up-dataverse-manually-by-importing-solutions"></a>Handmatig Dataverse instellen door oplossingen te importeren
+
+Als aan de vereisten is voldaan, gebruikt u de volgende procedure als u deze Dataverse wilt instellen door oplossingen handmatig te importeren. Zie het vorige gedeelte voor meer informatie over het gebruik van het hulpprogramma Package Deployer (niet beide methoden gebruiken).
 
 1. Een toepassingsgebruiker voor Voorraadzichtbaarheid maken in Dataverse:
 

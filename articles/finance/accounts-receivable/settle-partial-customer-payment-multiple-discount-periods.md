@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21600c0815da99314dcbb8f123449c2ae93a3c1a
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835095"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027475"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Een gedeeltelijke klantenbetaling met meerdere kortingsperioden vereffenen
 
@@ -31,7 +31,7 @@ In dit artikel wordt getoond hoe gedeeltelijke klantbetalingen worden vereffend 
 Fabrikam biedt klant 4031 twee contantkortingsperiodes. De klant ontvangt een korting van 2 procent als de factuur binnen vijf dagen wordt betaald en 1 procent contantkorting als de factuur binnen 14 dagen wordt betaald. Fabrikam biedt ook contantkortingen op gedeeltelijke betalingen. De vereffeningparameters bevinden zich op de pagina **Leveranciersparameters**.
 
 ## <a name="invoice"></a>Factuur
-Op 25 juni voert Arnie een factuur in en boekt deze voor 1.000,00 voor klant 4031. Wanneer hij de contantkortingen voor deze factuur bekijkt, ziet Arnie dat klant 4031 een korting van 20,00 ontvangt als de factuur voor 30 juni betaald wordt. Als de factuur voor 9 juli betaald wordt, ontvangt de klant een korting van 10,00.
+Op 25 juni voert Arnie een factuur in en boekt deze voor 1.000,00 voor klant 4031. Wanneer Arnie de contantkortingen voor deze factuur bekijkt, ziet Arnie dat klant 4031 een korting van 20,00 ontvangt als de factuur voor 30 juni betaald wordt. Als de factuur voor 9 juli betaald wordt, ontvangt de klant een korting van 10,00.
 
 | Datum van contantkorting | Contantkortingsbedrag | Bedrag in transactievaluta |
 |--------------------|----------------------|--------------------------------|

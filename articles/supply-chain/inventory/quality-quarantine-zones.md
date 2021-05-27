@@ -2,11 +2,9 @@
 title: Quarantainezones voor niet-conformeringen
 description: In dit onderwerp wordt beschreven hoe u quarantainezones voor niet-conformeringen maakt en gebruikt.
 author: rachel-profitt
-manager: tfehr
 ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventQuarantineZone
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93ca74ec4586fffa3b9156aadab887629283b98a
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: 80f4b9dfc7882af4570bf1908784b8d114396402
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956613"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021799"
 ---
 # <a name="quarantine-zones-for-nonconformances"></a>Quarantainezones voor niet-conformeringen
 

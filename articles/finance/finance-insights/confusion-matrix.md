@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d6e8f63ef00f714109ae650d3cedaf19e5159325
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818747"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028198"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Resultaten van machine learning-modellen (preview)
 
@@ -63,8 +63,8 @@ We beginnen bij deze vraag met eerst naar de nauwkeurigheid van een naïeve insc
 
 Ook moet er rekening worden gehouden met een ander aspect. Overweeg een scenario waarbij een medische test wordt gebruikt om een ziekte in een patiënt te detecteren. Dit probleem is een probleem met een binaire classificatie waarbij een positief resultaat aangeeft dat de patiënt de ziekte heeft. In dit scenario moet u nadenken over de gevolgen van de volgende fouten:
 
-- Onjuiste positieven, waarbij de test aangeeft dat een patiënt de ziekte heeft, maar deze niet echt heeft
-- Onjuiste negatieven, waarbij de test aangeeft dat een patiënt de ziekte niet heeft, terwijl hij/zij deze wel heeft
+- Onjuiste positieven, waarbij de test aangeeft dat een patiënt de ziekte heeft, maar deze niet echt heeft.
+- Onjuiste negatieven, waarbij de test aangeeft dat een patiënt de ziekte niet heeft, terwijl deze wel heeft.
 
 Uiteraard zijn beide typen fouten niet gewenst, maar welke is erger? Ook is dat hier afhankelijk van de situatie. Bij een levensbedreigende ziekte die snelle behandeling vereist, heeft het minimaliseren van foute negatieven (hopelijk gevolgd door extra tests) voorrang. In andere, minder kritieke situaties kunnen de makers van modellen in plaats hiervan foute positieven minimaliseren. In ieder geval is het een redelijke conclusie dat de kwaliteit van een model alleen effectief kan worden bepaald als u meer informatie hebt dan de metrische nauwkeurigheidsgegevens.
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
-ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
+ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5965305"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980892"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Verwijderde of afgeschafte functies in Dynamics 365 Finance
 
@@ -35,7 +35,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Verwijderde of verouderde functies in versie 10.0.20 van Finance
 
-### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>Configuratie van de HU-indeling (RTIR Query Invoice Data Request)
+### <a name="rtir-query-invoice-data-request-hu-electronic-reporting-er-format-configuration"></a>Configuratie van de HU-indeling ('RTIR Query Invoice Data Request') voor elektronische rapportage (ER)
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -45,6 +45,15 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Implementatieoptie**              | Alles |
 | **Status**                         | Afgeschaft: Uiterlijk op 15 april 2022 zal de indelingsconfiguratie "RTIR Query Invoice Data Request (HU)" niet langer worden ondersteund. |
 
+### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>'Frans FEC-auditbestand' met indeling voor elektronische rapportage (ER) voor Frankrijk onder 'uitvoer van Duits auditfile'-indeling
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Vervangen door nieuwe 'Frans FEC-auditbestand (FR)'-indeling |
+| **Vervangen door een andere functie?**   | Ja |
+| **Betrokken productgebieden**         | Sollicitatie |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Afgeschaft: per 1 mei 2022 zijn we van plan om niet langer het 'Frans FEC-auditbestand' met indeling voor elektronische rapportage (ER) voor Frankrijk onder 'uitvoer van Duits auditfile'-indeling te ondersteunen. In plaats daarvan wordt de nieuwe 'Frans FEC-auditbestand (FR)'-indeling geïntroduceerd onder het 'Gegevensexportmodel'. |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Verwijderde of verouderde functies in versie 10.0.17 van Finance
 

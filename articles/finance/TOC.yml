@@ -78,8 +78,6 @@
                       href: get-started/whats-new-changed-10-0-18.md
                     - name: Finance 10.0.17 (april 2021)
                       href: get-started/whats-new-changed-10-0-17.md
-                    - name: Finance 10.0.16 (februari 2021)
-                      href: get-started/whats-new-changed-10-0-16.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -428,6 +426,8 @@
                   href: accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md
                 - name: Een gedeeltelijke klantbetaling met meerdere kortingsperioden vereffenen
                   href: accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md
+                - name: Vooruitbetalingen van klanten
+                  href: accounts-receivable/customer-prepayments.md
                 - name: Klanten terugbetalen
                   href: accounts-receivable/reimburse-customers.md
                 - name: Klantbetalingen voor een gedeeltelijk bedrag
@@ -482,8 +482,10 @@
               href: accounts-receivable/tasks/process-collection-letters.md
             - name: Voorbeeld van aanmaningen verwerken
               href: accounts-receivable/process-collection-letters-example.md
-            - name: De ouderdomsrangschikking van vorderingen instellen en genereren
+            - name: Informatie over ouderdom van klanten instellen en genereren
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Ouderdomsmomentopname klant
+              href: accounts-receivable/customer-aging-snapshot.md
             - name: Rapport van naar ouderdom gerangschikte door klanten verschuldigde saldi
               href: accounts-receivable/customer-aging.md
             - name: Een afschrijvingsjournaal voor een klant maken
@@ -512,6 +514,8 @@
               href: budgeting/budget-planning-justification-docs.md
             - name: Een budget maken voor transactierekeningen en totaalrekeningen
               href: budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: Budgetplanmodel
+              href: budgeting/budget-narrative.md
             - name: Excel-sjablonen voor budgetplanning
               href: budgeting/budget-planning-excel-templates.md
             - name: De indeling van de budgetplanning uitbreiden
@@ -1144,8 +1148,18 @@
                   href: general-ledger/audit-policy-rules.md
                 - name: Overtredingen van controlebeleid en voorbeelden
                   href: general-ledger/audit-policy-violations-cases.md
-                - name: Auditbeleid voor brondocumenten definiëren
+                - name: Controlebeleid voor brondocumenten definiëren
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: Problemen oplossen
+              items:
+                - name: De boekhoudings- of aangiftevaluta wijzigen
+                  href: general-ledger/add-change-acctg-rprtg-crrncy.md
+                - name: Een grootboekkalender wijzigen of opnieuw toewijzen
+                  href: general-ledger/change-mdfy-clndr-to-ledger.md
+                - name: Terugboekingsinstellingen voor journalen en regels
+                  href: general-ledger/rvrs-settgs-on-jrnls-lines.md
+                - name: Ontbrekende openingssaldi in jaarafsluiting
+                  href: general-ledger/yec-mssng-open-blnces.md
         - name: Financiële rapportage
           items:
             - name: Aan de slag met financiële rapportage
@@ -1648,11 +1662,19 @@
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
-                - name: Overzicht SPED-Reinf-belasting
-                  href: localizations/latam-bra-sped-reinf.md
+                - name: SPED-Reinf
+                  items:
+                    - name: SPED-Reinf-overzicht
+                      href: localizations/latam-bra-sped-reinf-overview.md
+                    - name: E-mailbericht instellen
+                      href: localizations/latam-bra-sped-reinf-electronic-messages.md
+                    - name: Belastingboeken instellen
+                      href: localizations/latam-bra-sped-reinf-setup-fiscal-books.md
+                    - name: Gebeurtenissen
+                      href: localizations/latam-bra-sped-reinf.md
                 - name: SPED fiscale resolutie 13/2019 RJ
                   href: localizations/latam-bra-resolution-13-2019-RJ.md
-                - name: SPED fiscale 2020-aanvullende informatie van de ICMS-ST voor SPED fiscale indeling 014
+                - name: Fiscale SPED 2020 - Aanvullende informatie van de ICMS-ST voor fiscale SPED-indeling 014
                   href: localizations/latam-bra-complementary-information-icms-st-sped-fiscal-2020-layout-014.md
                 - name: SPED Fiscal – Indeling 014
                   href: localizations/latam-bra-sped-fiscal-layout-014.md
@@ -1782,6 +1804,8 @@
                   href: localizations/tasks/user-operation-log-china-working-rule.md
                 - name: Veelgestelde vragen over btw bij klantfacturen
                   href: localizations/apac-chn-tax-integration-vat-customer-invoices.md
+                - name: Export van GB/T 24589-2010
+                  href: localizations/apac-chn-gbt-24589-2010.md
             - name: Tsjechië
               items:
                 - name: Tsjechië
@@ -2038,8 +2062,18 @@
                   href: localizations/tasks/fr-00004-approve-post-draw-bill-exchange.md
                 - name: Chronologische facturen en boekstukken
                   href: localizations/emea-fra-chronological-invoices-vouchers.md
-                - name: Standaard auditfile maken voor Frankrijk (FEC)
-                  href: localizations/emea-fra-fec-audit-file.md
+                - name: Auditfile voor Frankrijk
+                  items:
+                    - name: Overzicht van auditfile voor Frankrijk (FEC)
+                      href: localizations/emea-fra-fec-audit-file.md
+                    - name: Voorwaarden voor het genereren van een FEC-auditfile in Frankrijk
+                      href: localizations/emea-fra-fec-audit-file-pre-requisites.md
+                    - name: Structuur van de financieringsgegevensbronnen voor de FEC
+                      href: localizations/emea-fra-fec-audit-file-structure.md
+                    - name: Uw omgeving voorbereiden op het genereren van een FEC
+                      href: localizations/emea-fra-fec-audit-file-setup.md
+                    - name: Een FEC genereren in Dynamics 365 Finance
+                      href: localizations/emea-fra-fec-audit-file-generation.md
                 - name: Klant- en leveranciersrekeningoverzichten
                   href: localizations/tasks/fr-00002-customer-vendor-account-statements.md
                 - name: Dagelijkse renteberekening voor te late betaling en forfaitair bedrag in de factuur en de aanmaning
@@ -2392,6 +2426,84 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Overboeking van kapitaalitems naar het vaste activum
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
+                - name: TDS India
+                  items:
+                    - name: Overzicht van Indiase TDS (Tax Deducted at Source)
+                      href: localizations/apac-ind-TDS-India-TDS-overview.md
+                    - name: Basisinstellingen voor TDS
+                      items:
+                        - name: De TDS-parameters instellen
+                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                        - name: TDS-grootboekrekeningen instellen
+                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                        - name: TDS-registratienummers instellen voor rechtspersonen
+                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                        - name: Bronbelastingdiensten instellen voor het TDS-belastingtype
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: Belastingonderdelen instellen voor het TDS-belastingtype
+                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                        - name: Bronbelastingcodes instellen voor het TDS-belastingtype
+                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                        - name: Vereffeningsperioden voor bronbelasting instellen voor het TDS-belastingtype
+                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                        - name: Aangiftecodes voor bronbelasting instellen voor het TDS-belastingtype
+                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                        - name: Bronbelastingcodes instellen voor het TDS-belastingtype
+                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                        - name: TDS-belastingcodes koppelen aan TDS-belastinggroepen en de formule voor het berekenen van TDS definiëren
+                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                        - name: Certificaatnummers voor concessie van TDS registreren
+                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                        - name: TDS-parameters instellen in Leveranciers en Klanten
+                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                        - name: Betalingsschema's instellen met TDS-toewijzing
+                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                        - name: Betalingskosten instellen voor TDS-instantiebetalingen
+                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                        - name: 'Instellingen voor TDS-groeps-, PAN- en TAN-gegevens voor leveranciers en klanten'
+                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                    - name: Formuleontwerper en drempellimiet voor TDS-berekening
+                      items:
+                        - name: Formuleontwerper voor TDS-berekeningen
+                          href: localizations/apac-ind-TDS-Formula-designer.md
+                        - name: Drempellimiet en uitzonderingsdrempellimiet
+                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                    - name: TDS-berekening voor facturen
+                      items:
+                        - name: TDS-berekening voor facturen
+                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                        - name: TDS voor facturen berekenen met journalen
+                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                        - name: TDS-facturen berekenen op basis van inkooporder- en verkooporderformulier
+                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                        - name: TDS-berekening voor facturen via de pagina Vrije-tekstfactuur
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                        - name: Functionaliteit voor gesplitste facturen
+                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                    - name: TDS-berekening voor betalingen en promessen
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                    - name: TDS-berekening voor intercompany-transacties
+                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                    - name: TDS-vereffeningsproces
+                      items:
+                        - name: TDS-berekening voor betalingen en promessen
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                        - name: TDS-berekening voor intercompany-transacties
+                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                        - name: TDS-vereffeningsproces
+                          items:
+                            - name: Het periodieke TDS-vereffeningsproces uitvoeren
+                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                            - name: TDS-betalingen vereffenen met leveranciers van TDS-instanties en TDS-challan genereren
+                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                            - name: Geboekte TDS-betalingen en -transacties voor een TDS-vereffeningsperiode weergeven
+                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
+                        - name: TDS-certificaatnummers en -datums registreren en bijwerken
+                          items:
+                            - name: Certificaatnummers voor terug te vorderen TDS registreren
+                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                            - name: Certificaatnummers en -datums bijwerken voor TDS-transacties
+                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: Italië
               items:
                 - name: Overzicht Italië

@@ -2,11 +2,9 @@
 title: Gebruikersrollen beheren in Microsoft Teams
 description: In dit onderwerp wordt beschreven hoe u gebruikersrollen voor Microsoft Dynamics 365 Commerce beheert in Microsoft Teams.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 53cdd1966e76dfcfc427e73520a680a610667617
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 7b4734fd363cd5ee44f228e0c0f9ce73abad1aaa
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908801"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021847"
 ---
 # <a name="manage-user-roles-in-microsoft-teams"></a>Gebruikersrollen beheren in Microsoft Teams
 
@@ -34,7 +32,7 @@ In de volgende afbeelding ziet u een voorbeeld van een lijst met teamleden en hu
 
 ![Teamleden en gebruikersrollen in het Microsoft Teams-beheercentrum](media/d365-commerce-teams-integration-user-roles.png)
 
-Zie [Eigenaren en leden van een team toewijzen in Microsoft Teams](https://docs.microsoft.com/microsoftteams/assign-roles-permissions) voor meer informatie.
+Zie [Eigenaren en leden van een team toewijzen in Microsoft Teams](/microsoftteams/assign-roles-permissions) voor meer informatie.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

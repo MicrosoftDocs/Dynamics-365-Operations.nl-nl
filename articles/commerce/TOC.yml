@@ -380,8 +380,6 @@
                       href: ../supply-chain/pim/search-products-product-variants.md?toc=/dynamics365/commerce/toc.json
                     - name: Verbeteringen kasbeheer
                       href: cash-mgmt.md
-                    - name: Zoeken in voorraad in POS
-                      href: product-variants-POS.md
                     - name: Transacties in POS onderbreken en hervatten
                       href: pos-suspend-recall-transactions.md
                     - name: Offline POS-functionaliteit
@@ -714,6 +712,8 @@
                       href: pos-outbound-inventory-operation.md
                     - name: Voorraadbeschikbaarheid voor Retail-kanalen berekenen
                       href: calculated-inventory-retail-channels.md
+                    - name: Zoeken in voorraad in POS
+                      href: pos-inventory-lookup-operation.md
                 - name: Inkooporders
                   items:
                     - name: Overzicht van inkooporders
@@ -2444,14 +2444,38 @@
                   items:
                     - name: Overzicht van POS-uitbreiding
                       href: dev-itpro/pos-extension/pos-extension-overview.md
-                    - name: Aan de slag met de POS-uitbreidingen
+                    - name: Aan de slag met POS-uitbreidingen
                       href: dev-itpro/pos-extension/pos-extension-getting-started.md
                     - name: Een project voor een POS-uitbreidingspakket maken
                       href: dev-itpro/pos-extension/create-pos-extension-package.md
-                    - name: Een appx-bestand voor de Modern POS-uitbreiding maken
+                    - name: Een APPX-bestand voor een Modern POS-uitbreidingspakket maken
                       href: dev-itpro/pos-extension/create-pos-extension-appx.md
-                    - name: Fouten opsporen in een POS-uitbreiding
+                    - name: Fouten opsporen in POS-uitbreidingen
                       href: dev-itpro/pos-extension/debug-pos-extension.md
+                    - name: Verpakking en implementatie van uitbreidingen
+                      items:
+                        - name: Een Modern POS-uitbreidingspakket maken
+                          href: dev-itpro/pos-extension/mpos-extension-packaging.md
+                        - name: Ondertekening van programmacode voor een Modern POS-uitbreidingspakket (MSIX)
+                          href: dev-itpro/pos-extension/mpos-extension-signing.md
+                        - name: Een Cloud POS-uitbreidingspakket maken
+                          href: dev-itpro/pos-extension/cpos-extension-package.md
+                    - name: Een POS-uitbreiding migreren naar het model voor onafhankelijke verpakking
+                      href: dev-itpro/pos-extension/migrate-pos-extension.md
+                    - name: Handleiding voor ontwikkeling van POS-uitbreidingen
+                      items:
+                        - name: Basisprincipes van POS-uitbreidingen
+                          href: dev-itpro/pos-extension/pos-extension-basics.md
+                        - name: Een aangepaste weergave maken in POS
+                          href: dev-itpro/pos-extension/custom-pos-view.md
+                        - name: POS-besturingselementen gebruiken in uitbreidingen
+                          href: dev-itpro/pos-extension/controls-pos-extension.md
+                        - name: Taken
+                          items:
+                            - name: Knockout.js gebruiken in POS-uitbreidingen
+                              href: dev-itpro/pos-extension/knockout-pos-extension.md
+                            - name: Aangepaste headless Commerce-API's
+                              href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Uitbreidbaarheid van Hardware Station
               items:
                 - name: Hardware Station en uitbreidbaarheid

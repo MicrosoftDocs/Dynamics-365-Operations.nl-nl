@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0eece0678335caa789f0b2c4a324deab6832b53c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f1f91a67ebac212f72b5524723ec0b8b4e0e3e99
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795472"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028270"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Recency-, frequentie- en monetaire analyse (RFM) instellen
 
@@ -39,7 +39,7 @@ Uw organisatie heeft bijvoorbeeld de beoordelingen op een schaal van 1 tot 5 ing
 
 - **Recencyscore van 5** – De klant heeft onlangs een aankoop gedaan.
 - **Frequentiebeoordeling van 3** – De klant koopt redelijk vaak producten van uw organisatie.
-- **Monetaire score van 5** - Wanneer de klant een inkoop doet, geeft deze een aanzienlijk bedrag uit.
+- **Monetaire score van 5**: wanneer de klant een inkoop doet, geeft deze een aanzienlijk bedrag uit.
 
 Als uw organisatie een samengeteld cijfer gebruikt voor de score, worden de individuele beoordelingen samengevoegd. Voor hetzelfde voorbeeld heeft de klant een beoordeling van 13 (5 + 3 + 5).
 

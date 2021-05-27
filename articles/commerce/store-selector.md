@@ -2,7 +2,6 @@
 title: Winkelselectiemodule
 description: In dit onderwerp wordt beschreven wat de winkelselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
-ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
+ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853412"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021459"
 ---
 # <a name="store-selector-module"></a>Winkelselectiemodule
 
@@ -62,7 +61,7 @@ Voer deze stappen uit om de waarden voor lengtegraad en breedtegraad voor een wi
 
 ## <a name="bing-maps-integration"></a>Bing Kaarten-integratie
 
-De module winkelselectie is geïntegreerd met de [Bing Kaarten REST API's (Application Programming Interfaces)](https://docs.microsoft.com/bingmaps/rest-services/) om de Bing-functies Geocodering en Automatische suggesties te gebruiken. Er is een API-sleutel voor Bing Kaarten vereist. Deze moet worden toegevoegd aan de pagina met gedeelde parameters in Commerce Headquarters. De Geocodering-API wordt gebruikt om een locatie te converteren naar breedte- en lengtegraad. De integratie met de API voor Automatische suggesties wordt gebruikt om zoeksuggesties weer te geven wanneer gebruikers locaties invoeren in het zoekveld.
+De module winkelselectie is geïntegreerd met de [Bing Kaarten REST API's (Application Programming Interfaces)](/bingmaps/rest-services/) om de Bing-functies Geocodering en Automatische suggesties te gebruiken. Er is een API-sleutel voor Bing Kaarten vereist. Deze moet worden toegevoegd aan de pagina met gedeelde parameters in Commerce Headquarters. De Geocodering-API wordt gebruikt om een locatie te converteren naar breedte- en lengtegraad. De integratie met de API voor Automatische suggesties wordt gebruikt om zoeksuggesties weer te geven wanneer gebruikers locaties invoeren in het zoekveld.
 
 Voor de REST API van Automatische suggesties moet u ervoor zorgen dat de volgende URL's zijn toegestaan volgens het contentbeveiligingsbeleid van uw site (CSP). Deze instelling wordt uitgevoerd in Commerce Site Builder door toegestane URL's toe te voegen aan verschillende CSP-instructies voor de site (bijvoorbeeld **img-src**). Zie voor meer informatie [Beveiligingsbeleid voor inhoud](manage-csp.md). 
 
@@ -78,14 +77,14 @@ De winkelselectiemodule ondersteunt een **Ophalen in winkel**-modus met een lijs
 
 U kunt de winkelselectiemodule toevoegen aan een koopvakmodule op een PDP om winkels weer te geven waar een product kan worden opgehaald. De winkelselectiemodule kan ook aan een winkelwagenmodule worden toegevoegd. In dit geval worden in de winkelselectiemodule opties voor elk regelartikel in het winkelwagentje weergegeven. Daarnaast kan de winkelselectiemodule ook worden toegevoegd aan andere pagina's of modules via extensies en aanpassingen.
 
-Het scenario werkt alleen als producten zijn geconfigureerd zodat de leveringsmodus **Ophalen** wordt gebruikt. Anders wordt de module niet op de productpagina's weergegeven. Zie [Leveringsmethoden instellen](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery) voor meer informatie over het configureren van de leveringsmodus.
+Het scenario werkt alleen als producten zijn geconfigureerd zodat de leveringsmodus **Ophalen** wordt gebruikt. Anders wordt de module niet op de productpagina's weergegeven. Zie [Leveringsmethoden instellen](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery) voor meer informatie over het configureren van de leveringsmodus.
 
 De volgende afbeelding toont een voorbeeld van een winkelselectiemodule die wordt gebruikt voor een pagina met productgegevens.
 
 ![Voorbeeld van een winkelselectiemodule die wordt gebruikt in een PDP](./media/BOPIS.PNG)
 
 > [!NOTE]
-> In versie 10.0.16 en hoger kan een nieuwe functie worden ingeschakeld, waarmee een organisatie meerdere leveringsmethoden kan definiëren voor klanten.  Als deze functie is ingeschakeld, worden de winkelkiezer en andere modules van e-Commerce uitgebreid zodat de klant kan kiezen uit mogelijk meerdere ophaal- en bezorgopties als deze zijn geconfigureerd.  Zie [deze documentatie](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes) voor meer informatie over deze functie. 
+> In versie 10.0.16 en hoger kan een nieuwe functie worden ingeschakeld, waarmee een organisatie meerdere leveringsmethoden kan definiëren voor klanten.  Als deze functie is ingeschakeld, worden de winkelkiezer en andere modules van e-Commerce uitgebreid zodat de klant kan kiezen uit mogelijk meerdere ophaal- en bezorgopties als deze zijn geconfigureerd.  Zie [deze documentatie](./multiple-pickup-modes.md) voor meer informatie over deze functie. 
 
 ## <a name="find-stores-mode"></a>De modus winkels zoeken
 
@@ -157,11 +156,11 @@ Voer de volgende stappen uit om de winkelselectiemodule te configureren voor de 
 
 [Snelle rondleiding door winkelwagen en kassa](quick-tour-cart-checkout.md)
 
-[Leveringsmethoden instellen](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Leveringsmethoden instellen](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 [Bing Kaarten voor uw organisatie beheren](dev-itpro/manage-bing-maps.md)
 
-[REST API's van Bing Kaarten](https://docs.microsoft.com/bingmaps/rest-services/)
+[REST API's van Bing Kaarten](/bingmaps/rest-services/)
 
 [Module Kaarten](map-module.md)
 

@@ -84,11 +84,11 @@
               href: dev-tools/version-models-build.md
         - name: Gegevensintegratie
           items:
-            - name: Een strategie voor gegevensintegratie kiezen (importeren/exporteren)
+            - name: Integratie tussen Finance and Operations-apps en services van derden
               href: data-entities/integration-overview.md
             - name: Op prioriteit gebaseerde aanvraagbeperking
               hreF: data-entities/priority-based-throttling.md
-            - name: Veelgestelde vragen over Op prioriteit gebaseerde aanvraagbeperking
+            - name: Veelgestelde vragen over op prioriteit gebaseerde aanvraagbeperking
               href: data-entities/throttling-faq.md
             - name: Gegevensintegratie-API's
               items:
@@ -126,196 +126,62 @@
                       href: data-entities/tasks/create-record-template-facilitate-data-entry.md
                     - name: Records maken met recordsjablonen
                       href: data-entities/tasks/use-record-template-new-record.md
-                - name: Gegevensintegratie via Dataverse
+                - name: Data Integrator
                   items:
-                    - name: Overzicht van Gegevensintegratie via Dataverse
-                      href: data-entities/data-integration-cds.md
-                    - name: Integratie van twee keer wegschrijven
+                    - name: Een scenario van prospect tot contant geld configureren
                       items:
-                        - name: Startpagina voor twee keer wegschrijven
-                          href: data-entities/dual-write/dual-write-home-page.md
-                        - name: Nieuwe of gewijzigde functies in twee keer wegschrijven
-                          href: data-entities/dual-write/whats-new-dual-write.md
-                        - name: Overzicht van twee keer wegschrijven
-                          href: data-entities/dual-write/dual-write-overview.md
-                        - name: Instellingen voor twee keer wegschrijven
-                          items:
-                            - name: Systeemvereisten voor twee keer wegschrijven
-                              href: data-entities/dual-write/dual-write-system-req.md
-                            - name: Richtlijnen voor het instellen van twee keer wegschrijven
-                              href: data-entities/dual-write/connection-setup.md
-                            - name: Overwegingen voor initiële synchronisatie
-                              href: data-entities/dual-write/initial-sync-guidance.md
-                            - name: Instellingen voor twee keer wegschrijven van Lifecycle Services
-                              href: data-entities/dual-write/lcs-setup.md
-                            - name: Twee keer wegschrijven voor bestaande Finance and Operations-apps inschakelen
-                              items:
-                                - name: Twee keer wegschrijven voor bestaande Finance and Operations-apps inschakelen
-                                  href: data-entities/dual-write/enable-dual-write.md
-                                - name: Systeemvereisten en vereisten vooraf
-                                  href: data-entities/dual-write/requirements-and-prerequisites.md
-                                - name: Uw omgevingen koppelen met behulp van de wizard Twee keer wegschrijven
-                                  href: data-entities/dual-write/link-your-environment.md
-                                - name: Entiteitstoewijzing voor twee keer wegschrijven inschakelen
-                                  href: data-entities/dual-write/enable-entity-map.md
-                            - name: Migratie van valutagegevenstype voor twee keer wegschrijven
-                              href: data-entities/dual-write/currrency-decimal-places.md
-                            - name: De toewijzing instellen voor de verkooporderstatusvelden
-                              href: data-entities/dual-write/sales-status-map.md
-                            - name: Intercompany-orders filteren om synchronisatie van Orders en OrderLines te voorkomen
-                              href: data-entities/dual-write/filtering-intercompany-orders.md
-                        - name: Twee keer wegschrijven beheren
-                          items:
-                            - name: Entiteits- en veldtoewijzingen aanpassen
-                              href: data-entities/dual-write/customizing-mappings.md
-                            - name: Meerdere entiteitstoewijzingen verwerken
-                              href: data-entities/dual-write/multiple-entity-maps.md
-                            - name: Een rechtspersoon bewerken na instelling van twee keer wegschrijven
-                              href: data-entities/dual-write/edit-legal-entity.md
-                            - name: Foutbeheer en waarschuwingsmeldingen
-                              href: data-entities/dual-write/errors-and-alerts.md
-                            - name: Levenscyclusbeheer voor toepassing
-                              href: data-entities/dual-write/app-lifecycle-management.md
-                        - name: Toewijzingsconcepten tussen apps
-                          items:
-                            - name: Model voor geïntegreerde klanten
-                              href: data-entities/dual-write/customer-mapping.md
-                            - name: Integratie van leverancier
-                              items:
-                                - name: Model voor geïntegreerde leveranciers
-                                  href: data-entities/dual-write/vendor-mapping.md
-                                - name: Schakelen tussen leverancierontwerpen
-                                  href: data-entities/dual-write/vendor-switch.md
-                            - name: Loyaliteitskaarten en beloningspunten voor klanten
-                              href: data-entities/dual-write/loyalty-mapping.md
-                            - name: Productintegratie
-                              items:
-                                - name: Uniforme productervaring
-                                  href: data-entities/dual-write/product-mapping.md
-                                - name: Geïntegreerde sites en magazijnen
-                                  href: data-entities/dual-write/sites-warehouses-mapping.md
-                            - name: Bedrijfsintegratie
-                              items:
-                                - name: Bedrijfsconcept in Dataverse
-                                  href: data-entities/dual-write/company-data.md
-                                - name: Bedrijfsgegevens initialiseren
-                                  href: data-entities/dual-write/bootstrap-company-data.md
-                            - name: Organisatiehiërarchie van Dataverse
-                              href: data-entities/dual-write/organization-mapping.md
-                            - name: Financiële en belastinggegevens
-                              items:
-                                - name: Toegang tot referentiegegevens voor financiën en belastingen
-                                  href: data-entities/dual-write/finance-tax-reference.md
-                                - name: Geïntegreerd grootboek
-                                  href: data-entities/dual-write/ledger-mapping.md
-                                - name: Model voor geïntegreerde belasting
-                                  href: data-entities/dual-write/tax-mapping.md
-                            - name: Inkoop integreren in Supply Chain Management met Field Service
-                              href: data-entities/dual-write/scm-field-service-procurement.md
-                            - name: Op verzoek synchroniseren met de Supply Chain Management-prijsengine
-                              href: data-entities/dual-write/pricing-engine.md
-                            - name: Prospect naar contant geld in twee keer wegschrijven
-                              href: data-entities/dual-write/dual-write-prospect-to-cash.md
-                            - name: Dynamics 365 Commerce-prijsengine gebruiken met Dynamics 365 Sales
-                              href: data-entities/dual-write/commerce-pricing.md
-                            - name: Interne activa voor onderhoudsbeurten
-                              href: data-entities/dual-write/in-house-assets.md
-                            - name: Voorraadbeschikbaarheid
-                              href: data-entities/dual-write/inventory-availability.md
-                            - name: 'Geïntegreerde medewerker, taak en functie'
-                              href: data-entities/dual-write/integrated-hr.md
-                            - name: Partij en globaal adresboek
-                              href: data-entities/dual-write/party-gab.md
-                            - name: Power Portal gebruiken met het gegevensmodel Partij
-                              href: data-entities/dual-write/party-gab-portal.md
-                            - name: Bijwerken naar het model voor partij en globaal adresboek
-                              href: data-entities/dual-write/upgrade-party-gab.md
-                            - name: Integratie met notitie
-                              href: data-entities/dual-write/notes-integration.md
-                            - name: Toewijzingsverwijzing
-                              href: data-entities/dual-write/mapping-reference.md
-                        - name: Ondersteuning voor twee keer wegschrijven
-                          items:
-                            - name: Ondersteuning voor Field Service- en Project Service Automation-oplossingen
-                              href: data-entities/dual-write/field-service-project-service-automation.md
-                            - name: Gegevens van Prospect naar contant geld vanuit Data Integrator migreren naar twee keer wegschrijven
-                              href: data-entities/dual-write/migrate-prospect-to-cash.md
-                            - name: Problemen oplossen
-                              items:
-                                - name: Configuratie van twee keer wegschrijven in Finance and Operations-apps en Dataverse verifiëren
-                                  href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
-                                - name: Problemen tijdens de initiële instelling oplossen
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
-                                - name: Problemen tijdens de initiële synchronisatie oplossen
-                                  href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                                - name: Problemen met twee keer wegschrijven in Finance and Operations-apps oplossen
-                                  href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                                - name: Problemen met live synchronisatie oplossen
-                                  href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
-                                - name: Problemen met betrekking tot inzicht in de oplossing oplossen
-                                  href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
-                                - name: Problemen met upgrades van Finance and Operations-apps oplossen
-                                  href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                                - name: Algemene probleemoplossing
-                                  href: data-entities/dual-write/dual-write-troubleshooting.md
-                        - name: Veelgestelde vragen over twee keer wegschrijven
-                          href: data-entities/dual-write/dual-write-faq.md
-                    - name: Integratie met Power Platform
+                        - name: Van prospect tot contant geld
+                          href: ../../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: Rekeningen in Sales rechtstreeks synchroniseren met klanten in Finance and Operations
+                          href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: Producten in Finance and Operations rechtstreeks synchroniseren met producten in Sales
+                          href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Finance and Operations
+                          href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: Kopteksten en regels in verkoopoffertes rechtstreeks synchroniseren vanuit Sales naar Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: Verkooporders rechtstreeks synchroniseren tussen Sales en Finance and Operations
+                          href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Finance and Operations naar Sales
+                          href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Integratie met Field Service configureren
                       items:
-                        - name: Een scenario van prospect tot contant geld configureren
-                          items:
-                            - name: Van prospect tot contant geld
-                              href: ../../supply-chain/sales-marketing/prospect-to-cash.md
-                            - name: Rekeningen in Sales rechtstreeks synchroniseren met klanten in Finance and Operations
-                              href: ../../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                            - name: Producten in Finance and Operations rechtstreeks synchroniseren met producten in Sales
-                              href: ../../supply-chain/sales-marketing/products-template-mapping-direct.md
-                            - name: Contactpersonen in Sales rechtstreeks synchroniseren met contactpersonen of klanten in Finance and Operations
-                              href: ../../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                            - name: Kopteksten en regels in verkoopoffertes rechtstreeks synchroniseren vanuit Sales naar Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                            - name: Verkooporders rechtstreeks synchroniseren tussen Sales en Finance and Operations
-                              href: ../../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                            - name: Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Finance and Operations naar Sales
-                              href: ../../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                        - name: Integratie met Field Service configureren
-                          items:
-                            - name: Overzicht van Integratie met Field Service configureren
-                              href: ../../supply-chain/sales-marketing/field-service.md
-                            - name: Producten in Finance and Operations synchroniseren met producten in Field Service
-                              href: ../../supply-chain/sales-marketing/field-service-product.md
-                            - name: Werkorders in Field Service synchroniseren met verkooporders in Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-work-order.md
-                            - name: Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in Finance and Operations
-                              href: ../../supply-chain/sales-marketing/field-service-invoice.md
-                            - name: Voorraadoverboekingen en correcties uit Field Service synchroniseren met Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                            - name: Informatie over voorraadniveau uit Finance and Operations synchroniseren met Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                            - name: Producten met voorraadeenheid uit Finance and Operations synchroniseren met Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                            - name: Projectlijst van Finance and Operations synchroniseren met Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-project-list.md
-                            - name: Magazijnen van Finance and Operations synchroniseren met Field Service
-                              href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
-                            - name: Werkorders met projecten synchroniseren vanuit Field Service naar Finance and Operations
-                              href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
-                        - name: Project Service Automation-integratie configureren
-                          items:
-                            - name: Overzicht van Project Service Automation
-                              href: /dynamics365/project-operations/prod-pma/PSA-integration
-                            - name: Project Service Automation-integratieparameters
-                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
-                            - name: Projectcontracten en projecten synchroniseren
-                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
-                            - name: Projecttaken synchroniseren
-                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
-                            - name: Onkostencategorieën project synchroniseren
-                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
-                            - name: Projectramingen synchroniseren met projectprognoses
-                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
-                            - name: Werkelijke projectwaarden synchroniseren met het projectintegratiejournaal
-                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
+                        - name: Overzicht van Integratie met Field Service configureren
+                          href: ../../supply-chain/sales-marketing/field-service.md
+                        - name: Producten in Finance and Operations synchroniseren met producten in Field Service
+                          href: ../../supply-chain/sales-marketing/field-service-product.md
+                        - name: Werkorders in Field Service synchroniseren met verkooporders in Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: Overeenkomstfacturen in Field Service synchroniseren met vrije-tekstfacturen in Finance and Operations
+                          href: ../../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: Voorraadoverboekingen en correcties uit Field Service synchroniseren met Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: Informatie over voorraadniveau uit Finance and Operations synchroniseren met Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: Producten met voorraadeenheid uit Finance and Operations synchroniseren met Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: Projectlijst van Finance and Operations synchroniseren met Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: Magazijnen van Finance and Operations synchroniseren met Field Service
+                          href: ../../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: Werkorders met projecten synchroniseren vanuit Field Service naar Finance and Operations
+                          href: ../../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: Project Service Automation-integratie configureren
+                      items:
+                        - name: Overzicht van Project Service Automation
+                          href: /dynamics365/project-operations/prod-pma/PSA-integration
+                        - name: Project Service Automation-integratieparameters
+                          href: /dynamics365/project-operations/prod-pma/PSA-parameters
+                        - name: Projectcontracten en projecten synchroniseren
+                          href: /dynamics365/project-operations/prod-pma/project-contracts-templates
+                        - name: Projecttaken synchroniseren
+                          href: /dynamics365/project-operations/prod-pma/project-tasks-template
+                        - name: Onkostencategorieën project synchroniseren
+                          href: /dynamics365/project-operations/prod-pma/project-categories-templates
+                        - name: Projectramingen synchroniseren met projectprognoses
+                          href: /dynamics365/project-operations/prod-pma/project-estimates-templates
+                        - name: Werkelijke projectwaarden synchroniseren met het projectintegratiejournaal
+                          href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Externe webservices gebruiken
               href: data-entities/consume-external-web-service.md
             - name: Elektronische berichten
@@ -496,6 +362,8 @@
                       href: deployment/updateenvironment-newinfrastructure.md
                     - name: Problemen oplossen met omgevingen die via selfservice-implementatie zijn geïmplementeerd
                       href: deployment/troubleshoot-newinfrastructure.md
+                    - name: Veelgestelde vragen over gepland onderhoud in selfserviceomgevingen
+                      href: deployment/plannedmaintenance-selfservice.md
                 - name: Onboarding Azure Resource Manager voltooien
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute en Finance and Operations
@@ -1150,8 +1018,140 @@
           items:
             - name: Integratie van Microsoft Power Platform met Finance and Operations
               href: power-platform/overview.md
+            - name: Twee keer wegschrijven
+              items:
+                - name: Startpagina voor Twee keer wegschrijven
+                  href: data-entities/dual-write/dual-write-home-page.md
+                - name: Nieuwe of gewijzigde functies in Twee keer wegschrijven
+                  href: data-entities/dual-write/whats-new-dual-write.md
+                - name: Overzicht van Twee keer wegschrijven
+                  href: data-entities/dual-write/dual-write-overview.md
+                - name: Instellingen voor twee keer wegschrijven
+                  items:
+                    - name: Systeemvereisten voor twee keer wegschrijven
+                      href: data-entities/dual-write/dual-write-system-req.md
+                    - name: Richtlijnen voor het instellen van twee keer wegschrijven
+                      href: data-entities/dual-write/connection-setup.md
+                    - name: Overwegingen voor initiële synchronisatie
+                      href: data-entities/dual-write/initial-sync-guidance.md
+                    - name: Instellingen voor twee keer wegschrijven van Lifecycle Services
+                      href: data-entities/dual-write/lcs-setup.md
+                    - name: Twee keer wegschrijven voor bestaande Finance and Operations-apps inschakelen
+                      items:
+                        - name: Twee keer wegschrijven voor bestaande Finance and Operations-apps inschakelen
+                          href: data-entities/dual-write/enable-dual-write.md
+                        - name: Systeemvereisten en vereisten vooraf
+                          href: data-entities/dual-write/requirements-and-prerequisites.md
+                        - name: Uw omgevingen koppelen met behulp van de wizard Twee keer wegschrijven
+                          href: data-entities/dual-write/link-your-environment.md
+                        - name: Entiteitstoewijzing voor twee keer wegschrijven inschakelen
+                          href: data-entities/dual-write/enable-entity-map.md
+                    - name: Migratie van valutagegevenstype voor twee keer wegschrijven
+                      href: data-entities/dual-write/currrency-decimal-places.md
+                    - name: De toewijzing instellen voor de verkooporderstatusvelden
+                      href: data-entities/dual-write/sales-status-map.md
+                    - name: Intercompany-orders filteren om synchronisatie van Orders en OrderLines te voorkomen
+                      href: data-entities/dual-write/filtering-intercompany-orders.md
+                - name: Twee keer wegschrijven beheren
+                  items:
+                    - name: Entiteits- en veldtoewijzingen aanpassen
+                      href: data-entities/dual-write/customizing-mappings.md
+                    - name: Meerdere entiteitstoewijzingen verwerken
+                      href: data-entities/dual-write/multiple-entity-maps.md
+                    - name: Een rechtspersoon bewerken na instelling van twee keer wegschrijven
+                      href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Foutbeheer en waarschuwingsmeldingen
+                      href: data-entities/dual-write/errors-and-alerts.md
+                    - name: Levenscyclusbeheer voor toepassing
+                      href: data-entities/dual-write/app-lifecycle-management.md
+                - name: Toewijzingsconcepten tussen apps
+                  items:
+                    - name: Model voor geïntegreerde klanten
+                      href: data-entities/dual-write/customer-mapping.md
+                    - name: Integratie van leverancier
+                      items:
+                        - name: Model voor geïntegreerde leveranciers
+                          href: data-entities/dual-write/vendor-mapping.md
+                        - name: Schakelen tussen leverancierontwerpen
+                          href: data-entities/dual-write/vendor-switch.md
+                    - name: Loyaliteitskaarten en beloningspunten voor klanten
+                      href: data-entities/dual-write/loyalty-mapping.md
+                    - name: Productintegratie
+                      items:
+                        - name: Uniforme productervaring
+                          href: data-entities/dual-write/product-mapping.md
+                        - name: Geïntegreerde sites en magazijnen
+                          href: data-entities/dual-write/sites-warehouses-mapping.md
+                    - name: Bedrijfsintegratie
+                      items:
+                        - name: Bedrijfsconcept in Dataverse
+                          href: data-entities/dual-write/company-data.md
+                        - name: Bedrijfsgegevens initialiseren
+                          href: data-entities/dual-write/bootstrap-company-data.md
+                    - name: Organisatiehiërarchie van Dataverse
+                      href: data-entities/dual-write/organization-mapping.md
+                    - name: Financiële en belastinggegevens
+                      items:
+                        - name: Toegang tot referentiegegevens voor financiën en belastingen
+                          href: data-entities/dual-write/finance-tax-reference.md
+                        - name: Geïntegreerd grootboek
+                          href: data-entities/dual-write/ledger-mapping.md
+                        - name: Model voor geïntegreerde belasting
+                          href: data-entities/dual-write/tax-mapping.md
+                    - name: Inkoop integreren in Supply Chain Management met Field Service
+                      href: data-entities/dual-write/scm-field-service-procurement.md
+                    - name: Op verzoek synchroniseren met de Supply Chain Management-prijsengine
+                      href: data-entities/dual-write/pricing-engine.md
+                    - name: Prospect naar contant geld in twee keer wegschrijven
+                      href: data-entities/dual-write/dual-write-prospect-to-cash.md
+                    - name: Dynamics 365 Commerce-prijsengine gebruiken met Dynamics 365 Sales
+                      href: data-entities/dual-write/commerce-pricing.md
+                    - name: Interne activa voor onderhoudsbeurten
+                      href: data-entities/dual-write/in-house-assets.md
+                    - name: Voorraadbeschikbaarheid
+                      href: data-entities/dual-write/inventory-availability.md
+                    - name: 'Geïntegreerde medewerker, taak en functie'
+                      href: data-entities/dual-write/integrated-hr.md
+                    - name: Partij en globaal adresboek
+                      href: data-entities/dual-write/party-gab.md
+                    - name: Power Portal gebruiken met het gegevensmodel Partij
+                      href: data-entities/dual-write/party-gab-portal.md
+                    - name: Bijwerken naar het model voor partij en globaal adresboek
+                      href: data-entities/dual-write/upgrade-party-gab.md
+                    - name: Integratie met notitie
+                      href: data-entities/dual-write/notes-integration.md
+                    - name: Toewijzingsverwijzing
+                      href: data-entities/dual-write/mapping-reference.md
+                - name: Ondersteuning voor twee keer wegschrijven
+                  items:
+                    - name: Ondersteuning voor Field Service- en Project Service Automation-oplossingen
+                      href: data-entities/dual-write/field-service-project-service-automation.md
+                    - name: Gegevens van Prospect naar contant geld vanuit Data Integrator migreren naar twee keer wegschrijven
+                      href: data-entities/dual-write/migrate-prospect-to-cash.md
+                    - name: Problemen oplossen
+                      items:
+                        - name: Configuratie van twee keer wegschrijven in Finance and Operations-apps en Dataverse verifiëren
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Problemen tijdens de initiële instelling oplossen
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
+                        - name: Problemen tijdens de initiële synchronisatie oplossen
+                          href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: Problemen met twee keer wegschrijven in Finance and Operations-apps oplossen
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Problemen met live synchronisatie oplossen
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Problemen met betrekking tot inzicht in de oplossing oplossen
+                          href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
+                        - name: Problemen met upgrades van Finance and Operations-apps oplossen
+                          href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
+                        - name: Algemene probleemoplossing
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                - name: Veelgestelde vragen over Twee keer wegschrijven
+                  href: data-entities/dual-write/dual-write-faq.md
             - name: Virtuele entiteiten
               items:
+                - name: Overzicht van virtuele entiteiten
+                  href: power-platform/virtual-entities-overview.md
                 - name: Entiteitsmodellen
                   href: power-platform/entity-modeling.md
                 - name: Levenscyclusbeheer voor toepassing

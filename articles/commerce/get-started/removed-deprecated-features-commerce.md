@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ccfbab6055b8b64ce0926cda04090583e0d7a6ae
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5544fefbbf0dfc012e868b672f80cc2be30fe7ce
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797175"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020857"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Verwijderde of afgeschafte functies in Dynamics 365 Commerce
 
@@ -31,7 +31,7 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn g
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
 > [!NOTE]
-> Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](https://docs.microsoft.com/dynamics/s-e/). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+> Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Verwijderde of verouderde functies in versie 10.0.17 van Commerce
 
@@ -102,7 +102,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Vervangen door een andere functie?**   | Ja. Ze worden vervangen door twee nieuwe POS-bewerkingen: inkomende bewerking (804) en uitgaande bewerking (805).|
 | **Betrokken productgebieden**         | Verkooppunttoepassing (POS) |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: vanaf release 10.0.10 worden voor de bewerking orderverzameling en ontvangst geen functie-updates meer ontvangen. Alleen kritieke fouten worden in toekomstige versies opgelost voor deze bewerking. Alle klanten wordt aangeraden om naar de nieuwe [inkomende bewerkingen](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) en [uitgaande transacties](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation) over te stappen, die deel blijven uitmaken van onze productroutekaart voor de lange termijn. |
+| **Status**                         | Afgeschaft: vanaf release 10.0.10 worden voor de bewerking orderverzameling en ontvangst geen functie-updates meer ontvangen. Alleen kritieke fouten worden in toekomstige versies opgelost voor deze bewerking. Alle klanten wordt aangeraden om naar de nieuwe [inkomende bewerkingen](../pos-inbound-inventory-operation.md) en [uitgaande transacties](../pos-outbound-inventory-operation.md) over te stappen, die deel blijven uitmaken van onze productroutekaart voor de lange termijn. |
 
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-1007-release"></a>Verwijderde of verouderde functies in versie 10.0.7 van Commerce
@@ -113,7 +113,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 | **Vervangen door een andere functie?**   | Ja: dit wordt vervangen door de API's GetEstimatedAvailability en GetEstimatedproductWarehouseAvailability. |
 | **Betrokken productgebieden**         | SDK met e-Commerce-toepassing |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: vanaf de release 10.0.7 wordt geen technische investering meer gedaan voor GetproductAvailabilities en GetAvailableInventoryNearby. Organisaties die deze API's gebruiken in hun e-Commerce-implementaties, moeten overstappen op de nieuwe API's GetEstimatedAvailability en GetEstimatedproductWarehouseAvailability en de [geoptimaliseerde berekeningsfunctie voor productbeschikbaarheid](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels) inschakelen.  |
+| **Status**                         | Afgeschaft: vanaf de release 10.0.7 wordt geen technische investering meer gedaan voor GetproductAvailabilities en GetAvailableInventoryNearby. Organisaties die deze API's gebruiken in hun e-Commerce-implementaties, moeten overstappen op de nieuwe API's GetEstimatedAvailability en GetEstimatedproductWarehouseAvailability en de [geoptimaliseerde berekeningsfunctie voor productbeschikbaarheid](../calculated-inventory-retail-channels.md) inschakelen.  |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Eerdere aankondigingen over verwijderde of afgeschafte functies
 Zie [Verwijderde of afgeschafte functies in eerdere versies](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json) voor meer informatie over functies die zijn verwijderd of vervangen in eerdere versies.

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dac3eb0da704e06376d8ca969e06fb177ce15a6b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b02f94bb2217729f35f0593fe99807273608811
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804276"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027643"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Online en offline verkooppuntbewerkingen (POS)
 
@@ -64,7 +64,7 @@ In de volgende kolommen wordt aangeven waar de bewerkingen kunnen worden aangero
 | 642 | Alle producten uitvoeren | De leveringsmethode voor alle regels instellen op **Uitvoeren**. | Ja | Ja | Nee | Ja\* | Nee |
 | 641 | Geselecteerde producten uitvoeren | De leveringsmethode voor de geselecteerde regels instellen op **Uitvoeren**. | Ja | Ja | Nee | Ja\* | Nee |
 | 647 | Leveringsmethode wijzigen | De leveringsmodus voor vooraf geconfigureerde verzendverkoopregels wijzigen. | Ja | Ja | Nee | Nee| Nee |
-| 1215 | Wachtwoord wijzigen | Met deze bewerking kan de POS-gebruiker zijn of haar wachtwoord wijzigen. | Ja | Ja | Ja | Nee | Nee |
+| 1215 | Wachtwoord wijzigen | Met deze bewerking kan de POS-gebruiker zijn of haar wachtwoord wijzigen. | Ja | Ja | Ja | No | No |
 | 123 | Maateenheid wijzigen | De maateenheid voor het geselecteerde regelartikel wijzigen. | Ja | Ja | Nee | Ja | Nee |
 | 639 | Standaard verkoopvertegenwoordiger wissen voor transactie | De provisieverkoopgroep (vertegenwoordiger) verwijderen uit de transactie. | Ja | Ja | Nee | Ja | Nee |
 | 106 | Hoeveelheid wissen | De hoeveelheid op de geselecteerde regel opnieuw instellen op **1**. | Ja | Ja | Nee | Ja | Nee |

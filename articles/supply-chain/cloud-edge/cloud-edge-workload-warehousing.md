@@ -6,7 +6,7 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers
+ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 9bdb9529c8b630182a2036e9d116909f9e92bb83
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944408"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980944"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
 
@@ -58,7 +58,10 @@ De schaaleenheden zijn eigenaar van de volgende gegevens:
   - **overboekingsorders** (alleen uitgaand met eenvoudig order verzamelen en laden)
 
 - **Ontvangstgegevens voor magazijnorders**: deze gegevens worden alleen gebruikt voor inkooporders die handmatig naar een magazijn zijn vrijgegeven.
-- **Nummerplaatgegevens**: nummerplaten kunnen op de hub en de schaaleenheid worden gemaakt. Er is toegewezen conflictafhandeling verstrekt. Deze gegevens zijn niet magazijnspecifiek.
+- **Nummerplaatgegevens**: nummerplaten kunnen zowel op de hub als de schaaleenheden worden gemaakt. Er is voorzien in toegewezen conflictafhandeling. 
+
+    > [!IMPORTANT]
+    > Nummerplaatgegevens zijn niet magazijnspecifiek. Als hetzelfde nummerplaatnummer op zowel de hub als een schaaleenheid tijdens dezelfde synchronisatiecyclus wordt gemaakt, mislukt de volgende synchronisatie. Als dit het geval is, gaat u naar **Systeembeheer > Query's > Werkbelastingquery's > Dubbele records**, waar u de gegevens kunt weergeven en samenvoegen.
 
 ## <a name="outbound-process-flow"></a>Uitgaande processtroom
 

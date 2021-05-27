@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e68ef15fed1841bcbf006929f3c6441d62798fc8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56d74b6700b48a8c523d02a1affc421ee370215e
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819909"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027741"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Eén klantbetaling gebruiken om facturen te vereffenen die verschillende kortingsperioden omvatten
 
@@ -66,7 +66,7 @@ Als Arnie een betalingsdagboek maakt om deze facturen volledig te vereffenen op 
 | Geselecteerd en gemarkeerd | Normaal            | FTI-10042 | 4032    | 6/25/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | USD      | 990,00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Gedeeltelijke vereffening op 29 juni
-Klant 4032 kan een gedeeltelijk bedrag betalen, zoals de helft van elke factuur. Arnie maakt een betaling voor klant 4032 en opent vervolgens de pagina **Transacties vereffenen**. Op de pagina **Transacties vereffenen** markeert Arnie alle drie factuurregels voor vereffening. Op elke regel voert hij het te vereffenen bedrag in, op basis van de instructies die de klant heeft verstrekt. Wanneer Arnie een regel selecteert, ziet hij het kortingsbedrag voor die regel en het bedrag voor contantkorting dat is toegepast. Omdat de klant de helft van de factuur betaalt, ziet Arnie dat de waarde in het veld **Contantkortingsbedrag** voor FTI-10042 **20,00** is, maar dat de waarde in het veld **Toegepaste contantkorting** **10,00** bedraagt. Het betalingsbedrag is 1485,00.
+Klant 4032 kan een gedeeltelijk bedrag betalen, zoals de helft van elke factuur. Arnie maakt een betaling voor klant 4032 en opent vervolgens de pagina **Transacties vereffenen**. Op de pagina **Transacties vereffenen** markeert Arnie alle drie factuurregels voor vereffening. Op elke regel voert Arnie het te vereffenen bedrag in, op basis van de instructies die de klant heeft verstrekt. Wanneer Arnie een regel selecteert, ziet Arnie het kortingsbedrag voor die regel en het bedrag voor contantkorting dat is toegepast. Omdat de klant de helft van de factuur betaalt, ziet Arnie dat de waarde in het veld **Contantkortingsbedrag** voor FTI-10042 **20,00** is, maar dat de waarde in het veld **Toegepaste contantkorting** **10,00** bedraagt. Het betalingsbedrag is 1485,00.
 
 | Markeren                     | Contantkorting gebruiken | Boekstuk   | Rekening | Datum      | Vervaldatum  | Factuur | Debetbedrag in transactievaluta | Creditbedrag in transactievaluta | Valuta | Bedrag om te vereffenen |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -74,11 +74,11 @@ Klant 4032 kan een gedeeltelijk bedrag betalen, zoals de helft van elke factuur.
 | Geselecteerd                 | Normaal            | FTI-10041 | 4032    | 6/25/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | USD      | 495,00           |
 | Geselecteerd en gemarkeerd | Normaal            | FTI-10042 | 4032    | 6/25/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | USD      | 490,00           |
 
-Arnie kan het betalingsbedrag van 1485,00 ook handmatig invoeren voordat hij de pagina **Transacties vereffenen** opent. Als Arnie het betalingsbedrag handmatig invoert en vervolgens alle drie de transacties markeert, maar de waarde in het veld **Bedrag om te vereffenen** niet aanpast voor elke transactie, ontvangt hij het volgende bericht wanneer hij de pagina sluit:
+Arnie kan het betalingsbedrag van 1485,00 ook handmatig invoeren voordat hij de pagina **Transacties vereffenen** opent. Als Arnie het betalingsbedrag handmatig invoert en vervolgens alle drie de transacties markeert, maar de waarde in het veld **Bedrag om te vereffenen** niet aanpast voor elke transactie, ontvangt Arnie het volgende bericht wanneer de pagina wordt gesloten:
 
 > Het totaalbedrag van de gemarkeerde transacties verschilt van het journaalbedrag. Wilt u het journaalbedrag wijzigen?
 
-Als Arnie wil dat het betalingsbedrag slechts 1485,00 is, moet hij op **Nee** klikken en vervolgens het journaal boeken. De transacties worden als volgt vereffend:
+Als Arnie wil dat het betalingsbedrag slechts 1485,00 is, moet Arnie op **Nee** klikken en vervolgens het journaal boeken. De transacties worden als volgt vereffend:
 
 1.  Factuur FTI-10040 is volledig vereffend voor 1.000,00, omdat deze op 15 mei werd ingevoerd en dit de oudste factuur is. Er is geen korting genomen. Het resterende bedrag van de betalingstransactie is 485,00.
 2.  Factuur FTI-10041 is helemaal niet vereffend. Facturen FTI-10041 en FTI-10042 werden op dezelfde datum ingevoerd. Er is echter een korting van 1 procent beschikbaar voor factuur FTI-10041 en een korting van 2 voor factuur FTI-10042. Omdat er een betere korting beschikbaar is voor factuur FTI-10042, wordt de resterende 485,00 vereffend met factuur FTI-10042.

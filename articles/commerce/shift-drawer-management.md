@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9d6fa36d7bb45e1cd9f8c3fbc1e60ac521f1f9b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d9d36bcb05cf466d34d921d8cd5266b6c12a63d7
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795448"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028246"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Ploeg- en kasladebeheer
 
@@ -45,7 +45,7 @@ Van oudsher werd dit scenario het meest gebruikt. En ook nu nog wordt het vaak g
 
 In een ploeg van het type Zwevende geldlade kunnen de ploeg en kassalade van de ene kassa naar de andere worden meegenomen. Hoewel voor een kassa slechts één actieve ploeg per kassalade kan bestaan, kunnen ploegen wel worden opgeschort en later op een andere kassa worden hervat.
 
-Stel dat een winkel twee kassa's heeft. Beide kassa's worden aan het begin van de dag geopend wanneer de kassamedewerker een nieuwe ploeg opent en het beginbedrag opgeeft. Wanneer een kassamedewerker pauze wil nemen, schort hij of zij zijn of haar ploeg op en neemt hij of zij de geldlade uit de kassa. Deze kassa wordt zo beschikbaar voor andere kassamedewerkers. Een andere kassamedewerker kan zich nu aanmelden en zijn of haar ploeg openen op de kassa. Als de pauze van de eerste kassamedewerker voorbij is, kan deze zijn of haar ploeg hervatten zodra een van de andere kassa's beschikbaar wordt. Ploegen van het type Zwevende geldlade vereisen geen speciale machtiging.
+Stel dat een winkel twee kassa's heeft. Beide kassa's worden aan het begin van de dag geopend wanneer de kassamedewerker een nieuwe ploeg opent en het beginbedrag opgeeft. Wanneer een kassamedewerker pauze wil nemen, onderbreekt deze de dienst op en neemt de geldlade uit de kassa. Deze kassa wordt zo beschikbaar voor andere kassamedewerkers. Een andere kassamedewerker kan zich nu aanmelden en met de eigen dienst beginnen op de kassa. Als de pauze van de eerste kassamedewerker voorbij is, kan deze de dienst hervatten zodra een van de andere kassa's beschikbaar wordt. Ploegen van het type Zwevende geldlade vereisen geen speciale machtiging.
 
 ### <a name="single-user"></a>Eén gebruiker
 
@@ -84,7 +84,7 @@ Deze bewerking is vaak de eerste bewerking voor een net geopende ploeg. Voor dez
 
 ### <a name="tender-removal"></a>Wisselgeld verwijderen
 
-*Wisselgeld verwijderen* is een niet-verkooptransactie die wordt uitgevoerd in een actieve ploeg. Hierdoor wordt het bedrag aan contant geld in de kassalade verlaagd. Deze bewerking wordt meestal gebruikt in combinatie met wisselgeldinvoer in een andere ploeg. Als kassa 1 weinig wisselgeld bevat, kan de gebruiker op kassa 2 bijvoorbeeld wisselgeld verwijderen om het bedrag in zijn of haar kassalade te verlagen. De gebruiker op de kassa 1 registreert nu een wisselgeldinvoer om het bedrag in zijn of haar kassalade te verhogen.
+*Wisselgeld verwijderen* is een niet-verkooptransactie die wordt uitgevoerd in een actieve ploeg. Hierdoor wordt het bedrag aan contant geld in de kassalade verlaagd. Deze bewerking wordt meestal gebruikt in combinatie met wisselgeldinvoer in een andere ploeg. Als kassa 1 weinig wisselgeld bevat, kan de gebruiker op kassa 2 bijvoorbeeld wisselgeld verwijderen om het bedrag in de kassalade te verlagen. De gebruiker op de kassa 1 registreert nu een wisselgeldinvoer om het bedrag in de eigen kassalade te verhogen.
 
 ### <a name="suspend-shift"></a>Ploeg uitstellen
 
@@ -154,7 +154,7 @@ Ga naar **Detailhandel en commerce \> Kanalen \> Winkels \> Alle winkels \> Over
 
 Met deze instelling zorgt u ervoor dat backoffice-overzichten dezelfde transacties als ploegen bevatten in het POS en dat de gegevens worden samengevat op basis van die ploegen.
 
-Zie [Winkelconfiguraties voor detailhandeloverzichten](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements) voor meer informatie over overzichten en afsluitingsmethoden.
+Zie [Winkelconfiguraties voor detailhandeloverzichten](/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements) voor meer informatie over overzichten en afsluitingsmethoden.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

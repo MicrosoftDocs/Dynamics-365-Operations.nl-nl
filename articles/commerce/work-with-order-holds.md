@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 61a73f10c8a8b3386826f08184028d8d5e6508a4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2066e0841658917cb0e6ddc0fbacf98d52098da8
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800378"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027451"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Configureren en werken met orderwachtstanden voor callcenters
 
@@ -43,7 +43,7 @@ Orders die callcentergebruikers maken in het back-office Commerce-programma, kun
 
 Tijdens orderinvoer, maar vóór orderindiening en bevestiging kunnen callcentergebruikers een order handmatig in de wachtstand willen plaatsen om te voorkomen dat deze wordt vrijgegeven aan het magazijn voor verdere verwerking. De klant die de order plaatst, is bijvoorbeeld niet klaar om deze in te dienen of er ontbreken belangrijke gegevens die vereist zijn om de order te verwerken.
 
-Op de orderinvoerpagina kan de callcentergebruiker een order in de wachtstand plaatsen met de optie **Orderwachtstanden** op het tabblad **Verkooporder** van het orderinvoermenu. De gebruiker kan ook de menuoptie **Blokkeren** selecteren op de pagina **Overzicht van verkooporder** die wordt weergegeven wanneer hij of zij **Gereed** selecteert in een callcenterverkooporder.
+Op de orderinvoerpagina kan de callcentergebruiker een order in de wachtstand plaatsen met de optie **Orderwachtstanden** op het tabblad **Verkooporder** van het orderinvoermenu. De gebruiker kan ook de menuoptie **Blokkeren** selecteren op de pagina **Overzicht van verkooporder** die wordt weergegeven wanneer de gebruiker **Gereed** selecteert in een callcenterverkooporder.
 
 In beide gevallen wordt de pagina **Orderwachtstanden** weergegeven. De gebruiker kan vervolgens **Nieuw** selecteren om een wachtstand voor de order te maken. In het veld **Wachtstandcode** moet de gebruiker de code selecteren die het best de reden voor de wachtstand beschrijft. In het veld **Redencode** kan de gebruiker desgewenst een aanvullende code selecteren om een tweede omschrijvingsniveau van de wachtstand te bieden.
 
@@ -53,7 +53,7 @@ Nadat de wachtstandinformatie is ingevoerd en opgeslagen, kan de gebruiker de pa
 
 Als de vlag **Ordervoltooiing inschakelen** is ingeschakeld in het callcenterkanaal, hoeft geen betaling te worden toegepast op een order die in de wachtstand staat. Voor een verkooporder die niet in de wachtstand staat kunnen gebruikers daarentegen de verkooporderinvoerpagina pas verlaten als de betaling is toegepast. Natuurlijk zal betaling vereist zijn voordat de wachtstand van de order wordt vrijgegeven.
 
-Bovendien kunnen callcentergebruikers een handmatige fraudewachtstand plaatsen op orders die om enige reden verdacht zijn. Orders kunnen ook automatisch in de wachtstand worden geplaatst als ze overeenkomen met actieve fraudecriteria en regels. Zie voor meer informatie over dit type orderwachtstand [Fraudewaarschuwingen instellen](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Bovendien kunnen callcentergebruikers een handmatige fraudewachtstand plaatsen op orders die om enige reden verdacht zijn. Orders kunnen ook automatisch in de wachtstand worden geplaatst als ze overeenkomen met actieve fraudecriteria en regels. Zie voor meer informatie over dit type orderwachtstand [Fraudewaarschuwingen instellen](/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Orders weergeven en beheren die in de wachtstand staan
 

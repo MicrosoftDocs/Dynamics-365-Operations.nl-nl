@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c32ffc8435c05c644bf836bb184400d067269208
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796870"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020646"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Meerdere ophaal- en bezorgmethodes inschakelen voor klantorders
 
@@ -82,7 +82,7 @@ Wanneer meerdere leveringsmethodes schikbaar zijn voor een kanaal, wordt er een 
 
 ## <a name="considerations-for-distributed-order-management"></a>Overwegingen voor gedistribueerd orderbeheer
 
-De [DOM-functies (gedistribueerd orderbeheer)](https://docs.microsoft.com/dynamics365/commerce/dom) in Commerce negeren alle verkoopregels die zijn gemarkeerd voor ophalen in een winkel. Deze functies zijn bijgewerkt om ervoor te zorgen dat verkoopregels die zijn gekoppeld aan geconfigureerde leveringsmethoden de DOM-logica omzeilen en niet opnieuw worden toegewezen aan een nieuw leveringsmagazijn.
+De [DOM-functies (gedistribueerd orderbeheer)](./dom.md) in Commerce negeren alle verkoopregels die zijn gemarkeerd voor ophalen in een winkel. Deze functies zijn bijgewerkt om ervoor te zorgen dat verkoopregels die zijn gekoppeld aan geconfigureerde leveringsmethoden de DOM-logica omzeilen en niet opnieuw worden toegewezen aan een nieuw leveringsmagazijn.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

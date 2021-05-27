@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9bec213cd4954f69605387ae2801d8af98a8111c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7ac7eec69bda7ad2fa41a7311a71a969eddeafb6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791890"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021483"
 ---
 # <a name="time-and-attendance-management-in-retail"></a>Tijd- en aanwezigheidsbeheer in Retail
 
@@ -38,9 +38,9 @@ In dit onderwerp worden de scenario's beschreven die worden ondersteund voor beh
 
 ### <a name="plan-worker-schedules"></a>De planning van de werknemersplannen
 
-- Profielen toepassen met behulp van de werkplanner. Zie [Profielen met behulp van werkplanner toepassen](https://technet.microsoft.com/library/aa551234.aspx) voor meer informatie over werktijdprofielen.
+- Profielen toepassen met behulp van de werkplanner. Zie [Profielen met behulp van werkplanner toepassen](/dynamicsax-2012/appuser-itpro/apply-profiles-using-work-planner) voor meer informatie over werktijdprofielen.
 
-Zie voor informatie over de configuratiestappen [Tijd en aanwezigheid instellen](https://technet.microsoft.com/library/aa496971.aspx).
+Zie voor informatie over de configuratiestappen [Tijd en aanwezigheid instellen](/dynamicsax-2012/appuser-itpro/setting-up-time-and-attendance).
 
 ### <a name="commerce-specific-configuration"></a>Commerce-specifieke configuratie
 
@@ -135,7 +135,7 @@ Een Commerce-gebruiker volgt de workflow om tijdregistraties te berekenen, goed 
 - Massaal uitklokken
 - Verzuim registreren
 
-Zie [Registraties van procestijd en -aanwezigheid](https://technet.microsoft.com/library/aa573180.aspx) voor meer informatie over het verwerken van tijd- en aanwezigheidsregistraties.
+Zie [Registraties van procestijd en -aanwezigheid](/dynamicsax-2012/appuser-itpro/process-time-and-attendance-registrations) voor meer informatie over het verwerken van tijd- en aanwezigheidsregistraties.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

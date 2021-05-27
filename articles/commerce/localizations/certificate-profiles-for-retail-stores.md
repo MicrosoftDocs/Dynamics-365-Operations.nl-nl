@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 66a2cc5c87f5567f0e65842638017e5127d68a13
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44042fc43fa3b43358120fb6f8f633abeae7005f
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798856"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020308"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Door gebruiker gedefinieerde certificaatprofielen voor winkels
 
@@ -79,7 +79,7 @@ Wanneer u een nieuwe regel toevoegt aan de pagina **Instellingen certificaatprof
 - **Sleutelkluiscertificaat**: dit veld is verplicht als u het veld **Locatietype** instelt op **Sleutelkluis**. Gebruik dit veld om een geheim voor een sleutelkluiscertificaat op te geven.
 
     > [!NOTE]
-    > Voordat u een sleutelkluiscertificaat in certificaatprofielen gebruikt, moet u ervoor zorgen dat u een certificaat uploadt naar de sleutelkluisopslag en volgt u de instructies in [Client voor Azure-sleutelkluis instellen](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
+    > Voordat u een sleutelkluiscertificaat in certificaatprofielen gebruikt, moet u ervoor zorgen dat u een certificaat uploadt naar de sleutelkluisopslag en volgt u de instructies in [Client voor Azure-sleutelkluis instellen](../../finance/localizations/setting-up-azure-key-vault-client.md).
 
 - **Winkelnaam**: dit veld is optioneel en is alleen beschikbaar als u het veld **Locatietype** instelt op **Lokaal certificaat**. Gebruik dit veld om een standaardwinkelnaam op te geven die moet worden gebruikt voor het zoeken naar lokale certificaten.
 - **Winkellocatie**: dit veld is optioneel en is alleen beschikbaar als u het veld **Locatietype** instelt op **Lokaal certificaat**. Gebruik dit veld om een standaardwinkellocatie op te geven die moet worden gebruikt voor het zoeken naar lokale certificaten.

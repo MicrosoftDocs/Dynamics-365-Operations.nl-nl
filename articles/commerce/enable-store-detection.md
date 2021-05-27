@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 71e523cab20281d5db7efff40b5ef4f7293a4765
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3e26c3130914ebef5a63b79c477d7d5846fd5b71
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799126"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027595"
 ---
 # <a name="enable-location-based-store-detection"></a>Detectie van winkels op basis van de locatie inschakelen
 
@@ -31,7 +31,7 @@ Met op locatie gebaseerde winkeldetectie in Commerce kunt u aan klanten relevant
 
 ## <a name="privacy-notice"></a>Privacyverklaring
 
-Als u de op locatie gebaseerde winkeldetectie inschakelt, worden de gegevens van de klantbrowser naar een Microsoft-locatieservice verzonden. Deze informatie wordt vervolgens gebruikt om aan de klant inhoud te verstrekken die relevant is voor zijn of haar locatie. Zowel informatie die wordt verzonden vanuit de browser van de klant als de op locatie gebaseerde informatie die naar de klant wordt geretourneerd, vallen onder het beleid voor privacy en cookies.
+Als u de op locatie gebaseerde winkeldetectie inschakelt, worden de gegevens van de klantbrowser naar een Microsoft-locatieservice verzonden. Deze informatie wordt vervolgens gebruikt om aan de klant inhoud te verstrekken die relevant is voor de locatie van de klant. Zowel informatie die wordt verzonden vanuit de browser van de klant als de op locatie gebaseerde informatie die naar de klant wordt geretourneerd, vallen onder het beleid voor privacy en cookies.
 
 ## <a name="turn-on-location-based-store-detection"></a>Detectie van winkels op basis van de locatie inschakelen
 

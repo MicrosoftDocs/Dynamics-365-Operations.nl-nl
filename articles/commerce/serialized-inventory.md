@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45376e43c00116d403f00c58772aefba6fa33eeb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fbd1d9c71ece77cbf4c6ecb741eb6d5e3e3455d9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794013"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028150"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Verbeteringen op het verkooppunt (POS) voor geserialiseerde producten
 
@@ -30,7 +30,7 @@ Op basis van de instellingen in Commerce Headquarters kunnen producten als geser
 
 ## <a name="pos-improvements"></a>POS-verbeteringen
 
-- **Serienummers zijn pas bij het uitchecken vereist** : voorheen moest een kassamedewerker bij het toevoegen van een geserialiseerd product aan de transactie een serienummer opgeven. Deze vereiste werd een probleem in clientelingscenario's als kassamedewerkers en verkoopmedewerkers mogelijkheden voor meerverkoop hadden. Tot de betalingsstap werden de producten vaak bijgewerkt in de winkelwagen. Elke keer dat een kassamedewerker een nieuw product toevoegde, werd hij of zij gevraagd om het serienummer. Het dialoogvenster voor serienummers bevat nu een knop **Later toevoegen**. Verkoopmedewerkers kunnen nu dus het artikel toevoegen aan de transactie en later het serienummer opgeven. Verkoopmedewerkers kunnen geserialiseerde artikelen snel toevoegen aan en vervangen in de winkelwagen en vervolgens vlak voor het uitchecken het serienummer opgeven. Als het serienummer niet wordt opgegeven voor een geserialiseerde product, ontvangt een kassamedewerker die de transactie probeert af te handelen een foutbericht. In dit bericht wordt aangegeven dat de kassamedewerker de ontbrekende serienummers moet opgeven voordat hij of zij kan doorgaan.
+- **Serienummers zijn pas bij het uitchecken vereist** : voorheen moest een kassamedewerker bij het toevoegen van een geserialiseerd product aan de transactie een serienummer opgeven. Deze vereiste werd een probleem in clientelingscenario's als kassamedewerkers en verkoopmedewerkers mogelijkheden voor meerverkoop hadden. Tot de betalingsstap werden de producten vaak bijgewerkt in de winkelwagen. Elke keer dat een kassamedewerker een nieuw product toevoegde, werd de kassamedewerker gevraagd om het serienummer. Het dialoogvenster voor serienummers bevat nu een knop **Later toevoegen**. Verkoopmedewerkers kunnen nu dus het artikel toevoegen aan de transactie en later het serienummer opgeven. Verkoopmedewerkers kunnen geserialiseerde artikelen snel toevoegen aan en vervangen in de winkelwagen en vervolgens vlak voor het uitchecken het serienummer opgeven. Als het serienummer niet wordt opgegeven voor een geserialiseerde product, ontvangt een kassamedewerker die de transactie probeert af te handelen een foutbericht. In dit bericht wordt aangegeven dat de kassamedewerker de ontbrekende serienummers moet opgeven voordat de kassamedewerker kan doorgaan.
 
     Voor elk geserialiseerd artikel waarvoor het serienummer is overgeslagen, verschijnt een opmerking onder de transactieregel. Dit commentaar geeft aan dat het serienummer voor het artikel nog niet is opgegeven. De kassamedewerker kan dus snel de artikelen vinden waarvoor een serienummer ontbreekt.
 

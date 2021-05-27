@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03a195c725854eff1fe6d6fa20bb815673e2e307
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3ff7ac15a64196d7839177ded5515386184e268
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827333"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028222"
 ---
 # <a name="position-forecasting"></a>Prognosepositie
 
@@ -67,9 +67,9 @@ Jodi's organisatie biedt een trainingstoelage van 5 procent van het basisloon va
 
 Jodi wil niet dat managers het bedrag van de vergoeding wijzigen. Daarom selecteert ze **Kostenwijzigingen niet toestaan** in het veld **Prognosepositie overschrijven**. De organisatie wil dat deze kosten gelijkmatige worden toegewezen aan elke maand. Daarom selecteert Jodi **Driemaandelijks** in het veld **Toewijzingsmethode**. 
 
-Stel, Jodi vergelijken een kostenberekeningsregel toe, stelt de datums en een hoofdrekening in, en voert **5,00** in als percentage. Haar organisatie heeft een grens van $ 5.000 per jaar voor deze vergoeding. Daarom voert Jodi dat bedrag in als jaarlijkse limiet. 
+Stel, Jodi vergelijken een kostenberekeningsregel toe, stelt de datums en een hoofdrekening in, en voert **5,00** in als percentage. De organisatie heeft een grens van $ 5.000 per jaar voor deze vergoeding. Daarom voert Jodi dat bedrag in als jaarlijkse limiet. 
 
-Ten slotte voegt Jodi alle inkomstenkostenelementen toe die voor basisloon worden gebruikt als berekeningsbasis. Haar budgetkostenelement is nu gereed om te worden gebruikt.
+Ten slotte voegt Jodi alle inkomstenkostenelementen toe die voor basisloon worden gebruikt als berekeningsbasis. Het budgetkostenelement is nu gereed om te worden gebruikt.
 
 ### <a name="compensation-groups"></a>Compensatiegroepen
 
@@ -137,7 +137,7 @@ De budgetkostenelementenregels moeten worden opnieuw berekend wanneer de FTE-waa
 
 **Voorbeeld** 
 
-De organisatie overweegt twee opties om de kosten van een accountantspositie te drukken. Een optie is om de positie halverwege het jaar te beëindigen. De andere optie is om de positie naar parttime te wijzigen voor het hele jaar. Brad heeft een prognosepositie gemaakt voor de bestaande accountantspositie in een basislijnscenario. Hij kopieert deze basislijnprognosepositie naar scenario A, stelt de persioneringsdatum in op 31 mei en berekent opnieuw. Brad kopieert vervolgens de basislijnprognosepositie naar B, wijzigt de FTE-waarde in **0,50** en berekent opnieuw. Brad heeft nu drie versies, elk waarvan totalen heeft die op zijn opties zijn afgestemd.
+De organisatie overweegt twee opties om de kosten van een accountantspositie te drukken. Een optie is om de positie halverwege het jaar te beëindigen. De andere optie is om de positie naar parttime te wijzigen voor het hele jaar. Brad heeft een prognosepositie gemaakt voor de bestaande accountantspositie in een basislijnscenario. Brad kopieert deze basislijnprognosepositie naar scenario A, stelt de persioneringsdatum in op 31 mei en berekent opnieuw. Brad kopieert vervolgens de basislijnprognosepositie naar B, wijzigt de FTE-waarde in **0,50** en berekent opnieuw. Brad heeft nu drie versies, elk waarvan totalen heeft die op de opties zijn afgestemd.
 
 #### <a name="assigning-a-compensation-group"></a>Een compensatiegroep toewijzen
 

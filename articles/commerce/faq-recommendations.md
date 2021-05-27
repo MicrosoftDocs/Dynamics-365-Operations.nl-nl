@@ -16,12 +16,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa845f4d41e0bd7725349a216b9e4ee79efee79d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b3db432ae10139bcd8ee400b0bbc1173e33ef206
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792410"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019806"
 ---
 # <a name="product-recommendations-faq"></a>Veelgestelde vragen over productaanbevelingen
 
@@ -68,7 +68,7 @@ Als u wilt voorkomen dat een artikel wordt gevonden in de winkel, moet u de waar
 
 ## <a name="how-do-i-add-a-list-to-an-e-commerce-page"></a>Hoe voeg ik een lijst toe aan een e-commerce-pagina?
 
-Zie [Aanbevelingslijsten voor producten toevoegen aan pagina's](add-reco-list-to-page.md) voor informatie over het toevoegen van pagina's met aanbevelingen aan uw e-commerce-website.
+Zie [Aanbevelingslijsten voor producten toevoegen aan pagina's](./product-recommendations.md) voor informatie over het toevoegen van pagina's met aanbevelingen aan uw e-commerce-website.
 
 ## <a name="how-do-i-enable-recommendations-on-pos"></a>Hoe schakel ik aanbevelingen in op POS?
 

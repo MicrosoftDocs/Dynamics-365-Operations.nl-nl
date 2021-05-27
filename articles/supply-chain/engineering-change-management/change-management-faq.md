@@ -2,7 +2,6 @@
 title: Veelgestelde vragen over Beheer voor technische wijzigingen
 description: Dit onderwerp biedt antwoorden op veelgestelde vragen over de functie Beheer voor technische wijzigingen.
 author: t-benebo
-manager: tfehr
 ms.date: 03/25/2021
 ms.topic: article
 audience: Application User
@@ -11,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ed48c694cec42b86fb3b3908dc608a97979944f6
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 69232eed8520bafeb734ffad43b333bf9e36909e
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920176"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018680"
 ---
 # <a name="engineering-change-management-faq"></a>Veelgestelde vragen over Beheer voor technische wijzigingen
 

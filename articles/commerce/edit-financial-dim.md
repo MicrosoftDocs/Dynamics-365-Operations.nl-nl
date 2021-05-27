@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ff16d8e2e75a877e5ca7de604c7915e908473da6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 381d8bb0939f6c4c163477990e49382201487375
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792700"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019902"
 ---
 # <a name="edit-financial-dimensions-for-retail-transactions"></a>Financiële dimensies voor detailhandelstransacties bewerken
 
@@ -34,7 +34,7 @@ Voer de volgende stappen uit om financiële dimensies voor detailhandelstransact
 
 1. Open de pagina **Configuratie van financiële dimensies voor het integreren van toepassingen**.
 1. Selecteer de actieve record **Integratie van standaarddimensies**.
-1. Controleer op het sneltabblad **Financiële dimensies** of alle dimensies die u in het Excel-werkblad wilt bewerken, aanwezig zijn in de lijst **Geselecteerd**. Zie [Gegevensentiteiten](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/financial/financial-dimension-configuration-integration#data-entities) voor meer informatie.
+1. Controleer op het sneltabblad **Financiële dimensies** of alle dimensies die u in het Excel-werkblad wilt bewerken, aanwezig zijn in de lijst **Geselecteerd**. Zie [Gegevensentiteiten](../fin-ops-core/dev-itpro/financial/financial-dimension-configuration-integration.md#data-entities) voor meer informatie.
 1. Download en open het Excel-bestand op de pagina **Overzichten**, de pagina **Detailhandelstransacties** of de tegel **Fouten in transactievalidatie** in het werkgebied **Financiën van winkel**.
 1. Als u de financiële dimensie van de transactie wilt wijzigen, selecteert u **Ontwerpen** en vervolgens het potloodsymbool naast de rij **Transactie (controleerbaar)**.
 1. Zoek en selecteer het veld **FinancialDimensionDisplayValue**, selecteer een cel in het kopgedeelte van het Excel-werkblad en selecteer **Label toevoegen**.

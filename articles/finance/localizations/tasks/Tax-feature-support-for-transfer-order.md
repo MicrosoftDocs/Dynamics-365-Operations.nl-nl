@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920950"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021364"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Ondersteuning voor belastingfunctie voor transferorders
 
@@ -41,7 +40,7 @@ Volg deze stappen om de belasting voor een transferorder in te stellen. In het v
 
 1. Selecteer op de pagina **Belastingfuncties** op het tabblad **Versies** de conceptfunctieversie en selecteer vervolgens **Bewerken**.
 
-    ![Bewerken selecteren](../media/image1.png)
+    ![Bewerken selecteren](../media/tax-feature-support-01.png)
 
 2. Selecteer **Toevoegen** op het tabblad **Belastingcodes** op de pagina **Belastingfuncties instellen** om nieuwe belastingcodes te maken. Voor dit voorbeeld worden drie belastingcodes gemaakt: **NL-Vrijgesteld**, **BE-RC-21** en **BE-RC+21**.
 
@@ -54,7 +53,7 @@ Volg deze stappen om de belasting voor een transferorder in te stellen. In het v
         4. Selecteer **Toevoegen** in de tabel **Tarief**.
         5. Stel **Is Vrijgesteld** in op **Ja** in de sectie **Algemeen**.
 
-        ![Belastingcode NL-Vrijgesteld](../media/image2.png)
+        ![Belastingcode NL-Vrijgesteld](../media/tax-feature-support-02.png)
 
     - Wanneer een transferorder wordt ontvangen in een Belgisch magazijn, wordt het terugboekingsmechanisme toegepast op basis van de belastingcodes **BE-RC-21** en **BE-RC+21**.
         
@@ -67,7 +66,7 @@ Volg deze stappen om de belasting voor een transferorder in te stellen. In het v
         6. Stel **Is Terugboeking** in op **Ja** in de sectie **Algemeen**.
         7. Selecteer **Opslaan**.
 
-        ![BE-RC-21-belastingcode voor terugboekingen](../media/image3.png)
+        ![BE-RC-21-belastingcode voor terugboekingen](../media/tax-feature-support-03.png)
         
         Maak de belastingcode **BE-RC+21**.
         1. Selecteer **Toevoegen** en voer **BE-RC-21** in het veld **Belastingcode** in.
@@ -77,7 +76,7 @@ Volg deze stappen om de belasting voor een transferorder in te stellen. In het v
         5. Voer **21** in het veld **Belastingtarief** in.
         6. Selecteer **Opslaan**.
 
-        ![BE-RC+21-belastingcode voor terugboekingen](../media/image4.png)
+        ![BE-RC+21-belastingcode voor terugboekingen](../media/tax-feature-support-04.png)
 
 3. Definieer de toepasbaarheid van de belastingcodes.
 

@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7f71add679e1d24f80db8ce3990058b591128ec1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f7cef533d76bdddfbad2e8c5f84f81ef62bccc38
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801406"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021098"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>De btw op online orders wordt onjuist berekend
 
@@ -44,7 +43,7 @@ Voer deze stappen uit om btw te configureren voor een detailhandelwinkel in Comm
 1. Configureer op het sneltabblad **Algemeen** in de sectie **Btw** de btw-gegevens voor de winkel.
 
 > [!NOTE]
-> Als een product uit een winkel wordt opgehaald, wordt de btw-groep opgehaald uit de winkel die is geselecteerd om bij op te halen. Zie [Andere btw-opties voor winkels instellen](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores) voor meer informatie.
+> Als een product uit een winkel wordt opgehaald, wordt de btw-groep opgehaald uit de winkel die is geselecteerd om bij op te halen. Zie [Andere btw-opties voor winkels instellen](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores) voor meer informatie.
 
 ### <a name="configure-the-sales-tax-for-a-customers-address-in-commerce-headquarters"></a>De btw configureren voor het adres van een klant in Commerce Headquarters
 
@@ -68,7 +67,7 @@ Voer deze stappen uit om algemene btw-groepen te configureren in Commerce Headqu
 1. Configureer op het sneltabblad **Op retailbestemming gebaseerde btw** de btw voor de btw-groep.
 
 > [!NOTE]
-> Voor verzending waarbij geen btw op het adres van de klant is betrokken, wordt de btw-groep bepaald door het afleveradres van de regel en de op bestemming gebaseerde btw die zijn geconfigureerd voor de btw-groep. Zie [Belastingen voor online winkels instellen op basis van de bestemming](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination) voor meer informatie.
+> Voor verzending waarbij geen btw op het adres van de klant is betrokken, wordt de btw-groep bepaald door het afleveradres van de regel en de op bestemming gebaseerde btw die zijn geconfigureerd voor de btw-groep. Zie [Belastingen voor online winkels instellen op basis van de bestemming](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination) voor meer informatie.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
