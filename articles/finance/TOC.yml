@@ -72,6 +72,8 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.20 (juli 2021)
+                      href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (juli 2021)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (mei 2021)
@@ -1160,6 +1162,8 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: Ontbrekende openingssaldi in jaarafsluiting
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: Sjablonen voor financiële journalen openen in Office
+                  href: general-ledger/open-fincl-jrnls-in-office.md
         - name: Financiële rapportage
           items:
             - name: Aan de slag met financiële rapportage
@@ -1502,10 +1506,20 @@
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Gegevensvelden in de belastingintegratie toevoegen met extensies
                       href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Meerdere btw-registratienummers
-                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: Een omgeving instellen voor het opzoeken van hoofdgegevens
                       href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Meerdere btw-registratienummers
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: Aangifte van meerdere btw-registraties
+                      items:
+                        - name: Aangifte van meerdere btw-registraties
+                          href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Rapportage voor Nederland
+                          items:
+                            - name: Btw-aangifte
+                              href: localizations/emea-nl-vat-declaration-netherlands.md
+                            - name: ICL-lijst
+                              href: localizations/emea-nl-eu-sales-list.md
             - name: Wettelijk voorgeschreven updates
               href: localizations/regulatory-updates.md
             - name: Australië
@@ -2388,6 +2402,20 @@
                               href: localizations/apac-ind-GST-tax-returns.md
                             - name: Verwerking van meerdere batches inschakelen voor GSTR-rapporten
                               href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                        - name: Problemen met GST oplossen
+                          items:
+                            - name: Onjuist belastingbedrag na berekening
+                              href: localizations/apac-ind-GST-troubleshooting-tax-amount-wrong-after-calculation.md
+                            - name: Fouten in belastingconfiguratie
+                              href: localizations/apac-ind-GST-troubleshooting-tax-configuration-errors.md
+                            - name: Belasting wordt niet berekend
+                              href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
+                            - name: Het activeren van de compensatieregels duurt langer dan verwacht
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
+                            - name: TaxTrans of boekstuk wordt niet gegenereerd
+                              href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
+                            - name: Belastingtransactie-id is onjuist
+                              href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
                 - name: Directe belastingen
                   items:
                     - name: Bronbelasting voor India
@@ -2844,6 +2872,10 @@
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Auditfile (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
+                - name: Btw-aangifte (Nederland)
+                  href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: ICL-lijst
+                  href: localizations/emea-nl-EU-sales-list.md
             - name: Noorwegen
               items:
                 - name: Overzicht Noorwegen
@@ -4123,7 +4155,7 @@
                   items:
                     - name: Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: Verbeteringen in de traceringsresultaten van gegenereerde ER-rapporten en vergelijkingen met basislijnwaarden
+                    - name: De tracering van de resultaten van gegenereerde ER-rapporten voor vergelijking met basislijnwaarden verbeteren
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: Testen automatiseren met ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
