@@ -1,8 +1,8 @@
 ---
 title: Financiële rapporten proefbalans
 description: In dit artikel worden de standaardrapporten voor proefbalansen beschreven. Hierin worden ook de bouwstenen beschreven die zijn gekoppeld aan deze rapporten, en hoe u de rapporten kunt aanpassen aan uw zakelijke behoeften.
-author: jcart1106
-ms.date: 06/20/2017
+author: jinniew
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a9902471101b752c4b09d8ae28eb673743b7a53
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 26ec03422315a280f7e779f992cf694eb5f845ea
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816926"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103653"
 ---
 # <a name="trial-balance-financial-reports"></a>Financiële rapporten proefbalans
 
@@ -28,8 +28,7 @@ ms.locfileid: "5816926"
 
 In dit artikel worden de standaardrapporten voor proefbalansen beschreven. Hierin worden ook de bouwstenen beschreven die zijn gekoppeld aan deze rapporten, en hoe u de rapporten kunt aanpassen aan uw zakelijke behoeften. 
 
-<a name="default-trial-balance-reports"></a>Standaardrapporten proefbalans
------------------------------
+## <a name="default-trial-balance-reports"></a>Standaardrapporten proefbalans
 
 Drie proefbalansrapporten zijn beschikbaar in Financiële rapportage.
 
@@ -47,6 +46,9 @@ In de financiële rapporten van de proefbalans worden de volgende bouwstenen geb
 | Gedetailleerde proefbalans - Standaard               | Proefbalans: standaard | Gedetailleerde proefbalans - Standaard               |
 | Overzicht proefbalans – Standaard                | Proefbalans: standaard | Samengevatte proefbalans: standaard                |
 | Overzicht proefbalansjaar van jaar tot jaar - Standaard | Proefbalans: standaard | Samengevatte proefbalans van jaar tot jaar: standaard |
+
+> [!NOTE] 
+> Schakel bij het uitvoeren van het rapport **Proefbalans** in financiële rapportage de selectievakjes in voor **Rijen zonder bedragen weergeven** en **Rapporten zonder actieve rijen weergeven** op het tabblad **Instellingen**.
 
 ### <a name="row-definition"></a>Rijdefinitie
 
@@ -94,10 +96,7 @@ In elk proefbalansrapport wordt een andere kolomdefinitie gebruikt. Deze kolomde
     -   **FD**: de financiële gegevens die alleen debetbedragen voor het afgelopen jaar bevatten
     -   **FD**: de financiële gegevens die alleen creditbedragen voor het afgelopen jaar bevatten
 
-
-
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht van Financiële rapportage](financial-reporting-getting-started.md)
 

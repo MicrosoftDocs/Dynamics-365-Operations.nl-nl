@@ -2,13 +2,12 @@
 title: Verlofaanvragen beheren in Teams
 description: In dit onderwerp wordt beschreven hoe u verlof kunt aanvragen in de Dynamics 365 Human Resources-app in Microsoft Teams.
 author: andreabichsel
-ms.date: 02/23/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
-ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
+ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5953407"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097254"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Verlofaanvragen beheren in Teams
 
@@ -33,21 +32,13 @@ Met de Dynamics 365 Human Resources-app in Microsoft Teams kunt u snel verlof aa
 
 De Dynamics 365 Human Resources-app is te vinden in het Teams-archief.
 
-1. Selecteer de drie puntjes in Microsoft Teams.
-
-   ![Drie puntjes in verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-ellipses.png)
+1. Navigeer in Microsoft Teams naar de lijst met apps.
  
 2. Zoek naar Dynamics 365 Human Resources en selecteer de tegel **Human resources**.
 
-   ![HR-tegel van verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-human-resources-tile.png)
-
 3. Selecteer de knop **Toevoegen** om de app te installeren.
 
-   ![Installatie van verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-in-store.png)
-
 Als u niet automatisch wordt aangemeld bij de app, selecteert u het tabblad **Instellingen** om zich aan te melden.
-
-![Tabblad Instellingen in verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-settings-tab.png)
 
 > [!NOTE]
 > Als er geen dialoogvenster voor aanmelding wordt weergegeven, controleert u de instellingen van uw browser om pop-ups toe te staan. 
@@ -61,20 +52,24 @@ Als u toegang hebt tot meer dan één exemplaar van Human resources, kunt u de o
 
 Na de installatie van de app wordt er een welkomstbericht weergegeven, zodat u weet welke acties de bot namens u kan ondernemen.
 
-![Welkomstbericht in verlof-app voor Human Resource Teams](./media/hr-teams-leave-app-bot.png)
- 
 > [!NOTE]
 > Bij het eerste contact met de bot moet u zich mogelijk aanmelden. Als er geen dialoogvenster voor aanmelding wordt weergegeven, controleert u de instellingen van uw browser om pop-ups toe te staan.
 
 U kunt de bot vragen om het volgende te doen:
 
-- Een verlofaanvraag voor u starten.
+- Uw huidige verlofsaldi weergeven. U kunt bijvoorbeeld een bericht met de tekst "Verlofsaldi weergeven" verzenden.
+
+- Een verlofaanvraag voor u starten. U kunt bijvoorbeeld een bericht met de tekst "Vrij nemen" of "Ik wil volgende donderdag en vrijdag vakantie nemen" verzenden om specifieker te zijn voor het aanvragen van verlof voor het vakantieverloftype. 
 
   ![Een verlofaanvraag starten in Teams-chat](./media/hr-teams-leave-app-initiate.png)
 
 - In het chatgesprek wordt een verlofaanvraag voor u ingevuld. Selecteer **Verlof aanvragen** en bewerk de details voor uw aanvraag.
 
-  ![Details van verlofaanvraag bewerken](./media/hr-teams-leave-app-details.png)
+   Als u verlofaanvragen voor meerdere verloftypen voor dezelfde datum wilt indienen, selecteert u de optie **Dag splitsen met** in het menu **Meer opties**. 
+
+   Als u een verlof van een halve dag selecteert wanneer de verlofaanvraageenheid in dagen is opgenomen, kunt u opgeven of u verlof wilt aanvragen voor de eerste halve dag of de tweede helft van de dag door de optie **Definitie halve dag** te selecteren in het menu **Meer opties**.
+   
+   ![Definities halve dag](./media/HalfDayDefinitions.png)
 
 - Wanneer u klaar bent met het bewerken van uw verlofaanvraagdetails, selecteert u **Indienen** om de aanvraag voor goedkeuring in te dienen.
 
@@ -91,42 +86,36 @@ Op het tabblad **Verlof** kunt u het volgende bekijken:
 - Verlofaanvragen
 
 - Conceptaanvragen voor verlof
-
-![Tabblad Verlof in verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab.png)
  
 ### <a name="create-a-new-request"></a>Een nieuwe aanvraag maken
 
 1. Selecteer **Nieuwe aanvraag** om een nieuwe verlofaanvraag te maken.
 
-   ![Nieuwe aanvraag in verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab-new.png)
-
 2. Voer de dag of dagen in die u wilt vrijnemen en selecteer vervolgens **Toevoegen**.
 
-   ![Verlof toevoegen in verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab-add.png)
+   ![Verlof toevoegen in verlof-app voor Human Resources Teams](./media/TimeOffHours.png)
 
 3. Voer een redencode in, indien van toepassing. Voer ook eventuele opmerkingen in en voeg eventuele bijlagen toe.
 
-4. Wanneer u klaar bent met het invoeren van gegevens, typt u **Verzenden** om deze ter goedkeuring in te dienen. U kunt ook **Opslaan als concept** opgeven als u later wilt terugkeren naar het concept.
+4. Selecteer de optie **Dag splitsen met** in het menu **Meer opties** als u verlofaanvragen voor meerdere verloftypen voor dezelfde datum wilt indienen,.
+
+5. Selecteer de optie **Definitie halve dag** om op te geven of u de eerste halve dag vrij of de tweede halve dag vrij wilt aanvragen. Deze optie is beschikbaar wanneer de verlofaanvraageenheid in dagen is en het aangevraagde bedrag 0,5 dagen is.
+
+6. Wanneer u klaar bent met het invoeren van gegevens, voert u **Verzenden** in om deze ter goedkeuring in te dienen. U kunt ook **Opslaan als concept** invoeren als u later wilt terugkeren naar het concept.
 
 ### <a name="manage-draft-requests"></a>Conceptaanvragen beheren
 
 1. Selecteer het tabblad **Concepten**.
 
-   ![Tabblad Concepten in verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-drafts-tab.png)
-
 2. Selecteer het potlood om de aanvraag te bewerken of selecteer de prullenmand om de aanvraag te verwijderen.
 
 3. Voer eventueel benodigde wijzigingen uit. Wanneer u klaar bent met het invoeren van gegevens, typt u **Verzenden** om deze ter goedkeuring in te dienen. U kunt ook **Opslaan als concept** selecteren als u later wilt terugkeren naar het concept.
-
-   ![Concept bewerken in verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-drafts-edit.png)
    
 ### <a name="respond-to-teams-notifications"></a>Reageren op meldingen van teams
 
 Wanneer u of een werknemer waarvoor u een fiatteur bent een verlofaanvraag indient, ontvangt u een melding in de Human Resources-app in Teams. U kunt de melding selecteren die u wilt weergeven. Meldingen worden ook weergegeven in het gebied **Chat**.
 
 Als u een fiatteur bent, kunt u **Goedkeuren** of **Weigeren** selecteren in de melding. U kunt ook een optioneel bericht opgeven.
-
-![Melding voor verlofaanvraag in Teams-app Human Resources](./media/hr-teams-leave-app-notification.png)
 
 ## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Informatie over gepland verlof aan uw collega's verzenden
 
@@ -138,15 +127,9 @@ Nadat u de app Human Resources voor Teams hebt geïnstalleerd, kunt u eenvoudig 
 
 2. Selecteer de verlofaanvraag die u wilt delen. Als u een conceptverlofaanvraag wilt delen, selecteert u eerst **Concepten**.
 
-   ![Een aanvraag voor gepland verlof selecteren om te delen](./media/hr-teams-leave-app-chat-search.png)
-
 Uw verlofaanvraag wordt in de chat weergegeven.
 
-![Verlofaanvraagkaart Human Resources](./media/hr-teams-leave-app-chat-card.png)
-
-Als u een conceptaanvraag hebt gedeeld, wordt deze als een concept weergegeven:
-
-![Conceptverlofaanvraagkaart van Human Resources](./media/hr-teams-leave-app-chat-draft-card.png)
+Als u een conceptaanvraag hebt gedeeld, wordt deze als een concept weergegeven.
 
 ## <a name="view-your-teams-leave-calendar"></a>de verlofkalender van uw team weergeven
 
@@ -155,8 +138,6 @@ Als u een manager met directe ondergeschikten bent, kunt u de goedgekeurde en in
 1. Selecteer **Verlof** in de Human Resources-app in Teams.
 
 2. Selecteer **Teamkalender**. In de kalender worden de goedgekeurde en in behandeling zijnde verlofaanvragen van uw directe ondergeschikten weergegeven.
-
-   ![Kalender weergeven in Teams-app Human Resources](./media/hr-teams-leave-app-view-calendar.png)
 
    > [!NOTE]
    > Als u de teamkalender niet kunt zien, vraagt u uw beheerder deze in te schakelen. Zie [Installeren en instellen](hr-admin-teams-leave-app.md#install-and-setup) voor meer informatie.

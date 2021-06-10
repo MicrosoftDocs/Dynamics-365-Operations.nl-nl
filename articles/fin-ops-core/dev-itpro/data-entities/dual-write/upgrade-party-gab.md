@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95472a00d34ba939ac89b4e2484f34d50bee3088
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018307"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112668"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Bijwerken naar het model voor partij en globaal adresboek
 
@@ -22,28 +22,29 @@ ms.locfileid: "6018307"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Met de [Azure Data Factory-sjabloon](https://aka.ms/dual-write-gab-adf) kunt u bestaande tabelgegevens voor **Account**, **Contactpersoon** en **Leverancier** met twee keer wegschrijven upgraden naar het partij- en globale adresboekmodel. De sjabloon stemt de gegevens van zowel Finance and Operations-apps als applicaties voor klantbetrokkenheid met elkaar af. Aan het einde van het proces worden de velden **Partij** en **Contactpersoon** gemaakt voor **partijrecords** en gekoppeld aan **account-**, **contactpersoon-** en **leveranciers** records in klantbetrokkenheidstoepassingen. Er wordt een .csv bestand (`FONewParty.csv`) gegenereerd om nieuwe **partijrecords** te maken in de app Finance and Operations. Dit onderwerp bevat de instructies voor het gebruik van de Data Factory-sjabloon en het upgraden van uw gegevens.
+Met de [Microsoft Azure Data Factory-sjabloon](https://aka.ms/dual-write-gab-adf) kunt u bestaande tabelgegevens voor **Account**, **Contactpersoon** en **Leverancier** met twee keer wegschrijven upgraden naar het partij- en globale adresboekmodel. Met de sjabloon worden de gegevens van zowel Finance and Operations-apps als Customer Engagement-applicaties afgestemd. Aan het einde van het proces worden de velden **Partij** en **Contactpersoon** gemaakt voor **partijrecords** en gekoppeld aan **account-**, **contactpersoon-** en **leveranciers** records in klantbetrokkenheidstoepassingen. Er wordt een .csv-bestand (`FONewParty.csv`) gegenereerd om nieuwe **Partij**-records te maken in de Finance and Operations-app . Dit onderwerp bevat instructies voor het gebruik van de Data Factory-sjabloon en het upgraden van uw gegevens.
 
-Als u geen aanpassingen hebt, kunt u de sjabloon gebruiken zoals deze is. Als u aanpassingen hebt voor **Account**, **Contactpersoon** en **Leverancier**, moet u de sjabloon wijzigen met behulp van de volgende instructies.
+Als u geen aanpassingen hebt, kunt u de sjabloon ongewijzigd gebruiken. Als u aanpassingen hebt voor **Account**, **Contactpersoon** en **Leverancier**, moet u de sjabloon wijzigen met behulp van de volgende instructies.
 
-> [!Note]
-> De sjabloon helpt om alleen bij het upgraden van de **partijgegevens**. In een toekomstige release zullen post- en elektronische adressen worden opgenomen.
+> [!NOTE]
+> Met de sjabloon wordt alleen een upgrade uitgevoerd op de **Partij**-gegevens . In een toekomstige release zullen post- en elektronische adressen worden opgenomen.
 
 ## <a name="prerequisites"></a>Vereisten
 
-Deze vereisten zijn van toepassing:
+De volgende vereisten zijn vereist om een upgrade naar het partij- en globale adresboekmodel uit te voeren:
 
 + [Azure-abonnement](https://portal.azure.com/)
 + [Toegang tot de sjabloon](https://aka.ms/dual-write-gab-adf)
-+ U bent een bestaande klant voor twee keer wegschrijven.
++ U moet een bestaande klant voor twee keer wegschrijven zijn.
 
 ## <a name="prepare-for-the-upgrade"></a>Upgrade voorbereiden
+Ter voorbereiding op de upgrade zijn de volgende activiteiten nodig:
 
 + **Volledig gesynchroniseerd**: beide omgevingen zijn volledig gesynchroniseerd voor **Account (klant)**, **Contactpersoon** en **Leverancier**.
 + **Integratiesleutels:** de tabellen **Account (klant)**, **Contactpersoon** en **Leverancier** in apps voor klantbetrokkenheid gebruiken de integratiesleutels die met het product worden verzonden. Als u de integratiesleutels hebt aangepast, moet u de sjabloon aanpassen.
 + **Partijnummer**: alle records van **Account (klant)**, **Contactpersoon** en **Leverancier** die worden bijgewerkt, hebben een **partijnummer**. Records zonder **partijnummer** worden genegeerd. Als u deze records wilt upgraden, voegt u er een **partijnummer** aan toe voordat u het upgradeproces start.
-+ **Systeemstoring:** tijdens het upgradeproces moet u de omgevingen voor Finance and Operations en klantbetrokkenheid offline halen.
-+ **Momentopname:** maak momentopnames van apps voor Finance and Operations en klantbetrokkenheid. Gebruik de momentopnamen om de vorige status te herstellen als dat nodig is.
++ **Systeemstoring**: tijdens het upgradeproces moet u de omgevingen van Finance and Operations en Customer Engagement offline halen.
++ **Momentopname**: maak momentopnames van zowel Finance and Operations- als Customer Engagement-apps. Gebruik de momentopnamen om de vorige status te herstellen als dat nodig is.
 
 ## <a name="deployment"></a>Implementatie
 
@@ -78,15 +79,19 @@ Deze vereisten zijn van toepassing:
     FO Linked Service_properties_type Properties_tenant | Geef de tenant (domeinnaam of tenant-id) op waaronder de toepassing zich bevindt.
     FO Linked Service_properties_type Properties_aad Resource Id | `https://sampledynamics.sandboxoperationsdynamics.com`
     FO Linked Service_properties_type Properties_service Principal Id | Geef de client-id van de toepassing op.
-    Dynamics Crm Linked Service_properties_type Properties_username | De gebruikersnaam voor de verbinding met Dynamics.
+    Dynamics Crm Linked Service_properties_type Properties_username | De gebruikersnaam om verbinding te maken met Dynamics 365.
 
-    Meer informatie vindt u in [Een Resource Manager-sjabloon handmatig een niveau verhogen voor elke omgeving](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Eigenschappen van gekoppelde service](/azure/data-factory/connector-dynamics-ax#linked-service-properties) en [Gegevens kopiëren met Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Raadpleeg de volgende onderwerpen voor meer informatie: 
+    
+    - [Een Resource Manager-sjabloon handmatig een niveau verhogen voor elke omgeving](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)
+    - [Eigenschappen van gekoppelde service](/azure/data-factory/connector-dynamics-ax#linked-service-properties)
+    - [Gegevens kopiëren met Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. Valideer na de implementatie de gegevenssets, gegevensstroom en gekoppelde service van de data factory.
 
    ![Gegevenssets, gegevensstroom en gekoppelde service](media/data-factory-validate.png)
 
-11. Navigeer naar **Beheren**. Selecteer **Gekoppelde service** onder **Verbindingen**. Selecteer **DynamicsCrmLinkedService**. Voer in het formulier **Gekoppelde service bewerken (Dynamics CRM)** de volgende waarden in:
+11. Navigeer naar **Beheren**. Selecteer **Gekoppelde service** onder **Verbindingen**. Selecteer **DynamicsCrmLinkedService**. Voer in het formulier **Gekoppelde service bewerken (Dynamics CRM)** de volgende waarden in.
 
     Veld | Waarde
     ---|---
@@ -102,7 +107,7 @@ Deze vereisten zijn van toepassing:
 
 ## <a name="run-the-template"></a>De sjabloon uitvoeren
 
-1. Stop twee keer wegschrijven voor de volgende **Account**, **Contactpersoon** en **Leverancier** met de Finance and Operations-app.
+1. Stop de volgende toewijzingen voor twee keer wegschrijven voor **Account**, **Contactpersoon** en **Leverancier** met de Finance and Operations-app.
 
     + Klanten V3 (rekeningen)
     + Klanten V3(contacts)
@@ -123,7 +128,7 @@ Deze vereisten zijn van toepassing:
     + Besluitvormingsrollen
     + Loyaliteitsniveaus
 
-5. Schakel in de app voor klantbetrokkenheid de volgende stappen voor de invoegvoeging uit.
+5. Schakel in de Customer Engagement-app de volgende invoegtoepassingsstappen uit.
 
     + Account bijwerken
          + Microsoft.Dynamics.GABExtended.Plugins.UpdatePartyAttributesFromAccountEntity: Update van account
@@ -157,11 +162,11 @@ Deze vereisten zijn van toepassing:
 8. Importeer de **nieuwe records voor Partij** in de Finance and Operations-app.
 
     + Download het bestand `FONewParty.csv` vanuit Azure Blob Storage. Het pad is `partybootstrapping/output/FONewParty.csv`.
-    + Converteer het bestand `FONewParty.csv` naar een Excel-bestand en importeer het Excel-bestand in de Finance and Operations-app.  Als de CSV-import voor u werkt, kunt u het CSV-bestand direct importeren. Afhankelijk van het gegevensvolume kan het importeren enkele uren duren. Meer informatie vindt u in [Overzicht van gegevensimport- en exporttaken](../data-import-export-job.md).
+    + Converteer het bestand `FONewParty.csv` naar een Excel-bestand en importeer het Excel-bestand in de Finance and Operations-app. Als de CSV-import voor u werkt, kunt u het CSV-bestand direct importeren. Afhankelijk van het gegevensvolume kan het importeren enkele uren duren. Meer informatie vindt u in [Overzicht van gegevensimport- en exporttaken](../data-import-export-job.md).
 
     ![De partijrecords van Dataverse importeren](media/data-factory-import-party.png)
 
-9. Schakel in de apps voor klantbetrokkenheid de volgende stappen voor de invoegvoeging in:
+9. Schakel in de Customer Engagement-apps de volgende invoegtoepassingsstappen in:
 
     + Account bijwerken
          + Microsoft.Dynamics.GABExtended.Plugins.UpdatePartyAttributesFromAccountEntity: Update van account
@@ -198,4 +203,4 @@ Deze vereisten zijn van toepassing:
 
 ## <a name="learn-more-about-the-template"></a>Meer informatie over de sjabloon
 
-U kunt opmerkingen voor de sjabloon vinden in het [readme.md](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md)-bestand.
+U kunt extra informatie over de sjabloon vinden in het [leesmij-bestand Opmerkingen voor Azure Data Factory-sjabloon ](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).

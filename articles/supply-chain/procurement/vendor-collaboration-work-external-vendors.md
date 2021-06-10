@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5f0ed7d3344b43c477923ebd8c69acfb6630e6f4
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 30f7919e5ae0933b389a274d80aaed8e149631e7
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910396"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103091"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Leverancierssamenwerking met externe leveranciers
 
@@ -240,7 +240,7 @@ Voor de publieke sector kan een offerteaanvraagcase dankzij de uitgebreide funct
 - Gepubliceerde regel van offerteaanvragen
 - Gepubliceerde bijlagen voor kopteksten van offerteaanvragen
 
-Met deze entiteiten kunnen personen die geen geconfigureerde gebruikers in Supply Chain Management zijn, maar wel anoniem toegang hebben tot de externe site, het beschikbare en afgesloten werk bekijken. Daarnaast kan de gebruiker die parameters instelt voor het offerteaanvraagproces met de uitgebreide functionaliteit in **Verzenden en publiceren** een e-mailsjabloon definiëren. Wanneer de inkoopmedewerker de offerteaanvraagcase vervolgens maakt, moet hij of zij de e-mailsjabloon selecteren om de vereiste gegevens te verzenden naar de leveranciers in de offerteaanvraagcase. 
+Met deze entiteiten kunnen personen die geen geconfigureerde gebruikers in Supply Chain Management zijn, maar wel anoniem toegang hebben tot de externe site, het beschikbare en afgesloten werk bekijken. Daarnaast kan de gebruiker die parameters instelt voor het offerteaanvraagproces met de uitgebreide functionaliteit in **Verzenden en publiceren** een e-mailsjabloon definiëren. Wanneer inkoopmedewerkers de offerteaanvraagcase vervolgens maken, moeten ze de e-mailsjabloon selecteren om de vereiste gegevens te verzenden naar de leveranciers in de offerteaanvraagcase. 
 
 De gebruiker die parameters voor het proces voor offerteaanvragen instelt, kan meerdere e-mailsjablonen maken. Deze e-mailsjablonen kunnen zowel statische tekst als de volgende vervangingstokens bevatten. Wanneer een e-mailbericht wordt gemaakt, worden de tokens vervangen door contextuele waarden.
 

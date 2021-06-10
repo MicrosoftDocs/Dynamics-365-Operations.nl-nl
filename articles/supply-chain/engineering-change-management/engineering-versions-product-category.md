@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d6e5725255c43b808d656a46cbcdeca4d200b768
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 3509763c03ecc0e847c72828d14b172401df75b0
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920152"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115140"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Technische versies van en categorieën voor technische producten
 
@@ -48,7 +48,8 @@ Wanneer u werkt met technische producten, heeft elk product minstens één techn
 - Het technische bedrijf dat het product heeft gemaakt en hiervan eigenaar is (zie [Technische bedrijven en regels voor gegevenseigendom](engineering-org-data-ownership-rules.md) voor meer informatie)
 - Gerelateerde technische documenten, zoals assemblagehandboek, gebruikersinstructies, afbeeldingen en koppelingen
 - De technische kenmerken (zie [Technische kenmerken en de zoekfunctie voor technische kenmerken](engineering-attributes-and-search.md) voor meer informatie)
-- De technische stuklijsten
+- Stuklijst voor technische producten
+- Formules voor producten in procesfabricage
 - De technische routes
 
 U kunt deze gegevens bijwerken voor een bestaande versie of een nieuwe versie maken met behulp van een *order voor technische wijzigingen*. (Zie [Wijzigingen in technische producten beheren](engineering-change-management.md) voor meer informatie). Als u een nieuwe versie van een product maakt, kopieert het systeem alle technisch relevante gegevens naar die nieuwe versie. Vervolgens kunt u de gegevens voor die nieuwe versie wijzigen. Op deze manier kunt u specifieke gegevens voor elke opeenvolgende versie bijhouden. Als u de verschillen tussen opeenvolgende technische versies wilt vergelijken, inspecteert u de order voor technische wijzigingen, die typewijzigingen bevatten die alle wijzigingen aangeven.
@@ -110,6 +111,8 @@ Stel de volgende velden op het sneltabblad **Details** van een categorie voor ee
 | Veld | Beschrijving |
 |---|---|
 | Producttype | Selecteer of de categorie van toepassing is op producten of services. |
+| Productietype | Dit veld wordt alleen weergegeven als u [formulewijzigingsbeheer](manage-formula-changes.md) in het systeem hebt ingeschakeld. Selecteer het type productie waarop deze categorie van technische producten van toepassing is:<ul><li>**Planningsartikel**: met deze technische categorie kunt u formulewijzigingsbeheer uitvoeren voor planningsartikelen. Voor planningsartikelen worden formules gebruikt. Deze artikelen lijken op formuleartikelen, maar worden gebruikt om alleen co- en bijproducten te produceren, niet om afgewerkte producten te maken. Formules worden gebruikt tijdens procesfabricage.</li><li>**Stuklijst**: gebruik deze technische categorie om technische producten te beheren, waarvoor geen formules worden gebruikt en meestal (maar niet noodzakelijkerwijs) stuklijsten bevatten.</li><li>**Formule**: met deze technische categorie kunt u formulewijzigingsbeheer uitvoeren voor eindproducten. Deze artikelen hebben een formule, maar geen stuklijst. Formules worden gebruikt tijdens procesfabricage.</li></ul> |
+| Variabel gewicht | Deze optie wordt alleen weergegeven als u [formulewijzigingsbeheer](manage-formula-changes.md) in het systeem hebt ingeschakeld. Deze optie is alleen beschikbaar als het veld **Productietype** is ingesteld op *Planningsartikel* of *Formule*. Stel deze optie in op *Ja* als u deze technische categorie gebruikt om artikelen te beheren waarvoor catch weight-ondersteuning nodig is. |
 | Versies in transacties traceren | Selecteer of de versie van het product moet worden vermeld voor alle transacties (logistieke gevolgen). Als u de versie in transacties bijhoudt, geeft elke verkooporder bijvoorbeeld aan welke specifieke versie van het product in die verkooporder is verkocht. Als u de versie in transacties niet bijhoudt, wordt in verkooporders niet aangegeven welke specifieke versie is verkocht. In plaats daarvan wordt altijd de meest recente versie weergegeven.<ul><li>Als deze optie is ingesteld op *Ja*, wordt een productmodel gemaakt voor het product en is elke versie van het product een variant die de productdimensie *versie* gebruikt. Het veld **Subtype van product** wordt automatisch ingesteld op *Productmodel* en in het veld **Productdimensiegroep** moet u een productdimensiegroep selecteren waarvoor de dimensie *versie* actief is. Alleen productdimensiegroepen waarvoor *versie* een actieve dimensie is, worden weergegeven. U kunt nieuwe productdimensiegroepen maken door de knop **Bewerken** (potloodsymbool) te selecteren.</li><li>Als deze optie is ingesteld op *Nee*, wordt de productdimensie *versie* niet gebruikt. U kunt vervolgens selecteren of u een product of een productmodel wilt maken waarin de andere dimensies worden gebruikt.</li></ul><p>Deze optie wordt vaak gebruikt voor producten waarvoor een kostenverschil bestaat tussen versies of producten waar verschillende voorwaarden van toepassing zijn met betrekking tot de klant. Het is daarom belangrijk om aan te geven welke versie in elke transactie is gebruikt.</p> |
 | Subtype product | Selecteer of de categorie producten of productmodellen bevat. Voor productmodellen worden productdimensies gebruikt.
 | Productdimensiegroep | Met de instelling **Versies in transacties traceren** kunt u de productdimensiegroep selecteren. Als u hebt opgegeven dat u de versie in transacties wilt bijhouden, worden de productdimensiegroepen weergegeven waarvoor de dimensie *versie* wordt gebruikt. Anders worden alleen productdimensiegroepen weergegeven waarvoor de dimensie *versie* niet wordt gebruikt. |
@@ -139,7 +142,10 @@ Stel de volgende velden in voor elke rij die u toevoegt aan het raster.
 
 ### <a name="readiness-policy-fasttab"></a>Het sneltabblad Gereedheidsbeleid
 
-Gebruik het veld **Productgereedheidsbeleid** om het gereedheidsbeleid te selecteren dat van toepassing is op producten die tot deze categorie behoren. Zie voor meer informatie [Productgereedheid](product-readiness.md).
+Gebruik het veld **Productgereedheidsbeleid** om het gereedheidsbeleid te selecteren dat moet worden toegepast op producten die worden gemaakt op basis van deze technische categorie. Zie voor meer informatie [Productgereedheid](product-readiness.md).
+
+> [!NOTE]
+> Het veld **Productgereedheidsbeleid** werkt iets anders als u de functie *Productgereedheidscontroles* in uw systeem hebt ingeschakeld. (Met deze functie kunt u gereedheidsbeleid toepassen op standaard \[niet-technische\] producten). Zie [Gereedheidsbeleid toewijzen aan standaard en technische producten](product-readiness.md#assign-policy) voor meer informatie.
 
 ### <a name="release-policy-fasttab"></a>Het sneltabblad Vrijgavebeleid
 

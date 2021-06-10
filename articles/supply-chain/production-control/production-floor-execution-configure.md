@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 79e21977e4ef8bce88c97a8fb253345ccc8d6b4f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 84d845055e175e6f4b8078fabeb3307ee96826f2
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814725"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115018"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer configureren
 
@@ -71,6 +71,14 @@ Met deze functie voegt u een Activabeheer-tabblad toe aan de interface voor het 
 
 - Functionaliteit van activabeheer voor de uitvoeringsinterface voor de werkvloer
 
+### <a name="enable-job-search"></a>Zoekopdracht naar taak inschakelen
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+Met deze functie kunt u een zoekveld aan de takenlijst toevoegen. Werknemers kunnen een specifieke taak vinden door de taak-ID in te voeren of alle taken voor een specifieke order zoeken door de order-ID in te voeren. Werknemers kunnen de ID invoeren met behulp van een toetsenblok of door een streepjescode te scannen. Als u hier gebruik van wilt maken, schakelt u de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in:
+
+- Taak zoeken voor de uitvoeringsinterface voor de werkvloer
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Werken met uitvoeringsconfiguraties voor de werkvloer
 
 Als u de apparaatconfiguraties wilt maken en beheren, gaat u naar productie **Productiebeheer \> Instellen \> Productie-uitvoering \> Uitvoering werkvloer configureren**. Op de pagina **Uitvoering werkvloer configureren** wordt een lijst met bestaande configuraties weergegeven. Op deze pagina kunt u de volgende acties uitvoeren:
@@ -81,6 +89,7 @@ Als u de apparaatconfiguraties wilt maken en beheren, gaat u naar productie **Pr
 Configureer vervolgens de verschillende instellingen voor de geselecteerde apparaatconfiguratie. De volgende velden zijn beschikbaar:
 
 - **Alleen in- en uitklokken**: stel deze optie in op *Ja* om een vereenvoudigde interface te maken die alleen inklok- en uitklokfunctionaliteit biedt. Hierdoor worden de meeste andere opties op deze pagina uitgeschakeld. U moet eerst alle regels verwijderen uit het sneltabblad **Tabselectie** voordat u deze optie kunt inschakelen.
+- **Zoeken inschakelen**: stel deze optie in op *Ja* om een zoekveld in de takenlijst op te nemen. Werknemers kunnen een specifieke taak vinden door de taak-ID in te voeren of alle taken voor een specifieke order zoeken door de order-ID in te voeren. Werknemers kunnen de ID invoeren met behulp van een toetsenblok of door een streepjescode te scannen.
 - **Hoeveelheid rapporteren bij uitklokken**: stel deze optie in op *Ja* om werknemers te vragen om bij het uitklokken feedback te rapporteren over taken die in uitvoering zijn. Als deze optie wordt ingesteld op *Nee*, wordt dit niet aan werknemers gevraagd.
 - **Werknemer vergrendelen**: wanneer deze optie is ingesteld op *Nee*, worden werknemers onmiddellijk afgemeld nadat ze een registratie hebben gemaakt (zoals een nieuwe taak). Het apparaat keert dan terug naar de aanmeldingspagina. Als deze optie is ingesteld op *Ja*, blijven werknemers aangemeld bij het taakkaartapparaat. Een werknemer kan zich echter handmatig afmelden, zodat een andere werknemer zich kan aanmelden terwijl het taakkaartapparaat actief blijft onder dezelfde systeemgebruikersaccount. Meer informatie over deze typen accounts vindt u in [Toegewezen gebruikers](config-job-card-device.md#assigned-users).
 - **De werkelijke registratietijd gebruiken**: stel deze optie in op *Ja* om de tijd in te stellen voor elke nieuwe registratie die gelijk is aan de exacte tijd waarop de registratie is ingediend door de werknemer. Als deze optie is ingesteld op *Nee*, wordt in plaats daarvan de aanmeldingstijd gebruikt. U stelt deze optie meestal in op *Ja* als u de opties **Werknemer vergrendelen** en/of **Eén werknemer** hebt ingesteld op *Ja*, waarbij werknemers vaak aangemeld blijven gedurende langere perioden.

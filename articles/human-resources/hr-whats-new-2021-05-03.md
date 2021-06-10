@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-05-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 944d5794bb535faa18b4f2de8b5382ebfb9bc2ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 4fd0d0d39d19634498f9313aeda4143f9ec81e8f
+ms.sourcegitcommit: f3c28f57d997e824a64485d9a4ce8f198e3bcf23
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022058"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6059624"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-may-3-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Human Resources 3 mei 2021
 
@@ -72,7 +71,6 @@ Van de volgende nieuwe functies kan een voorbeeld worden bekeken. Zie [Functies 
 
 | Functie | Gegevens |
 | --- | --- |
-| Vaardigheden die een manager voor diens werknemers invoert, kunnen automatisch worden goedgekeurd door een workflow | Binnenkort beschikbaar. |
 | Platformupdate 10.0.18 (42) | Platformupdate 10.0.18 is gepland voor de uitrol met de volgende servicerelease op 17 mei 2021. Zie [Platformupdates voor versie 10.0.18 van Finance and Operations-apps (mei 2021)](/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-18) voor meer informatie. |
 | Ondersteuning voor aangepaste velden in geschiktheidsregels in Vergoedingenbeheer  | [Ondersteuning voor aangepaste velden voor verwerking van geschiktheid](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |
 

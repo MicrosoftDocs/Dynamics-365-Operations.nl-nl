@@ -2,13 +2,12 @@
 title: Geschiktheidsregels en -opties configureren
 description: Stel de geschiktheidsregels en -opties in voor vergoedingen in Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1c5ad568d2e1dd14acdfb3848cace035abfc0507
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
+ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791503"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6093915"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Geschiktheidsregels en -opties configureren
 
@@ -39,7 +38,7 @@ Tijdens open inschrijving kunnen werknemers vergoedingsplannen selecteren. Als z
 
 2. Selecteer op het tabblad **Geschiktheidsregels** de optie **Nieuw** om een geschiktheidsregel te maken. Selecteer **Gekoppelde plannen** om plannen weer te geven die aan een geschiktheidsregel zijn gekoppeld.
 
-3. Geef de waarden op voor de volgende velden:
+3. Geef de waarden op voor de volgende velden.
 
    | Veld | Beschrijving |
    | --- | --- |
@@ -57,7 +56,7 @@ Tijdens open inschrijving kunnen werknemers vergoedingsplannen selecteren. Als z
    | **Inschrijvingsperiode** | De tijdsperiode waarin inschrijving van nieuw aangenomen werknemers is toegestaan. Als u dit ook instelt in parameters, heeft de parameterinstelling voorrang op deze waarde. |
    | **Voormalige aanstellingsstatus gebruiken** | Geeft aan of het gebruik van een eerdere aanstellingsstatus van een werknemer moet worden gebruikt als onderdeel van de geschiktheidsregel voor vergoedingen. U kunt bijvoorbeeld een geschiktheidsregel opgeven die de wachttijd voor de dekking kwijtscheldt voor alle werknemers die zijn overgegaan van een status **Ontslagen** naar een status **Aangesteld** binnen 90 dagen na hun vorige aanstelling. |
 
-4. Selecteer onder **Aanvullende criteria** de volgende opties en voeg zo nodig informatie toe:
+4. Selecteer onder **Aanvullende criteria** de volgende opties en voeg zo nodig informatie toe.
 
    | Optie | Beschrijving |
    | --- | --- |
@@ -76,7 +75,7 @@ Tijdens open inschrijving kunnen werknemers vergoedingsplannen selecteren. Als z
    | **In aanmerking komende vereniging** | Geeft de lidmaatschappen van vakverenigingen aan die aan de geschiktheidsregel voldoen. Voorbeeld: Forklift Drivers of America. </br></br>Wanneer u een op vakbondslidmaatschap gebaseerde geschiktheidsregel gebruikt, moet in de vakbondsrecord van de werknemer de einddatum zijn ingevuld. U kunt dit veld niet leeg laten. |
    | **Geschikte postcode** | Geeft de postcodes aan die aan de geschiktheidsregel voldoen. Bijvoorbeeld 58104. |
 
-5. Onder **Aanvullende details** kunt u de volgende aanvullende gegevens weergeven:
+5. Onder **Aanvullende details** kunt u de volgende aanvullende gegevens weergeven.
 
    | Veld | Beschrijving |
    | --- | --- |
@@ -87,6 +86,72 @@ Tijdens open inschrijving kunnen werknemers vergoedingsplannen selecteren. Als z
 
 6. Selecteer **Opslaan**.
 
+## <a name="using-custom-fields-in-eligibility-rules"></a>Aangepaste velden in geschiktheidsregels gebruiken
+
+U kunt [aangepaste velden](hr-developer-custom-fields.md) in Human Resources maken om extra informatie bij te houden. Deze velden kunnen rechtstreeks aan de gebruikersinterface worden toegevoegd en een kolom wordt dynamisch toegevoegd aan de onderliggende tabel.  
+
+Aangepaste velden kunnen worden gebruikt in het geschiktheidsproces. Geschiktheidsregels kunnen een of meer aangepaste velden gebruiken om de geschiktheid van een werknemer vast te stellen.  Als u een aangepast veld wilt toevoegen aan een bestaande regel of een nieuwe regel wilt maken, gaat u naar **Vergoedingenbeheer > Koppelingen > Instellingen > Geschiktheidsregels > Geschiktheid aangepast veld**. Op deze pagina kunt u een regel maken met één of meerdere aangepaste velden en u kunt meerdere waarden definiëren voor elk aangepast veld om de geschiktheid te bepalen.
+
+In de volgende tabellen worden aangepaste velden ondersteund die kunnen worden gebruikt bij het verwerken van geschiktheid:
+
+- Werknemer (HcmWorker)  
+- Functie (HcmJob)  
+- Positie (HcmPosition)  
+- Positiedetails (HcmPositionDetail)  
+- Medewerkertoewijzing voor positie  
+- Dienstverband (HcmEmployment)  
+- Details dienstverband (HcmEmploymentDetails)  
+- Functiedetails (HcmJobDetails)  
+
+De volgende typen aangepaste velden worden ondersteund bij het verwerken van geschiktheid:
+
+- Tekst  
+- Selectielijst  
+- Nummer  
+- Decimaal  
+- Selectievakje  
+
+In de volgende tabel ziet u informatie over het formulierveld Geschiktheid aangepast veld.
+
+| Veld  | Beschrijving |
+|--------|-------------|
+| Naam | Naam van de criteria die worden gemaakt. |
+| Tabelnaam | De tabelnaam die het aangepaste veld bevat dat wordt gebruikt voor de geschiktheidsregel. |
+| Veldnaam | Het veld dat wordt gebruikt voor de geschiktheidsregel. |
+| Operatortype | Geeft de operator weer die wordt gebruikt in de configuratie van aangepaste velden voor geschiktheid. |
+| Waarde | Geeft de waarde weer die wordt gebruikt in de configuratie van aangepaste velden voor geschiktheid. |
+
+## <a name="eligibility-logic"></a>Geschiktheidslogica
+
+In de volgende secties wordt beschreven hoe geschiktheid voor vergoedingen wordt verwerkt.
+
+### <a name="rules-assigned-to-a-plan"></a>Regels die aan een plan zijn toegewezen 
+Wanneer meerdere geschiktheidsregels aan een vergoedingsplan zijn toegewezen, moet een werknemer aan ten minste één regel voldoen om in aanmerking te komen voor inschrijving bij het vergoedingsplan.  In het volgende voorbeeld moet de werknemer voldoen aan de vereisten van de regel **Functietype** of de regel **Actieve werknemers**.
+
+![De werknemer moet voldoen aan de vereisten van de regel Functietype of de regel Actieve werknemers.](media/RulesAssignedToAPlan.png)
+ 
+### <a name="criteria-within-an-eligibility-rule"></a>Criteria binnen een geschiktheidsregel 
+Binnen een regel definieert u de criteria waaruit de regel bestaat. In het bovenstaande voorbeeld zijn de criteria voor de regel **Functietype** waar Functietype = Directeur. Daarom moet de werknemer een directeur zijn om in aanmerking te komen. Dit is een regel met slechts één criterium binnen de regel.
+
+U kunt regels met meerdere criteria definiëren. Wanneer u meerdere criteria binnen een geschiktheidsregel definieert, moet een werknemer voldoen aan alle criteria binnen de regel om in aanmerking te komen voor het vergoedingsplan. 
+
+De bovenstaande regel **Actieve werknemers** bestaat bijvoorbeeld uit de volgende criteria. Een werknemer kan alleen in aanmerking komen op basis van de regel **Actieve werknemers** als de werknemer in dienst is bij rechtspersoon USMF *en* een positie van het type fulltime heeft.  
+
+![Criteria binnen een geschiktheidsregel](media/CriteriaWithinAnEligibilityRule.png) 
+ 
+### <a name="multiple-conditions-within-criteria"></a>Meerdere voorwaarden binnen criteria
+
+Regels kunnen verder worden uitgebreid om meerdere voorwaarden te gebruiken binnen één criterium. De werknemer moet aan ten minste één voorwaarde voldoen om in aanmerking te komen. Als u verder wilt gaan op het bovenstaande voorbeeld kan de regel **Actieve werknemers** verder worden uitgebreid met werknemers die ook parttime werknemers zijn. Als resultaat hiervan moet de werknemer nu een werknemer in USMF zijn *en* een fulltime of parttime werknemer zijn.  
+
+![Meerdere voorwaarden binnen criteria](media/MultipleConditionsWithinCriteria.png) 
+ 
+### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Geschiktheidsvoorwaarden binnen een criterium van een aangepast veld 
+Op dezelfde manier als hierboven is het mogelijk om aangepaste velden te gebruiken bij het maken van geschiktheidsregels. Deze werken op dezelfde manier. U kunt bijvoorbeeld terugbetaling van internetkosten aanbieden aan werknemers in Utrecht en Amsterdam die thuis werken, omdat de internetkosten op die locaties hoger zijn. Hiervoor maakt u twee aangepaste velden: **Kantoorlocatie** (selectielijst) en **Thuiswerken** (selectievakje). Maak vervolgens een regel met de naam **Thuiswerkende werknemers**. Als criterium voor de regel wordt **Kantoorlocatie = Utrecht** of **Amsterdam** gebruikt *en* **Thuiswerkend = Ja**.
+
+Aangepaste geschiktheidsregels moeten worden ingesteld, zoals in de volgende afbeelding wordt aangegeven. 
+
+![Geschiktheidsvoorwaarden binnen het criterium van een aangepast veld](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+ 
 ## <a name="configure-bundles"></a>Bundels configureren
 
 Bundels zijn een reeks gerelateerde vergoedingsplannen. U kunt vergoedingsbundels gebruiken om vergoedingsplannen te groeperen die een werknemer moet kiezen om zich in te schrijven bij bepaalde vergoedingsplannen die afhankelijk kunnen zijn van andere inschrijvingen voor vergoedingsplannen. Voorbeelden van wanneer u een bundel kunt gebruiken, zijn:
@@ -99,7 +164,7 @@ Bundels zijn een reeks gerelateerde vergoedingsplannen. U kunt vergoedingsbundel
 
 2. Selecteer op het tabblad **Bundels** de optie **Nieuw** om een bundel te maken. Selecteer **Gekoppelde plannen** om plannen weer te geven die aan een bundel zijn gekoppeld.
 
-3. Geef de waarden op voor de volgende velden:
+3. Geef de waarden op voor de volgende velden.
 
    | Veld | Beschrijving |
    | --- | --- |
@@ -119,7 +184,7 @@ Perioden bepalen wanneer vergoedingen van kracht zijn en wanneer werknemers zich
 
 2. Selecteer op het tabblad **Perioden** de optie **Nieuw** om een periode te maken. Selecteer **Plannen koppelen** om een proces uit te voeren waarbij alle geldige actieve vergoedingsplannen aan de vergoedingsperiode worden gekoppeld. Selecteer **Gekoppelde plannen** om plannen weer te geven die aan een bundel zijn gekoppeld. 
 
-3. Geef de waarden op voor de volgende velden:
+3. Geef de waarden op voor de volgende velden.
 
    | Veld | Beschrijving |
    | --- | --- |
@@ -141,7 +206,7 @@ U kunt flex-kredietprogramma's gebruiken om werknemers in te schrijven voor verg
 
 2. Selecteer op het tabblad **Perioden** de optie **Flex-kredietprogramma's**.
 
-3. Selecteer een flex-kredietprogramma dat moet worden toegepast. De velden bevatten de volgende informatie:
+3. Selecteer een flex-kredietprogramma dat moet worden toegepast. De velden bevatten de volgende informatie.
 
    | Veld | Beschrijving |
    | --- | --- |
@@ -163,7 +228,7 @@ Programma's zijn een reeks vergoedingsplannen die een gemeenschappelijke set ges
 
 2. Selecteer op het tabblad **Programma's** de optie **Nieuw** om een programma te maken. Als u uitzonderingen wilt maken voor werknemers die niet voldoen aan de vereisten voor de geschiktheidsregel, selecteert u **Geschiktheidsregel negeren**. Selecteer **Gekoppelde plannen** om plannen weer te geven die aan een programma zijn gekoppeld.
 
-3. Geef de waarden op voor de volgende velden:
+3. Geef de waarden op voor de volgende velden.
 
    | Veld | Beschrijving |
    | --- | --- |

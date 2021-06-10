@@ -2,7 +2,7 @@
 title: Conformiteit van cookie
 description: In dit onderwerp worden overwegingen voor compliance op het gebied van cookies en het standaardbeleid in Microsoft Dynamics 365 Commerce beschreven.
 author: BrianShook
-ms.date: 04/16/2021
+ms.date: 05/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908179"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088382"
 ---
 # <a name="cookie-compliance"></a>Conformiteit van cookie
 
@@ -52,8 +52,7 @@ In de volgende tabel wordt de huidige verwijzingslijst van cookies weergegeven d
 | x-ms-cpim-trans                             | Wordt gebruikt voor het traceren van transacties (het aantal geopende tabbladen dat wordt geverifieerd tegen een Business-to-consumer-site (B2C)), inclusief de huidige transactie. |
 | \_msdyn365___muid_                            | Wordt gebruikt als Experimenten is geactiveerd voor de omgeving. wordt gebruikt als userId voor experimentdoeleinden. |
 | \_msdyn365___exp_                             | Wordt gebruikt als Experimenten is geactiveerd voor de omgeving; wordt gebruikt voor het meten van de prestaties voor de taakverdeling.         |
-
-
+| d365mkt                                       | Wordt gebruikt als detectie op basis van locaties om het IP-adres van een gebruiker voor winkellocatie-suggesties bij te houden is ingeschakeld in Commerce Site Builder bij **Site-instellingen > Algemeen > Detectie van winkels op basis van de locatie inschakelen**.      |
 
 Als een sitegebruiker een koppeling voor social media op een site selecteert, worden de cookies in de volgende tabel ook in de browser bijgehouden.
 

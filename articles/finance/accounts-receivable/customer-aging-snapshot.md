@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7761366c0372c105ecbd4281c7bafa44bf6cf7b5
-ms.sourcegitcommit: 905a8c7a0c1bc06ada2acfba913dfe5f7b44ea16
+ms.openlocfilehash: b88d3fe97d14d3e2f766367de501148063582000
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "6039922"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123357"
 ---
 # <a name="customer-aging-snapshots"></a>Ouderdomsmomentopnamen voor klanten 
 
@@ -28,6 +28,8 @@ ms.locfileid: "6039922"
 Dit onderwerp bevat informatie over ouderdomsmomentopname voor klanten. Een ouderdomsmomentopname berekent saldi voor groep klanten op een bepaald tijdstip. U kunt registraties voor ouderdomsmomentopnamen voor alle klanten of voor de klanten in een klantverzameling maken.
 
 Informatie van ouderdomsmomentopnamen wordt weergegeven op de lijstpagina **Ouderdomssaldi** en op de pagina **Aanmaningen**. U moet een ouderdomsmomentopname maken voordat u de lijstpagina **Ouderdomssaldi** kunt gebruiken. De lijstpagina vermeldt uitsluitend informatie voor klanten voor wie een ouderdomsmomentopname is gemaakt.
+
+De werkruimte **Klantcrediteringen en aanmaningen** toont ook de ouderdomsberekening voor de klant. Zie [Power BI-inhoud - klantcrediteringen- en aanmaningsbeheer](credit-collections-power-bi.md) voor meer informatie.
 
 > [!NOTE]
 > Als u de tijd wilt beperken die nodig is voor het maken van een ouderdomsmomentopname, moet u de functie voor **Prestatieverbetering voor ouderdomberekening voor klanten** in de werkruimte van **Functiebeheer** inschakelen. Gebruik echter geen klantverzamelingen als deze functie is ingeschakeld. Als u een klantverzameling selecteert, werkt deze functie niet, maar kunt u wel een ouderdomsmomentopname maken.
@@ -62,4 +64,3 @@ Het wordt aangeraden dit proces te plannen voor uitvoering in een batch.
 > [!NOTE]
 > Als u de batchprestaties wilt verbeteren bij het maken van ouderdomsmomentopnamen, voert u een getal in het veld **Maximum aantal batchtaken** op het sneltabblad **Standaardwaarden incasso** in op het tabblad **Aanmaningen** van de pagina **Parameters van module Klanten**. In het veld **Ouderdom van klantsaldi berekenen** raden we aan te beginnen met de standaardwaarde **100** en vervolgens de waarde aan te passen om de verwerking voor uw situatie te optimaliseren.
 
-De werkruimte **Klantcrediteringen en aanmaningen** toont ook de ouderdomsberekening voor de klant. Zie [Power BI-inhoud - klantcrediteringen- en aanmaningsbeheer](credit-collections-power-bi.md) voor meer informatie.
