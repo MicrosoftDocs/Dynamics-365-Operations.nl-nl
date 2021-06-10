@@ -8,41 +8,40 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: HcmPosition, HcmPositionReportsToDialog, HcmPositionLookup, HcmPersonnelManagementWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a4f54a162305a81b65f0657cd572df75a9dcbd38
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 78410347e7e6cf67f692c7e9193419ffd87e3057
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794440"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6057087"
 ---
-# <a name="modify-reporting-relationships-for-a-position"></a><span data-ttu-id="57cef-103">Rapporteringsrelaties voor een positie wijzigen</span><span class="sxs-lookup"><span data-stu-id="57cef-103">Modify reporting relationships for a position</span></span>
+# <a name="modify-reporting-relationships-for-a-position"></a><span data-ttu-id="ff99f-103">Rapporteringsrelaties voor een positie wijzigen</span><span class="sxs-lookup"><span data-stu-id="ff99f-103">Modify reporting relationships for a position</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="57cef-104">Deze procedure toont hoe u de rapporteringsrelatie voor een werknemer wijzigt.</span><span class="sxs-lookup"><span data-stu-id="57cef-104">This procedure shows how to change the reporting relationship for an employee.</span></span> <span data-ttu-id="57cef-105">De rapporteringsrelatie kan worden gebruikt voor de routering van documenten door workflow.</span><span class="sxs-lookup"><span data-stu-id="57cef-105">The reporting relationship can be used for routing documents through workflow.</span></span> <span data-ttu-id="57cef-106">De procedure toont ook hoe u de werknemer aan aanvullende hiërarchieën toewijst.</span><span class="sxs-lookup"><span data-stu-id="57cef-106">The procedure also shows how to assign the employee to additional hierarchies.</span></span> <span data-ttu-id="57cef-107">Een werknemer kan bijvoorbeeld deel uitmaken van een projectteam met een informele rapporteringsrelatie met een projectsupervisor.</span><span class="sxs-lookup"><span data-stu-id="57cef-107">For example, an employee might be a part of a project team with an informal reporting relationship to a project supervisor.</span></span> <span data-ttu-id="57cef-108">U kunt extra rapporteringsrelaties bepalen op de functie om diverse project- of matrixscenario's te bevatten.</span><span class="sxs-lookup"><span data-stu-id="57cef-108">Additional reporting relationships can be defined on the position to accommodate various project or matrix scenarios.</span></span> <span data-ttu-id="57cef-109">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="57cef-109">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="ff99f-104">Deze procedure toont hoe u de rapporteringsrelatie voor een werknemer wijzigt.</span><span class="sxs-lookup"><span data-stu-id="ff99f-104">This procedure shows how to change the reporting relationship for an employee.</span></span> <span data-ttu-id="ff99f-105">De rapporteringsrelatie kan worden gebruikt voor de routering van documenten door workflow.</span><span class="sxs-lookup"><span data-stu-id="ff99f-105">The reporting relationship can be used for routing documents through workflow.</span></span> <span data-ttu-id="ff99f-106">De procedure toont ook hoe u de werknemer aan aanvullende hiërarchieën toewijst.</span><span class="sxs-lookup"><span data-stu-id="ff99f-106">The procedure also shows how to assign the employee to additional hierarchies.</span></span> <span data-ttu-id="ff99f-107">Een werknemer kan bijvoorbeeld deel uitmaken van een projectteam met een informele rapporteringsrelatie met een projectsupervisor.</span><span class="sxs-lookup"><span data-stu-id="ff99f-107">For example, an employee might be a part of a project team with an informal reporting relationship to a project supervisor.</span></span> <span data-ttu-id="ff99f-108">U kunt extra rapporteringsrelaties bepalen op de functie om diverse project- of matrixscenario's te bevatten.</span><span class="sxs-lookup"><span data-stu-id="ff99f-108">Additional reporting relationships can be defined on the position to accommodate various project or matrix scenarios.</span></span> <span data-ttu-id="ff99f-109">Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF.</span><span class="sxs-lookup"><span data-stu-id="ff99f-109">The demo data company used to create this procedure is USMF.</span></span>
 
-1. <span data-ttu-id="57cef-110">Ga naar Human resources > Functies > Functies.</span><span class="sxs-lookup"><span data-stu-id="57cef-110">Go to Human resources > Positions > Positions.</span></span>
-2. <span data-ttu-id="57cef-111">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="57cef-111">Use the Quick Filter to find records.</span></span> <span data-ttu-id="57cef-112">Filter bijvoorbeeld op het veld Functie met de waarde '000091'.</span><span class="sxs-lookup"><span data-stu-id="57cef-112">For example, filter on the Position field with a value of '000091'.</span></span>
-3. <span data-ttu-id="57cef-113">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="57cef-113">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="57cef-114">Vouw de sectie Verantwoording aan positie uit.</span><span class="sxs-lookup"><span data-stu-id="57cef-114">Expand the Reports to position section.</span></span>
-5. <span data-ttu-id="57cef-115">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="57cef-115">Click New to open the drop dialog.</span></span>
-6. <span data-ttu-id="57cef-116">Typ of selecteer een waarde in het veld Rapporteert aan.</span><span class="sxs-lookup"><span data-stu-id="57cef-116">In the Reports to field, enter or select a value.</span></span>
-7. <span data-ttu-id="57cef-117">Klik op Maken.</span><span class="sxs-lookup"><span data-stu-id="57cef-117">Click Create.</span></span>
-8. <span data-ttu-id="57cef-118">Vouw de sectie Relaties uit of samen.</span><span class="sxs-lookup"><span data-stu-id="57cef-118">Expand the Relationships section.</span></span>
-9. <span data-ttu-id="57cef-119">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="57cef-119">Click Add.</span></span>
-10. <span data-ttu-id="57cef-120">Schakel het selectievakje links van het raster in.</span><span class="sxs-lookup"><span data-stu-id="57cef-120">Select the check box on the left of the grid.</span></span>
-11. <span data-ttu-id="57cef-121">Typ of selecteer een waarde in het veld Hiërarchienaam.</span><span class="sxs-lookup"><span data-stu-id="57cef-121">In the Hierarchy name field, enter or select a value.</span></span>
-    * <span data-ttu-id="57cef-122">Voorbeeld: Project</span><span class="sxs-lookup"><span data-stu-id="57cef-122">Example: Project</span></span>  
-12. <span data-ttu-id="57cef-123">Typ of selecteer een waarde in het veld Verantwoording aan positie.</span><span class="sxs-lookup"><span data-stu-id="57cef-123">In the Reports to position field, enter or select a value.</span></span>  <span data-ttu-id="57cef-124">Voorbeeld: 000437</span><span class="sxs-lookup"><span data-stu-id="57cef-124">Example:  000437</span></span>
-13. <span data-ttu-id="57cef-125">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="57cef-125">Click Save.</span></span>
+1. <span data-ttu-id="ff99f-110">Ga naar Human resources > Functies > Functies.</span><span class="sxs-lookup"><span data-stu-id="ff99f-110">Go to Human resources > Positions > Positions.</span></span>
+2. <span data-ttu-id="ff99f-111">Gebruik de snelfilter om records te zoeken.</span><span class="sxs-lookup"><span data-stu-id="ff99f-111">Use the Quick Filter to find records.</span></span> <span data-ttu-id="ff99f-112">Filter bijvoorbeeld op het veld Functie met de waarde '000091'.</span><span class="sxs-lookup"><span data-stu-id="ff99f-112">For example, filter on the Position field with a value of '000091'.</span></span>
+3. <span data-ttu-id="ff99f-113">Klik in de lijst op de koppeling in de geselecteerde rij.</span><span class="sxs-lookup"><span data-stu-id="ff99f-113">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="ff99f-114">Vouw de sectie Verantwoording aan positie uit.</span><span class="sxs-lookup"><span data-stu-id="ff99f-114">Expand the Reports to position section.</span></span>
+5. <span data-ttu-id="ff99f-115">Klik op Nieuw om het verwijderdialoogvenster te openen.</span><span class="sxs-lookup"><span data-stu-id="ff99f-115">Click New to open the drop dialog.</span></span>
+6. <span data-ttu-id="ff99f-116">Typ of selecteer een waarde in het veld Rapporteert aan.</span><span class="sxs-lookup"><span data-stu-id="ff99f-116">In the Reports to field, enter or select a value.</span></span>
+7. <span data-ttu-id="ff99f-117">Klik op Maken.</span><span class="sxs-lookup"><span data-stu-id="ff99f-117">Click Create.</span></span>
+8. <span data-ttu-id="ff99f-118">Vouw de sectie Relaties uit of samen.</span><span class="sxs-lookup"><span data-stu-id="ff99f-118">Expand the Relationships section.</span></span>
+9. <span data-ttu-id="ff99f-119">Klik op Toevoegen.</span><span class="sxs-lookup"><span data-stu-id="ff99f-119">Click Add.</span></span>
+10. <span data-ttu-id="ff99f-120">Schakel het selectievakje links van het raster in.</span><span class="sxs-lookup"><span data-stu-id="ff99f-120">Select the check box on the left of the grid.</span></span>
+11. <span data-ttu-id="ff99f-121">Typ of selecteer een waarde in het veld Hiërarchienaam.</span><span class="sxs-lookup"><span data-stu-id="ff99f-121">In the Hierarchy name field, enter or select a value.</span></span>
+    * <span data-ttu-id="ff99f-122">Voorbeeld: Project</span><span class="sxs-lookup"><span data-stu-id="ff99f-122">Example: Project</span></span>  
+12. <span data-ttu-id="ff99f-123">Typ of selecteer een waarde in het veld Verantwoording aan positie.</span><span class="sxs-lookup"><span data-stu-id="ff99f-123">In the Reports to position field, enter or select a value.</span></span>  <span data-ttu-id="ff99f-124">Voorbeeld: 000437</span><span class="sxs-lookup"><span data-stu-id="ff99f-124">Example:  000437</span></span>
+13. <span data-ttu-id="ff99f-125">Klik op Opslaan.</span><span class="sxs-lookup"><span data-stu-id="ff99f-125">Click Save.</span></span>
 
 
 
