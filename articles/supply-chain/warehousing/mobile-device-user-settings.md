@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 080b84d712a9c634611090f71b9ecca75e13cdcb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 77b4276cec5e046a19d6d001acf41fc410052fba
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837460"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049287"
 ---
 # <a name="mobile-device-user-settings"></a>Gebruikersinstellingen mobiel apparaat
 
@@ -94,3 +94,8 @@ Volg deze stappen om merken en modellen van uw mobiele apparaten te maken en te 
 
     - **Apparaatmodel-id:** de apparaatmodel-id, zoals *Surface Book 2*.
     - **Beschrijving**: u kunt een beschrijving invoeren om model-id's van elkaar te kunnen onderscheiden.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+- [De mobiele app Magazijnbeheer installeren en verbinden](install-configure-warehouse-management-app.md)
+- [Stappictogrammen en -titels toewijzen voor de mobiele app Warehouse Management](step-icons-titles.md)

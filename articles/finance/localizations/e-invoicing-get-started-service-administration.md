@@ -2,7 +2,7 @@
 title: Aan de slag met servicebeheer voor Elektronische facturering
 description: In dit onderwerp wordt uitgelegd hoe u aan de slag gaat met Elektronische facturering.
 author: gionoder
-ms.date: 05/04/2021
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 7c4d69edd4a8f7c7acc2ac1bc22c1ba6eaba25ae
+ms.sourcegitcommit: 90a289962598394ad98209026013689322854b7b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980970"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6092401"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Aan de slag met servicebeheer voor Elektronische facturering
 
@@ -44,18 +44,14 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>De invoegtoepassing voor microservices in Lifecycle Services installeren
 
-1. Meld u aan bij uw LCS-account.
-2. Selecteer de tegel **Beheer van voorbeeldfuncties**.
-3. Selecteer **Elektronische facturering** in het gedeelte **Openbare voorbeeldfuncties**.
-4. Controleer of de optie **Voorbeeldfunctie ingeschakeld** op **Ja** is ingesteld.
-5. Selecteer een LCS-project op uw LCS-projectdashboard.
-6. Selecteer in het LCS-project op het LCS-omgevingsdashboard uw LCS-implementatieproject. Het LCS-implementatieproject moet worden uitgevoerd.
-7. Selecteer op het tabblad **Power Platform-integratie** in de veldgroep **Omgevingsinvoegtoepassingen** de optie **Een nieuwe invoegtoepassing installeren**.
-8. Selecteer **Elektronische facturering**.
-9. Voer in het veld **AAD-toepassings-id** **091c98b0-a1c9-4b02-b62c-7753395ccabe** in. Dit is een vaste waarde.
-10. Voer in het veld **AAD-tenant-id** de tenant-id van uw Azure-abonnementsaccount in.
-11. Neem de algemene voorwaarden door en schakel vervolgens het selectievakje in.
-12. Selecteer **Installeren**.
+1. Meld u aan bij uw LCS-account en selecteer op het LCS-projectdashboard een LCS-project.
+2. Selecteer in het project op het omgevingsdashboard uw LCS-implementatieproject. Het project dat u selecteert, moet worden uitgevoerd.
+3. Selecteer op het tabblad **Power Platform-integratie** in de veldgroep **Omgevingsinvoegtoepassingen** de optie **Een nieuwe invoegtoepassing installeren**.
+4. Selecteer **Elektronische facturering**.
+5. Voer in het veld **AAD-toepassings-id** **091c98b0-a1c9-4b02-b62c-7753395ccabe** in. Dit is een vaste waarde.
+6. Voer in het veld **AAD-tenant-id** de tenant-id van uw Azure-abonnementsaccount in.
+7. Neem de algemene voorwaarden door en schakel vervolgens het selectievakje in.
+8. Selecteer **Installeren**.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>De parameters voor RCS-integratie met Elektronisch facturering instellen

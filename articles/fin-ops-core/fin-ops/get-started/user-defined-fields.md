@@ -2,7 +2,7 @@
 title: Maken en werken met aangepaste velden
 description: In dit onderwerp wordt aangegeven hoe u in de gebruikersinterface aangepaste velden kunt maken om de toepassing aan te passen aan uw bedrijf.
 author: jasongre
-ms.date: 03/09/2020
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: a07c1a81f0436664acdfd23975a99c6670c6fb1c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1acbcbc49be6b764481e151d0fb3f12bf3cf5554
+ms.sourcegitcommit: 90a289962598394ad98209026013689322854b7b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754747"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6092343"
 ---
 # <a name="create-and-work-with-custom-fields"></a>Maken en werken met aangepaste velden
 
@@ -26,7 +26,7 @@ ms.locfileid: "5754747"
 
 Hoewel er een uitgebreide reeks kant-en-klare velden voor het beheren van een breed scala van bedrijfsprocessen is, is er soms behoefte in een bedrijf om aanvullende informatie bij te houden in het systeem. Hoewel programmeurs deze velden kunnen toevoegen als extensies in de hulpprogramma's voor ontwikkelaars, kunnen velden met aangepaste velden direct vanuit de gebruikersinterface worden toegevoegd, zodat u de toepassing via uw webbrowser kunt aanpassen aan uw bedrijf.
 
-De mogelijkheid om aangepaste velden toe te voegen, is beschikbaar in platformupdate 13 en hoger. Alleen gebruikers met speciale machtigingen hebben toegang tot deze functie.
+*Alleen gebruikers met speciale machtigingen hebben toegang tot deze functie.*
 
 In deze video wordt getoond hoe gemakkelijk het is een aangepast veld toe te voegen aan een pagina: [Aangepaste velden toevoegen](https://www.youtube.com/watch?v=gWSGZI9Vtnc).
 
@@ -46,8 +46,9 @@ De volgende stappen beschrijven het proces voor het maken van een aangepast veld
     Als u de knop **Nieuw veld maken** niet ziet, hebt u niet de benodigde machtigingen om deze functie te gebruiken.
 
 7. Voer in het dialoogvenster **Nieuw veld maken** de volgende informatie in.
-
+   
     1. Selecteer de databasetabel waar dit veld moet worden toegevoegd. Houd er rekening mee dat alleen de tabellen die ondersteuning bieden voor aangepaste velden, in de vervolgkeuzelijst worden weergegeven. Zie de sectie hieronder voor meer technische informatie over ondersteunde tabellen.
+
     2. Selecteer het gegevenstype voor het nieuwe veld De beschikbare gegevenstypen zijn selectievakje, datum, datum/tijd, decimaal, nummer, selectielijst en tekst.
 
         - Als u het tekstgegevenstype kiest, kunt u ook de maximale lengte van de tekst die kan worden ingevoerd in dit veld opgeven.
@@ -60,11 +61,15 @@ De volgende stappen beschrijven het proces voor het maken van een aangepast veld
 10. Klik op **Invoegen** voor het invoegen van de gemarkeerde velden in het geselecteerde gedeelte van het formulier.
 11. **Optioneel:** schakel de modus **Verplaatsen** op de aanpassingswerkbalk in om de nieuwe velden naar de gewenste locatie in het geselecteerde gebied te verplaatsen. Zie [De gebruikerservaring aanpassen](personalize-user-experience.md) voor meer informatie over het gebruik van de verschillende mogelijkheden voor aanpassing van een formulier aan uw persoonlijke gebruik.
 
+> [!WARNING]
+> De mogelijkheid om waarden in te voeren in een aangepast veld dat aan een pagina is toegevoegd, is afhankelijk van de vraag of de tabel die aan het aangepaste veld is gekoppeld, bewerkbaar of alleen-lezen is. Wanneer de gekoppelde tabel alleen-lezen is, worden alle aan deze tabel gekoppelde velden, inclusief aangepaste velden, ook alleen-lezen.
+
+
 ## <a name="sharing-custom-fields-with-other-users"></a>Aangepaste velden delen met andere gebruikers
 
-Nadat u een aangepast veld hebt gemaakt en het op een formulier wordt weergegeven, wilt u wellicht deze bijgewerkte paginaweergave met het nieuwe veld aan andere gebruikers in het systeem bieden. Dit kunt doen op twee verschillende manieren met de aanpassingsmogelijkheden van het product:
+Nadat u een aangepast veld hebt gemaakt en het op een pagina wordt weergegeven, wilt u wellicht deze bijgewerkte paginaweergave met het nieuwe veld aan andere gebruikers in het systeem bieden. Dit kunt doen op twee verschillende manieren met de aanpassingsmogelijkheden van het product:
 
-- De aanbevolen route is via de systeembeheerder, die een aanpassing aan alle gebruikers of een subset van gebruikers kan doorgeven. Zie [De gebruikerservaring aanpassen](personalize-user-experience.md) voor meer informatie.
+- De aanbevolen route is het **publiceren van een [opgeslagen weergave](saved-views.md)** met het aangepaste veld dat aan de pagina is toegevoegd aan de juiste set gebruikers. Als de functie voor opgeslagen weergaven niet is ingeschakeld, kan de systeembeheerder de personalisatie vanuit het formulier Personalisatie toepassen op de gewenste gebruikers. Zie [De gebruikerservaring aanpassen](personalize-user-experience.md) voor meer informatie.
 - U kunt ook uw wijzigingen (*aanpassingen* genoemd) exporteren, Stuur ze naar een of meer gebruikers en laat elk van deze gebruikers uw wijzigingen importeren. Met de optie **Beheren** op de aanpassingswerkbalk kunt u persoonlijke instellingen importeren en exporteren.
 
 ## <a name="managing-custom-fields"></a>Aangepaste velden beheren
@@ -134,6 +139,10 @@ In sommige zeldzame gevallen kunt u bepalen dat een aangepast veld niet meer nod
 > Deze actie kan niet ongedaan worden gemaakt en leidt ertoe dat de gegevens die zijn gekoppeld aan het veld, permanent worden verwijderd uit de database.
 
 ## <a name="appendix"></a>Bijlage
+
+### <a name="why-cant-i-enter-a-value-in-my-custom-field"></a>Waarom kan ik geen waarde invoeren in mijn aangepaste veld? 
+
+Als u geen waarde in het aangepaste veld kunt typen wanneer de pagina in de modus Bewerken wordt weergegeven, is dit mogelijk omdat de tabel waar het veld aan is toegevoegd momenteel alleen-lezen is. Alle velden in een tabel worden alleen-lezen als de archieftabel momenteel is geconfigureerd als alleen-lezen op de pagina.   
 
 ### <a name="who-can-create-custom-fields"></a>Wie kan aangepaste velden maken?
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 58cdfcf67ab774bbc119f2507920f1fb1d7a562c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 51b734e6a94ffdfabb218a19986f1bec65b839e7
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824769"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102801"
 ---
 # <a name="trade-allowance-management"></a>Beheer van handelstoeslag
 
@@ -171,7 +171,7 @@ Als u een merchandisinggebeurtenis van het type **Forfaitair bedrag** goedkeurt,
 
 ## <a name="settle-the-deduction-that-is-due-and-the-customer-short-pay-by-using-the-deduction-workbench"></a>De inhouding die moet worden betaald en de korte betaling van de klant vereffenen met de inhoudingsworkbench
 
-Vaak kiezen klanten, in afwachting van terugbetalingen, voor korte betalingen van geselecteerde facturen. Als u betalingsafstemmingsproblemen in de toekomst wilt voorkomen, registreert de medewerker Klanten deze korte betalingen als inhoudingen wanneer hij of zij de werkelijke klantbetalingen vastlegt. Vervolgens kunnen in de workbench voor inhoudingen deze klantinhoudingen eenvoudig worden vereffend met de vorderingsbedragen die invorderbaar zijn van het bedrijf.
+Vaak kiezen klanten, in afwachting van terugbetalingen, voor korte betalingen van geselecteerde facturen. Om betalingsafstemmingsproblemen in de toekomst te voorkomen, registreren de medewerkers Klanten deze korte betalingen als inhoudingen wanneer ze de werkelijke klantbetalingen vastleggen. Vervolgens kunnen in de workbench voor inhoudingen deze klantinhoudingen eenvoudig worden vereffend met de vorderingsbedragen die invorderbaar zijn van het bedrijf.
 
 Selecteer voor het registreren van een korte betaling van een klant in het betalingsjournaal **Klanten** \> **Betalingen** \> **Betalingsjournaal** en maak een nieuw betalingsjournaal. Selecteer vervolgens in het actievenster **Inhoudingen**. Op de pagina **Inhouding** kunt u het bedrag van de korte betaling maken en bijhouden.
 

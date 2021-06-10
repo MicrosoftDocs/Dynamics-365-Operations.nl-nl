@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 13b81459fe3449a90839dac7637118f09afe2e55
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ed90e773e1b8c90afc119a471cf844941ad19226
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910228"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103041"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Flexibel reseveringsbeleid voor dimensies op magazijnniveau
 
@@ -176,7 +176,7 @@ Voor dit voorbeeld moeten demogegevens worden geïnstalleerd en moet u het **USM
 
     - Nadat werk is gemaakt, wordt de voorraadtransactie van het artikel waarvan het veld **Referentie** is ingesteld op **Order-toegezegde reservering**, verwijderd. De voorraadtransactie waarbij het veld **Verwijzing** is ingesteld op **Werk**, bevat nu de fysieke reservering van alle voorraaddimensies van de hoeveelheid.
 
-        Magazijnbewerkingen kunnen op de gebruikelijke manier doorgaan met het verwerken van de uitvoering van het werk. De instructies op het mobiele apparaat geven de werknemer echter opdracht om een specifiek batchnummer te picken. In magazijnomgevingen waarin locaties door nummerplaten worden beheerd, kan een werknemer nadat deze een locatie heeft bereikt waar dezelfde batch op meerdere nummerplaten is opgeslagen, een nummerplaat kiezen die nog niet is gereserveerd (bijvoorbeeld door een andere order-toegezegde reservering of werk dat afkomstig is van een reservering van dat type).
+        Magazijnbewerkingen kunnen op de gebruikelijke manier doorgaan met het verwerken van de uitvoering van het werk. De instructies op het mobiele apparaat geven de werknemer echter opdracht om een specifiek batchnummer te picken. In magazijnomgevingen waarin locaties door nummerplaten worden beheerd, kan een werknemer nadat deze een locatie heeft bereikt waar dezelfde batch op meerdere nummerplaten is opgeslagen, een nummerplaat kiezen die nog niet is gereserveerd (bijvoorbeeld door een andere order toegezegde reservering of werk dat afkomstig is van een reservering van dat type).
 
         Als het niet praktisch is om te picken vanuit de locatie die op de werkregel is opgegeven, kunnen de magazijnoperators een van de volgende acties gebruiken om het picken van de specifieke batch via een handigere locatie om te leiden:
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: afffdfba965806d18b148c77774a31bbb3c0c46c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7628f2fc3d3a7e5bb1175edf59f856bc40f9b987
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831765"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102825"
 ---
 # <a name="flex-groups"></a>Flexgroepen
 
@@ -103,7 +103,7 @@ De werknemer wordt gekoppeld aan een flexgroep met de volgende configuratie:
 - **Minimumloontype:** 1302
 - **Factor salaristype:** -1,0
 
-Zoals het verschil tussen de flexrekening van de werknemer en het toegestane flexmaximum aangeeft, heeft de werknemer het toegestane flexmaximum met 4,0 uur overschreden.
+Zoals het verschil tussen de flexrekening van werknemers en het toegestane flexmaximum aangeeft, hebben werknemers het toegestane flexmaximum met 4,0 uur overschreden.
 
 Wanneer de salarisadministratie de salarisgegevens van de medewerker overboekt met de taak **Overboeken naar salarisadministratie** of **Correctie flex**, worden de volgende correcties aangebracht:
 

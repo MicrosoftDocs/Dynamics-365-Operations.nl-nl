@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: af67d320f14fc6c3d28eec47de402ba645eea06d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 147388d5052bd14851bbddfbb7fe25297a43f104
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836777"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102969"
 ---
 # <a name="create-maintenance-requests"></a>Onderhoudsverzoeken maken
 
@@ -30,7 +30,7 @@ ms.locfileid: "5836777"
 
 Onderhoudsverzoeken kunnen worden gebruikt als onderhoudsmedewerkers of productiemedewerkers ontdekken dat apparatuur moet worden gerepareerd, maar de reparatie niet meteen kan worden uitgevoerd.
 
-**Voorbeeld:** terwijl een onderhoudsmedewerker een reparatie doet, ontdekt ze dat een ander activum op dezelfde locatie moet worden onderhouden. De onderhoudsmedewerker heeft echter niet de tijd of de vereiste reserveonderdelen om de reparatietaak uit te voeren. Daarom maakt ze een onderhoudsverzoek voor het activum en voert ze een korte beschrijving van het probleem in.
+**Voorbeeld:** terwijl onderhoudsmedewerkers een reparatie doen, ontdekken ze dat een ander activum op dezelfde locatie moet worden onderhouden. De onderhoudsmedewerker heeft echter niet de tijd of de vereiste reserveonderdelen om de reparatietaak uit te voeren. Daarom maken ze een onderhoudsverzoek voor het activum en voeren ze een korte beschrijving van het probleem in.
 
 De sectie **Actieve onderhoudsverzoeken** van het deelvenster **Verwante informatie** aan de rechterkant van de pagina **Alle activa** of **Actieve activa** (**Activabeheer** \> **Algemeen** \> **Activa** \> **Alle activa** of **Actieve activa**) bevat de actieve onderhoudsverzoeken die aan het geselecteerde activum gekoppeld zijn.
 

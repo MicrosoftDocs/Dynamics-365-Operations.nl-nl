@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c511558735e89db32e88f6efdd2d0cc88a04b61c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 39786323e1ea11a960332e6e0a01f6ef8de1838d
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814821"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102993"
 ---
 # <a name="pay-based-on-registrations"></a>Salaris op basis van registraties
 
@@ -39,7 +39,7 @@ In dit onderwerp wordt gedetailleerd uitgelegd hoe salaris wordt berekend op bas
 
 ## <a name="the-use-of-flex-time"></a>Het gebruik van flextijd
 
-Perioden van flextijd worden ingesteld in de tijdprofielen die worden gebruikt in Tijd en aanwezigheid. Er zijn twee flexprofielen: **Flextijd+** en **Flextijd-**. Wanneer een medewerker tijd in een flextijd+-periode registreert, wordt het flexsaldo van de medewerker verhoogd met de uren die zijn gewerkt. De medewerker ontvangt geen compensatie voor de uren die tijdens de flextijd+-periode zijn gewerkt. De medewerker kan echter wel tijd opnemen tijdens de perioden die als flextijd- zijn aangemerkt en deze tijd compenseren met de uren uit zijn of haar flexsaldo. Verlof tijdens de flexperioden wordt dus door het systeem beschouwd als een verzuim.
+Perioden van flextijd worden ingesteld in de tijdprofielen die worden gebruikt in Tijd en aanwezigheid. Er zijn twee flexprofielen: **Flextijd+** en **Flextijd-**. Wanneer een medewerker tijd in een flextijd+-periode registreert, wordt het flexsaldo van de medewerker verhoogd met de uren die zijn gewerkt. De medewerker ontvangt geen compensatie voor de uren die tijdens de flextijd+-periode zijn gewerkt. Medewerkers kunnen echter wel tijd opnemen tijdens de perioden die als flextijd- zijn aangemerkt en deze tijd compenseren met de uren uit hun flexsaldo. Verlof tijdens de flexperioden wordt dus door het systeem beschouwd als een verzuim.
 
 ## <a name="scenarios-based-on-flex-periods"></a>Scenario's op basis van flexperioden
 
@@ -77,7 +77,7 @@ Bekijk de volgende velden om meer inzicht te krijgen in dit scenario.
 
 #### <a name="calculation-of-flex"></a>Berekening van flextijd+
 
-Volgens het flexprofiel is de tijd tussen 06:00 en 07:00 uur een flextijd+-periode. Dus als de medewerker om 06:30 uur inklokt, verdient hij 0,5 uur. Deze tijd wordt toegevoegd aan de flexaccount van de medewerker.
+Volgens het flexprofiel is de tijd tussen 06:00 en 07:00 uur een flextijd+-periode. Dus als medewerkers om 06:30 uur inklokken, verdienen ze 0,5 uur. Deze tijd wordt toegevoegd aan de flexaccount van de medewerker.
 
 #### <a name="calculation-of-flex-"></a>Berekening van flextijd-
 
@@ -89,7 +89,7 @@ Tijd wordt berekend als de tijd tussen het inklokken en het uitklokken, dat wil 
 
 #### <a name="calculation-of-pay-time"></a>Berekening van betaalde tijd
 
-Betaalde tijd is de tijd die een medewerker uitbetaald krijgt. In dit scenario is de medewerker 8,25 uur aan het werk (**tijd**). De **betaalde tijd** wordt echter als 8,50 uur berekend, omdat de medewerker betaald krijgt voor de flex--periode na het uitklokken. De betaalde tijd is gelijk aan de geplande werkuren omdat flextijd+ wordt toegevoegd aan de flexaccount, niet de betaalde tijd. De verzuimtijd in de flex--periode wordt gecompenseerd door de betaalde tijd en afgetrokken van de flexaccount van de medewerker.
+Betaalde tijd is de tijd die een medewerker uitbetaald krijgt. In dit scenario is de medewerker 8,25 uur aan het werk (**tijd**). De **betaalde tijd** wordt echter als 8,50 uur berekend, omdat medewerkers betaald krijgen voor de periode Flextijd- na het uitklokken. De betaalde tijd is gelijk aan de geplande werkuren omdat flextijd+ wordt toegevoegd aan de flexaccount van medewerkers, niet de betaalde tijd. De verzuimtijd in de flex--periode wordt gecompenseerd door de betaalde tijd en afgetrokken van de flexaccount van de medewerker.
 
 | Tijd              | Registratietype | Betaalde tijd (uren)      |
 |-------------------|-------------------|-----------------------|
@@ -116,11 +116,11 @@ Nadat u de journaalregistraties hebt berekend op de pagina **Goedkeuren**, kunt 
 
 #### <a name="calculation-of-flex"></a>Berekening van flextijd+
 
-Volgens het flexprofiel is de tijd tussen 06:00 en 07:00 uur een flextijd+-periode. Dus als de medewerker om 06:30 uur inklokt, verdient zij 0,5 uur flextijd+ voor haar flexsaldo.
+Volgens het flexprofiel is de tijd tussen 06:00 en 07:00 uur een flextijd+-periode. Dus als medewerkers om 06:30 uur inklokken, verdienen ze 0,5 uur flextijd+ voor hun flexsaldo.
 
 #### <a name="calculation-of-flex-"></a>Berekening van flextijd-
 
-Omdat de medewerker werkt tijdens de flextijd--periode, wordt er geen flextijd- berekend. Er wordt alleen flextijd- berekend als de medewerker afwezig is tijdens de flextijd--periode. Als de medewerker tijdens de flextijd--periode werkt, krijgt zij hiervoor het loontarief dat is gedefinieerd voor standaardtijd. Als de medewerker afwezig is tijdens de flextijd-periode, worden de 45 minuten afgetrokken van haar flexaccount.
+Omdat de medewerker werkt tijdens de flextijd--periode, wordt er geen flextijd- berekend. Er wordt alleen flextijd- berekend als de medewerker afwezig is tijdens de flextijd--periode. Als medewerkers tijdens de periode Flextijd- werkt, krijgen ze hiervoor het loontarief dat is gedefinieerd voor standaardtijd. Als medewerkers afwezig zijn tijdens de periode Flextijd-, worden de 45 minuten afgetrokken van hun flexaccount.
 
 #### <a name="calculation-of-time"></a>Berekening van tijd
 
@@ -168,9 +168,9 @@ Als u het systeem zo wilt configureren dat er duidelijk onderscheid wordt gemaak
 
 Selecteer op de pagina **Berekeningsparameters** de optie **Overtijd** als het type profielspecificatie en stel **Betaalde tijd** in op **Nee**, zoals hier wordt weergegeven.
 
-| Specificatie reg. | Type profielspecificatie | Berekening   |     | Betaald         |     |
+| Specificatie reg. | Type profielspecificatie | Berekening   | Instelling | Betaald         | Instelling |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Werktijd       | Overtijd                   | Standaardtijd | Ja | Betaalde tijd     | Nee  |
+| Werktijd       | Overuren                   | Standaardtijd | Ja | Betaalde tijd     | No  |
 |                    |                            | Betaalde tijd      | Ja | Betaalde overtijd | Ja |
 
 Als u de parameters voor berekening hebt aangepast, worden de volgende salarisposten gegenereerd.
@@ -468,9 +468,9 @@ In de volgende scenario's worden de salarisposten en -items voor goedkeuring wee
 
 De medewerker klokt in om 08:30 uur. Omdat zijn geplande inkloktijd 07:00 uur is, is hij 1,50 uur te laat op zijn werk. Omdat deze 1,50 uur wordt beschouwd als verzuimtijd, wordt de medewerker gevraagd een verzuimcode te selecteren. De medewerker verlaat zijn werk om 15:30 uur, de geplande uitkloktijd. Wanneer de registraties van de medewerker zijn berekend en goedgekeurd, wordt naast de verzuimregistratie ook de verzuimcode die de medewerker die bij het inklokken heeft geselecteerd, weergegeven voor de tijd tussen 07:00 en 08:30 uur.
 
-In het tijdprofiel kunt u het registratietype **Inklokken** zo configureren dat er een tolerantie is wanneer medewerkers te laat op hun werk komen. Als u een tolerantie van 5 instelt, wordt de medewerker bijvoorbeeld alleen gevraagd om een verzuimcode als hij later dan 07:05 uur inklokt.
+In het tijdprofiel kunt u het registratietype **Inklokken** zo configureren dat er een tolerantie is wanneer medewerkers te laat op hun werk komen. Als u een tolerantie van 5 instelt, wordt medewerkers bijvoorbeeld alleen gevraagd om een verzuimcode als ze later dan 07:05 uur inklokken.
 
-In dit geval selecteert de medewerker een verzuimcode die is gedefinieerd voor ongeldig verzuim omdat hij geen goede reden heeft voor zijn verzuim. Een verzuimcode wordt beschouwd als van toepassing op ongeldig verzuim als de instelling voor aftrek van overwerk is ingeschakeld voor de verzuimgroep waartoe de verzuimcode behoort. Selecteer **Tijd en aanwezigheid** &gt; **Instellingen** &gt; **Groepen** &gt; **Verzuimgroepen** en schakel het selectievakje **Overtijd verminderen** in.
+In dit geval selecteren medewerkers een verzuimcode die is gedefinieerd voor ongeldig verzuim omdat ze geen goede reden hebben voor hun verzuim. Een verzuimcode wordt beschouwd als van toepassing op ongeldig verzuim als de instelling voor aftrek van overwerk is ingeschakeld voor de verzuimgroep waartoe de verzuimcode behoort. Selecteer **Tijd en aanwezigheid** &gt; **Instellingen** &gt; **Groepen** &gt; **Verzuimgroepen** en schakel het selectievakje **Overtijd verminderen** in.
 
 De registraties van de medewerker voor de dag worden na berekening weergegeven op de pagina **Goedkeuren**.
 
@@ -548,7 +548,7 @@ Als het selectievakje **Overtijd verminderen** is ingeschakeld voor de geselecte
 
 Hier wordt de 1,5 uur aan ongeldig verzuim, tussen 07:00 en 09:30 uur, afgetrokken van de 2,0 uur aan overwerk, van 15:30 tot 17:30 uur. Het resultaat van de registratie is 1,5 uur standaardtijd en 0,5 uur overtijd.
 
-Als het selectievakje **Overtijd verminderen** is uitgeschakeld voor de geselecteerde verzuimcode, wordt de overtijd betaald aan de medewerker, ook al was hij te laat en betrof het een ongeldig verzuim. In dat geval worden de volgende salarisposten ggenereerd nadat de registraties zijn overgeboekt.
+Als het selectievakje **Overtijd verminderen** is uitgeschakeld voor de geselecteerde verzuimcode, wordt de overtijd betaald aan de medewerker, ook al was deze te laat en betrof het een ongeldig verzuim. In dat geval worden de volgende salarisposten ggenereerd nadat de registraties zijn overgeboekt.
 
 | Salaristype     | Salaristype | Salariseenheden | Tarief |
 |---------------|----------|-----------|------|
@@ -559,7 +559,7 @@ Als het selectievakje **Overtijd verminderen** is uitgeschakeld voor de geselect
 
 In het volgende voorbeeld ziet u hoe een flexsaldo van een medewerker kan worden verlaagd door de absentieperiode om te zetten in een flex--periode.
 
-De medewerker klokt in om 07:00 uur en klokt uit om 13:00 uur. Zij heeft met haar supervisor afgesproken dat ze voor het weekend naar huis kan als ze deze uren aftrekt van haar flexaccount. Wanneer de medewerker uitklokt om 13:00 uur, wordt ze gevraagd een verzuimcode te selecteren omdat de verzuimperiode voor het resterende deel van de betreffende werkdag geen geplande flex--periode is. Om het resterende deel van de werkdag om te zetten in een flex--periode, kan de medewerker een verzuimcode selecteren die zo is ingesteld dat het verzuim van de flexaccount wordt afgetrokken.
+De medewerker klokt in om 07:00 uur en klokt uit om 13:00 uur. Medewerkers hebben een overeenkomst dat ze naar huis kunnen gaan voor het weekend als ze deze uren aftrekken van hun flexaccount. Wanneer de medewerker uitklokt om 13:00 uur, wordt hem/haar gevraagd een verzuimcode te selecteren omdat de verzuimperiode voor het resterende deel van de betreffende werkdag geen geplande flex--periode is. Om het resterende deel van de werkdag om te zetten in een flex--periode, kan de medewerker een verzuimcode selecteren die zo is ingesteld dat het verzuim van de flexaccount wordt afgetrokken.
 
 Als u het saldo van flexibele uren wilt verminderen voor medewerkers die verzuim registreren op een werkdag, selecteert u **Tijd en afwezigheid** &gt; **Instellingen** &gt; **Groepen** &gt; **Verzuimgroepen** en schakelt u het selectievakje **Flextijd verminderen** in.
 

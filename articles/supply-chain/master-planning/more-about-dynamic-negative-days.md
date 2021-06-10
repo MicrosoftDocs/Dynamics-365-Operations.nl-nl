@@ -1,27 +1,21 @@
 ---
 title: Negatieve dagen en dynamische negatieve dagen
 description: In dit onderwerp vindt u informatie over negatieve dagen en dynamische negatieve dagen en hoe u deze kunt gebruiken om uw bedrijf te helpen.
-author: t-benebo
-ms.date: 06/06/2019
+author: ChristianRytt
+ms.date: 05/25/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 72704
-ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
-ms.search.region: global
-ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.search.region: Global
+ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7440a6a0b9093664a0d717b3bfa011ee3100639f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907736"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097229"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatieve dagen en dynamische negatieve dagen
 
@@ -45,7 +39,7 @@ U kunt al relatief vroeg in de levertijd van uw artikel of vlak voor het begin v
 - Het artikel Demoproduct heeft een inkooplevertijd van zes dagen.
 - Op dag nul (1 januari) is het voorraadniveau voor het artikel Demoproduct 0 (nul).
 - Op dag nul (1 januari) krijgt u een verkooporder voor een hoeveelheid van 10 voor het artikel Demoproduct.
-- Op dag 7 (7 januari) is er een bestaande inkooporder voor een hoeveelheid van 10 van het artikel Demoproduct.
+- Op dag 7 (8 januari) is er een bestaande inkooporder voor een hoeveelheid van 10 van het artikel Demoproduct.
 
 De volgende afbeelding toont een grafische weergave van dit scenario.
 
@@ -112,7 +106,7 @@ U krijgt mogelijk vraag tijdens de levertijd van uw artikel. Hier volgt een voor
 
 De volgende afbeelding toont een grafische weergave van dit scenario.
 
-![Grafische weergave van scenario 1](./media/negative-days-8.png)
+![Grafische weergave van scenario 2](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Geval A: Minder negatieve dagen dan de levertijd van het artikel
 
@@ -157,7 +151,7 @@ U kunt vraag krijgen na de levertijd van het artikel. Hier volgt een voorbeeld v
 - Het artikel Demoproduct heeft een inkooplevertijd van zes dagen.
 - Op dag nul (1 januari) is de voorraad voor het artikel Demoproduct 0 (nul).
 - Op dag zeven (8 januari), buiten de levertijd van het artikel, krijgt u een verkooporder voor een hoeveelheid van 10 van het artikel Demoproduct.
-- Op dag 10 (11 januari) is er een inkooporder voor een hoeveelheid van 10 van het artikel Demoproduct.
+- Op dag tien (11 januari) is er een inkooporder voor een hoeveelheid van 10 van het artikel Demoproduct.
 
 De volgende afbeelding toont een grafische weergave van dit scenario.
 
@@ -219,8 +213,8 @@ U kunt voor de negatieve dagen een lange time fence instellen en vervolgens werk
 - Het artikel Demoproduct heeft een inkooplevertijd van zes dagen.
 - Op dag nul (1 januari) is de voorraad voor het artikel Demoproduct 0 (nul).
 - Op dag nul (1 januari) krijgt u een verkooporder voor een hoeveelheid van 10 voor het artikel Demoproduct.
-- Op dag 10 (10 januari) krijgt u een verkooporder voor een hoeveelheid van 10 voor het artikel Demoproduct.
-- Op dag 12 (12 januari) is er een inkooporder voor een hoeveelheid van 10 van het artikel Demoproduct.
+- Op dag negen (10 januari) krijgt u een verkooporder voor een hoeveelheid van 10 voor het artikel Demoproduct.
+- Op dag elf (12 januari) is er een inkooporder voor een hoeveelheid van 10 van het artikel Demoproduct.
 - Negatieve dagen worden ingesteld op **20**, wat veel meer is dan de levertijd van het artikel.
 
 De volgende afbeelding toont een grafische weergave van wat er gebeurt.
@@ -229,7 +223,7 @@ De volgende afbeelding toont een grafische weergave van wat er gebeurt.
 
 MRP produceert de volgende resultaten.
 
-![Resultaten](./media/negative-days-20.png)
+![Resultatenvoorbeeld 1](./media/negative-days-20.png)
 
 In de voorgaande schermafbeelding is de behoeftedatum van de verkooporder 9 januari in plaats van 10 januari. Omdat deze schermopname is gemaakt in 2015, toen 10 januari op een zaterdag viel, moet de behoeftedatum van de order naar de vorige werkdag, vrijdag 9 januari, worden verplaatst.
 
@@ -239,7 +233,7 @@ De resultaten zijn niet onjuist, maar de uitvoeringstijd voor MRP kan langer zij
 
 Als u de negatieve dagen verlaagt tot een getal dat dichter bij de levertijd van het artikel ligt en u dynamische negatieve dagen gebruikt, produceert MRP de volgende resultaten.
 
-![Resultaten](./media/negative-days-21.png)
+![Resultatenvoorbeeld 2](./media/negative-days-21.png)
 
 Er wordt een geplande order gemaakt die aan de eerste verkooporder is gekoppeld. Vervolgens wordt, zoals verwacht, de behoefte van de tweede verkooporder getraceerd voor de bestaande inkooporder, op basis van de instelling voor negatieve dagen. Dit planningsresultaat is ook correct en de uitvoeringstijd voor MRP is mogelijk korter. In dit geval is het niet van essentieel belang dat u begrijpt en weet hoe u met de actieberichten werkt.
 

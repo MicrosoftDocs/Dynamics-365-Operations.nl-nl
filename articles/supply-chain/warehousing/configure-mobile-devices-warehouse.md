@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 657dd864885bc7c8216aab95a73f389f21f7cccd
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808793"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102921"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Mobiele apparaten instellen voor magazijnwerk
 
@@ -41,6 +41,7 @@ Als u een menuopdracht voor een activiteit of query wilt maken, stelt u het veld
 > Er kunnen aanvullende velden voor menuopdrachten beschikbaar zijn. Dit hangt af van de modus die u selecteert voor de menuopdracht en of de menuopdracht wordt gebruikt om bestaand werk uit te voeren. Zie voor informatie over de aanvullende veldselecties de sectie "Extra opties voor menuopties" verderop in dit onderwerp.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Menuopties configureren voor activiteiten en query's
+
 Als het veld **Modus** voor een menuoptie is ingesteld op **Indirect**, kunt u een menuoptie maken om een algemene activiteit of query uit te voeren die geen werk maakt. Voorbeelden zijn onder andere het opnieuw afdrukken van nummerplaatlabels en een query over de artikelen op een locatie. De volgende tabel bevat een lijst met beschikbare opties.
 
 | Optie | Beschrijving |
@@ -58,16 +59,15 @@ Als het veld **Modus** voor een menuoptie is ingesteld op **Indirect**, kunt u e
 | Nummerplaat-build | Maak een bovenliggende nummerplaat door meerdere nummerplaten in dezelfde locatie te combineren. Deze optie is handig als u meerdere nummerplaten tegelijk verplaatst. Nadat de bovenliggende nummerplaat wordt verplaatst, moet u een nummerplaatpauze uitvoeren voordat u artikelen van elke nummerplaat kunt verzamelen. <p></p>**Tip:** Om een bovenliggende nummerplaat te verplaatsen, moet u een mobiel apparaat gebruiken dat wordt geconfigureerd om werk voor verplaatsingen te maken. |
 | Nummerplaat onderbreken | Een nummerplaat maken zodat u de artikelen van nummerplaten kunt verzamelen die in de build zijn. |
 | Inchecken chauffeur | Als u Transportbeheer gebruikt, registreert u de aankomst van een chauffeur door de uitgaande laad-id, afspraak-id of zendings-id te scannen. Voor deze optie moet er een lading worden toegewezen aan de afspraak en moet de status van de lading **Geladen** zijn. |
-| Uitchecken chauffeur | Registeer dat een chauffeur zijn of haar afspraak heeft voltooid. |
+| Uitchecken chauffeur | Registeer dat chauffeurs hun afspraak hebben voltooid. |
 | De cache van de nummerreeks legen | Verwijderen nummerreeksnummers van de nummerreekscache. Deze activiteit wordt gewoonlijk uitgevoerd door een systeembeheerder om cachingsproblemen op te lossen bij gebruik van mobiele apparaten. |
 | Batchbeschikking wijzigen | Sta een werknemer toe om een batchbeschikkingscode voor een artikel en een batch op te geven. Deze selectie werkt de beschikkingscode bij die voor de batch is opgegeven. |
 | Geopende werklijst weergeven | Geef een lijst met beschikbaar werk weer aan een specifieke gebruiker. De gebruiker kan vervolgens uit te voeren werk selecteren en wordt hier naartoe geleid. Deze lijst is bedoeld voor weergave op tabletapparaten met een schermgrootte van 7 inch of meer. Wanneer u deze optie selecteert, komen de menuopties **Query bewerken** en **Veldenlijst** beschikbaar. Op de pagina **Query bewerken** kunt u criteria instellen voor het werk dat in de lijst wordt weergegeven. Op de pagina **Veldenlijst** kunt u selecteren welke velden in de werklijst worden weergegeven. Zo kunt u bijvoorbeeld het aantal velden beperken dat wordt weergegeven zodat de gebruiker sneller het meest passende werkitem kan selecteren. Op het sneltabblad **Algemeen** in het veld **Records per pagina** kunt u tevens selecteren hoeveel werkrecords per pagina worden weergegeven. Als de optie **Toestaan dat gebruikers kunnen filteren op type werktransactie** is geselecteerd, bevat de werklijst een besturingselement **Werk filteren** waarmee de gebruiker kan filteren op transactietype. In de werklijst krijgen gebruikers alleen werk te zien waarvoor zij toegangsmachtiging hebben. U moet ervoor zorgen dat gebruikers machtiging voor een of meer gebruikergeleide menuopties hebben die de specifieke werkklassetypen ondersteunen waartoe zij toegang moeten hebben. De machtigingen worden geverifieerd wanneer de gebruiker probeert om werk van de lijst uit te voeren.|
 | overboekingsorder maken op basis van nummerplaten | Hiermee kunnen magazijnmedewerkers transferorders rechtstreeks vanuit de mobiele app Magazijnbeheer maken en verwerken. De magazijnmedewerkers beginnen met het selecteren van het doelmagazijn en vervolgens kunnen ze met de app een of meer nummerplaten scannen. Wanneer de magazijnmedewerker **Order voltooien** selecteert, worden met een batchtaak de vereiste overboekingsorder en orderregels gemaakt op basis van de voorhanden voorraad die voor deze nummerplaten is geregistreerd. Zie [Overboekingsorders maken vanuit de app voor magazijnbeheer](create-transfer-order-from-warehouse-app.md) voor meer informatie
 
-
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Menuopties configureren om het werk voor een andere werknemer of proces te maken
-U kunt een menuoptie instellen die het werk voor een andere werknemer zal maken nadat een eerste actie is uitgevoerd op het mobiele apparaat. Wanneer bijvoorbeeld de ene werknemer een mobiel apparaat gebruikt om een artikel te ontvangen, wordt weggezet werk gemaakt voor een andere werknemer. Als u een menuoptie wilt instellen dat werk maakt, gaat u naar de pagina **Menuopties voor mobiel apparaat** en selecteert u **Werk** in het veld **Modus**. In de volgende tabel, worden de opties in het veld **Proces van werkaanmaak** geordend op type werkorder.
 
+U kunt een menuoptie instellen die het werk voor een andere werknemer zal maken nadat een eerste actie is uitgevoerd op het mobiele apparaat. Wanneer bijvoorbeeld de ene werknemer een mobiel apparaat gebruikt om een artikel te ontvangen, wordt weggezet werk gemaakt voor een andere werknemer. Als u een menuoptie wilt instellen dat werk maakt, gaat u naar de pagina **Menuopties voor mobiel apparaat** en selecteert u **Werk** in het veld **Modus**. In de volgende tabel, worden de opties in het veld **Proces van werkaanmaak** geordend op type werkorder.
 
 <table>
 <tbody>
@@ -232,7 +232,7 @@ Naast het instellen van menuopties om magazijnwerk te maken, kunt u menuopties i
 </tr>
 <tr class="even">
 <td>Gebruikergroepering</td>
-<td>De werknemer groepeert handmatig het werk. Deze optie is bijvoorbeeld handig als een werknemer meerdere artikelen op een locatie tegelijk kan verzamelen. Wanneer de werknemer klaar is met het verzamelen van alle vereiste artikelen, kan hij of zij de artikelen wegzetten.</td>
+<td>De werknemer groepeert handmatig het werk. Deze optie is bijvoorbeeld handig als een werknemer meerdere artikelen op een locatie tegelijk kan verzamelen. Wanneer werknemers klaar zijn met het verzamelen van alle vereiste artikelen, kunnen zij de artikelen wegzetten.</td>
 </tr>
 <tr class="odd">
 <td>Systeemgroepering</td>
@@ -249,7 +249,7 @@ Naast het instellen van menuopties om magazijnwerk te maken, kunt u menuopties i
 <li><strong>Gevalideerd door gebruiker bestuurd veld</strong> – Selecteer het veld dat de werknemer scant om het werk te groeperen.</li>
 <li><strong>Gevalideerd door gebruikersbestuurd etiket</strong> – Voer de tekst in die de werknemer instrueert over wat te scannen wanneer de orderverzameling van het werk door het systeem is gegroepeerd.</li>
 </ul>
-Deze optie is bijvoorbeeld handig wanneer meerdere pallets voor een lading worden klaargezet. Als u het veld <strong>LoadId</strong> selecteert in het veld <strong>Gevalideerd door gebruiker bestuurd veld</strong>, kan de werknemer elke pallet selecteren die aan de lading is gekoppeld. De medewerker ontvangt een foutmelding als hij of zij een artikel scant dat niet aan de lading is gekoppeld.</td>
+Deze optie is bijvoorbeeld handig wanneer meerdere pallets voor een lading worden klaargezet. Als u het veld <strong>LoadId</strong> selecteert in het veld <strong>Gevalideerd door gebruiker bestuurd veld</strong>, kan de werknemer elke pallet selecteren die aan de lading is gekoppeld. De medewerkers ontvangen een foutmelding als zij een artikel scannen dat niet aan de lading is gekoppeld.</td>
 </tr>
 <tr class="odd">
 <td>Orderverzamelen van cluster</td>
@@ -368,7 +368,7 @@ Deze opties worden in de onderstaande tabel beschreven.
 <td>Geef aan of de werknemer de oudste batch in een locatie eerst moet verzamelen. De volgende opties zijn beschikbaar:
 <ul>
 <li><strong>Geen</strong> – De werknemer kan elke batch in de locatie selecteren. De werknemer ontvangt geen bericht.</li>
-<li><strong>Waarschuwing</strong>: de medewerker kan elke batch in de locatie verzamelen, maar hij of zij ontvangt een waarschuwingsbericht als een batch niet de oudste batch is.</li>
+<li><strong>Waarschuwing</strong>: medewerkers kunnen elke batch in de locatie verzamelen, maar zij ontvangen een waarschuwingsbericht als een batch niet de oudste batch is.</li>
 <li><strong>Forceren</strong> – De werknemer moet de oudste batch in de locatie verzamelen. De medewerker ontvangt een foutbericht als een batch niet de oudste batch is. <strong>Opmerking:</strong> Deze optie is alleen relevant als <strong>Batchnummer</strong> lager is dan <strong>Locatie</strong> in de reserveringhiërarchie die aan het artikel is toegewezen.</li>
 </ul></td>
 </tr>
@@ -386,7 +386,7 @@ Deze opties worden in de onderstaande tabel beschreven.
 </tr>
 <tr class="even">
 <td>Standaardgegevens gebruiken</td>
-<td>Selecteer deze optie om de knop <strong>Standaardgegevens</strong> in het Actievenster in te schakelen, waar u velden kunt selecteren voor gegevens die een werknemer meestal in zijn of haar dagelijks werk nodig heeft. Deze optie is bijvoorbeeld handig als een werknemer vaak artikelen van dezelfde locatie orderverzamelt. U kunt het veld <strong>Van locatie</strong> selecteren om standaard de locatie weer te geven.</td>
+<td>Selecteer deze optie om de knop <strong>Standaardgegevens</strong> in het Actievenster in te schakelen, waar u velden kunt selecteren voor gegevens die werknemers meestal in hun dagelijks werk nodig hebben. Deze optie is bijvoorbeeld handig als een werknemer vaak artikelen van dezelfde locatie orderverzamelt. U kunt het veld <strong>Van locatie</strong> selecteren om standaard de locatie weer te geven.</td>
 </tr>
 <tr class="odd">
 <td>Gevalideerd door gebruiker bestuurd veld</td>
@@ -407,6 +407,7 @@ Deze opties worden in de onderstaande tabel beschreven.
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>Vereisen dat werknemers het product, de locatie of de hoeveelheid bevestigen bij het verzamelen van artikelen
+
 U kunt werkbevestigingen instellen waarbij een medewerker een mobiel apparaat moet gebruiken om de locatie of de hoeveelheid te registreren bij het uitvoeren van werk in het magazijn. Werkbevestigingen helpen te garanderen dat de medewerker zich op de juiste locatie bevindt of de juiste hoeveelheid artikelen verwerkt. U kunt Supply Chain Management ook inschakelen om de registratie van de medewerker automatisch te bevestigen. Als u automatische bevestiging inschakelt, kunt u niet ook bevestigingen voor locatie of hoeveelheid vereisen. Werkbevestigingen bevatten tevens producten en productvarianten. Bovendien kunt u bevestigingen registreren met een streepjescode te scannen. Om producten en productvarianten te bevestigen, moet u een ID voor het product of de productvariant invoeren. Deze id kan een product-id, id voor het zoeken van producten, externe id, GTIN of streepjescode zijn. Nadat u invoert de ID of de streepjescode scant, worden de dimensies voor de productvariant weergegeven op het mobiele apparaat. 
 
 In de volgende tabel worden de verschillende werktypen beschreven waarbij u werkbevestigingen kunt gebruiken.
@@ -426,14 +427,11 @@ In de volgende tabel worden de verschillende werktypen beschreven waarbij u werk
 > [!NOTE]
 > U kunt productbevestiging alleen vereisen voor verzamel- en wegzetwerktypen.
 
-<a name="additional-resources"></a>Aanvullende bronnen
---------
+## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Een menuopdracht van mobiel apparaat instellen voor het voltooien van werkzaamheden van het type Inkooporder](tasks/set-up-mobile-device-menu.md)
-
-[Een menuopdracht voor een mobiel apparaat instellen om de ontvangen artikelen te registreren](tasks/set-up-mobile-device-menu-item-register-received-items.md)
-
-[Voorraadstatussen](../inventory/inventory-statuses.md)
+- [Een menuopdracht van mobiel apparaat instellen voor het voltooien van werkzaamheden van het type Inkooporder](tasks/set-up-mobile-device-menu.md)
+- [Een menuopdracht voor een mobiel apparaat instellen om de ontvangen artikelen te registreren](tasks/set-up-mobile-device-menu-item-register-received-items.md)
+- [Voorraadstatussen](../inventory/inventory-statuses.md)
 
 
 

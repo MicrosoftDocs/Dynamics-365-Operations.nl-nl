@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 0a3245febe31857181d17bba42e12b65f4ebb40f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3673642729aa41fa3c00a09fe8fe205edd0624c7
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832965"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088460"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Ondersteuning van twee valuta's voor btw
 [!include [banner](../includes/banner.md)]
@@ -42,8 +42,9 @@ Raadpleeg [Twee valuta's](dual-currency.md) voor meer informatie over twee valut
 Als gevolg van de ondersteuning voor twee valuta's zijn er twee nieuwe functies beschikbaar in functiebeheer: 
 
 - Btw-conversie (nieuw in versie 10.0.13)
+- Financiële dimensies invoeren in de gerealiseerde winst-/verliesrekeningen voor valutacorrectie voor btw-vereffening (nieuw in 10.0.17)
 
-Ondersteuning voor twee valuta's voor btw zorgt ervoor dat btw nauwkeurig wordt berekend in de belastingvaluta en dat het btw-vereffeningssaldo nauwkeurig wordt berekend in zowel de valuta voor boekhouding als de aangiftevaluta. 
+Ondersteuning voor twee valuta's voor btw zorgt ervoor dat btw nauwkeurig wordt berekend in de belastingvaluta en dat het btw-vereffeningssaldo nauwkeurig wordt berekend in zowel de valuta voor boekhouding als de aangiftevaluta.
 
 ## <a name="sales-tax-conversion"></a>Btw-conversie
 
@@ -88,6 +89,10 @@ Deze functie is alleen van toepassing op nieuwe transacties. Voor belastingtrans
 
 Om het voorgaande scenario te voorkomen, wordt u aangeraden deze parameterwaarde te wijzigen in een nieuwe (schone) belastingvereffeningsperiode die geen niet-vereffende belastingtransacties bevat. Als u deze waarde wilt wijzigen in het midden van een vereffeningsperiode voor belasting, voert u de optie 'Btw vereffenen en boeken' uit voor de huidige vereffeningsperiode voor belasting voordat u deze parameterwaarde wijzigt.
 
+Met deze functie voegt u boekhoudregels toe die winsten en verliezen door valutaomrekeningen verduidelijken. De posten worden gemaakt in de gerealiseerde winst- en verliesrekeningen van valutacorrecties wanneer de herwaardering wordt uitgevoerd tijdens de btw-vereffening. Zie de sectie [Automatisch belastingsvereffeningssaldo in aangiftevaluta](#tax-settlement-auto-balance-in-reporting-currency) verderop in dit onderwerp voor meer informatie.
+
+> [!NOTE]
+> Tijdens de vereffening worden gegevens voor financiële dimensies overgenomen uit btw-rekeningen, die balansrekeningen zijn, en ingevoerd in winst-en-verliesrekeningen voor valutacorrecties. Dit zijn winst-en-verliesrekeningen. Aangezien de beperkingen voor de waarde van financiële dimensies tussen balansrekeningen en verlies-en-winstrekeningen verschillen, kan er een fout optreden tijdens het proces Btw vereffenen en boeken. Als u wilt voorkomen dat u rekeningstructuren moet wijzigen, kunt u de functie "Financiële dimensies invullen voor de gerealiseerde winst-/verliesrekeningen voor valutacorrectie voor btw-vereffening" inschakelen. Met deze functie wordt de derivatie van financiële dimensies voor winst-/verliesrekeningen voor valutacorrecties afgedwongen. 
 
 ## <a name="track-reporting-currency-tax-amount"></a>Belastingbedrag in aangiftevaluta bijhouden
 
@@ -107,14 +112,14 @@ Deze release bevat geen wijzigingen in rapporten en formulieren waarbij het bela
 
 Als de belastingvereffening om bepaalde redenen niet wordt gesaldeerd in de aangiftevaluta, bijvoorbeeld wanneer het pad voor btw-conversie "Valuta voor boekhouding" is of wanneer de wisselkoers verandert in een enkele periode voor belastingvereffening, dan genereert het systeem automatisch boekhoudposten om de afwijking van het belastingbedrag te corrigeren en te compenseren tegen gerealiseerde winsten of verliezen voor valutaomrekening.
 
-Bij gebruik van dit voorbeeld om deze functie te demonstreren, gaat u ervan uit dat de gegevens in de tabel TAXTRANS op het moment van boeken als volgt zijn.
+Stel dat, uitgaand van het vorige voorbeeld om deze functie te demonstreren, de gegevens in de tabel TAXTRANS op het moment van boeken als volgt zijn.
 
 | Parameters voor btw-conversie | Transactievaluta (EUR) | Boekhoudvaluta (USD) | Aangiftevaluta (GBP) | Belastingvaluta (GBP) |
 | ------------------------------- | -------------------------- | ------------------------- | ------------------------ | ------------------ |
 | Boekhoudvaluta             | 100                        | 111                       | 83                       | **83,25**          |
 | Aangiftevaluta              | 100                        | 111                       | 83                       | **83**             |
 
-Wanneer u het btw-vereffeningsprogramma aan het einde van de maand uitvoert, ziet de boekhoudingsvermelding er als volgt uit:
+Wanneer u het btw-vereffeningsprogramma aan het einde van de maand uitvoert, ziet de boekhoudingsvermelding er als volgt uit.
 #### <a name="scenario-sales-tax-conversion--accounting-currency"></a>Scenario: btw-conversie = "Valuta voor boekhouding"
 
 | Hoofdrekening           | Transactievaluta (GBP) | Boekhoudvaluta (USD) | Aangiftevaluta (GBP) |

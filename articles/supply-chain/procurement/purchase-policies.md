@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b2c69ab02ea9e6a5a5699a204258243d6204413b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e89e8b4860bbafe4bd47d62d2feb7d197f233d24
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825297"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102777"
 ---
 # <a name="purchasing-policies-overview"></a>Overzicht van Aanschafbeleid
 
@@ -55,13 +55,13 @@ Wanneer een werknemer van rechtspersoon 2222 een opdracht tot inkoop maakt, word
 In het vorige voorbeeld waren alle inkoopregel gedefinieerd in één organisatiehiërarchie, in dit geval de organisatiehiërarchie Bedrijven. Een complexe organisatie kan echter een beleid definiëren voor meerdere organisatiehiërarchieën.  
 
 
-Contoso is een groot bedrijf dat complexe inkoopregels nodig heeft om het inkoopproces te controleren. Contoso heeft regels gedefinieerd voor twee verschillende organisatiehiërarchieën: Afdeling en Algemene inkoopcontrole.  
+Contoso is een groot bedrijf dat complexe inkoopregels nodig heeft om het proces voor opdracht tot inkoop te beheren. Contoso heeft regels gedefinieerd voor twee verschillende organisatiehiërarchieën: Afdeling en Algemene inkoopcontrole.  
 
 Beleid 123 is gedefinieerd voor de organisatiehiërarchie 'Afdeling' voor de Sales UK – Verkoopafdeling. In beleid 123 vermeldt de beheerregel voor opdrachten tot inkoop dat beperkingen op minimumorderhoeveelheden moeten worden afgedwongen. In deze regel is de optie **Beperkingen op minimumorderhoeveelheid afdwingen** geselecteerd.  
 
 Beleid 456 is gedefinieerd voor de organisatiehiërarchie “Algemene inkoopcontrole” voor de afdeling Verkoop en marketing. In beleid 456 vermeldt de beheerregel voor de opdracht tot inkoop niet dat beperkingen op minimumorderhoeveelheden moeten worden afgedwongen. In deze regel is de selectie van de optie **Beperkingen op minimumorderhoeveelheid afdwingen** opgeheven.  
 
-Sam werkt in de Sales UK – Verkoopafdeling in het kantoor van Contoso in het Verenigd Koninkrijk. Het beleid voor zowel de organisatiehiërarchie 'Afdeling' als 'Algemene inkoopcontrole' is van toepassing op deze afdeling. Wanneer Sam een opdracht tot inkoop maakt, moet het systeem bepalen welk beleid moet worden toegepast. De systeembeheerder heeft de parameters van het inkoopbeleid ingesteld zodat het inkoopbeleid moet worden toegepast in de volgende prioriteitsvolgorde:
+Sam werkt op de verkoopafdeling van Sales UK in het kantoor van Contoso in het Verenigd Koninkrijk. Het beleid voor zowel de organisatiehiërarchie 'Afdeling' als 'Algemene inkoopcontrole' is van toepassing op deze afdeling. Wanneer Sam een opdracht tot inkoop maakt, moet het systeem bepalen welk beleid moet worden toegepast. De systeembeheerder heeft de parameters van het inkoopbeleid ingesteld zodat het inkoopbeleid moet worden toegepast in de volgende prioriteitsvolgorde:
 
 1.  Algemene inkoopcontrole
 2.  Afdeling
@@ -132,7 +132,7 @@ De regels voor het maken van inkooporders en consolidatie van de vraag bepaalt d
 -   Op het tabblad **Prijstolerantie** kunt u regels definiëren om goedgekeurde opdrachten tot inkoop opnieuw door het revisieproces te routeren wanneer de prijs van een artikel in de aanschaffingscatalogus is gestegen. Stel het maximumbedrag in waarmee het nettobedrag op een regel van een opdracht tot inkoop kan stijgen tussen het tijdstip waarop de opdracht tot inkoop is goedgekeurd en het tijdstip waarop de inkooporder is gemaakt. Het nettobedrag wordt berekend met de volgende formule: (\[Hoeveelheid× (Eenheidsprijs - Korting) ÷ Prijseenheid\] + Diverse toeslagen voor de bestelling) x (100 - Kortingspercentage) ÷ 100. Regels van de inkoopopdracht die de prijstolerantie overschrijden, worden vastgehouden voor handmatige verwerking. De regels die u configureert op het tabblad **Foutverwerking** bepalen hoe de regels van de opdracht tot inkoop worden verwerkt.
 -   Op het tabblad **Foutverwerking** kunt u de verwerkingsregel configureren die wordt toegepast op een opdracht tot inkoop waarvan de validatie is mislukt bij het maken van de inkooporder vanwege een leveranciersfout of prijstolerantiefout. Een van de volgende opties selecteren:
     -   **Geen actie** - De regels van de opdracht tot inkoop blijven op de pagina **Goedgekeurde opdrachten tot inkoop vrijgeven**. De status van de regels van de opdracht tot inkoop blijft **Goedgekeurd**. De fouten moeten echter worden gecorrigeerd voordat er een inkooporder voor de regels van de opdracht tot inkoop kan worden gegenereerd.
-    -   **De opdracht tot inkoopregel annuleren** De regels van de opdracht tot inkoop worden geannuleerd. De aanvrager kan een nieuwe opdracht tot inkoop voor de geannuleerde regels maken als hij of zij de regelartikelen nog steeds wil aanvragen.
+    -   **De opdracht tot inkoopregel annuleren** De regels van de opdracht tot inkoop worden geannuleerd. Aanvragers kunnen een nieuwe opdracht tot inkoop voor de geannuleerde regels maken als zij de regelartikelen nog steeds willen aanvragen.
     -   **Een nieuwe opdracht tot inkoopregel maken** - De regels van de opdracht tot inkoop worden geannuleerd. Vervolgens worden er nieuwe opdrachten tot inkoop gegenereerd die alleen de regels van de opdracht tot inkoop bevatten waarvan de validatie is mislukt. De nieuwe opdrachten tot inkoop die worden gegenereerd, hebben de status **Concept**. Deze opdrachten tot inkoop kunnen opnieuw ter controle worden ingediend nadat de validatiefouten zijn gecorrigeerd. De voorbereider van de regels van de opdracht tot inkoop ontvangt een melding dat de regels zijn geannuleerd en dat er nieuwe opdrachten tot inkoop zijn gegenereerd voor de regels van de opdracht tot inkoop waarvan de validatie is mislukt.
 -   Op het tabblad **Handmatig inkooporders maken** kunt u de parameters definiëren die bepalen of een opdracht tot inkoop handmatig moet worden verwerkt of automatisch naar een inkooporder kan worden geconverteerd. De parameters kunnen van toepassing zijn op interne-catalogusartikelen, externe-catalogusartikelen of niet-catalogusartikelen. Een van de volgende opties selecteren:
     -   **Handmatig inkooporders maken** - Maak handmatig inkooporders voor alle opdrachten tot inkoop.

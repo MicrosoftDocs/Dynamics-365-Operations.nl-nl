@@ -2,7 +2,7 @@
 title: Aan de slag met belastingberekening
 description: In dit onderwerp wordt uitgelegd hoe u belastingberekening instelt.
 author: wangchen
-ms.date: 04/12/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 43a7c7133156d199da7b5ba16d48652359098c74
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 3f8aa791cee1926afe6be347331d47902a3b7304
+ms.sourcegitcommit: f4dc09601bceb5cdc88ee184ce7c8f369e3e6e86
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018874"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6060558"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Aan de slag met de belastingberekening (preview)
 
@@ -41,7 +41,7 @@ De configuratie omvat vier hoofdstappen:
 
 Voordat u de procedures in dit onderwerp kunt voltooien, moet aan de volgende vereisten zijn voldaan:
 
-- U hebt toegang tot uw LCS-account en u hebt een LCS-project geïmplementeerd met een Tier 2-omgeving (of hoger) waarop versie 10.0.18 of hoger van Dynamics 365 wordt uitgevoerd.
+- U hebt toegang tot uw LCS-account en u hebt een LCS-project geïmplementeerd met een Tier 2-omgeving (of hoger) waarop versie 10.0.18 of hoger van Dynamics 365 wordt uitgevoerd met [KB4616360](https://fix.lcs.dynamics.com/Issue/Details?kb=4616360&bugId=568738&dbType=3&qc=1f1c04ff39adad74ef871f539e8d73e14c1893ef7cc4b6e3f7d5c5864ec2781a) of later.
 - U hebt toegang tot uw RCS-account.
 - U hebt contact opgenomen met Microsoft om de flighting in te schakelen in uw geïmplementeerde Finance- of Supply Chain Management-omgeving.
 
@@ -127,7 +127,7 @@ Nadat u de installatie in RCS hebt voltooid, zoals beschreven in de vorige secti
 
 De configuratie in deze sectie wordt per rechtspersoon uitgevoerd. U moet dit configureren voor elke rechtspersoon waarvoor u Belastingberekening wilt inschakelen in Finance.
 
-1. Ga in Finance naar **Belasting** \> **Instellingen** \> **Belastingconfiguratie** \> **Instellingen voor Belastingberekening (preview)**.
+1. Ga in Finance naar **Belasting** \> **Instellingen** \> **Belastingconfiguratie** \> **Instellingen voor belastingberekening (preview)**.
 2. Stel op het tabblad **Algemeen** de volgende velden in:
 
     - **Belastingberekening inschakelen**: schakel dit selectievakje in om de invoegtoepassing Belastingberekening voor de rechtspersoon in te schakelen. Als deze niet is ingeschakeld voor de huidige rechtspersoon, blijft de rechtspersoon de bestaande belastingengine gebruiken om belasting te bepalen en te berekenen.
