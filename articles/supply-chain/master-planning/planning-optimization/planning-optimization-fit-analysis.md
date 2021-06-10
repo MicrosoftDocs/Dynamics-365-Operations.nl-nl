@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 871ac40ea73c8a72e20ff495b9b7e6fe5a12159e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 60f63a49222b3d0f13850b0f39764c6c848aba15
+ms.sourcegitcommit: 3c15a26e9708adc9a75082dc551f0a3a0a7d89f4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812974"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049431"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse aanpassen aan Planningsoptimalisatie
 
@@ -89,13 +89,13 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 | Productie | Plannen inclusief sequentiëren: _\#_ | Deze functie wordt verwerkt. Momenteel wordt sequentiëren genegeerd wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | Oktober 2021 - april 2022 |
 | Productie | Vrijgegeven productieorders die niet zijn gestart en waarvan de geplande begindatum eerder is dan vandaag: _\#_ | Deze functie wordt verwerkt. Als een productieorder wordt uitgesteld, wordt momenteel aangenomen dat de hoofdplanning vandaag wordt voltooid. Dit is relevant voor vrijgegeven productieorders waarvan de leveringsdatum in het verleden ligt, maar die nog niet zijn voltooid. | Oktober 2021 - april 2022 |
 | Productie | Resources gepland met eindige capaciteit: _\#_ | Deze functie wordt verwerkt. Momenteel worden resources waarvoor de eindige capaciteit is gepland, genegeerd wanneer Planningsoptimalisatie is ingeschakeld. De planning wordt uitgevoerd op basis van de standaardlevertijd van het product. | Onbeperkt: juni 2021, eindig: oktober 2021 |
-| Productie | Gebruikte routes bij planning: _\#_ | Deze functie wordt verwerkt. Momenteel worden routes genegeerd wanneer Planningsoptimalisatie is ingeschakeld. De standaardlevertijd van het product wordt gebruikt. | 2021 juni |
+| Productie | Gebruikte routes bij planning: _\#_ | Deze functie wordt verwerkt. Momenteel worden routes genegeerd wanneer Planningsoptimalisatie is ingeschakeld. De standaardlevertijd van het product wordt gebruikt. | Juli 2021 |
 | Productie | Reservering verkoopregel met explosie: _\#_ | Reservering verkoopregel met explosie wordt niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. | 2021 oktober |
 | Productie | Planning met explosie van productieorders: _\#_ | Planning met explosie van productieorders wordt niet ondersteund wanneer Planningsoptimalisatie is ingeschakeld. Productieorders kunnen afzonderlijk worden gepland. | 2021 oktober |
 | Offerteaanvragen | Hoofdplannen met offerteaanvragen ingeschakeld: _\#_ | Deze functie wordt verwerkt. Momenteel worden offerteaanvragen niet beschouwd als vraag wanneer Planningsoptimalisatie is ingeschakeld. Deze worden genegeerd, ongeacht deze instelling. | Oktober 2021 - april 2022 |
 | Bestelopdrachten | Hoofdplannen met bestelopdrachten ingeschakeld: _\#_ | Deze functie wordt nu ondersteund. Zie [Opdrachten tot inkoop](purchase-requisitions.md) voor aanvullende informatie | Ondersteund |
-| Veiligheidsmarges | Behoefteplanningsgroepen met veiligheidsmarge: _\#_ | Deze functie wordt nu gedeeltelijk ondersteund. Zie [Veiligheidsmarges](safety-margins.md) voor aanvullende informatie | Ontvangstmarge: ondersteund. Marge en uitgiftemarge opnieuw ordenen: april 2021 |
-| Veiligheidsmarges | Hoofdplannen met veiligheidsmarge: _\#_ | Deze functie wordt nu gedeeltelijk ondersteund. Zie [Veiligheidsmarges](safety-margins.md) voor aanvullende informatie | Ontvangstmarge: ondersteund. Marge en uitgiftemarge opnieuw ordenen: april 2021 |
+| Veiligheidsmarges | Behoefteplanningsgroepen met veiligheidsmarge: _\#_ | Deze functie wordt nu gedeeltelijk ondersteund. Zie [Veiligheidsmarges](safety-margins.md) voor aanvullende informatie | Ontvangstmarge: ondersteund. Marge en uitgiftemarge opnieuw ordenen: oktober 2021 |
+| Veiligheidsmarges | Hoofdplannen met veiligheidsmarge: _\#_ | Deze functie wordt nu gedeeltelijk ondersteund. Zie [Veiligheidsmarges](safety-margins.md) voor aanvullende informatie | Ontvangstmarge: ondersteund. Marge en uitgiftemarge opnieuw ordenen: oktober 2021 |
 | Afhandeling van veiligheidsvoorraad | Records voor artikelbehoefteplanning met "Minimum behalen" verschillen van "Datum van vandaag + levertijd": _\#_ | Planningsoptimalisatie gebruikt altijd *Datum van vandaag + levertijd* gebruikt. Deze wijziging wordt doorgevoerd om een vereenvoudigde planningsinstelling in de toekomst voor te bereiden en om een actieresultaat te kunnen bieden. Als de aanschaffingstijd niet is opgenomen voor de veiligheidsvoorraad, worden geplande orders die zijn gemaakt voor de huidige lage voorhanden voorraad altijd vertraagd vanwege de levertijd. Dit gedrag kan leiden tot belangrijke ruis en ongewenste geplande orders. De beste manier is om de instelling te wijzigen zodat *Datum van vandaag + levertijd* wordt gebruikt. Werk hoofdgegevens bij om waarschuwingen te voorkomen. | N.v.t. |
 | Verkoopoffertes | Hoofdplannen met verkoopoffertes ingeschakeld: _\#_ | Deze functie wordt verwerkt. Momenteel worden offertes niet overwogen wanneer Planningsoptimalisatie is ingeschakeld. Deze worden genegeerd, ongeacht deze instelling. | Oktober 2021 - april 2022 |
 | Houdbaarheid | Hoofdplannen met houdbaarheid ingeschakeld: _\#_ | Deze functie wordt verwerkt. Momenteel wordt houdbaarheid niet meegenomen wanneer Planningsoptimalisatie is ingeschakeld, ongeacht deze instelling. | 2021 oktober |

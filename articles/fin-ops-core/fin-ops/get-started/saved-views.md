@@ -2,7 +2,7 @@
 title: Opgeslagen weergaven
 description: In dit onderwerp wordt beschreven hoe u de functies voor opgeslagen weergaven gebruikt.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 25b59400cdd62f8728f03683d51c86c671edd9de
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8a5daee72f4f339fbebffb5c1d64814959775340
+ms.sourcegitcommit: 13fa6385d8f3bb18df5a52fd2b0f4ad3484ad0ba
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744610"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6050551"
 ---
 # <a name="saved-views"></a>Opgeslagen weergaven
 
@@ -126,17 +126,26 @@ Voer deze stappen uit om een weergave te publiceren:
 5. **10.0.17 of hoger bijwerken**: als de functie voor **(Preview) Vertalingsondersteuning voor organisatieweergaven** is ingeschakeld, kunt u vertalingen voor uw weergavenaam in net zoveel talen toevoegen als voor uw organisatie nodig is door de knop **Vertalingen** naast het veld **Naam** te selecteren. De weergavenaam wordt vervolgens weergegeven voor gebruikers in de huidige taal. U kunt ook de standaardtaal instellen om de vertaling op te geven die wordt weergegeven voor gebruikers die talen gebruiken waarvoor geen vertaling is gedefinieerd.
 5. Optioneel: voer een omschrijving voor de weergave in, zodat gebruikers die deze weergave ontvangen, het doel ervan beter begrijpen. 
 6. Bepaal of de weergave moet worden gepubliceerd als de standaardweergave voor de geselecteerde gebruikers. Wanneer van een weergave de standaardweergave wordt gemaakt, zien gebruikers deze weergave de volgende keer dat ze de doelpagina openen. De enkele algemene standaardweergave van alle beoogde gebruikers wordt gewijzigd. Gebruikers kunnen hun standaardweergave echter nog steeds wijzigen na publicatie.
-7. Voeg de beveiligingsrollen toe die overeenkomen met de gebruikers voor wie deze weergave is bedoeld. 
-8. Bepaal of u de weergave wilt publiceren naar de onderliggende rollen van elke geselecteerde beveiligingsrol. Als u dit doet, schakelt u het selectievakje **Onderliggende rollen opnemen** in de rij voor de gewenste beveiligingsrollen in. Dit selectievakje is niet beschikbaar voor rollen die geen onderliggende rollen hebben.
-9. Voeg de rechtspersonen toe waarvoor deze weergave beschikbaar moet zijn. 
-10. Selecteer **Publiceren**.
+
+    > [!NOTE]
+    > Wanneer u een weergave als standaardweergave publiceert, moet u rekening houden met het volgende: 
+    > -  Als u een weergave als standaardweergave voor alle of een aantal rechtspersonen publiceert, wijzigt u de enkele **algemene** standaardweergave van elke beoogde gebruiker. 
+    > -  Als een gebruiker rollen heeft waar meerdere weergaven worden gepubliceerd als de standaardweergave, wordt de laatst gepubliceerde weergave gebruikt als de standaardweergave van de gebruiker. 
+
+8. Voeg de beveiligingsrollen toe die overeenkomen met de gebruikers voor wie deze weergave is bedoeld. 
+9. Bepaal of u de weergave wilt publiceren naar de onderliggende rollen van elke geselecteerde beveiligingsrol. Als u dit doet, schakelt u het selectievakje **Onderliggende rollen opnemen** in de rij voor de gewenste beveiligingsrollen in. Dit selectievakje is niet beschikbaar voor rollen die geen onderliggende rollen hebben.
+10. Voeg de rechtspersonen toe waarvoor deze weergave beschikbaar moet zijn. 
+
+    > [!NOTE]
+    > Wanneer u een weergave naar een rechtspersoon publiceert, moet u rekening houden met de volgende verwachtingen.
+    > 
+    > Als u een weergave naar een rechtspersoon publiceert, maar deze niet als de standaardweergave publiceert, zien gebruikers in eerste instantie de weergave in de weergaveselectie alleen voor de opgegeven rechtspersonen. Nadat de weergave echter voor de eerste keer is geladen, bevindt deze zich altijd in de weergavekiezer van de gebruiker voor die pagina, ongeacht de rechtspersoon.
+
+11. Selecteer **Publiceren**.
 
 In sommige omgevingen kan het enige tijd duren (maximaal een uur) voordat gebruikers de gepubliceerde weergave kunnen zien.
 
-> [!NOTE]
-> Houd rekening met de volgende verwachtingen wanneer u een weergave publiceert naar een rechtspersoon of wanneer u een weergave publiceert als de standaardweergave.
-> - Als u een weergave als standaardweergave voor alle of een aantal rechtspersonen publiceert, wijzigt u de enkele algemene standaardweergave van elke beoogde gebruiker. Als een gebruiker rollen heeft waar meerdere weergaven worden gepubliceerd als de standaardweergave, wordt de laatst gepubliceerde weergave gebruikt als de standaardweergave van de gebruiker. 
-> - Als u een weergave naar een rechtspersoon publiceert, maar deze niet als de standaardweergave publiceert, zien gebruikers in eerste instantie de weergave in de weergaveselectie alleen voor de opgegeven rechtspersonen. Nadat de weergave echter voor de eerste keer is geladen, bevindt deze zich altijd in de weergavekiezer van de gebruiker voor die pagina, ongeacht de rechtspersoon. 
+ 
 
 ## <a name="modifying-a-published-view"></a>Een gepubliceerde weergave wijzigen
 
