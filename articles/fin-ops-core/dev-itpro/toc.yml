@@ -12,13 +12,15 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nieuwe of gewijzigde functies in Platform updates
               items:
-                - name: Startpagina van nieuwe of gewijzigde functies in Platform updates
+                - name: Startpagina van nieuwe of gewijzigde functies in Platform-updates
                   href: get-started/whats-new-home-page.md
-                - name: Platform updates voor 10.0.19 (juli 2021)
+                - name: Platform-updates voor versie 10.0.20 (juli 2021)
+                  href: get-started/whats-new-platform-updates-10-0-20.md
+                - name: Platform-updates voor 10.0.19 (june 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: Platform updates voor 10.0.18 (mei 2021)
+                - name: Platform-updates voor 10.0.18 (mei 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
-                - name: Platform updates voor 10.0.17 (april 2021)
+                - name: Platform-updates voor 10.0.17 (april 2021)
                   href: get-started/whats-new-platform-updates-10-0-17.md
             - name: Verwijderde of afgeschafte functies
               items:
@@ -940,8 +942,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Nieuwe of gewijzigde functies in Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Verwijderde of afgeschafte functies in Lifecycle Services (LCS)
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: Gebruikershandleiding Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: Onboarding voor project
@@ -1064,6 +1064,10 @@
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Levenscyclusbeheer voor toepassing
                       href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: Door gebruiker opgegeven teameigenaar
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: Omgevingen voor twee keer wegschrijven loskoppelen en opnieuw koppelen
+                      href: data-entities/dual-write/relink-environments.md
                 - name: Toewijzingsconcepten tussen apps
                   items:
                     - name: Model voor geïntegreerde klanten
@@ -1166,6 +1170,8 @@
               items:
                 - name: Overzicht van invoegtoepassingen
                   href: power-platform/add-ins-overview.md
+            - name: Beleid en communicatie
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Mobiel platform
           items:
             - name: Resources voor mobiel platform

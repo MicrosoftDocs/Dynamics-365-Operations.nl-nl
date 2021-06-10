@@ -72,7 +72,9 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
                       href: get-started/whats-new-home-page.md
-                    - name: Supply Chain Management 10.0.19 (juli 2021)
+                    - name: Supply Chain Management 10.0.20 (juli 2021)
+                      href: get-started/whats-new-scm-10-0-20.md
+                    - name: Supply Chain Management 10.0.19 (juni 2021)
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (mei 2021)
                       href: get-started/whats-new-scm-10-0-18.md
@@ -387,7 +389,7 @@
                   href: asset-management/manage-maintenance-requests/maintenance-request-reports.md
             - name: Instellingen voor werkorders
               items:
-                - name: 'Categorieën van onderhoudstaaktypen en onderhoudstaaktypen, varianten van onderhoudstaaktypen, onderhoudstaakspecialismen en onderhoudscontrolelijsten'
+                - name: 'Typen onderhoudstaken, categorieën, varianten, specialismen en controlelijsten voor onderhoudswerkzaamheden'
                   href: asset-management/setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md
                 - name: Levenscyclusstatussen van werkorder
                   href: asset-management/setup-for-work-orders/work-order-lifecycle-states.md
@@ -1371,7 +1373,7 @@
                   items:
                     - name: Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Verbeteringen in de traceringsresultaten van gegenereerde ER-rapporten en vergelijkingen met basislijnwaarden
+                    - name: De tracering van de resultaten van gegenereerde ER-rapporten voor vergelijking met basislijnwaarden verbeteren
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Testen automatiseren met ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/supply-chain/toc.json
@@ -2225,6 +2227,8 @@
               href: engineering-change-management/engineering-attributes-and-search.md
             - name: Technische versies en technische productcategorieën
               href: engineering-change-management/engineering-versions-product-category.md
+            - name: Wijzigingen in formules en hun ingrediënten beheren
+              href: engineering-change-management/manage-formula-changes.md
             - name: Wijzigingsbeheer voor bestaande producten inschakelen
               href: engineering-change-management/change-management-existing-products.md
             - name: Productlevenscyclusstatus en transacties
@@ -2247,6 +2251,8 @@
               href: production-control/manage-subcontract-work-production.md
             - name: Geïntegreerde nummerreeks voor taak-id's
               href: production-control/unified-job-ids.md
+            - name: Procesautomatiseringsstromen aanroepen om kwaliteitsorders te maken
+              href: production-control/process-automation-quality-orders.md
             - name: Diverse fabricage
               items:
                 - name: Hoofdgegevens productie onderhouden
@@ -2337,7 +2343,7 @@
                           href: production-control/production-floor-execution-setup.md
                         - name: Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken
                           href: production-control/production-floor-execution-use.md
-                        - name: Besturingselementstijlen van gebruikersinterface voor uitvoering op werkvloer
+                        - name: De uitvoeringsinterface voor de werkvloer vormgeven
                           href: production-control/production-floor-execution-styles.md
                     - name: Taakkaart configureren voor apparaten
                       href: production-control/config-job-card-device.md
@@ -3139,11 +3145,11 @@
                       href: warehousing/about-shipment-consolidation-policies.md
                     - name: Beleidsregels voor samenvoegen van zendingen configureren
                       href: warehousing/configure-shipment-consolidation-policies.md
-                    - name: 'Scenario 1: Zendingen samenvoegen wanneer deze aan het magazijn worden vrijgegeven met Automatische vrijgave van verkooporders'
+                    - name: 'Scenario 1: Zendingen samenvoegen die aan het magazijn zijn vrijgegeven via automatische vrijgave van verkooporders'
                       href: warehousing/consolidate-shipments-automatic.md
-                    - name: 'Scenario 2: Zendingen samenvoegen wanneer het beleid voor consolidatie van de zending wordt overschreven vanaf de pagina Vrijgeven aan magazijn'
+                    - name: 'Scenario 2: Zendingen samenvoegen wanneer het beleid voor consolidatie van de zending wordt overschreven'
                       href: warehousing/consolidate-shipments-release-to-warehouse-override.md
-                    - name: 'Scenario 3: Zendingen samenvoegen met Vrijgeven aan magazijn vanuit de workbench voor ladingplanning'
+                    - name: 'Scenario 3: Zendingen samenvoegen via vrijgave aan magazijn vanuit de workbench voor ladingplanning'
                       href: warehousing/consolidate-shipments-load-planning-workbench.md
                     - name: 'Scenario 4: Zendingen samenvoegen met behulp van de workbench voor zendingen samenvoegen'
                       href: warehousing/consolidate-shipments-manual-workbench.md
@@ -3287,23 +3293,25 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Problemen met magazijnconfiguratie oplossen
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: De mobiele app Magazijnbeheer installeren en configureren
+                - name: De mobiele app Warehouse Management installeren en configureren
                   items:
-                    - name: De mobiele app Magazijnbeheer installeren en verbinden
+                    - name: De mobiele app Warehouse Management installeren en verbinden
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: Gebruikersinstellingen mobiel apparaat
                       href: warehousing/mobile-device-user-settings.md
                     - name: De app voor magazijnbeheer installeren en verbinden
                       href: warehousing/install-configure-warehousing-app.md
-                    - name: Streepjescodes scannen met een camera in de mobiele app Magazijnbeheer
+                    - name: Streepjescodes scannen met een camera in de mobiele app Warehouse Management
                       href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Velden configureren voor de mobiele app Magazijnbeheer
+                    - name: Velden configureren voor de mobiele app Warehouse Management
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobiele apparaten instellen voor magazijnwerk
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Stappictogrammen en titels toewijzen
+                      href: warehousing/step-icons-titles.md
                     - name: Verwerking van gebeurtenissen in magazijnapp
                       href: warehousing/warehouse-app-events.md
-                    - name: Nummerplaat ontvangen via de mobiele app voor Magazijnbeheer
+                    - name: Nummerplaat ontvangen via de mobiele app voor Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder
                       href: warehousing/tasks/set-up-mobile-device-menu.md
@@ -3359,7 +3367,7 @@
                   href: troubleshooting/inventory/multiple-inventory-t.md
                 - name: 'Als u een gereedgemeld rapport omkeert, wordt een onverwachte openstaande transactie gemaakt'
                   href: troubleshooting/inventory/reverse-report-as-fi.md
-                - name: Kan geen nieuwe notities weergeven die aan een journaal zijn gekoppeld in het orderverzamellijstrapport
+                - name: In het rapport Orderverzamellijst worden geen nieuwe notities weergegeven die aan een journaal zijn gekoppeld
                   href: troubleshooting/inventory/unable-to-print-the.md
                 - name: De hoeveelheid op een gestarte quarantaineorder wordt niet bijgewerkt wanneer de order wordt gesplitst
                   href: troubleshooting/inventory/quantity-on-a-start.md
@@ -3371,25 +3379,29 @@
               items:
                 - name: Rechtsreeks afgeleide gefiatteerde orders worden verwerkt door een in-review werkstroom
                   href: troubleshooting/planning/firmed-directly-deri.md
+                - name: U kunt hoofdplanningsartikelen niet filteren op de gerelateerde waarden van de behoefteplanningsgroep
+                  href: troubleshooting/planning/master-planning-batc.md
                 - name: Hoofdplanning genereert geplande orders voor phantom-producten
                   href: troubleshooting/planning/planned-orders-are-g.md
                 - name: Geplande inkooporder die wordt gemaakt wanneer een aankoop binnen negatieve dagen bestaat
                   href: troubleshooting/planning/planning-optimisatio.md
-                - name: Kan de kostprijs niet uploaden in prognoseboekingen voor vraag
+                - name: De voorspelde eenheidskosten kunnen niet worden bijgewerkt wanneer u vraagprognoserecords importeert
                   href: troubleshooting/planning/unable-to-upload-the.md
                 - name: Kan de prognosedimensie voor magazijnvraag niet verwijderen van prognoseregels
                   href: troubleshooting/planning/warehouse-removal-fr.md
+                - name: 'U wordt gevraagd de instellingen voor artikelbehoefteplanning op te slaan, ook als u geen wijzigingen hebt aangebracht'
+                  href: troubleshooting/planning/when-importing-to-th.md
             - name: Inkoop
               items:
-                - name: Kan een klantgerichte verkooporder in het VEL-bedrijf niet factureren
+                - name: U kunt een klantgerichte verkooporder niet factureren
                   href: troubleshooting/procurement/not-able-to-invoice-.md
                 - name: Kan geen regel aan een opdracht tot inkoop toevoegen na het aanvragen van een wijziging
                   href: troubleshooting/procurement/purchase-requisition.md
             - name: Productgegevensbeheer
               items:
-                - name: Kan geen sjabloon toepassen om een vrijgegeven product te maken
+                - name: U kunt geen sjabloon toepassen om een vrijgegeven product te maken
                   href: troubleshooting/products/apply-template-in-re.md
-                - name: Kan een artikel niet importeren met de entiteit Vrijgegeven producten V2
+                - name: U kunt een artikel niet importeren met de entiteit Vrijgegeven producten V2
                   href: troubleshooting/products/cannot-import-with-r.md
                 - name: In inkooporders wordt geen vertaalde producttekst weergegeven
                   href: troubleshooting/products/when-the-customer-ad.md
@@ -3403,7 +3415,7 @@
                   href: troubleshooting/production/late-selection-is-no.md
                 - name: Gebruikers kunnen de verzameling van materiaalregels ongedaan maken voor producten die zijn gereedgemeld
                   href: troubleshooting/production/raw-material-lines-a.md
-                - name: Fout bij het boeken van een rapport als voltooid journaal
+                - name: Fout wanneer het Gereedmeldingsjournaal wordt geboekt
                   href: troubleshooting/production/posting-report-as-.md
                 - name: Het magazijn in het orderverzamellijstjournaal wordt niet bijgewerkt op een stuklijstregel
                   href: troubleshooting/production/the-warehouse-in-pic.md
@@ -3453,7 +3465,7 @@
                   href: troubleshooting/warehousing/work-cannot-be-canceled-blocked.md
                 - name: Werk kan niet worden geannuleerd vanwege de status
                   href: troubleshooting/warehousing/work-cannot-be-canceled-status.md
-                - name: Werk is niet geblokkeerd
+                - name: Werk wordt niet geblokkeerd
                   href: troubleshooting/warehousing/work-is-not-blocked.md
                 - name: Werk blijft geblokkeerd
                   href: troubleshooting/warehousing/work-remains-blocked.md

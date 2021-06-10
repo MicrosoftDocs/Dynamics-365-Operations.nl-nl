@@ -94,7 +94,9 @@
                   items:
                     - name: Startpagina van nieuwe of gewijzigde functies in Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.19 (juli 2021)
+                    - name: Commerce 10.0.20 (juli 2021)
+                      href: get-started/whats-new-commerce-10-0-20.md
+                    - name: Commerce 10.0.19 (juni 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (mei 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
@@ -556,6 +558,8 @@
                   href: dev-itpro/manage-bing-maps.md
                 - name: Tijdvakken voor afhalen door klant maken en bijwerken
                   href: dev-itpro/pickup-timeslots.md
+                - name: Productdimensiewaarden configureren die worden weergegeven als stalen
+                  href: dev-itpro/dimensions-swatch.md
         - name: Uw producten en diensten aan de man brengen
           items:
             - name: 'Categorieën, producten en assortimenten'
@@ -932,6 +936,8 @@
                   href: web-activity-opt-out.md
                 - name: Instellingen voor maateenheid toepassen
                   href: unit-of-measure.md
+                - name: Weergave-instellingen toepassen voor productdimensies
+                  href: dimension-settings.md
             - name: Uw site-inhoud beheren
               items:
                 - name: Manieren om inhoud toe te voegen
@@ -1946,7 +1952,7 @@
                   items:
                     - name: Gegenereerde rapportresultaten volgen en vergelijken met de basislijnwaarden
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commercetoc.json
-                    - name: Verbeteringen in de traceringsresultaten van gegenereerde ER-rapporten en vergelijkingen met basislijnwaarden
+                    - name: De tracering van de resultaten van gegenereerde ER-rapporten voor vergelijking met basislijnwaarden verbeteren
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
                     - name: Testen automatiseren met ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
@@ -2262,6 +2268,8 @@
                       href: e-commerce-extensibility/request-properties-object.md
                     - name: App-instellingen
                       href: e-commerce-extensibility/app-settings.md
+                    - name: Algemene configuratie-instellingen van Site Builder configureren op basis van ingeschakelde functies
+                      href: e-commerce-extensibility/config-settings-for-features.md
                     - name: Bestand met platforminstellingen
                       href: e-commerce-extensibility/platform-settings.md
                     - name: Een moduledefinitie uitbreiden
@@ -2366,6 +2374,8 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: Ontwikkelings- en ALM-wijzigingen van versie 10.0.10 tot 10.0.13
                   href: dev-itpro/dev-changes-10-13.md
+                - name: Een build-pipeline instellen voor de onafhankelijke verpakkings-SDK
+                  href: dev-itpro/build-pipeline.md
                 - name: De build-systemen voor Commerce en Finance and Operations samenvoegen
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: Retail SDK migreren van Visual Studio 2015 naar Visual Studio 2017
@@ -2386,6 +2396,8 @@
               items:
                 - name: POS-schermindelingen
                   href: pos-screen-layouts.md
+                - name: Store Commerce-app in Microsoft Dynamics 365 Commerce
+                  href: dev-itpro/store-commerce.md
                 - name: URL openen in POS
                   href: Open-URL-in-POS.md
                 - name: De POS-indelingsontwerper installeren

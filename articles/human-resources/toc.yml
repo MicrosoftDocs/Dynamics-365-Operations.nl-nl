@@ -5,6 +5,8 @@
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 20 mei 2021
+          href: hr-whats-new-2021-05-20.md
         - name: 3 mei 2021
           href: hr-whats-new-2021-05-03.md
         - name: 19 april 2021
@@ -785,8 +787,14 @@
           items:
             - name: Overzicht van prestatiebeheer
               href: hr-develop-performance-management-overview.md
-            - name: Personeelsvaardigheden afstemmen
-              href: hr-develop-skills.md
+            - name: Vaardigheden
+              items:
+                - name: Vaardigheden configureren
+                  href: hr-develop-skills.md
+                - name: Vaardigheden invoeren
+                  href: hr-develop-enter-skills.md
+                - name: Vaardigheden toewijzen
+                  href: hr-develop-map-skills.md
             - name: Toevoegen aan uw prestatiejournaal
               href: hr-develop-add-performance-journal.md
             - name: Een doelstelling maken
