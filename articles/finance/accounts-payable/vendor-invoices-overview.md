@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf3b842f018b4386d5ab4769143d4f7f0907873e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bd30e7128c688a0880727380e601069a95a28dcd
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841256"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111689"
 ---
 # <a name="vendor-invoices-overview"></a>Overzicht van Leveranciersfacturen
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Dit onderwerp biedt algemene informatie over leveranciersfacturen. Leveranciersfacturen zijn betalingsverzoeken voor producten en services die zijn ontvangen. Leveranciersfacturen kunnen een rekening voor lopende services voorstellen of kunnen zijn gebaseerd op inkooporders voor specifieke artikelen en services.
 
@@ -71,7 +73,9 @@ U kunt op de volgende manieren voorkomen dat een factuur wordt ingediend bij een
 
 - **Factuur bevat niet-toegewezen toeslagen.** De persoon die de factuur heeft ingediend, ontvangt een waarschuwing dat de factuur niet-toegewezen toeslagen bevat, zodat deze de factuur kan corrigeren alvorens deze opnieuw in te dienen bij de workflow. Deze functie is beschikbaar als de parameter **Indiening bij workflow voorkomen wanneer een leveranciersfactuur niet-toegewezen toeslagen bevat** op de pagina **Functiebeheer** is ingeschakeld.
 
-- **Factuur bevat hetzelfde factuurnummer als een andere geboekte factuur.** De persoon die de factuur heeft ingediend, ontvangt een waarschuwing dat een factuur met een dubbel nummer is gevonden, zodat deze de factuur kan corrigeren alvorens deze opnieuw in te dienen bij de workflow. Deze waarschuwing wordt weergegeven wanneer de parameter in Leveranciers met de naam **Het gebruikte factuurnummer controleren** is ingesteld op **Duplicatie afwijzen**. Deze functie is beschikbaar als de parameter **Indiening bij workflow voorkomen als het factuurnummer al bestaat op een geboekte factuur en het systeem dubbele factuurnummers niet toestaat** op de pagina **Functiebeheer** is ingeschakeld.  
+- **Factuur bevat hetzelfde factuurnummer als een andere geboekte factuur.** De persoon die de factuur heeft ingediend, ontvangt een bericht waarin wordt aangegeven dat er een factuur met een dubbel nummer is gevonden. Het dubbele nummer kan worden gecorrigeerd voordat u de factuur opnieuw bij de workflow indient. Deze waarschuwing wordt weergegeven wanneer de parameter in Leveranciers met de naam **Het gebruikte factuurnummer controleren** is ingesteld op **Duplicatie afwijzen**. Deze functie is beschikbaar als de parameter **Indiening bij workflow voorkomen als het factuurnummer al bestaat op een geboekte factuur en het systeem dubbele factuurnummers niet toestaat** op de pagina **Functiebeheer** is ingeschakeld.
+
+- **De factuur bevat een regel waarop de factuurhoeveelheid kleiner is dan de gematchte hoeveelheid op de productontvangstbon.** De persoon die de factuur indient of probeert te plaatsen, ontvangt een bericht dat de hoeveelheden niet gelijk zijn. Dit bericht biedt u de mogelijkheid om de waarden te corrigeren alvorens de factuur opnieuw in te dienen bij de workflow. Deze functie is beschikbaar als de parameter **Boeken en verzenden van leveranciersfacturen naar workflow blokkeren** op de pagina **Functiebeheer** is ingeschakeld en als de parameter **Boeken en verzenden naar workflow** op de pagina **Parameters van module Leveranciers** is ingeschakeld.  
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Leveranciersfacturen vereffenen met productontvangstbonnen
 

@@ -1,5 +1,5 @@
 ---
-title: Verbeteringen in het traceren van de resultaten van gegenereerde ER-rapporten en het vergelijken hiervan met basislijnwaarden
+title: Tracering verbeteren van de resultaten van gegenereerde ER-rapporten om deze te vergelijken met basislijnwaarden
 description: Dit onderwerp beschrijft verbeteringen in de ER-basislijnfunctie in Microsoft Dynamics 365 for Finance and Operations versie 10.0.3 (juni 2019).
 author: NickSelin
 ms.date: 06/19/2019
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 483d3ac7cd3192ffd4c785c4031a168af503f087
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 49ca9a878b9289b02f9bb9346190425197e0ceea
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743600"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117030"
 ---
-# <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Verbeteringen in het traceren van de resultaten van gegenereerde ER-rapporten en het vergelijken hiervan met basislijnwaarden
+# <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Tracering verbeteren van de resultaten van gegenereerde ER-rapporten om deze te vergelijken met basislijnwaarden
 
 [!include[banner](../includes/banner.md)]
 

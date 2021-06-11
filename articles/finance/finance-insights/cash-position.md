@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 36eb939d2539653fdcde78a6044cf1a87e8e3280
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cf9d3fd905a90a2937bfac97c8e44ea13be4f42e
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811382"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123385"
 ---
 # <a name="cash-position-preview"></a>Kaspositie (preview)
 
@@ -31,7 +31,7 @@ Kaspositie is de projectie van de cashflowprognose voor de korte termijn. Dit is
 
 Bij het voorspellen van de betalingen van klanten, worden de voorspellingsmodellen voor klantbetalingen gebruikt. Zonder betalingsvoorspellingen wordt de gemiddelde tijd die voor elke klant nodig is om een klantfactuur te converteren naar een betaling, gebruikt om een betalingsdatum te berekenen. Voor openstaande klantorders wordt de factuurdatum berekend op basis van het gemiddelde aantal dagen voor de orderregels die per klant moeten worden gefactureerd. Vervolgens wordt de factuurdatum als invoer gebruikt voor de functionaliteit voor betalingsvoorspelling. Met de functionaliteit voor het voorspellen van klantbetalingen wordt een betalingsdatum voor elke orderregel berekend. 
 
-<*Heb tekst van Jarek of Dave nodig over hoe betalingsvoorspellingen naar een datum worden geconverteerd*> De betalingsdatum voor openstaande facturen wordt [*geraamd*] op basis van de betalingsvoorspellingen door een datum te selecteren die overeenkomt met het vijftigste percentiel van de cumulatieve verdelingsfunctie die uit de waarschijnlijkheid van de voorspelling van de bucket wordt verkregen.
+De betalingsdatum voor openstaande facturen wordt geraamd op basis van de betalingsvoorspellingen door een datum te selecteren die overeenkomt met het vijftigste percentiel van de cumulatieve verdelingsfunctie die uit de waarschijnlijkheid van de voorspelling van de bucket wordt verkregen.
 
 Een vergelijkbare aanpak wordt gebruikt om betalingen aan leveranciers te voorspellen. Het systeem berekent voor elke leverancier de gemiddelde tijd die nodig is om een leveranciersfactuur om te rekenen naar een betaling. Dat aantal dagen wordt vervolgens gebruikt om de betalingsdatum te berekenen. Voor openstaande leveranciersorders wordt de factuurdatum berekend door het gemiddelde aantal dagen te nemen dat is vereist om orderregels te converteren naar een factuur voor elke leverancier. Het systeem berekent vervolgens de betalingsdatum door voor elke leverancier de gemiddelde tijd te nemen die nodig is om een leveranciersfactuur om te rekenen naar een betaling.
 

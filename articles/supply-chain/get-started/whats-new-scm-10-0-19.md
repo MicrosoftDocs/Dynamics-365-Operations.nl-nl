@@ -1,5 +1,5 @@
 ---
-title: Preview van Dynamics 365 Supply Chain Management 10.0.19 (juli 2021)
+title: Preview van Dynamics 365 Supply Chain Management 10.0.19 (juni 2021)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.19.
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 8bb4a7c8085b40ab3eca72675dbe7a3be412d8c1
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961676"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6114970"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-july-2021"></a>Preview van Dynamics 365 Supply Chain Management 10.0.19 (juli 2021)
+# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>Preview van Dynamics 365 Supply Chain Management 10.0.19 (juni 2021)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,23 +26,35 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in de
 
 - **Preview van versie:** april 2021
 - **Algemene beschikbaarheid van versie (zelfupdate):** juni 2021
-- **Algemene beschikbaarheid van versie (automatische update):** juli 2021
+- **Algemene beschikbaarheid van versie (automatische update):** juni 2021
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
-De volgende tabel vermeldt de functies die deze versie bevat. De kolom *Functie* bevat koppelingen naar het [releaseplan](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) waar u de officiële vrijgavedatums voor elke functie kunt zien. De kolom *Meer informatie* bevat koppelingen naar gerelateerde documentatie.
+De volgende tabel vermeldt de functies die deze versie bevat. De kolom *Functie* bevat koppelingen naar het [releaseplan](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) waar u de officiële vrijgavedatums voor elke functie kunt zien. De kolom *Meer informatie* bevat meer details en/of koppelingen naar gerelateerde documentatie.
 
 De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken. Sommige van de functies in de lijst zijn nog steeds in preview, terwijl andere mogelijk al algemeen beschikbaar zijn.
 
 | Functiegebied | Functie | Meer informatie |
 |---|---|---|
-| Voorraad en logistiek | [Optimalisatie van export van gegevensentiteit Contactpersoon](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | *Niet beschikbaar* |
+| Voorraad en logistiek | [Optimalisatie van export van gegevensentiteit Contactpersoon](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Wanneer deze functie is ingeschakeld, worden door wijzigingen in gegevens waarnaar wordt verwezen gerelateerde contactpersonen niet opgenomen in de volgende incrementele export. Wanneer deze functie is uitgeschakeld, worden door wijzigingen in gegevens waarnaar wordt verwezen gerelateerde contactpersonen niet opgenomen in de volgende incrementele export. |
 | Voorraad en logistiek | [Incrementele verbeteringen voor uitvoerbewerkingen van magazijn met schaaleenheden](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Berichten van berichtenverwerker](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Magazijnvoorraadcorrectie](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-warehousing.md) |
-| Voorraad en logistiek | [Opzoekfunctie voor velden voor documentintroductie en documentconclusie op de offertepagina van verkoop](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | *Niet beschikbaar* |
+| Voorraad en logistiek | [Opzoekfunctie voor velden voor documentintroductie en documentconclusie op de offertepagina van verkoop](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Met deze functie wordt opzoekfunctionaliteit voor de velden **Documentintroductie** en **Documentconclusie** op de pagina **Verkoopofferte** toegevoegd.<br><br>Deze functie is standaard ingeschakeld. |
 | Voorraad en logistiek | [Uitvoerbewerkingen van magazijn met schaaleenheden voor randapparatuur op uw aangepaste hardware](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Schaaleenheden voor randapparatuur implementeren op aangepaste hardware met LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Productie | [Uitvoerbewerkingen van manufacturing met schaaleenheden voor randapparatuur op uw aangepaste hardware](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Schaaleenheden voor randapparatuur implementeren op aangepaste hardware met LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| Productie | [Uitvoerbewerkingen van manufacturing met schaaleenheden voor randapparatuur op uw aangepaste hardware](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Randschaaleenheden implementeren op aangepaste hardware met LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| Planning | [Oneindige capaciteitsplanning voor Planningsoptimalisatie](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | Deze functie maakt capaciteitsplanning met onbeperkte capaciteit mogelijk voor planningsoptimalisatie. Zonder deze functie krijgen geplande productieorders de levertijd op basis van de voorraadlevertijd van vrijgegeven producten, ongeacht de time fence voor planning. |
 | Planning | Fiattering geplande order op basis van query | [Vast geplande orders](../master-planning/planning-optimization/planned-order-firming.md) |
 | Productgegevensbeheer | [Verbeteringen voor pagina met variantsuggesties](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Vooraf gedefinieerde productvarianten maken](../pim/tasks/create-predefined-product-variants.md) |
+
+## <a name="feature-enhancements-included-in-this-release"></a>Functieverbeteringen in deze versie
+
+In de volgende tabel worden de functieverbeteringen weergegeven die deze versie bevat. Al deze functies bieden een incrementele verbetering van een bestaande functie. Aangezien het alleen verbeteringen zijn, worden ze niet weergegeven in het [releaseplan](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Om echter te voorkomen dat deze verbeteringen conflicteren met uw bestaande aanpassingen of voorkeuren, is elk van deze aanpassingen standaard uitgeschakeld (tenzij anders is aangegeven). Als u een van deze functies wilt gebruiken, moet u deze expliciet inschakelen in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+| Functiegebied | Functie&nbsp;naam&nbsp;in Functie&nbsp;beheer | Meer informatie |
+|---|---|---|
+| Verkoopbeheer en marketing | Prestatieverbeteringen voor de opschoning van verkoophistorie | Opschoning van verkoophistorie kan veel tijd kosten als dit niet vaak in omgevingen wordt uitgevoerd met veel verkoopupdates. Om de duur te beperken en de betrouwbaarheid te verbeteren, wordt de opschoning opgesplitst in batches die maar een beperkte tijd worden uitgevoerd. Waar mogelijk wordt gebruik gemaakt van databasemogelijkheden om vergrendeling tot een minimum te beperken en samenvoeging van transactietabellen tijdens opschonen te voorkomen. |
+| Verkoopbeheer en marketing | Aangevraagde ontvangstdatum bijwerken met bevestigde datum voor intercompany-orders | Met deze functie kunt u bepalen wat er gebeurt met de veldwaarden voor verkoop- en inkoopdatums bij het gebruik van directe intercompany-leveringen. U kunt kiezen of de aangevraagde datums worden bijgewerkt of dat u deze wilt overslaan. Als u de update overslaat, geven de gevraagde datums aan waar de klant om heeft gevraagd. Als u bijwerken inschakelt, geven de aangevraagde datums (wanneer de leveringsdatumcontrole wordt gebruikt) alleen aan wat de klant heeft aangevraagd. Met de leveringsdatumcontrole wordt, wanneer deze verschilt van *Geen*, wat oorspronkelijk is aangevraagd vervangen. U kunt deze optie instellen met de nieuwe instelling **Gevraagde ontvangstdatum bijwerken met bevestigde datum** in de instellingen van de intercompany-leverancier of -klant.<br><br>Als de functie is uitgeschakeld, wordt de aangevraagde ontvangstdatum op de oorspronkelijke verkooporders overschreven op basis van de controleregel voor de leveringsdatum, maar blijft de aangevraagde verzenddatum ongewijzigd. |
+| Magazijnbeheer | Hoeveelheden afronden naar dichtstbijzijnde verkoopeenheid bij vrijgave aan magazijn | Met deze functie wordt een optie toegevoegd waarmee u orderhoeveelheden bij vrijgave aan het magazijn kunt beperken. Wanneer deze functie is ingeschakeld, worden orderhoeveelheden naar beneden afgerond naar de dichtstbijzijnde hele verkoopeenheid en worden orders met hoeveelheden van minder dan één verkoopeenheid afgewezen voor vrijgave. |
+| Magazijnbeheer | Wavemethode Werk maken plannen in de hele organisatie | Bij inschakeling van deze functie wordt de wavemethode *Werk maken plannen* geconfigureerd om parallel te worden uitgevoerd voor alle rechtspersonen. Er wordt ook een aantal extra instellingen beïnvloed. Zie [Het maken van werk plannen tijdens wave](../warehousing/configure-wave-schedule-work-creation.md) voor de volledige details. |
 
 ## <a name="new-and-updated-documentation-resources"></a>Nieuwe en bijgewerkte documentatiebronnen
 
@@ -62,7 +74,7 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Z
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates voor Finance and Operations-apps
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.19 bevat platform updates. Zie [Platform updates voor versie 10.0.19 van Finance and Operations- apps (juli 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md) voor meer informatie.
+Microsoft Dynamics 365 Supply Chain Management 10.0.19 bevat platform updates. Zie [Platformupdates voor versie 10.0.19 van Finance and Operations-apps (juni 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md) voor meer informatie.
 
 ### <a name="bug-fixes"></a>Correcties
 

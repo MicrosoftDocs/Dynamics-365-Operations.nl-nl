@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van Finance and Operations-apps.
 author: sericks007
-ms.date: 02/16/2021
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 435f7f0090ca16a9e8cfee2d1ceb65bec8457d09
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923533"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111719"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
 
@@ -31,6 +31,19 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de v
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
 Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+
+## <a name="feature-deprecation-notice-effective-may-2021"></a>Kennisgeving van afschaffing van functie met ingang van mei 2021
+
+### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Globalisatie-portal in Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De Globalisatie-portal in LCS wordt afgeschaft, aangezien deze functie is vervangen door andere services die op LCS zijn gebaseerd. |
+| **Vervangen door een andere functie?**   | Ja, deze functie wordt vervangen door [Problemen zoeken in LCS](../lifecycle-services/issue-search-lcs.md) en de [Dynamics-service voor het indienen van wettelijke waarschuwingen](../lcs-solutions/submit-localization-alerts.md). |
+| **Betrokken productgebieden**         | Globalisatie-portal in LCS|
+| **Implementatieoptie**              | Cloudimplementatie |
+| **Status**                         | Afgeschaft: geplande verwijderingsdatum in mei 2022. |
+
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Functie verwijderd met ingang van 28 januari 2021
 
@@ -56,7 +69,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Vervangen door een andere functie?**   | Visual Studio 2017 vervangt Visual Studio 2015 als de geïmplementeerde en vereiste versie. |
 | **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
 | **Implementatieoptie**              | Alles |
-| **Status**                         | Afgeschaft. Bij het bijwerken worden de vorige X++-hulpprogramma's verwijderd uit Visual Studio 2015, en worden de bijgewerkte hulpprogramma's niet geïnstalleerd in Visual Studio 2015. Dit heeft geen invloed op gehoste builds. Voor het bouwen van virtuele machines moet de buildpijplijn (builddefinitie) handmatig worden bijgewerkt om de afhankelijkheid van MSBuild 14.0 (Visual Studio 2015) te wijzigen in MSBuild 15.0 (Visual Studio 2017), zoals beschreven in [Een oudere pijplijn bijwerken in Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
+| **Status**                         | Afgeschaft: bij het bijwerken worden de vorige X++-hulpprogramma's verwijderd uit Visual Studio 2015, en worden de bijgewerkte hulpprogramma's niet geïnstalleerd in Visual Studio 2015. Dit heeft geen invloed op gehoste builds. Voor het bouwen van virtuele machines moet de buildpijplijn (builddefinitie) handmatig worden bijgewerkt om de afhankelijkheid van MSBuild 14.0 (Visual Studio 2015) te wijzigen in MSBuild 15.0 (Visual Studio 2017), zoals beschreven in [Een oudere pijplijn bijwerken in Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
 
 ### <a name="user-avatar"></a>Gebruikersavatar 
 
@@ -76,7 +89,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Vervangen door een andere functie?**   | No |
 | **Betrokken productgebieden**         | Webclient |
 | **Implementatieoptie**              | Alles |
-| **Status**                         | Afgeschaft. De hele EP-code moet worden verwijderd in de versie van oktober 2021. |
+| **Status**                         | Afgeschaft: alle EP-code moet worden verwijderd in de versie van oktober 2021. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.15 van Finance and Operations-apps
 
@@ -88,7 +101,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Vervangen door een andere functie?**   | Wij raden klanten aan om overstappen op Microsoft Edge.|
 | **Betrokken productgebieden**         | Alle Dynamics 365-producten |
 | **Implementatieoptie**              | Alles|
-| **Status**                         | Afgeschaft. Internet Explorer 11 wordt na augustus 2021 niet ondersteund.|
+| **Status**                         | Afgeschaft: Internet Explorer 11 wordt na augustus 2021 niet ondersteund.|
 
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Visual Studio-invoegtoepassing voor het toepassen van hotfixes voor metagegevens
@@ -181,7 +194,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Vervangen door een andere functie?**   | Zie [Voorwaardelijke toegang voor Azure Active Directory configureren](/appcenter/general/configuring-aad-conditional-access) voor meer informatie.|
 | **Betrokken productgebieden**         | Beveiliging |
 | **Implementatieoptie**              | Cloud |
-| **Status**                         | **Afgeschaft:** deze functie is volledig afgeschaft voor selfservice-implementaties. |
+| **Status**                         | Afgeschaft: deze functie is volledig afgeschaft voor selfservice-implementaties. |
 
 ### <a name="visual-studio-2015"></a>Visual Studio 2015
 
@@ -201,7 +214,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Vervangen door een andere functie?**   | Deze compilerfout vervangt permanent de compilerwaarschuwing.  |
 | **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | **Afgeschaft**: de compilerwaarschuwing is een compilatiefout in platform updates voor versie 10.0.11 van Finance and Operations-apps. |
+| **Status**                         | Afgeschaft: de compilerwaarschuwing is een compilatiefout in platformupdates voor versie 10.0.11 van Finance and Operations-apps. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>ISV-licenties die zijn gemaakt met het SHA1-hashalgoritme
 
@@ -211,7 +224,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Vervangen door een andere functie?**   | Ja. Gebruik Windows PowerShell om licenties te maken. |
 | **Betrokken productgebieden**         | Visual Studio-ontwikkelprogramma's |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | <strong>Afgeschaft:</strong> ISV-licenties die zijn gemaakt met het SHA1-hashalgoritme. Dit algoritme is afhankelijk van certificaten die zijn gemaakt met het hulpprogramma MakeCert en dit hulpprogramma is afgeschaft.<p><strong>Afgeschaft:</strong> het gebruik van SHA1 voor beveiligings- of hashingdoeleinden. SHA1 wordt begin 2021 afgeschaft. Daarom moet het niet meer worden gebruikt.<p><strong>Verwijderd:</strong> ondersteuning voor binnenkomende of uitgaande aanvragen van Transport Layer Security (TLS) 1.0 en TLS 1.1. |
+| **Status**                         | Afgeschaft: ISV-licenties die zijn gemaakt met het SHA1-hashalgoritme. Dit algoritme is afhankelijk van certificaten die zijn gemaakt met het hulpprogramma MakeCert en dit hulpprogramma is afgeschaft.<br><br>Afgeschaft: het gebruik van SHA1 voor beveiligings- of hashingdoeleinden. SHA1 wordt begin 2021 afgeschaft. Daarom moet het niet meer worden gebruikt.<br><br>Verwijderd: ondersteuning voor binnenkomende of uitgaande aanvragen van Transport Layer Security (TLS) 1.0 en TLS 1.1. |
 
 ## <a name="platform-update-32"></a>Platformupdate 32
 

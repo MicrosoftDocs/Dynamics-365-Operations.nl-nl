@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e9cd90d74b92754d4a5432485d5dd59c31e34c61
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 45763d5e602946fc3328cc3b565777fb7e549c61
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841980"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115092"
 ---
 # <a name="release-product-structures"></a>Productstructuren van de vrijgave
 
@@ -103,6 +103,7 @@ Stel de volgende velden in het sneltabblad **Algemeen** van een beleid voor prod
 | Veld | Beschrijving |
 |---|---|
 | Producttype | Selecteer of het beleid van toepassing is op producten van het type *Artikel* of *Service*. U kunt deze instelling niet wijzigen nadat u de record hebt opgeslagen. |
+| Productietype | Dit veld wordt alleen weergegeven als u [formulewijzigingsbeheer](manage-formula-changes.md) in het systeem hebt ingeschakeld. Selecteer het type productie waarop dit beleid voor productvrijgave van toepassing is:<ul><li>**Coproduct**: gebruik dit vrijgavebeleid om coproducten te beheren. Coproducten worden geproduceerd tijdens de procesfabricage en zijn geen producten met versies of technische producten. Beleidsregels voor vrijgave van coproducten kunnen ervoor zorgen dat belangrijke instellingen, zoals **Opslagdimensiegroep** en **Traceringsdimensiegroep**, worden ingesteld met behulp van een vrijgegeven productsjabloon voordat deze worden vrijgegeven voor een bedrijf.</li><li>**Bijproduct**: gebruik dit vrijgavebeleid om bijproducten te beheren. Bijproducten worden geproduceerd tijdens de procesfabricage en zijn geen producten met versies of technische producten. Beleidsregels voor vrijgave van bijproducten kunnen ervoor zorgen dat belangrijke instellingen, zoals **Opslagdimensiegroep** en **Traceringsdimensiegroep**, worden ingesteld met behulp van een vrijgegeven productsjabloon voordat deze worden vrijgegeven voor een bedrijf.</li><li>**Geen**: gebruik dit beleid om standaardproducten te beheren die geen versie hebben of geen technische producten, co- of bijproducten zijn.</li><li>**Planningsartikel**: gebruik dit vrijgavebeleid om planningsartikelen te beheren die worden geproduceerd via procesfabricage. Voor planningsartikelen worden formules gebruikt. Deze artikelen lijken op formuleartikelen, maar worden gebruikt om alleen co- en bijproducten te produceren, niet om afgewerkte producten te maken.</li><li>**Stuklijst**: gebruik dit vrijgavebeleid om technische producten te beheren, waarvoor geen formules worden gebruikt en meestal (maar niet noodzakelijkerwijs) stuklijsten bevatten.</li><li>**Formule**: gebruik dit vrijgavebeleid om eindproducten te beheren die worden geproduceerd via procesfabricage. Deze artikelen hebben een formule, maar geen stuklijst.</li></ul> |
 | Sjablonen toepassen | Selecteer een van de volgende opties om op te geven of en hoe productvrijgavesjablonen moeten worden toegepast wanneer het beleid wordt gebruikt:<ul><li>**Altijd**: een product met vrijgavesjabloon moet altijd worden gebruikt voor vrijgaven. Als u deze optie selecteert, gebruikt u het sneltabblad **Alle producten** om de sjabloon op te geven die wordt gebruikt voor elk bedrijf waaraan u wilt vrijgeven. Als u geen sjabloon opgeeft voor elk bedrijf dat op het sneltabblad **Alle producten** wordt vermeld, wordt een foutbericht weergegeven wanneer u het beleid probeert op te slaan.</li><li>**Optioneel**: als een product met vrijgavesjabloon is opgegeven voor een bedrijf dat wordt vermeld op het sneltabblad **Alle producten** wordt die sjabloon gebruikt wanneer u vrijgeeft aan dat bedrijf. Anders wordt er geen sjabloon gebruikt. Als u deze optie selecteert, kunt u het beleid opslaan zonder sjablonen toe te wijzen aan alle bedrijven. (Er wordt geen waarschuwing weergegeven.)</li><li>**Nooit**: er wordt geen product met vrijgavesjabloon gebruikt voor bedrijven waaraan u vrijgeeft, zelfs als een sjabloon is opgegeven voor bedrijven die worden vermeld op het sneltabblad **Alle producten**. De sjabloonkolommen zijn niet beschikbaar.</li></ul> |
 | Actief | Gebruik deze optie om uw vrijgavebeleid te beheren. Stel deze in op *Ja* voor elk vrijgavebeleid dat u gebruikt. Stel deze in op *Nee* als u een vrijgavebeleid wilt markeren als inactief wanneer het niet wordt gebruikt. U kunt een vrijgavebeleid dat is toegewezen aan een technische productcategorie niet deactiveren en u kunt alleen inactief vrijgavebeleid verwijderen. |
 

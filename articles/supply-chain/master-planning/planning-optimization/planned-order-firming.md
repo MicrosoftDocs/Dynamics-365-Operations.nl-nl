@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a4f882f1abc9f758aca77b137b28aa973f925ea9
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019489"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103623"
 ---
 # <a name="firm-planned-orders"></a>Vast geplande orders
 
@@ -77,6 +77,7 @@ Als u geplande orders handmatig wilt fiatteren, kunt u de geplande orders zoeken
 
     - **Groeperen op leverancier**: stel deze optie in op *Ja* om geplande inkooporders te groeperen en één inkooporder per leverancier te maken tijdens het fiatteren. U kunt ook één inkooporder maken met een regel voor elke geplande order.
     - **Groeperen op inkopersgroep**: stel deze optie in op *Ja* als u geplande inkooporders wilt groeperen en één inkooporder wilt maken waarin de leverancier en inkopersgroep worden gecombineerd. Als u deze optie wilt gebruiken, moet u ook de optie **Groeperen op leverancier** instellen op *Ja*.
+    - **Groeperen op inkoopovereenkomst**: stel deze optie in op *Ja* om geplande inkooporders met dezelfde leverancier als bestaande inkoopovereenkomsten te groeperen en één inkooporder per inkoopovereenkomst te maken. Deze optie wordt automatisch ingeschakeld als **Groeperen op leverancier** is ingeschakeld. Als u **Groeperen op inkoopovereenkomst** wilt gebruiken, moet **Inkoopovereenkomst zoeken** zijn ingesteld op *Ja* op de pagina **Parameters van hoofdplanning**.
     - **Groeperen op periode** (in het gedeelte **Inkooporders**): selecteer de periode waarvoor u geplande inkooporders wilt groeperen. Als u deze optie wilt gebruiken, moet u ook de optie **Groeperen op leverancier** inschakelen.
     - **Groeperen op periode** (in het gedeelte **Transferorders**): selecteer de periode waarvoor u geplande transferorders wilt groeperen. De orders worden gegroepeerd op basis van de waarden **Van magazijn** en **Naar magazijn**.
 

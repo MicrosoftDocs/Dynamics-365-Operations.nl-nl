@@ -2,7 +2,7 @@
 title: Bestemmingen van elektronische rapportage (ER)
 description: Dit onderwerp biedt informatie over het beheer van ER-bestemmingen (elektronische rapportage), de ondersteunde typen bestemmingen en beveiligingsoverwegingen.
 author: nselin
-ms.date: 02/24/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893599"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085495"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Bestemmingen van elektronische rapportage (ER)
 
@@ -199,6 +199,34 @@ Als u een ER-configuratie genereert in Excel-indeling en deze wilt converteren n
 > De geselecteerde afdrukstand wordt toegepast op alle ER-configuraties die in de Excel-indeling worden gegenereerd en worden vervolgens geconverteerd naar de PDF-indeling.
 >
 > Als een ER-configuratie in Word-indeling wordt geconverteerd naar PDF-indeling, wordt de afdrukstand van de PDF uit het Word-document opgehaald.
+
+## <a name="output-unfolding"></a>Uitvoer indelen
+
+Wanneer u een bestemming configureert voor het onderdeel **Map** van uw ER-indeling, kunt u opgeven hoe de uitvoer van dat onderdeel bij de geconfigureerde bestemming wordt afgeleverd.
+
+### <a name="make-output-unfolding-available"></a>Indelen van uitvoer beschikbaar maken
+
+Als u de optie voor het indelen van uitvoer beschikbaar wilt maken in het huidige Finance-exemplaar, opent u het werkgebied **Functiebeheer** en schakelt u de functie **Geconfigureerde ER-bestemmingen toestaan om mapinhoud als aparte bestanden te verzenden** in.
+
+### <a name="applicability"></a>Toepasbaarheid
+
+De optie voor het indelen van de uitvoer kan alleen worden geconfigureerd voor de indelingsonderdelen van het type **Map**. Wanneer u een **Map** onderdeel gaat configureren, wordt het sneltabblad **Algemeen** beschikbaar op de pagina **Bestemming elektronische rapportage**. 
+
+### <a name="use-the-output-unfolding-option"></a>De optie voor het indelen van uitvoer gebruiken
+
+Selecteer een van de volgende waarden op het tabblad **Algemeen** in het veld **Map verzenden als**:
+
+- **Zip-archief**: hiermee wordt een gegenereerd bestand als een zip-bestand afgeleverd.
+- **Afzonderlijke bestanden**: hiermee wordt elk bestand van een gegenereerd zip-bestand als een afzonderlijk bestand afgeleverd.
+
+    > [!NOTE]
+    > Als u **Afzonderlijke bestanden** selecteert, wordt de gegenereerde uitvoer in het geheugen gecomprimeerd verzameld. Daarom wordt de maximale [limiet voor bestandsgrootte](er-compress-outbound-files.md) toegepast voor gecomprimeerde uitvoer wanneer de werkelijke bestandsgrootte deze limiet kan overschrijden. Het wordt aanbevolen deze waarde te selecteren wanneer u verwacht dat de gegenereerde uitvoer nogal groot is.
+
+[![Een bestemming configureren voor het mapindelingsonderdeel](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+
+### <a name="limitations"></a>Beperkingen
+
+Als u het veld **Map verzenden als** instelt op **Afzonderlijke bestanden** voor een **Map** onderdeel dat andere geneste **Map** onderdelen bevat, wordt de instelling van deze instelling niet opnieuw toegepast op de geneste **Map** onderdelen.
 
 ## <a name="security-considerations"></a>Beveiligingsoverwegingen
 

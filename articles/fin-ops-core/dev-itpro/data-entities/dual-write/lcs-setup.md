@@ -2,26 +2,20 @@
 title: Instellingen voor twee keer wegschrijven van Lifecycle Services
 description: In dit onderwerp wordt uitgelegd hoe u een verbinding voor twee keer wegschrijven kunt instellen vanuit Microsoft Dynamics Lifecycle Services (LCS).
 author: RamaKrishnamoorthy
-ms.date: 01/06/2020
+ms.date: 05/11/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e51b4ef1e309e5f89dc82a3776b88c505dc6593d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748536"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103564"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Instellingen voor twee keer wegschrijven van Lifecycle Services
 
@@ -29,64 +23,48 @@ ms.locfileid: "5748536"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-In dit onderwerp wordt uitgelegd hoe u een verbinding voor twee keer wegschrijven kunt instellen tussen een nieuwe Finance and Operations-omgeving en een nieuwe Dataverse-omgeving via Microsoft Dynamics Lifecycle Services (LCS).
+In dit onderwerp wordt uitgelegd hoe u twee keer wegschrijven kunt inschakelen vanuit Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="prerequisites"></a>Vereisten
 
-U moet een beheerder zijn om een verbinding voor twee keer wegschrijven instelt.
+U moet de integratie van Power Platform voltooien zoals beschreven in de volgende onderwerpen:
 
-+ U moet toegang tot de tenant hebben.
-+ U moet een beheerder zijn in Finance and Operations- en Dataverse-omgevingen.
++ [Power Platform-integratie: inschakelen tijdens de implementatie van de omgeving](../../power-platform/overview.md#enable-during-environment-deployment)
++ [Power Platform-integratie: instellen na de implementatie van de omgeving](../../power-platform/overview.md#set-up-after-environment-deployment)
 
-## <a name="set-up-a-dual-write-connection"></a>Een verbinding voor twee keer wegschrijven instellen
+## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Twee keer wegschrijven instellen voor nieuwe Dataverse-omgevingen
 
-Voer de onderstaande stappen uit om de verbinding voor twee keer wegschrijven in te stellen.
+Voer de volgende stappen uit om twee keer wegschrijven via de pagina **Omgevingsdetails** in LCS in te stellen:
 
-1. Ga in LCS naar uw project.
-2. Selecteer **Configureren** om een nieuwe omgeving te implementeren.
-3. Selecteer de versie. 
-4. Selecteer de topologie. Als er slechts één topologie beschikbaar is, wordt deze automatisch geselecteerd.
-5. Voer de eerste stappen in de wizard **Implementatie-instellingen** uit.
-6. Voer een van deze stappen uit op het tabblad **Dataverse**:
+1. Vouw op de pagina **Omgevingsdetails** de sectie **Power Platform-integratie** uit.
 
-    - Als al een Dataverse-omgeving is ingericht voor uw tenant, kunt u deze selecteren.
+2. Selecteer de knop **Toepassing twee keer wegschrijven**.
 
-        1. Stel de optie **Dataverse configureren** in op **Ja**.
-        2. Selecteer in de kolom **Beschikbare omgevingen** de omgeving die u met uw Finance and Operations-gegevens wilt integreren. De lijst bevat alle omgevingen waarvoor u beheerdersbevoegdheden hebt.
-        3. Schakel het selectie **Akkoord** in om aan te geven dat u akkoord gaat met de voorwaarden.
+    ![Power Platform-integratie](media/powerplat_integration_step2.png)
 
-        ![Het tabblad Dataverse als al een Dataverse-omgeving is ingericht voor uw tenant](../dual-write/media/lcs_setup_1.png)
+3. Neem de algemene voorwaarden door en selecteer vervolgens **Configureren**.
 
-    - Als voor uw tenant nog geen Dataverse-omgeving bestaat, wordt een nieuwe omgeving ingericht.
+4. Selecteer **OK** om door te gaan.
 
-        1. Stel de optie **Dataverse configureren** in op **Ja**.
-        2. Geef een naam op voor de Dataverse-omgeving.
-        3. Selecteer de regio waarin u de omgeving wilt implementeren.
-        4. Selecteer de standaardtaal en -valuta voor de omgeving.
+5. U kunt de voortgang controleren door de pagina met details van de omgeving periodiek te vernieuwen. De instelling duurt doorgaans 30 minuten of minder.  
 
-            > [!NOTE]
-            > U kunt de taal en valuta later niet wijzigen.
+6. Wanneer de instelling is voltooid, wordt u in een bericht geïnformeerd of het proces is geslaagd of dat er een fout is gevonden. Als de instelling is mislukt, wordt een bijbehorend foutbericht weergegeven. U moet alle fouten oplossen voordat u naar de volgende stap gaat.
 
-        5. Schakel het selectie **Akkoord** in om aan te geven dat u akkoord gaat met de voorwaarden.
+7. Selecteer **Koppeling naar Power Platform-omgeving** om een koppeling te maken tussen Dataverse en de databases van de huidige omgeving. Dit duurt doorgaans 5 minuten of minder.
 
-        ![Het tabblad Dataverse wanneer uw tenant nog geen Dataverse-omgeving heeft](../dual-write/media/lcs_setup_2.png)
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Koppeling naar Power Platform-omgeving":::
 
-7. Voer de resterende stappen in de wizard **Implementatie-instellingen** uit.
-8. Als de omgevingsstatus **Geïmplementeerd** is, opent u de pagina met omgevingsdetails. In de sectie **Power Platform-integratie** worden de namen weergegeven van de gekoppelde Finance and Operations-omgeving en Dataverse-omgeving.
+8. Wanneer de koppeling is voltooid, wordt er een hyperlink weergegeven. Gebruik de koppeling om u aan te melden bij het beheergebied voor twee keer wegschrijven in de Finance and Operations-omgeving. Vanaf hier kunt u entiteitstoewijzingen instellen.
 
-    ![Sectie Power Platform-integratie](../dual-write/media/lcs_setup_3.png)
+## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Twee keer wegschrijven instellen voor een bestaande Dataverse-omgeving
 
-9. Een beheerder van de Finance and Operations-omgeving moet zich aanmelden bij LCS en **Koppeling naar CDS for Apps** selecteren om de koppeling te voltooien. Op de pagina met omgevingsgegevens worden de contactgegevens van de beheerder weergegeven.
+Als u twee keer wegschrijven wilt instellen voor een bestaande Dataverse-omgeving, moet u een Microsoft-[ondersteuningsticket](../../lifecycle-services/lcs-support.md) maken. Het ticket moet het volgende bevatten:
 
-    Als de koppeling is voltooid, wordt de status bijgewerkt naar **Omgevingskoppelingen voltooid**.
-
-10. Selecteer **Koppeling naar CDS for Apps** om het werkgebied **Gegevensintegratie** in de Finance and Operations-omgeving te openen en de beschikbare sjablonen te beheren.
-
-    ![De knop Koppeling naar CDS for Apps in de sectie Power Platform-integratie](../dual-write/media/lcs_setup_4.png)
++ Uw ID voor de Finance and Operations-omgeving.
++ Uw omgevingsnaam van Lifecycle Services.
++ De Dataverse-organisatie-ID of Power Platform-omgevings-ID van Power Platform Beheercentrum. Vraag in uw ticket om de ID te gebruiken voor Power Platform-integratie.
 
 > [!NOTE]
 > U kunt omgevingen niet ontkoppelen met behulp van LCS. Als u een omgeving wilt ontkoppelen, opent u het werkgebied **Gegevensintegratie** in de Finance and Operations-omgeving en selecteert u **Koppeling verbreken**.
-
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

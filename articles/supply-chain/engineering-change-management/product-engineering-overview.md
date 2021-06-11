@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: d9430fe02abe58f37d2bfd1431b4da61527d0834
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947515"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115044"
 ---
 # <a name="engineering-change-management-overview"></a>Overzicht van technisch wijzigingsbeheer
 
@@ -50,16 +50,21 @@ Schakel eerst deze functies in door de volgende stappen uit te voeren.
 
 1. Ga naar de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Controleer op updates.
-1. Schakel de functie in met de naam **Technisch wijzigingsbeheer**.
-1. Schakel ook de functie genaamd **Productdimensieversie** in als u deze wilt gebruiken.
+1. Schakel de functie in met de naam *Technisch wijzigingsbeheer*.
+1. Schakel ook de functie genaamd *Productdimensieversie* in als u deze wilt gebruiken.
 
 Schakel vervolgens de configuratiesleutels in door de volgende stappen uit te voeren.
 
 1. Plaats uw systeem in de onderhoudsmodus, zoals wordt beschreven in [Onderhoudsmodus](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Ga naar **Systeembeheer \> Instellingen \> Licentieconfiguratie**.
 1. Vouw het knooppunt **Handel** uit.
-1. Schakel de configuratiesleutel voor de hoofdfunctie in door het selectievakje **Engineering Change Management** te selecteren. (Het is niet nodig om het knooppunt uit te vouwen, tenzij u ook een of beide subfuncties wilt uitschakelen.)
-1. Als u ook de versiedimensie wilt gebruiken schakelt u het selectievakje **Productdimensie - Versie** in. (Dit selectievakje vindt u verder naar beneden in de lijst, niet genest onder het knooppunt **Engineering Change Management**.)
+1. Schakel de configuratiesleutel voor de hoofdfunctie in door het selectievakje **Technisch wijzigingsbeheer** in te schakelen.
+1. Vouw het knooppunt **Technisch wijzigingsbeheer** uit en schakel waar nodig de volgende selectievakjes in of uit (afhankelijk van de functies die u wilt gebruiken):
+
+    - **Kenmerk zoeken**: schakel dit selectievakje in om de [functie voor het zoeken naar kenmerken](engineering-attributes-and-search.md) in te schakelen. U wordt aangeraden deze functie in te schakelen, maar u kunt dit selectievakje uitschakelen als u het niet wilt gebruiken.
+    - **Wijzigingsbeheer voor procesproductie**: schakel dit selectievakje in als u de functies voor technisch wijzigingsbeheer wilt gebruiken om wijzigingen in formules voor procesproductie te beheren. Als u geen formules hoeft te beheren, kunt u dit selectievakje uitschakelen. Zie [Wijzigingen in formules en de ingrediënten ervan beheren](manage-formula-changes.md) voor meer informatie.
+
+1. Als u ook de versiedimensie wilt gebruiken schakelt u het selectievakje **Productdimensie - versie** in. (Dit selectievakje vindt u verder naar beneden in de lijst, niet genest onder het knooppunt **Technisch wijzigingsbeheer**.)
 1. Schakel de onderhoudsmodus uit, zoals wordt beschreven in [Onderhoudsmodus](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 
 > [!IMPORTANT]

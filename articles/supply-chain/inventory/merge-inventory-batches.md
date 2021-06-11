@@ -1,7 +1,7 @@
 ---
 title: Voorraadbatches samenvoegen
 description: Dit artikel bevat informatie over het consolideren van twee of meer voorraadbatches in één samengevoegde batch.
-author: pjacobse
+author: sherry-zheng
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
-ms.author: pjacobse
+ms.author: chuzheng
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b3594e9f5e26eeecbcb22e67807df9720fdd9ef8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 16c3f13081dffd154f1a019357f1d9af7cc8912b
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808179"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103139"
 ---
 # <a name="merge-inventory-batches"></a>Voorraadbatches samenvoegen
 
@@ -130,7 +130,7 @@ Productdimensies, traceringsdimensies en opslagdimensies worden als volgt verwer
 ## <a name="how-does-posting-work"></a>Hoe werkt boeken?
 De boekingen werken op twee manieren, afhankelijk van hoe u een goedkeuringsproces gebruikt voor journalen. U kunt de knoppen **Overboeken naar journaal** en **De batchsamenvoeging boeken** gebruiken om de batchsamenvoeging over te brengen naar een journaal waar deze kan worden gecontroleerd en geboekt, of u kunt de batchsamenvoeging direct boeken. Het belangrijkste verschil tussen de twee acties is dat overdragen naar een journaal de batchsamenvoeging niet boekt. Beide acties creëren een nieuwe batch als een bestaande batch niet is geselecteerd, werken alle batchgegevens en kenmerkwaarden bij en maken een voorraadjournaal.
 
--   **Overboeken naar journaal** - Brengt de batchsamenvoegingsdetails over naar een nieuw voorraadjournaal. Als u automatische reserveringen hebt ingesteld, zijn de hoeveelheden in de bronbatches gereserveerd. De details van de batchsamenvoeging kunnen niet worden gewijzigd. Als u de batchsamenvoeging wilt wijzigen, moet u het journaal verwijderen. Het journaal kan als een taak worden gebruikt die een andere werknemer later moet uitvoeren. De reservering van de batchhoeveelheid voor de journaalregel is beveiligd. Met deze toewijzing kan een kwaliteitsplanner of een magazijnmanager taken voor zijn of haar werknemers maken.
+-   **Overboeken naar journaal** - Brengt de batchsamenvoegingsdetails over naar een nieuw voorraadjournaal. Als u automatische reserveringen hebt ingesteld, zijn de hoeveelheden in de bronbatches gereserveerd. De details van de batchsamenvoeging kunnen niet worden gewijzigd. Als u de batchsamenvoeging wilt wijzigen, moet u het journaal verwijderen. Het journaal kan als een taak worden gebruikt die een andere werknemer later moet uitvoeren. De reservering van de batchhoeveelheid voor de journaalregel is beveiligd. Met deze toewijzing kunnen kwaliteitsplanners of magazijnmanagers taken voor hun werknemers maken.
 -   **De batchsamenvoeging boeken** - Boekt de batchsamenvoeging direct. Deze actie kan worden uitgevoerd nadat de fysieke samenvoeging heeft plaatsgevonden.
 
 U kunt het voorraadjournaal goedkeuren voor de batchsamenvoeging vanaf de lijstpagina **Alle batchsamenvoegingen**. Klik op **Journaal** &gt; **Boeken**. Nadat een journaal is geboekt, kunt u de details niet wijzigen in de samengevoegde batch. Nadat u een batchsamenvoeging naar een voorraadjournaal overdraagt, kunt u de details alleen wijzigen als het journaal wordt verwijderd.

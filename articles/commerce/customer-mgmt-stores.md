@@ -2,7 +2,7 @@
 title: Klantbeheer in winkels
 description: In dit onderwerp wordt uitgelegd hoe detailhandelaren mogelijkheden voor klantbeheer kunnen inschakelen op het verkooppunt (POS) in Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 03/05/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e43f8f5b91f729dc93eccb9e9e4ee21b5a5d1596
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dd17593d84a8bf262712a84b11829f8ec6c49049
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019982"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097203"
 ---
 # <a name="customer-management-in-stores"></a>Klantbeheer in winkels
 
@@ -35,7 +35,10 @@ Verkoopmedewerkers kunnen ook secundaire e-mailadressen en telefoonnummers vastl
 
 ## <a name="default-customer-properties"></a>Standaardklanteigenschappen
 
-Detailhandelaren kunnen de pagina **Alle winkels** in Commerce Headquarters (**Retail en Commerce \> Afzetkanalen \> Winkels**) gebruiken om een standaardklant aan elke winkel te koppelen. Commerce kopieert vervolgens de eigenschappen die zijn gedefinieerd voor de standaardklant naar alle nieuwe klantrecords die zijn gemaakt. In het dialoogvenster **Klant maken** worden bijvoorbeeld eigenschappen weergegeven die zijn overgenomen van de standaardklant die aan de winkel is gekoppeld. Deze eigenschappen omvatten het klanttype, de klantengroep, de voorkeur van ontvangstbewijzen, de valuta en de taal. Aansluitingen (groeperingen van klanten) worden ook overgenomen van de standaardklant. Financiële dimensies worden echter overgenomen van de klantengroep die aan de standaardklant is gekoppeld, en niet van de standaardklant zelf.
+Detailhandelaren kunnen de pagina **Alle winkels** in Commerce Headquarters (**Retail en Commerce \> Afzetkanalen \> Winkels**) gebruiken om een standaardklant aan elke winkel te koppelen. Commerce kopieert vervolgens de eigenschappen die zijn gedefinieerd voor de standaardklant naar alle nieuwe klantrecords die zijn gemaakt. In het dialoogvenster **Klant maken** worden bijvoorbeeld eigenschappen weergegeven die zijn overgenomen van de standaardklant die aan de winkel is gekoppeld. Deze eigenschappen omvatten het **klanttype**, de **klantengroep**, de **ontvangstbewijsoptie**, **e-mail voor ontvangstbewijs**, de **valuta** en de **taal**. **Aansluitingen** (groeperingen van klanten) worden ook overgenomen van de standaardklant. **Financiële dimensies** worden echter overgenomen van de klantengroep die aan de standaardklant is gekoppeld, en niet van de standaardklant zelf.
+
+> [!NOTE]
+> De **e-mail voor ontvangstbewijs** wordt alleen van de standaardklant gekopieerd als de ID van de e-mail voor het ontvangstbewijs niet is opgegeven voor de nieuwe klanten. Dit betekent dat als de ID van de e-mail voor het ontvangstbewijs aanwezig is voor de standaardklant, alle klanten die op de e-commercesite zijn gemaakt, dezelfde ID van de e-mail voor het ontvangstbewijs krijgen omdat er geen gebruikersinterface is om de ID van de e-mail voor het ontvangstbewijs van de klant vast te leggen. We raden u aan het **e-mailveld voor ontvangstbewijzen** leeg te houden voor de standaardklant van de winkel en deze alleen te gebruiken als u een bedrijfsproces hebt dat afhankelijk is van het feit dat een e-mailadres voor een ontvangstbewijs aanwezig is. 
 
 Verkoopmedewerkers kunnen meerdere adressen voor een klant vastleggen. De naam en het telefoonnummer van de klant worden overgenomen vanuit de contactgegevens die aan elk adres zijn gekoppeld. Het sneltabblad **Adressen** van een klantrecord bevat een veld **Doel** dat verkoopmedewerkers kunnen bewerken. Als het klanttype **Persoon** is, geldt **Start** als standaardwaarde. Als het klanttype **Organisatie** is, geldt **Business** als standaardwaarde. Andere waarden die in dit veld worden ondersteund, zijn onder andere **Start**, **Kantoor** en **Postbus**. De waarde van het veld **Land** voor een adres wordt overgenomen van het primaire adres dat is opgegeven op de pagina **Operationele eenheid** in Commerce Headquarters in **Organisatiebeheer \> Organisaties \> Operationele eenhden**.
 

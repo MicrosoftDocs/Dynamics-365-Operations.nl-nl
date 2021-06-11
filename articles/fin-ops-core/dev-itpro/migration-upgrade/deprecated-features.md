@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921418"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112616"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Verwijderde of afgeschafte functies in eerdere releases
 
@@ -104,6 +104,39 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Implementatieoptie**              | Alle |
 | **Status**                         | Afgeschaft: op 1 oktober 2020 wordt het **Binnenlandse belastingaangifte – functieverwijzing IT-00003** niet meer ondersteund. |
 
+## <a name="october-2019-deprecation-announcement"></a>Aankondiging afschaffing oktober 2019
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>Stroomdiagrammen in Modelleertool bedrijfsprocessen
+
+<table>
+<tbody>
+<tr>
+<td><strong>Reden voor afschaffing/verwijdering</strong></td>
+<td>We schaffen het onderdeel voor stroomdiagrammen in Modelleertool bedrijfsprocessen af omdat het verouderde ontwerp weinig werd gebruikt.</td>
+</tr>
+<tr>
+<td><strong>Vervangen door een andere functie?</strong></td>
+<td>Nee</td>
+</tr>
+<tr>
+<td><strong>Betrokken gebieden</strong></td>
+<td>Modelleertool bedrijfsprocessen</td>
+</tr>
+<tr>
+<td><strong>Status</strong></td>
+<td>Afgeschaft: naar verwachting wordt het onderdeel voor stroomdiagrammen in BPM in 2020 verwijderd. De volgende functionaliteit is niet beschikbaar:
+<ul>
+<li>Alle stroomdiagrammen zijn alleen-lezen en kunnen niet worden bewerkt. De shape-eigenschappen die aan stroomdiagramactiviteiten zijn gekoppeld, zijn eveneens niet beschikbaar. Deze stroomdiagrammen omvatten zowel standaardstroomdiagrammen die automatisch worden gegenereerd als aangepaste stroomdiagrammen die worden aangepast op basis van deze standaardstroomdiagrammen.</li>
+<li>De processtappen zijn alleen-lezen en kunnen niet worden bewerkt.</li>     
+<li>De verouderde functie voor geschiktheid/hiaatanalyse is niet beschikbaar. Daarom wordt er niet automatisch een hiaatlijst gemaakt of beschikbaar voor export.
+<p><strong>Opmerking:</strong> deze functie was eerder afgeschaft en vervangen door Microsoft Azure DevOps-integraties.</p>
+</li>
+<li>De versiegeschiedenis van het stroomdiagram is niet beschikbaar.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 met platformupdate 29
 

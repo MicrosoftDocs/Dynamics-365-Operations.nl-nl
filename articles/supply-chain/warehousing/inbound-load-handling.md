@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 62317f7e42c5392dce32a667f05f22e5c970abc7
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910010"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103163"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Magazijnverwerking van inkomende ladingen voor inkooporders
 
@@ -216,7 +216,7 @@ Voor het boeken van aanvullende geregistreerde ladinghoeveelheden voor de produc
 
 ### <a name="post-registered-quantities-from-the-purchase-order-page"></a>Geregistreerde hoeveelheden boeken vanaf de pagina Inkooporder
 
-Voor het boeken van geregistreerde ladinghoeveelheden voor de productontvangst vanaf de pagina **Inkooporder**, voert de gebruiker de volgende taken uit voordat de actie **Productontvangst** wordt geselecteerd:
+Voor het boeken van geregistreerde ladinghoeveelheden voor de productontvangst vanaf de pagina **Inkooporder**, voeren gebruikers de volgende taken uit voordat de actie **Productontvangst** wordt geselecteerd:
 
 - Stel het veld **Hoeveelheid** in de sectie **Parameters** op het tabblad **Instellingen** in op _Geregistreerde hoeveelheid_.
 - Voer in het veld **Productontvangst** de nummers in van de inkooporders die in de boeking zijn opgenomen.
@@ -347,7 +347,7 @@ Wanneer de lading arriveert in het ontvangende magazijn, registreert een ontvang
 
 1. Ga verder met de werkstroom en laat alle andere velden leeg of stel deze in op de standaardwaarden, totdat het apparaat u informeert dat het werk is voltooid.
 
-De ontvangsttaak is nu voltooid en de ontvangstmedewerker kan de volgende taak gaan uitvoeren. De magazijnmedewerkers kunnen de ladingrecord later controleren en vaststellen dat de ontvangen hoeveelheid kleiner was dan de verwachte hoeveelheid. Vervolgens wordt de volgende procedure uitgevoerd met behulp van de webclient.
+De ontvangsttaak is nu voltooid en ontvangstmedewerkers kunnen de volgende taak gaan uitvoeren. De magazijnmedewerkers kunnen de ladingrecord later controleren en vaststellen dat de ontvangen hoeveelheid kleiner was dan de verwachte hoeveelheid. Vervolgens wordt de volgende procedure uitgevoerd met behulp van de webclient.
 
 1. Ga naar **Magazijnbeheer \> Ladingen \> Alle ladingen**.
 1. Zoek in de lijst de lading die u zojuist hebt ontvangen. (Mogelijk moet u het selectievakje **Gesloten weergeven** inschakelen om de binnenkomende ladingen met de ladingsstatus _Verzonden_ op te nemen.) Selecteer vervolgens de koppeling in de kolom **Lading-id** om de lading te openen.
