@@ -2,91 +2,69 @@
 title: Instellingen voor twee keer wegschrijven van Lifecycle Services
 description: In dit onderwerp wordt uitgelegd hoe u een verbinding voor twee keer wegschrijven kunt instellen vanuit Microsoft Dynamics Lifecycle Services (LCS).
 author: RamaKrishnamoorthy
-ms.date: 01/06/2020
+ms.date: 05/11/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e51b4ef1e309e5f89dc82a3776b88c505dc6593d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748536"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103564"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a><span data-ttu-id="1fc34-103">Instellingen voor twee keer wegschrijven van Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="1fc34-103">Dual-write setup from Lifecycle Services</span></span>
+# <a name="dual-write-setup-from-lifecycle-services"></a><span data-ttu-id="e14d8-103">Instellingen voor twee keer wegschrijven van Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="e14d8-103">Dual-write setup from Lifecycle Services</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="1fc34-104">In dit onderwerp wordt uitgelegd hoe u een verbinding voor twee keer wegschrijven kunt instellen tussen een nieuwe Finance and Operations-omgeving en een nieuwe Dataverse-omgeving via Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="1fc34-104">This topic explains how to set up a dual-write connection between a new Finance and Operations environment and a new Dataverse environment from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
+<span data-ttu-id="e14d8-104">In dit onderwerp wordt uitgelegd hoe u twee keer wegschrijven kunt inschakelen vanuit Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="e14d8-104">This topic explains how to enable dual-write from Microsoft Dynamics Lifecycle Services (LCS).</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="1fc34-105">Vereisten</span><span class="sxs-lookup"><span data-stu-id="1fc34-105">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="e14d8-105">Vereisten</span><span class="sxs-lookup"><span data-stu-id="e14d8-105">Prerequisites</span></span>
 
-<span data-ttu-id="1fc34-106">U moet een beheerder zijn om een verbinding voor twee keer wegschrijven instelt.</span><span class="sxs-lookup"><span data-stu-id="1fc34-106">You must be an admin to set up a dual-write connection.</span></span>
+<span data-ttu-id="e14d8-106">U moet de integratie van Power Platform voltooien zoals beschreven in de volgende onderwerpen:</span><span class="sxs-lookup"><span data-stu-id="e14d8-106">You must complete the Power Platform integration as described in the following topics:</span></span>
 
-+ <span data-ttu-id="1fc34-107">U moet toegang tot de tenant hebben.</span><span class="sxs-lookup"><span data-stu-id="1fc34-107">You must have access to the tenant.</span></span>
-+ <span data-ttu-id="1fc34-108">U moet een beheerder zijn in Finance and Operations- en Dataverse-omgevingen.</span><span class="sxs-lookup"><span data-stu-id="1fc34-108">You must be an admin in both Finance and Operations environments and Dataverse environments.</span></span>
++ [<span data-ttu-id="e14d8-107">Power Platform-integratie: inschakelen tijdens de implementatie van de omgeving</span><span class="sxs-lookup"><span data-stu-id="e14d8-107">Power Platform Integration - Enable during environment deployment</span></span>](../../power-platform/overview.md#enable-during-environment-deployment)
++ [<span data-ttu-id="e14d8-108">Power Platform-integratie: instellen na de implementatie van de omgeving</span><span class="sxs-lookup"><span data-stu-id="e14d8-108">Power Platform integration - Set up after environment deployment</span></span>](../../power-platform/overview.md#set-up-after-environment-deployment)
 
-## <a name="set-up-a-dual-write-connection"></a><span data-ttu-id="1fc34-109">Een verbinding voor twee keer wegschrijven instellen</span><span class="sxs-lookup"><span data-stu-id="1fc34-109">Set up a dual-write connection</span></span>
+## <a name="set-up-dual-write-for-new-dataverse-environments"></a><span data-ttu-id="e14d8-109">Twee keer wegschrijven instellen voor nieuwe Dataverse-omgevingen</span><span class="sxs-lookup"><span data-stu-id="e14d8-109">Set up dual-write for new Dataverse environments</span></span>
 
-<span data-ttu-id="1fc34-110">Voer de onderstaande stappen uit om de verbinding voor twee keer wegschrijven in te stellen.</span><span class="sxs-lookup"><span data-stu-id="1fc34-110">Follow these steps to set up the dual-write connection.</span></span>
+<span data-ttu-id="e14d8-110">Voer de volgende stappen uit om twee keer wegschrijven via de pagina **Omgevingsdetails** in LCS in te stellen:</span><span class="sxs-lookup"><span data-stu-id="e14d8-110">Follow these steps to set up dual-write from LCS **Environment Details** page:</span></span>
 
-1. <span data-ttu-id="1fc34-111">Ga in LCS naar uw project.</span><span class="sxs-lookup"><span data-stu-id="1fc34-111">In LCS, go to your project.</span></span>
-2. <span data-ttu-id="1fc34-112">Selecteer **Configureren** om een nieuwe omgeving te implementeren.</span><span class="sxs-lookup"><span data-stu-id="1fc34-112">Select **Configure** to deploy a new environment.</span></span>
-3. <span data-ttu-id="1fc34-113">Selecteer de versie.</span><span class="sxs-lookup"><span data-stu-id="1fc34-113">Select the version.</span></span> 
-4. <span data-ttu-id="1fc34-114">Selecteer de topologie.</span><span class="sxs-lookup"><span data-stu-id="1fc34-114">Select the topology.</span></span> <span data-ttu-id="1fc34-115">Als er slechts één topologie beschikbaar is, wordt deze automatisch geselecteerd.</span><span class="sxs-lookup"><span data-stu-id="1fc34-115">If only one topology is available, it's automatically selected.</span></span>
-5. <span data-ttu-id="1fc34-116">Voer de eerste stappen in de wizard **Implementatie-instellingen** uit.</span><span class="sxs-lookup"><span data-stu-id="1fc34-116">Complete the first steps in the **Deployment settings** wizard.</span></span>
-6. <span data-ttu-id="1fc34-117">Voer een van deze stappen uit op het tabblad **Dataverse**:</span><span class="sxs-lookup"><span data-stu-id="1fc34-117">On the **Dataverse** tab, follow one of these steps:</span></span>
+1. <span data-ttu-id="e14d8-111">Vouw op de pagina **Omgevingsdetails** de sectie **Power Platform-integratie** uit.</span><span class="sxs-lookup"><span data-stu-id="e14d8-111">On the **Environment Details** page, expand the **Power Platform Integration** section.</span></span>
 
-    - <span data-ttu-id="1fc34-118">Als al een Dataverse-omgeving is ingericht voor uw tenant, kunt u deze selecteren.</span><span class="sxs-lookup"><span data-stu-id="1fc34-118">If a Dataverse environment is already provisioned for your tenant, you can select it.</span></span>
+2. <span data-ttu-id="e14d8-112">Selecteer de knop **Toepassing twee keer wegschrijven**.</span><span class="sxs-lookup"><span data-stu-id="e14d8-112">Select the **Dual-write application** button.</span></span>
 
-        1. <span data-ttu-id="1fc34-119">Stel de optie **Dataverse configureren** in op **Ja**.</span><span class="sxs-lookup"><span data-stu-id="1fc34-119">Set the **Configure Dataverse** option to **Yes**.</span></span>
-        2. <span data-ttu-id="1fc34-120">Selecteer in de kolom **Beschikbare omgevingen** de omgeving die u met uw Finance and Operations-gegevens wilt integreren.</span><span class="sxs-lookup"><span data-stu-id="1fc34-120">In the **Available environments** column, select the environment to integrate with your Finance and Operations data.</span></span> <span data-ttu-id="1fc34-121">De lijst bevat alle omgevingen waarvoor u beheerdersbevoegdheden hebt.</span><span class="sxs-lookup"><span data-stu-id="1fc34-121">The list includes all environments where you have admin privileges.</span></span>
-        3. <span data-ttu-id="1fc34-122">Schakel het selectie **Akkoord** in om aan te geven dat u akkoord gaat met de voorwaarden.</span><span class="sxs-lookup"><span data-stu-id="1fc34-122">Select the **Agree** check box to indicate that you agree to the terms and conditions.</span></span>
+    ![Power Platform-integratie](media/powerplat_integration_step2.png)
 
-        ![Het tabblad Dataverse als al een Dataverse-omgeving is ingericht voor uw tenant](../dual-write/media/lcs_setup_1.png)
+3. <span data-ttu-id="e14d8-114">Neem de algemene voorwaarden door en selecteer vervolgens **Configureren**.</span><span class="sxs-lookup"><span data-stu-id="e14d8-114">Review the terms and conditions, and then select **Configure**.</span></span>
 
-    - <span data-ttu-id="1fc34-124">Als voor uw tenant nog geen Dataverse-omgeving bestaat, wordt een nieuwe omgeving ingericht.</span><span class="sxs-lookup"><span data-stu-id="1fc34-124">If your tenant doesn't already have a Dataverse environment, a new environment will be provisioned.</span></span>
+4. <span data-ttu-id="e14d8-115">Selecteer **OK** om door te gaan.</span><span class="sxs-lookup"><span data-stu-id="e14d8-115">Select **OK** to continue.</span></span>
 
-        1. <span data-ttu-id="1fc34-125">Stel de optie **Dataverse configureren** in op **Ja**.</span><span class="sxs-lookup"><span data-stu-id="1fc34-125">Set the **Configure Dataverse** option to **Yes**.</span></span>
-        2. <span data-ttu-id="1fc34-126">Geef een naam op voor de Dataverse-omgeving.</span><span class="sxs-lookup"><span data-stu-id="1fc34-126">Enter a name for the Dataverse environment.</span></span>
-        3. <span data-ttu-id="1fc34-127">Selecteer de regio waarin u de omgeving wilt implementeren.</span><span class="sxs-lookup"><span data-stu-id="1fc34-127">Select the region to deploy the environment in.</span></span>
-        4. <span data-ttu-id="1fc34-128">Selecteer de standaardtaal en -valuta voor de omgeving.</span><span class="sxs-lookup"><span data-stu-id="1fc34-128">Select the default language and currency for the environment.</span></span>
+5. <span data-ttu-id="e14d8-116">U kunt de voortgang controleren door de pagina met details van de omgeving periodiek te vernieuwen.</span><span class="sxs-lookup"><span data-stu-id="e14d8-116">You can monitor the progress by periodically refreshing the environment details page.</span></span> <span data-ttu-id="e14d8-117">De instelling duurt doorgaans 30 minuten of minder.</span><span class="sxs-lookup"><span data-stu-id="e14d8-117">Setup typically takes 30 minutes or less.</span></span>  
 
-            > [!NOTE]
-            > <span data-ttu-id="1fc34-129">U kunt de taal en valuta later niet wijzigen.</span><span class="sxs-lookup"><span data-stu-id="1fc34-129">You can't change the language and currency later.</span></span>
+6. <span data-ttu-id="e14d8-118">Wanneer de instelling is voltooid, wordt u in een bericht geïnformeerd of het proces is geslaagd of dat er een fout is gevonden.</span><span class="sxs-lookup"><span data-stu-id="e14d8-118">When the setup is complete, a message will inform you if the process was successful or if there was a failure.</span></span> <span data-ttu-id="e14d8-119">Als de instelling is mislukt, wordt een bijbehorend foutbericht weergegeven.</span><span class="sxs-lookup"><span data-stu-id="e14d8-119">If the setup failed, then a related error message is displayed.</span></span> <span data-ttu-id="e14d8-120">U moet alle fouten oplossen voordat u naar de volgende stap gaat.</span><span class="sxs-lookup"><span data-stu-id="e14d8-120">You must fix any errors before moving to the next step.</span></span>
 
-        5. <span data-ttu-id="1fc34-130">Schakel het selectie **Akkoord** in om aan te geven dat u akkoord gaat met de voorwaarden.</span><span class="sxs-lookup"><span data-stu-id="1fc34-130">Select the **Agree** check box to indicate that you agree to the terms and conditions.</span></span>
+7. <span data-ttu-id="e14d8-121">Selecteer **Koppeling naar Power Platform-omgeving** om een koppeling te maken tussen Dataverse en de databases van de huidige omgeving.</span><span class="sxs-lookup"><span data-stu-id="e14d8-121">Select **Link to Power Platform environment** to create a link between Dataverse and the current environment's databases.</span></span> <span data-ttu-id="e14d8-122">Dit duurt doorgaans 5 minuten of minder.</span><span class="sxs-lookup"><span data-stu-id="e14d8-122">This typically takes less than 5 minutes.</span></span>
 
-        ![Het tabblad Dataverse wanneer uw tenant nog geen Dataverse-omgeving heeft](../dual-write/media/lcs_setup_2.png)
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Koppeling naar Power Platform-omgeving":::
 
-7. <span data-ttu-id="1fc34-132">Voer de resterende stappen in de wizard **Implementatie-instellingen** uit.</span><span class="sxs-lookup"><span data-stu-id="1fc34-132">Complete the remaining steps in the **Deployment settings** wizard.</span></span>
-8. <span data-ttu-id="1fc34-133">Als de omgevingsstatus **Geïmplementeerd** is, opent u de pagina met omgevingsdetails.</span><span class="sxs-lookup"><span data-stu-id="1fc34-133">After the environment has a status of **Deployed**, open the environment details page.</span></span> <span data-ttu-id="1fc34-134">In de sectie **Power Platform-integratie** worden de namen weergegeven van de gekoppelde Finance and Operations-omgeving en Dataverse-omgeving.</span><span class="sxs-lookup"><span data-stu-id="1fc34-134">The **Power Platform Integration** section shows the names of the Finance and Operations environment and the Dataverse environment that are linked.</span></span>
+8. <span data-ttu-id="e14d8-124">Wanneer de koppeling is voltooid, wordt er een hyperlink weergegeven.</span><span class="sxs-lookup"><span data-stu-id="e14d8-124">When the linking is complete, a hyperlink is displayed.</span></span> <span data-ttu-id="e14d8-125">Gebruik de koppeling om u aan te melden bij het beheergebied voor twee keer wegschrijven in de Finance and Operations-omgeving.</span><span class="sxs-lookup"><span data-stu-id="e14d8-125">Use the link to sign in to the dual-write administration area in the Finance and Operations environment.</span></span> <span data-ttu-id="e14d8-126">Vanaf hier kunt u entiteitstoewijzingen instellen.</span><span class="sxs-lookup"><span data-stu-id="e14d8-126">From there, you can set up entity mappings.</span></span>
 
-    ![Sectie Power Platform-integratie](../dual-write/media/lcs_setup_3.png)
+## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a><span data-ttu-id="e14d8-127">Twee keer wegschrijven instellen voor een bestaande Dataverse-omgeving</span><span class="sxs-lookup"><span data-stu-id="e14d8-127">Set up dual-write for an existing Dataverse environment</span></span>
 
-9. <span data-ttu-id="1fc34-136">Een beheerder van de Finance and Operations-omgeving moet zich aanmelden bij LCS en **Koppeling naar CDS for Apps** selecteren om de koppeling te voltooien.</span><span class="sxs-lookup"><span data-stu-id="1fc34-136">An admin of the Finance and Operations environment must sign in to LCS and select **Link to CDS for Apps** to complete the link.</span></span> <span data-ttu-id="1fc34-137">Op de pagina met omgevingsgegevens worden de contactgegevens van de beheerder weergegeven.</span><span class="sxs-lookup"><span data-stu-id="1fc34-137">The environment details page shows the admin's contact information.</span></span>
+<span data-ttu-id="e14d8-128">Als u twee keer wegschrijven wilt instellen voor een bestaande Dataverse-omgeving, moet u een Microsoft-[ondersteuningsticket](../../lifecycle-services/lcs-support.md) maken.</span><span class="sxs-lookup"><span data-stu-id="e14d8-128">To set up dual-write for an existing Dataverse environment, you must create a Microsoft [support ticket](../../lifecycle-services/lcs-support.md).</span></span> <span data-ttu-id="e14d8-129">Het ticket moet het volgende bevatten:</span><span class="sxs-lookup"><span data-stu-id="e14d8-129">The ticket must include:</span></span>
 
-    <span data-ttu-id="1fc34-138">Als de koppeling is voltooid, wordt de status bijgewerkt naar **Omgevingskoppelingen voltooid**.</span><span class="sxs-lookup"><span data-stu-id="1fc34-138">After the link is completed, the status is updated to **Environment linking successfully completed**.</span></span>
-
-10. <span data-ttu-id="1fc34-139">Selecteer **Koppeling naar CDS for Apps** om het werkgebied **Gegevensintegratie** in de Finance and Operations-omgeving te openen en de beschikbare sjablonen te beheren.</span><span class="sxs-lookup"><span data-stu-id="1fc34-139">To open the **Data integration** workspace in the Finance and Operations environment and control the templates that are available, select **Link to CDS for Apps**.</span></span>
-
-    ![De knop Koppeling naar CDS for Apps in de sectie Power Platform-integratie](../dual-write/media/lcs_setup_4.png)
++ <span data-ttu-id="e14d8-130">Uw ID voor de Finance and Operations-omgeving.</span><span class="sxs-lookup"><span data-stu-id="e14d8-130">Your Finance and Operations environment ID.</span></span>
++ <span data-ttu-id="e14d8-131">Uw omgevingsnaam van Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="e14d8-131">Your environment name from Lifecycle Services.</span></span>
++ <span data-ttu-id="e14d8-132">De Dataverse-organisatie-ID of Power Platform-omgevings-ID van Power Platform Beheercentrum.</span><span class="sxs-lookup"><span data-stu-id="e14d8-132">The Dataverse organization ID or Power Platform Environment ID from Power Platform Admin Center.</span></span> <span data-ttu-id="e14d8-133">Vraag in uw ticket om de ID te gebruiken voor Power Platform-integratie.</span><span class="sxs-lookup"><span data-stu-id="e14d8-133">In your ticket, request that the ID be the instance used for Power Platform integration.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="1fc34-141">U kunt omgevingen niet ontkoppelen met behulp van LCS.</span><span class="sxs-lookup"><span data-stu-id="1fc34-141">You can't unlink environments by using LCS.</span></span> <span data-ttu-id="1fc34-142">Als u een omgeving wilt ontkoppelen, opent u het werkgebied **Gegevensintegratie** in de Finance and Operations-omgeving en selecteert u **Koppeling verbreken**.</span><span class="sxs-lookup"><span data-stu-id="1fc34-142">To unlink an environment, open the **Data integration** workspace in the Finance and Operations environment, and then select **Unlink**.</span></span>
-
-
+> <span data-ttu-id="e14d8-134">U kunt omgevingen niet ontkoppelen met behulp van LCS.</span><span class="sxs-lookup"><span data-stu-id="e14d8-134">You can't unlink environments by using LCS.</span></span> <span data-ttu-id="e14d8-135">Als u een omgeving wilt ontkoppelen, opent u het werkgebied **Gegevensintegratie** in de Finance and Operations-omgeving en selecteert u **Koppeling verbreken**.</span><span class="sxs-lookup"><span data-stu-id="e14d8-135">To unlink an environment, open the **Data integration** workspace in the Finance and Operations environment, and then select **Unlink**.</span></span>
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
