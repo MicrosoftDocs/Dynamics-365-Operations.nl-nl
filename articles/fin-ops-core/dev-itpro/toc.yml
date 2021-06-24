@@ -12,11 +12,11 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Nieuwe of gewijzigde functies in Platform updates
               items:
-                - name: Startpagina van nieuwe of gewijzigde functies in Platform-updates
+                - name: Startpagina voor nieuwe of gewijzigde functies in Platform-updates
                   href: get-started/whats-new-home-page.md
-                - name: Platform-updates voor versie 10.0.20 (juli 2021)
+                - name: Platform-updates voor versie 10.0.20 (augustus 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: Platform-updates voor 10.0.19 (june 2021)
+                - name: Platform-updates voor 10.0.19 (juni 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Platform-updates voor 10.0.18 (mei 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
@@ -850,13 +850,11 @@
               items:
                 - name: Traceren met Trace parser
                   href: perf-test/trace-trace-tutorial.md
-                - name: Testen met één gebruiker met Taakrecorder en de Performance SDK
+                - name: Testen met één gebruiker met Performance SDK en Taakrecorder
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: Performance SDK voor meerdere gebruikers testen met een lokale testcontroller
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: Testen met meerdere gebruikers met Performance SDK en Azure DevOps
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: Probleemoplossing voor testen met de Performance SDK
+                - name: Meerdere gebruikers testen met Performance SDK
+                  href: perf-test/perfsdk-multi-user-testing.md
+                - name: Probleemoplossing voor testen met Performance SDK
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Performance SDK en testen met meerdere gebruikers in on-premises omgevingen
                   href: perf-test/perfsdk-tutorial-lbd.md
@@ -1538,6 +1536,8 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Batchtaken maken
                   href: sysadmin/tasks/create-batch-job.md
+                - name: Automatisch opnieuw proberen inschakelen voor batchtaken
+                  href: sysadmin/retryable-batch.md
                 - name: Een batchtaak kopiëren
                   href: sysadmin/copy-batch-job.md
                 - name: Actieve batchperioden
@@ -1588,12 +1588,10 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: Upgrade van AX 2012 - Controlelijst voor gegevensupgrade vóór upgrade
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: Upgrade van AX 2012 - Gegevensupgrade in sandboxomgevingen met behulp van het dacpac-proces
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
                 - name: Upgrade van AX 2012 - SQL-transactiereplicatie
                   href: database/replication-setup.md
-                - name: Upgrade van AX 2012 - Gegevensupgrade in sandboxomgevingen
-                  href: migration-upgrade/upgrade-data-sandbox.md
+                - name: Upgrade van AX 2012 - Gegevensupgrade in selfserviceomgevingen
+                  href: migration-upgrade/data-upgrade-self-service.md
                 - name: Upgrade van AX 2012 - On-premises omgevingen
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: Upgrade van AX 2012 - Cutover testen
