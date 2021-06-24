@@ -2,7 +2,7 @@
 title: Het voorspellingsmodel verbeteren (preview)
 description: In dit onderwerp worden de functies beschreven die u kunt gebruiken om de prestaties van voorspellingsmodellen te verbeteren.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 197aba724ea68ef79c2d16028c23533d952329a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810002"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186637"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Het voorspellingsmodel verbeteren (preview)
 
@@ -77,9 +77,5 @@ Het volgende veld moet niet zijn geselecteerd voor training:
 De filters ondersteunen momenteel het voorspellingsscenario voor klantbetalingen niet. Selecteer daarom **Deze stap overslaan** en ga naar de overzichtspagina.
 
 [![Focusmodel met filters](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
-
-#### <a name="privacy-notice"></a>Privacyverklaring
-Previews (1) bieden mogelijk minder privacy- en beveiligingsmaatregelen dan de service Dynamics 365 Finance and Operations, (2) worden niet opgenomen in de serviceovereenkomst voor deze service, (3) mogen niet worden gebruikt voor de verwerking van persoonsgegevens of andere gegevens die aan juridische of wettelijke nalevingvereisten zijn onderworpen en (4) worden slechts beperkt ondersteund.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

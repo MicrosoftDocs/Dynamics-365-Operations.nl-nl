@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2015405f3c7f89ba36f811ca125f3a73bc13c38
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753259"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6223981"
 ---
 # <a name="electronic-reporting-formula-language"></a>Formuletaal in Elektronische rapportage
 
@@ -38,13 +38,13 @@ ER-expressies kunnen een of alle van de volgende elementen bevatten:
 - [Paden](#Paths)
 - [Functies](#Functions)
 
-## <a name=""></a><a name="Constants">Constanten</a>
+## <a name="constants"></a><a name="Constants"></a>Constanten
 
 Wanneer u expressies ontwerpt, kunt u tekst- en numerieke constanten (waarden die niet worden berekend) gebruiken. De expressie `VALUE ("100") + 20` gebruikt bijvoorbeeld de numerieke constante **20** en de tekenreeksconstante **'100'** en retourneert de numerieke waarde **120**.
 
 De ER-formuleontwerper ondersteunt escapereeksen. Daarom kunt u een expressiereeks opgeven die anders moet worden behandeld. De expressie `"Leo Tolstoy ""War and Peace"" Volume 1"` retourneert bijvoorbeeld de tekstreeks **Leo Tolstoy "War and Peace" Volume 1**.
 
-## <a name=""></a><a name="Operators">Operatoren</a>
+## <a name="operators"></a><a name="Operators"></a>Operatoren
 
 De volgende tabel toont de rekenkundige operators die u kunt gebruiken om wiskundige basisbewerkingen uit te voeren, zoals optelling, aftrekking, deling en vermenigvuldiging.
 
@@ -88,9 +88,9 @@ De volgorde waarin de onderdelen van een samenstellingsexpressie worden geëvalu
 
 Als een expressie meerdere opeenvolgende operatoren met dezelfde prioriteit bevat, worden die bewerkingen van links naar rechts geëvalueerd. De expressie `1 + 6 / 2 \* 3 > 5` retourneert bijvoorbeeld **waar**. We raden aan haakjes te gebruiken om de gewenste evaluatievolgorde van bewerkingen in expressies expliciet aan te geven, zodat de expressies gemakkelijker te lezen en onderhouden zijn.
 
-## <a name=""></a><a name="References">Verwijzingen</a>
+## <a name="references"></a><a name="References"></a>Verwijzingen
 
-Alle gegevensbronnen van het huidige ER-onderdeel die tijdens het ontwerp van een expressie beschikbaar zijn, kunnen als benoemde verwijzingen worden gebruikt. Het huidige ER-onderdeel kan een modeltoewijzing of een indeling zijn. De huidige ER-modeltoewijzing bevat bijvoorbeeld de gegevensbron **ReportingDate** die een waarde van het gegevenstype *DateTime* retourneert. Om te zorgen dat deze waarde juist wordt opgemaakt in het genererende document kunt u als volgt verwijzen naar de gegevensbron in de expressie: `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
+Alle gegevensbronnen van het huidige ER-onderdeel die tijdens het ontwerp van een expressie beschikbaar zijn, kunnen als benoemde verwijzingen worden gebruikt. Het huidige ER-onderdeel kan een modeltoewijzing of een indeling zijn. De huidige ER-modeltoewijzing bevat bijvoorbeeld de gegevensbron **ReportingDate** die een waarde van het gegevenstype [*DateTime*](er-formula-supported-data-types-primitive.md#datetime) retourneert. Om te zorgen dat deze waarde juist wordt opgemaakt in het genererende document kunt u als volgt verwijzen naar de gegevensbron in de expressie: `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
 
 Alle tekens in de naam van een verwijzende gegevensbron die niet staan voor een letter van het alfabet, moeten worden voorafgegaan door een enkel aanhalingsteken ('). Als de naam van een verwijzende gegevensbron ten minste één symbool bevat dat geen letter van het alfabet voorstelt, moet de naam tussen enkele aanhalingstekens staan. Deze niet-alfabetische symbolen kunnen bijvoorbeeld leestekens of andere geschreven symbolen zijn. Hieronder vindt u enkele voorbeelden:
 
@@ -99,7 +99,7 @@ Alle tekens in de naam van een verwijzende gegevensbron die niet staan voor een 
 
 Als de methoden van toepassingsgegevensbronnen parameters hebben, wordt de volgende syntaxis gebruikt om deze methoden aan te roepen:
 
-- Naar de methode **isLanguageRTL** van de gegevensbron **Systeem** met een parameter **EN-US** van het gegevenstype *Tekenreeks* moet in een ER-expressie als volgt worden verwezen: `System.isLanguageRTL("EN-US")`.
+- Naar de methode **isLanguageRTL** van de gegevensbron **Systeem** met een parameter **EN-US** van het gegevenstype [*Tekenreeks*](er-formula-supported-data-types-primitive.md#string) moet in een ER-expressie worden verwezen als `System.isLanguageRTL("EN-US")`.
 - Aanhalingstekens zijn niet verplicht wanneer een methodenaam alleen alfanumerieke tekens bevat. Ze zijn wel verplicht voor een methode van een tabel als de naam haakjes bevat.
 
 Als de gegevensbron **Systeem** wordt toegevoegd aan een ER-toewijzing die naar de toepassingsklasse **Global** verwijst, retourneert de expressie `System.isLanguageRTL("EN-US ")` de *Booleaanse* waarde **FALSE**. De gewijzigde expressie `System.isLanguageRTL("AR")` retourneert de *Booleaanse* waarde **TRUE**.
@@ -107,9 +107,9 @@ Als de gegevensbron **Systeem** wordt toegevoegd aan een ER-toewijzing die naar 
 U kunt de manier waarop waarden worden doorgegeven aan de parameters van dit type methode beperken:
 
 - Alleen constanten kunnen worden doorgegeven aan methoden van dit type. De waarden van de constanten worden gedefinieerd in de ontwerpfase.
-- Alleen primitieve (basis) gegevenstypen worden voor parameters van dit type ondersteund. De primitieve gegevenstypen zijn *Geheel getal*, *Werkelijk*, *Booleaans* en *Tekenreeks*.
+- Alleen [primitieve](er-formula-supported-data-types-primitive.md) (basis) gegevenstypen worden voor parameters van dit type ondersteund. De primitieve gegevenstypen zijn *Geheel getal*, *Werkelijk*, *Booleaans* en *Tekenreeks*.
 
-## <a name=""></a><a name="Paths">Paden</a>
+## <a name="paths"></a><a name="Paths"></a>Paden
 
 Wanneer een expressie naar een gestructureerde gegevensbron verwijst, kunt u de paddefinitie gebruiken om een specifiek primitief element van deze gegevensbron te selecteren. Een puntteken (.) wordt gebruikt om afzonderlijke individuele elementen van een gestructureerde gegevensbron te scheiden. De huidige ER-modeltoewijzing bevat bijvoorbeeld de gegevensbron **InvoiceTransactions** die een lijst met records retourneert. De recordstructuur **InvoiceTransactions** bevat de velden **AmountDebit** en **AmountCredit**, die beide numerieke waarden retourneren. U kunt daarom de volgende expressie ontwerpen om het gefactureerde bedrag te berekenen: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. De constructie `InvoiceTransactions.AmountDebit` in deze expressie is het pad dat wordt gebruikt voor toegang tot het veld **AmountDebit** van de gegevensbron **InvoiceTransactions** van het type *Recordlijst*.
 
@@ -129,7 +129,7 @@ Het resterende gedeelte van het absolute pad wordt ook weergegeven in de [ER-for
 
 Zie [Een relatief pad gebruiken in gegevensbindingen van ER-modellen en -indelingen](relative-path-data-bindings-er-models-format.md) voor meer informatie.
 
-## <a name=""></a><a name="Functions">Functies</a>
+## <a name="functions"></a><a name="Functions"></a>Functies
 
 Ingebouwde ER-functies kunnen worden gebruikt in ER-expressies. Alle gegevensbronnen van de expressiecontext (de huidige ER-modeltoewijzing of de huidige ER-indeling) en ook constanten kunnen als parameters worden gebruikt van functieaanroepen volgens de lijst met argumenten voor functieaanroepen. Constanten kunnen ook worden gebruikt als parameters van het aanroepen van functies. De huidige ER-modeltoewijzing bevat bijvoorbeeld de gegevensbron **InvoiceTransactions** die een lijst met records retourneert. De recordstructuur **InvoiceTransactions** bevat de velden **AmountDebit** en **AmountCredit**, die beide numerieke waarden retourneren. Voor het berekenen van het gefactureerde bedrag kunt u daarom de volgende expressie ontwerpen die de ingebouwde ER-afrondingsfunctie gebruikt: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 
@@ -173,5 +173,8 @@ IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded
 
 [De lijst met functies voor elektronische rapportage uitbreiden](general-electronic-reporting-formulas-list-extension.md)
 
+[Ondersteunde primitieve gegevenstypen](er-formula-supported-data-types-primitive.md)
+
+[Ondersteunde samengestelde gegevenstypen](er-formula-supported-data-types-composite.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

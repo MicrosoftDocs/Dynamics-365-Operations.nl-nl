@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4e12eb3162d00c76254582c0621c9dd567df562
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e9c321315f91de6cf0f2029c26bd4f398a73830
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837292"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193996"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Enkel boekstuk met meerdere klant- of leveranciersrecords
 
@@ -207,8 +207,6 @@ Op het gerelateerde boekstuk voor contantkorting worden de financiële dimensies
 |-------------|-----------------|------------------------|-----------|------------|
 | ARP-00001   | 403300-002-023- | Contantkorting van klant | 2.00      |            |
 | ARP-00001   | 130100-002-     | Klantsaldo       |           | 2.00       |
-
-### 
 
 ## <a name="one-voucher-with-a-netting-for-multiple-customers-and-vendors"></a>Eén boekstuk met een verrekening voor meerdere klanten en leveranciers
 Verrekenen kan nuttig zijn wanneer een organisatie aan hetzelfde bedrijf verkoopt en ervan koopt. In plaats van leveranciersfacturen te betalen en wachten op ontvangst van betaling voor klantfacturen, worden de leveranciers- en klantfacturen verrekend. De verrekenende transactie wordt vereffend met de openstaande saldi. 

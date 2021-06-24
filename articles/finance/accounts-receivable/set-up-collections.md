@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5e08832d39f0428590780d47fd6b686048889cd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1ce37a85477d65b9592a32dcbe430d09f9dde62b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835215"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189464"
 ---
 # <a name="set-up-collections"></a>Verzamelingen opzetten
 
@@ -40,8 +40,7 @@ In dit artikel wordt beschreven hoe u de incassofunctie configureert. U moet een
 
 Deze punten worden in meer detail besproken in de rest van dit onderwerp. 
 
-<a name="set-up-aging-period-definitions"></a>Ouderdomsperiodedefinities instellen
--------------------------------
+## <a name="set-up-aging-period-definitions"></a>Ouderdomsperiodedefinities instellen
 
 Stel een ouderdomsperiodedefinitie in. Een ouderdomsperiodedefinitie definieert de kolommen die worden weergegeven op de lijstpagina's **Vervallen saldi**, **Incasseringsactiviteiten** en **Incassoaanvragen**. Het definieert ook de perioden die worden weergegeven op de pagina **Aanmaningen**. Wanneer er een klantenverzameling wordt ingesteld, wordt de ouderdomsperiodedefinitie voor de verzameling gebruikt. Als geen verzamelingen zijn geconfigureerd, wordt de standaard ouderdomsperiodedefinitie gebruikt die opgegeven is op de pagina **Parameters van module Klanten**. Als geen standaardouderdomsperiodedefinitie is opgegeven, wordt de eerste ouderdomsperiodedefinitie op de pagina **Ouderdomsperiodedefinities** gebruikt.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0af952c760a3a2039d3332f73544d0b7c45d7b09
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811356"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193900"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Overzicht van Financiële consolidaties en valutaomzetting
 
@@ -165,7 +165,8 @@ Klanten die Financiële rapportage voor financiële consolidaties en valutaomrek
 - **Gestroomlijnde valutaomrekening**: na de minimale instelling in Finance kunt u elk rapport van Financiële rapportage omzetten in elke valuta voor rapportage die is ingesteld. Daarnaast kunt u een onbeperkt aantal rapportagevaluta´s instellen.
 - **Schrappingen boeken bij de bron**: u kunt een schrappingsrapport maken en afdrukken om schrappingstransacties te verifiëren. Vervolgens kunt u alle nieuwe schrappingen boeken als standaard intercompany-transacties. U kunt ook een rechtspersoon voor schrapping gebruiken voor elke transactie die u niet in uw rechtspersonen wilt.
 
-## <a name="supported-consolidation-scenarios"></a>Ondersteunde consolidatiescenario's
+## <a name="supported-consolidation-scenarios-for-financial-reporting"></a>Ondersteunde consolidatiescenario's voor financiële rapportage
+
 Hier volgen enkele consolidatiescenario's die in Financiële rapportage worden ondersteund:
 
 - Consolidaties op één niveau en meerdere niveaus voor rechtspersonen

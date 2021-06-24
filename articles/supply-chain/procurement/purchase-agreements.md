@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 972762522b4f7627648f1e1eec9dad73fe503710
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 90bfd55bd865b27aec831957209ce8716cb253c8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825441"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188264"
 ---
 # <a name="purchase-agreements"></a>Inkoopovereenkomsten
 
@@ -102,8 +102,7 @@ Als u in één rechtspersoon een intercompany-inkooporder maakt die de intercomp
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Financiële dimensies op inkoopovereenkomsten
 U kunt financiële dimensies kopiëren naar documentkopteksten of naar afzonderlijke regels van een inkoopovereenkomst. Als u de dimensies in de overeenkomstkoptekst of de overeenkomstregel wijzigt, dan beïnvloedt de wijziging niet de vrijgegeven orders, maar werkt door in nieuwe orders die worden aangemaakt.
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Een inkoopovereenkomst maken](tasks/create-purchase-agreement.md)
 

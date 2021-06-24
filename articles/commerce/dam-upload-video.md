@@ -2,7 +2,7 @@
 title: Video's uploaden
 description: In dit onderwerp wordt beschreven hoe u video's uploadt in Microsoft Dynamics 365 Commerce Site Builder.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 06/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5ec20f8caee2f5a62230be05923dfd52600c1e35
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e3579b54c58898b79c84406480a3b58f541c4621
+ms.sourcegitcommit: 257437a57e146496a49782bc8aad179c92fbf6e8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799200"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "6224533"
 ---
 # <a name="upload-videos"></a>Video's uploaden
 
@@ -35,7 +35,7 @@ Met de mediabibliotheek van Commerce Site Builder kunt u video's uploaden. U moe
 Bij het uploaden van een video kan de volgende informatie worden opgegeven.
 
 - **Titel, beschrijving, trefwoorden**: metagegevens van de video.
-- **Automatisch ondertiteling genereren**: hiermee geeft u op of ondertiteling automatisch moet worden gegenereerd voor de video.
+- **Automatisch ondertiteling genereren**: hiermee geeft u op of ondertiteling automatisch moet worden gegenereerd voor de video (alleen de Engelse taal wordt ondersteund). 
 - **Ondertiteling**: hiermee geeft u op of ondertiteling moet worden gebruikt.
 - **Normale audio**: hiermee geeft u op dat het gewone audiospoor moet worden gebruikt.
 - **Miniatuur**: hiermee geeft u de miniatuur voor de video op. Als u dit niet opgeeft, wordt de miniatuur automatisch gegenereerd.

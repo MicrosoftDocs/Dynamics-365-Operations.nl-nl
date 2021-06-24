@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e5b097d667186a849b23814917d0d6f837c25de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b8e64264795fe90b52471a82220fe87459ca248
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834999"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188585"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Bankafschriften afstemmen via geavanceerde bankafstemming
 
@@ -28,8 +28,7 @@ ms.locfileid: "5834999"
 
 Met de functie Geavanceerde bankafstemming kunt u elektronische bankafschriften importeren en deze automatisch afstemmen met banktransacties in Dynamics 365 Finance. In dit onderwerp wordt het afstemmingsproces uitgelegd.  
 
-<a name="import-an-electronic-bank-statement"></a>Een elektronisch bankafschrift importeren
------------------------------------
+## <a name="import-an-electronic-bank-statement"></a>Een elektronisch bankafschrift importeren
 
 U importeert uw bankafschriften met behulp van de actie **Afschrift importeren** op de pagina **Bankafschriften**. De bankrekening wordt op het bankafschrift geïdentificeerd door een combinatie van waarden die zijn ingesteld voor de bankrekeninggegevens. Deze waarden omvatten de banknaam, het bankrekeningnummer, het routenummer, de SWIFT-code (Society for Worldwide Interbank Financial Telecommunication) en het internationale bankrekeningnummer (IBAN-nummer). 
 

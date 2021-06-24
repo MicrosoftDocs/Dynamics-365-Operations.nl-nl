@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f729b1703a7703a8a604b007bd1c8d9e1f604a6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 723e0fa52cd7a9377671795e039f5948ce9239f3
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897279"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187789"
 ---
 # <a name="view-financial-reports"></a>Financiële rapporten weergeven
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897279"
 
 In dit onderwerp wordt beschreven hoe u financiële rapporten kunt bekijken en verkennen. Het bevat informatie over de verschillende opties die u op financiële rapporten kunt toepassen om hun vormgeving en de gegevens die ze bevatten te wijzigen.
 
-<a name="financial-reporting-overview"></a>Overzicht van financiële rapportage
-----------------------------
+## <a name="financial-reporting-overview"></a>Overzicht van financiële rapportage
 
 ## <a name="open-a-financial-report"></a>Een financieel rapport openen
 Als u een rapport wilt openen, selecteert u de rapportnaam. De eerste keer dat een rapport wordt geopend, wordt het automatisch gegenereerd voor de vorige maand. Als u bijvoorbeeld een rapport voor de eerste keer opent in augustus 2015, wordt het rapport gegenereerd voor 31 juli 2015. Nadat een rapport is geopend, kunt u beginnen met het verkennen ervan door in te zoomen op specifieke gegevensitems en rapportopties te wijzigen.
@@ -76,8 +75,7 @@ Nadat u klaar bent met het instellen van de afdrukopties, klikt u op **Afdrukken
 ## <a name="export-a-financial-report"></a>Een financieel rapport exporteren
 Als u een financieel rapport wilt exporteren, klikt u in het actievenster op **Exporteren**. Het rapport wordt geëxporteerd naar Microsoft Excel en in uw browser wordt u gevraagd of u het geëxporteerde bestand wilt openen of opslaan. De exportinstellingen die in het rapportontwerp zijn gedefinieerd, worden toegepast op het geëxporteerde rapport.    
 
-<a name="additional-resources"></a>Aanvullende bronnen
---------
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Financiële rapportage](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 

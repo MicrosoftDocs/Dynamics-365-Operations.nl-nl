@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37fb7d2623451313475a6c234e820c7c6295be40
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e4b38fd137e6479493da79d4b62d0111b502a632
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835479"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189488"
 ---
 # <a name="vendor-posting-profiles"></a>Boekingsprofielen van leverancier
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835479"
 
 Met boekingsprofielen van leveranciers worden boekingen van leverancierstransacties naar het grootboek beheerd.
 
-<a name="vendor-posting-profiles"></a>Boekingsprofielen van leverancier
------------------------
+## <a name="vendor-posting-profiles"></a>Boekingsprofielen van leverancier
 
 Met boekingsprofielen van leveranciers kunt u grootboekrekeningen en documentinstellingen aan alle leveranciers, een groep leveranciers of één leverancier toewijzen. Deze instellingen worden gebruikt wanneer u inkooporders, leveranciersfacturen en contante betalingen maakt. Voor sommige transacties kunt u een boekingsprofiel selecteren dat afwijkt van en voorrang heeft op de boekingsprofielen die zijn ingesteld voor transacties op deze pagina. Het standaardboekingsprofiel wordt gedefinieerd op het sneltabblad **Grootboek en btw** op de pagina **Parameters van module Leveranciers**. Het standaardboekingsprofiel wordt vervolgens automatisch opgenomen in de koptekst van nieuwe documenten waarin u het vervolgens in een ander boekingsprofiel kunt wijzigen, indien nodig.
 

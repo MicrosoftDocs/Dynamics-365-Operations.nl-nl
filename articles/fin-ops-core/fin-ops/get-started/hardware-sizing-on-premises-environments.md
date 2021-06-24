@@ -2,7 +2,7 @@
 title: Vereisten vaststellen voor grootte van de hardware voor on-premises omgevingen
 description: Vereisten vaststellen voor grootte van de hardware voor on-premises omgevingen
 author: sericks007
-ms.date: 11/27/2019
+ms.date: 06/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
+ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923475"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6168724"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Vereisten vaststellen voor grootte van de hardware voor on-premises omgevingen
 
@@ -131,6 +131,8 @@ In de meeste gevallen, tenzij bij intensief gebruik, zijn de aanbevolen minimale
 ## <a name="sql-server-reporting-services"></a>SQL Server Reporting Services
 
 Voor de algemene beschikbaarheid hoeft slechts één SSRS-knooppunt te worden geïmplementeerd. Controleer SSRS-knooppunt bij het testen en verhoog het aantal beschikbare cores voor SSRS op basis van de behoefte. Zorg ervoor dat er een vooraf geconfigureerd secundair knooppunt beschikbaar is op een virtuele host die verschilt van de SSRS VM. Dit is belangrijk als er een probleem is met de virtuele machine die als host fungeert voor SSRS of met de virtuele host. Als dit het geval is, moeten ze worden vervangen.
+
+Vanaf versie 10.0.17 kunt u extra SSRS-knooppunten configureren om een hoge beschikbaarheid te bereiken. Zie [Hoge beschikbaarheid configureren voor SSRS-knooppunten (SQL Server Reporting Services)](../../dev-itpro/deployment/onprem-ssrsha.md).
 
 ## <a name="environment-orchestrator"></a>Orchestrator-omgeving
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d916b6593b641ec1c8365475103b1520e07e3768
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64e3624b387820bea3bfea9c2a4b2f48b0aa9822
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821932"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189016"
 ---
 # <a name="balance-sheet-financial-reports"></a>Financiële rapporten balans
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821932"
 
 In dit artikel worden de standaardrapporten voor balansen beschreven. Hierin worden ook de bouwstenen beschreven die aan deze rapporten zijn gekoppeld. 
 
-<a name="default-balance-sheet-reports"></a>Standaardbalansrapporten
------------------------------
+## <a name="default-balance-sheet-reports"></a>Standaardbalansrapporten
 
 Er zijn twee standaardbalansrapporten. In één rapport zijn de secties gestapeld. In het andere rapport worden de secties naast elkaar weergegeven.
 
@@ -68,8 +67,7 @@ De kolomdefinities bevatten verschillende typen kolommen om verschillende detail
 
 
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht van Financiële rapportage](financial-reporting-getting-started.md)
 

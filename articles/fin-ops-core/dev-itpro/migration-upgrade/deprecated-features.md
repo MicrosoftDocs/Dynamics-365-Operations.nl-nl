@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: f6a2bf4b15a067fd98059ecc41dfd62e4a91862e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112616"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193561"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Verwijderde of afgeschafte functies in eerdere releases
 
@@ -92,7 +92,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Vervangen door een andere functie?**   | Nee |
 | **Betrokken productgebieden**         | Italiaanse lokalisatie |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | Afgeschaft: op 1 oktober 2020 wordt het **Zwarte-lijstrapport (IT) – functieverwijzing IT-00001** niet meer ondersteund. |
+| **Status**                         | Afgeschaft: per 1 oktober 2020 wordt dit rapport niet meer ondersteund. |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Binnenlandse belastingaangifte – functieverwijzing IT-00003
 
@@ -362,9 +362,19 @@ Functie voor het maken van sjablonen voor nieuwe winstbelastingregisters. Met de
 | **Reden voor afschaffing/verwijdering** | Functie is niet compatibel met het Finance and Operations uitbreidbare model. |
 | **Vervangen door een andere functie?**   | Nee |
 | **Betrokken productgebieden**         | Belasting |
-| **Implementatieoptie**              | Alle |
+| **Implementatieoptie**              | Alles |
 | **Status**                         | Verwijderd sinds Finance and Operations 8.1 met Platform update 20. |
 
+### <a name="payroll-and-human-resources-for-russia"></a>Salarisadministratie en Human Resources voor Rusland
+Voor Rusland landspecifieke module voor het beheer van personeelsadministratiegegevens, urenstaatdetails voor werknemers, salarisadministratie en het maken van salarisoverzichten. 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Salarisadministratie maakt geen deel uit van de globale strategische focus van het Dynamics 365-portfolio. Partners en ISV's kunnen het beste salarisfunctionaliteit bieden die voldoet aan lokale regelgeving en belastingupdates.|
+| **Vervangen door een andere functie?**   | No|
+| **Betrokken productgebieden**         | Beheer van salarisadministratie en Human Resources voor Rusland |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Afgeschaft: de verwijdering van de functionaliteit is een van de toekomstige updates van versie 10.0. |
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 met platformupdate 15
 Er zijn geen onderdelen verwijderd of vervangen in deze versie. Platformupdate 15 is cumulatief en bevat nieuwe of gewijzigde functies van platformupdate 13, platformupdate 14 en platformupdate 15.

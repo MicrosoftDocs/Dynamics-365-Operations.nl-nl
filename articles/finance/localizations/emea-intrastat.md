@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: db97d05d79a100ebdcfb5b4931b37243b77bd352
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bafbb908531e003d2184409bf5d09ed5848fc474
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814990"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216783"
 ---
 # <a name="intrastat-overview"></a>Intrastat-overzicht
 
@@ -73,7 +73,7 @@ In de volgende tabel ziet u de vereisten voor Intrastat-aangifte.
 </tr>
 <tr class="odd">
 <td>Productcategoriehiërarchie (verkopenhiërarchie, inkoophiërarchie)</td>
-<td>Wijs de Intrastat-basisproductcodes toe aan de categorieknooppunten op het tabblad <strong>Basisproductcodes</strong> op de pagina <strong>Categoriehiërarchie</strong>. Wanneer u een basisproductcode aan een bovenliggende categorieknooppunt toewijst, is die code van toepassing op alle onderliggende categorieknooppunten. De geselecteerde basisproductcodes zijn beschikbaar in de weergave <strong>Geselecteerd</strong>, wanneer u een basisproductcode selecteert in de details van een vrijgegeven product, en op regels van verkooporders, inkooporders, en transferorders.</td>
+<td>Wijs de Intrastat-basisproductcodes toe aan de categorieknooppunten op het tabblad <strong>Basisproductcodes</strong> op de pagina <strong>Categoriehiërarchie</strong>. Wanneer u een basisproductcode aan een bovenliggende categorieknooppunt toewijst, is die code van toepassing op alle onderliggende categorieknooppunten. De geselecteerde basisproductcodes zijn beschikbaar in de weergave <strong>Geselecteerd</strong>, wanneer u een basisproductcode selecteert in de productdetails, en op regels van verkooporders, inkooporders en transferorders.</td>
 </tr>
 <tr class="even">
 <td>Vrijgegeven productdetails</td>
@@ -84,10 +84,11 @@ In de volgende tabel ziet u de vereisten voor Intrastat-aangifte.
 <li><strong>Land/regio van oorsprong</strong>: Selecteer het standaardland/de standaardregio waar de goederen volledig werden verkregen of geproduceerd.</li>
 <li><strong>Staat/provincie van oorsprong of bestemming</strong>: Selecteerd de standaardstaat/-provincie van bestemming voor ontvangsten en de staat/provincie van verzending.</li>
 <li><strong>Nettogewicht in kg</strong></li>
+<li><strong>Uitsluiten</strong> - Schakel deze parameter in als u transacties met dit product niet naar Intrastat wilt overboeken</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Klanten</td>
+<td>Klanten    </td>
 <td>Configureer het afleveradres van de klant in het EU-land/de EU-regio.</td>
 </tr>
 <tr class="even">

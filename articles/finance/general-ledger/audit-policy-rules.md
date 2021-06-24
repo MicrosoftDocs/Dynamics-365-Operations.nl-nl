@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1297f405e57c2de4f42f05f78ef52b2d763f0f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f57c3405e03651798b7e0aaf1fab84d25f33f7cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821980"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187863"
 ---
 # <a name="audit-policy-rules"></a>Controlebeleidsregels
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821980"
 
 U kunt een auditbeleid gebruiken om onkostenrapporten, leveranciersfacturen en inkooporders te beoordelen om zeker te zijn dat ze de beleidsregels die u maakt naleven. Alle regels die aan een auditbeleid zijn gekoppeld, worden in batchmodus uitgevoerd volgens een planning die u opgeeft.  Elke beleidsregel is een instantie van een beleidsregeltype. Voor elk beleidsregeltype, kan slechts één beleidsregel tegelijkertijd actief zijn. 
 
-<a name="queries-and-query-types"></a>Query's en querytypen
------------------------
+## <a name="queries-and-query-types"></a>Query's en querytypen
 
 Wanneer u een auditbeleidsregel maakt, selecteert u eerst een beleidsregeltype. Het beleidsregeltype specificeert de AOT-query (Application Object Tree) die u wilt gebruiken als uitgangspunt voor het maken van de beleidsregel. Het specificeert ook het querytype dat u voor de beleidsregel moet gebruiken. De query bepaalt het brondocument waarvoor de beleidsregel een beoordeling uitvoert. Het specificeert ook de velden in het brondocument dat zowel de rechtspersoon identificeert als de te gebruiken datum wanneer documenten voor een audit worden geselecteerd. Met het querytype worden de standaardvelden op de querypagina en op de pagina Controlebeleidsregel bepaald. De volgende tabel geeft de beschikbare querytypen voor auditbeleidsregels weer.
 
@@ -91,8 +90,7 @@ Alle beleidsregels voor een specifiek auditbeleid delen dezelfde batchparameters
 
 
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Overtredingen van controlebeleid en voorbeelden](audit-policy-violations-cases.md)
 [Auditbeleid voor brondocumenten definiëren](tasks/define-audit-policies-source-documents.md)

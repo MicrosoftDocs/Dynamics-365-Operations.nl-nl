@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 9ae13ce4038346cd5b101b5c40fe3b7c5e617fbf
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5960044"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187935"
 ---
 # <a name="budgeting-overview"></a>Overzicht van Budgettering
 
@@ -28,8 +28,7 @@ ms.locfileid: "5960044"
 
 Bijna elk bedrijf dat gebruikmaakt van de functionaliteit Financiële items in Microsoft Dynamics 365 Finance, moet rapporten kunnen maken van gebudgetteerde versus werkelijke waarden. In dit artikel wordt de minimale configuratie uitgelegd die nodig is om budgetten in Finance and Operations te kunnen maken of budgetten te kunnen laden vanuit een programma van derden.
 
-<a name="overview"></a>Overzicht
---------
+## <a name="overview"></a>Overzicht
 
 Het goedgekeurde budget voor een rechtspersoon wordt beheerd in een document dat een *budgetregisterregel* wordt genoemd. De regels in een budgetjournaalpostdocument worden *budgetrekeningposten* genoemd, en bevatten financiële dimensiegegevens, datums en de bedragen van het goedgekeurde budget. Het document met budgetjournaalposten is geïntegreerd met elementaire financiële rapporten en querypagina´s waarin werkelijke bedragen worden vergeleken met gebudgetteerde bedragen. 
 

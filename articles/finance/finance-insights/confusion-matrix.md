@@ -2,7 +2,7 @@
 title: Resultaten van machine learning-modellen (preview)
 description: In dit onderwerp worden verwarringsmatrixen, classificatieproblemen en nauwkeurigheid in modellen voor machine learning (ML) besproken. Het doel is om uw begrip van de nauwkeurigheid in ML-voorspellingsresultaten te vergroten.
 author: ShivamPandey-msft
-ms.date: 06/05/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028198"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193535"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Resultaten van machine learning-modellen (preview)
 
@@ -129,16 +129,12 @@ Om de berekeningen te vereenvoudigen, worden samplematrixen gebouwd om de werkel
 
 Hier volgt het sklearn.metrics-classificatierapport voor model 1 voor meer informatie over hoe deze berekening werkt. De drie statussen, 'op tijd', 'laat' en 'zeer laat', worden aangegeven door de rijen met respectievelijk de namen 1, 2 en 3. Het macrogemiddelde is gewoon het gemiddelde van de kolom ' f1-score'.
 
-|           | precisie | relevante overeenkomsten   | f1-score |
+| &nbsp;    | precisie | relevante overeenkomsten   | f1-score |
 |-----------|-----------|----------|----------|
 | **1**     | 0.83      | 0.80     | 0.82     |
 | **2**     | 0.68      | 0.71     | 0.69     |
 | **3**     | 0.50      | 0.50     | 0.50     |
 
 Zoals deze resultaten aangeven, hebben de twee modellen bijna dezelfde F1-macronauwkeurigheidsscores. In deze en vele andere gevallen biedt de F1-nauwkeurigheid een betere indicatie van de mogelijkheden van een model. Net als voor de nauwkeurigheid vereist de interpretatie van de resultaten dat u begrijpt wat het belangrijkst is om in het model te overwegen.
-
-#### <a name="privacy-notice"></a>Privacyverklaring
-Previews (1) bieden mogelijk minder privacy- en beveiligingsmaatregelen dan de service Dynamics 365 Finance and Operations, (2) worden niet opgenomen in de serviceovereenkomst voor deze service, (3) mogen niet worden gebruikt voor de verwerking van persoonsgegevens of andere gegevens die aan juridische of wettelijke nalevingvereisten zijn onderworpen en (4) worden slechts beperkt ondersteund.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

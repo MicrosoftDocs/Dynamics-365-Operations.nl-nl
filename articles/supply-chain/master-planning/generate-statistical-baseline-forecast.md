@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 562cf07348e77d9c2f169e31a852843bea10fcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 780d1e1307b69ec9a31d032039970de454160d6f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816503"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189687"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>Een statistische basislijnprognose genereren
 
@@ -67,8 +67,7 @@ Als de prognose niet wordt gegenereerd voor een grote set artikelen, maar bijvoo
 > [!NOTE]
 > Een potentieel vlakke prognose kan het gevolg zijn van de historische gegevens die een langere historische periode moeten omvatten (minimaal drie tijdsperioden om patronen te kunnen zien, bijvoorbeeld 3 jaar met maandelijkse prognose). U kunt proberen de nauwkeurigheid van het tijdsbereik te wijzigen of het tijdsbereik te vergroten om een beter resultaat te krijgen.
 
-<a name="additional-resources"></a>Aanvullende bronnen
---------
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Instelling van Vraagprognose](demand-forecasting-setup.md)
 

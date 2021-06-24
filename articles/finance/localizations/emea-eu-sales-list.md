@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epopov
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 672bb37a4d191c4b4f72b234ba98766ffd223f69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5d1df15462a39c17710c9300425561bba8b69fc7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826124"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188379"
 ---
 # <a name="eu-sales-list-reporting"></a>Rapport ICL-lijst
 
@@ -27,8 +27,7 @@ ms.locfileid: "5826124"
 
 Dit artikel biedt informatie over rapportage van de EU-verkooplijst (Europese Unie).
 
-<a name="eu-sales-list-reporting"></a>EU-verkooplijst rapportering
------------------------
+## <a name="eu-sales-list-reporting"></a>EU-verkooplijst rapportering
 
 Een leverancier die de intracommunautaire levering van goederen of diensten aan bedrijven uitvoert die binnen De Europese Unie (EU) zijn gevestigd, moeten een Aangifte vanIntracommunautaire Levering (EU-verkooplijst of ESL) indienen. In het algemeen moet ESL bij de belastingdienst worden ingediend, niet later dan de laatste dag van de maand na de kalenderperiode die ESL dekt. De leverancier moet zijn Belasting Toegevoegde Waarde (BTW)-nummer in ESL opgeven en moet ook per klant, de volgende informatie opgeven:
 

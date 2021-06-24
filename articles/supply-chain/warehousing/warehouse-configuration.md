@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 734246cde20f5ce76e34dae772ed0ba6b0e361a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1dc6c99a986bad767691f7cac7e0135c54e1d0b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837364"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189546"
 ---
 # <a name="warehouse-configuration-overview"></a>Overzicht van Magazijnconfiguratie
 
@@ -109,8 +109,7 @@ Zoals de naam al zegt, worden de locatierichtlijnen gebruikt om de werktransacti
 
 Om het gemakkelijker en sneller te maken om de acties te definiëren die zijn gekoppeld aan elke regel van de locatierichtlijn, gebruikt u een van de vooraf gedefinieerde strategieën. U kunt bijvoorbeeld de strategie **Lege locatie met geen inkomend werk** gebruiken om te zoeken naar vrije locaties in een magazijn, of u kunt de strategie **FEFO-batchreservering** gebruiken voor uitgaande verkoopverzameling.
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Locaties in een WMS-magazijn configureren](tasks/configure-locations-wms-enabled-warehouse.md)
 

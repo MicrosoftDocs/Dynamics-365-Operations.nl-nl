@@ -1,5 +1,5 @@
 ---
-title: Handmatig een vraagprognose wijzigen
+title: 'Guide: handmatig een vraagprognose wijzigen'
 description: Dit onderwerp laat zien hoe u de prognose voor een artikel kunt wijzigen
 author: ChristianRytt
 ms.date: 08/12/2019
@@ -11,18 +11,18 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5da1d5b1fbd91964e695a704681b1c9ee513a2f1
-ms.sourcegitcommit: 4016c223a985c46e33f9941bf91ba5e1583e1cfd
+ms.openlocfilehash: 1e12ccf90b9971379e8931bd48d6243a855bb795
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5889019"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224005"
 ---
-# <a name="modify-a-demand-forecast-manually"></a>Handmatig een vraagprognose wijzigen
+# <a name="guide-modify-a-demand-forecast-manually"></a>Guide: handmatig een vraagprognose wijzigen
 
 [!include [banner](../../includes/banner.md)]
 
-Deze procedure laat zien hoe u de prognose voor een artikel kunt wijzigen. Het bedrijf van de demogegevens dat wordt gebruikt om deze procedure te maken is USMF. Deze procedure is bedoeld voor de productieplanner.
+Deze procedure laat zien hoe u de prognose voor een artikel kunt wijzigen. Deze procedure is bedoeld voor de productieplanner.
 
 ## <a name="modify-the-forecast-for-a-selected-item"></a>De prognose voor een geselecteerd artikel wijzigen
 
@@ -36,9 +36,9 @@ De prognose voor een geselecteerd artikel wijzigen:
 1. Vul zo nodig de andere velden in.
 1. Selecteer **Opslaan** in het actievenster.
 
-## <a name="modify-the-forecast-for-one-or-more-items-microsoft-excel"></a>De prognose voor een of meer artikelen wijzigen met Microsoft Excel
+## <a name="modify-the-forecast-for-one-or-more-items-with-microsoft-excel"></a>De prognose voor een of meer artikelen wijzigen met Microsoft Excel
 
-De prognose voor een of meer artikelen wijzigen met Microsoft Excel:
+Ga als volgt te werk om de prognose voor een of meer artikelen te wijzigen met Microsoft Excel:
 
 1. U kunt een van de volgende dingen doen:
     - Open de **pagina Vraagprognose** voor een artikel (het maakt niet uit welke pagina) zoals wordt beschreven in de vorige sectie.

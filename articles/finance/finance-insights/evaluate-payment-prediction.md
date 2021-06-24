@@ -2,7 +2,7 @@
 title: Het aanvankelijke voorspellingsmodel voor klantbetalingen evalueren (preview)
 description: In dit onderwerp worden de stappen beschreven die u kunt uitvoeren om het voorspellingsmodel voor klantbetalingen te begrijpen en de effectiviteit ervan te beoordelen.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897907"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186733"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Het aanvankelijke voorspellingsmodel voor klantbetalingen evalueren (preview)
 
@@ -95,9 +95,5 @@ Wanneer u de resultaten van uw eerste model beter begrijpt, kunt u het model ver
 ## <a name="for-more-information"></a>Meer informatie
 
 Voor meer informatie over het evalueren van voorspellingsmodellen, [Resultaten van machine learning modellen](/confusion-matrix.md)
-
-#### <a name="privacy-notice"></a>Privacyverklaring
-Previews (1) bieden mogelijk minder privacy- en beveiligingsmaatregelen dan de service Dynamics 365 Finance and Operations, (2) worden niet opgenomen in de serviceovereenkomst voor deze service, (3) mogen niet worden gebruikt voor de verwerking van persoonsgegevens of andere gegevens die aan juridische of wettelijke nalevingvereisten zijn onderworpen en (4) worden slechts beperkt ondersteund.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

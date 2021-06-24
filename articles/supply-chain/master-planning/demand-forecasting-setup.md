@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d2f1820f79798488c73f20f9c688fa877af4f1b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4960e8418de473d20c9a1948ca606ae76ad1ac19
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816527"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189711"
 ---
 # <a name="demand-forecasting-setup"></a>Instelling van vraagprognose
 
@@ -88,8 +88,7 @@ Op het tabblad **Toewijzingssleutels** kunt u de **Parameters van prognosealgori
 - **Hint seizoensgebondenheid**: voor seizoensgegevens kunt u het prognosemodel een hint geven om de prognosenauwkeurigheid te verbeteren. Indeling: geheel getal dat het aantal buckets aangeeft waarvoor een vraagpatroon zichzelf herhaalt. Voer bijvoorbeeld "6" in voor gegevens die zichzelf elke 6 maanden herhalen.
 - **Groottepercentage van testset**: percentage van historische gegevens die kunnen worden gebruikt als een testset voor de berekening van prognosenauwkeurigheid. 
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht van Vraagprognose](introduction-demand-forecasting.md)
 

@@ -9,6 +9,7 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
+ms.search.scope: ''
 ms.custom: 260624
 ms.assetid: ''
 ms.search.region: global
@@ -16,17 +17,16 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f7ff7ea28f8417d4c35f87e0d8fef46d647f42e4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 51fd8ca2ef7cdc43967ced8251b8377f3eaaf753
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019097"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193667"
 ---
 # <a name="commerce-home-page"></a>Startpagina Commerce
 
 [!include [banner](includes/banner.md)]
-
 
 Dynamics 365 Commerce: gebaseerd op de beproefde mogelijkheden van Dynamics 365 Retail biedt een allesomvattende oplossing voor meer kanalen die een universele ervaring biedt voor de backoffice, in de winkel, in het callcenter en bij digitale activiteiten. Met Dynamics 365 Commerce kunt u merkloyaliteit opbouwen via aangepaste klantafspraken, de omzet verhogen door verbeterde werknemerproductiviteit, de activiteiten optimaliseren om de kosten te verlagen en de toeleveringsketen efficiënter te maken. Dit leidt tot betere bedrijfsresultaten
 
@@ -38,15 +38,16 @@ Met deze versie kunt u digitale ervaringen maken met ingebouwde webontwerpprogra
 
 - **Flexibele en intelligente omnichannel-ervaring:** combineer fysieke en digitale handel door klanten een consistente ervaring te leveren bij zoeken en detecteren in de cloud, productbeoordelingen, verlanglijsten, voorraad, geschenkbonnen en loyaliteit. Sta toe dat klanten kopen wanneer, hoe en waar ze dat willen en op elk apparaat. En bied de keuze uit moderne betalingsmethoden en de optie voor producten afhalen of leveren.
 
-- **Stroomlijn bewerkingen met AI in de cloud:** stimuleer omnichannel-ervaringen en geïntegreerde, geoptimaliseerde backofficebewerkingen via fijnmazige, inzichtelijke en contextbewuste intelligentie in de cloud. Gebruik geavanceerde merchandising, voorraadbeheer, gedistribueerd orderbeheer, en prijzen en promotie om te innoveren en de concurrentie voor te blijven. Verkrijg inzichten door complete en consistente gegevens in alle aspecten van uw bedrijf te visualiseren en analyseren. Gebruik AI-technologieën om toegankelijke websites te bieden, uw bedrijf te beschermen tegen betalingsfraude en efficiënt door gebruikers gegenereerde inhoud, zoals beoordelingen en recensies, op te nemen. 
+- **Stroomlijn bewerkingen met AI in de cloud:** stimuleer omnichannel-ervaringen en geïntegreerde, geoptimaliseerde backofficebewerkingen via fijnmazige, inzichtelijke en contextbewuste intelligentie in de cloud. Gebruik geavanceerde merchandising, voorraadbeheer, gedistribueerd orderbeheer, en prijzen en promotie om te innoveren en de concurrentie voor te blijven. Verkrijg inzichten door complete en consistente gegevens in alle aspecten van uw bedrijf te visualiseren en analyseren. Gebruik AI-technologieën om toegankelijke websites te bieden, uw bedrijf te beschermen tegen betalingsfraude en efficiënt door gebruikers gegenereerde inhoud, zoals beoordelingen en recensies, op te nemen.
 
 ## <a name="core-concepts-and-tasks"></a>Kernconcepten en -taken
 
 Selecteer een functiegebied voor meer informatie hierover.
+
 - [Een Commerce preview-omgeving configureren](provisioning-guide.md)
 - [Commerce-architectuur](./commerce-architecture.md)
-- [Uw afzetkanalen instellen](channels-overview.md)
-- [Uw producten en diensten aan de man brengen](set-up-retail-products.md)
+- [Uw kanalen instellen](channels-overview.md)
+- [Merchandising van uw producten en diensten](set-up-retail-products.md)
 - [Uw orders beheren](Order-fulfillment-overview.md)
 - [Uw klanten beheren](set-up-customer-loyalty-program.md)
 - [Uw financiële items beheren](retail-statements.md)
@@ -54,5 +55,6 @@ Selecteer een functiegebied voor meer informatie hierover.
 - [Fraud Protection](dev-itpro/DFP.md)
 - [Ontwikkeling en uitbreidbaarheid van handel](dev-itpro/dev-retail-home-page.md)
 
+## <a name="elearning-courses"></a>eLearning-cursussen
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Zie [Dynamics 365 Commerce op Microsoft Learn](https://docs.microsoft.com/learn/browse/?expanded=dynamics-365&products=dynamics-commerce&resource_type=learning%20path) voor informatie over online cursussen en training.

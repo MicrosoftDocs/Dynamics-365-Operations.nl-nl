@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 33d5e831d3a631aa17e78628a4e88b5e1cfa8c73
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e4109762a2db3114ad66882092d6729dd9b08364
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052857"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190203"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>Artikelen beheren die aan werknemers worden uitgeleend
 
@@ -41,14 +41,12 @@ Werknemers kunnen de records van de artikelen weergeven die aan hen zijn uitgele
 
 Managers kunnen geleende artikelen voor hun directe ondergeschikten weergeven. Ze kunnen ook gemachtigd worden om nieuwe leenartikelen namens hun werknemers toe te voegen.
 
- <a name="account-for-lost-or-misplaced-loan-items"></a>Rekening voor verloren of beschadigde leenartikelen
------------------------------------------
+##  <a name="account-for-lost-or-misplaced-loan-items"></a>Rekening voor verloren of beschadigde leenartikelen
 
 Als een artikel beschadigd is of verloren raakt, noteert u een fictieve teruggave. Vervolgens verwijdert u het artikel of laat u het artikel in het overzicht staan, maar vermeldt u dat het artikel niet meer beschikbaar is.
 
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [HRM](index.md)
 

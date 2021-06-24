@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b24d37292a2e9749fb2fde06b9f03fcd13db0bbe
-ms.sourcegitcommit: 48528233e0f02dbd47e96e030254ef65f2bb899e
+ms.openlocfilehash: 5a65f1884ea87bbf2519cc94e4c52a40ac1a91bd
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6076586"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193972"
 ---
 # <a name="enter-skills"></a>Vaardigheden invoeren
 
@@ -77,7 +77,7 @@ Als u vaardigheden wilt invoeren zonder dat deze hoeven te worden goedgekeurd, m
 
 15. Selecteer **Sluiten**, selecteer **Werkstroom** in de canvas-breadcrumb en selecteer vervolgens **Opslaan en sluiten**.
 
-Zie [Overzicht van werkstroomsysteem](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/overview-workflow-system?toc=/dynamics365/human-resources/toc.json) voor meer informatie over het maken van werkstromen.
+Zie [Overzicht van werkstroomsysteem](../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json) voor meer informatie over het maken van werkstromen.
 
 ## <a name="enter-skills-for-a-worker"></a>Vaardigheden voor een werknemer invoeren
 

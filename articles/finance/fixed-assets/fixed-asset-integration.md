@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc069743c1b28133540eeab98ae6dd5242a5e887
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e6be2aeb263c339f4e733b98ea4e01194973a9f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826829"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189779"
 ---
 # <a name="fixed-assets-integration"></a>Integratie vaste activa
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826829"
 
 Vaste activa kunnen worden gebruikt in Grootboek, Voorraadbeheer, Klanten en Leveranciers. U kunt vaste activa ook integreren met inkooporders.
 
-<a name="general-ledger"></a>Grootboek
---------------
+## <a name="general-ledger"></a>Grootboek
 
 In de module Grootboek wordt de waarde van alle vaste activa doorgaans samengevat op meerdere hoofdrekeningen die nodig zijn voor de financiële rapportage. Op de pagina **Vaste activa** kunt u echter veel records van vaste activa maken. Deze records kunnen gegevens bevatten zoals de aanschafprijs, afschrijving en waardering. Telkens wanneer u een transactie voor vaste activa boekt, worden de betreffende hoofdrekeningen bijgewerkt. Op de hoofdrekeningen voor vaste activa staat altijd de bijgewerkte waarde van de vaste activa.
 

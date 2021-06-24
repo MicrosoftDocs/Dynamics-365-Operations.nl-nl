@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 43ab01d36f032e36a0daed6f94897bba42f8a189
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897031"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188992"
 ---
 # <a name="get-started-with-financial-reporting"></a>Aan de slag met Financial Reporting 
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897031"
 
 In dit onderwerp wordt beschreven waar u toegang kunt krijgen tot financiële rapportage en hoe u de financiële rapportagemogelijkheden kunt gebruiken. Het bevat ook een omschrijving van de financiële standaardrapporten die worden geleverd.
 
-<a name="accessing-financial-reporting"></a>Toegang verkrijgen tot financiële rapportage
------------------------------
+## <a name="accessing-financial-reporting"></a>Toegang verkrijgen tot financiële rapportage
 
 U vindt het menu **Financiële rapportage** op de volgende locaties:
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 953069dfd39843d39cc92d99318f02819dc31ed0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 513066a597620450f0b482e98e36d31c6f2c980a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820979"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189088"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Boekhoudingsverdelingen en journaalposten voor leveranciersfacturen
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820979"
 
 Boekhoudingsverdelingen worden gebruikt om te bepalen hoe een bedrag zal worden verwerkt, zoals hoe de onkosten, BTW of heffingen zullen worden verwerkt op een leveranciersfactuur. Elk bedrag dat moet worden verwerkt wanneer de leveranciersfactuur in het boekhoudingsjournaal wordt vastgelegd, heeft een of meerdere boekhoudingsverdelingen. 
 
-<a name="accounting-distributions"></a>Boekhoudingsverdelingen 
--------------------------
+## <a name="accounting-distributions"></a>Boekhoudingsverdelingen 
 
 U kunt de volgende knoppen op de pagina Leveranciersfactuur gebruiken voor het weergeven en mogelijk wijzigen van de boekhoudingsverdelingen voor elk bedrag op de leveranciersfactuur.
 -   **Bedragen verdelen** – De boekhoudingsverdelingen weergeven en wijzigen voor een afzonderlijke regel en alle onderliggende regels, zoals belastingen of heffingen. U kunt de boekhoudingsverdeling voor de onderliggende regel rechtstreeks weergeven en wijzigen op de pagina Btw-transacties of de pagina Transacties met toeslagen transacties.
@@ -227,8 +226,7 @@ Wanneer u een leveranciersfactuur invoert, wordt elk bedrag als volgt verdeeld.
 </table>
 
 
-<a name="distributing-taxes"></a>Belastingen verdelen
-------------------
+## <a name="distributing-taxes"></a>Belastingen verdelen
 
 Boekhoudingsverdelingen voor belastingen kunnen pas worden gemaakt nadat belastingen zijn berekend. Voor het berekenen van de btw moet u een van de volgende taken uitvoeren op de pagina Leveranciersfactuur:
 -   Het factuurtotaal weergeven.

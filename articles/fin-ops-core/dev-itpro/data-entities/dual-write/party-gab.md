@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: e2b0abb2826f81ed87b4f0f37dba32c1d8d749c2
-ms.sourcegitcommit: 194d68b24cd36db21e9029044bed18983fd9810c
+ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937881"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216607"
 ---
 # <a name="party-and-global-address-book"></a>Partij en globaal adresboek
 
@@ -143,16 +143,22 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
 
 ## <a name="setup"></a>Instelling
 
-1. Installeer de meest recente versie (2.2.2.60 of hoger) van [orkestratieversie van de oplossing Twee keer wegschrijven](https://aka.ms/dual-write-app).
+1. Omgeving van de Customer Engagement-app openen.
 
-2. Installeer [de oplossingen voor twee keer wegschrijven voor Partij en Globaal adresboek](https://aka.ms/dual-write-gab).
+2. Installeer de meest recente versie (2.2.2.60 of hoger) van [orkestratieversie van de oplossing Twee keer wegschrijven](https://aka.ms/dual-write-app).
 
-3. Stop de volgende kaarten, omdat ze niet meer nodig zijn. Voer in plaats daarvan de kaart `Contacts V2 (msdyn_contactforparties)` uit.
+3. Installeer [de oplossingen voor twee keer wegschrijven voor Partij en Globaal adresboek](https://aka.ms/dual-write-gab).
+
+4. Open de Finance and Operations-app. Navigeer naar de module Gegevensbeheer en selecteer het tabblad Twee keer wegschrijven. De pagina voor beheer van twee keer wegschrijven wordt geopend.
+
+5. Pas beide oplossingen toe die in stap 2 en 3 zijn geïnstalleerd met behulp van de functie [Oplossing toepassen](link-your-environment.md).
+
+6. Stop de volgende kaarten, omdat ze niet meer nodig zijn. Voer in plaats daarvan de kaart `Contacts V2 (msdyn_contactforparties)` uit.
 
     + CDS-contactpersonen V2 en Contactpersonen (verwijst naar klantcontactpersonen)
     + CDS-contactpersonen V2 en Contactpersonen (verwijst naar leverancierscontactpersonen)
 
-4. De volgende entiteitstoewijzingen worden bijgewerkt voor partijfunctionaliteit, dus de nieuwste versie moet op deze toewijzingen worden toegepast.
+7. De volgende entiteitstoewijzingen worden bijgewerkt voor partijfunctionaliteit, dus de nieuwste versie moet op deze toewijzingen worden toegepast.
 
     Toewijzing | Update naar deze versie | Wijzigingen
     ---|---|---
@@ -176,7 +182,7 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Dit is een nieuwe toewijzing die is toegevoegd als onderdeel van deze release.
 
-5. Voordat u de bovenstaande kaarten gaat uitvoeren, moet u de integratiesleutels handmatig bijwerken zoals beschreven in de volgende stappen. Selecteer **Save**.
+8. Voordat u de bovenstaande kaarten gaat uitvoeren, moet u de integratiesleutels handmatig bijwerken zoals beschreven in de volgende stappen. Selecteer **Save**.
 
     | Toewijzing | Sleutels |
     |-----|------|
@@ -185,7 +191,7 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
     | Contactpersoon voor klant/leverancier | msdyn_contactforpartynumber [Nummer contactpersoon voor partij]<br>msdyn_associatedcompanyid.cdm_companycode [Gekoppeld bedrijf (Bedrijfscode)] |
     | Leverancier | msdyn_vendoraccountnumber [Accountnummer leverancier]<br>msdyn_company.cdm_companycode [Bedrijf (Bedrijfscode)]|
 
-6. In Dataverse zijn de tekenlimieten van de regels voor duplicatendetectie verhoogd van 450 tot 700 tekens. Met deze limiet kunt u een of meer sleutels toevoegen aan de regels voor duplicatendetectie. Breid de regel voor duplicatendetectie uit voor de tabel **Accounts** door de volgende velden in te stellen.
+9. In Dataverse zijn de tekenlimieten van de regels voor duplicatendetectie verhoogd van 450 tot 700 tekens. Met deze limiet kunt u een of meer sleutels toevoegen aan de regels voor duplicatendetectie. Breid de regel voor duplicatendetectie uit voor de tabel **Accounts** door de volgende velden in te stellen.
 
     | Veld | Waarde |
     |-------|-------|
@@ -201,7 +207,7 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
 
     ![Duplicatenregel voor Accounts](media/duplicate-rule-1.PNG)
 
-7. Breid de regel voor duplicatendetectie uit voor de tabel **Contactpersonen** door de volgende velden in te stellen.
+10. Breid de regel voor duplicatendetectie uit voor de tabel **Contactpersonen** door de volgende velden in te stellen.
 
     | Veld | Waarde |
     |-------|-------|
@@ -217,9 +223,9 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
 
     ![Duplicatenregel voor Contactpersonen](media/duplicate-rule-2.PNG)
 
-8. Als u een bestaande gebruiker van Twee keer wegschrijven bent, volgt u de instructies in [Bijwerken naar het model voor partij en globaal adresboek](upgrade-party-gab.md) om uw gegevens te upgraden.
+11. Als u een bestaande gebruiker van Twee keer wegschrijven bent, volgt u de instructies in [Bijwerken naar het model voor partij en globaal adresboek](upgrade-party-gab.md) om uw gegevens te upgraden.
 
-9. Voer de kaarten uit in de volgende volgorde. Als u een fout krijgt met de tekst "Projectvalidatie mislukt. Doelveld ontbreekt...", open dan de kaart en selecteer **Tabellen vernieuwen**. Voer vervolgens de kaart uit.
+12. Voer de kaarten uit in de volgende volgorde. Als u een fout krijgt met de tekst "Projectvalidatie mislukt. Doelveld ontbreekt...", open dan de kaart en selecteer **Tabellen vernieuwen**. Voer vervolgens de kaart uit.
 
     Finance and Operations-app | Customer Engagement-app  
     ----------------------------|------------------------

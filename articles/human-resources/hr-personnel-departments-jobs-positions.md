@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1279cd1eb0d495107515dd40f7d2e0f9dfd5e080
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 84e7017cb0bd799e27e19fc82009307d2955dea7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058819"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189745"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Uw werknemers organiseren met afdelingen, taken en posities
 
@@ -42,8 +42,7 @@ Het volgende voorbeeld wordt gebruikt om de concepten te illustreren die in dit 
 |**Human resources**|HR manager (centraal)|HR manager|
 
 
- <a name="departments"></a>Afdelingen
-------------
+##  <a name="departments"></a>Afdelingen
 
 Een afdeling is een operationele eenheid die een categorie of functioneel gebied van een organisatie vertegenwoordigt die verantwoordelijk is voor een bepaald gebied van de organisatie, zoals verkoop of boekhouding. Een afdeling wordt gebruikt voor rapportage over functionele gebieden en kan verantwoordelijk zijn voor winsten en verliezen. Een afdeling kan ook een groep van kostenplaatsen bevatten. Verkoop, boekhouding en human resources zijn enkele voorbeelden van afdelingen in een organisatie.
 
@@ -96,8 +95,7 @@ Gebruik taaktypen om vergelijkbare taken in categorieën in te delen. Taaktypes 
 
 Verantwoordelijkheidsgebieden gebruiken om aan te geven voor welke werkrollen, processen en producten een werknemer in een positie voor die taak verantwoordelijk is. Een voorbeeld van een verantwoordelijkheidsgebied voor een taak met de titel 'Boekhouder' is mogelijk 'Financiële rapportering voor Product A'.
 
-<a name="positions"></a>Posities
-----------
+## <a name="positions"></a>Posities
 
 Posities zijn een belangrijk element van het lagere niveau van een organisatiehiërarchie. Een positie is een afzonderlijk exemplaar van een taak. De positie 'Verkoopmanager (Oost)' is bijvoorbeeld maar een van de posities die is gekoppeld aan de taak 'Verkoopmanager'. Posities komen voor in een afdeling en worden aan werknemers toegewezen.
 ### <a name="position-creation-and-maintenance"></a>Maken en onderhouden van posities

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 231c59cea2ca0bcb139079209d2e846e67eb7fed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839144"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190083"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Cross-docken van productieorders naar outbound docks
 
@@ -28,8 +28,7 @@ ms.locfileid: "5839144"
 
 In dit onderwerp wordt beschreven hoe u het proces van cross-docken van gereedgemeld materiaal van een productieregel naar een outbound transportdock kunt beheren.
 
-<a name="introduction"></a>Introductie
-------------
+## <a name="introduction"></a>Introductie
 
 Cross-docken van productie naar een uitgaande locatie is relevant voor fabrikanten die grote hoeveelheden produceren en in het ideale geval de eindproducten willen verzenden zodra ze gereedgemeld zijn op de productieregels. Het doel is de producten te verzenden naar distributiecentra die zich fysiek dicht bij de vraag van klanten bevinden in plaats van voorraad op de productielocatie aan te leggen.
 

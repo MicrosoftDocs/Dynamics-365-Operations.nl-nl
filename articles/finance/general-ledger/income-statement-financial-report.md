@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d1852eac49b4a26e0680d7a918d2a6d8af37031
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6ab5e7a2675705cc2265b7f894d9b12d4465aea1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838832"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187815"
 ---
 # <a name="income-statement-financial-report"></a>Financieel rapport inkomensoverzicht
 
@@ -28,8 +28,7 @@ ms.locfileid: "5838832"
 
 In dit artikel wordt het standaardrapport voor inkomensoverzichten beschreven. In dit artikel worden ook de bouwstenen beschreven die aan dit rapport zijn gekoppeld. 
 
-<a name="default-income-statement-report"></a>Standaardrapport inkomensoverzicht
--------------------------------
+## <a name="default-income-statement-report"></a>Standaardrapport inkomensoverzicht
 
 | Standaardrapport             | Functie                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
@@ -57,8 +56,7 @@ De kolomdefinities bevatten verschillende typen kolommen om verschillende detail
 
 
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht van Financiële rapportage](financial-reporting-getting-started.md)
 

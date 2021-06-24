@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ddc7b9f0ccaa787b2297a253a7fdd9de11e9eee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 35ea5b97708272edf50f09d892088bcd3e07402d
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812671"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187962"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>Tabelbeperkingen door de gebruiker of door het systeem gedefinieerd
 
@@ -57,8 +57,7 @@ Wanneer u een systeemgedefinieerde tabelbeperking maakt, selecteert u een tabel,
 
 Voordat een tabelbeperking op een productconfiguratiemodel van kracht kan worden, moet de tabelbeperking in een beperking op een van de modelcomponenten worden opgenomen. De procedure is om een nieuwe beperking te maken, het type tabelbeperking te selecteren, en vervolgens de definitie van de tabelbeperking te selecteren die u wilt gebruiken. Tot slot moeten alle velden in de tabelbeperking aan de kenmerken in het productconfiguratiemodel worden toegewezen.
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht productconfiguratiemodellen](product-configuration-models.md)
 

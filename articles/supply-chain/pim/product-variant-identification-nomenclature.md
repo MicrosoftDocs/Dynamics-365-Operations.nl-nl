@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0ccb2ed2a143735c199c36f2da357996ad3fbff3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edab3420cbd39539358c03fe4d6b3646433f8ec5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812830"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190155"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatuur van productvariantnummers en -namen
 
@@ -188,8 +188,7 @@ Afhankelijk van de nomenclatuur kan het systeem proberen een niet-uniek productv
 
 Tijdens een stap van het configuratieproces suggereert het systeem een configuratiewaarde volgens de nomenclatuur. In deze stap kunt u de configuratiewaarde handmatig wijzigen. Wanneer u de configuratie opslaat, controleert het systeem of de configuratiewaarde uniek is. Als de waarde die u hebt ingevoerd niet uniek is, ontvangt u een foutbericht. Als u de configuratie wilt opslaan, moet u een unieke configuratiewaarde invoeren.
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Een nomenclatuur met productnummers maken voor vooraf gedefinieerde productvarianten](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 

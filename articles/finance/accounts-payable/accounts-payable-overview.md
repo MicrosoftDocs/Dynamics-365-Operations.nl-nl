@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e334c6351814db191731ce94c4a704863679dd85
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0edc2fcbde536e98fa3ce3567c2c8fdf3fc864ad
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820878"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188777"
 ---
 # <a name="configure-accounts-payable-overview"></a>Overzicht van Leveranciers configureren
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820878"
 
 In dit artikel worden de pagina's beschreven die u gebruikt voor het instellen van algemene en optionele functionaliteit voor Leveranciers. Daarnaast worden de stappen beschreven die u moet uitvoeren voordat u Leveranciers kunt instellen.
 
-<a name="prerequisites-for-accounts-payable-setup"></a>Vereisten voor het configureren van Leveranciers
-----------------------------------------
+## <a name="prerequisites-for-accounts-payable-setup"></a>Vereisten voor het configureren van Leveranciers
 
 Voordat u Leveranciers kunt configureren, moet u de volgende instellingen uitvoeren:
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: a7a9fb619ce3488ad4e3e79292af7acc359b83c5
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947539"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193225"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Verwijderde of afgeschafte functies in Dynamics 365 Supply Chain Management
 
@@ -38,7 +38,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ### <a name="job-card-device"></a>Apparaat voor taakkaarten
 
-|   |   |
+| &nbsp;  | &nbsp;  |
 |---|---|
 | **Reden voor afschaffing/verwijdering** | Het [taakkaartapparaat](../production-control/config-job-card-device.md) is vervangen door de nieuwe [uitvoeringsinterface voor de werkvloer](../production-control/production-floor-execution-configure.md). |
 | **Vervangen door een andere functie?**   | Ja, het [taakkaartapparaat](../production-control/config-job-card-device.md) wordt vervangen door de nieuwe [uitvoeringsinterface voor de werkvloer](../production-control/production-floor-execution-configure.md). |
@@ -50,7 +50,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - Magazijnbeheer (de magazijn-app)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Met ingang van april 2021 wordt *Dynamics 365 for Finance and Operations - Magazijnbeheer* (de magazijn-app) afgeschaft en wordt na april 2022 niet meer ondersteund. Het is nu vervangen door de *mobiele app Magazijnbeheer*, die werd uitgebracht met versie 10.0.17 van Supply Chain Management. De nieuwe app is een complete vervanging, maar maakt gebruik van hetzelfde onderliggende framework, waardoor migratie eenvoudig is. Indien nodig kunnen de twee apps naast elkaar worden gebruikt om gebruikers te helpen zich geleidelijk aan te passen terwijl ze de nieuwe app leren gebruiken.<br><br>Zie [Mobiele toepassing Magazijnbeheer](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) en [De mobiele app Magazijnbeheer installeren en verbinden](../warehousing/install-configure-warehouse-management-app.md) voor meer informatie over de mobiele app Magazijnbeheer. |
 | **Vervangen door een andere functie?**   | Ja, vervangen door de nieuwe mobiele app Magazijnbeheer. |
@@ -62,7 +62,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Internet Explorer 11-ondersteuning voor Dynamics 365 is afgeschaft
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Met ingang van december 2020 wordt Microsoft Internet Explorer 11-ondersteuning voor alle Dynamics 365-producten afgeschaft en wordt Internet Explorer 11 na augustus 2021 niet meer ondersteund.<br><br>Dit heeft invloed op klanten die Dynamics 365-producten gebruiken die zijn ontworpen om via een Internet Explorer 11-interface te worden gebruikt. Na augustus 2021 wordt Internet Explorer 11 niet ondersteund voor dergelijke Dynamics 365-producten. |
 | **Vervangen door een andere functie?**   | Wij raden klanten aan om overstappen op Microsoft Edge.|
@@ -72,7 +72,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-manufacturing-scenarios"></a>Gebruik van ingebouwde hoofdplanningsengine voor Supply Chain Management voor productiescenario's
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Voor betere prestaties en een minimale belasting van de SQL-database tijdens de uitvoering van hoofdplanningen, wordt de ingebouwde engine voor de hoofdplanning van Supply Chain Management vervangen door Planningsoptimalisatie. Met Planningsoptimalisatie kunnen snel planningen worden uitgevoerd, zelfs tijdens kantooruren. Hierdoor kunnen planners direct reageren op wijzigingen in vraag- of planningsparameters. |
 | **Vervangen door een andere functie?**   | Ja, Planningsoptimalisatie vervangt de bestaande ingebouwde Supply Chain Management-hoofdplanningsengine. |
@@ -84,7 +84,7 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios"></a>Gebruik van ingebouwde hoofdplanningsengine voor Supply Chain Management voor distributiescenario's
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Reden voor afschaffing/verwijdering** | Voor betere prestaties en een minimale belasting van de SQL-database tijdens de uitvoering van hoofdplanningen, wordt de ingebouwde engine voor de hoofdplanning van Supply Chain Management vervangen door Planningsoptimalisatie. Met Planningsoptimalisatie kunnen snel planningen worden uitgevoerd, zelfs tijdens kantooruren. Hierdoor kunnen planners direct reageren op wijzigingen in vraag- of planningsparameters. |
 | **Vervangen door een andere functie?**   | Ja, Planningsoptimalisatie vervangt de bestaande ingebouwde Supply Chain Management-hoofdplanningsengine. |

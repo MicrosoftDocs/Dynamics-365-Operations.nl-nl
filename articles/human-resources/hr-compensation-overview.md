@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b773b12b7eb3a8a59627d011f2469a98c5dde58a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d683b0b140592e4c93a68f7f58c7d13475b4c2a5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058915"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189596"
 ---
 # <a name="compensation-plans"></a>Compensatieplannen
 
@@ -121,8 +121,7 @@ De volgende tabel geeft een overzicht van de onderdelen van het compensatieproce
 ## <a name="process-events"></a>Procesgebeurtenissen
 Een procesgebeurtenis berekent compensatiegegevens voor een bepaalde periode voor alle werknemers die zijn ingeschreven in een of meer vaste of variabele compensatieplannen. U kunt een procesgebeurtenis herhaaldelijk uitvoeren om de berekende compensatieresultaten te testen of bij te werken.
 
-<a name="compensation-events"></a>Compensatiegebeurtenissen
--------------------
+## <a name="compensation-events"></a>Compensatiegebeurtenissen
 
 Telkens wanneer een procesgebeurtenis wordt uitgevoerd, wordt een compensatiegebeurtenis gemaakt.  Compensatiegebeurtenissen bevatten de resultaten van het compensatieproces voor elke werknemer die is opgenomen in deze procesgebeurtenis.  Wanneer de berekeningen juist zijn, kunt u de compensatiegebeurtenis laden om de compensatierecords bij te werken voor de werknemers op wie de procesgebeurtenis van invloed is.
 

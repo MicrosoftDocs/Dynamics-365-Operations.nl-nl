@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: f573dadeab88ead57fdb4b91ade21c244325058c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 818d96b14e32716e95b57391df5a90f7d32c4bb0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054014"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190227"
 ---
 # <a name="set-up-training-courses"></a>Trainingen instellen
 
@@ -28,8 +28,7 @@ ms.locfileid: "6054014"
 
 Personeelsmedewerkers en managers kunnen de cursussenfuncties gebruiken om informatie te onderhouden over de cursus die aan werknemers wordt aangeboden.
 
- <a name="set-up-prerequisites"></a>Instellingsvereisten
----------------------
+##  <a name="set-up-prerequisites"></a>Instellingsvereisten
 
 De volgende informatie is vereist en moet worden ingesteld voordat u cursussen maakt.
 -   **Cursustypen**
@@ -127,8 +126,7 @@ In de volgende tabel worden de mogelijke cursusstatussen weergegeven en de actie
 ## <a name="course-participants"></a>Deelnemers
 Cursusdeelnemers zijn werknemers die deelnemen aan een trainingscursus of -gebeurtenis. U kunt alleen deelnemers registreren voor open cursussen. Het minimum- en maximumaantal deelnemers dat u kunt registreren voor een cursus, wordt gedefinieerd op het sneltabblad **Algemeen** van de pagina **Cursussen**.
 
-<a name="workflow"></a>Workflow
---------
+## <a name="workflow"></a>Workflow
 
 Werknemers die zich voor een cursus via registreren de pagina **Selfservice werknemer** kunnen hun inschrijving laten routeren via de workflow voor goedkeuring. U kunt een workflow toewijzen aan een cursus op het sneltabblad **Algemeen** van de pagina **Cursussen**.
 

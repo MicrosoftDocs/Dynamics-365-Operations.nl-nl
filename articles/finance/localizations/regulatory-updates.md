@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 275a51620fad50f725dad7a37bd8ee776cf0ce4c
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 24743bd15f77769e2d4ca81981284995ce3a576e
+ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941135"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "6129772"
 ---
 # <a name="regulatory-updates"></a>Wettelijk voorgeschreven updates
 
@@ -38,37 +38,52 @@ Reglementaire updates die worden uitgebracht als onderdeel van de maandelijkse u
 Raadpleeg de volgende tabel voor de meest recente plannen voor wettelijke updates.   
 
 |Land/regio|Datum vrijgeven|Versie van release|Wettelijke update|
-|--------------------|---------------|-------|-------|
-|      Oostenrijk         |   2020 september      | 10.0.15      |   Indeling van btw-aangifte U30 is bijgewerkt voor 2020-aangifte   |
-|      België         |   2020 december      | 10.0.16      |   België: verbetering in prestaties van rapport Grootboektransacties exporteren in Dynamics 365 Finance   |   
-|      Brazilië         |   november 2020      | 10.0.15HF      |   SPED Fiscaal ICMS/IPI - Record C176 - RS-status   |
-|      Brazilië         |   2020 oktober      | 10.0.16, 10.0.15HF      |   NF-e NT2019.001 v1.51 - Validatieregels bij vergoedingscode in gebruik genomen door Distrito Federal   |
-|      Brazilië         |   Oktober 2020, november 2020      | 10.0.16, 10.0.15HF      |   SPED Fiscal - Indeling 015   |
-|      Brazilië         |   2020 oktober      | 10.0.16      |   DRCST-declaratie SC - SEF 262/2020   |
-|      Brazilië         |   2020 oktober      | 10.0.16      |   SPED FIscal ICMS / IPI-record C176   |
-|      Brazilië         |   2020 december      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006 - Identificatie van de intermediair van het digitale platform (updates van indelings- en validatieregels)   |
-|      Brazilië         |   2021 maart         | 10.0.17, 10.0.18, 10.0.19         |    SPED-REINF-indeling 1.5.1
-|      Europa        |   2021 januari       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Brexit - Noord-Ierland-protocol heeft invloed op rapportage van intracommunautaire handel in EU-landen  |
-|      Duitsland        |   2021 januari       | 10.0.16HF      |   De indeling voor btw-voorschotmeldingen voor ELSTER UstVA is uitgebreid met twee nieuwe vakken 37,50 voor het afschrijven van onherstelbare schuld  |
+|--------------------|---------------|-------|-------| 
+|      Brazilië         |   Mei 2021 - december 2020      | 10.0.20, 10.0.19, 10.0.17      |   NF-e NT2020.006 - Identificatie van de intermediair van het digitale platform (updates van indelings- en validatieregels)   |
+|      Brazilië         |   2021 maart         | 10.0.19         |    SPED-REINF-indeling 1.5.1  |
+|      Brazilië         |   2021 februari         | 10.0.18         |    SPED Fiscal 015 - RS-regels |
+|      Brazilië         |   2021 maart         | 10.0.17 HF       |    NFS-e Elektronische factuur voor Braziliaanse service (plaats)  |
+|      Brazilië         |   2021 april         | 10.0.20        |    SPED ECD - indeling 9  |
+|      Brazilië         |   mei 2021         | 10.0.20         |    SPED-bijdragen - versiehandleiding 1.34  |
+|      Egypte         |   2021 februari         | 10.0.17         |    Formulier en rapporten voor btw-retour  |
+|      Egypte        |   2021 februari         | 10.0.17         |    Configuratie van factuurindeling  |
+|      Egypte         |   2021 februari         | 10.0.17         |    Bronbelastingaangifteformulier 41  |
+|      Egypte         |   2021 februari         | 10.0.17         |    Bronbelastingaangifteformulier 11  |
+|      Egypte         |   2021 februari         | 10.0.17         |    Verwijzingen naar oorspronkelijke facturen in creditnota's  |
+|      Europa        |   2021 januari       | 10.0.17      |   Brexit - Noord-Ierland-protocol heeft invloed op rapportage van intracommunautaire handel in EU-landen  |
+|      Frankrijk        |   2021 maart       | 10.0.18      |   Retail - Gecertificeerde POS-systeemupdate - Dynamics 365 Commerce  |
+|      Frankrijk        |   2021 april       | 10.0.20      |   Verbetering van de Franse gegevensarchiveringsexport (FEC)  |
 |      Duitsland        |   2021 januari       | 10.0.17      |   Wijzigingen in XML-structuur voor btw-voorschotmeldingen voor ELSTER (UstVA)  |
-|      Algemeen        |   2021 januari       | 10.0.16      |   Mechanisme voor omgekeerde toeslag voor btw/GST-schema inschakelen  |
-|      India         |   2020 december      | 10.0.16, HF, 10.0.15HF      |   Wijziging in TCS op verkoop van goederen als in 206 9(1H) change op basis van CBDT-persbericht  |
+|      Duitsland        |   2021 maart       | 10.0.19      |   GDPDU-uitbreidingen voor de tabel Vaste activa en transacties  |
+|      Duitsland        |   2021 april       | 10.0.20HF      |   Wijzigingen in de indeling voor elektronische facturering (xRechnung) in Duitsland sinds 2021  |
+|      Algemeen        |   2021 januari       | 10.0.17      |   Bronbelasting op regelniveau  |
+|      Algemeen        |   2021 januari       | 10.0.17      |   Betaling van bronbelasting  |
+|      Algemeen        |   2021 januari       | 10.0.17      |   Bronbelasting in verkooporders  |
+|      Algemeen        |   2021 januari       | 10.0.17      |   Bronbelastingdrempel op factuurbedrag  |
+|      Algemeen        |   2021 januari       | 10.0.17      |   Validatie van factuurdatumuitgifte na geboekte pakbon die beschikbaar voor alle landen is gemaakt  |
+|      Hongarije        |   2021 februari       | 10.0.17HF, 10.0.18      |   Online factureringssysteem v3.0  |
+|      India         |   2021 februari      | 10.0.17HF, 10.0.18      |   Elektronische GST-facturen: eWay Bill-informatie  |
+|      India         |   2021 maart      | 10.0.17HF, 10.0.18HF, 10.0.19      |   Elektronische GST-facturen: exportorders, met uitvoer gelijkgestelde verkoop, SEZ  |
+|      India         |   2021 maart      | 10.0.17HF, 10.0.18HF, 10.0.19      |   Dynamics QR-code op B2C-factuur  |
+|      Italië         |   2021 maart      | 10.0.19      |   Wijzigingen in indeling factuurcommunicatie (Esterometro) v.2.1.1  |
+|      Italië        |   mei 2021      | 10.0.17HF, 10.0.18HF, 10.0.19      |   Retail - voorbeeldupdate van fiscale printerintegratie om XML 2.0 te ondersteunen  |
+|      Italië         |   2021 maart      | 10.0.19      |   Retail: detailhandelspecifieke facturen inschakelen die chronologische boeking schenden  |
+|      Italië         |   2021 februari      | 10.0.19      |   Unieke certificering - 2021  |
 |      Letland         |   2020 december      | 10.0.17      |   Intrastat-indeling wordt bijgewerkt vanaf 2021  |
-|      Mexico         |   2020 december      | 10.0.17, 10.0.16, 10.0.15      |   Update van kenmerk Monto |
-|      Nederland         |   2020 oktober      | 10.0.16     |   Intrastat-indeling wordt bijgewerkt vanaf 2021 |
-|      Nederland         |   2020 december      | 10.0.167     |   Nieuwe versie van Nederlandse taxonomie NT15 |
-|      Polen          |   2020 september     | 10.0.15     |   Verbeteringen in vrijwillige gesplitste betaling |
-|      Polen          |   november 2020     | 10.0.16, 10.0.15     |   JPK-V7M (VDEK) - verkoopdocumenttype FP en RO voor detailhandeltransacties |
-|      Polen          |   2020 september     | 10.0.15     |   Polen: JPK-V7M (VDEK) - mogelijkheid ontgrendelen om het rapport op basis van onderdelen te genereren |
-|      Polen          |   2020 oktober     | 10.0.16     |   JPK-V7M (VDEK)-rapport - Parameteropname 'Vrijwillig gesplitst betalen' |
-|      Polen          |   november 2020     | 10.0.16, 10.0.15HF     |   Detailhandel - Factuur uitgeven voor detailhandelklant per aanvraag |
-|      Polen          |   2021 januari     | 10.0.17, 10.0.16HF , 10.0.15HF     |   Polen: ophelderingen in JPK_KR (SAF-boekhouding), met ingang van januari 2021 |
-|      Rusland          |   november 2020     | 10.0.16    |   De indeling van de btw-aangifte wordt bijgewerkt naar versie 5.07 vanaf de rapportage voor Q4 2020|
-|      Rusland          |   2020 oktober     | 10.0.16    |   Wijzigingen in PBU18 voor boekhoudrapporten voor 2020|
+|      Litouwen         |   2021 maart      | 10.0.18      |   SAF-T-rapportversie 2.01  |
+|      Mexico         |   2020 december      | 10.0.17      |   Update van kenmerk Monto |
+|      Nederland         |   2020 december      | 10.0.17     |   Nieuwe versie van Nederlandse taxonomie NT15 |
+|      Polen          |   2021 januari     | 10.0.17     |   Polen: ophelderingen in JPK_KR (SAF-boekhouding), met ingang van januari 2021 |
 |      Rusland          |   2021 januari     | 10.0.17    |   Een nieuwe indeling van de aangifte van onroerendgoedbelasting (technische versie 5.07 in plaats van 5.06) voor de aangifte van 2020|
+|      Rusland          |   2021 maart     | 10.0.19    |   De belastingaangifte voor eigendomsbelasting 2020 moet de gemiddelde jaarwaarde van verschuifbare vaste activa aangeven.|
+|      Rusland          |   2021 maart     | 10.0.19HF    |   Winstbelastingaangifte versie 5.09 voor 2020-aangifte|
+|      Rusland          |   2021 maart     | 10.0.19    |   Overheidsbesluit N 2200 21.12.2020 toepassing 4 nieuwe forma voor transportfactuur is vereist|
 |      Spanje          |   november 2020     | 10.0.17    |   SII-updatevalidatie en -fouten v.2.1(bis) vanaf 1 januari 2021|
-|      Verenigd Koninkrijk         |   2020 december     | 10.0.17, 10.0.16, 10.0.15    |   Belastingregistratie van bedrijven in klantfacturen (Brexit - Noord-Ierland-protocol)|
-|      Verenigd Koninkrijk          |   2020 december     | 10.0.17, 10.0.16HF. 10.0.15HF    |   Brexit - Impact van Noord-Ierland-protocol op bedrijven die zowel in GB als in NI goederen verhandelen|
+|      Thailand          |   2021 februari     | 10.0.17HF    |   Bronbelastingformulier Por Ngor Dor 53, 3 en 2 |
+|      Verenigde Arabische Emiraten   |   mei 2021     | 10.0.20    |   Betalingsjournaal met gepostdateerde cheques naar bankrekening boeken |
+|      Verenigd Koninkrijk         |   2020 december     | 10.0.17    |   Belastingregistratie van bedrijven in klantfacturen (Brexit - Noord-Ierland-protocol)|
+|      Verenigd Koninkrijk          |   2020 december     | 10.0.17    |   Brexit - Impact van Noord-Ierland-protocol op bedrijven die zowel in GB als in NI goederen verhandelen|
+|      Verenigd Koninkrijk          |   2021 maart     | 10.0.18    |   MTD VAT > formuleringswijzigingen in afdrukindeling van preview (vak 2,8,9) 2021|
 
 
 

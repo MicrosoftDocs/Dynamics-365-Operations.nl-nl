@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2235545760899c0d945f08b5419154dfdbe4dffc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1137ee7938b378e5212e355580d005cd49b31dbb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815759"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189040"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Beleid voor totalisering van kosten en overheadberekening 
 
@@ -149,8 +149,7 @@ Kostentoewijzingsregels kunnen als volgt worden ingesteld.
 | CC001                                | Totaal         | **HR-services**        |
 | CC002                                | Totaal         | **Financiële services** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>Hoe kosten tussen kostenplaatsen stromen 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>Hoe kosten tussen kostenplaatsen stromen 
 
 Als u wilt weten hoe kosten stromen tussen de kostenplaatsen in de organisatie, kunt u kostenelementen van het type **Secundair** voor elke kostenplaats maken. Deze kostenelementen worden vervolgens gebruikt om saldi tussen de kostenplaatsen over te brengen tijdens het berekenen van overhead.
 

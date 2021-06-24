@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e0df9177b63619787dba057e9aa532255e68bde
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86fbc81de8ba59f0782bd9af5b50bfcf45d5621a
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811865"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193040"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Tijd toewijzen aan taken in een takenbundel
 
@@ -80,7 +80,7 @@ De volgende tabel illustreert de formule voor de berekening van de toegewezen ti
 ## <a name="net-time-allocation-key"></a>Toewijzingssleutel Nettotijd
 De volgende tabel illustreert de formule voor de berekening van de toegewezen tijd. Hier volgt de formule: Berekende tijd per rapportage = Bundeltijd ÷ Aantal taken
 
-|                              | 09:00–10:00 (1 uur) | 10:00–11:00 (1 uur) | 11:00–13:00 (2 uur) | 13:00–15:00 (2 uur) | Toegewezen tijd |
+| Voorbeeld                       | 09:00–10:00 (1 uur) | 10:00–11:00 (1 uur) | 11:00–13:00 (2 uur) | 13:00–15:00 (2 uur) | Toegewezen tijd |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
 | Het aantal taken in de bundel | 1                    | 3                    | 2                     | 1                     | Niet van toepassing |
 | Taak 1                        | 1 ÷ 1 = 1 uur       | 1 ÷ 3 = 0,33 uur    | Niet van toepassing        | Niet van toepassing        | 1,33 uur     |

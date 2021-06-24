@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d322d0a59c2d1fe7be98b97bf25c6db8dec2d6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e57e97847c6aa7a775b0f2639dff93f1e3a9e7a2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815351"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189368"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Btw-berekeningsmethoden in het veld Oorsprong
 
@@ -52,8 +52,7 @@ Is het nettobedrag 10,00, dan HEFFING 1 = 1,00 (10,00 x 10%) en HEFFING 2 = 2,00
 | Slechts één btw-code met Oorsprong = Percentage van brutobedrag kan voor een transactie worden gebruikt. Als meerdere dergelijke btw-codes voor een transactie worden gedefinieerd wordt een fout weergegeven dat de btw niet kan worden berekend. |
 
 
-<a name="percentage-of-sales-tax"></a>Btw-percentage
------------------------
+## <a name="percentage-of-sales-tax"></a>Btw-percentage
 
 Als u Btw-percentage selecteert in het veld Oorsprong, wordt de btw berekend als het percentage van de btw dat is geselecteerd in het veld Btw op btw. De btw die in het veld Btw op btw is geselecteerd, wordt eerst berekend. De tweede btw wordt berekend op basis van het eerste btw-bedrag.
 ### <a name="example"></a>Voorbeeld
@@ -119,8 +118,7 @@ Document / journaal is ingesteld op Bedragen inclusief BTW = Nee Transactieregel
 
 
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Btw-tarieven op basis van Marginale basis en Berekeningsmethoden](marginal-base-field.md)
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a7073fb5d77e2d11569e86b92433864371f0e1d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c48c4737c260004ea44109cfb2a0478a3e8653cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825862"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190059"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Ondersteuning van kanbanoverboekingsbord voor streepjescodescanners
 
@@ -29,8 +29,7 @@ ms.locfileid: "5825862"
 
 Het kanbanoverboekingsbord ondersteunt scannerinvoer vanuit een widgetstreepjescodescanner om een kanbantaak te selecteren, starten, voltooien en legen.
 
-<a name="registration-modes"></a>Registratiemodi
-------------------
+## <a name="registration-modes"></a>Registratiemodi
 
 Op het sneltabblad **Scannerregistratie** kunt u de registratiemodus selecteren die de actie bepaalt bij het scannen van een kanbankaartnummer of het handmatig invoeren van het nummer in het veld Kanbankaartnummer.
 
@@ -42,8 +41,7 @@ Op het sneltabblad **Scannerregistratie** kunt u de registratiemodus selecteren 
 | Selecteren                | Registreert een kanbankaartnummer en selecteert automatisch de taak waarnaar wordt verwezen in de kanbanlijst. |
 
  
-<a name="registration-mode-select"></a>Registratiemodus Selecteren
-------------------------
+## <a name="registration-mode-select"></a>Registratiemodus Selecteren
 
 Wanneer u een streepjescodelezer gebruikt om een taak te selecteren, wordt de weergavemodus van het kanbanbord gewijzigd. In deze modus gelden de volgende voorwaarden:
 

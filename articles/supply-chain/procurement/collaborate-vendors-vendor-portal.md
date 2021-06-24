@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ceffa7028f4490a88027a2affdc898877cc2db43
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 2fa295c71fb82b4168123970fee6ba71d293e3c8
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910060"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189663"
 ---
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Samenwerken met leveranciers met behulp van de leveranciersportal
 
@@ -92,8 +92,7 @@ De volgende tabel bevat een voorbeeld van de status- en versiewijzigingen die ee
 |                           U verzendt de nieuwe versie van de inkooporder naar de leveranciersportal.                            |                                                                                                                                                                    De nieuwe versie wordt geregistreerd in de leveranciersportal en de status wordt gewijzigd in <strong>Externe controle</strong>.                                                                                                                                                                     |
 |                                De leverancier keurt de nieuwe versie van de inkooporder goed                                 |                                                                                                                                                     De status wordt gewijzigd in <strong>Bevestigd</strong>. Dit gebeurt automatisch of wanneer u het antwoord van de leverancier ontvangt en vervolgens de inkooporder bevestigt.                                                                                                                                                     |
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Gebruikersbeveiliging leveranciersportal](configure-security-vendor-portal-users.md)
 

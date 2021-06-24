@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
+ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941104"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6219782"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Inkoop integreren tussen Supply Chain Management en Field Service
 
@@ -196,23 +196,10 @@ De volgende sjablonen zijn beschikbaar voor de integratie van inkoopgerelateerde
 
 | Supply Chain Management | Field Service | Beschrijving |
 |---|---|---|
-| Inkooporderkoptekst V2 | msdyn\_Purchaseorders | Deze tabel bevat de kolommen die de inkooporderkoptekst vertegenwoordigen. |
-| Entiteit voor inkooporderregel | msdyn\_PurchaseOrderProducts | Deze tabel bevat de rijen die de regels op een inkooporder vertegenwoordigen. Het productnummer wordt gebruikt voor synchronisatie. Hiermee wordt het product geïdentificeerd als voorraadeenheid (SKU), inclusief productdimensies. Zie [Uniforme productervaring](product-mapping.md) voor meer informatie over productintegratie met Dataverse. |
-| Koptekst productontvangstbon | msdyn\_purchaseorderreceipts | Deze tabel bevat de kopteksten van de productontvangstbonnen die worden gemaakt wanneer er een productontvangstbon in Supply Chain Management wordt geboekt. |
-| Productontvangstbonregel | msdyn\_purchaseorderreceiptproducts | Deze tabel bevat de regels van de productontvangstbonnen die worden gemaakt wanneer er een productontvangstbon in Supply Chain Management wordt geboekt. |
-| Zacht verwijderde entiteit voor inkooporderregel | msdyn\_purchaseorderproducts | Deze tabel bevat informatie over inkooporderregels die zacht worden verwijderd. Een inkooporderregel in Supply Chain Management kan alleen zacht worden verwijderd als de inkooporder is bevestigd of goedgekeurd als wijzigingsbeheer is ingeschakeld. De rij is aanwezig in de Supply Chain Management-database en is gemarkeerd als **IsDeleted**. Omdat er geen concept van zachte verwijdering bestaat in Dataverse, is het belangrijk dat deze informatie wordt gesynchroniseerd met Dataverse. Op deze manier kunnen regels die zacht worden verwijderd in Supply Chain Management, automatisch worden verwijderd uit Dataverse. In dit geval bevindt de logica voor het verwijderen van een regel in Dataverse zich in Supply Chain Management Extended. |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/productreceiptheader-msdyn-purchaseorderreceipts.md)]
-
-[!include [Currency](includes/productreceiptline-msdyn-purchaseorderreceiptproducts.md)]
-
-[!include [Currency](includes/purchaseorderheadersv2-msdyn-purchaseorders.md)]
-
-[!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
-
-[!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]
-
+| [Inkooporderkoptekst V2](mapping-reference.md#183) | msdyn\_Purchaseorders | Deze tabel bevat de kolommen die de inkooporderkoptekst vertegenwoordigen. |
+| [Entiteit voor inkooporderregel](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | Deze tabel bevat de rijen die de regels op een inkooporder vertegenwoordigen. Het productnummer wordt gebruikt voor synchronisatie. Hiermee wordt het product geïdentificeerd als voorraadeenheid (SKU), inclusief productdimensies. Zie [Uniforme productervaring](product-mapping.md) voor meer informatie over productintegratie met Dataverse. |
+| [Koptekst productontvangstbon](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | Deze tabel bevat de kopteksten van de productontvangstbonnen die worden gemaakt wanneer er een productontvangstbon in Supply Chain Management wordt geboekt. |
+| [Productontvangstbonregel](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | Deze tabel bevat de regels van de productontvangstbonnen die worden gemaakt wanneer er een productontvangstbon in Supply Chain Management wordt geboekt. |
+| [Zacht verwijderde entiteit voor inkooporderregel](mapping-reference.md#182) | msdyn\_purchaseorderproducts | Deze tabel bevat informatie over inkooporderregels die zacht worden verwijderd. Een inkooporderregel in Supply Chain Management kan alleen zacht worden verwijderd als de inkooporder is bevestigd of goedgekeurd als wijzigingsbeheer is ingeschakeld. De rij is aanwezig in de Supply Chain Management-database en is gemarkeerd als **IsDeleted**. Omdat er geen concept van zachte verwijdering bestaat in Dataverse, is het belangrijk dat deze informatie wordt gesynchroniseerd met Dataverse. Op deze manier kunnen regels die zacht worden verwijderd in Supply Chain Management, automatisch worden verwijderd uit Dataverse. In dit geval bevindt de logica voor het verwijderen van een regel in Dataverse zich in Supply Chain Management Extended. |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

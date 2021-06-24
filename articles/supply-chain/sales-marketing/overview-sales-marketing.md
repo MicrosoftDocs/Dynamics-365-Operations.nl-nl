@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4735b51d13a6de9874c10ec82e1e6d9761ce9fcf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810865"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188120"
 ---
 # <a name="sales-and-marketing-overview"></a>Overzicht van Verkoop en marketing
 
@@ -27,8 +27,7 @@ ms.locfileid: "5810865"
 
 Met Verkoop en marketing kunt u verschillende typen gegevens in de verkoopstroom opvragen, opslaan en gebruiken. Hierbij gaat het om gegevens zoals het oorspronkelijke verkoopinitiatief, toekomstige opvolgingsacties en extra verkopen.
 
-<a name="marketing"></a>Marketing
----------
+## <a name="marketing"></a>Marketing
 
 U kunt marketingcampagnes en -activiteiten gebruiken om relaties met potentiële klanten te vinden en op te bouwen, zodat initiële interacties zich kunnen ontwikkelen tot verkooprelaties. In het volgende processtroomdiagram ziet u het bedrijfsproces voor marketing. [![Bedrijfsproces voor marketing](./media/marketing01.jpg)](./media/marketing01.jpg)
 

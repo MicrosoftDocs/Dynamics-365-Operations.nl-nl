@@ -1,8 +1,8 @@
 ---
-title: Startpagina van Financiële inzichten (preview)
-description: Financiële inzichten biedt configureerbare en uitbreidbare modellen om u te helpen de cashflow van uw bedrijf nauwkeurig en intelligent te voorspellen, te voorspellen wanneer u een betaling voor openstaande debiteuren ontvangt en een budgetvoorstel te genereren waarmee het budgetproces kan worden versneld. Al deze functies zijn gebaseerd op intelligente machine learning-modellen.
+title: Startpagina van Finance Insights (preview)
+description: Finance Insights biedt configureerbare en uitbreidbare modellen om u te helpen de cashflow van uw bedrijf nauwkeurig en intelligent te voorspellen, te voorspellen wanneer u een betaling voor openstaande debiteuren ontvangt en een budgetvoorstel te genereren waarmee het budgetproces kan worden versneld. Al deze functies zijn gebaseerd op intelligente machine learning-modellen.
 author: ShivamPandey-msft
-ms.date: 07/20/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3a78a162469790d797344ce9311c55bfcecd19f4
-ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
+ms.openlocfilehash: 4876d2d4ad79dc09ce4b372eedf4c6ab31930957
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6086984"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222505"
 ---
 # <a name="finance-insights-home-page-preview"></a>Startpagina van Financiële inzichten (preview)
 
@@ -29,7 +29,7 @@ ms.locfileid: "6086984"
 
 Financiële inzichten biedt configureerbare en uitbreidbare modellen om u te helpen de cashflow van uw bedrijf nauwkeurig en intelligent te voorspellen, te voorspellen wanneer u een betaling voor openstaande debiteuren ontvangt en een budgetvoorstel te genereren waarmee het budgetproces kan worden versneld. Al deze functies zijn gebaseerd op intelligente machine learning-modellen. Wanneer deze nieuwe mogelijkheden worden gecombineerd met automatisering in betalingen en incasso's van leveranciers, bieden ze een groot en intelligent financieel systeem dat de besluitvorming aanstuurt en u helpt actie te ondernemen om effectief te reageren op huidige en verwachte zakelijke uitdagingen.
 
-De preview van Financiële inzichten is beschikbaar voor proefimplementaties in de Verenigde Staten van Amerika, Europa en het Verenigd Koninkrijk. Microsoft voegt incrementeel ondersteuning toe voor meer regio's.
+De preview van Financial Insights is beschikbaar voor proefimplementaties in de Verenigde Staten van Amerika, Europa en het Verenigd Koninkrijk. Microsoft voegt incrementeel ondersteuning toe voor meer regio's.
 
 Preview-functies kunnen en zouden alleen moeten worden ingeschakeld in Tier-2 sandbox-omgevingen. Setup-modellen en AI-modellen die in een sandbox-omgeving zijn gemaakt, kunnen niet naar een productieomgeving worden gemigreerd. Zie voor meer informatie [Aanvullende gebruiksrechtovereenkomst voor Microsoft Dynamics 365 Previews](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
 
@@ -66,15 +66,17 @@ Wijzigingen worden aangebracht in Microsoft Dynamics 365 Finance, Microsoft Dyna
 
 Bij het voltooien van dit proces helpt het als u vertrouwd bent met het maken en beheren van resources in Azure, Microsoft Dataverse en LCS.
 
-## <a name="configure-finance-insights"></a>Financiële inzichten configureren
+## <a name="configure-finance-insights"></a>Finance Insights configureren
 
-U moet enkele configuratiestappen uitvoeren voordat u Financiële inzichten kunt gebruiken. Zie [Configuratie voor Financiële inzichten](configure-for-fin-insites.md) voor meer informatie over het configureren van Financiële inzichten.
+U moet enkele configuratiestappen uitvoeren voordat u Finance Insights kunt gebruiken. Zie voor meer informatie over het configureren van Finance Insights:
+  - Voor versies tot en met 10.0.19: [Configuratie voor Finance Insights - versies tot en met 10.0.19](configure-for-fin-insites.md).
+  - Voor versies 10.0.20 en hoger: [Configuratie voor Finance Insights (preview) - versie 10.0.20 en hoger](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Een gegevensintegratorproject maken
 
 U moet een gegevensintegratorproject maken, zodat de gegevens die het machine learning-model genereert, in Dynamics 365 Finance kunnen stromen. Zie [Een gegevensintegratorproject maken](create-data-integrate-project.md) voor de stappen om dat project te maken.
 
-## <a name="enable-finance-insights-capabilities"></a>Mogelijkheden van Financiële inzichten inschakelen
+## <a name="enable-finance-insights-capabilities"></a>Mogelijkheden van Finance Insights inschakelen
 
 Wanneer u de configuratiestappen hebt voltooid en demogegevens hebt ingesteld, moet u elke mogelijkheid die u wilt gebruiken, inschakelen en instellen: klantbetalingsvoorspellingen, cashflowprognoses en budgetvoorstellen.
 
@@ -84,16 +86,13 @@ Als u demogegevens gebruikt om klantbetalingsvoorspellingen te testen, moet u mo
 Als u Voorspellingen van klantbetalingen wilt inschakelen, moet u een reeks stappen uitvoeren om een machine learning model te maken waarin de gegevens van uw organisatie worden gebruikt om voorspellingen te genereren over wanneer klanten waarschijnlijk openstaande facturen betalen, en wanneer bepaalde facturen waarschijnlijk zullen worden betaald. Zie [Voorspellingen van klantbetalingen inschakelen](enable-cust-paymnt-prediction.md) voor meer informatie en de stappen die u moet uitvoeren. 
 
 ### <a name="enable-cash-flow-forecasting"></a>Cashflowprognose inschakelen
-Als u Cashflowprognoses wilt inschakelen, moet u een reeks stappen uitvoeren om een machine learning model te maken waarin de gegevens van uw organisatie worden gebruikt om cashflowprognoses te genereren. Zie [Cashflowprognose inschakelen](enable-cash-flow-forecasting.md) voor meer informatie en de stappen die u moet uitvoeren 
-
-### <a name="set-up-and-use-cash-flow-forecasting"></a>Cashflowprognose instellen en gebruiken
-Zie [Cashflowprognose inschakelen](enable-cash-flow-forecasting.md) voor informatie over het instellen en gebruiken van Cashflowprognose. Zie [Cashflowprognose](cash-flow-forecast-intro.md) voor meer informatie over het gebruik van deze mogelijkheid.
+Als u cashflowprognoses wilt inschakelen, moet u een reeks stappen uitvoeren om een Machine Learning-model te maken waarin de gegevens van uw organisatie worden gebruikt om cashflowprognoses te genereren. Zie [Cashflowprognose inschakelen](enable-cash-flow-forecasting.md) voor meer informatie en de specifieke stappen die u moet uitvoeren.
 
 ### <a name="enable-budget-proposals"></a>Budgetvoorstellen inschakelen
 
 De functie Budgetvoorstellen gebruikt een machine learning-model met de historische gegevens van uw organisatie om een budgetvoorstel te genereren. Het gegenereerde voorstel kan u helpen bij het starten van een budgetteringsproces dat effectiever en efficiënter is dan een handmatig proces. Zie voor de specifieke stappen voor het inschakelen van deze functie [Budgetvoorstellen inschakelen](enable-budget-proposal.md). 
 
-## <a name="using-finance-insights-features"></a>Werken met functies van Financiële inzichten
+## <a name="using-finance-insights-features"></a>Werken met functies van Finance Insights
 
 ### <a name="using-customer-payment-predictions"></a>Voorspellingen voor klantbetalingen gebruiken
 
@@ -111,14 +110,12 @@ De mogelijkheid Cashflowprognose kan u helpen om de positie van contant geld nau
 
 - Zie [Cashflowprognose](cash-flow-forecast-intro.md) voor meer informatie over de nieuwe mogelijkheden in Cashflowprognose.
 - Zie [Externe gegevens gebruiken in cashflowprognoses](external-data-in-cash-flow.md) voor informatie over het importeren van externe gegevens die u in de cashflowprognose wilt opnemen. 
-- Zie [Overzicht van cashflowprognoses](cash-position.md) voor informatie over het gebruik van een AI-model voor het projecteren van langlopende cashflow.
+- Zie [Kaspositie](cash-position.md) voor informatie over het gebruik van een AI-model voor cashflowprognoses voor de korte termijn.
 - Zie [Overzicht van momentopnamen](payment-snapshots.md) voor informatie over het opslaan van cashflowposities en cashflowprognoses als momentopnamen en voor het vergelijken van een momentopname met werkelijke waarden.
 
 ### <a name="using-budget-proposal"></a>Budgetvoorstel gebruiken
 
 Zie [Budgetvoorstellen](budget-proposals.md) voor informatie over het versnellen van het maken van een budget. 
-
-Demogegevens voor budgetvoorstel:
 
 ## <a name="feedback-and-support"></a>Feedback en ondersteuning
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: df06df63c28ca99bb9cb95e99b3498f70c54d97f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053654"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193719"
 ---
 # <a name="provision-human-resources"></a>Human resources inrichten
 
@@ -56,7 +56,7 @@ Als u LCS wilt gebruiken om Human Resources-omgevingen te beheren, moet u eerst 
 1. Meld u aan bij [LCS](https://lcs.dynamics.com/Logon/Index) met de account waarmee u zich hebt geabonneerd op Human Resources.
 
    > [!NOTE]
-   > Om te zorgen voor een goede inrichting, moet de account waarmee u de Human Resources-omgeving inricht zijn toegewezen aan de rol **Systeembeheerder** of **Systeemaanpasser** in de Power Apps-omgeving die is gekoppeld aan de Human Resources-omgeving. Meer informatie over het toewijzen van beveiligingsrollen aan gebruikers in Power Platform vindt u in [Beveiliging van gebruikers configureren voor bronnen](https://docs.microsoft.com/power-platform/admin/database-security).
+   > Om te zorgen voor een goede inrichting, moet de account waarmee u de Human Resources-omgeving inricht zijn toegewezen aan de rol **Systeembeheerder** of **Systeemaanpasser** in de Power Apps-omgeving die is gekoppeld aan de Human Resources-omgeving. Meer informatie over het toewijzen van beveiligingsrollen aan gebruikers in Power Platform vindt u in [Beveiliging van gebruikers configureren voor bronnen](/power-platform/admin/database-security).
 
 2. Selecteer het plusteken (**+**) om een project te maken.
 

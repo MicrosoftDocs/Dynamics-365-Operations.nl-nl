@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6223cce4a960d3fa3db1f3a17b324201085ea04
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1e22089220edfff3fb53b2101b39f5352817db2a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822222"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188016"
 ---
 # <a name="budget-planning"></a>Budgetplanning
 
@@ -34,8 +34,7 @@ Het doel van dit lab is om Microsoft Dynamics 365 Finance-functionaliteitsupdate
 - Toewijzingen gebruiken om gegevens voor budgetplanningsdocumenten aan te passen
 - Gegevens voor budgetplanningsdocumenten bewerken in Excel 
 
-<a name="prerequisites"></a>Vereisten 
-------------------
+## <a name="prerequisites"></a>Vereisten 
 
 Voor deze zelfstudie moet u toegang hebben tot de Microsoft Dynamics 365 Finance-omgeving met Contoso-demogegevens en moet u als beheerder zijn geconfigureerd voor het exemplaar. Gebruik niet de browsermodus Privé voor dit lab. Meld u indien nodig af bij een andere account in de browser en meld u aan met beheerdersreferenties. Wanneer u zich aanmeldt, **MOET** u het selectievakje “Aangemeld blijven” inschakelen. Hiermee wordt een permanente cookie gemaakt die de Excel-toepassing momenteel nodig heeft. Als u zich aanmeldt bij de toepassing met een andere browser dan IE, wordt u gevraagd om u aan te melden binnen de Excel-app. Wanneer u op Aanmelden in de Excel-app klikt, wordt een pop-upvenster van IE geopend en wanneer u zich aanmeldt, **MOET** u het selectievakje Aangemeld blijven inschakelen. Als u klikt op Aanmelden in de Excel-app en dat lijkt niets te doen, moet u de IE-cookiecache wissen.
 

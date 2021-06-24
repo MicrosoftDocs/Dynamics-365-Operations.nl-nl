@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8dcb5c9860cb617612dade03b55b8bd4a0983b6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41c64607f5dfbe00bd8a2e7cc80fb4771f11a6d1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826613"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188435"
 ---
 # <a name="sales-tax-overview"></a>Btw-overzicht
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826613"
 
 In dit onderwerp vindt u een overzicht van het btw-systeem. Daarnaast worden de verschillende elementen van de btw-instellingen uitgelegd en wordt aangegeven hoe deze samenwerken.
 
-<a name="overview"></a>Overzicht
---------
+## <a name="overview"></a>Overzicht
 
 Het btw-raamwerk ondersteunt veel typen indirecte belastingen zoals btw, belasting toegevoegde waarde (btw), belasting voor goederen en services (GST), kosten op basis van eenheden en bronbelasting. Deze belastingen worden berekend en gedocumenteerd tijdens transacties voor inkoop en verkoop. Periodiek moeten deze belastingen worden aangegeven bij en betaald aan de belastingdienst. 
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: a88ca9cc8fc8cde6d738dbc4fcf474f1e27e05dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fd69d82536047c06e94ba4a7e860ef54680619a4
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796385"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193126"
 ---
 # <a name="change-mode-of-delivery-in-pos"></a>Leveringsmethode wijzigen in POS
 
@@ -31,7 +31,7 @@ In Dynamics 365 Commerce 10.0.10 en hoger is de bewerking **Leveringsmethode wij
 
 De functie Leveringsmethode wijzigen biedt u de optie om de leveringsmethode te wijzigen voor een of meer voor verkoop geconfigureerde verkoopregels in de POS-transactie. In eerdere versies van Commerce moest u de volledige configuratiestromen **Alles verzenden** of **Selectie verzenden** doorlopen als u de leveringsmethode wilde wijzigen voor een bestaande regel die voor verzending was geconfigureerd. Dit proces was tijdrovend en kon leiden tot onbedoelde wijzigingen in de leveringsoorsprong of leveringsdatums voor de regel. De nieuwe functionaliteit biedt een alternatieve methode voor het efficiënt bijwerken van de leveringsmethode op deze verkoopregels.
 
-Zie [Schermindelingen voor het verkooppunt](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts) voor meer informatie over het toevoegen van een bewerking aan een knop in uw POS-knoppenraster.
+Zie [Schermindelingen voor het verkooppunt](pos-screen-layouts.md) voor meer informatie over het toevoegen van een bewerking aan een knop in uw POS-knoppenraster.
 
 Wanneer deze functie is geconfigureerd in POS en u **Leveringsmethode wijzigen** selecteert, wordt er een lijstpagina weergegeven waarop u de regels kunt kiezen van de transactie waarvoor u de leveringsmethode wilt wijzigen. U kunt enkele of alle regels kiezen of afsluiten zonder wijzigingen aan te brengen. De verkoopregels die eerder waren geconfigureerd voor verzending, zijn de enige regels in de lijst die u kunt wijzigen. Als u een regel wilt wijzigen die is toegewezen voor ophalen of uitvoeren voor verzending, moet u de bewerking **Alles verzenden** of **Selectie verzenden** gebruiken. Als u daarentegen een regel wilt wijzigen die is aangewezen voor ophalen of uitvoering, moet u de bewerking **Alles ophalen**, **Selectie ophalen**, **Alles uitvoeren** of **Selectie uitvoeren** gebruiken.
 

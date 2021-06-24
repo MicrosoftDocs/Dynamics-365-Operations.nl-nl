@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3f8aa791cee1926afe6be347331d47902a3b7304
-ms.sourcegitcommit: f4dc09601bceb5cdc88ee184ce7c8f369e3e6e86
+ms.openlocfilehash: e72b81d4a109db2dd8b4c6ca2ca0b030220e25f3
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6060558"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216714"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Aan de slag met de belastingberekening (preview)
 
@@ -58,7 +58,7 @@ Voordat u de procedures in dit onderwerp kunt voltooien, moet aan de volgende ve
 De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon. U hoeft deze procedure maar één keer uit te voeren en u kunt dit in elke rechtspersoon in RCS doen.
 
 1. Meld u aan bij [RCS](https://marketing.configure.global.dynamics.com/).
-2. Voeg in Finance in het werkgebied **Elektronische rapportage** een nieuwe configuratieprovider toe. Gebruik uw bedrijfsnaam als de naam van de provider. Zie [Configuratieproviders maken en deze als actief markeren](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md) voor meer informatie.
+2. Voeg in het werkgebied **Elektronische rapportage** een nieuwe configuratieprovider toe. Gebruik uw bedrijfsnaam als de naam van de provider. Zie [Configuratieproviders maken en deze als actief markeren](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md) voor meer informatie.
 3. Selecteer de configuratieprovider die u zojuist hebt gemaakt en selecteer **Instellen als actief**.
 4. Selecteer de configuratieprovider **Microsoft** en selecteer vervolgens **Opslagplaatsen**.
 5. Selecteer in het veld **Type** de optie **Globaal**.

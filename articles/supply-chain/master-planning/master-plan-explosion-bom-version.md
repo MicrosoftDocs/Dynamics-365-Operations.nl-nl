@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 367b662a43b3c3255632f20aeb821b973b04d890
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 17e5d8638dc02d92a0c67364790353833551250f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833588"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187405"
 ---
 # <a name="explosion-of-a-bom-version"></a>Explosie van een stuklijstversie
 
@@ -36,8 +36,7 @@ Een vraagexplosie van een stuklijstversie maakt een vraag voor elk stuklijstrege
 
 In de volgende afbeelding ziet u het proces voor de vraagexplosie van de hoofdplanning. ![Vraagexplosie met stuklijstversie](./media/multisitedemandexplosionscenariousingbomversion.gif)
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [De stuklijstversie bepalen](master-plan-bom-version-determined.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891788"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6224029"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Een nieuwe ER-oplossing ontwerpen om een aangepast rapport af te drukken
 
@@ -285,7 +285,7 @@ Als u wilt doorgaan, gaat u naar de volgende procedure [Een nieuwe gegevensmodel
 
 De status van versie 1 van deze configuratie wordt gewijzigd van **Concept** in **Voltooid**. Versie 1 kan niet meer worden gewijzigd. Deze versie bevat het geconfigureerde gegevensmodel en kan worden gebruikt als basis voor andere ER-configuraties. Versie 2 van deze configuratie wordt gemaakt met de status **Concept**. U kunt deze versie bewerken om het gegevensmodel **Vragenlijst** aan te passen.
 
-![Versies van de bewerkbare ER-configuratie op de pagina Configuraties](./media/er-quick-start1-model-configuration.png)
+![Versies van de bewerkbare configuratie op de pagina Configuraties](./media/er-quick-start1-model-configuration.png)
 
 Zie [Overzicht van Elektronische rapporten (ER)](general-electronic-reporting.md#component-versioning) voor meer informatie over versiebeheer voor ER-configuraties.
 
@@ -799,7 +799,7 @@ In de volgende afbeelding ziet u een gegenereerd rapport in Excel-indeling waari
 
 De status van versie 1.1 van deze configuratie wordt gewijzigd van **Concept** in **Voltooid**. Versie 1.1 kan niet meer worden gewijzigd. Deze versie bevat de geconfigureerde indeling en kan worden gebruikt om het aangepaste rapport af te drukken. Versie 1.2 van deze configuratie wordt gemaakt met de status **Concept**. U kunt deze versie bewerken om de indeling van uw **Vragenlijst** rapport aan te passen.
 
-![Versies van de bewerkbare ER-configuratie op de pagina Configuraties](./media/er-quick-start1-format-configuration.png)
+![Bewerkbare ER-configuratie op de pagina Configuraties](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > De geconfigureerde indeling is uw ontwerp van het rapport **Vragenlijst** en bevat geen relaties met de specifieke Finance-artefacten.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b03d176791ee476ccddbf519471becafd086b0b7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 07acb7ef5565fa4a63607f6828e46c1fcf8110cc
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826366"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193613"
 ---
 # <a name="customer-posting-profiles"></a>Boekingsprofielen van klant
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826366"
 
 Met klantprofielen wordt de boeking van klanttransacties naar het grootboek beheerd.
 
-<a name="customer-posting-profiles"></a>Boekingsprofielen van klant
--------------------------
+## <a name="customer-posting-profiles"></a>Boekingsprofielen van klant
 
 Met boekingsprofielen van klanten kunt u grootboekrekeningen en documentinstellingen aan alle klanten, een groep klanten of één klant toewijzen. Deze instellingen worden gebruikt als u verkooporders, vrije-tekstfacturen, contante betalingen, aanmaningen en rentenota's maakt. Voor sommige transacties kunt u een boekingsprofiel selecteren dat afwijkt van en voorrang heeft op de boekingsprofielen die zijn ingesteld voor transacties op deze pagina. 
 
@@ -118,7 +117,6 @@ Als u wilt dat alle klanttransacties hetzelfde boekingsprofiel hebben, stelt u s
 </tbody>
 </table>
 
-### 
 
 ### <a name="table-restrictions"></a>**Tabelbeperkingen**
 

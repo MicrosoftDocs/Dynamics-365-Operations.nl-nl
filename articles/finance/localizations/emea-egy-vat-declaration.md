@@ -2,7 +2,7 @@
 title: Btw-aangifte voor Egypte
 description: In dit onderwerp wordt uitgelegd hoe u het btw-aangifteformulier voor Egypte configureert en genereert.
 author: sndray
-ms.date: 03/10/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: bd48ee96a26c59183981fae879e3659711e70ce3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021951"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186609"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Btw-aangifte voor Egypte (EG-00002)
 
@@ -85,6 +85,7 @@ De volgende opzoekconfiguraties worden gebruikt om de transacties te classificer
 - **VatRateTypeLookup** > Kolom B: Btw-type
 - **VATRateTypeLookup** > Kolom C: Type tabelartikel
 - **PurchaseOperationTypeLookup** > Kolom A: Documenttype
+- **CustomerTypeLookup** > kolom A: documenttype
 - **SalesOperationTypeLookup** > Kolom N: Bewerkingstype
 - **SalesItemTypeLookup** > Kolom O: Artikeltype
 
@@ -98,6 +99,8 @@ Voer de volgende stappen uit om de verschillende opzoekbewerkingen in te stellen
 6. Herhaal stap 3-5 voor alle beschikbare opzoekbewerkingen.
 7. Selecteer **Toevoegen** om de laatste recordregel op te nemen en selecteer in de kolom **Opzoekresultaat** de optie **Niet van toepassing**. 
 8. Selecteer **Niet leeg** in de resterende kolommen. 
+9. Selecteer **Voltooid** in het veld **Status**.
+10. Selecteer **Opslaan** en sluit de pagina **Toepassingsspecifieke parameters**.
 
 > [!NOTE]
 > Wanneer u de laatste record, **Niet van toepassing**, toevoegt, definieert u de volgende regel: wanneer de btw-groep, de btw-groep voor artikel, de btw-code en de naam die is doorgegeven als een argument niet aan een van de vorige regels voldoet, worden de transacties niet opgenomen in het btw-boek voor verkopen. Hoewel deze regel niet wordt gebruikt bij het genereren van het rapport, helpt de regel bij het voorkomen van fouten bij het genereren van een rapport wanneer een regelconfiguratie ontbreekt.
@@ -138,7 +141,7 @@ De volgende tabellen bevatten een voorbeeld van voorgestelde configuratie voor d
 | Services       | 7    | VAT_SERV                | *Niet leeg* | SaleExempt            |
 | Services       | 8    | VAT_SERV                | *Niet leeg* | SalesExemptCreditNote |
 | Correcties    | 9    | *Leeg*                 | VAT_ADJ     | Verkopen                 |
-| Correcties    | 10   | *Leeg*                 | VAT_ADJ     | Inkoop              |
+| Correcties    | 10   | *Leeg*                 | VAT_ADJ     | SalesCreditNote       |
 | Niet van toepassing | 11   | *Niet leeg*             | *Niet leeg* | *Niet leeg*           |
 
 **PurchaseItemTypeLookup**
@@ -148,16 +151,14 @@ De volgende tabellen bevatten een voorbeeld van voorgestelde configuratie voor d
 | Goederen                  | 1    | VAT_GOODS               | *Niet leeg* | Inkoop                 |
 | Goederen                  | 2    | VAT_GOODS               | *Niet leeg* | PurchaseCreditNote       |
 | Services               | 3    | VAT_SERV                | *Niet leeg* | Inkoop                 |
-| Services               | 4    | VAT_SERV                | *Niet leeg*  | PurchaseCreditNote       |
+| Services               | 4    | VAT_SERV                | *Niet leeg* | PurchaseCreditNote       |
 | Machine en apparatuur  | 5    | VAT_M&E                 | *Niet leeg* | Inkoop                 |
 | Machine en apparatuur  | 6    | VAT_M&E                 | *Niet leeg* | PurchaseCreditNote       |
 | Onderdelenapparaten         | 7    | VAT_PARTS               | *Niet leeg* | Inkoop                 |
 | Onderdelenapparaten         | 8    | VAT_PARTS               | *Niet leeg* | PurchaseCreditNote       |
 | Vrijstellingen             | 9    | VAT_EXE                 | *Niet leeg*  | PurchaseExempt           |
 | Vrijstellingen             | 10   | VAT_EXE                 | *Niet leeg* | PurchaseExemptCreditNote |
-| Niet van toepassing         | 11   | *Leeg*                 | VAT_ADJ     | *Niet leeg*              |
-| Niet van toepassing         | 12   | *Niet leeg*             | *Niet leeg* | *Niet leeg*              |
-| Niet van toepassing         | 13   | *Leeg*                 | *Niet leeg* | *Niet leeg*              |
+| Niet van toepassing         | 11   | *Niet leeg*             | *Niet leeg* | *Niet leeg*              |
 
 **PurchaseOperationTypeLookup**
 
@@ -174,6 +175,17 @@ De volgende tabellen bevatten een voorbeeld van voorgestelde configuratie voor d
 | Correcties    | 9    | *Leeg*          | VAT_ADJ     | PurchaseCreditNote       |
 | Correcties    | 10   | *Leeg*          | VAT_ADJ     | Inkoop                 |
 | Niet van toepassing | 11   | *Niet leeg*      | *Niet leeg* | *Niet leeg*              |
+
+**CustomerTypeLookup**
+
+|    Zoekresultaat    | Regel | Btw-groep |
+|---------------------|------|-----------------|
+| Organisatie        |  1   | VAT_LOCAL       |
+| Organisatie        |  2   | VAT_EXPORT      |
+| Organisatie        |  3   | VAT_EXE         |
+| Uiteindelijke consument      |  4   | VAT_FINALC      |
+| Openbare organisatie |  5   | VAT_PUBLIO      |
+| Niet van toepassing      |  6   | *Niet leeg*     |
 
 **VATRateTypeLookup**
 

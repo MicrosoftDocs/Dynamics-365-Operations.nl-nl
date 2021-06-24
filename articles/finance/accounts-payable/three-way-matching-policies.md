@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41f863d85a1ad52d8fa11a458054728728858d27
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 87ab65469ec4a8154267b88fe45481b65ade5e7a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027789"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189173"
 ---
 # <a name="three-way-matching-policies"></a>Drieweg-overeenstemmingsbeleid
 
@@ -28,8 +28,7 @@ ms.locfileid: "6027789"
 
 Dit onderwerp biedt voorbeelden van drieweg-overeenstemming.
 
-<a name="example-three-way-matching-for-items"></a>Voorbeeld: drieweg-overeenstemming voor artikelen
--------------------------------------
+## <a name="example-three-way-matching-for-items"></a>Voorbeeld: drieweg-overeenstemming voor artikelen
 
 **Samenvatting:** Ken is de controller van het hoofdkantoor van een rechtspersoon met de naam Fabrikam. Ken besluit dat alle facturen van leveranciers die zijn gebaseerd op een inkooporder, moeten worden vereffend met inkooporderregels (tweeweg-overeenstemming). Voor aankopen van items die worden gebruikt als vaste activa, moeten facturen worden vereffend met zowel de inkooporderregels en de productontvangstregels (drieweg-overeenstemming).
 

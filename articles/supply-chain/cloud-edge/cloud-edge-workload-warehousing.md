@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980944"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184017"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
 
@@ -289,14 +289,15 @@ In de volgende tabel ziet u welke functies voor magazijnbewerkingen en het afhan
 | Werkgroep voor werk wijzigen                           | Ja | Ja                          |
 | Werk annuleren                                        | Ja | Ja                          |
 
-
 ### <a name="production"></a>Productie
 
-Productiescenario's voor magazijnbeheer worden momenteel niet ondersteund voor schaaleenheidworkloads, zoals aangegeven in de volgende tabel.
+In de volgende tabel wordt een overzicht gegeven van productiescenario's voor magazijnbeheer die momenteel (niet) worden ondersteund voor de werkbelastingen van schaaleenheden.
 
 | Proces | Hub | WES-workload op een schaaleenheid |
 |---------|-----|------------------------------|
-| <p>Alle magazijnbeheerprocessen die betrekking hebben op productie. Hieronder volgen een aantal voorbeelden:</p><li>Vrijgeven aan magazijn</li><li>Productie-waves verwerken</li><li>Orderverzameling van grondstoffen</li><li>RAF en eindproducten wegzetten</li><li>Coproducten en bijproducten wegzetten</li><li>Kanban wegzetten</li><li>Kanbanorderverzameling</li><li>Productieorder beginnen</li><li>Productie-uitval</li><li>Laatste pallet van productie</li><li>Materiaalverbruik registreren</li><li>Lege Kanban</li></ul> | Ja | No |
+| Gereedmelden en eindproducten wegzetten | Ja | Ja |
+| Coproducten en bijproducten wegzetten | Ja | Ja |
+| <p>Alle andere magazijnbeheerprocessen die betrekking hebben op productie, zoals.</p><li>Vrijgeven aan magazijn</li><li>Productie-waves verwerken</li><li>Orderverzameling van grondstoffen</li><li>Kanban wegzetten</li><li>Kanbanorderverzameling</li><li>Productieorder beginnen</li><li>Productie-uitval</li><li>Laatste pallet van productie</li><li>Materiaalverbruik registreren</li><li>Lege Kanban</li></ul> | Ja | No |
 
 ## <a name="maintaining-scale-units-for-wes"></a>Schaaleenheden voor WES onderhouden
 

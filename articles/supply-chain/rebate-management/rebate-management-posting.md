@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b52a1720077c055d416f04cbbe9ec46cbcf319bc
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020406"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216738"
 ---
 # <a name="rebate-management-posting-setup"></a>Boekingsinstellingen voor kortingsbeheer
 
@@ -43,7 +43,7 @@ In de volgende tabel worden de instellingen beschreven die beschikbaar zijn in d
 | Beschrijving | Voer een beschrijving van het profiel in. |
 | Module | Selecteer het type kortingen en royalty's dat aan het profiel is gekoppeld (*Klant* of *Leverancier*). |
 | Type | Selecteer het profieltype (*Korting* of *Royalty*). |
-| Type betaling | <p>Met dit veld wordt de indeling van de geboekte kortingsuitvoer bepaald.<p><p>Wanneer het veld **Type** is ingesteld op *Korting*, zijn de volgende waarden beschikbaar:</p><ul><li>*Geen*: er is geen standaardboekingstype. Daarom moet u het type definiëren wanneer u de verwerking doet.</li><li>*Betalen met leveranciers*: wanneer u de korting plaatst, wordt een leveranciersfactuur gemaakt voor de remiseleverancier die is ingesteld op de klant van de korting.</li><li>*Klantinhoudingen*: wanneer u de korting boekt, wordt een klantinhoudingsjournaal voor de kortingsklant gemaakt.</li><li>*Klantinhoudingen belastingfactuur*: wanneer u de korting boekt, wordt een vrije-tekstfactor voor de kortingsklant gemaakt.</li><li>*Handelsuitgave*: wanneer u de korting boekt, wordt een klantinhoudingsjournaal voor de kortingsklant gemaakt.</li><li>*Rapportage*: wanneer u de korting boekt, wordt een klantinhoudingsjournaal voor de kortingsklant gemaakt.</li></ul><p>Wanneer het veld **Type** is ingesteld op *Royalty*, zijn de volgende waarden beschikbaar:</p><ul><li>*Geen*: er is geen standaardboekingstype. Daarom moet u het type definiëren wanneer u de verwerking doet.</li><li>*Betalen met leveranciers*: wanneer u de korting plaatst, wordt een leveranciersfactuur gemaakt voor de kortingsleveranciersrekening.</li><li>*Rapportage*: wanneer u de korting plaatst, wordt een leveranciersfactuur gemaakt voor de kortingsleveranciersrekening.</li></ul><p>Zie de sectie [Betalingstypen](#payment-types) hieronder voor meer informatie. |
+| Type betaling | <p>Met dit veld wordt de indeling van de geboekte kortingsuitvoer bepaald.<p><p>Wanneer het veld **Type** is ingesteld op *Korting*, zijn de volgende waarden beschikbaar:</p><ul><li>*Betalen met leveranciers*: wanneer u een klantkorting boekt, wordt een leveranciersfactuur gemaakt voor de remiseleverancier die is ingesteld op de klant van de korting. Wanneer u een leverancierskorting boekt, wordt een leveranciersfactuur gemaakt voor de leverancierskortingsrekening.</li><li>*Klantinhoudingen*: wanneer u de korting boekt, wordt een klantinhoudingsjournaal voor de kortingsklant gemaakt.</li><li>*Klantinhoudingen belastingfactuur*: wanneer u de korting boekt, wordt een vrije-tekstfactor voor de kortingsklant gemaakt.</li><li>*Handelsuitgave*: wanneer u de korting boekt, wordt een klantinhoudingsjournaal voor de kortingsklant gemaakt.</li><li>*Rapportage*: wanneer u de korting boekt, wordt een klantinhoudingsjournaal voor de kortingsklant gemaakt.</li></ul><p>Wanneer het veld **Type** is ingesteld op *Royalty*, zijn de volgende waarden beschikbaar:</p><ul><li>*Betalen met leveranciers*: wanneer u de korting plaatst, wordt een leveranciersfactuur gemaakt voor de kortingsleveranciersrekening.</li><li>*Rapportage*: wanneer u de korting plaatst, wordt een leveranciersfactuur gemaakt voor de kortingsleveranciersrekening.</li></ul><p>Zie de sectie [Betalingstypen](#payment-types) hieronder voor meer informatie. |
 | Bedrijf | Selecteer het bedrijf (rechtspersoon) waaraan de voorzieningen worden toegerekend en waardoor de claims worden betaald. |
 
 ### <a name="payment-types"></a>Betalingstypen

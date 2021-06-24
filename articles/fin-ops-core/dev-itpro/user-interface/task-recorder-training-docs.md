@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0be27fc759c525dcc1ffe4f2717b2e2378c52a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b07da82086696409b128d76d8845c61b241a34b0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744158"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188070"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Documentatie of training maken met Taakrecorder
 
@@ -31,8 +31,7 @@ In dit onderwerp wordt uitgelegd wat de Taakrecorder en taakbegeleidingen zijn, 
 > [!IMPORTANT]
 > U kunt uw eigen taakbegeleiders voor Dynamics 365 Human Resources opnemen, maar u kunt deze nu niet opslaan in een BPM-bibliotheek (Business Process Modeler) of openen vanuit het deelvenster Help. U kunt de taakbegeleidingen lokaal of op een netwerklocatie opslaan en vervolgens openen en afspelen met Taakrecorder. 
 
-<a name="learn-about-task-recorder"></a>Meer informatie over Taakregistratie
--------------------------
+## <a name="learn-about-task-recorder"></a>Meer informatie over Taakregistratie
 
 Taakrecorder is een hulpmiddel waarmee u de acties vast kunt leggen die u uitvoert in de gebruikersinterface (UI) van het product. Wanneer u Taakregistratie gebruikt, worden alle gebeurtenissen die u in de UI uitvoert die voor de server worden uitgevoerd, inclusief het toevoegen van waarden, wijzigen van instellingen, verwijderen van gegevens, vastgelegd. De stappen die u registreert worden samen een *taakregistratie* genoemd. Taakregistraties kunnen op verschillende manieren worden gebruikt:
 
@@ -111,8 +110,7 @@ U kunt de taakregistraties van Microsoft downloaden en bewerken om ze voor uw ei
 
 
 
-<a name="additional-resources"></a>Aanvullende bronnen
---------
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Help-systeem](../../fin-ops/get-started/help-overview.md)
 

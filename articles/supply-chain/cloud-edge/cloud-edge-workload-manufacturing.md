@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.openlocfilehash: 9cd7dd8b9241171bdfdb3cc1379211a2fe99bbe1
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899090"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6183991"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden
 
@@ -72,6 +72,7 @@ De volgende productie-uitvoeringstaken kunnen momenteel worden uitgevoerd op wor
 - Uitval rapporteren
 - Indirecte activiteit
 - Pauze
+- Gereedmelden en wegzetten (vereist dat u ook de werkbelasting van de magazijnuitvoering op uw schaaleenheid uitvoert, zie ook [Gereedmelden en wegzetten in een schaaleenheid](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>Werken met productie-uitvoeringsworkloads op de hub
 
@@ -108,6 +109,26 @@ Als u de geschiedenis wilt weergeven van de productietaken die op een schaaleenh
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>De taak Berichtverwerker productiehub naar schaaleenheid
 
 De taak _Berichtverwerker productiehub naar schaaleenheid_ verwerkt gegevens van de hub naar de schaaleenheid. Deze taak wordt automatisch gestart wanneer de productie-uitvoeringsworkload wordt geïmplementeerd. U kunt dit echter op elk gewenst moment handmatig uitvoeren door naar **Productiecontrole \> Periodieke taken \> Backoffice workloadbeheer \> Berichtverwerker productiehub naar schaaleenheid** te gaan.
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>Gereedmelden en wegzetten in een schaaleenheid
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+In de huidige versie worden de bewerkingen voor gereedmelden en wegzetten (voor eindproducten, coproducten en bijproducten) ondersteund door de [werkbelasting voor magazijnuitvoering](cloud-edge-workload-warehousing.md) (niet door de werkbelasting van de productie-uitvoering). Als u deze functionaliteit wilt gebruiken wanneer deze is gekoppeld aan een schaaleenheid, moet u daarom het volgende doen:
+
+- Installeer zowel de werkbelasting voor magazijnuitvoering als de werkbelasting voor de productie-uitvoering in uw schaaleenheid.
+- Gebruik de mobiele app Warehouse Management om gereed te melden en het wegzetwerk te verwerken. Deze processen worden momenteel niet ondersteund in de uitvoeringsinterface voor de productievloer.
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

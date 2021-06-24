@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 69232eed8520bafeb734ffad43b333bf9e36909e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c95c1f2342654ca2bbee57959becc85291eebbc
+ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018680"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187266"
 ---
 # <a name="engineering-change-management-faq"></a>Veelgestelde vragen over Beheer voor technische wijzigingen
 
@@ -46,7 +46,7 @@ Deze optie is veel eenvoudiger te beheren, omdat als u van de ene versie naar ee
 
 De meeste organisaties kiezen deze optie omdat het versie- en wijzigingsbeheer biedt, maar niet de extra overhead toevoegt voor het traceren van de versie in elke transactie, in de voorraad en tijdens de hoofdplanning.
 
-## <a name="which-fields-are-copied-to-the-released-item-template"></a>Welke velden worden naar de vrijgegeven artikelsjabloon gekopieerd?
+## <a name="which-fields-are-copied-from-the-released-item-template"></a>Welke velden worden vanuit de vrijgegeven artikelsjabloon gekopieerd?
 
 Wanneer een technisch bedrijf een technisch product maakt, wordt dat product gemaakt als vrijgegeven product in het technische bedrijf. Het vrijgegeven product dat wordt gemaakt, is gebaseerd op de geselecteerde *vrijgegeven artikelsjabloon*. (De vrijgegeven artikelsjabloon is zelf een bestaand vrijgegeven product.) De vrijgegeven artikelsjabloon wordt ook gebruikt wanneer het product wordt vrijgegeven voor een operationeel bedrijf. In elk geval definieert de vrijgegeven artikelsjabloon de meeste veldwaarden voor het vrijgegeven product. Deze waarden zijn afkomstig van de bijbehorende pagina **Vrijgegeven productdetails**.
 

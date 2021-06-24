@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b19c01afa162cce309443c9270ee1b39aeb0328
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d09b6f693f3396da181a0f47051b7c961aa55e03
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909151"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188240"
 ---
 # <a name="create-purchase-orders"></a>Inkooporders maken
 
@@ -80,8 +80,7 @@ Inkooporders kunnen zodanig worden geconfigureerd dat budgetfondsen moeten worde
 
 Mogelijk moet u de voltooiing van een inkooporder uitstellen. Zo hebt u bijvoorbeeld mogelijk meer informatie nodig over producten of diensten of hebt u toestemming voor de besteding nodig. Er zijn verschillende manieren om een order te vertragen. Zo kunt u bijvoorbeeld wachten met het bevestigen van de bestelling. Ook kunt u, als een werkstroom voor wijzigingsbeheer wordt gebruikt, de order niet indienen voor goedkeuring. Als u alle orders voor een bepaalde leverancier moet blokkeren, kunt u ook de leverancier markeren als **In wachtstand** voor verwerking in het leveranciermodel. Er zijn tevens omstandigheden die mogelijk de verwerking van de order kunnen voorkomen. Zo kan bijvoorbeeld de verwerking worden voorkomen als de kredietlimieten zijn overschreden of als vereiste budgetfondsen niet beschikbaar zijn.
 
-<a name="additional-resources"></a>Aanvullende resources
---------
+## <a name="additional-resources"></a>Aanvullende resources
 
 [Overzicht van inkooporders](purchase-order-overview.md)
 

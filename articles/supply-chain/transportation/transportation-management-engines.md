@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 61c745802edc419cb2ae94df6bc293f839cd8a0a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920104"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188838"
 ---
 # <a name="transportation-management-engines"></a>Transportbeheer engines
 
@@ -43,8 +43,7 @@ Deze tabel bevat de artikelen die beschikbaar zijn voor transportbeheerengines.
 | **Type vrachtfactuur**            | Standardiseerd de vrachtenfactuur en de vrachtenrekening regels en wordt gebruikt voor het automatische vergelijken van vrachtenrekening.                                                                                                                                                                                                                |
 
 
-<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Welke engines moet worden geconfigureerd om een zending te beoordelen?
----------------------------------------------------
+## <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Welke engines moet worden geconfigureerd om een zending te beoordelen?
 
 Om een zending te beoordelen die een specifieke vervoerder gebruikt, moet u meerdere engines van het transportbeheer configureren. De **tariefengine** is vereist, maar andere transportbeheerengines kunnen zijn vereist ter ondersteuning van de **tariefengine**. Zo kan de **tariefengine** bijvoorbeeld worden gebruikt om gegevens op te halen uit de **afstandsberekeningsengine** om het tarief te berekenen op basis van reiskosten tussen bron en bestemming.
 
@@ -62,8 +61,7 @@ In de meeste gevallen kunt u op de knop **Parameters** in de instellingsformulie
 |  <em>MileageEngineCode</em>  |                       Code van de afstandsberekenings-engine die de record van de afstandsberekenings-engine in de database identificeert.                        |
 | <em>Toewijzingen-engine</em> |                        Algemene enginecode die de toewijzingen-engine in de database identificeert.                        |
 
-<a name="how-is-metadata-used-in-transportation-management-engines"></a>Hoe de metagegevens worden gebruikt in de transportbeheer engines?
-----------------------------------------------------------
+## <a name="how-is-metadata-used-in-transportation-management-engines"></a>Hoe de metagegevens worden gebruikt in de transportbeheer engines?
 
 Transportbeheerengines die afhankelijk zijn op gegevens die zijn gedefinieerd in Supply Chain Management kunnen gebruikmaken van verschillende gegevensschema's. Het transportbeheersysteem laat toe dat verschillende transportbeheer engines hetzelfde algemene fysieke databasetabellen te gebruiken. Om ervoor te zorgen dat uitvoeringstijd interpretatie van enginegegevens correct is, kunt u voor metagegevens de database-tabellen definiëren. Dit vermindert de kosten om de nieuwe transportbeheerengines te maken omdat geen extra tabel- en formulierstructuren zijn vereist in Operations.
 

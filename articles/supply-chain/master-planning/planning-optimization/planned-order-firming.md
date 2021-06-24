@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103623"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193876"
 ---
 # <a name="firm-planned-orders"></a>Vast geplande orders
 
@@ -102,7 +102,7 @@ Met automatische fiattering kunt u geplande orders fiatteren als onderdeel van h
 
 Zowel Planningsoptimalisatie als de geïntegreerde planningsengine kunnen voor het automatisch fiatteren van geplande orders worden gebruikt. Er zijn echter enkele belangrijke verschillen. Bij Planningsoptimalisatie wordt bijvoorbeeld de orderdatum (dat wil zeggen, de begindatum) gebruikt om te bepalen welke geplande orders moeten worden gefiatteerd, terwijl bij de geïntegreerde planningsengine de behoeftedatum (dat wil zeggen, de einddatum) wordt gebruikt. In de volgende tabel krijgt u een overzicht van de verschillen.
 
-| | Planningsoptimalisatie | Geïntegreerde planningsengine |
+| Functie | Planningsoptimalisatie | Geïntegreerde planningsengine |
 |---|---|---|
 | **Datumbasis** | Automatische fiattering is gebaseerd op de orderdatum (begindatum). | Automatische fiattering is gebaseerd op de behoeftedatum (einddatum). |
 | **Levertijd** | Omdat de orderdatum (begindatum) de fiattering activeert, hoeft u geen rekening te houden met de doorlooptijd als onderdeel van de time fence voor fiattering. | Om te garanderen dat orders tijdig worden gefiatteerd, moet de time fence voor fiattering langer zijn dan de levertijdtijd. |

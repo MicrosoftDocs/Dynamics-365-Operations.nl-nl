@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2dddc22128621dc148a253cd568430587f294544
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822898"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187992"
 ---
 # <a name="overhead-calculation"></a>Overheadberekening
 
@@ -29,8 +29,7 @@ ms.locfileid: "5822898"
 
 In dit onderwerp worden de kenmerkende processen voor het berekenen en toewijzen van overheadkosten beschreven.
 
-<a name="term-definition"></a>Definitie van term
----------------
+## <a name="term-definition"></a>Definitie van term
 
 Overheadkosten zijn de kosten die normaal verbonden zijn aan de bedrijfsvoering van een onderneming, maar die niet rechtstreeks aan bepaalde bedrijfsactiviteiten, producten of services kunnen worden toegeschreven. Overheadkosten bieden kritieke ondersteuning voor het genereren van winstgevende activiteiten. Hieronder staan enkele voorbeelden van overheadkosten:
 

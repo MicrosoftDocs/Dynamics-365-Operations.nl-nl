@@ -1,8 +1,8 @@
 ---
 title: Vaste activa instellen
 description: Dit onderwerp bevat een overzicht van de instellingen van de module Vaste activa.
-author: ShylaThompson
-ms.date: 01/12/2018
+author: moaamer
+ms.date: 06/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff025984307f979ce98947f2225971041ebbdbae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f624ddc2e7b8f59a2ba002d757ce68ee222a7223
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818531"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216581"
 ---
 # <a name="set-up-fixed-assets"></a>Vaste activa instellen
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat een overzicht van de instellingen van de module **Vaste activa**.
+Dit onderwerp bevat een overzicht van de instellingen van de module **Vaste activa**. 
 
-## <a name="overview"></a>Overzicht
-
-Parameters bepalen het algemeen gedrag in Vaste activa.
-
-Met vaste-activagroepen kunt u uw activa groeperen en standaardkenmerken voor elk activum opgeven die aan een groep is toegewezen. Er worden boeken toegewezen aan vaste-activagroepen. De boeken volgen de financiële waarde van vaste activa in de loop der tijd met de afschrijvingsconfiguratie die in het afschrijvingsprofiel is gedefinieerd.
+Parameters bepalen het algemeen gedrag in Vaste activa. Met vaste-activagroepen kunt u uw activa groeperen en standaardkenmerken voor elk activum opgeven die aan een groep is toegewezen. Er worden boeken toegewezen aan vaste-activagroepen. De boeken volgen de financiële waarde van vaste activa in de loop der tijd met de afschrijvingsconfiguratie die in het afschrijvingsprofiel is gedefinieerd.
 
 Vaste activa worden aan een groep toegewezen wanneer ze worden gemaakt. Standaard worden de boeken die aan de vaste-activagroep zijn toegewezen vervolgens toegewezen aan vaste activa. De boeken die zijn geconfigureerd om naar het grootboek te boeken, worden gekoppeld aan een boekingsprofiel. Grootboekrekeningen worden voor elk boek gedefinieerd in het boekingsprofiel en gebruikt wanneer transacties voor vaste activa worden geboekt.
 
@@ -49,6 +45,8 @@ Nadat u afschrijvingsprofielen hebt ingesteld, moet u de vereiste boeken voor uw
 Een primair afschrijvingsprofiel wordt toegewezen aan elk boek. De boeken hebben ook of een alternatief afschrijvingsprofiel, als dit type profiel van toepassing is. Als u het vaste-activaboek automatisch wilt opnemen in afschrijvingsruns, moet u de optie **Afschrijving berekenen** inschakelen. Als deze optie niet voor een activum is ingeschakeld, slaat het afschrijvingsvoorstel het activum over.
 
 U kunt ook afgeleide boeken instellen. De opgegeven afgeleide transacties worden geboekt tegen de afgeleide boeken, als een exacte kopie van de primaire transactie. Daarom worden afgeleide transacties gewoonlijk ingesteld voor verwervingen en afstotingen, niet voor afschrijvingstransacties. Zie [Waardemodellen instellen](tasks/set-up-value-models.md) voor meer informatie.
+
+Met een optie op de pagina **Parameters van vaste activa** kunt u de vergrendelingsfunctionaliteit in- of uitschakelen. Deze functie wordt ingeschakeld in het werkgebied **Functiebeheer**.
 
 ## <a name="fixed-asset-posting-profiles"></a>Boekingsprofielen vaste activa
 
@@ -73,6 +71,8 @@ De laatste stap is het bijwerken van de vaste-activaparameters.
 Het veld **Drempel voor kapitalisatie** bepaalt de activa die zijn afgeschreven. Als een inkoopregel wordt geselecteerd als een vast activum, maar niet voldoet aan de opgegeven kapitalisatiedrempel, wordt het vaste activum wel gemaakt of bijgewerkt, maar wordt de optie **Afschrijving berekenen** ingesteld op **Nee**. Daarom wordt het activum niet automatisch afgeschreven als onderdeel van de afschrijvingsvoorstellen.
 
 Eén belangrijke optie heet **Automatisch bedragen voor afschrijvingscorrecties met afstoting maken**. Als u deze optie op **Ja** instelt, wordt de afschrijving van het activum automatisch aangepast, gebaseerd op de afschrijvingsinstellingen op het moment van afstoting. Met een andere optie kunt u contantkortingen van het verwervingsbedrag aftrekken wanneer u vaste activa aankoopt met een leveranciersfactuur.
+
+Met de parameter **Activaboeken in een afschrijvingsjournaal vergrendelen** kunt u activaboeken vergrendelen in een afschrijvingsjournaal. Wanneer afschrijvingstransacties worden geboekt, controleert het systeem of hetzelfde activaboek niet aan meer dan één afschrijvingsjournaal is toegevoegd. Als dat zo is, wordt het activaboek vergrendeld en wordt het boeken gestopt. Als een activaboek-id zich in een vergrendeld journaal bevindt, wordt deze automatisch ontgrendeld wanneer het boeken is voltooid voor het oorspronkelijke journaal. U kunt het journaal ook handmatig ontgrendelen. 
 
 Op het sneltabblad **Inkooporders** kunt u configureren hoe activa worden gemaakt als onderdeel van het inkoopproces. De eerste optie heet **Bijboekingen van activa vanuit Inkoop toestaan**. Als u deze optie instelt op **Ja**, vindt activaverwerving plaats wanneer de factuur wordt geboekt. Als u deze optie instelt op **Nee**, kunt nog een vast activum wel op een inkooporder en factuur opnemen, maar wordt de verwerving niet geboekt. Het boeken moet als een afzonderlijke stap worden uitgevoerd vanuit het vaste-activajournaal. Met de optie **Activum maken tijdens boeken van productontvangstbon of factuur** kunt u 'al doende' een nieuw activum maken tijdens het boeken. Daarom hoeft het activum niet te worden ingesteld als een vast activum vóór de transactie. De laatste optie **Controleren of er vaste activa zijn gemaakt tijdens regelinvoer** is alleen van toepassing op opdrachten tot inkoop.
 

@@ -2,7 +2,7 @@
 title: Meerdere ophaal- en bezorgmethodes inschakelen voor klantorders
 description: In dit onderwerp wordt de functionaliteit van Microsoft Dynamics 365 Commerce beschreven, waarmee u orders van klanten kunt klaarmaken voor ophalen in een winkel.
 author: hhainesms
-ms.date: 11/17/2020
+ms.date: 06/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ae7df6679c261b5e5dcd39e4ca6fe0e21d993927
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020646"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216762"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Meerdere ophaal- en bezorgmethodes inschakelen voor klantorders
 
@@ -38,7 +38,7 @@ Nadat u de functie **Ondersteuning voor meerdere ophaal- en bezorgmethodes** heb
 
 De velden **Leveringsmethode uitvoeren** en **Elektronische leveringsmethode** en de optie **Alleen opties voor vervoerdersmethoden weergeven voor verzendorders** zijn naar dit sneltabblad verplaatst.
 
-Voordat u extra leveringsmethoden kunt instellen, moet u leveringsmethoden maken. Voeg op de pagina **Leveringsmethoden** in Commerce Headquarters de leveringsmethoden toe die moeten worden beschouwd als ophaalmethodes. Zorg ervoor dat alle configuraties zijn voltooid. Controleer bijvoorbeeld of de leveringsmethode is gekoppeld aan de desbetreffende kanalen en artikelen. Wanneer u klaar bent, voert u de taak **Leveringsmethoden verwerken** uit om de relaties tussen de leveringsmethode, kanalen en artikelen te maken. Wanneer de uitvoering van de taak is voltooid, opent u de pagina **Distributieplanning** in Commerce Headquarters en voert u de distributietaak **1120** om ervoor te zorgen dat de relevante Commerce-kanaaldatabases worden bijgewerkt met de nieuwe configuratie van de leveringsmethode.
+Voordat u extra leveringsmethoden kunt instellen, moet u leveringsmethoden maken. Voeg op de pagina **Leveringsmethoden** in Commerce Headquarters de leveringsmethoden toe die moeten worden beschouwd als ophaalmethodes. Zorg ervoor dat alle configuraties zijn voltooid. Als u bijvoorbeeld ophalen bij een afhaalpunt als leveringsoptie voor uw on line klanten aanbiedt voor bepaalde winkels, moet u hiervoor een nieuwe leveringsmethode maken. U kunt deze leveringsmethode maken en de omschrijving 'ophalen bij afhaalpunt' gebruiken. U wilt er zeker van zijn dat de leveringsmethode 'Ophalen bij afhaalpunt' wordt toegewezen aan alle Commerce-kanalen die dit kunnen aanbieden, waaronder online winkels die deze optie kunnen aanbieden en de afzonderlijke winkelkanalen die deze afhandelingsmethode kunnen aanbieden. Leveringsmethoden moeten ook aan de producten worden gekoppeld. Als er in dit voorbeeld bepaalde producten zijn die niet kunnen worden uitgevoerd met 'ophalen bij afhaalpunt', moet u ervoor zorgen dat die artikelen worden uitgesloten. Wanneer u nieuwe leveringsmethoden hebt toegevoegd, voert u de taak **Leveringsmethoden verwerken** uit om de relaties tussen de leveringsmethode, kanalen en artikelen te maken. Wanneer de taak is voltooid, opent u de pagina **Distributieplanning** in Commerce Headquarters en voert u de distributietaak **1120** uit om ervoor te zorgen dat de relevante Commerce-kanaaldatabases worden bijgewerkt met de configuratie van de nieuwe leveringsmethode.
 
 ![Voorbeeld van een modus voor leveringsconfiguratie voor een ophaalpunt](media/pickupmodes.png)
 

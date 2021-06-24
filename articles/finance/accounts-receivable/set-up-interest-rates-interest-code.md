@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62868c30d3ff60e51d99c71b743ab0bbb3c87451
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc986ea752d1482f618401058f7a0b18f13efd5f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835191"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188705"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Rentepercentages instellen voor een rentecode
 
@@ -90,7 +90,6 @@ U stelt de bereikinformatie als volgt in.
 
 
 ## <a name="example-2-interest-by-range--days"></a>Voorbeeld 2: Rente volgens bereik = Dagen
---------------------------------------------------
 
 U stelt een rentecode in die één keer rente aanrekent voor elke 15 dagen dat de factuur voorbij de vervaldatum is. U wilt de berekening baseren op een rentewaarde van een bepaald bedrag, volgens getrapte dagintervallen. De waarde van de rente worden 10,00 per 15 dagen gedurende de eerste 60 dagen 15,00 per 15 dagen van dagen 61-90 en 20,00 per 15 dagen vanaf dag 91 en later. U stelt het rentecodeveld als volgt in.
 
@@ -111,7 +110,6 @@ U stelt de bereikinformatie als volgt in.
 
 
 ## <a name="example-3-interest-by-range--months"></a>Voorbeeld 3: Rente volgens bereik = Maanden
-----------------------------------------------------
 
 U stelt een rentecode in die één keer rente aanrekent voor elke maand dat de factuur voorbij de vervaldatum is. U wilt de berekening baseren op een percentage rentewaarde, volgens getrapte maandintervallen. De waarde van de rente is 1,5 procent per maand voor de eerste drie maanden achterstal, 2,0 procent per maand voor de tweede drie maanden en 2,5 procent per maand voor elke maand voorbij de eerste zes maanden. U stelt het rentecodeveld als volgt in.
 

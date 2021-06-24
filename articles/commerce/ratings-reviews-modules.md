@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: dee9a6a7e2a5278f069958ce00689b1beb9b1bd7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792142"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193277"
 ---
 # <a name="ratings-and-reviews-modules"></a>Beoordelings- en recensiemodules
 
@@ -54,7 +54,11 @@ In de volgende afbeelding ziet u hoe in het dialoogvenster **Module toevoegen** 
 
 De module voor het schrijven van een recensie bevat een knop **Schrijf een recensie** waarmee gebruikers zich kunnen aanmelden, een beoordeling kunnen toewijzen en een recensie van een product kunnen schrijven. Met deze module kunnen gebruikers ook een beoordeling of een recensie bewerken die ze eerder hebben ingediend. Deze module wordt meestal weergegeven boven het beoordelingshistogram en de lijstmodules met productrecensies op een PDP.
 In de volgende afbeelding ziet u het dialoogvenster **Schrijf een recensie** dat wordt weergegeven wanneer een klant **Schrijf een recensie** selecteert. De klant kan dit dialoog venster gebruiken om een beoordeling en een recensie in te dienen.
-![Dialoogvenster Schrijf een recensie](media/rnr-eCommerce-write-review-module.png) In de volgende tabel wordt de eigenschap van de module voor het schrijven van een recensie weergegeven die moet worden geconfigureerd in het ontwerpgereedschap.
+
+![Het dialoogvenster Schrijf een recensie](media/rnr-eCommerce-write-review-module.png)
+
+In de volgende tabel wordt de eigenschap van de module voor het schrijven van een recensie weergegeven die moet worden geconfigureerd in het ontwerpgereedschap.
+
 | Naam van eigenschap. | Waarde        | Beschrijving eigenschap                 |
 |---------------|--------------|--------------------------------------|
 | Naam          | Recensie schrijven | De naam van de module voor het schrijven van een recensie. |
