@@ -92,9 +92,9 @@
                   href: ../fin-ops-core/fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/commerce/toc.json
                 - name: Nieuwe of gewijzigde functies in Commerce
                   items:
-                    - name: Startpagina van nieuwe of gewijzigde functies in Commerce
+                    - name: Startpagina voor nieuwe of gewijzigde functies in Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.20 (juli 2021)
+                    - name: Commerce 10.0.20 (augustus 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (juni 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
@@ -244,7 +244,7 @@
                   href: arch-auth-flow.md
                 - name: Versievereisten voor Dynamics 365 Commerce-onderdelen
                   href: arch-component-versioning.md
-                - name: De architectuur van Commerce Scale Unit
+                - name: Architectuur van engine voor headless commerce
                   href: dev-itpro/retail-server-architecture.md
                 - name: Een topologie voor de winkel selecteren
                   href: dev-itpro/retail-in-store-topology.md
@@ -258,9 +258,9 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: De architectuur van Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: De architectuur van het publiceren van online winkels
+                - name: Een online winkelafzetkanaal publiceren
                   href: dev-itpro/retail-online-store-publishing-architecture.md
-                - name: Power BI-inhoud voor Retail Channel Performance
+                - name: Retail Channel Performance Power BI-inhoud
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
                 - name: Certificering Payment Application Data Security Standards (PA-DSS)
                   href: dev-itpro/PA-DSS-Certification.md
@@ -546,11 +546,13 @@
                       href: paypal.md
                     - name: Ondersteuning voor walletbetaling
                       href: wallets.md
+                    - name: Verbeterde betalingen bij uitchecken in winkel
+                      href: dev-itpro/enhanced-sca.md
                     - name: Veelgestelde vragen over betalingen
                       href: dev-itpro/payments-retail.md
                 - name: E-mail en meldingen
                   items:
-                    - name: Ontvangstbewijse-e-mails configureren om aangepaste indelingen en sjablonen te gebruiken
+                    - name: E-mails voor ontvangstbewijzen configureren om aangepaste indelingen en sjablonen te gebruiken
                       href: configure-emailed-receipt-formats.md
                     - name: Een QR-code of streepjescode toevoegen aan e-mails voor transacties en ontvangstbewijzen
                       href: add-qr-code-barcode-email.md
@@ -770,10 +772,14 @@
                   href: notifications-pos.md
                 - name: Continuïteitsprogramma's verkopen en verkooporders verwerken
                   href: tasks/use-continuity-program.md
-                - name: Incheckmeldingen van klanten in het verkooppunt inschakelen (POS)
+                - name: Incheckmeldingen van klanten in POS inschakelen
                   href: enable-customer-check-in.md
-            - name: Retouren
+            - name: Retouren en restituties
               items:
+                - name: Retouren maken in POS
+                  href: POS-returns.md
+                - name: Producten met serienummers retourneren in POS
+                  href: POS-serial-returns.md
                 - name: Gekoppelde restituties
                   href: dev-itpro/linked-refunds.md
                 - name: Producten verkopen en terugsturen die niet zijn opgenomen in een winkelassortiment
@@ -1228,8 +1234,10 @@
                   href: ../finance/localizations/rcs-overview.md?toc=/dynamics365/commerce/toc.json
                 - name: Regulatory configuration service - globalisatiefuncties
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
-                - name: ER-configuraties maken in Regulatory configuration service en deze uploaden naar de algemene opslagplaats
+                - name: ER-configuraties maken in Regulatory Configuration Service en deze uploaden naar de algemene opslagplaats
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service – Afschaffing van Lifecycle Services-opslag
+                  href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
             - name: Oostenrijk
               items:
                 - name: Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk
@@ -1238,9 +1246,11 @@
               items:
                 - name: Commerce-lokalisatie voor Brazilië
                   href: localizations/latam-bra-commerce-localization.md
+                - name: Commerce-lokalisatie voor Brazilië instellen en implementeren
+                  href: localizations/latam-bra-deployment.md
             - name: Oost-Europa
               items:
-                - name: Algemeen
+                - name: Gemeenschappelijk
                   items:
                     - name: Voorschotfacturen voor Commerce voor Oost-Europa
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
@@ -1962,8 +1972,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
                     - name: Formulieren genereren voor afdrukbare vrije-tekstfacturen (FTI)
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
-                - name: Uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                - name: Efficiënte ER-oplossingen ontwerpen
+                  items:
+                    - name: Uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                    - name: Prestatieproblemen in ER-configuraties oplossen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
                 - name: Beheer van bedrijfsdocumenten (BDM)
                   items:
                     - name: BDM-overzicht
@@ -2392,7 +2406,7 @@
                   href: dev-itpro/retail-sdk/sdk-github.md
                 - name: Veelgestelde vragen over Retail SDK
                   href: dev-itpro/retail-sdk/sdk-faq.md
-            - name: Uitbreidbaarheid van verkooppunten
+            - name: Uitbreidbaarheid van verkooppunten (POS)
               items:
                 - name: POS-schermindelingen
                   href: pos-screen-layouts.md

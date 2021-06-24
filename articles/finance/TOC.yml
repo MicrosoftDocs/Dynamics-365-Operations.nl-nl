@@ -72,13 +72,11 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Finance
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.20 (juli 2021)
+                    - name: Finance 10.0.20 (augustus 2021)
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19 (juli 2021)
+                    - name: Finance 10.0.19 (juni 2021)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (mei 2021)
-                      href: get-started/whats-new-changed-10-0-18.md
-                    - name: Finance 10.0.17 (april 2021)
                       href: get-started/whats-new-changed-10-0-17.md
             - name: Verwijderde of afgeschafte functies
               items:
@@ -1216,7 +1214,9 @@
               href: finance-insights/finance-insights-home-page.md
             - name: Configuratie en beheer
               items:
-                - name: Financiële inzichten configureren
+                - name: Finance Insights configureren voor openbare preview
+                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
+                - name: Finance Insights configureren
                   href: finance-insights/configure-for-fin-insites.md
                 - name: Voorspellingen voor klantbetalingen inschakelen
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1462,8 +1462,10 @@
                       href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Regulatory configuration service - globalisatiefuncties
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
-                    - name: ER-configuraties maken in Regulatory configuration service en deze uploaden naar de algemene opslagplaats
+                    - name: ER-configuraties maken in Regulatory Configuration Service en deze uploaden naar de algemene opslagplaats
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: Regulatory Configuration Service – Afschaffing van Lifecycle Services-opslag
+                      href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Elektronische facturering
                   items:
                     - name: Overzicht van Elektronische facturering
@@ -1476,6 +1478,8 @@
                       href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
                     - name: Een Azure-opslagaccount en een Key Vault maken
                       href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
+                    - name: Dashboard voor gebruiksbeheer
+                      href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                     - name: Aan de slag
                       items:
                         - name: Aan de slag met servicebeheer voor Elektronische facturering
@@ -2416,18 +2420,102 @@
                               href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
                             - name: Belastingtransactie-id is onjuist
                               href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
+                            - name: Onjuiste veldwaarden in het GSTR-rapport
+                              href: localizations/apac-ind-GST-troubleshooting-field-value-incorrect-GSTR-report-result.md
+                            - name: Onjuiste veldwaarde in een factuurjournaal of boekstuk
+                              href: localizations/apac-ind-GST-troubleshooting-invoice-journal-wrong.md
+                            - name: Onjuiste grootboekrekening in het boekstuk
+                              href: localizations/apac-ind-GST-troubleshooting-ledger-account-voucher-wrong.md
+                            - name: De ontwerper voor de huidige belastingconfiguratie openen
+                              href: localizations/apac-ind-GST-troubleshooting-open-designer-current-used-tax-configuration.md
+                            - name: Records en velden worden niet weergegeven in het GSTR-rapport
+                              href: localizations/apac-ind-GST-troubleshooting-records-fields-not-showing-GSTR-report.md
+                            - name: Compensatieregelfout bij het uitvoeren van een belastingvereffening
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-error-transactions-on-voucher-not%20balance.md
                 - name: Directe belastingen
                   items:
                     - name: Bronbelasting voor India
                       items:
-                        - name: GST opnemen bij berekenen van belastinginhoudingen
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
-                        - name: GST opnemen bij berekenen van belastingincasso's
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
                         - name: Veelgestelde vragen over belastingdrempels
                           href: localizations/apac-ind-tax-thresholds.md
-                        - name: TCS bij verkoop van goederen
-                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                        - name: TCS India
+                          items:
+                            - name: TCS bij verkoop van goederen
+                              href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                            - name: GST opnemen bij berekenen van belastingincasso's
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
+                        - name: TDS India
+                          items:
+                            - name: Overzicht van Indiase TDS (Tax Deducted at Source)
+                              href: localizations/apac-ind-TDS-India-TDS-overview.md
+                            - name: GST opnemen bij berekenen van belastinginhoudingen
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                            - name: Basisinstellingen voor TDS
+                              items:
+                                - name: De TDS-parameters instellen
+                                  href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                                - name: TDS-grootboekrekeningen instellen
+                                  href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                                - name: TDS-registratienummers instellen voor rechtspersonen
+                                  href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: Bronbelastingdiensten instellen voor het TDS-belastingtype
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: Belastingonderdelen instellen voor het TDS-belastingtype
+                                  href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                                - name: Bronbelastingcodes instellen voor het TDS-belastingtype
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: Vereffeningsperioden voor bronbelasting instellen voor het TDS-belastingtype
+                                  href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                                - name: Aangiftecodes voor bronbelasting instellen voor het TDS-belastingtype
+                                  href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                                - name: Bronbelastingcodes instellen voor het TDS-belastingtype
+                                  href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                                - name: TDS-belastingcodes koppelen aan TDS-belastinggroepen en de formule voor het berekenen van TDS definiëren
+                                  href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                                - name: Certificaatnummers voor concessie van TDS registreren
+                                  href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                                - name: TDS-parameters instellen in Leveranciers en Klanten
+                                  href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                                - name: Betalingsschema's instellen met TDS-toewijzing
+                                  href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                                - name: Betalingskosten instellen voor TDS-instantiebetalingen
+                                  href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                                - name: 'Instellingen voor TDS-groeps-, PAN- en TAN-gegevens voor leveranciers en klanten'
+                                  href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                                - name: Formuleontwerper en drempellimiet voor TDS-berekening
+                                  items: null
+                                - name: Formuleontwerper voor TDS-berekeningen
+                                  href: localizations/apac-ind-TDS-Formula-designer.md
+                                - name: Drempellimiet en uitzonderingsdrempellimiet
+                                  href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                            - name: TDS-berekening voor facturen
+                              items:
+                                - name: TDS-berekening voor facturen
+                                  href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                                - name: TDS voor facturen berekenen met journalen
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                                - name: TDS-facturen berekenen op basis van inkooporder- en verkooporderformulier
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                                - name: TDS-berekening voor facturen via de pagina Vrije-tekstfactuur
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                                - name: Functionaliteit voor gesplitste facturen
+                                  href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                            - name: TDS-berekening voor betalingen en promessen
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                            - name: TDS-berekening voor intercompany-transacties
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                            - name: TDS-vereffeningsproces
+                              items:
+                                - name: TDS-berekening voor betalingen en promessen
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                                - name: TDS-berekening voor intercompany-transacties
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                                - name: Het periodieke TDS-vereffeningsproces uitvoeren
+                                  href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                                - name: TDS-betalingen vereffenen met leveranciers van TDS-instanties en TDS-challan genereren
+                                  href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                                - name: Geboekte TDS-betalingen en -transacties voor een TDS-vereffeningsperiode weergeven
+                                  href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
                 - name: Vaste activa
                   items:
                     - name: Overzicht van vaste activa voor India
@@ -2454,84 +2542,12 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Overboeking van kapitaalitems naar het vaste activum
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: TDS India
-                  items:
-                    - name: Overzicht van Indiase TDS (Tax Deducted at Source)
-                      href: localizations/apac-ind-TDS-India-TDS-overview.md
-                    - name: Basisinstellingen voor TDS
+                    - name: TDS-certificaatnummers en -datums registreren en bijwerken
                       items:
-                        - name: De TDS-parameters instellen
-                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
-                        - name: TDS-grootboekrekeningen instellen
-                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
-                        - name: TDS-registratienummers instellen voor rechtspersonen
-                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
-                        - name: Bronbelastingdiensten instellen voor het TDS-belastingtype
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: Belastingonderdelen instellen voor het TDS-belastingtype
-                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
-                        - name: Bronbelastingcodes instellen voor het TDS-belastingtype
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: Vereffeningsperioden voor bronbelasting instellen voor het TDS-belastingtype
-                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
-                        - name: Aangiftecodes voor bronbelasting instellen voor het TDS-belastingtype
-                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
-                        - name: Bronbelastingcodes instellen voor het TDS-belastingtype
-                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
-                        - name: TDS-belastingcodes koppelen aan TDS-belastinggroepen en de formule voor het berekenen van TDS definiëren
-                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
-                        - name: Certificaatnummers voor concessie van TDS registreren
-                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
-                        - name: TDS-parameters instellen in Leveranciers en Klanten
-                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
-                        - name: Betalingsschema's instellen met TDS-toewijzing
-                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
-                        - name: Betalingskosten instellen voor TDS-instantiebetalingen
-                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
-                        - name: 'Instellingen voor TDS-groeps-, PAN- en TAN-gegevens voor leveranciers en klanten'
-                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
-                    - name: Formuleontwerper en drempellimiet voor TDS-berekening
-                      items:
-                        - name: Formuleontwerper voor TDS-berekeningen
-                          href: localizations/apac-ind-TDS-Formula-designer.md
-                        - name: Drempellimiet en uitzonderingsdrempellimiet
-                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
-                    - name: TDS-berekening voor facturen
-                      items:
-                        - name: TDS-berekening voor facturen
-                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
-                        - name: TDS voor facturen berekenen met journalen
-                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
-                        - name: TDS-facturen berekenen op basis van inkooporder- en verkooporderformulier
-                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
-                        - name: TDS-berekening voor facturen via de pagina Vrije-tekstfactuur
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
-                        - name: Functionaliteit voor gesplitste facturen
-                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
-                    - name: TDS-berekening voor betalingen en promessen
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                    - name: TDS-berekening voor intercompany-transacties
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                    - name: TDS-vereffeningsproces
-                      items:
-                        - name: TDS-berekening voor betalingen en promessen
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                        - name: TDS-berekening voor intercompany-transacties
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                        - name: TDS-vereffeningsproces
-                          items:
-                            - name: Het periodieke TDS-vereffeningsproces uitvoeren
-                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
-                            - name: TDS-betalingen vereffenen met leveranciers van TDS-instanties en TDS-challan genereren
-                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
-                            - name: Geboekte TDS-betalingen en -transacties voor een TDS-vereffeningsperiode weergeven
-                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
-                        - name: TDS-certificaatnummers en -datums registreren en bijwerken
-                          items:
-                            - name: Certificaatnummers voor terug te vorderen TDS registreren
-                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
-                            - name: Certificaatnummers en -datums bijwerken voor TDS-transacties
-                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+                        - name: Certificaatnummers voor terug te vorderen TDS registreren
+                          href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                        - name: Certificaatnummers en -datums bijwerken voor TDS-transacties
+                          href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: Italië
               items:
                 - name: Overzicht Italië
@@ -4159,14 +4175,18 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: Testen automatiseren met ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
-                - name: Bedrijfsprocessen automatiseren met behulp van configuraties voor elektronische rapportage
+                - name: Bedrijfsprocessen automatiseren met behulp van ER-configuraties
                   items:
                     - name: ER configureren om gegevens op te halen in Power BI
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: Formulieren genereren voor afdrukbare vrije-tekstfacturen (FTI)
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
-                - name: Uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                - name: Efficiënte ER-oplossingen ontwerpen
+                  items:
+                    - name: Uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                    - name: Prestatieproblemen in ER-configuraties oplossen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Beheer van bedrijfsdocumenten (BDM)
                   items:
                     - name: BDM-overzicht
