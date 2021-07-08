@@ -1208,9 +1208,9 @@
               href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
             - name: Veelgestelde vragen over financiële rapportage
               href: general-ledger/financial-reporting-faq.md
-        - name: Financiële inzichten
+        - name: Finance Insights
           items:
-            - name: Startpagina van Financiële inzichten
+            - name: Startpagina van Finance Insights
               href: finance-insights/finance-insights-home-page.md
             - name: Configuratie en beheer
               items:
@@ -1226,7 +1226,7 @@
                   href: finance-insights/enable-budget-proposal.md
                 - name: Data Integrator-project maken
                   href: finance-insights/create-data-integrate-project.md
-            - name: Financiële inzichten gebruiken
+            - name: Finance Insights gebruiken
               items:
                 - name: Budgetvoorstellen
                   href: finance-insights/budget-proposals.md
@@ -1464,7 +1464,9 @@
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: ER-configuraties maken in Regulatory Configuration Service en deze uploaden naar de algemene opslagplaats
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                    - name: Regulatory Configuration Service – Afschaffing van Lifecycle Services-opslag
+                    - name: Regulatory Configuration Service - een RCS-omgeving verwijderen
+                      href: localizations/rcs-delete-environment.md
+                    - name: Regulatory Configuration Service - Afschaffing van Lifecycle Services-opslag
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Elektronische facturering
                   items:
@@ -1524,6 +1526,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: ICL-lijst
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Rapportage voor Verenigd Koninkrijk
+                          items:
+                            - name: Voorbereiden op integratie met MTD voor btw
+                              href: localizations/emea-gbr-mtd-vat-integration.md
             - name: Wettelijk voorgeschreven updates
               href: localizations/regulatory-updates.md
             - name: Australië
@@ -1726,7 +1732,7 @@
                   href: localizations/tasks/br-00066-1-set-up-interest-fines-customer-payments.md
                 - name: Rente en boetes berekenen voor klantbetalingen
                   href: localizations/tasks/br-00066-2-calculate-interest-fines-customer-payments.md
-                - name: Btw
+                - name: Belastingen
                   items:
                     - name: Overzicht van belastingen voor Brazilië
                       href: localizations/latam-bra-calculate-taxes.md
@@ -3176,6 +3182,8 @@
                       href: localizations/rus-rated-expenses-registers.md
                     - name: Belastingregisters voor leveranciersschulden en schuldafschrijvingen
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
+                    - name: Reserves voor dubieuze debiteuren in Klanten
+                      href: localizations/rus-bad-debts.md
             - name: Saoedi-Arabië
               items:
                 - name: Overzicht Saoedi-Arabië
@@ -3292,8 +3300,6 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: Btw-groepen instellen voor een omgekeerde toeslag
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Belasting digitaal maken voor btw
-                  href: localizations/emea-gbr-mtd-vat-integration.md
                 - name: Statistieken over rapport met betalingsmethoden
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Verenigde Staten
@@ -3665,6 +3671,12 @@
               items:
                 - name: Formuletaal
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
+                - name: Ondersteunde gegevenstypen voor ER-formules
+                  items:
+                    - name: Primitieve gegevenstypen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/finance/toc.json
+                    - name: Samengestelde gegevenstypen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/finance/toc.json
                 - name: Functies
                   items:
                     - name: Container
@@ -3929,12 +3941,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
             - name: ER-indelingen ontwerpen voor het genereren van uitgaande documenten in verschillende indelingen
               items:
+                - name: Een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Ontwerpconfiguraties om uitgaande documenten te genereren in Excel-indeling
                   items:
                     - name: Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
-                    - name: Voorbeeld van het genereren van rapporten in OPENXML-indeling
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: ER-indelingen wijzigen door Excel-sjablonen opnieuw toe te passen
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: Kolommen dynamisch toevoegen aan Excel-rapporten als horizontaal uitbreidbare bereiken
@@ -4211,13 +4223,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
                     - name: Toepassingsupdate 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
+                    - name: Toepassingsupdate 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                 - name: Een aangepaste opslaglocatie opgeven voor gegenereerde documenten
                   items:
                     - name: Abonneren op een gebeurtenis om een reactie te vragen van een abonneehandler
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Het maken van een ER-bestemming delegeren aan een aangepaste bestemmingsfabriek
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/finance/toc.json
-                - name: Gegevensbronwaarden van het type GEBRUIKERSINVOERPARAMETER starten vanuit broncode
+                    - name: Een aangepaste bestemming implementeren voor gegenereerde documenten
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
+                - name: Gegevensbronwaarden van het type USER INPUT PARAMETER starten vanuit broncode
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
         - name: Mobiele app
           items:

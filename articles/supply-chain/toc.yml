@@ -78,8 +78,6 @@
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (mei 2021)
                       href: get-started/whats-new-scm-10-0-18.md
-                    - name: Supply Chain Management 10.0.17 (april 2021)
-                      href: get-started/whats-new-scm-10-0-17.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Startpagina voor verwijderde of afgeschafte functies
@@ -234,7 +232,7 @@
                       href: ../finance/localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Elektronische facturen uitgeven in Finance en Supply Chain Management
                       href: ../finance/localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Een Azure-opslagaccount en een sleutelkluis maken
+                    - name: Een Azure-opslagaccount en een Key Vault maken
                       href: ../finance/localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Dashboard voor gebruiksbeheer
                       href: ../finance/localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/supply-chain/toc.json
@@ -603,6 +601,20 @@
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: Werkgebied voor kostenbeheer voor mobiele toepassing Finance and Operations gebruiken
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Algemene voorraadboekhouding
+          items:
+            - name: Startpagina Algemene voorraadboekhouding
+              href: global-inventory-accounting/global-inventory-accounting-home.md
+            - name: Aan de slag met Algemene voorraadboekhouding
+              href: global-inventory-accounting/get-started-with-gia.md
+            - name: Bedrijfsdocumenten die worden ondersteund door Algemene voorraadboekhouding
+              href: global-inventory-accounting/business-documents-supported.md
+            - name: Power BI inschakelen voor Algemene voorraadboekhouding
+              href: global-inventory-accounting/enable-power-bi-for-gia.md
+            - name: Conventies
+              href: global-inventory-accounting/conventions.md
+            - name: Grootboek voor Algemene voorraadboekhouding
+              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: Kostenbeheer
           items:
             - name: Startpagina van Kostenbeheer
@@ -873,6 +885,12 @@
               items:
                 - name: Formuletaal
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Ondersteunde gegevenstypen voor ER-formules
+                  items:
+                    - name: Primitieve gegevenstypen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Samengestelde gegevenstypen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Functies
                   items:
                     - name: Container
@@ -1417,13 +1435,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Toepassingsupdate 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Toepassingsupdate 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Een aangepaste opslaglocatie opgeven voor gegenereerde documenten
                   items:
                     - name: Abonneren op een gebeurtenis om een reactie te vragen van een abonneehandler
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Het maken van een ER-bestemming delegeren aan een aangepaste bestemmingsfabriek
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Gegevensbronwaarden van het type GEBRUIKERSINVOERPARAMETER starten vanuit broncode
+                - name: Een aangepaste bestemming implementeren voor gegenereerde documenten
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Gegevensbronwaarden van het type USER INPUT PARAMETER starten vanuit broncode
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
         - name: Voorraadbeheer
           items:
@@ -1593,6 +1615,8 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Veiligheidsmarges
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Vertragingstolerantie (negatieve dagen)
+                  href: master-planning/planning-optimization/delay-tolerance.md
                 - name: Opdrachten tot inkoop
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Productieplanning
@@ -1603,6 +1627,8 @@
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Producten uitsluiten met bepaalde productlevenscyclusstatussen
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: Aanvullingsmethoden en gewijzigde hoeveelheden
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Time fences voor behoefteplanning
                   href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: Geplande orders goedkeuren
@@ -3047,6 +3073,8 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Artikelen registreren voor een artikel waarvoor basaal magazijnbeheer mogelijk is met een artikelontvangstjournaal
                   href: warehousing/tasks/register-items-basic-warehousing.md
+                - name: Inkomende ASN's importeren via de V2-gegevensentiteit
+                  href: warehousing/import-asn-v2-data-entity.md
                 - name: Producten cross-docken vanuit ontvangend magazijn naar winkels
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
                 - name: Een locatie-instructie instellen voor wegzetten van inkooporders
@@ -3215,6 +3243,8 @@
                       href: warehousing/partial-location-cycle-counting.md
                     - name: Gedeeltelijk locatieproces voor cyclustelling definiëren
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: Voorbeeldscenario's voor cyclustelling
+                      href: warehousing/cycle-counting-scenarios.md
                     - name: Opschoningstaak van voorhanden voorraadgegevens voor magazijnbeheer
                       href: warehousing/onhand-cleanup.md
                     - name: Voorraadjournalen
@@ -3241,6 +3271,52 @@
                       href: warehousing/mhax.md
                     - name: Problemen met magazijnwerk oplossen
                       href: warehousing/troubleshoot-warehouse-work.md
+            - name: De app voor magazijnbeheer
+              items:
+                - name: 'Mobiele apparaten installeren, instellen en gebruiken'
+                  items:
+                    - name: Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
+                      href: warehousing/whats-new-wma.md
+                    - name: De mobiele app Warehouse Management installeren en verbinden
+                      href: warehousing/install-configure-warehouse-management-app.md
+                    - name: De app voor magazijnbeheer installeren en verbinden
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Streepjescodes scannen met een camera in de mobiele app Warehouse Management
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Problemen oplossen met de verbinding met de mobiele app Warehouse Management
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
+                - name: Velden en menu's instellen voor mobiele apparaten
+                  items:
+                    - name: Velden configureren voor de mobiele app Warehouse Management
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Mobiele apparaten instellen voor magazijnwerk
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Nummerplaat ontvangen via de mobiele app Warehouse Management
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Een menuopdracht voor een mobiel apparaat instellen om de ontvangen artikelen te registreren
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Een menuopdracht voor een mobiel apparaat instellen om een overzicht van een orderverzamelregel te geven
+                      href: warehousing/pick-line-overview.md
+                    - name: Een menuopdracht voor een mobiel apparaat maken ten behoeve van nummerplaatconsolidatie
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Gecombineerde nummerplaat ontvangen op een mobiel apparaat
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Oudere batches binnen magazijn weergeven op een mobiel apparaat configureren
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Oudste batch verzamelen op een mobiel apparaat
+                      href: warehousing/pick-oldest-batch.md
+                - name: Gebruikersinstellingen mobiel apparaat
+                  href: warehousing/mobile-device-user-settings.md
+                - name: Verwerking van gebeurtenissen in de app voor magazijnbeheer
+                  href: warehousing/warehouse-app-events.md
+                - name: De app voor magazijnbeheer aanpassen
+                  items:
+                    - name: Raamwerk voor verwerkingsinstructies
+                      href: warehousing/process-guide-framework.md
+                    - name: Stappictogrammen en titels toewijzen
+                      href: warehousing/step-icons-titles.md
             - name: Magazijninstellingen
               items:
                 - name: Magazijnconfiguratie
@@ -3277,8 +3353,12 @@
                           href: warehousing/wave-execution-notifications.md
                         - name: Wavelabels afdrukken
                           href: warehousing/configure-wave-label-printing.md
+                        - name: Afdrukken van wavelabels plannen tijdens wave
+                          href: warehousing/configure-task-based-wave-label-printing.md
                         - name: Containervorming
                           href: warehousing/wave-containerization.md
+                        - name: Verpakkingsstrategieën voor containers
+                          href: warehousing/container-packing-strategy-overview.md
                     - name: Zendingen automatisch bijwerken
                       href: warehousing/auto-update-shipment.md
                     - name: Een locatieprofiel maken
@@ -3309,44 +3389,6 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Problemen met magazijnconfiguratie oplossen
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: De mobiele app Warehouse Management installeren en configureren
-                  items:
-                    - name: De mobiele app Warehouse Management installeren en verbinden
-                      href: warehousing/install-configure-warehouse-management-app.md
-                    - name: Gebruikersinstellingen mobiel apparaat
-                      href: warehousing/mobile-device-user-settings.md
-                    - name: De app voor magazijnbeheer installeren en verbinden
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: Streepjescodes scannen met een camera in de mobiele app Warehouse Management
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Velden configureren voor de mobiele app Warehouse Management
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: Mobiele apparaten instellen voor magazijnwerk
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Stappictogrammen en titels toewijzen
-                      href: warehousing/step-icons-titles.md
-                    - name: Verwerking van gebeurtenissen in magazijnapp
-                      href: warehousing/warehouse-app-events.md
-                    - name: Nummerplaat ontvangen via de mobiele app voor Warehouse Management
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: Een menuopdracht voor een mobiel apparaat instellen om de ontvangen artikelen te registreren
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: Een menuopdracht voor een mobiel apparaat instellen om een overzicht van een orderverzamelregel te geven
-                      href: warehousing/pick-line-overview.md
-                    - name: Een menuopdracht voor een mobiel apparaat maken ten behoeve van nummerplaatconsolidatie
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: Gecombineerde nummerplaat ontvangen op een mobiel apparaat
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: Oudere batches binnen magazijn weergeven op een mobiel apparaat configureren
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: Oudste batch verzamelen op een mobiel apparaat
-                      href: warehousing/pick-oldest-batch.md
-                    - name: Raamwerk voor verwerkingsinstructies
-                      href: warehousing/process-guide-framework.md
-                    - name: Problemen oplossen met de verbinding met de mobiele app voor Magazijnbeheer
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Upgrade en migratie
                   items:
                     - name: Een upgrade van magazijnbeheerprocessen uitvoeren vanuit Microsoft Dynamics AX 2012 naar Finance and Operations
@@ -3393,6 +3435,22 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Hoofdplanning
               items:
+                - name: Er wordt een foutbericht weergegeven wanneer u de ingebouwde hoofdplanningsengine gebruikt
+                  href: troubleshooting/planning/deprecated-master-planning-error.md
+                - name: Een artikel kan geen stuklijst of formule hebben
+                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
+                - name: Parameters voor hoofdplan bestaan niet
+                  href: troubleshooting/planning/no-parameters-for-master-plan.md
+                - name: De geplande productieorder moet worden gepland voordat deze kan worden gefiatteerd
+                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
+                - name: Product staat in wachtstand voor transacties
+                  href: troubleshooting/planning/product-is-on-hold.md
+                - name: Het geselecteerde formulenummer is niet goedgekeurd voor een batchorder.
+                  href: troubleshooting/planning/selected-formula-not-approved.md
+                - name: Leverancierscode is niet geautoriseerd voor een specifiek product en specifieke datum
+                  href: troubleshooting/planning/vendor-code-not-authorized.md
+                - name: Leverancier wordt niet opgegeven bij het fiatteren van geplande orders
+                  href: troubleshooting/planning/vendor-not-specified.md
                 - name: Rechtsreeks afgeleide gefiatteerde orders worden verwerkt door een in-review werkstroom
                   href: troubleshooting/planning/firmed-directly-deri.md
                 - name: U kunt hoofdplanningsartikelen niet filteren op de gerelateerde waarden van de behoefteplanningsgroep
@@ -3451,6 +3509,20 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Magazijnbeheer
               items:
+                - name: Transactiestatus van geannuleerde productontvangsten wordt niet bijgewerkt naar geregistreerd
+                  href: troubleshooting/warehousing/canceled-product-receipts.md
+                - name: De decimale afronding van de fysieke bijwerkhoeveelheid is onjuist
+                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
+                - name: Resterende fysieke hoeveelheid in de eenheid mag niet gelijk zijn aan nul
+                  href: troubleshooting/warehousing/physical-remaining-q.md
+                - name: De verzamelde hoeveelheid is onvoldoende tijdens het genereren van de pakbon
+                  href: troubleshooting/warehousing/picked-quantity-is-n.md
+                - name: De hoeveelheid overschrijdt meerleveringspercentage tijdens genereren van pakbon
+                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
+                - name: 'De hoeveelheid die u probeert bij te werken, is groter dan de ontvangen/geleverde hoeveelheid'
+                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
+                - name: De hoeveelheid overschrijdt minderleveringspercentage tijdens genereren van pakbon
+                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
                 - name: Er treedt een fout op bij het kiezen van de locatie tijdens de registratie van de orderverzamellijst
                   href: troubleshooting/warehousing/error-cannot-update.md
                 - name: In het verpakkingsstation worden geen productnotities weergegeven
