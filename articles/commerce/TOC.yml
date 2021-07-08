@@ -100,8 +100,6 @@
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (mei 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
-                    - name: Commerce 10.0.17 (april 2021)
-                      href: get-started/whats-new-commerce-10-0-17.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Startpagina voor verwijderde of afgeschafte functies
@@ -244,7 +242,7 @@
                   href: arch-auth-flow.md
                 - name: Versievereisten voor Dynamics 365 Commerce-onderdelen
                   href: arch-component-versioning.md
-                - name: Architectuur van engine voor headless commerce
+                - name: Architectuur voor headless commerce
                   href: dev-itpro/retail-server-architecture.md
                 - name: Een topologie voor de winkel selecteren
                   href: dev-itpro/retail-in-store-topology.md
@@ -1248,6 +1246,16 @@
                   href: localizations/latam-bra-commerce-localization.md
                 - name: Commerce-lokalisatie voor Brazilië instellen en implementeren
                   href: localizations/latam-bra-deployment.md
+                - name: NFC-e-functionaliteit voor belastingdocumenten in Commerce POS for Brazilië
+                  href: localizations/latam-bra-nfce.md
+                - name: Klantgegevens beheren in POS voor Brazilië
+                  href: localizations/latam-bra-customer-information.md
+                - name: NFC-e-documenten in Commerce POS voor Brazilië annuleren en retourneren
+                  href: localizations/latam-bra-nfce-cancel-return.md
+                - name: Uitgestelde registratie van NFC-e-documenten die zijn uitgegeven in offline contingentiemodus
+                  href: localizations/latam-bra-nfce-contingency-mode.md
+                - name: Belastingdocumenten voor Brazilië boeken via detailhandelsoverzichten in Commerce Headquarters
+                  href: localizations/latam-bra-retail-statements.md
             - name: Oost-Europa
               items:
                 - name: Gemeenschappelijk
@@ -1458,6 +1466,12 @@
               items:
                 - name: Formuletaal
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/commerce/toc.json
+                - name: Ondersteunde gegevenstypen voor ER-formules
+                  items:
+                    - name: Primitieve gegevenstypen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/commerce/toc.json
+                    - name: Samengestelde gegevenstypen
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/commerce/toc.json
                 - name: Functies
                   items:
                     - name: Container
@@ -2002,13 +2016,17 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/commerce/toc.json
                     - name: Toepassingsupdate 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/commerce/toc.json
+                    - name: Toepassingsupdate 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
                 - name: Een aangepaste opslaglocatie opgeven voor gegenereerde documenten
                   items:
                     - name: Abonneren op een gebeurtenis om een reactie te vragen van een abonneehandler
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
                     - name: Het maken van een ER-bestemming delegeren aan een aangepaste bestemmingsfabriek
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/commerce/toc.json
-                - name: Gegevensbronwaarden van het type GEBRUIKERSINVOERPARAMETER starten vanuit broncode
+                - name: Een aangepaste bestemming implementeren voor gegenereerde documenten
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
+                - name: Gegevensbronwaarden van het type USER INPUT PARAMETER starten vanuit broncode
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
         - name: De mobiele app Finance and Operations (Dynamics 365)
           items:
