@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c9e1cadae97bd8f0dea270deaa1a8e09bb28eb4b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ee5a195b3d2881ff70fb1f0d4063ed681e874648
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020478"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271072"
 ---
-# <a name="rebate-management-groups"></a>Kortingsbeheergroepen
+# <a name="rebate-management-groups"></a>Groepen voor kortingsbeheer
 
 [!include [banner](../includes/banner.md)]
 
-Kortings- en inhoudingsberekeningen kunnen worden aangedreven door groepen. Kortingsbeheergroepen kunnen worden gemaakt voor klanten, leveranciers en artikelen. Ze kunnen aan een hoofdrecord worden gekoppeld.
+Kortingsbeheerberekeningen kunnen worden aangedreven door groepen. Kortingsbeheergroepen kunnen worden gemaakt voor klanten, leveranciers en artikelen. Ze kunnen aan een hoofdrecord worden gekoppeld.
 
 ## <a name="rebate-management-customer-groups"></a>Klantgroepen voor kortingsbeheer
 
@@ -49,10 +49,9 @@ Volg deze stappen om klanten voor een geselecteerde groep weer te geven, toe te 
 1. Ga naar **Kortingsbeheer \> Kortingsbeheergroepen instellen \> Klantgroepen**.
 1. Selecteer de groep die u wilt beheren.
 1. Selecteer in het actievenster de optie **Klanten**. De pagina **Kortingsbeheergroepen** wordt weergegeven en toont een lijst met klanten die al lid zijn van de geselecteerde groep.
-1. Als u een nieuwe klant wilt toevoegen aan de groep, selecteert u **Nieuw** in het actievenster om een rij toe te voegen aan het raster. Stel daarna de volgende velden in voor de nieuwe rij:
+1. Als u een nieuwe klant wilt toevoegen aan de groep, selecteert u **Nieuw** in het actievenster om een rij toe te voegen aan het raster. Stel daarna het volgende veld in voor de nieuwe rij:
 
     - **Klantrekening**: selecteer de klantrekening-id.
-    - **Naam**: voer een naam en/of beschrijving van de klant in.
 
 1. Als u een klant uit de groep wilt verwijderen, selecteert u de klant en selecteert u vervolgens **Verwijderen** in het actievenster.
 
@@ -61,10 +60,9 @@ Volg deze stappen om groepstoewijzingen voor een geselecteerde klant weer te gev
 1. Ga naar **Klanten \> Klanten \> Alle klanten**.
 1. Selecteer de klant waarmee u wilt werken.
 1. Selecteer vervolgens in het actievenster op het tabblad **Klant** in de groep **Kortingsbeheer** de optie **Kortingsbeheergroepen**. De pagina **Kortingsbeheergroepen** wordt weergegeven en toont een lijst met groepen waartoe de geselecteerde klant al bestaat.
-1. Als u de klant wilt toevoegen aan een nieuwe groep, selecteert u **Nieuw** in het actievenster om een rij toe te voegen aan het raster. Stel daarna de volgende velden in voor de nieuwe rij:
+1. Als u de klant wilt toevoegen aan een nieuwe groep, selecteert u **Nieuw** in het actievenster om een rij toe te voegen aan het raster. Stel daarna het volgende veld in voor de nieuwe rij:
 
     - **Kortingsbeheergroep**: selecteer de groep waaraan u de klant wilt toevoegen.
-    - **Beschrijving:** voer een beschrijving van de groep in (bijvoorbeeld om uit te leggen waarom de klant er lid van is).
 
 1. Als u een klant uit een groep wilt verwijderen, selecteert u de groep en selecteert u vervolgens **Verwijderen** in het actievenster.
 
@@ -88,10 +86,9 @@ Volg deze stappen om leveranciers voor een geselecteerde groep weer te geven, to
 1. Ga naar **Kortingsbeheer \> Kortingsbeheergroepen instellen \> Leveranciersgroepen**.
 1. Selecteer de groep die u wilt beheren.
 1. Selecteer **Leveranciers** in het actievenster. De pagina **Kortingsbeheergroepen** wordt weergegeven en toont een lijst met leveranciers die al lid zijn van de geselecteerde groep.
-1. Als u een nieuwe leverancier wilt toevoegen aan de groep, selecteert u **Nieuw** in het actievenster om een rij toe te voegen aan het raster. Stel daarna de volgende velden in voor de nieuwe rij:
+1. Als u een nieuwe leverancier wilt toevoegen aan de groep, selecteert u **Nieuw** in het actievenster om een rij toe te voegen aan het raster. Stel daarna het volgende veld in voor de nieuwe rij:
 
     - **Leveranciersrekening**: selecteer de leveranciersrekening-id.
-    - **Naam**: voer een naam en/of beschrijving van de leverancier in.
 
 1. Als u een leverancier uit de groep wilt verwijderen, selecteert u de leverancier en selecteert u vervolgens **Verwijderen** in het actievenster.
 
@@ -100,10 +97,9 @@ Volg deze stappen om groepstoewijzingen voor een geselecteerde leverancier weer 
 1. Ga naar **Leveranciers \> Leveranciers \> Alle leveranciers**.
 1. Selecteer de leverancier waarmee u wilt werken.
 1. Selecteer vervolgens in het actievenster op het tabblad **Leverancier** in de groep **Kortingsbeheer** de optie **Kortingsbeheergroepen**. De pagina **Kortingsbeheergroepen** wordt weergegeven en toont een lijst met groepen waartoe de geselecteerde leverancier al bestaat.
-1. Als u de leverancier wilt toevoegen aan een nieuwe groep, selecteert u **Nieuw** in het actievenster om een rij toe te voegen aan het raster. Stel daarna de volgende velden in voor de nieuwe rij:
+1. Als u de leverancier wilt toevoegen aan een nieuwe groep, selecteert u **Nieuw** in het actievenster om een rij toe te voegen aan het raster. Stel daarna het volgende veld in voor de nieuwe rij:
 
     - **Kortingsbeheergroep**: selecteer de groep waaraan u de leverancier wilt toevoegen.
-    - **Beschrijving:** voer een beschrijving van de groep in (bijvoorbeeld om uit te leggen waarom de leverancier er lid van is).
 
 1. Als u een leverancier uit een groep wilt verwijderen, selecteert u de groep en selecteert u vervolgens **Verwijderen** in het actievenster.
 
@@ -127,10 +123,9 @@ Volg deze stappen om artikelen voor een geselecteerde groep weer te geven, toe t
 1. Ga naar **Kortingsbeheer \> Kortingsbeheergroepen instellen \> Artikelgroepen**.
 1. Selecteer de groep die u wilt beheren.
 1. Selecteer **Artikelen** in het actievenster. De pagina **Kortingsbeheergroepen** wordt weergegeven en toont een lijst met artikelen die al lid zijn van de geselecteerde groep.
-1. Als u een nieuw artikel wilt toevoegen aan de groep, selecteert u **Nieuw** in het actievenster om een rij toe te voegen aan het raster. Stel daarna de volgende velden in voor de nieuwe rij:
+1. Als u een nieuw artikel wilt toevoegen aan de groep, selecteert u **Nieuw** in het actievenster om een rij toe te voegen aan het raster. Stel daarna het volgende veld in voor de nieuwe rij:
 
     - **Artikelrekening**: selecteer de artikelrekening-id.
-    - **Productnaam**: voer een naam en/of beschrijving van het artikel in.
 
 1. Als u een artikel uit de groep wilt verwijderen, selecteert u het artikel en selecteert u vervolgens **Verwijderen** in het actievenster.
 
@@ -139,10 +134,9 @@ Volg deze stappen om groepstoewijzingen voor een geselecteerd artikel weer te ge
 1. Ga naar **Productgegevensbeheer \> Producten \> Vrijgegeven producten**.
 1. Selecteer het artikel waarmee u wilt werken.
 1. Selecteer vervolgens in het actievenster op het tabblad **Product** in de groep **Kortingsbeheer** de optie **Kortingsbeheergroepen**. De pagina **Kortingsbeheergroepen** wordt weergegeven en toont een lijst met groepen waartoe het geselecteerde artikel al bestaat.
-1. Als u het artikel wilt toevoegen aan een nieuwe groep, selecteert u **Nieuw** in het actievenster om een rij toe te voegen aan het raster. Stel daarna de volgende velden in voor de nieuwe rij:
+1. Als u het artikel wilt toevoegen aan een nieuwe groep, selecteert u **Nieuw** in het actievenster om een rij toe te voegen aan het raster. Stel daarna het volgende veld in voor de nieuwe rij:
 
     - **Kortingsbeheergroep**: selecteer de groep waaraan u het artikel wilt toevoegen.
-    - **Beschrijving:** voer een beschrijving van de groep in (bijvoorbeeld om uit te leggen waarom het artikel er lid van is).
 
 1. Als u een artikel uit een groep wilt verwijderen, selecteert u de groep en selecteert u vervolgens **Verwijderen** in het actievenster.
 

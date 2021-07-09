@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: f586e0f40b5362510333263a985eada39d3c53f5
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a0cde0c22b69e7605708a647d47530840ce823b1
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020358"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270928"
 ---
 # <a name="rebate-reduction-principles"></a>Kortingsreductieprincipes
 
@@ -45,7 +45,7 @@ Als u kortingsreductieprincipes wilt gebruiken, gaat u naar **Kortingsbeheer \> 
 
 In de volgende tabel ziet u enkele standaardvoorbeelden van instellingen voor kortingsreductieprincipes. Voor elk van deze kortingsreductieprincipes wordt met de waarde van het veld **Beschrijving** het doel van het kortingsreductieprincipe beschreven.
 
-| kortingsreductieprincipe | Beschrijving | Reductie toepassen | Reductiebasis | Uitsluiten van reductie |
+| Kortingsreductieprincipe | Beschrijving | Reductie toepassen | Reductiebasis | Uitsluiten van reductie |
 |---|---|---|---|---|
 | Uitgesteld | Korting verminderen | Ja | Beide | No |
 | Exclreb | Korting uitsluiten | Ja | Korting | Ja |

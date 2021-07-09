@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 2164c07d1a179a0aa15611b742084d872f41bbfc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923302"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270808"
 ---
 # <a name="feature-management-overview"></a>Overzicht van Functiebeheer
 
@@ -160,8 +160,8 @@ Het beleid is dat alle nieuwe functies voor een periode van twaalf maanden in aa
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Waarom is er geen specifieke verplichte datum voor inschakelen? 
 De timing van updateversies is variabel, timing van omgevingsupdates is variabel en klanten kunnen ervoor kiezen sommige updates over te slaan. Hierdoor zijn bepaalde datums moeilijk te bepalen. 
 
-### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Waar is de documentatie voor functies die verplicht worden gesteld? 
-Deze documentatie is afkomstig uit de toepassingsteams. Deze worden vaak vermeld in [Verwijderde of afgeschafte functies](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
+### <a name="wheres-the-documentation-for-features-that-are-mandatory"></a>Waar is de documentatie voor functies die verplicht zijn? 
+Deze documentatie is afkomstig van elk Dynamics 365-toepassingsteam. Deze functies worden vaak genoemd in [statussen van updates voor clientfuncties](/dynamics365-release-plan/2021wave1/finance-operations/finance-operations-crossapp-capabilities/updates-client-feature-states) of [verwijderde of afgeschafte functies](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Is er een melding of signaal in het product dat een functie verplicht wordt ingeschakeld? 
 Er bestaat op dit moment geen meldingsmechanisme voor het verplicht maken van een functie.

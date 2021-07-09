@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79115f26047c64ddb528a73e01e76891fd9b5044
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6d32abacc1539cb930ad6f1ebcfe6fa9af4befcf
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052068"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271475"
 ---
 # <a name="buy-and-sell-leave"></a>Verlof inkopen en verkopen
 
@@ -47,6 +47,12 @@ Uw saldi worden vóór het bijwerken automatisch bijgewerkt of doorlopen een goe
 3. Selecteer **Indienen** wanneer u gereed bent om uw aanvraag in te dienen.
 
 Uw saldi worden vóór het bijwerken automatisch bijgewerkt of doorlopen een goedkeuringsproces. Dit is afhankelijk van hoe het koopbeleid is geconfigureerd.
+
+
+## <a name="troubleshooting"></a>Problemen oplossen 
+
+Als een workflow voor verlofaanvragen voor kopen of verkopen mislukt, kunnen gebruikers met de bevoegdheid **EssLebugBuyBugRequestApprover** het berichtenlogboek controleren voor alle verlofaanvragen voor kopen en verkopen. Hiervoor gaat u naar **Verlof en verzuim > Koppeling > Verlofaanvragen kopen en verkopen > Bericht** (linksboven). Gebruikers kunnen in **Berichtenlogboek** zien hoe de transacties werden verwerkt en de bijbehorende workflowhistorie wordt getoond.
+
 
 ## <a name="see-also"></a>Zie ook
 

@@ -2,7 +2,7 @@
 title: Geavanceerde formule-editor voor elektronische rapporten
 description: In dit onderwerp wordt beschreven hoe de geavanceerde formule-editor kan worden gebruikt voor het configureren van expressies in ER-modeltoewijzing (elektronische rapportage) en indelingscomponenten.
 author: NickSelin
-ms.date: 04/10/2020
+ms.date: 06/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: d18aeedb2f21176ffe964b926168d4bf088a093b
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f7f80928e1d3f5d4892f72d4bd2fd09b70a26c1f
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751203"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270702"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Geavanceerde formule-editor voor elektronische rapporten
 
@@ -45,16 +45,29 @@ Voer de volgende stappen uit om de geavanceerde formule-editor te gebruiken in u
 2.  Selecteer op de pagina **Configuraties** in het actievenster op het tabblad **Configuraties** in de groep **Geavanceerde instellingen** de optie **Gebruikersparameters**.
 3.  Stel in het dialoogvenster **Gebruikersparameters** in de sectie **Uitvoeringstracering** de parameter **Geavanceerde formule-editor inschakelen** in op **Ja**.
 
-[![Pagina ER-configuraties](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
+[![Dialoogvenster Gebruikersparameters, parameter Geavanceerde formule-editor inschakelen gemarkeerd](./media/ER-AdvEditor-Activate.png)](./media/ER-AdvEditor-Activate.png)
 
 > [!NOTE]
 > Houd er rekening mee dat deze parameter specifiek is voor de gebruiker en specifiek voor het bedrijf.
+
+Vanaf Microsoft Dynamics 365 Finance versie 10.0.19 kunt u bepalen welke ER-formule-editor standaard wordt aangeboden. Voltooi de volgende stappen om de geavanceerde formule-editor in te schakelen voor alle gebruikers en bedrijven van het huidige exemplaar van Financiën.
+
+1.  Open het het werkgebied **Functiebeheer**.
+2.  Zoek de functie **De geavanceerde formule-editor instellen als standaardwaarde voor alle gebruikers** in de lijst en selecteer vervolgens **Nu inschakelen**.
+3.  Ga naar **Organisatiebeheer** > **Elektronische rapportage** > **Configuraties**.
+4.  Selecteer op de pagina **Configuraties** in het actievenster op het tabblad **Configuraties** in de groep **Geavanceerde instellingen** de optie **Gebruikersparameters**.
+5.  Zoek in het dialoogvenster **Gebruikersparameters** naar de parameter **Geavanceerde formule-editor uitschakelen** en controleer of deze is ingesteld op **Nee**.
+
+[![Dialoogvenster Gebruikersparameters, parameter Geavanceerde formule-editor uitschakelen gemarkeerd](./media/ER-AdvEditor-Activate2.png)](./media/ER-AdvEditor-Activate2.png)
+
+> [!NOTE]
+> De waarden van de parameters **Geavanceerde formule-editor inschakelen** en **Geavanceerde formule-editor uitschakelen** worden gescheiden gehouden voor elke gebruiker en worden aangeboden in het dialoogvenster **Gebruikersparameters**, afhankelijk van de status van de functie **De geavanceerde formule-editor instellen als standaardwaarde voor alle gebruikers**.
 
 ## <a name=""></a><a name="Autoformatting">Automatische codeopmaak</a>
 
 Wanneer u een complexe expressie schrijft die uit meerdere regels met code bestaat, wordt de inspringing van een nieuwe ingevoerde regel automatisch uitgevoerd op basis van de inspringing van de vorige rij. U kunt regels selecteren en de inspringing ervan wijzigen door **Tab** of **Shift+Tab** te typen.
 
-[![ER-formule-editor](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
+[![Afbeelding van de ER-formule-editor waarin selectie van regels en wijziging van de inspringing worden getoond](./media/ER-AdvEditor-Indentation.gif)](./media/ER-AdvEditor-Indentation.gif)
 
 Met automatische opmaak kunt u de volledige expressie goed opgemaakt houden om verder onderhoud te vergemakkelijken en inzicht in de geconfigureerde logica te vereenvoudigen.
 
@@ -62,7 +75,7 @@ Met automatische opmaak kunt u de volledige expressie goed opgemaakt houden om v
 
 De editor biedt woordaanvulling om u te helpen bij het sneller schrijven van expressies en het voorkomen van typefouten. Wanneer u nieuwe tekst gaat toevoegen, biedt de editor automatisch een lijst met functies die worden ondersteund in ER-functies die de tekens bevatten die u hebt ingevoerd. U kunt IntelliSense ook op elke plaats in een geconfigureerde expressie activeren door **Ctrl+spatiebalk** te typen.
 
-[![ER-formule-editor](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
+[![Afbeelding van de ER-formule-editor waarin het activeren van IntelliSense wordt getoond](./media/ER-AdvEditor-Intelisense.gif)](./media/ER-AdvEditor-Intelisense.gif)
 
 ## <a name=""></a><a name="CodeCompletion">Codevoltooiing</a>
 
@@ -72,7 +85,7 @@ De editor zorgt er automatisch voor dat code wordt voltooid door:
 - Het tweede aanhalingsteken invoegen wanneer het eerste wordt ingevoerd, waarbij de cursor binnen de aanhalingstekens blijft.
 - Het tweede dubbele aanhalingsteken invoegen wanneer het eerste wordt ingevoerd, waarbij de cursor binnen de aanhalingstekens blijft.
 
-[![ER-formule-editor](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
+[![Afbeelding van de ER-formule-editor waarin codevoltooiing door de editor wordt getoond](./media/ER-AdvEditor-CodeCompletion.gif)](./media/ER-AdvEditor-CodeCompletion.gif)
 
 Wanneer u naar het getypte haakje wijst, wordt het tweede haakje van dit paar automatisch gemarkeerd, zodat de constructie wordt weergegeven die ze ondersteunen.
 
@@ -88,7 +101,7 @@ Als u bijvoorbeeld naar regel **8** wilt gaan, gaat u als volgt te werk:
 
 - Druk op **F1**, typ **G**, selecteer **Ga naar regel**, voer de waarde **8** in en druk op **Enter**.
 
-[![ER-formule-editor](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
+[![Afbeelding van de ER-formule-editor waarin wordt getoond hoe u delen van een expressie kunt zoeken met behulp van het opdrachtpalet](./media/ER-AdvEditor-Goto.gif)](./media/ER-AdvEditor-Goto.gif)
 
 ## <a name=""></a><a name="CodeStructuring">Codestructurering</a>
 
@@ -110,7 +123,7 @@ Als u alle regio's wilt openvouwen, gaat u als volgt te werk:
   
 - Druk op **F1**, typ **UN**, selecteer **Alles uitvouwen** en druk vervolgens op **Enter**
 
-[![ER-formule-editor](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
+[![Afbeelding van de ER-formule-editor waarin het uitvouwen van code wordt getoond](./media/ER-AdvEditor-ToggleFold.gif)](./media/ER-AdvEditor-ToggleFold.gif)
 
 ## <a name=""></a><a name="FindAndReplace">Zoeken en vervangen</a>
 
@@ -138,13 +151,13 @@ Als u bepaalde tekst overal wilt wijzigen, selecteert u de tekst in de expressie
   
 - Druk op **F1**, typ **C** en selecteer vervolgens de vereiste optie om de geselecteerde tekst te wijzigen. Voer de alternatieve tekst in.
 
-[![ER-formule-editor](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
+[![Afbeelding van de ER-formule-editor waarin het zoeken en vervangen wordt getoond](./media/ER-AdvEditor-Find.gif)](./media/ER-AdvEditor-Find.gif)
 
 ## <a name=""></a><a name="DataPasting">Gegevensbronnen en functies plakken</a>
 
 U kunt **Gegevensbron toevoegen** selecteren, waarmee in de huidige expressie een gegevensbron wordt geplakt die momenteel is geselecteerd in het linkerdeelvenster **Gegevensbron**. U kunt ook **Functie toevoegen** selecteren, waarmee in de huidige expressie een functie wordt geplakt die momenteel is geselecteerd in het rechterdeelvenster **Functies**. Als u de ER-formule-editor gebruikt, wordt een geselecteerde functie of een geselecteerde gegevensbron altijd geplakt aan het einde van de geconfigureerde expressie. Als u de geavanceerde formule-editor gebruikt, kan een geselecteerde functie of een geselecteerde gegevensbron overal worden geplakt in de geconfigureerde expressie. U moet de cursor gebruiken om op te geven waar u de gegevens wilt plakken.
 
-[![ER-formule-editor](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
+[![Afbeelding van de ER-formule-editor waarin het toevoegen van een gegevensbron en het toevoegen van een functie worden getoond](./media/ER-AdvEditor-PasteValue.gif)](./media/ER-AdvEditor-PasteValue.gif)
 
 ## <a name=""></a><a name="SyntaxColorization">Inkleuring van syntaxis</a>
 

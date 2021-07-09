@@ -2,7 +2,7 @@
 title: De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
 description: Dit onderwerp bevat informatie over het gebruik van de functie voor prestatietracering in Elektronische rapportage (ER) om prestatieproblemen op te lossen.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
+ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944648"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6295568"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
 
@@ -119,12 +119,27 @@ De bijbehorende versies van de gegevensmodel- en modeltoewijzingsconfiguraties w
 2. Selecteer op de pagina **Configuraties** in het actievenster op het tabblad **Configuraties** in de groep **Geavanceerde instellingen** de optie **Gebruikersparameters**.
 3. Voer de volgende stappen uit in de sectie **Uitvoeringstracering** van het dialoogvenster **Gebruikersparameters**:
 
-    1. Selecteer in het veld **Opmaak van uitvoeringstracering** de optie **Fouten oplossen met traceringsopmaak** om te beginnen met het verzamelen van de details van de uitvoering van de ER-indeling. Wanneer deze waarde wordt geselecteerd, wordt met de prestatietracering informatie verzameld over de tijd die wordt besteed aan de volgende acties:
+    1. In het veld **Indeling van uitvoeringstracering** geeft u de indeling op van de gegenereerde prestatietracering waarin de uitvoeringsdetails moeten worden opgeslagen voor de ER-indelingselementen en ER-toewijzingselementen:
 
-        - Het uitvoeren van elke gegevensbron in de modeltoewijzing die wordt aangeroepen om gegevens op te halen
-        - Het verwerken van elk indelingsitem om gegevens in te voeren in de gegenereerde uitvoer
+        - **Traceringsindeling voor foutopsporing**: selecteer deze waarde als u van plan bent om een ER-indeling met een korte uitvoeringstijd interactief uit te voeren. Het verzamelen van details over de uitvoering van ER-indeling wordt vervolgens gestart. Wanneer deze waarde wordt geselecteerd, verzamelt de prestatietracering informatie over de tijd die wordt besteed aan de volgende acties:
 
-        U gebruikt het veld **Opmaak van uitvoeringstracering** om de indeling op te geven van de gegenereerde prestatietracering waarin de uitvoeringsdetails worden opgeslagen voor de ER-indelingselementen en ER-toewijzingselementen. Door **Fouten oplossen met traceringsopmaak** als waarde te selecteren, kunt u de inhoud van de tracering analyseren in de ER Operations-ontwerper en de ER-indelingselementen of ER-toewijzingselementen weergeven die worden genoemd in de tracering.
+            - Het uitvoeren van elke gegevensbron in de modeltoewijzing die wordt aangeroepen om gegevens op te halen
+            - Het verwerken van elk indelingsitem om gegevens in te voeren in de gegenereerde uitvoer
+
+            Als u de waarde **Traceringsindeling voor foutopsporing** selecteert, kunt u de inhoud van de tracering in de ER Operation-ontwerper analyseren. Hier kunt u de ER-indeling of toewijzingselementen weergeven die in de tracering worden genoemd.
+
+        - **Traceringsindeling voor samenvoeging**: selecteer deze waarde als u van plan bent om een ER-indeling met een lange uitvoeringstijd in batchmodus uit te voeren. Het verzamelen van samengevoegde details over de uitvoering van ER-indeling wordt vervolgens gestart. Wanneer deze waarde wordt geselecteerd, verzamelt de prestatietracering informatie over de tijd die wordt besteed aan de volgende acties:
+
+            - Het uitvoeren van elke gegevensbron in de modeltoewijzing die wordt aangeroepen om gegevens op te halen
+            - Elke gegevensbron uitvoeren in de indelingstoewijzing die wordt aangeroepen om gegevens op te halen
+            - Het verwerken van elk indelingsitem om gegevens in te voeren in de gegenereerde uitvoer
+
+            De waarde van de **Samengevoegde traceerindeling** is beschikbaar in Microsoft Dynamics 365 Finance versie 10.0.20 en later.
+
+            In de ER-indelingsontwerper en ER-modeltoewijzingsontwerper kunt u de totale uitvoeringstijd voor één component weergeven. De tracering bevat bovendien details over de uitvoering, zoals het aantal uitvoeringen en de minimale en maximale tijd van één uitvoering.
+
+            > [!NOTE]
+            > Deze tracering wordt verzameld op basis van het pad van de getraceerde componenten. De statistieken zijn daarom mogelijk onjuist wanneer één bovenliggende component verschillende onbenoemde onderliggende componenten bevat of wanneer verschillende onderliggende componenten dezelfde naam hebben.
 
     2. Stel de volgende opties in op **Ja** om specifieke details te verzamelen over de uitvoering van de ER-modeltoewijzing en ER-indelingsonderdelen:
 

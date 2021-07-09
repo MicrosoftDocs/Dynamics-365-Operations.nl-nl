@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5188fa271cd9eb24140a9edcf507a3da72b61074
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 82b8a4e6ba7ebea7df9f5dad5abc3dfc3ce2687d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020526"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270756"
 ---
 # <a name="process-review-and-post-rebates"></a>Kortingen verwerken, controleren en boeken
 
@@ -55,9 +55,9 @@ Wanneer u een deal verwerkt, berekent het systeem alle relevante kortingen en ro
 1. Selecteer de rij voor elke deal die u wilt verwerken (of open de deal die u wilt verwerken).
 1. Selecteer in het actievenster op het tabblad **Deals voor kortingbeheer** in de groep **Genereren** een van de volgende opdrachten:
 
-    - **Verwerken \> Inrichten**: richt een set toerekeningen in voor elke relevante kortingsdeal, maar boek deze niet.
+    - **Verwerken \> Inrichten**: richt een set toerekeningen in voor elke relevante kortingsdeal, maar boek deze niet. Deze menuopdracht is niet beschikbaar voor acties waarbij het veld **Kortingsuitvoer** is ingesteld op *Artikel*.
     - **Verwerken \> Kortingsbeheer**: verwerk een reeks transacties die de waarde van de korting voor elke deal bieden.
-    - **Verwerken \> Afschrijven**: boek eerder geboekte transacties terug om ze af te schrijven, zodat nieuwe kortingsdealtransacties kunnen worden berekend.
+    - **Verwerken \> Afschrijven**: verwerk voor elke brontransactie voor de kortingsdeal en de opgegeven periode de afwijking tussen de bedragen die zijn geboekt voor een voorziening en voor kortingsbeheer. Deze menuopdracht is niet beschikbaar voor acties waarbij het veld **Kortingsuitvoer** is ingesteld op *Artikel*.
 
 1. Stel in het dialoogvenster dat wordt weergegeven de velden **Van datum** en **Tot datum** in om het datumbereik voor de berekening te definiëren.
 1. Selecteer **OK** om de berekening uit te voeren.
@@ -70,9 +70,9 @@ Wanneer u een deal verwerkt, berekent het systeem alle relevante kortingen en ro
 1. Selecteer op het sneltabblad **Kortingsbeheer** de rij voor elke dealregel die u wilt verwerken.
 1. Selecteer op de werkbalk van het sneltabblad **Kortingsbeheer** een van de volgende opdrachten. (Deze opdrachten zijn alleen beschikbaar voor deals waarbij het veld **Afstemmen met** is ingesteld op *Regel*.)
 
-    - **Verwerken \> Inrichten**: richt een set toerekeningen in voor elke relevante dealregel, maar boek deze niet.
+    - **Verwerken \> Inrichten**: richt een set toerekeningen in voor elke relevante dealregel, maar boek deze niet. Deze menuopdracht is niet beschikbaar voor acties waarbij het veld **Kortingsuitvoer** is ingesteld op *Artikel*.
     - **Verwerken \> Kortingsbeheer**: verwerk een reeks transacties die de waarde van de korting voor elke dealregel bieden.
-    - **Verwerken \> Afschrijven**: boek eerder geboekte transacties terug om ze af te schrijven, zodat nieuwe kortingsdealtransacties kunnen worden berekend.
+    - **Verwerken \> Afschrijven**: verwerk voor elke brontransactie voor de kortingsdeal en de opgegeven periode de afwijking tussen de bedragen die zijn geboekt voor een voorziening en voor kortingsbeheer. Deze menuopdracht is niet beschikbaar voor acties waarbij het veld **Kortingsuitvoer** is ingesteld op *Artikel*. 
 
 1. Stel in het dialoogvenster dat wordt weergegeven de velden **Van datum** en **Tot datum** in om het datumbereik voor de berekening te definiëren.
 1. Selecteer **OK** om de berekening uit te voeren.
@@ -115,26 +115,26 @@ Wanneer u een of meer deals verwerkt, maakt het systeem transacties die u kunt b
         - **Instellen als niet-geclaimd \> Alles**: markeer alle transacties als niet-geclaimd.
         - **Instellen als niet-geclaimd \> Geselecteerd**: markeer de geselecteerde transacties als niet-geclaimd.
 
-    - Als u de claim voor een of meer regels wilt boeken, selecteert u de relevante regels en selecteert u vervolgens **Boeken** in het actievenster. (De knop **Boeken** is alleen beschikbaar voor kortingstransacties. Het is niet beschikbaar voor inrichtings- en afschrijvingstransacties.) In het dialoogvenster **Boeken** worden de velden **Van datum** en **Tot datum** automatisch ingesteld. Stel het veld **Boekingsdatum** in en selecteer vervolgens **OK**.
+    - Selecteer **Boeken** in het actievenster om de claim voor alle relevante regels te boeken. Als u een claimproces gebruikt (wanneer de optie **Claimproces gebruiken** is ingeschakeld op de pagina **Parameters van kortingsbeheer**), worden alleen de regels geboekt die zijn gemarkeerd als **Geclaimd**. Anders worden alle brontransacties voor de geselecteerde kortingstransactie geboekt. De knop **Boeken** is alleen beschikbaar voor kortingstransacties. De knop is niet beschikbaar voor voorzienings- en afschrijvingstransacties. In het dialoogvenster **Boeken** zijn de velden **Begindatum** en **Einddatum** automatisch ingesteld. Stel het veld **Boekingsdatum** in en selecteer vervolgens **OK**.
     - Als u het bedrag wilt aanpassen dat wordt weergegeven voor een open of niet-geboekte transactie, selecteert u de transactie en volgt u een van de volgende stappen:
 
         - Bewerk de waarde in het veld **Gecorrigeerd bedrag**.
         - Selecteer in het actievenster de optie **Correctie instellen**. Voer vervolgens in het vervolgkeuzevenster dat wordt weergegeven in het veld **Gecorrigeerd bedrag** een waarde in.
 
 > [!NOTE]
-> Wanneer u de volgende periode verwerkt, bevat de transactielijst alle niet-geclaimde transacties uit de vorige boeking, plus eventuele nieuwe transacties voor de geselecteerde periode.
+> Als u een claimproces gebruikt, bevat de transactielijst wanneer u de volgende periode verwerkt alle niet-geclaimde transacties uit de vorige boeking, plus eventuele nieuwe transacties voor de geselecteerde periode.
 
 ## <a name="post-rebates-transactions"></a>Kortingstransacties boeken
 
-Als u de waarde van de kortingen en inhoudingen wilt boeken, moet u het boekingsproces uitvoeren, tenzij u uw systeem hebt ingesteld om ze automatisch te boeken.
+Als u de waarde van een verwerkte voorziening, kortingsbeheerbedrag en afschrijving wilt boeken, moet u het boekingsproces uitvoeren. Het boekingsproces markeert de voorzienings-, kortingsbeheer- of afschrijvingstransacties als geboekt en maakt de doeltransactie. Als u de doeltransactie niet hoeft te controleren, kunt u deze transacties zo instellen dat ze automatisch worden geboekt.
 
-### <a name="set-up-the-system-to-post-all-transactions-automatically"></a>Het systeem instellen om alle transacties automatisch te boeken
+### <a name="set-up-the-system-to-post-all-target-transactions-automatically"></a>Het systeem instellen om alle doeltransacties automatisch te boeken
 
-Als u wilt instellen dat uw systeem alle transacties boekt zodra ze zijn gegenereerd, schakelt u de optie **Journalen automatisch boeken** en/of **Automatisch vrije-tekstfacturen boeken** op de pagina **Kortingsbeheerparameters** in. Zie [Kortingsbeheerparameters](rebate-management-parameters.md) voor meer informatie.
+Als u wilt instellen dat uw systeem alle doeltransacties boekt zodra ze zijn gegenereerd door een voorziening, kortingsbeheerbedrag en afschrijving, schakelt u de optie **Journalen automatisch boeken** en/of **Automatisch vrije-tekstfacturen boeken** op de pagina **Kortingsbeheerparameters** in. Zie [Kortingsbeheerparameters](rebate-management-parameters.md) voor meer informatie.
 
 ### <a name="post-transactions-for-all-lines-for-one-or-more-deals"></a>Transacties boeken voor alle regels voor een of meer deals
 
-Als u geen automatische boeking gebruikt nadat u de relevante deals hebt verwerkt, volgt u deze stappen om de gegenereerde transacties voor alle regels voor een of meer deals te controleren en te boeken.
+Nadat u de relevante deals hebt verwerkt, volgt u deze stappen om de gegenereerde transacties voor alle regels voor een of meer deals te controleren en te boeken.
 
 1. Open de juiste [lijstpagina met kortingsdeals](rebate-management-deals.md) voor het type deal waarmee u wilt werken.
 1. Selecteer de rij voor elke deal die u wilt boeken (of open de deal die u wilt boeken).
@@ -149,7 +149,7 @@ Als u geen automatische boeking gebruikt nadat u de relevante deals hebt verwerk
 
 ### <a name="post-transactions-for-one-or-more-specific-deal-lines-for-a-selected-deal"></a>Transacties boeken voor een of meer specifieke dealregels voor een geselecteerde deal
 
-Als u geen automatische boeking gebruikt nadat u de relevante deals hebt verwerkt, volgt u deze stappen om de gegenereerde transacties voor een of meer specifieke dealregels voor een geselecteerde deal te controleren en te boeken.
+Nadat u de relevante deals hebt verwerkt, volgt u deze stappen om de gegenereerde transacties voor alle regels voor een of meer specifieke dealregels voor een geselecteerde deal te controleren en te boeken. Deze procedure is alleen van toepassing op deals waarbij het veld **Afstemmen met** is ingesteld op *Regel*.
 
 1. Open de juiste [lijstpagina met kortingsdeals](rebate-management-deals.md) voor het type deal waarmee u wilt werken.
 1. Open de deal met een regel waarvoor u transacties wilt boeken.
@@ -174,7 +174,7 @@ In plaats van transacties te boeken voor specifieke deals of dealregels, kunt u 
     - Ga naar **Kortingsbeheer \> Periodieke taken \> Boeken \> Kortingsbeheer** om beschikbare kortingstransacties te boeken die u hebt gemaakt.
     - Ga naar **Kortingsbeheer \> Periodieke taken \> Boeken \> Afschrijven** om beschikbare afschrijvingstransacties te boeken die u hebt gemaakt.
 
-1. Stel in het dialoogvenster dat wordt weergegeven op het sneltabblad **Parameters** in de sectie **Periode** het veld **Boekingsdatum** in. Stel vervolgens de velden **Van datum** en **Tot datum** in om het datumbereik te definiëren voor de transacties die moeten worden geboekt. 
+1. Stel in het dialoogvenster dat wordt weergegeven op het sneltabblad **Parameters** in de sectie **Periode** het veld **Boekingsdatum** in. Stel vervolgens de velden **Van datum** en **Tot datum** in om het datumbereik te definiëren voor de transacties die moeten worden geboekt.
 1. Stel in de sectie **Garantieperiode** de velden **Van datum** en **Tot datum** in om het datumbereik voor de garanties die moeten worden geboekt.
 1. Op het sneltabblad **Op te nemen records** kunt u filters instellen om de set deals te beperken die via de batchtaak worden verwerkt. Deze instellingen werken op dezelfde manier als voor andere typen batchtaken.
 1. Op het sneltabblad **Op de achtergrond uitvoeren** kunt u indien nodig batchverwerkings- en planningsopties instellen. Deze instellingen werken op dezelfde manier als voor andere typen batchtaken.
@@ -182,17 +182,17 @@ In plaats van transacties te boeken voor specifieke deals of dealregels, kunt u 
 
 ## <a name="review-rebate-management-journals"></a>Kortingsbeheerjournalen controleren
 
-Nadat uw transacties zijn geboekt, kunt u de resulterende dagboeken, documenten of artikelen bekijken. Doeltransacties voor kortingen en royalty's zijn gebaseerd op het betalingstype dat is ingesteld in het boekingsprofiel en het uitvoertype van de korting. Als de kortingsuitvoer bijvoorbeeld is ingesteld op *Artikel*, wordt een verkooporder gemaakt en kan deze worden bekeken via de doeltransacties. Als de betaling is ingesteld voor het gebruik van Leveranciers, wordt er een leveranciersfactuur gemaakt voor de leverancier die voor de klant is ingesteld ten behoeve van klantkortingen.
+Nadat uw transacties zijn geboekt, kunt u de resulterende dagboeken, documenten of artikelen bekijken. Doeltransacties voor kortingen en royalty's zijn gebaseerd op het betalingstype dat is ingesteld in het boekingsprofiel en het uitvoertype van de korting. Als de kortingsuitvoer bijvoorbeeld is ingesteld op *Artikel*, wordt er een verkooporder gemaakt voor een klantkorting en wordt er een inkooporder gemaakt voor een leverancierskorting. Deze orders kunnen worden bekeken via de doeltransacties. Als de betaling is ingesteld voor het gebruik van Leveranciers, wordt er een leveranciersfactuur gemaakt voor de leverancier die voor de klant is ingesteld ten behoeve van klantkortingen.
 
 Volg deze stappen om de journaalposten te controleren die zijn gekoppeld aan een kortingsbeheerdeal.
 
 1. Open de juiste [lijstpagina met kortingsdeals](rebate-management-deals.md) voor het type deal waarmee u wilt werken.
 1. Selecteer de deal waarvoor u journaalposten wilt inspecteren.
-1. Selecteer in het actievenster op het tabblad **Kortingsbeheerdeals** in de groep **Transacties** de optie **Transacties** of **Kortingstransacties**, afhankelijk van het type transacties dat u wilt bekijken.
+1. Selecteer in het actievenster op het tabblad **Kortingsbeheerdeals** in de groep **Transacties** de optie **Transacties** of **Garantietransacties**, afhankelijk van het type transacties dat u wilt bekijken.
 1. Zorg ervoor dat het veld **Weergeven** is ingesteld op *Alles* of *Geboekt*.
 1. Zoek en selecteer de transactieverzameling die u wilt inspecteren en selecteer vervolgens in het actievenster een van de volgende knoppen. (Deze knoppen zijn alleen beschikbaar als er relevante boekingen bestaan voor de geselecteerde transactieverzameling.)
 
     - **Doeltransacties**: bekijk relevante journalen en andere typen documenten die zijn gegenereerd door de geselecteerde deal.
-    - **Artikelen**: bekijk relevante artikelen die zijn gegenereerd door de geselecteerde deal.
+    - **Artikelen**: bekijk relevante verkooporders of inkooporders die door de geselecteerde deal zijn gegenereerd.
 
 1. Er wordt een lijst met relevante dagboeken, documenten of artikelen weergegeven. Als u meer informatie over een journaal, document of artikel wilt weergeven, selecteert u de bijbehorende rij en selecteert u vervolgens in het actievenster de optie **Details weergeven**.

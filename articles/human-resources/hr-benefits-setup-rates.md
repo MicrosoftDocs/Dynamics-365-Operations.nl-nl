@@ -2,7 +2,7 @@
 title: Tarieven configureren
 description: Tarieven in Microsoft Dynamics 365 Human Resources bepalen hoeveel werkgevers en werknemers bijdragen voor een vergoeding.
 author: andreabichsel
-ms.date: 06/22/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d6018decbc429a5e6fbb658369d56a34439f6c7
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2b6767df573260f32de8409e487f649bdc4779b0
+ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054975"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "6266652"
 ---
 # <a name="configure-rates"></a>Tarieven configureren
 
@@ -46,7 +46,7 @@ Gebruik tarieven om te bepalen hoeveel werknemers en werkgevers betalen voor elk
    | **Vervaldatum** | De einddatum van het tarief. 12/31/2154 (wat voor nooit staat) is de standaardwaarde. |
    | **Niveaus gebruiken** | Het niveau dat moet worden gebruikt voor de berekening van het vergoedingstarief. Eén niveau voor een vergoedingstarief van één niveau of een dubbel niveau voor een vergoedingstarief van twee niveaus. Een voorbeeld van een dubbel niveau is een niveau dat is gebaseerd op geslacht en leeftijd. |
    | **Betalingsfrequentie** | De betalingsfrequentie waarmee wordt bepaald hoe vaak het premietarief voor vergoedingen wordt betaald aan de vergoedingsprovider. Als de betalingsfrequentie bijvoorbeeld maandelijks is, vertegenwoordigt het vergoedingstarief het maandelijkse betalingsbedrag. |
-   | **Afronding betalingsfrequentie** | De methode voor het afronden van het tarief: Standaard of Afgekapt. |
+   | **Afronding betalingsfrequentie** | De methoden voor het afronding van het tarief zijn: Standaard, Afgekapt, Normaal, Naar beneden afronden en Naar boven afronden. </br></br><ul><li>**Standaard**: altijd naar boven afgerond. Zo wordt 10,611 afgerond op 10,62. -10,231 wordt afgerond op -10,23. </li><li>**Afgekapt**: altijd naar beneden afgerond. Zo wordt 10,619 afgerond op 10,61. -10,231 wordt afgerond op -10,24. </li><li>**Normaal**: decimale waarden die eindigen op of groter zijn dan 5 worden van nul weg afgerond. Decimale waarden die eindigen op of lager zijn dan 4, worden naar nul afgerond. Zo wordt 10,615 afgerond op 10,62. -10,235 wordt afgerond op -10,24. 10,614 wordt afgerond op 10,61. -10,234 wordt afgerond op -10,23. </li><li>**Naar beneden afronden**: er wordt naar nul afgerond. Zo wordt 10,619 afgerond op 10,61. -10,231 wordt afgerond op -10,23. </li><li>**Naar boven afronden**: er wordt van nul weg afgerond. Zo wordt 10,619 afgerond op 10,62. -10,231 wordt afgerond op -10,24. |
    | **Werknemersbedrag niet-roker** | Het bedrag dat de vergoedingsprovider berekent voor een werknemer die niet rookt. Dit is het bedrag dat de werkgever betaalt aan de vergoedingsprovider en dat moet worden gebaseerd op de betalingsfrequentie voor de tariefinstellingen. |
    | **Werkgeversbedrag niet-roker** | Het bedrag dat de vergoedingsprovider berekent voor een werknemer die niet rookt. Dit is het bedrag dat de werkgever betaalt aan de vergoedingsprovider en dit moet worden gebaseerd op de betalingsfrequentie voor de tariefinstellingen. |
    | **Werknemersbedrag roker** | Het bedrag dat de vergoedingsprovider berekent voor een werknemer die rookt. Dit is het bedrag dat de werkgever betaalt aan de vergoedingsprovider en dat moet worden gebaseerd op de betalingsfrequentie voor de tariefinstellingen. |

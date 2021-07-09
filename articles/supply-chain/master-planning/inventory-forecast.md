@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a7ed310ebdef130b0fb09c5db19397398dc5042
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 7901bcfc239885aa53863729e573d1f37ba67f81
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216837"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306410"
 ---
 # <a name="inventory-forecasts"></a>Voorraadprognoses
 
@@ -353,20 +353,46 @@ Met deze procedure kunt u bestaande prognosetransactieregels verwerken. U kunt p
 1. Gebruik de sectie **Financiële dimensies** om de financiële dimensies van prognoseregels bij te werken. Selecteer de financiële dimensies die u wilt wijzigen en voer vervolgens een waarde in die moet worden toegepast op de geselecteerde dimensies.
 1. Selecteer **OK** om de wijzigingen toe te passen.
 
-## <a name="run-forecast-planning"></a>Prognoseplanning uitvoeren
+## <a name="use-forecasts-with-master-planning"></a>Prognoses met hoofdplanning gebruiken
 
-Nadat u uw vraag- en/of aanbodprognose hebt ingesteld, kunt u prognoseplanning uitvoeren om de brutobehoeften voor de materialen en capaciteit te berekenen en om geplande orders te genereren.
+Nadat u de vraagprognose en/of aanbodprognose hebt uitgevoerd, kunt u de prognoses opnemen tijdens de hoofdplanning om rekening te houden met verwachte vraag en/of aanbod in de hoofdplanningsuitvoering. Wanneer prognoses worden opgenomen in de hoofdplanning, worden de brutobehoeften voor materialen en capaciteit berekend en worden geplande orders gegenereerd.
 
-1. Ga naar **Hoofdplanning \> Prognose \> Prognoseplanning**.
-1. Selecteer in het veld **Prognoseplan** een prognoseplan.
-1. Schakel **Verwerkingstijd traceren** in om de verwerkingstijd voor elke planningstaak te registreren.
-1. Voer een waarde in het veld **Aantal threads** in. (Zie [Prestaties van hoofdplanning verbeteren](master-planning-performance.md) voor meer informatie.)
-1. Voer in het veld **Opmerking** tekst in om aanvullende gegevens vast te leggen die vereist zijn.
-1. Selecteer op het sneltabblad **Op te nemen records** de optie **Filter** om de selectie van items te beperken.
-1. Geef de parameters van de batch op het sneltabblad **Uitvoeren op de achtergrond** op.
+### <a name="set-up-a-master-plan-to-include-an-inventory-forecast"></a>Een hoofdplan instellen om een voorraadprognose op te nemen
+
+Voer de volgende stappen uit om een hoofdplan zo in te stellen dat het een voorraadprognose bevat.
+
+1. Ga naar **Hoofdplanning \> Instellen \> Plannen \> Hoofdplannen**.
+1. Selecteer een bestaand plan of maak een nieuw plan.
+1. Stel op het sneltabblad **Algemeen** de volgende velden in:
+
+    - **Prognosemodel**: selecteer het prognosemodel dat moet worden toegepast. Dit model kan worden gebruikt wanneer een aanbodvoorstel wordt gegenereerd voor het huidige hoofdplan.
+    - **Aanbodprognose opnemen**: stel deze optie in op *Ja* om de aanbodprognose in het huidige prognoseplan op te nemen. Bij *Nee* worden aanbodprognosetransacties niet opgenomen in het hoofdplan.
+    - **Vraagprognose opnemen**: stel deze optie in op *Ja* om de vraagprognose in het huidige prognoseplan op te nemen. Bij *Nee* worden vraagprognosetransacties niet opgenomen in het hoofdplan.
+    - **Gebruikte methode om prognosebehoeften te verminderen**: selecteer de methode die moet worden gebruikt om prognosebehoeften te verminderen. Zie [Reductiesleutels van prognose](planning-optimization/demand-forecast.md#reduction-keys) voor meer informatie.
+
+1. Op het sneltabblad **Time fences in dagen** kunt u de volgende velden instellen om de periode op te geven waarin de prognose moet worden opgenomen:
+
+    - **Prognoseplan**: stel deze optie in op *Ja* als u de time fence voor prognoseplannen wilt overschrijven die afkomstig is uit de afzonderlijke behoefteplanningsgroepen. Stel deze optie in op *Nee* als u de waarden uit de afzonderlijke behoefteplanningsgroepen voor het huidige hoofdplan wilt gebruiken.
+    - **Prognoseperiode**: als u de optie **Prognoseplan** instelt op *Ja*, geeft u het aantal dagen op (vanaf de datum van vandaag) waarop de vraagprognose moet worden toegepast.
+
+    > [!IMPORTANT]
+    > De optie **Prognoseplan** wordt nog niet ondersteund met Planningsoptimalisatie.
+
+### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>Een hoofdplan uitvoeren dat een voorraadprognose bevat
+
+Voer de volgende stappen uit om een hoofdplan uit te voeren dat een voorraadprognose bevat.
+
+1. Ga naar **Hoofdplanning \> Werkgebieden \> Hoofdplanning**.
+1. Typ of selecteer in het veld **Hoofdplan** het hoofdplan dat u in de vorige procedure hebt ingesteld.
+1. Selecteer de tegel **Hoofdplanning** en selecteer **Uitvoeren**.
+1. Stel in het dialoogvenster **Hoofdplanning** de optie **Verwerkingstijd traceren** in op *Ja*.
+1. Voer een getal in het veld **Aantal threads** in.
+1. Selecteer **Filter** op het sneltabblad **Op te nemen records**.
+1. Er wordt een standaarddialoogvenster voor Query-editor weergegeven. Selecteer in het tabblad **Bereik** de rij waarin het veld **Veld** is ingesteld op *Artikelnummer*.
+1. Selecteer in het veld **Criteria** het artikelnummer dat u in het plan wilt opnemen.
 1. Selecteer **OK**.
 
-Open de pagina **Brutobehoefte** om de berekende behoeften weer te geven. Selecteer bijvoorbeeld **Brutobehoefte** op de pagina **Vrijgegeven producten** op het tabblad **Plan** in de sectie **Behoeften**.
+Open de pagina **Brutobehoefte** om de berekende behoeften weer te geven. Selecteer bijvoorbeeld **Brutobehoefte** op de pagina **Vrijgegeven producten** in het actievenster op het tabblad **Plan** in de groep **Behoeften**.
 
 Als u de geplande orders wilt weergeven die zijn gegenereerd, gaat u naar **Hoofdplanning \> Algemeen \> Geplande orders** en selecteert u het juiste prognoseplan.
 
@@ -376,5 +402,6 @@ Als u de geplande orders wilt weergeven die zijn gegenereerd, gaat u naar **Hoof
 - [Instelling van Vraagprognose](demand-forecasting-setup.md)
 - [Een statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md)
 - [Handmatige correcties aanbrengen in de basislijnprognose](manual-adjustments-baseline-forecast.md)
+- [Hoofdplanning met vraagprognoses](planning-optimization/demand-forecast.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

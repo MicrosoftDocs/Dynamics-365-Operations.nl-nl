@@ -1,5 +1,5 @@
 ---
-title: Preview van Dynamics 365 Supply Chain Management 10.0.19 (juni 2021)
+title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management versie 10.0.19 (juni 2021)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.19.
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 7f98eee2a821191cefc27abbbd59373084c8b50c
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6114970"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271444"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>Preview van Dynamics 365 Supply Chain Management 10.0.19 (juni 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management versie 10.0.19 (juni 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in de preview van Microsoft Dynamics 365 Supply Chain Management versie 10.0.19. Deze versie heeft een buildnummer van 10.0.837 en is als volgt beschikbaar:
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.19. Deze versie heeft een buildnummer van 10.0.837 en is als volgt beschikbaar:
 
 - **Preview van versie:** april 2021
 - **Algemene beschikbaarheid van versie (zelfupdate):** juni 2021
@@ -32,7 +31,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in de
 
 De volgende tabel vermeldt de functies die deze versie bevat. De kolom *Functie* bevat koppelingen naar het [releaseplan](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) waar u de officiële vrijgavedatums voor elke functie kunt zien. De kolom *Meer informatie* bevat meer details en/of koppelingen naar gerelateerde documentatie.
 
-De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken. Sommige van de functies in de lijst zijn nog steeds in preview, terwijl andere mogelijk al algemeen beschikbaar zijn.
+De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 
 | Functiegebied | Functie | Meer informatie |
 |---|---|---|

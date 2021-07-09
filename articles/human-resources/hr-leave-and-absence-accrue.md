@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86ca63b1703faa6f57ed2e5591c89a5e84363481
-ms.sourcegitcommit: 318e406b84d43381d450272eb83c5eea9c5cf1c0
+ms.openlocfilehash: ddd4c55f6ebfbe91fb949a92cb379f51d826c465
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059468"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303459"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Verlof- en verzuimplannen toerekenen
 
@@ -104,11 +104,9 @@ Opbouwrecords voor een specifiek plan en datumbereik verwijderen. Toerekeningsda
 
 2. Selecteer onder **Verlof beheren** de optie **Controle van toerekening van verlof verwijderen**.
 
-## <a name="preview-leave-accrual-transaction-auditing"></a>(Preview) Controleren van toerekeningstransacties voor verlof
+## <a name="leave-accrual-transaction-auditing"></a>Controleren van toerekeningstransacties voor verlof
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Met deze preview-functie begrijpen verzuim- en verlofmanagers de toerekeningstransacties voor verlof en verzuim die betrekking hebben op de verlofsaldi van een werknemer voor een bepaald verloftype.
+Met deze functie begrijpen verzuim- en verlofmanagers de toerekeningstransacties voor verlof en verzuim die betrekking hebben op de verlofsaldi van een werknemer voor een bepaald verloftype.
 
 Transactiedetails weergeven:
 

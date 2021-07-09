@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193876"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271203"
 ---
 # <a name="firm-planned-orders"></a>Vast geplande orders
 
@@ -123,8 +123,6 @@ De time fence voor automatische fiattering wordt gedefinieerd door het aantal da
 Als u alle eerder genoemde time fences instelt op *0* (nul), wordt automatisch fiatteren uitgeschakeld voor de relevante gedekte artikelen.
 
 ## <a name="firm-planned-orders-by-using-a-query"></a>Geplande orders fiatteren met behulp van een query
-
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 Met op een query gebaseerde fiattering kunt u fiattering plannen op basis van criteria die vooraf zijn gedefinieerd. In tegenstelling tot automatische fiattering kunnen bij op query's gebaseerde fiattering verschillende subsets van orders op verschillende tijdstippen worden gefiatteerd. Bovendien kunt u handmatige of geautomatiseerde bewerkingen gebruiken om verschillende typen geplande orders te fiatteren. U kunt ook een voorbeeld bekijken van de gefiatteerde orders die zijn geselecteerd op basis van uw instellingen. U kunt daarom bevestigen dat de selectie voldoet aan uw verwachtingen.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224029"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304388"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Een nieuwe ER-oplossing ontwerpen om een aangepast rapport af te drukken
 
@@ -185,7 +185,7 @@ Door de stappen in de sectie [Een nieuwe gegevensmodelconfiguratie importeren](#
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Een nieuwe gegevensmodelconfiguratie importeren
 
-1. Download het bestand [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) en sla het op uw lokale computer op.
+1. Download het bestand [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) en sla het op uw lokale computer op.
 2. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
 3. Selecteer in het werkgebied **Elektronische rapportage** de optie **Rapportconfiguraties**.
 4. In het actievenster selecteert u **Uitwisselen** \> **Laden uit XML-bestand**.
@@ -300,7 +300,7 @@ Door de stappen in de sectie [Een nieuwe modeltoewijzingsconfiguratie importeren
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Een nieuwe configuratie voor de modeltoewijzing importeren
 
-1. Download het bestand [Questionnaires mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) en sla het op uw lokale computer op.
+1. Download het bestand [Questionnaires mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) en sla het op uw lokale computer op.
 2. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
 3. Selecteer in het werkgebied **Elektronische rapportage** de optie **Rapportconfiguraties**.
 4. In het actievenster selecteert u **Uitwisselen** \> **Laden uit XML-bestand**.
@@ -366,7 +366,7 @@ U moet gegevensbronnen configureren om toegang te krijgen tot de toepassingstabe
     2. Selecteer **Toevoegen**.
     3. Voer in het dialoogvenster in het veld **Naam** **\$ResultGroup** in.
     4. Selecteer **Formule bewerken**.
-    5. Voer in de [ER-formule-editor](general-electronic-reporting-formula-designer.md), in het veld **Formule**, **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** in om het [pad](er-formula-language.md#paths) van de één-op-veel-relatie te gebruiken tussen de tabellen KMCollection en KMQuestionResultGroup.
+    5. Voer in de [ER-formule-editor](general-electronic-reporting-formula-designer.md), in het veld **Formule**, **FIRSTORNULL(\@.'\<Relations'.KMQuestionResultGroup)** in om het [pad](er-formula-language.md#Paths) van de één-op-veel-relatie te gebruiken tussen de tabellen KMCollection en KMQuestionResultGroup.
     6. Selecteer **Opslaan** en sluit de formule-editor.
     7. Klik op **OK** om het nieuwe berekende veld toe te voegen.
 
@@ -547,7 +547,7 @@ De status van versie 1.1 van deze configuratie wordt gewijzigd van **Concept** i
 
 Het ER-raamwerk gebruikt vooraf gedefinieerde sjablonen om rapporten te genereren in Microsoft Office-indelingen (Excel-werkmappen of Word-documenten). Terwijl het vereiste rapport wordt gegenereerd, wordt een sjabloon gevuld met vereiste gegevens volgens de geconfigureerde gegevensstroom. Daarom moet u eerst een sjabloon voor uw aangepaste rapport ontwerpen. Deze sjabloon moet zijn ontworpen als een Excel-werkmap, waarvan de structuur de indeling van een aangepast rapport vertegenwoordigt. U moet elk Excel-item dat u wilt invullen met vereiste gegevens, een naam geven.
 
-1. Download het bestand [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) en sla het op uw lokale computer op.
+1. Download het bestand [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) en sla het op uw lokale computer op.
 2. Open het bestand in Excel en bekijk de structuur van de werkmap.
 
 Zoals in de volgende afbeelding wordt weergegeven, is de gedownloade sjabloon ontworpen voor het afdrukken van opgegeven vragenlijsten waarin de vragen van een vragenlijst en de juiste antwoorden worden weergegeven.
@@ -572,7 +572,7 @@ Door de stappen in de sectie [Een ontworpen indelingsconfiguratie importeren](#F
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Een ontworpen indelingsconfiguratie importeren
 
-1. Download het bestand [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) en sla het op uw lokale computer op.
+1. Download het bestand [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) en sla het op uw lokale computer op.
 2. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
 3. Selecteer in het werkgebied **Elektronische rapportage** de optie **Rapportconfiguraties**.
 4. In het actievenster selecteert u **Uitwisselen** \> **Laden uit XML-bestand**.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: cf009e32f8c137e235793d80bf8448a5f55988bd
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dc41df33d01c3c8523afb6d8f16bfec88e0c42b8
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020430"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271024"
 ---
 # <a name="rebate-management-parameters"></a>Parameters voor kortingsbeheer
 
@@ -27,7 +27,7 @@ ms.locfileid: "6020430"
 
 De pagina **Kortingsbeheerparameters** wordt gebruikt om instellingen te definiëren die van toepassing zijn op de module **Kortingsbeheer**. Deze instellingen zijn van invloed op boeking, statusupdates, nummerreeksen en ander gedrag. De instellingen op deze pagina worden gedeeld tussen rechtspersonen en kunnen worden gewijzigd door gebruikers die over de juiste beveiligingsmachtigingen beschikken.
 
-Als u de pagina **Kortingsbeheerparameters** wilt openen, gaat u naar **Kortingen en inhoudingen \> Instellen \> Kortingsbeheerparameters**. Stel vervolgens de velden in volgens de beschrijving in de volgende subsecties.
+Als u de pagina **Kortingsbeheerparameters** wilt openen, gaat u naar **Kortingsbeheer \> Instellen \> Kortingsbeheerparameters**. Stel vervolgens de velden in volgens de beschrijving in de volgende subsecties.
 
 ## <a name="rebate-management-tab"></a>Tabblad Kortingsbeheer
 
@@ -36,12 +36,12 @@ In de volgende tabel worden de velden beschreven die beschikbaar zijn op het tab
 | Veld | Beschrijving |
 |---|---|
 | Standaardstatus | Selecteer de standaardstatus voor alle nieuwe deals. Als u de set statuswaarden wilt definiëren die beschikbaar is voor selectie, gebruikt u de [pagina **Kortingsstatussen**](rebate-statuses.md). |
-| Verwerken per dimensie | Selecteer of voorzienings-, kortings- en afschrijvingstransacties per financiële dimensie moeten worden verwerkt. Wanneer deze optie is ingeschakeld, gebruikt het systeem financiële dimensies voor de brontransacties. |
+| Verwerken per dimensie | Selecteer of voorzienings-, kortings- en afschrijvingstransacties per financiële dimensie moeten worden verwerkt. Wanneer deze optie is ingeschakeld, gebruikt het systeem financiële dimensies van de brontransacties in de doeltransacties. |
 | Controleren of deze eerder is geboekt | <p>Selecteer het systeemgedrag als niet-geboekte kortingstransacties meer dan één keer voor dezelfde periode worden verwerkt:</p><ul><li>**Waarschuwing**: het systeem staat gebruikers toe de oorspronkelijke transactieregels te overschrijven, maar er wordt wel een waarschuwing weergegeven.</li><li>**Fout**: het systeem voorkomt dat gebruikers de oorspronkelijke transactieregels overschrijven en er wordt een foutbericht weergegeven. |
 | Automatisch journalen boeken | Selecteer of het systeem voorgestelde journalen automatisch moet boeken. Deze journalen bevatten dagelijkse journalen die worden gebruikt voor voorzieningen en klantinhoudingen, en ook journalen voor leveranciersbelastingfacturen. |
 | Automatisch vrije-tekstfacturen boeken | Selecteer of het systeem automatisch vrije-tekstfacturen moet boeken. Deze optie is alleen van toepassing op vrije-tekstfacturen waarbij het betalingstype is ingesteld op *Klantinhoudingen voor belastingfacturen*. |
-| Verwijzing kortingsartikelorder | Selecteer de kortingsverwijzing die moet worden gebruikt voor verkoop- en inkooporders die worden gegenereerd uit het kortingsproces (*Geen*, *Kortings- en inhoudingsdeal*, *Kortings- en inhoudingsnummer*, *Kortingstransactienummer* of *Documentnotities*). |
-| Claimproces gebruiken | <p>Stel deze optie in op *Ja* om een claimproces te gebruiken. Op deze manier kunt u transacties die door Kortingsbeheer worden gemaakt markeren als geclaimd of niet-geclaimd en vervolgens alleen de geclaimde transacties boeken.</p><p>U berekent bijvoorbeeld kortingen voor een maand aan transacties, maar de klant heeft twee dagen niet geclaimd. In dit geval worden de niet-geclaimde transacties opnieuw gemaakt de volgende keer dat u de functie *Verwerken* uitvoert voor dezelfde periode.</p><p>Als u deze optie instelt op *Nee*, worden alle claimtransacties geboekt.</p> |
+| Verwijzing kortingsartikelorder | Selecteer de kortingsverwijzing die moet worden gebruikt voor verkooporders en inkooporders die worden gegenereerd uit het kortingsproces (*Geen*, *Kortingsbeheerdeal*, *Kortingsbeheernummer*, *Kortingstransactienummer* of *Documentnotities*). |
+| Claimproces gebruiken | <p>Stel deze optie in op *Ja* om een claimproces te gebruiken. Op deze manier kunt u transacties die door Kortingsbeheer worden gemaakt markeren als geclaimd of niet-geclaimd en vervolgens alleen de geclaimde transacties boeken.</p><p>U berekent bijvoorbeeld kortingen voor een maand aan transacties, maar de klant heeft twee dagen niet geclaimd. In dit geval worden de niet-geclaimde transacties opnieuw gemaakt de volgende keer dat u de functie *Verwerken* uitvoert voor volgende periode.</p><p>Als u deze optie instelt op *Nee*, worden alle claimtransacties geboekt.</p> |
 | Ordertypejournaal opnemen | Voor deals of dealregels waarbij het transactietype is ingesteld op *Order*, bepaalt deze optie of een verkooporder van het type *Journaal* moet worden opgenomen. Het biedt flexibiliteit als deze typen orders worden gebruikt in scenario's waarin een korting nog niet van toepassing zou moeten zijn. |
 
 ## <a name="number-sequences-tab"></a>Tabblad Nummerreeksen
@@ -50,8 +50,8 @@ Gebruik het tabblad **Nummerreeksen** op de pagina **Kortingsbeheerparameters** 
 
 | Verwijzing | Beschrijving |
 |---|---|
-| Kortings- en inhoudingendeal | De nummerreeks wijst een unieke sleutelwaarde toe aan elke kortingsdeal. Deze sleutel wordt gebruikt wanneer deals worden gemaakt. |
-| Kortings- en inhoudingsnummer | De nummerreeks wijst een unieke sleutelwaarde toe aan elke korting. Deze sleutel wordt gebruikt om kortingsrelaties te identificeren. |
+| Kortingsbeheerdeal | De nummerreeks wijst een unieke sleutelwaarde toe aan elke kortingsdeal. Deze sleutel wordt gebruikt wanneer deals worden gemaakt. |
+| Kortingsbeheernummer | De nummerreeks wijst een unieke sleutelwaarde toe aan elke korting. Deze sleutel wordt gebruikt om kortingsrelaties te identificeren. |
 | Kortingstransactienummer | De nummerreeks wijst een unieke sleutelwaarde toe aan elke kortingstransactie. Deze sleutel wordt gebruikt om kortingstransacties te identificeren. |
 | Belastingfactuur | De nummerreeks wijst een unieke sleutelwaarde toe aan elke kortingsfactuur. Deze sleutel wordt gebruikt wanneer kortingsjournalen automatisch worden geboekt. |
 

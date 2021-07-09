@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 824f7eb66c1d3f03df74a706e8214bcfe1d8efd9
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941191"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306384"
 ---
 # <a name="unified-product-experience"></a>Uniforme productervaring
 
@@ -124,7 +124,7 @@ Productdimensies zijn kenmerken die de variant van een product identificeren. De
 
 Wanneer een product verschillende productdimensies heeft (een productmodel heeft bijvoorbeeld maat en kleur als productdimensies), wordt elk afzonderlijk product (elke productvariant) gedefinieerd als een combinatie van deze productdimensies. Productnummer B0001 is bijvoorbeeld een XS zwart T-shirt en het productnummer B0002 is een S zwart T-shirt. In dit geval worden de bestaande combinaties van productdimensies gedefinieerd. Het T-shirt in het vorige voorbeeld kan bijvoorbeeld XS en zwart, S en zwart, M en zwart, L en zwart zijn, maar kan niet XL en zwart worden. Met andere woorden de mogelijke productdimensies voor een productmodel worden opgegeven en varianten kunnen worden vrijgegeven op basis van deze waarden.
 
-Voor het bijhouden van de productdimensies die door een productmodel kunnen worden gebruikt, worden de volgende tabellen gemaakt en in Dataverse toegewezen voor elke productdimensie. Zie [Overzicht van productgegevens](../../../supply-chain/pim/product-information.md) voor meer informatie.
+Voor het bijhouden van de productdimensies die door een productmodel kunnen worden gebruikt, worden de volgende tabellen gemaakt en in Dataverse toegewezen voor elke productdimensie. Zie voor meer informatie [Overzicht met productinformatie](../../../../supply-chain/pim/product-information.md). 
 
 [!include [product colors](includes/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
 

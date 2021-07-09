@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0b04ee246d4c28e934407ccb92d792692cc4347d
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908875"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301645"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Historische gegevens voor vraagprognoses importeren
 
@@ -39,26 +39,6 @@ Als u de gegevensentiteit wilt gebruiken, moet u een Microsoft Excel-bestand of 
 
 Zie [Gegevensimport- en exporttakenoverzicht](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md) en de gerelateerde onderwerpen voor meer informatie over het importeren van gegevens, waaronder het opschonen van gegevens na een import.
 
-## <a name="example"></a>Voorbeeld
-
-U kunt het volgende bestand als voorbeeld gebruiken. Download de [HistoricalDemandData](/dynamics/s-e/). Dit bestand bevat de historische vraaggegevens voor artikel D0001. Het bevat alleen de volgende verplichte velden: locatie, hoeveelheid en vraagdatum.
-
-1. Selecteer het bedrijf waarin de historische vraaggegevens moeten worden geïmporteerd.
-2. Open het werkgebied **Gegevensbeheer**.
-3. Selecteer de tegel **Importeren**.
-4. Voer een naam voor het importproject in, zoals **Historische vraag importeren voor artikel D0001**.
-5. Selecteer in het veld **Brongegevensindeling** de bestandsindeling van het bestand dat u importeert. Als u het bestand HistoricalDemandData voor dit voorbeeld wilt importeren, selecteert u **CSV**.
-6. Selecteer in het veld **Entiteit** **Historische externe vraag**.
-7. Sla het bestand op uw computer op en upload het vervolgens.
-8. Selecteer **Importeren**.
-9. De pagina **Uitvoeringsoverzicht** wordt automatisch geopend. Controleer de geïmporteerde gegevens op de pagina.
-
-Nadat u de historische vraaggegevens hebt geïmporteerd, kunt u een vraagprognose genereren.
-
-## <a name="additional-resources"></a>Aanvullende bronnen
-
-[Een statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md)  
-[Overzicht van Gegevensimport- en exporttaken](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
-
+Zie ook [Een statistische basislijnprognose genereren](generate-statistical-baseline-forecast.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

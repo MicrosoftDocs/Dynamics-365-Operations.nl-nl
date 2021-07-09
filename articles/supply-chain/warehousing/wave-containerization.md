@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c62e2d1b361e0ed1ab1ced42997add157b30c828
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 88e38989e3d3e46d0c43779659bc6ea2e29f08e2
+ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019046"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6292732"
 ---
 # <a name="containerization"></a>Containervorming
 
@@ -108,6 +108,8 @@ Ga als volgt te werk om een containervormingssjabloon in te stellen.
 
       - **Verpakken in alle open containers**: het systeem evalueert of de toewijzingsregel in een container past die tijdens de containervormingscyclus is gemaakt.
       - **Alleen in huidige container verpakken**: het systeem evalueert alleen of de toewijzingsregel in de zojuist gemaakte container past.
+
+    Zie [Containerpakstrategieën](container-packing-strategy-overview.md) voor meer informatie en voorbeelden over het werken met containerverpakkingsstrategieën.
 
 1. Selecteer **Logica-onderbrekingen mengen** om regels in te stellen voor het verpakken van toewijzingsregels in containers. U kunt bijvoorbeeld een regel maken waardoor werknemers toewijzingsregels voor twee verschillende artikelen in dezelfde container kunnen verpakken. Volg deze stappen om een mengregel te maken:
 

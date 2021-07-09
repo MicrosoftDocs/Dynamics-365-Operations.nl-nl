@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821244"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270654"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Standaard opgeslagen weergaven voor Supply Chain Management
 
@@ -79,16 +79,14 @@ In de volgende tabel worden de opgeslagen weergaven beschreven die beschikbaar z
 
 ## <a name="saved-views-for-the-production-control-module"></a>Opgeslagen weergaven voor de module Productiebeheer
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 In de volgende tabel worden de opgeslagen weergaven beschreven die beschikbaar zijn voor de module Productiebeheer.
 
 | Pagina | Weergavenaam | Omschrijving weergeven | Functienaam |
 |---|---|---|---|
-| Pagina Stuklijst productieorder | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | (Preview) Opgeslagen weergaven voor productiebeheer |
-| Pagina Details van productieorder | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | (Preview) Opgeslagen weergaven voor productiebeheer |
-| Pagina Productieorderverzamellijst | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | (Preview) Opgeslagen weergaven voor productiebeheer |
-| Lijstpagina Productieorders | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | (Preview) Opgeslagen weergaven voor productiebeheer |
+| Pagina Stuklijst productieorder | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergaven voor productiebeheer |
+| Pagina Details van productieorder | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergaven voor productiebeheer |
+| Pagina Productieorderverzamellijst | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergaven voor productiebeheer |
+| Lijstpagina Productieorders | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergaven voor productiebeheer |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Opgeslagen weergaven voor de module Verkoop en marketing
 

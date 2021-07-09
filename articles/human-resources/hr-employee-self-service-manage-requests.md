@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3a2db97cfd5aa6210002bf3e6abb1d7a178623c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: a2bcd7a1ce68dfd6c4c93d10561d58a42d30f611
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057353"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303239"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Verlof- en verzuimaanvragen beheren
 
@@ -34,11 +34,9 @@ Beheer verlofaanvragen vanuit het werkgebied **Selfservice werknemer** in Dynami
 
 3. Geef de verlofaanvragen van uw teamleden weer en keur deze goed.
 
-## <a name="preview-leave-request-workflow-experience-enhancements"></a>(Preview) Verbeteringen in werkstroom voor verlofaanvraag
+## <a name="leave-request-workflow-experience-enhancements"></a>Verbeteringen in werkstroom voor verlofaanvraag
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Deze previewfunctie biedt de volgende verbeteringen:
+Deze functie biedt de volgende verbeteringen:
 
 - U kunt meerdere verlofaanvragen selecteren en op alle verlofaanvragen dezelfde bewerking uitvoeren.
 - Met het lint aan de bovenkant en een nieuwe workflowknop op de pagina worden de acties weergegeven die u voor verlofaanvragen kunt uitvoeren.

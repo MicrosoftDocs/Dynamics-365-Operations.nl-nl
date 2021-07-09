@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f231b9ae85d136b0e963757d9561a7abda4edc
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
+ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938295"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "6261741"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Cloud- en randschaaleenheden voor werkbelasting van productie- en magazijnbeheer
 
@@ -24,7 +24,7 @@ ms.locfileid: "5938295"
 > [!IMPORTANT]
 > De capaciteit van de schaaleenheid voor Microsoft Dynamics 365 Supply Chain Management wordt voor u beschikbaar gemaakt onder de voorwaarden die van toepassing zijn op de service. Zie [Juridische informatie voor Microsoft Dynamics](https://go.microsoft.com/fwlink/?LinkID=290927) voor meer informatie.
 >
-> Door schaaleenheden voor cloud en edge in te schakelen, bevestigt u dat bepaalde gegevens die zijn gerelateerd aan de configuratie en verwerking van cloud- en edge-schaaleenheden, kunnen worden opgeslagen in een datacenter in de Verenigde Staten. Zie de sectie [Gegevensverwerking tijdens het beheer van schaaleenheden](#data-processing-management) verderop in dit onderwerp voor meer informatie over gegevensverwerking voor cloud- en edgeschaaleenheden.
+> Wanneer u schaaleenheden voor cloud en edge inschakelt, wordt u gevraagd te bevestigen dat bepaalde gegevens die zijn gerelateerd aan de configuratie en verwerking van cloud- en edge-schaaleenheden, kunnen worden opgeslagen in een datacenter in de Verenigde Staten. Zie de sectie [Gegevensverwerking tijdens het beheer van schaaleenheden](#data-processing-management) verderop in dit onderwerp voor meer informatie over gegevensverwerking voor cloud- en edgeschaaleenheden.
 
 ## <a name="core-value-proposition-for-scale-units"></a>Basiswaardevoorstel voor schaaleenheden
 

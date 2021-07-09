@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7afad911454916c49cda47253736defdd7e9b16b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d271d70791a8fe4ad1581ae8a150ad13bffc7a94
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020454"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271048"
 ---
 # <a name="rebate-management-module-overview"></a>Overzicht module Kortingsbeheer
 
@@ -70,7 +70,7 @@ Kortingen kunnen worden geconfigureerd op basis van een groot aantal verschillen
 
 Het resultaat van kortingsberekeningen kan ook worden verminderd met andere kortingen, afhankelijk van of de korting kan worden berekend op basis van het nettobedrag.
 
-Voor de leverancier kunnen kortingen de prijs berekenen op basis van een FIFO-regel (First In, First Out), de meest recente inkoopprijs, de gemiddelde inkoopprijs of de verkoopprijs.
+Voor de leverancier kunnen kortingen die zijn gebaseerd op verkooporders de prijs berekenen op basis van een FIFO-regel (First In, First Out), de meest recente inkoopprijs, de gemiddelde inkoopprijs of de verkoopprijs.
 
 ## <a name="rebate-target-transactions"></a>Kortingsdoeltransacties
 
@@ -84,11 +84,12 @@ Met artikeluitvoer wordt een vrije artikelverkooporder voor klantkortingen en ee
 
 De combinatie van de gekoppelde acties, de frequentie van de berekeningen, de berekeningsbasis en de geselecteerde berekeningsmethode bepaalt de nauwkeurigheid en precisie van kortingsberekeningen. Met kortingsvoorzieningen kunnen geboekte en geclaimde waarden worden toegerekend.
 
-Voorzieningen kunnen dagelijks of maandelijks worden beheerd. Met de functionaliteit kan de korting echter met elke gedefinieerde frequentie worden toegewezen, betaald of ontvangen. Gebruikers kunnen op elk moment tijdens de uitbetaling eenvoudig een plan of betalingsbedragen aanpassen.
+Voorzieningen kunnen dagelijks, wekelijks, maandelijks of volgens een aangepaste periode worden beheerd. De functionaliteit kan de korting echter toewijzen of betalen of de betaling ervan ontvangen met elke gedefinieerde frequentie die dezelfde lengte heeft als of langer is dan de voorzieningsfrequentie. Bij afschrijving wordt dezelfde frequentie gebruikt als de korting. Gebruikers kunnen op elk moment tijdens de uitbetaling eenvoudig een plan of betalingsbedragen aanpassen.
 
-Gebruikers hoeven niet langer deals of voorzieningen in twee stappen te verwerken. Voorzieningen en afschrijvingen worden rechtstreeks naar het grootboek geboekt. Verder kunnen er automatisch creditnota's worden gemaakt. Daarom is er volledige integratie met leveranciers en klanten. Tijdens de verwerking worden vereffeningskortingen, betaalde facturen, handelskortingen en bestaande creditnota's meegenomen om er zeker van te zijn dat bedragen en waarden correct worden berekend.
+Gebruikers hoeven niet langer deals of voorzieningen in twee stappen te verwerken. Voorzieningen en afschrijvingen worden rechtstreeks naar het grootboek geboekt. Verder kunnen er automatisch creditnota's worden gemaakt. Daarom is er volledige integratie met leveranciers en klanten. Tijdens de verwerking kunnen vereffeningskortingen, betaalde facturen, handelskortingen en bestaande creditnota's worden meegenomen in de berekeningen om er zeker van te zijn dat bedragen en waarden correct worden berekend.
 
-Wanneer kortingen worden berekend, worden transacties gemaakt die kunnen worden gecontroleerd voordat de boeking plaatsvindt. Er kan vervolgens een journaal, creditnota of debettransactie worden gemaakt. Kortings- en inhoudingstransacties worden met een afzonderlijk proces geboekt. Rapportageoverzichten en transactielijsten kunnen worden verkregen om conformiteit, effectiviteit en transparantie te garanderen.
+Wanneer kortingen worden berekend, worden transacties gemaakt die kunnen worden gecontroleerd voordat de boeking plaatsvindt. Kortingsbeheertransacties worden met een afzonderlijk proces geboekt. Tijdens het boeken naar voorgestelde transacties kan vervolgens een journaal, creditnota of debettransactie worden gemaakt. Rapportageoverzichten en transactielijsten kunnen worden verkregen om conformiteit, effectiviteit en transparantie te garanderen.
+
 
 ## <a name="guaranteed-royalty-payments"></a>Gegarandeerde royaltybetalingen
 
