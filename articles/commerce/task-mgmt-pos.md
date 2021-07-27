@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 38ee9db94b3b222e8c0ce5d0883f47bd5d3e7d22
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f24ee67cd140fe75d65442484f673b17d32c1f93
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796917"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354536"
 ---
 # <a name="task-management-in-pos"></a>Taakbeheer in POS
 
@@ -44,15 +44,15 @@ Winkelmedewerkers kunnen de volgende taakbewerkingen in de POS-toepassing uitvoe
 
 In de volgende afbeelding ziet u het tabblad **Mijn taken** in de POS-toepassing van Commerce.
 
-![Tabblad Mijn taken in de POS-toepassing van Commerce](media/POS-task-management.png)
+![Tabblad Mijn taken in de POS-toepassing van Commerce.](media/POS-task-management.png)
 
 In de volgende afbeelding wordt het tabblad **Takenlijsten** weergegeven.
 
-![Tabblad Takenlijsten in de POS-toepassing van Commerce](media/POS-task-lists-management.png)
+![Tabblad Takenlijsten in de POS-toepassing van Commerce.](media/POS-task-lists-management.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Overzicht van taakbeheer](task-mgmt-overview.md)
+[Overzicht van Taakbeheer](task-mgmt-overview.md)
 
 [Taakbeheer configureren](task-mgmt-configure.md)
 

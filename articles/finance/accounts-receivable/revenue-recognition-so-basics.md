@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e9c6423a7fb604005d4fb7f1eca05a1ef7d210e5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce0879565babfbf526e1aa6864482e60cbabd377
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817216"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345591"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Opbrengsttoerekening op verkooporders
 
@@ -36,7 +36,7 @@ In dit onderwerp wordt de basisfunctionaliteit beschreven voor het toerekenen va
 
 De volgende verkooporder wordt ingevoerd en bevat drie artikelen die zijn ingesteld voor opbrengsttoerekening.
 
-[![Een verkooporder invoeren](./media/revenue-recognition-so-basic-sales-order-header.png)](./media/revenue-recognition-so-basic-sales-order-header.png)
+[![Een verkooporder invoeren.](./media/revenue-recognition-so-basic-sales-order-header.png)](./media/revenue-recognition-so-basic-sales-order-header.png)
 
 Er zijn twee concepten voor het toerekenen van opbrengst:
 
@@ -47,15 +47,15 @@ Er zijn twee concepten voor het toerekenen van opbrengst:
 
     Het tweede artikel, S0008, is een serviceartikel dat is ingesteld als een PCS-artikel (Contractondersteuning boeken). De doorlopende technische diensten worden over een periode van twaalf maanden aan de klant geleverd. Daarom wordt standaard een opbrengstschema **12M** aan het product toegewezen. Omdat dit artikel een PCS-artikel is, moeten de begin- en einddatum van het contract worden gedefinieerd. De begin- en einddatum van het contract zijn standaard bij de artikelgegevens te vinden – tabblad Instellingen. In het opbrengstschema wordt de instelling voor **12M** opgegeven, zodat de contractvoorwaarden automatisch worden ingevuld, zoals wordt weergegeven in de volgende afbeelding.
 
-    [![Opbrengstschema's](./media/revenue-recognition-so-basic-revenue-schedules.png)](./media/revenue-recognition-so-basic-revenue-schedules.png)
+    [![Opbrengstschema's.](./media/revenue-recognition-so-basic-revenue-schedules.png)](./media/revenue-recognition-so-basic-revenue-schedules.png)
 
     Het derde artikel, S0012, is hardware en er wordt standaard geen opbrengstschema toegewezen. De opbrengst van de hardware wordt toegerekend zodra het artikel wordt gefactureerd.
 
 ## <a name="confirm-the-sales-order"></a>De verkooporder bevestigen
 
-Als u meer details wilt zien over de opbrengstprijs en het opbrengstschema, kunt u daarvoor de knoppen in de groep **Opbrengsttoerekening** op het tabblad **Beheren** in het actievenster van de verkooporder gebruiken. Omdat de verkooporder op dit moment niet is bevestigd, zijn de knoppen die voor opbrengsttoerekening worden gebruikt niet beschikbaar. Deze knoppen worden beschikbaar of niet beschikbaar naarmate de verkooporder de verschillende fasen naar de afhandelingsfase doorloopt.
+Als u meer details wilt zien over de opbrengstprijs en het opbrengstschema, kunt u daarvoor de knoppen in de groep **Opbrengsttoerekening** op het tabblad **Beheren** in het actiepaneel van de verkooporder gebruiken. Omdat de verkooporder op dit moment niet is bevestigd, zijn de knoppen die voor opbrengsttoerekening worden gebruikt niet beschikbaar. Deze knoppen worden beschikbaar of niet beschikbaar tijdens de verschillende fasen die de verkooporder doorloopt totdat deze is afgehandeld.
 
-[![Koptekst van verkooporder](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
+[![Koptekst van verkooporder.](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
 
 De eerste drie knoppen kunnen worden gebruikt voor het weergeven van informatie over de opbrengstprijs voor de artikelen op de verkooporder die zijn ingesteld voor opbrengsttoerekening.
 
@@ -70,31 +70,31 @@ De laatste twee knoppen bieden informatie over het opbrengstschema voor de artik
 
 In het volgende voorbeeld is de opbrengstprijs toegewezen toen de verkooporder werd bevestigd. Hoewel de opbrengstprijzen anders worden toegewezen, moet het totale bedrag in het veld **Opbrengst voor toerekening** nog steeds gelijk zijn aan de som van de verkooporderregels die aan de klant worden gefactureerd. De som van de verkooporderregels, exclusief btw, is bijvoorbeeld € 1499. Daarom moet de som van de waarden bij **Opbrengst voor toerekening** ook € 1499 zijn.
 
-[![Opbrengstprijstoewijzing](./media/revenue-recognition-so-basic-revenue-price-allocation.png)](./media/revenue-recognition-so-basic-revenue-price-allocation.png)
+[![Opbrengstprijstoewijzing.](./media/revenue-recognition-so-basic-revenue-price-allocation.png)](./media/revenue-recognition-so-basic-revenue-price-allocation.png)
 
 Het schema voor de verwachte toerekening van opbrengst wordt ook gemaakt. In het opbrengstschema wordt de waarde bij **Opbrengst voor toerekening** gebruikt als het bedrag dat moet worden uitgesteld. Voor artikel S0001 wordt € 321,21 in plaats van € 300 uitgesteld, en voor artikel S0008 wordt € 160,61 in plaats van € 100 uitgesteld. Artikel S0012 wordt niet weergegeven in het schema met de verwachte opbrengst omdat de opbrengst niet wordt uitgesteld. Bij het boeken wordt voor artikel S0012 € 1017,18 rechtstreeks naar de grootboekrekening voor opbrengst geboekt.
 
-[![Schema voor verwachte opbrengsttoerekening](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)
+[![Schema voor verwachte opbrengsttoerekening.](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)
 
 ## <a name="create-the-packing-slip"></a>De pakbon maken
 
-Als volgende kan de pakbon voor de verkooporder worden gemaakt. Er wordt geen opbrengst toegerekend als de pakbon wordt geboekt. Als de verkooporder niet is bevestigd, wordt de berekening van de opbrengstprijs niet geactiveerd als de pakbon wordt geboekt. Ook het maken van het schema met verwachte of definitieve opbrengsttoerekening wordt hierdoor niet geactiveerd. Als de artikelmodelgroep is ingesteld om de opbrengst op de pakbon uit te stellen, wordt het boeken voortgezet via de huidige grootboekrekeningen van het boekingsprofiel, en niet via de nieuwe rekeningen voor uitgestelde opbrengst die worden gebruikt bij het boeken van de factuur.
+Vervolgens kan de pakbon voor de verkooporder worden gemaakt. Er wordt geen opbrengst toegerekend als de pakbon wordt geboekt. Als de verkooporder niet is bevestigd, wordt de berekening van de opbrengstprijs niet geactiveerd als de pakbon wordt geboekt. Ook het maken van het schema met verwachte of definitieve opbrengsttoerekening wordt hierdoor niet geactiveerd. Als de artikelmodelgroep is ingesteld om de opbrengst op de pakbon uit te stellen, wordt het boeken voortgezet via de huidige grootboekrekeningen van het boekingsprofiel, en niet via de nieuwe rekeningen voor uitgestelde opbrengst die worden gebruikt bij het boeken van de factuur.
 
 ## <a name="create-the-invoice"></a>De factuur maken
 
 De laatste stap is het factureren van de verkooporder. Als u het boekstuk van de factuur bekijkt, zult u zien dat de opbrengst voor de artikelen S0001 en S0008 is uitgesteld (€ 321,21 + 160,61 = 481,82) en dat het resterende bedrag voor artikel S0012 is geboekt als opbrengst (1017,18). Deze waarden zijn bij elkaar opgeteld € 1499, wat overeenkomt met de som van de verkooporderregels.
 
-[![Boekstuktransacties](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
+[![Boekstuktransacties.](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
 
 Nadat de factuur is gemaakt, worden de knoppen **Opbrengstprijstoewijzing**, **Prijs opnieuw toewijzen bij nieuwe orderregels** en **Opbrengsttoerekeningsschema** voor het toerekenen van opbrengst beschikbaar, maar zijn de knoppen **Opbrengstprijstoewijzing bijwerken** en **Schema voor verwachte opbrengsttoerekening** niet beschikbaar.
 
-[![Beschikbaarheid van knop voor opbrengsttoerekening](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
+[![Beschikbaarheid van knop voor opbrengsttoerekening.](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
 
 De knop **Opbrengstprijstoewijzing** is nog steeds beschikbaar, zodat u de berekening van de opbrengstprijs kunt bekijken. Als er niets is gewijzigd op de verkooporder nadat deze is bevestigd, wordt het berekende bedrag in het veld **Opbrengst voor toerekening** niet gewijzigd als de factuur wordt geboekt.
 
 Het schema voor verwachte opbrengsttoerekening wordt verwijderd en vervangen door het definitieve schema voor opbrengsttoerekening. De details van het opbrengstschema worden bijgehouden voor elke verkooporderregel en worden gebruikt om de uitgestelde opbrengst vrij te geven naar werkelijke opbrengst als aan de contractuele verplichtingen wordt voldaan.
 
-[![Definitieve schema voor opbrengsttoerekening](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+[![Definitieve schema voor opbrengsttoerekening.](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

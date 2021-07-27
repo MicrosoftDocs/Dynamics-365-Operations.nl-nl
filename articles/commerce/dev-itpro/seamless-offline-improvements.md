@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 47867447e6d16a0fb4542c17ab184068300b2c1c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8f5c8f104d8304cf9a54efcdf6e22efbc3b356b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019952"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348263"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Naadloos overschakelen naar offline bewerkingen voor cadeaukaarten en creditnota's
 
@@ -36,7 +36,7 @@ Als de POS-verbinding echter wordt verbroken nadat een geschenkbon aan een trans
 
 Ga naar het tabblad **Boeking** op de pagina **Commerce-parameters** om de functionaliteit voor het voltooien van transacties met geschenkbonnen in te schakelen nadat u bent overgeschakeld naar de offline modus. Ga op dat tabblad naar het sneltabblad **Geschenkbon** en stel **Uitvoeren van transactie met geschenkbon in offline modus toestaan** in op **Ja**.
 
-![Instelling voor offline geschenkbonnen](../media/gift.png)
+![Instelling voor offline geschenkbonnen.](../media/gift.png)
 
 Commerce-parameters worden doorgaans in de cache opgeslagen. Daarom kan het, nadat de instelling van deze parameter is bijgewerkt en de distributieplanning wordt gestart om de wijziging te synchroniseren met het kanaal, tot 24 uur duren voordat de wijziging van kracht wordt. Als u de wijziging onmiddellijk wilt doorvoeren, moet u Microsoft Internet Information Services (IIS) opnieuw instellen.
 
@@ -46,7 +46,7 @@ Net als interne geschenkbonnen worden creditnota's centraal bijgehouden in Comme
 
 Ga naar het tabblad **Boeking** op de pagina **Commerce-parameters** om de functionaliteit voor het voltooien van transacties met creditnota's in te schakelen nadat u bent overgeschakeld naar de offline modus. Ga op dat tabblad naar het sneltabblad **Creditnota** en stel **Uitvoeren van transactie met creditnota in offline modus toestaan** in op **Ja**.
 
-![Instelling voor offline creditnota](../media/creditmemo.png)
+![Instelling voor offline creditnota.](../media/creditmemo.png)
 
 Commerce-parameters worden doorgaans in de cache opgeslagen. Daarom kan het, nadat de instelling van deze parameter is bijgewerkt en de distributieplanning wordt gestart om de wijziging te synchroniseren met het kanaal, tot 24 uur duren voordat de wijziging van kracht wordt. Als u de wijziging onmiddellijk wilt doorvoeren, moet u IIS opnieuw instellen.
 

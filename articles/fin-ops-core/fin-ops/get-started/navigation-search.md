@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2fc57579f817d2735aaa94a5f6834185961dab39
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bd9b6239a8f5db51ab3f238593197408e641b782
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750223"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349103"
 ---
 # <a name="navigation-search"></a>Navigatiezoekfunctie
 
@@ -34,7 +34,7 @@ Als u deze functie wilt gebruiken, klikt op het pictogram **Zoeken** om het vak 
 > [!NOTE]
 > Het vak **Zoeken** help u te zoeken naar pagina's en deze te openen. De functie helpt u niet om bepaalde gegevens of acties te vinden.
 
-[![zoekvak](media/navigation-search.png "Zoekvak")
+[![zoekvak.](media/navigation-search.png "Zoekvak")
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>Snel naar een bepaalde pagina navigeren
 

@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: 12de6d70243bdcda5fc7887f24eecb462de23683
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937325"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351014"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Overzicht van Gegevensimport- en exporttaken
 
@@ -106,7 +107,7 @@ Er zijn twee toewijzingsweergaven: **Visualisering van toewijzing**, de standaar
 
 U kunt een toewijzing op de pagina genereren door **Brontoewijzing maken** te selecteren. Een gegenereerde toewijzing gedraagt zich als een automatische toewijzing. Daarom moet u niet-toegewezen velden handmatig toewijzen.
 
-![Toewijzing van gegevens](./media/dixf-map.png)
+![Toewijzing van gegevens.](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>De beveiliging voor uw import- of exporttaak controleren
 De toegang tot het werkgebied **Gegevensbeheer** kan worden beperkt zodat niet-beheerders alleen toegang tot bepaalde gegevenstaken krijgen. Toegang tot een gegevenstaak houdt volledige toegang tot de uitvoeringshistorie van die taak en de faseringstabellen in. Daarom moet u ervoor zorgen dat passende toegangsbeperkingen zijn ingesteld wanneer u een gegevenstaak maakt.
@@ -132,7 +133,7 @@ U kunt één taak tegelijk uitvoeren door de knop **Importeren** of **Exporteren
 ## <a name="validate-that-the-job-ran-as-expected"></a>Controleren of de taak naar verwachting is uitgevoerd
 De taakhistorie is beschikbaar voor het oplossen van problemen bij import- en exporttaken. Historische taakuitvoeringen worden ingedeeld op tijd.
 
-![Taakhistoriebereiken](./media/dixf-job-history.md.png)
+![Taakhistoriebereiken.](./media/dixf-job-history.md.png)
 
 Voor elke taakuitvoering worden de volgende gegevens weergegeven:
 

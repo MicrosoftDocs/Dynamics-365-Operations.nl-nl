@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143aa5c3ba4d6064cde63f8e7ebeac0977b1325c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 97fc3c6bd096854b5aa72980dd2bd6f3a8a1ef9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908701"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353415"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Een gantt-diagram voor het plannen van taken
 
@@ -45,10 +45,10 @@ Het Gantt-diagram kan worden geopend in twee verschillende weergaven: **Orderwee
 
 ## <a name="order-view"></a>Orderweergave
 
-[![Orderweergave](./media/orderview.png)](./media/orderview.png)
+[![Orderweergave.](./media/orderview.png)](./media/orderview.png)
 
 ## <a name="resource-view"></a>Bronweergave
-[![Bronweergave](./media/resview.png)](./media/resview.png)
+[![Bronweergave.](./media/resview.png)](./media/resview.png)
 
 ## <a name="activities"></a>Activiteiten
 De activiteiten worden weergegeven als balken en worden ingedeeld in een tijdschaalraster met een geplande begin- en eindtijd, waardoor de lengte van de balken evenredig is aan de tijd die nodig is om de activiteit te voltooien. De activiteiten worden weergegeven op basis van een tijdschaal. U kunt de tijdschaal aanpassen in het menu, waar u een begindatum, einddatum en tijdseenheid selecteert, bijvoorbeeld uren of dagen. U kunt door het aanpassen van de tijdschaal de focus stellen op een tijdsinterval waarin u activiteiten wilt beheren. 
@@ -102,25 +102,25 @@ Het is niet mogelijk om een taak te plannen buiten het gedefinieerde tijdsinterv
 
 In een netwerk van activiteiten, zoals taken die deel uitmaken van dezelfde productieorder, kunt u met de functie **Eerdere taken plannen** de taken plannen die worden uitgevoerd vóór een geselecteerde taak in het netwerk. In het volgende voorbeeld is de gemarkeerde activiteit de geselecteerde taak. Het diagram wordt weergegeven voordat een vorige taak is gepland en nadat de vorige taak is gepland. 
 
-[![Vorige taak plannen](./media/schprevjob3.png)](./media/schprevjob3.png)
+[![Vorige taak plannen.](./media/schprevjob3.png)](./media/schprevjob3.png)
 
 ### <a name="schedule-next-jobs"></a>Volgende taken plannen
 
 U kunt met de functie **Volgende taken plannen** taken plannen die worden uitgevoerd na een geselecteerde taak in een netwerk van activiteiten. In het volgende voorbeeld is de gemarkeerde activiteit de geselecteerde taak. Het diagram wordt weergegeven voordat de volgende taak is gepland en nadat de volgende taak is gepland. 
 
-[![Volgende taak plannen](./media/schnxtjob.png)](./media/schnxtjob.png)
+[![Volgende taak plannen.](./media/schnxtjob.png)](./media/schnxtjob.png)
 
 ### <a name="schedule-around-job"></a>Plannen rond taak
 
 U kunt met de functie **Plannen rond taak** een taak vóór en een taak na de geselecteerde taak plannen in een netwerk van activiteiten. In het volgende voorbeeld is de gemarkeerde activiteit de geselecteerde taak. Het diagram wordt weergegeven voordat een taak is gepland en nadat de taak is gepland. 
 
-[![Plannen rond taak](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![Plannen rond taak.](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>Taken rangschikken
 
 Met de functie **Schikken** kunt u geselecteerde activiteiten schikken voor dezelfde resource. Deze activiteiten kunnen zich in hetzelfde netwerk van activiteiten bevinden, maar kunnen ook deel uitmaken van verschillende netwerken. Als u de functie Schikken gebruikt, wordt tijd tussen de geselecteerde activiteiten geschrapt. Met deze functie kunt u het gebruik van de capaciteit van de resources optimaliseren. Het diagram wordt weergegeven voordat een taak is gepland en nadat de taak is gepland. 
 
-[![Taak rangschikken](./media/arrangejobs1.png)](./media/arrangejobs1.png)
+[![Taak rangschikken.](./media/arrangejobs1.png)](./media/arrangejobs1.png)
 
 ### <a name="reassign-activities-from-one-resource-to-another"></a>Activiteiten opnieuw toewijzen aan een andere resource
 

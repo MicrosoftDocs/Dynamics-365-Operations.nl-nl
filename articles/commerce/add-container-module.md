@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8e1d2d600a00ab71348fbef2bc2f30cc53bc5314
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 59887b058346d55341e68d553ec5dfbc6eb365d6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797786"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347561"
 ---
 # <a name="container-module"></a>Containermodule
 
@@ -42,11 +42,11 @@ Drie containermodules worden ondersteund: container, container met 2 vakken en c
 
 De volgende afbeelding toont een voorbeeld van een containermodule die een carrouselmodule bevat in Commerce Site Builder. In dit voor beeld wordt de eigenschap **Breedte** van de containermodule ingesteld op **Scherm vullen**.
 
-![Voorbeeld van een containermodule](./media/ecommerce-container.PNG)
+![Voorbeeld van een containermodule.](./media/ecommerce-container.PNG)
 
 ## <a name="container-module-properties"></a>Eigenschappen van containermodule
 
-| Naam van eigenschap.     | Waarden | Omschrijving |
+| Naam van eigenschap.     | Waarden | Beschrijving |
 |-------------------|--------|-------------|
 | Koptekst           | Koptekst en tag voor koptekst (**H1**, **H2**, **H3**, **H4**, **H5** of **H6**) | Er kan een optionele koptekst voor de container worden opgegeven. Standaard wordt de kopteksttag **H2** gebruikt voor de koptekst. De tag kan echter worden gewijzigd om aan de toegankelijkheidsvereisten te voldoen. |
 | Breedte             | **Passen in container** of **Scherm vullen** | Als de waarde wordt ingesteld op **Passen in container** (de standaardwaarde), zijn de modules in de container beperkt tot de breedte van de container. Als de waarde is ingesteld op **Scherm vullen**, zijn de modules niet beperkt tot de breedte van de container maar kunnen ze het scherm vullen. |

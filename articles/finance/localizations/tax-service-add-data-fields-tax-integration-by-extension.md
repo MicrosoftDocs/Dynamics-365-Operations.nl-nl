@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a3da8e1b8176eb25fe4e0a320aa3e907c06e09c5
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: cdac52ed7f11f796b9559e5454456fb139c6ba00
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021387"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346393"
 ---
 # <a name="add-data-fields-in-the-tax-integration-by-using-extension"></a>Gegevensvelden in de belastingintegratie toevoegen met extensies
 
@@ -41,7 +41,7 @@ Hieronder volgt een overzicht van de belangrijke objecten:
 
 In de volgende afbeelding ziet u de relaties tussen deze objecten.
 
-[![Relatie van gegevensobjectmodel](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)
+[![Relatie van gegevensobjectmodel.](./media/tax-service-customize-image1.png)](./media/tax-service-customize-image1.png)
 
 Een object **Document** kan veel objecten van het type **Line** bevatten. Elk object bevat metagegevens voor de belastingservice.
 

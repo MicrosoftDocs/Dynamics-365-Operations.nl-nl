@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6f74602cafe3f0848a9e03f17300ca6242fe1545
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 53d01756d803a0ebc9eb366deded4bf3bef3b1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893975"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351741"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>ER-configuraties downloaden uit de algemene opslagplaats van de configuratieservice
 
@@ -40,7 +40,7 @@ In dit onderwerp wordt uitgelegd hoe u [ER-configuraties](general-electronic-rep
 3. Selecteer in de sectie **Configuratieproviders** de tegel **Microsoft**.
 3. Klik op de tegel **Microsoft** op **Opslagplaatsen**.
 
-    ![Werkgebied voor elektronische rapportage](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Werkgebied voor elektronische rapportage.](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. Selecteer in het raster op de pagina **Opslagplaatsen van configuraties** pagina de bestaande opslagplaats van het type **Algemeen**. Als deze opslagplaats niet wordt weergegeven in het raster, volgt u deze stappen:
 
@@ -52,7 +52,7 @@ In dit onderwerp wordt uitgelegd hoe u [ER-configuraties](general-electronic-rep
 
 5. Selecteer **Openen** om de lijst met ER-configuraties voor de geselecteerde opslagplaats weer te geven.
 
-    ![De pagina Opslagplaatsen van configuraties](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![De pagina Opslagplaatsen van configuraties.](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Eén configuratie importeren
 
@@ -63,7 +63,7 @@ In dit onderwerp wordt uitgelegd hoe u [ER-configuraties](general-electronic-rep
     > [!NOTE]
     > De knop **Importeren** is niet beschikbaar voor ER-configuratieversies die al aanwezig zijn in het huidige Finance-exemplaar.
 
-    ![Configuratie archiefpagina](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Configuratie archiefpagina.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Gefilterde configuraties importeren
 
@@ -77,7 +77,7 @@ In dit onderwerp wordt uitgelegd hoe u [ER-configuraties](general-electronic-rep
 4. Selecteer op het sneltabblad **Configuraties** de optie **Importeren** om de gefilterde configuraties uit de algemene opslagplaats naar het huidige exemplaar te downloaden.
 5. Selecteer op het sneltabblad **Configuraties** de optie **Filter opnieuw instellen** om de opgegeven selectievoorwaarden op te schonen.
 
-    ![Configuratie archiefpagina](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Configuratie archiefpagina.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Afhankelijk van de ER-instellingen worden configuraties gevalideerd nadat ze zijn geïmporteerd. U krijgt mogelijk meldingen over inconsistentieproblemen die worden vastgesteld. U moet de problemen oplossen voordat u de geïmporteerde configuratieversie kunt gebruiken. Zie voor meer informatie de lijst met gerelateerde bronnen voor dit onderwerp.

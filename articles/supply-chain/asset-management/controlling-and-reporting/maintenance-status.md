@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3d6f86c5052c845c9c8aad1e4437f4196f78b50
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b0c8b6a81fd863d66ca01689262f0ec08a94d76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808611"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354971"
 ---
 # <a name="maintenance-status"></a>Onderhoudsstatus
 
@@ -57,13 +57,13 @@ In Activabeheer kunt u een berekening uitvoeren om een overzicht weer te geven v
 
 In de volgende afbeelding zijn de knoppen **Jaar** en **Maand** geactiveerd. Als deze opties voor **Groeperen op** zijn geselecteerd, krijgt u een algemeen overzicht op maandelijkse basis van de werkbelasting en doorvoer met betrekking tot onderhoudsverzoeken en werkorders. 
 
-![Voorbeeld van maandelijkse werkbelasting](media/13-controlling-and-reporting.png)
+![Voorbeeld van maandelijkse werkbelasting.](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>Voorbeeld 2
 
 In de volgende afbeelding is informatie over functionele locaties toegevoegd. Nu is het mogelijk om de werkbelasting en doorvoer te vergelijken tussen verschillende functionele locaties, die geografische locaties, fabrieken of werkgebieden kunnen voorstellen. 
 
-![Voorbeeld van maandelijkse werkbelasting met functionele locaties](media/14-controlling-and-reporting.png)
+![Voorbeeld van maandelijkse werkbelasting met functionele locaties.](media/14-controlling-and-reporting.png)
 
 
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de378edbd7d13626302c7129c605b1837ffb579e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799174"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349597"
 ---
 # <a name="create-a-default-customer"></a>Een standaardklant maken
 
@@ -47,7 +47,7 @@ Volg deze stappen om een klantgroep te maken.
 
 De volgende afbeelding geeft een aantal geconfigureerde klantgroepen weer.
 
-![Klantengroepen](media/customer-groups.png)
+![Klantengroepen.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Een nieuw adresboek voor een klant maken
 
@@ -63,7 +63,7 @@ Volg deze stappen om een nieuw klantadresboek te maken.
 
 In de volgende afbeelding ziet u een voorbeeld van een adresboek.
 
-![Adresboek](media/address-book.png)
+![Adresboek.](media/address-book.png)
 
 ## <a name="create-a-default-customer"></a>Een standaardklant maken
 
@@ -86,11 +86,11 @@ Volg deze stappen om een standaardklant te maken.
 
 In de volgende afbeelding ziet u hoe een klant wordt gemaakt.
 
-![Een standaardklant maken](media/default-customer-creation.png)
+![Een standaardklant maken.](media/default-customer-creation.png)
 
 In de volgende afbeelding wordt de configuratie van een standaardklant weergegeven.
 
-![Voorbeeld van klantconfiguratie](media/default-customer-configuration1.png)
+![Voorbeeld van klantconfiguratie.](media/default-customer-configuration1.png)
 
 De meeste standaardwaarden in het detailscherm van de klant kunnen blijven staan, maar twee waarden moeten worden gewijzigd.
 
@@ -100,9 +100,9 @@ De meeste standaardwaarden in het detailscherm van de klant kunnen blijven staan
 
 In de volgende afbeelding ziet u hoe een klant wordt geconfigureerd.
 
-![Voorbeeld van klantconfiguratie](media/default-customer-configuration2.png)
+![Voorbeeld van klantconfiguratie.](media/default-customer-configuration2.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van kanalen](channels-overview.md)
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e18439fc0e91619cade33b83b87be0d5c4d1040
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d9470e4d517c5fb0b49ae2e26eb14220ea17aa3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799006"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349395"
 ---
 # <a name="enrich-a-category-landing-page"></a>Een landingspagina voor een categorie verrijken
 
@@ -31,7 +31,7 @@ Commerce biedt een standaard landingspagina voor categorieën die wordt gebruikt
 
 In plaats van de standaardcategoriepagina te gebruiken kunt u echter een "verrijkte" categorielandingspagina gebruiken die meer inhoud en meer specifieke elementen bevat. Bij een speciale verrijking moet u bijvoorbeeld categoriespecifieke marketinginhoud toevoegen aan de categoriepagina. Deze inhoud kan betrekking hebben op plaatsing van producten in meerdere categorieën voor cross-sell doeleinden, redactionele lijsten, afbeeldingen, video's en andere tekst. U kunt de standaardcategoriepagina wijzigen of een andere categoriepagina definiëren voor een specifieke categorie.
 
-![Verrijkte landingspagina voor categorie](./media/CategoryLandingPages.png)
+![Verrijkte landingspagina voor categorie.](./media/CategoryLandingPages.png)
 
 In Commerce Site Builder bevat de pagina **Producten** een lijst met categorieën uit het afzetkanaal die aan de site zijn toegewezen. Als de **verrijkte** status voor een categoriepagina is geselecteerd, is deze categoriepagina verrijkt. Anders worden de standaard categoriepagina en de inhoud van de categorie gebruikt. U kunt zowel verrijkte als niet-verrijkte categoriepagina's voor een categorie voorvertonen door een categorienaam te selecteren.
 

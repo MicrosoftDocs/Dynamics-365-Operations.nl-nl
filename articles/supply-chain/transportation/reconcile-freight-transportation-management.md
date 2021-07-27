@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d523af235d645bd282af07d6a1f617bca5fba2dc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1794c297bef86a62ff5dc24524332df07ea26f39
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809081"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345277"
 ---
 # <a name="reconcile-freight-in-transportation-management"></a>Vracht afstemmen in transportbeheer
 
@@ -35,13 +35,13 @@ Vrachtafstemming kan handmatig plaatsvinden of kan automatisch worden uitgevoerd
 
 Vrachttarieven worden berekend door de tarief-engine die is gekoppeld aan de desbetreffende vervoerder. Wanneer een lading wordt bevestigd, wordt een vrachtfactuur gegenereerd en worden de vrachttarieven hier naartoe overgebracht. De vrachttarieven worden toegewezen als diverse toeslagen aan het desbetreffende brondocument (inkooporder, verkooporder en/of overboekingsorder), afhankelijk van de instelling die wordt gebruikt voor het normale factureringsproces. Het vrachtafstemmingsproces (ook wel vereffeningsproces genoemd) kan starten zodra de vrachtfactuur van de vervoerder binnenkomt. De factuur kan elektronisch of op papier worden ontvangen. Als de factuur wordt ontvangen op papier, kunt u een elektronische factuur genereren door de vrachtfactuur als sjabloon te gebruiken.
 
-[![Vrachtafstemmingsproces](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
+[![Vrachtafstemmingsproces.](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>Handmatige afstemming
 
 Als u vracht handmatig afstemt, moet u elke factuurregel vereffenen met de regel of regels van de vrachtfactuur voor de lading die wordt gefactureerd. U doet dit vereffenen op de pagina **Vrachtfactuur en factuurvereffening**. Als het bedrag op de factuur niet overeenkomt met het bedrag op de vrachtfactuur, moet u een reden voor afstemming selecteren voor het verschil. Als er meerdere redenen voor afstemming zijn, kunt u het niet-afgestemde bedrag hierover verdelen. De reden voor afstemming bepaalt hoe de verschilbedragen in het grootboek worden geboekt. Als de afstemming van het volledige factuurbedrag administratief wordt verwerkt, wordt het ingediend voor goedkeuring, waarna het dagboek wordt geboekt. De volgende afbeelding toont hoe u een vrachtfactuur genereert en vrachtafstemming uitvoert.
 
-[![Vrachtafstemmingstaken](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
+[![Vrachtafstemmingstaken.](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 
 ## <a name="automatic-reconciliation"></a>Automatische afstemming
 

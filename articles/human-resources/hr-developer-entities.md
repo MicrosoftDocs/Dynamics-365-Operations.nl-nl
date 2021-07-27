@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 325bd8a9de07e3978ff6c513975a0e8db22854e0
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c405d933adff08e2a4ce12dc53329f10a9ae89b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054351"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346293"
 ---
 # <a name="dataverse-tables"></a>Dataverse-tabellen
 
@@ -152,27 +152,27 @@ De volgende Dataverse-entiteiten zijn beschikbaar op basis van Human Resource-en
 
 ### <a name="worker"></a>Werknemer
 
-![Werknemer](./media/HCMCommon-worker-entity-diagram.png)
+![Medewerker.](./media/HCMCommon-worker-entity-diagram.png)
 
 ### <a name="job-and-job-position"></a>Functie en functiepositie
 
-![Functie en functiepositie](./media/HCMCommon-job-and-job-position-entity-diagram.png)
+![Functie en functiepositie.](./media/HCMCommon-job-and-job-position-entity-diagram.png)
 
-### <a name="benefits"></a>Vergoedingen
+### <a name="benefits"></a>Voordelen
 
-![Vergoedingen](./media/HCMCommon-benefits-entity-diagram.png)
+![Voordelen.](./media/HCMCommon-benefits-entity-diagram.png)
 
 ### <a name="compensation"></a>Compensatie
 
-![Compensatie](./media/HCMCommon-compensation-entity-diagram.png)
+![Compensatie.](./media/HCMCommon-compensation-entity-diagram.png)
 
-### <a name="leave"></a>Verlaten
+### <a name="leave"></a>Verlof
 
-![Verlaten](./media/HCMCommon-leave-entity-diagram.png)
+![Verlof.](./media/HCMCommon-leave-entity-diagram.png)
 
 ### <a name="work-calendar"></a>Werkkalender
 
-![Werkkalender](./media/HCMCommon-work-calendar-entity-diagram.png)
+![Werkkalender.](./media/HCMCommon-work-calendar-entity-diagram.png)
 
 ## <a name="see-also"></a>Zie ook
 

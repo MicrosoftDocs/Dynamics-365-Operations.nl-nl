@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 453c6f18c689bb8bf2f6208d9181b23a2792f41a
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 0c08cee1fc772dbd06aeca3a96fdc40c1ca62413
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907760"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353885"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Gebruikers van klantportal maken en beheren
 
@@ -38,7 +38,7 @@ De video [Klanten uitnodigen om uw klantenportal te registreren en te gebruiken]
 
 Contactpersonen in Power Apps-portals worden als records opgeslagen in de tabel **Contactpersonen** in Microsoft Dataverse. Met twee wegschrijven worden deze records vervolgens gesynchroniseerd in Microsoft Dynamics 365 Supply Chain Management, als dat nodig is.
 
-![Systeemdiagram voor contactpersonen van klantportal](media/customer-portal-contacts.png "Systeemdiagram voor contactpersonen van klantportal")
+![Systeemdiagram voor contactpersonen van klantportal.](media/customer-portal-contacts.png "Systeemdiagram voor contactpersonen van klantportal")
 
 Voordat u nieuwe klanten gaat uitnodigen, moet u controleren of u de tabeltoewijzing **Contactpersoon** hebt ingeschakeld bij Twee keer wegschrijven.
 

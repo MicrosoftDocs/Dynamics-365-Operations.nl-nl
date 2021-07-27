@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9e3f2a17e182c0e3efc8b90380eff74f350c3278
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: cce8cb6ef9e0cc74abf90f16ed0ee481b8274a03
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804644"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352983"
 ---
 # <a name="opt-in-to-use-ratings-and-reviews"></a>Aanmelden om beoordelingen en recensies te gebruiken
 
@@ -43,7 +43,7 @@ Voer de volgende stappen uit om u aan te melden voor beoordelingen en recensies 
 1. Stel de optie **Service voor beoordelingen en recensies inschakelen** in op **Ja**.
 1. Voer in het veld **AAD-beveiligingsgroep voor moderator van beoordelingen en recensies (beveiligingsgroepsobject-id)** de id in van de Microsoft Azure Active Directory (Azure AD)-beveiligingsgroep die de moderators voor beoordelingen en recensies bevat.
 
-    ![Aanmelden om beoordelingen en recensies te gebruiken](media/LCS_RnR_Preference.png)
+    ![Aanmelden om beoordelingen en recensies te gebruiken.](media/LCS_RnR_Preference.png)
 
 1. Voltooi het initialisatieproces voor e-commerce.
 

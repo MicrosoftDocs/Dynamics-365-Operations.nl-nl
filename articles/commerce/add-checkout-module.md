@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b1e86cbe1c2b9247f902a8f5777e73f7a9b37929
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bda264a255a688d64e314d994dc281602c9324cc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797810"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347585"
 ---
 # <a name="checkout-module"></a>Betalingsmodule
 
@@ -33,7 +33,7 @@ Een betalingsmodule geeft gegevens weer op basis van de winkelwagen-id. Deze win
 
 De volgende afbeelding toont een voorbeeld van een Fabrikam-betalingsmodule op een kassapagina.
 
-![Voorbeeld van een betalingsmodule](./media/Checkout.PNG)
+![Voorbeeld van een betalingsmodule.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Eigenschappen van betalingsmodule
 
@@ -52,13 +52,13 @@ Een betalingsmodule toont een orderoverzicht en biedt de functionaliteit voor he
 
     De volgende afbeelding toont een voorbeeld van een verzendadresmodule op een betalingspagina.
 
-    ![Voorbeeld van een verzendadresmodule](./media/ecommerce-shippingaddress.PNG)
+    ![Voorbeeld van een verzendadresmodule.](./media/ecommerce-shippingaddress.PNG)
 
 - **Leveringsopties**: met deze module kan een klant een aflevermethode voor een order selecteren. Zie [Module voor leveringsopties](delivery-options-module.md) voor meer informatie over deze module.
 
     De volgende afbeelding toont een voorbeeld van een leveringsoptiemodule op een betalingspagina.
  
-    ![Voorbeeld van een leveringsoptiemodule](./media/ecommerce-deliveryoptions.PNG)
+    ![Voorbeeld van een leveringsoptiemodule.](./media/ecommerce-deliveryoptions.PNG)
 
 - **Container van uitchecksectie**: deze module is een container waarin u meerdere modules kunt plaatsen om een sectie binnen de uitcheckstroom te maken. U kunt bijvoorbeeld alle betalingsmodules in deze container plaatsen, zodat deze als één sectie worden weergegeven. Deze module is alleen van invloed op de indeling van de stroom.
 
@@ -70,7 +70,7 @@ Een betalingsmodule toont een orderoverzicht en biedt de functionaliteit voor he
 
     De volgende afbeelding toont een voorbeeld van de modules voor geschenkbon, loyaliteitspunten en betaling op een betalingspagina.
 
-    ![Voorbeeld van modules voor geschenkbonnen, loyaliteitspunten en betalingen op een uitcheckpagina](./media/ecommerce-payments.PNG)
+    ![Voorbeeld van modules voor geschenkbonnen, loyaliteitspunten en betalingen op een uitcheckpagina.](./media/ecommerce-payments.PNG)
 
 - **Contactgegevens**: met deze module kan een klant de contactinformatie (e-mailadres) voor een order toevoegen of wijzigen.
 
@@ -80,7 +80,7 @@ Een betalingsmodule toont een orderoverzicht en biedt de functionaliteit voor he
 
     De volgende afbeelding toont een voorbeeld van voorwaarden op een betalingspagina.
 
-    ![Voorbeeld van voorwaarden op een betalingspagina](./media/ecommerce-checkout-terms.PNG)
+    ![Voorbeeld van voorwaarden op een betalingspagina.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interactie met Commerce Scale Unit
 

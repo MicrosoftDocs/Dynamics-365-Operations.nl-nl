@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ba4b9ef43e27f689e1f10d2ee8f10f6ea4bf43ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ab8af010b07704a5b4994bbe356cd710ab249291
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821724"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351628"
 ---
 # <a name="calculate-capacity-load"></a>Capaciteitsbelasting berekenen
 
@@ -53,7 +53,7 @@ Dit is handig als u een overzicht wilt weergeven van de verwachte capaciteitsbel
 
 7. Klik in de groepen **Groeperen op...** op de relevante knoppen om het vereiste detailniveau van de kostenberekening weer te geven. In de onderstaande schermopname worden de geselecteerde knoppen **Groeperen op** in blauwe kleur gemarkeerd. U kunt knoppen activeren of deactiveren door erop te klikken.
 
-    ![Figuur 1](media/01-capacity-planning.png)
+    ![Figuur 1.](media/01-capacity-planning.png)
 
 >[!NOTE]
 >Zie [Capaciteitsbelasting voor geplande werkorders berekenen](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md) als u zich alleen wilt richten op capaciteitsplanning voor geplande werkorders.

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: cca35be696c8dd9956176e54e77a60f0252e0760
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018601"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352175"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Toeslagen voor koptekst naar rato verdelen voor overeenkomende verkoopregels
 
@@ -56,9 +56,9 @@ In dit scenario wordt uitgelegd wat er gebeurt als de optie **Naar rato verdelen
 
 In dit scenario heeft de organisatie de toeslagen op koptekstniveau voor relatie voor leveringsmethode **99** en relatie voor leveringsmethode **11** gedefinieerd. Er worden geen automatische toeslagen geconfigureerd voor leveringsmethode **21**.
 
-![Automatische toeslagen voor leveringsmethode 99 wanneer verdeling naar rato voor overeenkomende regels is uitgeschakeld](media/99_disabled.png)
+![Automatische toeslagen voor leveringsmethode 99 wanneer verdeling naar rato voor overeenkomende regels is uitgeschakeld.](media/99_disabled.png)
 
-![Automatische toeslagen voor leveringsmethode 11 wanneer verdeling naar rato voor overeenkomende regels is uitgeschakeld](media/11_disabled.png)
+![Automatische toeslagen voor leveringsmethode 11 wanneer verdeling naar rato voor overeenkomende regels is uitgeschakeld.](media/11_disabled.png)
 
 Een verkooporder wordt gemaakt in het callcenter en de leveringsmethode wordt ingesteld op **99**. Deze order bevat vijf artikelen. Twee orderregels zijn geconfigureerd voor het gebruik van leveringsmethode **99**, twee regels zijn geconfigureerd voor het gebruik van leveringsmethode **11**, en één regel is geconfigureerd voor het gebruik van leveringsmethode **21**, zoals weergegeven in de volgende tabel.
 
@@ -78,9 +78,9 @@ In dit scenario wordt als een klant enkele artikelen op de order retourneert en 
 
 In dit scenario zijn toeslagen op koptekstniveau gedefinieerd voor relatie voor leveringsmethode **99** en relatie voor leveringsmethode **11**. De optie **Naar rato verdelen voor overeenkomende verkoopregels** is echter ingesteld op **Ja** voor deze tabellen met automatische toeslagen.
 
-![Automatische toeslagen voor leveringsmethode 99 wanneer verdeling naar rato voor overeenkomende regels is ingeschakeld](media/99_enabled.png)
+![Automatische toeslagen voor leveringsmethode 99 wanneer verdeling naar rato voor overeenkomende regels is ingeschakeld.](media/99_enabled.png)
 
-![Automatische toeslagen voor leveringsmethode 11 wanneer verdeling naar rato voor overeenkomende regels is ingeschakeld](media/11_enabled.png)
+![Automatische toeslagen voor leveringsmethode 11 wanneer verdeling naar rato voor overeenkomende regels is ingeschakeld.](media/11_enabled.png)
 
 In dit scenario wordt dezelfde verkooporder gebruikt die vijf regels bevat. De leveringsmethode op de orderkoptekst is ingesteld op **99**, maar de leveringsmethode voor elk artikel op de verkooporder is geconfigureerd, zoals in de volgende tabel wordt weergegeven.
 
@@ -130,9 +130,9 @@ Omdat de configuratie voor automatische toeslagen is ingesteld op verdeling naar
     - Totale productwaarde = € 15
     - **Toeslagwaarde = € 0** (er zijn geen automatische toeslagen geconfigureerd voor deze combinatie van klant en leveringsmethode.)
 
-    ![Toeslagen van leveringsmethode 11 vallen in de gemarkeerde laag](media/step2mode11.png)
+    ![Toeslagen van leveringsmethode 11 vallen in de gemarkeerde laag.](media/step2mode11.png)
 
-    ![Toeslagen van leveringsmethode 99 vallen in de gemarkeerde laag](media/step2mode99.png)
+    ![Toeslagen van leveringsmethode 99 vallen in de gemarkeerde laag.](media/step2mode99.png)
 
 3. De toeslagwaarde die moet worden toegepast op elke regel, wordt berekend op basis van de logica van verdeling naar rato waarin de proportionele waarde van de regel in verhouding tot de totale productwaarde van de groep wordt meegenomen.
 
@@ -163,7 +163,7 @@ Omdat de configuratie voor automatische toeslagen is ingesteld op verdeling naar
 
 Daarom wordt in dit voorbeeld aan artikel 81334 vrachtkosten van € 5,62 toegewezen. U kunt deze toeslagen bekijken op de pagina **Toeslagen onderhouden** voor de verkoopregel. In de volgende afbeelding ziet u hoe de pagina er voor artikel 81334 uitziet.
 
-![Naar rato verdeelde toeslagen op verkoopregel voor artikel 81334](media/proratedlinecharge.png)
+![Naar rato verdeelde toeslagen op verkoopregel voor artikel 81334.](media/proratedlinecharge.png)
 
 Wanneer deze berekeningsmethode wordt gebruikt in een scenario van een gedeeltelijke retourzending en als de toeslagcode restitueerbaar is, wordt alleen het deel van de toeslag dat is toegewezen aan die regel, gerestitueerd wanneer het artikel wordt geretourneerd.
 

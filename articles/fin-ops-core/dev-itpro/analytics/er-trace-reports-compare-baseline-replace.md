@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 49ca9a878b9289b02f9bb9346190425197e0ceea
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: f6eaf5f9cbc6eed09f6a3067826f7fa15fb94b2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117030"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345859"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Tracering verbeteren van de resultaten van gegenereerde ER-rapporten om deze te vergelijken met basislijnwaarden
 
@@ -57,7 +57,7 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst de stappen in het
 
 De basislijn is toegevoegd voor de geselecteerde indeling **Indeling voor leren van ER-basislijnen**, maar de basislijnregels zijn nog niet toegevoegd voor deze basislijn.
 
-![De pagina Basislijnen voor ER-indeling, nog geen regels](media/GER-BaselineSample-AddBaseline2.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
+![De pagina Basislijnen voor ER-indeling, nog geen regels.](media/GER-BaselineSample-AddBaseline2.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
 
 ### <a name="make-a-new-baseline-rule"></a>Een nieuwe basislijnregel maken
 
@@ -70,7 +70,7 @@ De basislijn is toegevoegd voor de geselecteerde indeling **Indeling voor leren 
 7. Selecteer **OK**.
 8. Selecteer **Basislijnen**.
 
-    ![Pagina Basislijnen voor ER-indeling, basislijnen geselecteerd](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
+    ![Pagina Basislijnen voor ER-indeling, basislijnen geselecteerd.](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
 
     Het gegenereerde uitgaande bestand wordt automatisch gekoppeld aan de basislijn van de uitgevoerde ER-indeling. De basislijnregel is automatisch toegevoegd aan deze basislijn en bevat ook de verwijzing naar het bijgevoegde bestand.
 
@@ -110,14 +110,14 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst de stappen in het
 13. Selecteer **Opslaan** en vervolgens **Testen**.
 14. Selecteer opnieuw **Testen** om de geconfigureerde expressie opnieuw te testen.
 
-    ![De pagina Formuleontwerper](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Schermafbeelding van de pagina Formuleontwerper")
+    ![De pagina Formuleontwerper.](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Schermafbeelding van de pagina Formuleontwerper")
 
     > [!NOTE]
     > Op het tabblad **Testresultaten** ziet u dat de geconfigureerde expressie telkens een andere datum- en tijdwaarde oplevert wanneer deze wordt aangeroepen.
 
 15. Sluit de pagina **Formuleontwerper** en selecteer **Opslaan**.
 
-    ![Pagina Indelingsontwerper](media/GER-BaselineSample-FormatMappingDesign2.PNG "Schermafbeelding van de pagina Indelingsontwerper")
+    ![Pagina Indelingsontwerper.](media/GER-BaselineSample-FormatMappingDesign2.PNG "Schermafbeelding van de pagina Indelingsontwerper")
 
 16. Sluit de pagina **Indelingsontwerper**.
 
@@ -128,7 +128,7 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst de stappen in het
 3. Selecteer in de lijst met basislijnen de basislijn die is geconfigureerd voor de indeling **Indeling voor leren van ER-basislijnen**.
 4. Selecteer op het sneltabblad **Basislijnen** de optie **Verwijderen** om de basislijnregel te verwijderen die u eerder hebt geconfigureerd.
 
-![De pagina Basislijnen voor ER-indeling, verwijderd](media/GER-BaselineSample-AddBaseline3.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
+![De pagina Basislijnen voor ER-indeling, verwijderd.](media/GER-BaselineSample-AddBaseline3.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Vervangingen definiëren voor de bindingen van ontworpen ER-indeling
 
@@ -136,7 +136,7 @@ Als u de stappen in dit voorbeeld wilt uitvoeren, moet u eerst de stappen in het
 2. Vouw in de structuur met indelingsonderdelen **Uitvoer** uit, vervolgens **Uitvoer\\Document** en schakel het selectievakje voor **Uitvoer\\Document\\ProcessingDateTime** in.
 3. Selecteer **OK**.
 
-![De pagina Basislijnen voor ER-indeling, componenten](media/GER-BaselineSample-AddBaseline4.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
+![De pagina Basislijnen voor ER-indeling, componenten.](media/GER-BaselineSample-AddBaseline4.PNG "Schermafbeelding van de pagina Basislijnen voor ER-indeling")
 
 Het geselecteerde ER-indelingsonderdeel is toegevoegd aan de lijst met onderdelen op het sneltabblad **Vervangingen**. Wanneer de basis-ER-indeling wordt uitgevoerd in de foutoplossingsmodus, wordt de indelingsbinding voor elk onderdeel vervangen door de binding die wordt weergegeven in de kolom **Binding**. Selecteer **Bewerken** om de standaardbinding te wijzigen voor een onderdeel dat wordt weergegeven op het sneltabblad **Vervangingen**.
 
@@ -144,7 +144,7 @@ Het geselecteerde ER-indelingsonderdeel is toegevoegd aan de lijst met onderdele
 
 Volg de stappen in de sectie Voorbeeld: De instelling van basislijnregels automatiseren eerder in dit onderwerp. Er wordt een melding weergegeven dat het uitgaande bestand is gegenereerd met behulp van basislijninstellingen en dat er een geforceerde vervanging van de indelingsbindingen heeft plaatsgevonden.
 
-![Melding op de pagina Configuraties](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Schermafbeelding van de melding op de pagina Configuraties")
+![Melding op de pagina Configuraties.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Schermafbeelding van de melding op de pagina Configuraties")
 
 ### <a name="suppress-warnings-about-the-replacement-of-format-bindings"></a>Waarschuwingen over het vervangen van indelingsbindingen onderdrukken
 
@@ -192,11 +192,11 @@ Geëxporteerde basislijninstellingen kunnen in een andere omgeving worden geïmp
 
 Als u basislijninstellingen vanuit een lokaal opgeslagen XML-bestand wilt importeren, selecteert u op de pagina **Basislijnen voor ER-indeling** de optie **Importeren** en vervolgens selecteert u **Bladeren** om het XML-bestand te selecteren.
 
-![Het dialoogvenster Basislijninstellingen importeren](media/GER-BaselineSample-ImportBaseline1.PNG "Schermafbeelding van het dialoogvenster Basislijninstellingen importeren")
+![Het dialoogvenster Basislijninstellingen importeren.](media/GER-BaselineSample-ImportBaseline1.PNG "Schermafbeelding van het dialoogvenster Basislijninstellingen importeren")
 
 Als u basislijninstellingen wilt importeren vanuit een XML-bestand dat op de Microsoft SharePoint-server is opgeslagen, op basis van de huidige instellingen voor documentbeheer en het geselecteerde documenttype, selecteert u op de pagina **Basislijnen voor ER-indeling** de optie **Importeren uit bron**. Selecteer het documenttype en het XML-bestand. Het vereiste documenttype voor toegang tot de SharePoint-map moet vooraf worden geconfigureerd.
 
-![Het dialoogvenster Importeren uit bron](media/GER-BaselineSample-ImportBaseline2.PNG "Schermafbeelding van het dialoogvenster Importeren uit bron")
+![Het dialoogvenster Importeren uit bron.](media/GER-BaselineSample-ImportBaseline2.PNG "Schermafbeelding van het dialoogvenster Importeren uit bron")
 
 > [!NOTE]
 > U kunt Taakregistratie gebruiken om de stappen vast te leggen voor het selecteren van het vereiste documenttype en de bestandsnaam in het dialoogvenster **Importeren vanuit bron**. Op deze manier kunt u de vereiste basislijninstellingen op de SharePoint-server behouden en deze vervolgens automatisch importeren door een taakregistratie af te spelen wanneer u automatische tests uitvoert met behulp van Regression Suite Automation Tool.

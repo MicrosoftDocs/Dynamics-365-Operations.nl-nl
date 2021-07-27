@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86e8787320721a58f449abcfba21c2c4c6b4caf9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 988340d9e5fc12c9329a587c7401fe039c8e5722
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751771"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350689"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Goedkeuringsstappen configureren in een workflow
 
@@ -156,7 +156,7 @@ Voer de volgende stappen uit om op te geven aan wie de goedkeuringsstap moet wor
 
     - **Eén fiatteur**: de eerste persoon die reageert bepaalt welke actie op het document wordt toegepast. Stel dat Sam een onkostennota voor 15.000 EUR heeft ingediend. De onkostennota is op dit moment toegewezen aan Suzan, Jo en Bill. Als Suzan als eerste reageert, wordt de actie die zij uitvoert op het document toegepast. Wijst Suzan het document af, dan wordt het document afgewezen en teruggestuurd naar Sam. Als Suzan het document goedkeurt, wordt het ter goedkeuring naar Anne doorgezonden.
 
-        ![Een workflow met een goedkeuringsproces](./media/workflow_multipleusersinstep.gif)
+        ![Een werkstroom met een goedkeuringsproces.](./media/workflow_multipleusersinstep.gif)
 
     - **Meerderheid van fiatteurs**: welke actie op het document wordt toegepast wordt bepaald wanneer een meerderheid van de fiatteurs reageert. Stel dat Sam een onkostennota voor 15.000 EUR heeft ingediend. De onkostennota is op dit moment toegewezen aan Suzan, Jo en Bill. Als Suzan en Jo als eerste twee personen reageren, wordt de actie die zij uitvoeren op het document toegepast.
 

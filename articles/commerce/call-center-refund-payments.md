@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e3837ccebca0e6644ac5ded98344a5135cfb5d7a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 130f570646d73e37a790ab90ae9a1d6a48b0f8b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799584"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351364"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Methoden voor restitutiebetalingen in callcenters
 
@@ -37,7 +37,7 @@ Het callcenter gebruikt de betalingswijze van de oorspronkelijke order om de bet
 
     De volgende illustratie toont de configuratie voor een scenario waarin een klant producten retourneert van een verkooporder die is gekoppeld aan de valuta USD, en die oorspronkelijk is betaald met de normale of cheque betalingswijze. In dit scenario wordt een restitutie aan de klant gedaan via een door het systeem gegenereerde restitutiecheque. De AR-betalingsmethode **REF-CHK** is geconfigureerd als betalingstype voor de restitutiecheque.
 
-    ![Configuratie van restitutiemethoden in het callcenter voor normale betalingen en betalingen met cheques](media/callcenterrefundmethods.png)
+    ![Configuratie van restitutiemethoden in het callcenter voor normale betalingen en betalingen met cheques.](media/callcenterrefundmethods.png)
 
 - **Creditcard**: wanneer een gemaakte retourorder verwijst naar een oorspronkelijke order die met een creditcard is betaald, past de callcenter-logica voor restitutiebetalingen dezelfde oorspronkelijke creditcard toe op de retourorder.
 - **Klantenkaart**: wanneer een gemaakte retourorder verwijst naar een oorspronkelijke order die met een klantenkaart is betaald, past de callcenter-logica voor restitutiebetalingen de restitutie toe op dezelfde klantenkaart.
@@ -48,7 +48,7 @@ Als de oorspronkelijke betalingswijze van de order om welke reden dan ook onbeke
 
 In de volgende afbeelding ziet u het veld **Betalingswijze** op het tabblad **RMA/Retour** van de pagina **Callcenter-parameter**.
 
-![Het veld Betalingswijze op het tabblad RMA/Retour van de pagina Callcenter-parameter](media/callcenterrefundparameters.png)
+![Het veld Betalingswijze op het tabblad RMA/Retour van de pagina Callcenter-parameter.](media/callcenterrefundparameters.png)
 
 > [!NOTE]
 > De restitutieverwerkingsregels die eerder zijn beschreven, zijn ook van toepassing op orders of orderregels die een callcentergebruiker in Commerce Headquarters annuleert. Als door het annuleren van een order of bepaalde orderregels overbetalingen ontstaan, worden dezelfde regels gebruikt om betalingsregels voor restituties te genereren.
@@ -82,7 +82,7 @@ De instelling **Ja** voor de optie **Creditering toepassen** is alleen van toepa
 > [!NOTE]
 > Voor een retourorder die geen gekoppelde vervangingsorder heeft, heeft de instelling **Ja** voor de optie **Creditering toepassen** geen effect op de betalingslogica van de retourorder, omdat deze instelling alleen geldt voor vervangingsorders.
 
-![Het veld Betalingswijze voor creditering toepassen op het tabblad RMA/Retour van de pagina Callcenterparameter](media/callcenterrefundparameters1.png)
+![Het veld Betalingswijze voor creditering toepassen op het tabblad RMA/Retour van de pagina Callcenterparameter.](media/callcenterrefundparameters1.png)
 
 > [!IMPORTANT]
 > Als gebruikers die vervangingsorders maken van plan zijn de optie **Creditering toepassen** te gebruiken, moeten zij de functie **Voltooien** niet op de vervangingsorder uitvoeren voordat zij de optie **Creditering toepassen** op **Ja** hebben gezet. Nadat de functie **Voltooien** is uitgevoerd, wordt de restitutiebetaling berekend en toegepast op de retourverkooporder. Elke poging om de optie **Creditering toepassen** op **Ja** te zetten nadat een restitutiebetaling reeds is berekend en toegepast, leidt niet tot een herberekening van de restitutiebetaling, en de betalingswijze die is geselecteerd in het veld **Betalingswijze voor creditering toepassen**, wordt niet toegepast. Als de optie **Creditering toepassen** in deze context moet worden gebruikt, moet de gebruiker de vervangingsorder en de RMA verwijderen en een nieuwe RMA maken. Op dit moment moet de gebruiker controleren of de optie **Creditering toepassen** is ingesteld op **Ja** voordat de functie **Voltooien** wordt uitgevoerd.
@@ -91,14 +91,14 @@ De instelling **Ja** voor de optie **Creditering toepassen** is alleen van toepa
 
 Hoewel de callcenterlogica systematisch de betalingswijze voor de restitutie bepaalt op de manier die eerder in dit onderwerp is beschreven, willen gebruikers die betalingen soms overschrijven. Een gebruiker kan bijvoorbeeld bestaande betalingsregels voor restituties bewerken of verwijderen en nieuwe betalingsregels toepassen. Door het systeem berekende restitutiebetalingen kunnen alleen worden gewijzigd door gebruikers met de juiste overschrijvingsmachtigingen. Deze machtigingen kunnen worden geconfigureerd op de pagina **Overschrijvingsmachtigingen** in Retail en Commerce. Om een restitutiebetaling te overschrijven, moet de gebruiker gekoppeld zijn aan een beveiligingsrol waarbij de optie **Alternatieve betaling toestaan** op **Ja** staat op de pagina **Overschrijvingsmachtigingen**.
 
-![De optie Alternatieve betaling toestaan op de pagina Overschrijvingsmachtigingen](media/overridepermissions.png)
+![De optie Alternatieve betaling toestaan op de pagina Overschrijvingsmachtigingen.](media/overridepermissions.png)
 
 Als alternatief kan een organisatie op het tabblad **RMA/Retour** van de pagina **Callcenterparameters** de optie **Betalingsoverschrijving toestaan** op **Ja** zetten. In dat geval moet in het veld **Beveilgingsoverschrijvingscode** een overschrijvingscode worden geselecteerd. De code voor het overschrijven van beveiliging is een alfanumerieke code die extern moet worden beheerd, omdat gebruikers deze niet kunnen weergeven in Commerce Headquarters nadat deze is ingesteld. De code voor het overschrijven van de beveiliging mag slechts bij enkele belangrijke vertrouwde personen in een organisatie bekend zijn. Als de optie **Betalingsoverschrijving toestaan** is ingesteld op **Ja**, dan kunnen gebruikers die niet de juiste rolmachtigingen hebben, de betalingswijze van een retourorder wijzigen door de beveiligingsoverschrijvingscode in te voeren. Als ze deze niet weten of als een manager of leidinggevende het niet voor hen kunnen invoeren, kunnen ze de betalingswijze voor retouren niet overschrijven.
 
 > [!NOTE]
 > Als de beveiligingsoverschrijvingscode is kwijtgeraakt of vergeten, moet de organisatie deze opnieuw instellen door een nieuwe overschrijvingscode te definiëren in het veld **Beveiligingsoverschrijvingscode** op het tabblad **RMA/Retour** van de pagina **Callcenterparameters**.
 
-![Overschrijvingsparameters voor betalingen op het tabblad RMA/Retour van de pagina Callcenterparameters](media/overridepaymentparameter.png)
+![Overschrijvingsparameters voor betalingen op het tabblad RMA/Retour van de pagina Callcenterparameters.](media/overridepaymentparameter.png)
 
 > [!IMPORTANT]
 > Voordat organisaties restitutiebetalingen willen overschrijven die als betalingstype creditcards gebruiken, moeten ze controleren of hun creditcardverwerker niet-gekoppelde retouren toestaat. Veel verwerkers vereisen dat restituties worden teruggeboekt naar de oorspronkelijke kaart. Elke poging om restitutie van een creditcard te verstrekken die geen eerdere gegevens heeft, kan leiden tot boekingsfouten bij de verwerker.

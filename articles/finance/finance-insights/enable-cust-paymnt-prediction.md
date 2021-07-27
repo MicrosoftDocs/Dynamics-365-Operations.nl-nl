@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ae957f592ad9a1237817fec5d4172295f9a53020
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: a9b2e8d46debf8e065361d85f10162cda56b62e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222580"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349029"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>Voorspellingen voor klantbetalingen inschakelen (preview)
 
@@ -51,7 +51,7 @@ In dit onderwerp wordt uitgelegd hoe u de functie Voorspellingen voor klantbetal
 
     1. Ga naar **Crediteringen en aanmaningen \> Instellen \> Financiële inzichten \> Parameters voor financiële inzichten**.
 
-        [![Pagina Parameters voor financiële inzichten voordat de functie is geconfigureerd](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+        [![Pagina Parameters voor financiële inzichten voordat de functie is geconfigureerd.](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
 
     2. Selecteer op de pagina **Parameters voor financiële inzichten** op het tabblad **Inzichten in klantbetalingen** de koppeling **De gegevensvelden weergeven die worden gebruikt in het voorspellingsmodel** om de pagina **Gegevensvelden voor voorspellingsmodel** te openen. Hier kunt u de standaardlijst weergeven met velden die worden gebruikt om het AI-voorspellingsmodel te maken voor voorspellingen van klantbetalingen.
 
@@ -77,11 +77,11 @@ In dit onderwerp wordt uitgelegd hoe u de functie Voorspellingen voor klantbetal
 
 Nadat de functie is ingeschakeld en geconfigureerd en het voorspellingsmodel is gemaakt en werkt, wordt in het gedeelte **Voorspellingsmodel** van de pagina **Parameters voor financiële inzichten** de nauwkeurigheid van het model weergegeven, zoals wordt weergegeven in de volgende afbeelding.
 
-[![Nauwkeurigheid van het voorspellingsmodel op de pagina Parameters voor financiële inzichten](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+[![Nauwkeurigheid van het voorspellingsmodel op de pagina Parameters voor financiële inzichten.](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
 
 ## <a name="release-details"></a>Releasegegevens
 
-De openbare preview van Financiële inzichten is beschikbaar voor proefimplementaties in de Verenigde Staten van Amerika, Europa en het Verenigd Koninkrijk. Microsoft voegt incrementeel ondersteuning toe voor meer regio's.
+De openbare preview van Finance Insights is beschikbaar voor proefimplementaties in de Verenigde Staten van Amerika, Europa en het Verenigd Koninkrijk. Microsoft voegt incrementeel ondersteuning toe voor meer regio's.
 
 Functies van de openbare preview kunnen en zouden alleen moeten worden ingeschakeld in Tier-2 sandbox-omgevingen. Setup-modellen en AI-modellen die in een sandbox-omgeving zijn gemaakt, kunnen niet naar een productieomgeving worden gemigreerd. Zie voor meer informatie [Aanvullende gebruiksrechtovereenkomst voor Microsoft Dynamics 365 Previews](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 

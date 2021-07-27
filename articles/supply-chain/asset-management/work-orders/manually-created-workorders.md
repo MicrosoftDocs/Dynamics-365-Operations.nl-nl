@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8962cbbc8f413093eef0fb3783aa6ced22f7bc2d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6e16c0bcd9521f822d0f92681e2a545439b78acb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839554"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354852"
 ---
 # <a name="manually-created-work-orders"></a>Handmatig gemaakte werkorders
 
@@ -111,7 +111,7 @@ U kunt een werkorder maken die betrekking heeft op een bestaande werkorder. Deze
 
 In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Gerelateerde werkorder maken**.
 
-![Figuur 1](media/03-work-orders.png)
+![Figuur 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >Als u een masker voor verwante werkorders hebt ingesteld in **Parameters voor activabeheer** > **tabblad Werkorders** > veld **Verwante-werkordermasker**, worden werkorder-id's gemaakt op basis van de maskerinstellingen. Als er geen verwante-werkordermasker is ingesteld, wordt de volgende beschikbare werkorder-id gebruikt voor gerelateerde werkorders.
@@ -137,7 +137,7 @@ U kunt snel een nieuwe werkorder maken op basis van een bestaande werkorder. Dez
 
 In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Werkorder kopiëren**.
 
-![Figuur 2](media/04-work-orders.png)
+![Figuur 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Een werkorder maken op basis van een onderhoudsverzoek
@@ -157,7 +157,7 @@ In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Werk
 
 In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Werkorder maken**.
 
-![Figuur 3](media/05-work-orders.png)
+![Figuur 3.](media/05-work-orders.png)
 
 
 >[!NOTE]

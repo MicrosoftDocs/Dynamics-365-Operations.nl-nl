@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: fe3e6a4223fc8b26e523a982a2e1752a34b370de
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 86551cfeda1e4204c91b0534cda563012191e25c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753667"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348111"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Fouten opsporen in gegevensbronnen van een uitgevoerde ER-indeling om gegevensstromen en transformatie te analyseren
 
@@ -64,7 +64,7 @@ De volgende instellingen voor ER-indelingen zijn op dit moment niet toegankelijk
 
 1. Volg de stappen in [bijlage 3](#appendix3) van dit onderwerp om leveranciersbetalingen te verwerken.
 
-    ![Verwerking van leveranciersbetalingen wordt uitgevoerd](./media/er-data-debugger-process-payment.png)
+    ![Verwerking van leveranciersbetalingen wordt uitgevoerd.](./media/er-data-debugger-process-payment.png)
 
 2. Download het zipbestand en sla het op op uw lokale computer.
 3. Pak het betalingsbestand **ISO20022 Credit transfer.xml** in het zipbestand uit.
@@ -72,7 +72,7 @@ De volgende instellingen voor ER-indelingen zijn op dit moment niet toegankelijk
 
     De IBAN-code (International Bank Account Number) van de bankrekening van de leverancier bevat geen spaties. Dit wijkt af van de waarde die is [ingevoerd](#enteredIBANcode) op de pagina **Bankrekeningen**.
 
-    ![IBAN-code zonder spaties](./media/er-data-debugger-payment-file.png)
+    ![IBAN-code zonder spaties.](./media/er-data-debugger-payment-file.png)
 
     U kunt het foutopsporingsprogramma voor ER-gegevensbronnen gebruiken om te achterhalen door welk onderdeel van de ER-oplossing spaties in de IBAN-code worden verwijderd.
 
@@ -85,14 +85,14 @@ De volgende instellingen voor ER-indelingen zijn op dit moment niet toegankelijk
     > [!NOTE]
     > Deze parameter specifiek is voor de gebruiker en het bedrijf.
 
-    ![Dialoogvenster voor gebruikersparameters](./media/er-data-debugger-user-parameters.png)
+    ![Dialoogvenster voor gebruikersparameters.](./media/er-data-debugger-user-parameters.png)
 
 ## <a name="process-a-vendor-payment-for-debugging"></a>Een leveranciersbetaling verwerken voor foutopsporing
 
 1. Volg de stappen in [bijlage 3](#appendix3) van dit onderwerp om leveranciersbetalingen te verwerken.
 2. Selecteer **Ja** in het berichtvak om te bevestigen dat u de verwerking van leveranciersbetalingen wilt onderbreken en in plaats daarvan foutopsporing in de gegevensbron wilt starten op de pagina **Fouten opsporen in gegevensbronnen**.
 
-    ![Venster met bevestigingsbericht](./media/er-data-debugger-start-debugging.png)
+    ![Venster met bevestigingsbericht.](./media/er-data-debugger-start-debugging.png)
 
 ## <a name="debug-data-sources-that-are-used-in-payment-processing"></a>Fouten opsporen in gegevensbronnen die worden gebruikt bij betalingsverwerking
 
@@ -115,7 +115,7 @@ De volgende instellingen voor ER-indelingen zijn op dit moment niet toegankelijk
 
 7. Selecteer **Alles uitvouwen**.
 
-    ![Waarde van het IBAN-veld in de modeltoewijzing](./media/er-data-debugger-debugging-model-mapping.png)
+    ![Waarde van het IBAN-veld in de modeltoewijzing.](./media/er-data-debugger-debugging-model-mapping.png)
 
     Zoals u ziet, is de modeltoewijzing niet verantwoordelijk voor de afgekapte spaties, omdat de geretourneerde IBAN-code voor de bankrekening van de leverancier spaties bevat. Daarom moet u de foutopsporing voor gegevensbronnen voortzetten.
 
@@ -130,7 +130,7 @@ De volgende instellingen voor ER-indelingen zijn op dit moment niet toegankelijk
 7. Selecteer **Waarde ophalen**.
 8. Selecteer **Alles uitvouwen**.
 
-    ![Waarde van het IBAN-veld in de indelingstoewijzing](./media/er-data-debugger-debugging-format-mapping.png)
+    ![Waarde van het IBAN-veld in de indelingstoewijzing.](./media/er-data-debugger-debugging-format-mapping.png)
 
     Zoals u ziet, zijn de gegevensbronnen van de indelingstoewijzing niet verantwoordelijk voor de afgekapte spaties, omdat de geretourneerde IBAN-code voor de bankrekening van de leverancier spaties bevat. Daarom moet u de foutopsporing voor gegevensbronnen voortzetten.
 
@@ -142,7 +142,7 @@ De volgende instellingen voor ER-indelingen zijn op dit moment niet toegankelijk
 4. Vouw de indelingselementen uit om **ISO20022CTReports** \> **XMLHeader** \> **Document** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN** te selecteren en selecteer vervolgens **Waarde ophalen**.
 5. Selecteer **Alles uitvouwen**.
 
-    ![Waarde van het IBAN-veld in de indeling](./media/er-data-debugger-debugging-format.png)
+    ![Waarde van het IBAN-veld in de indeling.](./media/er-data-debugger-debugging-format.png)
 
    Zoals u ziet, is de indelingsbinding niet verantwoordelijk voor de afgekapte spaties, omdat de geretourneerde IBAN-code voor de bankrekening van de leverancier spaties bevat. Daarom is het element **BankIBAN** geconfigureerd voor het gebruik van een indelingstransformatie waarmee spaties worden afgekapt.
 
@@ -154,13 +154,13 @@ De volgende instellingen voor ER-indelingen zijn op dit moment niet toegankelijk
 2. Selecteer op de pagina **Configuraties** de optie **Betalingsmodel** \> **ISO20022-kredietoverboeking**.
 3. Selecteer **Ontwerper** en vouw de elementen uit om **Document** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN** te selecteren.
 
-    ![Het element BankIBAN op de pagina Indelingsontwerper](./media/er-data-debugger-referred-transformation.png)
+    ![Het element BankIBAN op de pagina Indelingsontwerper.](./media/er-data-debugger-referred-transformation.png)
 
     Zoals u ziet, is het element **BankIBAN** geconfigureerd voor het gebruik van de transformatie **niet-alfanumerieke tekens verwijderen**.
 
 4. Selecteer het tabblad **Transformaties**.
 
-    ![Het tabblad Transformaties voor het element BankIBAN](./media/er-data-debugger-transformation.png)
+    ![Het tabblad Transformaties voor het element BankIBAN.](./media/er-data-debugger-transformation.png)
 
     Zoals u ziet, is de transformatie **Niet-alfanumerieke tekens verwijderen** geconfigureerd met een expressie waarmee spaties uit de opgegeven tekenreeks worden afgekapt.
 
@@ -168,7 +168,7 @@ De volgende instellingen voor ER-indelingen zijn op dit moment niet toegankelijk
 
 Wanneer u een conceptversie van de ER-indeling configureert die rechtstreeks vanuit de Operations-ontwerper kan worden uitgevoerd, krijgt u toegang tot de foutopsporing voor de gegevensbron door **Foutopsporing starten** in het actievenster te selecteren.
 
-![De knop Foutopsporing starten op de pagina Indelingsontwerper](./media/er-data-debugger-run-from-designer.png)
+![De knop Foutopsporing starten op de pagina Indelingsontwerper.](./media/er-data-debugger-run-from-designer.png)
 
 De indelingstoewijzing en indelingsonderdelen van de ER-indeling die wordt bewerkt, zijn beschikbaar voor foutopsporing.
 
@@ -176,7 +176,7 @@ De indelingstoewijzing en indelingsonderdelen van de ER-indeling die wordt bewer
 
 Wanneer u een ER-modeltoewijzing configureert die rechtstreeks vanuit de pagina **Modeltoewijzing** kan worden uitgevoerd, krijgt u toegang tot de foutopsporing voor de gegevensbron door **Foutopsporing starten** in het actievenster te selecteren.
 
-![De knop Foutopsporing starten op de pagina Modeltoewijzing](./media/er-data-debugger-run-from-designer-mapping.png)
+![De knop Foutopsporing starten op de pagina Modeltoewijzing.](./media/er-data-debugger-run-from-designer-mapping.png)
 
 Het onderdeel van de modeltoewijzing in de ER-toewijzing die wordt bewerkt, is beschikbaar voor foutopsporing.
 
@@ -186,7 +186,7 @@ Het onderdeel van de modeltoewijzing in de ER-toewijzing die wordt bewerkt, is b
 
 Als u een ER-oplossing wilt gebruiken om een elektronisch betalingsbestand te genereren voor een leveranciersbetaling die wordt verwerkt, kunt u de ER-betalingsindeling **ISO20022-kredietoverboeking** [downloaden](download-electronic-reporting-configuration-lcs.md) die beschikbaar is in de bibliotheek met gedeelde activa in Microsoft Dynamics Lifecycle Services (LCS) of in de algemene opslagplaats.
 
-![De ER-betalingsindeling importeren op de pagina Opslagplaats van configuratie](./media/er-data-debugger-import-from-repo.png)
+![De ER-betalingsindeling importeren op de pagina Opslagplaats van configuratie.](./media/er-data-debugger-import-from-repo.png)
 
 Naast de geselecteerde ER-indeling moeten de volgende [configuraties](general-electronic-reporting.md#Configuration) automatisch worden geïmporteerd in uw Microsoft Dynamics 365 Finance-exemplaar als onderdeel van de ER-oplossing **ISO20022-kredietoverboeking**.
 
@@ -197,7 +197,7 @@ Naast de geselecteerde ER-indeling moeten de volgende [configuraties](general-el
 
 U vindt deze configuraties op de pagina **Configuraties** van het ER-raamwerk (**Organisatiebeheer** \> **Elektronische rapporten** \> **Configuraties**).
 
-![Geïmporteerde configuraties op de pagina Configuraties](./media/er-data-debugger-configurations.png)
+![Geïmporteerde configuraties op de pagina Configuraties.](./media/er-data-debugger-configurations.png)
 
 Als een van de eerder genoemde configuraties ontbreekt in de configuratiestructuur, moet u deze handmatig downloaden vanuit de bibliotheek LCS gedeelde activa op dezelfde manier als u de indeling van de **ISO20022-kredietoverboeking** hebt gedownload.
 
@@ -213,7 +213,7 @@ Als een van de eerder genoemde configuraties ontbreekt in de configuratiestructu
 
     Het veld **Betalingen** van het gegevensmodel is gebonden aan de gegevensbron **\$notSentTransactions**, die de lijst met de te verwerken betalingsregels van de leverancier terugstuurt.
 
-    ![Het veld Betalingen op de pagina Ontwerper modeltoewijzing](./media/er-data-debugger-model-mapping.png)
+    ![Het veld Betalingen op de pagina Ontwerper modeltoewijzing.](./media/er-data-debugger-model-mapping.png)
 
 #### <a name="review-the-format-mapping"></a>De indelingstoewijzing controleren
 
@@ -224,7 +224,7 @@ Als een van de eerder genoemde configuraties ontbreekt in de configuratiestructu
 
     Het element **Document** \> **CstmrCdtTrfInitn** \> **PmtInf** element van de gegevens **ISO20022CTReports** \> **XMLHeader** is gebonden aan de gegevensbron **\$PaymentByDebtor** die is geconfigureerd om records van het veld **Betalingen** van het gegevens model te groeperen.
 
-    ![Het element PmtInf op de pagina Indelingsontwerper](./media/er-data-debugger-format-mapping.png)
+    ![Het element PmtInf op de pagina Indelingsontwerper.](./media/er-data-debugger-format-mapping.png)
 
 #### <a name="review-the-format"></a>De indeling controleren
 
@@ -234,7 +234,7 @@ Als een van de eerder genoemde configuraties ontbreekt in de configuratiestructu
 
     Het indelingselement onder **Document** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN** is geconfigureerd om de IBAN-code van de leveranciersrekening in het betalingsbestand in te voeren.
 
-    ![Het element BankIBAN op de pagina Indelingsontwerper](./media/er-data-debugger-format.png)
+    ![Het element BankIBAN op de pagina Indelingsontwerper.](./media/er-data-debugger-format.png)
 
 ## <a name="appendix-2-configure-accounts-payable"></a><a name="appendix2"></a>Bijlage 2: Leveranciers configureren
 
@@ -245,7 +245,7 @@ Als een van de eerder genoemde configuraties ontbreekt in de configuratiestructu
 3. Voer op het sneltabblad **Identificatie** in het veld **IBAN** <a name="enteredIBANcode"></a> **GB33 BUKB 2020 1555 5555 55** in.
 4. Selecteer **Opslaan**.
 
-![Veld IBAN ingesteld op de pagina Bankrekeningen leverancier](./media/er-data-debugger-iban.png)
+![Veld IBAN ingesteld op de pagina Bankrekeningen leverancier.](./media/er-data-debugger-iban.png)
 
 ### <a name="set-up-a-method-of-payment"></a>Een betalingsmethode instellen
 
@@ -255,7 +255,7 @@ Als een van de eerder genoemde configuraties ontbreekt in de configuratiestructu
 4. Selecteer in het veld **Indelingsconfiguratie exporteren** de ER-indeling **ISO20022-kredietoverboeking**.
 5. Selecteer **Opslaan**.
 
-![Instellingen voor Bestandsindelingen op de pagina Betalingsmethoden](./media/er-data-debugger-payment-method.png)
+![Instellingen voor Bestandsindelingen op de pagina Betalingsmethoden.](./media/er-data-debugger-payment-method.png)
 
 ### <a name="add-a-vendor-payment"></a>Een leveranciersbetaling toevoegen
 
@@ -267,7 +267,7 @@ Als een van de eerder genoemde configuraties ontbreekt in de configuratiestructu
 6. Selecteer in het veld **Betalingsmethode** de optie **SEPA CT**.
 7. Selecteer **Opslaan**.
 
-![Leveranciersbetaling toegevoegd op de pagina Leveranciersbetalingen](./media/er-data-debugger-payment-journal.png)
+![Leveranciersbetaling toegevoegd op de pagina Leveranciersbetalingen.](./media/er-data-debugger-payment-journal.png)
 
 ## <a name="appendix-3-process-a-vendor-payment"></a><a name="appendix3"></a>Bijlage 3: Een leveranciersbetaling verwerken
 

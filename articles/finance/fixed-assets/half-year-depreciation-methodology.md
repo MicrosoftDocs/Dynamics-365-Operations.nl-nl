@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: d0e33128c37e970ebf5af87bd601ae30aef96952
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a8dd3d8c6b92be9f22573f463aa96b13d9e3418
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818578"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355527"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Methodologie van afschrijvingsconventie van een half jaar
 
@@ -36,7 +36,7 @@ Het eerste jaar wordt afgesloten in december 2020, wat betekent dat het einde va
 > Jaarlijkse afschrijving 50.000/5 = 10.000 maandelijkse afschrijving 10.000/12 = 833,33 <br>
 > Afschrijving eerste jaar 10.000/2 = 5.000 en de volgende maandelijkse afschrijving 5000/9 = 555,56
 
-   [![Afschrijvingsschema voor afschrijvingsconventie van half jaar](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![Afschrijvingsschema voor afschrijvingsconventie van half jaar.](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 De uitgebreide afschrijvingsperioden die door de conventie van een half jaar worden toegevoegd, bieden een meer nauwkeurige toewijzing van afschrijving. De conventie van zes maanden resulteert in gelijkmatigere afschrijvingskosten, wat handig is voor rapportage over winst- en verliesrekening.
 

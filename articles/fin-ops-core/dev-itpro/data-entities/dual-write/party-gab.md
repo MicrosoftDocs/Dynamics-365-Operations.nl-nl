@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: ce246a51c75cc322f1cfea70c47f00c7dd750ea2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216607"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346615"
 ---
 # <a name="party-and-global-address-book"></a>Partij en globaal adresboek
 
@@ -41,7 +41,7 @@ Het partijmodel wordt vaak gebruikt om gemiddelde tot complexe relaties tussen o
 
 De volgende afbeelding toont het gegevensmodel voor Partij.
 
-![Gegevensmodel voor partij](media/party-gab-image1.png)
+![Gegevensmodel voor partij.](media/party-gab-image1.png)
 
 > [!TIP]
 > Wanneer u een nieuwe accountrecord wilt maken, gebruikt u het veld **Partij** om op naam naar de record te zoeken. Op deze manier hoeft u de record alleen maar te selecteren nadat u deze hebt gevonden. Alle gegevens van de partij worden vervolgens automatisch ingevuld. U hoeft niet alle verplichte velden handmatig in te stellen. Dit gedrag is standaardgedrag op de pagina's **Account**, **Contactpersoon** en **Leverancier**.
@@ -58,7 +58,7 @@ Afhankelijk van de zakelijke context kan een persoon of organisatie meer dan é�
 
 In de volgende afbeelding wordt het gegevensmodel voor het globale adresboek getoond.
 
-![Gegevensmodel voor het globale adresboek](media/party-gab-image2.png)
+![Gegevensmodel voor het globale adresboek.](media/party-gab-image2.png)
 
 ## <a name="contact"></a>Contact
 
@@ -94,7 +94,7 @@ Deze relaties worden opgeslagen in de tabel **Contactpersoon voor partij**. U ku
     + Als u een waarde selecteert in het veld **Gekoppelde contactpersoon**, selecteert u de gestreepte contactpersoon van het type **Persoon**.
     + Als u een waarde selecteert in het veld **Gekoppelde account** of **Gekoppelde leverancier**, selecteert u een organisatie.
 
-    ![Tabblad Gekoppelde organisaties op de pagina Contactpersoon](media/party-gab-image3.png)
+    ![Tabblad Gekoppelde organisaties op de pagina Contactpersoon.](media/party-gab-image3.png)
 
     Ongeacht uw selectie wordt de koppeling tot stand gebracht op partijniveau en toegepast op alle rollen van de partij en opgeslagen in de entiteit **Contactpersoon voor partij**.
 
@@ -109,7 +109,7 @@ Wanneer u een **Contactpersoon**-rij opent waarin of het veld **Is Klant** of he
 
 Er is een nieuw tabblad **Adressen** beschikbaar op de pagina's **Account**, **Contactpersoon** en **Leverancier**. Op dit tabblad worden meerdere postadressen ondersteund door middel van een raster, zoals in de onderstaande afbeelding wordt getoond.
 
-![Raster voor postadressen](media/party-gab-image4.png)
+![Raster voor postadressen.](media/party-gab-image4.png)
 
 Het raster bevat de volgende kolommen:
 
@@ -121,7 +121,7 @@ Met de knop **Nieuw adres** boven het raster kunt u zoveel postadressen maken al
 
 De velden **Adres 1** en **Adres 2** op het tabblad **Overzicht** van de pagina **Account** komen overeen met respectievelijk de adressen voor **Levering** en **Factuur**.
 
-![Tabblad Overzicht voor postadressen](media/party-gab-image5.png)
+![Tabblad Overzicht voor postadressen.](media/party-gab-image5.png)
 
 De velden **Adres 1**, **Adres 2** en **Adres 3** op het tabblad **Overzicht** van de pagina **Contactpersoon** komen overeen met respectievelijk de adressen voor **Bedrijf**, **Levering** en **Factuur**.
 
@@ -129,7 +129,7 @@ De velden **Adres 1**, **Adres 2** en **Adres 3** op het tabblad **Overzicht** v
 
 Er is een nieuw tabblad **Elektronische adressen** beschikbaar op de pagina's **Account**, **Contactpersoon** en **Leverancier**. Dit tabblad ondersteunt meerdere elektronische adressen door middel van een raster, zoals in de onderstaande afbeelding wordt getoond.
 
-![Raster voor elektronisch adressen](media/party-gab-image6.png)
+![Raster voor elektronisch adressen.](media/party-gab-image6.png)
 
 Het raster bevat de volgende kolommen:
 
@@ -205,7 +205,7 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
     | Partij-id (veld) | Exacte overeenkomst |
     | Selecteren (veld) | (leeg) |
 
-    ![Duplicatenregel voor Accounts](media/duplicate-rule-1.PNG)
+    ![Duplicatenregel voor Accounts.](media/duplicate-rule-1.PNG)
 
 10. Breid de regel voor duplicatendetectie uit voor de tabel **Contactpersonen** door de volgende velden in te stellen.
 
@@ -221,7 +221,7 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
     | Partij-id (veld) | Exacte overeenkomst |
     | Selecteren (veld) | (leeg) |
 
-    ![Duplicatenregel voor Contactpersonen](media/duplicate-rule-2.PNG)
+    ![Duplicatenregel voor Contactpersonen.](media/duplicate-rule-2.PNG)
 
 11. Als u een bestaande gebruiker van Twee keer wegschrijven bent, volgt u de instructies in [Bijwerken naar het model voor partij en globaal adresboek](upgrade-party-gab.md) om uw gegevens te upgraden.
 
@@ -300,11 +300,11 @@ Zie [Toewijzingsverwijzing voor twee keer wegschrijven](mapping-reference.md) vo
 + Elektronische adressen die zijn ingesteld op het tabblad Elektronische adressen van de formulieren **Account**, **Contactpersoon** en **Leverancier** komen uit de tabel `msdyn_partyelectronicaddress`. Deze informatie stroomt niet naar de gekoppelde transacties zoals verkooporder, offerte en inkooporder. Dit probleem wordt opgelost in een incrementele release. De bestaande gegevens in de velden met elektronische adressen van de account- en contactpersoonrecords blijven werken voor transacties zoals verkooporder, offerte en inkooporder.
 + In Finance and Operations-apps kunt u een contactpersoonrecord maken vanuit het formulier **Contactpersoon toevoegen**. Wanneer u een nieuwe contactpersoon probeert te maken vanuit het formulier **Contactpersonen weergeven**, mislukt de actie. Dit is een bekend probleem.
 
-    ![Bekend probleem met Contactpersoon toevoegen](media/party-gab-contact-issue.png)
+    ![Bekend probleem met Contactpersoon toevoegen.](media/party-gab-contact-issue.png)
 
 + **Initiële synchronisatie** ondersteunt niet de tijdvelden **Beschikbaar vanaf** en **Beschikbaar tot** op **ContactForParty**, omdat DIXF de waarde converteert naar een tekenreeks (string) in plaats van een geheel getal (integer). De conversie activeert de fout `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
 + Wanneer een postadres voor meerdere redenen wordt gebruikt, bijvoorbeeld zowel voor zakelijke communicatie als ook het factuuradres, moet dit worden weergegeven als `Business;Invoice` zoals in de volgende afbeelding. Als u een spatie tussen de waarden invoegt, wordt er een foutbericht weergegeven.
 
-    ![Bekend probleem met Adres](media/party-gab-address-issue.png)
+    ![Bekend probleem met Adres.](media/party-gab-address-issue.png)
 
 + U kunt geen vooruitgedateerd postadres invoeren met een Finance and Operations-app met twee keer wegschrijven, omdat Dataverse niet de ingangsdatum ondersteunt. Als u een vooruitgedateerd postadres invoert via een Finance and Operations-app, wordt dit volledig met Dataverse gesynchroniseerd en wordt het adres direct in de gebruikersinterface gebruikt. Updates van deze record resulteren in een fout, aangezien dit adres in de toekomst wordt gebruikt en nog niet wordt gebruikt in de Finance and Operations-app.

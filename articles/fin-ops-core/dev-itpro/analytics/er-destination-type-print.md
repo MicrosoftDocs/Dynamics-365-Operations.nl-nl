@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7749a458020de664d00e81ccf0e480ae459da617
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: b79c93c4920d7f40e88aa7d463961128ea9e83c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893999"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347919"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Bestemming voor printers
 
@@ -39,7 +39,7 @@ Als u de bestemming **Printer** beschikbaar wilt maken in de huidige instantie v
 1. Voor elektronische rapportage uitgaande documenten met Microsoft Office-indelingen converteren naar PDF.
 2. Documentrouteringsagent als bestemming voor elektronische rapportage voor uitgaande documenten
 
-[![De bestemmingsfunctie ER-printer in Functiebeheer inschakelen](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![De bestemmingsfunctie ER-printer in Functiebeheer inschakelen.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
 ### <a name="applicability"></a>Toepasbaarheid
 
@@ -55,7 +55,7 @@ De bestemming **Printer** is alleen geïmplementeerd voor cloudimplementaties.
 2. Selecteer in het veld **Printernaam** de gewenste netwerkprinter.
 3. Stel de optie **Opslaan in afdrukarchief?** in op **Ja** om de gegenereerde uitvoer in het afdrukarchief op te slaan, zodat deze beschikbaar is voor verder afdrukken. Als u de gearchiveerde uitvoer later wilt openen, gaat u naar **Organisatiebeheer** \> **Query's en rapporten** \> **Rapportarchief**.
 
-[![De printerbestemming gebruiken](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![De printerbestemming gebruiken.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > De optie **Converteren naar PDF** hoeft niet ingeschakeld te zijn wanneer u de bestemming **Printer** configureert. De PDF-conversie wordt voor afdrukdoeleinden uitgevoerd, zelfs als de optie is uitgeschakeld.

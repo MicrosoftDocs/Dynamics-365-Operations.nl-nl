@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d338ba207c9a101f5e224ca66555b16a457bcbc
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 076d4a68362dbf11c5fcf223a836f075d07e27a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271396"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350323"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Instellingen maateenheid toepassen
 
@@ -32,7 +32,7 @@ Een product kan worden verkocht in verschillende eenheden, zoals 'stuk', 'paar' 
 
 In het onderstaande voorbeeld is een maateenheid per **st** (stuk) geconfigureerd voor een product in Commerce Headquarters.
 
-![Voorbeeld van een product dat is geconfigureerd met een maateenheid in Commerce Headquarters](./media/Productunit-headquarters.PNG)
+![Voorbeeld van een product dat is geconfigureerd met een maateenheid in Commerce Headquarters.](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > Ondersteuning voor het toepassen en weergeven van de maateenheid is beschikbaar vanaf Commerce versie 10.0.19.
@@ -54,11 +54,11 @@ Modules die de maateenheidsinstellingen gebruiken, omvatten de modules koopvak, 
 
 In het voorbeeld in de volgende afbeelding ziet u op een pagina met productdetails (PDP) de maateenheid (**st**) voor een product.
 
-![Voorbeeld van een PDP met de maateenheid](./media/Productunit-PDP.png)
+![Voorbeeld van een PDP met de maateenheid.](./media/Productunit-PDP.png)
 
 In het voorbeeld in de volgende afbeelding ziet u op een productverzamelingsmodule de maateenheid (**st**) voor een product.
 
-![Voorbeeld van een productverzamelingsmodule met de maateenheid](./media/Productunit-productcollection.png)
+![Voorbeeld van een productverzamelingsmodule met de maateenheid.](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

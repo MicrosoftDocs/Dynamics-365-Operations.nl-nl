@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7b397b91d1b8a45347ef2d05f42fb7c610ab3912
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 55526b34eb057abb9a8c33cbfea1807601da6577
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797065"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348209"
 ---
 # <a name="iframe-module"></a>Iframe-module
 
@@ -37,11 +37,11 @@ Voor een iframe-module is een doel-URL vereist. Vervolgens wordt de inhoud van d
 
 De volgende afbeelding laat voorbeelden van iframe-modules zien waarin externe video's op sitepagina's worden weergegeven.
 
-![Voorbeeld van iframe-modules met externe video's](./media/ecommerce-iframe.PNG)
+![Voorbeeld van iframe-modules met externe video's.](./media/ecommerce-iframe.PNG)
 
 ## <a name="iframe-module-properties"></a>Eigenschappen van iframe-module
 
-| Naam van eigenschap.             | Waarde                 | Omschrijving |
+| Naam van eigenschap.             | Waarde                 | Beschrijving |
 |---------------------------|-----------------------|-------------|
 | Kop | Tekst | De koptekst voor de module. |
 | Doel-URL | URL | De URL die wordt gehost in de module. |

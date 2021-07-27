@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b7050f954116213f700e4a2b3326547f4d070674
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022467"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353007"
 ---
 # <a name="e-commerce-site-overview"></a>Overzicht van e-commercesite
 
@@ -47,27 +47,27 @@ Tijdens de initialisatie van een e-commercepagina wordt u gevraagd een domeinnaa
 
 Wanneer u Commerce site builder start vanuit LCS verschijnt de pagina **Pagina's**. Deze pagina bevat twee vooraf geconfigureerde sites, **standaard** en **fabrikam**, zoals wordt weergegeven in de volgende afbeelding.
 
-![Pagina's van Commerce site builder](media/e-commerce-site-01.png)
+![Pagina's van Commerce site builder.](media/e-commerce-site-01.png)
 
 Wanneer u een van deze sites selecteert, wordt u gevraagd een domeinnaam, een standaard online winkelkanaal, een ondersteunde taal voor het geselecteerde kanaal en een pad te selecteren. Als er slechts één kanaal wordt gebruikt, kunt u het pad leeg laten. Meer online winkelkanalen of -talen kunnen later worden geconfigureerd in Commerce site builder. Voor elk extra kanaal of elke taal is een uniek pad nodig. U hebt bijvoorbeeld twee online kanalen die aan één pagina zijn gekoppeld, en de domeinnaam voor de site is `www.fabrikam.com`. In dit geval kan het pad voor het ene kanaal de standaardwaarde zijn zonder pad (`https://www.fabrikam.com`) en kan het tweede kanaal worden ingesteld op een nieuw pad, zoals **site2**, dat de URL `https://www.fabrikam.com/site2` heeft. In de volgende afbeelding ziet u een voorbeeld van een dialoogvenster voor het initialiseren van sites in Commerce site builder.
 
-![Het dialoogvenster site-initialisatie in Commerce site builder](media/e-commerce-site-02.png)
+![Het dialoogvenster site-initialisatie in Commerce site builder.](media/e-commerce-site-02.png)
 
 De pagina **Sites** bevat ook een knop **Nieuwe site**. Het dialoogvenster dat wordt weergegeven wanneer u deze knop kiest, lijkt op het dialoogvenster site-initialisatie, maar wordt gebruikt om een nieuwe site te maken. Nieuwe locaties zijn leeg. Ze bevatten niet dezelfde standaardsjablonen, fragmenten, pagina's en afbeeldingen die bij de **standaard-** en **fabrikam**-sites worden geleverd. Indien nodig kunt u een ondersteuningsticket openen om aan te vragen dat een kopie van de standaardinhoud wordt toegevoegd aan een nieuwe lege site. Zie voor meer informatie [Een e-commerce-site maken](create-ecommerce-site.md).
 
 Nadat een nieuwe site is geïnitialiseerd, wordt de **start**-pagina voor Commerce Site Builder weergegeven. Deze pagina bevat koppelingen naar algemene acties en informatie over richtlijnen, zoals wordt weergegeven in het voorbeeld in de volgende afbeelding.
 
-![Koppelingen op de startpagina in Commerce site builder](media/e-commerce-site-03.png)
+![Koppelingen op de startpagina in Commerce site builder.](media/e-commerce-site-03.png)
 
 ## <a name="modify-online-store-channels-or-add-online-store-channels-to-an-e-commerce-site"></a>Online winkelkanalen wijzigen of online winkelkanalen toevoegen aan een e-commerce site
 
 Nadat u een e-commercesite hebt gemaakt, kunt u het kanaal waaraan het is gekoppeld wijzigen door de stappen uit te voeren in [Een e-commercesite aan een online kanaal koppelen](associate-site-online-store.md). In het voorbeeld in de volgende afbeelding ziet u hoe een operationeel eenheidsnummer (OUN) van een kanaal kan worden gewijzigd op de pagina **Kanalen** (**Site-instellingen \> Kanalen**). Nadat u een wijziging hebt aangebracht, selecteert u **Opslaan en publiceren**. Op deze manier zorgt u ervoor dat de wijziging wordt gepubliceerd.
 
-![Kanaalpagina's van Commerce site builder](media/e-commerce-site-04.png)
+![Kanaalpagina's van Commerce site builder.](media/e-commerce-site-04.png)
 
 U kunt nieuwe kanalen toevoegen door **Een kanaal toevoegen** te selecteren. Als u nieuwe talen aan een kanaal wilt toevoegen, selecteert u het kanaal en selecteert u **Een landinstelling toevoegen** in het kanaaldialoogvenster dat wordt weergegeven. Voordat u landinstellingen kunt weergeven in het dialoogvenster, moeten deze vooraf worden geconfigureerd voor het online winkelkanaal in Commerce Headquarters.
 
-![Kanaaldialoogvenster in Commerce site builder](media/e-commerce-site-05.png)
+![Kanaaldialoogvenster in Commerce site builder.](media/e-commerce-site-05.png)
 
 ## <a name="set-up-an-azure-b2c-tenant"></a>Een Azure B2C-tenant instellen
 

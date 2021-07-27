@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6fce4e2cb8c5507769533a875e23ccc4531abf51
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2bb1f22c33de52f9a7bc00b450ce131d4d58d200
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020134"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352829"
 ---
 # <a name="tax-calculation-performance-affects-transactions"></a>Prestatie van de belastingberekening heeft gevolgen voor transacties
 
@@ -36,7 +36,7 @@ Vervolgens kunt u bepalen of aan een van de volgende voorwaarden wordt voldaan:
 - Dezelfde transactie voor belastingberekening wordt tegelijkertijd verwerkt in meerdere sessies.
 - De transactie heeft meerdere regels en de weergaven worden realtime bijgewerkt. Het veld **Berekend btw-bedrag** op de pagina **Algemeen journaal** wordt bijvoorbeeld in realtime bijgewerkt als er regelvelden worden veranderd.
 
-   [![Het veld Berekend btw-bedrag op de pagina Journaalboekstuk](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
+   [![Het veld Berekend btw-bedrag op de pagina Journaalboekstuk.](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
 
 Als aan een van deze voorwaarden is voldaan, stel de belastingberekening uit.
 
@@ -53,11 +53,11 @@ Controleer de tijdlijn van de aanroepstapel om te bepalen of de volgende problem
 
 - De transactie zorgt ervoor dat het systeem niet meer reageert totdat de sessie is beëindigd. Daarom kan de transactie het belastingresultaat niet berekenen. In de volgende afbeelding ziet u het bericht 'Sessie beëindigd' dat u ontvangt.
 
-    [![Bericht Sessie beëindigd](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
+    [![Bericht Sessie beëindigd.](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
 
 - De methoden **TaxUncommitted** hebben meer tijd nodig dan andere methoden. In de volgende afbeelding heeft bijvoorbeeld de methode **TaxUncommitted::updateTaxUncommitted()** 43.347,42 seconden nodig, terwijl andere methoden maar 0,09 seconde nodig hebben.
 
-    [![Duur van methode](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
+    [![Duur van methode.](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
 
 ## <a name="customizing-and-calling-tax-calculation"></a>Belastingberekening aanpassen en aanroepen
 

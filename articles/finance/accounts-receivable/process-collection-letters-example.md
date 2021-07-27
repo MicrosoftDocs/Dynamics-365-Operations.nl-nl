@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: fb2651644efd2cadfccb91e48c34dfddc8383e1f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e813b4f0c6408a8046fa8203007a0a356ca2c794
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021411"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347803"
 ---
 # <a name="process-collection-letters-example"></a>Voorbeeld van de verwerking van aanmaningen
 
@@ -40,7 +40,7 @@ Voer als u gereed bent de volgende stappen uit.
 
 In de volgende afbeelding wordt de informatie in de tabel weergegeven zoals deze op de pagina **Aanmaningen** zou verschijnen. 
 
-[![Een aanmaningsreeks instellen](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
+[![Een aanmaningsreeks instellen.](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
 
  U moet nu de twee parameters instellen die voor dit voorbeeld zijn vereist.
 
@@ -49,7 +49,7 @@ In de volgende afbeelding wordt de informatie in de tabel weergegeven zoals deze
     1. Stel op het tabblad **Aanmaningen** de optie **Betalingen en creditnota's negeren bij het berekenen van de aanmaningscode** in op **Ja**.
     2. Zorg ervoor dat het veld **Aanmaning maken per** is ingesteld op **Klant**.
 
-    [![Parameters van de module Klanten instellen voor aanmaningen](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
+    [![Parameters van de module Klanten instellen voor aanmaningen.](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
 
 3. Ga naar **Klanten \> Facturen \> Alle vrije-tekstfacturen**, selecteer **Nieuw** en voer vervolgens deze stappen uit:
 
@@ -74,7 +74,7 @@ In de volgende afbeelding wordt de informatie in de tabel weergegeven zoals deze
 5. Herhaal stap 4 maar geef **-200,00** op in het veld **Eenheidsprijs**.
 6. Ga naar **Klanten \> Klanten \> Alle klanten** en selecteer klant **US-045**. Selecteer vervolgens in het actievenster **Transacties \> Transactes** om de klanttransacties te bekijken die u eerder hebt geboekt.
 
-    [![De geboekte klanttransacties controleren](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
+    [![De geboekte klanttransacties controleren.](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
 
     U moet nu aanmaningen maken voor klant US-045.
 
@@ -93,7 +93,7 @@ In de volgende afbeelding wordt de informatie in de tabel weergegeven zoals deze
 
     1. De aanmaningscode op zowel de koptekst als de transactieregels is **Aanmaning 1**, omdat deze aanmaning de eerste aan aanmaning in de reeks is. (Als u de transactieregels wilt weergeven, moet u mogelijk het sneltabblad **Transacties** selecteren.)
 
-   [![Controleren of dezelfde aanmaningscode wordt weergegeven in de koptekst en op de regels](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
+   [![Controleren of dezelfde aanmaningscode wordt weergegeven in de koptekst en op de regels.](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
 
     2. Selecteer **Boeken** in het actievenster.
     3. Voer in het veld **Boekingsdatum** de waarde **19-01-2021** in.
@@ -115,7 +115,7 @@ In de volgende afbeelding wordt de informatie in de tabel weergegeven zoals deze
 
     1. De aanmaningscode in de koptekst is **Aanmaning 1**. De code op de transactieregels is echter **Aanmaning 2**.
 
-   [![Controleert of verschillende aanmaningscodes worden weergegeven in de koptekst en op de regels](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
+   [![Controleert of verschillende aanmaningscodes worden weergegeven in de koptekst en op de regels.](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
 
   De codes verschillen omdat de optie **Betalingen en creditnota's negeren bij het berekenen van de aanmaningscode** is ingesteld op **Ja**.
 
@@ -123,7 +123,7 @@ In de volgende afbeelding wordt de informatie in de tabel weergegeven zoals deze
 
 11. Ga naar **Crediteringen en aanmaningen \> Instellen \> Parameters van module Klanten** en stel vervolgens op het tabblad **Aanmaningen** de optie **Betalingen en creditnota's negeren bij het berekenen van de aanmaningscode** in op **Nee**.
 
-    [![De optie Betalingen en creditnota's negeren bij het berekenen van de aanmaningscode instellen op Nee](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
+    [![De optie Betalingen en creditnota's negeren bij het berekenen van de aanmaningscode instellen op Nee.](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
 
     U moet nu opnieuw aanmaningen maken voor klant US-045.
 
@@ -140,6 +140,6 @@ In de volgende afbeelding wordt de informatie in de tabel weergegeven zoals deze
 
 13. Ga naar **Crediteringen en aanmaningen \> Aanmaning \> Aanmaningen controleren en verwerken**. U ziet nu dat de aanmaningscode op zowel de koptekst als de transactieregels **Aanmaning 2** is.
 
-    [![Opnieuw tonen dat dezelfde aanmaningscode wordt weergegeven in de koptekst en op de regels](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
+    [![Opnieuw tonen dat dezelfde aanmaningscode wordt weergegeven in de koptekst en op de regels.](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
 
     Op beide plekken wordt dezelfde code weergegeven omdat de optie **Betalingen en creditnota's negeren bij het berekenen van de aanmaningscode** nu is ingesteld op **Nee**.

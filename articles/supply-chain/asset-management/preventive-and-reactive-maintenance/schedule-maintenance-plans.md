@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9c19f999a94e6ad8451c208cf204d0b59306b77d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a447dee71e57df07d1e7709bc8e4d075fcc803b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837796"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343671"
 ---
 # <a name="schedule-maintenance-plans"></a>Schema voor onderhoudsplannen
 
@@ -52,14 +52,14 @@ Door preventief onderhoud te plannen, worden kalenderitems voor activa gegeneree
 
 5. Klik op **OK** om het genereren van onderhoudsschema-items voor activa te starten. De gegenereerde items worden weer op de lijstpagina **Hele onderhoudsschema**. In de volgende afbeelding ziet u een voorbeeld van de dialoog **Onderhoudsplanning**.
 
-![Figuur 1](media/09-preventive-maintenance.png)
+![Figuur 1.](media/09-preventive-maintenance.png)
 
 - In het dialoogvenster **Onderhoudsplannen plannen** kunt u batchtaken instellen op het sneltabblad **Op de achtergrond uitvoeren** als u kalenderitems automatisch met regelmatige intervallen wilt genereren.  
 - Als u preventief onderhoud plant, worden onderhoudsschemaregels waarvan de verwachte begindatum en -tijd vóór de systeemdatum en -tijd ligt, niet gemaakt.  
 
 In onderstaande afbeelding ziet u een grafische weergave van een onderhoudsplan op tijdbasis.  
 
-![Figuur 2](media/10-preventive-maintenance.jpg)
+![Figuur 2.](media/10-preventive-maintenance.jpg)
 
 Voor onderhoudsplannen op basis van een teller worden er twee verschillende tellerregistratiecycli weergegeven. Deze zijn gebaseerd op een onderhoudsplan dat is ingesteld voor activum 'V0001', waarbij het activum (een auto) naar verwachting maandelijks circa 2000 km rijdt.
 
@@ -69,9 +69,9 @@ In de volgende afbeelding wordt er maandelijks 2000 km of meer geregistreerd. Er
 
 De voorbeelden die hier worden beschreven, laten zien dat alle tellerregistraties voor een activum een trending slijtage voor het activum vertonen. Deze trend wordt gebruikt als rekenbasis op het moment van de planning van het onderhoudsplan.
 
-![Figuur 3](media/11-preventive-maintenance.png)
+![Figuur 3.](media/11-preventive-maintenance.png)
 
-![Figuur 4](media/12-preventive-maintenance.png)
+![Figuur 4.](media/12-preventive-maintenance.png)
 
 
 

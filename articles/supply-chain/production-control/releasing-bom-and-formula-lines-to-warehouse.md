@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5917d3f6acf6db6b5e3ceee1b399839542ce1f6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 99047bd30b04ccaaa24edbb2e28d5288ed2872f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811673"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350541"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Stuklijst- en formuleregels vrijgeven aan het magazijn
 
@@ -61,7 +61,7 @@ In de query voor de batchtaak **Automatische vrijgave van stuklijst en formulere
 
 In de volgende afbeelding ziet u een productieorder met twee taken, 10 en 20, die betrekking hebben op de assemblage en verpakking voor de productieorder. Elke taak is ingesteld om een hoeveelheid materiaal te verbruiken. In deze afbeelding staat de time fence voor vrijgave, die wordt aangeduid door de groene pijl onder tijdlijn, gelijk aan het aantal dagen dat is opgegeven in het criterium **(LessThanDate())**. **(LessThanDate(2))** geeft bijvoorbeeld aan dat met de taak alleen moet worden gezocht naar niet-vrijgegeven hoeveelheden binnen een time fence van twee dagen.
 
-![Voorbeeld van een productieorder met twee batchtaken](media/bach-job-setup.PNG)
+![Voorbeeld van een productieorder met twee batchtaken.](media/bach-job-setup.PNG)
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Materiaal per bewerkingsnummer of in verhouding tot het aantal eindproducten vrijgeven
 
@@ -78,7 +78,7 @@ Als u wilt beheren voor welke bewerkingen materiaal moet worden vrijgegeven, gaa
 
 In de volgende afbeelding wordt een productieorder met de twee bewerkingen 10 en 20 weergegeven. In dit voorbeeld wordt alleen het materiaal M9203 vrijgegeven als u de vrijgave beperkt tot bewerking 10.
 
-![Voorbeeld van de vrijgave van materiaal op bewerkingsnummer](media/two-operations.PNG)
+![Voorbeeld van de vrijgave van materiaal op bewerkingsnummer.](media/two-operations.PNG)
 
 Voor een snelle demonstratie van het vrijgeven van materiaal in verhouding tot het bedrag van afgewerkte goederen, bekijkt u deze korte YouTube-video over [Verbeteringen in het vrijgaveproces voor productieorders](https://www.youtube.com/watch?v=Rm3ojAz6Zu0).
 

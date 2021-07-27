@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3fc7cff0a3f8d0fbfb196ec5951b138088afece7
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 45decb55ce5cf3399f48034df367e1565ab689bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019465"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347435"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-faq"></a>Veelgestelde vragen over integratie van Dynamics 365 Commerce en Microsoft Teams
 
@@ -45,7 +45,7 @@ Volg deze stappen om de rol Taakbeheer detailhandel toe te wijzen aan een werkne
 
 In Commerce Headquarters is de hiërarchie van elke organisatie aan een of meer doelen gekoppeld. Zorg ervoor dat aan de hiërarchie die u wilt inrichten in Microsoft Teams het doel **Detailhandelsrapportage** is gekoppeld, zoals in de volgende afbeelding van het voorbeeld wordt weergegeven. 
 
-![Voorbeeld van een organisatiehiërarchiedoel in Commerce Headquarters](media/d365-commerce-organization-hierarchies-purpose.png)
+![Voorbeeld van een organisatiehiërarchiedoel in Commerce Headquarters.](media/d365-commerce-organization-hierarchies-purpose.png)
 
 ### <a name="how-do-i-enable-retail-store-workers-to-sign-in-to-commerce-point-of-sale-pos-using-azure-active-directory-azure-ad"></a>Hoe schakel ik winkelmedewerkers in om zich aan te melden bij Commerce POS (verkooppunt) met Azure Active Directory (Azure AD)?
 

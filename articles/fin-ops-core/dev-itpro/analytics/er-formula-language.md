@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 1e48c02ecc9d69cf14ed257aae56081925cedfe9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6223981"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355389"
 ---
 # <a name="electronic-reporting-formula-language"></a>Formuletaal in Elektronische rapportage
 
@@ -117,15 +117,15 @@ Wanneer een expressie naar een gestructureerde gegevensbron verwijst, kunt u de 
 
 Als het pad van een gestructureerde gegevensbron begint met een apenstaartje (@), is dit een relatief pad. Het apenstaartje wordt weergegeven in plaats van het resterende deel van het absolute pad van de hiërarchische boomstructuur die wordt gebruikt. In de volgende afbeelding ziet u een voorbeeld. Hier geeft het absolute pad `Ledger.'accountingCurrency()'` aan dat de waarde van de valuta voor boekhouding uit de gegevensbron **Grootboek** wordt ingevoerd in het veld **AccountingCurrency** van het gegevensmodel.
 
-![Voorbeeld van een absoluut pad op de pagina ER-modeltoewijzing ontwerpen](./media/ER-FormulaLanguage-AbsolutePath.png)
+![Voorbeeld van een absoluut pad op de pagina ER-modeltoewijzing ontwerpen.](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 In het voorbeeld in de volgende afbeelding ziet u hoe een relatief pad wordt gebruikt. Het relatieve pad `@.AccountNum` geeft aan dat het veld **AccountNum** van de gegevensbron **Intrastat** (die één niveau boven het veld **AccountNum** in de hiërarchische structuur van het gegevensmodel wordt weergegeven) wordt gebruikt om het klant- of leverancierrekeningnummer in te voeren in het veld **AccountNum** van het gegevensmodel.
 
-![Voorbeeld van een relatief pad op de pagina ER-modeltoewijzing ontwerpen](./media/ER-FormulaLanguage-RelativePath1.png)
+![Voorbeeld van een relatief pad op de pagina ER-modeltoewijzing ontwerpen.](./media/ER-FormulaLanguage-RelativePath1.png)
 
 Het resterende gedeelte van het absolute pad wordt ook weergegeven in de [ER-formule-editor](general-electronic-reporting-formula-designer.md).
 
-![Resterend gedeelte van het absolute pad op de pagina ER-formuleontwerper](./media/ER-FormulaLanguage-RelativePath2.png)
+![Resterend gedeelte van het absolute pad op de pagina ER-formuleontwerper.](./media/ER-FormulaLanguage-RelativePath2.png)
 
 Zie [Een relatief pad gebruiken in gegevensbindingen van ER-modellen en -indelingen](relative-path-data-bindings-er-models-format.md) voor meer informatie.
 

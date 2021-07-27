@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: 873c6413c14d2ee8315c149ee9c495bb59dbd930
-ms.sourcegitcommit: 11ca5863175150b6c39f47a9322caa2186727a26
+ms.openlocfilehash: c0f753febb0d347015fde1374148835f90df55a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025443"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353775"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Voorraadzoekbewerking in POS
 
@@ -45,7 +45,10 @@ Voor een afzonderlijk product biedt de voorraadzoekbewerking een voorraadzoeklij
 
 De lijstweergave met locaties bevat alle winkels en magazijnen die zijn geconfigureerd in de afhandelingsgroepen waaraan de huidige winkel is gekoppeld, zoals wordt weergegeven in de volgende voorbeeldafbeelding.
 
-![Lijstweergave van voorraadzoekbewerking](media/inventory-lookup-list-view.png)
+![Lijstweergave van voorraadzoekbewerking.](media/inventory-lookup-list-view.png)
+
+> [!NOTE]
+> Zorg ervoor dat uw huidige winkel is opgenomen in de gekoppelde afhandelingsgroepen.
 
 De volgende acties zijn beschikbaar op de appbalk in POS:
 
@@ -65,7 +68,7 @@ De volgende acties zijn beschikbaar op de appbalk in POS:
 - **Toevoegen aan transactie**: met deze actie wordt het product aan de winkelwagen toegevoegd en wordt de gebruiker doorgestuurd naar het transactiescherm.
 
 > [!NOTE]
-> Voor een locatiegebaseerde sortering wordt de afstand tussen een locatie en de huidige winkel bepaald door de coördinaten (breedte- en lengtegraad) die zijn gedefinieerd in het hoofdkantoor van Commerce. Voor een winkel worden de locatiegegevens gedefinieerd in het primaire adres van de operationele eenheid die aan de winkel is gekoppeld. Voor een niet-magazijn worden de locatiegegevens gedefinieerd in het magazijnadres. Als voor de huidige winkel geen coördinaten correct zijn gedefinieerd, wordt met de sorteeroptie op locatie de huidige winkel boven aan de lijst weergegeven en worden andere locaties vervolgens op naam gesorteerd.
+> Voor een locatiegebaseerde sortering wordt de afstand tussen een locatie en de huidige winkel bepaald door de coördinaten (breedte- en lengtegraad) die zijn gedefinieerd in het hoofdkantoor van Commerce. Voor een winkel worden de locatiegegevens gedefinieerd in het primaire adres van de operationele eenheid die aan de winkel is gekoppeld. Voor een niet-magazijn worden de locatiegegevens gedefinieerd in het magazijnadres. Als voor de huidige winkel geen coördinaten zijn gedefinieerd, wordt met de sorteeroptie op locatie de huidige winkel boven aan de lijst weergegeven en worden andere locaties vervolgens op naam gesorteerd.
 
 > [!NOTE]
 > De acties **Beschikbaarheid van winkel weergeven**, **Winkellocatie weergeven**, **Ophalen in winkel** en **Product verzenden** zijn niet beschikbaar voor niet-winkellocaties.
@@ -76,7 +79,7 @@ Voor een hoofdproduct met varianten biedt de voorraadzoekbewerking ook een op di
 
 In de volgende voorbeeldafbeelding ziet u de matrixweergave voor voorraad zoeken in POS.
 
-![Matrixweergave van voorraadzoekbewerking](media/inventory-lookup-matrix-view.png)
+![Matrixweergave van voorraadzoekbewerking.](media/inventory-lookup-matrix-view.png)
 
 In de matrixweergave vertegenwoordigt elke cel een afzonderlijke variant en wordt een voorhanden voorraadwaarde (fysiek beschikbaar) weergegeven in de rechterbenedenhoek, evenals de waarden **gereserveerd** (fysiek gereserveerd) en **besteld** (in totaal besteld) in de linkerbovenhoek. De volgende tabel beschrijft de betekenis van de verschillende waarden voor voorhanden voorraad.
 
@@ -103,7 +106,7 @@ POS-gebruikers hebben toegang tot de voorraadzoekbewerking vanuit andere pagina'
 
 In de volgende voorbeeldafbeelding ziet u de resultaten van voorraad zoeken vanuit een pagina met productgegevens in POS.
 
-![Voorraad zoeken vanaf de pagina met productgegevens](media/inventory-lookup-from-product-details-page.png)
+![Voorraad zoeken vanaf de pagina met productgegevens.](media/inventory-lookup-from-product-details-page.png)
 
 In de pagina met productgegevens van een hoofdproduct kunt u de actie **Alle varianten weergeven** op de appbalk gebruiken om de matrixweergave voor voorraad zoeken te starten waarin voorraadbeschikbaarheidsinformatie voor de huidige winkel voor alle varianten van een product wordt weergegeven. Voor een afzonderlijk product geeft de pagina met productgegevens de voorhanden-voorraadwaarde (fysiek beschikbaar) van dat product voor de huidige winkel weer. Daarnaast kunt u de koppeling **Voorraad overige winkels** selecteren om de voorraadzoekbewerking te starten om de voorraadbeschikbaarheid van een product in andere winkels of magazijnen te controleren.
 

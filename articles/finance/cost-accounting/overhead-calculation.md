@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187992"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355030"
 ---
 # <a name="overhead-calculation"></a>Overheadberekening
 
@@ -48,7 +48,7 @@ Bij overheadberekening wordt het beleid voor kostprijsboekhouding in de juiste v
 
 De overheadberekening wordt onafhankelijk van de versie uitgevoerd. Daarom kunt u de budgetversie vóór de huidige versie berekenen. De berekening van de overheadkosten bestaat uit vier stappen, zoals in de volgende afbeelding wordt weergegeven. In elke stap wordt een journaalkop gemaakt met journaalposten. Deze journaalkop bevat de ingevoerde gegevens voor elke berekeningsstap. Er worden beleid en regels toegepast op elke journaalregel en er worden kostenposten gegenereerd als uitvoer. Daarom beschikt u altijd over volledige traceerbaarheid. 
 
-[![Overheadberekening](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Overheadberekening.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>De overheadkosten voor elektriciteit berekenen en toewijzen
 In de financiële boekhouding worden sommige kosten, zoals elektriciteit, geregistreerd als een vast bedrag. Daarom worden geen managementinzichten verstrekt voor kostprijsboekhouding. Als u in de kostprijsboekhouding het juiste leidinggevende inzicht wilt bieden voor alle organisatie-eenheden en niveaus, moeten kosten door de organisatie-eenheden stromen. Deze stroom moet zijn gebaseerd op een nauwkeurig overzicht van het verbruik of op een reële beoordeling. In het grootboek kunnen kosten voor elektriciteit worden geboekt, zoals weergegeven in de volgende tabel.
@@ -618,7 +618,7 @@ Zie [Overheadberekening uitvoeren](cost-rollup.md#perform-overhead-calculation) 
 
 Toewijzing wordt gebruikt om het saldo van een kostenobject toe te wijzen aan andere kostenobjecten door een toewijzingsgrondslag toe te passen. Finance ondersteunt de wederzijdse toewijzingsmethode. Bij de wederzijdse toewijzingsmethode worden de onderlinge services die bijkomende kostenobjecten uitwisselen volledig erkend. Het systeem bepaalt automatisch de juiste volgorde voor het uitvoeren van de toewijzingen. Het saldo van een kostenobject wordt toegewezen door een enkele toewijzingsgrondslag. Toewijzingen over dimensies voor kostenobjecten en hun respectievelijke leden heen worden ondersteund. De toewijzingsvolgorde wordt bepaald door de kostenbeheereenheid. 
 
-[![Wederzijdse methode](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Wederzijdse methode.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>De kostentoewijzing definiëren
 

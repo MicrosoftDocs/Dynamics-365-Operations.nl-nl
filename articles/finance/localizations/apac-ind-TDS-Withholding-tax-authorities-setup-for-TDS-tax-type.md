@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5375363a9b1383a83e80fc3c4b841780adab4172
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d9cecb3598e0686192d394903e8bb58d304a7665
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023140"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349947"
 ---
 # <a name="set-up-withholding-tax-authorities-for-the-tds-tax-type"></a>Bronbelastingdiensten voor het TDS-belastingtype instellen
 
@@ -31,7 +31,7 @@ In dit onderwerp wordt uitgelegd hoe u TDS-diensten (belasting ingehouden op bro
 
 1. Ga naar **Belasting \> Indirecte belastingen \> Bronbelastingdiensten**.
 
-    [![Pagina Bronbelastingdiensten](./media/apac-ind-TDS-12.png)](./media/apac-ind-TDS-12.png)
+    [![Pagina Bronbelastingdiensten.](./media/apac-ind-TDS-12.png)](./media/apac-ind-TDS-12.png)
 
 2. Selecteer in het veld **Belastingtype** de optie **TDS** om bronbelastingdiensten in te stellen voor het belastingtype TDS.
 3. Selecteer in het actievenster **Nieuw** om een regel te maken.

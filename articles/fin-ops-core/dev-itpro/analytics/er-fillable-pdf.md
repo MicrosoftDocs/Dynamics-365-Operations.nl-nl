@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7c1c21015a172d7ebaa3577d5d0e55c254ef871e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 63994a4583e27b0197b9fc42c622f6c0e42c84ee
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753283"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355413"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>ER-configuraties ontwerpen om in te vullen in PDF-sjablonen
 
@@ -115,11 +115,11 @@ Open in een willekeurige PDF-viewer de PDF-sjablonen die u hebt gedownload. Zoal
 
 In de volgende afbeelding wordt de PDF-sjabloon weergegeven voor de eerste pagina van het rapport.
 
-![Sjabloon 1](media/rcs-ger-filloutpdf-template1.png)
+![Sjabloon 1.](media/rcs-ger-filloutpdf-template1.png)
 
 In de volgende afbeelding wordt de PDF-sjabloon weergegeven voor andere pagina's van het rapport.
 
-![Sjabloon 2](media/rcs-ger-filloutpdf-template2.png)
+![Sjabloon 2.](media/rcs-ger-filloutpdf-template2.png)
 
 1. Selecteer **Ontwerper** op de pagina **Configuraties**.
 2. Selecteer **Basis toevoegen**.
@@ -146,7 +146,7 @@ In de volgende afbeelding wordt de PDF-sjabloon weergegeven voor andere pagina's
 
 12. Selecteer **OK**.
 
-    ![Dialoog venster Importeren vanuit PDF](media/rcs-ger-filloutpdf-importtemplate.png)
+    ![Dialoogvenster Importeren vanuit PDF.](media/rcs-ger-filloutpdf-importtemplate.png)
 
 13. Vouw in de structuur **Uitvoer** uit.
 
@@ -176,7 +176,7 @@ In de volgende afbeelding wordt de PDF-sjabloon weergegeven voor andere pagina's
 
     Zoals u ziet, wordt het geïmporteerde PDF-document gekoppeld aan de bewerkte ER-indeling gekoppeld.
 
-    ![Voorbeeld van PDF-bijlage](media/rcs-ger-filloutpdf-attachedtemplate.png)
+    ![Voorbeeld van PDF-bijlage.](media/rcs-ger-filloutpdf-attachedtemplate.png)
 
 19. Ga door met het ontwerpen van deze indeling door de tweede PDF-sjabloon te importeren, de benodigde bindingen aan gegevensbronnen toe te voegen enzovoort.
 20. Selecteer **Opslaan**.
@@ -215,7 +215,7 @@ Vervolgens importeert u het voorbeeld van de ER-indeling die u eerder hebt gedow
 1. Ga naar de pagina **Indelingsontwerper** en selecteer het tabblad **Toewijzing**.
 2. Vouw in de structuur **Paginering \> Pagina's** uit.
 
-    ![Pagina Formuleontwerper waarop de modelstructuur is uitgevouwen](media/rcs-ger-filloutpdf-reviewformat.png)
+    ![Pagina Formuleontwerper waarop de modelstructuur is uitgevouwen.](media/rcs-ger-filloutpdf-reviewformat.png)
 
     Let op de volgende details:
 
@@ -238,7 +238,7 @@ Vervolgens importeert u het voorbeeld van de ER-indeling die u eerder hebt gedow
 
     Zoals u ziet, is het kenmerk **Naam** van dit opmaakelement gedefinieerd als **Correction 1**. U ziet ook dat de expressie **Naam** van het opmaakelement is gedefinieerd als **Paging.FldName("Correction",\@.Number)**.
 
-![Indelingsontwerper waarin een toewijzing is geselecteerd](media/rcs-ger-filloutpdf-reviewformat2.png)
+![Indelingsontwerper waarin een toewijzing is geselecteerd.](media/rcs-ger-filloutpdf-reviewformat2.png)
 
 Zoals u ziet, wordt het opmaakelement **Veld** gebruikt voor het invullen van een afzonderlijk veld van een invulbaar PDF-document dat is gedefinieerd als sjabloon van het bovenliggende opmaakelement **PDF-bestand**. De koppeling van het opmaakelement **PDF-bestand** of de geneste elementen hiervan, als er geneste elementen element, geeft de waarde aan die zijn ingevoerd in overeenkomstige PDF-velden. Verschillende eigenschappen van het opmaakelement **Veld** kunnen worden gebruikt om op te geven welk PDF-veld wordt gevuld door een afzonderlijk opmaakelement:
 
@@ -275,7 +275,7 @@ Vervolgens laadt u het voorbeeld van de ER-indeling **Intrastat (importeren vanu
 
     Wanneer de optie **Standaard voor modeltoewijzing** is ingesteld op **Ja**, wordt de ER-indeling **Intrastat (importeren vanuit Excel)** toegewezen als de standaardgegevensbron voor de configuratie van de indeling **Intrastat-rapport (PDF)**. Wanneer vervolgens de configuratie van de indeling **Intrastat-rapport (PDF)** wordt uitgevoerd, simuleert de inhoud van de Excel-werkmap die wordt geparseerd door de ER-indeling **Intrastat (importeren vanuit Excel)** buitenlandse handelstransacties waarover moet worden gerapporteerd. In de volgende afbeelding ziet u een voorbeeld van een Excel-werkmap.
 
-    ![Excel-werkmap met voorbeeldgegevens](media/rcs-ger-filloutpdf-excelworkbook.png)
+    ![Excel-werkmap met voorbeeldgegevens.](media/rcs-ger-filloutpdf-excelworkbook.png)
 
 ### <a name="run-the-format-configuration"></a>De indelingsconfiguratie uitvoeren
 
@@ -289,11 +289,11 @@ Vervolgens laadt u het voorbeeld van de ER-indeling **Intrastat (importeren vanu
 
 In de volgende afbeelding ziet u een voorbeeld van de eerste pagina van het gegenereerde rapport.
 
-![Eerste pagina van het gegenereerde rapport](media/rcs-ger-filloutpdf-generatedreport.png)
+![Eerste pagina van het gegenereerde rapport.](media/rcs-ger-filloutpdf-generatedreport.png)
 
 In de volgende afbeelding ziet u een voorbeeld van een andere pagina van het gegenereerde rapport.
 
-![Andere pagina van het gegenereerde rapport](media/rcs-ger-filloutpdf-generatedreport2.png)
+![Andere pagina van het gegenereerde rapport.](media/rcs-ger-filloutpdf-generatedreport2.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

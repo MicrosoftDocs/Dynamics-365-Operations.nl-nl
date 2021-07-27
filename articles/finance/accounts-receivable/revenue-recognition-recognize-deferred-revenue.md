@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 8d9b5e1248497ec74e1c7125b2395c0ed4c825c2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cafe28e0aa71d623a728829ff1bf71bef5a132b0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820516"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347195"
 ---
 # <a name="recognize-deferred-revenue"></a>Uitgestelde opbrengst toerekenen
 
@@ -34,9 +34,9 @@ In dit onderwerp wordt het proces beschreven voor het toerekenen van de opbrengs
 Er zijn twee manieren om toegang te krijgen tot de details van het schema voor opbrengsttoerekening.
 
 - U kunt het schema voor opbrengsttoerekening rechtstreeks vanuit een gefactureerde verkooporder openen. In dit geval wordt de informatie in het opbrengstschema gefilterd, zodat alleen de details voor de geselecteerde verkooporder worden weergegeven. Deze benadering is handig wanneer u de details van het schema voor een verkooporder wilt valideren.
-- U kunt het schema voor opbrengsttoerekening openen via de pagina **Opbrengsttoerekening \> Periodieke taken**. Deze benadering wordt vaak gebruikt wanneer de opbrengst wordt toegerekend aan het einde van een periode. Wanneer de pagina voor het eerst wordt geopend, bevat deze geen gegevens. Gebruik de filters boven het raster om criteria te definiëren voor de schemadetails die moeten worden weergegeven. U kunt filteren op de factuurdatums door een datumbereik, verkooporder, klant, project-id of staat in te voeren.
+- U kunt het schema voor opbrengsttoerekening openen via de pagina **Opbrengsttoerekening \> Periodieke taken**. Deze benadering wordt vaak gebruikt wanneer de opbrengst wordt toegerekend aan het einde van een periode. Wanneer de pagina voor het eerst wordt geopend, bevat deze geen gegevens. Gebruik de filters boven het raster om criteria te definiëren voor de schemadetails die moeten worden weergegeven. U kunt filteren op de factuurdatums door een datumbereik, verkooporder, klant, project-id of status in te voeren.
 
-[![Afbeelding van de pagina Opbrengstschema's](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
+[![Afbeelding van de pagina Opbrengstschema's.](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
 
 Het sneltabblad **Financiële dimensie** onder het raster bevat de financiële dimensies van de verkooporderregel. Deze dimensies werden in aanmerking genomen toen er naar uitgestelde opbrengst werd geboekt. Ze worden ook in aanmerking genomen als de opbrengst wordt toegerekend. Welke dimensiewaarden worden gebruikt, is afhankelijk van de rekeningstructuur die is toegewezen aan de hoofdrekeningen voor de opbrengst en uitgestelde opbrengst.
 
@@ -46,7 +46,7 @@ U kunt de opbrengst toerekenen door het proces **Journaal maken** uit te voeren 
 
 Als u de criteria voor het selecteren en boeken van opbrengst wilt definiëren, selecteert u **Journaal maken** om het dialoogvenster **Journaal maken** te openen.
 
-[![Opties voor het maken van journaalparameters](./media/revenue-recognition-create-journal.png)](./media/revenue-recognition-create-journal.png)
+[![Opties voor het maken van journaalparameters.](./media/revenue-recognition-create-journal.png)](./media/revenue-recognition-create-journal.png)
 
 Gebruik in het dialoogvenster de opties in de veldgroep **Verwerkingsdatum** om de boekingsdatum te definiëren die wordt gebruikt als de opbrengst wordt toegerekend. Als u **Geselecteerde datum** selecteert, kunt u een boekingsdatum invoeren in het veld **Transactiedatum**. Als u de **Datum opbrengstschema** selecteert, wordt de transactiedatum niet gebruikt. In plaats daarvan wordt de waarde in het veld **Toerekeningsdatum** op elke regel van het schema als de boekingsdatum gebruikt.
 
@@ -56,11 +56,11 @@ Nadat u de datums hebt gedefinieerd, selecteert u **OK** in het dialoogvenster o
 
 Nadat het proces is uitgevoerd, worden de regels op het schema die naar het journaal zijn overgeboekt, als **Verwerkt** gemarkeerd. De vlag **Verwerkt** geeft aan dat de regels naar het journaal zijn overgeboekt, maar dat ze kunnen worden geboekt of de boeking ongedaan kan worden gemaakt. Nadat het journaal voor opbrengsttoerekening is geboekt, blijft de vlag **Verwerkt** staan. Als het journaal voor opbrengsttoerekening wordt verwijderd of als een regel wordt verwijderd, wordt de vlag **Verwerkt** verwijderd. Op die manier kan de regel worden toegerekend wanneer het proces **Journaal maken** opnieuw wordt uitgevoerd.
 
-[![Pagina met opbrengsttoerekeningsschema's](./media/revenue-recognition-rev-recog-schedule-02.png)](./media/revenue-recognition-rev-recog-schedule-02.png)
+[![Pagina met opbrengsttoerekeningsschema's.](./media/revenue-recognition-rev-recog-schedule-02.png)](./media/revenue-recognition-rev-recog-schedule-02.png)
 
 Op de pagina **Journaal voor opbrengsttoerekening** (**Opbrengsttoerekening \> Journaalboekingen \> Journaal voor opbrengsttoerekening**) opent u **Regels** om de details weer te geven van wat er wordt toegerekend. Er wordt altijd een afzonderlijke transactie gemaakt voor elke regel in het schema die wordt toegerekend, zelfs als alle regels op dezelfde datum worden geboekt en daarvoor dezelfde grootboekrekeningen zijn gebruikt.
 
-[![Pagina Journaalboekstuk](./media/revenue-recognition-journal-voucher.png)](./media/revenue-recognition-journal-voucher.png)
+[![Pagina Journaalboekstuk.](./media/revenue-recognition-journal-voucher.png)](./media/revenue-recognition-journal-voucher.png)
 
 In de kolom **Rekening** wordt de grootboekrekening voor uitgestelde opbrengst weergegeven. Deze grootboekrekening kan niet worden bewerkt. Deze beperking helpt te garanderen dat de juiste grootboekrekening voor uitgestelde opbrengst wordt vrijgegeven. Deze grootboekrekening wordt niet gevalideerd ten opzichte van de rekeningstructuur, omdat deze kan zijn gewijzigd sinds er voor de laatste keer boekingen naar de grootboekrekening voor uitgestelde opbrengst hebben plaatsgevonden.
 
@@ -82,7 +82,7 @@ Sommige bewerkingen zijn toegestaan op de regels van het schema. De volgende vel
 
 - **In wachtstand**: deze vlag kan worden ingesteld of uitgeschakeld voordat de regel wordt verwerkt. Als u de vlag wilt wissen, selecteert u de rij en selecteert u **Wachtstand verwijderen**. Opbrengst kan niet worden toegerekend voor regels die in de wachtstand staan. Regels kunnen automatisch in de wachtstand worden geplaatst als het opbrengstschema is ingesteld om met automatische wachtstanden te kunnen werken.
 
-    [![Opbrengstschema's - schemaregels bewerken](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+    [![Opbrengstschema's - schemaregels bewerken.](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
 
 - **Toerekeningsdatum**: de toerekeningsdatum kan worden gewijzigd voordat de regel wordt verwerkt. Wanneer het proces waarmee het journaal voor toerekenen van de opbrengst wordt uitgevoerd, wordt een datum ingevoerd in het veld **Begindatum toerekening**. Deze datum wordt vergeleken met de datum in het veld **Toerekeningsdatum** om te bepalen welke regels moeten worden toegekend.
 - **Vrij te geven bedrag**: het bedrag dat wordt vrijgegeven kan worden gewijzigd voordat de regel wordt verwerkt. U kunt het toegerekende bedrag van opbrengsten verlagen, maar u kunt het niet verhogen. Dit veld stelt een organisatie in staat om een deel van de opbrengst op de toerekeningsdatum toe te rekenen. Als het bedrag wordt gewijzigd, geeft het bedrag in het veld **Resterend bedrag** weer hoeveel opbrengst nog moet worden toegerekend.
@@ -94,18 +94,18 @@ De details van het opbrengstschema worden gemaakt op basis van het opbrengstsche
 
 Als u het schema wilt wijzigen, selecteert u in het schema de regel voor het artikel dat u wilt wijzigen. In de volgende afbeelding is de regel voor artikel S0008 geselecteerd die is geboekt met een opbrengstschema van 12 maanden. Als u **Contractvoorwaarden bijwerken** selecteert, wordt een dialoogvenster weergegeven met daarin de begin- en einddatums, evenals het opbrengstschema.
 
-[![Begin- en einddatum contract](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)
+[![Begin- en einddatum van contract.](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule.png)
 
 Wijzig de begin- en einddatum van het contract zodat deze het juiste datumbereik weergeven. Wanneer u het datumbereik wijzigt, moet de waarde in het veld **Aantal voorvallen** overeenkomen met een opbrengstschema dat in het systeem is gedefinieerd. In dit voorbeeld moet er een opbrengstschema van 24 maanden worden ingesteld omdat het contract is gewijzigd in een overeenkomst van 24 maanden. Omdat het opbrengstschema van 24 maanden bestaat, wordt dit standaard ingevoerd en kan het contract worden gewijzigd. Als er geen opbrengstschema met een overeenkomend aantal voorvallen bestaat, kan het contract niet worden gewijzigd. Nadat u de contractvoorwaarden en het opbrengstschema hebt bijgewerkt, selecteert u **OK** in het dialoogvenster om uw wijzigingen op te slaan.
 
-[![Bijgewerkt datumbereik voor contract](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)
+[![Bijgewerkt datumbereik voor contract.](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)](./media/revenue-recognition-rev-revenue-schedule-update-cntrct-dates-schedule-02.png)
 
 De wijzigingen in het contract hebben de volgende effecten op de details van het opbrengstschema:
 
 - Als er geen opbrengsten voor het product zijn toegerekend, worden alle eerdere schemadetails verwijderd en vervangen door de nieuwe opbrengstschemadetails. Voor artikel S0008 kwamen oorspronkelijk 12 regels bij de schemadetails voor. Deze 12 regels worden verwijderd en op basis van het nieuwe opbrengstschema vervangen door 24 regels.
 - Als de opbrengst voor het product is toegerekend, is een deel van de opbrengst onjuist toegerekend omdat de toerekening werd gebaseerd op het onjuiste opbrengstschema. Die regels moeten worden teruggeboekt en opnieuw toegerekend op basis van het nieuwe schema. In dit scenario worden er nieuwe regels voor het opbrengstschema gemaakt waarvoor negatieve bedragen op de oorspronkelijke toerekeningsdatum voorkomen. Vervolgens worden er nieuwe regels gemaakt om de bedragen toe te rekenen op basis van het nieuwe opbrengstschema. Op 8 augustus 2019 hebt u bijvoorbeeld een opbrengst van € 10,53 toegerekend. Op 8 september 2019 hebt u een opbrengst van € 13,16 toegerekend. Daarom worden er twee nieuwe regels gemaakt op dezelfde datums. Eén regel is voor -€ 10,53 en de andere regel is voor -€ 13,16. Er worden vierentwintig nieuwe regels gemaakt en de totale uitgestelde opbrengst van € 160,61 wordt aan al deze regels toegewezen. U kunt de terugboekingsregels boeken door het proces **Journaal maken** uit te voeren.
 
-[![Opbrengsttoerekeningsschema](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
+[![Opbrengsttoerekeningsschema.](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

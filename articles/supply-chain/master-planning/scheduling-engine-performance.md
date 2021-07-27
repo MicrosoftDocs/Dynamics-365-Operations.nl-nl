@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1378ae652ea70cba941316f4667052dcb05f717
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 71aefbc9c041074225b379d90db5cecf3849cb59
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812902"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347705"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Prestaties van planningsengine verbeteren
 
@@ -66,11 +66,11 @@ Een voorbeeld hiervan is een route die wordt weergegeven in de volgende tabel en
 | 10 | Secundair&nbsp;1 | | | | 1 | 20 |
 | 20 | Primair | | 3.00 | 1.00 | 3 | 0 |
 
-![Voorbeeld van routediagram](media/scheduling-engine-route.png "Voorbeeld van routediagram")
+![Voorbeeld van routediagram.](media/scheduling-engine-route.png "Voorbeeld van routediagram")
 
 Wanneer u dit verzendt naar de engine, wordt het opgesplitst in acht taken, zoals wordt weergegeven in de volgende afbeelding (selecteer de afbeelding om deze te vergroten).
 
-[![Taken van planningsengine](media/scheduling-engine-jobs.png "Taken van planningsengine")](media/scheduling-engine-jobs-large.png)
+[![Enginetaken plannen](media/scheduling-engine-jobs.png "Enginetaken plannen."](media/scheduling-engine-jobs-large.png)
 
 De standaardkoppeling tussen twee taken is `FinishStart`, wat inhoudt dat de eindtijd van de ene taak vóór de begintijd van een andere taak moet liggen. Aangezien de instellingen moeten worden uitgevoerd door dezelfde resource die het proces later uitvoert, zijn er `OnSameResource`-beperkingen. Tussen de taken voor primaire en secundaire bewerking voor 10 zijn er `StartStart`- en `FinishFinish`-koppelingen, wat betekent dat de taken zowel op hetzelfde moment moeten beginnen als eindigen en dat er `NotOnSameResource`-beperkingen zijn, waardoor niet dezelfde resource voor primaire en secundaire bewerking wordt gebruikt.
 

@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39fae603a8ae34a7500ead1d2d1cecff6dc65f1e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 62cc0bb9d62b0ab90e212b03e6c4efd9734dadec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804036"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347411"
 ---
 # <a name="templates-and-layouts-overview"></a>Overzicht sjablonen en indelingen
 
@@ -32,7 +33,7 @@ Een goede start voor het werken met sjablonen is inzicht krijgen in de functione
 
 In de volgende afbeelding ziet u de paginamodelhiërarchie achter een weergegeven webpagina.
 
-![Paginamodeldiagram](../commerce/media/page-model-diagram.png)
+![Paginamodeldiagram.](../commerce/media/page-model-diagram.png)
 
 | Entiteit        | Basisfunctie |
 |---------------|----------------|
@@ -98,7 +99,7 @@ Vooraf gedefinieerde indelingen en aangepaste indelingen worden in verschillende
 
 In de volgende illustraties ziet u scenario's voor vooraf ingestelde en aangepaste indelingen.
 
-![Vooraf ingestelde en aangepaste indelingsscenario's](../commerce/media/template-figure1.png)
+![Vooraf ingestelde en aangepaste indelingsscenario's.](../commerce/media/template-figure1.png)
 
 Zie [Werken met vooraf ingestelde indelingen](work-with-layouts.md) om vooraf gedefinieerde indelingen te gebruiken.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dbf5f8f2fc3b33077d559ffcef580a5295adb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 59dda2207f002402f5153f9c77206b6c644f2679
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815567"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352853"
 ---
 # <a name="general-journal-processing"></a>Algemene journaalverwerking
 
@@ -42,14 +42,14 @@ Op de pagina **Journaalnamen** kunt u de volgende elementen instellen:
 
 U kunt een journaalnaam alleen gebruiken voor correcties. In dit geval kunt u opgeven dat alleen het rekeningtype **Grootboek** geldig is voor alle bedrijven. 
 
-[![Rekeningtypen voor journaalcontrole](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Rekeningtypen voor journaalcontrole.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Een journaalnaam kan alleen worden gebruikt voor een specifiek segment of voor een bereik voor hoofdrekeningen. 
 
-[![Journaalcontrolesegment](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Journaalcontrolesegment.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 De optie **Automatische omkering** is beschikbare in algemene journalen. U hebt bijvoorbeeld een toerekeningscorrectie waar het werkelijke document nog niet van is verwerkt, zoals in de volgende afbeelding.
-[![Omkering van algemeen journaal](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Omkering van algemeen journaal.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 De Microsoft Excel-invoegtoepassing voor journaalboeking biedt een extra niveau van automatisering en maakt gegevensinvoer eenvoudiger. De actie **Regels openen in Excel** is beschikbaar op de pagina's **Algemeen journaal** en **Journaalboekstuk**. 
 
