@@ -2,7 +2,7 @@
 title: Veelgestelde vragen over personeelsacties
 description: Dit artikel bevat antwoorden op vragen die u mogelijk hebt als uw organisatie personeelsacties gebruikt. Personeelsacties zijn aanvullende stappen die u moet voltooien wanneer u bepaalde personeelsgerelateerde taken uitvoert.
 author: andreabichsel
-ms.date: 06/16/2017
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a458800788d8e0df6c1f937a639eff31dcbb2c06
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 05365eabe6f3c283f5828e468c9323c3fa897fb8
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054543"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333014"
 ---
 # <a name="personnel-actions-faq"></a>Veelgestelde vragen over personeelsacties
 
@@ -51,7 +51,7 @@ Personeelacties kunnen een van de volgende statussen hebben:
 - **Geweigerd**: De actieaanvraag is afgewezen door de fiatteur.
 
 ## <a name="can-i-delete-a-personnel-action"></a>Kan ik een personeelsactie verwijderen?
-Ja, u kunt personeelsacties verwijderen die een status **Concept**, **Fout**, **Mislukt** of **Geannuleerd** hebben.
+Ja, u kunt personeelsacties verwijderen die een status **Concept**, **Fout**, **Mislukt** of **Geannuleerd** hebben. U kunt personeelsacties met de status **Voltooid** alleen verwijderen als u de optie **Verwijderen van voltooide werknemersacties toestaan** op **Ja** op de pagina **Gedeelde Human Resources-parameter** hebt ingesteld.
 
 ## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>Wat is de snelste manier om de status van een personeelsactieaanvraag te bekijken?
 Open een van de lijstpagina's van de personeelsacties en selecteer een personeelsactie.
@@ -68,7 +68,7 @@ Als een personeelsactieaanvraag mislukt, moet u deze stappen volgen om de fout o
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>Wat gebeuren er met een personeelsactie die werkstroom gebruikt wanneer de definitieve goedkeuring is voltooid?
 Als er geen fouten zijn, wordt de personeelsactie alleen-lezen. (U kunt de historie bekijken op de lijstpagina **Alle medewerkersacties**, maar u kunt de personeelsactie niet wijzigen.) Wanneer de status van een personeelsactie **Voltooid** is, is de positie- of werknemerrecord al bijgewerkt. Om de wijzigingen weer te geven die zijn uitgevoerd, opent u de lijstpagina **Posities** of **Medewerkers**.
 
-## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Waarom ontvang ik de volgende fout wanneer ik een niet-nulwaarde in het veld Salaristarief invoer? “De waarde valt buiten het geldige bereik. De waarde moet liggen tussen 0.00 en 0.00“
+## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Waarom ontvang ik de volgende fout wanneer ik een niet-nulwaarde in het veld Salaristarief invoer? "De waarde valt buiten het geldige bereik. De waarde moet liggen tussen 0.00 en 0.00"
 U ziet dit bericht omdat het veld Niveau in het formulier Functie leeg is voor de functie die aan de geselecteerde positie is gekoppeld.
 
 Om deze fout op te lossen, volgt u deze stappen:

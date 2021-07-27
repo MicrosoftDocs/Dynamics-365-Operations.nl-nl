@@ -355,6 +355,8 @@
           items:
             - name: Inleiding
               href: hr-admin-integration-ats-api-introduction.md
+            - name: Server-naar-server-verificatie voor ATS-integraties
+              href: hr-admin-integration-ats-api-s2s-auth.md
             - name: Wervingsaanvraag en gerelateerde entiteiten
               items:
                 - name: Wervingsaanvraag
@@ -441,18 +443,42 @@
           items:
             - name: Inleiding
               href: hr-admin-integration-payroll-api-introduction.md
-            - name: Entiteiten voor salarisadministratie genereren en beoordelen
+            - name: Salarisadministratie-entiteiten genereren en controleren
               href: hr-admin-integration-payroll-api-generate-review-entities.md
-            - name: Werknemer in salarisadministratie
-              href: hr-admin-integration-payroll-api-payroll-employee.md
-            - name: Adres medewerker salarisadministratie
-              href: hr-admin-integration-payroll-api-payroll-worker-address.md
-            - name: Vast compensatieplan in salarisadministratie
-              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
-            - name: Salarispositiefunctie
-              href: hr-admin-integration-payroll-api-payroll-position-job.md
-            - name: Salarispositie
-              href: hr-admin-integration-payroll-api-payroll-position.md
+            - name: Parameters voor de integratie van de salarisadministratie
+              href: hr-admin-integration-payroll-api-parameters.md
+            - name: Salarisadministratie-entiteiten
+              items:
+                - name: Salarisadministratie - werknemer
+                  href: hr-admin-integration-payroll-api-payroll-employee.md
+                - name: Salarisadministratie - adres van medewerker
+                  href: hr-admin-integration-payroll-api-payroll-worker-address.md
+                - name: Salarisadministratie - plan voor vaste compensatie
+                  href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+                - name: Salarisadministratie - plan voor variabele compensatie
+                  href: hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md
+                - name: Salarisadministratie - positie
+                  href: hr-admin-integration-payroll-api-payroll-position.md
+                - name: Salarisadministratie - positie en functie
+                  href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: Aan verlof en verzuim gerelateerde entiteiten
+              items:
+                - name: Verlofsaldo
+                  href: hr-admin-integration-payroll-api-leave-balance.md
+                - name: Verloftype
+                  href: hr-admin-integration-payroll-api-leave-type.md
+                - name: Verlofaanvraag
+                  href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Optiesets
+              items:
+                - name: Geslacht
+                  href: hr-admin-integration-payroll-api-gender.md
+                - name: Nee Ja
+                  href: hr-admin-integration-payroll-api-no-yes.md
+                - name: Toekenningstype
+                  href: hr-admin-integration-payroll-api-award-type.md
+                - name: Procestype
+                  href: hr-admin-integration-payroll-api-process-type.md
     - name: Gebruikershandleiding
       items:
         - name: Overzicht
@@ -503,7 +529,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/address-books.md?toc=/dynamics365/human-resources/toc.json
             - name: Werkstroomsysteem
               items:
-                - name: Overzicht van Werkstroomsysteem
+                - name: Overzicht van het werkstroomsysteem
                   href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
                 - name: Werkstroomsysteemarchitectuur
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
@@ -599,6 +625,8 @@
           items:
             - name: Uw personeel organiseren
               href: hr-personnel-departments-jobs-positions.md
+            - name: Werkgebied voor personeelsbeheer
+              href: hr-personnel-personnel-management-workspace.md
             - name: De onderdelen van een taak instellen
               href: hr-personnel-jobs.md
             - name: Afdelingen definiëren
@@ -607,6 +635,8 @@
               href: hr-personnel-add-department-hierarchy.md
             - name: Taken definiëren
               href: hr-personnel-define-jobs.md
+            - name: Posities
+              href: hr-personnel-positions.md
             - name: Een werktijdenkalender maken
               href: hr-personnel-create-working-time-calendar.md
             - name: Kandidaten werven
@@ -837,3 +867,69 @@
               href: hr-employee-manager-self-service-edit-personal-information.md
             - name: Het bewerken van persoonlijke gegevens beperken
               href: hr-employee-self-service-restrict-editing.md
+        - name: Het werkstroomsysteem gebruiken
+          items:
+            - name: Overzicht van het werkstroomsysteem
+              href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+            - name: Werkstroomsysteemarchitectuur
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+            - name: Werkstroomelementen
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: Werkstroomacties
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+            - name: Werkstromen maken
+              items:
+                - name: Overzicht van Werkstromen maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Werkstroomeigenschappen configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                - name: Handmatige taken configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Geautomatiseerde taken configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Goedkeuringsprocessen configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Goedkeuringsstappen configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Uitgavencontroleurs configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/human-resources/toc.json
+                - name: Handmatige beslissingen configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Voorwaardelijke beslissingen configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Parallelle activiteiten configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Parallelle vertakkingen configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Werkstromen voor regelitems configureren
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: De batchtaak voor Werkstroomberichtverwerking configureren als kritiek
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+            - name: Werkitems in een werkstroom delegeren
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Werkstroomhistorie bekijken
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+            - name: Het systeem configureren om werkstroomberichten te verzenden naar gebruikers
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+            - name: Werkstroomtypen
+              items:
+                - name: Een werkstroomtype maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: Controlelijst voor werkstroomtype
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                - name: Een werkstroomcategorie maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                - name: Een query voor een werkstroomtype maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                - name: Een nieuw werkstroomtype maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                - name: Een werkstroomdocumentklasse maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: Een SubmitToworkflow-klasse maken
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Een werkstroomdocumentklasse koppelen aan een werkstroomtype
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+            - name: Rapport over werkstroomtypen
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+            - name: Veelgestelde vragen over werkstromen
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json

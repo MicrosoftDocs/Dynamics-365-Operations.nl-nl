@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
-ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
+ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261905"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338224"
 ---
 # <a name="finance-insights-home-page-preview"></a>Startpagina van Financiële inzichten (preview)
 
@@ -29,9 +31,8 @@ ms.locfileid: "6261905"
 
 Financiële inzichten biedt configureerbare en uitbreidbare modellen om u te helpen de cashflow van uw bedrijf nauwkeurig en intelligent te voorspellen, te voorspellen wanneer u een betaling voor openstaande debiteuren ontvangt en een budgetvoorstel te genereren waarmee het budgetproces kan worden versneld. Al deze functies zijn gebaseerd op intelligente machine learning-modellen. Wanneer deze nieuwe mogelijkheden worden gecombineerd met automatisering in betalingen en incasso's van leveranciers, bieden ze een groot en intelligent financieel systeem dat de besluitvorming aanstuurt en u helpt actie te ondernemen om effectief te reageren op huidige en verwachte zakelijke uitdagingen.
 
-De preview van Financial Insights is beschikbaar voor proefimplementaties in de Verenigde Staten van Amerika, Europa en het Verenigd Koninkrijk. Microsoft voegt incrementeel ondersteuning toe voor meer regio's.
-
-Preview-functies kunnen en zouden alleen moeten worden ingeschakeld in Tier-2 sandbox-omgevingen. Setup-modellen en AI-modellen die in een sandbox-omgeving zijn gemaakt, kunnen niet naar een productieomgeving worden gemigreerd. Zie voor meer informatie [Aanvullende gebruiksrechtovereenkomst voor Microsoft Dynamics 365 Previews](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+> [!NOTE]
+> De openbare preview van Finance Insights is beschikbaar voor implementatie in de Verenigde Staten van Amerika, Canada, het Verenigd Koninkrijk, Europa, Azië/Pacific, Australië en Nieuw-Zeeland. Microsoft voegt incrementeel ondersteuning toe voor meer regio's. Als u Finance Insights wilt inschakelen in productieomgevingen, moeten eerst de capaciteiten voor [Exporteren Data lAKE](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) worden ingeschakeld in de productieomgeving.
 
 > [!NOTE]
 > Deze functionaliteit wordt aangeboden als een set preview-functies. Omdat het een preview-functie is, moet u de resulterende machine-leermodellen niet gebruiken als uitgangspunt voor uw zakelijke beslissingen of budgetvoorstellen. Uw gebruik van deze functie valt onder de [Aanvullende gebruiksrechtovereenkomst](https://go.microsoft.com/fwlink/?linkid=2105274).
@@ -46,7 +47,7 @@ Als u wilt deelnemen aan het preview-programma, vult u de [Preview Financiële i
 
 ### <a name="system-requirements"></a>Systeemvereisten
 
-Een Tier-2-sandbox-omgeving (multi-box) is vereist voor de preview van Financiële inzichten. Zie [Omgevingsplanning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) voor achtergrondinformatie over omgevingen.
+Een Tier-2-omgeving (multi-box) is vereist voor de preview van Finance insights. Zie [Omgevingsplanning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) voor achtergrondinformatie over omgevingen.
 
 ### <a name="version-requirements"></a>Versievereisten
 
@@ -55,8 +56,6 @@ Dit document is van toepassing op versie 10.0.11 van Finance and Operations-apps
 ### <a name="historical-data-requirements"></a>Historische gegevens-vereisten
 
 Er is ten minste één jaar klantfacturen nodig om het machine learning-model te trainen dat wordt gebruikt voor de functie Voorspellingen van klantbetalingen.
-
-Er zijn voorbeeldgegevens beschikbaar voor demosystemen met de demogegevensset van Contoso.
 
 ### <a name="role-and-permission-requirements"></a>Vereisten voor rollen en machtigingen
 
@@ -72,7 +71,7 @@ Bij het voltooien van dit proces helpt het als u vertrouwd bent met het maken en
 ## <a name="configure-finance-insights"></a>Finance Insights configureren
 
 U moet enkele configuratiestappen uitvoeren voordat u Finance Insights kunt gebruiken. Zie voor meer informatie over het configureren van Finance Insights:
-  - Voor versies tot en met 10.0.19: [Configuratie voor Finance Insights - versies tot en met 10.0.19](configure-for-fin-insites.md).
+  - Voor versies tot en met 10.0.19: [Configuratie voor Finance Insights (preview) - versies tot en met 10.0.19](configure-for-fin-insites.md).
   - Voor versies 10.0.20 en hoger: [Configuratie voor Finance Insights (preview) - versie 10.0.20 en hoger](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Een gegevensintegratorproject maken

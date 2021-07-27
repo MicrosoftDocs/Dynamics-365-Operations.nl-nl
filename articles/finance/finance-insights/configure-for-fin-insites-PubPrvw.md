@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 613bd4816e2f0c4fbb56cf79779a08c6a09592bd
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: eeb3061f215666d0aeb32094b5d04a9ae6e618f2
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222607"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309660"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Configuratie voor Finance insights in openbare preview (preview) - versie 10.0.20 en hoger
 
@@ -33,7 +33,7 @@ ms.locfileid: "6222607"
 Finance Insights combineert de functionaliteit van Microsoft Dynamics 365 Finance met Dataverse, Azure en AI Builder, zodat u beschikt over krachtige prognosefuncties voor uw organisatie. In dit onderwerp wordt uitgelegd hoe u Dynamics 365 Finance versie 10.0.20 configureert zodat uw systeem de mogelijkheden kan gebruiken die beschikbaar zijn in Finance Insights voor openbare preview.
 
 > [!NOTE]
-> De configuratiestappen die in dit onderwerp worden beschreven, zijn alleen van toepassing op Finance versie 10.0.20 en hoger. Zie [Configuratie voor Finance Insights - versies tot en met 10.0.18](configure-for-fin-insites.md) als u Finance insights versie 10.0.19 en lager wilt instellen.
+> De configuratiestappen die in dit onderwerp worden beschreven, zijn alleen van toepassing op Finance versie 10.0.20 en hoger. Zie [Configuratie voor Finance Insights - versies tot en met 10.0.19](configure-for-fin-insites.md) als u Finance insights versie 10.0.19 en lager wilt instellen.
 
 ## <a name="deploy-finance"></a>Finance implementeren
 
@@ -748,6 +748,8 @@ Voer de volgende stappen uit om de invoegtoepassing Finance insights te installe
 2. Selecteer in de sectie **Invoegtoepassingen voor omgeving** de optie **Een nieuwe invoegtoepassing installeren**.
 3. Selecteer de invoegtoepassing **Finance insights**.
 4. Ga akkoord met de voorwaarden en selecteer vervolgens **Installeren**.
+
+Het kan enkele minuten duren voordat de invoegtoepassing is geïnstalleerd.
 
 ## <a name="feedback-and-support"></a>Feedback en ondersteuning
 

@@ -2,7 +2,7 @@
 title: Gedeelde parameters configureren
 description: U moet gedeelde parameters instellen voor records die tussen bedrijven worden gedeeld, zoals Positierecords. In dit artikel wordt uitgelegd hoe u Human Resources-parameters instelt voor alle rechtspersonen.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 06/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 888caa19a9befd32ce27b27e499cdfe88a1bbf01
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 7aff01bee8cadcf852ae32fd60447c68e2174a2a
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054519"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6332990"
 ---
 # <a name="configure-shared-parameters"></a>Gedeelde parameters configureren
 
@@ -32,18 +32,31 @@ Bepaalde typen records, zoals positierecords worden gedeeld tussen bedrijven. Vo
 
 Op de **Gedeelde Human resources-parameters** pagina worden de parameters gegroepeerd in gebieden, op basis van hun functionaliteit. 
 
-### <a name="previously-released-functionality"></a>Eerder uitgebrachte functionaliteit
+### <a name="settings"></a>Instellingen
 Op het **Identificatie** tabblad, moet u de identificatietypen selecteren die de identificatienummers vertegenwoordigen die op de pagina worden weergeven. U moet identificatietypen instellen voordat u identificatiegegevens voor werknemers kunt invoeren. Informatie over het burgerservicenummer, het nationale id-nummer, het vreemdelingen-id-nummer en de persoonlijke id-code wordt onderhouden op de pagina **Identificatietype**. Om een nieuw identificatietype te definiëren of de lijst met bestaande typen te controleren, klikt u op **Personeelsbeheer** &gt; tabblad **Koppelingen** &gt; **Instellingen** &gt; **Identificatietypen**. U kunt eenvoudige code en omschrijving invoeren. 
-
-### <a name="if-youre-using-dynamics-365-human-resources"></a>Als u Dynamics 365 Human Resources gebruikt
-Op het **Identificatie** tabblad, moet u de identificatietypen selecteren die de identificatienummers vertegenwoordigen die op de pagina worden weergeven. U moet identificatietypen instellen voordat u identificatiegegevens voor werknemers kunt invoeren. Informatie over het burgerservicenummer, het nationale id-nummer, het vreemdelingen-id-nummer en de persoonlijke id-code wordt onderhouden op de pagina **Identificatietype**. Om een nieuw identificatie type te definiëren of de lijst met bestaande typen te controleren, klikt u op **HRM** &gt; **Instellen** &gt; **Identificatietypen**. U kunt eenvoudige code en omschrijving invoeren. 
 
 Op het **Nummerreeksen** tabblad, kunt u nummerreeksen selecteren die voor de volgende records worden gebruikt: Het personeelsnummer, Positie, ID gebruikersaanvraag, I-9-document, Sollicitant, Discussie, Vergoeding-id en personeelsactie (als dit recordtype is ingeschakeld). Voor het verzorgen van verwijzingen en codes, gebruikt u de lijstpagina **Nummerreeksen**. U kunt deze pagina vinden via de paginazoekfunctie. 
 
 Op het **Posities** tabblad, geeft u aan of de nieuwe posities beschikbaar zijn voor standaard toewijzing:
 
--   **Altijd:** U kunt werknemers toewijzen aan nieuwe posities wanneer posities worden gemaakt. Wanneer posities worden gemaakt, worden de datum en tijd van **Beschikbaar voor toewijzing** op het tabblad **Algemeen** van de pagina **Positie** automatisch ingesteld op de aanmaakdatum- en tijd.
--   **Nooit** – U kunt geen werknemers toewijzen aan nieuwe posities wanneer posities worden gemaakt. Als u deze optie hebt geselecteerd, moet u de pagina **Positie** openen voor elke nieuwe positie zodra deze beschikbaar wordt en vervolgens op het tabblad **Algemeen** de datum **Beschikbaar voor toewijzing** invoeren om de werknemerstoewijzing in te schakelen.
+- **Altijd:** U kunt werknemers toewijzen aan nieuwe posities wanneer posities worden gemaakt. Wanneer posities worden gemaakt, worden de datum en tijd van **Beschikbaar voor toewijzing** op het tabblad **Algemeen** van de pagina **Positie** automatisch ingesteld op de aanmaakdatum- en tijd.
+- **Nooit** – U kunt geen werknemers toewijzen aan nieuwe posities wanneer posities worden gemaakt. Als u deze optie selecteert, moet u de pagina **Positie** openen voor elke nieuwe positie zodra deze beschikbaar komt. Voer vervolgens op het tabblad **Algemeen** de datum voor **Beschikbaar voor toewijzing** in om medewerkertoewijzing in te schakelen.
 
+Op het tabblad **Geavanceerde toegang** kunt u de toegang beperken tot bepaalde gegevens of koppelingen:
+
+- **Toegang tot werknemersgegevens beperken**: schakel deze functie in als gebruikers werknemersgegevens alleen mogen bekijken voor rechtspersonen waartoe ze toegang hebben, en voor werknemers die een dienstverband hebben in deze rechtspersonen.
+
+    Nadat deze functie is ingeschakeld, moet u de volgende stappen volgen om de juiste machtigingen in te stellen voor elke gebruiker van wie de weergave moet worden beperkt:
+
+    1. Selecteer een gebruiker op de pagina **Gebruikers**.
+    1. Selecteer een rol voor de gebruiker. De optie **Organisaties toewijzen** komt beschikbaar.
+    1. Selecteer **Organisaties toewijzen**.
+    1. Selecteer op de nieuwe pagina **De toegang verlenen tot specifieke organisaties** en selecteer vervolgens de organisaties waartoe de gebruiker toegang moet hebben.
+    1. Herhaal stap 2 tot en met 4 voor elke andere rol die de gebruiker heeft, inclusief de rol van de systeemgebruiker.
+
+    > [!NOTE]
+    > De bedrijven waartoe een gebruiker toegang heeft, moeten overeenkomen met alle rollen van de gebruiker.
+
+- **Compensatieweergave voor bedrijven inschakelen**: compensatie voor werknemers wordt toegewezen per rechtspersoon van dienstverband. Soms kan een werknemer in dienst zijn bij meerdere rechtspersonen tegelijk. Wanneer deze functie is ingeschakeld, wordt de compensatie voor elke rechtspersoon weergegeven in Selfservice werknemer en Selfservice manager zonder dat u van rechtspersoon hoeft te veranderen. 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

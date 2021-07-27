@@ -2,11 +2,11 @@
 title: De onderdelen van een taak instellen
 description: In dit artikel worden de conceptuele elementen beschreven die een functie kan bevatten en worden voorbeelden gegeven van de wijze waarop u deze elementen in uw organisatie kunt gebruiken.
 author: andreabichsel
-ms.date: 06/20/2017
+ms.date: 06/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace
+ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
 ms.author: anbichse
 ms.search.scope: Human Resources
@@ -15,12 +15,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88dc3cec4880fdcb4d4f8d54b03037f738d2a57a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d4e24e64f3fece0807df8fbf4fb206c4588c9332
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056564"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333088"
 ---
 # <a name="set-up-the-components-of-a-job"></a>De onderdelen van een taak instellen
 
@@ -37,14 +37,19 @@ Voordat u taken maakt, moet u titels voor deze taken instellen. Posities nemen d
 
 Op de pagina **Titels** kunt u functietitels onderhouden. Deze pagina opent u met de functie Zoeken. Op de pagina **Titels** voert u de titels in die u wilt gebruiken voor uw functies.
 
-## <a name="job-types"></a>Taaktypen
+## <a name="job-types"></a>Functietypen
 U gebruikt functietypen om vergelijkbare functies in categorieën te groeperen. Functietypen zijn niet verplicht. Als u van plan bent om taaktypen te gebruiken wanneer u beschikbaarheidregels instelt voor compensatiebeheer, moet u taaktypen instellen voordat u taken instelt. Enkele voorbeelden van functietypen zijn fulltime en parttime of salaris en uurtarief. U onderhoudt functietypen met behulp van de pagina **Functietypen**. Voer op de pagina **Functietypen** een naam en een korte omschrijving voor het functietype in. Selecteer in het veld **Vrijstellingsstatus** een van de volgende opties om de FLSA-vrijstellingsstatus (Fair Labor Standards Act) aan te geven voor functies die dit functietype hebben:
 
 -   **Vrijgesteld**: functies zijn vrijgesteld van overuren volgens de FLSA.
 -   **Niet-vrijgesteld**: functies zijn niet vrijgesteld van overuren volgens de FLSA.
 -   **Niet van toepassing**: FLSA is niet van toepassing.
 
-## <a name="job-functions"></a>Taakfuncties
+## <a name="job-family"></a>Taakgroep
+Een taakgroep is een groep taken waarin gelijksoortige werkzaamheden worden verricht en waarvoor vergelijkbare training, vaardigheden, kennis en expertise nodig zijn. Een taakgroep kan worden gekoppeld aan een taak op het sneltabblad **Taakclassificatie** van de pagina **Taken** en op het sneltabpagina **Algemeen** van de pagina **Alle posities**. Taakgroepen kunnen breed of specifiek zijn, afhankelijk van uw bedrijf en rapportagevereisten. Enkele voorbeelden van brede taakgroepen zijn **Geschoolde arbeid** en **Ongeschoolde arbeid**. Enkele voorbeelden van specifieke taakgroepen zijn **Boekhouding**, **Productie** en **Verkoop**.
+
+Onderhoud taakgroepen via de pagina **Taakgroep**. Deze pagina opent u met de zoekfunctie. Voer op de pagina **Taakgroep** een unieke naam voor de groep in en voer een gedetailleerde omschrijving in die u voor uw taken wilt gebruiken.
+
+## <a name="job-functions"></a>Functieposities
 Functiebeschrijvingen beschrijven functionele categorieën op hoog niveau beschreven en hebben betrekking op taken op hoog niveau. Functiebeschrijvingen zijn niet verplicht. U kunt functiebeschrijvingen in combinatie met functietypen gebruiken om compensatieplannen voor specifieke functies te filteren. U koppelt functiebeschrijvingen en functietypen aan compensatieplannen door geschiktheidsregels in te stellen op de pagina **Geschiktheidsregels**. U kunt vervolgens een aantal niveaus aan een compensatieplan koppelen dat van toepassing is op de specifieke combinatie van een functietype en functiebeschrijving die u via een geschiktheidsregel hebt gedefinieerd. (Deze functies gelden zowel voor vaste compensatieplannen als voor variabele compensatieplannen.) Als u echter van plan bent om functiebeschrijvingen te gebruiken wanneer u geschiktheidsregels instelt voor compensatiebeheer, moet u functiebeschrijvingen instellen voordat u functies instelt. In de volgende tabel vindt u enkele voorbeelden van functiebeschrijvingen.
 
 | Functie           | Taakfunctie         |
@@ -53,6 +58,14 @@ Functiebeschrijvingen beschrijven functionele categorieën op hoog niveau beschr
 | Accountant    | Professionals        |
 
 U onderhoudt functiebeschrijvingen met behulp van de pagina **Functiebeschrijvingen**. Voer op de pagina **Functiebeschrijvingen** een identificatiecode en een korte omschrijving voor de functie in.
+
+## <a name="compensation"></a>Compensatie
+Als u een plan voor vaste compensatie wilt toewijzen aan een werknemer die een positie in een taak heeft, moet u compensatieniveaus voor de taak instellen. Het compensatieniveau wordt gebruikt wanneer minimum-, middelpunt- en maximumbedragen worden ingesteld in een compensatiestructuur (compensatieraster). Wanneer u een plan voor vaste compensatie maakt, wordt de compensatiestructuur geselecteerd. De compensatiestructuur bevat ook het compensatieniveau. Wanneer u een plan voor vaste compensatie voor een werknemer selecteert, zijn de compensatieniveaus die beschikbaar zijn voor selectie afhankelijk van de positie van de werknemer. Zie [Compensatieplannen](hr-compensation-overview.md) voor meer informatie over het instellen van compensatieplannen.
+
+## <a name="job-skills"></a>Functievaardigheden
+Met functievaardigheden worden de vaardigheden beschreven die zijn vereist om een taak uit te voeren. Aan elke functievaardigheid moet een vaardigheidsniveau worden gekoppeld. De vaardigheidsniveaus zijn door de gebruiker gedefinieerd. Ze geven het kennis- of vaardigheidsniveau aan dat vereist is voor de vaardigheid. Bedrijven kunnen bijvoorbeeld numerieke niveaus instellen, zoals 1 tot en met 5, waarbij **1** een beginner aangeeft en **5** een expert. Bedrijven kunnen ook niveaus instellen met de naam **Beginner**, **Gevorderde** of **Expert**. Nadat het vaardigheidsniveau is ingesteld, kan ook het belang van de vaardigheid worden ingesteld. Als een boekhouder bijvoorbeeld een goede kennis van Microsoft Excel moet hebben, kan een vaardigheid met de naam **Excel-kennis** worden gemaakt. Het vaardigheidsniveau kan vervolgens worden ingesteld op **Gevorderde** en het belang op **Meest**.
+
+De vaardigheden voor een taak kunnen worden gebruikt bij vaardigheidstoewijzing. Met vaardigheidstoewijzing kan de vereiste reeks van vaardigheden voor een taak worden vergeleken met de vaardigheden die aan een medewerker zijn gekoppeld. Het kan vervolgens een percentuele afstemming bepalen op basis van overlappende vaardigheden. Zie [Vaardigheden configureren](hr-develop-skills.md) voor meer informatie over vaardigheidstoewijzing. 
 
 ## <a name="job-tasks"></a>Functies
 Functietaken beschrijven de basistaken die een werknemer op een positie voor een functie moet uitvoeren. Dezelfde functietaak kan worden toegevoegd aan meerdere functies, en aan posities voor de functies die deze functietaken gebruiken. In de volgende tabel vindt u enkele voorbeelden van functietaken.

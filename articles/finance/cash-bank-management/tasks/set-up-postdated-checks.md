@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 1d73a382f1786a73a5af917b28d00384ecc36aa8
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026200"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309761"
 ---
 # <a name="set-up-postdated-checks"></a>Gepostdateerde cheques instellen
 
@@ -58,6 +58,7 @@ De rol van deze procedure is penningmeester. Bij deze procedure wordt het demobe
 > 
 > Bij het instellen van de **Betalingsmethode** (**Crediteuren > Betalingsinstellingen > Betalingsmethoden**) moet u de **Overbruggingsrekening** niet invullen. In dit geval wordt de tegenrekening gevuld met de bankrekening, die is ingesteld in **Betalingsmethode**.
 >  
-> Wanneer de functie is ingeschakeld en de sessiedatum eerder is dan de vervaldatum, wordt het volgende foutbericht weergegeven bij het boeken van een betalingsjournaal: 'Vervaldatum moet eerder zijn dan of gelijk zijn aan de sessiedatum als het type tegenrekening Bank is'. Als de functie niet is ingeschakeld, kunt u een betalingsjournaal met een gepostdateerde cheque maken wanneer de sessiedatum eerder is dan de vervaldatum.    
+> Wanneer de functie is ingeschakeld en de sessiedatum eerder is dan de vervaldatum, wordt het volgende foutbericht weergegeven bij het boeken van een betalingsjournaal: 'Vervaldatum moet eerder zijn dan of gelijk zijn aan de sessiedatum als het type tegenrekening Bank is'. Als de functie niet is ingeschakeld, kunt u een betalingsjournaal met een gepostdateerde cheque maken wanneer de sessiedatum eerder is dan de vervaldatum.
+> Deze functie is beschikbaar in versie 10.0.21 of hoger.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

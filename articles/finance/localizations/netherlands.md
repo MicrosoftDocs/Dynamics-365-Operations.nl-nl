@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
+ms.custom: intro-internal
 ms.search.region: Netherlands
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 874a2df08ae751efb59cf26c0ace46f3f91b8395
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c0f50114b1fa421a85d5323e06db547c79098cc
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822795"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336576"
 ---
 # <a name="netherlands-overview"></a>Overzicht Nederland
 
