@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 659211f3a74c38389f991cd2385366d175b0c7c0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ba6dadf7f96510ae55c41a74d53e3ca89f663ef8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020254"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344069"
 ---
 # <a name="map-module"></a>Kaartmodule
 
@@ -38,13 +38,13 @@ Een kaartmodule werkt samen met de winkelselectiemodule om de geografische locat
 
 De volgende afbeelding toont een voorbeeld van een kaartmodule die wordt gebruikt op winkellocatiepagina.
 
-![Voorbeeld van een winkelselectiemodule](./media/ecommerce-Storelocator.PNG)
+![Voorbeeld van een winkelselectiemodule.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="module-properties"></a>Module-eigenschappen
 
-| Naam van eigenschap.             | Waarde                 | Omschrijving |
+| Naam van eigenschap.             | Waarde                 | Beschrijving |
 |---------------------------|-----------------------|-------------|
-| Kop | Tekst | De koptekst voor de module. |
+| Koptekst | Tekst | De koptekst voor de module. |
 | Punaiseopties: standaardpictogram | Afbeelding | Het punaisesymbool dat moet worden gebruikt voor winkels die op een kaart worden weergegeven. |
 | Punaiseopties: pictogram Actief | Afbeelding | Het punaisesymbool dat moet worden gebruikt voor een winkel die op een kaart is geselecteerd. |
 | Punaiseopties: standaardpictogramkleur | Tekenreeks | De tekst of hexadecimale waarde voor de kleur van punaisesymbolen op een kaart. |

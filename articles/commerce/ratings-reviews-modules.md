@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 27e52a94208129aee0e33074e7fc3778de53733a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193277"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355824"
 ---
 # <a name="ratings-and-reviews-modules"></a>Beoordelings- en recensiemodules
 
@@ -42,20 +42,20 @@ Drie modules geven een overzicht van beoordelingen en recensies voor pagina's me
  
 In de volgende afbeelding ziet u hoe de modules voor beoordelingen en recensies er uitzien op een PDP.
 
-![Beoordelings- en recensiemodules op een PDP](media/rnr-eCommerce-pdp-reviews-modules_design.png)
+![Beoordelings- en recensiemodules op een PDP.](media/rnr-eCommerce-pdp-reviews-modules_design.png)
 
 > [!TIP] 
 > Zie [Overzicht van sjablonen en indelingen](templates-layouts-overview.md) voor informatie over het optimaliseren van de PDP-sjablonen en -indelingen zodat u de configuraties voor beoordelingen en revisies kunt delen tussen meerdere PDP-pagina's op uw e-commerce-site.
 
 In de volgende afbeelding ziet u hoe in het dialoogvenster **Module toevoegen** modules voor beoordelingen en recensies in Dynamics 365 Commerce worden weergegeven.
-![Het dialoogvenster Module toevoegen](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
+![Het dialoogvenster Module toevoegen.](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
 
 ### <a name="write-review-module"></a>Module voor recensie schrijven
 
 De module voor het schrijven van een recensie bevat een knop **Schrijf een recensie** waarmee gebruikers zich kunnen aanmelden, een beoordeling kunnen toewijzen en een recensie van een product kunnen schrijven. Met deze module kunnen gebruikers ook een beoordeling of een recensie bewerken die ze eerder hebben ingediend. Deze module wordt meestal weergegeven boven het beoordelingshistogram en de lijstmodules met productrecensies op een PDP.
 In de volgende afbeelding ziet u het dialoogvenster **Schrijf een recensie** dat wordt weergegeven wanneer een klant **Schrijf een recensie** selecteert. De klant kan dit dialoog venster gebruiken om een beoordeling en een recensie in te dienen.
 
-![Het dialoogvenster Schrijf een recensie](media/rnr-eCommerce-write-review-module.png)
+![Het dialoogvenster Schrijf een recensie.](media/rnr-eCommerce-write-review-module.png)
 
 In de volgende tabel wordt de eigenschap van de module voor het schrijven van een recensie weergegeven die moet worden geconfigureerd in het ontwerpgereedschap.
 
@@ -67,7 +67,7 @@ In de volgende tabel wordt de eigenschap van de module voor het schrijven van ee
 
 In de module met het beoordelingshistogram wordt een beoordelingshistogram weergegeven. Deze module wordt meestal weergegeven tussen de module Schrijf een recensie en de module met de productrecensielijst op een PDP-pagina.
 Voor de module met het beoordelingshistogram is geen configuratie vereist. U hoeft de module alleen aan de PDP-sjabloon toe te voegen. De volgende illustraties laten zien hoe een PDP-sjabloon eruitziet in Dynamics 365 Commerce wanneer de modules voor beoordelingen en recensies zijn geconfigureerd voor weergave op productbeschrijvingen.
-![PDP-sjabloon wanneer beoordelingen en recensies zijn geconfigureerd voor weergave in productbeschrijvingen](media/rnr-eCommerce-pdp-reviews-modules.png)
+![PDP-sjabloon wanneer beoordelingen en recensies zijn geconfigureerd voor weergave in productbeschrijvingen.](media/rnr-eCommerce-pdp-reviews-modules.png)
 
 ### <a name="product-reviews-list-module"></a>Module met productrecensie
 
@@ -82,7 +82,7 @@ In de volgende tabel worden de eigenschappen van de module voor productrecensiel
 
 De module met de productrecensielijst bevat een vak waarin u een beoordelingshistogrammodule kunt toevoegen. In de volgende afbeelding ziet u hoe u een beoordelingshistogrammodule in de module met de productrecensielijst kunt toevoegen in Dynamics 365 Commerce.
 
-![Een beoordelingshistogrammodule toevoegen aan de module met de productrecensielijst](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
+![Een beoordelingshistogrammodule toevoegen aan de module met de productrecensielijst.](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

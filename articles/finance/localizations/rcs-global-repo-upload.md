@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: a138fd4b525077f12f6575f4b10f682728b71203
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b89c3feb9287b6f445b1dff7252899532df8819
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838714"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361207"
 ---
 # <a name="create-er-configurations-in-regulatory-configuration-services-rcs-and-upload-them-to-the-global-repository"></a>ER-configuraties uitvoeren in Regulatory Configuration Services (RCS) en deze uploaden naar de algemene opslagplaats
 
@@ -51,7 +51,7 @@ Als er al een RCS-omgeving is ingericht voor uw bedrijf, gebruikt u de pagina-UR
 5. Voer een naam en omschrijving in en selecteer vervolgens **Configuratie maken** om een nieuwe afgeleide versie te maken.
 6. Selecteer de nieuw afgeleide configuratie, voeg een beschrijving van de versie toe en selecteer **OK**. De status van de configuratie wordt gewijzigd in **Voltooid**.
 
-![Nieuwe configuratieversie in RCS](media/RCS_CompleteConfig.JPG)
+![Nieuwe configuratieversie in RCS.](media/RCS_CompleteConfig.JPG)
 
 > [!NOTE]
 > Wanneer de configuratiestatus wordt gewijzigd, kan er een validatiefoutbericht worden weergegeven met betrekking tot de verbonden toepassingen. Als u de validatie wilt uitschakelen, selecteert u in het actievenster op het tablad **Configuraties** de optie **Gebruikersparameters** en stelt u vervolgens de optie **Validatie overslaan bij statuswijziging en rebase van configuratie** in op **Ja** 
@@ -63,7 +63,7 @@ Als u een nieuwe of afgeleide configuratie wilt delen met uw organisatie, kunt u
 1. Selecteer de voltooide versie van de configuratie en selecteer vervolgens **Uploaden naar opslagplaats**.
 2. Selecteer de optie **Algemeen (Microsoft)** en selecteer vervolgens **Uploaden**.
 
-    ![Opties voor uploaden naar opslagplaats](media/RCS_Upload_to_GlobalRepo_options.JPG)
+    ![Opties voor uploaden naar opslagplaats.](media/RCS_Upload_to_GlobalRepo_options.JPG)
 
 3. Selecteer **Ja** in het venster met het bevestigingsbericht. 
 4. Werk de beschrijving van de versie zo nodig bij en selecteer vervolgens **OK**. 
@@ -73,7 +73,7 @@ De status van de configuratie wordt bijgewerkt naar **Delen** en de configuratie
 - Importeren in uw Dynamics 365-exemplaar. Zie [(ER) Configuraties importeren vanuit RCS](../../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md) voor meer informatie.
 - Delen met een derde of een externe organisatie. Zie [RCS-configuraties voor elektronisch rapportage (ER) delen met externe organisaties](rcs-global-repo-share-configuration.md)
 
-    ![Afgeleide Intrastat-configuratieversie voor Contoso in de algemene opslagplaats](media/RCS_Config_upload_GlobalRepo.JPG)
+    ![Afgeleide Intrastat-configuratieversie voor Contoso in de algemene opslagplaats.](media/RCS_Config_upload_GlobalRepo.JPG)
 
 ## <a name="delete-a-configuration-from-the-global-repository"></a>Een configuratie verwijderen uit de algemene opslagplaats
 Voer de volgende stappen uit om een configuratie te verwijderen die uw organisatie heeft gemaakt.
@@ -84,11 +84,11 @@ Voer de volgende stappen uit om een configuratie te verwijderen die uw organisat
 4. Zoek op het sneltabblad **Filter** de configuratie die u wilt verwijderen met behulp van de functionaliteit **Filter**.
 5. Selecteer op het sneltabblad **Versie** de versie van de configuratie die u wilt verwijderen en selecteer **Verwijderen**:
 
-    ![Configuratie verwijderen uit algemene opslagplaats](media/RCS_Delete_from_GlobalRepo.JPG)
+    ![Configuratie verwijderen uit algemene opslagplaats.](media/RCS_Delete_from_GlobalRepo.JPG)
 
 6. Selecteer **Ja** in het venster met het bevestigingsbericht.
 
-    ![Bevestigingsbericht van configuratieversie verwijderen](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
+    ![Bevestigingsbericht van configuratieversie verwijderen.](media/RCS_Delete_from_GlobalRepo_Msg.JPG)
  
 De configuratieversie wordt verwijderd en er wordt een bevestigingsbericht weergegeven. 
 

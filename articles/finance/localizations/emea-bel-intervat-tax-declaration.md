@@ -14,12 +14,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.dyn365.ops.version: AX 7.0.1
 ms.search.validFrom: 2016-05-31
-ms.openlocfilehash: 6a8fa56d705d4b4ecb936fd2f49bc773509e38dd
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 89c078ecdbd70f0dd5de87262979e652484f928f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894859"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359285"
 ---
 # <a name="intervat-tax-declaration"></a>INTERVAT-belastingaangifte
 
@@ -115,7 +115,7 @@ Zie [Btw-aangifte voor Europa](https://github.com/MicrosoftDocs/Dynamics-365-Ope
 
 Maak regels op de pagina **INTERVAT-instellingen** (**Belasting \> Instellen \> Btw \> INTERVAT-instellingen**). De informatie die u op deze pagina invoert wordt gebruikt wanneer u **Website openen** selecteert op de pagina **INTERVAT-belastingaangifte**. Maak voor elke taal een element. Stel de volgende velden in: **Taal**, **Beschrijving** en **URL**.
 
-![Pagina Intervat-instellingen](media/1_Intervat_setup.png)
+![Pagina Intervat-instellingen.](media/1_Intervat_setup.png)
 
 ### <a name="set-up-sales-tax-reporting-codes"></a>Btw-aangiftecodes instellen
 
@@ -665,7 +665,7 @@ U kunt de belastingperiode ook afsluiten door een btw-betaling te genereren (**B
 4.  Selecteer **OK**. Het systeem genereert de INTERVAT-belastingaangifteregel en een INTERVAT XML-bestand.
 5.  Bekijk de gegevens in de aangifte.
 
-![Pagina INTERVAT-belastingaangifte](media/2_Intervat_tax%20declaration.png)
+![Pagina INTERVAT-belastingaangifte.](media/2_Intervat_tax%20declaration.png)
 
 6.  Controleer de volgende velden op het tabblad **Algemeen**: **INTERVAT-id**, **Datum**, **Periode**, **Begindatum**, **Einddatum**, **Periodefrequentie**, **Status** en **Bestandsnaam**.
 7.  Controleer de volgende velden op het tabblad **Frame I: Algemene informatie**. U kunt deze velden bewerken, zelfs als de periode is afgesloten. De uitzonderingen zijn de velden in de sectie **Omslagpercentages**. Deze velden zijn alleen-lezen.
@@ -699,7 +699,7 @@ Als u een INTERVAT-belastingaangifte wilt afdrukken voor verschillende belasting
 1.  Ga naar **Belasting** \> **Query's en rapporten** \> **Btw-aangiften** \> **INTERVAT-belastingaangifte**.
 2.  Gebruik de filters om criteria op te geven voor het selecteren van gegevens en bekijk vervolgens de informatie in het rapport.
 
-![Gegenereerd rapport voor overzicht INTERVAT-belastingaangiften](media/3_Intervat_summary_tax_declarations.png)
+![Gegenereerd rapport voor overzicht INTERVAT-belastingaangiften.](media/3_Intervat_summary_tax_declarations.png)
 
 ## <a name="example"></a>Voorbeeld
 In het volgende voorbeeld ziet u hoe u btw-codes en btw-aangiftecodes kunt instellen, transacties kunt boeken en de INTERVAT-belastingaangifte kunt genereren.
@@ -765,7 +765,7 @@ In plaats van de codes **55** en **59** kunt u correctiecodes **63** en **64** g
 9.  Selecteer in het dialoogvenster **Btw rapporteren voor vereffeningsperiode** in het veld **Versie van btw-betaling** de optie **Origineel**.
 10.  Selecteer **OK** en bekijk de gegevens.
 
-![Gegenereerde pagina INTERVAT-btw-aangifte](media/4_Intervat_tax_declaration.png)
+![Gegenereerde pagina INTERVAT-btw-aangifte.](media/4_Intervat_tax_declaration.png)
 
 U ziet dat het bedrag van de creditnota wordt weergegeven in code **84**.
 
@@ -773,7 +773,7 @@ U ziet dat het bedrag van de creditnota wordt weergegeven in code **84**.
 12.  Selecteer **Nieuw** om een regel voor februari 2020 te maken.
 13.  Selecteer **Btw-correcties \> Correcties** en maak een regel.
 
-![Pagina Correcties](media/5_Adjustments.png)
+![Pagina Correcties.](media/5_Adjustments.png)
 
 14.  Ga naar **Belasting** \> **Aangiften** \> **Btw** \> **Btw vereffenen en boeken**.
 15.  Selecteer in het dialoogvenster **Btw vereffenen en boeken** in het veld **Versie van btw-betaling** de optie **Origineel**.
@@ -786,15 +786,15 @@ U ziet dat het bedrag van de creditnota wordt weergegeven in code **84**.
    -   **Update:** Nee
    -   **Indelingstoewijzing:** INTERVAT-indeling (BE)
 
-![Pagina Nieuwe INTERVAT-belastingaangifte](media/6_Intervat.png)
+![Pagina Nieuwe INTERVAT-belastingaangifte.](media/6_Intervat.png)
 
 18.  Selecteer **OK**, open het bestand en bekijk het rapport.
 
-![xml-rapport met INTERVAT-belastingaangifte](media/7_Intervat_XML.png)
+![xml-rapport met INTERVAT-belastingaangifte.](media/7_Intervat_XML.png)
 
 19.  Selecteer **Details** en bekijk de gegevens.
 
-![Pagina INTERVAT-gegevens](media/8_Intervat_details.png)
+![Pagina INTERVAT-gegevens.](media/8_Intervat_details.png)
 
 Zoals u ziet, is het bedrag in code **62** gelijk aan **200**.
     

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 5cb7f8b9a3107a7787c787ace71ab574457b1646
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb98f266a217fc16c56c38e2480b85f529fb1862
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828485"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359832"
 ---
 # <a name="synchronize-project-list-from-supply-chain-management-to-field-service"></a>Projectlijsten uit Supply Chain Management synchroniseren met Field Service
 
@@ -29,7 +29,7 @@ ms.locfileid: "5828485"
 
 In dit onderwerp worden de sjablonen en de onderliggende taken besproken die worden gebruikt om projecten te synchroniseren van Dynamics 365 Supply Chain Management met Dynamics 365 Field Service.
 
-[![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service](./media/FSProjectOW.png)](./media/FSProjectOW.png)
+[![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service.](./media/FSProjectOW.png)](./media/FSProjectOW.png)
 
 ## <a name="templates-and-tasks"></a>Sjablonen en taken
 De volgende sjabloon en onderliggende taken worden gebruikt voor het synchroniseren van projecten vanuit Supply Chain Management naar Field Service.
@@ -63,7 +63,7 @@ Wijzigingen bijhouden voor gegevensentiteitprojecten inschakelen
 
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Projecten (Supply Chain Management naar Field Service): Projects
 
-[![Sjabloontoewijzing in Gegevensintegratie](./media/FSProject1.png)](./media/FSProject1.png)
+[![Sjabloontoewijzing in Gegevensintegratie.](./media/FSProject1.png)](./media/FSProject1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

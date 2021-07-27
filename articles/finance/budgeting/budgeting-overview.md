@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 106043
+ms.custom:
+- "106043"
+- intro-internal
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2597dda47e3441d2c41497081849a2213974e55
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 9ced76e20a54d61fe96b5d2a5118adb0c5eb7ccf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187911"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355695"
 ---
 # <a name="budgeting-home-page"></a>Startpagina van Budgettering
 
@@ -32,7 +34,7 @@ Dit onderwerp biedt een overzicht van de onderdelen van de budgetteringsfunction
 
 De resourceplanningscyclus voor een bedrijf bestaat meestal uit plannings-, budgetterings- en prognoseactiviteiten.
 
-[![Onderdelen van budgetfunctionaliteit](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Onderdelen van de budgetteringsfunctionaliteit.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 De processen voor zowel strategische planning op de lange termijn als jaarlijkse budgetplanning worden ondersteund door middel van een budgetplandocument. De documenten van het budgetplan zijn nauw geïntegreerd met Microsoft Excel. Gebruikers kunnen onbeperkte monetaire en kwantitatieve scenario's configureren en een budgetteringsorganisatiehiërarchie definiëren om top-down en bottom-up budgetteringsmethoden te ondersteunen. Nadat een budget in de toepassing is opgesteld en goedgekeurd, converteert u het budgetplan naar een budgetregisterpost. Budgetregisterposten bieden tools om het budget te onderhouden en om bedragen door middel van budgetcodes te kunnen bijhouden. Met budgetregisterposten kunt u oorspronkelijke budgetten herzien, overboekingen uitvoeren en budgetbedragen van het vorige jaar transporteren. Op basis van het ingestelde budget kan een bedrijf budgetbeheer inschakelen. Het niveau van beheer is afhankelijk van de cultuur van de organisatie en het niveau van vervallen posten van de organisatie. Organisaties die een laag niveau van vervallen posten hebben, laten het budget mogelijk ongewijzigd en zijn mogelijk eerder reactief dan proactief als een budget niet aan de verwachtingen voldoet. Andere organisaties activeren mogelijk budgetbeheerbeleidsregels waarmee wordt voorkomen dat gebruikers iets kunnen aanschaffen als de budgetfondsen niet beschikbaar zijn.
 
@@ -46,7 +48,7 @@ Tot slot kunnen zeer volwassen organisaties een organisatiecultuur creëren waar
 -   [Sjablonen voor budgetplanning in Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Budgetteringstools
-[![Budgetteringstools](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Budgetteringstools.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 Aanvullende plannings- en budgetteringsmogelijkheden zijn beschikbaar en geïntegreerd met grootboekbudgetten.
 

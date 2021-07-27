@@ -2,7 +2,7 @@
 title: Conformiteit van cookie
 description: In dit onderwerp worden overwegingen voor compliance op het gebied van cookies en het standaardbeleid in Microsoft Dynamics 365 Commerce beschreven.
 author: BrianShook
-ms.date: 05/21/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
-ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
+ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "6088382"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333064"
 ---
 # <a name="cookie-compliance"></a>Conformiteit van cookie
 
@@ -33,26 +33,27 @@ Bezoek het [Microsoft Vertrouwenscentrum](https://www.microsoft.com/trust-center
 
 In de volgende tabel wordt de huidige verwijzingslijst van cookies weergegeven die door Dynamics 365 Commerce-sites zijn geplaatst.
 
-| Cookienaam                               | Gebruik                                                        |
-| ------------------------------------------- | ------------------------------------------------------------ |
-| .AspNet.Cookies                             | Microsoft Azure Active Directory (Azure AD)-verificatiecookies opslaan voor eenmalige aanmelding (SSO). Hiermee wordt gecodeerde informatie over gebruikers opgeslagen (naam, achternaam, e-mail). |
-| &#95;msdyn365___cart&#95;                           | Winkelwagen-id wordt gebruikt om lijst met producten op te halen die aan het winkelwagenexemplaar zijn toegevoegd. |
-| &#95;msdyn365___ucc&#95;                            | Toestemming bijhouden voor cookienaleving.                          |
-| ai_session                                  | Detecteert in hoeveel sessies met gebruikersactiviteit bepaalde pagina's en functies van de app zijn opgenomen. |
-| ai_user                                     | Detecteert hoeveel mensen de app en de bijbehorende functies hebben gebruikt. Gebruikers worden geteld met behulp van anonieme id's. |
-| b2cru                                       | De omleidings-URL wordt dynamisch opgeslagen.                              |
-| JSESSIONID                                  | Wordt gebruikt door betalingsconnector Adyen om gebruikerssessie op te slaan.       |
-| OpenIdConnect.nonce.&#42;                       | Authenticatie                                               |
-| x-ms-cpim-cache:.&#42;                          | Wordt gebruikt voor het onderhouden van de aanvraagstatus.                      |
-| x-ms-cpim-csrf                              | CRSF-token (aanvraagvervalsing op meerdere sites) wordt gebruikt voor de CRSF-beveiliging.     |
-| x-ms-cpim-dc                                | Wordt gebruikt om aanvragen naar het toepasselijke serverexemplaar voor productieverificatie te routeren. |
-| x-ms-cpim-rc.&#42;                              | Wordt gebruikt om aanvragen naar het toepasselijke serverexemplaar voor productieverificatie te routeren. |
-| x-ms-cpim-slice                             | Wordt gebruikt om aanvragen naar het toepasselijke serverexemplaar voor productieverificatie te routeren. |
-| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Wordt gebruikt voor het onderhouden van de SSO-sessie.                        |
-| x-ms-cpim-trans                             | Wordt gebruikt voor het traceren van transacties (het aantal geopende tabbladen dat wordt geverifieerd tegen een Business-to-consumer-site (B2C)), inclusief de huidige transactie. |
-| \_msdyn365___muid_                            | Wordt gebruikt als Experimenten is geactiveerd voor de omgeving. wordt gebruikt als userId voor experimentdoeleinden. |
-| \_msdyn365___exp_                             | Wordt gebruikt als Experimenten is geactiveerd voor de omgeving; wordt gebruikt voor het meten van de prestaties voor de taakverdeling.         |
-| d365mkt                                       | Wordt gebruikt als detectie op basis van locaties om het IP-adres van een gebruiker voor winkellocatie-suggesties bij te houden is ingeschakeld in Commerce Site Builder bij **Site-instellingen > Algemeen > Detectie van winkels op basis van de locatie inschakelen**.      |
+| Cookienaam                               | Gebruik                                                        | Levensduur |
+| ------------------------------------------- | ------------------------------------------------------------ |  ------- |
+| .AspNet.Cookies                             | Microsoft Azure Active Directory (Azure AD)-verificatiecookies opslaan voor eenmalige aanmelding (SSO). Hiermee wordt gecodeerde informatie over gebruikers opgeslagen (naam, achternaam, e-mail). | Sessie |
+| \_msdyn365___cart_                           | Winkelwagen-id wordt gebruikt om lijst met producten op te halen die aan het winkelwagenexemplaar zijn toegevoegd. | Sessie |
+| \_msdyn365___checkout_cart_                           | Winkelwagen-id voor kassa wordt gebruikt om lijst met producten op te halen die aan het winkelwagenexemplaar voor kassa zijn toegevoegd. | Sessie |
+| \_msdyn365___ucc_                            | Toestemming bijhouden voor cookienaleving.                          | 1 jaar |
+| ai_session                                  | Detecteert in hoeveel sessies met gebruikersactiviteit bepaalde pagina's en functies van de app zijn opgenomen. | 30 minuten |
+| ai_user                                     | Detecteert hoeveel mensen de app en de bijbehorende functies hebben gebruikt. Gebruikers worden geteld met behulp van anonieme id's. | 1 jaar |
+| b2cru                                       | De omleidings-URL wordt dynamisch opgeslagen.                              | Sessie |
+| JSESSIONID                                  | Wordt gebruikt door betalingsconnector Adyen om gebruikerssessie op te slaan.       | Sessie |
+| OpenIdConnect.nonce.&#42;                       | Authenticatie                                               | 11 minuten |
+| x-ms-cpim-cache:.&#42;                          | Wordt gebruikt voor het onderhouden van de aanvraagstatus.                      | Sessie |
+| x-ms-cpim-csrf                              | CRSF-token (aanvraagvervalsing op meerdere sites) wordt gebruikt voor de CRSF-beveiliging.     | Sessie |
+| x-ms-cpim-dc                                | Wordt gebruikt om aanvragen naar het toepasselijke serverexemplaar voor productieverificatie te routeren. | Sessie |
+| x-ms-cpim-rc.&#42;                              | Wordt gebruikt om aanvragen naar het toepasselijke serverexemplaar voor productieverificatie te routeren. | Sessie |
+| x-ms-cpim-slice                             | Wordt gebruikt om aanvragen naar het toepasselijke serverexemplaar voor productieverificatie te routeren. | Sessie |
+| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Wordt gebruikt voor het onderhouden van de SSO-sessie.                        | Sessie |
+| x-ms-cpim-trans                             | Wordt gebruikt voor het traceren van transacties (het aantal geopende tabbladen dat wordt geverifieerd tegen een Business-to-consumer-site (B2C)), inclusief de huidige transactie. | Sessie |
+| \_msdyn365___muid_                            | Wordt gebruikt als experimenteren is geactiveerd voor de omgeving. Wordt gebruikt als gebruikers-id voor experimenteerdoeleinden. | 1 jaar |
+| \_msdyn365___exp_                             | Wordt gebruikt als experimenteren is geactiveerd voor de omgeving. Wordt gebruikt voor het meten van de prestaties voor de taakverdeling.         | 1 uur |
+| d365mkt                                       | Wordt gebruikt als detectie op basis van locaties om het IP-adres van een gebruiker voor winkellocatie-suggesties bij te houden is ingeschakeld in Commerce Site Builder bij **Site-instellingen \> Algemeen \> Detectie van winkels op basis van de locatie inschakelen**.      | 1 uur |
 
 Als een sitegebruiker een koppeling voor social media op een site selecteert, worden de cookies in de volgende tabel ook in de browser bijgehouden.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f15aea2f867de6f0bcf01ecfd046efc44581a1ec
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d1e8a3b34cb359b7ea7f7181d2308f8e021f3c95
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820437"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359120"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Automatisch bijwerken van activatellers
 
@@ -49,7 +49,7 @@ Zoals hierboven aangegeven, kunnen automatische tellers worden bijgewerkt vanuit
 
     In de onderstaande afbeelding ziet u een voorbeeld van het dialoogvenster **Activumtellers bijwerken**.
 
-    ![Figuur 1](media/12-work-orders.png)
+    ![Figuur 1.](media/12-work-orders.png)
 
 5. Selecteer **OK**. 
 
@@ -59,7 +59,7 @@ Op de pagina **Samengevoegde waarde van activa** kunt u een overzicht krijgen va
 
 In de onderstaande afbeelding ziet u een voorbeeld van de pagina **Samengevoegde waarde van activa**.
 
-![Figuur 2](media/13-work-orders.png)
+![Figuur 2.](media/13-work-orders.png)
 
 Let op de volgende punten:
 

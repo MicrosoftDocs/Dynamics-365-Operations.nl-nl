@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d68e1b3a4dc31823ec56a525149f16bdc23c0883
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: bc1a8570e60e2b17f27c3e63c5ff847b3cb7a2dd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023162"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358453"
 ---
 # <a name="calculate-tds-on-invoices-using-journals"></a>TDS op facturen berekenen met behulp van journalen
 
@@ -31,7 +31,7 @@ Dit onderwerp geeft een overzicht van de stappen voor het berekenen van TDS (bel
 
 Open om te beginnen de pagina **Algemene journalen** (**Grootboek > Journaalboekingen > Algemene journalen**).
 
-[![Algemene journalen](./media/apac-ind-TDS-57.png)](./media/apac-ind-TDS-57.png)
+[![Algemene journalen.](./media/apac-ind-TDS-57.png)](./media/apac-ind-TDS-57.png)
 
 1. Maak journaalregels met de journaalformulieren die in de tabel staan. Selecteer het rekeningtype en het tegenrekeningtype en voer het bedrag voor de transactie in. 
 
@@ -65,6 +65,6 @@ Open om te beginnen de pagina **Algemene journalen** (**Grootboek > Journaalboek
 
 8. Voer de andere vereiste gegevens in. Valideer en boek het journaal. Het TDS-bedrag dat op inkoopfacturen is berekend, wordt naar de leveranciersrekening geboekt. Het TDS-bedrag dat is berekend op verkoopfacturen wordt geboekt naar de klantrekening die is gedefinieerd voor elke TDS-belastingcode in de TDS-groep. De leveranciers- of klantrekeningen voor TDS-belastingcodes worden gedefinieerd op de pagina **Bronbelastingcodes**.
 
-9. Selecteer **Bronbelasting geboekt** om de pagina **Bronbelastingtransacties** te openen. In het veld **Waarde** wordt het totale percentage weergegeven dat is gebruikt om TDS voor de transactie te berekenen.
+9. Selecteer **Bronbelasting geboekt** om de pagina **Bron****belasting****transacties** te openen. In het veld **Waarde** wordt het totale percentage weergegeven dat is gebruikt om TDS voor de transactie te berekenen.
 
    De velden op de tabbladen **Overzicht**, **Algemeen** en **Bedrag** op de pagina Tijdelijke bronbelastingtransacties geven het berekende TDS-bedrag en details weer van het gecorrigeerde TDS-bedrag voor elke TDS-belastingcode die aan de TDS-groep is gekoppeld.

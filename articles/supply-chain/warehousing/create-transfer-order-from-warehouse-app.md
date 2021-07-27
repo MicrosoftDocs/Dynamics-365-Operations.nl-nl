@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
-ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
+ms.openlocfilehash: fe5983d40033c0cd15674815067eaa969e97d38b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "6164841"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343620"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>overboekingsorders maken vanuit de magazijnapp
 
@@ -95,7 +95,7 @@ U moet niet alleen het proces voor het maken van overboekingsorders instellen in
 
 U bent een detailhandelaar en hebt meerdere nummerplaten, die elk een combinatie van artikelen bevatten die op een specifieke locatie in een van uw magazijnen zijn geplaatst (*Magazijn 51*). U wilt het proces inschakelen waarmee medewerkers een overboekingsorder kunnen maken voor een ander magazijn (*Magazijn 61*) voor een verzameling gescande nummerplaten. De overboekingsorder wordt automatisch verzonden/bijgewerkt als de laatste nummerplaat voor de order is geïdentificeerd.
 
-![Voorbeeld van automatisch proces van overboekingsorders](media/create-transfer-order-from-app-example.png "Voorbeeld van automatisch proces van overboekingsorders")
+![Voorbeeld van automatisch proces van overboekingsorders.](media/create-transfer-order-from-app-example.png "Voorbeeld van automatisch proces van overboekingsorders")
 
 ### <a name="create-a-mobile-device-menu-item-for-creating-transfer-orders"></a>Een menuoptie voor mobiel apparaten instellen om overboekingsorders te maken
 

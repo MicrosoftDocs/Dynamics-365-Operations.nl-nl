@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4b8c1467368cbcbed5049561b52b29388ec21a5f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e500125e1d96f6b595910e1168e2e1baeef0cd3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055095"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360587"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integreren met LinkedIn Talent Hub
 
@@ -48,7 +48,7 @@ Een systeembeheerder moet installatietaken voltooien om integratie met LinkedIn 
 
 5. Selecteer op de pagina **Dynamics 365 Human Resources** de omgeving waaraan u LinkedIn Talent Hub wilt koppelen en selecteer vervolgens **Koppelen**.
 
-    ![LinkedIn Talent Hub-onboarding](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![LinkedIn Talent Hub-onboarding.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > U kunt alleen koppelingen maken naar omgevingen waarin uw gebruikersaccount beheerderstoegang heeft tot zowel de Human Resources-omgeving als de bijbehorende Power Apps-omgeving. Als er geen omgevingen worden weergegeven op de koppelingspagina Human Resources, controleert u of u een gelicentieerde Human Resources-omgeving hebt op de tenant en of de gebruiker die u op de koppelingspagina hebt aangemeld, beheerdersrechten heeft voor zowel de Human Resources-omgeving als de Power Apps-omgeving.
@@ -91,7 +91,7 @@ Er moet een toepassingsgebruiker worden gemaakt voor de LinkedIn Talent Hub-adap
 
 6. Gebruik het vervolgkeuzemenu boven de lijst om de weergave te wijzigen van de standaardweergave **Ingeschakelde gebruikers** in **Toepassingsgebruikers**.
 
-    ![Weergave van toepassingsgebruikers](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Weergave van toepassingsgebruikers.](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. Selecteer **Nieuw** op de werkbalk.
 
@@ -163,7 +163,7 @@ Nadat een kandidaat is verplaatst via het wervingsproces en is aangesteld, kunt 
     - Voer in het veld **Locatie** de locatie in waar de werknemer wordt geplaatst.
     - Voer het e-mailadres van de werknemer in of verifieer het.
 
-![Deelvenster Exporteren naar HRIS in LinkedIn Talent Hub](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![Deelvenster Exporteren naar HRIS in LinkedIn Talent Hub.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Onboarding in Human Resources voltooien
 

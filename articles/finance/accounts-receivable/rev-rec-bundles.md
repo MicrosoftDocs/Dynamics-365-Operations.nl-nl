@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: bce824267f435d9de0acd43ca145e0d148dfe67c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9afc7786de16cb1cada982f43beb956e062777a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816263"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347777"
 ---
 # <a name="revenue-recognition-bundles"></a>Bundels voor opbrengsttoerekening
 
@@ -33,7 +33,7 @@ Als u bundels wilt instellen, moet u de configuratiesleutels voor opbrengsttoere
 
 U kunt bundels instellen via de stuklijstfunctionaliteit. Zie [Instellingen opbrengsttoerekening](revenue-recognition-setup.md) voor informatie over het instellen van een bundelartikel. Als het hoofdartikel is gemarkeerd als bundel, wordt het anders behandeld dan andere stuklijstartikelen. Hieronder volgt een overzicht van de verschillen:
 
-- U kunt bundels exploderen door verkooporders te bevestigen. U doet dit door **Verkooporder bevestigen** te selecteren op het tabblad **Verkopen** in het actievenster op de verkooporderpagina. U mag bundelartikelen nooit exploderen door **Stuklijstregel** te selecteren onder **Exploderen** in het menu **Verkooporderregel** op het sneltabblad **Verkooporderregels**. Anders wordt het artikel behandeld als een stuklijst en niet als bundel.
+- U kunt bundels exploderen door verkooporders te bevestigen. U doet dit door **Verkooporder bevestigen** te selecteren op het tabblad **Verkopen** in het actiepaneel op de verkooporderpagina. U mag bundelartikelen nooit exploderen door **Stuklijstregel** te selecteren onder **Exploderen** in het menu **Verkooporderregel** op het sneltabblad **Verkooporderregels**. Anders wordt het artikel behandeld als een stuklijst en niet als bundel.
 - Een verkooporder die een bundelartikel bevat, moet worden bevestigd voordat de pakbon of factuur wordt gemaakt.
 - Wanneer een bundel wordt geëxplodeerd door middel van verkooporderbevestiging, wordt het hoofdartikel geannuleerd en worden de eenheidsprijs en kortingen toegewezen aan de componentartikelen van de bundel.
 - Het totaal van de componentartikelen moet altijd gelijk zijn aan de prijs van het hoofdartikel. Daarom gelden er beperkingen ten aanzien van de velden die kunnen worden bijgewerkt of gewijzigd voor componentartikelen. U kunt de eenheidsprijs bijvoorbeeld niet handmatig wijzigen. U kunt de eenheidsprijs ook niet indirect wijzigen door een nieuwe prijsovereenkomst van kracht te laten worden. Om te voorkomen dat een nieuwe prijsovereenkomst wordt gesloten, kunnen voorraaddimensies voor de componentartikelen niet worden gewijzigd.
@@ -59,15 +59,15 @@ Voor de componentartikelen worden de volgende basisverkoopprijzen gedefinieerd:
 
 Er wordt een verkooporder ingevoerd voor de klant US-004, Cave Wholesales. Er wordt alleen een regel ingevoerd voor het bundelartikel Laptop. De standaardeenheidsprijs voor de bovenliggende regel kan van een groot aantal plekken worden overgenomen, zoals de handelsovereenkomst of de basisverkoopprijs. In dit voorbeeld is $ 2300 handmatig ingevoerd als de eenheidsprijs.
 
-[![Het bundelartikel Laptop in een verkooporder](./media/bundle-01.png)](./media/bundle-01.png)
+[![Het bundelartikel Laptop in een verkooporder.](./media/bundle-01.png)](./media/bundle-01.png)
 
 Omdat de verkooporder een bundel bevat, moet deze worden bevestigd. In het bevestigingsvenster worden de componenten van de bundel weergegeven.
 
-[![Het dialoogvenster Verkooporder bevestigen waarin de componentartikelen worden weergegeven](./media/bundle-02.png)](./media/bundle-02.png)
+[![Het dialoogvenster Verkooporder bevestigen waarin de componentartikelen worden weergegeven.](./media/bundle-02.png)](./media/bundle-02.png)
 
 In het afgedrukte bevestigingsrapport wordt echter alleen het hoofdartikel van de bundel weergegeven omdat dat rapport het extern gerichte, voor de klant bestemde document is.
 
-[![Bevestigingsrapport waarin alleen het hoofdartikel wordt weergegeven](./media/bundle-03.png)](./media/bundle-03.png)
+[![Bevestigingsrapport waarin alleen het hoofdartikel wordt weergegeven.](./media/bundle-03.png)](./media/bundle-03.png)
 
 Als de verkooporder is bevestigd, wordt het hoofdartikel nog steeds weergegeven in de verkooporder, maar is de status gewijzigd in **Geannuleerd**. Daarnaast wordt het nettobedrag bijgehouden in het veld **Nettobedrag bundel**. Dit bedrag is vereist om de factuur af te drukken omdat de factuur het hoofdartikel bevat en niet de componentartikelen.
 
@@ -85,7 +85,7 @@ Het totaal van de onderdelen moet gelijk zijn aan $ 2300 en dat is ook zo ($ 171
 
 Als voor alle componentartikelen wijzigingen vereist zijn, kan het hoofdartikel worden verwijderd. In dit geval worden de componentartikelen ook verwijderd. Het hoofdartikel kan vervolgens opnieuw worden toegevoegd en de vereiste bewerkingen kunnen worden uitgevoerd voordat de verkooporder wordt bevestigd.
 
-[![Bundelartikel waarvoor wijzigingen in de componentartikelen zijn aangebracht](./media/bundle-04.png)](./media/bundle-04.png)
+[![Bundelartikel waarvoor wijzigingen in de componentartikelen zijn aangebracht.](./media/bundle-04.png)](./media/bundle-04.png)
 
 Wanneer de verkooporder wordt verzameld en verpakt, bevatten de documenten alleen de componenten van de bundel. De pakbon en factuur moeten een volledige bundel bevatten. Anders kunnen ze niet worden geboekt. In het dialoogvenster worden bijvoorbeeld drie componentartikelen weergegeven. Als u een van deze artikelen probeert te verwijderen, ontvangt u een foutbericht waarin wordt aangegeven dat alle producten in de bundel moeten worden verzonden voordat ze kunnen worden gefactureerd.
 
@@ -95,19 +95,19 @@ Een gedeeltelijke hoeveelheid kan alleen worden verzonden en gefactureerd als de
 
 De laatste stap is het factureren van de verkooporder. Tijdens het factureren worden de componentartikelen weergegeven in het factuurvenster.
 
-[![Het factuurvenster waarin de componentartikelen worden weergegeven](./media/bundle-06.png)](./media/bundle-06.png)
+[![Het factuurvenster waarin de componentartikelen worden weergegeven.](./media/bundle-06.png)](./media/bundle-06.png)
 
 Op de afgedrukte factuur wordt echter alleen het hoofdartikel weergegeven.
  
-[![Afgedrukte factuur waarop alleen het hoofdartikel wordt weergegeven](./media/bundle-07.png)](./media/bundle-07.png)
+[![Afgedrukte factuur waarop alleen het hoofdartikel wordt weergegeven.](./media/bundle-07.png)](./media/bundle-07.png)
 
 Het factuurjournaal dat na het boeken wordt gemaakt, bevat geen hoofdartikel uit de bundel omdat dat artikel de status **Geannuleerd** heeft.
 
-[![Factuurjournaal dat niet het hoofdartikel bevat](./media/bundle-08.png)](./media/bundle-08.png)
+[![Factuurjournaal dat niet het hoofdartikel bevat.](./media/bundle-08.png)](./media/bundle-08.png)
 
-Het is belangrijk dat het factuurjournaal niet het hoofdartikel uit de bundel bevat omdat de processen die worden uitgevoerd nadat de factuur is geboekt, worden gebaseerd op dat factuurjournaal. Als u een creditnota maakt via het tabblad **Verkopen** in het actievenster, bevat de gemaakte creditnota bijvoorbeeld wel de componentartikelen, maar niet het hoofdartikel.
+Het is belangrijk dat het factuurjournaal niet het hoofdartikel uit de bundel bevat omdat de processen die worden uitgevoerd nadat de factuur is geboekt, worden gebaseerd op dat factuurjournaal. Als u een creditnota maakt via het tabblad **Verkopen** in het actiepaneel, bevat de gemaakte creditnota bijvoorbeeld wel de componentartikelen, maar niet het hoofdartikel.
 
-[![Creditnota die wel de componentartikelen bevat, maar niet het hoofdartikel](./media/bundle-09.png)](./media/bundle-09.png)
+[![Creditnota die wel de componentartikelen bevat, maar niet het hoofdartikel.](./media/bundle-09.png)](./media/bundle-09.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

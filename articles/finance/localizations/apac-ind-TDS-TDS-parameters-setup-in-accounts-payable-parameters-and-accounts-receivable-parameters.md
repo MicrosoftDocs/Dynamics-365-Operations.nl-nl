@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 4540cdfff2362d8fb7cc2b4cccf9c340be9750ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ccf1557d3c95829421b26d5f84750e3d4236c9e0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023148"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358213"
 ---
 # <a name="set-tds-parameters-in-accounts-payable-and-accounts-receivable"></a>TDS-parameters voor Leveranciers en Klanten instellen
 
@@ -38,12 +38,12 @@ In dit onderwerp wordt uitgelegd hoe u parameters kunt instellen in Leveranciers
     - **Vragen**: gebruikers ontvangen een bericht waarin ze worden gevraagd de TDS-groep op de orderregels bij te werken.
 4. Selecteer **OK**.
 
-    [![Dialoogvenster Orderregels bijwerken](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
+    [![Dialoogvenster Orderregels bijwerken.](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
 
 5. Ga naar **Belasting \> Instellen \> Parameters \> Parameters van module Leveranciers**.
 6. Stel op het tabblad **Algemeen** op het sneltabblad **Splitsen op basis van aflevergegevens** de optie **Productontvangstbon** in op **Ja** om een productontvangstbon met verschillende afleveradressen en belastingrekeningnummers te boeken en te splitsen. Als deze optie is ingesteld op **Nee**, kunt u geen inkooppakbon met verschillende afleveradressen en belastingrekeningnummers boeken.
 7. Stel de optie **Factuur** in op **Ja** om een inkoopfactuur met verschillende afleveradressen en belastingrekeningnummers te maken en te splitsen.
 
-    [![Sneltabblad Splitsen op basis van aflevergegevens](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
+    [![Sneltabblad Splitsen op basis van aflevergegevens.](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
 
 8. Sluit de pagina.

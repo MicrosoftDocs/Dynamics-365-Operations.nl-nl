@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 071c73f9295ad7911037cbd10a48b46b044eebda
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 19cdc33fcc9d1293b235facbaffd1ccf62875217
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808227"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360048"
 ---
 # <a name="work-order-project-setup"></a>Projectinstellingen werkorder
 
@@ -69,7 +69,7 @@ Met de instellingen kunt u volledige integratie met de module **Projectmanagemen
 
     De begindatum is standaard de datum waarop u het werkorderproject aan de pagina toevoegt. Het wordt gecontroleerd door het veld **Geldig vanaf**, dat standaard verborgen is. Als u het veld **Geldig vanaf** wilt weergeven, selecteert u **Weergeven** \> **Alle**. U kunt vervolgens het veld **Geldig vanaf** in combinatie met het veld **Einddatum** gebruiken om een beperkte geldigheidsperiode in te stellen voor het werkorderproject.
 
-    ![Pagina Projectinstellingen werkorders](media/17-setup-for-work-orders.png)
+    ![Pagina Projectinstellingen werkorders.](media/17-setup-for-work-orders.png)
 
 6. Selecteer op het tabblad **Projectgroep** de optie **Toevoegen**.
 7. Selecteer een type werkorder in het veld **Werkordertype**.
@@ -77,7 +77,7 @@ Met de instellingen kunt u volledige integratie met de module **Projectmanagemen
 9. Selecteer in veld **Projectgroep** de projectgroep die moet worden gerelateerd aan het type werkorder. Een type werkorder met de naam **Preventief onderhoud** kan bijvoorbeeld worden gekoppeld aan een projectgroep met de naam **Prev Ond** of **Intern**. Een **Investering**-werkordertype dat wordt gebruikt voor werkorders die zijn gerelateerd aan investeringen en vaste activa, kan ook worden gekoppeld aan een projectgroep met de naam **Investeren** of **Investering.**
 10. Selecteer **Opslaan**.
 
-![Pagina Projectinstellingen werkorders, Werkorder toevoegen](media/18-setup-for-work-orders.png)
+![Pagina Projectinstellingen werkorders, Werkorder toevoegen.](media/18-setup-for-work-orders.png)
 
 > [!NOTE]
 > Elke keer dat er een werkorderregel wordt gemaakt, zoekt Activabeheer naar een projectgroep die gerelateerd moet zijn aan het taakproject van de werkorder. De zoekopdracht is gebaseerd op de instellingen die in dit onderwerp worden beschreven. Elke projectgroep heeft een gerelateerd projecttype. Project groepen die het projecttype **Tijd en materiaal** of **Vaste prijs** hebben, zijn alleen geldig voor activa die betrekking hebben op een klantenrekening.

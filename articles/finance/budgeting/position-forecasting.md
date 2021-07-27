@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d3ff7ac15a64196d7839177ded5515386184e268
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: c76919c6289fe0c2367cedecc64bbdae9ee86e63
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028222"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358506"
 ---
 # <a name="position-forecasting"></a>Prognosepositie
 
@@ -30,7 +30,7 @@ De onkosten die aan werknemers zijn gerelateerd vormen vaak een grote deel van d
 
 ## <a name="position-forecasting-in-budget-planning"></a>Positie voorspelling in budget planning
 
-[![Onderdelen van positieprognose](./media/graphic-top.png)](./media/graphic-top.png) 
+[![Onderdelen van positieprognose.](./media/graphic-top.png)](./media/graphic-top.png) 
 
 Positieprognose maakt gebruik van drie hoofdcomponenten om nauwkeurige budgetbedragen voor positiekosten te geven. Deze bedragen kunnen vervolgens in een budgetplan voor budgetberekeningen worden gebracht. 
 
@@ -42,14 +42,14 @@ Een **compensatiegroep** is een optioneel installatiecomponent dat wordt gebruik
 
 ### <a name="position-forecasting-processes"></a>Positie voorspelling processen
 
-[![Afbeelding van processen voor positieprognoses](./media/graphic1b.png)](./media/graphic1b.png) 
+[![Afbeelding van processen voor positieprognoses.](./media/graphic1b.png)](./media/graphic1b.png) 
 
 In een typisch proces voor positieprognose maakt u eerst de instellingsonderdelen (budgetkostenelementen en compensatiegroepen). Prognoseposities worden vervolgens gegenereerd op basis van bestaande posities. U kunt vervolgens correcties aanbrengen. U kunt bijvoorbeeld posities toevoegen of beëindigen, loontarieven en kosten voor vergoedingen wijzigen en loonstijgingen toevoegen. U kunt meerdere versies van een prognosepositie maken om verschillende budgetscenario's met elkaar te vergelijken. Vervolgens kunt u de prognoseposities opnemen in budgetplannen en de kosten van de prognoseposities invoeren als budgetplanregels.
 
 U kunt extra versies van de prognosepositie maken wanneer de budgetplannen worden gewijzigd. Deze nieuwe versies bieden een basis voor de revisies.
 
 ## <a name="position-forecasting-setup"></a>Instelling positievoorspelling
-[![Afbeelding met instellingen](./media/graphic2-1024x327.png)](./media/graphic2.png)
+[![Afbeelding met instellingen.](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>Budgetkostenelementen
 
@@ -86,7 +86,7 @@ De velden **Planning verhogen** en **Datum van verhoging** in de compensatiegroe
 Het inkomstenkostenelement dat op de compensatiegroep wordt geselecteerd, wordt gebruikt wanneer u inkomsten maakt voor de prognoseposities in de groep, waaronder hun basisloon en eventuele stapverhogingen. Het veld **Vastecompensatieplan** koppelt de compensatiegroep aan een vastecompensatieplan in Human resources. Deze koppeling kan de gegevens over de vaste compensatie van een werknemer aan een prognosepositie toewijzen en kan daarom de budgetplanning nauwkeuriger maken. Denk eraan dat de structuur van het compensatieraster (de niveaus en de stappen) voor de compensatiegroep overeen moet komen met de structuur van het geselecteerde vastecompensatieplan. Anders kan het systeem de compensatiegroep en het vastecompensatieplan niet correct koppelen.
 
 ## <a name="creating-forecast-positions"></a>Prognoseposities maken
-[![Afbeelding van het maken van prognoseposities](./media/graphic3-1024x327.png)](./media/graphic3.png)
+[![Afbeelding van het maken van prognoseposities.](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Prognoseposities maken voor bestaande posities
 
@@ -115,7 +115,7 @@ Wanneer een prognosepositie is geselecteerd, selecteert u **De geselecteerde pro
 U kunt ook een geheel nieuwe prognosepositie maken. Selecteer een bestaande taak, en selecteer tevens het budgetplanningsproces en budgetplanscenario. U kunt vervolgens andere gegevens toevoegen. Wederom wordt tegelijkertijd een nieuwe gemaakt positie tegelijk in Human resources.
 
 ## <a name="working-with-forecast-positions"></a>Werken met prognoseposities
-[![Afbeelding van het wijzigen van prognoseposities](./media/graphic5-1024x327.png)](./media/graphic5.png)
+[![Afbeelding van het wijzigen van prognoseposities."](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Meerdere versies van een prognosepositie
 
@@ -171,7 +171,7 @@ Het herberekeningsproces wordt automatisch gebruikt op elke prognosepositie die 
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Prognoseposities naar budgetplannen brengen
 
-[![Afbeelding van toevoegen aan budgetplan](./media/graphic6-1024x327.png)](./media/graphic6.png)
+[![Afbeelding van toevoegen aan budgetplan."](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 Het maken en wijzigen van prognoseposities heeft als doel om ze toe te voegen aan budgetplannen, zodat de budgetplannen de nauwkeurigste budgetbedragen bevatten. Er zijn twee methoden voor het toevoegen van prognoseposities aan budgetplannen. U kunt een proces voor het genereren of selecteren gebruiken voor het budgetplan.
 

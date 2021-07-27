@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
-ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
+ms.openlocfilehash: 35db2eb3e0da91207f08d16b8fb1bfa6a6bb8607
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304388"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345955"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Een nieuwe ER-oplossing ontwerpen om een aangepast rapport af te drukken
 
@@ -123,15 +125,15 @@ In dit voorbeeld maakt u een nieuwe ER-oplossing voor de module [Vragenlijst](..
 
 1. Als u het bestaande rapport wilt uitvoeren, gaat u naar **Vragenlijst** \> **Ontwerpen** \> **Rapport vragenlijsten**.
 
-    ![Het menu-item Rapport vragenlijsten selecteren in de module Vragenlijst om het bestaande SSRS-rapport uit te voeren](./media/er-quick-start1-application-menu-origin.png)
+    ![Het menu-item Rapport vragenlijsten selecteren in de module Vragenlijst om het bestaande SSRS-rapport uit te voeren.](./media/er-quick-start1-application-menu-origin.png)
 
 2. Geef selectiecriteria op in het dialoogvenster **Rapport vragenlijsten**. Pas een filter toe zodat het rapport alleen de vragenlijst **SBCCrsExam** bevat.
 
-    ![Selectiecriteria opgeven in het dialoogvenster Rapport vragenlijsten](./media/er-quick-start1-ssrs-report-dialog.png)
+    ![Selectiecriteria opgeven in het dialoogvenster Rapport vragenlijsten.](./media/er-quick-start1-ssrs-report-dialog.png)
 
 In de volgende afbeelding ziet u de gegenereerde versie van het SSRS-rapport voor de vragenlijst **SBCCrsExam**.
 
-![Gegenereerd SSRS-rapport](./media/er-quick-start1-ssrs-report.png)
+![Gegenereerd SSRS-rapport.](./media/er-quick-start1-ssrs-report.png)
 
 ## <a name="configure-the-er-framework"></a><a name="ConfigureFramework"></a>Het ER-raamwerk configureren
 
@@ -271,7 +273,7 @@ Als u wilt doorgaan, gaat u naar de volgende procedure [Een nieuwe gegevensmodel
 
     In de volgende afbeelding ziet u het voltooide bewerkbare gegevensmodel op de pagina **Gegevensmodel ontwerpen**.
 
-    ![Het geconfigureerde gegevensmodel in de ER-gegevensmodelontwerper](./media/er-quick-start1-model2.png)
+    ![Het geconfigureerde gegevensmodel in de ER-gegevensmodelontwerper.](./media/er-quick-start1-model2.png)
 
 7. Sla de wijzigingen op.
 8. Sluit de pagina **Gegevensmodel ontwerpen**.
@@ -285,7 +287,7 @@ Als u wilt doorgaan, gaat u naar de volgende procedure [Een nieuwe gegevensmodel
 
 De status van versie 1 van deze configuratie wordt gewijzigd van **Concept** in **Voltooid**. Versie 1 kan niet meer worden gewijzigd. Deze versie bevat het geconfigureerde gegevensmodel en kan worden gebruikt als basis voor andere ER-configuraties. Versie 2 van deze configuratie wordt gemaakt met de status **Concept**. U kunt deze versie bewerken om het gegevensmodel **Vragenlijst** aan te passen.
 
-![Versies van de bewerkbare configuratie op de pagina Configuraties](./media/er-quick-start1-model-configuration.png)
+![Versies van de bewerkbare configuratie op de pagina Configuraties.](./media/er-quick-start1-model-configuration.png)
 
 Zie [Overzicht van Elektronische rapporten (ER)](general-electronic-reporting.md#component-versioning) voor meer informatie over versiebeheer voor ER-configuraties.
 
@@ -439,7 +441,7 @@ U kunt ER-labels toevoegen om een aantal van uw gegevensbronnen te configureren 
 5. Sluit het dialoogvenster **Tekstvertaling**.
 6. Selecteer **Annuleren**.
 
-![ER-labels toevoegen voor de bewerkbare modeltoewijzing](./media/er-quick-start1-adding-labels.png)
+![ER-labels toevoegen voor de bewerkbare modeltoewijzing.](./media/er-quick-start1-adding-labels.png)
 
 U hebt voor de standaardtaal alleen ER-labels ingevoerd. Zie [Meertalige rapporten ontwerpen](er-design-multilingual-reports.md) voor informatie over hoe ER-labels kunnen worden vertaald in andere talen.
 
@@ -473,7 +475,7 @@ Omdat u de resultaten van de vergelijking tussen opsommingswaarden en tekstwaard
     8. Selecteer **Opslaan** en sluit de formule-editor.
     9. Klik op **OK** om de nieuwe gegevensbron toe te voegen.
 
-![Geconfigureerde modeltoewijzing in de ER-ontwerper voor de modeltoewijzing](./media/er-quick-start1-added-data-sources.png)
+![Geconfigureerde modeltoewijzing in de ER-ontwerper voor de modeltoewijzing.](./media/er-quick-start1-added-data-sources.png)
 
 #### <a name="bind-data-sources-to-data-model-fields"></a><a name="AddMmBindings1"></a>Gegevensbronnen binden aan gegevensmodelvelden
 
@@ -524,7 +526,7 @@ U moet de geconfigureerde gegevensbronnen binden aan de velden van het gegevensm
 
     In de volgende afbeelding wordt de eindstatus van de geconfigureerde modeltoewijzing weergegeven op de pagina **Ontwerper modeltoewijzing**.
 
-    ![Volledig geconfigureerde modeltoewijzing in de ER-ontwerper voor de modeltoewijzing](./media/er-quick-start1-mapping2.png)
+    ![Volledig geconfigureerde modeltoewijzing in de ER-ontwerper voor de modeltoewijzing.](./media/er-quick-start1-mapping2.png)
 
 7. Sla de wijzigingen op.
 8. Sluit de pagina **Ontwerper modeltoewijzing**.
@@ -538,7 +540,7 @@ U moet de geconfigureerde gegevensbronnen binden aan de velden van het gegevensm
 
 De status van versie 1.1 van deze configuratie wordt gewijzigd van **Concept** in **Voltooid**. Versie 1.1 kan niet meer worden gewijzigd. Deze versie bevat de geconfigureerde modeltoewijzing en kan worden gebruikt als basis voor andere ER-configuraties. Versie 1.2 van deze configuratie wordt gemaakt met de status **Concept**. U kunt deze versie bewerken om de configuratie **Vragenlijsttoewijzing** aan te passen.
 
-![Versies van de bewerkbare ER-configuratie op de pagina Configuraties](./media/er-quick-start1-mapping-configuration.png)
+![Versies van de bewerkbare ER-configuratie op de pagina Configuraties.](./media/er-quick-start1-mapping-configuration.png)
 
 > [!NOTE]
 > De geconfigureerde modeltoewijzing is uw Finance-specifieke implementatie van het abstracte gegevensmodel dat het bedrijfsdomein **Vragenlijst** vertegenwoordigt.
@@ -552,17 +554,17 @@ Het ER-raamwerk gebruikt vooraf gedefinieerde sjablonen om rapporten te generere
 
 Zoals in de volgende afbeelding wordt weergegeven, is de gedownloade sjabloon ontworpen voor het afdrukken van opgegeven vragenlijsten waarin de vragen van een vragenlijst en de juiste antwoorden worden weergegeven.
 
-![Excel-sjabloon voor het afdrukken van opgegeven vragenlijsten](./media/er-quick-start1-template-layout.png)
+![Excel-sjabloon voor het afdrukken van opgegeven vragenlijsten.](./media/er-quick-start1-template-layout.png)
 
 Er zijn Excel-namen aan deze sjabloon toegevoegd om de details van de vragenlijst in te vullen. U kunt Naambeheer gebruiken om de Excel-namen te controleren.
 
-![Naambeheer gebruiken om Excel-namen te controleren in de opgegeven Excel-sjabloon](./media/er-quick-start1-template-names.png)
+![Naambeheer gebruiken om Excel-namen te controleren in de opgegeven Excel-sjabloon.](./media/er-quick-start1-template-names.png)
 
 Er zijn rapportlabels toegevoegd als vaste tekst in de Engelse taal. U kunt de rapportlabels vervangen door nieuwe Excel-namen waarmee de labels worden ingevuld met taalafhankelijke tekst door gebruik te maken van ER-opmaak[labels](#AddMmLabels) te gebruiken, zoals u ook hebt gedaan voor taalafhankelijke expressies in de geconfigureerde modeltoewijzing. In dit geval moeten ER-labels worden toegevoegd in de bewerkbare ER-indeling.
 
 Zoals u in de volgende afbeelding kunt zien, is de aangepaste rapportkoptekst opgegeven zodat het pagineren in Excel mogelijk is.
 
-![Aangepaste rapportkoptekst in de opgegeven Excel-sjabloon](./media/er-quick-start1-template-header.png)
+![Aangepaste rapportkoptekst in de opgegeven Excel-sjabloon.](./media/er-quick-start1-template-header.png)
 
 ## <a name="design-a-format"></a><a name="DesignFormat"></a>Een indeling ontwerpen
 
@@ -612,11 +614,11 @@ Als u wilt doorgaan, gaat u naar de volgende procedure [Een nieuwe indelingsconf
     2. Zoek en selecteer het lokaal opgeslagen bestand **Questionnaires report template.xslx** en selecteer **Openen**.
     3. Selecteer **OK** om de sjabloon te importeren.
 
-    ![Een rapportsjabloon importeren](./media/er-quick-start1-template-import.png)
+    ![Een rapportsjabloon importeren.](./media/er-quick-start1-template-import.png)
 
 Het indelingselement **Excel\\File** wordt automatisch aan de bewerkbare indeling toegevoegd als hoofdelement. Bovendien wordt het indelingselement **Excel\\Range** of het indelingselement **Excel\\Cell** automatisch toegevoegd voor elke herkende Excel-naam van de geïmporteerde sjabloon. De indeling **Excel\\Header** met het geneste element **Tekenreeks** wordt automatisch toegevoegd om de koptekstinstellingen van de geïmporteerde sjabloon te weerspiegelen.
 
-![Indelingsstructuur die automatisch toegevoegde elementen bevat in de ER Operation-ontwerper](./media/er-quick-start1-template-import2.png)
+![Indelingsstructuur die automatisch toegevoegde elementen bevat in de ER Operation-ontwerper.](./media/er-quick-start1-template-import2.png)
 
 #### <a name="configure-a-format"></a><a name="ConfigureFormat"></a>Een indeling configureren
 
@@ -627,12 +629,12 @@ Het indelingselement **Excel\\File** wordt automatisch aan de bewerkbare indelin
 
     Zie [Meertalige rapporten ontwerpen](er-design-multilingual-reports.md) voor informatie over het opgeven van de taal- en cultuurcontexten voor een ER-proces.
 
-    ![Taal- en cultuurinstellingen voor het ontworpen rapport configureren in de ER Operation-ontwerper](./media/er-quick-start1-template-format-structure1.png)
+    ![Taal- en cultuurinstellingen voor het ontworpen rapport configureren in de ER Operation-ontwerper.](./media/er-quick-start1-template-format-structure1.png)
 
 5. Vouw in de indelingsstructuur het hoofdknooppunt uit en selecteer **ResultsGroup**.
 6. Selecteer op het tabblad **Indeling** in het veld **Replicatierichting** de optie **Geen replicatie**, omdat u niet meerdere resultaatgroepen voor één vragenlijst verwacht.
 
-    ![De replicatierichting definiëren voor elementen in de indeling Range van ER Operation-ontwerper](./media/er-quick-start1-template-format-structure2.png)
+    ![De replicatierichting definiëren voor elementen in de indeling Range van ER Operation-ontwerper.](./media/er-quick-start1-template-format-structure2.png)
 
 7. Selecteer **Opslaan**.
 
@@ -652,7 +654,7 @@ U moet een gegevensbinding opgeven voor een opmaakelement dat wordt gebruikt om 
 
 5. Sluit de Formule-editor.
 
-    ![De binding configureren om de titel van een gegenereerd rapport in te vullen](./media/er-quick-start1-add-report-title-label.png)
+    ![De binding configureren om de titel van een gegenereerd rapport in te vullen.](./media/er-quick-start1-add-report-title-label.png)
 
 Met deze techniek kunt u alle andere labels van de huidige sjabloon taalafhankelijk maken. Zie [Meertalige rapporten ontwerpen](er-design-multilingual-reports.md) voor informatie over hoe de toegevoegde labels van één ER-configuratie kunnen worden vertaald in alle ondersteunde talen.
 
@@ -662,7 +664,7 @@ Met deze techniek kunt u alle andere labels van de huidige sjabloon taalafhankel
 2. Selecteer **Bewerken**.
 3. Controleer de gegevens in het dialoogvenster **Eigenschappen gegevensbron**. Deze gegevensbron vertegenwoordigt versie 1 van het gegevensmodelonderdeel **Vragenlijsten** dat zich bevindt in de ER-configuratie **Model vragenlijst**.
 
-![Eigenschappen van de modelgegevensbron in de ER Operation-ontwerper](./media/er-quick-start1-model-data-source.png)
+![Eigenschappen van de modelgegevensbron in de ER Operation-ontwerper.](./media/er-quick-start1-model-data-source.png)
 
 #### <a name="bind-format-elements-to-data-source-fields"></a><a name="BindFormatElements"></a>Indelingselementen aan een gegevensbronvelden binden
 
@@ -678,11 +680,11 @@ Als u wilt opgeven hoe een sjabloon tijdens runtime moet worden ingevuld, moet u
 
     Het indelingselement voor het bereik **Vragenlijst** is geconfigureerd als verticaal gerepliceerd. Wanneer het is gebonden aan een gegevensbron van het type **Recordlijst**, wordt het desbetreffende bereik **Vragenlijst** van de Excel-sjabloon herhaald voor elke record van de gebonden gegevensbron.
  
-    ![Het indelingselement voor het bereik Vragenlijst binden aan de betreffende Recordlijst-gegevens bronnen in de ER Operation-ontwerper](./media/er-quick-start1-bindings1.png)
+    ![Het indelingselement voor het bereik Vragenlijst binden aan de betreffende Recordlijst-gegevens bronnen in de ER Operation-ontwerper.](./media/er-quick-start1-bindings1.png)
 
     Aangezien het bereik **Vragenlijst** van de Excel-sjabloon is gedefinieerd tussen de rijen 5 tot en met 14, worden deze rijen herhaald voor elke gerapporteerde vragenlijst.
 
-    ![Rijen in de Excel-sjabloon die in een gegenereerd rapport worden herhaald voor elke record van de Recordlijst-gegevensbronnen](./media/er-quick-start1-template-questionnaire-range.png)
+    ![Rijen in de Excel-sjabloon die in een gegenereerd rapport worden herhaald voor elke record van de Recordlijst-gegevensbronnen.](./media/er-quick-start1-template-questionnaire-range.png)
 
 8. Configureer vergelijkbare bindingen voor de resterende indelingselementen, zoals wordt beschreven in de volgende tabel.
 
@@ -718,7 +720,7 @@ Als u wilt opgeven hoe een sjabloon tijdens runtime moet worden ingevuld, moet u
 
 In de volgende afbeelding wordt de eindstatus van de geconfigureerde gegevensbindingen weergegeven op de pagina **Indelingsontwerper**.
 
-![Geconfigureerde gegevensbindingen in de ER Operation-ontwerper](./media/er-quick-start1-bindings2.png)
+![Geconfigureerde gegevensbindingen in de ER Operation-ontwerper.](./media/er-quick-start1-bindings2.png)
 
 > [!IMPORTANT]
 > De hele verzameling met opgegeven gegevensbronnen en bindingen vertegenwoordigt een opmaaktoewijzingsonderdeel van de geconfigureerde indeling. Deze indelingstoewijzing wordt aangeroepen wanneer u de geconfigureerde indeling voor het genereren van rapporten uitvoert.
@@ -738,9 +740,9 @@ U kunt nu een ontworpen indeling voor testdoeleinden uitvoeren vanaf de pagina *
 
 [Standaard](electronic-reporting-destinations.md#default-behavior) wordt een gegenereerd rapport afgeleverd als een Excel-bestand dat u kunt downloaden. In de volgende afbeeldingen worden twee pagina's van het gegenereerde rapport in Excel-indeling weergegeven.
 
-![Voorbeeld van een gegenereerd rapport in Excel-indeling, pagina 1](./media/er-quick-start1-report1a.png)
+![Voorbeeld van een gegenereerd rapport in Excel-indeling, pagina 1.](./media/er-quick-start1-report1a.png)
 
-![Voorbeeld van een gegenereerd rapport in Excel-indeling, pagina 2](./media/er-quick-start1-report1b.png)
+![Voorbeeld van een gegenereerd rapport in Excel-indeling, pagina 2.](./media/er-quick-start1-report1b.png)
 
 ## <a name="tune-a-designed-format"></a><a name="TuneFormat"></a>Een ontworpen indeling optimaliseren
 
@@ -761,7 +763,7 @@ De vragen hebben niet de juiste volgorde in een gegenereerd rapport. U kunt de v
 1. Ga naar de pagina **Indelingsontwerper** en selecteer het basisitem **Rapport**.
 2. Vouw op het tabblad **Toewijzing** in de indelingsstructuur **Report\\Questionnaire\\Question** uit.
 
-    ![Vraagindelingselement van het type Bereik in de ER Operation-ontwerper](./media/er-quick-start1-bindings3.png)
+    ![Vraagindelingselement van het type Bereik in de ER Operation-ontwerper.](./media/er-quick-start1-bindings3.png)
 
 3. Selecteer op het tabblad **Toewijzing** de optie **model.Questionnaire**.
 4. Selecteer **Toevoegen** \> **Functies\\Berekend veld**, en voer in het veld **Naam** **OrderedQuestions** in.
@@ -774,7 +776,7 @@ De vragen hebben niet de juiste volgorde in een gegenereerd rapport. U kunt de v
 11. Selecteer **Binden** en bevestig vervolgens dat het huidige pad **model.Questionnaire.Questions** wordt vervangen door het nieuwe pad **model.Questionnaire. OrderedQuestions** pad in alle bindingen van de geneste elementen.
 12. Selecteer **Opslaan**.
 
-![Het indelingselement Vraag binden aan de geconfigureerde gegevensbron OrderedQuestions in de ER Operation-ontwerper](./media/er-quick-start1-bindings4.png)
+![Het indelingselement Vraag binden aan de geconfigureerde gegevensbron OrderedQuestions in de ER Operation-ontwerper.](./media/er-quick-start1-bindings4.png)
 
 ### <a name="run-a-modified-format-from-er"></a><a name="RunFormatFromER2"></a>Een gewijzigde indeling vanuit ER uitvoeren
 
@@ -788,7 +790,7 @@ U kunt nu een aangepaste indeling voor testdoeleinden uitvoeren vanuit het ER-ra
 
 In de volgende afbeelding ziet u een gegenereerd rapport in Excel-indeling waarin de vragen op de juiste manier zijn geordend.
 
-![Gegenereerd rapport in Excel-indeling met correct geordende vragen](./media/er-quick-start1-report2.png)
+![Gegenereerd rapport in Excel-indeling met correct geordende vragen.](./media/er-quick-start1-report2.png)
 
 ### <a name="complete-the-format-design"></a><a name="CompleteFormat"></a>Het indelingsontwerp voltooien
 
@@ -799,7 +801,7 @@ In de volgende afbeelding ziet u een gegenereerd rapport in Excel-indeling waari
 
 De status van versie 1.1 van deze configuratie wordt gewijzigd van **Concept** in **Voltooid**. Versie 1.1 kan niet meer worden gewijzigd. Deze versie bevat de geconfigureerde indeling en kan worden gebruikt om het aangepaste rapport af te drukken. Versie 1.2 van deze configuratie wordt gemaakt met de status **Concept**. U kunt deze versie bewerken om de indeling van uw **Vragenlijst** rapport aan te passen.
 
-![Bewerkbare ER-configuratie op de pagina Configuraties](./media/er-quick-start1-format-configuration.png)
+![Bewerkbare ER-configuratie op de pagina Configuraties.](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > De geconfigureerde indeling is uw ontwerp van het rapport **Vragenlijst** en bevat geen relaties met de specifieke Finance-artefacten.
@@ -1049,7 +1051,7 @@ Stel uw project samen om een nieuwe menuopdracht beschikbaar te maken voor gebru
 
 1. Ga naar **Vragenlijst** \> **Ontwerp** \> **Questionnaires report (powered by ER)**.
 
-    ![De menuopdracht Questionnaires report (powered by ER) selecteren in de module Vragenlijst om de geconfigureerde ER-indeling uit te voeren](./media/er-quick-start1-application-menu-modified.png)
+    ![De menuopdracht Questionnaires report (powered by ER) selecteren in de module Vragenlijst om de geconfigureerde ER-indeling uit te voeren.](./media/er-quick-start1-application-menu-modified.png)
 
 2. Selecteer in het dialoogvenster **Indelingstoewijzing** **Questionnaires report**.
 3. Selecteer **OK**.
@@ -1057,7 +1059,7 @@ Stel uw project samen om een nieuwe menuopdracht beschikbaar te maken voor gebru
 5. Selecteer **OK** om de filteroptie te bevestigen.
 6. Selecteer **OK** om het rapport uit te voeren.
 
-    ![Selectiecriteria opgeven in het dialoogvenster ER-rapport](./media/er-quick-start1-report-run-dialog-page.png)
+    ![Selectiecriteria opgeven in het dialoogvenster ER-rapport.](./media/er-quick-start1-report-run-dialog-page.png)
 
 7. Controleer het gegenereerde rapport.
 
@@ -1082,7 +1084,7 @@ U kunt de geconfigureerde ER-oplossing wijzigen, zodat deze de gegevensproviderk
 
 De toegevoegde gegevensbron bevat informatie over de record-id van de actieve ER-indelingstoewijzing.
 
-![Gegevensbron toegevoegd aan de ontwerper voor ER-modeltoewijzingen](./media/er-quick-start1-mapping3.png)
+![Gegevensbron toegevoegd aan de ontwerper voor ER-modeltoewijzingen.](./media/er-quick-start1-mapping3.png)
 
 #### <a name="add-a-data-source-to-access-er-format-mapping-records"></a><a name="AddDataSource2"></a>Een gegevensbron toevoegen voor toegang tot toewijzingsrecords met een ER-indeling
 
@@ -1154,7 +1156,7 @@ U kunt de geconfigureerde ER-indeling wijzigen, zodat de naam wordt weergegeven 
 
 De geconfigureerde indeling is nu gewijzigd, zodat de naam in de voettekst van een gegenereerd rapport wordt ingevoerd met het element **Voettekst\\Tekenreeks**.
 
-![Het element voor de voettekstindeling toevoegen aan de geconfigureerde indeling in de ER Operation-ontwerper](./media/er-quick-start1-template-format-structure3.png)
+![Het element voor de voettekstindeling toevoegen aan de geconfigureerde indeling in de ER Operation-ontwerper.](./media/er-quick-start1-template-format-structure3.png)
 
 #### <a name="complete-the-format-design"></a><a name="CompleteFormat2"></a>Het indelingsontwerp voltooien
 
@@ -1176,7 +1178,7 @@ De status van versie 1.2 van deze configuratie wordt gewijzigd van **Concept** i
 
 De voettekst van het gegenereerde rapport bevat de naam van de ER-indeling die is gebruikt om het rapport te genereren.
 
-![Gegenereerd rapport in de Excel-indeling](./media/er-quick-start1-report4.png)
+![Gegenereerd rapport in de Excel-indeling.](./media/er-quick-start1-report4.png)
 
 ### <a name="run-a-format-from-er"></a><a name="RunFormatFromER3"></a>Een indeling vanuit ER uitvoeren
 
@@ -1197,7 +1199,7 @@ Zoals u ziet, bevat de voettekst van het gegenereerde rapport niet de naam van d
 3. Stel op het sneltabblad **Bestandsbestemming** de [bestemming](er-destination-type-screen.md) **Scherm** in voor de indelingscomponent **Rapport** die is [toegevoegd](#AddFormatRootElement) als het hoofdelement van de geconfigureerde ER-indeling voor het **vragenlijstrapport**.
 4. Configureer op het sneltabblad **Instellingen PDF-conversie** de bestemming om een rapport te converteren naar [PDF-indeling](electronic-reporting-destinations.md#OutputConversionToPDF) waarin de afdrukstand **Liggend** wordt gebruikt.
 
-![De aangepaste schermbestemming configureren voor de ER-indeling op de pagina Bestemming elektronische rapportage](./media/er-quick-start1-destination.png)
+![De aangepaste schermbestemming configureren voor de ER-indeling op de pagina Bestemming elektronische rapportage.](./media/er-quick-start1-destination.png)
 
 ### <a name="run-a-format-from-the-application-to-preview-it-as-a-pdf-document"></a><a name="RunFormatFromApp3"></a>Een indeling van de toepassing uitvoeren voor voorvertoning als PDF-document
 
@@ -1209,12 +1211,12 @@ Zoals u ziet, bevat de voettekst van het gegenereerde rapport niet de naam van d
 
     Op het sneltabblad **Bestemmingen** doelen ziet u dat het veld **Uitvoer** is ingesteld op **Scherm**. Als u de geconfigureerde bestemming wilt wijzigen, selecteert u **Wijzigen**.
 
-    ![Dialoogvenster voor ER-rapport in runtime, waarin u de geconfigureerde bestemming kunt wijzigen](./media/er-quick-start1-run-settings.png)
+    ![Dialoogvenster voor ER-rapport in runtime, waarin u de geconfigureerde bestemming kunt wijzigen.](./media/er-quick-start1-run-settings.png)
 
 6. Selecteer **OK** om het rapport uit te voeren.
 7. Controleer het gegenereerde rapport in de PDF-indeling.
 
-    ![Voorvertoning op het scherm van het gegenereerde rapport in PDF-indeling](./media/er-quick-start1-preview-PDF.png)
+    ![Voorvertoning op het scherm van het gegenereerde rapport in PDF-indeling.](./media/er-quick-start1-preview-PDF.png)
 
 ## <a name="additional-resources"></a><a name="References"></a>Aanvullende bronnen
 

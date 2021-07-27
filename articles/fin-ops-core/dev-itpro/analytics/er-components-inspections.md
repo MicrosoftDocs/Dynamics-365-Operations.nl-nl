@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 309e613b707222920936d5af995ac57c4c423b40
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753835"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357661"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voorkomen
 
@@ -242,7 +242,7 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 1. Begin met het tegelijkertijd configureren van het ER-gegevensmodel en de ER-modeltoewijzingsonderdelen.
 2. Voeg in de gegevensmodelstructuur een veld toe met de naam **X** en selecteer **Geheel getal** als gegevenstype.
 
-    ![Het veld X en het gegevenstype Geheel getal toegevoegd aan de gegevensmodelstructuur op de pagina Gegevensmodel](./media/er-components-inspections-01.png)
+    ![Het veld X en het gegevenstype Geheel getal toegevoegd aan de gegevensmodelstructuur op de pagina Gegevensmodel.](./media/er-components-inspections-01.png)
 
 3. Voeg in de ontwerper voor modeltoewijzing, in het deelvenster **Gegevensbronnen**, een gegevensbron van het type **Berekend veld** toe.
 4. Noem de nieuwe gegevensbron **Y** en configureer deze zodat deze de expressie `INTVALUE(100)` bevat.
@@ -250,17 +250,17 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 6. Wijzig in de ontwerper van het gegevensmodel het gegevenstype van het veld **X** van **Geheel getal** in **Int64**.
 7. Selecteer **Valideren** om het bewerkbare onderdeel voor modeltoewijzing te inspecteren op de pagina **Ontwerper modeltoewijzing**.
 
-    ![Het bewerkbare onderdeel voor modeltoewijzing valideren op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-01.gif)
+    ![Het bewerkbare onderdeel voor modeltoewijzing valideren op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-01.gif)
 
 8. Selecteer **Valideren** om het onderdeel voor modeltoewijzing van de geselecteerde ER-configuratie te inspecteren op de pagina **Configuraties**.
 
-    ![Het onderdeel voor modeltoewijzing inspecteren op de pagina Configuraties](./media/er-components-inspections-01a.png)
+    ![Het onderdeel voor modeltoewijzing inspecteren op de pagina Configuraties.](./media/er-components-inspections-01a.png)
 
 9. Zoals u ziet, treedt er een validatiefout op. In het bericht staat dat de waarde van het type **Geheel getal** dat de expressie `INTVALUE(100)` van de gegevensbron **Y** als resultaat geeft, niet kan worden opgeslagen in gegevensmodelveld **X** van het type **Int64**.
 
 In de volgende afbeelding wordt de runtimefout weergegeven die optreedt als u de waarschuwing negeert en **Uitvoeren** selecteert om een indeling uit te voeren die is geconfigureerd voor gebruik van de modeltoewijzing.
 
-![Runtimefouten op de pagina Indelingsontwerper](./media/er-components-inspections-01b.png)
+![Runtimefouten op de pagina Indelingsontwerper.](./media/er-components-inspections-01b.png)
 
 ### <a name="automatic-resolution"></a>Automatische oplossing
 
@@ -290,7 +290,7 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 6. Wijzig in de indelingsstructuur het gegevenstype van het indelingselement **Y** van **Geheel getal** in **Int64**.
 7. Selecteer **Valideren** om het bewerkbare indelingsonderdeel te inspecteren op de pagina **Indelingsontwerper**.
 
-    ![Typecompatibiliteit valideren op de pagina Indelingsontwerper](./media/er-components-inspections-02.gif)
+    ![Typecompatibiliteit valideren op de pagina Indelingsontwerper.](./media/er-components-inspections-02.gif)
 
 8. Zoals u ziet, treedt er een validatiefout op. In het bericht staat dat de geconfigureerde expressie alleen waarden van het type **Int64** kan accepteren. De waarde van het gegevensmodelveld **X** van het type **Geheel getal** kan daarom niet worden ingevoerd in indelingselement **Y**.
 
@@ -317,7 +317,7 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 1. Begin met het tegelijkertijd configureren van het ER-gegevensmodel en de ER-modeltoewijzingsonderdelen.
 2. Voeg in de gegevensmodelstructuur een veld toe met de naam **X** en selecteer **Geheel getal** als gegevenstype.
 
-    ![Gegevensmodelstructuur met veld X en gegevenstype Geheel getal op de pagina Gegevensmodel](./media/er-components-inspections-01.png)
+    ![Gegevensmodelstructuur met veld X en gegevenstype Geheel getal op de pagina Gegevensmodel.](./media/er-components-inspections-01.png)
 
 3. Voeg in de ontwerper voor modeltoewijzing, in het deelvenster **Gegevensbronnen**, een gegevensbron van het type **Berekend veld** toe.
 4. Noem de nieuwe gegevensbron **Y** en configureer deze zodat deze de expressie `INTVALUE(100)` bevat.
@@ -325,7 +325,7 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 6. Verwijder in de ontwerper voor modeltoewijzingen, in het deelvenster **Gegevensbronnen**, de gegevensbron **Y**.
 7. Selecteer **Valideren** om het bewerkbare onderdeel voor modeltoewijzing te inspecteren op de pagina **Ontwerper modeltoewijzing**.
 
-    ![Het bewerkbare onderdeel voor ER-modeltoewijzing inspecteren op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-03.gif)
+    ![Het bewerkbare onderdeel voor ER-modeltoewijzing inspecteren op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-03.gif)
 
 8. Zoals u ziet, treedt er een validatiefout op. In het bericht staat dat de binding van het gegevensmodelveld **X** het pad bevat dat verwijst naar gegevensbron **Y**, maar dat deze gegevensbron niet is gevonden.
 
@@ -359,13 +359,13 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 8. Noem het nieuwe geneste veld **$AccNumber** en configureer het zodat het de expressie `TRIM(Vendor.AccountNum)` bevat.
 9. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie `FILTER(Vendor, Vendor.AccountNum="US-101")` in de gegevensbron **Vendor** kan worden opgevraagd.
 
-    ![Controleren of de expressie kan worden opgevraagd op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-04.gif)
+    ![Controleren of de expressie kan worden opgevraagd op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-04.gif)
 
 10. Er treedt een validatiefout op, omdat de gegevensbron **Vendor** een genest veld van het type **Berekend veld** bevat waarmee de expressie van de gegevensbron **FilteredVendor** niet kan worden omgezet in de directe SQL-instructie.
 
 In de volgende afbeelding wordt de runtimefout weergegeven die optreedt als u de waarschuwing negeert en **Uitvoeren** selecteert om een indeling uit te voeren die is geconfigureerd voor gebruik van de modeltoewijzing.
 
-![Runtimefouten die optreden wanneer u de bewerkbare indeling uitvoert op de pagina Indelingsontwerper](./media/er-components-inspections-04a.png)
+![Runtimefouten die optreden wanneer u de bewerkbare indeling uitvoert op de pagina Indelingsontwerper.](./media/er-components-inspections-04a.png)
 
 ### <a name="automatic-resolution"></a>Automatische oplossing
 
@@ -396,23 +396,23 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
     - Selecteer de gegevensbron **Trans** als de bron van records die moeten worden gegroepeerd.
     - Selecteer in het veld **Uitvoeringslocatie** de optie **Query** om op te geven dat u deze gegevensbron op databaseniveau wilt uitvoeren.
 
-    ![De gegevensbron configureren op de pagina 'Groeperen op'-parameters bewerken](./media/er-components-inspections-05a.gif)
+    ![De gegevensbron configureren op de pagina 'Groeperen op'-parameters bewerken.](./media/er-components-inspections-05a.gif)
 
 6. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie in de geconfigureerde gegevensbron **GroupedTrans** kan worden opgevraagd.
 7. Wijzig de gegevensbron **Trans** door een genest veld van het type **Berekend veld** toe te voegen om het bijgesneden leveranciersrekeningnummer te krijgen.
 8. Noem de nieuwe gegevensbron **$AccNumber** en configureer deze zodat deze de expressie `TRIM(Trans.AccountNum)` bevat.
 
-    ![De gegevensbron configureren op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-05a.png)
+    ![De gegevensbron configureren op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-05a.png)
 
 9. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie in de geconfigureerde gegevensbron **GroupedTrans** kan worden opgevraagd.
 
-    ![Het ER-modeltoewijzingsonderdeel valideren en controleren of de gegevensbron GroupedTrans kan worden opgevraagd op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-05b.png)
+    ![Het ER-modeltoewijzingsonderdeel valideren en controleren of de gegevensbron GroupedTrans kan worden opgevraagd op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-05b.png)
 
 10. Er treedt een validatiefout op, omdat de gegevensbron **Trans** een genest veld van het type **Berekend veld** bevat waarmee de aanvraag voor de gegevensbron **GroupedTrans** niet kan worden omgezet naar de directe SQL-instructie.
 
 In de volgende afbeelding wordt de runtimefout weergegeven die optreedt als u de waarschuwing negeert en **Uitvoeren** selecteert om een indeling uit te voeren die is geconfigureerd voor gebruik van de modeltoewijzing.
 
-![Runtimefouten die optreden wanneer waarschuwing wordt genegeerd op de pagina Indelingsontwerper](./media/er-components-inspections-05c.png)
+![Runtimefouten die optreden wanneer waarschuwing wordt genegeerd op de pagina Indelingsontwerper.](./media/er-components-inspections-05c.png)
 
 ### <a name="automatic-resolution"></a>Automatische oplossing
 
@@ -448,21 +448,21 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
     2. Voeg de gegevensbron **Vendor.FilteredTrans** toe als tweede set records om samen te voegen. Selecteer **INNER** als het type.
     3. Selecteer in het veld **Uitvoeren** de optie **Query** om op te geven dat u deze gegevensbron op databaseniveau wilt uitvoeren.
 
-    ![De gegevensbron configureren op de pagina Join-ontwerper](./media/er-components-inspections-06a.gif)
+    ![De gegevensbron configureren op de pagina Join-ontwerper.](./media/er-components-inspections-06a.gif)
 
 10. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie in de geconfigureerde gegevensbron **JoinedList** kan worden opgevraagd.
 11. Wijzig de expressie van de gegevensbron **Vendor.FilteredTrans** van `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)` in `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)`.
 12. Selecteer **Valideren** om het bewerkbare modeltoewijzingsonderdeel te inspecteren op de pagina **Ontwerper modeltoewijzing** en te controleren of de expressie in de geconfigureerde gegevensbron **JoinedList** kan worden opgevraagd.
 
-    ![Het bewerkbare modeltoewijzingsonderdeel valideren en controleren of de gegevensbron JoinedList kan worden opgevraagd op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-06b.png)
+    ![Het bewerkbare modeltoewijzingsonderdeel valideren en controleren of de gegevensbron JoinedList kan worden opgevraagd op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-06b.png)
 
 13. Er treedt een validatiefout op omdat de expressie van de gegevensbron **Vendor.FilteredTrans** kan niet worden omgezet naar de directe SQL-aanroep. Bovendien staat de directe SQL-aanroep staat niet toe dat de aanroep van de gegevensbron **JoinedList** wordt omgezet in de directe SQL-instructie.
 
-    ![Runtimefouten uit de mislukte validatie van de JoinedList-gegevensbron op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-06c.png)
+    ![Runtimefouten uit de mislukte validatie van de JoinedList-gegevensbron op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-06c.png)
 
 In de volgende afbeelding wordt de runtimefout weergegeven die optreedt als u de waarschuwing negeert en **Uitvoeren** selecteert om een indeling uit te voeren die is geconfigureerd voor gebruik van de modeltoewijzing.
 
-![De bewerkbare indeling uitvoeren op de pagina Indelingsontwerper](./media/er-components-inspections-06e.png)
+![De bewerkbare indeling uitvoeren op de pagina Indelingsontwerper.](./media/er-components-inspections-06e.png)
 
 ### <a name="automatic-resolution"></a>Automatische oplossing
 
@@ -474,7 +474,7 @@ Er is geen optie beschikbaar om dit probleem automatisch op te lossen.
 
 Wijzig de expressie van de gegevensbron **Vendor.FilteredTrans** van `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)` terug in `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)`, zoals geadviseerd in de waarschuwing.
 
-![Bijgewerkte expressie van gegevensbron op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-06d.png)
+![Bijgewerkte expressie van gegevensbron op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-06d.png)
 
 #### <a name="option-2"></a>Optie 2
 
@@ -497,11 +497,11 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 9. Noem de nieuwe gegevensbron **FilteredVendor** en configureer deze zodat deze de expressie `WHERE(Vendor, Vendor.AccountNum="US-101")` bevat.
 10. Selecteer **Valideren** om het bewerkbare onderdeel voor modeltoewijzing te inspecteren op de pagina **Ontwerper modeltoewijzing**.
 
-    ![Het bewerkbare onderdeel voor ER-modeltoewijzing inspecteren op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-07a.png)
+    ![Het bewerkbare onderdeel voor ER-modeltoewijzing inspecteren op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-07a.png)
 
 11. In de validatiewaarschuwingen wordt u geadviseerd om de **FILTER**-functie te gebruiken in plaats van de **WHERE**-functie voor de gegevensbronnen **FilteredVendor** en **FilteredTrans**.
 
-    ![Aanbeveling voor gebruik van de functie FILTER in plaats van de functie WHERE op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-07b.png)
+    ![Aanbeveling voor gebruik van de functie FILTER in plaats van de functie WHERE op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-07b.png)
 
 ### <a name="automatic-resolution"></a>Automatische oplossing
 
@@ -509,7 +509,7 @@ Selecteer **Corrigeren** om de **WHERE**-functie automatisch te vervangen door d
 
 U kunt ook de rij selecteren voor een enkele waarschuwing in het raster en vervolgens **Selectie corrigeren** selecteren. In dit geval wordt de expressie automatisch gewijzigd in de gegevensbron die in de geselecteerde waarschuwing wordt vermeld.
 
-![Corrigeren selecteren om automatisch de functie WHERE te vervangen door de functie FILTER op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-07c.png)
+![Corrigeren selecteren om automatisch de functie WHERE te vervangen door de functie FILTER op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-07c.png)
 
 ### <a name="manual-resolution"></a>Handmatige oplossing
 
@@ -530,11 +530,11 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 7. Noem de nieuwe gegevensbron **FilteredVendorTrans** en configureer deze zodat deze de expressie `ALLITEMS(FilteredVendor.'<Relations'.'VendTrans.VendTable_AccountNum')` bevat.
 8. Selecteer **Valideren** om het bewerkbare onderdeel voor modeltoewijzing te inspecteren op de pagina **Ontwerper modeltoewijzing**.
 
-    ![Het bewerkbare onderdeel voor modeltoewijzing inspecteren op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-08a.png)
+    ![Het bewerkbare onderdeel voor modeltoewijzing inspecteren op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-08a.png)
 
 9. Zoals u ziet, treedt er een validatiewaarschuwing op. Het bericht beveelt aan dat u de **ALLITEMSQUERY**-functie gebruikt in plaats van de **ALLITEMS**-functie voor de gegevensbron **FilteredVendorTrans**.
 
-    ![Aanbeveling voor gebruik van de functie ALLITEMSQUERY in plaats van de functie ALLITEMS op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-08b.png)
+    ![Aanbeveling voor gebruik van de functie ALLITEMSQUERY in plaats van de functie ALLITEMS op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-08b.png)
 
 ### <a name="automatic-resolution"></a>Automatische oplossing
 
@@ -542,7 +542,7 @@ Selecteer **Corrigeren** om de **ALLITEMS**-functie automatisch te vervangen doo
 
 U kunt ook de rij selecteren voor een enkele waarschuwing in het raster en vervolgens **Selectie corrigeren** selecteren. In dit geval wordt de expressie automatisch gewijzigd in de gegevensbron die in de geselecteerde waarschuwing wordt vermeld.
 
-![Corrigeren selecteren op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-08c.png)
+![Corrigeren selecteren op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-08c.png)
 
 ### <a name="manual-resolution"></a>Handmatige oplossing
 
@@ -563,7 +563,7 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
     - Voeg een genest veld van het type **Tekenreeks** toe en geef het de naam **Name**.
     - Voeg een genest veld van het type **Tekenreeks** toe en geef het de naam **AccountNumber**.
 
-    ![Geneste velden toevoegen op de pagina Gegevensmodel](./media/er-components-inspections-09a.png)
+    ![Geneste velden toevoegen op de pagina Gegevensmodel.](./media/er-components-inspections-09a.png)
 
 6. Voeg in de ontwerper voor modeltoewijzing, in het deelvenster **Gegevensbronnen**, een gegevensbron van het type **Dynamics 365 for Operations \\ Tabelrecords** toe.
 7. Geef de nieuwe gegevensbron de naam **Vendor**. Selecteer in het veld **Tabel** de optie **VendTable** om aan te geven dat deze gegevensbron de tabel VendTable moet opvragen.
@@ -577,7 +577,7 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
     - Bind **FilteredVendor.AccountNum** aan **Vendor.AccountNumber**.
     - Bind **FilteredVendor.'name()'** aan **Vendor.Name**.
 
-    ![Gegevensmodelitems binden op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-09b.png)
+    ![Gegevensmodelitems binden op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-09b.png)
 
 13. Voeg in de indelingsstructuur de volgende items toe om een uitgaand document te genereren in XML-indeling dat de details van de leverancier bevat:
 
@@ -595,15 +595,15 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 
 15. Selecteer **Valideren** om het bewerkbare indelingsonderdeel te inspecteren op de pagina **Indelingsontwerper**.
 
-    ![De indelingselementen valideren die u hebt gebonden aan gegevensbronnen op de pagina Indelingsontwerper](./media/er-components-inspections-09c.png)
+    ![De indelingselementen valideren die u hebt gebonden aan gegevensbronnen op de pagina Indelingsontwerper.](./media/er-components-inspections-09c.png)
 
 16. Zoals u ziet, treedt er een validatiefout op. Het bericht geeft aan dat er een fout kan worden gegenereerd voor de geconfigureerde indelingsonderdelen **Statement\\Party\\Name** en **Statement\\Party\\AccountNum** tijdens runtime als de lijst `model.Vendor` leeg is.
 
-    ![Validatiefout bij een mogelijke fout voor de geconfigureerde indelingonderdelen](./media/er-components-inspections-09d.png)
+    ![Validatiefout bij een mogelijke fout voor de geconfigureerde indelingonderdelen.](./media/er-components-inspections-09d.png)
 
 In de volgende afbeelding wordt de runtimefout weergegeven die optreedt als u de waarschuwing negeert, **Uitvoeren** selecteert om de indeling uit te voeren en het rekeningnummer van een niet-bestaande leverancier selecteert. Omdat de aangevraagde leverancier niet bestaat, is de lijst `model.Vendor` leeg (bevat dus geen records).
 
-![Runtimefouten die optreden tijdens het uitvoeren van de indelingstoewijzing](./media/er-components-inspections-09e.png)
+![Runtimefouten die optreden tijdens het uitvoeren van de indelingstoewijzing.](./media/er-components-inspections-09e.png)
 
 ### <a name="automatic-resolution"></a>Automatische oplossing
 
@@ -615,7 +615,7 @@ Voor de geselecteerde rij in het raster op het tabblad **Waarschuwingen** kunt u
 
 U kunt het indelingselement **Statement\\Party\\Name** binden aan het gegevensbronitem `model.Vendor`. Tijdens runtime roept deze binding eerst de gegevensbron `model.Vendor` aan. Wanneer `model.Vendor` een lege recordlijst retourneert, worden de geneste indelingselementen niet uitgevoerd. Daarom worden er geen validatiewaarschuwingen voor deze indelingsconfiguratie weergegeven.
 
-![Het indelingselement binden aan het gegevensbronitem op de pagina Indelingsontwerper](./media/er-components-inspections-09e.gif)
+![Het indelingselement binden aan het gegevensbronitem op de pagina Indelingsontwerper.](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>Optie 2
 
@@ -626,7 +626,7 @@ Wijzig de binding van het indelingselement **Statement\\Party\\Name** van `model
 
 Daarom worden er geen validatiewaarschuwingen weergegeven voor het indelingselement **Statement\\Party\\Name** als het is gekoppeld aan de expressie `FIRSTORNULL(model.Vendor).Name`.
 
-![Gewijzigde binding lost validatiewaarschuwingen op de pagina Indelingsontwerper op](./media/er-components-inspections-09f.gif)
+![Gewijzigde binding lost validatiewaarschuwingen op de pagina Indelingsontwerper op.](./media/er-components-inspections-09f.gif)
 
 #### <a name="option-3"></a>Optie 3
 
@@ -653,17 +653,17 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 7. Noem de nieuwe gegevensbron **FilteredVendor** en configureer deze zodat deze de expressie `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)` bevat.
 8. Markeer de geconfigureerde gegevensbron **Vendor** als in cache.
 
-    ![Het onderdeel voor modeltoewijzing configureren op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-10a.gif)
+    ![Het onderdeel voor modeltoewijzing configureren op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-10a.gif)
 
 9. Selecteer **Valideren** om het bewerkbare onderdeel voor modeltoewijzing te inspecteren op de pagina **Ontwerper modeltoewijzing**.
 
-    ![De functie FILTER valideren die is toegepast op de in de cache opgeslagen gegevensbron Leverancier op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-10a.png)
+    ![De functie FILTER valideren die is toegepast op de in de cache opgeslagen gegevensbron Leverancier op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-10a.png)
 
 10. Zoals u ziet, treedt er een validatiefout op. Het bericht geeft aan dat de **FILTER**-functie niet kan worden toegepast op de gegevensbron **Vendor** in de cache.
 
 In de volgende afbeelding wordt de runtimefout weergegeven die optreedt als u de waarschuwing negeert en **Uitvoeren** selecteert om de indeling uit te voeren.
 
-![Runtimefout die optreedt tijdens het uitvoeren van de indelingstoewijzing op de pagina Indelingsontwerper](./media/er-components-inspections-10b.png)
+![Runtimefout die optreedt tijdens het uitvoeren van de indelingstoewijzing op de pagina Indelingsontwerper.](./media/er-components-inspections-10b.png)
 
 ### <a name="automatic-resolution&quot;></a>Automatische oplossing
 
@@ -694,7 +694,7 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
     - Voeg een genest veld van het type **Tekenreeks** toe en geef het de naam **Name**.
     - Voeg een genest veld van het type **Tekenreeks** toe en geef het de naam **AccountNumber**.
 
-    ![Geneste velden toevoegen aan het leveranciersitem op de pagina Gegevensmodel](./media/er-components-inspections-11a.png)
+    ![Geneste velden toevoegen aan het leveranciersitem op de pagina Gegevensmodel.](./media/er-components-inspections-11a.png)
 
 6. Voeg in de ontwerper voor modeltoewijzing, in het deelvenster **Gegevensbronnen**, een gegevensbron van het type **Dynamics 365 for Operations \\ Tabelrecords** toe.
 7. Geef de nieuwe gegevensbron de naam **Vendor**. Selecteer in het veld **Tabel** de optie **VendTable** om aan te geven dat deze gegevensbron de tabel VendTable moet opvragen.
@@ -710,7 +710,7 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
     > [!NOTE]
     > Het gegevensmodelveld **Vendor.Name** blijft ongebonden.
 
-    ![Gegevensmodelitems die zijn gebonden aan geconfigureerde gegevensbronnen en een gegevensmodusitem dat ongebonden blijft op de pagina Ontwerper modeltoewijzing](./media/er-components-inspections-11b.png)
+    ![Gegevensmodelitems die zijn gebonden aan geconfigureerde gegevensbronnen en een gegevensmodusitem dat ongebonden blijft op de pagina Ontwerper modeltoewijzing.](./media/er-components-inspections-11b.png)
 
 13. Voeg in de indelingsstructuur de volgende items toe om een uitgaand document te genereren in XML-indeling dat de details bevat van de leveranciers waarnaar is geïnformeerd:
 
@@ -729,15 +729,15 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 
 15. Selecteer **Valideren** om het bewerkbare indelingsonderdeel te inspecteren op de pagina **Indelingsontwerper**.
 
-    ![Het ER-indelingsonderdeel valideren op de pagina Indelingsontwerper](./media/er-components-inspections-11c.png)
+    ![Het ER-indelingsonderdeel valideren op de pagina Indelingsontwerper.](./media/er-components-inspections-11c.png)
 
 16. Zoals u ziet, treedt er een validatiewaarschuwing op. Het bericht geeft aan dat gegevensbronveld **model.Vendor.Name** niet is gebonden aan een gegevensbron in de modeltoewijzing die is geconfigureerd voor gebruik door de indeling. Daarom kan het indelingselement **Statement\\Party\\Name** niet worden gevuld tijdens runtime en kan er een runtime-uitzondering optreden.
 
-    ![Het ER-indelingsonderdeel valideren op de pagina Indelingsontwerper](./media/er-components-inspections-11d.png)
+    ![Het ER-indelingsonderdeel valideren op de pagina Indelingsontwerper.](./media/er-components-inspections-11d.png)
 
 In de volgende afbeelding wordt de runtimefout weergegeven die optreedt als u de waarschuwing negeert en **Uitvoeren** selecteert om de indeling uit te voeren.
 
-![De bewerkbare indeling uitvoeren op de pagina Indelingsontwerper](./media/er-components-inspections-11e.png)
+![De bewerkbare indeling uitvoeren op de pagina Indelingsontwerper.](./media/er-components-inspections-11e.png)
 
 ### <a name="automatic-resolution"></a>Automatische oplossing
 
@@ -766,7 +766,7 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 5. Selecteer in het element **Excel\\File** werkmapbestand A.
 6. Selecteer **Valideren** om het bewerkbare indelingsonderdeel te inspecteren op de pagina **Indelingsontwerper**.
 
-    ![Het bewerkbare-bestandsonderdeel van werkmapbestand valideren op de pagina Indelingsontwerper](./media/er-components-inspections-12a.gif)
+    ![Het bewerkbare-bestandsonderdeel van werkmapbestand valideren op de pagina Indelingsontwerper.](./media/er-components-inspections-12a.gif)
 
 7. Zoals u ziet, treedt er een validatiewaarschuwing op. Het bericht geeft aan dat het werkmapbestand B.xlsx niet is gekoppeld aan onderdelen en dat het wordt verwijderd nadat de status van de configuratieversie is gewijzigd.
 
@@ -794,11 +794,11 @@ De volgende stappen laten zien hoe dit probleem kan optreden.
 4. Voeg het **Excel\\Cell**-element **Titel** toe als een genest element van het element **Rapport**. Voer in het veld **Excel-bereik** de waarde **ReportTitle** in.
 5. Selecteer **Valideren** om het bewerkbare indelingsonderdeel te inspecteren op de pagina **Indelingsontwerper**.
 
-    ![De geneste elementen en velden valideren op de pagina Indelingsontwerper](./media/er-components-inspections-13a.png)
+    ![De geneste elementen en velden valideren op de pagina Indelingsontwerper.](./media/er-components-inspections-13a.png)
 
 6. Zoals u ziet, treedt er een validatiewaarschuwing op. In het bericht staat dat de naam **ReportTitle** niet bestaat op werkblad **Sheet1** van de Excel-sjabloon die u gebruikt.
 
-    ![Validatiewaarschuwing dat de naam ReportTitle niet bestaat op Sheet1 van de Excel-sjabloon](./media/er-components-inspections-13b.png)
+    ![Validatiewaarschuwing dat de naam ReportTitle niet bestaat op Sheet1 van de Excel-sjabloon.](./media/er-components-inspections-13b.png)
 
 ### <a name="automatic-resolution"></a>Automatische oplossing
 

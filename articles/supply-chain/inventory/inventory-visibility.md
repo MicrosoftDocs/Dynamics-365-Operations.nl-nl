@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 8709b91b354fa4e1319b406c009bfdadeef48a41
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6017001"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358093"
 ---
 # <a name="inventory-visibility-add-in"></a>Invoegtoepassing Voorraadzichtbaarheid
 
@@ -143,7 +143,7 @@ Als aan de vereisten is voldaan, gebruikt u de volgende procedure als u deze Dat
 
             Zie de sectie [Integratie van voorraadzichtbaarheid instellen](#setup-inventory-visibility-integration) verder op in dit onderwerp voor meer informatie over deze variabele.
 
-        ![Configuratietrigger](media/configuration-trigger.png "Configuratietrigger")
+        ![Configuratietrigger.](media/configuration-trigger.png "Configuratietrigger")
 
     1. Selecteer **Inschakelen**.
 
@@ -157,7 +157,7 @@ Om de invoegtoepassing voor voorraadzichtbaarheid te installeren, moet u het vol
 1. Schuif op de omgevingspagina naar beneden tot u de sectie **Invoegvoegingen voor omgeving** ziet in de sectie **Power Platform-Integratie**, waar u de naam van de Dataverse-omgeving kunt vinden.
 1. Selecteer in de sectie **Invoegtoepassingen voor omgeving** de optie **Een nieuwe invoegtoepassing installeren**.
 
-    ![De omgevingspagina in LCS](media/inventory-visibility-environment.png "De omgevingspagina in LCS")
+    ![De omgevingspagina in LCS.](media/inventory-visibility-environment.png "De omgevingspagina in LCS")
 
 1. Selecteer de koppeling **Een nieuwe invoegtoepassing installeren**. Er wordt een lijst met beschikbare invoegtoepassingen geopend.
 1. Selecteer **Voorraadzichtbaarheid** in de lijst.
@@ -166,7 +166,7 @@ Om de invoegtoepassing voor voorraadzichtbaarheid te installeren, moet u het vol
     - **Id AAD-toepassing (client)**
     - **AAD-tenant-id**
 
-    ![Toevoegen in installatiepagina](media/inventory-visibility-setup.png "Instellingspagina invoegtoepassing")
+    ![Toevoegen in installatiepagina.](media/inventory-visibility-setup.png "Instellingspagina invoegtoepassing")
 
 1. Ga akkoord met de voorwaarden door het selectievakje **Voorwaarden** in te schakelen.
 1. Selecteer **Installeren**. De status van de invoegtoepassing wordt weergegeven als **Wordt geïnstalleerd**. Na voltooiing vernieuwt u de pagina zodat de status wordt gewijzigd in **Geïnstalleerd**.

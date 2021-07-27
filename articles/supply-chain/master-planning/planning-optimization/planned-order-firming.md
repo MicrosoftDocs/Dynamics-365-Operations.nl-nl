@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 00cb05105c047989ea74bbba3360c067b1b98ce8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271203"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360371"
 ---
 # <a name="firm-planned-orders"></a>Vast geplande orders
 
@@ -81,7 +81,7 @@ Als u geplande orders handmatig wilt fiatteren, kunt u de geplande orders zoeken
     - **Groeperen op periode** (in het gedeelte **Inkooporders**): selecteer de periode waarvoor u geplande inkooporders wilt groeperen. Als u deze optie wilt gebruiken, moet u ook de optie **Groeperen op leverancier** inschakelen.
     - **Groeperen op periode** (in het gedeelte **Transferorders**): selecteer de periode waarvoor u geplande transferorders wilt groeperen. De orders worden gegroepeerd op basis van de waarden **Van magazijn** en **Naar magazijn**.
 
-    ![Sneltabblad Parameters in het dialoogvenster Fiattering](./media/manual-firming.png "Sneltabblad Parameters in het dialoogvenster Fiattering")
+    ![Sneltabblad Parameters in het dialoogvenster Fiattering.](./media/manual-firming.png "Sneltabblad Parameters in het dialoogvenster Fiattering")
 
 1. Stel de taak op het sneltabblad **Op de achtergrond uitvoeren** zo in dat deze in de batchmodus wordt uitgevoerd. Het heeft echter geen zin een terugkerend schema in te stellen wanneer u de fiattering handmatig uitvoert. De velden werken op dezelfde manier als bij andere typen [achtergrondtaken](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) in Supply Chain Management. Bij handmatige fiattering worden bij de batchtaak echter alleen de op dat moment geselecteerde geplande orders verwerkt. Bij de batchtaak worden orders die niet aan de filters voldoen die op dat moment op de pagina zijn toegepast, niet verwerkt.
 1. Selecteer **OK** om de instellingen toe te passen en de gefiatteerde orders te genereren.
@@ -140,15 +140,15 @@ Volg deze stappen om een geplande order te fiatteren met behulp van het op een q
     - **Time fence voor fiattering dagen vooruit**: selecteer hoe ver in de toekomst de verschillende vereisten en andere overwegingen moeten worden berekend op basis van de hoofdplanning.
     - **Time fence voor fiattering dagen terug**: selecteer hoe ver in het verleden de verschillende vereisten en andere overwegingen moeten worden berekend op basis van de hoofdplanning.
 
-    ![Sneltabblad Parameters in het dialoogvenster Fiatteren van geplande orders](./media/planned-order-firming-main-1.png "Sneltabblad Parameters in het dialoogvenster Fiatteren van geplande orders")
+    ![Sneltabblad Parameters in het dialoogvenster Fiatteren van geplande orders.](./media/planned-order-firming-main-1.png "Sneltabblad Parameters in het dialoogvenster Fiatteren van geplande orders")
 
 1. Als u wilt opgeven welke records in de order moeten worden opgenomen, selecteert u de knop **Filteren** op het sneltabblad **Op te nemen records**. Er wordt een standaard querydialoogvenster weergegeven, waarin u selectiecriteria, sorteercriteria en joins kunt definiëren. De velden werken op dezelfde manier als bij andere typen query's in Supply Chain Management. De velden hier zijn alleen-lezen en bevatten waarden die betrekking hebben op de query.
 
-    ![Sneltabblad Op te nemen records in het dialoogvenster Fiatteren van geplande orders](./media/planned-order-firming-main-2.png "Sneltabblad Op te nemen records in het dialoogvenster Fiatteren van geplande orders")
+    ![Sneltabblad Op te nemen records in het dialoogvenster Fiatteren van geplande orders.](./media/planned-order-firming-main-2.png "Sneltabblad Op te nemen records in het dialoogvenster Fiatteren van geplande orders")
 
 1. Selecteer **Voorbeeld** om een voorbeeld te bekijken van de inhoud van de gefiatteerde order, op basis van de instellingen tot nu toe. De lijst met geplande orders die worden gefiatteerd, wordt als een bericht weergegeven. U kunt vervolgens de gewenste instellingen aanpassen totdat in het voorbeeld de gefiatteerde order wordt weergegeven die u wilt.
 
-    ![Voorbeeld van een weergave van een gefiatteerde order](./media/planned-order-firming-preview.png "Voorbeeld van een weergave van een gefiatteerde order")
+    ![Voorbeeld van een weergave van een gefiatteerde order.](./media/planned-order-firming-preview.png "Voorbeeld van een weergave van een gefiatteerde order")
 
     > [!WARNING]
     > Met deze functie worden alle geplande orders gefiatteerd die aan de filtercriteria voldoen. Als het fiatteren van geplande orders niet goed wordt ingesteld, kunnen er veel ongewenste inkoop-, transfer- en productieorders worden gemaakt. Voordat u doorgaat, moet u altijd de knop **Voorbeeld** gebruiken om de records te valideren die worden opgenomen.

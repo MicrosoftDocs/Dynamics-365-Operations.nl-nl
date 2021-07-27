@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f083115f5dc0cfe0e9ba4786bf79ec4083ab7e78
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3cd179483458dd3da3b69afaa464c21a11c3df8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792190"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352007"
 ---
 # <a name="home-page-overview"></a>Overzicht van startpagina
 
@@ -31,7 +32,7 @@ De startpagina is de standaardpagina waarop bezoekers terechtkomen wanneer ze na
 
 In de volgende afbeelding ziet u een voorbeeld van een startpagina die is gemaakt met de modulebibliotheek en het thema 'Fabrikam'.
 
-![Voorbeeld van een startpagina](./media/Homepage2.PNG)
+![Voorbeeld van een startpagina.](./media/Homepage2.PNG)
 
 De startpagina bevat bovenaan een koptekst waarin alle productcategorieën en andere pagina's worden weergegeven waar de detailhandelaar de klanten doorheen wil laten bladeren. Onder aan de startpagina staat een voettekst die snelkoppelingen bevat naar verschillende onderwerpen waarin klanten mogelijk geïnteresseerd zijn.
 
@@ -41,13 +42,13 @@ In de hoofdsectie van de startpagina kunt u producten, categorieën of promoties
 
     In de volgende afbeelding ziet u een voorbeeld van een startpagina waarbij het eerste item in de hoofdsectie een heldindeling van een inhoudsblokmodule is met de naam 'Nieuw binnengekomen'.
 
-    ![Voorbeeld van een heldmodule](./media/Hero.PNG)
+    ![Voorbeeld van een heldmodule.](./media/Hero.PNG)
 
 - **Functie**: een functie-indeling van een inhoudsblokmodule wordt gebruikt voor de marketing van producten of promoties via een combinatie van afbeeldingen en tekst. Functie-indelingen kunnen onafhankelijk worden gebruikt of kunnen worden gehost in een carrouselmodule.
 
     In de volgende illustratie ziet u een voorbeeld van een functie-indeling van een inhoudsblokmodule op een startpagina.
 
-    ![Voorbeelden van functiemodules](./media/Feature.PNG)
+    ![Voorbeelden van functiemodules.](./media/Feature.PNG)
 
 - **Tegel**: een tegelindeling van een inhoudsblokmodule wordt gebruikt om meerdere producten of categorieproducten te presenteren met een combinatie van afbeeldingen en tekst in een indeling met meerdere kolommen. In de illustratie van een startpagina die eerder in dit onderwerp wordt weergegeven, wordt een tegelindelen gebruikt voor de weergave in drie kolommen van de items **Producten voor dames**, **Producten voor heren** en **Accessoires**.
 - **Videospeler**: een videospelermodule kan worden gebruikt om video-inhoud te presenteren op de startpagina. De afbeelding van een startpagina die eerder in dit onderwerp wordt weergegeven, bevat een videospelermodule.
@@ -56,7 +57,7 @@ In de hoofdsectie van de startpagina kunt u producten, categorieën of promoties
 
     In de volgende afbeelding ziet u een voorbeeld van modules voor productaanbevelingen op een startpagina.
 
-    ![Voorbeelden van modules voor productaanbevelingen](./media/Recommendations.PNG)
+    ![Voorbeelden van modules voor productaanbevelingen.](./media/Recommendations.PNG)
 
 > [!NOTE]
 > Alle modules die hier worden vermeld, kunnen op elke sitepagina worden gebruikt. De plaats op de startpagina is echter belangrijk, omdat klanten op deze pagina de eerste keer kennismaken met uw site.

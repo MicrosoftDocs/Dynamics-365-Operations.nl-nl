@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5b58a9345b83219296a3570e7bf653ef8624b7a1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894167"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357637"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Grote documenten comprimeren die worden gegenereerd in elektronische rapportage 
 
@@ -55,7 +55,7 @@ Voordat u de procedures in dit onderwerp uitvoert, moet u de volgende stappen ui
 1. [De geïmporteerde indeling uitvoeren](er-defer-xml-element.md#run-the-imported-format).
 2. U ziet dat de grootte van het gegenereerde document in XML-indeling 3 kilobytes (KB) is.
 
-    ![Voorbeeld van het niet-gecomprimeerde uitgaande document](./media/er-compress-outbound-files1.png)
+    ![Voorbeeld van het niet-gecomprimeerde uitgaande document.](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>De indeling wijzigen om de gegenereerde uitvoer te comprimeren
 
@@ -80,7 +80,7 @@ Voordat u de procedures in dit onderwerp uitvoert, moet u de volgende stappen ui
     > [!NOTE] 
     > De compressiefactor van het XML-bestand dat dit zip-bestand bevat, is 87 procent. De compressiefactor is afhankelijk van de gegevens die worden gecomprimeerd.
 
-    ![Voorbeeld van het gecomprimeerde uitgaande document](./media/er-compress-outbound-files2.png)
+    ![Voorbeeld van het gecomprimeerde uitgaande document.](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > Als de [ER-bestemming](electronic-reporting-destinations.md) is geconfigureerd voor het indelingselement waarmee uitvoer wordt gegenereerd (het element **Rapport** in dit voorbeeld), wordt de compressie van de uitvoer overgeslagen.

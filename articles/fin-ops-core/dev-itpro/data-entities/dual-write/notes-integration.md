@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 3ff40011ac60c47f6ed667adfcf01bc727334f13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186781"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358974"
 ---
 # <a name="note-integration"></a>Integratie van notities
 
@@ -51,23 +51,23 @@ Volg deze stappen om een notitie te maken in een app voor klantbetrokkenheid en 
 1. Open in de app voor klantbetrokkenheid de rekeningrecord voor een klant.
 2. Selecteer in het deelvenster **Tijdlijn** het plusteken (**+**) en selecteer vervolgens **Notitie** om een notitie te maken.
 
-    ![Een notitie maken in de app voor klantbetrokkenheid](media/notes-ce-1.png)
+    ![Een notitie maken in de app voor klantbetrokkenheid.](media/notes-ce-1.png)
 
 3. Voer een titel en beschrijving in en selecteer vervolgens **Notitie toevoegen**.
 
-    ![Een titel en beschrijving invoeren](media/notes-ce-2.png)
+    ![Een titel en beschrijving invoeren.](media/notes-ce-2.png)
 
     De nieuwe notitie wordt toegevoegd aan de tijdlijn van de klant.
 
-    ![Nieuwe notitie op de tijdlijn van klant](media/notes-ce-3.png)
+    ![Nieuwe notitie op de tijdlijn van klant.](media/notes-ce-3.png)
 
 4. Meld u aan bij de Finance and Operations-app en open dezelfde klantrecord. De knop **Bijlagen** (paperclipsymbool) rechtsboven geeft aan dat de record een bijlage heeft.
 
-    ![Melding over een bijlage](media/notes-ce-4.png)
+    ![Melding over een bijlage.](media/notes-ce-4.png)
 
 5. Selecteer de knop **Bijlagen** om de pagina **Bijlagen** te openen. U zou de notitie moeten vinden die u hebt gemaakt in de app voor klantbetrokkenheid.
 
-    ![Notitie vanuit de app voor klantbetrokkenheid](media/notes-ce-5.png)
+    ![Notitie vanuit de app voor klantbetrokkenheid.](media/notes-ce-5.png)
 
 Alle updates van de notitie worden heen en weer gesynchroniseerd tussen de Finance and Operations-app en de app voor klantbetrokkenheid.
 
@@ -79,21 +79,21 @@ Als u een notitie wilt maken in een Finance and Operations-app en deze wilt sync
 
 1. Ga naar de Finance and Operations-app en selecteer op de pagina **Bijlagen** de optie **Nieuw** \> **Notitie**.
 
-    ![Een notitie maken in de Finance and Operations-app](media/notes-fo-1.png)
+    ![Een notitie maken in de Finance and Operations-app.](media/notes-fo-1.png)
 
 2. Voer een titel en een korte reeks instructies in en selecteer **Opslaan**.
 
-    ![Een titel en instructies invoeren](media/notes-fo-2.png)
+    ![Een titel en instructies invoeren.](media/notes-fo-2.png)
 
 3. Werk de record bij in de app voor klantbetrokkenheid. U zou de nieuwe notitie op de tijdlijn moeten vinden.
 
-    ![Nieuwe notitie op de tijdlijn in de app voor klantbetrokkenheid](media/notes-fo-3.png)
+    ![Nieuwe notitie op de tijdlijn in de app voor klantbetrokkenheid.](media/notes-fo-3.png)
 
 U kunt een notitie classificeren als intern of extern.
 
 - Open de notitie in de Finance and Operations-app op de pagina **Bijlagen** en selecteer vervolgens in het veld **Beperking** de optie **Intern** of **Extern**.
 
-    ![Beperkingsveld](media/notes-fo-4.png)
+    ![Beperkingsveld.](media/notes-fo-4.png)
 
 U kunt ook een URL maken.
 
@@ -101,13 +101,13 @@ U kunt ook een URL maken.
 2. Voer een titel en de URL in.
 3. Selecteer in het veld **Beperking** de optie **Intern** of **Extern**.
 
-    ![Een URL maken in de Finance and Operations-app](media/notes-fo-5.png)
+    ![Een URL maken in de Finance and Operations-app.](media/notes-fo-5.png)
 
 4. Selecteer **Opslaan**.
 
     Omdat apps voor klantbetrokkenheid geen URL-type hebben, wordt de URL met twee keer wegschrijven als notitie geïntegreerd.
 
-    ![URL die wordt weergegeven als notitie maken in de app voor klantbetrokkenheid](media/notes-ce-6.png)
+    ![URL die wordt weergegeven als notitie maken in de app voor klantbetrokkenheid.](media/notes-ce-6.png)
 
 > [!NOTE]
 > Bestandsbijlagen worden niet ondersteund.

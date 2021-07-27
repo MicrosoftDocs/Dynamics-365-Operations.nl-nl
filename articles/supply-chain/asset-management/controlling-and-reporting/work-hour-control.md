@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9ac64b0e40662f30cc615dfbd3f05aba5b37d862
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 88ae7faabe7af25f6e3b95c7217d91e440c94da2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838653"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346197"
 ---
 # <a name="work-hour-control"></a>Controle van werkuren
 
@@ -66,7 +66,7 @@ In onderstaande schermafbeelding ziet u een voorbeeld van een berekening van een
 - In het veld **Werkelijke uren** worden geboekte uren voor werkorders weergegeven. 
 - In het veld **Toegezegde uren** wordt het totale aantal uren weergegeven dat uw bedrijf heeft toegezegd met betrekking tot werkorders.
 
-![Voorbeeld van een berekening van uurcontrole activa](media/04-controlling-and-reporting.png)
+![Voorbeeld van een berekening van uurcontrole activa.](media/04-controlling-and-reporting.png)
 
 U kunt uren ook berekenen door meerdere activa te selecteren in **Alle activa** of **Actieve activa**. Vervolgens klikt u op de knop **Uurcontrole** op het sneltabblad **Algemeen**. De geselecteerde activa worden automatisch ingevoegd in het veld **Activum** op het sneltabblad **Op te nemen records**. Klik op **OK** in het dialoogvenster **Uurcontrole activa** om de berekening voor de geselecteerde activa weer te geven. Dezelfde procedure kan worden uitgevoerd voor functionele locaties in **Alle functionele locaties** of **Actieve functionele locaties** en voor werkorders in **Alle werkorders** of **Actieve werkorders**.
 

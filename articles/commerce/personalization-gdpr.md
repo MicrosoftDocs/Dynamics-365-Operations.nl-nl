@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e7d0f505ce49bc9be0d027cbb0d636c9de0600b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 75f41db74512ea758a83de56ffd2a9166712f5e2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804448"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352271"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Afmelden voor gepersonaliseerde aanbevelingen
 
@@ -44,11 +44,11 @@ In Accountbeheer in Commerce Back Office kunnen detailhandelaren de afmelding ui
 1. Zoek op de startpagina van Back Office naar **alle klanten**.
 1. Zoek en selecteer een klant en selecteer vervolgens het sneltabblad **Detailhandel**.
 
-    ![Sneltabblad Detailhandel](./media/Disablepersonalizationpart1.png)
+    ![Sneltabblad Detailhandel.](./media/Disablepersonalizationpart1.png)
 
 1. Stel onder **Privacy** de optie **Persoonlijke instellingen uitschakelen** in op **Ja**.
 
-    ![Privacy-instellingen](./media/Disablepersonalizationpart2.png)
+    ![Privacyinstellingen.](./media/Disablepersonalizationpart2.png)
 
 1. Selecteer **Opslaan** en sluit de pagina.
 

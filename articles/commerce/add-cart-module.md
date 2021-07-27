@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1ec8e89ed82bcdffdc21e62d24ad8c8a7d939cdf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 76d4bea9ad25494015a7bfeb324cb0e84dd024b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797858"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346847"
 ---
 # <a name="cart-module"></a>Winkelwagenmodule
 
@@ -35,11 +35,11 @@ In de winkelwagenmodule worden gegevens weergegeven op basis van de winkelwagen-
 
 De volgende afbeelding toont een voorbeeld van een winkelwagenpagina module op de Fabrikam-site.
 
-![Voorbeeld van een winkelwagenmodule op de Fabrikam-site](./media/cart2.PNG)
+![Voorbeeld van een winkelwagenmodule op de Fabrikam-site.](./media/cart2.PNG)
 
 De volgende afbeelding toont een voorbeeld van een winkelwagenpagina module op de Fabrikam-site. In dit voorbeeld zijn er verwerkingskosten voor een regelartikel.
 
-![Voorbeeld van een winkelwagenmodule met verwerkingskosten voor een regelartikel](./media/ecommerce-handling-fee.png)
+![Voorbeeld van een winkelwagenmodule met verwerkingskosten voor een regelartikel.](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Eigenschappen en vakken van de winkelwagenmodule
 

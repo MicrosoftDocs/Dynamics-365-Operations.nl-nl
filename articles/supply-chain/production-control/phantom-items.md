@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1118d7334602e450e5d503632895f73ba19066a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cb04502721740c48004b62bc96ff13ca063e06db
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814773"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360893"
 ---
 # <a name="phantom-items"></a>Phantom-artikelen
 
@@ -27,12 +27,12 @@ ms.locfileid: "5814773"
 
 In dit onderwerp wordt gedetailleerd beschreven hoe het regeltype Phantom kan worden gebruikt voor de regels van een stuklijst en een formule. In de volgende afbeelding is (a) de stuklijst voor het product H en de onderdelen F en G, en is (b) het routeblad voor product H en onderdeel F.
 
-![Product H en onderdeel F](media/product-H-part-F.png)
+![Product H en onderdeel F.](media/product-H-part-F.png)
 
 
 In deze afbeelding wordt een voorbeeld van een stuklijststructuur op twee niveaus weergegeven. Eindproduct H staat voor een product voor een machinemontage. De machinemontage bestaat uit twee delen, een elektrische eenheid (F) met twee materialen (A en B) en een groep van verpakkingsmaterialen (G), eveneens met twee materialen (C en D). Een ander materiaal (E) wordt gebruikt tijdens de algehele montage van de machine.
 
-![Product H en onderdeel F](media/product-H-part-B.png)
+![Product H en onderdeel F.](media/product-H-part-B.png)
 
 In de bovenstaande afbeelding wordt de technische stuklijst voor product H weergegeven. Deze structuur biedt een goed overzicht van de onderdelen en componenten van de totale montage van de machine. Hoewel productontwerpers de stuklijst misschien het liefst zo weergeven, komt deze structuur mogelijk niet exact overeen met de manier waarop de machine op de werkvloer wordt gebouwd. 
 
@@ -53,23 +53,23 @@ De overgang tussen de Engineering-stuklijst en de Productie-stuklijst wordt moge
 ## <a name="multilevel-phantom-bom-structures"></a>Phantom-stuklijststructuren met meerdere niveaus
 Het phantom-regeltype kan worden gebruikt in stuklijststructuren met meerdere niveaus, zoals in de volgende afbeelding wordt weergegeven. In deze afbeelding is (a) de stuklijst voor product G en is (b) het routeblad voor de onderdelen E en F, en product G. 
 
-![Product G en onderdeel F met routebladen](media/product-G-route-sheet-G.png)
+![Product G en onderdeel F met routebladen.](media/product-G-route-sheet-G.png)
 
 
 In de volgende afbeelding ziet u de resulterende productiestuklijst en het routeblad als de stuklijstregels voor onderdelen E en F zo worden geconfigureerd dat het regeltype Phantom is. In deze afbeelding is (a) de stuklijst voor product G en is (b) het routeblad voor product G.
 
-![Product G](media/product-G.png)
+![Product G.](media/product-G.png)
 
 
 ## <a name="phantom-and-route-network"></a>Phantom en routenetwerk
 Phantom-stuklijsten kunnen ook worden gebruikt voor een stuklijst met een routenetwerk. In een routenetwerk worden een of meer bewerkingen tegelijkertijd uitgevoerd. De volgende afbeelding bevat een voorbeeld van een routenetwerk dat wordt gebruikt in een stuklijst met meerdere niveaus. In deze afbeelding is (a) de stuklijst voor product G en onderdeel F, en is (b) het routeblad voor product G en onderdeel F, dat een routenetwerk heeft.
 
-![Product G en onderdeel F](media/product-G-part-F.png)
+![Product G en onderdeel F.](media/product-G-part-F.png)
 
 
 In de volgende afbeelding is (a) de stuklijst voor het product G en onderdeel F, en is (b) het routeblad voor product G en onderdeel F.
 
-![Product G en onderdeel F met routebladen](media/product-G-part-F-with-route-sheet.png)
+![Product G en onderdeel F met routebladen.](media/product-G-part-F-with-route-sheet.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 985fedc13e28caee90c9db27b145e415d256208d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db025b3edb9daa2ffc19b5fc92930f76d8007dce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808281"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360096"
 ---
 # <a name="asset-lifecycle-states"></a>Levenscyclusstatussen van activa
 
@@ -61,9 +61,9 @@ Nadat u de vereiste levenscyclusstatussen van activa hebt gemaakt, kunt u levens
 
 5. Selecteer op het sneltabblad **Levenscyclusstatussen** het aantal levencyclusstatussen van activa dat moet worden opgenomen in het levenscyclusmodel van activa.
 
-    - Als u een levenscyclusstatus voor het model wilt gebruiken, selecteert u deze in de sectie **Resterende levenscyclusstatussen** en selecteert u vervolgens de knop Pijl-rechts ![Pijl-rechts](media/15-setup-for-objects.png) om deze te verplaatsen naar de sectie **Geselecteerde levenscyclusstatussen**.
-    - Als u alle beschikbare levenscyclusstatussen voor het model wilt gebruiken, selecteert u de knop **Alle beschikbare levenscyclusstatussen** ![Alle beschikbare levenscyclusstatussen](media/20-setup-for-objects.png). Alle levenscyclusstatussen worden overgebracht naar de sectie **Geselecteerde levenscyclusstatussen**.
-    - Als u een levenscyclusstatus uit het model wilt verwijderen, selecteert u deze in de sectie **Geselecteerde levenscyclusstatussen** en selecteert u vervolgens de knop Pijl-links ![Pijl-links](media/16-setup-for-objects.png) om deze te verplaatsen naar de sectie **Resterende levenscyclusstatussen**.
+    - Als u een levenscyclusstatus wilt gebruiken voor het model, selecteert u deze in de sectie **Resterende levenscyclusstatussen** en selecteert u vervolgens de knop Pijl-rechts ![Pijl-rechts.](media/15-setup-for-objects.png) om deze te verplaatsen naar de sectie **Geselecteerde levenscyclusstatussen**.
+    - Als u alle beschikbare levenscyclusstatussen voor het model wilt gebruiken, selecteert u de knop **Alle beschikbare levenscyclusstatussen** ![Alle beschikbare levenscyclusstatussen.](media/20-setup-for-objects.png). Alle levenscyclusstatussen worden overgebracht naar de sectie **Geselecteerde levenscyclusstatussen**.
+    - Als u een levenscyclusstatus wilt verwijderen uit het model, selecteert u deze in de sectie **Geselecteerde levenscyclusstatussen** en selecteert u vervolgens de knop Pijl-rechts ![Pijl-rechts.](media/16-setup-for-objects.png) om deze te verplaatsen naar de sectie **Resterende levenscyclusstatussen**.
 
 6. Selecteer **Updates van levenscyclusstatussen** om de levenscyclusstatussen van activa te definiëren die een geselecteerde levenscyclusstatus kunnen volgen.
 7. U gebruikt het sneltabblad **Activastatus** als u activa verwerkt die u voor reparatie ontvangt. In de sectie **Inkomend/uitgaand** kunt u levenscyclusstatussen van activa selecteren om de werkstroom aan te geven van een activum dat u voor reparatie ontvangt. Als u leenactiva aanbiedt aan klanten of afdelingen, kunt u in de sectie **Loan** levenscyclusstatussen selecteren voor leenactiva.

@@ -15,18 +15,18 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 52ca23e5aaeb7058853fed2241d5804180fa7f8d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 99e873a07accd33aebfe010fbc8678cd8bc3ed9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798958"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349299"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Een preview van een experiment weergeven en een experiment publiceren
 
 In dit onderwerp wordt beschreven hoe u een preview van uw experiment kunt weergeven en uw experiment kunt publiceren in Dynamics 365 Commerce nadat u [uw experiment hebt verbonden en uw variaties hebt bewerkt](experimentation-connect-edit.md). In het volgende diagram ziet u alle stappen voor het instellen en uitvoeren van een experiment op een e-Commerce-website in Dynamics 365 Commerce. Extra stappen worden in afzonderlijke onderwerpen behandeld.
 
-[ ![Traject van gebruiker voor experimenten - preview weergeven en publiceren](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
+[ ![Traject van gebruiker voor experimenten - preview weergeven en publiceren.](./media/experimentation_preview_publish.svg) ](./media/experimentation_preview_publish.svg#lightbox)
 
 ## <a name="preview-your-experiment-variations"></a>Een preview van uw experimentvariaties weergeven
 U kunt een preview van uw variaties weergeven en ze verder bewerken totdat ze er naar wens uitzien.

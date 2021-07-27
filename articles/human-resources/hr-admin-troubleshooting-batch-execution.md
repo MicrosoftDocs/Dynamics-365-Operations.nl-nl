@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: d0b12908993070a41d21ac57d6fb504fc6e3b06a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: f236f861434eb2eaa26eab92e25a0b83a8026972
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053510"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357332"
 ---
 # <a name="reset-stuck-batch-jobs"></a>Vastgelopen batchtaken opnieuw instellen
 
@@ -46,7 +46,7 @@ Wanneer een batchtaak vastloopt in de status **Uitvoeren** of **Annuleren**, u d
 
 5. Selecteer op de pagina **Nieuwe status selecteren** de optie **Wachten** en selecteer vervolgens **OK**.
 
-   ![Een nieuwe batchtaakstatus selecteren](./media/hr-admin-reset-batch-job-status.png)
+   ![Een nieuwe batchtaakstatus selecteren.](./media/hr-admin-reset-batch-job-status.png)
 
 ## <a name="see-also"></a>Zie ook
 

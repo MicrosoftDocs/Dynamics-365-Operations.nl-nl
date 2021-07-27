@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5ed66bb2b2fce659e1e1f029fd60f74149b6526b
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 81b65d1aeeff6c4459fe0b2637013009958cfd55
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055119"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360635"
 ---
 # <a name="configure-integration-with-finance"></a>Integratie met Finance configureren
 
@@ -30,7 +30,7 @@ ms.locfileid: "6055119"
 
 Voor de integratie van Dynamics 365 Human Resources met Dynamics 365 Finance kunt u de sjabloon Human Resources naar Finance in [Data Integrator](/powerapps/administrator/data-integrator). Met de sjabloon Human Resources naar Finance worden gegevensstromen voor taken, functies en werknemers ingeschakeld. Met de sjabloon kunnen gegevens stromen van Human Resources naar Finance, niet andersom.
 
-![Integratiestroom van Human Resources naar Finance](./media/hr-admin-integration-finance-flow.png)
+![Integratiestroom van Human Resources naar Finance.](./media/hr-admin-integration-finance-flow.png)
 
 De Human Resources naar Finance-oplossing biedt de volgende typen gegevenssynchronisatie:
 
@@ -253,6 +253,6 @@ De locatie-id die wordt gebruikt voor het werknemersadres, maakt geen deel uit v
 
 In de volgende afbeelding ziet u een voorbeeld van een sjabloontoewijzing in de Data Integrator. 
 
-![Sjabloontoewijzing](./media/IntegrationMapping.png)
+![Sjabloontoewijzing.](./media/IntegrationMapping.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
