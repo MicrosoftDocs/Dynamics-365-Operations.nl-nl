@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
+ms.custom: intro-internal
 ms.search.region: belgium
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1a87a68675bc1f45c07256b18721341646450d39
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 1d8b18f7ee20033d5b5a184241e5fe8f07842ff1
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893822"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336032"
 ---
 # <a name="belgium-overview"></a>Overzicht België
 

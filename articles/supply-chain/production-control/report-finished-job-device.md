@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bd21bdf532e1e607e66bb8f5ef032f0855c99612
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5da18ff1013f0e767ca64b090eb1559bf05cb056
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811625"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350517"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Gereedmelden via het apparaat voor taakkaarten
 
@@ -85,13 +85,13 @@ Voer de volgende stappen uit om een traceringsnummergroep in te stellen en handm
 1. Maak of selecteer de traceringsnummergroep die u wilt instellen.
 1. Stel op het sneltabblad **Algemeen** de optie **Handmatig** in op **Ja**.
 
-    ![Een traceringsnummergroep voor handmatige batchnummers](media/tracking-number-group-manual.png "Een traceringsnummergroep voor handmatige batchnummers")
+    ![Een traceringsnummergroep voor handmatige batchnummers.](media/tracking-number-group-manual.png "Een traceringsnummergroep voor handmatige batchnummers")
 
 1. Stel andere waarden in zoals u nodig hebt en selecteer vervolgens deze traceringsnummergroep als batchnummergroep voor vrijgegeven producten waarvoor u dit scenario wilt gebruiken.
 
 Wanneer u dit scenario gebruikt, is het veld **Batchnummer** op de pagina **Voortgang rapporteren** op het apparaat voor taakkaarten een tekstvak waarin werknemers een willekeurige waarde kunnen invoeren.
 
-![De pagina Voortgang rapporteren met een veld voor handmatige batchnummers](media/job-card-device-batch-manual.png "De pagina Voortgang rapporteren met een veld voor handmatige batchnummers")
+![De pagina Voortgang rapporteren met een veld voor handmatige batchnummers.](media/job-card-device-batch-manual.png "De pagina Voortgang rapporteren met een veld voor handmatige batchnummers")
 
 ### <a name="set-up-a-tracking-number-group-that-provides-a-list-of-predefined-batch-numbers"></a>Een traceringsnummergroep instellen die een lijst met vooraf gedefinieerde batchnummers bevat
 
@@ -102,13 +102,13 @@ Voer de volgende stappen uit om een traceringsnummergroep in te stellen en een l
 1. Stel op het sneltabblad **Algemeen** de optie **Alleen voor voorraadtransacties** in op **Ja**.
 1. Gebruik het veld **Per hoev.** om batchnummers per hoeveelheid te splitsen op basis van de waarde die u invoert. Stel dat u een productieorder hebt voor tien stuks en dat het veld **Per hoev.** is ingesteld op *2*. In dit geval worden er vijf batchnummers toegewezen aan de productieorder wanneer deze wordt gemaakt.
 
-    ![Een traceringsnummergroep voor vooraf gedefinieerde batchnummers](media/tracking-number-group-predefined.png "Een traceringsnummergroep voor vooraf gedefinieerde batchnummers")
+    ![Een traceringsnummergroep voor vooraf gedefinieerde batchnummers.](media/tracking-number-group-predefined.png "Een traceringsnummergroep voor vooraf gedefinieerde batchnummers")
 
 1. Stel andere waarden in zoals u nodig hebt en selecteer vervolgens deze traceringsnummergroep als batchnummergroep voor vrijgegeven producten waarvoor u dit scenario wilt gebruiken.
 
 Wanneer u dit scenario gebruikt, is het veld **Batchnummer** op de pagina **Voortgang rapporteren** op het apparaat voor taakkaarten een vervolgkeuzelijst is waarin werknemers een vooraf gedefinieerde waarde moeten selecteren.
 
-![De pagina Voortgang rapporteren met een lijst met vooraf gedefinieerde batchnummers](media/job-card-device-batch-predefined.png "De pagina Voortgang rapporteren met een lijst met vooraf gedefinieerde batchnummers")
+![De pagina Voortgang rapporteren met een lijst met vooraf gedefinieerde batchnummers.](media/job-card-device-batch-predefined.png "De pagina Voortgang rapporteren met een lijst met vooraf gedefinieerde batchnummers")
 
 ### <a name="set-up-a-tracking-number-group-that-automatically-assigns-batch-numbers"></a>Een traceringsnummergroep instellen waarmee automatisch batchnummers worden toegewezen
 
@@ -119,13 +119,13 @@ Als batchnummers automatisch moeten worden toegewezen, zonder invoer van de werk
 1. Stel op het sneltabblad **Algemeen** de optie **Alleen voor voorraadtransacties** in op **Nee**.
 1. Stel de optie **Handmatig** in op **Nee**.
 
-    ![Een traceringsnummergroep voor vaste batchnummers](media/tracking-number-group-fixed.png "Een traceringsnummergroep voor vaste batchnummers")
+    ![Een traceringsnummergroep voor vaste batchnummers.](media/tracking-number-group-fixed.png "Een traceringsnummergroep voor vaste batchnummers")
 
 1. Stel andere waarden in zoals u nodig hebt en selecteer vervolgens deze traceringsnummergroep als batchnummergroep voor vrijgegeven producten waarvoor u dit scenario wilt gebruiken.
 
 Wanneer u dit scenario gebruikt, bevat het veld **Batchnummer** op de pagina **Voortgang rapporteren** op het apparaat voor taakkaarten een waarde, maar kunnen werknemers deze niet bewerken.
 
-![De pagina Voortgang rapporteren met een vast batchnummer](media/job-card-device-batch-fixed.png "De pagina Voortgang rapporteren met een vast batchnummer")
+![De pagina Voortgang rapporteren met een vast batchnummer.](media/job-card-device-batch-fixed.png "De pagina Voortgang rapporteren met een vast batchnummer")
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Artikelen met serienummers gereedmelden
 
@@ -165,7 +165,7 @@ Voer de volgende stappen uit om een traceringsnummergroep in te stellen en handm
 1. Maak of selecteer de traceringsnummergroep die u wilt instellen.
 1. Stel op het sneltabblad **Algemeen** de optie **Handmatig** in op **Ja**.
 
-    ![Pagina Groepen traceringsnummers, serienummers](media/tracking-number-group-manual-serial.png "Pagina Groepen traceringsnummers, serienummers")
+    ![Pagina Groepen traceringsnummers, serienummers.](media/tracking-number-group-manual-serial.png "Pagina Groepen traceringsnummers, serienummers")
 
 1. Stel andere waarden in zoals u nodig hebt en selecteer vervolgens deze traceringsnummergroep als serienummergroep voor vrijgegeven producten waarvoor u dit scenario wilt gebruiken.
 
@@ -174,7 +174,7 @@ Wanneer u dit scenario gebruikt, is het veld **Serienummer** op de pagina **Voor
 - Als u een serienummer als buiten gebruik wilt markeren, selecteert u de knop **Uitval** voor de desbetreffende rij. De werknemer wordt gevraagd een **Foutoorzaak** op te geven.
 - Als u een serienummer wilt verwijderen, selecteert u de knop **Verwijderen** voor de desbetreffende rij.
 
-![De pagina Voortgang rapporteren met een veld voor handmatige serienummers](media/job-card-device-serial-manual.png "De pagina Voortgang rapporteren met een veld voor handmatige serienummers")
+![De pagina Voortgang rapporteren met een veld voor handmatige serienummers.](media/job-card-device-serial-manual.png "De pagina Voortgang rapporteren met een veld voor handmatige serienummers")
 
 ### <a name="set-up-a-tracking-number-group-that-provides-a-list-of-predefined-serial-numbers"></a>Een traceringsnummergroep instellen die een lijst met vooraf gedefinieerde serienummers bevat
 
@@ -185,13 +185,13 @@ Voer de volgende stappen uit om een traceringsnummergroep in te stellen en een l
 1. Stel op het sneltabblad **Algemeen** de optie **Alleen voor voorraadtransacties** in op **Ja**.
 1. Gebruik het veld **Per hoev.** om serienummers te splitsen per hoeveelheid van één.
 
-    ![Een traceringsnummergroep voor vooraf gedefinieerde serienummers](media/tracking-number-group-predefined-sn.png "Een traceringsnummergroep voor vooraf gedefinieerde serienummers")
+    ![Een traceringsnummergroep voor vooraf gedefinieerde serienummers.](media/tracking-number-group-predefined-sn.png "Een traceringsnummergroep voor vooraf gedefinieerde serienummers")
 
 1. Stel andere waarden in zoals u nodig hebt en selecteer vervolgens deze traceringsnummergroep als serienummergroep voor vrijgegeven producten waarvoor u dit scenario wilt gebruiken.
 
 Wanneer u dit scenario gebruikt, is het veld **Serienummer** op de pagina **Voortgang rapporteren** op het apparaat voor taakkaarten een vervolgkeuzelijst waarin werknemers een vooraf gedefinieerde waarde moeten selecteren.
 
-![De pagina Voortgang rapporteren met een lijst met vooraf gedefinieerde serienummers](media/job-card-device-serial-predefined.png "De pagina Voortgang rapporteren met een lijst met vooraf gedefinieerde serienummers")
+![De pagina Voortgang rapporteren met een lijst met vooraf gedefinieerde serienummers.](media/job-card-device-serial-predefined.png "De pagina Voortgang rapporteren met een lijst met vooraf gedefinieerde serienummers")
 
 ### <a name="set-up-a-tracking-number-group-that-automatically-assigns-serial-numbers"></a>Een traceringsnummergroep instellen waarmee automatisch serienummers worden toegewezen
 
@@ -202,13 +202,13 @@ Als een serienummer automatisch moet worden toegewezen, zonder invoer van de wer
 1. Stel op het sneltabblad **Algemeen** de optie **Alleen voor voorraadtransacties** in op **Nee**.
 1. Stel de optie **Handmatig** in op **Nee**.
 
-    ![Een traceringsnummergroep voor vaste serienummers](media/tracking-number-group-fixed-sn.png "Een traceringsnummergroep voor vaste serienummers")
+    ![Een traceringsnummergroep voor vaste serienummers.](media/tracking-number-group-fixed-sn.png "Een traceringsnummergroep voor vaste serienummers")
 
 1. Stel andere waarden in zoals u nodig hebt en selecteer vervolgens deze traceringsnummergroep als serienummergroep voor vrijgegeven producten waarvoor u dit scenario wilt gebruiken.
 
 Wanneer u dit scenario gebruikt, bevat het veld **Serienummer** op de pagina **Voortgang rapporteren** op het apparaat voor taakkaarten een waarde, maar kunnen werknemers deze niet bewerken. Dit scenario is alleen relevant wanneer een productieorder wordt gemaakt voor een hoeveelheid van één stuk van een artikel met een serienummer.
 
-![De pagina Voortgang rapporteren met een vast serienummer](media/job-card-device-serial-fixed.png "De pagina Voortgang rapporteren met een vast serienummer")
+![De pagina Voortgang rapporteren met een vast serienummer.](media/job-card-device-serial-fixed.png "De pagina Voortgang rapporteren met een vast serienummer")
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Melden als voltooid aan een nummerplaat
 
@@ -232,7 +232,7 @@ Voer de volgende stappen uit om te bepalen of werknemers een bestaande nummerpla
     - **Nummerplaat maken**: stel deze optie in op **Ja** om voor elke gereedmelding een nieuwe nummerplaat te genereren. Stel de optie in op **Nee** als een bestaande nummerplaat moet worden gebruikt voor elke gereedmelding.
     - **Label afdrukken**: stel deze optie in op **Ja** als de werknemer een nummerplaatlabel voor elke gereedmelding moet afdrukken. Stel deze optie in op **Nee** als geen label vereist is. 
 
-![De pagina Taakkaart configureren voor apparaten](media/config-job-card-raf.png "De pagina Taakkaart configureren voor apparaten")
+![De pagina Taakkaart configureren voor apparaten.](media/config-job-card-raf.png "De pagina Taakkaart configureren voor apparaten")
 
 > [!NOTE]
 > Ga naar **Magazijnbeheer \> Instellen \> Documentroutering \> Documentroutering** om het label te configureren. Zie [Afdrukken van nummerplaatlabel inschakelen](../warehousing/tasks/license-plate-label-printing.md) voor meer informatie.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d5e6bb5e070ebbcdb7e99b1b70010acd5fca5ac
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 4e1c70dd0fa89c6cc5a8b4778b073d1cf4a3dadd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224085"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355317"
 ---
 # <a name="supported-primitive-data-types-for-electronic-reporting-formulas"></a>Ondersteunde primitieve gegevenstypen voor formules voor elektronische rapportage
 
@@ -112,13 +112,13 @@ Een *opsomming* van toepassingen kan worden gebruikt in expressies van elke ER-m
 
 In de volgende afbeelding ziet u hoe u de opsomming voor het model **CustVendCorrectiveReasonCode** kunt toevoegen aan het bewerkbare ER-gegevensmodel.
 
-[![Een modelopsomming configureren in de ontwerper van het ER-gegevensmodel](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
+[![Een modelopsomming configureren in de ontwerper van het ER-gegevensmodel.](./media/er-formula-supported-data-types-primitive-enum1.gif)](./media/er-formula-supported-data-types-primitive-enum1.gif)
 
 Een *opsomming* voor model kan worden gebruikt in expressies van elke ER-modeltoewijzing en ER-indeling die zijn gemaakt op basis van een gegevensmodel waarbij de *opsomming* is geïntroduceerd.
 
 In de volgende afbeelding ziet u hoe u de opsomming van de indeling **Lijst met Natura-subcategorieën voor omgekeerde toeslag** kunt toevoegen aan de bewerkbare ER-indeling.
 
-[![Een opsomming voor indeling configureren in de ontwerper van de ER-indeling](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
+[![Een opsomming voor indeling configureren in de ontwerper van de ER-indeling.](./media/er-formula-supported-data-types-primitive-enum2.gif)](./media/er-formula-supported-data-types-primitive-enum2.gif)
 
 Een *opsomming* voor indeling kan alleen worden gebruikt in expressies van de ER-indeling waar de *opsomming* is geïntroduceerd.
 
@@ -126,15 +126,15 @@ U moet het juiste type ER-gegevensbronnen gebruiken om een specifieke opsomming 
 
 - Tot opsommingen voor toepassingen kan toegang worden verkregen met behulp van de gegevensbronnen **Dynamics 365 for Operations \ Opsomming** en **Algemeen \ Gebruikersinvoerparameters**. In de volgende afbeelding ziet u hoe u aan de bewerkbare ER-indeling de gegevensbronnen **appenumNoYes** en **uipNoYes** kunt toevoegen die verwijzen naar de toepassingsopsomming **NoYes**.
 
-    [![Gegevensbronnen voor opsomming van toepassingen toevoegen in de ontwerper van de ER-indeling](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
+    [![Gegevensbronnen voor opsomming van toepassingen toevoegen in de ontwerper van de ER-indeling.](./media/er-formula-supported-data-types-primitive-enum3a.gif)](./media/er-formula-supported-data-types-primitive-enum3a.gif)
 
 - Tot opsommingen voor gegevensmodellen kan toegang worden verkregen met behulp van de gegevensbronnen **Gegevensmodel \ Opsomming** en **Gegevensmodel \ Gebruikersinvoerparameters opsomming**. In de volgende afbeelding ziet u hoe u aan de bewerkbare ER-indeling de gegevensbron **CustVendCorrectiveReasonCode** kunt toevoegen die verwijst naar de gegevensmodelopsomming **CustVendCorrectiveReasonCode**.
 
-    [![Gegevensbronnen voor opsomming van modellen toevoegen in de ontwerper van de ER-indeling](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
+    [![Gegevensbronnen voor opsomming van modellen toevoegen in de ontwerper van de ER-indeling.](./media/er-formula-supported-data-types-primitive-enum3b.gif)](./media/er-formula-supported-data-types-primitive-enum3b.gif)
 
 - Tot opsommingen voor indelingen kan toegang worden verkregen met behulp van de gegevensbronnen **Indeling \ Opsomming** en **Indeling \ Gebruikersinvoerparameters opsomming**. In de volgende afbeelding ziet u hoe u aan de bewerkbare ER-indeling de gegevensbron **NaturaReverseCharge** kunt toevoegen die verwijst naar de indelingsopsomming **Natura-subcategorieën omgekeerde toeslag**.
 
-    [![Gegevensbronnen voor opsomming van indelingen toevoegen in de ontwerper van de ER-indeling](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
+    [![Gegevensbronnen voor opsomming van indelingen toevoegen in de ontwerper van de ER-indeling.](./media/er-formula-supported-data-types-primitive-enum3c.gif)](./media/er-formula-supported-data-types-primitive-enum3c.gif)
 
 Een *opsomming* heeft geen impliciete conversies. U kunt echter de functie [TEXT](er-functions-text-text.md) voor conversie gebruiken om een *opsomming* te converteren naar een tekstreeks. Deze conversie is niet taalafhankelijk. Zie de gebruiksvoorbeelden voor de functies [LISTOFFIELDS](er-functions-list-listoffields.md) en [GETENUMVALUEBYNAME](er-functions-text-getenumvaluebyname.md) voor meer informatie over hoe u een waarde voor *opsomming* kunt koppelen aan de juiste taalspecifieke labels.
 

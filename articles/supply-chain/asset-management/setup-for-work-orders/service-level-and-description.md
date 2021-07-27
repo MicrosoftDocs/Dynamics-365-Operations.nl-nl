@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bb342e700c9390e1eb9f2a9e9d67b874b3e19b8e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d50955d510dca21c3de160fd280ff53ba54926a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808251"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356459"
 ---
 # <a name="service-level-and-description"></a>Serviceniveau en -beschrijving
 
@@ -45,7 +45,7 @@ Wanneer u een werkorder maakt, kunt u de serviceniveaus hiervoor definiëren en 
 8. Als u een eindtijd voor de werkorder wilt instellen, moet u behalve de einddatum ook de optie **Eindtijd instellen** op **Ja** instellen. Voer vervolgens de eindtijd in het veld **Eindtijd** in. Als u de optie op **Nee** instelt, wordt de huidige tijd van de dag gebruikt.
 9. Selecteer **Opslaan**.
 
-![Pagina Serviceniveau van werkorder](media/19-setup-for-work-orders.png)
+![Pagina Serviceniveau van werkorder.](media/19-setup-for-work-orders.png)
 
 ## <a name="create-a-description"></a>Een omschrijving maken
 

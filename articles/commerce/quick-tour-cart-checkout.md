@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a574494784e9a534307cceff584e047d870dc401
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 81cbabb2499fc0fdf3c043c9b15e4429b036e3c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027934"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352031"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Overzicht van pagina's met winkelwagen en kassa
 
@@ -37,7 +38,7 @@ De winkelwagenpagina fungeert als boodschappentas en bevat alle artikelen die aa
 
 In de volgende afbeelding ziet u een voorbeeld van een winkelwagenpagina die is gemaakt met de modulebibliotheek en het thema 'Fabrikam'.
 
-![Voorbeeld van een winkelwagenpagina](./media/cart2.PNG)
+![Voorbeeld van een winkelwagenpagina.](./media/cart2.PNG)
 
 Op de hoofdtekst van de winkelwagenpagina worden alle artikelen weergegeven die de klant aan de winkelwagen heeft toegevoegd. Alle toepasselijke kortingen worden getoond. Deze kortingen zijn onder andere complexe kortingen. Voorbeelden zijn "Koop 3 artikelen en ontvang 10% korting" of "Koop een fles en een rugzak om 10% korting te ontvangen". In de module met het orderoverzicht wordt het bedrag weergegeven dat moet worden betaald nadat kortingen, verzendingen, belastingen, enzovoort, zijn toegepast. Er is ook een promotiecodemodule waarmee de klant promotiecodes kan toepassen of verwijderen.
 
@@ -53,7 +54,7 @@ De kassapagina is de locatie waar klanten de informatie invoeren die nodig is om
 
 In de volgende afbeelding ziet u een voorbeeld van een kassapagina die is gemaakt met de modulebibliotheek.
 
-![Voorbeeld van een kassapagina](./media/Checkout.PNG)
+![Voorbeeld van een kassapagina.](./media/Checkout.PNG)
 
 De hoofdtekst van de kassapagina omvat alle ordergegevens. Deze informatie omvat het verzendadres, de leveringsopties en de betalingsgegevens. De afhandeling heeft een stap-voor-stap-overdracht, omdat de informatie moet worden ingevoerd in een specifieke order die moet worden verwerkt. Het verzendadres moet bijvoorbeeld worden ingevoerd voordat de verzendkosten kunnen worden berekend en de betaling kan worden geautoriseerd.
 

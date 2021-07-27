@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.custom: 268444
+ms.custom:
+- "268444"
+- intro-internal
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 833eb271b15dd6d32501049ce9154022a388f1d4
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: df7cb4810b83d74725df3d59b7b08da1e8cf4a53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189570"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345027"
 ---
 # <a name="peripherals"></a>Randapparaten
 
@@ -119,7 +121,7 @@ Om te garanderen dat het grootste aantal apparaten kan worden gebruikt met Comme
 -   **Control object**: Het control object voor een apparaatklasse (zoals een regelweergave) biedt de interface voor het softwareprogramma. Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) biedt een gestandaardiseerde reeks OPOS Control objects aan, die bekend staan als de Common Control Objects (CCO's). De CCO's worden gebruikt voor het testen van de POS-component van Commerce. Daarom helpt het testen te garanderen dat, als Commerce een apparaatklasse via OPOS ondersteunt, vele typen apparaten worden ondersteund, onder voorwaarde dat de fabrikant een serviceobject levert dat is samengesteld voor OPOS. U hoeft niet expliciet elk apparaattype te testen.
 -   **Serviceobject**: Het serviceobject verzorgt de communicatie tussen het Control Object (CCO) en het apparaat. Meestal wordt voor fysieke apparaten het serviceobject geleverd door de fabrikant van het apparaat. In sommige gevallen moet u misschien het serviceobject downloaden vanaf de website van de fabrikant. Er kan bijvoorbeeld een meer recente serviceobject beschikbaar zijn. Het adres van de website van de fabrikant vindt u in de documentatie bij uw hardware.
 
-[![Controleobject en serviceobject](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Ondersteuning voor de OPOS-implementatie van OLE voor POS helpt te garanderen dat, als de apparaatfabrikanten en POS-uitgevers de standaard correct implementeren, POS-systemen en ondersteunde apparaten kunnen samenwerken, zelfs als ze daarvoor niet samen zijn getest. 
+[![Controleobject en serviceobject.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) Door de ondersteuning voor de OPOS-implementatie van OLE voor POS kunnen POS-systemen en ondersteunde apparaten samenwerken, zelfs als ze daarvoor niet samen zijn getest, als de apparaatfabrikanten en POS-uitgevers de standaard correct implementeren. 
 
 > [!NOTE]
 > OPOS-ondersteuning garandeert niet de ondersteuning voor alle apparaten met OPOS-stuurprogramma's. Commerce moet eerst ondersteuning voor dat apparaattype of klasse bieden via OPOS. Bovendien zijn serviceobjecten mogelijk niet altijd up-to-date met de meest recente versie van de CCO's. Ook moet u er rekening mee houden dat, in het algemeen, de kwaliteit van serviceobjecten kan variëren.

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 30251
+ms.custom:
+- "30251"
+- intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8afb7d28d9dd6487e00a2bf7e813069aac386c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2e438df0b01b864b3ef96eb41819087cbbbef4d9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807723"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359504"
 ---
 # <a name="transportation-management-overview"></a>Overzicht van Transportbeheer
 
@@ -67,17 +69,17 @@ Met Transportbeheer kunt u het transport van uw bedrijf gebruiken en kunt u teve
 ## <a name="planning-transportation-in-supply-chain-management"></a>Transport plannen in Supply Chain Management
 In Transportbeheer kan transportplanning worden gebaseerd op orders of op verzendingen die zijn gemaakt op basis van deze orders. De verzendingen vinden altijd op een bepaald punt in de tijd plaats, maar zijn niet voor transportplanning vereist. De overboekingsorders maken deel uit van het uitgaande scenario en kunnen samen met verkooporders worden gepland. 
 
-![Ladingtekening](./media/Load-drawing1-1024x477.jpg)
+![Ladingtekening.](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Binnenkomend transport
 Wanneer u artikelen bestelt bij een leverancier en deze in uw magazijn moeten worden geleverd, kunt u bijvoorbeeld het transport van de artikelen zelf bepalen. U kunt Supply Chain Management gebruiken om het transport en de ontvangst van een inkomende lading te plannen. De volgende afbeelding toont het bedrijfs processtroom voor het plannen van een verzending voor een binnenkomende lading. 
 
-![Bedrijfsprocesstroom voor binnenkomend ladingtransport](./media/Businessprocessflowforinboundloadtransportation.jpg)
+![Bedrijfsprocesstroom voor binnenkomend ladingtransport.](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Uitgaand transport
 U kunt een uitgaande lading plannen en verwerken om specifieke artikelen te verzenden van het magazijn van een bedrijf naar een klant. U kunt Supply Chain Management gebruiken om het transport en de verzending van een uitgaande lading te plannen. De volgende afbeelding toont de bedrijfsprocesstroom voor het plannen en verwerken van uitgaande lading voor verzending. 
 
-![Uitgaande ladingen plannen en verwerken](./media/Planningandprocessingoutboundloads.jpg)
+![Uitgaande ladingen plannen en verwerken.](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Lading opbouwen
 Supply Chain Management bevat een strategie voor het opbouwen van ladingen die de op volume gebaseerde ladingopbouwstrategie wordt genoemd. Met deze strategie kunt u de maximumwaarden gebruiken die worden opgegeven voor hoogte en gewicht in de ladingsjabloon. U kunt ook de instellingen overschrijven door nieuwe waarden in te voeren. Als u deze strategie wilt gebruiken, selecteert u deze in het veld **Ladingopbouwstrategie** op het sneltabblad **Instellen** in het formulier **Workbench voor ladingopbouw**. Bovendien kunt u uw eigen belasting-bouwende strategieën toevoegen door een nieuwe klasse in de Application Object Tree (AOT) te maken.

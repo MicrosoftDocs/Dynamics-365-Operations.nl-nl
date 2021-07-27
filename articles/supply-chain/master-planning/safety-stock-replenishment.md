@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: d80c754b7aa154d9636bb0d9fbfb448987d01e48
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cc9273cc46e2549765dec4b2bbc9a3030753791d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841786"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353511"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Afhandeling van veiligheidsvoorraad voor artikelen
 
@@ -72,37 +72,50 @@ In het volgende scenario ziet u hoe deze parameter werkt en wat de verschillen t
 > [!NOTE]
 > Voor alle afbeeldingen in dit onderwerp vertegenwoordigt de x-as de voorraad en de y-as het aantal dagen. Met de balken wordt het voorraadniveau aangegeven en de pijlen staan voor transacties, zoals verkooporderregels, inkooporderregels of geplande orders.
 
-[![Gangbaar scenario voor afhandeling van veiligheidsvoorraad](./media/Scenario1.png)](./media/Scenario1.png) De parameter **Minimum behalen** kan de volgende waarden hebben:
+[![Gangbaar scenario voor afhandeling van veiligheidsvoorraad.](./media/Scenario1.png)](./media/Scenario1.png)
+De parameter **Minimum behalen** kan de volgende waarden hebben:
 ### <a name="todays-date"></a>Datum van vandaag 
 Aan de opgegeven minimumhoeveelheid wordt voldaan op de datum waarop de hoofdplanning wordt uitgevoerd. Hoewel dit onrealistisch kan zijn vanwege de levertijd, wordt zo snel mogelijk geprobeerd te voldoen aan de limiet voor het veiligheidsniveau. 
-[![Vereiste op datum van vandaag](./media/TodayReq.png)](./media/TodayReq.png) De geplande order P1 wordt gemaakt voor de datum van vandaag om de beschikbare voorraad op deze datum boven het veiligheidsvoorraadniveau te brengen. De verkooporderregels S1 tot en met S3 blijven het voorraadniveau verlagen. Geplande orders P2 tot en met P4 worden gegenereerd op basis van de hoofdplanning, zodat voor het voorraadniveau na elke verkooporderbehoefte weer de veiligheidslimiet wordt hersteld.
+[![Vereiste voor datum van vandaag.](./media/TodayReq.png)](./media/TodayReq.png)
+De geplande order P1 wordt gemaakt voor de datum van vandaag om de beschikbare voorraad op deze datum boven het veiligheidsvoorraadniveau te brengen. De verkooporderregels S1 tot en met S3 blijven het voorraadniveau verlagen. Geplande orders P2 tot en met P4 worden gegenereerd op basis van de hoofdplanning, zodat voor het voorraadniveau na elke verkooporderbehoefte weer de veiligheidslimiet wordt hersteld.
 Wanneer de behoefteplanningscode **Behoefte** wordt gebruikt, worden meerdere geplande orders gemaakt. Het is altijd verstandig om de behoefteplanning **Periode** of **Min./Max.** te gebruiken voor gewilde artikelen en materialen, om de aanvulling te bundelen. In de volgende afbeelding ziet u een voorbeeld van de behoefteplanningscode **Periode**.
-[![Periode. Datum van vandaag](./media/TodayPeriod.png)](./media/TodayPeriod.png) In de volgende afbeelding ziet u een voorbeeld van de behoefteplanningscode **Min./Max**.
+[![Periode. Datum van vandaag.](./media/TodayPeriod.png)](./media/TodayPeriod.png)
+In de volgende afbeelding ziet u een voorbeeld van de behoefteplanningscode **Min/Max**.
 [![Min./Max. Datum van vandaag](./media/TodayMinMax.png)](./media/TodayMinMax.png)
 ### <a name="todays-date--procurement-time"></a>Datum van vandaag + levertijd 
 Aan de opgegeven minimumhoeveelheid wordt voldaan op de datum waarop de hoofdplanning wordt uitgevoerd, plus de inkoop- of productiedoorlooptijd. Deze tijd is inclusief veiligheidsmarges. Als het artikel onderdeel is van een handelsovereenkomst en het selectievakje **Handelsovereenkomsten zoeken** is ingeschakeld op de pagina **Parameters hoofdplanning**, wordt geen rekening gehouden met de levertijd in de handelsovereenkomst. Levertijden worden overgenomen uit de instellingen van de artikelbehoefteplanning of van het artikel.
 Met deze afhandelingsmodus worden plannen met minder vertragingen en minder geplande orders gemaakt, ongeacht de ingestelde behoefteplanningsgroep voor het artikel. In de volgende afbeelding ziet u het resultaat van het plan als de behoefteplanningscode **Vereiste** of **Periode** is.  
-[![Vereiste. Periode. Datum van vandaag en doorlooptijd](./media/TodayPLTReq.png)](./media/TodayPLTReq.png) In de volgende afbeelding ziet u het resultaat van het plan als de behoefteplanningscode **Min./Max.** is.  
-[![Min./Max. Datum van vandaag en doorlooptijd](./media/TodayPLTMinMax.png)](./media/TodayPLTMinMax.png)
+[![Vereiste. Periode. Datum van vandaag en doorlooptijd.](./media/TodayPLTReq.png)](./media/TodayPLTReq.png)
+In de volgende afbeelding ziet u het resultaat van het plan als de behoefteplanningscode **Min/Max** is.  
+[![Min./Max. Datum van vandaag en doorlooptijd.](./media/TodayPLTMinMax.png)](./media/TodayPLTMinMax.png)
 ### <a name="first-issue"></a>Eerste uitgifte 
 Aan de opgegeven minimumhoeveelheid wordt voldaan op de datum waarop de beschikbare voorraad onder het minimumniveau valt, zoals in de volgende afbeelding wordt weergegeven. Zelfs als de beschikbare voorraad onder het minimumniveau valt op de datum waarop de hoofdplanning wordt uitgevoerd, wordt met **Eerste uitgifte** niet geprobeerd dit verschil te dekken tot de volgende vereiste binnenkomt.
 In de volgende afbeelding ziet u een voorbeeld van de behoefteplanningscode **Vereiste**.
-[![Een artikel plannen met de behoefteplanningscode **Vereiste** en de afhandeling **Eerste uitgifte**](./media/FirstIssueReq.png)](./media/FirstIssueReq.png) In de volgende afbeelding ziet u een voorbeeld van de behoefteplanningscode **Periode**.
-[![Een artikel plannen met de behoefteplanningscode **Periode** en de afhandeling **Eerste uitgifte**](./media/FirstIssuePeriod.png)](./media/FirstIssuePeriod.png) In de volgende afbeelding ziet u een voorbeeld van de behoefteplanningscode **Min./Max**.
-[![Een artikel plannen met de behoefteplanningscode **Min./Max.** en de afhandeling **Eerste uitgifte**](./media/FirstIssueMinMax.png)](./media/FirstIssueMinMax.png) Op de datum waarop de hoofdplanning wordt uitgevoerd, genereren **Datum van vandaag** en **Datum van vandaag + levertijd** de aanvulling onmiddellijk als de beschikbare voorraad al onder de limiet voor het veiligheidsniveau ligt. **Eerste uitgifte** wacht tot de volgende uitgiftetransactie, bijvoorbeeld een verkooporder- en stuklijstregelbehoefte, voor het artikel en triggert vervolgens de aanvulling op de datum van deze transactie. Zoals in de onderstaande afbeelding wordt weergegeven, bieden **Datum van vandaag** en **Eerste uitgifte** precies hetzelfde resultaat op de datum waarop de hoofdplanning wordt uitgevoerd, als de beschikbare voorraad niet onder de veiligheidsvoorraadlimiet ligt. 
+[![Een artikel plannen met de behoefteplanningscode **Vereiste** en de afhandeling **Eerste uitgifte**](./media/FirstIssueReq.png)](./media/FirstIssueReq.png)
+In de volgende afbeelding ziet u een voorbeeld van de behoefteplanningscode **Periode**.
+[![Een artikel plannen met de behoefteplanningscode **Periode** en de afhandeling **Eerste uitgifte**](./media/FirstIssuePeriod.png)](./media/FirstIssuePeriod.png)
+In de volgende afbeelding ziet u een voorbeeld van de behoefteplanningscode **Min/Max**.
+[![Een artikel plannen met de behoefteplanningscode **Min./Max.** en de afhandeling **Eerste uitgifte**](./media/FirstIssueMinMax.png)](./media/FirstIssueMinMax.png)
+Op de datum waarop de hoofdplanning wordt uitgevoerd, genereren **Datum van vandaag** en **Datum van vandaag + levertijd** de aanvulling onmiddellijk als de beschikbare voorraad al onder de limiet voor het veiligheidsniveau ligt. **Eerste uitgifte** wacht tot de volgende uitgiftetransactie, bijvoorbeeld een verkooporder- en stuklijstregelbehoefte, voor het artikel en triggert vervolgens de aanvulling op de datum van deze transactie. Zoals in de onderstaande afbeelding wordt weergegeven, bieden **Datum van vandaag** en **Eerste uitgifte** precies hetzelfde resultaat op de datum waarop de hoofdplanning wordt uitgevoerd, als de beschikbare voorraad niet onder de veiligheidsvoorraadlimiet ligt. 
 
-[![NotUnderLimit](./media/ReqFirstIssue.png)](./media/ReqFirstIssue.png) Als de beschikbare voorraad niet onder de veiligheidsvoorraadlimiet ligt, biedt **Datum van vandaag + levertijd** het volgende resultaat op de datum waarop de hoofdplanning wordt uitgevoerd omdat de afhandeling wordt uitgesteld tot het einde van de levertijd.
-![Een artikel plannen met de behoefteplanningscode **Vereiste** en de afhandeling **Eerste uitgifte**](./media/ReqTodayLT.png)
+[![NotUnderLimit.](./media/ReqFirstIssue.png)](./media/ReqFirstIssue.png)
+Als de beschikbare voorraad niet onder de veiligheidsvoorraadlimiet ligt, biedt **Datum van vandaag + levertijd** het volgende resultaat op de datum waarop de hoofdplanning wordt uitgevoerd omdat de afhandeling wordt uitgesteld tot het einde van de levertijd.
+![Een artikel plannen met de behoefteplanningscode **Vereiste** en de afhandeling **Eerste uitgifte**.](./media/ReqTodayLT.png)
 ### <a name="coverage-time-fence"></a>Time fence voor behoefteplanning
 Er wordt voldaan aan de opgegeven minimumhoeveelheid tijdens de periode die is opgegeven in het veld **Time fence voor behoefteplanning**. Deze optie is handig wanneer op basis van de hoofdplanning beschikbare voorraad bestemd voor echte orders, zoals verkopen of overdrachten, niet mag worden gebruikt om het veiligheidsniveau te handhaven. In een toekomstige versie is deze aanvullingsmethode echter niet meer nodig en wordt deze optie afgeschaft.
 ## <a name="plan-safety-stock-replenishment-for-first-expired-first-out-fefo-items"></a>Aanvulling van veiligheidsvoorraad plannen voor FEFO-artikelen (First Expired, First Out)
 Op elk moment wordt de voorraadontvangst met de laatste vervaldatum gebruikt voor de veiligheidsvoorraad, zodat werkelijke vraag, zoals verkoop- of stuklijstregels, kan worden afgehandeld op basis van de FEFO-volgorde.
 In het volgende scenario ziet u hoe dit werkt.
-[![FEFOScenario](./media/FEFOScenario.png)](./media/FEFOScenario.png) Wanneer de planning wordt uitgevoerd, wordt met de voorhanden voorraad voldaan aan de eerste verkooporder en wordt een aanvullende inkooporder gebruikt voor de resterende hoeveelheid.
-[![FEFO1](./media/FEFO1.png)](./media/FEFO1.png) Er wordt een geplande order gemaakt om ervoor te zorgen dat de veiligheidslimiet wordt hersteld voor de beschikbare voorraad.
-[![FEFO2](./media/FEFO2.png)](./media/FEFO2.png) Wanneer de tweede verkooporder wordt gepland, wordt de eerder gemaakte geplande order voor de veiligheidsvoorraad gebruikt om deze hoeveelheid te dekken. De veiligheidsvoorraad is dus voortdurend in beweging.
-[![FEFO3](./media/FEFO3.png)](./media/FEFO3.png) Ten slotte wordt nog een geplande order gemaakt om de veiligheidsvoorraad te dekken.
-[![FEFO4](./media/FEFO4.png)](./media/FEFO4.png) Alle batches verlopen op volgorde en er worden geplande orders gemaakt om de veiligheidsvoorraad na verloop aan te vullen.
+[![FEFOScenario.](./media/FEFOScenario.png)](./media/FEFOScenario.png)
+Wanneer de planning wordt uitgevoerd, wordt met de voorhanden voorraad voldaan aan de eerste verkooporder en wordt een aanvullende inkooporder gebruikt voor de resterende hoeveelheid.
+[![FEFO1.](./media/FEFO1.png)](./media/FEFO1.png)
+Er wordt een geplande order gemaakt om ervoor te zorgen dat de veiligheidslimiet wordt hersteld voor de beschikbare voorraad.
+[![FEFO2.](./media/FEFO2.png)](./media/FEFO2.png)
+Wanneer de tweede verkooporder wordt gepland, wordt de eerder gemaakte geplande order voor de veiligheidsvoorraad gebruikt om deze hoeveelheid te dekken. De veiligheidsvoorraad is dus voortdurend in beweging.
+[![FEFO3.](./media/FEFO3.png)](./media/FEFO3.png)
+Tot slot wordt nog een geplande order gemaakt om de veiligheidsvoorraad te dekken.
+[![FEFO4.](./media/FEFO4.png)](./media/FEFO4.png)
+Alle batches verlopen op volgorde en er worden geplande orders gemaakt om de veiligheidsvoorraad na verloop aan te vullen.
 
 ## <a name="how-master-planning-handles-the-safety-stock-constraint"></a>Hoe de hoofdplanning omgaat met de beperking van veiligheidsvoorraad
 

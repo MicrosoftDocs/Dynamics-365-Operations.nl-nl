@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0af3e1d589fd99cc722d8aedeb9596388a9e2e8c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 629662d274d88d59c9b73a9d6b0d5c178331fe73
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018281"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351909"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>ER-indelingen configureren om parameters te gebruiken die per rechtspersoon worden opgegeven
 
@@ -78,17 +78,17 @@ In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc
 
     De ER-indeling **Indeling voor het leren van parameteraanroepen** is ontworpen voor het genereren van een btw-aangifte in XML-indeling die verschillende belastingniveaus (normaal, verlaagd en geen) presenteert. Elk niveau heeft een verschillend aantal details.
 
-    ![Meerdere niveaus van ER-indeling, Indeling voor het leren van parameteraanroepen](./media/RCS-AppSpecParms-ReviewFormat.PNG)
+    ![Meerdere niveaus van ER-indeling, Indeling voor het leren van parameteraanroepen.](./media/RCS-AppSpecParms-ReviewFormat.PNG)
 
 5.  Vouw op het tabblad **Toewijzing** de items **Model**, **Gegevens** en **Samenvatting** uit.
 
     De gegevensbron **Model.Data.Summary** retourneert de lijst met btw-transacties. Deze transacties worden samengevat per btw-code. Voor deze gegevensbron is het berekende veld **Model.Data.Summary.Level** geconfigureerd voor het retourneren van de code voor het belastingniveau van elke samengevatte record. Voor elke btw-code die bij de uitvoering kan worden opgehaald uit de gegevensbron **Model.Data.Summary**, retourneert het berekende veld de code voor het belastingniveau (**Normaal**, **Verlaagd**, **Geen** of **Overige**) als een tekstwaarde. Het berekende veld **Model.Data.Summary.Level** wordt gebruikt om records te filteren van de gegevensbron **Model.Data.Summary** en om de gefilterde gegevens in elk XML-element in te voeren dat een belastingniveau vertegenwoordigt met behulp van de velden **Model.Data2.Level1**, **Model.Data2.Level2** en **Model.Data2.Level3**.
 
-    ![De gegevensbron Model.Data.Summary met de lijst met belastingtransacties](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
+    ![De gegevensbron Model.Data.Summary met de lijst met belastingtransacties.](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
     Het berekende veld **Model.Data.Summary.Level** is zo geconfigureerd dat het een ER-expressie bevat. De btw-codes (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** en **InVAT0**) zijn in de code vastgelegd in deze configuratie. Deze ER-indeling is daarom afhankelijk van de rechtspersoon waar deze btw-codes zijn geconfigureerd.
 
-    ![Het berekende veld Model.Data.Summary.Level met in code vastgelegde belastingcodes](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
+    ![Het berekende veld Model.Data.Summary.Level met in code vastgelegde belastingcodes.](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
     Als u een andere set belastingcodes voor elke rechtspersoon wilt ondersteunen, moet u de volgende stappen uitvoeren:
 
@@ -128,7 +128,7 @@ Vervolgens voegt u een nieuwe opsomming van ER-indelingen toe. De waarden van de
 12. Selecteer opnieuw **Toevoegen**.
 13. Voer in het veld **Naam** de tekst **Overige** in.
 
-    ![Nieuwe record op de pagina Indelingsopsommingen](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
+    ![Nieuwe record op de pagina Indelingsopsommingen.](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
 
     Omdat de zakelijke gebruikers mogelijk verschillende talen gebruiken om rechtspersoonafhankelijke sets belastingcodes op te geven, raden wij u aan de waarden van deze opsomming om te zetten in de talen die zijn geconfigureerd als de voorkeurstalen voor die gebruikers in Finance.
 
@@ -141,7 +141,7 @@ Vervolgens voegt u een nieuwe opsomming van ER-indelingen toe. De waarden van de
 20. Voer in het veld **Vertaalde tekst** de tekst **keine Besteuerung** in.
 21. Selecteer **Vertalen**.
 
-    ![Uitschuifvenster Tekstvertaling](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
+    ![Uitschuifvenster Tekstvertaling.](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
 
 22. Selecteer **Opslaan**.
 23. Sluit de pagina **Indelingsopsommingen**.
@@ -168,13 +168,13 @@ Vervolgens voegt u een nieuwe gegevensbron toe om aan te geven hoe zakelijke geb
 10. Selecteer het item **Model.Data.Tax.Code**.
 11. Selecteer de knop **Toevoegen** (de pijl naar rechts).
 
-    ![Uitschuifvenster Kolommen](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
+    ![Uitschuifvenster Kolommen.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
 
     U hebt zojuist opgegeven dat een zakelijke gebruiker voor elke regel die in deze gegevensbron is opgegeven voor herkenning van het belastingniveau een van de belastingcodes moet selecteren als een voorwaarde. De lijst met belastingcodes die de zakelijke gebruiker kan selecteren, wordt geretourneerd door de gegevensbron **Model.Data.Tax**. Omdat deze gegevensbron het veld **Naam** bevat, wordt de naam van de belastingcode weergegeven voor elke waarde van een belastingcode in de zoekopdracht die aan de zakelijke gebruiker wordt gepresenteerd.
     
 12. Selecteer **OK**.
 
-    ![Pagina Ontwerpfunctie voor zoekopdrachten](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
+    ![Pagina Ontwerpfunctie voor zoekopdrachten.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
 
     Zakelijke gebruikers kunnen meerdere regels toevoegen als records van deze gegevensbron. Elke record wordt genummerd met een regelcode. Regels worden geëvalueerd in volgorde van oplopend regelnummer.
 
@@ -188,13 +188,13 @@ Vervolgens voegt u een nieuwe gegevensbron toe om aan te geven hoe zakelijke geb
 
     U ziet dat u een nieuwe gegevensbron hebt toegevoegd waarmee het belastingniveau wordt geretourneerd als waarde van de indelingsopsomming **Lijst met belastingniveaus** voor elke belastingcode die aan de gegevensbron wordt doorgegeven als argument van de parameter **Code** van het gegevenstype **Tekenreeks**.
     
-    ![Pagina Indelingsontwerper met nieuwe gegevensbron](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
+    ![Pagina Indelingsontwerper met nieuwe gegevensbron.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
     De evaluatie van geconfigureerde regels hangt af van het gegevenstype van de velden die zijn geselecteerd om de voorwaarden van deze regels te definiëren. Wanneer u een veld selecteert dat is geconfigureerd als veld van het gegevenstype **Numeriek** of **Datum**, wijken de criteria af van de criteria die eerder werden beschreven voor het gegevenstype **Tekenreeks**. Voor velden **Numeriek** en **Datum** moet de regel worden opgegeven als een bereik van waarden. Aan de voorwaarde van de regel wordt geacht te zijn voldaan wanneer een waarde die aan de gegevensbron wordt doorgegeven in het geconfigureerde bereik valt.
     
     In de volgende afbeelding ziet u een voorbeeld van dit type instelling. Naast het veld **Model.Data.Tax.Code** van het gegevenstype **Tekenreeks**, wordt het veld **Model.Tax.Summary.Base** van het gegevenstype **Reëel** gebruikt om voorwaarden voor een gegevensbron voor zoeken op te geven.
     
-    ![Pagina Ontwerpfunctie met extra kolommen](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
+    ![Pagina Ontwerpfunctie met extra kolommen.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
 
     Omdat de velden **Model.Data.Tax.Code** en **Model.Tax.Summary.Base** zijn geselecteerd voor deze gegevensbron voor zoeken, wordt elke regel van deze gegevensbron als volgt geconfigureerd:
     
@@ -223,7 +223,7 @@ Omdat zakelijke gebruikers mogelijk verschillende talen gebruiken om rechtsperso
 9.  Selecteer **Vertalen**.
 10. Selecteer **OK**.
 
-    ![Uitschuifvenster Gegevensbroneigenschappen](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
+    ![Uitschuifvenster Gegevensbroneigenschappen.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
 
 ### <a name="add-a-new-field-to-consume-the-configured-lookup"></a>Een nieuw veld toevoegen om de geconfigureerde zoekopdracht te gebruiken
 
@@ -236,12 +236,12 @@ Omdat zakelijke gebruikers mogelijk verschillende talen gebruiken om rechtsperso
 7.  Voer in het **Formuleveld** de tekst **Model.Selector(Model.Data.Summary.Code)** in.
 8.  Selecteer **Opslaan**.
 
-    ![Model.Selector(Model.Data.Summary.Code) toevoegen aan de pagina Formuleontwerper](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
+    ![Model.Selector(Model.Data.Summary.Code) toevoegen aan de pagina Formuleontwerper.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
 
 9.  Sluit de pagina **Formule-editor**.
 10. Selecteer **OK**.
 
-    ![Pagina Indelingsontwerper met nieuwe toegevoegde formule](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
+    ![Pagina Indelingsontwerper met nieuwe toegevoegde formule.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
 
     Het berekende veld **LevelByLookup** dat u hebt toegevoegd, retourneert het belastingniveau als de waarde van de indelingsopsomming **Lijst met belastingniveaus** voor elke samengevatte belastingtransactierecord. De belastingcode van de record wordt doorgegeven aan de gegevensbron voor zoeken **Model.Selector** en de set regels voor deze gegevensbron wordt gebruikt om het juiste belastingniveau te selecteren.
 
@@ -269,7 +269,7 @@ Vervolgens wijzigt u het bestaande berekende veld zodat dit de geconfigureerde g
 
 4.  Voer in het veld **Formule** de tekst **CASE(@.LevelByLookup, TaxationLevel.'Regular taxation', "Normaal", TaxationLevel.'Reduced taxation', "Verlaagd", TaxationLevel.'No taxation', "Geen", "Overige")** in.
 
-    ![Pagina voor ER Operations-ontwerper](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
+    ![Pagina voor ER Operations-ontwerper.](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
     
     De expressie van het veld **Model.Data.Summary.Level** retourneert nu het belastingniveau op basis van de belastingcode van de huidige record en de set regels die een zakelijke gebruiker configureert in de gegevensbron voor zoeken **Model.Data.Selector**.
     

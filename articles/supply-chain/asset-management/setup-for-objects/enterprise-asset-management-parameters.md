@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8df8e6204e9c64305387e6aed304142d7f13b33a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6affcc20c2c2e2b8fa9e38cb523e172bb2a79f22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808323"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349813"
 ---
 # <a name="asset-management-parameters"></a>Parameters voor activabeheer
 
@@ -99,7 +99,7 @@ De velden die worden beschreven in de volgende lijst hebben betrekking op bereke
 
 ## <a name="the-document-types-tab"></a>Het tabblad Documenttypen
 
-Selecteer de documenttypen die beschikbaar moeten zijn voor het afdrukken van bijlagen met betrekking tot een werkorderrapport. Dit wordt gedaan door een documenttype te selecteren in de sectie **Beschikbaar** en de ![pijl naar voren](media/15-setup-for-objects.png) te selecteren. Als u een geselecteerd documenttype wilt verwijderen, selecteert u het documenttype in de sectie **Geselecteerd** en selecteert u de ![pijl terug](media/16-setup-for-objects.png).
+Selecteer de documenttypen die beschikbaar moeten zijn voor het afdrukken van bijlagen met betrekking tot een werkorderrapport. Dit wordt gedaan door een documenttype te selecteren in de sectie **Beschikbaar** en de ![pijl naar voren.](media/15-setup-for-objects.png) te selecteren. Als u een geselecteerd documenttype wilt verwijderen, selecteert u het documenttype in de sectie **Geselecteerd** en selecteert u de ![pijl terug](media/16-setup-for-objects.png).
 
 ## <a name="the-number-sequences-tab"></a>Het tabblad Nummerreeksen
 

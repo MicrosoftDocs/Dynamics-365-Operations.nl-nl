@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: dc0fbff437bfa948d70a03479561542106805bdb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b6d68d62636b5750cdcdca3f8ccbe155dc249b72
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804424"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352295"
 ---
 # <a name="enable-personalized-recommendations"></a>Gepersonaliseerde aanbevelingen inschakelen
 
@@ -50,7 +50,7 @@ Voer de volgende stappen uit om persoonlijke instellingen in te schakelen.
 1. Selecteer de functie **Gepersonaliseerde productaanbevelingen**.
 1. Selecteer in het eigenschappenvenster **Gepersonaliseerde productaanbevelingen** de optie **Nu inschakelen**.
 
-![Persoonlijke instellingen inschakelen](./media/FeatureManagement_Personalized.PNG)
+![Persoonlijke instellingen inschakelen.](./media/FeatureManagement_Personalized.PNG)
 
 > [!NOTE]
 > Wanneer u persoonlijke instellingen inschakelt, wordt het proces voor het genereren van persoonlijke productaanbevelingslijsten gestart. Mogelijk is maximaal één dag vereist voordat deze lijsten online en op het POS beschikbaar en zichtbaar zijn.
@@ -73,7 +73,7 @@ Voordat de lijst 'Selectie voor u' kan worden weergegeven op elke e-Commerce-pag
 
 In de volgende afbeelding ziet u een voorbeeld van een lijst 'Selectie voor u' op de pagina van een online winkel.
 
-![Online lijst Selectie voor u](./media/picksforyou.png)
+![Online lijst Selectie voor u.](./media/picksforyou.png)
 
 ### <a name="recommended-for-customer-lists-at-the-pos"></a>Lijsten 'Aanbevolen voor klant' op het POS
 
@@ -81,7 +81,7 @@ Om hun clienteling te verbeteren kunnen detailhandelaren bestaande klantdetailpa
 
 In de volgende afbeelding ziet u een voorbeeld van een lijst 'Aanbevolen voor klant' op een POS-terminal.
 
-![Lijst Aanbevolen voor klant op het POS](./media/picksonpos.png)
+![Lijst Aanbevolen voor klant op het POS.](./media/picksonpos.png)
 
 ## <a name="apply-personalization-to-existing-recommendation-lists"></a>Persoonlijke aanbevelingen toevoegen aan bestaande aanbevelingslijsten
 
@@ -89,7 +89,7 @@ Detailhandelaren kunnen persoonlijke aanbevelingen toevoegen aan bestaande aanbe
 
 Een aangemelde gebruiker heeft bijvoorbeeld het zwarte horloge en de bruine werkschoenen al gekocht die worden weergegeven in de lijst 'Trending - standaard' in de volgende afbeelding. De gebruiker ziet daarom nieuwe producten in plaats van deze producten, zoals wordt weergegeven in de lijst 'Trending - persoonlijk'.
 
-![Persoonlijke instellingen toepassen](./media/applypersonalization.png)
+![Persoonlijke instellingen toepassen.](./media/applypersonalization.png)
 
 Als u persoonlijke instellingen wilt toepassen op een bestaande aanbevelingslijst in de Commerce Site Builder, voert u de volgende stappen uit.
 
@@ -99,7 +99,7 @@ Als u persoonlijke instellingen wilt toepassen op een bestaande aanbevelingslijs
 1. Selecteer het lijsttype in het dialoogvenster **Productlijstconfiguratie selecteren** onder **Type**.
 1. Schakel het selectievakje **Persoonlijke instellingen toepassen** in en selecteer vervolgens **OK**.
 
-    ![Persoonlijke instellingen toepassen op een trendlijst](./media/ApplyPersonalizationToTrending.PNG)
+    ![Persoonlijke instellingen toepassen op een trendlijst.](./media/ApplyPersonalizationToTrending.PNG)
 
 1. Sla de pagina op, voltooi de bewerking ervan en publiceer de pagina vervolgens. Nadat de pagina is gepubliceerd, zien aangemelde gebruikers aangepaste trendlijsten.
 

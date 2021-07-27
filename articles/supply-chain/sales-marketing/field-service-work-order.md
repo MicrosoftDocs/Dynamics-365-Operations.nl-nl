@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 15a61b1fe4a267552708fa02fe482f7702668e06
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc656c6339da92deceff2f8861fd8570171b7a2d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824961"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345543"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Werkorders in Field Service synchroniseren met verkooporders in Supply Chain Management
 
@@ -31,7 +31,7 @@ ms.locfileid: "5824961"
 
 In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt om werkorders in Dynamics 365 Field Service te synchroniseren met verkooporders in Dynamics 365 Supply Chain Management.
 
-[![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service](./media/field-service-integration.png)](./media/field-service-integration.png)
+[![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service.](./media/field-service-integration.png)](./media/field-service-integration.png)
 
 
 ## <a name="templates-and-tasks"></a>Sjablonen en taken
@@ -245,31 +245,31 @@ In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 
 Filter: (msdyn_systemstatus ne 690970005) en (msdyn_systemstatus ne 690970000) en (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![Sjabloontoewijzing in Gegevensintegratie](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Sjabloontoewijzing in Gegevensintegratie.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Werkorders naar Sales-orders (Field Service naar Supply Chain Management): WorkOrderServiceLineEstimate
 
 Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en (msdyn_linestatus eq 690970000) en (msdynce_headersystemstatus ne 690970004)
 
-[![Sjabloontoewijzing in Gegevensintegratie](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Sjabloontoewijzing in Gegevensintegratie.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Werkorders naar Sales-orders (Field Service naar Supply Chain Management): WorkOrderServiceLineUsed
 
 Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en ((msdyn_linestatus eq 690970001) of (msdynce_headersystemstatus eq 690970004))
 
-[![Sjabloontoewijzing in Gegevensintegratie](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Sjabloontoewijzing in Gegevensintegratie.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Werkorders naar Sales-orders (Field Service naar Supply Chain Management): WorkOrderProductLineEstimate
 
 Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en (msdyn_linestatus eq 690970000) en (msdynce_headersystemstatus ne 690970004) en (msdyn_allocated eq true)
 
-[![Sjabloontoewijzing in Gegevensintegratie](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Sjabloontoewijzing in Gegevensintegratie.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Werkorders naar Sales-orders (Field Service naar Supply Chain Management): WorkOrderProductLineUsed
 
 Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en ((msdyn_linestatus eq 690970001) of (msdynce_headersystemstatus eq 690970004) of (msdyn_allocated ne true))
 
-[![Sjabloontoewijzing in Gegevensintegratie](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![Sjabloontoewijzing in Gegevensintegratie.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

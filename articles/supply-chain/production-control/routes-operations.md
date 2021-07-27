@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: bfcbeaa64aa00f19dc72cf5256ead47654808ed9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188929"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350493"
 ---
 # <a name="routes-and-operations"></a>Routes en bewerkingen
 
@@ -45,7 +45,7 @@ Met een route wordt de volgorde van bewerkingen beschreven die gebruikt wordt om
 
 Een eenvoudige route is sequentieel en heeft slechts één beginpunt.  
 
-[![Eenvoudige routes](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Eenvoudige route.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Als u in de parameters van Productiebeheer alleen eenvoudige routes hebt ingeschakeld, genereert Supply Chain Management automatisch de bewerkingsnummers (10, 20, 30, enzovoort) wanneer u de route definieert.
 
@@ -53,7 +53,7 @@ Als u in de parameters van Productiebeheer alleen eenvoudige routes hebt ingesch
 
 Als u de meer complexe routenetwerken in de parameters van productiebeheer inschakelt, kunt u routes definiëren met meerdere beginpunten en bewerkingen, die parallel kunnen worden uitgevoerd.  
 
-[![Routenetwerk](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Routenetwerk.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Elke bewerking mag slechts één opvolgende bewerking hebben en de gehele route moet eindigen met één bewerking.
@@ -64,7 +64,7 @@ Als u de meer complexe routenetwerken in de parameters van productiebeheer insch
 
 Soms is een combinatie van meerdere bronnen voor bedrijfsactiviteiten met verschillende kenmerken vereist om een bewerking uit te voeren. Voor een montagebewerking kan bijvoorbeeld een machine en een stuk gereedschap vereist zijn, plus één medewerker voor elke twee machines om toezicht te houden op de bewerking. Dit voorbeeld kan worden gemodelleerd met behulp van parallelle bewerkingen, waarbij één bewerking is aangewezen als de primaire bewerking en de andere secundair zijn.  
 
-[![Route met primaire en secundaire bewerkingen](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Route met primaire en secundaire bewerkingen.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 Doorgaans vertegenwoordigt de primaire bewerking de bottleneck resource en bepaalt de uitvoeringstijd voor de secundaire bewerkingen. Tijdens planning waarbij eindige capaciteit meespeelt, moeten echter de bronnen die zijn gepland voor zowel de primaire bewerking als de secundaire bewerkingen tegelijk beschikbaar zijn en vrije capaciteit hebben.  
 

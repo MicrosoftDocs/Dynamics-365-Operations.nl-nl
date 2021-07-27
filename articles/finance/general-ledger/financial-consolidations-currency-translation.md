@@ -9,16 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 4e8d4f28c42f44dc01c92e51b5e9a69fe7f40fa0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193900"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345375"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Overzicht van Financiële consolidaties en valutaomzetting
 
@@ -66,13 +67,13 @@ Hier volgen enkele consolidatiescenario's die met Online consolideren worden ond
 ## <a name="legal-entity-setup"></a>Rechtspersoon instellen
 Voordat u een consolidatie verwerkt, moet u de rechtspersoon instellen. U kunt consolidatie zo vaak als nodig is uitvoeren en alle gegevens worden omgerekend van de valuta voor boekhouding van het bronbedrijf naar de valuta die is gedefinieerd voor het consolidatiebedrijf. Daarom moet u voor de volgende organisatiestructuur, als u alle Noord-Amerikaanse bedrijven eerst naar Amerikaanse dollars (USD) en vervolgens naar de euro (EUR), de valuta van het moederbedrijf, moet omrekenen, ten minste twee consolidatiebedrijven hebben.
 
-![Organisatiestructuur](./media/organizational-structure.png "Organisatiestructuur")
+![Organisatiestructuur.](./media/organizational-structure.png "Organisatiestructuur")
 
 In de voorgaande organisatiestructuur moet u een rechtspersoon voor de Noord-Amerikaanse consolidatie hebben, omdat consolidaties altijd van de valuta voor boekhouding van het bronbedrijf naar de valuta van het consolidatiebedrijf worden geconsolideerd. In het voorbeeld worden, als alle bedrijven zijn opgenomen in één consolidatie, de Mexicaanse dochtermaatschappij omgerekend van Mexicaanse peso's (MXN) naar EUR en niet van MXN naar USD naar EUR.
 
 Wanneer u de rechtspersoon maakt, kunt u opgeven of het bedrijf wordt gebruikt voor zowel het consolidatieproces als het schrappingsproces of slechts voor een van deze processen. In de volgende afbeelding wordt het bedrijf voor beide processen gebruikt. Houd er rekening mee dat u geen dagelijkse journalen in een consolidatiebedrijf kunt boeken, maar u kunt ze wel in een eliminatiebedrijf boeken. Daarom wilt u wellicht een afzonderlijk eliminatiebedrijf hebben.
 
-![Rechtspersoon die wordt gebruikt voor zowel consolidatie als schrapping](./media/sep-elimination-company.png "Rechtspersoon die wordt gebruikt voor zowel consolidatie als schrapping")
+![Rechtspersoon die wordt gebruikt voor zowel consolidatie als schrapping.](./media/sep-elimination-company.png "Rechtspersoon die wordt gebruikt voor zowel consolidatie als schrapping")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Hoofdrekeningen en consolidatierekeninggroepen
 Eén keuze die u moet maken, is hoe u uw rekeningschema wilt consolideren. U hebt drie opties voor het consolideren van hoofdrekeningen tijdens het consolidatieproces.
@@ -81,11 +82,11 @@ De eerste optie is het gebruik van de hoofdrekeningen van de bronbedrijven. In d
 
 De tweede optie bestaat eruit een standaardrekening voor consolidatie op te geven op de pagina **Hoofdrekeningen**. De rekening wordt vervolgens toegewezen aan de consolidatierekening. Deze optie kan handig zijn wanneer u verschillende rekeningschema's hebt of moet toewijzen aan een rekeningschema dat is gedefinieerd door het hoofdkantoor.
 
-![Standaardconsolidatierekening opgegeven op de pagina Hoofdrekeningen](./media/main-accounts.png "Standaardconsolidatierekening opgegeven op de pagina Hoofdrekeningen")
+![Standaardconsolidatierekening opgegeven op de pagina Hoofdrekeningen.](./media/main-accounts.png "Standaardconsolidatierekening opgegeven op de pagina Hoofdrekeningen")
 
 De derde optie is het gebruik van consolidatierekeninggroepen. U kunt zoveel consolidatierekeninggroepen als nodig zijn definiëren. Vervolgens wijst u op de pagina **Aanvullende consolidatierekeningen** de hoofdrekening uit het rekeningschema toe aan de rekening die u nodig hebt voor die groep.
 
-![Toewijzing op de pagina Aanvullende consolidatierekeningen](./media/additional-consolidation-accounts.png "Toewijzing op de pagina Aanvullende consolidatierekeningen")
+![Toewijzing op de pagina Aanvullende consolidatierekeningen.](./media/additional-consolidation-accounts.png "Toewijzing op de pagina Aanvullende consolidatierekeningen")
 
 ## <a name="consolidating-online"></a>Online consolideren
 Zie voor informatie over het invoeren van details van online consolidaties [Online financiële consolidaties](./consolidate-online.md).
@@ -97,7 +98,7 @@ Als u de resultaten van de consolidatie wilt bekijken, hebt u meerdere opties:
 - Controleer de lijstpagina **Proefbalans** in het consolidatiebedrijf.
 - Geef in de lijst met consolidatietransacties op de pagina **Consolidaties** de saldi weer die per datum zijn gemaakt voor elk bronbedrijf voor elke periode.
 
-    ![Consolidatietransacties op de pagina Consolidaties](./media/managing-consolidation-transactions.png "Consolidatietransacties op de pagina Consolidaties")
+    ![Consolidatietransacties op de pagina Consolidaties.](./media/managing-consolidation-transactions.png "Consolidatietransacties op de pagina Consolidaties")
 
 Als u de consolidatie opnieuw wilt uitvoeren, kunt u de consolidatie gewoon verwerken. U kunt ook eerst **Transacties verwijderen** op de pagina **Consolidaties** selecteren.
 Als de saldi op uw geconsolideerde rekening niet nauwkeurig zijn, kunnen deze saldi worden gecorrigeerd met de pagina **Correcties van afsluitperiode**.
@@ -118,7 +119,7 @@ De instellingen voor schrappingen vindt u in het gedeelte **Instellen** van de m
 
 U kunt indien nodig de datum instellen waarop de schrappingsregel van kracht wordt en de datum waarop deze verloopt. U moet de optie **Actief** instellen op **Ja** als u wilt dat de schrappingsregel beschikbaar is in het schrappingsvoorstelproces. Selecteer een journaalnaam van het type **Schrapping**.
 
-![Basiseigenschappen van een schrappingsregel](./media/ledger-elimination-rule-journal.png "Basiseigenschappen van een schrappingsregel")
+![Basiseigenschappen van een schrappingsregel.](./media/ledger-elimination-rule-journal.png "Basiseigenschappen van een schrappingsregel")
 
 Nadat u de basiseigenschappen hebt gedefinieerd, selecteert u **Regels** om de werkelijke verwerkingsregels te definiëren. Er zijn twee opties voor schrappingen: u kunt het bedrag van de nettowijziging verwijderen of een vast bedrag definiëren.
 
@@ -126,7 +127,7 @@ Selecteer de bronrekeningen. U kunt een sterretje (\*) als jokerteken gebruiken.
 
 Nadat u de bronrekeningen hebt geselecteerd, gebruikt u het veld **Rekeningspecificatie** om de rekening op te geven die van het doelbedrijf wordt gebruikt. Selecteer **Bron** als u dezelfde hoofdrekening wilt gebruiken die is gedefinieerd in de bronrekening. Als u **Door gebruiker gedefinieerd** selecteert, moet u een doelrekening opgeven.
 
-![Pagina Schrappingsregel regel grootboek](./media/ledger-elimination-rule-line.png "Pagina Schrappingsregel regel grootboek")
+![Pagina Schrappingsregel regel grootboek.](./media/ledger-elimination-rule-line.png "Pagina Schrappingsregel regel grootboek")
 
 Het veld **Dimensiespecificatie** werkt net als het veld **Rekeningspecificatie**. Selecteer **Bron** als u dezelfde dimensies in het doelbedrijf en het bronbedrijf wilt gebruiken. Als u **Door gebruiker gedefinieerd** selecteert, moet u de dimensies opgeven in het doelbedrijf door **Doeldimensies** te selecteren. Selecteer vervolgens brondimensies en de financiële dimensies en waarden die worden gebruikt als bron van de schrapping.
 

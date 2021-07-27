@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38099909f169391c17760ac381af07f0848fc384
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 219b82809087e3f5f185bc92836ca300d064fc71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797474"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348339"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Aanbevelingen toevoegen aan het transactiescherm
 
@@ -43,7 +43,7 @@ U kunt productaanbevelingen op uw POS-apparaat weergeven wanneer u Commerce gebr
 6. Wanneer u zich aanmeldt, wordt er een pagina weergegeven die vergelijkbaar is met de onderstaande pagina. De indeling zal afwijken, afhankelijk van de aanpassingen die voor uw winkel zijn gemaakt.
 
 
-    [![Ontwerper van indeling](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Ontwerper van indeling.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Een weergaveoptie kiezen
 
@@ -58,11 +58,11 @@ Er zijn twee configuratieopties beschikbaar. Kies de optie die het meest geschik
 1. Verklein de hoogte van het detailgebied van de transactieregels zodat het even hoog is als het deelvenster van de klant aan de linkerkant.
 
 
-    [![Hoogte van het detailgebied van de transactieregels verlaagd](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Hoogte van het detailgebied van de transactieregels verlaagd.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. Sleep in het menu aan de linkerkant het besturingselement voor aanbevelingen en zet het neer tussen het detailgebied van de transactieregels en het knoppenraster onderaan in het midden van het transactiescherm. Pas de grootte van het besturingselement aan zodat het in die ruimte past.
 
-    [![Het besturings Aanbevelingen is toegevoegd aan de indeling](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Het besturings Aanbevelingen is toegevoegd aan de indeling.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Klik op **OK** om de indelingsontwerper op te slaan en af te sluiten.
@@ -77,13 +77,13 @@ Er zijn twee configuratieopties beschikbaar. Kies de optie die het meest geschik
 
 2. Klik op **Aanpassen**.
 
-    [![Het dialoogvenster Aanpassing - Tabblad](./media/pic-5.png)](./media/pic-5.png)
+    [![Het dialoogvenster Aanpassing - Tabblad.](./media/pic-5.png)](./media/pic-5.png)
 
 3. Klik op **Nieuw tabblad**.
 4. Zoek naar het nieuwe tabblad dat u zojuist hebt toegevoegd. Wellicht moet u omlaag bladeren.
 5. Selecteer in de vervolgkeuzelijst **Inhoud** **Aanbevolen producten**.
 
-    [![Aanbevolen producten in het veld Inhoud](./media/pic-6.png)](./media/pic-6.png)
+    [![Aanbevolen producten in het veld Inhoud.](./media/pic-6.png)](./media/pic-6.png)
 
 6. Typ in het veld **Label** een naam voor het tabblad Aanbevelingen. Typ bijvoorbeeld Aanbevolen producten.
 7. Selecteer in het veld **Afbeelding** de afbeelding die op het tabblad moet worden weergegeven.

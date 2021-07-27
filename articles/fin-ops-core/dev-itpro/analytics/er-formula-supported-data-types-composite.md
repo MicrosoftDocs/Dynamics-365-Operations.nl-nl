@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 2593f3128ec103248e109f3c80f48b9d7a035f54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224084"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355341"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Ondersteunde samengestelde gegevenstypen voor formules voor elektronische rapportage
 
@@ -43,11 +43,11 @@ De standaardwaarde van een *klasse* is **null**.
 
 Hieronder ziet u een voorbeeld van hoe de gegevensbron **Systeeminformatie (xInfo)** van het type **Klasse** wordt toegevoegd om het exemplaar van de **xInfo**-toepassingsklasse te maken en de methode **productName()** aan te roepen om de naam van de huidige toepassing te ontvangen. De naam van de huidige toepassing wordt opgehaald tijdens runtime door de binding `xInfo.productName` uit te voeren die is geconfigureerd voor het veld **Softwarenaam (SoftwareName)** van het ER-gegevensmodel. Via deze binding wordt de methode `productName()` van de **xInfo**-toepassingsklasse aangeroepen die in de huidige modeltoewijzing wordt weergegeven als de gegevensbron **Systeeminformatie (xInfo)**.
 
-[![De gegevensbron Klasse configureren in de ontwerper van ER-modeltoewijzingen](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
+[![De gegevensbron Klasse configureren in de ontwerper van ER-modeltoewijzingen.](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
 
 In de volgende afbeelding wordt getoond hoe de ER-indeling wordt geconfigureerd om de opgegeven toepassingsnaam in gegenereerde documenten te plaatsen. Het veld **Softwarenaam (SoftwareName)** van het gebruikte gegevensmodel is gebonden aan het onderdeel **Tekenreeks** dat is genest onder het XML-element **softwareUsed** van de ER-indeling. Daarom wordt de naam van de huidige toepassing tijdens runtime in het XML-element **softwareUsed** van een gegenereerd document in XML-indeling geplaatst.
 
-[![De structuur van een elektronisch uitgaand document configureren in de ontwerper van de ER-indeling](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
+[![De structuur van een elektronisch uitgaand document configureren in de ontwerper van de ER-indeling.](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
 
 ## <a name="container"></a><a name="container"></a>Container
 
@@ -60,7 +60,7 @@ De standaardwaarde van een *container* is **null**.
 
 In de volgende afbeelding wordt weergegeven hoe het veld **Bitmap (afbeelding)** van het type *Container* wordt gebonden aan het veld **Logo** van het gegevensmodel van het type **Container** in de modeltoewijzing **Verkoopfactuur**. Deze binding zorgt ervoor dat het bedrijfslogo beschikbaar is voor elke ER-indeling die is ontworpen voor de basisdefinitie **SalesInvoice** en die deze modeltoewijzing gebruikt tijdens runtime.
 
-[![Een veld van het type Container in de ontwerper van ER-modeltoewijzingen verbinden](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
+[![Een veld van het type Container in de ontwerper van ER-modeltoewijzingen verbinden.](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
 
 ## <a name="record"></a><a name="record"></a>Registreren
 
@@ -109,7 +109,7 @@ De standaardwaarde van een *object* is **null**.
 
 In de volgende afbeelding ziet u hoe de **ReportDataContract**-gegevensbron van het type *Object* wordt toegevoegd om informatie over een gegenereerde factuur vanuit de broncode door te geven aan de modeltoewijzing **Projectfactuur**. De tekst van het factuurexemplaar wordt bijvoorbeeld doorgegeven als onderdeel van de uitvoeringcontext. Deze tekst wordt ontleend aan de broncode tijdens runtime door de binding `ReportDataContract.parmInvoiceInstanceText` uit te voeren die voor het veld **Notitie** van het ER-gegevensmodel is geconfigureerd. Via deze binding wordt de methode `parmInvoiceInstanceText()` van de toepassingsklasse **PSAProjInvoiceContract** aangeroepen die in de huidige modeltoewijzing wordt weergegeven als de gegevensbron **ReportDataContract**.
 
-[![De gegevensbron Object configureren in de ontwerper van ER-modeltoewijzingen](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
+[![De gegevensbron Object configureren in de ontwerper van ER-modeltoewijzingen.](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
 
 Zie [Toepassingsobjecten ontwikkelen voor het aanroepen van het ontworpen rapport](er-quick-start1-new-solution.md#DevelopCustomCode) voor meer informatie over het doorgeven van details van de uitvoeringscontext vanuit broncode naar de actieve ER-oplossing.
 

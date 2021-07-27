@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b5182df9d45a3b5d2572a5b6b391c924ef23bf9a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b7e8a37e31201845b94547850b8979a103f0729e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800416"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352659"
 ---
 # <a name="cloud-powered-search-overview"></a>Overzicht van zoekopdrachten via cloud
 
@@ -41,7 +41,7 @@ De relevantie en prestaties van de zoekopdrachten zijn belangrijke factoren in d
 
 In de volgende afbeelding ziet u een voorbeeld van een normale blader- en zoekfunctie.
 
-![Landingspagina voor zoeken](./media/SearchLanding.png)
+![Landingspagina voor zoeken.](./media/SearchLanding.png)
 
 ## <a name="faceted-navigation-and-choice-summary"></a>Facetnavigatie en keuzeoverzicht 
 
@@ -51,7 +51,7 @@ Met facetnavigatie kunt u verschillende verfijningen instellen voor een termense
 
 In de volgende afbeelding ziet u een voorbeeld waarin facetnavigatie wordt gebruikt bij een zoekopdracht.
 
-![Keuzeoverzicht](./media/ChoiceSummary.png)
+![Keuzeoverzicht.](./media/ChoiceSummary.png)
 
 ## <a name="immersive-autosuggest"></a>Automatische suggesties
 
@@ -61,7 +61,7 @@ Dynamics 365 Commerce ondersteunt ook functionaliteit voor trefwoordovereenkomst
 
 In de volgende afbeelding ziet u een voorbeeld waarin automatische suggesties wordt gebruikt.
 
-![Automatische suggesties](./media/ImmersiveAutoSuggestUX.png)
+![meeslepende automatische suggesties.](./media/ImmersiveAutoSuggestUX.png)
 
 ## <a name="sort"></a>Sorteren
 
@@ -69,7 +69,7 @@ Dankzij de verbeterde sorteermogelijkheden in Dynamics 365 Commerce kunnen klant
 
 >[!NOTE]
 >Deze zoekmogelijkheden via de cloud zijn beschikbaar vanaf versie 10.0.8. Zorg ervoor dat onder **Commerce-parameters > Configuratieparameters** een vermelding bestaat voor ProductSearch.UseAzureSearch die is ingesteld op true. 
-![Configuratieparameters voor zoekopdrachten via de cloud](./media/CloudPoweredSearchConfigurationParameters.png)
+![Configuratieparameters voor zoekopdrachten via de cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

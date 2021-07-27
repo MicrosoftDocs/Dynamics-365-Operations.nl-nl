@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 982d835c6c0d9bf6e19aa0ec1b03bce9aa7d2e5d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 90622bb8fb6452e4b4002fa5aab491112e98d923
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193745"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345807"
 ---
 # <a name="financial-analysis"></a>Financiële analyse
 
@@ -60,7 +60,7 @@ Om op de financiële overzichten te worden weergegeven en te worden opgenomen in
 ## <a name="entity-store"></a>Entiteitopslag
 De gegevens voor **Financiële analyse** worden gehaald uit de entiteitopslag (**Systeembeheer** \> **Instellen** \> **Entiteitopslag**). Als u de werkruimte **CFO-overzicht** of **Financiële analyse** opent en het volgende waarschuwingsbericht wordt weergegeven in de visuele elementen, moet u de entiteiten bijwerken.
 
-![Waarschuwing](./media/Cantdisplay.png)
+![Waarschuwing.](./media/Cantdisplay.png)
 
 U moet de volgende entiteiten bijwerken om gegevens te zien in de werkruimte **Financiële analyse**:
 
@@ -124,7 +124,7 @@ Gebruikers kunnen het rapport filteren met behulp van het deelvenster **Filter**
 - **Filters op het niveau van visuele elementen**: deze filters worden alleen toegepast op het geselecteerde visuele element. Deze filters worden toegepast boven op de filters op paginaniveau.
 - **Detailanalysefilter** : dit filter filtert van een visueel 'bron'-element dat op het huidige visuele element wordt toegepast wanneer u vanuit het visuele bronelement inzoomt op het huidige visuele element.
 
-![Filteropties](./media/filter.png)
+![Filteropties.](./media/filter.png)
 
 Als u een specifieke filterwaarde wilt verwijderen, selecteert u het gumsymbool ernaast. Verwijder geen filter door de X te selecteren. Als u de X selecteert, wordt het veld waarop u filtert verwijderd als filteroptie. Als u per ongeluk een veld uit het filter verwijdert, sluit u de werkruimte en opent u deze opnieuw. De standaardinstellingen voor het filter worden opnieuw toegepast.
 
@@ -169,25 +169,25 @@ Verschillende niveaus van inzoomen zijn beschikbaar via Power BI. Elk niveau hee
 
 In het volgende voorbeeld is de **proefbalans**-instructie samengevouwen tot het hoogste niveau van de rijhiërarchie, het hoofdrekeningtype.
 
-![Overzicht van proefbalans](./media/trial-balance.png)
+![Overzicht van proefbalans.](./media/trial-balance.png)
 
 Als u het volgende niveau van de hiërarchie, de hoofdrekeningcategorieën, wilt weergeven, kunt u het veld **Inzoomen op** instellen op **Rijen** en vervolgens de knop **Uitvouwen** selecteren (de derde knop na het veld Inzoomen op). U ziet nu alle hoofdrekeningcategorieën uitgevouwen. Op dit moment kunt u met Power BI niet één rij of kolom uitvouwen, maar nog steeds alle andere rijen of kolommen zien.
 
-![Inzoomen op rijen in proefbalans](./media/trial-balance2.png)
+![Inzoomen op rijen in proefbalans.](./media/trial-balance2.png)
 
 Als u wilt uitvouwen naar de hoofdrekeningen voor alle rijen, kunt u weer de knop **Uitvouwen** gebruiken. Echter, als u wilt inzoomen naar de hoofdrekeningen voor slechts één rij, selecteert u eerst de knop **Inzoomen** (de enkele pijl-omlaag aan de rechterkant van het venster) en selecteert u vervolgens de rij waarop u wilt inzoomen. In de volgende afbeelding ziet u het resultaat wanneer de rij **Verkoop** is geselecteerd nadat de knop **Inzoomen** is geselecteerd.
 
-![Knop Uitvouwen voor proefbalans](./media/trial-balance3.png)
+![Knop Uitvouwen voor proefbalans.](./media/trial-balance3.png)
 
 Nadat u op één rij inzoomt, zijn er meerdere klikken nodig om terug te keren naar de volledige proefbalans. De knop **Uitzoomen** (de eerste knop na **inzoomen** op veld) zoomt alleen uit in de context van de categorie **Verkoop**, zoals in de volgende afbeelding wordt weergegeven.
 
-![Knop Uitzoomen voor proefbalans](./media/trial-balance4.png)
+![Knop Uitzoomen voor proefbalans.](./media/trial-balance4.png)
 
 U kunt de knop **Uitzoomen** blijven gebruiken om terug te keren naar het hoogste niveau van samenvatting voor de rijen.
 
 Power BI heeft ook een knop waarmee u naar het volgende niveau in de hiërarchie gaat (de tweede knop na het veld **Inzoomen op**). Het effect van deze knop verschilt van het effect van de knop **Uitvouwen** (de derde knop na het veld **Inzoomen op**), die wordt gebruikt om de hiërarchie uit te vouwen. Wanneer u de hiërarchie uitvouwt, wordt de hiërarchie onderhouden in het rapport. Zoals u bijvoorbeeld eerder gezien hebt, als u uitvouwt op het hoofdrekeningtype, ziet u nog steeds het hoofdrekeningtype in het rapport. Echter wanneer u naar een hoger niveau in de hiërarchie gaat, toont het rapport niet langer de bovenliggende in de hiërarchie, zoals in de volgende afbeelding wordt weergegeven.
 
-![Knop Inzoomen voor proefbalans](./media/trial-balance5.png)
+![Knop Inzoomen voor proefbalans.](./media/trial-balance5.png)
 
 Als u de transactiedetails achter de samengevatte saldi wilt zien, kunt u enkele bedragen selecteren om terug te zoomen naar Finance and Operations.
 
@@ -226,7 +226,7 @@ Op dit moment ondersteunen de financiële overzichten niet de organisatiehiërar
 ## <a name="data-limitations"></a>Gegevensbeperkingen
 De visuele elementen van het financiële overzicht hebben een limiet op het aantal rijen dat kan worden weergegeven. Op dit moment is de limiet ingesteld op 30.000. Als u deze limiet overschrijdt, krijgt het visuele element een waarschuwingssymbool om u te informeren over deze situatie.
 
-![Gegevensbeperkingen](./media/data-limit.png)
+![Gegevensbeperkingen.](./media/data-limit.png)
 
 Als het maximum wordt overschreden, zijn de totalen die worden weergegeven in het financiële overzicht, niet meer correct, omdat niet alle rijen in het visuele element zijn geladen.
 

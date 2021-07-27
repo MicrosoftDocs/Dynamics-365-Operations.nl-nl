@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c42a11055e98da59e0428a156ca127529589abab
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1538b806a60a9a9950f54c29bd19447c66ac9ec2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812923"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359096"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Op kenmerken gebaseerde verkoopprijzen voor op beperkingen gebaseerde productconfiguratie
 
@@ -33,7 +33,7 @@ U kunt uw standaardvaluta als volgt instellen:
 1. Open het tabblad **Op beperkingen gebaseerde productconfiguratiemodellen**.
 1. Open de vervolgkeuzelijst **Standaardvaluta** en selecteer uw valuta.
 
-    ![De standaardvaluta instellen voor op beperkingen gebaseerde productconfiguratie](media/prod-config-currency.png "De standaardvaluta instellen voor op beperkingen gebaseerde productconfiguratie")
+    ![De standaardvaluta instellen voor op beperkingen gebaseerde productconfiguratie.](media/prod-config-currency.png "De standaardvaluta instellen voor op beperkingen gebaseerde productconfiguratie")
 
 1. Als u een Excel-bestand aan een prijsspecificatie voor alle order- of offerteregels wilt koppelen, stelt u in de sectie **Prijsmodel** **Koppelen** in op *Ja*.
 
@@ -60,7 +60,7 @@ In het volgende voorbeeld wordt een basisprijs weergegeven van een statisch aant
 - Voor een afwerking met rozenhout telt u 119,95 EUR bij.
 - Tel 12,95 EUR bij voor elke eenheid van de luidsprekerhoogte.
 
-![Voorbeeldprijsmodel](media/prod-config-rules-example.png "Voorbeeldprijsmodel")
+![Voorbeeldprijsmodel.](media/prod-config-rules-example.png "Voorbeeldprijsmodel")
 
 ## <a name="add-support-for-multiple-currencies"></a>Ondersteuning voor meerdere valuta's toevoegen
 
@@ -81,7 +81,7 @@ U voegt expliciete prijzen als volgt in een extra valuta toe:
 
 In het volgende voorbeeld is _EUR_ de standaardvaluta en is _USD_ toegevoegd als extra valuta.
 
-![Voorbeeld van een model met meerdere valuta's](media/prod-config-rules-currency-example.png "Voorbeeld van een model met meerdere valuta's")
+![Voorbeeld van een model met meerdere valuta's.](media/prod-config-rules-currency-example.png "Voorbeeld van een model met meerdere valuta's")
 
 > [!NOTE]
 > U kunt geen expressieregels toevoegen die uniek zijn voor een niet-standaardvaluta. Als u expressieregels wilt maken die alleen relevant zijn voor een andere valuta dan de standaardvaluta, stelt u de prijsexpressie voor de standaardvaluta in op nul. Stel vervolgens de toepasselijke expressie in voor de niet-standaardvaluta.
@@ -93,11 +93,11 @@ Om te testen hoe de verkoopprijzen in een configuratiesessie werken, opent u de 
 - Gebruik de configuratie-instellingen die hier worden aangeboden om productopties te selecteren en bekijk vervolgens hoe deze van invloed zijn op de waarde die voor **Prijs en verzenddatum** wordt weergegeven.
 - Selecteer **Prijsspecificatie weergeven** om een Excel-document te downloaden waarin alle details worden weergegeven over de manier waarop de prijs is berekend.
 
-![Uw productmodel testen](media/prod-config-test.png "Uw productmodel testen")
+![Uw productmodel testen.](media/prod-config-test.png "Uw productmodel testen")
 
 De gedownloade spreadsheet bevat zowel de absolute waarde als de bijdrage als een percentage voor elk actief prijselement. Als u de prijsmodeloptie **Koppelen** hebt ingesteld op de pagina **Parameters voor productgegevensbeheer**, wordt dit Excel-blad gekoppeld aan de order- of offerteregel.
 
-![Excel-spreadsheet met prijsspecificatie](media/prod-config-excel-example.png "Excel-spreadsheet met prijsspecificatie")
+![Excel-spreadsheet met prijsspecificatie.](media/prod-config-excel-example.png "Excel-spreadsheet met prijsspecificatie")
 
 ## <a name="set-up-selection-criteria-for-price-models"></a>Selectiecriteria instellen voor prijsmodellen
 
@@ -116,7 +116,7 @@ U stelt als volgt selectiecriteria voor prijsmodellen in:
     - **Geldig vanaf**: geef de eerste dag op waarop de query van toepassing is.
     - **Verloopt op**: geef de laatste datum op waarop de query van toepassing is.
 
-    ![Criteria voor prijsmodel](media/prod-config-price-model-criteria.png "Criteria voor prijsmodel")
+    ![Criteria voor prijsmodel.](media/prod-config-price-model-criteria.png "Criteria voor prijsmodel")
 
 1. Selecteer de rij voor de query die u wilt definiëren en selecteer vervolgens **Bewerken** in het **Actievenster**. Het dialoogvenster van de queryontwerper wordt geopend. Deze werkt net als de meeste queryontwerpers in Supply Chain Management. Gebruik deze methode om de voorwaarden te definiëren op basis waarvan het prijsmodel voor de door u geselecteerde rij moet worden toegepast.
 
@@ -137,7 +137,7 @@ De laatste stap bestaat eruit op kenmerken gebaseerde verkoopprijzen voor de pro
 1. Selecteer het beoogde productconfiguratiemodel.
 1. Open in het actievenster het tabblad **Model** en selecteer in de groep **Details productmodel** **Versies**.
 1. De pagina **Versies** wordt geopend. Controleer of de **Methode voor prijscalculatie** in ingesteld op **Op kenmerken gebaseerd**.
-    ![De methode voor prijscalculatie instellen op Op kenmerken gebaseerd](media/prod-config-versions.png "De methode voor prijscalculatie instellen op Op kenmerken gebaseerd")
+    ![De methode voor prijscalculatie instellen op Op kenmerken gebaseerd.](media/prod-config-versions.png "De methode voor prijscalculatie instellen op Op kenmerken gebaseerd")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

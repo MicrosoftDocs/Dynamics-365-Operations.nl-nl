@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 46e8fba0c1269aa8b81e0df8d415fe11b2307924
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 3b042374179de7aa5bbff73719cbe8546920132e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897303"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360683"
 ---
 # <a name="financial-dimensions-and-posting"></a>Financiële dimensies en boeken 
 
@@ -71,29 +71,29 @@ Gebruikers hebben vaak vragen over de volgorde waarin de verschillende onderdele
 
 In de volgende afbeelding ziet u de vaste standaarddimensie die is ingesteld op de hoofdrekening 401100.
 
-[![Financiële standaarddimensies](./media/default-dimensions.png)](./media/default-dimensions.png)
+[![Financiële standaarddimensies.](./media/default-dimensions.png)](./media/default-dimensions.png)
 
 In dit eenvoudige voorbeeld wordt een algemeen journaal gebruikt waarin de afdelingsdimensie is ingesteld op de standaardwaarde **023** (Operations). We geven een grootboekrekening op en voeren boekingen uit. De volgende afbeelding toont de standaard financiële dimensie in de koptekst van het grootboek.
 
-[![Algemene journalen](./media/general-journal.png)](./media/general-journal.png)
+[![Algemene journalen.](./media/general-journal.png)](./media/general-journal.png)
 
 De standaarddimensie in de journaalkoptekst zorgt dat afdeling 023 standaard wordt toegepast op de verkooprekeningregel. In de volgende afbeelding ziet u de algemene journaalregel, waar de standaarddimensiewaarde **023** uit de koptekst wordt toegepast.
 
-[![Journaalboekstuk](./media/journal-voucher.png)](./media/journal-voucher.png)
+[![Journaalboekstuk.](./media/journal-voucher.png)](./media/journal-voucher.png)
 
 Wanneer de regel wordt geboekt, wordt echter de vaste dimensie is toegepast en wordt de regel geboekt naar afdeling 022. De volgende afbeelding toont het geboekte boekstuk, waarbij de vaste dimensie is toegepast voor de verkooprekening.
 
-[![Boekstuktransacties met vaste dimensie toegepast](./media/voucher-transactions.png)](./media/voucher-transactions.png)
+[![Boekstuktransacties met vaste dimensie toegepast.](./media/voucher-transactions.png)](./media/voucher-transactions.png)
 
 ### <a name="example-2"></a>Voorbeeld 2
 
 Dit voorbeeld gebruikt dezelfde instelling als het eerste voorbeeld. We voegen echter een tweede component toe en gebruiken de afdelingsdimensie als een salderende dimensie. In het volgende voorbeeld is **Afdeling** ingesteld als de salderende financiële dimensie voor het grootboek USMF.
 
-[![Illustratie die Afdeling als salderende financiële dimensie toont](./media/ledger.png)](./media/ledger.png)
+[![Illustratie die Afdeling als salderende financiële dimensie toont.](./media/ledger.png)](./media/ledger.png)
 
 Wanneer de instellingen voor dezelfde journaalkoptekst worden gebruikt en dezelfde transactie wordt geboekt, wordt eerst de vaste dimensie toegepast. De salderingslogica wordt toegepast om te garanderen dat elke afdeling een salderende post heeft. In de volgende afbeelding ziet u de boekstuktransacties met de salderingspost nadat de vaste dimensie is toegepast.
 
-[![Boekstuktransacties nadat de salderingspost is vereffend](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
+[![Boekstuktransacties nadat de salderingspost is vereffend.](./media/voucher-transactions2.png)](./media/voucher-transactions2.png)
 
 ### <a name="example-3"></a>Voorbeeld 3
 
@@ -101,11 +101,11 @@ In dit voorbeeld wordt een geavanceerde regel toegevoegd. De geavanceerde regel 
 
 Dit voorbeeld is belangrijk vanwege de volgorde. De rekeningstructuur wordt bepaald nadat de hoofdrekening is ingevoerd. Als u naar de instellingen van de rekeningstructuur verwijst, wordt bepaald of hoofdrekening, bedrijfseenheid, afdeling en kostenplaats relevant zijn. Op dit moment is de geavanceerde regel nog niet geactiveerd, omdat vaste dimensies pas worden toegepast als de standaarddimensies voor het journaalboekstuk zijn vereffend tijdens het boeken. In het volgende voorbeeld is het segment Klant niet aanwezig, omdat nog niet is voldaan aan de criteria voor de geavanceerde regel.
 
-[![Grootboekrekening](./media/drop-down.png)](./media/drop-down.png)
+[![Grootboekrekening.](./media/drop-down.png)](./media/drop-down.png)
 
 De boeking is niet gelukt, omdat de vaste dimensie is toegepast aan het einde van het proces. Bij het valideren van de dimensies wordt bepaald dat het segment Klant vereist is als de hoofdrekening 401100 en de afdeling 022. De boeking kan niet worden uitgevoerd vanwege de validatiefout. De volgende afbeelding toont het bericht dat verschijnt nadat bij de dimensievalidatie is vastgesteld dat Klant een vereist segment is.
 
-[![Berichtdetails](./media/message.png)](./media/message.png)
+[![Berichtdetails.](./media/message.png)](./media/message.png)
 
 In dit voorbeeld moet u de standaardwaarde overschrijven, zodat de geavanceerde regel wordt geactiveerd en u het segment Klant kunt invoeren. Deze oplossing is echter niet altijd mogelijk en gebruikers zijn zich niet altijd bewust van de boekingsregels. Het is daarom belangrijk dat u de volgorde weet waarin de standaarddimensies worden toegepast bij het instellen van uw rekeningschema.
 

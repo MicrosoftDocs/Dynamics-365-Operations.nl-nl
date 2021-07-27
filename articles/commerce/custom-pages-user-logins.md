@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 214f99563f8bb08d8c051f904d0ca0a88267aa6b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936775"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349645"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Aangepaste pagina's voor gebruikersaanmeldingen instellen
 
@@ -40,7 +40,7 @@ U kunt de aangepaste Commerce-pagina's maken met de modules voor registreren, aa
 
 Nadat u uw Azure AD B2C-tenant hebt ingesteld en deze aan uw Commerce-omgeving hebt gekoppeld, gaat u naar de pagina **Azure AD B2C** in de Azure-portal en selecteert u in het menu **Beleid** de optie **Gebruikersstromen (beleid)**.
 
-![Gebruikersstromen (beleid), opdracht in het menu](./media/B2C_CustomPage_PoliciesMenu.png)
+![Gebruikersstromen (beleid), opdracht in het menu.](./media/B2C_CustomPage_PoliciesMenu.png)
 
 U kunt nu de aanmeldingsstromen configureren voor 'Registreren en aanmelden', 'Profiel bewerken' en 'Wachtwoord opnieuw instellen'.
 
@@ -54,13 +54,13 @@ Voer de volgende stappen uit om het beleid voor 'Registreren en aanmelden' te co
 1. Schakel in de kolom **Kenmerk verzamelen** de selectievakjes in voor **E-mailadres**, **Voornaam** en **Achternaam**.
 1. Schakel in de kolom **Claim terugsturen** de selectievakjes in voor **E-mailadressen**, **Voornaam**, **Identiteitsprovider**, **Achternaam** en **Object-id van de gebruiker**.
 
-    ![Geselecteerde kenmerken en claims](./media/B2C_SignInSignUp_Attributes.png)
+    ![Geselecteerde kenmerken en claims.](./media/B2C_SignInSignUp_Attributes.png)
 
 1. Selecteer **OK** om het beleid te maken.
 1. Dubbelklik op de nieuwe beleidsnaam en selecteer vervolgens **Eigenschappen** in het navigatievenster.
 1. Stel de optie **Pagina-indeling afdwingen met JavaScript inschakelen (preview)** in op **Aan**.
 
-    ![Eigenschappenpagina voor het nieuwe beleid](./media/B2C_SignInSignUp_EnableJavascript.png)
+    ![Eigenschappenpagina voor het nieuwe beleid.](./media/B2C_SignInSignUp_EnableJavascript.png)
 
 > [!NOTE]
 > In de Commerce-omgeving wordt verwezen naar de volledig beleidsnaam. (Het voorvoegsel **B2C\_1\_** wordt opgenomen in de verwijzing.) De naam van beleid kan niet worden gewijzigd nadat dit zijn gemaakt. Als u een bestaand beleid vervangt voor uw Commerce-omgeving, kunt u het oorspronkelijke beleid verwijderen en een nieuw beleid met dezelfde naam maken. Als de omgeving al is ingericht, kunt u de nieuwe beleidsnaam indienen via een serviceaanvraag.
@@ -150,7 +150,7 @@ Volg deze stappen om het beleid 'Registreren en aanmelden' bij te werken met aan
     1. Selecteer **Nee** in de kolom **Optioneel** voor de kenmerken **E-mailadres**, **Voornaam** en **Achternaam**.
 1. Selecteer **Opslaan**.
 
-    ![Configuratie van het beleid voor lokale accountaanmeldingspagina](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
+    ![Configuratie van het beleid voor lokale accountaanmeldingspagina.](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
 
 ### <a name="update-the-profile-editing-policy-with-custom-page-information"></a>Het beleid 'Profiel bewerken' bijwerken met aangepaste paginagegevens
 
@@ -188,11 +188,11 @@ In de modulebibliotheek worden aanmeldingsmodules vooraf ingevuld met standaard 
 
 De standaardtekst voor de koppeling voor vergeten wachtwoord is bijvoorbeeld **Vergeten wachtwoord?**. Hieronder ziet u deze standaardtekst op de aanmeldingspagina.
 
-![Standaardtekst van de koppeling voor vergeten wachtwoord op de aanmeldingspagina](./media/B2C_SignUp_ModuleFace.png)
+![Standaardtekst van de koppeling voor vergeten wachtwoord op de aanmeldingspagina.](./media/B2C_SignUp_ModuleFace.png)
 
 In het bestand global.json voor de aanmeldingsmodule van de modulebibliotheek kunt u de tekst echter wijzigen in **Wachtwoord vergeten?**, zoals u in de volgende afbeelding kunt zien.
 
-![Bijgewerkte koppelingstekst in het bestand global.json van het aanmeldingsmodule](./media/B2C_CustomizingStringsForModule.png)
+![Bijgewerkte koppelingstekst in het bestand global.json van het aanmeldingsmodule.](./media/B2C_CustomizingStringsForModule.png)
 
 Nadat u het bestand Global.json hebt bijgewerkt en uw wijzigingen hebt gepubliceerd, wordt de tekst van de nieuwe koppeling weergegeven in de aanmeldingsmodule in Commerce en op de live aanmeldingspagina.
 

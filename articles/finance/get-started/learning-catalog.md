@@ -12,22 +12,22 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f3924d858687f553ca08a56bfa3b5a632c0988ee
-ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
+ms.openlocfilehash: fea68f6e4e22db3e8f278ae0d5351deac8dd2b06
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "5637715"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354312"
 ---
 # <a name="dynamics-365-finance-learning-catalog"></a>Dynamics 365 Finance-trainingscatalogus
 
 Zoek de juiste online training, persoonlijk workshops en evenementen voor uw rol als gebruiker van de Dynamics 365 Finance-toepassing.
 
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
 :::row:::
     :::column:::
-<!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
+<!-- ![Universal Windows Platform (UWP).](images/platform-uwp.png)  -->  
 
     ### <a name="business-and-technical-decision-makers"></a>Zakelijke en technische besluitvormers
 

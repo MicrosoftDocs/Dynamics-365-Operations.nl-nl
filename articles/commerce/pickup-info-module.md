@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 063701d5cd5714febeb32907346d9f6e5c2a2ca1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9428eda880d534c700646b52310c6b8befdebaf2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804400"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353799"
 ---
 # <a name="pickup-information-module"></a>Module met afhaalinformatie
 
@@ -40,7 +40,7 @@ Als er meerdere artikelen zijn geselecteerd om te worden opgehaald in meerdere w
 
 In de volgende afbeelding ziet u een voorbeeld van een tijdvakselectie via de ophaalinformatiemodule op een uitcheckpagina.
 
-![Voorbeeld van een ophaalinformatiemodule voor verzendadressen op een betalingspagina](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Voorbeeld van een ophaalinformatiemodule voor verzendadressen op een betalingspagina.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Module-eigenschappen
 
@@ -56,11 +56,11 @@ Zie [Kassamodule](add-checkout-module.md) voor instructies over het toevoegen va
 
 In de volgende afbeelding ziet u een voorbeeld van een e-commerce uitcheckpagina met tijdvakken voor het ophalen van artikelen.
 
-![Voorbeeld van een e-commerce uitcheckpagina met tijdvakken voor het ophalen van artikelen](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Voorbeeld van een e-commerce uitcheckpagina met tijdvakken voor het ophalen van artikelen.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Tijdvakken voor het ophalen door klanten maken en bijwerken](dev-itpro/pickup-timeslots.md)
+[Tijdvakken voor afhalen door klant maken en bijwerken](dev-itpro/pickup-timeslots.md)
 
 [Kassamodule](add-checkout-module.md)
 

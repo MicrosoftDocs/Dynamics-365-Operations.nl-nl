@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1392b767815722c17b1cc72d27fe2bb8a7c32281
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d562f97ecc3c442be4231470167a0aae86f84fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796361"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345155"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Zoekfunctie voor producten en klanten op het verkooppunt (POS)
 
@@ -36,7 +36,7 @@ Standaard wordt in het assortiment van de winkel naar een product gezocht. Dit t
 
 Op de pagina **Catalogus wijzigen** kunnen werknemers eenvoudig een winkel selecteren of in alle winkels naar producten zoeken.
 
-![De catalogus wijzigen](./media/Changecatalog.png "De catalogus wijzigen")
+![De catalogus wijzigen.](./media/Changecatalog.png "De catalogus wijzigen")
 
 Met een lokale productzoekopdracht wordt gezocht in de volgende producteigenschappen:
 
@@ -59,7 +59,7 @@ Met een lokale productzoekopdracht wordt gezocht in de volgende producteigenscha
 - Detailhandelaren kunnen productzoekopdrachten zo configureren dat zoeksuggesties worden weergegeven terwijl gebruikers productnamen typen. Er is een nieuwe instelling beschikbaar in het POS-functionaliteitsprofiel, in een nieuwe groep met de naam **Product zoeken**. De instelling heet **Suggesties weergeven tijdens het typen**. Met deze functionaliteit kunnen werknemers het product dat ze zoeken snel vinden omdat ze niet de hele naam handmatig hoeven in te voeren.
 - Met het algoritme voor het zoeken van producten wordt nu ook gezocht naar de gezochte termen in de eigenschap **Zoeknaam** van het product.
 
-![Productsuggesties](./media/Productsuggestions.png "Productsuggesties")
+![Productsuggesties.](./media/Productsuggestions.png "Productsuggesties")
 
 ## <a name="customer-search"></a>Klant zoeken
 
@@ -83,7 +83,7 @@ Als werknemers wereldwijd willen zoeken, selecteren ze de knop **Resultaten filt
 
 De klant-id wordt niet weergegeven voor klanten vanuit andere rechtspersonen worden opgevraagd omdat er geen klant-id voor die partijen is gemaakt in het huidige bedrijf. Als een werknemer de pagina met klantgegevens opent, wordt automatisch een klant-ID voor de partij gegenereerd en worden de klantadresboeken van de winkel gekoppeld aan de klant. Daarom is de klant zichtbaar in lokale winkelzoekopdrachten die later worden uitgevoerd.
 
-![Algemene zoekopdracht voor klant](./media/Globalcustomersearch.png "Algemene zoekopdracht voor klant")
+![Algemene zoekopdracht voor klant.](./media/Globalcustomersearch.png "Algemene zoekopdracht voor klant")
 
 ### <a name="additional-local-customer-search-capabilities"></a>Aanvullende mogelijkheden voor het zoeken naar lokale klanten
 
@@ -94,11 +94,11 @@ Als de gebruiker zoekt naar een telefoonnummer, worden in het systeem speciale t
 
 De traditionele zoekopdracht voor klanten kan tijdrovend zijn, omdat er meerdere velden worden doorzocht. Kassiers kunnen in plaats daarvan zoeken in één klanteigenschap, zoals de naam, het e-mailadres of het telefoonnummer. De eigenschappen waarvan het klantzoekalgoritme gebruikmaakt, staan bekend als de *klantzoekcriteria*. De systeembeheerer kan eenvoudig een of meer criteria configureren als snelkoppelingen die op het POS worden weergegeven. Omdat de zoekactie is beperkt tot één criteriu, worden alleen de relevante zoekresultaten weergegeven en zijn de prestaties veel beter dan met de standaard zoekopdracht voor klanten. In de volgende afbeelding ziet u de snelkoppelingen voor klant zoeken op het POS.
 
-![Snelkoppelingen voor zoeken naar klant](./media/SearchShortcutsPOS.png "Snelkoppelingen voor zoeken naar klant")
+![Snelkoppelingen voor zoeken naar klant.](./media/SearchShortcutsPOS.png "Snelkoppelingen voor zoeken naar klant")
 
 Voor het instellen van zoekcriteria als snelkoppelingen moet de beheerder de pagina **Commerce-parameters** in Commerce openen en vervolgens op het tabblad **POS-zoekcriteria** klikken en alle criteria selecteren die moeten worden weergegeven als snelkoppelingen.
 
-![Snelkoppelingen voor zoeken configureren](./media/ConfigureShortcutsAX.png "Snelkoppelingen voor zoeken configureren")
+![Snelkoppelingen voor zoeken configureren.](./media/ConfigureShortcutsAX.png "Snelkoppelingen voor zoeken configureren")
 
 > [!NOTE]
 > Als u te veel snelkoppelingen toevoegt, wordt de vervolgkeuzelijst op de zoekbalk in POS onoverzichtelijk wat een negatieve invloed heeft op de zoekodprachten van werknemers. Het is raadzaam alleen snelkoppelingen toe te voegen die u nodig hebt.

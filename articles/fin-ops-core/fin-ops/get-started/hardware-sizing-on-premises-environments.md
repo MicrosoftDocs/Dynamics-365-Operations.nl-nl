@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
-ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
+ms.openlocfilehash: 460297651f2766f96c34b258edbe94a7114ee090
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6168724"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343953"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Vereisten vaststellen voor grootte van de hardware voor on-premises omgevingen
 
@@ -36,7 +36,7 @@ Nadat u de documentatie hebt bekeken, kunt u gaan inschatten hoeveel transaction
 
 Alle factoren in de volgende afbeelding zijn bepalend voor de grootte. Hoe meer gedetailleerde informatie u verzamelt, hoe preciezer u de grootte kunt bepalen. Zonder ondersteunende gegevens kunt u de omvang van de hardware niet inschatten. De absolute minimumvereiste voor de benodigde gegevens is de piekbelasting voor de transactieregels per uur.
 
-[![Grootte van de hardware voor on-premises omgevingen vaststellen](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Grootte van de hardware voor on-premises omgevingen vaststellen.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 Van links naar rechts gezien, is de eerste en de belangrijkste factor voor het nauwkeurig schatten een transactieprofiel of een karakterisering van de transacties. Het is van groot belang dat u altijd het transactionele piekvolume per uur weet. Als er meerdere piekuren zijn, moeten deze perioden correct zijn gedefinieerd.
 

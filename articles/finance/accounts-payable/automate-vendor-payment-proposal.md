@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 238123f59c3d85b2b2c64aed9d94c7d8af27eaf2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9f19a6ed70445791433c2db2559f6922b9715c5e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820806"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350641"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Leveranciersbetalingsvoorstellen automatiseren
 
@@ -97,11 +97,11 @@ We raden u aan om te beoordelen of de automatisering voor uw organisatie nuttig 
 
 Nadat de automatsering voor het leveranciersbetalingsvoorstel is gemaakt, worden de herhalingen voor elke betaling weergegeven in de weekweergave van de procesautomatisering. Voor leveranciersbetalingen is de weekweergave voor procesautomatisering toegevoegd aan het werkgebied **Leveranciersbetalingen** en de pagina **Procesautomatisering**.
 
-[![De weekweergave van procesautomatisering in het werkgebied Leveranciersbetalingen](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![De weekweergave van procesautomatisering in het werkgebied Leveranciersbetalingen.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 De weekweergave van de procesautomatisering in het werkgebied **Leveranciersbetalingen** laat alleen automatiseringen van leveranciersbetalingsvoorstellen zien. Het geeft alle exemplaren van betalingen voor de huidige week weer, voor alle rechtspersonen waarvoor de aangemelde gebruiker beveiligingsmachtigingen heeft. Als de betalingsmedewerker bijvoorbeeld verantwoordelijk is voor betalingen in de bedrijven USMF en USSI, ziet hij de exemplaren voor de automatisering van de leveranciersbetalingsvoorstellen voor die twee bedrijven, maar niet voor andere bedrijven.
 
-[![De weekweergave van procesautomatisering voor de bedrijven USMF en USSI](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![De weekweergave van procesautomatisering voor de bedrijven USMF en USSI.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 Elk exemplaar geeft het bedrijf weer waarin het betalingsjournaal is of wordt gemaakt. Als betalingen worden gemaakt met behulp van gecentraliseerde betalingen, is het bedrijf dat wordt weergegeven het bedrijf waarin betalingen worden gemaakt. Het wordt niet noodzakelijkerwijs getoond welke facturen van de bedrijven worden betaald.
 

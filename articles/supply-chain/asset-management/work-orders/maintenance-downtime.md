@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c0c584ed53dc4ec8a761065838127dc67cbc41e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 09c20020e5e0b957785a88ad511cedfec50a5f29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813720"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344611"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Uitvaltijd voor onderhoud voor werkorders
 
@@ -45,7 +45,7 @@ U kunt registraties voor uitvaltijd voor onderhoud maken voor de geselecteerde a
 
 In de onderstaande afbeelding ziet u een voorbeeld van de pagina **Redencodes voor uitvaltijd voor onderhoud**.
 
-![Figuur 1](media/15-work-orders.png)
+![Figuur 1.](media/15-work-orders.png)
 
 Nadat u de redencodes voor uitvaltijd voor onderhoud hebt gemaakt die u wilt gebruiken, kunt u registraties voor uitvaltijd voor onderhoud maken voor werkorders en activa.
 
@@ -71,15 +71,15 @@ Nadat u de redencodes voor uitvaltijd voor onderhoud hebt gemaakt die u wilt geb
 
 In de onderstaande afbeelding ziet u een voorbeeld van een registratie voor uitvaltijd voor onderhoud.
 
-![Figuur 2](media/16-work-orders.png)
+![Figuur 2.](media/16-work-orders.png)
 
 De kalender die wordt gebruikt voor het berekenen van de registratie van uitvaltijd voor onderhoud is afhankelijk van uw selectie bij het instellen van activa en parameters. Als een resource wordt geselecteerd voor een activum in het veld **Resource** op het het sneltabblad **Vaste activa** van de pagina **Alle activa**, wordt de kalender gebruikt die is ingesteld voor de gekoppelde resourcegroep, zoals weergegeven in de volgende afbeelding.
 
-![Figuur 3](media/17-work-orders.png)
+![Figuur 3.](media/17-work-orders.png)
 
 Als geen resource is geselecteerd voor het activum, wordt de standaardkalender gebruikt die is geselecteerd op de pagina **Parameters voor activabeheer**, zoals weergegeven in de volgende afbeelding.
 
-![Figuur 4](media/18-work-orders.png)
+![Figuur 4.](media/18-work-orders.png)
 
 Klik op **Activabeheer voor bedrijven** > **Query's** > **Uitvaltijd voor onderhoud** voor een overzicht van alle registraties van uitvaltijd voor onderhoud.
 

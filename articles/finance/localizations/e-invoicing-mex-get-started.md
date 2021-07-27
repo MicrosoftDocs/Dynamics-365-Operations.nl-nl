@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: c1112ba8394afb3aa9c9b4f68249524498bd8b32
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 26091a068ed15ec9ff14c9194c3e0e0ad0779351
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894878"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344777"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Aan de slag met Elektronische facturering voor Mexico
 
@@ -56,7 +58,7 @@ Tijdens de RCS-instelling voert u de volgende taken uit:
     > [!NOTE]
     > Als de functie niet in de lijst wordt weergeven, selecteert u **Synchroniseren** en herhaalt u stap 3.
 
-![De CFDI-facturen (MX)-functie importeren](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
+![De CFDI-facturen (MX)-functie importeren.](media/e-Invoicing-services-get-started-MEX-Select-Import-CFDI-feature.png)
 
 Wanneer u de **CFDI-facturen (MX)** importeert vanuit de algemene opslagplaats, worden alle functie-instellingen, inclusief configuraties en acties, ook geïmporteerd.
 
@@ -66,13 +68,13 @@ U kunt een nieuwe versie maken als bijvoorbeeld URL's moeten worden bijgewerkt. 
 
 - Selecteer op de pagina **Functies voor e-Facturering** op het tabblad **Versies** de optie **Nieuw**.
 
-![Een nieuwe versie van de functie e-Facturering toevoegen](media/e-Invoicing-services-get-started-MEX-Select-New-e-Invoicing-feature.png)
+![Een nieuwe versie van de functie e-Facturering toevoegen.](media/e-Invoicing-services-get-started-MEX-Select-New-e-Invoicing-feature.png)
 
 ### <a name="update-the-configuration-version"></a>De configuratieversie bijwerken
 
 1. Op de pagina **Functies voor e-Facturering** selecteert u op het tabblad **Configuraties** de optie **Toevoegen** of **Verwijderen** om de configuratieversies (configuraties van de ER-bestandsindeling) te beheren.
 
-    ![Configuraties voor de functies van e-Facturering beheren](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
+    ![Configuraties voor de functies van e-Facturering beheren.](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
 
     Wanneer u een nieuwe versie maakt, worden alle configuraties overgenomen van de laatst gepubliceerde versie. Voor het verwerken van CFDI-facturen zijn de volgende configuraties vereist:
 
@@ -84,17 +86,17 @@ U kunt een nieuwe versie maken als bijvoorbeeld URL's moeten worden bijgewerkt. 
 
 2. Selecteer een configuratieversie in de lijst en selecteer **Bewerken** of **Weergeven** om de pagina **Indelingsontwerper** te openen. Hier kunt u de configuratie bewerken of weergeven.
 
-    ![De pagina Indelingsontwerper openen](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
+    ![De pagina Indelingsontwerper openen.](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
 3. Gebruik de pagina **Indelingsontwerper** om de configuratie van bestanden met een ER-indeling te bewerken en weer te geven. Zie [Configuraties voor elektronische documenten maken](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md) voor meer informatie.
 
-    ![Pagina Indelingsontwerper](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
+    ![Pagina Indelingsontwerper.](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>De instellingen voor de functie e-Facturering beheren
 
 - Selecteer op de pagina **Functies voor e-Facturering** op het tabblad **Instellingen** de optie **Toevoegen**, **Verwijderen** of **Bewerken** om de instellingen van de functie e-Facturering te beheren.
 
-![De instellingen voor de functie e-Facturering beheren](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
+![De instellingen voor de functie e-Facturering beheren.](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
 
 Als u CFDI-facturen wilt indienen voor autorisatie (het XML-bestand genereren, het XML-bestand verzenden en het antwoord verwerken), moet u de functie **Verkoopfactuur** instellen.
 
@@ -105,11 +107,11 @@ Voor het indienen van een annulering van een CFDI-factuur, moet u de functie **A
 1. Selecteer op de pagina **Functies voor e-Facturering** op het tabblad **Instellingen** in de kolom **Functie-instelling** de optie **Verkoopfactuur**.
 2. Selecteer **Bewerken** om de acties, regels voor toepasbaarheid en variabelen te configureren.
 
-    ![De instellingen voor de functie e-Facturering bewerken](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
+    ![De instellingen voor de functie e-Facturering bewerken.](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
 
 3. Selecteer op de pagina **Instellingen functieversie** het tabblad **Acties** om de lijst met acties te beheren. Met acties kunt u een lijst met bewerkingen definiëren die na elkaar moeten worden uitgevoerd om de gebeurtenis volledig uit te voeren.
 
-    ![Tabblad Acties](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
+    ![Tabblad Acties.](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
 
     | Actie-ID | Actie                   | Naam actie                                  | Omschrijving van de actie                                          |
     |-----------|--------------------------|----------------------------------------------|-------------------------------------------------------------|
@@ -133,7 +135,7 @@ Voor het indienen van een annulering van een CFDI-factuur, moet u de functie **A
 3. Selecteer in het veld **Geldig vanaf** de ingangsdatum van de omgeving.
 3. Selecteer **Inschakelen**.
 
-![Een e-Factureringsomgeving inschakelen](media/e-Invoicing-services-get-started-MEX-Enable-e-Invoicing-Environment.png)
+![Een e-Factureringsomgeving inschakelen.](media/e-Invoicing-services-get-started-MEX-Enable-e-Invoicing-Environment.png)
 
 ## <a name="change-the-version-status-to-completed"></a>De versiestatus wijzigen in Voltooid
 
@@ -149,7 +151,7 @@ Voor het indienen van een annulering van een CFDI-factuur, moet u de functie **A
 1. Op de pagina **Functies voor e-Facturering** selecteert u het tabblad **Versies** om de status van de functie **CFDI-facturen (MX)** te beheren.
 2. Selecteer **Status wijzigen** als u de status van de functie wilt wijzigen.
 
-![De status van de functie e-Facturering wijzigen](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
+![De status van de functie e-Facturering wijzigen.](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
 
 ## <a name="set-up-electronic-invoicing--integration-in-finance"></a>Integratie van Elektronisch factureren instellen in Finance
 
@@ -171,7 +173,7 @@ Als u elektronische facturering in Finance wilt instellen, voert u de volgende t
 1. Ga naar **Organisatiebeheer \> Instellen \> Parameters voor elektronische documenten**.
 2. Schakel op het tabblad **Functies** het selectievakje **Inschakelen** in bij de rijen voor functiereferenties **MX-00010** en **MX-00016**.
 
-![De functies voor de verwerking van CFDI-facturen inschakelen](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
+![De functies voor de verwerking van CFDI-facturen inschakelen.](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
 
 ### <a name="import-er-configurations-and-set-up-the-response-types-for-updating-cfdi-invoices"></a>ER-configuraties importeren en responstypen instellen voor het bijwerken van CFDI-facturen
 
@@ -221,7 +223,7 @@ Nadat u de functie **Integratie configureerbare functie voor elektronisch factur
 2. Als u een document voor het eerst indient, moet u altijd de optie **Documenten opnieuw indienen** op **Nee** instellen. Stel deze optie in op **Ja** als u een document opnieuw moet indienen via de service.
 3. Selecteer op het sneltabblad **Op te nemen records** de optie **Filter** om het dialoogvenster **Query** te openen. Hier kunt u een query samenstellen om documenten te selecteren die u wilt indienen.
 
-![Een CFDI-document indienen](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
+![Een CFDI-document indienen.](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
 > [!NOTE]
 > Wanneer u voor het eerst een document via de service verzendt, wordt u gevraagd de verbinding met Elektronische facturering te bevestigen. Selecteer **Klik hier om verbinding te maken met de service voor het indienen van elektronische documenten**.
@@ -237,11 +239,11 @@ Nadat u de functie **Integratie configureerbare functie voor elektronisch factur
 1. Ga naar **Organisatiebeheer \> Periodiek \> Elektronische documenten \> Indieningslogboek voor elektronische documenten**.
 2. Selecteer in het veld **Documenttype** **Klantfactuurjournaal** om te filteren op de vereiste elektronische documenten.
 
-    ![Een documenttype selecteren om de indieningslogboeken weer te geven](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
+    ![Een documenttype selecteren om de indieningslogboeken weer te geven.](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
 
 3. Selecteer in het actievenster **Query's \> Details van indiening** om de details van de uitvoeringslogboeken van indieningen weer te geven.
 
-    ![Details van indieningslogboeken weergeven](media/e-Invoicing-services-get-started-MEX-View-submission-log-details.png)
+    ![Details van indieningslogboeken weergeven.](media/e-Invoicing-services-get-started-MEX-View-submission-log-details.png)
 
 De informatie in de indieningslogboeken wordt verdeeld over drie sneltabbladen:
 
@@ -259,7 +261,7 @@ Nadat u de functie **Integratie configureerbare functie voor elektronisch factur
 2. Selecteer een CFDI-factuur die is ingediend nadat de functie **Integratie configureerbare functie voor elektronisch factureren** is ingeschakeld.
 3. Selecteer in het actievenster op het tabblad **Historie** de optie **Logboek elektronische documenten**.
 
-![Indieningslogboeken weergeven vanuit CFDI-facturen](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
+![Indieningslogboeken weergeven vanuit CFDI-facturen.](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
 > [!NOTE]
 > Voor CFDI-facturen die zijn ingediend voordat de functie **Integratie configureerbare functie voor elektronisch factureren** is ingeschakeld, is de knop **Historie** beschikbaar. De knop **Historie** is niet beschikbaar voor CFDI-facturen die zijn ingediend nadat de functie **Integratie configureerbare functie voor elektronisch factureren** is ingeschakeld.
@@ -282,11 +284,11 @@ Nadat u de functie **Integratie configureerbare functie voor elektronisch factur
 
     De pagina **Gerelateerde indieningen** toont alle gerelateerde indieningen en de bijbehorende status voor een bepaalde CFDI-factuur. In de volgende afbeelding staat de eerste regel voor de indiening waarin om goedkeuring van de CFDI-factuur werd gevraagd. De tweede regel staat voor de indiening waarmee die CFDI-factuur werd geannuleerd.
 
-    ![Indieningslogboeken van annuleringen weergeven](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log.png)
+    ![Indieningslogboeken van annuleringen weergeven.](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log.png)
 
 4. Selecteer in het actievenster **Query's \> Details van indiening** om de details van de uitvoeringslogboeken van indieningen weer te geven.
 
-    ![Details van indieningslogboeken van annuleringen weergeven](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
+    ![Details van indieningslogboeken van annuleringen weergeven.](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Privacyverklaring
 Voor het inschakelen van de functie **CFDI Mexicaanse elektronische factuur (MX)** moeten mogelijk beperkte gegevens worden verzonden, waaronder de belastingregistratie-id voor de organisatie. Deze gegevens worden verzonden naar instanties van derden die door de belastingdienst zijn gemachtigd elektronische facturen naar de belastingdienst te verzenden in de vooraf gedefinieerde indeling die nodig is voor integratie met de webservice van de overheid. Een beheerder kan de functie **CFDI Mexicaanse elektronische factuur (MX)** in- en uitschakelen door te navigeren naar **Organisatiebeheer \> Instellingen \> Parameters voor elektronische documenten**. Selecteer op het tabblad **Functies** de rijen met de functie **CFDI Mexicaanse elektronische factuur (MX)** en maak de juiste selectie. Op gegevens die zijn geïmporteerd van deze externe systemen naar deze Dynamics 365 online service , is de [privacyverklaring](https://go.microsoft.com/fwlink/?LinkId=512132) van toepassing. Zie de secties met betrekking tot de Privacyverklaring in documentatie over landspecifieke functies voor meer informatie.

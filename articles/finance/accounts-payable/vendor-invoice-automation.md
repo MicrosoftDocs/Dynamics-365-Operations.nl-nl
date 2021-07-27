@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 217c5d6d6df88eccf377fbf604eb0a1eb0ba7c9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841232"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344801"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Factuurautomatisering voor gescande documenten
 
@@ -32,9 +32,9 @@ Organisaties die hun crediteurprocessen willen stroomlijnen, wijzen het verwerke
 
 De oplossing voor factuurautomatisering schakelt een standaard-interface in, die factuurmetagegevens voor de factuurkoptekst en factuurregels kan accepteren, maar ook bijlagen die van toepassing op de factuur zijn. Alle externe systemen die artefacten genereren die compatibel zijn met deze interface, kunnen de feed zenden voor automatische verwerking van facturen en bijlagen.
 
-In de volgende afbeelding ziet u een voorbeeldintegratiescenario, waarin Contoso samenwerkt met een OCR-provider voor verwerking van leverancierfacturen. De leveranciers van Contoso zenden hun facturen per e-mail naar de serviceprovider. Via de OCR-verwerking genereert de serviceprovider factuurmetagegevens (koptekst en/of regels) en een gescande afbeelding van de factuur. Een integratielaag zet deze artefacten vervolgens om, zodat deze verwerkt kunnen worden.
+In de volgende afbeelding ziet u een voorbeeldintegratiescenario, waarin Contoso samenwerkt met een OCR-provider voor verwerking van leverancierfacturen. De leveranciers van Contoso verzenden facturen per e-mail naar de serviceprovider. Via de OCR-verwerking genereert de serviceprovider factuurmetagegevens (koptekst en/of regels) en een gescande afbeelding van de factuur. Een integratielaag zet deze artefacten vervolgens om, zodat deze verwerkt kunnen worden.
 
-![Voorbeeldintegratiescenario](media/vendor_invoice_automation_01.png)
+![Voorbeeldintegratiescenario.](media/vendor_invoice_automation_01.png)
 
 Er zijn verschillende varianten van het voorgaande scenario mogelijk als factuurintegratie vereist is. Gegevensmigratie is een ander gebruiksvoorbeeld, waarbij deze interface kan worden gebruikt voor het maken van facturen en bijlagen.
 
@@ -92,7 +92,7 @@ In scenario's waarin leveranciersfacturen in Finance and Operations komen door m
 
 De nieuwe lijstpagina met factuuruitzonderingen is beschikbaar op **Leveranciers** > **Facturen** > **Importfouten** > **Leveranciersfacturen waarvan import is mislukt**. Op deze pagina ziet u alle leveranciersfactuurkoptekstrecords uit de faseringstabel van de gegevensentiteit Leveranciersfactuurkoptekst. U kunt dezelfde records weergeven vanuit de werkruimte **Gegevensbeheer**. Vanuit de werkruimte **Gegevensbeheer** kunt u ook dezelfde acties uitvoeren die beschikbaar zijn in de functie voor uitzonderingsverwerking. De functie voor het verwerken van uitzonderingen is geoptimaliseerd voor een functionele gebruiker, waardoor deze gemakkelijker te gebruiken is.
 
-![Lijstpagina met uitzonderingen](media/vendor_invoice_automation_02.png)
+![Lijstpagina met uitzonderingen.](media/vendor_invoice_automation_02.png)
 
 Deze pagina bevat de volgende velden die worden geleverd via de feed:
 
@@ -134,13 +134,13 @@ De lijstpagina met uitzonderingen ondersteunt de standaardbeveiligingsconcepten 
 
 + Door gebruikersrol
 + Door gebruiker
-+ Door rechtspersoon
++ Per rechtspersoon
 
-![Importtaak die wordt beveiligd door de gebruikersrol en rechtspersoon](media/vendor_invoice_automation_04.png)
+![Importtaak die wordt beveiligd door de gebruikersrol en rechtspersoon.](media/vendor_invoice_automation_04.png)
 
 Als beveiliging voor de factuurimporttaak is geconfigureerd, neemt de lijstpagina met uitzonderingen die instellingen over. Gebruikers kunnen alleen de factuuruitzonderingsrecords zien die zij volgens de configuratie mogen zien.
 
-Contoso besluit bijvoorbeeld factuuruitzonderingen te verwerken op rechtspersoon. Daarom is beveiliging geconfigureerd op de factuurimporttaak, zodanig dat een gebruiker in rechtspersoon A alleen factuuruitzonderingen in rechtspersoon A kan zien en een gebruiker in rechtspersoon B alleen factuuruitzonderingen in rechtspersoon B. Met deze instelling brengt u scheiding van taken aan voor het beheer van factuuruitzonderingen.
+Contoso besluit bijvoorbeeld factuuruitzonderingen te verwerken per rechtspersoon. Daarom is beveiliging geconfigureerd op de factuurimporttaak, zodanig dat een gebruiker in rechtspersoon A alleen factuuruitzonderingen in rechtspersoon A kan zien en een gebruiker in rechtspersoon B alleen factuuruitzonderingen in rechtspersoon B. Met deze instelling brengt u scheiding van taken aan voor het beheer van factuuruitzonderingen.
 
 Contoso zou ook kunnen besluiten om geen beveiliging in te stellen, zodat een gebruiker factuuruitzonderingen voor alle rechtspersonen kan verwerken. Deze instelling maakt een scenario met gedeelde services mogelijk voor voor beheer van de factuuruitzonderingen.
 

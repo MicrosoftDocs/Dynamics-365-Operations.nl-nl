@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b53ecec4bb7593cb0a0cae72e4132c49d6ec6a68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bcb242214efab3fd632ea0b9e0f3329bb7821dc0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826006"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354756"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Goedkeuringswerkstromen voor voorraadjournalen
 
@@ -55,7 +55,7 @@ Uw goedkeuringswerkstromen voor voorraadjournalen maken:
     - **Voorraadstuklijstjournaal**
     - **Voorraadcorrectiejournaal**
 
-    ![Het dialoogvenster Werkstroom maken](media/journal-workflow-create-workflow.png "Het dialoogvenster Werkstroom maken")
+    ![Het dialoogvenster Werkstroom maken.](media/journal-workflow-create-workflow.png "Het dialoogvenster Werkstroom maken")
 
 1. De werkstroomeditor-app wordt gestart op uw computer. (Mogelijk wordt u gevraagd deze actie goed te keuren.) Gebruik de editor om de werkstroom zo nodig te ontwerpen. Zie het [Overzicht van Werkstroomsysteem](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md) voor meer informatie over het gebruik van de werkstroomeditor.
 1. Nadat u de werkstroomeditor hebt opgeslagen en gesloten, moet u kiezen of u deze werkstroomversie wilt activeren of dat u deze inactief wilt houden.
@@ -73,7 +73,7 @@ Een voorraadjournaalwerkstroom koppelen aan een voorraadjournaalnaam:
 1. Selecteer een journaalnaam in de lijstkolom om de bijbehorende instellingenpagina te openen.
 1. Stel op het sneltabblad **Algemeen** de optie **Goedkeuringsworkflow** in op **Ja**. Selecteer **Ja** als u wordt gevraagd de actie goed te keuren.
 
-    ![Een werkstroom aan een journaalnaam toewijzen](media/journal-workflow-journal-name.png "Een werkstroom aan een journaalnaam toewijzen")
+    ![Een werkstroom aan een journaalnaam toewijzen.](media/journal-workflow-journal-name.png "Een werkstroom aan een journaalnaam toewijzen")
 
 1. Open de vervolgkeuzelijst **Werkstroom** en selecteer de juiste werkstroom. In de lijst staan alle actieve werkstromen die u hebt gemaakt met de werkstroomeditor-app.
 
@@ -87,7 +87,7 @@ Nadat u een voorraadjournaalnaam hebt gekoppeld aan de goedkeuringswerkstroom vo
 1. Vul zo nodig het journaal in.
 1. Wanneer u een voorraadjournaal maakt of opent waaraan een goedkeuringswerkstroom is gekoppeld, wordt de knop **Werkstroom** actief in het actievenster. Wanneer u klaar bent om het journaal voor goedkeuring in te dienen, selecteert u de knop **Werkstroom** om een vervolgkeuzelijst te openen en selecteert u vervolgens **Indienen**. Het goedkeuringsverzoek wordt vervolgens doorgestuurd naar de relevante fiatteur, die wordt gewaarschuwd met behulp van de meldingsmethode die voor de werkstroom is geconfigureerd.
 
-    ![Een journaal ter goedkeuring indienen](media/journal-workflow-inventory-journal.png "Een journaal ter goedkeuring indienen")
+    ![Een journaal ter goedkeuring indienen.](media/journal-workflow-inventory-journal.png "Een journaal ter goedkeuring indienen")
 
 Als u een goedkeuringsaanvraag wilt intrekken, opent u het betreffende journaal, selecteert u de knop **Werkstroom** en selecteert u vervolgens **Intrekken**. Hierdoor wordt de werkstroom opnieuw ingesteld.
 

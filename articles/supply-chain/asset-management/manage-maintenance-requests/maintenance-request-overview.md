@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c72a16b8f3865129ad737c511e50eb34c9f2e91
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 536f512abc2b7ce74ebc35dfdaf48e812a85cc2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015872"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344239"
 ---
 # <a name="maintenance-requests"></a>Onderhoudsaanvragen
 
@@ -40,7 +40,7 @@ Onderhoudsverzoeken kunnen worden gemaakt voor elk activum in Activabeheer. Er k
 
 Als u onderhoudsaanvragen wilt weergeven, selecteert u **Activabeheer** \> **Algemeen** \> **Onderhoudsverzoeken** \> **Alle onderhoudsverzoeken**, **Actieve onderhoudsverzoeken** of **De onderhoudsverzoeken van mijn functionele locatie**. Elke lijstpagina bevat een deel van de informatie die is gerelateerd aan een onderhoudsverzoek.
 
-![Onderhoudsverzoeken weergeven](media/01-manage-maintenance-requests.png)
+![Onderhoudsverzoeken weergeven.](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Gebruik de pagina met de lijst **De onderhoudsverzoeken van mijn functionele locatie** om een lijst met onderhoudsverzoeken weer te geven die functionele locaties bevatten waaraan u bent gerelateerd als werknemer of activa die zijn geïnstalleerd op functionele locaties waaraan u bent gerelateerd als werknemer. (Zie [Onderhoudsmedewerkers en -medewerkersgroepen](../setup-for-objects/workers-and-worker-groups.md) voor informatie over het instellen van onderhoudsmedewerkers en functionele locaties.)
@@ -49,7 +49,7 @@ Als u onderhoudsaanvragen wilt weergeven, selecteert u **Activabeheer** \> **Alg
 
 Als u de detailweergave van een record wilt openen, selecteert u op de pagina met de lijst **Alle onderhoudsverzoeken** in rasterweergave een koppeling in kolom **Onderhoudsverzoek**.
 
-![Details van onderhoudsverzoek weergeven](media/02-manage-maintenance-requests.png)
+![Details van onderhoudsverzoek weergeven.](media/02-manage-maintenance-requests.png)
 
 De knoppen in het actievenster zijn geordend op tabbladen. In de volgende tabel worden kort de knoppen beschreven die betrekking hebben op Activabeheer.
 

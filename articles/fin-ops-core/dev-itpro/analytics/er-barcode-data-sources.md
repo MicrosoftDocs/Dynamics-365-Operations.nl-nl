@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: f72ef77a35c484a40e1384baf69001bba6a333f6
-ms.sourcegitcommit: ec272aa133189569abaf4c09b03230611b5a756f
+ms.openlocfilehash: e0ba43ff1bab391d141f28289144cc552ee28609
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "6274531"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351813"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Gegevensbronnen voor streepjescodes gebruiken om streepjescode-afbeeldingen te genereren
 
@@ -130,7 +130,7 @@ Download ook het volgende Excel-bestand dat de gewijzigde sjabloon bevat voor de
 1. Ga naar **Organisatiebeheer** \> **Werkgebieden** \> **Elektronische rapportage**.
 2. Controleer op de pagina **Lokalisatieconfiguraties** in de sectie **Configuratieproviders** of de [configuratieprovider](general-electronic-reporting.md#Provider) voor het voorbeeldbedrijf **Litware, Inc.** wordt vermeld en of het is gemarkeerd als Actief. Als deze niet wordt vermeld of als deze niet is gemarkeerd als actief, volgt u de stappen in het onderwerp [Een configuratieprovider maken en als actief markeren](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-![Het voorbeeldbedrijf op actief instellen op de pagina Lokalisatieconfiguraties](./media/er-barcode-data-source-active-provider.png)
+![Het voorbeeldbedrijf op actief instellen op de pagina Lokalisatieconfiguraties.](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>De geleverde ER-oplossing importeren.
 
@@ -160,14 +160,14 @@ Download ook het volgende Excel-bestand dat de gewijzigde sjabloon bevat voor de
 7. Selecteer **Test afdrukken** in het actievenster.
 8. Stel in het dialoogvenster de optie **Overdraagbare cheque-indeling** in op **Ja** en selecteer **OK**.
 
-    ![Dialoogvenster Cheque-indeling - Test afdrukken](./media/er-barcode-data-source-check-layout.png)
+    ![Dialoogvenster Cheque-indeling - Test afdrukken.](./media/er-barcode-data-source-check-layout.png)
 
 ### <a name="review-the-generated-payment-check"></a><a name="ExampleReviewGeneratedCheque"></a>De gegenereerde betaalcheque controleren
 
 - Open de gegenereerde cheque in Excel.
 2. Controleer de gegenereerde cheque.
 
-    ![Ggenereerde betaalcheque in Excel](./media/er-barcode-data-source-cheque1.png)
+    ![Ggenereerde betaalcheque in Excel.](./media/er-barcode-data-source-cheque1.png)
 
 ### <a name="modify-the-format-of-the-provided-er-solution"></a><a name="ExampleModifyFormat"></a>De indeling van de aangeleverde ER-oplossing wijzigen
 
@@ -175,7 +175,7 @@ Download ook het volgende Excel-bestand dat de gewijzigde sjabloon bevat voor de
 
 U kunt de Excel-bureaubladtoepassing gebruiken om het bestand **Cheque template Excel.xlsx** te openen dat u eerder hebt geïmporteerd. Deze sjabloon wijkt af van de sjabloon die u hebt gebruikt om een betaalcheque te genereren in de geleverde oplossing. Daarnaast bevat het een **AmountBarcode**-element voor de streepjescode-afbeelding.
 
-![AmountBarcode-element in de Excel-sjabloon](./media/er-barcode-data-source-cheque2.png)
+![AmountBarcode-element in de Excel-sjabloon.](./media/er-barcode-data-source-cheque2.png)
 
 U moet nu de ER-oplossing wijzigen en vervolgens de gewijzigde sjabloon [opnieuw toepassen](modify-electronic-reporting-format-reapply-excel-template.md).
 
@@ -186,7 +186,7 @@ U moet nu de ER-oplossing wijzigen en vervolgens de gewijzigde sjabloon [opnieuw
 5. Selecteer in de ER Operations-ontwerper het tabblad **Toewijzing** aan de rechterkant van de pagina en selecteer vervolgens **Uitvouwen/samenvouwen** in het venster met de opmaakstructuur.
 6. U ziet dat alle celopmaakelementen afhankelijk zijn van de desbetreffende gegevensbronnen.
 
-    ![Binding van celopmaakelementen aan gegevensbronnen koppelen in de ER Operations-ontwerper](./media/er-barcode-data-source-cells-bound.png)
+    ![Binding van celopmaakelementen aan gegevensbronnen koppelen in de ER Operations-ontwerper.](./media/er-barcode-data-source-cells-bound.png)
 
 7. Selecteer het tabblad **Opmaak** aan de rechterkant van de pagina.
 8. Selecteer in het actievenster het weglatingsteken (**...**) en selecteer **Importeren**.
@@ -195,7 +195,7 @@ U moet nu de ER-oplossing wijzigen en vervolgens de gewijzigde sjabloon [opnieuw
 11. Selecteer het tabblad **Toewijzing** aan de rechterkant van de pagina en selecteer vervolgens **Uitvouwen/samenvouwen** in het venster met de opmaakstructuur.
 12. U ziet dat het celelement **AmountBarcode** aan de indeling is toegevoegd. Dit element is gekoppeld aan het element **AmountBarcode** dat aan de gewijzigde Excel-sjabloon is toegevoegd als tijdelijke aanduiding voor een streepjescode-afbeelding.
 
-    ![Celelement AmountBarcode toegevoegd aan de indeling in de ER Operations-ontwerper](./media/er-barcode-data-source-cell-added.png)
+    ![Celelement AmountBarcode toegevoegd aan de indeling in de ER Operations-ontwerper.](./media/er-barcode-data-source-cell-added.png)
 
 #### <a name="add-a-new-barcode-data-source"></a><a name="ExampleModifyFormatAddDataSource"></a>Een nieuwe gegevensbron voor streepjescode toevoegen.
 
@@ -204,14 +204,14 @@ Vervolgens moet u een nieuwe gegevensbron toevoegen voor het type **Streepjescod
 1. Selecteer in de ER Operations-ontwerper op het tabblad **Toewijzing** aan de rechterkant van de pagina de gegevensbron **print**.
 2. Selecteer **Toevoegen** en vervolgens in de groep **Functies** het gegevensbrontype **Streepjescode**.
 
-    ![Het gegevensbrontype Streepjescode selecteren](./media/er-barcode-data-source-add.png)
+    ![Het gegevensbrontype Streepjescode selecteren.](./media/er-barcode-data-source-add.png)
 
 3. Voer in het dialoogvenster in het veld **Naam** de tekst **barcode** in.
 4. Selecteer **Code 128** bij **Indeling streepjescode**.
 5. Typ **500** in het veld **Breedte**.
 6. Selecteer **OK**.
 
-    ![Dialoogvenster Gegevensbroneigenschappen](./media/er-barcode-data-source-add2.png)
+    ![Dialoogvenster Gegevensbroneigenschappen.](./media/er-barcode-data-source-add2.png)
 
 #### <a name="bind-a-new-format-element"></a><a name="ExampleModifyFormatBindFormatElement"></a>Een nieuw opmaakelement binden
 
@@ -222,7 +222,7 @@ Vervolgens moet u het nieuwe opmaakelement binden aan de gegevensbron die u zoju
 3. Selecteer **Details weergeven** in het actievenster.
 4. Omdat de gegevensbron **Streepjescode** in de binding wordt weergegeven als een functie die één parameter bevat, wordt de naam van het gebonden opmaakelement automatisch als argument van die parameter beschouwd.
 
-    ![Details van de gegevensbron Streepjescode in de ER Operations-ontwerper](./media/er-barcode-data-source-bind1.png)
+    ![Details van de gegevensbron Streepjescode in de ER Operations-ontwerper.](./media/er-barcode-data-source-bind1.png)
 
 5. Selecteer **Formule bewerken** om de binding aan te passen.
 
@@ -232,7 +232,7 @@ Vervolgens moet u het nieuwe opmaakelement binden aan de gegevensbron die u zoju
 7. Selecteer **Opslaan** en sluit de [ER Operations-ontwerper](general-electronic-reporting-formula-designer.md).
 8. Zoals u ziet, is de binding aangepast.
 
-    ![Aangepaste binding in de ER Operations-ontwerper](./media/er-barcode-data-source-bind2.png)
+    ![Aangepaste binding in de ER Operations-ontwerper.](./media/er-barcode-data-source-bind2.png)
 
 9. Selecteer **Opslaan** en sluit de ER Operations-ontwerper.
 
@@ -277,7 +277,7 @@ De conceptversie van de geselecteerde indeling wordt gemarkeerd als beschikbaar 
 6. Selecteer **OK**.
 7. Controleer de gegenereerde cheque. U ziet dat er een streepjescode is gegenereerd om het te betalen bedrag van de cheque te coderen.
 
-    ![Gegenereerde betaalcheque met streepjescode in Excel](./media/er-barcode-data-source-cheque3.png)
+    ![Gegenereerde betaalcheque met streepjescode in Excel.](./media/er-barcode-data-source-cheque3.png)
 
 > [!IMPORTANT]
 > Er wordt een uitzondering gegenereerd als het argument van een gegevensbron **Streepjescode** niet voldoet aan de toepasselijke vereisten die specifiek zijn voor de opmaak van de streepjescode. Als de gegevensbron **Streepjescode** bijvoorbeeld wordt aangeroepen om een [EAN-8](https://wikipedia.org/wiki/EAN-8)-streepjescode te genereren voor de opgegeven tekst, wordt er een uitzondering gegenereerd als de lengte van de tekst langer is dan zeven tekens.
@@ -288,7 +288,7 @@ Zoals wordt beschreven in het onderwerp [Afdrukbare FTI-formulieren genereren](e
 
 Wanneer u de gegevensbron **Streepjescode** gebruikt om streepjescodes te produceren, is de weergave van die streepjescodes echter niet afhankelijk van het lettertype. Daarom kunt u documenten die streepjescodes bevatten, eenvoudig converteren naar PDF-indeling. In de volgende afbeelding ziet u een voorbeeld van een gegenereerde betaalcheque die is [geconverteerd](electronic-reporting-destinations.md#OutputConversionToPDF) naar een PDF, op basis van de instelling van de geconfigureerde [ER-bestemming](electronic-reporting-destinations.md).
 
-![Voorbeeld van de PDF van een betaalcheque](./media/er-barcode-data-source-cheque4.png)
+![Voorbeeld van de PDF van een betaalcheque.](./media/er-barcode-data-source-cheque4.png)
 
 ## <a name="limitations"></a>Beperkingen
 

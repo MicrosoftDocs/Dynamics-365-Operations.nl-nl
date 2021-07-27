@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 203c9f0990051c1618660959dad0e184add68ffa
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3419d328e84c199fa32aeb13b54425a31e96ce7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750479"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350251"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>De structuur van een bedrijfsdocumentsjabloon bijwerken 
 
@@ -58,7 +58,7 @@ Voer de volgende procedures uit in [Overzicht van Beheer van bedrijfsdocumenten]
 
     De nieuwe sjabloon wordt geopend om te worden bewerkt in het ingesloten Excel online-besturingselement op de pagina van de sjablooneditor.
 
-[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om een bedrijfsdocumentsjabloon te bewerken](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om een bedrijfsdocumentsjabloon te bewerken.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>De huidige structuur van de bewerkbare sjabloon controleren
 
@@ -68,7 +68,7 @@ Voer de volgende procedures uit in [Overzicht van Beheer van bedrijfsdocumenten]
 4. Vouw in het deelvenster **Sjabloonstructuur** de optie **Rapport \> Factuur \> rptHeader \> rptHeaderPart1** uit.
 5. Zoals u ziet, wordt het item **rptHeaderCompLogo** in de sjabloonstructuur in Finance weergegeven als onderliggend item van **Rapport \> Factuur \> rptHeader \> rptHeaderPart1**.
 
-[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om de huidige structuur van een bewerkbare sjabloon te controleren](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om de huidige structuur van een bewerkbare sjabloon te controleren.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>De structuur van een bedrijfsdocumentsjabloon bijwerken door een afbeelding te verwijderen
 
@@ -85,7 +85,7 @@ Voer de volgende procedures uit in [Overzicht van Beheer van bedrijfsdocumenten]
 4. Vouw in het deelvenster **Sjabloonstructuur** de optie **Rapport \> Factuur \> rptHeader \> rptHeaderPart1** uit.
 5. Zoals u ziet , is het item **rptHeaderCompLogo** niet meer opgenomen in de sjabloonstructuur in Finance.
 
-[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om een afbeelding te verwijderen uit een bedrijfsdocumentsjabloon](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om een afbeelding te verwijderen uit een bedrijfsdocumentsjabloon.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>De structuur van een bedrijfsdocumentsjabloon bijwerken door een afbeelding toe te voegen
 
@@ -97,7 +97,7 @@ Voer de volgende procedures uit in [Overzicht van Beheer van bedrijfsdocumenten]
 6. Vouw in het deelvenster **Sjabloonstructuur** de optie **Rapport \> Factuur \> rptHeader \> rptHeaderPart1** uit.
 7. Zoals u ziet , is de nieuwe afbeelding nu opgenomen als item in de sjabloonstructuur in Finance.
 
-[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om een afbeelding toe te voegen aan een bedrijfsdocumentsjabloon](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![De werkruimte Beheer van bedrijfsdocumenten gebruiken om een afbeelding toe te voegen aan een bedrijfsdocumentsjabloon.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>Verwante koppelingen
 

@@ -2,7 +2,7 @@
 title: Promospandoekmodule
 description: In dit onderwerp wordt beschreven wat promobannermodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: be3cc9729b58fce9ebc9885d8cb20b63114362a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3158916f96522bec6e7511f2d9daf61d36ffe8c6
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796241"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479347"
 ---
 # <a name="promo-banner-module"></a>Promotiebanner-module
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven wat promobannermodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
@@ -34,7 +35,7 @@ Promobannermodules ondersteunen een tekstbericht en een koppeling. Als er meerde
 
 Promobannermodules worden aangestuurd door gegevens van het Content Management System (CMS) en kunnen op elke willekeurige pagina worden geplaatst.
 
-## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Gebruiksvoorbeelden van promotiebanners in e-Commerce
+## <a name="usage-examples-of-promo-banners-in-e-commerce"></a>Gebruiksvoorbeelden van promotiebanners in e-commerce
 
 Promobanners kunnen in de koptekst van een site worden gebruikt om promoties of berichten voor de hele site weer te geven, zoals in de volgende voorbeelden.
 
@@ -46,11 +47,11 @@ Promobanners kunnen in de koptekst van een site worden gebruikt om promoties of 
 
 In de volgende afbeelding ziet u een voorbeeld van een promobanner.
 
-![Voorbeeld van een promotiebannermodule](./media/ecommerce-Promobanner.PNG)
+![Voorbeeld van een promotiebannermodule.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Eigenschappen van promobannermodules
 
-| Naam van eigenschap.             | Waarde                              | Omschrijving |
+| Naam van eigenschap.             | Waarde                              | Beschrijving |
 |---------------------------|------------------------------------|-------------|
 | Bannerberichten           | Tekst en koppelingen                     | Een matrix met tekst en koppelingen. |
 | Automatisch afspelen                  | **True** of **False**              | Een waarde die aangeeft of berichten automatisch worden doorlopen als er meerdere berichten zijn geconfigureerd. |
@@ -58,7 +59,11 @@ In de volgende afbeelding ziet u een voorbeeld van een promobanner.
 | Negeren toestaan             | **True** of **False**              | Als de waarde is ingesteld op **True**, kunnen klanten de waarschuwing sluiten. |
 | Carrouselflipper weergeven     | **True** of **False**              | Een waarde die aangeeft of de carrouselflippers moeten worden weergegeven, zodat klanten handmatig meerdere banneritems kunnen doorlopen. |
 | Tekstuitlijning            | **Rechts**, **Links** of **Midden** | De tekstuitlijning in de promobannermodule. |
-| Koppeling                      | Een URL                              | Een URL voor een optionele koppeling. |
+| Koppelen                      | Een URL                              | Een URL voor een optionele koppeling. |
+|Tekstuitlijning             | **Rechts**, **Links** of **Midden** | Deze eigenschap is beschikbaar als thema-extensie in het Adventure Works-thema. Hiermee kan een gebruiker de tekstuitlijning instellen in de promobanner. |
+
+> [!IMPORTANT]
+> Het Adventure Works-thema is beschikbaar vanaf Dynamics 365 Commerce versie 10.0.20.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Een promobannermodule toevoegen aan een pagina 
 
@@ -78,7 +83,6 @@ Voer de volgende stappen uit om een promobannermodule aan een nieuwe pagina toe 
 
 > [!NOTE]
 > Een promobanner wordt meestal gebruikt in de sleuf van een paginakoptekst of een sleuf van een subkoptekst.
-
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

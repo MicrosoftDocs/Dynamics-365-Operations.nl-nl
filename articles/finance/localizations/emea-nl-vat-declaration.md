@@ -12,12 +12,12 @@ ms.reviewer: kfend
 ms.search.region: Netherlands
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 62fd9705db65b89677f455ee2ef07b41f6fa29de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e8d5d2f0c1f070f8004dcbe437508849bd9e358b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816871"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346431"
 ---
 # <a name="vat-declaration-for-the-netherlands"></a>Btw-aangifte voor Nederland
 
@@ -79,7 +79,7 @@ Stel btw-aangiftecodes in door de instructies te volgen in [Btw-codes voor btw-a
 8. Stel de optie **Bedrijf onderdeel van fiscale groep** in op **Ja** als deze instelling van toepassing is en selecteer vervolgens in het veld **Fiscale groep** de naam van de fiscale groep. De fiscale groepen moeten al zijn gemaakt op de pagina **Btw-nummers**.
 9. Selecteer in het veld **Indelingstoewijzing** de indeling **OB-aangifte (NL)** die u eerder hebt gedownload.
 
-    ![Pagina met parameters voor elektronische btw-aangifte, tabblad Algemeen](media/1_Electronic_tax_declaration_parameters.png)
+    ![Pagina met parameters voor elektronische btw-aangifte, tabblad Algemeen.](media/1_Electronic_tax_declaration_parameters.png)
 
 10. Selecteer op het tabblad **Nummerreeksen** in het veld **Nummerreekscode** een nummerreekscode voor de verwijzing **Elektronische OB-aangifte-id** om de nummering van OB-aangiften in te stellen.
 
@@ -101,7 +101,7 @@ Digipoort is de service die wordt gebruikt om aangiften naar de Nederlandse over
 
 6. Selecteer op het sneltabblad **Geheimen** de optie **Toevoegen** en maak regels voor de sleutelkluisgeheimen voor de Digipoort-server- en clientcertificaten.
 
-![Pagina Parameters voor sleutelkluis](media/2_Key_Vault_parameters.png)
+![Pagina Parameters voor sleutelkluis.](media/2_Key_Vault_parameters.png)
 
 Zie [Client voor Azure-sleutelkluis instellen](setting-up-azure-key-vault-client.md) voor meer informatie over het instellen van sleutelkluisparameters.
 
@@ -116,7 +116,7 @@ Zie [Client voor Azure-sleutelkluis instellen](setting-up-azure-key-vault-client
 - **Servercertificaat**: selecteer de regel die u hebt gemaakt voor het sleutelkluisgeheim voor het Digipoort-servercertificaat.
 - **Clientcertificaat**: selecteer de regel die u hebt gemaakt voor het sleutelkluisgeheim voor het Digipoort-clientcertificaat.
 
-![Parameters voor elektronische btw-aangifte, tabblad Systeem](media/3_Electronic_tax_declaration_parameters.png)
+![Parameters voor elektronische btw-aangifte, tabblad Systeem.](media/3_Electronic_tax_declaration_parameters.png)
 
 ## <a name="generate-and-send-the-ob-declaration"></a>De OB-aangifte genereren en verzenden
 
@@ -125,7 +125,7 @@ Zie [Client voor Azure-sleutelkluis instellen](setting-up-azure-key-vault-client
 3. Stel in het dialoogvenster **Elektronische OB-aangifte** de velden **Vereffeningsperiode** en **Begindatum** in.
 4. Selecteer **OK** en bekijk de berekende resultaten.
 
-![Pagina Elektronische OB-aangifte](media/4_Electronic_OB_declaration.png)
+![Pagina Elektronische OB-aangifte.](media/4_Electronic_OB_declaration.png)
 
 5. Selecteer **XML weergeven** om de OB-aangifte in XML-indeling te controleren.
 6. Selecteer **XML verzenden** om het bestand naar de belastingdienst Digipoort te verzenden.
@@ -199,15 +199,15 @@ In het volgende voorbeeld ziet u hoe u btw-codes en btwaangifte codes kunt inste
 
 12. Selecteer **OK**. Controleer de koptekst die voor de aangifte is gegenereerd.
 
-![Pagina Elektronische OB-aangifte, gegenereerde koptekst](media/5_Electronic_OB_declaration.png)
+![Pagina Elektronische OB-aangifte, gegenereerde koptekst.](media/5_Electronic_OB_declaration.png)
 
 13. Controleer de gegevens die voor de aangifte zijn gegenereerd.
 
-![Paginadetails Elektronische OB-aangifte](media/6_Details.png)
+![Paginadetails Elektronische OB-aangifte.](media/6_Details.png)
 
 14. Selecteer **XML weergeven** als u een voorbeeld van het XML-bestand wilt bekijken.
 
-![XML-voorbeeld](media/7_XML.png)
+![XML-voorbeeld.](media/7_XML.png)
 
 ### <a name="correction-transactions"></a>Correctietransacties
 
@@ -226,7 +226,7 @@ Boek een nieuwe transactie. Als u bijvoorbeeld een klantfactuur wilt boeken, gaa
 
 3. Selecteer **OK** en bekijk de aangiftegegevens.
 
-![Paginadetails Elektronische OB-aangifte](media/8_Details.png)
+![Paginadetails Elektronische OB-aangifte.](media/8_Details.png)
 
  Een schermopname van een mobiele telefoon met een omschrijving die automatisch wordt gegenereerd
 
@@ -279,7 +279,7 @@ U kunt ook de Nederlandse btw-aangifte genereren met de query **Btw rapporteren 
 5. Ga naar **Belasting** \> **Aangiften** \> **Btw** \> **Btw vereffenen en boeken**. Selecteer in het dialoogvenster **Btw vereffenen en boeken** in het veld **Versie van btw-betaling** de optie **Origineel**.
 6. Druk het rapport af en controleer de gegevens.
 
-![Gegenereerd btw-betalingsrapport](media/9_Sales_tax_payment.png)
+![Gegenereerd btw-betalingsrapport.](media/9_Sales_tax_payment.png)
 
   Let op de volgende punten:
 
@@ -298,11 +298,11 @@ U kunt ook de Nederlandse btw-aangifte genereren met de query **Btw rapporteren 
 5. Ga naar **Belasting** \> **Aangiften** \> **Btw** \> **Btw vereffenen en boeken**. Selecteer in het dialoogvenster **Btw vereffenen en boeken** in het veld **Versie van btw-betaling** de optie **Laatste correcties**.
 6. Ga naar **Belasting** \> **Aangiften** \> **Btw** \> **Btw rapporteren voor vereffeningsperiode**. Selecteer **Correcties** in het veld **Versie van btw-betaling**. Het volgende resultaat wordt weergegeven.
 
-![Gegenereerd btw-betalingsrapport](media/10_Sales_tax_payment.png)
+![Gegenereerd btw-betalingsrapport.](media/10_Sales_tax_payment.png)
 
 7. Ga naar **Belasting** \> **Aangiften** \> **Btw** \> **Btw rapporteren voor vereffeningsperiode**. Selecteer **Totaal overzicht** in het veld **Versie van btw-betaling**. Het volgende resultaat wordt weergegeven.
 
-![Gegenereerd btw-betalingsrapport](media/11_Sales_tax_payment.png)
+![Gegenereerd btw-betalingsrapport.](media/11_Sales_tax_payment.png)
 
    > [!NOTE]
    > Als u de OB-aangifte genereert nadat u de oorspronkelijke en gecorrigeerde btw-betalingen hebt gemaakt, worden in de OB-aangifte alleen bedragen weergegeven van de oorspronkelijke btw-betaling.

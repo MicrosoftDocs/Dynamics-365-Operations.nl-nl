@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e4d18d6fcf54fc74382f0d7d344de2aa74252ae4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7ac1495f12a51d72a90ad88fc2d8e0a574418467
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796991"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345129"
 ---
 # <a name="install-the-pos-layout-designer"></a>De POS-indelingsontwerper installeren
 
@@ -40,7 +40,7 @@ De interface voor grafische ontwerpen voor MPOS of Cloud POS wordt bepaald door 
 5. Nadat de installatie is voltooid, voert u op de pagina **Aanmelden** uw Commerce-gebruikersnaam en -wachtwoord in en klikt u op **Aanmelden** om de ontwerper te starten.
 6. Nadat uw referenties zijn gevalideerd en de ontwerper is gestart, kunt u beginnen met uw eigen ontwerpen of een bestaande indeling wijzigen.
 
-    [![Indeling in de één-klik-ontwerper](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
+    [![Indeling in de één-klik-ontwerper.](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
 
 ## <a name="troubleshoot-the-installation-of-the-layout-designer"></a>Problemen met de installatie van de indelingsontwerper oplossen
 
