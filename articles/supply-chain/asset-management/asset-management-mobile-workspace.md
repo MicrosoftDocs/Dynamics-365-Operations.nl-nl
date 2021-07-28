@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 98f935a11ad8a5272cde0270f9ae0471411b914a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4e2843ecb30b75d2a8d97ceff5b5825e0bd704
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837940"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360120"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Mobiele werkruimte voor activabeheer gebruiken
 
@@ -60,7 +60,7 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
 1. Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven. Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.
 
-    ![Selecteer een werkruimte](media/am-mobile-01.png "Selecteer een werkruimte")
+    ![Selecteer een werkruimte.](media/am-mobile-01.png "Selecteer een werkruimte")
 
 ## <a name="view-assigned-work-order-jobs-in-calendar-view"></a>Toegewezen werkordertaken weergeven in een kalenderweergave
 
@@ -72,7 +72,7 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
 1. Selecteer een werkordertaak in de lijst om taakdetails te bekijken: details over activa en functionele locaties en andere navigatiekoppelingen voor het weergeven van **bijlagen**, **controlelijsten**, **hulpmiddelen**, **activatellers**, **notities**, **journalen**.
 
-    ![Toegewezen werkordertaken weergeven in een kalenderweergave](media/am-mobile-02.png "Toegewezen werkordertaken weergeven in een kalenderweergave")
+    ![Toegewezen werkordertaken weergeven in een kalenderweergave.](media/am-mobile-02.png "Toegewezen werkordertaken weergeven in een kalenderweergave")
 
 ## <a name="create-a-work-order-job"></a>Een werkordertaak maken
 
@@ -90,7 +90,7 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
 1. Selecteer **Gereed**.
 
-    ![Het scherm Regel toevoegen](media/am-mobile-03.png "Het scherm Regel toevoegen")
+    ![Het scherm Regel toevoegen.](media/am-mobile-03.png "Het scherm Regel toevoegen")
 
 
 ## <a name="add-attachment-to-a-work-order-job"></a>Bijlagen aan een werkordertaak toevoegen
@@ -112,7 +112,7 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
 1. Selecteer **Gereed**.
 
-    ![Bijlagen voor een werkordertaak weergeven en toevoegen](media/am-mobile-04.png "Bijlagen voor een werkordertaak weergeven en toevoegen")
+    ![Bijlagen voor een werkordertaak weergeven en toevoegen.](media/am-mobile-04.png "Bijlagen voor een werkordertaak weergeven en toevoegen")
 
 ## <a name="view-maintenance-checklist-on-a-work-order-job"></a>Controlelijst voor een werkordertaak weergeven
 
@@ -129,7 +129,7 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
 1. Selecteer de knop Terug (**<**) om terug te gaan naar de vorige pagina.
 
-    ![Onderhoudscontrolelijst en regeldetails](media/am-mobile-05.png "Onderhoudscontrolelijst en regeldetails")
+    ![Onderhoudscontrolelijst en regeldetails.](media/am-mobile-05.png "Onderhoudscontrolelijst en regeldetails")
 
 ## <a name="view-and-update-asset-counters-on-a-work-order-job"></a>Activatellers op een werkordertaak weergeven en bijwerken
 
@@ -146,7 +146,7 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
 1. Voer een nieuwe tellerwaarde in en selecteer **Gereed**.
 
-    ![Activatellers weergeven en bijwerken](media/am-mobile-06.png "Activatellers weergeven en bijwerken")
+    ![Activatellers weergeven en bijwerken.](media/am-mobile-06.png "Activatellers weergeven en bijwerken")
 
 ## <a name="register-consumption-on-a-work-order-job"></a>Verbruik voor een werkordertaak registreren
 
@@ -178,7 +178,7 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
     1. Voer de **Kostprijs** voor de onkostenregistratie in.
     1. Selecteer **Gereed**.
 
-    ![Een werkorderjournaal bijwerken](media/am-mobile-07.png "Een werkorderjournaal bijwerken")
+    ![Een werkorderjournaal bijwerken.](media/am-mobile-07.png "Een werkorderjournaal bijwerken")
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>Levenscyclusstatus van een werkorder bijwerken
 
@@ -194,7 +194,7 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
 1. Selecteer **Gereed**.
 
-    ![Levenscyclusstatus van een werkorder bijwerken](media/am-mobile-08.png "Levenscyclusstatus van een werkorder bijwerken")
+    ![Levenscyclusstatus van een werkorder bijwerken.](media/am-mobile-08.png "Levenscyclusstatus van een werkorder bijwerken")
 
 ## <a name="create-a-maintenance-request"></a>Een onderhoudsaanvraag maken
 
@@ -216,7 +216,7 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
 1. Selecteer **Gereed**.
 
-    ![Een onderhoudsaanvraag maken](media/am-mobile-09.png "Een onderhoudsaanvraag maken")
+    ![Een onderhoudsaanvraag maken.](media/am-mobile-09.png "Een onderhoudsaanvraag maken")
 
 ## <a name="add-attachment-to-a-maintenance-request"></a>Bijlage toevoegen aan een onderhoudsverzoek
 
@@ -236,7 +236,7 @@ Download en installeer de mobiele app Dynamics 365 for Unified Operations:
 
 1. Selecteer **Gereed**.
 
-    ![Een bijlage toevoegen aan een onderhoudsverzoek](media/am-mobile-10.png "Een bijlage toevoegen aan een onderhoudsverzoek")
+    ![Een bijlage toevoegen aan een onderhoudsverzoek.](media/am-mobile-10.png "Een bijlage toevoegen aan een onderhoudsverzoek")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 66fb9f2b50079b5eb4eb16da17b8a473d687d354
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 17316081501ab29aafac476d13947774ecbb61e5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054903"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346269"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Virtuele Dataverse-tabelquery's optimaliseren
 
@@ -50,11 +50,11 @@ Een voorbeeld waar u deze impact kunt zien, is in query's die worden uitvoeren o
 - **Time-out van query**: de query krijgt een time-out en geeft de volgende fout: "Een token is verkregen om Finance and Operations aan te roepen maar Finance and Operations heeft een fout van het type InternalServerError geretourneerd."
 - **Onverwachte fout**: de query kan een fouttype 400 retourneren met het volgende bericht: "Er is een onverwachte fout opgetreden."
 
-  ![Fouttype 400 op HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType400.png)
+  ![Fouttype 400 op HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
 - **Aanvraagbeperking**: de query gebruikt mogelijk te veel serverbronnen waardoor aanvraagbeperking wordt toegepast. In dit geval geeft de query de volgende fout: "Er is een token verkregen om Finance and Operations aan te roepen maar Finance and Operations heeft een fout van het type 429 geretourneerd." Meer informatie over aanvraagbeperking in Human Resources vindt u in [Veelgestelde vragen over aanvraagbeperking](./hr-admin-integration-throttling-faq.md).
 
-  ![Fouttype 429 op HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType429.png)
+  ![Fouttype 429 op HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
 ## <a name="resolution"></a>Oplossing
 
@@ -96,7 +96,7 @@ Als u tijdens het maken van een Power BI-rapport met een virtuele Dataverse-tabe
 2. Voer in het venster **Gegevens ophalen** in het zoekvak **Common Data Service** in, selecteer de **Common Data Service**-connector en selecteer **Verbinden**.
 3. Voer in het veld **Server-URL** van het Common Data Service-venster de organisatie-URI voor uw Dataverse-omgeving in en selecteer **OK**.
   
-   ![Geef de URI in voor de Dataverse-omgeving](./media/PowerBIDataverseURLSetup.png)
+   ![Geef de URI in voor de Dataverse-omgeving.](./media/PowerBIDataverseURLSetup.png)
   
 4. Vouw het knooppunt **Entiteiten** uit in het navigatievenster.
 5. Voer in het zoekvak **mshr_hcmworkerbaseentity** en selecteer de entiteit.
@@ -113,7 +113,7 @@ Als u tijdens het maken van een Power BI-rapport met een virtuele Dataverse-tabe
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![De query bijwerken in Geavanceerde editor voor Power Query-editor](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![De query bijwerken in Geavanceerde editor voor Power Query-editor.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. Selecteer **Gereed**.
 

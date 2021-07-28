@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2d961cb4eedda6265b4acd8dbd6f82e8026373fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 37c3da576b79d3ae9f6983b5046343a7c8120de6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820564"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356120"
 ---
 # <a name="revenue-recognition-reallocation"></a>Hertoewijzing van opbrengsttoerekening
 
@@ -48,7 +48,7 @@ Omdat hertoewijzing kan worden uitgevoerd voor een verkooporder die gedeeltelijk
 
 Elke organisatie moet bepalen of met de correctie alleen Grootboek of ook Klanten moet worden bijgewerkt. De uiteindelijke beslissing van de organisatie bepaalt de juiste instelling van de optie **Factuurcorrecties boeken naar Klanten** op het tabblad **Opbrengsttoerekening** van de pagina **Grootboekparameters** (**Opbrengsttoerekening \> Instellen \> Grootboekparameters**). De juiste instelling is afhankelijk van het specifieke scenario. Gebruik de koppelingen in de sectie [Scenario's voor hertoewijzing](#scenarios-for-reallocation) later in dit onderwerp voor meer informatie over mogelijke scenario's.
 
-[![Het tabblad Opbrengsttoerekening op de pagina Grootboekparameters](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
+[![Het tabblad Opbrengsttoerekening op de pagina Grootboekparameters.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
 Als de optie **Factuurcorrecties boeken naar Klanten** is ingesteld op **Ja**, levert het hertoewijzingsproces het volgende resultaat op:
 
@@ -76,23 +76,23 @@ Zoals aangegeven kunt u alleen Grootboek bijwerken of zowel Grootboek als Klante
 
 U start het hertoewijzingsproces door **Prijs opnieuw toewijzen met nieuwe orderregels** te selecteren in een verkooporder die u opnieuw moet toewijzen. U kunt ook naar **Opbrengsttoerekening \> Periodieke taken \> Prijs opnieuw toewijzen met nieuwe orderregels** gaan en de juiste filters invoeren, zoals de klantrekening.
 
-[![De pagina Prijs opnieuw toewijzen met nieuwe orderregels](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
+[![De pagina Prijs opnieuw toewijzen met nieuwe orderregels.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
 Het bovenste raster op de pagina **Prijs opnieuw toewijzen met nieuwe orderregels** heeft de naam **Verkoop**. Hier worden de verkooporders voor de klant weergegeven. Selecteer de verkooporders die opnieuw moeten worden toegewezen. U kunt geen projectverkooporders selecteren omdat deze niet opnieuw kunnen worden toegewezen. U kunt ook geen verkooporders selecteren die al een hertoewijzings-id hebben omdat niet-projectverkooporders slechts één keer opnieuw kunnen worden toegewezen. Als een verkooporder een hertoewijzings-id heeft, is deze al voor hertoewijzing gemarkeerd door een andere gebruiker.
 
 Het onderste raster op de pagina heeft de naam **Regels**. Als u een of meer verkooporders in het raster **Verkoop** selecteert, worden de verkooporderregels weergegeven in het raster **Regels**. Selecteer de verkooporderregels die opnieuw moeten worden toegewezen. Als u slechts één verkooporder hebt geselecteerd, moeten regels in dezelfde verkooporder opnieuw worden toegewezen. Deze situatie kan zich voordoen wanneer een van de verkooporderregels eerder is gefactureerd en er vervolgens een nieuwe regel is toegevoegd of een bestaande regel is verwijderd of geannuleerd. Als een regel is verwijderd, wordt deze niet weergegeven in het raster. De regel kan dan dus ook niet worden geselecteerd. Er wordt echter nog wel rekening mee gehouden wanneer het toewijzingsproces wordt uitgevoerd.
 
-Als u de vereiste verkooporderregels hebt geselecteerd, gebruikt u de knoppen in het actievenster, zoals hier wordt beschreven:
+Als u de vereiste verkooporderregels hebt geselecteerd, gebruikt u de knoppen in het actiepaneel, zoals hier wordt beschreven:
 
 - **Hertoewijzing bijwerken**: hiermee berekent u de nieuwe opbrengstprijsbedragen voor de geselecteerde verkooporderregels. Als een regel is verwijderd of geannuleerd, wordt de hertoewijzing alleen uitgevoerd voor de bestaande regels die u hebt geselecteerd. In de volgende afbeelding ziet u een voorbeeld van verkooporderregels voordat de hertoewijzing wordt bijgewerkt.
 
-    [![Verkooporderregels voordat de hertoewijzing wordt bijgewerkt](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
+    [![Verkooporderregels voordat de hertoewijzing wordt bijgewerkt.](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
 
     De nieuwe bedragen van opbrengstprijzen worden weergegeven in de kolom **Opnieuw toegewezen bedrag** in het raster **Regels**. De hertoewijzing is nu verwerkt, maar nog niet berekend. In de volgende afbeelding ziet u een voorbeeld van verkooporderregels nadat de hertoewijzing is bijgewerkt.
 
-    [![Verkooporderregels nadat de hertoewijzing is bijgewerkt](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
+    [![Verkooporderregels nadat de hertoewijzing is bijgewerkt.](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
 
-- **Verwerken**: hiermee verwerkt of boekt u de opnieuw toegewezen opbrengstprijzen. Als u deze knop hebt geselecteerd, kan de hertoewijzing niet meer worden omgekeerd. Als u **Toewijzing bijwerken** niet selecteert voordat u **Verwerken** selecteert, wordt de hertoewijzing automatisch uitgevoerd.
+- **Verwerken**: hiermee verwerkt of boekt u de opnieuw toegewezen opbrengstprijzen. Nadat u deze knop hebt geselecteerd, kan de hertoewijzing niet meer worden omgekeerd. Als u **Toewijzing bijwerken** niet selecteert voordat u **Verwerken** selecteert, wordt de hertoewijzing automatisch uitgevoerd.
 
     - Als er geen verkooporderregel is gefactureerd, worden de bedragen van opbrengstprijzen bijgewerkt voor de verkooporders die voor hertoewijzing zijn geselecteerd.
     - Als een of meer verkooporderregels zijn gefactureerd, worden corrigerende journaalregels geboekt en worden alle gemaakte opbrengstschemadetails voor de gefactureerde verkooporderregel gecorrigeerd.
@@ -100,7 +100,7 @@ Als u de vereiste verkooporderregels hebt geselecteerd, gebruikt u de knoppen in
 - **Verwacht boekstuk**: hiermee geeft u een voorbeeld weer van de journaalregels die zijn gemaakt voor de verkooporderregels die zijn gefactureerd. Als er geen regels zijn gefactureerd, wordt er niets weergegeven. Als u **Toewijzing bijwerken** niet selecteert voordat u **Verwacht boekstuk** selecteert, wordt de hertoewijzing automatisch uitgevoerd.
 - **Hertoewijzing opbrengst**: hiermee opent u een pagina met de opbrengstprijstoewijzing voor alle geselecteerde regels. U kunt de gegevens op de pagina niet wijzigen. Hier worden de regelbedragen weergegeven die zijn gebruikt voor de hertoewijzing.
 
-    [![Regelbedragen die zijn gebruikt voor hertoewijzing](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
+    [![Regelbedragen die zijn gebruikt voor hertoewijzing.](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
 
 - **Gegevens opnieuw instellen voor geselecteerde klant**: als het hertoewijzingsproces is gestart, maar nog niet is voltooid, wist u hiermee alleen de gegevens in de hertoewijzingstabel voor de geselecteerde klant. Stel dat u meerdere verkooporderregels markeert voor hertoewijzing, de pagina open laat zonder **Verwerken** te selecteren en er vervolgens een time-out optreedt op de pagina. In dit geval blijven de verkooporderregels gemarkeerd en zijn ze niet beschikbaar voor een andere gebruiker om het hertoewijzingsproces te voltooien. De pagina kan zelfs leeg zijn als deze wordt geopend. In deze situatie kunt u de knop **Gegevens opnieuw instellen voor geselecteerde klant** gebruiken om onverwerkte verkooporders te verwijderen, zodat een andere gebruiker het hertoewijzingsproces kan voltooien.
 

@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 222bb25b6851fe60f3d872e5d7431094ac916dd4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 206f0096f481fc37d05a8258535c016e2834e732
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791001"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352199"
 ---
 # <a name="product-collection-modules"></a>Productverzamelingsmodules
 
@@ -40,7 +40,7 @@ De bronnen voor productverzamelingen kunnen lijsten van vier typen zijn:
 
 In de volgende afbeelding ziet u de verschillende typen productverzamelingen die worden gebruikt op een e-commerce-site.
 
-![Voorbeeld van de verschillende typen productverzamelingen op een e-commerce-site](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
+![Voorbeeld van de verschillende typen productverzamelingen op een e-commerce-site.](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
 
 > [!NOTE]
 > Gebruik productverzamelingsmodules altijd om een groep producten van een vergelijkbaar type weer te geven.

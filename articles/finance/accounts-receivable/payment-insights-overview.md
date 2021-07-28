@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a1b3b6540a03dc85d5dcd813e8c41ac49ab36728
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82b301b4b8ba61375a53a8fe6220628500f6cf3d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822390"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359312"
 ---
 # <a name="customer-payment-insights-preview"></a>Inzichten in klantbetalingen (voorbeeld)
 
@@ -47,11 +49,11 @@ Voor elke openstaande factuur kan Inzichten in klantbetalingen (preview) drie wa
 
 Inzichten in klantbetalingen (preview) biedt ook een totaaloverzicht van verwachte betalingen. Dit kan organisaties helpen het totale verschuldigde bedrag te begrijpen dat zij kunnen verwachten van een klant in een van de drie buckets Op tijd, Te laat en Zeer laat.
 
-[![Samengevoegde weergave van betalingsvoorspellingen](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Samengevoegde weergave van betalingsvoorspellingen.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Bovendien wordt aan elke factuur een waarschijnlijkheid van tijdige betaling toegewezen. Als de waarschijnlijkheid van tijdige betaling minder dan 50% is, worden de facturen gelabeld met een rode cirkel om aan te geven dat voor deze facturen mogelijk aanmaningen moeten worden verzonden. 
 
-[![Lijst met betalingswaarschijnlijkheden](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Lijst met betalingswaarschijnlijkheden.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 Inzichten in klantbetalingen (preview) biedt ook contextuele informatie om de voorspelling uit te leggen, bijvoorbeeld de belangrijkste factoren die invloed hebben op de voorspellingen, de huidige status van zaken met de klant en details over het historische klantbetalingsgedrag. In veel bedrijven is het incassoproces een reactieve activiteit. Het proces begint pas als er facturen verschuldigd zijn. 
 

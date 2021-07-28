@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: cb3e09ad849b250ed3f1d7aec910b44d591cb88e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e1672ee1777150a7f78c03d07dc79df118a3632f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751627"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347871"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Rapportonderdelen indelen in Report Designer
 
@@ -47,7 +47,7 @@ U kunt rapportdefinities groeperen om meerdere rapporten tegelijk te genereren. 
 ### <a name="create-a-report-group"></a>Een rapportgroep maken
 
 1. Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
-2. Klik in het menu **Bestand** op **Nieuw** &gt; **Rapportgroepdefinitie** om een nieuwe groep in het venster van de viewer te openen. U kunt ook klikken op de knop **Rapportgroep** ![Rapportgroep](media/report-group.gif "Rapportgroep") op de werkbalk.
+2. Klik in het menu **Bestand** op **Nieuw** &gt; **Rapportgroepdefinitie** om een nieuwe groep in het venster van de viewer te openen. U kunt ook klikken op de knop **Rapportgroep** ![Rapportgroep.](media/report-group.gif "Rapportgroep") op de werkbalk.
 3. Klik op het tabblad **Rapportgroep**. Als u de informatie over de afzonderlijke rapportdefinities wilt negeren voor het genereren van dit rapport, schakelt u het selectievakje **Instellingen voor bedrijf, details en datum uit individuele rapportdefinities negeren** in. De bedrijfsnaam, het detailniveau, voorlopige instellingen en datumgegevens worden automatisch ingevuld, maar u kunt wel updates uitvoeren.
 4. Als u meerdere rapporten wilt genereren die de aangiftevaluta tonen, schakelt u het selectievakje **Alle aangiftevaluta opnemen** in. U kunt vervolgens meerdere weergaven openen door op de knop **Valuta** te klikken in de Web Viewer wanneer u het rapport weergeeft.
 5. Klik in het veld **Rapporten in groep** op **Toevoegen** om de rapporten te selecteren die u in de rapportgroep wilt opnemen. Als u meerdere rapporten wilt selecteren in het dialoogvenster **Toevoegen**, houdt u de toets Ctrl ingedrukt terwijl u rapporten selecteert. Wanneer u klaar bent met het selecteren van rapporten, klikt u op **OK**.
@@ -58,7 +58,7 @@ U kunt rapportdefinities groeperen om meerdere rapporten tegelijk te genereren. 
 1. Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
 2. Dubbelklik op de rapportgroep die u wilt wijzigen.
 3. Breng de gewenste wijzigingen aan op het tabblad **Rapportgroep**.
-4. Klik in het menu **Bestand** op **Opslaan** om de gewijzigde rapportgroep op te slaan of klik op de knop **Opslaan** ![Opslaan](media/save.gif "Opslaan") in de werkbalk.
+4. Klik in het menu **Bestand** op **Opslaan** om de gewijzigde rapportgroep op te slaan of klik op de knop **Opslaan** ![Opslaan.](media/save.gif "Opslaan") op de werkbalk.
 
 > Als u rapporten hebt gepland die met ingestelde intervallen moeten worden gegenereerd, kunt u die instellingen negeren en onmiddellijk een rapport genereren.
 
@@ -66,7 +66,7 @@ U kunt rapportdefinities groeperen om meerdere rapporten tegelijk te genereren. 
 
 1. Klik in Report Designer in het navigatievenster op **Rapportgroepen**.
 2. Open de rapportgroep die u wilt genereren.
-3. Klik op de knop **Rapport genereren** ![Rapport genereren](media/generate-report.gif "Rapport genereren") om rapporten te genereren.
+3. Klik op de knop **Rapport genereren** ![Rapport genereren.](media/generate-report.gif "Rapport genereren") om rapporten te genereren.
 
 ### <a name="delete-a-report-group"></a>Een rapportgroep verwijderen
 

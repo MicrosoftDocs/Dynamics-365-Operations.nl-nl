@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e82c9a5ff4b6d7db1a808e5a94206628cdf0930
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 14c8c36b90caa3a9378a739932d734b94985b46c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754593"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354440"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Analyses aan werkgebieden toevoegen met Power BI Embedded
 
@@ -54,11 +54,11 @@ Volg deze stappen om een .pbix-bestand toe te voegen als een Visual Studio-proje
 3. Selecteer in het dialoogvenster **Nieuw artikel toevoegen** onder **Operations-artefacten** de sjabloon **Resource**.
 4. Voer een naam in die wordt gebruikt als referentie voor het rapport in X ++-metagegevens en klik vervolgens op **Toevoegen**.
 
-    ![Dialoogvenster Nieuw artikel toevoegen](media/analytical-workspace-add.png)
+    ![Dialoogvenster Nieuw artikel toevoegen.](media/analytical-workspace-add.png)
 
 5. Zoek het .pbix-bestand dat de definitie van het analytische rapport bevat en klik op **Openen**.
 
-    ![Het dialoogvenster met een bronbestand selecteren](media/analytical-workspace-select-resource.png)
+    ![Het dialoogvenster met een bronbestand selecteren.](media/analytical-workspace-select-resource.png)
 
 Nu u het .pbix-bestand hebt toegevoegd als een Dynamics 365-resource, kunt u rapporten insluiten in werkgebieden en rechtstreekse koppelingen toevoegen via menuopties.
 
@@ -67,7 +67,7 @@ In dit voorbeeld breiden we het werkgebied **Reserveringsbeheer** in het model W
 
 In de volgende afbeelding ziet u hoe het formulier **FMClerkWorkspace** eruit ziet in de ontwerper in Microsoft Visual Studio.
 
-![Formulier FMClerkWorkspace voor het wijzigen](media/analytical-workspace-definition-before.png)
+![Formulier FMClerkWorkspace voor het wijzigen.](media/analytical-workspace-definition-before.png)
 
 Volg deze stappen om de formulierdefinitie voor het werkgebied **Reserveringsbeheer** uit te breiden.
 
@@ -92,7 +92,7 @@ Volg deze stappen om de formulierdefinitie voor het werkgebied **Reserveringsbeh
 
 In de volgende afbeelding ziet u hoe het ontwerp eruitziet nadat deze wijzigingen zijn toegepast.
 
-![FMClerkWorkspace na wijzigingen](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace na wijzigingen.](media/analytical-workspace-definition-after.png)
 
 U hebt nu de besturingselementen voor het formulier toegevoegd die worden gebruikt voor het insluiten van het werkgebiedrapport. Vervolgens moet u de grootte van het bovenliggende besturingselement definiëren zodat dit geschikt is voor de lay-out. Standaard zijn de pagina **Filtervenster** en de pagina **Tabblad** zichtbaar in het rapport. U kunt echter de zichtbaarheid van deze besturingselementen wijzigen afhankelijk van de eindgebruiker van het rapport.
 
@@ -142,7 +142,7 @@ Volg deze stappen om bedrijfslogica toe te voegen voor het initialiseren van het
 
 U hebt nu de taak voltooid voor het toevoegen van bedrijfslogica voor het initialiseren van het ingesloten rapportweergave-besturingselement. In de volgende afbeelding ziet u hoe het werkgebied eruitziet nadat deze wijzigingen zijn toegepast.
 
-![Rapport ingesloten in het werkgebied](media/analytical-workspace-final.png)
+![Rapport ingesloten in het werkgebied.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > U kunt de bestaande operationele weergave openen met de werkgebiedtabbladen onder de paginatitel.

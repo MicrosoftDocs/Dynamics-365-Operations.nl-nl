@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 06b5721c423330b8840bb546bdb144c3189c25bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c350e6d6bfd4e699c55a4c0a57695b1b718b7167
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795376"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357757"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Aanbevelingen voor vergelijkbare artikelen inschakelen
 
@@ -68,7 +68,7 @@ Voer de volgende stappen uit om de aanbevelingen voor vergelijkbare producten in
 
 In de volgende afbeelding ziet u de functie **Vergelijkbare artikelen** op de pagina **Functiebeheer** in Commerce Headquarters.
 
-![De functie Vergelijkbare artikelen op de pagina Functiebeheer in Commerce Headquarters](./media/enableshopsimilarlooks.png)
+![De functie Vergelijkbare artikelen op de pagina Functiebeheer in Commerce Headquarters.](./media/enableshopsimilarlooks.png)
 
 Nadat de voorgaande taken zijn voltooid, worden POS-terminals automatisch uitgebreid met een contextvenster met **Vergelijkbare artikelen**. Als u **Meer weergeven** kiest, kunnen gebruikers van POS-terminals een specifieke pagina met Vergelijkbare artikelen openen voor verdere filtering.
 
@@ -88,7 +88,7 @@ Voer deze stappen uit om een knop voor **Vergelijkbare artikelen** toe te voegen
 
 In de volgende afbeelding ziet u het selectievakje **Koppeling voor vergelijkbare artikelen inschakelen** en de knop **Vergelijkbare artikelen** op een PDP-voorbeeldpagina in site builder.
 
-![Selectievakje Koppeling voor vergelijkbare artikelen inschakelen en de knop Vergelijkbare artikelen op een PDP in site builder](./media/SSLecomtooling.png)
+![Selectievakje Koppeling voor vergelijkbare artikelen inschakelen en de knop Vergelijkbare artikelen op een PDP in site builder.](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

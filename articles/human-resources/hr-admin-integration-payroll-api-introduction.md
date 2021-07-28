@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6d8a1cb9619a863184460a74e472af3f06934b6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058555"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360563"
 ---
 # <a name="payroll-integration-api-introduction"></a>Inleiding bij API voor integratie van salarisadministratie
 
@@ -26,7 +26,7 @@ ms.locfileid: "6058555"
 
 In dit document wordt de Salarisintegratie-API van Dynamics 365 Human Resources beschreven. De API maakt complete en gestroomlijnde integraties tussen Human Resources en de partneradministratie mogelijk. De geïntegreerde ervaring begint in Human Resources met werknemersprofiel, salaris, inhoudingen en bijdragegegevens. Wanneer u een werknemer in dienst neemt en het vereiste profiel en salarisgegevens in Human Resources invoert, haalt de salarisadministratie de informatie op die wordt gebruikt bij de verwerking van salarissen. Updates van de werknemer- of salarisgegevens worden ook uitgevoerd voor latere salarisruns.
 
-![Integratiestroom van salarisadministratie](media/hr-admin-integration-payroll-api-introduction-flow.png)
+[![Integratiestroom van salarisadministratie.](media/hr-admin-integration-payroll-api-introduction-flow.png)](media/hr-admin-integration-payroll-api-introduction-flow-2.png#lightbox)
 
 Human Resources bevat de volgende onderdelen om de integratie in te schakelen:
 
@@ -60,7 +60,7 @@ Zie [Dataverse virtuele tabellen configureren](./hr-admin-integration-common-dat
 
 In het volgende diagram worden de relaties binnen de API weergegeven. Verschillende typen hebben refererende sleutels voor andere, bestaande entiteiten in HumanResources die hier niet worden geïllustreerd. Dit document bevat informatie over entiteiten die specifiek zijn voor salarisintegratiescenario's. De Dataverse web-API voor Human Resources bevat echter een groot aantal andere entiteiten die ook relevant kunnen zijn voor uw integratie. Naar sommige van deze entiteiten worden verwezen in refererende sleutelrelaties of navigatie-eigenschappen.
 
-![Salarisintegratie API-gegevensmodel](media/hr-admin-payroll-api-data-model.png)
+[![Salarisintegratie API-gegevensmodel.](media/hr-admin-payroll-api-data-model.png)](media/hr-admin-payroll-api-data-model.png#lightbox)
 
 ## <a name="payroll-employee-and-related-entities"></a>Salariswerker en gerelateerde entiteiten
 
@@ -68,7 +68,8 @@ Entiteiten:
 
 - [Werknemer in salarisadministratie](hr-admin-integration-payroll-api-payroll-employee.md)
 - [Adres medewerker salarisadministratie](hr-admin-integration-payroll-api-payroll-worker-address.md)
-- [Vast compensatieplan in salarisadministratie](hr-admin-integration-ats-api-recruiting-request-education.md)
+- [Vast compensatieplan in salarisadministratie](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md)
+- [Variabel compensatieplan in salarisadministratie](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md)
 - [Salarispositiefunctie](hr-admin-integration-payroll-api-payroll-position-job.md)
 - [Salarispositie](hr-admin-integration-payroll-api-payroll-position.md)
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e2fe5523edf46712b17aa7abcad50da44c3eaffd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4be7d3b77f72a9d79047d31b46dcabcb2bf09d12
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816761"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351556"
 ---
 # <a name="assets-and-work-orders"></a>Activa en werkorders
 
@@ -32,23 +32,23 @@ In dit onderwerp worden activa en werkorders in Activabeheer beschreven. Activa 
 
 Voor elk activum worden verschillende gegevens, zoals productinformatie en activaspecificatie, en vereiste onderhoudsplannen ingesteld. In de volgende afbeelding ziet u een overzicht van activagegevens en de koppeling van activa op taaktypen. Rode tekst wordt gebruikt voor voorbeelden die overname en afhankelijkheden aangeven.
 
-![Diagram met de activagegevens die zijn gerelateerd aan taaktypen](media/05-overview-image.png)
+![Diagram met de activagegevens die zijn gerelateerd aan taaktypen.](media/05-overview-image.png)
 
 Elke werkorder heeft een werkordertype, zoals preventief onderhoud, correctief onderhoud of inspectie. De werkorder bevat een of meer werkordertaken. Elke werkordertaak definieert een taak die moet worden uitgevoerd voor een activum en een gerelateerd taaktype. Voorbeelden van gerelateerde taaktypen zijn 10.000 km, 50.000 km, 1 jaar revisie en veiligheidsinspectie. Eén werkorder kan aan meerdere activa zijn gerelateerd.
 
 In de volgende afbeelding wordt een overzicht gegeven van de belangrijkste gegevens in een werkorder.
 
-![Diagram waarin de belangrijkste gegevens in een werkorder worden weergegeven](media/06-overview-image.png)
+![Diagram waarin de belangrijkste gegevens in een werkorder worden weergegeven.](media/06-overview-image.png)
 
 Een werkorder kan worden gerelateerd aan een andere werkorder en taaktypen kunnen opvolgende taken bevatten die een werkorder maken. Over het algemeen zijn er geen afhankelijkheden tussen werkorders. Daarom kunnen ze de levenscyclusstatus voor werkorders wijzigen en onafhankelijk van elkaar worden gepland.
 
 Werkorders kunnen op verschillende manieren worden gemaakt die gerelateerd zijn aan correctief, preventief of reactief onderhoud. U kunt werkorders ook handmatig maken. In de volgende afbeelding wordt een overzicht weergegeven van het proces voor het automatisch of handmatig maken van werkorders.
 
-![Diagram waarin het automatisch of handmatig maken van werkorders wordt weergegeven](media/07-overview-image.png)
+![Diagram waarin het automatisch of handmatig maken van werkorders wordt weergegeven.](media/07-overview-image.png)
 
 Verschillende stappen moeten worden voltooid wanneer u een onderhoudstaak voor een werkorder wilt plannen en uitvoeren. In de volgende afbeelding wordt een overzicht gegeven van de verwerking van een werkorder.
 
-![Diagram met een overzicht van de verwerking van een werkorder](media/08-overview-image.png)
+![Diagram met een overzicht van de verwerking van een werkorder.](media/08-overview-image.png)
 
 > [!NOTE]
 > In het algemeen geldt dat, wanneer u in Dynamics 365 Supply Chain Management en de module **Activabeheer** werkt, u **Nieuw** selecteert om een nieuwe record te maken, **Bewerken** selecteert om een bestaande record bij te werken en **Opslaan** selecteert om nieuwe of bewerkte gegevens op te slaan.

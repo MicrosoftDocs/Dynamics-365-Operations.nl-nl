@@ -12,12 +12,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b59be8b395826914e8196009c339c2ced5a4debf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a537509fe034d85f8f4f441dc82d54efd3ed4f28
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818301"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348880"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Mechanisme voor omgekeerde toeslagen van btw/GST-schema
 
@@ -121,7 +121,7 @@ Wanneer een inkoopfactuur met omgekeerde toeslag wordt geboekt, worden twee btw-
 
 In de volgende schermopname heeft één transactie de richting **Te ontvangen btw** en de andere transactie de richting **Te betalen btw**. 
 
-![Geboekte btw](media/apac-sau-posted-sales-tax.png)
+![Geboekte btw.](media/apac-sau-posted-sales-tax.png)
 
 ## <a name="enable-reverse-charge-mechanism-for-vatgst-scheme-feature"></a><a name="enable-reverse-charge"></a>De functie Mechanisme voor omgekeerde toeslagen voor btw/GST-schema inschakelen
 Zoek de functie in de werkruimte **Functiebeheer** en selecteer **Inschakelen**.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5bf8ce93d2c804325305672d79b633210a790cf0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814675"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347657"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer ontwerpen
 
@@ -32,7 +32,7 @@ Op de pagina **Uitvoering werkvloer configureren** kunt u tabbladen maken en con
 
 Elk tabblad is verdeeld in vier secties, zoals in de volgende afbeelding wordt weergegeven.
 
-![Indeling van tabbladen](media/pfe-tab-layout.png "Indeling van tabbladen")
+![Indeling van tabbladen.](media/pfe-tab-layout.png "Indeling van tabbladen")
 
 De volgende elementen worden in de afbeelding weergegeven:
 
@@ -47,7 +47,7 @@ Voer de volgende stappen uit om een nieuw tabblad te maken en te configureren:
 
 1. Selecteer **Tabbladen ontwerpen** in het actievenster om de pagina **Tabbladen ontwerpen** te openen.
 
-    ![De pagina Tabbladen ontwerpen](media/pfe-design-tabs.png "De pagina Tabbladen ontwerpen")
+    ![De pagina Tabbladen ontwerpen.](media/pfe-design-tabs.png "De pagina Tabbladen ontwerpen")
 
 1. Selecteer **Nieuw** in het actievenster.
 
@@ -67,7 +67,7 @@ Nadat u alle benodigde tabbladen hebt ontworpen, kunt u deze aan een configurati
 
 1. Ga naar **Productiebeheer \> Instellen \> Productie-uitvoering \> Uitvoering werkvloer configureren**.
 
-    ![Uitvoering productievloer configureren](media/pfe-config-prod-floor-execution.png "Uitvoering productievloer configureren")
+    ![Uitvoering productievloer configureren.](media/pfe-config-prod-floor-execution.png "Uitvoering productievloer configureren")
 
 1. Selecteer op de snelle tab **Tabblad selecteren** de optie **Toevoegen**.
 

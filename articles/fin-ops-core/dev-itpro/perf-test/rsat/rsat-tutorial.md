@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: a194e14c76827650e6752f331081ebe0c2130a13
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: d932a0c10df72dbadcc65d7ef78eb8ad05645bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866151"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357513"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Zelfstudie voor Regression Suite Automation Tool
 
@@ -67,11 +67,11 @@ Met RSAT kunt u dezelfde taakregistratie gebruiken met meerdere testcases, zodat
 
 Deze functie kan worden gebruikt om te controleren of een actie is uitgevoerd. Als er bijvoorbeeld een productieorder is gemaakt, is geschat en vervolgens is gestart, wordt in de app het bericht 'Productie – begin' weergegeven om aan te geven dat de productieorder is gestart.
 
-![De melding Productie - begin](./media/use_rsa_tool_05.png)
+![De melding Productie - begin.](./media/use_rsa_tool_05.png)
 
 U kunt dit bericht valideren via RSAT door de berichttekst in te voeren op het tabblad **MessageValidation** van het Excel-parameterbestand voor de desbetreffende registratie.
 
-![Het tabblad Berichtvalidatie](./media/use_rsa_tool_06.png)
+![Het tabblad Berichtvalidatie.](./media/use_rsa_tool_06.png)
 
 Nadat de testcase is uitgevoerd, wordt het bericht in het Excel-parameterbestand vergeleken met het bericht dat wordt weergegeven. Als de berichten niet overeenkomen, mislukt de testcase.
 
@@ -104,11 +104,11 @@ Wanneer de testaanvraag wordt uitgevoerd, genereert RSAT momentopnamen (installa
 
 In de volgende afbeelding wordt de stroom voor dit scenario weergegeven.
 
-![Stroom voor het demoscenario](./media/use_rsa_tool_14.png)
+![Stroom voor het demoscenario.](./media/use_rsa_tool_14.png)
 
 In de volgende afbeelding wordt de hiërarchie van bedrijfsprocessen voor dit scenario weergegeven in de LCS Modelleertool bedrijfsprocessen.
 
-![Bedrijfsprocessen voor het demoscenario](./media/use_rsa_tool_15.png)
+![Bedrijfsprocessen voor het demoscenario.](./media/use_rsa_tool_15.png)
 
 ## <a name="strategy--key-learning"></a>Strategie – Belangrijkste trainingspunten
 

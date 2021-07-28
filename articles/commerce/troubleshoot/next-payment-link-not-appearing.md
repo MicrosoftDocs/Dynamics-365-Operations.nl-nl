@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: af19a3abd78d543d82f7a8d017e2dc413115a6d8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 679c2453068695caca03ac9618573eba0686b863
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018429"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347315"
 ---
 # <a name="save-for-my-next-payment-option-doesnt-appear"></a>Optie 'Opslaan voor mijn volgende betaling' wordt niet weergegeven
 
@@ -34,7 +34,7 @@ Het selectievakje **Opslaan voor mijn volgende betaling** wordt niet weergegeven
 
 In de volgende afbeelding ziet u een voorbeeld van een uitcheckpagina met het selectievakje **Opslaan voor mijn volgende betaling**.
 
-![Selectievakje Opslaan voor mijn volgende betaling in de module Betaling](media/payment-module-save-payment.jpg)
+![Selectievakje Opslaan voor mijn volgende betaling in de module Betaling.](media/payment-module-save-payment.jpg)
 
 ## <a name="resolution"></a>Oplossing
 
@@ -46,7 +46,7 @@ Voer deze stappen uit om te controleren of de Dynamics 365-betalingsconnector vo
 1. Selecteer de online winkel.
 1. Zorg ervoor op het sneltabblad **Betalingsrekeningen** dat het veld **Opslaan van betalingsgegevens toestaan in e-commerce** is ingesteld op **Waar**.
 
-![Het opslaan van betalingsgegevens toestaan in veld e-commerce in Commerce Headquarters](media/payment-connector-save-payment.jpg)
+![Het opslaan van betalingsgegevens toestaan in veld e-commerce in Commerce Headquarters.](media/payment-connector-save-payment.jpg)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

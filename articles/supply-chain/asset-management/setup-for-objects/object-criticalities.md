@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb2da2d58b7f98fad80d0ea63bf4445ec4d08163
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: baf2c279a656bd67a0850ef9178e1bc984bb9b8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808347"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351484"
 ---
 # <a name="asset-criticality-types"></a>Typen kritieke eigenschappen van activa
 
@@ -40,7 +40,7 @@ Als u kritieke eigenschappen wilt instellen, maakt u eerst de typen kritieke eig
 4. Voer in het veld **Naam** een naam voor het type kritieke eigenschappen in.
 5. Voer in het veld **Factor** een factor in. Deze factor wordt gebruikt tijdens de berekening van de werkorderplanning om de record voor kritieke eigenschappen te bepalen die moet worden gebruikt. (Er wordt altijd gebruikgemaakt van de record met de hoogste factor.) Deze instelling is relevant als, zoals wordt weergegeven in de volgende afbeelding, regels voor kritieke eigenschappen worden gemaakt met dezelfde waarde voor kritieke eigenschappen.
 
-    ![Pagina Typen kritieke eigenschappen](media/23-setup-for-objects.png)
+    ![Pagina Typen kritieke eigenschappen.](media/23-setup-for-objects.png)
 
 ## <a name="set-up-asset-criticalities"></a>Kritieke eigenschappen van activa instellen
 

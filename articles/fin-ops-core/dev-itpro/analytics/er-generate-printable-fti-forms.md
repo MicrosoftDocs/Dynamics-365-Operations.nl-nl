@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9e64899e0bbdb5a9d8899e865de9ee32aae59382
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f5556195a1a787420061fbcaef5d97ac47823221
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751651"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359000"
 ---
 # <a name="generate-printable-fti-forms"></a>Afdrukbare FTI-formulieren genereren
 
@@ -77,7 +77,7 @@ Als u FTI-formulieren wilt genereren met behulp van het ER-raamwerk, kunt u ER-i
 3. Selecteer het documentniveau om het bereik van facturen voor verwerking op te geven.
 4. Selecteer de ER-indeling voor het opgegeven documentniveau.
 
-![Instelling afdrukbeheer](media/FTIbyGER-PMSetting.png)
+![Instelling afdrukbeheer.](media/FTIbyGER-PMSetting.png)
 
 > [!NOTE]
 > Alleen ER-indelingen die gebruikmaken van de basisdescriptor **FreeTextInvoice** van het gegevensmodel **CustomersInvoicing** worden weergegeven in het veld **Rapportindeling zoeken** voor de geselecteerde indeling.
@@ -87,9 +87,9 @@ FTI-formulieren worden gegenereerd in het ER-raamwerk op dezelfde manier als waa
 
 U kunt FTI-formulieren genereren door facturen te selecteren per bereik of per selectie. 
 
-![Factuurselectie](media/FTIbyGER-InvoiceSelection.png)
+![Factuurselectie.](media/FTIbyGER-InvoiceSelection.png)
 
-![Voorbeeld van factuur](media/FTIbyGER-InvoiceExcelPreview.png)
+![Voorbeeld van factuur.](media/FTIbyGER-InvoiceExcelPreview.png)
 
 Wanneer u ER-indelingen gebruikt voor het op deze manier afdrukken van FTI-formulieren, worden de standaard ER-bestandsbestemmingen gebruikt. U kunt de bestemming niet wijzigen. Zie [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md) voor meer informatie over het configureren van de ER-bestemmingen voor ER-indelingen.
 
@@ -101,9 +101,9 @@ U kunt ook FTI-formulieren genereren wanneer u een FTI boekt door **Factuur afdr
 > - **Naam:** ERFormatDestinationRuntimeMaintain
 > - **Label:** bestemming van indeling voor elektronische rapportage tijdens uitvoering onderhouden
 
-![Bestemming elektronische rapportage](media/FTIbyGER-ERFileDestinationSetting.png)
+![Bestemming elektronische rapportage.](media/FTIbyGER-ERFileDestinationSetting.png)
 
-![Bestemming van indeling voor elektronische rapportage](media/FTIbyGER-ERFileDestinationUsage.png)
+![Bestemming van indeling voor elektronische rapportage.](media/FTIbyGER-ERFileDestinationUsage.png)
 
 Het ER-raamwerk ondersteunt momenteel de volgende bestemmingen voor gegenereerde documenten:
 
@@ -128,7 +128,7 @@ U kunt voorbeelden van ER-configuraties downloaden voor gebruik als sjabloon voo
 ### <a name="features-that-are-implemented-in-the-sample-er-format"></a>Functies die zijn geïmplementeerd in de ER-voorbeeldindeling
 In de configuratie van de ER-voorbeeldindeling wordt een Excel-bestand gebruikt als sjabloon voor het genereren van FTI-formulieren.
 
-![Indelingsontwerper](media/FTIbyGER-ERFormat.png)
+![Indelingsontwerper.](media/FTIbyGER-ERFormat.png)
 
 Momenteel ondersteunt deze ER-voorbeeldindeling de volgende functies voor het genereren van FTI formulieren:
 
@@ -179,7 +179,7 @@ Naast het gegenereerde factuurformulier, worden acceptgirostroken als volgt gege
 - Voor de rechtspersoon die de land-/regiocontext voor Finland gebruikt en die ten minste één bankrekening heeft die is gemarkeerd als **Girorekening** en **Streepjescode bank**. 
 - Voor een factuur die is gemarkeerd als vereist voor de **Finse** gekoppelde betalingsbijlage.
 
-![Girostrookje](media/FTIbyGER-GiroSlip.PNG)
+![Girostrookje.](media/FTIbyGER-GiroSlip.PNG)
 
 > [!NOTE]
 > De ER-voorbeeldindeling is geconfigureerd voor het optioneel genereren van de acceptgirostroken op een afzonderlijk werkblad.
@@ -194,7 +194,7 @@ Gebruik de volgende element van de ER-voorbeeldindeling om e-mailbestemmingen te
 - De tekst van het e-mailonderwerp is toegankelijk via de volgende ER-expressie: **Emailing.TxtToUse.Subject**.
 - De hoofdtekst van het e-mailbericht is toegankelijk via de volgende ER-expressie: **Emailing.TxtToUse.Body**.
 
-![Bestemmingsinstellingen](media/FTIbyGER-ERFileDestinationSettingEmail.png)
+![Bestemmingsinstellingen.](media/FTIbyGER-ERFileDestinationSettingEmail.png)
 
 De standaardtekst van het onderwerp en de hoofdtekst van het e-mailbericht wordt gedefinieerd in de ER-voorbeeldindeling. De taal is afhankelijk van de labels van de indeling. Deze standaardtekst wordt gebruikt voor e-mailberichten als geen aangepaste e-mailsjabloon voor de organisatie met de vooraf gedefinieerde **ERFTITMP**-id is toegevoegd.
 
@@ -203,9 +203,9 @@ De standaardtekst van het onderwerp en de hoofdtekst van het e-mailbericht wordt
 
 Als de e-mailsjabloon voor de organisatie met de vooraf gedefinieerde **ERFTITMP**-id is toegevoegd voor de rechtspersoon waarvoor u de factuur verwerkt, wordt de sjabloon voor het onderwerp en de hoofdtekst van het e-mailbericht gebruikt voor het genereren van het e-mailbericht. 
 
-![E-mailsjablonen van organisatie](media/FTIbyGER-EmailTemplate.png)
+![E-mailsjablonen van organisatie.](media/FTIbyGER-EmailTemplate.png)
 
-![E-mailsjabloon uploaden](media/FTIbyGER-EmailTemplateBody.png)
+![E-mailsjabloon uploaden.](media/FTIbyGER-EmailTemplateBody.png)
 
 De ER-expressie **Emailing.TxtToUse.Subject** van de ER-expressie van de ER-voorbeeldindeling is geconfigureerd om alle exemplareen van de tijdelijke aanduiding %1 te vervangen door de id van de verwerkingsfactuur.
 
@@ -218,9 +218,9 @@ De expressie **Emailing.TxtToUse.Body** van de voorbeeldindeling is geconfiguree
 - '%5' wordt vervangen door de functietitel van de contactpersoon van het bedrijf.
 - '%6' wordt vervangen door het e-mailadres van de contactpersoon van het bedrijf.
 
-![E-mailadres](media/FTIbyGER-Email.PNG)
+![E-mailadres.](media/FTIbyGER-Email.PNG)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 
 

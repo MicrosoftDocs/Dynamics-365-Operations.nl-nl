@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: e9c9143bdbab450b1793b15937d123607361add6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893573"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358664"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Actieafhankelijke ER-bestemmingen configureren
 
@@ -69,11 +69,11 @@ U kunt bijvoorbeeld de ER-indeling **Vrije-tekstfactuur (Excel)** gebruiken om e
 
 In de volgende afbeelding wordt getoond hoe u het configureren van deze ER-bestemmingen kunt bereiken als de set afzonderlijke bestemmingsrecords wanneer elke record wordt geconfigureerd voor een afzonderlijke gebruikersactie:
 
-![Pagina voor elektronische rapportagebestemming met actieafhankelijke bestemmingsinstellingen voor een ER-indeling wanneer elke bestemmingsrecord wordt geconfigureerd voor één gebruikersactie](./media/er-destination-action-dependent-01.png)
+![Pagina voor elektronische rapportagebestemming met actieafhankelijke bestemmingsinstellingen voor een ER-indeling wanneer elke bestemmingsrecord wordt geconfigureerd voor één gebruikersactie.](./media/er-destination-action-dependent-01.png)
 
 In de volgende afbeelding wordt getoond hoe u het alternatieve configureren van deze ER-bestemmingen kunt bereiken als de set afzonderlijke bestemmingsrecords wanneer elke record wordt geconfigureerd voor een afzonderlijke bestemming:
 
-![Pagina voor elektronische rapportagebestemming met actieafhankelijke bestemmingsinstellingen voor een ER-indeling wanneer elke bestemmingsrecord wordt geconfigureerd voor één bestemming](./media/er-destination-action-dependent-01a.png)
+![Pagina voor elektronische rapportagebestemming met actieafhankelijke bestemmingsinstellingen voor een ER-indeling wanneer elke bestemmingsrecord wordt geconfigureerd voor één bestemming.](./media/er-destination-action-dependent-01a.png)
 
 > [!NOTE]
 > Als een actiecode wordt opgegeven voor de lopende ER-indeling maar er geen bestemmingen zijn geconfigureerd voor die actiecode, wordt het [standaard](electronic-reporting-destinations.md#default-behavior)bestemmingsgedrag toegepast.
@@ -84,7 +84,7 @@ Wanneer er een ER-indeling wordt uitgevoerd en er gebruikersacties zijn opgegeve
 
 Hieronder ziet u een voorbeeld van het dialoogvenster **Bestemming van indeling voor elektronische rapportage** dat wordt weergegeven wanneer er een vrije-tekstfactuur wordt [geboekt](../../../finance/accounts-receivable/create-free-text-invoice-new.md) en de ER-indeling **Vrije-tekstfactuur** wordt uitgevoerd om dit document te genereren, als de actie **Printer** is opgegeven en ER-bestemmingen voor deze indeling zijn geconfigureerd, zoals eerder in dit onderwerp is beschreven.
 
-![Dialoogvenster met de mogelijkheid om de oorspronkelijk geconfigureerde ER-bestemmingen te wijzigen voor de lopende ER-indeling](./media/er-destination-action-dependent-02.gif)
+![Dialoogvenster met de mogelijkheid om de oorspronkelijk geconfigureerde ER-bestemmingen te wijzigen voor de lopende ER-indeling.](./media/er-destination-action-dependent-02.gif)
 
 > [!NOTE]
 > Als u ER-bestemmingen hebt geconfigureerd voor verschillende onderdelen van de lopende ER-indeling, wordt er voor elk geconfigureerd onderdeel van de ER-indeling afzonderlijk een optie aangeboden.
@@ -103,7 +103,7 @@ Volg deze stappen om de opgegeven gebruikersactiecode te controleren.
 6. Filter op de pagina **Foutopsporingslogboeken voor configuraties** de ER-uitvoeringslogboeken om het logboek voor de uitvoering van uw ER-indeling te zoeken.
 7. Controleer de logboekgegevens die de record moeten bevatten die de geleverde gebruikersactiecode vertegenwoordigt, als er een actie is geleverd voor de ER-indelingsuitvoering.
 
-    ![Pagina Elektronische uitvoeringslogboeken die informatie bevat over de gebruikersactiecode die is opgegeven voor de gefilterde uitvoering van een ER-indeling](./media/er-destination-action-dependent-03.png)
+    ![Pagina Elektronische uitvoeringslogboeken die informatie bevat over de gebruikersactiecode die is opgegeven voor de gefilterde uitvoering van een ER-indeling.](./media/er-destination-action-dependent-03.png)
 
 ## <a name=""></a><a name="reports-list-wave1">Lijst met bedrijfsdocumenten (wave 1)</a>
 

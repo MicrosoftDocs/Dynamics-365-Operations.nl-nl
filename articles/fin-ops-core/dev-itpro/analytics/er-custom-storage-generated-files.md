@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c9dfad3615cfe4f9937f0dc30c4684cd14f420c1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894143"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348135"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Aangepaste opslaglocaties opgeven voor gegenereerde documenten
 
@@ -41,7 +41,7 @@ Alle taken in dit onderwerp kunnen in het bedrijf **USMF** worden uitgevoerd.
 
 Als u de documenten wilt genereren waarvoor u een aangepaste opslaglocatie wilt toevoegen, [importeert](er-download-configurations-global-repo.md) u de configuratie van de ER-indeling **Voortschrijdende prognose voor vaste activa** in de huidige topologie.
 
-![Configuratie archiefpagina](./media/er-custom-storage-generated-files-import-format.png)
+![Configuratie archiefpagina.](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Het rapport voor voortschrijdende prognose voor vaste activa uitvoeren
 
@@ -52,7 +52,7 @@ Als u de documenten wilt genereren waarvoor u een aangepaste opslaglocatie wilt 
 5. Selecteer in het veld **Indelingstoewijzing** de optie **Voortschrijdende prognose voor vaste activa**.
 6. Selecteer **OK**.
 
-![Het runtime-dialoogvenster voor het rapport Voortschrijdende prognose voor vaste activa](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Het runtime-dialoogvenster voor het rapport Voortschrijdende prognose voor vaste activa.](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 Controleer in Microsoft Excel het uitgaande document dat is gegenereerd en beschikbaar is voor downloaden. Dit gedrag is het [standaardgedrag](electronic-reporting-destinations.md#default-behavior) voor een ER-indeling waarvoor geen [bestemmingen](electronic-reporting-destinations.md) zijn geconfigureerd en die in de interactieve modus wordt uitgevoerd.
 

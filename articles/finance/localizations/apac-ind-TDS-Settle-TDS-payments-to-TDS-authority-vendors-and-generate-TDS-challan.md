@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 5b77985a75d2930267cf94d6f218d53b47e6e705
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a9912151ef9fc68941858545e39bccc1e5d3e411
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023155"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358309"
 ---
 # <a name="settle-tds-payments-to-tds-authority-vendors-and-generate-tds-challan"></a>TDS-betalingen vereffenen met TDS-instantieleveranciers en Challan voor TDS genereren
 
@@ -31,7 +31,7 @@ In dit onderwerp wordt uitgelegd hoe u TDS-betalingen (Tax Afgetrokken belasting
 
 1. Ga naar **Leveranciers \> Betalingen \> Journaal met betalingen van leverancier**.
 
-    [![Pagina Journaal met betalingen van leverancier](./media/apac-ind-TDS-51.png)](./media/apac-ind-TDS-51.png)
+    [![Pagina Journaal met betalingen van leverancier.](./media/apac-ind-TDS-51.png)](./media/apac-ind-TDS-51.png)
 
 2. Selecteer **Nieuw** om een journaalregel te maken op de pagina **Journaal met betalingen van leverancier**.
 3. Selecteer in het veld **Rekening** de TDS-instantieleverancier waarmee u TDS-betalingen wilt vereffenen.

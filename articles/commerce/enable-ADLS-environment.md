@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 61f96dae0643e3383afd91864e4c145f3b5c04c8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ac440362379475b05c6a37019c25e3a96be3739
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792602"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349491"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Azure Data Lake Storage inschakelen in een Dynamics 365 Commerce-omgeving
 
@@ -59,7 +59,7 @@ Zie [Entiteitopslag beschikbaar maken als een Data Lake](../fin-ops-core/dev-itp
 
 In de volgende afbeelding ziet u een voorbeeld van een Azure Data Lake Storage-configuratie.
 
-![Voorbeeld van Azure Data Lake Storage-configuratie](./media/exampleADLSConfig1.png)
+![Voorbeeld van Azure Data Lake Storage-configuratie.](./media/exampleADLSConfig1.png)
 
 ### <a name="test-the-azure-data-lake-storage-connection"></a>De Azure Data Lake Storage-verbinding testen
 
@@ -79,7 +79,7 @@ Voer de volgende stappen uit om het automatisch vernieuwen van de entiteitsopsla
 
 De volgende afbeelding toont een voorbeeld van een entiteitsopslag waarvoor automatisch vernieuwen is ingeschakeld.
 
-![Voorbeeld van entiteitsopslag met automatisch vernieuwen ingeschakeld](./media/exampleADLSConfig2.png)
+![Voorbeeld van entiteitsopslag met automatisch vernieuwen ingeschakeld.](./media/exampleADLSConfig2.png)
 
 Azure Data Lake Storage wordt nu geconfigureerd voor de omgeving. 
 

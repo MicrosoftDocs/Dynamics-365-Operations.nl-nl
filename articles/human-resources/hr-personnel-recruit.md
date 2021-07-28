@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 529f419a4e3e4e8807c6938fd2425ae01ce282f9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: dc883606b832dc75b28f6209b05c0e35a51036b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051804"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359671"
 ---
 # <a name="recruit-job-candidates"></a>Kandidaten werven
 
@@ -61,13 +61,13 @@ Als uw organisatie meerdere locaties heeft, kunt u deze toevoegen zodat aanvrage
 
 3. Voer in het veld **Locatie voor wervingsaanvraag** de locatienaam in.
 
-   ![De locatie van een wervingsaanvraag toevoegen](./media/hr-recruit-0a-add-location.png)
+   ![De locatie van een wervingsaanvraag toevoegen.](./media/hr-recruit-0a-add-location.png)
 
 4. Voer in het veld **Omschrijving** een omschrijving voor de locatie in.
 
 5. Selecteer **Locatie** onder **Producten**. Als het venster **Nieuw adres** verschijnt, voert u het adres voor de locatie in.
 
-   ![Adres invoeren](./media/hr-recruit-0b-address.png)
+   ![Adres invoeren.](./media/hr-recruit-0b-address.png)
 
 6. Voer onder **Contactgegevens** de gegevens in voor de contactpersoon van de locatie.
 
@@ -83,11 +83,11 @@ Managers kunnen wervingsverzoeken indienen in Human Resources. Als u een afzonde
 
 3. Selecteer **Wervingsaanvraag**.
 
-   ![Een wervingsaanvraag starten](./media/hr-recruit-1-request-to-recruit.png)
+   ![Een wervingsaanvraag starten.](./media/hr-recruit-1-request-to-recruit.png)
 
 4. Vul de velden **Omschrijving**, **Vacature** en **Geschatte begindatum** in.
 
-   ![De wervingsaanvraag voltooien](./media/hr-recruit-2-request-to-recruit.png)
+   ![De wervingsaanvraag voltooien.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Selecteer **Continue**. De wervingsaanvraag voor uw functie wordt weergegeven.
 
@@ -95,7 +95,7 @@ Managers kunnen wervingsverzoeken indienen in Human Resources. Als u een afzonde
 
 7. Wijzig onder **Vacature** de benodigde informatie en selecteer **Details uit vacature aanmaken**.
 
-   ![Details van taak maken](./media/hr-recruit-3-create-details-from-job.png)
+   ![Details van taak maken.](./media/hr-recruit-3-create-details-from-job.png)
 
    De rest van het wervingsverzoek wordt gevuld met de standaardinformatie over de vacature die u hebt ingevoerd.
 
@@ -103,13 +103,13 @@ Managers kunnen wervingsverzoeken indienen in Human Resources. Als u een afzonde
 
 9. Selecteer onder **Functies** de optie **Toevoegen** en selecteer vervolgens een functie voor deze wervingsaanvraag.
 
-   ![Een functie toevoegen](./media/hr-recruit-4-select-position.png)
+   ![Een functie toevoegen.](./media/hr-recruit-4-select-position.png)
 
 10. Selecteer onder **Vaardigheden** **Toevoegen** en selecteer vervolgens een vaardigheid.
 
 11. Selecteer onder **Opleidingseisen** **Toevoegen** en vervolgens waarden uit de vervolgkeuzelijsten **Opleiding** en **Opleidingsniveau**.
 
-   ![Opleidingseisen toevoegen](./media/hr-recruit-5-select-educational-requirements.png)
+   ![Opleidingseisen toevoegen.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. Voeg onder **Opmerkingen** opmerkingen toe indien nodig.
 
@@ -117,7 +117,7 @@ Managers kunnen wervingsverzoeken indienen in Human Resources. Als u een afzonde
 
 14. Wanneer uw wervingsaanvraag is voltooid en u klaar bent om het wervingsproces te starten, selecteert u **Activeren** in de menubalk.
 
-   ![Wervingsaanvraag activeren](./media/hr-recruit-6-activate-recruit-request.png)
+   ![Wervingsaanvraag activeren.](./media/hr-recruit-6-activate-recruit-request.png)
 
 15. Selecteer **Opslaan**.
 
@@ -131,7 +131,7 @@ Als u manager bent en u uw eigen aanvragen wilt bekijken, gaat u als volgt te we
 
 3. Selecteer onder **Mijn teamgegevens** het tabblad **Wervingsaanvragen**.
 
-   ![Selecteer het tabblad Wervingsaanvragen](./media/hr-recruit-7-recruiting-requests.png)
+   ![Selecteer het tabblad Wervingsaanvragen.](./media/hr-recruit-7-recruiting-requests.png)
 
 4. Als u een wervingsaanvraag wilt weergeven of bewerken, selecteert u deze in het raster.
 
@@ -141,7 +141,7 @@ Als u een HR-professional bent en alle wervingsaanvragen wilt bekijken, gaat u a
 
 2. Selecteer **Wervingsaanvragen**.
 
-   ![Wervingsaanvragen weergeven in Personeelsbeheer](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
+   ![Wervingsaanvragen weergeven in Personeelsbeheer.](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
 
 3. Als u een wervingsaanvraag wilt weergeven of bewerken, selecteert u deze in het raster.
 
@@ -155,7 +155,7 @@ Als uw organisatie is geïntegreerd met een andere toepassing om wervingsaanvrag
 
 3. Selecteer onder **Werving** **Kandidaten**.
 
-   ![Bekijk de kandidaten](./media/hr-recruit-9-candidates.png)
+   ![Bekijk de kandidaten.](./media/hr-recruit-9-candidates.png)
 
 4. Selecteer **Nieuw** om een kandidaat toe te voegen. Om een bestaande kandidaat te bewerken, selecteert u de kandidaat uit de lijst en vervolgens **Bewerken**. Het kandidaatprofiel wordt weergegeven.
 
@@ -163,7 +163,7 @@ Als uw organisatie is geïntegreerd met een andere toepassing om wervingsaanvrag
 
 6. Selecteer onder **Wervingsaanvraag** een wervingsaanvraag om de kandidaat aan te koppelen. Vul vervolgens de **Geschatte begindatum**, **Aanstellend manager**, **Functie**  en **Omschrijving** in.
 
-   ![Een wervingsaanvraag koppelen](./media/hr-recruit-10-link-to-recruiting-request.png)
+   ![Een wervingsaanvraag koppelen.](./media/hr-recruit-10-link-to-recruiting-request.png)
 
 7. Vul alle gegevens in de volgende gebieden in die u wilt opnemen in het dossier van de kandidaat:
    - **Opmerkingen**
@@ -182,11 +182,11 @@ Wanneer u klaar bent om een kandidaat aan te nemen, volgt u deze procedure om de
 
 1. Selecteer op het kandidaatformulier de optie **Aannemen**.
 
-   ![Een kandidaat aannemen](./media/hr-recruit-11-hire.png)
+   ![Een kandidaat aannemen.](./media/hr-recruit-11-hire.png)
 
 2. Vul in het formulier **Nieuwe werknemers aannemen** onder **Gegevens** alle velden in.
 
-   ![Gegevens nieuwe werknemer invoeren](./media/hr-recruit-12-hire-new-worker.png)
+   ![Gegevens nieuwe werknemer invoeren.](./media/hr-recruit-12-hire-new-worker.png)
 
 3. Controleer en wijzig onder **Functiegegevens** zo nodig de gegevens.
 
@@ -203,7 +203,7 @@ Als u besluit een kandidaat niet aan te nemen, volgt u deze procedure om ze te v
 
 1. Selecteer op het kandidaatformulier de optie **Niet aannemen**.
 
-   ![Een kandidaat niet aannemen](./media/hr-recruit-13-do-not-hire.png)
+   ![Een kandidaat niet aannemen.](./media/hr-recruit-13-do-not-hire.png)
 
 2. Selecteer een **Redencode** en voeg eventuele opmerkingen toe.
 
@@ -215,7 +215,7 @@ U kunt een kandidaat zo nodig ontslaan nadat u deze hebt aangenomen. Een kandida
 
 - Selecteer op het kandidaatformulier de optie **Kandidaat ontslaan**.
 
-  ![Kandidaat negeren](./media/hr-recruit-14-dismiss-candidate.png)
+  ![Kandidaat negeren.](./media/hr-recruit-14-dismiss-candidate.png)
 
 ## <a name="see-also"></a>Zie ook
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 615e22234323e2235fba002c50f9ab9c230c021e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 888ce67f1feba9876f71d2988268b47c9a4ca1dd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827885"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358876"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Toevoegen van projectkosten op inkoopontvangsten
 
@@ -37,20 +37,20 @@ Contoso Consulting is gestart met een nieuw project voor cloudimplementatie. Een
 Voor rapportagedoeleinden moeten de toegerekende kosten worden vastgelegd op zowel het financiële niveau als ook het projectniveau. De financiële update van de productontvangstbon voor het artikel en inkoopcategorieën kan worden bijgehouden. 
 
 Voor artikelen op de pagina **Parameters van leveranciers** selecteert u de optie **Productontvangstbonnen in grootboek boeken**.
-[![De pagina Parameters van module Leveranciers](./media/accruals1-1024x409.png)](./media/accruals1.png) 
+[![De pagina Parameters van module Leveranciers.](./media/accruals1-1024x409.png)](./media/accruals1.png) 
 
 Voor aanschaffingscategorieën selecteert u op de pagina **Categoriebeleidsregel** de optie **Inkoopbeleid** en vervolgens **Inkoopkosten samenvoegen voor ontvangst** voor elke aanschaffingscategorie.
-[![De pagina Categoriebeleidsregel](./media/accruals2-1024x569.png)](./media/accruals2.png) 
+[![De pagina Categoriebeleidsregel.](./media/accruals2-1024x569.png)](./media/accruals2.png) 
 
 De rekeningen **Inkoopuitgave, niet-gefactureerd** en **Inkoop, toerekening** in **Boekingsinstellingen** worden gebruikt bij het boeken van boekstukken die betrekking hebben op de productontvangstbon.
 
 Laten we met hetzelfde scenario eens kijken welke invloed het boeken van een productontvangstbon heeft voor het grootboek en projectgegevens. 
 
 **Stap 1:** Maak en bevestig een nieuwe inkooporder voor het project, waarmee de aankoop van een computer voor EUR 1500 en installatiediensten voor $150 worden geregistreerd.
-[![Nieuwe inkooporder maken](./media/accruals4-1024x497.png)](./media/accruals4.png) 
+[![Nieuwe inkooporder maken.](./media/accruals4-1024x497.png)](./media/accruals4.png) 
 
 Wanneer de inkooporder wordt bevestigd, worden transacties voor de toegezegde kosten gemaakt voor het project. 
-[![Gemaakte transacties](./media/accruals5-1024x219.png)](./media/accruals5.png) 
+[![Gemaakte transacties.](./media/accruals5-1024x219.png)](./media/accruals5.png) 
 
 > [!NOTE]
 > In de transacties voor de toegezegde kosten is het veld **Transactieoorsprong** ingesteld op **Inkooporder**. Als u een inkooporder maakt en bevestigt, worden hiermee geen transacties voor een project aangemaakt. 
@@ -58,23 +58,23 @@ Wanneer de inkooporder wordt bevestigd, worden transacties voor de toegezegde ko
 **Stap 2:** Goederen en diensten worden geleverd en een productontvangstbon wordt geregistreerd. 
 
 Als u een productontvangstbon boekt, wordt hiermee een boekstuk gegenereerd en in het grootboek geboekt. Het boekstuk debiteert de inkoopuitgave, de niet-gefactureerde rekening, en crediteert de rekening voor inkooptoerekening. 
-[![Boekstuktransacties](./media/accruals6-1024x214.png)](./media/accruals6.png)
+[![Boekstuktransacties.](./media/accruals6-1024x214.png)](./media/accruals6.png)
 
 > [!NOTE]
 > Als u een productontvangstbon boekt, worden de boekingsinstellingen voor aanschaffingscategorieën en -producten gebruikt, niet de boekingsinstellingen voor de projectcategorieën. Deze instelling moet worden afgestemd om correct de financiële invloed van inkooptoerekeningen weer te geven. 
 
 U kunt aanschaffingscategorieën toewijzen aan projectcategorieën op de pagina **Aanschaffingscategorie**.
-[![De pagina Aanschaffingscategorie](./media/accruals7-1024x390.png)](./media/accruals7.png)
+[![De pagina Aanschaffingscategorie.](./media/accruals7-1024x390.png)](./media/accruals7.png)
 
 **Stap 3:** Maak een conceptleveranciersfactuur 
 
 Het boeken van een productontvangstbon heeft geen invloed op projectgegevens. Als workaround kunt u een conceptleveranciersfactuur genereren meteen nadat u de inkoopontvangst hebt geboekt. Ga naar de pagina **Inkooporder** &gt; **tabblad Factuur** &gt; **Genereren** &gt; **Factuur**. Hiermee maakt u een in behandeling zijnd factuurdocument waarmee projectgegevens worden bijgewerkt. 
 
 Als u een conceptleveranciersfactuur aanmaakt, genereert u hiermee in behandeling zijnde projecttransacties. 
-[![Projecttransacties in behandeling](./media/accruals8-1024x225.png)](./media/accruals8.png) 
+[![Projecttransacties in behandeling.](./media/accruals8-1024x225.png)](./media/accruals8.png) 
 
 Op de pagina **Toegezegde kosten** worden records die u in stap 1 hebt gemaakt, gesloten en nieuwe records worden gemaakt om kostentoezeggingen uit de in behandeling zijnde leveranciersfactuur weer te geven. Het veld **Oorsprong van transactie** voor de toegezegde kosten wordt ingesteld op **Leveranciersfactuur**.
-[![De pagina Toegezegde kosten](./media/accruals9-1024x200.png)](./media/accruals9.png)
+[![De pagina Toegezegde kosten.](./media/accruals9-1024x200.png)](./media/accruals9.png)
 
 De leveranciersfactuur blijft in behandeling, totdat de werkelijke leveranciersfactuur wordt ontvangen.
 

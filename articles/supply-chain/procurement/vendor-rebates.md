@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: e56bf86a11eb34679269eae5ca093d7cc379932b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42c35fcca90b7dc55c8ef2985283d2ce92c4c8bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822462"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344215"
 ---
 # <a name="vendor-rebates"></a>Leverancierskortingen
 
@@ -53,7 +53,7 @@ Een kortingsovereenkomst voor een leverancier is een record van een contract met
 
 U opent de pagina **Kortingsovereenkomsten van leverancier** door **Inkoopbeheer** &gt; **Leverancierskortingen** &gt; **Kortingsovereenkomsten** te selecteren.
 
-![Inkoopovereenkomst](media/purchase-agreement.PNG)
+![Inkoopovereenkomst.](media/purchase-agreement.PNG)
 
 Op de pagina **Kortingsovereenkomsten van leverancier** kunt u details over de afgesproken voorwaarden van de leveranciersovereenkomst weergeven.
 
@@ -129,7 +129,7 @@ Wanneer claims zijn goedgekeurd, kunnen ze worden verwerkt door Leveranciers. Ee
 
     Er wordt een kortingstoenamejournaal voor het bedrag van de claim geboekt. Met deze boeking wordt de rekening voor te ontvangen verzamelde leverancierskortingen gedebiteerd voor het verwachte leverancierskrediet en wordt de tussentijdse rekening voor ontvangen verzamelde leverancierskortingen gecrediteerd voor de verwachte winst.
 
-    ![Bericht](media/message.png)
+    ![Bericht.](media/message.png)
 
 5. Selecteer de regel in de lijst met kortingen en selecteer in het actievenster de optie **Kortingstransacties** om naar het journaalbatchnummer voor deze kortingstoenameboeking te gaan.
 

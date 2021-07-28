@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937007"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352683"
 ---
 # <a name="clienteling-overview"></a>Clientelingoverzicht
 
@@ -68,7 +70,7 @@ Voer de volgende stappen uit om de clienteling-functionaliteit in uw omgeving in
 
 1. Filter in de werkruimte **Functiebeheer** de functies via de module **Retail en Commerce**.
 
-    ![Clienteling in de lijst met functies voor de module Commerce](./media/Enable_clienteling.png "Clienteling in de lijst met functies voor de module Retail en Commerce")
+    ![Clienteling in de lijst met functies voor de module Commerce.](./media/Enable_clienteling.png "Clienteling in de lijst met functies voor de module Retail en Commerce")
 
 2. Schakel de functie **Clienteling** in door **Nu inschakelen** te selecteren.
 3. Ga naar de pagina **Commerce-parameters** en selecteer op het tabblad **Nummerreeks** de rij **Klantenboek-id**. Selecteer vervolgens een nummerreeks in het veld **Nummerreekscode**. Het systeem gebruikt deze nummerreeks om een id toe te wijzen aan klantenboeken.
@@ -83,7 +85,7 @@ Voer de volgende stappen uit om de clienteling-functionaliteit in uw omgeving in
 
 6. Ga op de pagina **Commerce-parameters** naar het tabblad **Clienteling** en selecteer in het veld **Kenmerkgroep klantenboek** de kenmerkgroep die u zojuist hebt gemaakt.
 
-    ![Kenmerkgroep klantenboek geselecteerd](./media/Client%20book%20attributes.png "Kenmerkgroep klantenboek geselecteerd")
+    ![Kenmerkgroep klantenboek geselecteerd.](./media/Client%20book%20attributes.png "Kenmerkgroep klantenboek geselecteerd")
 
 7. Als u activiteiten wilt vastleggen die op het POS plaatsvinden, definieert u de activiteitstypen op de pagina **Activiteitstypen** (**Retail en Commerce \> Klanten \> Activiteitstypen**).
 
@@ -95,7 +97,7 @@ Voer de volgende stappen uit om de clienteling-functionaliteit in uw omgeving in
 
 Nadat u deze procedure hebt voltooid, kunnen verkoopmedewerkers de pagina met klantgegevens op het POS openen en klanten toevoegen aan hun klantenboek, activiteiten en notities voor klanten weergeven en vastleggen, en zich op klanten richten door klant- en klantenboekkenmerken te gebruiken om het klantenboek te filteren. In de volgende afbeelding ziet u een voorbeeld van een klantenboek.
 
-![Voorbeeld van een klantenboek](./media/client_book.png "Voorbeeld van een klantenboek")
+![Voorbeeld van een klantenboek.](./media/client_book.png "Voorbeeld van een klantenboek")
 
 ## <a name="turn-on-the-integration-of-customer-insights-with-commerce"></a>Integratie van Customer Insights met Commerce inschakelen
 

@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 212f425dc3603f838ce030d9ed86f2e418bef29a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6c4cf4e94e6271843d55b4ca7a0fb3ffaffc9542
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019928"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344390"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Digitale geschenkbonnen voor e-commerce
 
@@ -34,13 +34,13 @@ De aankoop van digitale geschenkbonnen wordt ondersteund in Dynamics 365 Commerc
 
 De volgende afbeelding toont een voorbeeld van de productdetailpagina (PDP) voor een digitale geschenkbon op de e-commercesite van Fabrikam.
 
-![Voorbeeld van een PDP voor een digitale geschenkbon op de e-commercesite van Fabrikam](./media/GiftcardPDP.PNG)
+![Voorbeeld van een PDP voor een digitale geschenkbon op de e-commercesite van Fabrikam.](./media/GiftcardPDP.PNG)
 
 ## <a name="turn-on-the-digital-gift-card-feature-in-commerce-headquarters"></a>De functie voor digitale geschenkbonnen in Commerce Headquarters inschakelen
 
 De aankoopstroom voor digitale geschenkbonnen kan alleen in Dynamics 365 Commerce worden gebruikt als de functie **Geschenkbon aankopen op e-Commerce** in Commerce Headquarters is ingeschakeld. U kunt de functie vinden in de werkruimte **Functiebeheer** in Commerce Headquarters (zie de volgende afbeelding).
 
-![Werkruimte Functiebeheer in Commerce Headquarters](./media/Featureflag.PNG)
+![Werkruimte Functiebeheer in Commerce Headquarters.](./media/Featureflag.PNG)
 
 ## <a name="configure-a-digital-gift-card-in-commerce-headquarters"></a>Een digitale geschenkbon in Commerce Headquarters configureren
 
@@ -49,16 +49,16 @@ Digitale geschenkbonproducten moeten in Commerce Headquarters worden geconfigure
 - Wanneer u digitale geschenkbonproducten configureert in het dialoogvenster **Nieuw product**, stelt u het veld **Producttype** in op **Service**. (Als u het dialoogvenster wilt openen, gaat u naar **Retail and Commerce \> Producten en categorieën \> Producten per categorie** en selecteer **Nieuw**.) Voor producten van het type **Service** wordt niet gecontroleerd of er voorraad beschikbaar is voordat een order wordt geplaatst. Zie [Een nieuw product maken](create-new-product-commerce.md#create-a-new-product) voor meer informatie.
 - Op de pagina **Commerce-parameters** moet op het tabblad **Boeking** het veld **Geschenkbonproduct** worden ingesteld op **Digitale geschenkbon** (zie de volgende illustratie). Zie [Ondersteuning voor externe geschenkbonnen](./dev-itpro/gift-card.md) als het product een externe geschenkbon is voor meer informatie.
 
-    ![Veld Geschenkbonproduct in Commerce Headquarters](./media/PostGiftcard.png)
+    ![Veld Geschenkbonproduct in Commerce Headquarters.](./media/PostGiftcard.png)
 
 - Als een geschenkbon meerdere vooraf gedefinieerde bedragen moet ondersteunen (bijvoorbeeld $ 25, $ 50 en $ 100), moet de dimensie **Grootte** worden gebruikt om deze vooraf gedefinieerde bedragen in te stellen. Elk vooraf gedefinieerd bedrag wordt een variant. Zie [Productdimensies](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json) voor meer informatie.
 - Als klanten een aangepast bedrag voor een geschenkbon moeten kunnen opgeven, stelt u eerst een variant in die een aangepast bedrag toestaat. Open vervolgens het product vanuit de pagina **Vrijgegeven producten in categorie** en stel vervolgens op het sneltabblad **Commerce** het veld **Prijs intoetsen** in op **Moet geen prijs intoetsen** (zie de volgende illustratie). Met deze instelling wordt gegarandeerd dat klanten een prijs kunnen invoeren wanneer ze in een PDP door het product bladeren.
 
-    ![Veld Prijs intoetsen Commerce Headquarters](./media/KeyInPrice.png)
+    ![Veld Prijs intoetsen Commerce Headquarters.](./media/KeyInPrice.png)
 
 - De leveringsmodus voor een digitale geschenkbon moet worden ingesteld op **Elektronisch**. Selecteer op de pagina **Leveringsmethoden** (**Retail and commerce \> Kanaal instellen \> Leveringsmethode**) de modus **Elektronisch** in het lijstdeelvenster en voeg het digitale geschenkbonproduct aan het raster op het sneltabblad **Producten** toe (zie de volgende illustratie). Zie [Leveringsmethoden instellen](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery) voor meer informatie.
 
-    ![Digitale geschenkbonproducten op de pagina Leveringsmethode in Commerce Headquarters](./media/ElectronicMode.PNG)
+    ![Digitale geschenkbonproducten op de pagina Leveringsmethode in Commerce Headquarters.](./media/ElectronicMode.PNG)
 
 - Zorg ervoor dat er een online functionaliteitsprofiel is gemaakt en gekoppeld aan uw online winkel in Commerce Headquarters. Stel in het functionaliteitsprofiel de optie **Producten samenvoegen** in op **Ja**. Met deze instelling worden alle artikelen, behalve geschenkbonnen, samengevoegd. Zie [Een online functionaliteitsprofiel maken](online-functionality-profile.md) voor meer informatie.
 - Om er zeker van te zijn dat klanten een e-mailbericht ontvangen nadat een geschenkbon is gefactureerd, maakt u een nieuw type e-mailmelding op de pagina **E-mailmeldingsprofielen** en stelt u het veld **Meldingstype voor e-mail** in op **Geschenkbon uitgeven**. Zie [Een e-mailmeldingsprofiel instellen](email-notification-profiles.md) voor meer informatie.

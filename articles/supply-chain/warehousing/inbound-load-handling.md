@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: e0b0eb1466d962fb04566b936322db1e4c28f830
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103163"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359782"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Magazijnverwerking van inkomende ladingen voor inkooporders
 
@@ -30,7 +30,7 @@ Voor elke inkomende lading moet het systeem al een gerelateerde verkooporder bev
 
 In de volgende afbeelding ziet u de gangbare stroom voor het verwerken van inkomende ladingen met inkooporderhoeveelheden wanneer deze in uw magazijn aankomen.
 
-![Het verwerkingsproces voor inkomende ladingen](media/inbound-process.png "Het verwerkingsproces voor inkomende ladingen")
+![Het verwerkingsproces voor inkomende ladingen.](media/inbound-process.png "Het verwerkingsproces voor inkomende ladingen")
 
 1. **De leverancier bevestigt de inkooporder.**
 
@@ -293,7 +293,7 @@ In deze sectie maakt u een menuopdracht voor een mobiel apparaat en voegt u deze
 
     U kunt alle andere instellingen op de standaardwaarden laten staan.
 
-    ![Instellingen voor menuopdracht van mobiel apparaat](media/inbound-mobile-menu-items.png "Instellingen voor menuopdracht van mobiel apparaat")
+    ![Instellingen voor menuopdracht van mobiel apparaat.](media/inbound-mobile-menu-items.png "Instellingen voor menuopdracht van mobiel apparaat")
 
     Zie [Mobiele apparaten instellen voor magazijnwerk](configure-mobile-devices-warehouse.md) voor meer informatie over het instellen van menuopties voor mobiele apparaten.
 
@@ -328,7 +328,7 @@ In deze procedure maakt u handmatig een inkooporder en een bijbehorende lading. 
     - Op het sneltabblad **Lading** is het veld **Ladingsstatus** ingesteld op _Open_.
     - In de sectie **Ladingregels** staat één regel waarvoor het veld **Hoeveelheid** is ingesteld op _10_ en het veld **Hoeveelheid werk gemaakt** op _0_ (nul).
 
-    ![Gegevens lading](media/inbound-load-details.png "Gegevens lading")
+    ![Gegevens lading.](media/inbound-load-details.png "Gegevens lading")
 
 1. Selecteer in het actievenster op het tabblad **Verzenden en ontvangen** de optie **Bevestigen \> Inkomende zending**. Zoals u ziet, is de **Ladingsstatus** gewijzigd in _Verzonden_.
 1. Noteer de waarde van de **Lading-id** zodat u deze in de volgende procedure kunt gebruiken.

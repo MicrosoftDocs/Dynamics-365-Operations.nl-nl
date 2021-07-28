@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: BOMConfigRule, BOMTable, ConfigChooseFromRoute, ConfigGroup, ConfigHierarchy, EcoResDimensionBasedConfiguration
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 19821
+ms.custom:
+- "19821"
+- intro-internal
 ms.assetid: 4db9890b-306b-4be7-ba98-3be2094d561f
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16027cc7fd22a34e3f689678aa9f5e85800cbf02
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 604b9e14d7a218ab75ebeff5b686f380ef88b34e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829517"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354684"
 ---
 # <a name="dimension-based-product-configuration-overview"></a>Overzicht van Op dimensies gebaseerde productconfiguraties
 
@@ -66,7 +68,7 @@ De configuratieroute bepaalt de volgorde van de configuratiegroepen, zoals deze 
 De configuratieregels vormen een mechanisme om ervoor te zorgen dat een product dat in één configuratiegroep in een stuklijst is opgenomen, opname of uitsluiting van een product in een andere configuratiegroep in dezelfde stuklijst afdwingt.
 
 ## <a name="product-modeling-process"></a>Productmodelleringsproces
-De natuurlijke volgorde voor het bouwen van een productmodel voor een op dimensies gebaseerd product begint met het definiëren van de relevante configuratiegroepen. Het is belangrijk ervoor te zorgen dat alle producten die in de stuklijst worden gebruikt, zijn vrijgegeven aan het bedrijf waarvoor het productmodel is gebouwd. Met deze bouwstenen kan de gebruiker de stuklijst maken en configuratiegroepen toewijzen aan alle relevante stuklijstregels. Wanneer de stuklijst is voltooid, kan een configuratieroute voor het bestellen van de configuratiegroepen in de juiste volgorde worden gedefinieerd. [![Op dimensies gebaseerd productmodelleringsproces](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Als er bepaalde producten van verschillende configuratiegroepen zijn die niet of wel samen moeten worden gebruikt, kunt u configuratieregels maken waarmee deze productrelaties worden afgedwongen. Nadat de stuklijst is gekoppeld aan een op dimensies gebaseerd productmodel via een stuklijstversie en beide zijn goedgekeurd en geactiveerd, kunt u productconfiguraties maken en een naam voor elke configuratie invoeren. De configuraties kunnen worden gedefinieerd voordat eventuele transacties worden gegenereerd of in geval de behoefte aan een bepaalde configuratie ontstaat.
+De natuurlijke volgorde voor het bouwen van een productmodel voor een op dimensies gebaseerd product begint met het definiëren van de relevante configuratiegroepen. Het is belangrijk ervoor te zorgen dat alle producten die in de stuklijst worden gebruikt, zijn vrijgegeven aan het bedrijf waarvoor het productmodel is gebouwd. Met deze bouwstenen kan de gebruiker de stuklijst maken en configuratiegroepen toewijzen aan alle relevante stuklijstregels. Wanneer de stuklijst is voltooid, kan een configuratieroute voor het bestellen van de configuratiegroepen in de juiste volgorde worden gedefinieerd. [![Op dimensies gebaseerd productmodelproces.](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Als er bepaalde producten van verschillende configuratiegroepen zijn die niet of wel samen moeten worden gebruikt, kunt u configuratieregels maken waarmee deze productrelaties worden afgedwongen. Nadat de stuklijst is gekoppeld aan een op dimensies gebaseerd productmodel via een stuklijstversie en beide zijn goedgekeurd en geactiveerd, kunt u productconfiguraties maken en een naam voor elke configuratie invoeren. De configuraties kunnen worden gedefinieerd voordat eventuele transacties worden gegenereerd of in geval de behoefte aan een bepaalde configuratie ontstaat.
 
 ### <a name="suggested-use"></a>Voorgesteld gebruik
 

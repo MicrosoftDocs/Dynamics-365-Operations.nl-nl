@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfe04881e71558ed326025d8f2545c3c611df3aa
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6a319007b32a8a52bd4a0c0af337ed8fd4062cfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796965"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346663"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Resultaten van productaanbevelingen op basis van AI-ML aanpassen
 
@@ -51,7 +51,7 @@ Afhankelijk van uw bedrijf kunnen de resultaten in de lijst 'Meest verkocht' afw
 
 De productlijst 'Meest verkocht' bevat één parameter die kan worden gewijzigd:
 
-![Voorbeeld standaardparameter Meest verkochte lijst](./media/examplebestsellingparameters.PNG)
+![Voorbeeld standaardparameter Meest verkochte lijst.](./media/examplebestsellingparameters.PNG)
 
 1. **Verkoop van laatste X dagen opnemen**: verkooptransacties die hebben plaatsgevonden binnen het opgegeven aantal dagen voor de huidige datum, kunnen worden gebruikt om producten te bestellen. De standaardwaarde hierboven geeft aan dat alle aankopen van een product in de laatste 30 dagen worden gebruikt om de plaatsing van het product in de lijst met meest verkochte producten te bepalen. 
 
@@ -65,13 +65,13 @@ De productlijst 'Meest verkocht' bevat één parameter die kan worden gewijzigd:
 1.  Selecteer **Regel toevoegen** om producten aan de tabel toe te voegen. 
 1.  Zoek onder de kolom Product naar een product op **naam** of **productnummer**.
 
-    ![Voorbeeld van het zoeken naar een product op de productlijst 'Nieuw'](./media/examplenewlistconfiguration1.png)
+    ![Voorbeeld van het zoeken naar een product op de productlijst 'Nieuw'.](./media/examplenewlistconfiguration1.png)
 
 1.  Selecteer een van de volgende opties onder de kolom Regeltype:
     -   **Opnemen**: een product aan het begin de lijst plaatsen
     -   **Uitsluiten**: een product uit de lijst verwijderen
     
-    ![Voorbeeld van het opnemen of uitsluiten van een product uit de productlijst 'Nieuw'](./media/examplenewlistconfiguration2.png)
+    ![Voorbeeld van het opnemen of uitsluiten van een product uit de productlijst 'Nieuw'.](./media/examplenewlistconfiguration2.png)
 
 1.  Als u de **Weergavevolgorde** wijzigt, wordt de volgorde gewijzigd waarin producten die zijn gemarkeerd als **Opnemen** in de lijst worden weergegeven.
     - Als twee producten dezelfde waarde voor **weergavevolgorde** hebben, kan de uiteindelijke volgorde van de twee resultaten afwijken van de backoffice.
@@ -87,11 +87,11 @@ Een *seedproduct* is het product waarvoor u resultaten wilt genereren. In de con
 Voer de volgende stappen uit om handmatig resultaten voor een seed product toe te voegen of te verwijderen:
 1.  Selecteer het **Seedproduct**. 
 1.  Zoek onder de kolom **Product** naar een product op **Naam** of **Productnummer**
-![.Voorbeeld van zoeken naar een product in de lijst Vaak samen gekocht](./media/exampleFBTlistconfiguration1.png)
+![.Voorbeeld van zoeken naar een product in de lijst Vaak samen gekocht.](./media/exampleFBTlistconfiguration1.png)
 1. Selecteer een van de volgende opties onder de kolom **Regeltype**:
     - **Opnemen**: een product aan het begin de lijst plaatsen
     - **Uitsluiten**: een product uit de lijst verwijderen     
-![Voorbeeld van het opnemen of uitsluiten van een product voor de lijst met vaak samen gekochte producten](./media/exampleFBTlistconfiguration2.png)
+![Voorbeeld van het opnemen of uitsluiten van een product voor de lijst met vaak samen gekochte producten.](./media/exampleFBTlistconfiguration2.png)
 1.  Producten verwijderen uit de tabel: selecteer de regel die u wilt verwijderen en selecteer Verwijderen.
 
 

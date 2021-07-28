@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 001795914c683a6182b885b79be7e225ad80e5cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1fcf9f45eb7f3ef111d66c2c30ec529269b0685b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750559"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352907"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Sjablonen met meerdere werkbladen
 
@@ -32,13 +32,13 @@ We bekijken hier het voorbeeld van een Excel-bestand met de werkbladen **Locatie
 
 Als u de tweede entiteit, **Magazijnen**, toevoegt zonder het formulier **Bestand toevoegen** te verlaten, kunt u het werkblad **Magazijnen** selecteren zonder het bestand opnieuw te hoeven uploaden. Alleen als de gegevens voor **Magazijnen** zich in een ander bestand bevinden, zou een nieuw bestand moeten worden geüpload.
 
-![Meerdere werkbladen](./media/AddFileMultipleWorkSheets.png)
+![Meerdere werkbladen.](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Toewijzing van werkblad aan entiteit corrigeren
 
 De toewijzing van het werkblad aan een gegevensentiteit in de importtaak kan worden gecorrigeerd vanuit het raster. In de kolom **Werkblad** in het raster worden de werkbladen uit het toegewezen bestand weergegeven. U kunt een ander werkblad kiezen in de vervolgkeuzelijst. Als het gekozen werkblad al aan een entiteit in het gegevensproject is toegewezen, wordt u gevraagd de wijziging te bevestigen. Het is raadzaam om alle toewijzingen te corrigeren in het raster.
 
-![Werkbladtoewijzing bijwerken](./media/UpdateMappings.png)
+![Werkbladtoewijzing bijwerken.](./media/UpdateMappings.png)
 
 ## <a name="re-map-to-a-new-file"></a>Opnieuw toewijzen aan een nieuw bestand
 

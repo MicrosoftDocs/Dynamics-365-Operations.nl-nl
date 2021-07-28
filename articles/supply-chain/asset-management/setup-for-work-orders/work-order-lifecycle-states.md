@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 04e0bb3b1b99299c344a393e72cbe6f380e380af
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5facd333c9a76f391b36de71fa3a8e276fe2583f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825609"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350613"
 ---
 # <a name="work-order-lifecycle-states"></a>Levenscyclusstatussen van werkorders
 
@@ -35,7 +35,7 @@ De levenscyclusstatussen van werkorders die nodig zijn voor uw werkorders moeten
 
 In de volgende tabel worden de opties in de secties **Werkorder** en **Planning** op het Sneltabblad **Algemeen** van de pagina **Levenscyclusstatus van werkorder** (**Activabeheer** \> **Instellen** \> **Werkorders** \> **Levenscyclusstatussen**).
 
-![Pagina Levenscyclusstatus van werkorder](media/09-setup-for-work-orders.png)
+![Pagina Levenscyclusstatus van werkorder.](media/09-setup-for-work-orders.png)
 
 | Optienaam                   | Beschrijving |
 |-------------------------------|-------------|
@@ -93,7 +93,7 @@ In de volgende tabel worden de opties in de secties **Werkorder** en **Planning*
     - Als de optie **Onderhoudsuitval** is ingesteld op **Ja** voor de levenscyclusstatus waaraan een werkorder wordt bijgewerkt, wordt de tijdige validatie van de uitvaltijd uitgevoerd op het activum dat aan de werkorder is gekoppeld. Als er een tijdregistratie voor onderhoud is uitgevoerd maar er is geen registratie **Beëindigd**, wordt een bericht weergegeven wanneer de werkorder wordt bijgewerkt tot deze levenscyclusstatus.
     - Als de standaard projectinstellingen niet alle fasen bevatten die u nodig hebt voor de instellingen van het Activabeheer, kunt u door de gebruiker gedefinieerde projectfasen instellen in het tabblad **Projectfase** van de pagina **Projectmanagement- en boekhoudparameters**. In de volgende afbeelding ziet u het tabblad **Projectfase** op de pagina **Projectmanagement- en boekhoudparameters**.
 
-    ![Pagina Projectfasen instellen voor diverse projecttypen](media/10-setup-for-work-orders.png)
+    ![Pagina Projectfasen instellen voor diverse projecttypen.](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > Als de levenscyclusstatus waarvoor u een werkorder bijwerkt inactief is, worden journalen die aan de werkorder zijn gekoppeld, maar die nog niet zijn geboekt, automatisch verwijderd. Hierdoor kunnen ongebruikte gegevens automatisch worden opgeruimd. (Een levenscyclusstatus is niet actief als de optie **Actief** voor deze optie is ingesteld op **Nee** in het Sneltabblad **Algemeen** van de pagina **Levenscyclusstatus van werkorders**.)
@@ -111,7 +111,7 @@ De reden voor het gebruik van typen is dat wanneer een type wordt gedefinieerd v
 
 In de volgende afbeelding ziet u de relatie tussen werkordertypen, levenscyclusmodellen en levenscyclusstatussen.
 
-![Pagina Werkordertype vergeleken met pagina Levenscyclusmodellen van werkorder](media/11-setup-for-work-orders.png)
+![Pagina Werkordertype vergeleken met pagina Levenscyclusmodellen van werkorder.](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>Levenscyclusmodellen van werkorder
 
@@ -126,16 +126,16 @@ Nadat u de levenscyclusstatussen voor werkorders hebt gemaakt die vereist zijn v
 
 5. Ga naar het sneltabblad **Levenscyclusstatussen** en selecteer de levencyclusstatussen die moet worden opgenomen in het levenscyclusmodel:
 
-    - Als u een levenscyclusstatus wilt opnemen in het levenscyclusmodel, selecteert u deze in de sectie **Resterende levenscyclusstatussen** en selecteert u vervolgens de knop Pijl-rechts ![Pijl-rechts](media/12-setup-for-work-orders.png) om deze te verplaatsen naar de sectie **Geselecteerde levenscyclusstatussen**.
-    - Als u alle beschikbare levenscyclusstatussen in het levenscyclusmodel wilt opnemen, selecteert u de knop **Alle beschikbare statussen selecteren** ![Alle beschikbare statussen selecteren](media/13-setup-for-work-orders.png). Alle levenscyclusstatussen worden verplaatst naar de sectie **Geselecteerde levenscyclusstatussen**.
-    - Als u een levenscyclusstatus uit het levenscyclusmodel wilt verwijderen, selecteert u deze in de sectie **Geselecteerde levenscyclusstatussen** en selecteert u vervolgens de knop Pijl-links ![Pijl-links](media/14-setup-for-work-orders.png) om deze te verplaatsen naar de sectie **Resterende levenscyclusstatussen**.
+    - Als u een levenscyclusstatus wilt opnemen in het levenscyclusmodel, selecteert u deze in de sectie **Resterende levenscyclusstatussen** en selecteert u vervolgens de knop Pijl-rechts ![Pijl-rechts.](media/12-setup-for-work-orders.png) om deze te verplaatsen naar de sectie **Geselecteerde levenscyclusstatussen**.
+    - Als u alle beschikbare levenscyclusstatussen in het levenscyclusmodel wilt opnemen, selecteert u de knop **Alle beschikbare statussen selecteren** ![Alle beschikbare statussen selecteren.](media/13-setup-for-work-orders.png). Alle levenscyclusstatussen worden verplaatst naar de sectie **Geselecteerde levenscyclusstatussen**.
+    - Als u een levenscyclusstatus wilt verwijderen uit het levenscyclusmodel, selecteert u deze in de sectie **Geselecteerde levenscyclusstatussen** en selecteert u vervolgens de knop Pijl-rechts ![Pijl-rechts.](media/14-setup-for-work-orders.png) om deze te verplaatsen naar de sectie **Resterende levenscyclusstatussen**.
 
 6. Selecteer **Updates van levenscyclusstatussen** om de levenscyclusstatussen te definiëren die een geselecteerde levenscyclusstatus kunnen volgen.
 7. Selecteer in het Sneltabblad **Updates** in het veld **Geplande status** de levenscyclusstatus die altijd moet worden geselecteerd voor een werkorder waarvoor u de werkorderplanning hebt voltooid, ongeacht de vorige levenscyclusstatus van de werkorder.
 8. Selecteer in het veld **Niet-geplande levenscyclusstatus** de levenscyclusstatus die altijd moet worden geselecteerd voor een werkorder als de werkorderplanning wordt verwijderd.
 9. Sla het levenscyclusmodel voor de werkorder op.
 
-![Pagina Levenscyclusmodellen van werkorder](media/15-setup-for-work-orders.png)
+![Pagina Levenscyclusmodellen van werkorder.](media/15-setup-for-work-orders.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7e5726f7e4beea1584b9a8e142212531ba1db56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e87781762112955902d8a5807092a842f53f6af
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051732"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356555"
 ---
 # <a name="understand-date-and-time-fields"></a>Datum- en tijdvelden begrijpen
 
@@ -36,13 +36,13 @@ Een veld **Datum en tijd** bevat informatie over de tijdzone, het veld **Datum**
 
 Wanneer gegevens worden weergegeven in een veld **Datum en tijd**, worden de datum en tijd aangepast op basis van de tijdzone van de gebruiker die is ingesteld in het formulier **Gebruikersopties** (**Algemeen > Instellingen > Gebruikersopties**). De datum- en tijdgegevens die u in het veld invoert, zijn mogelijk niet hetzelfde als de gegevens die naar de database worden geschreven.
 
-[![Het formulier Gebruikersopties](./media/useroptionsform.png)](./media/useroptionsform.png)
+[![Het formulier Gebruikersopties.](./media/useroptionsform.png)](./media/useroptionsform.png)
 
 ## <a name="understanding-date-and-time-fields-in-forms"></a>Datum- en tijdvelden in formulieren begrijpen 
 
 De gegevens in een veld **Datum en tijd** die u ziet op het scherm, komen niet overeen met de gegevens die in de database zijn opgeslagen als de tijdzone van de gebruiker niet is ingesteld op UTC (Coordinated Universal Time). De gegevens een veld **Datum en tijd** worden altijd als UTC opgeslagen.
 
-[![Het formulier Medewerker in UTC](./media/worker-form.png)](./media/worker-form.png)
+[![UTC formulier Medewerker.](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Datum- en tijdvelden in de database begrijpen 
 
@@ -52,7 +52,7 @@ In het vorige voorbeeld is de begintijd een moment, niet een bepaalde datum. Als
   
 In het onderstaande voorbeeld wordt het dienstverband van medewerker 000724 op hetzelfde moment actief, ongeacht de tijdzone. De medewerker wordt actief op 30-04-2019 in de tijdzone GMT, wat hetzelfde is als 01-05-2019 in de tijdzone GMT+12:00. Beide verwijzen naar hetzelfde moment en niet naar een bepaalde datum. 
 
-[![Het formulier Medewerker in GMT](./media/worker-form2.png)](./media/worker-form2.png)
+[![GMT formulier Medewerker.](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Datum- en tijdgegevens in Data Management Framework, Excel, Dataverse en Power BI 
 
@@ -72,23 +72,23 @@ Wanneer u externe bronnen zoals DMF gebruikt om gegevens te bekijken of op te ge
 
 **Human Resources met de tijdzone ingesteld op GMT +12:00** 
 
-[![Het formulier Werknemer ingesteld op GMT](./media/worker-form4.png)](./media/worker-form4.png)
+[![Het formulier Werknemer ingesteld op GMT.](./media/worker-form4.png)](./media/worker-form4.png)
 
 **Excel via OData**
 
-[![Excel via OData](./media/Excelviaodata.png)](./media/Excelviaodata.png)
+[![Excel via OData.](./media/Excelviaodata.png)](./media/Excelviaodata.png)
 
 **DMF-fasering**
 
-[![DMF-fasering](./media/DMFStaging.png)](./media/DMFStaging.png)
+[![DMF-fasering.](./media/DMFStaging.png)](./media/DMFStaging.png)
 
 **DMF-export**
 
-[![DMF-export](./media/DMFexport.png)](./media/DMFexport.png)
+[![DMF-export.](./media/DMFexport.png)](./media/DMFexport.png)
 
 **Excel via Dataverse**
 
-[![Excel via Dataverse](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![Excel via Dataverse.](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>Zie ook
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 07f103680cacc1273b2b28f6e4e905d6dabb006a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14de281927fa3e6410627839005c6b81a93d89bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820317"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347015"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Informatie en rapporten voor gevaarlijke stoffen
 
@@ -29,7 +29,7 @@ Al deze rapporten, met uitzondering van het rapport **Multimodale gevaarlijke st
 
 In de volgende afbeelding ziet u de volgorde van activiteiten die plaatsvinden wanneer het systeem rapporten voor gevaarlijke stoffen genereert.
 
-![Volgorde van activiteiten voor rapporten over gevaarlijke stoffen](media/hazmat-report-sequence.png "Volgorde van activiteiten voor rapporten over gevaarlijke stoffen")
+![Volgorde van activiteiten voor rapporten over gevaarlijke stoffen.](media/hazmat-report-sequence.png "Volgorde van activiteiten voor rapporten over gevaarlijke stoffen")
 
 ## <a name="set-up-hazardous-materials-reporting"></a><a name="set-up"></a>Rapportage over gevaarlijke stoffen instellen
 

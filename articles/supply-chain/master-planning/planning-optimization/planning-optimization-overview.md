@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 5ecfa8ac4db050ee1e38f3b420d81beba19b9409
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9b55a48847e9c6201e7a93a2fb5d6622b581d785
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812950"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354708"
 ---
 # <a name="planning-optimization-overview"></a>Overzicht van Planningsoptimalisatie
 
@@ -33,7 +33,7 @@ Als u Planningsoptimalisatie wilt gebruiken, moet u de invoegtoepassing vanuit u
 
 In de volgende afbeelding wordt het voordeel van het uitvoeren van Planningsoptimalisatie tijdens kantooruren weergegeven.
 
-![Voordeel van het uitvoeren van Planningsoptimalisatie tijdens kantoor uren](media/PlanningOptimization1.png)
+![Voordeel van het uitvoeren van Planningsoptimalisatie tijdens kantoor uren.](media/PlanningOptimization1.png)
 
 ## <a name="improved-performance"></a>Betere prestaties
 
@@ -62,7 +62,7 @@ Als de invoegtoepassing Planningsoptimalisatie wordt verwijderd, worden alle ger
 
 In de volgende afbeelding wordt de gegevensstroom weergegeven.
 
-![Gegevensstroom voor regeneratie-uitvoeringen](media/PlanningOptimization2.png)
+![Gegevensstroom voor regeneratie-uitvoeringen.](media/PlanningOptimization2.png)
 
 ## <a name="related-resources"></a>Gerelateerde bronnen
 

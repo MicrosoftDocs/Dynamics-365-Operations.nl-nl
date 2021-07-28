@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 798e38d7fea53a13d713734dd0521552974176ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897327"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347829"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Verwijzingen naar oorspronkelijke facturen in creditnota's
 
@@ -51,7 +51,7 @@ Volg deze stappen om de parameter in te stellen die bepaalt of verwijzingen naar
 1. Ga naar **Klanten** \> **Instellen** \> **Parameters van module Klanten**.
 2. Stel op het tabblad **Updates** op het sneltabblad **Factuur** de optie **Creditfactuurindeling toepassen op verkoop- en projectfactuurrapporten** in op **Ja**.
 
-![De parameters van Klanten configureren](media/original-invoice-number-in-credit-note.jpg)
+![De parameters van Klanten configureren.](media/original-invoice-number-in-credit-note.jpg)
 
 ## <a name="define-references-to-original-invoices"></a>Verwijzingen naar oorspronkelijke facturen definiëren
 
@@ -65,7 +65,7 @@ Gebruik de volgende procedures om verwijzingen naar oorspronkelijke facturen te 
 4. Selecteer in het actievenster op het tabblad **Factuur** in de groep **Functies** de optie **Factuurcreditering**.
 5. Voer de verwijzing naar de oorspronkelijke factuur in en selecteer de reden voor de correctie.
 
-![De verwijzing voor een vrije-tekstfactuur definiëren](media/reference-original-invoice-FTI.jpg)
+![De verwijzing voor een vrije-tekstfactuur definiëren.](media/reference-original-invoice-FTI.jpg)
 
 ### <a name="customer-credit-note"></a>Creditnota van de klant
 
@@ -74,7 +74,7 @@ Gebruik de volgende procedures om verwijzingen naar oorspronkelijke facturen te 
 3. Ga in het actievenster naar het tabblad **Verkopen** in de groep **Creditnota** en klik op **Creditnota**.
 4. Voer de reden voor de correctie in. De verwijzing naar de oorspronkelijke factuur wordt automatisch gemaakt.
 
-![De verwijzing voor een verkooporder definiëren](media/reference-original-invoice-SO.jpg)
+![De verwijzing voor een verkooporder definiëren.](media/reference-original-invoice-SO.jpg)
 
 ### <a name="project-credit-note"></a>Creditnota van project
 
@@ -84,13 +84,13 @@ Gebruik de volgende procedures om verwijzingen naar oorspronkelijke facturen te 
 4. Selecteer **Factuurcreditering**.
 5. Voer de reden voor de correctie in. De verwijzing naar de oorspronkelijke factuur wordt automatisch gemaakt.
 
-![De verwijzing voor een projectfactuur definiëren](media/reference-original-invoice-project.jpg)
+![De verwijzing voor een projectfactuur definiëren.](media/reference-original-invoice-project.jpg)
 
 ## <a name="printing-credit-notes"></a>Creditnota's afdrukken
 
 Wanneer u vrije tekst, klanten en projectcreditnota's afdrukt, bevatten deze de verwijzing naar de oorspronkelijke factuur en de reden van de correctie.
 
-![Afgedrukte creditnota](media/credit-note-FTI.jpg)
+![Afgedrukte creditnota.](media/credit-note-FTI.jpg)
 
 > [!NOTE]
 > Zorg ervoor dat de afdrukbare indelingen van de documenten correct zijn geconfigureerd, op basis van de veronderstelling dat verwijzingen naar oorspronkelijke facturen worden afgedrukt.

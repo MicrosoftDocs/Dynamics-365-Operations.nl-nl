@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 4fd08d9eeb9bb6ac9e3c19ff3c8592086c050182
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6016127"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354948"
 ---
 # <a name="cost-and-date-control"></a>Kosten- en datumcontrole
 
@@ -58,7 +58,7 @@ De berekeningen voor activa, functionele locaties en werkorders zijn bijna ident
 
     In de volgende afbeelding ziet u een voorbeeld van het dialoogvenster **Kostenbeheer activa**.
 
-    ![Dialoogvenster Kostenbeheer activa](media/01-controlling-and-reporting.png)
+    ![Dialoogvenster Kostenbeheer activa.](media/01-controlling-and-reporting.png)
 
 10. Klik op de pagina **Kostenbeheer activa** op de knoppen **Groeperen op** om het vereiste detailniveau van de berekening weer te geven. De geselecteerde knoppen **Groeperen op** worden gemarkeerd. U kunt knoppen activeren of deactiveren door erop te klikken.
 
@@ -71,7 +71,7 @@ In de onderstaande schermopname ziet u een voorbeeld van berekeningsresultaten i
 - Het veld **Openstaande toegezegde kosten** bevat de toezeggingen die moeten worden betaald voor artikelen, uren en services die u hebt besteld of ontvangen, maar nog niet hebt betaald. 
 - Het veld **Werkelijke kosten** bevat gerelateerde kosten nadat alle verbruiksregistraties zijn geboekt.
 
-![Voorbeeld van berekeningsresultaten in Kostenbeheer activa](media/02-controlling-and-reporting.png)
+![Voorbeeld van berekeningsresultaten in Kostenbeheer activa.](media/02-controlling-and-reporting.png)
 
 U kunt kosten ook berekenen door meerdere activa te selecteren in **Alle activa** of **Actieve activa**. Vervolgens klikt u op de knop **Kostenbeheer** op het tabblad **Algemeen**. In het dialoogvenster **Kostenbeheer activa** worden de geselecteerde activa automatisch ingevoegd in het veld **Activum** op het sneltabblad **Op te nemen records**. Klik op **OK** om een kostenberekening voor de geselecteerde activa weer te geven. Dezelfde procedure kan worden uitgevoerd voor functionele locaties in **Alle functionele locaties** of **Actieve functionele locaties** en voor werkorders in **Alle werkorders** of **Actieve werkorders**.
 
@@ -99,7 +99,7 @@ In de volgende schermopname ziet u een voorbeeld van berekeningsresultaten in **
 - Het veld **Gemiddelde eindvertraging** geeft het verschil in dagen aan tussen de geplande einddatum voor een werkorder vergeleken met de werkelijke einddatum. Als de werkelijke einddatum bijvoorbeeld drie dagen na de geplande einddatum valt, wordt in dit veld de waarde 3 weergegeven.  
 - In de velden **Voorvallen** wordt aangegeven hoe vaak afwijkingen plaatsvinden ten aanzien van de geplande en werkelijke begindatum en geplande en werkelijke einddatum van de werkorder.
 
-![Voorbeeld van berekeningsresultaten in Datumbeheer werkorder](media/03-controlling-and-reporting.png)
+![Voorbeeld van berekeningsresultaten in Datumbeheer werkorder.](media/03-controlling-and-reporting.png)
 
 
 

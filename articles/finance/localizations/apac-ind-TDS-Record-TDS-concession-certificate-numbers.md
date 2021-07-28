@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f543adc8bab5ca224bdb672d6b3c282c2d8531d8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 97fce25ea8c556f001c84f6836a0a270a9f3524f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023136"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358381"
 ---
 # <a name="record-tds-concession-certificate-numbers"></a>TDS-vrijstellingscertificaatnummers registreren
 
@@ -33,7 +33,7 @@ In dit onderwerp wordt uitgelegd hoe u de TDS-vrijstellingscertificaatnummers (b
 2. Selecteer in het veld **Belastingtype** de optie **TDS** om vrijstellingscertificaten voor het belastingtype TDS vast te leggen.
 3. Selecteer **Alt+N** op het tabblad **Overzicht** om een regel te maken.
 
-    [![Koptekst van de nieuwe regel](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
+    [![Koptekst van de nieuwe regel.](./media/apac-ind-TDS-34.png)](./media/apac-ind-TDS-34.png)
 
 4. Selecteer in het veld **Bronbelastingcode** de TDS-belastingcode waarvoor de leveranciersvrijstellingscertificaten worden uitgegeven. In het veld **Bronbelastingcodenaam** wordt de naam van de TDS-belastingcode weergegeven.
 5. Definieer in de velden **Begindatum** en **Einddatum** de geldigheidsduur voor het vrijstellingscertificaat dat de TDS-belastingcode gebruikt om TDS voor de leverancier op vrijstellingsbasis te berekenen.
@@ -50,6 +50,6 @@ In dit onderwerp wordt uitgelegd hoe u de TDS-vrijstellingscertificaatnummers (b
 
 11. Voer in het veld **Certificaat** het TDS-vrijstellingscertificaatnummer in.
 
-    [![Sneltabblad Certificaat](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
+    [![Sneltabblad Certificaat.](./media/apac-ind-TDS-33.png)](./media/apac-ind-TDS-33.png)
 
 12. Sluit de pagina.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 804885e6a416fd865933e59f11691768bf1abde4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3d2aff88880f27d50f3795e97aadf95a86a90cab
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813310"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344587"
 ---
 # <a name="work-order-report"></a>Werkorderrapport
 
@@ -42,11 +42,11 @@ U kunt een werkorderrapport genereren waarin gedetailleerde informatie wordt wee
 
 In de volgende afbeelding ziet u een voorbeeld van hoe de rapportparameters kunnen worden ingesteld.
 
-![Figuur 1](media/20-work-orders.png)
+![Figuur 1.](media/20-work-orders.png)
 
 In de volgende afbeelding ziet u een voorbeeld van een werkorderrapport dat op basis van die instelling is gegenereerd.
 
-![Figuur 2](media/21-work-orders.png)
+![Figuur 2.](media/21-work-orders.png)
 
 
 

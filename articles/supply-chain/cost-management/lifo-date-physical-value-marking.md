@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6a9f21c6c329ef37d515fa0fbdaca57b4f3be0a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 744111a28256bb737246605ca8a259ff5a3d2b5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821532"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344563"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>LIFO-datum met fysieke waarde en markering
 
@@ -55,7 +55,7 @@ In dit voorbeeld is de artikelmodelgroep niet gemarkeerd voor het opnemen van de
 
 De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel bijgewerkte transacties met USD 15,00. 
 
-In de volgende afbeelding worden de effecten van het voorraadmodel LIFO-datum weergegeven wanneer de optie **Fysieke waarde opnemen** niet wordt gebruikt. ![LIFO-datum met fysieke waarde opnemen](./media/lifodatewithoutincludephysicalvalue.gif) 
+In de volgende afbeelding worden de effecten van het voorraadmodel LIFO-datum weergegeven wanneer de optie **Fysieke waarde opnemen** niet wordt gebruikt. ![LIFO-datum met fysieke waarde opnemen.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Uitleg bij het diagram**
 
@@ -90,7 +90,7 @@ De volgende afbeelding geeft deze transacties weer:
 
 De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel bijgewerkte transacties met USD 20,00. 
 
-In de volgende afbeelding worden de effecten van het voorraadmodel LIFO-datum weergegeven wanneer de optie **Fysieke waarde opnemen** wel wordt gebruikt. ![LIFO-datum met fysieke waarde opnemen](./media/lifodatewithincludephysicalvalue.gif) 
+In de volgende afbeelding worden de effecten van het voorraadmodel LIFO-datum weergegeven wanneer de optie **Fysieke waarde opnemen** wel wordt gebruikt. ![LIFO-datum met fysieke waarde opnemen.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Uitleg bij het diagram**
 
@@ -136,7 +136,7 @@ De volgende afbeelding geeft deze transacties weer:
 
 De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties met USD 27,50. 
 
-De volgende afbeelding illustreert de gevolgen van het LIFO-voorraadmodel bij gebruik van markering tussen uitgiften en ontvangsten. ![LIFO-datum met markering](./media/lifodatewithmarking.gif) 
+De volgende afbeelding illustreert de gevolgen van het LIFO-voorraadmodel bij gebruik van markering tussen uitgiften en ontvangsten. ![LIFO-datum met markering.](./media/lifodatewithmarking.gif) 
 
 **Uitleg bij het diagram**
 

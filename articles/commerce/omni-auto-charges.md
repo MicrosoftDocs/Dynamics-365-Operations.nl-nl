@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0eb1f112430005945b4f82b99ef9cc718c56de65
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0ff85acfbe16fc28afb2fbcee0baf4b12b1f3e9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022702"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353055"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Geavanceerde automatische toeslagen voor meerdere kanalen
 
@@ -43,7 +43,7 @@ Met de geavanceerde functie voor automatische toeslagen beschikken POS-gebruiker
 
 Op de pagina **Retail en Commerce \> Instellingen hoofdkwartier \> Parameters \> Commerce-parameters** gaat u naar het tabblad **Klantorders**. Op het sneltabblad **Toeslagen** stelt u **Geavanceerde automatische toeslagen gebruiken** in op **Ja**.
 
-![Parameter geavanceerde automatische toeslagen](media/advancedchargesparameter.png)
+![Parameter geavanceerde automatische toeslagen.](media/advancedchargesparameter.png)
 
 Wanneer geavanceerde automatische toeslagen zijn ingeschakeld, wordt gebruikers niet meer gevraagd handmatig verzendkosten in te voeren in de POS-terminal bij het maken van een klantorder met alles verzenden of geselecteerd verzenden. Toeslagen op de POS-order worden automatisch berekend en toegevoegd aan de POS-transactie (als een bijbehorende tabel voor automatische toeslagen die voldoet aan het criterium van de order die wordt gemaakt, wordt gevonden). Gebruikers kunnen ook toeslagen op kop- of regelniveau handmatig toevoegen of onderhouden via de toegevoegde POS-bewerkingen die kunnen worden toegevoegd aan de POS-schermindelingen.
 
@@ -86,7 +86,7 @@ Configureer twee verschillende automatische toeslagen op koptekstniveau. Configu
 
 Voor de toeslagen van de grondlevering definieert u in het regelgedeelte van de pagina **Automatische toeslagen** een toeslag van € 10 die wordt toegepast voor orders tussen € ,01 en € 100. Maak een andere toeslagenregel om aan te geven dat voor bestellingen van meer dan € 100,01 geen toeslag geldt.
 
-![Twee voorbeelden van tabellen met automatische toeslagen](media/headerchargesexample.png)
+![Twee voorbeelden van tabellen met automatische toeslagen.](media/headerchargesexample.png)
 
 Voor de toeslagen van de luchtlevering definieert u in de regelsectie van het formulier voor automatische toeslagen een toeslag van € 20 die wordt toegepast op alle orders (tussen € ,01 en € 9.999.999).
 
@@ -116,7 +116,7 @@ Ga naar **Klanten \> Instelling van toeslagen \> Automatische toeslagen**.
 
 Stel het vervolgkeuzemenu **Niveau** in op **Regel** en maak een nieuwe record voor automatische toeslagen voor alle klanten en voor het specifieke product of de specifieke productgroep waarvoor de installatiekosten worden berekend.
 
-![Eén voorbeeld van een tabel met automatische toeslagen op regelniveau](media/linechargesexample.png)
+![Eén voorbeeld van een tabel met automatische toeslagen op regelniveau.](media/linechargesexample.png)
 
 Verzend de toeslagen naar de Commerce Scale Unit/afzetkanaal DB, zodat het POS ze kan gebruiken door de taak **1040 distributieplanning** uit te voeren.
 
@@ -136,7 +136,7 @@ Een detailhandelaar maakt een uitzondering op kenmerkende processen door special
 
 Zorg ervoor dat de toeslagencode die wordt gebruikt in dit scenario juist is geconfigureerd door naar **Klanten \> Instelling toeslagen \> Toeslagen** te gaan om een juiste toeslagencode voor dit scenario te definiëren.
 
-![Voorbeeld toeslagen](media/chargesexample.png)
+![Voorbeeld toeslagen.](media/chargesexample.png)
 
 Als de toeslag moet worden beschouwd als 'verzendkosten' met het oog op verzendingsgerelateerde kortingen of promoties, stelt u **Verzendkosten** voor de toeslagencode in op **Ja**. Als deze toeslag ook systematisch mag worden terugbetaald tijdens de verwerking van een retourtransactie in de POS-toepassing, stelt u **Terug te betalen** in op **Ja**. De markering **Terug te betalen** is alleen toe te passen wanneer de parameter **Geavanceerde automatische toeslagen gebruiken** is ingesteld op **Ja**.
 

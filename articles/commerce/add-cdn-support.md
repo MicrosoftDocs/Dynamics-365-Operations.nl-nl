@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 59277323e0995f59d3a451395a038fa3708274eb
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 85ca468fe6c440fb333b4c32f59f1d41eb89f4e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936825"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346823"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Ondersteuning voor een CDN (netwerk voor contentlevering) toevoegen
 
@@ -74,11 +74,11 @@ Volg deze stappen om een back-endpool te configureren in Azure Front Door Servic
 
 In de volgende afbeelding ziet u het dialoogvenster **Een back-end toevoegen** in de Azure Front Door Service met de naam van de back-endhost ingevuld.
 
-![Het dialoogvenster Een backend-groep toevoegen](./media/CDN_BackendPool.png)
+![Het dialoogvenster Een backend-groep toevoegen.](./media/CDN_BackendPool.png)
 
 In de volgende afbeelding ziet u het dialoogvenster **Een back-endgroep toevoegen** in de Azure Front Door Service met de standaardwaarden voor taakverdeling.
 
-![Dialoogvenster Een back-endgroep toevoegen (vervolg)](./media/CDN_BackendPool_2.png)
+![Dialoogvenster Een back-endgroep toevoegen (vervolg).](./media/CDN_BackendPool_2.png)
 
 > [!NOTE]
 > Zorg ervoor dat u **Statusprobes** uitschakelt bij het instellen van uw eigen Azure Front Door Service voor Commerce.
@@ -107,13 +107,13 @@ Als uw domein nieuw is en geen reeds bestaand live domein is, kunt u uw aangepas
 
 In de volgende afbeelding ziet u het dialoogvenster **CNAME-configuratie** in de Azure Front Door Service.
 
-![Dialoogvenster CNAME-configuratie](./media/CNAME_Configuration.png)
+![Dialoogvenster CNAME-configuratie.](./media/CNAME_Configuration.png)
 
 U kunt de Azure Front Door Service gebruiken om het certificaat te beheren of u kunt uw eigen certificaat voor het aangepaste domein gebruiken.
 
 In de volgende afbeelding ziet u het dialoogvenster **Aangepast domein HTTPS** in de Azure Front Door Service.
 
-![Dialoogvenster Aangepast domein HTTPS](./media/Custom_Domain_HTTPS.png)
+![Dialoogvenster Aangepast domein HTTPS.](./media/Custom_Domain_HTTPS.png)
 
 Zie voor gedetailleerde instructies voor het toevoegen van een aangepast domein aan uw Azure Front Door [Een aangepast domein toevoegen aan uw Front Door](/azure/frontdoor/front-door-custom-domain).
 

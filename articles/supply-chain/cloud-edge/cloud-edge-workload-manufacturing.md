@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1e2006c0d9b9effe331a644aaaa9fa33ff2fb7c
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: da19066f647c17e934a11e4dab7cb370baabfb5c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270530"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352731"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden
 
@@ -44,7 +44,7 @@ In dit onderwerp wordt beschreven hoe productie-uitvoeringsworkloads werken met 
 
 Zoals in de volgende afbeelding wordt weergegeven, is de productielevenscyclus onderverdeeld in drie fasen: *Plannen*, *Uitvoeren* en *Voltooien*.
 
-[![Productie-uitvoeringsfasen wanneer één omgeving wordt gebruikt](media/mes-phases.png "Productie-uitvoeringsfasen wanneer één omgeving wordt gebruikt")](media/mes-phases-large.png)
+[![Productie-uitvoeringsfasen wanneer één omgeving wordt gebruikt](media/mes-phases.png "Productie-uitvoeringsfasen wanneer één omgeving wordt gebruikt."](media/mes-phases-large.png)
 
 De _planfase_ omvat productdefinitie, planning, het maken en plannen van orders en vrijgave. De vrijgavestap geeft de overgang van de _planfase_ naar de _uitvoeringsfase_ aan. Wanneer een productieorder wordt vrijgegeven, worden de productieordertaken weergegeven op de productievloer en zijn ze klaar voor uitvoering.
 
@@ -54,7 +54,7 @@ Wanneer een productietaak is gemarkeerd als voltooid, wordt deze verplaatst van 
 
 Zoals u in de volgende afbeelding kunt zien, wordt de _uitvoeringsfase_ een afzonderlijke workload opgesplitst wanneer er schaaleenheden worden gebruikt.
 
-[![Productie-uitvoeringsfasen wanneer er schaaleenheden worden gebruikt](media/mes-phases-workloads.png "Productie-uitvoeringsfasen wanneer er schaaleenheden worden gebruikt")](media/mes-phases-workloads-large.png)
+[![Productie-uitvoeringsfasen wanneer schaaleenheden worden gebruikt](media/mes-phases-workloads.png "Productie-uitvoeringsfasen wanneer schaaleenheden worden gebruikt."](media/mes-phases-workloads-large.png)
 
 Het model gaat nu van een installatie met één exemplaar naar een model dat is gebaseerd op hub en schaaleenheden. De _planfase_ en _voltooiingsfase_ worden uitgevoerd als back-upbewerkingen op de hub en de productie-uitvoeringsworkload wordt uitgevoerd op de schaaleenheden. Gegevens worden asynchroon overgebracht tussen de hub en schaaleenheden.
 
@@ -87,7 +87,7 @@ Hoewel de taak normaal gesproken automatisch wordt uitgevoerd, kunt u deze op el
 
 Als u het registratieverwerkingslogbestand wilt bekijken, meldt u zich aan bij de hub en gaat u naar **Productiecontrole \> Periodieke taken \> Backoffice workloadbeheer \> Logbestand onbewerkte registratieverwerking**. Op de pagina **Logbestand voor onbewerkte registratieverwerking** wordt een lijst met verwerkte onbewerkte registraties en de status van elke registratie weergegeven.
 
-![De pagina Logbestand voor onbewerkte registratieverwerking](media/mes-processing-log.png "De pagina Logbestand voor onbewerkte registratieverwerking")
+![De pagina Logbestand voor onbewerkte registratieverwerking.](media/mes-processing-log.png "De pagina Logbestand voor onbewerkte registratieverwerking")
 
 U kunt aan elke registratie in de lijst werken door deze te selecteren en vervolgens een van de volgende knoppen in het actiedeelvenster te selecteren:
 

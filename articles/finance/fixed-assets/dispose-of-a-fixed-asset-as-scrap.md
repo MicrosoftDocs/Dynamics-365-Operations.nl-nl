@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 413847d350ca6b2bdd6153a598ea5b3f34a33818
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e465594968ac860a9cb8f6f5d679084e5594457
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826270"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355599"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Vaste activa afstoten als uitval
 
@@ -43,7 +43,7 @@ In dit onderwerp wordt het proces beschreven voor het elimineren van transacties
 Voordat u een vast activum afstoot als uitval, moet u grootboekrekeningen maken die zijn gekoppeld aan de aanschafwaarde van het activum, afschrijving voor het huidige jaar, afschrijving voor voorgaande jaren en de NBW van het activum. De transactietypen van de vaste activa worden vermeld op de pagina **Boekingsprofielen van vaste activa**. Ga naar **Vaste activa \> Instellen \> Boekingsprofielen voor vaste activa** en selecteer op het sneltabblad **Afstoting** de optie **Uitval** in het veld boven het raster. In de volgende afbeelding ziet u de lijst met transactietypen voor vaste activa op de pagina **Boekingsprofielen vaste activa**.
 
 
-[![Een activum afstoten als uitval, figuur 1](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
+[![Een activum afstoten als uitval, figuur 1.](./media/Fixed_asset_Disposal_scrap_scenario_1.png)](./media/Fixed_asset_Disposal_scrap_scenario_1.png)
 
 Voor het volgende voorbeeld is een vast activum aangeschaft op 1 januari 2018 en afgestoten op 31 maart 2019.
 
@@ -58,27 +58,27 @@ Nettoboekwaarde = aanschafprijs – afschrijving
 
 In dit voorbeeld is de vaste activa verworven en 15 maanden lang afgeschreven, van januari 2018 tot en met maart 2019. Daarom is de NBW van het activum 9.000,00 USD (24.000,00 USD - 15.000,00 USD).
 
-[![Voorbeeld van afschrijving voor vaste activa](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
+[![Voorbeeld van afschrijving voor vaste activa.](./media/Fixed_asset_Disposal_scrap_scenario_2.png)](./media/Fixed_asset_Disposal_scrap_scenario_2.png)
 
 
 Als u een buitengebruikstellingsjournaal wilt maken, gaat u naar **Vaste activa \> Journaalboekingen \> Vaste-activajournaal** en selecteert u **Regels** in het actievenster. Selecteer **Afstoting - uitval** en vervolgens een vaste-activa-id. Als u het activum volledig wilt afstoten, voert u geen waarde in het veld **Debet** of het veld **Credit** in.
 
-[![Vaste-activajournaal](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
+[![Vaste-activajournaal.](./media/Fixed_asset_Disposal_scrap_scenario_3.png)](./media/Fixed_asset_Disposal_scrap_scenario_3.png)
 
 Met de uitvaltransactie voor vaste activa worden de veldwaarden op de volgende manieren gewijzigd in het vaste-activaboek:
 
 - In de sectie **Saldo** wordt het veld **Status** bijgewerkt naar **Buiten gebruik gesteld**.
 - In de sectie **Uitgifte** wordt het veld **Afstotingsdatum** ingesteld op de datum waarop het activum buiten gebruik is gesteld.
 
-[![Details vaste-activajournaal](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
+[![Details vaste-activajournaal.](./media/Fixed_asset_Disposal_scrap_scenario_4.png)](./media/Fixed_asset_Disposal_scrap_scenario_4.png)
 
 In de volgende afbeelding wordt het vaste-activasaldo weergegeven.
 
-[![Vaste-activasaldo](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
+[![Vaste-activasaldo.](./media/Fixed_asset_Disposal_scrap_scenario_5.png)](./media/Fixed_asset_Disposal_scrap_scenario_5.png)
 
 In de volgende afbeelding wordt het boekstuk weergegeven dat is geboekt.
 
-[![Nettoboekwaarde](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+[![Nettoboekwaarde.](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c043ac9c19a810d1718f0d4907cd5e9d651d778f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5038a1a1b3fa4c32f54ea87b03f886504e0b004f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055287"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357383"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Integratie-API voor sollicitantenvolgsysteem - Inleiding
 
@@ -26,7 +26,7 @@ ms.locfileid: "6055287"
 
 In dit onderwerp wordt de Dynamics 365 Human Resources integratie-API voor sollicitantenvolgsysteem (ATS) beschreven. De API is bedoeld om gestroomlijnde integraties tussen Dynamics 365 Human Resources en ATS-partners mogelijk te maken.
 
-![ATS integratiestroom](media/hr-admin-integration-ats-api-introduction-flow.png)
+![ATS-integratiestroom.](media/hr-admin-integration-ats-api-introduction-flow.png)
 
 De geïntegreerde ervaring begint in Human Resources wanneer een aanstellende manager een wervingsaanvraag maakt. Wanneer de aanvraag is geactiveerd, haalt de ATS de details op voor de aanvraag om een wervingsproject te maken. Daarna volgt het de wervingspijplijn om een kandidaat voor de functie(s) te selecteren en aan te stellen. Ten slotte rondt het ATS de integratie af door de record van de geselecteerde kandidaat naar Human Resources te sturen. De record van de kandidaat kan dan door meer onboarding validaties en werkstromen gaan om de werknemerrecord te maken.
 
@@ -69,7 +69,7 @@ Het gegevensmodel is gericht op twee hoofdentiteiten:
 
 In het volgende diagram worden de relaties binnen de API weergegeven. Verschillende typen hebben refererende sleutels voor andere, bestaande entiteiten in HumanResources die hier niet worden geïllustreerd. Dit document bevat informatie over entiteiten die specifiek zijn voor wervingsintegratiescenario's. De Dataverse web-API voor Dynamics 365 Human Resources bevat echter een groot aantal andere entiteiten die ook relevant kunnen zijn voor uw integratie. U hebt bijvoorbeeld ook details nodig voor werknemers, functies, posities of andere entiteiten die hier niet zijn gedefinieerd. Naar veel van deze entiteiten worden verwezen in refererende sleutelrelaties of navigatie-eigenschappen.
 
-![ATS-integratie API-gegevensmodel](media/hr-admin-integration-ats-api-data-model.png)
+![ATS-integratie API-gegevensmodel.](media/hr-admin-integration-ats-api-data-model.png)
 
 ## <a name="recruiting-request-and-related-entities-and-option-sets"></a>Wervingsaanvragen en gerelateerde entiteiten en optiesets
 

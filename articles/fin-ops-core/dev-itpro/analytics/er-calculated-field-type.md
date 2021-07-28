@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 897133a27f9d3da2f576ce675c0949f824cde881
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fb09e1ccd4b2be08e43784330adf4092ca25f5a6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749484"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349155"
 ---
 # <a name="support-parameterized-calls-of-er-data-sources-of-the-calculated-field-type"></a>Ondersteuning van parameteraanroepen voor ER-gegevensbronnen van het type Berekend veld
 
@@ -86,7 +86,7 @@ In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc
 
     Met de modeltoewijzing in deze configuratie wordt het basisgegevensmodel geïmplementeerd voor elke ER-indeling die voor dit model is gemaakt en in Finance and Operations wordt uitgevoerd. Dat betekent dat de inhoud van de gegevensbronnen **Btw** en **GR** worden weergegeven voor ER-indelingen zoals abstracte gegevensbronnen.
 
-    ![De pagina Ontwerper modeltoewijzingen met Btw- en GR-gegevensbronnen](media/er-calculated-field-type-01.png)
+    ![De pagina Ontwerper modeltoewijzingen met Btw- en GR-gegevensbronnen.](media/er-calculated-field-type-01.png)
 
 5.  Sluit de pagina **Ontwerper modeltoewijzing**.
 6.  Sluit de pagina **Modeltoewijzing**.
@@ -101,21 +101,21 @@ In dit voorbeeld maakt u een configuratie voor het voorbeeldbedrijf Litware, Inc
     - Het opgeven van de volgende belastingniveaus in de belastingaangifte: normaal, verlaagd en geen.
     - Het opgeven van meerdere details voor elk belastingniveau, met een verschillend aantal details op elk niveau.
 
-    ![Pagina Indelingsontwerper](media/er-calculated-field-type-02.png)
+    ![Pagina Indelingsontwerper.](media/er-calculated-field-type-02.png)
 
 4. Selecteer **Toewijzing**.
 5. Vouw de items **Model**, **Gegevens** en **Overzicht** uit. 
 
     Het berekende veld **Model.Data.Summary.Level** bevat de expressie die de code van het belastingniveau (**Normaal**, **Verlaagd**, **Geen** of **Overige**) als een tekstwaarde retourneert voor elke belastingcode die in runtime kan worden opgehaald uit de gegevensbron **Model.Data.Summary**.
 
-    ![Pagina Indelingsontwerper met details van het gegevensmodel Model voor het leren van parameteraanroepen](media/er-calculated-field-type-03.png)
+    ![Pagina Indelingsontwerper met details van het gegevensmodel Model voor het leren van parameteraanroepen.](media/er-calculated-field-type-03.png)
 
 6. Vouw het item **Model**.**Data2** uit.
 7. Vouw het item **Model**.**Data2.Summary2** uit.
    
     De gegevensbron **Model**.**Data2.Summary2** is geconfigureerd om de transactiegegevens van de gegevensbron **Model.Data.Summary** te groeperen op belastingniveau (geretourneerd door het berekende veld **Model.Data.Summary.Level**) en de aggregaties te berekenen.
 
-    ![Pagina Indelingsontwerper met details van de gegevensbron Model.Data2.Summary2](media/er-calculated-field-type-04.png)
+    ![Pagina Indelingsontwerper met details van de gegevensbron Model.Data2.Summary2.](media/er-calculated-field-type-04.png)
 
 8. Controleer de berekende velden **Model**.**Data2.Level1**, **Model**.**Data2.Level2** en **Model**.**Data2.Level3**. Deze berekende velden worden gebruikt om de lijst met **Model**.**Data2. Summary2**-records te filteren en alleen de records weer te geven die een bepaald belastingniveau vertegenwoordigen.
 9. Sluit de pagina **Indelingsontwerper**.
@@ -155,7 +155,7 @@ U kunt de opgegeven indeling verbeteren door één berekend veld toe te voegen o
 
     Het maximum aantal parameters dat kan worden opgegeven voor één berekend veld is 8.
 
-    ![Lijst met parametergegevensbronnen](media/er-calculated-field-type-05.png)
+    ![Lijst met parametergegevensbronnen.](media/er-calculated-field-type-05.png)
 
 5. Selecteer **OK**.
 
@@ -165,7 +165,7 @@ Door deze parameter toe te voegen, geeft u de voorwaarde op die moet gelden om d
 
    De geconfigureerde parameter is beschikbaar in de lijst met gegevensbronnen voor dit berekend veld. U kunt de parameter toevoegen aan de geconfigureerde expressie door **Gegevensbron toevoegen** te selecteren.
 
-   ![Gegevensbronvelden](media/er-calculated-field-type-06.png)
+   ![Gegevensbronvelden.](media/er-calculated-field-type-06.png)
 
 ### <a name="define-an-expression-for-adding-a-calculated-field"></a>Een expressie definiëren voor het toevoegen van een berekend veld
 
@@ -181,7 +181,7 @@ Door deze parameter toe te voegen, geeft u de voorwaarde op die moet gelden om d
 
 5. Selecteer **Opslaan**.
 
-    ![Informatie Gegevensbronveld](media/er-calculated-field-type-07.png)
+    ![Informatie Gegevensbronveld.](media/er-calculated-field-type-07.png)
 
 6. Sluit de pagina **Formuleontwerper**.
 
@@ -191,7 +191,7 @@ Door deze parameter toe te voegen, geeft u de voorwaarde op die moet gelden om d
 
 Op de pagina **Indelingsontwerper** heeft het geconfigureerde berekende parameterveld **Niveaus** een argument van het type **Tekenreeks** nodig.
 
-![Uitgevouwen lijst met berekende veldniveaus](media/er-calculated-field-type-08.png)
+![Uitgevouwen lijst met berekende veldniveaus.](media/er-calculated-field-type-08.png)
 
 ### <a name="use-the-configured-calculated-field-for-binding-format-elements&quot;></a>Het geconfigureerde berekende veld gebruiken voor het binden van indelingselementen
 
@@ -220,7 +220,7 @@ Terugkerende aanroepen van berekende parametervelden worden niet ondersteund.
 
 U kunt **Formule bewerken** selecteren en het standaard toegepaste argument van het berekende parameterveld in de geselecteerde binding wijzigen. Als dit argument ontbreekt, kan dit in runtime leiden tot fouten. Gebruikers krijgen een melding over een dergelijke situatie wanneer de huidige indeling wordt gevalideerd.
 
-![Melding met validatiewaarschuwing](media/er-calculated-field-type-10.png)
+![Melding met validatiewaarschuwing.](media/er-calculated-field-type-10.png)
 
 ## <a name="configure-a-parameterized-calculated-field-to-return-a-record"></a>Een berekend parameterveld configureren dat een record retourneert
 Wanneer een berekend parameterveld een record retourneert, moet u binding van afzonderlijke velden van deze record ondersteunen om elementen in te delen. In dergelijke gevallen is er geen bovenliggende binding die de waarde van een argument bevat voor het aanroepen van een berekend parameterveld. Deze waarde moet worden gedefinieerd in de binding van het veld van één record.
@@ -272,7 +272,7 @@ Wanneer een berekend parameterveld een record retourneert, moet u binding van af
 8. Selecteer **Formule bewerken**.
 9. Wijzig de expressie in **Model.Data2.LevelRecord("Geen").aggregated.Base**.
 
-![Bijgewerkte expressie](media/er-calculated-field-type-11.png)
+![Bijgewerkte expressie.](media/er-calculated-field-type-11.png)
 
 ## <a name="remove-calculated-fields-that-are-not-used"></a>Ongebruikte berekende velden verwijderen
 

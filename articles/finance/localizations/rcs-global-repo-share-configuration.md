@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ace62319bbfa38bcf4be7157882dd0c8989e25bc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 530cb77ccbca1b6946b5a96cee4e6226ed3467e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838740"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361253"
 ---
 # <a name="share-electronic-reporting-er-configurations-in-regulatory-configuration-services-rcs-global-repository-with-external-organizations"></a>ER-configuraties (elektronische rapportage) in Microsoft Regulatory Configuration Services (RCS) algemene opslagplaats met externe organisaties delen
 
@@ -47,7 +47,7 @@ Voer de volgende stappen uit om te controleren of de configuratie die u wilt del
 
 1. Selecteer in het werkgebied **Elektronische rapportage** de optie **Opslagplaatsen** voor uw configuratieprovider.
 
-    ![Configuratieproviders](media/1_RCS_Repo_for_config_provider.JPG)
+    ![Configuratieproviders.](media/1_RCS_Repo_for_config_provider.JPG)
 
 2. Selecteer **Algemene opslagplaats** \> **Openen**.
 3. Zoek naar de configuratie die u wilt delen. U kunt het filterveld gebruiken om de zoekopdracht te verfijnen. Als u de configuratie niet kunt vinden in de algemene opslagplaats, volgt u de stappen in [Een nieuwe versie van een ER-configuratie (elektronische rapportage) maken en uploaden](rcs-global-repo-upload.md).
@@ -61,11 +61,11 @@ Nadat u een configuratie hebt gemaakt onder uw configuratieprovider, kunt u deze
 3. Selecteer de configuratie die u wilt delen.
 4. Selecteer op het sneltabblad **Gedeeld met** de optie **Organisatie**.
 
-    ![Sneltabblad Gedeeld met](media/1_RCS_Repo_for_Share_with_org.JPG)
+    ![Sneltabblad Gedeeld met.](media/1_RCS_Repo_for_Share_with_org.JPG)
 
 5. Voer in het dialoogvenster de domeinnaam in voor de externe organisatie en selecteer vervolgens **OK**.
 
-    ![Dialoogvenster Configuratieversie delen met externe organisatie](media/1_RCS_Repo_for_Share_with_form.JPG)
+    ![Dialoogvenster Configuratieversie delen met externe organisatie.](media/1_RCS_Repo_for_Share_with_form.JPG)
 
 De configuratie wordt gedeeld met de externe organisatie en is beschikbaar voor die organisatie in de algemene opslagplaats. Hier vandaan kan het worden geïmporteerd in het exemplaar van RCS of in de exemplaren van Finance and Operations-apps van de organisatie.
 

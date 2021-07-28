@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: d56a23f7af7633e1761a8a7c48f71381d6f14df2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 57de382c6d363a6c1d87cf734e9aedb32d6009a9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023160"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349923"
 ---
 # <a name="set-up-withholding-tax-codes-for-the-tds-tax-type"></a>Bronbelastingcodes voor het TDS-belastingtype instellen
 
@@ -31,7 +31,7 @@ In dit onderwerp wordt uitgelegd hoe u belastingcodes moet instellen voor TDS (b
 
 1. Ga naar **Belasting \> Indirecte belastingen \> Bronbelasting \> Bronbelastingcodes**.
 
-    [![Pagina Bronbelastingcodes](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
+    [![Pagina Bronbelastingcodes.](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
 
 2. Selecteer in het actievenster **Nieuw** om een bronbelastingcode voor TDS te maken en voer de vereiste gegevens in.
 3. Selecteer op het sneltabblad **Algemeen** in het veld **Belastingtype** de optie **TDS** om de belastingcode als een TDS-belastingcode te categoriseren.

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: b6feb5319290cc53d82feb28ffa8c049bfadd29b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897571"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355078"
 ---
 # <a name="dimension-hierarchy"></a>Dimensiehiërarchie
 
@@ -39,7 +39,7 @@ Dimensiehiërarchieën worden op verschillende plaatsen in Kostprijsboekhouding 
 
 Hier volgt een voorbeeld van een dimensiehiërarchie.
 
-![Voorbeeld van een dimensiehiërarchie](./media/dimension-hierarchy.png)
+![Voorbeeld van een dimensiehiërarchie.](./media/dimension-hierarchy.png)
 
 Een dimensiehiërarchie kan worden gemaakt voor de volgende typen dimensies:
 
@@ -80,7 +80,7 @@ Een dimensiehiërarchie wordt gemaakt als een boomstructuur die knooppunt- en bl
 
 Een klein bedrijf heeft de volgende organisatiestructuur, waarin Financiën en Personeelszaken afdelingen zijn die onder Administatie vallen, en Assemblage en Verpakking onder Productie.
 
-![Voorbeeld van een organisatiestructuur](./media/dimension-hierarchy-org.png)
+![Voorbeeld van een organisatiestructuur.](./media/dimension-hierarchy-org.png)
 
 Een kostenobjectdimensie vertegenwoordigt alle kostenplaatsen in de organisatie.
 

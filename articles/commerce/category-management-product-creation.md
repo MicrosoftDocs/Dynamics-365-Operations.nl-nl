@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 678561856fbb5514ff954363a767091edac6dee2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 89237c830109e8cb304b2547230484f15b90d875
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794368"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351292"
 ---
 # <a name="manage-product-categories-and-products"></a>Productcategorieën en producten beheren
 
@@ -35,17 +35,17 @@ U ziet de verbeterde structuur van de pagina **Producthiërarchie in Commerce**.
 
 Met de verbeterde opzet voor producteigenschappen blijven producteigenschappen logisch gescheiden, op basis van hun toepassing in een groep, om de formulierstructuur voor details van vrijgegeven producten te weerspiegelen.
 
-![Groepering van de velden op basis van het toepassingsbereik van de eigenschappen](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+![Groepering van de velden op basis van het toepassingsbereik van de eigenschappen.](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
 U kunt schakelen tussen het beheren van specifieke eigenschappen voor rechtspersonen voor alle rechtspersonen en het beheren van deze eigenschappen voor een specifieke rechtspersoon.
 
 Als u eigenschappen wilt beheren voor alle rechtspersonen, selecteert u **Weergeven voor alle rechtspersonen** (of **Bewerken voor alle rechtspersonen**).
 
-![Weergeven/bewerken voor alle rechtspersonen](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+![Weergeven/bewerken voor alle rechtspersonen.](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
 Als u eigenschappen wilt beheren voor een specifieke rechtspersoon, selecteert u **Weergeven voor een specifieke rechtspersoon** (of **Bewerken voor een specifieke rechtspersoon**).
 
-![Weergeven/bewerken voor een specifieke rechtspersoon](media/ToggleToEditForAllLegalEntities.PNG)
+![Weergeven/bewerken voor een specifieke rechtspersoon.](media/ToggleToEditForAllLegalEntities.PNG)
 
 In de verbeterde productcategoriestructuur kan een merchandisingmanager nu ook standaardwaarden definiëren voor een aanvullende reeks producteigenschappen op het niveau van een individuele categorie. Wanneer de producten worden gemaakt, nemen ze deze standaardwaarden voor producteigenschappen over, op basis van de koppeling van deze eigenschappen met een individuele categorie uit de producthiërarchie. Deze overgenomen producteigenschappen kunnen ook worden aangepast voor elk product om te voldoen aan individuele zakelijke behoeften.
 
@@ -53,7 +53,7 @@ In de verbeterde productcategoriestructuur kan een merchandisingmanager nu ook s
 
 Gebruik de nieuwe uitgebreide structuur voor producteigenschappen om te selecteren welke producteigenschappen moeten worden verplaatst naar de bijbehorende producten. Op de pagina **Producthiërarchie in Commerce** selecteert u in het actievenster **Categorie** en vervolgens **Producten bijwerken** om het dialoogvenster **Producten bijwerken** te openen.
 
-![Het dialoogvenster Producten bijwerken](media/NewUpdateProductsEnhancedView.PNG)
+![Het dialoogvenster Producten bijwerken.](media/NewUpdateProductsEnhancedView.PNG)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

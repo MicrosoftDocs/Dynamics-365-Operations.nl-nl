@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e6f5ffbebdfcd9f945e6237904d80e8734b0220
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 15f564ec0b4639ba7a27c6f3f989304c71695ee4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752431"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356338"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2---model-mapping"></a>ER Financiële dimensies gebruiken als gegevensbron (deel 2: Modeltoewijzing)
 
@@ -56,14 +56,14 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen uitvoeren in de proce
 21. Selecteer Ja in het veld Vragen naar hoofdrekening.
     * Stel 'Vragen om hoofdrekening' in op Ja aan om gebruikers toe te staan om de hoofdrekening als onderdeel van de lijst van dimensies te selecteren.   Als dit op Nee is ingesteld, wordt de hoofdrekening niet opgenomen in de lijst van dimensies en wordt de optie 'Is hoofdrekening verplicht' ingeschakeld. Als "Is hoofdrekening verplicht" is ingesteld op Ja, wordt de hoofdrekening in de lijst van dimensies opgenomen ongeacht de keuze van de gebruiker.  
 22. Klik op OK.
-![Pagina voor ontwerper van ER-modeltoewijzingen](../media/er-financial-dimensions-guides-model-mapping1.png)
+![Pagina voor ontwerper van ER-modeltoewijzingen.](../media/er-financial-dimensions-guides-model-mapping1.png)
 23. Selecteer in de structuur 'Dynamics 365 for Operations\Tabelrecords'.
 24. Klik op Basis toevoegen.
 25. Typ 'LedgerJournal' in het veld Naam.
 26. Selecteer Ja in het veld Vragen om query.
 27. Typ 'LedgerJournalTable' in het veld Tabel.
 28. Klik op OK.
-![Pagina voor ontwerper van ER-modeltoewijzingen](../media/er-financial-dimensions-guides-model-mapping2.png)
+![Pagina voor ontwerper van ER-modeltoewijzingen.](../media/er-financial-dimensions-guides-model-mapping2.png)
 
 ## <a name="map-data-model-elements-to-added-data-sources"></a>Gegevensmodelelementen toewijzen aan toegevoegde gegevensbronnen
 1. Vouw in de structuur 'Journaal' uit.
@@ -94,7 +94,7 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen uitvoeren in de proce
 25. Selecteer in de structuur 'LedgerJournal\<Relations\LedgerJournalTrans\Account.Dimension(LedgerDimension.Dimension)\Hoofdrekening en dimensies'.
 26. Selecteer in de structuur 'Journaal\Transactie\Dimensiegegevens'.
 27. Klik op Binden.
-![Pagina voor ontwerper van ER-modeltoewijzingen](../media/er-financial-dimensions-guides-model-mapping3.png)
+![Pagina voor ontwerper van ER-modeltoewijzingen.](../media/er-financial-dimensions-guides-model-mapping3.png)
 28. Selecteer in de structuur 'LedgerJournal\<Relaties\LedgerJournalTrans\Debit(AmountCurDebit)'.
 29. Selecteer in de structuur 'Journaal\Transactie\Debet'.
 30. Klik op Binden.
@@ -133,7 +133,7 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen uitvoeren in de proce
 63. Typ in het veld expressionAsStringText 'Company.'find()'.'name()''.
     * Company.'find()'.'name()'  
 64. Klik op Opslaan.
-![Pagina voor ontwerper van ER-modeltoewijzingen](../media/er-financial-dimensions-guides-model-mapping4.png)
+![Pagina voor ontwerper van ER-modeltoewijzingen.](../media/er-financial-dimensions-guides-model-mapping4.png)
 65. Sluit de pagina.
 66. Klik op Opslaan.
 67. Sluit de pagina.
@@ -144,7 +144,7 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen uitvoeren in de proce
 3. Klik op Status wijzigen.
 4. Klik op Voltooien.
 5. Klik op OK.
-![Pagina voor ontwerper van ER-modeltoewijzingen](../media/er-financial-dimensions-guides-model-mapping5.png)
+![Pagina voor ontwerper van ER-modeltoewijzingen.](../media/er-financial-dimensions-guides-model-mapping5.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

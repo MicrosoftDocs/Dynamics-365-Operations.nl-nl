@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4238d1aa277bf2f1df30825ef20dbf3095d13ebc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f6e791ffd15128d2076340515a08b5ea6be70dae
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800562"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346003"
 ---
 # <a name="set-up-organization-hierarchies"></a>Organisatiehiërarchieën instellen
 
@@ -54,7 +54,7 @@ Volg deze stappen om om een organisatiehiërarchie te maken.
 
 De volgende afbeelding toont een voorbeeld van een organisatiehiërarchie die is gemaakt voor een fictieve reeks winkels van Adventure Works.
 
-![Voorbeeld van een organisatiehiërarchie](media/organizational-hierarchies.png)
+![Voorbeeld van een organisatiehiërarchie.](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Organisaties aan een hiërarchie toevoegen
 
@@ -67,9 +67,9 @@ Volg deze stappen om organisaties toe te voegen aan een hiërarchie.
 
 De volgende afbeelding toont een rechtspersoon die is toegevoegd aan de hiërarchiebasis. Er zijn vier kostenplaatsen toegevoegd: de kanalen winkelcentrum, outlet, online en callcenter. Aan elke winkel kunnen diverse detailhandels-, callcenter- en onlinekanalen worden toegevoegd.
 
-![Voorbeeld van hiërarchieontwerper](media/hierarchy-designer.png)
+![Voorbeeld van hiërarchieontwerper.](media/hierarchy-designer.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van Organisaties en organisatiehiërarchieën](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
 
