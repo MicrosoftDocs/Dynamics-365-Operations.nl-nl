@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 84c97bdbe00285d7992a25edbf5d42ffe9b58903
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8ddc7022a1e9a7db14aaa67efcd442025b0f9d8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814507"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344467"
 ---
 # <a name="replenishment-strategies"></a>Aanvullingsstrategieën
 
@@ -45,7 +45,7 @@ Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem
 
 Ga naar **Magazijnbeheer \> Instellingen \> Aanvulling \> Aanvullingssjablonen** om de sjablonen te openen. Selecteer of maak in de sectie **Overzicht** een aanvullingssjabloon voor een waveaanvraag, waarbij het veld **Aanvullingstype** is ingesteld op *Waveaanvraag*. Stel vervolgens de regels van de aanvullingssjabloon in de sectie **Details aanvullingssjabloon** in. Selecteer voor elke regel in het veld **Aanvullingsstrategie** de aanvullingsstrategie die u wilt gebruiken.
 
-![De pagina Aanvullingssjablonen](media/ReplenTempWaveDmdMaxLocCap.png "De pagina Aanvullingssjablonen")
+![De pagina Aanvullingssjablonen.](media/ReplenTempWaveDmdMaxLocCap.png "De pagina Aanvullingssjablonen")
 
 Als de kolom **Aanvullingsstrategie** niet wordt weergegeven in het raster in de sectie **Details van aanvullingssjabloon**, controleert u of de functie is ingeschakeld en of de geselecteerde aanvullingssjabloon het aanvullingstype *Waveaanvraag* heeft.
 
@@ -85,7 +85,7 @@ Als u in plaats daarvan de aanvullingsstrategie instelt op *Maximale capaciteit 
 - **Aanvullingswerk 1:** haal vier dozen op van de bulklocatie en zet deze op verzamellocatie-001.
 - **Aanvullingswerk 2:** haal vijf dozen op van de bulklocatie en zet deze op verzamellocatie-002.
 
-[![Voorbeeld 1](media/ReplenTemp_example_1.png "Voorbeeld 1")](media/ReplenTemp_example_1_large.png)
+[![Voorbeeld 1.](media/ReplenTemp_example_1.png "Voorbeeld 1")](media/ReplenTemp_example_1_large.png)
 
 ### <a name="example-2"></a>Voorbeeld 2
 
@@ -109,7 +109,7 @@ Afhankelijk van de instelling van de optie **Splitsen toestaan** in de locatie-i
 
 De resultaten verschillen vanwege de informatie die beschikbaar is wanneer u het werk maakt. Wanneer de optie **Splitsen toestaan** is ingesteld op *Ja* in de locatie-instructies voor het verzamelen van de aanvulling, weet u dat u 160 stuks hebt gevonden. Daarom kunt u werk voor die hoeveelheid maken. Als de optie **Splitsen toestaan** echter is ingesteld op *Nee*, weet u niet dat er 160 stuks bestaan. Omdat de extra hoeveelheid die u wilde aanvullen drie dozen groot was, verwijdert u die extra hoeveelheid en probeert u de oorspronkelijke hoeveelheid opnieuw.
 
-[![Voorbeeld 2](media/ReplenTemp_example_2.png "Voorbeeld 2")](media/ReplenTemp_example_2_large.png)
+[![Voorbeeld 2.](media/ReplenTemp_example_2.png "Voorbeeld 2")](media/ReplenTemp_example_2_large.png)
 
 Als u de maximumhoeveelheid wilt ophalen voor de aangevulde locaties, moet u daarom de optie **Splitsen toestaan** op *Ja* instellen in de locatie-instructies voor het verzamelen van de aanvulling.
 

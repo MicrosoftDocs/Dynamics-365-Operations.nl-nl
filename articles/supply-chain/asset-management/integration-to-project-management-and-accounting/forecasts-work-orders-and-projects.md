@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bf211e9f256a7489cdc3c38ed2d2198bd1dd6789
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86474d22f7a1426ed1c8f61c346ac7a6f67173f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813816"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345423"
 ---
 # <a name="forecasts-work-orders-and-projects"></a>Prognoses, werkorders en projecten
 
@@ -58,13 +58,13 @@ Een deel van deze informatie is mogelijk niet gevonden in een werkorder. Daarom 
 
 Vanwege de manier waarop het activumtype **Truckmotor** is ingesteld, is in de volgende afbeelding elke werkordertaak die is gemaakt met het activumtype **Truckmotor**, een subproject van project-id 000186.
 
-![Figuur 1](media/01-integration-to-pma.png)
+![Figuur 1.](media/01-integration-to-pma.png)
 
 Het doel van de project-id in de werkordertaak en het bijbehorende activiteitnummer is het bijhouden van kosten die zijn gerelateerd aan de werkordertaak en het activum dat ervoor is geselecteerd in de module **Projectbeheer en boekhouding**. (Als u de project-id en het activiteitnummer wilt bekijken, selecteert u **Activabeheer** > **Algemeen** > **Werkorders** > **Alle werkorders** en selecteert u de werkorder. Op het sneltabblad **Regeldetails** ziet u in het veld **Project-id** de project-id. In het veld **Activiteitnummer** ziet u het activiteitnummer.) Meer informatie over kostenbeheer in Activabeheer vindt u in [Kosten- en datumbeheer](../controlling-and-reporting/cost-and-date-control.md).
 
 In de volgende afbeelding ziet u een grafisch overzicht van werkorderprojecten en gerelateerde projectactiviteiten.
 
-![Figuur 2](media/02-integration-to-pma.png)
+![Figuur 2.](media/02-integration-to-pma.png)
 
 Wanneer een nieuwe werkordertaak wordt gemaakt voor een werkorder, wordt automatisch een werkorderproject gemaakt voor de taak. De financiële dimensies voor het activum dat is gekoppeld aan de werkordertaak, worden automatisch overgebracht naar het werkorderproject.
 
@@ -86,17 +86,17 @@ Houd rekening met de afhankelijkheden in relatie tot de module **Projectbeheer e
 
 De volgende afbeeldingen tonen de koppelingen tussen werkorderprojectgroepen, gerelateerde projecttypen, projectfasen en levenscyclusstatussen van werkorders.
 
-![Figuur 3](media/03-integration-to-pma.png)
+![Figuur 3.](media/03-integration-to-pma.png)
 
-![Figuur 4](media/04-integration-to-pma.png)
+![Figuur 4.](media/04-integration-to-pma.png)
 
-![Figuur 5](media/05-integration-to-pma.png)
+![Figuur 5.](media/05-integration-to-pma.png)
 
 Informatie over het instellen van werkorderprojecten vindt u in [Projectinstellingen werkorder](../setup-for-work-orders/work-order-project-setup.md). Zie [Levenscyclusstatussen van werkorder](../setup-for-work-orders/work-order-lifecycle-states.md) voor meer informatie over het maken van levenscyclusstatussen van werkorders.
 
 In de volgende afbeelding ziet u een grafisch overzicht van de verschillende projecten die in de module **Activabeheer** zijn gemaakt om de integratie met de module **Projectbeheer en boekhouding** mogelijk te maken. Ook worden de werkprocessen weergegeven waaraan de projecten zijn gekoppeld.
 
-![Figuur 6](media/06-integration-to-pma.png)
+![Figuur 6.](media/06-integration-to-pma.png)
 
 
 

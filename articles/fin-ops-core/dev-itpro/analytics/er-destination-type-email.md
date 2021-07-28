@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a575c04a5042e4db08f387bc7bce46225c109844
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753499"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347991"
 ---
 # <a name="email-er-destination-type"></a>ER-bestemmingstype voor e-mail
 
@@ -48,13 +48,13 @@ Als u een uitvoerbestand of meerdere uitvoerbestanden per e-mail wilt verzenden,
 
 U kunt e-mailadressen voor ER op twee manieren configureren. U kunt de configuratie voltooien op dezelfde manier als de afdrukbeheerfunctie of u kunt een e-mailadres oplossen door via een formule direct naar de nieuwe ER-configuratie te verwijzen.
 
-[![De optie Ingeschakeld instellen op Ja voor een e-mailbestemming](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
+[![De optie Ingeschakeld instellen op Ja voor een e-mailbestemming.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
 ## <a name="email-address-types"></a>E-mailadrestypen
 
 Als u **Bewerken** selecteert naast het veld **Aan** of **CC** in het dialoogvenster **Bestemmingsinstellingen**, wordt het dialoogvenster **E-mail naar** weergegeven. Selecteer **Toevoegen** en selecteer vervolgens het type e-mailadres dat u wilt gebruiken. Er worden momenteel twee typen ondersteund: **E-mail van Afdrukbeheer** en **Configuratie-e-mail**.
 
-[![Het type e-mailadres selecteren](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
+[![Het type e-mailadres selecteren.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>E-mail van Afdrukbeheer
 
@@ -84,7 +84,7 @@ Nadat u de gewenste rol hebt geselecteerd, selecteert u de knop **Binden** (kett
 
 Voer op de pagina **Formuleontwerper** in het veld **Formule** een documentspecifieke verwijzing in naar een ondersteunde rol. In plaats van de verwijzing te typen, zoekt u in het deelvenster **Gegevensbron** het knooppunt van de gegevensbron die een rekening vertegenwoordigt met de geconfigureerde rol en selecteert u vervolgens **Gegevensbron toevoegen** om de formule bij te werken. Als u bijvoorbeeld de e-mailbestemming configureert voor de configuratie **ISO 20022 Kredietoverdracht** die wordt gebruikt om leveranciersbetalingen te verwerken, is `'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID` het knooppunt dat een leveranciersrekening vertegenwoordigt.
 
-![Een e-mailbronaccount configureren](./media/er_destinations-emaildefineaddresssource.gif)
+![Een e-mailbronaccount configureren.](./media/er_destinations-emaildefineaddresssource.gif)
 
 Als de rekeningnummers van de geconfigureerde rol uniek zijn voor het gehele exemplaar van Microsoft Dynamics 365 Finance, kan het veld **Bvan e-mailbron** in het dialoogvenster **E-mail naar** leeg blijven.
 
@@ -108,7 +108,7 @@ Als u het type e-mailadres wilt opgeven dat tijdens runtime moet worden gebruikt
 
 Selecteer **Configuratie-e-mail** als het type e-mailadres als de configuratie die u gebruikt een knooppunt heeft in de gegevensbronnen die een enkel e-mailadres of meerdere e-mailadressen gescheiden door puntkomma's (;) retourneren. U kunt [gegevensbronnen](general-electronic-reporting.md#FormatComponentOutbound) en [functies](er-formula-language.md#functions) in de formuleontwerper gebruiken om een e-mailadres met juiste indeling te krijgen of meerdere e-mailadressen met een juiste indeling die door puntkomma's worden gescheiden. Als u bijvoorbeeld de configuratie **ISO 20022 Kredietoverdracht** gebruikt, is `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email` het knooppunt dat het primaire e-mailadres van een leverancier vertegenwoordigt in de contactgegevens van de leverancier waarnaar de begeleidende brief moet worden verzonden.
 
-[![Een e-mailadresbron configureren](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
+[![Een e-mailadresbron configureren.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 
 ## <a name="group-format-components"></a><a id="grouping"></a>Indelingsonderdelen groeperen
 
@@ -126,11 +126,11 @@ U kunt de groepering van indelingsonderdelen opheffen door op het sneltabblad **
 
 In de volgende afbeelding ziet u de structuur van een ERindeling die is geconfigureerd voor het produceren van een uitgaand zip-bestand met een notitie bij aanmaningen en toepasselijke klantfacturen in PDF-indeling.
 
-[![Structuur van een ER-indeling die uitgaande documenten genereert](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
+[![Structuur van een ER-indeling die uitgaande documenten genereert.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
 In de volgende afbeelding ziet u het proces, zoals beschreven in dit onderwerp, voor het groeperen van afzonderlijke onderdelen en het inschakelen van de bestemming **E-mail** voor de nieuwe groep, zodat een notitie bij een aanmaning wordt verzonden met de desbetreffende klantfacturen als e-mailbijlagen.
 
-[![Afzonderlijke onderdelen groeperen en de e-mailbestemming inschakelen](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
+[![Afzonderlijke onderdelen groeperen en de e-mailbestemming inschakelen.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: cabce32a43e55f3a3f19bc2d78547d9bab0d89a2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a08d14369057ceb9b23e9d6f9a79847c6175f88e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792044"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345077"
 ---
 # <a name="reset-receipt-numbers"></a>Nummers voor ontvangstbewijzen opnieuw instellen 
 
@@ -55,7 +55,7 @@ Voer de volgende stappen uit om het opnieuw instellen in te schakelen.
 1. Selecteer in het veld **Type voor opnieuw instellen van ontvangstbewijs** de optie **Eenmalig** of **Jaarlijks**.
 1. Selecteer **OK**.
 
-![Een datum voor het opnieuw instellen van een ontvangstbewijs selecteren](media/Enable_receipt_reset.png "Een datum voor het opnieuw instellen van een ontvangstbewijs selecteren")
+![Een datum voor het opnieuw instellen van een ontvangstbewijs selecteren.](media/Enable_receipt_reset.png "Een datum voor het opnieuw instellen van een ontvangstbewijs selecteren")
 
 Nadat u een datum hebt geselecteerd, wordt deze weergegeven in de kolom **Volgende datum voor opnieuw instellen van ontvangstbewijsnummer**. De datum voor opnieuw instellen is van toepassing op alle typen ontvangsttransacties. Daarom wordt de reeks ontvangstbewijsnummers opnieuw ingesteld voor alle typen ontvangstbewijzen.
 

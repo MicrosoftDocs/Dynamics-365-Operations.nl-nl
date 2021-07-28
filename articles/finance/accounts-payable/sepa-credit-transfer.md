@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 11124
+ms.custom:
+- "11124"
+- intro-internal
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 03732ecd5a0cd59d15fa1f9f0691571bd0a19606
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897157"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346445"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Overzicht SEPA-kredietoverdracht
 
@@ -30,7 +32,7 @@ Dit artikel geeft algemene informatie over ISO 20022-overschrijvingen, waaronder
 
 ## <a name="what-is-a-credit-transfer-message"></a>Wat is een kredietoverdrachtsbericht?
 Het kredietoverdrachtbericht is een aanvraag die een initiërende partij (uw bedrijf) verzendt om fondsen van een eigen rekening naar een crediteur over te maken. Er zijn veel land- of regio-specifieke en bank-specifieke implementaties van kredietoverdrachtberichten. Enkele daarvan worden gebruikt in een bepaald land/regio en sommige worden standaarden. Een algemeen aanvaarde internationale standaard is ISO 20022 en het initiatiebericht, zoals kredietoverdracht. In de volgende afbeelding ziet u de relaties en dekking voor geselecteerde kredietoverdrachtberichten 
-![Kredietoverdracht](./media/credit-transfer.jpg) Kredietoverdrachtberichten 
+![Kredietoverdracht.](./media/credit-transfer.jpg) Berichten over kredietoverdracht 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>Wat zijn ISO 20022- en SEPA-betalingen?
 De gemeenschappelijke betalingsruimte voor de euro (SEPA) is ingesteld door de Europese Commissie en dicteert dat alle elektronische betalingen als binnenlands worden beschouwd, ongeacht het land/de regio waar de persoon, het bedrijf of organisatie en de bank zich bevinden. Er is geen verschil tussen nationale en grensoverschrijdende betalingen. De SEPA omvat de 28 lidstaten van de Europese Unie (EU) plus IJsland, Liechtenstein, Noorwegen, Zwitserland, Monaco en San Marino. De SEPA helpt met de opbouw van een markt voor betalingstransacties in de Europese Economische Ruimte (EEA). Uiteindelijk moet SEPA het aantal betaalindelingen verminderen waar banken, bedrijven en personen mee moeten werken. De Europese Commissie vestigde de wettelijke basis voor SEPA-betalingen via de Richtlijn betaaldiensten (PSD, Payment Services Directive). De European Payments Council (EPC) ondersteunt SEPA met de volgende activiteiten:

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
-ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
+ms.openlocfilehash: d61fdbb8efd8251cac6db7d5acab3caeb03f7879
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6219782"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346589"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Inkoop integreren tussen Supply Chain Management en Field Service
 
@@ -31,7 +31,7 @@ Deze integratie ondersteunt het maken van inkooporders en in de meeste gevallen 
 
 De onderstaande afbeelding bevat de tabellen in beide systemen en laat zien hoe ze aan elkaar worden toegewezen. Inkooporders in Field Service verwijzen naar een *rekening*-rij, terwijl inkooporders in Supply Chain Management naar een *leverancier*-rij verwijzen. Voor de integratie wordt voor twee keer wegschrijven een verwijzing gebruikt om *leverancier*-rijen aan *rekening*-rijen te koppelen. Zie [Model voor geïntegreerde leveranciers](vendor-mapping.md) voor meer informatie.
 
-![Toewijzingen voor inkoop](media/scm-field-service-tables.png)
+![Toewijzingen voor inkoop.](media/scm-field-service-tables.png)
 
 ## <a name="prerequisites"></a>Vereisten
 

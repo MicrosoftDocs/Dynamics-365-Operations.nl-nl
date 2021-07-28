@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c3827c5cff009453c820e70f00bfa4f36d78973f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3bf1c8081eea86fd14600174d843447b727d0226
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755247"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347943"
 ---
 # <a name="modify-row-definition-cells"></a>Rijdefinitiecellen wijzigen
 
@@ -174,7 +174,7 @@ In de kolom **Opmaakcode** in een rijdefinitie passen de opmaakcodes **DES**, **
 
 In het volgende voorbeeld wil een gebruiker voorkomen dat de koptekst en onderstrepingstekens in de rij **Kastotaal** van haar rapport worden afgedrukt, omdat er geen activiteit in een van de rekeningen van contant geld is. Daarom voert de gebruiker in rij 220 (die, zoals de opmaakcode **---** aangeeft, een opmaakrij is) in de cel **Gerelateerde formules/rijen/eenheden** **250** in, wat de rijcode is van de bedragrij die de gebruiker wil onderdrukken.
 
-[![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
+[![RelatedRowsRowDefinition.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
 ## <a name="select-the-base-row-for-a-column-calculation"></a>De basisrij voor een kolomberekening selecteren
 Bij relationele rapportage wijst u één of meer basisrijen in de rijdefinitie toe door de opmaakcode **CBR** (basisrij wijzigen) te gebruiken. Een basisrij wordt vervolgens verwezen door een berekening in de kolomdefinitie. Hieronder staan enkele typische voorbeelden van CBR-berekeningen:
@@ -399,7 +399,7 @@ De cel **Koppeling naar financiële dimensies** bevat koppelingen naar de financ
 2. Dubbelklik op een cel in de kolom **Koppeling naar financiële dimensies**.
 3. Dubbelklik in het dialoogvenster **Dimensies** op een cel onder de dimensienaam.
 4. Selecteer **Persoon of bereik** in het dialoogvenster voor de dimensie.
-5. Voer in het veld **Van** de begindimensie in of klik op ![Bladeren](media/browse.gif "Bladeren") om naar beschikbare dimensies te zoeken. Om een bereik van dimensies in te voeren, voert u in het veld **Tot** de einddimensie in.
+5. Voer in het veld **Van** de begindimensie in of klik op ![Bladeren.](media/browse.gif "Bladeren") om te zoeken naar beschikbare dimensies. Om een bereik van dimensies in te voeren, voert u in het veld **Tot** de einddimensie in.
 6. Klik op **OK** om het dialoogvenster voor de dimensie te sluiten. Het dialoogvenster **Dimensies** geeft de bijgewerkte dimensie of het bijgewerkte bereik weer.
 7. Klik op **OK** om het dialoogvenster **Dimensies** te sluiten.
 

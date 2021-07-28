@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 32a1acba8b4ca9484cbbc4b23ba496521ec4f61b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190083"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347681"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Cross-docken van productieorders naar outbound docks
 
@@ -42,7 +42,7 @@ Een product wordt gereedgemeld bij de productie-uitvoerlocatie (3) en een heftru
 -   Als er al een trailer aan de laaddeur is toegewezen, wordt de vrachtwagenchauffeur doorgestuurd om het product rechtstreeks op de trailer te laden.
 -   Als er geen geplande activiteit is voor het overbrengen van het product, wordt de heftruckchauffeur doorgestuurd om het product op een locatie in het interne magazijn te plaatsen (5).
 
-[![opportunistisch cross-docken](./media/scenario1.png)](./media/scenario1.png)
+[![opportunistisch cross-docken.](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>Cross-docken configureren
 U configureert het proces van cross-docken in **Werkbeleid**. Een werkbeleid bevat een werkordertype, locatie en product. In het volgende voorbeeld wordt cross-docken geconfigureerd voor product X en locatie Y.

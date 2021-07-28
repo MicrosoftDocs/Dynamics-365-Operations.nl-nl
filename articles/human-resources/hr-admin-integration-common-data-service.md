@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 721799c9a6fafe0a809f447189ce6814b30ca863
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1a1ee5345e2d6b3736d45e233a59ac4009a9f1c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052452"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344683"
 ---
 # <a name="configure-dataverse-integration"></a>Dataverse-integratie configureren
 
@@ -48,15 +48,15 @@ Mogelijk wilt u integratie in de volgende situaties uitschakelen:
 
 1. Selecteer in het Human Resources-exemplaar waarin u de instellingen voor de integratie met Dataverse wilt weergeven of configureren, de tegel **Systeembeheer**.
 
-    [![Tegel Systeembeheer](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
+    [![Tegel Systeembeheer.](./media/hr-select-system-administration.png)](./media/hr-select-system-administration.png)
 
 2. Selecteer het tabblad **Koppelingen**.
 
-    [![Tabblad Koppelingen](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
+    [![Tabblad Koppelingen.](./media/hr-system-administration-links.png)](./media/hr-system-administration-links.png)
 
 3. Selecteer onder **Integraties** de optie **Dataverse-configuratie**.
 
-    [![Koppeling Dataverse-configuratie](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
+    [![Koppeling Dataverse-configuratie.](./media/hr-admin-integration-dataverse-select.png)](./media/hr-admin-integration-dataverse-select.png)
 
 ## <a name="turn-data-integration-between-human-resources-and-dataverse-on-or-off"></a>Gegevensintegratie tussen Human Resources en Dataverse in- of uitschakelen
 
@@ -67,7 +67,7 @@ Mogelijk wilt u integratie in de volgende situaties uitschakelen:
 
 - Als u de integratie wilt uitschakelen, stelt u de optie in op **Nee**.
 
-[![De Dataverse-integratie in- of uitschakelen](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
+[![De Dataverse-integratie in- of uitschakelen.](./media/hr-admin-integration-dataverse-enable-disable.png)](./media/hr-admin-integration-dataverse-enable-disable.png)
 
 > [!WARNING]
 > Het wordt nadrukkelijk aanbevolen om Dataverse-integratie uit te schakelen tijdens het uitvoeren van gegevensmigratietaken. Grote gegevensuploads kunnen de prestaties aanzienlijk beïnvloeden. Het uploaden van 2000 werknemers kan bijvoorbeeld enkele uren duren wanneer integratie is ingeschakeld, en minder dan een uur wanneer het is uitgeschakeld. De getallen die in dit voorbeeld worden gegeven, zijn alleen voor demonstratiedoeleinden. De exacte hoeveelheid tijd die nodig is voor het importeren van records kan sterk variëren op basis van een groot aantal factoren.
@@ -98,7 +98,7 @@ Als u problemen ondervindt tijdens de gegevenssynchronisatie tussen Human Resour
 
 - Als u de koppeling van een Human Resources-record en een Dataverse-rij wilt verwijderen, selecteert u de tabel in het veld **Dataverse-tabel** en selecteert u de optie **Traceringsgegevens wissen**.
 
-[![Traceringsgegevens wissen](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
+[![Traceringsgegevens wissen.](./media/hr-admin-integration-dataverse-clear-tracking.png)](./media/hr-admin-integration-dataverse-clear-tracking.png)
 
 Zie de volgende procedure als u een volledige synchronisatie wilt uitvoeren op de tabel nadat u de traceringsgegevens hebt gewist.
 
@@ -116,13 +116,13 @@ Een volledige synchronisatie uitvoeren voor een tabel tussen Human Resources en 
 
 2. Selecteer **Nu synchroniseren**.
 
-[![Een volledige synchronisatie uitvoeren](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
+[![Een volledige synchronisatie uitvoeren.](./media/hr-admin-integration-dataverse-sync-now.png)](./media/hr-admin-integration-dataverse-sync-now.png)
 
 ## <a name="see-also"></a>Zie ook
 
 [Dataverse-tabellen](hr-developer-entities.md)<br>
 [Virtuele Dataverse-entiteiten configureren](hr-admin-integration-common-data-service-virtual-entities.md)<br>
-[Veelgestelde vragen over virtuele tabellen voor Human Resources](hr-admin-virtual-entity-faq.md)<br>
+[Veelgestelde vragen over virtuele tabellen in Human Resources](hr-admin-virtual-entity-faq.md)<br>
 [Wat is Microsoft Dataverse?](/powerapps/maker/data-platform/data-platform-intro)<br>
 [Terminologiewijzigingen](/powerapps/maker/data-platform/data-platform-intro#terminology-updates)
 

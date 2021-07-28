@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6844f3962562a02609333ef7d6963801852af4b0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830757"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344141"
 ---
 # <a name="work-split"></a>Werk splitsen
 
@@ -51,7 +51,7 @@ Met de functie *Werk splitsen* worden de volgende twee knoppen toegevoegd aan he
 - **Werk splitsen**: splits de huidige werk-id in meerdere kleinere werk-id's die kunnen worden verwerkt door afzonderlijke werknemers.
 - **Werksplitsingssessie annuleren**: annuleer de sessie voor werksplitsing en maak het werk beschikbaar voor verwerking.
 
-![De knoppen Werk splitsen en Werksplitsingssessie annuleren](media/Work_split_buttons.png "De knoppen Werk splitsen en Werksplitsingssessie annuleren")
+![De knoppen Werk splitsen en Werksplitsingssessie annuleren.](media/Work_split_buttons.png "De knoppen Werk splitsen en Werksplitsingssessie annuleren")
 
 > [!IMPORTANT]
 > De knop **Werk splitsen** is niet beschikbaar als aan een van de volgende voorwaarden is voldaan:
@@ -94,7 +94,7 @@ Voer de volgende stappen uit om werk te splitsen.
 
     Het veld **Reden voor blokkeren van werk** voor het huidige werk wordt ingesteld op *Gesplitst werk* en het werk wordt geblokkeerd.
 
-    ![Reden voor blokkering](media/Blocking_reason.png "Reden voor blokkering")
+    ![Reden voor blokkering.](media/Blocking_reason.png "Reden voor blokkering")
 
 1. Selecteer de regels die u wilt verwijderen uit de huidige werk-id en toevoegen aan een nieuwe werk-id. De volgende gebeurtenissen vinden plaats:
 

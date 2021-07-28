@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60b318ab03bc1bb47517a206e8b2afd9c13cf273
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 189a420089db7612a6f1b9f8a74b36b72a750c17
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5891714"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345931"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Een ER-indeling aanpassen om een aangepast elektronisch document te genereren
 
@@ -142,7 +144,7 @@ Als u de standaard-ER-configuraties wilt toevoegen aan uw huidige exemplaar van 
 5. Selecteer op het sneltabblad **Versies** de versie **1.1** van de geselecteerde ER-indelingsconfiguratie.
 6. Selecteer **Importeren** om de geselecteerde versie vanuit de algemene opslagplaats te downloaden naar het huidige Finance-exemplaar.
 
-![Configuratie archiefpagina](./media/er-quick-start2-import-solution1.png)
+![Configuratie archiefpagina.](./media/er-quick-start2-import-solution1.png)
 
 > [!TIP]
 > Als u problemen ondervindt met de toegang tot de [globale opslagplaats](er-download-configurations-global-repo.md), kunt u in plaats daarvan [configuraties downloaden](download-electronic-reporting-configuration-lcs.md) van Microsoft Dynamics Lifecycle Services (LCS).
@@ -158,7 +160,7 @@ Als u de standaard-ER-configuraties wilt toevoegen aan uw huidige exemplaar van 
     - **Toewijzing voor betalingsmodel 1611**: Deze configuratie bevat het ER-onderdeel [Modeltoewijzing](general-electronic-reporting.md#data-model-and-model-mapping-components) dat aangeeft hoe het gegevensmodel tijdens runtime wordt ingevuld met toepassingsgegevens.
     - **BACS (UK)**: Deze configuratie bevat de ER-onderdelen [Indeling](general-electronic-reporting.md#FormatComponentOutbound) en Indelingstoewijzing. Het onderdeel Indeling specificeert de rapportindeling. Het onderdeel indelingstoewijzing bevat de modelgegevensbron en geeft aan hoe de rapportindeling wordt ingevuld door deze gegevensbron te gebruiken tijdens runtime.
 
-![Pagina Configuraties](./media/er-quick-start2-imported-solution1.png)
+![Pagina Configuraties.](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>Een leveranciersbetaling voorbereiden voor verwerking
 
@@ -177,7 +179,7 @@ U moet bankgegevens toevoegen voor een leveranciersaccount waarnaar later wordt 
     5. Voer in het veld **IBAN** de waarde **GB33BUKB20201555555555** in.
     6. U kunt in het veld **Routenummer** de standaardwaarde <a id="DefineRoutingNumber"></a>**123456** aanhouden.
 
-    ![Pagina Bankrekeningen van leverancier](./media/er-quick-start2-bank-account.png)
+    ![Pagina Bankrekeningen van leverancier.](./media/er-quick-start2-bank-account.png)
 
 4. Selecteer **Opslaan**.
 5. Sluit de pagina.
@@ -185,7 +187,7 @@ U moet bankgegevens toevoegen voor een leveranciersaccount waarnaar later wordt 
 7. Selecteer op de pagina met leveranciersgegevens de optie **Bewerken** om de pagina zo nodig bewerkbaar te maken.
 8. Ga naar het sneltabblad **Betaling** en selecteer in het veld **Bankrekening** de waarde **GBP OPER**.
 
-    ![Pagina Details leverancier](./media/er-quick-start2-bank-account-reference.png)
+    ![Pagina Details leverancier.](./media/er-quick-start2-bank-account-reference.png)
 
 9. Selecteer **Opslaan**.
 10. Sluit de pagina.
@@ -202,11 +204,11 @@ U moet een nieuwe leveranciersbetaling invoeren door middel van een [betalingsvo
 6. Configureer in het dialoogvenster **Betalingsvoorstel voor leverancier** alleen voorwaarden voor het filteren van records met de leveranciersrekening **GB_SI_000001** en selecteer vervolgens **OK**.
 7. Selecteer de regel voor de factuur **00000007_Inv** en selecteer vervolgens **Betaling maken**.
 
-    ![Dialoogvenster Betalingsvoorstel voor leverancier](./media/er-quick-start2-payment-proposal.png)
+    ![Dialoogvenster Betalingsvoorstel voor leverancier.](./media/er-quick-start2-payment-proposal.png)
 
 8. Controleer of de ingevoerde betaling is geconfigureerd voor gebruik van de betalingsmethode **Elektronisch**.
 
-    ![Pagina Leveranciersbetalingen](./media/er-quick-start2-payment-line.png)
+    ![Pagina Leveranciersbetalingen.](./media/er-quick-start2-payment-line.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-standard-er-format"></a><a id="ProcessVendorPayment1"></a>Een leveranciersbetaling verwerken met de standaard-ER-indeling
 
@@ -220,7 +222,7 @@ U moet de betalingsmethode Elektronisch configureren, zodat deze de geïmporteer
 4. Stel op het sneltabblad **Bestandsindelingen** de optie **Algemene elektronische exportindeling** in op **Ja**.
 5. Selecteer in het veld **Indelingsconfiguratie exporteren** de ER-indelingsconfiguratie **BACS (UK)**.
 
-    ![Pagina Betalingsmethoden - leveranciers](./media/er-quick-start2-method-of-payment1.png)
+    ![Pagina Betalingsmethoden - leveranciers.](./media/er-quick-start2-method-of-payment1.png)
 
 6. Selecteer **Opslaan**.
 
@@ -237,7 +239,7 @@ U moet de betalingsmethode Elektronisch configureren, zodat deze de geïmporteer
 5. Selecteer **OK**.
 6. Stel in het dialoogvenster **Parameters elektronische rapport** de optie **Controlerapport afdrukken** in op **Ja** en selecteer **OK**.
 
-    ![Pagina Parameters elektronisch rapport](./media/er-quick-start2-payment-dialog1.png)
+    ![Pagina Parameters elektronisch rapport.](./media/er-quick-start2-payment-dialog1.png)
 
     > [!NOTE]
     > Naast het betalingsbestand kunt u nu ook het controlerapport genereren.
@@ -249,7 +251,7 @@ U moet de betalingsmethode Elektronisch configureren, zodat deze de geïmporteer
 
         Merk op dat conform de [structuur](#PositionRoutingNumber) van de opgegeven ER-indeling de betalingsregel in het gegenereerde bestand begint met het routenummer dat was [gedefinieerd](#DefineRoutingNumber) voor de geconfigureerde bankrekening.
 
-        ![Betalingsbestand in txt-indeling](./media/er-quick-start2-payment-file1.png)
+        ![Betalingsbestand in txt-indeling.](./media/er-quick-start2-payment-file1.png)
 
 ## <a name="customize-the-standard-er-format"></a><a id="CustomizeProvidedFormat"></a>De standaard-ER-indeling aanpassen
 
@@ -265,13 +267,13 @@ In dit geval moet u als vertegenwoordiger van Litware, Inc. een nieuwe ER-indeli
 4. Selecteer in de veldgroep **Nieuw** de optie **Afleiden van naam: BACS (VK), Microsoft**.
 5. Voer in het veld **Naam** de waarde **BACS (UK, aangepast)** in.
 
-    ![Het vervolgkeuzemenu Configuratie maken](./media/er-quick-start2-add-derived-format.png)
+    ![Het vervolgkeuzemenu Configuratie maken.](./media/er-quick-start2-add-derived-format.png)
 
 6. Selecteer **Configuratie maken**.
 
 Versie 1.1.1 van de ER-indelingsconfiguratie **BACS (UK, aangepast)** wordt gemaakt. Deze versie heeft de [status](general-electronic-reporting.md#component-versioning) **Concept** en kan worden bewerkt. De huidige inhoud van uw aangepaste ER-indeling komt overeen met de inhoud van de indeling die wordt geleverd door Microsoft.
 
-![Pagina Configuraties](./media/er-quick-start2-derived-format-configuration1.png)
+![Pagina Configuraties.](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>Een aangepaste indeling bewerken
 
@@ -291,7 +293,7 @@ U moet de aangepaste indeling zo configureren dat deze voldoet aan de vereisten 
 
 7. Selecteer het element **transaction**.
 
-    ![Het element transaction in de ER Operations-ontwerper](./media/er-quick-start2-derived-format0.png)
+    ![Het element transaction in de ER Operations-ontwerper.](./media/er-quick-start2-derived-format0.png)
 
     > [!NOTE]
     > Het opgegeven rapport wordt zo geconfigureerd dat <a id="PositionRoutingNumber"></a>elke betalingsregel begint met het routenummer van de bank. Hiervoor wordt het indelingselement **vendBankRouteNum** gebruikt. 
@@ -309,13 +311,13 @@ U moet de aangepaste indeling zo configureren dat deze voldoet aan de vereisten 
 9. Selecteer in de boomstructuur met indelingsstructuren de waarde **vendBankSWIFT**.
 10. Selecteer **Omhoog** om het geselecteerde opmaakelement één niveau omhoog te verplaatsen. Herhaal deze stap totdat het element **vendBankSWIFT** het <a id="PositionSWIFTCode"></a>eerste element onder het bovenliggende element **transaction** is.
 
-    ![VendBankSWIFT als eerste element onder transaction in de ER Operations-ontwerper](./media/er-quick-start2-derived-format1.png)
+    ![VendBankSWIFT als eerste element onder transaction in de ER Operations-ontwerper.](./media/er-quick-start2-derived-format1.png)
 
 11. Terwijl het element **vendBankSWIFT** nog steeds is geselecteerd in de structuur met de indelingsstructuur, selecteert u het tabblad **Toewijzing** en vouwt u vervolgens de gegevensbron **model** uit.
 12. Vouw **model.Payment** \> **model.Payment.CreditorAgent** uit en selecteert het gegevensbronveld **model.Payment.CreditorAgent.BICFI**. Met dit veld van de gegevensbron wordt de SWIFT-code beschikbaar gemaakt van een leveranciersbank waaraan de rol van de agent in de verwerkte leverancierbetaling is toegewezen.
 13. Selecteer **Binden**. Het indelingselement **vendBankSWIFT** is nu gekoppeld aan het gegevensbronveld **model.Payment.CreditorAgent.BICFI**, zodat SWIFT-codes worden ingevoerd in gegenereerde betalingsbestanden.
 
-    ![Indelingselement vendBankSWIFT dat is gekoppeld aan het gegevensbronveld model.Payment.CreditorAgent.BICFI in de ER Operations-ontwerper](./media/er-quick-start2-derived-format2.png)
+    ![Indelingselement vendBankSWIFT dat is gekoppeld aan het gegevensbronveld model.Payment.CreditorAgent.BICFI in de ER Operations-ontwerper.](./media/er-quick-start2-derived-format2.png)
 
 14. Selecteer **Opslaan**.
 15. Sluit de pagina met de ontwerper.
@@ -333,7 +335,7 @@ Als u de conceptversie van een ER-indeling wilt gebruiken, moet u de ER-indeling
 5. Selecteer in de configuratiestructuur in het linkerdeel venster de waarde **BACS (UK, aangepast)**.
 6. Stel de optie **Concept uitvoeren** in op **Ja**.
 
-    ![De optie Concept uitvoeren op de pagina Configuraties](./media/er-quick-start2-derived-format-configuration2.png)
+    ![De optie Concept uitvoeren op de pagina Configuraties.](./media/er-quick-start2-derived-format-configuration2.png)
 
 ## <a name="process-a-vendor-payment-by-using-the-custom-er-format"></a><a id="ProcessVendorPayment2"></a>Een leveranciersbetaling verwerken met de aangepaste ER-indeling
 
@@ -347,7 +349,7 @@ U moet de elektronische betalingsmethode configureren, zodat de aangepaste ER-in
 4. Stel op het sneltabblad **Bestandsindelingen** de optie **Algemene elektronische exportindeling** in op **Ja**.
 5. Selecteer in het veld **Indelingsconfiguratie exporteren** de ER-indelingsconfiguratie **BACS (UK, aangepast)**.
 
-    ![Pagina Betalingsmethoden - leveranciers](./media/er-quick-start2-method-of-payment2.png)
+    ![Pagina Betalingsmethoden - leveranciers.](./media/er-quick-start2-method-of-payment2.png)
 
 6. Selecteer **Opslaan**.
 
@@ -376,7 +378,7 @@ U moet de elektronische betalingsmethode configureren, zodat de aangepaste ER-in
 
         Merk op dat, conform de structuur van uw aangepaste ER-indeling, de betalingsregel in het gegenereerde bestand nu [begint](#PositionSWIFTCode) met de SWIFT-code die is [ingevoerd](#DefineSWIFTCode) voor de bankrekening van de leverancier voor wie de betaling is verwerkt.
 
-        ![Betalingsbestand in txt-indeling](./media/er-quick-start2-payment-file2.png)
+        ![Betalingsbestand in txt-indeling.](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>Nieuwe versies van de standaardconfiguraties voor ER-indeling importeren
 
@@ -393,7 +395,7 @@ Als u de nieuwe versies van de ER-configuraties wilt toevoegen aan het huidige F
 5. Selecteer op het sneltabblad **Versies** de versie **3.3** van de geselecteerde ER-indelingsconfiguratie.
 6. Selecteer **Importeren** om de geselecteerde versie vanuit de algemene opslagplaats te downloaden naar het huidige Finance-exemplaar.
 
-![Configuratie archiefpagina](./media/er-quick-start2-import-solution2.png)
+![Configuratie archiefpagina.](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > Als u problemen ondervindt met de toegang tot de [globale opslagplaats](er-download-configurations-global-repo.md), kunt u in plaats daarvan [configuraties downloaden](download-electronic-reporting-configuration-lcs.md) van Lifecycle Services (LCS).
@@ -408,7 +410,7 @@ Als u de nieuwe versies van de ER-configuraties wilt toevoegen aan het huidige F
 6. Vouw op de **pagina Indelingsontwerper** het indelingselement **BACSReportsFolder** uit.
 7.  Merk op dat versie 3.3 het indelingselement **PaymentAdviceReport** bevat, dat wordt gebruikt om een betalingsadviesrapport te genereren wanneer een leveranciersbetaling wordt verwerkt.
 
-    ![Het indelingselement PaymentAdviceReport in de ER Operations-ontwerper](./media/er-quick-start2-imported-solution2.png)
+    ![Het indelingselement PaymentAdviceReport in de ER Operations-ontwerper.](./media/er-quick-start2-imported-solution2.png)
 
 8. Sluit de pagina met de ontwerper.
 
@@ -434,14 +436,14 @@ Als u de nieuwe functionaliteit van versie 3.3 van de indeling **BACS (UK)** wil
 3. Selecteer op het sneltabblad **Versies** versie **1.1.2** en selecteer vervolgens **Rebase**.
 4. Selecteer in het dialoogvenster **Rebase** in het veld **Doelversie** de versie **3.3** van de basisconfiguratie om deze toe te passen als de nieuwe basis en gebruik deze om de configuratie bij te werken.
 
-    ![Het dialoogvenster Rebase](./media/er-quick-start2-rebase1.png)
+    ![Het dialoogvenster Rebase.](./media/er-quick-start2-rebase1.png)
 
 5. Selecteer **OK**.
 6. U ziet dat het nummer van de conceptversie is gewijzigd van **1.1.2** in **3.3.2**, wat de wijziging van de basisversie weergeeft.
 
     Wanneer de aangepaste versie en een nieuwe basisversie worden samengevoegd, kunnen conflicten worden gedetecteerd vanwege indelingswijzigingen die niet automatisch kunnen worden samengevoegd.
 
-    ![Gerebasede configuratie met conflicten op de pagina Configuraties](./media/er-quick-start2-rebase2.png)
+    ![Gerebasede configuratie met conflicten op de pagina Configuraties.](./media/er-quick-start2-rebase2.png)
 
     Als conflicten worden gedetecteerd, moeten deze handmatig worden opgelost in de indelingsontwerper.
 
@@ -449,13 +451,13 @@ Als u de nieuwe functionaliteit van versie 3.3 van de indeling **BACS (UK)** wil
 8. Selecteer **Ontwerper**.
 9. Selecteer op de pagina **Indelingsontwerper** op het sneltabblad **Details** een rebase-conflictrecord en selecteer vervolgens **Basiswaarde toepassen**.
 
-    ![Een rebase-conflictrecord in de ER Operations-ontwerper](./media/er-quick-start2-rebase3.png)
+    ![Een rebase-conflictrecord in de ER Operations-ontwerper.](./media/er-quick-start2-rebase3.png)
 
 10. Selecteer **Opslaan**.
 
     De rebase-conflictrecord moet nu niet meer zichtbaar zijn op het sneltabblad **Details**.
 
-    ![Conflict opgelost in de ER Operations-ontwerper](./media/er-quick-start2-rebase4.png)
+    ![Conflict opgelost in de ER Operations-ontwerper.](./media/er-quick-start2-rebase4.png)
 
     > [!NOTE]
     > U hebt het conflict opgelost door te bevestigen dat versie 3 van het basis model moet worden gebruikt in deze ER-indeling.
@@ -463,7 +465,7 @@ Als u de nieuwe functionaliteit van versie 3.3 van de indeling **BACS (UK)** wil
 11. Navigeer naar **BACSReportsFolder** \> **bestand** \> **transacties** \> **transactie**.
 12. Op het tabblad **Toewijzing** ziet u dat versie 3.3.2 van de aangepaste ER-indeling zowel uw aanpassing bevat (het indelingselement **vendBankSWIFT** en de binding ervan) als ook de nieuwe functionaliteit van versie 3.3 van de basis-ER-indeling, die door Microsoft is geleverd (het indelingselement **PaymentAdviceReport Format** samen met de geneste elementen en geconfigureerde bindingen). Met slechts enkele muisklikken hebt u de wijzigingen van een nieuwe basisversie toegepast door deze samen te voegen met uw aanpassingen.
 
-    ![Samengevoegde indeling in de ER Operations-ontwerper](./media/er-quick-start2-rebase5.png)
+    ![Samengevoegde indeling in de ER Operations-ontwerper.](./media/er-quick-start2-rebase5.png)
 
 13. Sluit de pagina met de ontwerper.
 
@@ -488,7 +490,7 @@ Als u de nieuwe functionaliteit van versie 3.3 van de indeling **BACS (UK)** wil
     - Zet de optie **Controlerapport afdrukken** op **Ja**.
     - Zet de optie **Betalingsadvies afdrukken** op **Ja**.
 
-    ![Dialoogvenster Parameters elektronisch rapport](./media/er-quick-start2-payment-dialog2.png)
+    ![Dialoogvenster Parameters elektronisch rapport.](./media/er-quick-start2-payment-dialog2.png)
 
     > [!NOTE]
     > Naast het betalingsbestand kunt u nu zowel het controlerapport als het betalingsadviesrapport genereren.
@@ -499,13 +501,13 @@ Als u de nieuwe functionaliteit van versie 3.3 van de indeling **BACS (UK)** wil
     - Het controlerapport in Excel-indeling
     - Het betalingsadvies in Excel-indeling
 
-        ![Betalingsadviesrapport in Excel-indeling](./media/er-quick-start2-payment-advice-report.png)
+        ![Betalingsadviesrapport in Excel-indeling.](./media/er-quick-start2-payment-advice-report.png)
 
     - Het betalingsbestand in txt-indeling
 
         Merk op dat, conform de structuur van uw aangepaste ER-indeling, de betalingsregel in het gegenereerde bestand nu begint met de SWIFT-code die is ingevoerd voor de bankrekening van een leverancier voor wie de betaling is verwerkt.
 
-        ![Betalingsbestand in txt-indeling](./media/er-quick-start2-payment-file3.png)
+        ![Betalingsbestand in txt-indeling.](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>Aanvullende bronnen
 

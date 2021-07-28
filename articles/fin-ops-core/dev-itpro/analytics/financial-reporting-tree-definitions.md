@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: 97ecd7996ed2d8fb12c1038aa296450d3481e6fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866297"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345781"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Rapportagestructuurdefinities in financiële rapporten
 
@@ -170,23 +170,23 @@ Hier is de structuur van de rapportage-eenheden in de volgende rapportagestructu
 - De rapportage-eenheden op het laagste detailniveau (Home Sales, Auto Sales, Client Services en Operations) zijn afdelingen in de financiële gegevens. Deze rapportage-eenheden bevinden zich in het gearceerde gebied van het diagram.
 - De samenvattingseenheden op hoger niveau vatten informatie van de detaileenheden samen.
 
-[![Structuur van Contoso-overzichtsrapport - Voorbeeld 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Structuur van Contoso-overzichtsrapport - Voorbeeld 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Structuur van rapportage-eenheid – Voorbeeld 2
 
 In het volgende diagram heeft de rapportagestructuur een organisatiestructuur die op bedrijfsfunctie is verdeeld.
 
-[![Structuur van Contoso-overzichtsrapport - Voorbeeld 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Structuur van Contoso-overzichtsrapport - Voorbeeld 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Voorbeeld van het dialoogvenster Rapportage-eenheden uit dimensies invoegen
 
 De volgende afbeelding toont een voorbeeld van het dialoogvenster **Rapportage-eenheden uit dimensies invoegen**. In dit voorbeeld retourneren de resultaten de combinatie van business units, kostenplaatsen en afdelingen.
 
-[![Rapporteringseenheden invoegen](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Rapporteringseenheden invoegen.](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 De resulterende rapportagestructuurdefinitie is gesorteerd op business unit, vervolgens op kostenplaats en tot slot op afdeling. De dimensie voor de vijfde rapportage-eenheid is **Bedrijfseenheid = \[001\], Kostenplaats =\[\], Afdeling = \[022\]** en identificeert een rapportage-eenheid voor rekeningen die specifiek zijn voor bedrijfseenheid 001 en afdeling 022.
 
-[![Afbeelding van de rapportagestructuur](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Afbeelding van de rapportagestructuur.](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Voorbeelden van samenvoeging van gegevens
 
@@ -194,11 +194,11 @@ De volgende voorbeelden geven mogelijke informatie weer die worden gebruikt in e
 
 #### <a name="example-1"></a>Voorbeeld 1
 
-[![totalisatie van meerdere bedrijven](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Totalisatie van meerdere bedrijven.](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Voorbeeld 2
 
-[![Totalisatie van afdelingen van meerdere bedrijven](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Totalisatie van afdelingen van meerdere bedrijven.](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

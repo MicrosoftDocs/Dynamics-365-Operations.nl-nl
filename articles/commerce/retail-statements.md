@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.openlocfilehash: 8d6687ddaae28ebf278aca6a78ba798e2e79edd8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 41d135af00618dbe4046338c8d0e6f5a01f33892
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791916"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345001"
 ---
 # <a name="retail-statements"></a>Detailhandeloverzichten
 
@@ -31,7 +31,7 @@ In Dynamics 365 Commerce wordt het boekingsproces voor overzichten gebruikt voor
 
 In het volgende illustratie geeft het overzichtboekingsproces weer. In dit proces worden transacties die zijn vastgelegd in de POS naar de client verzonden door de Commerce-planner te gebruiken. Nadat de client de transacties ontvangen heeft, kunt u het transactieoverzicht voor de winkel maken, berekenen en boeken.
 
-[![Boekingsproces overzicht](./media/retail-statements.png)](./media/retail-statements.png)
+[![Boekingsproces overzicht.](./media/retail-statements.png)](./media/retail-statements.png)
 
 ## <a name="creating-and-posting-statements"></a>Overzichten maken en boeken
 

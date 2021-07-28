@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 69f497ed8efff9aa18dedbce65d88e3b2d5168a6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8941ca0d2b9599dabd05427949d72f55aae7d6bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839024"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347633"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Kopteksten en regels in verkoopfacturen rechtstreeks synchroniseren vanuit Finance and Operations naar Sales
 
@@ -33,7 +33,7 @@ In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden
 
 De oplossing Prospect naar contant geld gebruikt de functie Gegevensintegratie om gegevens te synchroniseren tussen exemplaren van Supply Chain Management en Sales. De Prospect naar contant geld-sjablonen die beschikbaar zijn in de functie Gegevensintegratie activeren de stroom van gegevens over rekeningen, contactpersonen, producten, verkoopoffertes en verkoopfacturen tussen Supply Chain Management en Sales. De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen Supply Chain Management en Sales.
 
-[![Gegevensstroom in Prospect naar contant geld](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Gegevensstroom in Prospect naar contant geld.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Sjablonen en taken
 
@@ -116,17 +116,17 @@ In de volgende afbeeldingen ziet u een voorbeeld van sjabloontoewijzing in Gegev
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
-![Sjabloontoewijzing in Gegevensintegratie](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
+![Sjabloontoewijzing in Gegevensintegratie.](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="salesinvoiceline"></a>SalesInvoiceLine
 
-![Sjabloontoewijzing in Gegevensintegratie](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
+![Sjabloontoewijzing in Gegevensintegratie.](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
 
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Van prospect naar contant geld](prospect-to-cash.md)
+[Van prospect tot contant geld](prospect-to-cash.md)
 
 [Rekeningen rechtstreeks vanuit Sales synchroniseren met klanten in Supply Chain Management](accounts-template-mapping-direct.md)
 

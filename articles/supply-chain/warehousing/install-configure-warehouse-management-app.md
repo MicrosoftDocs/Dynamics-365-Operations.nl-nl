@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 810592bcbe11b03753c12ab7bfe6160d3e9233ee
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: 5aa67673fe05394f498d0844b8e58ba6f0ec1d85
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049311"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346077"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>De mobiele app Magazijnbeheer installeren en verbinden
 
@@ -78,28 +78,28 @@ Als u de mobiele app Magazijnbeheer wilt inschakelen voor interactie met een spe
 1. Voer de naam en het wachtwoord in van de gebruiker die toegang heeft tot het Azure-abonnement.
 1. Selecteer in de Azure-portal in het linkernavigatievenster de optie **Azure Active Directory**.
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. Controleer of u werkt met het exemplaar van Azure AD dat wordt gebruikt door Supply Chain Management.
 1. Selecteer in de lijst **Beheren** de optie **App-registraties**.
 
-    ![App-registraties](media/app-connect-azure-register.png "App-registraties")
+    ![App-registraties.](media/app-connect-azure-register.png "App-registraties")
 
 1. Selecteer op de werkbalk de optie **Nieuwe registratie** om de wizard **Een toepassing registreren** te openen.
 1. Voer een naam voor de toepassing in, selecteer de optie **Alleen accounts in deze organisatieadreslijst** en selecteer vervolgens **Registreren**.
 
-    ![Wizard Een toepassing registreren](media/app-connect-azure-register-wizard.png "Wizard Een toepassing registreren")
+    ![Wizard Een toepassing registreren.](media/app-connect-azure-register-wizard.png "Wizard Een toepassing registreren")
 
 1. Uw nieuwe app-registratie wordt geopend. Noteer de waarde in het veld **Toepassings-id (client)**. U hebt deze later nog nodig. Deze id wordt later in dit onderwerp aangeduid als de *client-id*.
 
-    ![Id van toepassing (client)](media/app-connect-azure-app-id.png "Id van toepassing (client)")
+    ![Id van toepassing (client).](media/app-connect-azure-app-id.png "Id van toepassing (client)")
 
 1. Selecteer in de lijst **Beheren** de optie **Certificaat en geheimen**. Selecteer vervolgens een van de volgende knoppen, afhankelijk van hoe u de app wilt configureren voor verificatie. (Zie de sectie [Verifiëren via een certificaat of clientgeheim](#authenticate) verderop in dit onderwerp voor meer informatie.)
 
     - **Certificaat uploaden**: upload een certificaat voor gebruik als geheim. We raden deze benadering aan, omdat het veiliger is en ook meer kan worden geautomatiseerd. Als u de mobiele app Magazijnbeheer uitvoert op Windows-apparaten, noteert u de waarde voor **Vingerafdruk** die wordt weergegeven nadat u het certificaat hebt geüpload. U hebt deze waarde nodig wanneer u het certificaat op Windows-apparaten configureert.
     - **Nieuw clientgeheim**: maak een sleutel door een beschrijving en een duur voor de sleutel in te voeren in de sectie **Wachtwoorden** en selecteer vervolgens **Toevoegen**. Maak een kopie van de sleutel en sla deze veilig op.
 
-    ![Certificaat en geheimen](media/app-connect-azure-authentication.png "Certificaat en geheimen")
+    ![Certificaat en geheimen.](media/app-connect-azure-authentication.png "Certificaat en geheimen")
 
 Zie de volgende bronnen voor meer informatie over het instellen van webservicetoepassingen in Azure AD.
 
@@ -119,7 +119,7 @@ Voer de volgende stappen uit om Supply Chain Management in staat te stellen om u
     1. Maak een gebruiker.
     1. Wijs de gebruiker van het mobiele apparaat voor magazijnbeheer toe.
 
-    ![De gebruiker van het mobiele apparaat voor magazijnbeheer toewijzen](media/app-connect-app-users.png "De gebruiker van het mobiele apparaat voor magazijnbeheer toewijzen")
+    ![Wijs de gebruiker van het mobiele apparaat voor magazijnbeheer toe.](media/app-connect-app-users.png "De gebruiker van het mobiele apparaat voor magazijnbeheer toewijzen")
 
 1. Koppel uw Azure AD-toepassing aan de gebruiker van de mobiele app Magazijnbeheer:
 
@@ -127,7 +127,7 @@ Voer de volgende stappen uit om Supply Chain Management in staat te stellen om u
     1. Maak een regel.
     1. Voer de client-id in waarvan u een notitie hebt gemaakt in de vorige sectie, geef deze een naam en selecteer de gebruiker die u zojuist hebt gemaakt. We adviseren u om al uw apparaten te labelen. Als een apparaat dan kwijtraakt, kunt u de toegang ervan tot Supply Chain Management eenvoudig verwijderen vanaf deze pagina.
 
-    ![Azure Active Directory-toepassingen](media/app-connect-aad-apps.png "Azure Active Directory-toepassingen")
+    ![Azure Active Directory-toepassingen.](media/app-connect-aad-apps.png "Azure Active Directory-toepassingen")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Verifiëren via een certificaat of clientgeheim
 
@@ -213,30 +213,30 @@ Volg deze stappen om verbindingsinstellingen te importeren vanuit een bestand of
 
 1. Start de mobiele app Magazijnbeheer op uw mobiele apparaat. De eerste keer dat u de app start, wordt een welkomstbericht weergegeven. Selecteer **Een verbinding selecteren**.
 
-    ![Welkomstbericht](media/app-configure-welcome-screen.png "Welkomstbericht")
+    ![Welkomstbericht.](media/app-configure-welcome-screen.png "Welkomstbericht")
 
 1. Als u de verbindingsinstellingen vanuit een bestand importeert en de standaardnaam en -locatie zijn gebruikt bij het opslaan van het bestand, kan de app het bestand mogelijk al hebben gevonden. Ga in dit geval verder naar stap 4. Anders selecteert **Verbinding instellen** en gaat u door naar stap 3.
 
-    ![Verbinding instellen](media/app-configure-set-up-connection.png "Verbinding instellen")
+    ![Verbinding instellen.](media/app-configure-set-up-connection.png "Verbinding instellen")
 
 1. Selecteer in het dialoogvenster **Verbindingsinstellingen** de optie **Uit bestand toevoegen** of **Uit QR-code toevoegen**, afhankelijk van hoe u de instellingen wilt importeren:
 
     - Als u de verbindingsinstellingen vanuit een bestand importeert, selecteert u **Uit bestand toevoegen**, bladert u naar het bestand op het lokale apparaat en selecteert u dit bestand. Als u een aangepaste locatie selecteert, wordt deze door de app opgeslagen en de volgende keer automatisch gebruikt.
     - Als u de verbindingsinstellingen importeert door een QR-code te scannen, selecteert u **Uit QR-code toevoegen**. De app vraagt u om toestemming om de camera van het apparaat te gebruiken. Nadat u toestemming hebt gegeven, wordt de camera gestart, zodat u deze kunt gebruiken voor het scannen. Afhankelijk van de kwaliteit van de camera van het apparaat en de complexiteit van de QR-code kan het lastig zijn om een correcte scan te krijgen. Probeer in dat geval de complexiteit van de QR-code te verminderen door slechts één verbinding per QR-code te genereren. (Momenteel kunt u alleen de camera van het apparaat gebruiken om de QR-code te scannen.)
 
-    ![Menu Verbindingsinstellingen](media/app-configure-connection-setup-flyout.png "Menu Verbindingsinstellingen")
+    ![Menu Verbindingsinstellingen.](media/app-configure-connection-setup-flyout.png "Menu Verbindingsinstellingen")
 
 1. Wanneer de verbindingsinstellingen zijn geladen, wordt de geselecteerde verbinding weergegeven.
 
-    ![Verbindingsinstellingen geladen](media/app-configure-select-connection.png "Verbindingsinstellingen geladen")
+    ![Verbindingsinstellingen geladen.](media/app-configure-select-connection.png "Verbindingsinstellingen geladen")
 
 1. Als u met een Android-apparaat werkt en een certificaat voor verificatie gebruikt, vraagt het apparaat u om het certificaat te selecteren.
 
-    ![Certificaatprompt selecteren op een Android-apparaat](media/app-configure-select-certificate.png "Certificaatprompt selecteren op een Android-apparaat")
+    ![Certificaatprompt selecteren op een Android-apparaat.](media/app-configure-select-certificate.png "Certificaatprompt selecteren op een Android-apparaat")
 
 1. De app maakt verbinding met uw Supply Chain Management-server en geeft de aanmeldingspagina weer.
 
-    ![Aanmeldingspagina](media/app-configure-sign-in-page.png "Aanmeldingspagina")
+    ![Aanmeldingspagina.](media/app-configure-sign-in-page.png "Aanmeldingspagina")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>De toepassing handmatig configureren
 
@@ -246,15 +246,15 @@ Als u geen bestand of QR-code hebt, kunt u de app handmatig configureren op het 
 1. Selecteer **Verbindingsinstellingen** als de app is gestart in de **demonstratiemodus**. Als de pagina **Aanmelden** wordt weergegeven wanneer de app wordt gestart, selecteert u **Verbinding wijzigen**.
 1. Selecteer **Verbinding instellen**.
 
-    ![Verbinding instellen](media/app-configure-set-up-connection.png "Verbinding instellen")
+    ![Verbinding instellen.](media/app-configure-set-up-connection.png "Verbinding instellen")
 
 1. Selecteer **Handmatig invoeren**.
 
-    ![Menu Verbindingsinstellingen](media/app-configure-connection-setup-flyout.png "Menu Verbindingsinstellingen")
+    ![Menu Verbindingsinstellingen.](media/app-configure-connection-setup-flyout.png "Menu Verbindingsinstellingen")
 
     De pagina **Nieuwe verbinding** wordt weergegeven en toont de instellingen die nodig zijn om de verbindingsgegevens handmatig in te voeren.
 
-    ![Handmatige verbindingsvelden](media/app-configure-input-manually.png "Handmatige verbindingsvelden")
+    ![Handmatige verbindingsvelden.](media/app-configure-input-manually.png "Handmatige verbindingsvelden")
 
 1. Voer de volgende gegevens in:
 

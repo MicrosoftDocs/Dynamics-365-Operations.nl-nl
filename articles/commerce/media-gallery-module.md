@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e9af56a8a82938fa7d23e8096db2c59ed5fcb517
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271275"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346711"
 ---
 # <a name="media-gallery-module"></a>Module Mediagalerie
 
@@ -41,11 +41,11 @@ Hier volgen enkele gebruiksvoorbeelden voor mediagaleriemodules:
 
 In het voorbeeld in de volgende afbeelding host een koopvak op een PDP productafbeeldingen met behulp van een mediagaleriemodule.
 
-![Voorbeeld van een koopvak op een pagina met productgegevens waarop productafbeeldingen worden gehost met behulp van een mediagaleriemodule](./media/ecommerce-pdp-buybox.PNG)
+![Voorbeeld van een koopvak op een pagina met productgegevens waarop productafbeeldingen worden gehost met behulp van een mediagaleriemodule.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>Eigenschappen van mediagalerie
 
-| Naam van eigenschap. | Waarden | Omschrijving |
+| Naam van eigenschap. | Waarden | Beschrijving |
 |---------------|--------|-------------|
 | Bron afbeelding | **Paginacontext** of **Product-id** | De standaardwaarde is **Paginacontext**. Als **Paginacontext** is geselecteerd, verwacht de module dat de pagina de product-id-informatie opgeeft. Als **product-id** is geselecteerd, moet de product-id voor een afbeelding worden opgegeven als de waarde van de eigenschap **Product-id**. Deze mogelijkheid is beschikbaar in Commerce versie 10.0.12. |
 | Product-ID | Een product-id | Deze eigenschap is alleen van toepassing als de waarde van de eigenschap **Afbeeldingsbron** **Product-id** is. |
@@ -59,11 +59,11 @@ In het voorbeeld in de volgende afbeelding host een koopvak op een PDP productaf
 
 In de volgende afbeelding ziet u een voorbeeld van een module mediagalerie waarin de opties voor volledig scherm en zoomen beschikbaar zijn.
 
-![Voorbeeld van een module mediagalerie waarin de opties voor volledig scherm en zoomen beschikbaar zijn](./media/ecommerce-media-zoom.png)
+![Voorbeeld van een module mediagalerie waarin de opties voor volledig scherm en zoomen beschikbaar zijn.](./media/ecommerce-media-zoom.png)
 
 In de volgende afbeelding ziet u een voorbeeld van een mediagaleriemodule met geselecteerde afbeeldingen (dat wil zeggen dat de opgegeven afbeeldingen niet afhankelijk zijn van de product-id of pagina context).
 
-![Voorbeeld van een mediagaleriemodule met geselecteerde afbeeldingen](./media/ecommerce-media-curated.PNG)
+![Voorbeeld van een mediagaleriemodule met geselecteerde afbeeldingen.](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interactie met Commerce Scale Unit
 

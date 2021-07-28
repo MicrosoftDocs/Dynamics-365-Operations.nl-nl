@@ -9,17 +9,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: rhaertle
-ms.custom: 62303
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be65f8c49d5a4fb87f7d859c1e012d53515ad073
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: bc81c7eed4724f9f68b592b23818781e1b047ebf
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893493"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6340296"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Documentatie voor Finance and Operations-apps
 
@@ -46,18 +46,18 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamic
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">Levenscyclus van de implementatie</a></h3>
 <p><a href="/dynamics365/fasttrack/">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Onboarding van een project</a></p>
-<p><a href="imp-lifecycle/prepare-go-live.md">Voorbereiden voor go-live</a></p>
+<p><a href="imp-lifecycle/prepare-go-live.md">Voorbereiding voor live gaan</a></p>
 
-<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">Updates van service met één versie</a></h3>
-<p><a href="get-started/one-version.md">Veelgestelde vragen over updates van service met één versie</a></p>
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">One Version-service-updates</a></h3>
+<p><a href="get-started/one-version.md">Veelgestelde vragen over One Version-service-updates</a></p>
 <p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">Lifecycle-beleid voor software: cloud</a></p>
 <p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">Lifecycle-beleid voor software: on-premises</a></p>
-<p><a href="get-started/public-preview-releases.md">Standaard- en First Release-serviceupdates</a></p>
+<p><a href="get-started/public-preview-releases.md">Standaard- en First Release-service-updates</a></p>
 <p><a href="get-started/whats-new-changed.md">Nieuwe of gewijzigde functies</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Upgrades, updates en hotfixes</a></p>
 <p><a href="../dev-itpro/deployment/apply-deployable-package-system.md">Updates toepassen op cloudomgevingen</a></p>
-<p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">Serviceupdates configureren</a></p>
-<p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Serviceupdates onderbreken</a></p>
+<p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">Service-updates configureren</a></p>
+<p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">Service-updates onderbreken</a></p>
 <p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">Bericht ontvangen over service-updates</a></p>
 <p><a href="../dev-itpro/data-entities/data-task-automation.md">Automatisering van gegevenstaak</a></p>
 <p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>

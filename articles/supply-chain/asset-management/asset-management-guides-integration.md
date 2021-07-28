@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3793dca681e28b90e96469256f368620393704f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908562"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344265"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Dynamics 365 Supply Chain Management (Asset Management) integreren met Dynamics 365 Guides
 
@@ -56,38 +56,38 @@ Voer de volgende stappen uit om een guide aan een sjabloon voor onderhoudscontro
     1. Selecteer op het sneltabblad **Regels onderhoudscontrolelijsten** de regel waaraan u de guide wilt koppelen.
     1. Selecteer op het sneltabblad **Gekoppelde guides** de optie **Guide toevoegen**.
 
-        ![Een guide aan een regel van een onderhoudscontrolelijst koppelen](media/am-guides-integration-add-guide.png "Een guide aan een regel van een onderhoudscontrolelijst koppelen")
+        ![Een guide aan een regel van een onderhoudscontrolelijst koppelen.](media/am-guides-integration-add-guide.png "Een guide aan een regel van een onderhoudscontrolelijst koppelen")
 
     1. Selecteer in het veld **Naam** een guide en selecteer vervolgens **Opslaan**.
 
-        ![Een guide selecteren in het veld Naam](media/am-guides-integration-select-guide.png "Een guide selecteren in het veld Naam")
+        ![Een guide selecteren in het veld Naam.](media/am-guides-integration-select-guide.png "Een guide selecteren in het veld Naam")
 
 1. De sjabloon voor onderhoudscontrolelijsten koppelen aan een taaktype:
 
     1. [Maak een onderhoudstaaktype](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type) of selecteer een bestaand type onderhoudstaak.
     1. Selecteer in het actievenster **Standaardwaarden voor het onderhoudstaaktype**.
 
-        ![Knop voor standaardinstellingen voor onderhoudstaaktypen](media/am-guides-integration-job-defaults.png "Knop voor standaardinstellingen voor onderhoudstaaktypen")
+        ![Knop voor standaardinstellingen voor onderhoudstaaktypen.](media/am-guides-integration-job-defaults.png "Knop voor standaardinstellingen voor onderhoudstaaktypen")
 
     1. Maak een regel en selecteer vervolgens **Opslaan**.
 
-        ![Een regel maken](media/am-guides-integration-add-line.png "Een regel maken")
+        ![Maak een regel.](media/am-guides-integration-add-line.png "Een regel maken")
 
     1. Selecteer in het actievenster de optie **Onderhoudscontrolelijst**.
 
-        ![Knop Onderhoudscontrolelijst](media/am-guides-integration-maintenance-checklist.png "Knop Onderhoudscontrolelijst")
+        ![Knop Onderhoudscontrolelijst.](media/am-guides-integration-maintenance-checklist.png "Knop Onderhoudscontrolelijst")
 
     1. Voeg op het sneltabblad **Regels onderhoudscontrolelijsten** een regel toe en wijzig vervolgens de waarde van het veld **Type** in **Sjabloon**.
 
-        ![De waarde voor Type wijzigen](media/am-guides-integration-checklist-lines.png "De waarde voor Type wijzigen")
+        ![De waarde voor Type wijzigen.](media/am-guides-integration-checklist-lines.png "De waarde voor Type wijzigen")
 
     1. Selecteer op het sneltabblad **Regeldetails** in het veld **Sjabloon** de sjabloon waaraan u de guide hebt gekoppeld en selecteer vervolgens **Opslaan**.
 
-        ![De sjabloon selecteren](media/am-guides-integration-checklist-line-details.png "De sjabloon selecteren")
+        ![De sjabloon selecteren.](media/am-guides-integration-checklist-line-details.png "De sjabloon selecteren")
 
 1. [Maak een werkorder](work-orders/manually-created-workorders.md#create-work-order) en selecteer het type onderhoudstaak dat gebruikmaakt van de sjabloon voor onderhoudscontrolelijsten waaraan u de guide hebt gekoppeld. De guide wordt automatisch gekoppeld aan de werkorder.
 
-    ![Een type onderhoudstaak selecteren](media/am-guides-integration-create-work-order.png "Een type onderhoudstaak selecteren")
+    ![Een type onderhoudstaak selecteren.](media/am-guides-integration-create-work-order.png "Een type onderhoudstaak selecteren")
 
 1. Bekijk de guide die aan de werkorder en werknemers is gekoppeld:
 
@@ -95,11 +95,11 @@ Voer de volgende stappen uit om een guide aan een sjabloon voor onderhoudscontro
     1. [Open de onderhoudscontrolelijst](asset-management-mobile-workspace.md#view-maintenance-checklist-on-a-work-order-job) voor de werkorder.
     1. Selecteer een controlelijstregel om de bijbehorende guide weer te geven.
 
-        ![Guide gekoppeld met een controlelijstregel](media/am-guides-integration-show-guide.png "Guide gekoppeld met een controlelijstregel")
+        ![Guide gekoppeld met een controlelijstregel.](media/am-guides-integration-show-guide.png "Guide gekoppeld met een controlelijstregel")
 
     1. Open de guide op HoloLens.
 
-        ![De guide on HoloLens openen](media/am-guides-integration-hololens-select.png "De guide op HoloLens openen")
+        ![De guide op HoloLens openen.](media/am-guides-integration-hololens-select.png "De guide op HoloLens openen")
 
 > [!NOTE]
 > U kunt een guide ook rechtstreeks aan de controlelijst voor onderhoud van een werkorder of taaktype koppelen.

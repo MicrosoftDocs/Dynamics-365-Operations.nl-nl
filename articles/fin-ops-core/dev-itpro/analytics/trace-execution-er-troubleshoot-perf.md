@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: 23b965bb51a4323164ae52bf70050133c9c9c9da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295568"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344877"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>De uitvoering van ER-indelingen traceren om prestatieproblemen op te lossen
 
@@ -56,14 +56,14 @@ U moet ook de volgende bestanden downloaden en lokaal opslaan.
 
 Elke ER-prestatietracering die wordt gegenereerd in de toepassing, wordt opgeslagen als een bijlage van de uitvoeringslogboekrecord. Het Raamwerk voor documentbeheer (DM) wordt gebruikt om deze bijlagen te beheren. U moet ER-parameters vooraf configureren om het documenttype voor documentbeheer op te geven dat moet worden gebruikt voor het bijvoegen van prestatietraceringen. Selecteer in de werkruimte **Elektronische rapportage** **Parameters van elektronische rapportage**. Selecteer vervolgens op de pagina **Parameters van elektronische rapportage** op het tabblad **Bijlagen** in het veld **Andere** het documenttype voor documentbeheer dat voor prestatietraceringen moet worden gebruikt.
 
-![Pagina Parameters van elektronische rapportage](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
+![Pagina Parameters van elektronische rapportage.](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
 
 Om beschikbaar te zijn in het opzoekveld **Andere** moet een documenttype voor documentbeheer op de volgende manier worden geconfigureerd op de pagina **Documenttypen** (**Organisatiebeheer \> Documentbeheer \> Documenttypen**):
 
 - **Klasse:** Bestand koppelen
 - **Groep:** Bestand
 
-![Pagina Documenttypen](./media/GER-PerfTrace-DM-DocumentType.png)
+![Pagina Documenttypen.](./media/GER-PerfTrace-DM-DocumentType.png)
 
 > [!NOTE]
 > Het geselecteerde documenttype moet beschikbaar zijn in elk bedrijf van het huidige exemplaar omdat bijlagen voor documentbeheer bedrijfsspecifiek zijn.
@@ -72,7 +72,7 @@ Om beschikbaar te zijn in het opzoekveld **Andere** moet een documenttype voor d
 
 ER-prestatietraceringen die zijn gegenereerd, worden geïmporteerd in RCS voor analyse met behulp van de ER-indelingsontwerper en de ER-toewijzingsontwerper. Omdat ER-prestatietraceringen worden opgeslagen als bijlagen van de uitvoeringslogboekrecord die is gerelateerd aan de ER-indeling, moet u RCS-parameters vooraf configureren om het documenttype voor documentbeheer op te geven dat moet worden gebruikt voor het koppelen van prestatietraceringen. In het exemplaar van RCS dat is ingericht voor uw bedrijf selecteert u in de werkruimte **Elektronische rapportage** de optie **Parameters van elektronische rapportage**. Selecteer vervolgens op de pagina **Parameters van elektronische rapportage** op het tabblad **Bijlagen** in het veld **Andere** het documenttype voor documentbeheer dat voor prestatietraceringen moet worden gebruikt.
 
-![Pagina Parameters van elektronische rapportage in RCS](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
+![Pagina Parameters van elektronische rapportage in RCS.](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
 
 Om beschikbaar te zijn in het opzoekveld **Andere** moet een documenttype voor documentbeheer op de volgende manier worden geconfigureerd op de pagina **Documenttypen** (**Organisatiebeheer \> Documentbeheer \> Documenttypen**):
 
@@ -92,7 +92,7 @@ Stel dat u bent begonnen met het ontwerpen van een nieuwe ER-oplossing om een ni
     2. Selecteer **Bladeren** om het juiste bestand voor de vereiste ER-configuratie in XML-indeling te selecteren.
     3. Selecteer **OK**.
 
-    ![Pagina Configuraties in RCS](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
+    ![Pagina Configuraties in RCS.](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
 
 ## <a name="run-the-er-solution-to-trace-execution"></a>De ER-oplossing uitvoeren om de uitvoering te traceren
 
@@ -109,7 +109,7 @@ Stel dat u klaar bent met het ontwerpen van de eerste versie van de ER-oplossing
     3. Selecteer op het sneltabblad **Configuraties** de configuratie **Indeling voor prestatietracering**.
     4. Selecteer op het sneltabblad **Versies** versie **1.1** van de geselecteerde configuratie en selecteer vervolgens **Importeren**.
 
-    ![Configuratie archiefpagina](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
+    ![Configuratie archiefpagina.](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
 
 De bijbehorende versies van de gegevensmodel- en modeltoewijzingsconfiguraties worden automatisch geïmporteerd als vereisten voor de geïmporteerde ER-indelingsconfiguratie.
 
@@ -156,7 +156,7 @@ De bijbehorende versies van de gegevensmodel- en modeltoewijzingsconfiguraties w
     > [!NOTE]
     > De parameters in het dialoogvenster **Gebruikersparameters** zijn specifiek voor de gebruiker en het huidige bedrijf.
 
-    ![Dialoogvenster voor gebruikersparameters](./media/GER-PerfTrace-GER-UserParameters.png)
+    ![Dialoogvenster voor gebruikersparameters.](./media/GER-PerfTrace-GER-UserParameters.png)
 
 ### <a name="run-the-er-format"></a><a id='run-format'></a>De ER-indeling uitvoeren
 
@@ -177,11 +177,11 @@ Prestatietraceringen worden losgekoppeld van de ER-bronindeling en kunnen worden
 2. Selecteer op de pagina **Uitvoeringslogboeken voor elektronische rapportage** in het linkerdeelvenster in het veld **Configuratienaam** de optie **Indeling voor prestatietracering** om de logboekrecords te vinden die zijn gegenereerd door de uitvoering van de configuratie **Indeling voor prestatietracering**.
 3. Selecteer de knop **Bijlagen** (de paperclip) in de rechterbovenhoek van de pagina of druk op **Ctrl+Shift+A**.
 
-    ![Knop Bijlagen op de pagina Elektronische uitvoeringslogboeken](./media/GER-PerfTrace-GER-DebugLog.png)
+    ![Knop Bijlagen op de pagina Elektronische uitvoeringslogboeken.](./media/GER-PerfTrace-GER-DebugLog.png)
 
 4. Op de pagina **Bijlagen voor uitvoeringslogboeken voor elektronische rapportage** selecteert u in het actievenster de optie **Openen** om de prestatietracering als een zipbestand te ontvangen en lokaal op te slaan.
 
-    ![Bijlagen bij Elektronische uitvoeringslogboeken](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
+    ![Bijlagen bij Elektronische uitvoeringslogboeken.](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
 
 > [!NOTE]
 > De tracering die wordt gegenereerd, bevat een verwijzing naar het ER-bronrapport via een unieke rapport-id in de **GUID-indeling**. Er wordt geen rekening gehouden met de versienummers van de indeling.
@@ -198,7 +198,7 @@ De koppeling tussen de prestatietracering die is gegenereerd voor de uitgevoerde
 6. Selecteer **Bladeren** en selecteer het zip-bestand dat u eerder hebt geëxporteerd.
 7. Selecteer **OK**.
 
-    ![Dialoogvenster Instellingen voor resultaat van prestatietracering in RCS](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
+    ![Dialoogvenster Instellingen voor resultaat van prestatietracering in RCS.](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--format-execution"></a>De prestatietracering gebruiken voor analyse in RCS – Uitvoering van indeling
 
@@ -209,7 +209,7 @@ De koppeling tussen de prestatietracering die is gegenereerd voor de uitgevoerde
     - De werkelijke tijd die is besteed aan het invoeren van gegevens in de gegenereerde uitvoer met behulp van het indelingsitem
     - Dezelfde tijd uitgedrukt als een percentage van de totale tijd die is besteed aan het genereren van de gehele uitvoer
 
-    ![Pagina Indelingsontwerper in RCS](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
+    ![Pagina Indelingsontwerper in RCS.](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
 
 2. Sluit de pagina **Indelingsontwerper**.
 
@@ -232,7 +232,7 @@ Er verschijnt een bericht met de mededeling dat de huidige modeltoewijzing datab
 - Eén aanroep wordt uitgevoerd om details in te voeren van elke transactie in het gegevensmodel, op basis van de geconfigureerde bindingen.
 - Eén oproep wordt uitgevoerd om het berekende aantal transacties per leverancier in het gegevensmodel in te voeren.
 
-![Bericht over dubbele databaseaanvragen op de pagina Ontwerper modeltoewijzing in RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
+![Bericht over dubbele databaseaanvragen op de pagina Ontwerper modeltoewijzing in RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
 
 De waarde **\[Q:530\]** geeft aan dat de VendTrans-tabel 530 keer is aangeroepen om een record uit die tabel te retourneren naar de gegevensbron VendTable/\<Relations/VendTrans.VendTable\_AccountNum. De waarde **\[530\]** geeft aan dat de gegevensbron VendTable/\<Relations/VendTrans.VendTable\_AccountNum 530 keer is aangeroepen om een record uit die gegevensbron te retourneren en de details op te geven in het gegevensmodel.
 
@@ -240,7 +240,7 @@ We raden u aan cache te gebruiken voor de gegevensbron VendTable/\<Relations/Ven
 
 Het kan ook handig zijn om het aantal aanroepen naar de gegevensbron LedgerTransTypeList te beperken. Deze gegevensbron wordt gebruikt om elke waarde van de opsomming **LedgerTransType** te koppelen aan het label. Door deze gegevensbron te gebruiken, kunt u een geschikt label zoeken en in het gegevensmodel invoeren voor elke leverancierstransactie. Het huidige aantal aanroepen naar deze gegevensbron (9.027) is zeer hoog voor 265 transacties.
 
-![De pagina Ontwerper modeltoewijzing in RCS met 9027 aanroepen naar de gegevensbron](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
+![De pagina Ontwerper modeltoewijzing in RCS met 9027 aanroepen naar de gegevensbron.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
 
 ## <a name="improve-the-model-mapping-based-on-information-from-the-execution-trace"></a>De modeltoewijzing verbeteren op basis van informatie uit de uitvoeringstracering
 
@@ -253,7 +253,7 @@ Het kan ook handig zijn om het aantal aanroepen naar de gegevensbron LedgerTrans
     3. Vouw het item **VendTable** uit, vouw de lijst met één-op-veel-relaties uit voor de gegevensbron VendTable(het item **\<Relaties**) en selecteer het item **VendTrans.VendTable\_AccountNum**.
     4. Selecteer **Cache**.
 
-    ![Cache-instellingen om dubbele aanroepen te voorkomen](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
+    ![Cache-instellingen om dubbele aanroepen te voorkomen.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
 
 2. Voer de volgende stappen uit om de gegevensbron LedgerTransTypeList in het bereik van de gegevensbron VendTable te brengen:
 
@@ -274,7 +274,7 @@ Het kan ook handig zijn om het aantal aanroepen naar de gegevensbron LedgerTrans
     3. Selecteer het item **VendTable.\$TransType**.
     4. Selecteer **Cache**.
 
-    ![Cache-instellingen voor het veld $TransType](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
+    ![Cache-instellingen voor het veld $TransType.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
 
 4. Voer de volgende stappen uit om het veld **\$TransTypeRecord** zo te wijzigen dat het veld **\$TransType** in cache wordt gebruikt:
 
@@ -329,19 +329,19 @@ Herhaal de stappen uit het gedeelte [De prestatietracering gebruiken voor analys
 
 Door uw aanpassingen in de modeltoewijzing worden er geen dubbele query's meer uitgevoerd in de database. Het aantal aanroepen naar databasetabellen en gegevensbronnen voor deze modeltoewijzing is ook beperkt. Hierdoor zijn de prestaties van de hele ER-oplossing verbeterd.
 
-![Traceringsgegevens voor de gegevensbron VendTable op de pagina Ontwerper modeltoewijzing in RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
+![Traceringsgegevens voor de gegevensbron VendTable op de pagina Ontwerper modeltoewijzing in RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
 
 In de traceringsgegevens geeft de waarde **\[12\]** voor de gegevensbron VendTable aan dat deze gegevensbron 12 maal is aangeroepen. De waarde **\[Q:6\]** geeft aan dat er zes aanroepen zijn omgezet in databaseaanroepen naar de tabel VendTable. De waarde **\[C:6\]** geeft aan dat de records die uit de database zijn opgehaald in de cache zijn opgeslagen en zes andere aanroepen zijn verwerkt met behulp van de cache.
 
 Het aantal aanroepen naar de gegevensbron LedgerTransTypeList is van 9027 verlaagd naar 240.
 
-![Traceringsgegevens voor de gegevensbron LedgerTransTypeList op de pagina Ontwerper modeltoewijzing in RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
+![Traceringsgegevens voor de gegevensbron LedgerTransTypeList op de pagina Ontwerper modeltoewijzing in RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
 
 ## <a name="review-the-execution-trace-in-the-application"></a>De tracering van uitvoering in de toepassing controleren
 
 Naast RCS bieden sommige versies mogelijk functies voor het ontwerpen van een ER-raamwerk. Deze versies bevatten een optie **Ontwerpmodus inschakelen** die kan worden ingeschakeld. Deze optie is te vinden op het tabblad **Algemeen** van de pagina **Parameters van elektronische rapportage**, die u kunt openen vanuit het werkgebied **Elektronische rapportage**.
 
-![De optie ontwerpmodus inschakelen op de pagina Parameters voor elektronische rapportage](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
+![De optie ontwerpmodus inschakelen op de pagina Parameters voor elektronische rapportage.](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
 
 Als u een van deze versies gebruikt, kunt u de details van gegenereerde prestatietraceringen direct in de toepassing analyseren. U hoeft deze niet vanuit de toepassing te exporteren en in RCS te importeren.
 
@@ -359,7 +359,7 @@ Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerd
 
 U ziet dat de webbrowser een zipbestand voor downloaden biedt. Dit bestand bevat de prestatietracering in PerfView-indeling. Vervolgens kunt u het PerfView-hulpprogramma voor prestatieanalyse gebruiken om de details van de ER-indelingsuitvoering te analyseren.
 
-![Prestatietraceringsgegevens in PerfView-indeling](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![Prestatietraceringsgegevens in PerfView-indeling.](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Externe hulpprogramma's gebruiken om een uitvoeringstracering met databasequery's te controleren.
 
@@ -375,7 +375,7 @@ Vanwege verbeteringen in het ER-raamwerk biedt de prestatietracering die in de P
     - Stel de optie **Statistieken voor query's verzamelen** in op **Ja**.
     - Stel de optie **Query traceren** in op **Ja**.
 
-    ![De sectie Uitvoeringstracering, dialoogvenster Gebruikersparameters](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![De sectie Uitvoeringstracering, dialoogvenster Gebruikersparameters.](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>De ER-indeling uitvoeren
 
@@ -383,7 +383,7 @@ Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerd
 
 U ziet dat de webbrowser een zipbestand voor downloaden biedt. Dit bestand bevat de prestatietracering in PerfView-indeling. Vervolgens kunt u het PerfView-hulpprogramma voor prestatieanalyse gebruiken om de details van de ER-indelingsuitvoering te analyseren. Deze tracering bevat nu de details van SQL-databasetoegang tijdens de uitvoering van de ER-indeling.
 
-![Traceringsgegeven voor de uitgevoerde ER-indeling in PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+![Traceringsgegeven voor de uitgevoerde ER-indeling in PerfView.](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

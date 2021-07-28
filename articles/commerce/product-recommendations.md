@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: moonma
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 044a5c21e4ebf1bf83edc74335e655b9388bc1d4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fc7d47897d1a332ba1af7305525f9e75bca12afd
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795592"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6337498"
 ---
 # <a name="product-recommendations-overview"></a>Overzicht productaanbevelingen
 
@@ -32,6 +32,9 @@ Microsoft Dynamics 365 Commerce kan worden gebruikt om productaanbevelingen weer
 Met productaanbevelingen kunnen klanten gemakkelijk en snel producten vinden die ze willen, terwijl ze een goede bediening ervaren. Door middel van meerverkoop/bijverkoop kunnen klanten extra producten zoeken die ze oorspronkelijk niet wilden kopen. Wanneer aanbevelingen worden gebruikt om productdetectie te verbeteren, kunnen ze meer conversiemogelijkheden creëren, de verkoopopbrengsten verhogen en zelfs de klanttevredenheid en -retentie verbeteren.
 
 In e-Commerce worden productaanbevelingen op grote schaal aangestuurd door machine learning-technologie voor Microsoft-aanbevelingen.
+
+Deze service is een invoegtoepassing voor Dynamics 365 Commerce. Download de meest recente [Microsoft Dynamics 365-licentiehandleiding](https://go.microsoft.com/fwlink/?LinkId=866544) voor meer informatie.
+
 
 ## <a name="recommendation-service"></a>Aanbevelingsservice
 

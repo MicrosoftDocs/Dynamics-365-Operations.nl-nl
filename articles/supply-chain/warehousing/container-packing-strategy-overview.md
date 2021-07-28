@@ -7,16 +7,17 @@ ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f481f6ca047ee0285fe0e81d8fa96665e9d27cee
-ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
+ms.openlocfilehash: d39283dea37c0e0fbf432aae8b1a30a87198f9f0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6292756"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343719"
 ---
 # <a name="container-packing-strategies"></a>Containerverpakkingsstrategieën
 
@@ -251,7 +252,7 @@ Voer de volgende stappen uit om een beleid voor consolidatie van zendingen in te
 1. Selecteer het beleid **Standaard** in de lijst.
 1. Selecteer **Bewerken** in het actievenster.
 1. Selecteer op het sneltabblad **Consolidatievelden** in de lijst **Geselecteerde velden** de rij waarin het veld **Veldnaam** is ingesteld op *Ordernummer*.
-1. Selecteer de knop **Verwijderen** ![Pijl-links](media/backward-button.png) om het veld te verplaatsen naar de lijst **Resterende velden**.
+1. Selecteer de knop **Verwijderen** ![linkerpijl.](media/backward-button.png) om het veld naar de lijst **Resterende velden** te verplaatsen.
 1. Selecteer **Opslaan** in het actievenster.
 
 ### <a name="set-up-physical-dimensions-for-the-product"></a>Fysieke dimensies voor het product instellen

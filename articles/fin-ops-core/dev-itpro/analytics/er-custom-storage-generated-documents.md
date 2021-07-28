@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 424917f98ec7c4c044fb5cdae78133d1529aefd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894119"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348159"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Een aangepaste opslaglocatie voor gegenereerde documenten opgeven
 
@@ -39,7 +39,7 @@ U moet ook toegang hebben tot de ontwikkelomgeving voor deze topologie.
 
 In de huidige topologie [maakt u een nieuwe ER-indeling](tasks/er-format-configuration-2016-11.md) voor het genereren van documenten waarvoor u een aangepaste opslaglocatie wilt toevoegen. U kunt ook [een bestaande ER-indeling importeren naar deze topologie](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Pagina Indelingsontwerper](media/er-extend-file-storages-format.png)
+![Pagina Indelingsontwerper.](media/er-extend-file-storages-format.png)
 
 > [!IMPORTANT]
 > De ER-indeling die u maakt of importeert, moet ten minste één van de volgende indelingselementen bevatten:
@@ -58,7 +58,7 @@ Als u wilt opgeven hoe documenten worden doorgestuurd waarmee een ER-indeling wo
 3. Geef in het veld **Klasse** **Bestand bijvoegen** op.
 4. Geef in het veld **Groep** **Bestand** op.
 
-![Pagina Documenttypen](media/er-extend-file-storages-document-type.png)
+![Pagina Documenttypen.](media/er-extend-file-storages-document-type.png)
 
 > [!NOTE]
 > Documenttypen zijn bedrijfsspecifiek. Als u een ER-indeling met een geconfigureerde bestemming in meerdere bedrijven wilt gebruiken, moet u een afzonderlijk documenttype in elk bedrijf configureren.
@@ -113,14 +113,14 @@ De gebeurtenis **AttachingFile()** wordt geactiveerd wanneer de volgende ER-best
 - **Archief** : wanneer deze bestemming wordt gebruikt, wordt een nieuwe record voor de ER-indeling die wordt uitgevoerd, gemaakt in de tabel ERFormatMappingRunJobTable. Het veld **Gearchiveerd** in deze record wordt ingesteld op **False**. Als de ER-indeling met succes wordt uitgevoerd, wordt het gegenereerde document gekoppeld aan deze record en wordt de gebeurtenis **AttachingFile()** geactiveerd. Met het documenttype dat wordt geselecteerd in deze ER-bestemming, wordt de opslaglocatie voor het gekoppelde bestand (Microsoft Azure-opslag of een Microsoft SharePoint-map) bepaald.
 - **Taakarchief** : wanneer deze bestemming wordt gebruikt, wordt een nieuwe record voor de ER-indeling die wordt uitgevoerd, gemaakt in de tabel ERFormatMappingRunJobTable. Het veld **Gearchiveerd** in deze record wordt ingesteld op **True**. Als de ER-indeling met succes wordt uitgevoerd, wordt het gegenereerde document gekoppeld aan deze record en wordt de gebeurtenis **AttachingFile()** geactiveerd. Met het documenttype dat wordt geconfigureerd in de ER-parameters, wordt de opslaglocatie voor het gekoppelde bestand (Azure-opslag of een SharePoint-map) bepaald.
 
-![Pagina Parameters van elektronische rapportage](media/er-extend-file-storages-parameters.png)
+![Pagina Parameters van elektronische rapportage.](media/er-extend-file-storages-parameters.png)
 
 ## <a name="configure-an-er-destination"></a>Een ER-bestemming configureren
 
 1. Configureer de gearchiveerde bestemming voor een van de eerder genoemde elementen (bestand, map, samenvoeger of bijlage) van de ER-indeling die u hebt gemaakt of geïmporteerd. Raadpleeg voor richtlijnen [ER-bestemmingen configureren](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Gebruik het documenttype dat u eerder hebt toegevoegd voor de geconfigureerde bestemming. (Voor het voorbeeld in dit onderwerp is het documenttype **FileX**.)
 
-![Dialoogvenster Bestemmingsinstellingen](media/er-extend-file-storages-destination.png)
+![Dialoogvenster Bestemmingsinstellingen.](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Broncode wijzigen
 

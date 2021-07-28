@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 91b19598075871dcfaed3ad9978aa8fe8181aa6f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9440471d6983136971878c8ee9e327d4dd407833
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836657"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346149"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>De functies van Technisch wijzigingsbeheer
 
@@ -57,7 +57,7 @@ Een technische organisatie is eigenaar van de technische gegevens en is verantwo
     - **Engineeringorganisatie:** *DEMF*
     - **Naam van organisatie:** *Contoso Entertainment System Duitsland*
 
-    ![Een technische organisatie toevoegen](media/engineering-org.png "Een technische organisatie toevoegen")
+    ![Een technische organisatie toevoegen.](media/engineering-org.png "Een technische organisatie toevoegen")
 
 ### <a name="set-up-the-version-product-dimension-group"></a>De productdimensiegroep voor de versie instellen
 
@@ -67,7 +67,7 @@ Een technische organisatie is eigenaar van de technische gegevens en is verantwo
 1. Selecteer **Opslaan** om de nieuwe dimensie op te slaan en waarden naar het sneltabblad **Productdimensies** te laden.
 1. Op sneltabblad **Productdimensies** stelt u **Versie** in als een actieve productdimensie.
 
-    ![Een productdimensiegroep toevoegen](media/product-dimension-groups.png "Een productdimensiegroep toevoegen")
+    ![Een productdimensiegroep toevoegen.](media/product-dimension-groups.png "Een productdimensiegroep toevoegen")
 
 ### <a name="set-up-product-lifecycle-states"></a>Statussen van productlevenscyclus instellen
 
@@ -82,7 +82,7 @@ Omdat een technisch product een levenscyclus loopt, is het van belang dat u kunt
 1. Selecteer **Opslaan** om de nieuwe levenscyclusstatus op te slaan en waarden naar het sneltabblad **Ingeschakelde bedrijfsprocessen** te laden.
 1. Selecteer op het sneltabblad **Ingeschakelde bedrijfsprocessen** de bedrijfsprocessen die beschikbaar moeten zijn. Laat voor dit voorbeeld het veld **Beleid** ingesteld op *Ingeschakeld* voor alle bedrijfsprocessen.
 
-    ![Bedrijfsprocessen voor een levenscyclusstatus inschakelen](media/product-lifecycle-states-1.png "Bedrijfsprocessen voor een levenscyclusstatus inschakelen")
+    ![Bedrijfsprocessen voor een levenscyclusstatus inschakelen.](media/product-lifecycle-states-1.png "Bedrijfsprocessen voor een levenscyclusstatus inschakelen")
 
 1. Selecteer **Nieuw** om nog een levenscyclusstatus toe te voegen en stel de volgende waarden in:
 
@@ -92,7 +92,7 @@ Omdat een technisch product een levenscyclus loopt, is het van belang dat u kunt
 1. Selecteer **Opslaan** om de nieuwe levenscyclusstatus op te slaan en waarden naar het sneltabblad **Ingeschakelde bedrijfsprocessen** te laden.
 1. Selecteer op het sneltabblad **Ingeschakelde bedrijfsprocessen** de bedrijfsprocessen die beschikbaar moeten zijn. Stel voor dit voorbeeld het veld **Beleid** in op *Ingeschakeld met waarschuwing* voor alle bedrijfsprocessen.
 
-    ![Bedrijfsprocessen voor een levenscyclusstatus inschakelen (met waarschuwingen)](media/product-lifecycle-states-2.png "Bedrijfsprocessen voor een levenscyclusstatus inschakelen (met waarschuwingen)")
+    ![Bedrijfsprocessen voor een levenscyclusstatus inschakelen (met waarschuwingen).](media/product-lifecycle-states-2.png "Bedrijfsprocessen voor een levenscyclusstatus inschakelen (met waarschuwingen)")
 
 ### <a name="set-up-a-version-number-rule"></a>Een versienummerregel instellen
 
@@ -103,7 +103,7 @@ Omdat een technisch product een levenscyclus loopt, is het van belang dat u kunt
     - **Nummerregel:** *Auto*
     - **Indeling:** *V-\#\#*
 
-    ![Een regel voor een productversienummer toevoegen](media/version-number-rule.png "Een regel voor een productversienummer toevoegen")
+    ![Een regel voor een productversienummer toevoegen.](media/version-number-rule.png "Een regel voor een productversienummer toevoegen")
 
 ### <a name="set-up-a-product-release-policy"></a>Een beleid voor productvrijgave instellen
 
@@ -135,7 +135,7 @@ Omdat een technisch product een levenscyclus loopt, is het van belang dat u kunt
     - **Goedkeuring van route kopiëren:** schakel dit selectievakje in.
     - **Activering van route kopiëren:** schakel dit selectievakje in.
 
-    ![Een beleid voor productvrijgave toevoegen](media/product-release-policy.png "Een beleid voor productvrijgave toevoegen")
+    ![Een beleid voor productvrijgave toevoegen.](media/product-release-policy.png "Een beleid voor productvrijgave toevoegen")
 
 ### <a name="set-up-an-engineering-product-category"></a>Een categorie voor technische producten instellen 
 
@@ -160,7 +160,7 @@ Categorieën van technische producten vormen de basis voor het maken van technis
 1. Stel op het sneltabblad **Vrijgavebeleid** het veld **Beleid voor productvrijgave** in op *Onderdelen*.
 1. Selecteer **Opslaan**.
 
-    ![Een categorie voor technische producten toevoegen](media/product-category-details.png "Een categorie voor technische producten toevoegen")
+    ![Een categorie voor technische producten toevoegen.](media/product-category-details.png "Een categorie voor technische producten toevoegen")
 
 ### <a name="set-up-product-acceptance-conditions"></a>Voorwaarden voor productacceptatie instellen
 
@@ -168,7 +168,7 @@ Categorieën van technische producten vormen de basis voor het maken van technis
 1. Ga naar **Technisch wijzigingsbeheer &gt; Instellen &gt; Parameters voor technisch wijzigingsbeheer**.
 1. Stel op het tabblad **Vrijgavebeheer** in de sectie **Acceptatie van producten** het veld **Acceptatie van producten** in op *Handmatig*.
 
-    ![Voorwaarden voor productacceptatie instellen](media/engineering-change-management-parameters.png "Voorwaarden voor productacceptatie instellen")
+    ![Voorwaarden voor productacceptatie instellen.](media/engineering-change-management-parameters.png "Voorwaarden voor productacceptatie instellen")
 
 ## <a name="create-a-new-engineering-product"></a>Een nieuw technisch product maken
 
@@ -187,23 +187,23 @@ Een technisch product is een product waarvoor versiebeheer wordt uitgevoerd en d
     - **Productnummer:** *Z0001*
     - **Productnaam:** *Luidsprekerset*
 
-    ![Een technische product toevoegen](media/new-product-dialog.png "Een technische product toevoegen")
+    ![Een technische product toevoegen.](media/new-product-dialog.png "Een technische product toevoegen")
 
     Het veld **Versie** wordt automatisch ingesteld op basis van de regel voor productversienummers die u eerder hebt ingesteld.
 
 1. Selecteer **OK** om het product te maken en het dialoogvenster te sluiten.
 1. De pagina met details voor het nieuwe product wordt geopend. De waarden zijn al ingevuld voor sommige velden, zoals **Opslagdimensiegroep**, **Traceringsdimensiegroep** en/of **Artikelmodelgroep**. Deze velden zijn automatisch ingesteld omdat het product wordt vrijgegeven in de rechtspersoon *DEMF* en gebruikmaakt van het beleid voor productvrijgave *Onderdelen*, dat is gekoppeld aan de categorie *Onderdelen* voor technische producten. Omdat u eerder artikel *D0006* hebt gebruikt als sjabloon voor het instellen van een regel voor de rechtspersoon *DEMF*, zijn de ingevulde waarden overgenomen uit artikel *D0006*.
 
-    ![Vrijgegeven productdetails](media/product-details.png "Vrijgegeven productdetails")
+    ![Vrijgegeven productdetails.](media/product-details.png "Vrijgegeven productdetails")
 
 1. Selecteer in het actievenster op het tabblad **Technicus** in de groep **Technisch wijzigingsbeheer** de optie **Technische versies** om de versies van het product weer te geven.
 
-    ![Engineeringversies](media/engineering-versions-list.png "Engineeringversies")
+    ![Engineeringversies.](media/engineering-versions-list.png "Engineeringversies")
 
 1. Op de pagina **Technische versies** ziet u dat er slechts één versie voor het product is en dat deze actief is.
 1. Selecteer de versie om de details weer te geven.
 
-    ![Details van technische versie](media/engineering-version-details.png "Details van technische versie")
+    ![Details van technische versie.](media/engineering-version-details.png "Details van technische versie")
 
 1. Selecteer **Stuklijst maken** op het sneltabblad **Stuklijst** van de pagina **Technische versie**.
 1. Stel in het dialoogvenster **Stuklijst maken** de volgende waarden in:
@@ -212,25 +212,25 @@ Een technisch product is een product waarvoor versiebeheer wordt uitgevoerd en d
     - **Naam:** Luidsprekerset
     - **Locatie:** 1
 
-    ![Een BOM maken](media/create-bom.png "Een BOM maken")
+    ![Een BOM maken.](media/create-bom.png "Een BOM maken")
 
 1. Selecteer **OK** om de stuklijst toe te voegen en het dialoogvenster te sluiten.
 1. Selecteer **Stuklijst** op het sneltabblad **Stuklijst**.
 1. Voeg op de pagina **Stuklijst** op het sneltabblad **Stuklijstregels** drie regels toe, één elk voor de artikelnummers *D0001*, *D0003* en *D0006*.
 
-    ![Stuklijstregels toevoegen](media/bom.png "Stuklijstregels toevoegen")
+    ![Stuklijstregels toevoegen.](media/bom.png "Stuklijstregels toevoegen")
 
 1. Selecteer **Opslaan**.
 1. Sluit de pagina.
 1. Selecteer **Goedkeuren** op het sneltabblad **Stuklijst** van de pagina **Technische versie**.
 1. Selecteer in het dialoogvenster dat verschijnt **OK**.
 
-    ![De stuklijst goedkeuren](media/approve-dialog.png "De stuklijst goedkeuren")
+    ![De stuklijst goedkeuren.](media/approve-dialog.png "De stuklijst goedkeuren")
 
 1. Selecteer **Activeren** op het sneltabblad **Stuklijst** van de pagina **Technische versie**.
 1. Zoals u ziet zijn de selectievakjes **Actief** en **Goedgekeurd** ingeschakeld voor de stuklijst.
 
-    ![Actieve en goedgekeurde stuklijst](media/approved-bom.png "Actieve en goedgekeurde stuklijst")
+    ![Actieve en goedgekeurde stuklijst.](media/approved-bom.png "Actieve en goedgekeurde stuklijst")
 
 1. Sluit de pagina.
 
@@ -244,25 +244,25 @@ Het product is nu ontworpen door de technische afdeling. Voor dit voorbeeld is h
 1. Selecteer in het actievenster op het tabblad **Product** in de groep **Onderhouden** de optie **Productstructuur vrijgeven** om de wizard **Producten vrijgeven** te openen.
 1. Schakel op de pagina **Technische producten selecteren voor vrijgave** het selectievakje **Selecteren** in voor product *Z0001*.
 
-    ![De technische producten selecteren die moeten worden vrijgegeven](media/select-eng-product-to-release.png "De technische producten selecteren die moeten worden vrijgegeven")
+    ![De technische producten selecteren die moeten worden vrijgegeven.](media/select-eng-product-to-release.png "De technische producten selecteren die moeten worden vrijgegeven")
 
 1. Selecteer **Vrijgavedetails**.
 1. De pagina **Productvrijgavedetails** wordt weergegeven, waar u de details en de productstructuur kunt controleren van het product dat wordt vrijgegeven. De optie **Stuklijst verzenden** is ingesteld op *Ja*. Daarom worden zowel product *Z0001* als alle onderliggende artikelen uit de stuklijst vrijgegeven.
 
     U kunt elk onderliggend item in het linkerdeelvenster selecteren om de details weer te geven. Als een onderliggend artikel een stuklijst heeft, kunt u ook de stuklijst van dat onderliggende artikel selecteren voor vrijgave.
 
-    ![De productvrijgavedetails controleren](media/product-release-details.png "De productvrijgavedetails controleren")
+    ![De productvrijgavedetails controleren.](media/product-release-details.png "De productvrijgavedetails controleren")
 
 1. Sluit de pagina om terug te keren naar de wizard **Producten vrijgeven**.
 1. Selecteer **Volgende** om de pagina **Producten voor vrijgave selecteren** te openen. Als u standaardproducten (niet-technische producten) selecteert, worden deze weergegeven op deze pagina. Wanneer u een standaardproduct vrijgeeft door **Productstructuur vrijgeven** te selecteren, worden de bijbehorende stuklijst en route ook vrijgegeven.
 
-    ![De standaardproducten selecteren die moeten worden vrijgegeven](media/select-std-product-to-release.png "De standaardproducten selecteren die moeten worden vrijgegeven")
+    ![De standaardproducten selecteren die moeten worden vrijgegeven.](media/select-std-product-to-release.png "De standaardproducten selecteren die moeten worden vrijgegeven")
 
 1. Selecteer **Volgende** om de pagina **Productvarianten voor vrijgave selecteren** te openen. Voor dit voorbeeld zijn er geen varianten.
 1. Selecteer **Volgende** om de pagina **Bedrijven selecteren** te openen.
 1. Selecteer de bedrijven waaraan het product moet worden vrijgegeven. Schakel voor dit voorbeeld het selectievakje voor **USMF** in.
 
-    ![De bedrijven selecteren waaraan moet worden vrijgegeven](media/select-release-companies.png "De bedrijven selecteren waaraan moet worden vrijgegeven")
+    ![De bedrijven selecteren waaraan moet worden vrijgegeven.](media/select-release-companies.png "De bedrijven selecteren waaraan moet worden vrijgegeven")
 
 1. Selecteer **Volgende** om de pagina **Selectie bevestigen** te openen.
 1. Selecteer **Voltooien**.
@@ -280,7 +280,7 @@ Voer de volgende stappen uit om het product te beoordelen en vrij te geven in he
 
     Op de pagina **Openstaande productreleases** wordt het product *Z0001* weergegeven met de status *In afwachting van acceptatie*.
 
-    ![Openstaande productreleases](media/open-product-releases.png "Openstaande productreleases")
+    ![Openstaande productreleases.](media/open-product-releases.png "Openstaande productreleases")
 
 1. Selecteer de waarde in de kolom **Productnummer** om de pagina **Productvrijgavedetails** te openen. Let op de volgende details:
 
@@ -288,7 +288,7 @@ Voer de volgende stappen uit om het product te beoordelen en vrij te geven in he
     - Het sneltabblad **Vrijgavedetails** bevat informatie over het product en de versie die is vrijgegeven. Hier kunt u instellingen zoals de ingangsdatums wijzigen.
     - Op het sneltabblad **Route** wordt de route van het product weergegeven. In dit voorbeeld hebt u echter geen routes vrijgegeven.
 
-    ![Productreleasegegevens](media/product-release-details-2.png "Productreleasegegevens")
+    ![Productreleasegegevens.](media/product-release-details-2.png "Productreleasegegevens")
 
 1. Wanneer u klaar bent met het controleren van de informatie, kunt u het product accepteren en kunt u het op deze manier vrijgeven in het bedrijf *USMF*. Selecteer in het actievenster **Acties &gt; Accepteren**.
 1. Het product is nu vrijgegeven in het bedrijf *USMF*. Ga naar **Productgegevensbeheer &gt; Producten &gt; Vrijgegeven producten**. Artikel *Z0001* wordt weergegeven.
@@ -304,7 +304,7 @@ De hoofdgegevensbeheerder voor het bedrijf *USMF* wil er zeker van zijn dat het 
 1. Selecteer in het actievenster op het tabblad **Product** in de groep **Levenscyclusstatus** de optie **Levenscyclusstatus wijzigen**.
 1. Stel in het dialoogvenster met vervolgkeuzemenu **Levenscyclusstatus wijzigen** het veld **Status** in op *Prototype* en selecteer vervolgens **OK**.
 
-    ![De levenscyclusstatus wijzigen](media/change-lifecycle-state.png "De levenscyclusstatus wijzigen")
+    ![De levenscyclusstatus wijzigen.](media/change-lifecycle-state.png "De levenscyclusstatus wijzigen")
 
 ## <a name="add-the-engineering-product-to-a-sales-order"></a>Het technische product toevoegen aan een verkooporder
 
@@ -318,7 +318,7 @@ Het product kan nu aan een klant worden verkocht. Om het product aan een verkoop
 
     Er wordt een waarschuwingsbericht weergegeven waarin wordt gemeld dat het artikel de status *Prototype* heeft. Omdat het bericht echter slechts een waarschuwing is, is de verkooporder wel gemaakt.
 
-    ![Verkooporder voor een technisch product](media/sales-order-eng-product.png "Verkooporder voor een technisch product")
+    ![Verkooporder voor een technisch product.](media/sales-order-eng-product.png "Verkooporder voor een technisch product")
 
 ## <a name="request-changes-in-the-engineering-product"></a>Wijzigingen in het technische product aanvragen
 
@@ -328,7 +328,7 @@ Het product is naar een klant verzonden, maar de klant was niet geheel tevreden 
 1. Zoek en open de verkooporder die u in de vorige oefening hebt gemaakt.
 1. Selecteer op het sneltabblad **Verkooporderregels** de optie **Technisch wijzigingsbeheer &gt; Nieuwe aanvraag voor technische wijziging**.
 
-    ![Een aanvraag voor een technische wijziging maken op basis van een verkooporder](media/sales-order-eng-change-request.png "Een aanvraag voor een technische wijziging maken op basis van een verkooporder")
+    ![Een aanvraag voor een technische wijziging maken op basis van een verkooporder.](media/sales-order-eng-change-request.png "Een aanvraag voor een technische wijziging maken op basis van een verkooporder")
 
 1. Vul de aanvraag voor de technische wijziging in op basis van de feedback van de klant. Stel de volgende waarden in voor dit voorbeeld:
 
@@ -341,7 +341,7 @@ Het product is naar een klant verzonden, maar de klant was niet geheel tevreden 
 1. Selecteer op het sneltabblad **Informatie** de optie **Nieuw &gt; Notitie** om een notitie toe te voegen aan het raster.
 1. Geef in het veld **Beschrijving** voor de nieuwe notitie aan dat artikel *D0003* uit de stuklijst moet worden verwijderd. Als u meer informatie voor de notitie moet toevoegen, kunt u tekst invoeren in het veld **Notities**.
 
-    ![Technische-wijzigingsaanvraag](media/eng-change-request.png "Technische-wijzigingsaanvraag")
+    ![Technische-wijzigingsaanvraag.](media/eng-change-request.png "Technische-wijzigingsaanvraag")
 
 1. Selecteer **Opslaan** in het actievenster.
 1. Het artikel is automatisch toegevoegd aan het sneltabblad **Producten** en de bron van de aanvraag voor de technische wijziging (de verkooporder) is toegevoegd op het sneltabblad **Bron**.
@@ -370,26 +370,26 @@ De technicus controleert nu de aanvraag van de klant en maakt een wijzigingsorde
     - **Product:** *Z0001*
     - **Impact:** *Nieuwe versie*
 
-    ![Een order voor technische wijzigingen maken](media/eng-change-order.png "Een order voor technische wijzigingen maken")
+    ![Een order voor technische wijzigingen maken.](media/eng-change-order.png "Een order voor technische wijzigingen maken")
 
 1. Omdat u het veld **Impact** instelt op *Nieuwe versie*, wordt in het veld **Nieuwe versie** op het tabblad **Details** van het sneltabblad **Productdetails** aangegeven wat het nieuwe versie nummer wordt (*V-02* voor dit voorbeeld).
 
-    ![Productdetails voor een order voor technische wijzigingen](media/eng-change-order-product-details.png "Productdetails voor een order voor technische wijzigingen")
+    ![Productdetails voor een order voor technische wijzigingen.](media/eng-change-order-product-details.png "Productdetails voor een order voor technische wijzigingen")
 
 1. Selecteer **Opslaan** in het actievenster.
 1. Selecteer op het sneltabblad **Productdetails** op het tabblad **Stuklijst** de optie **Regels** om de stuklijst voor versie *V-01* van het product *Z0001* te openen.
 
-    ![Stuklijstregels voor technisch product](media/eng-product-bom-lines.png "Stuklijstregels voor technisch product")
+    ![Stuklijstregels voor technisch product.](media/eng-product-bom-lines.png "Stuklijstregels voor technisch product")
 
 1. Selecteer de regel voor artikelnummer *D0003* en selecteer vervolgens **Verwijderen** in het actievenster. De waarde van het veld **Wijzigingstype** voor deze regel wordt gewijzigd in *Verwijderd*.
 1. Selecteer **Opslaan** in het actievenster.
 
-    ![Gewijzigde stuklijstregels voor technisch product](media/eng-product-bom-lines-modified.png "Gewijzigde stuklijstregels voor technisch product")
+    ![Gewijzigde stuklijstregels voor technisch product.](media/eng-product-bom-lines-modified.png "Gewijzigde stuklijstregels voor technisch product")
 
 1. Sluit de pagina **Stuklijstregel** om terug te keren naar de pagina **Order voor technische wijziging**.
 1. Op het sneltabblad **Productdetails** op het tabblad **Stuklijst** ziet u dat de waarde van het veld **Type wijzigen** voor stuklijst *Z0001* nu *Gewijzigd* is.
 
-    ![Order voor technische wijzigingen met een gewijzigde stuklijst](media/eng-change-order-changed-bom.png "Order voor technische wijzigingen met een gewijzigde stuklijst")
+    ![Order voor technische wijzigingen met een gewijzigde stuklijst.](media/eng-change-order-changed-bom.png "Order voor technische wijzigingen met een gewijzigde stuklijst")
 
     De inkooporder moet nu worden goedgekeurd voordat de wijzigingen kunnen worden verwerkt. Wanneer de wijzigingen worden verwerkt, worden de producten bijgewerkt met de wijzigingen die zijn opgenomen in de order voor technische wijzigingen. Voor dit voorbeeld is de persoon die de order voor technische wijzigingen maakt, opgegeven als de fiatteur.
 

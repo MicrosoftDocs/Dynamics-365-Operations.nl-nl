@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 37a82a2bf9fc73b81e5a61b120e7bed73b8c4521
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825177"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346125"
 ---
 # <a name="subcontracting"></a>Werk uitbesteden
 
@@ -39,7 +39,7 @@ In de rechtspersoon HQUS worden geavanceerde luidsprekers geproduceerd. Tijdens 
 
 In de volgende afbeelding worden de drie bewerkingsfasen en de verbruikte materialen weergegeven.
 
-![De bewerkingen Voormontage, Bekleding en Afwerking en de materialen die hierin worden verbruikt](./media/subcontract01_operations-materials.png)
+![De bewerkingen Voormontage, Bekleding en Afwerking en de materialen die hierin worden verbruikt.](./media/subcontract01_operations-materials.png)
 
 ## <a name="setup"></a>Instelling
 
@@ -52,41 +52,41 @@ In deze procedure wordt u door het proces voor het instellen van het vrijgegeven
 1. Selecteer **Productgegevensbeheer \> Producten \> Vrijgegeven producten** om de pagina **Vrijgegeven productdetails** te openen.
 2. Voer in het snelfilterveld **D8100** in om het bestaande vrijgegeven product te vinden.
 
-    ![Filteren op het vrijgegeven product D8100 op de pagina Vrijgegeven productdetails](./media/subcontract02_filtering-released-products.png)
+    ![Filteren op het vrijgegeven product D8100 op de pagina Vrijgegeven productdetails.](./media/subcontract02_filtering-released-products.png)
 
 3. Selecteer in het actievenster op het tabblad **Technicus** de optie **Route** om de pagina **Route** te openen.
 
     Op de pagina **Route** worden de acht routeversies voor vrijgegeven product D8100 weergegeven. De acht routeversies worden verdeeld over vier routes op locatie 1 en locatie 5. Route 000400 wordt gebruikt voor kostprijsberekening, route 00041 wordt gebruikt wanneer de bewerking Bekleding intern wordt afgehandeld en route 00042 wordt gebruikt wanneer de bewerking Bekleding een externe aangelegenheid is.
 
-    ![Acht routeversies op de pagina Route](./media/subcontract03_route-page.png)
+    ![Acht routeversies op de pagina Route.](./media/subcontract03_route-page.png)
 
 4. Selecteer in het bovenste deelvenster in het raster **Versies** routeversie **00042** voor locatie **5**.
 5. Selecteer in het onderste deelvenster op het tabblad **Overzicht** bewerking **20** (**Cbnt CtSc**) in het raster.
 
-    ![Bewerking 20 voor routeversie 00042 voor locatie 5 geselecteerd](./media/subcontract04_route-version-operation.png)
+    ![Bewerking 20 voor routeversie 00042 voor locatie 5 geselecteerd.](./media/subcontract04_route-version-operation.png)
 
 6. Selecteer het tabblad **Algemeen**.
 
     Het veld **Routetype** is ingesteld op **Leverancier**. Deze waarde geeft aan dat bewerking 20 (Cbnt CtSc) een uitbestede bewerking is.
 
-    ![Het veld Routetype is ingesteld op Leverancier op het tabblad Algemeen](./media/subcontract05_general-tab.png)
+    ![Het veld Routetype is ingesteld op Leverancier op het tabblad Algemeen.](./media/subcontract05_general-tab.png)
 
 7. Selecteer het tabblad **Resourcevereisten**.
 
     Capaciteiten worden gebruikt om een geschikte resource te vinden tijdens de productieplanning. Voor bewerking 20 (Cbnt CtSc) is een resource met twee capaciteiten, namelijk **Bekleding** en **Kasten met bekleding**, nodig.
 
-    ![De capaciteiten Bekleding en Kasten met bekleding op het tabblad Resourcevereisten](./media/subcontract06_resource-requirements-tab.png)
+    ![De capaciteiten Bekleding en Kasten met bekleding op het tabblad Resourcevereisten.](./media/subcontract06_resource-requirements-tab.png)
 
 8. Selecteer **Toepasselijke resources** om het dialoogvenster **Toepasselijke resources** te openen.
 
     Er worden drie resources gevonden die overeenkomen met de resourcevereisten voor de bewerking. Resources 8851 en 8852 zijn van het type **Leverancier**.
 
-    ![Drie toepasselijke resources in het dialoogvenster Toepasselijke resources](./media/subcontract07_applicable-resources-dialog.png)
+    ![Drie toepasselijke resources in het dialoogvenster Toepasselijke resources.](./media/subcontract07_applicable-resources-dialog.png)
 
 9. Selecteer **OK** om het dialoogvenster **Toepasselijke resources** te sluiten en terug te keren naar de pagina **Route**.
 10. Sluit de pagina **Route** om terug te keren naar de pagina **Vrijgegeven productdetails**.
 
-    ![Pagina Vrijgegeven productdetails](./media/subcontract08_released-product-details-page.png)
+    ![Pagina Vrijgegeven productdetails.](./media/subcontract08_released-product-details-page.png)
 
 11. Selecteer in het actievenster op het tabblad **Technicus** de optie **Stuklijstversies** om de pagina **Stuklijstversies** te openen.
 
@@ -94,7 +94,7 @@ In deze procedure wordt u door het proces voor het instellen van het vrijgegeven
 
     Artikel S8050 is een product van het artikeltype **Service**. Dit artikel vertegenwoordigt het uitbestede werk.
 
-    ![Vier stuklijstversies op de pagina Stuklijstversies](./media/subcontract09_bom-versions-page.png)
+    ![Vier stuklijstversies op de pagina Stuklijstversies.](./media/subcontract09_bom-versions-page.png)
 
 12. Selecteer op het sneltabblad **Stuklijstregels** de optie **Bewerken** om het dialoogvenster **Stuklijstregel bewerken** te openen.
 
@@ -102,7 +102,7 @@ In deze procedure wordt u door het proces voor het instellen van het vrijgegeven
 
     De stuklijstregel is verbonden met de bewerking Bekleding via het bewerkingsnummer (in dit geval 20).
 
-    ![Dialoogvenster Stuklijstregel bewerken](./media/subcontract10_edit-bom-line-dialog.png)
+    ![Dialoogvenster Stuklijstregel bewerken.](./media/subcontract10_edit-bom-line-dialog.png)
 
 ### <a name="create-a-password-for-warehouse-workers"></a>Een wachtwoord maken voor magazijnmedewerkers
 
@@ -111,7 +111,7 @@ U moet een wachtwoord definiëren voor de magazijnmedewerkers die het handheld-a
 1. Selecteer **Magazijnbeheer \> Instellen \> Werknemer** om de pagina **Werkgebruikers** te openen.
 2. Selecteer op het sneltabblad **Gebruikers** de rij voor gebruiker **51**.
 
-    ![Pagina Werkgebruikers](./media/subcontract11_work-users-page.png)
+    ![Pagina Werkgebruikers.](./media/subcontract11_work-users-page.png)
 
 3. Selecteer **Wachtwoord opnieuw instellen**.
 4. Voer in de velden **Wachtwoord** en **Wachtwoord bevestigen** de waarde **1** in.
@@ -126,14 +126,14 @@ Er wordt een productieorder van 10 stuks gemaakt voor het product D8100, Kast me
 1. Selecteer **Productiebeheer \> Productieorders \> Alle productieorders** om de pagina **Alle productieorders** te openen.
 2. Selecteer in het actievenster de optie **Nieuwe productieorder** om het dialoogvenster **Productieorder maken** te openen.
 
-    ![Dialoogvenster Productieorder maken](./media/subcontract12_create-production-order-dialog.png)
+    ![Dialoogvenster Productieorder maken.](./media/subcontract12_create-production-order-dialog.png)
 
 3. Selecteer in het veld **Artikelnummer** de optie **D8100**.
 4. De velden met voorraaddimensies worden weergegeven wanneer u het artikelnummer hebt geselecteerd. Selecteer **Chroom** in het veld **Kleur**.
 
     Er wordt een berichtvenster weergegeven waarin u wordt gevraagd of de actieve versies voor de stuklijst en route moeten worden ingevoegd.
 
-    ![Berichtvenster](./media/subcontract13_message-box.png)
+    ![Berichtvenster.](./media/subcontract13_message-box.png)
 
 5. Selecteer **Ja**. 
 
@@ -149,15 +149,15 @@ Er wordt een productieorder van 10 stuks gemaakt voor het product D8100, Kast me
     > [!NOTE]
     > Voor de stuklijst en de route wordt versie 000042 gebruikt om de bekleding van de kast ui te besteden aan leverancier US-801.
 
-    ![Ingestelde waarden in het dialoogvenster Productieorder maken](./media/subcontract14_create-production-order-dialog-set.png)
+    ![Ingestelde waarden in het dialoogvenster Productieorder maken.](./media/subcontract14_create-production-order-dialog-set.png)
 
 9. Selecteer **Maken** om de productieorder te maken en terug te keren naar de pagina **Alle productieorders**.
 
-    ![Nieuwe productieorder op de pagina Alle productieorders](./media/subcontract15_new-production-order.png)
+    ![Nieuwe productieorder op de pagina Alle productieorders.](./media/subcontract15_new-production-order.png)
 
 10. Selecteer in het actievenster op het tabblad **Productieorder** de optie **Raming** om het dialoogvenster **Raming** te openen.
 
-    ![Dialoogvenster Raming](./media/subcontract16_estimate-dialog.png)
+    ![Dialoogvenster Raming.](./media/subcontract16_estimate-dialog.png)
 
 11. Selecteer **OK** om de raming te bevestigen en terug te keren naar de pagina **Alle productieorders**.
 
@@ -168,7 +168,7 @@ Er wordt een productieorder van 10 stuks gemaakt voor het product D8100, Kast me
 
     Voor serviceartikel S8050 bestaat er een verwijzing naar de inkooporder die is gegenereerd toen de productieorder werd geraamd.
 
-    ![Stuklijstregels in de productieorder op de pagina Stuklijst](./media/subcontract17_production-order-bom-lines.png)
+    ![Stuklijstregels in de productieorder op de pagina Stuklijst.](./media/subcontract17_production-order-bom-lines.png)
 
 13. Sluit de pagina **Stuklijst** om terug te keren naar de pagina **Alle productieorders**.
 14. Selecteer in het actievenster op het tabblad **Planning** de optie **Taken plannen** om het dialoogvenster **Taakplanning** te openen.
@@ -177,24 +177,24 @@ Er wordt een productieorder van 10 stuks gemaakt voor het product D8100, Kast me
     - Selecteer in het veld **Planningsrichting** de optie **Verder vanaf vandaag**.
     - Stel de optie **Eindige capaciteit** in op **Ja**.
 
-    ![Dialoogvenster Taakplanning](./media/subcontract18_job-scheduling-dialog.png)
+    ![Dialoogvenster Taakplanning.](./media/subcontract18_job-scheduling-dialog.png)
 
 16. Selecteer **OK** om het dialoogvenster **Taakplanning** te sluiten en terug te keren naar de pagina **Alle productieorders**.
 17. In het actievenster selecteert u op het tabblad **Planning** de optie **Gantt** om de pagina **Gantt-diagram - Bronweergave** te openen.
 
     Het Gantt-diagram biedt een visueel overzicht van hoe de productietaken zijn gepland voor de resources. De externe bewerking Bekleding bestaat uit drie taken: een verwerkingstaak, een transporttaak en een wachtrijtijdtaak.
 
-    ![Gantt-diagram op de pagina Gantt-diagram - Bronweergave](./media/subcontract19_gantt-chart.png)
+    ![Gantt-diagram op de pagina Gantt-diagram - Bronweergave.](./media/subcontract19_gantt-chart.png)
 
 18. Sluit de pagina **Gantt-diagram - Bronweergave** om terug te keren naar de pagina **Alle productieorders**.
 19. Selecteer in het actievenster op het tabblad **Productieorder** de optie **Vrijgave** om het dialoogvenster **Vrijgave** te openen.
 
-    ![Dialoogvenster Vrijgave](./media/subcontract20_release-dialog.png)
+    ![Dialoogvenster Vrijgave.](./media/subcontract20_release-dialog.png)
 
 20. Selecteer **OK** om het dialoogvenster **Vrijgave** te sluiten.
 21. Selecteer **Productiebeheer \> Periodieke taken \> Vrijgeven aan magazijn \> Stuklijst en formuleregels automatisch vrijgeven** om het dialoogvenster **Stuklijst en formuleregels automatisch vrijgeven** te openen.
 
-    ![Dialoogvenster Stuklijst en formuleregels automatisch vrijgeven](./media/subcontract21_auto-release-bom-formula-lines-dialog.png)
+    ![Dialoogvenster Stuklijst en formuleregels automatisch vrijgeven.](./media/subcontract21_auto-release-bom-formula-lines-dialog.png)
 
 22. Selecteer **OK** om de taak Stuklijst en formuleregels automatisch vrijgeven uit te voeren.
 
@@ -206,7 +206,7 @@ Er wordt een productieorder van 10 stuks gemaakt voor het product D8100, Kast me
 
     Op de pagina worden twee soorten werk voor de orderverzameling van grondstoffen weergegeven. Het eerste werk is voor de materialen M8100 en M8101. De materialen worden verbruikt door bewerking 10. Het tweede werk is voor de materialen M8202 en M8250. Deze materialen worden verbruikt door bewerking 20, de uitbestede bewerking.
 
-    ![Twee soorten werk voor orderverzameling van grondstoffen op de pagina Werk](./media/subcontract22_work-page.png)
+    ![Twee soorten werk voor orderverzameling van grondstoffen op de pagina Werk.](./media/subcontract22_work-page.png)
 
 26. Start de mobiele app Magazijnbeheer om het magazijnwerk voor bewerking 10 te starten.
 
@@ -220,7 +220,7 @@ Er wordt een productieorder van 10 stuks gemaakt voor het product D8100, Kast me
     - Selecteer in het veld **Van bewerkingsnummer** de optie **10**.
     - Selecteer in het veld **Tot bewerkingsnummer** de optie **10**.
 
-    ![Ingestelde waarden op het tabblad Algemeen 1](./media/subcontract23_start-dialog.png)
+    ![Ingestelde waarden op het tabblad Algemeen 1.](./media/subcontract23_start-dialog.png)
 
 31. Selecteer **OK** om het dialoogvenster **Starten** te sluiten en terug te keren naar de pagina **Alle productieorders**.
 
@@ -238,7 +238,7 @@ Er wordt een productieorder van 10 stuks gemaakt voor het product D8100, Kast me
     - Typ **10** in het veld **Hoeveelheid**.
     - Selecteer **Nee** in het veld **Orderverzamellijst nu boeken**.
 
-    ![Ingestelde waarden op het tabblad Algemeen 2](./media/subcontract24_general-tab.png)
+    ![Ingestelde waarden op het tabblad Algemeen 2.](./media/subcontract24_general-tab.png)
 
 35. Selecteer **OK** om het dialoogvenster **Starten** te sluiten en terug te keren naar de pagina **Alle productieorders**.
 
@@ -247,57 +247,57 @@ Er wordt een productieorder van 10 stuks gemaakt voor het product D8100, Kast me
 36. In het actievenster selecteert u op het tabblad **Weergave** de optie **Orderverzamellijst** om de pagina **Orderverzamellijst** te openen.
 37. Selecteer de orderverzamellijst die niet is geboekt en selecteer vervolgens het journaalnummer om de journaalregels weer te geven.
 
-    ![Journaalregels op de pagina Orderverzamellijst](./media/subcontract25_picking-list.png)
+    ![Journaalregels op de pagina Orderverzamellijst.](./media/subcontract25_picking-list.png)
 
 38. Selecteer in het actievenster **Afdrukken** \> **Orderverzamellijst (rapport)** om het dialoogvenster **Orderverzamellijst (rapport)** te openen.
 39. Stel de optie **Indeling van afleveringsbewijs gebruiken** in op **Ja**.
 
-    ![Dialoogvenster Orderverzamellijst (rapport)](./media/subcontract26_picking-list-report-dialog.png)
+    ![Dialoogvenster Orderverzamellijst (rapport).](./media/subcontract26_picking-list-report-dialog.png)
 
 40. Selecteer **OK** om een rapport **Orderverzamellijst** te genereren.
 
     In dit geval wordt een afleveringsbewijs van leverancier afgedrukt vanuit het productieorderverzamellijstjournaal. In het afleveringsbewijs wordt aangegeven welke materialen worden verzonden naar de leverancier die de bewerking Bekleding uitvoert.
 
-    ![Orderverzamellijst (rapport)](./media/subcontract27_picking-list-report.png)
+    ![Orderverzamellijst (rapport).](./media/subcontract27_picking-list-report.png)
 
 41. Sluit het rapport **Orderverzamellijst** om terug te keren naar de pagina **Orderverzamellijst**.
 42. Selecteer in het actievenster de optie **Boeken** om het dialoogvenster **Journaal boeken** te openen.
 
-    ![Dialoogvenster Journaal boeken](./media/subcontract28_post-journal-dialog.png)
+    ![Dialoogvenster Journaal boeken.](./media/subcontract28_post-journal-dialog.png)
 
 43. Selecteer **OK** om het dialoogvenster **Journaal boeken** te sluiten.
 44. Open de inkooporder.
 
-    ![Pagina Inkooporder](./media/subcontract29_purchase-order-page.png)
+    ![Pagina Inkooporder.](./media/subcontract29_purchase-order-page.png)
 
 45. Selecteer in het actievenster op het tabblad **Inkoop** de optie **Bevestigen**.
 46. Selecteer **Boeken** om het dialoogvenster **Journaal boeken** te openen.
 47. Selecteer **OK** om het dialoogvenster **Journaal boeken** te sluiten en terug te keren naar de pagina **Inkooporder**.
 48. Wijzig de eenheidsprijs van **33** in **40**.
 
-    ![Gewijzigde eenheidsprijs op de pagina Inkooporder](./media/subcontract30_unit-price.png)
+    ![Gewijzigde eenheidsprijs op de pagina Inkooporder.](./media/subcontract30_unit-price.png)
 
 49. Bevestig de inkooporder opnieuw.
 50. Productontvangstbon.
 
-    ![Dialoogvenster Productontvangstbon boeking](./media/subcontract31_posting-product-receipt-dialog.png)
+    ![Dialoogvenster Productontvangstbon boeking.](./media/subcontract31_posting-product-receipt-dialog.png)
 
 51. Inkoopfactuur.
 52. Werk de vereffeningsstatus bij.
 
-    ![Pagina Leveranciersfactuur](./media/subcontract32_vendor-invoice-page.png)
+    ![Pagina Leveranciersfactuur.](./media/subcontract32_vendor-invoice-page.png)
 
 53. Rapporteren als gereed.
 
-    ![Dialoogvenster Rapporteren als gereed](./media/subcontract33_report-as-finished-dialog.png)
+    ![Dialoogvenster Rapporteren als gereed.](./media/subcontract33_report-as-finished-dialog.png)
 
 54. Einde.
 
-    ![Dialoogvenster Einde](./media/subcontract34_end-dialog.png)
+    ![Dialoogvenster Einde.](./media/subcontract34_end-dialog.png)
 
 55. Kostenvergelijking.
 
-    ![Kostenvergelijkingsdiagrammen](./media/subcontract35_cost-comparison-charts.png)
+    ![Kostenvergelijkingsdiagrammen.](./media/subcontract35_cost-comparison-charts.png)
 
 Ontbrekende instellingen in gegevens.
 

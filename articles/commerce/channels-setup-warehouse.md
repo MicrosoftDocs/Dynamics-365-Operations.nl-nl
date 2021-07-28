@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1fce2570e1b0cc334fc0e92e5e83c53a4566b4a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800490"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345979"
 ---
 # <a name="warehouse-set-up"></a>Magazijninstellingen
 
@@ -45,7 +45,7 @@ Voer de volgende stappen uit om een magazijnlocatie te configureren.
 
 In de volgende afbeelding ziet u een voorbeeld van magazijnlocatie.
 
-![Voorbeeld van magazijnlocatie](media/warehouse-site.png)
+![Voorbeeld van magazijnlocatie.](media/warehouse-site.png)
 
 ## <a name="set-up-a-warehouse"></a>Een magazijn instellen
 
@@ -98,7 +98,7 @@ Voer de volgende stappen uit om magazijnvoorraadlocaties in te stellen voor stan
     
 In de volgende afbeelding ziet u de instellingen voor een magazijnvoorraadlocatie in San Francisco.
 
-![Voorbeeld van voorraadlocatie-instellingen](media/warehouse-inventory-locations.png)
+![Voorbeeld van voorraadlocatie-instellingen.](media/warehouse-inventory-locations.png)
     
 ## <a name="complete-warehouse-setup"></a>Magazijninstellingen voltooien
 
@@ -121,9 +121,9 @@ Volg deze stappen om de magazijninstellingen te voltooien.
 
 De volgende afbeelding toont details voor een geconfigureerd magazijn.
 
-![Voorbeeld van geconfigureerd magazijn](media/warehouse-sample.png)
+![Voorbeeld van geconfigureerd magazijn.](media/warehouse-sample.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van Magazijnbeheer](../supply-chain/warehousing/warehouse-management-overview.md?toc=/dynamics365/commerce/toc.json)
 

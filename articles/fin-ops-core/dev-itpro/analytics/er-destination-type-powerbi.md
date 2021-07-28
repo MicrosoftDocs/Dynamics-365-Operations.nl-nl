@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 10.0.09
-ms.openlocfilehash: 964ed05eaba2a4dbba904b4ce0e0be33d0925fb5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 20f3c04e5a916524c2c2e8fcb49dfbcd41eb6bb6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753451"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347895"
 ---
 # <a name="power-bi-destination"></a>Bestemming voor Power BI
 
@@ -30,9 +30,9 @@ U kunt een Microsoft Power BI-bestemming configureren voor elke map- of bestandc
 
 Stel **Ingeschakeld** in op **Ja** als u uw ER-configuratie wilt gebruiken om gegevens van uw Dynamics 365 Finance-exemplaar over te dragen aan Microsoft Power BI-services. De overgebrachte bestanden worden opgeslagen op een Microsoft SharePoint Server-exemplaar dat voor dit doel moet worden geconfigureerd. Zie [Elektronische rapportage (ER) configureren om gegevens op te halen in Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md) voor meer informatie.
 
-[![Pagina Bestemmingsinstelling](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
+[![Pagina Bestemmingsinstelling.](./media/ER_Destinations-EnablePowerBIDestination.png)](./media/ER_Destinations-EnablePowerBIDestination.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 - [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)

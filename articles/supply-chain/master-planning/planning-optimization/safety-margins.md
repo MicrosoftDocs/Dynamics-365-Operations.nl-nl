@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 428de5304b3f6f9b861e765d5084d5573b79df90
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908288"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347729"
 ---
 # <a name="safety-margins"></a>Veiligheidsmarges
 
@@ -41,7 +41,7 @@ Er zijn drie typen veiligheidsmarges:
 
 In de volgende afbeelding ziet u hoe deze veiligheidsmarges in de loop der tijd van toepassing zijn.
 
-![Veiligheidsmarges](media/safety-margins-1.png)
+![Veiligheidsmarges.](media/safety-margins-1.png)
 
 Alle marges worden gedefinieerd in dagen. De standaardwaarde *0* (nul) geeft aan dat geen marge wordt toegepast. Als u meerdere marges instelt, worden deze allemaal opgeteld bij de totale tijd tussen de *orderdatum* van de levering en de *behoeftedatum* van de vraag. Er kan bijvoorbeeld een configuratie met een doorlooptijd van nul worde gebruikt waarbij alle drie de margetypen zijn ingesteld op één dag. In dit geval zijn er drie dagen tussen de orderdatum van de levering en de behoeftedatum van de vraag, dus als de orderdatum 1 juli is, is de behoeftedatum 4 juli.
 
@@ -51,7 +51,7 @@ De ontvangstmarge is waarschijnlijk de meest gebruikte veiligheidsmarge. Deze wo
 
 In de volgende afbeelding wordt de ontvangstmarge benadrukt.
 
-![Ontvangstmarge](media/safety-margins-2.png)
+![Ontvangstmarge.](media/safety-margins-2.png)
 
 De ontvangstmarge wordt doorgaans gebruikt als buffer om voor tijd te garanderen voor magazijnregistratie of andere tijdrovende processen die niet zijn vastgelegd als onderdeel van de algemene doorlooptijd in het systeem. Voor inkopen is één voordeel dat de *leveringsdatum* van de inkooporder dienovereenkomstig naar voren wordt verplaatst. Als u de doorlooptijd verhoogt in plaats van een veiligheidsmarge te gebruiken, wordt de leverancier op het laatste moment nog steeds gevraagd te leveren.
 
@@ -66,7 +66,7 @@ Er wordt geen ontvangstmarge toegepast wanneer voorhanden voorraad wordt gebruik
 
 In de volgende afbeelding wordt de bestelmarge benadrukt.
 
-![Bestelmarge](media/safety-margins-3.png)
+![Bestelmarge.](media/safety-margins-3.png)
 
 De bestelmarge wordt opgeteld vóór de doorlooptijd van het artikel voor alle geplande orders tijdens de hoofdplanning. Op deze manier wordt extra tijd gegarandeerd voor het plaatsen van een leveringsorder. Deze marge wordt meestal gebruikt als buffer om tijd in te plannen voor goedkeuringsprocessen of andere interne processen die nodig zijn tijdens het maken van leveringsorders. De bestelmarge wordt tussen de *orderdatum* van de levering en de *begindatum* geplaatst.
 
@@ -77,7 +77,7 @@ De bestelmarge wordt opgeteld vóór de doorlooptijd van het artikel voor alle g
 
 In de volgende afbeelding wordt de uitgiftemarge benadrukt.
 
-![Uitgiftemarge](media/safety-margins-4.png)
+![Uitgiftemarge.](media/safety-margins-4.png)
 
 De uitgiftemarge wordt afgetrokken van de behoeftedatum van de vraag tijdens de hoofdplanning. Zo zorgt u ervoor dat u tijd hebt om te reageren op binnenkomende vraagorders en deze te verzenden. Deze marge wordt meestal gebruikt als buffer om ervoor te zorgen dat er tijd is voor verzending en gerelateerde uitgaande magazijnprocessen.
 
@@ -165,7 +165,7 @@ De volgende afbeelding bevat een matrix waarin wordt samengevat welke kalenders 
 - **Magazijn (WH):** geel
 - **Leverancier (V):** blauw
 
-[![Matrix voor overzicht van kalenderinstellingen](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
+[![Matrix voor overzicht van kalenderinstellingen.](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Vertragingen berekenen
 
@@ -173,7 +173,7 @@ Alle drie de typen veiligheidsmarges worden opgenomen wanneer het systeem bepaal
 
 Een artikel heeft bijvoorbeeld een doorlooptijd van één dag en een ontvangstmarge van drie dagen. Een verkooporder voor dit artikel is ingesteld als vandaag vereist. In dit geval wordt de vertraging berekend als *doorlooptijd* + *ontvangstmarge* = vier dagen. Als vandaag 14 augustus is, levert een vertraging van vier dagen dus een levering op 18 augustus op. In de volgende afbeelding ziet u dit voorbeeld.
 
-![Voorbeeld van vertragingsberekening](media/safety-margins-delays.png)
+![Voorbeeld van vertragingsberekening.](media/safety-margins-delays.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

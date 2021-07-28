@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184017"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345495"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
 
@@ -73,7 +73,7 @@ De hub is eigenaar van de volgende gegevens:
 
 De schaaleenheden zijn eigenaar van de feitelijke wave-verwerking (zoals werktoewijzing, aanvullingswerk en het maken van de vraag) nadat de wave is vrijgegeven. Daarom kunnen magazijnmedewerkers het uitgaande werk verwerken met behulp van een mobiele app Magazijnbeheer die is verbonden met de schaaleenheid.
 
-![Waveverwerkingsstroom](./media/wes-wave-processing-ga.png "Waveverwerkingsstroom")
+![Waveverwerkingsstroom.](./media/wes-wave-processing-ga.png "Waveverwerkingsstroom")
 
 ### <a name="process-work-and-ship"></a>Werk verwerken en verzenden
 
@@ -81,7 +81,7 @@ Zodra het uiteindelijke werkproces de voorraad op een uiteindelijke verzendlocat
 
 Zodra de hub de transacties heeft bijgewerkt naar *Verzameld*, kan het de bevestiging van de uitgaande zending en de bijbehorende verkooppakbon of transferorderzending verwerken voor de lading.
 
-![Verwerkingsstroom voor uitgaande goederen](./media/WES-outbound-processing-19.png "Verwerkingsstroom voor uitgaande goederen")
+![Verwerkingsstroom voor uitgaande goederen.](./media/WES-outbound-processing-19.png "Verwerkingsstroom voor uitgaande goederen")
 
 ## <a name="inbound-process-flow"></a>Inkomende processtroom
 
@@ -107,11 +107,11 @@ De medewerker kan het ontvangstproces uitvoeren met behulp van een mobiele app M
 
 Als u het proces van *vrijgave naar magazijn* niet gebruikt en dus geen *magazijnorders* gebruikt, kan de hub de magazijnontvangst en de werkverwerking onafhankelijk van schaaleenheden verwerken.
 
-![Inkomende processtroom](./media/wes-inbound-ga.png "Inkomende processtroom")
+![Inkomende processtroom.](./media/wes-inbound-ga.png "Inkomende processtroom")
 
 Wanneer u registratie van inkomende goederen uitvoert via een ontvangstproces van een magazijnapp voor de magazijnorder van de schaaleenheid, meldt de workload van de schaaleenheid aan de hub dat de gerelateerde inkooporderregeltransacties moeten worden bijgewerkt naar *Geregistreerd*. Als dit is voltooid, kunt u een productontvangstbon voor een inkooporder uitvoeren op de hub.
 
-![Verwerkingsstroom voor inkomende goederen](./media/WES-inbound-processing-19.png "Verwerkingsstroom voor inkomende goederen")
+![Verwerkingsstroom voor inkomende goederen.](./media/WES-inbound-processing-19.png "Verwerkingsstroom voor inkomende goederen")
 
 ## <a name="supported-processes-and-roles"></a>Ondersteunde processen en rollen
 

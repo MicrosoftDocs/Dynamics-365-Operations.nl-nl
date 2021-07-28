@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba973299291276fe48d82360e203ca28f02aaffb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ddca8a3cc136080aa63f58cda3ba32bf6d2ca37
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796265"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346967"
 ---
 # <a name="accordion-module"></a>Accordeonmodule
 
@@ -34,11 +34,11 @@ Aan elke accordeonmodule kunt u een of meer accordeonitemmodules toevoegen. Elke
 
 De volgende afbeelding toont een voorbeeld van een accordeonmodule die wordt gebruikt om informatie op de pagina met veelgestelde vragen van een winkel te ordenen.
 
-![Voorbeeld van een accordeonmodule](./media/ecommerce-accordion.PNG)
+![Voorbeeld van een accordeonmodule.](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>Eigenschappen van accordeonmodule
 
-| Naam van eigenschap. | Waarden | Omschrijving |
+| Naam van eigenschap. | Waarden | Beschrijving |
 |---------------|--------|-------------|
 | Kop | Tekst | Deze eigenschap geeft een optionele koptekst aan voor de accordeonmodule. |
 | Alles uitvouwen | **True** of **False** | Als de waarde is ingesteld op **Waar**, wordt de functie voor het uit- en samenvouwen ingeschakeld zodat alle items in de accordeonmodule kunnen worden uitgevouwen en samengevouwen. |

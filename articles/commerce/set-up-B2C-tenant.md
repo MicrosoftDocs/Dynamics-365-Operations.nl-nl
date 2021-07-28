@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 84b3a3630d3809c05f87242784207c3c4af160ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1351b9f22416e8ce6d90022997f0a15e9eb4042a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018575"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344366"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Een B2C-tenant instellen in Commerce
 
@@ -40,7 +40,7 @@ Dynamics 365 Commerce gebruikt Azure AD B2C om gebruikersreferenties en verifica
 1. Meld u aan bij de [Azure-portal](https://portal.azure.com/).
 1. Selecteer **Een resource maken** in het menu van Azure Portal. Gebruik het abonnement en de map die met uw Commerce-omgeving worden verbonden.
 
-    ![Een resource maken in Azure Portal](./media/B2CImage_1.png)
+    ![Een resource maken in Azure Portal.](./media/B2CImage_1.png)
 
 1. Ga naar **Identiteit \> Azure Active Directory B2C**.
 1. Op de pagina **Nieuwe B2C-tenant maken of koppelen aan bestaande tenant maken** gebruikt u een van de volgende opties die het beste aansluit bij de behoeften van uw bedrijf:
@@ -52,25 +52,25 @@ Dynamics 365 Commerce gebruikt Azure AD B2C om gebruikersreferenties en verifica
         1. Selecteer het land of de regio bij **Land of regio**.
         1. Selecteer **Maken** om de tenant te maken.
 
-     ![Een nieuwe Azure AD-tenant maken](./media/B2CImage_2.png)
+     ![Een nieuwe Azure AD-tenant maken.](./media/B2CImage_2.png)
 
      - **Een bestaande Azure AD B2C-tenant koppelen aan mijn Azure-abonnement**: gebruik deze optie als u al een Azure AD B2C-tenant hebt waarmee u een koppeling tot stand wilt brengen.
         1. Selecteer **Een bestaande Azure AD B2C-tenant koppelen aan mijn Azure-abonnement**.
         1. Selecteer bij **Azure AD B2C-tenant** de geschikte B2C-tenant. Als het bericht Geen B2C-tenants gevonden die in aanmerking komen wordt weergegeven in het selectievak, beschikt u niet over een bestaande B2C-tenant die in aanmerking komt en moet u een nieuwe maken.
         1. Selecteer **Nieuwe maken** voor **Resourcegroep**. Voer een **naam** in voor de resourcegroep die de tenant moet bevatten, selecteer **de locatie de resourcegroep** en selecteer vervolgens **Maken**.
 
-    ![Een bestaande Azure AD B2C-tenant koppelen aan een Azure-abonnement](./media/B2CImage_3.png)
+    ![Een bestaande Azure AD B2C-tenant koppelen aan een Azure-abonnement.](./media/B2CImage_3.png)
 
 1. Zodra de nieuwe Azure AD B2C-map is gemaakt (dit kan even duren), wordt een koppeling naar de nieuwe map weergegeven op het dashboard. Met deze koppeling wordt u naar de pagina Welkom bij Azure Active Directory B2C geleid.
 
-    ![Koppeling naar nieuwe AAD-map](./media/B2CImage_4.png)
+    ![Koppeling naar nieuwe AAD-map.](./media/B2CImage_4.png)
 
 > [!NOTE]
 > Als u meerdere abonnementen hebt in uw Azure-account of als u de B2C-tenant hebt ingesteld zonder deze aan een actief abonnement te koppelen, kunt u via een banner **Problemen oplossen** de tenant aan een abonnement koppelen. Selecteer het probleemoplossingsbericht en volg de instructies om het probleem met het abonnement op te lossen.
 
 In de volgende afbeelding ziet u een voorbeeld van een Azure AD B2C-banner **Problemen oplossen**.
 
-![Waarschuwing met de melding dat voor de map geen actief abonnement bestaat](./media/B2CImage_5.png)
+![Waarschuwing met de melding dat voor de map geen actief abonnement bestaat.](./media/B2CImage_5.png)
 
 ## <a name="create-the-b2c-application"></a>De B2C-toepassing maken
 
@@ -136,11 +136,11 @@ Voer de volgende stappen uit om een gebruikersstroombeleid voor registreren en a
 
 De volgende afbeelding is een voorbeeld van de gebruikersstroom voor registreren en aanmelden voor Azure AD B2C.
 
-![Beleidsinstellingen voor registreren en aanmelden](./media/B2CImage_11.png)
+![Beleidsinstellingen voor registreren en aanmelden.](./media/B2CImage_11.png)
 
 In de volgende afbeelding ziet de optie **Gebruikersstroom uitvoeren** in de in de gebruikers stroom voor registreren en aanmelden in Azure AD B2C.
 
-![De optie Gebruikersstroom uitvoeren in de beleidsstroom](./media/B2CImage_23.png)
+![De optie Gebruikersstroom uitvoeren in de beleidsstroom.](./media/B2CImage_23.png)
    
 ### <a name="create-a-profile-editing-user-flow-policy"></a>Een beleid voor de gebruikersstroom voor het bewerken van profielen maken
 
@@ -161,7 +161,7 @@ Voer de volgende stappen uit om een gebruikersstroombeleid voor het bewerken van
 
 In de volgende afbeelding ziet u een voorbeeld van de gebruikersstroom voor het bewerken van profielen in Azure AD B2C.
 
-![De gebruikersstroom voor het bewerken van profielen maken](./media/B2CImage_12.png)
+![De gebruikersstroom voor het bewerken van profielen maken.](./media/B2CImage_12.png)
 
 ### <a name="create-a-password-reset-user-flow-policy"></a>Een beleid voor de gebruikersstroom voor het opnieuw instellen van wachtwoorden maken
 
@@ -225,18 +225,18 @@ Voer de volgende stappen uit om een provider van sociale identiteiten toe te voe
 
 In de volgende afbeelding ziet u voorbeelden van de schermen **Identiteitsprovider toevoegen** en **De provider van identiteiten instellen** in Azure AD B2C.
 
-![Een provider van sociale identiteiten toevoegen aan uw toepassing](./media/B2CImage_14.png)
+![Een provider van sociale identiteiten toevoegen aan uw toepassing.](./media/B2CImage_14.png)
 
 De volgende afbeelding toont een voorbeeld van hoe u identiteitsproviders selecteert op de pagina Azure AD B2C-pagina **Identiteitsproviders**.
 
-![De providers van sociale identiteiten selecteren die u wilt inschakelen voor uw beleid](./media/B2CImage_16.png)
+![De providers van sociale identiteiten selecteren die u wilt inschakelen voor uw beleid.](./media/B2CImage_16.png)
 
 In de volgende afbeelding ziet u een voorbeeld van een standaardscherm voor aanmelding waarin een knop voor aanmelding via de provider van de sociale identiteit wordt weergegeven.
 
 > [!NOTE]
 > Als u de aangepaste pagina's gebruikt die in Commerce zijn gebouwd voor uw gebruikersstromen, moeten de knoppen voor sociale identiteitsproviders worden toegevoegd met behulp van de uitbreidbaarheidsfuncties van de bibliotheek van de module Commerce. Bovendien kunnen URL- of configuratietekenreeksen in sommige gevallen hoofdlettergevoelig zijn bij het instellen van uw toepassingen bij een specifieke sociale identiteitsprovider. Raadpleeg de verbindingsinstructies van uw sociale identiteitsprovider voor meer informatie.
  
-![Voorbeeld van standaardaanmeldingsscherm met knop voor aanmelding via provider van sociale identiteiten](./media/B2CImage_17.png)
+![Voorbeeld van standaardaanmeldingsscherm met knop voor aanmelding via provider van sociale identiteiten.](./media/B2CImage_17.png)
 
 ## <a name="update-commerce-headquarters-with-the-new-azure-ad-b2c-information"></a>Commerce Headquarters bijwerken met de nieuwe Azure AD B2C-informatie
 
@@ -291,15 +291,15 @@ Voer de volgende stappen uit om de vereiste toepassingsgegevens te verzamelen.
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Azure AD B2C - Toepassingen**.
 
-![Naar de B2C-toepassing navigeren binnen uw tenant](./media/B2CImage_19.png)
+![Naar de B2C-toepassing navigeren binnen uw tenant.](./media/B2CImage_19.png)
 
 In de volgende afbeelding ziet u een voorbeeld van de pagina **Eigenschappen** van een toepassing in Azure AD B2C. 
 
-![De toepassings-id uit de eigenschappen van de B2C-toepassing kopiëren](./media/B2CImage_21.png)
+![De toepassings-id uit de eigenschappen van de B2C-toepassing kopiëren.](./media/B2CImage_21.png)
 
 De volgende afbeelding toont een voorbeeld van een beleid voor gebruikersstromen op de pagina **Azure AD B2C – Gebruikersstromen (beleid)**.
 
-![De namen van elke B2C-beleidsstroom verzamelen](./media/B2CImage_22.png)
+![De namen van elke B2C-beleidsstroom verzamelen.](./media/B2CImage_22.png)
 
 ### <a name="enter-your-aad-b2c-tenant-application-information-into-commerce"></a>De toepassingsgegevens van de AAD B2C-tenant invoeren in Commerce
 

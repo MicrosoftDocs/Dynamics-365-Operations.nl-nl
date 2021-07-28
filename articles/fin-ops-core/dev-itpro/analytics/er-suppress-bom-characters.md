@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2b26e31748f97603b0b175f79a8daae2650261d7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893271"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345883"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>ER-configuraties ontwerpen om byte order mark (BOM) in gegenereerde bestanden te onderdrukken
 
@@ -29,14 +29,14 @@ U kunt een [Electronic reporting (ER)](general-electronic-reporting.md) [oplossi
 > [!NOTE]
 > Als de indeling een onjuiste coderingsnaam bevat, ontstaat er een fout wanneer u de wijzigingen in de instellingen van de indeling opslaat.
 
-![Een hoofdelement toevoegen op de pagina Indelingsontwerper](./media/er-suppress-bom-characters-image1.gif)
+![Een hoofdelement toevoegen op de pagina Indelingsontwerper.](./media/er-suppress-bom-characters-image1.gif)
 
 Als u **UTF-8**, **UTF-16** of **UTF-32** als codering opgeeft, komt de optie **BOM-tekens onderdrukken** beschikbaar. Stel deze optie in op **Ja** om [BOM-tekens (byte order mark)](/globalization/encoding/byte-order-mark) te onderdrukken in uitgaande bestanden die tijdens runtime worden gegenereerd wanneer de bewerkbare ER-indeling wordt uitgevoerd.
 
 > [!NOTE]
 > Als u het veld **Codering** leeg laat, wordt de standaardcodering **UTF-8** gebruikt.
 
-![De optie BOM-tekens onderdrukken instellen op de pagina Indelingsontwerper](./media/er-suppress-bom-characters-image2.gif)
+![De optie BOM-tekens onderdrukken instellen op de pagina Indelingsontwerper.](./media/er-suppress-bom-characters-image2.gif)
 
 Voer de juiste procedure uit om de functionaliteit tijdens runtime te controleren. Voer bijvoorbeeld de stappen in het onderwerp [De uitvoering van XML-elementen in ER-indelingen uitstellen](er-defer-xml-element.md) uit. Nadat u de stappen in het gedeelte [De indeling wijzigen zodat de berekening wordt gebaseerd op gegenereerde uitvoer](er-defer-xml-element.md#modify-the-format-so-that-the-calculation-is-based-on-generated-output) van dat onderwerp hebt uitgevoerd, voert u deze extra stappen uit.
 
@@ -59,7 +59,7 @@ Voer de juiste procedure uit om de functionaliteit tijdens runtime te controlere
 
     Het eerste verschil dat u ziet, is in de bestandskoptekst. Het SampleXmlReport.xml-bestand bevat een BOM-teken, terwijl het bestand SampleXmlReport (1).xml dit niet bevat.
 
-    ![Gegenereerde bestanden vergelijken met een bestandsvergelijkingsprogramma](./media/er-suppress-bom-characters-image3.png)
+    ![Gegenereerde bestanden vergelijken met een bestandsvergelijkingsprogramma.](./media/er-suppress-bom-characters-image3.png)
 
 ## <a name="see-also"></a>Zie ook
 

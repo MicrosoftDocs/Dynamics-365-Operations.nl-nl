@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 294ad788c97850880b479d3c3c44cc19d55e9a6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0646f8b6371ffbb5d203f8fd062999fb22613240
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837148"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345621"
 ---
 # <a name="revenue-recognition-setup"></a>Instellingen opbrengsttoerekening
 [!include [banner](../includes/banner.md)]
@@ -44,7 +44,7 @@ De module **Opbrengsttoerekening** bevat de volgende configuratieopties:
         - Boekingsprofielen
         - Bundels
 
-    - Bundelonderdelen
+    - Bundelcomponenten
     - Bundelartikel
 
 - Projectinstellingen
@@ -72,7 +72,7 @@ De instellingen voor toerekening van opbrengst worden geconfigureerd op het tabb
     - Stel deze optie in op **Nee** om het boeken van de corrigerende transactie naar het grootboek te beperken. Als deze optie is ingesteld op **Nee** worden er geen extra documenten gemaakt in Klanten voor de interne boekhoudcorrectie. Wanneer de factuur is betaald, wordt tijdens het vereffeningsproces de oude journaalregel gebruikt om contantkortingen of gerealiseerde winsten of verliezen te boeken.
     - Stel deze optie in op **Ja** om voor de corrigerende transactie automatisch een terugboekingsdocument en een nieuwe factuur te maken in Klanten. Omdat deze correctie een interne boekhoudcorrectie is, worden de nieuwe documenten niet naar de klant verzonden of aan de klant gemeld. Het terugboekingsdocument wordt vereffend met de oorspronkelijke factuur en de nieuwe gecorrigeerde factuur wordt door de klant betaald. Zoals u zult zien, worden alle drie de documenten weergegeven in rapporten, zoals het klantoverzicht.
 
-[![Instellingsgegevens](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
+[![Instellingsgegevens.](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
 
 ## <a name="revenue-schedules"></a>Opbrengstschema's
 
@@ -82,7 +82,7 @@ Als u opbrengsten per mijlpaal toekent, kunt u het beste een schema voor de toer
 
 De opbrengstschema's worden gemaakt op de pagina **Opbrengstschema's** (**Opbrengsttoerekening \> Instellingen \> Opbrengstschema's**).
 
-[![Opbrengstschema's](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
+[![Opbrengstschema's.](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
 
 Geef beschrijvende waarden op in de velden **Opbrengstschema** en **Beschrijving**. De volgende aanvullende instellingen worden gebruikt om het opbrengstschema te maken als de factuur wordt geboekt.
 
@@ -104,7 +104,7 @@ Geef beschrijvende waarden op in de velden **Opbrengstschema** en **Beschrijving
 
 Selecteer de knop **Details van het schema voor opbrengsttoerekening** om de algemene perioden en percentages weer te geven die in elke periode worden toegerekend. De waarde voor **Percentage toerekenen** wordt standaard verdeeld over het aantal perioden. Als de toerekeningsbasis is ingesteld op **Maandelijks** of **Voorvallen**, kan het toerekeningspercentage worden gewijzigd. Tijdens het wijzigen van het toerekeningspercentage, wordt er een waarschuwingsbericht weergegeven met de melding dat het totaal niet gelijk is aan 100 procent. Als u dit bericht ontvangt, kunt u doorgaan met het bewerken van regels. Het totale percentage moet echter gelijk zijn aan 100 voordat u de pagina sluit.
 
-[![Details van opbrengstschema](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+[![Details van opbrengstschema.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
 
 ## <a name="inventory-setup"></a>Voorraadinstellingen
 
@@ -137,9 +137,9 @@ Artikelgroepen en vrijgegeven producten kunnen worden ingesteld met behulp van d
     - **Maximumtolerantie**: voer het percentage boven de gemiddelde prijs in dat is toegestaan.
     - **Minimumtolerantie**: voer het percentage onder de gemiddelde prijs in dat is toegestaan.
 
-Nadat u de instellingen voor het vrijgegeven product hebt geconfigureerd, moet u de opbrengstprijs handmatig definiëren door de billijke prijswaarde of de gemiddelde prijs in te voeren (mits u de gemiddelde prijs-methode gebruikt) op de pagina **Opbrengstprijzen** (ga naar **Opbrengsttoerekening \> Instellingen \> Voorraadinstellingen \> Vrijgegeven producten** en selecteer vervolgens in het actievenster op het tabblad **Verkopen** in de groep **Opbrengsttoerekening** de optie **Opbrengstprijzen**).
+Nadat u de instellingen voor het vrijgegeven product hebt geconfigureerd, moet u de opbrengstprijs handmatig definiëren door de reële prijswaarde of de gemiddelde prijs in te voeren (als u de gemiddelde prijs-methode gebruikt) op de pagina **Opbrengstprijzen** (ga naar **Opbrengsttoerekening \> Instellingen \> Voorraadinstellingen \> Vrijgegeven producten** en selecteer vervolgens in het actiepaneel op het tabblad **Verkopen** in de groep **Opbrengsttoerekening** de optie **Opbrengstprijzen**).
 
-[![Opbrengstprijzen](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
+[![Opbrengstprijzen.](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
 
 De opbrengstprijs die op deze pagina handmatig wordt gedefinieerd, wordt gebruikt om de toewijzing van de opbrengstprijs voor elke verkooporder te bepalen op basis van de criteria die zijn gedefinieerd. Elk criterium wordt afgestemd op de verkooporderregel om de opbrengstprijs te bepalen die in het toewijzingsproces moet worden gebruikt.
 
@@ -150,9 +150,9 @@ De opbrengstprijs die op deze pagina handmatig wordt gedefinieerd, wordt gebruik
 - **Opbrengsttoewijzingsprijs**: afhankelijk van de waarde die u hebt geselecteerd in het veld **Bedrag of percentage van catalogusprijs**, voert u een bedrag of een percentage in voor de opbrengstprijs die wordt gebruikt om de opbrengst toe te wijzen aan alle elementen op de verkooporder.
 - **Begindatum** en **Einddatum**: voer het datumbereik in waarvoor de opbrengstprijs van toepassing is. Deze velden zijn optioneel.
 
-Als de optie **Methode voor toewijzing van korting inschakelen** op de pagina **Grootboekparameters** is ingesteld op **Ja** en als het veld **Opbrengsttype** voor uw vrijgegeven product is ingesteld op **Contractondersteuning boeken**, moet u ook de artikelen opgeven die door het vrijgegeven product worden ondersteund. Deze instellingen worden ingesteld op de pagina **Basis instellen** (ga naar **Opbrengsttoerekening \> Instellingen \> Voorraadinstellingen \> Vrijgegeven producten** en selecteer vervolgens in het actievenster op het tabblad **Verkopen** in de groep **Opbrengsttoerekening** de optie **Basis instellen**).
+Als de optie **Methode voor toewijzing van korting inschakelen** op de pagina **Grootboekparameters** is ingesteld op **Ja** en als het veld **Opbrengsttype** voor uw vrijgegeven product is ingesteld op **Contractondersteuning boeken**, moet u ook de artikelen opgeven die door het vrijgegeven product worden ondersteund. Deze instellingen worden ingesteld op de pagina **Basis instellen** (ga naar **Opbrengsttoerekening \> Instellingen \> Voorraadinstellingen \> Vrijgegeven producten** en selecteer vervolgens in het actiepaneel op het tabblad **Verkopen** in de groep **Opbrengsttoerekening** de optie **Basis instellen**).
 
-Voeg op de pagina **Basis instellen** een record toe voor elke artikelengroep waarvoor het artikel ondersteuning biedt. Wanneer de opbrengsten worden toegewezen, wordt de opbrengstprijs verdeeld over de essentiële en niet-essentiële onderdelen voor het PCS-artikel.
+Voeg op de pagina **Basis instellen** een record toe voor elke artikelengroep waarvoor het artikel ondersteuning biedt. Wanneer de opbrengsten worden toegewezen, wordt de opbrengstprijs verdeeld over de essentiële en niet-essentiële componenten voor het PCS-artikel.
 
 ### <a name="posting-profiles"></a>Boekingsprofielen
 
@@ -164,13 +164,13 @@ Er zijn drie aanvullende boekingstypen die de mogelijkheid ondersteunen om opbre
 
 ### <a name="bundles"></a>Bundels
 
-Bundelartikelen zijn unieke vrijgegeven producten die zo zijn ingesteld dat ze onderdelen bevatten. Deze instelling kan worden uitgevoerd met behulp van de stuklijstfunctionaliteit. Wanneer een bundelartikel op een verkooporder wordt ingevoerd, worden de afzonderlijke onderdelen gebruikt om de opbrengstprijzen en opbrengstschema's vast te stellen. Op afgedrukte documenten voor de klant, zoals de verkooporder en de factuur, wordt echter het bundelartikel weergegeven.
+Bundelartikelen zijn unieke vrijgegeven producten die zo zijn ingesteld dat ze componenten bevatten. Deze instelling kan worden uitgevoerd met behulp van de stuklijstfunctionaliteit. Wanneer een bundelartikel op een verkooporder wordt ingevoerd, worden de afzonderlijke componenten gebruikt om de opbrengstprijzen en opbrengstschema's vast te stellen. Op afgedrukte documenten voor de klant, zoals de verkooporder en de factuur, wordt echter het bundelartikel weergegeven.
 
-#### <a name="bundle-components"></a>Bundelonderdelen
+#### <a name="bundle-components"></a>Bundelcomponenten
 
-De onderdelen die deel uitmaken van de bundel, moeten worden ingesteld op de pagina **Vrijgegeven producten** (**Opbrengsttoerekening \> Instellingen \> Voorraad- en productinstellingen \> Vrijgegeven producten**). Deze onderdelen zijn vrijgegeven producten en moeten op dezelfde manier worden ingesteld als producten die zijn opgenomen in een stuklijst. Een vrijgegeven product kan bijvoorbeeld een artikel van het type **Artikel** of van het type **Service** zijn, maar het moet worden toegewezen aan een artikelmodelgroep waar de optie **Product in voorraad** is ingesteld op **Ja**. Zie de documentatie voor stuklijstartikelen voor meer informatie.
+De componenten die deel uitmaken van de bundel, moeten worden ingesteld op de pagina **Vrijgegeven producten** (**Opbrengsttoerekening \> Instellingen \> Voorraad- en productinstellingen \> Vrijgegeven producten**). Deze componenten zijn vrijgegeven producten en moeten op dezelfde manier worden ingesteld als producten die zijn opgenomen in een stuklijst. Een vrijgegeven product kan bijvoorbeeld een artikel van het type **Artikel** of van het type **Service** zijn, maar het moet worden toegewezen aan een artikelmodelgroep waar de optie **Product in voorraad** is ingesteld op **Ja**. Zie de documentatie voor stuklijstartikelen voor meer informatie.
 
-De onderdelen moeten ook worden ingesteld voor opbrengsttoerekening, net alsof het producten zijn die afzonderlijk via een verkooporder kunnen worden verkocht. Controleer bijvoorbeeld of de juiste opbrengstprijs is gedefinieerd voor elk onderdeel en of de prijsbasis is ingesteld voor PCS-artikelen.
+De componenten moeten ook worden ingesteld voor opbrengsttoerekening, net alsof het producten zijn die afzonderlijk via een verkooporder kunnen worden verkocht. Controleer bijvoorbeeld of de juiste opbrengstprijs is gedefinieerd voor elke component en of de prijsbasis is ingesteld voor PCS-artikelen.
 
 #### <a name="bundle-items"></a>Bundelartikelen
 
@@ -179,11 +179,11 @@ Als u een bundelartikel instelt, moet u twee velden instellen op de pagina **Vri
 - Op het sneltabblad **Technicus** in het veld **Productietype** moet het artikel worden ingesteld als een stuklijstartikel.
 - Op het sneltabblad **Algemeen** in het veld **Bundel** moet het artikel zijn gemarkeerd als een bundelartikel.
 
-De onderdelen moeten vervolgens worden toegewezen aan het hoofdartikel van de bundel/stuklijst op de pagina **Stuklijstversies** (ga naar **Opbrengsttoerekening \> Instellingen \> Voorraad- en productinstellingen \> Vrijgegeven producten** en selecteer vervolgens in het actievenster op het tabblad **Technicus** in de groep **Stuklijst** de optie **Stuklijstversies**). Zie de documentatie over het instellen van stuklijsten voor meer informatie.
+De componenten moeten vervolgens worden toegewezen aan het hoofdartikel van de bundel/stuklijst op de pagina **Stuklijstversies** (ga naar **Opbrengsttoerekening \> Instellingen \> Voorraad- en productinstellingen \> Vrijgegeven producten** en selecteer vervolgens in het actiepaneel op het tabblad **Technicus** in de groep **Stuklijst** de optie **Stuklijstversies**). Zie de documentatie over het instellen van stuklijsten voor meer informatie.
 
-[![Vrijgegeven producten, stuklijstschema's](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
+[![Vrijgegeven producten, stuklijstschema's.](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
 
-Als het hoofdartikel en de bundelonderdelen zijn ingesteld om te worden toegewezen, wordt de opbrengstprijs van de bundel gedistribueerd naar de onderdelen op basis van de percentages waarmee ze aan de opbrengst bijdragen.
+Als het hoofdartikel en de bundelcomponenten zijn ingesteld om te worden toegewezen, wordt de opbrengstprijs van de bundel gedistribueerd naar de componenten op basis van de percentages waarmee ze aan de opbrengst bijdragen.
 
 ## <a name="project-setup"></a>Projectinstellingen
 

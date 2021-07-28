@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8c2e207efe0eeec6fc7e679a6ae12edcb21b291f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: f0dac25ede6c9b9dfcfa1be1f1a5f4d7a7752112
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058579"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344709"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Virtuele Dataverse-tabellen configureren
 
@@ -41,7 +41,7 @@ Alle OData-entiteiten (Open Data Protocol) in Human Resources zijn beschikbaar a
 
 U kunt de lijst met virtuele tabellen die in de omgeving zijn ingeschakeld, weergeven en in [Power Apps](https://make.powerapps.com) met de tabellen gaan werken in de oplossing **Dynamics 365 HR Virtual Tables**.
 
-![Dynamics 365 HR Virtual Tables in Power Apps](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
+![Dynamics 365 HR Virtual Tables in Power Apps.](./media/hr-admin-integration-virtual-entities-power-apps.jpg)
 
 ## <a name="virtual-tables-versus-native-tables"></a>Virtuele tabellen versus native tabellen
 
@@ -147,7 +147,7 @@ In de volgende stap configureert u de gegevensbron van de virtuele tabel in de P
 
    - **AAD-toepassingsgeheim**: het clientgeheim dat is gemaakt voor de toepassing die in de Microsoft Azure-portal is geregistreerd. U hebt deze gegevens eerder ontvangen tijdens de stap [De app registreren in Microsoft Azure](hr-admin-integration-common-data-service-virtual-entities.md#register-the-app-in-microsoft-azure).
 
-   ![Microsoft HR-gegevensbron](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
+   ![Microsoft HR-gegevensbron.](./media/hr-admin-integration-virtual-entities-hr-data-source.jpg)
 
 9. Selecteer **Opslaan en sluiten**.
 
@@ -187,7 +187,7 @@ Wanneer het instellen is voltooid, kunt u de virtuele tabellen selecteren die u 
 
 4. Selecteer **Genereren/vernieuwen**.
 
-![Integratie met Dataverse](./media/hr-admin-integration-dataverse-integration.png)
+![Integratie met Dataverse.](./media/hr-admin-integration-dataverse-integration.png)
 
 ## <a name="check-table-generation-status"></a>Status van het genereren van tabellen controleren
 

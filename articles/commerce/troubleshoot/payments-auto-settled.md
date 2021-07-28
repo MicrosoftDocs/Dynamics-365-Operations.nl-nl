@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b4fd37a3c45f2559c9659f072ca0b6f02e712f53
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 79300c84b07db23ad387e0f3e475ca1707c79548
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018255"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347363"
 ---
 # <a name="payments-are-automatically-settled-before-orders-are-invoiced-or-shipped"></a>Betalingen worden automatisch vereffend voordat orders worden gefactureerd of verzonden
 
@@ -43,12 +43,12 @@ Voer de volgende stappen uit als u het handmatig vastleggen voor e-commercebetal
 1. Selecteer op de bovenste navigatiebalk **Rekening** en vervolgens **Instellingen**.
 1. Selecteer in het veld **Vertraging vastleggen** de optie **handmatig**.
 
-    ![Instelling voor vertraging vastleggen in de Adyen-portal](media/adyen-capture-delay.jpg)
+    ![Instelling voor vertraging vastleggen in de Adyen-portal.](media/adyen-capture-delay.jpg)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Adyen-betaling vastleggen](https://docs.adyen.com/point-of-sale/capturing-payments)
 
-[Dynamics 365-betalingsconnector voor Adyen](../dev-itpro/adyen-connector.md)
+[Dynamics 365 Payment Connector voor Adyen](../dev-itpro/adyen-connector.md)
 
 [De Adyen-betalingsconnector voor Dynamics 365 instellen](https://docs.adyen.com/plugins/microsoft-dynamics)

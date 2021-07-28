@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 5a18fed2eac4c120dca20a1d7797d047639275b9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 70904ee716aabd019210e92895a894810bde27fb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750589"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346515"
 ---
 # <a name="switch-between-vendor-designs"></a>Schakelen tussen leverancierontwerpen
 
@@ -48,14 +48,14 @@ Ga als volgt te werk om nieuwe werkstroomprocessen te maken op basis van de werk
 
 1. Maak een werkstroomproces voor de tabel **Leverancier** en selecteer de werkstroomprocessjabloon **Leveranciers maken in tabel Rekeningen**. Selecteer vervolgens **OK**. Deze werkstroom verwerkt het scenario voor het maken van de tabel **Rekening**.
 
-    ![Het werkstroomproces Leveranciers maken in tabel Accounts](media/create_process.png)
+    ![Het werkstroomproces Leveranciers maken in tabel Accounts.](media/create_process.png)
 
 2. Maak een werkstroomproces voor de tabel **Leverancier** en selecteer de werkstroomprocessjabloon **Leveranciers bijwerken in tabel Rekeningen**. Selecteer vervolgens **OK**. Deze werkstroom verwerkt het scenario voor het bijwerken van de tabel **Rekening**.
 3. Maak een werkstroomproces voor de tabel **Rekening** en selecteer de werkstroomprocessjabloon **Leveranciers maken in tabel Leveranciers**.
 4. Maak een werkstroomproces voor de tabel **Rekening** en selecteer de werkstroomprocessjabloon **Leveranciers bijwerken in tabel Leveranciers**.
 5. U kunt de werkstromen configureren als realtime werkstromen of werkstromen op de achtergrond, afhankelijk van uw vereisten. Als u een werkstroom als een achtergrondwerkstroom wilt configureren, selecteert u **Converteren naar een workflow op de achtergrond**.
 
-    ![De knop Converteren naar een workflow op de achtergrond](media/background_workflow.png)
+    ![De knop Converteren naar een workflow op de achtergrond.](media/background_workflow.png)
 
 6. Activeer de werkstromen die u hebt gemaakt voor de tabellen **Rekening** en **Leverancier** om de tabel **Rekening** te gebruiken voor het opslaan van leveranciersgegevens van het type **Organisatie**.
 

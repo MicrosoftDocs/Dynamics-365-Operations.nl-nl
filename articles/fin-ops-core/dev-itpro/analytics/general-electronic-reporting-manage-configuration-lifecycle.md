@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893196"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345733"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>De levenscyclus van de configuratie van elektronische rapportage (ER) beheren
 
@@ -80,7 +80,7 @@ Het is raadzaam om ER-configuraties in de ontwikkelingsomgeving te ontwerpen als
 
 ER-configuraties die zijn ontworpen in de ontwikkelomgeving, kunnen worden [geüpload](#data-persistence-consideration) naar de testomgeving voor de configuratie-evaluatie (juiste procesintegratie, nauwkeurigheid van resultaten en prestaties) en kwaliteitscontrole, zoals nauwkeurigheid van op rollen gebaseerde toegangsrechten, scheiding van taken enzovoort. De functies die de uitwisseling van ER-configuratie mogelijk maken, kunnen voor dit doel worden gebruikt. Bewezen ER-configuraties kunnen worden geüpload naar LCS waar ze kunnen worden gedeeld met serviceabonnees, of [geïmporteerd](#data-persistence-consideration) naar de productieomgeving voor intern gebruik.
 
-![Levenscyclus van ER-configuratie](./media/ger-configuration-lifecycle.png)
+![Levenscyclus van ER-configuratie.](./media/ger-configuration-lifecycle.png)
 
 ## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Overweging voor gegevenspersistentie
 

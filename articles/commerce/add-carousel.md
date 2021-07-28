@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5bc2227e08dbbf5f76a37180114e5affff131658
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 69f6b0c6dab5dd5a9e15e2b7ec2a6301d13ab810
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797882"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346871"
 ---
 # <a name="carousel-module"></a>Carrouselmodule
 
@@ -40,11 +40,11 @@ U kunt inhoudsblokmodules in een carrouselmodule toevoegen. De eigenschappen van
 
 De volgende afbeelding toont een voorbeeld van een carrouselmodule die wordt gebruikt op een introductiepagina. Deze carrouselmodule bevat meerdere inhoudsblokitems.
 
-![Voorbeeld van een carrouselmodule](./media/Hero.PNG)
+![Voorbeeld van een carrouselmodule.](./media/Hero.PNG)
 
 ## <a name="carousel-module-properties"></a>Eigenschappen van carrouselmodules
 
-| Naam van eigenschap.             | Waarde                 | Omschrijving |
+| Naam van eigenschap.             | Waarde                 | Beschrijving |
 |---------------------------|-----------------------|-------------|
 | Automatisch afspelen                  | **True** of **False** | Als de waarde is ingesteld op **True**, vindt de overgang tussen items binnen de carrousel automatisch plaats. Als de waarde is ingesteld op **False**, vindt er geen overgang plaats tenzij de klant het toetsenbord of de muis gebruikt om van het ene naar het volgende item te gaan. |
 | Interval voor diaovergang | Een waarde in seconden    | Het interval voor overgangen tussen items. |

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f7b28a33dff4af6bf2b97db825a5a8304213f3a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 57f5d23533c2fd17593648a15745fa770fc01dc4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796481"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345203"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Meldingen over orders op het verkooppunt (POS) weergeven
 
@@ -72,14 +72,14 @@ POS-knoppen kunnen nu een aantal aangeven zodat de werknemers eenvoudig kunnen b
 
 In de volgende afbeelding ziet u de instellingen voor live inhoud in de ontwerper van het knoppenraster.
 
-![Instellingen voor live inhoud in de ontwerpfunctie voor het knoppenraster](./media/ButtonGridDesigner.png "Instellingen voor live inhoud in de ontwerpfunctie voor het knoppenraster")
+![Instellingen voor live inhoud in de ontwerpfunctie voor het knoppenraster.](./media/ButtonGridDesigner.png "Instellingen voor live inhoud in de ontwerpfunctie voor het knoppenraster")
 
 Als u het aantal meldingen op een knop wilt weergeven, moet u ervoor zorgen dat de juiste schermindeling wordt bijgewerkt. Als u wilt bepalen welke schermindeling door het POS wordt gebruikt, selecteert u het pictogram **Instellingen** in de rechterbovenhoek en noteert u de **schermindelings-id** en **indelingsresolutie**. Ga nu met de browser Edge naar de pagina **Schermindeling**, zoek de **schermindelings-id** en **indelingsresolutie** die hierboven wordt aangegeven en schakel het selectievakje **Live inhoud inschakelen** in. Ga naar **Retail en Commerce \> Retail en Commerce IT \> Distributieplanning** en voer de taak 1090 (Kassa's) uit om indelingswijzigingen te synchroniseren.
 
-![De schermindeling zoeken die door POS wordt gebruikt](./media/Choose_screen_layout.png "De schermindeling zoeken")
+![De schermindeling zoeken die door POS wordt gebruikt.](./media/Choose_screen_layout.png "De schermindeling zoeken")
 
 De volgende afbeelding toont het effect van het selecteren van **Rechtsboven** versus **Midden** in de het del **Uitlijning van inhoud** voor knoppen van verschillende grootten.
 
-![Live inhoud op de POS-knoppen](./media/ButtonsWithLiveContent.png "Live inhoud op de POS-knoppen")
+![Live inhoud op de POS-knoppen.](./media/ButtonsWithLiveContent.png "Live inhoud op de POS-knoppen")
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
