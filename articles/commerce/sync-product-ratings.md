@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fe387631a1716c6612f9d475faff56d0aef3fdc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f23b4c15937a0e61eb64b25eadef58c1fda231e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791674"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354608"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Productbeoordelingen synchroniseren in Dynamics 365 Commerce
 
@@ -59,7 +59,7 @@ Voer de volgende stappen uit om te controleren of de subtaak **RetailproductRati
 
 In de volgende afbeelding ziet u een voorbeeld van subtaakdetails in Commerce.
 
-![Details van de subtaak RetailproductRating](media/rnr-hq-ratings-sub-job.png)
+![Details van de subtaak RetailProductRating.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Als u de subtaak **RetailproductRating** niet kunt vinden, hebt u mogelijk al de taak **Productbeoordelingen synchroniseren** en de **1040 CDX**-taak uitgevoerd voordat u de Commerce-planner hebt geïnitialiseerd. Voer in dat geval de volgende stappen uit om de taak **Volledige gegevenssynchronisatie** uit te voeren.
@@ -83,7 +83,7 @@ Voer de volgende stappen uit om productbeoordelingen in Commerce te importeren v
 
 In de volgende afbeelding ziet u een voorbeeld van batchtaakconfiguratie in Commerce.
 
-![Configuratie van de batchtaak voor de synchronisatie van productbeoordelingen](media/rnr-hq-batchjob-recurrence.png)
+![Configuratie van de batchtaak voor de synchronisatie van productbeoordelingen.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Controleren of de batchtaak voor het synchroniseren van productbeoordelingen is geslaagd
 
@@ -95,7 +95,7 @@ Ga als volgt te werk om te controleren of de batchtaak voor **synchroniseren van
 
 In de volgende afbeelding ziet u een voorbeeld van de details van de batchtaak in Commerce wanneer de batchtaak wordt uitgevoerd met een interval van twee uur.
 
-![Details van de batchtaak voor de synchronisatie van productbeoordelingen](media/rnr-hq-batchjob-status-checking.png)
+![Details van de batchtaak voor de synchronisatie van productbeoordelingen.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Productbeoordelingen beschikbaar maken op het POS
 
@@ -113,17 +113,17 @@ Voer de volgende stappen uit om productbeoordelingen in te schakelen op het POS.
 
 In de volgende afbeelding ziet u een voorbeeld van de configuratie van de Commerce-parameters om productbeoordelingen in te schakelen op het POS.
 
-![Configuratie van Commerce-parameters voor productbeoordelingen op het POS](media/rnr-hq-enable-ratings-in-pos.png)
+![Configuratie van Commerce-parameters voor productbeoordelingen op het POS.](media/rnr-hq-enable-ratings-in-pos.png)
 
 In de volgende afbeelding ziet u een voorbeeld van de productbeoordelingen op het POS.
 
-![Productbeoordelingen op het POS](media/rnr-pos-catalog-ratings.png)
+![Productbeoordelingen op het POS.](media/rnr-pos-catalog-ratings.png)
 
 In de volgende afbeelding ziet u een voorbeeld van de productbeoordelingen in callcenterkanalen.
 
-![Productbeoordelingen in een callcenterkanaal](media/rnr-call-center-ratings.png)
+![Productbeoordelingen in een callcenterkanaal.](media/rnr-call-center-ratings.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht beoordelingen en recensies](ratings-reviews-overview.md)
 

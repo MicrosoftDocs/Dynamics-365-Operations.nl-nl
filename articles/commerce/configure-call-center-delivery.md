@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ac3d540ee3d1737e4e8be45394cd5807ae4a8d6f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9636348e7840206ad1ef5669eae7f553231cadf1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796143"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352609"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Leveringsmethoden en toeslagen van callcenters configureren
 
@@ -65,11 +65,11 @@ In de **Regels** kunt u indien nodig een of meer toeslagen definiëren per valut
 
 Bedrijven configureren vaak gelaagde toeslagen. In dit geval wordt het bedrag dat klanten voor de levering betalen gebaseerd op de orderwaarde. Als u gelaagde toeslagen wilt configureren, voert u waarden in de velden **Van-bedrag** en **Tot-bedrag** in, naast dat u de toeslag zelf definieert in het veld **Waarde van toeslagen**. Voor orders met een waarde die kleiner is dan € 50, brengt een detailhandelaar bijvoorbeeld € 5,95 in rekening voor verzending over land. Voor orders met een waarde die gelijk is aan of groter is dan € 50, maar minder dan € 100, brengt de detailhandelaar € 7,95 in rekening. Voor orders met een waarde die gelijk is aan of groter is dan € 100, biedt de detailhandelaar gratis verzending. In de volgende afbeelding ziet u de configuratie van deze kosten.
 
-![Voorbeeld van vaste gelaagde toeslagen](media/fixedtieredcharges.png)
+![Voorbeeld van vaste gelaagde toeslagen.](media/fixedtieredcharges.png)
 
 U kunt een combinatie van categorieën voor toeslagen gebruiken, afhankelijk van uw zakelijke behoeften. Voor alle orders met een waarde die kleiner is dan € 100, is er bijvoorbeeld een vaste toeslag van € 9,95 voor verzending. Voor orders met een waarde die gelijk is aan of groter is dan € 100, worden leveringstoeslagen berekend volgens een percentage van 5 procent van de orderwaarde. In de volgende afbeelding ziet u de configuratie van deze kosten.
 
-![Voorbeeld van gecombineerde gelaagde toeslagen](media/mixedtieredcharges.png)
+![Voorbeeld van gecombineerde gelaagde toeslagen.](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Leveringsmethoden toepassen tijdens het invoeren van orders in een callcenter
 

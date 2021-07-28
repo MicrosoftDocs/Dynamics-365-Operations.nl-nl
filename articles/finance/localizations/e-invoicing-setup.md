@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 35a2abaa2165288097bc07b47320e002efc290e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890826"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348481"
 ---
 # <a name="set-up-electronic-invoicing"></a>Elektronische facturering instellen
 
@@ -37,7 +37,7 @@ De configureerbaarheid is gebaseerd op de indelingsconfiguratie voor elektronisc
 
 In de volgende afbeelding worden de hoofdonderdelen van een functie voor elektronische facturering weergegeven.
 
-![Overzicht van de functie voor elektronische facturering](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![Overzicht van de functie voor elektronische facturering.](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 Vanwege variaties in factuurindelingen en actiestromen kan de functie-instelling variëren afhankelijk van het land of de regio of afhankelijk van bedrijfsvereisten.
 
@@ -50,7 +50,7 @@ Het instellingsproces moet in uw RCS-omgeving worden uitgevoerd. Voer de volgend
 3. Selecteer op de pagina **Functies voor elektronische facturering** de optie **Importeren** om het gegevensmodel voor elektronische rapportage vanuit de algemene opslagplaats te importeren.
 4. Selecteer **Toevoegen** om een functie voor elektronische facturering te maken. U kunt de functie helemaal opnieuw maken of deze afleiden van een bestaande functie voor elektronische facturering.
 
-    ![Een functie voor elektronische facturering toevoegen](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![Een functie voor elektronische facturering toevoegen.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
 > Als u een nieuwe functie voor elektronische facturering maakt, heeft deze een versienummer en is de standaardstatus ervan ingesteld op **Concept**.
@@ -63,21 +63,21 @@ Voer de volgende stappen uit om ER-indelingen toe te voegen aan de functie voor 
 
 1. Selecteer op de pagina **Functies voor elektronische facturering** op het tabblad **Configuraties** de optie **Toevoegen** om configuraties voor ER-bestandsindelingen toe te voegen voor de functie voor elektronische facturering.
 
-    ![Configuraties voor de functie voor elektronische facturering toevoegen](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![Configuraties voor de functie voor elektronische facturering toevoegen.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Wanneer u een geheel nieuwe functie voor elektronische facturering maakt, moet u alle configuraties voor de ER-bestandsindelingen handmatig toevoegen. Wanneer u een functie voor elektronische facturering afleidt van een bestaande functie, worden de configuraties voor ER-bestandsindelingen automatisch gemaakt, omdat deze worden overgenomen van de oorspronkelijke functie voor elektronische facturering.
 
 2. Selecteer **Bewerken** om de pagina **Indelingsontwerper** te openen. Op deze pagina kunt u de configuratie voor de ER-bestandsindeling bewerken.
 
-    ![Configuraties voor de functie voor elektronische facturering bewerken](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![Configuraties voor de functie voor elektronische facturering bewerken.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Terwijl u de indeling bewerkt, wordt de status van de configuratieversie ingesteld op **Concept**.
 
 3. Gebruik de pagina **Indelingsontwerper** om de configuratie van de bestandsindeling te wijzigen. Zie [Configuraties voor elektronische documenten maken](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md) voor meer informatie.
 
-    ![Pagina Indelingsontwerper](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
+    ![Pagina Indelingsontwerper.](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 
 ### <a name="feature-setups"></a>Functie-instellingen
 
@@ -87,18 +87,18 @@ Voer de volgende stappen uit om functie-instellingen toe te voegen aan de functi
 
 1. Selecteer op de pagina **Functies voor elektronische facturering** op het tabblad **Instellingen** de optie **Toevoegen** om functie-instellingen toe te voegen aan de functie voor elektronische facturering.
 
-    ![Functie-instellingen voor elektronische facturering toevoegen](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![Functie-instellingen voor elektronische facturering toevoegen.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
     > Wanneer u een geheel nieuwe functie voor elektronische facturering maakt, moet u alle benodigde functie-instellingen handmatig toevoegen. Wanneer u een functie voor elektronische facturering afleidt van een bestaande functie, worden alle functie-instellingen automatisch gemaakt, omdat deze worden overgenomen van de oorspronkelijke functie voor elektronische facturering.
 
 2. Selecteer **Bewerken** om de instellingen van de functieversie te bewerken.
 
-    ![Functie-instellingen voor elektronische facturering bewerken](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![Functie-instellingen voor elektronische facturering bewerken.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. Gebruik de pagina **Instellingen functieversie** om acties, toepasbaarheidsregels en variabelen te configureren.
 
-    ![Acties, regels voor toepasbaarheid en variabelen](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
+    ![Acties, regels voor toepasbaarheid en variabelen.](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
 
 ### <a name="actions"></a>Acties
 
@@ -113,7 +113,7 @@ Voer op de pagina **Instellingen functieversie** op het tabblad **Acties** op he
 - Selecteer **Nieuw** of **Verwijderen** om nieuwe acties toe te voegen of bestaande acties te verwijderen.
 - Selecteer **Omhoog** of **Omlaag** om geselecteerde acties omhoog of omlaag in het raster te verplaatsen en daardoor de volgorde te wijzigen waarin ze worden uitgevoerd. Acties worden uitgevoerd in de volgorde waarin ze worden weergegeven in het raster, van boven naar beneden.
 
-![Acties beheren](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
+![Acties beheren.](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
 
 In de volgende tabel worden de velden beschreven die beschikbaar zijn op het sneltabblad **Acties**.
 
@@ -129,7 +129,7 @@ In de volgende tabel worden de velden beschreven die beschikbaar zijn op het sne
 
 Met het sneltabblad **Parameters** worden de parameters weergegeven voor de actie die is geselecteerd op het sneltabblad **Acties**.
 
-![Sneltabblad Parameters](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
+![Sneltabblad Parameters.](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
 
 In de volgende tabel worden de velden beschreven die beschikbaar zijn op het sneltabblad **Parameters**.
 
@@ -259,20 +259,20 @@ Met toepasbaarheidsregels kunt u logische regels maken waarmee de gebruikscontex
 
 1. Selecteer op de pagina **Instellingen functieversie** op het tabblad **Toepasbaarheidsregels** de optie **Nieuw** om een toepasbaarheidsregel toe te voegen.
 
-    ![Regels voor toepasbaarheid beheren](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
+    ![Regels voor toepasbaarheid beheren.](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
 2. Selecteer in het raster de clausules die moeten worden gegroepeerd.
 3. Selecteer **Clausule groeperen**.
 
-    ![Clausules groeperen](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
+    ![Clausules groeperen.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
 
     Als clausules worden gegroepeerd, wordt een nieuwe kolom aan het raster toegevoegd. Met deze kolom wordt de logische operator voor de gegroepeerde clausules opgegeven.
 
-    ![Logische operator voor gegroepeerde clausules](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
+    ![Logische operator voor gegroepeerde clausules.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
 
 Als u de groepering van clausules wilt opheffen, selecteert u de gegroepeerde clausules om de groepering op te heffen en vervolgens selecteert u **Groepering clausule opheffen**.
 
-![Groepering van clausules opheffen](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
+![Groepering van clausules opheffen.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
 
 > [!NOTE]
 > Als u de groepering van een clausule opheft, begint u altijd vanaf het binnenste groeperingsniveau.
@@ -294,7 +294,7 @@ U kunt variabelen maken en deze vervolgens als de invoerwaarde gebruiken voor ee
 
 - Selecteer op de pagina **Instellingen functieversie** op het tabblad **Variabelen** de optie **Nieuw** of **Verwijderen** om variabelen te beheren.
 
-    ![Variabelen beheren](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
+    ![Variabelen beheren.](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
 In de volgende tabel worden de velden beschreven die beschikbaar zijn op het tabblad **Variabelen**.
 
@@ -310,7 +310,7 @@ In de volgende tabel worden de velden beschreven die beschikbaar zijn op het tab
 
 - Selecteer op de pagina **Instellingen functieversie** in het actievenster **Valideren** om de instelling van de functieversie te valideren.
 
-   ![De knop Valideren selecteren](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
+   ![De knop Valideren selecteren.](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
 Met de validatie wordt de consistentie van de gehele configuratie gecontroleerd. Als bijvoorbeeld een specifieke parameter voor een actie verplicht is, maar de waarde ervan leeg blijft, wordt deze inconsistentie tijdens de validatie ontdekt en ontvangt u een waarschuwing.
 
@@ -323,7 +323,7 @@ Voer de volgende stappen uit om de omgeving voor elektronische facturering in te
 1. Selecteer op de pagina **Functies voor elektronische facturering** op het tabblad **Omgevingen** de optie **Inschakelen** om de omgeving voor elektronische facturering toe te voegen.
 2. Voer in het veld **Geldig vanaf** de datum in waarop de nieuwe omgeving van kracht wordt.
 
-![Een omgeving voor elektronische facturering inschakelen](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![Een omgeving voor elektronische facturering inschakelen.](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>Organisaties
 

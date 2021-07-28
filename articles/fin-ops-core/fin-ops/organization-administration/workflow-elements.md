@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20f320e84d5faaf964585f30581d24996131031c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e895c2d337139aa9a2b1f21b60675f956da9c7f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747146"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348548"
 ---
 # <a name="workflow-elements"></a>Workflowelementen
 
@@ -60,7 +60,7 @@ Een *goedkeuringsproces* bestaat uit afzonderlijke stappen. In elke goedkeurings
 
 Er kan een workflow worden gemaakt om documenten of de regelitems in een document te verwerken. Bijvoorbeeld als u een goedkeuringsworkflow voor urenstaten hebt gemaakt. Deze workflow noemen we de *documentworkflow*. U kunt een element van een *workflow voor regelartikelen* toevoegen aan deze documentworkflow. Wanneer het regelitemelement wordt uitgevoerd, wordt elk regelitem in het document ter verwerking aangeboden. U wilt mogelijk alle regelitems laten verwerken door de workflow voor regelitems of u wilt dat elk regelitem door een andere workflow voor regelitems wordt verwerkt. Stel dat een werknemer een urenstaat heeft ingediend die op de volgende afbeelding lijkt.
 
-![Workflow voor regelartikelen](./media/workflow_lineitemworkflow.gif)
+![Werkstroom voor regelartikelen.](./media/workflow_lineitemworkflow.gif)
 
 In dit scenario wilt u mogelijk de volgende workflows voor regelartikelen maken:
 

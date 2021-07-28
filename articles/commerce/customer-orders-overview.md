@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260594
+ms.custom:
+- "260594"
+- intro-internal
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936725"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349621"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Klantorders in POS (Point of Sale)
 
@@ -44,7 +46,7 @@ Voordat u de bestelfunctionaliteit van de klant in POS probeert te gebruiken, mo
 
 Als u klantorders wilt gebruiken, moet u de leveringsmethoden configureren die door het winkelafzetkanaal kunnen worden gebruikt. U moet minimaal één leveringsmethode definiëren die kan worden gebruikt wanneer orderregels vanuit een winkel naar een klant worden verzonden. U moet ook minimaal één ophaalmethode definiëren die kan worden gebruikt wanneer orderregels uit de winkel worden opgehaald. Leveringsmethoden worden gedefinieerd op de pagina **Leveringsmethoden** in Commerce Headquarters. Zie [Leveringsmethoden definiëren](./configure-call-center-delivery.md#define-delivery-modes) voor meer informatie over het instellen van leveringsmethoden.
 
-![De pagina Leveringsmethoden](media/customer-order-modes-of-delivery.png)
+![De pagina Leveringsmethoden.](media/customer-order-modes-of-delivery.png)
 
 
 ### <a name="set-up-fulfillment-groups"></a>Afhandelingsgroepen instellen
@@ -53,7 +55,7 @@ Sommige winkels of magazijnlocaties kunnen klantorders mogelijk niet uitvoeren. 
 
 In Commerce-versie 10.0.12 en hoger kunnen organisaties bepalen of de magazijnen of combinaties van magazijnen en winkels die zijn gedefinieerd in afhandelingsgroepen, kunnen worden gebruikt voor verzending en/of ophalen. Dit biedt de onderneming extra flexibiliteit om te bepalen welke magazijnen kunnen worden geselecteerd bij het maken van een klantenorder voor te verzenden artikelen, en welke winkels kunnen worden geselecteerd bij het maken van een klantenorder voor af te halen artikelen. Als u deze configuratieoptie wilt gebruiken, schakelt u de functie **Mogelijkheid om locaties op te geven als 'Verzenden ' of 'Ophalen' binnen Afhandelingsgroep** in. Als een magazijn dat is gekoppeld aan een afhandelingsgroep geen winkel is, kan dit magazijn alleen worden geconfigureerd als verzendlocatie. Het kan niet worden gebruikt wanneer er orders voor ophalen zijn geconfigureerd in POS.
 
-![De pagina Afhandelingsgroepen](media/customer-order-fulfillment-group.png)
+![De pagina Afhandelingsgroepen.](media/customer-order-fulfillment-group.png)
 
 ### <a name="configure-channel-settings"></a>Kanaalinstellingen configureren
 
@@ -65,7 +67,7 @@ Wanneer u in POS met klantorders werkt, moet u rekening houden met enkele van de
 - **Op bestemming gebaseerde btw gebruiken**: met deze optie wordt aangegeven of het verzendadres wordt gebruikt om de btw-groep te bepalen die wordt toegepast op orderregels die worden verzonden naar het adres van de klant.
 - **Op klant gebaseerde btw gebruiken**: met deze optie wordt aangegeven of de gedefinieerde btw-groep voor het afleveradres van de klant wordt gebruikt om de btw te bepalen voor klantorders die in POS voor verzending naar het huis van de klant worden gemaakt.
 
-![Instellingen van winkelafzetkanaal op de pagina Winkels](media/customer-order-all-stores.png)
+![Instellingen van winkelafzetkanaal op de pagina Winkels.](media/customer-order-all-stores.png)
 
 ### <a name="set-up-customer-order-parameters"></a>Parameters voor klantorder instellen
 
@@ -80,7 +82,7 @@ Voordat u probeert klantorders in POS te maken, moet u de betreffende parameters
 - **Code verzendkosten**: als de optie **Geavanceerde automatische toeslagen gebruiken** is ingesteld op **Ja**, heeft deze parameter geen effect. Als deze optie is ingesteld op **Nee**, wordt de gebruikers gevraagd handmatig een verzendtoeslag in te voeren bij het maken van klantorders in POS. Gebruik deze parameter om een toeslagcode voor Klanten toe te wijzen die wordt toegepast op orders wanneer gebruikers een verzendingstoeslag invoeren. De toeslagcode definieert de financiële boekingslogica voor de verzendingstoeslag.
 - **Geavanceerde automatische toeslagen gebruiken**: stel deze optie in op **Ja** als u automatisch door het systeem berekende toeslagen wilt gebruiken wanneer er klantorders worden gemaakt in POS. Deze automatische toeslagen kunnen worden gebruikt om verzendkosten of andere order- of artikeltoeslagen te berekenen. Zie [Geavanceerde automatische toeslagen voor meerdere kanalen](./omni-auto-charges.md) voor meer informatie over het instellen en gebruiken van geavanceerde automatische toeslagen.
 
-![Het tabblad Klantorders op de pagina Commerce-parameters](media/customer-order-parameters.png)
+![Het tabblad Klantorders op de pagina Commerce-parameters.](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Transactieschermindelingen bijwerken in POS
 
@@ -95,7 +97,7 @@ Controleer of de [schermindeling](./pos-screen-layouts.md) in POS is geconfigure
 - **Leveringsmethode wijzigen**: deze bewerking kan worden gebruikt om snel de leveringsmethode te wijzigen voor regels die al voor verzending zijn geconfigureerd, zonder dat gebruikers de stroom 'alle producten verzenden' of 'geselecteerde producten verzenden' opnieuw doorlopen.
 - **Deposito overschrijven**: deze bewerking kan worden gebruikt om het depositobedrag te wijzigen dat de klant voor de geselecteerde klantorder betaalt.
 
-![Bewerkingen in het POS-transactiescherm](media/customer-order-screen-layout.png)
+![Bewerkingen in het POS-transactiescherm.](media/customer-order-screen-layout.png)
 
 ## <a name="work-with-customer-orders-in-pos"></a>Werken met klantorders in POS
 

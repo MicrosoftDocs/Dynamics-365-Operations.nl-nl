@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6fc641233a1bd217de5b9eb6e06560b989f91c7b
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 176ce59547456a14b494caa4dc3c2d8251920fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056343"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360539"
 ---
 # <a name="set-up-reason-codes"></a>Redencodes instellen
 
@@ -56,15 +56,15 @@ Er wordt een banner weergegeven op de pagina **Koppelingen** van het werkgebied 
 
 1. Selecteer **Redencodes** voor meer informatie over de migratiestatus.
 
-   [![Redencodes](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
+   [![Redencodes.](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
 
 2. Selecteer een redencode die niet kon worden gemigreerd.
 
-   [![Migratiestatus van redencode](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
+   [![Migratiestatus van redencode.](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
 
 3. Selecteer **Redencode migreren**.
 
-   [![Redencode migreren](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
+   [![Redencode migreren.](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
 
 4. In het deelvenster **Migratie redencodes vergoedingen** hebt u twee opties voor toewijzing aan een redencode voor personeelsbeheer:
 
@@ -73,10 +73,10 @@ Er wordt een banner weergegeven op de pagina **Koppelingen** van het werkgebied 
      > U kunt alleen een bestaande redencode gebruiken in Personeelsbeheer als een andere redencode voor Vergoedingenbeheer er nog niet naartoe is gemigreerd.
    - Als u een nieuwe redencode wilt maken in Personeelsbeheer, voert u een nieuwe code in het veld **Nieuwe redencode** in en voert u vervolgens een omschrijving in **Nieuwe omschrijving** in.
 
-   [![Toewijzen aan een redencode voor Personeelsbeheer](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
+   [![Toewijzen aan een redencode voor Personeelsbeheer.](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
 
 Nadat redencodes naar Personeelsbeheer zijn gemigreerd, wordt de optie voor het gebruik ervan in Vergoedingenbeheer automatisch ingesteld op **Ja**.
 
-[![Redencode gebruiken in Vergoedingenbeheer](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+[![Redencode gebruiken in Vergoedingenbeheer.](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

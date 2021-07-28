@@ -1,5 +1,5 @@
 ---
-title: Consistentiecontrole voor detailhandeltransacties
+title: Consistentiecontrole voor detailhandelstransacties
 description: In dit onderwerp wordt de functie voor de consistentiecontrole voor transacties in Dynamics 365 Commerce beschreven.
 author: josaw1
 ms.date: 10/07/2020
@@ -15,20 +15,20 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 9a4f03d8cf6696b7e449448704e5360f2ef585b7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 38386087a74a0881867df89bbe26453dff740be3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803700"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350299"
 ---
-# <a name="retail-transaction-consistency-checker"></a>Consistentiecontrole voor detailhandeltransacties
+# <a name="retail-transaction-consistency-checker"></a>Consistentiecontrole voor detailhandelstransacties
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt de functie voor de consistentiecontrole voor transacties in Microsoft Dynamics 365 Commerce beschreven. In de consistentiecontrole worden inconsistente transacties geïdentificeerd en geïsoleerd voordat ze worden verzameld door het boekingsproces voor overzichten.
 
-Wanneer een overzicht wordt geboekt, kan de boeking mislukken vanwege inconsistente gegevens in de tabellen met handeltransacties. Het gegevensprobleem kan worden veroorzaakt door onvoorziene problemen in de POS-toepassing (Point of Sale, POS) of door incorrect geïmporteerde transacties uit POS-systemen van derden. Enkele voorbeelden van hoe deze inconsistenties kunnen worden weergegeven: 
+Wanneer een overzicht wordt geboekt, kan de boeking mislukken vanwege inconsistente gegevens in de tabellen met handelstransacties. Het gegevensprobleem kan worden veroorzaakt door onvoorziene problemen in de POS-toepassing (Point of Sale, POS) of door incorrect geïmporteerde transacties uit POS-systemen van derden. Enkele voorbeelden van hoe deze inconsistenties kunnen worden weergegeven: 
 
 - Het transactietotaal in de kopteksttabel komt niet overeen met het transactietotaal op de regels.
 - Het aantal regels in de kopteksttabel komt niet overeen met het aantal regels in de transactietabel.
@@ -36,13 +36,13 @@ Wanneer een overzicht wordt geboekt, kan de boeking mislukken vanwege inconsiste
 
 Wanneer er inconsistente transacties worden verzameld door het boekingsproces voor overzichten, worden er inconsistente verkoopfacturen en betalingsjournalen gemaakt en mislukt het gehele boekingsproces voor overzichten. Dergelijke overzichten kunnen alleen nog worden hersteld door middel van gecompliceerde gegevenscorrecties via meerdere transactietabellen. Met de consistentiecontrole voor transacties kunnen dit soort problemen worden voorkomen.
 
-Het volgende diagram biedt inzicht in het boekingsproces met de consistentiecontrole voor detailhandeltransacties.
+Het volgende diagram biedt inzicht in het boekingsproces met de consistentiecontrole voor detailhandelstransacties.
 
-![Boekingsproces voor overzichten met consistentiecontrole voor transacties](./media/validchecker.png "Boekingsproces voor overzichten met consistentiecontrole voor transacties")
+![Boekingsproces voor overzichten met consistentiecontrole voor transacties.](./media/validchecker.png "Boekingsproces voor overzichten met consistentiecontrole voor transacties")
 
-Met het batchproces **Winkeltransacties valideren** wordt de consistentie van de tabellen met handeltransacties gecontroleerd voor de volgende scenario's.
+Met het batchproces **Winkeltransacties valideren** wordt de consistentie van de tabellen met handelstransacties gecontroleerd voor de volgende scenario's.
 
-- **Klantrekening**: hiermee wordt gecontroleerd of de klantrekening in de tabellen met handeltransacties bestaat in het HQ-klantmodel.
+- **Klantrekening**: hiermee wordt gecontroleerd of de klantrekening in de tabellen met handelstransacties bestaat in het HQ-klantmodel.
 - **Regeltelling**: hiermee wordt gecontroleerd of het aantal regels, zoals vastgelegd in de transactiekopteksttabel, overeenkomt met het aantal regels in de verkooptransactietabellen.
 - **Prijs inclusief belasting**: hiermee wordt gecontroleerd of de parameter **Prijs inclusief belasting** consistent is op de verschillende transactieregels en of de prijs op de verkoopregel in overeenstemming is met de prijs inclusief belasting en de configuratie voor belastingvrijstelling.
 - **Betalingsbedrag**: hiermee wordt gecontroleerd of de betalingsrecords overeenkomen met het betalingsbedrag in de kop, waarbij ook rekening wordt gehouden met de configuratie voor afronding in het grootboek.

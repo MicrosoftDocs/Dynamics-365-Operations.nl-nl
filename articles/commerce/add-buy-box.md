@@ -2,7 +2,7 @@
 title: Module voor koopvak
 description: In dit onderwerp worden modules voor koopvak beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,21 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: dce3c8adcd2926e60d001bddb5c278fac6860268
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 307c9876aa0fed77778fcf81903f9c52e3f5be67
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796217"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479227"
 ---
 # <a name="buy-box-module"></a>Module met vakje voor kopen
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp worden modules voor koopvak beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
-De term *koopvak* verwijst doorgaans naar het gebied van een pagina met productgegevens dat boven de vouw staat en dat alle belangrijke informatie bevat die nodig is om een product te kopen. (Een gebied dat boven de vouw staat, wordt weergegeven wanneer de pagina voor het eerst wordt geladen, zodat gebruikers niet naar beneden hoeven te schuiven om de pagina te zien.)
+De term *koopvak* verwijst doorgaans naar het gebied van een pagina met productgegevens (PDP) dat boven de vouw staat en dat alle belangrijke informatie bevat die nodig is om een product te kopen. (Een gebied dat boven de vouw staat, wordt weergegeven wanneer de pagina voor het eerst wordt geladen, zodat gebruikers niet naar beneden hoeven te schuiven om de pagina te zien.)
 
 Een module voor koopvakken is een speciale container die wordt gebruikt voor het hosten van alle modules die worden weergegeven in het koopvakgebied van een pagina met productgegevens.
 
@@ -35,7 +36,7 @@ De URL van een pagina met productgegevens bevat de product-id. Alle informatie d
 
 De volgende afbeelding toont een voorbeeld van een koopvakmodule op een pagina met productgegevens.
 
-![Voorbeeld van een koopvakmodule](./media/ecommerce-pdp-buybox.PNG)
+![Voorbeeld van een koopvakmodule.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="buy-box-module-properties-and-slots"></a>Eigenschappen en vakken van de koopvakmodule 
 
@@ -67,14 +68,16 @@ De volgende instellingen voor de koopvakmodule kunnen worden geconfigureerd via 
 
 - **Limiet hoeveelheid winkelwagenregel**: deze eigenschap wordt gebruikt om voor elk artikel het maximumaantal op te geven dat aan de winkelwagen kan worden toegevoegd. Een detailhandelaar kan bijvoorbeeld besluiten dat slechts 10 stuks van elk product in één transactie mogen worden verkocht.
 - **Voorraad**: zie [Voorraadinstellingen toepassen](inventory-settings.md) voor informatie over het toepassen van voorraadinstellingen.
-- **Product toevoegen aan winkelwagen**: deze eigenschap wordt gebruikt om het gedrag op te geven nadat een artikel aan de winkelwagen is toegevoegd. De mogelijke waarden zijn **Navigeren naar winkelwagen**, **Niet navigeren naar winkelwagen** en **Melding weergeven**. Wanneer de waarde is ingesteld op **Navigeren naar winkelwagen**, worden gebruikers naar de Winkelwagen gestuurd nadat ze een artikel hebben toegevoegd. Wanneer de waarde is ingesteld op **Niet navigeren naar winkelwagen**, worden gebruikers niet naar de Winkelwagen gestuurd nadat ze een artikel hebben toegevoegd. Wanneer de waarde is ingesteld op **Melding weergeven**, zien gebruikers een bevestigingsbericht en kunnen ze doorgaan met zoeken op de pagina Productgegevens. 
+- **Product toevoegen aan winkelwagen**: zie [Product toevoegen aan winkelwageninstellingen](add-cart-settings.md) voor informatie over het toepassen van **Product toevoegen aan winkelwageninstellingen**.
+
+## <a name="buy-box-module-definition-extensions-in-the-adventure-works-theme"></a>Extensies van moduledefinitie voor koopvak in het Adventure Works-thema
+
+De koopvakmodule die door het Adventure Works-thema wordt verstrekt, heeft een moduledefinitie-extensie die de implementatie van een module voor productspecificaties in een accordeonmodule in een PDP-inkoopvak ondersteunt. Als u productspecificatiekenmerken in een PDP-koopvak wilt weergeven, voegt u een productspecificatiemodule toe aan de slot voor de accordeonmodule in de slot van het koopvak.
+
 
 > [!IMPORTANT]
-> De site-instellingen voor **Product toevoegen aan winkelwagen** zijn beschikbaar in Dynamics 365 Commerce versie 10.0.11. Als u een oudere versie van Dynamics 365 Commerce bijwerkt, moet u het bestand appsettings.json handmatig bijwerken. Zie [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file) voor instructies voor het bijwerken van het appsettings.json. 
+> Het Adventure Works-thema is beschikbaar vanaf Dynamics 365 Commerce versie 10.0.20.
 
-De volgende afbeelding toont een voorbeeld van de bevestiging 'toegevoegd aan winkelwagen' op de Fabrikam-site.
-
-![Voorbeeld van een meldingsmodule](./media/ecommerce-addtocart-notifications.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interactie met Commerce Scale Unit
 
@@ -128,7 +131,9 @@ Voer de volgende stappen uit om een kooopvakmodule aan een nieuwe pagina toe te 
 
 [Module voor sociaal delen](social-share-module.md)
 
-[Voorraadbeschikbaarheid voor detailhandelafzetkanalen berekenen](calculated-inventory-retail-channels.md)
+[Product toevoegen aan winkelwageninstellingen](add-cart-settings.md)
+
+[Voorraadbeschikbaarheid voor Retail-kanalen berekenen](calculated-inventory-retail-channels.md)
 
 [Updates voor SDK's en modulebibliotheken](e-commerce-extensibility/sdk-updates.md)
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f302f780fa8ba3d387a71770024a1bf7ad42c4ef
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: e69c35745959c6f3a90a7c597d37316e9da5358e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910252"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359552"
 ---
 # <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Voorraadcorrecties uit Supply Chain Management synchroniseren met Field Service
 
@@ -31,7 +31,7 @@ ms.locfileid: "5910252"
 
 In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt om magazijnen van Dynamics 365 Supply Chain Management te synchroniseren met Dynamics 365 Field Service.
 
-[![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
+[![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service.](./media/FSWarehouseOW.png)](./media/FSWarehouseOW.png)
 
 ## <a name="templates-and-tasks"></a>Sjablonen en taken
 De volgende sjabloon en onderliggende taken worden gebruikt voor het synchroniseren van magazijnen vanuit Supply Chain Management naar Field Service.
@@ -77,7 +77,7 @@ In de volgende afbeelding ziet u de sjabloontoewijzing in Gegevensintegratie.
 
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Magazijnen (Supply Chain Management naar Field Service): Warehouse
 
-[![Sjabloontoewijzing in Gegevensintegratie](./media/Warehouse1.png)](./media/Warehouse1.png)
+[![Sjabloontoewijzing in Gegevensintegratie.](./media/Warehouse1.png)](./media/Warehouse1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

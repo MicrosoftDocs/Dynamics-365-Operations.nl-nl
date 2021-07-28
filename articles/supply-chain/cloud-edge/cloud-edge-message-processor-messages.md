@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271096"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350565"
 ---
 # <a name="message-processor-messages"></a>Berichten van berichtenverwerker
 
@@ -88,15 +88,15 @@ In dit voorbeeld wordt **Als zich een zakelijke gebeurtenis voordoet** gebruikt 
 
 1. Maak in [Power Automate](https://preview.flow.microsoft.com) een nieuwe automatische cloudstroom voor de flowtrigger **Als zich een zakelijke gebeurtenis voordoet - Fin & Ops-app (Dynamics 365)** gevolgd door de stappen **JSON parseren** en **Een e-mail verzenden**, zoals in de volgende afbeelding wordt weergegeven.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Met Power Automate geautomatiseerde cloudstroom":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Met Power Automate geautomatiseerde cloudstroom.":::
 
 1. In de stap **Als zich een zakelijke gebeurtenis voordoet** kunt u het **Exemplaar** van de hub zoeken of invoeren, met daarna de **Categorie** en de **Zakelijke gebeurtenis** *Bericht van berichtenverwerker verwerkt*, zoals in de volgende afbeelding wordt weergegeven.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Stap Als zich een zakelijke gebeurtenis voordoet in Power Automate":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Stap Als zich een zakelijke gebeurtenis voordoet in Power Automate.":::
 
 1. Voer voor de stap **JSON parseren** een **Schema** in dat de uitgebreide velden definieert. U kunt de optie *Schema downloaden* op de pagina **Catalogus met zakelijke gebeurtenissen** in Supply Chain Management gebruiken of u kunt beginnen door de voorbeeldtekst voor een schema te plakken. Deze voorbeeldtekst vindt u na de volgende afbeelding.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Stap JSON parseren in Power Automate":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Stap JSON parseren in Power Automate.":::
 
     ```json
     {
@@ -183,7 +183,7 @@ In dit voorbeeld wordt **Als zich een zakelijke gebeurtenis voordoet** gebruikt 
 
 1. In de stap **Een e-mail verzenden** kunt u de afzonderlijke velden selecteren of beginnen door het voorbeeld van het e-mailbericht te plakken in het veld **Hoofdtekst**. Dit voorbeeld vindt u na de volgende afbeelding.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Stap Een e-mail verzenden in Power Automate":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Stap Een e-mail verzenden in Power Automate.":::
 
     ```plaintext
     Message queue: @{body('Parse_JSON')?['MessageQueue']}

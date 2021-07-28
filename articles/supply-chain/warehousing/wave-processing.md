@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 4bf47b15b668a37f12edb3dbb842d19655fac97a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 76b11eaec0f22393e877c2837e2533a176018f2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019022"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355477"
 ---
 # <a name="wave-creation-and-processing"></a>Waves maken en verwerken
 
@@ -42,7 +42,7 @@ U kunt opgeven welke van deze opties voor productieorders standaard moet worden 
 
 In het volgende diagram ziet u de stroom voor het maken, verwerken en vrijgeven van zendingwaves. De nummers stemmen overeen met de secties verderop in dit gedeelte.
 
-![Proces voor het maken van een wave](media/wave-processing-diagram.png "Proces voor het maken van een wave")
+![Proces voor het maken van een wave.](media/wave-processing-diagram.png "Proces voor het maken van een wave")
 
 ### <a name="prerequisites"></a>Vereisten
 
@@ -158,7 +158,7 @@ Wanneer de functie *Werk maken plannen* is ingeschakeld, wordt er door waveverwe
 
 In het volgende stroomdiagram is te zien hoe gepland werk tijdens de verwerking van waves wordt gemaakt.
 
-![Werk maken plannen](media/schedule-work-creation-process.png)
+![Werk maken plannen.](media/schedule-work-creation-process.png)
 
 ### <a name="planned-work"></a>Gepland werk
 

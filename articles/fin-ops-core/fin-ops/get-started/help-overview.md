@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.custom: 16381
+ms.custom:
+- "16381"
+- intro-internal
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d88801baafb9a6decfb6c04f708b3f7e1257b487
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: c6f4c9ad36eb2f1abfc9225f1e62e635cebacd47
+ms.sourcegitcommit: 42a93a96565c56c9c64642ed6e6e302b3fbfcd85
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923441"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6373362"
 ---
 # <a name="help-system"></a>Help-systeem
 
@@ -35,7 +37,7 @@ Gebruikers van de volgende apps kunnen toegang krijgen tot contextafhankelijke H
 
 In al deze apps kunt u productspecifieke Help openen vanuit het deelvenster **Help**.
 
-![Deelvenster Help](./media/help-pane-ops-help.png)
+![Deelvenster Help.](./media/help-pane-ops-help.png)
 
 ## <a name="help-on-docsmicrosoftcom"></a>Help op docs.microsoft.com
 
@@ -46,12 +48,23 @@ De site docs.microsoft.com ([docs.microsoft.com/dynamics365](/dynamics365/)) is 
 
 Met een zoekmachine kunt u inhoud vinden op docs.microsoft.com. We raden u voor het beste resultaat aan een sitezoekopdracht te gebruiken, bijvoorbeeld **site:docs.microsoft.com dynamics 365 "zoekterm"**.
 
-## <a name="get-notified-about-changes-through-an-rss-feed"></a>Meldingen over wijzigingen ontvangen in een RSS-feed
+<!--## Get notified about changes through an RSS feed
 
-Als u zich wilt abonneren op een RSS-feed (Really Simple Syndication) met alle updates op docs.microsoft.com, gebruikt u de volgende koppeling:
+To subscribe to an RSS feed of all updates made to the content on docs.microsoft.com across the Finance and Operations apps, use the following link:
 
-[RSS-feed](/api/search/rss?$filter=scopes%2fany(t%3a+t+eq+%27Unified+Operations%27)&locale=en-us)
+[RSS feed](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finops%27)&locale=en-us)
 
+> [!NOTE]
+> The RSS feed returns a list of the 100 topics most recently updated. The list is not sorted by date.  
+
+Alternatively, you can subscribe to an RSS feed by app:
+
+- [Commerce](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-commerce%27)&locale=en-us)  
+- [Finance](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-finance%27)&locale=en-us)  
+- [Human Resources](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-hr%27)&locale=en-us)  
+- [Supply Chain](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-supplychain%27)&locale=en-us)  
+- [Talent](/api/search/rss?$filter=scopes%2fany(t%3A%20t%20eq%20%27dynamics365-talent%27)&locale=en-us)  
+COMMENTED OUT UNTIL THE CONTNT HAS BEEN INDEXED BY THE SEARCH API-->
 ### <a name="leave-us-feedback"></a>Feedback achterlaten
 
 Als u ons feedback wilt geven of vragen hebt over een onderwerp, kunt u onder aan de pagina een opmerking achterlaten.
@@ -60,7 +73,7 @@ Als u ons feedback wilt geven of vragen hebt over een onderwerp, kunt u onder aa
 
 2. Begin met het typen van uw opmerkingen en selecteer **Feedback verzenden**.
 
-    ![Opmerking verzenden](./media/feedback.png)
+    ![Opmerking verzenden.](./media/feedback.png)
 
 > [!NOTE]
 > Als u documentatiefeedback wilt verzenden, moet u zich aanmelden met een GitHub-account. Zie [Uw GitHub-profiel instellen en beheren](https://help.github.com/github/setting-up-and-managing-your-github-profile) voor meer informatie.
@@ -84,11 +97,11 @@ Een taakbegeleidingen is een gecontroleerde, begeleide, interactieve ervaring di
 
 Microsoft heeft de taakbegeleidingsbibliotheek voor productversies tot en met de release van 2017 december van Dynamics 365 for Finance and Operations uitgebracht. In de sectie [Taakbegeleiders openen via het deelvenster Help](#accessing-task-guides-from-the-help-pane) van dit onderwerp wordt beschreven hoe u de juiste taakbegeleidingen voor uw product vindt.
 
-![Leesweergave van taakbegeleiding](./media/task-guide-ops.png)
+![Leesweergave van taakbegeleiding.](./media/task-guide-ops.png)
 
 U kunt met de interactieve taakbegeleiding beginnen door **Taakbegeleiding starten** onder aan het deelvenster **Help** te selecteren. Een zwarte aanwijzer geeft aan waar u eerst naartoe moet gaan. Volg de aanwijzingen die in de gebruikersinterface verschijnen en voer gegevens in volgens de aanwijzingen.
 
-![Instructies bij stappen taakbegeleiding](./media/task-guide-step-1-ops.png)
+![Instructies bij stappen taakbegeleiding.](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT]
 > De gegevens die u invoert wanneer u een taakbegeleider afspeelt, zijn echt. Als u in een productieomgeving bent, worden de gegevens ingevoerd in het bedrijf dat u momenteel gebruikt.
@@ -101,7 +114,7 @@ Sommige velden bevatten veldomschrijvingen om gebruikers verder te helpen wannee
 
 U opent Help-inhoud door de knop **Help** (**?**) te selecteren en vervolgens **Help** te selecteren. Of druk op **Ctrl+Shift+?**. In beide gevallen wordt het deelvenster **Help** geopend. Via het deelvenster **Help** kunt u toegang krijgen tot conceptuele onderwerpen of taakbegeleidingen die relevant zijn voor het gebied van het product dat u momenteel gebruikt.
 
-![Deelvenster Help](./media/help-pane-ops-help.png)
+![Deelvenster Help.](./media/help-pane-ops-help.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>Help-onderwerpen openen via het deelvenster Help
 
@@ -118,13 +131,13 @@ Voordat u taakbegeleidingen via het deelvenster **Help** kunt openen, moet een s
 > - In order to configure Help, you must be signed in with an account in the same tenant as the tenant in which the app is deployed.
 > - It is not possible to connect to an LCS library from an instance of the app running in a local virtual hard drive (VHD).
 
-![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)
+![System Parameters form with Help settings.](./media/system-parameters_ops-1024x437.png)
 
 On the **System parameters** page, follow these steps:
 
 1. **Important:** The first time that you open the Help tab, you must connect to Lifecycle Services. Be sure to select the link in the middle of the form, wait for the connection, close the dialog box, and then select **OK** to get to the parameters form.
 
-    ![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png)
+    ![Connect to LCS.](./media/connect-to-lcs-crop-1024x365.png)
 
 2. Select the Lifecycle Services project to connect to.
 3. Select BPM libraries (within the selected project) to retrieve task recordings from.
@@ -132,7 +145,7 @@ On the **System parameters** page, follow these steps:
 
 Wanneer een systeembeheerder deze stappen heeft voltooid, kunt u het deelvenster **Help** openen en het tabblad **Taakbegeleidingen** selecteren. U ziet nu de taakbegeleidingen die van toepassing zijn op de pagina die nu is geopend. Als er geen taakbegeleidingen worden gevonden, kunt u trefwoorden invoeren om uw zoekopdracht te verfijnen. Nadat u een taakbegeleiding in het deelvenster **Help** hebt geselecteerd, toont het deelvenster **Help** de stapsgewijze instructies en kunt u de taakbegeleiding afspelen.
 
-![Leesweergave van taakbegeleiding](./media/task-guide-ops.png)
+![Leesweergave van taakbegeleiding.](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>Waar zijn de vertaalde taakbegeleidingen voor Microsoft-bibliotheken?
 

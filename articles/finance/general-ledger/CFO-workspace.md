@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b42fc4f0e299dc785ef465efc54286effccfb92b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e44e0ff5c36190d0f66afb6a59389fee826d8214
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823831"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360707"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>Financiële dimensies toevoegen aan het CFO-werkgebied
 
@@ -45,14 +45,14 @@ In dit onderwerp wordt uitgelegd hoe u financiële dimensies toevoegt aan het we
 11. Wijzig de waarde **Cross-filter richting** in **Eén**.
 12. Selecteer **Deze relatie actief maken** en **Uitgaan van referentiële integriteit**, selecteer **OK** en vervolgens **Sluiten**.
 
-    [![Een relatie maken](./media/Create-relationship.png)](./media/Create-relationship.png)
+    [![Een relatie maken.](./media/Create-relationship.png)](./media/Create-relationship.png)
 
 13. In de lijst **Velden** ziet u de tabel en de beschikbare financiële dimensies. Sleep de gewenste financiële dimensies naar de filters voor het rapportniveau.
 14. Sla de wijzigingen op.
 15. Klik in de Application Object Tree (AOT) met de rechtermuisknop op het project en selecteer **Synchroniseren**.
 16. Stel het project samen en open vervolgens de toepassing om de resultaten weer te geven.
 
-    [![Voltooid werkgebied](./media/workspace.png)](./media/workspace.png)
+    [![Voltooid werkgebied.](./media/workspace.png)](./media/workspace.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

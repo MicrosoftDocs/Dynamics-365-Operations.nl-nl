@@ -1,6 +1,6 @@
 ---
-title: Gedistribueerd orderbeheer
-description: In dit onderwerp wordt de functionaliteit voor gedistribueerd orderbeheer in Dynamics 365 Commerce beschreven.
+title: Gedistribueerd orderbeheer (DOM)
+description: In dit onderwerp wordt de functionaliteit voor gedistribueerd orderbeheer (Distributed Order Management, DOM) in Dynamics 365 Commerce beschreven.
 author: josaw1
 ms.date: 01/08/2021
 ms.topic: index-page
@@ -15,26 +15,26 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f50bc2828df19062a6bdced6faaa7b4d66c38bed
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 52d8b1055517bc544eea6a8e405a8b6d5c0eee0a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792770"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356849"
 ---
-# <a name="distributed-order-management-dom"></a>Gedistribueerd orderbeheer
+# <a name="distributed-order-management-dom"></a>Gedistribueerd orderbeheer (DOM)
 
 [!include [banner](includes/banner.md)]
 
 In het nieuwe model voor bedrijfsvoering in de handel streven detailhandelaren ernaar klanten een persoonlijke benadering, meerdere communicatiekanalen en vloeiende interactie te bieden. Vanwege de overvloed aan keuzemogelijkheden winkelen consumenten daar waar ze de beste ervaring wordt geboden. In veel gevallen zijn prijzen en producten niet meer de bepalende factoren voor consumenten.
 
-Detailhandelaren moeten in realtime inzicht in hun voorraad hebben, via alle kanalen, om de klantervaring te kunnen verbeteren. Met één holistische weergave van alle voorraad kunnen de processen voor orderafhandeling, toewijzing en distributie worden geoptimaliseerd. Daarom wordt het voor detailhandelaren steeds belangrijker dat een DOM-systeem wordt geaccepteerd en geïmplementeerd.
+Detailhandelaren moeten in realtime inzicht in hun voorraad hebben, via alle kanalen, om de klantervaring te kunnen verbeteren. Met één holistische weergave van alle voorraad kunnen de processen voor orderafhandeling, toewijzing en distributie worden geoptimaliseerd. Daarom wordt voor detailhandelaren de overstap naar een systeem voor gedistribueerd orderbeheer, oftewel DOM-systeem, steeds belangrijker.
 
 DOM-systemen optimaliseren de orderafhandeling in een complex netwerk van systemen en processen. Met een dergelijk systeem wordt één algemene weergave van de voorraad van de hele organisatie gebruikt om orders intelligent te kunnen beheren en deze nauwkeurig en rendabeler af te handelen. Omdat een DOM-systeem de efficiëntie van de toeleveringsketen van een detailhandelaar verbetert, voldoet de detailhandelaar hiermee beter aan de verwachtingen van klanten.
 
 In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-systeem weergegeven.
 
-![Levenscyclus van verkooporders in de context van DOM](./media/flow.png "Levenscyclus van verkooporders in de context van DOM")
+![Levenscyclus van een verkooporder in de context van DOM.](./media/flow.png "Levenscyclus van verkooporders in de context van DOM")
 
 ## <a name="set-up-dom"></a>DOM instellen
 
@@ -98,7 +98,7 @@ In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-
 9. Als u regels wilt opgeven, gaat u naar **Retail en Commerce \> Gedistribueerd orderbeheer \> Instellingen \> Regels beheren**. Momenteel worden de volgende DOM-regels ondersteund:
 
     - **Regel voor minimumvoorraad**: met dit regeltype kunnen organisaties een bepaalde hoeveelheid van een product op voorraad houden voor andere doeleinden dan orderafhandeling. Organisaties kunnen het bijvoorbeeld onwenselijk vinden als alle beschikbare voorraad in een winkel door het DOM-systeem wordt gebruikt voor orderafhandeling. In plaats daarvan willen ze mogelijk enige voorraad reserveren voor klanten die de winkel bezoeken. Wanneer dit regeltype wordt gebruikt, kunt u per locatie of groep locaties opgeven welke voorraad minimaal moet worden behouden voor een categorie producten, een afzonderlijk product of een productvariant.
-    - **Prioriteitsregel voor afhandelingslocatie**: met dit regeltype kunnen organisaties een hiërarchie voor locaties opgeven om de prioriteit te bepalen die door de DOM-engine moet worden gebruikt bij het identificeren van afhandelingslocaties voor bepaalde producten. Het geldige prioriteitsbereik is 1 tot en met 10, waarbij 1 voor de hoogste prioriteit staat en 10 voor de laagste. Locaties met een hogere prioriteit komen in aanmerking vóór locaties met een lagere prioriteit. Als de regel is gedefinieerd als een vaste beperking, worden orders alleen bewerkstelligd en toegewezen aan locaties waarvoor prioriteiten zijn opgegeven.
+    - **Prioriteitsregel voor afhandelingslocatie**: met dit regeltype kunnen organisaties een hiërarchie voor locaties opgeven om de prioriteit te bepalen die door de DOM-engine moet worden gebruikt bij het identificeren van afhandelingslocaties voor bepaalde producten. Het geldige prioriteitsbereik is 1 tot en met 10, waarbij 1 voor de hoogste prioriteit staat en 10 voor de laagste. Locaties met een hogere prioriteit komen in aanmerking vóór locaties met een lagere prioriteit. Als de regel is gedefinieerd als een vaste beperking, worden orders alleen toegewezen aan locaties waarvoor prioriteiten zijn opgegeven.
     - **Regel voor gedeeltelijke orders**: met deze regel kunnen organisaties opgeven of orders of orderregels gedeeltelijk kunnen worden afgehandeld. De volgende parameters zijn beschikbaar:
 
         - **Gedeeltelijke orders vervullen?** – Als deze optie is ingesteld op **Ja**, kan ook slechts een deel van de hoeveelheid op een orderregel worden afgehandeld. Deze gedeeltelijke afhandeling wordt uitgevoerd door de orderregel op te splitsen.
@@ -160,13 +160,13 @@ In de volgende afbeelding wordt de levenscyclus van een verkooporder in een DOM-
     7. Selecteer op het sneltabblad **Regels** de optie **Toevoegen** en selecteer de regel die u wilt koppelen aan het profiel.
     8. Herhaal de vorige twee stappen tot alle vereiste regels aan het profiel zijn gekoppeld.
     9. Selecteer **Opslaan**.
-    10. Selecteer in het actievenster op het tabblad **Instellingen** de optie **Leveringsmethoden**.
+    10. Selecteer in het actiepaneel op het tabblad **Instellingen** de optie **Leveringsmethoden**.
     11. Selecteer **Nieuw** op de pagina **Leveringsmethoden**.
     12. Selecteer de rechtspersoon in het veld **Bedrijf**. De lijst met bedrijven blijft beperkt tot de rechtspersonen die u eerder hebt toegevoegd.
     13. Selecteer in het veld **Leveringsmethode** de leveringsmethode die aan dit profiel moet worden gekoppeld. Een leveringsmethode kan niet aan meerdere actieve profielen worden gekoppeld.
     14. Herhaal de vorige twee stappen tot alle vereiste leveringsmethoden aan het profiel zijn gekoppeld.
     15. Sluit de pagina **Leveringsmethoden**.
-    16. Selecteer in het actievenster op het tabblad **Instellingen** de optie **Oorsprongen van verkooporders**.
+    16. Selecteer in het actiepaneel op het tabblad **Instellingen** de optie **Oorsprongen van verkooporders**.
     17. Selecteer **Nieuw** op de pagina **Verkoopoorsprongen**.
     18. Selecteer de rechtspersoon in het veld **Bedrijf**. De lijst met bedrijven blijft beperkt tot de rechtspersonen die u eerder hebt toegevoegd.
     19. Selecteer in het veld **Verkoopoorsprong** de verkoopoorsprong die u aan dit profiel wilt koppelen. Een verkoopoorsprong kan niet aan meerdere actieve profielen worden gekoppeld.
@@ -200,7 +200,7 @@ De volgende orders en orderregels worden verwerkt in het DOM-systeem:
 
 Nadat de regels, voorraadbeperkingen en optimalisatie zijn toegepast, wordt de locatie gekozen die het dichtst bij het afleveradres van de klant ligt.
 
-![Criteria voor verkooporder](./media/ordercriteria.png "Criteria voor verkooporder")
+![Criteria voor de verkooporder.](./media/ordercriteria.png "Criteria voor verkooporder")
 
 ## <a name="results-of-dom-runs"></a>Resultaten van DOM-uitvoeringen
 

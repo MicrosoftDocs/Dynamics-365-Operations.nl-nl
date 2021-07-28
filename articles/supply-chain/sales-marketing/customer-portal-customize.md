@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ea1fe6ba374c77784c88cf8202bff2eace217b6a
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: b285cefc35654695ee631cc73baa0ccc2c1b5ac9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102682"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359880"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>De klantportal aanpassen en gebruiken
 
@@ -27,7 +27,7 @@ In dit onderwerp worden de verschillende pagina's beschreven die standaard besch
 
 De klantportal bevat een paar webpagina's en standaard acties. Het volgende siteoverzicht bevat die webpagina's en acties, en de rollen waarmee de acties kunnen worden uitgevoerd.
 
-![Siteoverzicht van klantportal](media/customer-portal-site-map.png "Siteoverzicht van klantportal")
+![Siteoverzicht van klantportal.](media/customer-portal-site-map.png "Siteoverzicht van klantportal")
 
 ## <a name="typical-customizations"></a>Standaard aanpassingen
 
@@ -61,12 +61,12 @@ Dit zijn de standaard stappen voor het indienen van een order vanuit de klantpor
     - **Bestelnummer**: voer het bestelnummer van de order in. Dit veld is niet verplicht.
     - **Land/regio van verzending**: voer het land of de regio in waarnaar de artikelen worden geleverd. Dit veld wordt automatisch ingesteld voor gebruikers die geen beheerder zijn.
 
-    ![Pagina Ordergegevens](media/customer-portal-order-information.png "Pagina Ordergegevens")
+    ![Pagina Ordergegevens.](media/customer-portal-order-information.png "Pagina Ordergegevens")
 
 1. Selecteer **Volgende**.
 1. Selecteer op de pagina **Artikelen** de optie **Artikel toevoegen**.
 
-    ![Pagina Artikelen](media/customer-portal-items.png "Pagina Artikelen")
+    ![Pagina Artikelen.](media/customer-portal-items.png "Pagina Artikelen")
 
 1. Stel in het dialoogvenster **Artikelgegevens** de volgende velden in:
 
@@ -75,14 +75,14 @@ Dit zijn de standaard stappen voor het indienen van een order vanuit de klantpor
     - **Eenheid**: geef de maateenheid op (bijvoorbeeld **stuks**, **kg** of **doos**).
     - **Geraamd nettobedrag**: de waarde wordt berekend als de geschatte prijs van het artikel × de hoeveelheid voor de geselecteerde eenheid.
 
-    ![Dialoogvenster Artikelgegevens](media/customer-portal-item-information.png "Dialoogvenster Artikelgegevens")
+    ![Dialoogvenster Artikelgegevens.](media/customer-portal-item-information.png "Dialoogvenster Artikelgegevens")
 
 1. Selecteer **Indienen** om het artikel aan de order toe te voegen.
 1. Herhaal stap 4 tot en met 6 totdat u alle artikelen hebt toegevoegd die u wilt bestellen.
 1. Wanneer u klaar bent met het toevoegen van artikelen, selecteert u **Volgende** op de pagina **Artikelen**.
 1. De pagina **Ordergegevens** biedt een overzicht van de order. Controleer de inhoud van de order en de leveringsgegevens. Als alles correct lijkt, selecteert u **Indienen** om de order in te dienen.
 
-    ![Pagina Voltooide ordergegevens](media/customer-portal-order-submit.png "Pagina Voltooide ordergegevens")
+    ![Pagina Voltooide ordergegevens.](media/customer-portal-order-submit.png "Pagina Voltooide ordergegevens")
 
 ### <a name="standard-data-setup"></a>Standaardgegevens instellen
 
@@ -147,19 +147,19 @@ Alle besturingselementen in de klantportal zijn ingebouwde besturingselementen v
 
 Het enige aangepaste besturingselement dat in de sjabloon voor de klantportal is opgenomen, wordt gebruikt om de tegels op de startpagina te maken.
 
-![Tegels op de startpagina](media/customer-portal-home-page-tiles.png "Tegels op de startpagina")
+![Tegels op de startpagina.](media/customer-portal-home-page-tiles.png "Tegels op de startpagina")
 
 Volg deze stappen om de tegels te wijzigen.
 
 1. Open de [Portalbeheer-app](/powerapps/maker/portals/configure/configure-portal).
 1. Selecteer **Paginasjablonen** in het navigatievenster aan de linkerkant.
 
-    ![Navigatievenster van portalbeheer](media/customer-portal-nav.png "Navigatievenster van portalbeheer")
+    ![Navigatievenster van portalbeheer.](media/customer-portal-nav.png "Navigatievenster van portalbeheer")
 
 1. Selecteer de paginasjabloon met de **Home**.
 1. Selecteer in het veld **Websjabloon** de koppeling **Home** om de broncode voor die pagina te openen.
 
-    ![Veld Websjabloon](media/customer-portal-web-template.png "Veld Websjabloon")
+    ![Veld Websjabloon.](media/customer-portal-web-template.png "Veld Websjabloon")
 
 1. U ziet nu alle broncode voor de startpagina en kunt deze naar wens wijzigen.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 32093f4e47fe3d9ca691b70e15adfc3199e65beb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e51c6914aab7261862a7ce180376b67d01711e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754259"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359454"
 ---
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Beveiliging instellen voor de kostprijsboekhoudingsanalyse van Power BI-inhoud
 
@@ -42,11 +42,11 @@ Om beveiliging op toegangsniveau door te voeren in Power BI, moet de eigenaar va
 3. Zoek de gegevensset voor de Power BI-inhoud **Analyse van kostprijsboekhouding**.
 4. Open de pagina Beveiliging.
 
-    ![De pagina Beveiliging openen](./media/CA-picture-1.png)
+    ![De pagina Beveiliging openen.](./media/CA-picture-1.png)
 
 5. De rol **Controller voor kostenobjecten** is al gemaakt. Voeg andere leden toe die lid zijn van de organisatiehiërarchie op toegangsniveau van Kostprijsboekhouding.
 
-    ![Leden toevoegen](./media/CA-picture-2.png)
+    ![Leden toevoegen.](./media/CA-picture-2.png)
 
 Gebruikers die zijn toegevoegd aan de rol **Controller voor kostenobjecten** zien alleen de gegevens die ze mogen zien, volgens de definitie in de organisatiehiërarchie op toegangsniveau van Kostprijsboekhouding.
 

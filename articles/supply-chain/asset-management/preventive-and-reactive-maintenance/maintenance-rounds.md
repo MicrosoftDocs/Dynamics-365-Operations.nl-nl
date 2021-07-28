@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 62f812c7c7fa06deb5f41508044b029e6c5ca4a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 24f019547b9edc932c203d5dc8c73013007af599
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825729"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361037"
 ---
 # <a name="maintenance-rounds"></a>Onderhoudsrondes
 
@@ -80,7 +80,7 @@ In **Activabeheer** kunt u onderhoudsronden maken voor verschillende activa. Daa
 
 In de onderstaande afbeelding ziet u een voorbeeld van een onderhoudsronde die drie activa bevat.
 
-![Figuur 1](media/13-preventive-maintenance.png)
+![Figuur 1.](media/13-preventive-maintenance.png)
 
 
 ## <a name="schedule-maintenance-rounds"></a>Onderhoudsrondes plannen
@@ -106,9 +106,9 @@ Wanneer u een onderhoudsronde hebt ingesteld, voert u een planningstaak uit om a
 
 In de twee illustraties hieronder ziet u een planningstaak in het dialoogvenster **Onderhoudsronden plannen** en de onderhoudsplanningsregels die op basis van die planningstaak zijn gemaakt in **Alle onderhoudsschema's**.
 
-![Figuur 2](media/14-preventive-maintenance.png)
+![Figuur 2.](media/14-preventive-maintenance.png)
 
-![Figuur 3](media/15-preventive-maintenance.png)
+![Figuur 3.](media/15-preventive-maintenance.png)
 
 - Wanneer werkorders handmatig worden gemaakt voor activa die onder een leveranciersgarantie vallen, wordt er een dialoogvenster weergegeven om de gebruiker te informeren over de garantie. Het maken van de werkorder kan dan worden geannuleerd. De controle op een garantierelatie wordt achterwege gelaten voor werkorders die automatisch worden gemaakt.  
 - U kunt een batchtaak instellen op het sneltabblad **Op de achtergrond uitvoeren** als u de ronden met vaste intervallen wilt plannen.  

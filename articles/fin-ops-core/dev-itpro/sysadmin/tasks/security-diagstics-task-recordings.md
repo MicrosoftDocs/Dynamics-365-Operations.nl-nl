@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: cb4d544d8d74ad10432901381253f84ec9331ae7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cb14a22a231d3fcc139228b59af00d405626cd2c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745760"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358544"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Beveiligingsdiagnose voor taakregistraties
 
@@ -39,7 +39,7 @@ Dit onderwerp bevat informatie over het analyseren en beheren van vereisten voor
 
 4. Selecteer een gebruiker in het veld **Gebruikers-id**. Als de gebruiker geen machtigingen heeft voor sommige menuopdrachten, wordt het veld **Ontbrekende machtigingen** bijgewerkt naar **Ja**.
   
-  ![Pagina Details van beveiligingsmenuopdrachten](../media/Security-Menu-Item-Details.png)
+  ![Pagina Details van beveiligingsmenuopdrachten.](../media/Security-Menu-Item-Details.png)
 
 5. Selecteer **Verwijzing toevoegen** om een lijst weer te geven met de beveiligingsobjecten, waaronder rollen, functies en bevoegdheden waarmee de ontbrekende machtiging wordt verleend.
 6. Selecteer een beveiligingsobject in de lijst:

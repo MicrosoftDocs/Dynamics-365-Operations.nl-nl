@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c398579a0a408e7f5625a3e801a967955c4b1e5b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c731e0284b720394059384e21deea1ea4407718c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020110"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352805"
 ---
 # <a name="tax-isnt-calculated-or-the-tax-amount-is-zero"></a>Belasting wordt niet berekend of het belastingbedrag is nul
 
@@ -32,17 +32,17 @@ Als de transactie niet de juiste belastingcodes selecteert of als er helemaal ge
 
 1. Controleer op de transactieregel, op het sneltabblad **Regeldetails**, op het tabblad **Instellingen**, in de sectie **Btw** of de juiste belastinggroepen zijn geselecteerd in de velden **Btw-groep artikel** en **Btw-groep**. Als de juiste belastinggroepen niet zijn geselecteerd, selecteer ze dan.
 
-    [![Velden Btw-groep artikel en Btw-groep](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
+    [![Velden Btw-groep artikel en Btw-groep.](./media/tax-not-calculated-tax-amount-zero-Picture1.png)](./media/tax-not-calculated-tax-amount-zero-Picture1.png)
 
 2. Ga naar **Belasting** \> **Indirecte belastingen** \> **Btw** \> **Btw-groepen**.
 3. Selecteer de juiste btw-groep en maak vervolgens op het sneltabblad **Instellingen** een notitie van de belastingcode in het veld **Btw-code**.
 
-    [![Pagina met Btw-groepen](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
+    [![Pagina met Btw-groepen.](./media/tax-not-calculated-tax-amount-zero-Picture2.png)](./media/tax-not-calculated-tax-amount-zero-Picture2.png)
 
 4. Ga naar **Belasting** \> **Indirecte belastingen** \> **Btw** \> **Btw-groepen artikel**.
 5. Selecteer de juiste btw-groep voor het artikel en controleer vervolgens op het sneltabblad **Instellingen** of de belastingcode in het veld **Btw-code** overeenkomt met de belastingcode van de btw-groep.
 
-    [![Pagina met Btw-groepen artikelen](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
+    [![Pagina met Btw-groepen artikelen.](./media/tax-not-calculated-tax-amount-zero-Picture3.png)](./media/tax-not-calculated-tax-amount-zero-Picture3.png)
 
 6. Als de belastingcodes niet overeenkomen, moet u de btw-code voor een van de groepen bijwerken.
 
@@ -53,12 +53,12 @@ Als de belastingcodes zijn vrijgesteld of als het belastingtarief 0 (nul) is, is
 1. Ga naar **Belasting** \> **Indirecte belastingen** \> **Btw** \> **Btw-groepen**.
 2. Selecteer de juiste btw-groep en controleer vervolgens op het sneltabblad **Instellingen** of het selectievakje **Vrijstelling** leeg is. Als dit is geselecteerd, maakt u het leeg.
 
-    [![Selectievakje Vrijstelling op de pagina Btw-groepen](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
+    [![Selectievakje Vrijstelling op de pagina Btw-groepen.](./media/tax-not-calculated-tax-amount-zero-Picture4.png)](./media/tax-not-calculated-tax-amount-zero-Picture4.png)
 
 3. Ga naar **Belasting** \> **Indirecte belastingen** \> **Btw** \> **Btw-codes**.
 4. Selecteer de betreffende btw-code en controleer of het belastingtarief in het veld **Waarde** niet 0 (nul) is. Als het 0 is, moet u het veld bijwerken met het juiste belastingtarief.
 
-    [![Waarde veld op de pagina Waarden btw-codes](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
+    [![Waarde veld op de pagina Waarden btw-codes.](./media/tax-not-calculated-tax-amount-zero-Picture5.png)](./media/tax-not-calculated-tax-amount-zero-Picture5.png)
 
 ## <a name="determine-whether-zero-is-the-correct-tax-amount"></a>Bepaal of nul het juiste belastingbedrag is
 
@@ -67,7 +67,7 @@ In sommige gevallen is het juist als het belastingbedrag 0 (nul) is. Volg deze s
 1. Ga naar **Grootboek** \> **Grootboek instellen** \> **Grootboekparameters**.
 2. Controleer op het tabblad **Btw** in het veld **Berekeningsmethode** of **Totaal** is geselecteerd.
 
-    [![Het veld Berekeningsmethode op de pagina Grootboekparameters](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
+    [![Het veld Berekeningsmethode op de pagina Grootboekparameters.](./media/tax-not-calculated-tax-amount-zero-Picture6.png)](./media/tax-not-calculated-tax-amount-zero-Picture6.png)
 
 3. Ga naar **Belasting** \> **Indirecte belastingen** \> **Btw** \> **Btw-codes**.
 4. Selecteer de juiste btw-code, selecteer **Berekening** \> **Marginale basis** en controleer of de marginale basis is ingesteld op **Nettobedrag factuursaldo** of **Totaal factuur incl. andere btw-bedragen**. Zie [Totaal factuur incl. andere btw-bedragen](marginal-base-field.md#invoice-total-incl-other-sales-tax-amounts) voor meer informatie.

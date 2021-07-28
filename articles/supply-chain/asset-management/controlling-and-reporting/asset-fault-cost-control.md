@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 44b101c3b386c3edd8aec4c44e8ee834519718ec
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bbf2d6b8e22981db76ca028073f8170cbe7f40b2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811177"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361061"
 ---
 # <a name="asset-fault-cost-control"></a>Kostenbeheer activafout
 
@@ -56,7 +56,7 @@ In dit voorbeeld wordt een berekening van het kostenbeheer voor activafouten get
 - In het veld **Werkelijke kosten** worden geboekte kosten voor werkorders weergegeven. 
 - In het veld **Toegezegde kosten** wordt het totale aantal kosten weergegeven dat uw bedrijf heeft toegezegd met betrekking tot werkorders.
 
-    ![Figuur 1](media/05-controlling-and-reporting.png)
+    ![Figuur 1.](media/05-controlling-and-reporting.png)
 
 Zie het onderwerp [Foutbeheer](../setup-for-work-orders/fault-management.md) voor informatie over het instellen van fouten.
 
