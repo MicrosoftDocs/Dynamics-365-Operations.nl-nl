@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9ffb1378eccf175fbb9bd84228f91ba606125a63
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753985"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350831"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problemen tijdens de initiële instelling oplossen
 
@@ -42,7 +42,7 @@ Dit onderwerp bevat informatie voor het oplossen van problemen voor de integrati
 
 Fouten op de pagina **Koppeling instellen met Dataverse** worden meestal veroorzaakt door problemen met onvolledige instellingen of machtigingen. Controleer of de volledige statuscontrole is geslaagd op de pagina **Koppeling instellen met Dataverse**, zoals wordt weergegeven in de volgende afbeelding. U kunt twee keer wegschrijven niet koppelen, tenzij de hele statuscontrole is geslaagd.
 
-![Geslaagde statuscontrole](media/health_check.png)
+![Geslaagde statuscontrole.](media/health_check.png)
 
 U moet beschikken over referenties als Azure AD-tenantbeheerder om te kunnen koppelen met de Finance and Operations-en Dataverse-omgevingen. Nadat u de omgevingen hebt gekoppeld, kunnen gebruikers zich aanmelden met hun accountreferenties en een bestaande tabeltoewijzing bijwerken.
 
@@ -77,7 +77,7 @@ Om er zeker van te zijn dat twee keer wegschrijven goed werkt, worden de bedrijv
 4. Selecteer het bedrijf dat was gekoppeld tijdens het configureren van twee keer wegschrijven.
 5. Controleer of de kolom **Standaardeigenaarsteam** een waarde heeft. In de volgende afbeelding is de kolom **Standaardeigenaarsteam** ingesteld op **USMF twee keer wegschrijven**.
 
-    ![Het standaardeigenaarsteam controleren](media/default_owning_team.png)
+    ![Het standaardeigenaarsteam controleren.](media/default_owning_team.png)
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>De limiet zoeken voor het aantal rechtspersonen of bedrijven dat kan worden gekoppeld voor twee keer wegschrijven
 

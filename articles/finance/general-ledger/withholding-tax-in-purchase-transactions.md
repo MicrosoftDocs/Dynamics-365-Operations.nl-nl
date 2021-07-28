@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: faeaf0746532875d3517a208c9c338c112bf2c77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d605ac0b6e4190f0c0f576d402c9b101d754b347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816878"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356671"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>Bronbelasting in inkooptransacties
 
@@ -64,15 +64,15 @@ De standaard bronbelastinggroep en artikelbronbelastinggroep worden naar de rege
 
 Het tijdelijke bronbelastingbedrag is beschikbaar in het veld **Gecorrigeerde bronbelasting** van het tabblad **Totalen** op de pagina **Inkooporder**.
 
-![Bronbelasting is in de inkooporder opgenomen](media/withholding-tax-adjusted.png)
+![Bronbelasting is in de inkooporder opgenomen.](media/withholding-tax-adjusted.png)
 
 Er wordt bronbelasting berekend in **Journaal met betalingen van leverancier**. U kunt de toepasselijke bronbelastingcodes en de werkelijke bronbelastingbedragen handmatig aanpassen op het tabblad **Bronbelasting** op de pagina **Transacties vereffenen**.
 
-![Bronbelasting kan handmatig worden gecorrigeerd op de pagina Transacties vereffenen](media/withholding-tax-vendor-payment-tab.png)
+![Bronbelasting kan handmatig worden gecorrigeerd op de pagina Transacties vereffenen.](media/withholding-tax-vendor-payment-tab.png)
 
 Het afgeleide bronbelastingbedrag wordt afgetrokken van de leveranciersbetaling en geboekt op de **rekening voor bronbelasting** in een gerelateerd boekstuk.
 
-![Bronbelastingrekening met een gerelateerd boekstuk](media/withholding-tax-adjusted.png)
+![Bronbelastingrekening met een gerelateerd boekstuk.](media/withholding-tax-adjusted.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

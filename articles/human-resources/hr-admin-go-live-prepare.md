@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dcec7963bdf70f848249bb2ca5e2208e09f49548
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ece4875b69d3cf797ab90e54f0cc0fda317cc931
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054783"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359648"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Voorbereiden op go-live van Human Resources
 
@@ -32,7 +32,7 @@ In dit onderwerp wordt beschreven hoe u voorbereidingen treft om live te gaan me
 
 In deze afbeelding worden de fasen van het go-live-proces weergegeven. 
 
-![Go-live-proces](./media/hr-admin-go-live-prepare-process.png)
+![Go-live-proces.](./media/hr-admin-go-live-prepare-process.png)
 
 In de volgende tabel worden alle stappen in het proces weergegeven, de verwachte duur en degene die verantwoordelijk is voor de actie.
 

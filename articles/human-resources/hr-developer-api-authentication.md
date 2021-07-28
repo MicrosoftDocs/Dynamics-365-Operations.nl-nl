@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4e73438170294863b7aa092cf1fc027787f57c70
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 87e9779dc47494583ad4a299206bada4b85c6a15
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054375"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360467"
 ---
 # <a name="authentication"></a>Authenticatie
 
@@ -87,7 +87,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
 
 6. Selecteer **Registreren**.
 
-   [![Een nieuwe app registreren in de Azure-portal](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
+   [![Een nieuwe app registreren in de Azure-portal.](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
 Azure AD wijst een unieke toepassings-id (client-id) toe aan uw app en brengt u naar de pagina **Overzicht** van uw app. Als u meer mogelijkheden aan uw app wilt toevoegen, kunt u andere configuratieopties selecteren, zoals opties voor huisstijl en voor certificaten en geheimen.
 

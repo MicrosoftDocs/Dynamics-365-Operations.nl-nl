@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 8976bc69f63fe5b05ab7dcb8d415515436902658
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 613fd4bad93e28360ca6862b7b30b2e4356ca489
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909079"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353391"
 ---
 # <a name="synchronize-products-directly-from-supply-chain-management-to-products-in-sales"></a>Producten rechtstreeks vanuit Supply Chain Management synchroniseren met producten in Sales
 
@@ -38,7 +38,7 @@ Dit onderwerp bespreekt de sjablonen en onderliggende taken die worden gebruikt 
 
 De oplossing Prospect naar contant geld gebruikt de functie Gegevensintegratie om gegevens te synchroniseren tussen exemplaren van Supply Chain Management en Sales. De Prospect naar contant geld-sjablonen die beschikbaar zijn in de functie Gegevensintegratie activeren de stroom van gegevens over rekeningen, contactpersonen, producten, verkoopoffertes en verkoopfacturen tussen Supply Chain Management en Sales. De volgende afbeelding laat zien hoe de gegevens worden gesynchroniseerd tussen Supply Chain Management en Sales.
 
-[![Gegevensstroom in Prospect naar contant geld](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Gegevensstroom in Prospect naar contant geld.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Sjablonen en taken
 
@@ -104,12 +104,12 @@ In de volgende afbeelding ziet u een voorbeeld van sjabloontoewijzing in Gegeven
 > [!NOTE]
 > Aan de hand van de toewijzing kunt u zien welke veldgegevens vanuit Sales naar Supply Chain Management worden gesynchroniseerd.
 
-![Sjabloontoewijzing in Gegevensintegrator](./media/products-direct-template-mapping-data-integrator-1.png)
+![Sjabloontoewijzing in gegevensintegrator.](./media/products-direct-template-mapping-data-integrator-1.png)
 
 
 ## <a name="related-topics"></a>Verwante onderwerpen
 
-[Van prospect naar contant geld](prospect-to-cash.md)
+[Van prospect tot contant geld](prospect-to-cash.md)
 
 [Rekeningen rechtstreeks vanuit Sales synchroniseren met klanten in Supply Chain Management](accounts-template-mapping-direct.md)
 

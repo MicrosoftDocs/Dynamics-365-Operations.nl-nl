@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-19
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 75913edcbac0151d5d27d866ff5430b194c62738
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 447d319f5a96851f7eb3104b3330026d269e7dd1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815255"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358804"
 ---
 # <a name="sales-tax-specification-by-ledger-transaction-report"></a>Btw-specificatie per grootboektransactie (rapport)
 [!include [banner](../includes/banner.md)]
@@ -54,7 +54,7 @@ Wanneer u dit rapport genereert, zijn de volgende standaardvelden beschikbaar. U
 
 Als u alleen niet-btw-rekeningen wilt weergeven in het rapport, stelt u een filtervoorwaarde in, zoals een asterisk (\*), zoals wordt weergegeven in de volgende afbeelding.
 
-![Rapport met niet-belastingrekeningen](media/taxspecperledgertrans.png)
+![Rapport met niet-belastingrekeningen.](media/taxspecperledgertrans.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

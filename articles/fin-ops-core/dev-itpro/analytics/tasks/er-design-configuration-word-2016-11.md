@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 413be634e80b87781444e1c1445c78691f4b4b0b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: d152449b55ab111cf5bac363b38d32c3658a56e3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944287"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359406"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>ER-configuraties opnieuw gebruiken met Excel-sjablonen om rapporten te genereren in Word-indeling
 
@@ -54,14 +54,14 @@ Deze procedures zijn voor een functie die is toegevoegd in Dynamics 365 for Oper
 5. Selecteer **Ontwerper**.
 6. Op de pagina **Indelingsontwerper** ziet u dat de titel van het hoofdindelingselement aangeeft dat er momenteel een Excel-sjabloon wordt gebruikt.
 
-![De bestaande configuratie selecteren](../media/er-design-configuration-word-2016-11-image01.gif)
+![De bestaande configuratie selecteren.](../media/er-design-configuration-word-2016-11-image01.gif)
 
 ## <a name="review-the-downloaded-word-template"></a>De gedownloade Word-sjabloon controleren
 
 1. Open in de Word-bureaubladtoepassing het sjabloonbestand **SampleVendPaymDocReport.docx** dat u eerder hebt gedownload.
 2. Controleer of de sjabloon alleen de indeling bevat van het document dat u wilt genereren als ER-uitvoer.
 
-![De lay-out van de Word-sjabloon in de bureaubladtoepassing](../media/er-design-configuration-word-2016-11-image02.png)
+![De lay-out van de Word-sjabloon in de bureaubladtoepassing.](../media/er-design-configuration-word-2016-11-image02.png)
 
 ## <a name="replace-the-excel-template-with-the-word-template-and-add-a-custom-xml-part"></a>De Excel-sjabloon vervangen door de Word-sjabloon en een aangepast XML-onderdeel toevoegen
 
@@ -84,7 +84,7 @@ Momenteel wordt het Excel-document gebruikt als sjabloon voor het genereren van 
 
 9. De titel van het hoofdindelingselement geeft aan dat er momenteel een Word-sjabloon wordt gebruikt.
 
-    ![De Excel-sjabloon vervangen door de Word-sjabloon en een aangepast XML-onderdeel toevoegen](../media/er-design-configuration-word-2016-11-image03.gif)
+    ![De Excel-sjabloon vervangen door de Word-sjabloon en een aangepast XML-onderdeel toevoegen.](../media/er-design-configuration-word-2016-11-image03.gif)
 
 10. Selecteer op het tabblad **Opmaak** de optie **Bijlagen**.
 
@@ -110,7 +110,7 @@ Als u ervaring hebt met het ontwerpen van Word-documenten als formulieren die [i
 1. Open in de Word-bureaubladtoepassing het sjabloonbestand **SampleVendPaymDocReportBounded.docx**.
 2. Controleer of de sjabloon de indeling bevat van het document dat u wilt genereren als ER-uitvoer. De inhoudsbesturingselementen die worden gebruikt als tijdelijke aanduidingen voor gegevens die ER in deze sjabloon tijdens runtime zal invoeren, zijn gebaseerd op de toewijzingen die zijn geconfigureerd tussen elementen van het aangepaste XML-onderdeel **Rapport** en de inhoudsbesturingselementen van het Word-document.
 
-![Voorbeeld van Word-sjabloon in de bureaubladtoepassing](../media/er-design-configuration-word-2016-11-image04.png)
+![Voorbeeld van Word-sjabloon in de bureaubladtoepassing.](../media/er-design-configuration-word-2016-11-image04.png)
 
 ## <a name="upload-the-word-template-where-the-custom-xml-part-is-mapped-to-content-controls"></a>De Word-sjabloon uploaden waarin het aangepaste XML-onderdeel is toegewezen aan inhoudsbesturingselementen
 
@@ -144,7 +144,7 @@ Als u de conceptversie van de bewerkbare indeling wilt uitvoeren, moet u deze [u
 3. Selecteer op de pagina **Leveranciersbetalingen** alle rijen in het raster.
 4. Selecteer **Betalingsstatus** \> **Geen**.
 
-    ![Betalingen voor verwerking op de pagina Leveranciersbetalingen](../media/er-design-configuration-word-2016-11-image05.png)
+    ![Betalingen voor verwerking op de pagina Leveranciersbetalingen.](../media/er-design-configuration-word-2016-11-image05.png)
 
 5. Selecteer **Betalingen genereren** in het actievenster.
 6. Voer de volgende stappen uit in het dialoogvenster:
@@ -156,7 +156,7 @@ Als u de conceptversie van de bewerkbare indeling wilt uitvoeren, moet u deze [u
 7. Selecteer **OK** in het dialoogvenster **Parameters elektronisch rapport**.
 8. De gegenereerde uitvoer wordt weergegeven in Word-indeling en bevat de details van de verwerkte betalingen. Analyseer de gegenereerde uitvoer.
 
-    ![Gegenereerde uitvoer in Word-indeling](../media/er-design-configuration-word-2016-11-image06.png)
+    ![Gegenereerde uitvoer in Word-indeling.](../media/er-design-configuration-word-2016-11-image06.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

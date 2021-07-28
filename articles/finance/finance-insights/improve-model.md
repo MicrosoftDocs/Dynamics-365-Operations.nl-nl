@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 74005d17e2524b922b0fab1aab5350b85dfad771
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186637"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355671"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Het voorspellingsmodel verbeteren (preview)
 
@@ -33,7 +33,7 @@ In dit onderwerp worden de functies beschreven die u kunt gebruiken om de presta
 
 U selecteert eerst een of meer van de drie mogelijke resultaten voor facturen: **op tijd**, **te laat** en **zeer laat**. Alle drie de resultaten moeten worden geselecteerd. Als u de selectie van een van de resultaten wist, worden facturen uit het trainingsproces gefilterd en wordt de nauwkeurigheid van de voorspelling verlaagd.
 
-[![Resultaten bevestigen](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![Resultaten bevestigen.](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 Als uw organisatie slechts twee resultaten nodig heeft, wijzigt u de drempels **te laat** en **zeer laat** in 0 (nul) dagen. Op deze manier vouwt u de voorspelling samen tot een binaire status **op tijd** of **te laat**.
 
@@ -51,7 +51,7 @@ In de volgende secties worden de velden weergegeven die beschikbaar zijn voor de
 
 In de volgende afbeelding ziet u de velden die beschikbaar zijn voor de tabel Factuur.
 
-[![Beschikbare velden voor de tabel Factuur](./media/available-fields.png)](./media/available-fields.png)
+[![Beschikbare velden voor de tabel Factuur.](./media/available-fields.png)](./media/available-fields.png)
 
 De volgende velden moeten niet zijn geselecteerd voor training:
 
@@ -66,7 +66,7 @@ De volgende velden moeten niet zijn geselecteerd voor training:
 
 In de volgende afbeelding ziet u de velden die beschikbaar zijn voor de tabel Klant.
 
-[![Beschikbare velden voor de tabel Klant](./media/related-entities.png)](./media/related-entities.png)
+[![Beschikbare velden voor de tabel Klant.](./media/related-entities.png)](./media/related-entities.png)
 
 Het volgende veld moet niet zijn geselecteerd voor training:
 
@@ -74,8 +74,8 @@ Het volgende veld moet niet zijn geselecteerd voor training:
 
 ## <a name="filters"></a>Filters
 
-De filters ondersteunen momenteel het voorspellingsscenario voor klantbetalingen niet. Selecteer daarom **Deze stap overslaan** en ga naar de overzichtspagina.
+U kunt de facturen filteren die voor de training worden gebruikt door filtercriteria in te stellen voor velden op de factuur of in de klanttabellen. U kunt bijvoorbeeld een drempel instellen om alleen facturen op te nemen waarbij het totaal gelijk is aan of groter is dan een bepaald bedrag. U kunt ook facturen uitsluiten die aan klanten zijn gekoppeld in een specifieke klantengroep.
 
-[![Focusmodel met filters](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
+Zie [Een voorspellingsmodel maken](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data) voor meer informatie over het filteren van uw gegevens.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-04-06
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f6fbada6feb55b8627b1aa1ddfe367177edb7a0a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 71cb119e533e64b14badf65f55e8c4d5aa4c4b2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051708"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356579"
 ---
 # <a name="workers-without-employment"></a>Medewerkers zonder dienstverband
 
@@ -42,13 +42,13 @@ In de lijst **Medewerkers zonder dienstverband** kunt u de vermelde personen ver
 
 2. Filter op het tabblad **Bevoegdheden** de lijst **Bevoegdheden** op **Medewerkers onderhouden**.
 
-   [![Lijst met bevoegdheden filteren](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
+   [![Lijst met bevoegdheden filteren.](./media/hr-personnel-workers-without-employment-filter.png)](./media/hr-personnel-workers-without-employment-filter.png)
 
 3. Selecteer in de kolom **Verwijzingen** de optie **Opdrachten in weergavemenu**.
 
 4. Selecteer onder **Opdrachten in weergavemenu** de optie **HcmWorkersWithoutEmployment**.
 
-   [![Formulier selecteren](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
+   [![Formulier selecteren.](./media/hr-personnel-workers-without-employment-select.png)](./media/hr-personnel-workers-without-employment-select.png)
 
 5. Stel de machtiging **Verwijderen** in op **Toewijzen**.
 
@@ -56,6 +56,6 @@ In de lijst **Medewerkers zonder dienstverband** kunt u de vermelde personen ver
 
 7. Selecteer **Alles publiceren**.
 
-   [![Wijzigingen publiceren](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
+   [![Wijzigingen publiceren.](./media/hr-personnel-workers-without-employment-publish.png)](./media/hr-personnel-workers-without-employment-publish.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

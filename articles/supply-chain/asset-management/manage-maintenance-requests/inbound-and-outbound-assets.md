@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1a2bac914330058400a7e4d7d355bd4a00a4522f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86d85d280b32834c36691535a019ef6d5141bf93
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816791"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356016"
 ---
 # <a name="inbound-and-outbound-assets"></a>Inkomende en uitgaande activa
 
@@ -42,7 +42,7 @@ De instellingen van Activabeheer bepalen of u met inkomende en uitgaande activa 
 3. Selecteer **Status van onderhoudsverzoek bijwerken**.
 4. Selecteer **Inkomend** (of een andere levenscyclusstatus die u hebt gemaakt voor inkomende activa) en selecteer **OK**.
 
-![Activa registreren als inkomend](media/07-manage-maintenance-requests.png)
+![Activa registreren als inkomend.](media/07-manage-maintenance-requests.png)
 
 ## <a name="register-inbound-assets-as-received"></a>Inkomende activa registreren als ontvangen
 
@@ -51,7 +51,7 @@ De instellingen van Activabeheer bepalen of u met inkomende en uitgaande activa 
 3. Selecteer **Activa ontvangen**.
 4. Voer de datum en de tijd in het veld **Ontvangen** in. Selecteer vervolgens **OK**. De record wordt verwijderd uit de pagina met de lijst **Inkomende activa**.
 
-![Inkomende activa registreren als ontvangen](media/08-manage-maintenance-requests.png)
+![Inkomende activa registreren als ontvangen.](media/08-manage-maintenance-requests.png)
 
 ## <a name="register-assets-as-outbound"></a>Activa registreren als uitgaand
 

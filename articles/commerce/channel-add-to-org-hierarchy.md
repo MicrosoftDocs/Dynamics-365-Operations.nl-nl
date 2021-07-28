@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7ff6d8ee7e526e45975cfa500b5e6d6079054dc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f20b5c36b45fc0d242edb4e5305a4195d6dfbe94
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800682"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351220"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>Een kanaal toevoegen aan een organisatiehiërarchie
 
@@ -44,7 +44,7 @@ Voer de volgende stappen uit om een hiërarchie te selecteren.
 
 De volgende afbeelding toont organisatiehiërarchiegegevens voor de geselecteerde hiërarchie.
 
-![Organisatiehiërarchiegegevens voor de geselecteerde hiërarchie](media/channel-add-to-org-hierarchy-1.png)
+![Organisatiehiërarchiegegevens voor de geselecteerde hiërarchie.](media/channel-add-to-org-hierarchy-1.png)
 
 ## <a name="add-a-channel-to-a-hierachy-node"></a>Een kanaal toevoegen aan een hiërarchieknooppunt
 
@@ -58,13 +58,13 @@ Volg deze stappen om een kanaal toe te voegen aan een hiërarchieknooppunt.
 
 In de volgende afbeelding ziet u hoe u een kanaal selecteert om aan een hiërarchieknooppunt toe te voegen.
 
-![Een kanaal selecteren om aan een hiërarchieknooppunt toe te voegen](media/channel-add-to-org-hierarchy-2.png)
+![Een kanaal selecteren om aan een hiërarchieknooppunt toe te voegen.](media/channel-add-to-org-hierarchy-2.png)
 
 In de volgende afbeelding ziet u een hiërarchie waarin verschillende kanalen zijn toegevoegd.
 
-![Een hiërarchie waarin diverse kanalen zijn toegevoegd](media/channel-add-to-org-hierarchy-3.png)
+![Een hiërarchie waarin diverse kanalen zijn toegevoegd.](media/channel-add-to-org-hierarchy-3.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van kanalen](channels-overview.md)
 

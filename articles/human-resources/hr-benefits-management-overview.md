@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.search.scope: Human Resources
-ms.custom: 7521
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b6ace2ce83c668e83ec1b433f8062148a6dfaf4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2f3a5583400b21aa11e88ba48b67e56fdbb05c3f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059059"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353633"
 ---
 # <a name="benefits-management-overview"></a>Overzicht van Vergoedingenbeheer
 
@@ -42,7 +42,7 @@ Als u toegang wilt tot de demogegevens, moet u de sandbox-omgeving opnieuw imple
 
 >[!NOTE]
 >U kunt nu Vergoedingenbeheer-formulieren aanpassen. U kunt nu aangepaste velden voor dekkingspercentages toevoegen aan het formulier **Dekkingsoptie** voor vergoedingsplannen. Meer informatie over werken met aangepaste velden vindt u in [Aangepaste velden](hr-developer-custom-fields.md).
->![Aangepaste velden in Vergoedingenbeheer](media/hr-benefits-management-custom-fields.png)
+>![Aangepaste velden in Vergoedingenbeheer.](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Vergoedingenbeheer inschakelen
 

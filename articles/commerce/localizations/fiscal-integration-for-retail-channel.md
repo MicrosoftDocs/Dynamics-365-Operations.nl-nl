@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 155056eb3a2acd0d66e0ace8d5558929678cb8e3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5c8036b8b802043ca9a2a985f813e5ff8347a27e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798776"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348185"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Overzicht van fiscale integratie voor Commerce-kanalen
 
@@ -62,7 +63,7 @@ Het volgende voorbeeld toont een gebruikelijke fiscale registratie-uitvoeringsst
 7. Het POS analyseert de reactie van het fiscale apparaat of service om te bepalen of de fiscale registratie voltooid is.
 8. CRT slaat het antwoord op in de afzetkanaaldatabase.
 
-![Oplossingsschema](media/emea-fiscal-integration-solution.png "Oplossingsschema")
+![Oplossingsschema.](media/emea-fiscal-integration-solution.png "Oplossingsschema")
 
 ## <a name="error-handling"></a>Foutverwerking
 

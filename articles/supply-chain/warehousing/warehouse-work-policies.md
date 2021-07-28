@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3f3a02a369cab34b965b2443bb77053377a190e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838125"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353367"
 ---
 # <a name="work-policies"></a>Werkbeleidsregels
 
@@ -200,7 +200,7 @@ De inkooporder wordt nu ontvangen, maar er wordt geen werk aan gekoppeld. De voo
 
 In het volgende voorbeeld zijn er twee productieorders: *PRD-001* en *PRD-002*. Productieorder *PRD-001* heeft een bewerking met de naam *Assembly*, waarbij product *SC1* aan locatie *001* wordt gereedgemeld. Productieorder *PRD-002* heeft een bewerking met de naam *Verven* en verbruikt product *SC1* van locatie *001*. Productieorder *PRD-002* verbruikt ook grondstof *RM1* van locatie *001*. Grondstof *RM1* is opgeslagen in magazijnlocatie *BULK-001* en wordt verzameld op locatie *001* door magazijnwerk voor het verzamelen van grondstoffen. Het verzamelwerk wordt gegenereerd wanneer productie *PRD-002* wordt vrijgegeven.
 
-[![Werkbeleid magazijn](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Werkbeleid magazijn.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Wanneer u de configuratie van een werkbeleid voor magazijnen voor dit scenario plant, moet u rekening houden met het volgende:
 

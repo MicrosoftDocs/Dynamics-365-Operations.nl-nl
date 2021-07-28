@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4ee5a074c5c6d2e2144181e39917b1cc42dfc015
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: e3dc83b71300387c8123f5533522c5ead7d86333
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944827"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349179"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>De prestaties van ER-oplossingen verbeteren door BEREKEND VELD-gegevensbronnen met parameters toe te voegen
 
@@ -56,7 +56,7 @@ De eerste stap is om de ER-voorbeeldoplossing te importeren om een leverancierst
     2. Selecteer **Bladeren** en selecteer het juiste bestand voor de ER-configuratie in XML-indeling.
     3. Selecteer **OK**.
 
-![Geïmporteerde configuraties op de pagina Configuraties](./media/er-calculated-field-ds-performance-imported-configurations.png)
+![Geïmporteerde configuraties op de pagina Configuraties.](./media/er-calculated-field-ds-performance-imported-configurations.png)
 
 ## <a name="review-the-sample-er-solution"></a>De ER-voorbeeldoplossing controleren
 
@@ -76,7 +76,7 @@ De eerste stap is om de ER-voorbeeldoplossing te importeren om een leverancierst
 
     Met de modeltoewijzing in deze configuratie wordt het basisgegevensmodel geïmplementeerd voor elke ER-indeling die voor dit model is gemaakt en in Finance wordt uitgevoerd. Dat betekent dat de inhoud van de gegevensbron **Trans** wordt weergegeven voor ER-indelingen zoals abstracte gegevensbronnen van het type **model**.
 
-    ![Gegevensbron Trans op de pagina Ontwerper modeltoewijzing](media/er-calculated-field-ds-performance-mapping-1.png)
+    ![Gegevensbron Trans op de pagina Ontwerper modeltoewijzing.](media/er-calculated-field-ds-performance-mapping-1.png)
 
 4. Sluit de pagina **Ontwerper modeltoewijzing**.
 5. Sluit de pagina **Model aan gegevensbrontoewijzing**.
@@ -90,7 +90,7 @@ De eerste stap is om de ER-voorbeeldoplossing te importeren om een leverancierst
 
     Deze ER-indeling is ontworpen om een rapport voor leverancierstransacties in XML-indeling te genereren.
 
-    ![Indelingsgegevensbronnen en geconfigureerde bindingen van indelingselementen op de pagina Indelingsontwerper](media/er-calculated-field-ds-performance-format.png)
+    ![Indelingsgegevensbronnen en geconfigureerde bindingen van indelingselementen op de pagina Indelingsontwerper.](media/er-calculated-field-ds-performance-format.png)
 
 5. Sluit de pagina **Indelingsontwerper**.
 
@@ -103,7 +103,7 @@ Stel dat u klaar bent met het ontwerpen van de eerste versie van de ER-oplossing
 1. Selecteer het bedrijf **DEMF**.
 2. Volg de stappen in [De ER-prestatietracering inschakelen](trace-execution-er-troubleshoot-perf.md#turn-on-the-er-performance-trace) om een prestatietracering te genereren terwijl er een ER-indeling wordt uitgevoerd.
 
-    ![Dialoogvenster voor gebruikersparameters](media/er-calculated-field-ds-performance-format-user-parameters.png)
+    ![Dialoogvenster voor gebruikersparameters.](media/er-calculated-field-ds-performance-format-user-parameters.png)
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>De ER-indeling uitvoeren
 
@@ -124,7 +124,7 @@ Nieuwe informatie is nu beschikbaar voor bepaalde gegevensbronitems van de huidi
 - De werkelijke tijd die is besteed aan het ophalen van gegevens met behulp van de gegevensbron
 - Dezelfde tijd uitgedrukt als een percentage van de totale tijd die is besteed aan het uitvoeren van de gehele modeltoewijzing
 
-![Details over de uitvoeringstijd op de pagina Ontwerper modeltoewijzing](./media/er-calculated-field-ds-performance-mapping-2.png)
+![Details over de uitvoeringstijd op de pagina Ontwerper modeltoewijzing.](./media/er-calculated-field-ds-performance-mapping-2.png)
 
 In het raster **Prestatiestatistieken** ziet u dat de gegevensbron **Trans** de tabel VendTrans één keer aanroept. De waarde **\[265\]\[Q:265\]** van de gegevensbron **Trans** geeft aan dat 265 leverancierstransacties uit de toepassingstabel zijn opgehaald en naar het gegevensmodel zijn geretourneerd.
 
@@ -137,7 +137,7 @@ In het raster **Prestatiestatistieken** ziet u ook dat de huidige modeltoewijzin
 
 - De leverancierstabel wordt aangeroepen voor elke herhaalde leverancierstransactie, hoewel de opgehaalde transacties slechts voor vijf leveranciers zijn geboekt. Van de 530 aanroepen zijn er 525 duplicaten. In de volgende afbeelding ziet u het bericht dat u ontvangt over dubbele oproepen (databaseaanvragen).
 
-![Bericht over dubbele databaseaanvragen op de pagina Ontwerper modeltoewijzing](./media/er-calculated-field-ds-performance-mapping-2a.png)
+![Bericht over dubbele databaseaanvragen op de pagina Ontwerper modeltoewijzing.](./media/er-calculated-field-ds-performance-mapping-2a.png)
 
 Van de totale uitvoeringstijd voor modeltoewijzingen (circa acht seconden), ziet u dat meer dan 80 procent (ongeveer zes seconden) is besteed aan het ophalen van waarden uit de VendTable-toepassingstabel. Dit percentage is te hoog voor twee kenmerken van vijf leveranciers, vergeleken met het volume gegevens in de VendTrans-toepassingstabel.
 
@@ -172,7 +172,7 @@ Volg deze stappen om caching en een gegevensbron van het type **Berekend veld** 
     3. Voer in het dialoogvenster in het veld **Naam** de tekst **Box** in.
     3. Selecteer **OK**.
 
-    ![Gegevensbron Box op de pagina Ontwerper modeltoewijzing](./media/er-calculated-field-ds-performance-mapping-3.png)
+    ![Gegevensbron Box op de pagina Ontwerper modeltoewijzing.](./media/er-calculated-field-ds-performance-mapping-3.png)
 
 6. Voer de volgende stappen uit om een gegevensbron met parameters toe te voegen voor het type **Berekend veld**:
 
@@ -208,7 +208,7 @@ Volg deze stappen om caching en een gegevensbron van het type **Berekend veld** 
 
 9. Selecteer **Opslaan**.
 
-    ![Gegevensbron Vend op de pagina Ontwerper modeltoewijzing](./media/er-calculated-field-ds-performance-mapping-4.png)
+    ![Gegevensbron Vend op de pagina Ontwerper modeltoewijzing.](./media/er-calculated-field-ds-performance-mapping-4.png)
 
 10. Sluit de pagina **Ontwerper modeltoewijzing**.
 11. Sluit de pagina **Modeltoewijzingen**.
@@ -232,11 +232,11 @@ Herhaal de stappen uit het gedeelte [De ER-indeling uitvoeren](#run-format) eerd
 
 Door uw aanpassingen in de modeltoewijzing worden er geen dubbele query's meer uitgevoerd in de database. Het aantal aanroepen naar databasetabellen en gegevensbronnen voor deze modeltoewijzing is ook beperkt.
 
-![Traceringsgegeven op de pagina Ontwerper modeltoewijzing 1](./media/er-calculated-field-ds-performance-mapping-5.png)
+![Traceringsgegeven op de pagina Ontwerper modeltoewijzing 1.](./media/er-calculated-field-ds-performance-mapping-5.png)
 
 De totale uitvoeringstijd is ongeveer 20 keer verlaagd (van ongeveer 8 seconden tot ongeveer 400 milliseconden). Hierdoor zijn de prestaties van de hele ER-oplossing verbeterd.
 
-![Traceringsgegeven op de pagina Ontwerper modeltoewijzing 2](./media/er-calculated-field-ds-performance-mapping-5a.png)
+![Traceringsgegeven op de pagina Ontwerper modeltoewijzing 2.](./media/er-calculated-field-ds-performance-mapping-5a.png)
 
 ## <a name="appendix-1-download-the-components-of-the-sample-microsoft-er-solution"></a><a name="appendix1"></a>Bijlage 1: De componenten van de Microsoft ER-voorbeeldoplossing downloaden
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b2162621968c5b1c3957ea1a1639e71439000918
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9d024a5096b499b986ec2d5c38c0d6a2b7794d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837820"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356483"
 ---
 # <a name="maintenance-downtime-activities"></a>Activiteiten tijdens uitvaltijd voor onderhoud
 
@@ -40,7 +40,7 @@ Wanneer activa in een registratie van uitvaltijd voor onderhoud zijn geselecteer
 
 Klik op **Activabeheer** > **Algemeen** > **Activiteiten voor uitvaltijd voor onderhoud** > **Alle activiteiten voor uitvaltijd voor onderhoud** om een lijst te openen van alle activiteiten voor uitvaltijd voor onderhoud en informatie over de activiteiten te bekijken. Klik op een koppeling in de kolom **Activiteiten voor uitvaltijd voor onderhoud** om de detailweergave te openen. In de onderstaande afbeelding ziet u een voorbeeld van de lijst **Activiteiten voor uitvaltijd voor onderhoud**.
 
-![Figuur 1](media/19-preventive-maintenance.png)
+![Figuur 1.](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>Een activiteit voor uitvaltijd voor onderhoud maken
@@ -61,7 +61,7 @@ Klik op **Activabeheer** > **Algemeen** > **Activiteiten voor uitvaltijd voor on
 
 In de onderstaande afbeelding ziet u een voorbeeld van de detailweergave **Activiteiten voor uitvaltijd voor onderhoud**.
 
-![Figuur 2](media/20-preventive-maintenance.png)
+![Figuur 2.](media/20-preventive-maintenance.png)
 
 >[!NOTE]
 >De onderhoudstaken en onderhoudsschemaregels van werkorders voor de geselecteerde activa worden automatisch bijgewerkt als er nieuwe werkorders of onderhoudsschemaregels worden gemaakt nadat u de activiteit voor uitvaltijd voor onderhoud hebt gemaakt. Als u bijvoorbeeld twee dagen na het maken van de activiteit voor uitvaltijd voor onderhoud onderhoudsplannen of onderhoudsronden voor de betreffende activa plant, worden er automatisch nieuwe onderhoudsschemaregels aan de activiteit voor uitvaltijd voor onderhoud toegevoegd.
@@ -72,7 +72,7 @@ In de onderstaande afbeelding ziet u een voorbeeld van de detailweergave **Activ
 
 10. Klik op **OK** om de berekening te starten. Het totaal aantal uren wordt weergegeven in het overzicht **Capaciteitsbelasting**. Klik op het tabblad **Capaciteitsbelasting** > in de actievenstergroepen **Groeperen op…** op de relevante knoppen voor een gedetailleerder overzicht van de toewijzing van geraamde uren. In de onderstaande afbeelding ziet u de resultaten van de berekening van de **Capaciteitsbelasting**.
 
-![Figuur 3](media/21-preventive-maintenance.png)
+![Figuur 3.](media/21-preventive-maintenance.png)
 
 11. Wanneer u een overzicht van de capaciteitsbelasting hebt ontvangen en wijzigingen wilt aanbrengen in de onderhoudstaken voor werkorders of de onderhoudsschemaregels, dan kunt u terugkeren naar de detailweergave **Activiteiten voor uitvaltijd voor onderhoud**. Selecteer daar de regels die u wilt corrigeren op de sneltabbladen **Resulterende onderhoudstaken voor werkorder** en **Onderhoudsschemaregels**.
 
@@ -89,7 +89,7 @@ In de onderstaande afbeelding ziet u een voorbeeld van de detailweergave **Activ
 
 16. Klik op **OK** om de berekening te starten. Het totaal aantal artikelprognoses wordt weergegeven in het overzicht **Artikelprognose**. Klik op het tabblad **Artikelprognose** > in de actievenstergroepen **Groeperen op…** op de relevante knoppen voor een gedetailleerder overzicht van de toewijzing van geraamde artikelen. In de onderstaande afbeelding ziet u de resultaten van de berekening van een **Artikelprognose**.
 
-![Figuur 4](media/22-preventive-maintenance.png)
+![Figuur 4.](media/22-preventive-maintenance.png)
 
 - U kunt activa van de ene activiteit voor uitvaltijd voor onderhoud naar een andere kopiëren. Selecteer in **Alle activiteiten voor uitvaltijd voor onderhoud** de knop **Activiteiten voor uitvaltijd voor onderhoud kopiëren** en selecteer de gewenste opties in de velden **Van activiteiten voor uitvaltijd voor onderhoud** en **Naar activiteiten voor uitvaltijd voor onderhoud** en klik op **OK**.
 - Klik in **Alle activiteiten voor uitvaltijd voor onderhoud** op de knop **Onderhoudsschemaregels** of de knop **Actieve werkorders** om de gerelateerde lijsten te openen en de regels voor de geselecteerde activiteit voor uitvaltijd voor onderhoud weer te geven.

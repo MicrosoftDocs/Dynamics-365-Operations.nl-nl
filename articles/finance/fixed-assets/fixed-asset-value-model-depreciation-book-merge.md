@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f027a856dbd596ede84c39e30ee2227aab9329f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 32dfcc65d8b76f7314dcc348299c29d4ccff8d91
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826733"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355575"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Samenvoeging van waardemodellen en afschrijvingsboeken voor vaste activa
 
@@ -27,7 +27,7 @@ ms.locfileid: "5826733"
 
 In eerdere versies waren er twee waardevaststellingsconcepten voor vaste activa: waardemodellen en afschrijvingsboeken. In versie 1611 van Microsoft Dynamics 365 for Operations zijn functionaliteiten van waardemodellen en afschrijvingsboeken samengevoegd in één concept dat de naam boek draagt.
 
-De nieuwe functionaliteit 'boek' is gebaseerd op bestaande functionaliteit van waardemodellen, maar omvat ook alle functionaliteit die voorheen alleen in afschrijvingsboeken beschikbaar was. [![Boek als een samenvoeging van de functionaliteit van waardemodel en het afschrijvingsboek](./media/fixed-assets.png)](./media/fixed-assets.png) Vanwege deze samenvoeging kunt u nu één enkele set pagina's, query's en rapporten gebruiken voor alle vaste activa-processen. De tabellen in dit onderwerp geven de bestaande functionaliteit van waardemodellen en afschrijvingsboeken weer, samen met de nieuwe functionaliteit van boeken.
+De nieuwe functionaliteit 'boek' is gebaseerd op bestaande functionaliteit van waardemodellen, maar omvat ook alle functionaliteit die voorheen alleen in afschrijvingsboeken beschikbaar was. [![Boek als een samenvoeging van de functionaliteiten van waardemodellen en afschrijvingsboeken.](./media/fixed-assets.png)](./media/fixed-assets.png) Dankzij deze fusie kunt u nu één set pagina's, query's, en rapporten gebruiken voor al uw processen voor vaste activa. De tabellen in dit onderwerp geven de bestaande functionaliteit van waardemodellen en afschrijvingsboeken weer, samen met de nieuwe functionaliteit van boeken.
 
 ## <a name="setup"></a>Instellen
 Standaard boeken de boeken naar zowel het grootboek (GB) als ook het subgrootboek voor vaste activa. Boeken hebben een nieuwe optie **Boeken naar grootboek**, waarmee u het boeken naar het GB kunt uitschakelen en alleen laat boeken naar het vaste-activasubgrootboek. Deze functionaliteit lijkt op het vroegere boekingsgedrag voor afschrijvingsboeken. De instelling voor journaalnamen heeft een nieuwe boekingslaag met de naam Geen. Deze boekingslaag is specifiek toegevoegd voor vaste-activatransacties. Om transacties te boeken voor boeken die niet naar het GB boeken, moet u een journaalnaam gebruiken waarvoor de boekingslaag is ingesteld op **Geen**.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 435e4c0b7aac8a8dc179ee8e74b985a4c434b7ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839602"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361109"
 ---
 # <a name="maintenance-plans"></a>Onderhoudsplannen
 
@@ -145,23 +145,23 @@ Hieronder vindt u voorbeelden van instellingen van tijd- en tellerregels in onde
 
 **Voorbeeld 1: tijdregel in onderhoudsplan:** een smeertaak kan worden ingesteld om te worden uitgevoerd met een vast interval, bijvoorbeeld eenmaal per week. Selecteer hiertoe de optie Herhaald vanaf planningsdatum in het veld **Intervaltype**. Zie een voorbeeld in de volgende afbeelding.
 
-![Een servicetaak ingesteld in een vast interval, die eenmaal per week plaatsvindt](media/02-preventive-maintenance.png "Een servicetaak ingesteld in een vast interval, die eenmaal per week plaatsvindt")
+![Een servicetaak ingesteld in een vast interval, die eenmaal per week plaatsvindt.](media/02-preventive-maintenance.png "Een servicetaak ingesteld in een vast interval, die eenmaal per week plaatsvindt")
 
 **Voorbeeld 2: tijdregel in onderhoudsplan:** een inspectietaak kan zo worden ingesteld dat deze ongeveer eenmaal per week wordt uitgevoerd. Selecteer hiertoe de optie Herhaald vanaf laatste werkorder in het veld **Intervaltype**. Zie een voorbeeld in de volgende afbeelding.
 
-![Een inspectietaak die is ingesteld om ongeveer eenmaal per week te worden uitgevoerd](media/03-preventive-maintenance.png "Een inspectietaak die is ingesteld om ongeveer eenmaal per week te worden uitgevoerd")
+![Een inspectietaak die is ingesteld om ongeveer eenmaal per week te worden uitgevoerd.](media/03-preventive-maintenance.png "Een inspectietaak die is ingesteld om ongeveer eenmaal per week te worden uitgevoerd")
 
 **Voorbeeld 3: tellerregel in onderhoudsplan:** in de volgende afbeelding ziet u een urenteller waarbij er telkens na 250 uur een nieuwe onderhoudsschemaregel wordt gemaakt. Het intervaltype voor deze tellerregel is Herhaald vanaf begindatum. De begindatum is de begindatum van de betreffende activa in de detailweergave **Alle activa** \> sneltabblad **Onderhoudsplannen voor activa** \> veld **Begindatum**, of in de detailweergave **Functionele locatie** \> sneltabblad **Onderhoudsplannen** \> veld **Begindatum**. Dit is een voorbeeld van *preventief* onderhoudsplan omdat de onderhoudsschemaregel automatisch wordt gemaakt wanneer de drempelwaarde (+ 250) is bereikt.
 
-![Een urenteller die regelmatig onderhoudsschemaregels maakt](media/04-preventive-maintenance.png "Een urenteller die regelmatig onderhoudsschemaregels maakt")
+![Een urenteller die regelmatig onderhoudsschemaregels maakt.](media/04-preventive-maintenance.png "Een urenteller die regelmatig onderhoudsschemaregels maakt")
 
 **Voorbeeld 4: tellerregel in onderhoudsplan:** in de volgende afbeelding ziet u een afbeelding van en tellerwaarde die afneemt en die de remblokslijtage meet. Er wordt een onderhoudsschemaregel gemaakt wanneer er een tellerwaarde van minder dan 20 mm voor de remblok wordt geregistreerd. Het intervaltype voor deze tellerregel is Eenmaal bereikt onder of Eenmaal vanaf laatste begindatum. Dit is een voorbeeld van een *reactief* onderhoudsplan omdat de onderhoudsschemaregel pas wordt gemaakt wanneer een meting onder de 20 mm wordt geregistreerd.
 
-![Een afname in tellerwaarde, waarbij de remblokslijtage wordt gemeten](media/05-preventive-maintenance.png "Een afname in tellerwaarde, waarbij de remblokslijtage wordt gemeten")
+![Een afname in tellerwaarde, waarbij de remblokslijtage wordt gemeten.](media/05-preventive-maintenance.png "Een afname in tellerwaarde, waarbij de remblokslijtage wordt gemeten")
 
 **Voorbeeld 5: tellerregel in onderhoudsplan:** in de volgende afbeelding ziet u een teller met een drempel van -18 °Celsius. Er wordt een onderhoudsschemaregel gemaakt wanneer een tellerwaarde boven -18 °Celsius wordt geregistreerd. Het intervaltype voor deze tellerregel is Eenmaal bereikt boven. Dit is een voorbeeld van een *reactief* onderhoudsplan omdat de onderhoudsschemaregel pas wordt gemaakt wanneer een meting hoger dan -18 ° Celsius wordt geregistreerd.
 
-![Een teller met een drempel van -18 Celsius](media/06-preventive-maintenance.png "Een teller met een drempel van -18 Celsius")
+![Een teller met een drempel van -18 Celsius.](media/06-preventive-maintenance.png "Een teller met een drempel van -18 Celsius")
 
 - Wanneer u een nieuw activum maakt en dat activum gebruikmaakt van een activatype dat is gerelateerd aan een onderhoudsplan, wordt het onderhoudsplan automatisch ingevoegd in **Alle objecten \> sneltabblad Onderhoudsplannen voor activa**. Bovendien worden in de **Standaardinstellingen voor activatypen** de bijbehorende onderhoudsplannen automatisch op het sneltabblad **Onderhoudsplannen** ingevoegd.
 - Als u activatypen of functionele-locatietypen toevoegt aan of verwijdert uit **Onderhoudsplannen**, wordt deze wijziging alleen doorgevoerd voor nieuwe activa die zijn gemaakt nadat u de wijziging hebt aangebracht.
@@ -169,7 +169,7 @@ Hieronder vindt u voorbeelden van instellingen van tijd- en tellerregels in onde
 
 In de volgende afbeelding ziet u een voorbeeld van het onderhoudsplan voor vrachtwagenonderhoud op de pagina **Onderhoudsplannen**.
 
-![Een voorbeeld van een onderhoudsplan voor vrachtwagenonderhoud](media/07-preventive-maintenance.png "Een voorbeeld van een onderhoudsplan voor vrachtwagenonderhoud")
+![Een voorbeeld van een onderhoudsplan voor vrachtwagenonderhoud.](media/07-preventive-maintenance.png "Een voorbeeld van een onderhoudsplan voor vrachtwagenonderhoud")
 
 ## <a name="add-a-maintenance-plan-to-an-asset"></a>Een onderhoudsplan toevoegen aan een activum
 
@@ -187,11 +187,11 @@ In de volgende afbeelding ziet u een voorbeeld van het onderhoudsplan voor vrach
 
 In de volgende afbeelding ziet u een voorbeeld van een onderhoudsplan dat is ingesteld voor een activum op de pagina **Alle activa**.
 
-![Een voorbeeld van onderhoudsplannen die zijn ingesteld voor een activum](media/08-preventive-maintenance.png "Een voorbeeld van onderhoudsplannen die zijn ingesteld voor een activum")
+![Een voorbeeld van onderhoudsplannen die zijn ingesteld voor een activum.](media/08-preventive-maintenance.png "Een voorbeeld van onderhoudsplannen die zijn ingesteld voor een activum")
 
 <a id="counter-based-maintenance"></a>
 
-## <a name="counter-based-maintenance-enhancements"></a>Verbeteringen in het onderhoud op basis van teller
+## <a name="counter-based-maintenance-enhancements"></a>Verbeteringen voor op teller gebaseerd onderhoud
 
 De functie *Onderhoudsverbeteringen op basis van teller* heeft de volgende functionaliteit:
 

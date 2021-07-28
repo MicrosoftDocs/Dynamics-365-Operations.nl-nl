@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: c8c50a9a6f9f3c6582e9fd0f28080a3259faab21
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907712"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349765"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 
@@ -32,7 +32,7 @@ Voordat werknemers het apparaat kunnen gaan gebruiken, moet een supervisor of te
 
 Nadat het apparaat is voorbereid, wordt de aanmeldingspagina erop weergegeven. Deze pagina bevat informatie over de status van taken voor de lokale werkcel. Deze informatie wordt periodiek bijgewerkt. Op de pagina gebruiken werknemers hun badge-id's voor aanmelding. Hoewel werknemers geen gebruikersaccount hoeven te hebben voor Supply Chain Management, moeten ze een account voor *werknemer met tijdregistratie* hebben die ze kunnen gebruiken wanneer ze zich aanmelden.
 
-![Aanmeldingspagina van de uitvoeringsinterface voor de werkvloer](media/pfei-sign-in-page.png "Aanmeldingspagina van de uitvoeringsinterface voor de werkvloer")
+![Aanmeldingspagina van de uitvoeringsinterface voor de werkvloer.](media/pfei-sign-in-page.png "Aanmeldingspagina van de uitvoeringsinterface voor de werkvloer")
 
 In de overige secties van dit onderwerp wordt beschreven hoe werknemers met de interface werken.
 
@@ -40,7 +40,7 @@ In de overige secties van dit onderwerp wordt beschreven hoe werknemers met de i
 
 Op het tabblad **Alle taken** vindt u een takenlijst waarin alle productietaken worden weergegeven met de status *Niet gestart*, *Gestopt* of *Gestart*. (Deze tabbladnaam is aanpasbaar en kan anders zijn voor uw systeem.)
 
-![Tabblad Alle taken](media/pfei-all-jobs-tab.png "Tabblad Alle taken")
+![Tabblad Alle taken.](media/pfei-all-jobs-tab.png "Tabblad Alle taken")
 
 De takenlijst heeft de volgende kolommen. De nummers komen overeen met de nummers in de vorige afbeelding.
 
@@ -59,7 +59,7 @@ De takenlijst heeft de volgende kolommen. De nummers komen overeen met de nummer
 
 Op de tabbladen **Actieve taken** wordt een lijst weergegeven met alle taken die de aangemelde werknemer al heeft gestart. (Deze tabbladnaam is aanpasbaar en kan anders zijn voor uw systeem.)
 
-![Tabblad Actieve taken](media/pfei-active-jobs-tab.png "Tabblad Actieve taken")
+![Tabblad Actieve taken.](media/pfei-active-jobs-tab.png "Tabblad Actieve taken")
 
 De lijst met actieve taken heeft de volgende kolommen:
 
@@ -76,7 +76,7 @@ De lijst met actieve taken heeft de volgende kolommen:
 
 Op het tabblad **Mijn machine** kunnen werknemers een activum selecteren dat is gekoppeld aan een machineresource in de filterset op het tabblad **Alle taken**. De werknemer kan vervolgens de status en gesteldheid van het geselecteerde activum weergeven door waarden te lezen voor maximaal vier geselecteerde tellers en lijsten met recente onderhoudsverzoeken en geregistreerde uitvaltijden. De werknemer kan ook onderhoud voor het geselecteerde activum aanvragen en uitvaltijd van de machine registreren en bewerken. (Deze tabbladnaam is aanpasbaar en kan anders zijn voor uw systeem.)
  
-![Het tabblad Mijn machine](media/pfei-my-machine-tab.png "Het tabblad Mijn machine")
+![Het tabblad Mijn machine.](media/pfei-my-machine-tab.png "Het tabblad Mijn machine")
 
 Het tabblad **Mijn machine** heeft de volgende kolommen. De nummers komen overeen met de nummers in de vorige afbeelding.
 
@@ -87,7 +87,7 @@ Het tabblad **Mijn machine** heeft de volgende kolommen. De nummers komen overee
 
 1. **Instellingen**: selecteer het tandwielpictogram om een dialoogvenster te openen waarin u kunt kiezen welke tellers voor het geselecteerde machineactivum moeten worden weergegeven. Waarden voor deze tellers worden boven aan het tabblad **Activabeheer** weergegeven. In het menu **Instellingen** (in de volgende schermopname) kunt u maximaal vier tellers inschakelen. Voor elke teller die u wilt inschakelen, gebruikt u het zoekveld boven aan de tegel om een teller te selecteren. Het zoekveld bevat alle tellers die zijn gekoppeld aan het activum dat boven aan de pagina **Activabeheer** is geselecteerd. Stel elke teller in om de **samengevoegde** waarde of de laatste **werkelijke** waarde voor de teller te controleren. Als u bijvoorbeeld een teller in stelt die bijhoudt hoeveel uur de machine al draait, moet u de teller instellen op **Samengevoegd**. Als u een teller instelt om de meest recente bijgewerkte temperatuur of druk te meten, moet u deze instellen op **Werkelijk**. Selecteer **OK** om de instellingen op te slaan en het dialoogvenster te sluiten.
 
-    ![De instellingen van het tabblad Mijn machine](media/pfei-my-machine-tab-settings.png "De instellingen van het tabblad Mijn machine")
+    ![De instellingen van het tabblad Mijn machine.](media/pfei-my-machine-tab-settings.png "De instellingen van het tabblad Mijn machine")
 
 1. **Onderhoud aanvragen**: selecteer deze knop om een dialoogvenster te openen waarin u een onderhoudsaanvraag kunt maken. U kunt een omschrijving en een notitie maken. De aanvraag wordt onder de aandacht gebracht van een Supply Chain Management-gebruiker, die de onderhoudsaanvraag vervolgens kan converteren naar een onderhoudswerkorder.
 1. **Uitvaltijd registreren**: selecteer deze knop om een dialoogvenster te openen waarin u de uitvaltijd van machines kunt registreren. U kunt een redencode selecteren en een datum/tijd voor de uitvaltijd invoeren. De registratie van uitvaltijd van machines wordt gebruikt om de efficiëntie van de machineactiva te berekenen.
@@ -98,7 +98,7 @@ Het tabblad **Mijn machine** heeft de volgende kolommen. De nummers komen overee
 
 Werknemers starten een productietaak door een taak te selecteren op het tabblad **Alle taken** en vervolgens **Taak starten** te selecteren om het dialoogvenster **Taak starten** te openen.
 
-![Dialoogvenster Taak starten](media/pfei-start-job-dialog.png "Dialoogvenster Taak starten")
+![Dialoogvenster Taak starten.](media/pfei-start-job-dialog.png "Dialoogvenster Taak starten")
 
 Werknemers gebruiken het dialoogvenster **Taak starten** om de productiehoeveelheid te bevestigen en vervolgens de taak te starten. Werknemers kunnen de hoeveelheid aanpassen door het veld **Hoeveelheid** te selecteren en vervolgens het numerieke toetsenbord te gebruiken dat wordt weergegeven. Werknemers selecteren vervolgens **Starten** om aan de taak te gaan werken. Het dialoogvenster **Taak starten** wordt gesloten en de taak wordt toegevoegd aan het tabblad **Actieve taken**.
 
@@ -108,13 +108,13 @@ Werknemers kunnen een taak met een willekeurige status starten. Wanneer een werk
 
 Wanneer werknemers een taak voltooien of gedeeltelijk voltooien, kunnen ze goede hoeveelheden rapporteren die zijn geproduceerd door een taak te selecteren op het tabblad **Actieve taken** en vervolgens **Voortgang rapporteren** te selecteren. Vervolgens voert de werknemer in het dialoogvenster **Voortgang rapporteren** de goede hoeveelheid in met het numerieke toetsenbord. De hoeveelheid is standaard leeg. Nadat een hoeveelheid is ingevoerd, kan de werknemer de status van de taak bijwerken naar *In uitvoering*, *Gestopt* of *Voltooid*.
 
-![Dialoogvenster Voortgang rapporteren](media/pfei-report-progress-dialog.png "Dialoogvenster Voortgang rapporteren")
+![Dialoogvenster Voortgang rapporteren.](media/pfei-report-progress-dialog.png "Dialoogvenster Voortgang rapporteren")
 
 ## <a name="reporting-scrap"></a>Uitval rapporteren
 
 Wanneer werknemers een taak voltooien of gedeeltelijk voltooien, kunnen ze uitval rapporteren door een taak te selecteren op het tabblad **Actieve taken** en vervolgens **Uitval rapporteren** te selecteren. Vervolgens voert de werknemer in het dialoogvenster **Uitval rapporteren** de uitvalhoeveelheid in met het numerieke toetsenbord. De werknemer selecteert ook een reden (*Geen*, *Machine*, *Operator* of *Materiaal*).
 
-![Dialoogvenster Uitval rapporteren](media/pfei-report-scrap-dialog.png "Dialoogvenster Uitval rapporteren")
+![Dialoogvenster Uitval rapporteren.](media/pfei-report-scrap-dialog.png "Dialoogvenster Uitval rapporteren")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Een taak voltooien en een nieuwe taak starten
 

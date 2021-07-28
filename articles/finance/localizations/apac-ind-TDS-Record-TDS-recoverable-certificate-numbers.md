@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: b501c331cccc6d030f36d0a13ba0a6a13c08c733
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2c7fe2e1050053fb2ddaf85854e7ac46dd6912a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023134"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358357"
 ---
 # <a name="record-tds-recoverable-certificate-numbers"></a>Certificaatnummers voor terugvorderbare TDS registreren
 
@@ -33,7 +33,7 @@ Volg deze stappen om de certificaatnummers en -datums voor TDS te registreren.
 
 1. Ga naar **Belasting \> Indirecte belasting \> Bronbelasting \> Certificaten voor terugvordering**.
 
-    [![Pagina Certificaten voor terugvordering](./media/apac-ind-TDS-49.png)](./media/apac-ind-TDS-49.png) 
+    [![Pagina Certificaten voor terugvordering.](./media/apac-ind-TDS-49.png)](./media/apac-ind-TDS-49.png) 
 
 2. Selecteer **TDS** in het veld **Belastingtype** op de pagina **Certificaten voor terugvordering**.
 3. Selecteer **Nieuw** om een record te maken.

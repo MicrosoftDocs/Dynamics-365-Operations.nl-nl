@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 8a946a8325afebf76639991c60135d7425f5f211
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eca0d30903985126412e1ae0b8e3232c3e4700f4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826757"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351679"
 ---
 # <a name="online-financial-consolidations"></a>Online financiële consolidaties
 
@@ -31,7 +31,7 @@ Nadat u uw instellingen hebt voltooid, voert u de details van de consolidatie in
 ## <a name="criteria"></a>Criteria
 Op het tabblad **Criteria** van de pagina **Consolideren [online]** definieert u de rekeningen, de perioden en het type gegevens dat wordt geconsolideerd.
 
-![Tabblad Criteria](./media/criteria-consolidate-online.png "Tabblad Criteria")
+![Tabblad Criteria.](./media/criteria-consolidate-online.png "Tabblad Criteria")
 
 Hier volgt een uitleg van de verschillende velden op dit tabblad:
 
@@ -57,16 +57,16 @@ Hier volgt een uitleg van de verschillende velden op dit tabblad:
 ## <a name="financial-dimensions"></a>Financiële dimensies
 Op het tabblad **Financiële dimensies** definieert u de dimensies die moeten worden opgenomen in het consolidatiebedrijf. Als u een dimensie wilt selecteren, stelt u het veld **Specificatie** in op **Dimensie**, en definieert u vervolgens de volgorde van de dimensie in het consolidatiebedrijf.
 
-![Tabblad Financiële dimensies](./media/financial-dimensions-cons.png "Tabblad Financiële dimensies")
+![Tabblad Financiële dimensies.](./media/financial-dimensions-cons.png "Tabblad Financiële dimensies")
 
 Ongeacht de volgorde die u definieert, is **Hoofdrekening** altijd het eerste segment.
 
 ## <a name="legal-entities"></a>Rechtspersonen
 Op het tabblad **Rechtspersonen** definieert u de bedrijven die moeten worden opgenomen in het consolidatiebedrijf. U definieert ook het eigendomspercentage van die bedrijven. Als u eigendom van minder dan 100 procent opgeeft, wordt het opgegeven percentage opgeteld voor het consolidatiebedrijf. Voor omrekeningsverschillen wordt het veld **Rekeningtype voor omrekeningsverschillen** gebruikt om de hoofdrekening te selecteren uit de instellingen op de pagina **Rekeningen voor automatische transacties**.
 
-![Tabblad Rechtspersonen](./media/legal-entities-cons.png "Tabblad Rechtspersonen")
+![Tabblad Rechtspersonen.](./media/legal-entities-cons.png "Tabblad Rechtspersonen")
 
-![Pagina Rekeningen voor automatische transacties](./media/accounts-for-automatic-cons.png "Pagina Rekeningen voor automatische transacties")
+![Pagina Rekeningen voor automatische transacties.](./media/accounts-for-automatic-cons.png "Pagina Rekeningen voor automatische transacties")
 
 ## <a name="elimination"></a>Schrapping
 Op het tabblad **Schrapping** hebt u drie opties voor de verwerking van de schrappingen:
@@ -75,7 +75,7 @@ Op het tabblad **Schrapping** hebt u drie opties voor de verwerking van de schra
 - Selecteer de schrappingsregel en selecteer vervolgens in het veld **Voorstelopties** **Alleen boeken**. Met deze optie wordt de schrapping tijdens het consolidatieproces verwerkt en wordt alles in één stap geboekt.
 - Voer een schrappingsvoorstel apart van het consolidatieproces uit met behulp van het schrappingsjournaal.
 
-![Tabblad Schrapping](./media/elimination-cons-onl.png "Tabblad Schrapping")
+![Tabblad Schrapping.](./media/elimination-cons-onl.png "Tabblad Schrapping")
 
 Zie voor meer informatie over schrappingen [Schrappingsregels](./elimination-rules.md).
 
@@ -86,9 +86,9 @@ Op het tabblad **Valutaomrekening** definieert u de rechtspersoon, de rekening, 
 - **Transactiedatum**: de datum van elke transactie wordt gebruikt voor het selecteren van een wisselkoers. Deze optie wordt meestal gebruikt voor vaste activa en wordt vaak een historische wisselkoers genoemd. U kunt geen voorbeeld van het tarief zien, omdat er veel tarieven voor de verschillende transacties in het rekeningbereik zijn.
 - **Door gebruiker gedefinieerde tarief**: nadat u deze optie hebt geselecteerd, kunt u de gewenste wisselkoers invoeren. Deze optie kan handig zijn voor gemiddelde wisselkoersen of als u consolideert met een vaste wisselkoers.
 
-![Tabblad Valutaomzetting](./media/currency-translation-cons-online.png "Tabblad Valutaomzetting")
+![Tabblad Valutaomzetting.](./media/currency-translation-cons-online.png "Tabblad Valutaomzetting")
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 Zie het bovenliggende onderwerp van dit onderwerp [Overzicht van Financiële consolidaties en valutaomzetting](./financial-consolidations-currency-translation.md) voor meer informatie over consolidatie en valutaomrekeningen.
 

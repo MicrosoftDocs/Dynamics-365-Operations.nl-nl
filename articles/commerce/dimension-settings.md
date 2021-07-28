@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b901622bbfc8d6b3066879f6456a4ab618ca4076
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: d6854c11822e07ff06426b7a35eac86cdc0e9b06
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117217"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356897"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Weergave-instellingen voor productdimensies toepassen
 
@@ -33,7 +33,7 @@ Dynamics 365 Commerce ondersteunt het gebruik van grootte-, stijl- en kleurdimen
 
 In Commerce Site Builder worden dimensie-instellingen gedefinieerd via **Site-instellingen \> Extensies \> Dimensie-instellingen**. In de volgende afbeelding ziet u een voorbeeld van dimensie-instellingen in Site Builder.
 
-![Voorbeeld van site-instellingen in Commerce Site Builder](./dev-itpro/media/swatch_site_settings.PNG)
+![Voorbeeld van site-instellingen in Commerce Site Builder.](./dev-itpro/media/swatch_site_settings.PNG)
 
 Er zijn twee dimensie-instellingen beschikbaar:
 
@@ -41,13 +41,13 @@ Er zijn twee dimensie-instellingen beschikbaar:
 
     De onderstaande afbeelding toont een voorbeeld waarin een PDP op een e-commercesite kleur- en groottestalen bevat. In dit voorbeeld wordt een hexcode geconfigureerd voor de kleurdimensie. Daarom worden stalen als kleuren weergegeven. Voor de groottedimensie worden echter noch hexcodes noch afbeeldings-URL´s geconfigureerd. Daarom wordt tekst weergegeven.
 
-    ![Voorbeeld van de kleurdimensie die als stalen op een pagina met productdetails voor e-commerce wordt weergegeven](./dev-itpro/media/swatch_pdp.png)
+    ![Voorbeeld van de kleurdimensie die als stalen op een pagina met productdetails voor e-commerce wordt weergegeven.](./dev-itpro/media/swatch_pdp.png)
 
 - **Dimensies die op een productkaart moeten worden weergegeven** – opgeven welke dimensies moeten worden weergegeven op productkaarten die worden weergegeven in lijsten en op lijstpagina's. Voordat een dimensie op een productkaart kan worden weergegeven, moet deze instelling voor die dimensie zijn ingeschakeld. De instelling **Dimensies die als afbeelding moeten worden weergegeven** moet ook worden ingeschakeld. Het gedrag van staalselectie op productkaarten is geoptimaliseerd voor de kleurdimensie. Voor andere dimensies is mogelijk een weergave-extensie vereist voor het aanpassen van het gedrag van staalselectie.
 
     De onderstaande afbeelding toont een voorbeeld waarbij een lijstpagina op een e-commercesite productkaarten bevat die kleurstalen bevatten.
 
-    ![Voorbeeld van de kleurdimensie die als stalen op een lijstpagina voor e-commerce wordt weergegeven](./dev-itpro/media/swatch_searchresults.PNG)
+    ![Voorbeeld van de kleurdimensie die als stalen op een lijstpagina voor e-commerce wordt weergegeven.](./dev-itpro/media/swatch_searchresults.PNG)
 
 Zie [Productdimensiewaarden configureren zodat deze als stalen worden weergegeven](./dev-itpro/dimensions-swatch.md) voor informatie over het configureren van productdimensies zodat deze worden weergegeven als stalen op sitepagina´s.
 

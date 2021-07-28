@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103564"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359358"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Instellingen voor twee keer wegschrijven van Lifecycle Services
 
@@ -40,7 +40,7 @@ Voer de volgende stappen uit om twee keer wegschrijven via de pagina **Omgevings
 
 2. Selecteer de knop **Toepassing twee keer wegschrijven**.
 
-    ![Power Platform-integratie](media/powerplat_integration_step2.png)
+    ![Power Platform-integratie.](media/powerplat_integration_step2.png)
 
 3. Neem de algemene voorwaarden door en selecteer vervolgens **Configureren**.
 
@@ -52,7 +52,7 @@ Voer de volgende stappen uit om twee keer wegschrijven via de pagina **Omgevings
 
 7. Selecteer **Koppeling naar Power Platform-omgeving** om een koppeling te maken tussen Dataverse en de databases van de huidige omgeving. Dit duurt doorgaans 5 minuten of minder.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Koppeling naar Power Platform-omgeving":::
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Koppeling naar Power Platform-omgeving.":::
 
 8. Wanneer de koppeling is voltooid, wordt er een hyperlink weergegeven. Gebruik de koppeling om u aan te melden bij het beheergebied voor twee keer wegschrijven in de Finance and Operations-omgeving. Vanaf hier kunt u entiteitstoewijzingen instellen.
 

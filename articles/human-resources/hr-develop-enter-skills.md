@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5a65f1884ea87bbf2519cc94e4c52a40ac1a91bd
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 8a6b36314d9d98f971cd1619dd3604f20a3770b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193972"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360515"
 ---
 # <a name="enter-skills"></a>Vaardigheden invoeren
 
@@ -45,17 +45,17 @@ Als u vaardigheden wilt invoeren zonder dat deze hoeven te worden goedgekeurd, m
 
 4. Selecteer **Werknemersvaardigheden** in het deelvenster **Werkstroom maken**.
 
-   [![Werkstroom voor werknemersvaardigheden selecteren](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
+   [![Werkstroom voor werknemersvaardigheden selecteren.](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
 
 5. Selecteer **Openen** in het dialoogvenster **Dit bestand openen?**. Voer uw inloggegevens in wanneer dit gevraagd wordt.
 
 6. Selecteer in de werkstroomeditor het element van de werkstroom **Vaardigheden goedkeuren** en sleep het naar het canvas.
 
-   [![Element van werkstroom Vaardigheden goedkeuren selecteren](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
+   [![Element van werkstroom Vaardigheden goedkeuren selecteren.](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
 
 7. Koppel het element **Begin** aan het element **Vaardigheden goedkeuren 1** en koppel het element **Vaardigheden goedkeuren 1** aan het element **Einde**. U moet mogelijk naar beneden bladeren om het element **Einde** te zien. U kunt dit element dichter naar de andere elementen slepen.
 
-   [![Werkstroomelementen koppelen](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
+   [![Werkstroomelementen koppelen.](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
 
 8. Dubbelklik op het element van de werkstroom **Vaardigheden goedkeuren 1** en klik vervolgens met de rechtermuisknop op het element **Stap 1**. Klik met de rechtermuisknop op het element **Stap 1** en selecteer vervolgens **Eigenschappen**.
 
@@ -65,7 +65,7 @@ Als u vaardigheden wilt invoeren zonder dat deze hoeven te worden goedgekeurd, m
 
 11. Selecteer **Voorwaarde toevoegen**. Na **Waar** selecteert u **Vaardigheden selfservice werknemers** en vervolgens selecteert u **Vaardigheden selfservice werknemers.Persoon**. Na **is** selecteert u **veld** en vervolgens selecteert u **Relatie van gebruiker tot persoon.Persoon**.
 
-    [![Voorwaarde opgeven](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
+    [![Voorwaarde opgeven.](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
 
 12. Selecteer **Toewijzing** op de linkernavigatiebalk.
 
@@ -73,7 +73,7 @@ Als u vaardigheden wilt invoeren zonder dat deze hoeven te worden goedgekeurd, m
 
 14. Selecteer **Managementhiërarchie** in het veld **Hiërarchietype:** op het tabblad **Hiërarchie selecteren**.
 
-    [![Managementhiërarchie opgeven](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
+    [![Managementhiërarchie opgeven.](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
 
 15. Selecteer **Sluiten**, selecteer **Werkstroom** in de canvas-breadcrumb en selecteer vervolgens **Opslaan en sluiten**.
 

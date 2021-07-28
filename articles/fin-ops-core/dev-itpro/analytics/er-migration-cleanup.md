@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 97dbb625fc312548fb266b2ef6643a2b8e2b0f81
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8b6e81e47cd781bbe856676b1cecb50b8ee1adfc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750881"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351044"
 ---
 # <a name="er-migration-cleanup"></a>ER-migratie opschonen 
 
@@ -30,11 +30,11 @@ Wanneer u Finance-exemplaren beheert, kunt u besluiten uw het huidige exemplaar 
 
 Er wordt een uitzondering gemaakt wanneer u een ER-indeling probeert uit te voeren die een sjabloon gebruikt om bedrijfsdocumenten te genereren, en ziet u een waarschuwing over de ontbrekende sjabloon. U kunt ook de opschoonoptie voor ER-migratie gebruiken om de ER-indelingsconfiguratie met de sjabloon te verwijderen en vervolgens opnieuw te importeren.
 
-[![Een ER-indeling uitvoeren](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
+[![Een ER-indeling uitvoeren.](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
 U ontvangt een vergelijkbare fout als u navigeert naar de pagina **Configuraties** (**Organisatiebeheer** \> **Elektronische rapport** \> **Configuraties**) en in de configuratiestructuur een ER-indelingsconfiguratie probeert te verwijderen die gebruikmaakt van een sjabloon.
 
-[![Een ER-indeling verwijderen](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
+[![Een ER-indeling verwijderen.](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 Voer de volgende stappen uit om problemen op te lossen met ER-sjablonen waartoe u geen toegang hebt.
 
@@ -50,7 +50,7 @@ Voer de volgende stappen uit om problemen op te lossen met ER-sjablonen waartoe 
 >
 > Als u de de optie **Migratie opschonen** gebruikt om een ER-indelingsconfiguratie te verwijderen wanneer de desbetreffende sjabloon aanwezig is in de blobopslag, verwijdert u alleen de configuratie-artefacten in de toepassingsdatabase. Het fysieke bestand van de sjabloon in de blobopslag blijft aanwezig. Het overschrijven van bestanden in de blobopslag is niet langer toegestaan. Zie [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217) voor meer informatie. Bovendien kunt u de configuraties die zijn verwijderd via Migratie opschonen in deze omgeving, niet meer opnieuw importeren. U kunt dit probleem oplossen door het bijbehorende bestand te zoeken in de blobopslag en het handmatig te verwijderen.
 
-[![Een ER-indeling importeren](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
+[![Een ER-indeling importeren.](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
 
 Een vergelijkbaar probleem kan optreden als u uw toepassingsexemplaar migreert naar een andere locatie die meerdere keren als migratiedoel is gebruikt en waarvoor de blobopslag al ER-sjabloonbestanden bevat.
 

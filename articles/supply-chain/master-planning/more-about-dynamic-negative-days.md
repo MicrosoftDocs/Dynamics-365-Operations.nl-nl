@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: 0fd573ab1676af292174efce562b010bcbeb6514
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097229"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354732"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Negatieve dagen en dynamische negatieve dagen
 
@@ -43,7 +43,7 @@ U kunt al relatief vroeg in de levertijd van uw artikel of vlak voor het begin v
 
 De volgende afbeelding toont een grafische weergave van dit scenario.
 
-![Grafische weergave van scenario 1](./media/negative-days-1.jpg)
+![Grafische weergave van scenario 1.](./media/negative-days-1.jpg)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Geval A: Minder negatieve dagen dan de levertijd van het artikel
 
@@ -51,11 +51,11 @@ Als u de negatieve dagen instelt op een waarde kleiner dan de levertijd van het 
 
 De volgende afbeelding is een schermafbeelding van dit geval.
 
-![Schermopname van geval A voor scenario 1](./media/negative-days-2.png)
+![Schermopname van geval A voor scenario 1.](./media/negative-days-2.png)
 
 De volgende afbeelding toont een grafische weergave van wat er gebeurt in dit geval.
 
-![Grafische weergave van geval A voor scenario 1](./media/negative-days-3.png)
+![Grafische weergave van geval A voor scenario 1.](./media/negative-days-3.png)
 
 Als u naar MRP-prestaties en plannervositeit kijkt, presteert dit geval niet goed. Er moet een nieuwe geplande order worden gemaakt en de vertragingen en acties moeten worden berekend. Deze taken zijn tijdrovend. Dit geval voegt ook nog twee transacties aan uw plan toe. Aan de andere kant wordt de verkooporder slechts zes dagen uitgesteld, niet zeven.
 
@@ -73,11 +73,11 @@ Time fence voor dynamische negatieve dagen = Inkooplevertijd + Time fence voor n
 
 Wanneer dynamische negatieve dagen worden gebruikt, wordt als time fence voor ontvangsten nu 6 + 2 + 0 = 8 dagen gebruik. MRP zoekt de bestaande inkooporder en vergelijkt de verkooporder hiermee. Er worden geen nieuwe geplande orders gemaakt. Daarom is de uitvoeringstijd voor MRP korter. In de volgende afbeelding ziet u de nettobehoeften voor het artikel Demoproduct.
 
-![Nettobehoeften voor geval C voor scenario 1](./media/negative-days-4.png)
+![Nettobehoeften voor geval C voor scenario 1.](./media/negative-days-4.png)
 
 De volgende afbeelding toont een grafische weergave van wat er gebeurt in dit geval.
 
-![Grafische weergave van geval C voor scenario 1](./media/negative-days-5.png)
+![Grafische weergave van geval C voor scenario 1.](./media/negative-days-5.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Geval D: Alleen dynamische negatieve dagen gebruiken
 
@@ -85,11 +85,11 @@ Als u de negatieve dagen instelt op **0** (nul) en alleen de time fence voor dyn
 
 De volgende afbeelding is een schermafbeelding voor dit geval.
 
-![Schermopname van geval D voor scenario 1](./media/negative-days-6.png)
+![Schermopname van geval D voor scenario 1.](./media/negative-days-6.png)
 
 De volgende afbeelding toont een grafische weergave van wat er gebeurt in dit geval.
 
-![Grafische weergave van geval D voor scenario 1](./media/negative-days-7.png)
+![Grafische weergave van geval D voor scenario 1.](./media/negative-days-7.png)
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Geval E: Meer negatieve dagen dan de levertijd van het artikel en de time fence voor dynamische negatieve dagen gebruiken
 
@@ -106,7 +106,7 @@ U krijgt mogelijk vraag tijdens de levertijd van uw artikel. Hier volgt een voor
 
 De volgende afbeelding toont een grafische weergave van dit scenario.
 
-![Grafische weergave van scenario 2](./media/negative-days-8.png)
+![Grafische weergave van scenario 2.](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Geval A: Minder negatieve dagen dan de levertijd van het artikel
 
@@ -114,11 +114,11 @@ Als u de negatieve dagen instelt op een waarde kleiner dan de levertijd van het 
 
 De volgende afbeelding is een schermafbeelding voor dit geval.
 
-![Schermopname van geval A voor scenario 2](./media/negative-days-9.png)
+![Schermopname van geval A voor scenario 2.](./media/negative-days-9.png)
 
 De volgende afbeelding toont een grafische weergave van wat er gebeurt in dit geval.
 
-![Grafische weergave van geval A voor scenario 2](./media/negative-days-10.png)
+![Grafische weergave van geval A voor scenario 2.](./media/negative-days-10.png)
 
 ### <a name="case-b-negative-days-are-more-than-the-items-lead-time"></a>Geval B: Meer negatieve dagen dan de levertijd van het artikel
 
@@ -130,11 +130,11 @@ Dit geval lijkt op geval C voor scenario 1, omdat dynamische negatieve dagen net
 
 De volgende afbeelding is een schermafbeelding van dit geval.
 
-![Schermopname van geval C voor scenario 2](./media/negative-days-11.png)
+![Schermopname van geval C voor scenario 2.](./media/negative-days-11.png)
 
 De volgende afbeelding toont een grafische weergave van wat er gebeurt in dit geval.
 
-![Grafische weergave van geval C voor scenario 2](./media/negative-days-12.png)
+![Grafische weergave van geval C voor scenario 2.](./media/negative-days-12.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Geval D: Alleen dynamische negatieve dagen gebruiken
 
@@ -155,7 +155,7 @@ U kunt vraag krijgen na de levertijd van het artikel. Hier volgt een voorbeeld v
 
 De volgende afbeelding toont een grafische weergave van dit scenario.
 
-![Grafische weergave van scenario 3](./media/negative-days-13.png)
+![Grafische weergave van scenario 3.](./media/negative-days-13.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Geval A: Minder negatieve dagen dan de levertijd van het artikel
 
@@ -163,11 +163,11 @@ Als u de negatieve dagen instelt op een waarde kleiner dan de levertijd van het 
 
 De volgende afbeelding is een schermafbeelding van dit geval.
 
-![Schermopname van geval A voor scenario 3](./media/negative-days-14.png)
+![Schermopname van geval A voor scenario 3.](./media/negative-days-14.png)
 
 De volgende afbeelding toont een grafische weergave van wat er gebeurt in dit geval.
 
-![Grafische weergave van geval A voor scenario 3](./media/negative-days-15.png)
+![Grafische weergave van geval A voor scenario 3.](./media/negative-days-15.png)
 
 > [!NOTE]
 > In de vorige schermafbeelding is de behoeftedatum van de inkooporder 12 januari. Omdat deze schermopname is gemaakt in 2015, toen 11 januari op een zondag viel, werd de behoeftedatum verplaatst naar de volgende werkdag, maandag 12 januari. Desondanks heeft de inkooporder als leveringsdatum 11 januari.
@@ -178,11 +178,11 @@ Als u de negatieve dagen instelt op een hogere waarde dan de levertijd van het a
 
 De volgende afbeelding is een schermafbeelding van dit geval.
 
-![Schermopname van geval B voor scenario 3](./media/negative-days-16.png)
+![Schermopname van geval B voor scenario 3.](./media/negative-days-16.png)
 
 De volgende afbeelding toont een grafische weergave van wat er gebeurt in dit geval.
 
-![Grafische weergave van geval B voor scenario 3](./media/negative-days-17.png)
+![Grafische weergave van geval B voor scenario 3.](./media/negative-days-17.png)
 
 ### <a name="case-c-automatically-correlate-the-items-lead-time-to-the-negative-days-time-fence"></a>Geval C: De levertijd van het artikel automatisch relateren aan de time fence voor negatieve dagen
 
@@ -192,7 +192,7 @@ De time fence voor dynamische negatieve dagen is 6 + 2 – 7 = 1 dag. In dit gev
 
 De volgende afbeelding toont een grafische weergave van wat er gebeurt in dit geval.
 
-![Grafische weergave van geval C voor scenario 3](./media/negative-days-18.png)
+![Grafische weergave van geval C voor scenario 3.](./media/negative-days-18.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Geval D: Alleen dynamische negatieve dagen gebruiken
 
@@ -219,11 +219,11 @@ U kunt voor de negatieve dagen een lange time fence instellen en vervolgens werk
 
 De volgende afbeelding toont een grafische weergave van wat er gebeurt.
 
-![Grafische beoordeling van het voorbeeld](./media/negative-days-19.png)
+![Grafische beoordeling van het voorbeeld.](./media/negative-days-19.png)
 
 MRP produceert de volgende resultaten.
 
-![Resultatenvoorbeeld 1](./media/negative-days-20.png)
+![Resultatenvoorbeeld 1.](./media/negative-days-20.png)
 
 In de voorgaande schermafbeelding is de behoeftedatum van de verkooporder 9 januari in plaats van 10 januari. Omdat deze schermopname is gemaakt in 2015, toen 10 januari op een zaterdag viel, moet de behoeftedatum van de order naar de vorige werkdag, vrijdag 9 januari, worden verplaatst.
 
@@ -233,7 +233,7 @@ De resultaten zijn niet onjuist, maar de uitvoeringstijd voor MRP kan langer zij
 
 Als u de negatieve dagen verlaagt tot een getal dat dichter bij de levertijd van het artikel ligt en u dynamische negatieve dagen gebruikt, produceert MRP de volgende resultaten.
 
-![Resultatenvoorbeeld 2](./media/negative-days-21.png)
+![Resultatenvoorbeeld 2.](./media/negative-days-21.png)
 
 Er wordt een geplande order gemaakt die aan de eerste verkooporder is gekoppeld. Vervolgens wordt, zoals verwacht, de behoefte van de tweede verkooporder getraceerd voor de bestaande inkooporder, op basis van de instelling voor negatieve dagen. Dit planningsresultaat is ook correct en de uitvoeringstijd voor MRP is mogelijk korter. In dit geval is het niet van essentieel belang dat u begrijpt en weet hoe u met de actieberichten werkt.
 

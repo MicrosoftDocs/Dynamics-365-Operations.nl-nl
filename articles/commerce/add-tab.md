@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c865d5e055e3fadf2dda225b49f13a163974768f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e7d2cd7b7ce9446d77eff66433739c8ea6b1f309
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797450"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348291"
 ---
 # <a name="tab-module"></a>Tabbladmodule
 
@@ -34,13 +34,13 @@ Aan elke tabbladmodule kunt u een of meer modules toevoegen. Elke tabbladitemmod
 
 De volgende afbeelding toont een voorbeeld van een tabbladmodule op een sitepagina. In dit voorbeeld is het tabblad **Verzending** geselecteerd.
 
-![Voorbeeld van een tabbladmodule](./media/ecommerce-tab.PNG)
+![Voorbeeld van een tabbladmodule.](./media/ecommerce-tab.PNG)
 
 ## <a name="tab-module-properties"></a>Eigenschappen van tabbladmodule
 
-| Naam van eigenschap. | Waarden | Omschrijving |
+| Naam van eigenschap. | Waarden | Beschrijving |
 |---------------|--------|-------------|
-| Kop | Tekst | Deze eigenschap geeft een optionele koptekst aan voor de tabbladmodule. |
+| Koptekst | Tekst | Deze eigenschap geeft een optionele koptekst aan voor de tabbladmodule. |
 | Actieve tabbladindex | Nummer | Met deze eigenschap wordt het tabblad aangegeven dat standaard actief moet zijn wanneer een pagina wordt geladen. Als er geen waarde wordt opgegeven, is het eerste tabbladitem standaard actief. |
 
 ## <a name="tab-item-module-properties"></a>Eigenschappen van tabbladitemmodule

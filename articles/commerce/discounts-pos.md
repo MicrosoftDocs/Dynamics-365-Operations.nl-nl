@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-02-28
 ms.dyn365.ops.version: Application update 10.0.10
-ms.openlocfilehash: a9fd5a90d59ec329f8d4a2515e657fb822c098b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d251eb02e7d9db1e61ba8bb6531c90e0e23717b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792842"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356873"
 ---
 # <a name="show-discounts-in-pos"></a>Kortingen weergeven in POS
 
@@ -33,7 +33,7 @@ Promoties spelen een belangrijke rol bij het motiveren van klanten die inkoopbes
 
 Commerce bevat een bewerking met de naam "Alle kortingen weergeven". Met deze bewerking worden alle kortingen weergegeven die momenteel van toepassing zijn in een winkel. De bewerking Alle kortingen weergeven kan worden toegewezen aan een knop op het verkooppunt (POS). Deze knop kan worden toegevoegd aan de **Welkomstpagina** of de **Transactiepagina**. In de volgende afbeelding ziet u een voorbeeld van de geopende pagina **Alle kortingen**.
 
-![Pagina Alle kortingen](./media/View_all_discounts.png "Pagina Alle kortingen")
+![Pagina Alle kortingen.](./media/View_all_discounts.png "Pagina Alle kortingen")
 
 Voor het weergeven van kortingen wordt gezocht naar alle kortingen die overeenkomen met een of meer van de volgende voorwaarden:
 
@@ -61,11 +61,11 @@ De volgende illustraties tonen de logica die bepaalt welke kortingen worden weer
 
 In de volgende afbeelding wordt de logica weergegeven die wordt gebruikt wanneer het gelijktijdigheidsbeheer voor de korting is ingesteld op **Beste prijs en samengesteld binnen de prioriteit, altijd samengesteld voor alle prioriteiten**.
 
-![Logica voor de beste prijs en samengesteld binnen de prioriteit, nooit samengesteld voor alle prioriteiten](./media/Model_1.png "Logica voor de beste prijs en samengesteld binnen de prioriteit, nooit samengesteld voor alle prioriteiten").
+![Logica voor de beste prijs en samengesteld binnen de prioriteit, nooit samengesteld voor alle prioriteiten.](./media/Model_1.png "Logica voor de beste prijs en samengesteld binnen de prioriteit, nooit samengesteld voor alle prioriteiten").
 
 In de volgende afbeelding wordt de logica weergegeven die wordt gebruikt wanneer het gelijktijdigheidsbeheer voor de korting is ingesteld op **Beste prijs alleen binnen de prioriteit, altijd samengesteld op basis van prioriteit**.
 
-![Logica voor de beste prijs alleen binnen de prioriteit, altijd samengesteld op basis van prioriteit](./media/Model_2.png "Logica voor de beste prijs alleen binnen de prioriteit, altijd samengesteld op basis van prioriteit").
+![Logica voor de beste prijs alleen binnen de prioriteit, altijd samengesteld op basis van prioriteit.](./media/Model_2.png "Logica voor de beste prijs alleen binnen de prioriteit, altijd samengesteld op basis van prioriteit").
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

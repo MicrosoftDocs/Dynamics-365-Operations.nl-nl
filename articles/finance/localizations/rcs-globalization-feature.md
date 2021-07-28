@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.11
-ms.openlocfilehash: cbb1d9a53a7a09ab525532f08553898c4e40223a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7faa9a3cf6a29d8ed126cfcb0e2902b2016d03ff
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822776"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358141"
 ---
 # <a name="regulatory-configuration-services-rcs---globalization-features"></a>Regulatory Configuration Services (RCS) - Globalisatiefuncties
 
@@ -53,7 +53,7 @@ Voer de volgende stappen uit in uw exemplaar van Finance and Operations-apps.
 1. Selecteer de tegel **Functiebeheer** in uw RCS-exemplaar.
 2. Selecteer in het werkgebied **Functiebeheer** de optie **Globalisatiefuncties** in de lijst en selecteer **Nu inschakelen**.
 
-    ![Globalisatiefuncties in Functiebeheer](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
+    ![Globalisatiefuncties in Functiebeheer.](./media/RCS_GlobalF_1%20Feature%20mgmt.JPG)
 
 ## <a name="globalization-features"></a>Globalisatiefuncties
 
@@ -67,11 +67,11 @@ Als u een globalisatiefunctie wilt gebruiken, moet u deze eerst vanuit de global
 1. Zorg dat de functie **Globalisatiefuncties** is ingeschakeld in Functiebeheer, zoals eerder in dit onderwerp wordt beschreven.
 2. Open het nieuwe werkgebied **Globalisatiefuncties** en selecteer vervolgens onder **Functies** de tegel **E-facturering**.
 
-    ![Werkgebied Globale functies](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
+    ![Werkgebied Globale functies.](./media/RCS_GlobalF_2%20Feature%20wrkspace.JPG)
 
     De pagina **Functies voor e-Facturering** wordt geopend.
 
-    ![De pagina Functies voor e-Facturering](./media/RCS_GlobalF_3%20Feature%20form.JPG)
+    ![De pagina Functies voor e-Facturering.](./media/RCS_GlobalF_3%20Feature%20form.JPG)
 
 ## <a name="add-a-derived-globalization-feature"></a>Een afgeleide globalisatiefunctie toevoegen
 
@@ -79,27 +79,27 @@ U kunt een nieuwe globalisatiefunctie toevoegen door deze af te leiden van een b
 
 1. Selecteer **Importeren** om de pagina **Functie importeren uit algemene opslagplaats** te openen.
 
-    ![De pagina Functie importeren uit algemene opslagplaats](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
+    ![De pagina Functie importeren uit algemene opslagplaats.](./media/RCS_GlobalF_4%20Feature%20import%20form%20GR.JPG)
 
 2. Selecteer **Synchroniseren** om de nieuwste functies te downloaden.
 
     De gesynchroniseerde lijst bevat functies die beschikbaar zijn voor u, omdat deze door Microsoft zijn gepubliceerd of omdat ze door een andere configuratieprovider met u zijn gedeeld.
 
-    ![Gesynchroniseerde lijst met functies](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
+    ![Gesynchroniseerde lijst met functies.](./media/RCS_GlobalF_5%20Feature%20GR%20sync.JPG)
 
 3. Selecteer in de lijst de functies die u wilt importeren en selecteer **Importeren**. U ontvangt een bericht wanneer de geselecteerde functies zijn geïmporteerd.
 
-    ![Bericht over geslaagde import](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
+    ![Bericht over geslaagde import.](./media/RCS_GlobalF_6%20Feature%20GR%20import%20success.JPG)
 
 4. Selecteer **Toevoegen** en selecteer vervolgens in het dialoogvenster met vervolgkeuzemenu de optie **Op basis van bestaande versie**.
 5. Voer een naam en beschrijving voor de functie in.
 6. Selecteer de basisversie van de functie in de lijst met beschikbare functies en selecteer vervolgens **Functie maken**.
 
-    ![Een afgeleide functie toevoegen](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
+    ![Een afgeleide functie toevoegen.](./media/RCS_GlobalF_7%20Feature%20create%20derived.JPG)
 
     De functie die u hebt toegevoegd, wordt gemaakt met de status **Concept**.
 
-    ![Afgeleide functie met status Concept](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
+    ![Afgeleide functie met status Concept.](./media/RCS_GlobalF_8%20Feature%20draft%20create.JPG)
 
 7. Controleer de functieonderdelen om te bepalen of er updates nodig zijn:
 
@@ -120,7 +120,7 @@ U kunt een nieuwe globalisatiefunctie toevoegen door deze helemaal opnieuw te ma
 2. Voer een naam en beschrijving voor de functie in.
 3. Selecteer **Functie maken**.
 
-    ![Een nieuwe functie toevoegen](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
+    ![Een nieuwe functie toevoegen.](./media/RCS_GlobalF_9%20Feature%20create%20new.JPG)
 
 4. Selecteer op het tabblad **Versies** een **ingangsdatum** en selecteer vervolgens **Status wijzigen** om de functie te voltooien. Voltooide functies kunnen voor een specifieke omgeving beschikbaar worden gemaakt, zodat deze kunnen worden gebruikt in globalisatieservices, of kunnen worden gepubliceerd naar de algemene opslagplaats.
 
@@ -176,7 +176,7 @@ De volgende acties zijn beschikbaar voor functie-instellingen:
     - Toepasbaarheidsregels
     - Variabelen
 
-![De pagina voor functieversie-instellingen](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
+![De pagina voor functieversie-instellingen.](./media/RCS_GlobalF_10%20Feature%20set%20up.JPG)
 
 ### <a name="environments"></a>Omgevingen
 
@@ -193,7 +193,7 @@ Voer de volgende stappen om een globalisatiefunctie te delen met een externe org
 2. Selecteer op het tabblad **Organisaties** de optie **Delen met** en voer vervolgens in het dialoogvenster met vervolgkeuzemenu de domeinnaam van de organisatie in.
 3. Selecteer **Delen**.
 
-    ![Een functie delen met een organisatie](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
+    ![Een functie delen met een organisatie.](./media/RCS_GlobalF_20%20Feature%20orgn_share%20with.JPG)
 
 De functie wordt gedeeld met de geselecteerde organisatie en is beschikbaar voor die organisatie in de algemene opslagplaats. Hier kunt u de functie importeren in het RCS- of Dynamics 365 Finance-exemplaar van de organisatie, zodat dit kan worden gebruikt.
 
@@ -201,7 +201,7 @@ De functie wordt gedeeld met de geselecteerde organisatie en is beschikbaar voor
 
 U kunt een afgeleide globalisatiefunctie rebasen naar de nieuwe of bijgewerkte versie van de basisfunctie. Op deze manier kunnen wijzigingen die in de basisversie zijn opgetreden automatisch worden bijgewerkt. De bijgewerkte versie van de basisfunctie wordt gemaakt door de oorspronkelijke configuratieprovider en wordt vervolgens gepubliceerd of gedeeld.
 
-![Bijgewerkte versie van basisfunctie](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
+![Bijgewerkte versie van basisfunctie.](./media/RCS_GlobalF_12%20Feature%20new%20version.JPG)
 
 Als u bijvoorbeeld de afgeleide versie wilt rebasen van een functie die u hebt gemaakt, haalt u eerst de meest recente versie van de functie op door deze te importeren uit de globale opslagplaats.
 
@@ -209,23 +209,23 @@ Als u bijvoorbeeld de afgeleide versie wilt rebasen van een functie die u hebt g
 2. Selecteer **Synchroniseren** om de nieuwste functies te downloaden.
 3. Selecteer in de lijst met functies de functies die u wilt importeren en selecteer **Importeren**.
 
-    ![De nieuwste versie van een functie importeren](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
+    ![De nieuwste versie van een functie importeren.](./media/RCS_GlobalF_13%20Feature%20new%20version%20import.JPG)
 
 4. Selecteer in de lijst met functies de functie die u wilt rebasen.
 5. Selecteer op het tabblad **Versie** de optie **Nieuw** om een conceptversie te maken.
 
-    ![Nieuwe conceptversie gemaakt](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
+    ![Nieuwe conceptversie gemaakt.](./media/RCS_GlobalF_14%20Feature%20new%20base%20version.JPG)
 
 6. Selecteer **Rebase**.
 7. Selecteer in het dialoogvenster **Rebase** de nieuwste versie van de functie waarnaar u wilt rebasen.
 
-    ![Het dialoogvenster Rebase](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
+    ![Het dialoogvenster Rebase.](./media/RCS_GlobalF_15%20Feature%20rebase%20version.JPG)
 
 8. Selecteer **OK**.
 9. Controleer de functieonderdelen en breng eventueel vereiste wijzigingen aan.
 10. Selecteer **Status wijzigen** om de functie te voltooien waarvoor een rebase is uitgevoerd. Wanneer de rebase is voltooid, kunt u extra acties uitvoeren. U kunt de functie bijvoorbeeld publiceren en beschikbaar maken voor gebruik in globalisatieservices.
 
-    ![Functiestatus bijgewerkt naar Voltooid](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
+    ![Functiestatus bijgewerkt naar Voltooid.](./media/RCS_GlobalF_16%20Feature%20rebase%20version%20complete.JPG)
 
 ## <a name="configure-environments-for-globalization-features"></a><a name="configureenvironment"></a>Omgevingen configureren voor globalisatiefuncties
 
@@ -233,13 +233,13 @@ Gebruikers van globalisatieservices kunnen de omgeving beheren om een globalisat
 
 1. In het werkgebied **Globalisatiefuncties** selecteert u onder **Omgevingen** de tegel **E-facturering**.
 
-    ![Het werkgebied Globalisatiefuncties](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
+    ![Het werkgebied Globalisatiefuncties.](./media/RCS_GlobalF_17%20Feature%20environment.JPG)
 
 2. Selecteer **Sleutelkluisparameters** en vervolgens **Nieuw** om een Azure-sleutelkluisgeheim te maken.
 3. Voer een naam en omschrijving voor de sleutelkluis in en voer in het veld **URI sleutelkluis** de URL in waarmee de sleutelkluisresource in Azure wordt aangeduid.
 4. Selecteer op het sneltabblad **Certificaten** de optie **Toevoegen** om het certificaat toe te voegen en voer een naam en omschrijving voor elk certificaat in.
 
-    ![Certificaat toegevoegd](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
+    ![Certificaat toegevoegd.](./media/RCS_GlobalF_18%20Feature%20envn%20key%20vault%20parameter.JPG)
 
 5. Selecteer **Nieuw** om een nieuwe omgeving te maken.
 6. Voer een naam, een beschrijving en het geheime token voor handtekeningen voor gedeelde toegang in dat vereist is voor de opslag.
@@ -248,7 +248,7 @@ Gebruikers van globalisatieservices kunnen de omgeving beheren om een globalisat
 9. Herhaal stap 7 en 8 om nog meer gebruikers toe te voegen.
 10. Selecteer **Publiceren** om de omgeving te publiceren.
 
-    ![Gepubliceerde omgeving](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+    ![Gepubliceerde omgeving.](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

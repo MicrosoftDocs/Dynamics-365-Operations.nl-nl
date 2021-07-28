@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21941
+ms.custom:
+- "21941"
+- intro-internal
 ms.assetid: d7e22bd8-fd0d-47e1-843f-45ab0193ff8d
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5abef8a25513898d6dbef2604d10373394c95c6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: c948cf34b198769a67c9e6981ab49c9d4482ef25
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897423"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352877"
 ---
 # <a name="cash-and-bank-management-home-page"></a>Startpagina van Contanten en bankbeheer
 
@@ -32,7 +34,7 @@ Voorbeelden van dergelijke instrumenten zijn depositostroken, cheques, wissels e
 
 **Bedrijfsprocessen**
 
-[![Bedrijfsproces](./media/Cash-process.PNG)](./media/Cash-process.PNG)
+[![Bedrijfsproces.](./media/Cash-process.PNG)](./media/Cash-process.PNG)
 
 -   [Contantkortingen](cash-discounts.md)
 -   [Vereffeningsoverzicht](settlement-overview.md)
@@ -81,7 +83,7 @@ Voorbeelden van dergelijke instrumenten zijn depositostroken, cheques, wissels e
 
 ### <a name="additional-resources"></a>Aanvullende bronnen
 
-#### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
+#### <a name="whats-new-and-in-development"></a>Nieuwe functies en functies in ontwikkeling
 
 Ga naar de [releaseplannen voor Microsoft Dynamics 365](/dynamics365/release-plans/) om te zien welke nieuwe functies er zijn gepland. 
 

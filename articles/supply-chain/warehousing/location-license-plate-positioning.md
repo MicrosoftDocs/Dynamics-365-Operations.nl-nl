@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: e5fd7a9a9703f9ab6802def0aac096e29aa04f1a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1235f8fa64fbc87a4c22f4dcf0e9ddd4b4565b76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831380"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359758"
 ---
 # <a name="location-license-plate-positioning"></a>Positionering van locatie nummerplaat
 
@@ -88,7 +88,7 @@ De functie moet worden ingeschakeld in het locatieprofiel voor elke locatie waar
 1. Terwijl **Nummerplaat** nog is geselecteerd, selecteert u **Tabeljoin toevoegen**.
 1. Selecteer in de lijst met tabellen die wordt geopend in de kolom **Relatie** de waarde **Positionering van locatie nummerplaat (nummerplaat)**. Selecteer vervolgens **Selecteren** om **Positionering van locatie nummerplaat** toe te voegen aan de tabeljoin **Voorraaddimensies**.
 
-    ![Tabeljoins](media/LpTableJoin.png "Tabeljoins")
+    ![Tabeljoins.](media/LpTableJoin.png "Tabeljoins")
 
 1. Klik op **OK** om de bijgewerkte gekoppelde tabellen te bevestigen en de query-editor te sluiten.
 1. Selecteer op het sneltabblad **Locatie-instructieacties** opnieuw de optie **Query bewerken** om de query-editor te openen.
@@ -100,7 +100,7 @@ De functie moet worden ingeschakeld in het locatieprofiel voor elke locatie waar
     - **Veld:** *Positie NP*
     - **Criteria:** *1*
 
-    ![Nieuw bereik](media/LpPositionCriteria.png "Nieuw bereik")
+    ![Nieuw bereik.](media/LpPositionCriteria.png "Nieuw bereik")
 
 1. Selecteer **OK** om de wijzigingen te bevestigen en de query-editor te sluiten.
 
@@ -275,7 +275,7 @@ Nu de functie *Positionering van locatie nummerplaat* is ingesteld en de voorraa
 1. Selecteer op de pagina **Een werk-id/nummerplaat-id scannen** het veld **Id** en voer vervolgens de werk-id van de verkoopregel in.
 1. U ziet dat het verzamelwerk u artikel *A0002* laat ophalen vanuit locatie *01A01R1S2B*. U ontvangt deze instructie omdat artikel *A0002* op een nummerplaat staat die zich bevindt op positie *1* op die locatie.
 
-    ![Locatie positie 1](media/LocationLicensePlatePositioning.png "Locatie positie 1")
+    ![Locatie positie 1.](media/LocationLicensePlatePositioning.png "Locatie positie 1")
 
 1. Voer de nummerplaat-id in die u voor de locatie hebt gemaakt en volg de aanwijzingen om de verkooporder te verzamelen.
 

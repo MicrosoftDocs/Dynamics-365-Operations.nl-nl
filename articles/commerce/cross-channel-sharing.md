@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5f35dc48dbdf89e963108e9e8ef6faec326f970
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799512"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349717"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Het delen van inhoud door meerdere kanalen inschakelen en gebruiken
 
@@ -48,15 +48,15 @@ Voer de volgende stappen uit om het delen van inhoud door meerdere kanalen in te
 1. Ga naar **Site-instellingen \> Functies**.
 1. Stel de optie voor de functie **Meerdere kanalen** in op **Aan**.
 
-    ![Optie Meerdere kanalen ingesteld op Aan in Commerce Site Builder](./media/enabling-cross-channel-sharing.png)
+    ![Optie Meerdere kanalen ingesteld op Aan in Commerce Site Builder.](./media/enabling-cross-channel-sharing.png)
 
 Nadat u het delen van inhoud door meerdere kanalen hebt ingeschakeld, worden gegevens over meerdere kanalen weergegeven in de sectie **Kanalen** bij **Site-instellingen \> Functies** , zoals in het voorbeeld in de volgende afbeelding wordt weergegeven.
 
-![Kanaalgegevens die zichtbaar zijn nadat de functie voor het delen van inhoud door meerdere kanalen is ingeschakeld](./media/channels-cross-channel.png)
+![Kanaalgegevens die zichtbaar zijn nadat de functie voor het delen van inhoud door meerdere kanalen is ingeschakeld.](./media/channels-cross-channel.png)
 
 Bovendien bevat nadat u het delen van inhoud door meerdere kanalen hebt ingeschakeld, het veld **Kanaal** rechtsboven in Commerce Site Builder de optie **Onlinewinkel voor meerdere kanalen** die u kunt gebruiken om inhoud voor meerdere kanalen te beheren, zoals in de volgende afbeelding wordt weergegeven.
 
-![De optie Onlinewinkel voor meerdere kanalen in het veld Kanalen nadat de functie voor het delen van inhoud door meerdere kanalen is ingeschakeld](./media/cross-channel-dropdown.png)
+![De optie Onlinewinkel voor meerdere kanalen in het veld Kanalen nadat de functie voor het delen van inhoud door meerdere kanalen is ingeschakeld.](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Inhoud voor meerdere kanalen maken en gebruiken
 

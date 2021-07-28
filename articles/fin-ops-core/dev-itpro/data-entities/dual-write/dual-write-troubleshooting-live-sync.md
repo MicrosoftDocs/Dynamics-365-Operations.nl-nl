@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 1c0dfebb3ef442f67d8489d7aed00305c02cf410
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748892"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350783"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Problemen met live synchronisatie oplossen
 
@@ -73,21 +73,21 @@ Voer de volgende stappen uit als er aan beide zijden gegevens voorkomen en u heb
 
 Wanneer u gegevens in een Finance and Operations-app maakt, wordt het foutbericht "Ongeldige aanvraag" weergegeven, zoals in het volgende voorbeeld.
 
-![Voorbeeld van foutbericht Ongeldige aanvraag](media/error_record_id_source.png)
+![Voorbeeld van foutbericht Ongeldige aanvraag.](media/error_record_id_source.png)
 
 Om het probleem op te lossen moet u de juiste beveiligingsrol toewijzen aan het team van de toegewezen Dynamics 365 Sales- of Dynamics 365 Customer Service-bedrijfseenheid om de ontbrekende bevoegdheid in te schakelen.
 
 1. Zoek in de Finance and Operations-app de bedrijfseenheid die is toegewezen in de verbindingsset Gegevensintegratie.
 
-    ![Organisatietoewijzing](media/mapped_business_unit.png)
+    ![Organisatietoewijzing.](media/mapped_business_unit.png)
 
 2. Meld u aan bij de omgeving in de modelgestuurde app in Dynamics 365, navigeer naar **Instelling \> Beveiliging** en zoek het team van de toegewezen bedrijfseenheid.
 
-    ![Team van de toegewezen bedrijfseenheid](media/setting_security_page.png)
+    ![Team van de toegewezen bedrijfseenheid.](media/setting_security_page.png)
 
 3. Open de pagina voor het team voor bewerking en selecteer **Rollen beheren** om het dialoogvenster **Teamrollen beheren** te openen.
 
-    ![De knop Rollen beheren](media/manage_team_roles.png)
+    ![De knop Rollen beheren.](media/manage_team_roles.png)
 
 4. Wijs de rol met de bevoegdheid voor lezen/schrijven toe voor de relevante tabellen en selecteer **OK**.
 

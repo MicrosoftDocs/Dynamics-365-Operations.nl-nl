@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 827f4ca16341d29413f1b1d928965aa1919abf59
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c28ade5bb6a22b9d15380085ea479e79ba246c1e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822510"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354055"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>Werkorder op specifieke datum en tijd plannen
 
@@ -38,13 +38,13 @@ Als een werkorder op een bepaalde datum *en* tijd moet worden gepland, kunt u he
 
 4. Voeg op het sneltabblad **Koptekst van werkorder** begin- en einddatums en begin- en eindtijden in de velden voor **verwachte begindatums en -tijden** en **verwachte einddatums en -tijden** in.
 
-    ![Figuur 1](media/05-work-order-scheduling.png)
+    ![Figuur 1.](media/05-work-order-scheduling.png)
 
 5. Klik op het tabblad **Algemeen** op **Plannen** om het standaardplanningsproces te gebruiken of klik op **Verzenden** als u de werkorder wilt toewijzen aan een bepaalde medewerker.
 
 6. Als u bestaande capaciteitsreserveringen wilt negeren om ervoor te zorgen dat de werkorder wordt gepland in de verwachte periode, maakt u de selecties zoals weergegeven in de onderstaande afbeelding in de sectie **Eindige capaciteit** van het dialoogvenster **Werkorder plannen**. Dit houdt in dat bestaande capaciteitsreserveringen door het planningsproces worden genegeerd omdat de werkorder op de verwachte begintijd moet beginnen.
 
-    ![Figuur 2](media/06-work-order-scheduling.png)
+    ![Figuur 2.](media/06-work-order-scheduling.png)
 
 7. Klik op **OK** om het plannen te starten.
 

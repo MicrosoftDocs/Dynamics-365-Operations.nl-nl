@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 1f9325d182f89b98e8b943ae047c55e7e1aeb02f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c74132af95f088ea88155b722a8270861fba50e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023158"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361281"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>Bronbelastingaangiftecodes voor het TDS-belastingtype instellen
 
@@ -31,7 +31,7 @@ Bronbelastingaangiftecodes worden gebruikt om formulier 26Q- en formulier 27Q-ov
 
 1. Ga naar **Belasting \> Instellen \> Bronbelasting \> Bronbelastingaangiftecodes**.
 
-    [![Pagina Bronbelastingaangiftecodes](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
+    [![Pagina Bronbelastingaangiftecodes.](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
 
 2. Selecteer in het veld **Belastingtype** de optie **TDS** om aangiftecodes voor bronbelasting te definiëren voor het belastingtype TDS.
 3. Selecteer in het veld **Bronbelastingcomponent** de TDS-component waar u de bronbelastingaangiftecode voor definieert. In het veld **Componentgroep voor bronbelasting** staat de TDS-componentgroep die is gedefinieerd voor de TDS-component die u definieert.

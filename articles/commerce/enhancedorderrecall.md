@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2f7ad4f53917bb607afe84a2c457518c3f8f7a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a9507cd7f2a1612ab4063d6307b72d8522619ba
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799101"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349419"
 ---
 # <a name="recall-order-operation-in-pos"></a>Bewerking Order intrekken in POS
 
@@ -29,7 +29,7 @@ Als u deze functie wilt inschakelen, schakelt u de functie **Verbeterde bewerkin
 
 Met de configuratie van de bewerkingsknop **Order intrekken** kunnen organisaties de bewerking implementeren met een vooraf gedefinieerde weergave.
 
-![Configuratie knoppenraster](media/recallorderbuttongrid.png)
+![Configuratie knoppenraster.](media/recallorderbuttongrid.png)
 
 De weergaveopties zijn als volgt.
 - **Geen**: met deze optie wordt de bewerking zonder specifieke weergave geïmplementeerd. Wanneer gebruikers de bewerking met deze configuratie openen, wordt hen gevraagd orders te zoeken of om een keuze te maken uit een vooraf gedefinieerd orderfilter.
@@ -42,11 +42,11 @@ Als de weergave is ingesteld op **Geen** , kan een gebruiker op een van de volge
 - Selecteer **Orders zoeken** of het pictogram **Zoeken en filteren** op de AppBar om het filtermechanisme te gebruiken om orders te vinden die voldoen aan de filtercriteria.
 - Maak een keuze uit een vooraf gedefinieerd filter in het vervolgkeuzemenu **Orders weergeven** (af te handelen orders, op te halen orders of te verzenden orders).
 
-![RecallOrderMainMenu](media/recallordermain.png)
+![RecallOrderMainMenu.](media/recallordermain.png)
 
 Nadat de zoekcriteria zijn toegepast, wordt in de toepassing een lijst met overeenkomende verkooporders weergegeven. Het is belangrijk om er rekening mee te houden dat wanneer de zoek-/filteropties worden gebruikt, de opgehaalde orders niet moeten worden gekoppeld aan de huidige winkel van de gebruiker. Met dit zoekproces worden eventuele klantorders die aan de zoekcriteria voldoen, opgehaald en weergegeven, zelfs als de order is gemaakt of ingesteld voor afhandeling door een andere winkel-/kanaal- of magazijnlocatie.
 
-![RecallOrderDetail](media/orderrecalldetail.png)
+![RecallOrderDetail.](media/orderrecalldetail.png)
 
 Een gebruiker kan een order in de lijst selecteren om aanvullende details weer te geven. In het informatievenster aan de rechterkant van het scherm worden specifieke gegevens over de geselecteerde order weergegeven, waaronder orderregeldetails, leveringsdetails en afhandelingsinformatie.
 

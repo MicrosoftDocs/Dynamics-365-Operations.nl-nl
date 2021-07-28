@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b5c17a65a54ae88118bc5ecaa25cdadb67861129
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 037c9fb8dfc7aca4535540d92aae3e0ce0f8c638
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802762"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352151"
 ---
 # <a name="process-customer-order-pickups-in-pos"></a>Ophalen van klantorders in POS verwerken
 
@@ -32,7 +32,7 @@ Als u een winkelgebruiker bent, kunt u de ophaalbewerking uitvoeren met de bewer
 
 Als de geselecteerde order of orderregels niet zijn geconfigureerd voor ophalen in die specifieke winkel of als de order al volledig is opgehaald, is de bewerking **Ophalen** niet beschikbaar.
 
-![Ophaalbewerking](media/pickupoperation.png)
+![Ophaalbewerking.](media/pickupoperation.png)
 
 In Microsoft Dynamics 365 Commerce 10.0.17 en hoger kan de functie **Verbeterde gebruikerservaring voor de verwerking van afhaalorders in Point of Sale** worden ingeschakeld via Functiebeheer in Commerce Headquarters. Als deze functie is uitgeschakeld, kunnen gebruikers geen ophaalhoeveelheden selecteren. De volledige hoeveelheid die voor de regel is besteld, is standaard de hoeveelheid die wordt opgehaald. Deze ervaring kan problematisch zijn, omdat gebruikers kunnen vergeten om enkele artikelen voor ophalen te selecteren wanneer ze de ophaalbewerking uitvoeren via orderafhandeling.
 
@@ -40,13 +40,13 @@ De functie **Verbeterde gebruikerservaring voor de verwerking van afhaalorders i
 
 Wanneer de functie **Verbeterde gebruikerservaring voor de verwerking van afhaalorders in Point of Sale** wordt ingeschakeld en u de bewerking **Ophalen** selecteert, wordt het dialoogvenster **Ophalen** weergegeven. Hier kunt u de artikelen en hoeveelheden selecteren die worden opgehaald. Standaard wordt elke bestelde hoeveelheid met voorraad in een verzamelde of verpakte staat beschouwd als in aanmerking komend voor ophalen. Standaard wordt deze hoeveelheid ingesteld als ophaalhoeveelheid. U kunt de ingevoerde hoeveelheid wijzigen, als de hoeveelheid niet 0 (nul) is en de totale openstaande (niet-gefactureerde) hoeveelheid voor de geselecteerde regel niet wordt overschreden.
 
-![Het dialoogvenster Ophalen](media/pickupselect.png)
+![Het dialoogvenster Ophalen.](media/pickupselect.png)
 
 Nadat u de hoeveelheden hebt geselecteerd die worden opgehaald en vervolgens **Ophalen** selecteert, wordt de transactiepagina weergegeven. Als de functie voor [betalingen voor meerdere kanalen](omni-channel-payments.md) is ingeschakeld er vooraf geautoriseerde creditcardbetalingen geregistreerd zijn, moet u de betaling toepassen.
 
 Op de transactiepagina berekent het systeem de verschuldigde bedragen door het totaal te berekenen dat moet worden betaald voor de geselecteerde ophaalartikelen en vervolgens eventuele eerder toegepaste stortingen of geautoriseerde creditcardbetalingen af te trekken. U moet de betaling verwerken om de ophaaltransactie te voltooien. Als de [schermindeling](pos-screen-layouts.md) van de transactiepagina zo is geconfigureerd dat de bewerking **Transactie afsluiten** is opgenomen, zonder dat er een bedrag verschuldigd is, kunt u de transactie voltooien zonder een betaalwijze te selecteren. Als de bewerking **Transactie afsluiten** niet beschikbaar is, kunt u de **koppeling voor het verschuldigde bedrag van $ 0,00** in het deelvenster **Totalen** selecteren om de transactie af te sluiten zonder een betaalwijze te hoeven selecteren.
 
-![Transactiepagina voor ophaaltransactie voor een klantorder](media/pickupcart.png)
+![Transactiepagina voor ophaaltransactie voor een klantorder.](media/pickupcart.png)
 
 ## <a name="changing-pickup-lines-or-quantities"></a>Ophaalregels of -hoeveelheden wijzigen
 
@@ -54,7 +54,7 @@ Als u de ophaalhoeveelheid moet wijzigen nadat u de artikelen hebt geselecteerd 
 
 Als de functie **Verbeterde gebruikerservaring voor de verwerking van afhaalorders in Point of Sale** is ingeschakeld, kunnen organisaties een knop voor de bewerking **Ophaalregels wijzigen** toevoegen aan de schermindeling van de transactiepagina. Nadat u het winkelwagentje voor de ophaaltransactie in het POS hebt gemaakt en artikelen hebt geselecteerd, kunt u **Ophaalregels wijzigen** selecteren als u de ophaalartikelen moet wijzigen, maar niet de hele transactie ongeldig wilt maken. In het dialoogvenster **Ophaalregels wijzigen** dat verschijnt, kunt u de ophaalartikelen en -hoeveelheden wijzigen. Het winkelwagentje voor de transactie wordt vervolgens bijgewerkt om uw wijzigingen weer te geven.
 
-![Het dialoogvenster Ophaalartikelen wijzigen](media/pickupchange.png)
+![Het dialoogvenster Ophaalartikelen wijzigen.](media/pickupchange.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

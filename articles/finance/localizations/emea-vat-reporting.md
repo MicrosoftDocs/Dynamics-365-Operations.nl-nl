@@ -14,12 +14,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Estonia, Finland, Germany, L
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: efa9be4a5243444c2bf0b154836efbf8cfa76de9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 2f1e633bf06a44acadee8e9fd93d682321b80e0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894665"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359264"
 ---
 # <a name="vat-reporting-for-europe"></a>Btw-aangifte voor Europa
 
@@ -45,7 +45,7 @@ Het btw-overzicht is gebaseerd op bedragen van belastingtransacties. Het proces 
 
 Voor elke btw-aangiftecode moet een specifieke rapportindeling worden bepaald. Btw-codes worden tegelijkertijd gekoppeld aan een specifieke btw-dienst via btw-vereffeningsperioden. Voor elke btw-dienst moet een rapportindeling worden bepaald. Dus alleen btw-aangiftecodes met dezelfde rapportindeling als die is ingesteld voor een btw-dienst in btw-vereffeningsperioden voor btw-code, kunnen worden geselecteerd in de rapportinstelling van de btw-code. Een btw-transactie die is gegenereerd bij het boeken van een order of een journaal, bevat een btw-code, btw-bron, btw-richting en transactiebedragen (belastingbasisbedrag en belastingbedrag in valuta voor boekhouding, btw-valuta en transactievaluta). Op basis van de combinatie van belastingtransactiekenmerken bestaan transactiebedragen uit totaalbedragen voor btw-aangiftecodes die zijn opgegeven voor btw-codes. In de volgende afbeelding wordt de gegevensrelatie weergegeven.
 
-![diagram](./media/diagram4.jpg)
+![diagram.](./media/diagram4.jpg)
 
 ## <a name="vat-statement-setup"></a>Instelling btw-overzicht
 Als u een btw-overzicht wilt genereren, moet u het volgende instellen.

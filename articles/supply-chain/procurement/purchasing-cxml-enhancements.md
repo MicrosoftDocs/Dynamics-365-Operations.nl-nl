@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f3bc63fd4b1017a5c96116ff6c9bbcc387869927
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b579ebff28e01caa727a22b01ae636ff713a27aa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825273"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359952"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Inkoop-cXML-verbeteringen
 
@@ -38,7 +38,7 @@ Nadat u de functie hebt ingeschakeld, moet u de instellingen in de volgende drie
 
 In de volgende afbeelding wordt deze configuratie samengevat.
 
-![Gebieden voor het instellen van cXML-kenmerken](media/cxml-settings-areas.png "Gebieden voor het instellen van cXML-kenmerken")
+![Gebieden voor het instellen van cXML-kenmerken.](media/cxml-settings-areas.png "Gebieden voor het instellen van cXML-kenmerken")
 
 Daarnaast moet u de [batchtaak voor het aanvragen van inkooporders](#po-batch) instellen. Deze batchtaak wordt gebruikt om de bevestigde inkooporders te verzenden.
 
@@ -46,7 +46,7 @@ Daarnaast moet u de [batchtaak voor het aanvragen van inkooporders](#po-batch) i
 
 Gebruik de pagina **cXML-parameters** om enkele algemene instellingen te maken die van toepassing zijn op de functionaliteit voor het verzenden van inkooporders.
 
-![Pagina cXML-parameters](media/cxml-parameters.png "Pagina cXML-parameters")
+![Pagina cXML-parameters.](media/cxml-parameters.png "Pagina cXML-parameters")
 
 Ga naar **Inkoopbeheer \> Instellen \> cXML-beheer \> cXML-parameters** en stel de volgende parameters in:
 
@@ -67,7 +67,7 @@ Telkens wanneer u een inkooporder bevestigt waarvoor de optie **Inkooporder verz
 - Als u een leverancier zo wilt instellen dat deze automatisch cXML gebruikt voor alle nieuwe inkooporders die worden gemaakt op basis van een opdracht, gaat u naar **Inkoopbeheer \> Leveranciers \> Alle leveranciers** en selecteert of maakt u een leverancier om de detailpagina ervan te openen. Stel vervolgens op het sneltabblad **Standaardinstellingen van inkooporder** de optie **Inkooporder verzenden via cXML** in op _Ja_. Als cXML ook automatisch moet worden gebruikt voor nieuwe inkooporders die **niet** zijn gemaakt op basis van een opdracht, moet u ook de ordereigenschap **ENABLEMANUALPO** instellen op _True_ voor de gerelateerde externe catalogus. Dit wordt beschreven in de sectie [Ordereigenschappen instellen](#set-order-properties) verderop in dit onderwerp.
 - Ga voor afzonderlijke inkooporders naar **Inkoopbeheer \> Inkooporders \> Alle inkooporders** en selecteer of maak een inkooporder om de detailpagina ervan te openen. Ga naar de **koptekst** weergave en stel vervolgens op het sneltabblad **Instellingen** de optie **Inkooporder verzenden via cXML** in.
 
-![Standaardinstellingen voor inkooporders van leverancier](media/cxml-order-defaults.png "Standaardinstellingen voor inkooporders van leverancier")
+![Standaardinstellingen voor inkooporders van leverancier.](media/cxml-order-defaults.png "Standaardinstellingen voor inkooporders van leverancier")
 
 ## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a>Een externe catalogus instellen voor gebruik van cXML
 
@@ -76,7 +76,7 @@ Op de pagina **Externe catalogi** kunt u voor elk van uw catalogi de functionali
 > [!NOTE]
 > Wanneer u een inkooporder bevestigt die via cXML kan worden verzonden, zoekt het systeem naar de leverancier die aan de inkooporder is gekoppeld en wordt vervolgens gezocht naar de eerste actieve externe catalogus die aan die leverancier is gekoppeld. Het systeem gebruikt vervolgens de instellingen uit die externe catalogus om de inkooporder te verzenden. Als er meerdere externe catalogi zijn ingesteld, gebruikt het systeem alleen de eerste externe catalogus die wordt gevonden op basis van de leverancier op de inkooporder. Daarom raden wij aan dat u slechts één externe catalogus voor elke leverancier maakt.
 
-![Instellingen van externe catalogus](media/cxml-supplier-catalog.png "Instellingen van externe catalogus")
+![Instellingen van externe catalogus.](media/cxml-supplier-catalog.png "Instellingen van externe catalogus")
 
 ### <a name="set-the-punchout-protocol-type"></a>Het type PunchOut-protocol instellen
 
@@ -143,11 +143,11 @@ Zoals vermeld in de sectie [Ordereigenschappen instellen](#set-order-properties)
 
 Als u de typen notities wilt instellen waarnaar het systeem zal zoeken, gaat u naar **Inkoopbeheer \> Instellen \> Formulieren \> Formulier instellen**. Stel vervolgens op het tabblad **Inkooporder** het veld **Documenten opnemen van type** in op het type notitie dat u wilt kunnen opnemen. Alleen tekstnotities worden opgenomen, geen documentbijlagen.
 
-![Pagina Formulier instellen](media/cxml-form-setup.png "Pagina Formulier instellen")
+![Pagina Formulier instellen.](media/cxml-form-setup.png "Pagina Formulier instellen")
 
 Bijlagen worden alleen in een inkooporder opgenomen als het veld **Type** is ingesteld op de waarde die u selecteert in het veld **Documenten opnemen van het type** en als het veld **Beperking** is ingesteld op _Extern_. Als u de bijlagen voor een inkooporder wilt maken, weergeven of bewerken, gaat u naar **Inkoopbeheer \> Alle inkooporders**, selecteert of maakt u een inkooporder en selecteert u vervolgens de knop **Bijlagen** (het symbool van de paperclip) in de rechterbovenhoek.
 
-![Bijgevoegde nota die is ingesteld om te worden verzonden naar een leverancier](media/cxml-note-to-vendor.png "Bijgevoegde nota die is ingesteld om te worden verzonden naar een leverancier")
+![Bijgevoegde nota die is ingesteld om te worden verzonden naar een leverancier.](media/cxml-note-to-vendor.png "Bijgevoegde nota die is ingesteld om te worden verzonden naar een leverancier")
 
 ## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a>Het berichtenlogboek van cXML-winkelwagen weergeven voor PunchOut van externe catalogus
 
@@ -155,7 +155,7 @@ Wanneer u het veld **Type Punchout-protocol** voor een externe catalogus instelt
 
 Om het logboek voor een externe catalogus te openen, selecteert u de relevante catalogus en selecteert u vervolgens in het actievenster de optie **Berichtenlogboek van cXML-winkelwagen**. Op de pagina **Berichtenlogboek van cXML-winkelwagen** wordt een lijst weergegeven met de winkelwagens die zijn geretourneerd, de XML die is gerelateerd aan die winkelwagens en de regels die zijn gemaakt voor de gerelateerde opdracht tot inkoop.
 
-![Pagina Berichtenlogboek van cXML-winkelwagen](media/cxml-cart-message-log.png "Pagina Berichtenlogboek van cXML-winkelwagen")
+![Pagina Berichtenlogboek van cXML-winkelwagen.](media/cxml-cart-message-log.png "Pagina Berichtenlogboek van cXML-winkelwagen")
 
 ## <a name="set-the-extrinsic-elements-for-external-catalog-punchout"></a>De extrinsieke elementen voor PunchOut van externe catalogus instellen
 
@@ -178,21 +178,21 @@ Voer de volgende stappen uit om extrinsieke elementen toe te voegen aan een exte
         - **Achternaam**: gebruik de achternaam van de contactpersoon die is gekoppeld aan de gebruiker die toegang heeft tot de externe catalogus.
         - **Telefoonnummer**: gebruik het primaire telefoonnummer van de contactpersoon die is gekoppeld aan de gebruiker die toegang heeft tot de externe catalogus.
 
-![Instellingen van extrinsiek element](media/cxml-extrinsics.png "Instellingen van extrinsiek element")
+![Instellingen van extrinsiek element.](media/cxml-extrinsics.png "Instellingen van extrinsiek element")
 
 De gebruiker of beheerder ziet de extrinsieke elementen niet, omdat deze pas worden toegevoegd wanneer de gebruiker een PunchOut uitvoert. Deze worden automatisch ingevoegd tussen de **BuyerCookie**- en **BrowserFromPost**-elementen in het aanvraagbericht voor cXML-instelling. Daarom hoeft u deze niet handmatig in te stellen in de XML wanneer u de externe catalogus instelt.
 
-![Extrinsieke elementen die aan het XML-bestand zijn toegevoegd](media/cxml-extrinsics-xml.png "Extrinsieke elementen die aan het XML-bestand zijn toegevoegd")
+![Extrinsieke elementen die aan het XML-bestand zijn toegevoegd.](media/cxml-extrinsics-xml.png "Extrinsieke elementen die aan het XML-bestand zijn toegevoegd")
 
 ## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a>Een inkooporder maken en verwerken
 
 Wanneer u een inkooporder voor een leverancier maakt, neemt deze de instelling van de optie **Inkooporder verzenden via cXML** van die leverancier over. De instelling blijft echter beschikbaar op het sneltabblad **Instellen** in de weergave **Koptekst** van de inkooporder. U kunt deze dus later indien nodig wijzigen.
 
-![Inkooporder ingesteld voor gebruik van cXML](media/cxml-purchase-order.png "Inkooporder ingesteld voor gebruik van cXML")
+![Inkooporder ingesteld voor gebruik van cXML.](media/cxml-purchase-order.png "Inkooporder ingesteld voor gebruik van cXML")
 
 Wanneer u een inkooporder maakt vanuit een opdracht tot inkoop die afkomstig is uit een PunchOut-stroom, worden alle vereiste regeldetails ingevuld. U kunt vervolgens handmatig inkooporderregels toevoegen of deze vanuit andere inkooporders kopiëren. Zorg ervoor dat u alle vereiste velden instelt. Deze vereiste velden bevatten het externe verwijzingsnummer. Dit is het leveranciersnummer dat wordt gebruikt in het cXML-bericht.
 
-![Voorbeeld van een extern verwijzingsnummer](media/cxml-line-details.png "Voorbeeld van een extern verwijzingsnummer")
+![Voorbeeld van een extern verwijzingsnummer.](media/cxml-line-details.png "Voorbeeld van een extern verwijzingsnummer")
 
 Wanneer u alle gegevens voor de inkooporder hebt ingevuld, moet u deze bevestigen. Er wordt geen bericht verzonden, tenzij de inkooporder is bevestigd. Om een inkooporder te bevestigen, gaat u in het actievenster naar het tabblad **Inkoop** en selecteert u in de groep **Acties** de optie **Bevestigen**. 
 
@@ -200,17 +200,17 @@ Nadat de inkooporder is bevestigd, kunt u de status van de bevestiging weergeven
 
 Elke inkooporder kan een groot aantal bevestigingen hebben. Elke bevestiging wordt gemarkeerd met een oplopend nummer. In de volgende afbeelding ziet u de inkooporder *00000275* en de bevestiging *00000275-1*. Deze nummering weerspiegelt de standaardfunctionaliteit van Supply Chain Management, waarbij wijzigingen in een inkooporder, en dus het type cXML-bericht dat naar de leverancier moet worden verzonden, worden geïdentificeerd op basis van de bevestiging. Zoals u in de afbeelding ziet, bevat de pagina **Inkooporderbevestigingen** ook de velden **Verzendstatus van order** en **Leveranciersstatus van orderaanvraag**. Zie de sectie [Aanvragen voor inkooporders controleren](#monitor-po-requests) verderop in dit onderwerp voor meer informatie over de verschillende statuswaarden die op deze pagina kunnen worden weergegeven.
 
-![Pagina Inkooporderbevestigingen](media/cxml-po-confirmations.png "Pagina Inkooporderbevestigingen")
+![Pagina Inkooporderbevestigingen.](media/cxml-po-confirmations.png "Pagina Inkooporderbevestigingen")
 
 Als u meer informatie over het document wilt bekijken, selecteert u **Inkooporderaanvraag** boven het raster.
 
 De pagina **Inkooporderaanvraag** bevat twee rasters. Het raster in het bovenste gedeelte van de pagina bevat één record voor elke inkooporder die is gemarkeerd voor verzending. Het raster op het tabblad **Aanvraaggeschiedenis van inkooporder** in het onderste gedeelte van de pagina kan meerdere records voor de geselecteerde inkooporder hebben, om de status van elke bevestiging aan te geven. In de volgende afbeelding ziet u inkooporder 00000275 in het bovenste raster en document 00000275-1 in het raster op het tabblad **Aanvraaggeschiedenis van inkooporder**.
 
-![Pagina Inkooporderaanvraag](media/cxml-po-request.png "Pagina Inkooporderaanvraag")
+![Pagina Inkooporderaanvraag.](media/cxml-po-request.png "Pagina Inkooporderaanvraag")
 
 Als de batchtaak is ingesteld en wordt uitgevoerd, wordt het document verzonden. U kunt de statuswijziging bekijken nadat het document is verzonden. In de volgende afbeelding is het veld **Verzendstatus van order** ingesteld op _Verzonden_. Het veld **Leveranciersstatus van order** wordt ingesteld op _Bevestigd_ om aan te geven dat de leverancier het document heeft ontvangen en het heeft kunnen lezen en kunnen opslaan in het systeem. Het raster op het tabblad **Aanvraaggeschiedenis van inkooporder** toont het tijdstip waarop het document is verzonden. Zie de sectie [Aanvragen voor inkooporders controleren](#monitor-po-requests) voor meer informatie over de verschillende statuswaarden die op deze pagina kunnen worden weergegeven.
 
-![Statusberichten op de pagina Inkooporderaanvraag](media/cxml-po-request-2.png "Statusberichten op de pagina Inkooporderaanvraag")
+![Statusberichten op de pagina Inkooporderaanvraag.](media/cxml-po-request-2.png "Statusberichten op de pagina Inkooporderaanvraag")
 
 ## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a>De batchtaak voor het aanvragen van inkooporders plannen
 
@@ -226,7 +226,7 @@ Tijdens dit proces wordt gezocht naar documenten voor inkooporderaanvragen met d
 
 Wanneer orders die via cXML kunnen worden verzonden, zijn bevestigd, krijgen ze de status _Wachten_. Zoals beschreven in de sectie [Een inkooporder maken en verwerken](#create-po) kunt u de status van de inkooporder weergeven op de pagina **Inkooporderaanvraag**. Elke inkooporderaanvraag kan, afhankelijk van de parameters en gegevens, een bepaalde status hebben. In deze sectie worden de verschillende statustypen en de waarden ervan beschreven. Deze informatie kan u helpen om problemen te beheren en de status van uw inkooporders te begrijpen.
 
-![Status van inkooporder op de pagina Inkooporderaanvraag](media/cxml-monitor-po-request.png "Status van inkooporder op de pagina Inkooporderaanvraag")
+![Status van inkooporder op de pagina Inkooporderaanvraag.](media/cxml-monitor-po-request.png "Status van inkooporder op de pagina Inkooporderaanvraag")
 
 Het raster in het bovenste gedeelte van de pagina **Inkooporderaanvraag** kan de volgende statuswaarden tonen:
 
@@ -262,17 +262,17 @@ Het raster op het tabblad **Aanvraaggeschiedenis van inkooporder** in het onders
 
 Als u de XML voor het aanvraagbericht voor de inkooporder wilt weergeven, selecteert u het tabblad **XML-tekst van aanvraag** onderaan de pagina **Inkooporderaanvraag**. De informatie op dit tabblad kan handig zijn tijdens het testen of bij het valideren van fouten. Om de informatie beter leesbaar te maken, kunt u deze weergeven als een bericht met opmaak. Kopieer de inhoud van het tabblad naar een tekstbestand en bekijk het bestand in een XML-editor.
 
-![Tabblad XML-tekst van aanvraag](media/cxml-request-xml-text.png "Tabblad XML-tekst van aanvraag")
+![Tabblad XML-tekst van aanvraag.](media/cxml-request-xml-text.png "Tabblad XML-tekst van aanvraag")
 
 ### <a name="view-the-details-of-the-vendor-response"></a>De details van het leveranciersantwoord weergeven
 
 Als u de inhoud van een leveranciersbevestiging of foutrespons wilt bekijken, selecteert u het tabblad **Antwoord-XML** onderaan de pagina **Inkooporderaanvraag**.
 
-![Tabblad Antwoord-XML](media/cxml-response-xml.png "Tabblad Antwoord-XML")
+![Tabblad Antwoord-XML.](media/cxml-response-xml.png "Tabblad Antwoord-XML")
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-- [Een externe catalogus instellen voor PunchOut eProcurement](set-up-external-catalog-for-punchout.md)
+- [Externe catalogus instellen voor PunchOut eProcurement](set-up-external-catalog-for-punchout.md)
 - [Externe catalogi gebruiken voor PunchOut eProcurement](use-external-catalogs-for-punchout.md)
 
 

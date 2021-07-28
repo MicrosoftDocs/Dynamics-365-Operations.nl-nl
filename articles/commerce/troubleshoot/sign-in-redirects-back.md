@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a1d0ae4e487c391020947c607d5d7cb5d1ba6af4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e83b381e73d28dce0a438a37d5f8ed23b4957adf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020598"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350373"
 ---
 # <a name="sign-in-link-redirects-back-to-an-e-commerce-site"></a>Aanmeldingskoppeling leidt terug naar een e-commercesite
 
@@ -43,7 +43,7 @@ Voer deze stappen uit om te bevestigen dat de antwoord-URL correct is geconfigur
 1. Selecteer de toepassing die u hebt gemaakt tijdens het instellen van Azure AD B2C.
 1. Zorg er onder **Antwoord-URL** voor dat de lijst vermeldingen bevat voor zowel de URL van het sitedomein als de door e-commerce gegenereerde URL, zoals in het voorbeeld in de volgende afbeelding is weergegeven.
 
-    ![Vermeldingen van antwoord-URL in Azure AD B2C](media/aad-b2c-reply-url.jpg)
+    ![Vermeldingen van antwoord-URL in Azure AD B2C.](media/aad-b2c-reply-url.jpg)
 
 > [!NOTE]
 > Zowel de URL van het sitedomein als de URL die door e-commerce is gegenereerd, moeten een geldige URL-indeling hebben die geen voorloop- of volgslashes bevat.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 147388d5052bd14851bbddfbb7fe25297a43f104
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 861899e4cd7565309ba513408346912642b7fa9a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102969"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354900"
 ---
 # <a name="create-maintenance-requests"></a>Onderhoudsverzoeken maken
 
@@ -52,7 +52,7 @@ De sectie **Actieve onderhoudsverzoeken** van het deelvenster **Verwante informa
 11. Voer in het veld **Notities** eventuele aanvullende notities in die vereist zijn.
 12. Selecteer **OK**.
 
-![Onderhoudsverzoek maken](media/03-manage-maintenance-requests.png)
+![Onderhoudsverzoek maken.](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Daaropvolgende verwerking van onderhoudsverzoeken
 
@@ -67,7 +67,7 @@ In de detailweergave u diverse gegevens bijwerken. Hieronder vindt u enkele voor
 - Selecteer een type onderhoudstaak en, als deze informatie relevant is, een gerelateerde onderhoudstaakvariant en een vakgebied.
 - Voer in de velden **Breedtegraad** en **Lengtegraad** de geografische coördinaten in. Alle coördinaten die aan een onderhoudsverzoek worden toegevoegd, worden automatisch overgebracht naar een gerelateerde werkorder. 
 
-![Onderhoudsverzoek bijwerken](media/04-manage-maintenance-requests.png)
+![Onderhoudsverzoek bijwerken.](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Als u een activum selecteert wanneer u een onderhoudsverzoek maakt, kunt u één fout aan het activum toevoegen. Nadat het onderhoudsverzoek is gemaakt, kunt u zo nodig meer fouten toevoegen. Als u fouten wilt toevoegen, selecteert u **Activafout** op de pagina **Alle onderhoudsverzoeken**.

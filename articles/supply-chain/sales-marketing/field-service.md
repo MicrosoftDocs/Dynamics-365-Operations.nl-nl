@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 73d20958d0efadefc709db524fe16ed85d1ea33a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ceb95198332d6a9da057d657771fe6fcca5c5b9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824889"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359600"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Overzicht van integratie met Microsoft Dynamics 365 Field Service
 
@@ -34,7 +34,7 @@ Standaardsjablonen kunnen worden gebruikt om aangepaste integratieprojecten te m
 
 De Field Service-integratie borduurt voort op de bestaande functionaliteit voor prospect tot contant geld.
 
-![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service](./media/field-service-integration.png)
+![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service.](./media/field-service-integration.png)
 
 De eerste fase van de integratie tussen Field Service en Supply Chain Management is gericht op het inschakelen van werkorders en overeenkomsten in het Field Service dien worden gefactureerd in Supply Chain Management. De ondersteunde stroom begint in Field Service, waar informatie uit werkorders wordt gesynchroniseerd met Supply Chain Management als verkooporders. In Supply Chain Management worden de verkooporders gefactureerd om factuurdocumenten te genereren. Bovendien wordt de informatie van overeenkomstfacturen in Field Service gesynchroniseerd met Supply Chain Management. De Microsoft Dynamics 365 Gegevensintegrator synchroniseert gegevens met behulp van aanpasbare projecten. Standaardsjablonen kunnen worden gebruikt om aangepaste integratieprojecten te maken waarin extra standaard en aangepaste kolommen en ook tabellen kunnen worden toegewezen voor het corrigeren van de integratie en voor het voldoen aan specifieke behoeften.
 
@@ -58,7 +58,7 @@ De aanvullende functionaliteit in deze tweede fase is erop gericht om technici i
 - Supply Chain Management-projecten die zijn verbonden met Dynamics 365 Field Service-werkorders
 - Dynamics 365 Field Service-werkorders met koppeling naar Supply Chain Management-projecten passen dit projectnummer op de verkooporder toe om facturering van het project toe te staan. 
 
-![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service](./media/FSv2overview.png)
+![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>In de tweede fase van de integratie tussen Field Service en Supply Chain Management wordt de synchronisatie met de volgende sjablonen ingeschakeld:
 - Magazijnen (Supply Chain Management naar Field Service) - Magazijnen van Supply Chain Management naar Field Service [Geavanceerde query] 

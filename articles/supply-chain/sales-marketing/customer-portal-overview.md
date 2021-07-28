@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9a85cd2590bd9c6cabcd0001d5de81746c1d4f63
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 7618bb202dac3295c948d74c482900b0aeae8bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907834"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353933"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Overzicht van klantportal voor Dynamics 365 Supply Chain Management
 
@@ -63,7 +64,7 @@ De klantportal wordt geleverd als Power Apps-portalsjabloon. Deze hangt af van P
 
 [Twee keer wegschrijven](/powerapps/maker/portals/overview) is een kant-en-klaar infrastructuurproduct dat near-realtime interactie biedt tussen Customer Engagement- en Finance and Operations-apps. Twee keer wegschrijven biedt bidirectionele integratie tussen Finance and Operations-apps en Microsoft Dataverse. Daarom geeft dit een geïntegreerde gebruikerservaring over de apps heen. De klantportal is afhankelijk van tabellen die met twee keer wegschrijven worden gesynchroniseerd. Voordat gegevens van Supply Chain Management kunnen worden afgelezen in de klantportal, moet twee keer wegschrijven zijn ingeschakeld voor alle relevante tabellen.
 
-![Afhankelijkheden van klantportal](media/customer-portal-elements.png "Afhankelijkheden van klantportal")
+![Afhankelijkheden van klantportal.](media/customer-portal-elements.png "Afhankelijkheden van klantportal")
 
 De klantportal fungeert als uitgangspunt voor organisaties die Power Apps-portals willen gebruiken om een extern gerichte website te maken die gegevens uit hun Supply Chain Management-installatie gebruikt. Het helpt organisaties om twee keer wegschrijven, Supply Chain Management en Power Apps-portals te koppelen.
 

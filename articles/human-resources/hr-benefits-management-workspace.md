@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 45f776238fbb8e028e8d5b2f342b7d27009c686d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193426"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353609"
 ---
 # <a name="benefits-management-workspace"></a>Werkgebied voor vergoedingenbeheer
 
@@ -31,7 +31,7 @@ ms.locfileid: "6193426"
 In dit onderwerp wordt de werkruimte **Vergoedingenbeheer** in Dynamics 365 Human Resources beschreven.
 
 > [!NOTE]
-> Om de werkruimte **Vergoedingenbeheer** weer te geven, moet u eerst de functie **(Voorbeeld) Werkruimte Vergoedingenbeheer** in Functiebeheer inschakelen. Meer informatie over het inschakelen van de previewfuncties vindt u in [Functies beheren](hr-admin-manage-features.md).<br><br>![Werkruimte Vergoedingenbeheer inschakelen](./media/hr-benefits-management-workspace-enable.png)
+> Om de werkruimte **Vergoedingenbeheer** weer te geven, moet u eerst de functie **(Voorbeeld) Werkruimte Vergoedingenbeheer** in Functiebeheer inschakelen. Meer informatie over het inschakelen van de previewfuncties vindt u in [Functies beheren](hr-admin-manage-features.md).<br><br>![Werkruimte Vergoedingenbeheer inschakelen.](./media/hr-benefits-management-workspace-enable.png)
 
 De werkruimte **Vergoedingenbeheer** geeft u een snel overzicht van vergoedingenitems die uw aandacht vereisen. Op deze pagina ziet u het volgende:
 
@@ -43,13 +43,13 @@ De werkruimte **Vergoedingenbeheer** geeft u een snel overzicht van vergoedingen
 - Werknemers met actieve levensgebeurtenissen
 - Werknemers met openstaande inschrijvingen die geen plannen hebben gekozen
 
-![Werkgebied voor vergoedingenbeheer](./media/hr-benefits-management-workspace.png)
+![Werkgebied voor vergoedingenbeheer.](./media/hr-benefits-management-workspace.png)
 
 ## <a name="view-action-items"></a>Actie-items weergeven
 
 U kunt uw actie-items weergeven door een tegel of een tabblad te selecteren. Als u een tabblad selecteert, kunt u werknemers rechtstreeks op de werkruimtepagina weergeven en selecteren.
 
-![Actie-items](./media/hr-benefits-management-workspace-action-items.png)
+![Actie-items.](./media/hr-benefits-management-workspace-action-items.png)
 
 Als u een tegel selecteert, gaat u naar de pagina voor dat gebied. Als u een van deze tegels selecteert, wordt bijvoorbeeld de pagina **Vergoedingsplannen voor werknemers** weergegeven. Deze pagina wordt gefilterd op werknemers voor wie u actie moet ondernemen:
 
@@ -58,21 +58,21 @@ Als u een tegel selecteert, gaat u naar de pagina voor dat gebied. Als u een van
 - **Ingeschreven voor vergoedingen**
 - **Nieuw aangestelde werknemer niet ingeschreven**
 
-![Vergoedingsplannen voor medewerker](./media/hr-benefits-management-workspace-plans.png)
+![Vergoedingsplannen voor medewerker.](./media/hr-benefits-management-workspace-plans.png)
 
 Als u de tegels **Actieve levensgebeurtenissen** of **Toekomstige levensgebeurtenissen** selecteert, wordt een lijst met actieve of toekomstige levensgebeurtenissen weergegeven.
 
-![Levensgebeurtenissen](./media/hr-benefits-management-workspace-life-events.png)
+![Levensgebeurtenissen.](./media/hr-benefits-management-workspace-life-events.png)
 
-## <a name="processing"></a>Verwerking
+## <a name="processing"></a>In verwerking
 
 Selecteer het juiste item op de navigatiebalk om kwalificatie voor inschrijving, levensgebeurtenissen of tariefwijzigingen te verwerken.
 
-![Verwerking](./media/hr-benefits-management-workspace-processing.png)
+![In verwerking.](./media/hr-benefits-management-workspace-processing.png)
 
 Om de verwerkingsresultaten te bekijken, selecteert u **Procesresultaten** op de pagina.
 
-![Procesresultaten](./media/hr-benefits-management-workspace-process-results.png)
+![Procesresultaten.](./media/hr-benefits-management-workspace-process-results.png)
 
 Voor meer informatie over de verwerking van vergoedingen, zie:
 
@@ -86,13 +86,13 @@ Voor meer informatie over de verwerking van vergoedingen, zie:
 
 Als u een andere vergoedingenperiode wilt weergeven, selecteert u deze in de vervolgkeuzelijst **Periode**.
 
-![Periode wijzigen](./media/hr-benefits-management-workspace-period.png)
+![Periode wijzigen.](./media/hr-benefits-management-workspace-period.png)
 
 ## <a name="view-more-options"></a>Meer opties weergeven
 
 Als u meer informatie en acties wilt weergeven die u kunt uitvoeren, selecteert u **Koppelingen**.
 
-![Koppelingen](./media/hr-benefits-management-workspace-links.png)
+![Koppelingen.](./media/hr-benefits-management-workspace-links.png)
 
 ## <a name="see-also"></a>Zie ook
 

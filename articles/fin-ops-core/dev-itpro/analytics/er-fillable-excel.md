@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 96e1575e2237cab481c368083da1e60fec612087
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893903"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359024"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 
@@ -39,7 +39,7 @@ Wanneer u een nieuwe ER-indelingsconfiguratie toevoegt om een uitgaand document 
 
 Als u het ER-indelingsonderdeel van de configuratie wilt configureren, selecteert u **Ontwerper** in het actievenster en opent u het ER-indelingsonderdeel in de ER Operations-ontwerper.
 
-![Pagina Configuraties](./media/er-excel-format-add-format.png)
+![Pagina Configuraties.](./media/er-excel-format-add-format.png)
 
 ## <a name="excel-file-component"></a>Excel-bestandsonderdeel
 
@@ -47,14 +47,14 @@ Als u het ER-indelingsonderdeel van de configuratie wilt configureren, selecteer
 
 U moet een onderdeel **Excel\\Bestand** toevoegen aan de geconfigureerde ER-indeling om een uitgaand document in Excel-indeling te genereren.
 
-![Onderdeel Excel\Bestand](./media/er-excel-format-add-file-component.png)
+![Onderdeel Excel\Bestand.](./media/er-excel-format-add-file-component.png)
 
 Als u de indeling van het uitgaande document wilt opgeven, voegt u een Excel-werkmap met de extensie .xlsx toe aan het onderdeel **Excel\\Bestand** als sjabloon voor uitgaande documenten.
 
 > [!NOTE]
 > Wanneer u handmatig een sjabloon toevoegt, moet u een [documenttype](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types) gebruiken dat in de [ER-parameters](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) voor dat doel is geconfigureerd.
 
-![Een bijlage toevoegen aan het onderdeel Excel\Bestand](./media/er-excel-format-add-file-component2.png)
+![Een bijlage toevoegen aan het onderdeel Excel\Bestand.](./media/er-excel-format-add-file-component2.png)
 
 Als u wilt opgeven hoe de toegevoegde sjabloon wordt ingevuld wanneer u de geconfigureerde ER-indeling uitvoert, moet u geneste onderdelen **Werkblad**, **Bereik** en **Cel** toevoegen aan het onderdeel **Excel\\Bestand**. Elk genest onderdeel moet worden gekoppeld aan een benoemd Excel-item.
 
@@ -62,7 +62,7 @@ Als u wilt opgeven hoe de toegevoegde sjabloon wordt ingevuld wanneer u de gecon
 
 U kunt **Importeren uit Excel** selecteren op het tabblad **Importeren** van het actievenster om een nieuwe sjabloon te importeren in een lege ER-indeling. In dit voorbeeld wordt automatisch een onderdeel **Excel\\Bestand** gemaakt en de geïmporteerde sjabloon wordt hieraan toegevoegd. Alle vereiste ER-onderdelen worden ook automatisch gemaakt, op basis van de lijst met Excel-artikelen die worden ontdekt.
 
-![Importeren uit Excel selecteren](./media/er-excel-format-import-template.png)
+![Importeren uit Excel selecteren.](./media/er-excel-format-import-template.png)
 
 > [!NOTE]
 > Als u het optionele element **Werkblad** wilt maken in de bewerkbare ER-indeling, stelt u de optie **Indelingselement Excel-werkblad maken** in op **Ja**.
@@ -79,7 +79,7 @@ Op het tabblad **Toewijzing** van de ER Operations-ontwerper kunt u de eigenscha
 - Als een expressie van de eigenschap **Ingeschakeld** is geconfigureerd om **Waar** te retourneren tijdens runtime, of als er helemaal geen expressie is geconfigureerd, wordt het betreffende werkblad in het gegenereerde document geplaatst.
 - Als een expressie van de eigenschap **Ingeschakeld** is ingesteld om **Onwaar** te retourneren tijdens runtime, bevat het gegenereerde document geen werkblad.
 
-![Voorbeeld van een onderdeel Werkblad](./media/er-excel-format-sheet-component.png)
+![Voorbeeld van een onderdeel Werkblad.](./media/er-excel-format-sheet-component.png)
 
 ## <a name="range-component"></a>Het onderdeel Bereik
 
@@ -182,7 +182,7 @@ U kunt **Bijwerken vanuit Excel** selecteren op het tabblad **Importeren** van h
 >
 > Als de bewerkbare ER-indeling oorspronkelijk elementen van het type **Werkblad** bevatte, wordt u aangeraden de optie **Indelingselement Excel-werkblad maken** op **Ja** in te stellen wanneer u een bijgewerkte sjabloon importeert. Anders worden alle geneste elementen van het oorspronkelijke element **Werkblad** helemaal opnieuw gemaakt. Alle bindingen van de opnieuw gemaakte indelingselementen gaan in dat geval verloren in de bijgewerkte ER-indeling.
 
-![De optie Indelingselement Excel-werkblad maken in het dialoogvenster Bijwerken vanuit Excel](./media/er-excel-format-update-template.png)
+![De optie Indelingselement Excel-werkblad maken in het dialoogvenster Bijwerken vanuit Excel.](./media/er-excel-format-update-template.png)
 
 Volg de stappen in de [Indelingen voor elektronische rapportage wijzigen door Excel-sjablonen opnieuw toe te passen](modify-electronic-reporting-format-reapply-excel-template.md) voor meer informatie over deze functie.
 
@@ -190,7 +190,7 @@ Volg de stappen in de [Indelingen voor elektronische rapportage wijzigen door Ex
 
 Wanneer u een ER-indeling valideert die kan worden bewerkt, wordt een consistentiecontrole uitgevoerd om er zeker van te zijn dat de Excel-naam aanwezig is in de Excel-sjabloon die momenteel wordt gebruikt. U wordt op de hoogte gebracht van eventuele inconsistenties. Voor sommige inconsistenties wordt de optie voor het automatisch oplossen van problemen aangeboden.
 
-![Foutbericht over validatie](./media/er-excel-format-validate.png)
+![Foutbericht over validatie.](./media/er-excel-format-validate.png)
 
 ## <a name="control-the-calculation-of-excel-formulas"></a>De berekening van Excel-formules beheren
 
@@ -209,7 +209,7 @@ Wanneer een uitgaand document in een Microsoft Excel-werkmapindeling wordt gegen
 1. Gebruik de geleverde ER-configuraties om afdrukbaar FTI-document (vrije-tekstfactuur) te [genereren](er-generate-printable-fti-forms.md).
 2. Controleer de voettekst van het gegenereerde document. De pagina bevat informatie over het huidige paginanummer en het totale aantal pagina's in het document.
 
-    ![De voettekst van een gegenereerd document controleren in Excel-indeling](./media/er-fillable-excel-footer-1.gif)
+    ![De voettekst van een gegenereerd document controleren in Excel-indeling.](./media/er-fillable-excel-footer-1.gif)
 
 3. [Open](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) in de ontwerper van de ER-indeling het voorbeeld van een ER-indeling voor controledoeleinden.
 
@@ -222,7 +222,7 @@ Wanneer een uitgaand document in een Microsoft Excel-werkmapindeling wordt gegen
 
     - Het tweede onderdeel **Tekenreeks** vult de tekst in die het huidige paginanummer en het totale aantal pagina's in het huidige document bevat.
 
-    ![Het ER-indelingsonderdeel voor de voettekst valideren op de pagina Indelingsontwerper](./media/er-fillable-excel-footer-2.png)
+    ![Het ER-indelingsonderdeel voor de voettekst valideren op de pagina Indelingsontwerper.](./media/er-fillable-excel-footer-2.png)
 
 4. Pas de voorbeeld-ER-indeling aan om de voettekst van de huidige pagina te wijzigen:
 
@@ -237,14 +237,14 @@ Wanneer een uitgaand document in een Microsoft Excel-werkmapindeling wordt gegen
         1. Voeg een onderdeel **Tekenreeks** toe die de verwerkingsdatum rechts uitlijnt en deze weergeeft in het 8-punts lettertype "Segoe UI Regular" (**"&R&"Segoe UI,Regular"&8"**).
         2. Voeg een onderdeel **Tekenreeks** toe om de verwerkingsdatum in te vullen in een aangepaste notatie (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd")**).
 
-        ![Het ER-indelingsonderdeel voor de voettekst controleren op de pagina Indelingsontwerper](./media/er-fillable-excel-footer-3.png)
+        ![Het ER-indelingsonderdeel voor de voettekst controleren op de pagina Indelingsontwerper.](./media/er-fillable-excel-footer-3.png)
 
     4. [Voltooi](er-quick-start2-customize-report.md#CompleteDerivedFormat) de conceptversie van de afgeleide ER-indeling **Vrije-tekstfactuur (Excel) aangepast**.
 
 5. [Configureer](er-generate-printable-fti-forms.md#configure-print-management) afdrukbeheer om de afgeleide aangepaste ER-indeling **Vrije-tekstfactuur (Excel)** te gebruiken in plaats van de voorbeeld-ER-indeling.
 6. Genereer een afdrukbaar FTI-document en controleer de voettekst van het gegenereerde document.
 
-    ![De voettekst van een gegenereerd document controleren in Excel-indeling](./media/er-fillable-excel-footer-4.gif)
+    ![De voettekst van een gegenereerd document controleren in Excel-indeling.](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

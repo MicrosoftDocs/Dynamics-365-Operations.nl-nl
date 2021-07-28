@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097254"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356507"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Verlofaanvragen beheren in Teams
 
@@ -61,7 +61,7 @@ U kunt de bot vragen om het volgende te doen:
 
 - Een verlofaanvraag voor u starten. U kunt bijvoorbeeld een bericht met de tekst "Vrij nemen" of "Ik wil volgende donderdag en vrijdag vakantie nemen" verzenden om specifieker te zijn voor het aanvragen van verlof voor het vakantieverloftype. 
 
-  ![Een verlofaanvraag starten in Teams-chat](./media/hr-teams-leave-app-initiate.png)
+  ![Een verlofaanvraag starten in Teams-chat.](./media/hr-teams-leave-app-initiate.png)
 
 - In het chatgesprek wordt een verlofaanvraag voor u ingevuld. Selecteer **Verlof aanvragen** en bewerk de details voor uw aanvraag.
 
@@ -69,11 +69,11 @@ U kunt de bot vragen om het volgende te doen:
 
    Als u een verlof van een halve dag selecteert wanneer de verlofaanvraageenheid in dagen is opgenomen, kunt u opgeven of u verlof wilt aanvragen voor de eerste halve dag of de tweede helft van de dag door de optie **Definitie halve dag** te selecteren in het menu **Meer opties**.
    
-   ![Definities halve dag](./media/HalfDayDefinitions.png)
+   ![Definities halve dag.](./media/HalfDayDefinitions.png)
 
 - Wanneer u klaar bent met het bewerken van uw verlofaanvraagdetails, selecteert u **Indienen** om de aanvraag voor goedkeuring in te dienen.
 
-  ![Verlofaanvraag indienen](./media/hr-teams-leave-app-submit.png)
+  ![Verlofaanvraag indienen.](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Uw verlof beheren in Teams
 
@@ -93,7 +93,7 @@ Op het tabblad **Verlof** kunt u het volgende bekijken:
 
 2. Voer de dag of dagen in die u wilt vrijnemen en selecteer vervolgens **Toevoegen**.
 
-   ![Verlof toevoegen in verlof-app voor Human Resources Teams](./media/TimeOffHours.png)
+   ![Verlof toevoegen in verlof-app voor Human Resources Teams.](./media/TimeOffHours.png)
 
 3. Voer een redencode in, indien van toepassing. Voer ook eventuele opmerkingen in en voeg eventuele bijlagen toe.
 
@@ -123,7 +123,7 @@ Nadat u de app Human Resources voor Teams hebt geïnstalleerd, kunt u eenvoudig 
 
 1. Selecteer in een team of chat in Teams de knop Human Resources onder het chatvenster.
 
-   ![Human Resources-knop onder chatvenster](./media/hr-teams-leave-app-chat-button.png)
+   ![Human Resources-knop onder chatvenster.](./media/hr-teams-leave-app-chat-button.png)
 
 2. Selecteer de verlofaanvraag die u wilt delen. Als u een conceptverlofaanvraag wilt delen, selecteert u eerst **Concepten**.
 
@@ -173,11 +173,11 @@ Als vertalingen niet worden weergegeven zoals u verwacht, moet u ervoor zorgen d
 
 Kijk in Teams naar **Taal van de app** bij **Instellingen**.
 
-![Teams-instellingen](./media/hr-teams-leave-app-settings.png)
+![Teams-instellingen.](./media/hr-teams-leave-app-settings.png)
 
 Selecteer in Human Resources de optie **Instellingen** en **Gebruikersopties**. Controleer of het veld **Taal** overeenkomt met het veld **Taal van de app** in Teams.
 
-![Gebruikersopties in Human Resources](./media/hr-teams-leave-app-user-options.png)
+![Gebruikersopties in Human Resources.](./media/hr-teams-leave-app-user-options.png)
 
 Als u nog steeds vertaalproblemen ondervindt, laat u het ons weten. Zie [Ondersteuning voor Finance and Operations-apps of Lifecycle Services (LCS) krijgen](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json) voor meer informatie.
 

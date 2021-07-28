@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1cceb15d64215cb8d5c996df792e863d466f87d
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 627883544f387e53920da268fa8d805c0074de47
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053558"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357356"
 ---
 # <a name="human-resources-app-in-teams"></a>Human resources-app in Teams
 
@@ -28,11 +28,11 @@ ms.locfileid: "6053558"
 
 Met de Microsoft Dynamics 365 Human Resources-app in Microsoft Teams kunnen werknemers snel verlof aanvragen en informatie over hun verlofsaldo bekijken in Microsoft Teams. Werknemers kunnen communiceren met een bot om informatie aan te vragen. Het tabblad **Verlof** bevat meer gedetailleerde informatie. Daarnaast kunnen ze mensen informatie sturen over uw aanstaande verlof in teams en chats buiten de Human Resources-app.
 
-![Bot voor verlof-app in Human Resources Teams](./media/hr-teams-leave-app-bot.png)
+![Bot voor verlof-app in Human Resources Teams.](./media/hr-teams-leave-app-bot.png)
 
-![Tabblad Verlof in verlof-app voor Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab.png)
+![Tabblad Verlof in verlof-app voor Human Resources Teams.](./media/hr-teams-leave-app-timeoff-tab.png)
 
-![Verlofaanvraagkaart Human Resources](./media/hr-teams-leave-app-chat-card.png)
+![Verlofaanvraagkaart Human Resources.](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>Installeren en instellen
 
@@ -57,11 +57,11 @@ Als u wilt dat gebruikers meldingen over verlofaanvragen ontvangen in de Teams-a
 
 4. Stel op het tabblad **Algemeen** de optie **Meldingen inschakelen voor Teams-app** op **Ja** in.
 
-   ![Meldingen van Teams-app inschakelen in Systeemparameters](./media/hr-admin-teams-leave-app-enable-notifications.png)
+   ![Meldingen van Teams-app inschakelen in Systeemparameters.](./media/hr-admin-teams-leave-app-enable-notifications.png)
 
 5. Als u Teams-meldingen voor alle gebruikers wilt inschakelen, selecteert u **Ja** bij de prompt.
 
-   ![Teams-meldingen inschakelen voor alle gebruikers](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+   ![Teams-meldingen inschakelen voor alle gebruikers.](./media/hr-admin-teams-leave-app-notifications-all-users.png)
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Teams-meldingen in- of uitschakelen voor afzonderlijke gebruikers
 
@@ -77,7 +77,7 @@ Nadat u meldingen voor de Dynamics 365 Human Resources Teams-app hebt ingeschake
 
 5. Stel **Meldingen inschakelen voor Teams-app** in op **Ja** als u meldingen voor de gebruiker wilt inschakelen of op **Nee** als u meldingen voor de gebruiker wilt uitschakelen.
 
-   ![Meldingen in Teams-app inschakelen in gebruikersopties op het tabblad Werkstroom](./media/hr-admin-teams-leave-app-notifications.png)
+   ![Meldingen in Teams-app inschakelen in gebruikersopties op het tabblad Werkstroom.](./media/hr-admin-teams-leave-app-notifications.png)
 
 6. Selecteer **Opslaan**.
 

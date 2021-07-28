@@ -2,7 +2,8 @@
 title: Winkelselectiemodule
 description: In dit onderwerp wordt beschreven wat de winkelselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/02/2021
+manager: annbe
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 341312758e0a6da2e918406e09df618e2475811f
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021459"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479371"
 ---
 # <a name="store-selector-module"></a>Winkelselectiemodule
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven wat de winkelselectiemodule is en hoe u deze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 
@@ -50,12 +52,12 @@ Voer deze stappen uit om de waarden voor lengtegraad en breedtegraad voor een wi
 1. Selecteer de magazijnlocatie in het linkerdeelvenster.
 1. Selecteer **Geavanceerd** op het sneltabblad **Adressen**.
 
-    ![Voorbeeld van winkeldetails in Headquarters](./media/Store-address.png)
+    ![Voorbeeld van winkeldetails in Headquarters.](./media/Store-address.png)
 
 1. Selecteer **Bewerken** in het actievenster.
 1. Voer op het sneltabblad **Algemeen** de waarden in voor **Breedtegraad** en **Lengtegraad**.
 
-    ![Voorbeeld van de instelling voor breedte- en lengtegraad voor een winkel in Headquarters](./media/Store-latitude-longitude.png)
+    ![Voorbeeld van de instelling voor breedte- en lengtegraad voor een winkel in Headquarters.](./media/Store-latitude-longitude.png)
 
 1. Selecteer **Opslaan** in het actievenster. 
 
@@ -70,7 +72,6 @@ Voor de REST API van Automatische suggesties moet u ervoor zorgen dat de volgend
 - Voeg aan de **script-src**-instructie **&#42;.bing.com, &#42;.virtualearth.net** toe.
 - Voeg aan de **script style-src**-instructie **&#42;.bing.com** toe.
 
- 
 ## <a name="pickup-in-store-mode"></a>Ophalen in winkelmodus
 
 De winkelselectiemodule ondersteunt een **Ophalen in winkel**-modus met een lijst met winkels waar een product kan worden opgehaald. Ook worden in de lijst winkeluren en productvoorraad weergegeven voor elke winkel. De module voor winkelselectie vereist de context van een product om beschikbaarheid van het product weer te geven en de gebruiker het product aan het winkelwagentje te laten toevoegen als de leveringsmethode van het product is ingesteld op **ophalen** in de geselecteerde winkel. Zie [Voorraadinstellingen](inventory-settings.md) voor meer informatie. 
@@ -81,7 +82,7 @@ Het scenario werkt alleen als producten zijn geconfigureerd zodat de leveringsmo
 
 De volgende afbeelding toont een voorbeeld van een winkelselectiemodule die wordt gebruikt voor een pagina met productgegevens.
 
-![Voorbeeld van een winkelselectiemodule die wordt gebruikt in een PDP](./media/BOPIS.PNG)
+![Voorbeeld van een winkelselectiemodule die wordt gebruikt in een PDP.](./media/BOPIS.PNG)
 
 > [!NOTE]
 > In versie 10.0.16 en hoger kan een nieuwe functie worden ingeschakeld, waarmee een organisatie meerdere leveringsmethoden kan definiëren voor klanten.  Als deze functie is ingeschakeld, worden de winkelkiezer en andere modules van e-Commerce uitgebreid zodat de klant kan kiezen uit mogelijk meerdere ophaal- en bezorgopties als deze zijn geconfigureerd.  Zie [deze documentatie](./multiple-pickup-modes.md) voor meer informatie over deze functie. 
@@ -92,7 +93,7 @@ De module winkelselectie ondersteunt ook de modus **Winkels zoeken**. Deze modus
 
 In de volgende afbeelding ziet u een voorbeeld van een winkelselectiemodule die in combinatie met een kaartmodule op de winkellocatiepagina wordt gebruikt.
 
-![Voorbeeld van een winkelkiezermodule en een kaartmodule op een winkellocatiepagina](./media/ecommerce-Storelocator.PNG)
+![Voorbeeld van een winkelkiezermodule en een kaartmodule op een winkellocatiepagina.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Een kaart genereren
 
@@ -110,6 +111,10 @@ De module winkelselectie kan samen met de kaartmodule worden gebruikt om de wink
 | Opties voor automatisch voorstellen: maximale resultaten | Nummer | Met deze eigenschap wordt het maximum aantal resultaten voor automatisch suggereren gedefinieerd dat kan worden weergegeven via de API van Bing Automatische suggesties. |
 | Zoekstraal | Nummer | Met deze eigenschap wordt de zoekstraal gedefinieerd voor winkels in kilometers. Als er geen waarde is opgegeven, wordt de standaardzoekradius van 50 kilometer gebruikt. |
 | Servicevoorwaarden | URL |  Met deze eigenschap wordt de URL van de servicevoorwaarden aangegeven die vereist is voor gebruik van de Bing Kaarten-service. |
+
+## <a name="site-settings"></a>Vestigingsinstellingen
+
+De winkelselectiemodule respecteert de [Product toevoegen aan winkelwageninstellingen](add-cart-settings.md). Wanneer een artikel vanuit de winkelselectiemodule aan het winkelwagentje is toegevoegd, zien de sitegebruikers de toepasselijke geconfigureerde werkstromen.
 
 ## <a name="add-a-store-selector-module-to-a-page"></a>Een winkelselectiemodule toevoegen aan een pagina
 
