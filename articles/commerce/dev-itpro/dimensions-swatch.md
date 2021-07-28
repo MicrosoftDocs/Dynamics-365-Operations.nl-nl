@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 08564ce7af7412f2501b917b3496942004402611
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 513ec2f48a3c7c81a41fd64a9752067d12eb4ec8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117216"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353857"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Productdimensiewaarden configureren die moeten worden weergegeven als stalen
 
@@ -39,11 +39,11 @@ Met de functie Dimensies als stalen weergeven kunnen in Commerce hexadecimale (h
 
 De onderstaande afbeelding toont een voorbeeld waarin kleuren als stalen worden weergegeven in een Commerce PDP.
 
-![Voorbeeld van kleuren die als stalen op een productdetailpagina worden weergegeven](../dev-itpro/media/swatch_pdp.png)
+![Voorbeeld van kleuren die als stalen op een productdetailpagina worden weergegeven.](../dev-itpro/media/swatch_pdp.png)
 
 De onderstaande afbeelding toont een voorbeeld waarin kleuren als stalen worden weergegeven op een lijstpagina met zoekresultaten in Commerce.
 
-![Voorbeeld van kleuren die als stalen op een lijstpagina met zoekresultaten worden weergegeven](../dev-itpro/media/swatch_searchresults.PNG)
+![Voorbeeld van kleuren die als stalen op een lijstpagina met zoekresultaten worden weergegeven.](../dev-itpro/media/swatch_searchresults.PNG)
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>De functie Dimensies als stalen weergeven in Commerce Headquarters
 
@@ -57,15 +57,15 @@ De configuratie kan op een van de volgende niveaus worden uitgevoerd:
 
 - **Dimensie**: open in Commerce Headquarters de pagina voor een dimensie door te zoeken naar **Kleur**, **Grootte** of **Stijl**. Op elke pagina staat een raster met de dimensiewaarden. U kunt de waarden voor de weergavevolgorde, hexcodes en afbeeldings-URL´s beheren. In de volgende afbeelding ziet u een voorbeeldconfiguratie van de pagina **Kleuren**.
 
-    ![Voorbeeld van dimensieconfiguratie op de pagina Kleuren](../dev-itpro/media/swatch_Color.PNG)
+    ![Voorbeeld van dimensieconfiguratie op de pagina Kleuren.](../dev-itpro/media/swatch_Color.PNG)
 
 - **Dimensiegroep**: in Dynamics 365 Commerce kunt u de eigenschap **RefinerGroup** gebruiken om dimensiegroepen te maken. Als er dimensiegroepen zijn gedefinieerd, opent u de betreffende pagina door te zoeken naar **Kleurgroep**, **Formaatgroep** of **Stijlgroep**. Op elke pagina kunt u waarden voor hexcodes, afbeeldings-URL's en verfijningsgroepen beheren. In de volgende afbeelding ziet u een voorbeeldconfiguratie van de pagina **Kleurgroepen**.
 
-    ![Voorbeeld van dimensieconfiguratie op de pagina Kleurgroepen](../dev-itpro/media/swatch_colorGroup.PNG)
+    ![Voorbeeld van dimensieconfiguratie op de pagina Kleurgroepen.](../dev-itpro/media/swatch_colorGroup.PNG)
 
 - **Productdimensie (tijdens het maken van producten)**: wanneer u een nieuw product maakt, kunt u de pagina **Productdimensies** gebruiken om de dimensiewaarden in te voeren. Voor bestaande producten zijn mogelijk al de velden **Hexcode**, **URL (voor afbeeldingen)** en **RefinerGroup** ingesteld. U kunt de waarden echter zo nodig wijzigen. In de volgende afbeelding ziet u een voorbeeldconfiguratie op de pagina **Productdimensies**.
 
-    ![Voorbeeld van dimensieconfiguratie op de pagina Productdimensies](../dev-itpro/media/swatch_product_dimensions.PNG)
+    ![Voorbeeld van dimensieconfiguratie op de pagina Productdimensies.](../dev-itpro/media/swatch_product_dimensions.PNG)
 
 > [!NOTE]
 > Bij het beheren van configuraties van hexcodes en afbeeldings-URL´s wordt hetzelfde patroon gevolgd als dat wordt gebruikt om de weergavevolgorde van dimensies te beheren.
@@ -76,7 +76,7 @@ Voor de meeste kleurdimensies moet een kleurwaarde voor hexcodes worden opgegeve
 
 De onderstaande afbeelding toont een voorbeeld waarin kleurdimensies met behulp van hexcodewaarden worden geconfigureerd.
 
-![Voorbeeld van dimensieconfiguratie waarin hexcodes worden gebruikt](../dev-itpro/media/swatch_color_hexcode.png)
+![Voorbeeld van dimensieconfiguratie waarin hexcodes worden gebruikt.](../dev-itpro/media/swatch_color_hexcode.png)
 
 ## <a name="configure-dimension-values-by-using-image-urls"></a>Dimensiewaarden configureren met behulp van afbeeldings-URL´s
 
@@ -86,13 +86,13 @@ U moet elke afbeelding naar Commerce Site Builder uploaden en publiceren. Voer v
 
 In de volgende afbeelding ziet u een voorbeeld waarin afbeeldings-URL´s worden gebruikt voor de configuratie op de pagina **Kleuren**.
 
-![Voorbeeld van dimensieconfiguratie waarin afbeeldings-URL´s worden gebruikt](../dev-itpro/media/swatch_color_urls.PNG)
+![Voorbeeld van dimensieconfiguratie waarin afbeeldings-URL´s worden gebruikt.](../dev-itpro/media/swatch_color_urls.PNG)
 
 U kunt een mediasjabloon gebruiken voor het definiëren van afbeeldings-URL's, net als bij product- en categorieafbeeldingen. Wanneer u afbeeldingen uploadt naar Site Builder, moeten bestandsnaamconventies en bestandspaden consistent zijn.
 
 In de volgende afbeelding ziet u een voorbeeld waarin afbeeldings-URL´s worden gebruikt voor de configuratie van een mediasjabloon.
 
-![Voorbeeld van de configuratie van een mediasjabloon](../dev-itpro/media/swatch_media_template.PNG)
+![Voorbeeld van de configuratie van een mediasjabloon.](../dev-itpro/media/swatch_media_template.PNG)
 
 ## <a name="configure-dimension-values-by-using-both-hex-codes-and-image-urls"></a>Dimensiewaarden configureren met behulp van hexcodes en afbeeldings-URL´s
 
@@ -100,7 +100,7 @@ Voor de meeste kleurdimensies kunt u zowel hexcodes als afbeeldings-URL's config
 
 In de volgende afbeelding ziet u een voorbeeld waarin zowel hexcodes als afbeeldings-URL´s worden gebruikt voor de configuratie op de pagina **Kleuren**.
 
-![Voorbeeld van dimensieconfiguratie waarin zowel hexcodes als afbeeldings-URL´s worden gebruikt](../dev-itpro/media/swatch_color_hexandimage.png)
+![Voorbeeld van dimensieconfiguratie waarin zowel hexcodes als afbeeldings-URL´s worden gebruikt.](../dev-itpro/media/swatch_color_hexandimage.png)
 
 ## <a name="configure-refiner-groups"></a>Verfijningsgroepen configureren
 
@@ -110,7 +110,7 @@ Als de waarden van uw kleurdimensie bijvoorbeeld 'blauw', 'lichtblauw', 'grijsbl
 
 Het voorbeeld in de volgende afbeelding toont de relatie tussen de eigenschappen **Kleur** en **RefinerGroup** in Commerce Headquarters.
 
-![Voorbeeld van beheer van verfijningsgroepen](../dev-itpro/media/swatch_refiner_group.png)
+![Voorbeeld van beheer van verfijningsgroepen.](../dev-itpro/media/swatch_refiner_group.png)
 
 ## <a name="manage-images-in-commerce-site-builder"></a>Afbeeldingen in Commerce Site Builder beheren
 
@@ -118,7 +118,7 @@ Als afbeelding-URL's voor dimensiewaarden worden gebruikt, moeten de bijbehorend
 
 In de volgende afbeelding ziet u een voorbeeld van de plaats waar het dialoogvenster **Bestanden uploaden** wordt gebruikt om afbeeldingen naar de mediabibliotheek van Site Builder te uploaden. De categorieën **Grootte**, **Kleur** en **Stijl** worden gemarkeerd die beschikbaar zijn voor selectie.
 
-![Voorbeeld van afbeeldingsbestandscategorieën tijdens het uploaden naar de mediabibliotheek van Site Builder](../dev-itpro/media/swatch_sitebuilder.png)
+![Voorbeeld van afbeeldingsbestandscategorieën tijdens het uploaden naar de mediabibliotheek van Site Builder.](../dev-itpro/media/swatch_sitebuilder.png)
 
 ## <a name="enable-swatch-display-on-e-commerce-site-pages"></a>Staalweergave op e-commercesitepagina's inschakelen
 

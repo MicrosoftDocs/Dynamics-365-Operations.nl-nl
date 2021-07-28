@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 76c2f07ac5c25eea576cbb69256e76fbef4d86ca
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6fb4e91f00163f5280d2c767843afd5c7a33712d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754107"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350880"
 ---
 # <a name="dual-write-overview"></a>Overzicht van twee keer wegschrijven
 
@@ -37,7 +37,7 @@ Twee keer wegschrijven is een kant-en-klare infrastructuur die near-realtime int
 
 Twee keer wegschrijven biedt nauw gekoppelde, bidirectionele integratie tussen Finance and Operations-apps en Dataverse. Alle gegevenswijzigingen in Finance and Operations-apps leiden tot schrijfbewerkingen naar Dataverse en alle gegevenswijzigingen in Dataverse resulteren in schrijfbewerkingen naar Finance and Operations-apps. Deze geautomatiseerde gegevensstroom biedt een geïntegreerde gebruikerservaring over de apps heen.
 
-![Gegevensrelatie tussen apps](media/dual-write-overview.jpg)
+![Gegevensrelatie tussen apps.](media/dual-write-overview.jpg)
 
 Twee keer wegschrijven heeft twee aspecten: een *infrastructuuraspect* en een *toepassingsaspect*.
 

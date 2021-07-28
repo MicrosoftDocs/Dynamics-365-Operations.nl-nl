@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2ac28a1bd09cf68c711295116fb007bdfab2070
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 946d0433df41ce7067b8b0673db680abb42b7792
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053390"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357284"
 ---
 # <a name="integration-with-finance-faq"></a>Veelgestelde vragen over integratie met Finance
 
@@ -37,7 +37,7 @@ Nr. Als u de Human Resources-toepassingsgebruiker bewerkt, kan de integratie tus
 | --- | --- | --- | --- |
 | Dynamics365 for Talent | f9be0c49-aa22-4ec6-911a-c5da515226ff | 27fd8129-4b3c-43f7-b1bf-47495d3a049b | f9be0c49-aa22-4ec6-911a-c5da515226ff |
 
-![Standaardinstellingen voor Talent-toepassingsgebruiker](media/DynamicsApplicationUser.png)
+![Standaardinstellingen voor Talent-toepassingsgebruiker.](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Worden alle gegevens gesynchroniseerd of alleen sommige gegevensentiteiten?
 
@@ -57,7 +57,7 @@ Dataverse bevat momenteel geen financiële dimensies en daardoor maken ze geen d
 
 Voor gegevens die zich bevinden in Finance, maar niet in Human Resources, koppelt u de twee systemen met behulp van **Koppelingen configureren** in Human Resources.
 
-![Financiële dimensies toewijzen](media/MapFinancialDimensions.png)
+![Financiële dimensies toewijzen.](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>Soms veranderen werknemers bij het importeren in inactieve werknemers in Finance. Waarom niet?
 
@@ -71,14 +71,14 @@ Gegevenssynchronisatie volgt de uitvoeringsplanning. Met de integratie wordt een
 
 U kunt met behulp van 'Geavanceerde query' brongegevens filteren en wijzigen voordat deze worden doorgegeven aan de bestemming.
 
-![Geavanceerde query voor actieve medewerkers](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![Geavanceerde query voor actieve medewerkers.](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-for-a-specific-entity"></a>Kan ik opgeven welke velden moeten worden verzonden naar Finance voor een bepaalde entiteit?
 
 Velden kunnen worden toegevoegd aan of verwijderd uit de integratietaak. Niet alle gegevensvelden die aanwezig zijn in de tabel Dataverse, worden ingevuld vanuit Human Resources.
 Aanvullende gegevens kunnen worden ingevuld via Power Apps.
 
-![Velden toevoegen aan en verwijderen uit een integratietaak](media/SpecifyFieldsIncludedInIntegration.png)
+![Velden toevoegen aan en verwijderen uit een integratietaak.](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-human-resources-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>Ik heb integratie als een batchtaak ingesteld, maar Human Resources heeft de verbinding met het doelsysteem verloren. Hoe kan ik dezelfde reeks wijzigingen naar het doelsysteem verzenden?
 
@@ -126,21 +126,21 @@ Zoek de tijd op van de uitvoeringsgeschiedenis van Gegevensintegrator en zoek na
 
 1. Leg de taakindex in Gegevensintegrator vast (in dit voorbeeld is dit '9').
 
-    ![Taakindex in Gegevensintegrator vastleggen](media/CaptureTaskIndex.png)
+    ![Taakindex in Gegevensintegrator vastleggen.](media/CaptureTaskIndex.png)
 
 2. Houd de uitvoeringstijd van het project bij.
 
-    ![Uitvoeringstijd van project bijhouden](media/CaptureTimeOfExecution.png)
+    ![Uitvoeringstijd van project bijhouden.](media/CaptureTimeOfExecution.png)
 
 3. Geef index - 1 op in Finance. In dit voorbeeld komt het project met achtervoegsel '8' en uitvoeringstijd van index '0' overeen met de uitvoeringstijd in stap 2.
 
-    ![Index identificeren](media/IdentifyIndex.png)
+    ![Index identificeren.](media/IdentifyIndex.png)
 
 ## <a name="after-integrating-human-resources-and-finance-i-dont-see-my-human-resources-data-in-finance-what-do-i-do"></a>Na integratie van Human Resources en Finance worden mijn Human Resources-gegevens niet in Finance weergegeven. Wat moet ik doen?
 
 De integratie met Finance is een proces dat uit twee stappen bestaat. Controleer eerst of de Human Resources-gegevens zijn bijgewerkt en beschikbaar zijn in Dataverse. Dit is een bijna realtime-synchronisatie en kan in Power Apps worden geverifieerd door te kijken naar de gegevens in de gegevenstabellen.
 
-![Gegevens in Dataverse](media/DataInCDS.png)
+![Gegevens in Dataverse.](media/DataInCDS.png)
 
 Als de gegevens niet zoals verwacht in Dataverse worden weergegeven, controleert u of de entiteit in de integratie wordt ondersteund. Als u aanvullende gegevens in Dataverse wilt opnemen, is een wijziging aan Microsoft-zijde vereist.
 
@@ -165,7 +165,7 @@ Zorg er ook voor dat u de juiste rechtspersonen voor de bijbehorende verbindinge
 
 Vernieuw de gegevensentiteiten in Finance door naar **Gegevensbeheer \> Raamwerkparameters \> Entiteitsinstellingen \> Entiteitslijst vernieuwen** te gaan. Dit duurt enkele minuten. Vervolgens moet u deze toewijzingen zien. Dit probleem treedt op wanneer nieuwe projecten worden gemaakt.
 
-![Veldtoewijzing ontbreekt](media/MissingFieldMapping.png)
+![Veldtoewijzing ontbreekt.](media/MissingFieldMapping.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

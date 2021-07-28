@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 141d58c2183c386584b0b974f4997e7a81ef3109
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b9d072914b5effdd733ec2c18e4ada877f932ba8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749981"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350155"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Een relatief pad gebruiken in gegevensbindingen van ER-modellen en -indelingen
 
@@ -31,20 +31,20 @@ Met het hulpprogramma voor Elektronische rapportage (ER) kunnen gebruikers elekt
 
 De functie [relatief pad](er-formula-language.md#relative-path) is vrijgegeven om de bruikbaarheid van ontwerpers van ER‑toewijzing te verbeteren. De optie voor relatieve padweergave is standaard ingeschakeld voor elk nieuw exemplaar van de toepassing waarvoor de ER‑ontwerpervaring is ingeschakeld (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). We hebben de relatieve pad parameter geïmplementeerd, zodat gebruikers het volledige pad kunnen blijven gebruiken wanneer ze met deze weergave van ER-bindingen werken.
 
-[![Gebruikersparameters](./media/relative-path-01.png)](./media/relative-path-01.png)
+[![Gebruikersparameters.](./media/relative-path-01.png)](./media/relative-path-01.png)
 
  
 Wanneer de gebruiksparameter van het relatieve pad is ingeschakeld, vervangt een enkel @-teken het pad naar het bovenliggende item in de binding van het huidige modelelement. Het gehele bindingstraject wordt korter, waardoor de volledige toewijzing duidelijker en begrijpelijker wordt. In de meeste gevallen is er geen extra scrollen nodig in de ER-ontwerper om alle bindingen van het datamodel te bekijken.
 
-[![Ontwerper modeltoewijzing](./media/relative-path-02.png)](./media/relative-path-02.png)
+[![Ontwerper modeltoewijzing.](./media/relative-path-02.png)](./media/relative-path-02.png)
  
 Wanneer u begint met het ontwerpen van een nieuwe ER-expressie, hoeft u slechts één teken in te voeren om een binding te definiëren met een veld van het bovenliggende item.
 
-[![Formuleontwerper](./media/relative-path-03.png)](./media/relative-path-03.png)
+[![Formuleontwerper.](./media/relative-path-03.png)](./media/relative-path-03.png)
  
 Wanneer u besluit de gegeven bron van het bovenliggende model te wijzigen, met gebruik van absolute paden, moet u dit modelitem, evenals alle geneste items, handmatig opnieuw binden aan een nieuwe gegevensbron. Wanneer het gebruik van een relatief pad is ingeschakeld en u selecteert een nieuwe gegevensbron die aan een bovenliggend item moet worden gebonden, krijgt u de mogelijkheid om alle geneste elementen van dit bovenliggende item automatisch opnieuw te binden met één klik.
 
-[![Bericht bestaand pad vervangen](./media/relative-path-04.png)](./media/relative-path-04.png)
+[![Bericht bestaand pad vervangen.](./media/relative-path-04.png)](./media/relative-path-04.png)
  
 Als u de rebinding van geneste items bevestigt, wordt het nieuwe bovenliggende item geplaatst in het pad van elk genest item dat het bestaande bovenliggende item bevat.
 Deze functie verbreekt niet de achterwaartse compatibiliteit van het ER-raamwerk. Alle eerder ontworpen ER‑configuraties werken met deze nieuwe functie en er zijn geen upgrades of conversies vereist.

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3c7dafe55fc7072aa12b98ff42ed7d9e4719f4cd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 51526c8409e0a04cf35e2dbd63cb4a3bd7d121e0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804692"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352957"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>De optimale combinatie van overlappende kortingen bepalen
 
@@ -39,11 +39,11 @@ U kunt een onbeperkt aantal kortingen voor een gemeenschappelijke set van produc
 
 In dit voorbeeld zijn twee producten nodig om in aanmerking te komen voor elke korting en de kortingen kunnen niet worden gecombineerd. De kortingen in dit voorbeeld zijn **Beste prijs**-kortingen. Beide producten komen in aanmerking voor beide kortingen. Dit zijn de twee kortingen.
 
-![Voorbeeld van twee Beste prijs-kortingen](./media/overlapping-discount-combo-01.jpg)
+![Voorbeeld van twee Beste prijs-kortingen.](./media/overlapping-discount-combo-01.jpg)
 
 Voor elke combinatie van twee producten is de beste van deze twee kortingen afhankelijk van de prijzen van de twee producten. Wanneer de prijs van beide producten bijna gelijk of gelijk is, is korting 1 beter. Wanneer de prijs van een product aanzienlijk lager is dan de prijs van het andere product, is korting 2 beter. Hier volgt de wiskundige regel voor het evalueren van de twee kortingen ten opzichte van elkaar.
 
-![Regel voor het evalueren van de kortingen](./media/overlapping-discount-combo-02.jpg)
+![Regel voor het evalueren van de kortingen.](./media/overlapping-discount-combo-02.jpg)
 
 > [!NOTE]
 > Wanneer de prijs van product 1 gelijk is aan tweederde van de prijs van product 2, zijn de twee kortingen gelijk. In dit voorbeeld varieert het effectieve kortingspercentage voor korting 1 van enkele procenten (wanneer de prijzen van de twee producten ver uit elkaar liggen) tot maximaal 25 procent (wanneer de twee producten dezelfde prijs hebben). Het effectieve kortingspercentage voor korting 2 ligt vast. Dit bedraagt altijd 20 procent. Aangezien het effectieve kortingspercentage voor korting 1 een bereik heeft waarin het hoger of lager kan liggen dan korting 2, is de beste korting afhankelijk van de prijzen van de twee producten waarop de korting wordt toegepast. In dit voorbeeld wordt de berekening is snel voltooid, omdat slechts twee kortingen worden toegepast op slechts twee producten. Er zijn slechts twee mogelijke combinaties: toepassing van korting 1 of toepassing van korting 2. Er zijn geen permutaties die moeten worden berekend. De waarde van elke korting wordt berekend met behulp van beide producten en de beste korting wordt gebruikt.
@@ -57,11 +57,11 @@ Vervolgens gebruiken we vier producten en dezelfde twee kortingen. Alle vier pro
 
 Om de tabellen te lezen moet u een product uit een rij nemen en een product uit een kolom. In de tabel voor korting 1 krijgt u bijvoorbeeld € 10 korting als u de twee producten van € 20 combineert. In de tabel voor korting 2 krijgt u € 4 korting als u het product van € 15 combineert met het product van € 5.
 
-![Voorbeeld waarin vier producten voor dezelfde twee kortingen worden gebruikt](./media/overlapping-discount-combo-03.jpg)
+![Voorbeeld waarin vier producten voor dezelfde twee kortingen worden gebruikt.](./media/overlapping-discount-combo-03.jpg)
 
 Allereerst zoeken we de grootste korting die beschikbaar is voor twee willekeurige producten door middel van een van beide kortingen. In de twee tabellen ziet u het kortingsbedrag voor alle combinaties van de twee producten. De gearceerde gedeelten van de tabellen staan voor gevallen waarin een product in combinatie met zichzelf wordt genomen, wat we niet mogen doen, of voor een omgekeerde combinatie van twee producten die hetzelfde kortingsbedrag oplevert en kan worden genegeerd. Als u de tabellen bekijkt, ziet u dat korting 1 voor de twee artikelen van € 20 de grootste korting is die beschikbaar is voor alle kortingen op alle vier producten. Deze korting is groen gemarkeerd in de eerste tabel. Zo blijven twee producten over: dat van € 15 en dat van € 5. Als u opnieuw de twee tabellen bekijkt, ziet u dat voor deze twee producten korting 1 resulteert in een korting van € 2,50, terwijl korting 2 een korting van € 4 oplevert. Daarom selecteren we korting 2. De totale korting bedraagt € 14. Om deze discussie makkelijker te visualiseren, vindt hier u twee extra tabellen die de het effectieve kortingspercentage weergeven voor alle mogelijke combinaties van twee producten voor zowel korting 1 als korting 2. Hierin is slechts de helft van de lijst met combinaties opgenomen, omdat voor deze twee kortingen de volgorde waarin de twee producten worden aangeboden in de korting niet van belang is. De hoogste effectieve korting (25 procent) is groen gemarkeerd. De laagste effectieve korting (10 procent) is rood gemarkeerd.
 
-![Effectieve kortingspercentage voor alle combinaties van twee producten voor beide kortingen](./media/overlapping-discount-combo-04.jpg)
+![Effectieve kortingspercentage voor alle combinaties van twee producten voor beide kortingen.](./media/overlapping-discount-combo-04.jpg)
 
 > [!NOTE]
 > Wanneer prijzen variëren en twee of meer kortingen concurreren, kan de beste combinatie van kortingen alleen worden gegarandeerd door beide kortingen te evalueren en met elkaar te vergelijken.
@@ -70,7 +70,7 @@ Allereerst zoeken we de grootste korting die beschikbaar is voor twee willekeuri
 
 In deze sectie gaan we verder met het voorbeeld uit de vorige sectie. We voegen meer producten en nog een korting toe en zien hoeveel combinaties moeten worden berekend en vergeleken. In de volgende tabel ziet u het aantal mogelijke kortingscombinaties bij een toenemend aantal producten. U ziet hier wat er gebeurt wanneer er twee overlappende kortingen zijn zoals in het vorige voorbeeld, en ok wanneer er drie overlappende kortingen zijn. Het aantal mogelijke kortingscombinaties dat moet worden geëvalueerd neemt snel toe, en zelfs een krachtige computer kan dan de berekening en vergelijking niet snel genoeg uitvoeren om acceptabel zijn voor detailhandeltransacties.
 
-![Aantal mogelijke kortingscombinaties bij een toenemend aantal producten](./media/overlapping-discount-combo-05.jpg)
+![Aantal mogelijke kortingscombinaties bij een toenemend aantal producten.](./media/overlapping-discount-combo-05.jpg)
 
 Wanneer nog grotere hoeveelheden of meer overlappende kortingen worden toegepast, loopt het totale aantal mogelijke kortingscombinaties snel in de miljoenen. De tijd die nodig is om deze te evalueren en de best mogelijke combinatie te selecteren wordt dan snel merkbaar. Enige optimalisatie is doorgevoerd in de prijsengine om het totale aantal combinaties te verlagen dat moet worden geëvalueerd. Omdat het aantal overlappende kortingen en de aantallen in een transactie niet worden beperkt, moet echter altijd een groot aantal combinaties worden geëvalueerd wanneer er overlappende kortingen zijn. Dit is het probleem waarop de de marginale-waardemethode zich richt.
 
@@ -78,7 +78,7 @@ Wanneer nog grotere hoeveelheden of meer overlappende kortingen worden toegepast
 
 Om het probleem op te lossen van exponentieel toenemende aantallen combinaties die moeten worden geëvalueerd, bestaat een optimalisatie die de waarde berekent per gedeeld product van elke korting op de reeks producten waarop twee of meer kortingen kunnen worden toegepast. Deze waarde noemen we de **marginale waarde** van de korting voor de gedeelde producten. De marginale waarde is de toename van het gemiddelde per product in het totale kortingsbedrag, wanneer de gedeelde producten worden opgenomen in elke korting. De marginale waarde wordt berekend door van het totale kortingsbedrag (DTotal) het kortingsbedrag zonder de gedeelde producten af te trekken (DMinus\\ Shared) en dit verschil te delen door het aantal gedeelde producten (ProductsShared).
 
-![Formule voor het berekenen van de marginale waarde](./media/overlapping-discount-combo-06.jpg)
+![Formule voor het berekenen van de marginale waarde.](./media/overlapping-discount-combo-06.jpg)
 
 Nadat de marginale waarde van elke korting voor een gedeelde reeks producten is berekend, worden de kortingen toegepast op de gedeelde producten in de volledige volgorde van de hoogste marginale waarde tot de laagste marginale waarde. Bij deze methode worden niet telkens alle resterende kortingsmogelijkheden vergeleken zodra één exemplaar van een korting is toegepast. In plaats daarvan worden de overlappende kortingen eenmaal vergeleken en vervolgens op volgorde toegepast. Er worden geen extra vergelijkingen uitgevoerd. U kunt de drempel voor overschakelen naar de marginale-waardemethode configureren op het tabblad **Korting** van de pagina **Commerce-parameters**. Welke tijd acceptabel is voor berekening van de totale korting, verschilt van sector tot sector. Deze tijd ligt echter over het algemeen ergens tussen enkele tientallen milliseconden tot één seconde.
 

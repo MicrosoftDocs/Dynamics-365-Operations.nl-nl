@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 24c322712edf1277eabfdd708f528d89bcf43640
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261741"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354804"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Cloud- en randschaaleenheden voor werkbelasting van productie- en magazijnbeheer
 
@@ -41,7 +41,7 @@ Workloadcapaciteiten worden doorlopend vrijgegeven door middel van incrementele 
 
 Schaaleenheden bereiden uw centrale Supply Chain Management-hubomgeving uit met extra toegewezen verwerkingscapaciteit. Schaaleenheden kunnen in de cloud worden uitgevoerd. U kunt ze ook aan de edge, on-premises bij uw lokale faciliteit gebruiken.
 
-:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 met schaaleenheden":::
+:::image type="content" source="./media/cloud_edge-HeroDiagram.png" alt-text="Dynamics 365 met schaaleenheden.":::
 
 Schaaleenheden bieden veerkracht, betrouwbaarheid en schaal voor de toegewezen workloads. De edgeschaaleenheden kunnen tijdelijk worden losgekoppeld van de cloudhubomgeving en werknemers blijven werken in de toegewezen werkbelasting.
 
@@ -157,7 +157,7 @@ Schaaleenheden worden in meerdere voorraadeenheden (SKU's) en prijsopties aangeb
 
 De SKU op invoerniveau staat bekend als *Basic* en de beter presterende SKU wordt *Standard* genoemd. Elke SKU wordt vooraf geladen met een bepaald aantal maandelijkse transacties. U kunt het maandelijkse transactiebudget echter verhogen door invoegingen voor overschrijding toe te voegen voor elke SKU.
 
-:::image type="content" source="media/SKUs-highlevel.png" alt-text="Invoegtoepassingen voor cloudschaaleenheden":::
+:::image type="content" source="media/SKUs-highlevel.png" alt-text="Invoegtoepassingen voor cloudschaaleenheden.":::
 
 > [!TIP]
 > Werk samen met uw partner en Microsoft om inzicht te krijgen in de grootte van de maandelijkse transacties die u nodig hebt en die het beste passen bij uw vereisten.
@@ -181,11 +181,11 @@ Als de tenant die u zoekt niet in de lijst voorkomt, gaat u naar [LCS](https://l
 
 Voor elke tenant wordt in de lijst de onboardingstatus weergegeven.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Lijst met tenants op het tabblad Dynamics 365 Tenants":::
+:::image type="content" source="media/cloud_edge-EnableHybrid1.png" alt-text="Lijst met tenants op het tabblad Dynamics 365-tenants.":::
 
 Selecteer **Klik hier om aan de slag te gaan** voor het aanvragen van onboarding voor de LCS-tenant. U moet de voorwaarden accepteren. U moet ook een zakelijk e-mailadres opgeven waar Microsoft berichten met betrekking tot het onboardingsproces kan verzenden.
 
-:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Aanmelding indienen voor een tenant":::
+:::image type="content" source="media/cloud_edge-EnableHybrid2.png" alt-text="Aanmelding indienen voor een tenant.":::
 
 Microsoft zal uw aanvraag beoordelen en u op de hoogte brengen van de volgende stappen door een e-mailbericht te verzenden naar het adres dat u hebt opgegeven in het aanmeldingsformulier. Microsoft werkt nauw samen met u om schaaleenheden in te stellen in de hybride topologie voor uw bedrijfsscenario.
 
@@ -195,13 +195,13 @@ Nadat de onboarding is voltooid, kunt u de poort gebruiken om schaaleenheden en 
 
 Ga naar de [portal voor schaaleenhedenbeheer](https://aka.ms/SCMSUM) en meld u aan met uw tenant-account. Op de pagina **Schaal eenheden configureren** kunt u een hub-omgeving toevoegen als deze nog niet wordt weergegeven. U kunt vervolgens de hub selecteren die u wilt configureren met schaaleenheden en workloads.
 
-:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Schaaleenheid- en workloadbeheerervaring":::
+:::image type="content" source="media/cloud_edge-Manage.png" alt-text="Schaaleenheid- en workloadbeheerervaring.":::
 
 Selecteer **Schaaleenheden toevoegen** om een of meer schaaleenheden toe te voegen die beschikbaar zijn in uw abonnementen.
 
 Op het tabblad **Gedefinieerde workloads** kunt u de knop **Workload maken** gebruiken om een magazijnbeheerworkload toe te voegen aan een van uw schaaleenheden. Voor elke workload moet u de context opgeven van de processen waarvan de workload de eigenaar is. Voor magazijnbeheerworkloads is de context een specifiek magazijn in een specifieke locatie en rechtspersoon.
 
-:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Workloads maken":::
+:::image type="content" source="media/cloud_edge-DefineWorkload.png" alt-text="Workloads maken.":::
 
 > [!TIP]
 > Na verloop van tijd worden incrementele verbeteringen toegevoegd aan schaaleenhedenbeheer om de LCS-bewerkingen eenvoudiger te maken. De specifieke mogelijkheden voor de huidige versie worden gedocumenteerd in een handboek voor onboarding dat beschikbaar is voor klanten in het onboardingsproces naar de gedistribueerde, hybride topologie voor Supply Chain Management. <!-- KFM: Add a link to the handbook when it is published -->

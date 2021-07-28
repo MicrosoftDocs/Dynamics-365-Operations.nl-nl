@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 18556e35d63ea20b181c525b758788dc0f89f701
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f3e01dd85cbe8e2b2c9095431f3e0aead817a5a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842220"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352757"
 ---
 # <a name="procurement"></a>Inkoop
 
@@ -36,7 +36,7 @@ De lijstpagina **Opdracht tot inkoop voor werkorder** (**Activabeheer** > **Alge
 
 In de onderstaande afbeelding ziet u een voorbeeld van de lijstpagina **Opdracht tot inkoop voor werkorder**.
 
-![Figuur 1](media/08-work-orders.png)
+![Figuur 1.](media/08-work-orders.png)
 
 
 De lijstpagina **Inkoop werkorder** (**Activabeheer** > **Algemeen** > **Inkoop** > **Inkoop werkorder**) toont een lijst van inkooporders die betrekking hebben op werkorders. Wanneer u op deze pagina een werkordertaak selecteert, kunt u de knoppen in de groep **Tonen** van het tabblad **Inkoop werkorder** van het actievenster gebruiken om diverse acties uit te voeren:
@@ -47,7 +47,7 @@ De lijstpagina **Inkoop werkorder** (**Activabeheer** > **Algemeen** > **Inkoop*
 
 In de onderstaande afbeelding ziet u een voorbeeld van de lijstpagina **Inkoop werkorder**.
 
-![Figuur 2](media/09-work-orders.png)
+![Figuur 2.](media/09-work-orders.png)
 
 
 Op de lijstpagina **Inkoop werkorder** en de lijstpagina **Opdracht tot inkoop voor werkorder** wordt er rechts van elke regel een symbool weergegeven dat is gerelateerd aan de controle van de leveringsdatum. Als het pictogram een uitroepteken in een rode cirkel is, betekent dit dat de levering van de betreffende inkooporder of opdracht tot inkoop mogelijk is vertraagd.
@@ -93,7 +93,7 @@ Als u het activiteitsnummer wilt bekijken of invoeren dat aan een inkooporderreg
 
 In onderstaande afbeelding ziet u een voorbeeld van de pagina **Inkooporder** met de focus op het **Activiteitsnummer**.
 
-![Figuur 3](media/10-work-orders.png)
+![Figuur 3.](media/10-work-orders.png)
 
 En als u het activiteitsnummer wilt bekijken of invoeren dat aan een regel voor een opdracht tot inkoop voor werkorder is gekoppeld, selecteert u de record van de opdracht tot inkoop op de lijstpagina **Opdracht tot inkoop voor werkorder** en selecteert u in de kolom **Opdracht tot inkoop** de koppeling voor de opdracht tot inkoop. U vindt het veld **Activiteitsnummer** op het tabblad **Project** van het sneltabblad **Regeldetails**.
 

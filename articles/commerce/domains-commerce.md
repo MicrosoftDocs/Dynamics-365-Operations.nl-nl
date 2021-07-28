@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: fb010f5cb70668913b937b73ba05144f0b99549a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022831"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356825"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domeinen in Dynamics 365 Commerce
 
@@ -38,7 +38,7 @@ Wanneer u een e-commerce-omgeving inricht in [Microsoft Dynamics Lifecycle Servi
 
 De volgende afbeelding toont het inrichtingsscherm voor e-Commerce van LCS met het vak **Ondersteunde hostnamen** gemarkeerd. 
 
-![Inrichtingsscherm voor e-Commerce van LCS met het vak **Ondersteunde hostnamen** gemarkeerd](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![Inrichtingsscherm voor e-Commerce van LCS met het vak **Ondersteunde hostnamen** gemarkeerd.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 U kunt een serviceverzoek maken om extra domeinen aan een omgeving toe te voegen als het inrichten al heeft plaatsgevonden. Als u een serviceaanvraag wilt maken in LCS, gaat u in uw omgeving naar **Ondersteuning \> Ondersteuningsproblemen** en selecteert u **Een incident indienen**.
 
@@ -56,7 +56,7 @@ Wanneer u voor het eerst een site instelt in Site Builder, wordt het dialoogvens
 
 In de volgende afbeelding wordt het dialoogvenster **Uw site instellen weergegeven** voor een site met de naam 'default' wanneer u de site voor het eerst opent in Site Builder.
 
-![Het dialoogvenster **Uw site instellen**](./media/Domains_SetupyoursiteScreen.png)
+![Het dialoogvenster **Uw site instellen**.](./media/Domains_SetupyoursiteScreen.png)
 
 In het vak **Een domein selecteren** kunt u een van de ondersteunde hostnamen voor uw site koppelen in LCS aan uw site koppelen in Site Builder.
 
@@ -79,11 +79,11 @@ Nadat de site is ingesteld met een pad, worden alle URL's die zijn gekoppeld aan
 
 In de volgende afbeelding ziet u het dialoogvenster **Nieuwe URL** in Site Builder met een voorbeeld van een URL-pad. 
 
-![Het dialoogvenster **Nieuwe URL** in Site Builder](./media/Domains_PageSetup2a.png)
+![Het dialoogvenster **Nieuwe URL** in Site Builder.](./media/Domains_PageSetup2a.png)
 
 In de volgende afbeelding ziet u de pagina **URL's** in Site Builder met een voorbeeld van een URL in de lijst.
 
-![De optie Gebruikersstroom uitvoeren in de beleidsstroom](./media/Domains_URLsInSiteBuilder2a.png)
+![De optie Gebruikersstroom uitvoeren in de beleidsstroom.](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Domeinen in Site Builder
 

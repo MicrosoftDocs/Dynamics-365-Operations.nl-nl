@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 38a616c418c3b32490c9adaf69a69af0d47d3478
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 892f8001c52cd40d748c81f27c2f83618b84e5c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019441"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350397"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>Een ontwikkelomgeving voor e-commerce instellen voor foutopsporing op een virtuele machine van Tier 1 Retail Server
 
@@ -38,11 +38,11 @@ Wanneer u fouten opspoort in een Tier 1-omgeving, omdat de site nu een andere Re
 
 In de volgende afbeelding ziet u een voorbeeld van een fout die kan optreden wanneer een variant wordt geselecteerd op een productdetailpagina.
 
-![Fout bij het selecteren van een variant op een productdetailpagina](media/unhandled-rejection-error.jpg)
+![Fout bij het selecteren van een variant op een productdetailpagina.](media/unhandled-rejection-error.jpg)
 
 In de volgende afbeelding ziet u een voorbeeld van een vergelijkbare fout in de foutopsporingstools van een browser (F12 Developer Tools). In het foutbericht wordt gesproken over overtreding van de richtlijn voor inhoudsbeveiliging.
 
-![Fout in programma's voor foutopsporing](media/debugger-tools-error.JPG)
+![Fout in programma's voor foutopsporing.](media/debugger-tools-error.JPG)
 
 ## <a name="resolution"></a>Oplossing
 

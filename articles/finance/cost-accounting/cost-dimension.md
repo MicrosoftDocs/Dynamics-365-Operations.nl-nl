@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a9634612bcffbcf71b77dbb184e71367c67bac10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 09dd9e2d648bec32d1504175dbb1470751e5c915
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822922"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355174"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Dimensies maken en dimensieleden importeren
 
@@ -36,7 +36,7 @@ Een **kostenelement** correspondeert met een kostenrelevant artikel in het reken
 
 De volgende afbeelding illustreert de dimensies die worden gebruikt in Kostprijsboekhouding.
 
-[![Dimensies van kostprijsboekhouding](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
+[![Dimensies van kostprijsboekhouding.](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
 
 Nadat de gegevens in Kostprijsboekhouding zijn geïmporteerd, kunt u hiermee verschillende perspectieven ontwikkelen die managers inzicht bieden in alle niveaus van de organisatie. De volgende onderwerpen bieden informatie over het maken van dimensies en het importeren van dimensieleden. 
 

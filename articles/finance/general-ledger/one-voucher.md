@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 105fdc1b8e8c9e30c0d305894910194591707193
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897763"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356698"
 ---
 # <a name="one-voucher"></a>Eén boekstuk
 
@@ -33,18 +33,18 @@ Met de bestaande functionaliteit voor financiële journalen (algemeen journaal, 
 
 - Stel de journaalnaam in (**Grootboek** \> **Journaal instellen** \> **Journaalnamen**) zodat het veld **Nieuw boekstuk** wordt ingesteld op **Maximaal één boekstuknummer**. Elke regel die u aan het journaal toevoegt, wordt nu opgenomen in hetzelfde boekstuk. Omdat elke regel wordt toegevoegd aan hetzelfde boekstuk, kan het boekstuk dus worden ingevoerd als een boekstuk met meerdere regels, als een rekening/tegenrekening op dezelfde regel of als een combinatie.
 
-    [![Eén regel](./media/same-line.png)](./media/same-line.png)
+    [![Eén regel.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
     > De definitie van Eén boekstuk omvat **geen** gevallen waarin journaalnamen zijn ingesteld als **Maximaal één boekstuknummer**, maar waarvoor de gebruiker vervolgens een boekstuk invoert dat alleen soorten grootboekrekeningen bevat. In dit onderwerp betekent Eén boekstuk dat er één boekstuk is met meer dan één leverancier, klant, bank, vaste activa of project.
 
 - Voer een boekstuk met meerdere regels in wanneer er geen tegenrekening is.
 
-    [![Boekstuk met meerdere regels](./media/Multi-line.png)](./media/Multi-line.png)
+    [![Boekstuk met meerdere regels.](./media/Multi-line.png)](./media/Multi-line.png)
 
 - Voer een boekstuk in waarbij zowel de rekening als de tegenrekening een subgrootboekrekeningtype bevatten, zoals **Leverancier**/**Leverancier**, **Klant**/**Klant**, **Leverancier**/**Klant** of **Bank**/**Bank**.
 
-    [![Boekstuk van subgrootboek](./media/subledger.png)](./media/subledger.png)
+    [![Boekstuk van subgrootboek.](./media/subledger.png)](./media/subledger.png)
 
 ## <a name="issues-with-one-voucher"></a>Problemen met één boekstuk
 
@@ -52,11 +52,11 @@ De functionaliteit van één boekstuk veroorzaakt problemen bij de vereffening, 
 
 U boekt bijvoorbeeld het volgende boekstuk met meerdere regels.
 
-[![Voorbeeld van een boekstuk met meerdere regels](./media/example.png)](./media/example.png)
+[![Voorbeeld van een boekstuk met meerdere regels.](./media/example.png)](./media/example.png)
 
 Vervolgens genereert u het rapport **Onkosten per leverancier** in het werkgebied **Financial Insights**. Dit rapport groepeert onkostenrekeningsaldi onder leveranciersgroep en vervolgens leverancier. Wanneer het rapport wordt genereerd, kan het systeem niet bepalen voor welke groepen leveranciers of leveranciers de onkosten van EUR 250,00 zijn gemaakt. Omdat transactiedetails ontbreken, wordt ervan uitgegaan dat de hele kosten van 250,00 zijn gemaakt door de eerste leverancier die is gevonden in het boekstuk. De kosten van 250,00 die zijn opgenomen in het saldo voor de hoofdrekening 600120, worden daarom weergegeven onder de desbetreffende leveranciersgroep/leverancier. Het is echter zeer waarschijnlijk dat de eerste leverancier in het boekstuk niet de juiste leverancier is. Het rapport is daarom waarschijnlijk onjuist.
 
-[![Onkosten per leveranciersrapport](./media/expenses.png)](./media/expenses.png)
+[![Onkosten per leveranciersrapport.](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>De toekomst van Eén boekstuk
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 51b734e6a94ffdfabb218a19986f1bec65b839e7
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 35ceb14d4d048959ae6a1740791bd4d57f33b34c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102801"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359528"
 ---
 # <a name="trade-allowance-management"></a>Beheer van handelstoeslag
 
@@ -59,7 +59,7 @@ Een handelstoeslagovereenkomst is een aanmoedigingsprogramma waar monetaire verg
 
 Fondsen die worden toegewezen aan toeslagovereenkomsten worden vastgelegd op de pagina **Fondsen**. Als u de pagina **Fondsen** wilt openen, selecteert u **Verkoop en marketing** \>**Handelstoeslagen** \> **Fondsen** \> **Fondsen**.
 
-![Fondsenpagina](./media/trade-allowance-management-funds-page.png "Fondsenpagina")
+![Fondsenpagina.](./media/trade-allowance-management-funds-page.png "Fondsenpagina")
 
 Op de pagina **Fondsen** kunt u de details van promotiefondsen bekijken.
 
@@ -75,7 +75,7 @@ Nadat het fonds is gedefinieerd, is de volgende stap bij het plannen van promoti
 
 Handelstoeslagovereenkomsten worden vastgelegd op de pagina **Handelstoeslagovereenkomsten**. Als u de pagina **Handelstoeslagovereenkomsten** wilt openen, selecteert u **Verkoop en marketing** \> **Handelstoeslagen** \> **Handelstoeslagovereenkomsten**.
 
-![Pagina Handelstoeslagovereenkomsten](./media/trade-allowance-management-agreements-page.png "Pagina Handelstoeslagovereenkomsten")
+![Pagina Handelstoeslagovereenkomsten.](./media/trade-allowance-management-agreements-page.png "Pagina Handelstoeslagovereenkomsten")
 
 #### <a name="header"></a>Koptekst
 
@@ -103,7 +103,7 @@ Het tabblad **Merchandisinggebeurtenissen** bevat de typen gebeurtenissen die do
 
 Wanneer u de merchandisinggebeurtenis selecteert en vervolgens het tabblad **Bedragen** selecteert, vindt u de details voor de gebeurtenis.
 
-![Regels van handelstoeslagovereenkomst](./media/trade-allowance-management-agreements-lines.png "Regels van handelstoeslagovereenkomst")
+![Regels van handelstoeslagovereenkomst.](./media/trade-allowance-management-agreements-lines.png "Regels van handelstoeslagovereenkomst")
 
 In de sectie **Handelstoeslagregels** geeft u de hoeveelheids- of bedragbereiken op die de klant moet realiseren voor definities om de beloningen te verkrijgen.
 

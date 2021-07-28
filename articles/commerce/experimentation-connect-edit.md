@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 4c9c9463162f21cdaf40f1c4ed6d5ae51e97cb88
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4dbfa96e6393bae6ad4ffa642b39a5d04c596c29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799078"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349371"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Een experiment verbinden en variaties bewerken
 
@@ -28,7 +28,7 @@ In dit onderwerp wordt beschreven hoe u uw experiment in Commerce verbindt en ho
 
 In het volgende diagram ziet u alle stappen voor het instellen en uitvoeren van een experiment op een e-Commerce-website in Dynamics 365 Commerce. Extra stappen worden in afzonderlijke onderwerpen behandeld.
 
-[ ![Traject van gebruiker voor experimenten - verbinden en bewerken](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
+[ ![Traject van gebruiker voor experimenten - verbinden en bewerken.](./media/experimentation_connect_edit.svg) ](./media/experimentation_connect_edit.svg#lightbox)
 
 Nadat u [uw experiment hebt ingesteld](experimentation-setup.md) in een service van derden, verbindt u het experiment in Dynamics 365 Commerce en bewerkt u de experimentvariaties.
 

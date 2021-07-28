@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 279212d05615805dd74c702b2b98c344c87fdc78
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944528"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348674"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
@@ -85,7 +85,7 @@ Sommige van de meest gangbare en belangrijke wijzigingen die in een pagina kunne
 
 Bovendien zijn de meest algemene typen aanpassing beschikbaar door met de rechtermuisknop op een element te klikken en vervolgens **Aanpassen** te selecteren. (Houd er rekening mee dat niet alle elementen op uw pagina kunnen worden aangepast.) Wanneer u deze methode van aanpassing selecteert, ziet u het *eigenschappenvenster* van het element.
 
-![Eigenschappen van een element aanpassen](./media/cli-element-property-window.png)
+![Eigenschappen van een element aanpassen.](./media/cli-element-property-window.png)
 
 U kunt het eigenschappenvenster gebruiken om een element op de volgende manieren aan te passen:
 
@@ -107,7 +107,7 @@ Als u meerdere wijzigingen in een pagina wilt aanbrengen of wijzigingen wilt doo
 - Selecteer **Deze pagina aanpassen** in de groep **Aanpassen** op het tabblad **Opties** van het actievenster van een pagina.
 - Selecteer de knop **Instellingen** (het tandwielsymbool) op de navigatiebalk en selecteer **Aanpassen.**
 
-[![Aanpassingswerkbalk](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Aanpassingswerkbalk.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Navigeren op de pagina
 
@@ -147,7 +147,7 @@ Voor sommige pagina's die lijsten bevatten, is de aanpassingsfunctie **Toevoegen
 > [!NOTE]
 > Als de functie [Opgeslagen weergaven](saved-views.md) is ingeschakeld, is de inhoud die u naar een werkgebied verplaatst, rechtstreeks aan een weergave gekoppeld. De query van de weergave wordt gebruikt om gegevens op te halen in de werkruimte. De bijbehorende tegel of koppeling in het werkgebied opent de pagina voor die weergave, zodat de query en de persoonlijke instellingen van de weergave worden toegepast. Als de weergave wordt bijgewerkt, worden de bijbehorende elementen van de werkruimte aangepast aan de nieuwe weergavedefinitie.
 
-[![Toevoegen aan werkgebied](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Toevoegen aan werkgebied.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Als u een lijst aan een werkgebied wilt toevoegen, sorteert of filtert u de lijst op de pagina eerst, zodat deze de informatie bevat zoals u deze wilt weergeven in het werkgebied. (Als de functie **Opgeslagen weergaven** is ingeschakeld, kunt u pas doorgaan nadat u een weergave met deze voorwaarden hebt opgeslagen.) Selecteer vervolgens **Toevoegen aan werkruimte**. Selecteer een werkgebied en selecteer in het veld **Presentatie** de optie **Lijst**. Nadat u **Configureren** hebt geselecteerd, verschijnt een dialoogvenster waarin u de kolommen kunt selecteren die moeten worden weergegeven in de lijst in het werkgebied. Ook kunt u het label opgeven dat wordt gebruikt voor de lijst in het werkgebied.
 - Als u een tegel aan een werkgebied wilt toevoegen, filtert u eerst de lijst op de pagina om de gegevens weer te geven waarvan u een overzicht wilt of waartoe u snel toegang wilt. (Als de functie **Opgeslagen weergaven** is ingeschakeld, kunt u pas doorgaan nadat u een weergave met deze voorwaarden hebt opgeslagen.) Selecteer vervolgens **Toevoegen aan werkruimte**. Selecteer een werkgebied en selecteer in het veld **Presentatie** de optie **Tegel**. Nadat u **Configureren** hebt geselecteerd, verschijnt een dialoogvenster waarin u het label kunt opgeven dat moet worden gebruikt voor de tegel in het werkgebied. U kunt ook opgeven of de tegel een telling moet weergeven. Nadat de tegel is toegevoegd aan het werkgebied, kunt u deze selecteren om de huidige pagina te openen vanuit het werkgebied. Vervolgens kunt u de gefilterde lijst bekijken die aan de tegel is gekoppeld.

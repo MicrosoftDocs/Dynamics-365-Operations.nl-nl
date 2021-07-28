@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9392245abe5858b03b8324dcb471f5652aed7cd6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c2d88315d95d8376cd1b00ddb11ba008f11a98c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813888"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351604"
 ---
 # <a name="calculate-item-forecast"></a>Artikelprognose berekenen
 
@@ -56,7 +56,7 @@ Dit is handig als u een overzicht wilt weergeven van het verwachte artikelverbru
 
 8. Klik op de knop **Dimensies weergeven** als u de product-, opslag- of traceringsdimensies wilt weergeven die betrekking hebben op de artikelen. Schakel de relevante selectievakjes in en klik op **OK**.
 
-![Figuur 1](media/02-capacity-planning.png)
+![Figuur 1.](media/02-capacity-planning.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

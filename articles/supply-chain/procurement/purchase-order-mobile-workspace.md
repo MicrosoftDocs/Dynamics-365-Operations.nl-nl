@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 26f0dc3b128daf8c7d8a05d6f3cacc5b7de0c756
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 964c54ba85f585bc90c5f7d78b2393195dd664bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909103"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353487"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Mobiel werkgebied Goedkeuring van inkooporder
 
@@ -83,7 +83,7 @@ Download en installeer de mobiele Finance and Operations-app:
 3. De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren. Voer uw referenties in.
 4. Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven. Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.
 
-![Werkgebied Goedkeuring van inkooporders in de lijst van beschikbare werkgebieden](./media/po-workspaces.png)
+![Werkgebied Goedkeuring van inkooporders in de lijst van beschikbare werkgebieden.](./media/po-workspaces.png)
 
 ## <a name="view-orders-that-are-assigned-to-you"></a>Orders weergeven die aan u zijn toegewezen
 1. Selecteer op uw mobiele apparaat het werkgebied **Goedkeuring van inkooporders**.

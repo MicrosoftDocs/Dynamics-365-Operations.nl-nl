@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: b52331bb1c7a1bc2c764008112f3df9cc0385995
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9213827ea1ad342beb7ac2fe586606651cfdcfa1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023163"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358429"
 ---
 # <a name="set-up-payment-fees-for-tds-authority-payments"></a>Bijzondere betalingskosten instellen voor betalingen aan een TDS-dienst
 
@@ -31,7 +31,7 @@ In dit onderwerp wordt uitgelegd hoe u bijzondere betalingskosten moet instellen
 
 1. Ga naar **Leveranciers \> Betalingsinstelling \> Bijzondere betalingskosten**.
 
-    [![Pagina Bijzondere betalingskosten](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
+    [![Pagina Bijzondere betalingskosten.](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
 
 2. Selecteer **Nieuw** om bijzondere betalingskosten te maken en voer de vereiste gegevens in.
 3. Selecteer het type bijzondere betalingskosten in het veld **Type bijzondere kosten**:
@@ -46,7 +46,7 @@ In dit onderwerp wordt uitgelegd hoe u bijzondere betalingskosten moet instellen
 5. Voer de andere vereiste gegevens in.
 6. Selecteer in het actievenster **Instellingen van bijzondere betalingskosten** om de pagina **Instellingen van bijzondere betalingskosten** te openen, waar u bijzondere betalingskosten kunt instellen voor verschillende combinaties van banken, betalingsmethoden, betalingsspecificaties, valuta's en datumintervallen.
 
-    [![Pagina Instellingen van bijzondere betalingskosten](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
+    [![Pagina Instellingen van bijzondere betalingskosten.](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
 
 7. Geef op het tabblad **Overzicht** in het veld **Groeperingen** op voor welke banken u de bijzondere betalingskosten wilt instellen:
 
@@ -64,7 +64,7 @@ In dit onderwerp wordt uitgelegd hoe u bijzondere betalingskosten moet instellen
 15. Selecteer in het veld **Valuta van kosten** de valutacode voor de bijzondere kosten op.
 16. Selecteer op het tabblad **Algemeen** om de details voor de geselecteerde bankrekening weer te geven of te wijzigen.
 
-    [![Tabblad Algemeen](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
+    [![Tabblad Algemeen.](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
 
 16. Voer in het veld **Minimum** het minimumtransactiebedrag in dat de bijzondere kosten activeert.
 17. Voer in het veld **Maximum** het maximumtransactiebedrag in dat de bijzondere kosten activeert.
@@ -74,7 +74,7 @@ In dit onderwerp wordt uitgelegd hoe u bijzondere betalingskosten moet instellen
 21. Selecteer in het veld **Btw-groep voor artikel** de artikel-btw-groep die u wilt gebruiken om de artikel-btw voor het bedrag van de bijzondere kosten te berekenen.
 22. Selecteer het tabblad **Interval**. 
 
-    [![Tabblad Interval](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
+    [![Tabblad Interval.](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
 
 23. Voer in het veld **Dagen** het aantal dagen in tussen de boekingsdatum (kortingsdatum) van de betaling en de vervaldatum van de promesse.
 24. Selecteer in het veld **Percentage/bedrag** of de specificatie een percentage of een ingesteld bedrag is.

@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 274363
+ms.custom:
+- "274363"
+- intro-internal
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 734fbdd6f62c192580029a24844fff78fda8b919
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fdd2995da04aa4752868a84499c81c2c01d80c16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809585"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360443"
 ---
 # <a name="arrival-overview"></a>Overzicht aankomst
 
@@ -34,7 +36,7 @@ De pagian **Overzicht aankomst** bevat een overzicht van alle verwachte binnenko
 ## <a name="business-scenario"></a>Zakelijke scenario
 Neem het volgende scenario in de inkomende processen in overweging.
 
-[![Zakelijke scenario](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
+[![Zakelijke scenario.](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy, een ontvangstadministrateur, wil weten welke ontvangsten worden verwacht op de huidige dag. Op de pagina **Overzicht aankomst** krijgt Sammy een overzicht van de huidige taken en een ruwe schatting van hoeveelheden, volume, gewicht, verschillende ordertypen enzovoort. Later, komt een levering binnen bij een van de inbound docks aankomt en ontvangt Sammy een lijst met de levering. Op de pagina **Overzicht aankomst** kan Sammy de volgende taken uitvoeren:
 
@@ -66,7 +68,7 @@ Als u automatisch ontvangstjournalen wilt maken vanaf de pagina **Overzicht aank
 
 -   U moet een journaalnaam opgeven om een journaal te maken.
 
-[![Een journaalnaam opgeven](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
+[![Een journaalnaam opgeven.](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
 -   Als u waarden opgeeft in de velden **Magazijn** en **Locatie**, worden die waarden toegepast op de journaalregels. Als u geen waarden opgeeft, gebruikt het systeem de waarden van de dimensie die is opgegeven in de voorraadtransacties.
 

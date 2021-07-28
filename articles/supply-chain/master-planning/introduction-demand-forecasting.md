@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 72004
+ms.custom:
+- "72004"
+- intro-internal
 ms.assetid: 916707c9-1333-460f-a0fa-4e95f6fda2ad
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9e00c980183708c5b9e995fb2a26d45baf13ca14
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cd029ae873ee604beb841568ce7f15b2e1575060
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829733"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348776"
 ---
 # <a name="demand-forecasting-overview"></a>Overzicht vraagprognose
 
@@ -61,7 +63,7 @@ Drie belangrijke thema's zijn geïmplementeerd in vraagprognose:
 
 Het volgende schema geeft de basisstroom voor vraagprognose weer.
 
-[![Diagram Inleiding op vraagprognoses](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
+[![Diagram Inleiding op vraagprognoses.](./media/demand-forecasting-introduction.png)](./media/demand-forecasting-introduction.png)
 
 Het genereren van vraagprognoses begint in Supply Chain Management. De historische transactiegegevens uit de Supply Chain Management-transactiedatabase worden verzameld en ingevuld in een faseringstabel. Deze faseringstabel wordt later ingevoerd voor een Machine Learning-service. Door minimale aanpassing uit te voeren kunt u verschillende gegevensbronnen in de faseringstabel invoeren. De gegevensbronnen kunnen Microsoft Excel-bestanden bevatten, CSV-bestanden (bestanden met door komma's gescheiden waarden) en gegevens uit Microsoft Dynamics AX 2009 en Microsoft Dynamics AX 2012. U kunt daarom vraagprognoses genereren waarin historische gegevens worden meegenomen die over meerdere systemen worden verspreid. De hoofdgegevens, zoals artikelnamen en maateenheden, moeten echter hetzelfde zijn over de diverse gegevensbronnen.
 

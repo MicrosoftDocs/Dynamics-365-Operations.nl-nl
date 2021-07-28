@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: adb8e1a0fef93fdd66a4cbac82689ff7a19aca4a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2672520ddf21e565edee5024d6886cabb18d6e94
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754771"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348623"
 ---
 # <a name="find-information-by-using-lookups"></a>Informatie vinden met zoekopdrachten
 
@@ -44,15 +44,15 @@ Neem bijvoorbeeld een lookup-veld met de naam **Plaats**.
 
 Wanneer de focus zich in het veld **Plaats** bevindt, kunt u naar de gewenste plaatsnaam gaan zoeken door een paar letters te typen, zoals 'col'. Nadat u ophoudt met typen, wordt de lookup automatisch geopend. De lijst is gefilterd op plaatsnamen die beginnen met 'col'.
 
-[![typeaheadLookupExample](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
+[![typeaheadLookupExample.](./media/typeaheadlookupexample.png)](./media/typeaheadlookupexample.png)
 
 De cursor bevindt zich op dit moment nog steeds in het zoekveld. Als u doorgaat met typen zodat de waarde 'colum' is, wordt de inhoud van de lookup automatisch aangepast aan de meest recente waarde in het besturingselement.
 
-![updateFilterLookupExample](./media/updatefilterlookupexample.png)
+![updateFilterLookupExample.](./media/updatefilterlookupexample.png)
 
 Hoewel het lookup-besturingselement nog steeds de focus heeft, u kunt ook met de toetsen **pijl-omhoog** of **pijl-omlaag** de rij markeren die u wilt selecteren. Als u op **Enter** drukt, wordt de gemarkeerde rij geselecteerd uit de lookup en de waarde van het besturingselement wordt bijgewerkt.
 
-![changingSelectionLookup](./media/changingselectionlookup.png)
+![changingSelectionLookup.](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Meer invoeren dan id's
 
@@ -72,15 +72,15 @@ De gebruiker kan nu echter ook het begin van een **Accountnaam** invoeren. Als d
 
 De lookup-verbeteringen die in de voorgaande twee secties zijn besproken, maken het de gebruiker aanzienlijk makkelijker om door rijen in een lookup te bladeren op basis van een zoekopdracht 'begint met' voor de velden **Id** of **Naam** in de lookup. Er zijn echter situaties waarin meer geavanceerde filteren (of sorteren) nodig is om de juiste rij te vinden. In dergelijke situaties moet de gebruiker de opties voor filteren en sorteren in de rasterkolomkoppen in de lookup gebruiken. Stel dat een werknemer een verkooporderregel invoert en als product de juiste 'cable' moet vinden. Het woord 'cable' invoeren in het besturingselement voor **Artikelnummer** is niet zo handig, omdat er geen productnamen zijn die beginnen met 'cable'.
 
-![legeartikellookup](./media/emptyitemlookup.png)
+![emptyitemlookup.](./media/emptyitemlookup.png)
 
 In plaats daarvan moet de gebruiker de waarde in het lookup-besturingselement wissen, de lookup-vervolgkeuzelijst openen en filteren met behulp van de rasterkolomkop, zoals hieronder weergegeven. Een gebruiker met muis of touchscreen kan elke kolomkop aanklikken of aantikken om de filter- en sorteeropties voor die kolom te openen. Een gebruiker die een toetsenbord gebruikt, moet de toetscombinatie **Alt**+**pijl**-**omlaag** nog een keer indrukken. De focus wordt nu naar de vervolgkeuzelijst verplaatst, waarna de gebruiker de juiste kolom kan selecteren. Als hij dan **Ctrl**+**G** indrukt, wordt de vervolgkeuzelijst van de rasterkolomkop geopend.
 
-[![rasterfilterartikellookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
+[![gridfilteritemlookup.](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png)
 
 Nadat het filter is toegepast (zie de onderstaande afbeelding), kan de gebruiker de rij zoals gebruikelijk zoeken en selecteren.
 
-![gefilterdartikellookup](./media/filtereditemlookup.png)
+![filtereditemlookup.](./media/filtereditemlookup.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

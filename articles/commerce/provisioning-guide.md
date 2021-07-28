@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b675d4af6fb9a080f3f3a13e64b2c5b6ad4b783
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8b288a0d6b7516faf635486fbaad885344d2cc6f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022417"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352079"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Een evaluatieomgeving voor Dynamics 365 Commerce inrichten
 
@@ -90,16 +90,16 @@ Ga als volgt te werk om de omgeving te implementeren.
 1. Selecteer in het veld **Toepassingsversie** de meest recente versie. Als u specifiek een andere toepassingsversie dan de meest recente versie wilt selecteren, moet u geen eerdere versie dan **10.0.14** selecteren.
 1. Gebruik in het veld **Platformversie** de platform versie die automatisch wordt gekozen voor de toepassingsversie die u hebt geselecteerd. 
 
-    ![Toepassings- en platformversies selecteren](./media/project1.png)
+    ![Toepassings- en platformversies selecteren.](./media/project1.png)
 
 1. Selecteer **Volgende**.
 1. Selecteer **Demo** als de omgevingstopologie.
 
-    ![De omgevingstopologie 1 selecteren](./media/project2.png)
+    ![De omgevingstopologie 1 selecteren.](./media/project2.png)
 
 1. Voer op de pagina **Omgeving implementeren** een omgevingsnaam in. Laat geavanceerde instellingen ongewijzigd.
 
-    ![De pagina Omgeving implementeren](./media/project4.png)
+    ![De pagina Omgeving implementeren.](./media/project4.png)
 
 1. Pas de VM-grootte naar wens aan. (We raden VM-voorraadeenheid \[SKU\] **D13 v2** aan.)
 1. Controleer de prijs- en licentievoorwaarden en schakel vervolgens het selectievakje in om aan te geven dat u ermee instemt.

@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f380f3f56727d927d7cd328fef3c9d999afa2873
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f9fffb5b4f51c86076d62ac2a44bdc779490c7bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794344"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351268"
 ---
 # <a name="default-category-landing-page-and-search-results-page-overview"></a>Overzicht van de standaard landingspagina voor categorieën en pagina met zoekresultaten
 
@@ -31,7 +31,7 @@ In dit onderwerp vindt u een overzicht van de standaard landingspagina voor cate
 
 De standaard landingspagina voor categorieën is de pagina waar websitegebruikers doorgaans naartoe worden geleid wanneer ze een categorie in de navigatiehiërarchie selecteren. Op de categoriepagina kunt u bladeren en de producten in de categorieën sorteren en verfijnen.
 
-![Standaard landingspagina voor categorieën](./media/SimpleCategoryLandingDressCategory.png)
+![Standaard landingspagina voor categorieën.](./media/SimpleCategoryLandingDressCategory.png)
 
 Boven aan de pagina staat een koptekst waarin alle productcategorieën en andere pagina's worden weergegeven die door de merchandisingmanager zijn ingedeeld. De configuratie wordt uitgevoerd als onderdeel van de configuratie van de navigatiehiërarchie voor afzetkanalen. Onder aan de pagina staat een voettekst die snelkoppelingen bevat naar verschillende onderwerpen waarin klanten mogelijk geïnteresseerd zijn.
 
@@ -55,7 +55,7 @@ De volgende onderdelen zijn essentieel voor een categorie:
 
 Als u een landingspagina wilt aanpassen voor een specifieke categorie, kunt u de categorielandingspagina "verrijken". U kunt bijvoorbeeld een marketingvideo en een bepaalde categorie toevoegen om de aandacht van de klant te vragen. Zie [Een landingspagina voor een categorie verrijken](enrich-category-page.md) voor meer informatie.
 
-![Verrijkte landingspagina voor categorie](./media/CategoryLandingPages.png)
+![Verrijkte landingspagina voor categorie.](./media/CategoryLandingPages.png)
 
 ## <a name="auto-suggest-and-search-results-pages"></a>Pagina's met automatische suggesties en zoekresultaten
 
@@ -69,11 +69,11 @@ Hieronder ziet u enkele voor beelden van suggesties die kunnen worden weergegeve
 - **Producten** bieden directe koppelingen naar de pagina met productgegevens.
 - **Zoeksuggesties voor categorieën in bereik** vermelden verschillende categorieën en laten gebruikers het trefwoord zoeken in een bepaalde categorie.
 
-![Automatische suggesties](./media/ImmersiveAutoSuggestUX.png)
+![Automatische suggesties.](./media/ImmersiveAutoSuggestUX.png)
 
 Wanneer gebruikers een suggestie selecteren voor trefwoorden of de voor zoekcategorieën, of als er geen suggesties zijn voor de zoekterm die ze invoeren, worden ze omgeleid naar een pagina met zoekresultaten. De gebruikers kunnen vervolgens door de lijst bladeren, sorteren en de lijst met zoekresultaten verfijnen om het gewenste artikel te vinden.
 
-![Landingspagina voor zoeken](./media/SearchLanding.png)
+![Landingspagina voor zoeken.](./media/SearchLanding.png)
 
 De volgende onderdelen zijn essentieel voor een pagina met zoekresultaten:
 
@@ -94,13 +94,13 @@ De volgende onderdelen zijn essentieel voor een pagina met zoekresultaten:
 
 >[!NOTE]
 >Deze zoekmogelijkheden via de cloud zijn beschikbaar vanaf versie 10.0.8. Zorg ervoor dat onder **Commerce-parameters > Configuratieparameters** een vermelding bestaat voor ProductSearch.UseAzureSearch die is ingesteld op true. 
-![Configuratieparameters voor zoekopdrachten via de cloud](./media/CloudPoweredSearchConfigurationParameters.png)
+![Configuratieparameters voor zoekopdrachten via de cloud.](./media/CloudPoweredSearchConfigurationParameters.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van zoekopdrachten via cloud](cloud-powered-search-overview.md)
 
-[Overzicht van de startpagina](quick-tour-home-page.md)
+[Overzicht van startpagina](quick-tour-home-page.md)
 
 [Overzicht van de pagina met productgegevens](quick-tour-pdp.md)
 

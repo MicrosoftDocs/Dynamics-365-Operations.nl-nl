@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
-ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
+ms.openlocfilehash: 115eaad4f11fc4fb5321f0d8bb9d4f5a9f2f2c7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6306384"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358588"
 ---
 # <a name="unified-product-experience"></a>Uniforme productervaring
 
@@ -33,15 +33,15 @@ Wanneer een zakelijk ecosysteem bestaat uit Dynamics 365-toepassingen, zoals Fin
 
 Dit is het productgegevensmodel van Sales.
 
-![Gegevensmodel voor producten in CE](media/dual-write-product-4.jpg)
+![Gegevensmodel voor producten in CE.](media/dual-write-product-4.jpg)
 
 Dit is het productgegevensmodel van Finance and Operations-apps.
 
-![Gegevensmodel voor producten in Finance and Operations](media/dual-write-products-5.jpg)
+![Gegevensmodel voor producten in Finance and Operations.](media/dual-write-products-5.jpg)
 
 Deze twee productgegevensmodellen zijn geïntegreerd in Dataverse zoals hieronder weergegeven.
 
-![Gegevensmodel voor producten in Dynamics 365-apps](media/dual-write-products-6.jpg)
+![Gegevensmodel voor producten in Dynamics 365-apps.](media/dual-write-products-6.jpg)
 
 De tabeltoewijzingen voor twee keer wegschrijven voor producten zijn zo ontworpen dat gegevens alleen in één richting stromen, bijna in realtime, tussen Finance and Operations-apps en Dataverse. De productinfrastructuur is echter open, zodat deze zo nodig bidirectioneel kan worden gemaakt. Hoewel u dit kunt aanpassen, doet u dat op eigen risico, aangezien Microsoft deze aanpak niet aanbeveelt.
 
@@ -86,7 +86,7 @@ Omdat het product als een SKU wordt voorgesteld, kunt u de concepten van afzonde
 - **Productmodellen** worden gebruikt als algemene producten die de definitie bevatten en regels die het gedrag in bedrijfsprocessen bepalen. Op basis van deze definities kunnen verschillende producten worden gegenereerd die productvarianten worden genoemd. T-shirt is bijvoorbeeld het productmodel dat kleur en maat als dimensies kan hebben. Er kunnen varianten worden vrijgegeven die verschillende combinaties van deze dimensies hebben, zoals een klein blauw T-shirt of een middelgroot groen T-shirt. Bij de integratie wordt één rij per variant gemaakt in de producttabel. Deze rij bevat de specifieke gegevens over varianten, zoals de verschillende dimensies. De algemene informatie voor het product wordt opgeslagen in de tabel **msdyn\_sharedproductdetails**. (Deze algemene informatie bevindt zich in het productmodel.) De productmodelgegevens worden gesynchroniseerd met Dataverse zodra het vrijgegeven productmodel wordt gemaakt (maar voordat varianten worden vrijgegeven).
 - **Verschillende producten** verwijzen naar alle subtypeproducten van het product en alle productvarianten. 
 
-![Gegevensmodel voor producten](media/dual-write-product.png)
+![Gegevensmodel voor producten.](media/dual-write-product.png)
 
 Als de functie voor twee keer wegschrijven is ingeschakeld, worden de producten van Finance and Operations gesynchroniseerd in andere Dynamics 365-producten in de status **Concept**. Ze worden toegevoegd aan de eerste prijslijst met dezelfde valuta. Met andere woorden: ze worden toegevoegd aan de eerste prijslijst in een Dynamics 365-app die overeenkomt met de valuta van uw rechtspersoon waar het product wordt vrijgegeven in een Finance and Operations-app. Als er geen prijslijst voor de opgegeven valuta is, wordt automatisch een prijslijst gemaakt en wordt het product eraan toegewezen. 
 
@@ -112,7 +112,7 @@ De synchronisatie van producten gebeurt vanuit de Finance and Operations-app naa
 
 Productdimensies zijn kenmerken die de variant van een product identificeren. De vier productdimensies (kleur, maat, stijl en configuratie) worden ook toegewezen aan Dataverse voor het definiëren van de productvarianten. In de volgende afbeelding wordt het gegevensmodel voor de productdimensie Kleur weergegeven. Hetzelfde model wordt toegepast op maten, stijlen en configuraties. 
 
-![Gegevensmodel voor productdimensies](media/dual-write-product-two.png)
+![Gegevensmodel voor productdimensies.](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -148,7 +148,7 @@ Standaardorderinstellingen definiëren de locatie en het magazijn waaruit de art
 
 De maateenheden en de bijbehorende conversie zijn beschikbaar in Dataverse conform het gegevensmodel dat in het diagram wordt weergegeven.
 
-![Gegevensmodel voor maateenheid](media/dual-write-product-three.png)
+![Gegevensmodel voor maateenheid.](media/dual-write-product-three.png)
 
 Het concept voor maateenheden is geïntegreerd tussen de Finance and Operations-apps en de andere Dynamics 365-apps. Voor elke eenheidsklasse in een Finance and Operations-app wordt een eenhedengroep gemaakt in een Dynamics 365-app, die de eenheden bevat die bij de eenheidsklasse horen. Er wordt ook een standaard basiseenheid voor elke eenhedengroep gemaakt. 
 

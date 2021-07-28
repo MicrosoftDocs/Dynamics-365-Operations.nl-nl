@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 248de8e12703a84482b67d0899857a6efb33531c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a698a8ccc781167060400068dc4011d318b5fe53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023144"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360202"
 ---
 # <a name="update-certificate-numbers-and-dates-for-tds-transactions"></a>Certificaatnummers en -datums voor TDS-transacties bijwerken
 
@@ -33,7 +33,7 @@ Volg deze stappen om certificaatnummers en -datums voor TDS-transacties bij te w
 
 1. Ga naar **Belasting \> Aangiften \> Bronbelasting \> Certificaat bijwerken**.
 
-    [![Pagina Certificaat bijwerken](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
+    [![Pagina Certificaat bijwerken.](./media/apac-ind-TDS-45.png)](./media/apac-ind-TDS-45.png)
 
 2. Selecteer **TDS** op de pagina **Certificaat bijwerken** in de sectie **Selecteren** in het veld **Belastingtype**.
 3. Selecteer in het veld **Certificaatnummer** het TDS-certificaatnummer van de klant of leverancier.
@@ -60,4 +60,4 @@ Volg deze stappen om certificaatnummers en -datums voor TDS-transacties bij te w
 8. Selecteer **Bijwerken** om de velden **Certificaatnummer** en **Certificaatdatum** voor TDS-transacties bij te werken in het onderste raster.
 10. Ga naar **Belasting \> Indirecte belasting \> Bronbelasting \> Certificaat voor terugvordering** en selecteer **Opvraag** om de bijgewerkte transactieregels weer te geven met de nieuwe certificaatnummers op de pagina **Certificaattransacties**.
 
-    [![Certificaattransacties](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)
+    [![Certificaattransacties.](./media/apac-ind-TDS-46.png)](./media/apac-ind-TDS-46.png)

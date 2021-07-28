@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6e8fb2baf85be0eaecfffcc7ec6cbb457c3bb04
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: eec18dbffe33bc6366b4282d05189b31620616d6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021885"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351244"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Implementatieopties voor netwerk voor contentlevering
 
@@ -40,7 +40,7 @@ Alle drie de CDN-implementatieopties leveren alleen dynamische HTML-inhoud vanui
 
 De volgende afbeelding biedt een overzicht van de Commerce-architectuur.
 
-![Overzicht van de Commerce-architectuur](media/Commerce_CDN-Option_ComparisonModels.png)
+![Overzicht van de Commerce-architectuur.](media/Commerce_CDN-Option_ComparisonModels.png)
 
 Zie [CDN-ondersteuning toevoegen](add-cdn-support.md) voor meer informatie over het instellen van een exemplaar van Azure Front Door voor uw Commerce-site.
 
@@ -54,7 +54,7 @@ De volgende tabel bevat de voors en tegens van het gebruik van het door Commerce
 
 De onderstaande afbeelding toont de architectuur van het door Commerce geleverde exemplaar van Azure Front Door.
 
-![Door Commerce geleverd exemplaar van Azure Front Door](media/Commerce_CDN-Option_CommerceFrontDoor.png)
+![Door Commerce geleverd exemplaar van Azure Front Door.](media/Commerce_CDN-Option_CommerceFrontDoor.png)
 
 ## <a name="use-a-customer-owned-azure-front-door-instance"></a>Een exemplaar van de Azure Front Door van een klant gebruiken
 
@@ -66,7 +66,7 @@ De volgende tabel bevat de voors en tegens van het gebruik van een exemplaar van
 
 De volgende afbeelding toont een Commerce-infrastructuur die een exemplaar van Azure Front Door bevat waarvan een klant eigenaar is.
 
-![Commerce-infrastructuur die een exemplaar van Azure Front Door bevat waarvan een klant eigenaar is](media/Commerce_CDN-Option_CustomerOwnedAzureFrontDoor.png)
+![Commerce-infrastructuur die een exemplaar van Azure Front Door bevat waarvan een klant eigenaar is.](media/Commerce_CDN-Option_CustomerOwnedAzureFrontDoor.png)
 
 ## <a name="use-an-external-cdn-service"></a>Een externe CDN-service gebruiken
 
@@ -78,7 +78,7 @@ In de volgende tabel worden de voors en tegens aangegeven van het gebruik van ee
 
 De volgende illustratie toont een Commerce-infrastructuur die een externe CDN-service omvat.
 
-![Commerce-infrastructuur die een externe CDN-service omvat](media/Commerce_CDN-Option_ExternalFrontDoor.png)
+![Commerce-infrastructuur die een externe CDN-service omvat.](media/Commerce_CDN-Option_ExternalFrontDoor.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

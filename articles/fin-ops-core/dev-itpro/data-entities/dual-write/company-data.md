@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: ab063c66712b43818f58eee1493ec168771ae97a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941024"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350954"
 ---
 # <a name="company-concept-in-dataverse"></a>Bedrijfsconcept in Dataverse
 
@@ -43,7 +43,7 @@ Omdat bedrijfseenheid en bedrijf geen gelijkwaardige concepten zijn, is het niet
 
 In de volgende afbeelding ziet u een voorbeeld van deze gegevensinstelling in Dataverse.
 
-![Gegevensinstelling in Dataverse](media/dual-write-company-1.png)
+![Gegevensinstelling in Dataverse.](media/dual-write-company-1.png)
 
 Vanwege deze configuratie is elke rij die is gerelateerd aan het bedrijf USMF, eigendom van een team dat is gekoppeld aan de bedrijfseenheid USMF in Dataverse. Daarom kunnen gebruikers die toegang hebben tot die bedrijfseenheid via een beveiligingsrol die is ingesteld op zichtbaarheid op bedrijfseenheidsniveau, deze rijen nu zien. In het volgende voorbeeld ziet u hoe teams kunnen worden gebruikt om de juiste toegang tot deze rijen te bieden.
 
@@ -52,21 +52,21 @@ Vanwege deze configuratie is elke rij die is gerelateerd aan het bedrijf USMF, e
 + Het team USMF Sales is gekoppeld aan de bedrijfseenheid USMF die eerder is vermeld.
 + Daarom kunnen leden van het team USMF Sales elk account zien dat eigendom is van de gebruiker USMF DW, die afkomstig zou zijn van de bedrijfstabel USMF in Finance and Operations.
 
-![Hoe teams kunnen worden gebruikt](media/dual-write-company-2.png)
+![Hoe teams kunnen worden gebruikt.](media/dual-write-company-2.png)
 
 Zoals u in de voorgaande afbeelding kunt zien, is deze 1:1-toewijzing tussen bedrijfseenheid, bedrijf en team slechts een beginpunt. In dit voorbeeld wordt in Dataverse handmatig een nieuwe bedrijfseenheid Europa gemaakt als bovenliggend element voor zowel DEMF als ESMF. Deze nieuwe bedrijfseenheid in de basismap is niet gerelateerd aan Twee keer wegschrijven. Deze kan echter worden gebruikt om leden van het team EUR Sales toegang te geven tot accountgegevens in zowel DEMF als ESMF, door de zichtbaarheid van gegevens in te stellen op **Bovenliggende/onderliggende bedrijfseenheid** in de bijbehorende beveiligingsrol.
 
 In een laatste onderwerp wordt beschreven hoe Twee keer wegschrijven bepaalt aan welk eigenaarsteam rijen moeten worden toegewezen. Dit gedrag wordt bepaald met de kolom **Standaardeigenaarsteam** van de cdm\_Company-rij. Wanneer een cdm\_Company-rij is ingeschakeld voor Twee keer wegschrijven, maakt een invoegtoepassing automatisch de gekoppelde bedrijfseenheid en het eigenaarsteam (als dit nog niet bestaat) en wordt de kolom **Standaardeigenaarsteam** ingesteld. De beheerder kan deze kolom wijzigen in een andere waarde. De beheerder kan de kolom echter niet wissen zolang de tabel is ingeschakeld voor Twee keer wegschrijven.
 
 > [!div class="mx-imgBorder"]
-![Kolom Standaardeigenaarsteam](media/dual-write-default-owning-team.jpg)
+![Kolom Standaardeigenaarsteam.](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Bedrijfsstriping en -bootstrapping
 
 Dataverse-integratie bewerkstelligt bedrijfspariteit door een bedrijfs-id te gebruiken om gegevens te stripen. Zoals u in de volgende afbeelding kunt zien, worden alle bedrijfsspecifieke tabellen uitgebreid zodat ze een N:1-relatie (veel-op-één) hebben met de tabel cdm\_Company.
 
 > [!div class="mx-imgBorder"]
-![N:1-relatie tussen een bedrijfsspecifieke tabel en de tabel cdm_Company](media/dual-write-bootstrapping.png)
+![N:1-relatie tussen een bedrijfsspecifieke tabel en de tabel cdm_Company.](media/dual-write-bootstrapping.png)
 
 + De waarde voor rijen wordt alleen-lezen nadat een bedrijf is toegevoegd en opgeslagen. Dat betekent dat gebruikers ervoor moeten zorgen dat ze het juiste bedrijf selecteren.
 + Alleen rijen met bedrijfsgegevens komen in aanmerking voor Twee keer wegschrijven tussen de toepassing en Dataverse.
@@ -98,7 +98,7 @@ Er zijn verschillende manieren waarop u de bedrijfsnaam in Customer Engagement-a
 
 Als u filters op basis van de bedrijfscontext wilt toepassen op uw aangepaste formulieren of op aangepaste opzoekkolommen die zijn toegevoegd aan de standaardformulieren, open dan het formulier en gebruik de sectie **Gerelateerde records filteren** om het bedrijfsfilter toe te passen. U moet dit instellen voor elke opzoekkolom die een filter op basis van het onderliggende bedrijf voor een bepaalde rij vereist. In de volgende afbeelding wordt de instelling weergegeven voor **Account**.
 
-:::image type="content" source="media/apply-company-context.png" alt-text="Bedrijfscontext toepassen":::
+:::image type="content" source="media/apply-company-context.png" alt-text="Bedrijfscontext toepassen.":::
 
 
 

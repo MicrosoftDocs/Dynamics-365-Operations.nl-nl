@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-13
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b41760bb58cbef66146b3f1af6f30c6a35a18727
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 305576b79fdb11f29de9207662de0fe4b4dd6eb5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743842"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351837"
 ---
 # <a name="backup-storage-of-er-templates"></a>Back-upopslag van ER-sjablonen
 
@@ -65,19 +65,19 @@ Als u de parameter **Automatisch de procedure uitvoeren voor het in batch herste
 > [!NOTE]
 > Deze parameter is gedefinieerd voor de toepassingsgebruiker en geldt specifiek voor het aangemelde bedrijf.
 
-![Pagina ER-configuraties](./media/GER-BackupTemplates-1.png)
+![Pagina ER-configuraties.](./media/GER-BackupTemplates-1.png)
 
 In de volgende afbeelding toont een voorbeeld van het bericht dat wordt weergegeven wanneer de parameter **Automatisch de procedure uitvoeren voor het in batch herstellen van de gebroken sjablonen** is ingesteld op **Aan**.
 
-![Pagina Journaal met betalingen van leverancier](./media/GER-BackupTemplates-2.png)
+![Pagina Journaal met betalingen van leverancier.](./media/GER-BackupTemplates-2.png)
 
 In de volgende afbeelding ziet u het batchproces **Verbroken sjablonen terugzetten uit interne databaseback-up** op de pagina **Batchtaak**.
 
-![Pagina Batchtaak](./media/GER-BackupTemplates-3.png)
+![Pagina Batchtaak.](./media/GER-BackupTemplates-3.png)
 
 Het uitvoeringslogboek van het voltooide batchproces **Verbroken sjablonen terugzetten uit interne databaseback-up** bevat informatie over de sjablonen die zijn hersteld uit de back-upopslaglocatie naar de primaire opslaglocatie.
 
-![Pagina Batchtaakhistorie](./media/GER-BackupTemplates-4.png)
+![Pagina Batchtaakhistorie.](./media/GER-BackupTemplates-4.png)
 
 Het proces van het automatisch maken van back-ups van sjablonen in de ER-indelingsconfiguraties is standaard ingeschakeld. Als u wilt stoppen met het maken van back-ups van sjablonen, stelt u de optie **Stoppen met het maken van back-upkopieën van sjablonen** in op **Ja** op het tabblad **Bijlagen** van de pagina **Parameters van elektronische rapportage**. U kunt deze pagina openen via het werkgebied **Elektronische rapportage**.
 
@@ -85,7 +85,7 @@ Als u de optie **Stoppen met het maken van back-upkopieën van sjablonen** hebt 
 
 Als u uw omgeving hebt opgewaardeerd naar Finance and Operations, versie 10.0.5 (oktober 2019) en u wilt migreren naar een nieuwe omgeving waarin de ER-indelingsconfiguraties zijn opgenomen die kunnen worden uitgevoerd, selecteert u **Back-upopslag invullen** op de pagina **Parameters van elektronische rapportage** voordat de migratie plaatsvindt. Met deze knop start u het proces van het maken van back-ups van alle beschikbare sjablonen, zodat deze kunnen worden opgeslagen op de ER-opslaglocatie voor back-ups van sjablonen.
 
-![Pagina Parameters van elektronische rapportage](./media/GER-BackupTemplates-5.png)
+![Pagina Parameters van elektronische rapportage.](./media/GER-BackupTemplates-5.png)
 
 ## <a name="manual-recovery"></a>Handmatig herstel
 

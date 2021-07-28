@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b300cef0a508f7cc37397480738091158efdead
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 5fe49184ee4023e8b4f54dd7f5107be8c711d4b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027910"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353725"
 ---
 # <a name="listjoin-er-function"></a>De ER-functie LISTJOIN
 
@@ -66,15 +66,15 @@ U voert vervolgens gegevensbron **Record 2** van het type `Container` in. Deze g
 - **Bedrag**: dit veld bevat een expressie die een waarde van het type `Real` retourneert.
 - **IsValid**: dit veld bevat een expressie die een waarde van het type `Boolean` retourneert.
 
-![Pagina voor ontwerper van ER-modeltoewijzingen](./media/er-functions-list-listjoin-image1.gif)
+![Pagina voor ontwerper van ER-modeltoewijzingen.](./media/er-functions-list-listjoin-image1.gif)
 
 In dit geval retourneert de expressie `LISTJOIN(LIST('Record 1'), LIST('Record 2'))` een nieuwe lijst die twee records bevat.
 
-![Pagina voor ontwerper van ER-modeltoewijzingen met twee records](./media/er-functions-list-listjoin-image2.gif)
+![Pagina voor ontwerper van ER-modeltoewijzingen met twee records.](./media/er-functions-list-listjoin-image2.gif)
 
 De structuur van deze lijst bestaat uit één veld **Bedrag** van het type `Real`, omdat dit veld het enige veld is dat in elk argument van de aangeroepen functie wordt weergegeven.
 
-![Veld voor bedrag op pagina voor ontwerper van ER-modeltoewijzingen](./media/er-functions-list-listjoin-image3.gif)
+![Veld voor bedrag op pagina voor ontwerper van ER-modeltoewijzingen.](./media/er-functions-list-listjoin-image3.gif)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

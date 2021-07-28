@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 21481
+ms.custom:
+- "21481"
+- intro-internal
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0356837b96fd21f763c9a60926ba1bc982cf2024
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 62b4285f2f5ad93e0a888dd47d22ab5f2caa184c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897983"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355551"
 ---
 # <a name="fixed-assets-home-page"></a>Startpagina van Vaste activa
 
@@ -30,13 +32,13 @@ Vaste activa zijn objecten van waarde die het eigendom zijn van een persoon of o
 
 U kunt aanschafgegevens voor vaste activa instellen en invoeren, en deze beheren door ze af te schrijven en een drempel voor kapitalisatie in te stellen om de afschrijving te bepalen. U kunt correcties berekenen voor de vaste activa of de vaste activa afstoten. Wanneer u Grootboek gebruikt samen met Vaste activa, kunt u de huidige waarde van alle vaste activa weergeven. De manier waarop vaste activa worden verwerkt, moet overeenstemmen met zowel internationale boekhoudregels als de boekhoudwetgeving van elk land of elke regio. Deze vereisten kunnen bijvoorbeeld regels zijn voor het vastleggen van aanschaf- en afstotingstransacties, afschrijving, levensduur en opwaarderingen en afwaarderingen van vaste activa. Veel van deze regels zijn geïntegreerd in de functionaliteit van Vaste activa.
 
-[![Bedrijfsproces](./media/FA-process.PNG)](./media/FA-process.PNG)
+[![Bedrijfsproces.](./media/FA-process.PNG)](./media/FA-process.PNG)
 
 
 
 ### <a name="additional-resources"></a>Aanvullende bronnen
 
-#### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
+#### <a name="whats-new-and-in-development"></a>Nieuwe functies en functies in ontwikkeling
 
 Ga naar de [releaseplannen voor Microsoft Dynamics 365](/dynamics365/release-plans/) om te zien welke nieuwe functies er zijn gepland. 
 

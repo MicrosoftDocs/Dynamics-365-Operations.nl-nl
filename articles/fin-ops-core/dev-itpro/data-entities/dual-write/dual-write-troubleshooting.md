@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8c2ae3368db47363a65e8ecd6317bb0432829802
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748820"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350735"
 ---
 # <a name="general-troubleshooting"></a>Algemene problemen oplossen
 
@@ -44,16 +44,16 @@ Nadat u het hulpprogramma Package Deployer hebt geïnstalleerd, installeert u he
 
 1. Download het meest recente bestand met het oplossingspakket van Yammer.com. Nadat het zipbestand met het pakket is gedownload, klikt u erop met de rechtermuisknop en selecteert u **Eigenschappen**. Schakel het selectievakje **Deblokkeren** in en selecteer vervolgens **Toepassen**. Als het selectievakje **Deblokkeren** niet wordt weergeven, is het zipbestand al gedeblokkeerd en kunt u deze stap overslaan.
 
-    ![Dialoogvenster Eigenschappen](media/unblock_option.png)
+    ![Dialoogvenster Eigenschappen.](media/unblock_option.png)
 
 2. Pak het zipbestand uit en kopieer alle bestanden in de map **Dynamics365FinanceAndOperationsCommon. PackageDeployer.2.0.438**.
 
-    ![Inhoud van de map Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
+    ![Inhoud van de map Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438.](media/extract_package.png)
 
 3. Plak alle gekopieerde bestanden in de map **Tools** van het hulpprogramma Package Deployer. 
 4. Voer **PackageDeployer.exe** uit om de Dataverse-omgeving te selecteren en de oplossingen te installeren.
 
-    ![Inhoud van de map Tools](media/paste_copied_files.png)
+    ![Inhoud van de map Tools.](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Het traceerlogboek voor de invoegtoepassing inschakelen en weergeven in Dataverse om foutdetails weer te geven
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6e0a6a05fcb4afb8c8965e25c3089bc1b3d98431
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 70e57a928ecd3f5d10ebd3d0fc3f52870d40fcd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023143"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358165"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Belastingcomponenten voor het belastingtype TDS instellen
 
@@ -33,7 +33,7 @@ Voer de volgende stappen uit om TDS-componenten in te stellen.
 
 1. Ga naar **Belasting \> Instellen \> Bronbelasting \> Bronbelastingcomponenten**.
 
-    [![Pagina Bronbelastingcomponenten](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
+    [![Pagina Bronbelastingcomponenten.](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
 
 2. Selecteer in het veld **Belastingtype** de optie **TDS** om bronbelastingcomponenten in te stellen voor het belastingtype TDS.
 3. Selecteer in het actievenster **Nieuw** om een regel te maken.
@@ -50,7 +50,7 @@ Voer de volgende stappen uit om TDS-componenten in te stellen.
 
     Als het uitzonderingsdrempelbedrag bijvoorbeeld 5.000 is, wordt TDS berekend op een specifieke factuurregel als het bedrag van de factuurregel hoger is dan 5.000 (met andere woorden, als het 5.001 of meer is).
 
-    [![Pagina Drempel](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
+    [![Pagina Drempel.](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
 
     > [!NOTE]
     > Het uitzonderingsdrempelbedrag moet lager zijn dan of gelijk zijn aan het drempelbedrag.
@@ -66,6 +66,6 @@ Voer de volgende stappen uit om TDS-componenten in te stellen.
 
 14. Selecteer **OK** om TDS-componenten te kopiëren en te maken voor de andere TDS-componentgroep op de pagina **Bronbelastingcomponenten**.
 
-    [![Dialoogvenster Bronbelastingcomponenten kopiëren](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
+    [![Dialoogvenster Bronbelastingcomponenten kopiëren.](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
 
 15. Sluit de pagina.

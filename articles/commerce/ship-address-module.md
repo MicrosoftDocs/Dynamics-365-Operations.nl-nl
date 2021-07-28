@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: fd48a04612159cbe29a2cc7cafea1c9c4c8745b4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b46f2d08c8cee14baa1879b4fd2c02a2e0432f1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795424"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357805"
 ---
 # <a name="shipping-address-module"></a>Module voor verzendadressen
 
@@ -37,13 +37,13 @@ Hoewel de module voor verzendadressen geen adresvalidatie biedt, kunt u deze fun
 
 De volgende afbeelding toont een voorbeeld van een nieuwe verzendadresmodule op een betalingspagina.
 
-![Voorbeeld van een module voor verzendadressen op een betalingspagina](./media/ecommerce-shippingaddress.PNG)
+![Voorbeeld van een module voor verzendadressen op een betalingspagina.](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Module-eigenschappen
 
 | Naam van eigenschap. | Waarden | Beschrijving |
 |---------------|--------|-------------|
-| Kop | Koptekst en een tag voor koptekst (**H1**, **H2**, **H3**, **H4**, **H5** of **H6**) | Een optionele koptekst voor de module voor verzendadressen. |
+| Koptekst | Koptekst en een tag voor koptekst (**H1**, **H2**, **H3**, **H4**, **H5** of **H6**) | Een optionele koptekst voor de module voor verzendadressen. |
 | Adrestype weergeven | **True** of **False** | Als deze eigenschap is ingesteld op **Waar**, wordt een adrestype weergegeven, zoals **Thuis** of **Werk**. Als u geen adrestype opgeeft, wordt het adres automatisch opgeslagen als **Type**=**Overig**. |
 | Automatische suggestie inschakelen| **True** of **False** | Als deze optionele eigenschap is ingesteld op **True**, worden automatische adressuggesties geleverd. Deze suggesties worden aangeboden door Bing Kaarten. Zie [Winkelselectiemodule](store-selector.md) voor informatie over het instellen van integratie met Bing Kaarten voor uw site. Deze functie is beschikbaar vanaf Commerce-versie 10.0.15.|
 |Opties voor automatische suggesties| Aantal| Als automatische adressuggesties zijn ingeschakeld, kunt u aanvullende opties opgeven, zoals het maximale aantal suggesties dat moet worden verstrekt.|

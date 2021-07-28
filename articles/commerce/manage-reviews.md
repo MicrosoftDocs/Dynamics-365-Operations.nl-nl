@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 60ad0dd821dc91576a59cf73ec46da4aefd34a2f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 94abcf7189dc7c1f5587eb06d47650dc707c5007
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794254"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352393"
 ---
 # <a name="manage-ratings-and-reviews"></a>Beoordelingen en recensies beheren
 
@@ -45,7 +45,7 @@ Volg deze stappen om een beoordeling te lezen in Commerce Site Builder.
 
 Met extra filters kunt u de recensies beperken op basis van de periode, beoordeling, kanaal of status (verwijderd, gereageerd of gerapporteerd).
 
-![Startpagina Moderator](media/rnr-moderation-home.png) 
+![Startpagina Moderator.](media/rnr-moderation-home.png) 
 
 ## <a name="respond-to-a-review"></a>Reageren op een recensie 
 
@@ -59,7 +59,7 @@ Volg deze stappen om te reageren op een beoordeling in Commerce Site Builder.
 1. Voer de tekst van het antwoord en de naam in die voor de beantwoordende persoon moet worden weergegeven. De standaardnaam is **Moderator**.
 1. Wanneer u klaar bent, selecteert u **Antwoord publiceren**.
 
-![Reageren op een recensie](media/rnr-moderation-response.png) 
+![Reageren op een recensie.](media/rnr-moderation-response.png) 
 
 ## <a name="take-down-a-review"></a>Een beoordeling verwijderen 
 
@@ -82,7 +82,7 @@ Voer de volgende stappen uit om klantgegevens te zoeken en te verwijderen in Com
 1. Als er voor de klant recensieactiviteiten bestaan (zoals ingediende recensies, stemmen over het nut van recensies van een andere klant of opmerkingen over de recensies van een andere klant), worden de resultaten weergegeven. Voor elk item wordt een knop **Verwijderen** getoond.
 1. Selecteer **Verwijderen** voor elk item dat moet worden verwijderd. Selecteer **Ja** als u om een bevestiging wordt gevraagd. 
     
-![Klantgegevens verwijderen](media/rnr-moderation-delete-reviews.png) 
+![Klantgegevens verwijderen.](media/rnr-moderation-delete-reviews.png) 
 
 > [!NOTE]
 > - Het kan maximaal zeven dagen duren voordat gegevens volledig uit het systeem zijn verwijderd. Moderators moeten klanten informeren over deze vertraging.
@@ -106,21 +106,21 @@ Voer de volgende stappen uit om trends in beoordelingen en recensies te bekijken
 1. Ga naar **Start \> Recensies \> Rapporteren**.
 1. Selecteer **PowerBI-sjabloon** om de sjabloon te downloaden.
 
-    ![De Power BI-sjabloon downloaden](media/rnr-moderation-reports.png) 
+    ![De Power BI-sjabloon downloaden.](media/rnr-moderation-reports.png) 
 
 1. Open de gedownloade sjabloon met de Power BI-app. Sluit het dialoogvenster **Toegang tot webinhoud** dat wordt weergegeven en sluit het foutbericht "Vernieuwen" dat wordt weergegeven.
 1. Ga naar **Start**, selecteer **Query's bewerken** en selecteer vervolgens **Instellingen van gegevensbron**.
 1. Selecteer **Bron wijzigen** in het dialoogvenster **Instellingen van gegevensbron**.
 1. Voer in het veld **URL** het pad van de revisiegegevens in die u in de vorige procedure hebt gedownload (bijvoorbeeld **c:\\reviews\\ReviewsData.csv**).
 
-    ![URL-veld in het dialoogvenster Door komma's gescheiden waarden](media/rnr-powerbi-datasource-settings.png) 
+    ![URL-veld in het dialoogvenster Door komma's gescheiden waarden.](media/rnr-powerbi-datasource-settings.png) 
 
 1. Selecteer **OK** en vervolgens **Wijzigingen toepassen**. Het kan één tot twee minuten duren voordat uw wijzigingen worden toegepast op de gegevensbron.
 1. Selecteer **Blad met trends** om trends voor beoordelingen en recensies te bekijken.
 
-    ![Trends voor beoordelingen en recensies](media/rnr-powerbi-dashboard-template.png) 
+    ![Trends voor beoordelingen en recensies.](media/rnr-powerbi-dashboard-template.png) 
     
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht beoordelingen en recensies](ratings-reviews-overview.md)
 

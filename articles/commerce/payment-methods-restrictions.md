@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
-ms.openlocfilehash: dd07c9c95639c8e69e1013fd7da283cf51b60ed0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4d4f2ee97db52c055136912b237412b1148c26bd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804522"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352343"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Betalingsmethoden voor retouren zonder ontvangstbewijs beperken
 
@@ -38,7 +38,7 @@ Voor het instellen van betalingsmethoden moet u de volgende taken voltooien.
 3. Stel betalingsmethoden voor winkel in. Koppel betalingsmethoden aan elke winkel en voer vervolgens de winkelspecifieke instellingen in voor elke betalingsmethode.
 4. Betalingsmethoden via kaart instellen voor winkels. Voltooi de kaartinstellingen voor alle kaartbetalingsmethoden die door de winkel worden geaccepteerd.
 
-![Winkel instellen](media/NoReceiptReturns1.png "Instellen van detailhandelwinkel") 
+![Winkel instellen.](media/NoReceiptReturns1.png "Instellen van detailhandelwinkel") 
 
 
 ## <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Betalingsmethoden voor retouren zonder ontvangstbewijs beperken
@@ -49,12 +49,12 @@ De standaardwaarde van de wisselknop is **Nee**, waarmee wordt gegarandeerd dat 
 
 Wanneer **Beperken voor restituties zonder ontvangstbewijs** is ingesteld op **Ja**, is de geselecteerde betalingsmethode niet toegestaan voor restituties. 
 
-![Betalingsmethode van winkel](media/NoReceiptReturns3.png "Betalingsmethode detailhandelwinkel") 
+![Betalingsmethode van winkel.](media/NoReceiptReturns3.png "Betalingsmethode detailhandelwinkel") 
 
 > [!NOTE]
 > Wanneer een kassamedewerker een betalingsmethode selecteert die is beperkt voor restitutie zonder ontvangstbewijs, verschijnt een bericht om de acceptabele betalingsmethoden te controleren.
 
-![Acceptabele betalingsmethoden](media/NoReceiptReturns4.png "Acceptabele betalingsmethoden") 
+![Acceptabele betalingsmethoden.](media/NoReceiptReturns4.png "Acceptabele betalingsmethoden") 
 
 Als een transactie zowel een retour met een ontvangstbewijs als een retour zonder een ontvangstbewijs heeft, worden de beperkingsvoorwaarden niet afgedwongen omdat de transactie een retourwerkstroom met een ontvangstbewijs is. 
 

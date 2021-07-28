@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f35adab3075ba810964a41899ba95ae40c115e83
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 0ebb34f58a4bfbe8bda935d7b40e9d89c3dacd03
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115174"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353983"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>Procesautomatiseringsstromen aanroepen om kwaliteitsorders te maken
 
@@ -30,7 +30,7 @@ U kunt de sjabloon voor automatiseringsoplossingen [hier](https://aka.ms/D365SCM
 
 Zie de volgende video voor een overzicht van deze functie en de mogelijkheden: [RPA gebruiken om kwaliteitsorders te maken in Dynamics 365 Supply Chain Management](https://www.youtube.com/watch?v=LFbzJ6-H89w)
 
-![Automatiseringsopties met RPA](media/rpa-automation-options.png "Automatiseringsopties met RPA")
+![Automatiseringsopties met RPA.](media/rpa-automation-options.png "Automatiseringsopties met RPA")
 
 De oplossingssjabloon van Power Automate bevat een cloudautomatiseringsstroom en een desktopautomatiseringsstroom waarmee het maken van kwaliteitsorders in Supply Chain Management wordt geautomatiseerd.
 
@@ -38,7 +38,7 @@ De automatisering kan worden gestart als reactie op een groot aantal gebeurtenis
 
 Oplossingsparameters zijn opgenomen voor het configureren van de automatisering voor een specifieke use case in een productiefaciliteit.
 
-![Kwaliteitsorder maken](media/rpa-create-quality-roder.png "Kwaliteitsorder maken")
+![Kwaliteitsorder maken.](media/rpa-create-quality-roder.png "Kwaliteitsorder maken")
 
 Raadpleeg [Maken van kwaliteitsorders automatiseren in Dynamics 365 Supply Chain Management met behulp van Robotic Process Automation met Power Automate Desktop](/power-automate/desktop-flows/dynamics365-scm-rpa) voor een volledige stapsgewijze ondersteuning bij het downloaden, installeren en gebruiken van de voorbeeldoplossing voor het automatiseren van het maken van kwaliteitsorders.
 

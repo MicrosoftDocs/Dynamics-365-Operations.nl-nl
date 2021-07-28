@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 569f932b256054f2d93a6d699ca5d5af3da08ca6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: df727f3e66691409b98d2f74f78329b03e638959
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897931"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355198"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Mobiel werkgebied voor kostenbeheer
 
@@ -70,7 +70,7 @@ Het mobiele werkgebied **Kostenbeheer** bevat de volgende acties, weergaven en k
 
     Wanneer u een koppeling selecteert, wordt een kaart voor elk kostenelement weergegeven. De volgende bedragen worden weergegeven op elke kaart: Werkelijk, Budget, Budgetafwijking, Budgetafwijking %, Herzien budget, Herziene budgetafwijking en Herziene budgetafwijking %.
     
-    [![Kaart voor een kostenelement ](./media/Cost-controlling.png)](./media/Cost-controlling.png)
+    [![Kaart voor een kostenelement.](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
 ## <a name="prerequisites"></a>Vereisten
 De vereisten verschillen, afhankelijk van de versie van Microsoft Dynamics 365 die voor uw organisatie is geïmplementeerd.
@@ -125,7 +125,7 @@ Download en installeer de mobiele Finance and Operations-app:
 3.  De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren. Voer uw referenties in.
 4.  Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven. Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.
 
-[![Opvragen om te vernieuwen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Opvragen om te vernieuwen.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace"></a>De prestaties van de kostenplaats weergeven met behulp van het mobiele werkgebied Kostenbeheer
 

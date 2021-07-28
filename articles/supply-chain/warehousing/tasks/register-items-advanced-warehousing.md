@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: af427e8df2ac7a3a3b5a7fd6edb740400f6bbeaf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830829"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357997"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Artikelen registreren voor een artikel waarvoor geavanceerd magazijnbeheer mogelijk is met een artikelontvangstjournaal
 
@@ -53,14 +53,14 @@ Het volgende scenario laat zien hoe u een koptekst van een artikelontvangstjourn
 1. Stel **Rekeningnummer** in op *1001*.
 1. Stel **Nummer** in op het nummer van de inkooporder die u voor deze oefening hebt geïdentificeerd.
 
-    ![Artikelontvangstjournaal](../media/item-arrival-journal-header.png "Artikelontvangstjournaal")
+    ![Artikelontvangstjournaal.](../media/item-arrival-journal-header.png "Artikelontvangstjournaal")
 
 1. Selecteer **OK** om de journaalkop te maken.
 1. Selecteer in de sectie **Journaalregels** de optie **Regels toevoegen** en voer de volgende gegevens in:
     - **Artikelnummer**: stel in op *M9200*. De opties **Site**, **Magazijn** en **Hoeveelheid** worden ingesteld op basis van de voorraadtransactiegegevens voor de 10 pallets (1000 artikelen).
     - **Locatie**: stel in op *001*. Deze specifieke locatie houdt geen nummerplaten bij.
 
-    ![Artikelontvangstjournaalregel](../media/item-arrival-journal-line.png "Artikelontvangstjournaalregel")
+    ![Artikelontvangstjournaalregel.](../media/item-arrival-journal-line.png "Artikelontvangstjournaalregel")
 
     > [!NOTE]
     > Het veld **Datum** bepaalt de datum waarop de voorhanden hoeveelheid van het artikel in de voorraad wordt geregistreerd.  

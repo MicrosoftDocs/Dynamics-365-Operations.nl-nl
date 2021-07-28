@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 4464
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f0d39e5a3a1a70f57d305da67e160b0b20cedf4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892428"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360731"
 ---
 # <a name="asset-leasing-get-started"></a>Aan de slag met Activalease
 
@@ -35,7 +37,7 @@ Zie de standaarddocumentatie voor IFRS 16 en US GAAP ASC 842 voor meer informati
 ## <a name="asset-leasing-elements"></a>Elementen van activalease
 In het volgende diagram worden de belangrijkste elementen van het bedrijfsproces voor leases weergegeven.
 
-[![Elementen van activalease](./media/overview-01.png)](./media/overview-01.png)
+[![Elementen van activalease.](./media/overview-01.png)](./media/overview-01.png)
 
 Een geleasd activum bevat de volgende hoofdcomponenten:
 
@@ -54,7 +56,7 @@ In Activalease worden leasegegevens, betalingsschema's, begin- en einddatums en 
 
 In het volgende diagram ziet u het leaseboek, de lease, het berekende betalingsschema, de classificatietests voor leases en leaseboeken en de bijbehorende boekhoudtransacties.
 
-[![Leasen, leaseboek en betalingsschema](./media/overview-02.png)](./media/overview-02.png)
+[![Leasen, leaseboek en betalingsschema.](./media/overview-02.png)](./media/overview-02.png)
 
 - **Leaseboek**: het leaseboek bevat alle informatie over leasecontracten, zoals de leasevoorwaarden, de reële waarde en leasebetalingen. Het bevat ook de boekhoudstandaard die u volgt, het leasetype en de drempels die in aanmerking worden genomen bij de leaseclassificatietest. Het leaseboek bevat ook de leasetransacties die naar het grootboek zijn geboekt. 
   
@@ -117,7 +119,7 @@ De eerste periode begint met periode nul als het annuïteitstype te betalen annu
 
 Classificatietests omvatten de overdracht van eigendom, de aankoopoptie, de leasetermijn, de huidige nettowaarde en het unieke activum. In het volgende diagram worden de classificatietests voor de lease getoond.
 
-[![Classificatietests voor lease](./media/overview-03.png)](./media/overview-03.png)
+[![Classificatietests voor lease.](./media/overview-03.png)](./media/overview-03.png)
 
 Elk leasetype verwerkt boekhouding anders voor verschillende leasetransacties. De transacties omvatten eerste toerekening, rentelasten, verschuldigde leasebetalingen en lease-afschrijving, en ze zijn gebaseerd op de boekhoudstandaarden die u volgt (IFRS 16 of ASC 842). Grootboekrekeningen worden gedefinieerd op basis van het leaseboekingsprofiel voor elk transactietype en boekhoudkader.
 
@@ -232,7 +234,7 @@ Voer de volgende stappen uit om een nieuwe lease te maken.
 
    Op de pagina **Betalingsschema** worden toekomstige betalingsschema's voor een lease-ID weergegeven. Selecteer **Schema bevestigen** zodat u de transacties voor **Eerste toerekening** kunt boeken. 
 
-[![Functie Eerste toerekening](./media/overview-13.png)](./media/overview-13.png)
+[![Functie Eerste toerekening.](./media/overview-13.png)](./media/overview-13.png)
 
 8. Selecteer **Eerste toerekening** om het journaal van de eerste toerekening te maken. 
 
@@ -246,7 +248,7 @@ Voer de volgende stappen uit om een nieuwe lease te maken.
 
    Op de pagina **Afschrijvingsschema activa** worden de afschrijvingstransacties voor de geselecteerde lease-ID weergegeven. 
 
-   [![Pagina RoU-activatransacties](./media/overview-20.png)](./media/overview-20.png)
+   [![Pagina RoU-activatransacties.](./media/overview-20.png)](./media/overview-20.png)
 
    Op de pagina **RoU-activatransacties** worden de eerste toerekening, de samengevoegde afschrijving en het activasaldo weergegeven. 
 

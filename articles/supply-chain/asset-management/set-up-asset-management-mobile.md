@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bc170df2fc58ae6b42fbc8834caad0bb7cd16f69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9c8f202a813520129867b57e660e8d995c20ed87
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837772"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351508"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Mobiel werkgebied voor activabeheer instellen
 
@@ -47,7 +47,7 @@ Als u activabeheerfuncties beschikbaar wilt maken in de mobiele app Finance and 
 1. Selecteer in Supply Chain Management de knop **Instellingen** (het tandwielsymbool in de rechterbovenhoek) en selecteer vervolgens **Mobiele app** in het menu.
 1. Zoek in het dialoogvenster **Mobiele app beheren** de tegel **Activabeheer**. Als het de tekst "In metagegevens - niet gepubliceerd" bevat, is het werkgebied nog niet gepubliceerd. Als het de tekst "In metagegevens - gepubliceerd" bevat, is het werkgebied al gepubliceerd en kunt u de rest van deze procedure overslaan.
 
-    ![Het dialoogvenster Mobiele app beheren](media/mobile-workspaces.png "Het dialoogvenster Mobiele app beheren")
+    ![Het dialoogvenster Mobiele app beheren.](media/mobile-workspaces.png "Het dialoogvenster Mobiele app beheren")
 
 1. Selecteer de tegel **Activabeheer** en selecteer **Publiceren** op de werkbalk. Na enkele seconden ontvangt u een melding dat het werkgebied met succes is gepubliceerd. Daarnaast moet de tekst op de tegel veranderen in 'In metagegevens - gepubliceerd'.
 
@@ -60,22 +60,22 @@ Als u activabeheerfuncties beschikbaar wilt maken in de mobiele app Finance and 
 
 1. Open de app Finance and Operations (Dynamics 365). De aanmeldingspagina moet worden weergegeven. Voer in het veld **Aanmelden** uw Supply Chain Management-URL in of selecteer een recente URL in de lijst **Recente omgevingen** en tik op **Verbinden**.
 
-    ![Aanmeldingspagina](media/mobile-app-sign-in.png "Aanmeldingspagina")
+    ![Aanmeldingspagina.](media/mobile-app-sign-in.png "Aanmeldingspagina")
 
 1. Als u wordt gevraagd de verbinding te bevestigen, schakelt u het selectievakje **Ik begrijp het** in en tikt u vervolgens op **Verbinden**.
 1. Gebruik uw Microsoft-account op de pagina **Een rekening kiezen** om u aan te melden bij de mobiele toepassing.
 
     De pagina **Werkgebieden** wordt weergegeven. Op deze pagina worden alle mobiele werkgebieden weergegeven die door uw Supply Chain Management-exemplaar zijn gepubliceerd.
 
-    ![Lijst met werkgebieden](media/mobile-app-workspaces.png "Lijst met werkgebieden")
+    ![Lijst met werkgebieden.](media/mobile-app-workspaces.png "Lijst met werkgebieden")
 
 1. Als u de rechtspersoon (bedrijf) moet veranderen, tikt u op de menuknop (waarnaar soms wordt verwezen als de hamburger of hamburgerknop) in de linkerbovenhoek en tik vervolgens op **Bedrijf wijzigen**.
 
-    ![De rechtspersoon wijzigen](media/mobile-app-change-comp.png "De rechtspersoon wijzigen")
+    ![De rechtspersoon wijzigen.](media/mobile-app-change-comp.png "De rechtspersoon wijzigen")
 
 1. Selecteer op de pagina **Werkgebieden** het werkgebied waarmee u wilt werken om het te openen.
 
-    ![Mobiel werkgebied voor activabeheer](media/mobile-app-asset-workspace.png "Mobiel werkgebied voor activabeheer")
+    ![Mobiel werkgebied voor activabeheer.](media/mobile-app-asset-workspace.png "Mobiel werkgebied voor activabeheer")
 
 ## <a name="work-with-the-asset-management-mobile-workspace"></a>Werken met het mobiele werkgebied Activabeheer
 

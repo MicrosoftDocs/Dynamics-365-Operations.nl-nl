@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dc76c3c8c3da11202ebb29f4c5c0df72892c094a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936939"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351171"
 ---
 # <a name="set-up-an-online-channel"></a>Een online afzetkanaal instellen
 
@@ -55,11 +55,11 @@ Voer de volgende stappen uit om een nieuw online afzetkanaal te maken en te conf
 
 De volgende afbeelding toont het maken van een nieuw online afzetkanaal.
 
-![Nieuw online afzetkanaal](media/channel-setup-online-1.png)
+![Nieuw online afzetkanaal.](media/channel-setup-online-1.png)
 
 In de volgende afbeelding ziet u een voorbeeld van een online afzetkanaal.
 
-![Voorbeeld van online afzetkanaal](media/channel-setup-online-2.png)
+![Voorbeeld van online afzetkanaal.](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>Talen instellen
 
@@ -75,7 +75,7 @@ Aanvullende taken die nodig zijn voor het instellen van online kanalen, zijn ond
 
 De volgende afbeelding toont de instellingsopties voor **Leveringsmethoden**, **Betalingsmethoden** en **Toewijzing van afhandelingsgroepen** op het tabblad **Instellingen**.
 
-![Aanvullende acties voor het instellen van een online kanaal](media/channel-setup-online-3.png)
+![Aanvullende acties voor het instellen van een online kanaal.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Betalingsmethoden instellen
 
@@ -90,7 +90,7 @@ Volg deze stappen om betalingsmethoden in te stellen voor elk betalingstype dat 
 
 In de volgende afbeelding ziet u een voorbeeld van een contante betalingsgmethode.
 
-![Voorbeeldbetalingsmethoden](media/channel-setup-retail-5.png)
+![Voorbeeldbetalingsmethoden.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Leveringsmethoden instellen
 
@@ -104,7 +104,7 @@ Voer de volgende stappen uit als u een leveringsmethode wilt wijzigen of toevoeg
 
 In de volgende afbeelding ziet u een voorbeeld van een leveringsmethode.
 
-![Leveringsmethoden instellen](media/channel-setup-retail-7.png)
+![Leveringsmethoden instellen.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>De toewijzing van een afhandelingsgroep instellen
 
@@ -118,9 +118,9 @@ Volg deze stappen als u de toewijzing van een afhandelingsgroep wilt instellen.
 
 De volgende afbeelding toont een voorbeeld van de instellingen voor de toewijzing van een afhandelingsgroep.
 
-![Toewijzing van een afhandelingsgroep instellen](media/channel-setup-retail-9.png)
+![Toewijzing van een afhandelingsgroep instellen.](media/channel-setup-retail-9.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van kanalen](channels-overview.md)
 

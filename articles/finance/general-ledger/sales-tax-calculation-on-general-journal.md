@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: c019c597f4734f92f5d9aacdff1cbb30f9fb0a60
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937301"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358828"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Btw-berekening voor algemene journaalregels
 [!include [banner](../includes/banner.md)]
@@ -55,7 +55,7 @@ Anders is de btw-richting Te Ontvangen Btw.
 
 In het volgende diagram wordt de regel grafisch weergeven.
 
-![Mogelijke belastingrichtingen voor projectrekeningen](media/Sales-Tax-Direction-Vendor.jpg)
+![Mogelijke belastingrichtingen voor projectrekeningen.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-vendor"></a>Het rekeningtype is Leverancier
 
@@ -73,7 +73,7 @@ Anders is de btw-richting Te Ontvangen Btw.
 
 In het volgende diagram wordt de regel grafisch weergeven.
 
-![Mogelijke belastingrichtingen voor leveranciersrekeningen](media/Sales-Tax-Direction-Vendor.jpg)
+![Mogelijke belastingrichtingen voor leveranciersrekeningen.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-customer"></a>Het rekeningtype is Klant
 
@@ -89,7 +89,7 @@ Anders is de btw-richting Verschuldigde Btw.
 
 In het volgende diagram wordt de regel grafisch weergeven.
 
-![Mogelijke belastingrichtingen voor klantenrekeningen](media/Sales-Tax-Direction-Customer.jpg)
+![Mogelijke belastingrichtingen voor klantenrekeningen.](media/Sales-Tax-Direction-Customer.jpg)
 
 ### <a name="account-type-is-ledger"></a>Het rekeningtype is Grootboek
 
@@ -103,7 +103,7 @@ Als het bedrag van het journaal debet (positief) is, is de btw-richting Te Ontva
 
 In het volgende diagram wordt de regel grafisch weergeven.
 
-![Mogelijke belastingrichtingen voor grootboekrekeningen](media/Sales-Tax-Direction-Ledger.jpg)
+![Mogelijke belastingrichtingen voor grootboekrekeningen.](media/Sales-Tax-Direction-Ledger.jpg)
 
 #### <a name="override-the-sales-tax-direction"></a>De btw-richting negeren
 
@@ -115,7 +115,7 @@ Ga naar **Grootboek \> Rekeningschema \> Rekeningen \> Hoofdrekeningen** en sele
 
 In deze sectie wordt beschreven hoe het teken voor het btw-bedrag wordt berekend.
 
-![Pagina Btw-transacties](media/sales-tax-amount-sign.jpg)
+![Pagina Btw-transacties.](media/sales-tax-amount-sign.jpg)
 
 In de volgende tabel wordt de algemene regel weergegeven voor het bepalen van de btw-richting en het teken van btw-bedragen in de tijdelijke btw-tabel.
 

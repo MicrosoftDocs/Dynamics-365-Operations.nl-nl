@@ -2,7 +2,7 @@
 title: Koptekstmodule
 description: In dit onderwerp wordt beschreven wat koptekstmodules zijn en hoe u paginakopteksten maakt in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b14178431b281daa827749781dd16481f8bfb74
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 21bf454e57c62a2542ed055bb0913c48ab70e235
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799901"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479251"
 ---
 # <a name="header-module"></a>Koptekstmodule
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven wat koptekstmodules zijn en hoe u paginakopteksten maakt in Microsoft Dynamics 365 Commerce.
 
@@ -33,7 +34,7 @@ De koptekstmodule bevat een sitelogo, koppelingen naar de navigatiehiërarchie, 
 
 De volgende afbeelding toont een voorbeeld van een koptekstmodule op een introductiepagina.
 
-![Voorbeeld van een koptekstmodule](./media/ecommerce-header.png)
+![Voorbeeld van een koptekstmodule.](./media/ecommerce-header.png)
 
 ## <a name="properties-of-a-header-module"></a>Eigenschappen van een koptekstmodule
 
@@ -58,9 +59,16 @@ De volgende modules kunnen in een koptekstmodule worden gebruikt:
 - **Winkelselectie**: de winkelselectiemodule kan worden opgenomen in een winkelselectiesleuf van de koptekst van een module. Hiermee kunnen gebruikers bladeren en zoeken naar winkels in de buurt. Gebruikers kunnen ook een voorkeurswinkel opgeven. Die winkel wordt dan in de koptekst weergegeven. Wanneer de winkelselectiemodule is opgenomen in de koptekstmodule, moet de bijbehorende eigenschap **Modus** zijn ingesteld op **Winkels zoeken**. Zie [Winkelselectiemodule](store-selector.md) voor meer informatie.
 
 > [!NOTE]
-> - Ondersteuning voor het gebruik van de winkelwagenpictogrammodule in koptekstmodules is beschikbaar in Dynamics 365 Commerce versie 10.0.11.
-> - Ondersteuning voor het gebruik van de siteselectiemodule in koptekstmodules is beschikbaar in Dynamics 365 Commerce versie 10.0.14.
-> - Ondersteuning voor het gebruik van de winkelselectiemodule in koptekstmodules is beschikbaar in Dynamics 365 Commerce versie 10.0.15.
+> - Ondersteuning voor het gebruik van de winkelwagenpictogrammodule in koptekstmodules is beschikbaar vanaf Dynamics 365 Commerce versie 10.0.11.
+> - Ondersteuning voor het gebruik van de siteselectiemodule in koptekstmodules is beschikbaar vanaf Dynamics 365 Commerce versie 10.0.14.
+> - Ondersteuning voor het gebruik van de winkelselectiemodule in koptekstmodules is beschikbaar vanaf Dynamics 365 Commerce versie 10.0.15.
+
+## <a name="header-module-in-the-adventure-works-theme"></a>Koptekstmodule in het Adventure Works-thema
+
+In het Adventure Works-thema ondersteunt de koptekstmodule de eigenschap **Mobile Logo**. Met deze eigenschap kan een logo worden opgegeven voor mobiele viewports. De eigenschap **Mobile Logo** is beschikbaar als moduledefinitie-extensie.
+
+> [!IMPORTANT]
+> Het Adventure Works-thema is beschikbaar vanaf Dynamics 365 Commerce versie 10.0.20.
 
 ## <a name="create-a-header-fragment-for-a-page"></a>Een koptekstfragment maken voor een pagina
 

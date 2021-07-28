@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 873266405638cd277eb748ad7e966ba8a4976b13
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0a94a74f4eb00c24142f0390bcf352db0594ca0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019854"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349467"
 ---
 # <a name="enable-product-recommendations"></a>Productaanbevelingen inschakelen
 
@@ -68,7 +68,7 @@ Volg deze stappen om productaanbevelingen in te schakelen.
 1. Selecteer de functie **Productaanbevelingen**.
 1. Selecteer in het eigenschappenvenster **Productaanbevelingen** de optie **Nu inschakelen**.
 
-![Aanbevelingen inschakelen](./media/FeatureManagement_Recommendations.PNG)
+![Aanbevelingen inschakelen.](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > Met deze procedure start u het genereren van lijsten voor productaanbevelingen. Het kan enkele uren duren voordat de lijsten beschikbaar zijn en kunnen worden weergegeven op het verkooppunt (POS) of in Dynamics 365 Commerce.

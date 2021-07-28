@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72b5831e3d2bc2e839b0a569fb314a8ec074a5a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b652045b130eca7e8236b4952b7c829e53a2269e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5746406"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352933"
 ---
 # <a name="getenumvaluebyname-er-function"></a>De ER-functie GETENUMVALUEBYNAME
 
@@ -62,7 +62,7 @@ Er wordt geen uitzondering gegenereerd als een *opsommingswaarde* niet wordt gev
 
 In het volgende voorbeeld wordt de opsomming **ReportDirection** geïntroduceerd in een gegevensmodel. Houd er rekening mee dat labels voor de opsommingswaarden worden gedefinieerd.
 
-![Beschikbare waarden voor een gegevensmodelopsomming](./media/ER-data-model-enumeration-values.PNG)
+![Beschikbare waarden voor een gegevensmodelopsomming.](./media/ER-data-model-enumeration-values.PNG)
 
 De volgende afbeelding toont deze details:
 
@@ -70,7 +70,7 @@ De volgende afbeelding toont deze details:
 - De expressie `$IsArrivals` is ontworpen om de gegevensbron **$Direction** op basis van modelopsomming als parameter voor deze functie te gebruiken.
 - De waarde van deze vergelijkingsexpressie is **TRUE**.
 
-![Voorbeeld van gegevensmodelopsomming](./media/ER-data-model-enumeration-usage.PNG)
+![Voorbeeld van gegevensmodelopsomming.](./media/ER-data-model-enumeration-usage.PNG)
 
 ## <a name="example-2"></a>Voorbeeld 2
 
@@ -78,14 +78,14 @@ Met de functies `GETENUMVALUEBYNAME` en [`LISTOFFIELDS`](er-functions-list-listo
 
 In de volgende afbeelding wordt de gegevensbron **TransType** in een modeltoewijzing geïntroduceerd. Deze gegevensbron verwijst naar de toepassingsopsomming **LedgerTransType**.
 
-![Gegevensbron van een modeltoewijzing die verwijst naar een toepassingsopsomming](./media/er-functions-text-getenumvaluebyname-example2-1.png)
+![Gegevensbron van een modeltoewijzing die verwijst naar een toepassingsopsomming.](./media/er-functions-text-getenumvaluebyname-example2-1.png)
 
 In de volgende afbeelding wordt de gegevensbron **TransTypeList** weergegeven die in een modeltoewijzing is geconfigureerd. Deze gegevensbron wordt geconfigureerd op basis van de opsomming **TransType**. De functie `LISTOFFIELDS` wordt gebruikt om alle opsommingswaarden te retourneren als een lijst met records die velden bevatten. Op deze manier worden de details van elke opsommingswaarde weergegeven.
 
 > [!NOTE]
 > Het veld **EnumValue** wordt geconfigureerd voor de gegevensbron **TransTypeList** met de expressie `GETENUMVALUEBYNAME(TransType, TransTypeList.Name)`. Met dit veld wordt een opsommingswaarde geretourneerd voor elke record in deze lijst.
 
-![Gegevensbron van een modeltoewijzing waarmee alle opsommingswaarden van een geselecteerde opsomming als een lijst met records worden geretourneerd](./media/er-functions-text-getenumvaluebyname-example2-2.png)
+![Gegevensbron van een modeltoewijzing waarmee alle opsommingswaarden van een geselecteerde opsomming als een lijst met records worden geretourneerd.](./media/er-functions-text-getenumvaluebyname-example2-2.png)
 
 In de volgende afbeelding wordt de gegevensbron **VendTrans** weergegeven die in een modeltoewijzing is geconfigureerd. Met deze gegevensbron worden leverancierstransactierecords geretourneerd uit de toepassingstabel **VendTrans**. Het grootboektype van elke transactie wordt gedefinieerd door de waarde van het veld **TransType**.
 
@@ -94,11 +94,11 @@ In de volgende afbeelding wordt de gegevensbron **VendTrans** weergegeven die in
 >
 > Het veld **TransTypeTitle** is gebonden aan het veld **LedgerType** van een gegevensmodel waarmee deze informatie kan worden gebruikt in elke ER-indeling waarin het gegevensmodel als een bron van gegevens wordt gebruikt.
 
-![Gegevensbron van een modeltoewijzing waarmee leverancierstransacties worden geretourneerd](./media/er-functions-text-getenumvaluebyname-example2-3.png)
+![Gegevensbron van een modeltoewijzing waarmee leverancierstransacties worden geretourneerd.](./media/er-functions-text-getenumvaluebyname-example2-3.png)
 
 In de volgende afbeelding ziet u hoe u de [foutopsporing voor gegevensbronnen](er-debug-data-sources.md) kunt gebruiken om de geconfigureerde modeltoewijzing te testen.
 
-![De geconfigureerde modeltoewijzing testen met de foutopsporing voor gegevensbronnen](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
+![De geconfigureerde modeltoewijzing testen met de foutopsporing voor gegevensbronnen.](./media/er-functions-text-getenumvaluebyname-example2-4.gif)
 
 Met het veld **LedgerType** van een gegevensmodel worden labels van transactietypen zoals verwacht weergegeven.
 

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2174
+ms.custom:
+- "2174"
+- intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e067c9df91894c5d2ce05a6afb92d1fadc954531
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: d8bde73d424e72ad66c27decd11a3b866d02b48c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188192"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349789"
 ---
 # <a name="purchase-requisition-overview"></a>Overzicht opdracht tot inkoop
 
@@ -47,7 +49,7 @@ U kunt het workflowproces voor de opdracht tot inkoop configureren om een opdrac
 
 Het volgende schema geeft de statussen weer die aan een opdracht tot inkoop en aan een regel in een opdracht tot inkoop worden toegewezen terwijl deze het controleproces doorlopen.  
 
-[![Koptekst en regelstatussen van opdracht tot inkoop](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Koptekst en regelstatussen van opdracht tot inkoop.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Koptekst en regelstatusrelaties van opdracht tot inkoop
 
@@ -179,7 +181,7 @@ Als u een inkooporder wilt maken voor regels in de opdracht tot inkoop die niet 
 
 Het proces voor consolidatie van de vraag wordt gestart wanneer een opdracht tot inkoop is goedgekeurd in een werkstroom en, als budgetbeheer is geconfigureerd voor uw organisatie, wanneer de budgetreserveringen en voorvorderingen zijn opgenomen. Het volgende schema geeft de processtroom voor consolidatie van de vraag weer.  
 
-[![Processtroom voor vraagconsolidatie](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Processtroom voor vraagconsolidatie.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Om goedgekeurde inkoopbestelopdrachtregels samen te voegen, volgt u deze stappen:
 

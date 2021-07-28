@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b99f668061f429baf56cddb957049833bd74939
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8867eabde5fb0999e0a67f11cfa29e1e4fbc6855
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812734"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359976"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Producten en productvarianten zoeken tijdens orderinvoer
 
@@ -58,7 +58,7 @@ De zoektekst 'sprek 05' levert geen enkel resultaat op. Dit komt doordat de zoek
 U kunt het aantal zoekresultaten beperken door middel van het veld **Aantal resultaten** op de pagina **Verkoop en marketing &gt; Instellingen &gt; Zoeken &gt; Zoekparameters**. Als u dit veld instelt op 0, worden alle zoekresultaten geretourneerd. Als u het bijvoorbeeld instelt op 10, worden maximaal 10 zoekresultaten geretourneerd.
 
 ## <a name="configure-the-product-search"></a>De productzoekfunctie configureren
-Voordat u de functie voor het zoeken van producten en productvarianten kunt gebruiken, moet u deze functie configureren volgens de onderstaande stappen. [![Drie stappen voor het configureren van de productzoekopdracht\_AXAppFall](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
+Voordat u de functie voor het zoeken van producten en productvarianten kunt gebruiken, moet u deze functie configureren volgens de onderstaande stappen. [![Drie stappen voor het configureren van de productzoekopdracht\_AXAppFall.](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
 
 ### <a name="step-1-include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>Stap 1: alle relevante identificerende kenmerken en dimensies voor producten en productvarianten toevoegen aan de zoekcriteria.
 

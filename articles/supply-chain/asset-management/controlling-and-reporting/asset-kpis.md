@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 90759931fcbdb1e5acbd62f8a40e5b37b918f31a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b2122cb123e041d2194fa1ef5fd8024ec4c1a2a0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813864"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361084"
 ---
 # <a name="asset-kpis"></a>Activum-KPI's
 
@@ -82,7 +82,7 @@ In de volgende tabel vindt u een omschrijving van de velden op de pagina **KPI's
 
 De volgende afbeelding toont een schermafbeelding van een KPI-berekening voor vier activa.
 
-![Schermopname van een KPI-berekening voor vier activa](media/11-controlling-and-reporting.png)
+![Schermopname van een KPI-berekening voor vier activa.](media/11-controlling-and-reporting.png)
 
 - U kunt meerdere activa selecteren in **Alle activa** en op de knop **KPI's voor activa** op het tabblad **Algemeen** klikken. Klik vervolgens op **OK** in het dialoogvenster **KPI's voor activa berekenen** om KPI's te berekenen voor de geselecteerde activa.  
 - De resultaten van een KPI-berekening kunnen de [registraties van uitvaltijd voor onderhoud](../work-orders/maintenance-downtime.md) omvatten, afhankelijk van de instellingen en het gebruik van redencodes voor uitvaltijd voor onderhoud. 
