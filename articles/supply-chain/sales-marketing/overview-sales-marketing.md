@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 92303
+ms.custom:
+- "92303"
+- intro-internal
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 92077c0d8a9c9f3820171fd4ffd8aedb02f59602
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188120"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359856"
 ---
 # <a name="sales-and-marketing-overview"></a>Overzicht van Verkoop en marketing
 
@@ -29,18 +31,18 @@ Met Verkoop en marketing kunt u verschillende typen gegevens in de verkoopstroom
 
 ## <a name="marketing"></a>Marketing
 
-U kunt marketingcampagnes en -activiteiten gebruiken om relaties met potentiële klanten te vinden en op te bouwen, zodat initiële interacties zich kunnen ontwikkelen tot verkooprelaties. In het volgende processtroomdiagram ziet u het bedrijfsproces voor marketing. [![Bedrijfsproces voor marketing](./media/marketing01.jpg)](./media/marketing01.jpg)
+U kunt marketingcampagnes en -activiteiten gebruiken om relaties met potentiële klanten te vinden en op te bouwen, zodat initiële interacties zich kunnen ontwikkelen tot verkooprelaties. In het volgende processtroomdiagram ziet u het bedrijfsproces voor marketing. [![Bedrijfsproces voor marketing.](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>Relaties
 
-In verkoop en marketing kunnen de initiële interacties die u hebt met potentiële klanten plaatsvinden in verschillende situaties. Zo vindt u bijvoorbeeld mogelijk een potentiële klant terwijl u een beurs bijwoont of krijgt u een mogelijke lead bij een klant nadat uw organisatie een campagne voor bulkpost heeft uitgevoerd. Het is zeer belangrijk dat u de stroom van de entiteit van een partij begrijpt voordat die partij een klant wordt. In de volgende afbeelding ziet u de stroom van entiteitsrelaties als een potentiële klant een werkelijke klant wordt. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+In verkoop en marketing kunnen de initiële interacties die u hebt met potentiële klanten plaatsvinden in verschillende situaties. Zo vindt u bijvoorbeeld mogelijk een potentiële klant terwijl u een beurs bijwoont of krijgt u een mogelijke lead bij een klant nadat uw organisatie een campagne voor bulkpost heeft uitgevoerd. Het is zeer belangrijk dat u de stroom van de entiteit van een partij begrijpt voordat die partij een klant wordt. In de volgende afbeelding ziet u de stroom van entiteitsrelaties als een potentiële klant een werkelijke klant wordt. [![SalesandMarketing01.](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Campagnes
 
 Een campagne is gericht op de contactpersonen van prospects, potentiële klanten, verkoopkansen en klanten die zijn geselecteerd voor deelname aan de campagne. In Supply Chain Management kunt u verschillende typen campagnes maken, zoals telemarketing-, mailing- en e-mailcampagnes, om uw klantenpotentieel te maximaliseren. Als uw campagne vordert en u positieve reacties ontvangt, kunt u het verkoopproces beginnen met de geadresseerden die positief hebben gereageerd op de campagne.
 
 ## <a name="sales"></a>Verkoop
-U gebruikt de verkoopfunctionaliteit om offertes te maken, meerverkoop en kruisverkoop uit te voeren bij nieuwe en bestaande klanten, verkooporders te genereren en verkoopfacturen op te stellen voor klanten. In het volgende processtroomdiagram ziet u het bedrijfsproces voor verkoop. [![Bedrijfsproces voor verkoop](./media/sales01.jpg)](./media/sales01.jpg)
+U gebruikt de verkoopfunctionaliteit om offertes te maken, meerverkoop en kruisverkoop uit te voeren bij nieuwe en bestaande klanten, verkooporders te genereren en verkoopfacturen op te stellen voor klanten. In het volgende processtroomdiagram ziet u het bedrijfsproces voor verkoop. [![Bedrijfsproces voor verkoop.](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Verkoopoffertes
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
-ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
+ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6093915"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351652"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Geschiktheidsregels en -opties configureren
 
@@ -137,20 +137,20 @@ U kunt regels met meerdere criteria definiëren. Wanneer u meerdere criteria bin
 
 De bovenstaande regel **Actieve werknemers** bestaat bijvoorbeeld uit de volgende criteria. Een werknemer kan alleen in aanmerking komen op basis van de regel **Actieve werknemers** als de werknemer in dienst is bij rechtspersoon USMF *en* een positie van het type fulltime heeft.  
 
-![Criteria binnen een geschiktheidsregel](media/CriteriaWithinAnEligibilityRule.png) 
+![Criteria binnen een geschiktheidsregel.](media/CriteriaWithinAnEligibilityRule.png) 
  
 ### <a name="multiple-conditions-within-criteria"></a>Meerdere voorwaarden binnen criteria
 
 Regels kunnen verder worden uitgebreid om meerdere voorwaarden te gebruiken binnen één criterium. De werknemer moet aan ten minste één voorwaarde voldoen om in aanmerking te komen. Als u verder wilt gaan op het bovenstaande voorbeeld kan de regel **Actieve werknemers** verder worden uitgebreid met werknemers die ook parttime werknemers zijn. Als resultaat hiervan moet de werknemer nu een werknemer in USMF zijn *en* een fulltime of parttime werknemer zijn.  
 
-![Meerdere voorwaarden binnen criteria](media/MultipleConditionsWithinCriteria.png) 
+![Meerdere voorwaarden binnen criteria.](media/MultipleConditionsWithinCriteria.png) 
  
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Geschiktheidsvoorwaarden binnen een criterium van een aangepast veld 
 Op dezelfde manier als hierboven is het mogelijk om aangepaste velden te gebruiken bij het maken van geschiktheidsregels. Deze werken op dezelfde manier. U kunt bijvoorbeeld terugbetaling van internetkosten aanbieden aan werknemers in Utrecht en Amsterdam die thuis werken, omdat de internetkosten op die locaties hoger zijn. Hiervoor maakt u twee aangepaste velden: **Kantoorlocatie** (selectielijst) en **Thuiswerken** (selectievakje). Maak vervolgens een regel met de naam **Thuiswerkende werknemers**. Als criterium voor de regel wordt **Kantoorlocatie = Utrecht** of **Amsterdam** gebruikt *en* **Thuiswerkend = Ja**.
 
 Aangepaste geschiktheidsregels moeten worden ingesteld, zoals in de volgende afbeelding wordt aangegeven. 
 
-![Geschiktheidsvoorwaarden binnen het criterium van een aangepast veld](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+![Geschiktheidsvoorwaarden binnen het criterium van een aangepast veld.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
 ## <a name="configure-bundles"></a>Bundels configureren
 

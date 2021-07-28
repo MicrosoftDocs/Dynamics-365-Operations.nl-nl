@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 445360659e993451b1289091e43e4fc64e0ad228
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: 86a0c659c8b586912ee848aa5f233f2e16f05fd4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303215"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357186"
 ---
 # <a name="request-time-off"></a>Vrije tijd aanvragen
 
@@ -68,7 +68,7 @@ Wanneer u een bestaande verlofaanvraag bijwerkt, kunt u een bijlage toevoegen. U
 
 4. Voer in het deelvenster **Details van annulering** een opmerking in en selecteer Vervolgens **Indienen**.
 
-   ![Verlofaanvraag annuleren](media/hr-leave-and-absence-cancel.png)
+   ![Verlofaanvraag annuleren.](media/hr-leave-and-absence-cancel.png)
 
 ## <a name="see-also"></a>Zie ook
 

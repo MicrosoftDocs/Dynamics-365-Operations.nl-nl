@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: c3da7474f9a61e97ee11688a18cb91a5ad1ccb5c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e2369b17244525023541cdbd0a0da3f2a2a09b30
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791160"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355446"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Tijdvakken voor het ophalen door klanten maken en bijwerken
 
@@ -34,7 +34,7 @@ Met de tijdvakfunctie kan een detailhandelaar een tijdvak definiëren voor artik
 
 In de volgende afbeelding ziet u een voorbeeld van de tijdvakselectie tijdens e-commerce afhandeling.
 
-![Voorbeeld van een tijdvakselectie tijdens e-commerce afhandeling](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Voorbeeld van een tijdvakselectie tijdens e-commerce afhandeling.](../dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="time-slot-properties"></a>Eigenschappen van tijdvak
 
@@ -60,7 +60,7 @@ Een tijdvak wordt gedefinieerd met behulp van de volgende eigenschappen:
 - **Actieve dagen** : specificeer de dagen van de week wanneer de tijdvakken voor ophalen actief zijn. Met deze eigenschap kan de detailhandelaar de dagen definiëren waarop het ophalen van orders wordt ondersteund.
 - **Detailhandelkanalen** : Geef de detailhandelkanalen op. Elk tijdvak kan aan een of meer detailhandelwinkels worden gekoppeld. Afhankelijk van de openingstijden van elke winkel kunnen een of meer tijdvakvermeldingen worden gemaakt en aan een kanaal worden gekoppeld. 
 
-<!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+<!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 U kunt slechts één tijdvaksjabloon per kanaal configureren. Tot deze kanalen behoren fysieke winkels, callcenters, mobiele apparaten en e-Commerce-sites.
 
@@ -85,14 +85,14 @@ Volg deze stappen om de tijdvakfunctie te configureren in Commerce Headquarters
     > [!NOTE]
     > U kunt meerdere sjablonen maken, maar slechts één sjabloon kan aan een kanaal of winkel worden gekoppeld.
 
-    ![Het dialoogvenster Ophalen order - tijdinstellingen](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
+    ![Het dialoogvenster Ophalen order - tijdinstellingen.](../dev-itpro/media/Curbside_timeslot_Settings_Page.PNG)
 
 1. Wanneer u klaar bent, selecteert u **OK**.
 1. Als de tijdvakken op een dag variëren, maakt u extra vermeldingen op het sneltabblad **Ophalen order - tijdinstellingen** om ervoor te zorgen dat de datums en tijden elkaar niet overlappen.
 1. Selecteer op het sneltabblad **Detailhandelkanalen** de optie **Toevoegen** om het tijdvaksjabloon te koppelen aan de winkels of kanalen waar deze wordt gebruikt.
 1. Gebruik de pijltjestoetsen om in het dialoogvenster **Organisatieknooppunten kiezen** de winkels, regio's en organisaties waaraan de sjabloon moet worden gekoppeld te selecteren (of de selectie daarvan te wissen).
 
-    <!-- ![HQ Timeslot overview](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
+    <!-- ![HQ Timeslot overview.](../dev-itpro/media/Curbside_timeslot_Settings_overview.PNG) -->
 
 1. Wanneer u klaar bent, selecteert u **OK**.
 1. Voer op de pagina **Distributieplanning** de taken **1070** en **1135** uit om de gegevens te synchroniseren met de kanalen.
@@ -103,7 +103,7 @@ Wanneer op de POS een order of orderregel wordt geïdentificeerd voor ophalen, k
 
 In de volgende afbeelding ziet u een voorbeeld van de tijdvakselectie voor een POS-order.
 
-![Een voorbeeld van een tijdvakselectie voor een POS-order](../dev-itpro/media/Curbside_timeslot_POS.png)
+![Een voorbeeld van een tijdvakselectie voor een POS-order.](../dev-itpro/media/Curbside_timeslot_POS.png)
 
 ## <a name="time-slot-selection-for-e-commerce-orders"></a>Selectie van tijdvak voor e-commerce-orders
 
@@ -114,17 +114,17 @@ Zie de [Module ophaalinformatie](../pickup-info-module.md) voor meer informatie 
 
 In de volgende afbeelding ziet u een voorbeeld van een e-commerce-order waar een tijdvak voor ophalen is geselecteerd.
 
-![Voorbeeld van een e-commerce-order waarvoor een tijdvak voor ophalen is geselecteerd](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Voorbeeld van een e-commerce-order waarvoor een tijdvak voor ophalen is geselecteerd.](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="time-slot-selection-for-call-center-orders"></a>Selectie van tijdvak voor callcenterorders
 
 In de callcenter-app kunnen callcentermedewerkers de ophaalwinkel of -locatie selecteren, evenals een datum en een tijdvak, zoals in de volgende afbeelding is aangegeven.
 
-![Voorbeeld van een callcenterorder waarvoor een tijdvak voor ophalen is geselecteerd](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+![Voorbeeld van een callcenterorder waarvoor een tijdvak voor ophalen is geselecteerd.](../dev-itpro/media/Curbside_timeslot_callcenter.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Module ophaalinformatie](../pickup-info-module.md)
+[Module met afhaalinformatie](../pickup-info-module.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

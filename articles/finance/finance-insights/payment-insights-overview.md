@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 84a2342d76dc309fa1fd3de7b2c3de60e62e4d72
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 64b03faa76e16a4e587f26ec2fb9bf1e34d226df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186391"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355647"
 ---
 # <a name="customer-payment-predictions-preview"></a>Betalingsvoorspellingen voor klanten (preview)
 
@@ -53,11 +55,11 @@ Voor elke openstaande factuur wijst de functie drie betalingskansen toe:
 
 De functie biedt ook een totaaloverzicht van de verwachte betalingen.
 
-[![Samengevoegde weergave van betalingsvoorspellingen](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Samengevoegde weergave van betalingsvoorspellingen.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Aan elke factuur wordt een waarschijnlijkheid van tijdige betaling toegewezen. Facturen waarvan de waarschijnlijkheid van tijdige betaling minder dan 50% is, worden gelabeld met een rode cirkel om aan te geven dat er mogelijk een incassomedewerker naar moet kijken.
 
-[![Lijst met betalingswaarschijnlijkheden](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Lijst met betalingswaarschijnlijkheden.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 De functie Voorspellingen van klantbetalingen biedt ook contextuele informatie om de voorspelling uit te leggen. Deze informatie bevat de belangrijkste factoren die invloed hebben op de voorspelling, de huidige status van zaken met de klant en details over het historische betalingsgedrag van de klant.
 
@@ -69,7 +71,7 @@ In het verleden was het doorgaans moeilijk om een oplossing met kunstmatige inte
 
 ## <a name="release-details"></a>Releasegegevens
 
-De openbare preview van Financiële inzichten is beschikbaar voor proefimplementaties in de Verenigde Staten van Amerika, Europa en het Verenigd Koninkrijk. Microsoft voegt incrementeel ondersteuning toe voor meer regio's.
+De openbare preview van Finance Insights is beschikbaar voor proefimplementaties in de Verenigde Staten van Amerika, Europa en het Verenigd Koninkrijk. Microsoft voegt incrementeel ondersteuning toe voor meer regio's.
 
 Openbare previeffuncties moeten alleen worden ingeschakeld in Tier-2 sandbox-omgevingen. Setup-modellen en AI-modellen die in een sandbox-omgeving zijn gemaakt, kunnen mogelijk niet naar een productieomgeving worden gemigreerd. Zie voor meer informatie [Aanvullende gebruiksrechtovereenkomst voor Microsoft Dynamics 365 Previews](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 9a6be5f4e08a92171892549c017c15c66b1bde2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941050"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350807"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Problemen tijdens eerste synchronisatie oplossen
 
@@ -38,7 +38,7 @@ Dit onderwerp bevat informatie voor het oplossen van problemen voor de integrati
 
 Nadat u de toewijzingssjablonen hebt ingeschakeld, moet de status van de toewijzingen **Wordt uitgevoerd** zijn. Als de status **Wordt niet uitgevoerd**, zijn er fouten opgetreden tijdens de initiële synchronisatie. Als u de fouten wilt weergeven , selecteert u het tabblad **Details initiële synchronisatie** op de pagina **Twee keer wegschrijven**.
 
-![Fout op het tabblad Details initiële synchronisatie](media/initial_sync_status.png)
+![Fout op het tabblad Details initiële synchronisatie.](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>U kunt de initiële synchronisatie niet voltooien: 400 Ongeldige aanvraag
 
@@ -85,7 +85,7 @@ Volg deze stappen om het probleem op te lossen.
 1. Meld u aan bij de Finance and Operations-app.
 2. Verwijder op de pagina **Azure Active Directory-toepassingen** de **DtAppID**-client en voeg deze vervolgens opnieuw toe.
 
-![DtAppID-client in de lijst met Azure AD-toepassingen](media/aad_applications.png)
+![DtAppID-client in de lijst met Azure AD-toepassingen.](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Fouten met verwijzing naar zichzelf of circulaire verwijzingen tijdens initiële synchronisatie
 
@@ -115,11 +115,11 @@ Als rijen in de tabel leverancier waarden hebben in de kolommen **PrimaryContact
     2. Zoek naar **primarycontactperson** om de bronkolom **PrimaryContactPersonId** te vinden.
     3. Selecteer **Acties** en vervolgens **Verwijderen**.
 
-        ![De kolom PrimaryContactPersonId verwijderen](media/vend_selfref3.png)
+        ![De kolom PrimaryContactPersonId verwijderen.](media/vend_selfref3.png)
 
     4. Herhaal deze stappen om de kolom **InvoiceVendorAccountNumber** te verwijderen.
 
-        ![De kolom InvoiceVendorAccountNumber verwijderen](media/vend-selfref4.png)
+        ![De kolom InvoiceVendorAccountNumber verwijderen.](media/vend-selfref4.png)
 
     5. Sla de wijzigingen in de toewijzing op.
 
@@ -129,11 +129,11 @@ Als rijen in de tabel leverancier waarden hebben in de kolommen **PrimaryContact
     2. Selecteer de tabel **Leveranciers V2**.
     3. Selecteer in het actievenster **Opties** en selecteer **Wijzigingen bijhouden**.
 
-        ![De optie Wijzigingen bijhouden selecteren](media/selfref_options.png)
+        ![De optie Wijzigingen bijhouden selecteren.](media/selfref_options.png)
 
     4. Selecteer **Wijzigingen bijhouden uitschakelen**.
 
-        ![Selecteer Wijzigingen bijhouden uitschakelen](media/selfref_tracking.png)
+        ![Selecteer Wijzigingen bijhouden uitschakelen.](media/selfref_tracking.png)
 
 3. Voer de initiële synchronisatie opnieuw uit van de toewijzing **Leveranciers v2 (msdyn\_vendors)**. De eerste synchronisatie moet zonder fouten worden uitgevoerd.
 4. Voer de eerste synchronisatie uit voor de toewijzing **CDS Contactpersonen V2 (contacts)**. U moet deze toewijzing synchroniseren als u de kolom voor de primaire contactpersoon in de tabel leveranciers wilt synchroniseren, omdat initiële synchronisatie ook moet worden uitgevoerd voor de rijen voor contactpersonen.
@@ -162,11 +162,11 @@ Als rijen in de tabel klant waarden hebben in de kolommen **ContactPersonID** en
     2. Zoek naar **contactperson** om de bronkolom **ContactPersonID** te vinden.
     3. Selecteer **Acties** en vervolgens **Verwijderen**.
 
-        ![De kolom ContactPersonID verwijderen](media/cust_selfref3.png)
+        ![De kolom ContactPersonID verwijderen.](media/cust_selfref3.png)
 
     4. Herhaal deze stappen om de kolom **InvoiceAccount** te verwijderen.
 
-        ![De kolom InvoiceAccount verwijderen](media/cust_selfref4.png)
+        ![De kolom InvoiceAccount verwijderen.](media/cust_selfref4.png)
 
     5. Sla de wijzigingen in de toewijzing op.
 
@@ -176,11 +176,11 @@ Als rijen in de tabel klant waarden hebben in de kolommen **ContactPersonID** en
     2. Selecteer de tabel **Klanten V3**.
     3. Selecteer in het actievenster **Opties** en selecteer **Wijzigingen bijhouden**.
 
-        ![De optie Wijzigingen bijhouden selecteren](media/selfref_options.png)
+        ![De optie Wijzigingen bijhouden selecteren.](media/selfref_options.png)
 
     4. Selecteer **Wijzigingen bijhouden uitschakelen**.
 
-        ![Selecteer Wijzigingen bijhouden uitschakelen](media/selfref_tracking.png)
+        ![Selecteer Wijzigingen bijhouden uitschakelen.](media/selfref_tracking.png)
 
 3. Voer de eerste synchronisatie opnieuw uit voor de toewijzing **Klanten V3 (Accounts)**. De eerste synchronisatie moet zonder fouten worden uitgevoerd.
 4. Voer de eerste synchronisatie uit voor de toewijzing **CDS Contactpersonen V2 (contacts)**.
@@ -196,7 +196,7 @@ Als rijen in de tabel klant waarden hebben in de kolommen **ContactPersonID** en
 
         In de volgende afbeelding ziet u een project waarmee **CustomerAccount** en **ContactPersonId** worden bijgewerkt.
 
-        ![Gegevensintegratieproject voor het bijwerken van CustomerAccount en ContactPersonId](media/cust_selfref6.png)
+        ![Gegevensintegratieproject voor het bijwerken van CustomerAccount en ContactPersonId.](media/cust_selfref6.png)
 
     2. Voeg de bedrijfscriteria toe in het filter aan de kant van Dataverse, zodat alleen de rijen die aan de filtercriteria voldoen, in de app Finance and Operations worden bijgewerkt. Klik op de filterknop om een filter toe te voegen. Voeg vervolgens In het dialoogvenster **Query bewerken** een filterquery als **\_msdyn\_company\_value eq '\<guid\>'** toe. 
 
@@ -204,7 +204,7 @@ Als rijen in de tabel klant waarden hebben in de kolommen **ContactPersonID** en
 
         Als u geen filterquery voor **\_msdyn\_company\_value** invoert, worden alle rijen gesynchroniseerd.
 
-        ![Een filterquery toevoegen](media/cust_selfref7.png)
+        ![Een filterquery toevoegen.](media/cust_selfref7.png)
 
     De initiële synchronisatie van de rijen is nu voltooid.
 

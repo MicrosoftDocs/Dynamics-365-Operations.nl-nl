@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 2c70b6ecd284acc8817970e090583603d1b8e110
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189637"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345399"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Materiaalverbruik registeren met een mobiel apparaat
 
@@ -30,7 +30,7 @@ In dit onderwerp wordt een workflow beschreven waarmee u het grondstoffenverbrui
 
 ## <a name="introduction"></a>Introductie
 
-Deze werkstroom is relevant als er een harde vereiste is voor traceerbaarheid van materialen. In dat geval moet vanwege de traceerbaarheid van de materialen de precieze tijd en hoeveelheden voor het verbruik worden gerapporteerd. Dit proces kunt u zien in tegenstelling tot bewerkingen met voor- of achterwaarts afboeken, waarbij een offset bestaat tussen het tijdstip van registratie en het tijdstip waarop het werkelijke verbruik plaatsvindt. Dit verklaart waarom een strategie van automatisch verbruik niet kan worden toegepast voor bepaalde materialen met traceerbaarheidsvereisten. We bekijken een eenvoudig scenario dat toelicht hoe u een werkstroom instelt voor het inschakelen van registratie van het grondstoffenverbruik in de productie door middel van een handheldapparaat. [![Een werkstroom instellen om de registratie van grondstoffenverbruik via een handheldapparaat in te schakelen](./media/scenario3.png)](./media/scenario3.png)
+Deze werkstroom is relevant als er een harde vereiste is voor traceerbaarheid van materialen. In dat geval moet vanwege de traceerbaarheid van de materialen de precieze tijd en hoeveelheden voor het verbruik worden gerapporteerd. Dit proces kunt u zien in tegenstelling tot bewerkingen met voor- of achterwaarts afboeken, waarbij een offset bestaat tussen het tijdstip van registratie en het tijdstip waarop het werkelijke verbruik plaatsvindt. Dit verklaart waarom een strategie van automatisch verbruik niet kan worden toegepast voor bepaalde materialen met traceerbaarheidsvereisten. We bekijken een eenvoudig scenario dat toelicht hoe u een werkstroom instelt voor het inschakelen van registratie van het grondstoffenverbruik in de productie door middel van een handheldapparaat. [![Een werkstroom instellen om de registratie van grondstoffenverbruik via een handheldapparaat in te schakelen.](./media/scenario3.png)](./media/scenario3.png)
 
 ### <a name="scenario-details"></a>Scenariodetails
 

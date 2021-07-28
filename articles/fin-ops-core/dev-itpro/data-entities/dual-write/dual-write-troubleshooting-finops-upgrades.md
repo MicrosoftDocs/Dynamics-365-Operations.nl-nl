@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 97509ac662fad6181cbd60e5e0a44f674410acb9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 92a95e5a0f603eb5f9afbf14ba924df168e44203
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754033"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350855"
 ---
 # <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Problemen met betrekking tot upgrades van Finance and Operations-apps oplossen
 
@@ -68,7 +68,7 @@ Op de pagina **Twee keer wegschrijven** kan een foutbericht van de volgende stre
 
 *Ontbrekend bronveld \<field name\> in het schema.*
 
-![Voorbeeld van foutbericht over ontbrekende bronkolommen](media/error_missing_field.png)
+![Voorbeeld van foutbericht over ontbrekende bronkolommen.](media/error_missing_field.png)
 
 Als u het probleem wilt verhelpen, voert u eerst deze stappen uit om te controleren of de kolommen in de tabel aanwezig zijn.
 

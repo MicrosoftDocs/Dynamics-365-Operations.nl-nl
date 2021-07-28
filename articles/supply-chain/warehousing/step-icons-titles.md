@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9523492d766669e6c38579fba7b5ddd6b3d282fc
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: a74847b50512d2f712e5a9a5125e520afc732591
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049359"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344488"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Stappictogrammen en -titels toewijzen voor de mobiele app Warehouse Management
 
@@ -25,7 +25,7 @@ In dit onderwerp wordt beschreven hoe u stappictogrammen en staptitels kunt toew
 
 In de volgende afbeeldingen ziet u hoe stappictogrammen en staptitels worden weergegeven in de mobiele app Warehouse Management.
 
-![Voorbeeld van een stappictogram en een staptitel in de mobiele app Warehouse Management](media/step-icon-example.png "Voorbeeld van een stappictogram en een staptitel in de mobiele app Warehouse Management")
+![Voorbeeld van een stappictogram en een staptitel in de mobiele app Warehouse Management.](media/step-icon-example.png "Voorbeeld van een stappictogram en een staptitel in de mobiele app Warehouse Management")
 
 ## <a name="turn-on-this-feature-in-your-system"></a>Deze functie inschakelen in uw systeem
 
@@ -350,13 +350,13 @@ In dit voorbeeld wordt uitgelegd hoe u stappictogrammen en -titels kunt instelle
 
 In de volgende afbeelding wordt de volgende taakstroom weergegeven.
 
-![Taakstroomdiagram](media/step-icons-example-task-flow.png "Taakstroomdiagram")
+![Taakstroomdiagram.](media/step-icons-example-task-flow.png "Taakstroomdiagram")
 
 ### <a name="create-a-step-class-for-the-container-input-page"></a>Een stapklasse maken voor de containerinvoerpagina
 
 Op de containerinvoerpagina kan de werknemer een container-ID scannen of invoeren.
 
-![Containerinvoerpagina](media/step-icons-example-container-input.png "Invoerpagina voor container")
+![Containerinvoerpagina.](media/step-icons-example-container-input.png "Invoerpagina voor container")
 
 Op de containerinvoerpagina is de besturingselementnaam van het invoerveld `ContainerId`. Omdat deze besturingselementnaam niet in de [lijst met stap-ID's](#step-ids-classes) staat, wordt er geen bestaande stap gevonden die erop is gebaseerd. Daarom moet u een stapklasse maken die de stap vertegenwoordigt. Hier volgt een voorbeeld.
 
@@ -382,7 +382,7 @@ Als u een stappictogram wilt toewijzen, stelt u `defaultStepIcon` in op een van 
 
 Op de invoerpagina voor gewicht kan de werknemer een gewicht invoeren.
 
-![Invoerpagina voor gewicht](media/step-icons-example-weight-input.png "Invoerpagina voor gewicht")
+![Invoerpagina voor gewicht.](media/step-icons-example-weight-input.png "Invoerpagina voor gewicht")
 
 Op de invoerpagina voor gewicht is de besturingselementnaam van het invoerveld `Weight`, die in de [lijst met stap-ID´s](#step-ids-classes) staat. Daarom hoeft u niets te wijzigen voor deze stap als het stappictogram en de titel die in de klasse `WHSMobileAppStepWeight` zijn gedefinieerd voor u acceptabel zijn.
 

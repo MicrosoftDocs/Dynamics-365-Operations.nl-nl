@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7e415bc0a4ced11c5bb8393fe5dfe03a5f7cdd6c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 658396e87b3007216f6fa11c6ad3923daeb8a67d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798982"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349323"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Experimenten in Dynamics 365 Commerce
 Gebruik experimenten in Dynamics 365 Commerce om hypotheses te valideren met betrekking tot de effectiviteit van uw e-Commerce-pagina's en om beslissingen te nemen over de op gegevens gebaseerde betrouwbaarheid. Commerce ondersteunt A/B-tests op pagina's, modules en fragmenten en stelt u in staat om de invloed van voorgestelde wijzigingen op uw website te meten.
@@ -39,7 +39,7 @@ U kunt pagina- en inhoudsbehandelingen, die **variaties** worden genoemd, in Com
 ## <a name="experimentation-lifecycle"></a>Levenscyclus van experiment
 Het instellen van een experiment, het maken van variaties en het uitvoeren van een experiment vormen een iteratief proces. In het onderstaande diagram ziet u de levenscyclus van experimenten in Commerce en de service van derden. 
 
-[ ![Levenscyclus van experiment](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
+[ ![Levenscyclus van experiment.](./media/experimentation_lifecycle.svg) ](./media/experimentation_lifecycle.svg#lightbox)
 
 Zie de volgende onderwerpen voor meer informatie over elke stap in het proces van het experiment.
 - [Een hypothese opstellen en metrische gegevens bepalen voor een experiment](experimentation-identify.md)

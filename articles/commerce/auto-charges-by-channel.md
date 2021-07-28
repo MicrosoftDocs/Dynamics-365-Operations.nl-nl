@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 23d02cf96faf3753303435acc148bf71e487d791
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c38717ca9c57913ea22f2dd7712b49f39d2e556e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799902"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349693"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Automatische toeslagen per kanaal inschakelen en configureren
 
@@ -66,7 +66,7 @@ Voer de volgende stappen uit om een standaardhiërarchie toe te wijzen aan een o
 1. Selecteer **Nu uitvoeren** in het actievenster.
 1. Herhaal de voorgaande twee stappen om de taken **1070** (**Kanaalconfiguratie**) en **1110** (**Algemene configuratie**) uit te voeren.
 
-![Configuratie van de organisatiehiërarchiedoelstelling Automatische toeslagen detailhandel](media/Auto-charges-org-hierarchy-purpose.png)
+![Configuratie van de organisatiehiërarchiedoelstelling Automatische toeslagen detailhandel.](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>Automatische toeslagen per kanaal definiëren
 
@@ -86,7 +86,7 @@ Voer de volgende stappen uit om automatische toeslagen per kanaal te definiëren
 1. Selecteer **Nu uitvoeren** in het actievenster.
 1. Herhaal de voorgaande twee stappen om de taken **1070** (**Kanaalconfiguratie**) en **1110** (**Algemene configuratie**) uit te voeren.
     
-![Automatische toeslagen gedefinieerd per kanaal](media/Auto-charges-line-charge-by-channel.png)
+![Automatische toeslagen gedefinieerd per kanaal.](media/Auto-charges-line-charge-by-channel.png)
 
 ## <a name="example-scenario"></a>Voorbeeldscenario
 
@@ -94,7 +94,7 @@ In het volgende voorbeeld vindt u een overzicht van de stappen die nodig zijn om
 
 De organisatie definieert een toeslagcode met de naam **RECYCLE**, zoals wordt weergegeven in de volgende afbeelding.
 
-![Toeslagcode RECYCLE](media/Auto-charges-charge-code.png)
+![Toeslagcode RECYCLE.](media/Auto-charges-charge-code.png)
 
 Er wordt op regelniveau een automatische toeslag gemaakt. Deze heeft de volgende configuratie:
 
@@ -112,13 +112,13 @@ Er wordt een regel met automatische toeslagen gemaakt. Deze heeft de volgende co
 - Het veld **Categorie** wordt ingesteld op **Vast**.
 - Het veld **Toeslagen** wordt ingesteld op **$6,25**.
 
-![Configuratie van de automatische toeslag op regelniveau en de automatische toeslagregel](media/Auto-charges-recyclingfee-line-fee.png)
+![Configuratie van de automatische toeslag op regelniveau en de automatische toeslagregel.](media/Auto-charges-recyclingfee-line-fee.png)
 
 In de POS-toepassing wordt een verkooporder gemaakt in het detailhandelskanaal **San Francisco**. Op de regel **Toeslagen** worden de recyclingkosten van **$6,25** weergegeven.
 
 Selecteer **Transactieopties \> Toeslagen \> Toeslagen beheren** in de POS-toepassing als u de toeslagcode en de omschrijving voor de recyclingkosten wilt bekijken.
 
-![Recyclingkosten in de POS-toepassing](media/pos-auto-charges-recyclingfee-line-fee.png)
+![Recyclingkosten in de POS-toepassing.](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ccc2cbf11e405facf310d93e5458cfe12a43146d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c75525749d9015387cc112beda104238a93698e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020214"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346687"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Winkels en teams toewijzen als er reeds bestaande teams in Microsoft Teams zijn
 
@@ -57,7 +57,7 @@ Voer de volgende stappen uit om winkels en bijbehorende teams toe te wijzen in C
 
 In de volgende voorbeeldafbeelding ziet u de groep **Teams-toewijzing exporteren** in Commerce met de elementen **Entiteit toevoegen** en de geëxporteerde CSV-bestandskoppen gemarkeerd.
 
-![Groep Teams-toewijzing exporteren in Commerce met de elementen Entiteit toevoegen en de geëxporteerde CSV-bestandskoppen gemarkeerd](media/d365-commerce-data-mgmt-export-entity.png)
+![Groep Teams-toewijzing exporteren in Commerce met de elementen Entiteit toevoegen en de geëxporteerde CSV-bestandskoppen gemarkeerd.](media/d365-commerce-data-mgmt-export-entity.png)
 
 > [!NOTE]
 > Nadat u de voorafgaande stappen hebt voltooid, volgt u de stappen in [Taakbeheer synchroniseren tussen Microsoft Teams en POS](synchronize-tasks-teams-pos.md) om taakbeheer te synchroniseren. 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5e0e671e624de2646a47647ef08d3567599b884
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: d693d306929140c9640ed34d756399d70b81a12f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261691"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347753"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Aanvullingsmethoden en hoeveelheidswijziging
 
@@ -34,11 +34,11 @@ De volgende behoefteplanningscodes kunnen worden gebruikt bij Planningsoptimalis
 
 - **Periode**: de aanvullingsmethode waarmee alle vraag voor een periode in één order voor het product wordt gecombineerd. De order wordt gepland voor de eerste dag van de periode en de hoeveelheid voldoet aan de nettobehoeften gedurende de vastgestelde periode. De periode begint met de eerste vraag naar het product en geldt voor de gedefinieerde duur. De volgende periode begint met de volgende vereisten van het product. De behoefteplanningscode *Periode* wordt vaak gebruikt voor niet te voorspellen afname van de voorraad, producten die variëren per seizoen of producten met hoge kosten. In de volgende afbeelding ziet u een voorbeeld.
 
-    ![Voorbeeld van het gebruik van behoefteplanningscode Periode](./media/coverage-code-period.png "Voorbeeld van het gebruik van behoefteplanningscode Periode")
+    ![Voorbeeld van het gebruik van behoefteplanningscode Periode.](./media/coverage-code-period.png "Voorbeeld van het gebruik van behoefteplanningscode Periode")
 
 - **Vereiste**: in de aanvullingsmethode maakt het systeem een geplande inkoop-, transfer- of productieorder per behoefte voor het product. Deze methode wordt gebruikt voor kostbare producten met een per periodieke vraag. De behoefteplanningscode *Vereiste* wordt vaak gebruikt voor configureerbare producten of op orderscenario's voor producten die op bestelling worden gemaakt. In de volgende afbeelding ziet u een voorbeeld.
 
-    ![Voorbeeld van het gebruik van behoefteplanningscode Vereiste](./media/coverage-code-requirement.png "Voorbeeld van het gebruik van behoefteplanningscode Vereiste")
+    ![Voorbeeld van het gebruik van behoefteplanningscode Vereiste.](./media/coverage-code-requirement.png "Voorbeeld van het gebruik van behoefteplanningscode Vereiste")
 
 - **Min./Max.** : de aanvullingsmethode is gebaseerd op het voorraadniveau. Deze definieert de aanvulling van de voorraad tot een specifiek niveau wanneer het voorspelde niveau van de voorhanden voorraad onder een bepaalde drempel ligt. De aanvullingshoeveelheid is het verschil tussen het maximumniveau en het voorspelde voorhanden niveau. De behoefteplanningscode *Min./Max.* wordt vaak gebruikt voor voorspelbare afname van de voorraad, snellopers of minder dure producten. In de volgende afbeelding ziet u een voorbeeld.
 

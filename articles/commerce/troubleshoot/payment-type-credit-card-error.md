@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5be19949e9d1dbc43fdd3e6def119effa50a34d0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1d6813a642aefa59e20a7c77ddcf53ce7d3625eb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018405"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347339"
 ---
 # <a name="payment-type-must-be-credit-card-error-on-the-sales-order-page"></a>Fout 'Betalingstype moet creditcard zijn' op de verkooporderpagina
 
@@ -32,7 +32,7 @@ Dit onderwerp bevat richtlijnen voor probleemoplossing die u kunnen helpen als e
 
 Wanneer u de verkooporderpagina opent nadat u een order hebt gesynchroniseerd, wordt het volgende foutbericht weergegeven: 'Het betalingstype moet creditcard zijn, omdat het creditcardnummer is opgegeven'.
 
-![Fout Betalingstype moet een creditcard zijn](media/payment-type-must-be-credit-card.jpg)
+![Fout Betalingstype moet een creditcard zijn.](media/payment-type-must-be-credit-card.jpg)
 
 ## <a name="resolution"></a>Oplossing
 

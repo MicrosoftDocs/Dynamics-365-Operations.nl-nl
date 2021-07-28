@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 20671
+ms.custom:
+- "20671"
+- intro-internal
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 799619e6fc03174c8ad47512ea839ca7b2aab20e
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 931339ea42d0ce504f61d7bc3de4bec876fc22ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898131"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348524"
 ---
 # <a name="accounts-receivable-home-page"></a>Startpagina Klanten
 
@@ -33,7 +35,7 @@ U kunt klantfacturen maken die zijn gebaseerd op verkooporders of pakbonnen. U k
 
 **Bedrijfsprocessen**
 
-[![Bedrijfsproces](./media/AR-process.PNG)](./media/AR-process.PNG)
+[![Bedrijfsproces.](./media/AR-process.PNG)](./media/AR-process.PNG)
 
 ## <a name="set-up-accounts-receivable"></a>Klanten instellen
 
@@ -75,7 +77,7 @@ Accepteer verschillende betalingstypen van klanten, zoals wissels, contant geld,
    
 ### <a name="additional-resources"></a>Aanvullende bronnen
 
-#### <a name="whats-new-and-in-development"></a>Wat is nieuw en in ontwikkeling
+#### <a name="whats-new-and-in-development"></a>Nieuwe functies en functies in ontwikkeling
 
 Ga naar de [Microsoft Dynamics 365-roadmap](/dynamics365/release-plans/) om te zien welke nieuwe functies er zijn gepland. 
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 1c8a6b4152215bc912d99f2f4c250defa75278c3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189939"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356922"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Aanvulling met opnamekanbans
 
@@ -35,7 +35,7 @@ De opnamekanban kan worden gebruikt om een kanban met één artikel te verplaats
 
 In het volgende scenario ziet u een aanvullingssysteem op pull-basis, waarbij een pull-signaal het maken van een kanban triggert om materiaal aan te vullen voor een productieproces. 
 
-[![Pull-signaal triggert het maken van een kanban voor het aanvullen van materiaal voor een productieproces](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![Pull-signaal triggert het maken van een kanban voor het aanvullen van materiaal voor een productieproces.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  Opnamekanban
 2.  'Vanaf'-locatie en eindlocatie van kanban voor magazijnwerk
@@ -72,7 +72,7 @@ Als de afstand tussen de magazijnlocaties en productie-invoerlocatie klein is, k
 
 In het volgende scenario is de overboekingsactiviteit van de opnamekanban geconfigureerd voor het overboeken tussen twee locaties in hetzelfde magazijn. De overboekingsactiviteit van de opnamekanban is zodanig ingesteld dat deze wordt automatisch uitgevoerd. 
 
-[![De overboekingsactiviteit wordt automatisch uitgevoerd wanneer het kanbanverzamelwerk wordt verwerkt](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![De overboekingsactiviteit wordt automatisch uitgevoerd wanneer het kanbanverzamelwerk wordt verwerkt.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  Gedeeld magazijn voor grondstoffen en productie
 2.  Magazijnlocaties voor grondstoffen

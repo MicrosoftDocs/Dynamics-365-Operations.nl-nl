@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b493c6993ebd466c153e999fa2592105b78d0f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8151e6f6b53f53e8ab54821d86a371b3341775
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825705"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347159"
 ---
 # <a name="asset-types"></a>Activatypen
 
@@ -45,9 +45,9 @@ Eerst stelt u de vereiste activatypen in. Vervolgens maakt u de activamodellen d
 7. Selecteer **Opslaan**.
 8. Selecteer op het sneltabblad **Typen onderhoudstaken** de onderhoudstaaktypen die moeten worden gerelateerd aan het activumtype:
 
-    - Als u een onderhoudstaaktype wilt selecteren, selecteert u dit in het veld **Resterende onderhoudstaaktypen** en selecteert u vervolgens de knop pijl naar rechts ![knop Pijl naar rechts](media/29-setup-for-objects.png) om het te verplaatsen naar de sectie **Geselecteerde onderhoudstaaktypen**.
-    - Als u alle beschikbare onderhoudstaaktypen wilt selecteren, selecteert u de knop ![Pijl allemaal doorsturen](media/30-setup-for-objects.png). Alle onderhoudstaaktypen worden overgebracht van het veld **Resterende onderhoudstaaktypen** naar het veld **Geselecteerde onderhoudstaaktypen**.
-    - Als u de selectie van een onderhoudstaaktype wilt annuleren, selecteert u dit in het veld **Geselecteerde onderhoudstaaktypen** en selecteert u vervolgens de knop pijl naar links ![knop Pijl naar links](media/31-setup-for-objects.png) om het te verplaatsen naar het veld **Resterende onderhoudstaaktypen**.
+    - Als u een type onderhoudstaak wilt selecteren, selecteert u dit in het veld **Resterende typen onderhoudstaken** en selecteert u vervolgens de knop pijl naar rechts ![Knop Pijl naar rechts.](media/29-setup-for-objects.png) om de taak naar de sectie **Geselecteerde onderhoudstaaktypen** te verplaatsen.
+    - Als u alle beschikbare onderhoudstaaktypen wilt selecteren, selecteert u de knop ![Pijl allemaal doorsturen.](media/30-setup-for-objects.png) . Alle onderhoudstaaktypen worden overgebracht van het veld **Resterende onderhoudstaaktypen** naar het veld **Geselecteerde onderhoudstaaktypen**.
+    - Als u de selectie van een type onderhoudstaak wilt annuleren, selecteert u dit in het veld **Geselecteerde onderhoudstaaktypen** en selecteert u vervolgens de knop pijl naar links ![Knop Pijl naar links.](media/31-setup-for-objects.png) om de taak naar het veld **Resterende onderhoudstaaktypen** te verplaatsen.
 
 9. U kunt ook de tellers selecteren die moeten worden gerelateerd aan het activatype. Maak op het sneltabblad **Tellers** uw selecties met behulp van de methoden die worden beschreven voor onderhoudstaaktypen in stap 8. Zie [Tellers](counters.md) voor meer informatie over het instellen van tellers.
 10. U kunt ook de kenmerktypen selecteren die moeten worden gerelateerd aan het activatype. Maak op het sneltabblad **Kenmerktypen** uw selecties met behulp van de methoden die worden beschreven voor onderhoudstaaktypen in stap 8. Vervolgens kunt u de voorkeursvolgorde van kenmerktypen instellen door een kenmerktype te selecteren in het veld **Geselecteerde kenmerktypen** en de knoppen pijl-omhoog en pijl-omlaag te gebruiken om deze te verplaatsen. De volgorde van kenmerktypen wordt weergegeven voor activa die gebruikmaken van dit activatype. Zie [Kenmerktypen voor onderhoud](../setup-for-functional-locations/specification-types.md) voor meer informatie over kenmerken van activa.

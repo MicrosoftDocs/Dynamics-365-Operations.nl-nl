@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 47551f52f35fec5ae49d696e3f4027b7d2eb2e19
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 27f6750dd91a211ad12a1bd5d9c4ab9a2e1e4a79
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023156"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358405"
 ---
 # <a name="set-up-payment-schedules-with-tds-allocation"></a>Betalingsschema's met TDS-toewijzing instellen
 
@@ -31,7 +31,7 @@ In dit onderwerp wordt uitgelegd hoe u betalingsschema's moet instellen met toew
 
 1. Ga naar **Leveranciers \> Betalingsinstelling \> Betalingsschema's**.
 
-    [![Pagina Betalingsschema's](./media/apac-ind-TDS-27.png)](./media/apac-ind-TDS-27.png)
+    [![Pagina Betalingsschema's.](./media/apac-ind-TDS-27.png)](./media/apac-ind-TDS-27.png)
 
 2. Selecteer in het actievenster **Nieuw** om een betalingsschema te maken en voer de vereiste gegevens in.
 3. Selecteer in het veld **Toewijzing** de methode die u wilt gebruiken om de betaling toe te wijzen voor het betalingsschema:

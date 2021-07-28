@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: c3414d6ef5f2df62f37f1ef2e7e2ff43ce040e5e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ac56dd8f6ecda669f32b298649da45634c5d83c9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752245"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360763"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Mobiel werkgebied Goedkeuring van facturen
 
@@ -72,7 +72,7 @@ Download en installeer de mobiele Finance and Operations-app:
 3.  De eerste keer dat u zich aanmeldt, wordt u gevraagd uw gebruikersnaam en wachtwoord in te voeren. Voer uw referenties in.
 4.  Nadat u zich hebt aangemeld, worden de beschikbare werkgebieden voor uw bedrijf weergegeven. Houd er rekening mee dat als uw systeembeheerder later een nieuw werkgebied publiceert, u de lijst met mobiele werkgebieden moet vernieuwen.
 
-    [![Opvragen om te vernieuwen](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Opvragen om te vernieuwen.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="approve-invoices-by-using-the-invoice-approvals-mobile-workspace"></a>Facturen goedkeuren met behulp van het mobiele werkgebied Goedkeuring van facturen
 1.  Selecteer op uw mobiele apparaat het werkgebied **Goedkeuring van facturen**.

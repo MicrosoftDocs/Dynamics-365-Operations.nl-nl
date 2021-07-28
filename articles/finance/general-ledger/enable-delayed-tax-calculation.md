@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: acf5ead6ed90d4dbb41de08520cde8085a7f3935
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c58a5bfbc140eb770415a96d1d9c5748e3e2d132
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823711"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350019"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Vertraagde belastingberekening inschakelen in journalen
 [!include [banner](../includes/banner.md)]
@@ -45,14 +45,14 @@ Het systeem geeft prioriteit aan de instelling voor de journaalkoptekst. Standaa
 1. Ga naar **Grootboek \> Grootboek instellen \> Grootboekparameters**.
 2. Stel op het tabblad **Btw** op het sneltabblad **Algemeen** de optie **Vertraagde belastingberekening** in op **Ja**.
 
-![Afbeelding van grootboekparameters](media/delayed-tax-calculation-gl.png)
+![Afbeelding van grootboekparameters.](media/delayed-tax-calculation-gl.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Vertraagde btw-berekening inschakelen op het niveau van de journaalnaam
 
 1. Ga naar **Grootboek \> Journaalinstellingen \> Journaalnamen**.
 2. Stel in de sectie **Btw** op het sneltabblad **Algemeen** de optie **Vertraagde belastingberekening** in op **Ja**.
 
-![Afbeelding van journaalnamen](media/delayed-tax-calculation-journal-name.png)
+![Afbeelding van journaalnamen.](media/delayed-tax-calculation-journal-name.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Vertraagde btw-berekening inschakelen op het niveau van de journaalkoptekst
 
@@ -61,7 +61,7 @@ Het systeem geeft prioriteit aan de instelling voor de journaalkoptekst. Standaa
 3. Selecteer een journaalnaam.
 4. Stel op het tabblad **Instellingen** de optie **Vertraagde belastingberekening** in op **Ja**.
 
-![Afbeelding van grootboekpagina](media/delayed-tax-calculation-journal-header.png)
+![Afbeelding van grootboekpagina.](media/delayed-tax-calculation-journal-header.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

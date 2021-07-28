@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5f5cfdcb5e930d2dc5830ad7cd9c85c88b3d40f7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7fa0b6f315008e6af774470c775bd34106201b16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813744"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347111"
 ---
 # <a name="schedule-work-orders"></a>Werkorders plannen
 
@@ -56,7 +56,7 @@ Alleen werkorders met een levenscyclusstatus voor werkorders die planning toesta
 
 *Voorbeeld*: in de volgende afbeelding genereert de formule ingevoegd in het veld **Verwachte begindatum** de planning van de werkorder voor alle werkorders met een verwachte begindatum een week vanaf nu en later. Deze formule kan handig zijn wanneer u voortdurend werkorders plant, maar er zeker van wilt zijn dat de geplande werkorders voor de komende 5-6 dagen niet opnieuw worden gepland.
 
-![Figuur 1](media/03-work-order-scheduling.png)
+![Figuur 1.](media/03-work-order-scheduling.png)
 
 Voor het werkordertype dat aan werkorders is gekoppeld, kan de planning voor één onderhoudsmedewerker worden ingesteld (**Activabeheer** > **Instellingen** > **Werkorders** > **Werkordertypen** > **Eén onderhoudsmedewerker** ingesteld op Ja). Als het werkordertype wordt gebruikt voor een werkorder, wordt de wisselknop **Eén onderhoudsmedewerker** dus automatisch ingesteld op Ja op de detailpagina **Alle werkorders** > weergave **Koptekst** > sneltabblad **Plannen**. Bij de planning van werkorders worden alle werkordertaken die in de werkorder zijn gemaakt gepland voor dezelfde onderhoudsmedewerker. Indien nodig kunt u de selectie bewerken met de wisselknop **Eén onderhoudsmedewerker** in **Alle werkorders** om verschillende medewerkers of één medewerker te plannen voor de werkordertaken.
 

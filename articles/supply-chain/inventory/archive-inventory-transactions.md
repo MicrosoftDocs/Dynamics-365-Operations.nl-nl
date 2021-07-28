@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 8b61e65d3a641a1e3d73192853c832d57ed17401
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 23da08f982639c9ba0ef847990979f73b96cac22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021263"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345519"
 ---
 # <a name="archive-inventory-transactions"></a>Voorraadtransacties archiveren
 
@@ -64,7 +64,7 @@ Voer de volgende stappen uit om voorraadtransacties te archiveren.
 
     De pagina **Voorraadtransactiearchief** verschijnt en toont een lijst met gearchiveerde procesrecords.
 
-    ![Pagina Voorraadtransactiearchief](media/archive-inventory-empty.png "Pagina Voorraadtransactiearchief")
+    ![Pagina Voorraadtransactiearchief.](media/archive-inventory-empty.png "Pagina Voorraadtransactiearchief")
 
 1. Selecteer in het actievenster **Voorraadtransactiearchief** om een voorraadtransactiearchief te maken.
 1. Stel in het dialoogvenster **Voorraadtransactiearchief** op het sneltabblad **Parameters** de volgende velden in:
@@ -72,7 +72,7 @@ Voer de volgende stappen uit om voorraadtransacties te archiveren.
     - **Begindatum in afgesloten grootboekperiode** – selecteer de eerste transactiedatum die u in het archief wilt opnemen.
     - **Einddatum in afgesloten grootboekperiode** – selecteer de laatste transactiedatum die u in het archief wilt opnemen.
 
-    ![Dialoogvenster Voorraadtransactiearchief](media/archive-inventory-dates.png "Dialoogvenster Voorraadtransactiearchief")
+    ![Dialoogvenster Voorraadtransactiearchief.](media/archive-inventory-dates.png "Dialoogvenster Voorraadtransactiearchief")
 
     > [!NOTE]
     > Alleen perioden die aan [de vereisten](#prerequisites) voldoen, kunnen worden geselecteerd.
@@ -87,7 +87,7 @@ Voer de volgende stappen uit om voorraadtransacties te archiveren.
 
 Op de pagina **Voorraadtransactiearchief** wordt uw volledige archiveringshistorie weergegeven. Elke rij in het raster geeft informatie weer, zoals de datum waarop het archief is gemaakt, de gebruiker die het heeft gemaakt en de status.
 
-![Archiefgeschiedenis op de pagina Voorraadtransactiearchief](media/archive-inventory-full.png "Archiefgeschiedenis op de pagina Voorraadtransactiearchief")
+![Archiefgeschiedenis op de pagina Voorraadtransactiearchief.](media/archive-inventory-full.png "Archiefgeschiedenis op de pagina Voorraadtransactiearchief")
 
 Selecteer een van de volgende waarden in de vervolgkeuzelijst boven aan de pagina om de archieven te filteren die in het raster worden weergegeven:
 
@@ -109,7 +109,7 @@ De werkbalk boven het raster bevat de volgende knoppen die u kunt gebruiken om m
 
 - **Gearchiveerde transacties** – Alle details van het geselecteerde archief weergeven. Op **de pagina Gearchiveerde transacties** die verschijnt, worden alle transacties in het archief weergegeven.
 
-    ![Pagina Gearchiveerde transacties](media/archive-inventory-transactions.png "Pagina Gearchiveerde transacties")
+    ![Pagina Gearchiveerde transacties.](media/archive-inventory-transactions.png "Pagina Gearchiveerde transacties")
 
     Als u meer informatie over een specifieke transactie op de pagina **Gearchiveerde transacties** wilt weergeven, selecteert u deze in het raster en selecteert u vervolgens in het actievenster **Details gearchiveerde transacties**. Op de pagina **Details gearchiveerde transactie** wordt informatie weergegeven, zoals de boeking in het grootboek, gerelateerde verwijzingen in de subadministratie en financiële dimensies.
 

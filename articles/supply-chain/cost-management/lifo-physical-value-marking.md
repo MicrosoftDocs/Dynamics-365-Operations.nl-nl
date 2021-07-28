@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 294c7bbb328c31c6c3fdc16a72267224d7c71b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dcac72a60eac6abb29a017eb4ce02a71dca572d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809729"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344539"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>LIFO met fysieke waarde en markering
 
@@ -53,7 +53,7 @@ In dit voorbeeld is de artikelmodelgroep niet gemarkeerd voor het opnemen van de
 
 De nieuwe lopende gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel bijgewerkte transacties met EUR 15,00. In de volgende afbeeldingen worden de effecten van het LIFO-voorraadmodel voor deze reeks transacties weergegeven wanneer de optie **Fysieke waarde opnemen** niet wordt gebruikt. 
 
-![LIFO zonder fysieke waarde opnemen](./media/lifowithoutincludephysicalvalue.gif) 
+![LIFO zonder fysieke waarde opnemen.](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Uitleg bij het diagram**
 
@@ -89,7 +89,7 @@ Transactie 6a wordt gecorrigeerd naar ontvangsttransactie 4b. Deze transacties w
 
 In de volgende afbeelding worden de effecten van het LIFO-voorraadmodel voor deze reeks transacties weergegeven wanneer de optie **Fysieke waarde opnemen** wordt gebruikt. 
 
-![LIFO met fysieke waarde opnemen](./media/lifowithincludephysicalvalue.gif) 
+![LIFO met fysieke waarde opnemen.](./media/lifowithincludephysicalvalue.gif) 
 
 **Uitleg bij het diagram**
 
@@ -133,7 +133,7 @@ De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en 
 
 In het volgende afbeelding worden de effecten van het LIFO-voorraadmodel op deze reeks transacties weergegeven wanneer markering tussen uitgiften en ontvangsten wordt gebruikt. 
 
-![LIFO met markering](./media/lifowithmarking.gif) 
+![LIFO met markering.](./media/lifowithmarking.gif) 
 
 **Uitleg bij diagram**
 

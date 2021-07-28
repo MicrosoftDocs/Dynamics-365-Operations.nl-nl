@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 567f102cfe78a92e2e6f1243fb531dd3366c9bf2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 699c285ba0f92df4ccc05790b813ff423c01b62a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792458"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353823"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Uitgebreide garanties maken en configureren
 
@@ -81,7 +81,7 @@ Voer de volgende stappen uit om een garantieartikel te maken in Commerce.
 
     Voor een garantieperiode van twee jaar stelt u bijvoorbeeld het veld **Tijdseenheid** in op **Jaren** en het veld **Tijdsduur** op **2**. U kunt ook het veld **Tijdseenheid** instellen op **Maanden** en het veld **Tijdsduur** op **24**, zoals wordt weergegeven in de volgende afbeelding.
 
-    ![De pagina met productgegevens voor een garantieartikel](./media/ew-time-properties.png)
+    ![De pagina met productgegevens voor een garantieartikel.](./media/ew-time-properties.png)
 
 1. Selecteer **Opslaan** om het garantieartikel op te slaan.
 1. Geef het garantieproduct vrij aan het bedrijf zodat het kan worden verkocht. Zie voor meer informatie [Detailhandelproducten instellen](set-up-retail-products.md).
@@ -94,7 +94,7 @@ Voer de volgende stappen uit om een garantieartikel te maken in Commerce.
 
     In de volgende afbeelding ziet u een voorbeeld van het veld **Basis prijsbereik** ingesteld op **Basisprijs**, waarbij het veld **Ondergrens** is ingesteld op $ 500 en het veld **Bovengrens** op $ 1000.
     
-    ![De pagina met vrijgegeven productgegevens voor een garantieartikel](./media/ew-release-product-details.png)
+    ![De pagina met vrijgegeven productgegevens voor een garantieartikel.](./media/ew-release-product-details.png)
 
 1. Deel het garantieartikel in bij het kanaal waar het wordt verkocht. Zie [Assortimenten instellen](set-up-assortments.md) voor meer informatie.
 
@@ -161,11 +161,11 @@ Er zijn twee POS-bewerkingen voor verkoopmedewerkers om garantieartikelen te ver
 
 In de volgende afbeelding ziet u een voorbeeld van een POS-terminalpagina met een prompt om een garantieartikel toe te voegen voor de huidige aankoop van een verzekerbaar artikel.
 
-![Voorbeeld van een prompt om een garantieartikel toe te voegen voor de huidige aankoop](./media/ew-sell-warranty.png)
+![Voorbeeld van een prompt om een garantieartikel toe te voegen voor de huidige aankoop.](./media/ew-sell-warranty.png)
 
 In de volgende afbeelding ziet u een voorbeeld van de functie voor het toevoegen van een garantieartikel aan een verzekerbaar artikel dat eerder is verkocht.
 
-![Voorbeeld van de functie voor het toevoegen van een garantieartikel voor een eerder verkocht verzekerbaar artikel](./media/ew-add-warranty-existing.png)
+![Voorbeeld van de functie voor het toevoegen van een garantieartikel voor een eerder verkocht verzekerbaar artikel.](./media/ew-add-warranty-existing.png)
 
 ## <a name="process-warranty-transactions"></a>Garantietransacties verwerken
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 74df8ac27c2028582b8909db0a7260b9b0ed38f5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a81a779dd484d30397c89076d081413a72560f0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797276"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348702"
 ---
 # <a name="assortment-management"></a>Assortimentsbeheer
 
@@ -35,27 +35,27 @@ De algehele productsamenstelling van een kanaal wordt bepaald door de gepublicee
 
 In het volgende voorbeeld wordt een uniek assortiment geconfigureerd voor elke winkel. In dit geval is alleen product 1 beschikbaar in winkel 1, en alleen product 2 in winkel 2.
 
-![Elk product is in één winkel beschikbaar](./media/Managing-assortments-figure1.png)
+![Elk product is in één winkel beschikbaar.](./media/Managing-assortments-figure1.png)
 
 Als u wilt dat product 2 beschikbaar is in winkel 1, kunt u het product toevoegen aan assortiment 1.
 
-![Product 2 toegevoegd aan assortiment 1](./media/Managing-assortments-figure2.png)
+![Product 2 toegevoegd aan assortiment 1.](./media/Managing-assortments-figure2.png)
 
 U kunt ook winkel 1 toevoegen aan assortiment 2.
 
-![Winkel 1 toegevoegd aan assortiment 2](./media/Managing-assortments-figure3.png)
+![Winkel 1 toegevoegd aan assortiment 2.](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Organisatiehiërarchieën
 
 In situaties waarin meerdere kanalen dezelfde productassortimenten delen, kunt u de assortimenten configureren met behulp van de Commerce-organisatiehiërarchie voor assortimenten. Wanneer de knooppunten uit deze hiërarchie worden toegevoegd, worden alle kanalen in dat knooppunt en de onderliggende knooppunten opgenomen.
 
-![Organisatiehiërarchie](./media/Managing-assortments-figure4.png)
+![Organisatiehiërarchie.](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Productcategorieën
 
 Aan de productkant kunt u groepen producten op dezelfde manier opnemen door categoriehiërarchieën voor producten te gebruiken. U kunt assortimenten configureren door een of meer hiërarchieknooppunten voor categorieën op te nemen. Het assortiment bevat in dit geval alle producten in dat categorieknooppunt en de onderliggende knooppunten.
 
-![Productcategorieën](./media/Managing-assortments-figure5.png)
+![Productcategorieën.](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Uitgesloten producten of categorieën
 
@@ -64,7 +64,7 @@ Behalve het opnemen van producten en categorieën in assortimenten kunt u de opt
 > [!NOTE]
 > Als een product per definitie zowel is opgenomen als is uitgesloten in een of meer assortimenten, wordt het product altijd beschouwd als uitgesloten.
 
-![Uitgesloten product](./media/Managing-assortments-figure6.png)
+![Uitgesloten product.](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Algemene en vrijgegeven producten
 

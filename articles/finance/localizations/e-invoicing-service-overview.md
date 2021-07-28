@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a6a8ea3fcad980dc02f489e07a7b21fe1c1b5a5a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c3a0cc24a77b29cedaa10ebb4d6e2ad2a4cbf629
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839975"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344753"
 ---
 # <a name="electronic-invoicing-overview"></a>Overzicht van Elektronische facturering
 
@@ -98,7 +100,7 @@ Wanneer Elektronische facturering wordt geïnstalleerd vanuit LCS en de vereiste
 
 In de volgende afbeelding wordt weergegeven hoe de gegevensstroom van en naar Elektronische facturering verloopt.
 
-![Gegevensstroom voor Elektronische facturering](media/e-invoicing-service-data-flow-diagram-overview.png)
+![Gegevensstroom voor Elektronische facturering.](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Privacyverklaring
 Voor het inschakelen en gebruiken van elektronische facturering moeten mogelijk beperkte gegevens worden verzonden, waaronder de belastingregistratie-ID voor de organisatie. Deze gegevens worden verzonden naar instanties van derden die door de belastingdienst zijn gemachtigd om elektronische facturen te verzenden in de vooraf gedefinieerde indelingen die nodig zijn voor de integratie met de webservices van deze overheid. Op gegevens die zijn geïmporteerd van deze externe systemen naar deze Dynamics 365 online service , is de [privacyverklaring](https://go.microsoft.com/fwlink/?LinkId=512132) van toepassing. Zie de secties met betrekking tot de Privacyverklaring in documentatie over landspecifieke functies voor meer informatie.

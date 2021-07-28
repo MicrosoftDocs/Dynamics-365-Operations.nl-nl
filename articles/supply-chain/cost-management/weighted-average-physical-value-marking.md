@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a9cdd16f0a1592690547a687a731de83a720018
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce87f14c17aa44d73de22e7f1711794a499c67de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830119"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352707"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Gewogen gemiddelde met fysieke waarde en markering
 
@@ -65,7 +65,7 @@ In het scenario in de volgende secties zijn een financieel bijgewerkte ontvangst
 
 In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het effect is van het kiezen van het gewogen gemiddelde voorraadmodel en het principe van directe vereffening zonder de optie Fysieke waarde opnemen. 
 
-![Gewogen gemiddelde DS zonder de optie fysieke waarde opnemen](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![Gewogen gemiddelde DS zonder de optie fysieke waarde opnemen.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Uitleg bij diagram**
 - Voorraadtransacties worden aangegeven met verticale pijlen.
@@ -99,7 +99,7 @@ De volgende transacties worden in de onderstaande afbeelding geïllustreerd:
 
 In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het effect is van het kiezen van het gewogen gemiddelde voorraadmodel en het principe van samengevatte vereffening zonder de optie Fysieke waarde opnemen. 
 
-![Gewogen gemiddelde SS zonder de optie fysieke waarde opnemen](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Gewogen gemiddelde SS zonder de optie fysieke waarde opnemen.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Uitleg bij diagram**
 - Voorraadtransacties worden aangegeven met verticale pijlen.
@@ -128,7 +128,7 @@ In de onderstaande afbeelding worden de volgende transacties geïllustreerd:
 
 In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het effect is van het kiezen van het gewogen gemiddelde voorraadmodel en het principe van directe vereffening met de optie Fysieke waarde opnemen. 
 
-![Gewogen gemiddelde DS met fysieke waarde opnemen](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![Gewogen gemiddelde DS met fysieke waarde opnemen.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Uitleg bij diagram**
 - Voorraadtransacties worden aangegeven met verticale pijlen.
@@ -161,7 +161,7 @@ De volgende transacties worden in de onderstaande afbeelding geïllustreerd:
 
 In het volgende diagram wordt voor deze reeks transacties geïllustreerd wat het effect is van het kiezen van het gewogen gemiddelde voorraadmodel en het principe van samengevatte vereffening zonder de optie Fysieke waarde opnemen. 
 
-![Gewogen gemiddelde SS met de optie fysieke waarde](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![Gewogen gemiddelde SS met de optie fysieke waarde.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Uitleg bij diagram**
 - Voorraadtransacties worden aangegeven met verticale pijlen.
@@ -209,7 +209,7 @@ De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en 
 
 In het volgende diagram wordt voor deze reeks transacties het effect geïllustreerd van het kiezen van het gewogen gemiddelde voorraadmodel met markering. 
 
-![Gewogen gemiddelde met markering](./media/weightedaveragewithmarking.gif) 
+![Gewogen gemiddelde met markering.](./media/weightedaveragewithmarking.gif) 
 
 **Uitleg bij diagram**
 - Voorraadtransacties worden aangegeven met verticale pijlen.

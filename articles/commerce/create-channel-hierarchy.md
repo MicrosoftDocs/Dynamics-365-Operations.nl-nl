@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
-ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
+ms.openlocfilehash: e43c4c00545dfecb2f9a2192f81cd25300e3d6e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951903"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352465"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Een afzetkanaalnavigatiehiërarchie maken
 
@@ -49,7 +49,7 @@ Voer de volgende stappen uit om een navigatiehiërarchie voor een kanaal te make
 
 In de volgende afbeelding ziet u een voorbeeld van een hoofdknooppunt.
 
-![Voorbeeld hoofdknooppunt](media/create-channel-hierarchy-1.png)
+![Voorbeeld hoofdknooppunt.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Navigatiecategorieknooppunten maken
 
@@ -65,7 +65,7 @@ Voer de volgende stappen uit om extra navigatiecategorieknooppunten te maken die
 
 In de volgende afbeelding ziet u een voorbeeld van een voltooide kanaalnavigatiehiërarchie.
 
-![Voorbeeld kanaalhiërarchie](media/create-channel-hierarchy-2.png)
+![Voorbeeld kanaalhiërarchie.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Producten aan categorieknooppunten toevoegen
 
@@ -81,7 +81,7 @@ Voer de volgende stappen uit om producten toe te voegen aan categorieknooppunten
 
 De volgende afbeelding toont een voorbeeldknooppunt met toegevoegde producten.
 
-![Producten toegevoegd aan een categorieknooppunt](media/create-channel-hierarchy-3.png)
+![Producten toegevoegd aan een categorieknooppunt.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Productkenmerkgroepen toevoegen aan categorieknooppunten
 
@@ -97,9 +97,9 @@ Voer deze stappen uit om een productkenmerkgroep aan een categorieknooppunt toe 
 
 De volgende afbeelding toont een voorbeeldknooppunt met toegevoegde productkenmerkgroepen.
 
-![Productkenmerkgroepen op een knooppunt](media/create-channel-hierarchy-4.png)
+![Productkenmerkgroepen op een knooppunt.](media/create-channel-hierarchy-4.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Assortimenten instellen](set-up-assortments.md)
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: b07747752dd09f39c3a7a9a647cc3d10cc4b5cc7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f97a003ab35192d164741ef2e6b6597d3df46b6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829541"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358780"
 ---
 # <a name="country-of-origin"></a>Land van oorsprong
 
@@ -86,7 +86,7 @@ Wanneer u een stuklijstrapport genereert, kunt u het land van oorsprong opnemen 
 
 Er wordt een rapport gegenereerd en weergegeven met informatie over het land van oorsprong voor elk onderdeel. Hier volgt een voorbeeld van het rapport.
 
-![Rapport voor Land van oorsprong](media/country-of-origin-report.png "Rapport voor Land van oorsprong")
+![Rapport voor Land van oorsprong.](media/country-of-origin-report.png "Rapport voor Land van oorsprong")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

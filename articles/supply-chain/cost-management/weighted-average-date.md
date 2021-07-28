@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 563fa291754f7f795fa64d530de49b9fe4083c56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9990df3e57d65c77a75913efaf30675528d411b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821292"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343695"
 ---
 # <a name="weighted-average-date"></a>Datum gewogen gemiddelde
 
@@ -39,7 +39,7 @@ Gewogen gemiddelde = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 +
 
 Tijdens de voorraadafsluiting wordt de berekening elke dag via de afsluitperiode uitgevoerd, zoals in de volgende afbeelding wordt weergegeven. 
 
-![Dagelijks rekenmodel datum gewogen gemiddelde](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Dagelijks rekenmodel datum gewogen gemiddelde.](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 Voorraadtransacties die de voorraad verlaten, zoals verkooporders, voorraadjournalen en productieorders, vinden plaats tegen een geraamde kostprijs op de boekingsdatum. De geraamde kostprijs wordt ook wel de lopende gemiddelde kostprijs genoemd. Op de datum van de voorraadafsluiting worden de voorraadtransacties voor vorige perioden, vorige dagen en de huidige dag geanalyseerd. Deze analyse wordt gebruikt om te bepalen welke van de volgende afsluitingsprincipes er moeten worden gebruikt:
 
@@ -72,7 +72,7 @@ De volgende afbeelding geeft deze transacties weer:
 -   2b. Financiële voorraaduitgifte wordt bijgewerkt voor een hoeveelheid van 2 tegen een prijs van EUR 10,00 per stuk.
 -   3. Voorraadafsluiting wordt uitgevoerd met behulp van de directe-vereffeningsmethode om de financiële ontvangst van de voorraad te vereffenen met de financiële uitgifte van de voorraad.
 
-![Datum gewogen gemiddelde directe vereffening zonder de optie Fysieke waarde opnemen](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Datum gewogen gemiddelde directe vereffening zonder de optie Fysieke waarde opnemen.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Sleutel voor de afbeelding:**
 
@@ -126,7 +126,7 @@ De samengevatte voorraadoverboekingstransactie worden gegenereerd en geboekt. Oo
 
 In de volgende afbeelding wordt deze reeks transacties getoond en wordt aangegeven wat het effect is van het gebruik van het voorraadmodel van het gewogen gemiddelde en het samengevatte-vereffeningsprincipe zonder dat de optie **Fysieke waarde opnemen** wordt gebruikt. 
 
-![Datum gewogen gemiddelde samengevatte vereffening zonder de optie Fysieke waarde opnemen](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Datum gewogen gemiddelde samengevatte vereffening zonder de optie Fysieke waarde opnemen.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Sleutel voor de afbeelding**
 
@@ -175,7 +175,7 @@ U kunt een uitgiftetransactie aan een ontvangst koppelen voordat de transactie w
 
 De nieuwe gemiddelde kostprijs weerspiegelt het gemiddelde van de financieel en fysiek bijgewerkte transacties met USD 27,50. In de volgende afbeelding worden voor deze reeks transacties de effecten weergegeven van het gebruik van het voorraadmodel voor datum gewogen gemiddelde en markering.
 
-![Datum gewogen gemiddelde met markering](./media/weightedaveragedatewithmarking.gif) 
+![Datum gewogen gemiddelde met markering.](./media/weightedaveragedatewithmarking.gif) 
 
 **Sleutel voor de afbeelding:**
 

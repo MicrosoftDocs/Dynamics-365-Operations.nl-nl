@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5204fb80dcf3dc2342e9d37f18b9d4f587de1808
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e84f882f69fbc7fceae8a6e0332716a82830dfdc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754289"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344043"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Rijdefinities in Ontwerper financiële rapporten
 
@@ -158,7 +158,7 @@ De opmaak die in de rijdefinitie is opgegeven negeert de opmaak die in de kolomd
 
 1. Open in Report Designer de rijdefinitie die u wilt wijzigen.
 2. Selecteer de cellen die u wilt opmaken. Als u meerdere cellen wilt selecteren, houdt u Ctrl ingedrukt terwijl u de cellen selecteert.
-3. Klik in de werkbalk op de knop van de opmaak die u wilt toepassen. Als u bijvoorbeeld een rij wilt laten inspringen, selecteert u de rij en klikt u vervolgens op **Inspringing vergroten** ![Inspringing vergroten](media/indent.gif "Inspringing vergroten") in de werkbalk.
+3. Klik in de werkbalk op de knop van de opmaak die u wilt toepassen. Als u bijvoorbeeld een rij wilt laten inspringen, selecteert u de rij en klikt u vervolgens op **Inspringing vergroten** ![Inspringing vergroten.](media/indent.gif "Inspringing vergroten") op de werkbalk.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Kolommen aanpassen terwijl u rapporten ontwerpt
 

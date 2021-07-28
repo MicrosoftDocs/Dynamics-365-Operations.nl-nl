@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186733"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349005"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Het aanvankelijke voorspellingsmodel voor klantbetalingen evalueren (preview)
 
@@ -33,32 +33,32 @@ In dit onderwerp wordt uitgelegd hoe u een voorspellingsmodel evalueert nadat u 
 
 Op de pagina **Parameters voor financiële inzichten** in Microsoft Dynamics 365 Finance wordt een koppeling **Nauwkeurigheid van modellen verbeteren** naast de nauwkeurigheidsscore weergegeven.
 
-[![Koppeling modelnauwkeurigheid verbeteren](./media/prediction-model.png)](./media/prediction-model.png)
+[![Koppeling modelnauwkeurigheid verbeteren.](./media/prediction-model.png)](./media/prediction-model.png)
 
 Met deze koppeling kunt u naar AI Builder gaan, waar u meer over het huidige model kunt leren en stappen kunt ondernemen om het model te verbeteren. In de volgende afbeelding wordt de geopende pagina weergegeven.
 
-[![AI Builder](./media/what-to-predict.png)](./media/what-to-predict.png)
+[![AI Builder.](./media/what-to-predict.png)](./media/what-to-predict.png)
 
 In de geopende pagina wordt de volgende informatie weergegeven:
 
 - In de sectie **Prestaties** ziet u de kwaliteit van het model. Zie voor meer informatie over deze beoordeling [Prestaties van het voorspellingsmodel](/ai-builder/prediction-performance) in de AI Builder-documentatie.
 - De sectie **Meest invloedrijke gegevens** laat zien hoe belangrijk verschillende invoertypen van gegevens voor uw model waren. U kunt deze lijst en de bijbehorende percentages evalueren om te bepalen of de gegevens consistent zijn met wat u van uw bedrijf en markt weet.
 
-    [![Secties Prestaties en Meest invloedrijke gegevens voor het voorspellingsmodel](./media/models.png)](./media/models.png)
+    [![Secties Prestaties en Meest invloedrijke gegevens voor het voorspellingsmodel.](./media/models.png)](./media/models.png)
 
 - Selecteer in de sectie **Prestaties** de optie **Details weergeven** voor meer informatie over de kwaliteit en andere overwegingen. In de volgende afbeelding laten de details zien dat het model minder informatie gebruikt dan wordt aanbevolen. Daarom heeft het systeem een waarschuwingsbericht gegenereerd.
 
-    [![Waarschuwingen over de prestaties van het model](./media/details.png)](./media/details.png)
+    [![Waarschuwingen over de prestaties van het model.](./media/details.png)](./media/details.png)
 
 ## <a name="digging-deeper"></a>Dieper graven
 
 Hoewel nauwkeurigheid een goed uitgangspunt is voor het evalueren van een model en de prestatiebeoordeling informatie verschaft, biedt AI Builder gedetailleerder metrische gegevens die u kunt gebruiken voor uw evaluatie. Als u de details wilt downloaden, selecteert u in de sectie **Prestaties** de knop met het weglatingsteken (**...**) naast de knop **Model gebruiken** en selecteert u **Gedetailleerde metrische gegevens downloaden**.
 
-[![Opdracht Gedetailleerde metrische gegevens downloaden](./media/performance.png)](./media/performance.png)
+[![Opdracht Gedetailleerde metrische gegevens downloaden.](./media/performance.png)](./media/performance.png)
 
 In de volgende afbeelding ziet u de indeling waarin u de gegevens kunt downloaden.
 
-[![Indeling van gedownloade gegevens](./media/data-format.png)](./media/data-format.png)
+[![Indeling van gedownloade gegevens.](./media/data-format.png)](./media/data-format.png)
 
 Een goed uitgangspunt voor een betere analyse van de resultaten is het controleren van de metrische gegevens van de verwarringsmatrix. Hier ziet u deze gegevens voor de vorige afbeelding.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dcc562f46884cc5bf82611db9ed35436791045b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4a8e3378a1d31101d111673cf66f75e807cd05a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188168"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353463"
 ---
 # <a name="purchase-requisition-workflow"></a>Werkstroom voor opdrachten tot inkoop
 
@@ -51,7 +51,7 @@ De volgende afbeelding geeft aan hoe een opdracht tot inkoop als één document 
 -   **Inkoper** – De gebruiker die een aanschaffingscontrole uitvoert en het document kan goedkeuren.
 -   **De manager van de aanvrager** – De gebruiker die een managercontrole uitvoert en het document kan goedkeuren.
 
-![Werkstroom controleproces voor opdrachten tot inkoop](./media/purchreqworkflowoverview_submission.gif)  
+![Werkstroom controleproces voor opdrachten tot inkoop.](./media/purchreqworkflowoverview_submission.gif)  
 In dit voorbeeld omvat het workflowproces voor de opdracht tot inkoop de volgende stappen:
 
 1.  De voorbereider dienst een opdracht tot inkoop ter controle in.
@@ -74,7 +74,7 @@ De volgende rollen zijn in het workflowproces opgenomen voor dit voorbeeld:
 -   **Afdelingsmanager** – De gebruiker die een uitgavencontrole uitvoert en het document kan goedkeuren.
 -   **Groepsmanager** – De gebruiker die een handtekeningsbevoegdheidscontrole uitvoert en het document kan goedkeuren.
 
-![Workflowcontroleproces voor regel van opdracht tot inkoop](./media/purchreqlineworkflowoverview.gif)  
+![Workflowcontroleproces voor regel van opdracht tot inkoop.](./media/purchreqlineworkflowoverview.gif)  
 In dit voorbeeld omvat het workflowproces voor de regels in de opdracht tot inkoop de volgende stappen:
 
 1.  De voorbereider dienst een opdracht tot inkoop ter controle in. Elke regel wordt naar de controleur gerouteerd die in het workflowproces is geconfigureerd om deze te ontvangen.

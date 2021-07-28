@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 841e6059f5b0d70dbd1fe12a1f8910bbb31ddc86
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c627b6238a5c0ec1a45ebd9692aae7c634c4952e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018973"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356794"
 ---
 # <a name="archive-printed-customer-invoices-with-hash-numbers"></a>Afgedrukte klantfacturen met hashnummers archiveren
 
@@ -60,5 +60,5 @@ U kunt elke vrije tekst-, klant- en projectfactuur of creditnota boeken en afdru
 
 Open de pagina **Bijlagen** voor de afgedrukte factuur. Zoek op het sneltabblad **Bijlage** in de veldgroep **Aanvullende details** in het veld **Hekje voor document** het opgeslagen hekje op dat is berekend voor de afgedrukte factuur.
 
-![Hekje voor bijlage](media/attach-hash-num.jpg)
+![Hekje voor bijlage.](media/attach-hash-num.jpg)
 

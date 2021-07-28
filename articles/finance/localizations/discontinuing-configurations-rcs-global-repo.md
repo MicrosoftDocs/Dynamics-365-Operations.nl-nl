@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-02-02
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 2bd22e991de376cfd93f75158f1f29716d2559e1
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1d25d583580af3d73a3ac1eaebc9f7d8413c6563
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018728"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360198"
 ---
 # <a name="discontinue-configurations-in-the-rcs-global-repository"></a>Configuraties stopzetten in de globale opslagplaats van RCS
 
@@ -45,7 +45,7 @@ Als u de configuratie wilt beëindigen, voltooit u de volgende stappen.
 2. Stel de parameter **Beëindigen** in op **Ja**.
 3. Selecteer **OK** om de configuraties te beëindigen. Het veld **Einddatum** wordt ingevuld wanneer u de wijzigingen opslaat.
 
-![Configuratiegegevens stopzetten](media/Discontinue-details-2.png)
+![Configuratiegegevens stopzetten.](media/Discontinue-details-2.png)
   
 U kunt de configuratie op elk moment terugdraaien naar **Gedeeld** of beëindigingsgegevens aanpassen. Als u een configuratie deelt, geeft u de datum **Ondersteund tot** en alle andere informatie met betrekking tot de beëindiging op om aan te geven dat u toekomstige beëindiging plant.
 

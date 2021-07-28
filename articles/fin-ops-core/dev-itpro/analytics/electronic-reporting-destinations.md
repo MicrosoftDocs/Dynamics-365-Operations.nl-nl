@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 3774a6258fcefb361c5c2ed709dd7700b1dc071d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085495"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351147"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Bestemmingen van elektronische rapportage (ER)
 
@@ -62,7 +62,7 @@ Als u de optie **Batchverwerking** instelt op **Ja**, wordt er een ER-indeling u
 > [!NOTE]
 > De taakomschrijving informeert u over de uitvoering van een ER-indelingstoewijzing. Ook bevat deze de naam van de ER-component die wordt uitgevoerd.
 
-[![Een ER-indeling uitvoeren](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+[![Een ER-indeling uitvoeren.](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
 U kunt op verschillende plaatsen informatie over deze taak vinden:
 
@@ -74,17 +74,17 @@ U kunt op verschillende plaatsen informatie over deze taak vinden:
 
 - Selecteer op de pagina **Elektronische rapportagetaken** de optie **Bestanden weergeven** om de lijst met fouten en waarschuwingen weer te geven die tijdens de uitvoering van de taak zijn gegenereerd.
 
-    [![De lijst met ER-taken bekijken](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+    [![De lijst met ER-taken bekijken.](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
 
 ### <a name="user-configured-behavior"></a>Door gebruiker geconfigureerd gedrag
 
 Op de pagina **Bestemming voor elektronische rapportage** kunt u het standaardgedrag voor een configuratie vervangen. Geïmporteerde configuraties worden op deze pagina niet weergegeven totdat u **Nieuw** selecteert en vervolgens in het veld **Verwijzing** een configuratie selecteert waarvoor u bestemmingsinstellingen wilt maken.
 
-[![Een configuratie in het veld Verwijzing selecteren](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
+[![Een configuratie in het veld Verwijzing selecteren.](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
 Nadat u een verwijzing hebt gemaakt, kunt u een bestandsbestemming maken voor elke **Map**- of **Bestand**-uitvoeronderdeel van de ER-indeling waarnaar wordt verwezen.
 
-[![Een bestandsbestemming maken](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
+[![Een bestandsbestemming maken.](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
 
 Vervolgens kunt u in het dialoogvenster **Bestemmingsinstellingen** de afzonderlijke bestemmingen voor de bestandsbestemming in- en uitschakelen. De knop **instellingen** wordt gebruikt voor het bepalen van alle bestemmingen voor een geselecteerde bestandsbestemming. In het dialoogvenster **Bestemmingsinstellingen** kunt u elke bestemming afzonderlijk bepalen door de optie **Ingeschakeld** hiervoor in te stellen.
 
@@ -92,7 +92,7 @@ In eerdere versies van Finance **dan versie 10.0.9** kunt **één bestandsbestem
 
 U kunt deze mogelijkheid bijvoorbeeld gebruiken om bestandsbestemmingen te configureren voor een bestandsonderdeel dat wordt gebruikt voor het genereren van een uitgaand document in Excel-indeling. Eén bestemming ([Archief](er-destination-type-archive.md)) kan zo worden geconfigureerd dat het oorspronkelijke Excel-bestand in het ER-takenarchief wordt opgeslagen en een andere bestemming ([E-mail](er-destination-type-email.md)) kan worden geconfigureerd om het Excel-bestand tegelijk te [converteren](#OutputConversionToPDF) naar PDF-indeling en het PDF-bestand via e-mail te verzenden.
 
-[![Meerdere bestemmingen configureren voor een enkel indelingselement](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+[![Meerdere bestemmingen configureren voor een enkel indelingselement.](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
 
 Wanneer u een ER-indeling uitvoert, worden alle bestemmingen die zijn geconfigureerd voor componenten van de indeling altijd uitgevoerd. In Finance **versie 10.0.17 en hoger** is de functionaliteit van ER-bestemmingen bovendien verbeterd en kunt u nu verschillende sets bestemmingen configureren voor één ER-indeling. Deze configuratie markeert elke set als geconfigureerd voor een bepaalde gebruikersactie. De ER API is [uitgebreid](er-apis-app10-0-17.md), zodat een actie kan worden geleverd die de gebruiker uitvoert door een ER-indeling uit te voeren. De geleverde actiecode wordt doorgegeven aan ER-bestemmingen. U kunt verschillende bestemmingen van een ER-indeling uitvoeren, afhankelijk van de opgegeven actiecode. Zie [ER-bestemmingen configureren die afhankelijk zijn van acties](er-action-dependent-destinations.md) voor meer informatie.
 
@@ -116,11 +116,11 @@ U kunt alleen bestemmingen instellen voor ER-configuraties die zijn geïmporteer
 
 Wanneer u bestandsbestemmingen voor een geselecteerde indeling configureert, configureert u deze voor de gehele indeling.
 
-[![Configuratiekoppeling](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
+[![Configuratiekoppeling.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
 Tegelijkertijd kunt u meerdere [versies](general-electronic-reporting.md#component-versioning) van de indeling hebben die zijn geïmporteerd in het huidige Finance-exemplaar. U kunt deze weergeven als u de koppeling **Configuratie** selecteert die wordt aangeboden wanneer u het veld **Verwijzing** selecteert.
 
-[![Configuratieversies](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
+[![Configuratieversies.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
 Geconfigureerde bestemmingen worden standaard alleen toegepast wanneer u een ER-indelingsversie uitvoert die de status **Voltooid** of **Gedeeld** heeft. U moet echter soms ook geconfigureerde bestemmingen gebruiken wanneer de conceptversie van een ER-indeling wordt uitgevoerd. U wijzigt bijvoorbeeld een conceptversie van uw indeling en u wilt geconfigureerde bestemmingen gebruiken om te testen hoe gegenereerde uitvoer wordt geleverd. Volg deze stappen om bestemmingen toe te passen op een ER-indeling wanneer de conceptversie wordt uitgevoerd.
 
@@ -128,7 +128,7 @@ Geconfigureerde bestemmingen worden standaard alleen toegepast wanneer u een ER-
 2. Selecteer op de pagina **Configuraties** in het actievenster op het tabblad **Configuraties** in de groep **Geavanceerde instellingen** de optie **Gebruikersparameters**.
 3. Stel de optie **Bestemmingen gebruiken voor conceptstatus** in op **Ja**.
 
-[![Optie Bestemmingen voor conceptstatus](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
+[![Optie Bestemmingen voor conceptstatus.](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
 
 Als u de conceptversie van een ER-indeling wilt gebruiken, moet u de ER-indeling dienovereenkomstig markeren.
 
@@ -136,11 +136,11 @@ Als u de conceptversie van een ER-indeling wilt gebruiken, moet u de ER-indeling
 2. Selecteer op de pagina **Configuraties** in het actievenster op het tabblad **Configuraties** in de groep **Geavanceerde instellingen** de optie **Gebruikersparameters**.
 3. Stel de optie **Instelling uitvoeren** in op **Ja**.
 
-[![Optie Instelling uitvoeren](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
+[![Optie Instelling uitvoeren.](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
 
 Nadat u deze instellingen hebt voltooid, wordt de optie **Concept uitvoeren** beschikbaar voor ER-indelingen die u wijzigt. Stel deze optie in op **Ja** als u de conceptversie van de indeling wilt gaan gebruiken wanneer de indeling wordt uitgevoerd.
 
-[![Optie Concept uitvoeren](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
+[![Optie Concept uitvoeren.](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
 ## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Afhandeling van bestemmingsfouten
 
@@ -148,7 +148,7 @@ Meestal wordt een ER-indeling uitgevoerd binnen een specifiek bedrijfsproces. De
 
 U kunt bijvoorbeeld de verwerking van leveranciersbetalingen zodanig configureren dat de ER-indeling **ISO20022-kredietoverdracht** wordt uitgevoerd om het betalingsbestand en aanvullende documenten te genereren (bijvoorbeeld de begeleidende brief en het controlerapport). Als een betaling alleen als correct verwerkt moet worden beschouwd als de begeleidende brief via e-mail is afgeleverd, schakelt u het selectievakje **Verwerking stoppen bij fout** in voor het onderdeel **Begeleidende brief** in de betreffende bestandsbestemming, zoals in de volgende afbeelding wordt weergegeven. In dit geval wordt de status van de betaling die is geselecteerd voor verwerking, gewijzigd van **Geen** in **Verzonden** wanneer de begeleidende brief die is gegenereerd, wordt geaccepteerd voor levering door een e-mailprovider die in het Finance-exemplaar is geconfigureerd.
 
-[![Procesverwerking voor fout met bestandsbestemming configureren](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
+[![Procesverwerking voor fout met bestandsbestemming configureren.](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
 
 Als u het selectievakje **Verwerking stoppen bij fout** hebt ingeschakeld voor het onderdeel **Begeleidende brief** in de bestemming, wordt een betaling als correct verwerkt beschouwd, zelfs als de begeleidende brief niet via e-mail is afgeleverd. De status van de betaling wordt gewijzigd van **Geen** in **Verzonden**, zelfs als de begeleidende brief niet kan worden verzonden, omdat bijvoorbeeld het e-mailadres van de ontvanger of afzender ontbreekt of onjuist is.
 
@@ -160,7 +160,7 @@ U kunt de optie PDF-conversie gebruiken om de uitvoer in Microsoft Office-indeli
 
 Om de PDF-conversie optie beschikbaar te maken in het huidige Finance-exemplaar, opent u het werkgebied **Functiebeheer** en schakelt u de functie **Uitgaande ER-documenten van Microsoft Office-indelingen converteren naar PDF** in.
 
-[![De functie PDF-conversie van uitgaande documenten in Functiebeheer inschakelen](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
+[![De functie PDF-conversie van uitgaande documenten in Functiebeheer inschakelen.](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
 
 ### <a name="applicability"></a>Toepasbaarheid
 
@@ -185,13 +185,13 @@ Alleen de algemene systeemlettertypen van het Windows-besturingssysteem worden g
 
 Als u PDF-conversie voor een bestandsbestemming wilt inschakelen, schakelt u het selectievakje **Converteren naar PDF** in.
 
-[![PDF-conversie voor een bestandsbestemming inschakelen](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+[![PDF-conversie voor een bestandsbestemming inschakelen.](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Een afdrukstand voor PDF-conversie selecteren</a>
 
 Als u een ER-configuratie genereert in Excel-indeling en deze wilt converteren naar PDF-indeling, kunt u de afdrukstand van het PDF-document opgeven. Wanneer u het selectievakje **Converteren naar PDF** inschakelt om PDF-conversie in te schakelen voor een bestandsbestemming die een uitvoerbestand produceert in Excel-indeling, wordt het veld **Afdrukstand** beschikbaar op het sneltabblad **Instellingen PDF-conversie**. Selecteer de gewenste afdrukstand in het veld **Afdrukstand**.
 
-[![Een afdrukstand voor PDF-conversie selecteren](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+[![Een afdrukstand voor PDF-conversie selecteren.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
 > Als u de afdrukstand van de PDF wilt kunnen kiezen, moet u Finance versie 10.0.10 of hoger installeren.
@@ -222,7 +222,7 @@ Selecteer een van de volgende waarden op het tabblad **Algemeen** in het veld **
     > [!NOTE]
     > Als u **Afzonderlijke bestanden** selecteert, wordt de gegenereerde uitvoer in het geheugen gecomprimeerd verzameld. Daarom wordt de maximale [limiet voor bestandsgrootte](er-compress-outbound-files.md) toegepast voor gecomprimeerde uitvoer wanneer de werkelijke bestandsgrootte deze limiet kan overschrijden. Het wordt aanbevolen deze waarde te selecteren wanneer u verwacht dat de gegenereerde uitvoer nogal groot is.
 
-[![Een bestemming configureren voor het mapindelingsonderdeel](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+[![Een bestemming configureren voor het mapindelingsonderdeel.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 
 ### <a name="limitations"></a>Beperkingen
 

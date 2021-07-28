@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8c9aaa3868167806ce3189d724621991ec7e53eb
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: afb9f95458089e854335399ea3d14ba229c02bbd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022806"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349868"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Bronbelastingaangifte voor Egypte (EG-00005)
 
@@ -103,7 +103,7 @@ Als u de bronbelastingaangifteformulierrapporten wilt genereren in Microsoft Exc
 2. Selecteer op het tabblad **Bronbelasting** in het veld **Indelingstoewijzing voor bronbelastingaangifte** de optie **Bronbelastingaangifte Excel (EG)**. Als u het veld leeg laat, wordt de standaard btw-aangifte gegenereerd in de SSRS-indeling.
 
 
-![Aangifteformulier](media/egypt-wht-declaration-setup1.png)
+![Aangifteformulier.](media/egypt-wht-declaration-setup1.png)
 
 ## <a name="generate-the-withholding-declaration-forms"></a>De formulieren voor bronbelastingaangifte genereren
 Het proces van het voorbereiden en indienen van een bronbelastingaangifteformulier voor een specifieke periode is gebaseerd op de bronbelastingtransacties die tijdens de taak voor het vereffenen en boeken van belastingbetalingen zijn geboekt. Zie [Algemene bronbelasting](../general-ledger/global-withholding-tax-overview.md) voor meer informatie over algemene bronbelasting.

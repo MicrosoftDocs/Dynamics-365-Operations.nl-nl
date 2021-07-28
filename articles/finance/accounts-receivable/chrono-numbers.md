@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1bddb76d17b65e3485680675b77750fca714407d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838856"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350067"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Documenten en boekstukken chronologisch nummeren
 
@@ -69,7 +69,7 @@ Om nummerreeksen te definiëren, gaat u naar **Organisatiebeheer** > **Nummerree
 
 Geef een bedrijf op voor elke nummerreeks. De segmenten van de nummerreeksen moeten zo worden gedefinieerd dat ze een chronologische volgorde voor perioden bieden. De segmentnamen kunnen bijvoorbeeld een speciaal voorvoegsel bevatten dat een specifieke periode aanduidt.
 
-![Nummerreeks instellen](media/chrono-num-sequence.jpg)
+![Nummerreeks instellen.](media/chrono-num-sequence.jpg)
 
 ### <a name="configure-number-sequence-groups"></a>Nummerreeksgroepen configureren
 
@@ -77,7 +77,7 @@ Om de nummerreeksgroepen te configureren, gaat u naar **Klanten** > **Instelling
 
 Selecteer voor elke groep een van de ondersteunde documentverwijzingen in de sectie **Verwijzing** en verwijs in het veld **Nummerreekscode** naar een nummerreeks die eerder is gemaakt voor de desbetreffende periode.
 
-![Nummerreeksgroep instellen](media/chrono-num-sequence-group.jpg)
+![Nummerreeksgroep instellen.](media/chrono-num-sequence-group.jpg)
 
 Configureer ook nummerreeksgroepen in de modules **Klant** en **Projectbeheer en boekhouding**.
 
@@ -85,7 +85,7 @@ Configureer ook nummerreeksgroepen in de modules **Klant** en **Projectbeheer en
 
 Om de chronologie voor nummerreeksgroepen te configureren, gaat u naar **Organisatiebeheer** > **Nummerreeksen** > **Chronologische nummerreeksgroepen**. De toepasbaarheidsvoorwaarden voor nummerreeksgroepen definiëren.
 
-![Chronologische nummers instellen](media/chrono-num-sequence-group-period.jpg)
+![Chronologische nummers instellen.](media/chrono-num-sequence-group-period.jpg)
 
 | Veld            | Beschrijving                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -98,7 +98,7 @@ Om de chronologie voor nummerreeksgroepen te configureren, gaat u naar **Organis
 ## <a name="document-posting"></a>Documentboeking
 Wanneer u een document boekt, wordt de betreffende nummerreeksgroep aan het document toegewezen op basis van de boekingsdatum van het document en vervolgens gebruikt om een documentnummer te genereren op basis van de gedetecteerde nummerreeks. Er wordt een bericht weergegeven met betrekking tot de nummerreeksgroeptoewijzing.
 
-![Documentnummer](media/chrono-num-sequence-fti.jpg)
+![Documentnummer.](media/chrono-num-sequence-fti.jpg)
 
 > [!NOTE]
 > In sommige landen is er al een specifieke logica geïmplementeerd voor documentnummering. In dit geval heeft de landspecifieke logica voorrang op de functie voor **chronologische nummering**.

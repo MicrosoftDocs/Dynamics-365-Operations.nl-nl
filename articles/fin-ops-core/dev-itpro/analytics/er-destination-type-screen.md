@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 67af34d2c9c583d8c9befbd2675cee41a3db05e0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bda671923c79d028b77e255f6e5b0e829a63e466
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753403"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351765"
 ---
 # <a name="screen-destination"></a>Bestemming voor scherm
 
@@ -30,9 +30,9 @@ U kunt een schermbestemming configureren voor elke map- of bestandcomponent van 
 
 Als u **Ingeschakeld** instelt op **Ja**, wordt een voorbeeld van de uitvoer gemaakt. U kunt sommige bestandstypen, zoals XML, TXT of PDF, rechtstreeks in een browservenster weergeven. Voor andere bestandstypen, zoals Microsoft Excel of Word, wordt de Microsoft Office Online-service gebruikt.
 
-[![Pagina Bestemmingsinstelling](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)
+[![Pagina Bestemmingsinstelling.](./media/ER_Destinations-EnableScreenDestination.png)](./media/ER_Destinations-EnableScreenDestination.png)
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 - [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 - [Bestemmingen van elektronische rapportage (ER)](electronic-reporting-destinations.md)

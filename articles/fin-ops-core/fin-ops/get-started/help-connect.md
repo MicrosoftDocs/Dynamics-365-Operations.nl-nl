@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82bb9a09e6d302b0d453ceb5131da039769b58fb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1a70a9771d5f9c1acea9274b8454a23c8dd7c1ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745684"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343929"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>De Help-ervaring voor Finance and Operations-apps configureren
 
@@ -32,7 +32,7 @@ In dit onderwerp vindt u een overzicht van de onderdelen van het Help-systeem vo
 
 Finance and Operations-apps bevatten conceptuele overzichten en andere onderwerpen die op de [https://docs.microsoft.com/dynamics365](/dynamics365/)-site worden gepubliceerd. Deze inhoud kan vervolgens worden geopend vanuit het deelvenster **Help** in het product. De volgende afbeelding toont de onderdelen van het Help-systeem.
 
-[![Help-architectuur](./media/help-architecture.png)](./media/help-architecture.png)
+[![Help-architectuur.](./media/help-architecture.png)](./media/help-architecture.png)
 
 De Help van het product haalt artikelen op van docs.microsoft.com en andere verbonden websites. Daarnaast worden taakbegeleidingen opgehaald die zijn opgeslagen in Modelleertool bedrijfsprocessen in Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -47,14 +47,14 @@ Op de pagina **Systeemparameters** kunnen systeembeheerders de toegang tot relev
 > - Voordat u Help kunt configureren, moet u zich aanmelden met een account in de dezelfde tenant als de tenant waarin de app is geïmplementeerd.
 > - Een LCS-bibliotheek kan niet worden verbonden vanuit een exemplaar van de app die wordt uitgevoerd op een lokale virtuele harde schijf (VHD).
 
-[![Formulier Systeemparameters met Help-instellingen](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
+[![Formulier Systeemparameters met Help-instellingen.](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)
 
 Als u taakbegeleidingen voor een oplossing wilt configureren, volgt u deze stappen op de pagina **Systeemparameters**.
 
 > [!IMPORTANT]
 > De eerste keer dat u het tabblad **Help** opent, moet u verbinding maken met Lifecycle Services. Let erop dat u de koppeling in het midden van het formulier selecteert. Wacht op de verbinding, sluit het dialoogvenster en selecteer **OK** om de pagina **Systeemparameters** te openen.
 >
-> [![Verbinden met LCS](./media/connect-to-lcs-crop-1024x365.png "Verbinden met LCS")](./media/connect-to-lcs-crop.png)
+> [![Verbinden met LCS](./media/connect-to-lcs-crop-1024x365.png "Verbinden met LCS."](./media/connect-to-lcs-crop.png)
 
 1. Selecteer het project Lifecycle Services om verbinding mee te maken.
 2. Selecteer de BPM-bibliotheken (in het geselecteerde project) om taakregistraties op te halen.

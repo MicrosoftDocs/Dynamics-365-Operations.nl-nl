@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 9afa64df73aa17e7a15a0ee4f4529ac74bcd3c67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a1f85c100f1d062517c14d31a19838cc4af18f10
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750709"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346565"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>De toewijzing instellen voor de verkooporderstatuskolommen
 
@@ -100,7 +100,7 @@ Volg deze stappen als u het kenmerk **IsSOPIntegrationEnabled** wilt inschakelen
 1. Ga in een browser naar `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Vervang **\<test-name\>** door de koppeling van uw bedrijf met Verkoop.
 2. Zoek **organizationid** op de pagina die is geopend en noteer de waarde.
 
-    ![Organizationid zoeken](media/sales-map-orgid.png)
+    ![Organizationid zoeken.](media/sales-map-orgid.png)
 
 3. Open de browserconsole in Verkoop en voer het volgende script uit. Gebruik de waarde van **organizationid** uit stap 2.
 
@@ -119,33 +119,33 @@ Volg deze stappen als u het kenmerk **IsSOPIntegrationEnabled** wilt inschakelen
     );
     ```
 
-    ![JavaScript-code in de browserconsole](media/sales-map-script.png)
+    ![JavaScript-code in de browserconsole.](media/sales-map-script.png)
 
 4. Controleer of **IsSOPIntegrationEnabled** is ingesteld op **true**. Gebruik de URL uit stap 1 om de waarde te controleren.
 
-    ![IsSOPIntegrationEnabled ingesteld op true](media/sales-map-integration-enabled.png)
+    ![IsSOPIntegrationEnabled ingesteld op true.](media/sales-map-integration-enabled.png)
 
 Volg deze stappen als u het kenmerk **isIntegrationUser** wilt inschakelen.
 
 1. Ga in Sales naar **Instelling \> Aanpassing \> Het systeem aanpassen**. Selecteer **Gebruikerstabel** en open **Formulier \> Gebruiker**.
 
-    ![Het gebruikersformulier openen](media/sales-map-user.png)
+    ![Het gebruikersformulier openen.](media/sales-map-user.png)
 
 2. Zoek in Veldverkenner **Integratiegebruikersmodus** en dubbelklik erop om deze toe te voegen aan het formulier. Sla de wijziging op.
 
-    ![De kolom Integratiegebruikersmodus toevoegen aan het formulier](media/sales-map-field-explorer.png)
+    ![De kolom Integratiegebruikersmodus toevoegen aan het formulier.](media/sales-map-field-explorer.png)
 
 3. Ga in Verkoop naar **Instelling \> Beveiliging \> Gebruikers** en wijzig de weergave van **Ingeschakelde gebruikers** in **Toepassingsgebruikers**.
 
-    ![De weergave wijzigen van Ingeschakelde gebruikers in Toepassingsgebruikers](media/sales-map-enabled-users.png)
+    ![De weergave wijzigen van Ingeschakelde gebruikers in Toepassingsgebruikers.](media/sales-map-enabled-users.png)
 
 4. Selecteer de twee items voor **DualWrite IntegrationUser**.
 
-    ![Lijst met toepassingsgebruikers](media/sales-map-user-mode.png)
+    ![Lijst met toepassingsgebruikers.](media/sales-map-user-mode.png)
 
 5. Wijzig de waarde van de kolom **Integratiegebruikersmodus** in **Ja**.
 
-    ![De waarde van de kolom Integratiegebruikersmodus wijzigen in Ja](media/sales-map-user-mode-yes.png)
+    ![De waarde van de kolom Integratiegebruikersmodus wijzigen in Ja.](media/sales-map-user-mode-yes.png)
 
 Uw verkooporders zijn nu toegewezen.
 

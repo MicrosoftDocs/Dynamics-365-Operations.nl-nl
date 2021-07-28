@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: f9953d1a996f6f68600a7fd04719e9b112494175
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186609"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349892"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Btw-aangifte voor Egypte (EG-00002)
 
@@ -77,7 +77,7 @@ Met de toepassingsspecifieke parameters kunt u de criteria bepalen voor de class
 
 De rapporten van de verkoop- en inkoopboeken voor Egypte bevatten een reeks kolommen die overeenkomen met specifieke transactieclassificaties als typen bewerkingen, producten en documenten die specifiek zijn voor Egypte. In plaats van deze nieuwe classificaties als nieuwe invoergegevens op te nemen wanneer de transacties worden geboekt, worden de classificaties bepaald op basis van verschillende opzoekingen in **Configuraties** > **Toepassingsspecifieke parameters instellen** > **Instellen** om te voldoen aan de vereisten van btw-rapporten voor Egypte. 
 
-![Pagina Toepassingsspecifieke parameters](media/egypt-vat-declaration-setup1.png)
+![Pagina Toepassingsspecifieke parameters.](media/egypt-vat-declaration-setup1.png)
 
 De volgende opzoekconfiguraties worden gebruikt om de transacties te classificeren in rapporten over inkoop- en verkoopboeken:
 
@@ -206,7 +206,7 @@ Als u het btw-aangifteformulierrapport wilt genereren in Microsoft Excel-indelin
 2. Selecteer op het tabblad **Btw** in de sectie **Btw-opties** in het veld **Toewijzing indeling btw-overzicht** de optie **Btw-aangifte Excel (EG)**. Als u het veld leeg laat, wordt de standaard btw-aangifte gegenereerd in de SSRS-indeling.
 3. Selecteer de **categoriehiërarchie**. Met deze categorie kan de basisproductcode in transacties op het tabblad Buitenlandse handel worden gebruikt, zodat gebruikers goederen en diensten kunnen selecteren en classificeren. De beschrijving van deze classificatie is gedetailleerd in verkoop- en inkooptransactierapporten. Deze configuratie is optioneel.
 
-![Aangifteformulier](media/egypt-vat-declaration-setup2.png)
+![Aangifteformulier.](media/egypt-vat-declaration-setup2.png)
 
 
 ## <a name="generate-a-vat-return-report"></a>Een btw-aangifterapport genereren

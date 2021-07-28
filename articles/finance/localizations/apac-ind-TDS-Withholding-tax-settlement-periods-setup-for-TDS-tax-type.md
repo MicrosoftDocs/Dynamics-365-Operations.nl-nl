@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9430bc1386f127d02b598d6cad1b53f66e0cf2ba
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 12ba639ccf670997d4f16325172aa351732a5722
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023135"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348904"
 ---
 # <a name="set-up-withholding-tax-settlement-periods-for-the-tds-tax-type"></a>Vereffeningsperioden voor bronbelasting voor het TDS-belastingtype instellen
 
@@ -31,7 +31,7 @@ In dit onderwerp wordt uitgelegd hoe u vereffeningsperioden in moet stellen voor
 
 1. Ga naar **Belasting \> Indirecte belastingen \> Bronbelasting \> Vereffeningsperioden voor bronbelasting**.
 
-    [![Pagina Vereffeningsperioden voor bronbelasting](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
+    [![Pagina Vereffeningsperioden voor bronbelasting.](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
 
 2. Selecteer in het veld **Belastingtype** de optie **TDS** om vereffeningsperioden voor bronbelasting in te stellen voor het belastingtype TDS.
 3. Selecteer **Nieuw** om een regel te maken.
@@ -47,6 +47,6 @@ In dit onderwerp wordt uitgelegd hoe u vereffeningsperioden in moet stellen voor
     > [!NOTE]
     > Als u het periodieke TDS-vereffeningsproces wilt uitvoeren, gaat u naar **Grootboek \> Periodiek \> Bronbelasting \> Bronbelastingbetaling**.
 
-    [![Pagina Bronbelastingbetaling](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
+    [![Pagina Bronbelastingbetaling.](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
 
 12. Sluit de pagina.
