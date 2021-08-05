@@ -5,6 +5,8 @@
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 12 juli 2021
+          href: hr-whats-new-2021-07-12.md
         - name: 22 juni 2021
           href: hr-whats-new-2021-06-22.md
         - name: 20 mei 2021
@@ -255,6 +257,8 @@
           href: hr-admin-go-live-prepare.md
         - name: Veelgestelde vragen over go-live
           href: hr-admin-go-live-faq.md
+        - name: Veelgestelde vragen over samenvoegen van Human Resources-infrastructuur
+          href: hr-infrastructure-merge-faq.md
         - name: Documentatiebronnen
           items:
             - name: Help-systeem
@@ -691,6 +695,8 @@
               href: hr-compensation-define-process.md
             - name: Compensatieplannen verwerken
               href: hr-compensation-process.md
+            - name: Een werknemer markeren als gereed voor betaling
+              href: hr-compensation-payroll.md
         - name: Vergoedingen beheren
           items:
             - name: Vergoedingenbeheer
@@ -715,7 +721,7 @@
                       href: hr-benefits-setup-payment-frequencies.md
                     - name: Typen levensgebeurtenissen configureren
                       href: hr-benefits-setup-life-event-types.md
-                    - name: Plantypen maken
+                    - name: Overzicht plantype
                       href: hr-benefits-setup-plan-types.md
                     - name: Redencodes instellen
                       href: hr-benefits-setup-reason-codes.md
@@ -807,6 +813,8 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Team- en bedrijfsagenda's weergeven
               href: hr-employee-self-service-calendar.md
+            - name: Rol van verzuimmanager configureren
+              href: hr-configure-absence-manager.md
             - name: Beleid voor verlof inkopen/verkopen beheren
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: Workflows voor inkopen en verkopen van verlof maken

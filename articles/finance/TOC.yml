@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (juni 2021)
                       href: get-started/whats-new-changed-10-0-19.md
-                    - name: Finance 10.0.18 (mei 2021)
-                      href: get-started/whats-new-changed-10-0-17.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -1566,6 +1564,8 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Internationale dienstverlening (rapport)
                   href: localizations/emea-aut-cross-border-services-report.md
+                - name: Inkoopheffingen
+                  href: localizations/emea-aut-purchase-duties.md
             - name: Bahrein
               items:
                 - name: Overzicht Bahrein
@@ -1992,6 +1992,10 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: Een EU Intrastat-aangifte genereren
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
+                    - name: Franse Intrastat
+                      href: localizations/emea-fra-intrastat.md
+                    - name: Italiaanse Intrastat
+                      href: localizations/emea-ita-intrastat.md
                 - name: Voorraadjournaalrapporten
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Deadlines voor uitgeven van facturen
@@ -2968,6 +2972,12 @@
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
                 - name: 'Btw-aangifte met registers (JPK_V7M, VDEK)'
                   href: localizations/emea-pol-vdek.md
+                - name: Voorbereiden voor JPK-V7M-rapportage
+                  href: localizations/emea-pol-vdek-setup.md
+                - name: JPK-V7M-rapportage
+                  href: localizations/emea-pol-vdek-reporting.md
+                - name: Details van specifieke zakelijke scenario's in het JPK-V7M-rapport
+                  href: localizations/emea-pol-vdek-scenarios.md
             - name: Qatar
               items:
                 - name: Overzicht Qatar
@@ -3204,6 +3214,8 @@
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
                     - name: Reserves voor dubieuze debiteuren in Klanten
                       href: localizations/rus-bad-debts.md
+                    - name: Berekening van belastingactiva en belastingschuldregisters
+                      href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
             - name: Saoedi-Arabië
               items:
                 - name: Overzicht Saoedi-Arabië
@@ -3997,6 +4009,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Rapporten genereren in Office-indelingen met ingesloten afbeeldingen
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Een ER-indeling ontwerpen om een rapport in Excel te genereren met ingesloten afbeeldingen in paginakopteksten of -voetteksten
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: Stuklijsttekens onderdrukken in gegenereerde bestanden

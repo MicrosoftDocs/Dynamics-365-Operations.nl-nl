@@ -98,8 +98,6 @@
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (juni 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
-                    - name: Commerce 10.0.18 (mei 2021)
-                      href: get-started/whats-new-commerce-10-0-18.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Startpagina voor verwijderde of afgeschafte functies
@@ -900,6 +898,8 @@
                   href: set-up-B2C-tenant.md
                 - name: Aangepaste pagina's voor gebruikersaanmeldingen instellen
                   href: custom-pages-user-logins.md
+                - name: Automatisch koppelen van identiteitsrecords aan klantrekeningen inschakelen
+                  href: identity-record-linking.md
                 - name: Meerdere B2C-tenants configureren in een Commerce-omgeving
                   href: configure-multi-B2C-tenants.md
                 - name: Domeinen in Dynamics 365 Commerce
@@ -1022,6 +1022,8 @@
                   items:
                     - name: Overzicht van Adventure Works-thema
                       href: adventure-works-theme.md
+                    - name: Het thema Adventure Works installeren
+                      href: install-adventure-works.md
             - name: Digitale activa beheren
               items:
                 - name: Overzicht van digitaal activabeheer

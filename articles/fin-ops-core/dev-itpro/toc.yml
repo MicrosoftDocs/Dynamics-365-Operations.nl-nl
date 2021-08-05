@@ -18,8 +18,6 @@
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Platform-updates voor 10.0.19 (juni 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
-                - name: Platform-updates voor 10.0.18 (mei 2021)
-                  href: get-started/whats-new-platform-updates-10-0-18.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -366,6 +364,8 @@
                       href: deployment/troubleshoot-newinfrastructure.md
                     - name: Veelgestelde vragen over gepland onderhoud in selfserviceomgevingen
                       href: deployment/plannedmaintenance-selfservice.md
+                    - name: Bedrijfscontinuïteit en herstel na noodgeval
+                      href: sysadmin/business-continuity-disaster-recovery.md
                 - name: Onboarding Azure Resource Manager voltooien
                   href: deployment/arm-onboarding.md
                 - name: Azure ExpressRoute en Finance and Operations
@@ -376,6 +376,8 @@
                   href: deployment/apply-deployable-package-system.md
                 - name: Updates en uitbreidingen toepassen op Commerce Scale Unit (cloud)
                   href: deployment/Update-retail-channel.md
+                - name: Automatische update voor Commerce Scale Unit (cloud)
+                  href: deployment/Auto-Update-Commerce-Scale-Unit.md
                 - name: Commerce Scale Unit initialiseren (cloud)
                   href: deployment/Initialize-Retail-Channels.md
                 - name: Kanalen migreren naar een ander exemplaar van Commerce Scale Unit
@@ -392,6 +394,8 @@
                       href: deployment/on-premises-overview.md
                     - name: On-premises implementaties plannen en voorbereiden
                       href: deployment/plan-onprem-deployment.md
+                    - name: Door Microsoft Dynamics 365 Finance + Operations (on-premises) ondersteunde software
+                      href: deployment/onprem-compatibility.md
                     - name: Vereisten voor omvang hardware
                       href: ../fin-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
                     - name: Verificatie in Dynamics 365 Finance + Operations (on-premises)
@@ -502,8 +506,6 @@
                   href: dev-tools/access-instances.md
                 - name: Ontwikkelomgevingen met één apparaat configureren
                   href: dev-tools/configure-developer-vm.md
-                - name: Nieuwe gebruikers maken op ontwikkelcomputers
-                  href: dev-tools/enable-development-machine.md
                 - name: Veelgestelde vragen over ontwikkelen en bouwen van VM's waarin beheerdertoegang niet is toegestaan
                   href: sysadmin/VMs-no-admin-access.md
                 - name: De naam van lokale omgevingen wijzigen voor toegang tot Azure DevOps
@@ -1116,7 +1118,7 @@
                       href: data-entities/dual-write/integrated-hr.md
                     - name: Partij en globaal adresboek
                       href: data-entities/dual-write/party-gab.md
-                    - name: Power Portal gebruiken met het gegevensmodel Partij
+                    - name: Microsoft Power Apps-portals gebruiken met het gegevensmodel Partij
                       href: data-entities/dual-write/party-gab-portal.md
                     - name: Bijwerken naar het model voor partij en globaal adresboek
                       href: data-entities/dual-write/upgrade-party-gab.md
@@ -1604,6 +1606,8 @@
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: Upgrade van AX 2012 - Go live
                   href: migration-upgrade/2012-upgrade-cutover.md
+                - name: Upgrade van AX 2012 - Veelgestelde vragen over gegevensupgrade
+                  href: migration-upgrade/upgrade-faq.md
                 - name: Wijzigingen hebben gevolgen voor de upgrade van AX 2012
                   items:
                     - name: Het scheidingsteken in het rekeningschema uniek maken
