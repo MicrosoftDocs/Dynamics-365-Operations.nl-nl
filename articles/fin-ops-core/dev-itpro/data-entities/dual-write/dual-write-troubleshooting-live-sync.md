@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a0a14c87af7f0d2372d752233f21d9accbca58a8
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350783"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542510"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Problemen met live synchronisatie oplossen
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 Dit onderwerp bevat informatie voor het oplossen van problemen voor de integratie van twee keer wegschrijven tussen Finance and Operations-apps en Dataverse. Dit onderwerp bevat specifieke informatie over het oplossen van problemen met live synchronisatie.
 
@@ -81,7 +79,7 @@ Om het probleem op te lossen moet u de juiste beveiligingsrol toewijzen aan het 
 
     ![Organisatietoewijzing.](media/mapped_business_unit.png)
 
-2. Meld u aan bij de omgeving in de modelgestuurde app in Dynamics 365, navigeer naar **Instelling \> Beveiliging** en zoek het team van de toegewezen bedrijfseenheid.
+2. Meld u aan bij de omgeving in de app voor klantbetrokkenheid, navigeer naar **Instelling \> Beveiliging** en zoek het team van de toegewezen bedrijfseenheid.
 
     ![Team van de toegewezen bedrijfseenheid.](media/setting_security_page.png)
 
@@ -99,7 +97,7 @@ Mogelijk wordt het volgende foutbericht weergegeven wanneer u gegevens in een Fi
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Kan geen nettolading genereren voor entiteit CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Het maken van de nettolading is mislukt met fout Ongeldige URI: de URI is leeg."}\],"isErrorCountUpdated":true}*
 
-Zo ziet de fout eruit in de modelgestuurde app in Dynamics 365:
+De fout ziet er als volgt uit in de app voor klantbetrokkenheid:
 
 *Er is een onverwachte fout opgetreden vanuit de ISV-code. (Fouttype = ClientError) Onverwachte uitzondering in invoegtoepassing: (Execute): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: verwerken van entiteitsaccount mislukt - een verbindingspoging is mislukt omdat de verbonden partij niet correct reageert na een bepaalde tijd of de tot stand gebrachte verbinding is mislukt omdat de verbonden host niet heeft gereageerd*
 
@@ -125,6 +123,5 @@ Volg deze stappen om het probleem op te lossen.
 
 3. Controleer of de kolom **externalenvironmentURL** de juiste URL voor Dataverse of de app heeft. Verwijder dubbele rijen die naar de verkeerde Dataverse-URL verwijzen. Verwijder de overeenkomstige rijen uit de tabellen DUALWRITEPROJECTFIELDCONFIGURATION en DUALWRITEPROJECTCONFIGURATION.
 4. De tabeltoewijzing stoppen en vervolgens opnieuw starten
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

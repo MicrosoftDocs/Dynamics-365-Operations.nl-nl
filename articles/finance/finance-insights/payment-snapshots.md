@@ -2,7 +2,7 @@
 title: Overzicht van momentopnamen (preview)
 description: In dit onderwerp wordt de functie Momentopnamen beschreven. Hiermee kunt u een cashflowprognose maken voor latere analyse of vergelijking met werkelijke waarden. Wanneer u een cashflow prognose genereert, kunt u die prognose opslaan als een 'momentopname'. U kunt deze momentopnamen vervolgens gebruiken om de rekeningen te bewerken die in de prognose zijn opgenomen of om de prognose in de momentopname te vergelijken met de werkelijke waarden.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23df01603e74847f6f01a1eaa84b8fd3bb1d6e59
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: cf39e5233b2ef4d50d6c5ace57ba2574ed5fe6fe
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337202"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638339"
 ---
 # <a name="snapshots-overview-preview"></a>Overzicht van momentopnamen (preview)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Met momentopnamen kunnen organisaties informatie over hun kaspositie en cashflowprognoses op een bepaald moment bewerken en opslaan. U kunt de momentopname vergelijken met de werkelijke financiële gegevens, de afwijking onderzoeken en deze informatie gebruiken om cashflowprognoses in de loop der tijd te verbeteren. In het bijzonder kunnen momentopnamen op de volgende manieren worden gebruikt:
 

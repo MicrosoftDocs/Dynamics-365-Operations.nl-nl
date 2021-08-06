@@ -1,5 +1,5 @@
 ---
-title: Preview van Dynamics 365 Supply Chain Management 10.0.20 (augustus 2021)
+title: Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.20 (augustus 2021)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.20.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,30 +10,28 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a782416bdb12a8ac7f1ba807452ca54072af3ab5
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301741"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641051"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>Preview van Dynamics 365 Supply Chain Management 10.0.20 (augustus 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.20 (augustus 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in de preview van Microsoft Dynamics 365 Supply Chain Management versie 10.0.20. Deze versie heeft een buildnummer van 10.0.886 en is als volgt beschikbaar:
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.20. Deze versie heeft een buildnummer van 10.0.886 en is als volgt beschikbaar:
 
 - **Preview van versie:** mei 2021
 - **Algemene beschikbaarheid van versie (zelfupdate):** juli 2021
 - **Algemene beschikbaarheid van versie (automatische update):** augustus 2021
 
-
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
 De volgende tabel vermeldt de functies die deze versie bevat. De kolom *Functie* bevat koppelingen naar het [releaseplan](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) waar u de officiële vrijgavedatums voor elke functie kunt zien. De kolom *Meer informatie* bevat meer details en/of koppelingen naar gerelateerde documentatie.
 
-De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken. Sommige van de functies in de lijst zijn nog steeds in preview, terwijl andere mogelijk al algemeen beschikbaar zijn.
+De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 
 | Functiegebied | Functie | Meer informatie |
 |---|---|---|
@@ -49,7 +47,7 @@ In de volgende tabel worden de functieverbeteringen weergegeven die deze versie 
 
 | Functiegebied | Functie&nbsp;naam&nbsp;in Functie&nbsp;beheer | Meer informatie |
 |---|---|---|
-| Hoofdplanning | Negatieve dagen voor Planningsoptimalisatie | Met deze preview-functie kan bij Planningsoptimalisatie rekening worden houden met vertragingstolerantie op basis van de parameter **Negatieve dagen** die is gedefinieerd in dekkingsgroepen. |
+| Hoofdplanning | Negatieve dagen voor Planningsoptimalisatie | Met deze functie kan bij Planningsoptimalisatie rekening worden houden met vertragingstolerantie op basis van de parameter **Negatieve dagen** die is gedefinieerd in dekkingsgroepen. |
 | Hoofdplanning | Parallelle autorisatie van gecorrigeerde vraagprognose | Deze functie maakt parallelle autorisatie van gecorrigeerde vraagprognose via de pagina **Gecorrigeerde vraagprognose** mogelijk. Deze functie is bedoeld om de prestaties te verbeteren wanneer een groot aantal prognoses wordt geautoriseerd. Tijdens het autoriseren kan de gebruiker het **aantal threads** in het autorisatiedialoogvenster opgeven. |
 | Hoofdplanning | (Preview) Batchgewijs fiatteren en consolideren voor geplande batchorders voor bulk en verpakking | Met deze functie kunt u batchtaken gebruiken om geplande bulk- en verpakkingsorders te fiatteren en te consolideren. |
 | Productiebeheer | Algemene routes kopiëren | Met deze functie wordt de kopieerroutefunctie verbeterd, zodat gebruikers routes kunnen kopiëren die niet artikelspecifiek zijn. Hiermee kan het systeem alle relevante informatie (zoals locatie, routegroep, resourcebehoeften en diverse keren) bijwerken nadat de kopieerroutefunctie is gebruikt om een route te overschrijven die nog niet aan een artikel is toegewezen. |
@@ -75,7 +73,7 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Z
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates voor Finance and Operations-apps
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.20 bevat platform updates. Zie [Platform updates voor versie 10.0.20 van Finance and Operations- apps (juli 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md) voor meer informatie. <!-- KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.20 bevat platform updates. Zie [Platform updates voor versie 10.0.20 van Finance and Operations- apps (juli 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md) voor meer informatie.
 
 ### <a name="bug-fixes"></a>Correcties
 

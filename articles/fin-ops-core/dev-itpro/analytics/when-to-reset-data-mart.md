@@ -2,7 +2,7 @@
 title: Veelgestelde vragen over opnieuw instellen van een datamart
 description: Dit onderwerp biedt antwoorden op een aantal veelgestelde vragen over het opnieuw instellen (reset) van een datamart.
 author: jinniew
-ms.date: 06/09/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 90abe1fc3e84e0a9777f3eabd790a4b7e9b509c5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266604"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638262"
 ---
 # <a name="data-mart-resets-faq"></a>Veelgestelde vragen over opnieuw instellen van een datamart
 
@@ -37,6 +37,9 @@ Als er een of meer van de volgende uitspraken van toepassing zijn op uw situatie
 
 - De toepassingsdatabase is teruggezet.
 - U hebt een ondersteuningsticket geopend en een ondersteuningstechnicus heeft u opdracht gegeven om de datamart opnieuw in te stellen als onderdeel van een probleemoplossingsstap.
+ 
+> [!NOTE]
+> Het proces van het opnieuw instellen van een datamart wordt beïnvloed door het aantal grootboek- en budgettransacties in uw database. Afhankelijk van het aantal transacties in het systeem kan een reset van de datamart binnen een paar minuten worden uitgevoerd. Het kan echter ook tot vier uur in beslag nemen. Als het opnieuw instellen echter meer dan vier uur duurt, raden we u aan contact op te nemen met Ondersteuning.
  
 ## <a name="when-is-a-data-mart-reset-inappropriate"></a>Wanneer kunt u een datamart beter niet opnieuw instellen?
 

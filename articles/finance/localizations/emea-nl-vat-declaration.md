@@ -3,7 +3,7 @@ title: Btw-aangifte voor Nederland
 description: In dit onderwerp wordt uitgelegd hoe u de btw-aangifte voor rechtspersonen kunt instellen en genereren in Nederland.
 author: anasyash
 ms.author: AnnBe
-ms.date: 04/01/2020
+ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,19 @@ ms.reviewer: kfend
 ms.search.region: Netherlands
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e8d5d2f0c1f070f8004dcbe437508849bd9e358b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 73ff0d421107de1585df527a5b3afc118f37468f
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346431"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641172"
 ---
 # <a name="vat-declaration-for-the-netherlands"></a>Btw-aangifte voor Nederland
 
 [!include [banner](../includes/banner.md)]
 
+> [!IMPORTANT]
+> Er is een nieuwe functie voor btw-aangifte in Nederland beschikbaar. Zie [Btw-aangifte (Nederland)](emea-nl-vat-declaration-netherlands.md) voor meer informatie.
 
 In dit onderwerp wordt uitgelegd hoe u de btw-aangifte voor rechtspersonen kunt instellen en genereren in Nederland. Zie [Btw-aangifte voor Europa](emea-vat-reporting.md) voor algemene informatie over het opstellen van het btw-overzicht.
 
@@ -203,7 +205,7 @@ In het volgende voorbeeld ziet u hoe u btw-codes en btwaangifte codes kunt inste
 
 13. Controleer de gegevens die voor de aangifte zijn gegenereerd.
 
-![Paginadetails Elektronische OB-aangifte.](media/6_Details.png)
+![Gegenereerde gegevens op de pagina Elektronische OB-aangifte.](media/6_Details.png)
 
 14. Selecteer **XML weergeven** als u een voorbeeld van het XML-bestand wilt bekijken.
 
@@ -279,7 +281,7 @@ U kunt ook de Nederlandse btw-aangifte genereren met de query **Btw rapporteren 
 5. Ga naar **Belasting** \> **Aangiften** \> **Btw** \> **Btw vereffenen en boeken**. Selecteer in het dialoogvenster **Btw vereffenen en boeken** in het veld **Versie van btw-betaling** de optie **Origineel**.
 6. Druk het rapport af en controleer de gegevens.
 
-![Gegenereerd btw-betalingsrapport.](media/9_Sales_tax_payment.png)
+![Oorspronkelijk btw-betalingsrapport.](media/9_Sales_tax_payment.png)
 
   Let op de volgende punten:
 
@@ -298,11 +300,11 @@ U kunt ook de Nederlandse btw-aangifte genereren met de query **Btw rapporteren 
 5. Ga naar **Belasting** \> **Aangiften** \> **Btw** \> **Btw vereffenen en boeken**. Selecteer in het dialoogvenster **Btw vereffenen en boeken** in het veld **Versie van btw-betaling** de optie **Laatste correcties**.
 6. Ga naar **Belasting** \> **Aangiften** \> **Btw** \> **Btw rapporteren voor vereffeningsperiode**. Selecteer **Correcties** in het veld **Versie van btw-betaling**. Het volgende resultaat wordt weergegeven.
 
-![Gegenereerd btw-betalingsrapport.](media/10_Sales_tax_payment.png)
+![Gecorrigeerd btw-betalingsrapport.](media/10_Sales_tax_payment.png)
 
 7. Ga naar **Belasting** \> **Aangiften** \> **Btw** \> **Btw rapporteren voor vereffeningsperiode**. Selecteer **Totaal overzicht** in het veld **Versie van btw-betaling**. Het volgende resultaat wordt weergegeven.
 
-![Gegenereerd btw-betalingsrapport.](media/11_Sales_tax_payment.png)
+![Gegenereerd btw-betalingsrapport met totaallijst.](media/11_Sales_tax_payment.png)
 
    > [!NOTE]
    > Als u de OB-aangifte genereert nadat u de oorspronkelijke en gecorrigeerde btw-betalingen hebt gemaakt, worden in de OB-aangifte alleen bedragen weergegeven van de oorspronkelijke btw-betaling.

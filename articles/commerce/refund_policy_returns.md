@@ -2,7 +2,7 @@
 title: Een retour- en restitutiebeleid voor een kanaal maken en bijwerken
 description: In dit onderwerp wordt uitgelegd hoe u een retour- en restitutiebeleid instelt voor een kanaal.
 author: ShalabhjainMSFT
-ms.date: 07/02/2021
+ms.date: 07/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 6cb2bb77a62ee9fc2ea6115949e30496bf3365c4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca5797cfc2d92c4cbc98d3f64d60e1fd260f0418
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345103"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558292"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Beleid voor retouren en restituties voor een afzetkanaal maken en bijwerken
 
@@ -36,12 +36,21 @@ De reikwijdte van het beleid is momenteel beperkt tot het instellen van de betal
 
 ## <a name="enable-return-policy"></a>Retourbeleid inschakelen
 
-Ga als volgt te werk om de functionaliteit voor kanaalretourbeleid in te schakelen:
+Voer de volgende stappen uit om de functionaliteit voor kanaalretourbeleid in te schakelen in Commerce Headquarters.
 
 1. Ga naar het werkgebied **Functiebeheer** in Dynamics 365 Commerce.
 1. Zoek naar de functie **Kanaalretourbeleid inschakelen** in de lijst met functienamen.
 1. Selecteer **Nu inschakelen**.
-1. Voer op de pagina **Distributieplanning** de taak **1110** (Algemene configuratie) uit om de functiewijziging te verdelen. 
+1. Voer op de pagina **Distributieplanning** de taak **1110** (Algemene configuratie) uit om de functiewijziging te verdelen.
+
+## <a name="initialize-the-commerce-scheduler"></a>De Commerce-planner initialiseren
+
+Nadat u de functie **Kanaalretourbeleid inschakelen** hebt ingeschakeld, moet u de Commerce-planner initialiseren om ervoor te zorgen dat nieuwe wijzigingen in de functiedatabase worden toegevoegd via CDX-synchronisatie (Commerce Data Exchange). 
+
+Volg deze stappen om de Commerce-planner te initialiseren in Commerce Headquarters.
+
+- Ga naar **Detailhandel en commerce \> Instellingen van hoofdkantoor \> Commerce-planner \> Commerce-planner initialiseren**. U kunt ook zoeken naar "Commerce-planner initialiseren".
+- Controleer in het dialoogvenster **Commerce-planner initialiseren** of de optie **Bestaande configuratie verwijderen** is ingesteld op **Nee** en selecteer vervolgens **OK**.
 
 ## <a name="configure-return-policy"></a>Retourbeleid configureren
 

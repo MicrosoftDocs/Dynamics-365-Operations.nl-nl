@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 6fb4e91f00163f5280d2c767843afd5c7a33712d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 951136a6a5197d2ec081b325df2980ad2fcf6e42
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350880"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542707"
 ---
 # <a name="dual-write-overview"></a>Overzicht van twee keer wegschrijven
 
@@ -84,7 +84,7 @@ Met twee keer wegschrijven worden concepten in Finance and Operations-apps gekop
 
 Twee keer wegschrijven biedt gegevensintegratie tussen Microsoft Dynamics 365-toepassingen. Dit robuuste raamwerk koppelt omgevingen en zorgen ervoor dat verschillende bedrijfstoepassingen samenwerken. Dit zijn de belangrijkste redenen voor het gebruik van twee keer wegschrijven:
 
-+ Met twee keer wegschrijven beschikt u over een strak gekoppelde, bijna realtime en bidirectionele integratie tussen Finance and Operations-apps en modelgestuurde apps in Dynamics 365. Door deze integratie is Microsoft Dynamics 365 de plek voor al uw zakelijke oplossingen. Klanten die gebruikmaken van Dynamics 365 Finance en Dynamics 365 Supply Chain Management, maar die niet-Microsoft-oplossingen voor Customer Relationship Management (CRM) gebruiken, stappen over op Dynamics 365 vanwege de ondersteuning voor twee keer wegschrijven.
++ Met twee keer wegschrijven beschikt u over een strak gekoppelde, bijna realtime en bidirectionele integratie tussen Finance and Operations-apps en apps voor klantbetrokkenheid. Door deze integratie is Microsoft Dynamics 365 de plek voor al uw zakelijke oplossingen. Klanten die gebruikmaken van Dynamics 365 Finance en Dynamics 365 Supply Chain Management, maar die niet-Microsoft-oplossingen voor Customer Relationship Management (CRM) gebruiken, stappen over op Dynamics 365 vanwege de ondersteuning voor twee keer wegschrijven.
 + Gegevens van klanten, producten, transacties, projecten en het Internet of Things (IoT) stromen automatisch naar Dataverse via twee keer wegschrijven. Deze verbinding is nuttig voor bedrijven die geïnteresseerd zijn in Power Platform-uitbreidingen.
 + De infrastructuur voor twee keer wegschrijven volgt het principe van geen code/weinig code. Er is minimale technische inspanning vereist om de standaardtoewijzingen van tabel naar tabel uit te breiden en aangepaste toewijzingen op te nemen.
 + Twee keer wegschrijven ondersteunt zowel de online modus als de offline modus. Microsoft is het enige bedrijf dat ondersteuning biedt voor online en offline modi.

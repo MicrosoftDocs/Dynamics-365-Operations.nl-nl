@@ -2,7 +2,7 @@
 title: Overzicht van Adventure Works-thema
 description: In dit onderwerp wordt een overzicht van het Adventure Works-thema gegeven en wordt beschreven hoe u dit kunt toepassen op sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 07/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,36 +14,48 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7557a36a948de5ae877d74bbbdea78821099b82
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: c8183d09e15f83606d84fddd02cb2dfb9b2fb528
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479432"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655627"
 ---
 # <a name="adventure-works-theme-overview"></a>Overzicht van Adventure Works-thema
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt een overzicht van het Adventure Works-thema gegeven en wordt beschreven hoe u dit kunt toepassen op sitepagina's in Microsoft Dynamics 365 Commerce.
 
 Dynamics 365 Commerce heeft een thema voor e-commerce dat Adventure Works heet. Het Adventure Works-thema bevat sport- en recreatieproducten en is geoptimaliseerd voor een rijke en verbeterde ervaring. Dit ontwerp biedt een modern uiterlijk, nieuwe indelingen en effecten voor animaties om een unieke online winkelervaring te maken voor e-commerceklanten.
 
-Het Adventure Works-thema biedt de volgende nieuwe werkstromen:
+## <a name="trial-environments-in-commerce"></a>Testomgevingen in Commerce
+
+Ga naar de volgende testlocaties om te zien hoe het Adventure Works-thema eruitziet wanneer het wordt geïmplementeerd voor B2C- (business-to-consumer) en B2B-locaties (business-to-business):
+
+- [B2C-site van Adventure Works](https://www.adventure-works.com/)
+- [B2B-site van Adventure Works](https://www.adventure-works.com/business)
+
+## <a name="theme-capabilities"></a>Mogelijkheden van thema
+
+Het Adventure Works-thema biedt de volgende nieuwe mogelijkheden:
 
 - De videospelermodule ondersteunt nu functionaliteit voor kopteksten, alinea's en koppelingen voor extra mogelijkheden om verhalen te vertellen.
-- Bij de actie Toevoegen aan winkelwagen wordt het winkelwagentje aangeroepen in plaats van dat een melding wordt gegeven.
+- Er zijn betere overgangen van inhoud door middel van animatie.
+- Bij de actie "Toevoegen aan winkelwagen" wordt het winkelwagentje aangeroepen in plaats van dat een melding wordt gegeven.
 - De module voor snelle weergave is een deelvenster dat wordt weergegeven in viewports op een bureaublad of mobiel apparaat.
-- Een lege winkelwagen kan nu promoties bevatten.
+- De sitepagina's krijgen nieuwe indelingen. 
+- Marketinginhoud kan worden geconfigureerd voor de winkelwagen en de minikar wanneer deze leeg zijn.
+- In de minikar kunnen promotieberichten worden weergegeven, zoals 'Gratis verzending voor orders van meer dan $ 50'.
+- Er worden beschrijvingskaarten weergegeven op zoek- en categoriepagina's.
 
-Het Adventure Works-thema bevat de volgende modules voor het vertellen van verhalen in de bibliotheek met Commerce-modules:
+Het Adventure Works-thema bevat nu de volgende modules voor het vertellen van verhalen in de bibliotheek met Commerce-modules:
 
-- Tegellijstmodule
-- Module voor interactieve functies
-- Abonnementsmodule
-- Module voor actieve afbeeldingen
-- Afbeeldingslijstmodule
+- [Tegellijstmodule](tile-list-module.md)
+- [Interactieve-functiemodule](interactive-feature-module.md)
+- [Actieve-afbeeldingsmodule](active-image-module.md)
+- [Abonnementsmodule](subscribe-module.md)
+- [Afbeeldingslijstmodule](image-list-module.md)
 
 Het Adventure Works-thema is volledig responsief en biedt een optimale ervaring voor het weergeven van viewports op bureaublad, mobiele apparaten en tablets.
 
@@ -77,6 +89,10 @@ Het Adventure Works-thema bevat verschillende thema-extensies, zoals de extensie
 Ook andere modules omvatten extensies voor moduledefinitie. Zo bevat de [pictogrammodule voor winkelwagen](cart-icon-module.md) bijvoorbeeld twee extra vakken **Lege winkelwagen** en **Promotie-inhoud** die zijn geïmplementeerd met moduledefinitie-extensies. Daarnaast is er een nieuwe eigenschap **Mobiel logo** toegevoegd aan de koptekstmodule ter ondersteuning van een logo in mobiele viewports. Deze eigenschap wordt geïmplementeerd als een moduledefinitie-extensie voor kopteksten.
 
 Zie [Thema-extensies](e-commerce-extensibility/theme-module-extensions.md) voor meer informatie over thema-extensies.
+
+## <a name="install-the-adventure-works-theme"></a>Het Adventure Works-thema installeren
+
+Zie [Het Adventure Works-thema installeren](install-adventure-works.md) voor informatie over het installeren van het Adventure Works-thema.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

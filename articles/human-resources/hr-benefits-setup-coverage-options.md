@@ -2,7 +2,7 @@
 title: Opties voor dekking maken
 description: Dekkingsopties in Microsoft Dynamics 365 Human Resources zijn dekkingsniveaus voor de selectie van een deelnemer in een vergoedingsplan of -programma.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,21 +15,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9f67a97ec57bade840e1035c6011b94427a77c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1e8f13075a9835963c231a8e4e8a737368a952ba
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055575"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558220"
 ---
 # <a name="create-coverage-options"></a>Opties voor dekking maken
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Dekkingsopties in Microsoft Dynamics 365 Human Resources zijn dekkingsniveaus voor de selectie van een deelnemer in een vergoedingsplan of -programma. Dekkingsopties kunnen bijvoorbeeld **Alleen werknemer** zijn voor een medisch plan of **2x salaris** voor een levensverzekeringsplan. Nadat u dit hebt gedefinieerd, kunt u de dekkingsopties voor vergoedingen opnieuw gebruiken. U kunt een optie aan een of meer plannen koppelen.
+Opties voor dekking bepalen wie gedekt moet worden of hoeveel dekking er in een verzekeringsplan beschikbaar is. Voor een medische planning hebt u bijvoorbeeld een optie **alleen-werknemer**, een optie **werknemer + 1** en een optie **familie**. Voor levensverzekering kunt u een dekking bieden van **1 x salaris** of **2 x salaris**.
 
-Nadat u de dekkingsopties hebt gedefinieerd, koppelt u de dekkingsopties aan een type vergoedingsplan. Het plantype wordt vervolgens gekoppeld aan een vergoedingsplan of -programma. De dekkingsopties die aan een plantype zijn gekoppeld, zijn beschikbaar voor alle plannen die met dat plantype worden gemaakt. 
+Nadat opties voor vergoedingsdekking zijn gedefinieerd, kunt u deze opnieuw gebruiken. U kunt een optie aan een of meer plannen koppelen.
 
+> [!IMPORTANT]
+> Nadat u de dekkingsopties hebt gedefinieerd, koppelt u ze aan een type vergoedingsplan. Het plantype wordt vervolgens gekoppeld aan een vergoedingsplan of -programma. De dekkingsopties die aan een plantype zijn gekoppeld, zijn beschikbaar voor alle plannen van dat type die worden gemaakt.
+
+## <a name="create-coverage-options"></a>Opties voor dekking maken
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Dekkingsopties**.
 
 2. Selecteer **Nieuw**.
@@ -40,7 +44,7 @@ Nadat u de dekkingsopties hebt gedefinieerd, koppelt u de dekkingsopties aan een
    | --- | --- |
    | **Dekkingsoptie** | Een unieke naam voor de dekkingsoptie. |
    | **Beschrijving** | Een omschrijving van de dekkingsoptie. |
-   | **Dekkingscode** | Met dekkingscodes worden minimum- en maximumbedragen toegewezen aan elk in type persoon dat in aanmerking komt voor de dekking. Een dekkingscode geeft aan wie is gedekt of hoeveel dekking er voor een plantype is toegestaan. U kunt het bedrag van de dekking uitdrukken als een bedrag in euro's of een percentage. Bijvoorbeeld:</br></br>- **Werknemer+1** – om hiervoor in aanmerking te komen, moet de werknemer één gezinslid hebben geselecteerd (als er meer dan één persoon wordt geselecteerd, komt de werknemer niet meer in aanmerking).</br></br>- **Werknemer+familie** - om hiervoor in aanmerking te komen, moet de werknemer ten minste twee gezinsleden hebben geselecteerd. |
+   | **Dekkingscode** | Met dekkingscodes worden minimum- en maximumbedragen toegewezen aan elk in type persoon dat in aanmerking komt voor de dekking. Een dekkingscode geeft aan wie is gedekt of hoeveel dekking er voor een plantype is toegestaan. U kunt het bedrag van de dekking uitdrukken als een bedrag in euro's of een percentage. Bijvoorbeeld:<ul><li>**Werknemer+1**: om hiervoor in aanmerking te komen, moet de werknemer één gezinslid hebben geselecteerd (als er meer dan één persoon wordt geselecteerd, komt de werknemer niet meer in aanmerking).</li><li>**Werknemer+familie**: om hiervoor in aanmerking te komen, moet de werknemer ten minste twee gezinsleden hebben geselecteerd.</li></ul> |
    | **Maximum aantal** | Het maximale aantal gezinsleden. |
    | **Status** | De status van de dekkingsoptie. Als de status van de dekkingsoptie is ingesteld op Inactief, kan de dekkingsoptie niet worden geselecteerd voor plantypen. |
    | **Percentage** | Het percentage. Dit veld is alleen actief als '% x salaris' is geselecteerd in het veld Dekkingscode. |

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d7bba084b03f8698c8bf31d171d5e4e486ed06ad
-ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
+ms.openlocfilehash: 93e8f933524b34116987c9e0d91d226e21d98f4d
+ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187242"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6646482"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Planhistorie en planningslogboeken weergeven
 
@@ -34,6 +34,19 @@ Als u de historie voor een plan wilt weergeven, opent u het plan door naar **Hoo
 De historie van taken voor de uitvoeringen van hoofdplanning van Planningsoptimalisatie behoudt maximaal 60 records per hoofdplan. Wanneer u een nieuwe hoofdplanningsberekening maakt, wordt de vroegste historierecord van het plan verwijderd.
 
 Naast de begintijd en status van taken kunt u het logboek voor een bepaalde taak weergeven. Het logboek bevat aanvullende informatie en waarschuwingen. Niet alle taken hebben een logboek. Selecteer **Logboek** als u het logboek voor een taak wilt weergeven. Logboekvermeldingen worden slechts 30 dagen opgeslagen na de datum waarop de taak is voltooid. Daarna worden ze automatisch verwijderd.
+
+Als de optie **Batchverwerking** op het sneltabblad **Uitvoeren op de achtergrond** is ingeschakeld tijdens het instellen van de hoofdplanning, bevat het batchtaaklogboek meer informatie over eventuele waarschuwingen en fouten die tijdens de hoofdplanning zijn gegenereerd. Automatische fiatteringsfouten worden bijvoorbeeld alleen vastgelegd in het batchtaaklogboek. Deze worden niet weergegeven in logboeken op de pagina **Historie**.
+
+Voer deze stappen uit om automatische fiatteringsfouten en andere waarschuwingen of fouten weer te geven die tijdens een hoofdplanningsrun zijn opgetreden.
+
+1. Ga naar **Systeembeheer \> Query's \> Batchtaken**.
+1. Zoek en selecteer de record voor de hoofdplanningsrun waarin u bent geïnteresseerd. (De waarde van het veld **Taakomschrijving** kan bijvoorbeeld beginnen met *Hoofdplanning*.)
+1. Voer een van de volgende stappen uit, afhankelijk van het *verbeterde formulier* of het *verouderde formulier (niet-gewijzigd)* voor de pagina **Batchtaken**:
+
+    - Als u het verbeterde formulier gebruikt, selecteert u **Batchtaakhistorie** in het actievenster. Selecteer vervolgens **Logboek** op de pagina **Batchtaakhistorie** in het actievenster.
+    - Als u het verouderde formulier gebruikt, selecteert u **Logboek** op het tabblad **Batchtaak** in het actievenster.
+
+1. Selecteer **Berichtdetails** om het deelvenster **Berichtdetails** te openen, waar u alle waarschuwingen en fouten kunt bekijken die tijdens de verwerking zijn vastgelegd.
 
 ## <a name="related-resources"></a>Gerelateerde bronnen
 

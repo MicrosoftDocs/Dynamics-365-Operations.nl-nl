@@ -2,7 +2,7 @@
 title: Overzicht van verlof en verzuim
 description: In Dynamics 365 Human Resources biedt de werkruimte Verlof en verzuim een flexibel raamwerk voor het maken van nieuwe verlofplannen. Het biedt ook werkstromen voor het beheren van aanvragen en een intuïtieve selfservice pagina voor werknemers om verlof aan te vragen.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b41838b447dcbffc656ab759fcc4746abb620661
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 7a3c305910f41ebd775292dee91a6044c2cdb244
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339710"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639481"
 ---
 # <a name="leave-and-absence-overview"></a>Overzicht van verlof en verzuim
 
@@ -33,8 +33,9 @@ Dynamics 365 Human Resources helpt u uitstekende verlofvergoedingen aan uw werkn
 Voordat u verlofplannen voor uw werknemers maakt, moet u enkele installatiestappen uitvoeren:
 
 - [Parameters voor verlof en verzuim configureren](hr-leave-and-absence-parameters.md)
-- [Een werktijdkalender maken](hr-leave-and-absence-working-time-calendar.md)
+- [Een werktijdenkalender maken](hr-leave-and-absence-working-time-calendar.md)
 - [Een werkstroom voor verlofaanvragen maken](hr-leave-and-absence-workflow.md)
+- [De rol van verzuimmanager configureren](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>Verlofplannen maken en beheren
 
@@ -50,8 +51,9 @@ Voordat u plannen voor uw werknemers maakt, moet u verlof- en verzuimtypen maken
 
 Uw werknemers kunnen verlofaanvragen indienen en u kunt deze beheren in het werkgebied **Selfservice werknemer**.
 
-[Verlof aanvragen](hr-employee-self-service-request-time-off.md)
-[Verlof- en verzuimaanvragen beheren](hr-employee-self-service-manage-requests.md)
+- [Verlof aanvragen](hr-employee-self-service-request-time-off.md)
+- [Verlof- en verzuimaanvragen beheren](hr-employee-self-service-manage-requests.md)
+- [Rol van verzuimmanager configureren](hr-configure-absence-manager.md)
 
 
 

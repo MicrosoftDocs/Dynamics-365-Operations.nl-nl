@@ -2,7 +2,7 @@
 title: Werknemerverlof beheren
 description: Werknemerverlof beheren in Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 33080fc5ca43f3d83ee9d17565f4c229ced7b94f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c161e324a1ebe5b30c95d6d3e0468da671a7c2de
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055623"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639457"
 ---
 # <a name="manage-employee-leave"></a>Werknemerverlof beheren
 
@@ -44,12 +44,11 @@ U kunt het verlof van een werknemer op verloftype beheren. Dit omvat de vervalre
 
 U kunt een redencode en een opmerking opnemen bij het aanpassen van het verlofsaldo van een werknemer. 
 
->[!IMPORTANT]
->Aanvullende informatie over verlofsaldi wordt weergegeven. U moet deze in uw **Sandbox**-omgeving inschakelen. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het inschakelen van previewfuncties.<br>
->Wanneer u de aanwijzer op een verlofsaldo houdt, ziet u het volgende:<br>
->- **Beschikbaar** : totaal dit jaar - op te nemen dit jaar
->- **Totaal dit jaar**: alle grootboekposten, correcties en transportsaldi voor het jaar
->- **Dit jaar opgenomen** : alle goedgekeurde vrije dagen
+Wanneer u nu over een verlofsaldo beweegt, worden de volgende gegevens weergegeven:
+
+- **Beschikbaar**: de waarde **Totaal voor dit jaar** min de waarde **Dit jaar opgenomen**.
+- **Totaal voor dit jaar**: alle grootboekposten, correcties en transportsaldi voor het jaar.
+- **Dit jaar opgenomen**: alle goedgekeurde vrije dagen.
 
 ## <a name="see-also"></a>Zie ook
 

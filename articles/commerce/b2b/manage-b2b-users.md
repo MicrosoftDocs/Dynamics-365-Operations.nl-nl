@@ -2,24 +2,24 @@
 title: Gebruikers van zakenpartners op B2B-e-commercewebsite beheren
 description: In dit onderwerp wordt beschreven hoe beheerders gebruikers van zakenpartners op B2B-e-commercewebsites (business-to-business) kunnen toevoegen, bewerken en verwijderen.
 author: josaw1
-ms.date: 01/20/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: v-chgri
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 88f613be59a0c7b0d5efcdc0bef2c5a54506f9eb
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936651"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655601"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gebruikers van zakenpartners op B2B-e-commercewebsite beheren
 
@@ -67,7 +67,7 @@ Volg deze stappen om een beheerdergebruiker van een zakenpartner in Commerce Hea
 
 1. Ga naar **IT retail en commerce \> Distributieschema** en voer de taak **1010** (**Klanten**) uit om de nieuwe klant- en klanthiërarchierecords in de kanaaldatabase op te nemen.
 
-Nadat de aanvraag is goedgekeurd en de klant- en klanthiërarchierecords met de kanaaldatabase zijn gesynchroniseerd, kan de aanvrager zich aanmelden bij de B2B-e-commercewebsite via het e-mailadres dat zij hebben opgegeven op het moment dat ze de aanvraag indienden. Gebruikers kunnen het aanmeldingsproces gebruiken om het wachtwoord voor hun account te definiëren.
+Nadat de aanvraag is goedgekeurd en de klant- en klanthiërarchierecords met de kanaaldatabase zijn gesynchroniseerd, kan de aanvrager zich aanmelden bij de B2B-e-commercewebsite via het e-mailadres dat zij hebben opgegeven op het moment dat ze de aanvraag indienden. Gebruikers kunnen het aanmeldingsproces gebruiken om het wachtwoord voor hun account te definiëren. Als u wilt dat de identiteitsprovider (Azure AD B2C)-record wordt gekoppeld aan de B2B-klantrecord die is gemaakt bij het registreren of aanmelden, volgt u de instructies in [Automatisch koppelen van identiteitsrecords aan klantrekeningen inschakelen](../identity-record-linking.md).
 
 ## <a name="onboard-additional-business-partner-users"></a>Extra gebruikers van zakenpartners onboarden
 
@@ -83,7 +83,7 @@ Volg deze stappen om extra gebruikers van zakenpartners bij een B2B-e-commercewe
 
 1. Voer de taak **1010** (**Klanten**) uit om de nieuwe gebruiker van de zakenpartner te synchroniseren met de kanaaldatabase.
 
-Nadat de klantrecord is gesynchroniseerd, wordt de status van de gebruiker op de B2B-e-commercewebsite ingesteld op **Actief** en kan de nieuwe gebruiker zich aanmelden bij de B2B-e-commercewebsite via het e-mailadres. Gebruikers kunnen het aanmeldingsproces gebruiken om het wachtwoord voor hun account te definiëren.
+Nadat de klantrecord is gesynchroniseerd, wordt de status van de gebruiker op de B2B-e-commercewebsite ingesteld op **Actief** en kan de nieuwe gebruiker zich aanmelden bij de B2B-e-commercewebsite via het e-mailadres. Gebruikers kunnen het aanmeldingsproces gebruiken om het wachtwoord voor hun account te definiëren. Als u wilt dat de identiteitsprovider (Azure AD B2C)-record wordt gekoppeld aan de B2B-klantrecord die is gemaakt bij het registreren of aanmelden, volgt u de instructies in [Automatisch koppelen van identiteitsrecords aan klantrekeningen inschakelen](../identity-record-linking.md).
 
 ## <a name="edit-business-partner-user-details"></a>Gebruikersdetails van zakenpartners bewerken
 

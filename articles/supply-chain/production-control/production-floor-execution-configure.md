@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 34d0f3a0ff2a2ce1efd52f7bad2367af5f2f371b
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: c1739c9b50cb3f09696bf95730cd62fc9960ed5d
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271150"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641075"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer configureren
 
@@ -70,8 +70,6 @@ Met deze functie voegt u een Activabeheer-tabblad toe aan de interface voor het 
 - Functionaliteit van activabeheer voor de uitvoeringsinterface voor de werkvloer
 
 ### <a name="enable-job-search"></a>Zoekopdracht naar taak inschakelen
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Met deze functie kunt u een zoekveld aan de takenlijst toevoegen. Werknemers kunnen een specifieke taak vinden door de taak-ID in te voeren of alle taken voor een specifieke order zoeken door de order-ID in te voeren. Werknemers kunnen de ID invoeren met behulp van een toetsenblok of door een streepjescode te scannen. Als u hier gebruik van wilt maken, schakelt u de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in:
 

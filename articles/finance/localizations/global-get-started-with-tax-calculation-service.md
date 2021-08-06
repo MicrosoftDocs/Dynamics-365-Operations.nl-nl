@@ -2,7 +2,7 @@
 title: Aan de slag met belastingberekening
 description: In dit onderwerp wordt uitgelegd hoe u belastingberekening instelt.
 author: wangchen
-ms.date: 05/17/2021
+ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 454608c2c3a86b71cf181129c762c837c5165902
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: b76184b3f1a97941fea7539aa3fac2c11b1f59b1
+ms.sourcegitcommit: cef2986e24d0510957b5db742545c266dec4275c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336651"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6644969"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Aan de slag met de belastingberekening (preview)
 
@@ -58,15 +58,16 @@ Voordat u de procedures in dit onderwerp kunt voltooien, moet aan de volgende ve
 De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon. U hoeft deze procedure maar één keer uit te voeren en u kunt dit in elke rechtspersoon in RCS doen.
 
 1. Meld u aan bij [RCS](https://marketing.configure.global.dynamics.com/).
-2. Voeg in het werkgebied **Elektronische rapportage** een nieuwe configuratieprovider toe. Gebruik uw bedrijfsnaam als de naam van de provider. Zie [Configuratieproviders maken en deze als actief markeren](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md) voor meer informatie.
-3. Selecteer de configuratieprovider die u zojuist hebt gemaakt en selecteer **Instellen als actief**.
-4. Selecteer de configuratieprovider **Microsoft** en selecteer vervolgens **Opslagplaatsen**.
-5. Selecteer in het veld **Type** de optie **Globaal**.
-6. Selecteer **Openen**.
-7. Ga naar **Belastinggegevensmodel**, vouw de bestandsstructuur uit en selecteer vervolgens **Belastingconfiguratie**.
-8. Selecteer de nieuwste versie en selecteer **Importeren**.
-9. Ga terug naar het werkgebied **Globalisatiefuncties (preview)** en selecteer **Functies**, de tegel **Belastingberekening** en **Toevoegen**.
-10. Selecteer een van de volgende functietypen:
+2. Selecteer in de werkruimte **Functiebeheer** de functie **Globalisatiefuncties** en schakel deze in.
+3. Voeg in het werkgebied **Elektronische rapportage** een nieuwe configuratieprovider toe. Gebruik uw bedrijfsnaam als de naam van de provider. Zie [Configuratieproviders maken en deze als actief markeren](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md) voor meer informatie.
+4. Selecteer de configuratieprovider die u zojuist hebt gemaakt en selecteer **Instellen als actief**.
+5. Selecteer de configuratieprovider **Microsoft** en selecteer vervolgens **Opslagplaatsen**.
+6. Selecteer in het veld **Type** de optie **Globaal**.
+7. Selecteer **Openen**.
+8. Ga naar **Belastinggegevensmodel**, vouw de bestandsstructuur uit en selecteer vervolgens **Belastingconfiguratie**.
+9. Selecteer de nieuwste versie en selecteer **Importeren**.
+10. Ga terug naar het werkgebied **Globalisatiefuncties** en selecteer **Functies**, de tegel **Belastingberekening** en **Toevoegen**.
+11. Selecteer een van de volgende functietypen:
 
     - **Nieuwe functie**: maak een functie-instelling met lege inhoud.
     - **Gebaseerd op bestaande functie**: maak een functie op basis van een bestaande functie en kopieer de inhoud uit de bestaande functie-instelling.

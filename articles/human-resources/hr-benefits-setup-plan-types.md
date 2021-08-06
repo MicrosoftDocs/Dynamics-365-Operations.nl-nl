@@ -1,8 +1,8 @@
 ---
-title: Plantypen maken
+title: Overzicht plantype
 description: Een plantype in Microsoft Dynamics 365 Human Resources is een groepering op hoog niveau van specifieke typen vergoedingen. Elk plantype heeft een plantypecode waarmee de regels voor het plantype worden bepaald.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,34 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: eb4746425c2faa3c0b1bd3940bf2e03cf7f9595c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 806b3839feb1e1bf889747986388a56113c3ebe1
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057857"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558268"
 ---
-# <a name="create-plan-types"></a>Plantypen maken
+# <a name="plan-type-overview"></a>Overzicht plantype
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Een plantype in Microsoft Dynamics 365 Human Resources is een groepering op hoog niveau van specifieke typen vergoedingen. Elk plantype heeft een plantypecode waarmee de regels voor het plantype worden bepaald. Het plantype Basis leven heeft bijvoorbeeld de plantypecode Leven, omdat het een type levensverzekering is en moet voldoen aan de regels die zijn vastgelegd voor de plantypecode Leven. Een ander plantype kan Aanvullend leven zijn, eveneens met plantypecode Leven.
+Een plantype is een groepering op hoog niveau van specifieke typen vergoedingen. Elk plantype heeft een plantypecode waarmee de regels voor het plantype worden bepaald. Het plantype **Basis leven** heeft bijvoorbeeld de plantypecode **Leven**, omdat het een type levensverzekering is en moet voldoen aan de regels die zijn vastgelegd voor de plantypecode **Leven**. Een ander plantype kan **Aanvullend leven** zijn. Dit plantype heeft ook de plantypecode **Leven**.
 
 Elk plantype geeft aan of een werknemer zich kan inschrijven voor een bepaald type plan of voor meerdere. Een werknemer kan zich bijvoorbeeld mogelijk inschrijven voor zowel de verzekeringspolis Basis leven als de verzekeringspolis Aanvullend leven van het plantype Leven. Een werknemer mag zich waarschijnlijk inschrijven voor één polis van het type Medisch.
 
 Als bij een plantype contactpersonen zijn betrokken, geeft het plantype aan of contactpersonen begunstigden of gezinsleden zijn. Een plantype Basis leven zou bijvoorbeeld begunstigden hebben, terwijl een plantype Basis medisch gezinsleden zou hebben. In sommige gevallen kan een plan geen persoonlijke contactpersonen hebben. Bijvoorbeeld een flexibele bestedingsrekening of parkeervergoeding.
 
 Een plantype kan dekkingsopties definiëren. De dekkingsopties worden gedefinieerd in het formulier van de optie Behoefteplanning. Een behoefteplanningsoptie kan het bedrag van de vergoeding aangeven of de contactpersonen die in aanmerking komen voor het plantype. Als het type contactpersoon bijvoorbeeld Begunstigde is, moet de dekkingsoptie de voorwaarden definiëren van waartoe de begunstigde gerechtigd is als de vergoeding wordt gebruikt. Als het contactpersoontype Gezinslid is, moet de dekkingsoptie de relatie tussen het gezinslid en de werknemer definiëren. 
+
+> [!IMPORTANT]
+> Het formulier bevat belangrijke gegevens die van invloed zijn op de opties die beschikbaar zijn wanneer een nieuw vergoedingsplan wordt gemaakt:
+>
+> - **Code van plantype**: dit veld beïnvloedt wat er wordt weergegeven op het tabblad **Configuratie** wanneer de werkelijke vergoeding wordt ingesteld.  
+> - **Gelijktijdige inschrijving**: dit veld bepaalt of meerdere inschrijvingen zijn toegestaan. (Voor een medisch plan is dit veld meestal ingesteld op **Eén inschrijving**.)
+> - **Type contactpersoon**: dit veld maakt het mogelijk afhankelijken of begunstigden aan een plan toe te voegen. Als het is ingesteld op **Geen**, hebben werknemers die zich inschrijven voor vergoedingen geen optie om een begunstigde of afhankelijke te selecteren.
+> - **Dekkingsopties**: gebruik dit veld om de opties voor de dekking te koppelen aan de plantypen. Het definieert de personen die onder dit plantype vallen of de dekkingsbedragen die beschikbaar zijn voor dit plantype. U kunt bijvoorbeeld opgeven dat de dekking voor een medische plantype alleen beschikbaar is voor de werknemer, de werknemer en één andere persoon of de werknemer en zijn/haar gezin.
+
+## <a name="create-plan-types"></a>Plantypen maken
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Plantypen**.
 

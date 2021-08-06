@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4da23ff0dc8858558df3111b90159e43bd5fdccf
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e00748fc9629d7ecfa91701002d3d2d7dda0a86f
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056319"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639409"
 ---
 # <a name="request-a-leave-of-absence"></a>Verlof aanvragen
 
@@ -48,6 +48,10 @@ U kunt een verlofaanvraag indienen en de status van uw verlofaanvragen bekijken 
 1. Selecteer in het werkgebied **Selfservice werknemer** de optie **Meer** (...) op de tegel **Verlofsaldi**.
 
 2. Selecteer **Verlof weergeven** als u uw verlofaanvragen wilt weergeven.
+
+## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Verlofaanvragen importeren vanuit andere systemen of oudere systemen
+
+Als u verlofaanvragen vanuit een ander systeem wilt importeren, moet u via de normale werkstroom de juiste verloftransacties maken. U kunt ook de verlofbanktransacties en verlofaanvragen in een voltooide status importeren. De verlofbanktransacties worden niet automatisch gemaakt als u alleen de verlofaanvragen importeert.
 
 ## <a name="see-also"></a>Zie ook
 

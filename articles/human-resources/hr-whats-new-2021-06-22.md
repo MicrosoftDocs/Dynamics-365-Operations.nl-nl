@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae444b4d208804364333bd3d6e4704500da85470
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: c2f362e71832d6f7b17e06ad98142019ced4df14
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303557"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6560069"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Nieuwe of gewijzigde functies in Dynamics 365 Human Resources 22 juni 2021
 
@@ -44,7 +44,7 @@ De volgende functie zijn algemeen beschikbaar in deze release.
 | --- | --- | --- |
 | Functie om gebruikers zonder dienstverband te informeren: wanneer de geavanceerde toegang is ingeschakeld en de functie **Alle medewerkers zonder dienstverband weergeven** is uitgeschakeld in Functiebeheer, wordt er een banner weergegeven in het formulier Alle medewerkers zonder dienstverband. De banner geeft de gebruiker aanwijzingen om de functie **Alle medewerkers zonder dienstverband weergeven** in te schakelen. | Niet van toepassing| [Medewerkers zonder dienstverband](/dynamics365/human-resources/hr-personnel-workers-without-employment)|
 | Ondersteuning voor aangepaste velden in geschiktheidsregels voor Vergoedingenbeheer | [Ondersteuning voor aangepaste velden voor verwerking van geschiktheid](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |[Geschiktheidsregels configureren](/dynamics365/human-resources/hr-benefits-setup-eligibility-rules) |
-| Controleren van toerekeningstransacties voor verlof | Niet van toepassing | [Controleren van toerekeningstransacties voor verlof](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| Controleren van toerekeningstransacties voor verlof | Niet van toepassing | [Controleren van toerekeningstransacties voor verlof](hr-leave-and-absence-accrue.md)|
 | Verbeteringen voor werken in de workflows voor verlof en verzuim | [Verbeteringen voor werken in de workflows voor verlof en verzuim](https://go.microsoft.com/fwlink/?linkid=2147528) | [Verlof aanvragen](hr-employee-self-service-request-time-off.md)|
 
 ### <a name="bug-fixes"></a>Correcties

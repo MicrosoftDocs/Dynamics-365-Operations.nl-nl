@@ -1,6 +1,6 @@
 ---
-title: Power Portal gebruiken met het gegevensmodel van partij
-description: In dit onderwerp worden de wijzigingen in de Power Portal-webrollen vanwege het partijgegevensmodel in Twee keer wegschrijven beschreven.
+title: Microsoft Power Apps-portals gebruiken met het gegevensmodel Partij
+description: In dit onderwerp worden de wijzigingen in de webrollen voor Microsoft Power Apps-portals vanwege het partijgegevensmodel in Twee keer wegschrijven beschreven.
 author: RamaKrishnamoorthy
 ms.date: 03/22/2021
 ms.topic: article
@@ -9,14 +9,14 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-22
-ms.openlocfilehash: 3b03603038d05305c63fc2890a196670ae343e53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca9d4ad1efa128ba274cd84b1c2f672fe70975a5
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358612"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542558"
 ---
-# <a name="using-power-portal-with-the-party-data-model"></a>Power Portal gebruiken met het gegevensmodel van partij
+# <a name="using-microsoft-power-apps-portals-with-the-party-data-model"></a>Microsoft Power Apps-portals gebruiken met het gegevensmodel Partij
 
 [!INCLUDE[banner](../../includes/banner.md)]
 
@@ -44,13 +44,13 @@ Voer de volgende stappen uit om deze nieuwe tabelmachtigingen te maken:
 
     U moet drie nieuwe machtigingen maken:
 
-    + Verbinding van contactpersoon met partij
-    + Verbinding van partij met contactpersoon
-    + Verbinding van rekening met order
+    + Verbinding van tabel **Contactpersoon** met **Partij**
+    + Verbinding van tabel **Partij** met **Rekening**
+    + Verbinding van tabel **Rekening** met **Order**
 
 4. Maak met de volgende parameters een nieuwe machtiging voor de verbinding van contactpersoon met partij en sla deze op:
 
-    + **Naam**: verbinding van partij met rekening (of uw keuze)
+    + **Naam**: verbinding van tabel **Partij** met **Rekening** (of uw keuze)
     + **Tabelnaam**: msdyn_contactforparty
     + **Website**: klantportal
     + **Bereik**: contactpersoon

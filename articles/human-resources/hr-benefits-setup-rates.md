@@ -2,7 +2,7 @@
 title: Tarieven configureren
 description: Tarieven in Microsoft Dynamics 365 Human Resources bepalen hoeveel werkgevers en werknemers bijdragen voor een vergoeding.
 author: andreabichsel
-ms.date: 06/15/2021
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2b6767df573260f32de8409e487f649bdc4779b0
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 85cf561828aa8ef9d80df31436f473b29406e2fd
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266652"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558340"
 ---
 # <a name="configure-rates"></a>Tarieven configureren
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Tarieven in Microsoft Dynamics 365 Human Resources bepalen hoeveel werkgevers en werknemers bijdragen voor een vergoeding. De waarde kan een bedrag of flex-kredieten zijn, afhankelijk van uw configuratie.
+Tarieven bepalen hoeveel werkgevers en werknemers bijdragen voor een vergoeding. De waarde kan een bedrag of een aantal flex-kredieten zijn, afhankelijk van uw configuratie.
 
 Gebruik tarieven om te bepalen hoeveel werknemers en werkgevers betalen voor elke vergoeding op basis van verschillende factoren. Dekkingstarieven hebben een ingangsdatum, dus kunt u een historisch overzicht van de tarieven bijhouden. 
 
@@ -42,11 +42,11 @@ Gebruik tarieven om te bepalen hoeveel werknemers en werkgevers betalen voor elk
    | --- | --- |
    | **Tarief** | Een unieke naam die het vergoedingstarief aanduidt. |
    | **Beschrijving** | Een beschrijving van het vergoedingstarief. |
-   | **Geldig vanaf** | De datum waarop het tarief van kracht wordt. De huidige systeemdatum is de standaardwaarde. 
+   | **Geldig vanaf** | De datum waarop het tarief van kracht wordt. De huidige systeemdatum is de standaardwaarde. Deze datum moet in of vóór uw vergoedingsperiode liggen. Het is goed gebruik om deze datum in te stellen op de datum van het vergoedingsplan. |
    | **Vervaldatum** | De einddatum van het tarief. 12/31/2154 (wat voor nooit staat) is de standaardwaarde. |
-   | **Niveaus gebruiken** | Het niveau dat moet worden gebruikt voor de berekening van het vergoedingstarief. Eén niveau voor een vergoedingstarief van één niveau of een dubbel niveau voor een vergoedingstarief van twee niveaus. Een voorbeeld van een dubbel niveau is een niveau dat is gebaseerd op geslacht en leeftijd. |
-   | **Betalingsfrequentie** | De betalingsfrequentie waarmee wordt bepaald hoe vaak het premietarief voor vergoedingen wordt betaald aan de vergoedingsprovider. Als de betalingsfrequentie bijvoorbeeld maandelijks is, vertegenwoordigt het vergoedingstarief het maandelijkse betalingsbedrag. |
-   | **Afronding betalingsfrequentie** | De methoden voor het afronding van het tarief zijn: Standaard, Afgekapt, Normaal, Naar beneden afronden en Naar boven afronden. </br></br><ul><li>**Standaard**: altijd naar boven afgerond. Zo wordt 10,611 afgerond op 10,62. -10,231 wordt afgerond op -10,23. </li><li>**Afgekapt**: altijd naar beneden afgerond. Zo wordt 10,619 afgerond op 10,61. -10,231 wordt afgerond op -10,24. </li><li>**Normaal**: decimale waarden die eindigen op of groter zijn dan 5 worden van nul weg afgerond. Decimale waarden die eindigen op of lager zijn dan 4, worden naar nul afgerond. Zo wordt 10,615 afgerond op 10,62. -10,235 wordt afgerond op -10,24. 10,614 wordt afgerond op 10,61. -10,234 wordt afgerond op -10,23. </li><li>**Naar beneden afronden**: er wordt naar nul afgerond. Zo wordt 10,619 afgerond op 10,61. -10,231 wordt afgerond op -10,23. </li><li>**Naar boven afronden**: er wordt van nul weg afgerond. Zo wordt 10,619 afgerond op 10,62. -10,231 wordt afgerond op -10,24. |
+   | **Niveaus gebruiken** |  Gebruik dit veld als u logica hebt die moet worden gebruikt om een tarief te bepalen. Als een tarief bijvoorbeeld moet stijgen op basis van de leeftijd, selecteert u hier een waarde. Selecteer **Eén niveau** voor een vergoedingstarief van één niveau of **Dubbel niveau** voor een vergoedingstarief van twee niveaus. Een voorbeeld van een dubbel niveau is een niveau dat is gebaseerd op geslacht en leeftijd. Nadat u een waarde hebt geselecteerd, selecteert u **Acties** en selecteert u vervolgens **Niveautarieven**. Als u een vast tarief hebt dat niet wijzigt, laat u dit veld leeg. |
+   | **Betalingsfrequentie** | Geef op hoe vaak het premietarief voor de vergoeding moet worden betaald aan de vergoedingsprovider. De tarieven die u op de pagina opgeeft die later in dit onderwerp wordt beschreven, worden gebaseerd op de betalingsfrequentie die u hier opgeeft. Als u bijvoorbeeld **Maandelijks** in dit veld invoert en een werknemerstarief van **$ 100** opgeeft, wordt ervan uitgegaan dat de vergoeding de werknemer $ 100 per maand kost. Een werknemer wordt echter mogelijk twee keer per maand betaald afhankelijk van de betalingsfrequentie voor de vergoeding die is ingesteld in de record van de werknemer. Wanneer de werknemer zich in dat geval bij werknemerselfservice aanmeldt, wordt het bedrag dat hij of zij betaalt$ 50 omdat het tarief dat werknemerselfservice laat zien is gebaseerd op de betalingsfrequentie van de werknemer. |
+   | **Afronding betalingsfrequentie** | De methoden voor het afronding van het tarief zijn: Standaard, Afgekapt, Normaal, Naar beneden afronden en Naar boven afronden. </br></br><ul><li>**Standaard**: altijd naar boven afronden. Zo wordt 10,611 afgerond op 10,62. -10,231 wordt afgerond op -10,23. </li><li>**Afgekapt**: altijd naar beneden afronden. Zo wordt 10,619 afgerond op 10,61. -10,231 wordt afgerond op -10,24. </li><li>**Normaal**: decimale waarden die eindigen op of groter zijn dan 5 worden van nul weg afgerond. Decimale waarden die eindigen op of lager zijn dan 4, worden naar nul afgerond. Zo wordt 10,615 afgerond op 10,62. -10,235 wordt afgerond op -10,24. 10,614 wordt afgerond op 10,61. -10,234 wordt afgerond op -10,23. </li><li>**Naar beneden afronden**: afronden naar nul. Zo wordt 10,619 afgerond op 10,61. -10,231 wordt afgerond op -10,23. </li><li>**Naar boven afronden**: van nul weg afronden. Zo wordt 10,619 afgerond op 10,62. -10,231 wordt afgerond op -10,24. |
    | **Werknemersbedrag niet-roker** | Het bedrag dat de vergoedingsprovider berekent voor een werknemer die niet rookt. Dit is het bedrag dat de werkgever betaalt aan de vergoedingsprovider en dat moet worden gebaseerd op de betalingsfrequentie voor de tariefinstellingen. |
    | **Werkgeversbedrag niet-roker** | Het bedrag dat de vergoedingsprovider berekent voor een werknemer die niet rookt. Dit is het bedrag dat de werkgever betaalt aan de vergoedingsprovider en dit moet worden gebaseerd op de betalingsfrequentie voor de tariefinstellingen. |
    | **Werknemersbedrag roker** | Het bedrag dat de vergoedingsprovider berekent voor een werknemer die rookt. Dit is het bedrag dat de werkgever betaalt aan de vergoedingsprovider en dat moet worden gebaseerd op de betalingsfrequentie voor de tariefinstellingen. |
@@ -66,6 +66,9 @@ U kunt niveautarieven gebruiken in uw tariefinstelling als het tarief varieert a
 
 U kunt ook dubbele niveaus gebruiken. Als u **Dubbel niveau** selecteert voor de waarde **Niveaus gebruiken** in het formulier **Tariefinstellingen**, kunt u tarieven definiëren op basis van twee dimensies. U kunt bijvoorbeeld een systeem met dubbel tarief configureren om aan te geven dat bij een man met een leeftijd tot 34,99 het bedrag voor niet-rokers 2 bedraagt. Als u een man bent en uw leeftijd is hoger dan 39,99, dan bedraagt het bedrag voor niet-rokers 3. Als u een vrouw bent en uw leeftijd is hoger dan 34,99, dan bedraagt het bedrag voor niet-rokers 1,8. Als u een vrouw bent en uw leeftijd is hoger dan 39,99, dan bedraagt het bedrag voor niet-rokers 2,8.
 
+> [!IMPORTANT]
+> Onder **Persoonlijke gegevens** in de werknemerrecord wordt een optie gebruikt om aan te geven of de werknemer een werknemer is. Als de werknemer staat geregistreerd als roker, wordt het tarief voor rokers gebruikt. (De indicatie roker wordt nooit weergegeven voor de werknemer.)
+   
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Tarieven**.
 
 2. Selecteer een of meer tarieven in de lijst, selecteer **Acties** en selecteer vervolgens **Niveautarieven**.
@@ -92,6 +95,7 @@ U kunt ook dubbele niveaus gebruiken. Als u **Dubbel niveau** selecteert voor de
    | **Flex-krediet voor rokerstarief** | Het aantal flex-kredieten dat de vergoeding kost, gebaseerd op de berekening die is gedefinieerd voor het tariefniveau voor rokers. |
 
 5. Selecteer **Opslaan**. 
+
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

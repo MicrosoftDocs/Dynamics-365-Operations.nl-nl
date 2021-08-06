@@ -2,7 +2,7 @@
 title: Een teamkalender maken
 description: Geef teamkalenders weer en maak deze in Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cedff4031c6455b446af9c56a770a00f3b2efc80
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 52ae36f499871087cc086bcaf8c345af41d06943
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052092"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639385"
 ---
 # <a name="view-team-and-company-calendars"></a>Team- en bedrijfsagenda's weergeven
 
@@ -30,7 +30,7 @@ U kunt team- en bedrijfskalenders weergeven in Dynamics 365 Human Resources. In 
 
 ## <a name="view-your-team-calendar-as-an-employee"></a>Uw teamkalender als werknemer weergeven
 
-1. Selecteer in het werkgebied **Selfservice werknemer** de optie **Teamverzuimkalender** onder **Overzicht**.
+- Selecteer in het werkgebied **Selfservice werknemer** de optie **Teamverzuimkalender** onder **Overzicht**.
 
 ## <a name="view-your-team-calendar-as-a-manager"></a>Uw teamkalender als manager weergeven
 
@@ -39,6 +39,21 @@ U kunt team- en bedrijfskalenders weergeven in Dynamics 365 Human Resources. In 
 2. Selecteer **Verlof en verzuim** en selecteer vervolgens **Verzuimkalender manager weergeven**.
 
 Managers kunnen ook toegang krijgen tot de teamkalender via **Uitstaande verlofaanvragen voor mijn team**, **Goedgekeurd verlof** en **Verlofaanvragen**. 
+
+## <a name="view-your-absence-manager-calendar-as-the-absence-manager"></a>De verzuimmanagerkalender weergeven als verzuimmanager
+
+> [!NOTE]
+> Als u de verzuimmanagerkalender wilt weergeven, moet u eerst de functie **(Preview) Verlof laten beheren door een verzuimmanager** in Functiebeheer inschakelen. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het inschakelen van preview-functies.
+
+Gebruikers met de rol van verzuimmanager kunnen verlofaanvragen op hun kalender bekijken. Voer deze stappen uit om toegang tot de verlofkalender te krijgen.
+
+1. Selecteer in de werkruimte **Selfservice werknemer** de optie **Verzuimbeheer** en vervolgens **Kalender verzuimmanager**.
+
+2. Voer in het veld **Datum** de gewenste datum in.
+
+3. Werk waar nodig de weergaveopties bij.
+
+De kalender van de verzuimmanager bevat alle records voor de werknemers die rapporteren aan de verzuimmanager in de verlofhiërarchie.
 
 ## <a name="view-a-company-calendar"></a>Een bedrijfskalender weergeven
 
@@ -64,13 +79,11 @@ Kalenderconfiguratie in Verlof- en verzuimparameters bepalen beschikbare weergav
 
 U kunt kalenders ook filteren op manager of afdeling. De primaire positietoewijzing bepaalt welke werknemers worden weergegeven wanneer deze filters zijn ingesteld. 
 
->[!IMPORTANT]
->Het bekijken van verlof en afwezigheid binnen bedrijven wordt momenteel in een voorbeeld weergegeven. U moet deze in uw **Sandbox**-omgeving inschakelen. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het inschakelen van previewfuncties.<br><br>
->Vervolgens moet u de functie in **Gedeelde Human Resources-parameters** inschakelen om de rechtspersoonfilter in kalenders weer te geven. Zie [Verlof- en verzuimparameters configureren](hr-leave-and-absence-parameters.md) voor meer informatie.<br><br>
->U kunt de kalender filteren op rechtspersoon. Als u alle werknemers wilt weergeven, ongeacht de rechtspersoon, wist u het vak filteren en selecteert u invoeren. 
+> [!IMPORTANT]
+> U kunt de functie **Verlofweergave voor het hele bedrijf** inschakelen in Functiebeheer. U moet vervolgens de functie op de pagina **Gedeelde Human Resources-parameters** inschakelen om de rechtspersoonfilter in kalenders weer te geven. Zie [Verlof- en verzuimparameters configureren](hr-leave-and-absence-parameters.md) voor meer informatie.
+> 
+> U kunt de kalender filteren op rechtspersoon. Als u alle werknemers wilt weergeven, ongeacht de rechtspersoon, wist u het filterveld en selecteert u vervolgens **Invoeren**. 
 
 Zie [Kalenderparameters configureren](hr-leave-and-absence-parameters.md?configure-calendar-parameters) voor meer informatie over kalenderinstellingen.
-
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

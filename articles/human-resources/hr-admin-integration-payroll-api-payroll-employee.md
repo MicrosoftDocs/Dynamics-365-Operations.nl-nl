@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 57501d07f6b9cffdff9f37737df8c278c574cf30
-ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
+ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
+ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6314280"
+ms.lasthandoff: 07/12/2021
+ms.locfileid: "6538849"
 ---
 # <a name="payroll-employee"></a>Werknemer in salarisadministratie
 
@@ -32,15 +32,19 @@ Fysieke naam: mshr_payrollemployeeentity.
 
 Deze entiteit geeft informatie over de werknemer. U moet de [parameters voor salarisintegratie instellen](hr-admin-integration-payroll-api-parameters.md) voordat u deze entiteit kunt gebruiken.
 
+>[!IMPORTANT] 
+>De velden **FirstName**, **MiddleName**, **LastName**, **NameValidFrom** en **NameValidTo** zijn niet langer beschikbaar voor deze entiteit. Hierdoor wordt ervoor gezorgd dat de gegevensbron slechts één datum kan worden back-up van deze entiteit, wat **HcmEmployment** is met de velden **EmploymentStartDate** en **EmploymentEndDate**.
+
+>Deze velden zijn beschikbaar in de **DirPersonNameHistoricalEntity**, die is vrijgegeven in Platform update 43. Er is een OData-relatie van **PayrollEmployeeEntity** met **DirPersonNameHistoricalEntity** in het veld **Persoon**. U kunt de entiteit **DirPersonNameHistoricalEntity** ook rechtstreeks opvragen via OData onder de openbare naam, **PersonHistoricalNames**.
+
+
 ## <a name="properties"></a>Eigenschappen
 
 | Eigenschap<br>**Fysieke naam**<br>**_Type_** | Gebruiken | Beschrijving |
 | --- | --- | --- |
 | **Personeelsnummer**<br>mshr_personnelnumber<br>*Tekenreeks* | Alleen-lezen<br>Vereist | Het unieke personeelsnummer van de werknemer. |
 | **Primair veld**<br>mshr_primaryfield<br>*Tekenreeks* | Vereist<br>Door systeem gegenereerd |  |
-| **Achternaam**<br>mshr_lastname<br>*Tekenreeks* | Alleen lezen<br>Vereist | Achternaam werknemer. |
 | **Rechtspersoon-ID**<br>mshr_legalentityID<br>*Tekenreeks* | Alleen-lezen<br>Vereist | Geeft de rechtspersoon (bedrijf) op. |
-| **Geldig vanaf**<br>mshr_namevalidfrom<br>*Verschil datum en tijd* | Alleen-lezen <br>Vereist | De datum vanaf wanneer de gegevens van de werknemer geldig zijn.  |
 | **Geslacht**<br>mshr_gender<br>[mshr_hcmpersongender optieset](hr-admin-integration-payroll-api-gender.md) | Alleen-lezen<br>Vereist | Gender van de werknemer. |
 | **Entiteit-id werknemer in salarisadministratie**<br>mshr_payrollemployeeentityid<br>*GUID* | Vereist<br>Door systeem gegenereerd | Een door het systeem gegenereerde GUID-waarde als unieke id van de werknemer. |
 | **Begindatum dienstverband**<br>mshr_employmentstartdate<br>*Verschil datum en tijd* | Alleen-lezen<br>Vereist | De begindatum van het dienstverband van de werknemer. |
@@ -50,8 +54,6 @@ Deze entiteit geeft informatie over de werknemer. U moet de [parameters voor sal
 | **Geldig tot**<br>mshr_namevalidto<br>*Verschil datum en tijd* |  Alleen-lezen<br>Vereist | De datum tot wanneer de gegevens van de werknemer geldig zijn. |
 | **Geboortedatum**<br>mshr_birthdate<br>*Verschil datum en tijd* | Alleen-lezen <br>Vereist | De geboortedatum van de werknemer. |
 | **Identificatienummer tot**<br>mshr_identificationnumber<br>*Tekenreeks* | Alleen-lezen <br>Vereist |Het identificatienummer dat voor de werknemer is gedefinieerd.  |
-| **Voornaam**<br>mshr_firstname<br>*Tekenreeks* | Alleen-lezen<br>Vereist | Voornaam werknemer. |
-| **Tweede voornaam**<br>mshr_middlename<br>*Tekenreeks* | Alleen-lezen<br>Vereist |Tweede voornaam werknemer.  |
 
 ## <a name="example-query-for-payroll-employee"></a>Voorbeeldquery voor werknemer in salarisadministratie
 
@@ -69,11 +71,6 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
     "mshr_personnelnumber": "000041",
     "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
     "mshr_employmentenddate": "2154-12-31T23:59:59Z",
-    "mshr_firstname": "Cassie",
-    "mshr_middlename": "Lassie",
-    "mshr_lastname": "Hicks",
-    "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
-    "mshr_namevalidto": "2154-12-31T23:59:59Z",
     "mshr_birthdate": "1987-09-12T00:00:00Z",
     "mshr_gender": 200000002,
     "mshr_identificationtypeid": "SSN",

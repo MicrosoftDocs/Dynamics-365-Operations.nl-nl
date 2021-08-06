@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90bfd55bd865b27aec831957209ce8716cb253c8
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: a125e894aa52083fccca2f10873305db8cc4528e
+ms.sourcegitcommit: 787c94b35f343f4c38fc8efaaa0cfaf20a846368
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188264"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6647225"
 ---
 # <a name="purchase-agreements"></a>Inkoopovereenkomsten
 
@@ -102,11 +102,10 @@ Als u in één rechtspersoon een intercompany-inkooporder maakt die de intercomp
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Financiële dimensies op inkoopovereenkomsten
 U kunt financiële dimensies kopiëren naar documentkopteksten of naar afzonderlijke regels van een inkoopovereenkomst. Als u de dimensies in de overeenkomstkoptekst of de overeenkomstregel wijzigt, dan beïnvloedt de wijziging niet de vrijgegeven orders, maar werkt door in nieuwe orders die worden aangemaakt.
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="additional-resources"></a>Aanvullende bronnen
 
-[Een inkoopovereenkomst maken](tasks/create-purchase-agreement.md)
-
-[Een vrijgaveorder maken voor inkoop van een inkoopovereenkomst](tasks/create-purchase-release-order-purchase-agreement.md)
+- [Een inkoopovereenkomst maken](tasks/create-purchase-agreement.md)
+- [Een inkoopovereenkomst toepassen bij het maken van een inkooporder](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 

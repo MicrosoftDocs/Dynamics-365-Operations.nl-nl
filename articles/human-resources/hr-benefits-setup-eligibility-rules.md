@@ -2,7 +2,7 @@
 title: Geschiktheidsregels en -opties configureren
 description: Stel de geschiktheidsregels en -opties in voor vergoedingen in Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 05/20/2021
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 25593bc4d136e403c7ba87e044c95f4fae1e7db9
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351652"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558364"
 ---
-# <a name="configure-eligibility-rules-and-options"></a>Geschiktheidsregels en -opties configureren
+# <a name="configure-eligibility-rules-and-options"></a>Regels en opties voor geschiktheid configureren 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Nadat u de vereiste parameters voor vergoedingenbeheer hebt geconfigureerd in Microsoft Dynamics 365 Human Resources, kunt u geschiktheidsregels, bundels, perioden en programma's maken die u aan uw vergoedingsplannen gaat koppelen.
+Nadat u de vereiste parameters voor vergoedingenbeheer hebt geconfigureerd, kunt u de geschiktheidsregels, bundels, perioden en programma's maken die u aan uw vergoedingsplannen gaat koppelen.
+
+Geschiktheidsregels worden gebruikt om te bepalen of werknemers in aanmerking komen voor een regeling. Werknemers moeten aan de voorwaarde van ten minste één regel voldoen om in aanmerking te komen voor de vergoeding. U hebt bijvoorbeeld twee regels in een plan. De eerste regel (regel 1) geeft aan dat werknemer van het type **Werknemer** moet zijn. De tweede regel (regel 2) geeft aan dat de werknemer een fulltime medewerker moet zijn. Daarom komen werknemers die aan regel 1 voldoen ook in aanmerking als ze alleen parttime werken.
+
+U kunt echter één regel met meerdere voorwaarden instellen. In dat geval moeten werknemers aan alle voorwaarden van de regel voldoen om in aanmerking te komen voor de vergoeding. U hebt bijvoorbeeld een regel die **Fulltime werknemer** wordt genoemd. Deze regel geeft aan dat het werknemerstype **Werknemer** moet zijn *en* dat de werknemer fulltime moet werken. Daarom moeten werknemers aan beide voorwaarden van de regel voldoen om in aanmerking te komen.
+
+> [!IMPORTANT]
+> Aan elk vergoedingsplan moet ten minste één geschiktheidsregel worden gekoppeld. U kunt meerdere regels aan een vergoeding koppelen.
 
 ## <a name="create-an-eligibility-rule"></a>Een geschiktheidsregel maken
 
@@ -47,7 +54,7 @@ Tijdens open inschrijving kunnen werknemers vergoedingsplannen selecteren. Als z
    | **Geldig vanaf datum en tijd** | De begindatum van de geschiktheidsregel. | 
    | **Geldig tot datum en tijd** | De einddatum van de geschiktheidsregel. |
    | **Gebruikerstype werknemer** | Geeft aan of het werknemerstype van de werknemer moet worden gebruikt in de geschiktheidsregel. |
-   | **Type medewerker** | Het werknemertype, als de schakeloptie **Werknemertype gebruiken** is ingesteld op **Ja**. |
+   | **Medewerkertype** | Het werknemertype, als de schakeloptie **Werknemertype gebruiken** is ingesteld op **Ja**. |
    | **Werknemerstatus gebruiken** | Geeft aan of het werknemertype van de werknemer moet worden gebruikt in de geschiktheidsregel. |
    | **Status** | De werknemerstatus, als de schakeloptie **Werknemerstatus gebruiken** is ingesteld op **Ja**. Als de schakeloptie **Werknemerstatus gebruiken** is ingesteld op **Nee**, wordt het veld niet gebruikt. |
    | **Aanstellingscategorie gebruiken** | Geeft aan of het waarde voor **Aanstellingscategorie** van de werknemer moet worden gebruikt als onderdeel van de geschiktheidsregel voor vergoedingen. | 
@@ -72,7 +79,7 @@ Tijdens open inschrijving kunnen werknemers vergoedingsplannen selecteren. Als z
    | **Geschikt positietype** | Geeft het positietype of de positietypen aan die aan de geschiktheidsregel voldoen. Bijvoorbeeld voltijd. |
    | **Geschikte status** | Geeft de staten of provincies aan die aan de geschiktheidsregel voldoen. Bijvoorbeeld North Dakota VS of British Columbia, Canada. |
    | **Geschikte arbeidsvoorwaarden** | Geeft de arbeidsvoorwaarden aan die aan de geschiktheidsregel voldoen. Bijvoorbeeld individueel of groepscontract. |
-   | **In aanmerking komende vereniging** | Geeft de lidmaatschappen van vakverenigingen aan die aan de geschiktheidsregel voldoen. Voorbeeld: Forklift Drivers of America. </br></br>Wanneer u een op vakbondslidmaatschap gebaseerde geschiktheidsregel gebruikt, moet in de vakbondsrecord van de werknemer de einddatum zijn ingevuld. U kunt dit veld niet leeg laten. |
+   | **In aanmerking komende vereniging** | Geeft de lidmaatschappen van vakverenigingen aan die aan de geschiktheidsregel voldoen. Voorbeeld: Forklift Drivers of America.</br></br>Wanneer u een op vakbondslidmaatschap gebaseerde geschiktheidsregel gebruikt, moet in de vakbondsrecord van de werknemer de einddatum zijn ingevuld. U kunt dit veld niet leeg laten. |
    | **Geschikte postcode** | Geeft de postcodes aan die aan de geschiktheidsregel voldoen. Bijvoorbeeld 58104. |
 
 5. Onder **Aanvullende details** kunt u de volgende aanvullende gegevens weergeven.
@@ -131,7 +138,7 @@ Wanneer meerdere geschiktheidsregels aan een vergoedingsplan zijn toegewezen, mo
 ![De werknemer moet voldoen aan de vereisten van de regel Functietype of de regel Actieve werknemers.](media/RulesAssignedToAPlan.png)
  
 ### <a name="criteria-within-an-eligibility-rule"></a>Criteria binnen een geschiktheidsregel 
-Binnen een regel definieert u de criteria waaruit de regel bestaat. In het bovenstaande voorbeeld zijn de criteria voor de regel **Functietype** waar Functietype = Directeur. Daarom moet de werknemer een directeur zijn om in aanmerking te komen. Dit is een regel met slechts één criterium binnen de regel.
+Binnen een regel definieert u de criteria waaruit de regel bestaat. In het bovenstaande voorbeeld is het criterium voor de regel **Functietype** waar Functietype = Directeuren. Daarom moet de werknemer een directeur zijn om in aanmerking te komen. Dit is een regel met slechts één criterium binnen de regel.
 
 U kunt regels met meerdere criteria definiëren. Wanneer u meerdere criteria binnen een geschiktheidsregel definieert, moet een werknemer voldoen aan alle criteria binnen de regel om in aanmerking te komen voor het vergoedingsplan. 
 

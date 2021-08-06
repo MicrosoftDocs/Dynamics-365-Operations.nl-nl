@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e7316d7749566b74835acded0addb2fa4b0e858
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350831"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542410"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Problemen tijdens de initiële instelling oplossen
 
@@ -71,7 +71,7 @@ Voer de volgende stappen uit om een app goed te keuren.
 
 Om er zeker van te zijn dat twee keer wegschrijven goed werkt, worden de bedrijven die u tijdens de configuratie selecteert, in de Dataverse-omgeving gemaakt. Standaard zijn deze bedrijven alleen-lezen en wordt de eigenschap **IsDualWriteEnable** ingesteld op **True**. Daarnaast worden de standaard bedrijfseenheid die eigenaar is en het team gemaakt en wordt de bedrijfsnaam opgenomen. Voordat u de toewijzingen inschakelt, controleert u of de standaard eigenaar van het team is opgegeven. Voer de volgende stappen uit om de tabel **Bedrijven (CDM\_Company)** te zoeken.
 
-1. Selecteer in de modelgestuurde app in Dynamics 365 het filter in de rechterbovenhoek.
+1. Selecteer het filter in de rechterbovenhoek van de app voor klantbetrokkenheid.
 2. Selecteer **Bedrijf** in de vervolgkeuzelijst.
 3. Selecteer **Uitvoeren** om de resultaten weer te geven.
 4. Selecteer het bedrijf dat was gekoppeld tijdens het configureren van twee keer wegschrijven.

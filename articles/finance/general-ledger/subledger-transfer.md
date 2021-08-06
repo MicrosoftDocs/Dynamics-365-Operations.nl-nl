@@ -1,8 +1,8 @@
 ---
 title: Subadministratie overboeken naar het grootboek
-description: In dit onderwerp worden mogelijkheden beschreven in Microsoft Dynamics 365 Finance met betrekking tot het overboekingsproces voor subadministratie naar het grootboek.
-author: roschlom
-ms.date: 09/09/2019
+description: In dit onderwerp worden mogelijkheden beschreven die verband houden met het overboekingsproces voor subadministratie in het grootboek.
+author: rcarlson
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,30 +15,34 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 1efdf095e379b73d553ca3525abbeee8ca35bcbb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: a2fdeaadc7453458f8fc7165664eccedee632f5f
+ms.sourcegitcommit: e9cf75545d55bfb2f37b2036df886128879a5b73
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897499"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6646795"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Subadministratie overboeken naar het grootboek
 
 [!include [banner](../includes/banner.md)]
 
-In dit onderwerp worden mogelijkheden van Microsoft Dynamics 365 Finance beschreven die zijn gerelateerd aan de regels voor het overdragen van batches van journaalposten in de subadministratie.
+In dit onderwerp worden mogelijkheden beschreven die zijn gerelateerd aan de regels voor het overdragen van batches van journaalposten in de subadministratie.
 
 In versie 8.1 werd de overdracht van regels toegestaan, waardoor de optie **Synchroon** werd afgeschaft. Zie voor meer informatie [Verwijderde of verouderde functies voor Finance and Operations](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20).
 
-De volgende opties zijn beschikbaar voor het overboeken van batches uit de subadministratie. 
+De volgende opties zijn beschikbaar voor het overboeken van batches uit de subadministratie:
 
- - Asynchroon: Met deze optie wordt onmiddellijk de overdracht van posten in de subadministratie naar het grootboek gepland. Het boekstuk in het grootboek wordt geregistreerd zodra resources vrij zijn om deze aanvraag te verwerken op de server. 
+- **Asynchroon**: het overboeken van posten in de subadministratie naar het grootboek wordt onmiddellijk gepland. Het boekstuk in het grootboek wordt geregistreerd zodra resources beschikbaar zijn om de aanvraag te verwerken op de server.
+- **Geplande batch**: de boekhoudingsposten in de subadministratie die moeten worden overgeboekt, worden toegevoegd aan de verwerkingswachtrij in het grootboek. De vermeldingen in de wachtrij worden verwerkt in de volgorde waarin ze zijn ontvangen. Elk boekstuk in het grootboek werkt accounts bij op de geplande tijd als resources beschikbaar zijn om de batchtaak te verwerken op de server.
 
-- Geplande batch: Met deze optie worden de posten uit de subadministratie toegevoegd die worden overgeboekt naar de verwerkingswachtrij in het grootboek, waar de posten worden verwerkt in de volgorde waarin ze worden ontvangen. Het boekstuk in het grootboek wordt geregistreerd op de geplande tijd, als resources vrij zijn om deze batchtaak te verwerken op de server. 
- 
-In versie 10.0.8 werden verbeteringen uitgevoerd om de prestaties van de optie Asynchroon te verbeteren. Deze functie is ingeschakeld onder de functienaam **Prestatieoptimalisatie voor overboeken van subadministratie naar grootboek**. 
- 
-Deze functionaliteit verbetert de overdracht van gegevens vanuit de subadministratie naar het grootboek. Dit maakt het proces efficiënter, en groepeert sets van kleinere transacties bijeen voor overboeking. Hierdoor kan de batchserver efficiënter worden gebruikt. Voor deze functionaliteit moet de batchserver zijn ingesteld en online en functioneel zijn, zodat de optie voor asynchrone overdracht werkt. 
+In versie 10.0.8 werden verbeteringen uitgevoerd om de prestaties van de optie **Asynchroon** te verbeteren. Deze functie is ingeschakeld onder de functienaam **Prestatieoptimalisatie voor overboeken van subadministratie naar grootboek**.
 
+De functionaliteit voor asynchrone overboeking van batches in de subadministratie helpt de gegevensoverdracht vanuit de subadministratie naar het grootboek te verbeteren. Door groepen kleinere transacties te groeperen en de transacties over te boeken in groepen, verwerkt de functionaliteit transacties efficiënter. Wanneer transacties worden gegroepeerd, worden de resources van de batchserver efficiënter gebruikt.
+
+Voor een asynchrone overboeking van batches in de subadministratie moet de batchserver zijn ingesteld, online zijn en werken. Anders werkt de optie voor **asynchrone** overboeking niet.
+
+De efficiëntiewijziging op batchniveau gebruikt een enkele terugkerende batchtaak voor alle rechtspersonen in het systeem. Tijdens runtime wordt een nieuwe batchtaak gemaakt om de vereiste records te verwerken die nog niet zijn overgeboekt. U kunt meer instellingen beheren via de pagina **Procesautomatisering** in systeembeheer. Op die pagina kunt u het achtergrondproces wijzigen, de frequentie wijzigen en een slaapperiode definiëren.
+
+Zie [Procesautomatisering](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md) voor meer informatie over het instellen van procesautomatisering.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

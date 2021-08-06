@@ -2,7 +2,7 @@
 title: Verlofaanvragen beheren in Teams
 description: In dit onderwerp wordt beschreven hoe u verlof kunt aanvragen in de Dynamics 365 Human Resources-app in Microsoft Teams.
 author: andreabichsel
-ms.date: 05/25/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2a74b895052d017ccbe397bfb9a45609646b2f93
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356507"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639433"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Verlofaanvragen beheren in Teams
 
@@ -166,6 +166,10 @@ Als u problemen ondervindt met het aanmelden bij of het gebruik van de Dynamics 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Kan me niet aanmelden bij de Human Resources-app in Teams
 
 Als u zich niet kunt aanmelden bij de app, is het mogelijk dat de account die u gebruikt om u aan te melden bij Microsoft Teams niet is gekoppeld aan een werknemersrecord in Dynamics 365 Human Resources. Neem contact op met uw systeembeheerder om er zeker van te zijn dat de werknemersrecord goed is gekoppeld.
+
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Kan de Dynamics 365 Human Resources-omgeving niet vinden in Instellingen
+
+Als u de juiste Dynamics 365-omgeving niet kunt selecteren, is de gebruikersrecord mogelijk niet juist gesynchroniseerd. Neem contact op met uw systeembeheerder om de gebruikersrecord opnieuw te maken en deze te koppelen aan de gebruikersreferenties. Probeer u vervolgens binnen enkele minuten aan te melden bij de Human Resources-app voor Microsoft Teams.
 
 ### <a name="translations-dont-display-correctly"></a>Vertalingen worden niet op de juiste manier weergegeven
 

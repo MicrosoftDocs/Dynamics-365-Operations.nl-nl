@@ -2,7 +2,7 @@
 title: Startpagina van Finance Insights (preview)
 description: Finance Insights biedt configureerbare en uitbreidbare modellen om u te helpen de cashflow van uw bedrijf nauwkeurig en intelligent te voorspellen, te voorspellen wanneer u een betaling voor openstaande debiteuren ontvangt en een budgetvoorstel te genereren waarmee het budgetproces kan worden versneld. Al deze functies zijn gebaseerd op intelligente machine learning-modellen.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 2086a33285d9a529480c5f34fb048105e65c2046
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338224"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638509"
 ---
 # <a name="finance-insights-home-page-preview"></a>Startpagina van Financiële inzichten (preview)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Financiële inzichten biedt configureerbare en uitbreidbare modellen om u te helpen de cashflow van uw bedrijf nauwkeurig en intelligent te voorspellen, te voorspellen wanneer u een betaling voor openstaande debiteuren ontvangt en een budgetvoorstel te genereren waarmee het budgetproces kan worden versneld. Al deze functies zijn gebaseerd op intelligente machine learning-modellen. Wanneer deze nieuwe mogelijkheden worden gecombineerd met automatisering in betalingen en incasso's van leveranciers, bieden ze een groot en intelligent financieel systeem dat de besluitvorming aanstuurt en u helpt actie te ondernemen om effectief te reageren op huidige en verwachte zakelijke uitdagingen.
 

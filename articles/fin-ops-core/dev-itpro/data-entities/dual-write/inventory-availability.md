@@ -4,24 +4,17 @@ description: Dit onderwerp biedt informatie over het controleren van de voorraad
 author: RamaKrishnamoorthy
 ms.date: 05/26/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 0fded78134b1427e6faea9656e1d3b02b467ae91
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 175e1cc568ed027feee39eabfd9f08de6fe7f4b4
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193402"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542632"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Voorraadbeschikbaarheid in Twee keer wegschrijven
 
@@ -64,58 +57,12 @@ Wanneer u de knop **Voorhanden voorraad** selecteert op de pagina **Offertes**, 
 - Aanvragen voor voorhanden voorraad voor CDS (msdyn_inventoryonhandrequests)
 
 ## <a name="templates"></a>Sjablonen
+
 De volgende sjablonen zijn beschikbaar voor het weergeven van de voorhanden voorraadgegevens.
 
-Finance and Operations-apps | Customer Engagement-app | Beschrijving 
+Finance and Operations-apps | Customer Engagement-apps     | Beschrijving
 ---|---|---
-[Vermeldingen voorhanden CDS-voorraad](#145) | msdyn_inventoryonhandentries |
-[Aanvragen voorhanden CDS-voorraad](#147) | msdyn_inventoryonhandrequests |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>Invoer van voorhanden voorraad voor CDS (msdyn_inventoryonhandentries)
-
-Deze sjabloon synchroniseert gegevens tussen Finance and Operations-apps en Dataverse.
-
-Finance and Operations-veld | Toewijzingstype | Customer Engagement-veld | Standaardwaarde
----|---|---|---
-`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
-`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
-`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
-`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
-`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
-`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
-`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
-`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
-`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
-`ATPDATE` | = | `msdyn_atpdate` |
-`ATPQUANTITY` | > | `msdyn_atpquantity` |
-`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
-`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
-`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
-`ORDERQUANTITY` | > | `msdyn_orderquantity` |
-`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
-
-###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>Aanvragen voor voorhanden voorraad voor CDS (msdyn_inventoryonhandrequests)
-
-Deze sjabloon synchroniseert gegevens tussen Finance and Operations-apps en Dataverse.
-
-Finance and Operations-veld | Toewijzingstype | Customer Engagement-veld | Standaardwaarde
----|---|---|---
-`REQUESTID` | = | `msdyn_requestid` |
-`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
-`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
-`ORDERQUANTITY` | < | `msdyn_orderquantity` |
-`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
-`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
-`REFERENCENUMBER` | < | `msdyn_referencenumber` |
-`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
-
-
-
-
-
+[Vermeldingen voorhanden CDS-voorraad](mapping-reference.md#145) | msdyn_inventoryonhandentries |
+[Aanvragen voorhanden CDS-voorraad](mapping-reference.md#147) | msdyn_inventoryonhandrequests |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

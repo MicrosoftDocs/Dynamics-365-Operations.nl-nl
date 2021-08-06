@@ -2,7 +2,7 @@
 title: Resultaten van machine learning-modellen (preview)
 description: In dit onderwerp worden verwarringsmatrixen, classificatieproblemen en nauwkeurigheid in modellen voor machine learning (ML) besproken. Het doel is om uw begrip van de nauwkeurigheid in ML-voorspellingsresultaten te vergroten.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 32561935958268f35acc24f1cfb823546636c1f6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: f766303f0592dec917a23339511a957fcdc940d6
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349053"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638675"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Resultaten van machine learning-modellen (preview)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp worden verwarringsmatrixen, classificatieproblemen en nauwkeurigheid in modellen voor machine learning (ML) besproken. Het doel is om uw begrip van de nauwkeurigheid in ML-voorspellingsresultaten te vergroten. De doelgroep omvat technici, analisten en managers die hun kennis en vaardigheden in gegevenswetenschappen willen ontwikkelen.
 

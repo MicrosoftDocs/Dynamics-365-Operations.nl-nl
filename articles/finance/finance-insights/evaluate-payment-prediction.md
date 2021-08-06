@@ -2,7 +2,7 @@
 title: Het aanvankelijke voorspellingsmodel voor klantbetalingen evalueren (preview)
 description: In dit onderwerp worden de stappen beschreven die u kunt uitvoeren om het voorspellingsmodel voor klantbetalingen te begrijpen en de effectiviteit ervan te beoordelen.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 872f4cfd968b70cb8a2087822870dcc76e83e92b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 97228a68d9eaa02388675238d5a196b4af30daa5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349005"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638555"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Het aanvankelijke voorspellingsmodel voor klantbetalingen evalueren (preview)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe u een voorspellingsmodel evalueert nadat u Financiële inzichten hebt ingeschakeld en vervolgens uw eerste model hebt gegenereerd en getraind. Dit onderwerp behandelt modellen voor het voorspellen van klantbetalingen. Het beschrijft de stappen die u kunt uitvoeren om het voorspellingsmodel voor klantbetalingen te begrijpen en de effectiviteit ervan te beoordelen.
 

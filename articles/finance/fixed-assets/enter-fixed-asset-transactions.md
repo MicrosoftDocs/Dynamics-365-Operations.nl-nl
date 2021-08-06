@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3540cf17050a953a97c7291a1bcbe5ebf6fb670e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f9cd8846688e6b70f3ac2034caa1a9e3015355e
+ms.sourcegitcommit: f9b40df70a77136529fbc790325ed657eb203731
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815711"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6645367"
 ---
 # <a name="fixed-asset-transaction-options"></a>Transactieopties voor vaste activa
 
@@ -46,7 +46,7 @@ Wanneer een inkooporder of het Voorraad naar vaste-activajournaal wordt gebruikt
 ## <a name="general-ledger"></a>Grootboek
 Elk type vaste-activatransactie kan worden geboekt op de Algemeen journaal. Ook kunt u dagboeken gebruiken in vaste activa om VA-transacties te boeken.
 
-## <a name="options-for-entering-fixed-asset-transaction-types"></a>Opties voor het invoeren van vaste-activatransactietypen
+### <a name="options-for-entering-fixed-asset-transaction-types"></a>Opties voor het invoeren van vaste-activatransactietypen
 
 
 | Transactietype                    | Module                   | Opties                                   |
@@ -61,10 +61,20 @@ Elk type vaste-activatransactie kan worden geboekt op de Algemeen journaal. Ook 
 | ** **                               | Grootboek           | Algemeen journaal                           |
 | ** **                               | Klanten        | Vrije-tekstfactuur                         |
 
-
 De resterende waarde van de afschrijvingsperioden van het vaste activum wordt niet bijgewerkt wanneer een regel van een journaal van het type afschrijvingstransactie handmatig wordt gemaakt of wordt geïmporteerd door middel van een gegevensentiteit. Deze waarde wordt bijgewerkt wanneer het afschrijvingsvoorstelproces wordt gebruikt om de journaalregel te maken.
 
 Zie [Integratie vaste activa](fixed-asset-integration.md) voor meer informatie.
 
+### <a name="transactions-that-require-different-voucher-numbers"></a>Transacties waarvoor andere boekstuknummers zijn vereist
+
+Voor de volgende vaste-activatransacties worden verschillende boekstuknummers gebruikt:
+
+- Er worden extra aanschafkosten voor een activum gemaakt en 'achterstallige' afschrijving wordt berekend.
+- Een activum wordt opgesplitst.
+- Een parameter voor het berekenen van afschrijving bij buitengebruikstelling wordt ingeschakeld en vervolgens wordt het activum afgestoten.
+- De servicedatum van ene activum valt vóór de verwervingsdatum. Daarom wordt een afschrijvingscorrectie geboekt.
+
+> [!NOTE]
+> Wanneer u transacties invoert, moet u ervoor zorgen dat alle transacties van toepassing zijn op hetzelfde vaste activum. Een boekstuk wordt niet geboekt als het meer dan één vast activum bevat, zelfs niet als het veld **Nieuw boekstuk** is ingesteld op **Maximaal één boekstuknummer** op de pagina **Journaalnamen** in Grootboek. Als u meer dan één vast activum in het boekstuk opneemt, ontvangt u het bericht 'Er kan niet meer dan één vaste-activatransactie per boekstuk zijn weergegeven' en kunt u het boekstuk niet boeken.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
