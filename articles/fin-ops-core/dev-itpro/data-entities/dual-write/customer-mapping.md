@@ -4,24 +4,17 @@ description: In dit onderwerp wordt de integratie van klantgegevens tussen Finan
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5af584eb0bdb65942921847219b46b8f93dae79d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8f85759f650e1c0e2a1d228b6429d218edac8ef4
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350906"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542534"
 ---
 # <a name="integrated-customer-master"></a>Model voor geïntegreerde klanten
 
@@ -29,8 +22,7 @@ ms.locfileid: "6350906"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-Klantgegevens kunnen in meerdere Dynamics 365-toepassingen worden beheerd. Een klantrij kan bijvoorbeeld afkomstig zijn van een verkoopactiviteit in Dynamics 365 Sales (een modelgestuurde app in Dynamics 365) of een rij die afkomstig is van een detailhandelactiviteit in Dynamics 365 Commerce (een Finance and Operations-app). Ongeacht waar de klantgegevens vandaan komen, ze worden achter de schermen geïntegreerd. Met het geïntegreerde klantmodel hebt u de flexibiliteit om de hoofdgegevens van klanten te beheren in elke Dynamics 365-toepassing met een uitgebreid overzicht van de klant in de Dynamics 365-toepassingsreeks.
+Klantgegevens kunnen in meerdere Dynamics 365-toepassingen worden beheerd. Een klantrij kan bijvoorbeeld afkomstig zijn van een verkoopactiviteit in Dynamics 365 Sales (een klantbetrokkenheidsapp) of een rij die afkomstig is van een detailhandelactiviteit in Dynamics 365 Commerce (een Finance and Operations-app). Ongeacht waar de klantgegevens vandaan komen, ze worden achter de schermen geïntegreerd. Met het geïntegreerde klantmodel hebt u de flexibiliteit om de hoofdgegevens van klanten te beheren in elke Dynamics 365-toepassing met een uitgebreid overzicht van de klant in de Dynamics 365-toepassingsreeks.
 
 ## <a name="customer-data-flow"></a>Klantgegevensstroom
 
@@ -50,43 +42,18 @@ Wanneer een niet-verkoopbare contactpersoon deelneemt aan een offerte- of orderp
 
 Klantgegevens omvatten alle informatie over de klant, zoals de klantgroep, adressen, contactgegevens, betalingsprofiel en factuurprofiel. Een verzameling tabeltoewijzingen werkt samen tijdens interactie met klantgegevens, zoals in de volgende tabel wordt weergegeven.
 
-Finance and Operations-apps | Andere Dynamics 365-apps         | Beschrijving
+Finance and Operations-apps | Customer Engagement-apps         | Beschrijving
 ----------------------------|---------------------------------|------------
-CDS-contactpersonen V2             | contacten                        | Met deze sjabloon worden alle primaire, secundaire en tertiaire contactgegevens voor zowel klanten als leveranciers gesynchroniseerd.
-Klantengroepen             | msdyn_customergroups            | Met deze sjabloon worden klantengroepgegevens gesynchroniseerd.
-Betalingsmethode van klant     | msdyn_customerpaymentmethods    | Met deze sjabloon worden gegevens over de betalingsmethoden van klanten gesynchroniseerd.
-Klanten V3                | rekeningen                        | Met deze sjabloon worden klantmodelgegevens voor commerciële en organisatorische klanten gesynchroniseerd.
-Klanten V3                | contacten                        | Met deze sjabloon worden klantmodelgegevens voor consumenten en eindgebruikers gesynchroniseerd.
-Voor- en achtervoegsel naam                | msdyn_nameaffixes               | Met deze sjabloon worden referentiegegevens over voor- en achtervoegsels van namen voor zowel klanten als leveranciers gesynchroniseerd.
-Betalingsdagregels CDS V2    | msdyn_paymentdaylines           | Met deze sjabloon worden referentiegegevens over betalingsdagregels voor zowel klanten als leveranciers gesynchroniseerd.
-Betalingsdagen CDS            | msdyn_paymentdays               | Met deze sjabloon worden referentiegegevens over betalingsdagen voor zowel klanten als leveranciers gesynchroniseerd.
-Regels van betalingsschema      | msdyn_paymentschedulelines      | Met deze sjabloon worden referentiegegevens over betalingsschemaregels voor zowel klanten als leveranciers gesynchroniseerd.
-Betalingsplanning            | msdyn_paymentschedules          | Met deze sjabloon worden referentiegegevens over betalingsschema's voor zowel klanten als leveranciers gesynchroniseerd.
-Betalingstermijnen            | msdyn_paymentterms              | Met deze sjabloon worden referentiegegevens over betalingsvoorwaarden (voorwaarden voor betaling) voor zowel klanten als leveranciers gesynchroniseerd.
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [mapping contacts contacts](includes/CDSContactsV2-contacts.md)]
-
-[!include [mapping customer group](includes/CustCustomerGroup-msdyn-customergroups.md)]
-
-[!include [mapping customer payment method](includes/CustomerPaymentMethod-msdyn-customerpaymentmethods.md)]
-
-[!include [mapping customer accounts](includes/CustomersV3-accounts.md)]
-
-[!include [mapping customer contacts](includes/CustomersV3-contacts.md)]
-
-[!include [mapping name affixes](includes/NameAffixes-msdyn-nameaffixes.md)]
-
-[!include [mapping payment day lines](includes/PaymentDayLinesCdsV2-msdyn-paymentdaylines.md)]
-
-[!include [mapping payment days](includes/PaymentDaysCds-msdyn-paymentdays.md)]
-
-[!include [mapping payment schedule lines](includes/PaymentScheduleLines-msdyn-paymentschedulelines.md)]
-
-[!include [mapping payment schedules](includes/PaymentSchedules-msdyn-paymentschedules.md)]
-
-[!include [mapping terms of payment](includes/TermsofPayment-msdyn-paymentterms.md)]
-
+[CDS-contactpersonen V2](mapping-reference.md#115) | contacten | Met deze sjabloon worden alle primaire, secundaire en tertiaire contactgegevens voor zowel klanten als leveranciers gesynchroniseerd.
+[Klantengroepen](mapping-reference.md#126) | msdyn_customergroups | Met deze sjabloon worden klantengroepgegevens gesynchroniseerd.
+[Betalingsmethode van klant](mapping-reference.md#127) | msdyn_customerpaymentmethods | Met deze sjabloon worden gegevens over de betalingsmethoden van klanten gesynchroniseerd.
+[Klanten V3](mapping-reference.md#101) | rekeningen | Met deze sjabloon worden klantmodelgegevens voor commerciële en organisatorische klanten gesynchroniseerd.
+[Klanten V3](mapping-reference.md#116) | contacten | Met deze sjabloon worden klantmodelgegevens voor consumenten en eindgebruikers gesynchroniseerd.
+[Voor- en achtervoegsel naam](mapping-reference.md#155) | msdyn_nameaffixes | Met deze sjabloon worden referentiegegevens over voor- en achtervoegsels van namen voor zowel klanten als leveranciers gesynchroniseerd.
+[Betalingsdagregels CDS V2](mapping-reference.md#157) | msdyn_paymentdaylines | Met deze sjabloon worden referentiegegevens over betalingsdagregels voor zowel klanten als leveranciers gesynchroniseerd.
+[Betalingsdagen CDS](mapping-reference.md#158) | msdyn_paymentdays | Met deze sjabloon worden referentiegegevens over betalingsdagen voor zowel klanten als leveranciers gesynchroniseerd.
+[Regels van betalingsschema](mapping-reference.md#159) | msdyn_paymentschedulelines | Met deze sjabloon worden referentiegegevens over betalingsschemaregels voor zowel klanten als leveranciers gesynchroniseerd.
+[Betalingsplanning](mapping-reference.md#160) | msdyn_paymentschedules | Met deze sjabloon worden referentiegegevens over betalingsschema's voor zowel klanten als leveranciers gesynchroniseerd.
+[Betalingstermijnen](mapping-reference.md#161) | msdyn_paymentterms | Met deze sjabloon worden referentiegegevens over betalingsvoorwaarden (voorwaarden voor betaling) voor zowel klanten als leveranciers gesynchroniseerd.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

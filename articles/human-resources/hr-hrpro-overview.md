@@ -2,7 +2,7 @@
 title: Overzicht
 description: De gebruikershandleiding voor Dynamics 365 Human Resources bevat instructies over het instellen van Human Resources, het instellen van compensatie en vergoedingen voor uw werknemers en het beheren van uw personeel.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8595bbbce9ab39893b67ee142bcb71996ccd6994
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 8b03865c1e53f943989437ed4839474e37419f2e
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338049"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639505"
 ---
 # <a name="overview"></a>Overzicht
 
@@ -102,6 +102,7 @@ De gebruikershandleiding voor Dynamics 365 Human Resources bevat instructies ove
 [Verlof- en verzuimaanvragen beheren](hr-employee-self-service-manage-requests.md)</br>
 [Verlof aanvragen](hr-employee-self-service-request-time-off.md)</br>
 [Team- en bedrijfsagenda's weergeven](hr-employee-self-service-calendar.md)</br>
+[De rol van verzuimmanager configureren](hr-configure-absence-manager.md)</br>
 
 ## <a name="develop-employees"></a>Werknemers ontwikkelen
 

@@ -2,7 +2,7 @@
 title: Implementatieopties voor netwerk voor contentlevering
 description: In dit onderwerp worden de verschillende opties voor de implementatie van het netwerk voor contentlevering (Content Delivery Network - CDN) besproken die kunnen worden gebruikt in Microsoft Dynamics 365 Commerce-omgevingen. Deze opties omvatten oorspronkelijke, door Commerce geleverde exemplaren van Azure Front Door en exemplaren van Azure Front Door die eigendom zijn van klanten.
 author: BrianShook
-ms.date: 03/11/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: eec18dbffe33bc6366b4282d05189b31620616d6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e6425d7e473d1d1c263624599d54c6b040d90cb
+ms.sourcegitcommit: a52ad281071b3a49c461e5853e82f302dd33095a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351244"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6657114"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Implementatieopties voor netwerk voor contentlevering
 
@@ -74,7 +74,7 @@ In de volgende tabel worden de voors en tegens aangegeven van het gebruik van ee
 
 | Voors | Tegens |
 |------|------|
-| <ul><li>Deze optie is handig als het bestaande domein al op een extern CDN wordt gehost.</li><li>CDN's van concurrenten (bijvoorbeeld Akamai) hebben mogelijk meer WAF-capaciteiten.</li></ul> | <ul><li>Er is een afzonderlijk contract met extra kosten vereist.</li><li>Voor SSL worden mogelijk extra kosten in rekening gebracht.</li><li>Aangezien de service losstaat van de Azure-cloudstructuur, moet extra infrastructuur worden beheerd.</li><li>De service vereist mogelijk grotere tijdsinvesteringen bij het instellen van eindpunten en beveiliging.</li><li>De service wordt zelf beheerd.</li><li>De service wordt zelf bewaakt.</li></ul> |
+| <ul><li>Deze optie is handig als het bestaande domein al op een extern CDN wordt gehost.</li><li>WAF: afhankelijk van externe provider.</li></ul> | <ul><li>Er is een afzonderlijk contract met extra kosten vereist.</li><li>Voor SSL worden mogelijk extra kosten in rekening gebracht.</li><li>Aangezien de service losstaat van de Azure-cloudstructuur, moet extra infrastructuur worden beheerd.</li><li>De service vereist mogelijk grotere tijdsinvesteringen bij het instellen van eindpunten en beveiliging.</li><li>De service wordt zelf beheerd.</li><li>De service wordt zelf bewaakt.</li></ul> |
 
 De volgende illustratie toont een Commerce-infrastructuur die een externe CDN-service omvat.
 

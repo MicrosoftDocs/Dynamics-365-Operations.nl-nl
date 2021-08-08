@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a1e94067e2dcca59f03e01520f16a09da1bd4f52
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360563"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6559985"
 ---
 # <a name="payroll-integration-api-introduction"></a>Inleiding bij API voor integratie van salarisadministratie
 
@@ -30,8 +30,8 @@ In dit document wordt de Salarisintegratie-API van Dynamics 365 Human Resources 
 
 Human Resources bevat de volgende onderdelen om de integratie in te schakelen:
 
-- Functionaliteit om een werknemer te markeren als gereed voor betaling
-- Een integratie-API die de nieuwe functionaliteit opent voor de integratie van toepassingen
+- [Functionaliteit om een werknemer te markeren als gereed voor betaling.](hr-compensation-payroll.md)
+- Een integratie-API die de nieuwe functionaliteit opent voor de integratie van toepassingen.
 
 ## <a name="microsoft-dataverse"></a>Microsoft Dataverse
 

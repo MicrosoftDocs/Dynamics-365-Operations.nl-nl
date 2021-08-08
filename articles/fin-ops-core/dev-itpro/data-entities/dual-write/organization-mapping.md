@@ -4,24 +4,17 @@ description: In dit onderwerp wordt de integratie van organisatiegegevens tussen
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 77625e6e80bfa45add6839df89d9aae27e41d456
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d1ad3bc4eef1650b927d9f6dd699f788994c7e87
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355293"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542582"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Organisatiehiërarchie in Dataverse
 
@@ -43,34 +36,19 @@ Tabeltoewijzingen voor organisatiehiërarchie zijn beschikbaar voor eenrichtings
 
 ## <a name="templates"></a>Sjablonen
 
-Productinformatie bevat alle informatie die betrekking heeft op het product en de definitie ervan, zoals de productdimensies of de tracerings- en opslagdimensies. Zoals in de volgende tabel wordt aangegeven, wordt een verzameling tabeltoewijzingen gemaakt om producten en gerelateerde informatie te synchroniseren.
+Productinformatie bevat alle informatie die betrekking heeft op het product en de definitie ervan, zoals de productdimensies of de tracerings- en opslagdimensies. Zoals in de volgende tabel wordt weergegeven, wordt er een verzameling tabeltoewijzingen gemaakt om producten en verwante informatie te synchroniseren.
 
-Finance and Operations-apps | Andere Dynamics 365-apps | Omschrijving
+Finance and Operations-apps | Customer Engagement-apps     | Beschrijving
 -----------------------|--------------------------------|---
-Organisatiehiërarchiedoelstellingen | msdyn_internalorganizationhierarchypurposes | Deze sjabloon biedt synchronisatie in één richting van de tabel Doel van organisatiehiërarchie.
-Type organisatiehiërarchie | msdyn_internalorganizationhierarchytypes | Deze sjabloon biedt synchronisatie in één richting van de tabel Type organisatiehiërarchie.
-Organisatiehiërarchie - gepubliceerd | msdyn_internalorganizationhierarchies | Deze sjabloon biedt synchronisatie in één richting van de tabel Gepubliceerde organisatiehiërarchie.
-Operationele eenheid | msdyn_internalorganizations |
-Rechtspersonen | msdyn_internalorganizations |
-Rechtspersonen | cdm_companies | Biedt bidirectionele synchronisatie van gegevens over rechtspersonen (bedrijven).
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Organization hierarchy purposes](includes/OrganizationHierarchyPurpose-msdyn-internalorganizationhierarchypurposes.md)]
-
-[!include [Organization hierarchy type](includes/OrganizationHierarchyType-msdyn-internalorganizationhierarchytypes.md)]
-
-[!include [Organization hierarchy - published](includes/OrganizationHierarchyPublished-msdyn-internalorganizationhierarchies.md)]
+[Rechtspersonen](mapping-reference.md#102) | cdm_companies | Biedt bidirectionele synchronisatie van gegevens over rechtspersonen (bedrijven).
+[Rechtspersonen](mapping-reference.md#142) | msdyn_internalorganizations |
+[Operationele eenheid](mapping-reference.md#143) | msdyn_internalorganizations |
+[Organisatiehiërarchie - gepubliceerd](mapping-reference.md#139) | msdyn_internalorganizationhierarchies | Deze sjabloon biedt synchronisatie in één richting van de tabel Gepubliceerde organisatiehiërarchie.
+[Organisatiehiërarchiedoelstellingen](mapping-reference.md#140) | msdyn_internalorganizationhierarchypurposes | Deze sjabloon biedt synchronisatie in één richting van de tabel Doel van organisatiehiërarchie.
+[Type organisatiehiërarchie](mapping-reference.md#141) | msdyn_internalorganizationhierarchytypes | Deze sjabloon biedt synchronisatie in één richting van de tabel Type organisatiehiërarchie.
 
 ## <a name="internal-organization"></a>Interne organisatie
 
-Gegevens over de interne organisatie in Dataverse zijn afkomstig van twee tabellen, **operationele eenheid** en **rechtspersonen**.
-
-[!include [Operating unit](includes/OperatingUnit-msdyn-internalorganizations.md)]
-
-[!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
-
-[!include [Legal entities](includes/LegalEntities-Companies.md)]
-
+Gegevens over de interne organisatie in Dataverse zijn afkomstig van twee tabellen, **Operationele eenheid** en **Rechtspersonen**.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
