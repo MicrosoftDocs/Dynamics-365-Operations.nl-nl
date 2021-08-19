@@ -94,6 +94,8 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.21 (oktober 2021)
+                      href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (augustus 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (juni 2021)
@@ -516,8 +518,16 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: Het dialoogvenster Vervaldatum wijzigen overslaan in POS
                       href: dev-itpro/skip-change-due.md
-                    - name: De Adyen-betalingsconnector
-                      href: dev-itpro/adyen-connector.md
+                    - name: Dynamics 365 Payment Connector voor Adyen
+                      items:
+                        - name: Overzicht van Dynamics 365 Payment Connector voor Adyen
+                          href: dev-itpro/adyen-connector.md
+                        - name: Dynamics 365 Payment Connector voor Adyen instellen
+                          href: dev-itpro/adyen-connector-setup.md
+                        - name: Veelgestelde vragen over Dynamics 365 Payment Connector voor Adyen
+                          href: dev-itpro/adyen-connector-faq.md
+                        - name: Problemen met Dynamics 365 Payment Connector voor Adyen oplossen
+                          href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Online betaalmiddelen opslaan met de Adyen-connector
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: SCA (sterke klantverificatie) met de Adyen-connector
@@ -1182,6 +1192,10 @@
               items:
                 - name: Rapporten voor online kanalen genereren
                   href: generate-reports.md
+            - name: Targeten
+              items:
+                - name: 'Targeten op apparaten, markt en geolocatie'
+                  href: targeting-overview.md
             - name: Experimenten
               items:
                 - name: Experimenten in Dynamics 365 Commerce
@@ -1336,6 +1350,10 @@
               items:
                 - name: Commerce-lokalisatie voor Rusland
                   href: localizations/rus-commerce-localization.md
+                - name: Commerce-lokalisatie voor Rusland instellen
+                  href: localizations/rus-commerce-setup.md
+                - name: Vooruitbetalingen in Commerce voor Rusland
+                  href: localizations/rus-commerce-prepayments.md
             - name: Zweden
               items:
                 - name: Kassafunctionaliteit
