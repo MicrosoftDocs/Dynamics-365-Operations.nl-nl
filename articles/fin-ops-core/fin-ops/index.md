@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc81c7eed4724f9f68b592b23818781e1b047ebf
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 0746b420d770896ee6010c0e5f5fe17d2e6e52bf0b5d10bf831df7901060c983
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6340296"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739426"
 ---
 # <a name="finance-and-operations-application-documentation"></a>Documentatie voor Finance and Operations-apps
 
@@ -116,7 +116,7 @@ Veel van deze inhoud is ook van toepassing op de gerelateerde producten: Dynamic
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Mobiel platform</a></p>
 <p><a href="get-started/demo-data.md">Demogegevens</a></p>
 
-<h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administratie</h3>
+<h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Beheer</h3>
 <p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Cloudimplementatie</a></p>
 <p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">On-premises implementatie</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Bijwerken</a></p>
