@@ -72,6 +72,8 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.21 (oktober 2021)
+                      href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (augustus 2021)
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (juni 2021)
@@ -1168,6 +1170,8 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: Sjablonen voor financiële journalen openen in Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Waarom kan ik deze transactie niet ongedaan maken?
+                  href: general-ledger/cant-reverse-transctns.md
         - name: Financiële rapportage
           items:
             - name: Aan de slag met financiële rapportage
@@ -1498,12 +1502,16 @@
                           href: localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/finance/toc.json
                         - name: Aan de slag met Elektronische facturering
                           href: localizations/e-invoicing-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Een nieuwe functie voor Elektronische facturering maken
+                          href: localizations/e-invoicing-create-new-e-invoicing-feature.md
                         - name: Aan de slag met Elektronische facturering voor Brazilië
                           href: localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Aan de slag met Elektronische facturering voor Egypte
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Aan de slag met Elektronische facturering voor Mexico
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: De service voor Elektronische facturering gebruiken om leveranciersfacturen te importeren
+                          href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektronische facturering instellen
                           href: localizations/e-invoicing-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Veelgestelde vragen over Elektronische facturering
@@ -1514,8 +1522,12 @@
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
                     - name: Aan de slag met belastingberekening
                       href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                    - name: Logica voor toepasselijkheid van btw en het bepalen van btw-groepen
+                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                     - name: Ondersteuning voor belastingfunctie voor transferorders
                       href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: Belasting berekenen bovenop de prijs wanneer Prijzen inclusief belastingen zijn ingeschakeld
+                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
                     - name: Gegevensvelden toevoegen in belastingconfiguraties
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Gegevensvelden in de belastingintegratie toevoegen met extensies
@@ -1528,6 +1540,10 @@
                       items:
                         - name: Aangifte van meerdere btw-registraties
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Rapportage voor Frankrijk
+                          items:
+                            - name: Btw-aangifte
+                          href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Rapportage voor Nederland
                           items:
                             - name: Btw-aangifte
@@ -1544,6 +1560,8 @@
               items:
                 - name: Overzicht Australië
                   href: localizations/australia.md
+                - name: Bestandsindelingen voor Australische banken
+                  href: localizations/apac-aus-bank-file-formats.md
                 - name: BAS (Business Activity Statement)
                   href: localizations/apac-aus-business-activity-statement.md
                 - name: Rapportvakken toevoegen en de BAS genereren
@@ -1552,6 +1570,8 @@
                   href: localizations/apac-aus-low-value-pool-depreciation.md
                 - name: Redencodes instellen voor de BAS
                   href: localizations/tasks/set-up-reason-codes-australia-bas.md
+                - name: Rapportageschema betalingstijden
+                  href: localizations/apac-aus-payment-times-report.md
             - name: Oostenrijk
               items:
                 - name: Overzicht Oostenrijk
@@ -1802,6 +1822,8 @@
                   href: localizations/china.md
                 - name: Finance and Operations geëxploiteerd door 21Vianet in China
                   href: ../fin-ops-core/dev-itpro/deployment/china-local-deployment.md
+                - name: Selectie van rekeninggroepen voor Chinese boekstuktypen
+                  href: localizations/apac-chn-account-groups-selection.md
                 - name: Vergelijking van stuklijsten
                   href: localizations/apac-chn-bom-comparison.md
                 - name: Chinese hiërarchie van rekeningschema
@@ -1870,6 +1892,10 @@
                   href: localizations/emea-cze-vat-statement-details.md
                 - name: Btw-aangifte (Tsjechische Republiek)
                   href: localizations/emea-cze-vat-declaration-tax-declaration-model.md
+                - name: Banksymbolen voor bankrekeningen
+                  href: localizations/emea-cze-specify-bank-symbols-for-bank-accounts.md
+                - name: Intracommunautaire btw
+                  href: localizations/emea-cze-intra-community-VAT.md
                 - name: Jaarafsluiting
                   href: localizations/emea-cze-hun-year-end.md
             - name: Denemarken
@@ -1992,10 +2018,6 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: Een EU Intrastat-aangifte genereren
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
-                    - name: Franse Intrastat
-                      href: localizations/emea-fra-intrastat.md
-                    - name: Italiaanse Intrastat
-                      href: localizations/emea-ita-intrastat.md
                 - name: Voorraadjournaalrapporten
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Deadlines voor uitgeven van facturen
@@ -2120,6 +2142,8 @@
                   href: localizations/emea-fra-derogatory-depreciation.md
                 - name: Franse wissels en promessen
                   href: localizations/tasks/fr-00004-french-bills-exchange-promissory-notes.md
+                - name: Franse Intrastat
+                  href: localizations/emea-fra-intrastat.md
                 - name: NAF-codes en siret-nummers
                   href: localizations/emea-fra-naf-codes-siret-numbers.md
                 - name: NAF-codes en Siret-nummers instellen
@@ -2138,6 +2162,8 @@
                   href: localizations/tasks/fr-00004-setup-method-payment.md
                 - name: Betalingsmethode van klant bijwerken
                   href: localizations/tasks/fr-00004-update-method-payment-customer.md
+                - name: Btw-aangifte
+                  href: localizations/emea-fra-VAT-declaration-preview-France.md
                 - name: DAS-2-rapport
                   href: localizations/emea-fra-das2-report.md
             - name: Duitsland
@@ -2162,6 +2188,8 @@
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Elektronische transmissie van btw-aangifte (ELSTER)
                   href: localizations/tasks/de-00003-electronic-transmission-elster.md
+                - name: Duitse Intrastat
+                  href: localizations/emea-deu-intrastat.md
                 - name: Btw-aangifte voor Duitsland
                   href: localizations/emea-de-vat-declaration.md
                 - name: Rapport met elektronische klantfacturen
@@ -2170,6 +2198,8 @@
                   href: localizations/emea-deu-journal-list-report.md
                 - name: Elektronische belastingaangiften instellen
                   href: ../fin-ops-core/dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/dynamics365/finance/toc.json
+                - name: Een afzonderlijk label afdrukken voor creditnota's die voortvloeien uit verkopen
+                  href: localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md
             - name: Hongarije
               items:
                 - name: Overzicht Hongarije
@@ -2616,6 +2646,8 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Verbetering van de bruikbaarheid van bankgegevens
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
+                - name: Italiaanse Intrastat
+                  href: localizations/emea-ita-intrastat.md
                 - name: Diverse toeslagen per kilogram in een intrastat-aangifte
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Intentieverklaring - gebruikelijke exporteurs factureren
@@ -2836,6 +2868,8 @@
                   href: localizations/emea-ltu-isaf.md
                 - name: Standaard auditfile voor belasting (SAF-T) voor Litouwen
                   href: localizations/emea-ltu-saf-t.md
+                - name: De overboekingsdocumenten instellen voor goederenverplaatsing in een bedrijf
+                  href: localizations/tasks/set-up-transfer-documents-goods-movement-inside-company.md
             - name: Maleisië
               items:
                 - name: Overzicht Maleisië
@@ -2970,14 +3004,18 @@
                   href: localizations/emea-pol-turnover-balances-statement.md
                 - name: Verschil koers klanten/leveranciers splitsen
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
+                - name: PKWiU-codes voor Polen instellen en gebruiken
+                  href: localizations/emea-pol-pkwiu-code.md
                 - name: 'Btw-aangifte met registers (JPK_V7M, VDEK)'
-                  href: localizations/emea-pol-vdek.md
-                - name: Voorbereiden voor JPK-V7M-rapportage
-                  href: localizations/emea-pol-vdek-setup.md
-                - name: JPK-V7M-rapportage
-                  href: localizations/emea-pol-vdek-reporting.md
-                - name: Details van specifieke zakelijke scenario's in het JPK-V7M-rapport
-                  href: localizations/emea-pol-vdek-scenarios.md
+                  items:
+                    - name: 'Overzicht van btw-aangifte met registers (JPK_V7M, VDEK)'
+                      href: localizations/emea-pol-vdek.md
+                    - name: Voorbereiden voor JPK-V7M-rapportage
+                      href: localizations/emea-pol-vdek-setup.md
+                    - name: JPK-V7M-rapportage
+                      href: localizations/emea-pol-vdek-reporting.md
+                    - name: Details van specifieke zakelijke scenario's in het JPK-V7M-rapport
+                      href: localizations/emea-pol-vdek-scenarios.md
             - name: Qatar
               items:
                 - name: Overzicht Qatar
@@ -3200,6 +3238,8 @@
                       href: localizations/rus-reporting-deferrals.md
                 - name: Belastingboekhouding
                   items:
+                    - name: Belastingregisters en het belastingregisterjournaal maken
+                      href: localizations/rus-profit-tax-registers.md
                     - name: Onkosten- en inkomstencodes
                       href: localizations/rus-expense-and-income-codes.md
                     - name: Belastingregisters voor activa
@@ -3216,6 +3256,10 @@
                       href: localizations/rus-bad-debts.md
                     - name: Berekening van belastingactiva en belastingschuldregisters
                       href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
+                    - name: Belastingregisters voor goederenverplaatsing
+                      href: localizations/rus-goods-movement-tax-registers.md
+                    - name: Overige belastingregisters
+                      href: localizations/rus-other-tax-registers.md
             - name: Saoedi-Arabië
               items:
                 - name: Overzicht Saoedi-Arabië
@@ -3304,8 +3348,6 @@
                   href: localizations/apac-tha-tax-branch-dimensions.md
                 - name: Btw-rapport
                   href: localizations/apac-tha-sales-vat-report.md
-                - name: Gemiddelde btw voor inkooptransacties
-                  href: localizations/apac-tha-average-vat-for-purchase-transactions.md
                 - name: Bronbelasting
                   href: localizations/apac-tha-withholding-tax.md
             - name: Verenigde Arabische Emiraten (VAE)
