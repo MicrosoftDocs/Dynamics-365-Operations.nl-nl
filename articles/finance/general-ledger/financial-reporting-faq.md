@@ -2,7 +2,7 @@
 title: Veelgestelde vragen over Financiële rapportage
 description: Dit onderwerp biedt antwoorden op een aantal veelgestelde vragen over Financiële rapportage.
 author: jiwo
-ms.date: 01/13/2021
+ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e1b67f86446403933005008a9a1e2cc6739dc516
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266628"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733606"
 ---
 # <a name="financial-reporting-faq"></a>Veelgestelde vragen over Financiële rapportage
 
@@ -77,5 +77,29 @@ Het bericht geeft aan dat er een probleem is opgetreden op het moment dat het sy
 
 - Controleer de integratiestatus van de gegevens met **Hulpmiddelen \> Integratiestatus** in Report Designer. Als de integratie onvolledig is, moet u wachten tot deze is voltooid. Probeer vervolgens dezelfde actie opnieuw uit te voeren.
 - Neem contact op met Ondersteuning om het probleem vast te stellen en op te lossen. Het systeem kan inconsistente gegevens bevatten. Ondersteuningsmedewerkers kunnen u helpen om dat probleem op de server te vinden en de specifieke gegevens te bepalen waarvoor een update nodig is.
+
+## <a name="how-does-the-selection-of-historical-rate-translation-affect-report-performance"></a>Welke invloed heeft de selectie van historische koersomzettingen op de prestaties van het rapport?
+
+De historische koers wordt meestal gebruikt bij rekeningen voor ingehouden winsten, materiële vaste activa en eigen vermogen. De historische koers kan vereist zijn op basis van richtlijnen van de Financial Accounting Standards Board (FASB) of algemeen aanvaarde boekhoudbeginselen (GAAP). Zie voor meer informatie [Valutamogelijkheden in financiële rapportage](financial-reporting-currency-capability.md).
+
+## <a name="how-many-types-of-currency-rate-are-there"></a>Hoeveel soorten valutakoersen zijn er?
+
+Er zijn drie typen:
+
+- **Huidige koers**: dit type wordt meestal gebruikt bij balansrekeningen. Dit wordt meestal de *spotkoers* genoemd en kan de koers zijn op de laatste dag van de maand of een andere vooraf bepaalde datum.
+- **Gemiddelde koers**: dit type wordt meestal gebruikt bij winst-en-verliesrekeningen met een inkomstenoverzicht. U kunt de gemiddelde koers instellen om een eenvoudig of een gewogen gemiddelde toe te passen.
+- **Historische koers**: dit type wordt meestal gebruikt bij rekeningen voor ingehouden winsten, materiële vaste activa en eigen vermogen. Deze rekeningen kunnen vereist zijn op basis van FASB- of GAAP-richtlijnen.
+
+## <a name="how-does-historical-currency-translation-work"></a>Hoe werkt historische valutaomrekening?
+
+De koersen zijn specifiek voor de transactiedatum. Daarom wordt elke transactie afzonderlijk omgerekend, op basis van de dichtstbijzijnde wisselkoers.
+
+Voor historische valutaomrekening kunnen de vooraf berekende periodesaldi worden gebruikt in plaats van afzonderlijke transactiegegevens. Dit gedrag verschilt van het gedrag voor huidige koersomzetting.
+
+## <a name="how-does-historical-currency-translation-affect-performance"></a>Wat is de invloed van de historische valutaomrekening op de prestaties?
+
+Wanneer gegevens in de rapporten worden bijgewerkt, kan er vertraging optreden omdat bedragen opnieuw moeten worden berekend met controle van de transactiegegevens. Deze vertraging is elke keer van toepassing wanneer de tarieven worden bijgewerkt of meer transacties worden geboekt. Als er bijvoorbeeld een paar keer per dag duizenden rekeningen worden ingesteld voor historische omzetting, kan er een vertraging van maximaal een uur optreden voordat de gegevens in het rapport zijn bijgewerkt. Als er een kleiner aantal specifieke rekeningen is, kunnen de verwerkingstijden voor het bijwerken van rapportgegevens teruglopen tot een paar minuten of minder.
+
+Wanneer rapporten worden gegenereerd met behulp van valutaomzetting voor rekeningen met een historische koers, worden er ook extra berekeningen per transactie uitgevoerd. Afhankelijk van het aantal rekeningen kan de tijd voor het genereren van de rapporten meer dan verdubbelen.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
