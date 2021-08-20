@@ -72,6 +72,8 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.21 (oktober 2021)
+                      href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (augustus 2021)
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (juni 2021)
@@ -1601,6 +1603,8 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: Aan de slag met Planningsoptimalisatie
                   href: master-planning/planning-optimization/get-started.md
+                - name: Vrijgaveproces en vrijgavegeschiedenis van Planningsoptimalisatie
+                  href: master-planning/planning-optimization/release-process.md
                 - name: Analyse aanpassen aan Planningsoptimalisatie
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Parameters die niet worden gebruikt door Planningsoptimalisatie
@@ -1631,6 +1635,8 @@
                   href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Time fences voor behoefteplanning
                   href: master-planning/planning-optimization/coverage-time-fence.md
+                - name: Nettovereisten en informatie over tracering van de behoefte met Planningsoptimalisatie
+                  href: master-planning/planning-optimization/net-requirements.md
                 - name: Geplande orders goedkeuren
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Vast geplande orders
@@ -1709,6 +1715,8 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: Samenwerken met interne klanten van toeleveringsketen
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
+                - name: Nettovereisten en informatie over tracering van de behoefte met ingebouwde hoofdplanning
+                  href: master-planning/net-requirements-built-in-master-planning.md
             - name: Prognose maken
               items:
                 - name: Prognoses voor vraag en aanbod
@@ -1963,10 +1971,12 @@
                   href: procurement/purchase-requisitions-workflow.md
             - name: Offerteaanvragen
               items:
-                - name: Overzicht van Offerteaanvragen
+                - name: Overzicht van offerteaanvragen
                   href: procurement/request-quotations.md
                 - name: Een offerteaanvraag maken
                   href: procurement/tasks/create-request-quotation.md
+                - name: Verzegelde biedingen voor offerteaanvragen
+                  href: procurement/sealed-bidding.md
                 - name: Een bestelopdracht maken die een offerteaanvraag gebruikt
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Een scoringsmethode maken voor offerteaanvragen
@@ -2281,6 +2291,8 @@
               href: engineering-change-management/product-readiness.md
             - name: Productstructuur vrijgeven
               href: engineering-change-management/release-product-structure.md
+            - name: Varianten genereren voor technische producten
+              href: engineering-change-management/engineering-variants.md
             - name: Veelgestelde vragen over beheer voor technische wijzigingen
               href: engineering-change-management/change-management-faq.md
         - name: Productiebeheer
@@ -2603,6 +2615,8 @@
               href: rebate-management/rebate-management-overview.md
             - name: De module Kortingsbeheer instellen en configureren
               items:
+                - name: De module Kortingsbeheer voor uw systeem inschakelen
+                  href: rebate-management/rebate-management-enable.md
                 - name: Parameters voor kortingsbeheer
                   href: rebate-management/rebate-management-parameters.md
                 - name: Werkstromen voor kortingsbeheerdeals
@@ -2619,6 +2633,8 @@
               href: rebate-management/rebate-management-deals.md
             - name: 'Kortingen verwerken, controleren en posten'
               href: rebate-management/process-review-post.md
+            - name: Inhoudingen beheren met de inhoudingsworkbench
+              href: rebate-management/deduction-workbench.md
         - name: Verkoop en marketing
           items:
             - name: Overzicht van Verkoop en marketing
@@ -3057,6 +3073,8 @@
               href: landed-cost/in-transit-processing.md
             - name: Over-/ondertransacties verwerken
               href: landed-cost/over-under-transactions.md
+            - name: Bijhouden van updates voor wegzetten
+              href: landed-cost/update-tracking-putaway.md
             - name: Vragen over francoprijzen
               href: landed-cost/landed-cost-inquiries.md
             - name: Rapporten over francoprijzen
@@ -3117,6 +3135,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: Door systeem gestuurde clusterverzameling
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: Oververzamelen voor verkooporders en transferorders
+                      href: warehousing/over-picking-for-sales-and-transfer-orders.md
                     - name: Verschillende dimensies voor verpakking en opslag instellen
                       href: warehousing/packing-vs-storage-dimensions.md
                     - name: Bevestiging van batch en nummerplaat
@@ -3509,6 +3529,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Magazijnbeheer
               items:
+                - name: U kunt een zending niet bevestigen omdat de klant is geblokkeerd
+                  href: troubleshooting/warehousing/customer-is-on-hold.md
+                - name: U kunt een zending niet bevestigen omdat laadregels een hoeveelheid van nul hebben
+                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
+                - name: Kan een laadregel niet bijwerken omdat de vrijgegeven hoeveelheid dan negatief wordt
+                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
                 - name: Transactiestatus van geannuleerde productontvangsten wordt niet bijgewerkt naar geregistreerd
                   href: troubleshooting/warehousing/canceled-product-receipts.md
                 - name: De decimale afronding van de fysieke bijwerkhoeveelheid is onjuist
