@@ -1170,6 +1170,8 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: Sjablonen voor financiële journalen openen in Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Journaalboeking mislukt vanwege een onevenwicht
+                  href: general-ledger/posting-fail-imbalance.md
                 - name: Waarom kan ik deze transactie niet ongedaan maken?
                   href: general-ledger/cant-reverse-transctns.md
         - name: Financiële rapportage
@@ -1482,6 +1484,26 @@
                       href: localizations/rcs-delete-environment.md
                     - name: Regulatory Configuration Service - Afschaffing van Lifecycle Services-opslag
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
+                    - name: ER-configuraties downloaden naar Finance
+                      items:
+                        - name: Configuraties downloaden uit RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Configuraties importeren uit RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Algemene opslagplaats (GR)
+                      items:
+                        - name: Configuraties importeren uit GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Bijgewerkte versies van ER-configuraties importeren
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Uitgebreid filteren om configuraties te vinden in GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Configuraties uploaden naar GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: Configuraties delen in GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Configuraties stopzetten in de algemene opslagplaats van RCS
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
                 - name: Elektronische facturering
                   items:
                     - name: Overzicht van Elektronische facturering
@@ -1520,40 +1542,56 @@
                   items:
                     - name: Overzicht van belastingberekening
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Aan de slag met belastingberekening
-                      href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
-                    - name: Logica voor toepasselijkheid van btw en het bepalen van btw-groepen
-                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
-                    - name: Ondersteuning voor belastingfunctie voor transferorders
-                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
-                    - name: Belasting berekenen bovenop de prijs wanneer Prijzen inclusief belastingen zijn ingeschakeld
-                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
-                    - name: Gegevensvelden toevoegen in belastingconfiguraties
-                      href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Gegevensvelden in de belastingintegratie toevoegen met extensies
-                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Een omgeving instellen voor het opzoeken van hoofdgegevens
-                      href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
-                    - name: Meerdere btw-registratienummers
-                      href: localizations/emea-multiple-vat-registration-numbers.md
-                    - name: Aangifte van meerdere btw-registraties
+                    - name: Instelling
                       items:
+                        - name: Aan de slag met belastingberekening
+                          href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Een omgeving instellen voor het opzoeken van hoofdgegevens
+                          href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Vaststelling
+                      items:
+                        - name: Logica voor toepasselijkheid van btw en het bepalen van btw-groepen
+                          href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                    - name: Berekening
+                      items:
+                        - name: Belasting berekenen over prijzen wanneer Prijzen inclusief belastingen is ingeschakeld
+                          href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
+                        - name: Afrondingsregels voor belastingberekening
+                          href: localizations/tax-calculation-rounding-rules.md
+                    - name: Meerdere btw-registraties
+                      items:
+                        - name: Meerdere btw-registratienummers
+                          href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Aangifte van meerdere btw-registraties
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
                         - name: Rapportage voor Frankrijk
                           items:
                             - name: Btw-aangifte
-                          href: localizations/emea-fra-VAT-declaration-preview-France.md
+                              href: localizations/emea-fra-VAT-declaration-preview-France.md
                         - name: Rapportage voor Nederland
                           items:
                             - name: Btw-aangifte
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: ICL-lijst
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Rapportage voor Zwitserland
+                          items:
+                            - name: Btw-aangifte
+                              href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Rapportage voor Verenigd Koninkrijk
                           items:
                             - name: Voorbereiden op integratie met MTD voor btw
                               href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: Belastingberekening voor transferorder inschakelen
+                      items:
+                        - name: Ondersteuning voor belastingfunctie voor transferorders
+                          href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: Extensie
+                      items:
+                        - name: Gegevensvelden toevoegen in belastingconfiguraties
+                          href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Gegevensvelden in de belastingintegratie toevoegen met extensies
+                          href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
             - name: Wettelijk voorgeschreven updates
               href: localizations/regulatory-updates.md
             - name: Australië
@@ -1710,7 +1748,9 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: NF-e-parameters instellen voor een fiscale instelling
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
-                    - name: NT2020.006 – intermediair digitaal verkoopplatform voor NF-e
+                    - name: NT2020.005 - updates van indeling en validatie in het elektronische belastingdocument (NF-e)
+                      href: localizations/latam-bra-nfe-nt2020.005.md
+                    - name: NT2020.006 - intermediair digitaal verkoopplatform voor NF-e
                       href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: NT2019.001 - Belastingvoordelen en vrijstellingsregels NF-e/NFC-e
                       href: localizations/bra-use-tax-exemption-nf-e.md
@@ -2334,8 +2374,6 @@
                               href: localizations/apac-ind-gst-reference-groups.md
                         - name: Btw-transacties
                           items:
-                            - name: GST TDS bij betaling van goederen en diensten
-                              href: localizations/ind-gst-tds-payment-goods-services.md
                             - name: Inkooptransacties
                               items:
                                 - name: Inkopen bij niet-geregistreerde leveranciers
@@ -2370,6 +2408,10 @@
                                   href: localizations/apac-ind-GST-purchase-return-order.md
                                 - name: Vooruitbetalingen van leveranciers met terugboekingskosten
                                   href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                                - name: GST TDS bij betaling van goederen en diensten
+                                  href: localizations/ind-gst-tds-payment-goods-services.md
+                                - name: GST TCS bij betaling van goederen en diensten
+                                  href: localizations/ind-gst-tcs-payment.md
                             - name: Verkooptransacties
                               items:
                                 - name: Verkoop van belastbare goederen aan klanten
@@ -3132,14 +3174,16 @@
                           href: localizations/rus-post-budget-fixed-asset-acquisition.md
                         - name: Vaste activa overboeken
                           href: localizations/rus-fixed-asset-transfer.md
+                        - name: Uniforme afdrukformulieren voor vaste activa
+                          href: localizations/printing-forms-fixed-assets.md
+                        - name: Query's en rapporten
+                          href: localizations/rus-fa-inquiries-reports.md
                     - name: Geen waardevolle vaste activa en werkkleding
                       items:
                         - name: Niet-waardevolle vaste activa (Rusland)
                           href: localizations/rus-not-valuable-assets.md
                         - name: Boekhouding voor werkkleding/speciale uitrusting (Rusland)
                           href: localizations/rus-working-clothes-instruments-accounting.md
-                        - name: Uniforme afdrukformulieren voor vaste activa
-                          href: localizations/printing-forms-fixed-assets.md
                 - name: Leveranciers en klanten
                   items:
                     - name: Creditnotacorrecties (Rusland)
@@ -3330,6 +3374,8 @@
                   href: localizations/emea-che-esr-customer-payments-import.md
                 - name: Zwitserse QR-wissels
                   href: localizations/emea-che-swiss-qr-bills.md
+                - name: Btw-aangifte
+                  href: localizations/emea-che-VAT-declaration-Switzerland.md
             - name: Thailand
               items:
                 - name: Overzicht Thailand
@@ -4101,30 +4147,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: Configuraties importeren (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory services (RCS)
-                  items:
-                    - name: Globaliseringsfuncties in RCS
-                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
-                    - name: ER-configuraties downloaden naar Finance
-                      items:
-                        - name: Configuraties downloaden uit RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                        - name: Configuraties importeren uit RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
-                    - name: Algemene opslagplaats (GR)
-                      items:
-                        - name: Configuraties importeren uit GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Bijgewerkte versies van ER-configuraties importeren
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Uitgebreid filteren om configuraties te vinden in GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Configuraties uploaden naar GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                        - name: Configuraties delen in GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: Configuraties stopzetten in de algemene opslagplaats van RCS
-                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Snelstarthandleidingen
               items:
                 - name: Een ER-indeling aanpassen om een aangepast elektronisch document te genereren
@@ -4355,7 +4377,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/finance/toc.json
             - name: Entiteitsgegevens in Excel openen en bijwerken met de Excel-invoegtoepassing
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/finance/toc.json
-            - name: Ervaringen met Openen in Excel maken
+            - name: Veelgestelde vragen over ervaringen met Openen in Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/finance/toc.json
             - name: Sjablonen toevoegen aan het menu Regels openen in Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/finance/toc.json

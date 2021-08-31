@@ -2,7 +2,7 @@
 title: Startpagina van Finance
 description: Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen voor de functies voor financieel beheer in Microsoft Dynamics 365 Finance.
 author: roschlom
-ms.date: 06/20/2018
+ms.date: 08/18/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85b93f43a599e2da17d873dbe5609347d53af03cbfcaaccde7963b2f1ee97f08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779417"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394558"
 ---
 # <a name="finance-home-page"></a>Startpagina van Finance
 
@@ -35,6 +35,7 @@ Selecteer een functiegebied voor meer informatie hierover.
     :::column:::
         - [Leveranciers](accounts-payable/accounts-payable.md) 
         - [Klanten](accounts-receivable/accounts-receivable.md)
+        - [Activa leasen](asset-leasing/asset-leasing-homepage.md)
         - [Budgettering](budgeting/budgeting-overview.md) 
         - [Contanten en bankbeheer](cash-bank-management/cash-bank-management.md)
         - [Kostprijsboekhouding](cost-accounting/cost-accounting-home-page.md)
@@ -43,6 +44,7 @@ Selecteer een functiegebied voor meer informatie hierover.
         - [Onkostenbeheer](/dynamics365/project-operations/prod-exp/expense-management)
         - [Financiële rapportage](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Vaste activa](fixed-assets/fixed-assets.md)
+        - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [Grootboek en financiële rapportage](general-ledger/general-ledger.md) 
         - [Projectbeheer en boekhouding](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Openbare sector](public-sector/public-sector-functionality.md) 
@@ -57,9 +59,6 @@ Selecteer een functiegebied voor meer informatie hierover.
 - [Microsoft Dynamics 365-blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
 - [Financials-blog](https://community.dynamics.com/365/financeandoperations/b/financials) 
 - [Microsoft Dynamics Operations-blog van de partnercommunity](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
-
-### <a name="task-guides"></a>Taakbegeleiders
-Extra informatie is beschikbaar als taakbegeleiders binnen Finance and Operations. Klik op elke pagina op de knop Help als u een taakbegeleider wilt openen.
 
 ### <a name="videos"></a>Video's
 

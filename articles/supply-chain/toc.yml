@@ -220,8 +220,28 @@
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
                     - name: ER-configuraties maken in Regulatory Configuration Service en deze uploaden naar de algemene opslagplaats
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory Configuration Service – Afschaffing van Lifecycle Services-opslag
+                    - name: Regulatory Configuration Service - Afschaffing van Lifecycle Services-opslag
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: ER-configuraties downloaden naar Supply Chain Management
+                      items:
+                        - name: Configuraties downloaden uit RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Configuraties importeren uit RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Algemene opslagplaats (GR)
+                      items:
+                        - name: Configuraties importeren uit GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Bijgewerkte versies van ER-configuraties importeren
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Uitgebreid filteren om configuraties te vinden in GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Configuraties uploaden naar GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
+                        - name: Configuraties delen in GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Configuraties stopzetten in de algemene opslagplaats van RCS
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Elektronische facturering
                   items:
                     - name: Overzicht van Elektronische facturering
@@ -1237,30 +1257,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configuraties importeren (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory services (RCS)
-                  items:
-                    - name: Globaliseringsfuncties in RCS
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: ER-configuraties downloaden naar Supply Chain Management
-                      items:
-                        - name: Configuraties downloaden uit RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Configuraties importeren uit RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Algemene opslagplaats (GR)
-                      items:
-                        - name: Configuraties importeren uit GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Bijgewerkte versies van ER-configuraties importeren
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Uitgebreid filteren om configuraties te vinden in GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Configuraties uploaden naar GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
-                        - name: Configuraties delen in GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Configuraties stopzetten in de algemene opslagplaats van RCS
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
             - name: Snelstarthandleidingen
               items:
                 - name: Een ER-indeling aanpassen om een aangepast elektronisch document te genereren
@@ -1574,7 +1570,19 @@
             - name: Voorraadtransacties archiveren
               href: inventory/archive-inventory-transactions.md
             - name: Invoegtoepassing voorraadzichtbaarheid
-              href: inventory/inventory-visibility.md
+              items:
+                - name: Overzicht van invoegtoepassing voorraadzichtbaarheid
+                  href: inventory/inventory-visibility.md
+                - name: Voorraadzichtbaarheid instellen
+                  href: inventory/inventory-visibility-setup.md
+                - name: Voorraadzichtbaarheid configureren
+                  href: inventory/inventory-visibility-configuration.md
+                - name: Reserveringen voor voorraadzichtbaarheid
+                  href: inventory/inventory-visibility-reservations.md
+                - name: Power-app voor voorraadzichtbaarheid
+                  href: inventory/inventory-visibility-power-platform.md
+                - name: Openbare API's voor voorraadzichtbaarheid
+                  href: inventory/inventory-visibility-api.md
         - name: IoT-intelligentie
           items:
             - name: Startpagina van IoT-intelligentie
@@ -1607,6 +1615,8 @@
                   href: master-planning/planning-optimization/release-process.md
                 - name: Analyse aanpassen aan Planningsoptimalisatie
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Verschillen tussen ingebouwde hoofdplanning en Planningsoptimalisatie
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: Parameters die niet worden gebruikt door Planningsoptimalisatie
                   href: master-planning/planning-optimization/not-used-parameters.md
                 - name: Filters op een plan toepassen
@@ -1795,7 +1805,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
             - name: Entiteitsgegevens in Excel openen en bijwerken met de Excel-invoegtoepassing
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Ervaringen met Openen in Excel maken
+            - name: Veelgestelde vragen over ervaringen met Openen in Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
             - name: Sjablonen toevoegen aan het menu Regels openen in Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
@@ -1971,12 +1981,10 @@
                   href: procurement/purchase-requisitions-workflow.md
             - name: Offerteaanvragen
               items:
-                - name: Overzicht van offerteaanvragen
+                - name: Overzicht van Offerteaanvragen
                   href: procurement/request-quotations.md
                 - name: Een offerteaanvraag maken
                   href: procurement/tasks/create-request-quotation.md
-                - name: Verzegelde biedingen voor offerteaanvragen
-                  href: procurement/sealed-bidding.md
                 - name: Een bestelopdracht maken die een offerteaanvraag gebruikt
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Een scoringsmethode maken voor offerteaanvragen
@@ -3301,6 +3309,8 @@
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: De app voor magazijnbeheer installeren en verbinden
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: Ondersteuning mobiele streepjescodelezer
+                      href: warehousing/mobile-barcode-support.md
                     - name: Streepjescodes scannen met een camera in de mobiele app Warehouse Management
                       href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Problemen oplossen met de verbinding met de mobiele app Warehouse Management
@@ -3311,6 +3321,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Mobiele apparaten instellen voor magazijnwerk
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Staptitels en instructies aanpassen voor de mobiele app Warehouse Management
+                      href: warehousing/mobile-app-titles-instructions.md
                     - name: Nummerplaat ontvangen via de mobiele app Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder
@@ -3331,7 +3343,7 @@
                   href: warehousing/mobile-device-user-settings.md
                 - name: Verwerking van gebeurtenissen in de app voor magazijnbeheer
                   href: warehousing/warehouse-app-events.md
-                - name: De app voor magazijnbeheer aanpassen
+                - name: Mobiele processen voor magazijnen uitbreiden
                   items:
                     - name: Raamwerk voor verwerkingsinstructies
                       href: warehousing/process-guide-framework.md
@@ -3403,8 +3415,8 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Indeling van documentroutering voor nummerplaatlabels
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Ondersteuning mobiele streepjescodelezer
-                      href: warehousing/mobile-barcode-support.md
+                    - name: GS1-streepjescodes en QR-codes
+                      href: warehousing/gs1-barcodes.md
                     - name: Magazijn voor overboekingsorders instellen
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Problemen met magazijnconfiguratie oplossen

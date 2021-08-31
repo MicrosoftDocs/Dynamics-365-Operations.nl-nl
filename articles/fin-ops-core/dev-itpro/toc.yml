@@ -332,11 +332,9 @@
                       href: database/api/v1/reference-create-export.md
                     - name: Status van bewerkingsactiviteit ophalen
                       href: database/api/v1/reference-get-status.md
-                    - name: Omgevingen starten en stoppen
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: Demogegevens
           items:
-            - name: Overzicht van demogegevens
+            - name: Overzicht van Demogegevens
               href: ../fin-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
             - name: Demogegevens genereren met pakketten
               href: data-entities/generate-demo-data-packages.md
@@ -368,8 +366,10 @@
                       href: deployment/plannedmaintenance-selfservice.md
                     - name: Bedrijfscontinuïteit en herstel na noodgeval
                       href: sysadmin/business-continuity-disaster-recovery.md
-                - name: Onboarding Azure Resource Manager voltooien
+                - name: Het proces Onboarding Azure Resource Manager voltooien
                   href: deployment/arm-onboarding.md
+                - name: Het proces Onboarding Azure Resource Manager voltooien voor LCS-projecten van de Amerikaanse overheid
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute en Finance and Operations
                   href: deployment/expressroute.md
                 - name: Finance and Operations-architectuur
@@ -944,6 +944,16 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS voor partners
                   href: lifecycle-services/getting-started-lcs.md
+                - name: RESTful API's
+                  items:
+                    - name: Omgevingen starten en stoppen
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: Metagegevens voor de omgeving ophalen
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: Historie van omgeving ophalen
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: Zipbestand met RSAT-omgevingscertificaat ophalen
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: Nieuwe of gewijzigde functies in Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
             - name: Gebruikershandleiding Lifecycle Services
@@ -1138,22 +1148,24 @@
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: Problemen oplossen
                       items:
-                        - name: Configuratie van twee keer wegschrijven in Finance and Operations-apps en Dataverse verifiëren
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Algemene probleemoplossing
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: Problemen tijdens de initiële instelling oplossen
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: Problemen tijdens de initiële synchronisatie oplossen
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
-                        - name: Problemen met twee keer wegschrijven in Finance and Operations-apps oplossen
-                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
                         - name: Problemen met live synchronisatie oplossen
                           href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Problemen met twee keer wegschrijven in Finance and Operations-apps oplossen
+                          href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
+                        - name: Problemen met partij en globaal adresboek oplossen
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: Problemen met betrekking tot inzicht in de oplossing oplossen
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: Problemen met upgrades van Finance and Operations-apps oplossen
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Algemene probleemoplossing
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Configuratie van twee keer wegschrijven in Finance and Operations-apps en Dataverse verifiëren
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                 - name: Veelgestelde vragen over Twee keer wegschrijven
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Virtuele entiteiten
