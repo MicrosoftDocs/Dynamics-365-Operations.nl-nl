@@ -2,7 +2,7 @@
 title: Geschenkbonmodule
 description: In dit onderwerp worden geschenkbonmodules voor functies beschreven en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/29/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7fc35c67a2d9b641f03f11ed5d06913e10d8e25b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5a4aaf8e072f6547fe1dcf6fa156d2e144fd03ed806a2dc809a2cedb991461f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347489"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728334"
 ---
 # <a name="gift-card-module"></a>Geschenkbonmodule
 
@@ -48,11 +48,17 @@ De volgende afbeelding toont een voorbeeld van een geschenkbonmodule op een beta
 
 - **Extra velden weergeven**: met deze eigenschap wordt gedefinieerd welke velden voor geschenkbonnen moeten worden weergegeven naast het nummer van de geschenkbon, dat altijd standaard wordt weergegeven. Sommige geschenkbonnen ondersteunen bijvoorbeeld het weergeven van een persoonlijk identificatienummer (PIN) en andere bieden ondersteuning voor het weergeven van een pincode en een vervaldatum. Het kan ook zijn dat deze eigenschap is ingesteld op "Geen", zodat alleen het nummer van de geschenkbon en geen extra velden worden weergegeven.
 
-Ondersteunde waarden:
--   Pincode
--   Vervaldatum
--   PIN en vervaldatum 
--   None
+    De volgende waarden worden ondersteund:
+
+    - Pincode
+    - Verloopdatum
+    - PIN en vervaldatum 
+    - None
+
+- **Inschakelen voor gastgebruikers:** wanneer deze eigenschap is ingeschakeld, kunnen gastgebruikers saldi van geschenkbonnen inwisselen of controleren. Voor deze eigenschap moet in Commerce Headquarters anonieme (gast)toegang tot geschenkbonnen worden ingeschakeld. Zie [Geschenkbonbetalingen voor gastbetalingen inschakelen](#enable-gift-card-payments-for-guest-checkout) voor meer informatie.
+
+> [!IMPORTANT]
+> De eigenschap **Inschakelen voor gastgebruikers** is beschikbaar vanaf de release van Commerce versie 10.0.21. U moet pakketversie 9.31 van de modulebibliotheek van Commerce installeren.
 
 ## <a name="site-settings-for-gift-card-modules"></a>Site-instellingen voor geschenkbonmodules
 

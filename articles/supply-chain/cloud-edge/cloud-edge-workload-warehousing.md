@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 725b6dea98805baaf3f4d60b3922543067a205bc7196a05f33af21a6cd680a37
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345495"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740690"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
 
@@ -142,7 +142,7 @@ De volgende werkordertypen worden momenteel ondersteund voor WES-workloads op sc
 
 - Verkooporders
 - Overboekingsuitgifte
-- Aanvulling
+- Aanvulling (exclusief grondstoffen voor productie)
 - Voorraadmutatie
 - Cyclustelling
 - Inkooporders (gekoppeld aan magazijnorders)
@@ -298,6 +298,7 @@ In de volgende tabel wordt een overzicht gegeven van productiescenario's voor ma
 | Gereedmelden en eindproducten wegzetten | Ja | Ja |
 | Coproducten en bijproducten wegzetten | Ja | Ja |
 | <p>Alle andere magazijnbeheerprocessen die betrekking hebben op productie, zoals.</p><li>Vrijgeven aan magazijn</li><li>Productie-waves verwerken</li><li>Orderverzameling van grondstoffen</li><li>Kanban wegzetten</li><li>Kanbanorderverzameling</li><li>Productieorder beginnen</li><li>Productie-uitval</li><li>Laatste pallet van productie</li><li>Materiaalverbruik registreren</li><li>Lege Kanban</li></ul> | Ja | No |
+| Aanvulling van grondstoffen | No | No |
 
 ## <a name="maintaining-scale-units-for-wes"></a>Schaaleenheden voor WES onderhouden
 

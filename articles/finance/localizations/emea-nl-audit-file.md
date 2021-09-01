@@ -13,12 +13,12 @@ ms.search.region: Netherlands
 ms.author: elgolu
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 32aa934e8ed997795081b6addba74a275e44e11c
-ms.sourcegitcommit: 66dd0268aea4e1353f7efd74e226de24fa56f56c
+ms.openlocfilehash: 3eb834350545846bd411a46a1cacdecc78c80c2b1d774d5914e7499c99a294be
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "5612917"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766270"
 ---
 # <a name="audit-file-xml-auditfile-financieel-xaf"></a>Auditfile (XML Auditfile Financieel, XAF)
 

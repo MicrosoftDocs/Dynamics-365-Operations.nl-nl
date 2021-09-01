@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4162ae04c58a88c7c3aac56297a6c12db98b15c2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8c68b8ed1703f2cd49d47fad73485e9e4093aa82b902a484fb79bad4dd2dcbfb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019221"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773556"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management versie 10.0.18 (mei 2021)
 
@@ -37,9 +37,11 @@ Deze versie bevat de volgende functies. Volg de koppelingen naar het [releaseepl
 
 - Automatische vrijgave van inkooporders (verbeteringen in [Magazijnuitvoering en met schaaleenheden in de cloud](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Zie [Werkbelasting voor magazijnbeheer voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-warehousing.md) voor meer informatie.
 
-- [Verbeteringen in de voorraadprestaties op ondernemingsschaal en archivering](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Zie [Voorraadtransacties archiveren](../inventory/archive-inventory-transactions.md) voor meer informatie
+- [Certificeringen via de interface voor leverancierssamenwerking maken en weergeven](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/create-view-certifications-vendor-collaboration-interface)<br> - Zie [Leverancierscertificaten onderhouden](../../finance/public-sector/manage-vendor-certification.md) voor meer informatie.
 
-- [Kortingbeheer](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Zie [Overzicht van module Kortingsbeheer](../rebate-management/rebate-management-overview.md) voor meer informatie
+- [Verbeteringen in de voorraadprestaties op ondernemingsschaal en archivering](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Zie [Voorraadtransacties archiveren](../inventory/archive-inventory-transactions.md) voor meer informatie.
+
+- [Kortingsbeheer](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Zie [Overzicht van module Kortingsbeheer](../rebate-management/rebate-management-overview.md) voor meer informatie.
 
 - [Instellingsbeleid van de export van de verkoopgegevensentiteit](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
 

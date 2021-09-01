@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 577d48e207c8ce5911d104e657101a8557100064
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 136e528093e6e73ffe090cea0c02a4cdbf787c5efc3d9c0664869c995a682daa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339989"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720247"
 ---
 # <a name="rebate-management-module-overview"></a>Overzicht module Kortingsbeheer
 
@@ -91,10 +91,9 @@ Gebruikers hoeven niet langer deals of voorzieningen in twee stappen te verwerke
 
 Wanneer kortingen worden berekend, worden transacties gemaakt die kunnen worden gecontroleerd voordat de boeking plaatsvindt. Kortingsbeheertransacties worden met een afzonderlijk proces geboekt. Tijdens het boeken naar voorgestelde transacties kan vervolgens een journaal, creditnota of debettransactie worden gemaakt. Rapportageoverzichten en transactielijsten kunnen worden verkregen om conformiteit, effectiviteit en transparantie te garanderen.
 
-
 ## <a name="guaranteed-royalty-payments"></a>Gegarandeerde royaltybetalingen
 
-In Kortingsbeheer kunnen bij het automatisch genereren van betalingen de royalty's snel en eenvoudig worden verwerkt, zelfs wanneer er minimale kortingen van toepassing zijn. 
+In Kortingsbeheer kunnen bij het automatisch genereren van betalingen de royalty's snel en eenvoudig worden verwerkt, zelfs wanneer er minimale kortingen van toepassing zijn.
 
 ## <a name="maximizing-spend-versus-rebates"></a>Uitgaven versus kortingen maximaliseren
 
