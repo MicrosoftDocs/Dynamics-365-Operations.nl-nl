@@ -13,12 +13,12 @@ ms.search.region: Denmark, Germany, France, Ireland, Netherlands, United Kingdom
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 601460b2fcf49536dd8f068faadd2cd3ae9cd5f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b0aa893c7c3435ac08e66888e2bab92d2eb24de72ab43a5964d3a575f53ecc7e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839880"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712147"
 ---
 # <a name="corrective-invoicing"></a>Correctieve facturering
 

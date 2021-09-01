@@ -3,7 +3,6 @@ title: Lijst met ER-functies in de containercategorie
 description: Dit onderwerp biedt informatie over de containerfuncties die worden ondersteund in ER (Elektronische rapportage).
 author: NickSelin
 ms.date: 12/14/2020
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 95f207538ea4f0f7df775bf28d0dcf6529d1a91c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 522fc6b8ad414745c3949268d9690aa2d258b92971e7d7b4f82428398bfec170
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753235"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760093"
 ---
 # <a name="list-of-er-functions-in-the-container-category"></a>Lijst met ER-functies in de containercategorie
 
 [!include [banner](../includes/banner.md)]
 
-[Electronic reporting (ER)](general-electronic-reporting.md) container [functies](er-formula-language.md#functions) kunnen worden gebruikt om bewerkingen uit te voeren waarbij gegevensbronnen van het gegevenstype *Container* betrokken zijn. Deze bewerkingen vinden plaats wanneer de verwerkingsgegevens een verzameling binaire gegevens in BLOB-indeling (binary large object) vertegenwoordigen. In dit onderwerp vindt u een overzicht van deze functies.
+[Electronic reporting (ER)](general-electronic-reporting.md) container [functies](er-formula-language.md#Functions) kunnen worden gebruikt om bewerkingen uit te voeren waarbij gegevensbronnen van het gegevenstype *Container* betrokken zijn. Deze bewerkingen vinden plaats wanneer de verwerkingsgegevens een verzameling binaire gegevens in BLOB-indeling (binary large object) vertegenwoordigen. In dit onderwerp vindt u een overzicht van deze functies.
 
 ## <a name="list-of-supported-functions"></a>Lijst met ondersteunde functies
 

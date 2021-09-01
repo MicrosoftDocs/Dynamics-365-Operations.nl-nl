@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: e7925206f3c060c6332de9d4972c8a7fb0066be2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d0e6cce8f7a90cd1624e64023a1b51fd02d12152f874e13ce2e5d22af16fe173
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023138"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782838"
 ---
 # <a name="calculate-tds-invoices-using-purchase-order-form-and-sales-order-form"></a>TDS-facturen berekenen met inkooporderformulier en verkooporderformulier
 
@@ -48,7 +48,7 @@ Dit onderwerp geeft een overzicht van de stappen voor het berekenen van TDS (bel
 
 7. Selecteer **Bronbelasting** om de pagina **Tijdelijke bronbelastingtransacties** te openen. Bekijk de volgende velden in het bovenste deelvenster van de pagina **Tijdelijke bronbelastingtransacties**.
 
-   - **Totaalbedrag** **bronbelasting**: het totale TDS-bedrag dat voor de transactie voor de TDS-groep is berekend.
+   - **Totaalbedrag bronbelasting**: het totale TDS-bedrag dat voor de transactie voor de TDS-groep is berekend.
 
    - **Waarde**: het totale percentage dat is gebruikt om TDS voor de transactie te berekenen. Het totale percentage is gebaseerd op de formule die is gedefinieerd voor TDS-belastingcodes gekoppeld aan de TDS-groep.
 

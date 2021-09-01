@@ -13,12 +13,12 @@ ms.search.region: Netherlands
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62364a5b7fba2a9dec2e63657556d90828109c19
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 6f451fc74a4316ecb35e988fe6e6daa93ffe5396e8ac63c0134c65f561b67f83
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892337"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775862"
 ---
 # <a name="deliver-xbrl-to-the-dutch-regulatory-body-via-semansys-xbrlone"></a>XBRL aan de Nederlandse regelgevende instantie bezorgen via Semansys XBRLOne
 

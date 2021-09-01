@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354804"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780669"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Cloud- en randschaaleenheden voor werkbelasting van productie- en magazijnbeheer
 
@@ -102,7 +102,7 @@ Uw huidige productieomgeving moet zijn getagd als het type **Selfservice** in LC
 > [!IMPORTANT]
 > Omgevingstypen die worden uitgevoerd als infrastructuur als een service (IaaS) worden niet ondersteund. Deze omgevingen worden meestal getagd met het type **Beheerd door Microsoft** in LCS. Als u omgevingen van dit type hebt, moet u samen met uw Microsoft-contactpersoon de tijdlijn van uw migratie naar het **SelfService-type** afspreken.
 
-Microsoft is bezig met de overgang van alle cloudomgevingen van Supply Chain Management van een IaaS-model naar een topologie die in Service Fabric wordt gehost. Hierdoor is de schaalbaarheid beter en is servicebeheer eenvoudiger. Implementatie- en onderhoudsbewerkingen verlopen daarom sneller. Zo worden serviceonderdelen ook gemigreerd naar het concept van microservices en gaat het servicehostingmodel [over](https://docs.microsoft.com/virtualization/windowscontainers/about/containers-vs-vm) van een VM-model (virtuele machine) naar een lichtgewicht containerarchitectuur.
+Microsoft is bezig met de overgang van alle cloudomgevingen van Supply Chain Management van een IaaS-model naar een topologie die in Service Fabric wordt gehost. Hierdoor is de schaalbaarheid beter en is servicebeheer eenvoudiger. Implementatie- en onderhoudsbewerkingen verlopen daarom sneller. Zo worden serviceonderdelen ook gemigreerd naar het concept van microservices en gaat het servicehostingmodel [over](/virtualization/windowscontainers/about/containers-vs-vm) van een VM-model (virtuele machine) naar een lichtgewicht containerarchitectuur.
 
 Uiteindelijk zal dezelfde op Service Fabric gebaseerde service-infrastructuur zowel cloud- als edge-exemplaren van de service ondersteunen, ongeacht of een exemplaar een hub is in de cloud of een schaaleenheid in de cloud of op de edge.
 

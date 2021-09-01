@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 9c31b8dd7d69fee40ecefb6c6bc81c9c2dd17ef7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 81888e0703c53333ab9697c0445270f2f40c7b9ba02f3ba5fa728aef0b78b3a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359072"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730005"
 ---
 # <a name="planned-cross-docking"></a>Gepland cross-docken
 
@@ -117,6 +117,9 @@ Gepland cross-docken wordt geïmplementeerd als een boekingsmethode voor lading.
     - **Volgnummer:** *1*
     - **Leveringsbron:** *Inkooporder*
 
+> [!NOTE]
+> U kunt een query instellen om te bepalen wanneer een bepaalde sjabloon voor cross-docken wordt gebruikt. De query voor sjablonen voor cross-docken bevat alleen de tabel *InventTable* (artikelen) en de met elkaar verbonden *WHSInventTable* (WHS-artikelen)-tabel. Als u andere tabellen aan de query wilt toevoegen, kunt u deze toevoegen door alleen *bestaande joins* of *niet-bestaande joins* te gebruiken. Wanneer u filtert op de verbonden tabellen, wordt een record uit de hoofdtabel opgehaald voor elke overeenkomende record in de verbonden tabel. Als het jointype *bestaande join* is, eindigt de zoekactie nadat de eerste match is gevonden. Als u bijvoorbeeld de tabel verkooporderregel met de artikelentabel samenvoegt, valideert en retourneert het systeem artikelen waarvoor minimaal één verkooporderregel de gedefinieerde voorwaarde heeft. In wezen worden de gegevens opgehaald uit de bovenliggende tabel (artikelen) en niet uit de tabel onderliggende tabel (verkooporderregel). U kunt daarom niet zomaar filteren op brondocumenten, zoals verkooporderregels of klanten.
+
 ### <a name="create-a-work-class"></a>Een werkklasse maken
 
 1. Ga naar **Magazijnbeheer \> Instellen \> Werk \> Werkklassen**.
@@ -151,6 +154,9 @@ Gepland cross-docken wordt geïmplementeerd als een boekingsmethode voor lading.
     - **Werkklasse-id:** *CrossDock*
 
 1. Selecteer **Opslaan** en bevestig dat het selectievakje **Geldig** is ingeschakeld voor de sjabloon *51 Cross-docken*.
+1. Optioneel: selecteer **Query bewerken** als u criteria wilt instellen om te bepalen wanneer en waar de werksjabloon wordt gebruikt.
+
+    U kunt een query instellen om te bepalen wanneer een bepaalde werksjabloon wordt gebruikt. U kunt bijvoorbeeld opgeven dat een sjabloon alleen voor werk op een specifieke locatie kan worden gebruikt. Als u wilt dat de werksjabloon voor cross-docken op een specifieke locatie wordt toegepast, moet u filteren op het veld **Beginlocatie**, niet op het veld **Locatie**, omdat het maken van werk voor de inkomende processen  (inkoop, cross-docken en aanvulling) begint vanaf de plaatsregel. Wanneer het werk wordt gemaakt, wordt het veld **Locatie** op de plaats gebracht door de locatierichtlijn. De op te halen locatie wordt echter opgeslagen in het veld **Beginlocatie**.
 
 > [!NOTE]
 > De werkklasse-id's voor de werktypen *Verzamelen* en *Wegzetten* moeten hetzelfde zijn.

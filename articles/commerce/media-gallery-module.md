@@ -2,7 +2,7 @@
 title: Module Mediagalerie
 description: In dit onderwerp wordt beschreven wat mediagaleriemodules zijn en hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346711"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733192"
 ---
 # <a name="media-gallery-module"></a>Module Mediagalerie
 
@@ -56,6 +56,10 @@ In het voorbeeld in de volgende afbeelding host een koopvak op een PDP productaf
 | Afbeeldingen | Afbeeldingen die zijn geselecteerd in de mediabibliotheek van Site Builder | Naast het renderen vanuit een product kunnen afbeeldingen worden geselecteerd voor een mediagaleriemodule. Deze afbeeldingen worden toegevoegd aan alle beschikbare productafbeeldingen. Deze mogelijkheid is beschikbaar in Commerce versie 10.0.12. |
 | Oriëntatie van miniatuur | **Verticaal** of **Horizontaal** | Met deze eigenschap geeft u aan of miniatuurafbeeldingen moeten worden weergegeven in een verticale of horizontale strook. |
 | Afbeeldingen van hoofdproducten verbergen voor variant | **True** of **False** | Als deze eigenschap is ingesteld op **Waar**, worden afbeeldingen van het hoofdproduct verborgen tenzij de variant geen afbeeldingen heeft. Deze eigenschap heeft geen invloed op producten zonder varianten. |
+| Media bijwerken bij selectie van dimensie | **True** of **False** | Als deze eigenschap is ingesteld op **Waar**, worden afbeeldingen in de mediabibliotheek bijgewerkt wanneer een dimensie (zoals kleur, stijl of grootte) is geselecteerd en als er een afbeelding beschikbaar is. Met deze eigenschap wordt het browsen vereenvoudigd, omdat niet elke productvariantdimensie moet worden geselecteerd om de bijbehorende afbeelding bij te werken. Deze eigenschap is beschikbaar op het tabblad **Geavanceerd**. |
+
+> [!IMPORTANT]
+> De eigenschap **Media bijwerken voor dimensieselectie** is beschikbaar vanaf versie 10.0.21 van Commerce. U moet pakketversie 9.31 van de modulebibliotheek van Commerce installeren.
 
 In de volgende afbeelding ziet u een voorbeeld van een module mediagalerie waarin de opties voor volledig scherm en zoomen beschikbaar zijn.
 

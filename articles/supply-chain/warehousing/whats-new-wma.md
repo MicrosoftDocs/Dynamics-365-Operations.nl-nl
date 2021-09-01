@@ -2,7 +2,7 @@
 title: Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 description: In dit onderwerp worden de nieuwe en gewijzigde functies genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
 author: ivanv-microsoft
-ms.date: 06/07/2021
+ms.date: 07/30/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,18 +10,38 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 61124728942c0b8162de9f687ae752773c47d07e
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261770"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720079"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="2070"></a>2.0.7.0
+
+### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Nieuwe functies, oplossingen en verbeteringen in 2.0.7.0
+
+- Er is een sectie aan de pagina **Over** toegevoegd waarmee wordt gecontroleerd of er een nieuwe versie van de app beschikbaar is.
+- Het is eenvoudiger om tussen de pagina's te bladeren.
+- Het pictogram voor de knop oplopend/aflopend op de werklijst is gewijzigd.
+- De marges op de kaart **Details** zijn verkleind, zodat er meer informatie op de kaart past.
+- Er zijn verschillende prestatieverbeteringen toegepast om te helpen voorkomen dat de app na verloop van tijd trager wordt.
+- Als er meer besturingselementen zijn dan op het scherm passen, wat resulteert in paginering, kan met het kringveld niet langer op dezelfde manier worden geschoven als met de pagina.
+- Er is prioriteit gegeven aan de weergave van de laatst gescande waarde boven de weergave van de taaktitel, dus als ze elkaar overlappen, wordt de taaktitel afgekapt.
+- Er zijn verschillende problemen opgelost die veroorzaakten dat het systeem niet meer reageerde.
+- Tekst op verschillende plaatsen wordt in bepaalde talen niet meer afgesneden.
+- De app wordt nu standaard uitgevoerd in de modus voor volledige scherm.
+- Er is een probleem opgelost dat er zo nu en dan toe leidde dat scans op de hoofdpagina met bepaalde apparaten werden genegeerd.
+
+### <a name="known-issues-in-version-2070"></a>Bekende problemen in 2.0.7.0
+
+- Op sommige apparaten wordt het volgende foutbericht weergegeven wanneer u de app start of een taak start: 'Kan geen geschikte weergave vinden voor de opgegeven grootte.' Als u dit foutbericht op een van uw apparaten ziet, moet u de mobiele app Magazijnbeheer downgraden naar versie 2.0.6.0 maken op dat apparaat en wachten met het upgraden totdat de volgende versie van de app is vrijgegeven.
 
 ## <a name="version-2060"></a>Versie 2.0.6.0
 
@@ -88,7 +108,7 @@ Deze versie bevat de volgende nieuwe functies, correcties en verbeteringen die n
 - Bij time-out-uitzonderingen gaat u nu naar de verbindingspagina in plaats van dat een inlinefout wordt weergegeven.
 - Als er geen verzendactie beschikbaar is (zoals **OK**, **Ja**, **Accepteren**, **Gereed** of **Voltooid**), wordt de verzendknop uitgeschakeld.
 - De app-stabiliteit is verbeterd.
-- Er is een oplossing voor beveiligingsprobleem [CVE-2021-26701. ](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26701)
+- Er is een oplossing voor beveiligingsprobleem [CVE-2021-26701](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-26701).
 - **Windows-versie:** er is een probleem opgelost in Windows, waarbij menu's niet reageerden nadat het formaat van het venster was gewijzigd.
 
 ### <a name="known-issue-in-version-2040"></a>Bekend probleem in versie 2.0.4.0

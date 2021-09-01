@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b6e4194a4b3463476a32679ff11b35affc131faa
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 932b8bc2982a7c38404ff4203fce7fb65c1182d4490d2aad5a6d78fd809ec768
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270499"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736107"
 ---
 # <a name="maintain-vendor-certification"></a>Leverancierscertificaten onderhouden
 
@@ -23,13 +23,20 @@ ms.locfileid: "6270499"
 
 In dit onderwerp worden de stappen beschreven waarmee uw leveranciers hun certificaten kunnen onderhouden met behulp van het werkgebied **Leverancierssamenwerking**. Certificaten kunnen bijvoorbeeld worden toegekend voor initiatieven op gebied van vrouwelijke ondernemers of milieuvriendelijke producten. Leveranciers moeten certificeringsgegevens invoeren in het werkgebied **Leveranciergegevens**. Hier selecteren leveranciers **Meer details** en vervolgens **Certificaten**.
 
+## <a name="turn-on-the-vendor-certification-feature"></a>De functie voor leverancierscertificering inschakelen
+
+Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de pagina [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en deze zo nodig in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+
+- **Module** - *Leveranciers*
+- **Functienaam** - *Certificeringsbeheer voor leverancierssamenwerking inschakelen*
+
 ## <a name="add-a-new-certification"></a>Een nieuwe certificering toevoegen
 
 Als u een nieuw certificaat wilt toevoegen, klikt u op de knop **Toevoegen** die zich boven het raster **Certificaat** in het werkgebied **Leveranciergegevens** bevindt. Voer de volgende gegevens in:
- 
+
 - Certificaatnummer
 - Certificaattype
-- Certificaatorganisatie 
+- Certificaatorganisatie
 - Certificaatdatum
 - Aansprakelijkheidsbedrag, indien van toepassing
 - Ingangsdatum
@@ -42,9 +49,9 @@ Aan certificaten die door uw leveranciers op deze pagina worden ingevoerd, wordt
 
 Leveranciers kunnen hun certificaten zo nodig bewerken of verwijderen.
 
-## <a name="vendor-collaboration-generated-certification-records"></a>Door leverancierssamenwerking gegenereerde certificeringsrecords 
- 
+## <a name="vendor-collaboration-generated-certification-records"></a>Door leverancierssamenwerking gegenereerde certificeringsrecords
+
 Nadat certificeringsgegevens zijn toegevoegd door een leverancier, is de informatie zichtbaar op de pagina **Door leverancierssamenwerking gegenereerde certificeringen**. U opent de pagina door naar **Leveranciers > Query's > Leveranciersrapporten > Door leverancierssamenwerking gegenereerde certificeringen** te gaan. Standaard zijn alle nieuwe of gewijzigde certificeringsrecords zichtbaar. Een medewerker Leveranciers kan de wijzigingen bekijken en de informatie valideren via het bevestigingsproces voor validatie. Wanneer de informatie is bevestigd, kan de certificeringsrecord op de pagina worden geselecteerd en als beoordeeld worden gemarkeerd. Als u de record markeert als beoordeeld, wordt deze uit de standaardlijst verwijderd.
- 
-Alle certificeringswijzigingen worden weergegeven op de pagina **Door leverancierssamenwerking gegenereerde certificeringen**. Als een wijziging niet op de pagina wordt weergegeven, kunt u deze weergeven door de filters voor de leveranciersrekening en het ingangsdatumbereik aan te passen of te kiezen of u informatie wilt opnemen voor certificeringswijzigingen die zijn beoordeeld. 
+
+Alle certificeringswijzigingen worden weergegeven op de pagina **Door leverancierssamenwerking gegenereerde certificeringen**. Als een wijziging niet op de pagina wordt weergegeven, kunt u deze weergeven door de filters voor de leveranciersrekening en het ingangsdatumbereik aan te passen of te kiezen of u informatie wilt opnemen voor certificeringswijzigingen die zijn beoordeeld.
 

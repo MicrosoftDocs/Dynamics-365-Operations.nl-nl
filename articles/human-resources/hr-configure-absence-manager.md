@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8a8250b36d2774ac308637253b780592df316cd
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639601"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732340"
 ---
 # <a name="configure-the-absence-manager-role"></a>De rol van verzuimmanager configureren
 
@@ -89,16 +89,21 @@ De rol van verzuimmanager moet aan werknemers worden toegewezen om verlofaanvrag
 
 ## <a name="absence-manager-workspace"></a>Werkgebied verzuimbeheer
 
-In de werkruimte **Selfservice werknemer** worden op het tabblad **Verzuimbeheer** de verzuimgegevens weergegeven over de werknemers die aan de verzuimmanager zijn toegewezen in de verlofhiërarchie.
+In de werkruimte **Selfservice werknemer** worden op het tabblad **Verlofbeheer** de verzuimgegevens weergegeven over de werknemers die aan de verzuimmanager zijn toegewezen in de verlofhiërarchie. De verzuimmanager heeft verschillende opties tot zijn of haar beschikking: 
+ - Verlofaanvragen beoordelen.</br>
+ - Een aanvraag voor verlof indienen namens een werknemer.</br>
+ - Alle werknemers weergeven die aan hem of haar zijn toegewezen als onderdeel van de verlofhiërarchie.</br>
+ - De kalender voor verzuimbeheer weergeven.</br>
 
-Op het tabblad **Verlof en verzuim** zijn de volgende opties beschikbaar voor elke werknemer:
-
-- **Verlof**: geef saldi, goedgekeurd verlof en verlofaanvragen weer voor de geselecteerde werknemer.
-- **Verlofsaldi**: geef een lijst weer met de saldi voor de verschillende verlofplannen voor de geselecteerde werknemer.
+De werkruimte **Verlofbeheer** bevat twee tabbladen:
+ - **Verlofaanvragen**: op dit tabblad worden alle verlofaanvragen weergegeven die in behandeling zijn en kunnen worden goedgekeurd door de verzuimmanager. De verzuimmanager kan meerdere records selecteren en er tegelijkertijd actie voor ondernemen. Als de verlofweergave voor meerdere bedrijven is ingeschakeld, worden in deze lijst de in behandeling zijnde verlofaanvragen weergegeven voor alle rechtspersonen tot wie ze toegang hebben. Anders worden de in behandeling zijnde verlofaanvragen voor de geselecteerde rechtspersoon vermeld. </br>
+ - **Alle werknemers**: op dit tabblad worden alle werknemers weergegeven die zijn toegewezen aan de verzuimmanager in de verlofhiërarchie. Er zijn voor elke werknemer enkele opties beschikbaar:
+    - **Verlof aanvragen** - Een nieuwe verlofaanvraag indienen voor de geselecteerde werknemer.</br>
+    - **Verlof**: geef saldi, goedgekeurd verlof en verlofaanvragen weer voor de geselecteerde werknemer.</br>
 
 ## <a name="approve-time-off-requests"></a>Verlofaanvragen goedkeuren
 
-Verzuimmanagers kunnen verlofaanvragen voor werknemers goed- of afkeuren. Ze kunnen indien nodig ook aanvragen maken namens werknemers.
+Verzuimmanagers kunnen verlofaanvragen voor werknemers goed- of afkeuren. 
 
 > [!IMPORTANT]
 > Voordat verzuimmanagers verlofaanvragen kunnen goed- of afkeuren, moet de werkstroom voor verlofaanvragen zijn geconfigureerd om werkitems voor verlofaanvragen aan hen toe te wijzen ter beoordeling.
@@ -109,15 +114,13 @@ Verzuimmanagers kunnen verlofaanvragen voor werknemers goed- of afkeuren. Ze kun
 >
 > Zie [Een werkstroom voor een verlofaanvraag maken](hr-leave-and-absence-workflow.md) voor meer informatie over het maken van de werkstroom voor verlofaanvragen.
 
-1. Selecteer in de werkruimte **Selfservice werknemer** het tabblad **Verzuimmanager**.
+1. Selecteer in de werkruimte **Selfservice werknemer** het tabblad **Verlofbeheer**.
 
-2. Selecteer de gewenste werknemer op het tabblad **Verzuimbeheer**.
+2. Selecteer op het tabblad **Verlofaanvragen** de verlofaanvragen waar u actie op wilt ondernemen. U kunt in deze lijstweergave meerdere records selecteren.
 
-3. Selecteer **Details** en vervolgens **Verlof**.
+3. Met de actieknoppen boven aan het raster kunt u een verlofaanvraag goedkeuren, weigeren of delegeren. 
 
-4. Zoek de verlofaanvraag en selecteer de optie **Goedkeuring**. U kunt vervolgens een optie selecteren om de verlofaanvraag goed te keruen of te annuleren.
-
-Met de status **Annuleren** wordt aangegeven dat de aanvraag is afgekeurd. Met de status **Voltooid** wordt aangegeven dat de aanvraag is goedgekeurd.
+De gebruiker kan ook de tegel voor **verlofaanvragen** aan de linkerkant gebruiken om naar de lijst met alle werkitems met verlofaanvragen te navigeren. 
 
 ## <a name="view-time-off-in-the-calendar"></a>Verlof op de kalender bekijken
 
@@ -126,7 +129,7 @@ Gebruikers met de rol van verzuimmanager kunnen verlofaanvragen op hun kalender 
 > [!IMPORTANT]
 > Een systeembeheerder moet de weergaveopties configureren voor de kalender van de verzuimmanager. Op de pagina **Verlof- en verzuimparameters** op het tabblad **Kalender** kunt u verjaardagen, verzuim zonder details, verlof en uitstaande verlofaanvragen verbergen of weergeven. Er is ook een optie om de kalenderweergaveoptie te filteren op werknemertype.
 
-1. Selecteer in de werkruimte **Selfservice werknemer** de optie **Verzuimbeheer** en vervolgens **Kalender verzuimmanager**.
+1. Selecteer in de werkruimte **Selfservice werknemer** de optie **Verlofbeheer** en vervolgens **Kalender verzuimmanager**.
 
 2. Voer in het veld **Datum** de gewenste datum in.
 

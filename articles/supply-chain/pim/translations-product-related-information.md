@@ -16,12 +16,12 @@ ms.search.industry: Product information
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7dc7c681b86e34f59cbbc3c6231a36fe9ca5327a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 29c191a3dcdb13ba54be3077d7e24706673bc14be659d39595e199fff0176930
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188881"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758491"
 ---
 # <a name="product-related-translations-faq"></a>Veelgestelde vragen (FAQ) over productgerelateerde vertalingen
 
@@ -111,7 +111,7 @@ Volg deze stappen om een dimensiewaardegroep te maken:
 1.  Klik op **Productgegevensbeheer** &gt; **Instellen** &gt; **Variantgroepen**.
 2.  Selecteer **Grootte** **groepen**, **Kleurgroepen** of **Stijlgroepen**.
 3.  Klik op **Nieuw**, en typ vervolgens een naam voor de groep in het veld **Grootte** **groep**, **Kleurgroep** of **Stijlgroep**. Klik op **Afmetingen**, **Kleuren** of **Stijlen** om regels voor de groepen te maken.
-4.  Klik op de pagina **Groottegroep** regels, **Kleurgroepregels** of **Stijlgroepregels** op **Nieuw** en maak de grootte, de kleuren en de stijlen voor de groepen.
+4.  Klik op de pagina **Grootte****groep** regels, **Kleur****groep****regels** of **Stijlgroepregels** op **Nieuw** en maak vervolgens de grootten, de kleuren en de stijlen voor de groepen.
 
 Om vertalingen voor waarden in een dimensiewaardegroep te beheren, volgt u deze stappen:
 1.  Volg de stappen in de vorige procedure om een dimensiewaardegroep te maken om de pagina **Groottegroepregels**, **Kleurgroepregels** of **Stijlgroepregels** te openen.

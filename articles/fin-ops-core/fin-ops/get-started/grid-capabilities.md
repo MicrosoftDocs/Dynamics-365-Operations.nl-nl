@@ -2,7 +2,7 @@
 title: Rastermogelijkheden
 description: Dit onderwerp beschrijft diverse krachtige functies van het rasterbesturingselement. U moet de nieuwe rasterfunctie inschakelen als u toegang tot deze mogelijkheden wilt hebben.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 08/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b7a1809a3012af86ad9ba39da8721c63b3c4b885
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923593"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775237"
 ---
 # <a name="grid-capabilities"></a>Rastermogelijkheden
 
@@ -158,6 +158,13 @@ Als uw organisatie op een pagina problemen ondervindt met het nieuwe raster, is 
  ```this.forceLegacyGrid();```
 
 Deze API wordt ondersteund tot de release van oktober 2021 wanneer het nieuwe rasterbesturingselement verplicht wordt. Als er problemen optreden waarvoor deze API moet worden gebruikt, meldt u deze bij Microsoft.
+
+### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Afdwingen van een pagina om het nieuwe raster te gebruiken nadat eerder het raster is uitgeschakeld
+Als u een individuele pagina hebt uitgeschreven voor gebruik van het nieuwe raster, zou u het nieuwe raster later opnieuw kunnen inschakelen nadat de onderliggende problemen zijn opgelost. Hiervoor hoeft u alleen de aanroep van `forceLegacyGrid()` te verwijderen. De wijziging wordt pas doorgevoerd wanneer een van de volgende zaken zich voordoet:
+
+- **Opnieuw implementeren omgeving**: wanneer een omgeving wordt bijgewerkt en opnieuw geïmplementeerd, wordt de tabel waarin de pagina's zijn opgeslagen die zijn uitgeschreven voor het nieuwe raster (FormControlReactGridState) automatisch leeggemaakt.
+
+- **Handmatige leegmaken van de tabel**: voor ontwikkelingsscenario's moet u SQL gebruiken om de tabel FormControlReactGridState leeg te maken en vervolgens de AOS opnieuw opstarten. Met deze combinatie van acties wordt de caching opnieuw ingesteld voor pagina's die zijn uitgeschreven voor het nieuwe raster.  
 
 ## <a name="developer-size-to-available-width-columns"></a>\[Ontwikkelaar\]: kolomformaat aangepast aan beschikbare breedte
 Als een ontwikkelaar de eigenschap **WidthMode** instelt op **SizeToAvailable** voor kolommen binnen het nieuwe raster, hebben deze kolommen in eerste instantie dezelfde breedte als ze zouden hebben als de eigenschap is ingesteld op **SizeToContent**. De kolommen worden echter uitgerekt zodat alle extra beschikbare breedte binnen het raster wordt gebruikt. Als de eigenschap is ingesteld op **SizeToAvailable** voor meerdere kolommen, delen al deze kolommen de extra beschikbare breedte binnen het raster. Als een gebruiker echter een van deze kolommen handmatig aanpast, wordt de kolom statisch. De kolom behoudt die breedte en wordt niet meer uitgerekt tot extra beschikbare rasterbreedte.  

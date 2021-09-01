@@ -12,12 +12,12 @@ ms.reviewer: kfend
 ms.search.region: Netherlands
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 73ff0d421107de1585df527a5b3afc118f37468f
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: ac53b5d74da73dfd9c656e81d1b2527cac02dd61608a61a22b8f9e880df18c79
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641172"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764218"
 ---
 # <a name="vat-declaration-for-the-netherlands"></a>Btw-aangifte voor Nederland
 

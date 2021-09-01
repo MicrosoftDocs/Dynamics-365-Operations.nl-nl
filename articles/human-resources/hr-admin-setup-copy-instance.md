@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 48fef68dc3e5935f0032ca006840202b53d577e06e5376ead0b66eca2a9c36bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360144"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740834"
 ---
 # <a name="copy-an-instance"></a>Een exemplaar kopiëren
 
@@ -52,9 +52,9 @@ De volgende gebeurtenissen treden op wanneer u een Human Resources-database kopi
 
 - Documenten in de Microsoft Azure Blob-opslag worden niet van de ene omgeving naar de andere gekopieerd. Het resultaat is dat documenten en sjablonen die zijn gekoppeld, niet worden gekopieerd en in de bronomgeving blijven staan.
 
-- Alle gebruikers behalve de gebruiker met beheerdersrechten en andere interne servicegebruikersaccounts worden uitgeschakeld. De gebruiker met beheerdersrechten kan de gegevens verwijderen of onleesbaar maken voordat andere gebruikers weer toegang hebben tot het systeem.
+- Alle gebruikers, behalve gebruikers met de beveiligingsrol 'Systeembeheerder' en andere interne servicegebruikersaccounts, zijn niet beschikbaar. De gebruiker met beheerdersrechten kan de gegevens verwijderen of onleesbaar maken voordat andere gebruikers weer toegang hebben tot het systeem.
 
-- De gebruiker met beheerdersrechten moet de vereiste configuratiewijzigingen aanbrengen, zoals het opnieuw verbinden van integratie-eindpunten met specifieke services of URL's.
+- Elke gebruiker met de beveiligingsrol 'Systeembeheerder' moet de vereiste configuratiewijzigingen doorvoeren, zoals het opnieuw verbinden van integratie-eindpunten met specifieke services of URL's.
 
 ## <a name="copy-the-human-resources-database"></a>De Human Resources-database kopiëren
 
@@ -75,7 +75,7 @@ Als u deze taak wilt voltooien, kopieert u eerst een exemplaar en meldt u zich v
 
 5. Selecteer **Power Platform** en meld u aan bij het Microsoft Power Platform-beheercentrum.
 
-   ![[Power Platform selecteren.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
+   ![[Selecteer Power Platform.](./media/copy-instance-select-power-platform.png)](./media/copy-instance-select-power-platform.png)
 
 6. Selecteer de Power Apps-omgeving die u wilt kopiëren en selecteer vervolgens **Kopiëren**.
 
@@ -111,7 +111,7 @@ Sommige van deze elementen worden niet gekopieerd omdat ze specifiek zijn voor d
 
 Bovendien worden de volgende statuswaarden gewijzigd wanneer u een exemplaar kopieert:
 
-- Alle gebruikers behalve de beheerder worden ingesteld op **Uitgeschakeld**.
+- Alle gebruikers, behalve gebruikers met de beveiligingsrol 'Systeembeheerder', worden ingesteld op **Uitgeschakeld**.
 
 - Alle batchtaken, met uitzondering van bepaalde systeemtaken, worden ingesteld op **Inhouden**.
 

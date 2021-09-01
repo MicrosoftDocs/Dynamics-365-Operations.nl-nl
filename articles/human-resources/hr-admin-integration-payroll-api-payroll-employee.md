@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
-ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
+ms.openlocfilehash: 20e74e97f98d0bc0fd454d54cbf969d4f1b46c7c98b2949b0ed8cfe671312dd2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "6538849"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768186"
 ---
 # <a name="payroll-employee"></a>Werknemer in salarisadministratie
 
@@ -33,27 +33,25 @@ Fysieke naam: mshr_payrollemployeeentity.
 Deze entiteit geeft informatie over de werknemer. U moet de [parameters voor salarisintegratie instellen](hr-admin-integration-payroll-api-parameters.md) voordat u deze entiteit kunt gebruiken.
 
 >[!IMPORTANT] 
->De velden **FirstName**, **MiddleName**, **LastName**, **NameValidFrom** en **NameValidTo** zijn niet langer beschikbaar voor deze entiteit. Hierdoor wordt ervoor gezorgd dat de gegevensbron slechts één datum kan worden back-up van deze entiteit, wat **HcmEmployment** is met de velden **EmploymentStartDate** en **EmploymentEndDate**.
-
->Deze velden zijn beschikbaar in de **DirPersonNameHistoricalEntity**, die is vrijgegeven in Platform update 43. Er is een OData-relatie van **PayrollEmployeeEntity** met **DirPersonNameHistoricalEntity** in het veld **Persoon**. U kunt de entiteit **DirPersonNameHistoricalEntity** ook rechtstreeks opvragen via OData onder de openbare naam, **PersonHistoricalNames**.
-
+>De velden **Voornaam**, **TweedeNaam**, **Achternaam**, **NaamGeldigVanaf** en **NaamGeldigTot** zijn niet langer beschikbaar voor deze entiteit. Hierdoor wordt gewaarborgd dat er slechts één ingangsdatum voor de gegevensbron is die een back-up maakt van deze entiteit.
+>Deze velden zijn beschikbaar in de **DirPersonNameHistoricalEntity**, die is vrijgegeven in Platform update 43. Er bestaat een OData-relatie van **PayrollEmployeeEntity** naar **DirPersonNameHistoricalEntity** in het veld **Persoon**. 
 
 ## <a name="properties"></a>Eigenschappen
 
 | Eigenschap<br>**Fysieke naam**<br>**_Type_** | Gebruiken | Beschrijving |
 | --- | --- | --- |
-| **Personeelsnummer**<br>mshr_personnelnumber<br>*Tekenreeks* | Alleen-lezen<br>Vereist | Het unieke personeelsnummer van de werknemer. |
-| **Primair veld**<br>mshr_primaryfield<br>*Tekenreeks* | Vereist<br>Door systeem gegenereerd |  |
-| **Rechtspersoon-ID**<br>mshr_legalentityID<br>*Tekenreeks* | Alleen-lezen<br>Vereist | Geeft de rechtspersoon (bedrijf) op. |
-| **Geslacht**<br>mshr_gender<br>[mshr_hcmpersongender optieset](hr-admin-integration-payroll-api-gender.md) | Alleen-lezen<br>Vereist | Gender van de werknemer. |
+| **Personeelsnummer**<br>mshr_personnelnumber<br>*Tekenreeks* | Alleen-lezen | Het unieke personeelsnummer van de werknemer. |
+| **Primair veld**<br>mshr_primaryfield<br>*Tekenreeks* | Alleen-lezen<br>Door systeem gegenereerd |  |
+| **Rechtspersoon-ID**<br>mshr_legalentityID<br>*Tekenreeks* | Alleen-lezen | Geeft de rechtspersoon (bedrijf) op. |
+| **Geslacht**<br>mshr_gender<br>[mshr_hcmpersongender optieset](hr-admin-integration-payroll-api-gender.md) | Alleen-lezen | Gender van de werknemer. |
 | **Entiteit-id werknemer in salarisadministratie**<br>mshr_payrollemployeeentityid<br>*GUID* | Vereist<br>Door systeem gegenereerd | Een door het systeem gegenereerde GUID-waarde als unieke id van de werknemer. |
-| **Begindatum dienstverband**<br>mshr_employmentstartdate<br>*Verschil datum en tijd* | Alleen-lezen<br>Vereist | De begindatum van het dienstverband van de werknemer. |
-| **Identificatietype-id**<br>mshr_identificationtypeid<br>*Tekenreeks* |Alleen-lezen<br>Vereist | Het identificatietype dat voor de werknemer is gedefinieerd. |
-| **Einddatum dienstverband**<br>mshr_employmentenddate<br>*Verschil datum en tijd* | Alleen-lezen<br>Vereist |De einddatum van het dienstverband van de werknemer.  |
-| **Id gegevensgebied**<br>mshr_dataareaid_id<br>*GUID* | Vereist <br>Door systeem gegenereerd | Door het systeem gegenereerde GUID-waarde die de rechtspersoon (het bedrijf) identificeert. |
-| **Geldig tot**<br>mshr_namevalidto<br>*Verschil datum en tijd* |  Alleen-lezen<br>Vereist | De datum tot wanneer de gegevens van de werknemer geldig zijn. |
-| **Geboortedatum**<br>mshr_birthdate<br>*Verschil datum en tijd* | Alleen-lezen <br>Vereist | De geboortedatum van de werknemer. |
-| **Identificatienummer tot**<br>mshr_identificationnumber<br>*Tekenreeks* | Alleen-lezen <br>Vereist |Het identificatienummer dat voor de werknemer is gedefinieerd.  |
+| **Begindatum dienstverband**<br>mshr_employmentstartdate<br>*Verschil datum en tijd* | Alleen-lezen | De begindatum van het dienstverband van de werknemer. |
+| **Identificatietype-id**<br>mshr_identificationtypeid<br>*Tekenreeks* |Alleen-lezen | Het identificatietype dat voor de werknemer is gedefinieerd. |
+| **Einddatum dienstverband**<br>mshr_employmentenddate<br>*Verschil datum en tijd* | Alleen-lezen |De einddatum van het dienstverband van de werknemer.  |
+| **Id gegevensgebied**<br>mshr_dataareaid_id<br>*GUID* | Alleen-lezen <br>Door systeem gegenereerd | Door het systeem gegenereerde GUID-waarde die de rechtspersoon (het bedrijf) identificeert. |
+| **Geldig tot**<br>mshr_namevalidto<br>*Verschil datum en tijd* |  Alleen-lezen | De datum tot wanneer de gegevens van de werknemer geldig zijn. |
+| **Geboortedatum**<br>mshr_birthdate<br>*Verschil datum en tijd* | Alleen-lezen | De geboortedatum van de werknemer. |
+| **Identificatienummer tot**<br>mshr_identificationnumber<br>*Tekenreeks* | Alleen-lezen |Het identificatienummer dat voor de werknemer is gedefinieerd.  |
 
 ## <a name="example-query-for-payroll-employee"></a>Voorbeeldquery voor werknemer in salarisadministratie
 

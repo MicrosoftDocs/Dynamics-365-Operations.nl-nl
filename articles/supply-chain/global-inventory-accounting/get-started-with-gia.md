@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 07d3222680d9d9bff639f34eca5fea64d753ffd1
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336974"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773288"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Aan de slag met Algemene voorraadboekhouding (Global Inventory Accounting)
 
@@ -42,7 +42,7 @@ Algemene voorraadboekhouding ondersteunt momenteel niet alle kostenbeheerfunctie
 > [!IMPORTANT]
 > Als u Algemene voorraadboekhouding wilt gebruiken, moet u een omgeving met hoge beschikbaarheid voor LCS hebben (niet in een OneBox-omgeving). Daarnaast moet u Supply Chain Management versie 10.0.19 of hoger uitvoeren.
 
-Als u zich wilt aanmelden voor de preview van Algemene voorraadboekhouding, verzendt u uw LCS-omgevings-id per e-mail naar het [team voor Algemene voorraadboekhouding](mailto:GlobalInventoryAccounting@service.microsoft.com). Nadat u bent goedgekeurd voor het programma, verzendt het team u een opvolgings-e-mail met de bètasleutel voor Algemene voorraadboekhouding en uw service-eindpunten. Nadat u de bètasleutel hebt ontvangen, kunt u [de invoegtoepassing installeren](#install).
+Als u zich wilt aanmelden voor de preview van Algemene voorraadboekhouding, verzendt u uw LCS-omgevings-id per e-mail naar het [team voor Algemene voorraadboekhouding](mailto:GlobalInvAccount@microsoft.com). Nadat u bent goedgekeurd voor het programma, verzendt het team u een opvolgings-e-mail met de bètasleutel voor Algemene voorraadboekhouding en uw service-eindpunten. Nadat u de bètasleutel hebt ontvangen, kunt u [de invoegtoepassing installeren](#install).
 
 ## <a name="licensing"></a>Licenties
 

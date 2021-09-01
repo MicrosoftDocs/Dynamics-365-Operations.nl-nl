@@ -2,7 +2,7 @@
 title: ER-bestemmingstype voor e-mail
 description: In dit onderwerp wordt uitgelegd hoe u een e-mailbestemming kunt configureren voor elke MAP- of BESTAND-component van een ER-indeling (Electronic Reporting).
 author: NickSelin
-ms.date: 12/03/2020
+ms.date: 07/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347991"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769314"
 ---
 # <a name="email-er-destination-type"></a>ER-bestemmingstype voor e-mail
 
@@ -42,23 +42,43 @@ U kunt ook verschillende onderdelen **Map** of **Bestand** samen [groeperen](#gr
 
 Er kunnen meerdere groepen onderdelen worden geconfigureerd voor een enkele ER-indelingsconfiguratie. Op deze manier kunt u een e-mailbestemming configureren voor elke groep onderdelen en een e-mailbestemming voor elk onderdeel.
 
-## <a name="configure-an-email-destination"></a>Een e-mailbestemming configureren
+## <a name="enable-an-email-destination"></a>Een e-mailbestemming inschakelen
 
-Als u een uitvoerbestand of meerdere uitvoerbestanden per e-mail wilt verzenden, selecteert u op de Pagina **Bestemming elektronische rapportage** op het sneltabblad **Bestandsbestemming** een onderdeel of groep onderdelen in het raster en selecteert u vervolgens **Instellingen**. Stel in het dialoogvenster **Bestemmingsinstellingen** dat verschijnt op het tabblad **E-mail** de optie **Ingeschakeld** in op **Ja**. U kunt vervolgens e-mailontvangers opgeven en het onderwerp en de tekst van het e-mailbericht bewerken. U kunt constante tekst voor het onderwerp en de hoofdtekst van het e-mailbericht instellen of u kunt ER-[formules](er-formula-language.md) gebruiken om e-mailteksten dynamisch te maken.
+Volg deze stappen om een of meer uitvoerbestanden per e-mail te verzenden.
 
-U kunt e-mailadressen voor ER op twee manieren configureren. U kunt de configuratie voltooien op dezelfde manier als de afdrukbeheerfunctie of u kunt een e-mailadres oplossen door via een formule direct naar de nieuwe ER-configuratie te verwijzen.
+1. Selecteer op de pagina **Bestemming elektronische rapportage** op het sneltabblad **Bestandsbestemming** een onderdeel of groep van onderdelen in het raster.
+2. Selecteer **Instellingen** en daarna in het dialoogvenster **Bestemmingsinstellingen** op het tabblad **E-mail** de optie **Ingeschakeld** in op **Ja**.
 
 [![De optie Ingeschakeld instellen op Ja voor een e-mailbestemming.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
+## <a name="configure-an-email-destination"></a>Een e-mailbestemming configureren
+
+U kunt de e-mailverzender en -ontvangers opgeven en het onderwerp en de tekst van het e-mailbericht bewerken. U kunt constante teksten voor het onderwerp en de tekst van het e-mailbericht instellen of u kunt ER-[formules](er-formula-language.md) gebruiken om dynamisch e-mailteksten aan te maken.
+
+Standaard wordt een e-mailbericht verzonden namens de huidige gebruiker. Als u een andere afzender voor het e-mailbericht wilt opgeven, moet u het veld **Van** configureren.
+
+> [!NOTE]
+> Wanneer u een e-mailbestemming configureert, is het veld **Van** alleen zichtbaar voor gebruikers met de beveiligingsmachtiging `ERFormatDestinationSenderEmailConfigure` **E-mailadres van afzender configureren voor bestemmingen voor ER-indelingen**.
+>
+> Wanneer een e-mailbestemming wordt aangeboden voor aanpassen bij [runtime](electronic-reporting-destinations.md#security-considerations) is het veld **Van** alleen zichtbaar voor gebruikers met de `ERFormatDestinationSenderEmailMaintain`-beveiligingsmachtiging **E-mailadres afzender onderhouden voor bestemming voor ER-indelingen**.
+>
+> Wanneer het veld **Van** is geconfigureerd voor het gebruik van een ander e-mailadres dan het adres van de huidige gebruiker, moet de machtiging voor **Verzenden als** of **Verzenden namens** van tevoren correct zijn [ingesteld](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide). Anders doet zich de volgende uitzondering voor bij runtime: 'Kan e-mail niet verzenden als \<from email account\> vanaf het account \<current user account\>; controleer dan de machtigingen voor 'Verzenden als' voor \<from email account\>.
+
+U kunt het veld **Van** configureren om meerdere e-mailadressen terug te geven. In dit geval wordt het eerste adres in de lijst gebruikt als e-mailadres van de afzender.
+
+Als u e-mailontvangers wilt opgeven, moet u de (optionele) velden **Aan** en **Cc** configureren.
+
+U kunt e-mailadressen voor ER op twee manieren configureren. U kunt de configuratie voltooien op dezelfde manier als de afdrukbeheerfunctie of u kunt een e-mailadres oplossen door via een formule direct naar de ER-configuratie te verwijzen.
+
 ## <a name="email-address-types"></a>E-mailadrestypen
 
-Als u **Bewerken** selecteert naast het veld **Aan** of **CC** in het dialoogvenster **Bestemmingsinstellingen**, wordt het dialoogvenster **E-mail naar** weergegeven. Selecteer **Toevoegen** en selecteer vervolgens het type e-mailadres dat u wilt gebruiken. Er worden momenteel twee typen ondersteund: **E-mail van Afdrukbeheer** en **Configuratie-e-mail**.
+Als u **Bewerken** selecteert naast het veld **Van**, **Aan** of **Cc** in het dialoogvenster **Bestemmingsinstellingen**, wordt het dialoogvenster **E-mail van**, **E-mail naar** of **E-mail Cc** weergegeven. Daar kunt u de afzender en e-mailontvangers configureren. Selecteer **Toevoegen** en selecteer vervolgens het type e-mailadres dat u wilt gebruiken. Er worden momenteel twee typen ondersteund: **E-mail van Afdrukbeheer** en **Configuratie-e-mail**.
 
 [![Het type e-mailadres selecteren.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>E-mail van Afdrukbeheer
 
-Als u **E-mail van Afdrukbeheer** selecteert als type e-mailadres, kunt u in het dialoogvenster **E-mail naar** een vast e-mailadres invoeren door de volgende velden in te stellen:
+Als u **E-mail van Afdrukbeheer** selecteert als type e-mailadres, kunt u in het dialoogvenster **E-mail van**, **E-mail naar** of **E-mail Cc** een vast e-mailadres invoeren door de volgende velden in te stellen:
 
 - Selecteer **Geen** in het veld **E-mailbron**.
 - Voer in het veld **Extra e-mailadressen, gescheiden door ";"** de vaste e-mailadressen in.
@@ -74,6 +94,7 @@ U kunt ook e-mailadressen ophalen uit de contactgegevens van de partij waarvoor 
 - Sollicitant
 - Potentiële leverancier
 - Niet-toegestane leverancier
+- Rechtspersoon
 
 Als u bijvoorbeeld een e-mailbestemming wilt configureren voor een ER-indeling die wordt gebruikt om betalingen van leveranciers te verwerken, selecteert u de rol **Leverancier**.
 
@@ -106,7 +127,7 @@ Als u het type e-mailadres wilt opgeven dat tijdens runtime moet worden gebruikt
 
 ### <a name="configuration-email"></a>Configuratie-e-mail
 
-Selecteer **Configuratie-e-mail** als het type e-mailadres als de configuratie die u gebruikt een knooppunt heeft in de gegevensbronnen die een enkel e-mailadres of meerdere e-mailadressen gescheiden door puntkomma's (;) retourneren. U kunt [gegevensbronnen](general-electronic-reporting.md#FormatComponentOutbound) en [functies](er-formula-language.md#functions) in de formuleontwerper gebruiken om een e-mailadres met juiste indeling te krijgen of meerdere e-mailadressen met een juiste indeling die door puntkomma's worden gescheiden. Als u bijvoorbeeld de configuratie **ISO 20022 Kredietoverdracht** gebruikt, is `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email` het knooppunt dat het primaire e-mailadres van een leverancier vertegenwoordigt in de contactgegevens van de leverancier waarnaar de begeleidende brief moet worden verzonden.
+Selecteer **Configuratie-e-mail** als het type e-mailadres als de configuratie die u gebruikt een knooppunt heeft in de gegevensbronnen die een enkel e-mailadres of meerdere e-mailadressen gescheiden door puntkomma's (;) retourneren. U kunt [gegevensbronnen](general-electronic-reporting.md#FormatComponentOutbound) en [functies](er-formula-language.md#Functions) in de formuleontwerper gebruiken om een e-mailadres met juiste indeling te krijgen of meerdere e-mailadressen met een juiste indeling die door puntkomma's worden gescheiden. Als u bijvoorbeeld de configuratie **ISO 20022 Kredietoverdracht** gebruikt, is `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email` het knooppunt dat het primaire e-mailadres van een leverancier vertegenwoordigt in de contactgegevens van de leverancier waarnaar de begeleidende brief moet worden verzonden.
 
 [![Een e-mailadresbron configureren.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 

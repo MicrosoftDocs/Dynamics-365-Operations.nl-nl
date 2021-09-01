@@ -2,7 +2,7 @@
 title: Klantorders in POS (Point of Sale)
 description: Dit onderwerp bevat informatie over klantorders in POS (Point of Sale). Klantorders worden ook wel speciale orders genoemd. In dit onderwerp worden de gerelateerde parameters en transactiestromen besproken.
 author: josaw1
-ms.date: 01/06/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -18,18 +18,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 44beb4515bf0d2f8fc7ad75feb3164bf1c7c2d5737552b1a06ce59c2edcaf8fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349621"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755078"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Klantorders in POS (Point of Sale)
 
 [!include [banner](includes/banner.md)]
 
-Dit onderwerp bevat informatie over het maken en beheren van klantorders in POS (Point of Sale). Klantorders kunnen worden gebruikt om verkopen te registreren waarbij kopers op een latere datum producten willen ophalen, producten op een andere locatie willen ophalen of artikelen willen laten verzenden. 
+Dit onderwerp bevat informatie over het maken en beheren van klantorders in de POS-app (Point of Sale). Klantorders kunnen worden gebruikt om verkopen te registreren waarbij kopers op een latere datum producten willen ophalen, producten op een andere locatie willen ophalen of artikelen willen laten verzenden. 
 
 Veel detailhandelaren bieden de optie van klantorders, oftewel speciale orders, om aan verschillende product- en afhandelingsbehoeften te voldoen. Hierna vindt u enkele typische scenario's:
 
@@ -132,6 +132,10 @@ Detailhandelorders die in het online- of winkelkanaal worden gemaakt, kunnen zo 
 > [!IMPORTANT]
 > Niet alle detailhandelorders kunnen worden bewerkt via de POS-toepassing. Orders die in een callcenterkanaal worden gemaakt, kunnen niet worden bewerkt via POS als de instelling [Ordervoltooiing inschakelen](./set-up-order-processing-options.md#enable-order-completion) is ingeschakeld voor het callcenterkanaal. Om de juiste verwerking van de betaling te garanderen, moeten orders die afkomstig zijn uit een callcenterkanaal en waarvoor de functionaliteit Ordervoltooiing inschakelen wordt gebruikt, worden bewerkt via de callcentertoepassing in Commerce Headquarters.
 
+> [!NOTE]
+> Het wordt aangeraden orders en offertes die door een niet-callcentergebruiker in Commerce Headquarters zijn gemaakt, niet te bewerken in POS. Voor deze orders en offertes wordt geen gebruik gemaakt van de Commerce-prijsengine. Als de orders en offertes worden bewerkt in POS, wordt de prijs ervan met de Commerce-prijsengine opnieuw bepaald.
+
+
 In versie 10.0.17 en hoger kunnen gebruikers in aanmerking komende orders bewerken via de POS-toepassing, zelfs als de order gedeeltelijk is vervuld. Orders die volledig zijn gefactureerd, kunnen echter nog steeds niet worden bewerkt via POS. Als u deze functie wilt inschakelen, schakelt u de optie **Gedeeltelijk afgehandelde orders bewerken in Point of Sale** in de werkruimte **Functiebeheer** in. Als deze functie niet is ingeschakeld of als u versie 10.0.16 of eerder gebruikt, kunnen gebruikers alleen klantorders in POS bewerken als de order volledig is geopend. Als de functie is ingeschakeld, kunt u bovendien beperken welke winkels gedeeltelijk vervulde orders kunnen bewerken. De optie om deze mogelijkheid voor specifieke winkels uit te schakelen, kan worden geconfigureerd via het **Functionaliteitsprofiel** op het sneltabblad **Algemeen**.
 
 
@@ -142,7 +146,23 @@ In versie 10.0.17 en hoger kunnen gebruikers in aanmerking komende orders bewerk
 5. Voltooi het bewerkingsproces door een betalingsbewerking te selecteren.
 6. Als u het bewerkingsproces wilt afsluiten zonder wijzigingen op te slaan, kunt u de bewerking **Ongeldig gemaakte transactie** gebruiken.
 
+#### <a name="pricing-impact-when-orders-are-edited"></a>Invloed op prijzen wanneer orders worden bewerkt
 
+Als orders in een POS of op een e-commercesite van Commerce worden geplaatst, leggen klanten zich vast op een bedrag. Dit bedrag bevat een prijs en kan ook een korting bevatten. Een klant die een order plaatst en later contact opneemt met het callcenter om de betreffende order te wijzigen (bijvoorbeeld om een ander artikel toe te voegen), heeft specifieke verwachtingen over de toepassing van kortingen. Zelfs als de promoties op de bestaande orderregels zijn vervallen, verwacht de klant dat de kortingen die oorspronkelijk van toepassing waren op deze regels, van kracht blijven. Als er echter geen korting van kracht was toen de order oorspronkelijk werd geplaatst, maar er sinds die tijd een korting geldt, verwacht de klant dat de nieuwe korting wordt toegepast op de gewijzigde order. Anders annuleert de klant mogelijk alleen de bestaande order en maakt vervolgens een nieuwe order waarop de nieuwe korting van toepassing is. Zoals dit scenario laat zien, moeten prijzen en kortingen die klanten hebben toegezegd, blijven behouden. Tegelijkertijd moeten gebruikers van POS en callcenters de flexibiliteit hebben om prijzen en kortingen voor verkooporderregels indien nodig opnieuw te berekenen.
+
+Wanneer orders worden ingetrokken en bewerkt in POS, worden de prijzen en kortingen van de bestaande orderregels als 'vergrendeld' beschouwd. Dit wil zeggen dat de prijzen en kortingen niet worden gewijzigd, ook niet als sommige orderregels worden geannuleerd of gewijzigd, of als er nieuwe orderregels worden toegevoegd. Om de prijzen en kortingen van bestaande verkoopregels te wijzigen, moet de POS-gebruiker **Herberekenen** selecteren. De prijsvergrendeling wordt vervolgens uit de bestaande orderregels verwijderd. Vóór de release van Commerce versie 10.0.21 was deze mogelijkheid echter niet beschikbaar in het callcenter. In plaats daarvan zorgden wijzigingen in orderregels ervoor dat prijzen en kortingen opnieuw werden berekend.
+
+In de release van Commerce versie 10.0.21 is een nieuwe functie met de naam **Onbedoelde prijsberekening voor commerce-orders voorkomen** beschikbaar in de werkruimte **Functiebeheer**. Standaard is deze functie ingeschakeld. Als deze functie is ingeschakeld, is de nieuwe eigenschap **Prijs vergrendeld** beschikbaar voor alle e-commerce-orders. Als de order is vastgelegd voor orders die vanaf een willekeurig kanaal zijn geplaatst, wordt deze eigenschap automatisch ingeschakeld (het selectievakje is ingeschakeld) voor alle orderregels. Met de Commerce-prijsengine worden deze orderregels vervolgens van alle prijs- en kortingsberekeningen uitgesloten. Als de order wordt bewerkt, worden orderregels dus standaard uitgesloten van de prijs- en kortingsberekening. Gebruikers van callcenters kunnen de eigenschap echter uitschakelen (dus het selectievakje uitschakelen) voor een orderregel en vervolgens **Herberekenen** selecteren om de bestaande orderregels op te nemen in de prijsberekeningen.
+
+Zelfs wanneer ze een handmatige korting op een bestaande verkoopregel toepassen, moeten gebruikers van het callcenter de eigenschap **Prijs vergrendeld** op de verkoopregel uitschakelen voordat ze de handmatige korting toepassen.
+
+Gebruikers van callcenters kunnen de eigenschap **Prijs vergrendeld** ook uitschakelen voor orderregels in bulk door **Prijsvergrendeling verwijderen** in de groep **Berekenen** op het tabblad **Verkopen** in het actievenster van de pagina **Verkooporder** te selecteren. In dit geval wordt de prijsvergrendeling verwijderd uit alle orderregels behalve regels die niet kunnen worden bewerkt (met andere woorden: regels met de status **Gedeeltelijk gefactureerd** of **Gefactureerd**). Nadat de wijzigingen in de order zijn voltooid en zijn ingediend, wordt de prijsvergrendeling vervolgens opnieuw toegepast op alle orderregels.
+
+> [!IMPORTANT]
+> Als de functie **Onbedoelde prijsberekening voor commerce-orders voorkomen** is ingeschakeld, worden de instellingen van een handelsovereenkomstevaluatie genegeerd in de prijsbepalingsworkflows. Met andere woorden: in de dialoogvensters voor handelsovereenkomstevaluatie wordt de sectie **Prijsgerelateerd** niet weergegeven. Dit gedrag treedt op omdat zowel de instelling van de evaluatie van handelsovereenkomsten als de prijsvergrendelingsfunctie een vergelijkbaar doel hebben: onbedoelde prijswijzigingen voorkomen. De gebruikerservaring voor de evaluatie van handelsovereenkomsten kan echter niet goed worden geschaald voor grote orders, waarbij gebruikers een of meer orderregels moeten selecteren voor een nieuwe prijsbepaling.
+
+> [!NOTE]
+> De eigenschap **Prijs vergrendeld** kan alleen voor een of meer geselecteerde regels worden uitgeschakeld als de module **Callcenter** wordt gebruikt. Het gedrag van POS blijft ongewijzigd. Met andere woorden: POS-gebruikers kunnen prijzen voor geselecteerde orderregels niet ontgrendelen. Ze kunnen echter wel **Herberekenen** selecteren om de prijsvergrendeling van alle bestaande orderregels te verwijderen.
 
 ### <a name="cancel-a-customer-order"></a>Een klantorder annuleren
 

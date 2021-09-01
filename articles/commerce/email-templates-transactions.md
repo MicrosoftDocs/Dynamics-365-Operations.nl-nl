@@ -2,7 +2,7 @@
 title: E-mailsjablonen maken voor transactiegebeurtenissen
 description: In dit onderwerp wordt beschreven hoe u e-mailsjablonen kunt maken, uploaden en configureren voor transactiegebeurtenissen in Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bfc773bec035ceee151e2e2dd8925aa772747452
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2da1044cd332d841a8c18f7139d0d8c09bad95f446494034060e59416b4018b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019878"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718702"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>E-mailsjablonen maken voor transactiegebeurtenissen
 
 [!include [banner](includes/banner.md)]
 
 In dit onderwerp wordt beschreven hoe u e-mailsjablonen kunt maken, uploaden en configureren voor transactiegebeurtenissen in Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Overzicht
 
 Dynamics 365 Commerce biedt een kant-en-klare oplossing voor het verzenden van e-mails die klanten waarschuwen over transactiegebeurtenissen (bijvoorbeeld wanneer een order wordt geplaatst, een order gereed is voor ophalen of een order is verzonden). In dit onderwerp worden de stappen beschreven voor het maken, uploaden en configureren van de e-mailsjablonen die worden gebruikt voor het verzenden van transactionele e-mails.
 
@@ -79,26 +77,33 @@ Met de volgende tijdelijke aanduidingen worden gegevens opgehaald en weergegeven
 | Naam van tijdelijke aanduiding     | Waarde van tijdelijke aanduiding                                            |
 | -------------------- | ------------------------------------------------------------ |
 | customername         | De naam van de klant die de order heeft geplaatst.               |
-| salesid              | De verkoop-id van de order.                                   |
-| deliveryaddress      | Het afleveradres voor verzonden orders.                     |
 | customeraddress      | Het adres van de klant.                                 |
 | customeremailaddress | Het e-mailadres dat de klant bij het uitchecken heeft ingevoerd.     |
+| salesid              | De verkoop-id van de order.                                   |
+| id-orderbevestiging  | De cross-channel-ID die is gegenereerd bij het maken van de order. |
+| kanaal-id            | De ID van het detailhandel- of online kanaal waarin de order is geplaatst. |
+| leveringsnaam         | De naam die voor het afleveradres staat aangegeven.        |
+| deliveryaddress      | Het afleveradres voor verzonden orders.                     |
 | deliverydate         | De leveringsdatum.                                           |
 | shipdate             | De verzenddatum.                                               |
 | modeofdelivery       | De leveringsmethode van de order.                              |
+| ordernetamount       | Het totaalbedrag voor de order, min de totale belasting.         |
+| korting             | De totale korting voor de order.                            |
 | toeslagen              | De totale kosten voor de order.                             |
 | btw                  | De totale belasting voor de order.                                 |
 | totaal                | Het totale bedrag voor de order.                              |
-| ordernetamount       | Het totaalbedrag voor de order, min de totale belasting.         |
-| korting             | De totale korting voor de order.                            |
 | storename            | De naam van de winkel waar de order is geplaatst.            |
 | storeaddress         | Het adres van de winkel die de order heeft geplaatst.              |
 | storeopenfrom        | De openingstijd van de winkel die de order heeft geplaatst.         |
 | storeopento          | De sluitingstijd van de winkel die de order heeft geplaatst.         |
-| pickupstorename      | De naam van de winkel waar de order wordt opgehaald.     |
-| pickupstoreaddress   | Het adres van de winkel waar de order wordt opgehaald.  |
-| pickupopenstorefrom  | De openingstijd van de winkel waar de order wordt opgehaald. |
-| pickupopenstoreto    | De sluitingstijd van de winkel waar de order wordt opgehaald. |
+| pickupstorename      | De naam van de winkel waar de order wordt opgehaald.\* |
+| pickupstoreaddress   | Het adres van de winkel waar de order wordt opgehaald.\* |
+| pickupopenstorefrom  | De openingstijd van de winkel waar de order wordt opgehaald.\* |
+| pickupopenstoreto    | De sluitingstijd van de winkel waar de order wordt opgehaald.\* |
+| id-pickupkanaal      | De kanaal-ID van de winkel die is opgegeven voor een ophaalmodus van levering.\* |
+| id-pakbon        | De ID van de pakbon die is gegenereerd toen regels in een order werden verpakt.\* |
+
+\* Deze tijdelijke aanduidingen retourneren alleen gegevens wanneer deze worden gebruikt voor het meldingstype **Order gereed voor ophalen**. 
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Tijdelijke aanduidingen voor orderregels (verkoopregelniveau)
 
@@ -106,7 +111,10 @@ Met de volgende tijdelijke aanduidingen worden gegevens voor afzonderlijke produ
 
 | Naam van tijdelijke aanduiding               | Waarde van tijdelijke aanduiding |
 |--------------------------------|-------------------|
-| productid                      | De product-id voor de regel. |
+| productid                      | <p>De ID van het product. Deze ID is bedoeld voor varianten.</p><p><strong>Opmerking:</strong> deze tijdelijke aanduiding is afgeschaft en vervangen door **regelproductrecid**.</p> |
+| id-regelproductrec               | De ID van het product. Deze ID is bedoeld voor varianten. Identificeert een artikel als uniek op variantniveau. |
+| id-regelartikel                     | De ID van het product op productniveau. (Deze ID is niet bedoeld voor varianten.) |
+| id-regelproductvariant           | De ID van de productvariant. |
 | lineproductname                | De naam van het product. |
 | lineproductdescription         | De beschrijving van het product. |
 | linequantity                   | Het aantal eenheden dat is besteld voor de regel, plus de maateenheid (bijvoorbeeld **stuks** of **paar**). |
@@ -125,6 +133,8 @@ Met de volgende tijdelijke aanduidingen worden gegevens voor afzonderlijke produ
 | linedeliverydate               | De leveringsdatum voor de regel. |
 | linedeliverymode               | De leveringsmethode voor de regel. |
 | linedeliveryaddress            | Het afleveradres voor de regel. |
+| datumophalenregel                 | De ophaaldatum die de klant heeft opgegeven voor orders die een ophaalmodus voor levering gebruiken. |
+| tijdslotophalenregel             | De het tijdsbereik voor ophalen dat de klant heeft opgegeven voor orders die een ophaalmodus voor levering gebruiken. |
 | giftcardnumber                 | Het nummer van de geschenkbon, voor producten van het geschenkbontype. |
 | giftcardbalance                | Het saldo van de geschenkbon, voor producten van het geschenkbontype. |
 | giftcardmessage                | Het bericht van de geschenkbon, voor producten van het geschenkbontype. |
@@ -197,7 +207,7 @@ Zie voor meer informatie over het configureren van e-mails in Dynamics 365 Comme
 
 [E-mail ontvangstbewijzen instellen](/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
-[E-mailontvangstbewijzen verzenden vanuit Modern POS](email-receipts.md)
+[E-mailontvangstbewijzen verzenden vanuit Modern POS ](email-receipts.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

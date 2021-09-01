@@ -2,7 +2,7 @@
 title: Ondersteuning vragen voor Finance and Operations-apps of Lifecycle Services (LCS)
 description: In dit onderwerk wordt uitgelegd hoe u ondersteuning kunt krijgen bij Finance and Operations-apps of Microsoft Dynamics Lifecycle Services (LCS).
 author: EricMoos
-ms.date: 09/16/2020
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20b32ae88f9c4439b83ae60e6a0b5f0e16280fcf
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 4314545941cd4c401325aad7651c8882db322f58aae54e85dbad2548733cc95e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753873"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713329"
 ---
 # <a name="get-support-for-finance-and-operations-apps-or-lifecycle-services-lcs"></a>Ondersteuning vragen voor Finance and Operations-apps of Lifecycle Services (LCS)
 
@@ -48,7 +48,7 @@ In dit onderwerk wordt uitgelegd hoe u ondersteuning kunt krijgen bij Finance an
 <td>In <a href="https://lcs.dynamics.com/">LCS</a> kunt u met <strong>Problemen zoeken</strong> snel zoeken naar artikelen, hotfixes en oplossingen voor gerapporteerde problemen in Microsoft Knowledge Base (KB). U kunt zien welke gerapporteerde problemen momenteel worden opgelost voor een specifiek functioneel gebied, en welke problemen al zijn opgelost. Zie voor meer informatie <a href="issue-search-lcs.md">Problemen zoeken (Lifecycle Services, LCS)</a>.</td>
 </tr>
 <tr>
-<td>Ondersteuning binnen de app.</td>
+<td>Ondersteuning in uw Finance and Operations-app krijgen.</td>
 <td>Selecteer de knop <strong>Help</strong> (<strong>?</strong>) in de rechterbovenhoek van de app en selecteer vervolgens <strong>Ondersteuning</strong>. Problemen worden gemeld op het tabblad <strong>Actieve problemen</strong> in LCS. Daar kunnen beheerders bepalen of ze interne ondersteuning moeten bieden of de problemen naar Microsoft moeten verzenden.</td>
 </tr>
 <tr>

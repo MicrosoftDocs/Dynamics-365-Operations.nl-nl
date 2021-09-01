@@ -2,7 +2,7 @@
 title: De levenscyclus van de configuratie van elektronische rapportage (ER) beheren
 description: In dit onderwerp wordt beschreven hoe u de levenscyclus van ER-configuratie (elektronische rapportage) voor Microsoft Dynamics 365 Finance kunt beheren.
 author: NickSelin
-ms.date: 04/13/2021
+ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345733"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767774"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>De levenscyclus van de configuratie van elektronische rapportage (ER) beheren
 
@@ -82,20 +82,34 @@ ER-configuraties die zijn ontworpen in de ontwikkelomgeving, kunnen worden [geü
 
 ![Levenscyclus van ER-configuratie.](./media/ger-configuration-lifecycle.png)
 
-## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Overweging voor gegevenspersistentie
+## <a name="data-persistence-consideration"></a>Overweging voor gegevenspersistentie
 
 U kunt verschillende [versies](general-electronic-reporting.md#component-versioning) van een [ER-configuratie](general-electronic-reporting.md#Configuration) afzonderlijk [importeren](tasks/er-import-configuration-lifecycle-services.md) in uw Finance-exemplaar. Wanneer een nieuwe versie van een ER-configuratie wordt geïmporteerd, bepaalt het systeem de inhoud van de conceptversie van deze configuratie:
 
-   - Wanneer de geïmporteerde versie lager is dan de hoogste versie van deze configuratie in het huidige exemplaar van Finance, blijft de inhoud van de conceptversie van deze configuratie ongewijzigd.
-   - Wanneer de geïmporteerde versie hoger is dan een andere versie van deze configuratie in het huidige exemplaar van Finance, wordt de inhoud van de geïmporteerde versie naar de conceptversie van deze configuratie gekopieerd, waarin u de laatst voltooide versie kunt bewerken.
+- Wanneer de geïmporteerde versie lager is dan de hoogste versie van deze configuratie in het huidige exemplaar van Finance, blijft de inhoud van de conceptversie van deze configuratie ongewijzigd.
+- Wanneer de geïmporteerde versie hoger is dan een andere versie van deze configuratie in het huidige exemplaar van Finance, wordt de inhoud van de geïmporteerde versie naar de conceptversie van deze configuratie gekopieerd, waarin u de laatst voltooide versie kunt bewerken.
 
 Als deze configuratie eigendom is van de configuratie [provider](general-electronic-reporting.md#Provider) die momenteel is geactiveerd, is de conceptversie van deze configuratie zichtbaar op het sneltabblad **Versies** van de pagina **Configuraties** (**Organisatiebeheer** > **Elektronische rapportage** > **Configuraties**). U kunt de conceptversie van de configuratie selecteren en de inhoud ervan [wijzigen](er-quick-start2-customize-report.md#ConfigureDerivedFormat) met behulp van de relevante ER-ontwerper. Wanneer de conceptversie van een ER-configuratie hebt bewerkt, komt de inhoud niet meer overeen met de inhoud van de hoogste versie van deze configuratie in het huidige exemplaar van Finance. Om te voorkomen dat uw wijzigingen verloren gaan, wordt een fout weergegeven dat de import niet kan worden voortgezet omdat de versie van deze configuratie hoger is dan de hoogste versie van deze configuratie in het huidige exemplaar van Finance. Wanneer dit zich voordoet, bijvoorbeeld bij de indelingsconfiguratie **X**, wordt de fout **Indeling 'X'-versie niet voltooid** weergegeven.
 
 Als u de wijzigingen die u in de conceptversie hebt aangebracht ongedaan wilt maken, selecteert u in het sneltabblad **Versies** de hoogste voltooide of gedeelde versie van uw ER-configuratie in Finance en selecteert u vervolgens de optie **Deze versie ophalen**. De inhoud van de geselecteerde versie wordt naar de conceptversie gekopieerd.
 
+## <a name="applicability-consideration"></a>Overweging van toepasbaarheid
+
+Wanneer u een nieuwe versie van een ER-configuratie ontwerpt, kunt u de [afhankelijkheid](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md) van andere softwareonderdelen definiëren. Deze stap wordt beschouwd als een vereiste voor het beheren van de download van de versie van deze configuratie uit een ER-opslagplaats of een extern XML-bestand en voor eventueel verder gebruik van de versie. Wanneer u een nieuwe versie van een ER-configuratie probeert te importeren, gebruikt het systeem de geconfigureerde vereisten om te bepalen of de versie kan worden geïmporteerd.
+
+In sommige gevallen wilt u mogelijk dat het systeem de geconfigureerde vereisten negeert wanneer u nieuwe versies van ER-configuraties importeert. Volg deze stappen als u wilt dat het systeem de vereisten tijdens het importeren negeert.
+
+1. Ga naar **Organisatiebeheer** \> **Elektronische rapportage** \> **Configuraties**.
+2. Selecteer op de pagina **Configuraties** in het actievenster op het tabblad **Configuraties** in de groep **Geavanceerde instellingen** de optie **Gebruikersparameters**.
+3. Stel de optie **Controle tijdens importeren van productupdates en vereiste versiecontrole overslaan** in op **Ja**.
+
+    > [!NOTE]
+    > Deze parameter specifiek is voor de gebruiker en het bedrijf.
+
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Overzicht van elektronische rapportage (ER)](general-electronic-reporting.md)
 
+[De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

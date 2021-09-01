@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2544591773bea7d54b4da4ac25ed3fed3f9e3594c5f791a0975c0349583b695c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270654"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728622"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Standaard opgeslagen weergaven voor Supply Chain Management
 
@@ -77,6 +77,18 @@ In de volgende tabel worden de opgeslagen weergaven beschreven die beschikbaar z
 | Inkooporderdetails | Financieel beheer | Deze vereenvoudigde weergave is geoptimaliseerd voor het uitvoeren van financiële activiteiten, zoals het factureren en controleren van prijzen, totalen en toeslagen. | Opgeslagen weergaven voor inkooporders |
 | Inkooporderdetails | Ordergoedkeuring | Deze vereenvoudigde weergave is geoptimaliseerd voor het goedkeuren van inkooporders. | Opgeslagen weergaven voor inkooporders |
 
+## <a name="saved-views-for-the-product-information-management-module"></a>Opgeslagen weergaven voor de module Productgegevensbeheer
+
+In de volgende tabel worden de opgeslagen weergaven beschreven die beschikbaar zijn voor de module Productgegevensbeheer.
+
+| Pagina | Weergavenaam | Omschrijving weergeven | Functienaam |
+|---|---|---|---|
+| Lijst met vrijgegeven producten | Producten maken | Een vereenvoudigde paginaweergave die alleen de velden bevat die het vaakst worden gebruikt bij het maken van producten. | Opgeslagen weergaven voor vrijgegeven producten |
+| Vrijgegeven productdetails | Producten maken | Een vereenvoudigde paginaweergave die alleen de velden bevat die het vaakst worden gebruikt bij het maken van producten. | Opgeslagen weergaven voor vrijgegeven producten |
+| Vrijgegeven productdetails | Beheer van logistieke gegevens | Een vereenvoudigde paginaweergave die alleen de velden bevat die het vaakst worden gebruikt bij het beheren van logistieke gegevens voor producten. | Opgeslagen weergaven voor vrijgegeven producten |
+| Vrijgegeven productdetails | Beheer van aankoopgegevens | Een vereenvoudigde paginaweergave die alleen de velden bevat die het vaakst worden gebruikt bij het beheren van aankoopgegevens voor producten. | Opgeslagen weergaven voor vrijgegeven producten |
+| Vrijgegeven productdetails | Beheer van verkoopgegevens | Een vereenvoudigde paginaweergave die alleen de velden bevat die het vaakst worden gebruikt bij het beheren van verkoopgerelateerde gegevens van producten. | Opgeslagen weergaven voor vrijgegeven producten |
+
 ## <a name="saved-views-for-the-production-control-module"></a>Opgeslagen weergaven voor de module Productiebeheer
 
 In de volgende tabel worden de opgeslagen weergaven beschreven die beschikbaar zijn voor de module Productiebeheer.
@@ -110,7 +122,7 @@ In de volgende tabel worden de opgeslagen weergaven beschreven die beschikbaar z
 | Alle verzendingen | Inkomende verwerking | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt om inkomende zendingen te verwerken. | Opgeslagen weergaven voor verzendingsverwerking |
 | Alle verzendingen | Uitgaande verwerking | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt om uitgaande zendingen te verwerken. | Opgeslagen weergaven voor verzendingsverwerking |
 | Alle waves | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergave voor de verwerking van waves |
-| Workbench ladingplanning | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergave voor de workbench werkplanning |
+| Workbench ladingplanning | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergave voor de workbench voor ladingplanning |
 | Werkgegevens | Vereenvoudigd | Deze vereenvoudigde weergave bevat alleen de velden die het vaakst worden gebruikt. Op deze manier biedt de weergave een sneller overzicht en een gestroomlijnd werkproces. | Opgeslagen weergave voor de pagina Werkgegevens |
 
 

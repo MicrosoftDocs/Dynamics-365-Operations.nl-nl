@@ -12,12 +12,12 @@ ms.search.region: Belgium
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16dd6c5b786396fea9a284d323deea7426609593
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82fa1d24c7a96ae530e37d09934f99de7ad783b22b5ce78b79b1321f25184870
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832519"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778093"
 ---
 # <a name="create-and-transfer-transactions-to-the-blwi-belgium"></a>Transacties maken en overboeken naar het BLWI (België)
 

@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e859d166d19cd97d4b19c989b7a1bbe6832d218b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e1b0184850602191da5448df25779437f70e5c3182e1b7b70d92d4c406e08599
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820732"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749023"
 ---
 # <a name="default-offset-accounts-for-vendor-invoice-and-invoice-approval-journals"></a>Standaardtegenrekeningen voor leveranciersfactuur- en factuurgoedkeuringsjournalen
 
@@ -65,7 +65,7 @@ Gebruik de volgende tabel om u te helpen kiezen waar u het beste standaardrekeni
 <td>Gebruik deze optie als u normaal gesproken betaalt voor dezelfde typen artikelen van dezelfde leveranciers.</td>
 </tr>
 <tr class="odd">
-<td><strong>Journaalnamen</strong> – Stel standaardtegenrekeningen in voor journalen op de pagina <strong>Journaalnamen</strong>. Selecteer de optie <strong>Vaste tegenrekening</strong>. Merk op dat u geen standaardtegenrekeningen op journaalnamen kunt opgeven als het journaaltype van de journaalnamen of <strong>Facturenregister</strong> of <strong>Goedkeuring</strong> is.</td>
+<td><strong>Journaalnamen</strong> – Stel standaardtegenrekeningen in voor journalen op de pagina <strong>Journaalnamen</strong>. Selecteer de optie <strong>Vaste tegenrekening</strong>. Merk op dat u &#39;geen standaardtegenrekeningen op journaalnamen kunt opgeven als het journaaltype van de journaalnamen of <strong>Facturenregister</strong> of <strong>Goedkeuring</strong> is.</td>
 <td><ul>
 <li>Journaalkop die de journaalnaam gebruikt</li>
 <li>Journaalboekingen in journalen die de journaalnaam gebruiken</li>

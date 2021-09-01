@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f6aaec76beb6dcc48a6f4457c876ceb9fa18643
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: fc7700c825feb9727b816d9a2776e37fdbd2ff8416ffb4530e5af8c35d61b070
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359904"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757681"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Overzicht van Offerteaanvragen
 
@@ -72,7 +72,7 @@ Voordat u een offerteaanvraagcase kunt maken, moet u offerteaanvraaggegevens ins
 
 U kunt deze waarden negeren voor een specifieke offerteaanvraagcase.
 
-Configureer tevens het aanpassingsproces. Als onderdeel van deze configuratie, kunt u veldvergrendeling inschakelen. Wanneer veldvergrendeling is ingeschakeld, moet een inkoopmedewerker die een offerteaanvraag wil aanpassen, eerst **Maken** selecteren in de sectie **Aanpassing** van het tabblad **Offerte** van de offerteaanvraagcase. Nadat de offerteaanvraagcase is bijgewerkt met de wijziging, beëindigt de inkoper het proces door **Voltooien**  te selecteren. Door de actie Voltooien wordt een e-mail gegenereerd waarin aan de leveranciers de gewijzigde offerteaanvraag wordt gemeld.
+Configureer tevens het aanpassingsproces. Als onderdeel van deze configuratie, kunt u veldvergrendeling inschakelen. Wanneer veldvergrendeling is ingeschakeld, moet een inkoopmedewerker die een offerteaanvraag wil aanpassen, eerst **Maken** selecteren in de sectie **Aanpassing** van het tabblad **Offerte** van de offerteaanvraagcase. Nadat de offerteaanvraagcase is bijgewerkt met de wijziging, beëindigt de inkoper het proces door **Voltooien** te selecteren. Door de actie Voltooien wordt een e-mail gegenereerd waarin aan de leveranciers de gewijzigde offerteaanvraag wordt gemeld.
 
 U selecteert de sjabloon voor de e-mailmelding die naar leveranciers wordt verzonden op de pagina **Parameters voor inkoop en sourcing**. Als een sjabloon wordt gemaakt in **E-mailsjablonen**, kan deze de volgende vervangingstokens bevatten:
 

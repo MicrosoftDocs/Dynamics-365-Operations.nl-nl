@@ -1,8 +1,8 @@
 ---
-title: Overzicht van financiële rapportage
+title: Overzicht financiële rapportage
 description: In dit onderwerp wordt beschreven waar u toegang kunt krijgen tot financiële rapportage in Microsoft Dynamics 365 Finance en hoe u de financiële rapportagemogelijkheden kunt gebruiken.
 author: aprilolson
-ms.date: 12/04/2020
+ms.date: 07/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf07b12d83221952aefb80ab6a5b651bb4ef3762
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: da997af4c4cab7b99dfa14f185de6a7c057d6831b7ee576787c17b550fa60194
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748205"
 ---
 # <a name="get-started-with-financial-reporting"></a>Aan de slag met Financial Reporting 
 
@@ -47,10 +47,10 @@ Als u financiële rapporten voor een rechtspersoon wilt maken en genereren, moet
 -   Rekeningschema
 -   Valuta
 -   Een transactie naar ten minste één rekening boeken
--   MainAccount wordt weergegeven in de kolom Geselecteerd in **Grootboek > Instellingen van grootboek > Instellingen financiële rapportage**
+-   MainAccount wordt weergegeven in de kolom **Geselecteerd** op de pagina **Instellingen Financial reporting** (**Grootboek > Instellingen grootboek > Instellingen financiële rapportage**)
 
-## <a name="granting-security-access-to-financial-reporting"></a>Beveiligingstoegang verlenen tot Financial Reporting
-De functies voor financiële rapportage zijn beschikbaar voor gebruikers aan wie de juiste bevoegdheden en functies zijn toegewezen via hun beveiligingsrollen. De volgende secties beschrijven bevoegdheden en functies, samen met de gekoppelde rollen.
+## <a name="granting-security-access-to-financial-reporting"></a>Beveiligingstoegang verlenen tot Financial reporting
+De functies voor financiële rapportage zijn beschikbaar voor gebruikers aan wie de juiste machtigingen en functies zijn toegewezen via hun beveiligingsrollen. De volgende secties beschrijven bevoegdheden en functies, samen met de gekoppelde rollen.
 
 ### <a name="duties"></a>Functies
 
@@ -79,7 +79,7 @@ De functies voor financiële rapportage zijn beschikbaar voor gebruikers aan wie
 | Financiële rapporten genereren            | Financiële rapporten genereren            | CEO, CFO, accountant                                                            |
 | Financiële rapporten weergeven                | Financiële prestaties beoordelen          | Niet toegewezen                                                                   |
 
-Nadat een gebruiker is toegevoegd of een rol is gewijzigd, moet de gebruiker binnen enkele minuten toegang hebben tot financiële rapportage. 
+Nadat een gebruiker is toegevoegd aan een rol of een rol is gewijzigd, moet de gebruiker binnen enkele minuten toegang hebben tot Financial reporting. 
 
 > [!NOTE]
 > De rol sysadmin wordt toegevoegd aan alle rollen in de financiële rapportage.
@@ -160,15 +160,52 @@ Probleem 1: Report Designer start niet wanneer u **Nieuw** of **Bewerken** selec
 Probleem 2: De gebruiker beschikt niet over de vereiste machtigingen om Financial Reporting te gebruiken. 
 
 * Als u wilt controleren of de gebruiker niet over de juiste machtigingen beschikt, selecteert u **Ja** in de fout "Kan geen verbinding maken met de Financial Reporting-server. Selecteer Ja als u wilt doorgaan en een ander serveradres wilt opgeven." Selecteer **Verbinding testen**. Als u niet over de juiste machtigingen beschikt, verschijnt er een bericht met de tekst "Poging tot verbinding is mislukt. De gebruiker beschikt niet over de juiste machtigingen om verbinding te maken met de server. Neem contact op met uw systeembeheerder voor ondersteuning."
-* De vereiste machtigingen worden hierboven vermeld bij [Beveiligingstoegang verlenen tot Financial Reporting](#granting-security-access-to-financial-reporting). De beveiliging van Financial Reporting is gebaseerd op deze bevoegdheden. U hebt geen toegang, tenzij deze bevoegdheden (of een andere beveiligingsrol die deze bevoegdheden bevat) aan u zijn toegewezen. 
+* De vereiste bevoegdheden staan hierboven vermeld bij [Beveiligingstoegang verlenen tot Financial Reporting](#granting-security-access-to-financial-reporting). De beveiliging van Financial reporting is gebaseerd op deze bevoegdheden. U hebt geen toegang, tenzij deze bevoegdheden (of een andere beveiligingsrol die deze bevoegdheden bevat) aan u zijn toegewezen. 
 * De integratietaak **Provider bedrijfsgebruikers met bedrijf** (die ook verantwoordelijk is voor en bekend staat als gebruikersintegratie) wordt met een interval van 5 minuten uitgevoerd. Het kan 10 minuten duren voordat wijzigingen in de machtigingen van kracht worden in Financial Reporting. 
   Als een andere gebruiker Report Designer kan openen, selecteert u **Extra** en vervolgens **Integratiestatus**. Controleer of de integratietoewijzing "Provider bedrijfsgebruikers met bedrijf" is uitgevoerd omdat aan u een machtiging is toegewezen voor het gebruik van Financial Reporting. 
 * Mogelijk is een andere fout opgetreden waardoor **Gebruikersintegratie van Dynamics-gebruiker met Financial Reporting** niet kan worden voltooid. Het is ook mogelijk dat een datamartreset is gestart en nog niet is voltooid, of dat er een andere systeemfout is opgetreden. Probeer het proces later opnieuw uit te voeren. Neem contact op met de systeembeheerder als het probleem zich blijft voordoen.
 
-Probleem 3: u kunt doorgaan na de aanmeldingspagina voor ClickOnce Report Designer, maar de aanmelding in Report Designer kan niet worden voltooid. 
+Probleem 3: u kunt doorgaan na de aanmeldingspagina voor **ClickOnce Report Designer**, maar de aanmelding in Report Designer kan niet worden voltooid. 
 
-* De tijd die op uw lokale computer is ingesteld wanneer u uw aanmeldingsreferenties invoert, moet binnen vijf minuten zijn na de tijd op de Financial Reporting-server. Als er een verschil is van meer dan vijf minuten, is aanmelden niet toegestaan. 
-* In dit geval kunt u het beste de Windows-optie inschakelen om de tijd van uw pc automatisch in te stellen. 
+* De tijd die op uw lokale computer is ingesteld wanneer u zich aanmeldt bij het systeem, moet binnen vijf minuten liggen van de tijd op de server waar Financial Reporting op draait. Als er een verschil is van meer dan vijf minuten, zult u zich niet kunnen aanmelden bij het systeem. 
+* Als de tijd op uw computer verschilt van de tijd op de server waar Financial reporting op draait, raden we u aan de Windows-optie in te schakelen om de tijd van uw computer automatisch in te stellen. 
+
+## <a name="troubleshoot-report-designer-issues-with-event-viewer"></a>Problemen met Report designer oplossen met de Logboeken
+
+U kunt de Logboeken gebruiken om een aantal van de problemen te analyseren die zich voordoen bij het gebruik van Financial reporting. 
+
+### <a name="what-happens-when-you-have-connections-issues-with-financial-reporting"></a>Wat gebeurt er als er verbindingsproblemen zijn met Financial reporting? 
+
+Hieronder staan enkele stappen die u kunt ondernemen om uw gesprek met Microsoft Ondersteuning effectiever te maken en sneller een oplossing te vinden. 
+ 
+De volgende stappen doorlopen het proces voor het in- of uitschakelen van berichten in de Logboeken voor Financial reporting. In de logboeken die met de functie Logboeken worden gegenereerd, kunnen medewerkers van de afdeling Ondersteuning de bron van het verbindingsprobleem snel vinden. Dien kopieën van deze logboeken samen met het ticket in wanneer u contact opneemt met de afdeling Ondersteuning.
+
+> 1.    Kopieer het bestand RegisterETW.zip naar het client-werkstation (bij voorkeur het bureaublad) en haal [RegisterETW.zip](https://dev.azure.com/msdyneng/e6f12261-a46a-4af1-ac0c-e22bc2c5a478/_apis/git/repositories/ff923027-67f0-43fb-b63c-6d6b6423840f/Items?path=%2F.attachments%2FRegisterETW-c1a35291-6aa6-4462-a2bc-4ba117fd5f8e.zip&download=false&resolveLfs=true&%24format=octetStream&api-version=5.0-preview.1&sanitize=true&versionDescriptor.version=wikiMaster) op.
+
+> 2.    Zorg ervoor dat Windows Logboeken is afgesloten.
+
+> 3.    Open een Opdrachtprompt voor Administrator PowerShell en ga naar de map waar RegisterETW.ps1 zich bevindt.
+
+> 4.    Voer de volgende opdracht uit: .\RegisterETW.ps1
+   
+   Een geslaagde uitvoer in PowerShell wordt geverifieerd met het bericht: **Competed RegisterETW-script**.
+Open de Logboeken opnieuw en deze logboeken staan nu onder **Microsoft > Dynamics**: * MR-Client * MR-DVT * MR-Integration * MR-Logger * MR-Reporting * MR_SchedulerTasks * MR-Sql * MR-TraceManager
+   
+> 5. Reproduceer het probleem in de Report Designer.
+   
+> 6. Exporteer de gebeurtenissen in MR-Logger met behulp van de Logboeken.
+
+## <a name="troubleshoot-issues-connecting-to-financial-reporting"></a>Problemen met de verbinding naar Financial reporting oplossen
+
+Probleem: u ontvangt de foutmelding "Kan geen verbinding maken met de server waar Financial reporting op draait".
+
+* Bepaal of het probleem optreedt in de internetbrowsers Chrome en Edge.
+* Als het probleem zich slechts in één browser voordoet, kan dit Het ClickOnce-probleem zijn. 
+* Wanneer u het foutbericht voor de verbinding ziet, selecteer dan **Testen** om de verbinding te testen om te zien welk bericht wordt weergegeven. 
+* Het probleem kan het resultaat zijn van een andere gebruiker die geen toegang heeft tot Financial reporting. Als een gebruiker geen toegang heeft, ontvangt hij of zij een bericht waarin wordt aangegeven dat hij of zij niet over de juiste bevoegdheden beschikt.
+* Als het probleem zich voordoet op meerdere browsers, moet u ervoor zorgen dat de klok op het werkstation is ingesteld op Automatisch.
+* Werk met een gebruiker die beschikt over de bevoegdheid beveiligingsbeheerder in Dynamics 365 Finance en beheerdersrechten voor het netwerkdomein om u aan te melden op uw werkstation om te zien of deze verbinding kan maken. Als deze verbinding kan maken, is het probleem mogelijk gerelateerd aan netwerkbevoegdheden.
+* Schakel de firewall tijdelijk uit op het werkstation. Als u vervolgens verbinding kunt maken met Report Designer is het een probleem met uw firewall. Werk samen met de IT-afdeling van uw organisatie om het probleem op te lossen.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 - [Financiële rapporten weergeven](view-financial-reports.md)
