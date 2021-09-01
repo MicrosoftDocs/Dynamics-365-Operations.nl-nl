@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a70a9771d5f9c1acea9274b8454a23c8dd7c1ed
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 6c8481a2ba54b88f0911436f352b901cde55924e2ccc15a381b8742abe85d972
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343929"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714518"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>De Help-ervaring voor Finance and Operations-apps configureren
 
@@ -54,7 +54,7 @@ Als u taakbegeleidingen voor een oplossing wilt configureren, volgt u deze stapp
 > [!IMPORTANT]
 > De eerste keer dat u het tabblad **Help** opent, moet u verbinding maken met Lifecycle Services. Let erop dat u de koppeling in het midden van het formulier selecteert. Wacht op de verbinding, sluit het dialoogvenster en selecteer **OK** om de pagina **Systeemparameters** te openen.
 >
-> [![Verbinden met LCS](./media/connect-to-lcs-crop-1024x365.png "Verbinden met LCS."](./media/connect-to-lcs-crop.png)
+> [![Verbinding maken met LCS](./media/connect-to-lcs-crop-1024x365.png 'Verbinding maken met LCS.'](./media/connect-to-lcs-crop.png)
 
 1. Selecteer het project Lifecycle Services om verbinding mee te maken.
 2. Selecteer de BPM-bibliotheken (in het geselecteerde project) om taakregistraties op te halen.

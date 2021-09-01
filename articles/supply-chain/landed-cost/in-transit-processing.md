@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ecf8caa7f31c560af2cbc929a37f3ca02bd0da44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021195"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744793"
 ---
 # <a name="goods-in-transit-processing"></a>Goederen in transit verwerken
 
@@ -104,6 +104,7 @@ U kunt goederen ook ontvangen door een ontvangstjournaal te maken. U kunt een on
 1. Open de reis, container of folio.
 1. Selecteer in het Actievenster op het tabblad **Beheren** in de groep **Functies** de optie **Ontvangstjournaal maken**.
 1. Stel in het dialoogvenster **Ontvangstjournaal maken** de volgende waarden in:
+
     - **Hoeveelheid initialiseren**: Stel deze optie in op *Ja* om de hoeveelheid goederen in transit in te stellen. Als u deze optie instelt op *Nee*, wordt er geen standaardhoeveelheid ingesteld op de regels voor goederen in transit.
     - **Maken op basis van goederen in transit**: stel deze optie in op *Ja* als u hoeveelheden uit de geselecteerde regels voor in transit wilt halen voor de geselecteerde reis, container of folio.
     - **Maken op basis van orderregels**: Stel deze optie in op *Ja* om de standaardhoeveelheid in het ontvangstjournaal van de inkooporderregels in te stellen. De standaardhoeveelheid in het ontvangstjournaal kan alleen op deze manier worden ingesteld als de hoeveelheid op de inkooporderregel overeenkomt met de hoeveelheid op de in transit-order.
@@ -140,4 +141,21 @@ Met Francoprijzen wordt een nieuw type werkorder met de naam *Goederen in transi
 
 ### <a name="work-templates"></a>Werksjablonen
 
+In deze sectie worden functies beschreven die via de module **Francoprijzen** aan werksjablonen worden toegevoegd.
+
+#### <a name="goods-in-transit-work-order-type"></a>Werkordertype Goederen in transit
+
 Met Francoprijzen wordt een nieuw type werkorder met de naam *Goederen in transit* toegevoegd aan de pagina **Werksjablonen**. Dit type werkorder moet op dezelfde manier worden geconfigureerd als de [werksjablonen voor inkooporders](/dynamicsax-2012/appuser-itpro/create-a-work-template).
+
+#### <a name="work-header-breaks"></a>Opsplitsingen van werkkoptekst
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+Werksjablonen met het werkordertype *Goederen in transit* kunnen zo worden geconfigureerd dat kopteksten worden gesplitst. Voer een van de volgende stappen uit op de pagina **Werksjablonen**:
+
+- Stel op het tabblad **Algemeen** voor de sjabloon de maximale waarde voor werkkopteksten in. Deze maximale waarden werken op dezelfde manier als voor werksjablonen voor inkooporders. (Zie [Werksjablonen voor inkooporders](/dynamicsax-2012/appuser-itpro/create-a-work-template) voor meer informatie.)
+- Met de knop **Opsplitsingen voor werkkoptekst** definieert u wanneer het systeem nieuwe werkkopteksten moet maken op basis van velden die worden gebruikt voor sorteren. Als u bijvoorbeeld een werkkoptekst wilt maken voor elke container-ID, selecteert u **Query bewerken** in het actiedeelvenster en voegt u het veld **container-ID** toe aan het tabblad **Sorteren** van de query-editor. Velden die worden toegevoegd aan het tabblad **Sorteren** zijn beschikbaar voor selectie als *groeperingsvelden*. Als u groeperingsvelden wilt instellen, selecteert u de optie **Opsplitsingen voor werkkoptekst** in het actiedeelvenster en selecteert u voor elk veld dat u als groeperingsveld wilt gebruiken, het selectievakje in de kolom **Groeperen op dit veld**.
+
+Bij francoprijzen [wordt een overtransactie ](over-under-transactions.md)gemaakt als de geregistreerde hoeveelheid groter is dan de oorspronkelijke orderhoeveelheid. Wanneer een werkkop is voltooid, wordt de status van de voorraadtransacties voor de hoofdorderhoeveelheid bijgewerkt. De hoeveelheid die aan de overtransactie is gekoppeld, wordt eerst echter bijgewerkt nadat de hoofdorderhoeveelheid volledig is ingekocht.
+
+Als u een werkkop annuleert voor een overtransactie die al is geregistreerd, wordt de overtransactie eerst verminderd met de geannuleerde hoeveelheid. Nadat de overtransactie is verminderd tot de hoeveelheid 0 (nul), wordt de record verwijderd en worden eventuele extra hoeveelheden niet geregistreerd ten opzichte van de hoofdorderhoeveelheid.

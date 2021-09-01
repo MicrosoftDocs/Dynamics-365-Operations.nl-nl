@@ -13,12 +13,12 @@ ms.search.region: Netherlands
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c0f50114b1fa421a85d5323e06db547c79098cc
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 4610e5eea83921dcecc9f4e20c47a0ba58fe42fb2699eb4963b03fda789e7748
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336576"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766268"
 ---
 # <a name="netherlands-overview"></a>Overzicht Nederland
 

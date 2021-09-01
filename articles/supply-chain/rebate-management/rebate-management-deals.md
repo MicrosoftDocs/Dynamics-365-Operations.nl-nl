@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7ba42df021eddccbae389321b38828c7a92e50c8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 5b8a1beae80ad63f26cd1b532d1d6026a5b38a8701c9c1d0aadfee5da8965477
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020502"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716487"
 ---
 # <a name="rebate-management-deals"></a>Deals voor kortingbeheer
 
@@ -102,6 +102,7 @@ Nadat u een deal hebt gemaakt zoals beschreven in de vorige sectie, kunt u deze 
         - *Alle*: de dealregel is van toepassing op alle artikelen.
 
     - **Artikelrelatie** Als u *Tabel* hebt geselecteerd in het veld **Artikelcode**, selecteert u het artikel waarop de dealregel betrekking heeft. Als u *Groep* hebt geselecteerd, selecteert u de artikelgroep. Als u *Alle* hebt geselecteerd, is dit veld niet beschikbaar.
+    - **Eenheidstype**: selecteer het eenheidstype dat van toepassing is op de dealregel (*Voorraadeenheid* of *Eenheid variabel gewicht*). Dit veld is mogelijk leeg voor oudere records. In dit geval wordt uitgegaan van de waarde van de *Voorraadeenheid*.
     - **(Parameters voor voorraadbeheer)**: geef in de resterende velden op de dealregel waarden op voor de voorraadbeheerparameters die worden gebruikt om de artikelen te definiëren die in de deal worden opgenomen (zoals artikelgrootte, kleur, stijl, locatie en magazijn). Als u dimensies wilt toevoegen of verwijderen, selecteert u **Dimensies weergeven** in het actievenster.
 
 1. Selecteer **Opslaan** in het actievenster.

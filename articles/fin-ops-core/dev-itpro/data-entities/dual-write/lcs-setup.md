@@ -1,8 +1,8 @@
 ---
 title: Instellingen voor twee keer wegschrijven van Lifecycle Services
 description: In dit onderwerp wordt uitgelegd hoe u een verbinding voor twee keer wegschrijven kunt instellen vanuit Microsoft Dynamics Lifecycle Services (LCS).
-author: RamaKrishnamoorthy
-ms.date: 05/11/2021
+author: laneswenka
+ms.date: 08/03/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359358"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729038"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Instellingen voor twee keer wegschrijven van Lifecycle Services
 
@@ -66,5 +66,18 @@ Als u twee keer wegschrijven wilt instellen voor een bestaande Dataverse-omgevin
 
 > [!NOTE]
 > U kunt omgevingen niet ontkoppelen met behulp van LCS. Als u een omgeving wilt ontkoppelen, opent u het werkgebied **Gegevensintegratie** in de Finance and Operations-omgeving en selecteert u **Koppeling verbreken**.
+
+## <a name="linking-mismatch"></a>Koppeling aan een verkeerde instantie
+
+Het is mogelijk dat uw LCS-omgeving aan één Dataverse-instantie is gekoppeld, terwijl uw omgeving voor twee keer wegschrijven aan een andere Dataverse-instantie is gekoppeld. Deze koppeling aan een verkeerde instantie kan tot onverwacht gedrag leiden en kan ertoe leiden dat gegevens naar de verkeerde omgeving worden verzonden. De aanbevolen omgeving voor twee keer wegschrijven is de omgeving die wordt gemaakt als onderdeel van de Power Platform-integratie en op lange termijn is dit de enige manier om een koppeling tussen omgevingen tot stand te brengen.
+
+Als er in uw omgeving een verkeerde koppeling voorkomt, wordt in LCS een waarschuwing weergegeven op de detailpagina van uw omgeving, in de trant van 'Microsoft heeft gedetecteerd dat uw omgeving via Twee keer wegschrijven is gekoppeld aan een andere bestemming dan is opgegeven in de Power Platform-integratie. Dit wordt niet aanbevolen:
+
+Verkeerde :::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Power Platform-integratiekoppeling.":::
+
+Als deze fout plaatsvindt, kunt u afhankelijk van uw behoeften twee dingen doen:
+
++ [Omgevingen voor twee keer wegschrijven loskoppelen en opnieuw koppelen (Koppeling opnieuw instellen of wijzigen)](relink-environments.md#scenario-reset-or-change-linking) zoals wordt beschreven op de detailpagina van uw LCS-omgeving. Dit is de ideale optie, omdat u deze kunt uitvoeren zonder Microsoft-ondersteuning.  
++ Als u de koppeling in de omgeving voor twee keer wegschrijven wilt behouden, kunt u bij Microsoft Ondersteuning om hulp vragen om de Power Platform-integratie te wijzigen en uw bestaande Dataverse-omgeving te gebruiken, zoals in de voorgaande sectie wordt beschreven.  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

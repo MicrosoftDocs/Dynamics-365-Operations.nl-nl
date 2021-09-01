@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641051"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773508"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.20 (augustus 2021)
 
@@ -47,7 +47,6 @@ In de volgende tabel worden de functieverbeteringen weergegeven die deze versie 
 
 | Functiegebied | Functie&nbsp;naam&nbsp;in Functie&nbsp;beheer | Meer informatie |
 |---|---|---|
-| Hoofdplanning | Negatieve dagen voor Planningsoptimalisatie | Met deze functie kan bij Planningsoptimalisatie rekening worden houden met vertragingstolerantie op basis van de parameter **Negatieve dagen** die is gedefinieerd in dekkingsgroepen. |
 | Hoofdplanning | Parallelle autorisatie van gecorrigeerde vraagprognose | Deze functie maakt parallelle autorisatie van gecorrigeerde vraagprognose via de pagina **Gecorrigeerde vraagprognose** mogelijk. Deze functie is bedoeld om de prestaties te verbeteren wanneer een groot aantal prognoses wordt geautoriseerd. Tijdens het autoriseren kan de gebruiker het **aantal threads** in het autorisatiedialoogvenster opgeven. |
 | Hoofdplanning | (Preview) Batchgewijs fiatteren en consolideren voor geplande batchorders voor bulk en verpakking | Met deze functie kunt u batchtaken gebruiken om geplande bulk- en verpakkingsorders te fiatteren en te consolideren. |
 | Productiebeheer | Algemene routes kopiëren | Met deze functie wordt de kopieerroutefunctie verbeterd, zodat gebruikers routes kunnen kopiëren die niet artikelspecifiek zijn. Hiermee kan het systeem alle relevante informatie (zoals locatie, routegroep, resourcebehoeften en diverse keren) bijwerken nadat de kopieerroutefunctie is gebruikt om een route te overschrijven die nog niet aan een artikel is toegewezen. |

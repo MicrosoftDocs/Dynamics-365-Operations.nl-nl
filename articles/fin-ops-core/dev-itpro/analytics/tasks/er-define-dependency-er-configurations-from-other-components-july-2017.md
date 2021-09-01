@@ -2,7 +2,7 @@
 title: De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
 description: In dit onderwerp wordt beschreven hoe u een ER-configuratie (Electronic Reporting) ontwerpt en de afhankelijkheid ervan van andere softwareonderdelen opgeeft.
 author: NickSelin
-ms.date: 06/23/2017
+ms.date: 07/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4aef052a77428bb783a3a098754ca4dcc1b4296
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2901092938dae5ae14480716eeeb2b0386848332e91ad388ce5d34437f8492ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755101"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717589"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>De afhankelijkheid van ER-configuraties voor andere onderdelen definiëren
 
@@ -138,5 +138,8 @@ We verwijderen gemaakte configuraties uit het systeem en downloaden deze terug u
     * Houd er rekening mee dat de modeltoewijzingsconfiguratie 'Voorbeeldtoewijzing' is gedownload met de geselecteerde gegevensmodelconfiguratie. De twee bestanden worden samen gedownload omdat 'Voorbeeldtoewijzing' is gedefinieerd als implementatie van het geselecteerde gegevensmodel en omdat het toepasbaar is op de toepassing. De configuratie 'Voorbeeldtoewijzing (alternatief)' is niet gedownload omdat niet is voldaan aan de voorwaarde voor de vereiste toepassingsversie.   
     * Als u zich aanmeldt bij Finance and Operations, dezelfde provider registreert, toegang krijgt tot hetzelfde LCS-project en dezelfde gegevensmodelconfiguratie downloadt, wordt de configuratie 'Voorbeeldtoewijzing (alternatief)' gedownload en wordt de configuratie 'Voorbeeldtoewijzing' overgeslagen.  
 
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+[De levenscyclus van de configuratie van elektronische rapportage (ER) beheren](../general-electronic-reporting-manage-configuration-lifecycle.md)
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
