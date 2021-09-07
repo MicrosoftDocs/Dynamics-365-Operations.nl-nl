@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 223ad9b5a297a5bcdbb0314d406f64d5de2b239431c6df21299ddebd9e47b8a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a37e3463273d1ffd35b267b36dfbd6fd92bb255
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738264"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343472"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Prestaties van planningsengine verbeteren
 
@@ -70,7 +70,7 @@ Een voorbeeld hiervan is een route die wordt weergegeven in de volgende tabel en
 
 Wanneer u dit verzendt naar de engine, wordt het opgesplitst in acht taken, zoals wordt weergegeven in de volgende afbeelding (selecteer de afbeelding om deze te vergroten).
 
-[![Enginetaken plannen](media/scheduling-engine-jobs.png) "Enginetaken plannen."](media/scheduling-engine-jobs-large.png)
+[![Taken van planningsengine](media/scheduling-engine-jobs.png "Enginetaken inplannen.")](media/scheduling-engine-jobs-large.png)
 
 De standaardkoppeling tussen twee taken is `FinishStart`, wat inhoudt dat de eindtijd van de ene taak vóór de begintijd van een andere taak moet liggen. Aangezien de instellingen moeten worden uitgevoerd door dezelfde resource die het proces later uitvoert, zijn er `OnSameResource`-beperkingen. Tussen de taken voor primaire en secundaire bewerking voor 10 zijn er `StartStart`- en `FinishFinish`-koppelingen, wat betekent dat de taken zowel op hetzelfde moment moeten beginnen als eindigen en dat er `NotOnSameResource`-beperkingen zijn, waardoor niet dezelfde resource voor primaire en secundaire bewerking wordt gebruikt.
 

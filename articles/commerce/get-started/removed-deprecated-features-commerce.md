@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte functies in Dynamics 365 Commerce
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Commerce.
 author: josaw
-ms.date: 01/11/2021
+ms.date: 08/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aa6030468259069cf031feb8df48d6710e1160f310a1d82c1034afe69249f00f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740402"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386736"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Verwijderde of afgeschafte functies in Dynamics 365 Commerce
 
@@ -32,6 +32,55 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 > [!NOTE]
 > Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Verwijderde of verouderde functies in versie 10.0.21 van Commerce
+
+[!include [banner](../includes/preview-banner.md)]
+
+### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>Retail SDK gedistribueerd met behulp van Lifecycle Services
+
+De Retail SDK wordt gedistribueerd in Lifecycle Services (LCS). Deze distributiemodus is afgeschaft in versie 10.0.21. In de toekomst worden Retail SDK-referentiepakketten, bibliotheken en voorbeelden gepubliceerd in openbare registers op GitHub.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De Retail SDK wordt in LCS gedistribueerd. Het LCS-proces neemt een paar uur in beslag en het proces moet voor elke update worden herhaald. In de toekomst worden Retail SDK-referentiepakketten, bibliotheken en voorbeelden gepubliceerd in openbare registers op GitHub. Extensievoorbeelden en referentiepakketten kunnen eenvoudig worden verbruikt en de updates nemen enkele minuten in beslag. |
+| **Vervangen door een andere functie?**   |  [Retail SDK-voorbeelden en referentiepakketten van GitHub downloaden en NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
+| **Betrokken productgebieden**         | Retail-SDK |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Afgeschaft: de SDK die gedistribueerd wordt via de LCS VMs, wordt in oktober 2022 verwijderd vanaf versie 10.0.21. |
+
+### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Implementeerbare pakketten voor de detailhandel en gecombineerde installatieprogramma's voor POS, Hardware Station en Cloud Scale Unit
+
+Implementeerbare pakketten voor de detailhandel die gegenereerd zijn met de Retail SDK MSBuild, worden in versie 10.0.21 afgeschaft. Gebruik in de toekomst het CSU-pakket (Cloud Scale Unit) voor Cloud Scale Unit-extensies (Commerce Runtime, kanaaldatabase, API's voor headless commerce, betalingen en Cloud Point of Sale (POS)) Gebruik installatieprogramma's die speciaal bedoeld zijn voor extensies voor POS, Hardware Station en Cloud scale unit die als host worden gebruikt.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Een implementeerbaar retailpakket is een gecombineerd pakket dat uit een complete set extensiepakketten en installatieprogramma's bestaat. Dit gecombineerde pakket maakt de implementatie complex, omdat CSU-extensies naar Cloud Scale Unit gaan en installatieprogramma's in winkels worden geïmplementeerd. De installatieprogramma's bevatten het extensie- en basisproduct, wat de updates lastig maakt. Bij elke upgrade is samenvoeg- en pakketgeneratie vereist. Om dit proces te vereenvoudigen, worden de extensiepakketten nu opgesplitst in onderdelen voor eenvoudige implementatie en beheer. Bij de nieuwe benadering worden extensies en installieprogramma's van elkaar gescheiden en kunnen ze onafhankelijk worden gebruikt en bijgewerkt zonder samenvoegcode of zonder ze opnieuw als pakket te verpakken.|
+| **Vervangen door een andere functie?**   | CSU-extensies, installatieprogramma's voor POS-extensies, installatieprogramma's voor Hardware Station-extensies |
+| **Betrokken productgebieden**         | Dynamics 365 Commerce-extensie en implementatie |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Afgeschaft: vanaf versie 10.0.21 wordt de ondersteuning voor de implementatie van RetailDeployablePackage in LCS in oktober 2022 verwijderd. |
+
+Ga voor meer informatie naar:
+
++ [Een afzonderlijk pakket genereren voor CSU (Commerce Cloud Scale Unit)](../dev-itpro/retail-sdk/retail-sdk-packaging.md#generate-a-separate-package-for-commerce-cloud-scale-unit-csu)
++ [Een Modern POS-uitbreidingspakket maken](../dev-itpro/pos-extension/mpos-extension-packaging.md)
++ [POS integreren met een nieuw hardwareapparaat](../dev-itpro/hardware-device-extension.md)
++ Codevoorbeelden
+    + [Cloud Scale Unit](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
+    + [POS, CSU en Hardware station](https://github.com/microsoft/Dynamics365Commerce.InStore)
+
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln en cloudPOs.sln in de Retail SDK
+
+Ontwikkeling van POS-extensie met behulp van ModernPos.sln, CloudPOs.sln, POS.Extension.csproj en de POS-map is afgeschaft in versie 10.0.21. Gebruik in de toekomst de POS-onafhankelijke verpakking SDK voor POS-extensies.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | In eerdere versies van de Retail SDK is er voor het bijwerken naar de laatste versie van het POS, als er POS-extensies zijn, een code nodig die samenvoegt en opnieuw verpakt. Het code samenvoegen was een tijdrovend upgradeproces en u moest de volledige Retail SDK goed onderhouden. U moest ook het basis-POS. App-project compileren. Door het onafhankelijke verpakkingsmodel te gebruiken, moet u alleen uw extensie onderhouden. Het bijwerken naar de laatste versie van de POS-extensies is net zo eenvoudig als het bijwerken van de versie van het NuGet-pakket dat uw project verbruikt. Extensies kunnen onafhankelijk worden geïmplementeerd en de services gebruiken de installatieprogramma's voor extensies. De basis-POS kan afzonderlijk worden geïmplementeerd en onderhouden. Er is geen code voor samenvoeging of opnieuw verpakken nodig voor het basisprogramma of de code. |
+| **Vervangen door een andere functie?**   | [POS-onafhankelijke verpakking SDK](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
+| **Betrokken productgebieden**         | Dynamics 365 Commerce POS-extensie en implementatie |
+| **Implementatieoptie**              | Alles |
+| **Status**                         | Afgeschaft: vanaf versie 10.0.21 wordt de ondersteuning voor gecombineerde POS-pakketten en het extensiemodel dat gebruikmaakt van de ModernPos.Sln, cloudPOs.sln en POS.Extensons.csproj in Retail SDK in oktober 2022 verwijderd. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Verwijderde of verouderde functies in versie 10.0.17 van Commerce
 

@@ -1,5 +1,5 @@
 ---
-title: Geïntegreerde productervaring
+title: Uniforme productervaring
 description: In dit onderwerp wordt de integratie van productgegevens tussen Finance and Operations-apps en Dataverse beschreven.
 author: t-benebo
 ms.date: 12/12/2019
@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 328791cc321eeaf8f032a1eecedbe50cf9498eccd442c718d2e44e246915bc9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2f4aeefe5fe7698d9dfaf80619102f2b753e52b
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726182"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423442"
 ---
 # <a name="unified-product-experience"></a>Uniforme productervaring
 
@@ -81,9 +81,9 @@ Omdat het product als een SKU wordt voorgesteld, kunt u de concepten van afzonde
 
 ![Gegevensmodel voor producten.](media/dual-write-product.png)
 
-Als de functie voor twee keer wegschrijven is ingeschakeld, worden de producten van Finance and Operations gesynchroniseerd in andere Dynamics 365-producten in de status **Concept**. Ze worden toegevoegd aan de eerste prijslijst met dezelfde valuta. Met andere woorden: ze worden toegevoegd aan de eerste prijslijst in een Dynamics 365-app die overeenkomt met de valuta van uw rechtspersoon waar het product wordt vrijgegeven in een Finance and Operations-app. Als er geen prijslijst voor de opgegeven valuta is, wordt automatisch een prijslijst gemaakt en wordt het product eraan toegewezen.
+Als de functie voor twee keer wegschrijven is ingeschakeld, worden de producten van Finance and Operations gesynchroniseerd in andere Dynamics 365-producten in de status **Concept**. Deze worden toegevoegd aan de eerste prijslijst met dezelfde valuta die wordt gebruikt in de app Customer Engagement alfabetisch gesorteerd op de naam van de prijslijst. Met andere woorden: ze worden toegevoegd aan de eerste prijslijst in een Dynamics 365-app die overeenkomt met de valuta van uw rechtspersoon waar het product wordt vrijgegeven in een Finance and Operations-app. Als er geen prijslijst voor de opgegeven valuta is, wordt automatisch een prijslijst gemaakt en wordt het product eraan toegewezen.
 
-De huidige implementatie van de invoegtoepassingen voor twee keer wegschrijven die de standaardprijslijst aan de eenheid koppelen, zoeken de valuta die aan de app is gekoppeld en zoeken met de Finance and Operations-app naar de eerste prijslijst in de app voor klantbetrokkenheid met behulp van alfabetisch sorteren op de naam van de prijslijst. Als u een standaardprijslijst voor een specifieke valuta wilt instellen wanneer u meerdere prijslijsten voor die valuta hebt, moet u de naam van de prijslijst bijwerken naar een naam die eerder in de alfabetische volgorde voorkomt dan andere prijslijsten voor die valuta.
+De huidige implementatie van de invoegtoepassingen voor twee keer wegschrijven die de standaardprijslijst aan de eenheid koppelen, zoeken de valuta die aan de app is gekoppeld en zoeken met de Finance and Operations-app naar de eerste prijslijst in de app voor klantbetrokkenheid met behulp van alfabetisch sorteren op de naam van de prijslijst. Als u een standaardprijslijst voor een specifieke valuta wilt instellen wanneer u meerdere prijslijsten voor die valuta hebt, moet u de naam van de prijslijst bijwerken naar een naam die eerder in de alfabetische volgorde voorkomt dan andere prijslijsten voor die valuta. Als er geen prijslijst voor de opgegeven valuta is, wordt een nieuwe aangemaakt.
 
 Standaard worden producten van Finance and Operations-apps gesynchroniseerd met andere Dynamics 365-app in de status **Concept**. Om het product te synchroniseren met de status **Actief**, zodat u het rechtstreeks in verkooporderoffertes kunt gebruiken, moet u bijvoorbeeld de volgende instelling kiezen: ga naar **Systeem > Beheer > Systeembeheer > Systeeminstellingen > tabblad Verkoop** en selecteer **Producten maken in actieve status = Ja**.
 

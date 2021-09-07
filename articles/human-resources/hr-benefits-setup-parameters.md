@@ -1,8 +1,8 @@
 ---
 title: Parameters voor Vergoedingenbeheer en Werknemerselfservice instellen voor alle bedrijven
 description: Parameters voor Vergoedingenbeheer en Werknemerselfservice configureren in Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 12/07/2020
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9c6761c549aaa38d16616f3e9e9084cbff7c93d9350f8adc50720d263efaff25
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cdda08ad2debe6ffe40f1f3fd2ac84ce9fc1d620
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732772"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423418"
 ---
 # <a name="set-benefits-management-and-employee-self-service-parameters-for-all-companies"></a>Parameters voor Vergoedingenbeheer en Werknemerselfservice instellen voor alle bedrijven
 
@@ -53,7 +53,7 @@ Voordat u vergoedingsplannen kunt instellen in Microsoft Dynamics 365 Human Reso
 
 3. Selecteer **Opslaan**.
 
-## <a name="configure-employee-self-service-parameters"></a>Parameters voor Werknemerselfservice configureren
+## <a name="configure-employee-self-service-parameters"></a>Parameters voor Selfservice werknemer configureren
 
 1. Selecteer in het werkgebied **Vergoedingenbeheer** onder **Instellen** de optie **Parameters voor Human Resources**.
 

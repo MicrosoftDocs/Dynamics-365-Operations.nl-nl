@@ -1,8 +1,8 @@
 ---
 title: Vergoedingen inschrijven en verwijderen van werknemers
 description: Deze procedure toont hoe één medewerker in een of meerdere vergoedingen kan worden geregistreerd en hoe meerdere medewerkers in een vergoeding kunnen worden geregistreerd.
-author: andreabichsel
-ms.date: 02/03/2020
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, H
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 0e508a0a4d89f91ef76cbf2724c7b77510a8ef028dde0c4e1c2a4200b96e39fa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eb9baef543e2d8e069c3e7ea667e3fdf0811fe10
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727132"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416450"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Vergoedingen inschrijven en verwijderen van werknemers
 

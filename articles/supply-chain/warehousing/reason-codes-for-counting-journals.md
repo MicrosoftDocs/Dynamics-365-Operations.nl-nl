@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 4510ed7033e7c4e5187905906dcbef63f05a130bafcb7d9f19bbb360a7298119
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: 95f7ceb39d2afef1871f395ed562632865022b39
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7012086"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345261"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Redencodes voor voorraadtelling
 
@@ -37,7 +37,7 @@ Voordat u het systeem instelt, wordt aangeraden om een strategie voor het werken
 - Moeten redencodes verplicht of optioneel zijn voor bepaalde artikelen?
 - Hoeveel redencodes hebt u nodig?
 - Moet u voor correcties vooraf een beperkte lijst met redencodes selecteren?
-- Hoe moeten gebruikers van streepjescodescanners redencodes gebruiken? Moeten de redencodes vooraf worden geselecteerd, verplicht zijjn en niet kunnen worden bewerkt?
+- Hoe moeten gebruikers van sstreepjescodescanners redencodes gebruiken? Moeten de redencodes vooraf worden geselecteerd, verplicht zijjn en niet kunnen worden bewerkt?
 - Hebben magazijnmedewerkers andere redencodegedrag nodig voor mobiele scanners? Als het antwoord Ja is, kunt u meer menu-items maken en deze toewijzen aan verschillende personen.
 - Moeten de redencodes worden gebruikt voor het boeken op financiële tegenrekeningen?
 
@@ -120,7 +120,7 @@ Ga als volgt te werk om de redencodes voor telling in te stellen.
 1. Selecteer **Nieuw** in het actievenster om een groep toe te voegen.
 1. Stel de velden **Redencodegroep** en **Groepsomschrijving** voor de nieuwe groep in.
 1. Selecteer **Opslaan** in het actievenster.
-1. Selecteer in het gedeelte **Details** de optie **Nieuw** op de werkbalk om een rij aan het raster toe te voegen. Stel vervolgens het veld **Redencode voor telling** voor de nieuwe rij in. 
+1. Selecteer in het gedeelte **Informatie** de optie **Nieuw** op de werkbalk om een rij aan het raster toe te voegen. Stel vervolgens het veld **Redencode voor telling** voor de nieuwe rij in. 
 1. Herhaal de vorige stap om indien nodig meer codes toe te wijzen. Als u een code uit de groep moet verwijderen, selecteert u deze code en selecteert u vervolgens **Verwijderen** op de werkbalk.
 
 ### <a name="set-up-reason-codes-for-mobile-device-menu-items"></a>Redencodes voor menuopties voor mobiele apparaten instellen
@@ -149,8 +149,8 @@ Als u een menuoptie voor een mobiel apparaat wilt instellen voor een telproces, 
 1. Stel in het veld **Standaardredencode voor telling** de standaardredencode in die moet worden vastgelegd wanneer het mobiele apparaat voor het tellen wordt gebruikt.
 1. Selecteer in het veld **Redencode voor telling weergeven** een van de volgende waarden:
 
-    - *Regel*: Geef de redencode weer nadat elke afwijking is vastgelegd.
-    - *Verbergen*: Geef de redencode niet weer.
+    - *Regel*: geef de redencode weer nadat elke afwijking is vastgelegd.
+    - *Verbergen*: geef de redencode niet weer.
 
 1. Stel de **Redencode voor telling bewerken** in op *Ja* als de medewerker de redencode mag bewerken wanneer deze tijdens het tellen wordt weergegeven op het mobiele apparaat. Stel deze optie in op *Nee* als de medewerker de code niet mag bewerken.
 
@@ -169,18 +169,18 @@ Als u een menu-item voor een mobiel apparaat wilt instellen voor Correctie-invoe
 1. Selecteer in het veld **Procedure voor het maken van werk** de optie *Correctie-invoer* of *Correctie uitvoer*.
 1. Stel op het sneltabblad **Algemeen** de volgende velden in. (Al deze velden worden toegevoegd wanneer u *Correctie invoer* of *Correctie uitvoer* in het veld **Procedure voor het maken van werk** selecteert.)
 
-    - **Verwerkingsinstructies gebruiken**: als u een proces voor *Correctie uitvoer* maakt, moet u deze optie instellen op *Ja* Als u een proces voor *Correctie uitvoer* maakt, is deze optie altijd ingesteld op *Ja*.
+    - **Verwerkingsinstructies gebruiken**: als u een proces voor *Correctie uitvoer* maakt, moet u deze optie instellen op *Ja*. Als u een proces voor *Correctie uitvoer* maakt, is deze optie altijd ingesteld op *Ja*.
     - **Standaardredencode voor telling**: stel de standaardredencode in die moet worden vastgelegd wanneer het menu-item van het mobiele apparaat voor het tellen wordt gebruikt.
     - **Redencode voor telling weergeven**: selecteer een van de volgende waarden:
 
-        - *Regel*: Geef de redencode weer nadat elke afwijking is vastgelegd.
-        - *Verbergen*: Geef de redencode niet weer.
+        - *Regel*: geef de redencode weer nadat elke afwijking is vastgelegd.
+        - *Verbergen*: geef de redencode niet weer.
 
     - **Redencode voor telling bewerken**: stel deze optie in op *Ja* als de medewerker de redencode mag bewerken wanneer deze tijdens het tellen wordt weergegeven op het mobiele apparaat. Stel deze optie in op *Nee* als de medewerker de code niet mag bewerken.
-    - **Redencodegroepen voor telling:** selecteer een redencodegroep als u de lijst met opties die aan medewerkers wordt getoond, wilt beperken. Zie het gedeelte [Redencodegroepen voor telling instellen](#reason-groups) eerder in dit onderwerp voor informatie over het instellen van redencodegroepen. 
+    - **Redencodegroepen voor telling:** selecteer een redencodegroep als u de lijst met opties die aan medewerkers wordt getoond, wilt beperken. Raadpleeg het gedeelte [Redencodegroepen voor telling instellen](#reason-groups) eerder in dit onderwerp voor informatie over het instellen van redencodegroepen. 
 
 > [!NOTE]
-> Wanneer u een redencodegroep voor telling toewijst aan de menu-items *Correctie invoer* en *Correctie uitvoer* waarbij de optie **Verwerkingsinstructies gebruiken** is ingesteld op *Ja*, kunt u een beperkte lijst met redencodes voor telling ophalen als onderdeel van de verwerking in de mobiele app Magazijnbeheer.
+> Wanneer u een redencodegroep voor telling toewijst aan de menu-items *Correctie invoer* en *Correctie uitvoer* waarbij de optie **Verwerkingsinstructies gebruiken** is ingesteld op *Ja*, kunt u een beperkte lijst met redencodes voor telling ophalen als onderdeel van de verwerking in de mobiele app Warehouse Management.
 >
 > Met de optie **Verwerkingsinstructies gebruiken** kunt u ook voorkomen dat zich per ongeluk grote hoeveelheden correcties voordoen. (Een medewerker scant bijvoorbeeld per ongeluk een streepjescode van een artikelnummer in plaats van een hoeveelheidswaarde.) Als u deze functionaliteit wilt instellen, stelt u de optie **Verwerkingsinstructies gebruiken** in op *Ja* voor elke relevante menu-item. Ga vervolgens naar **Magazijnbeheer \> Instellen \> Medewerker** en stel het veld **Limiet correctiehoeveelheid** in voor elke relevante magazijnmedewerker om de maximale correctiehoeveelheid op te geven die de werknemer kan registreren.
 

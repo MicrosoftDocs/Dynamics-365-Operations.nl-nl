@@ -2,7 +2,7 @@
 title: Een Dynamics 365 Commerce-evaluatieomgeving configureren
 description: In dit onderwerp wordt uitgelegd hoe u een evaluatieomgeving van Microsoft Dynamics 365 Commerce configureert na inrichting.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87933c57ee5f626b224b1edc92da13906e3edc2613f61c5b4a917d8cc5d1dcd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742435"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416474"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Een Dynamics 365 Commerce-evaluatieomgeving configureren
 
@@ -128,7 +128,7 @@ Voer de volgende stappen uit om een volledige gegevenssynchronisatie in Commerce
 Voor het uitvoeren van testtransacties op de site kunt u de volgende creditcardgegevens testen:
 
 - **Kaartnummer:** 4111-1111-1111-1111
-- **Verloopdatum:** 10/20
+- **Verloopdatum:** 10/30
 - **CVV-code:** 737
 
 > [!IMPORTANT]
@@ -139,6 +139,9 @@ Voor het uitvoeren van testtransacties op de site kunt u de volgende creditcardg
 Als de inrichtings- en configuratiestappen zijn voltooid, bent u klaar om uw evaluatieomgeving te gebruiken. Gebruik de site builder-URL voor de Commerce-site om naar de ontwerpomgeving te gaan. Gebruik de URL van de Commerce-site om naar de omgeving van de site van de detailhandelklant te gaan.
 
 Zie [Optionele functies voor een evaluatieomgeving van Commerce configureren](cpe-optional-features.md) voor meer informatie over hoe u optionele functies voor uw evaluatieomgeving van Commerce configureert.
+
+> [!NOTE]
+> Commerce-evaluatieomgevingen worden geleverd met een vooraf geladen Azure Active Directory (Azure AD) B2C-tenant voor demonstratiedoeleinden. Het configureren van uw eigen Azure AD B2C-tenant is niet vereist voor evaluatieomgevingen. Als u echter de evaluatieomgeving configureert om uw eigen Azure AD B2C-tenant te gebruiken, moet u ervoor zorgen dat u ``https://login.commerce.dynamics.com/_msdyn365/authresp`` als een antwoord-URL toevoegt in de Azure AD B2C-toepassing via de Azure Portal.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
@@ -159,6 +162,8 @@ Zie [Optionele functies voor een evaluatieomgeving van Commerce configureren](cp
 [Microsoft Azure-portal](https://azure.microsoft.com/features/azure-portal)
 
 [Dynamics 365 Commerce-website](https://aka.ms/Dynamics365CommerceWebsite)
+
+[Een B2C-tenant instellen in Commerce](set-up-B2C-tenant.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

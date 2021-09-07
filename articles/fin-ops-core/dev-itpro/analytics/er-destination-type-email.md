@@ -2,7 +2,7 @@
 title: ER-bestemmingstype voor e-mail
 description: In dit onderwerp wordt uitgelegd hoe u een e-mailbestemming kunt configureren voor elke MAP- of BESTAND-component van een ER-indeling (Electronic Reporting).
 author: NickSelin
-ms.date: 07/27/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769314"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343855"
 ---
 # <a name="email-er-destination-type"></a>ER-bestemmingstype voor e-mail
 
@@ -46,16 +46,29 @@ Er kunnen meerdere groepen onderdelen worden geconfigureerd voor een enkele ER-i
 
 Volg deze stappen om een of meer uitvoerbestanden per e-mail te verzenden.
 
-1. Selecteer op de pagina **Bestemming elektronische rapportage** op het sneltabblad **Bestandsbestemming** een onderdeel of groep van onderdelen in het raster.
+1. Selecteer op de pagina **Bestemming elektronische rapportage** in het sneltabblad **Bestandsbestemming** een onderdeel of groep van onderdelen in het raster.
 2. Selecteer **Instellingen** en daarna in het dialoogvenster **Bestemmingsinstellingen** op het tabblad **E-mail** de optie **Ingeschakeld** in op **Ja**.
 
 [![De optie Ingeschakeld instellen op Ja voor een e-mailbestemming.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
 ## <a name="configure-an-email-destination"></a>Een e-mailbestemming configureren
 
-U kunt de e-mailverzender en -ontvangers opgeven en het onderwerp en de tekst van het e-mailbericht bewerken. U kunt constante teksten voor het onderwerp en de tekst van het e-mailbericht instellen of u kunt ER-[formules](er-formula-language.md) gebruiken om dynamisch e-mailteksten aan te maken.
+### <a name="email-content"></a>Inhoud e-mail
 
-Standaard wordt een e-mailbericht verzonden namens de huidige gebruiker. Als u een andere afzender voor het e-mailbericht wilt opgeven, moet u het veld **Van** configureren.
+U kunt het onderwerp en de tekst van het e-mailbericht bewerken.
+
+Voer in het veld **Onderwerp** de tekst van het e-mailbericht in dat moet worden weergegeven in het onderwerpveld van een elektronisch bericht dat tijdens runtime gegenereerd wordt. Voer in het veld **Body** de hoofdtekst van de e-mail in die moet worden weergegeven in het hoofdgedeelte van een elektronisch bericht. U kunt constante teksten voor het onderwerp en de tekst van het e-mailbericht instellen of u kunt ER-[formules](er-formula-language.md) gebruiken om tijdens runtime dynamisch e-mailtekst aan te maken. De geconfigureerde formule moet een waarde van het type [Tekenreeks ](er-formula-supported-data-types-primitive.md#string) opleveren.
+
+De hoofdtekst van uw e-mail bestaat uit TEKST- of HTML-indeling, afhankelijk van de e-mailclient. U kunt elke indeling, opmaak en huisstijl gebruiken die door HTML en inline CSS (Cascading Style Sheets) worden ondersteund.
+
+> [!NOTE]
+> E-mailclients leggen indelings- en stijlbeperkingen op die mogelijk wijzigingen vereisen in de HTML en CSS die u voor de hoofdtekst van het bericht gebruikt. We raden u aan uzelf vertrouwd te maken met de best practices voor het maken van HTML die worden ondersteund door de populairste e-mailclients.
+>
+> Gebruik de juiste codering om een regelterugloop te implementeren, afhankelijk van de opmaak van de hoofdtekst. Bekijk de definitie van het gegevenstype [Tekenreeks ](er-formula-supported-data-types-primitive.md#string) voor meer informatie.
+
+### <a name="email-addresses"></a>E-mailadressen
+
+U kunt de afzender en e-mailontvangers configureren. Standaard wordt een e-mailbericht verzonden namens de huidige gebruiker. Als u een andere afzender voor het e-mailbericht wilt opgeven, moet u het veld **Van** configureren.
 
 > [!NOTE]
 > Wanneer u een e-mailbestemming configureert, is het veld **Van** alleen zichtbaar voor gebruikers met de beveiligingsmachtiging `ERFormatDestinationSenderEmailConfigure` **E-mailadres van afzender configureren voor bestemmingen voor ER-indelingen**.

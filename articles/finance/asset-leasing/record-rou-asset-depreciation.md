@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 40af957582f9cdf4e1caf3ab03ead41f2823b42d59d427c7e7623cd8688e1827
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778357"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345365"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Afschrijving van activum met gebruiksrecht vastleggen (preview)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Voor leases die worden herkend op de balans van een organisatie, wordt het activum met gebruiksrecht maandelijks afgeschreven. In dit onderwerp wordt uitgelegd hoe u de journaalboeking voor de afschrijving maakt. De afschrijving wordt afgeschreven van de onkostengrootboekrekening en bijgeschreven opde samengevoegde afschrijvingsgrootboekrekening, op basis van de instellingen van uw boekingsprofiel en het leasetype. Deze boekingen kunnen voor elke lease worden gemaakt, of ze kunnen worden gemaakt voor meerdere leases met behulp van de batchjournaalfunctie.
 
@@ -36,6 +38,9 @@ Voor leases die worden herkend op de balans van een organisatie, wordt het activ
 
 2. Selecteer de afschrijvingperiode en selecteer **Journaal maken**. U ontvangt een bericht met de mededeling dat het journaal dat wordt gebruikt voor het vastleggen van de afschrijving is gemaakt.
 3. Selecteer **Journalen \> Activaleasejournalen** om de pagina **Activaleasejournaal** te openen, waar u de gemaakte journaalpost voor afschrijvingskosten kunt bekijken.
+
+   Bepaalde financiële velden worden door het systeem vergrendeld, zodat eventuele afwijkingen tussen de transacties en de planningen worden voorkomen. Sommige velden die vergrendeld zijn, zijn: **Rekening**, **Bedragen**, **Financiële dimensies**, **Valuta** en **Transactietype**. Bovendien kunt u geen journaalinvoerregels aan een activa-leasejournaalinvoer toevoegen of daaruit verwijderen, omdat dit tot discrepanties tussen de planningen en de transacties kan leiden.
+
 4. Selecteer de journaalboeking en selecteer vervolgens **Boeken** om de afschrijvingspost vast te leggen in het grootboek.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-operating-leases"></a>Berekenen van afschrijvingskosten voor RoU-activa voor operationele leases

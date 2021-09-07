@@ -1,8 +1,8 @@
 ---
-title: Beheer - overzicht
-description: Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365 Human Resources en het oplossen van problemen.
-author: andreabichsel
-ms.date: 02/03/2020
+title: Overzicht van beheer
+description: Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen om Dynamics 365 Human Resources in te stellen, te beheren en problemen op te lossen.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,27 +12,27 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3b2cefd0281abfc94df05a1ae929e0b65bc533b292a6c4779a4fbc7ba1134a0e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6b4ceba9f071f73813eb9e79c5d8e2a00779c915
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765609"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393566"
 ---
-# <a name="administration-overview"></a>Beheer - overzicht
+# <a name="administration-overview"></a>Overzicht van beheer
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365 Human Resources en het oplossen van problemen.
+Dit onderwerp bevat een lijst met de Help-onderwerpen en andere informatiebronnen om Dynamics 365 Human Resources in te stellen, te beheren en problemen op te lossen.
 
 - [Systeemvereisten](hr-admin-system-requirements.md)
 
-- Exemplaren instellen en beheren
+- Exemplaren instellen en producten beheren
   - [Human Resources inrichten](hr-admin-setup-provision.md)
   - [Een exemplaar kopiëren](hr-admin-setup-copy-instance.md)
   - [Een exemplaar verwijderen](hr-admin-setup-remove-instance.md)
@@ -92,14 +92,23 @@ Deze beheerdershandleiding helpt u bij het instellen en beheren van Dynamics 365
   - [Het compensatieproces uitvoeren](hr-admin-troubleshooting-compensation.md)
   - [Taakbegeleiders opslaan in LCS](hr-admin-troubleshooting-task-guide.md)
   - [Toegang tot privéadressen per beveiligingsrol](hr-admin-troubleshooting-private-addresses.md)
-  - [Human Resources wordt niet weergegeven in Dynamics 365-apps](hr-admin-troubleshooting-not-in-apps.md)
+  - [Human Resources wordt niet weergegeven bij de Dynamics 365-apps](hr-admin-troubleshooting-not-in-apps.md)
   - [Rapportageopties](hr-admin-troubleshooting-reporting.md)
   - [Veelgestelde vragen over integratie](hr-admin-troubleshooting-integration.md)
+
+## <a name="additional-resources"></a>Aanvullende bronnen
+
+### <a name="elearning-courses"></a>eLearning-cursussen
+Zie [Dynamics 365 Human Resources op Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path) voor informatie over online cursussen en training.
+
+### <a name="videos"></a>Video's
+
+Bekijk de procedurevideo's die nu beschikbaar zijn op het [Microsoft Dynamics 365 YouTube-kanaal](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
 
 ## <a name="see-also"></a>Zie ook
 
 - [Nieuwe of gewijzigde functies in Human Resources](hr-admin-whats-new.md)
-- [Handleiding voor ontwikkelaars](hr-developer-overview.md)
+- [Ontwikkelaarshandleiding](hr-developer-overview.md)
 - [Gebruikershandleiding](hr-hrpro-overview.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

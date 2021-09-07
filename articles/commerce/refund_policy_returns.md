@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 5c32156aea5f43d41b51f34b45b5b6dfedb5cad0f948924ecea9b3d89e6bb402
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
+ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763687"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7388928"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Beleid voor retouren en restituties voor een afzetkanaal maken en bijwerken
 
@@ -42,15 +42,6 @@ Voer de volgende stappen uit om de functionaliteit voor kanaalretourbeleid in te
 1. Zoek naar de functie **Kanaalretourbeleid inschakelen** in de lijst met functienamen.
 1. Selecteer **Nu inschakelen**.
 1. Voer op de pagina **Distributieplanning** de taak **1110** (Algemene configuratie) uit om de functiewijziging te verdelen.
-
-## <a name="initialize-the-commerce-scheduler"></a>De Commerce-planner initialiseren
-
-Nadat u de functie **Kanaalretourbeleid inschakelen** hebt ingeschakeld, moet u de Commerce-planner initialiseren om ervoor te zorgen dat nieuwe wijzigingen in de functiedatabase worden toegevoegd via CDX-synchronisatie (Commerce Data Exchange). 
-
-Volg deze stappen om de Commerce-planner te initialiseren in Commerce Headquarters.
-
-- Ga naar **Detailhandel en commerce \> Instellingen van hoofdkantoor \> Commerce-planner \> Commerce-planner initialiseren**. U kunt ook zoeken naar "Commerce-planner initialiseren".
-- Controleer in het dialoogvenster **Commerce-planner initialiseren** of de optie **Bestaande configuratie verwijderen** is ingesteld op **Nee** en selecteer vervolgens **OK**.
 
 ## <a name="configure-return-policy"></a>Retourbeleid configureren
 

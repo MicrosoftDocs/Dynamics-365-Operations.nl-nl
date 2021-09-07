@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25b3a9271dd3a906c5077f2e509cacf37ce1eb9ccb37131bb7ea31fa72ddd57f
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: 18c0ea18ff8ec79501d39a93ad68aa8a706ad1fc
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7011974"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394383"
 ---
 # <a name="human-resources-home-page"></a>Startpagina Human Resources
 
@@ -91,7 +91,7 @@ Human Resources verbindt mensen en bedrijfsgegevens met elkaar om u te helpen uw
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
 ### <a name="elearning-courses"></a>eLearning-cursussen
-Zie [Dynamics 365 Human Resources op Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path) voor informatie over online cursussen en training.
+Zie [Dynamics 365 Human Resources op Microsoft Learn](//learn/browse/?products=dynamics-human-resources&expanded=dynamics-365) voor informatie over online cursussen en training.
 
 ### <a name="videos"></a>Video's
 

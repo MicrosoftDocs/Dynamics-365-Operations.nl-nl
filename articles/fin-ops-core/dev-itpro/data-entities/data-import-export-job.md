@@ -1,7 +1,7 @@
 ---
 title: Overzicht van gegevensimport- en exporttaken
 description: Gebruik het werkgebied Gegevensbeheer om taken voor het importeren en exporteren van gegevens te maken en te beheren.
-author: Sunil-Garg
+author: peakerbl
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application user
 ms.reviewer: sericks
 ms.custom: intro-internal
 ms.search.region: Global
-ms.author: sunilg
+ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d42f6af27ecb79e02a20516d58846e842d5960ce9363afcafbcbb487e60c0c38
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4f9ae06893a8247828fa4d3c2cb40b9155043c87
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723106"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7404029"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Overzicht van Gegevensimport- en exporttaken
 
@@ -191,7 +191,7 @@ Bij het plannen van het opschoningsproces moeten de volgende parameters worden o
 
 -   **Aantal uren om de taak uit te voeren** – Afhankelijk van de hoeveelheid historie die moet worden opgeschoond, kan de totale uitvoeringstijd voor de opschoningstaak variëren van enkele minuten tot enkele uren. Deze parameter moet worden ingesteld op het aantal uren dat de taak wordt uitgevoerd. Nadat de opschoontaak gedurende het opgegeven aantal uren is uitgevoerd, wordt de taak afgesloten en wordt de opschoonbewerking hervat de volgende keer wanneer de taak wordt uitgevoerd op basis van het terugkeerschema.
 
-    Een maximale uitvoeringstijd kan worden opgegeven door een maximum in te stellen voor het aantal uren dat de taak met deze instelling moet worden uitgevoerd. De opschoningslogica doorloopt één taakuitvoering-ID tegelijk in een chronologische volgorde, waarbij de oudste het eerst wordt opgeschoond. Er worden geen nieuwe uitvoering-id's voor opschonen meer opgehaald wanneer de resterende uitvoeringsduur binnen de laatste 10% van de opgegeven duur is. In sommige gevallen wordt verwacht dat de opschoningstaak langer duurt dan de opgegeven maximale tijd. Dit is grotendeels afhankelijk van het aantal records dat moet worden verwijderd voor de huidige uitvoerings-id die is gestart voordat de drempel van 10% is bereikt. De opschoning die is gestart, moet worden voltooid om de gegevensintegriteit te waarborgen, wat betekent dat opschonen ondanks overschrijding van de opgegeven limiet wordt voortgezet. Wanneer dit voltooid is, worden geen nieuwe uitvoerings-id's opgehaald en wordt de opschoningstaak voltooid. De resterende uitvoeringshistorie die door gebrek aan uitvoeringstijd niet is opgeschoond, wordt voor de volgende ingeplande opschoning opgehaald. De standaard- en minimumwaarde voor deze instelling is 2 uur.
+    Een maximale uitvoeringstijd kan worden opgegeven door een maximum in te stellen voor het aantal uren dat de taak met deze instelling moet worden uitgevoerd. De opschoningslogica doorloopt één taakuitvoering-id tegelijk in een chronologische volgorde, waarbij de oudste het eerst wordt opgeschoond. Er worden geen nieuwe uitvoering-id's voor opschonen meer opgehaald wanneer de resterende uitvoeringsduur binnen de laatste 10% van de opgegeven duur is. In sommige gevallen wordt verwacht dat de opschoningstaak langer duurt dan de opgegeven maximale tijd. Dit is grotendeels afhankelijk van het aantal records dat moet worden verwijderd voor de huidige uitvoerings-id die is gestart voordat de drempel van 10% is bereikt. De opschoning die is gestart, moet worden voltooid om de gegevensintegriteit te waarborgen, wat betekent dat opschonen ondanks overschrijding van de opgegeven limiet wordt voortgezet. Wanneer dit voltooid is, worden geen nieuwe uitvoerings-id's opgehaald en wordt de opschoningstaak voltooid. De resterende uitvoeringshistorie die door gebrek aan uitvoeringstijd niet is opgeschoond, wordt voor de volgende ingeplande opschoning opgehaald. De standaard- en minimumwaarde voor deze instelling is 2 uur.
 
 -   **Terugkerende batch** – De opschoningstaak kan worden uitgevoerd als een eenmalige, handmatige uitvoering, of kan worden gepland voor terugkerende batchuitvoering. De batch kan worden gepland met de instellingen bij **Op de achtergrond uitvoeren**, de standaardinstelling voor batchuitvoering.
 

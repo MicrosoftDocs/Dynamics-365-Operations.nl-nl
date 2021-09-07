@@ -1,8 +1,8 @@
 ---
 title: Veelgestelde vragen over infrastructuursamenvoeging voor Dynamics 365 Human Resources
 description: In dit onderwerp worden veelgestelde vragen beantwoord over het samenvoegen van de infrastructuur van Microsoft Dynamics 365 Human Resources- en Finance and Operations-apps.
-author: rachel-profitt
-ms.date: 07/14/2021
+author: twheeloc
+ms.date: 08/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: raprofit
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 537917e9a987d701a0c96dfb7592e124e09bb748e4f2f52d39f8d97000c70ae3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5ae2896eda98a8f9545d465e941d5b50065ae94b
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6711996"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386534"
 ---
 # <a name="dynamics-365-human-resources-infrastructure-merge-faq"></a>Veelgestelde vragen over infrastructuursamenvoeging voor Dynamics 365 Human Resources
 
@@ -38,12 +38,12 @@ Dynamics 365 Human Resources is een zelfstandige toepassing die een andere infra
 
 ### <a name="my-organization-uses-dynamics-365-human-resources-to-manage-its-hr-operations-what-benefits-will-we-see-from-these-changes"></a>Mijn organisatie gebruikt Dynamics 365 Human Resources om de eigen HR-bewerkingen te beheren. Welke voordelen zullen deze wijzigingen ons bieden?
 
-- Door deze wijzigingen worden meerdere sets HR-capaciteiten in Dynamics 365 geschrapt.
+- Door deze wijzigingen wordt een einde gemaakt aan de verwarring door meerdere sets HR-capaciteiten in Dynamics 365.
 - Ze bieden zowel uitbreidbaarheid voor Microsoft Power Platform als een manier om bedrijfslogica en functieopties uit te breiden.
 - Deze zorgen voor consistentie tussen Dynamics 365 Human Resources en andere Finance and Operations-apps in termen van AlM (Application Lifecycle Management), Microsoft Dynamics Lifecycle Services (LCS), geografische beschikbaarheid, uitbreidbaarheid en meer.
 - Met deze services kunt u profiteren van gedeelde services en hulpprogramma's en de kosten helpen verlagen.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-benefits-will-we-see-from-these-changes"></a>Mijn organisatie gebruikt Dynamics 365 Human Resources in Dynamics 365 Finance, Supply Chain Management, Commerce of Project Operations. Welke voordelen zullen deze wijzigingen ons bieden?
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-benefits-will-we-see-from-these-changes"></a>Mijn organisatie gebruikt de Human Resources-module in Dynamics 365 Finance, Supply Chain Management, Commerce of Project Operations. Welke voordelen zullen deze wijzigingen ons bieden?
 
 De capaciteiten en investeringen die zijn gedaan in Dynamics 365 Human Resources komen nu beschikbaar voor klanten die gebruikmaken van de HR-module in Dynamics 365 Finance. Tot een aantal van deze capaciteiten behoren verlof- en verzuimbeheer, vergoedingenbeheer en taakbeheer.
 
@@ -67,21 +67,27 @@ Als uw organisatie gebruikmaakt van Dynamics 365 Human Resources, maar geen Fina
 
 Daarnaast komt er tooling beschikbaar, zodat u het migratieproces kunt testen en uw gegevens en ervaring kunt valideren voordat u uw productieomgeving migreert.
 
-Als uw organisatie zowel Dynamics 365 Human Resources als andere Finance and Operations-apps gebruikt, moet u meer tijd inplannen voor validatie om ervoor te zorgen dat uw gegevens correct naar de nieuwe omgeving worden gemigreerd. Bij de migratie naar de nieuwe infrastructuur worden de gegevens van uw Human Resources-omgeving samengevoegd met uw Finance and Operations-omgeving. Er komt tooling beschikbaar om een zo groot mogelijk deel van het samenvoegproces te automatiseren. In het geval van tegenstrijdige gegevens is echter gebruikersinvoer nodig om te definiëren hoe het conflict moet worden opgelost. Gebruikers en beheerders moeten de gegevenstoewijzingen beheren bij conflicten en de migratie in een andere omgeving testen vóór de migratie van uw productieomgeving.
+Als uw organisatie zowel Dynamics 365 Human Resources als andere Finance and Operations-apps gebruikt, moet u meer tijd inplannen voor validatie om ervoor te zorgen dat uw gegevens correct naar de nieuwe omgeving worden gemigreerd. Bij de migratie naar de nieuwe infrastructuur worden de gegevens van uw Human Resources-omgeving samengevoegd met uw Finance and Operations-omgeving. In het geval van tegenstrijdige gegevens is gebruikersinvoer nodig om te bepalen hoe het conflict moet worden opgelost. Gebruikers en beheerders moeten de gegevenstoewijzingen beheren bij conflicten en de migratie in een andere omgeving testen vóór de migratie van productieomgevingen.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-do-we-have-to-plan-for-to-migrate-to-the-new-experience"></a>Mijn organisatie gebruikt Dynamics 365 Human Resources in Dynamics 365 Finance, Supply Chain Management, Commerce of Project Operations. Waarvoor moeten we plannen om naar de nieuwe ervaring te migreren?
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-what-do-we-have-to-plan-for-to-migrate-to-the-new-experience"></a>Mijn organisatie gebruikt de Human Resources-module in Dynamics 365 Finance, Supply Chain Management, Commerce of Project Operations. Waarvoor moeten we plannen om naar de nieuwe ervaring te migreren?
 
-Voor organisaties die de HR-module gebruiken in Finance and Operations-apps wordt de nieuwe functiefunctionaliteit van Dynamics 365 Human Resources toegepast op uw omgeving via het standaard One Version-updateproces. U kunt de nieuwe functionaliteit in uw omgeving verwachten wanneer deze in elke update beschikbaar komt. U kunt Functiebeheer gebruiken om nieuwe functies in te schakelen. U kunt echter beter de validatie van die functies plannen. Volg de processen die u hebt ingericht voor het valideren van andere updates van uw omgeving. Zie [Overzicht van One Version](../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md) voor meer informatie over het toepassen van updates op Finance and Operations-apps.
+Voor organisaties die de HR-module gebruiken in Finance and Operations-apps wordt de nieuwe functiefunctionaliteit van Dynamics 365 Human Resources toegepast op uw omgeving via het standaard One Version-updateproces. U kunt de nieuwe functionaliteit in uw omgeving verwachten wanneer deze in elke update beschikbaar komt. U kunt Functiebeheer gebruiken om nieuwe functies in te stellen, maar u moet het valideren van deze functies wel inplannen. Volg de processen die u hebt ingericht voor het valideren van andere updates van uw omgeving. Zie [Overzicht van One Version](../fin-ops-core/dev-itpro/lifecycle-services/oneversion-overview.md) voor meer informatie over het toepassen van updates op Finance and Operations-apps.
 
 ### <a name="when-will-my-organization-be-migrated"></a>Wanneer wordt mijn organisatie gemigreerd?
 
 De migratie voor elke organisatie is afhankelijk van de huidige configuratie en gereedheid om naar de nieuwe infrastructuur te migreren. Deze datums kunnen worden gewijzigd.
 
-- Organisaties die momenteel de HR-module in Finance and Operations-apps gebruiken, ontvangen de HR-functionaliteit Dynamics 365 Human Resources als onderdeel van het normale One Version-updateproces. Volgens planning zullen vanaf oktober 2021 nieuwe functies algemeen beschikbaar komen.
-- Organisaties die momenteel alleen met Dynamics 365 Human Resources werken, hebben toegang tot migratieprogramma's, zodat ze vanaf midden 2022 kunnen beginnen met testen en het uitvoeren van de migratie. De datum waarop de migratie naar de nieuwe infrastructuur moet zijn voltooid, is nog niet vastgesteld. Het is echter ten minste één jaar na de datum waarop migratieprogramma's beschikbaar komt.
-- Organisaties die momenteel zowel met Dynamics 365 Human Resources als met andere Finance and Operations-apps werken, hebben toegang tot migratieprogramma's, zodat ze vanaf eind 2022 kunnen beginnen met testen en het uitvoeren van de migratie. De datum waarop de migratie naar de nieuwe infrastructuur moet zijn voltooid, is nog niet vastgesteld. Het is echter ten minste één jaar na de datum waarop migratieprogramma's beschikbaar komt.
+- Organisaties die de HR-module in Finance and Operations-apps gebruiken, ontvangen de HR-functionaliteit Dynamics 365 Human Resources als onderdeel van het normale One Version-updateproces. Volgens planning zullen vanaf januari 2022 nieuwe functies algemeen beschikbaar komen.
+- Organisaties die alleen met Dynamics 365 Human Resources werken, hebben toegang tot migratieprogramma's, zodat ze vanaf midden 2022 kunnen beginnen met testen en het uitvoeren van de migratie. De datum waarop de migratie naar de nieuwe infrastructuur moet zijn voltooid, is nog niet vastgesteld. Het is echter ten minste één jaar na de datum waarop migratieprogramma's beschikbaar komt.
+- Organisaties die zowel met Dynamics 365 Human Resources als met andere Finance and Operations-apps werken, hebben toegang tot migratieprogramma's, zodat ze vanaf eind 2022 kunnen beginnen met testen en het uitvoeren van de migratie. De datum waarop de migratie naar de nieuwe infrastructuur moet zijn voltooid, is nog niet vastgesteld. Het is echter ten minste één jaar na de datum waarop migratieprogramma's beschikbaar komt.
 
 Zie [Nieuwe of gewijzigde functies in Human Resources](./hr-admin-whats-new.md) voor meer informatie over de nieuwe functies voor Dynamics 365 Human Resources.
+
+### <a name="my-organization-has-not-yet-gone-live-on-dynamics-365-human-resources-should-we-go-live-with-the-human-resources-module-in-the-finance-and-operations-apps-or-with-the-dynamics-365-human-resources-app-on-the-legacy-infrastructure"></a>Mijn organisatie is nog niet live gegaan met Dynamics 365 Human Resources. Moeten we live gaan met de Human Resources-module in Finance and Operations-apps of met de Dynamics 365 Human Resources-app op de verouderde infrastructuur?
+
+Belangrijke items om rekening mee te houden, zijn de benodigde HR-functionaliteit en het moment waarop die functionaliteit beschikbaar zal zijn op de nieuwe infrastructuur. Als de organisatie de basisfunctionaliteit voor personeelsbeheer nodig heeft, dan is die momenteel beschikbaar in de HR-module van de Finance and Operations-apps op de nieuwe infrastructuur. Functiepariteit tussen de HR-module van Finance and Operations-apps en de Dynamics 365 Human Resources-app zal naar verwachting beschikbaar zijn met release 10.0.25, die gepland staat voor algemene beschikbaarheid in maart 2022. Integratiefuncties zoals de integratie tussen de Teams-app en Dataverse-entiteit zijn beschikbaar in latere versies.
+
+Als de HR-functionaliteit van de organisatie beschikbaar moet zijn op de nieuwe infrastructuur binnen de periode waarin de organisatie live gaat, is het mogelijk eenvoudiger om live te gaan op de Human Resources-module in de Finance and Operations-apps. Dit resulteert in een eenvoudiger migratie omdat het een standaardtoepassingsupgrade naar de Dynamics 365 Human Resources-toepassing is en de klant de nieuwe infrastructuur al in gebruik heeft. Als de organisatie besluit live te gaan op de Dynamics 365 Human Resources-toepassing op de verouderde infrastructuur, is een migratie van de omgeving nodig om naar de nieuwe infrastructuur over te stappen. Dit kan worden voorkomen door live te gaan op de nieuwe infrastructuur.
 
 ### <a name="i-am-using-new-capabilities-that-are-available-only-in-dynamics-365-human-resources-such-as-leave-and-absence-and-benefits-management-will-these-capabilities-now-be-available-in-the-human-resources-module-on-the-finance-and-operations-infrastructure-too"></a>Ik gebruik nieuwe mogelijkheden die alleen beschikbaar zijn in Dynamics 365 Human Resources (zoals **Verlof en verzuim** en **Vergoedingenbeheer**). Zijn deze mogelijkheden nu ook beschikbaar in de module Human Resources in de Finance and Operations-infrastructuur?
 
@@ -97,7 +103,7 @@ De migratie-ervaring voor elke ISV-oplossing (Independent Software Vendor) is af
 
 ### <a name="my-organization-uses-linkedin-talent-hub-integration-with-dynamics-365-human-resources-will-this-integration-continue-to-work-after-the-infrastructure-change-is-completed"></a>Mijn organisatie maakt gebruik van integratie van LinkedIn Talent Hub met Dynamics 365 Human Resources. Blijft deze integratie werken nadat de infrastructuurwijziging is voltooid?
 
-Ja, de integratie van LinkedIn Talent Hub blijft werken na de migratie naar de nieuwe infrastructuur.
+Nee, de integratie van LinkedIn Talent Hub blijft niet werken na de migratie naar de nieuwe infrastructuur. De service voor LinkedIn Talent Hub-integratie wordt samen met de verouderde Dynamics 365 Human Resources-infrastructuur afgeschaft.
 
 ### <a name="my-organization-uses-the-human-resources-app-for-teams-will-the-app-continue-to-work-after-the-infrastructure-change-is-completed"></a>Mijn organisatie gebruikt de Human Resources-app voor Teams. Blijft de app werken nadat de infrastructuurwijziging is voltooid?
 
@@ -109,13 +115,13 @@ Ja, aangepaste beveiligingsconfiguraties worden opgenomen in de gegevensmigratie
 
 ### <a name="we-are-using-data-integrator-to-move-data-between-dynamics-365-human-resources-and-finance-and-operations-apps-how-will-the-data-that-is-currently-being-integrated-be-affected"></a>We gebruiken Data Integrator om gegevens te verplaatsen tussen Dynamics 365 Human Resources- en Finance and Operations-apps. Wat zijn de gevolgen voor de gegevens die momenteel worden geïntegreerd?
 
-HR-gegevens die momenteel worden beheerd in Dynamics 365 Human Resources worden gesynchroniseerd met Dataverse. Vervolgens kan Data Integrator worden gebruikt voor synchronisatie in één richting met Finance and Operations-apps. Na de migratie naar de nieuwe infrastructuur zijn HR-gegevens native voor Finance and Operations-apps. Data integrator is niet langer nodig om de gegevens tussen Finance and Operations-apps en Human Resources te synchroniseren.
+HR-gegevens die momenteel in Dynamics 365 Human Resources staan, worden gesynchroniseerd met Dataverse. Vervolgens kan Data Integrator worden gebruikt voor synchronisatie in één richting met Finance and Operations-apps. Na de migratie naar de nieuwe infrastructuur zijn HR-gegevens native voor de Finance and Operations-apps. Data integrator is niet langer nodig om de gegevens tussen Finance and Operations-apps en Human Resources te synchroniseren.
 
 De huidige native Dataverse-gegevenstabellen voor Human Resources blijven de gegevens uit de omgeving in de nieuwe infrastructuur synchroniseren. De entiteiten worden geconverteerd voor ondersteuning van twee keer wegschrijven. Alle andere gegevensintegraties die via Data Integrator voor deze tabellen zijn geconfigureerd voor andere Dynamics 365-apps, blijven werken zoals ze momenteel zijn geconfigureerd.
 
 ### <a name="we-are-using-dual-write-to-move-hr-data-between-dataverse-and-other-finance-and-operations-apps-how-will-the-data-that-is-currently-being-integrated-be-affected-by-the-migration-to-the-new-infrastructure"></a>Er wordt nu gebruikgemaakt van twee keer wegschrijven om HR-gegevens te verplaatsen tussen Dataverse en andere Finance and Operations-apps. Hoe worden de gegevens die momenteel worden geïntegreerd, beïnvloed door de migratie naar de nieuwe infrastructuur?
 
-HR-gegevens worden native voor de Finance and Operations-apps in de omgeving in de nieuwe infrastructuur. Vervolgens wordt twee keer wegschrijven gebruikt om HR-gegevens te verplaatsen tussen de nieuwe omgeving en de Dataverse-omgeving.
+HR-gegevens worden native voor de Finance and Operations-apps in de omgeving in de nieuwe infrastructuur. Twee keer wegschrijven wordt gebruikt om HR-gegevens te verplaatsen tussen de nieuwe omgeving en de Dataverse-omgeving.
 
 ### <a name="we-have-built-custom-integrations-from-dynamics-365-human-resources-to-one-or-more-external-systems-will-we-have-to-develop-new-integrations-after-the-infrastructure-change-is-completed"></a>Wij hebben aangepaste integraties opgebouwd vanuit Dynamics 365 Human Resources naar een of meer externe systemen. Zullen we nieuwe integraties moeten ontwikkelen nadat de infrastructuurwijziging is voltooid?
 
@@ -123,15 +129,15 @@ Dit is afhankelijk van het integratie-eindpunt. Zie [Integratieoverzicht](../fin
 
 ### <a name="we-have-extended-dataverse-for-dynamics-365-human-resources-will-these-extensions-be-migrated-automatically"></a>We hebben Dataverse voor Dynamics 365 Human Resources uitgebreid. Worden deze extensies automatisch gemigreerd?
 
-Als de Dynamics 365 Human Resources- en Finance and Operations-omgevingen die in de omgeving verbonden worden met de nieuwe infrastructuur aan dezelfde Dataverse-omgeving zijn verbonden, blijven de twee apps verbonden met dezelfde Dataverse-omgeving na de migratie. Daarom is geen migratie vereist voor Dataverse-extensies.
+Als de Dynamics 365 Human Resources- en Finance and Operations-omgevingen die in de omgeving verbonden worden met de nieuwe infrastructuur aan dezelfde Dataverse-omgeving zijn verbonden, blijven de twee apps verbonden met dezelfde Dataverse-omgeving na de migratie. Er is geen migratie vereist voor Dataverse-extensies.
 
-Als echter de Dynamics 365 Human Resources- en Finance and Operations-omgevingen momenteel verbonden zijn met aparte Dataverse-omgevingen, moeten de twee Dataverse-omgevingen worden gecombineerd zodat zij zijn verbonden met een enkele omgeving in de nieuwe infrastructuur. Voor deze Dataverse-migratie kunnen de Dataverse-tabellen die standaard in de Human Resources-oplossingen zijn opgenomen, worden verbonden opnieuw gesynchroniseerd met de nieuwe Dataverse-omgeving. Extensies voor de Dataverse-omgeving worden echter niet automatisch gemigreerd, maar moeten opnieuw worden geïmplementeerd in de nieuwe omgeving. Het is raadzaam om beheerde oplossingen te gebruiken om uw Dataverse-extensies te beheren. Zie [Inleiding tot oplossingen](https://docs.microsoft.com/powerapps/developer/data-platform/introduction-solutions) voor meer informatie.
+Als echter de Dynamics 365 Human Resources- en Finance and Operations-omgevingen momenteel verbonden zijn met aparte Dataverse-omgevingen, moeten de twee Dataverse-omgevingen worden gecombineerd zodat zij zijn verbonden met een enkele omgeving in de nieuwe infrastructuur. Voor deze Dataverse-migratie kunnen de Dataverse-tabellen die standaard in de Human Resources-oplossingen zijn opgenomen, worden verbonden opnieuw gesynchroniseerd met de nieuwe Dataverse-omgeving. Eventuele extensies voor de Dataverse-omgeving worden niet automatisch gemigreerd, maar moeten opnieuw worden geïmplementeerd in de nieuwe omgeving. Het is raadzaam om beheerde oplossingen te gebruiken om uw Dataverse-extensies te beheren. Zie [Inleiding tot oplossingen](/powerapps/developer/data-platform/introduction-solutions) voor meer informatie.
 
 ### <a name="we-have-configured-microsoft-power-automate-flows-andor-microsoft-power-apps-to-work-with-dynamics-365-human-resources-will-these-microsoft-power-platform-components-be-migrated-and-work-automatically-after-the-infrastructure-change-is-completed"></a>We hebben Microsoft Power Automate-stromen en/of Microsoft Power Apps geconfigureerd om te werken met Dynamics 365 Human Resources. Worden deze Microsoft Power Platform-onderdelen gemigreerd en werken ze automatisch nadat de wijziging in de infrastructuur is voltooid?
 
 Power Apps, Power Automate-stromen en andere Microsoft Power Platform-aanpassingen zijn vergelijkbaar met Dataverse-extensies. Of zij automatisch werken na de migratie naar de nieuwe infrastructuur is afhankelijk van of de HumanResources-app en de Finance and Operations-apps vóór de migratie met dezelfde Power Apps-omgeving waren verbonden.
 
-Als de apps momenteel met dezelfde Power Apps-omgeving zijn verbonden, blijven ze verbonden met die Power Apps-omgeving na de migratie naar de nieuwe infrastructuur. In dit geval blijven Power Apps, Power Automate-stromen en andere Microsoft Power Platform-aanpassingen werken zonder extra configuratie. Het is raadzaam om beheerde oplossingen te gebruiken om uw toepassingsextensies in Dataverse te beheren. Zie [Inleiding tot oplossingen](https://docs.microsoft.com/powerapps/developer/data-platform/introduction-solutions) voor meer informatie.
+Als de apps momenteel met dezelfde Power Apps-omgeving zijn verbonden, blijven ze verbonden met die Power Apps-omgeving na de migratie naar de nieuwe infrastructuur. In dit geval blijven Power Apps, Power Automate-stromen en andere Microsoft Power Platform-aanpassingen werken zonder extra configuratie. Het is raadzaam om beheerde oplossingen te gebruiken om uw toepassingsextensies in Dataverse te beheren. Zie [Inleiding tot oplossingen](/powerapps/developer/data-platform/introduction-solutions) voor meer informatie.
 
 Als de Human Resources-app en de Finance and Operations-apps echter met aparte Power Apps-omgevingen zijn verbonden, moeten deze worden gecombineerd als onderdeel van de migratie. Voor deze taak moeten eventuele Power Apps en andere aanpassingen opnieuw worden geïmplementeerd in de nieuwe omgeving.
 
@@ -173,7 +179,7 @@ Na de migratie hebben klanten veel meer flexibiliteit met betrekking tot ALM en 
 
 ### <a name="how-will-the-migration-affect-my-lcs-project-for-dynamics-365-human-resources"></a>Welke gevolgen heeft de migratie voor mijn LCS-project voor Dynamics 365 Human Resources?
 
-Bij de migratie naar de nieuwe infrastructuur verplaatst u het beheer van uw Dynamics 365 Human Resources-omgevingen naar een LCS-implementatieproject. Als bij de migratie Dynamics 365 Human Resources wordt samengevoegd met een bestaande Finance and Operations-omgeving, wordt uw Human Resources LCS-project samengevoegd in het LCS-implementatieproject voor de Finance and Operations-app. Als u op dit moment alleen met Dynamics 365 Human Resources werkt, wordt er een nieuw LCS-implementatieproject gemaakt en wordt uw bestaande Human Resources LCS-project gemigreerd naar het nieuwe project.
+Bij de migratie naar de nieuwe infrastructuur verplaatst u het beheer van uw Dynamics 365 Human Resources-omgevingen naar een Finance and Operations-implementatieproject in LCS. Als bij de migratie Dynamics 365 Human Resources wordt samengevoegd met een bestaande Finance and Operations-omgeving, wordt uw Human Resources LCS-project samengevoegd in het LCS-implementatieproject voor de Finance and Operations-app. Als u op dit moment alleen met Dynamics 365 Human Resources werkt, wordt er een nieuw LCS-implementatieproject gemaakt en wordt uw bestaande Human Resources LCS-project gemigreerd naar het nieuwe project.
 
 Het nieuwe project wordt hetzelfde type project als door Finance and Operations-apps wordt gebruikt. Het zal over dezelfde functies en functionaliteit voor omgevingsbeheer beschikken. Zie [Lifecycle Services-resources](../fin-ops-core/dev-itpro/lifecycle-services/lcs.md) voor meer informatie=.
 
@@ -217,7 +223,7 @@ Deze documentatie vervangt geen enkele wettelijke documentatie die gebruiksrecht
 
 Klanten die Dynamics 365 Human Resources-licenties hebben aangeschaft worden niet beïnvloed. Er vindt geen migratie van licenties plaats voor deze klant. De extra sandbox-voorraadeenheid (SKU) die specifiek was voor Human Resources, is niet langer van toepassing. In plaats daarvan kunnen klanten ervoor kiezen om een Tier 2-sandbox voor Finance and Operations-apps te kopen voor een iets lagere prijs. Bestaande klanten die een Human Resources-sandbox hebben gekocht, worden zonder extra kosten naar een Tier 2-sandbox voor Finance and Operations-apps gemigreerd.
 
-### <a name="my-organization-uses-dynamics-365-human-resources-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-does-my-licensing-or-cost-change"></a>Mijn organisatie gebruikt Dynamics 365 Human Resources in Dynamics 365 Finance, Supply Chain Management, Commerce of Project Operations. Veranderen mijn licenties of kosten?
+### <a name="my-organization-uses-the-human-resources-module-in-dynamics-365-finance-supply-chain-management-commerce-or-project-operations-does-my-licensing-or-cost-change"></a>Mijn organisatie gebruikt de Human Resources-module in Dynamics 365 Finance, Supply Chain Management, Commerce of Project Operations. Veranderen mijn licenties of kosten?
 
 Bestaande gebruikers van Dynamics 365-toepassingen en gebruikers van zelfstandige versies van Dynamics 365 Finance, Supply Chain Management, Commerce en Project Operations hebben toegang tot Human Resources als onderdeel van deze licenties tot februari 2025 of totdat de huidige licentieovereenkomst vervalt, indien dat eerder is. U kunt ervoor kiezen eerder naar Human Resources-licenties over te stappen als u hierdoor meer kosten kunt besparen. Vanaf februari 2025 moeten alle bestaande CSP- en EA-klanten HRM-licenties kopen om te kunnen profiteren van de nieuwe mogelijkheden die met de Finance and Operations-apps worden geboden.
 

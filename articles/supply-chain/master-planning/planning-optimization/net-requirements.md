@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a25eb9e6efc85d2c26e46b925135b3c7c69b1c26173267a2ce3f001f35fd0bab
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: 77b04f417e5bd8d236fa53810f9cbfe5860d9dd7
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7012156"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343233"
 ---
 # <a name="net-requirements-and-pegging-information-with-planning-optimization"></a>Nettovereisten en informatie over tracering van de behoefte met Planningsoptimalisatie
 
@@ -30,8 +30,8 @@ Op de pagina **Nettovereisten** worden de nettovereisten weergegeven die voor he
 
 U kunt de pagina **Nettovereisten** op een van de volgende manieren openen:
 
-- Ga naar **Productgegevensbeheer \> Producten \> Vrijgegeven producten**. Selecteer of open een product. Selecteer vervolgens in het Actievenster het tabblad **Plannen** in de groep **Vereiste** en selecteer **Nettovereisten**.
-- Ga naar **Verkoop en marketing \> Verkooporders \> Alle verkooporders**. Open een verkooporder. Selecteer op de werkbalk op het sneltabblad **Verkooporderregels** vervolgens **Product en voorraad \> Nettovereisten**.
+- Ga naar **Productgegevensbeheer \> Producten \> Vrijgegeven producten**. Selecteer of open een product. Selecteer vervolgens in het deelvenster Actie het tabblad **Plannen** in de groep **Vereiste** en selecteer **Nettovereisten**.
+- Ga naar **Verkoop en marketing \> Verkooporders \> Alle verkooporders**. Open een verkooporder. Selecteer op de werkbalk in het sneltabblad **Verkooporderregels** vervolgens **Product en voorraad \> Nettovereisten**.
 - Ga naar **Hoofdplanning \> Hoofdplanning \> Geplande orders**. Selecteer of open een geplande verkooporder. Selecteer vervolgens in het Actievenster het tabblad **Weergeven** in de groep **Vereisten** en selecteer **Behoefteprofiel**.
 
 ## <a name="use-the-net-requirements-page"></a>Gebruik de pagina Nettovereisten
@@ -61,7 +61,7 @@ Het onderste gedeelte van de pagina bevat de volgende tabbladen:
 
 ### <a name="the-action-pane"></a>Het actievenster
 
-De volgende opdrachten zijn beschikbaar op het actievenster:
+De volgende opdrachten zijn beschikbaar in het actievenster:
 
 - **Hoofdplanning \> bijwerken** – Hoofdplanning rechtstreeks vanaf de pagina **Nettovereisten** uitvoeren.
 - **Prognoseplanning \> bijwerken** – Prognoseplanning rechtstreeks vanaf de pagina **Nettovereisten** uitvoeren. Deze bewerking wordt nog niet ondersteund door Planningsoptimalisatie.
@@ -79,9 +79,9 @@ Voordat u dit scenario doorloopt, moeten de volgende vereisten worden voorbereid
 2. In dit voorbeeld wordt product *1000* gebruikt, dat deel uitmaakt van de voorbeeldgegevens van USMF. Zorg ervoor dat dit product beschikbaar is en dat het op de volgende manier is ingesteld:
 
     - **Standaardordertype:** *Inkooporder*
-    - **Voorhanden voorraad:** *10.00*
+    - **Voorhanden voorraad:** *10,00*
 
-3. Maak een verkooporder voor een hoeveelheid van *25.00* van product *1000*. Gebruik de opslagdimenssie waar de voorhanden voorraad zich bevindt.
+3. Maak een verkooporder voor een hoeveelheid van *25,00* van product *1000*. Gebruik de opslagdimenssie waar de voorhanden voorraad zich bevindt.
 4. Hoofdplanning uitvoeren voor het hoofdplan *DynPlan*.
 
 ### <a name="review-the-calculated-requirements"></a>Controleer de berekende behoeften
@@ -98,39 +98,39 @@ Vervolgens opent u de pagina **Nettovereisten** voor product *1000* om te contro
     |---|---|---|
     | Voorhanden | 10.00 | 10.00 |
     | Geplande inkooporders | 15.00 | 25.00 |
-    | Verkooporder | -25.00 | (Leeg) |
+    | Verkooporder | -25,00 | (Leeg) |
 
     > [!NOTE]
     > Het veld **Behoeftehoeveelheid** vertegenwoordigt de totale hoeveelheid die nodig is voor de behoefte (als de waarde negatief is) of voorraden (als de waarde positief is). Het veld **Samengevoegd** geeft de totale ontvangst- en uitgiftehoeveelheden weer die zijn gecumuleerd tijdens de geselecteerde periode.
 
-1. Selecteer de behoefteregel *Voorhanden* en controleer vervolgens op het sneltabblad **Tracering van de behoefte** de behoeften waarvoor deze voorraad geldt. De volgende rij moet hier worden weergegeven.
+1. Selecteer de behoefteregel *Voorhanden* en controleer vervolgens in het sneltabblad **Tracering van de behoefte** de behoeften waarvoor deze voorraad geldt. De volgende rij moet hier worden weergegeven.
 
     | Verwijzing | Behoeftehoeveelheid | Gedekte hoeveelheid |
     |---|---|---|
-    | Verkooporder | -25.00 | -10.00 |
+    | Verkooporder | -25,00 | -10.00 |
 
     De bestaande aanwezige voorraad dekt gedeeltelijk de vraag die afkomstig is van de verkooporder.
 
-    ![Informatie traceren voor de voorhanden voorraad](media/pegging-on-hand.png "Informatie traceren voor de voorhanden voorraad")
+    ![Informatie traceren voor de voorhanden voorraad](media/pegging-on-hand.png "Informatie voor de voorhanden voorraad traceren")
 
-1. Selecteer de behoefteregel *Geplande inkooporders* en controleer vervolgens op het sneltabblad **Tracering van de behoefte** de behoeften waarvoor deze voorraad geldt. De volgende rij moet hier worden weergegeven.
+1. Selecteer de behoefteregel *Geplande inkooporders* en controleer vervolgens in het sneltabblad **Tracering van de behoefte** de behoeften waarvoor deze voorraad geldt. De volgende rij moet hier worden weergegeven.
 
     | Verwijzing | Behoeftehoeveelheid | Gedekte hoeveelheid |
     |---|---|---|
-    | Verkooporder | -25.00 | -15.00 |
+    | Verkooporder | -25,00 | -15,00 |
 
     Omdat de verkooporder al gedeeltelijk is gedekt, wordt een geplande inkooporder gemaakt voor de resterende hoeveelheid.
 
-    ![Informatie traceren voor de geplande inkooporder](media/pegging-planned-purchase-order.png "Informatie traceren voor de geplande inkooporder")
+    ![Informatie traceren voor de geplande inkooporder](media/pegging-planned-purchase-order.png "Informatie voor de geplande inkooporder traceren")
 
-1. Selecteer de behoefteregel *Verkooporder* en controleer vervolgens op het sneltabblad **Tracering van de behoefte** de behoeften die deze vraag dekt. De volgende rijen moet hier worden weergegeven.
+1. Selecteer de behoefteregel *Verkooporder* en controleer vervolgens in het sneltabblad **Tracering van de behoefte** de behoeften die deze vraag dekt. De volgende rijen moeten hier worden weergegeven.
 
     | Verwijzing | Behoeftehoeveelheid | Gedekte hoeveelheid |
     |---|---|---|
     | Voorhanden | 10.00 | 10.00 |
     | Geplande inkooporders | 15.00 | 15.00 |
 
-    ![Informatie traceren voor de verkooporder](media/pegging-planned-purchase-order.png "Informatie traceren voor de verkooporder")
+    ![Informatie traceren voor de verkooporder](media/pegging-planned-purchase-order.png "Informatie voor de verkooporder traceren")
 
 > [!NOTE]
 > Aangezien een aantal functies nog niet wordt ondersteund door planningsoptimalisatie, worden de typen behoeften *Veiligheidsvoorraad* en *Vervallen batch* niet opgenomen op de pagina **Nettovereisten**. Zie [Analyse voor passende Planningsoptimalisatie](planning-optimization-fit-analysis.md) voor meer informatie.

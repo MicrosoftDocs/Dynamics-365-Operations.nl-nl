@@ -2,7 +2,7 @@
 title: De Help-ervaring voor Finance and Operations-apps configureren
 description: Dit onderwerp biedt informatie over de onderdelen van het Help-systeem voor sommige Microsoft Dynamics 365-apps.
 author: margoc
-ms.date: 05/11/2020
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6c8481a2ba54b88f0911436f352b901cde55924e2ccc15a381b8742abe85d972
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f793068a5d4df6206229249c5b37bee0ef34da8d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714518"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343807"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>De Help-ervaring voor Finance and Operations-apps configureren
 
@@ -54,7 +54,7 @@ Als u taakbegeleidingen voor een oplossing wilt configureren, volgt u deze stapp
 > [!IMPORTANT]
 > De eerste keer dat u het tabblad **Help** opent, moet u verbinding maken met Lifecycle Services. Let erop dat u de koppeling in het midden van het formulier selecteert. Wacht op de verbinding, sluit het dialoogvenster en selecteer **OK** om de pagina **Systeemparameters** te openen.
 >
-> [![Verbinding maken met LCS](./media/connect-to-lcs-crop-1024x365.png 'Verbinding maken met LCS.'](./media/connect-to-lcs-crop.png)
+> [![Verbinden met LCS](./media/connect-to-lcs-crop-1024x365.png "Verbinden met LCS.")](./media/connect-to-lcs-crop.png)
 
 1. Selecteer het project Lifecycle Services om verbinding mee te maken.
 2. Selecteer de BPM-bibliotheken (in het geselecteerde project) om taakregistraties op te halen.

@@ -1,8 +1,8 @@
 ---
 title: Waardemodellen instellen
 description: In deze procedure ziet u hoe u een nieuw vaste-activaboek maakt en deze koppelt aan een vaste-activagroep.
-author: saraschi2
-ms.date: 08/29/2018
+author: moaamer
+ms.date: 08/12/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 923c3d0c7a2d54f616452a8b927681603f4955c2d7e5ff306971561b73355743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46c26e5fad3c5c60d87c2fea2b29043c69b82b5d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741531"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344653"
 ---
 # <a name="set-up-value-models"></a>Waardemodellen instellen
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
+
 
 In deze procedure ziet u hoe u een nieuw vaste-activaboek maakt en deze koppelt aan een vaste-activagroep. Het gebruikt de rol Accountant en demogegevens voor de USMF-rechtspersoon.
-
 
 ## <a name="create-a-book"></a>Een boek maken
 1. Ga naar Vaste activa > Instellen > Boeken.
@@ -48,9 +49,10 @@ In deze procedure ziet u hoe u een nieuw vaste-activaboek maakt en deze koppelt 
 1. Klik op Vaste-activagroepen.
 2. Typ of selecteer een waarde in het veld Groep vaste activa.
 3. Voer een getal in het veld Levensduur in.
-    * Merk op dat de waarde in Afschrijvingsperioden wordt berekend nadat de levensduur is ingesteld.  
-    * U kunt de afschrijvingsconventie instellen al naar gelang de belastingvereisten.  
 
+  - Afschrijvingsperioden worden berekend, nadat de levensduur van het activum is ingevoerd.  
+  - De afschrijvingsconventie kan al naar gelang de belastingvereisten ingesteld worden.
+  - Voor vaste activa die aan leases zijn gekoppeld, wordt de waarde in het veld **Levensduur** overschreven door een lagere leasetermijn dan de leasetermijn in het activaboek of de levensduur van het activum. Als het veld **Eigendomsoverdracht** is ingesteld op **Ja** voor het leaseboek, is de waarde in het veld **Levensduur** altijd de economische levensduur van het activum.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

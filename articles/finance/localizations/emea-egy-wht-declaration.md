@@ -10,20 +10,19 @@ audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: ''
 ms.search.region: Global
-ms.author: tfehr
+ms.author: sndray
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 51f0ab8f76fe3bce91d6e4ed56bdfa8529c1aacbd326a8b4b3d80615f872f8c6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8d78af13e0b3879afd0b6dae7b1a9ece651c3fd2
+ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729546"
+ms.lasthandoff: 08/20/2021
+ms.locfileid: "7403886"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Bronbelastingaangifte voor Egypte (EG-00005)
 
 [!include[banner](../includes/banner.md)]
-
 [!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Overzicht
@@ -113,7 +112,7 @@ Voltooi de volgende stappen om het belastingaangifterapport te genereren.
 1. Ga naar **Belasting** > **Aangiften** > **Bronbelasting** > **Betaling van bronbelasting*.
 2. Selecteer de vereffeningsperiode en selecteer vervolgens de vanaf-datum voor het rapport. 
 3. Voer de transactiedatum in en selecteer vervolgens **OK**.
-4. Selecteer een of meer formuliertypen **Formulier 41**, **Formulier 11** of **Geen** in het dialoogvenster dat wordt geopend. Als u **Geen** selecteert, wordt het standaardrapport gegenereerd. 
+4. Selecteer een of meer formuliertypen **Formulier 41**, **Formulier 11** of **Geen** in het dialoogvenster dat geopend wordt. Als u **Geen** selecteert, wordt het standaardrapport gegenereerd. 
 5. Selecteer de taal. Alle rapporten worden vertaald in **en-us** en **ar-eg**.
 6. Voer het filiaal en de naam in van de bank waar de belastingbetaling plaatsvindt.
 7. Selecteer het type bedrijf en voer vervolgens de cheque- en documentnummers in. 

@@ -1,8 +1,8 @@
 ---
 title: Een technologie voor gegevensintegratie kiezen
-description: Dit artikel bevat informatie over het integreren met gegevens die worden beheerd door Human Resources. Er worden verschillende integratietechnologieën beschreven zodat u kunt bepalen welke technologie het meest geschikt is voor uw behoeften.
-author: andreabichsel
-ms.date: 02/28/2020
+description: Dit onderwerp bevat informatie over het integreren met gegevens die worden beheerd door Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5f7942d08459455192f816b2a06251d0f756b8de521d958eb38a84fa2e5616d4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d58a42236b07bf177e09aee50a207ffdf2ed1435
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720463"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414709"
 ---
 # <a name="choose-a-data-integration-technology"></a>Een technologie voor gegevensintegratie kiezen
 
@@ -28,14 +28,13 @@ ms.locfileid: "6720463"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dit artikel bevat informatie over het integreren met gegevens die worden beheerd door Dynamics 365 Human Resources. Er worden verschillende integratietechnologieën beschreven zodat u kunt bepalen welke technologie het meest geschikt is voor uw behoeften.
+Dit onderwerp bevat informatie over het integreren met gegevens die worden beheerd door Dynamics 365 Human Resources. Er worden verschillende integratietechnologieën beschreven zodat u kunt bepalen welke technologie het meest geschikt is voor uw behoeften.
 
 ## <a name="data-integration-background"></a>Achtergrond gegevensintegratie
 
 Bedrijfsgegevens zijn een belangrijk element die uw bedrijf uniek maken. De gegevens van uw bedrijf zijn zeer waardevol. U kunt de relaties tussen de gegevens die in uw bedrijf zijn verzameld, gebruiken om bedrijfsprocessen en Business Intelligence binnen uw organisatie te verbeteren. Wij streven ernaar om eenvoudig, veilig en stabiel toegang te bieden tot uw bedrijfsgegevens, ongeacht het systeem waaruit ze worden geleverd.
 
-Het integreren van gegevens tussen meerdere systemen is historisch gezien moeilijk.
-Microsoft voert stappen uit om de gegevensintegratie te vereenvoudigen en een grote stap naar dat doel wordt gerealiseerd met [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
+Het integreren van gegevens tussen meerdere systemen is historisch gezien moeilijk. Microsoft voert stappen uit om de gegevensintegratie te vereenvoudigen en een grote stap naar dat doel wordt gerealiseerd met [Dataverse](/powerapps/maker/common-data-service/data-platform-intro).
 
 Human Resources maakt van Dataverse de geprefereerde openbare interface voor Human Resources-gegevens. In de loop van de tijd verwachten we dat alle belangrijke gegevens die door Human Resources worden beheerd, zichtbaar zijn in Dataverse. Wij raden Dataverse aan als de beste technologie voor de meeste integratietoepassingen.
 

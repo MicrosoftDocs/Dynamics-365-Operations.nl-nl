@@ -1,8 +1,8 @@
 ---
 title: Veelgestelde vragen over integratie met Finance
-description: In dit artikel wordt uitgelegd welke gegevens in een integratie van Human Resources en Finance worden gesynchroniseerd.
-author: andreabichsel
-ms.date: 02/03/2020
+description: In dit onderwerp wordt uitgelegd welke gegevens in een integratie van Human Resources en Finance worden gesynchroniseerd.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3f6a3141f1c7f4e488af0318569118be10da106a035f29e1752f0a0da5a1637f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782139"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413371"
 ---
 # <a name="integration-with-finance-faq"></a>Veelgestelde vragen over integratie met Finance
 
@@ -158,8 +158,7 @@ Zorg ervoor dat wanneer u uw verbindingen maakt, u Dynamics 365 Finance en Datav
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Tijdens het synchroniseren van dienstverbanden krijg ik de fouten 'CompanyInfo_FK bestaat niet' of 'De waarde '12/31/2154 23:59:59 pm' in het veld Einddatum dienstverband' is niet gevonden in de gerelateerde tabel 'Dienstverband'. Wat moet ik doen?
 
-Zorg ervoor dat u toewijst aan de juiste rechtspersonen. Synchronisatie van rechtspersonen maakt geen deel uit van de standaardsjabloon. Dus elke rechtspersoon die aanwezig is in Human Resources en Dataverse, zal naar verwachting ook aanwezig zijn in Finance.
-Zorg er ook voor dat u de juiste rechtspersonen voor de bijbehorende verbindingenset selecteert.
+Zorg ervoor dat u toewijst aan de juiste rechtspersonen. Synchronisatie van rechtspersonen maakt geen deel uit van de standaardsjabloon. Dus elke rechtspersoon die aanwezig is in Human Resources en Dataverse, zal naar verwachting ook aanwezig zijn in Finance. Zorg er ook voor dat u de juiste rechtspersonen voor de bijbehorende verbindingenset selecteert.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Nadat ik mijn project heb ingesteld, is de veldtoewijzing voor Finance leeg. Wat moet ik doen?
 

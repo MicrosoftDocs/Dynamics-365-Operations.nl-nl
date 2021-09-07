@@ -1,8 +1,8 @@
 ---
 title: Integratie met Dayforce configureren
-description: De integratie tussen Microsoft Dynamics 365 Human Resources en Ceridian Dayforce is afhankelijk van verschillende configuratiestappen, die in dit artikel worden beschreven. Voordat u een betaling kunt verwerken, moet u de integratie configureren in zowel Human Resources als Dayforce.
-author: andreabichsel
-ms.date: 02/03/2020
+description: In dit onderwerp worden de vereiste configuratiestappen beschreven die zijn vereist voor de integratie tussen Microsoft Dynamics 365 Human Resources en Ceridian Dayforce.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 961d3bd61e85549f4124391389682bb24aceae3e16e52dc8111a44c365a8c081
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782726"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414579"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integratie met Dayforce configureren
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-De integratie tussen Microsoft Dynamics 365 Human Resources en Ceridian Dayforce is afhankelijk van verschillende configuratiestappen, die in dit artikel worden beschreven. Voordat u een betaling kunt verwerken, moet u de integratie configureren in zowel Human Resources als Dayforce.
+De integratie tussen Microsoft Dynamics 365 Human Resources en Ceridian Dayforce is afhankelijk van verschillende configuratiestappen die in dit onderwerp worden beschreven. Voordat u een betaling kunt verwerken, moet u de integratie configureren in zowel Human Resources als Dayforce.
 
 Als u een service zoals Dayforce gebruikt voor het uitvoeren van betalingen, moet u de integratie inschakelen in Human Resources. De integratie vereist specifieke gegevens vanuit Human Resources. Daarom moet u controleren of gegevens die zijn toegewezen aan Dayforce, zodanig in Human Resources zijn geconfigureerd dat de integratie wordt ondersteund. De integratie maakt gebruik van de volgende brede categorieën gegevens:
 
@@ -35,7 +35,7 @@ Als u een service zoals Dayforce gebruikt voor het uitvoeren van betalingen, moe
 - Salarisgegevens, zoals betalingscycli, salarisperioden en inkomstencodes
 - Medewerkergegevens
 
-In dit artikel worden de stappen beschreven die u moet volgen om de integratie in te schakelen. Ook wordt uitgelegd welke typen gegevens en welke configuratiedetails vereist zijn voor de integratie.
+In dit onderwerp worden de stappen beschreven die u moet volgen om de integratie in te schakelen en worden de gegevenstypen en de configuratiedetails uitgelegd die voor de integratie nodig zijn.
 
 ## <a name="enable-the-integration"></a>De integratie inschakelen
 
@@ -50,7 +50,7 @@ Voer de volgende stappen uit om de integratie in Human Resources in te schakelen
 
 Wanneer de integratie is ingeschakeld, worden het pakket voor gegevensexport en de bestanden gemaakt en wordt de frequentie ingesteld. U kunt deze frequentie naar behoefte wijzigen.
 
-Zie de volgende Azure-artikelen voor meer informatie over Azure Storage-accounts en Azure Storage-verbindingstekenreeksen:
+Zie de volgende Azure-onderwerpen voor meer informatie over Azure-opslagaccounts en verbindingstekenreeksen voor Azure Storage:
 
 - [Informatie over Azure-opslagaccounts](/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [Verbindingstekenreeks voor Azure Storage configureren](/azure/storage/common/storage-configure-connection-string)
@@ -122,7 +122,7 @@ Dayforce maakt de volgende inhoudingen, op basis van de salarisgevolgen die zijn
 | Alleen bijdrage          | Er wordt een inhouding voor de werkgever gemaakt.             |
 | Inhouding en bijdrage | Er worden inhoudingen voor werknemer en werkgever gemaakt. |
 
-Zie de volgende artikelen voor meer informatie over het definiëren en beheren van een vergoedingsprogramma:
+Zie de volgende onderwerpen voor meer informatie over het definiëren en beheren van een vergoedingsprogramma:
 
 - [Een vergoedingenprogramma voor werknemers maken](/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
 - [Een nieuwe vergoeding maken](/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
@@ -135,7 +135,7 @@ Compensatiebeheer wordt gebruikt om de betaling van basisloon en beloningen te b
 
 Dayforce gebruikt compensatie-informatie voor het berekenen van het uur- of jaartarief van een werknemer. Er zijn vastecompensatieplannen en conversies van het loontarief vereist. Werknemers moeten worden gekoppeld aan een vastecompensatieplan.
 
-Zie de volgende artikelen voor meer informatie over compensatieplannen:
+Zie de volgende onderwerpen voor meer informatie over compensatieplannen:
 
 - [Plannen voor vaste compensatie maken](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
 - [Plannen voor variabele compensatie maken](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
@@ -147,7 +147,7 @@ Zie de volgende artikelen voor meer informatie over compensatieplannen:
 
 #### <a name="jobs"></a>Taken 
 
-Een functie is een verzameling taken en verantwoordelijkheden die vereist zijn voor iedere persoon die een functie uitvoert. Zie de volgende artikelen voor meer informatie:
+Een functie is een verzameling taken en verantwoordelijkheden die vereist zijn voor iedere persoon die een functie uitvoert. Zie de volgende onderwerpen voor meer informatie:
 
 - [De onderdelen van een taak instellen](/dynamics365/unified-operations/talent/create-job)
 - [Nieuwe taken definiëren](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
@@ -172,7 +172,7 @@ Let op de volgende gegevens en configuratie bij het instellen van posities:
 
 Als meerdere posities op dezelfde afdeling aan dezelfde functie zijn gekoppeld, worden deze geconsolideerd in een enkele positie in Dayforce.
 
-Zie de volgende artikelen voor meer informatie:
+Zie de volgende onderwerpen voor meer informatie:
 
 - [Uw werknemers organiseren met afdelingen, taken en posities](/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
 - [Posities instellen](/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
@@ -181,7 +181,7 @@ Zie de volgende artikelen voor meer informatie:
 
 Een afdeling is een operationele eenheid die een categorie of functioneel onderdeel van een organisatie voorstelt. Een afdeling is verantwoordelijk voor een specifiek gebied van de organisatie, zoals verkoop, boekhouding of HR. U kunt afdelingen gebruiken om te rapporteren over functiegebieden. Afdelingen zijn mogelijk verantwoordelijk voor winst en verlies.
 
-Zie de volgende artikelen voor meer informatie:
+Zie de volgende onderwerpen voor meer informatie:
 
 - [Een afdeling maken en koppelen aan de afdelingshiërarchie](/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
 - [Nieuwe afdelingen definiëren](/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)

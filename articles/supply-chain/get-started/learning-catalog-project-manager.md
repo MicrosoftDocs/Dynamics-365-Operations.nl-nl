@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 76e7c0be047decb40019be207a735be27f79d78b4cde9321e8c3728bdbd45e35
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b337e80db6d47354dc187477832add370a164172
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760533"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402196"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-supply-chain-management"></a>Trainingscatalogus voor implementatieprojectmanagers die werken met Dynamics 365 Supply Chain Management
 
@@ -27,8 +27,8 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 
 ## <a name="get-started"></a>Aan de slag<a name="get-started"></a>
 
-| Inhoud | Omschrijving  | Indeling  | Lengte    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|-----------|
+| Inhoud | Omschrijving | Indeling | Lengte |
+|---------|-------------|--------|--------|
 | [De bedrijfswaarde van Microsoft Dynamics 365 en Power Platform leren kennen](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Wilt u graag meer weten over zakelijke toepassingen? Misschien weet u niet waar u moet beginnen de toepassingen Microsoft Dynamics 365 en Power Platform? Lees hoe de kracht van zakelijke toepassingen uw bedrijf kan helpen transformeren. | Gratis online leertraject voor zelfstudie | 7 uur |
 | [Grondbeginselen van Dynamics 365 en Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Wilt u graag meer weten over zakelijke toepassingen? Begin met dit leertraject om te zien hoe Dynamics 365-apps worden gebruikt. Lees over cloudconcepten, Power Platform en hoe u aan de slag gaat met Dynamics 365-apps. | Gratis online leertraject voor zelfstudie | 5.5 uur |
 | [Aan de slag met Finance and Operations-apps](/learn/paths/get-started-finance-operations/) | Leer hoe Finance and Operations-apps bedrijven ondersteunen om hun algemene financiële systemen, operationele bedrijfsprocessen en gestroomlijnde toeleveringsketens te beheren om mensen te helpen snelle en gefundeerde beslissingen te nemen. Als eerste stap bij het werken met Finance and Operations-apps moet u vertrouwd raken met de voorzieningen en de functionaliteit, ongeacht uw gewenste rol. | Gratis online leertraject voor zelfstudie | 2 uur |
@@ -38,8 +38,8 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 
 ## <a name="core-platform-knowledge"></a>Basiskennis van platforms<a name="core-platform-knowledge"></a>
 
-| Inhoud  | Omschrijving  | Indeling   | Lengte    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| Inhoud | Omschrijving | Indeling | Lengte |
+|---------|-------------|--------|--------|
 | [Lifecycle Services gebruiken om een implementatie te ontwerpen en te plannen voor Finance and Operations-apps](/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) is een werkgebied voor samenwerking dat door klanten en hun partners wordt gebruikt voor het beheren van projecten in Finance and Operations-apps, van voorlopige verkoop tot de implementatiefase en uiteindelijk tot de productieomgeving. LCS bevat controlelijsten en hulpmiddelen waarmee u het project kunt beheren, waaronder pre-build-methodologieën om te helpen bij de implementatie en regelmatig bijgewerkte services. | Gratis online leertraject voor zelfstudie | 2 uur |
 | [Uw organisatie configureren in Finance and Operations-apps](/learn/paths/configure-your-organization-finance-ops/) | Als functionele consultant die met Finance and Operations-apps werkt, moet u weten hoe u een organisatie voor uw klant instelt. In dit leertraject laat onder andere zien hoe u rechtspersonen instelt, beveiligingsinstellingen implementeert, de gebruikersinterface van gebruikers aanpast, mobiele apps ontwerpt en bouwt en algemene integraties implementeert. | Gratis online leertraject voor zelfstudie | 12 uur |
 | [Gegevens migreren en live gaan met Finance and Operations-apps](/learn/paths/migrate-data-go-live-finance-operations/) | Als functionele consultant moet u begrijpen hoe u de gegevens van klanten voorbereidt voor migratie, hoe u werkt met gegevensbeheer en hoe u acceptatietests voor gebruikers uitvoert om live te gaan met Finance and Operations-apps. | Gratis online leertraject voor zelfstudie | 4 uur |
@@ -69,8 +69,8 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 
 ## <a name="supply-chain-management"></a>Toeleveringsbeheer<a name="supply-chain-management"></a>
 
-| Inhoud  | Omschrijving  | Indeling | Lengte    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| Inhoud | Omschrijving | Indeling | Lengte |
+|---------|-------------|--------|--------|
 | [Producten en voorraad configureren en beheren in Dynamics 365 Supply Chain Management](/learn/paths/configure-manage-products-inventory-dyn365-supply-chain-mgmt/) | Productgegevens vormen de basis van toepassingen voor supply chain en retail in alle bedrijfstakken. In de verschillende modules van een oplossing zijn productspecifieke informatie en configuratie vereist om de bedrijfsprocessen te beheren die zijn gerelateerd aan specifieke producten, productfamilies, stuklijsten en productcategorieën. In de voorraadrapporten wordt aangegeven hoeveel voorraad u op verschillende manieren hebt en wordt uitgelegd hoe u uw voorraadinvesteringen effectiever kunt uitvoeren. | Gratis online leertraject voor zelfstudie | 6 uur |
 | [Inkoop en leveranciers configureren en beheren in Dynamics 365 Supply Chain Management](/learn/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) | Het proces van het zoeken naar en het werken met leveranciers, het kopen van producten en het garanderen van de kwaliteit van goederen en diensten zijn allemaal belangrijke factoren die van invloed zijn op de reputatie en het succes van een bedrijf. | Gratis online leertraject voor zelfstudie | 6 uur |
 | [Magazijnbeheer configureren en gebruiken in Dynamics 365 for Finance and Operations](/learn/paths/configure-work-warehouse-management-d365-finance-ops/) | Magazijnbeheer in Dynamics 365 for Finance and Operations helpt u bij het optimaliseren en stroomlijnen van magazijnprocessen op basis van uw specifieke behoeften, en biedt inzicht in uw voorraad en de hulpmiddelen om de tevredenheid van klanten te vergroten en kosten te verlagen. | Gratis online leertraject voor zelfstudie | 5 uur |
@@ -86,8 +86,8 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 
 ## <a name="manufacturing"></a>Productie<a name="manufacturing"></a>
 
-| Inhoud  | Omschrijving  | Indeling    | Lengte    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
+| Inhoud | Omschrijving | Indeling | Lengte |
+|---------|-------------|--------|--------|
 | [Afzonderlijke productie configureren en gebruiken in Dynamics 365 Supply Chain Management](/learn/paths/configure-use-discrete-manufacturing-dyn365-supply-chain-mgmt/) | Als een bedrijf alleen eenvoudige producten produceert, kan de productie handmatig worden gepland met de juiste stuklijstonderdelen die op de productievloer arriveren, op de juiste tijd en bij de juiste resource. Als functionele consultant voor productie moet u weten hoe u Dynamics 365 for Finance and Operations kunt configureren voor afzonderlijke productie, zodat uw klant de levenscyclus van de productie kan uitvoeren en beheren. | Gratis online leertraject voor zelfstudie | 9 uur |
 | [Lean manufacturing configureren en gebruiken in Dynamics 365 Supply Chain Management](/learn/paths/configure-use-lean-manufacturing-dyn365-supply-chain-mgmt/) | Lean manufacturing is een traject van voortdurende verbetering. Het doel is om precies te produceren wat de klant wil en wanneer de klant dat wil, en om dat op een economische manier te doen. U kunt lean manufacturing gebruiken in een geïntegreerde (gemengde) productieomgeving die verschillende leveringen, producties en sourcingstrategieën combineert. Deze strategieën omvatten productieorders, batchorders voor procesindustrieën, inkooporders en overdrachtorders. De architectuur van lean manufacturing in Dynamics 365 for Finance and Operations bestaat uit productiestromen, activiteiten en kanbanregels. | Gratis online leertraject voor zelfstudie | 6.5 uur |
 | [Procesfabricage configureren en gebruiken in Dynamics 365 Supply Chain Management](/learn/paths/configure-use-process-manufacturing-dyn365-supply-chain-mgmt/) | Procesfabricage is gekoppeld aan formules en productierecepten, in tegenstelling tot afzonderlijke productie, waarbij afzonderlijke eenheden en stuklijsten worden gebruikt. Procesfabricage wordt gebruikt in productieomgevingen waar de productie wordt voltooid in batch- of semi-continue processen. | Gratis online leertraject voor zelfstudie | 6 uur |
@@ -98,13 +98,12 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 
 ## <a name="exams"></a>Examens<a name="exams"></a>
 
-| Inhoud  | Omschrijving  | Indeling   |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------|
+| Inhoud | Omschrijving | Indeling |
+|---------|-------------|--------|
 | [Microsoft-certificering: Dynamics 365 for Finance and Operations, Functionele consultant-expert voor Supply Chain Management](https://www.microsoft.com/learning/d365-functional-consultant-supply-chain-management.aspx) | Microsoft-certificering: Dynamics 365 for Finance and Operations, functionele consultants voor Supply Chain Management stroomlijnen de kostprijsboekhouding, voorraadbeheer, hoofdplanning en magazijnbeheer voor hun klanten. | Certificering, kosten verschillen per regio |
 | [Microsoft-certificering: Dynamics 365 for Finance and Operations, Functionele productieconsultant-expert](https://www.microsoft.com/learning/d365-functional-consultant-manufacturing.aspx) | Microsoft-certificering: Dynamics 365 for Finance and Operations, Functionele productieconsultants integreren digitale en fysieke systemen; verbeteren de zichtbaarheid, fabricage-efficiëntie en flexibiliteit; en verlagen de kosten voor klanten. | Certificering, kosten verschillen per regio |
 | [Examen MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Dit examen meet of u de volgende technische taken kunt uitvoeren: gebruik van algemene functies en implementatieprogramma's; beveiliging, processen en opties configureren; gegevensmigratie uitvoeren en de oplossing valideren en ondersteunen. | Examen, kosten verschillen per regio |
 | [Examen MB-320: Microsoft Dynamics 365 for Finance and Operations, Productie](/learn/certifications/exams/mb-320?wt.mc_id=learningredirect_certs-web-wwl) | Dit examen meet of u de volgende technische taken kunt uitvoeren: de productie instellen en configureren; orders voor productie en lean manufacturing maken en beheren; en batchorders maken, verwerken en beheren. | Examen, kosten verschillen per regio |
 | [Examen MB-330: Microsoft Dynamics 365 for Finance and Operations, Supply Chain Management](/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | Dit examen meet of u de volgende technische taken kunt uitvoeren: het beheer van productgegevens implementeren; voorraadbeheer implementeren; toeleveringsprocessen implementeren en beheren; en implementeren van magazijnbeheer en transportbeheer en uitvoeren van bedrijfsprocessen. | Examen, kosten verschillen per regio |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

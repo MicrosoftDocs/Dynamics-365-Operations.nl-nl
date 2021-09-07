@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f9dfa54f0a2b849a38c71a041f6d72dd84c762edba3482575b0b7867b1e11a53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5055d18e57d36bc8218bb0423721056e33fc3018
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716616"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402171"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Trainingscatalogus voor implementatieprojectmanagers die werken met Dynamics 365 Finance
 
@@ -61,7 +61,6 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [Upgraden naar 7.2 (juli 2017) vanaf 7.0 (RTW)/7.1 (Release 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | In deze sessie wordt uitgelegd hoe u een upgrade uitvoert van de Dynamics 365 Finance and Operations-toepassing v 7.0 (RTW) en v 7.1 (1611) naar v 7.2 (juli 2017). Wij maken een duidelijk onderscheid tussen live klanten en lopende projecten (die nog niet live zijn). | TechTalk (opgenomen webinar) | 58 minuten |
 | [Finance and Operations: Upgraden van 7.x naar 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Doe mee aan onze volgende TechTalk, waarin we het upgradeproces van 7.X naar 8.X zullen behandelen. Er komen diverse scenario's en stappen aan de orde voor het uitvoeren van code- en gegevensupgrades. Verder worden scenario's voor uitbreidingsaanvragen besproken en hoe u deze indien nodig kunt indienen. Deel 1 van 2. | TechTalk (opgenomen webinar) | 61 minuten |
 | [Upgrade van AX2012 naar Dynamics 365 for Operations (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Deze TechTalk geeft een overzicht van het upgraden van code en gegevens van Dynamics AX 2012 naar Dynamics 365 for Operations. | TechTalk (opgenomen webinar) | 45 minuten |
-| [Rapportageopties in Dynamics 365 for Operations (VIR810PAL) ](https://community.dynamics.com/365/b/techtalks/posts/reporting-options-in-dynamics-365-for-operations-february-23-2017) | In deze sessie worden verschillende afdrukscenario's in D365 for Operations besproken, waaronder tips en trucs voor Documentrouteringsagent. | TechTalk (opgenomen webinar) | 60 minuten |
 | [Opties voor analyses en rapportage, afdrukken en de documentrouteringsagent](https://community.dynamics.com/365/b/techtalks/posts/analytics-amp-reporting-options-printing-and-the-document-routing-agent-february-8-2018)| Woon deze TechTalk bij over twee verwante onderwerpen. Eerst bespreken we de analyse- en rapportageoplossingspatronen en -tools voor Dynamics 365 for Finance and Operations, Enterprise Edition. Ten tweede bespreken we afdrukscenario's en de routeringsagent voor documenten. | TechTalk (opgenomen webinar) | 45 minuten |
 | [Cursus MB-300T01-A: Algemene kernfuncties van Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T01) | In deze cursus worden de belangrijkste algemene kenmerken van Microsoft Dynamics 365 for Finance and Operations besproken. | Geleid door een docent of online training, kosten variëren per regio en partner | 1 dag |
 | [Cursus MB-300T02-A: Kernconfiguratie in Dynamics 365 for Finance and Operations](https://www.microsoft.com/learning/course.aspx?cid=MB-300T02) | In deze cursus worden kernconfiguratietaken besproken voor Microsoft Dynamics 365 for Finance and Operations. | Geleid door een docent of online training, kosten variëren per regio en partner | 1 dag |
@@ -93,6 +92,5 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [Examen MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Dit examen meet of u de volgende technische taken kunt uitvoeren: gebruik van algemene functies en implementatieprogramma's; beveiliging, processen en opties configureren; gegevensmigratie uitvoeren en de oplossing valideren en ondersteunen. | Examen, kosten verschillen per regio |
 | [Examen MB-310: Microsoft Dynamics 365 for Finance and Operations, Financiën](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Dit examen meet of u de volgende technische taken kunt uitvoeren: instellen en configureren van financieel beheer; algemene processen beheren en toepassen; de modules Leveranciers en Klanten implementeren en beheren; en beheren van budgetten en vaste activa. | Examen, kosten verschillen per regio |
 | [Microsoft-certificering: Dynamics 365 for Finance and Operations, Financiële functionele consultant-expert](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft-certificering: Dynamics 365 for Finance and Operations, Financiële functionele consultants combineren algemene financiële en bedrijfsactiviteiten en automatiseren taken en workflows, stroomlijnen bestellingen, verkoop, facturering en rapportage van klanten. | Certificering, kosten verschillen per regio |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

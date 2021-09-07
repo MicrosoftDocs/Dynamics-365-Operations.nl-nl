@@ -4,24 +4,17 @@ description: Dit onderwerp bevat informatie over het oplossen van problemen die 
 author: RamaKrishnamoorthy
 ms.date: 03/16/2020
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 0fe319f4c8edd54700b2b32ef80539a8d0ff793aa815cef3813af4c63fd1b0d3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.search.validFrom: 2020-01-06
+ms.openlocfilehash: 985825d3a205f566a94ac7532e45895e7060edf5
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736369"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416976"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Problemen tijdens eerste synchronisatie oplossen
 
@@ -46,7 +39,7 @@ Nadat u de toewijzingssjablonen hebt ingeschakeld, moet de status van de toewijz
 
 Het volgende foutbericht kan worden weergegeven wanneer u probeert de toewijzing en de initiële synchronisatie uit te voeren:
 
-*(\[Ongeldige aanvraag\], De externe server heeft een fout geretourneerd: (400) Ongeldige aanvraag.), er is een fout opgetreden bij de AX-export*
+*(\[Ongeldige aanvraag\], De externe server heeft een fout geretourneerd: (400) Ongeldige aanvraag.), er is een fout opgetreden bij de AX-export.*
 
 Hier volgt een voorbeeld van de volledige foutmelding.
 
@@ -198,7 +191,7 @@ Als rijen in de tabel klant waarden hebben in de kolommen **ContactPersonID** en
 
         ![Gegevensintegratieproject voor het bijwerken van CustomerAccount en ContactPersonId.](media/cust_selfref6.png)
 
-    2. Voeg de bedrijfscriteria toe in het filter aan de kant van Dataverse, zodat alleen de rijen die aan de filtercriteria voldoen, in de app Finance and Operations worden bijgewerkt. Klik op de filterknop om een filter toe te voegen. Voeg vervolgens In het dialoogvenster **Query bewerken** een filterquery als **\_msdyn\_company\_value eq '\<guid\>'** toe. 
+    2. Voeg de bedrijfscriteria toe in het filter aan de kant van Dataverse, zodat alleen de rijen die aan de filtercriteria voldoen, in de app Finance and Operations worden bijgewerkt. Klik op de filterknop om een filter toe te voegen. Voeg vervolgens In het dialoogvenster **Query bewerken** een filterquery als **\_msdyn\_company\_value eq '\<guid\>'** toe.
 
         > [OPMERKING] Als de filterknop niet aanwezig is, maakt u een ondersteuningsticket om aan het gegevensintegratieteam te vragen om de filtermogelijkheid voor uw tenant in te schakelen.
 
@@ -210,5 +203,36 @@ Als rijen in de tabel klant waarden hebben in de kolommen **ContactPersonID** en
 
 8. Schakel het bijhouden van wijzigingen in voor de tabel **Klanten V3** in de Finance and Operations-app.
 
+## <a name="initial-sync-failures-on-maps-with-more-than-10-lookup-fields"></a>Initiële synchronisatieproblemen in toewijzingen met meer dan 10 opzoekvelden
+
+Mogelijk wordt het volgende foutbericht weergegeven wanneer u een initiële synchronisatiefout probeert uit te voeren op **Klanten V3 - Rekeningen**, toewijzingen van **Verkooporders** of een toewijzing met meer dan 10 opzoekvelden:
+
+*CRMExport: uitvoering van pakket voltooid. Foutbeschrijving 5 Pogingen om gegevens van https://xxxxx//datasets/yyyyy/tables/accounts/items?$select=rekeningnummer, address2_city, address2_country, ... (msdyn_company/cdm_companyid 'id')&$orderby=accountnumber asc op te halen is mislukt.*
+
+Vanwege de opzoekbeperking van de query, kan de eerste synchronisatie niet worden uitgevoerd wanneer de entiteitstoewijzing meer dan 10 zoekopdrachten bevat. Zie [Gerelateerde tabelrecords met een query ophalen](/powerapps/developer/common-data-service/webapi/retrieve-related-entities-query) voor meer informatie.
+
+Volg deze stappen om dit probleem op te lossen:
+
+1. Verwijder optionele opzoekvelden uit de entiteitstoewijzing voor twee keer wegschrijven, zodat het aantal zoekopdrachten 10 of minder is.
+2. Sla de toewijzing op en voer de initiële synchronisatie uit.
+3. Wanneer de initiële synchronisatie voor de eerste stap is uitgevoerd, voegt u de resterende opzoekvelden toe en verwijdert u de opzoekvelden die u in de eerste stap hebt gesynchroniseerd. Zorg ervoor dat het aantal opzoekvelden 10 of minder is. Sla de toewijzing op en voer de initiële synchronisatie uit.
+4. Herhaal deze stappen totdat alle opzoekvelden zijn gesynchroniseerd.
+5. Voeg alle opzoekvelden weer toe aan de toewijzing, sla de toewijzing op en voer de toewijzing uit met **Initiële synchronisatie overslaan**.
+
+Via dit proces wordt de modus voor toewijzing voor live synchronisatie ingeschakeld.
+
+## <a name="known-issue-during-initial-sync-of-party-postal-addresses-and-party-electronic-addresses"></a>Bekend probleem tijdens de initiële synchronisatie van postadressen van partijen en elektronische adressen van partijen
+
+Mogelijk wordt het volgende foutbericht weergegeven wanneer u probeert de oorspronkelijke synchronisatie van postadressen en elektronische adressen van partijen uit te voeren:
+
+*Partijnummer kan niet worden gevonden in Dataverse.*
+
+Er is een bereik ingesteld voor **DirPartyCDSEntity in** Finance and Operations-apps waarmee partijen van het type **Persoon** en **Organisatie** worden gefilterd. Hierdoor worden bij een initiële synchronisatie van de toewijzing van **CDS-partijen - msdyn_parties** geen partijen van andere typen gesynchroniseerd, waaronder **Rechtspersoon** en **Operationele eenheid**. Wanneer de initiële synchronisatie wordt uitgevoerd voor **postadressen van CDS-partij (msdyn_partypostaladdresses)** of **Partijcontacten V3 (msdyn_partyelectronicaddresses)** wordt er mogelijk een fout weergegeven.
+
+We werken aan een oplossing om het bereik partijtype voor de Finance and Operations-entiteit te verwijderen, zodat partijen van alle typen naar Dataverse kunnen worden gesynchroniseerd.
+
+## <a name="are-there-any-performance-issues-while-running-initial-sync-for-customers-or-contacts-data"></a>Zijn er prestatieproblemen als de initiële synchronisatie voor gegevens van klanten of contactpersonen wordt uitgevoerd?
+
+Als u de initiële synchronisatie voor gegevens van **Klanten** hebt uitgevoerd, de toewijzingen van **Klanten** uitvoert en u vervolgens de initiële synchronisatie voor gegevens van **Contactpersonen** uitvoert, kunnen er prestatieproblemen optreden tijdens het invoegen en bijwerken van de tabellen **LogisticsPostalAddress** en **LogisticsElectronicAddress** voor adressen van **contactpersonen**. Dezelfde algemene postadres- en elektronische adrestabellen worden bijgehouden voor **CustCustomerV3Entity** en **VendVendorV2Entity** en met twee keer wegschrijven wordt geprobeerd meer query's te maken om gegevens naar andere de andere kant te schrijven. Als u de initiële synchronisatie voor **Klant** al hebt uitgevoerd, stopt u de bijbehorende toewijzing tijdens het uitvoeren van de initiële synchronisatie van gegevens van **Contactpersonen**. Voer voor gegevens van **Leverancier** hetzelfde uit. Wanneer de initiële synchronisatie is voltooid, kunt u alle toewijzingen uitvoeren door de initiële synchronisatie over te slaan.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

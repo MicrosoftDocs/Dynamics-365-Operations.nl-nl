@@ -8,14 +8,13 @@ audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2cfe6d882c5de763164ddb4a344cba2991c88783
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729038"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416646"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Instellingen voor twee keer wegschrijven van Lifecycle Services
 
@@ -69,7 +68,7 @@ Als u twee keer wegschrijven wilt instellen voor een bestaande Dataverse-omgevin
 
 ## <a name="linking-mismatch"></a>Koppeling aan een verkeerde instantie
 
-Het is mogelijk dat uw LCS-omgeving aan één Dataverse-instantie is gekoppeld, terwijl uw omgeving voor twee keer wegschrijven aan een andere Dataverse-instantie is gekoppeld. Deze koppeling aan een verkeerde instantie kan tot onverwacht gedrag leiden en kan ertoe leiden dat gegevens naar de verkeerde omgeving worden verzonden. De aanbevolen omgeving voor twee keer wegschrijven is de omgeving die wordt gemaakt als onderdeel van de Power Platform-integratie en op lange termijn is dit de enige manier om een koppeling tussen omgevingen tot stand te brengen.
+Het is mogelijk dat uw LCS-omgeving aan één Dataverse-instantie gekoppeld is, terwijl uw omgeving voor twee keer wegschrijven aan een andere Dataverse-instantie gekoppeld is. Deze koppeling aan een verkeerde instantie kan tot onverwacht gedrag leiden en kan ertoe leiden dat gegevens naar de verkeerde omgeving worden verzonden. De aanbevolen omgeving voor twee keer wegschrijven is de omgeving die wordt gemaakt als onderdeel van de Power Platform-integratie en op lange termijn is dit de enige manier om een koppeling tussen omgevingen tot stand te brengen.
 
 Als er in uw omgeving een verkeerde koppeling voorkomt, wordt in LCS een waarschuwing weergegeven op de detailpagina van uw omgeving, in de trant van 'Microsoft heeft gedetecteerd dat uw omgeving via Twee keer wegschrijven is gekoppeld aan een andere bestemming dan is opgegeven in de Power Platform-integratie. Dit wordt niet aanbevolen:
 

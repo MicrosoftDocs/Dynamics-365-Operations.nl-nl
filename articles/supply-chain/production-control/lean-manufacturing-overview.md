@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da812bcc7d31db25abc0ed7e6c1a7f9e5433f80bfdfc5421e4e18d6b8af68884
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1374a451c65b4bafdc6efeb10949d1f6eceb4758
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738910"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343913"
 ---
 # <a name="lean-manufacturing-overview"></a>Overzicht van lean manufacturing
 
@@ -66,7 +66,7 @@ Lean manufacturing biedt inzicht in de huidige status van de productie- en logis
 De volgende lijst beschrijft de speciale kanbanborden:
 -   Kanbantaakplanning – Geeft een overzicht van de kanbantaken. Het bord geeft kanbantaken en hun status weer voor een of meerdere werkcellen. De taken worden weergegeven op basis van de planningsperioden (dagen of weken) die zijn gedefinieerd in het productiestroommodel. Het bord toont ook het capaciteitsverbruik voor elke planningsperiode zodat u de geplande belasting kunt beheren. U kunt de status van kabantaken veranderen, kanbantaken opnieuw plannen in verschillende planningsperioden en andere taken uitvoeren.
 -   Kanbanbord voor overdrachttaken – Dit bord biedt een overzicht van de huidige overdrachttaken. U kunt orderverzamellijsten bijwerken en registreren, overdrachttaken starten en voltooien en andere taken uitvoeren.
--   Kanbanbord voor procestaken - Dit bord is ontworpen om de normale productiestroom te ondersteunen en geeft een overzicht van de actuele situatie in een of meerdere werkcellen. Vanaf dit bord kunt u prioriteit toekennen aan kanbans, of ze ophalen of fabriceren. Het bord is ook ontworpen om scannen van streepjescodes te ondersteunen voor het rapporteren van kanbans.
+-   Kanbanbord voor procestaken - Dit bord is ontworpen om de normale productiestroom te ondersteunen en geeft een overzicht van de actuele situatie in een of meerdere werkcellen. Vanaf dit bord kunt u prioriteit toekennen aan kanbans, of ze ophalen of fabriceren. Het bord is ook ontworpen om het scannen van streepjescodes te ondersteunen voor het rapporteren van kanbans.
 
 ## <a name="kanban-jobs-and-integration-with-supply-chain-management-processes"></a>Kanbantaken en integratie met processen voor Supply Chain Management
 Kanbantaken zijn volledig geïntegreerd met de huidige processen voor voorraadtransacties in Supply Chain Management.

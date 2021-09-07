@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 958c7a8853e5ef0d7fb211225796d7808e4e7ae1afaf861cc6746157225c0dbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77e0a0e0eb47c331b2b219dc523ecd2c706a4638
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721458"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345293"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting voor productie-uitvoering voor cloud- en randschaaleenheden
 
@@ -44,7 +44,7 @@ In dit onderwerp wordt beschreven hoe productie-uitvoeringsworkloads werken met 
 
 Zoals in de volgende afbeelding wordt weergegeven, is de productielevenscyclus onderverdeeld in drie fasen: *Plannen*, *Uitvoeren* en *Voltooien*.
 
-[![Productie-uitvoeringsfasen wanneer één omgeving wordt gebruikt](media/mes-phases.png) "Productie-uitvoeringsfasen wanneer één omgeving wordt gebruikt."](media/mes-phases-large.png)
+[![Productie-uitvoeringsfasen wanneer één omgeving wordt gebruikt](media/mes-phases.png "Productie-uitvoeringsfasen wanneer er één omgeving wordt gebruikt.")](media/mes-phases-large.png)
 
 De _planfase_ omvat productdefinitie, planning, het maken en plannen van orders en vrijgave. De vrijgavestap geeft de overgang van de _planfase_ naar de _uitvoeringsfase_ aan. Wanneer een productieorder wordt vrijgegeven, worden de productieordertaken weergegeven op de productievloer en zijn ze klaar voor uitvoering.
 
@@ -54,7 +54,7 @@ Wanneer een productietaak is gemarkeerd als voltooid, wordt deze verplaatst van 
 
 Zoals u in de volgende afbeelding kunt zien, wordt de _uitvoeringsfase_ een afzonderlijke workload opgesplitst wanneer er schaaleenheden worden gebruikt.
 
-[![Productie-uitvoeringsfasen wanneer schaaleenheden worden gebruikt](media/mes-phases-workloads.png) "Productie-uitvoeringsfasen wanneer schaaleenheden worden gebruikt."](media/mes-phases-workloads-large.png)
+[![Productie-uitvoeringsfasen wanneer er schaaleenheden worden gebruikt](media/mes-phases-workloads.png "Productie-uitvoeringsfasen wanneer er schaaleenheden worden gebruikt.")](media/mes-phases-workloads-large.png)
 
 Het model gaat nu van een installatie met één exemplaar naar een model dat is gebaseerd op hub en schaaleenheden. De _planfase_ en _voltooiingsfase_ worden uitgevoerd als back-upbewerkingen op de hub en de productie-uitvoeringsworkload wordt uitgevoerd op de schaaleenheden. Gegevens worden asynchroon overgebracht tussen de hub en schaaleenheden.
 

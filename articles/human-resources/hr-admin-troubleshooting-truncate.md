@@ -1,8 +1,8 @@
 ---
 title: Tekstafbreking in de positiehiërarchie vermijden en exporteren naar Visio
-description: In dit artikel wordt uitgelegd hoe u het probleem oplost dat namen van personen en posities worden afgekapt wanneer klanten de positiehiërarchie weergeven in Microsoft Dynamics 365 Human Resources. Tekstafbreking kan het moeilijk maken om een schermopname te maken of de hiërarchie af te drukken.
-author: andreabichsel
-ms.date: 02/03/2020
+description: In dit onderwerp wordt uitgelegd hoe u het probleem oplost waarbij namen van personen en posities worden afgekapt in de positiehiërarchie in Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36fc7684cf0351a10ab5910d46f6d56d46d78921143c537269699c11a38ae12b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a9a8d22df0416ef417a6216c3131bfb6d40d200
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779321"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413530"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Tekstafbreking in de positiehiërarchie vermijden en exporteren naar Visio
 
@@ -43,7 +43,7 @@ Volg deze stappen om te exporteren naar Visio.
 
 1. Open in Human Resources de lijstpagina **Posities**.
 
-    Als u meer informatie in het diagram van de structuur van organisatie wilt opnemen, voegt u velden toe aan de lijst **Posities**, zodat deze beschikbaar zijn wanneer u de wizard verderop in deze procedure gebruikt.
+    Als u meer informatie in het diagram van de structuur van organisatie wilt opnemen, voegt u velden toe aan de lijst **Posities**, zodat deze beschikbaar zijn wanneer u de wizard **Organisatiegrafiek** verderop in deze procedure gebruikt.
 
 2. Selecteer in het actievenster de knop **Openen in Microsoft Office** en selecteer vervolgens onder **Exporteren naar Excel** de optie **Posities**. Of druk op Ctrl+T.
 

@@ -1,12 +1,12 @@
 ---
-title: Belastingberekening (Preview)
+title: Overzicht van belastingberekening
 description: In dit onderwerp worden het algehele bereik en de functies voor belastingberekening uitgelegd.
 author: wangchen
-ms.date: 06/03/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4e01247cddad4201760fd56e00e05a8373a1ca6ef7c26ae5e1f5cca63bd8a456
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775089"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394581"
 ---
-# <a name="tax-calculation-preview"></a>Belastingberekening (Preview)
+# <a name="tax-calculation-overview"></a>Overzicht van belastingberekening
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,44 +33,59 @@ Belastingberekening is een hyperschaalbare multitenantservice waarmee de Global 
 Belastingberekening wordt geïntegreerd met Dynamics 365 Finance en Dynamics 365 Supply Chain Management. Uiteindelijk wordt deze ook geïntegreerd met Dynamics 365 Project Operations, Dynamics 365 Commerce en andere toepassingen van dezelfde leverancier en derden.
 
 > [!IMPORTANT]
-> Wanneer u de service voor belastingberekening inschakelt, kunnen bepaalde bewerkingen op gerelateerde gegevens worden uitgevoerd in een ander datacentrum dan het datacentrum dat uw servicegegevens onderhoudt. Controleer de [Algemene voorwaarden](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) voor u de service voor belastingberekening inschakelt. Uw privacy is belangrijk voor ons. Lees onze [Privacyverklaring](https://go.microsoft.com/fwlink/?LinkId=521839) voor meer informatie.
+> Wanneer u de Belastingberekening inschakelt, kunnen bepaalde bewerkingen op gerelateerde gegevens worden uitgevoerd in een ander datacentrum dan het datacentrum dat uw servicegegevens onderhoudt. Controleer de [Algemene voorwaarden](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) voor u Belastingberekening inschakelt. Uw privacy is belangrijk voor ons. Lees onze [Privacyverklaring](https://go.microsoft.com/fwlink/?LinkId=521839) voor meer informatie.
 
-Belastingberekening is een op microservices gebaseerde belastingengine die exponentiële schaalbaarheid biedt. Hiermee kunt u de volgende taken uitvoeren:
+Belastingberekening is een op microservices gebaseerde belastingengine die exponentiële schaalbaarheid biedt en u kan helpen de volgende taken uit te voeren:
 
-- Configureer Belastingberekening via Regulatory Configuration Service (RCS). RCS is een verbeterde versie van de ER-ontwerper (Electronic Reporting) en is beschikbaar als zelfstandig service.
-- Configureer de belastingmatrix om automatisch belastingcodes en -tarieven te bepalen.
-- Configureer de belastingmatrix om automatisch het belastingregistratienummer te bepalen.
-- Configureer de ontwerper voor belastingberekening om formules en voorwaarden te definiëren.
-- Deel de oplossing voor belastingbepaling en -berekening voor rechtspersonen.
+- Bepaal automatisch de juiste btw-groep, btw-groep voor artikel en belastingcodes via een uitgebreid bepalingsmechanisme.
+- Ondersteun meerdere belastingregistratienummers één rechtspersoon en bepaal automatisch het juiste belastingregistratienummer voor belastbare transacties.
+- Ondersteun belastingbepaling, -berekening en -posten en vereffening voor transferorders.
+- Definieer configureerbare belastingberekeningsformules en voorwaarden voor uw specifieke bedrijfsbehoeften.
+- Deel de belastingbepalings- en berekeningsoplossing voor alle rechtspersonen om minder onderhoud te hoeven uitvoeren en fouten te voorkomen.
+- Ondersteun bepaling van het belastingregistratienummer voor klanten en leveranciers.
+- Ondersteun de bepaling van lijstcodes.
+- Ondersteun parameters voor belastingberekening op belastingsjurisdictieniveau.
 
-Als u de service voor belastingberekening wilt gebruiken, installeert u de invoegtoepassing voor de service vanuit uw project in Microsoft Dynamics Lifecycle Services (LCS). Voltooi vervolgens de instellingen in RCS en schakel de service voor belastingberekeningsservice in Finance en Supply Chain Management in. Zie [Aan de slag met belastingservice](./global-get-started-with-tax-calculation-service.md) voor meer informatie.
+Als u de Belastingberekening wilt gebruiken, installeert u de invoegtoepassing Belastingberekening vanuit uw project in Microsoft Dynamics Lifecycle Services (LCS). Voltooi vervolgens de instellingen in [Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/) en schakel Belastingberekening in bij Finance en Supply Chain Management. Zie [Aan de slag met belastingservice](global-get-started-with-tax-calculation-service.md) voor meer informatie.
 
 ## <a name="availability"></a>Beschikbaarheid
 
-Belastingberekening is alleen beschikbaar in sandbox-omgevingen en voor bepaalde klanten, via een openbaar preview-programma. Uiteindelijk wordt deze algemeen beschikbaar voor alle klanten en in productieomgevingen.
+Belastingberekening is vanaf versie 10.0.21 algemeen beschikbaar voor alle klanten in productieomgevingen.
 
-Er wordt steeds nieuwe functies geleverd. Controleer daarom regelmatig de meest actuele documentatie voor meer informatie over de dekking en het bereik van ondersteunde functies.
+Er komen telkens nieuwe functies bij. Controleer regelmatig de meest actuele releaseplanning voor meer informatie over de dekking en het bereik van ondersteunde functies.
 
-Belastingberekening wordt geïmplementeerd in de volgende geografische regio's van Azure. Deze wordt daarnaast geïmplementeerd in andere Azure-regio's op basis van klantbehoeften:
+Belastingberekening wordt geïmplementeerd in de volgende geografische regio's van Azure. Er zullen meer Azure-regio's worden toegevoegd op basis van klantbehoeften.
 
-- Verenigde Staten
+- Azië-Pacific
+- Australië
+- Canada
 - Europa
+- Japan
+- Verenigd Koninkrijk
+- Verenigde Staten
 
 > [!NOTE]
-> Belastingberekening ondersteunt geen on-premises implementaties van Dynamics 365. Ook eerdere versies, zoals Dynamics AX 2012, worden niet ondersteund.
+> Een eerdere versie van Dynamics 365, zoals Dynamics AX 2012, of on-premises implementaties van Dynamics 365 wordt niet door Belastingberekening ondersteund.
 
-## <a name="feature-highlights"></a>Belangrijkste functies
+## <a name="data-flow"></a>Gegevensstroom
 
-- Een configureerbare belastingmatrix om automatisch belasting te bepalen en te berekenen
-- Ondersteuning voor meerdere belastingregistratienummers
-- Ondersteuning van transferorders voor het bepalen en berekenen van btw
-- Ondersteuning van transferorder voor het bepalen van meerdere belastingregistratienummers
+Hier volgt een overzicht van het gegevensstroomproces voor Belastingberekening. 
+
+1. In RCS kunt u belastbare documentmodelconfiguraties en modeltoewijzingsconfiguraties weergeven en importeren. Zie [Gegevensvelden in belastingconfiguraties toevoegen](tax-service-add-data-fields-tax-configurations.md) als u configuraties voor een geavanceerd scenario moet uitbreiden.
+2. In RCS kunt u belastingfuncties maken of onderhouden. U kunt belastingsfuncties gebruiken om belastingtarieven en toepasbaarheidsregels te onderhouden.
+3. Nadat de installatie van de belastingfunctie is voltooid, publiceert u de belastingconfiguraties en belastingfuncties van RCS naar de algemene opslagplaats.
+4. Selecteer in Financiën welke installatieversie van de belastingfunctie voor een specifieke rechtspersoon moet worden gebruikt.
+5. Verwerk in Finance en Supply Chain Management transacties op de gebruikelijke manier. Wanneer Belastingberekening nodig is, verzamelt de client informatie uit de transactie, zoals de verkooporder of inkooporder, en wordt de informatie als nettolading verpakt. Er wordt vervolgens een aanvraag verzonden om de belasting te berekenen.
+6. De belastingberekeningsaanvraag wordt van de client ontvangen en de berekening wordt voltooid. Het belastingresultaat wordt vervolgens aan de client geretourneerd.
+7. De Dynamics 365-client ontvangt het belastingresultaat en geeft het resultaat van de belastingberekening weer op een btw-pagina.
 
 ## <a name="supported-transactions"></a>Ondersteunde transacties
 
-Belastingberekening kan worden ingeschakeld per rechtspersoon en transactie. De volgende transacties worden ondersteund:
+Belastingberekening kan worden ingeschakeld per transacties. 
 
-- Verkoopproces
+De volgende transacties worden ondersteund in versie 10.0.21: 
+
+- Verkopen
 
     - Verkoopofferte
     - Verkooporder
@@ -83,7 +98,7 @@ Belastingberekening kan worden ingeschakeld per rechtspersoon en transactie. De 
     - Diverse toeslagen voor koptekst
     - Diverse toeslagen voor regels
 
-- Aankoopproces
+- Inkoop
 
     - Inkooporder
     - Bevestiging
@@ -100,10 +115,36 @@ Belastingberekening kan worden ingeschakeld per rechtspersoon en transactie. De 
     - Diverse toeslagen voor koptekst van offerteaanvraag
     - Diverse toeslagen voor regel van offerteaanvraag
 
-- Voorraadproces
+- Voorraad
 
     - Transferorder – verzenden
     - Transferorder – ontvangen
+
+## <a name="supported-countriesregions"></a>Ondersteunde landen/regio's
+
+Belastingberekening kan per rechtspersoon worden ingeschakeld. 
+
+De volgende landen/regio's voor het primaire adres van een rechtspersoon worden ondersteund in versie 10.0.21:
+
+- Oostenrijk
+- België
+- Denemarken
+- Estland
+- Finland
+- Frankrijk
+- Duitsland
+- Hongarije
+- IJsland
+- Italië
+- Letland
+- Litouwen
+- Nederland
+- Noorwegen
+- Polen
+- Zweden
+- Zwitserland
+- Verenigd Koninkrijk
+- Verenigde Staten
 
 ## <a name="related-resources"></a>Gerelateerde bronnen
 

@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f2144d2ca9b2f5e06f0a21f6f97b7ca6440ffe8ce300bdbf329279505059459
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 849b1202ea2c0080f5fc5bacba1f95180fc4008a
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720593"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343651"
 ---
 # <a name="budgeting-overview"></a>Overzicht van Budgettering
 
@@ -38,7 +38,7 @@ Er zijn meerdere methoden om budgetregisterposten te maken:
 
 -   Voer handmatig de documentinformatie in op de pagina **Budgetregisterposten**.
 -   Gebruik de Microsoft Excel-sjabloon die u kunt openen door op de knop **Openen in Excel** te klikken op de pagina **Budgetregisterposten**.
--   Gebruik de gegevensentiteit **Budgetjournaalregels** in gegevensentiteit om budgetregisterregels te importeren. U kunt overwegen deze methode te gebruiken en de parameter **Op sets gebaseerde** **verwerking** in te schakelen wanneer u veel budgetjournaalposten in het systeem moet importeren.
+-   Gebruik de gegevensentiteit **Budgetjournaalregels** in gegevensentiteit om budgetregisterregels te importeren. U kunt overwegen deze methode te gebruiken en de parameter **Op sets gebaseerde verwerking** in te schakelen wanneer u veel budgetjournaalregels in het systeem moet importeren.
 -   Als het bedrijf de budgetplanningsfunctionaliteit gebruikt om budgetgegevens voor te bereiden, kunt u het periodieke proces **Budgetregisterpost genereren** gebruiken.
 
 De budgetjournaalpost wordt beschouwd als voltooid wanneer de budgetsaldi zijn bijgewerkt. Op de pagina **Budgetjournaalposten** klikt u op **Budgetsaldi bijwerken** voor een geselecteerde budgetjournaalpost of meerdere posten. Nadat u de budgetsaldi hebt bijgewerkt, verandert de status van de budgetregisterregel in. **Voltooid** Ingevulde budgetregisterregel kan niet worden heropend voor bewerkingen. Daarom moet u, als de budgetgegevens moeten worden gecorrigeerd, een nieuwe budgetjournaalregel maken in plaats van gegevens in de ingevulde budgetregisterpost te corrigeren.
@@ -50,7 +50,7 @@ Vervolgens, als er beleid is dat de goedkeuring van budgetregisterregels bepaalt
 
 Op de **Budgetteringsdimensies** pagina, moet u de financiële dimensies selecteren die voor budgettering worden gebruikt, op basis van de dimensies die in het rekeningschema worden gebruikt. U kunt alle financiële dimensies of een subset selecteren voor budgettering.
 
-Definieer een *budgetmodel* dat correspondeert met alle of enkele budgetten. U kunt een enkel budgetmodel voor alle budgetregisterregels gebruiken. Als alternatief kunt u aparte modellen maken die zijn gebaseerd op het budgettype, de geografische locatie of een andere manier waarop een budget kan worden geclassificeerd. 
+Definieer een *Budgetmodel* dat correspondeert met alle of enkele van de budgetten. U kunt een enkel budgetmodel voor alle budgetregisterregels gebruiken. Als alternatief kunt u aparte modellen maken die zijn gebaseerd op het budgettype, de geografische locatie of een andere manier waarop een budget kan worden geclassificeerd. 
 
 > [!NOTE] 
 > Als budgetbeheer wordt gebruikt, kunt u slechts één budgetmodel aan een specifieke budgetcyclustijd koppelen. 

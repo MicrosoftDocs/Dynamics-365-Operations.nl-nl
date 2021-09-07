@@ -1,8 +1,8 @@
 ---
-title: Geschiktheidsregels en -opties configureren
-description: Stel de geschiktheidsregels en -opties in voor vergoedingen in Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/25/2021
+title: Regels en opties voor geschiktheid configureren
+description: In dit onderwerp wordt beschreven hoe u de geschiktheidsregels en -opties instelt voor vergoedingen in Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3aae50b8f7fac6991f187ced44f7d122eb7ed40824bd2d53265fa06bfa87dd6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 034957628580c468ed00b14afeb7e49af15c45cc
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756119"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423466"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Regels en opties voor geschiktheid configureren 
 
@@ -155,7 +155,7 @@ Regels kunnen verder worden uitgebreid om meerdere voorwaarden te gebruiken binn
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Geschiktheidsvoorwaarden binnen een criterium van een aangepast veld 
 Op dezelfde manier als hierboven is het mogelijk om aangepaste velden te gebruiken bij het maken van geschiktheidsregels. Deze werken op dezelfde manier. U kunt bijvoorbeeld terugbetaling van internetkosten aanbieden aan werknemers in Utrecht en Amsterdam die thuis werken, omdat de internetkosten op die locaties hoger zijn. Hiervoor maakt u twee aangepaste velden: **Kantoorlocatie** (selectielijst) en **Thuiswerken** (selectievakje). Maak vervolgens een regel met de naam **Thuiswerkende werknemers**. Als criterium voor de regel wordt **Kantoorlocatie = Utrecht** of **Amsterdam** gebruikt *en* **Thuiswerkend = Ja**.
 
-Aangepaste geschiktheidsregels moeten worden ingesteld, zoals in de volgende afbeelding wordt aangegeven. 
+De aangepaste geschiktheidsregels moeten worden ingesteld, zoals in de volgende afbeelding wordt aangegeven. 
 
 ![Geschiktheidsvoorwaarden binnen het criterium van een aangepast veld.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
@@ -217,13 +217,13 @@ U kunt flex-kredietprogramma's gebruiken om werknemers in te schrijven voor verg
 
    | Veld | Beschrijving |
    | --- | --- |
-   | Vergoedingskrediet-id | De unieke id van het flex-kredietprogramma. |
-   | Beschrijving | Een omschrijving van het flex-kredietprogramma. | 
-   | Begindatum | De datum waarop het flex-kredietprogramma actief wordt. |
-   | Einddatum | De einddatum van het flex-kredietprogramma. U kunt de standaardwaarde (12/31/2154) laten staan om aan te geven dat het Flex-kredietprogramma geen geplande vervaldatum heeft. |
-   | Totale kredietwaarde | Het aantal kredieten dat iedere werknemer dient te gebruiken voor zijn of haar vergoedingen. |
-   | Omslagregel | De regel die moet worden gebruikt voor het evenredig verdelen van flex-kredieten wanneer een werknemer in dienst wordt genomen midden in een flex-kredietperiode. </br></br><ul><li>**Geen** – de werknemer ontvangt geen flex-kredieten als deze is aangesteld nadat de periode van het flex-kredietprogramma is gestart.</li><li>**Volledig krediet** – de werknemer ontvangt het volledige aantal flex-kredieten, ongeacht het moment waarop deze is aangesteld.</li><li>**Evenredig** – de werknemer ontvangt een evenredig aantal flex-kredieten op basis van de begindatum.</li></ul> |
-   | Formule voor het berekenen van een evenredig aantal flex-kredieten | De regel die moet worden gebruikt voor het evenredig verdelen van het aantal flex-kredieten voor werknemers die in dienst wordt genomen midden in een vergoedingsperiode voor het flex-kredietprogramma. Het evenredige aantal flex-kredieten wordt berekend op basis van de begindatum van de aanstelling. Dit veld wordt alleen gebruikt als u **Evenredig** selecteert in het veld **Evenredigheidsregel**. </br></br><ul><li>**Dagelijks** – het aantal flex-kredieten dat een werknemer ontvangt, wordt evenredig verdeeld op dagniveau. Het totale aantal flex-kredieten wordt gedeeld door het aantal dagen in de periode. Als uw vergoedingsperiode bijvoorbeeld 400 dagen is, wordt het totale aantal flex-kredieten door 400 gedeeld om het aantal flex-kredieten te berekenen dat werknemers per dag ontvangen.</li><li>**Huidige maand** – het aantal flex-kredieten dat een werknemer ontvangt, wordt evenredig verdeeld op maandniveau, afgerond op de huidige maand. Het totale aantal flex-kredieten wordt gedeeld door het aantal maanden in de periode. Als uw vergoedingsperiode bijvoorbeeld 15 maanden is, wordt het totale aantal flex-kredieten door 15 gedeeld om het aantal flex-kredieten te berekenen dat werknemers per maand ontvangen.</li><li>**Volgende maand** – het aantal flex-kredieten dat een werknemer ontvangt, wordt evenredig verdeeld op maandniveau, afgerond op de volgende maand. Het totale aantal flex-kredieten wordt gedeeld door het aantal maanden in de periode. Als uw vergoedingsperiode bijvoorbeeld 15 maanden is, wordt het totale aantal flex-kredieten door 15 gedeeld om het aantal flex-kredieten te berekenen dat werknemers per maand ontvangen.</li></ul> |
+   | **Vergoedingskrediet-id** | De unieke id van het flex-kredietprogramma. |
+   | **Beschrijving** | Een omschrijving van het flex-kredietprogramma. | 
+   | **Begindatum** | De datum waarop het flex-kredietprogramma actief wordt. |
+   | **Einddatum** | De einddatum van het flex-kredietprogramma. U kunt de standaardwaarde (12/31/2154) laten staan om aan te geven dat het Flex-kredietprogramma geen geplande vervaldatum heeft. |
+   | **Totale kredietwaarde** | Het aantal kredieten dat iedere werknemer dient te gebruiken voor zijn of haar vergoedingen. |
+   | **Omslagregel** | De regel die moet worden gebruikt voor het evenredig verdelen van flex-kredieten wanneer een werknemer in dienst wordt genomen midden in een flex-kredietperiode. </br></br><ul><li>**Geen** – de werknemer ontvangt geen flex-kredieten als deze is aangesteld nadat de periode van het flex-kredietprogramma is gestart.</li><li>**Volledig krediet** – de werknemer ontvangt het volledige aantal flex-kredieten, ongeacht het moment waarop deze is aangesteld.</li><li>**Evenredig** – de werknemer ontvangt een evenredig aantal flex-kredieten op basis van de begindatum.</li></ul> |
+   | **Formule voor het berekenen van een evenredig aantal flex-kredieten** | De regel die moet worden gebruikt voor het evenredig verdelen van het aantal flex-kredieten voor werknemers die in dienst wordt genomen midden in een vergoedingsperiode voor het flex-kredietprogramma. Het evenredige aantal flex-kredieten wordt berekend op basis van de begindatum van de aanstelling. Dit veld wordt alleen gebruikt als u **Evenredig** selecteert in het veld **Evenredigheidsregel**. </br></br><ul><li>**Dagelijks** – het aantal flex-kredieten dat een werknemer ontvangt, wordt evenredig verdeeld op dagniveau. Het totale aantal flex-kredieten wordt gedeeld door het aantal dagen in de periode. Als uw vergoedingsperiode bijvoorbeeld 400 dagen is, wordt het totale aantal flex-kredieten door 400 gedeeld om het aantal flex-kredieten te berekenen dat werknemers per dag ontvangen.</li><li>**Huidige maand** – het aantal flex-kredieten dat een werknemer ontvangt, wordt evenredig verdeeld op maandniveau, afgerond op de huidige maand. Het totale aantal flex-kredieten wordt gedeeld door het aantal maanden in de periode. Als uw vergoedingsperiode bijvoorbeeld 15 maanden is, wordt het totale aantal flex-kredieten door 15 gedeeld om het aantal flex-kredieten te berekenen dat werknemers per maand ontvangen.</li><li>**Volgende maand** – het aantal flex-kredieten dat een werknemer ontvangt, wordt evenredig verdeeld op maandniveau, afgerond op de volgende maand. Het totale aantal flex-kredieten wordt gedeeld door het aantal maanden in de periode. Als uw vergoedingsperiode bijvoorbeeld 15 maanden is, wordt het totale aantal flex-kredieten door 15 gedeeld om het aantal flex-kredieten te berekenen dat werknemers per maand ontvangen.</li></ul> |
    
    Zorg ervoor dat elk vergoedingsplan is ingeschreven voor slechts één flex-kredietprogramma per vergoedingsperiode. Anders weet het systeem niet welk flex-kredietprogramma wordt gebruikt om flex-kredieten toe te kennen en treden er problemen op. 
 

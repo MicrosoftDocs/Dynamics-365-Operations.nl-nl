@@ -1,8 +1,8 @@
 ---
-title: De gebruikerservaring aanpassen
+title: De gebruikerservaring personaliseren
 description: In dit onderwerp wordt uitgelegd hoe u de app kunt aanpassen.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f71a94a6a5780f8a59590008f6370cb6897fa644e7fd826bacd0fb6206d159c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719296"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344369"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
@@ -61,7 +61,7 @@ Hier volgt een lijst met de acties die onder het normale gebruik van de pagina v
 - **Actievensters**: een *actievenster* wordt weergegeven boven aan de meeste pagina's. Het actievenster bevat knoppen voor een groot aantal van de acties die u op de huidige pagina uitvoeren kunt. Deze knoppen zijn vaak geordend op tabbladen. U kunt het gehele actievenster open *vastzetten* of u kunt het standaard samengevouwen laten. De volgende keer dat u de pagina opent, is het actievenster geopend of samengevouwen, gebaseerd op uw laatste interactie met de pagina. Als u het actievenster open hebt vastgemaakt, wordt het laatst gebruikte tabblad weergegeven.
 - **Snelfilters**: een *snelfilter* wordt boven aan veel rasters weergegeven. Met het snelfilter kunt u het raster filteren op basis van één kolom die u selecteert. De app slaat de kolom op waarop u hebt gefilterd. De volgende keer dat u die pagina opent, wordt het raster standaard op dezelfde kolom gefilterd. U kunt vervolgens echter toch een andere kolom selecteren om het raster op te filteren.
 - **Kolomkopfilters**: wanneer u een raster filtert met behulp van *kolomkopfilters*, kunt u de filteroperator indien nodig wijzigen om de gegevens te vinden die u zoekt. U kunt de operator bijvoorbeeld wijzigen van **begint met** in **is exact**. Telkens wanneer u een koptekstfilter gebruikt en de filteroperator wijzigt, slaat de app de wijziging op. Vervolgens wordt de filteroperator hersteld wanneer u de volgende keer op die kolom filtert.
-- **Navigatievenster**: u kunt het *navigatievenster* openen door de knop **Het navigatiedeelvenster uitvouwen** te selecteren, linksboven op elke pagina. (Deze knop wordt ook wel de _**Menu** knop_, de *hamburger*, het *hamburgermenu* of de *hamburgerknop* genoemd.) U kunt het navigatievenster open vastzetten of u kunt het standaard samengevouwen houden. Nadat u het navigatievenster open hebt vastgezet, houdt de app het open totdat u het samenvouwt.
+- **Navigatievenster**: u kunt het *navigatievenster* openen door de knop **Het navigatiedeelvenster uitvouwen** te selecteren, linksboven op elke pagina. (Deze knop wordt ook wel de _**Menu**-knop_, de *hamburger*, het *hamburgermenu* of de *hamburgerknop* genoemd.) U kunt het navigatievenster open vastzetten of u kunt het standaard samengevouwen houden. Nadat u het navigatievenster open hebt vastgezet, houdt de app het open totdat u het samenvouwt.
 
 ## <a name="full-personalization-access-formerly-explicit-personalizations"></a>Volledige toegang tot persoonlijke instellingen (voorheen expliciete gepersonaliseerde items)
 
@@ -169,7 +169,7 @@ Het dashboard is vaak de eerste pagina die bij het openen van de app wordt weerg
 Een unieke aanpassingsmogelijkheid die beschikbaar is op het dashboard, is de mogelijkheid om tegels toe te voegen. 
 
 - Als de functie **Apps op volledige pagina's** is uitgeschakeld, voegt u een nieuwe tegel toe door met de rechtermuisknop op een element in het dashboard te klikken en vervolgens **Een werkgebied toevoegen** te selecteren. Een nieuwe werkgebiedtegel wordt onder aan het dashboard gemaakt. U kunt deze werkgebiedtegel desgewenst hernoemen. U kunt ook lijsten, tegels en koppelingen toevoegen aan het werkgebied, zoals beschreven in de sectie [Tegels, lijsten en koppelingen toevoegen aan een werkgebied](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) van dit onderwerp.
-- Als de functie **Apps op volledige pagina's** is ingeschakeld, voegt u een nieuwe tegel toe door met de rechtermuisknop op een element in het dashboard te klikken en vervolgens **Een app toevoegen** te selecteren. Selecteer in het dialoogvenster of u een tegel wilt toevoegen voor een nieuw werkgebied of een tegel met inhoud uit Power Apps of een website. Voer vervolgens de stappen uit om de geselecteerde optie te configureren. Een nieuwe werkgebiedtegel wordt onder aan het dashboard gemaakt. 
+- Als de functie **Apps op volledige pagina's** is ingeschakeld, voegt u een nieuwe tegel toe door met de rechtermuisknop op een element in het dashboard te klikken en vervolgens **Een app toevoegen** te selecteren. Selecteer in het dialoogvenster of u een tegel wilt toevoegen voor een nieuw werkgebied of een tegel met inhoud uit Power Apps of een website. Voer vervolgens de stappen uit om de geselecteerde optie te configureren. Een nieuwe werkgebiedtegel wordt onder aan het dashboard gemaakt. Raadpleeg voor meer informatie over het toevoegen, bewerken, verwijderen en delen van deze ingesloten apps [Canvas-apps insluiten vanuit Power Apps](embed-power-apps.md) en [Apps van derde partijen insluiten](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Persoonlijke instellingen delen
 

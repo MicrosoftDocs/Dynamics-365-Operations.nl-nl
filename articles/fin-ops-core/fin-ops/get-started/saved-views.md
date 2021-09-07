@@ -2,7 +2,7 @@
 title: Opgeslagen weergaven
 description: In dit onderwerp wordt beschreven hoe u de functies voor opgeslagen weergaven gebruikt.
 author: jasongre
-ms.date: 05/17/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: dd658aeb8964907fe9f950fe2a6474c5df7e80b74986ddf332286a2f89bc0aeb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9cca56a108177520f4aebea03f7f4d776f46fa3f
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752296"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344339"
 ---
 # <a name="saved-views"></a>Opgeslagen weergaven
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Introductie
 
@@ -48,6 +48,8 @@ Er zijn twee groottes voor deze weergavekiezer:
  
 Als u de naam van de weergave selecteert, wordt de weergavekiezer geopend en wordt de lijst met beschikbare weergaven voor de pagina weergegeven.
 
+**Versie 10.0.21 of hoger:** als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, geeft de weergaveselector de beschikbare weergaven weer in twee secties. De eerste sectie toont alle weergaven die specifiek zijn voor de huidige rechtspersoon, en de tweede sectie toont weergaven die beschikbaar zijn voor alle rechtspersonen. De eerste sectie is alleen zichtbaar als er rechtspersoon-specifieke weergaven voor de pagina zijn.
+
 - **Standaardweergave**: de **standaard** weergave is de out-of-the-box weergave van de pagina waarop geen expliciete persoonlijke instellingen zijn toegepast.
 - **Persoonlijke weergaven**: de weergaven zonder hangsloten vertegenwoordigen uw persoonlijke weergaven. Dit zijn weergaven die u hebt gemaakt of die een beheerder aan u heeft gegeven.
 - **Vergrendelde weergaven**: sommige weergaven (zoals de **standaard** weergave en alle weergaven die naar uw rol zijn gepubliceerd) worden weergegeven met een hangslot-symbool in de weergaveselectie. Dit symbool geeft aan dat u deze weergaven niet kunt bewerken. Wijzigingen die het paginagebruik weerspiegelen, worden echter automatisch opgeslagen. Deze wijzigingen omvatten wijzigingen in de breedte van een rasterkolom en wijzigingen in de uitgevouwen of samengevouwen status van een sneltabblad. Als u echter over aanpassingsbevoegdheden beschikt, kunt u de actie **Kopie opslaan** gebruiken om op basis van een vergrendelde weergave een persoonlijke weergave te maken.
@@ -68,15 +70,18 @@ Voer de volgende stappen uit als u deze wijzigingen wilt opslaan.
 3. Een nieuwe weergave maken:
 
     1. Selecteer **Opslaan als**. 
-    2. Voer een naam en desgewenst een omschrijving in.
-    3. Selecteer **Opslaan**.
+    2. Voer in het deelvenster **Weergave opslaan als** een naam en desgewenst een omschrijving voor de weergave in.
+    3. Als u wilt dat deze weergave de standaardweergave is, selecteert u **Als standaardweergave vastpinnen**. Zie het gedeelte [Standaardweergaven wijzigen](#changing-the-default-view) voor meer informatie over standaardweergaven. 
+    4. **Versie 10.0.21 of hoger:** als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, kunt u selecteren of deze weergave beschikbaar moet zijn voor alle rechtspersonen of slechts voor een aantal van deze rechtspersonen.
+    5. Selecteer **Opslaan**.
 
 ## <a name="changing-the-default-view"></a>De standaardweergave wijzigen
 
 De standaardweergave is de weergave die het systeem probeert te openen wanneer u de pagina voor het eerst opent. U moet de standaardweergave instellen op de weergave die u het vaakst verwacht te gebruiken. 
 
 > [!NOTE]
-> Er is één algemene standaardweergave voor alle bedrijven. Als u de standaardweergave wijzigt, wordt deze weergave standaard geopend, ongeacht de rechtspersoon die u op dat moment gebruikt. 
+> - In de basisfunctie **Opgeslagen weergaven** is er één algemene standaardweergave voor alle rechtspersonen. Als u de standaardweergave wijzigt, wordt deze weergave standaard geopend, ongeacht de rechtspersoon die u op dat moment gebruikt.
+> - **Versie 10.0.21 of hoger:** wanneer de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, kan elke rechtspersoon een eigen standaardweergave hebben per pagina.
 
 Volg deze stappen om de standaardweergave voor een pagina te wijzigen:
 
@@ -86,20 +91,23 @@ Volg deze stappen om de standaardweergave voor een pagina te wijzigen:
 
 Als u een nieuwe weergave maakt (met de actie **Opslaan als**), kunt u hiervan ook de standaardweergave maken door de optie **Vastmaken als standaard** in te stellen voordat u de weergave opslaat.
 
-In sommige gevallen wordt de query die is gekoppeld aan de standaardweergave niet uitgevoerd wanneer u een pagina voor het eerst opent. Als u bijvoorbeeld de pagina via een tegel opent, wordt de query van de tegel uitgevoerd, ongeacht de query die aan de standaardweergave is gekoppeld. Bovendien, als u een pagina opent waarvan de **standaard** weergave al een gedefinieerde query bevat, wordt de oorspronkelijke query uitgevoerd in plaats van de query van de standaardweergave. In dat geval ontvangt u een informatiebericht wanneer de weergave wordt geladen. Als u schakelt tussen weergaven nadat de pagina is geladen, moet de weergavequery kunnen worden uitgevoerd zoals verwacht. In versie 10.0.10 en later bevat het informatieve bericht dat u ontvangt, een ingesloten actie waarmee u de query van de standaardweergave rechtstreeks kunt laden.
+> [!WARNING]
+> In sommige gevallen wordt de query, die aan de standaardweergave gekoppeld is, niet uitgevoerd wanneer u een pagina voor het eerst opent. Als u bijvoorbeeld de pagina via een tegel opent, wordt de query van de tegel uitgevoerd, ongeacht de query die aan de standaardweergave is gekoppeld. Bovendien, als u een pagina opent waarvan de **standaard** weergave al een gedefinieerde query bevat, wordt de oorspronkelijke query uitgevoerd in plaats van de query van de standaardweergave. In dat geval ontvangt u een informatiebericht wanneer de weergave wordt geladen. Als u schakelt tussen weergaven nadat de pagina is geladen, moet de weergavequery kunnen worden uitgevoerd zoals verwacht. In versie 10.0.10 en later bevat het informatieve bericht dat u ontvangt, een ingesloten actie waarmee u de query van de standaardweergave rechtstreeks kunt laden.
 
 ## <a name="managing-personal-views"></a>Persoonlijke weergaven beheren
 
 In het dialoogvenster **Mijn weergaven beheren** beschikt u over basisfuncties voor het onderhoud van uw persoonlijke weergaven en de volgorde van weergaven in de weergavekiezer. Als u deze pagina wilt openen, selecteert u de naam van de weergave om de vervolgkeuzelijst van de weergavekiezer te openen en selecteert u **Meer** en **Mijn weergaven beheren**.
 
+**Versie 10.0.21 of hoger:** als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, worden in het gedeelte **Mijn weergaven** van het dialoogvenster **Mijn weergaven beheren** de beschikbare weergaven voor de pagina in gedeelten weergegeven. Alle weergaven die specifiek zijn voor de huidige rechtspersoon, worden weergegeven in hun eigen sectie. Het gedeelte **Algemene weergaven** wordt altijd weergegeven, zodat u de weergaven voor de pagina kunt beheren die beschikbaar zijn voor alle rechtspersonen. 
+
 De volgende set acties is beschikbaar voor een lijst met beschikbare weergaven voor die pagina.
 
-- **Standaardweergave wijzigen**: gebruik de actie **Vastmaken als standaard** om de momenteel geselecteerde weergave in te stellen als standaardweergave voor deze pagina.
+- **Standaardweergave wijzigen**: gebruik de actie **Vastmaken als standaard** om de momenteel geselecteerde weergave in te stellen als standaardweergave voor deze pagina. Als de functie **Ondersteuning voor juridische entiteiten importeren voor opgeslagen weergaven** is ingeschakeld, kunt u met het gedeelte **Algemene weergaven** een weergave als standaardweergave instellen voor de huidige rechtspersoon of voor alle rechtspersonen.
 - **Volgorde van weergaven wijzigen**: gebruik de acties **Omhoog verplaatsen** en **Omlaag verplaatsen** om de weergaven in een bepaalde volgorde te rangschikken.
 - **Naam van weergave wijzigen**: gebruik de actie **Naam wijzigen** om de naam van de huidige geselecteerde persoonlijke weergave te wijzigen. Deze actie is uitgeschakeld voor vergrendelde weergaven. 
 - **Weergave verwijderen**: gebruik de actie **Verwijderen** om de momenteel geselecteerde weergave permanent van de pagina te verwijderen. Na verwijdering kunt u een weergave niet meer herstellen.
 
-Eventuele wijzigingen in dit dialoogvenster worden pas van kracht als u de knop **Opslaan** selecteert.
+Eventuele wijzigingen in dit dialoogvenster worden pas van kracht als u de knop **Bijwerken** selecteert.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Persoonlijke instellingen op een organisationeel niveau beheren met weergaven
 
@@ -128,24 +136,28 @@ Voer deze stappen uit om een weergave te publiceren:
 6. Bepaal of de weergave moet worden gepubliceerd als de standaardweergave voor de geselecteerde gebruikers. Wanneer van een weergave de standaardweergave wordt gemaakt, zien gebruikers deze weergave de volgende keer dat ze de doelpagina openen. De enkele algemene standaardweergave van alle beoogde gebruikers wordt gewijzigd. Gebruikers kunnen hun standaardweergave echter nog steeds wijzigen na publicatie.
 
     > [!NOTE]
-    > Wanneer u een weergave als standaardweergave publiceert, moet u rekening houden met het volgende: 
-    > -  Als u een weergave als standaardweergave voor alle of een aantal rechtspersonen publiceert, wijzigt u de enkele **algemene** standaardweergave van elke beoogde gebruiker. 
-    > -  Als een gebruiker rollen heeft waar meerdere weergaven worden gepubliceerd als de standaardweergave, wordt de laatst gepubliceerde weergave gebruikt als de standaardweergave van de gebruiker. 
+    > Wanneer u een weergave als standaardweergave publiceert, moet u rekening houden met het volgende:
+    >
+    > - Als u een weergave als standaardweergave voor een aantal of voor alle rechtspersonen publiceert, gebeurt het volgende:
+    >
+    >    - Als alleen de basisfunctie **Opgeslagen weergaven** is ingeschakeld, wordt de algemene standaardweergave voor elke doelgebruiker gewijzigd. 
+    >    - **Versie 10.0.21 of hoger:** als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld en u de weergave publiceert naar een aantal rechtspersonen, wordt de standaardweergave voor deze rechtspersonen voor elke beoogde gebruiker gewijzigd.
+    >
+    > - Als een gebruiker rollen heeft waar meerdere weergaven worden gepubliceerd als de standaardweergave, wordt de laatst gepubliceerde weergave gebruikt als de standaardweergave van de gebruiker. 
 
 8. Voeg de beveiligingsrollen toe die overeenkomen met de gebruikers voor wie deze weergave is bedoeld. 
 9. Bepaal of u de weergave wilt publiceren naar de onderliggende rollen van elke geselecteerde beveiligingsrol. Als u dit doet, schakelt u het selectievakje **Onderliggende rollen opnemen** in de rij voor de gewenste beveiligingsrollen in. Dit selectievakje is niet beschikbaar voor rollen die geen onderliggende rollen hebben.
 10. Voeg de rechtspersonen toe waarvoor deze weergave beschikbaar moet zijn. 
 
     > [!NOTE]
-    > Wanneer u een weergave naar een rechtspersoon publiceert, moet u rekening houden met de volgende verwachtingen.
-    > 
-    > Als u een weergave naar een rechtspersoon publiceert, maar deze niet als de standaardweergave publiceert, zien gebruikers in eerste instantie de weergave in de weergaveselectie alleen voor de opgegeven rechtspersonen. Nadat de weergave echter voor de eerste keer is geladen, bevindt deze zich altijd in de weergavekiezer van de gebruiker voor die pagina, ongeacht de rechtspersoon.
+    > Houd rekening met het volgende gedrag wanneer u een weergave naar een specifieke rechtspersoon publiceert, maar wanneer u die weergave niet als de standaardweergave publiceert.
+    >
+    > - Als alleen de basisfunctie **Opgeslagen weergaven** is ingeschakeld, wordt de weergaveselector van de gebruiker voor de pagina in eerste instantie alleen voor de opgegeven rechtspersonen weergegeven. Nadat de weergave echter voor de eerste keer is geladen, zal de weergaveselector voor de pagina deze altijd tonen, ongeacht de rechtspersoon.
+    > - **Versie 10.0.21 of hoger:** als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, geeft de weergaveselector alleen de weergave voor de opgegeven rechtspersonen weer.
 
 11. Selecteer **Publiceren**.
 
 In sommige omgevingen kan het enige tijd duren (maximaal een uur) voordat gebruikers de gepubliceerde weergave kunnen zien.
-
- 
 
 ## <a name="modifying-a-published-view"></a>Een gepubliceerde weergave wijzigen
 
@@ -193,6 +205,7 @@ Hoewel sommige beheermogelijkheden op elke pagina zichtbaar zijn, zoals in dit o
 Gebruikers die toegang hebben tot de pagina **Aanpassing** kunnen ook persoonlijke sjablonen of organisatieweergaven importeren met de knop **Weergaven importeren** in het actievenster. Voor organisatieweergaven kunt u **Onmiddellijk publiceren** selecteren om de weergaven beschikbaar te maken voor gebruikers zonder dat deze nog expliciet worden gepubliceerd.
 
 ## <a name="known-issues"></a>Bekende problemen
+
 Voor een lijst met bekende problemen met opgeslagen weergaven raadpleegt u [Formulieren maken waarin opgeslagen weergaven volledig worden gebruikt](../../dev-itpro/user-interface/understanding-saved-views.md).
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
@@ -232,5 +245,11 @@ Voor pagina's met grote weergavekiezers (zowel persoonlijke instellingen als que
 - Als u van een tegel naar een pagina navigeert, wordt de query uitgevoerd, ongeacht de query die aan de standaardweergave is gekoppeld. Als u deze tegel hebt gemaakt nadat weergaven zijn ingeschakeld, wordt door het selecteren van een tegel de pagina geopend met de weergave die aan die tegel is gekoppeld.
 - Als u naar een pagina gaat en dat invoerpunt query bevat, wordt de oorspronkelijke query uitgevoerd in plaats van de query van de standaardweergave. Wanneer dat gebeurt, moet u een waarschuwing krijgen in een informatief bericht wanneer de weergave wordt geladen. U kunt ook bevestigen door naar deze pagina over te schakelen nadat de pagina is geladen,aangezien de weergavequery in dat geval sowieso moet worden uitgevoerd.
 
+### <a name="why-is-a-view-that-was-published-for-a-specific-legal-entity-visible-in-all-legal-entities"></a>Waarom is een weergave, die voor een specifieke rechtspersoon gepubliceerd is, zichtbaar voor alle rechtspersonen?
+
+Als u een weergave naar een specifieke rechtspersoon publiceert, maar wanneer u die weergave niet als de standaardweergave publiceert, gebeurt het volgende:
+
+- Als alleen de basisfunctie **Opgeslagen weergaven** is ingeschakeld, wordt de weergaveselector van de gebruiker voor de pagina in eerste instantie alleen voor de opgegeven rechtspersonen weergegeven. Nadat de weergave echter voor de eerste keer is geladen, zal de weergaveselector voor de pagina deze altijd tonen, ongeacht de rechtspersoon. Dit vindt plaats, omdat gebruikers een eigen kopie krijgen van de gepubliceerde weergave wanneer deze wordt geladen en omdat persoonlijke weergaven algemeen zijn.
+- **Versie 10.0.21 of hoger:** als de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** is ingeschakeld, geeft de weergaveselector alleen de weergave voor de opgegeven rechtspersonen weer. Dit vindt plaats, omdat de functie weergaven (inclusief persoonlijke weergaven) aan specifieke rechtspersonen koppelt.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

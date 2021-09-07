@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-02-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 4ee68b691bba7f3314b5278b0bcc26504c1583335914a1e7c645abd5303f02c6
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: 312fe318009a05de63fdba6aa8e6431836993957
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7012008"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345168"
 ---
 # <a name="regulatory-configuration-service"></a>Regulatory Configuration Service
 
@@ -51,7 +51,7 @@ Controleer op de pagina **Regulatory Configuration Service** de aanvullende alge
 - **Aanmelden** als u zich eerder hebt aangemeld voor de service en u toegang wilt krijgen tot uw organisatieomgeving
 
 > [!NOTE] 
-> Nadat u zich hebt aangemeld, is het raadzaam om een extra SysAdmin-gebruiker toe te voegen aan de RCS-omgeving. Deze gebruiker wordt ingericht als de co-beheerder voor de omgeving. Dit helpt om de toegang tot de RCS-omgeving te stabiliseren, aangezien de rol SysAdmin het beheren van gebruikers voor die omgeving is. U kunt gebruikers toevoegen met behulp van **RCS-werkgebied > Systeembeheer**.
+> Nadat u zich hebt aangemeld, is het raadzaam om een extra SysAdmin-gebruiker toe te voegen aan de RCS-omgeving. Deze gebruiker wordt ingericht als co-beheerder voor de omgeving. Dit helpt om de toegang tot de RCS-omgeving te stabiliseren, aangezien de rol SysAdmin het beheren van gebruikers voor die omgeving is. U kunt gebruikers toevoegen met behulp van **RCS-werkgebied > Systeembeheer**.
 
 ## <a name="regional-availability"></a>Regionale beschikbaarheid
 

@@ -1,8 +1,9 @@
 ---
 title: Overzicht van fiscale integratie voor Commerce-kanalen
 description: Dit onderwerp biedt een overzicht van de fiscale integratiefuncties die beschikbaar zijn in Dynamics 365 Commerce.
-author: josaw
-ms.date: 02/01/2019
+author: EvgenyPopovMBS
+manager: annbe
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,26 +16,26 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 6545f3ee488cdd98530839f546ca2e6a434194437dfa98712a1a6ac3407afdbf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 35612714f9443f1f37b744d87eda373df84aaadd
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733936"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343282"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Overzicht van fiscale integratie voor Commerce-kanalen
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="introduction"></a>Inleiding
+Dit onderwerp biedt een overzicht van de fiscale integratiefuncties die beschikbaar zijn in Dynamics 365 Commerce. 
 
-Dit onderwerp biedt een overzicht van de fiscale integratiefuncties die beschikbaar zijn in Dynamics 365 Commerce. Fiscale integratie omvat integratie met verschillende fiscale apparaten en services die fiscale registratie mogelijk maken van verkoop, in overeenstemming met de lokale belastingwetgeving die gericht is op het voorkomen van belastingfraude in de detailhandel. Dit zijn enkele veelvoorkomende scenario's die kunnen worden gedekt door fiscale integratie:
+Fiscale integratie omvat integratie met verschillende fiscale apparaten en services die fiscale registratie mogelijk maken van verkoop, in overeenstemming met de lokale belastingwetgeving die gericht is op het voorkomen van belastingfraude in de detailhandel. Dit zijn enkele veelvoorkomende scenario's die kunnen worden gedekt door fiscale integratie:
 
 - Registreer een verkoop op een fiscaal apparaat dat is verbonden met POS, zoals een fiscale printer, en druk een fiscaal ontvangstbewijs voor de klant af.
 - Dien veilig informatie die verband houdt met verkopen en retouren die worden voltooid in Retail POS, in bij een externe webservice die wordt bediend door de belastingdienst.
 - Help intactheid van verkooptransactiegegevens garanderen met behulp van digitale ondertekening.
 
-De functionaliteit voor fiscale integratie is een raamwerk dat een gemeenschappelijke oplossing biedt voor verdere ontwikkeling en aanpassing van de integratie tussen Retail POS en fiscale apparaten en services. De functionaliteit bevat ook fiscale integratievoorbeelden die ondersteuning bieden voor basisscenario's voor specifieke landen of regio's, en die werken met specifieke fiscale apparaten of services. Een fiscaal integratievoorbeeld bestaat uit verschillende uitbreidingen van de Commerce-onderdelen en is opgenomen in de SDK (Software Development Kit). Zie voor meer informatie over de voorbeelden van fiscale integratie [Voorbeelden van fiscale integratie in de Retail-SDK](#fiscal-integration-samples-in-the-retail-sdk). Zie voor informatie over het installeren en gebruiken van de Retail-SDK [Architectuur van Retail-SDK (Software Development Kit)](../dev-itpro/retail-sdk/retail-sdk-overview.md).
+De functionaliteit voor fiscale integratie is een raamwerk dat een gemeenschappelijke oplossing biedt voor verdere ontwikkeling en aanpassing van de integratie tussen Retail POS en fiscale apparaten en services. De functionaliteit bevat ook fiscale integratievoorbeelden die ondersteuning bieden voor basisscenario's voor specifieke landen of regio's, en die werken met specifieke fiscale apparaten of services. Een fiscaal integratievoorbeeld bestaat uit verschillende uitbreidingen van de Commerce-onderdelen en is opgenomen in de SDK (Software Development Kit). Zie voor meer informatie over de voorbeelden van fiscale integratie [Voorbeelden van fiscale integratie in de Commerce-SDK](#fiscal-integration-samples-in-the-commerce-sdk). Zie voor informatie over het installeren en gebruiken van de Commerce-SDK [Architectuur van Retail-SDK (Software Development Kit)](../dev-itpro/retail-sdk/retail-sdk-overview.md).
 
 Ter ondersteuning van andere scenario's die niet worden ondersteund door een fiscaal integratievoorbeeld, om Retail POS te integreren met andere fiscale apparaten of services of om te voldoen aan vereisten van andere landen of regio's, moet u een bestaand fiscaal integratievoorbeeld uitbreiden of een nieuw voorbeeld maken op basis van een bestaand voorbeeld.
 
@@ -55,13 +56,13 @@ Een fiscaal registratieproces voor een bepaalde POS-kassa wordt gedefinieerd doo
 Het volgende voorbeeld toont een gebruikelijke fiscale registratie-uitvoeringsstroom voor een fiscaal apparaat. De stroom begint met een gebeurtenis in het POS (bijvoorbeeld de voltooiing van een verkooptransactie) en implementeert de volgende reeks stappen:
 
 1. Het POS vraagt een fiscaal document aan bij CRT.
-2. CRT bepaalt of de huidige gebeurtenis fiscale registratie vereist.
-3. Op basis van de instellingen voor het fiscale registratieproces, identificeert CRT een fiscale connector en de bijbehorende fiscale documentprovider die moet worden gebruikt voor de fiscale registratie.
-4. CRT wordt uitgevoerd voor de fiscale documentprovider die een fiscaal document genereert (bijvoorbeeld een XML-document) dat staat voor de transactie of gebeurtenis.
-5. Het POS verzendt het fiscale document dat CRT voorbereidt naar een Hardware-station.
-6. Het Hardware-station voert de fiscale connector uit die het fiscale document verwerkt en doorgeeft aan het fiscale apparaat of service.
-7. Het POS analyseert de reactie van het fiscale apparaat of service om te bepalen of de fiscale registratie voltooid is.
-8. CRT slaat het antwoord op in de afzetkanaaldatabase.
+1. CRT bepaalt of de huidige gebeurtenis fiscale registratie vereist.
+1. Op basis van de instellingen voor het fiscale registratieproces, identificeert CRT een fiscale connector en de bijbehorende fiscale documentprovider die moet worden gebruikt voor de fiscale registratie.
+1. CRT wordt uitgevoerd voor de fiscale documentprovider die een fiscaal document genereert (bijvoorbeeld een XML-document) dat staat voor de transactie of gebeurtenis.
+1. Het POS verzendt het fiscale document dat CRT voorbereidt naar een Hardware-station.
+1. Het Hardware-station voert de fiscale connector uit die het fiscale document verwerkt en doorgeeft aan het fiscale apparaat of service.
+1. Het POS analyseert de reactie van het fiscale apparaat of service om te bepalen of de fiscale registratie voltooid is.
+1. CRT slaat het antwoord op in de afzetkanaaldatabase.
 
 ![Oplossingsschema.](media/emea-fiscal-integration-solution.png "Oplossingsschema")
 
@@ -117,6 +118,8 @@ Een fiscale transactie wordt opgeslagen met de volgende gegevens:
 - De status van de fiscale registratie: **Voltooid** voor succesvolle registratie, **Overgeslagen** als de operator de optie **Overslaan** heeft geselecteerd voor een mislukte registratie of **Gemarkeerd als geregistreerd** als de operator de optie **Markeren als geregistreerd** heeft geregistreerd.
 - Infocodetransacties weergeven die zijn gekoppeld aan een geselecteerde fiscale transactie. Als u de infocodetransacties wilt weergeven, selecteert u op het sneltabblad **Fiscale transacties** een fiscale transactie met de status **Overgeslagen** of **Gemarkeerd als geregistreerd** en selecteert u vervolgens **Informatiecodetransacties**.
 
+Als u **Uitgebreide gegevens** selecteert, kunt u ook bepaalde eigenschappen van de fiscale transactie weergeven. De lijst met eigenschappen die kunnen worden weergegeven, is specifiek voor de fiscale registratiefunctionaliteit die de fiscale transactie heeft gegenereerd. U kunt bijvoorbeeld de digitale handtekening, het opeenvolgende nummer, het certificaatsalgoritme, de hash-algoritme-id en andere eigenschappen voor fiscale transacties voor de functionaliteit voor digitale ondertekening voor Frankrijk weergeven.
+
 ## <a name="fiscal-texts-for-discounts"></a>Fiscale teksten voor kortingen
 
 Sommige landen of regio's hebben speciale vereisten over aanvullende tekst die moeten worden afgedrukt op fiscale ontvangsten wanneer verschillende soorten kortingen worden toegepast. Met de fiscale integratiefunctionaliteit kunt u een speciale tekst instellen voor een korting die wordt afgedrukt na een kortingsregel in een fiscaal ontvangstbewijs. Voor handmatige kortingen kunt u een fiscale tekst voor de informatiecode configureren die wordt opgegeven als de **Productkorting**-infocode in het POS-functionaliteitsprofiel. Zie voor meer informatie over het instellen van fiscale teksten voor kortingen [Fiscale teksten voor kortingen instellen](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-texts-for-discounts).
@@ -128,26 +131,29 @@ De functionaliteit voor fiscale integratie ondersteunt het genereren van eindeda
 - Nieuwe knoppen die corresponderende bewerkingen uitvoeren, moeten worden toegevoegd aan de POS-schermindeling. Zie voor meer informatie [X/Z-rapporten instellen vanaf het POS](setting-up-fiscal-integration-for-retail-channel.md#set-up-fiscal-xz-reports-from-the-pos).
 - In het fiscale integratievoorbeeld moeten deze bewerkingen worden vergeleken met de bijbehorende bewerkingen van het fiscale apparaat.
 
-## <a name="fiscal-integration-samples-in-the-retail-sdk"></a>Fiscale integratievoorbeelden in de Retail-SDK
+## <a name="fiscal-integration-samples-in-the-commerce-sdk"></a>Fiscale integratievoorbeelden in de Commerce-SDK
 
-De volgende fiscale integratievoorbeelden zijn momenteel beschikbaar in de Retail-SDK:
+De volgende fiscale integratievoorbeelden zijn momenteel beschikbaar in de Commerce-SDK:
 
-- [Voorbeeld van integratie van fiscale printer voor Italië](emea-ita-fpi-sample.md)
-- [Voorbeeld van integratie van fiscale printer voor Polen](emea-pol-fpi-sample.md)
-- [Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk](emea-aut-fi-sample.md)
-- [Voorbeeld van integratie van fiscale registratieservice voor Tsjechië](emea-cze-fi-sample.md)
+- [Voorbeeld van integratie van fiscale printer voor Italië](./emea-ita-fpi-sample.md)
+- [Voorbeeld van integratie van fiscale printer voor Polen](./emea-pol-fpi-sample.md)
+- [Voorbeeld van integratie van fiscale registratieservice voor Oostenrijk](./emea-aut-fi-sample.md)
+- [Voorbeeld van integratie van fiscale registratieservice voor Tsjechië](./emea-cze-fi-sample.md)
 - [Regeleenheidintegratievoorbeeld voor Zweden](./emea-swe-fi-sample.md)
 - [Voorbeeld van integratie van fiscale registratieservice voor Duitsland](./emea-deu-fi-sample.md)
 
-De volgende fiscale Integratiefunctionaliteit is ook beschikbaar in de Retail-SDK, maar maakt op het moment geen gebruik van het fiscale integratieraamwerk. Migratie van deze functionaliteit naar het fiscale integratieraamwerk is gepland voor latere updates.
+De volgende functionaliteit voor fiscale integratie wordt ook geïmplementeerd met behulp van het fiscale integratieraamwerk, maar is kant-en-klaar beschikbaar en is niet opgenomen in de Commerce-SDK:
 
+- [Fiscale registratie voor Brazilië](./latam-bra-commerce-localization.md#fiscal-registration-for-brazil)
+- [Digitale handtekening voor Frankrijk](./emea-fra-cash-registers.md)
 
-- [Digitale handtekening voor Frankrijk](emea-fra-cash-registers.md)
-- [Digitale handtekening voor Noorwegen](emea-nor-cash-registers.md)
+De volgende fiscale Integratiefunctionaliteit is ook beschikbaar in de Commerce-SDK, maar deze maakt op het moment geen gebruik van het fiscale integratieraamwerk. Migratie van deze functionaliteit naar het fiscale integratieraamwerk is gepland voor latere updates.
 
-De volgende verouderde functionaliteit voor fiscale integratie die beschikbaar is in Retail SDK maakt geen gebruik van het raamwerk voor fiscale integratie en wordt afgeschaft in latere updates:
+- [Digitale handtekening voor Noorwegen](./emea-nor-cash-registers.md)
+
+De volgende verouderde functionaliteit voor fiscale integratie die beschikbaar is in de Commerce-SDK maakt geen gebruik van het raamwerk voor fiscale integratie en wordt afgeschaft in latere updates:
 
 - [Regeleenheidintegratievoorbeeld voor Zweden (verouderd)](./retail-sdk-control-unit-sample.md)
-
+- [Digitale handtekening voor Frankrijk (verouderd)](./emea-fra-deployment.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

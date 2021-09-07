@@ -2,7 +2,7 @@
 title: Apps van derden insluiten
 description: In dit onderwerp wordt uitgelegd hoe u apps van derden kunt insluiten om de functionaliteit van het product te verbeteren.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2021-04-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f47fb6a2fdb586fbc9f25938c3b9c1cfc16ddc1af432b91621421bd829b23925
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b0471fd2ea9a5e8b07b9e8bc279da53f6a1539ca
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737794"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345405"
 ---
 # <a name="embed-third-party-apps"></a>Apps van derden insluiten
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Veel klanten gebruiken een meerdere toepassingen om hun activiteiten uit te voeren. Sommige van deze toepassingen zijn webtoepassingen van derden, die werken in combinatie met Finance and Operations-apps. Voor een soepele gebruikerservaring kunt u met de functie **Apps op volledige pagina (preview)** deze toepassingen van derden rechtstreeks in uw Finance and Operations-apps insluiten (als deze toepassingen van derden het toelaten te worden ingesloten). Op deze manier hebben gebruikers toegang tot de websites en apps die ze nodig hebben, zonder dat ze tussen tabbladen of vensters moeten wisselen.
 
@@ -64,7 +64,7 @@ Gebruik deze procedure als u een bestaande pagina in het systeem wilt aanvullen 
 Gebruik deze procedure als de app die u wilt insluiten die geen verband houdt met een bestaande pagina, of als u alleen een volledige pagina wilt gebruiken voor de app in de Finance and Operations-app.
 
 1. Open het dashboard.
-2. Selecteer de pagina en houd deze vast (of klik erop met de rechtermuisknop), selecteer **Personaliseren** en selecteer vervolgens **Een pagina toevoegen**.
+2. Selecteer en houd vast (of klik met de rechtermuisknop) op het dashboard, selecteer **Personaliseren** en selecteer vervolgens **Een pagina toevoegen**
 3. Selecteer in het deelvenster **Een pagina toevoegen** de optie **Website**.
 4. De ingesloten app configureren:
 
@@ -82,9 +82,9 @@ Gebruik deze procedure als de app die u wilt insluiten die geen verband houdt me
 
 Nadat u een app hebt ingesloten via een van de methoden die in de vorige secties zijn beschreven, wilt u de weergave mogelijk delen met andere gebruikers in het systeem. Gebruik een van de volgende methoden om een ingesloten app te delen:
 
-- **De weergave publiceren (aanbevolen)**: Als de ingesloten app is opgeslagen in een weergave, wordt het aanbevolen (en verdient het de voorkeur) om deze te delen door de weergave te publiceren naar gebruikers met de juiste beveiligingsrollen. Zo zorgt u ervoor dat alle gebruikers die de beveiligingsrollen voor de gepubliceerde weergave hebben, de app in Finance and Operations-apps zien. Meer informatie over het publiceren van een weergave vindt u in [Weergaven publiceren](saved-views.md#publishing-views).
+- **De weergave publiceren (aanbevolen):** als de ingesloten app is opgeslagen in een weergave, wordt het aanbevolen (en verdient het de voorkeur) om deze te delen door de weergave te publiceren naar gebruikers met de juiste beveiligingsrollen in de beoogde rechtspersonen. In dit geval zien alleen de gewenste gebruikers de ingesloten app op die pagina. Meer informatie over het publiceren van een weergave vindt u in [Weergaven publiceren](saved-views.md#publishing-views).
 
-    U kunt ook een app publiceren die is ingesloten als volledige pagina vanuit het dashboard. Selecteer op het dashboard de tegel die aan de app is gekoppeld en houd deze vast (of klik erop met de rechtermuisknop), selecteer **Personaliseren** en selecteer vervolgens **Pagina publiceren**. U kunt op dit moment alleen publiceren naar beveiligingsrollen. De mogelijkheid om naar rechtspersonen te publiceren wordt echter nog wel toegevoegd voordat de functie algemeen beschikbaar wordt.
+    U kunt ook een app publiceren die is ingesloten als volledige pagina vanuit het dashboard. Selecteer op het dashboard de tegel die aan de app is gekoppeld en houd deze vast (of klik erop met de rechtermuisknop), selecteer **Personaliseren** en selecteer vervolgens **Pagina publiceren**. Een ervaring die lijkt op de ervaring met *Publicatieweergaven* wordt weergegeven en u kunt de beveiligingsrollen selecteren waarvoor gepubliceerd moet worden. Als u bij update 10.0.21 of hoger de **Verbeterde ondersteuning van de rechtspersoon voor opgeslagen weergaven** hebt ingeschakeld, kunt u de app ook publiceren naar de gewenste rechtspersonen.
 
 - **De personalisatie kopiëren**: Voor pagina's die geen weergaven ondersteunen (bijvoorbeeld dialoogvensters of werkgebieden) of voor de app met een volledige pagina kunt u de personalisatie naar de juiste gebruikers kopiëren. Meer informatie over dit onderwerp vindt u in [Persoonlijke instellingen delen](personalize-user-experience.md#sharing-personalizations).
 

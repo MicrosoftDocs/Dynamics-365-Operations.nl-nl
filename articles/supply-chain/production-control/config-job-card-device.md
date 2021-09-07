@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 9da14c22b0ab62a8384fbe76918cc19da0205cdbbf2f4fd2ef8e7aec57b264ee
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bead8a80110df174c094d0729fbde3d96b230cbf
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6781009"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343992"
 ---
 # <a name="configure-job-card-for-devices"></a>Taakkaart configureren voor apparaten
 
@@ -65,7 +65,7 @@ Op het sneltabblad **Algemeen** kunt u de verschillende opties configureren die 
 
 - **Hoeveelheid rapporteren bij uitklokken**: stel dit in op **Ja** om werknemers te vragen om bij het uitklokken feedback te rapporteren over taken die zijn uitgevoerd. Indien ingesteld op **Nee**, wordt dit niet aan werknemers gevraagd.
 - **Werknemer vergrendelen**: wanneer deze optie is ingesteld op **Nee**, wordt elke werknemer onmiddellijk afgemeld nadat ze een registratie (zoals een nieuwe taak) hebben gemaakt, waarna het apparaat terugkeert naar de aanmeldingspagina. Als deze optie is ingesteld op **Ja**, blijft elke werknemer aangemeld bij het taakkaartapparaat. De werknemer kan echter nog steeds handmatig uitloggen om een andere werknemer toe te staan zich aan te melden terwijl de taakkaart wordt uitgevoerd onder hetzelfde systeemgebruikersaccount. Meer informatie over deze typen accounts vindt u in [Toegewezen gebruikers](#assigned-users).
-- **Streepjescodescanner**: stel dit in op **Ja** om een optie op de taakkaart in te stellen waarmee werknemers het begin van een nieuwe taak kunnen registreren door een streepjescode te scannen.
+- **Streepjescodescanner**: stel deze optie in op **Ja** om een optie op de taakkaart weer te geven waarmee werknemers het begin van een nieuwe taak kunnen registreren door een streepjescode te scannen.
 - **De werkelijke registratietijd gebruiken**: stel dit in op **Ja** om de tijd in te stellen voor elke nieuwe registratie die gelijk is aan de exacte tijd waarop de registratie is ingediend door een werknemer. Stel in op **Nee** als u de aanmeldingstijd wilt gebruiken. U stelt dit meestal in op **Ja** als u de opties **Werknemer vergrendelen** en/of **Eén werknemer** hebt ingeschakeld, waarbij werknemers vaak blijven aangemeld gedurende langere perioden.
 - **Eén werknemer**: stel deze optie in op **Ja** als slechts één werknemer het taakkaartapparaat gebruikt waarvoor deze configuratie actief is. Als deze optie is geselecteerd, wordt de optie **Werknemer vergrendelen** automatisch ingesteld op **Ja**. Bovendien verwijdert u met deze optie de vereiste (en de mogelijkheid) om zich aan te melden met behulp van een badge-id (of vergelijkbaar). In plaats daarvan meldt de werknemer zich aan bij Supply Chain Management met een systeemgebruikersaccount dat is gekoppeld aan een *werknemer met tijdregistratie* (uit de tabel *werknemers*) en dat op hetzelfde moment wordt aangemeld bij het taakkaartapparaat als die werknemer.  Meer informatie over deze typen accounts vindt u in [Toegewezen gebruikers](#assigned-users).
 - **Werknemers persoonlijke filters laten instellen**: stel deze optie in op **Ja** als u wilt dat werknemers de taken kunnen filteren die op het apparaat worden getoond. De werknemer kan waarden wijzigen voor een van de drie filtercriteria: **Productie-eenheid**, **Resourcegroep** en **Resource**. Er worden alleen taken weergegeven die zijn gepland voor resources die overeenkomen met de geselecteerde filtercriteria op het apparaat. U kunt ook standaardwaarden toewijzen voor een of meer van deze criteria, en deze worden toegepast zelfs als deze optie niet is geselecteerd.

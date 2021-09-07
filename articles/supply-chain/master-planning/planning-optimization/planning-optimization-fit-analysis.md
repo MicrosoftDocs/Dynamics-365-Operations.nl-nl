@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 52048ea6cced6f670faf13ef07f1288183e6d9b67a016608030f9e192a98faa7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd0fdd677824db823f9bc42f0ad1bdd90cf3b16d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751093"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344973"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Analyse aanpassen aan Planningsoptimalisatie
 
@@ -51,6 +51,9 @@ Voor een overzicht van het resultaat van Analyse aanpassen aan Planningsoptimali
 ## <a name="overview-of-possible-results-from-the-fit-analysis"></a>Overzicht van mogelijke resultaten van de aanpassingsanalyse
 
 In de volgende tabel worden de verschillende resultaten weergegeven die kunnen worden weergegeven na een aanpassingsanalyse. Hekjes (_\#_) worden vervangen door een getal dat het aantal records aangeeft met het vermelde probleem. Ondersteunde functies of functies in een voorbeeld zijn beschikbaar in versie 10.0.9 of hoger (tenzij er een hoger versienummer wordt weergegeven in de kolom 'Verwachte beschikbaarheid').
+
+> [!NOTE]
+> Sommige inconsistenties kunnen niet worden geïdentificeerd via de analyse van de planningsoptimalisatie. Raadpleeg voor meer informatie [Verschillen tussen klassieke hoofdplanning en planningsoptimalisatie](planning-optimization-differences-with-built-in.md).
 
 | Functie | Vermeld probleem | Uitleg | Verwachte beschikbaarheid |
 | --- | --- | --- | --- |
@@ -105,6 +108,10 @@ In de volgende tabel worden de verschillende resultaten weergegeven die kunnen w
 [Overzicht van Planningsoptimalisatie](planning-optimization-overview.md)
 
 [Aan de slag met Planningsoptimalisatie](get-started.md)
+
+[Verschillen tussen klassieke hoofdplanning en planningsoptimalisatie](planning-optimization-differences-with-built-in.md)
+
+[Parameters die niet worden gebruikt door Planningsoptimalisatie](not-used-parameters.md)
 
 [Planhistorie en planningslogboeken weergeven](plan-history-logs.md)
 

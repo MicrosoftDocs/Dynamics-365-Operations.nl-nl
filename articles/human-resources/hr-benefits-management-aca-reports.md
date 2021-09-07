@@ -1,8 +1,8 @@
 ---
 title: ACA-rapporten genereren in Vergoedingenbeheer
-description: In dit onderwerp wordt beschreven hoe Vergoedingenbeheer u helpt gegevens bij te houden die worden gerapporteerd met formulier 1095-B en formulier 1095-C voor het werkgeversmandaat van de Affordable Care Act (ACA).
-author: andreabichsel
-ms.date: 12/28/2020
+description: In dit onderwerp wordt beschreven hoe Vergoedingenbeheer gegevens bijhoudt die worden gerapporteerd met formulier 1095-B en formulier 1095-C voor het werkgeversmandaat van de Affordable Care Act (ACA).
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,21 +11,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: d681514f53dbaf4aafce33722d0c1837c3d270407c19d629c3383ff1a2472d67
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99ac67795cd3f587e54a84361dd4744b79b4dbbd
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6727060"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416249"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>ACA-rapporten genereren in Vergoedingenbeheer
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Vergoedingenbeheer helpt u gegevens bij te houden die worden gerapporteerd met formulier 1095-B en formulier 1095-C voor het werkgeversmandaat van de Affordable Care Act (ACA). Net zoals de ACA-rapportagefunctionaliteit in het oude werkgebied **Vergoedingen**, is deze functionaliteit alleen van toepassing op rechtspersonen in de Verenigde Staten.
+Vergoedingenbeheer houdt gegevens bij die worden gerapporteerd met formulier 1095-B en formulier 1095-C voor het werkgeversmandaat van de Affordable Care Act (ACA). Net zoals de ACA-rapportagefunctionaliteit in het oude werkgebied **Vergoedingen**, is deze functionaliteit alleen van toepassing op rechtspersonen in de Verenigde Staten.
 
 Als u deze functionaliteit wilt gebruiken, moet u eerst **Geavanceerd vergoedingenbeheer** inschakelen. Meer informatie, inclusief belangrijke voorbehouden voor Vergoedingenbeheer, vindt u in [Vergoedingenbeheer in- of uitschakelen](hr-admin-manage-features.md#enable-or-disable-benefits-management).
 
@@ -145,7 +145,7 @@ U kunt ook de ACA-formulieren 1095-B en 1095-C genereren in het product en distr
 2. Wijzig waar nodig de parameters en selecteer **OK**.
 
     > [!NOTE]
-    > Als u 1095-C-formulieren voor meer dan 500 werknemers afdrukt, ontvangt u meer dan één PDF-bestand. U wordt aangeraden de waarde van het veld **Maximumbestandsgrootte in megabytes** op de pagina **Parameters voor documentbeheer** te verhogen naar **150**. (Als u die pagina snel wilt openen, kunt u het zoekveld op de navigatiebalk gebruiken.)
+    > Als u 1095-C-formulieren voor meer dan 500 werknemers afdrukt, ontvangt u meer dan één PDF-bestand. U wordt aangeraden de waarde van het veld **Maximumbestandsgrootte in megabytes** op de pagina **Parameters voor documentbeheer** te verhogen naar **150**. (Als u die pagina snel wilt openen, gebruikt u het zoekveld op de navigatiebalk.)
     >
     > ![De maximumbestandsgrootte wijzigen.](./media/hr-benefits-management-aca-maximum-file-size.png)
 

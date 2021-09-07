@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 08ece85c773538283fa31ed72e8af61e2da03845fbaa4e6b0507a65626bce803
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720521"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344053"
 ---
 # <a name="one-voucher"></a>Eén boekstuk
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 ## <a name="what-is-one-voucher"></a>Wat is Eén boekstuk?
@@ -81,7 +82,7 @@ Op basis van informatie van klanten heeft Microsoft de volgende lijst opgesteld 
 
 De volgende scenario's kunnen alleen met de functionaliteit Eén boekstuk worden uitgevoerd. Als uw organisatie een van deze scenario's heeft, moet u inschakelen dat meerdere transacties kunnen worden ingevoerd in een boekstuk door wijziging van de instelling van de parameter **Meerdere transacties binnen één boekstuk toestaan** op de pagina **Grootboekparameters**. Deze functionele hiaten worden door andere functies opgevuld in latere releases.
 
-> [!Note]
+> [!NOTE]
 > [Voor elk van de volgende scenario's moet het veld **Meerdere transacties binnen één boekstuk toestaan** zijn ingesteld op Ja op het sneltabblad **Algemeen** op de pagina **Grootboekparameters**.]
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Betalingen van leverancier of klant als een overzicht naar een bankrekening boeken
@@ -115,15 +116,7 @@ In dit scenario zijn de klanten in het ene boekstuk dezelfde klant, omdat de tra
 Als de periodieke taak Terugbetaling wordt uitgevoerd vanuit de module Klanten, wordt een transactie gemaakt om het saldo van een klant naar een leverancier te verplaatsen. In dit scenario moet Eén boekstuk worden gebruikt om de klant terug te betalen.
 
 ### <a name="fixed-asset-maintenance-catch-up-depreciation-split-asset-calculate-depreciation-on-disposal"></a>Onderhoud vaste activa: achterstallige afschrijving, splitsen van activa, afschrijving berekenen voor afstoting
-Met de volgende vaste-activatransacties worden ook meerdere transacties gemaakt in één boekstuk:
-
-- Er worden extra aanschafkosten voor een activum gemaakt en 'achterstallige' afschrijving wordt berekend.
-- Een activum wordt opgesplitst.
-- Een parameter voor het berekenen van afschrijving bij buitengebruikstelling wordt ingeschakeld en vervolgens wordt het activum afgestoten.
-- De servicedatum van ene activum valt vóór de verwervingsdatum. Daarom wordt een afschrijvingscorrectie geboekt.
-
-> [!Note]
-> Wanneer u trans acties invoert, moet u ervoor zorgen dat alle transacties van toepassing zijn op hetzelfde vaste activum. Het boekstuk wordt niet geboekt als het meer dan één vast activum bevat, zelfs niet als het veld **Nieuw boekstuk** veld is ingesteld op Maximaal één boekstuknummer op de pagina **Journaalnamen** in Grootboek. Als u meer dan één vast activum in het boekstuk opneemt, wordt het bericht **Er kan niet meer dan één vaste-activatransactie per boekstuk zijn** weergegeven en kunt u het boekstuk niet boeken.  
+In versie 10.0.21 en hoger worden transacties van vaste activa voor een inhaalafschrijving, voor het splitsen van een activum en voor het berekenen van de afschrijving voor de vervreemding van een activum gecreëerd met verschillende boekstuknummers.
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a> Wissels en promessen
 Wissels en promessen vereisen dat Eén boekstuk wordt gebruikt, omdat de transacties het klant- of leverancierssaldo van de ene Klanten/Leveranciers-grootboekrekening naar de andere verplaatsen, op basis van de status van de betaling.

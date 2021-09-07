@@ -1,5 +1,5 @@
 ---
-title: Het voorspellingsmodel verbeteren (preview)
+title: Het voorspellingsmodel verbeteren
 description: In dit onderwerp worden de functies beschreven die u kunt gebruiken om de prestaties van voorspellingsmodellen te verbeteren.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 0bf4dd0f7edc528393af628eb3776c32957c459d3eaa166b0bc54d9318b54916
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: de753eda43cb358dfa9edc76f102d4b268291b4e
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768790"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386433"
 ---
-# <a name="improve-the-prediction-model-preview"></a>Het voorspellingsmodel verbeteren (preview)
+# <a name="improve-the-prediction-model"></a>Het voorspellingsmodel verbeteren
 
 [!include [banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ Als uw organisatie slechts twee resultaten nodig heeft, wijzigt u de drempels **
 Wanneer u velden selecteert die u in het model wilt opnemen, moet u er rekening mee houden dat de lijst alle beschikbare velden bevat in de Microsoft Dataverse-tabel die is toegewezen aan de gegevens in de Azure data lake. Sommige van deze velden mogen **niet** zijn geselecteerd. De velden die niet mogen worden geselecteerd, vallen in een van de volgende drie categorieën:
 
 - Het veld is vereist voor de Dataverse-tabel, maar er zijn geen gegevens voor in de data lake.
-- Het veld is een ID en is daarom niet zinvol voor een machine learning-functie.
+- Het veld is een id en is daarom niet zinvol voor een machine learning-functie.
 - Het veld bevat informatie die niet beschikbaar is tijdens de voorspelling.
 
 In de volgende secties worden de velden weergegeven die beschikbaar zijn voor de factuur- en klantentiteiten, en worden de velden weergegeven die **niet** voor de training moeten worden geselecteerd. De categorie die voor elk van deze velden is opgegeven, verwijst naar de categorieën in de voorgaande lijst.
@@ -57,7 +57,7 @@ De volgende velden moeten niet zijn geselecteerd voor training:
 - **Factuurrekening** (categorie 2)
 - **Is gesloten** (categorie 3): dit veld wordt gebruikt om facturen te filteren voor training (gesloten) en voorspelling (niet afgesloten).
 - **Naam** (categorie 1)
-- **Bron-ID** (categorie 2)
+- **Bron-id** (categorie 2)
 - **Bronrecord** (categorie 2)
 - **Brontabel** (categorie 2)
 

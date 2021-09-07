@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3fee88c9822956672469968c3f4fa171a65e1cf301d61d48d5d31e08949797a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764879"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402220"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Trainingscatalogus voor beheerders van Dynamics 365 Supply Chain Management
 
@@ -61,6 +61,14 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [Finance and Operations: Upgraden van 7.x naar 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Doe mee aan onze volgende TechTalk, waarin we het upgradeproces van 7.X naar 8.X zullen behandelen. Er komen diverse scenario's en stappen aan de orde voor het uitvoeren van code- en gegevensupgrades. Verder worden scenario's voor uitbreidingsaanvragen besproken en hoe u deze indien nodig kunt indienen. | Gratis registratie van een webvergadering | 61 minuten |
 | [Upgraden naar 7.2 (juli 2017) vanaf 7.0 (RTW)/7.1 (Release 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | In deze sessie wordt uitgelegd hoe u een upgrade uitvoert van de Dynamics 365 Finance and Operations-toepassing v 7.0 (RTW) en v 7.1 (1611) naar v 7.2 (juli 2017). Wij maken een duidelijk onderscheid tussen live klanten en lopende projecten (die nog niet live zijn). | Gratis registratie van een webvergadering | 58 minuten |
 | [Upgrade van AX2012 naar Dynamics 365 for Operations (VIR817PAL2) ](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Deze TechTalk geeft een overzicht van het upgraden van code en gegevens van Dynamics AX 2012 naar Dynamics 365 for Operations. | Gratis registratie van een webvergadering | 45 minuten |
+| [Functies voor migratie van AX2009 naar Dynamics 365 for Operations (VIR809PAL) ](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | Deze sessie gaat over hulpmiddelen die beschikbaar zijn om u te helpen bij de migratie van AX2009 naar D365 for Operations. | Gratis registratie van een webvergadering | 55 minuten |
+| [AX2009-migratietool](https://community.dynamics.com/365/b/techtalks/posts/ax2009-migration-tool-may-11-2017) | Deze sessie gaat over hulpmiddelen die beschikbaar zijn om u te helpen bij de migratie van AX2009 naar D365 for Operations. | Gratis registratie van een webvergadering | 55 minuten |
+
+## <a name="supply-chain-management"></a>Supply Chain Management<a name="scm"></a>
+
+| Inhoud | Beschrijving | Format | Lengte |
+|---------|-------------|--------|--------|
+| [Technisch wijzigingsbeheer instellen voor Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | De hedendaagse fabrikanten vereisen een krachtig productgegevensbeheer, versiebeheer en beheer van technische wijzigingen om in een wereld van constant kortere levenscycli van producten, verhoogde kwaliteit en betrouwbaarheid en toegenomen nadruk op productveiligheid te slagen. Kom in dit leertraject meer te weten over het instellen van technisch wijzigingsbeheer. | Gratis online leertraject voor zelfstudie | 4 uur |
 
 ## <a name="servicing"></a>Service<a name="servicing"></a>
 
@@ -69,6 +77,7 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | [Finance and Operations: Functiebeheer (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | TechTalk over de ervaring met Functiebeheer. Er wordt een werkgebied geboden waarin u functies die in elke release zijn geleverd, kunt weergeven, inschakelen, uitschakelen en plannen. Nieuwe functies zijn standaard uitgeschakeld. U kunt het werkgebied gebruiken om deze in te schakelen en de bijbehorende documenten weer te geven. Neem deel aan deze vergadering om te zien wat wordt geleverd in 10.0.3 en wat onze plannen zijn voor toekomstige versies. | Gratis registratie van een webvergadering | 47 minuten |
 | [Finance and Operations: Onderhoud, ondersteuning en onderhoud van de productie (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | TechTalk over hoe u uw Dynamics 365 for Finance and Operations-productieomgeving efficiënt kunt ondersteunen, bijwerken en onderhouden. | Gratis registratie van een webvergadering | 53 minuten |
 | [Finance and Operations: door Microsoft beheerde doorlopende updates (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | De reeks met doorlopende updates voor Finance and Operations is gestart. Bespreek samen met ons de door Microsoft beheerde doorlopende updates, de gebruikerservaring die al beschikbaar is in Lifecycle Services en komende updates. | Gratis registratie van een webvergadering | 61 minuten |
+| [Finance and Operations: door Microsoft doorlopende updates: Nieuw - 1 november 2018 (DYN533cust)](https://community.dynamics.com/Techtalks-FinOps-Videos/MicrosoftManagedContinuousUpdates-WhatsNew-DYN533cust.mp4) | In deze bespreking komen de updates aan de orde voor de regelmatig door Microsoft beheerde doorlopende updates en bekijken we de gebruikerservaring van Lifecycle Services. | Gratis registratie van een webvergadering | 59 minuten |
 | [Door Microsoft beheerde doorlopende updates: nieuw in (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | In dit uur leggen we uit wat er nieuw is sinds onze eerste aankondigingen over door Microsoft beheerde doorlopende updates. We bespreken de reeks met updates, hoe wij hebben gereageerd op uw waardevolle feedback over het proces en we kijken naar de komende gebruikerservaring van Lifecycle Services, waarmee u uw updates kunt beheren. | Gratis registratie van een webvergadering | 56 minuten |
 | [Door Microsoft beheerde doorlopende updates (DYN474PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-september-5-2018) | We bespreken de plannen van Microsoft voor het up-to-date houden van uw systeem met de nieuwste versie. We besproken tijdlijnen, het ritme van primaire en secundaire updates, de geplande procedures, de implicaties en wat u moet doen voor optimale resultaten. | Gratis registratie van een webvergadering | 62 minuten |
 | [Bewaking, Optimization Advisor en kritieke KB's (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | Aan de orde komen de bewakingsmogelijkheden en wat Microsoft voor u bewaakt in uw productieomgeving, de Optimization Advisor en de manier waarop deze kan worden uitgebreid, de ervaring met de “Kritieke X++ updates” in LCS en de beste methoden voor de optie “Storing in productie rapporteren” in LCS. | Gratis registratie van een webvergadering | 40 minuten |
@@ -86,6 +95,5 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 | Inhoud  | Omschrijving  | Indeling  |
 |----------|--------------|---------|
 | [Grondbeginselen van Dynamics 365](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Laat zien dat u bekend bent met Microsoft Dynamics 365, het Power Platform, cloudconcepten, licentieopties en implementatie- en releaseopties. | Examen, kosten verschillen per regio |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

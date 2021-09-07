@@ -1,8 +1,8 @@
 ---
 title: Overzicht plantype
-description: Een plantype in Microsoft Dynamics 365 Human Resources is een groepering op hoog niveau van specifieke typen vergoedingen. Elk plantype heeft een plantypecode waarmee de regels voor het plantype worden bepaald.
-author: andreabichsel
-ms.date: 06/25/2021
+description: Een plantype in Microsoft Dynamics 365 Human Resources is een groepering op hoog niveau van specifieke typen vergoedingen.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8966b0aa01795ff00832e480a186c05fa129e7c728112f81cf4f78b6b0915463
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732724"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423339"
 ---
 # <a name="plan-type-overview"></a>Overzicht plantype
 
@@ -32,10 +32,10 @@ Elk plantype geeft aan of een werknemer zich kan inschrijven voor een bepaald ty
 
 Als bij een plantype contactpersonen zijn betrokken, geeft het plantype aan of contactpersonen begunstigden of gezinsleden zijn. Een plantype Basis leven zou bijvoorbeeld begunstigden hebben, terwijl een plantype Basis medisch gezinsleden zou hebben. In sommige gevallen kan een plan geen persoonlijke contactpersonen hebben. Bijvoorbeeld een flexibele bestedingsrekening of parkeervergoeding.
 
-Een plantype kan dekkingsopties definiëren. De dekkingsopties worden gedefinieerd in het formulier van de optie Behoefteplanning. Een behoefteplanningsoptie kan het bedrag van de vergoeding aangeven of de contactpersonen die in aanmerking komen voor het plantype. Als het type contactpersoon bijvoorbeeld Begunstigde is, moet de dekkingsoptie de voorwaarden definiëren van waartoe de begunstigde gerechtigd is als de vergoeding wordt gebruikt. Als het contactpersoontype Gezinslid is, moet de dekkingsoptie de relatie tussen het gezinslid en de werknemer definiëren. 
+Een plantype kan dekkingsopties definiëren. De dekkingsopties worden gedefinieerd op de pagine **Behoefteplanning**. Een behoefteplanningsoptie kan het bedrag van de vergoeding aangeven of de contactpersonen die in aanmerking komen voor het plantype. Als het type contactpersoon bijvoorbeeld Begunstigde is, moet de dekkingsoptie de voorwaarden definiëren van waartoe de begunstigde gerechtigd is als de vergoeding wordt gebruikt. Als het contactpersoontype Gezinslid is, moet de dekkingsoptie de relatie tussen het gezinslid en de werknemer definiëren. 
 
 > [!IMPORTANT]
-> Het formulier bevat belangrijke gegevens die van invloed zijn op de opties die beschikbaar zijn wanneer een nieuw vergoedingsplan wordt gemaakt:
+> De pagina bevat belangrijke gegevens die van invloed zijn op de opties die beschikbaar zijn wanneer een nieuw vergoedingsplan wordt gemaakt:
 >
 > - **Code van plantype**: dit veld beïnvloedt wat er wordt weergegeven op het tabblad **Configuratie** wanneer de werkelijke vergoeding wordt ingesteld.  
 > - **Gelijktijdige inschrijving**: dit veld bepaalt of meerdere inschrijvingen zijn toegestaan. (Voor een medisch plan is dit veld meestal ingesteld op **Eén inschrijving**.)

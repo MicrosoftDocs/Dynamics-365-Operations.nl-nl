@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 338c3129d81fa0428f3470808bc13fc76483ff3aaf19b06708a986aec64b4030
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782342"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384606"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>De mobiele app Magazijnbeheer installeren en verbinden
 
@@ -150,7 +150,7 @@ U kunt verbindingsinstellingen importeren vanuit een bestand of een QR-code. Voo
 | ConnectionName | Geef de naam op van de verbindingsinstelling. De tekst mag maximaal 20 tekens lang zijn. Omdat deze waarde de unieke id voor een verbindingsinstelling is, moet u ervoor zorgen dat deze uniek is in de lijst. Als er al een verbinding met dezelfde naam op het apparaat aanwezig is, wordt deze overschreven door de instellingen van het geïmporteerde bestand. |
 | ActiveDirectoryClientAppId | Geef de client-id op waarvan u een notitie hebt gemaakt terwijl u bezig was met het instellen van Azure AD in de sectie [Een webservicetoepassing maken in Azure Active Directory](#create-service). |
 | ActiveDirectoryResource | Geef de basis-URL van Supply Chain Management op. |
-| ActiveDirectoryTenant | Geef de Azure AD-tenant op die u gebruikt met de server voor Supply Chain Management. Deze waarde heeft de vorm `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Hier volgt een voorbeeld: `https://login.windows.net/contosooperations.onmicrosoft.com`. |
+| ActiveDirectoryTenant | Geef de Azure AD-domeinnaam op die u gebruikt met de Supply Chain Management-server. Deze waarde heeft de vorm `https://login.windows.net/<your-Azure-AD-domain-name>`. Hier volgt een voorbeeld: `https://login.windows.net/contosooperations.onmicrosoft.com`. Zie voor meer informatie over het opzoeken van uw Azure AD-domeinnaam het onderwerp [Belangrijke id's voor een gebruiker opzoeken](/partner-center/find-ids-and-domain-names). |
 | Bedrijf | Geef de rechtspersoon in Supply Chain Management op waarmee de toepassing verbinding moet maken. |
 | ConnectionType | (Optioneel) Geef op of de verbindingsinstelling een certificaat of clientgeheim moet gebruiken om verbinding te maken met een omgeving. Geldige waarden zijn *"certificate"* en *"clientsecret"*. De standaardwaarde is *"certificate"*.<p>**Opmerking:** clientgeheimen kunnen niet worden geïmporteerd.</p> |
 | IsEditable | (Optioneel) Geef op of de app-gebruiker de verbindingsinstelling moet kunnen bewerken. Geldige waarden zijn *"true"* en *"false"*. De standaardwaarde is *"true"*. |
@@ -268,7 +268,7 @@ Als u geen bestand of QR-code hebt, kunt u de app handmatig configureren op het 
         > [!IMPORTANT]
         > Sluit deze waarde niet af met een slash (/).
 
-    - **Tenant Active Directory**: voer de Azure AD-tenant in die u gebruikt met de Supply Chain Management-server. Deze waarde heeft de vorm `https://login.windows.net/<your-Azure-AD-tenant-ID>`. Hier volgt een voorbeeld: `https://login.windows.net/contosooperations.onmicrosoft.com`.
+    - **Tenant Active Directory**: voer de Azure AD-domeinnaam in die u gebruikt met de Supply Chain Management-server. Deze waarde heeft de vorm `https://login.windows.net/<your-Azure-AD-domain-name>`. Hier volgt een voorbeeld: `https://login.windows.net/contosooperations.onmicrosoft.com`. Zie voor meer informatie over het opzoeken van uw Azure AD-domeinnaam het onderwerp [Belangrijke id's voor een gebruiker opzoeken](/partner-center/find-ids-and-domain-names).
 
         > [!IMPORTANT]
         > Sluit deze waarde niet af met een slash (/).

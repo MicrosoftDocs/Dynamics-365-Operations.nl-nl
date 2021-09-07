@@ -2,7 +2,7 @@
 title: Financiële analyse
 description: Financiële analyse gebruikt Microsoft Power BI om financiële KPI's, grafieken en financiële overzichten samen te voegen.
 author: kweekley
-ms.date: 04/22/2021
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4937235dddaf5c1c8d6d504542f161fa232c86213eb6ac4274349e02d18fb8b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767822"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416300"
 ---
 # <a name="financial-analysis"></a>Financiële analyse
 
@@ -36,9 +36,9 @@ ms.locfileid: "6767822"
 > - **Pagina**: een tabblad in een enkel .pbix-bestand. Elke pagina kan een of meer visuele elementen bevatten.
 > - **Zichtbaar**: één bron van gegevens, zoals een kaart, KPI, diagram, grafiek, matrix of financieel overzicht. Een pagina met een financieel overzicht als visueel element kan geen andere visuele elementen hebben vanwege de grootte van de gegevens waarover wordt gerapporteerd.
 
-Op dit moment wordt **Financiële analyse** gebruikt om gegevens voor de actieve rechtspersoon of alle rechtspersonen te bekijken. In toekomstige versies verandert de werkruimte tot een plaats waar u Power BI kunt gebruiken om visuele elementen te bewerken en te maken.
+De werkruimte **Financiële analyse** is gericht op het bekijken en filteren van de gegevens in bestaande rapporten. Het is mogelijk om nieuwe visuele elementen toe te voegen aan de werkruimte **Financiële analyse**. De werkruimte **Financiële analyse** is beschikbaar voor het huidige bedrijf en alle bedrijven om gegevens voor alle rechtspersonen weer te geven, ongeacht de rechtspersonen tot wie de rol toegang heeft.
 
-De werkruimte **CFO-overzicht** toont de dezelfde visuele elementen als **Financiële analyse**, maar is gericht op laten weergeven en filteren van de gegevens in bestaande rapporten. In toekomstige versies is het mogelijk nieuwe visuele elementen toe te voegen aan de werkruimte **Financiële analyse**. De nieuwe visuele elementen zijn wellicht ook beschikbaar in werkruimten die zijn gericht op andere functies, zoals projectmanagers of leveranciermanagers. De werkruimte **CFO overzicht** blijft gegevens tonen voor alle rechtspersonen, ongeacht de rechtspersonen waartoe de rol toegang heeft.
+- [Power BI-visualisaties op uw dashboard toevoegen of bewerken](/powerapps-docs/user/add-powerbi-dashboards.md)
 
 ## <a name="dynamics-365-finance-setup"></a>Dynamics 365 Finance-setup
 **Grootboek**

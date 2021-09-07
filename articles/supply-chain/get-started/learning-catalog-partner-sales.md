@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 053e73d9291ffce0d0a1d0b07b980f23d1b6f713f12ea38c22bdac9389c628bc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e806be95947988f6a612ddbc1efb0b72cf971806
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724863"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402318"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-supply-chain-management"></a>Trainingscatalogus voor verkoop- en marketingrollen voor Microsoft-partners voor Dynamics 365 Supply Chain Management
 
@@ -27,8 +27,8 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 
 ## <a name="get-started"></a>Aan de slag<a name="get-started"></a>
 
-| Inhoud  | Omschrijving  | Indeling  | Lengte    |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|---------------------------------------------------------------------------|
+| Inhoud | Omschrijving | Indeling | Lengte |
+|---------|-------------|--------|--------|
 | [De bedrijfswaarde van Microsoft Dynamics 365 en Power Platform leren kennen](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Wilt u graag meer weten over zakelijke toepassingen? Misschien weet u niet waar u moet beginnen de toepassingen Microsoft Dynamics 365 en Power Platform? Lees hoe de kracht van zakelijke toepassingen uw bedrijf kan helpen transformeren. | Gratis online leertraject voor zelfstudie | 7 uur |
 | [Grondbeginselen van Dynamics 365 en Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Wilt u graag meer weten over zakelijke toepassingen? Begin met dit leertraject om te zien hoe Dynamics 365-apps worden gebruikt. Lees over cloudconcepten, Power Platform en hoe u aan de slag gaat met Dynamics 365-apps. | Gratis online leertraject voor zelfstudie | 5.5 uur |
 | [Aan de slag met Finance and Operations-apps](/learn/paths/get-started-finance-operations/) | Leer hoe Finance and Operations-apps bedrijven ondersteunen om hun algemene financiële systemen, operationele bedrijfsprocessen en gestroomlijnde toeleveringsketens te beheren om mensen te helpen snelle en gefundeerde beslissingen te nemen. Als eerste stap bij het werken met Finance and Operations-apps moet u vertrouwd raken met de voorzieningen en de functionaliteit, ongeacht uw gewenste rol. | Gratis online leertraject voor zelfstudie | 2 uur |
@@ -37,8 +37,7 @@ De volgende catalogus is ingedeeld van basiskennis tot specifieke domeinen, en v
 ## <a name="exam"></a>Examen<a name="exam"></a>
 
 | Inhoud  | Omschrijving  | Indeling |
-|---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+|----------|--------------|--------|
 | [Grondbeginselen van Dynamics 365](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Laat zien dat u bekend bent met Microsoft Dynamics 365, het Power Platform, cloudconcepten, licentieopties en implementatie- en releaseopties. | Examen: kosten verschillen per regio |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

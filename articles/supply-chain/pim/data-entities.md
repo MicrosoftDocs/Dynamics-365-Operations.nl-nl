@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: f40b4157520a399f1c2971a425e47b904b3b2f5eb30b87e54f8b810647bcdaeb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf23284729cd10569ceb320d5fd30f8429974c3d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747908"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344753"
 ---
 # <a name="product-data-entities"></a>Productgegevensentiteiten
 
@@ -42,7 +42,7 @@ U moet gegevensentiteiten gebruiken om productgegevens te importeren en te expor
 | Vrijgegeven verschillende producten V2 | `EcoResDistinctProductV2Entity` | Deze entiteit wordt gebruikt om verschillende producten te exporteren. Deze verschillende producten kunnen, producten, subtypeproducten en productvarianten zijn. |
 | Vrijgegeven productmodellen V2 | `EcoResProductMasterV2Entity` | Deze entiteit wordt gebruikt voor het importeren en exporteren van productmodellen. De entiteit is niet geschikt voor gegevensbeheer. |
 | Artikel - streepjescode | `EcoResProductBarcodeEntityV3` | Deze entiteit wordt gebruikt om producten en streepjescodes te exporteren. Deze entiteit staat het bijhouden van wijzigingen, updates of verwijderingen niet toe. Als u wijzigingen wilt bijhouden, updates of verwijderingen voor streepjescodes wilt gebruiken, gebruikt u de entiteit **Koppeling artikel - streepjescode**. |
-| Koppeling artikel - streepjescode | `EcoResProductBarcodeAssociationEntity` | Deze entiteit wordt gebruikt om producten en streepjescodes te exporteren. Hiermee zijn het bijhouden van wijzigingen, updates en verwijderingen toegestaan. Als u de entiteit wilt gebruiken, moet de functie *Verbeteringen artikel - streepjescode* zijn ingeschakeld in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). De entiteitssleutel is `AssociationID`, waarmee de koppeling tussen de streepjes code en het product wordt gemaakt. Als u ondersteuning voor deze sleutel wilt toevoegen, wordt de tabel `InventitemBarcodeAssociation` gevuld voor bestaande gegevens voor artikelstreepjescodes wanneer u de functie inschakelt. De tabel wordt gevuld met een batchtaak en als de streepjescodetabel een groot aantal records bevat, kan het lang duren voordat de batchtaak wordt uitgevoerd. Het is daarom raadzaam om de functie in te schakelen (en dus de batchtaak uit te voeren) op een tijdstip dat aansluit bij uw bedrijfsplanning. |
+| Koppeling artikel - streepjescode | `EcoResProductBarcodeAssociationEntity` | Deze entiteit wordt gebruikt om producten en streepjescodes te exporteren. Hiermee zijn het bijhouden van wijzigingen, updates en verwijderingen toegestaan. Als u de entiteit wilt gebruiken, moet de functie *Verbeteringen artikel - streepjescode* zijn ingeschakeld in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). De entiteitssleutel is `AssociationID`, waarmee de koppeling tussen de streepjescode en het product wordt gemaakt. Als u ondersteuning voor deze sleutel wilt toevoegen, wordt de tabel `InventitemBarcodeAssociation` gevuld voor bestaande gegevens voor artikelstreepjescodes wanneer u de functie inschakelt. De tabel wordt gevuld met een batchtaak en als de streepjescodetabel een groot aantal records bevat, kan het lang duren voordat de batchtaak is uitgevoerd. Het is daarom raadzaam om de functie in te schakelen (en dus de batchtaak uit te voeren) op een tijdstip dat aansluit bij uw bedrijfsplanning. |
 | Statussen van productlevenscyclus | `EcoResProductLifecycleSateEntity` | Deze entiteit wordt gebruikt voor het importeren en exporteren van de verschillende levenscyclusstatussen die kunnen worden toegewezen aan een product. |
 
 > [!NOTE]

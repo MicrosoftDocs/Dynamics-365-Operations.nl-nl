@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 55952a9b1c25b806ee4a21ef1982c5b15a41adeb9c9bfdf2fccb8c9da242ffdb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714325"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384580"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Wijzigingen in technische producten beheren
 
@@ -113,16 +113,16 @@ Als u beïnvloede transacties wilt controleren, geselecteerde transacties wilt b
     - **Transactie weergeven**: de geselecteerde transactierecord openen.
     - **Order blokkeren**: deze knop is alleen beschikbaar op het tabblad **Verkooporders**. Selecteer deze optie om de geselecteerde verkooporder te blokkeren.
     - **Regel blokkeren**: deze knop is alleen beschikbaar op het tabblad **Inkooporders**. Selecteer deze optie om de geselecteerde inkooporderregel te blokkeren.
-    - **Verantwoordelijke persoon waarschuwen**: deze knop is alleen beschikbaar op het tabblad **Verkooporders**. Selecteer deze knop om een melding over de wijziging te verzenden naar de gebruiker die is ingesteld als verantwoordelijke voor de geselecteerde verkooporder.
-    - **Besteller waarschuwen**: deze knop is alleen beschikbaar op het tabblad **Inkooporders**. Selecteer deze knop om een melding over de wijziging te verzenden naar de gebruiker die is ingesteld als de besteller voor de geselecteerde inkooporder.
-    - **Productie waarschuwen**: deze knop is alleen beschikbaar op het tabblad **Productieorders**. In tegenstelling tot verkoop- en inkooporders hebben productieorders geen enkele gebruiker die van begin tot eind is ingesteld als verantwoordelijke voor deze orders. In plaats daarvan nemen verschillende supervisors of planners meestal de verantwoordelijkheid voor een bepaalde locatie of voor een bepaald deel van de productie (bijvoorbeeld voor specifieke resources of resourcegroepen). Wanneer u deze knop selecteert, ontvangen alle gebruikers die verantwoordelijk zijn voor een resource die is gerelateerd aan de geselecteerde productieorder daarom een wijzigingsmelding.
-    - **Voorbereider waarschuwen**: deze knop is alleen beschikbaar op het tabblad **Opdracht tot inkoop**. Selecteer deze knop om een melding over de wijziging te verzenden naar de gebruiker die is ingesteld als de voorbereider van de geselecteerde opdracht tot inkoop.
-    - **Verantwoordelijke verkoper waarschuwen**: deze knop is alleen beschikbaar op het tabblad **Offertes**. Selecteer deze knop om een melding over de wijziging te verzenden naar de gebruiker die is ingesteld als verantwoordelijke voor de geselecteerde offerte.
+    - **Verantwoordelijke persoon waarschuwen**: deze knop is alleen beschikbaar op het tabblad **Verkooporders**. Selecteer deze knop om een melding over de wijziging te verzenden naar de gebruiker die is ingesteld als verantwoordelijke voor de geselecteerde verkooporder. Zie [Wijzigingsmeldingen voor transacties bekijken en verwerken](#review-notifications) voor meer informatie over hoe en wie de meldingen kan zien.
+    - **Besteller waarschuwen**: deze knop is alleen beschikbaar op het tabblad **Inkooporders**. Selecteer deze knop om een melding over de wijziging te verzenden naar de gebruiker die is ingesteld als de besteller voor de geselecteerde inkooporder. Zie [Wijzigingsmeldingen voor transacties bekijken en verwerken](#review-notifications) voor meer informatie over hoe en wie de meldingen kan zien.
+    - **Productie waarschuwen**: deze knop is alleen beschikbaar op het tabblad **Productieorders**. In tegenstelling tot verkoop- en inkooporders hebben productieorders geen enkele gebruiker die van begin tot eind is ingesteld als verantwoordelijke voor deze orders. In plaats daarvan nemen verschillende supervisors of planners meestal de verantwoordelijkheid voor een bepaalde locatie of voor een bepaald deel van de productie (bijvoorbeeld voor specifieke resources of resourcegroepen). Wanneer u deze knop selecteert, ontvangen alle gebruikers die verantwoordelijk zijn voor een resource die is gerelateerd aan de geselecteerde productieorder daarom een wijzigingsmelding. Zie [Wijzigingsmeldingen voor transacties bekijken en verwerken](#review-notifications) voor meer informatie over hoe en wie de meldingen kan zien.
+    - **Voorbereider waarschuwen**: deze knop is alleen beschikbaar op het tabblad **Opdracht tot inkoop**. Selecteer deze knop om een melding over de wijziging te verzenden naar de gebruiker die is ingesteld als de voorbereider van de geselecteerde opdracht tot inkoop. Zie [Wijzigingsmeldingen voor transacties bekijken en verwerken](#review-notifications) voor meer informatie over hoe en wie de meldingen kan zien.
+    - **Verantwoordelijke verkoper waarschuwen**: deze knop is alleen beschikbaar op het tabblad **Offertes**. Selecteer deze knop om een melding over de wijziging te verzenden naar de gebruiker die is ingesteld als verantwoordelijke voor de geselecteerde offerte. Zie [Wijzigingsmeldingen voor transacties bekijken en verwerken](#review-notifications) voor meer informatie over hoe en wie de meldingen kan zien.
     - **Uitval**: deze knop is alleen beschikbaar op het tabblad **Voorraad**. Selecteer deze knop om de geselecteerde voorraad voor uitval te selecteren.
     - **Historie weergeven**: open een historie van acties die zijn ondernomen voor de geselecteerde transactie met behulp van het dialoogvenster **Bedrijfsimpact op openstaande transacties**. (De historie geeft bijvoorbeeld aan of meldingen zijn verzonden of transacties zijn geblokkeerd.) 
     - **Alle transacties weergeven**: open de volledige lijst met alle transacties, niet alleen de openstaande transacties.
 
-#### <a name="review-and-process-change-notifications-for-transactions"></a>Meldingen over wijzigingen voor transacties controleren en verwerken
+#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Meldingen over wijzigingen voor transacties controleren en verwerken
 
 U kunt de wijzigingsmeldingen die u ontvangt op de volgende manieren lezen en verwerken:
 

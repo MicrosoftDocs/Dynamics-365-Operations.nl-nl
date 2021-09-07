@@ -1,8 +1,8 @@
 ---
 title: Overzicht van Vergoedingenbeheer
-description: Overzicht van de functie Vergoedingenbeheer in Dynamics 365 Human Resources. Bied uw werknemers uitgebreide vergoedingsopties met een gebruiksvriendelijke online ervaring.
-author: andreabichsel
-ms.date: 07/13/2021
+description: In dit onderwerp wordt een overzicht gegeven van de functie Vergoedingenbeheer in Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1e00bb3fa227eab62b6e530a32f0eae0bd871c1cfe5bb3d29e09a06a707ce17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719138"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417387"
 ---
 # <a name="benefits-management-overview"></a>Overzicht van Vergoedingenbeheer
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Om concurrerend te blijven, moet u een uitgebreide reeks vergoedingen bieden om goede werknemers aan te trekken en te behouden. Naast standaardvergoedingen, zoals medische en tandheelkundige dekking, kunt u ook uitgebreide services aanbieden, zoals hulp bij adoptie, recreatieprogramma's en kledingtoelagen. De functie Vergoedingenbeheer in Microsoft Dynamics 365 Human Resources biedt u een flexibele oplossing die een breed scala aan vergoedingsopties ondersteunt. Human Resources bevat ook een gebruiksvriendelijke werknemerservaring waarin uw aanbod wordt gepresenteerd.
+Om concurrerend te blijven, moet u een uitgebreide reeks vergoedingen bieden om goede werknemers aan te trekken en te behouden. Naast standaardvergoedingen, zoals medische en tandheelkundige dekking, kunt u ook uitgebreide services aanbieden, zoals hulp bij adoptie, recreatieprogramma's en kledingtoelagen. De functie Vergoedingenbeheer in Microsoft Dynamics 365 Human Resources biedt een flexibele oplossing die een breed scala aan vergoedingsopties ondersteunt. Human Resources bevat ook een gebruiksvriendelijke werknemerservaring waarin uw aanbod wordt gepresenteerd.
 
 - De verbeterde functionaliteit voor vergoedingsplannen biedt u de mogelijkheid om unieke vergoedingsplannen te maken en beheren en ondersteunt complexe vergoedingstarieftabellen en geneste niveaus. U kunt eenvoudig vergoedingsprogramma's, bundels en automatische inschrijvingsregels maken voor een gebruiksvriendelijker werknemerservaring.
 - Via flex-kredietprogramma's kunt u zorgen voor een evenredige verdeling van kredieten voor ondersteuning bij pensioenering en andere levensgebeurtenissen.
@@ -37,13 +37,13 @@ Om concurrerend te blijven, moet u een uitgebreide reeks vergoedingen bieden om 
 Als u toegang wilt tot de demogegevens, moet u de sandbox-omgeving opnieuw implementeren.
 
 > [!NOTE]
-> U kunt nu Vergoedingenbeheer-formulieren aanpassen. U kunt nu aangepaste velden voor dekkingspercentages toevoegen aan het formulier **Dekkingsoptie** voor vergoedingsplannen. Meer informatie over werken met aangepaste velden vindt u in [Aangepaste velden](hr-developer-custom-fields.md).
+> U kunt nu Vergoedingenbeheer-pagina's aanpassen. Aangepaste velden voor dekkingspercentages kunnen op de pagina **Dekkingsoptie** voor vergoedingsplannen worden toegevoegd. Meer informatie over werken met aangepaste velden vindt u in [Aangepaste velden](hr-developer-custom-fields.md).
 >
 > ![Aangepaste velden in Vergoedingenbeheer](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Vergoedingenbeheer inschakelen
 
-In dit onderwerp wordt beschreven hoe u functies inschakelt in Human Resources. U leest hier ook welke bestaande functies in Human Resources door Vergoedingenbeheer worden vervangen of welke functies worden uitgeschakeld nadat u Vergoedingenbeheer hebt ingeschakeld.
+In dit onderwerp wordt beschreven hoe u functies inschakelt in Human Resources. Ook wordt uitgelegd welke bestaande functies in Human Resources door Vergoedingenbeheer worden vervangen en welke functies worden uitgeschakeld nadat u Vergoedingenbeheer hebt ingeschakeld.
 
 > [!IMPORTANT]
 > Nadat u Vergoedingenbeheer in een **productieomgeving** hebt ingeschakeld, kunt u dit niet meer uitschakelen. U wordt aangeraden Vergoedingenbeheer in een **sandbox**-omgeving in te schakelen en te testen voordat u dit in een **productieomgeving** activeert. Er zijn belangrijke verschillen tussen de verouderde vergoedingsfunctionaliteit en de nieuwe functionaliteit voor Vergoedingenbeheer. Hiervoor zijn aanvullende instellingen nodig die moeten worden getest voordat ze in de productie worden gebracht.

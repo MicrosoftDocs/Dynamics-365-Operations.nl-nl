@@ -2,7 +2,7 @@
 title: Gegevensbronnen voor opzoeken configureren om ER-toepassingsspecifieke parameters te gebruiken
 description: In dit onderwerp wordt uitgelegd hoe u gegevensbronnen voor opzoeken in ER-indelingen (Elektronische rapportage) kunt configureren voor het gebruik van ER-applicatiespecifieke parameters.
 author: NickSelin
-ms.date: 04/02/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2849df85c37c4ed00754be91b9a9708db1bb16b7d0eb49d3a61d169037687196
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c028b01aa2889a517bee69de46411ada12d6fe25
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723184"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343424"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Gegevensbronnen voor opzoeken configureren om ER-toepassingsspecifieke parameters te gebruiken 
 
@@ -69,7 +69,7 @@ U kunt de opzoekregels voor de geselecteerde ER-indeling instellen met behulp va
 In de volgende afbeelding ziet u hoe de gegevensbron `Model.Data.Summary.LevelByLookup` van het type **Berekend veld** kan worden geconfigureerd om de geconfigureerde **opzoekgegevensbron** met de vereiste parameters aan te roepen. Als u deze aanroep tijdens runtime wilt verwerken, doorloopt ER de lijst met geconfigureerde regels in de gedefinieerde reeks om de eerste regel te vinden die aan de opgegeven voorwaarden voldoet. In dit voorbeeld is het de regel die de belastingcode bevat die overeenkomt met de opgegeven code. Als gevolg hiervan wordt de meest geschikte regel gevonden en wordt door deze gegevensbron de opsommingswaarde geretourneerd die is geconfigureerd voor de gevonden regel.
 
 > [!NOTE]
-> Er wordt een uitzondering gegenereerd wanneer er geen toepasselijke regel wordt gevonden. Als u deze uitzonderingen wilt voorkomen, configureert u aanvullende regels aan het einde van de lijst met regels om aanvragen af te handelen wanneer een niet-geconfigureerde waarde of geen waarde wordt opgegeven. Gebruik dienovereenkomstig de opties **\*Niet leeg*** en **\*Leeg***.  
+> Er wordt een uitzondering gegenereerd wanneer er geen toepasselijke regel wordt gevonden. Als u deze uitzonderingen wilt voorkomen, configureert u aanvullende regels aan het einde van de lijst met regels om aanvragen af te handelen wanneer een niet-geconfigureerde waarde of geen waarde wordt opgegeven. Gebruik dienovereenkomstig de opties **\*Niet leeg**\* en **\*Leeg**\*.  
 >
 > ![Een gegevensbron toevoegen om de geconfigureerde opzoekgegevensbron aan te roepen.](./media/er-lookup-data-sources-img7.png)
 

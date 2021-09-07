@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 74720e387d5db7de841228e6573fb40c5d22588b
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773532"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384654"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management versie 10.0.19 (juni 2021)
 
@@ -35,13 +35,13 @@ De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-
 
 | Functiegebied | Functie | Meer informatie |
 |---|---|---|
-| Voorraad en logistiek | [Door leverancier ingediende bankgegevens goedkeuren en opslaan](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/approve-save-vendor-submitted-bank-details) | [Bankrekeninggegevens van leverancier onderhouden](../../finance/accounts-payable/maintain-vendor-bank-info.md) |
+| Voorraad en logistiek | [Keur de door de vendor ingediende bankinformatie goed en sla deze op](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/approve-save-vendor-submitted-bank-details) | [Bankrekeninggegevens van leverancier onderhouden](../../finance/accounts-payable/maintain-vendor-bank-info.md) |
 | Voorraad en logistiek | [Optimalisatie van export van gegevensentiteit Contactpersoon](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Wanneer deze functie is ingeschakeld, worden door wijzigingen in gegevens waarnaar wordt verwezen gerelateerde contactpersonen niet opgenomen in de volgende incrementele export. Wanneer deze functie is uitgeschakeld, worden door wijzigingen in gegevens waarnaar wordt verwezen gerelateerde contactpersonen niet opgenomen in de volgende incrementele export. |
 | Voorraad en logistiek | [Incrementele verbeteringen voor uitvoerbewerkingen van magazijn met schaaleenheden](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Berichten van berichtenverwerker](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Magazijnvoorraadcorrectie](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Voorraad en logistiek | [Opzoekfunctie voor velden voor documentintroductie en documentconclusie op de offertepagina van verkoop](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Met deze functie wordt opzoekfunctionaliteit voor de velden **Documentintroductie** en **Documentconclusie** op de pagina **Verkoopofferte** toegevoegd.<br><br>Deze functie is standaard ingeschakeld. |
 | Voorraad en logistiek | [Uitvoerbewerkingen van magazijn met schaaleenheden voor randapparatuur op uw aangepaste hardware](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Schaaleenheden voor randapparatuur implementeren op aangepaste hardware met LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | Productie | [Uitvoerbewerkingen van manufacturing met schaaleenheden voor randapparatuur op uw aangepaste hardware](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Randschaaleenheden implementeren op aangepaste hardware met LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Planning | [Oneindige capaciteitsplanning voor Planningsoptimalisatie](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | Deze functie maakt capaciteitsplanning met onbeperkte capaciteit mogelijk voor planningsoptimalisatie. Zonder deze functie krijgen geplande productieorders de levertijd op basis van de voorraadlevertijd van vrijgegeven producten, ongeacht de time fence voor planning. |
+| Planning | [Oneindige capaciteitsplanning voor Planningsoptimalisatie](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Plannen met onbeperkte capaciteit](../master-planning/planning-optimization/infinite-capacity-planning.md) |
 | Planning | Fiattering geplande order op basis van query | [Vast geplande orders](../master-planning/planning-optimization/planned-order-firming.md) |
 | Productgegevensbeheer | [Verbeteringen voor pagina met variantsuggesties](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Vooraf gedefinieerde productvarianten maken](../pim/tasks/create-predefined-product-variants.md) |
 

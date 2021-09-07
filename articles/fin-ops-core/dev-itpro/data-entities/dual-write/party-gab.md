@@ -2,19 +2,19 @@
 title: Partij en globaal adresboek
 description: In dit onderwerp wordt de functionaliteit Partij en globaal adresboek van Twee keer wegschrijven beschreven.
 author: RamaKrishnamoorthy
-ms.date: 02/22/2021
+ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 3cb4cdaefe7bd82dec612a11d75aeedb77bce152a00ff90fb0095f75b23a4bbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729771"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386680"
 ---
 # <a name="party-and-global-address-book"></a>Partij en globaal adresboek
 
@@ -139,7 +139,10 @@ Het raster bevat de volgende kolommen:
 
 Met de knop **Nieuw elektronisch adres** boven het raster kunt u zoveel postadressen maken als u wilt.
 
-Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige releases worden alle velden voor elektronische en postadressen verwijderd van andere tabbladen, zoals de tabbladen **Overzicht** en **Details**.
+Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige releases worden alle velden voor elektronische en postadressen verwijderd van andere tabbladen, zoals de tabbladen **Overzicht** en **Informatie**. Contactgegevens die worden weergegeven op het tabblad **Informatie** zijn alleen-lezen-kopieën van het primaire elektronische adres, zoals primair telefoonnr., primair e-mailadres, primair telefoonnr., primaire fax en primaire Twitter-ID. Tijdens het kwalificatieproces voor de lead kunt u zowel een bedrijfstelefoonnummer als een mobiel telefoonnummer opgeven. Het zakelijke telefoonnummer wordt beschouwd als de primair telefoonnr. als **IsMobile=Nee** en het mobiele telefoonnummer wordt beschouwd als secundair telefoonnr. als **IsMobile=Ja**.
+
+> [!TIP]
+> Gebruik de tabbladen **Adressen** en **Elektronische adressen** in de formulieren **Account** en **Contactpersoon** om post- en elektronische adressen te beheren. Op deze manier worden adresgegevens met Finance and Operations-apps gesynchroniseerd.
 
 ## <a name="setup"></a>Instelling
 
@@ -249,13 +252,11 @@ Elektronische adressen zijn alleen beschikbaar in dit raster. In toekomstige rel
     [CDS-verkooporderkopteksten](mapping-reference.md#217) | salesorders
     [Kopteksten van verkoopfacturen V2](mapping-reference.md#118) | facturen
 
-> [!Note]
+> [!NOTE]
 > De kaart `CDS Contacts V2 (contacts)` is de kaart die u hebt gestopt in stap 1. Als u andere kaarten probeert uit te voeren, worden deze twee kaarten mogelijk weergegeven in de lijst met afhankelijke kaarten. Voer deze kaarten niet uit.
-
-> [!Note]
+>
 > Als de oplossing voor partij en globaal adresboek is geïnstalleerd, moet u de invoegtoepassing `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead` uitschakelen. Als u de oplossing voor partij en globaal adresboek verwijdert, moet u de invoegtoepassing opnieuw inschakelen.
-
-> [!Note]
+>
 > Het veld `msdyn_*partynumber` (een tekstveld van één regel) in de tabellen **Account**, **Contactpersoon** en **Leverancier** moet u in de toekomst niet meer gebruiken. Voor de duidelijkheid heeft de labelnaam het voorvoegsel **(Afgeschaft)** gekregen. Gebruik in plaats daarvan het veld **msdyn_partyid**. Dit veld is een opzoekveld voor de tabel **msdyn_party**.
 
 > Tabelnaam | Oud veld | Nieuw veld
@@ -296,7 +297,6 @@ Zie [Toewijzingsverwijzing voor twee keer wegschrijven](mapping-reference.md) vo
 
 + Wanneer u in Finance and Operations-apps een klant maakt met een adres en deze opslaat, wordt het adres mogelijk niet gesynchroniseerd met de tabel **Adres**. Dit komt door een probleem in de volgordeverwerking op het platform voor Twee keer wegschrijven. Een tijdelijke oplossing is om eerst de klant aan te maken en deze op te slaan. Voeg daarna pas het adres toe.
 + Wanneer in Finance and Operations-apps een klantrecord een primair adres heeft en u een nieuwe contactpersoon voor die klant maakt, neemt de contactpersoonrecord een primair adres over van de bijbehorende klantrecord. Dit gebeurt ook bij contactpersoon van een leverancier. Dataverse ondersteunt dit gedrag momenteel niet. Als Twee keer wegschrijven is ingeschakeld, wordt een contactpersoon van een klant die is overgenomen met een primair adres uit de Finance and Operations-app samen met het adres gesynchroniseerd naar Dataverse.
-+ Elektronische adressen uit de tabel `msdyn_partyelectronicaddress` stromen niet naar de velden met elektronische adressen in de tabellen **Account** en **Contact**. Dit probleem wordt opgelost in een incrementele release. De bestaande gegevens in de velden met elektronische adressen in de tabellen **Account** en **Contactpersoon** worden niet overschreven.
 + Elektronische adressen die zijn ingesteld op het tabblad Elektronische adressen van de formulieren **Account**, **Contactpersoon** en **Leverancier** komen uit de tabel `msdyn_partyelectronicaddress`. Deze informatie stroomt niet naar de gekoppelde transacties zoals verkooporder, offerte en inkooporder. Dit probleem wordt opgelost in een incrementele release. De bestaande gegevens in de velden met elektronische adressen van de account- en contactpersoonrecords blijven werken voor transacties zoals verkooporder, offerte en inkooporder.
 + In Finance and Operations-apps kunt u een contactpersoonrecord maken vanuit het formulier **Contactpersoon toevoegen**. Wanneer u een nieuwe contactpersoon probeert te maken vanuit het formulier **Contactpersonen weergeven**, mislukt de actie. Dit is een bekend probleem.
 

@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 5a0ea3efc08ac9305887727c57a3821c694d6b25d3355edb6a60a6348967842c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8b2efa7021c302e771f36179be690fc1c8653a07
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763089"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402368"
 ---
 # <a name="learning-catalog-for-dynamics-365-finance-functional-consultants"></a>Trainingscatalogus voor functionele Dynamics 365 Finance-consultants
 
@@ -34,13 +34,15 @@ Ons onderzoek voor taakanalyse voor functionele consultants heeft aangetoond dat
 | [De bedrijfswaarde van Microsoft Dynamics 365 en Power Platform leren kennen](/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Wilt u graag meer weten over zakelijke toepassingen? Misschien weet u niet waar u moet beginnen de toepassingen Microsoft Dynamics 365 en Power Platform? Lees hoe de kracht van zakelijke toepassingen uw bedrijf kan helpen transformeren. | Gratis online leertraject voor zelfstudie | 7 uur |
 | [Grondbeginselen van Dynamics 365 en Power Platform](/learn/paths/dyn-power-plat-bus-app-fundamentals/) | Wilt u graag meer weten over zakelijke toepassingen? Begin met dit leertraject om te zien hoe Dynamics 365-apps worden gebruikt. Lees over cloudconcepten, Power Platform en hoe u aan de slag gaat met Dynamics 365-apps. | Gratis online leertraject voor zelfstudie | 5.5 uur |
 | [Aan de slag met Finance and Operations-apps](/learn/paths/get-started-finance-operations/) | Leer hoe Finance and Operations-apps bedrijven ondersteunen om hun algemene financiële systemen, operationele bedrijfsprocessen en gestroomlijnde toeleveringsketens te beheren om mensen te helpen snelle en gefundeerde beslissingen te nemen. Als eerste stap bij het werken met Finance and Operations-apps moet u vertrouwd raken met de voorzieningen en de functionaliteit, ongeacht uw gewenste rol. | Gratis online leertraject voor zelfstudie | 2 uur |
+| [Aan de slag met Dynamics 365 Intelligent Order Management](/learn/modules/get-started-intelligent-order-management/) | Met Dynamics 365 Intelligent Order Management kunnen klanten de indeling van orders beheren tot en met de afhandeling. Met deze functionaliteit kunnen organisaties orderstromen indelen voor verschillende platforms en apps. | Gratis online leermodule voor zelfstudie | 30 minuten |
 | [Voordat u gaat kopen](/dynamics365/unified-operations/fin-and-ops/get-started/before-you-buy) | Bekijk de stapsgewijze instructies opgesteld voor als u Finance and Operations nog aan het evalueren bent of al klaar bent om tot aanschaf over te gaan. | Documentatie | |
 | [Vrijgaveplan](/dynamics365/release-plans/) | Ontdek de nieuwste mogelijkheden en uitbreidingen van Dynamics 365 | Documentatie | |
 
 ## <a name="core-platform-knowledge"></a>Basiskennis van platforms<a name="core-platform-knowledge"></a>
 
-| Inhoud  | Omschrijving | Indeling  | Lengte    |
+| Inhoud  | Beschrijving | Format  | Lengte    |
 |----------|-------------|---------|-----------|
+| [Gebruik Success by Design for Dynamics 365-oplossingen](/learn/paths/use-success-design/) | FastTrack for Dynamics 365 is ontworpen om klanten en partners te helpen bij de implementatie van Dynamics 365-oplossingen. Om deze dienst te kunnen leveren, moeten oplossingsarchitecten gebruikmaken van Success by Design. Dit leerpad bespreekt Success by Design-concepten. | Gratis online leermodule voor zelfstudie | 12 uur |
 | [Lifecycle Services gebruiken om een implementatie te ontwerpen en te plannen voor Finance and Operations-apps](/learn/paths/use-lcs-design-plan-implementation-finance-operations/) | Lifecycle Services (LCS) is een werkgebied voor samenwerking dat door klanten en hun partners wordt gebruikt voor het beheren van projecten in Finance and Operations-apps, van voorlopige verkoop tot de implementatiefase en uiteindelijk tot de productieomgeving. LCS bevat controlelijsten en hulpmiddelen waarmee u het project kunt beheren, waaronder pre-build-methodologieën om te helpen bij de implementatie en regelmatig bijgewerkte services. | Gratis online leertraject voor zelfstudie | 2 uur |
 | [Uw organisatie configureren in Finance and Operations-apps](/learn/paths/configure-your-organization-finance-ops/) | Als functionele consultant die met Finance and Operations-apps werkt, moet u weten hoe u een organisatie voor uw klant instelt. In dit leertraject laat onder andere zien hoe u rechtspersonen instelt, beveiligingsinstellingen implementeert, de gebruikersinterface van gebruikers aanpast, mobiele apps ontwerpt en bouwt en algemene integraties implementeert. | Gratis online leertraject voor zelfstudie | 12 uur |
 | [Gegevens migreren en live gaan met Finance and Operations-apps](/learn/paths/migrate-data-go-live-finance-operations/) | Als functionele consultant moet u begrijpen hoe u de gegevens van klanten voorbereidt voor migratie, hoe u werkt met gegevensbeheer en hoe u acceptatietests voor gebruikers uitvoert om live te gaan met Finance and Operations-apps. | Gratis online leertraject voor zelfstudie | 4 uur |
@@ -102,6 +104,5 @@ Ons onderzoek voor taakanalyse voor functionele consultants heeft aangetoond dat
 | [Microsoft-certificering: Dynamics 365 for Finance and Operations, Financiële functionele consultant-expert](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Microsoft-certificering: Dynamics 365 for Finance and Operations, Financiële functionele consultants combineren algemene financiële en bedrijfsactiviteiten en automatiseren taken en workflows, stroomlijnen bestellingen, verkoop, facturering en rapportage van klanten. | Certificering, kosten verschillen per regio |
 | [Examen MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Dit examen meet of u de volgende technische taken kunt uitvoeren: gebruik van algemene functies en implementatieprogramma's; beveiliging, processen en opties configureren; gegevensmigratie uitvoeren en de oplossing valideren en ondersteunen. | Examen, kosten verschillen per regio |
 | [Examen MB-310: Microsoft Dynamics 365 for Finance and Operations, Financiën](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Dit examen meet of u de volgende technische taken kunt uitvoeren: instellen en configureren van financieel beheer; algemene processen beheren en toepassen; de modules Leveranciers en Klanten implementeren en beheren; en beheren van budgetten en vaste activa. | Examen, kosten verschillen per regio |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

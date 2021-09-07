@@ -1,8 +1,8 @@
 ---
 title: Transactieopties voor vaste activa
 description: In dit onderwerp worden de beschikbare methoden voor het maken van vaste-activatransacties beschreven.
-author: ShylaThompson
-ms.date: 02/07/2019
+author: moaamer
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1857d68a0dfaa25386f19344e4cb3ddc9ffd39b8a75860a1642773d6bd59cce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9e2d7f21d8c88185383e252f8f6324208493c81
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764258"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344685"
 ---
 # <a name="fixed-asset-transaction-options"></a>Transactieopties voor vaste activa
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 In dit onderwerp worden de beschikbare methoden voor het maken van vaste-activatransacties beschreven.
 
@@ -58,14 +59,16 @@ Elk type vaste-activatransactie kan worden geboekt op de Algemeen journaal. Ook 
 | Afschrijving                        | Vaste activa             | Vaste activa                              |
 |                                     | Grootboek           | Algemeen journaal                           |
 | Afstoting                            | Vaste activa             | Vaste activa                              |
-| ** **                               | Grootboek           | Algemeen journaal                           |
-| ** **                               | Klanten        | Vrije-tekstfactuur                         |
+|                                     | Grootboek           | Algemeen journaal                           |
+|                                     | Debiteuren      | Vrije-tekstfactuur                         |
 
-De resterende waarde van de afschrijvingsperioden van het vaste activum wordt niet bijgewerkt wanneer een regel van een journaal van het type afschrijvingstransactie handmatig wordt gemaakt of wordt geïmporteerd door middel van een gegevensentiteit. Deze waarde wordt bijgewerkt wanneer het afschrijvingsvoorstelproces wordt gebruikt om de journaalregel te maken.
+De resterende waarde van de afschrijvingsperioden van het vaste activum wordt niet bijgewerkt wanneer een regel van een journaal van het type afschrijvingstransactie handmatig wordt gemaakt of wordt geïmporteerd door middel van een gegevensentiteit. De resterende waarde wordt bijgewerkt wanneer het afschrijvingsvoorstelproces wordt gebruikt om de journaalregel te maken.
 
 Zie [Integratie vaste activa](fixed-asset-integration.md) voor meer informatie.
 
-### <a name="transactions-that-require-different-voucher-numbers"></a>Transacties waarvoor andere boekstuknummers zijn vereist
+Het systeem voorkomt dat afschrijvingen twee keer naar dezelfde periode worden geboekt. Als twee gebruikers bijvoorbeeld afzonderlijk van elkaar afschrijvingsvoorstellen aanmaken voor januari, wordt de afschrijving van de eerste gebruiker in het eerste journaal geboekt. Wanneer de tweede gebruiker een afschrijving boekt in het tweede journaal, controleert het systeem de datum waarop de afschrijving de laatste keer is uitgevoerd en wordt de afschrijving geen tweede keer voor dezelfde periode geboekt.
+
+### <a name="transactions-that-require-a-different-voucher-number"></a>Transacties waarvoor een ander boekstuknummer vereist is
 
 Voor de volgende vaste-activatransacties worden verschillende boekstuknummers gebruikt:
 

@@ -1,8 +1,8 @@
 ---
 title: Functies in Human resources beheren
-description: Informatie over het in- of uitschakelen van nieuwe functies in Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 04/06/2020
+description: Dit onderwerp bevat een beschrijving van de functie Functiebeheer en de manier waarop u deze kunt gebruiken.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a9c459b2b34164a9be3ed609a99deb4c5b710d340ef560e6f991e760375d6146
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 61e40f7177a1c8cf3d60a9a991ecbb0ed4d93aa1
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738362"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414628"
 ---
 # <a name="manage-features-in-human-resources"></a>Functies in Human resources beheren
 
@@ -69,7 +69,7 @@ Vergoedingenbeheer vervangt functionaliteit in het werkgebied **Vergoedingen**. 
 - **Beleid inzake geschiktheid voor vergoedingen**
 - **Geschiktheidsgebeurtenissen**
 
-U kunt de informatie in deze formulieren in de alleen-lezenmodus weergeven. Als u de gegevens wilt bewerken, moet u eerst de functie voor Vergoedingenbeheer uitschakelen (alleen van toepassing op **sandbox**-omgevingen).
+U kunt de informatie op dee pagina's in de alleen-lezenmodus weergeven. Als u de gegevens wilt bewerken, moet u eerst de functie voor Vergoedingenbeheer uitschakelen (alleen van toepassing op **sandbox**-omgevingen).
 
 ## <a name="enable-or-disable-leave-and-absence"></a>Verlof en verzuim in- of uitschakelen
 

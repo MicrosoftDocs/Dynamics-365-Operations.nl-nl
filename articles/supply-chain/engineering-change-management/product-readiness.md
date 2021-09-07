@@ -1,6 +1,6 @@
 ---
 title: Productgereedheid
-description: In deze onderwerpen wordt beschreven hoe u de gereedheidscontroles kunt gebruiken om ervoor te zorgen dat de vereiste hoofdgegevens voor een product zijn voltooid voordat deze in transacties worden gebruikt.
+description: Dit onderwerp beschrijft hoe u de gereedheidscontroles kunt gebruiken om ervoor te zorgen dat de vereiste hoofdgegevens voor een product zijn voltooid voordat het product in transacties wordt gebruikt.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8cbeba336438d5ad6365e26500ca8c53edd9fb829a30c075c34674b49cdf1946
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
+ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723546"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7415316"
 ---
 # <a name="product-readiness"></a>Productgereedheid
 
 [!include [banner](../includes/banner.md)]
 
-U kunt de gereedheidscontroles gebruiken om ervoor te zorgen dat alle vereiste hoofdgegevens voor een product zijn gespecificeerd voordat deze in transacties worden gebruikt. Wanneer de gereedheidscontroles worden gebruikt, wordt de gebruiker of het team verantwoordelijk gemaakt voor het valideren van specifieke, vooraf gedefinieerde, productgerelateerde gegevens. Als er een gereedheidscontrole van een product openstaat, kan het product niet worden vrijgegeven of worden gebruikt in transacties.
+U kunt de gereedheidscontroles gebruiken om ervoor te zorgen dat alle vereiste hoofdgegevens voor een product zijn gespecificeerd voordat deze in transacties worden gebruikt. Wanneer de gereedheidscontroles worden gebruikt, wordt de gebruiker of het team verantwoordelijk gemaakt voor het valideren van specifieke, vooraf gedefinieerde, productgerelateerde gegevens. Als er een gereedheidscontrole van een product openstaat, kan het product niet worden gebruikt in transacties.
 
-Het selectievakje **Actief** voor een technisch product, een variant of een versie is pas beschikbaar nadat alle vereiste gegevens zijn ingevoerd en geverifieerd, en nadat alle gereedheidscontroles zijn verwerkt. Op dat moment kan het product, de versie of de variant worden vrijgegeven aan andere bedrijven en worden gebruikt in transacties. U kunt gereedheidscontroles maken voor nieuwe producten, nieuwe varianten en nieuwe technische versies.
+Het selectievakje **Actief** voor een technisch product, een variant of een versie is pas beschikbaar nadat alle vereiste gegevens zijn ingevoerd en geverifieerd, en nadat alle gereedheidscontroles zijn verwerkt. Op dat moment kan het product, de versie of de variant worden gebruikt in transacties. U kunt gereedheidscontroles maken voor nieuwe producten, nieuwe varianten en nieuwe technische versies.
 
 U kunt ook gereedheidscontroles toepassen op standaardproducten (niet-technisch). Zie het gedeelte [Gereedheidscontroles op standaardproducten](#standard-products) verderop dit onderwerp voor meer informatie.
 
