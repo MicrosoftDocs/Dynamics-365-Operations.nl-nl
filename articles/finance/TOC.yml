@@ -6,6 +6,8 @@
           href: index.md
         - name: Aan de slag
           items:
+            - name: Beschrijving van service
+              href: ../fin-ops-core/fin-ops/get-started/service-description.md?toc=/dynamics365/finance/toc.json
             - name: Voordat u gaat kopen
               href: ../fin-ops-core/fin-ops/get-started/before-you-buy.md?toc=/dynamics365/finance/toc.json
             - name: Aanmelden voor preview-abonnementen
@@ -72,6 +74,8 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.22 (november 2021)
+                      href: get-started/whats-new-changed-10-0-22.md
                     - name: Finance 10.0.21 (oktober 2021)
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (augustus 2021)
@@ -1168,9 +1172,13 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: Ontbrekende openingssaldi in jaarafsluiting
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: Hoe stel ik salderende financiële dimensies in?
+                  href: general-ledger/set-up-balance-dimensions.md
                 - name: Sjablonen voor financiële journalen openen in Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
-                - name: Journaalboeking mislukt vanwege een onevenwicht
+                - name: Standaard financiële dimensies in financiële journalen
+                  href: general-ledger/dimension-default-values.md
+                - name: Journaalboeking mislukt vanwege een niet-salderende posten
                   href: general-ledger/posting-fail-imbalance.md
                 - name: Waarom kan ik deze transactie niet ongedaan maken?
                   href: general-ledger/cant-reverse-transctns.md
@@ -1472,17 +1480,17 @@
               items:
                 - name: Overzicht van globalisatieservices
                   href: localizations/globalization-services-overview.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory configuration service
+                - name: Regulatory Configuration Service (RCS)
                   items:
-                    - name: Overzicht van Regulatory configuration service
+                    - name: Overzicht van Regulatory Configuration Service (RCS)
                       href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Regulatory configuration service - globalisatiefuncties
+                    - name: Regulatory Configuration Service (RCS) - globalisatiefuncties
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
-                    - name: ER-configuraties maken in Regulatory Configuration Service en deze uploaden naar de algemene opslagplaats
+                    - name: ER-configuraties maken in Regulatory Configuration Service (RCS) en deze uploaden naar de algemene opslagplaats
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                    - name: Regulatory Configuration Service - een RCS-omgeving verwijderen
+                    - name: Regulatory Configuration Service (RCS) - Een RCS-omgeving verwijderen
                       href: localizations/rcs-delete-environment.md
-                    - name: Regulatory Configuration Service - Afschaffing van Lifecycle Services-opslag
+                    - name: Regulatory Configuration Service (RCS) - Afschaffing van Lifecycle Services-opslag
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                     - name: ER-configuraties downloaden naar Finance
                       items:
@@ -1550,6 +1558,8 @@
                           href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
                     - name: Vaststelling
                       items:
+                        - name: Gegevensmodel voor belastingberekening
+                          href: localizations/tax-calculation-data-model-overview.md
                         - name: Logica voor toepasselijkheid van btw en het bepalen van btw-groepen
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
                     - name: Berekening
@@ -1574,6 +1584,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: ICL-lijst
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Rapportage voor Zweden
+                          items:
+                            - name: Btw-aangifte
+                              href: localizations/emea-swe-VAT-declaration-Sweden.md
                         - name: Rapportage voor Zwitserland
                           items:
                             - name: Btw-aangifte
@@ -2690,6 +2704,8 @@
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
                 - name: Italiaanse Intrastat
                   href: localizations/emea-ita-intrastat.md
+                - name: Ontvangsten en verzendingen voor Intrastat boeken
+                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
                 - name: Diverse toeslagen per kilogram in een intrastat-aangifte
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Intentieverklaring - gebruikelijke exporteurs factureren
@@ -2982,6 +2998,8 @@
               items:
                 - name: Overzicht Oman
                   href: localizations/oman.md
+                - name: Btw-aangifte voor Oman (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: Nederland
               items:
                 - name: Overzicht Nederland
@@ -3366,6 +3384,10 @@
                   href: localizations/emea-swe-payment-formats-import.md
                 - name: Btw-betalingsrapport voor Zweden
                   href: localizations/emea-swe-sales-tax-payment-report-sweden.md
+                - name: Btw-aangifte voor Zweden
+                  href: localizations/emea-swe-VAT-declaration-Sweden.md
+                - name: Zweedse Intrastat
+                  href: localizations/emea-swe-intrastat.md
             - name: Zwitserland
               items:
                 - name: Overzicht Zwitserland
@@ -3420,6 +3442,28 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: Btw-groepen instellen voor een omgekeerde toeslag
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+                - name: Rapportage voor Verenigd Koninkrijk
+                  items:
+                    - name: Belasting digitaal maken (MTD) voor btw
+                      items:
+                        - name: Belasting digitaal maken (MTD) voor btw-aangifte in het Verenigd Koninkrijk
+                          href: localizations/emea-gbr-mtd-vat-integration.md
+                        - name: Uw omgeving voorbereiden om samen te werken met de MTD btw-webservice van HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                        - name: Finance-omgeving autoriseren om samen te werken met de MTD-webservice van HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: Samenwerking met de btw-sandbox voor MTD testen
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: Een btw-aangifte naar de MTD-webservice van HMRC verzenden
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                        - name: Controlelijst voor het instellen van elektronische berichten voor MTD-btw
+                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                        - name: Een btw-aangifte op papier genereren (btw 100-aangifte)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                        - name: Details van btw-instellingen voor btw-aangiften in het Verenigd Koninkrijk
+                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: Gegevens over btw-betalingen en -schulden ophalen van HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
                 - name: Statistieken over rapport met betalingsmethoden
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Verenigde Staten
@@ -4147,6 +4191,30 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: Configuraties importeren (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
+                - name: Regulatory Configuration Service (RCS)
+                  items:
+                    - name: Overzicht van Regulatory Configuration Service (RCS)
+                      href: localizations/rcs-overview.md?toc=/dynamics365/finance/toc.json
+                    - name: ER-configuraties downloaden naar Finance
+                      items:
+                        - name: Configuraties downloaden uit RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Configuraties importeren uit RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Algemene opslagplaats (GR)
+                      items:
+                        - name: Configuraties importeren uit GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Bijgewerkte versies van ER-configuraties importeren
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Uitgebreid filteren om configuraties te vinden in GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Configuraties uploaden naar GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: Configuraties delen in GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Configuraties stopzetten in de algemene opslagplaats van RCS
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Snelstarthandleidingen
               items:
                 - name: Een ER-indeling aanpassen om een aangepast elektronisch document te genereren
@@ -4207,6 +4275,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Gegevensbronnen voor opzoeken configureren om ER-toepassingsspecifieke parameters te gebruiken
                       href: ../fin-ops-core/dev-itpro/analytics/er-lookup-data-sources.md?toc=/dynamics365/finance/toc.json
+                    - name: Gegevensbronnen voor GEGEVENSVERZAMELING in ER-indelingen gebruiken
+                      href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/finance/toc.json
                     - name: Foutopsporing in gegevensbronnen
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/finance/toc.json
                 - name: Modeltoewijzingen configureren
@@ -4275,6 +4345,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Actieafhankelijke bestemmingen configureren
                       href: ../fin-ops-core/dev-itpro/analytics/er-action-dependent-destinations.md?toc=/dynamics365/finance/toc.json
+                    - name: Recordspecifieke ER-bestemmingen voor afdrukbeheer configureren
+                      href: ../fin-ops-core/dev-itpro/analytics/er-named-destinations.md?toc=/dynamics365/finance/toc.json
                 - name: Een verwijzing naar een ER-indeling instellen
                   href: ../fin-ops-core/dev-itpro/analytics/er-extended-format-lookup.md?toc=/dynamics365/finance/toc.json
                 - name: Gegenereerde rapporten automatisch valideren
@@ -4323,6 +4395,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
                     - name: Toepassingsupdate 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
+                    - name: Toepassingsupdate 10.0.21
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
                 - name: Een aangepaste opslaglocatie opgeven voor gegenereerde documenten
                   items:
                     - name: Abonneren op een gebeurtenis om een reactie te vragen van een abonneehandler
@@ -4333,6 +4407,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
                 - name: Gegevensbronwaarden van het type USER INPUT PARAMETER starten vanuit broncode
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
+                - name: Code wijzigen om gebruikers in staat te stellen de benoemde ER-bestemmingen te configureren en te gebruiken
+                  href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
         - name: Mobiele app
           items:
             - name: Startpagina mobiele app
