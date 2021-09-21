@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c87018cbfbe22fbbc441a1a23aee0ac44af9ddc
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: acc5d5f93f3f625892aac37780a44e221b6eb5ac
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345144"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475031"
 ---
 # <a name="inventory-visibility-reservations"></a>Voorraadzichtbaarheid-reserveringen
 
@@ -28,23 +28,24 @@ In dit onderwerp wordt beschreven hoe u de reserveringsfunctie instelt om reserv
 
 Reserveringen leggen een hoeveelheid voorraad vast die in de toekomst wordt gebruikt. Wanneer u een reservering maakt, voorkomt het systeem dat andere orders de gereserveerde goederen reserveren of opnemen, totdat de reservering wordt opgenomen of ongedaan wordt gemaakt. Reserveringen worden gemaakt, opgenomen en geannuleerd door API-aanroepen voor de service voor Voorraadzichtbaarheid te gebruiken.
 
-U kunt Microsoft Dynamics 365 Supply Chain Management (en andere systemen van externe partijen) zodanig instellen dat de gereserveerde hoeveelheid automatisch wordt verrekend via Voorraadzichtbaarheid. De tegenhoeveelheid wordt uit de reserveringsrecords in de Voorraadzichtbaarheid verwijderd.
+U kunt Microsoft Dynamics 365 Supply Chain Management (en andere systemen van externe partijen) zodanig instellen dat de gereserveerde hoeveelheid automatisch wordt verrekend via Voorraadzichtbaarheid. De verrekende hoeveelheid wordt uit de reserveringsrecords in de Voorraadzichtbaarheid verwijderd.
 
 Wanneer u de reserveringsfunctie inschakelt, is Supply Chain Management er automatisch klaar voor om reserveringen te verrekenen die met behulp van Voorraadzichtbaarheid worden gemaakt.
 
-> [!NOTE]
-> Voor de verrekingsfunctie is Supply Chain Management versie 10.0.22 of hoger vereist. Als u Voorraadzichtbaarheidreserveringen wilt gebruiken, is het raadzaam om te wachten, totdat u Supply Chain Management naar versie 10.0.22 of hoger hebt bijgewerkt.
-
-## <a name="turn-on-the-reservation-feature"></a>De reserveringsfunctie inschakelen
+## <a name="turn-on-and-set-up-the-reservation-feature"></a><a name="turn-on"></a>De reserveringsfunctie inschakelen en instellen
 
 Voer de volgende stappen uit om de reserveringsfunctie in te schakelen.
 
-1. Open **Voorraadzichtbaarheid** in Power Apps.
+1. Meld u aan bij Power Apps en open **Voorraadzichtbaarheid**.
 1. Open de pagina **Configuratie**.
 1. Schakel in het tabblad **Functiebeheer** de functie *OnHandReservation* in.
 1. Meld u aan bij Supply Chain Management.
-1. Ga naar **Voorraadbeheer \> Instellen \> Parameters voor Voorraadzichtbaarheidsintegratie**.
-1. Stel onder **Tegenreserving** de optie **Tegenreservering inschakelen** in op *Ja*.
+1. Ga naar de werkruimte **[Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** en schakel de functie *Integratie van Voorraadzichtbaarheid met tegenreservering* in (hiervoor is versie 10.0.22 of hoger vereist).
+1. Ga naar **Voorraadbeheer \> Instellen \> Parameters voor integratie van Voorraadzichtbaarheid**, open het tabblad **Tegenreservering** en stel het volgende in:
+    - **Tegenreservering inschakelen**: stel de optie in op *Ja* om deze functionaliteit in te schakelen.
+    - **Modificator voor tegenreservering**: selecteer de status van de voorraadtransactie om reserveringen die zijn gemaakt in Voorraadzichtbaarheid, te compenseren. Met deze instelling wordt de fase van de orderverwerking bepaald waarmee tegenreserveringen worden geactiveerd. De fase wordt door de voorraadtransactiestatus van de order opgevolgd. Kies een van de volgende opties:
+        - *In bestelling*: voor de status *Op transactie* wordt een aanvraag voor een tegenreservering verzonden wanneer deze wordt gemaakt. De verrekende hoeveelheid is de hoeveelheid van de gemaakte order.
+        - *Reserveren*: voor de status *Bestelde transactie reserveren* verzendt een order een tegenreserveringsaanvraag wanneer deze gereserveerd, verzameld, via de pakbon geboekt of gefactureerd wordt. De aanvraag wordt slechts eenmaal voor de eerste stap geactiveerd wanneer het bovengenoemde proces plaatsvindt. De verrekende hoeveelheid is de hoeveelheid waarvoor de status van de voorraadtransactie is gewijzigd van *Besteld* in *Gereserveerd* (of een latere status) op de corresponderende orderregel.
 
 ## <a name="use-the-reservation-feature-in-inventory-visibility"></a>De reserveringsfunctie in Voorraadzichtbaarheid gebruiken
 
@@ -56,13 +57,21 @@ In de reserveringshiërarchie wordt de volgorde van dimensies beschreven die moe
 
 De reserveringshiërarchie kan verschillen van de indexhiërarchie. Met deze onafhankelijkheid kunt u categoriebeheer implementeren, waarbij gebruikers de dimensies kunnen opsplitsen in details om de vereisten voor het maken van nauwkeurige reserveringen op te geven.
 
-Als u een hiërarchie voor softe reserveringen wilt configureren in Power Apps, opent u de pagina **Configuratie** en stelt u vervolgens in het tabblad **Softe reserveringstoewijzing** de reserveringshiërarchie in door dimensies en hun hiërarchieniveaus toe te voegen en/of te wijzigen.
+Als u een hiërarchie voor een zachte reserveringen wilt configureren in Power Apps, opent u de pagina **Configuratie** en stelt u vervolgens op het tabblad **Zachte reserveringshiërarchie** de reserveringshiërarchie in door dimensies en de bijbehorende hiërarchieniveaus toe te voegen en/of te wijzigen.
+
+Uw zachte reserveringshiërarchie moet `SiteId` en `LocationId` als onderdelen bevatten, omdat ze de partitieconfiguratie vormen.
+
+Zie [Reserveringsconfiguratie](inventory-visibility-configuration.md#reservation-configuration) voor meer informatie over het configureren van reserveringen.
 
 ### <a name="call-the-reservation-api"></a>De reserverings-API oproepen
 
 Reserveringen worden in de service voor Voorraadzichtbaarheid gemaakt door een aanvraag naar de URL van de service te verzenden, zoals `/api/environment/{environment-ID}/onhand/reserve`.
 
 Voor een reservering moet de hoofdtekst van de aanvraag een organisatie-ID, een product-ID, gereserveerde hoeveelheden en dimensies bevatten. De aanvraag genereert een unieke reserverings-ID voor elke reserveringsrecord. De reserveringsrecord bevat de unieke combinatie van de product-ID en dimensies.
+
+Wanneer u de reserverings-API aanroept, kunt u de reserveringsvalidatie beheren door de booleaanse parameter `ifCheckAvailForReserv` op te geven in de aanvraagbody. De waarde `True` betekent dat de validatie is vereist, terwijl de waarde `False` betekent dat de validatie niet is vereist. De standaardwaarde is `True`.
+
+Als u een reservering wilt annuleren of de reservering van opgegeven voorraadhoeveelheden wilt verwijderen, stelt u de hoeveelheid in op een negatieve waarde en stelt u de parameter `ifCheckAvailForReserv` in op `False` om de validatie over te slaan.
 
 Ter referentie volgt hier een voorbeeld van de hoofdtekst van een aanvraag.
 
@@ -108,18 +117,9 @@ Voor voorraadtransactiestatussen die een gespecificeerde tegenreserveringsmodifi
 
 De tegengereserveerde hoeveelheid volgt de voorraadhoeveelheid die in de voorraadtransacties opgegeven is. De tegenreservering wordt niet uitgevoerd als er geen gereserveerde hoeveelheid in de service voor Voorraadzichtbaarheid overblijft.
 
-> [!NOTE]
-> De functie Tegenreservering is beschikbaar vanaf versie 10.0.22
+### <a name="set-up-the-reservation-offset-modifier"></a>De modificator voor tegenreserveringen instellen
 
-### <a name="set-up-the-reserve-offset-modifier"></a>De modificator voor tegenreserveringen instellen
-
-Met de modificator voor tegenreserveringen wordt de fase van de orderverwerking bepaald die de tegenreserveringen activeert. De fase wordt door de voorraadtransactiestatus van de order opgevolgd. Voer de onderstaande stappen uit om de modificator voor tegenreserveringen in te stellen.
-
-1. Ga naar **Voorraadbeheer \> Instellen \> Parameters voor Voorraadzichtbaarheidsintegratie \> Tegenreservering**.
-1. Stel het veld **Modificator voor tegenreserveringen** in op een van de volgende waarden:
-
-    - *In bestelling*: voor de status *Op transactie* wordt een aanvraag voor een tegenreservering verzonden wanneer deze wordt gemaakt.
-    - *Reserveren*: voor de status *Bestelde transactie reserveren* verzendt een order een tegenreserveringsaanvraag wanneer deze gereserveerd, verzameld, via de pakbon geboekt of gefactureerd wordt. De aanvraag wordt slechts eenmaal voor de eerste stap geactiveerd wanneer het bovengenoemde proces plaatsvindt.
+Als u dit nog niet hebt gedaan, stelt u de reserveringsmodificator in zoals beschreven in [De reserveringsfunctie inschakelen en instellen](#turn-on).
 
 ### <a name="set-up-reservation-ids"></a>Reserverings-ID's instellen
 

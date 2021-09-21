@@ -2,7 +2,7 @@
 title: Elektronische berichten
 description: Dit onderwerp biedt overzichts- en instellingsinformatie voor elektronische berichten in Microsoft Dynamics 365 Finance.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 08/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16b0e0fa74109f1c63ed47606bebe2fefc604fc5
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768334"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478718"
 ---
 # <a name="electronic-messaging"></a>Elektronische berichten
 
@@ -57,6 +57,16 @@ De EM-functionaliteit ondersteunt de volgende scenario's:
 - Alle gegenereerde rapporten opslaan en controleren.
 - Opslaan en controleren van alle logboekgegevens die betrekking hebben op acties die worden uitgevoerd voor een bericht of berichtitem.
 - De verwerking door verschillende berichtstatussen en berichtitemstatussen beheren.
+
+## <a name="security-privileges"></a>Beveiligingsbevoegdheden
+
+De volgende beveiligingsbevoegdheden zijn beschikbaar voor elektronische berichten.
+
+| Beveiligingsbevoegdheid           | Toegangsniveau | Koppeling |
+|------------------------------|--------------|-------------|
+| Elektronische berichten onderhouden | Deze bevoegdheid geeft volledige toegang tot de functionaliteit voor elektronische berichten. Als u deze bevoegdheid hebt, kunt u elektronische berichten instellen en alle verwerkingen uitvoeren. | Deze bevoegdheid is opgenomen in de beveiligingsfunctie **Btw-transacties voor leveranciers beheren**. Deze functie is op zijn beurt weer opgenomen in de beveiligingsrol **Accountant**. |
+| Elektronische berichten weergeven     | Deze bevoegdheid geeft alleen-lezentoegang tot de functionaliteit voor elektronische berichten. Als u deze bevoegdheid hebt, kunt de instellingen voor elektronische berichten en de berichten bekijken. U kunt echter niets instellen of uitvoeren. | Deze bevoegdheid is opgenomen in de beveiligingsfunctie **Informatie opvragen over de status van btw-transacties**. Deze functie is op zijn beurt weer opgenomen in de volgende beveiligingsrollen:<ul><li>Incassomanager</li><li>Klantenadministrateur</li><li>Klantenmanager</li><li>Belastingaccountant</li><li>Accountant</li><li>Accountingmanager</li><li>Accounting supervisor</li><li>Verkoopleider</li><li>Leveranciersmedewerker</li></ul> |
+| Elektronische berichten bewerken  | Deze bevoegdheid geeft alleen toegang tot de **Elektronische berichten** en de pagina's met **Items elektronisch bericht**. Als u deze bevoegdheid hebt, kunt u alle verwerkingen uitvoeren die vanaf deze pagina's wordt aangeroepen. | Deze bevoegdheid is opgenomen in de beveiligingsfunctie **Elektronische berichten bedienen**. Deze functie is op zijn beurt weer opgenomen in de beveiligingsrol **Operator elektronische berichten**. |
 
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>Landspecifieke wettelijk voorgeschreven functies die worden ondersteund door de EM-functionaliteit
 

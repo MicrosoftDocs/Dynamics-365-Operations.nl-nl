@@ -1,8 +1,8 @@
 ---
 title: Verlof inkopen en verkopen
-description: In Dynamics 365 Human Resources kunt u aanvragen voor het kopen en verkopen van verlof indienen op basis van het beleid voor kopen en verkopen dat is ingesteld door uw bedrijf.
-author: andreabichsel
-ms.date: 08/20/2020
+description: In dit onderwerp wordt beschreven hoe u aanvragen indient voor het kopen en verkopen van verlof in Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1225bcfd0c7c9dfecde2aec54983fca8a298f1cf92d2929d8b1fbe2bdf05e5f9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 716afdc4e52c3e4a0432b987cb82077012d4d0c2
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779729"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431505"
 ---
 # <a name="buy-and-sell-leave"></a>Verlof inkopen en verkopen
 
@@ -51,7 +51,7 @@ Uw saldi worden vóór het bijwerken automatisch bijgewerkt of doorlopen een goe
 
 ## <a name="troubleshooting"></a>Problemen oplossen 
 
-Als een workflow voor verlofaanvragen voor kopen of verkopen mislukt, kunnen gebruikers met de bevoegdheid **EssLebugBuyBugRequestApprover** het berichtenlogboek controleren voor alle verlofaanvragen voor kopen en verkopen. Hiervoor gaat u naar **Verlof en verzuim > Koppeling > Verlofaanvragen kopen en verkopen > Bericht** (linksboven). Gebruikers kunnen in **Berichtenlogboek** zien hoe de transacties werden verwerkt en de bijbehorende workflowhistorie wordt getoond.
+Als een workflow voor verlofaanvragen voor kopen of verkopen mislukt, kunnen gebruikers met de bevoegdheid **EssLebugBuyBugRequestApprover** het berichtenlogboek controleren voor alle verlofaanvragen voor kopen en verkopen. Hiervoor gaat u naar **Verlof en verzuim > Koppelingen > Verlofaanvragen kopen en verkopen > Berichtenlogboek** (linksboven). Gebruikers kunnen in **Berichtenlogboek** zien hoe de transacties werden verwerkt en de bijbehorende workflowhistorie wordt getoond.
 
 
 ## <a name="see-also"></a>Zie ook

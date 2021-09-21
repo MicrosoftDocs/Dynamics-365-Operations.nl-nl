@@ -1,8 +1,8 @@
 ---
-title: Prestatiebeoordelingen maken
+title: Prestatiebeoordelingen aanmaken
 description: In dit onderwerp leest u hoe u een prestatiebeoordeling maakt, met een beschrijving van het doel van elke sectie van de beoordeling.
-author: andreabichsel
-ms.date: 05/05/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscu
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a4a9f83c2b6cb30888ed5a797fb72b9f382187cb8f119d15a5fa437ed5aba1f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1340653c1e9a21d41743b8e3c0b81a4285245d5a
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732244"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431155"
 ---
 # <a name="create-performance-reviews"></a>Prestatiebeoordelingen maken
 
@@ -65,17 +65,17 @@ In dit onderwerp leest u hoe u een prestatiebeoordeling maakt, met een beschrijv
 30. Selecteer het tabblad **Beoordelingen**.  
 
     - Met het sneltabblad **Classificeringsdetails** kunnen werknemers zichzelf een waardering geven, en kan de manager de werknemer beoordelen. Als wegingen worden gebruikt, wordt automatisch de gewogen waarde van de scores berekend.  
-    - Als u deze sectie wilt weergeven, schakelt u de parameterinstellingen in voor het weergeven van werknemerbeoordelingen.  
+    - Als u dit gedeelte wilt bekijken, moet u de parameterinstellingen voor het tonen van werknemersbeoordelingen op de pagina **Gedeelde Human Resources-parameters** inschakelen.  
 
-31. Selecteer het tabblad **Afmeldingen**. Als de beoordeling een workflow gebruikt, worden alleen afmeldingen weergegeven nadat de workflow is doorlopen. Als geen workflow wordt gebruikt, dan worden hier zowel de werknemer als de manager vermeld. Het vereiste selectievakje is geselecteerd op basis van de instellingen van het beoordelingstype.  
+31. Selecteer het tabblad **Afmeldingen**. Als de beoordeling een workflow gebruikt, worden alleen afmeldingen weergegeven nadat de workflow is doorlopen. Als geen workflow wordt gebruikt, dan worden hier zowel de werknemer als de manager vermeld. Het selectievakje **Vereist** voor **Afmeldingen** is geselecteerd op basis van de instellingen van het type beoordeling.  
 32. Selecteer het tabblad **Algemeen**.
 
     - De prestatieperiode maakt de standaarddatums voor begin en einde aan. Deze datums kunnen worden bewerkt.  
-    - De status bepalen de toegang tot de beoordeling. Bij de status **Niet gestart** kan iedereen de beoordeling bewerken. Bij de status **In uitvoering** kan alleen de werknemer de beoordeling weergeven en bewerken. Bij de status **Gereed voor beoordeling** kan alleen de manager de beoordeling weergeven en bewerken. Bij de status **Eindbeoordeling** kunnen zowel de werknemer als de manager de beoordeling weergeven. Indien dit is ingesteld in het beoordelingstype, kunnen ze hem ook bewerken. Bij de statussen **Voltooid** en **Geannuleerd** is de beoordeling alleen-lezen. Als een controle wordt **Afgewezen** en teruggestuurd naar de werknemer, kunnen de werknemer en de manager de nodige wijzigingen aanbrengen die de werknemer opnieuw kan indienen.
+    - De status bepalen de toegang tot de beoordeling. Bij de status **Niet gestart** kan iedereen de beoordeling bewerken. Bij de status **In uitvoering** kan alleen de werknemer de beoordeling weergeven en bewerken. Bij de status **Gereed voor beoordeling** kan alleen de manager de beoordeling weergeven en bewerken. Met de status **Definitieve beoordeling** kan zowel de werknemer als de manager de beoordeling bekijken en bewerken als de optie **Bewerken in definitieve beoordeling toestaan** is geselecteerd in het type beoordeling. Bij de statussen **Voltooid** en **Geannuleerd** is de beoordeling alleen-lezen. Als een controle wordt **Afgewezen** en teruggestuurd naar de werknemer, kunnen de werknemer en de manager de nodige wijzigingen aanbrengen die de werknemer opnieuw kan indienen.
 
 33. Typ een waarde in het veld **Overzicht**.
 34. Selecteer het tabblad **Beoordeling**. Bij elke status waarin de beoordeling zich bevindt, kunnen de werknemer en de manager opmerkingen toevoegen voor iedere doelstelling of competentie.  
-35. Selecteer het tabblad **Afmeldingen**. De werknemer en manager kunnen de beoordeling afmelden. Wanneer alle vereiste afmeldingen zijn uitgevoerd, wordt de status gewijzigd naar **Voltooid** en zijn geen wijzigingen meer mogelijk.  
+35. Selecteer het tabblad **Afmeldingen**. De werknemer en manager kunnen de beoordeling afmelden. Wanneer alle vereiste afmeldingen zijn uitgevoerd, wordt de status gewijzigd naar **Voltooid** en kan er niets meer worden gewijzigd.  
 
 
 

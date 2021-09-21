@@ -2,7 +2,7 @@
 title: Aan de slag met servicebeheer voor Elektronische facturering
 description: In dit onderwerp wordt uitgelegd hoe u aan de slag gaat met Elektronische facturering.
 author: gionoder
-ms.date: 05/24/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: feb8160cd920906765f7ef4a393e15c2be5d8c2cd60c3646e15648980ff27a06
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f77c8fd1696b74f852d04cc0a696d4816ef9af1f
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765639"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463804"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Aan de slag met servicebeheer voor Elektronische facturering
 
@@ -33,7 +33,7 @@ ms.locfileid: "6765639"
 Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereisten zijn voldaan:
 
 - U moet toegang hebben tot uw Microsoft Dynamics Lifecycle Services-account (LCS).
-- U moet een LCS-project hebben dat versie 10.0.17 of hoger van Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management bevat. Daarnaast moeten deze apps worden geïmplementeerd in een van de volgende Azure-geografische gebieden:
+- U moet een LCS-project hebben dat versie 10.0.17 of hoger van Microsoft Dynamics 365 Finance of Dynamics 365 Supply Chain Management bevat. Daarnaast moeten deze apps worden geïmplementeerd in een van de volgende Azure-geografische gebieden:
 
     - Verenigde Staten
     - Europa
@@ -47,20 +47,20 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>De invoegtoepassing voor microservices in Lifecycle Services installeren
 
 1. Meld u aan bij uw LCS-account en selecteer op het LCS-projectdashboard een LCS-project.
-2. Selecteer in het project op het omgevingsdashboard uw LCS-implementatieproject. Het project dat u selecteert, moet worden uitgevoerd.
+2. Selecteer in het project op het dashboard **Omgevingen** uw geïmplementeerde omgeving. De omgeving die u selecteert, moet actief zijn.
 3. Selecteer op het tabblad **Power Platform-integratie** in de veldgroep **Omgevingsinvoegtoepassingen** de optie **Een nieuwe invoegtoepassing installeren**.
 4. Selecteer **Elektronische facturering**.
 5. Voer in het veld **AAD-toepassings-id** **091c98b0-a1c9-4b02-b62c-7753395ccabe** in. Dit is een vaste waarde.
-6. Voer in het veld **AAD-tenant-id** de tenant-id van uw Azure-abonnementsaccount in.
+6. Voer in het veld **AAD-tenant-id** de tenant-id van uw Azure-abonnementsaccount in. De Azure Active Directory (Azure AD) -tenant die u opgeeft, moet dezelfde tenant zijn die wordt gebruikt voor RCS.
 7. Neem de algemene voorwaarden door en schakel vervolgens het selectievakje in.
-8. Selecteer **Installeren**.
+8. Selecteer **Installeren**. De installatie kan enkele minuten duren.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>De parameters voor RCS-integratie met Elektronisch facturering instellen
 
 1. Meld u aan bij uw RCS-account.
-2. Selecteer in het werkgebied **Elektronische rapportage** in de sectie **Verwante koppelingen** de optie **Parameters van elektronische rapportage**.
-3. Voer op het tabblad **e-Factureringsservice** in het veld **Service-eindpunt URI** het juiste service-eindpunt in voor uw geografische Azure-regio, zoals wordt weergegeven in de volgende tabel.
+2. Selecteer in het werkgebied **Globalisatiefuncties** in het gedeelte **Verwante instellingen** **Parameters elektronische rapportage**.
+3. Voer op het tabblad **Elektronisch factureren** in het veld **Service-eindpunt URI** het juiste service-eindpunt in voor uw geografische Azure-regio, zoals wordt weergegeven in de volgende tabel.
 
     | Datacenter Azure-geografie | URI van service-eindpunt                                                       |
     |----------------------------|----------------------------------------------------------------------------|
@@ -69,15 +69,15 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
     | Verenigd Koninkrijk             | <p>`https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
     | Azië                       | <p>`https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/`</p><p>`https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/`</p> |
 
-4. Controleer of het veld **Toepassings-id** is ingesteld op **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Dit is een vaste waarde.
-5. Voer in het veld **LCS-omgevings-id** de id van uw LCS-omgeving in.
+4. Controleer of het veld **Toepassings-ID** is ingesteld op **0cdb527f-a8d1-4bf8-9436-b352c68682b2**. Dit is een vaste waarde.
+5. Voer in het veld **LCS-omgevings-ID** de ID van uw LCS-omgeving in.
 6. Selecteer **Opslaan** en sluit de pagina.
 
 ## <a name="create-key-vault-references"></a>Key Vault-verwijzingen maken
 
 1. Meld u aan bij uw RCS-account.
 2. Selecteer in de werkruimte **Globalisatiefunctie** in de sectie **Omgeving** de tegel **Elektronische facturering**.
-3. Selecteer op de pagina **Omgevingsinstellingen** op het actiedeelvenster de optie **Serviceomgeving** en selecteer **Key Vault-parameters**.
+3. Selecteer op de pagina **Omgevingsinstellingen** in het actiedeelvenster de optie **Serviceomgevingen** en selecteer **Key Vault-parameters**.
 4. Selecteer **Nieuw** om een Key Vault-verwijzing te maken.
 5. Voer in het veld **Naam** de naam in voor de Key Vault-verwijzing. Voer in het veld **Beschrijving** een beschrijving in.
 6. Plak in het veld **Key Vault-URI** het Key Vault-geheim van Azure Key Vault. Zie [Een Azure-opslagaccount en Key Vault maken](e-invoicing-create-azure-storage-account-key-vault.md) voor meer informatie.
@@ -94,7 +94,7 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 
 ## <a name="create-a-digital-certificate-secret"></a>Een digitaal certificaatgeheim maken
 
-1. Selecteer op de pagina **Omgevingsinstellingen** in het actiedeelvenster de optie **Serviceomgeving** en selecteer **Key Vault-parameters**.
+1. Selecteer op de pagina **Omgevingsinstellingen** in het actiedeelvenster de optie **Serviceomgeving** en selecteer vervolgens **Key Vault-parameters**.
 2. Selecteer een **Key Vault-verwijzing** en selecteer **Toevoegen** in de sectie **Certificaten**.
 3. Voer in het veld **Naam** de naam in voor het digitale certificaatgeheim. Zie [Een Azure-opslagaccount en Key Vault maken](e-invoicing-create-azure-storage-account-key-vault.md) voor meer informatie.
 4. Voer in het veld **Beschrijving** een beschrijving in.
@@ -113,17 +113,19 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 8. Voer in het veld **Gebruikers-id** het alias van de gebruiker in. Voer in het veld **E-mail** het e-mailadres van de gebruiker in.
 9. Selecteer **Opslaan**.
 10. Als uw land-/regiospecifieke facturen een keten certificaten vereisen om digitale handtekeningen toe te passen, selecteert u in het actiedeelvenster de optie **Key Vault-parameters** en vervolgens **Keten van certificaten** en voert u deze stappen uit:
+
     1. Selecteer **Nieuw** om een keten certificaten te maken.
     2. Voer in het veld **Naam** de naam in voor de certificaatketen. Voer in het veld **Beschrijving** een beschrijving in.
     3. Selecteer in het gedeelte **Certificaten** de oiptie **Toevoegen** om een certificaat aan de keten toe te voegen.
     4. Met de knop **Omhoog** of **Omlaag** kunt u de positie van het certificaat in de keten wijzigen.
     5. Selecteer **Opslaan** en sluit de pagina.
     6. Sluit de pagina.
+
 11. Selecteer op de pagina **Serviceomgeving** in het actiedeelvenster de optie **Publiceren** om de omgeving naar de cloud te publiceren. De waarde van het veld **Status** wordt gewijzigd in **Gepubliceerd**.
 
 ## <a name="create-a-connected-application"></a>Een verbonden toepassing maken
 
-1. Selecteer op de pagina **Omgevingsinstellingen** in het actiedeelvenster de optie **Verbonden toepassingen**.
+1. Selecteer op de pagina **Instellingen omgevingen** in het actiedeelvenster de optie **Verbonden toepassingen**.
 2. Selecteer **Nieuw** om een verbonden toepassing te maken.
 3. Voer in het veld **Naam** de naam in voor de toepassing die moet worden verbonden.
 4. Voer in het veld **Toepassing** de URL in van de Finance and Supply Chain Management-omgeving die u wilt verbinden.
@@ -133,7 +135,7 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 
 ## <a name="link-connected-applications-to-environments"></a>Verbonden toepassingen aan omgevingen koppelen
 
-1. Selecteer op de pagina **Omgevingsinstellingen** de optie **Nieuw** om een verbonden toepassing toe te wijzen aan een omgeving.
+1. Selecteer op de pagina **Instellingen omgevingen** de optie **Nieuw** om een verbonden toepassing toe te wijzen aan een omgeving.
 2. Selecteer in het veld **Verbonden toepassing** een verbonden toepassing.
 3. Selecteer in het veld **Serviceomgeving** een serviceomgeving.
 4. Selecteer **Opslaan** en sluit de pagina.
@@ -149,7 +151,7 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 ### <a name="set-up-the-service-endpoint-url"></a>De URL van het service-eindpunt instellen
 
 1. Ga naar **Organisatiebeheer \> Instellen \> Parameters voor elektronische documenten**.
-2. Voer op het tabblad **Indieningsservice** in het veld **Service-eindpunt URL** het juiste service-eindpunt in voor uw geografische Azure-regio, zoals wordt weergegeven in de volgende tabel.
+2. Voer op het tabblad **Elektronisch factureren** in het veld **Eindpunt URL** het juiste service-eindpunt in voor uw geografische Azure-regio, zoals wordt weergegeven in de volgende tabel.
 
     | Datacenter Azure-geografie | URI van service-eindpunt                                                       |
     |----------------------------|----------------------------------------------------------------------------|
@@ -161,15 +163,14 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 3. Voer in het veld **Omgeving** de naam in voor de serviceomgeving die is gepubliceerd in Elektronische facturering.
 4. Selecteer **Opslaan** en sluit de pagina.
 
-### <a name="enable-flighting-keys"></a>Flighting-codes inschakelen
+### <a name="enable-flighting-keys-for-finance-or-supply-chain-management-version-10017"></a>Flighting-codes inschakelen voor Finance of Supply Chain Management versie 10.0.17
 
-Schakel flighting-codes in voor Microsoft Dynamics 365 Finance of Microsoft Dynamics 365 Supply Chain Management 10.0.17 of lager. 
 1. Voer de volgende SQL-opdracht uit:
 
     INVOEGEN IN SYSFLIGHTING-WAARDEN (FLIGHT-NAAM, INGESCHAKELD) ('BusinessDocumentSubmissionServiceEnabled', 1)
     
     INVOEGEN IN SYSFLIGHTING-WAARDEN (FLIGHT-NAAM, INGESCHAKELD) ('ElectronicInvoicingServiceIntegrationFeature', 1)
 
-2. Voer een IISreset-opdracht uit voor alle AOS's.
+2. Voer een opdracht IISreset uit voor alle AOS'en.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

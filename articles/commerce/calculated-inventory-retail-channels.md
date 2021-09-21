@@ -1,8 +1,8 @@
 ---
-title: Voorraadbeschikbaarheid voor Retail-kanalen berekenen
+title: Voorraadbeschikbaarheid voor retail-kanalen berekenen
 description: In dit onderwerp wordt beschreven hoe een bedrijf Microsoft Dynamics 365 Commerce kan gebruiken om de geschatte beschikbaarheid van voorhanden voorraad te bekijken voor producten in de online- en winkelkanalen.
 author: hhainesms
-ms.date: 04/23/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: da79aadace09ad480fa34bc03220831023e469645bb7d53af1647bd2d35af0ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3cfd8c2f0b88a4e634cee0398283a51eddf60b2
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741807"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472166"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Voorraadbeschikbaarheid voor Retail-kanalen berekenen
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven hoe een bedrijf Microsoft Dynamics 365 Commerce kan gebruiken om de geschatte beschikbaarheid van voorhanden voorraad te bekijken voor producten in de online- en winkelkanalen.
 
@@ -43,6 +44,21 @@ De volgende voorraadwijzigingen worden momenteel meegenomen in de logica voor de
 - Voorraad verkocht via klantorders in de winkel of het online kanaal
 - Voorraad die naar de winkel is geretourneerd
 - Afgehandelde voorraad (verzamelen, verpakken, verzenden) vanuit het winkelmagazijn
+
+Als u de voorraadberekening aan kanaalzijde wilt gebruiken, moet u de functie **Geoptimaliseerde berekening voor productbeschikbaarheid** inschakelen.
+
+Als uw Commerce-omgeving release **10.0.8 tot 10.0.11** draait, volgt u deze stappen.
+
+1. Ga in Commerce Headquarters naar **Retail en commerce** \> **Gedeelde Commerce-parameters**.
+1. Selecteer op het tabblad **Voorraad** in het veld **Taak Beschikbaarheid product** de optie **Taak Geoptimaliseerd proces voor productbeschikbaarheid gebruiken**.
+
+Als uw Commerce-omgeving release **10.0.12 of later** draait, volgt u deze stappen.
+
+1. Ga in Commerce Headquafters naar **Werkgebieden \> Functiebeheer** en schakel de functie **Geoptimaliseerde berekening voor productbeschikbaarheid** in.
+1. Als voor uw online en winkelkanalen dezelfde afhandelingsmagazijnen worden gebruikt, moet u ook de functie **Verbeterde logica voor voorraadberekening aan kanaalzijde voor e-commerce** inschakelen. Op die manier wordt bij de berekeningslogica van het kanaal rekening houden met de niet-geboekte transacties die in het winkelkanaal zijn aangemaakt. (Deze transacties kunnen cash-and-carry-transacties, klantorders en retouren zijn.)
+1. Voer de taak **1070** (**Kanaalconfiguratie**) uit.
+
+Als uw Commerce-omgeving is bijgewerkt vanuit een versie die eerder is dan Commerce versie 10.0.8, moet u nadat u de functie **Geoptimaliseerde berekening voor productbeschikbaarheid** hebt ingeschakeld, ook de functie **Commerce Scheduler initialiseren** uitvoeren om de functie van kracht te laten worden. Om de initialisatie uit te voeren, gaat u naar **Retail en commerce** \> **Instellingen van hoofdkantoor** \> **Commerce-planner**.
 
 Als u de berekening voor de kanaalvoorraad wilt gebruiken, moet periodiek een momentopname van de voorraadgegevens in het hoofdkantoor worden gemaakt door de taak **Beschikbaarheid product** en naar de kanaaldatabases worden verzonden. De momentopname staat voor de informatie die in Headquarters beschikbaar is over de voorraadbeschikbaarheid voor een specifieke combinatie van een product of productvariant en een magazijn. Deze bevat alleen de voorraadtransacties die in Headquarters waren verwerkt en geboekt op het moment dat de momentopname werd genomen. Het kan zijn dat de momentopname niet 100 procent nauwkeurig in real time is, vanwege de constante verwerking van verkopen die plaatsvindt op gedistribueerde servers.
 
@@ -73,9 +89,7 @@ Commerce biedt de volgende API's voor e-commerce-scenario's om de voorraadbeschi
 
 Beide API's maken intern gebruik van de logica voor berekening aan de kanaalzijde en het retourneren de geraamde **fysiek beschikbare** hoeveelheid, de **totaal beschikbare** hoeveelheid, de **maateenheid** en het **voorraadniveau** voor het gevraagde product en magazijn. De geretourneerde waarden kunnen op uw e-commerce-site worden weergegeven als u dat wilt, of ze kunnen worden gebruikt om andere bedrijfslogica op uw e-commerce-site te activeren. U kunt bijvoorbeeld voorkomen dat producten worden gekocht met een voorraadniveau 'niet op voorraad'.
 
-Hoewel andere API's die beschikbaar zijn in Commerce direct naar Headquarters kunnen gaan om voorhanden hoeveelheden van producten op te halen, raden wij u niet aan deze te gebruiken in een e-commerce-omgeving vanwege mogelijke prestatieproblemen en het effect dat veelvuldige aanvragen kunnen hebben op uw Headquarters-servers. Bovendien kunnen de twee genoemde API's met de berekening aan de kanaalzijde een nauwkeurigere schatting leveren van de beschikbaarheid van een product door rekening te houden met de transacties die zijn uitgevoerd in de kanalen die nog niet bekend zijn bij Headquarters.
-
-Om de twee API's te gebruiken, moet u de functie **Geoptimaliseerde berekening voor productbeschikbaarheid** via het werkgebied **Functiebeheer** in Headquarters inschakelen. Als voor uw online en winkelkanalen dezelfde afhandelingsmagazijnen worden gebruikt, moet u ook de functie **Verbeterde logica voor voorraadberekening aan kanaalzijde voor e-commerce** inschakelen. Dan hebt u in de twee API's de berekeningslogica voor het kanaal wordt gebruikt voor niet-geboekte transacties (contante transacties, klantorders, retouren) die in het winkelkanaal worden aangemaakt. Nadat u deze functies hebt ingeschakeld, moet u de taak **1070** (**Kanaalconfiguratie**) uitvoeren.
+Hoewel andere API's die beschikbaar zijn in Commerce direct naar Headquarters kunnen gaan om voorhanden hoeveelheden van producten op te halen, raden wij u niet aan deze te gebruiken in een e-commerce-omgeving vanwege mogelijke prestatieproblemen en het effect dat veelvuldige aanvragen kunnen hebben op uw Headquarters-servers. Bovendien kunnen de twee hierboven genoemde API's met de berekening aan de kanaalzijde een nauwkeuriger schatting geven van de beschikbaarheid van een product door rekening te houden met de transacties die zijn aangemaakt in de kanalen die nog niet bekend zijn bij het hoofdkantoor.
 
 Volg deze stappen om te definiëren hoe producthoeveelheid moet worden geretourneerd in de API-uitvoer.
 
@@ -85,17 +99,17 @@ Volg deze stappen om te definiëren hoe producthoeveelheid moet worden geretourn
 
 De instelling **Hoeveelheid in API-uitvoer** biedt drie opties:
 
-- **Voorraadhoeveelheid retourneren**: fysiek beschikbare en totaal beschikbare hoeveelheid van een gevraagd product worden geretourneerd in de API-uitvoer.
-- **Voorraadhoeveelheid retourneren minus voorraadbuffer**: De hoeveelheid die wordt geretourneerd in de API-uitvoer wordt gecorrigeerd er door de voorraadbufferwaarde van af te trekken. Meer informatie over de voorraadbuffer vindt u in [Voorraadbuffers en voorraadniveaus configureren](inventory-buffers-levels.md).
-- **Voorraadhoeveelheid niet retourneren**: Alleen het voorraadniveau wordt geretourneerd in de API-uitvoer. Meer informatie over de voorraadniveaus vindt u in [Voorraadbuffers en voorraadniveaus configureren](inventory-buffers-levels.md).
+- **Voorraadhoeveelheid retourneren** - fysiek beschikbare en totaal beschikbare hoeveelheid van een gevraagd product worden geretourneerd in de API-uitvoer.
+- **Voorraadhoeveelheid retourneren minus voorraadbuffer**- de hoeveelheid die wordt geretourneerd in de API-uitvoer wordt gecorrigeerd er door de voorraadbufferwaarde van af te trekken. Meer informatie over de voorraadbuffer vindt u in [Voorraadbuffers en voorraadniveaus configureren](inventory-buffers-levels.md).
+- **Voorraadhoeveelheid niet retourneren** - alleen het voorraadniveau wordt geretourneerd in de API-uitvoer. Meer informatie over de voorraadniveaus vindt u in [Voorraadbuffers en voorraadniveaus configureren](inventory-buffers-levels.md).
 
 U kunt de API-parameter `QuantityUnitTypeValue` gebruiken om het eenheidstype op te geven waarmee u de hoeveelheid in de API's wilt laten retourneren. Deze parameter ondersteunt de opties **voorraadeenheid** (standaardwaarde), **inkoopeenheid** en **verkoopeenheid**. De geretourneerde hoeveelheid wordt afgerond op de gedefinieerde precisie van de betreffende maateenheid in Headquarters.
 
 De API **GetEstimatedAvailability** biedt de volgende invoerparameters ter ondersteuning van verschillende queryscenario's:
 
-- `DefaultWarehouseOnly`: gebruik deze parameter om voorraad op te vragen voor een product in het standaardmagazijn van het online kanaal. 
-- `FilterByChannelFulfillmentGroup` en `SearchArea`: gebruik deze twee parameters om voorraad op te vragen voor een product vanuit alle verzamellocaties in een specifiek zoekgebied op basis van `longitude`, `latitude` en `radius`. 
-- `FilterByChannelFulfillmentGroup` en `DeliveryModeTypeFilterValue`: gebruik deze twee parameters om voorraad op te vragen voor een product in specifieke magazijnen die zijn gekoppeld aan de vervullingsgroep van een online kanaal en die zijn geconfigureerd om bepaalde leveringsmethoden te ondersteunen. De parameter `DeliveryModeTypeFilterValue` ondersteunt de opties **alle** (standaardwaarde), **verzenden** en **afhalen**. In een scenario waarbij een online order kan worden vervuld vanuit meerdere verzendmagazijnen, kunt u met deze twee parameters de voorraadbeschikbaarheid van een product in al deze magazijnen opvragen. De API retourneert in dit geval de hoeveelheid voorhanden voorraad en het voorraadniveau van het product in elk verzendmagazijn, plus een totale hoeveelheid en een totaal voorraadniveau van alle verzendmagazijnen in de query.
+- `DefaultWarehouseOnly` - gebruik deze parameter om voorraad op te vragen voor een product in het standaardmagazijn van het online kanaal. 
+- `FilterByChannelFulfillmentGroup` en `SearchArea` - gebruik deze twee parameters om voorraad op te vragen voor een product vanuit alle verzamellocaties in een specifiek zoekgebied op basis van `longitude`, `latitude` en `radius`. 
+- `FilterByChannelFulfillmentGroup` en `DeliveryModeTypeFilterValue` - gebruik deze twee parameters om voorraad op te vragen voor een product in specifieke magazijnen die zijn gekoppeld aan de vervullingsgroep van een online kanaal en die zijn geconfigureerd om bepaalde leveringsmethoden te ondersteunen. De parameter `DeliveryModeTypeFilterValue` ondersteunt de opties **alle** (standaardwaarde), **verzenden** en **afhalen**. In een scenario waarbij een online order kan worden vervuld vanuit meerdere verzendmagazijnen, kunt u met deze twee parameters de voorraadbeschikbaarheid van een product in al deze magazijnen opvragen. De API retourneert in dit geval de hoeveelheid voorhanden voorraad en het voorraadniveau van het product in elk verzendmagazijn, plus een totale hoeveelheid en een totaal voorraadniveau van alle verzendmagazijnen in de query.
  
 De modules koopvak, winkelselector, verlanglijst, winkelwagen en winkelwagenpictogram in Commerce verbruiken de hierboven genoemde API's en parameters om berichten over voorraadniveau weer te geven op de e-commerce-site. De Commerce Site Builder levert verschillende voorraadinstellingen om handels- en inkoopgedrag te regelen. Zie [Voorraadinstellingen toepassen](inventory-settings.md) voor meer informatie.
 
@@ -136,6 +150,5 @@ Voor een optimale schatting van de voorraad is het van het grootste belang dat u
 > - Als berekeningen van de voorraadbeschikbaarheid aan kanaalzijde worden gebruikt om een aanvraag voor voorraadbeschikbaarheid te maken via de API's van e-commerce of de POS-voorraadlogica aan kanaalzijde, wordt omwille van de prestaties een cache gebruikt bij de berekening om vast te stellen of er voldoende de tijd is verstreken om het opnieuw uitvoeren van de berekeningslogica te rechtvaardigen. De standaardcache is ingesteld op 60 seconden. U hebt bijvoorbeeld de berekening aan kanaalzijde voor uw winkel ingeschakeld en de voorhanden voorraad voor een product bekeken op de pagina **Zoeken in voorraad**. Als vervolgens één eenheid van het product wordt verkocht, wordt op de pagina **Zoeken in voorraad** de gereduceerde voorraad pas weergegeven nadat de cache is leeggemaakt. Nadat gebruikers transacties in POS hebben geboekt, moeten ze 60 seconden wachten voordat ze controleren of de voorhanden voorraad is verminderd.
 
 Als voor uw bedrijfsscenario een kortere cachetijd is vereist, neemt u contact op met de vertegenwoordiger van productondersteuning voor ondersteuning.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

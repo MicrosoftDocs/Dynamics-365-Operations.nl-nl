@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 555f75df1b28d374f2a46481857902c2f9315809c082699355190c54e856899b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32d1c7efaefaecae12031073d67b0e4c2cf78a78
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736618"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474767"
 ---
 # <a name="forecast-reduction-keys"></a>Reductiesleutels van prognose
 
@@ -86,7 +86,18 @@ In dit geval worden, als u de prognoseplanning op 1 januari uitvoert, de vraagpr
 
 ### <a name="transactions--reduction-key"></a>Transacties - reductiesleutel
 
-Als u **Transacties - reductiesleutel** selecteert, worden de prognosebehoeften gereduceerd door de transacties die plaatsvinden tijdens de perioden die worden gedefinieerd door de reductiesleutel.
+Als u het veld **Gebruikte methode om prognosebehoeften te verminderen** instelt op *Transacties - reductiesleutel*, worden de prognosevereisten verminderd met de gekwalificeerde vraagtransacties die plaatsvinden tijdens de perioden die worden gedefinieerd door de reductiesleutel.
+
+De gekwalificeerde vraag wordt gedefinieerd door het veld **Prognose verlagen per** op de pagina **Behoefteplanningsgroepen**. Als u het veld **Prognose verminderen per** instelt op *Orders*, worden alleen verkoopordertransacties als gekwalificeerde vraag beschouwd. Als u het veld instelt op *Alle transacties*, worden alle niet-intercompany-transacties voor uitgifte voorraad als gekwalificeerde vraag beschouwd. Als Intercompany-verkooporders ook als gekwalificeerde vraag moeten worden beschouwd, stel dan de optie **Intercompany-orders opnemen** in op *Ja*.
+
+Prognosereductie begint met de eerste (vroegste) vraagprognoserecord in de reductiesleutelperiode. Als de hoeveelheid gekwalificeerde voorraadtransacties hoger ligt dan de hoeveelheid vraagprognoseregels in dezelfde reductiesleutelperiode, wordt het saldo van de hoeveelheid voorraadtransacties gebruikt om de vraagprognosehoeveelheid in de vorige periode te verminderen (als er niet-geconsumeerde prognose is).
+
+Als er geen niet-geconsumeerde prognose overblijft in de vorige reductiesleutelperiode, wordt het saldo van de hoeveelheid voorraadtransacties gebruikt om de prognosehoeveelheid in de volgende maand te verminderen (als er niet-geconsumeerde prognose is).
+
+De waarde van het veld **Percentage** op de reductiesleutelregels wordt niet gebruikt wanneer het veld **Gebruikte methode om prognosebehoeften te verminderen** wordt ingesteld op *Transacties - reductiesleutel*. Alleen de datums worden gebruikt om de reductiesleutelperiode te definiëren.
+
+> [!NOTE]
+> Prognoses die op of voor de datum van vandaag worden geboekt, worden genegeerd en worden niet gebruikt om geplande orders aan te maken. Als uw vraagprognose voor de maand bijvoorbeeld op 1 januari wordt gegenereerd en u op 2 januari de hoofdplanning maakt die vraagprognose bevat, negeert de berekening de vraagprognoseregel met 1 januari.
 
 #### <a name="example-transactions--reduction-key"></a>Voorbeeld: Transacties - reductiesleutel
 

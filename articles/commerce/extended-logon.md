@@ -1,8 +1,8 @@
 ---
 title: Uitgebreide aanmeldingsfunctionaliteit instellen voor MPOS en Cloud POS
 description: Dit onderwerp gaat over uw opties voor het instellen van de uitgebreide aanmelding voor Cloud POS en Retail Modern POS (MPOS).
-author: rubencdelgado
-ms.date: 06/20/2017
+author: boycezhu
+ms.date: 09/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,15 +13,15 @@ ms.custom: 92353
 ms.assetid: 7473e237-fbc8-41d5-8ba0-920242747488
 ms.search.region: global
 ms.search.industry: Retail
-ms.author: rubendel
+ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45284ddb3ec082e3bac8a95ed3ba7901cbce2bf303a8523b9c0a7af56938d560
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cc3d3a3cadbc614e82b8cc7ae0b78406247cece
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748541"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478666"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Uitgebreide aanmeldingsfunctionaliteit instellen voor MPOS en Cloud POS
 
@@ -58,6 +58,8 @@ Standaard kunnen alleen managers uitgebreide aanmelding aan werknemers toewijzen
 U kunt de uitgebreide aanmelding die aan een werknemer is toegewezen verwijderen door te zoeken naar de werknemer met de bewerking **Uitgebreide aanmelding**. Selecteer de werknemer en klik vervolgens op **Verwijderen**. Alle uitgebreide aanmeldreferenties die zijn gekoppeld aan die werknemer, worden verwijderd.
 
 ## <a name="extending-extended-logon"></a>Uitgebreide aanmelding uitbreiden
+
+Met uitgebreide aanmelding kunnen slechts vijf belangrijke tekens standaard als unieke ID worden gebruikt. Als u bijvoorbeeld twee kaarten configureert met de ID's '1234567' en '1234578', worden deze beide beschouwd als '12345'. U kunt een extensie bouwen om meer tekens te ondersteunen. Kijk voor gedetailleerde instructies bij [De uitgebreide aanmeldingsfunctionaliteit van MPOS en cloud-POS uitbreiden](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/12/14/extending-the-extended-logon-functionality-for-mpos-and-cloud-pos/).
 
 De aanmeldservice kan worden uitgebreid om extra aanmeldenapparaten, zoals uitgebreide palmscanners te ondersteunen. Zie de documentatie van POS-uitbreidbaarheid voor meer informatie.
 

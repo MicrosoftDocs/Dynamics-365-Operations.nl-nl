@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 4a77b157e9dd5ee1f551cbb59abbc89aaa28d325cc74a77e6624f25902c5b19e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731884"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471687"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Magazijnorders voor cloud- en randschaaleenheden
 
@@ -27,16 +27,18 @@ ms.locfileid: "6731884"
 
 ## <a name="what-are-warehouse-orders"></a>Wat zijn magazijnorders?
 
-*Magazijnorders* zijn een type order dat is gemaakt ter ondersteuning van magazijnimplementaties voor hub en schaaleenheden. Hiermee kunt u voorraad ontvangen wanneer u een magazijnwerkbelasting voor een schaaleenheid uitvoert. Deze worden momenteel alleen bij inkooporders gebruikt.
+*Magazijnorders* zijn een type order dat wordt gebruikt ter ondersteuning van magazijnimplementaties voor centrale punten en schaaleenheden. Hiermee kunt u voorraad ontvangen en verzenden wanneer u een magazijn-workload voor een schaaleenheid uitvoert.
 
-Magazijnorders worden gebruikt als onderdeel van magazijnbeheerverwerking, bijvoorbeeld wanneer de mobiele app Magazijnbeheer wordt gebruikt om de fysieke beschikbare voorraad te registreren tijdens de verwerking van een binnenkomende inkooporder. Magazijnorders worden gemaakt als onderdeel van het proces *Vrijgeven aan magazijn* dat beschikbaar is voor inkooporders met een schaaleenheidmagazijn en artikelen die zijn ingeschakeld om magazijnbeheerprocessen te gebruiken.
+Magazijnorders worden gebruikt als onderdeel van de verwerking van zowel inkomend als uitgaand magazijnbeheer. Ze worden aangemaakt als onderdeel van het proces *Vrijgave naar magazijn*, dat op het centrale punt wordt geïnitialiseerd.
+Voor de inkomende verwerking wordt de Warehouse Mobile App gebruikt om fysiek voorhanden voorraad te registreren tijdens de verwerking van inkomende orders. Dit is beschikbaar voor inkoop- en productieorders die een magazijn met een schaaleenheid aangeven en artikelen waarvoor het gebruik van magazijnbeheerprocessen is ingeschakeld.
+De uitgaande magazijnorders worden gebruikt als onderdeel van het verzendingswave-proces voor transfer- en verkooporders.
 
 > [!IMPORTANT]
 > Magazijnorders zijn alleen beschikbaar in implementaties waarin gebruik wordt gemaakt van de [werkbelastingen van magazijnbeheer voor cloud- en randschaaleenheden](cloud-edge-workload-warehousing.md).
 
-## <a name="create-a-warehouse-order"></a>Magazijnorder maken
+## <a name="create-an-inbound-warehouse-order"></a>Een inkomende magazijnorder aanmaken
 
-Volg de onderstaande stappen om een magazijnorder te maken.
+Volg deze stappen om een inkomende magazijnorder voor een inkooporderproces aan te maken.
 
 1. Meld u aan bij het exemplaar van Microsoft Dynamics 365 Supply Chain Management dat op de hub wordt uitgevoerd. (U moet het proces *Vrijgeven aan magazijn* initiëren terwijl u bent aangemeld bij de hub.)
 1. Ga naar **Inkoop en sourcing \> Inkooporders \> Alle inkooporders**.

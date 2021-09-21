@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 2eb8ecdd849aa2f583202ac2ec7c3e1bb06698a1
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423339"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431387"
 ---
 # <a name="plan-type-overview"></a>Overzicht plantype
 
@@ -28,14 +28,15 @@ ms.locfileid: "7423339"
 
 Een plantype is een groepering op hoog niveau van specifieke typen vergoedingen. Elk plantype heeft een plantypecode waarmee de regels voor het plantype worden bepaald. Het plantype **Basis leven** heeft bijvoorbeeld de plantypecode **Leven**, omdat het een type levensverzekering is en moet voldoen aan de regels die zijn vastgelegd voor de plantypecode **Leven**. Een ander plantype kan **Aanvullend leven** zijn. Dit plantype heeft ook de plantypecode **Leven**.
 
-Elk plantype geeft aan of een werknemer zich kan inschrijven voor een bepaald type plan of voor meerdere. Een werknemer kan zich bijvoorbeeld mogelijk inschrijven voor zowel de verzekeringspolis Basis leven als de verzekeringspolis Aanvullend leven van het plantype Leven. Een werknemer mag zich waarschijnlijk inschrijven voor één polis van het type Medisch.
+Elk plantype geeft aan of een werknemer zich kan inschrijven voor een bepaald type plan of voor meerdere. Een werknemer kan zich bijvoorbeeld mogelijk inschrijven voor zowel de verzekeringspolis **Basis leven** als de verzekeringspolis **Aanvullend leven** van het plantype Leven. Een werknemer mag zich waarschijnlijk inschrijven voor één polis van het type Medisch.
 
-Als bij een plantype contactpersonen zijn betrokken, geeft het plantype aan of contactpersonen begunstigden of gezinsleden zijn. Een plantype Basis leven zou bijvoorbeeld begunstigden hebben, terwijl een plantype Basis medisch gezinsleden zou hebben. In sommige gevallen kan een plan geen persoonlijke contactpersonen hebben. Bijvoorbeeld een flexibele bestedingsrekening of parkeervergoeding.
+Als bij een plantype contactpersonen zijn betrokken, geeft het plantype aan of contactpersonen begunstigden of gezinsleden zijn. Een plantype **Basis leven** zou bijvoorbeeld begunstigden hebben, terwijl een plantype Basis medisch afhankelijken zou hebben. In sommige gevallen kan een plan geen persoonlijke contactpersonen hebben. Bijvoorbeeld een flexibele bestedingsrekening of parkeervergoeding.
 
-Een plantype kan dekkingsopties definiëren. De dekkingsopties worden gedefinieerd op de pagine **Behoefteplanning**. Een behoefteplanningsoptie kan het bedrag van de vergoeding aangeven of de contactpersonen die in aanmerking komen voor het plantype. Als het type contactpersoon bijvoorbeeld Begunstigde is, moet de dekkingsoptie de voorwaarden definiëren van waartoe de begunstigde gerechtigd is als de vergoeding wordt gebruikt. Als het contactpersoontype Gezinslid is, moet de dekkingsoptie de relatie tussen het gezinslid en de werknemer definiëren. 
+
+Een plantype kan dekkingsopties definiëren. De dekkingsopties worden gedefinieerd op de pagina **Behoefteopties**. Een behoefteplanningsoptie kan het bedrag van de vergoeding aangeven of de contactpersonen die in aanmerking komen voor het plantype. Als het type contactpersoon bijvoorbeeld **Begunstigde** is, moet de dekkingsoptie de voorwaarden definiëren van datgene waartoe de begunstigde gerechtigd is als de vergoeding wordt gebruikt. Als het type contactpersoon **Afhankelijke** is, moet de dekkingsoptie de relatie tussen de afhankelijke en de werknemer definiëren. 
 
 > [!IMPORTANT]
-> De pagina bevat belangrijke gegevens die van invloed zijn op de opties die beschikbaar zijn wanneer een nieuw vergoedingsplan wordt gemaakt:
+> De pagina **Plantypen** bevat belangrijke gegevens die van invloed zijn op de opties die beschikbaar zijn wanneer een nieuw vergoedingenplan wordt gemaakt:
 >
 > - **Code van plantype**: dit veld beïnvloedt wat er wordt weergegeven op het tabblad **Configuratie** wanneer de werkelijke vergoeding wordt ingesteld.  
 > - **Gelijktijdige inschrijving**: dit veld bepaalt of meerdere inschrijvingen zijn toegestaan. (Voor een medisch plan is dit veld meestal ingesteld op **Eén inschrijving**.)

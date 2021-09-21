@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c9f94ec35ebed5a14252377fb543de09cb994ffd
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
+ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416175"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7481310"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Op verzoek synchroniseren met de Supply Chain Management-prijsengine
 
@@ -38,10 +38,10 @@ Microsoft Dynamics 365 Supply Chain Management bevat een prijsengine waarmee han
     + Korting
     + Bedrag vóór vracht
     + Vrachtkosten
-    + Totaal belasting
+    + Totale belasting
     + Totaalbedrag
     
-5. Om ervoor te zorgen dat het systeem handel- en verkoopovereenkomsten meeneemt bij het berekenen van de prijs:
+5. Om ervoor te zorgen dat het systeem handels- en verkoopovereenkomsten meeneemt bij het berekenen van de prijs:
     1. Ga naar uw Supply Chain Management-omgeving.
     2. Navigeer naar **Klanten \> Instellen \> Parameters van Klanten**.
     3. Selecteer het tabblad **Prijzen** op de navigatiebalk aan de zijkant.
@@ -51,7 +51,7 @@ Microsoft Dynamics 365 Supply Chain Management bevat een prijsengine waarmee han
 
 Wanneer u **Prijsorder** selecteert in Sales, wordt de functie **Totalen** op het tabblad **Verkooporder \> Weergeven** in Supply Chain Management aangeroepen voor de bijbehorende verkooporder. De waarden in het ordertotaal in Sales worden gebruikt om de overeenkomende kolommen in Supply Chain Management in te vullen.
 
-Wanneer het verkoopordertotaal wordt berekend in Supply Chain Management, worden de bestaande handelsovereenkomsten en verkoopovereenkomsten voor de klant en de producten in de verkooporder geëvalueerd. Deze informatie wordt gebruikt om de totalen te berekenen. Wanneer **Prijsorder** is geselecteerd, worden in Sales automatisch alle instellingen weergegeven die zijn geconfigureerd in Supply Chain Management.
+Wanneer het verkoopordertotaal wordt berekend in Supply Chain Management, worden de bestaande handelsovereenkomsten voor de klant en de producten in de verkooporder geëvalueerd. Deze informatie wordt gebruikt om de totalen te berekenen. Wanneer **Prijsorder** is geselecteerd, worden in Sales automatisch alle instellingen weergegeven die zijn geconfigureerd in Supply Chain Management.
 
 ## <a name="limitations"></a>Beperkingen
 

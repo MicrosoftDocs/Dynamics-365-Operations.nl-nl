@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 0aca5838ff6d7c9c4d881698be1e2da2e0e1c02e
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343627"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474647"
 ---
 # <a name="inventory-visibility-public-apis"></a>Openbare API's voor Voorraadzichtbaarheid
 
@@ -46,6 +46,9 @@ De volgende tabel bevat de API's die momenteel beschikbaar zijn:
 
 Microsoft heeft een gebruiksklare *Postman*-aanvraagverzameling geleverd. U kunt deze verzameling in uw *Postman*-software importeren via de volgende gedeelde koppeling: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>
 
+> [!NOTE]
+> Het deel {environmentId} van het pad is de omgevings-id in Microsoft Dynamics Lifecycle Services (LCS).
+
 ## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Het eindpunt vinden volgens uw Lifecycle Services-omgeving
 
 De microservice van Voorraadzichtbaarheid wordt in Microsoft Azure Service Fabric geïmplementeerd in meerdere geografieën en regio's. Er is op dit moment geen centraal eindpunt waarmee uw aanvraag automatisch kan worden omgeleid naar de overeenkomstige geografie en regio. U moet daarom de stukken informatie in een URL samenstellen door het volgende patroon te gebruiken:
@@ -54,22 +57,26 @@ De microservice van Voorraadzichtbaarheid wordt in Microsoft Azure Service Fabri
 
 De korte naam van de regio kunt u vinden in de Microsoft Dynamics Lifecycle Services-omgeving (LCS). In de volgende tabel worden de regio's weergegeven die momenteel beschikbaar zijn.
 
-| Azure-regio | Korte naam regio |
-|---|---|
-| Australië - oost | eau |
-| Australië - zuidoost | seau |
-| Canada - centraal | cca |
-| Canada - oost | eca |
-| Noord-Europa | neu |
-| West-Europa | weu |
-| VS - oost | eus |
-| VS - west | wus |
-| VK -zuid | suk |
-| VK - west | wuk |
+| Azure-regio        | Korte naam regio |
+| ------------------- | ----------------- |
+| Australië - oost      | eau               |
+| Australië - zuidoost | seau              |
+| Canada - centraal      | cca               |
+| Canada - oost         | eca               |
+| Noord-Europa        | neu               |
+| West-Europa         | weu               |
+| VS - oost             | eus               |
+| VS - west             | wus               |
+| VK -zuid            | suk               |
+| VK - west             | wuk               |
+| Japan - oost          | ejp               |
+| Japan - west          | wjp               |
+| Brazilië - zuid        | sbr               |
+| Zuid-centraal VS    | scus              |
 
 Het eilandnummer is waar uw LCS-omgeving is geïmplementeerd op Service Fabric. Er is op dit moment geen manier om deze informatie van gebruikers op te halen.
 
-Microsoft heeft een gebruikersinterface (UI) in Power Apps gemaakt zodat u de beschikking hebt over het volledige eindpunt van de microservice. Zie [Het service-eindpunt vinden](inventory-visibility-power-platform.md#get-service-endpoint) voor meer informatie.
+Microsoft heeft een gebruikersinterface (UI) in Power Apps gemaakt zodat u de beschikking hebt over het volledige eindpunt van de microservice. Zie [Het service-eindpunt vinden](inventory-visibility-configuration.md#get-service-endpoint) voor meer informatie.
 
 ## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Authenticatie
 
@@ -80,66 +87,66 @@ Ga als volgt te werk om een beveiligingstoken voor de service te krijgen.
 1. Meld u aan bij de Azure-portal en gebruik de portal om de waarden `clientId` en `clientSecret` voor uw Dynamics 365 Supply Chain Management-app te vinden.
 1. Haal een Azure AD-token (`aadToken`) op door een HTTP-aanvraag met de volgende eigenschappen in te dienen:
 
-    - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
-    - **Methode:** `GET`
-    - **Inhoud hoofdtekst (formuliergegevens):**
+   - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+   - **Methode:** `GET`
+   - **Inhoud hoofdtekst (formuliergegevens):**
 
-        | Sleutel | Waarde |
-        |---|---|
-        | client_id | ${aadAppId} |
-        | client_secret | ${aadAppSecret} |
-        | grant_type | client_credentials |
-        | resource | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+     | Sleutel           | Waarde                                |
+     | ------------- | ------------------------------------ |
+     | client_id     | ${aadAppId}                          |
+     | client_secret | ${aadAppSecret}                      |
+     | grant_type    | client_credentials                   |
+     | resource      | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
 
-    U moet een Azure AD-token (`aadToken`) als reactie ontvangen. Het resultaat moet lijken op het volgende voorbeeld.
+   U moet een Azure AD-token (`aadToken`) als reactie ontvangen. Het resultaat moet lijken op het volgende voorbeeld.
 
-    ```json
-    {
-        "token_type": "Bearer",
-        "expires_in": "3599",
-        "ext_expires_in": "3599",
-        "expires_on": "1610466645",
-        "not_before": "1610462745",
-        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
-        "access_token": "eyJ0eX...8WQ"
-    }
-    ```
+   ```json
+   {
+       "token_type": "Bearer",
+       "expires_in": "3599",
+       "ext_expires_in": "3599",
+       "expires_on": "1610466645",
+       "not_before": "1610462745",
+       "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+       "access_token": "eyJ0eX...8WQ"
+   }
+   ```
 
 1. Formuleer een JSON-aanvraag (JavaScript Object Notation) die op het volgende voorbeeld lijkt.
 
-    ```json
-    {
-        "grant_type": "client_credentials",
-        "client_assertion_type": "aad_app",
-        "client_assertion": "{Your_AADToken}",
-        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
-        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
-        "context_type": "finops-env"
-    }
-    ```
+   ```json
+   {
+       "grant_type": "client_credentials",
+       "client_assertion_type": "aad_app",
+       "client_assertion": "{Your_AADToken}",
+       "scope": "https://inventoryservice.operations365.dynamics.com/.default",
+       "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+       "context_type": "finops-env"
+   }
+   ```
 
-    Let op de volgende punten:
+   Let op de volgende punten:
 
-    - De waarde `client_assertion` moet het Azure AD-token (`aadToken`) zijn dat u in de vorige stap hebt ontvangen.
-    - De waarde `context` moet de omgevings-id zijn waarin u de invoegtoepassing wilt implementeren.
-    - Stel alle andere waarden in zoals in het voorbeeld wordt weergegeven.
+   - De waarde `client_assertion` moet het Azure AD-token (`aadToken`) zijn dat u in de vorige stap hebt ontvangen.
+   - De waarde `context` moet de LCS-omgevings-id zijn waarin u de invoegtoepassing wilt implementeren.
+   - Stel alle andere waarden in zoals in het voorbeeld wordt weergegeven.
 
 1. Dien een HTTP-aanvraag in met de volgende eigenschappen:
 
-    - **URL:** `https://securityservice.operations365.dynamics.com/token`
-    - **Methode:** `POST`
-    - **HTTP-header:** neem de API-versie op. (De sleutel is `Api-Version` en de waarde is `1.0`.)
-    - **Inhoud hoofdtekst:** neem de JSON-aanvraag op die u in de vorige stap hebt gemaakt.
+   - **URL:** `https://securityservice.operations365.dynamics.com/token`
+   - **Methode:** `POST`
+   - **HTTP-header:** neem de API-versie op. (De sleutel is `Api-Version` en de waarde is `1.0`.)
+   - **Inhoud hoofdtekst:** neem de JSON-aanvraag op die u in de vorige stap hebt gemaakt.
 
-    U moet een toegangstoken (`access_token`) als reactie ontvangen. U moet dit token gebruiken als Bearer-token voor het aanroepen van de API Voorraadzichtbaarheid. Hier volgt een voorbeeld.
+   U moet een toegangstoken (`access_token`) als reactie ontvangen. U moet dit token gebruiken als Bearer-token voor het aanroepen van de API Voorraadzichtbaarheid. Hier volgt een voorbeeld.
 
-    ```json
-    {
-        "access_token": "{Returned_Token}",
-        "token_type": "bearer",
-        "expires_in": 3600
-    }
-    ```
+   ```json
+   {
+       "access_token": "{Returned_Token}",
+       "token_type": "bearer",
+       "expires_in": 3600
+   }
+   ```
 
 In latere secties gebruikt u `$access_token` om het token te vertegenwoordigen dat in de laatste stap is opgehaald.
 
@@ -160,6 +167,9 @@ In de volgende tabel wordt de betekenis van elk veld in de JSON-tekst samengevat
 | `quantities` | De hoeveelheid waarmee de voorhanden hoeveelheid moet worden gewijzigd. Als er bijvoorbeeld 10 nieuwe boeken aan een plank worden toegevoegd, is deze waarde `quantities:{ shelf:{ received: 10 }}`. Als er drie boeken worden verwijderd van de plank of worden verkocht, is deze waarde `quantities:{ shelf:{ sold: 3 }}`. |
 | `dimensionDataSource` | De gegevensbron van de dimensies die worden gebruikt bij het boeken van de wijzigingsgebeurtenis en de query. Als u de gegevensbron opgeeft, kunt u de aangepaste dimensies gebruiken van de opgegeven gegevensbron. Voorraadzichtbaarheid kan de dimensieconfiguratie gebruiken om de aangepaste dimensies toe te wijzen aan de algemene standaarddimensies. Als er geen waarde voor `dimensionDataSource` is opgegeven, kunt u alleen de algemene [basisdimensies](inventory-visibility-configuration.md#data-source-configuration-dimension) in uw query's gebruiken. |
 | `dimensions` | Een dynamisch sleutelwaardepaar. De waarden worden aan enkele van de dimensies in Supply Chain Management toegewezen. U kunt echter ook aangepaste dimensies toevoegen (bijvoorbeeld _Bron_) om aan te geven of de gebeurtenis afkomstig is uit Supply Chain Management of uit een extern systeem. |
+
+> [!NOTE]
+> De parameters `LocationId` en `SiteId` vormen de [partitieconfiguratie](inventory-visibility-configuration.md#partition-configuration). U moet deze parameters daarom opgeven in dimensies wanneer u wijzigingsgebeurtenissen voor voorhanden voorraad maakt, voorhanden hoeveelheden instelt of overschrijft of reserveringsgebeurtenissen maakt.
 
 ### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Eén wijzigingsgebeurtenis maken voor voorhanden voorraad
 
@@ -201,6 +211,9 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
     "productId": "T-shirt",
     "dimensionDataSource": "pos",
     "dimensions": {
+        "SiteId": "1",
+        "LocationId": "11",
+        "PosMachineId": "0001",
         "ColorId": "Red"
     },
     "quantities": {
@@ -211,7 +224,7 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
 }
 ```
 
-In het volgende voorbeeld wordt een voorbeeld gegeven van de inhoud van de hoofdtekst zonder `dimensionDataSource`.
+In het volgende voorbeeld wordt een voorbeeld gegeven van de inhoud van de hoofdtekst zonder `dimensionDataSource`. In dit geval zijn `dimensions` de [basisdimensies](inventory-visibility-configuration.md#data-source-configuration-dimension). Als `dimensionDataSource` is ingesteld, kunnen `dimensions` de gegevensbrondimensies of de basisdimensies zijn.
 
 ```json
 {
@@ -219,9 +232,9 @@ In het volgende voorbeeld wordt een voorbeeld gegeven van de inhoud van de hoofd
     "organizationId": "usmf",
     "productId": "T-shirt",
     "dimensions": {
-        "ColorId": "Red",
         "SiteId": "1",
-        "LocationId": "11"
+        "LocationId": "11",
+        "ColorId": "Red"
     },
     "quantities": {
         "pos": {
@@ -275,6 +288,8 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+            "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId&quot;: &quot;0001"
         },
         "quantities": {
@@ -284,10 +299,11 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
     {
         "id": "654321",
         "organizationId": "usmf",
-        "productId": "@PRODUCT1",
-        "dimensionDataSource": "pos",
+        "productId": "Pants",
         "dimensions": {
-            "PosMachineId&quot;: &quot;0001"
+            "SiteId": "1",
+            "LocationId": "11",
+            "ColorId&quot;: &quot;black"
         },
         "quantities": {
             "pos": { "outbound": 3 }
@@ -341,6 +357,8 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
         "productId": "T-shirt",
         "dimensionDataSource": "pos",
         "dimensions": {
+             "PosSiteId": "1",
+            "PosLocationId": "11",
             "PosMachineId": "0001"
         },
         "quantities": {
@@ -359,6 +377,12 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
 Als u de *Reserve*-API wilt gebruiken, moet u de reserveringsfunctie activeren en de reserveringsconfiguratie voltooien. Zie [Reserveringscofiguratie (optioneel)](inventory-visibility-configuration.md#reservation-configuration) voor meer informatie.
 
 ### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Eén reserveringsgebeurtenis maken
+
+Er kan een reservering worden gemaakt met verschillende instellingen voor de gegevensbron. Als u dit type reservering wilt configureren, geeft u eerst de gegevensbron op in de parameter `dimensionDataSource`. Geef vervolgens in de parameter `dimensions` de dimensies op aan de hand van de dimensie-instellingen in de doelgegevensbron.
+
+Wanneer u de reserverings-API aanroept, kunt u de reserveringsvalidatie beheren door de booleaanse parameter `ifCheckAvailForReserv` op te geven in de aanvraagbody. De waarde `True` betekent dat de validatie is vereist, terwijl de waarde `False` betekent dat de validatie niet is vereist. De standaardwaarde is `True`.
+
+Als u een reservering wilt annuleren of de reservering van opgegeven voorraadhoeveelheden wilt verwijderen, stelt u de hoeveelheid in op een negatieve waarde en stelt u de parameter `ifCheckAvailForReserv` in op `False` om de validatie over te slaan.
 
 ```txt
 Path:
@@ -467,14 +491,28 @@ ContentType:
     application/json
 Body:
     {
-        organizationId: string,
+        dimensionDataSource: string, # Optional
         filters: {
+            organizationId: string[],
+            productId: string[],
+            siteId: string[],
+            locationId: string[],
             [dimensionKey:string]: string[],
         },
         groupByValues: string[],
         returnNegative: boolean,
     }
 ```
+
+In de hoofdtekst van deze aanvraag is `dimensionDataSource` nog steeds een optionele parameter. Als deze parameter niet is ingesteld, worden `filters` als *basisdimensies* beschouwd. Er zijn vier velden vereist voor `filters`: `organizationId`, `productId`, `siteId` en `locationId`.
+
+- `organizationId` mag slechts één waarde bevatten, maar is nog steeds een matrix.
+- `productId` kan een of meer waarden bevatten. Als het een lege matrix is, worden alle producten geretourneerd.
+- `siteId` en `locationId` worden gebruikt in Voorraadzichtbaarheid voor partitionering.
+
+De parameter `groupByValues` moet uw configuratie volgen voor indexering. Zie [Configuratie van productindexhiërarchie](./inventory-visibility-configuration.md#index-configuration) voor meer informatie.
+
+De parameter `returnNegative` bepaalt of de resultaten negatieve vermeldingen bevatten.
 
 In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst weergegeven.
 
@@ -484,7 +522,24 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
     "filters": {
         "organizationId": ["usmf"],
         "productId": ["T-shirt"],
+        "siteId": ["1"],
+        "LocationId": ["11"],
         "ColorId": ["Red"]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true
+}
+```
+
+De volgende voorbeelden laten zien hoe u een query uitvoert op een specifieke site en locatie.
+
+```json
+{
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": [],
+        "siteId": ["1"],
+        "LocationId": ["11"],
     },
     "groupByValues": ["ColorId", "SizeId"],
     "returnNegative": true
@@ -512,7 +567,7 @@ Query(Url Parameters):
 Hier is een voorbeeld van een get-URL. Deze get-aanvraag is exact hetzelfde als het post-voorbeeld dat eerder is opgegeven.
 
 ```txt
-/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&SiteId=1&LocationId=11&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
 ```
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

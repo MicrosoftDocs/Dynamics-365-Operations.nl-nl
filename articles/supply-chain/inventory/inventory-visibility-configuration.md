@@ -1,5 +1,5 @@
 ---
-title: Configuratie van Voorraadzichtbaarheid
+title: Voorraadzichtbaarheid configureren
 description: In dit onderwerp wordt beschreven hoe u Voorraadzichtbaarheid configureert.
 author: yufeihuang
 ms.date: 08/02/2021
@@ -11,19 +11,19 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 92e42b22d424ab80303d771f760cfcf0599b9f4c
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345028"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474671"
 ---
-# <a name="inventory-visibility-configuration"></a>Configuratie van Voorraadzichtbaarheid
+# <a name="configure-inventory-visibility"></a>Voorraadzichtbaarheid configureren
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
-In dit onderwerp wordt beschreven hoe u Voorraadzichtbaarheid configureert.
+In dit onderwerp wordt beschreven hoe u de invoegtoepassing Voorraadzichtbaarheid gebruikt met de app Voorraadzichtbaarheid in Power Apps.
 
 ## <a name="introduction"></a><a name="introduction"></a>Inleiding
 
@@ -35,27 +35,58 @@ Voordat u met Voorraadzichtbaarheid begint te werken, moet u de volgende configu
 - [Configuratie van de reservering (optioneel)](#reservation-configuration)
 - [Voorbeeld van een standaardconfiguratie](#default-configuration-sample)
 
-> [!NOTE]
-> U kunt configuraties voor Voorraadzichtbaarheid weergeven en bewerken in [Microsoft Power Apps](./inventory-visibility-power-platform.md#configuration). Nadat de configuratie is voltooid, selecteert u **Configuratie bijwerken** in de app.
+## <a name="prerequisites"></a>Vereisten
 
-## <a name="data-source-configuration"></a><a name="data-source-configuration"></a>Configuratie van de gegevensbron
+Installeer voordat u begint eerst de invoegtoepassing Voorraadzichtbaarheid en stel de app in zoals beschreven in [Voorraadzichtbaarheid installeren en instellen](inventory-visibility-setup.md).
 
-De gegevensbron vertegenwoordigt het systeem waar uw gegevens vandaan komen. Voorbeelden zijn `fno` (wat Dynamics 365 Finance and Operations-apps betekent) en `pos` (wat verkooppunt betekent).
+## <a name="enable-inventory-visibility-features-in-power-apps-feature-management"></a><a name="feature-switch"></a>Functies voor Voorraadzichtbaarheid inschakelen in Power Apps-functiebeheer
 
-De configuratie van de gegevensbron omvat de volgende onderdelen:
+Met de invoegingtoepassing Voorraadzichtbaarheid worden meerdere nieuwe functies aan uw Power Apps-installatie toegevoegd. Deze functies zijn standaard uitgeschakeld. Als u deze functies wilt gebruiken, opent u de pagina **Configuratie** in Power Apps en schakelt u ze vervolgens in op het tabblad **Functiebeheer**.
 
-- Dimensie (dimensietoewijzing)
-- Fysieke meting
-- Berekende meting
+- *OnHandReservation*
+- *OnHandMostSpecificBackgroundService*
+
+## <a name="find-the-service-endpoint"></a><a name="get-service-endpoint"></a>Het service-eindpunt zoeken
+
+Als u het juiste eindpunt van de service Voorraadzichtbaarheid niet weet, opent u de pagina **Configuratie** in Power Apps en selecteert u vervolgens **Service-eindpunt weergeven** in de rechterbovenhoek. Op deze pagina wordt het juiste service-eindpunt weergegeven.
+
+## <a name="the-configuration-page-of-the-inventory-visibility-app"></a><a name="configuration"></a>De configuratiepagina van de app Voorraadzichtbaarheid
+
+In Power Apps kunt u op de pagina **Configuratie** van de [app Voorraadzichtbaarheid](inventory-visibility-power-platform.md) de configuratie van voorhanden voorraad en zachte reservering instellen. Als de invoegtoepassing is geïnstalleerd, bevat de standaardconfiguratie de waarde van Microsoft Dynamics 365 Supply Chain Management (de `fno`-gegevensbron). U kunt de standaardinstellingen controleren. Daarnaast kunt u op basis van uw bedrijfsbehoeften en de voorraadboekingsvereisten van uw externe systeem de configuratie wijzigen om de manier te standaardiseren waarop voorraadwijzigingen kunnen worden geboekt, geordend en opgevraagd in de verschillende systemen. In de resterende secties van dit onderwerp wordt uitgelegd hoe u elk deel van de pagina **Configuratie** gebruikt.
+
+Nadat de configuratie is voltooid, moet u **Configuratie bijwerken** selecteren in de app.
+
+## <a name="data-source-configuration"></a>Configuratie van de gegevensbron
+
+Elke gegevensbron vertegenwoordigt een systeem waaruit uw gegevens afkomstig zijn. Voorbeelden van namen van gegevensbronnen zijn `fno` (wat Dynamics 365 Finance and Operations-apps betekent) en `pos` (wat verkooppunt betekent). Standaard is Supply Chain Management ingesteld als een standaardgegevensbron (`fno`) in Voorraadzichtbaarheid.
 
 > [!NOTE]
 > De `fno`-gegevensbron is gereserveerd voor Dynamics 365 Supply Chain Management.
 
-### <a name="dimension-dimension-mapping"></a><a name="data-source-configuration-dimension"></a>Dimensie (dimensietoewijzing)
+Volg deze stappen om een gegevensbron toe te voegen.
 
-Het doel van dimensieconfiguratie is het standaardiseren van de integratie met meerdere systemen voor boekingsgebeurtenissen en query's op basis van combinaties van dimensies.
+1. Meld u aan bij uw Power Apps-omgeving en open **Voorraadzichtbaarheid**.
+1. Open de pagina **Configuratie**.
+1. Selecteer op het tabblad **Gegevensbron** de optie **Nieuwe gegevensbron** om een gegevensbron toe te voegen.
 
-Voorraadzichtbaarheid ondersteunt de volgende algemene basisdimensie.
+> [!NOTE]
+> Wanneer u een gegevensbron toevoegt, moet u de naam, fysieke metingen en dimensietoewijzingen van uw gegevensbron valideren voordat u de configuratie voor de service voor Voorraadzichtbaarheid bijwerkt. U kunt deze instellingen niet meer wijzigen nadat u **Updateconfiguratie** hebt geselecteerd.
+
+De configuratie van de gegevensbron omvat de volgende onderdelen:
+
+- Dimensies (dimensietoewijzing)
+- Fysieke metingen
+- Berekende metingen
+
+### <a name="dimensions-dimension-mapping"></a><a name="data-source-configuration-dimension"></a>Dimensies (dimensietoewijzing)
+
+Het doel van dimensieconfiguratie is het standaardiseren van de integratie met meerdere systemen voor boekingsgebeurtenissen en query's op basis van combinaties van dimensies. Voorraadzichtbaarheid biedt een lijst met basisdimensies die kunnen worden toegewezen vanuit de dimensies van uw gegevensbron. Er zijn 33 dimensies beschikbaar voor toewijzing.
+
+- Als u Supply Chain Management als een van uw gegevensbronnen gebruikt, worden er standaard 13 dimensies aan de standaarddimensies van Supply Chain Management toegewezen. 12 andere dimensies (`inventDimension1` tot en met `inventDimension12`) worden aan aangepaste dimensies in Supply Chain Management toegewezen. De resterende acht dimensies zijn uitgebreide dimensies die u aan externe gegevensbronnen kunt toewijzen.
+- Als u Supply Chain Management niet als een van uw gegevensbronnen gebruikt, kunt u de dimensies naar wens toewijzen. In de volgende tabel wordt de volledige lijst met beschikbare dimensies weergegeven.
+
+> [!NOTE]
+> Als uw dimensie niet in de standaarddimensielijst staat en u een externe gegevensbron gebruikt, raden we u aan `ExtendedDimension1` tot en met `ExtendedDimension8` voor de toewijzing te gebruiken.
 
 | Dimensietype | Basisdimensie |
 |---|---|
@@ -72,8 +103,9 @@ Voorraadzichtbaarheid ondersteunt de volgende algemene basisdimensie.
 | Magazijnspecifiek | `WMSPalletId` |
 | Magazijnspecifiek | `LicensePlateId` |
 | Overig | `VersionId` |
-| Voorraad (aangepast) | `InventDimension1` via `InventDimension12` |
-| Toestel | `ExtendedDimension1` via `ExtendedDimension8` |
+| Voorraad (aangepast) | `InventDimension1` tot en met `InventDimension12` |
+| Extensie | `ExtendedDimension1` tot en met `ExtendedDimension8` |
+| System | `Empty` |
 
 > [!NOTE]
 > De dimensietypen die worden vermeld in de vorige tabel dienen alleen ter referentie. U hoeft deze niet te definiëren in Voorraadzichtbaarheid.
@@ -92,11 +124,24 @@ Externe systemen hebben toegang tot Voorraadzichtbaarheid via de RESTful-API's. 
 
 Door een dimensietoewijzing te configureren, kunt u de externe dimensies rechtstreeks naar Voorraadzichtbaarheid verzenden. Voorraadzichtbaarheid converteert vervolgens automatisch externe dimensies naar basisdimensies.
 
+Ga als volgt te werk om dimensietoewijzingen toe te voegen.
+
+1. Meld u aan bij uw Power Apps-omgeving en open **Voorraadzichtbaarheid**.
+1. Open de pagina **Configuratie**.
+1. Selecteer op het tabblad **Gegevensbron** in de sectie **Dimensietoewijzingen** de optie **Toevoegen** om dimensietoewijzingen toe te voegen.
+    ![Dimensietoewijzingen toevoegen](media/inventory-visibility-dimension-mapping.png "Dimensietoewijzingen toevoegen")
+
+1. Geef in het veld **Dimensienaam** de brondimensie op.
+1. Selecteer in het veld **Naar basisdimensie** de dimensie in Voorraadzichtbaarheid die u wilt toewijzen.
+1. Selecteer **Opslaan**.
+
+Als uw gegevensbron bijvoorbeeld een productkleurdimensie bevat, kunt u deze aan de basisdimensie `ColorId` toevoegen om een aangepaste dimensie `ProductColor` aan de gegevensbron `exterchannel` toe te voegen. Deze wordt vervolgens aan de basisdimensie `ColorId` toegevoegd.
+
 ### <a name="physical-measures"></a>Fysieke metingen
 
-Met fysieke metingen wordt de hoeveelheid aangepast en de voorraadstatus weergegeven. U kunt uw eigen fysieke metingen definiëren op basis van uw behoeften.
+Wanneer vanuit een gegevensbron een voorraadwijziging naar Voorraadzichtbaarheid wordt geboekt, wordt die wijziging met behulp van *fysieke metingen* geboekt. Met fysieke metingen wordt de hoeveelheid aangepast en de voorraadstatus weergegeven. U kunt uw eigen fysieke metingen definiëren op basis van uw behoeften. Query's kunnen worden gebaseerd op de fysieke metingen.
 
-Voorraadweergave biedt een lijst met standaard fysieke metingen die zijn gekoppeld aan Supply Chain Management (de `fno`-gegevensbron). In de volgende tabel wordt een voorbeeld gegeven van fysieke metingen.
+Voorraadweergave biedt een lijst met standaard fysieke metingen die zijn gekoppeld aan Supply Chain Management (de `fno`-gegevensbron). Deze standaard fysieke metingen worden opgehaald uit de statussen van voorraadtransacties op de pagina **Voorhanden lijst** in Supply Chain Management (**Voorraadbeheer \> Vragen en rapport \> Voorhanden lijst**). In de volgende tabel wordt een voorbeeld gegeven van fysieke metingen.
 
 | Naam van fysieke meting | Beschrijving |
 |---|---|
@@ -117,11 +162,33 @@ Voorraadweergave biedt een lijst met standaard fysieke metingen die zijn gekoppe
 | `ReservOrdered` | Besteld en gereserveerd |
 | `ReservPhysical` | Fysiek gereserveerd |
 
-### <a name="calculated-measures"></a><a name="data-source-configuration-calculated-measure"></a>Berekende metingen
+Als de gegevensbron Supply Chain Management is, hoeft u de standaard fysieke metingen niet opnieuw te maken. Voor externe gegevensbronnen kunt u echter nieuwe fysieke metingen maken door deze stappen uit te voeren.
 
-Berekende metingen bieden een aangepaste berekeningsformule die uit een combinatie van fysieke metingen bestaat. Met deze functie kunt u een set fysieke metingen definiëren die wordt toegevoegd, en/of een set fysieke metingen definiëren die wordt afgetrokken om de aangepaste meting te vormen.
+1. Meld u aan bij uw Power Apps-omgeving en open **Voorraadzichtbaarheid**.
+1. Open de pagina **Configuratie**.
+1. Selecteer op het tabblad **Gegevensbron** in de sectie **Fysieke metingen** de optie **Toevoegen**, geef een naam voor de bronmeting op en sla de wijzigingen op.
 
-Stel dat u het volgende queryresultaat hebt.
+### <a name="calculated-measures"></a>Berekende metingen
+
+U kunt Voorraadzichtbaarheid gebruiken om een query uit te voeren op zowel fysieke metingen van de voorraad als op *aangepaste berekende metingen*. Berekende metingen bieden een aangepaste berekeningsformule die uit een combinatie van fysieke metingen bestaat. Met deze functie kunt u een set fysieke metingen definiëren die wordt toegevoegd, en/of een set fysieke metingen definiëren die wordt afgetrokken om de aangepaste meting te vormen.
+
+Met de configuratie kunt u een set modificators definiëren die worden opgeteld of afgetrokken om het totale samengevoegde uitvoeraantal te krijgen.
+
+Als u een aangepast berekende meting wilt instellen, gaat u als volgt te werk.
+
+1. Meld u aan bij uw Power Apps-omgeving en open **Voorraadzichtbaarheid**.
+1. Open de pagina **Configuratie**.
+1. Selecteer op het tabblad **Berekende meting** de optie **Nieuwe berekende meting** om een berekende maat toe te voegen. Stel vervolgens de velden in aan de hand van de beschrijving in de volgende tabel.
+
+    | Veld | Waarde |
+    |---|---|
+    | Naam van nieuwe berekende meting | Voer de naam van de berekende meting in. |
+    | Gegevensbron | Het querysysteem is een gegevensbron. |
+    | Gegevensbron van modificator | Voer de gegevensbron van de modificator in. |
+    | Modificator | Voer de naam van de modificator in. |
+    | Modificatortype | Selecteer het modificatortype (*Optellen* of *Aftrekken*). |
+
+U hebt bijvoorbeeld het volgende queryresultaat.
 
 ```json
 [
@@ -202,7 +269,7 @@ Wanneer deze berekeningsformule wordt gebruikt, bevat het nieuwe queryresultaat 
 ]
 ```
 
-De `MyCustomAvailableforReservation`-uitvoer, gebaseerd op de berekeningsinstelling in de aangepaste metingen, is 100 + 50 + 80 + 90 + 30 – 10 – 20 – 60 – 40 = 220.
+De `MyCustomAvailableforReservation`-uitvoer, gebaseerd op de berekeningsinstelling in de aangepaste metingen, is 100 + 50 - 10 + 80 - 20 + 90 + 30 - 60 - 40 = 220.
 
 ## <a name="partition-configuration"></a><a name="partition-configuration"></a>Configuratie van de partitie
 
@@ -230,11 +297,21 @@ Voorraadzichtbaarheid biedt flexibiliteit door u de _indexen_ te laten instellen
 | Dimensie | Basisdimensies op basis daarvan wordt het queryresultaat is samengevoegd. |
 | Hiërarchie | De hiërarchie wordt gebruikt om de ondersteunde dimensiecombinaties te definiëren waarop een query kan worden uitgevoerd. U stelt bijvoorbeeld een dimensieset in met een hiërarchievolgorde van `(ColorId, SizeId, StyleId)`. In dit geval ondersteunt het systeem query's op vier dimensiecombinaties. De eerste combinatie is leeg, de tweede is `(ColorId)`, de derde is `(ColorId, SizeId)` en de vierde is `(ColorId, SizeId, StyleId)`. De andere combinaties worden niet ondersteund. Zie het volgende voorbeeld voor meer informatie. |
 
+Ga als volgt te werk om uw producthiërarchie-index in te stellen.
+
+1. Meld u aan bij uw Power Apps-omgeving en open **Voorraadzichtbaarheid**.
+1. Open de pagina **Configuratie**.
+1. Selecteer op het tabblad **Producthiërarchie-index** in de sectie **Dimensietoewijzingen** de optie **Toevoegen** om dimensietoewijzingen toe te voegen.
+1. Standaard wordt een lijst met indexen weergegeven. Als u een bestaande index wilt wijzigen, selecteert u **Bewerken** of **Toevoegen** in de sectie voor de relevante index. Als u een nieuwe indexset wilt maken, selecteert u **Nieuwe indexset**. Selecteer voor elke rij in elke indexset in het veld **Dimensie** een dimensie in de lijst met basisdimensies. Waarden voor de volgende velden worden automatisch gegenereerd:
+
+    - **Setnummer**: dimensies die tot dezelfde groep (index) behoren, worden gegroepeerd en krijgen hetzelfde setnummer toegewezen.
+    - **Hiërarchie**: de hiërarchie wordt gebruikt om de ondersteunde dimensiecombinaties te definiëren waarop een query kan worden uitgevoerd in een dimensiegroep (index). Als u bijvoorbeeld een dimensiegroep instelt met de hiërarchievolgorde *Stijl*, *Kleur* en *Maat*, ondersteunt het systeem het resultaat van drie querygroepen. De eerste groep is alleen stijl. De tweede groep is een combinatie van stijl en kleur. En de derde groep is een combinatie van stijl, kleur en maat. De andere combinaties worden niet ondersteund.
+
 ### <a name="example"></a>Voorbeeld
 
 In deze sectie vindt u een voorbeeld van de manier waarop de hiërarchie werkt.
 
-U hebt de volgende artikelen in uw voorraad.
+In de volgende tabel vindt u een lijst met beschikbare voorraad voor dit voorbeeld.
 
 | Artikel | ColorId | SizeId | StyleId | Hoeveelheid |
 |---|---|---|---|---|
@@ -246,7 +323,7 @@ U hebt de volgende artikelen in uw voorraad.
 | T-shirt | Rood | Klein | Normaal | 6 |
 | T-shirt | Rood | Groot | Normaal | 7 |
 
-Hier volgt de index.
+De volgende tabel toont hoe de indexhiërarchie is ingesteld.
 
 | Setnummer | Dimensie | Hiërarchie |
 |---|---|---|
@@ -284,6 +361,8 @@ Met de index kunt u op de volgende manieren query's uitvoeren op de voorhanden v
 
 > [!NOTE]
 > Basisdimensies die in de partitieconfiguratie zijn gedefinieerd, mogen niet worden gedefinieerd in indexconfiguraties.
+> 
+> Als u alleen een query hoeft uit te voeren op voorraad die wordt samengevoegd door alle dimensiecombinaties, kunt u één index instellen die de basisdimensie `Empty` bevat.
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Configuratie van de reservering (optioneel)
 
@@ -296,22 +375,37 @@ De reserveringsconfiguratie is vereist als u de functie voor zachte reservering 
 
 ### <a name="soft-reservation-mapping"></a>Zachte reserveringstoewijzing
 
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
 Als u een reservering maakt, wilt u mogelijk weten of voorhanden voorraad momenteel beschikbaar is voor reservering. De validatie is gekoppeld aan een berekende meting die een berekeningsformule van een combinatie van fysieke metingen vertegenwoordigt.
 
-Een reserveringsmeting is bijvoorbeeld gebaseerd op de fysieke meting `SoftReservOrdered` van de `iv`-gegevensbron (Voorraadzichtbaarheid). In dit geval kunt u de berekende meting `AvailableToReserve` van de `iv`-gegevensbron instellen, zoals hier wordt weergegeven.
+Door de toewijzing van de fysieke meting in te stellen op de berekende meting, schakelt u de service Voorraadzichtbaarheid in om automatisch de beschikbaarheid van reserveringen te valideren op basis van de fysieke meting.
 
-| Berekeningstype | Gegevensbron | Fysieke meting |
-|---|---|---|
-| Optellen | `fno` | `AvailPhysical` |
-| Optellen | `pos` | `Inbound` |
-| Aftrekken | `pos` | `Outbound` |
-| Aftrekken | `iv` | `SoftReservOrdered` |
+Voordat u deze toewijzing instelt, moeten de fysieke metingen, berekende metingen en de bijbehorende gegevensbronnen worden gedefinieerd op de tabbladen **Gegevensbron** en **Berekende meting** van de pagina **Configuratie** in Power Apps (zoals eerder in dit onderwerp is beschreven).
 
-Stel vervolgens een zachte reserveringstoewijzing in om een toewijzing te bieden van de reserveringsmeting `SoftReservOrdered` naar de berekende meting `AvailableToReserve`.
+Volg deze stappen om een zachte reserveringstoewijzing te definiëren.
 
-| Gegevensbron van fysieke meting | Fysieke meting | Beschikbaar voor reserveringsgegevensbron | Beschikbaar voor reservering van berekende meting |
-|---|---|---|---|
-| `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+1. Definieer de fysieke meting die als de zachte reserveringsmeting fungeert (bijvoorbeeld `SoftReservOrdered`).
+1. Definieer op het tabblad **Berekende meting** van de pagina **Configuratie** de berekende meting *beschikbaar voor reservering* (AFR) die de AFR-berekeningsformule bevat die u aan de fysieke meting wilt toewijzen. U kunt bijvoorbeeld `AvailableToReserve` instellen (beschikbaar voor reservering) zodat deze wordt toegewezen aan de eerder gedefinieerde fysieke meting `SoftReservOrdered`. Op deze manier kunt u zoeken welke hoeveelheden met de voorraadstatus `SoftReservOrdered` er beschikbaar zijn voor reservering. In de volgende tabel wordt de AFR-berekeningsformule weergegeven.
+
+    | Berekeningstype | Gegevensbron | Fysieke meting |
+    |---|---|---|
+    | Optellen | `fno` | `AvailPhysical` |
+    | Optellen | `pos` | `Inbound` |
+    | Aftrekken | `pos` | `Outbound` |
+    | Aftrekken | `iv` | `SoftReservOrdered` |
+
+    U wordt aangeraden de berekende meting zo in te stellen dat deze de fysieke meting bevat waarop de reserveringsmeting is gebaseerd. Op deze manier wordt de berekende metingshoeveelheid beïnvloed door de hoeveelheid van de reserveringsmeting. Daarom moet de berekende meting `AvailableToReserve` van de gegevensbron `iv` in dit voorbeeld de fysieke meting `SoftReservOrdered` van `iv` bevatten als onderdeel.
+
+1. Open de pagina **Configuratie**.
+1. Stel op het tabblad **Zachte reserveringstoewijzing** de toewijzing van de fysieke meting naar de berekende meting in. In het vorige voorbeeld kunt u de volgende instellingen gebruiken om `AvailableToReserve` op de eerder gedefinieerde fysieke meting `SoftReservOrdered` toe te wijzen.
+
+    | Gegevensbron van fysieke meting | Fysieke meting | Beschikbaar voor reserveringsgegevensbron | Beschikbaar voor reservering van berekende meting |
+    |---|---|---|---|
+    | `iv` | `SoftReservOrdered` | `iv` | `AvailableToReserve` |
+
+    > [!NOTE]
+    > Als u het tabblad **Zachte reserveringstoewijzing** niet kunt bewerken, moet u mogelijk de functie *OnHandReservation* op het tabblad **Functiebeheer** inschakelen.
 
 Als u nu reserveert op `SoftReservOrdered`, vindt Voorraadzichtbaarheid automatisch `AvailableToReserve` en de bijbehorende berekeningsformule om de validatie van de reservering uit te voeren.
 
@@ -348,11 +442,16 @@ In dit geval is de berekening van toepassing:
 
 Als u dus probeert reserveringen te maken op basis van `iv.SoftReservOrdered` en de hoeveelheid is minder dan of gelijk aan `AvailableToReserve` (10), kunt u de reservering maken.
 
+> [!NOTE]
+> Wanneer u de reserverings-API aanroept, kunt u de reserveringsvalidatie beheren door de booleaanse parameter `ifCheckAvailForReserv` op te geven in de aanvraagbody. De waarde `True` betekent dat de validatie is vereist, terwijl de waarde `False` betekent dat de validatie niet is vereist. De standaardwaarde is `True`.
+
 ### <a name="soft-reservation-hierarchy"></a>Zachte reserveringshiërarchie
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 In de reserveringshiërarchie wordt de volgorde van dimensies beschreven die moeten worden opgegeven wanneer er reserveringen worden gemaakt. Dit werkt op dezelfde manier als de productindexhiërarchie voor voorhanden query's.
 
-De reserveringshiërarchie is onafhankelijk van de productindexhiërarchie. Met deze onafhankelijkheid kunt u categoriebeheer implementeren, waarbij gebruikers de dimensies kunnen opsplitsen in details om de vereisten voor het maken van nauwkeurige reserveringen op te geven.
+De reserveringshiërarchie is onafhankelijk van de productindexhiërarchie. Met deze onafhankelijkheid kunt u categoriebeheer implementeren, waarbij gebruikers de dimensies kunnen opsplitsen in details om de vereisten voor het maken van nauwkeurige reserveringen op te geven. Uw zachte reserveringshiërarchie moet `SiteId` en `LocationId` als onderdelen bevatten, omdat ze de partitieconfiguratie vormen. Wanneer u de reservering maakt, moet u een partitie voor het product opgeven.
 
 Hier volgt een voorbeeld van een zachte reserveringshiërarchie.
 
@@ -364,10 +463,8 @@ Hier volgt een voorbeeld van een zachte reserveringshiërarchie.
 | `SizeId` | 4 |
 | `StyleId` | 5 |
 
-In dit voorbeeld kunt u reserveringen maken in de volgende dimensievolgordes:
+In dit voorbeeld kunt u reserveringen maken in de volgende dimensiereeksen. U moet een partitie voor het product opgeven wanneer u een reservering maakt. Daarom is `(SiteId, LocationId)` de basishiërarchie die u kunt gebruiken.
 
-- `()`: er is geen dimensie opgegeven.
-- `(SiteId)`
 - `(SiteId, LocationId)`
 - `(SiteId, LocationId, ColorId)`
 - `(SiteId, LocationId, ColorId, SizeId)`
@@ -375,9 +472,24 @@ In dit voorbeeld kunt u reserveringen maken in de volgende dimensievolgordes:
 
 Een geldige dimensievolgorde moet strikt de reserveringshiërarchie, dimensie per dimensie, volgen. De hiërarchievolgorde `(SiteId, LocationId, SizeId)` is bijvoorbeeld niet geldig omdat `ColorId` ontbreekt.
 
+## <a name="complete-and-update-the-configuration"></a>De configuratie voltooien en bijwerken
+
+Nadat u de configuratie hebt voltooid, moet u alle wijzigingen in Voorraadzichtbaarheid door te voeren. Selecteer **Configuratie bijwerken** in de rechterbovenhoek op de pagina **Configuratie** in Power Apps om de wijzigingen door te voeren.
+
+De eerste keer dat u **Configuratie bijwerken** selecteert, vraagt het systeem om uw referenties.
+
+- **Client-id**: de Azure-toepassings-id die u hebt gemaakt voor Voorraadzichtbaarheid.
+- **Tenant-id**: uw Azure-tenant-id.
+- **Clientgeheim**: het geheim van de Azure-toepassing die u hebt gemaakt voor Voorraadzichtbaarheid.
+
+Nadat u zich hebt aangemeld, wordt de configuratie in de service Voorraadzichtbaarheid bijgewerkt.
+
+> [!NOTE]
+> Valideer de naam van uw gegevensbron, de fysieke metingen en de dimensietoewijzingen voordat u de configuratie voor de service voor Voorraadzichtbaarheid bijwerkt. U kunt deze instellingen niet meer wijzigen nadat u **Updateconfiguratie** hebt geselecteerd.
+
 ## <a name="default-configuration-sample"></a><a name="default-configuration-sample"></a>Voorbeeld van een standaardconfiguratie
 
-Tijdens de initialisatiefase wordt door Voorraadweergave een standaardconfiguratie ingesteld. U kunt de configuratie desgewenst wijzigen.
+Tijdens de initialisatiefase wordt door Voorraadzichtbaarheid een standaardconfiguratie ingesteld die hier uitgebreid aan de orde komt. U kunt deze configuratie desgewenst wijzigen.
 
 ### <a name="data-source-configuration"></a>Configuratie van de gegevensbron
 

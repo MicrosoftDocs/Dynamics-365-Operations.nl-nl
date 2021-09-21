@@ -1,5 +1,5 @@
 ---
-title: Schaaleenheden voor Cloud en Edge voor workloads voor productie en magazijnbeheer
+title: Schaaleenheden in een gedistribueerde hybride topologie
 description: Dit onderwerp geeft informatie over schaaleenheden voor Cloud en Edge voor workloads voor productie en magazijnbeheer.
 author: cabeln
 ms.date: 04/22/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780669"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471735"
 ---
-# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Cloud- en randschaaleenheden voor werkbelasting van productie- en magazijnbeheer
+# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Schaaleenheden in een gedistribueerde hybride topologie
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,11 +26,11 @@ ms.locfileid: "6780669"
 >
 > Wanneer u schaaleenheden voor cloud en edge inschakelt, wordt u gevraagd te bevestigen dat bepaalde gegevens die zijn gerelateerd aan de configuratie en verwerking van cloud- en edge-schaaleenheden, kunnen worden opgeslagen in een datacenter in de Verenigde Staten. Zie de sectie [Gegevensverwerking tijdens het beheer van schaaleenheden](#data-processing-management) verderop in dit onderwerp voor meer informatie over gegevensverwerking voor cloud- en edgeschaaleenheden.
 
-## <a name="core-value-proposition-for-scale-units"></a>Basiswaardevoorstel voor schaaleenheden
+## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Kernwaardepropositie voor een gedistribueerde hybride topologie
 
-Bedrijven die werken met productie en distributie moeten belangrijke bedrijfsprocessen 24x7 kunnen uitvoeren, zonder onderbreking en op schaal. Met behulp van de schaaleenheden voor Cloud en Egde kunnen bedrijven belangrijke bedrijfskritische productie- en magazijnprocessen zonder onderbreking uitvoeren, zelfs niet wanneer deze met incidentele problemen met netwerkverbindingen of latentie te kampen krijgen.
+Bedrijven die werken met productie en distributie moeten belangrijke bedrijfsprocessen 24x7 kunnen uitvoeren, zonder onderbreking en op schaal. Met een gedistribueerde hybride topologie kunnen bedrijven belangrijke bedrijfskritische productie- en magazijnprocessen zonder onderbreking uitvoeren, zelfs wanneer deze met incidentele problemen met netwerkconnectiviteit of latentie te maken krijgen.
 
-De schaaleenheden voor Cloud en Edge maken distributie van de workloads voor de werkvloer en magazijn tussen verschillende omgevingen mogelijk. Deze functionaliteit kan helpen de prestaties te verbeteren, serviceonderbrekingen te voorkomen en de uptime te maximaliseren. Schaaleenheden worden geleverd via de volgende invoegingen voor uw Supply Chain Management-abonnement:
+Met een gedistribueerde hybride topologie wordt het concept van *schaaleenheden* geïntroduceerd, waarmee de uitvoeringsbelasting van werkvloer en magazijn over verschillende omgevingen kunnen worden verdeeld. Deze functionaliteit kan helpen de prestaties te verbeteren, serviceonderbrekingen te voorkomen en de uptime te maximaliseren. Schaaleenheden worden geleverd via de volgende invoegingen voor uw Supply Chain Management-abonnement:
 
 - Invoegtoepassing voor cloudschaaleenheden voor Dynamics 365 Supply Chain Management (*beschikbaar april 2021)*
 - Invoegtoepassing voor edgeschaaleenheden voor Dynamics 365 Supply Chain Management (*binnenkort beschikbaar)*

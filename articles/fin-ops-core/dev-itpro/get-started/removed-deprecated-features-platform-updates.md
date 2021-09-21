@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van Finance and Operations-apps.
 author: sericks007
-ms.date: 05/26/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7bd5a64553afa04517633ed03d8bbd6077208c0b511d8fa131dc9a2849998708
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774404"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463613"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
 
@@ -32,7 +32,29 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
 
-## <a name="feature-deprecation-notice-effective-may-2021"></a>Kennisgeving van afschaffing van functie met ingang van mei 2021
+## <a name="feature-deprecation-effective-august-2021"></a>Kennisgeving van afschaffing van functie met ingang van augustus 2021
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure SQL-rapporten in Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Sommige SQL-rapporten in LCS worden afgeschaft. U hoeft de rapporten niet meer te controleren, omdat deze functie door andere services is vervangen. |
+| **Vervangen door een andere functie?**   | No |
+| **Betrokken productgebieden**         | SQL-rapporten: Huidige DTU, huidige DTU-details, Vergrendelingsdetails weergeven, Lijst met huidige planhandleiding, Lijst met query-ID's weergeven, het SQL-queryplan voor een bepaalde plan-ID opvragen, queryplannen en uitvoeringsstatus opvragen, statistieken van rapporten, statistieken weergeven en lijst met duur query's maken |
+| **Implementatieoptie**              | Cloudimplementatie: heeft gevolgen voor door Microsoft beheerde productieomgevingen en Tier 2 tot en met Tier 5-sandboxomgevingen. |
+| **Status**                         | Afgeschaft: geplande verwijderingsdatum in oktober 2021. |
+
+### <a name="azure-sql-actions-in-lcs"></a>SQL-acties voor Azure in LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Sommige SQL-acties in LCS worden afgeschaft.  |
+| **Vervangen door een andere functie?**   | No |
+| **Betrokken productgebieden**         | SQL-acties: een planningshandleiding maken om Plan-ID af te dwingen, Een planhandleiding maken om tabelin hints toe te voegen, Planhandleiding verwijderen, paginavergrendelingen uitschakelen/inschakelen en escalatie vergrendelen, Statistieken van een tabel bijwerken, Index opnieuw maken, Index maken |
+| **Implementatieoptie**              | Cloudimplementatie: heeft gevolgen voor door Microsoft beheerde productieomgevingen en Tier 2 tot en met Tier 5-sandboxomgevingen. |
+| **Status**                         | Afgeschaft: geplande verwijderingsdatum in oktober 2021. |
+
+## <a name="feature-deprecation-effective-may-2021"></a>Kennisgeving van afschaffing van functie met ingang van mei 2021
 
 ### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Globalisatie-portal in Lifecycle Services (LCS)
 

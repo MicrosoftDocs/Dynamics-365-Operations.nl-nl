@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 2fe94ea1afb74520ee97268f62d42832bad5c3df
+ms.sourcegitcommit: 07fada750de54e2907377df2a9f7dae497c3b66e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384580"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7467417"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Wijzigingen in technische producten beheren
 
@@ -122,6 +122,9 @@ Als u beïnvloede transacties wilt controleren, geselecteerde transacties wilt b
     - **Historie weergeven**: open een historie van acties die zijn ondernomen voor de geselecteerde transactie met behulp van het dialoogvenster **Bedrijfsimpact op openstaande transacties**. (De historie geeft bijvoorbeeld aan of meldingen zijn verzonden of transacties zijn geblokkeerd.) 
     - **Alle transacties weergeven**: open de volledige lijst met alle transacties, niet alleen de openstaande transacties.
 
+> [!IMPORTANT]
+> De knop **Productie waarschuwen** is alleen beschikbaar als de functie *Technische meldingen voor productie* is ingeschakeld in het systeem. Raadpleeg [Overzicht van technisch wijzigingsbeheer](product-engineering-overview.md) voor instructies.
+
 #### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Meldingen over wijzigingen voor transacties controleren en verwerken
 
 U kunt de wijzigingsmeldingen die u ontvangt op de volgende manieren lezen en verwerken:
@@ -131,6 +134,9 @@ U kunt de wijzigingsmeldingen die u ontvangt op de volgende manieren lezen en ve
 - Voor productieorders kunt u ervoor kiezen alleen de meldingen over de wijziging te bekijken die van toepassing zijn op de productiebronnen die u beheert. Selecteer in het werkgebied **Productiebeheer** in het actievenster **Mijn werkgebied configureren** om de pagina te filteren zodat alleen informatie wordt weergegeven over de productie-eenheden, groepen en/of resources die u beheert. In de sectie **Overzicht** wordt op een tegel met de naam **Productieorders met gewijzigde producten** een aantal meldingen weergegeven die overeenkomen met uw filterinstellingen. Selecteer deze tegel om de pagina **Technische meldingen** te openen, die de volledige lijst met transacties bevat die voldoen aan de criteria van uw filter.
 
 Wanneer u productieordermeldingen controleert op de pagina **Technische meldingen**, kunt u koppelingen naar gerelateerde wijzigingsorders of productieorders volgen door kolomwaarden te selecteren of door de bijbehorende opdrachten in het actievenster te gebruiken. Wanneer u klaar bent met het evalueren van een wijziging en wanneer u productieorders hebt geannuleerd of indien nodig gewijzigd, kunt u een melding markeren als opgelost. Selecteer de melding en selecteer vervolgens **Oplossen** in het actievenster. De melding wordt uit alle weergaven van gebruikers verwijderd.
+
+> [!IMPORTANT]
+> Voor de mogelijkheid om meldingen voor productieorders te verzenden, moet de functie *Technische meldingen voor productie* in het systeem zijn ingeschakeld. Raadpleeg [Overzicht van technisch wijzigingsbeheer](product-engineering-overview.md) voor instructies.
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Een wijzigingsorder maken op basis van een wijzigingsaanvraag
 

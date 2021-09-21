@@ -2,7 +2,7 @@
 title: Vast compensatieplan in salarisadministratie
 description: Dit onderwerp bevat details en een voorbeeldquery voor de entiteit Vast compensatieplan in salarisadministratie in Dynamics 365 Human Resources.
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1e5345d9f27106bdf3a3a60cb0480a9b072e340c01236e4d48c5e2ae592ddbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738386"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429216"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Vast compensatieplan in salarisadministratie
 
@@ -34,18 +34,27 @@ Fysieke naam: mshr_payrollfixedcompensationplanentity.
 
 ## <a name="properties"></a>Eigenschappen
 
-| Eigenschap<br>**Fysieke naam**<br>**_Type_** | Gebruiken | Beschrijving |
+| Eigenschap</br>**Fysieke naam**</br>**_Type_** | Gebruiken | Beschrijving |
 | --- | --- | --- |
-| **Werknemer-id**<br>mshr_fk_employee_id_value<br>*GUID* | Alleen-lezen<br>Vereist<br>Refererende sleutel: mshr_Employee_id van de entiteit mshr_payrollemployeeentity  | Werknemer-id |
-| **Loontarief**<br>mshr_payrate<br>*Decimaal* | Alleen-lezen<br>Vereist | Salaristarief dat is gedefinieerd in de vastecompensatieregeling. |
-| **Plan-id**<br>mshr_planid<br>*Tekenreeks* | Alleen-lezen<br>Vereist |Geeft het compensatieplan aan  |
-| **Geldig vanaf**<br>mshr_validfrom<br>*Verschil datum en tijd* |  Alleen-lezen<br>Vereist |De datum vanaf wanneer de vaste compensatie voor de werknemer geldig is.  |
-| **Entiteit Vast compensatieplan in salarisadministratie**<br>mshr_payrollfixedcompensationplanentityid<br>*GUID* | Vereist<br>Door systeem gegenereerd | Een door het systeem gegenereerde GUID-waarde als unieke id van het compensatieplan. |
-| **Betalingsfrequentie**<br>mshr_payfrequency<br>*Tekenreeks* | Alleen-lezen<br>Vereist |De frequentie waarmee de werknemer wordt betaald.  |
-| **Geldig tot**<br>mshr_validto<br>*Verschil datum en tijd* | Alleen-lezen <br>Vereist | De datum tot wanneer de vaste compensatie voor de werknemer geldig is. |
-| **Positie-id**<br>mshr_positionid<br>*Tekenreeks* | Alleen-lezen <br>Vereist | De positie-id die is gekoppeld aan de werknemer en de inschrijving voor het vaste compensatieplan. |
-| **Valuta**<br>mshr_currency<br>*Tekenreeks* | Alleen-lezen <br>Vereist |De valuta die voor het vastecompensatieplan is gedefinieerd   |
-| **Personeelsnummer**<br>mshr_personnelnumber<br>*Tekenreeks* | Alleen-lezen<br>Vereist |Het unieke personeelsnummer van de werknemer.  |
+| **Plan-id**</br>mshr_planid</br>*Tekenreeks* | Alleen-lezen | Geeft het compensatieplan aan  |
+| **Personeelsnummer**</br>mshr_personnelnumber</br>*Tekenreeks* | Alleen-lezen | Het unieke personeelsnummer van de werknemer. |
+| **Loontarief**</br>mshr_payrate</br>*Decimaal* | Alleen-lezen | Salaristarief dat is gedefinieerd in de vastecompensatieregeling. |
+| **Positie-id**</br>mshr_positionid</br>*Tekenreeks* | Alleen-lezen | De positie-id die is gekoppeld aan de werknemer en de inschrijving voor het vaste compensatieplan. |
+| **Geldig vanaf**</br>mshr_validfrom</br>*Verschil datum en tijd* |  Alleen-lezen | De datum vanaf wanneer de vaste compensatie voor de werknemer geldig is.  |
+| **Geldig tot**</br>mshr_validto</br>*Verschil datum en tijd* | Alleen-lezen | De datum tot wanneer de vaste compensatie voor de werknemer geldig is. |
+| **Betalingsfrequentie**</br>mshr_payfrequency</br>*Tekenreeks* | Alleen-lezen | De frequentie waarmee de werknemer wordt betaald.  |
+| **Valuta**</br>mshr_currency</br>*Tekenreeks* | Alleen-lezen | De voor het vaste compensatieplan gedefinieerde valuta. |
+| **Entiteit Vast compensatieplan in salarisadministratie**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Door systeem gegenereerd | Een door het systeem gegenereerde GUID-waarde als unieke id van het compensatieplan. |
+
+## <a name="relations"></a>Relaties
+
+|Eigenschapwaarde | Gerelateerde entiteit | Navigatie-eigenschap | Type verzameling |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_FixedCompPlan |
+| _mshr_fk_job_id_value | [mshr_payrollpositionjobentity](hr-admin-integration-payroll-api-payroll-position-job.md) | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_FixedCompPlan |
+| _mshr_fk_payrollposition_id_value | [mshr_payrollpositionentity](hr-admin-integration-payroll-api-payroll-position.md) | mshr_FK_PayrollPosition_id | mshr_FK_PayrollPositionEntity_FixedCompPlan |
+| _mshr_fk_plan_id_waarde | mshr_hcmcompfixedplantableentity | mshr_FK_Plan_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_FixedComp |
 
 ## <a name="example-query"></a>Voorbeeldquery
 

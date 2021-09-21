@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae4e25874488890f0eeb601038e308fdc7e89485b5f6a8cf5d5fab713107dfcf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a4fd7c242fc2d857cb35f8ef8c08567c758b768
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753475"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463584"
 ---
 # <a name="reverse-journal-posting"></a>Journaalboekingen tegenboeken
 
@@ -28,13 +28,17 @@ ms.locfileid: "6753475"
 
 In dit onderwerp worden mogelijkheden van Microsoft Dynamics 365 Finance beschreven waarmee u een volledig journaal kunt terugboeken of een of meer boekstukken kunt terugboeken uit de lijst met boekstuktransacties, ongeacht de oorsprong. 
 
+Voordat u een van de in dit onderwerp beschreven functies kunt gebruiken, moet u deze in het systeem inschakelen. Beheerders kunnen het werkgebied **Functiebeheer** gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
+ - Module: Grootboek
+ - Functienaam: **massaal omkeringen voor meerdere documenten**
+
 ## <a name="reversing-journals"></a>Journalen tegenboeken
 
 U kunt journaalregels afzonderlijk tegenboeken. Bij het terugdraaien van journaalboekingen kunt u ook een heel financieel journaal tegenboeken. Een journaal tegenboeken: 
 
-- Open het financiële journaal en filter op geboekte journalen.
+- Filteren op de geboekte journalen en de weergave **Regels** van het journaal openen.
 - Selecteer het menu **Terugboeken** bovenaan de pagina.
-- Het totale aantal boekstukken en boekstukregels wordt weergegeven, evenals het totale bedrag van de regels die worden teruggeboekt.
+- Het totale aantal boekstukken en boekstukregels wordt weergegeven, evenals het totale bedrag van de regels die worden teruggeboekt
 - Selecteer **Ja** als u de bestaande transactiedatums wilt gebruiken of **Nee** als u een nieuwe transactiedatum wilt invoeren. In sommige gevallen wordt de periode van de oorspronkelijke transactie afgesloten en moet u een nieuwe transactiedatum voor de terugboeking invoeren.
 - Als u **Nee** selecteert, voert u een transactiedatum voor de terugboeking in. 
 - Voer een opmerking in die u aan de terugboektransactie wilt toevoegen.
@@ -52,7 +56,7 @@ U kunt ook boekstukken omkeren uit de **Lijst met boekstuktransacties** in alle 
 
 Een of meer boekstukken tegenboeken: 
 
-- Selecteer het menu **Terugboeken** bovenaan de pagina
+- Selecteer het vervolgkeuzemenu **Geheel journaal terugboeken** bovenaan de pagina.
 - Het totale aantal boekstukken en boekstukregels wordt weergegeven, evenals het totale bedrag van de regels die worden teruggeboekt
 - Selecteer **Ja** als u de bestaande transactiedatums wilt gebruiken of **Nee** als u een nieuwe transactiedatum wilt invoeren. In sommige gevallen wordt de periode van de oorspronkelijke transactie afgesloten en moet u een nieuwe transactiedatum invoeren om de transactie terug te boeken.
 - Als u **Nee** selecteert, voert u een transactiedatum voor de terugboeking in. 

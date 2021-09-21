@@ -1,8 +1,8 @@
 ---
-title: Wachtperioden configureren
+title: Wachttijden configureren
 description: In Microsoft Dynamics 365 Human Resources vormen wachtdagen een mijlpaal voor gebruik voor vergoedingsplannen.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8e928987a8e25de9c0c5429af1a305ad20b9892d9d3617482ea209af181e3227
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 537ca48e819f047f2095bd5d9337ac7d80e49c5f
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732580"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431060"
 ---
 # <a name="configure-waiting-periods"></a>Wachtperioden configureren
 
@@ -38,7 +38,7 @@ In Microsoft Dynamics 365 Human Resources vormen wachtdagen een mijlpaal voor ge
    | --- | --- |
    | **Wachtcode** | Een unieke id voor de wachtperiode. |
    | **Beschrijving** | Een beschrijving van de wachtperiode. |
-   | **Wachtmethode** | Selecteer de desbetreffende wachtmethode in de vervolgkeuzelijst met waarden. De opties zijn Netto, Huidige maand, Huidig kwartaal, Huidig jaar en Huidige week. |
+   | **Wachtmethode** | Selecteer de desbetreffende wachtmethode in de vervolgkeuzelijst met waarden. De opties zijn **Netto**, **Huidige maand**, **Huidig kwartaal**, **Huidig jaar** en **Huidige week**. |
    | **Maanden** | Het aantal maanden invoeren dat aan de wachtmethode moet worden toegevoegd om de wachtdatum te berekenen. |
    | **Dagen** | Het aantal dagen invoeren dat aan de wachtmethode moet worden toegevoegd om de wachtdatum te berekenen. |
    | **Wachtdag** | Selecteer de wachtdag die moet worden gebruikt voor de berekening van de wachtdatum. |

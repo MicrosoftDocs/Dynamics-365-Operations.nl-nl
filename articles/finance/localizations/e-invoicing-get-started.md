@@ -2,7 +2,7 @@
 title: Aan de slag met Elektronische facturering
 description: Dit onderwerp bevat informatie waarmee u aan de slag kunt met Elektronische facturering in Microsoft Dynamics 365 Finance en Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3a62f68718a9bd46cdf15146bbb6a4e5166bfcc7abcf99b24d3fbc7e3e6c94ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732976"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463829"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Aan de slag met Elektronische facturering
 
@@ -40,14 +40,14 @@ Voordat u de procedures in dit onderwerp voltooit, moet aan de volgende vereiste
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Een elektronische factureringsfunctie vanuit de Microsoft-configuratieprovider importeren 
 
 1. Meld u aan bij uw RCS-account (Regulatory Configuration Service).
-2. Selecteer in de werkruimte **Globalisatiefunctie** in de sectie **Functies** de tegel **Elektronische facturering**.
+2. Selecteer in de werkruimte **Globalisatiefuncties** in de sectie **Functies** de tegel **Elektronische facturering**.
 3. Selecteer **Importeren** en vervolgens **Synchroniseren**.
 4. Filter de kolom **Configuratieprovider** op de term **Microsoft**.
-5. Selecteer de naam van een elektronische factureringsfunctie in de tabel aan het begin van dit onderwerp en selecteer **Importeren**.
+5. Selecteer de naam van een functie voor Elektronisch factureren in de tabel en selecteer vervolgens **Importeren**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Een omgeving voor de elektronische factureringsfunctie onder uw organisatieprovider maken
 
-1. Selecteer in RCS in de werkruimte **Globalisatiefunctie** in de sectie **Functies** de tegel **Elektronische facturering**.
+1. Selecteer in het gedeelte **Functies** in RCS in de werkruimte **Globalisatiefuncties** de tegel **Elektronische facturering**.
 2. Selecteer **Toevoegen** > **Gebaseerd op bestaande functie** en voer in het veld **Naam** de naam van de elektronische factureringsfunctie in.
 3. Voer in het veld **Omschrijving** een omschrijving in voor de functie.
 4. Selecteer in het veld **Basisfunctie** de geïmporteerde elektronische factureringsfunctie van de Microsoft-configuratieprovider.
@@ -113,7 +113,7 @@ Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor 
     | Elektronische factuur Spanje (ES)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
     | PEPPOL Elektronische factuur            | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
 
-7. Selecteer voor elke tabelnaam die u maakt een contextwaarde volgens de volgende tabel en voer deze in.
+6. Selecteer voor elke tabelnaam die u maakt een contextwaarde volgens de volgende tabel en voer deze in.
 
     | Functienaam                         | Bedrijfsdocument | Context |
     |--------------------------------------|-------------------|---------|
@@ -134,7 +134,7 @@ Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor 
     | Elektronische factuur Spanje (ES)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
     | PEPPOL Elektronische factuur            | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
 
-8. Selecteer voor elk tabelnaam en -context een toewijzingswaarde voor bedrijfsdocumenten volgens de volgende tabel en voer deze in.
+7. Selecteer voor elk tabelnaam en -context een toewijzingswaarde voor bedrijfsdocumenten volgens de volgende tabel en voer deze in.
 
     | Functienaam                         | Bedrijfsdocument | Bedrijfsdocumenttoewijzing |
     |--------------------------------------|-------------------|---------------------------|
@@ -177,11 +177,11 @@ Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor 
 ## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>De functie Elektronische facturering in Verbonden toepassing implementeren
 
 1. Selecteer op het tabblad **Versies** een versie van de functie voor elektronische facturering die u wilt implementeren.
-4. Selecteer **Implementeren**.
-5. Stel de optie **Implementeren op verbonden toepassing** in op **Ja**.
-6. Selecteer in het veld **Toepassing verbinden** de verbinding die is gekoppeld aan uw exemplaar van Finance of Supply Chain Management.
-7. Stel de optie **Implementeren in serviceomgeving** in op **Nee**.
-10. Selecteer **OK**.
+2. Selecteer **Implementeren**.
+3. Stel de optie **Implementeren op verbonden toepassing** in op **Ja**.
+4. Selecteer in het veld **Toepassing verbinden** de verbinding die is gekoppeld aan uw exemplaar van Finance of Supply Chain Management.
+5. Stel de optie **Implementeren in serviceomgeving** in op **Nee**.
+6. Selecteer **OK**.
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>De elektronische factureringsfunctie inschakelen in Finance of Supply Chain Management
 
@@ -213,7 +213,7 @@ Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor 
 ## <a name="issue-electronic-invoices"></a>Elektronische facturen uitgeven
 
 1. Ga naar **Organisatiebeheer** \> **Periodiek** \> **Elektronische documenten** \> **Elektronische documenten indienen**.
-2. Selecteer **Filter** op het sneltabblad **Op te nemen record**.
+2. Selecteer **Filter** op het sneltabblad **Op te nemen records**.
 3. Selecteer **Toevoegen** om een tabelnaam aan het queryfilter toe te voegen.
 4. Selecteer de tabel met de facturen.
 

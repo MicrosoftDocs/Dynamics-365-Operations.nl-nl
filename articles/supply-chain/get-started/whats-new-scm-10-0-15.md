@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: da097f99eda239377b56e9ad35f658b3b408b5d588d82e0ec2759e6fbe72b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 18408e64bd06db2e05038d14f284b799b6c19e68
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751141"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471807"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.15 (januari 2021)
 
@@ -35,9 +35,9 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 
 Deze versie bevat de volgende functies. Volg de koppelingen naar het [releaseeplan](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) om de officiële vrijgavedatums voor elke functie weer te geven.
 
-- Beheer van scale unit voor cloud en rand met werklasten voor productie en magazijnverwerking<br> - Zie [Schaaleenheden voor Cloud en Edge voor productie en magazijnbeheerworkloads](../cloud-edge/cloud-edge-landing-page.md) voor meer informatie.
+- Beheer van scale unit voor cloud en rand met werklasten voor productie en magazijnverwerking<br> - Zie [Schaaleenheden in een gedistribueerde hybride topologie](../cloud-edge/cloud-edge-landing-page.md)  voor meer informatie.
 
-- [overboekingsorders maken en verwerken vanuit de magazijnapp](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Zie [overboekingsorders maken vanuit de magazijn-app](../warehousing/create-transfer-order-from-warehouse-app.md) voor meer informatie.
+- [Transferorders maken en verwerken vanuit de magazijnapp](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Zie [overboekingsorders maken vanuit de magazijn-app](../warehousing/create-transfer-order-from-warehouse-app.md) voor meer informatie.
 
 - [Standaard antwoordvelden voor offerteaanvragen voor biedingen van leveranciers](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/default-rfq-reply-fields-for-vendor-bidding)<br> - Zie [Overzicht van offerteaanvragen](../procurement/request-quotations.md) voor meer informatie.
 

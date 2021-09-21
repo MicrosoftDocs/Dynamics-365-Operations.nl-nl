@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 32beabd40aa62cce832505edd56d92a8a8f12192b821f075e9b1f058d52bf8d0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0fe4b377ec80601f616f81f71222129256dfd448
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733439"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474935"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Flexibel reseveringsbeleid voor dimensies op magazijnniveau
 
@@ -858,7 +858,5 @@ De volgende tabellen bevatten een overzicht waarin wordt aangegeven hoe het syst
 - [Dezelfde batch reserveren voor een verkooporder](../sales-marketing/reserve-same-batch-sales-order.md)
 - [Oudste batch verzamelen op een mobiel apparaat](pick-oldest-batch.md)
 - [Bevestiging van batch en nummerplaat](batch-and-license-plate-confirmation.md)
-- [Problemen met reserveringen in magazijnbeheer oplossen](troubleshoot-warehouse-reservations.md)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

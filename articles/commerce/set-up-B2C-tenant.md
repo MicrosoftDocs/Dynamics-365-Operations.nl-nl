@@ -2,7 +2,7 @@
 title: Een B2C-tenant instellen in Commerce
 description: In dit onderwerp wordt beschreven hoe u uw B2C-tenants (business-to-consumers) in Azure Active Directory (Azure AD) instelt voor de verificatie van sitegebruikers in Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/11/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 107e06d44d159152b260897dfba456a525f19e27
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: d54de9025926d2c1908ce29d2b680a48172f46a4
+ms.sourcegitcommit: 98061a5d096ff4b9078d1849e2ce6dd7116408d1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344493"
+ms.lasthandoff: 09/01/2021
+ms.locfileid: "7466263"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Een B2C-tenant instellen in Commerce
 
@@ -37,6 +37,26 @@ Dynamics 365 Commerce gebruikt Azure AD B2C om gebruikersreferenties en verifica
 
 > [!TIP]
 > U kunt uw sitegebruikers nog verder beschermen en de beveiliging van uw Azure AD B2C-tenants verbeteren met Azure AD Identity Protection en Conditional Access. Voor meer informatie over de beschikbare mogelijkheden voor Azure AD B2C Premium P1- en Premium P2-p2-tenants: zie [Identity Protection en Conditional Access voor Azure AD B2C](/azure/active-directory-b2c/conditional-access-identity-protection-overview)
+
+## <a name="dynamics-environment-prerequisites"></a>Dynamics-omgevingsvereisten
+
+Voordat u begint, moet u ervoor zorgen dat uw Dynamics 365 Commerce-omgeving en e-commercekanaal correct zijn geconfigureerd door aan het volgende te voldoen.
+
+- Stel de POS-bewerkingen **AllowAnonymousAccess** waarde in op "1" in Commerce headquarters:
+    1. Naar **POS-bewerkingen** gaan.
+    1. Klik met de rechtermuisknop in het raster en klik vervolgens op **Aanpassen**.
+    1. Selecteer **Veld toevoegen**.
+    1. Selecteer in de lijst met beschikbare kolommen de kolom **AllowNymousAccess** om deze toe te voegen.
+    1. Selecteer **Bijwerken**.
+    1. Wijzig **AllowNymousAccess** voor de bewerking **612** "Klant toevoegen" naar 1.
+    1. Voer de taak **1090 (Kassa's)** uit.
+- Stel het **handmatige** kenmerk van de nummerreeksklantrekening in op **Nee** in Commerce headquarters:
+    1. Ga naar **Retail en Commerce \> Instelling van Headquarters \> Parameters \> klantenparameters**.
+    1. Selecteer **Nummerreeksen**.
+    1. Dubbelklik in de rij **Klantaccount** op de waarde **Nummerreekscode**.
+    1. Stel in het sneltabblad **Algemeen** van de nummerreeks **Handmatig** in op **Nee**.
+
+Na implementatie van uw Dynamics 365 Commerce-omgeving is het ook aan te raden om [seed data](enable-configure-retail-functionality.md) te initialiseren in de omgeving.
 
 ## <a name="create-or-link-to-an-existing-aad-b2c-tenant-in-the-azure-portal"></a>Een AAD B2C-tenant maken of een koppeling met een bestaande AAD B2C-tenant instellen in de Azure-portal
 

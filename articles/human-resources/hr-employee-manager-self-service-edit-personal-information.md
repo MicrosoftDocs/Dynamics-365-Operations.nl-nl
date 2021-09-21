@@ -1,8 +1,8 @@
 ---
 title: Persoonlijke gegevens bewerken
-description: In dit artikel wordt beschreven hoe u persoonlijke gegevens bewerkt in de selfservice voor werknemers en managers.
-author: andreabichsel
-ms.date: 03/19/2020
+description: In dit artikel wordt beschreven hoe persoonlijke gegevens kunnen worden bewerkt in de selfservice voor werknemers en managers.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80b4537601491c97c24cfa1fef5088cbf1ac276df76534034117161b0fe79dc2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715890"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431457"
 ---
 # <a name="edit-personal-information"></a>Persoonlijke gegevens bewerken
 
@@ -40,7 +40,7 @@ De persoonlijke gegevens die u kunt bewerken, zijn onder ander:
 >[!NOTE]
 >Het is mogelijk dat u bepaalde typen persoonlijke gegevens, zoals zakelijke contactgegevens, niet kunt bewerken. Zie [Persoonlijke gegevens bewerken beperken](hr-employee-self-service-restrict-editing.md) voor meer informatie.
 
-De parameters die in het globale adresboek zijn ingesteld, bepalen welke rollen uw persoonlijke gegevens kunnen zien.
+De op de pagina **Parameters globaal adresboek** ingestelde parameters bepalen welke rollen uw persoonlijke gegevens kunnen zien.
 
 1. Selecteer **Selfservice werknemer** in Human Resources.
 

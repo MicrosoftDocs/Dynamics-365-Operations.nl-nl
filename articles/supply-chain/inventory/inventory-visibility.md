@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: defbcdc7ada4471345f8c728522e15f16a8bec8f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 644eb0d682c35bd604c188aa02e4a6c69b3ff209
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344283"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474983"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Overzicht van invoegtoepassing voorraadzichtbaarheid
 
@@ -31,13 +31,11 @@ Als een microservice die gebaseerd is op Microsoft Dataverse, biedt Voorraadzich
 
 U kunt Voorraadzichtbaarheid in systemen van meerdere externe partijen integreren door configuratieopties in te stellen voor gestandaardiseerde voorraaddimensies en transactietypen in te stellen. Voorraadzichtbaarheid ondersteunt ook aangepaste uitbreidbaarheid door middel van configureerbare berekende hoeveelheden.
 
-## <a name="supported-features"></a>Ondersteunde functies
+## <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Integratie van Voorraadzichtbaarheid instellen met Dynamics 365 Supply Chain Management
 
-### <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Integratie van Voorraadzichtbaarheid instellen met Dynamics 365 Supply Chain Management
+De geïntegreerde oplossing haalt voorraadgegevens op uit Dynamics 365 Supply Chain Management en houdt de voorraadwijzigingen continu bij. Zie [Voorraadzichtbaarheid installeren en instellen](inventory-visibility-setup.md) en [Voorraadzichtbaarheid configureren](inventory-visibility-configuration.md) voor meer informatie.
 
-De geïntegreerde oplossing haalt voorraadgegevens op uit Dynamics 365 Supply Chain Management en houdt de voorraadwijzigingen continu bij. Zie [Voorraadzichtbaarheid instellen](inventory-visibility-setup.md) voor meer informatie.
-
-### <a name="get-a-global-view-of-inventory"></a>Een algemeen overzicht van de voorraad weergeven
+## <a name="get-a-global-view-of-inventory"></a>Een algemeen overzicht van de voorraad weergeven
 
 Met de geïntegreerde oplossing kunt u uw eigen gegevensbronnen definiëren en voorraadgegevens centraliseren. Zie [Voorraadzichtbaarheid configureren](inventory-visibility-configuration.md) voor meer informatie.
 
@@ -46,7 +44,7 @@ Uw voorraad kan op twee manieren worden bekeken:
 - Een query indienen via de high-performance API. Met deze API kunnen near-real-time voorraadgegevens rechtstreeks vanuit een gecachte record worden opgehaald. U kunt contracten en voorbeelden vinden in [Openbare API's van voorraadzichtbaarheid](inventory-visibility-api.md).
 - De onbewerkte lijst met voorraden weergeven. Deze lijst wordt periodiek gesynchroniseerd vanuit een gecachte record en wordt weergegeven in Dataverse. Zie [Voorraadzichtbaarheid-app](inventory-visibility-power-platform.md) voor meer informatie.
 
-### <a name="soft-reservations"></a>Softe reserveringen
+## <a name="soft-reservations"></a>Softe reserveringen
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 

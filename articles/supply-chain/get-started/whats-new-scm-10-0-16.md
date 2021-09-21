@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 58a69907bdd1b03ea2e025b736dbbf84eed73c76d54bd5c93386ba8a627f095f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712044"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474911"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.16 (februari 2021)
 
@@ -54,32 +54,8 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. Z
 - [Op kenmerken gebaseerde verkoopprijzen voor een op beperkingen gebaseerde productconfiguratie](../pim/attribute-based-product-configurator.md)
 - [Automatische toewijzing van toeslagen](../procurement/automatic-charges-allocation.md)
 - [Overzicht van gevaarlijke materialen](../pim/hazmat-overview.md) (en verwante onderwerpen)
-- [Migratie naar Planningsoptimalisatie voor hoofdplanning](../master-planning/new-master-planning-engine.md)
+- [Migratie naar planningsoptimalisatie voor hoofdplanning](../master-planning/new-master-planning-engine.md)
 - [Inkoop-cXML-verbeteringen](../procurement/purchasing-cxml-enhancements.md)
-- [Problemen met kostenbeheer oplossen](../cost-management/troubleshoot-costmanagement.md)
-- [Problemen met inkomende magazijnbewerkingen oplossen](../warehousing/troubleshoot-warehouse-inbound.md)
-- [Problemen met ladingopbouw en zendingen oplossen](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [Problemen met hoofdplanning oplossen](../master-planning/troubleshoot-masterplanning.md)
-- [Problemen met uitgaande magazijnbewerkingen oplossen](../warehousing/troubleshoot-warehouse-outbound.md)
-- [Problemen met gedeeltelijke vrijgaven en gedeeltelijke zendingen oplossen](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [Problemen met de productconfigurator oplossen](../pim/troubleshooting-productconfigurator.md)
-- [Problemen met productinformatie oplossen](../pim/troubleshooting-productinformation.md)
-- [Problemen oplossen met werkstromen voor inkoopbeheer](../procurement/troubleshoot-procurementworkflows.md)
-- [Problemen oplossen met inkooporders](../procurement/troubleshoot-purchaseorders.md)
-- [Problemen met prijzen, kortingen en overeenkomsten oplossen](../procurement/troubleshooting-pricediscountagreements.md)
-- [Problemen oplossen met productontvangsten en -facturering](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [Problemen met afzonderlijke fabricage oplossen](../production-control/troubleshoot-discretemanufacturing.md)
-- [Problemen met verzamelen en verpakken oplossen](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [Problemen met procesproductie oplossen](../production-control/troubleshoot-processmanufacturing.md)
-- [Problemen met reserveringen in magazijnbeheer oplossen](../warehousing/troubleshoot-warehouse-reservations.md)
-- [Problemen oplossen met verkooporders](../sales-marketing/troubleshooting-sales.md)
-- [Problemen oplossen met verkoopoffertes](../sales-marketing/troubleshooting-salesquotation.md)
-- [Problemen met upgrade en migratie naar geavanceerd magazijnbeheer oplossen](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Problemen oplossen met de verbinding met de mobiele app Magazijnbeheer](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [Problemen met magazijnconfiguratie oplossen](../warehousing/troubleshoot-warehouse-configuration.md)
-- [Problemen met magazijnaanvulling oplossen](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [Problemen met magazijninstellingen oplossen](../warehousing/troubleshoot-warehouse-setup.md)
-- [Problemen met magazijnwerk oplossen](../warehousing/troubleshoot-warehouse-work.md)
 - [Wegzetclusters](../warehousing/putaway-clusters.md)
 - [Aanvullingsstrategieën](../warehousing/replenishment-strategies.md)
 - [Werk splitsen](../warehousing/work-split.md)

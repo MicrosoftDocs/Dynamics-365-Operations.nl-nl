@@ -2,7 +2,7 @@
 title: Planning met onbeperkte capaciteit
 description: Dit onderwerp biedt informatie over onbeperkte capaciteitsplanning voor Planningsoptimalisatie. Het bevat ook een beschrijving van huidige functiebeperkingen.
 author: crytt
-ms.date: 6/9/2021
+ms.date: 09/02/2021
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fc40dc2bcf1969e4c566b624a9425638e69ab2a17892f035aeabb74068aadd14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.22
+ms.openlocfilehash: 2e730340cddac107b04a6b5877e51b84f4dd7b21
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718967"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471663"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Planning met onbeperkte capaciteit
 

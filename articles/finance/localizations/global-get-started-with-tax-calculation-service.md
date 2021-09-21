@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1ddbb22d4f7c6108ca93b415276c53794b5450dd
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
+ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394504"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7465072"
 ---
 # <a name="get-started-with-tax-calculation"></a>Aan de slag met belastingberekening
 
@@ -49,13 +49,9 @@ Voor een productieomgeving moet aan de volgende vereisten worden voldaan:
 - U moet een RCS-omgeving voor uw organisatie maken en u moet toegang tot uw account hebben. Zie [Overzicht Regulatory Configuration Service](rcs-overview.md) voor meer informatie over het maken van een RCS-omgeving.
 - De volgende functies moeten zijn ingeschakeld in de werkruimte **Functiebeheer** van uw geïmplementeerde Finance- of Supply Chain Management-omgeving, op basis van uw bedrijfsbehoeften:
 
-    - Belastingberekening
+    - Service voor belastingberekening
     - Meerdere btw-registratienummers ondersteunen
     - Belasting in transferorder
-    - Overboeken van EU-verkooplijst alleen op basis van belastingtransacties
-    - Intrastat-aangifte via meervoudig belasting-id
-    - Aangifte van EU-verkooplijst met meerdere belastingnummers
-    - Btw-aangifte door meervoudig belasting-id
 
 - De volgende functies moeten zijn ingeschakeld in de werkruimte **Functiebeheer** van uw geïmplementeerde RCS-omgeving.
 
@@ -65,18 +61,14 @@ Voor een productieomgeving moet aan de volgende vereisten worden voldaan:
 
 Voor een testomgeving moet aan de volgende vereisten worden voldaan:
 
-- U moet toegang tot uw LCS-account hebben en u moet een LCS-project hebben geïmplementeerd met een Tier 2-omgeving (of hoger) waarop versie 10.0.18 of hoger van Dynamics 365, met KB4616360 of hoger, wordt uitgevoerd.
+- U moet toegang tot uw LCS-account hebben en u moet een LCS-project hebben geïmplementeerd met een Tier 2-omgeving (of hoger) waarop versie 10.0.21 of een latere versie van Dynamics 365 wordt uitgevoerd.
 - U moet een RCS-omgeving voor uw organisatie maken en u moet toegang tot uw account hebben. Zie [Overzicht Regulatory Configuration Service](rcs-overview.md) voor meer informatie over het maken van een RCS-omgeving.
 - U moet via een e-mail naar <taxcalc@microsoft.com> contact opnemen met Microsoft om de flighting in te schakelen in uw geïmplementeerde Finance- of Supply Chain Management-omgeving.
 - De volgende functies moeten zijn ingeschakeld in de werkruimte **Functiebeheer** van uw geïmplementeerde Finance- of Supply Chain Management-omgeving, op basis van uw bedrijfsbehoeften:
 
-    - Belastingberekening
+    - Service voor belastingberekening
     - Meerdere btw-registratienummers ondersteunen
     - Belasting in transferorder
-    - Overboeken van EU-verkooplijst alleen op basis van belastingtransacties
-    - Intrastat-aangifte via meervoudig belasting-id
-    - Aangifte van EU-verkooplijst met meerdere belastingnummers
-    - Btw-aangifte door meervoudig belasting-id
 
 - De volgende functies moeten zijn ingeschakeld in de werkruimte **Functiebeheer** van uw geïmplementeerde RCS-omgeving.
 
@@ -103,12 +95,12 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
 7. Ga naar **Belastinggegevensmodel**, vouw de bestandsstructuur uit en selecteer vervolgens **Belastingconfiguratie**.
 8. Selecteer de juiste belastingconfiguratieversie op basis van uw Finance-versie en selecteer vervolgens **Importeren**.
 
-    | Versie van release | Belastingconfiguratie                       | Modeltoewijzing                   |
-    | --------------- | --------------------------------------- | ------------------------------- |
-    | 10.0.18         | Belastingconfiguratie - Europa 30.12.82     |                                 |
-    | 10.0.19         | Belastingberekeningsconfiguratie 36.38.193 |                                 |
-    | 10.0.20         | Belastingberekeningsconfiguratie 40.43.208 |                                 |
-    | 10.0.21         | Belastingberekeningsconfiguratie 40.46.212 | Dataverse-modeltoewijzing 40.46.9 |
+    | Versie van release | Belastingconfiguratie                       |
+    | --------------- | --------------------------------------- |
+    | 10.0.18         | Belastingconfiguratie - Europa 30.12.82     |
+    | 10.0.19         | Belastingberekeningsconfiguratie 36.38.193 |
+    | 10.0.20         | Belastingberekeningsconfiguratie 40.43.208 |
+    | 10.0.21         | Belastingberekeningsconfiguratie 40.46.212 |
 
 9. Selecteer in het werkgebied **Globalisatiefuncties** **Functies**, selecteer de tegel **Belastingberekening** en kies **Toevoegen**.
 10. Selecteer een van de volgende functietypen:

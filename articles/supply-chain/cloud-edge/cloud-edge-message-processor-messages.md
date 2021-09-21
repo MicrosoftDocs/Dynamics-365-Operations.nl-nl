@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 76a3cc316da322c7997072c00780f2fc133bfd2a02274b1e53f5cd06cfb1277e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748854"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471639"
 ---
 # <a name="message-processor-messages"></a>Berichten van berichtenverwerker
 
@@ -44,7 +44,7 @@ Met de velden boven aan de pagina **Berichten van berichtenverwerker** kunt u sp
   - *In de wachtrij*: het bericht is gereed voor verwerking door de berichtenverwerker.
   - *Verwerkt*: het bericht is verwerkt door de berichtenverwerker.
   - *Geannuleerd*: het bericht is verwerkt, maar de verwerking is mislukt.
-- **Berichtinhoud**: Dit filter biedt de mogelijkheid voor een zoekopdracht in de volledige tekst van de berichtinhoud. (De inhoud van het bericht wordt niet in het raster getoond.) Het filter verwerkt de meeste speciale symbolen (zoals '-') als spaties en alle spatietekens als booleaanse OR-operators. Dit betekent dat als u bijvoorbeeld naar een specifieke `journalid`-waarde zoekt die gelijk is aan 'USMF-123456', het systeem alle berichten vindt met 'USMF' of '123456', wat een lange lijst kan zijn. Het is daarom beter om alleen '123456' in te voeren, omdat dat meer specifieke resultaten oplevert.
+- **Berichtinhoud**: Dit filter biedt de mogelijkheid voor een zoekopdracht in de volledige tekst van de berichtinhoud. (De inhoud van het bericht wordt niet in het raster getoond.) Het filter verwerkt de meeste speciale symbolen (zoals '-') als spaties en alle spatietekens als booleaanse OR-operators. Dit betekent dat als u bijvoorbeeld naar een specifieke waarde voor `journalid` zoekt die gelijk is aan 'USMF-123456', het systeem alle berichten vindt met 'USMF' of '123456', wat een lange lijst kan zijn. Het is daarom beter om alleen '123456' in te voeren, omdat dat meer specifieke resultaten oplevert.
 
 ## <a name="example-message-type-request-inventory-adjustment-financial-update"></a>Voorbeeld berichttype: Financiële update voorraadcorrectie aanvragen
 
@@ -65,7 +65,7 @@ De werkbalk op het tabblad **Logboek** bevat de volgende knoppen:
 
 ## <a name="message-processor-batch-job"></a>De batchtaak Berichtenverwerker
 
-Wanneer u een cloud- en edge-implementatie hebt, wordt de batchtaak *Berichtenverwerker* automatisch aangeroepen wanneer een nieuw bericht wordt gemaakt voor verwerking. U zou daarom deze taak niet handmatig hoeven te plannen.
+Wanneer u een gedistribueerde hybride topologie hebt met schaaleenheden hebt, wordt de batchtaak *Berichtenverwerker* automatisch aangeroepen wanneer een nieuw bericht wordt gemaakt voor verwerking. U zou daarom deze taak niet handmatig hoeven te plannen.
 
 U kunt de batchtaak zo nodig openen door te gaan naar **Systeembeheer > Berichtverwerker > Berichtenverwerker**.
 
@@ -92,7 +92,7 @@ In dit voorbeeld wordt **Als zich een zakelijke gebeurtenis voordoet** gebruikt 
 
 1. In de stap **Als zich een zakelijke gebeurtenis voordoet** kunt u het **Exemplaar** van de hub zoeken of invoeren, met daarna de **Categorie** en de **Zakelijke gebeurtenis** *Bericht van berichtenverwerker verwerkt*, zoals in de volgende afbeelding wordt weergegeven.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Stap Als zich een zakelijke gebeurtenis voordoet in Power Automate.":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate wanneer zich een zakelijke gebeurtenis voordoet.":::
 
 1. Voer voor de stap **JSON parseren** een **Schema** in dat de uitgebreide velden definieert. U kunt de optie *Schema downloaden* op de pagina **Catalogus met zakelijke gebeurtenissen** in Supply Chain Management gebruiken of u kunt beginnen door de voorbeeldtekst voor een schema te plakken. Deze voorbeeldtekst vindt u na de volgende afbeelding.
 

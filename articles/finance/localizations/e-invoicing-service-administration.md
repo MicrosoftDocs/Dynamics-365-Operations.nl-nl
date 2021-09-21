@@ -2,7 +2,7 @@
 title: Beheeronderdelen voor elektronische facturering
 description: Dit onderwerp biedt informatie over de onderdelen die zijn gerelateerd aan het beheer van de functie voor elektronische facturering.
 author: gionoder
-ms.date: 04/29/2021
+ms.date: 08/31/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6582a0a9eda19fe69ead853ea5d79d763afcb8a468717fde84a32146fd0f79af
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d187e8a03552258099d7021ff056d0726ea60ca1
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721721"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463876"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Beheeronderdelen voor elektronische facturering
 
@@ -31,14 +31,14 @@ Dit onderwerp biedt informatie over de onderdelen die zijn gerelateerd aan het b
 
 ## <a name="azure"></a>Azure
 
-Gebruik Microsoft Azure om de geheimen voor de Key Vault en het opslagaccount te maken. Gebruik de geheimen vervolgens in de configuratie van Elektronische facturering.
+Gebruik Microsoft Azure om de geheimen voor de sleutelkluis aan te maken en een opslagaccount in te stellen. Gebruik vervolgens de geheimen van de sleutelkluis en het SAS-token van het opslagaccount in de configuratie van elektronische facturering.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
-Gebruik Microsoft Dynamics Lifecycle Services (LCS) om de microservices voor het LCS-implementatieproject in te schakelen.
+Gebruik Microsoft Dynamics Lifecycle Services (LCS) om de invoegtoepassing voor elektronische facturering voor het LCS-implementatieproject in te schakelen.
 
 > [!NOTE]
-> Voor de installatie van de microservice in LCS is ten minste een Tier 2 virtuele machine vereist. Zie [Omgevingsplanning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) voor meer informatie over omgevingsplanning.
+> Voor de installatie van de invoegtoepassingen in LCS is ten minste een **Tier 2-omgeving** vereist. Zie [Omgevingsplanning](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md) voor meer informatie over omgevingsplanning.
  
 
 ## <a name="regulatory-configuration-services"></a>Regulatory Configuration Services
@@ -53,20 +53,21 @@ Zie [Regulatory Configuration Services (RCS) - Globalisatiefuncties](rcs-globali
 
 Voordat u RCS kunt gebruiken voor het configureren van elektronische facturen, moet u RCS zo configureren dat communicatie met Elektronische facturering is toegestaan. U voltooit deze configuratie op het tabblad **Elektronische facturering** van de pagina **Parameters voor elektronische rapportage**.
 
-#### <a name="service-endpoint"></a>Service-eindpunt
+#### <a name="service-endpoint"></a><a id='svc-endpoint-uris'></a>Service-eindpunt
 
 Elektronische facturering is beschikbaar in verschillende Azure-datacentergeografieën. In de volgende tabel wordt de beschikbaarheid per regio vermeld.
 
-| Geografie Azure-datacenter |
-|----------------------------|
-| Verenigde Staten              |
-| Europa                     |
-| Verenigd Koninkrijk             |
-| Azië                       |
+
+| Datacenter Azure-geografie | URI van service-eindpunt                                                       |
+|----------------------------|----------------------------------------------------------------------------|
+| Verenigde Staten              | <p>https://gw.us-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.us-il109.gateway.prod.island.powerapps.com/electronicinvoicing</p> |
+| Europa                     | <p>https://gw.eu-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il103.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il104.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il105.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il106.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il107.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il108.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il109.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.eu-il110.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Verenigd Koninkrijk             | <p>https://gw.uk-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.uk-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
+| Azië                       | <p>https://gw.as-il101.gateway.prod.island.powerapps.com/electronicinvoicing/</p><p>https://gw.as-il102.gateway.prod.island.powerapps.com/electronicinvoicing/</p> |
 
 ### <a name="service-environments"></a>Serviceomgevingen
 
-Serviceomgevingen zijn logische partities die worden gemaakt om de uitvoering van de elektronische factureringsfuncties in Elektronische facturering te ondersteunen. De beveiligingsrechten en digitale certificaten en de governance (toegangsmachtigingen) moeten worden geconfigureerd op het niveau van de serviceomgeving.
+Serviceomgevingen zijn logische partities die worden aangemaakt om de uitvoering van de globalisatiefuncties in Elektronische facturering te ondersteunen. De beveiligingsrechten en digitale certificaten en de governance (toegangsmachtigingen) moeten worden geconfigureerd op het niveau van de serviceomgeving.
 
 Klanten kunnen net zo veel serviceomgevingen maken als zij willen. Alle serviceomgevingen die door een klant worden gemaakt, zijn onafhankelijk van elkaar.
 
@@ -84,8 +85,8 @@ Serviceomgevingen kunnen worden beheerd via de status. De mogelijke opties zijn:
 
 De service voor elektronische facturering is verantwoordelijk voor het opslaan van al uw bedrijfsgegevens in de Azure-resources die uw bedrijf bezit. Om er zeker van te zijn dat de service correct werkt en dat alle bedrijfsgegevens die nodig zijn voor en die worden gegenereerd door Elektronische facturering correct worden gebruikt, moet u twee hoofd Azure-resources maken:
 
-- Een Azure-opslagaccount (Blob-opslag) waarin elektronische facturen worden opgeslagen
-- Een Azure Key Vault voor de opslag van certificaten en de URI (Uniform Resource Identifier) van het opslagaccount
+- Een Azure Storage-account (Blob storage) waarin elektronische documenten worden opgeslagen, waaronder elektronische facturen, resultaten van documenttransformaties en antwoorden van externe webservices.
+- Een Azure Key Vault waarin certificaten en de URI (Uniform Resource Identifier) van het Storage-account worden opgeslagen (SAS-token).
 
 
 Een speciale Key Vault en een opslagaccount van de klant moeten specifiek worden toegewezen voor gebruik met Elektronische facturering. Zie [Een Azure-opslagaccount en Key Vault maken](e-invoicing-create-azure-storage-account-key-vault.md) voor meer informatie.
@@ -122,13 +123,13 @@ Als u de communicatie tussen Finance en Supply Chain Management en Elektronische
 
 Het service-eindpunt is de URL waar Elektronische facturering zich bevindt. Voordat elektronische facturen kunnen worden uitgegeven, moet het service-eindpunt worden geconfigureerd in Finance en Supply Chain Management om communicatie met de service mogelijk te maken.
 
-Om het service-eindpunt te configureren, gaat u naar **Organisatiebeheer \> Instellen \> Parameter voor elektronisch document** en daarna voert u op het tabblad **Indieningsservices** in het veld **URL van Elektronische facturering** de URL in, zoals wordt beschreven in de tabel uit de sectie **Service-eindpunt**.
+Om het service-eindpunt te configureren, gaat u naar **Organisatiebeheer \> Instellen \> Parameters voor elektronische documenten** en daarna voert u op het tabblad **Elektronisch factureren** in het veld **URL eindpunt** de betreffende URL in uit de tabel in het gedeelte [Service-eindpunt](#svc-endpoint-uris) eerder in dit onderwerp.
 
 #### <a name="environments"></a>Omgevingen
 
 De omgevingsnaam die wordt ingevoerd in Finance en Supply Chain Management, verwijst naar de naam van de omgeving die in RCS wordt gemaakt en gepubliceerd naar Elektronische facturering.
 
-De omgeving moet worden geconfigureerd op het tabblad **Indieningsservices** van de pagina **Parameter voor elektronisch document**, zodat elk verzoek om elektronische facturen uit te geven de omgeving bevat waarin Elektronische facturering kan bepalen welke functie voor elektronische facturering het verzoek moet verwerken.
+De omgeving moet worden geconfigureerd op het tabblad **Elektronische facturering** van de pagina **Parameters elektronische documenten**. Op die manier bevat elke aanvraag voor het uitgeven van elektronische facturen de omgeving waarin elektronische facturering kan bepalen welke elektronische factureringsfunctie de aanvraag moet verwerken.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

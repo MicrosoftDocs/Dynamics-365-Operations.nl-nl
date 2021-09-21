@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 71e651afc83e0c2ea147a4657c0f2ce1865ec50efcd932127b4918266d3d7cd8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0f322dd63cb2dee6a9048e6ed086dc075cc0e1b9
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778671"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474839"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Hoofdplanning met vraagprognoses
 
@@ -137,32 +137,85 @@ In dit geval worden, als u de prognoseplanning op 1 januari uitvoert, de vraagpr
 
 #### <a name="transactions--reduction-key"></a>Transacties - reductiesleutel
 
-Als u **Transacties - reductiesleutel** selecteert, worden de prognosebehoeften gereduceerd door de transacties die plaatsvinden tijdens de perioden die worden gedefinieerd door de reductiesleutel.
+Als u het veld **Gebruikte methode om prognosebehoeften te verminderen** instelt op *Transacties - reductiesleutel*, worden de prognosevereisten verminderd met de gekwalificeerde vraagtransacties die plaatsvinden tijdens de perioden die worden gedefinieerd door de reductiesleutel.
+
+De gekwalificeerde vraag wordt gedefinieerd door het veld **Prognose verlagen per** op de pagina **Behoefteplanningsgroepen**. Als u het veld **Prognose verminderen per** instelt op *Orders*, worden alleen verkoopordertransacties als gekwalificeerde vraag beschouwd. Als u het veld instelt op *Alle transacties*, worden alle niet-intercompany-transacties voor uitgifte voorraad als gekwalificeerde vraag beschouwd. Als Intercompany-verkooporders ook als gekwalificeerde vraag moeten worden beschouwd, stel dan de optie **Intercompany-orders opnemen** in op *Ja*.
+
+Prognosereductie begint met de eerste (vroegste) vraagprognoserecord in de reductiesleutelperiode. Als de hoeveelheid gekwalificeerde voorraadtransacties hoger ligt dan de hoeveelheid vraagprognoseregels in dezelfde reductiesleutelperiode, wordt het saldo van de hoeveelheid voorraadtransacties gebruikt om de vraagprognosehoeveelheid in de vorige periode te verminderen (als er niet-geconsumeerde prognose is).
+
+Als er geen niet-geconsumeerde prognose overblijft in de vorige reductiesleutelperiode, wordt het saldo van de hoeveelheid voorraadtransacties gebruikt om de prognosehoeveelheid in de volgende maand te verminderen (als er niet-geconsumeerde prognose is).
+
+De waarde van het veld **Percentage** op de reductiesleutelregels wordt niet gebruikt wanneer het veld **Gebruikte methode om prognosebehoeften te verminderen** wordt ingesteld op *Transacties - reductiesleutel*. Alleen de datums worden gebruikt om de reductiesleutelperiode te definiëren.
+
+> [!NOTE]
+> Prognoses die op of voor de datum van vandaag worden geboekt, worden genegeerd en worden niet gebruikt om geplande orders aan te maken. Als uw vraagprognose voor de maand bijvoorbeeld op 1 januari wordt gegenereerd en u op 2 januari de hoofdplanning maakt die vraagprognose bevat, negeert de berekening de vraagprognoseregel met 1 januari.
 
 ##### <a name="example-transactions--reduction-key"></a>Voorbeeld: Transacties - reductiesleutel
 
 In dit voorbeeld wordt weergegeven hoe werkelijke orders, die plaatsvinden tijdens de perioden die zijn gedefinieerd door de reductiesleutel, vraagprognosebehoeften reduceren.
 
-Voor dit voorbeeld selecteert u **Transacties - reductiesleutel** in het veld **Methode gebruikt voor het reduceren van prognosebehoeften** op de pagina **Hoofdplannen**.
+[![Werkelijke orders en prognoses voordat de hoofdplanning wordt uitgevoerd.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
 
-Op 1 januari waren er de volgende verkooporders.
+Voor dit voorbeeld selecteert u *Transacties - reductiesleutel* in het veld **Methode gebruikt voor het reduceren van prognosebehoeften** op de pagina **Hoofdplannen**.
 
-| Maand    | Besteld aantal stuks |
-|----------|--------------------------|
-| januari  | 956                      |
-| februari | 1.176                    |
-| maart    | 451                      |
-| april    | 119                      |
+De volgende vraagprognoseregels bestaan op 1 april.
 
-Als u dezelfde vraagprognose (van het vorige voorbeeld) van 1000 stuks per maand gebruikt, worden de volgende behoeftehoeveelheden naar het hoofdplan overgebracht.
+| Datum     | Aantal stuks voorspeld |
+|----------|-----------------------------|
+| 5 april  | 100                         |
+| 12 april | 100                         |
+| 19 april | 100                         |
+| 26 april | 100                         |
+| mei 3    | 100                         |
+| mei 10   | 100                         |
+| mei 17   | 100                         |
 
-| Maand                | Benodigd aantal stuks |
-|----------------------|---------------------------|
-| januari              | 44                        |
-| Februari             | 0                         |
-| maart                | 549                       |
-| april                | 881                       |
-| Mei tot en met december | 1.000                     |
+De volgende verkooporderregels bestaan in april.
+
+| Datum     | Aangevraagd aantal stuks |
+|----------|----------------------------|
+| 27 april | 240                        |
+
+[![Gepland aanbod dat is gegenereerd op basis van orders in april.](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
+
+De volgende vereiste hoeveelheden worden naar het hoofdplan overgebracht wanneer de hoofdplanning op 1 april wordt uitgevoerd. Zoals u ziet, zijn de prognosetransacties voor april verminderd met de vraaghoeveelheid van 240 in een reeks, te beginnen bij de eerste van die transacties.
+
+| Datum     | Benodigd aantal stuks |
+|----------|---------------------------|
+| 5 april  | 0                         |
+| 12 april | 0                         |
+| 19 april | 60                        |
+| 26 april | 100                       |
+| 27 april | 240                       |
+| mei 3    | 100                       |
+| mei 10   | 100                       |
+| mei 17   | 100                       |
+
+Stel nu dat er nieuwe orders zijn geïmporteerd voor de periode van mei.
+
+De volgende verkooporderregels bestaan in mei.
+
+| Datum   | Aangevraagd aantal stuks |
+|--------|----------------------------|
+| mei 4  | 80                         |
+| mei 11 | 130                        |
+
+[![Gepland aanbod dat is gegenereerd op basis van orders in april en mei.](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
+
+De volgende vereiste hoeveelheden worden naar het hoofdplan overgebracht wanneer de hoofdplanning op 1 april wordt uitgevoerd. Zoals u ziet, zijn de prognosetransacties voor april verminderd met de vraaghoeveelheid van 240 in een reeks, te beginnen bij de eerste van die transacties. De prognosetransacties voor mei werden echter met een totaal van 210 verlaagd, te beginnen bij de eerste vraagprognosetransactie in mei. De totalen per periode blijven echter behouden (400 in april en 300 in mei).
+
+| Datum     | Benodigd aantal stuks |
+|----------|---------------------------|
+| 5 april  | 0                         |
+| 12 april | 0                         |
+| 19 april | 60                        |
+| 26 april | 100                       |
+| 27 april | 240                       |
+| mei 3    | 0                         |
+| mei 4    | 80                        |
+| mei 10   | 0                         |
+| mei 11   | 130                       |
+| mei 17   | 90                        |
 
 #### <a name="transactions--dynamic-period"></a>Transacties - dynamische periode
 

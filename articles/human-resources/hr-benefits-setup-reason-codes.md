@@ -1,8 +1,8 @@
 ---
 title: Redencodes instellen
 description: Dynamics 365 Human Resources gebruikt redencodes om uit te leggen waarom de vergoedingen van een werknemer veranderen.
-author: andreabichsel
-ms.date: 01/25/2021
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd7c5a35a6d4b40eb376eee2580af681f7bfd7f8f93aab8aad67f238fc40470b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5f89d6158f351e30376fc3f80c793f29734cdcbb
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732676"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431337"
 ---
 # <a name="set-up-reason-codes"></a>Redencodes instellen
 
@@ -29,11 +29,11 @@ ms.locfileid: "6732676"
 Dynamics 365 Human Resources gebruikt redencodes om uit te leggen waarom de vergoedingen van een werknemer veranderen.
 
 > [!NOTE]
-> Met ingang van januari 2021 migreren redencodes naar het werkgebied **Personeelsbeheer** in plaats van het werkgebied **Vergoedingenbeheer**. Meer informatie vindt u in [Redencodes handmatig migreren naar Personeelsbeheer](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).
+> Met ingang van januari 2021 zijn redencodes gemigreerd naar het werkgebied **Personeelsbeheer** in plaats van het werkgebied **Vergoedingenbeheer**. Meer informatie vindt u in [Redencodes handmatig migreren naar Personeelsbeheer](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).
 
 ## <a name="create-reason-codes"></a>Redencodes maken
 
-1. Selecteer in het werkgebied **Personeelsbeheer** (of het werkgebied **Vergoedingenbeheer** als uw redencodes nog niet zijn gemigreerd), de optie **Koppelingen** en selecteer vervolgens **Redencodes**.
+1. Selecteer in het werkgebied **Personeelsbeheer** (of het werkgebied **Vergoedingenbeheer** als uw redencodes niet zijn gemigreerd), de optie **Koppelingen** en selecteer vervolgens **Redencodes**.
 
 2. Selecteer **Nieuw**.
 
@@ -44,13 +44,13 @@ Dynamics 365 Human Resources gebruikt redencodes om uit te leggen waarom de verg
    | **Redencode** | Een unieke naam om de reden te identificeren die aangeeft waarom een werknemer een inschrijving van een vergoedingsplan wijzigt. |
    | **Beschrijving** | Een beschrijving van de redencode. |
 
-4. Stel onder **Toepasselijke scenario's** de optie **Vergoedingenbeheer** in op **Ja**. (Niet van toepassing als uw redencodes nog niet zijn gemigreerd naar het werkgebied **Personeelsbeheer**.)
+4. Stel onder **Toepasselijke scenario's** de optie **Vergoedingenbeheer** in op **Ja**. (Niet van toepassing als uw redencodes niet zijn gemigreerd naar het werkgebied **Personeelsbeheer**.)
 
 5. Selecteer **Opslaan**.
 
 ## <a name="manually-migrate-reason-codes-to-personnel-management"></a>Redencodes handmatig migreren naar Personeelsbeheer
 
-In januari 2021 migreren redencodes naar het werkgebied **Personeelsbeheer** in plaats van het werkgebied **Vergoedingenbeheer**. De meeste redencodegegevens worden automatisch gemigreerd in uw omgeving. Sommige redencodegegevens worden mogelijk niet gemigreerd. Redencodes hebben nu bijvoorbeeld een maximum van 15 tekens, waardoor redencodes langer dan 15 tekens niet automatisch worden gemigreerd.
+In januari 2021 zijn redencodes gemigreerd naar het werkgebied **Personeelsbeheer** in plaats van het werkgebied **Vergoedingenbeheer**. De meeste redencodegegevens worden automatisch gemigreerd in uw omgeving. Sommige redencodegegevens worden mogelijk niet gemigreerd. Redencodes hebben nu bijvoorbeeld een maximum van 15 tekens, waardoor redencodes langer dan 15 tekens niet automatisch worden gemigreerd.
 
 Er wordt een banner weergegeven op de pagina **Koppelingen** van het werkgebied **Vergoedingenbeheer** die u op de hoogte stelt van de migratie en of er mogelijk redencodes niet zijn gemigreerd.
 

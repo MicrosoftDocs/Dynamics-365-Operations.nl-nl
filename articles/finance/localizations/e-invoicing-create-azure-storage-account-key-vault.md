@@ -1,8 +1,8 @@
 ---
-title: Een Azure-opslagaccount en een sleutelkluis maken
+title: Een Azure-opslagaccount en een sleutelkluis aanmaken
 description: In dit onderwerp wordt uitgelegd hoe u een Azure-opslagaccount en een sleutelkluis maakt.
 author: gionoder
-ms.date: 04/29/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a0fe265c75138f3ecfbf08de3c30b2c824463afc35414986e21c4a27bf84bb61
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 23fec7a00d800719e1a7d2c90f9d0977d56be038
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770531"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463837"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Een Azure-opslagaccount en een sleutelkluis maken
 
@@ -43,9 +43,9 @@ In dit onderwerp voert u twee belangrijke stappen uit:
 ## <a name="set-up-the-azure-storage-account-to-get-the-storage-account-uri"></a>Stel het Azure-opslagaccount in om de URI van het opslagaccount op te halen
 
 1. Open het opslagaccount dat u wilt gebruiken met Elektronische facturering.
-2. Ga naar **Blob-service** \> **Containers** en maak een nieuwe container.
+2. Ga naar **Gegevensopslag** > **Containers** en maak een nieuwe container aan.
 3. Voer een naam in voor de container en stel het veld **Openbaar toegangsniveau** in op **Privé (geen anonieme toegang)**.
-4. Open de container en ga naar **instellingen \> Toegangsbeleid**.
+4. Open de container en ga naar **Instellingen** > **Toegangsbeleid**.
 5. Selecteer **Beleid toevoegen** om een opgeslagen toegangsbeleid toe te voegen.
 6. Stel de velden **ID** en **Machtigingen** naar wens in. In het veld **Machtigingen** moet u alle machtigingen selecteren.
 
@@ -53,11 +53,11 @@ In dit onderwerp voert u twee belangrijke stappen uit:
 
 7. Voer de begin- en vervaldatum in. De vervaldatum moet in de toekomst liggen.
 8. Selecteer **OK** om het beleid op te slaan en sla uw wijzigingen vervolgens op in de container.
-9. Ga terug naar het opslagaccount en open **Opslagverkenner (Preview)**.
-10. Klik met de rechtermuisknop op de container en selecteer **Shared Access Signature ophalen**.
-11. Kopieer in het dialoogvenster **Shared Access Signature** de waarde in het veld **URI** en sla deze op. Deze waarde wordt in de volgende procedure gebruikt en wordt de *Shared Access Signature-URI* genoemd.
-
-    ![De URI-waarde selecteren en kopiëren.](media/e-Invoicing-services-create-azure-resources-select-and-copy-uri.png)
+9. Ga naar **Instellingen** > **Gedeelde toegangstokens** en stel de veldwaarden in. 
+10. Voer de begin- en einddatum in. De einddatum moet in de toekomst liggen.
+11. Selecteer in het veld **Machtigingen** de volgende machtigingen: **Lezen**, **Toevoegen**, **Aanmaken**, **Schrijven**, **Verwijderen** en **Opsommen**. 
+12. Selecteer **HET SAS-token en de URL genereren**.
+13. Kopieer de waarde en sla deze op in het veld **Blob SAS-URL**. Deze waarde wordt in de volgende procedure gebruikt en wordt de *Shared Access Signature-URI* genoemd.
 
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Stel de sleutelkluis in om de URI van het opslagaccount op te slaan
 
@@ -65,7 +65,7 @@ In dit onderwerp voert u twee belangrijke stappen uit:
 2. Ga naar **instellingen** \> **Geheimen** en selecteer **Genereren/importeren** om een nieuw geheim te maken.
 3. Selecteer op de pagina **Een geheim maken** in het veld **Opties voor uploaden** de optie **Handmatig**.
 4. Voer de naam van het geheim in. Deze naam wordt gebruikt tijdens de installatie van de service in Regulatory Configuration Service (RCS) en wordt de *geheime naam van de sleutelkluis* genoemd.
-5. Selecteer in het veld **Waarde** de **Shared Access Signature URI** en selecteer **Maken**.
+5. Geef in het veld **Waarde** de URI voor de Shared Acess Signature op die u hebt gekopieerd in de vorige procedure en selecteer Vervolgens **Aanmaken**.
 6. Stel het toegangsbeleid in om Elektronische facturering het juiste niveau van beveiligde toegang te verlenen tot het geheim dat u hebt gemaakt. Ga naar **Instellingen \> Toegangsbeleid** en selecteer **Toegangsbeleid toevoegen**.
 7. Stel de geheime machtigingen voor de bewerkingen **Get** en **List** in.
 
@@ -77,7 +77,7 @@ In dit onderwerp voert u twee belangrijke stappen uit:
 
 9. Selecteer **Geen geselecteerd** in het veld **Principal selecteren**.
 10. Selecteer in het dialoogvenster **Principal** de principal door **e-Factureringsservice** toe te voegen.
-11. Selecteer **Toevoegen** en selecteer **Sleutelkluiswijzigingen opslaan**.
+11. Selecteer **Toevoegen** en vervolgens **Opslaan**.
 12. Kopieer op de pagina **Overzicht** de **DNS-naam**-waarde voor de sleutelkluis. Deze waarde wordt gebruikt tijdens de installatie van de service in RCS en wordt de *sleutel-kluis-URI* genoemd.
 
 > [!NOTE]

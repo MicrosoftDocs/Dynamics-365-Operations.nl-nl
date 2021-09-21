@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393518"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441160"
 ---
 # <a name="provision-human-resources"></a>Human Resources inrichten
 
@@ -43,6 +43,11 @@ Voordat u een nieuwe productieomgeving inricht, moet aan de volgende voorwaarden
 Voordat u uw eerste sandbox- of productieomgeving inricht, kunt u een [Human Resources-proefomgeving](https://go.microsoft.com/fwlink/p/?LinkId=2115962) inrichten om de Human Resources-functionaliteit te valideren. Proefomgevingen bevatten fictieve gegevens die kunnen worden gebruikt om het programma op een veilige manier te verkennen. Hoewel een proefomgeving eigendom is van de gebruiker die hierom heeft verzocht, kunnen andere gebruikers worden uitgenodigd via de systeembeheerervaring voor Human Resources. 
 
 Proefomgevingen zijn niet bedoeld als productieomgevingen. Proefomgevingen zijn beperkt tot een periode van 60 dagen. Wanneer een proefperiode verloopt, worden de omgeving en alle gegevens erin permanent verwijderd. De omgeving kan niet worden geconverteerd naar een sandbox of een productieomgeving. Nadat de bestaande omgeving is verlopen, kunt u zich aanmelden voor een nieuwe proefomgeving.
+
+Bij het aanmaken van een testomgeving voor Human Resources wordt ook een testomgeving aangemaakt voor Power Apps voor de tenant, die wordt gekoppeld aan de Human Resources-omgeving. De Power Apps-omgeving, met de naam TestDrive, heeft dezelfde testperiode als de Human Resources-omgeving.
+
+> [!NOTE]
+> Het inrichten van een testomgeving voor Human Resources mislukt als de geverifieerde gebruiker niet over machtigingen voor het aanmaken van testomgevingen voor Power Apps beschikt. De gebruiker moet zijn opgenomen in de gebruikersgroep die testomgevingen kan aanmaken in het Power Platform-beheercentrum. Raadpleeg [Beheren wie omgevingen in het Power Platform-beheercentrum kan aanmaken](//power-platform/admin/control-environment-creation) voor meer informatie.
 
 ## <a name="plan-human-resources-environments"></a>Human Resources-omgevingen plannen
 
@@ -69,7 +74,7 @@ Als u LCS wilt gebruiken om Human Resources-omgevingen te beheren, moet u eerst 
 1. Meld u aan bij [LCS](https://lcs.dynamics.com/Logon/Index) met de account waarmee u zich hebt geabonneerd op Human Resources.
 
    > [!NOTE]
-   > Om te zorgen voor een goede inrichting, moet de account waarmee u de Human Resources-omgeving inricht zijn toegewezen aan de rol **Systeembeheerder** of **Systeemaanpasser** in de Power Apps-omgeving die is gekoppeld aan de Human Resources-omgeving. Meer informatie over het toewijzen van beveiligingsrollen aan gebruikers in Power Platform vindt u in [Beveiliging van gebruikers configureren voor bronnen](/power-platform/admin/database-security).
+   > Om te zorgen voor een goede inrichting, moet de account waarmee u de Human Resources-omgeving inricht zijn toegewezen aan de rol **Systeembeheerder** of **Systeemaanpasser** in de Power Apps-omgeving die is gekoppeld aan de Human Resources-omgeving. Raadpleeg voor meer informatie over het toewijzen van beveiligingsrollen aan gebruikers in het Power Platform [Beveiliging van gebruikers configureren voor bronnen](/power-platform/admin/database-security).
 
 2. Selecteer het plusteken (**+**) om een project te maken.
 

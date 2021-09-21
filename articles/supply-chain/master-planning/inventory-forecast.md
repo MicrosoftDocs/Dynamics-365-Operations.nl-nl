@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
-ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0919706ddcc70fecd15df6bf1cbdd58fe9a8e337b2d45cd61a4fb9d821e4114
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: b9c82f28dcc7ebd223b2483ca257ba934024d755
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757801"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475079"
 ---
 # <a name="inventory-forecasts"></a>Voorraadprognoses
 
@@ -94,7 +94,7 @@ In de volgende tabel worden de opdrachten beschreven die beschikbaar zijn op de 
 
 | Opdracht | Beschrijving |
 |---|---|
-| Prognose toewijzen | Als u een toewijzingsmethode gebruikt, genereert u de afzonderlijke schemaregels voor de prognosetransactie. De hoeveelheid van de regel wordt vervolgens verdeeld op datum (op basis van de geselecteerde tijdsintervallen), hoeveelheid en bedrag voor de hele periode. |
+| Prognose toewijzen | Als u een toewijzingsmethode gebruikt, genereert u de afzonderlijke schemaregels voor de prognosetransactie. De hoeveelheid van de regel wordt vervolgens verdeeld op datum (op basis van de geselecteerde tijdsintervallen), hoeveelheid en bedrag voor de hele periode. (Zie de sectie [Prognose toewijzen](#allocate-forecast) verderop in dit onderwerp.) |
 | Bulkupdate | Open de pagina **Prognosetransacties bewerken**. (Zie het gedeelte [Prognosetransacties groepsgewijs bijwerken](#bulk-update) verderop in dit onderwerp.) |
 | Voorraadprognose | Open een weergave van de pagina **Voorraadprognose** die is gefilterd op de geselecteerde combinatie van artikel/model. (Zie het gedeelte [Voorraadprognose](#inventory-forecast) verderop in dit onderwerp.) |
 | Artikelbehoefte maken | Open een dialoogvenster waarin u artikelbehoeften en verkooporder- of artikeljournaalregels kunt maken voor projectgerelateerde prognosetransacties. Hoewel deze opdracht beschikbaar is voor zowel aanbodprognoseregels als vraagprognoseregels, kan deze niet worden gebruikt op de pagina **Aanbodprognose**. |
@@ -201,7 +201,7 @@ In de volgende tabel worden de opdrachten beschreven die beschikbaar zijn op de 
 
 | Opdracht | Beschrijving |
 |---|---|
-| Prognose toewijzen | Als u een toewijzingsmethode gebruikt, genereert u de afzonderlijke schemaregels voor de prognosetransactie. De hoeveelheid van de regel wordt vervolgens verdeeld op datum (op basis van de geselecteerde tijdsintervallen), hoeveelheid en bedrag voor de hele periode. |
+| Prognose toewijzen | Als u een toewijzingsmethode gebruikt, genereert u de afzonderlijke schemaregels voor de prognosetransactie. De hoeveelheid van de regel wordt vervolgens verdeeld op datum (op basis van de geselecteerde tijdsintervallen), hoeveelheid en bedrag voor de hele periode. (Zie de sectie [Prognose toewijzen](#allocate-forecast) verderop in dit onderwerp.)|
 | Bulkupdate | Open de pagina **Prognosetransacties bewerken**. (Zie het gedeelte [Prognosetransacties groepsgewijs bijwerken](#bulk-update) verderop in dit onderwerp.) |
 | Voorraadprognose | Open een weergave van de pagina **Voorraadprognose** die is gefilterd op de geselecteerde combinatie van artikel/model. (Zie het gedeelte [Voorraadprognose](#inventory-forecast) verderop in dit onderwerp.) |
 | Artikelbehoefte maken | Open een dialoogvenster waarin u artikelbehoeften en verkooporder- of artikeljournaalregels kunt maken voor projectgerelateerde prognosetransacties. |
@@ -296,7 +296,7 @@ Op het tabblad **Voorraaddimensies** worden alle waarden van voorraaddimensies w
 
 ### <a name="the-allocation-grid-on-the-demand-forecast-page"></a>Het raster Toewijzing van de pagina Vraagprognose
 
-Als u een artikeltoewijzingssleutel gebruikt of als u een artikelprognose voor een of meer toekomstige perioden hebt ingevoerd, kunt u de prognose toewijzen door **Prognose toewijzen** op de werkbalk op het tabblad **Overzicht** te selecteren. De hoeveelheid wordt vervolgens verdeeld op de manier die wordt aangegeven door de regels in het raster **Toewijzing**.
+Als u een artikeltoewijzingssleutel gebruikt of als u een artikelprognose voor een of meer toekomstige perioden hebt ingevoerd, kunt u de prognose toewijzen door **Prognose toewijzen** op de werkbalk op het tabblad **Overzicht** te selecteren. De hoeveelheid wordt vervolgens verdeeld op de manier die wordt aangegeven door de regels in het raster **Toewijzing**. (Zie de sectie [Prognose toewijzen](#allocate-forecast) verderop in dit onderwerp.)
 
 ## <a name="inventory-forecast"></a><a name="inventory-forecast"></a>Voorraadprognose
 
@@ -328,6 +328,25 @@ In de volgende tabel worden de velden in het raster op de pagina **Voorraadprogn
 | **Substuklijst** | Het stuklijstnummer van een bepaalde substuklijst. |
 | **Subroute** | Het routenummer van een bepaalde subroute. |
 | (Overige dimensies) | Extra dimensies kunnen als kolommen in het raster worden weergegeven. Selecteer **Voorraad \> Dimensies weergeven** in het actievenster om de extra dimensies te selecteren die worden weergegeven. |
+
+## <a name="allocate-forecast"></a><a name="allocate-forecast"></a>Prognose toewijzen
+
+Gebruik de volgende procedure om geselecteerde prognosetransactieregels te verwerken. Wanneer u een prognose toewijst, wordt de hoeveelheid verdeeld op basis van de regels in het **toewijzingsraster**.
+
+1. Afhankelijk van het type entiteit waarvoor u een prognose wilt maken en het prognosetype dat u wilt maken, opent u een pagina voor een aanbod- of vraagprognose, zoals wordt beschreven in [Prognoseregels weergeven en handmatig invoeren](#manual-entry).
+1. Selecteer op de pagina met vraag- of aanbodprognoseregels een prognoseregel en selecteer vervolgens op het tabblad **Overzicht** de optie **Prognose toewijzen** op de werkbalk.
+1. Stel in het dialoogvenster **Prognose toewijzen** de velden in die in de volgende tabel worden beschreven. (De waarde die u selecteert in het veld **Methode**, bepaalt of er andere velden beschikbaar zijn.)
+
+    | Veld | Beschrijving |
+    |---|---|
+    | methode | <p>Selecteer de methode die wordt gebruikt om de prognosetransactie toe te wijzen:</p><ul><li>**Geen** – Er vindt geen toewijzing plaats.</li><li>**Periode** – Prognose van dezelfde hoeveelheid voor elke periode. Als u deze waarde selecteert, geeft u een hoeveelheid op in het veld **Per** en een tijdseenheid in het veld **Eenheid**.</li><li>**Sleutel** – De prognosehoeveelheid wordt toegewezen aan de periodetoewijzingssleutel die u in het veld **Periodesleutel** opgeeft. U kunt deze methode gebruiken wanneer u rekening wilt houden met de seizoensverschillen.</li><ul>|
+    | Per | <p>Voer het aantal tijdsintervallen in de toekomst in waarover de prognose zich uitstrekt. Dit veld is alleen beschikbaar als u *Periode* selecteert in het veld **Methode**.</p><p>U selecteert bijvoorbeeld *Periode* in het veld **Methode**, voert *1* in het veld **Per** in en selecteert *Maanden* in het veld **Eenheid**. Geef vervolgens in het veld **Einde** een einddatum op die één jaar in de toekomst ligt. In dit geval wordt er wordt één prognoseregel gemaakt voor elke maand van het komende jaar op basis van het artikel en de hoeveelheid die worden opgegeven in de kopregel. |
+    | Eenheid | Selecteer de eenheid van het tijdsinterval: *Dagen*, *Maanden* of *Jaren*. De toewijzing komt dan overeen met het aantal dagen, maanden of jaren dat u opgeeft in het veld **Per**.|
+    | Periodesleutel | Geef de periodetoewijzingssleutel op die wordt gebruikt om de prognose toe te wijzen. Zie [Gegevenstoewijzing voor budgetplanning](../../finance/budgeting/budget-planning-data-allocation.md) voor meer informatie. |
+    | Einde | Geef de einddatum op die van toepassing is op uw instellingen in de velden **Per** en **Eenheid**. |
+
+1. Klik op **OK** om uw instellingen te bevestigen.
+1. U kunt de resultaten bekijken op het tabblad **Toewijzing** voor dezelfde regel.
 
 ## <a name="bulk-update-forecast-transactions"></a><a name="bulk-update"></a>Prognosetransacties groepsgewijs bijwerken
 
