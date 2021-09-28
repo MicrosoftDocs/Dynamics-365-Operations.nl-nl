@@ -1,8 +1,8 @@
 ---
 title: Verbeterde afhandeling van artikelen met batchtracering
-description: In dit onderwerp worden de verbeteringen beschreven die zijn aangebracht in de batchafhandeling van artikelen met batchtracering tijdens het proces voor boeken van overzichten.
+description: In dit onderwerp wordt de verbeterde afhandeling van artikelen met batchtracering tijdens het proces voor boeken van overzichten in Microsoft Dynamics 365 Commerce beschreven.
 author: josaw1
-ms.date: 11/04/2019
+ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,34 +15,41 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: e3bea1d73325596458bafd9f952e69809b174c386eb2c053daa0a2b5b4bed4de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739557"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485778"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Verbeterde afhandeling van artikelen met batchtracering
 
-
 [!include [banner](includes/banner.md)]
 
+In dit onderwerp wordt de verbeterde afhandeling van artikelen met batchtracering tijdens het proces voor boeken van overzichten in Microsoft Dynamics 365 Commerce beschreven.
 
-In Point of Sale (POS) kunnen op het moment van verkoop geen batchnummers worden vastgelegd voor artikelen met batchtracering. Voor specifieke configuraties wanneer de verkoop wordt geboekt in het hoofdkantoor via klantorders of het boeken van overzichten, verwacht het Microsoft Dynamics-systeem dat er geldige batchnummers zijn voor artikelen met batchtracering en dat deze worden gebruikt bij de facturering.
+In Dynamics 365 Commerce POS (Point of Sale) kunnen op het moment van verkoop geen batchnummers worden vastgelegd voor artikelen met batchtracering. Voor specifieke configuraties wanneer de verkoop wordt geboekt in Commerce Headquarters via klantorders of het boeken van overzichten, verwacht Commerce dat er geldige batchnummers bestaan voor artikelen met batchtracering en dat deze worden gebruikt bij de facturering.
 
-Als er geldige batchnummers beschikbaar zijn voor producten, worden deze gebruikt door de factureringsprocessen voor klantorder en verkooporder op basis van de overzichtboekingen. Anders kan het factureringsproces voor de klantorder niet worden geboekt en ontvangt de POS-gebruiker een foutmelding. De overzichtboeking gaat vervolgens naar een foutstatus. Deze foutstatus vindt ook plaats wanneer negatieve voorraad is ingeschakeld voor de producten.
+Als er geldige batchnummers beschikbaar zijn voor producten, worden deze op basis van de overzichtsboekingen gebruikt door de factureringsprocessen voor klant- en verkooporders. Als er geen geldige batchnummers beschikbaar zijn voor producten, kan het factureringsproces voor de klantorder niet worden geboekt en ontvangt de POS-gebruiker een foutbericht. De overzichtsboeking krijgt vervolgens een foutstatus, zelfs als negatieve voorraad is ingeschakeld voor de producten.
 
-Verbeteringen in Retail versie 10.0.4 en later zorgen dat wanneer negatieve voorraad is ingeschakeld voor artikelen met batchtracering, facturering van klantorder en verkooporder via overzichtboekingen niet worden geblokkeerd voor deze artikelen als de voorraad 0 (nul) is of er geen batchnummer beschikbaar is. Bij de nieuwe functionaliteit wordt een standaard batch-id gebruikt voor de verkoopregels wanneer er geen batchnummers beschikbaar zijn.
+Verbeteringen in Commerce zorgen ervoor dat als negatieve voorraad is ingeschakeld voor artikelen met batchtracering, de facturering van klantorders en verkooporders via overzichtsboekingen niet wordt geblokkeerd voor deze artikelen als de voorraad 0 (nul) is of er geen batchnummer beschikbaar is. In de verbeterde functionaliteit wordt een standaard batch-id gebruikt voor de verkoopregels wanneer er geen batchnummers beschikbaar zijn.
 
-Als u de standaard batch-id wilt definiëren die wordt gebruikt voor klantorders, gaat u op de pagina **Commerce-parameters** naar het tabblad **Klantorders** en stelt u op het sneltabblad **Order** het veld **Standaard batch-id** in.
+## <a name="define-the-default-batch-id-that-is-used-for-customer-orders"></a>De standaard batch-id definiëren die voor klantorders wordt gebruikt
 
-Als u de standaard batch-id wilt definiëren die wordt gebruikt voor de facturering van verkooporders op basis van overzichtboekingen, gaat u op de pagina **Commerce-parameters** naar het tabblad **Boeking** en stelt u op het sneltabblad **Voorraad bijwerken** het veld **Standaard batch-id** in.
+Ga als volgt te werk om de standaard batch-id te definiëren die voor klantorders wordt gebruikt.
+
+1. Ga in Commerce Headquarters naar **Retail en Commerce \> Instelling van hoofdkantoor \> Parameters \> Commerce-parameters**.
+1. Voer op het tabblad **Klantorders** op het sneltabblad **Order** een waarde in het veld **Standaard batch-id** in.
+
+## <a name="define-the-default-batch-id-that-is-used-for-sales-order-invoicing-through-statement-posting"></a>De standaard batch-id definiëren die wordt gebruikt voor het factureren van verkooporders via het boeken van overzichten
+
+Ga als volgt te werk om de standaard batch-id te definiëren die wordt gebruikt voor het factureren van verkooporders via overzichtsboekingen.
+
+1. Ga in Commerce Headquarters naar **Retail en Commerce \> Instelling van hoofdkantoor \> Parameters \> Commerce-parameters**.
+1. Voer op het tabblad **Boeking** op het sneltabblad **Voorraad bijwerken** een waarde in het veld **Standaard batch-id** in.
 
 > [!NOTE]
-> Deze functionaliteit is alleen beschikbaar wanneer geavanceerde magazijnfuncties zijn ingeschakeld voor het specifieke winkelmagazijn en de artikelen. In een latere versie wordt de functionaliteit ook ondersteund voor scenario's waarbij geavanceerd magazijnbeheer niet wordt gebruikt.
-
-> [!NOTE]
-> Ondersteuning voor de verbeterde verwerking van artikelen met batchtracering tijdens overzichtsboekingen voor niet-geavanceerde magazijnbeheerscenario's is geïntroduceerd in Retail versie 10.0.5.
-
+> - De functionaliteit Standaard batch-id is alleen beschikbaar wanneer geavanceerde magazijnfuncties zijn ingeschakeld voor het specifieke winkelmagazijn en de artikelen. In een latere versie wordt de functionaliteit voor standaard batch-id's ook ondersteund voor scenario's waarbij geavanceerd magazijnbeheer niet is ingeschakeld.
+> - Ondersteuning voor de verbeterde afhandeling van artikelen met batchtracering tijdens overzichtsboekingen voor niet-geavanceerde magazijnbeheerscenario's is geïntroduceerd in versie 10.0.5 van Commerce.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -80,8 +80,6 @@
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (augustus 2021)
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19 (juni 2021)
-                      href: get-started/whats-new-changed-10-0-19.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -450,6 +448,8 @@
                   href: accounts-receivable/tasks/review-collections-information.md
                 - name: Automatisering van incassoproces
                   href: accounts-receivable/collections-process-automate.md
+                - name: Parameters voor automatisering van incassoproces configureren
+                  href: accounts-receivable/config-paramtrs-collections-proc-automate.md
                 - name: Instellingen voor kredietbeheer
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Informatie voor het instellen van kredietbeheer
@@ -1635,7 +1635,9 @@
                 - name: Btw-overzicht
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Internationale dienstverlening (rapport)
-                  href: localizations/emea-aut-cross-border-services-report.md
+                  href: localizations/emea-aut-vat-statement-details.md
+                - name: Intrastat-rapport
+                  href: localizations/emea-aut-intrastat.md
                 - name: Inkoopheffingen
                   href: localizations/emea-aut-purchase-duties.md
             - name: Bahrein
@@ -1668,6 +1670,8 @@
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: PRODCOM instellen en onderhouden
                   href: localizations/emea-bel-prodcom-report.md
+                - name: Jaarlijks btw-overzicht voor binnenlandse verkopen
+                  href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
             - name: Brazilië
               items:
                 - name: Overzicht Brazilië
@@ -2974,6 +2978,8 @@
                   href: localizations/tasks/mx-00010-e-invoicing-cfdi.md
                 - name: Elektronische facturen
                   href: localizations/latam-mex-CFDI-electronic-invoices.md
+                - name: Aanvulling op vrachtbrief (Carta de Porte) (versie 1.0)
+                  href: localizations/latam-mex-carta-de-porte.md
                 - name: Overzichten van elektronische grootboekrekening
                   href: localizations/latam-mex-electronic-ledger-accounting-statements.md
                 - name: Btw-registratie-id's voor Mexicaanse rechtspersonen invoeren
@@ -2994,12 +3000,6 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: Leveranciersregistratie-id's
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
-            - name: Oman
-              items:
-                - name: Overzicht Oman
-                  href: localizations/oman.md
-                - name: Btw-aangifte voor Oman (OM-00003)
-                  href: localizations/emea-oma-vat-declaration.md
             - name: Nederland
               items:
                 - name: Overzicht Nederland
@@ -3016,6 +3016,10 @@
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: ICL-lijst
                   href: localizations/emea-nl-EU-sales-list.md
+            - name: Nieuw-Zeeland
+              items:
+                - name: GST-aangifteformulier GST101A voor Nieuw-Zeeland (NZ-00003)
+                  href: localizations/apac-nzl-gst-declaration.md
             - name: Noorwegen
               items:
                 - name: Overzicht Noorwegen
@@ -3032,6 +3036,12 @@
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Elektronische klantfacturen in Noorwegen
                   href: localizations/emea-nor-e-invoices.md
+            - name: Oman
+              items:
+                - name: Overzicht Oman
+                  href: localizations/oman.md
+                - name: Btw-aangifte voor Oman (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: Polen
               items:
                 - name: Overzicht Polen
@@ -3448,22 +3458,22 @@
                       items:
                         - name: Belasting digitaal maken (MTD) voor btw-aangifte in het Verenigd Koninkrijk
                           href: localizations/emea-gbr-mtd-vat-integration.md
-                        - name: Uw omgeving voorbereiden om samen te werken met de MTD btw-webservice van HMRC
+                        - name: Uw omgeving voorbereiden om samen te werken met de webservice voor MTD-btw van HMRC
                           href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: Finance-omgeving autoriseren om samen te werken met de MTD-webservice van HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: Samenwerking met de btw-sandbox voor MTD testen
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: Een btw-aangifte naar de MTD-webservice van HMRC verzenden
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: Controlelijst voor het instellen van elektronische berichten voor MTD-btw
                           href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: Een btw-aangifte op papier genereren (btw 100-aangifte)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
-                        - name: Details van btw-instellingen voor btw-aangiften in het Verenigd Koninkrijk
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: Samenwerking met de btw-sandbox voor MTD testen
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: Finance-omgeving autoriseren om samen te werken met de MTD-webservice van HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: Een btw-aangifte naar de MTD-webservice van HMRC verzenden
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: Gegevens over btw-betalingen en -schulden ophalen van HMRC
                           href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                        - name: Details van btw-instellingen voor btw-aangiften in het Verenigd Koninkrijk
+                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: Een btw-aangifte op papier genereren (btw 100-aangifte)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Statistieken over rapport met betalingsmethoden
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Verenigde Staten
@@ -4119,6 +4129,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                         - name: Indelingen uitvoeren om kolommen dynamisch toe te voegen aan Excel-rapporten
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                    - name: Een ER-indeling ontwerpen om gegenereerde documenten in Excel te pagineren
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Configuraties ontwerpen om rapporten in Word-indeling te genereren
                   items:
                     - name: Een nieuwe ER-configuratie ontwerpen om rapporten in Word-indeling te genereren

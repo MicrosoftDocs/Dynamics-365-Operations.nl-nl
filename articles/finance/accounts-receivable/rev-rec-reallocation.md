@@ -2,7 +2,7 @@
 title: Hertoewijzing van opbrengsttoerekening
 description: Dit onderwerp biedt informatie over hertoewijzing, waarmee organisaties opbrengstprijzen opnieuw kunnen berekenen wanneer de voorwaarden van een contractuele verkoop worden gewijzigd. Het bevat koppelingen naar andere onderwerpen waarin wordt beschreven hoe opbrengst in meerdere scenario's moet worden toegerekend.
 author: kweekley
-ms.date: 12/21/2020
+ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 50ae395c370947e348714ce5685123328849966f3a67903e9ddf8c27dee42f5f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53304842bdbe7dadb435ab3a0381f3835c2c443a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745032"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487013"
 ---
 # <a name="revenue-recognition-reallocation"></a>Hertoewijzing van opbrengsttoerekening
 
@@ -35,10 +35,22 @@ Uw organisatie moet zelf bepalen of hertoewijzing noodzakelijk is. De toevoeging
 Er gelden enkele belangrijke beperkingen ten aanzien van het hertoewijzingsproces:
 
 - Het proces kan maar één keer worden uitgevoerd. Het is daarom belangrijk dat u het pas uitvoert nadat alle wijzigingen zijn doorgevoerd.
+
+    - Deze beperking wordt verwijderd in versie 10.0.17 en hoger.
+
 - Het proces kan niet worden uitgevoerd voor projectverkooporders.
+
+    - Deze beperking wordt verwijderd in versie 10.0.17 en hoger.
+
 - Als het om meerdere verkooporders gaat, moeten deze voor dezelfde klantrekening bedoeld zijn.
 - Alle verkooporders die opnieuw worden toegewezen, moeten in dezelfde transactievaluta zijn opgesteld.
 - Het proces kan na uitvoering niet worden omgekeerd of ongedaan worden gemaakt.
+
+    - Deze beperking wordt verwijderd in versie 10.0.17 en hoger.
+
+- Hertoewijzing kan alleen worden uitgevoerd voor verkoop- of projectverkooporders, niet voor een combinatie van verkooporders en projectverkooporders.
+
+    - Deze beperking wordt verwijderd in versie 10.0.17 en hoger.
 
 ## <a name="set-up-reallocation"></a>Hertoewijzing instellen
 
@@ -78,7 +90,7 @@ U start het hertoewijzingsproces door **Prijs opnieuw toewijzen met nieuwe order
 
 [![De pagina Prijs opnieuw toewijzen met nieuwe orderregels.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-Het bovenste raster op de pagina **Prijs opnieuw toewijzen met nieuwe orderregels** heeft de naam **Verkoop**. Hier worden de verkooporders voor de klant weergegeven. Selecteer de verkooporders die opnieuw moeten worden toegewezen. U kunt geen projectverkooporders selecteren omdat deze niet opnieuw kunnen worden toegewezen. U kunt ook geen verkooporders selecteren die al een hertoewijzings-id hebben omdat niet-projectverkooporders slechts één keer opnieuw kunnen worden toegewezen. Als een verkooporder een hertoewijzings-id heeft, is deze al voor hertoewijzing gemarkeerd door een andere gebruiker.
+Het bovenste raster op de pagina **Prijs opnieuw toewijzen met nieuwe orderregels** heeft de naam **Verkoop**. Hier worden de verkooporders voor de klant weergegeven. Selecteer de verkooporders die opnieuw moeten worden toegewezen. Als een verkooporder een hertoewijzings-id heeft, is deze al voor hertoewijzing gemarkeerd door een andere gebruiker. Als een of meer verkooporders eerder opnieuw zijn toegewezen en in een andere hertoewijzing moeten worden opgenomen, moet de hertoewijzing van die verkooporders eerst ongedaan worden gemaakt. Vervolgens kunnen die verkooporders worden opgenomen in een nieuwe hertoewijzing. Zie de secties [Een hertoewijzing ongedaan maken](#undo-a-reallocation) en [Meerdere keren opnieuw toewijzen](#reallocate-multiple-times) verderop in dit onderwerp voor meer gedetailleerde informatie.
 
 Het onderste raster op de pagina heeft de naam **Regels**. Als u een of meer verkooporders in het raster **Verkoop** selecteert, worden de verkooporderregels weergegeven in het raster **Regels**. Selecteer de verkooporderregels die opnieuw moeten worden toegewezen. Als u slechts één verkooporder hebt geselecteerd, moeten regels in dezelfde verkooporder opnieuw worden toegewezen. Deze situatie kan zich voordoen wanneer een van de verkooporderregels eerder is gefactureerd en er vervolgens een nieuwe regel is toegevoegd of een bestaande regel is verwijderd of geannuleerd. Als een regel is verwijderd, wordt deze niet weergegeven in het raster. De regel kan dan dus ook niet worden geselecteerd. Er wordt echter nog wel rekening mee gehouden wanneer het toewijzingsproces wordt uitgevoerd.
 
@@ -104,6 +116,26 @@ Als u de vereiste verkooporderregels hebt geselecteerd, gebruikt u de knoppen in
 
 - **Gegevens opnieuw instellen voor geselecteerde klant**: als het hertoewijzingsproces is gestart, maar nog niet is voltooid, wist u hiermee alleen de gegevens in de hertoewijzingstabel voor de geselecteerde klant. Stel dat u meerdere verkooporderregels markeert voor hertoewijzing, de pagina open laat zonder **Verwerken** te selecteren en er vervolgens een time-out optreedt op de pagina. In dit geval blijven de verkooporderregels gemarkeerd en zijn ze niet beschikbaar voor een andere gebruiker om het hertoewijzingsproces te voltooien. De pagina kan zelfs leeg zijn als deze wordt geopend. In deze situatie kunt u de knop **Gegevens opnieuw instellen voor geselecteerde klant** gebruiken om onverwerkte verkooporders te verwijderen, zodat een andere gebruiker het hertoewijzingsproces kan voltooien.
 
+## <a name="undo-a-reallocation"></a>Een hertoewijzing ongedaan maken
+
+U maakt een hertoewijzing ongedaan door nog een hertoewijzing uit te voeren. De hertoewijzing wordt opnieuw uitgevoerd en de gebruiker selecteert verschillende verkooporderregels om in het tweede hertoewijzingsproces op te nemen.
+
+Als een hertoewijzing is uitgevoerd voor twee of meer afzonderlijke verkooporders, kunt u deze ongedaan maken door **Prijs opnieuw toewijzen met nieuwe orderregels** te selecteren in een verkooporder die in de hertoewijzing is opgenomen. U kunt niet naar **Opbrengsttoerekening \> Periodieke taken \> Prijs opnieuw toewijzen met nieuwe orderregels** gaan om de hertoewijzing ongedaan te maken omdat op de pagina die op deze manier wordt geopend alleen verkooporders zonder hertoewijzings-id worden weergegeven. De hertoewijzings-id wordt toegewezen nadat het document opnieuw is toegewezen.
+
+Op de pagina **Prijs opnieuw toewijzen met nieuwe orderregels** heft u de markering op voor de verkooporders die u van de contractuele overeenkomst wilt uitsluiten. Gebruik de betreffende knoppen in het actievenster, zoals **Hertoewijzing bijwerken** en **Verwerken**, om de hertoewijzing te verwerken. Als alleen de actieve verkooporder nog is gemarkeerd, wordt de hertoewijzings-id verwijderd wanneer de wijziging wordt verwerkt.
+
+Als een hertoewijzing wordt uitgevoerd door een nieuwe regel toe te voegen aan een volledig of gedeeltelijk gefactureerde verkooporder, kan de hertoewijzing alleen ongedaan worden gemaakt door die regel uit de verkooporder te verwijderen en de hertoewijzing opnieuw uit te voeren. De verkooporderregel moet worden verwijderd omdat ervan wordt uitgegaan dat alle regels van een verkooporder deel uitmaken van hetzelfde contract. U kunt de markering van een verkooporderregel niet opheffen terwijl u zich op de pagina **Prijs opnieuw toewijzen met nieuwe orderregels** bevindt.
+
+## <a name="reallocate-multiple-times"></a>Meerdere keren opnieuw toewijzen
+
+U kunt meerdere hertoewijzingen voor dezelfde verkooporder uitvoeren als er meerdere wijzigingen in het contract zijn aangebracht. Elke hertoewijzing activeert de toekenning van een hertoewijzings-id aan de verkooporder of groep verkooporders om de wijzigingen te groeperen. Als er meerdere hertoewijzingen worden uitgevoerd, wordt voor elke aanvullende hertoewijzing dezelfde hertoewijzings-id gebruikt als voor de eerste hertoewijzing.
+
+Stel dat verkooporder 00045 wordt ingevoerd en deze verkooporder meerdere regels bevat. Als de verkooporder volledig is gefactureerd, wordt hieraan een nieuwe verkooporderregel toegevoegd. U kunt de hertoewijzing vervolgens uitvoeren door de pagina **Prijs opnieuw toewijzen met nieuwe orderregels** vanuit verkooporder 00045 te openen of naar **Opbrengsttoerekening \> Periodieke taken \> Prijs opnieuw toewijzen met nieuwe orderregels** te gaan. De hertoewijzings-id **Reall000001** wordt aan de verkooporder toegewezen.
+
+Er wordt een tweede verkooporder, 00052, voor hetzelfde contract gemaakt. De hertoewijzing kan opnieuw worden uitgevoerd door de pagina **Prijs opnieuw toewijzen met nieuwe orderregels** te openen vanuit verkooporder 00045, maar niet vanuit verkooporder 00052. Als u de pagina **Prijs opnieuw toewijzen met nieuwe orderregels** vanuit verkooporder 00052 opent, wordt verkooporder 00045 niet weergegeven omdat hieraan een hertoewijzings-id is toegewezen. Op de pagina worden alleen verkooporders zonder hertoewijzings-id weergegeven.
+
+U kunt de tweede hertoewijzing opnieuw uitvoeren. U kunt de hertoewijzing van verkooporder 00045 ongedaan maken. In dit geval wordt de hertoewijzings-id verwijderd en kunt u de hertoewijzing opnieuw uitvoeren vanuit verkooporder 00045 of verkooporder 00052. U kunt de pagina **Prijs opnieuw toewijzen met nieuwe orderregels** ook openen vanuit verkooporder 00045 en de tweede verkooporder toevoegen. Wanneer de hertoewijzing wordt verwerkt, wordt hertoewijzings-id **Reall000001** zowel aan verkooporder 00045 als aan verkooporder 00052 toegewezen.
+
 ## <a name="scenarios-for-reallocation"></a>Scenario's voor hertoewijzing
 
 In de volgende onderwerpen worden verschillende scenario's voor opbrengsttoerekening besproken:
@@ -112,6 +144,5 @@ In de volgende onderwerpen worden verschillende scenario's voor opbrengsttoereke
 - [Hertoewijzing van opbrengsttoerekening - Scenario 2](rev-rec-reallocation-scenario-2.md) – Er worden twee verkooporders ingevoerd en vervolgens voegt de klant een artikel aan het contract toe nadat de eerste verkooporder is gefactureerd.
 - [Hertoewijzing van opbrengsttoerekening - Scenario 3](rev-rec-reallocation-scenario-3.md) – Er wordt een nieuwe regel toegevoegd aan een bestaande, gefactureerde verkooporder.
 - [Hertoewijzing van opbrengsttoerekening - Scenario 4](rev-rec-reallocation-scenario-4.md) – Er wordt een regel verwijderd uit een bestaande, gedeeltelijk gefactureerde verkooporder.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

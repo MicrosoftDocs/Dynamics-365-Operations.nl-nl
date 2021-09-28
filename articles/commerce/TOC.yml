@@ -102,8 +102,6 @@
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (augustus 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
-                    - name: Commerce 10.0.19 (juni 2021)
-                      href: get-started/whats-new-commerce-10-0-19.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Startpagina voor verwijderde of afgeschafte functies
@@ -668,6 +666,8 @@
                   href: tasks/base-price-trade-agreements.md
                 - name: Handelsovereenkomsten maken met categorieprijsregels
                   href: tasks/category-pricing-rules-trade-agreements.md
+                - name: De berekening van de exacte prijs en korting uitstellen
+                  href: delayed-price-calculation.md
             - name: Aanbevelingen
               items:
                 - name: Overzicht productaanbevelingen
@@ -1328,9 +1328,11 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Belastingdocumenten voor Brazilië boeken via detailhandelsoverzichten in Commerce Headquarters
                   href: localizations/latam-bra-retail-statements.md
+                - name: Dynamics 365 Payment Connector voor Adyen in Commerce POS voor Brazilië
+                  href: localizations/latam-bra-adyen.md
             - name: Oost-Europa
               items:
-                - name: Gemeenschappelijk
+                - name: Algemeen
                   items:
                     - name: Voorschotfacturen voor Commerce voor Oost-Europa
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
@@ -2436,7 +2438,7 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: Kerngegevensacties
                       href: e-commerce-extensibility/core-data-actions.md
-                    - name: Retail Server-API's aanroepen
+                    - name: API's voor Commerce Scale Unit aanroepen
                       href: e-commerce-extensibility/call-retail-server-apis.md
                     - name: API's voor Retail Server-uitbreidingen aanroepen
                       href: e-commerce-extensibility/call-retail-extension-api.md
@@ -2514,8 +2516,6 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Een build-pipeline instellen voor de onafhankelijke verpakkings-SDK
                   href: dev-itpro/build-pipeline.md
-                - name: De build-systemen voor Commerce en Finance and Operations samenvoegen
-                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: Retail SDK migreren van Visual Studio 2015 naar Visual Studio 2017
                   href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Voorbeelden voor uitbreidbaarheid van Retail SDK
@@ -2628,8 +2628,6 @@
                               href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Uitbreidbaarheid van Hardware Station
               items:
-                - name: Hardware Station en uitbreidbaarheid
-                  href: dev-itpro/hardware-station-extensibility.md
                 - name: POS integreren met een nieuw hardwareapparaat
                   href: dev-itpro/hardware-device-extension.md
             - name: Uitbreidbaarheid van Retail Server

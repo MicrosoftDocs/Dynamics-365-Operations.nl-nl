@@ -1007,7 +1007,11 @@
                 - name: Veelgestelde vragen over gepland onderhoudsvenster
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Controle en diagnose
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: Hulpmiddelen voor controle en diagnose
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: Azure Data Explorer gebruiken om te zoeken in logboeken met onbewerkte gegevens
+                  href: lifecycle-services/azure-data-explorer.md
             - name: Omgevingsservices opnieuw starten
               href: lifecycle-services/restart-environment-services.md
             - name: Een storing in de productie rapporteren
