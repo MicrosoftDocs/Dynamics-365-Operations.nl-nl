@@ -1,8 +1,8 @@
 ---
 title: Ondersteuning voor belastingfunctie voor transferorders
 description: In dit onderwerp wordt de ondersteuning voor de nieuwe belastingfunctie met behulp van de service voor belastingberekening uitgelegd.
-author: kailiang
-ms.date: 04/20/2021
+author: Kai-Cloud
+ms.date: 09/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
-ms.author: wangchen
+ms.author: kailiang
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1c47c327841b8c712220e440e2aa6b4fe2b31b4a1ccd03dc0a200dbeb7394071
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 01bf7c251fe57072f042c9187b9f5b6b6687ab0f
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721684"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500071"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Ondersteuning voor belastingfunctie voor transferorders
 
@@ -53,7 +53,7 @@ Volg deze stappen om de belasting voor een transferorder in te stellen. In het v
         4. Selecteer **Toevoegen** in de tabel **Tarief**.
         5. Stel **Is Vrijgesteld** in op **Ja** in de sectie **Algemeen**.
 
-        ![Belastingcode NL-Vrijgesteld.](../media/tax-feature-support-02.png)
+           ![Belastingcode NL-Vrijgesteld.](../media/tax-feature-support-02.png)
 
     - Wanneer een transferorder wordt ontvangen in een Belgisch magazijn, wordt het terugboekingsmechanisme toegepast op basis van de belastingcodes **BE-RC-21** en **BE-RC+21**.
         
@@ -66,7 +66,7 @@ Volg deze stappen om de belasting voor een transferorder in te stellen. In het v
         6. Stel **Is Terugboeking** in op **Ja** in de sectie **Algemeen**.
         7. Selecteer **Opslaan**.
 
-        ![BE-RC-21-belastingcode voor terugboekingen.](../media/tax-feature-support-03.png)
+           ![BE-RC-21-belastingcode voor terugboekingen.](../media/tax-feature-support-03.png)
         
         Maak de belastingcode **BE-RC+21**.
         1. Selecteer **Toevoegen** en voer **BE-RC-21** in het veld **Belastingcode** in.
@@ -76,7 +76,7 @@ Volg deze stappen om de belasting voor een transferorder in te stellen. In het v
         5. Voer **21** in het veld **Belastingtarief** in.
         6. Selecteer **Opslaan**.
 
-        ![BE-RC+21-belastingcode voor terugboekingen.](../media/tax-feature-support-04.png)
+           ![BE-RC+21-belastingcode voor terugboekingen.](../media/tax-feature-support-04.png)
 
 3. Definieer de toepasbaarheid van de belastingcodes.
 
@@ -97,6 +97,7 @@ Volg deze stappen om de belasting voor een transferorder in te stellen. In het v
         7. Voer in het velden **Belastinggroep** en **Artikelbelastinggroep** de bijbehorende belastinggroep en artikelbelastinggroep in die zijn gedefinieerd in uw Finance-systeem.
         
         Voeg nog een regel toe voor de transferorderontvangst.
+        
         1. Selecteer **Toevoegen** in de tabel **Toepasbaarheidsregels**.
         2. Selecteer **Voorraad** in het veld **Bedrijfsproces** om de regel van toepassing te maken voor een transferorder.
         3. Voer **NLD** in het veld **Land/regio van oorsprong** in.
@@ -105,7 +106,7 @@ Volg deze stappen om de belasting voor een transferorder in te stellen. In het v
         6. Selecteer in het veld **Belastingcodes** de opties **BE-RC+21** en **BE-RC-21**.
         7. Voer in het velden **Belastinggroep** en **Artikelbelastinggroep** de bijbehorende belastinggroep en artikelbelastinggroep in die zijn gedefinieerd in uw Finance-systeem.
 
-        ![Toepasbaarheidsregels.](../media/image5.png)
+           ![Toepasbaarheidsregels.](../media/image5.png)
 
 4. Voltooi en publiceer de nieuwe versie van de belastingfunctie.
 
@@ -115,7 +116,7 @@ Volg deze stappen om de belasting voor een transferorder in te stellen. In het v
 
 Voer de volgende stappen uit om belastingen voor transferorders in te stellen.
 
-1. Ga in Finance naar **Werkruimten** \> **Functiebeheer**.
+1. Ga in Finance naar **Werkruimten** > **Functiebeheer**.
 2. Selecteer de functie **Belasting in transferorder** in de lijst en selecteer **Nu inschakelen** om deze in te schakelen.
 
     > [!IMPORTANT]
@@ -128,10 +129,10 @@ Voer de volgende stappen uit om belastingen voor transferorders in te stellen.
     > [!IMPORTANT]
     > U moet deze stap voltooien voor elke rechtspersoon in Finance waarvoor de belastingservice en de functionaliteit voor belasting in transferorders beschikbaar moeten zijn.
 
-    1. Ga naar **Belasting** \> **Instellingen** \> **Belastingconfiguratie** \> **Instellingen van belastingservice**.
+    1. Ga naar **Belasting** > **Instellingen** > **Belastingconfiguratie** > **Instellingen van belastingservice**.
     2. Selecteer **Voorraad** in het veld **Bedrijfsproces**.
 
-    ![Het veld Bedrijfsproces instellen.](../media/image8.png)
+      ![Het veld Bedrijfsproces instellen.](../media/image8.png)
 
 4. Controleer of het teruboekingsmechanisme is ingesteld. Ga naar **Grootboek** \> **Instellingen** \> **Parameters** en controleer vervolgens op het tabblad **Terugboeking** of de optie **Terugboeking inschakelen** is ingesteld op **Ja**.
 
@@ -140,10 +141,10 @@ Voer de volgende stappen uit om belastingen voor transferorders in te stellen.
 5. Controleer of de gerelateerde belastingcodes, belastinggroepen, artikelbelastinggroepen en btw-registratienummers in Finance zijn ingesteld volgens de richtlijnen van de belastingservice.
 6. Stel een tussentijdse transitrekening in. Deze stap is alleen vereist wanneer de belasting die wordt toegepast op een overdrachtsorder niet van toepassing is op een mechanisme voor vrijgestelde belastingen of terugboeking.
 
-    1. Ga naar **Belasting** \> **Instellingen** \> **Btw** \> **Grootboekboekingsgroepen**.
+    1. Ga naar **Belasting** > **Instellingen** > **Btw** \ **Grootboekboekingsgroepen**.
     2. Selecteer een grootboekrekening in het veld **Tussentijds transit**.
 
-    ![Een tussentijdse transitrekening selecteren.](../media/image10.png)
+       ![Een tussentijdse transitrekening selecteren.](../media/image10.png)
 
 ## <a name="set-up-basic-inventory-for-transfer-order-transactions"></a>Basisvoorraad instellen voor belasting- en transferordertransacties
 
@@ -151,7 +152,7 @@ Volg deze stappen om basisvoorraad in te stellen om transferordertransacties mog
 
 1. Maak verzend- en doellocaties in verschillende landen of regio's voor uw magazijnen en voeg het primaire adres voor elke locatie toe.
 
-    1. Ga naar **Magazijnbeheer** \> **Instellingen** \> **Magazijn** \> **Vestigingen**.
+    1. Ga naar **Magazijnbeheer** > **Instellingen** > **Magazijn** > **Vestigingen**.
     2. Selecteer **Nieuw** om de vestiging te maken die u later aan een magazijn toewijst.
     3. Herhaal stap 2 voor alle andere vestigingen die u moet maken.
 
@@ -162,11 +163,11 @@ Volg deze stappen om basisvoorraad in te stellen om transferordertransacties mog
 
 2. Maak verzend-, transit- en doelmagazijnen. Alle adresgegevens die in een magazijn worden bijgehouden, overschrijven het vestigingsadres tijdens de belastingberekening.
 
-    1. Ga naar **Magazijnbeheer** \> **Instellen** \> **Magazijn** \> **Magazijnen**.
+    1. Ga naar **Magazijnbeheer** > **Instellen** > **Magazijn** > **Magazijnen**.
     2. Selecteer **Nieuw** om een magazijn te maken en deze aan de bijbehorende vestiging toe te wijzen.
     3. Herhaal stap 2 om naar behoefte een magazijn voor elke vestiging te maken.
 
-    ![Magazijnen instellen.](../media/image12.png)
+       ![Magazijnen instellen.](../media/image12.png)
 
     > [!NOTE]
     > Voor een verzendmagazijn moet een transitmagazijn worden geselecteerd in het veld **Transitmagazijn** voor transferordertransacties.
@@ -175,7 +176,7 @@ Volg deze stappen om basisvoorraad in te stellen om transferordertransacties mog
 
 3. Verifieer of de voorraadboekingsconfiguratie is ingesteld voor transferordertransacties.
 
-    1. Ga naar **Voorraadbeheer** \> **Instellen** \> **Boeken** \> **Boeken**.
+    1. Ga naar **Voorraadbeheer** > **Instellen** > **Boeken** > **Boeken**.
     2. Controleer op het tabblad **Voorraad** of er een grootboekrekening is ingesteld voor de boekingen **Voorraaduitgifte** en **Voorraadontvangst**.
 
         ![De boeking van voorraaduitgifte en voorraadontvangst instellen.](../media/image14.png)
@@ -187,3 +188,6 @@ Volg deze stappen om basisvoorraad in te stellen om transferordertransacties mog
     4. Controleer of er een grootboekrekening is ingesteld voor de boeking **Inter-unit te ontvangen**.
 
         ![De boeking Inter-unit te ontvangen instellen.](../media/image16.png)
+        
+        
+  [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

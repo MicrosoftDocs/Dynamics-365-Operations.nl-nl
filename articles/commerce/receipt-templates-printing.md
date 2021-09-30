@@ -2,7 +2,7 @@
 title: Ontvangstbewijsindelingen instellen en ontwerpen
 description: In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te bepalen hoe ontvangsten, facturen en andere documenten worden afgedrukt. Dynamics 365 Commerce heeft een ontwerper voor formulierindelingen waarmee u gemakkelijk en grafisch verschillende soorten formulierindelingen kunt maken en veranderen.
 author: rubencdelgado
-ms.date: 06/20/2017
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7f70918e6fd274ac8e3476d6c309eac40744b0dd24a8b79f531d8627bb4a68e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2107670cb5dbac3b8f28c4e3caa357102932291
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715353"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500164"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Ontvangstbewijsindelingen instellen en ontwerpen
 
@@ -46,7 +46,12 @@ In dit artikel wordt beschreven hoe u formulierindelingen kunt wijzigen om te be
 
 ## <a name="print-images"></a>Afbeeldingen afdrukken
 
-De functie voor het ontwerpen van ontvangstbewijzen bevat een variabele **Logo** waarmee afbeeldingen kunnen worden opgegeven die moeten worden afgedrukt op het ontvangstbewijs. Afbeeldingen die zijn opgenomen in ontvangstbewijzen met de variabele **Logo**, moeten van het bestandstype monochrome bitmap (.bmp) zijn. Als een BMP-afbeelding wordt opgegeven in de functie voor het ontwerpen van ontvangstbewijzen, maar deze niet wordt afgedrukt als deze naar de printer wordt verzonden, is het bestand mogelijk te groot of zijn de dimensies op de afbeelding niet compatibel met de printer. Als dit gebeurt, kunt u proberen de resolutie van het afbeeldingsbestand te verlagen.   
+De ontwerpfunctie voor ontvangstbewijzen bevat een variabele **Logo**. U kunt deze variabele gebruiken om een afbeelding op te geven die op ontvangstbewijzen moet worden afgedrukt. Afbeeldingen die worden afgedrukt op ontvangstbewijzen met de variabele **Logo**, moeten van het bestandstype monochrome bitmap (.bmp) zijn. Als er een bitmapafbeelding is opgegeven in de ontwerper van ontvangstbewijzen, maar de afbeelding niet wordt afgedrukt wanneer het ontvangstbewijs naar de printer wordt verzonden, kan dit een van de volgende oorzaken hebben:
+
+- De bestandsgrootte is te groot, of de pixeldimensies van de afbeelding zijn niet compatibel met de printer. Probeer in dit geval de resolutie of dimensies van het afbeeldingsbestand te beperken.
+- Sommige OPOS-printerdrivers (Object Linking and Embedding for Point of Sale) implementeren de methode **PrintMemoryBitmap** niet die hardwarestations gebruiken om afbeeldingen van logo's af te drukken. Probeer in dit geval de volgende vlag toe te voegen aan het bestand **HardwareStation.Extension.config** van uw eigen of gedeelde hardwarestation:
+
+    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
 
 ## <a name="design-a-receipt-format"></a>Een ontvangstbewijsindeling ontwerpen
 
@@ -68,7 +73,7 @@ Gebruik de ontwerpfunctie voor formulierindelingen om de grafische indeling van 
     - **Uitlijnen**: stel de uitlijning van het veld in op **Links** of **Rechts**.
     - **Opvulteken** – Het spatieteken opgeven. Standaard wordt een lege positie gebruikt. U kunt echter elk teken invoeren.
     - **Voorvoegsel** – Typ de waarde die aan het begin van het veld wordt weergegeven. Deze instelling is slechts van toepassing op het gedeelte **Regels** van de indeling.
-    - **Tekens** – Geef het maximale aantal tekens op dat het veld kan bevatten als het element een variabele bevat. Als de tekst in het veld langer is dan het aantal tekens dat u opgeeft, wordt de tekst ingekort om in het veld te passen.
+    - **Tekens** – Geef het maximale aantal tekens op dat het veld kan bevatten als het element een variabele bevat. Als de tekst in het veld langer is dan het aantal tekens dat u opgeeft, wordt de tekst afgekapt om in het veld te passen.
     - **Variabele** – Dit selectievakje is automatisch ingeschakeld als dit element een variabele bevat en niet kan worden aangepast.
     - **Lettertype** – Het lettertype instellen op **Normaal** of **Vet**. Vetgedrukte letters nemen twee maal zoveel plaats in beslag als normale letters. Dit betekent dat sommige tekens mogelijk worden afgekapt.
     - **Tekengrootte** – De tekengrootte instellen op **Normaal** of **Groot**. Grote letters zijn twee keer zo hoog als gewone letters. Daarom kan gebruik van grote letters leiden tot overlappende tekst op de kassabon.

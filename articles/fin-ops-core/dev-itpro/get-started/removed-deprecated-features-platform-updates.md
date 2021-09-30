@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van Finance and Operations-apps.
 author: sericks007
-ms.date: 08/27/2021
+ms.date: 09/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463613"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500104"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
 
@@ -38,7 +38,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Sommige SQL-rapporten in LCS worden afgeschaft. U hoeft de rapporten niet meer te controleren, omdat deze functie door andere services is vervangen. |
+| **Reden voor afschaffing/verwijdering** |   Alle activiteiten en monitoring worden intern uitgevoerd door het platform via automatisering. Er is geen handmatige tussenkomst nodig.|
 | **Vervangen door een andere functie?**   | No |
 | **Betrokken productgebieden**         | SQL-rapporten: Huidige DTU, huidige DTU-details, Vergrendelingsdetails weergeven, Lijst met huidige planhandleiding, Lijst met query-ID's weergeven, het SQL-queryplan voor een bepaalde plan-ID opvragen, queryplannen en uitvoeringsstatus opvragen, statistieken van rapporten, statistieken weergeven en lijst met duur query's maken |
 | **Implementatieoptie**              | Cloudimplementatie: heeft gevolgen voor door Microsoft beheerde productieomgevingen en Tier 2 tot en met Tier 5-sandboxomgevingen. |
@@ -181,7 +181,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Vervangen door een andere functie?**   | Het [nieuwe rasterbesturingselement](../..//fin-ops/get-started/grid-capabilities.md) |
 | **Betrokken productgebieden**         | Webclient |
 | **Implementatieoptie**              | Alle |
-| **Status**                         | In versie 10.0.13 is het nieuwe rasterbesturingselement doorgaans beschikbaar en kunnen klanten deze functie eventueel inschakelen. Het nieuwe rasterbesturingselement wordt verplicht in de release van oktober 2021. Wanneer het nieuwe rasterbesturingselement verplicht wordt, wordt de **forceLegacyGrid()** API niet meer ondersteund. |
+| **Status**                         | In versie 10.0.13 is het nieuwe rasterbesturingselement doorgaans beschikbaar en kunnen klanten deze functie eventueel inschakelen. Het nieuwe rasterbesturingselement wordt standaard gebruikt voor de versie van oktober 2021 en wordt naar verwachting verplicht in april 2022. Wanneer het nieuwe rasterbesturingselement verplicht wordt, wordt de **forceLegacyGrid()** API niet meer ondersteund. |
 
 ### <a name="personalization-without-saved-views"></a>Persoonlijke instellingen zonder opgeslagen weergaven 
 

@@ -2,7 +2,7 @@
 title: Gereed voor betaling
 description: In dit onderwerp wordt weergegeven hoe u een werknemer als gereed voor betaling kunt markeren in Dynamics 365 Human Resources.
 author: marcelbf
-ms.date: 07/13/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70b3f31db459fe021caf08fe09b2e44a597294d1992ee16a69efd8745941a4bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732412"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483777"
 ---
 # <a name="ready-to-pay"></a>Gereed voor betaling
 
@@ -39,7 +39,7 @@ Het verzamelen en valideren van werknemersgegevens kan tijdrovend en foutgevoeli
 
 Een werknemer markeren als gereed voor betaling:
 
-1. Open **Compensatiebeheer**. De werkruimte bevat twee tegels. 
+1. Open **Compensatiebeheer**. De werkruimte bevat twee tegels: 
     - **Werknemers die gereed zijn voor betaling**
     - **Werknemers die gereed zijn voor betaling**
     ![Werkruimte Compensatiebeheer.](./media/hr-ready-to-pay-1-workspace.png)
@@ -53,22 +53,20 @@ Een werknemer markeren als gereed voor betaling:
 
 ## <a name="validation"></a>Validatie
 
-Voordat een werknemer wordt gemarkeerd als gereed voor betaling, wordt er een basisvalidatie uitgevoerd op volledigheid van het profiel.
+Voordat een werknemer wordt gemarkeerd als gereed voor betaling, wordt het profiel van de medewerker gevalideerd op volledigheid.
 
 ![Valideer resultaten.](./media/hr-ready-to-pay-3-results.png)
 
-De volgende tabel bevat meer informatie over elk van de validaties die worden uitgevoerd. 
-
 | Validatie | Gegevens |
 | --- | --- |
-| Parameter van adresdoel | Valideert of de parameter **Doel adressen salarisadministratie gebruiken** is ingeschakeld. |
-| Adres salarisadministratie | Valideert of het werknemerprofiel ten minste één adres heeft met het doel 'Salarisplaats' of 'Salariswerklocatie' en er slechts één adres per doel is. |
-| Dienstverband | Controleer of de werknemer ten minste één dienstverband heeft (huidig, vorig of toekomstig). |
-| Identificatienummer | Valideert of de parameter 'Identificatietypen gebruiken in salarisverwerking' ja is en of het identificatietype dat is aangegeven in de parameter is ingevuld in het werknemersprofiel. |
-| Voornaam en achternaam | Controleer of het werknemerprofiel geldig is en controleer of de velden **Naam** en **Achternaam** zijn ingevuld.|
-| Locatie | Controleer of de werknemer een positie heeft toegewezen. |
-| Geboortedatum | Valideert of het werknemerprofiel geldig is en controleert of het veld **Verjaardag** is ingevuld. |
-| Compensatie | Controleer of de werknemer bij een plan voor vaste compensatie is ingeschreven. |
+| **Parameter van adresdoel** | Bevestigt dat de parameter **Doel adressen salarisadministratie gebruiken** is geselecteerd. |
+| **Adres salarisadministratie** | Bevestigt dat het werknemerprofiel ten minste één adres heeft met het doel **Salarisplaats** of **Salariswerklocatie** en er slechts één adres per doel is. |
+| **Dienstverband** | Bevestigt dat de werknemer ten minste één dienstverband heeft (huidig, vorig of toekomstig). |
+| **Identificatienummer** | Bevestigt dat het veld **Identificatietypen gebruiken in salarisverwerking** is ingesteld op **Ja** op de pagina **Human Resources-parameters**, en dat het identificatietype dat is aangegeven in de parameter, is ingevuld in het werknemersprofiel. |
+| **Voornaam en achternaam** | Bevestigt dat de velden **Naam** en **Achternaam** zijn ingevuld.|
+| **Locatie** | Bevestigt dat aan de werknemer een positie is toegewezen. |
+| **Geboortedatum** | Bevestigt dat het veld **Verjaardag** is ingevuld. |
+| **Compensatie** | Bevestigt dat de werknemer bij een plan voor vaste compensatie is ingeschreven. |
 
 Als een van deze validaties mislukt, kunt u de werknemer niet als gereed voor betaling markeren.
 
@@ -77,7 +75,7 @@ Als het veld **Gereed voor betaling** de waarde **Nee** heeft, geeft dit aan dat
 ## <a name="known-issues"></a>Bekende problemen
 
 - U moet de functie **Gestroomlijnde invoer voor werknemers** in functiebeheer uitschakelen. De tegels in de werkruimte voor compensatiebeheer werken niet goed als u deze functie gebruikt.
-- In het formulier Werknemer op het tabblad **Salaris** is de groep **Gereed voor betaling** beschikbaar voor elke gebruikersrol. 
+- Op de pagina **Werknemer** op het tabblad **Salaris** is de groep **Gereed voor betaling** beschikbaar voor elke gebruikersrol. 
 
 ## <a name="see-also"></a>Zie ook
 

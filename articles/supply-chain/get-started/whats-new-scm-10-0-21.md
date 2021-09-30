@@ -1,5 +1,5 @@
 ---
-title: Preview van Dynamics 365 Supply Chain Management 10.0.21 (oktober 2021)
+title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.21 (oktober 2021)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Dynamics 365 Supply Chain Management 10.0.21.
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 42d296cb0402b5e96f23d628f08a28fb35683d5f
-ms.sourcegitcommit: 5a44eb4f555bf5ee0b1293f0ecdc37ee8b53aa24
+ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/17/2021
-ms.locfileid: "7391203"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500550"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10021-october-2021"></a>Preview van Dynamics 365 Supply Chain Management 10.0.21 (oktober 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.21 (oktober 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in de preview van Microsoft Dynamics 365 Supply Chain Management versie 10.0.21. Deze versie heeft een buildnummer van 10.0.960 en is als volgt beschikbaar:
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.21. Deze versie heeft een buildnummer van 10.0.960 en is als volgt beschikbaar:
 
 - **Preview van versie:** augustus 2021
 - **Algemene beschikbaarheid van versie (zelfupdate):** september 2021
@@ -46,13 +45,14 @@ De implementatie werkt ondanks de waarschuwing. De volgende bekende problemen ku
 
 De volgende tabel vermeldt de functies die deze versie bevat. De kolom *Functie* bevat koppelingen naar het [releaseplan](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) waar u de officiële vrijgavedatums voor elke functie kunt zien. De kolom *Meer informatie* bevat meer details en/of koppelingen naar gerelateerde documentatie.
 
-De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken. Sommige van de functies in de lijst zijn nog steeds in preview, terwijl andere mogelijk al algemeen beschikbaar zijn.
+De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) voordat u ze kunt gebruiken.
 
 | Functiegebied | Functie | Meer informatie |
 |---|---|---|
-| Voorraad en logistiek | [Invoegtoepassing voor Algemene voorraadboekhouding voor Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Startpagina Algemene voorraadboekhouding](../global-inventory-accounting/global-inventory-accounting-home.md) |
+| Voorraad en logistiek | [Invoegtoepassing voor Algemene voorraadboekhouding voor Dynamics 365 Supply Chain Management](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/global-inventory-accounting-add-in-dynamics-365-supply-chain-management) | [Startpagina Algemene voorraadboekhouding](../global-inventory-accounting/global-inventory-accounting-home.md) |
 | Voorraad en logistiek | [Voorhanden correcties boeken met codes die zijn gekoppeld aan tegenrekeningen](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/post-on-hand-adjustments-using-configurable-reason-codes-connected-offset-accounts) | [Redencodes voor voorraadtelling](../warehousing/reason-codes-for-counting-journals.md) |
 | Voorraad en logistiek | [Verkoopofferte verwees naar gegevensexportbeleid](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/sales-quotation-referenced-data-export-policy) | Kies of wijzigingen in gegevens waarnaar wordt verwezen door offertes ertoe leiden dat die offertes (of regels) worden opgenomen in de volgende incrementele export. Uw incrementele exporten worden sneller uitgevoerd als u ervoor kiest om dergelijke offertes of regels niet op te nemen.<br><br>Met deze functie voegt u een instelling toe met de naam **Gegevens waarnaar door verkoopoffertes wordt verwezen, overslaan tijdens bijhouden van wijzigingen** aan de pagina **Parameters van module Klanten**. |
+| Voorraad en logistiek | Verzegelde biedingen <!-- KFM: Add RP link when available --> | [Verzegelde biedingen voor offerteaanvragen](../procurement/sealed-bidding.md) |
 | Voorraad en logistiek | [Streepjescodes scannen in het magazijn met behulp van GS1-indelingsstandaarden](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/scan-barcodes-warehouse-using-gs1-format-standards) | [GS1-streepjescodes en QR-codes](../warehousing/gs1-barcodes.md) |
 | Voorraad en logistiek | [Softe reservering voor de invoegtoepassing van de voorraadzichtbaarheid](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/soft-reservation-inventory-visibility-add-in) | [Reserveringen voor voorraadzichtbaarheid](../inventory/inventory-visibility-reservations.md) |
 | Voorraad en logistiek | [Verbeteringen van aftrek en catch weight voor Kortingsbeheer](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/deduction-catch-weight-enhancements-rebate-management) | [Inhoudingen beheren met de inhoudingsworkbench](../rebate-management/deduction-workbench.md )<br><br>[Kortingen verwerken, controleren en posten](../rebate-management/process-review-post.md)<br><br>[Deals voor kortingsbeheer](../rebate-management/rebate-management-deals.md) |

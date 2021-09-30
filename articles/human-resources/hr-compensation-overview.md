@@ -1,8 +1,8 @@
 ---
 title: Compensatieplannen
-description: Managers Compensatie en emolumenten kunnen Compensatiebeheer gebruiken om plannen voor vaste en variabele compensatie voor de werknemers van de organisatie te beheren en te verwerken.
-author: andreabichsel
-ms.date: 06/20/2017
+description: In dit onderwerp wordt beschreven hoe u compensatiebeheer gebruikt voor het beheren en verwerken van compensatieplannen.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: dafba542ec1421a6ef3437d9c2f22e0c363e557d7f5b6410af36fc7cb8d4be7d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 64169ebc5bbd2f0a9b4be3d4ec076c8814e6eb97
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732436"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483800"
 ---
 # <a name="compensation-plans"></a>Compensatieplannen
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Managers Compensatie en emolumenten kunnen Compensatiebeheer gebruiken om plannen voor vaste en variabele compensatie voor de werknemers van de organisatie te beheren en te verwerken.
+Managers Compensatie en emolumenten kunnen **Compensatiebeheer** gebruiken om plannen voor vaste en variabele compensatie voor de werknemers van de organisatie te beheren en te verwerken.
 
 ### <a name="introduction"></a>Introductie
 
@@ -42,8 +42,8 @@ De volgende tabel geeft een overzicht van de onderdelen van het compensatieproce
 <table>
 <thead>
 <tr class="header">
-<th>Onderdeel</th>
-<th>Meer informatie...</th>
+<th>Component</th>
+<th>Meer informatie</th>
 </tr>
 </thead>
 <tbody>
@@ -89,10 +89,10 @@ De volgende tabel geeft een overzicht van de onderdelen van het compensatieproce
 </tr>
 <tr class="even">
 <td>Controlepunt</td>
-<td>Met het controlepunt geeft u het optimale loontarief aan voor alle werknemers op een bepaald compensatieniveau. Voor salarisschaalstructuren zijn controlepunten meestal het midden van het bereik. Bandstructuren maken zelden gebruik van besturingspunten. U kunt het controlepunt van een plan voor vaste compensatie opgeven in het formulier Vastecompensatieplannen.</td>
+<td>Met het controlepunt geeft u het optimale loontarief aan voor alle werknemers op een bepaald compensatieniveau. Voor salarisschaalstructuren zijn controlepunten meestal het midden van het bereik. Bandstructuren maken zelden gebruik van besturingspunten. U kunt het controlepunt van een plan voor vaste compensatie opgeven in het formulier **Vastecompensatieplannen**.</td>
 </tr>
 <tr class="odd">
-<td>Taakfuncties</td>
+<td>Functieposities</td>
 <td>Taakfuncties worden gebruikt om compensatieplannen te classificeren en te filteren voor specifieke taken.</td>
 </tr>
 <tr class="even">

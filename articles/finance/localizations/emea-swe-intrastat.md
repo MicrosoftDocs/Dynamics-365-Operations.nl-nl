@@ -9,12 +9,12 @@ ms.reviewer: kfender
 ms.search.region: Global
 ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: 404fb8dff1519aefb2f4af25eb95dfa6fce75b7c
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417077"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7486941"
 ---
 # <a name="swedish-intrastat"></a>Zweedse Intrastat
 
@@ -48,7 +48,7 @@ Meer informatie is te vinden in [ER-configuraties downloaden uit de Algemene ops
 3. Selecteer in het veld **Rapportindelingstoewijzing** de optie **Intrastat-rapport**.
 4. Selecteer op het sneltabblad **Hiërarchie van basisproductcodes** in het veld **Categoriehiërarchie** de optie **Intrastat**.
 5. Selecteer in het veld **Transactiecode** de transactiecode voor eigenschapsoverdrachten. Deze code wordt gebruikt voor transacties die tot een werkelijke of geplande eigendomsoverdracht tegen vergoeding (financieel of anders) leiden. De code kan ook worden gebruikt voor correcties. Bedrijven in Zweden gebruiken transactiecodes die uit één cijfer bestaan.
-6. Selecteer in het veld **Creditnota** de transactiecode voor de retourzending van goederen. Deze code wordt gebruikt voor de retourzending van goederen na de transactie die oorspronkelijk onder de transactiecode  geregistreerd is. Bedrijven in Zweden gebruiken transactiecodes die uit één cijfer bestaan.
+6. Selecteer in het veld **Creditnota** de transactiecode voor de retourzending van goederen.
 7. Geef in het tabblad **Eigenschappen land/regio** in het veld **Land/regio** een overzicht weer van alle landen of regio's waarmee uw organisatie zaken doet. Selecteer voor elk land of elke regio dat deel uitmaakt van de EU, in het veld **Land-/regiotype** de waarde **EU**, zodat het land in het Intrastat-rapport wordt weergegeven.
 
 ## <a name="set-up-the-product-parameters-for-the-intrastat-declaration"></a>De productparameters voor de Intrastat-aangifte instellen

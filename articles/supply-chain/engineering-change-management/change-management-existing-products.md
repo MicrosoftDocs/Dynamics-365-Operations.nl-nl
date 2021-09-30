@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2fd3d2e4f4c3e53913bd811728b0950c63b38bc5afe6fe5282b4cfb05f414619
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45c5774ac1f6db5845d6be6bf2f5d8f99063ea07
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744173"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488197"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Wijzigingsbeheer voor bestaande producten inschakelen
 
@@ -47,7 +47,9 @@ Als u dus een verschillend product hebt, kunt u dit alleen wijzigen in een techn
 
 Er moet een *categorie voor technische producten* worden toegewezen aan elk technisch product. U doet deze toewijzing wanneer u de wizard **Converteren naar technisch product** uitvoert. Categorieën voor technische producten moeten bestaan voor alle relevante standaardproducten *voordat* u deze producten kunt converteren.
 
-De categorie voor technische producten vormt een basis voor het maken van een technisch product en legt een set standaardwaarden en -beleidsregels vast. De categorie voor technische producten moet overeenkomen met het product dat u eraan toewijst. Het producttype en de dimensiegroep moeten bijvoorbeeld overeenkomen met het product en de bijbehorende categorie voor technische producten. Zie [Technische versies en categorieën van technische producten](engineering-versions-product-category.md) voor meer informatie.
+De categorie voor technische producten vormt een basis voor het maken van een technisch product en legt een set standaardwaarden en -beleidsregels vast. Engineeringkenmerken en hun standaardwaarden (zoals gedefinieerd voor de engineeringcategorie) worden ook toegepast op het resulterende engineeringproduct. U kunt de kenmerkwaarden bewerken en/of zo nodig meer engineeringkenmerken toevoegen aan het resulterende product.
+
+De categorie voor technische producten moet overeenkomen met het product dat u eraan toewijst. Het producttype en de dimensiegroep moeten bijvoorbeeld overeenkomen met het product en de bijbehorende categorie voor technische producten. Zie [Technische versies en categorieën van technische producten](engineering-versions-product-category.md) voor meer informatie.
 
 > [!IMPORTANT]
 > Met de wizard **Converteren naar technisch product** kunnen alleen producten worden geconverteerd naar technische producten waarbij de versie niet wordt bijgehouden in transacties. Daarom moet de optie **Versie in transacties traceren** worden ingesteld op *Nee* voor categorieën voor technische producten die u maakt om bestaande producten te converteren.

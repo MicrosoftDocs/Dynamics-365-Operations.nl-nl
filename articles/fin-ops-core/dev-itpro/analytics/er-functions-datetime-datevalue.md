@@ -2,7 +2,7 @@
 title: De ER-functie DATEVALUE
 description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) DATEVALUE.
 author: NickSelin
-ms.date: 12/04/2019
+ms.date: 09/08/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c2db02e95c0e744c863381cff779b92679e7a396d7edb7bf90d3bffc0229619
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 446f1357e54342073e73f86ef36e6467e029ebc4
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747588"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485569"
 ---
 # <a name="datevalue-er-function"></a>De ER-functie DATEVALUE
 
 [!include [banner](../includes/banner.md)]
 
-De functie `DATEVALUE` retourneert een *datumwaarde* die van een bepaalde tekstwaarde in de opgegeven indeling en in een optioneel opgegeven [cultuur](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) wordt geconverteerd naar een datumwaarde. Zie voor informatie over de ondersteunde indelingen [standaard](/dotnet/standard/base-types/standard-date-and-time-format-strings) en [aangepast](/dotnet/standard/base-types/custom-date-and-time-format-strings).
+De functie `DATEVALUE` retourneert een *[datumwaarde](er-formula-supported-data-types-primitive.md#date)* die van een bepaalde tekstwaarde in de opgegeven indeling en in een optioneel opgegeven [cultuur](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes) wordt geconverteerd naar een datumwaarde. Zie voor informatie over de ondersteunde indelingen [standaard](/dotnet/standard/base-types/standard-date-and-time-format-strings) en [aangepast](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="syntax-1"></a>Syntaxis 1
 
@@ -41,17 +41,17 @@ DATEVALUE (text, format, culture)
 
 ## <a name="arguments"></a>Argumenten
 
-`text`: *Tekenreeks*
+`text`: *[Tekenreeks](er-formula-supported-data-types-primitive.md#string)*
 
 Tekst die de in te delen waarde vertegenwoordigt.
 
 `format`: *Tekenreeks*
 
-De indeling van de betreffende tekst.
+De indeling van de betreffende tekst. Zie voor informatie over de ondersteunde indelingen [standaard](/dotnet/standard/base-types/standard-date-and-time-format-strings) en [aangepast](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 `culture`: *Tekenreeks*
 
-De cultuur die wordt gebruikt voor het indelen van de betreffende tekst.
+De cultuur die wordt gebruikt voor het indelen van de betreffende tekst. Voor meer informatie over de ondersteunde culturen zie [cultuur](/bingmaps/rest-services/common-parameters-and-types/supported-culture-codes).
 
 ## <a name="return-values"></a>Retourwaarden
 

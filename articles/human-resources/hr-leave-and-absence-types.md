@@ -1,8 +1,8 @@
 ---
 title: Verlof- en verzuimtypen configureren
 description: Typen verlof instellen die werknemers kunnen aanvragen in Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ca474fe12867ae767db936ad0b2995c4437bdf0ee94831450fda825b9e075dc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b616d1f2c8b0bc8131045424b01dbfaa82f41f84
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730413"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485802"
 ---
 # <a name="configure-leave-and-absence-types"></a>Verlof- en verzuimtypen configureren
 
@@ -65,9 +65,9 @@ Verloftypen in Dynamics 365 Human Resources geven de typen verlof aan die werkne
 
 1. Stel afrondingsopties in voor het verloftype. De beschikbare opties zijn **Geen**, **Naar boven**, **Naar beneden** en **Dichtstbijzijnde**. U kunt ook een afrondingsprecisie instellen voor het verloftype.
 
-2. Stel **Feestdagcorrectie** in voor het verloftype. Wanneer u deze optie selecteert, gebruikt Human Resources het aantal feestdagen dat op een werkdag valt om te bepalen hoe het verlof moet worden opgebouwd voor het verloftype. Als kerstdag bijvoorbeeld op een maandag valt, trekt Human Resources een dag af van het verloftype bij het verwerken van toerekeningen.
+2. Stel **Feestdagcorrectie** in voor het verloftype. Wanneer u deze optie selecteert, wordt het aantal feestdagen dat op een werkdag valt, gebruikt om te bepalen hoe het verlof moet worden opgebouwd voor het verloftype. Als kerstdag bijvoorbeeld op een maandag valt, trekt Human Resources een dag af van het verloftype bij het verwerken van toerekeningen.
 
-   U kunt feestdage instellen in de werktijdkalender. Zie [Een werktijdenkalender maken](hr-leave-and-absence-working-time-calendar.md) voor meer informatie
+   U kunt feestdage instellen in de werktijdkalender. Zie [Een werktijdenkalender maken](hr-leave-and-absence-working-time-calendar.md) voor meer informatie.
    
  3. Stel **Verloftype voor transporteren** in voor het verloftype. Wanneer u deze optie selecteert, worden transportsaldi overgeboekt naar het opgegeven verloftype. Het verloftype voor transporteren moet ook worden opgenomen in het plan voor verlof en verzuim. 
  
@@ -76,7 +76,7 @@ Verloftypen in Dynamics 365 Human Resources geven de typen verlof aan die werkne
 ## <a name="configure-the-required-attachment-per-leave-type"></a>De vereiste bijlage per verloftype configureren
 
 > [!NOTE]
-> Als u gebruik wilt maken van het veld **Bijlage vereist**, moet u eerst de functie **(Preview) Vereiste bijlage voor verlofaanvragen configureren** in Functiebeheer. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het inschakelen van preview-functies.
+> Als u gebruik wilt maken van het veld **Bijlage vereist**, moet u eerst de functie **Vereiste bijlage voor verlofaanvragen configureren** in Functiebeheer uitvoeren. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het inschakelen van functies.
 
 1. Selecteer **Verlof- en verzuimtypen** op de pagina **Verlof en verzuim** op het tabblad **Koppelingen** onder **Instellingen**.
 
@@ -87,7 +87,7 @@ Werknemers moeten een bijlage uploaden wanneer ze een nieuwe verlofaanvraag indi
 ## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Verlofeenheden (uren/dagen) per verloftype configureren
 
 > [!NOTE]
-> Als u de verlofeenheden per verloftypefunctionaliteit wilt gebruiken, moet u de functie **(Preview) Verlofeenheden configureren per verloftype** in Functiebeheer in schakelen. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het inschakelen van preview-functies.
+> Als u de verlofeenheden per verloftypefunctionaliteit wilt gebruiken, moet u de functie **Verlofeenheden configureren per verloftype** in Functiebeheer inschakelen. Zie [Functies beheren](hr-admin-manage-features.md) voor meer informatie over het inschakelen van functies.
 
 > [!IMPORTANT]
 > De verloftypen in een rechtspersoon gebruiken standaard de verlofeenheden uit de configuratie van verlofparameters op het niveau van de rechtspersoon.

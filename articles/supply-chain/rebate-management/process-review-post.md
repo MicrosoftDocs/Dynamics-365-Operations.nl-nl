@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 1a9603df8fd3b2c81c37ca95fd1b13d0b6f4004a38b0cf86846486e3b5d41bfa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: db3c7561a7249930def2e519f3b6718c429fa3ba
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729404"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500470"
 ---
 # <a name="process-review-and-post-rebates"></a>Kortingen verwerken, controleren en boeken
 
@@ -43,8 +43,6 @@ De periodieke taak **FIFO-inkoopprijs berekenen** moet worden uitgevoerd om de k
 Ga naar **Kortingsbeheer \> Periodieke taken \> FIFO-inkoopprijs berekenen**. Selecteer **OK** in het dialoogvenster dat wordt weergegeven om de berekening uit te voeren.
 
 ## <a name="create-source-transactions"></a>Brontransacties maken
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 U kunt de verkooporders of inkooporders met brontransacties maken voor of nadat u een toepasselijke kortingsbeheeractie maakt.
 
@@ -158,8 +156,6 @@ In plaats van specifieke deals of dealregels te verwerken, u een batchtaak uitvo
 
 ### <a name="process-deals-by-using-the-rebate-workbench"></a>Deals verwerken met behulp van de kortingsworkbench
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 In plaats van specifieke deals of dealregels te verwerken, kunt u de *kortingsworkbench* gebruiken om meerdere deals tegelijkertijd te verwerken. U kunt optioneel recordfilters toepassen en/of een terugkerend schema instellen. U hoeft geen rijen te selecteren. Alle regels worden verwerkt die voldoen aan de datum- en filtervereisten die u hebt ingesteld.
 
 Volg deze stappen om deals te verwerken met de kortingsworkbench.
@@ -213,8 +209,6 @@ Doe het volgende om kortingsbeheertransacties weer te geven en te bewerken met d
 > Als u een claimproces gebruikt, bevat de transactielijst wanneer u de volgende periode verwerkt alle niet-geclaimde transacties uit de vorige boeking, plus eventuele nieuwe transacties voor de geselecteerde periode.
 
 ### <a name="view-and-edit-rebate-management-transactions-by-using-the-rebate-workbench"></a>Kortingsbeheertransacties weergeven en bewerken met de kortingsworkbench
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Doe het volgende om kortingsbeheertransacties weer te geven en te bewerken met de kortingsworkbench.
 
@@ -295,8 +289,6 @@ In plaats van transacties te boeken voor specifieke deals of dealregels, kunt u 
 
 ### <a name="post-transactions-by-using-the-rebate-workbench"></a>Transacties boeken met behulp van de kortingsworkbench
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Nadat u voorzienings-, kortings- of afschrijvingstransacties hebt verwerkt, volgt u deze stappen om de kortingsworkbench te gebruiken om de gegenereerde transacties voor een of meer specifieke transactieregels voor alle deals te controleren en te boeken.
 
 1. Ga naar **Kortingsbeheer \> Deals voor kortingbeheer \> Kortingsworkbench**.
@@ -332,8 +324,6 @@ Volg deze stappen om de journaalposten te controleren die zijn gekoppeld aan een
 
 ### <a name="review-journals-by-using-the-rebate-workbench"></a>Journalen controleren met behulp van de kortingsworkbench
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Volg deze stappen om journalen te controleren met de kortingsworkbench.
 
 1. Ga naar **Kortingsbeheer \> Deals voor kortingbeheer \> Kortingsworkbench**.
@@ -342,8 +332,6 @@ Volg deze stappen om journalen te controleren met de kortingsworkbench.
 1. Er wordt een lijst met relevante dagboeken, documenten of artikelen weergegeven. Als u meer informatie over een journaal, document of artikel wilt weergeven, selecteert u de bijbehorende rij en selecteert u vervolgens in het actievenster de optie **Details weergeven**.
 
 ## <a name="rebate-management-transactions-on-the-deduction-workbench"></a>Kortingsbeheertransacties op de inhoudingsworkbench
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Wanneer u een kortingsbeheertransactie met een van de volgende **betalingstype** waarden boekt, wordt een klantinhoudingsjournaal of een vrije-tekstfactuur gemaakt voor de relevante klantrekening:
 
@@ -358,8 +346,6 @@ Zie voor meer informatie [Inhoudingen beheren met de inhoudingsworkbench](deduct
 
 ## <a name="purge-unposted-transactions"></a>Niet-geboekte transacties leegmaken
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Nadat u voorzienings-, kortings- of afschrijvingstransacties hebt verwerkt, gaat u als volgt te werk om geselecteerde niet-boekte transacties leeg te maken.
 
 1. Ga naar **Kortingsbeheer \> Deals voor kortingbeheer \> Kortingsworkbench**.
@@ -368,8 +354,6 @@ Nadat u voorzienings-, kortings- of afschrijvingstransacties hebt verwerkt, gaat
 4. Klik op **OK** om de niet-geboekte transacties te verwijderen.
 
 ## <a name="cancel-a-posted-provision"></a>Een geboekte voorziening annuleren
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Nadat u een voorziening hebt verwerkt en geboekt, volgt u deze stappen om de geboekte voorzieningstransacties te annuleren.
 

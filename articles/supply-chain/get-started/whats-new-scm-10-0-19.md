@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd82ad9a0eb2f8f85bc7dad0ae174726234ad84f
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 86735065864149df27cd3d8b03451ace773af048
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474887"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506850"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management versie 10.0.19 (juni 2021)
 
@@ -40,8 +40,7 @@ De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-
 | Voorraad en logistiek | [Incrementele verbeteringen voor uitvoerbewerkingen van magazijn met schaaleenheden](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Berichten van berichtenverwerker](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Magazijnvoorraadcorrectie](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Voorraad en logistiek | [Opzoekfunctie voor velden voor documentintroductie en documentconclusie op de offertepagina van verkoop](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Met deze functie wordt opzoekfunctionaliteit voor de velden **Documentintroductie** en **Documentconclusie** op de pagina **Verkoopofferte** toegevoegd.<br><br>Deze functie is standaard ingeschakeld. |
 | Voorraad en logistiek | [Uitvoerbewerkingen van magazijn met schaaleenheden voor randapparatuur op uw aangepaste hardware](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Schaaleenheden voor randapparatuur implementeren op aangepaste hardware met LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Productie | [Uitvoerbewerkingen van manufacturing met schaaleenheden voor randapparatuur op uw aangepaste hardware](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Randschaaleenheden implementeren op aangepaste hardware met LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Planning | [Oneindige capaciteitsplanning voor Planningsoptimalisatie](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Plannen met onbeperkte capaciteit](../master-planning/planning-optimization/infinite-capacity-planning.md) |
+| Productie | [Uitvoerbewerkingen van manufacturing met schaaleenheden voor randapparatuur op uw aangepaste hardware](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Schaaleenheden voor randapparatuur implementeren op aangepaste hardware met LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | Planning | Fiattering geplande order op basis van query | [Vast geplande orders](../master-planning/planning-optimization/planned-order-firming.md) |
 | Productgegevensbeheer | [Verbeteringen voor pagina met variantsuggesties](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Vooraf gedefinieerde productvarianten maken](../pim/tasks/create-predefined-product-variants.md) |
 

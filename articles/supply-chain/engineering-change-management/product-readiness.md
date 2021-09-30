@@ -12,22 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
-ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
+ms.openlocfilehash: 12707774c780a0f805deed532af27c3705ea1f55
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7415316"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500578"
 ---
 # <a name="product-readiness"></a>Productgereedheid
 
 [!include [banner](../includes/banner.md)]
 
-U kunt de gereedheidscontroles gebruiken om ervoor te zorgen dat alle vereiste hoofdgegevens voor een product zijn gespecificeerd voordat deze in transacties worden gebruikt. Wanneer de gereedheidscontroles worden gebruikt, wordt de gebruiker of het team verantwoordelijk gemaakt voor het valideren van specifieke, vooraf gedefinieerde, productgerelateerde gegevens. Als er een gereedheidscontrole van een product openstaat, kan het product niet worden gebruikt in transacties.
+U kunt de gereedheidscontroles gebruiken om beter te waarborgen dat alle vereiste hoofdgegevens voor een product zijn gespecificeerd voordat deze in transacties worden gebruikt. Wanneer de gereedheidscontroles worden gebruikt, wordt de gebruiker of het team verantwoordelijk gemaakt voor het valideren van specifieke, vooraf gedefinieerde, productgerelateerde gegevens.
 
-Het selectievakje **Actief** voor een technisch product, een variant of een versie is pas beschikbaar nadat alle vereiste gegevens zijn ingevoerd en geverifieerd, en nadat alle gereedheidscontroles zijn verwerkt. Op dat moment kan het product, de versie of de variant worden gebruikt in transacties. U kunt gereedheidscontroles maken voor nieuwe producten, nieuwe varianten en nieuwe technische versies.
+U kunt het selectievakje **Actief** inschakelen voor een technisch product, een variant of een versie nadat alle vereiste gegevens zijn ingevoerd en geverifieerd, en nadat alle gereedheidscontroles zijn verwerkt. Als een of meer controles niet zijn verwerkt voor het product, de versie of variant, verschijnt er een waarschuwing dat niet alle controles zijn uitgevoerd wanneer u het selectievakje **Actief** probeert te markeren.
 
-U kunt ook gereedheidscontroles toepassen op standaardproducten (niet-technisch). Zie het gedeelte [Gereedheidscontroles op standaardproducten](#standard-products) verderop dit onderwerp voor meer informatie.
+U kunt gereedheidscontroles maken voor nieuwe engineeringproducten, varianten en versies. U kunt ook gereedheidscontroles toepassen op standaardproducten (niet-engineering) (zie ook [Gereedheidscontroles op standaardproducten](#standard-products)). 
+
+U kunt standaardproducten in transacties gebruiken, ook als niet alle controles op gereedheid zijn voltooid. Als u een product moet blokkeren om te voorkomen dat het in transacties wordt gebruikt, gebruikt u de levenscyclusstatus. U kunt een levenscyclusstatus toewijzen die blokkeert dat een product wordt gebruikt in transacties, en vervolgens, nadat alle controles op gereedheid zijn voltooid, kunt u een nieuwe levenscyclusstatus toewijzen die de vereiste transacties toestaat.
 
 ## <a name="types-of-readiness-checks"></a>Typen gereedheidscontroles
 

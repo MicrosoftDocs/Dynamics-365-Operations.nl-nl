@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d2e1e4596a6052ea80d6e578dccf2564269d97444cd5b302acb5968cca2c884f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d8e2a42d8e12a5a9cf18e876b6f9e45ecb877881
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782582"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500018"
 ---
 # <a name="update-tracking-for-put-away"></a>Bijhouden van updates voor wegzetten
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 De periodieke taak *Bijhouden van updates voor wegzetten* is ontworpen om 's nachts als een terugkerende batch te worden uitgevoerd. Het geeft aan welke reizen alle voorraadtransacties hebben ontvangen en welke reizen geen waarde hebben voor de werkelijke einddatum. Vervolgens wordt de werkelijke einddatum op de huidige datum ingesteld.
 

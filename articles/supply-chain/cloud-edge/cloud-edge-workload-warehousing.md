@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3de160cb4e62f9b30c01c56fa6fe5a4dfad5229
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471711"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500422"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
 
@@ -157,6 +157,7 @@ De volgende magazijnbeheerfunctionaliteit wordt momenteel niet ondersteund voor 
 
 - Inkomende verwerking met inkooporderregels die aan een belasting zijn toegewezen.
 - Inkomende verwerking van inkooporders voor een project.
+- Het beheren van francokosten, inclusief reizen en traceren van goederen in transit.
 - Inkomende en uitgaande verwerking voor items met actieve traceringsdimensies **Eigenaar** en/of **Serienummer**.
 - Verwerking van voorraad met een blokkeringsstatuswaarde.
 - Een voorraadstatus wijzigen tijdens een werkverplaatsingsproces.
@@ -187,6 +188,7 @@ In de volgende tabel ziet u welke uitgaande functies worden ondersteund en waar 
 |--------------------------------------------------------------|-----|------------------------------|
 | Brondocumenten verwerken                                   | Ja | No |
 | Laad- en transportbeheer verwerken                | Ja, maar alleen de processen voor ladingplanning. Verwerking van transportbeheer wordt niet ondersteund  | No |
+| Francoprijzen voor goederen in transit ontvangen                                         | Ja | No |
 | Vrijgeven aan magazijn                                         | Ja | No |
 | Gepland cross-docken                                        | No  | No |
 | Zendingen samenvoegen                                       | Ja, bij gebruik van ladingplanning | Ja |

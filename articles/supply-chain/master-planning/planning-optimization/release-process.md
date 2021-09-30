@@ -2,7 +2,7 @@
 title: Vrijgaveproces en vrijgavegeschiedenis van Planningsoptimalisatie
 description: Dit onderwerp geeft informatie over het vrijgaveproces en de vrijgavegeschiedenis voor Planningsoptimalisatie.
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d0f7a9f59d1034451c5c2dec1150c017bda27ad4
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 1bf08fc75aa2c05b2f2974ee46ec16609505f696
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474695"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506778"
 ---
 # <a name="planning-optimization-release-process-and-release-history"></a>Vrijgaveproces en vrijgavegeschiedenis van Planningsoptimalisatie
 
@@ -33,6 +33,7 @@ Omdat meldingen niet worden weergegeven wanneer Planningsoptimalisatie in uw omg
 
 | Wijzigingen | Informatie over Functiebeheer | Vrijgavedatum |
 |---|---|---|
+| <p>Extra ondersteuning voor hoofdplannen waarbij **Planningsmethode** is ingesteld op *Bewerkingsplanning*.</p><p>Houd op de pagina **Routegroepen** rekening met de instellingen voor de selectievakjes **Activering**, **Werktijd** en **Capaciteit** voor rijen met een **Type route/taak** van *Instellingen* of *Proces*. </p><p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit. | <p>Bewerkingsplanning is beschikbaar in Functiebeheer vanaf versie 10.0.20.</p><p>Functienaam: *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie*</p>  | 9-17 september 2021 |
 | Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit. | Functiebeheer is niet vereist. | 25 - 30 augustus 2021 |
 | <p>Het veld **Doorlooptijd** toegevoegd aan geplande orders.</p><p>Verbeteringen in de algemene prestaties, kwaliteit en stabiliteit.</p> | Functiebeheer is niet vereist. | 12 - 17 augustus 2021 |
 | <p>Vereisten voor resourcetypen voor onbeperkte capaciteitsplanning toegevoegd.</p><p>Efficiëntie van resources en kalender voor onbeperkte capaciteitsplanning verbeterd.</p><p>Raadpleeg [Plannen met onbeperkte capaciteit](infinite-capacity-planning.md) voor meer informatie. | <p>Beschikbaar in Functiebeheer vanaf versie 10.0.20.</p><p>Functienaam: *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie*</p> | 6 - 12 juli 2021 |

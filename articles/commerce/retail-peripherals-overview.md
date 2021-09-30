@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715329"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500298"
 ---
 # <a name="peripherals"></a>Randapparaten
 
@@ -562,7 +562,7 @@ Deze configuratie kan worden gebruikt voor alle Modern POS-clients die hardwares
 > Als apparaten vaak verschillende hardwarestations gebruiken, raden we aan om Modern POS te configureren om kassiers te vragen een hardwarestation te selecteren, op het moment dat ze beginnen de betalingsmethode te selecteren. Klik op **Detailhandel en commerce** &gt; **Kanaalinstellingen** &gt; **POS-instellingen** &gt; **Kassa's**. Selecteer de kassa en stel de optie **Selecteren bij offertes** in op **Ja**. Gebruik de distributieplanning **1090** om wijzigingen te synchroniseren naar de kanaaldatabase.
 
 ## <a name="extensibility"></a>Uitbreidbaarheid
-Zie voor informatie over uitbreidbaarheidsscenario's voor het hardwarestation het onderwerp [Uitbreidbaarheid van hardwarestations](dev-itpro/hardware-station-extensibility.md).
+Zie voor informatie over uitbreidbaarheidsscenario's voor het hardwarestation [Het POS integreren met een nieuw hardwareapparaat en het installatieprogramma voor uitbreidingen genereren](dev-itpro/hardware-device-extension.md).
 
 ## <a name="security"></a>Beveiliging
 Volgens de huidige beveiligingsnormen moeten de volgende instellingen worden gebruikt in een productieomgeving: 

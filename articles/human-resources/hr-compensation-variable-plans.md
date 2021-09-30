@@ -1,8 +1,8 @@
 ---
-title: Variabelecompensatieplannen maken
-description: Variabele compensatie heeft betrekking op de onregelmatige inkomsten van een werknemer, zoals bonussen of aandelenpakketten. In dit artikel worden de onderdelen beschreven die u moet instellen voordat u variabele compensatie kunt gebruiken en werknemers kunt inschrijven voor een plan voor variabele compensatie.
-author: andreabichsel
-ms.date: 06/20/2017
+title: Plannen voor variabele compensatie maken
+description: In dit onderwerp worden de onderdelen beschreven die u moet instellen voordat u variabele compensatie kunt gebruiken en werknemers kunt inschrijven voor een plan voor variabele compensatie.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,32 +12,32 @@ ms.search.scope: Human Resources
 ms.custom: 16011
 ms.assetid: fc3a394e-9ac6-4f8c-9162-dc16ec22720f
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5bceecbf0095eaac6c8cab3a954cd6d03fd380c66061b3996169fced7e14ca9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a8e3f8535e509b4c1922f083e4182eb5f1a83c3c
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732316"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484163"
 ---
 # <a name="create-variable-compensation-plans"></a>Variabelecompensatieplannen maken
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Variabele compensatie heeft betrekking op de onregelmatige inkomsten van een werknemer, zoals bonussen of aandelenpakketten. In dit artikel worden de onderdelen beschreven die u moet instellen voordat u variabele compensatie kunt gebruiken en werknemers kunt inschrijven voor een plan voor variabele compensatie.
+Variabele compensatie heeft betrekking op de onregelmatige inkomsten van een werknemer, zoals bonussen of aandelenpakketten. In dit onderwerp wordt beschreven hoe u de onderdelen instelt die nodig zijn variabele compensatie, en hoe u werknemers inschrijft voor een plan voor variabele compensatie.
 
 De berekening van variabele compensatiebedragen voor uw werknemers kan worden gebaseerd op verschillende factoren, zoals de prestaties van de werknemer, het compensatieniveau van de werknemer en de prestaties van de afdeling.
 
 ## <a name="variable-compensation-components"></a>Onderdelen van variabele compensatie
 ### <a name="create-compensation-types"></a>Compensatietypen maken
 
-**Typen variabele compensatie** zijn een vereist onderdeel. Met typen variabele compensatie kunt u de soorten variabele compensatie beschrijven die uw organisatie toekent. Met deze typen variabele compensatie kunt u ook opgeven of de compensatie contant of in een niet-monetaire vorm, zoals een aandeel, plaatsvindt.
+**Typen variabele compensatie** zijn een vereist onderdeel. Met **typen variabele compensatie** kunt u de soorten variabele compensatie beschrijven die uw organisatie toekent. Met deze typen variabele compensatie kunt u ook opgeven of de compensatie contant of in een niet-monetaire vorm, zoals een aandeel, plaatsvindt.
 
 ### <a name="describe-vesting-rules"></a>Toekenningsregels omschrijven
 
-Bedrijven kunnen desgewenst **toekenningsregels** instellen. Met vestigingsregels wordt beschreven hoe de variabele beloning na verloop van tijd moet worden toegewezen. Een vestigingsregel kan bijvoorbeeld aangeven dat de werknemer 25 procent van de totale beloning elk jaar voor de volgende vier jaar ontvangt. Vestigingsregels zijn alleen ter informatie.
+Bedrijven kunnen desgewenst **vestigingsregels** instellen. Met **vestigingsregels** wordt beschreven hoe de variabele beloning na verloop van tijd moet worden toegewezen. Een vestigingsregel kan bijvoorbeeld aangeven dat de werknemer 25 procent van de totale beloning elk jaar voor de volgende vier jaar ontvangt. Vestigingsregels zijn alleen ter informatie.
 
 ## <a name="variable-compensation-plans"></a>Variabelecompensatieplannen
 Het **variabelecompensatieplan** bevat de regels, de berekeningsmethoden en de standaardwaarden voor de berekening van variabele compensatie voor ingeschreven werknemers. Wanneer u een variabel compensatieplan maakt, moet u het variabele compensatietype instellen. Met het variabele compensatietype wordt bepaald of een valutabedrag of een aantal eenheden als beloning wordt berekend. U moet de berekeningsmethode ook instellen:
@@ -47,10 +47,10 @@ Het **variabelecompensatieplan** bevat de regels, de berekeningsmethoden en de s
 
 Het bedrag van de variabele toekenning kan op een percentage van de normale basisinkomsten van de werknemer of een bepaald aantal eenheden worden gebaseerd.
 
--   Selecteer de optie **Percentage van basis** om een standaardpercentage in te voeren en geef op of de basis het vaste salaristarief van de werknemer of het controlepunt voor het compensatieniveau van de werknemer moet zijn. Het compensatieniveau wordt ingesteld op de functie van de werknemer. Een van de referentiepunten uit de compensatiestructuur kan worden ingesteld als het controlepunt in het vaste compensatieplan. Het systeem gebruikt het compensatieniveau van de functie van de werknemer en voert een kruisverwijzing uit met het controlepunt dat wordt vermeld in het vaste compensatieplan van de werknemer om het controlepuntbedrag te vinden voor het compensatieniveau van de werknemer. Het controlepuntbedrag wordt vervolgens gebruikt in plaats van het vaste loontarief van de werknemer als de basis voor de beloning.
+-   Selecteer de optie **Percentage van basis** om een standaardpercentage in te voeren en geef op of de basis het vaste salaristarief van de werknemer of het controlepunt voor het compensatieniveau van de werknemer moet zijn. Het compensatieniveau wordt ingesteld op de functie van de werknemer. Een van de referentiepunten uit de compensatiestructuur kan worden ingesteld als het controlepunt in het vaste compensatieplan. Het compensatieniveau van de functie van de werknemer wordt gebruikt en er wordt kruisverwijzing uitgevoerd met het controlepunt dat wordt vermeld in het vaste compensatieplan van de werknemer om het controlepuntbedrag te vinden voor het compensatieniveau van de werknemer. Het controlepuntbedrag wordt vervolgens gebruikt in plaats van het vaste loontarief van de werknemer als de basis voor de beloning.
 -   Selecteer de optie **Aantal eenheden** om een standaardaantal eenheden, de waarde van elke eenheid en de valuta van de eenheidswaarde in te voeren als het compensatieplan voor een niet-contante toekenning is (bijvoorbeeld 200 eenheden van voorraad die wordt gewaardeerd op 40 USD) of alleen het aantal eenheden als het compensatieplan voor een contante toekenning is. Voor een contante beloning ontvangt de werknemer het opgegeven aantal eenheden van de valuta die wordt gebruikt voor het vaste compensatieplan (bijvoorbeeld 500 eenheden van 1 EUR). Het besturingselement van de een-op-een-relatie kan worden gebruikt om aan te geven of er een directe een-op-een-toewijzing tussen het aantal eenheden en de waarde per eenheid is. Wanneer u een variabel compensatieplan maakt voor een op contanten gebaseerd plan met behulp van het aantal eenheden, wordt deze optie automatisch vergrendeld op **Ja** en is de eenheidwaarde **1,0000**.
 
-Met de instelling **Aanstellingsregel** kunt u opgeven of alle werknemers dezelfde verhoging moeten krijgen, ongeacht de datum waarop ze in dienst zijn gekomen (**Aanstellingsregel** = **Geen**) of dat werknemers een percentage krijgen van de beloning die wordt gebaseerd op de duur van het dienstverband gedurende de cyclus (**Aanstellingsregel** = **Percentage**). 
+De instelling **Aanstellingsregel** geeft aan of alle werknemers dezelfde verhoging moeten krijgen, ongeacht de datum waarop ze in dienst zijn gekomen (**Aanstellingsregel** = **Geen**) of dat werknemers een percentage krijgen van de beloning die wordt gebaseerd op de duur van het dienstverband gedurende de cyclus (**Aanstellingsregel** = **Percentage**). 
 
 Met **Hefboomwerking** kunt u de beloning van een werknemer aanpassen op basis van de prestaties van de afdeling van de werknemer. Prestatiegegevens kunnen voor elke afdeling worden ingesteld op de pagina **Afdelingen** onder **Gerelateerde formulieren** &gt; **Compensatie** &gt; **Prestaties**. De beloning die werknemers in die afdeling ontvangen, is afhankelijk van de waarde van het veld **Percentage van bereikt doel** waarmee de prestaties van de afdeling worden aangegeven:
 
@@ -60,11 +60,11 @@ Met **Hefboomwerking** kunt u de beloning van een werknemer aanpassen op basis v
 
 U kunt **tolerantieniveaus** voor de drempelpercentages instellen, zodat een waarschuwingsbericht wordt weergegeven als de hefboomwerking ervoor zorgt dat het percentage buiten het drempelpercentage valt. 
 
-Standaard wordt gezocht naar de afdeling die is ingesteld op de positie van de werknemer. De beloning voor sommige werknemers kan echter afhankelijk zijn van de prestaties van meerdere afdelingen. In dit geval kunnen de verschillende afdelingen en het percentage van de beloning die aan de prestaties van elke afdeling is toegewezen, worden ingesteld op de inschrijving voor de variabele compensatie van de werknemer. Zie de volgende sectie 'Inschrijving op variabele compensatie' voor meer informatie. 
+Standaard wordt de afdeling die is ingesteld op de positie van de werknemer, gebruikt voor medewerkersbeloningen. De beloning voor sommige werknemers kan echter afhankelijk zijn van de prestaties van meerdere afdelingen. In dit geval kunnen de verschillende afdelingen en het percentage van de beloning die aan de prestaties van elke afdeling is toegewezen, worden ingesteld op de inschrijving voor de variabele compensatie van de werknemer. Zie de volgende sectie 'Inschrijving op variabele compensatie' voor meer informatie. 
 
 De hefboomwerking wordt alleen gebruikt als **Prestatieloon** is geselecteerd wanneer het compensatieproces wordt uitgevoerd. 
 
-Met het tabblad **Overschrijvingen niveaus** kunt u het standaardpercentage van de beloning of het aantal eenheden op basis van het compensatieniveau van de werknemer overschrijven. Als **Overschrijvingen voor niveaus inschakelen** is ingesteld op **Ja** voor werknemers die zijn ingeschreven voor het variabele compensatieplan, wordt het niveau van de functie van de werknemer gebruikt en wordt vervolgens gezocht naar de tabel met niveau-overschrijvingen om het percentage of het aantal eenheden voor dat niveau te bepalen. Als het niveau niet wordt gevonden in de tabel met niveau-overschrijvingen, wordt het standaardpercentage of het aantal eenheden van het tabblad **Algemeen** gebruikt. Het percentage en het aantal eenheden kunnen ook worden overschreven in de inschrijving van de werknemer in het variabele compensatieplan.
+Met het tabblad **Overschrijvingen niveaus** kunt u het standaardpercentage van de beloning of het aantal eenheden op basis van het compensatieniveau van de werknemer overschrijven. Als **Overschrijvingen voor niveaus inschakelen** is ingesteld op **Ja** voor werknemers die zijn ingeschreven voor het variabele compensatieplan, wordt het niveau van de functie van de werknemer gebruikt en vergeleken met de tabel met niveau-overschrijvingen om het percentage of het aantal eenheden voor dat niveau te bepalen. Als het niveau niet wordt gevonden in de tabel met niveau-overschrijvingen, wordt het standaardpercentage of het aantal eenheden van het tabblad **Algemeen** gebruikt. Het percentage en het aantal eenheden kunnen ook worden overschreven in de inschrijving van de werknemer in het variabele compensatieplan.
 
 ## <a name="variable-compensation-enrollment"></a>Inschrijving op variabele compensatie
 ### <a name="determine-who-is-eligible-for-the-plan"></a>Bepalen wie voor het plan aanmerking komt

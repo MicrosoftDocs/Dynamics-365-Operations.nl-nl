@@ -2,7 +2,7 @@
 title: Planning met onbeperkte capaciteit
 description: Dit onderwerp biedt informatie over onbeperkte capaciteitsplanning voor Planningsoptimalisatie. Het bevat ook een beschrijving van huidige functiebeperkingen.
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2e730340cddac107b04a6b5877e51b84f4dd7b21
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 9e1e423aaed06f6bb2b42e27d41c2aef46ffe104
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471663"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506802"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Planning met onbeperkte capaciteit
 
@@ -27,7 +27,12 @@ Met de functie *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie* word
 
 ## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>De functie voor planning van onbeperkte capaciteit inschakelen
 
-Als uw systeem nog niet is uitgerust met de functie die in dit onderwerp wordt beschreven, opent u het werkgebied [Functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) en schakelt u de functie *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie* in.
+Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+
+- **Module:** *Hoofdplanning*
+- **Functienaam**: *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie*
+
+Zie [Planning met bronselectie op basis van capaciteit](capability-based-scheduling.md) voor meer informatie over deze functie.
 
 ## <a name="added-functionality"></a>Toegevoegde functionaliteit
 
@@ -42,7 +47,7 @@ Tijdens het planningsproces wordt ook rekening gehouden met de *resourcevereiste
 - Resourcetype
 - Bron
 - Resourcegroep
-- Mogelijkheid
+- Capaciteit (voor meer informatie zie [Planning met bronselectie op basis van capaciteit](capability-based-scheduling.md).)
 
 > [!NOTE]
 > Vereisten met betrekking tot Human Resources, zoals vaardigheden of certificaatvereisten, worden nog niet ondersteund.
@@ -55,7 +60,6 @@ In het kort ondersteunt planning voor Planningsoptimalisatie de meest gebruikte 
 
 Bij het gebruik van planning voor Planningsoptimalisatie gelden de volgende beperkingen:
 
-- De functie ondersteunt alleen taakplanning. Instellingen die betrekking hebben op bewerkingsplanning worden tijdens de planning niet in aanmerking genomen, ongeacht de planningsmethode in hoofdplannen.
 - De functie ondersteunt alleen onbeperkte capaciteit.
 - De functie ondersteunt geen functionaliteit voor belasting van resources.
 - De functie houdt geen rekening met route-uitval.

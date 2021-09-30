@@ -2,7 +2,7 @@
 title: De rol van verzuimmanager configureren
 description: In dit onderwerp wordt uitgelegd hoe u de rol van verzuimmanager kunt instellen voor het beheren van werknemersverzuim.
 author: hasrivas
-ms.date: 07/19/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f2a2fd0a1ad1cca19625ff1029962f608251f1d
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732340"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485749"
 ---
 # <a name="configure-the-absence-manager-role"></a>De rol van verzuimmanager configureren
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 In sommige organisaties beheren peoplemanagers het verlof voor hun team mogelijk niet. In plaats daarvan kan een verzuimmanager dit proces voor teamleden op meerdere afdelingen en in meerdere teams verwerken. Verzuimmanagers hebben de volgende mogelijkheden voor verlofbeheer:
 
@@ -38,7 +36,7 @@ In sommige organisaties beheren peoplemanagers het verlof voor hun team mogelijk
 
 1. Selecteer in de werkruimte **Systeembeheer** de optie **Functiebeheer**.
 
-2. Schakel op het tabblad **Functiebeheer** de functie **(Preview) Verlof laten beheren door een verzuimmanager** in.
+2. Schakel op het tabblad **Functiebeheer** de functie **Verlof laten beheren door een verzuimmanager** in.
 
 ## <a name="define-a-custom-hierarchy"></a>Een aangepaste hiërarchie definiëren
 
@@ -129,7 +127,7 @@ Gebruikers met de rol van verzuimmanager kunnen verlofaanvragen op hun kalender 
 > [!IMPORTANT]
 > Een systeembeheerder moet de weergaveopties configureren voor de kalender van de verzuimmanager. Op de pagina **Verlof- en verzuimparameters** op het tabblad **Kalender** kunt u verjaardagen, verzuim zonder details, verlof en uitstaande verlofaanvragen verbergen of weergeven. Er is ook een optie om de kalenderweergaveoptie te filteren op werknemertype.
 
-1. Selecteer in de werkruimte **Selfservice werknemer** de optie **Verlofbeheer** en vervolgens **Kalender verzuimmanager**.
+1. Selecteer in de werkruimte **Selfservice werknemer** **Verlofbeheer** en vervolgens **Kalender verzuimmanager**.
 
 2. Voer in het veld **Datum** de gewenste datum in.
 

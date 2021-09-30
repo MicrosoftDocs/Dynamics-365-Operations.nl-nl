@@ -2,7 +2,7 @@
 title: Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 description: Dit onderwerp bevat informatie over het ontwerpen van een ER-indeling (Elektronische rapportage) voor het invullen van een Excel-sjabloon en het genereren van uitgaande Excel-documenten.
 author: NickSelin
-ms.date: 03/10/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d737c3a58bf94079b8b674238ed7dd651e238752a2bd992f57c9be4b95aedae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748467"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488133"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
 
@@ -138,6 +138,55 @@ Zie [Afbeeldingen en vormen insluiten in documenten die u genereert met ER](elec
 
 Het onderdeel **Pagina-einde** zorgt ervoor dat er een nieuwe pagina wordt gestart in Excel. Dit onderdeel is niet vereist als u de standaardpaginering van Excel wilt gebruiken, maar u moet deze functie gebruiken wanneer u wilt dat Excel uw ER-indeling volgt om de paginering te structureren.
 
+## <a name="page-component"></a><a name="page-component"></a>Paginaonderdeel
+
+### <a name="overview"></a>Overzicht
+
+U kunt het onderdeel **Pagina** gebruiken wanneer u wilt dat Excel de ER-indeling en structuurpaginering volgt in een gegenereerd uitgaand document. Wanneer in een ER-indeling onderdelen worden uitgevoerd die onder het onderdeel **Pagina** vallen, worden de vereiste pagina-eindes automatisch toegevoegd. Tijdens dit proces wordt rekening gehouden met de grootte van de gegenereerde inhoud, de pagina-instelling van de Excel-sjabloon en het papierformaat dat is geselecteerd in de Excel-sjabloon.
+
+Als u een gegenereerd document wilt opsplitsen in verschillende secties (die elk een andere paginering hebben), kunt u verschillende onderdelen **Pagina** configureren in elk onderdeel [Werkblad](er-fillable-excel.md#sheet-component).
+
+### <a name="structure"></a><a name="page-component-structure"></a>Structuur
+
+Als de eerste component onder het onderdeel **Pagina** een onderdeel [Bereik](er-fillable-excel.md#range-component) is waarbij de eigenschap **Replicatierichting** is ingesteld op **Geen replicatie**, wordt dit bereik beschouwd als paginakoptekst voor paginering die is gebaseerd op de instellingen van het huidige onderdeel **Pagina**. Het Excel-bereik dat aan dit opmaakonderdeel is gekoppeld, wordt herhaald boven aan elke pagina die wordt gegenereerd op basis van de instellingen van het huidige onderdeel **Pagina**.
+
+> [!NOTE]
+> Voor correcte paginering, als het bereik [Te herhalen rijen bovenaan](https://support.microsoft.com/office/repeat-specific-rows-or-columns-on-every-printed-page-0d6dac43-7ee7-4f34-8b08-ffcc8b022409) is geconfigureerd in uw Excel-sjabloon, moet het adres van dit Excel-bereik gelijk zijn aan het adres van het Excel-bereik dat is gekoppeld aan het eerder beschreven onderdeel **Bereik**.
+
+Als de laatste component onder het onderdeel **Pagina** een onderdeel **Bereik** is waarbij de eigenschap **Replicatierichting** is ingesteld op **Geen replicatie**, wordt dit bereik beschouwd als paginavoettekst voor paginering die is gebaseerd op de instellingen van het huidige onderdeel **Pagina**. Het Excel-bereik dat aan dit opmaakonderdeel is gekoppeld, wordt herhaald onder aan elke pagina die wordt gegenereerd op basis van de instellingen van het huidige onderdeel **Pagina**.
+
+> [!NOTE]
+> Voor juiste paginering moeten de Excel-bereiken die zijn gekoppeld aan de onderdelen **Bereik**, niet van grootte worden veranderd tijdens runtime. Het is niet aan te raden cellen van dit bereik op te maken met behulp van de Excel-[opties](https://support.microsoft.com/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84) **Teruglooptekst in een cel** en **Rijhoogten automatisch aanpassen**.
+
+U kunt meerdere andere onderdelen **Bereik** toevoegen tussen de optionele onderdelen **Bereik** om op te geven hoe een gegenereerd document wordt ingevuld.
+
+Als de set geneste onderdelen **Bereik** onder het onderdeel **Pagina** niet voldoet aan de eerder beschreven structuur, treedt er een [validatiefout](er-components-inspections.md#i17) op tijdens het ontwerp in de ER-indelingsontwerper. In het foutbericht staat dat het probleem problemen kan veroorzaken tijdens runtime.
+
+> [!NOTE]
+> Als u de juiste uitvoer wilt genereren, geeft u geen binding op voor enig onderdeel **Bereik** onder het onderdeel **Pagina** als de eigenschap **Replicatierichting** voor dit onderdeel **Bereik** is ingesteld op **Geen replicatie** en het bereik zo is geconfigureerd dat paginakopteksten of paginavoetteksten worden gegenereerd.
+
+Als u wilt paginagerelateerde totalen en tellingen lopende totalen en totalen per pagina berekenen, raden we de vereiste gegevensbronnen voor [Gegevensverzameling](er-data-collection-data-sources.md) te configureren. Als u wilt weten hoe u het onderdeel **Pagina** kunt gebruiken om een gegenereerd Excel-document te pagineren, voert u de procedures uit in [Een ER-indeling ontwerpen om gegenereerde documenten in Excel te pagineren](er-paginate-excel-reports.md).
+
+### <a name="limitations"></a><a name="page-component-limitations"></a>Beperkingen
+
+Wanneer u het onderdeel **Pagina** voor Excel-paginering gebruikt, weet u het definitieve aantal pagina's in een gegenereerd document pas als de paginering is voltooid. Het is dus niet mogelijk om het totale aantal pagina's te berekenen via ER-formules en het juiste aantal pagina's van gegenereerd document af te drukken op elke pagina vóór de laatste pagina.
+
+> [!TIP]
+> Dit resultaat wordt bereikt in een Excel-kop- of voettekst met behulp van de speciale [Excel-opmaak](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) voor kop- en voetteksten.
+
+Er wordt geen rekening gehouden met geconfigureerde onderdelen **Pagina** wanneer u een Excel-sjabloon bijwerkt in de bewerkbare indeling in Dynamics 365 Finance versie 10.0.22. Deze functionaliteit wordt overwogen voor verdere releases van Finance.
+
+Als u de Excel-sjabloon configureert voor het gebruik van [voorwaardelijke opmaak](/office/dev/add-ins/excel/excel-add-ins-conditional-formatting), werkt deze in sommige gevallen mogelijk niet zoals wordt verwacht.
+
+### <a name="applicability"></a>Toepasbaarheid
+
+Het onderdeel **Pagina** werkt alleen voor het indelingsonderdeel van het [Excel-bestand](er-fillable-excel.md#excel-file-component) als dat onderdeel is geconfigureerd voor gebruik van een sjabloon in Excel. Als u de Excel-sjabloon [vervangt](tasks/er-design-configuration-word-2016-11.md) door een Word-sjabloon en vervolgens de bewerkbare ER-indeling uitvoert, wordt het onderdeel **Pagina** genegeerd.
+
+Het onderdeel **Pagina** werkt alleen als de functie **Gebruik van EPPlus-bibliotheek inschakelen in het ER-raamwerk** is ingeschakeld. Er verschijnt een uitzondering tijdens runtime als ER probeert het onderdeel **Pagina** te verwerken terwijl deze functie is uitgeschakeld.
+
+> [!NOTE]
+> Er verschijnt een uitzondering tijdens runtime als een ER-indeling het onderdeel **Pagina** verwerkt voor een Excel-sjabloon die minimaal één formule bevat die verwijst naar een cel die niet geldig is. Als u runtimefouten wilt voorkomen, corrigeert u de Excel-sjabloon zoals beschreven in [Het corrigeren van #REF! fout](https://support.microsoft.com/office/how-to-correct-a-ref-error-822c8e46-e610-4d02-bf29-ec4b8c5ff4be).
+
 ## <a name="footer-component"></a>Voettekstonderdeel
 
 Het onderdeel **Voettekst** wordt gebruikt om voetteksten in te vullen onder aan een gegenereerd werkblad in een Excel-werkmap.
@@ -197,9 +246,12 @@ Wanneer u een ER-indeling valideert die kan worden bewerkt, wordt een consistent
 Wanneer een uitgaand document in een Microsoft Excel-werkmapindeling wordt gegenereerd, bevatten sommige cellen in dit document mogelijk Excel-formules. Wanneer de functie **Gebruik van EPPlus-bibliotheek inschakelen in het ER-raamwerk** is ingeschakeld, kunt u bepalen wanneer de formules worden berekend door de waarde van de [parameter](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows) **Berekeningsopties** te wijzigen in de Excel-sjabloon die wordt gebruikt:
 
 - Selecteer **Automatisch** als u alle afhankelijke formules telkens opnieuw wilt berekenen wanneer een gegenereerd document wordt toegevoegd door nieuwe bereiken, cellen enzovoort.
+
     >[!NOTE]
     > Dit kan leiden tot een prestatieprobleem voor Excel-sjablonen die meerdere gerelateerde formules bevatten.
+
 - Selecteer **Handmatig** om te voorkomen dat formuleherberekening wordt uitgevoerd wanneer een document wordt gegenereerd.
+
     >[!NOTE]
     > Herberekening van formules wordt handmatig uitgevoerd wanneer een gegenereerd document wordt geopend voor preview met Excel.
     > Gebruik deze optie niet als u een ER-bestemming configureert die uitgaat van het gebruik van een gegenereerd document zonder de preview in Excel (PDF-conversie, e-mailing enz.) omdat het gegenereerde document mogelijk geen waarden bevat in cellen die formules bevatten.

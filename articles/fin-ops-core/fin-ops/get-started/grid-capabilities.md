@@ -2,7 +2,7 @@
 title: Rastermogelijkheden
 description: Dit onderwerp beschrijft diverse krachtige functies van het rasterbesturingselement. U moet de nieuwe rasterfunctie inschakelen als u toegang tot deze mogelijkheden wilt hebben.
 author: jasongre
-ms.date: 08/04/2021
+ms.date: 09/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775237"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483849"
 ---
 # <a name="grid-capabilities"></a>Rastermogelijkheden
 
@@ -30,7 +30,7 @@ Het nieuwe rasterbesturingselement biedt verschillende handige en krachtige func
 -  Totalen worden berekend
 -  Voor het systeem uit typen
 -  Wiskundige expressies evalueren 
--  Tabelgegevens groeperen (afzonderlijk ingeschakeld met de functie **(Preview) Groeperen in rasters**)
+-  Tabelgegevens groeperen (afzonderlijk ingeschakeld met de functie **Groeperen in rasters**)
 -  Kolommen blokkeren
 
 ## <a name="calculating-totals"></a>Totalen worden berekend
@@ -93,7 +93,7 @@ Ter bevordering van de productiviteit kunnen gebruikers wiskundige formules invo
 Als u wilt dat het systeem een waarde herkent als een expressie, start u de waarde met het gelijkteken (**=**). Zie [Ondersteunde wiskundige symbolen](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols) voor meer informatie over de ondersteunde operators en syntaxis.
 
 ## <a name="grouping-tabular-data"></a>Tabelgegevens groeperen
-Zakelijke gebruikers moeten vaak ad hoc gegevensanalyse uitvoeren. U kunt dit doen door gegevens te exporteren naar Microsoft Excel en draaitabellen te gebruiken, maar met de functie **Groepering in rasters**, die algemeen beschikbaar is in versie 10.0.16/Platformupdate 40 en afhankelijk is van de functie Nieuw rasterbesturingselement, kunnen gebruikers hun tabelgegevens op interessante manieren ordenen in Finance and Operations-apps. Aangezien deze functie de functie **Totalen** uitbreidt, kunt u met **Groepering** duidelijke inzichten krijgen in de gegevens door subtotalen op te geven op groepsniveau.
+Zakelijke gebruikers moeten vaak ad hoc gegevensanalyse uitvoeren. U kunt dit doen door gegevens te exporteren naar Microsoft Excel en draaitabellen te gebruiken, maar met de functie **Groepering in rasters**, die afhankelijk is van de functie Nieuw rasterbesturingselement, kunnen gebruikers hun tabelgegevens op interessante manieren ordenen in Finance and Operations-apps. Aangezien deze functie de functie **Totalen** uitbreidt, kunt u met **Groepering** duidelijke inzichten krijgen in de gegevens door subtotalen op te geven op groepsniveau.
 
 Als u deze functie wilt gebruiken, klikt u met de rechtermuisknop op de kolom waarop u wilt groeperen en selecteert u **Groeperen op deze kolom**. Met deze actie sorteert u de gegevens op de geselecteerde kolom, voegt u een nieuwe kolom **Groeperen op** toe aan het begin van het raster en voegt u 'koptekstrijen' toe aan het begin van elke groep. Deze koptekstrijen bevatten de volgende informatie over elke groep: 
 -  Gegevenswaarde voor de groep 
@@ -108,9 +108,6 @@ Nadat u gegevens hebt gegroepeerd op een enkele kolom, kunt u de gegevens groepe
 
 U kunt op elk gewenst moment de groepering op een willekeurige kolom verwijderen door met de rechtermuisknop op de kolom te klikken en **Groep opheffen** te selecteren. U kunt de groepering ook uit alle kolommen verwijderen door **Rasteropties** en vervolgens **Alle groeperingen opheffen** te selecteren.   
 
-Opmerking: voorafgaand aan versie 10.0.16/Platformupdate 40 wordt slechts één groeperingsniveau ondersteund. Als in deze versies de gegevens zijn gegroepeerd en u de optie **Groeperen op deze kolom** selecteert voor een andere kolom, wordt de oorspronkelijke groepering vervangen.  
-
-
 ### <a name="expanding-and-collapsing-groups"></a>Groepen uitvouwen en samenvouwen
 Bij de eerste groepering van gegevens worden zijn alle groepen uitgevouwen. U kunt samengevatte weergaven van de gegevens maken door afzonderlijke groepen samen te vouwen of u kunt de functie voor het uit- en samenvouwen van groepen gebruiken om te helpen bij het navigeren door de gegevens. Als u een groep wilt uitvouwen of samenvouwen, selecteert u de punthaakknop (>) in de desbetreffende rij van de groepskoptekst. De status voor uitvouwen/samenvouwen van afzonderlijke groepen wordt **niet** opgeslagen bij personalisatie.
 
@@ -118,10 +115,10 @@ Bij de eerste groepering van gegevens worden zijn alle groepen uitgevouwen. U ku
 Op dezelfde manier waarop u alle rijen in het raster kunt selecteren (of deselecteren) door het selectievakje boven aan de eerste kolom in het raster in te schakelen, kunt u ook snel alle rijen in een groep selecteren (of deselecteren) door het selectievakje in de desbetreffende rij van de groepskop tekst in te schakelen. Het selectievakje in de rij van de groepskoptekst komt altijd overeen met de huidige selectiestatus van rijen in die groep, ongeacht of alle rijen zijn geselecteerd, er geen rijen zijn geselecteerd of er slechts enkele rijen zijn geselecteerd.
 
 ### <a name="hiding-column-names"></a>Kolomnamen verbergen
-Wanneer u gegevens groepeert, wordt standaard de kolomnaam weergegeven in de rij van de groepskoptekst. Vanaf versie 10.0.14/platformupdate 38 kunt u de kolomnaam in groepskoprijen onderdrukken door **Rasteropties** > **Groepskolomnaam verbergen** te selecteren.
+Wanneer u gegevens groepeert, wordt standaard de kolomnaam weergegeven in de rij van de groepskoptekst. U kunt de kolomnaam in groepskoprijen onderdrukken door **Rasteropties** > **Groepskolomnaam verbergen** te selecteren.
 
 ## <a name="freezing-columns"></a>Kolommen blokkeren
-Sommige kolommen in een raster kunnen dermate belangrijk zijn voor context dat u niet wilt dat ze uit de weergave verdwijnen. In plaats daarvan wilt u dat de waarden in die kolommen altijd zichtbaar zijn. In versie 10.0.17 biedt de functie **Kolommen in raster blokkeren** deze flexibiliteit voor gebruikers. 
+Sommige kolommen in een raster kunnen dermate belangrijk zijn voor context dat u niet wilt dat ze uit de weergave verdwijnen. In plaats daarvan wilt u mogelijk dat de waarden in die kolommen altijd zichtbaar zijn. De functie **Kolommen in raster blokkeren** biedt deze flexibiliteit voor gebruikers. 
 
 Als u een kolom wilt blokkeren, klikt u met de rechtermuisknop in de koptekst van de kolom en selecteert u vervolgens **Kolom blokkeren**. De eerste keer dat u deze stap voltooit, wordt de geselecteerde kolom de eerste kolom en verdwijnt deze niet meer uit de weergave. Alle volgende kolommen die u blokkeert, worden rechts van de laatste geblokkeerde kolom toegevoegd. U kunt de standaardfunctie Verplaatsen gebruiken om desgewenst geblokkeerde kolommen opnieuw te ordenen. Geblokkeerde kolommen kunnen echter niet worden verplaatst, zodat ze tussen de set met niet-geblokkeerde kolommen worden weergegeven. Zo ook kunnen niet-geblokkeerde kolommen niet worden verplaatst, zodat ze tussen de set met geblokkeerde kolommen worden weergegeven.
 
@@ -132,32 +129,16 @@ De kolommen voor rijselectie en rijstatus in het nieuwe raster zijn altijd als d
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Hoe kan ik het nieuwe rasterbesturingselement inschakelen in mijn omgeving? 
 
-**10.0.9/platformupdate 33 en later**
+De functie **Nieuw rasterbesturingselement** is in elke omgeving rechtstreeks beschikbaar in Functiebeheer. Als de functie in Functiebeheer is ingeschakeld, maken alle volgende gebruikerssessies gebruik van de nieuwe rasterbesturing. 
 
-De functie **Nieuw rasterbesturingselement** is in elke omgeving rechtstreeks beschikbaar in Functiebeheer. Net als andere openbare previewfuncties is het inschakelen van deze functie in productie afhankelijk [van de Aanvullende gebruiksrechtovereenkomst](public-preview-terms.md).  
-
-**10.0.8/platformupdate 32 en 10.0.7/platformupdate 31**
-
-De functie **Nieuw rasterbesturingselement** kan worden ingeschakeld in omgevingen van Laag 1 (Dev/Test) en Laag 2 (Sandbox) voor extra tests en ontwerpwijzigingen door de volgende stappen uit te voeren.
-
-1.  **De vlucht inschakelen**: voer de volgende SQL-instructie uit: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
-
-2. **IIS opnieuw instellen** om de statische flightingcache leeg te maken. 
-
-3.  **De functie zoeken**: ga naar het werkgebied **Functiebeheer**. Als **Nieuw rasterbesturingselement** niet wordt weergegeven in de lijst met alle functies, selecteert u **Controleren op updates**.   
-
-4.  **De functie inschakelen**: zoek de functie **Nieuw rasterbesturingselement** in de lijst met functies en selecteer **Nu inschakelen** in het detailvenster. U moet de browser vernieuwen. 
-
-Alle volgende gebruikerssessies worden gestart met het nieuwe rasterbesturingselement ingeschakeld.
+Deze functie is standaard ingeschakeld in versie 10.0.21 en wordt naar verwachting verplicht vanaf versie 10.0.25. 
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Ontwikkelaar] Uitschakelen dat afzonderlijke pagina's het nieuwe raster gebruiken 
-Als uw organisatie op een pagina problemen ondervindt met het nieuwe raster, is er een API beschikbaar vanaf versie 10.0.13/platformupdate 37 waarmee op een afzonderlijk formulier het oude rasterbesturingselement kan worden gebruikt terwijl de rest van het systeem het nieuwe rasterbesturingselement kan blijven gebruiken. Als u een afzonderlijke pagina voor het nieuwe raster wilt afmelden, voegt u de volgende aanroep `super()` toe aan de methode `run()` van het formulier.
+Als uw organisatie een pagina vindt met problemen met het nieuwe raster, is er een API beschikbaar waarmee een afzonderlijk formulier het oude rasterbesturingselement kan gebruiken, terwijl de rest van het systeem nog steeds het nieuwe rasterbesturingselement kan gebruiken. Als u een afzonderlijke pagina voor het nieuwe raster wilt afmelden, voegt u de volgende aanroep `super()` toe aan de methode `run()` van het formulier.
 
  ```this.forceLegacyGrid();```
 
-Deze API wordt ondersteund tot de release van oktober 2021 wanneer het nieuwe rasterbesturingselement verplicht wordt. Als er problemen optreden waarvoor deze API moet worden gebruikt, meldt u deze bij Microsoft.
+Deze API wordt toegepast totdat het nieuwe rasterbeheer verplicht wordt, wat momenteel verwacht wordt voor april 2022. Als er problemen optreden waarvoor deze API moet worden gebruikt, meldt u deze bij Microsoft.
 
 ### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Afdwingen van een pagina om het nieuwe raster te gebruiken nadat eerder het raster is uitgeschakeld
 Als u een individuele pagina hebt uitgeschreven voor gebruik van het nieuwe raster, zou u het nieuwe raster later opnieuw kunnen inschakelen nadat de onderliggende problemen zijn opgelost. Hiervoor hoeft u alleen de aanroep van `forceLegacyGrid()` te verwijderen. De wijziging wordt pas doorgevoerd wanneer een van de volgende zaken zich voordoet:

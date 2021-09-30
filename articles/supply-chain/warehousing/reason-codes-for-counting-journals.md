@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 95f7ceb39d2afef1871f395ed562632865022b39
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345261"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500585"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Redencodes voor voorraadtelling
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Met redencodes kunt u de resultaten analyseren van een tellingsproces en eventuele verschillen die tijdens dat proces optreden. U kunt de reden voor het uitvoeren van de telling opgeven, zoals een gebroken pallet of een voorraadcorrectie die is gebaseerd op voorraadmonsters. Tegelijkertijd kunt u de functionaliteit voor correctie gebruiken om de waarde van correcties van voorhanden voorraad op de juiste tegenrekening te boeken, op basis van de reden voor elke voorraadcorrectie.
 
@@ -42,8 +41,6 @@ Voordat u het systeem instelt, wordt aangeraden om een strategie voor het werken
 - Moeten de redencodes worden gebruikt voor het boeken op financiële tegenrekeningen?
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Functies voor redencodes in uw systeem inschakelen
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Als u in uw systeem niet alle functies ziet die in dit onderwerp worden beschreven, moet u waarschijnlijk de functie *Voorhanden correcties boeken met configureerbare redencodes die zijn gekoppeld aan tegenrekeningen* inschakelen. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en desgewenst in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
 

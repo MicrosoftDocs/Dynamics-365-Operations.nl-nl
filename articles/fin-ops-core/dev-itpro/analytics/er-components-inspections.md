@@ -2,7 +2,7 @@
 title: Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voorkomen
 description: In dit onderwerp wordt uitgelegd hoe u de geconfigureerde onderdelen voor elektronische rapportage (ER) kunt inspecteren om runtimeproblemen te voorkomen.
 author: NickSelin
-ms.date: 03/04/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd4f2b00dd7634a44b75c76753f5d864b039391f4fcb29e750fb17e8a03e9b77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718618"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488109"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Het geconfigureerde ER-onderdeel inspecteren om runtimeproblemen te voorkomen
 
@@ -229,6 +229,12 @@ De volgende tabel biedt een overzicht van de inspecties die ER biedt. Als u meer
 <p>Kop-/voetteksten (&lt;onderdeeltype: Kop- of voettekst&gt;) zijn inconsistent</p>
 <p><b>Runtime:</b> het laatst geconfigureerde onderdeel wordt tijdens runtime gebruikt als de conceptversie van de geconfigureerde ER-indeling wordt uitgevoerd.</p>
 </td>
+</tr>
+<tr>
+<td><a href='#i17'>Inconsistente instelling van onderdeel Pagina</a></td>
+<td>Gegevensintegriteit</td>
+<td>Fout</td>
+<td>Er zijn meer dan twee bereikonderdelen zonder replicatie. Verwijder overbodige onderdelen.</td>
 </tr>
 </tbody>
 </table>
@@ -866,6 +872,26 @@ Pas de geconfigureerde indeling aan door een van de inconsistente onderdelen **E
 #### <a name="option-2"></a>Optie 2
 
 Wijzig de waarde van de eigenschap **Vormgeving kop-/voettekst** voor een van de inconsistente onderdelen **Excel\\Header** of **Excel\\Footer**.
+
+## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>Inconsistente instelling van onderdeel Pagina
+
+Wanneer u een ER-indelingscomponent [configureert](er-fillable-excel.md) om een Excel-sjabloon te gebruiken voor het genereren van een uitgaand document, kunt u het onderdeel **Excel\\Pagina** toevoegen om een gegenereerd document te pagineren met ER-formules. Voor elk onderdeel **Excel\\Pagina** dat u toevoegt, kunt u een groot aantal geneste onderdelen [Bereik](er-fillable-excel.md#range-component) toevoegen en toch compatibel blijven met de volgende [structuur](er-fillable-excel.md#page-component-structure):
+
+- Het eerste geneste onderdeel **Bereik** kan zo worden geconfigureerd dat de eigenschap **Replicatierichting** is ingesteld op **Geen replicatie**. Dit bereik wordt gebruikt om paginakopteksten te maken in gegenereerde documenten.
+- U kunt veel andere geneste onderdelen **Bereik** toevoegen waarbij de eigenschap **Replicatierichting** is ingesteld op **Verticaal**. Deze bereiken worden gebruikt om in gegenereerde documenten in te vullen.
+- Het laatste geneste onderdeel **Bereik** kan zo worden geconfigureerd dat de eigenschap **Replicatierichting** is ingesteld op **Geen replicatie**. Dit bereik wordt gebruikt om paginavoetteksten te maken in gegenereerde documenten en om de vereiste paginaeindes toe te voegen.
+
+Als u deze structuur niet volgt voor een ER-indeling in de ER-indelingsontwerper op het moment van ontwerp, treedt er een validatiefout op en verschijnt het volgende foutbericht: "Er zijn meer dan twee bereikonderdelen zonder replicatie. Verwijder overbodige onderdelen."
+
+### <a name="automatic-resolution"></a>Automatische oplossing
+
+Er is geen optie beschikbaar om dit probleem automatisch op te lossen.
+
+### <a name="manual-resolution"></a>Handmatige oplossing
+
+#### <a name="option-1"></a>Optie 1
+
+Pas de geconfigureerde indeling aan door de eigenschap **Replicatierichting** te wijzigen voor alle inconsistente onderdelen **Excel\\Bereik**.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

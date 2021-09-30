@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 99248a1bc231cfe58270b043827cde00a520f872658217b85dffd810bed391c9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 984669d5e4bde4bd967bf0a181d1b45df16ee569
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736666"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484044"
 ---
 # <a name="demand-forecasting-overview"></a>Overzicht vraagprognose
 
@@ -34,7 +34,9 @@ Vraagprognoses worden gebruikt om onafhankelijke vraag van verkooporders en afha
 Om de basislijnprognose te maken, wordt een overzicht van historische transacties doorgegeven aan Microsoft Azure Machine Learning dat op Azure wordt gehost. Omdat deze service niet onder gebruikers wordt gedeeld, kan deze eenvoudig worden aangepast om aan branchespecifieke vereisten te voldoen. U kunt Supply Chain Management gebruiken om de prognose te visualiseren, de prognose aan te passen en KPI's (Key Performance Indicators) over prognosenauwkeurigheid te bekijken.
 
 > [!NOTE]
-> Microsoft Azure Machine Learning Studio (klassiek) is vereist voor het genereren van prognoses met machine learning. Vanaf januari 2021 is dit programma beschikbaar in Japan - oost, US - zuid-centraal, Azië - zuidoost, US - west-centraal en Europa - west. Zie [Azure-producten per regio](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=machine-learning-studio) voor bijgewerkte informatie over de huidige beschikbaarheid.
+> Microsoft Azure Machine Learning Studio (klassiek) is vereist voor het genereren van prognoses met machine learning. Vanaf 1 december 2021 kunt u geen nieuwe resources maken voor Machine Learning Studio (klassiek). U kunt uw bestaande resources voor Machine Learning studio (klassiek) echter blijven gebruiken tot 31 augustus 2024. Zie [Azure Machine Learning Studio](/azure/machine-learning/overview-what-is-machine-learning-studio#ml-studio-classic-vs-azure-machine-learning-studio) voor bijgewerkte informatie.
+> 
+> Dynamics 365 Supply Chain Management versie 10.0.23 en hoger biedt ondersteuning voor de nieuwe Azure Machine Learning Studio.
 
 ## <a name="key-features-of-demand-forecasting"></a>Belangrijkste functies van vraagprognose
 

@@ -1,27 +1,39 @@
 ---
 title: Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 description: In dit onderwerp worden de nieuwe en gewijzigde functies genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
-author: ivanv-microsoft
-ms.date: 07/30/2021
+author: MarkusFogelberg
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
-ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
+ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386094"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485617"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20100"></a>Versie 2.0.10.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+
+- Animatie toegevoegd bij het swipen door lijsten en pagina's.
+- Teksterugloop is nu correct op pagina over verbindingsfout.
+- Invoervakjes zonder standaardwaarden worden nu juist weergegeven.
+- Informatie in het subkopgebied wordt nu alleen weergegeven op de pagina met volledige details.
+- Lege invoervelden worden niet meer weergegeven op de detailkaart.
+- Bevestigingswaarden worden niet meer gedupliceerd op de detailkaart.
+- Er zijn verschillende problemen opgelost die veroorzaakten dat het systeem niet meer reageerde.
 
 ## <a name="version-2090"></a>Versie 2.0.9.0
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441160"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488078"
 ---
 # <a name="provision-human-resources"></a>Human Resources inrichten
 
@@ -41,6 +41,8 @@ Voordat u een nieuwe productieomgeving inricht, moet aan de volgende voorwaarden
 ## <a name="provision-a-human-resources-trial-environment"></a>Een Human Resources-proefomgeving inrichten
 
 Voordat u uw eerste sandbox- of productieomgeving inricht, kunt u een [Human Resources-proefomgeving](https://go.microsoft.com/fwlink/p/?LinkId=2115962) inrichten om de Human Resources-functionaliteit te valideren. Proefomgevingen bevatten fictieve gegevens die kunnen worden gebruikt om het programma op een veilige manier te verkennen. Hoewel een proefomgeving eigendom is van de gebruiker die hierom heeft verzocht, kunnen andere gebruikers worden uitgenodigd via de systeembeheerervaring voor Human Resources. 
+
+Testomgevingen bieden de mogelijkheid om de functionaliteit Human Resources te beoordelen voor personen die nog geen toegang hebben tot een Human Resources-omgeving. Als u een proefomgeving inricht en de geverifieerde gebruiker al toegang heeft tot een of meer bestaande Human Resources-omgevingen, wordt de gebruiker omgeleid naar de bestaande omgeving of een lijst met omgevingen.
 
 Proefomgevingen zijn niet bedoeld als productieomgevingen. Proefomgevingen zijn beperkt tot een periode van 60 dagen. Wanneer een proefperiode verloopt, worden de omgeving en alle gegevens erin permanent verwijderd. De omgeving kan niet worden geconverteerd naar een sandbox of een productieomgeving. Nadat de bestaande omgeving is verlopen, kunt u zich aanmelden voor een nieuwe proefomgeving.
 
@@ -135,7 +137,12 @@ Gebruik de volgende richtlijnen bij het bepalen in welke Power Apps-omgeving u H
    
     - **Niet-ondersteunde regio's**: De omgeving moet zich in een ondersteunde geografie bevinden. Meer informatie over dit onderwerp vindt u in [Ondersteunde geografieën](hr-admin-setup-provision.md#supported-geographies).
 
-6. Nadat u hebt vastgesteld welke omgeving de juiste is om te gebruiken, kunt u doorgaan met het inrichtingsproces. 
+6. Functionaliteit voor twee keer wegschrijven voor het integreren van Human Resources-data met de Power Apps-omgeving kan alleen worden gebruikt als de optie **Dynamics 365-apps inschakelen** is ingeschakeld voor de omgeving. Zie de [startpagina van Twee keer wegschrijven](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) voor meer informatie over twee keer wegschrijven.
+
+    > [!NOTE]
+    > De optie **Dynamics 365-apps inschakelen** moet worden geselecteerd op het moment dat de Power Apps-omgeving wordt gemaakt. Als de optie niet wordt geselecteerd tijdens de inrichting, kunt u geen twee keer wegschrijven gebruiken om data te integreren tussen Dynamics 365 Human Resources en de Power Apps-omgeving of kunt u geen Dynamics 365-apps installeren in de omgeving zoals Dynamics 365 Sales en Field Service. Deze optie is niet omkeerbaar. Voor meer informatie zie [Enkele belangrijke overwegingen bij het maken van een nieuwe omgeving](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) op de documentatiesite van Power Platform.
+
+7. Nadat u hebt vastgesteld welke omgeving de juiste is om te gebruiken, kunt u doorgaan met het inrichtingsproces. 
 
 ### <a name="supported-geographies"></a>Ondersteunde geografieën
 
