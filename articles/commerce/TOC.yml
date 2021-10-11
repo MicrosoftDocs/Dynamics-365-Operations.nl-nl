@@ -1398,12 +1398,16 @@
               items:
                 - name: Commerce-lokalisatie voor Rusland
                   href: localizations/rus-commerce-localization.md
-                - name: Vereenvoudigde indeling van klantadres in Commerce POS voor Rusland
-                  href: localizations/rus-simplified-address.md
                 - name: Commerce-lokalisatie voor Rusland instellen
                   href: localizations/rus-commerce-setup.md
                 - name: Vooruitbetalingen in Commerce voor Rusland
                   href: localizations/rus-commerce-prepayments.md
+                - name: Vereenvoudigde indeling van klantadres in Commerce POS voor Rusland
+                  href: localizations/rus-simplified-address.md
+                - name: Voorbeeld van integratie van fiscale printer voor Rusland
+                  href: localizations/rus-fpi-sample.md
+                - name: Beheer van klantgegevens voor Rusland
+                  href: localizations/rus-customer-information.md
             - name: Zweden
               items:
                 - name: Kassafunctionaliteit
@@ -2220,6 +2224,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Het globale adresboek configureren
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/commerce/toc.json
+                - name: Adresinstelling
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/commerce/toc.json
                 - name: Veelgestelde vragen over adresboeken
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/commerce/toc.json
                 - name: Adresboeken configureren
@@ -2329,7 +2335,11 @@
         - name: Uitbreidbaarheid
           items:
             - name: Ontwikkeling en uitbreidbaarheid van handel
-              href: dev-itpro/dev-retail-home-page.md
+              items:
+                - name: Handel voor IT-professionals en ontwikkelaars
+                  href: dev-itpro/dev-retail-home-page.md
+                - name: Een lokale ontwikkelomgeving instellen
+                  href: dev-itpro/setup-local-dev-env.md
             - name: Uitbreidbaarheid van online afzetkanaal
               items:
                 - name: Overzicht van uitbreidbaarheid van online afzetkanaal

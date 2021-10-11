@@ -16,12 +16,10 @@
                   href: get-started/whats-new-home-page.md
                 - name: Platform updates voor versie 10.0.22 (november 2021)
                   href: get-started/whats-new-platform-updates-10-0-22.md
-                - name: Platform updates voor versie 10.0.21 (oktober 2021)
+                - name: Platformupdates voor versie 10.0.21 (oktober 2021)
                   href: get-started/whats-new-platform-updates-10-0-21.md
-                - name: Platform updates voor versie 10.0.20 (augustus 2021)
+                - name: Platformupdates voor versie 10.0.20 (augustus 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: Platform updates voor 10.0.19 (juni 2021)
-                  href: get-started/whats-new-platform-updates-10-0-19.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -1080,6 +1078,8 @@
                   items:
                     - name: Entiteits- en veldtoewijzingen aanpassen
                       href: data-entities/dual-write/customizing-mappings.md
+                    - name: Aanpassing richtlijnen voor twee keer wegschrijven
+                      href: data-entities/dual-write/custom-best-practices.md
                     - name: Meerdere entiteitstoewijzingen verwerken
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: Een rechtspersoon bewerken na instelling van twee keer wegschrijven

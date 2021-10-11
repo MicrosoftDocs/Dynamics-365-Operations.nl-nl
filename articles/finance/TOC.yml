@@ -284,6 +284,8 @@
               href: accounts-payable/broker-contract.md
             - name: Beheer van royaltycontracten
               href: accounts-payable/royalty-contract.md
+            - name: Verwijzing naar oorspronkelijke facturen in creditnota's (leveranciersfacturen)
+              href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
             - name: Betalingen en vereffeningen
               items:
                 - name: Gecentraliseerde betalingen voor Leveranciers
@@ -1272,6 +1274,8 @@
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: Overzicht van momentopnamen
                   href: finance-insights/payment-snapshots.md
+            - name: Veelgestelde vragen over probleemoplossing Finance Insights
+              href: finance-insights/finance-insights-troubleshooting-faq.md
         - name: Projectbeheer en boekhouding
           items:
             - name: Overzicht van Projectbeheer en boekhouding
@@ -1574,6 +1578,10 @@
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Aangifte van meerdere btw-registraties
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Rapportage voor Oostenrijk
+                          items:
+                            - name: Btw-aangifte
+                              href: localizations/emea-aut-vat-declaration-austria.md
                         - name: Rapportage voor Frankrijk
                           items:
                             - name: Btw-aangifte
@@ -1630,16 +1638,18 @@
                   href: localizations/austria.md
                 - name: Halfjaarlijkse afschrijving op extra verwervingen
                   href: localizations/emea-aut-half-year-depreciation.md
-                - name: Bijzondere verpakkingsmateriaalkosten
+                - name: Verpakkingsmateriaalkosten
                   href: localizations/emea-aut-packing-material-fee-calculation.md
                 - name: Btw-overzicht
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: Internationale dienstverlening (rapport)
+                - name: Rapportage voor internationale dienstverlening
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: Intrastat-rapport
+                - name: Oostenrijkse intrastat
                   href: localizations/emea-aut-intrastat.md
                 - name: Inkoopheffingen
                   href: localizations/emea-aut-purchase-duties.md
+                - name: Btw-aangifte
+                  href: localizations/emea-aut-vat-declaration-austria.md
             - name: Bahrein
               items:
                 - name: Overzicht Bahrein
@@ -2672,12 +2682,10 @@
               items:
                 - name: Overzicht Italië
                   href: localizations/italy.md
-                - name: Details btw-aangiftes
+                - name: Details btw-overzichten
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Kwartaalrapport over btw-communicatie
                   href: localizations/emea-ita-quarterly-vat-communication.md
-                - name: Zwarte-lijstrapport
-                  href: localizations/emea-ita-black-list-report.md
                 - name: Competentiedatum en fiscaal journaal
                   href: localizations/emea-ita-competence-date.md
                 - name: Afschrijving van vaste activa
@@ -3801,6 +3809,8 @@
           items:
             - name: Overzicht van elektronische rapportage
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Onderdelen van elektronische rapportage
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/finance/toc.json
             - name: Configuraties
               items:
                 - name: Configuraties maken
@@ -4509,6 +4519,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Het globale adresboek configureren
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
+                - name: Adresinstelling
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/finance/toc.json
                 - name: Veelgestelde vragen over adresboeken
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Adresboeken configureren

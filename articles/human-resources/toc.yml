@@ -5,6 +5,8 @@
       items:
         - name: Nieuwe of gewijzigde functies in Human Resources
           href: hr-admin-whats-new.md
+        - name: 20 september 2021
+          href: hr-whats-new-2021-09-20.md
         - name: 6 september 2021
           href: hr-whats-new-2021-09-06.md
         - name: 23 augustus 2021
@@ -291,6 +293,8 @@
               href: hr-admin-troubleshooting-batch-history.md
             - name: Vastgelopen batchtaken opnieuw instellen
               href: hr-admin-troubleshooting-batch-execution.md
+            - name: Dataverse-synchronisatie opnieuw instellen
+              href: hr-admin-troubleshooting-dataverse-sync.md
             - name: Analytische rapporten worden niet bijgewerkt
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Kan geen omgeving maken in het Power Apps-beheercentrum
@@ -485,6 +489,12 @@
               items:
                 - name: Vergoedingsplan voor medewerker in salarisadministratie
                   href: hr-admin-integration-payroll-api-payroll-worker-benefit-plan.md
+            - name: Andere entiteiten
+              items:
+                - name: Naamsgeschiedenis van persoon
+                  href: hr-admin-integration-payroll-api-person-name-history.md
+                - name: Conversiepercentage
+                  href: hr-admin-integration-payroll-api-compensation-pay-frequency.md
             - name: Optiesets
               items:
                 - name: Geslacht
@@ -543,6 +553,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Het globale adresboek configureren
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/human-resources/toc.json
+                - name: Adresinstelling
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/human-resources/toc.json
                 - name: Veelgestelde vragen over adresboeken
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/human-resources/toc.json
                 - name: Adresboeken configureren
@@ -781,6 +793,8 @@
                       href: hr-benefits-process-rate-changes.md
                 - name: ACA-rapportage
                   href: hr-benefits-management-aca-reports.md
+                - name: Vergoedingeninstructie
+                  href: hr-benefits-statement.md
             - name: Een vergoedingenprogramma definiëren en beheren
               href: hr-benefits-manage-program.md
             - name: Beleid voor geschiktheid vergoedingen

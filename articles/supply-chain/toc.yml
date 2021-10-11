@@ -1651,6 +1651,8 @@
                   href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: Parameters die niet worden gebruikt door Planningsoptimalisatie
                   href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Voorraadplanning
+                  href: master-planning/supply-schedule.md
                 - name: Filters op een plan toepassen
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Hoofdplanning met vraagprognose
@@ -1759,8 +1761,6 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: Uitgaande geplande intercompany-vraag weergeven
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Samenwerken met interne klanten van toeleveringsketen
-                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
                 - name: Nettovereisten en informatie over tracering van de behoefte met ingebouwde hoofdplanning
                   href: master-planning/net-requirements-built-in-master-planning.md
             - name: Prognose maken
@@ -2037,8 +2037,12 @@
                   href: procurement/purchase-order-approval-confirmation.md
                 - name: Mobiel werkgebied voor goedkeuring van inkooporders
                   href: procurement/purchase-order-mobile-workspace.md
+                - name: Een intercompany-inkooporder voor intern gebruik maken en factureren
+                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                - name: Prijsverschillen in intercompany-orders controleren
+                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: De ontvangst van goederen registreren voor de inkooporder
-                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: procurement/tasks/record-receipt-goods-purchase-order.md
             - name: Inkooporder maken
               items:
                 - name: Inkooporders handmatig maken
@@ -2725,10 +2729,66 @@
               items:
                 - name: Prijssimulatie
                   href: sales-marketing/price-simulation.md
-                - name: Massaal verkoopoffertes maken
+                - name: Verkoopoffertes massaal maken
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Verkoopoffertes maken en bewerken
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+            - name: Intercompany-handel
+              items:
+                - name: Intercompany-handel instellen
+                  items:
+                    - name: Intercompany-handel instellen
+                      href: sales-marketing/intercompany-trade-set-up.md
+                    - name: Intercompany-parameters
+                      href: sales-marketing/intercompany-parameters.md
+                    - name: 'Leveranciers, klanten en artikelen voor intercompany-handel instellen'
+                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
+                    - name: Toeslagen op intercompany-orders instellen
+                      href: sales-marketing/intercompany-set-up-charges.md
+                    - name: Parameters instellen om een intercompany-order te boeken
+                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
+                - name: Intercompany-gegevens synchroniseren
+                  items:
+                    - name: Intercompany-prijzen en -kortingen synchroniseren
+                      href: sales-marketing/intercompany-sync-prices-discounts.md
+                    - name: Intercompany-toeslagen synchroniseren
+                      href: sales-marketing/intercompany-sync-charges.md
+                    - name: Intercompany-klantgegevens synchroniseren
+                      href: sales-marketing/intercompany-synch-customer-information.md
+                    - name: Intercompany-beschikkingscodes synchroniseren
+                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
+                - name: Intercompany-verkooporders en -facturen
+                  items:
+                    - name: Het maken van intercompany-inkooporders en -verkooporders in diverse bedrijven
+                      href: sales-marketing/intercompany-orders-in-several-companies.md
+                    - name: Intercompany-orders en -retourorders
+                      href: sales-marketing/intercompany-orders-and-return-orders.md
+                    - name: Een intercompany-verkooporder voor intern gebruik maken
+                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
+                    - name: Een intercompany-verkooporder voor een externe klant maken en factureren
+                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
+                    - name: Intercompany-reserveringen
+                      href: sales-marketing/intercompany-reservations.md
+                    - name: Een originele intercompany-verkooporder wijzigen of verwijderen
+                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
+                    - name: Intercompany-orders wijzigen
+                      href: sales-marketing/intercompany-change-orders.md
+                    - name: Intercompany-batch- en serienummers
+                      href: sales-marketing/intercompany-batch-serial-numbers.md
+                    - name: Intercompany-pakbonnen
+                      href: sales-marketing/intercompany-packing-slips.md
+                    - name: Betalingen automatisch registreren voor intercompany-klantfacturen
+                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
+                - name: Intercompany-inkooporders
+                  items:
+                    - name: Een intercompany-inkooporder voor intern gebruik maken en factureren
+                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                    - name: Prijsverschillen in intercompany-orders controleren
+                      href: sales-marketing/intercompany-check-price-discrepancies.md
+                - name: Intercompany-valutaconversies
+                  href: sales-marketing/intercompany-currency-conversions.md
+                - name: Intercompany-hoofdplanning
+                  href: sales-marketing/intercompany-master-scheduling.md
             - name: Retouren
               items:
                 - name: Verkoopretouren
@@ -3067,6 +3127,8 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: De module Francoprijzen instellen en configureren
               items:
+                - name: De module Francoprijzen voor uw systeem inschakelen
+                  href: landed-cost/landed-cost-enable.md
                 - name: Parameters van francoprijzen
                   href: landed-cost/landed-cost-parameters.md
                 - name: Parameters van francoprijzen voor inkoop en sourcing
@@ -3185,6 +3247,8 @@
                       href: warehousing/warehouse-slotting.md
                     - name: Locatie-instructie voor naar ouderdom gerangschikte voorraadorderverzameling
                       href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Verankering
+                      href: warehousing/anchoring.md
                     - name: Uitgaand sorteren
                       href: warehousing/outbound-sorting.md
                     - name: Put to wall - put to store
@@ -3341,6 +3405,8 @@
                       href: warehousing/display-older-batches-within-warehouses.md
                     - name: Oudste batch verzamelen op een mobiel apparaat
                       href: warehousing/pick-oldest-batch.md
+                - name: Algemene parameters voor mobiele apparaten
+                  href: warehousing/mobile-device-parameters.md
                 - name: Gebruikersinstellingen mobiel apparaat
                   href: warehousing/mobile-device-user-settings.md
                 - name: Verwerking van gebeurtenissen in de app voor magazijnbeheer
