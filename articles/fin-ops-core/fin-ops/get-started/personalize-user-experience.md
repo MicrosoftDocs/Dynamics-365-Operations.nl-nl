@@ -2,7 +2,7 @@
 title: De gebruikerservaring personaliseren
 description: In dit onderwerp wordt uitgelegd hoe u de app kunt aanpassen.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: a1f24ff1a0730f13af6231510c8e6b3cb46fde48
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344369"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581060"
 ---
 # <a name="personalize-the-user-experience"></a>De gebruikerservaring aanpassen
 
@@ -119,7 +119,8 @@ De volgende hulpmiddelen zijn beschikbaar op de werkbalk **Aanpassing**:
 
 - Gebruik het hulpmiddel **Selecteren** om de eigenschappen van een element te wijzigen. Als u dit hulpmiddel wilt gebruiken, selecteert u de knop **Selecteren** op de werkbalk en selecteert u vervolgens het gewenste element. Het eigenschappenvenster van het element wordt geopend en u kunt daar eventuele eigenschappen van dat element wijzigen. U kunt het proces herhalen voor andere elementen die op de pagina kunnen worden aangepast. Sommige aangepaste eigenschappen zijn mogelijk niet in alle scenario's beschikbaar. U kunt bijvoorbeeld geen veld vergrendelen dat vereist is.
 - Gebruik het hulpmiddel **Verbergen** om een element op de pagina te verbergen. Als u dit hulpmiddel wilt gebruiken, selecteert u de knop **Verbergen** op de werkbalk en selecteert u vervolgens het element dat u wilt verbergen. Wanneer u het hulpmiddel **Verbergen** gebruikt, worden alle elementen die momenteel verborgen zijn, zichtbaar gemaakt, maar in een grijze container weergegeven. U kunt een element vervolgens zichtbaar maken door het te selecteren. Als u wilt zien hoe de pagina eruitziet wanneer elementen verborgen zijn, schakelt u over op een ander personalisatiehulpmiddel of sluit u de personalisatiewerkbalk.
-- Gebruik het hulpmiddel **Velden toevoegen** om velden toe te voegen aan uw pagina. Wanneer u dit hulpmiddel gebruikt, kunt u alleen velden toevoegen die deel uitmaken van de paginadefinitie. Zie voor informatie over het maken van nieuwe velden die geen deel uitmaken van de huidige paginadefinitie [Maken en werken met aangepaste velden](user-defined-fields.md). Nadat u de knop **Velden toevoegen** op de werkbalk hebt geselecteerd, moet u eerst het raster of de sectie selecteren waar u een veld wilt toevoegen. Er wordt een dialoogvenster weergegeven met de lijst met velden die gerelateerd zijn aan het geselecteerde raster of sectie. Selecteer in het dialoogvenster een of meer velden om toe te voegen en selecteer vervolgens **Bijwerken**. Als u een veld wilt verwijderen dat u eerder hebt toegevoegd, herhaalt u de procedure, maar wist u de selectie van het veld in het dialoogvenster.
+- Gebruik het hulpmiddel **Velden toevoegen** om velden toe te voegen aan uw pagina. Wanneer u dit hulpprogramma gebruikt, kunt u alleen velden toevoegen die deel uitmaken van de paginadefinitie. Zie voor informatie over het maken van nieuwe velden die geen deel uitmaken van de huidige paginadefinitie [Maken en werken met aangepaste velden](user-defined-fields.md). Nadat u de knop **Velden toevoegen** op de werkbalk hebt geselecteerd, moet u eerst het raster of de sectie selecteren waar u een veld wilt toevoegen. Er wordt een dialoogvenster weergegeven met de lijst met velden die gerelateerd zijn aan het geselecteerde raster of sectie. Selecteer in het dialoogvenster een of meer velden die u wilt toevoegen in de lijst **Aanbevolen velden** of **Alle velden**. Wanneer u de gewenste velden hebt gekozen, selecteert u **Bijwerken**. Als u een veld wilt verwijderen dat u eerder hebt toegevoegd, herhaalt u de procedure, maar wist u de selectie van het veld in het dialoogvenster.
+    - In de lijst **Aanbevolen velden** worden velden weergegeven die eerder zijn toegevoegd door andere gebruikers in uw organisatie. Deze lijst met velden wordt bijgewerkt op basis van de terugkeerfrequentie van de **Aanbevelingsbatchtaak**. Er is een soortgelijke ervaring bij het toevoegen van nieuwe filtervelden met behulp van het filtervenster op een pagina.
 - Gebruik het hulpmiddel **Verplaatsen** om een element te verplaatsen naar een andere locatie binnen de huidige groep elementen. U kunt een element niet buiten de bovenliggende groep verplaatsen. Als u dit hulpmiddel wilt gebruiken, selecteert u de knop **Verplaatsen** op de werkbalk en selecteert u vervolgens het element dat u wilt verplaatsen. Wanneer u een element selecteert, bepaalt de app de locaties waar het element naartoe kan worden verplaatst. Deze locaties worden *neerzetzones* genoemd. Wanneer u het element binnen de huidige groep versleept, wordt elke neerzetzone weergegeven als een gekleurde vette lijn naast het gebied waar het element kan worden neergezet.
 - Gebruik het hulpmiddel **Overslaan** om een element te verwijderen uit de volgorde van de toetsenbordtoets Tab van de pagina. Wanneer u de knop **Overslaan** op de werkbalk selecteert, worden alle elementen die momenteel overgeslagen worden, weergegeven in een grijze container. U kunt velden interactief verwijderen of toevoegen aan de tabvolgorde.
 - Gebruik het hulpmiddel **Weergeven in koptekst** als u wilt dat een veld in de samenvattingssectie van het sneltabblad wordt weergegeven. Wanneer u de knop **Weergeven in koptekst** selecteert op de werkbalk, worden alle velden die zijn geselecteerd als overzichtsvelden, weergegeven in een grijze container. U kunt interactief velden toevoegen aan het sneltabbladoverzicht en velden uit het sneltabbladoverzicht verwijderen door de velden te selecteren.

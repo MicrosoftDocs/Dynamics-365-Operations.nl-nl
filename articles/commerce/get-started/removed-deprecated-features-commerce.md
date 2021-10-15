@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte functies in Dynamics 365 Commerce
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd of die zijn gepland voor verwijdering uit Dynamics 365 Commerce.
 author: josaw
-ms.date: 08/16/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386736"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559554"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Verwijderde of afgeschafte functies in Dynamics 365 Commerce
 
@@ -37,6 +37,18 @@ Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning reke
 
 [!include [banner](../includes/preview-banner.md)]
 
+### <a name="overlapping-discounts-handling-setting-in-commerce-parameters"></a>Instelling voor het verwerken van overlappende kortingen in Commerce-parameters
+
+De instelling **Verwerking van overlappende kortingen** op de pagina **Commerce-parameters** is afgeschaft in de Commerce-versie 10.0.21. In de toekomst gebruikt de Commerce-prijsengine één algoritme om de optimale combinatie van overlappende kortingen te bepalen.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | <p>De instelling **Verwerking van overlappende kortingen** in de Commerce-parameters bepaalt hoe de Commerce-prijsengine zoekt en de optimale combinatie van overlappende kortingen bepaalt. De instelling biedt momenteel drie opties:<p><ul><li> **Beste prestaties** – Met deze optie wordt een geavanceerd heuristiek algoritme en een [marginale-waardeclassificatie](../optimal-combination-overlapping-discounts.md) gebruikt om de prioriteit te bepalen, te evalueren en tijdig de beste kortingscombinatie te bepalen.</li><li>**Vereffende berekening** – In de huidige codebasis werkt deze optie op dezelfde manier als de optie **Beste prestaties**. Daarom is het in wezen een gedupliceerde optie.</li><li>**Volledige berekening**: deze optie maakt gebruik van een oud algoritme die alle mogelijke kortingscombinaties doorloopt tijdens de prijsberekening. Voor orders met grote regels en hoeveelheden kan deze optie prestatieproblemen veroorzaken.</li></ul><p>Om de configuratie te vereenvoudigen, de prestaties te verbeteren en incidenten te verminderen die worden veroorzaakt door het oude algoritme, verwijderen we de instelling **Verwerking van overlappende kortingen** volledig en werken we de interne logica van de Commerce-prijsengine bij zodat nu alleen het geavanceerde algoritme wordt gebruikt (dat wil zeggen, het algoritme achter de optie **Beste prestaties**).</p> |
+| **Vervangen door een andere functie?**   | Nee. Organisaties die de optie **Vereffende berekening** of **Volledige berekening** gebruiken, wordt aangeraden om over te schakelen op de optie **Beste prestaties** voordat deze functie wordt verwijderd. |
+| **Betrokken productgebieden**         | Prijzen en kortingen |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Vanaf release 10.0.21 in oktober 2022 wordt de instelling **Verwerking van overlappende kortingen** verwijderd uit de Commerce-parameters. |
+
 ### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>Retail SDK gedistribueerd met behulp van Lifecycle Services
 
 De Retail SDK wordt gedistribueerd in Lifecycle Services (LCS). Deze distributiemodus is afgeschaft in versie 10.0.21. In de toekomst worden Retail SDK-referentiepakketten, bibliotheken en voorbeelden gepubliceerd in openbare registers op GitHub.
@@ -55,7 +67,7 @@ Implementeerbare pakketten voor de detailhandel die gegenereerd zijn met de Reta
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Reden voor afschaffing/verwijdering** | Een implementeerbaar retailpakket is een gecombineerd pakket dat uit een complete set extensiepakketten en installatieprogramma's bestaat. Dit gecombineerde pakket maakt de implementatie complex, omdat CSU-extensies naar Cloud Scale Unit gaan en installatieprogramma's in winkels worden geïmplementeerd. De installatieprogramma's bevatten het extensie- en basisproduct, wat de updates lastig maakt. Bij elke upgrade is samenvoeg- en pakketgeneratie vereist. Om dit proces te vereenvoudigen, worden de extensiepakketten nu opgesplitst in onderdelen voor eenvoudige implementatie en beheer. Bij de nieuwe benadering worden extensies en installieprogramma's van elkaar gescheiden en kunnen ze onafhankelijk worden gebruikt en bijgewerkt zonder samenvoegcode of zonder ze opnieuw als pakket te verpakken.|
+| **Reden voor afschaffing/verwijdering** | Een implementeerbaar retailpakket is een gecombineerd pakket dat uit een complete set extensiepakketten en installatieprogramma's bestaat. Dit gecombineerde pakket maakt de implementatie complex, omdat CSU-extensies naar Cloud Scale Unit gaan en installatieprogramma's in winkels worden geïmplementeerd. De installatieprogramma's bevatten het extensie- en basisproduct, wat de updates lastig maakt. Bij elke upgrade is codesamenvoeging en pakketgeneratie vereist. Om dit proces te vereenvoudigen, worden de extensiepakketten nu opgesplitst in onderdelen voor eenvoudige implementatie en beheer. Bij de nieuwe benadering worden extensies en installieprogramma's van elkaar gescheiden en kunnen ze onafhankelijk worden gebruikt en bijgewerkt zonder samenvoegcode of zonder ze opnieuw als pakket te verpakken.|
 | **Vervangen door een andere functie?**   | CSU-extensies, installatieprogramma's voor POS-extensies, installatieprogramma's voor Hardware Station-extensies |
 | **Betrokken productgebieden**         | Dynamics 365 Commerce-extensie en implementatie |
 | **Implementatieoptie**              | Alles |
@@ -103,8 +115,8 @@ Ontwikkeling van POS-extensie met behulp van ModernPos.sln, CloudPOs.sln, POS.Ex
 | **Reden voor afschaffing/verwijdering** | Met ingang van december 2020 wordt Microsoft Internet Explorer 11-ondersteuning voor alle Dynamics 365-producten afgeschaft en wordt Internet Explorer 11 na augustus 2021 niet meer ondersteund.<br><br>Dit heeft invloed op klanten die Dynamics 365-producten gebruiken die zijn ontworpen om via een Internet Explorer 11-interface te worden gebruikt. Na augustus 2021 wordt Internet Explorer 11 niet ondersteund voor dergelijke Dynamics 365-producten. |
 | **Vervangen door een andere functie?**   | Wij raden klanten aan om overstappen op Microsoft Edge.|
 | **Betrokken productgebieden**         | Alle Dynamics 365-producten |
-| **Implementatieoptie**              | Alles|
-| **Status**                         | Afgeschaft. Internet Explorer 11 wordt na augustus 2021 niet ondersteund.|
+| **Implementatieoptie**              | Alle|
+| **Status**                         | Afgeschaft. Internet Explorer 11 wordt na augustus 2021 niet meer ondersteund.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Verwijderde of verouderde functies in versie 10.0.11 van Commerce
 ### <a name="data-action-hooks"></a>Gegevensactie-hooks

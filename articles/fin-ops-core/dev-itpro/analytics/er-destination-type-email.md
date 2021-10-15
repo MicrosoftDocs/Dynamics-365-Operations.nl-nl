@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: dc89e7ff43e5df358f6d41bd295e981c883085bc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343855"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595198"
 ---
 # <a name="email-er-destination-type"></a>ER-bestemmingstype voor e-mail
 
@@ -75,7 +75,7 @@ U kunt de afzender en e-mailontvangers configureren. Standaard wordt een e-mailb
 >
 > Wanneer een e-mailbestemming wordt aangeboden voor aanpassen bij [runtime](electronic-reporting-destinations.md#security-considerations) is het veld **Van** alleen zichtbaar voor gebruikers met de `ERFormatDestinationSenderEmailMaintain`-beveiligingsmachtiging **E-mailadres afzender onderhouden voor bestemming voor ER-indelingen**.
 >
-> Wanneer het veld **Van** is geconfigureerd voor het gebruik van een ander e-mailadres dan het adres van de huidige gebruiker, moet de machtiging voor **Verzenden als** of **Verzenden namens** van tevoren correct zijn [ingesteld](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide). Anders doet zich de volgende uitzondering voor bij runtime: 'Kan e-mail niet verzenden als \<from email account\> vanaf het account \<current user account\>; controleer dan de machtigingen voor 'Verzenden als' voor \<from email account\>.
+> Wanneer het veld **Van** is geconfigureerd voor het gebruik van een ander e-mailadres dan het adres van de huidige gebruiker, moet de machtiging voor **Verzenden als** of **Verzenden namens** van tevoren correct zijn [ingesteld](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group). Anders doet zich de volgende uitzondering voor bij runtime: 'Kan e-mail niet verzenden als \<from email account\> vanaf het account \<current user account\>; controleer dan de machtigingen voor 'Verzenden als' voor \<from email account\>.
 
 U kunt het veld **Van** configureren om meerdere e-mailadressen terug te geven. In dit geval wordt het eerste adres in de lijst gebruikt als e-mailadres van de afzender.
 

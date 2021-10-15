@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: b9536a6e12b4037458910b7a2d27450ac175fd9d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483777"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559602"
 ---
 # <a name="ready-to-pay"></a>Gereed voor betaling
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 > [!NOTE]
 > Als u een werknemer als gereed voor betaling wilt markeren, moet u eerst de functionaliteit **(Preview) Integratie van salarisadministratie** in functiebeheer inschakelen. Meer informatie over het inschakelen van de previewfuncties vindt u in [Functies beheren](hr-admin-manage-features.md).
@@ -72,10 +70,9 @@ Als een van deze validaties mislukt, kunt u de werknemer niet als gereed voor be
 
 Als het veld **Gereed voor betaling** de waarde **Nee** heeft, geeft dit aan dat u een actie moet uitvoeren om ervoor te zorgen dat het werknemerprofiel is voltooid. Hiermee wordt niet voorkomen dat de gegevens beschikbaar worden gemaakt in een gegevensentiteit. 
 
-## <a name="known-issues"></a>Bekende problemen
+## <a name="process-automation"></a>Procesautomatisering
 
-- U moet de functie **Gestroomlijnde invoer voor werknemers** in functiebeheer uitschakelen. De tegels in de werkruimte voor compensatiebeheer werken niet goed als u deze functie gebruikt.
-- Op de pagina **Werknemer** op het tabblad **Salaris** is de groep **Gereed voor betaling** beschikbaar voor elke gebruikersrol. 
+U kunt de validatie van alle werknemers automatiseren door [Procesautomatisering](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation) te gebruiken. Ga in de werkruimte **Compensatiebeheer** naar **Koppelingen** \> **Parameters** \> **Procesautomatiseringen**.
 
 ## <a name="see-also"></a>Zie ook
 

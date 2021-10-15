@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 7040a74fbb08bed0b0c2808784d9c0b70f2adf96bef28783102c7eb117eeb851
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a351567e0ed61fac040a6209a221833ab73a242a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718352"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595257"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Een nieuwe ER-configuratie ontwerpen om rapporten in Word-indeling te genereren
 
@@ -46,7 +46,7 @@ U kunt **Excel\\Range** en **Excel\\Cell** geneste elementen toevoegen voor het 
 
 ![Geneste elementen toevoegen op de pagina Indelingsontwerper.](./media/er-design-configuration-word-image4.gif)
 
-Wanneer u uw wijzigingen opslaat in de ER-indeling tijdens het ontwerpen, wordt de hiërarchische indelingsstructuur opgeslagen in de gekoppelde Word-sjabloon als een [aangepast XML-onderdeel](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) met de naam **Rapport**. U moet de gewijzigde sjabloon openen, downloaden uit Finance, lokaal opslaan en openen in de Word-bureaubladtoepassing. In de volgende afbeelding ziet u de lokaal opgeslagen voorbeeldsjabloon voor het controlerapport met het aangepaste XML-onderdeel **Rapport**.
+Wanneer u uw wijzigingen opslaat in de ER-indeling tijdens het ontwerpen, wordt de hiërarchische indelingsstructuur opgeslagen in de gekoppelde Word-sjabloon als een [aangepast XML-onderdeel](/visualstudio/vsto/custom-xml-parts-overview) met de naam **Rapport**. U moet de gewijzigde sjabloon openen, downloaden uit Finance, lokaal opslaan en openen in de Word-bureaubladtoepassing. In de volgende afbeelding ziet u de lokaal opgeslagen voorbeeldsjabloon voor het controlerapport met het aangepaste XML-onderdeel **Rapport**.
 
 ![Voorbeeld van de voorbeeldrapportsjabloon in de Word-bureaubladtoepassing.](./media/er-design-configuration-word-image5.gif)
 

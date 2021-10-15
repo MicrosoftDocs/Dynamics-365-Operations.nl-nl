@@ -1,8 +1,8 @@
 ---
 title: Cashflowprognose
 description: Dit onderwerp bevat een overzicht van het cashflowprognoseproces. Ook wordt uitgelegd hoe cashflowprognoses worden geïntegreerd met andere modules in het systeem.
-author: JodiChristiansen
-ms.date: 12/16/2020
+author: panolte
+ms.date: 09/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b9455d132a928185bdfeb49c01c141b4c9b2c52e3b3beb9f8a3c96a38238f296
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
+ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779441"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547950"
 ---
 # <a name="cash-flow-forecasting"></a>Cashflowprognose
 
@@ -57,7 +57,7 @@ U kunt een afhankelijke cashflowprognose instellen voor een hoofdrekening die tr
 
 Stel eerst het veld **Hoofdrekening** in op de primaire hoofdrekening waarin transacties naar verwachting in eerste instantie zullen plaatsvinden. Stel het veld **Afhankelijke hoofdrekening** in op de rekening die wordt beïnvloed door de eerste transactie ten opzichte van de primaire hoofdrekening. Stel de juiste waarden voor de overige velden op de regel in. U kunt de waarde in het veld **Percentage** wijzigen om het effect van de primaire hoofdrekening op de afhankelijke hoofdrekening weer te geven. Selecteer voor een verkoop- of inkoopprognose een waarde voor **Betalingstermijnen** die wordt gebruikt voor de meeste klanten of leveranciers. Stel het veld **Boekingstype** in op het verwachte boekingstype dat is gerelateerd aan de cashflowprognose.
 
-### <a name="accounts-payable"></a>Leveranciers    
+### <a name="accounts-payable"></a>Leveranciers
 
 U kunt de prognose voor inkopen berekenen met behulp van de instellingsopties op het tabblad **Leveranciers** van de pagina **Instelling cashflowprognose**. Voordat u de cashflowprognoses voor leveranciers kunt configureren, moet u betalingstermijnen, leveranciersgroepen en boekingsprofielen van leveranciers configureren.
 
@@ -69,7 +69,7 @@ U kunt de standaardinstelling voor het veld **Tijd tussen vervaldatum van factuu
 
 U kunt de standaardinstelling voor het veld **Liquiditeitsrekening** overschrijven voor specifieke boekingsprofielen van leveranciers. In de prognose wordt de standaardwaarde van de sectie **Standaardwaarden van inkoopprognose** gebruikt tenzij een andere liquiditeitsrekening is opgegeven voor het boekingsprofiel dat is gerelateerd aan de leverancier in de transactie. Als u de standaardwaarde wilt overschrijven, selecteert u een boekingsprofiel en geeft u vervolgens de liquiditeitsrekening op die naar verwachting zal worden beïnvloed.
 
-### <a name="accounts-receivable"></a>Klanten  
+### <a name="accounts-receivable"></a>Klanten
 
 U kunt de prognose voor verkopen berekenen met behulp van de instellingsopties op het tabblad **Klanten** van de pagina **Instelling cashflowprognose**. Voordat u de cashflowprognoses voor klanten kunt configureren, moet u betalingstermijnen, klantgroepen en boekingsprofielen van klanten configureren.
 
@@ -83,7 +83,10 @@ U kunt de standaardinstelling voor het veld **Liquiditeitsrekening** overschrijv
 
 ### <a name="budgeting"></a>Budgettering
 
-Budgetten die zijn gemaakt op basis van budgetmodellen, kunnen in cashflowprognoses worden opgenomen. Op het tabblad **Budgettering** van de pagina **Instelling cashflowprognose** selecteert u de budgetmodellen die u in de prognose wilt opnemen. Standaard worden nieuwe budgetregistervermeldingen opgenomen in prognoses nadat het budgetmodel is ingeschakeld voor cashflowprognoses. Opname in cashflowprognose kan voor afzonderlijke budgetregistervermeldingen worden overschreven.
+Budgetten die zijn gemaakt op basis van budgetmodellen, kunnen in cashflowprognoses worden opgenomen. Op het tabblad **Budgettering** van de pagina **Instelling van cashflowprognose** selecteert u de budgetmodellen die u in de prognose wilt opnemen. Standaard worden nieuwe budgetregistervermeldingen opgenomen in prognoses nadat het budgetmodel is ingeschakeld voor cashflowprognoses.
+
+Budgetregisterposten kunnen afzonderlijk door middel van personalisatie in de cashflowprognose worden opgenomen. Wanneer u de kolom Opnemen in cashflowprognoses toevoegt aan de pagina **Budgetregisterpost**, worden de instellingen op de pagina **Instelling van cashflowprognose** overschreven om een afzonderlijke budgetregisterpost in de prognose op te nemen.
+
 
 ### <a name="inventory-management"></a>Voorraadbeheer
 
@@ -144,7 +147,7 @@ Het werkgebied **Overzicht van contant geld - alle bedrijven** bevat analyses va
 
 Het werkgebied **Overzicht van contant geld - huidig bedrijf** bevat analyses van cashflowprognoses in de gedefinieerde valuta voor boekhouding van het bedrijf. De valuta voor boekhouding die wordt gebruikt voor de analyses wordt gedefinieerd op de pagina **Grootboek**. Dit werkgebied bevat een overzicht van cashflowprognoses en bankrekeningsaldi voor het huidige bedrijf. Een diagram van de kasinkomsten en -uitgaven bevat een overzicht van toekomstige verplaatsingen van contant geld en saldi in de valuta voor boekhouding, samen met gedetailleerde informatie over de voorspelde transacties. U kunt ook de voorspelde valutasaldi bekijken.
 
-Zie voor meer informatie over cashflowprognoseanalyses het onderwerp [Power BI-inhoud: overzicht van contant geld](./cash-overview-power-bi-content.md).
+Zie voor meer informatie over analyses van cashflowprognoses het onderwerp [Overzicht van contant geld Power BI-inhoud](Cash-Overview-Power-BI-content.md).
 
 Bovendien kunt u gegevens van cashflowprognoses weergeven voor specifieke accounts, orders en artikelen op de volgende pagina's:
 

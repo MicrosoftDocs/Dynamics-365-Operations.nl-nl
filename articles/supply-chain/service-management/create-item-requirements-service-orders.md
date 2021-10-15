@@ -1,7 +1,7 @@
 ---
 title: Artikelbehoeften voor serviceorders maken
-description: Als u specifieke artikelen voor een serviceorder moet reserveren, kunt u er voorraadartikelbehoeften voor maken.
-author: ShylaThompson
+description: In dit onderwerp wordt beschreven hoe u artikelbehoeften voor serviceorders maakt.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 800f8ec8c016f95fbbf88a89184ffc45d183969ef02df526bbc6b9b3b78be3ba
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 75a05147883f1592b3a09e02e238661f6c20cf27
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773977"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7575286"
 ---
-# <a name="create-item-requirements-for-service-orders"></a>Artikelbehoeften voor serviceorders maken 
+# <a name="create-item-requirements-for-service-orders"></a>Artikelbehoeften voor serviceorders maken
 
 [!include [banner](../includes/banner.md)]
-
 
 U kunt een serviceorder maken om services, die u aan uw klanten levert, bij te houden en te beheren. Als u specifieke artikelen voor een serviceorder moet reserveren, kunt u er voorraadartikelbehoeften voor maken. Een artikelbehoefte kan direct worden verbruikt vanuit de voorraad, of er kan een productieorder of inkooporder voor het artikel mee worden geïnitialiseerd.
 
@@ -35,40 +34,24 @@ Artikelbehoeften voor serviceorders worden verwerkt via een project. Als u een a
 
 ## <a name="create-an-item-requirement-for-a-service-order"></a>Een artikelbehoefte maken voor een serviceorder
 
-1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
-
-2.  Selecteer de serviceorder waarvoor u een artikelbehoefte wilt maken.
-
-3.  Klik in het **Actievenster** op het tabblad **Verzenden** op **Artikelbehoefte**.
-
-4.  Voer in het formulier **Artikelbehoeften** de informatie voor het vereiste artikel in. Zie voor meer informatie over de specifieke velden [Artikelbehoeften (formulier)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
+1. Ga naar **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
+1. Selecteer de serviceorder waarvoor u een artikelbehoefte wilt maken.
+1. Selecteer in het **Actievenster** op het tabblad **Verzenden** de optie **Artikelbehoefte**.
+1. Voer in het formulier **Artikelbehoeften** de informatie voor het vereiste artikel in. Zie voor meer informatie over de specifieke velden [Artikelbehoeften (formulier)](https://technet.microsoft.com/library/aa552021\(v=ax.60\)).
 
 ## <a name="create-an-item-requirement-for-a-service-agreement"></a>Een artikelbehoefte maken voor een serviceovereenkomst
 
-1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.
-
-2.  Open de serviceovereenkomst waarvoor u een artikelbehoefte wilt maken.
-
-3.  Klik op het sneltabblad **Regels** op **Toevoegen** om een nieuwe regel te maken.
-
-4.  Selecteer in het veld **Transactietype** **Artikel**.
-
-5.  Selecteer in het veld **Artikelinstellingen** **Artikelbehoefte**.
-
-6.  Selecteer in het veld **Artikelnummer** het artikel dat is vereist voor de serviceovereenkomst.
-
-7.  Selecteer op het sneltabblad **Regeldetails** op het tabblad **Productdimensies** in het veld **Site** de voorraadlocatie voor het artikel.
-
-8.  Als u een serviceorder op basis van de overeenkomstregel wilt maken, klikt u op het sneltabblad **Regels** op **Serviceorders maken** en voert u vervolgens de relevante informatie in het formulier **Serviceorders maken** in. 
-
+1. Ga naar **Servicebeheer** \> **Algemeen** \> **Serviceovereenkomsten** \> **Serviceovereenkomsten**.
+1. Open de serviceovereenkomst waarvoor u een artikelbehoefte wilt maken.
+1. Selecteer op het sneltabblad **Regels** de optie **Toevoegen** om een nieuwe regel te maken.
+1. Selecteer in het veld **Transactietype** **Artikel**.
+1. Selecteer in het veld **Artikelinstellingen** **Artikelbehoefte**.
+1. Selecteer in het veld **Artikelnummer** het artikel dat is vereist voor de serviceovereenkomst.
+1. Selecteer op het sneltabblad **Regeldetails** op het tabblad **Productdimensies** in het veld **Site** de voorraadlocatie voor het artikel.
+1. Als u een serviceorder wilt maken op basis van de overeenkomstregel, selecteert u op het sneltabblad **Regels** de optie **Serviceorders maken** en voert u vervolgens de relevante informatie op het formulier **Serviceorders maken** in.
 
 ## <a name="see-also"></a>Zie ook
 
 [Automatisch serviceorders maken](create-service-orders-automatically.md).
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

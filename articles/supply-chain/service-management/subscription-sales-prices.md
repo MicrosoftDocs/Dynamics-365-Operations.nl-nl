@@ -1,7 +1,7 @@
 ---
 title: Verkoopprijzen abonnement
 description: Bij het maken van een abonnement wordt de verkoopprijs afgeleid van de verkoopprijs die is ingesteld in het formulier Verkoopprijs (abonnement).
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59e9084c1b1a2d27ac7a813dd412ebf49011252a199742b31af7c3c328c5ffd2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd63fc290263babafabd6e29441f008d0cf10e13
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712929"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569980"
 ---
-# <a name="subscription-sales-prices"></a>Verkoopprijzen abonnement   
+# <a name="subscription-sales-prices"></a>Verkoopprijzen abonnement
 
 [!include [banner](../includes/banner.md)]
-
 
 Bij het maken van een abonnement wordt de verkoopprijs afgeleid van de verkoopprijs die is ingesteld in het formulier **Verkoopprijs (abonnement)**.
 
@@ -33,14 +32,14 @@ In het formulier **Verkoopprijs (abonnement)** kunt u verkoopprijzen maken voor 
 
 Als de periodecode en valuta van het abonnement en de verkoopprijs overeenkomen, worden abonnementsverkoopprijzen geselecteerd op basis van de prioriteiten die in de volgende tabel worden vermeld. Met een lege cel in de tabel wordt aangegeven dat het veld leeg is en met X dat de waarde gelijk is aan de waarde in het abonnement op basis waarvan de transactie is gegenereerd.
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -120,7 +119,6 @@ Als de periodecode en valuta van het abonnement en de verkoopprijs overeenkomen,
 </tbody>
 </table>
 
-
 Bij het maken van abonnementskosten wordt de meest gedetailleerde verkoopprijs (zoals aangegeven in bovenstaande tabel) geselecteerd als abonnementsverkoopprijs.
 
 ## <a name="update-and-index-subscription-sales-prices"></a>Abonnementsverkoopprijzen bijwerken en indexeren
@@ -135,15 +133,15 @@ Bij het maken van abonnementskosten wordt de verkoopprijs gebaseerd op de verkoo
 
 U wilt een abonnementsverkoopprijs van EUR 500 instellen voor het nieuwe project 9030. In het formulier **Verkoopprijs (abonnement)** maakt u een regel met de abonnementsverkoopprijs, zoals in de volgende tabel wordt aangegeven.
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -174,14 +172,14 @@ De velden **Categorie** en **Abonnement** zijn leeg.
 
 Vervolgens maakt u de volgende abonnementen.
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
-<col style="width: 16%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -226,14 +224,14 @@ Voor beide abonnementen worden abonnementskosten gemaakt met een verkoopprijs va
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -274,15 +272,15 @@ Voor beide abonnementen worden abonnementskosten gemaakt met een verkoopprijs va
 
 Later besluit u dat u verkoopprijzen wilt opgeven voor de categorie AbbCat1 voor project 9030. Daarom maakt u een nieuwe verkoopprijsregel met een verkoopprijs van EUR 550 voor de combinatie van project 9030 en kostencategorie AbbCat1. Er zijn nu twee regels met abonnementsverkoopprijzen beschikbaar voor project 9030, zoals in de volgende tabel wordt weergegeven.
 
-<table style="width:100%;">
+<table>
 <colgroup>
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 14%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -317,19 +315,18 @@ Later besluit u dat u verkoopprijzen wilt opgeven voor de categorie AbbCat1 voor
 </tbody>
 </table>
 
-
 U herhaalt de bovenstaande procedure om abonnementskosten te maken voor beide abonnementen in abonnementsgroep Abb1. In de volgende tabel worden de transacties weergegeven die voor elk abonnement worden gemaakt dat is gekoppeld aan de abonnementsgroep.
 
 <table>
 <colgroup>
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
-<col style="width: 12%" />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -367,16 +364,10 @@ U herhaalt de bovenstaande procedure om abonnementskosten te maken voor beide ab
 </tbody>
 </table>
 
-
 In de eerste transactie voor abonnement 00020\_135 is de verkoopprijs van EUR 550 afgeleid van de abonnementsverkoopprijs die is ingesteld voor de combinatie van het specifieke project en de categorie. In de tweede transactie voor abonnement 00021\_135 wordt de verkoopprijs van EUR 500 gebruikt als abonnementsverkoopprijs van het project, omdat er geen prijs is ingesteld voor de combinatie van project 9030 en categorie SubCat2.
 
 ## <a name="see-also"></a>Zie ook
 
 [Abonnementsverkoopprijzen bijwerken en indexeren](update-and-index-subscription-sales-prices.md)
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

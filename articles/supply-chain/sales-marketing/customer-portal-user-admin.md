@@ -1,7 +1,7 @@
 ---
 title: Gebruikers van klantportal maken en beheren
 description: In dit onderwerp wordt uitgelegd hoe u gebruikersaccounts voor de klantportal maakt en machtigingen hiervoor instelt.
-author: dasani-madipalli
+author: Henrikan
 ms.date: 07/31/2020
 ms.topic: article
 ms.prod: ''
@@ -9,18 +9,19 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-04-22
-ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 38b479a72ce6d9446e04b14ed939b63d41d3b94b299f195974a84ca7c8ad0d65
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.13
+ms.openlocfilehash: 448f315b888b63eba74dcb8b47a9b238e371bb2b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763982"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573484"
 ---
 # <a name="create-and-manage-customer-portal-users"></a>Gebruikers van klantportal maken en beheren
 
+[!include [banner](../includes/banner.md)]
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 In de standaardimplementatie kunnen gebruikers zichzelf niet zelf registreren voor websites die zijn gemaakt met de klantportal. Om zich aan te melden en een website te gebruiken moeten gebruikers door de beheerder worden uitgenodigd. Microsoft heeft de mogelijkheid voor gebruikers om zichzelf te registreren, opzettelijk geblokkeerd.
