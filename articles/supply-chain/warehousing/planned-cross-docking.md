@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 81888e0703c53333ab9697c0445270f2f40c7b9ba02f3ba5fa728aef0b78b3a6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.7
+ms.openlocfilehash: c28639a4a575f5f356bf947ba8e0aee6bcd256b4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730005"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573028"
 ---
 # <a name="planned-cross-docking"></a>Gepland cross-docken
 
@@ -156,7 +156,7 @@ Gepland cross-docken wordt geïmplementeerd als een boekingsmethode voor lading.
 1. Selecteer **Opslaan** en bevestig dat het selectievakje **Geldig** is ingeschakeld voor de sjabloon *51 Cross-docken*.
 1. Optioneel: selecteer **Query bewerken** als u criteria wilt instellen om te bepalen wanneer en waar de werksjabloon wordt gebruikt.
 
-    U kunt een query instellen om te bepalen wanneer een bepaalde werksjabloon wordt gebruikt. U kunt bijvoorbeeld opgeven dat een sjabloon alleen voor werk op een specifieke locatie kan worden gebruikt. Als u wilt dat de werksjabloon voor cross-docken op een specifieke locatie wordt toegepast, moet u filteren op het veld **Beginlocatie**, niet op het veld **Locatie**, omdat het maken van werk voor de inkomende processen  (inkoop, cross-docken en aanvulling) begint vanaf de plaatsregel. Wanneer het werk wordt gemaakt, wordt het veld **Locatie** op de plaats gebracht door de locatierichtlijn. De op te halen locatie wordt echter opgeslagen in het veld **Beginlocatie**.
+    U kunt een query instellen om te bepalen wanneer een bepaalde werksjabloon wordt gebruikt. U kunt bijvoorbeeld opgeven dat een sjabloon alleen voor werk op een specifieke locatie kan worden gebruikt. Als u wilt dat de werksjabloon voor cross-docken op een specifieke locatie wordt toegepast, moet u filteren op het veld **Beginlocatie**, niet op het veld **Locatie**, omdat het maken van werk voor de inkomende processen (inkoop, cross-docken en aanvulling) begint vanaf de plaatsregel. Wanneer het werk wordt gemaakt, wordt het veld **Locatie** op de plaats gebracht door de locatierichtlijn. De op te halen locatie wordt echter opgeslagen in het veld **Beginlocatie**.
 
 > [!NOTE]
 > De werkklasse-id's voor de werktypen *Verzamelen* en *Wegzetten* moeten hetzelfde zijn.

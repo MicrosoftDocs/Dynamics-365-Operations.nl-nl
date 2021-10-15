@@ -1,24 +1,21 @@
 ---
 title: Zelfstudie voor Regression Suite Automation Tool
 description: In dit onderwerp wordt beschreven hoe u het hulpprogramma RSAT (Regression Suite Automation Tool) kunt gebruiken. Verschillende functies worden beschreven en u krijgt voorbeelden te zien waarin geavanceerde scripts worden gebruikt.
-author: robinarh
-ms.date: 01/15/2021
+author: FrankDahl
+ms.date: 09/23/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.custom: 21761
 ms.search.region: Global
-ms.author: rhaertle
+ms.author: fdahl
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d70b2e7cf497fbf165a452f7977a14a98b9e1956e5a964d42c7bf8a6c3abe0bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f1d818944ed2779cdad15d84673369e31243285f
+ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714544"
+ms.lasthandoff: 09/25/2021
+ms.locfileid: "7556760"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Zelfstudie voor Regression Suite Automation Tool
 
@@ -82,13 +79,19 @@ Nadat de testcase is uitgevoerd, wordt het bericht in het Excel-parameterbestand
 
 Met deze functie maakt u schermafbeeldingen van de stappen die zijn uitgevoerd tijdens de taakregistratie. Het is handig voor het controleren of debuggen van problemen.
 
-- Als u deze functie wilt gebruiken, opent u het bestand **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** onder de RSAT-installatiemap (bijvoorbeeld **C:\\Program Files (x86)\\Regression Suite Automation Tool**) en wijzigt u de waarde van het volgende element van **false** in **true**.
+- Als u deze functie wilt gebruiken terwijl RSAT wordt uitgevoerd met de gebruikersinterface, opent u het bestand **Microsoft.Dynamics.RegressionSuite.WindowsApp.exe.config** onder de RSAT-installatiemap (bijvoorbeeld **C:\\Program Files (x86)\\Regression Suite Automation Tool**) en verandert u de waarde van het volgende element van **false** in **true**.
 
     ```xml
     <add key="VerboseSnapshotsEnabled" value="false" />
     ```
 
-Wanneer de testaanvraag wordt uitgevoerd, genereert RSAT momentopnamen (installatiekopieën) van de afgespeelde stappen in de map voor testcases in de werkdirectory. Als u een oudere versie van RSAT gebruikt, worden de afbeeldingen opgeslagen in **C:\\Gebruikers\\\<Username\>\\AppData\\Roaming\\regressionTool\\playback** en er wordt een aparte map gemaakt voor elke testaanvraag die wordt uitgevoerd.
+- Als u deze functie wilt gebruiken terwijl RSAT wordt uitgevoerd door de CLI (bijvoorbeeld Azure DevOps), opent u het bestand **Microsoft.Dynamics.RegressionSuite.ConsoleApp.exe.config** onder de RSAT-installatiemap (bijvoorbeeld **C:\\Program Files (x86)\\Regression Suite Automation Tool**) en verandert u de waarde van het volgende element van **false** in **true**.
+
+    ```xml
+    <add key="VerboseSnapshotsEnabled" value="false" />
+    ```
+
+Wanneer u testcases uitvoert, genereert RSAT momentopnamen (afbeeldingen) van de stappen en slaat deze op in de afspeelmap van de testcases in de werkdirectory. In de afspeelmap wordt een afzonderlijke submap met de naam **StepSnapshots** gemaakt. Deze map bevat momentopnamen voor de testcases die zijn uitgevoerd.
 
 ## <a name="assignment"></a>Toewijzing
 
@@ -521,7 +524,7 @@ for ($i = $start; $i -lt $start + $nr; $i++ )
 
 In het volgende voorbeeld wordt een OData-aanroep (Open Data Protocol) gebruikt om de orderstatus van een inkooporder te zoeken. Als de status niet **gefactureerd** is, kunt u bijvoorbeeld een RSAT-testcase aanroepen waarmee de factuur wordt geboekt.
 
-```xpp
+```powershell
 function Odata_Get
 {
     Param ( [string] $environment, [string] $cmd )

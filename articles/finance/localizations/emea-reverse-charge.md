@@ -12,12 +12,12 @@ ms.search.region: Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, F
 ms.author: epodkolz
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b9996b4d6ab84070cc3e9863a454c4fd8ed14091490273cde0eec1ea2bc508fc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 326a74d0f962cf0455033b04950ded7ca26bfc77
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756221"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594714"
 ---
 # <a name="reverse-charge-mechanism-for-vatgst-scheme"></a>Mechanisme voor omgekeerde toeslagen van btw/GST-schema
 
@@ -45,7 +45,6 @@ Als u de omgekeerde toeslag wilt toepassen, moet u de volgende instellingen uitv
 Het wordt aangeraden afzonderlijke btw-codes voor verkoopbewerkingen en inkoopbewerkingen te gebruiken.
 
 <table>
-<body>
 <tr>
 <td><strong>Btw-code voor verkoop</strong></td>
 <td>Maak een btw-code voor verkoopbewerkingen waarop de omgekeerde toeslag van toepassing is (<strong>Belasting</strong> &gt; <strong>Indirecte belastingen</strong> &gt; <strong>Btw</strong> &gt; <strong>Btw-codes</strong>).
@@ -62,7 +61,6 @@ U moet deze negatieve btw-code toewijzen aan een btw-groep voor artikelen en dez
 <p>Zie het volgende gedeelte &quot;Btw-groepen en artikel-btw-groepen instellen&quot; voor meer informatie.</p>
 </td>
 </tr>
-</tbody>
 </table>
 
 ## <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><a name="sales-tax-item-sales-tax-groups"></a>Btw-groepen en artikel-btw-groepen instellen

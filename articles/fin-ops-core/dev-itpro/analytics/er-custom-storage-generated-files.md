@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 83b2d3c35e3e68aaad22bc03a46b17abc1526073895057717fd055dacdfbee5c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 337e760f28161721d886c7bbec09b5ff8dbfad45
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718472"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594904"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Aangepaste opslaglocaties opgeven voor gegenereerde documenten
 
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Wijzig de bestaande klasse `AssetRollForwardService` en schrijf code om een aangepaste bestemmingsfabriek in te stellen voor de rapportuitvoeringsfunctie. Wanneer een aangepaste bestemmingsfabriek is opgebouwd, wordt de toepassingsgestuurde parameter die een bestemmingsmap opgeeft doorgegeven. Op deze manier wordt de bestemmingsmap gebruikt om gegenereerde bestanden op te slaan.
 
     > [!NOTE] 
-    > Controleer of de opgegeven map (**c:\\0** in dit voorbeeld) aanwezig is in het lokale bestandssysteem van de server waarop de AOS-service wordt uitgevoerd. Anders wordt een uitzondering [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) gegenereerd tijdens runtime.
+    > Controleer of de opgegeven map (**c:\\0** in dit voorbeeld) aanwezig is in het lokale bestandssysteem van de server waarop de AOS-service wordt uitgevoerd. Anders wordt een uitzondering [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception) gegenereerd tijdens runtime.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

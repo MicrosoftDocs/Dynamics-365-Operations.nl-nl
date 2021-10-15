@@ -1,7 +1,7 @@
 ---
 title: Werkorders in Field Service synchroniseren met verkooporders in Supply Chain Management
 description: In dit onderwerp worden de sjablonen en onderliggende taken besproken die worden gebruikt voor het synchroniseren van werkorders in Field Service met verkooporders in Supply Chain Management.
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/09/2018
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 7d7688e757a3ab9746ae0307a7c15f0624c1d8aceeb0dc935b0da32d3ab2994b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c54f5eaec1ae453ba9e55ef54d47c8591276ec89
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752677"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568370"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Werkorders in Field Service synchroniseren met verkooporders in Supply Chain Management
 
@@ -245,31 +245,31 @@ In de volgende afbeeldingen ziet u de sjabloontoewijzing in Gegevensintegratie.
 
 Filter: (msdyn_systemstatus ne 690970005) en (msdyn_systemstatus ne 690970000) en (msdynce_hasexternallymaintainedproductsonly eq true)
 
-[![Sjabloontoewijzing in Gegevensintegratie.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+[![Sjabloontoewijzing in Gegevensintegratie voor werkorders aan verkooporders (Field Service naar Supply Chain Management): WorkOrderHeader.](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineestimate"></a>Werkorders naar Sales-orders (Field Service naar Supply Chain Management): WorkOrderServiceLineEstimate
 
 Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en (msdyn_linestatus eq 690970000) en (msdynce_headersystemstatus ne 690970004)
 
-[![Sjabloontoewijzing in Gegevensintegratie.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+[![Sjabloontoewijzing in Gegevensintegratie voor werkorders aan verkooporders (Field Service naar Supply Chain Management): WorkOrderServiceLineEstimate.](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderservicelineused"></a>Werkorders naar Sales-orders (Field Service naar Supply Chain Management): WorkOrderServiceLineUsed
 
 Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en ((msdyn_linestatus eq 690970001) of (msdynce_headersystemstatus eq 690970004))
 
-[![Sjabloontoewijzing in Gegevensintegratie.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+[![Sjabloontoewijzing in Gegevensintegratie voor werkorders aan verkooporders (Field Service naar Supply Chain Management): WorkOrderServiceLineUsed.](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineestimate"></a>Werkorders naar Sales-orders (Field Service naar Supply Chain Management): WorkOrderProductLineEstimate
 
 Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en (msdyn_linestatus eq 690970000) en (msdynce_headersystemstatus ne 690970004) en (msdyn_allocated eq true)
 
-[![Sjabloontoewijzing in Gegevensintegratie.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+[![Sjabloontoewijzing in Gegevensintegratie voor werkorders aan verkooporders (Field Service naar Supply Chain Management): WorkOrderProductLineEstimate.](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
 
 ### <a name="work-orders-to-sales-orders-field-service-to-supply-chain-management-workorderproductlineused"></a>Werkorders naar Sales-orders (Field Service naar Supply Chain Management): WorkOrderProductLineUsed
 
 Filter: (msdynce_headersystemstatus ne 690970005) en (msdynce_headersystemstatus ne 690970000) en (msdynce_orderhasexternalmaintainedproductsonly eq true) en ((msdyn_linestatus eq 690970001) of (msdynce_headersystemstatus eq 690970004) of (msdyn_allocated ne true))
 
-[![Sjabloontoewijzing in Gegevensintegratie.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
+[![Sjabloontoewijzing in Gegevensintegratie voor werkorders aan verkooporders (Field Service naar Supply Chain Management): WorkOrderProductLineUsed.](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Reductiesleutels van prognose
 description: Dit onderwerp bevat voorbeelden waarin het instellen van een reductiesleutel wordt getoond. Het bevat informatie over de verschillende reductiesleutelinstellingen en de resultaten van elk. U kunt een reductiesleutel gebruiken om te definiëren hoe prognosebehoeften worden gereduceerd.
-author: roxanadiaconu
+author: ChristianRytt
 ms.date: 04/15/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 19251
 ms.assetid: aa9e0dfb-6052-4a2e-9378-89507c02fdf2
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 32d1c7efaefaecae12031073d67b0e4c2cf78a78
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: cbed77fd1abc0e4ae26e2b9ddcc01d3f4a84889f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474767"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570820"
 ---
 # <a name="forecast-reduction-keys"></a>Reductiesleutels van prognose
 

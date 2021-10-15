@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 09caa7fa8f10d1afc44bb9343550bc633b8ec99a
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 4fd6039843be09ec706e45746d5724faa99a95e6
+ms.sourcegitcommit: 3f59b15ba7b4c3050f95f2b32f5ae6d7b96e1392
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472220"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7563056"
 ---
 # <a name="customer-management-in-stores"></a>Klantbeheer in winkels
 
@@ -45,7 +45,8 @@ Verkoopmedewerkers kunnen meerdere adressen voor een klant vastleggen. De naam e
 
 ## <a name="sync-customers-and-async-customers"></a>Synchrone klanten en asynchrone klanten
 
-> [BELANGRIJK] Wanneer het POS offline gaat, maakt het systeem de klanten automatisch asynchroon aan, zelfs wanneer modus Asynchroon klanten aanmaken is uitgeschakeld. Commerce Headquarters-beheerders moeten daarom, ongeacht of er nu synchroon of asynchroon klanten aanmaken is geselecteerd, een terugkerende batchtaak aanmaken en inplannen voor de **P-taak**, de taak **Klanten en zakenpartners synchroniseren vanuit asynchrone modus** (eerder ook wel **Klanten en zakenpartners synchroniseren vanuit asynchrone modus** genoemd) en de taak **1010**, zodat alle asynchrone klanten worden geconverteerd naar synchrone in Commerce Headquarters.
+> [!IMPORTANT]
+> Wanneer het POS offline gaat, maakt het systeem de klanten automatisch asynchroon aan, zelfs wanneer modus Asynchroon klanten aanmaken is uitgeschakeld. Commerce Headquarters-beheerders moeten daarom, ongeacht of er nu synchroon of asynchroon klanten aanmaken is geselecteerd, een terugkerende batchtaak aanmaken en inplannen voor de **P-taak**, de taak **Klanten en zakenpartners synchroniseren vanuit asynchrone modus** (eerder ook wel **Klanten en zakenpartners synchroniseren vanuit asynchrone modus** genoemd) en de taak **1010**, zodat alle asynchrone klanten worden geconverteerd naar synchrone in Commerce Headquarters.
 
 In Commerce zijn er twee manieren om klanten te maken: Synchroon (of Sync) en Asynchroon (of Async). Klanten worden standaard synchroon gemaakt. Dit wil zeggen dat ze in realtime worden gemaakt in Commerce Headquarters. De synchrone modus voor het maken van klanten is nuttig, omdat nieuwe klanten onmiddellijk in verschillende kanalen kunnen worden gezocht. Deze heeft echter ook een nadeel. Aangezien er [Commerce Data Exchange: realtime service](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service)-aanroepen naar Commerce Headquarters worden gegenereerd, kan dit gevolgen hebben voor de prestaties als er veel gelijktijdige aanroepen worden gedaan voor het maken van klanten.
 

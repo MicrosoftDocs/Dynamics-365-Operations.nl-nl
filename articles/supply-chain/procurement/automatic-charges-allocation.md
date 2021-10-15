@@ -1,23 +1,23 @@
 ---
 title: Automatische toewijzing van toeslagen
 description: Met de toeslagenfunctie in Microsoft Dynamics 365 Supply Chain Management kunt u automatisch toeslagen toewijzen aan inkooporders of verkooporders.
-author: dasani-madipalli
-ms.date: 10/01/2020
+author: Henrikan
+ms.date: 09/30/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: henrikan
 ms.search.validFrom: 2020-10-01
-ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 04e17947073fca63ab68f0b5d0d72eb8366a1600117f61851179e8b0ed2c8184
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.15
+ms.openlocfilehash: 6032539e57961998e7130e9cb6578248aaa2843e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753934"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592535"
 ---
 # <a name="automatic-allocation-of-charges"></a>Automatische toewijzing van toeslagen
 
@@ -26,6 +26,16 @@ ms.locfileid: "6753934"
 Op basis van de klant met wie u werkt of het artikel dat u verkoopt, wilt u mogelijk specifieke extra toeslagen toepassen. Met de functie voor *toeslagen* in Microsoft Dynamics 365 Supply Chain Management kunt u automatisch toeslagen toewijzen aan inkooporders of verkooporders.
 
 Automatische toeslagen worden automatisch toegepast wanneer u een verkooporder of inkooporder maakt. U kunt automatische toeslagen definiëren voor specifieke leveranciers, klanten of artikelen, groepen leveranciers of artikelen. U kunt ook automatische toeslagen definiëren die voor alle leveranciers, klanten of artikelen gelden.
+
+## <a name="set-up-parameters"></a>Parameters instellen
+
+Op de pagina **Parameters voor inkoopbeheer** zijn een paar instellingen beschikbaar die met name relevant zijn wanneer u toeslagen automatisch wilt toewijzen. Volg deze stappen om de instellingen te voltooien.
+
+1. Ga naar **Inkoop en sourcing \> Instellen \> Parameters voor Inkoopbeheer**.
+1. Open het tabblad **Prijzen**.
+1. Stel op het sneltabblad **Prijzen** de volgende instellingen in:
+    - **Automatische toeslagen voor koptekst zoeken** – Geeft aan of toeslagen automatisch moeten worden toegewezen voor kopteksten van inkooporders. Stel deze optie in op *Ja* als u automatische toewijzing van toeslagen wilt gebruiken.
+    - **Automatische toeslagen voor regel zoeken** – Geeft aan of toeslagen automatisch moeten worden toegewezen voor regels van inkooporders. Stel deze optie in op *Ja* als u automatische toewijzing van toeslagen wilt gebruiken.
 
 ## <a name="set-up-charges-codes"></a>Codes voor toeslagen instellen
 

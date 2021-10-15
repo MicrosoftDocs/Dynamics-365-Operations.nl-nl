@@ -4,18 +4,18 @@ description: In dit onderwerp worden de functies beschreven die nieuw of gewijzi
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 894686446436a390ec2d019672e3a2b8b0e5f5ef
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500550"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579731"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.21 (oktober 2021)
 
@@ -26,20 +26,6 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Mi
 - **Preview van versie:** augustus 2021
 - **Algemene beschikbaarheid van versie (zelfupdate):** september 2021
 - **Algemene beschikbaarheid van versie (automatische update):** oktober 2021
-
-## <a name="known-deployment-issue"></a>Bekend implementatieprobleem
-
-Bij de implementatie van release 10.0.21 op IaaS, ontvangt u mogelijk de volgende waarschuwing:
-
-**Waarschuwingscode:** 95017
-
-**Waarschuwingsbericht:** Uitvoering van script \[SetupDiagnose\] voor VM is mislukt
-
-De implementatie werkt ondanks de waarschuwing. De volgende bekende problemen kunnen zich echter voordoen in Lifecycle Services (LCS):
-
-- Op de pagina **Omgevingsbewaking** wordt de koppeling **Gedetailleerde versiegegevens weergeven** niet weergegeven, zodat u de specifieke versies van de modules die in uw omgeving zijn geïnstalleerd, niet kunt zien. Zonder deze gegevens kunnen volgende hotfixes mislukken, omdat bij het proces dat hotfixes gebruikt, deze gegevens worden gebruikt om te controleren of aan de vereisten van de moduleversie is voldaan. De impact moet minimaal zijn, omdat het niet mogelijk is om de PEAP/Preview-build in productie te gebruiken of hotfixes toe te passen.
-- Op de tabbladen **Prestatiemetingen** en **Indexanalyse** op de pagina **Omgevingsbewaking** onder SQL Insights worden geen gegevens weergegeven. Alle andere functies van **Omgevingsbewaking** werken zoals bedoeld.
-- De pagina **Volledige systeemdiagnose** is niet toegankelijk. De gekoppelde gegevens over de status van de nachtelijke collectoruitvoeringen en problemen die zijn gedetecteerd door de bijbehorende regels, worden ook niet weergeven.
 
 ## <a name="features-included-in-this-release"></a>Functies in deze versie
 
@@ -69,7 +55,7 @@ In de volgende tabel worden de functieverbeteringen weergegeven die deze versie 
 | Kostenbeheer | Voortgangsdetails van voorraadsluiting | Deze preview-functie biedt een gedetailleerde weergave van de voortgang van voorraadafsluiting. |
 | Inkoopbeheer | Oververbruik van algemene budgetreserveringen voorkomen als er meerdere opdrachten tot inkoop in een workflow zijn | Met deze preview-functie wordt de foutcontrole verbeterd wanneer gebruikers inkoopopdrachten indienen en goedkeuren die het resterende saldo van een algemene budgetreserveringsregel overschrijden. Dit helpt om een te hoog verbruik van algemene budgetreserveringen te voorkomen wanneer er meerdere inkoopopdrachten in de werkstroom zijn. |
 | Productiebeheer | Volledige serie-, batch- en nummerplaatnummers tonen in de uitvoeringsinterface van de productievloer | Deze functie biedt een betere ervaring met het weergeven van lijsten met serie-, batch- en nummerplaatnummers in de uitvoeringsinterface van de werkvloer. De weergave verandert van een kaartweergave met een beperkt aantal tekens in een lijstweergave die voldoende ruimte biedt om de volledige waarden weer te geven. De lijst biedt ook de mogelijkheid om naar specifieke nummers te zoeken. |
-| Verkoopbeheer en marketing | Het aantal verkooporders beperken dat kan worden geselecteerd voor boeking | Met deze functie kunt u het maximum aantal verkooporders vastleggen, dat tijdens het boeken van bevestigingen, orderverzamellijsten, pakbonnen en facturen op de pagina met verkooporderlijsten geselecteerd kan worden. Deze wordt automatisch ingeschakeld. Met deze functie kunt u een instelling met de naam **Max. aantal verkooporders voor het boeken** toevoegen aan de pagina **Parameters van klanten**. De nieuwe instelling heeft standaard een waarde van *100*. Deze functie zorgt ervoor dat de prestaties van de pagina met verkooporderlijsten worden verbeterd wanneer er een bepaald aantal verkooporders geselecteerd wordt. Dit heeft geen invloed op het aantal verkooporders dat door een periodieke taak kan worden verwerkt. |
+| Verkoopbeheer en marketing | Het aantal verkooporders beperken dat kan worden geselecteerd voor boeking | Met deze functie kunt u het maximum aantal verkooporders vastleggen, dat tijdens het boeken van bevestigingen, orderverzamellijsten, pakbonnen en facturen op de pagina met verkooporderlijsten geselecteerd kan worden. Deze wordt automatisch ingeschakeld. Met deze functie kunt u een instelling met de naam **Max. aantal verkooporders voor het boeken** toevoegen aan de pagina **Parameters van module Klanten**. De nieuwe instelling heeft standaard een waarde van *100*. Deze functie zorgt ervoor dat de prestaties van de pagina met verkooporderlijsten worden verbeterd wanneer er een bepaald aantal verkooporders geselecteerd wordt. Dit heeft geen invloed op het aantal verkooporders dat door een periodieke taak kan worden verwerkt. |
 | Magazijnbeheer | Opslagwerk loskoppelen van ASN's | Deze functie is vereist voor het verzenden en ontvangen van advance shipping notices (ASN's) wanneer u een werkbelasting van magazijnbeheer uitvoert op een schaaleenheid (als onderdeel van een gedistribueerde hybride topologie). Er wordt een nieuwe databasetabel toegevoegd die speciaal is bedoeld voor het opslaan van informatie over wegzetwerk. Eerder is deze informatie opgeslagen in tabellen die ook worden gebruikt voor de ASN's. |
 | Magazijnbeheer | Ruimte met gemengde eenheden | Items kunnen op locaties met gemengde eenheden (zoals dozen en kisten) worden weggezet. Voor elke sjabloonregel voor vakken kunt u met deze functie kiezen of met de regel artikelen op locaties met gemengde eenheden of met één eenheid moeten worden geplaatst. |
 | Magazijnbeheer | Snellere API gebruiken voor het sluiten/heropenen van containers op inpakstation | Wanneer deze preview-functie is ingeschakeld, worden voorraadtransacties met betrekking tot containers gemaakt met behulp van een nieuw proces waarmee de prestaties van het sluiten of opnieuw openen van containers worden verbeterd tijdens de verwerking op handmatige inpakstations. |

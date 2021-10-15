@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 898ca7b33e39ec33990fecc4c3a7229620fbfddd5ce8ad14423af38047187e55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf3fc5f333333b9a832ecb9c185473e476ac231d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761969"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559504"
 ---
 # <a name="payroll-worker-address"></a>Adres medewerker salarisadministratie
 
@@ -34,26 +34,32 @@ Deze entiteit voorziet in de salarisplaats en de salariswerklocatie voor een bep
 
 ## <a name="properties"></a>Eigenschappen
 
-| Eigenschap</br>**Fysieke naam**</br>**_Type_** | Gebruiken | Beschrijving |
+| Eigenschap</br>**Fysieke naam**</br>**_Type_** | Gebruiken | Omschrijving |
 | --- | --- | --- |
-| **Plaats**</br>mshr_city</br>*Tekenreeks* | Alleen-lezen</br>Vereist | De plaats voor het adres   |
-| **Personeelsnummer**</br>mshr_personnelnumber</br>*Tekenreeks* | Alleen-lezen</br>Vereist | Het unieke personeelsnummer van de werknemer.  |
-| **Land/regio**</br>mshr_countryregionid</br>*Tekenreeks* | Alleen-lezen</br>Vereist | Het land of de regio voor het adres.  |
-| **Geldig vanaf**</br>mshr_postaladdressvalidfrom</br>*Verschil datum en tijd* | Alleen-lezen </br>Vereist | De datum vanaf wanneer het adres geldig is. |
-| **Gewerkt op adres** </br> mshr_isworkedinaddressbr </br>*[Optieset mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Alleen-lezen</br>Vereist | Geeft aan of dit het adres is waar de werknemer werkt. |
-| **Land/regio**</br>mshr_county</br>*Tekenreeks* | Alleen-lezen</br>Vereist | De land of de regio voor het adres  |
-| **Id medewerker salarisadministratie**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Vereist</br>Door systeem gegenereerd | Een door het systeem gegenereerde GUID-waarde als unieke id van het adres.  |
-| **Primair veld**</br>mshr_primaryfield</br>*Tekenreeks* | Alleen-lezen</br>Vereist |  |
-| **Adres**</br>mshr_street</br>*Tekenreeks* | Alleen-lezen</br>Vereist | De straatnaam voor het adres |
-| **Geldig tot**</br>mshr_postaladdressvalidto</br>*Verschil datum en tijd* | Alleen-lezen </br>Vereist | De datum tot wanneer het adres geldig is.  |
-| **Locatie-ID**</br>mshr_locationidbr>*Tekenreeks* | Alleen-lezen <br>Vereist | Het id voor het adres.  |
-| **Postcode**</br>mshr_zipcode<br>*Tekenreeks* | Alleen-lezen <br>Vereist |Het identificatienummer dat voor de werknemer is gedefinieerd.  |
-| **Gewoond op adres**</br>mshr_islivedinaddressbr </br> *[Optieset mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Alleen-lezen</br>Vereist | Geeft aan of dit het adres is waar de werknemer woont. |
-| **Staat/provincie**</br>mshr_state</br>*Tekenreeks* | Alleen-lezen</br>Vereist | De staat/provincie voor het adres  |
+| **Personeelsnummer**</br>mshr_personnelnumber</br>*Tekenreeks* | Alleen-lezen | Het unieke personeelsnummer van de werknemer. |
+| **Locatie-ID**</br>mshr_locationidbr>*Tekenreeks* | Alleen-lezen | Het id voor het adres. |
+| **Gewoond op adres**</br>mshr_islivedinaddressbr </br> *[Optieset mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Alleen-lezen | Een waarde die aangeeft of het adres het adres is waar de werknemer woont. |
+| **Gewerkt op adres** </br> mshr_isworkedinaddressbr </br>*[Optieset mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Alleen-lezen | Een waarde die aangeeft of het adres het adres is waar de werknemer werkt. |
+| **Land/regio**</br>mshr_countryregionid</br>*Tekenreeks* | Alleen-lezen</br>Vereist | Het land of de regio die voor het adres is gedefinieerd. |
+| **Postcode**</br>mshr_zipcode<br>*Tekenreeks* | Alleen-lezen | Het identificatienummer dat voor de werknemer is gedefinieerd. |
+| **Straat**</br>mshr_street</br>*Tekenreeks* | Alleen-lezen | De straatnaam die voor het adres is gedefinieerd. |
+| **Plaats**</br>mshr_city</br>*Tekenreeks* | Alleen-lezen | De plaats die voor het adres is gedefinieerd. |
+| **Staat/provincie**</br>mshr_state</br>*Tekenreeks* | Alleen-lezen | De staat of de provincie die voor het adres is gedefinieerd. |
+| **District**</br>mshr_county</br>*Tekenreeks* | Alleen-lezen | De graafschap die voor het adres is gedefinieerd. |
+| **Geldig vanaf**</br>mshr_postaladdressvalidfrom</br>*Verschil datum en tijd* | Alleen-lezen | De datum vanaf wanneer het adres geldig is. |
+| **Geldig tot**</br>mshr_postaladdressvalidto</br>*Verschil datum en tijd* | Alleen-lezen | De datum tot wanneer het adres geldig is. |
+| **Primair veld**</br>mshr_primaryfield</br>*Tekenreeks* | Alleen-lezen | Het primaire veld. |
+| **Id medewerker salarisadministratie**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Door systeem gegenereerd | Een door het systeem gegenereerde unieke GUID-waarde (Globally Unique Identifier) om het adres uniek te identificeren. |
+
+## <a name="relations"></a>Relaties
+
+| Eigenschapwaarde | Gerelateerde entiteit | Navigatie-eigenschap | Type verzameling |
+| --- | --- | --- | --- |
+| _mshr_fk_werknemer_id_waarde | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Worker_id | mshr_FK_PayrollEmployeeEntity_Address |
 
 ## <a name="example-query"></a>Voorbeeldquery
 
-**Aanvragen**
+**Aanvraag**
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/mshr_payrollworkeraddressentities?$filter=mshr_personnelnumber eq @personnelnumber and mshr_postaladdressvalidfrom le @asofdate and mshr_postaladdressvalidto ge @asofdate&@personnelnumber='000041'&@asofdate=2021-04-01

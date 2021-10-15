@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 450872a38c833de9d37e2c6224839f2bca7cb4c6
-ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
+ms.openlocfilehash: 7f43476cd044a9cc2e11412aac4af1cff2f9e511
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7429224"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559528"
 ---
 # <a name="payroll-employee"></a>Werknemer in salarisadministratie
 
@@ -50,17 +50,17 @@ Deze entiteit geeft informatie over de werknemer. U moet de [parameters voor sal
 | **Identificatietype-id**</br>mshr_identificationtypeid</br>*Tekenreeks* |Alleen-lezen | Het identificatietype dat voor de werknemer is gedefinieerd. |
 | **Identificatienummer tot**</br>mshr_identificationnumber</br>*Tekenreeks* | Alleen-lezen |Het identificatienummer dat voor de werknemer is gedefinieerd. |
 | **Gereed voor betaling**</br>mshr_readytopay</br>[mshr_noyes optieset](hr-admin-integration-payroll-api-no-yes.md) | Alleen-lezen | Geeft aan of de werknemer is gemarkeerd als gereed voor betaling. |
-| **Entiteit-id werknemer in salarisadministratie**</br>mshr_payrollemployeeentityid</br>*GUID* | Vereist</br>Door systeem gegenereerd | Een door het systeem gegenereerde GUID-waarde als unieke id van de werknemer. |
+| **Entiteit-id werknemer in salarisadministratie**</br>mshr_payrollemployeeentityid</br>*GUID* | Door systeem gegenereerd | Een door het systeem gegenereerde unieke GUID-waarde (Globally Unique Identifier) om de werknemer uniek te identificeren. |
 
 ## <a name="relations"></a>Relaties
 
 |Eigenschapwaarde | Gerelateerde entiteit | Navigatie-eigenschap | Type verzameling |
 | --- | --- | --- | --- |
-| _mshr_fk_employment_id_value | mshr_hcmemploymentdetailentity | mshr_FK_Employment_id | - |
+| _mshr_fk_employment_id_value | mshr_hcmemploymentdetailentity | mshr_FK_Employment_id | mshr_FK_HcmEmploymentDetailEntity_PayrollEmployee |
 | _mshr_fk_fixedcompplan_id_value | [mshr_payrollfixedcompensationplanentity](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md) | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Employee |
 | _mshr_fk_name_id_value | mshr_dirpersonnamehistoricalentity | mshr_FK_Name_id | - |
-| _mshr_fk_werknemer_id_waarde | mshr_hcmworkerbaseentity | mshr_FK_Worker_id | - |
-| _mshr_fk_workerbankaccount_id_value | mshr_hcmworkerbankaccountentity | mshr_FK_WorkerBankAccount_id | - |
+| _mshr_fk_werknemer_id_waarde | mshr_hcmworkerbaseentity | mshr_FK_Worker_id | mshr_FK_HcmWorkerBaseEntity_PayrollEmployee |
+| _mshr_fk_workerbankaccount_id_value | mshr_hcmworkerbankaccountentity | mshr_FK_WorkerBankAccount_id | mshr_FK_HcmWorkerBankAccountEntity_PayrollEmployee |
 | _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_Employee |
 | _mshr_fk_address_id_value | [mshr_payrollworkeraddressentity](hr-admin-integration-payroll-api-payroll-worker-address.md) | mshr_FK_Address_id | mshr_FK_PayrollWorkerAddressEntity_Worker |
 

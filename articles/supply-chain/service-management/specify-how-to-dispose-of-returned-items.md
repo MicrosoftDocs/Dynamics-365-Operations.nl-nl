@@ -1,7 +1,7 @@
 ---
 title: Opgeven op welke wijze retourartikelen moeten worden afgestoten
 description: Geef op op welke wijze retourartikelen moeten worden afgestoten.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/07/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 594832f4d89a630bd88b18f665a6afbc7a918f0e5c9627f835f18d4b1a4d2cab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e609c1c285b34a5416a2058809b2fc4fafb73fca
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722242"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571324"
 ---
-# <a name="specify-how-to-dispose-of-returned-items"></a>Opgeven op welke wijze retourartikelen moeten worden afgestoten 
+# <a name="specify-how-to-dispose-of-returned-items"></a>Opgeven op welke wijze retourartikelen moeten worden afgestoten
 
 [!include [banner](../includes/banner.md)]
-
 
 Wanneer u een retourorder verwerkt, moet u een retourredencode opgeven om aan te geven waarom het product is geretourneerd. U moet ook een beschikkingscode en een beschikkingsactie opgeven om te bepalen wat er moet gebeuren met het geretourneerde product.
 
@@ -35,9 +34,9 @@ U kunt alle beschikkingscodes maken die u nodig hebt ter ondersteuning van de be
 
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -125,8 +124,8 @@ Voor elke beschikkingscode die u definieert, moet u een beschikkingsactie select
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -162,24 +161,15 @@ Voor elke beschikkingscode die u definieert, moet u een beschikkingsactie select
 </tbody>
 </table>
 
-
 ## <a name="select-a-disposition-code-for-a-quarantine-order"></a>Een beschikkingscode selecteren voor een quarantaineorder
 
-1.  Klik op **Voorraadbeheer** \> **Periodiek** \> **Kwaliteitsbeheer** \> **Quarantaineorders**.
-
-2.  Voor een bestaande quarantaineorder selecteert u een actie in het veld **Beschikkingscode** op het tabblad **Overzicht**.
-
-
+1. Ga naar **Voorraadbeheer** \> **Periodiek** \> **Kwaliteitsbeheer** \> **Quarantaineorders**.
+1. Voor een bestaande quarantaineorder selecteert u een actie in het veld **Beschikkingscode** op het tabblad **Overzicht**.
 
 ## <a name="see-also"></a>Zie ook
 
 [Quarantaineorder (formulier)](/dynamicsax-2012//quarantine-order-form)
 
 [Beschikkingscodes (formulier)](https://technet.microsoft.com/library/hh597113\(v=ax.60\))
-
-  
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

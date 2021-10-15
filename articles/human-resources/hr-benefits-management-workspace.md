@@ -1,8 +1,8 @@
 ---
 title: Werkgebied voor vergoedingenbeheer
 description: In dit onderwerp wordt de werkruimte Vergoedingenbeheer in Dynamics 365 Human Resources beschreven.
-author: andreabichsel
-ms.date: 02/24/2021
+author: twheeloc
+ms.date: 09/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 49393ab65c2f0020af5b246f7c18a152d613725f5b31be89cb57f244b28003f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6cc1432e108c74706dea124a62024272e65b6c1
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719087"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512468"
 ---
 # <a name="benefits-management-workspace"></a>Werkgebied voor vergoedingenbeheer
 
@@ -47,7 +47,7 @@ De werkruimte **Vergoedingenbeheer** geeft u een snel overzicht van vergoedingen
 
 ## <a name="view-action-items"></a>Actie-items weergeven
 
-U kunt uw actie-items weergeven door een tegel of een tabblad te selecteren. Als u een tabblad selecteert, kunt u werknemers rechtstreeks op de werkruimtepagina weergeven en selecteren.
+U kunt uw actie-items weergeven door een tegel of een tabblad te selecteren. Als u een tabblad selecteert, kunt u werknemers rechtstreeks van de werkruimtepagina weergeven en selecteren.
 
 ![Actie-items.](./media/hr-benefits-management-workspace-action-items.png)
 
@@ -60,11 +60,11 @@ Als u een tegel selecteert, gaat u naar de pagina voor dat gebied. Als u een van
 
 ![Vergoedingsplannen voor medewerker.](./media/hr-benefits-management-workspace-plans.png)
 
-Als u de tegels **Actieve levensgebeurtenissen** of **Toekomstige levensgebeurtenissen** selecteert, wordt een lijst met actieve of toekomstige levensgebeurtenissen weergegeven.
+Als u de tegels **Actieve levensgebeurtenissen** of **Toekomstige levensgebeurtenissen** selecteert, wordt er een lijst met actieve of toekomstige levensgebeurtenissen weergegeven.
 
 ![Levensgebeurtenissen.](./media/hr-benefits-management-workspace-life-events.png)
 
-## <a name="processing"></a>In verwerking
+## <a name="processing"></a>Wordt verwerkt
 
 Selecteer het juiste item op de navigatiebalk om kwalificatie voor inschrijving, levensgebeurtenissen of tariefwijzigingen te verwerken.
 
@@ -84,13 +84,46 @@ Voor meer informatie over de verwerking van vergoedingen, zie:
 
 ## <a name="change-period"></a>Periode wijzigen
 
-Als u een andere vergoedingenperiode wilt weergeven, selecteert u deze in de vervolgkeuzelijst **Periode**.
+Als u een andere vergoedingsperiode wilt bekijken, selecteert u deze in de vervolgkeuzelijst **Periode**.
 
 ![Periode wijzigen.](./media/hr-benefits-management-workspace-period.png)
 
+
+## <a name="open-enrollment-tab"></a>Tabblad Inschrijving openen
+
+U kunt actie-items weergeven door een tegel of een tabblad te selecteren. Als u een tabblad selecteert, kunt u werknemers op de werkruimtepagina weergeven en selecteren.
+Het tabblad **Inschrijving openen** biedt belangrijke metrische gegevens voor het openstaande inschrijvingsproces. 
+
+Informatie over openstaande inschrijving wordt 30 dagen voor de **Begindatum inschrijving** weergegeven. Deze datum wordt gedefinieerd in de instelling **Perioden** in **Vergoedingenbeheer** > **Koppelingen** > **Perioden** in het veld **Begindatum inschrijving**.  Als u deze instelling wilt wijzigen, gaat u naar de opties **Human Resources-parameters** > **Vergoedingenbeheer** > **Inschrijvingsopties openen** en werkt u het veld **Aantal** bij.  
+
+Op het tabblad **Inschrijving openen** is de volgende informatie beschikbaar:
+ - Werknemers die het proces voor het openen van inschrijving nog niet hebben gestart
+ - Werknemers van wie keuzen worden verwerkt
+ - Werknemers die het keuzeproces hebben voltooid
+ - Niet-bevestigde selecties
+
+**Overzichtstegels**
+
+- **Niet gestart** – Op de tegel **Niet gestart** wordt een aantal werknemers weergegeven die het inschrijvingsproces nog niet hebben gestart. De tegel **Niet gestart** is een gefilterde lijst waarin alleen die werknemers worden weergegeven die geen plannen hebben geselecteerd, zijn kwijtgescholden of zijn uitgecheckt voor de periode voor het openen van het inschrijvingsplan. Verplichte plannen worden genegeerd en niet opgenomen, omdat deze standaard worden geselecteerd voor de werknemer.  U kunt uitzoomen op deze tegel om een lijst weer te geven met werknemers die het proces voor het openen van inschrijving nog niet hebben gestart op de pagina **Vergoedingenplan medewerker**.
+
+  > [!NOTE]
+  > Als u het proces van het openen van inschrijving voor een **Plantype** niet wilt bijhouden, kunt u dit uitsluiten door naar **Vergoedingenbeheer** > **Koppelingen** > **Parameters voor werknemerselfservice** > **Tegelinstelling vergoedingsplannen** en het veld **Openstaande inschrijvingsvoortgang bijhouden** bij te werken.  U hebt bijvoorbeeld plannen gemaakt waarbij **Plantype** = **Overig** is. Deze plannen kunnen optionele plannen zijn waarvan u de voortgang van de inschrijvingsproces niet wilt bijhouden. Als u dit plantype niet selecteert, worden plannen van dit type genegeerd wanneer u de voortgang of voltooiing van de inschrijving op het tabblad **Inschrijving openen** volgt. Deze instelling is van toepassing op het plantype dat voor alle perioden en rechtspersonen is geselecteerd.
+
+- **In uitvoering** – Op de tegel **In uitvoering** wordt het aantal werknemers weergegeven van wie keuzen worden verwerkt De tegel **uitvoering** is een gefilterde lijst waarin alleen werknemers worden weergegeven die ten minste één plan hebben dat is kwijtgescholden of geselecteerd. Verplichte plannen worden genegeerd en niet opgenomen, omdat deze standaard worden geselecteerd voor de werknemer. U kunt uitzoomen op deze tegel om de geselecteerde en kwijtgescholden plannen weer te geven op de pagina **Bulkupdate van vergoedingsplannen voor medewerkers**.
+
+- **Ingeschreven voor vergoedingen** – Op de tegel **Ingeschreven voor vergoedingen** wordt het aantal werknemers weergegeven dat volledig is ingeschreven voor vergoedingen. De tegel **Ingeschreven voor vergoedingen** is een gefilterde lijst met werknemers van wie alle plannen zijn geselecteerd of kwijtgescholden. Met de query worden plannen uitgesloten die niet worden bijgehouden voor openstaande inschrijving op de pagina **Parameters voor werknemerselfservice**. U kunt uitzoomen op deze tegel om een lijst met werknemers weer te geven op de pagina **Vergoedingsplannen voor medewerker**.
+
+- **Niet-bevestigde selecties** – Op de tegel **Niet-bevestigde selecties** wordt het aantal werknemers weergegeven met plannen die zijn geselecteerd of kwijtgescholden en moeten worden bevestigd. U kunt uitzoomen op deze tegel om de pagina **Bulkupdate van vergoedingsplannen voor medewerkers** weer te geven.
+
+**Activiteit**
+
+- **Niet gestart** – Op het tabblad **Niet gestart** wordt een lijst met werknemers weergegeven die het inschrijvingsproces nog niet hebben gestart. De tegel **Niet gestart** is een gefilterde lijst waarin werknemers worden weergegeven die geen plannen hebben geselecteerd, zijn kwijtgescholden of zijn uitgecheckt voor de periode voor het openen van het inschrijvingsplan. Verplichte plannen worden genegeerd en niet opgenomen, omdat deze standaard worden geselecteerd voor de werknemer. U kunt inzoomen op de werknemer om de detailpagina **Vergoedingsplannen voor medewerker** weer te geven.
+
+- **Keuzen in uitvoering** – Op het tabblad **Keuzen in uitvoering** wordt een lijst met werknemers weergegeven van wie keuzen worden verwerkt Het tabblad **Keuzen in uitvoering** is een gefilterde lijst waarin werknemers worden weergegeven die ten minste één plan hebben dat is kwijtgescholden of geselecteerd. Verplichte plannen worden genegeerd en niet opgenomen, omdat deze standaard worden geselecteerd voor de werknemer. U kunt inzoomen op de werknemer om de detailpagina **Vergoedingsplannen voor medewerker** weer te geven.
+
 ## <a name="view-more-options"></a>Meer opties weergeven
 
-Als u meer informatie en acties wilt weergeven die u kunt uitvoeren, selecteert u **Koppelingen**.
+Als u meer informatie en/of aanvullende acties wilt weergeven, selecteert u **Koppelingen**.
 
 ![Koppelingen.](./media/hr-benefits-management-workspace-links.png)
 

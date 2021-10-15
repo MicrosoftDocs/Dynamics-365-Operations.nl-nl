@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
-ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
+ms.openlocfilehash: a3cc431307d840d393a454e91f202c07c38d2512
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7429216"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559334"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Vast compensatieplan in salarisadministratie
 
@@ -42,7 +42,7 @@ Fysieke naam: mshr_payrollfixedcompensationplanentity.
 | **Positie-id**</br>mshr_positionid</br>*Tekenreeks* | Alleen-lezen | De positie-id die is gekoppeld aan de werknemer en de inschrijving voor het vaste compensatieplan. |
 | **Geldig vanaf**</br>mshr_validfrom</br>*Verschil datum en tijd* |  Alleen-lezen | De datum vanaf wanneer de vaste compensatie voor de werknemer geldig is.  |
 | **Geldig tot**</br>mshr_validto</br>*Verschil datum en tijd* | Alleen-lezen | De datum tot wanneer de vaste compensatie voor de werknemer geldig is. |
-| **Betalingsfrequentie**</br>mshr_payfrequency</br>*Tekenreeks* | Alleen-lezen | De frequentie waarmee de werknemer wordt betaald.  |
+| **Betalingsfrequentie**</br>mshr_payfrequency</br>*Tekenreeks* | Alleen-lezen | De id van de [compensatiebetalingsfrequentie](hr-admin-integration-payroll-api-compensation-pay-frequency.md) voor het opgegeven betalingstarief. |
 | **Valuta**</br>mshr_currency</br>*Tekenreeks* | Alleen-lezen | De voor het vaste compensatieplan gedefinieerde valuta. |
 | **Entiteit Vast compensatieplan in salarisadministratie**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Door systeem gegenereerd | Een door het systeem gegenereerde GUID-waarde als unieke id van het compensatieplan. |
 

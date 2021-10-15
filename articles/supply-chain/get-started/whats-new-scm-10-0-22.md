@@ -4,18 +4,18 @@ description: In dit onderwerp worden de functies beschreven die nieuw of gewijzi
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c4aac62b36cd271e1c5fc3bcbbfdd785963fc368
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: 3f5166338aebe784fe7f95372a437d4ed660de77
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7484067"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579707"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10022-november-2021"></a>Preview van Dynamics 365 Supply Chain Management 10.0.22 (November 2021)
 
@@ -32,7 +32,7 @@ In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in de
 
 De volgende tabel vermeldt de functies die deze versie bevat. De kolom *Functie* bevat koppelingen naar het [releaseplan](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features) waar u de officiële vrijgavedatums voor elke functie kunt zien. De kolom *Meer informatie* bevat meer details en/of koppelingen naar gerelateerde documentatie. Zie de kolom *Ingeschakeld per* om te bepalen hoe u een functie kunt inschakelen. Zie [Overzicht Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)voor meer informatie over het gebruik van Functiebeheer. Mogelijk wordt dit onderwerp gewijzigd om functies op te nemen die in de build zijn gemaakt nadat dit onderwerp oorspronkelijk werd gepubliceerd.
 
-| Functiegebied | Functie | Meer informatie | Ingeschakeld door   |
+| Functiegebied | Functie | Meer informatie | Ingeschakeld door |
 |---|---|---|---|
 | Planning | [Optimalisatieondersteuning voor capaciteitstoewijzing van bronnen plannen](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [Plannen met resourceselectie op basis van mogelijkheden](../master-planning/planning-optimization/capability-based-scheduling.md) | Functiebeheer: *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie* |
 
@@ -46,7 +46,7 @@ In de volgende tabel worden de functieverbeteringen weergegeven die deze versie 
 | Gedistribueerde hybride topologie | *(Functiebeheer is niet vereist.)* | <p>Deze versie biedt een uitbreiding op de uitgaande ladingsplanningsmogelijkheden van de warehouse management-werkbelasting voor cloud- en edge-schaaleenheden.</p><p>Zie [Workloads voor magazijnbeheer voor cloud- en edgeschaaleenheden](../cloud-edge/cloud-edge-workload-warehousing.md) voor meer informatie.</p> |
 | Beheer voor technische wijzigingen | Varianten genereren voor technische producten | <p>Met deze functie kunt u verschillende varianten voor een engineeringproduct genereren op basis van de kleur, grootte, stijl of configuratiedimenssie.</p><p>Zie 'Varianten voor [engineeringproducten genereren'](../engineering-change-management/engineering-variants.md) voor meer informatie.</p> |
 | Voorraad- en magazijnbeheer | Integratie van voorraadzichtbaarheid met verschuiving van reservering | <p>Deze functie kan alleen worden ingeschakeld nadat de functie *Service voor voorraadzichtbaarheid* is ingeschakeld. Deze functie biedt functionaliteit om reserveringen te compenseren die zijn gemaakt op voorraadzichtbaarheid.</p><p>Zie [Voorraadzichtbaarheid reserveringen](../inventory/inventory-visibility-reservations.md) voor meer informatie.</p> |
-| Verkoopbeheer en marketing | Het aantal verkooporders beperken dat kan worden geselecteerd voor boeking | <p>Deze functie is automatisch ingeschakeld. Hiermee kunt u een **Max. aantal verkooporders voor het boeken** toevoegen aan de pagina **Parameters van klanten**. Met dit veld kunt u het maximum aantal verkooporders vastleggen, dat tijdens het boeken van bevestigingen, orderverzamellijsten, pakbonnen en facturen op de pagina met verkooporderlijsten geselecteerd kan worden. De standaardwaarde is *100*.</p><p>Deze functie zorgt ervoor dat de prestaties van de pagina met verkooporderlijsten worden verbeterd wanneer er een bepaald aantal verkooporders geselecteerd wordt. Dit heeft geen invloed op het aantal verkooporders dat door een periodieke taak kan worden verwerkt.</p> |
+| Verkoopbeheer en marketing | Het aantal verkooporders beperken dat kan worden geselecteerd voor boeking | <p>Deze functie is automatisch ingeschakeld. Hiermee kunt u een veld **Max. aantal verkooporders voor het boeken** toevoegen aan de pagina **Parameters van module Klanten**. Met dit veld kunt u het maximum aantal verkooporders vastleggen, dat tijdens het boeken van bevestigingen, orderverzamellijsten, pakbonnen en facturen op de pagina met verkooporderlijsten geselecteerd kan worden. De standaardwaarde is *100*.</p><p>Deze functie zorgt ervoor dat de prestaties van de pagina met verkooporderlijsten worden verbeterd wanneer er een bepaald aantal verkooporders geselecteerd wordt. Dit heeft geen invloed op het aantal verkooporders dat door een periodieke taak kan worden verwerkt.</p> |
 
 ## <a name="new-and-updated-documentation-resources"></a>Nieuwe en bijgewerkte documentatiebronnen
 

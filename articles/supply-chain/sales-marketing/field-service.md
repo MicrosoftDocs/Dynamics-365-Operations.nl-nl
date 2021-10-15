@@ -1,7 +1,7 @@
 ---
 title: Overzicht van integratie met Microsoft Dynamics 365 Field Service
 description: In dit onderwerp vindt u een overzicht van de integratie met Microsoft Dynamics 365 Field Service.
-author: ChristianRytt
+author: Henrikan
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: ecfd19cf79b9547c67b5bb90cef451d4aeab8f5ee775e50578161783e370462f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 23661bca91ccd7b7a04c763e60cfca9a99d62bfa
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761753"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566450"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Overzicht van integratie met Microsoft Dynamics 365 Field Service
 
@@ -58,7 +58,7 @@ De aanvullende functionaliteit in deze tweede fase is erop gericht om technici i
 - Supply Chain Management-projecten die zijn verbonden met Dynamics 365 Field Service-werkorders
 - Dynamics 365 Field Service-werkorders met koppeling naar Supply Chain Management-projecten passen dit projectnummer op de verkooporder toe om facturering van het project toe te staan. 
 
-![Synchronisatie van zakelijke processen tussen Supply Chain Management en Field Service.](./media/FSv2overview.png)
+![Synchronisatie van bedrijfsprocessen tussen Supply Chain Management en Field Service, inclusief voorraad- en projectgegevens.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>In de tweede fase van de integratie tussen Field Service en Supply Chain Management wordt de synchronisatie met de volgende sjablonen ingeschakeld:
 - Magazijnen (Supply Chain Management naar Field Service) - Magazijnen van Supply Chain Management naar Field Service [Geavanceerde query] 

@@ -2,7 +2,7 @@
 title: Overzicht van elektronische rapportage (ER)
 description: Dit onderwerp biedt een overzicht van het hulpmiddel voor elektronische rapportage. In dit onderwerp worden belangrijke concepten, ondersteunde scenario's en indelingen beschreven die deel uitmaken van de oplossing.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 09/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9bb0b427f4fe30ab95efabf8ab9871b681e35d51c0fbaf5a162235640d2f376
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f0fd83c787be4d9de151d2727384d07bc209e33f
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723160"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562171"
 ---
 # <a name="electronic-reporting-er-overview"></a>Overzicht van elektronische rapportage (ER)
 
@@ -48,9 +48,16 @@ De ER-engine biedt de volgende mogelijkheden:
 
 ## <a name="key-concepts"></a>Belangrijke concepten
 
-### <a name="components"></a>Componenten
+### <a name="components"></a>Onderdelen
 
-ER ondersteunt twee typen onderdelen: **Gegevensmodel** en **Indeling**.
+Elektronische rapportage ondersteunt de volgende typen onderdelen:
+
+- Gegevensmodel
+- Modeltoewijzing
+- Format
+- Metagegevens
+
+Zie [Onderdelen van elektronische rapportage](er-overview-components.md) voor meer informatie.
 
 #### <a name="data-model-and-model-mapping-components"></a>Onderdelen van gegevensmodel en modeltoewijzing
 

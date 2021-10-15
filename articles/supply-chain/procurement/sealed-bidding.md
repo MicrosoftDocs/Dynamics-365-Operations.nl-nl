@@ -1,22 +1,22 @@
 ---
 title: Verzegelde biedingen voor offerteaanvragen
 description: In dit onderwerp wordt beschreven hoe u verzegelde biedingen kunt instellen om antwoorden op offertes van leveranciers geheim te houden totdat deze worden ontgrendeld door inkooppersoneel.
-author: yanansong
+author: Henrikan
 ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: yanansong
+ms.author: henrikan
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 02cbe9d6a6d157208d73ed756efae24df2a082de
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 96549b6053ba75f2d5b9a85bcd5b7feb006f0f1b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500629"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578075"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>Verzegelde biedingen voor offerteaanvragen
 
@@ -53,7 +53,11 @@ Voordat u deze functie instelt of gebruikt, moet u controleren of deze beschikba
 Supply Chain Management gebruikt coderingssleutels om alle verzegelde biedingen te beschermen en ze geheim te houden tot de juiste tijd. Hierbij wordt gebruikgemaakt van de mogelijkheden van Key Vault om de vereiste sleutels te genereren en te beheren. U moet daarom een verbinding instellen vanuit Supply Chain Management naar een sleutelkluis om het systeem in te schakelen.
 
 > [!IMPORTANT]
-> De sleutelkluis moet worden gemaakt in een Azure-abonnement dat eigendom is van uw organisatie (niet het abonnement waarin u Supply Chain Management uitvoert).
+> De belangrijkste sleutelkluizen die u voor verzegelde biedingen gebruikt, moeten aan de volgende vereisten voldoen:
+>
+> - Als u een sandbox gebruikt voor ontwikkelen en testen, moet u één toegewezen sleutelkluis voor de sandbox hebben en een afzonderlijke kluis voor productie.
+> - Elke sleutelkluis moet worden gemaakt in een Azure-abonnement dat eigendom is van uw organisatie (niet het abonnement waarin u Supply Chain Management uitvoert).
+> - Elke sleutelkluis moet uitsluitend voor verzegelde biedingen worden gebruikt. U moet uw sleutelkluizen voor verzegelde biedingen niet voor andere doeleinden gebruiken.
 
 Elke bieding haalt een eigen sleutel op. Deze sleutel wordt gebruikt telkens als een gebruiker de bieding bekijkt, bijwerkt of de bieding ontgrendelt.
 

@@ -1,7 +1,7 @@
 ---
 title: Service-intervallen instellen
-description: Met service-intervallen wordt aangegeven hoe vaak er serviceorderregels voor serviceovereenkomstregels worden gemaakt wanneer u serviceorders maakt.
-author: ShylaThompson
+description: In dit onderwerp wordt beschreven hoe u service-intervallen instelt. Met service-intervallen wordt aangegeven hoe vaak er serviceorderregels voor serviceovereenkomstregels worden gemaakt wanneer u serviceorders maakt.
+author: kamaybac
 ms.date: 02/20/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e458d14986a3b2c649ccb600d33adaeda52d1cbe78667ae7f269cbeb15b6535d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e0aeaef9fcf0c909638a9452633a321121e20814
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776213"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567842"
 ---
 # <a name="set-up-service-intervals"></a>Service-intervallen instellen  
 

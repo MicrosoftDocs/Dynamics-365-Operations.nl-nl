@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e29a5295cd3c334aef88dc7a2a36b2eb8a6f636b159c0f69874fc51298a1ab7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772273"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581132"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Uitgaande voorraadbewerking in POS
 
@@ -116,7 +116,7 @@ In de weergave **Volledige orderlijst** kunt u handmatig een regel selecteren in
 
 ### <a name="over-delivery-shipping-validations"></a>Validaties van zendingen met meerlevering
 
-Tijdens het ontvangstproces voor de documentregels worden validaties uitgevoerd. Deze omvatten validaties voor meerlevering. Als een gebruiker meer voorraad probeert te ontvangen dan via een inkooporder is besteld, maar de meerlevering niet is geconfigureerd of de ontvangen hoeveelheid hoger is dan de tolerantie voor meerlevering die is geconfigureerd voor de inkooporderregel, ontvangt de gebruiker een fout en kan hij of zij de extra hoeveelheid niet ontvangen.
+Tijdens het afhandelingsproces voor de documentregels worden validaties uitgevoerd. Deze omvatten validaties voor meerlevering. Als een gebruiker meer voorraad probeert te verzenden dan op een transferorder is besteld, maar de meerlevering niet is geconfigureerd of de verzonden hoeveelheid hoger is dan de tolerantie voor meerlevering die is geconfigureerd voor de transferorderregel, krijgt de gebruiker een foutmelding en kan de gebruiker de extra hoeveelheid niet verzenden.
 
 ### <a name="underdelivery-close-lines"></a>Sluitregels voor minderlevering
 

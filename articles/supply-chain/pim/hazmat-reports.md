@@ -1,7 +1,7 @@
 ---
 title: Informatie en rapporten voor gevaarlijke stoffen
 description: In dit onderwerp wordt uitgelegd hoe u kunt werken met de verschillende rapporten die betrekking hebben op gevaarlijke stoffen. Veel van deze rapporten zijn vereist, zodat u tijdens de verzending en opslag voldoet aan de diverse voorschriften voor gevaarlijke stoffen.
-author: dasani-madipalli
+author: t-benebo
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-06-10
-ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: c48dc05f33ba93abbbe9152c322030bbc1920f5adaf6fc51268075ac49c3e921
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.11
+ms.openlocfilehash: ca8c973d3322bd51bf519e83fb5a5c19d35c0bed
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743573"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568538"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Informatie en rapporten voor gevaarlijke stoffen
 

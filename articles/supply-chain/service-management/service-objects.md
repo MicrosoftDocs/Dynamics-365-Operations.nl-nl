@@ -1,7 +1,7 @@
 ---
 title: Overzicht van Serviceobjecten
-description: De serviceobjecten zijn de activum en de producten van een klant waarvoor u een service kunt uitvoeren.
-author: ShylaThompson
+description: In dit onderwerp wordt beschreven hoe u met serviceobjecten werkt.
+author: kamaybac
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -15,24 +15,24 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 161d17d14af6351409e2405ae104f2b87e363ce349dd9b8e26d2c14e5fb9fa14
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9cf5e146bb7eab4df5807c6a55f773bfb31a4c5e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770163"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571372"
 ---
 # <a name="service-objects-overview"></a>Overzicht van Serviceobjecten
 
 [!include [banner](../includes/banner.md)]
 
-De serviceobjecten zijn de activum en de producten van een klant waarvoor u een service kunt uitvoeren. Afhankelijk van het type service dat u levert, kunnen objecten tastbaar of ontastbaar zijn:
+Serviceobjecten zijn de activa en de producten van een klant waarvoor u een service kunt uitvoeren. Afhankelijk van het type service dat u levert, kunnen objecten tastbaar of ontastbaar zijn:
 
 -  Tastbare objecten zijn bijvoorbeeld machines of gebouwen waarop u een fysieke servicetaak kunt uitvoeren.
 
     Een tastbaar serviceobject kan ook een voorraadartikel zijn dat u maakt in het formulier Vrijgegeven productdetails. Afhankelijk van de voorraaddimensiegroep die u aan het artikel koppelt, kunt u het serviceobject maken tot het detailniveau van het serienummer van het artikel bevat. Dit is handig wanneer u het artikel dat wordt aangeduid door het serviceobject precies moet bijhouden.
 
-    Een tastbaar serviceobject kan een artikel zijn dat niet rechtstreeks is gerelateerd aan de directe productie of de keten van toeleveranciers. Bijvoorbeeld, een toolkit reparaties in die voor een serviceorder is gebruikt kan een serviceobject dat niet in voorraad is. In dit geval, registreert u het niet als voorraadartikel.
+    Een tastbaar serviceobject kan een artikel zijn dat niet rechtstreeks is gerelateerd aan de directe productie of de keten van toeleveranciers. Bijvoorbeeld, een toolkit reparaties in die voor een serviceorder is gebruikt kan een serviceobject dat niet in voorraad is. In dit geval, registreert u het serviceobject niet als voorraadartikel.
 
 -  Ontastbare objecten zijn niet-fysieke entiteiten, zoals een set rekeningen of een juridisch document, waarop servicetaken kunnen worden uitgevoerd.
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474815"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581860"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Voorraadzichtbaarheid installeren en instellen
 
@@ -35,63 +35,11 @@ Voordat u de Voorraadzichtbaarheid kunt installeren, moet u de volgende taken ui
 
 - Schaf een LCS-implementatieproject aan met minimaal één geïmplementeerde omgeving.
 - Zorg ervoor dat er aan de vereisten voor het instellen van invoegtoepassingen voldaan is. Zie [Overzicht invoegtoepassingen](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) voor informatie over deze vereisten. Voor Voorraadzichtbaarheid is geen koppeling voor twee keer wegschrijven vereist.
-- Neem via [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) contact op met het productteam om de volgende vereiste bestanden op te halen:
-
-    - `InventoryServiceApplication.PackageDeployer.zip`
-    - `Inventory Visibility Integration.zip` (als u een eerdere versie van Supply Chain Management uitvoert dan versie 10.0.18)
 
 > [!NOTE]
 > De landen en regio's die momenteel worden ondersteund, zijn Canada ( CCA, ECA), de Verenigde Staten (WUS, EUS), de Europese Unie (NEU, WEU), het Verenigd Koninkrijk (SUK, WUK), Australië (EAU, SEAU), Japan (EJP, WJP) en Brazilië (SBR, SCUS).
 
-Neem bij vragen over deze vereisten contact op met het productteam voor Voorraadzichtbaarheid.
-
-## <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Dataverse instellen
-
-Als u Dataverse zodanig wilt instellen dat dit met Voorraadzichtbaarheid kan worden gebruikt, dient u het hulpprogramma package deployer te gebruiken om het Voorraadzichtbaarheid-pakket te implementeren. In de volgende onderdelen wordt beschreven hoe u elk van deze taken uitvoert.
-
-> [!NOTE]
-> Momenteel worden alleen Dataverse-omgevingen ondersteund die met behulp van LCS gemaakt zijn. Als uw Dataverse-omgeving op een andere manier gemaakt is (bijvoorbeeld door het Power Apps-beheercentrum te gebruiken) en als deze aan uw Supply Chain Management-omgeving gekoppeld is, moet u eerst contact opnemen met het productteam van Voorraadzichtbaarheid om het toewijzingsprobleem te verhelpen. U kunt de invoegtoepassing Voorraadzichtbaarheid vervolgens installeren.
-
-### <a name="migrate-from-an-old-version-of-the-dataverse-solution"></a>Migreren van een oude versie van de Dataverse-oplossing
-
-Als u een oudere versie van de Voorraadzichtbaarheid Dataverse-oplossing geïnstalleerd hebt, gebruikt u deze instructies om de versie bij te werken. Hiervoor zijn er twee opties:
-
-- **Optie 1:** als u Dataverse handmatig hebt ingesteld door de `Inventory Visibility Dataverse Solution_1_0_0_2_managed.zip`-oplossing te importeren, volgt u deze stappen:
-
-    1. Download de volgende drie bestanden:
-
-        - `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip`
-        - `InventoryServiceBase_managed.cab`
-        - `InventoryServiceApplication.PackageDeployer.zip`
-
-    1. Importeer `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip` en `InventoryServiceBase_managed.cab` in Dataverse handmatig door de volgende stappen uit te voeren:
-
-        1. Open de URL van uw Dataverse-omgeving.
-        1. Open de pagina **Oplossingen**.
-        1. Selecteer **Importeren**.
-
-    1. Gebruik de package deployer-tool om het `InventoryServiceApplication.PackageDeployer.zip`-pakket te implementeren. Zie het gedeelte [Hulpprogramma package deployer voor het implementeren van het pakket](#deploy-package) later in dit onderwerp voor instructies.
-
-- **Optie 2:** als u Dataverse installeert met behulp van het hulpprogramma package deployer, voordat u het oudere `.*PackageDeployer.zip`-pakket geïnstalleerd hebt, downloadt u `InventoryServiceApplication.PackageDeployer.zip` en voert u een update uit. Zie het gedeelte [Hulpprogramma package deployer voor het implementeren van het pakket](#deploy-package) voor instructies.
-
-### <a name="use-the-package-deployer-tool-to-deploy-the-package"></a><a name="deploy-package"></a>Gebruik de package deployer-tool om het pakket te implementeren
-
-1. Installeer de ontwikkelhulpprogramma's zoals beschreven in [Hulpprogramma's downloaden van NuGet](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
-1. Hef de blokkering van het `InventoryServiceApplication.PackageDeployer.zip`-bestand op, dat u vanuit de groep Teams gedownload hebt door de volgende stappen uit te voeren:
-
-    1. Selecteer het bestand en houd deze ingedrukt (of klik met de rechtermuisknop) en selecteer **Eigenschappen**.
-    1. Zoek in het dialoogvenster **Eigenschappen** in het tabblad **Algemeen** naar **Beveiliging**, selecteer **Deblokkeren** en pas de wijziging toe. Als er geen menu-item **Beveiliging** in het tabblad **Algemeen** te vinden is, is het bestand niet geblokkeerd. Ga in dat geval verder met de volgende stap.
-
-    ![Het gedownloade bestand deblokkeren.](media/unblock-file.png "Het gedownloade bestand deblokkeren.")
-
-1. Pak `InventoryServiceApplication.PackageDeployer.zip` uit om de volgende items te vinden:
-
-    - `InventoryServiceApplication`-map
-    - `[Content_Types].xml`-bestand
-    - `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll`-bestand
-
-1. Kopieer elk van deze items naar de `.\Tools\PackageDeployment`-map. (Deze map is aangemaakt toen u de ontwikkelaarsprogramma's installeerde.)
-1. Voer `.\Tools\PackageDeployment\PackageDeployer.exe` uit en volg de instructies op uw scherm om de oplossingen te importeren.
+Als u vragen hebt over deze vereisten, neemt u contact op met het productteam van Voorraadzichtbaarheid op [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Invoegtoepassing Voorraadzichtbaarheid installeren
 
@@ -102,7 +50,11 @@ Nadat u een toepassing geregistreerd hebt en een clientgeheim aan Azure AD hebt 
 1. Meld u aan bij [LCS](https://lcs.dynamics.com/Logon/Index).
 1. Selecteer op de startpagina het project waar uw omgeving is geïmplementeerd.
 1. Selecteer op de projectpagina de omgeving waarin u de invoegtoepassing wilt installeren.
-1. Schuif op de omgevingspagina naar beneden tot u de sectie **invoegtoepassingen voor omgeving** ziet in de **Power Platform Integratie**-sectie. Hier kunt u de Dataverse-omgevingsnaam vinden.
+1. Schuif op de omgevingspagina naar beneden tot u de sectie **invoegtoepassingen voor omgeving** ziet in de **Power Platform Integratie**-sectie. Hier kunt u de Dataverse-omgevingsnaam vinden. Bevestig dat de Dataverse-omgevingsnaam de naam is die u wilt gebruiken voor Voorraadzichtbaarheid.
+
+    > [!NOTE]
+    > Momenteel worden alleen Dataverse-omgevingen ondersteund die met behulp van LCS gemaakt zijn. Als uw Dataverse-omgeving op een andere manier is gemaakt (bijvoorbeeld door het Power Apps-beheercentrum te gebruiken) en als deze aan uw Supply Chain Management-omgeving is gekoppeld, moet u eerst contact opnemen met het productteam van Voorraadzichtbaarheid op [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) om het toewijzingsprobleem te verhelpen. U kunt de invoegtoepassing Voorraadzichtbaarheid vervolgens installeren.
+
 1. Selecteer in de sectie **Invoegtoepassingen voor omgeving** de optie **Een nieuwe invoegtoepassing installeren**.
 
     ![Omgevingspagina in LCS](media/inventory-visibility-environment.png "Omgevingspagina in LCS")
@@ -118,6 +70,7 @@ Nadat u een toepassing geregistreerd hebt en een clientgeheim aan Azure AD hebt 
 
 1. Ga akkoord met de voorwaarden door het selectievakje **Voorwaarden** in te schakelen.
 1. Selecteer **Installeren**. De status van de invoegtoepassing wordt weergegeven als **Wordt geïnstalleerd**. Nadat de installatie voltooid is, vernieuwt u de pagina. De status moet worden gewijzigd in **Geïnstalleerd**.
+1. Selecteer in Dataverse de sectie **Apps** in het linkernavigatievenster en controleer of de **Voorraadzichtbaarheid** van Power Apps is geïnstalleerd. Als de sectie **Apps** niet bestaat, neemt u contact op met het productteam van Voorraadzichtbaarheid op [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 > [!IMPORTANT]
 > Als u meerdere LCS-omgevingen hebt, maakt u een andere Azure AD-toepassing voor elke omgeving. Als u dezelfde toepassings-id en tenant-id gebruikt om de invoegtoepassing Voorraadzichtbaarheid voor verschillende omgevingen te installeren, treedt er een probleem met een token op voor oudere omgevingen. Alleen de laatste omgeving die is geïnstalleerd, is geldig.
@@ -126,13 +79,13 @@ Nadat u een toepassing geregistreerd hebt en een clientgeheim aan Azure AD hebt 
 
 Als u de installatie van de invoegtoepassing voor Voorraadzichtbaarheid ongedaan wilt maken, selecteert u **Deïnstalleren** op de LCS-pagina. Als u de installatie ongedaan maakt, wordt de invoegtoepassing voor Voorraadzichtbaarheid beëindigd, wordt de invoegtoepassing voor LCS ongedaan gemaakt en worden tijdelijke gegevens verwijderd die in de cache van de invoegtoepassing voor voorraadzichtbaarheid opgeslagen zijn. De primaire voorraadgegevens die in uw Dataverse-abonnement opgeslagen zijn, worden echter niet verwijderd.
 
-Als u de voorraadgegevens die in uw Dataverse-abonnement zijn opgeslagen wilt deïnstalleren, opent u [Power Apps](https://make.powerapps.com), selecteert u **Omgeving** in de navigatiebalk en selecteert u de Dataverse-omgeving die aan uw LCS-omgeving gekoppeld is. Ga vervolgens naar **Oplossingen** en verwijder de volgende vijf oplossingen:
+Als u de voorraadgegevens die in uw Dataverse-abonnement zijn opgeslagen wilt deïnstalleren, opent u [Power Apps](https://make.powerapps.com), selecteert u **Omgeving** in de navigatiebalk en selecteert u de Dataverse-omgeving die aan uw LCS-omgeving gekoppeld is. Ga vervolgens naar **Oplossingen** en verwijder de volgende vijf oplossingen in deze volgorde:
 
-- Ankeroplossing voor de toepassing Voorraadzichtbaarheid in Dynamics 365-oplossingen
-- Oplossing voor Dynamics 365 FNO SCM Inventory Visibility-toepassingen
-- Configuratie van inventarisservice
-- Zelfstandige voorraadzichtbaarheid
-- Basisoplossing voor Dynamics 365 FNO SCM Inventory Visibility
+1. Ankeroplossing voor de toepassing Voorraadzichtbaarheid in Dynamics 365-oplossingen
+1. Oplossing voor Dynamics 365 FNO SCM Inventory Visibility-toepassingen
+1. Configuratie van inventarisservice
+1. Zelfstandige voorraadzichtbaarheid
+1. Basisoplossing voor Dynamics 365 FNO SCM Inventory Visibility
 
 Nadat u deze oplossingen hebt verwijderd, worden de gegevens die in tabellen zijn opgeslagen ook verwijderd.
 

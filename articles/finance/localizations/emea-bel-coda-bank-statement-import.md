@@ -1,7 +1,7 @@
 ---
 title: CODA-bankafschrift
 description: Dit onderwerp bevat informatie over CODA. Dit is een rapportindeling die in het Belgische elektronische banksysteem wordt gebruikt.
-author: ShylaThompson
+author: anasyash
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kfend
 ms.custom: 262534
 ms.search.region: Belgium
-ms.author: v-lenest
+ms.author: anasyash
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2acbdd623044c7edcb5a7ca5a1406eae0de33d6bb9f6874f02670426dfa675d7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 97e7f8ac575decf2be019435de897e2ee893ebef
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723756"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592567"
 ---
 # <a name="coda-bank-statement"></a>CODA-bankafschrift
 

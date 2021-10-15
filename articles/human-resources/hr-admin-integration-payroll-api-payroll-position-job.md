@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d5f84a1a6ff794cdc8b4b81e8518983789a0b33f1708719906f6ad094d9c4285
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c0b70411e6535b22d698545438dcb0b16935e731
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722626"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559578"
 ---
 # <a name="payroll-position-job"></a>Salarispositiefunctie
 
@@ -34,20 +34,26 @@ Fysieke naam: mshr_payrollpositionjobentity.
 
 ## <a name="properties"></a>Eigenschappen
 
-| Eigenschap<br>**Fysieke naam**<br>**_Type_** | Gebruiken | Beschrijving |
+| Eigenschap</br>**Fysieke naam**</br>**_Type_** | Gebruiken | Omschrijving |
 | --- | --- | --- |
-| **Taak-ID**<br>mshr_jobid<br>*Tekenreeks* | Alleen-lezen<br>Vereist |De id van de functie. |
-| **Geldig vanaf**<br>mshr_validto<br>*Verschil datum en tijd* | Alleen-lezen <br>Vereist | Datum waarop de positie- en functierelatie geldig wordt. |
-| **Geldig tot**<br>mshr_validto<br>*Verschil datum en tijd* | Alleen-lezen <br>Vereist | Datum tot wanneer de positie- en functierelatie geldig is.  |
-| **Positie-id**<br>mshr_positionid<br>*Tekenreeks* | Alleen-lezen<br>Vereist | De id van de positie. |
-| **Primair veld**<br>mshr_primaryfield<br>*Tekenreeks* | Vereist<br>Door systeem gegenereerd |  |
-| **Waarde positiefunctie-id**<br>_mshr_fk_positionjob_id_value<br>*GUID* | Alleen-lezen<br>Vereist<br>Refererende sleutel: mshr_PayrollPositionJobEntity van de mshr_payrollpositionjobentity |Id van de taak die aan de geselecteerde positie is gekoppeld.|
-| **Waarde vaste compensatieplan-id**<br>_mshr_fk_fixedcompplan_id_value<br>*GUID* | Alleen-lezen<br>Vereist<br>Refererende sleutel: mshr_FixedCompPlan_id van mshr_payrollfixedcompensationplanentity  | Id van het vaste compensatieplan dat aan de positie is gekoppeld. |
-| **Entiteit-id Salarispositiefunctie**<br>mshr_payrollpositionjobentityid<br>*GUID* | Vereist<br>Door systeem gegenereerd. | Een door het systeem gegenereerde GUID-waarde als unieke id van de functie.  |
+| **Positie-id**</br>mshr_positionid</br>*Tekenreeks* | Alleen-lezen | De id van de positie. |
+| **Geldig vanaf**</br>mshr_validto</br>*Verschil datum en tijd* | Alleen-lezen | De datum vanaf wanneer de positie- en functierelatie geldig zijn. |
+| **Geldig tot**</br>mshr_validto</br>*Verschil datum en tijd* | Alleen-lezen | De datum tot wanneer de positie- en functierelatie geldig is. |
+| **Taak-ID**</br>mshr_jobid</br>*Tekenreeks* | Alleen-lezen | De id van de functie. |
+| **Primair veld**</br>mshr_primaryfield</br>*Tekenreeks* | Door systeem gegenereerd | Het primaire veld. |
+| **Entiteit-id Salarispositiefunctie**</br>mshr_payrollpositionjobentityid</br>*GUID* | Door systeem gegenereerd. | Een door het systeem gegenereerde unieke GUID-waarde (Globally Unique Identifier) om de taak uniek te identificeren. |
+
+## <a name="relations"></a>Relaties
+
+| Eigenschapwaarde | Gerelateerde entiteit | Navigatie-eigenschap | Type verzameling |
+| --- | --- | --- | --- |
+| _mshr_fk_fixedcompplan_id_value | mshr_payrollfixedcompensationplanentity | mshr_FK_FixedCompPlan_id | mshr_FK_PayrollFixedCompensationPlanEntity_Job |
+| _mshr_fk_jobdetail_id_value | mshr_hcmjobdetailentity | mshr_FK_JobDetail_id | Niet van toepassing |
+| _mshr_fk_payroll_id_value | mshr_payrollpositionentity | mshr_FK_Payroll_id | mshr_FK_PayrollPositionEntity_Job |
 
 ## <a name="example-query"></a>Voorbeeldquery
 
-**Aanvragen**
+**Aanvraag**
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/mshr_payrollpositionjobentities?$filter=mshr_positionid eq '000276'

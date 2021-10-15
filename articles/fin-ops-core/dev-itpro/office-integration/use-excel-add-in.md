@@ -2,7 +2,7 @@
 title: Entiteitsgegevens weergeven en bijwerken met Excel
 description: In dit onderwerp wordt uitgelegd hoe u entiteitsgegevens in Microsoft Excel kunt openen en deze vervolgens kunt bekijken, bijwerken en bewerken met behulp van de Excel-invoegtoepassing van Microsoft Dynamics.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aefebe094a0429f22a1a7038a55ab2190e41da6348447850148b8b98e082e743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1902e80313c5460ac38896bc2f46d83897e3a58
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761349"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592660"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Entiteitsgegevens weergeven en bijwerken met Excel 
 
@@ -60,9 +60,9 @@ De Excel-invoegtoepassing leest automatisch de gegevens voor de entiteit die u h
 
 6. Selecteer **OK** en vervolgens **Ja** om de wijziging te bevestigen. De Excel-invoegtoepassing wordt opnieuw gestart en metagegevens worden geladen.
 
-    De knop **Ontwerpen** is nu beschikbaar. Als de Excel-invoegtoepassing een knop **Applets laden** bevat, bent u waarschijnlijk niet aangemeld als de juiste gebruiker. Zie voor meer informatie 'De knop Applets laden wordt getoond' in de sectie [Problemen oplossen](../office-integration/use-excel-add-in.md#troubleshooting) in dit onderwerp.
+    De knop **Ontwerpen** is nu beschikbaar. Als de Excel-invoegtoepassing een koppeling **Applets laden** bevat, bent u waarschijnlijk niet aangemeld als de juiste gebruiker. Zie de vermelding [Applets laden](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane) voor meer informatie over het oplossen van dit probleem.
 
-7. Selecteer **Ontwerp**. De Excel-invoegtoepassing haalt entiteit metagegevens op.
+7. Selecteer **Ontwerpen**. De Excel-invoegtoepassing haalt entiteit metagegevens op.
 8. Selecteer **Tabel toevoegen**. Een lijst met entiteiten wordt geopend. De entiteiten worden weergegeven in de indeling 'Naam - label'.
 9. Selecteer een entiteit in de lijst, zoals **Klant - Klanten**, en selecteer **Volgende**.
 10. Als u een veld uit de lijst **Beschikbare velden** wilt toevoegen aan de lijst **Geselecteerde velden**, selecteert u het veld en vervolgens **Toevoegen**. U kunt ook dubbelklikken op het veld in de lijst **Beschikbare velden**.
@@ -136,7 +136,7 @@ De gegevens die vanuit de ene omgeving worden ingelezen in de werkmap, kunnen na
 ## <a name="troubleshooting"></a>Problemen oplossen
 Er zijn enkele problemen die kunnen worden opgelost met enkele eenvoudige stappen.
 
-- **De knop Applets laden wordt getoond**: als de Excel-invoegtoepassing een knop **Applets laden** bevat nadat u zich hebt aangemeld, bent u waarschijnlijk niet aangemeld als de juiste gebruiker. Controleer of de juiste gebruikersnaam zichtbaar is in de rechterbovenhoek van het Excel-invoegtoepassing. Als een onjuiste gebruikersnaam wordt getoond, selecteert u deze en meldt u zich af en vervolgens weer aan met de juiste gebruiker.
+- **De koppeling Applets laden wordt weergegeven** – Zie de vermelding [Applets laden](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane) voor meer informatie over dit probleem. 
 - **U ontvangt een melding 'Verboden'**: als u het foutbericht 'Verboden' krijgt wanneer de Excel-invoegtoepassing metagegevens laadt, is de account die is aangemeld bij de Excel-invoegtoepassing niet gemachtigd om de beoogde service, instantie of database te gebruiken. Controleer of de juiste gebruikersnaam zichtbaar is in de rechterbovenhoek van het Excel-invoegtoepassing. Als een onjuiste gebruikersnaam wordt getoond, selecteert u deze en meldt u zich af en vervolgens weer aan met de juiste gebruiker.
 - **Een lege webpagina wordt weergegeven via Excel**: als een lege webpagina wordt geopend tijdens het aanmelden, vereist de account AD FS, maar is de versie van Excel waarin u de invoegtoepassing uitvoert niet recent genoeg om het aanmeldingsvenster weer te geven. Werk Excel bij naar een meer recente versie. Als u de versie van Excel wilt bijwerken wanneer u werkt in een onderneming die zich op het Deferred-kanaal bevindt, wijzigt u met het [hulpprogramma Office Deployment](/deployoffice/overview-office-deployment-tool) van [het Deferred-kanaal naar het Current-kanaal](/deployoffice/overview-update-channels).
 - **U ontvangt een time-out terwijl u gegevenswijzigingen publiceert**: als u time-outberichten ontvangt terwijl u gegevenswijzigingen naar een entiteit probeert te publiceren, moet u overwegen de batchgrootte voor publicatie voor de betrokken werkmap te verkleinen. Entiteiten waarmee grotere hoeveelheden logica voor recordwijzigingen worden geactiveerd, vereisen mogelijk dat updates in kleinere batches worden verzonden om time-outs te voorkomen.

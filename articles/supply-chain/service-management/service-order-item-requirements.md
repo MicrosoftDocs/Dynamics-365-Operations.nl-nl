@@ -1,7 +1,7 @@
 ---
-title: Artikelbehoeften bij serviceorders
-description: Als u specifieke artikelen voor een serviceorder moet reserveren, kunt u er voorraadartikelbehoeften voor maken.
-author: ShylaThompson
+title: Artikelbehoeften bij serviceorder
+description: In dit onderwerp worden de artikelbehoeften bij serviceorders beschreven.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a57dc7f41e283d097daef1b92b6b22c093655ff48c7a3778f7ab541ebb24964
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ae211cb24e3ed0e9e54643448ee378a20658ad89
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746083"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573196"
 ---
-# <a name="service-order-item-requirements"></a>Artikelbehoeften bij serviceorders   
+# <a name="service-order-item-requirements"></a>Artikelbehoeften bij serviceorder
 
 [!include [banner](../includes/banner.md)]
-
 
 U kunt een serviceorder maken om services, die u aan uw klanten levert, bij te houden en te beheren. Als u specifieke artikelen voor een serviceorder moet reserveren, kunt u er voorraadartikelbehoeften voor maken. Een artikelbehoefte kan direct worden verbruikt vanuit de voorraad, of er kan een productieorder of inkooporder voor het artikel mee worden geïnitialiseerd.
 
@@ -37,31 +36,24 @@ Zodra een artikelbehoefte is gemaakt voor een serviceorder, kunt u deze weergeve
 
 ## <a name="view-an-item-requirement-from-a-service-order"></a>Een artikelbehoefte voor een serviceorder weergeven
 
-1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
-
-2.  Klik op **Verzending** en klik vervolgens op **Artikelbehoefte** om het formulier **Artikelbehoeften** te openen.
-
-3.  Klik op het tabblad **Project** en selecteer vervolgens het veld **Serviceorder** in om de serviceorders van de artikelbehoefte te bekijken.
+1. Ga naar **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
+1. Selecteer **Verzenden** en selecteer vervolgens **Artikelbehoefte** om het formulier **Artikelbehoeften** te openen.
+1. Selecteer het tabblad **Project** en selecteer vervolgens het veld **Serviceorder** om de serviceorders van de artikelbehoefte te bekijken.
 
 ## <a name="delete-service-orders-with-item-requirements"></a>Serviceorders met artikelbehoeften verwijderen
 
 Als u een artikelbehoefte hebt gemaakt voor een serviceorder, kunt u de serviceorder niet verwijderen. U moet de artikelbehoefte verwijderen, voordat u de serviceorder kunt verwijderen.
 
-1.  Klik op **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
-
-2.  Klik op **Verzending** en klik vervolgens op **Artikelbehoefte** om het formulier **Artikelbehoeften** te openen. Dit formulier bevat een lijst met alle artikelbehoeften die voor de serviceorder zijn gemaakt.
-
-3.  Selecteer de artikelbehoefte die u wilt verwijderen en klik vervolgens op **Verwijderen**.
+1. Ga naar **Servicebeheer** \> **Algemeen** \> **Serviceorders** \> **Serviceorders**.
+1. Selecteer **Verzenden** en selecteer vervolgens **Artikelbehoefte** om het formulier **Artikelbehoeften** te openen. Dit formulier bevat een lijst met alle artikelbehoeften die voor de serviceorder zijn gemaakt.
+1. Selecteer de artikelbehoefte die u wilt verwijderen en selecteer vervolgens **Verwijderen**.
 
 – of –
 
-1.  Klik op **Projectbeheer en boekhouding** \> **Algemeen** \> **Projecten** \> **Alle projecten**.
-
-2.  Open het project met de serviceorder waarin een artikelbehoefte wordt gemaakt.
-
-3.  In het formulier **Projecten** in het rechterdeelvenster klikt u op **Artikelbehoeften**. Het formulier **Artikelbehoeften** wordt geopend met de artikelbehoeften die aan het geselecteerde project zijn gekoppeld.
-
-4.  Selecteer de artikelbehoefte die u wilt verwijderen en klik vervolgens op **Verwijderen**.
+1. Ga naar **Projectbeheer en boekhouding** \> **Algemeen** \> **Projecten** \> **Alle projecten**.
+1. Open het project met de serviceorder waarin een artikelbehoefte wordt gemaakt.
+1. Selecteer in het formulier **Projecten** in het rechterdeelvenster de optie **Artikelbehoeften**. Het formulier **Artikelbehoeften** wordt geopend met de artikelbehoeften die aan het geselecteerde project zijn gekoppeld.
+1. Selecteer de artikelbehoefte die u wilt verwijderen en selecteer vervolgens **Verwijderen**.
 
 ## <a name="see-also"></a>Zie ook
 

@@ -1,7 +1,7 @@
 ---
 title: Serviceorders
-description: Een serviceorder vertegenwoordigt het bezoek van een onderhoudsmonteur aan een klant op een bepaalde datum.
-author: ShylaThompson
+description: In dit onderwerp wordt beschreven hoe u met serviceorders werkt.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 89ff650b0813318573fa273533ba31b57e35696a551105cca7e1a247099b218f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8dc88d445e1331e1532cb3b7385cda39c4f22e80
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739701"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566114"
 ---
-# <a name="service-orders"></a>Serviceorders   
+# <a name="service-orders"></a>Serviceorders
 
 [!include [banner](../includes/banner.md)]
-
 
 Een serviceorder vertegenwoordigt het bezoek van een onderhoudsmonteur aan een klant op een bepaalde datum. Elke serviceorder bestaat uit een of meer serviceorderregels. Serviceorderregels vertegenwoordigen de uren werk die moeten worden uitgevoerd door de onderhoudsmonteur en de verwante artikelen, uitgaven en honoraria.
 
@@ -39,19 +38,19 @@ U kunt ook serviceorders afzonderlijk maken, zonder deze te koppelen aan een ove
 
 
 > [!NOTE]
-> <P>Om serviceorders te maken die niet zijn gekoppeld aan een serviceovereenkomst, moet u het selectievakje <STRONG>Toestaan zonder serviceovereenkomst</STRONG> in het formulier <STRONG>Parameters voor servicebeheer</STRONG> aanvinken.</P>
+> Om serviceorders te maken die niet zijn gekoppeld aan een serviceovereenkomst, moet u het selectievakje **Toestaan zonder serviceovereenkomst** op de pagina **Parameters voor servicebeheer** inschakelen.
 
-**Scenario's**
+### <a name="scenario"></a>Scenario's
 
 In het volgende scenario wordt een andere situatie beschreven waarin het handig een serviceorder te maken die niet is gekoppeld aan een serviceovereenkomst.
 
-De verzender van het bedrijf ontvangt een oproep om noodonderhoud uit te voeren aan een lift. Er is geen tijd om een serviceovereenkomst en een project voor de service in te stellen. Daarom maakt de verzender een serviceorder rechtstreeks in het formulier **Serviceorders**, koppelt hij/zij de serviceorder aan een bestaand project en maakt hij/zij de serviceorderregels. De verzender maakt ook een taak- of objectrelatie voor een bestaande serviceorder maken om het werk te registreren dat losstaat van de serviceovereenkomst. Zie voor meer informatie [Handmatig serviceorders maken](create-service-orders-manually.md) en [Servicetaakrelaties maken](create-service-task-relations.md).
+De verzender van het bedrijf ontvangt een oproep om noodonderhoud uit te voeren aan een lift. Er is geen tijd om een serviceovereenkomst en een project voor de service in te stellen. Daarom maakt de verzender een serviceorder rechtstreeks op de pagina **Serviceorders**, koppelt de serviceorder aan een bestaand project en maakt de serviceorderregels. De verzender maakt ook een taak- of objectrelatie voor een bestaande serviceorder maken om het werk te registreren dat losstaat van de serviceovereenkomst. Zie voor meer informatie [Handmatig serviceorders maken](create-service-orders-manually.md) en [Servicetaakrelaties maken](create-service-task-relations.md).
 
 ## <a name="monitor-the-progress-of-service-orders"></a>De voortgang van serviceorders controleren
 
 U kunt een fasesysteem en redencodes voor serviceorders instellen die een afspiegeling vormen van de voortgang van een serviceorder bij de diverse teams en werkzaamheden in het bedrijf. Voor elk stadium kunt u de acties opgeven die zijn toegestaan. Zie voor meer informatie over redencodes [Redencodes maken](create-reason-codes.md).
 
-**Voorbeeld**
+### <a name="example"></a>Voorbeeld
 
 De verzender keurt een serviceorder goed. De verzender werkt de fase van de serviceorder bij en geeft een redencode op die aangeeft dat de serviceorder is vrijgegeven aan de onderhoudsmonteur. De onderhoudsmonteur gaat naar de klant en voert daar de werkzaamheden uit.
 
@@ -59,7 +58,7 @@ De verzender keurt een serviceorder goed. De verzender werkt de fase van de serv
 
 U kunt de voorraadartikelen opgeven die vereist zijn voor serviceorders. De serviceorder moet echter gekoppeld zijn aan een project. Artikelbehoeften voor serviceorders worden verwerkt via een project. 
 
-**Voorbeeld**
+### <a name="example"></a>Voorbeeld
 
 De serviceorders die van de serviceovereenkomst zijn gemaakt, worden vervolgens verwerkt door de verzender. Bij de eerste serviceorder realiseert de verzender zich dat de onderhoudsmonteur een belangrijk reserveonderdeel nodig heeft dat niet op voorraad is. De verzender maakt rechtstreeks vanuit de serviceorder een artikelbehoefte voor het reserveonderdeel.
 
@@ -73,7 +72,7 @@ Een van de andere serviceorders die voor januari was gegenereerd, is vervallen o
 
 ## <a name="post-from-projects"></a>Boeken vanuit projecten
 
-Aan het einde van elke week wil de verzender alle serviceorders van een bepaald project boeken. Daarom zoekt de verzender het betreffende project in het formulier **Projecten** en boekt deze de serviceorders die zijn voltooid. Zie voor meer informatie [Serviceorders boeken (klasseformulier)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
+Aan het einde van elke week wil de verzender alle serviceorders van een bepaald project boeken. Daarom zoekt de verzender naar het betreffende project op de pagina **Projecten** en boekt de serviceorders die zijn voltooid. Zie voor meer informatie [Serviceorders boeken (klasseformulier)](https://technet.microsoft.com/library/aa574685\(v=ax.60\)).
 
 ## <a name="delete-service-orders"></a>Serviceorders verwijderen
 

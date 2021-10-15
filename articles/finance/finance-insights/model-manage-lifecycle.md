@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 28a5451f4932669fb66d5e47fd2f574eb3648428
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: 0b16cfdce801e8a63b47397526b47995018b99c9
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386333"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594826"
 ---
 # <a name="model-management-lifecycle"></a>Levenscyclus van modelbeheer
 
@@ -32,4 +32,4 @@ Het is raadzaam om het AI-model te trainen in een sandbox-omgeving en vervolgens
 
 Omdat het AI-model is gebaseerd op de beschikbare factuur- en klantgegevens, is het van belang dat de sandbox-omgeving over een recente kopie van de productiegegevens beschikt. U kunt beginnen met het trainen van het model door de stappen uit te voeren in [Voorspellingen voor klantbetalingen gebruiken](use-customer-payment-predictions.md). Nadat het model opnieuw is getraind, evalueert u de resultaten zoals beschreven in [Het aanvankelijke prognosemodel voor klantbetalingen evalueren](evaluate-payment-prediction.md). Gebruik de informatie in [Het voorspellingsmodel verbeteren](improve-model.md) om te experimenteren met combinaties van functies en filters waarmee het model kan worden verbeterd.
 
-Als u tevreden bent over de trainingsresultaten, volgt u de stappen in [Uw AI-model verdelen](https://docs.microsoft.com/ai-builder/distribute-model) om het model over te brengen naar uw productieomgeving.
+Als u tevreden bent over de trainingsresultaten, volgt u de stappen in [Uw AI-model verdelen](/ai-builder/distribute-model) om het model over te brengen naar uw productieomgeving.

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4b64863c668b71335b8935037cc1c2de1fcc620e0f3f91e97ca38614334e6cc9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3e1dbb97ba56b5910dda368b9ec15e27a683dde5
+ms.sourcegitcommit: 5c0a0adeb859cc1ade6f067444f3bf08a895b35a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774964"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7557387"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Startpagina van Algemene voorraadboekhouding (Global Inventory Accounting)
 
@@ -46,8 +46,11 @@ Algemene voorraadboekhouding is momenteel beschikbaar in de volgende geografisch
 - Verenigd Koninkrijk
 - Australië
 - Canada
+- Zuid-Amerika
 
 Als u de invoegtoepassing vanuit een andere geografische regio probeert te installeren, wordt in Microsoft Dynamics LCS (Lifecycle Services) een bericht weergegeven dat uw regio niet wordt ondersteund. Algemene voorraadboekhouding ondersteunt geen on-premises implementaties van Supply Chain Management.
+
+Als u problemen ondervindt met het inschakelen van Algemene voorraadboekhouding in een van de ondersteunde geografische regio's die hier worden vermeld, kunt u voor validatie een e-mailbericht met uw omgevings-id sturen naar het [team voor algemene voorraadboekhouding](mailto:GlobalInvAccount@microsoft.com).
 
 ## <a name="licensing"></a>Licenties
 

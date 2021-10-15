@@ -11,15 +11,17 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
-ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 241892e8f6ea04616aa9c605b4a2019d2de0ebe868ee7ebc1d5b56f5ce172bd5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.10
+ms.openlocfilehash: d81441fcc8cb86927923e76bd1a4d16a141ddc75
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723498"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571876"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Kwaliteitsbeheer voor magazijnprocessen
+
+[!include [banner](../includes/banner.md)]
 
 Met deze functie _kwaliteitsbeheerproces voor magazijnprocessen_ kunt u besturingselementen voor artikelbemonstering integreren in het ontvangstproces van het magazijn via geavanceerd magazijnbeheer. Magazijnwerk kan automatisch worden gegenereerd om de voorraad naar de kwaliteitscontrolelocatie te verplaatsen op basis van een percentage of een vaste hoeveelheid, of op basis van elke *n* de nummerplaat. Nadat een kwaliteitsorder is voltooid, kunt u automatisch werk genereren om de voorraad naar de volgende locatie in het proces te verplaatsen, afhankelijk van de kwaliteitsresultaten.
 

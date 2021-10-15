@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: d8c88b742c1dccb169e47fe96a5c9d9aac35e605be685cc1a0f010826c959db5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 372bb556ec1207096a8ff3c7df8bac9b7011b5c4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712857"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574132"
 ---
 # <a name="put-to-wall---put-to-store"></a>Put to wall - put to store
 
@@ -42,9 +42,9 @@ De functie *Uitgaande sortering* kan worden gebruikt in combinatie met de functi
 - **Module:** *Magazijnbeheer*
 - **Functienaam:** *Organisatiebrede wave-stapcode*
 
-## <a name="setup"></a>Instelling
+## <a name="setup"></a>Instellen
 
-Voor deze demo worden standaard Contoso gegevens en magazijn *62* gebruikt. Sommige toevoegingen die verderop worden vermeld, worden ook gebruikt.
+Voor deze demo worden standaard Contoso-gegevens en magazijn *62* gebruikt. Sommige toevoegingen die verderop worden vermeld, worden ook gebruikt.
 
 ### <a name="location-type"></a>Locatietype
 
@@ -355,7 +355,7 @@ U moet locatie-instructies maken om het werk te begeleiden dat wordt gemaakt nad
 
 In dit scenario wordt een situatie gesimuleerd waarbij in het magazijn kleine artikelen op locaties worden opgeslagen die moeten worden ingepakt in dozen voordat ze worden verzonden, en waarbij de functionaliteit van het verpakkingsstation niet echt geschikt is. Werknemers verzamelen orders voor meerdere klanten en verschillende adressen tegelijk om de verzamelsnelheid te verhogen. Nadat het orderverzamelen is voltooid, arriveren de werknemers op de sorteerlocatie, waar de verzamelde artikelen kunnen worden gesorteerd in de juiste doos op basis van vereiste criteria. In dit voorbeeld wordt de zending-id gebruikt om de juiste doos te bepalen, omdat elke zending een ander adres heeft. Nadat alle artikelen van de lading zijn ingepakt en gesorteerd op zending, worden de dozen verplaatst naar het klaarzetgebied en uiteindelijk op een truck geladen.
 
-Controleer voordat u het scenario start of alle standaard magazijnfuncties juist zijn ingesteld voor het magazijn. Standaard wordt het Contoso magazijn *62* gebruikt voor dit doeleinde. Standaardconfiguraties zijn niet gewijzigd, behalve wat in de instellingen is beschreven.
+Controleer voordat u het scenario start of alle standaard magazijnfuncties juist zijn ingesteld voor het magazijn. Standaard wordt het Contoso-magazijn *62* gebruikt voor dit doeleinde. Standaardconfiguraties zijn niet gewijzigd, behalve wat in de instellingen is beschreven.
 
 ### <a name="create-demand"></a>Vraag maken
 

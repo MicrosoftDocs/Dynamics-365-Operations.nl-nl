@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 70ebe47997f3b5945a433150ae66de6eb41ff12acf4f4f3c8268351116bdd313
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 4c366d2f9091ee46ac3b1b6eff72e178932da18e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767946"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592623"
 ---
 # <a name="confirm-and-transfer"></a>Bevestigen en overboeken
 
@@ -45,8 +45,8 @@ U kunt alleen ladingen splitsen die voldoen aan de volgende criteria:
 
 - Een of meer ladingregels hebben hoeveelheden die zijn verzameld.
 - De ladingsstatus is minder dan geladen.
-- Er zijn geen gegevens voor de ladingregel. (Deze gegevens worden gemaakt via de consolidatie van de nummerplaat op de klaarzetlocatie. De functie *Bevestigen en overboeken* ondersteunt geen nummerplaatconsolidatie.)
-- Er is geen voorraad die wacht op verpakking op een verpakkingslocatie. (De functie *Bevestigen en overboeken* ondersteunt geen voorraad die is verzameld en op het verpakkingsstation staat, maar nog niet is ingepakt.)
+- Er zijn geen gegevens voor de ladingregel. (Deze gegevens worden gemaakt via de consolidatie van de nummerplaat op de klaarzetlocatie. De functie Bevestigen en overboeken ondersteunt geen nummerplaatconsolidatie.)
+- Er is geen voorraad die wacht op verpakking op een verpakkingslocatie. (De functie *Bevestigen en overboeken* ondersteunt geen voorraad die voor de verpakkingsplaats is verzameld, maar nog niet verpakt, tenzij containers die zijn verpakt op faseringslocaties worden geplaatst met gemaakt laadwerk.)
 
 > [!NOTE]
 > Deze functionaliteit verschilt van de functie transportlading, die moet worden gebruikt in magazijnen die nooit ladingen kunnen plannen en maken vóór het orderverzamelen, maar die in plaats daarvan de beschikbare transportruimte laden nadat het orderverzamelen is voltooid.

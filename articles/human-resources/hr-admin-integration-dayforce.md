@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f92850a741f2a0d4d1c2636cbbdf21fe95f307df
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414579"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559456"
 ---
 # <a name="configure-integration-with-dayforce"></a>Integratie met Dayforce configureren
 
@@ -64,7 +64,6 @@ Het inschakelen van de integratie van de salarisadministratie heeft twee belangr
 
 > [!NOTE]
 > Het gegevenspakket dat naar het SFTP-eind punt wordt overgebracht, is gecodeerd met een sleutel die uniek is voor het pakket. De sleutel bevindt zich in een Azure-sleutelkluis die alleen toegankelijk is via Ceridian. Het is niet mogelijk om de inhoud van het gegevenspakket te decoderen en te onderzoeken. Als u de inhoud van het gegevenspakket wilt controleren, moet u het gegevensproject Export van integratie van salarisadministratie handmatig exporteren, downloaden en vervolgens openen. Bij een handmatige export wordt er geen codering toegepast of wordt het pakket niet overgedragen.
-> Wanneer de integratiebestanden bijvoorbeeld worden verzonden vanuit een UAT- of sandboxomgeving in Dynamics 365 Human Resources naar een Ceridian Dayforce Test-omgeving, kunt u de volgende Key Vault-URL gebruiken: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Uw gegevens configureren 
 

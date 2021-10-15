@@ -1,7 +1,7 @@
 ---
 title: Voorraadhoeveelheden reserveren
 description: Dit onderwerp beschrijft de verschillende opties die beschikbaar zijn voor het reserveren van voorraad.
-author: perlynne
+author: yufeihuang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: 207264
 ms.assetid: 47537e4f-cdf6-4813-96fd-c945b2dfe9d4
 ms.search.region: Global
-ms.author: perlynne
+ms.author: yufeihuang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43443f510f5b8a627b4fd2b391c0c63d7d2ed147f1dea8f9cdd78a07009c2449
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0cf6f14e30f84f48428b351287eb1c65915a14c1
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764855"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571132"
 ---
 # <a name="reserve-inventory-quantities"></a>Voorraadhoeveelheden reserveren
 
@@ -51,7 +51,7 @@ De sectie **Voorraadbeleid** bevat het volgende reserveringsbeleid.
 | **Reserveringsbeleid**  | **Omschrijving**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Gecontroleerde FIFO-datum    | Als u de optie **Gecontroleerde FIFO-datum** selecteert, wordt de voorraad volgens een sorteringsdatum gereserveerd door de FIFO-methode (First In First Out) te gebruiken. U kunt batches reserveren op basis van de vroegste ontvangstdatum van artikelen of volgens de FIFO-methode (First In First Out).                                                                                                                                                                                                                                                                       |
 | Terug vanaf verzenddatum | Deze optie wordt beschikbaar als u de optie **Gecontroleerde FIFO-datum** hebt geselecteerd. Schakelt u het selectievakje **Terug vanaf verzenddatum** in, dan wordt de voorraad vanaf de gewenste verzenddatum met behulp van de LIFO-methode (Last In First Out) gereserveerd. Als er geen ontvangsten vóór de verzenddatum beschikbaar zijn, wordt er een FIFO-reservering gebruikt.                                                                                                                                                                                                           |
-| Artikelverkoopreservering  | Bepaalt of de artikelen automatisch of handmatig worden gereserveerd. Als een reservering automatisch is, reserveert u voorraad wanneer orderregels worden gemaakt. Het is mogelijk om reserveringen voor het artikelnummerniveau voor stuklijsten (optie **Automatisch**) of voor de individuele elementen van een stuklijst (optie **Explosie**) te maken. De standaardwaarde voor **Artikelverkoopreservering** kan van **Klantparameters** zijn overgenomen. Op die pagina wordt de waarde ingesteld in het veld **Reservering** in de sectie **Standaardwaarden verkoop** op het tabblad **Algemeen**. |
+| Artikelverkoopreservering  | Bepaalt of de artikelen automatisch of handmatig worden gereserveerd. Als een reservering automatisch is, reserveert u voorraad wanneer orderregels worden gemaakt. Het is mogelijk om reserveringen voor het artikelnummerniveau voor stuklijsten (optie **Automatisch**) of voor de individuele elementen van een stuklijst (optie **Explosie**) te maken. De standaardwaarde voor **Artikelverkoopreservering** kan van **Parameters van module Klanten** zijn overgenomen. Op die pagina wordt de waarde ingesteld in het veld **Reservering** in de sectie **Standaardwaarden verkoop** op het tabblad **Algemeen**. |
 | Dezelfde batchselectie    | Met reserveringen uit dezelfde batch kunt u voorraad reserveren voor een verkooporderregel uit één voorraadbatch. Als u deze optie wilt gebruiken, moet u ook de optie **Behoeften consolideren** instellen op **Ja**. Er zijn extra instellingen die voor de traceringsdimensiegroep en de opslagdimensiegroep zijn vereist. Zie voor meer informatie [Dezelfde batch reserveren voor een verkooporder](../sales-marketing/reserve-same-batch-sales-order.md).                                                          |
 | Behoeften consolideren | Deze optie is vergelijkbaar met de optie **Dezelfde batchselectie** en hiermee wordt voorraad geconsolideerd die voor verkooporderregels in één behoefte is gereserveerd.                                                                                                                                                                                                                                                                                                                                                                                      |
 | Gecontroleerde FEFO-datum    | Met deze optie kunt u batches reserveren die dicht bij hun de vervaldatum of houdbaarheidsdatum zijn. U moet ook het veld **Orderverzamelcriteria** instellen om **Vervaldatum** of **Uiterste houdbaarheidsdatum** te selecteren.                                                                                                                                                                                                                                                                                                                              |

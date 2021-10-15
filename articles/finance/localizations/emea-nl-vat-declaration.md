@@ -2,7 +2,6 @@
 title: Btw-aangifte voor Nederland
 description: In dit onderwerp wordt uitgelegd hoe u de btw-aangifte voor rechtspersonen kunt instellen en genereren in Nederland.
 author: anasyash
-ms.author: AnnBe
 ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
@@ -10,14 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Netherlands
+ms.author: anasyash
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ac53b5d74da73dfd9c656e81d1b2527cac02dd61608a61a22b8f9e880df18c79
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 82d0f0d65ced5ff7b7f59680c26850f96c7ce93b
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764218"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592526"
 ---
 # <a name="vat-declaration-for-the-netherlands"></a>Btw-aangifte voor Nederland
 

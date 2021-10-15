@@ -2,19 +2,19 @@
 title: Beschrijving van service voor Finance and Operations-toepassingen
 description: In dit onderwerp vindt u de serviceomschrijving voor Finance and Operations-toepassingen.
 author: tomhig
-ms.date: 09/03/2021
+ms.date: 09/29/2021
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.region: Global
 ms.author: whigginb
 ms.search.validFrom: 2021-09-03
-ms.openlocfilehash: 4df681641490fe3b43f4d927ad09e43007f83367
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: a1547f0cc6c6f705cd0e2ff6e5be751cb97b946a
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472500"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581811"
 ---
 # <a name="service-description-for-finance-and-operations-apps"></a>Beschrijving van service voor Finance and Operations-toepassingen
 
@@ -28,7 +28,7 @@ Finance and Operations-toepassingen zijn ERP-software (Enterprise Resource Plann
 - [Dynamics 365 Commerce](/dynamics365/commerce/)
 - [Dynamics 365 Project Operations](/dynamics365/project-operations/)
 
-Samen met [business intelligence](/power-bi/fundamentals/power-bi-service-overview)-, [infrastructuur](https://azure.microsoft.com/global-infrastructure/)-, [compute](/azure/service-fabric/service-fabric-overview)- en [databaseservices](/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview) stelt u organisaties in staat om bedrijfstakspecifieke en operationele bedrijfsprocessen uit te voeren. Klanten worden ondersteund door hun implementatiepartner en bepalen de configuratie van de bedrijfstoepassingslogica die het beste bij de unieke bedrijfsprocessen past. Functionaliteit en bedrijfsprocessen kunnen worden aangevuld met een of meer van de volgende oplossingen:
+Samen met [business intelligence](/power-bi/fundamentals/power-bi-service-overview)-, [infrastructuur](https://azure.microsoft.com/global-infrastructure/)-, [compute](/azure/service-fabric/service-fabric-overview)- en [databaseservices](https://devblogs.microsoft.com/azure-sql/running-1m-databases-on-azure-sql-for-a-large-saas-provider-microsoft-dynamics-365-and-power-platform/) stelt u organisaties in staat om bedrijfstakspecifieke en operationele bedrijfsprocessen uit te voeren. Klanten worden ondersteund door hun implementatiepartner en bepalen de configuratie van de bedrijfstoepassingslogica die het beste bij de unieke bedrijfsprocessen past. Functionaliteit en bedrijfsprocessen kunnen worden aangevuld met een of meer van de volgende oplossingen:
 
 - Ingebouwde [personalisatie-ervaring](personalize-user-experience.md)
 - [Microsoft Power Platform](../../dev-itpro/power-platform/overview.md)-hulpmiddelen
@@ -150,7 +150,7 @@ LCS biedt [self-service tools](../../dev-itpro/deployment/infrastructure-stack.m
 
 ### <a name="environment-and-data-management-events-for-non-production-instances"></a>Omgevings- en gegevensbeheergebeurtenissen voor niet-productie-exemplaren
 
-LCS biedt [self-service tools ](../../dev-itpro/deployment/infrastructure-stack.md)en [gegevensverplaatsingsbewerkingen](../../dev-itpro/database/dbmovement-operations.md)  die gebruikt worden voor het uitvoeren van omgevings- en gegevensbeheertaken. Hieronder volgen een aantal voorbeelden:
+LCS biedt [self-service tools ](../../dev-itpro/deployment/infrastructure-stack.md)en [gegevensverplaatsingsbewerkingen](../../dev-itpro/database/dbmovement-operations.md) die gebruikt worden voor het uitvoeren van omgevings- en gegevensbeheertaken. Hieronder volgen een aantal voorbeelden:
 
 **Gebeurtenis:** [een nieuw sandbox exemplaar implementeren](../../dev-itpro/deployment/deployenvironment-newinfrastructure.md)
 
@@ -197,17 +197,17 @@ De volgende tabel beschrijft een aantal gebruikelijke scenario's en activiteiten
 | Richt in voor alle productie-exemplaren en niet-productie-exemplaren. | X | |
 | Valideer voor alle productie-exemplaren en niet-productie-exemplaren. | | X |
 | **Service-updates** | |
-| Microsoft past service-updates toe op toegewezen niet-productie- en productie-exemplaren. | X | X |
-| Download de update vanuit LCS, definieer, ontwikkel en test de update en geef het code-updatepakket terug naar LCS. | | X |
-| Vraag aan dat uitbreidingsupdates worden toegepast op het productie-exemplaar. | | X |
+| Pas service-updates toe op toegewezen niet-productie- en productie-exemplaren. | X | |
+| Pas handmatig service-updates van LCS toe op sandbox-exemplaren. Download, ontwikkel en test de update en geef het code-updatepakket terug aan LCS. | | X |
+| Vraag uitbreidingsupdates aan en plan ze voor toepassing op het productie-exemplaar. | | X |
 | Maak een code en back-up van gegevens voor het productie-exemplaar voordat eventuele updates worden toegepast. | X | |
 | Bij een fout, kunt u het productie-exemplaar terugdraaien naar de code en back-up van de gegevens. | X | |
 | **Gegevensbeheer (back-up maken, herstellen en bijwerken)** | | |
 | Een back-up maken van de database. | X | |
 | Bepalen van een hoge beschikbaarheid en een herstelplan voor noodgevallen. | X | |
-| De prestaties van de database met productie-instantie controleren. | X | X |
-| Stem de productie-exemplaardatabase af op prestaties. | X | X |
-| Kopieer de database van het productie-exemplaar naar een niet-productie-exemplaar. | | X |
+| De prestaties van de database met productie-instantie controleren. | X | |
+| Stem de productie-exemplaardatabase af op prestaties. | X | |
+| Voer op een bepaalde tijd een vernieuwing van de database van een productie-exemplaar naar een niet-productie-exemplaar uit. | | X |
 | **De infrastructuur bijwerken** | | |
 | Plan regelmatige infrastructuurupdates. | X | |
 | **Op- en afschalen (gebruikers, opslag en exemplaren)** | | |
@@ -215,7 +215,7 @@ De volgende tabel beschrijft een aantal gebruikelijke scenario's en activiteiten
 | Werk gebruikswijzigingen bij in de LCS abonnementsschatter-tool. | | X |
 | Belangrijke prestatieproblemen rapporteren die van invloed zijn op het gebruik van de service. | | X |
 | De resources die vereist zijn voor de toepasselijke service proactief beheren. | X | |
-| Incidenten onderzoeken en oplossen. | X | X |
+| Incidenten onderzoeken en oplossen. | X | |
 | **Beveiliging (gebruikerstoegang)** | | |
 | Geef gebruikers toegang tot de service. | | X |
 | Geef LCS-projecttoegang voor het beheer en de bewerking van exemplaren die via LCS zijn geïmplementeerd. | | X |
@@ -280,7 +280,7 @@ De volgende tabel toont de verschillende toegangsniveaus voor verschillende Micr
 
 ## <a name="monitoring"></a>Controle
 
-Microsoft heeft geïnvesteerd in een uitgebreide toolset om de productie-exemplaren van klanten te monitoren en diagnosticeren. Microsoft controleert de productieomgevingen van klanten 24 uur per dag, zeven dagen per week. Zie  [ productie-ondersteuning en -controle](../imp-lifecycle/production-support-monitoring.md)  voor meer informatie.
+Microsoft heeft geïnvesteerd in een uitgebreide toolset om de productie-exemplaren van klanten te monitoren en diagnosticeren. Microsoft controleert de productieomgevingen van klanten 24 uur per dag, zeven dagen per week. Zie [ productie-ondersteuning en -controle](../imp-lifecycle/production-support-monitoring.md)  voor meer informatie.
 
 | Verantwoordelijkheden van Microsoft | Verantwoordelijkheden van klant |
 |---|---|
@@ -296,7 +296,7 @@ Zie deze [ernsttabel ](/power-platform/admin/support-overview#what-is-initial-re
 
 ## <a name="business-continuity-through-high-availability-and-disaster-recovery"></a>Bedrijfscontinuïteit door hoge beschikbaarheid en noodherstel 
 
-Microsoft biedt bedrijfscontinuïteit en noodherstel voor productie-instanties van Finance and Operations-apps in het geval van storingen in de hele Azure-regio. Zie  [Bedrijfscontiteit en herstel](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md)  voor meer informatie.
+Microsoft biedt bedrijfscontinuïteit en noodherstel voor productie-instanties van Finance and Operations-apps in het geval van storingen in de hele Azure-regio. Zie [Bedrijfscontiteit en herstel](../../dev-itpro/sysadmin/business-continuity-disaster-recovery.md) voor meer informatie.
 
 - **Hoge beschikbaarheid**: De HA-functionaliteit biedt manieren om uitvaltijd te voorkomen die wordt veroorzaakt door het mislukken van één knooppunt in een Azure-systeem. De cloudarchitectuur van elke service maakt gebruik van Azure-beschikbaarheidssets voor de rekenlaag om single-point-of-failure-gebeurtenissen te voorkomen. HA voor databases wordt geleverd via [Azure SQL HA-functies](/azure/azure-sql/database/high-availability-sla).
 - **Noodherstel** – [Azure-functies voor noodherstel](/azure/best-practices-availability-paired-regions) beschermen elke service tegen storingen die een heel Azure-datacenter in grote lijnen treffen. Dit zijn enkele van deze functies:
@@ -326,7 +326,7 @@ Technische ondersteuning is beschikbaar in markten waar Finance and Operations-s
 - [Geïntegreerde technische ondersteuning ](../../dev-itpro/lifecycle-services/support-experience.md)in Finance and Operations-toepassingen
 - [Cloudondersteuning](../../dev-itpro/lifecycle-services/cloud-powered-support-lcs.md) in LCS
 
-Microsoft biedt Finance and Operations-klanten drie ondersteuningsplannen:  Premier, Professional Direct en de ondersteuning die is opgenomen in het abonnement. Het ondersteuningsniveau per plan verschilt. De volgende tabel toont een vergelijking van de drie plannen.
+Microsoft biedt Finance and Operations-klanten drie ondersteuningsplannen: Premier, Professional Direct en de ondersteuning die is opgenomen in het abonnement. Het ondersteuningsniveau per plan verschilt. De volgende tabel toont een vergelijking van de drie plannen.
 
 | Ondersteuningsfunctie | Premier | Professional Direct | Abonnement |
 |---|---|---|---|
@@ -341,7 +341,7 @@ Zie [Overzicht van ondersteuning](/power-platform/admin/support-overview) voor m
 
 ### <a name="process-to-engage-support"></a>Proces om ondersteuning te krijgen
 
-Bij incidenten waarbij  zijn Finance and Operations-toepassingen betrokken zijn, dienen klanten  via LCS ondersteuningstickets in bij Microsoft. CSS verwerkt de incidenten op basis van het ondersteuningsplan van de klant en de ernst van het incident zoals aangegeven door CSS.
+Bij incidenten waarbij zijn Finance and Operations-toepassingen betrokken zijn, dienen klanten via LCS ondersteuningstickets in bij Microsoft. CSS verwerkt de incidenten op basis van het ondersteuningsplan van de klant en de ernst van het incident zoals aangegeven door CSS.
 
 ### <a name="service-level-agreement"></a>Servicelevelovereenkomst
 
@@ -411,7 +411,7 @@ Voor meer info over Tiers 2 tot 5, zie [De juiste Tier-2 of hogere omgeving sele
 
 ### <a name="production-instance"></a>Productie-exemplaar
 
-Een Finance and Operations-omgeving waarin de klant de dagelijkse "live"  transacties en bedrijfsprocessen beheert.
+Een Finance and Operations-omgeving waarin de klant de dagelijkse live transacties en bedrijfsprocessen beheert.
 
 ### <a name="sandbox-environment"></a>Sandbox-omgeving
 

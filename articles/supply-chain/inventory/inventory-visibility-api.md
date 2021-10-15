@@ -2,7 +2,7 @@
 title: Openbare API's voor Voorraadzichtbaarheid
 description: In dit onderwerp worden de openbare API's beschreven die worden geleverd door Voorraadzichtbaarheid.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.dyn365.ops.version: 10.0.22
+ms.openlocfilehash: 43fa94118c4d76e021bb635d720208d5f971db19
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474647"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592483"
 ---
 # <a name="inventory-visibility-public-apis"></a>Openbare API's voor Voorraadzichtbaarheid
 
@@ -82,6 +82,8 @@ Microsoft heeft een gebruikersinterface (UI) in Power Apps gemaakt zodat u de be
 
 Het beveiligingstoken voor het platform wordt gebruikt om de openbare API Voorraadzichtbaarheid aan te roepen. U moet daarom een _Azure Active Directory (Azure AD)-token_ genereren met de Azure AD-toepassing. Vervolgens moet u het Azure AD-token gebruiken om het _toegangstoken_ op te halen van de beveiligingsservice.
 
+Microsoft biedt een gebruiksklare *Postman*-verzameling voor het ophalen van tokens. U kunt deze verzameling in uw *Postman*-software importeren via de volgende gedeelde koppeling: <https://www.getpostman.com/collections/496645018f96b3f0455e>
+
 Ga als volgt te werk om een beveiligingstoken voor de service te krijgen.
 
 1. Meld u aan bij de Azure-portal en gebruik de portal om de waarden `clientId` en `clientSecret` voor uw Dynamics 365 Supply Chain Management-app te vinden.
@@ -131,7 +133,7 @@ Ga als volgt te werk om een beveiligingstoken voor de service te krijgen.
    - De waarde `context` moet de LCS-omgevings-id zijn waarin u de invoegtoepassing wilt implementeren.
    - Stel alle andere waarden in zoals in het voorbeeld wordt weergegeven.
 
-1. Dien een HTTP-aanvraag in met de volgende eigenschappen:
+1. Haal een toegangstoken (`access_token`) op door een HTTP-aanvraag in te dienen met de volgende eigenschappen:
 
    - **URL:** `https://securityservice.operations365.dynamics.com/token`
    - **Methode:** `POST`
@@ -148,7 +150,8 @@ Ga als volgt te werk om een beveiligingstoken voor de service te krijgen.
    }
    ```
 
-In latere secties gebruikt u `$access_token` om het token te vertegenwoordigen dat in de laatste stap is opgehaald.
+> [!IMPORTANT]
+> Wanneer u de *Postman*-aanvraagverzameling gebruikt om openbare API's voor Voorraadzichtbaarheid aan te roepen, moet u voor elke aanvraag een Bearer-token toevoegen. Als u het Bearer-token wilt vinden, selecteert u het tabblad **Autorisatie** onder de aanvraag-URL, selecteert u het type **Bearer-token** en kopieert u het toegangstoken dat in de laatste stap is opgehaald. In latere secties van dit onderwerp wordt `$access_token` gebruikt om het token te vertegenwoordigen dat in de laatste stap is opgehaald.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Wijzigingsgebeurtenissen maken voor voorhanden voorraad
 
@@ -508,7 +511,7 @@ In de hoofdtekst van deze aanvraag is `dimensionDataSource` nog steeds een optio
 
 - `organizationId` mag slechts één waarde bevatten, maar is nog steeds een matrix.
 - `productId` kan een of meer waarden bevatten. Als het een lege matrix is, worden alle producten geretourneerd.
-- `siteId` en `locationId` worden gebruikt in Voorraadzichtbaarheid voor partitionering.
+- `siteId` en `locationId` worden voor partitionering in Voorraadzichtbaarheid gebruikt. U kunt meer dan één waarde voor `siteId` en `locationId` opgeven in een aanvraag voor een *Voorhanden query*. In de huidige versie moet u zowel een waarde voor `siteId` als voor `locationId` opgeven.
 
 De parameter `groupByValues` moet uw configuratie volgen voor indexering. Zie [Configuratie van productindexhiërarchie](./inventory-visibility-configuration.md#index-configuration) voor meer informatie.
 
