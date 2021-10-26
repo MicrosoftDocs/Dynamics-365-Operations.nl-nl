@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3690a541b503281f204221a72bfb5a371984d9e4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733606"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605274"
 ---
 # <a name="financial-reporting-faq"></a>Veelgestelde vragen over Financiële rapportage
 
@@ -101,5 +101,28 @@ Voor historische valutaomrekening kunnen de vooraf berekende periodesaldi worden
 Wanneer gegevens in de rapporten worden bijgewerkt, kan er vertraging optreden omdat bedragen opnieuw moeten worden berekend met controle van de transactiegegevens. Deze vertraging is elke keer van toepassing wanneer de tarieven worden bijgewerkt of meer transacties worden geboekt. Als er bijvoorbeeld een paar keer per dag duizenden rekeningen worden ingesteld voor historische omzetting, kan er een vertraging van maximaal een uur optreden voordat de gegevens in het rapport zijn bijgewerkt. Als er een kleiner aantal specifieke rekeningen is, kunnen de verwerkingstijden voor het bijwerken van rapportgegevens teruglopen tot een paar minuten of minder.
 
 Wanneer rapporten worden gegenereerd met behulp van valutaomzetting voor rekeningen met een historische koers, worden er ook extra berekeningen per transactie uitgevoerd. Afhankelijk van het aantal rekeningen kan de tijd voor het genereren van de rapporten meer dan verdubbelen.
+
+## <a name="what-are-the-estimated-data-mart-integration-intervals"></a>Wat zijn de geschatte intervallen voor datamart-integratie?
+
+Financial Reporter gebruikt zestien taken om gegevens van Dynamics 365 Finance te kopiëren naar de Financial Reporter-database. In de volgende tabel worden deze zestien taken vermeld en wordt het interval aangegeven dat aangeeft hoe vaak elke taak wordt uitgevoerd. De intervallen kunnen niet worden gewijzigd.
+
+| Naam                                                       | Interval | Intervaltiming |
+|------------------------------------------------------------|----------|-----------------|
+| AX 2012-rekeningcategorieën naar rekeningcategorie            | 41       | Minuten         |
+| AX 2012-rekeningen naar rekening                                | 7        | Minuten         |
+| AX 2012-bedrijven naar bedrijf                               | 300      | Seconden         |
+| AX 2012-bedrijven naar organisatie                          | 23       | Minuten         |
+| AX 2012-dimensiecombinaties naar dimensiecombinatie    | 1        | Minuten         |
+| AX 2012-dimensiewaarden naar dimensiewaarde                | 11       | Minuten         |
+| AX 2012-dimensies naar dimensie                            | 31       | Minuten         |
+| AX 2012-wisselkoersen naar wisselkoers                    | 17       | Minuten         |
+| AX 2012-boekjaren naar boekjaar                        | 13       | Minuten         |
+| AX 2012-grootboektransacties naar feit                | 1        | Minuten         |
+| AX 2012-organisatiehiërarchieën naar structuur                   | 3600    | Seconden         |
+| AX 2012-scenario's naar scenario                              | 29       | Minuten         |
+| AX 2012-kwalificaties van transactietypen naar kwalificatie van feittype | 19       | Minuten         |
+| Onderhoudstaak                                           | 1        | Minuten         |
+| MR-rapportdefinities naar financiële rapporten in AX7             | 45       | Seconden         |
+| Rapportversies in MR naar versies van financiële rapporten in AX         | 45       | Seconden         |
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

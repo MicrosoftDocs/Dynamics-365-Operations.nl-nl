@@ -1194,6 +1194,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
             - name: Valutamogelijkheden in financiële rapportage
               href: general-ledger/financial-reporting-currency-capability.md
+            - name: Berekening van ingehouden winst in Financial Reporting
+              href: general-ledger/retained-earnings-enhancements.md
             - name: Financiële rapporten balans
               href: general-ledger/balance-sheet-financial-reports.md
             - name: Financiële rapporten genereren

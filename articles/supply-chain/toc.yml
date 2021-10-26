@@ -2813,6 +2813,8 @@
               href: sales-marketing/trade-allowance.md
             - name: Een nieuwe handelsovereenkomst maken
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: Prestatieverbeteringen bij opschonen van verkoophistorie
+              href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Servicebeheer
           items:
             - name: Overzicht van Servicebeheer
@@ -3711,6 +3713,8 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Verkoop en marketing
               items:
+                - name: Opschoningstaak voor verkoophistorie voor update mislukt of werkt niet goed
+                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
                 - name: Een bundelartikel wordt niet ondersteund in een intercompany-proces
                   href: troubleshooting/sales/bundle-item-intercompany-process.md
                 - name: 'Kan een intercompany-inkooporder die aan een verkooporder is gekoppeld, niet annuleren'
