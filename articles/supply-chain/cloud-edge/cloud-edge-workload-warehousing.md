@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500422"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641155"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Werkbelasting van magazijnbeheer voor cloud- en randschaaleenheden
 
@@ -171,7 +171,8 @@ De volgende magazijnbeheerfunctionaliteit wordt momenteel niet ondersteund voor 
 - Verwerking met negatieve voorhanden voorraad.
 - Magazijnwerkverwerking met verzendingsnotities.
 - Magazijnwerkverwerking met materiaalverwerking/warehouse automation.
-- Gebruik van de installatiekopie met productmodelgegevens (bijvoorbeeld in de mobiele Warehouse Management-app).
+- Installatiekopieën met productmodelgegevens (bijvoorbeeld in de mobiele Warehouse Management-app).
+- Delen van gegevens tussen meerdere bedrijven voor producten.
 
 > [!WARNING]
 > Een aantal magazijnfuncties is niet beschikbaar voor magazijnen met de werkbelasting van magazijnbeheer voor een schaaleenheid en wordt ook niet ondersteund voor de werkbelasting van de hub of schaaleenheid.
@@ -188,7 +189,6 @@ In de volgende tabel ziet u welke uitgaande functies worden ondersteund en waar 
 |--------------------------------------------------------------|-----|------------------------------|
 | Brondocumenten verwerken                                   | Ja | No |
 | Laad- en transportbeheer verwerken                | Ja, maar alleen de processen voor ladingplanning. Verwerking van transportbeheer wordt niet ondersteund  | No |
-| Francoprijzen voor goederen in transit ontvangen                                         | Ja | No |
 | Vrijgeven aan magazijn                                         | Ja | No |
 | Gepland cross-docken                                        | No  | No |
 | Zendingen samenvoegen                                       | Ja, bij gebruik van ladingplanning | Ja |
@@ -222,9 +222,10 @@ In de volgende tabel ziet u welke inkomende functies worden ondersteund en waar 
 
 | Proces                                                          | Hub | Werkbelasting magazijnuitvoering op een schaaleenheid<BR>*(Artikelen met "Ja" zijn alleen van toepassing op magazijnorders)* |
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
-| Bron&nbsp;documenten&nbsp;verwerken                             | Ja | No |
-| Laad- en transportbeheer verwerken                    | Ja | No |
-| Bevestiging inkomende zending                                    | Ja | No |
+| Bron&nbsp;documenten&nbsp;verwerken                             | Ja | Nee |
+| Laad- en transportbeheer verwerken                    | Ja | Nee |
+| Francoprijzen voor goederen in transit ontvangen                       | Ja | Nee |
+| Bevestiging inkomende zending                                    | Ja | Nee |
 | Vrijgave inkooporder naar magazijn (magazijnorderverwerking) | Ja | No |
 | Annulering van magazijnorderregels<p>Dit wordt alleen ondersteund als er geen registratie voor de regel heeft plaatsgevonden.</p> | Ja | No |
 | Ontvangen en wegzetten van inkooporderartikel                       | <p>Ja,&nbsp;wanneer&nbsp;er&nbsp;geen magazijnorder is</p><p>Nee, wanneer er een magazijnorder is</p> | <p>Ja, wanneer een inkooporder geen deel uitmaakt van een <i>belasting</i></p> |

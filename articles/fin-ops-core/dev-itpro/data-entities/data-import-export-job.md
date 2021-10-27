@@ -2,7 +2,7 @@
 title: Overzicht van gegevensimport- en exporttaken
 description: Gebruik het werkgebied Gegevensbeheer om taken voor het importeren en exporteren van gegevens te maken en te beheren.
 author: peakerbl
-ms.date: 04/22/2021
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4f9ae06893a8247828fa4d3c2cb40b9155043c87
-ms.sourcegitcommit: 7aa7d756e1e98a53da62e03c608a9597ef9893ea
+ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
+ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/20/2021
-ms.locfileid: "7404029"
+ms.lasthandoff: 10/07/2021
+ms.locfileid: "7612359"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Overzicht van Gegevensimport- en exporttaken
 
@@ -198,16 +198,10 @@ Bij het plannen van het opschoningsproces moeten de volgende parameters worden o
 > [!NOTE]
 > Als records in de faseringstabellen niet volledig worden opgeschoond, controleert u of de opschoontaak gepland staat voor uitvoering in het terugkeerpatroon. Zoals hierboven beschreven, worden bij een opschoningsbewerking slechts zoveel uitvoerings-id's opgeschoond als mogelijk is binnen het opgegeven maximale aantal uren. Om door te gaan met het opschonen van resterende faseringsrecords, moet de taak worden gepland voor periodieke uitvoering.
 
-## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Taakgeschiedenis opschonen en archiveren (beschikbaar voor preview in Platformupdate 39 of versie 10.0.15)
+## <a name="job-history-clean-up-and-archival"></a>Taakgeschiedenis opschonen en archiveren 
 De functie voor het opschonen en archiveren van de taakgeschiedenis vervangt de vorige versies van de functionaliteit voor opschonen. In deze sectie worden deze nieuwe mogelijkheden uitgelegd.
 
-Een van de belangrijkste wijzigingen in de functionaliteit voor opschonen is het gebruik van de systeembatchtaak voor het opschonen van de geschiedenis. Met het gebruik van de systeembatchtaak kunnen Finance and Operations-apps de batchtaak voor opschonen automatisch plannen en uitvoeren zodra het systeem gereed is. Het is niet meer nodig om de batchtaak handmatig te plannen. In deze standaardmodus wordt de batchtaak elk uur uitgevoerd vanaf 12 middernacht en wordt de uitvoeringsgeschiedenis voor de meest recente 7 dagen bewaard. De verwijderde geschiedenis wordt gearchiveerd voor toekomstige ophaalacties.
-
-> [!NOTE]
-> Omdat deze functionaliteit in preview is, zal de systeembatchtaak geen uitvoeringsgeschiedenis verwijderen totdat deze is ingeschakeld via de flight DMFEnableExecutionHistoryCleanupSystemJob. Wanneer de functie algemeen beschikbaar is in een toekomstige versie, is deze flight niet vereist en wordt de systeembatchtaak gestart voor opschonen en archiveren nadat het systeem is gereed, op basis van het gedefinieerde schema zoals hierboven wordt uitgelegd. 
-
-> [!NOTE]
-> In een toekomstige versie worden de eerdere versies van de functionaliteit voor opschonen verwijderd uit Finance and Operations-apps.
+Een van de belangrijkste wijzigingen in de functionaliteit voor opschonen is het gebruik van de systeembatchtaak voor het opschonen van de geschiedenis. Met het gebruik van de systeembatchtaak kunnen Finance and Operations-apps de batchtaak voor opschonen automatisch plannen en uitvoeren zodra het systeem gereed is. Het is niet meer nodig om de batchtaak handmatig te plannen. In deze standaardmodus wordt de batchtaak elk uur uitgevoerd vanaf middernacht en wordt de uitvoeringsgeschiedenis voor de meest recente 7 dagen bewaard. De verwijderde geschiedenis wordt gearchiveerd voor toekomstige ophaalacties. Vanaf versie 10.0.20 is deze functie altijd beschikbaar.
 
 De tweede wijziging in het opschoonproces is het archiveren van de verwijderde uitvoeringsgeschiedenis. Met de opschoontaak worden de verwijderde records gearchiveerd naar de blob-opslag die DIXF gebruikt voor normale integraties. Het gearchiveerde bestand heeft de DIXF-pakketindeling en is 7 dagen beschikbaar in de blob. Gedurende deze tijd kan het worden gedownload. De standaardduur van 7 dagen voor het gearchiveerde bestand kan worden ingesteld op maximaal 90 dagen in de parameters.
 

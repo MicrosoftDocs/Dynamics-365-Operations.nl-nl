@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 548eec45739a52d4eb168a80660540196225b2ed482d2104a4cd0d00503109dd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c854e9d30006dfa2deed63983a3a6b67f6ae9717
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773783"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605180"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Financiële dimensies gebruiken als gegevensbron (deel 3: het rapport ontwerpen)
 
@@ -92,7 +92,7 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen uitvoeren in de proce
 59. Klik op Kenmerk toevoegen.
 60. Typ Desc in het veld Naam.
 61. Klik op OK.
-![Pagina voor ER Operations-ontwerper.](../media/er-financial-dimensions-guides-format1.png)
+![Paginastructuur Indelingsontwerper.](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Rapportelementen toewijzen aan gegevensbronnen
 1. Klik op het tabblad Toewijzing.
@@ -141,7 +141,7 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen uitvoeren in de proce
 44. Klik op Binden.
 45. Klik op Opslaan.
 46. Sluit de pagina.
-![Pagina voor ER Operations-ontwerper.](../media/er-financial-dimensions-guides-format2.png)
+![Pagina Indelingsontwerper, rapportelementen die zijn toegewezen aan gegevensbronnen.](../media/er-financial-dimensions-guides-format2.png)
 
 
 

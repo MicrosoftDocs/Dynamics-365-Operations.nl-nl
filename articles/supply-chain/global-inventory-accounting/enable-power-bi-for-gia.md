@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 562b56a85ad2f40cb673f8f2101bf92c39853d1f1a087d0498b6f7d19d1cca01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b00de29a4f12719e469c063861b52e0fc20c5f1
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773340"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641106"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Power BI inschakelen voor Algemene voorraadboekhouding
 
@@ -49,7 +49,10 @@ Volg deze stappen voor het instellen van de Power BI-integratie.
 1. Configureer het Power BI-rapportbestand **Algemene voorraadboekhouding** als volgt:
 
     1. Ga naar **Mijn werkruimte**, zoek de gegevensset voor Algemene voorraadboekhouding en selecteer vervolgens **Instellingen** in het menu **Opties**.
-    1. Vouw in **Instellingen voor Algemene voorraadboekhouding** de optie **Parameters** uit en werk alle parameters waar nodig bij.
+    1. Vouw in **Instellingen voor Algemene voorraadboekhouding** de optie **Parameters** uit en werk alle parameters waar nodig bij. Controleer met name de volgende instellingen:
+        1. Overschrijf de standaardwaarden voor **Dataverse-URL** en **Omgevings-id** door de waarden op de pagina **Omgevingsdetails** in LCS (in de sectie **Power Platform-integratie**).
+        1. Selecteer de koppeling **Referenties bewerken** naast het label **Cds** in de sectie **Gegevensbronreferenties**. Meld u vervolgens aan bij uw Dataverse-account met de verificatiemethode **OAuth2**.
+    1. Controleer of de Power BI-rapporten in **Mijn werkruimte \> Rapporten \> Algemene voorraadboekhouding** nu correct werken en inhoud van uw systeem weergeven.
 
 1. Registreer de toepassing zoals beschreven in [Integratie van PowerBI.com configureren ](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).
 1. Integreer het Power BI-rapportbestand **Algemene voorraadboekhouding** als volgt in Dynamics 365 Supply Chain Management:

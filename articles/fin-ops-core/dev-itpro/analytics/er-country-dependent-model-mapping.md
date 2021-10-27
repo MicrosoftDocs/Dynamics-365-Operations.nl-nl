@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 64963348ef2cf850477d03fcb9a40d3a167c715bea86eca1d756f01f54472d5a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b26c605bd64b8d8e5a90f4389261e8e56825111
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718546"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605366"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>ER-modeltoewijzingen configureren die afhankelijk zijn van de landcontext
 
@@ -48,7 +48,7 @@ Voor sommige stappen in dit onderwerp is de uitvoering van een ER-indeling verei
 
 Voer de stappen in [Bijlage 1](#appendix1) van dit onderwerp uit om de vereiste ER-onderdelen te ontwerpen. U beschikt nu over de modeltoewijzingsconfiguratie **Toewijzing (algemeen)** die de modeltoewijzing bevat voor de definitie **Invoerpunt 1**.
 
-![Pagina ER-configuraties.](./media/RCS-Context-specific-mapping-Tree.PNG)
+![Pagina ER-configuraties, configuratie Indeling voor het leren van toewijzingen.](./media/RCS-Context-specific-mapping-Tree.PNG)
 
 ### <a name="run-the-configured-format"></a>De geconfigureerde indeling uitvoeren
 
@@ -61,7 +61,7 @@ In de webbrowser wordt aangeboden om het tekstbestand te downloaden dat door de 
 
 Voer de stappen in [Bijlage 2](#appendix2) van dit onderwerp uit om de vereiste ER-onderdelen te ontwerpen. U beschikt nu over de modeltoewijzingsconfiguraties **Toewijzing (algemeen)** en **Aangepaste toewijzing (algemeen)**, die beide de modeltoewijzing voor de definitie **Invoerpunt 1** bevatten.
 
-![Pagina ER-configuraties.](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
+![Pagina ER-configuratie, configuratie Aangepaste toewijzing (algemeen).](./media/RCS-Context-specific-mapping-TreeCustom.PNG)
 
 ### <a name="run-the-configured-format"></a>De geconfigureerde indeling uitvoeren
 
@@ -71,7 +71,7 @@ Voer de stappen in [Bijlage 2](#appendix2) van dit onderwerp uit om de vereiste 
 
 Het uitvoeren van de geselecteerde ER-indeling is mislukt. Er wordt een foutbericht weergegeven dat er meer dan één modeltoewijzing bestaat voor het model **Model voor het leren van toewijzingen** en de definitie **Invoerpunt 1** in de modeltoewijzingsconfiguraties **Toewijzing (algemeen)** en **Aangepaste toewijzing (algemeen)**. Daarnaast wordt u aangeraden een van deze configuraties als de standaardconfiguratie te selecteren.
 
-![Pagina ER-configuraties.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
+![Pagina ER-configuratie met foutbericht.](./media/RCS-Context-specific-mapping-FormatRunCustomFailed.PNG)
 
 ### <a name="define-a-default-mapping-configuration"></a>Een standaardtoewijzingsconfiguratie definiëren
 
@@ -82,7 +82,7 @@ Voer deze stappen uit om de modeltoewijzingsconfiguratie **Aangepaste toewijzing
 3.  Stel de optie **Standaard voor modeltoewijzing** in op **Ja**.
 4.  Selecteer **Opslaan**.
 
-![Pagina ER-configuraties.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
+![Pagina ER-configuraties, schuifregelaar Standaard voor modeltoewijzing ingesteld op Ja.](./media/RCS-Context-specific-mapping-MappingsCustomDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>De geconfigureerde indeling uitvoeren
 
@@ -101,7 +101,7 @@ Voer de stappen in [Bijlage 3](#appendix3) van dit onderwerp uit om de vereiste 
 
 U ziet dat versie 1 van de modeltoewijzingsconfiguratie **Toewijzing (FR)** zo is geconfigureerd dat deze alleen van toepassing is op ER-indelingen van het model **Model voor het leren van toewijzingen** die worden uitgevoerd in financiële bedrijven met Frans als land-/regiocontext.
 
-![Pagina ER-configuraties.](./media/RCS-Context-specific-mapping-TreeFR.PNG)
+![Pagina ER-configuratie, configuratie Modeltoewijzing (FR).](./media/RCS-Context-specific-mapping-TreeFR.PNG)
 
 ### <a name="run-the-configured-format"></a>De geconfigureerde indeling uitvoeren
 
@@ -121,7 +121,7 @@ Voer deze stappen uit om de aangepaste modeltoewijzingsconfiguratie **Toewijzing
 3.  Stel de optie **Standaard voor modeltoewijzing** in op **Ja**.
 4.  Selecteer **Opslaan**.
 
-![Pagina ER-configuraties.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
+![Pagina ER-configuraties, configuratie Toewijzing (FR), schuifregelaar Standaard voor modeltoewijzing ingesteld op Ja.](./media/RCS-Context-specific-mapping-TreeFRDefault.PNG)
 
 ### <a name="run-the-configured-format"></a>De geconfigureerde indeling uitvoeren
 
@@ -276,7 +276,7 @@ U ziet dat conceptversie 1 van deze ER-configuratie kan worden bewerkt. Deze ver
 5.  Selecteer **Opslaan**.
 6.  Sluit de pagina **Formuleontwerper**.
 
-    ![Pagina voor ontwerper van ER-modeltoewijzingen.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
+    ![Pagina voor ontwerper van ER-modeltoewijzingen, definitie Invoerpunt 1.](./media/RCS-Context-specific-mapping-Mapping1.PNG)
 
 7.  Selecteer **Opslaan**.
 8.  Sluit de pagina **Ontwerper modeltoewijzing**.
@@ -289,12 +289,12 @@ U ziet dat conceptversie 1 van deze ER-configuratie kan worden bewerkt. Deze ver
 15. Selecteer **Opslaan**.
 16. Sluit de pagina **Formuleontwerper**.
 
-    ![Pagina voor ontwerper van ER-modeltoewijzingen.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
+    ![Pagina voor ontwerper van ER-modeltoewijzingen, definitie Invoerpunt 2.](./media/RCS-Context-specific-mapping-Mapping2.PNG)
 
 17. Selecteer **Opslaan**.
 18. Sluit de pagina **Ontwerper modeltoewijzing**.
 
-    ![De pagina ER-modeltoewijzingen ontwerpen.](./media/RCS-Context-specific-mapping-Mappings.PNG)
+    ![Pagina ER-modeltoewijzingen ontwerpen met invoerpuntdefinities.](./media/RCS-Context-specific-mapping-Mappings.PNG)
 
 19. Sluit de pagina **Modeltoewijzingen**.
 
@@ -369,7 +369,7 @@ U ziet dat conceptversie 1 van deze ER-configuratie kan worden bewerkt.
 6.  Selecteer **Opslaan**.
 7.  Sluit de pagina.
 
-    ![Pagina voor ontwerper van ER-modeltoewijzingen.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
+    ![Pagina voor ontwerper van ER-modeltoewijzingen, formule Aangepaste algemene functionaliteit 1.](./media/RCS-Context-specific-mapping-Mapping1Custom.PNG)
 
 8.  Selecteer **Opslaan**.
 9.  Sluit de pagina.
@@ -380,12 +380,12 @@ U ziet dat conceptversie 1 van deze ER-configuratie kan worden bewerkt.
 14. Selecteer **Opslaan**.
 15. Sluit de pagina.
 
-    ![Pagina voor ontwerper van ER-modeltoewijzingen.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
+    ![Pagina voor ontwerper van ER-modeltoewijzingen, formule Aangepaste algemene functionaliteit 2.](./media/RCS-Context-specific-mapping-Mapping2Custom.PNG)
 
 16. Selecteer **Opslaan**.
 17. Sluit de pagina.
 
-    ![De pagina ER-modeltoewijzingen ontwerpen.](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
+    ![Pagina ER-model voor gegevensbrontoewijzing voor toewijzing Kopie van toewijzing (algemeen).](./media/RCS-Context-specific-mapping-MappingsCustom.PNG)
 
 18. Sluit de pagina.
 
@@ -432,7 +432,7 @@ U ziet dat conceptversie 1 van deze ER-configuratie kan worden bewerkt.
 7.  Selecteer **Opslaan**.
 8.  Sluit de pagina.
 
-    ![Pagina voor ontwerper van ER-modeltoewijzingen.](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
+    ![Pagina voor ontwerper van ER-modeltoewijzingen, formule FR-functionaliteit 1.](./media/RCS-Context-specific-mapping-Mapping1FR.PNG)
 
 9.  Selecteer **Opslaan**.
 10. Sluit de pagina.
@@ -444,12 +444,12 @@ U ziet dat conceptversie 1 van deze ER-configuratie kan worden bewerkt.
 16. Selecteer **Opslaan**.
 17. Sluit de pagina.
 
-    ![Pagina voor ontwerper van ER-modeltoewijzingen.](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
+    ![Pagina voor ontwerper van ER-modeltoewijzingen, formule FR-functionaliteit 2.](./media/RCS-Context-specific-mapping-Mapping2FR.PNG)
 
 18. Selecteer **Opslaan**.
 19. Sluit de pagina.
 
-    ![De pagina ER-modeltoewijzingen ontwerpen.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
+    ![Pagina ER-model voor gegevensbrontoewijzing.](./media/RCS-Context-specific-mapping-MappingsFR.PNG)
 
 20. Sluit de pagina.
 

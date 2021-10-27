@@ -1,8 +1,8 @@
 ---
 title: Overzicht van Financiële consolidaties en valutaomzetting
 description: Dit onderwerp beschrijft financiële consolidaties en valutaomrekening in het grootboek.
-author: aprilolson
-ms.date: 07/25/2019
+author: jiwo
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0df16db842c159b4db469139a0b5463a82e3fe07b4e23f8f7cf0272caaf23602
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9ec8e6a371f08ad7eab0d133e1b71861943274e
+ms.sourcegitcommit: f76fecbc28c9a6048366e8ead70060b1f5d21a97
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748975"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7615930"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Overzicht van Financiële consolidaties en valutaomzetting
 
@@ -182,5 +182,17 @@ Hier volgen enkele consolidatiescenario's die in Financiële rapportage worden o
 ## <a name="generating-consolidated-financial-statements"></a>Geconsolideerde financiële overzichten genereren
 Zie voor informatie over scenario's waarin u mogelijk geconsolideerde financiële overzichten genereert [Geconsolideerde financiële overzichten genereren](./generating-consolidated-financial-statements.md).
 
+## <a name="performance-enhancement-for-large-consolidations"></a>Prestatieverbetering voor grote consolidaties
+
+Omgevingen met veel grootboektransacties kunnen trager worden uitgevoerd dan optimaal is. U kunt dit probleem oplossen door een parallelle verwerking van batches in te stellen waarbij een door de gebruiker gedefinieerd aantal datums wordt gebruikt. Om er zeker van te zijn dat de oplossing werkt zoals bedoeld, voegt u een uitbreidingspunt aan de consolidatie toe om een container met datumbereiken te retourneren. De basisimplementatie moet één datumbereik bevatten voor de begin- en einddatum van de consolidatie. Datumbereiken in de basisuitvoering worden gevalideerd om te voorkomen dat er sprake van hiaten of overlapping is. De datumbereiken worden gebruikt om parallelle batchbundels voor elk bedrijf te maken.
+
+U kunt het aantal datumbereiken aanpassen om aan de behoeften van uw organisatie te voldoen. Door het aantal datumbereiken aan te passen, kunt u het testen vereenvoudigen en de invloed op bestaande code beperken omdat er geen toewijzingslogica is. De enige nieuwe tests die vereist zijn, valideren het maken van batchbundels, valideren datumbereiken en testen een subset van datumbereiken om te controleren of de batches samen kunnen worden gebracht voor de laatste batchtaak. 
+
+Door deze functie wordt het consolidatieproces in Grootboek verbeterd wanneer het proces in een batch wordt uitgevoerd. De verbetering verbetert de prestaties van het grootboekconsolidatieproces door de consolidatie op te splitsen in meerdere taken die parallel kunnen worden verwerkt. In de standaardmethode voor het uitvoeren van een consolidatie verwerkt elke taak acht dagen aan grootboekactiviteit. Er is echter een uitbreidingspunt toegevoegd waarmee u het gemaakte aantal taken kunt aanpassen.
+
+Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied **Functiebeheer** gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
+
+- **Module:** Grootboek
+- **Functienaam:** Prestatieverbetering voor grote consolidaties
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

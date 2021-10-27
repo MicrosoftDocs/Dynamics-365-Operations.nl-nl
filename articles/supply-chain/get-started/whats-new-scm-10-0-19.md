@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 7c8994a11c9d1d90fd8b66b17900248f941e307b
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 0b39c3eee84a66082f1785f7f4d8a6d7dd96b63d
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579779"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7638465"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management versie 10.0.19 (juni 2021)
 
@@ -50,7 +50,7 @@ In de volgende tabel worden de functieverbeteringen weergegeven die deze versie 
 
 | Functiegebied | Functie&nbsp;naam&nbsp;in Functie&nbsp;beheer | Meer informatie |
 |---|---|---|
-| Verkoopbeheer en marketing | Prestatieverbeteringen voor de opschoning van verkoophistorie | Opschoning van verkoophistorie kan veel tijd kosten als dit niet vaak in omgevingen wordt uitgevoerd met veel verkoopupdates. Om de duur te beperken en de betrouwbaarheid te verbeteren, wordt de opschoning opgesplitst in batches die maar een beperkte tijd worden uitgevoerd. Waar mogelijk wordt gebruik gemaakt van databasemogelijkheden om vergrendeling tot een minimum te beperken en samenvoeging van transactietabellen tijdens opschonen te voorkomen. |
+| Verkoopbeheer en marketing | Prestatieverbeteringen voor de opschoning van verkoophistorie | Opschoning van verkoophistorie kan veel tijd kosten als dit niet vaak in omgevingen wordt uitgevoerd met veel verkoopupdates. Om de duur te beperken en de betrouwbaarheid te verbeteren, wordt de opschoning opgesplitst in batches die maar een beperkte tijd worden uitgevoerd. Waar mogelijk wordt gebruik gemaakt van databasemogelijkheden om vergrendeling tot een minimum te beperken en samenvoeging van transactietabellen tijdens opschonen te voorkomen. Zie [Prestatieverbeteringen voor de opschoning van verkoophistorie](../sales-marketing/sales-update-history-cleanup-performance-improvements.md) voor meer informatie. |
 | Verkoopbeheer en marketing | Aangevraagde ontvangstdatum bijwerken met bevestigde datum voor intercompany-orders | Met deze functie kunt u bepalen wat er gebeurt met de veldwaarden voor verkoop- en inkoopdatums bij het gebruik van directe intercompany-leveringen. U kunt kiezen of de aangevraagde datums worden bijgewerkt of dat u deze wilt overslaan. Als u de update overslaat, geven de gevraagde datums aan waar de klant om heeft gevraagd. Als u bijwerken inschakelt, geven de aangevraagde datums (wanneer de leveringsdatumcontrole wordt gebruikt) alleen aan wat de klant heeft aangevraagd. Met de leveringsdatumcontrole wordt, wanneer deze verschilt van *Geen*, wat oorspronkelijk is aangevraagd vervangen. U kunt deze optie instellen met de nieuwe instelling **Gevraagde ontvangstdatum bijwerken met bevestigde datum** in de instellingen van de intercompany-leverancier of -klant.<br><br>Als de functie is uitgeschakeld, wordt de aangevraagde ontvangstdatum op de oorspronkelijke verkooporders overschreven op basis van de controleregel voor de leveringsdatum, maar blijft de aangevraagde verzenddatum ongewijzigd. |
 | Magazijnbeheer | Hoeveelheden afronden naar dichtstbijzijnde verkoopeenheid bij vrijgave aan magazijn | Met deze functie wordt een optie toegevoegd waarmee u orderhoeveelheden bij vrijgave aan het magazijn kunt beperken. Wanneer deze functie is ingeschakeld, worden orderhoeveelheden naar beneden afgerond naar de dichtstbijzijnde hele verkoopeenheid en worden orders met hoeveelheden van minder dan één verkoopeenheid afgewezen voor vrijgave. |
 | Magazijnbeheer | Wavemethode Werk maken plannen in de hele organisatie | Bij inschakeling van deze functie wordt de wavemethode *Werk maken plannen* geconfigureerd om parallel te worden uitgevoerd voor alle rechtspersonen. Er wordt ook een aantal extra instellingen beïnvloed. Zie [Het maken van werk plannen tijdens wave](../warehousing/configure-wave-schedule-work-creation.md) voor de volledige details. |

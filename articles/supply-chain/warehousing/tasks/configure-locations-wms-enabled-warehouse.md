@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e4e3322bbeb64472bdcd27f9ff571fe45ef87d1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
+ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574108"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599343"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Locaties in een WMS-magazijn configureren
 
@@ -33,7 +33,7 @@ Deze begeleiding toont hoe u de locatie-instelling configureert voor een nieuw W
 2. Klik op **Nieuw**.
 3. Typ een waarde in het veld **Magazijn**.
 4. Typ een waarde in het veld **Naam**.
-5. Typ een waarde in het veld **Locatie**.
+5. Selecteer of typ een bestaande locatiewaarde in het veld **Locatie**.
 6. Vouw de sectie **Magazijn** uit.
 7. Stel de optie **Magazijnbeheerprocessen gebruiken** in op Ja. Met deze instelling kunt u geavanceerde magazijnprocessen uitvoeren met magazijnwerk en mobiele apparaten.
 8. Sluit de pagina.

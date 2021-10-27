@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
+ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488078"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7644522"
 ---
 # <a name="provision-human-resources"></a>Human Resources inrichten
 
@@ -49,7 +49,7 @@ Proefomgevingen zijn niet bedoeld als productieomgevingen. Proefomgevingen zijn 
 Bij het aanmaken van een testomgeving voor Human Resources wordt ook een testomgeving aangemaakt voor Power Apps voor de tenant, die wordt gekoppeld aan de Human Resources-omgeving. De Power Apps-omgeving, met de naam TestDrive, heeft dezelfde testperiode als de Human Resources-omgeving.
 
 > [!NOTE]
-> Het inrichten van een testomgeving voor Human Resources mislukt als de geverifieerde gebruiker niet over machtigingen voor het aanmaken van testomgevingen voor Power Apps beschikt. De gebruiker moet zijn opgenomen in de gebruikersgroep die testomgevingen kan aanmaken in het Power Platform-beheercentrum. Raadpleeg [Beheren wie omgevingen in het Power Platform-beheercentrum kan aanmaken](//power-platform/admin/control-environment-creation) voor meer informatie.
+> Het inrichten van een testomgeving voor Human Resources mislukt als de geverifieerde gebruiker niet over machtigingen voor het aanmaken van testomgevingen voor Power Apps beschikt. De gebruiker moet zijn opgenomen in de gebruikersgroep die testomgevingen kan aanmaken in het Power Platform-beheercentrum. Raadpleeg [Beheren wie omgevingen in het Power Platform-beheercentrum kan aanmaken](/power-platform/admin/control-environment-creation) voor meer informatie.
 
 ## <a name="plan-human-resources-environments"></a>Human Resources-omgevingen plannen
 

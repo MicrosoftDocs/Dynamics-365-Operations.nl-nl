@@ -1,8 +1,8 @@
 ---
 title: Coupons voor detailhandelverkoop instellen
-description: In dit onderwerp vindt u een overzicht van coupons en uitleg over hoe u deze instelt.
-author: scott-tucker
-ms.date: 06/04/2020
+description: In dit onderwerp vindt u een overzicht van coupons en uitleg over hoe u deze instelt in Dynamics 365 Commerce.
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bc79970528e23397b756fa15a715fba834edcc06e4522c6c35b64aede4976300
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745303"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603118"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Coupons voor detailhandelverkoop instellen
 
@@ -40,6 +40,8 @@ Om een coupon te maken, maakt u de korting en de coupon afzonderlijk. U koppelt 
 > Nadat een coupon is gekoppeld aan een korting, worden verschillende velden op de kortingspagina in Commerce alleen-lezen, omdat deze worden beheerd door de instellingen van de coupon. Deze velden zijn de velden voor de status en de standaarddatumbereiken.
 > 
 > Wanneer u de coupon in het callcenterkanaal gebruikt, moet u de knop **Opnieuw berekenen** selecteren **(tabblad Verkopen > Berekenen > Herberekenen)** om de korting die aan het coupon is gekoppeld, toe te staan. Deze extra stap wordt in een toekomstige versie verwijderd.
+
+Als u een coupon wilt toepassen op een verkooptransactie in POS, kunt u **Couponcode** of **Streepjescode van coupon** gebruiken. Als u de **couponcode** wilt gebruiken, moet de bewerking **Couponcode toevoegen** worden geconfigureerd in de [schermindeling](pos-screen-layouts.md) **Transactie** van POS. Selecteer **Couponcode toevoegen** en voer de couponcode in. Als u **Streepjescode van coupon** wilt gebruiken, scant u de streepjescode of voert u de streepjescode in met het numerieke toetsenbord in het scherm **Transactie**.
 
 ### <a name="limited-use-coupons"></a>Coupons met gebruiksbeperkingen
 

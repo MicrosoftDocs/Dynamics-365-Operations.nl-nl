@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 28fea4a09d7c105096859495d9b4a43f4c86c834184809827fe77ce1bbff5b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: baa3cab78574ac3779aaea000f0b2b88ff625c37
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749819"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605250"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>De parameters van een ER-indeling per rechtspersoon instellen
 
@@ -58,8 +58,6 @@ U kunt het ER-raamwerk gebruiken voor het instellen van toepassingsspecifieke pa
 1.  Selecteer de rechtspersoon **DEMF**.
 2.  Selecteer de indeling **Indeling voor het opzoeken van LE-gegevens** in de configuratiestructuur.
 3.  Selecteer in het actievenster op het tabblad **Configuraties** in de groep **Specifieke toepassingsparameters** de optie **Instellen**.
-
-    ![De ER-pagina Specifieke toepassingsparameters.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     Op de pagina **Specifieke toepassingsparameters** kunt u de regels voor de gegevensbron **Selector** van de indeling **Indeling voor het opzoeken van LE-gegevens** configureren.
     
@@ -75,14 +73,14 @@ U kunt het ER-raamwerk gebruiken voor het instellen van toepassingsspecifieke pa
 
     De zoekopdracht bevat de lijst met belastingcodes voor selectie. Deze lijst wordt geretourneerd door de gegevensbron **Model.Data.Tax** die is geconfigureerd in de ER-basisindeling. Omdat deze gegevensbron het veld **Naam** bevat, wordt de naam van elke belastingcode weergegeven in de zoek opdracht.
 
-    ![De ER-pagina Specifieke toepassingsparameters.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![De ER-pagina Specifieke toepassingsparameters, zoeken in het veld Code.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  Selecteer de belastingcode **VAT19**.
 8.  Selecteer in het veld **Zoekresultaat** van de nieuwe record de vervolgkeuzepijl om de zoekopdracht te openen. De lijst met waarden voor de indelingsopsomming TaxationLevel voor selectie wordt weergegeven.
 
     Als u Duits hebt geselecteerd als de voorkeurstaal van de gebruiker waarmee u bent aangemeld, worden de labels van de waarden in de zoekopdracht in het Duits weer gegeven, op voorwaarde dat deze zijn vertaald in de ER-basisindeling. Als het label van een gegevensbron voor opzoeken is vertaald, wordt dit label ook weergegeven in de voorkeurstaal van de gebruiker op het tabblad **Zoekopdrachten**.
 
-    ![De ER-pagina Specifieke toepassingsparameters.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![De ER-pagina Specifieke toepassingsparameters, zoekresultaten die worden weergegeven in de voorkeurstaal Duits.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  Selecteer de waarde **Normale belasting**.
 
@@ -120,7 +118,7 @@ U kunt het ER-raamwerk gebruiken voor het instellen van toepassingsspecifieke pa
     
     Door deze laatste record toe te voegen, definieert u de volgende regel: wanneer de gegevensbron die als een argument wordt doorgegeven, niet voldoet aan een van de vorige regels, wordt voor de gegevensbron voor opzoeken **Overig** geretourneerd als het aangevraagde belastingniveau.
 
-    ![De ER-pagina Specifieke toepassingsparameters.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![De ER-pagina Specifieke toepassingsparameters, sneltabblad Voorwaarden met laatste record Overig.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. Selecteer **Voltooid** in het veld **Status**.
 
@@ -160,7 +158,7 @@ U kunt het ER-raamwerk gebruiken voor het instellen van toepassingsspecifieke pa
 
     De zoekopdracht bevat nu de lijst met belastingcodes die kunnen worden geselecteerd voor het bedrijf **USMF**.
 
-    ![De ER-pagina Specifieke toepassingsparameters.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![De ER-pagina Specifieke toepassingsparameters, zoekopdracht in veld Code met lijst met belastingcodes voor het bedrijf USMF.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  Selecteer de belastingcode **VRIJSTELLING**.
 9.  Selecteer de waarde **Geen belasting** in het veld **Zoekresultaat** van de nieuwe record.
@@ -225,13 +223,13 @@ In het vorige voorbeeld hebt u via het ER-raamwerk toegang gekregen tot toepassi
 
 1.  Gebruik een bestaand menu-item **ERSolutionAppSpecificParametersDesigner** of implementeer uw eigen menu-item **ERSolutionAppSpecificParametersDesigner**.
 
-    ![Visual Studio-pagina.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Visual Studio-pagina, eigenschappenvenster.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  Volg één van deze stappen:
 
     1.  Maak een nieuwe menu-itemknop en koppel deze aan de bijbehorende record in de tabel **ERSolutionTable** door de eigenschap **Gegevensbron** in te stellen op **ERSolutionTable**.
     
-        ![Visual Studio-pagina.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Visual Studio-pagina, ontwerpvensters.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Maak een eenvoudige knop en negeer de methode **Geklikt**, zoals wordt weer gegeven in het volgende voorbeeld.
     

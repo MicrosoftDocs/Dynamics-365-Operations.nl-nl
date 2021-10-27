@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 59b2cc1dae5774322d47f76e1213f0e8c8a0b8b244a68c113e34484c1e59b209
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 395282eb267e7e356fca6087f99c6f193741ac9d
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767213"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605152"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Gebruikers toestaan om een ER-indelingsverwijzing in te stellen die informatie opvraagt uit de algemene opslagplaats
 
@@ -34,27 +34,27 @@ Wanneer u bijvoorbeeld [parameters voor de buitenlandse handel](../../../finance
 
 Dit opzoekveld is leeg als het huidige Finance-exemplaar geen aan het Intrastat-bedrijfsproces gerelateerde ER-indelingen bevat.
 
-[![Pagina Parameters buitenlandse handel.](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
+[![Pagina Parameters buitenlandse handel, leeg veld Rapportindelingstoewijzing.](./media/ER-ExtLookup-Lookup1.gif)](./media/ER-ExtLookup-Lookup1.gif)
 
 Dit opzoekveld biedt de ER-indelingen als het huidige Finance-exemplaar aan het Intrastat-bedrijfsproces gerelateerde ER-indelingen bevat.
 
-[![Pagina Parameters buitenlandse handel.](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
+[![Pagina Parameters buitenlandse handel, veld Rapportindelingstoewijzing met opties.](./media/ER-ExtLookup-Lookup2.png)](./media/ER-ExtLookup-Lookup2.png)
 
 Deze zoekactie biedt alleen de ER-indelingen die al zijn geïmporteerd naar de huidige Finance-instantie. Als u ER-oplossingen wilt [importeren](./tasks/er-import-configuration-lifecycle-services.md) in het huidige Finance-exemplaar, moet u over machtigingen beschikken om de juiste functie van het ER-raamwerk uit te voeren die de [levenscyclus](general-electronic-reporting-manage-configuration-lifecycle.md) ondersteunt van ER-oplossingen die ER-indelingen bevatten.
 
 Vanaf de Finance-versie 10.0.9 (april 2020 release) is de gebruikersinterface van de zoekopdracht voor ER-indelingen die is geïmplementeerd met behulp van de ER-raamwerk-API, uitgebreid. U kunt nog steeds de bestaande ER-indelingen selecteren, die u vindt op het sneltabblad **Indelingsconfiguratie selecteren**. Daarnaast bevat de uitgebreide zoekfunctie de nieuwe optie voor het doorzoeken van de algemene opslagplaats (GR) om specifieke ER-indelingen te zoeken. Op het sneltabblad **Importeren vanuit algemene opslagplaats** worden alle ER-indelingen van de GR aangeboden.
 
-[![Pagina Parameters buitenlandse handel.](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
+[![Pagina Parameters buitenlandse handel, sneltabblad Importeren vanuit algemene opslagplaats.](./media/ER-ExtLookup-Lookup3.png)](./media/ER-ExtLookup-Lookup3.png)
 
 Vergelijkbaar met het sneltabblad **Indelingsconfiguratie selecteren** bevat het sneltabblad **Importeren uit algemene opslagplaats** alleen de ER-indelingen die van toepassing zijn op het bedrijfsproces waarvoor een ER-indeling is geselecteerd in dit opzoekveld. In dit voorbeeld wordt de Intrastat-aangifte gegenereerd. De ER-indeling is van toepassing op het bedrijf waarbij de gebruiker momenteel is aangemeld, afhankelijk van de bedrijfslandcontext.
 
 Wanneer u een ER-indeling selecteert op het sneltabblad **Importeren uit algemene opslagplaats**, wordt de geselecteerde ER-indelings[configuratie](general-electronic-reporting.md#Configuration) geïmporteerd van de GR naar de huidige Finance-instantie.
 
-[![Pagina Parameters buitenlandse handel.](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
+[![Pagina Parameters buitenlandse handel, bericht Bezig met verwerken.](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
 Als de import is voltooid, wordt de verwijzing naar de geïmporteerde ER-indeling in dit opzoekveld opgeslagen. Wanneer u de GR voor de eerste keer opent, moet u de geboden koppeling volgen om u aan te melden voor de [Regulatory Configuration Service](https://aka.ms/rcs) (RCS) die wordt gebruikt om de toegang tot de GR-opslag te beheren.
 
-[![Pagina Parameters buitenlandse handel.](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
+[![Pagina Parameters buitenlandse handel, koppeling om u aan te melden voor RCS.](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Standaard bevat het sneltabblad **Importeren uit algemene opslagplaats** de lijst met ER-indelingen van de tijdelijke opslag die automatisch wordt gemaakt op basis van de GR-inhoud, voor betere prestaties. Dit is het geval wanneer het sneltabblad **Importeren uit algemene opslagplaats** de eerste keer wordt geopend. Dit kan enkele seconden duren.
 

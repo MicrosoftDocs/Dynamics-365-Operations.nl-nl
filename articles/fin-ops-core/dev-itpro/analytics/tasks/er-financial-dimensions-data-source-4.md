@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3bf58ec746fedb046b6014f5343d4ac92c2e6aba72882dec5b1f737aa1aaae46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f14be560ab014224e32169b4ac97682a669249b4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743208"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605300"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>ER Financiële dimensies gebruiken als gegevensbron (deel 4: het rapport uitvoeren)
 
@@ -37,16 +37,16 @@ Als u deze stappen wilt uitvoeren, moet u eerst de stappen uitvoeren in de proce
 ![Pagina ER-configuraties.](../media/er-financial-dimensions-guides-run1.png)
 5. Typ of selecteer een waarde in het veld Dimensienaam.
     * Om alle dimensies in het huidige bedrijf te selecteren, typt u het volgende: BusinessUnit;CostCenter;Afdeling; ItemGroup;MainAccount;Project  
-![Pagina ER-configuraties.](../media/er-financial-dimensions-guides-run2.png)
+![Uitschuifvenster Parameters elektronisch rapport, vervolgkeuzelijst Dimensienaam.](../media/er-financial-dimensions-guides-run2.png)
 6. Breid de sectie Op te nemen records uit.
 7. Klik op Filter.
 8. Selecteer de rij voor de tabel Grootboekjournaal en het veld Batchnummer journaal.
 9. Typ 00057 in het veld Criteria.
 10. Klik op OK.
 11. Klik op OK.
-![Pagina ER-configuraties.](../media/er-financial-dimensions-guides-run3.png)
+![Uitschuifvenster Parameters elektronisch rapport, sectie met op te nemen rapporten.](../media/er-financial-dimensions-guides-run3.png)
     * Controleer de gegenereerde uitvoer. Voor elke transactie van de geselecteerde batch worden de financiële dimensies uit de bijbehorende ingestelde dimensies weergegeven. Voer dit rapport uit en selecteer verschillende dimensies om te zien of het rapport niet afhankelijk is van het geselecteerde aantal dimensies of het aantal dimensies dat voor dit exemplaar is geconfigureerd.  
-![Pagina ER-configuraties.](../media/er-financial-dimensions-guides-run4.png)
+![Gegenereerde uitvoer van ER-configuraties.](../media/er-financial-dimensions-guides-run4.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
