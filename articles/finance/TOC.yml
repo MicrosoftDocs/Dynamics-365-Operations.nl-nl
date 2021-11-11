@@ -74,12 +74,12 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.23
+                      href: get-started/whats-new-changed-10-0-23.md
                     - name: Finance 10.0.22 (november 2021)
                       href: get-started/whats-new-changed-10-0-22.md
                     - name: Finance 10.0.21 (oktober 2021)
                       href: get-started/whats-new-changed-10-0-21.md
-                    - name: Finance 10.0.20 (augustus 2021)
-                      href: get-started/whats-new-changed-10-0-20.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -240,6 +240,10 @@
                   href: accounts-payable/auto-vendr-invc-process.md
                 - name: Instellingsopties voor de automatisering van leveranciersfacturering
                   href: accounts-payable/vnd-invoice-set-up-options.md
+                - name: Aanbetalingen automatisch toepassen op overzicht met leveranciersfacturen
+                  href: accounts-payable/apply-prepymnts-overview.md
+                - name: Factuurregels genereren bij het importeren van leveranciersfacturen
+                  href: accounts-payable/auto-create-invc-lines-at-import.md
                 - name: Facturen indienen bij het werkstroomsysteem en productontvangstbonregels koppelen
                   href: accounts-payable/submit-invoice-workflow-automatically.md
                 - name: Resultaten van de automatisering van leveranciersfacturering weergeven
@@ -272,6 +276,8 @@
                   href: accounts-payable/tasks/research-resolve-exceptions.md
             - name: Boekingsprofielen van leverancier
               href: accounts-payable/vendor-posting-profiles.md
+            - name: Datums leveranciersfacturen
+              href: accounts-payable/vendor-invoice-dates.md
             - name: Herwaardering van vreemde valuta voor Leveranciers en Klanten
               href: cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md
             - name: Mobiele factuurgoedkeuringen
@@ -990,6 +996,8 @@
                   href: general-ledger/tasks/create-main-account.md
                 - name: Uw rekeningschema plannen
                   href: general-ledger/plan-chart-of-accounts.md
+                - name: Uw lokale rekeningschema plannen
+                  href: general-ledger/plan-local-chart-of-accounts.md
                 - name: Transacties tussen grootboekrekeningen vereffenen
                   href: general-ledger/tasks/settle-transactions-between-ledger-accounts.md
                 - name: Een alias voor een grootboekrekening instellen
@@ -1104,6 +1112,8 @@
                   href: general-ledger/enable-delayed-tax-calculation.md
                 - name: Een btw-betaling maken
                   href: general-ledger/tasks/create-sales-tax-payment.md
+                - name: Afronding van btw-vereffening op basis van aangepaste decimale posities voor valuta
+                  href: localizations/global-tax-settlement-rounding-based-customized-currency-decimal-places.md
                 - name: Btw-transacties maken in documenten
                   href: general-ledger/tasks/create-sales-tax-transactions-documents.md
                 - name: Groepen boekingen in grootboek instellen voor btw
@@ -1546,6 +1556,8 @@
                           href: localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/finance/toc.json
                         - name: Aan de slag met Elektronische facturering voor Mexico
                           href: localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/finance/toc.json
+                        - name: Aan de slag met Elektronische facturering voor Saoedi-Arabië
+                          href: localizations/e-invoicing-sa-get-started.md
                         - name: De service voor Elektronische facturering gebruiken om leveranciersfacturen te importeren
                           href: localizations/e-invoicing-get-started-import-vendor-invoices.md
                         - name: Elektronische facturering instellen
@@ -1568,6 +1580,8 @@
                           href: localizations/tax-calculation-data-model-overview.md
                         - name: Logica voor toepasselijkheid van btw en het bepalen van btw-groepen
                           href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                        - name: Parameters voor btw-jurisdictie gebruiken voor de berekeningsinstellingen van contantkortingen
+                          href: localizations/global-tax-jurisdiction-cash-discount-setup.md?toc=/dynamics365/finance/toc.json
                     - name: Berekening
                       items:
                         - name: Belasting berekenen over prijzen wanneer Prijzen inclusief belastingen is ingeschakeld
@@ -1594,6 +1608,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: ICL-lijst
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Rapportage voor Spanje
+                          items:
+                            - name: 'Directe levering van informatie over btw (Suministro Inmediato de Información del IVA, SII)'
+                              href: localizations/emea-esp-sii-spain.md
                         - name: Rapportage voor Zweden
                           items:
                             - name: Btw-aangifte
@@ -1604,18 +1622,24 @@
                               href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Rapportage voor Verenigd Koninkrijk
                           items:
-                            - name: Voorbereiden op integratie met MTD voor btw
-                              href: localizations/emea-gbr-mtd-vat-integration.md
+                            - name: Btw-aangifte
+                              href: localizations/emea-gbr-vat-declaration.md
                     - name: Belastingberekening voor transferorder inschakelen
                       items:
                         - name: Ondersteuning voor belastingfunctie voor transferorders
                           href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                        - name: Btw-gegevens afdrukken op transferorderdocumenten
+                          href: localizations/tax-calculation-print-tax-information-on-transfer-order-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Extensie
                       items:
                         - name: Gegevensvelden toevoegen in belastingconfiguraties
                           href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Gegevensvelden in de belastingintegratie toevoegen met extensies
                           href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
+                        - name: Belastingconfiguraties aanpassen voor het opzoeken van hoofdgegevens
+                          href: localizations/customize-tax-configurations-master-data-lookup.md
+                    - name: Veelgestelde vragen over belastingberekening
+                      href: localizations/global-tax-calcuation-service-faq.md?toc=/dynamics365/finance/toc.json
             - name: Wettelijk voorgeschreven updates
               href: localizations/regulatory-updates.md
             - name: Australië
@@ -1684,6 +1708,8 @@
                   href: localizations/emea-bel-prodcom-report.md
                 - name: Jaarlijks btw-overzicht voor binnenlandse verkopen
                   href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
+                - name: Intrastat België
+                  href: localizations/emea-bel-intrastat.md
             - name: Brazilië
               items:
                 - name: Overzicht Brazilië
@@ -2312,6 +2338,8 @@
                   href: localizations/apac-ind-scope.md
                 - name: Nieuwe of gewijzigde functies in de lokalisatie voor India
                   items:
+                    - name: Nieuwe of gewijzigde functies in 10.0.20 - 10.0.22
+                      href: localizations/ind-news-letter-10-0-20-22.md
                     - name: Nieuwe of gewijzigde functies in 10.0.15 - 10.0.19
                       href: localizations/ind-news-letter-10-0-15-19.md
                     - name: Nieuwe of gewijzigde functies in 10.0.14
@@ -2680,11 +2708,17 @@
                           href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
                         - name: Certificaatnummers en -datums bijwerken voor TDS-transacties
                           href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+            - name: Indonesië
+              items:
+                - name: Overzicht Indonesië
+                  href: localizations/indonesia.md
+                - name: Btw-aangifte voor Indonesië
+                  href: localizations/apac-idn-ppn-declaration.md
             - name: Italië
               items:
                 - name: Overzicht Italië
                   href: localizations/italy.md
-                - name: Details btw-overzichten
+                - name: Details btw-aangiftes
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Kwartaalrapport over btw-communicatie
                   href: localizations/emea-ita-quarterly-vat-communication.md
@@ -3024,6 +3058,8 @@
                   href: localizations/emea-nl-audit-file.md
                 - name: Btw-aangifte (Nederland)
                   href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: Intrastat Nederland
+                  href: localizations/emea-nl-intrastat.md
                 - name: ICL-lijst
                   href: localizations/emea-nl-EU-sales-list.md
             - name: Nieuw-Zeeland
@@ -3352,6 +3388,8 @@
                   href: localizations/emea-sau-zakat-reporting.md
                 - name: Bankdocumenttoeslagen aan een zending toewijzen
                   href: localizations/apac-sau-allocate-bank-document-charges-shipment.md
+                - name: Elektronische klantfacturen in Saoedi-Arabië
+                  href: localizations/emea-sau-e-invoices.md
             - name: Singapore
               items:
                 - name: Overzicht Singapore
@@ -3378,6 +3416,8 @@
                   href: localizations/emea-esp-fixed-asset-group-revaluation.md
                 - name: Intracommunautaire btw
                   href: localizations/emea-esp-intra-community-vat.md
+                - name: Spaanse Intrastat
+                  href: localizations/emea-esp-intrastat.md
                 - name: Eenmalige klanten
                   href: localizations/emea-esp-no-one-time-customer-for-project-contracts.md
                 - name: Cheques afdrukken met een Spaanse indeling
@@ -3462,28 +3502,26 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: Btw-groepen instellen voor een omgekeerde toeslag
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Rapportage voor Verenigd Koninkrijk
+                - name: Belasting digitaal maken (MTD) voor btw
                   items:
-                    - name: Belasting digitaal maken (MTD) voor btw
-                      items:
-                        - name: Belasting digitaal maken (MTD) voor btw-aangifte in het Verenigd Koninkrijk
-                          href: localizations/emea-gbr-mtd-vat-integration.md
-                        - name: Uw omgeving voorbereiden om samen te werken met de webservice voor MTD-btw van HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: Controlelijst voor het instellen van elektronische berichten voor MTD-btw
-                          href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: Samenwerking met de btw-sandbox voor MTD testen
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: Finance-omgeving autoriseren om samen te werken met de MTD-webservice van HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: Een btw-aangifte naar de MTD-webservice van HMRC verzenden
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
-                        - name: Gegevens over btw-betalingen en -schulden ophalen van HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
-                        - name: Details van btw-instellingen voor btw-aangiften in het Verenigd Koninkrijk
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
-                        - name: Een btw-aangifte op papier genereren (btw 100-aangifte)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
+                    - name: Belasting digitaal maken (MTD) voor btw-aangifte in het Verenigd Koninkrijk
+                      href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: Uw omgeving voorbereiden om samen te werken met de webservice voor MTD-btw van HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-setup.md
+                    - name: Controlelijst voor het instellen van elektronische berichten voor MTD-btw
+                      href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
+                    - name: Samenwerking met de btw-sandbox voor MTD testen
+                      href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                    - name: Finance-omgeving autoriseren om samen te werken met de MTD-webservice van HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                    - name: Een btw-aangifte naar de MTD-webservice van HMRC verzenden
+                      href: localizations/emea-gbr-mtd-vat-integration-submission.md
+                    - name: Gegevens over btw-betalingen en -schulden ophalen van HMRC
+                      href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                    - name: Details van btw-instellingen voor btw-aangiften in het Verenigd Koninkrijk
+                      href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                    - name: Een btw-aangifte op papier genereren (btw 100-aangifte)
+                      href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Statistieken over rapport met betalingsmethoden
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Verenigde Staten
@@ -3877,6 +3915,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/finance/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/finance/toc.json
+                        - name: ChangeTimeZone
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/finance/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/finance/toc.json
                         - name: DateTimeFormat
@@ -4021,6 +4061,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/finance/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/finance/toc.json
+                        - name: NewGUID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/finance/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/finance/toc.json
                         - name: NumeralsToText
@@ -4421,6 +4463,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                     - name: Toepassingsupdate 10.0.21
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/finance/toc.json
+                    - name: Toepassingsupdate 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/finance/toc.json
                 - name: Een aangepaste opslaglocatie opgeven voor gegenereerde documenten
                   items:
                     - name: Abonneren op een gebeurtenis om een reactie te vragen van een abonneehandler
@@ -4433,6 +4477,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
                 - name: Code wijzigen om gebruikers in staat te stellen de benoemde ER-bestemmingen te configureren en te gebruiken
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/finance/toc.json
+                - name: Een aangepaste ER-bron voor inkomende documenten implementeren
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/finance/toc.json
         - name: Mobiele app
           items:
             - name: Startpagina mobiele app

@@ -96,12 +96,12 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.23
+                      href: get-started/whats-new-commerce-10-0-23.md
                     - name: Commerce 10.0.22 (november 2021)
                       href: get-started/whats-new-commerce-10-0-22.md
                     - name: Commerce 10.0.21 (oktober 2021)
                       href: get-started/whats-new-commerce-10-0-21.md
-                    - name: Commerce 10.0.20 (augustus 2021)
-                      href: get-started/whats-new-commerce-10-0-20.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Startpagina voor verwijderde of afgeschafte functies
@@ -938,6 +938,8 @@
                   href: enable-store-detection.md
                 - name: Digitale geschenkbonnen voor e-commerce
                   href: digital-gift-cards.md
+                - name: Een product configureren dat gratis kan worden aangeschaft
+                  href: configure-free-product.md
                 - name: Browservereisten voor Dynamics 365 Commerce-sites
                   href: browser-requirements.md
             - name: Overzicht van voorbeeldsite
@@ -1518,6 +1520,8 @@
           items:
             - name: Overzicht van elektronische rapportage
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/commerce/toc.json
+            - name: Onderdelen van elektronische rapportage
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/commerce/toc.json
             - name: Configuraties
               items:
                 - name: Configuraties maken
@@ -1582,6 +1586,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-datetime.md?toc=/dynamics365/commerce/toc.json
                         - name: AddDays
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-adddays.md?toc=/dynamics365/commerce/toc.json
+                        - name: ChangeTimeZone
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-changetimezone.md?toc=/dynamics365/commerce/toc.json
                         - name: DateFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-dateformat.md?toc=/dynamics365/commerce/toc.json
                         - name: DateTimeFormat
@@ -1726,6 +1732,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-lower.md?toc=/dynamics365/commerce/toc.json
                         - name: Mid
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-mid.md?toc=/dynamics365/commerce/toc.json
+                        - name: NewGUID
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-newguid.md?toc=/dynamics365/commerce/toc.json
                         - name: NumberFormat
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-numberformat.md?toc=/dynamics365/commerce/toc.json
                         - name: NumeralsToText
@@ -1832,12 +1840,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/commerce/toc.json
             - name: ER-indelingen ontwerpen voor het genereren van uitgaande documenten in verschillende indelingen
               items:
+                - name: Een configuratie ontwerpen voor het genereren van rapporten in OPENXML-indeling
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
                 - name: Ontwerpconfiguraties om uitgaande documenten te genereren in Excel-indeling
                   items:
                     - name: Een configuratie ontwerpen voor het genereren van documenten in Excel-indeling
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/commerce/toc.json
-                    - name: Voorbeeld van het genereren van rapporten in OPENXML-indeling
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/commerce/toc.json
                     - name: ER-indelingen wijzigen door Excel-sjablonen opnieuw toe te passen
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/commerce/toc.json
                     - name: Kolommen dynamisch toevoegen aan Excel-rapporten als horizontaal uitbreidbare bereiken
@@ -1846,6 +1854,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/commerce/toc.json
                         - name: Indelingen uitvoeren om kolommen dynamisch toe te voegen aan Excel-rapporten
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/commerce/toc.json
+                    - name: Een ER-indeling ontwerpen om gegenereerde documenten in Excel te pagineren
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Configuraties ontwerpen om rapporten in Word-indeling te genereren
                   items:
                     - name: Een nieuwe ER-configuratie ontwerpen om rapporten in Word-indeling te genereren
@@ -1868,6 +1878,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/commerce/toc.json
                         - name: Rapporten genereren in Office-indelingen met ingesloten afbeeldingen
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/commerce/toc.json
+                    - name: Een ER-indeling ontwerpen om een rapport in Excel te genereren met ingesloten afbeeldingen in paginakopteksten of -voetteksten
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/commerce/toc.json
                 - name: Gegenereerde XML-bestanden splitsen op basis van bestandsgrootte en hoeveelheid inhoud
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/commerce/toc.json
                 - name: Stuklijsttekens onderdrukken in gegenereerde bestanden
@@ -2004,8 +2016,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-data-collection-data-sources.md?toc=/dynamics365/commerce/toc.json
                     - name: Foutopsporing in gegevensbronnen
                       href: ../fin-ops-core/dev-itpro/analytics/er-debug-data-sources.md?toc=/dynamics365/commerce/toc.json
-                    - name: Streepjescode gebruiken om afbeeldingen met streepjescode te genereren
-                      href: ../fin-ops-core/dev-itpro/analytics/er-barcode-data-sources.md?toc=/dynamics365/commerce/toc.json
                 - name: Modeltoewijzingen configureren
                   items:
                     - name: ER-modeltoewijzingen configureren afhankelijk van landencontext
@@ -2123,19 +2133,23 @@
                     - name: Toepassingsupdate 10.0.19
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/commerce/toc.json
                     - name: Toepassingsupdate 10.0.21
-                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.jso
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-21.md?toc=/dynamics365/commerce/toc.json
+                    - name: Toepassingsupdate 10.0.23
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-23.md?toc=/dynamics365/commerce/toc.json
                 - name: Een aangepaste opslaglocatie opgeven voor gegenereerde documenten
                   items:
                     - name: Abonneren op een gebeurtenis om een reactie te vragen van een abonneehandler
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/commerce/toc.json
                     - name: Het maken van een ER-bestemming delegeren aan een aangepaste bestemmingsfabriek
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/commerce/toc.json
-                - name: Een aangepaste bestemming implementeren voor gegenereerde documenten
-                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
+                    - name: Een aangepaste bestemming implementeren voor gegenereerde documenten
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/commerce/toc.json
                 - name: Gegevensbronwaarden van het type USER INPUT PARAMETER starten vanuit broncode
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/commerce/toc.json
                 - name: Code wijzigen om gebruikers in staat te stellen de benoemde ER-bestemmingen te configureren en te gebruiken
                   href: ../fin-ops-core/dev-itpro/analytics/er-api-named-destinations.md?toc=/dynamics365/commerce/toc.json
+                - name: Een aangepaste ER-bron voor inkomende documenten implementeren
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-source.md?toc=/dynamics365/commerce/toc.json
         - name: De mobiele app Finance and Operations (Dynamics 365)
           items:
             - name: Startpagina mobiele app

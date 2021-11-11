@@ -14,12 +14,12 @@
               items:
                 - name: Startpagina voor nieuwe of gewijzigde functies in Platform updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates voor versie 10.0.23
+                  href: get-started/whats-new-platform-updates-10-0-23.md
                 - name: Platform updates voor versie 10.0.22 (november 2021)
                   href: get-started/whats-new-platform-updates-10-0-22.md
-                - name: Platformupdates voor versie 10.0.21 (oktober 2021)
+                - name: Platform updates voor versie 10.0.21 (oktober 2021)
                   href: get-started/whats-new-platform-updates-10-0-21.md
-                - name: Platformupdates voor versie 10.0.20 (augustus 2021)
-                  href: get-started/whats-new-platform-updates-10-0-20.md
             - name: Verwijderde of afgeschafte functies
               items:
                 - name: Startpagina voor verwijderde of afgeschafte functies
@@ -32,42 +32,6 @@
               href: ../fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Einde van basisondersteuning voor Microsoft Dynamics AX 2009 en 2012
               href: ../fin-ops/get-started/mainstream-support-ax-2009-2012.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
-        - name: Zakelijke gebeurtenissen
-          items:
-            - name: Overzicht van Zakelijke gebeurtenissen
-              href: business-events/home-page.md
-            - name: Zakelijke gebeurtenissen voor toepassingen
-              href: business-events/app-business-events.md
-            - name: Zakelijke gebeurtenissen voor werkstromen
-              href: business-events/business-events-workflow.md
-            - name: Zakelijke gebeurtenissen in batch
-              href: business-events/system-business-events.md
-            - name: Waarschuwingen als zakelijke gebeurtenissen
-              href: business-events/alerts-business-events.md
-            - name: Zakelijke gebeurtenissen in Microsoft Flow
-              href: business-events/business-events-flow.md
-            - name: Documentatie voor ontwikkelaars van zakelijke gebeurtenissen
-              href: business-events/business-events-dev-doc.md
-            - name: Problemen met zakelijke gebeurtenissen oplossen
-              href: business-events/troubleshooting.md
-            - name: Cases voor zakelijke gebeurtenissen gebruiken
-              href: business-events/potential-use-cases.md
-            - name: Zelfstudies
-              items:
-                - name: Zakelijke gebeurtenissen en Microsoft Flow
-                  href: business-events/how-to/how-to-flow.md
-                - name: Zakelijke gebeurtenissen en Azure Event Grid
-                  href: business-events/how-to/how-to-eventgrid.md
-                - name: Zakelijke gebeurtenissen en Azure Service Bus
-                  href: business-events/how-to/how-to-servicebus.md
-                - name: Zakelijke gebeurtenissen en werkstroomgoedkeuringen
-                  href: business-events/how-to/how-to-workflow.md
-                - name: Zakelijke gebeurtenissen en Microsoft Forms Pro
-                  href: business-events/how-to/FormsPro.md
-                - name: Zakelijke gebeurtenissen en Azure Event Hubs
-                  href: business-events/how-to/event-hub.md
-                - name: Zakelijke gebeurtenissen bij afsluiten van financiële periode
-                  href: business-events/how-to/period-close.md
         - name: Continue levering
           items:
             - name: Startpagina van Continue levering
@@ -592,7 +556,7 @@
               items:
                 - name: Ondersteuning voor X++-taal
                   items:
-                    - name: Vereisten in Visual Studio 2017 voor X++
+                    - name: Vereisten in Visual Studio voor X++
                       href: dev-tools/developer-tools-vs2017.md
                     - name: Foutopsporing in X++-code
                       href: dev-tools/debug-xpp.md
@@ -606,6 +570,8 @@
                       href: dev-tools/author-best-practice-rules.md
                     - name: Eigenschappen van Toepassingsverkenner
                       href: dev-ref/application-explorer-aot-properties.md
+                    - name: Kenmerk SysSetupConfigAttribute
+                      href: dev-tools/syssetupconfigattribute.md
                 - name: X++-taalreferentie
                   items:
                     - name: Overzicht van X++-taalreferentie
@@ -1034,10 +1000,14 @@
                   href: lifecycle-services/use-translation-service-ua.md
                 - name: Bestanden van vertaalgeheugen
                   href: lifecycle-services/use-translation-service-tm.md
-        - name: Integratie met Microsoft Power Platform
+        - name: Integratie van Microsoft Power Platform
           items:
             - name: Integratie van Microsoft Power Platform met Finance and Operations
               href: power-platform/overview.md
+            - name: De integratie met Power Platform inschakelen
+              href: power-platform/enable-power-platform-integration.md
+            - name: Verificatie en autorisatie
+              href: power-platform/authentication-and-authorization.md
             - name: Twee keer wegschrijven
               items:
                 - name: Startpagina voor Twee keer wegschrijven
@@ -1082,8 +1052,10 @@
                       href: data-entities/dual-write/custom-best-practices.md
                     - name: Meerdere entiteitstoewijzingen verwerken
                       href: data-entities/dual-write/multiple-entity-maps.md
-                    - name: Een rechtspersoon bewerken na instelling van twee keer wegschrijven
+                    - name: Een rechtspersoon bewerken na instellen van Twee keer wegschrijven
                       href: data-entities/dual-write/edit-legal-entity.md
+                    - name: Onderbreking van Twee keer wegschrijven voor onderhoud
+                      href: data-entities/dual-write/pause-for-maintenance.md
                     - name: Foutbeheer en waarschuwingsmeldingen
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Levenscyclusbeheer voor toepassing
@@ -1176,6 +1148,8 @@
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
                         - name: Configuratie van twee keer wegschrijven in Finance and Operations-apps en Dataverse verifiëren
                           href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Foutcodes voor de statuscontrole van de tabeltoewijzing
+                          href: data-entities/dual-write/table-map-health-check.md
                 - name: Veelgestelde vragen over Twee keer wegschrijven
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Virtuele entiteiten
@@ -1186,12 +1160,52 @@
                   href: power-platform/entity-modeling.md
                 - name: Levenscyclusbeheer voor toepassing
                   href: power-platform/application-lifecycle-management.md
-                - name: Beheerdersreferentie voor Finance and Operations en Dataverse
+                - name: Virtuele Dataverse-entiteiten configureren
                   href: power-platform/admin-reference.md
+                - name: Virtuele Dataverse-entiteiten inschakelen
+                  href: power-platform/enable-virtual-entities.md
                 - name: Power Apps-portals met Finance and Operations
                   href: power-platform/power-portal-reference.md
                 - name: Veelgestelde vragen over virtuele Finance and Operations-entiteiten
                   href: power-platform/faq.md
+            - name: Zakelijke gebeurtenissen
+              items:
+                - name: Overzicht van Zakelijke gebeurtenissen
+                  href: business-events/home-page.md
+                - name: Zakelijke gebeurtenissen voor toepassingen
+                  href: business-events/app-business-events.md
+                - name: Zakelijke gebeurtenissen voor werkstromen
+                  href: business-events/business-events-workflow.md
+                - name: Zakelijke gebeurtenissen in batch
+                  href: business-events/system-business-events.md
+                - name: Waarschuwingen als zakelijke gebeurtenissen
+                  href: business-events/alerts-business-events.md
+                - name: Gegevensgebeurtenissen
+                  href: business-events/data-events.md
+                - name: Zakelijke gebeurtenissen in Power Automate
+                  href: business-events/business-events-flow.md
+                - name: Documentatie voor ontwikkelaars van zakelijke gebeurtenissen
+                  href: business-events/business-events-dev-doc.md
+                - name: Problemen met zakelijke gebeurtenissen oplossen
+                  href: business-events/troubleshooting.md
+                - name: Cases voor zakelijke gebeurtenissen gebruiken
+                  href: business-events/potential-use-cases.md
+                - name: Zelfstudies
+                  items:
+                    - name: Zakelijke gebeurtenissen en Power Automate
+                      href: business-events/how-to/how-to-flow.md
+                    - name: Zakelijke gebeurtenissen en Azure Event Grid
+                      href: business-events/how-to/how-to-eventgrid.md
+                    - name: Zakelijke gebeurtenissen en Azure Service Bus
+                      href: business-events/how-to/how-to-servicebus.md
+                    - name: Zakelijke gebeurtenissen en werkstroomgoedkeuringen
+                      href: business-events/how-to/how-to-workflow.md
+                    - name: Zakelijke gebeurtenissen en Microsoft Forms Pro
+                      href: business-events/how-to/FormsPro.md
+                    - name: Zakelijke gebeurtenissen en Azure Event Hubs
+                      href: business-events/how-to/event-hub.md
+                    - name: Zakelijke gebeurtenissen bij afsluiten van financiële periode
+                      href: business-events/how-to/period-close.md
             - name: Invoegtoepassingen
               items:
                 - name: Overzicht van invoegtoepassingen
@@ -1582,6 +1596,8 @@
                   href: sysadmin/batch-history-cleanup.md
                 - name: Een uitvoerende batchtaak annuleren
                   href: sysadmin/batch-abort.md
+                - name: OData-API batch
+                  href: sysadmin/batch-odata-api.md
             - name: Optimalisatie-advies
               items:
                 - name: Overzicht van Optimalisatie-advies

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: c395aabfc8705b4713cf1041b5644ac478d8c1a4c4c211334aea3572f1618b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b5ffd86d736cb7b6b5c270663c2b774e14556a6b
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759012"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675173"
 ---
 # <a name="revenue-recognition-setup"></a>Instellingen opbrengsttoerekening
 [!include [banner](../includes/banner.md)]
@@ -26,9 +26,9 @@ ms.locfileid: "6759012"
 Er is een nieuwe module **Opbrengsttoerekening** toegevoegd die menu-items bevat voor alle vereiste instellingen. In dit onderwerp worden de instellingsopties en de implicaties ervan beschreven.
 
 > [!NOTE]
-> De functie voor opbrengsttoerekening kan niet worden ingeschakeld via Functiebeheer. Momenteel moet u configuratiesleutels gebruiken om deze functie in te schakelen.
-
-> Opbrengsttoerekening, inclusief bundelfunctionaliteit, wordt niet ondersteund voor gebruik in Commerce-kanalen (e-commerce, POS, callcenter). Artikelen die zijn geconfigureerd met opbrengsttoerekening mogen niet worden toegevoegd aan orders of transacties die zijn gemaakt in Commerce-kanalen.
+> De functie voor opbrengsttoerekening is nu standaard ingeschakeld via Functiebeheer. Als uw organisatie deze functie niet gebruikt, kunt u deze uitschakelen in de werkruimte van **Functiebeheer**.
+>
+> Opbrengsttoerekening, inclusief bundelfunctionaliteit, wordt niet ondersteund in Commerce-kanalen (e-commerce, POS en callcenter). Artikelen die zijn geconfigureerd voor opbrengsttoerekening, mogen niet worden toegevoegd aan orders of transacties die zijn gemaakt in Commerce-kanalen.
 
 De module **Opbrengsttoerekening** bevat de volgende configuratieopties:
 
@@ -40,12 +40,16 @@ De module **Opbrengsttoerekening** bevat de volgende configuratieopties:
     - Artikelgroepen en vrijgegeven producten
     - Opbrengstschema definiëren
     - Opbrengstprijs definiëren
+    - Voorraadinstellingen
 
-        - Boekingsprofielen
-        - Bundels
+        - Opbrengstschema definiëren
+        - Opbrengstprijs definiëren
 
-    - Bundelcomponenten
-    - Bundelartikel
+    - Boekingsprofielen
+    - Bundels
+
+        - Bundelcomponenten
+        - Bundelartikel
 
 - Projectinstellingen
 
@@ -91,20 +95,27 @@ Geef beschrijvende waarden op in de velden **Opbrengstschema** en **Beschrijving
 - **Automatische contractvoorwaarden**: schakel dit selectievakje in als de begin- en einddatum van het contract automatisch moeten worden ingesteld. Deze datums worden automatisch ingesteld voor vrijgegeven producten van het opbrengsttype **Contractondersteuning boeken**. De begindatum van het contract wordt automatisch ingesteld op de gewenste verzenddatum van de verkooporderregel, en de einddatum van het contract wordt automatisch ingesteld op de begindatum plus het aantal maanden of voorvallen dat is gedefinieerd bij de instellingen van het opbrengstschema. Het product op de verkooporderregel heeft bijvoorbeeld een garantieperiode van één jaar. Het standaard opbrengstschema is **12M** (12 maanden) en het selectievakje **Automatische contractvoorwaarden** is voor dit opbrengstschema ingeschakeld. Als de verkooporderregel een gewenste verzenddatum heeft van 16 december 2019, is de begindatum van het contract standaard 16 december 2019 en is de einddatum van het contract standaard 15 december 2020.
 - **Toerekeningsbasis**: de toerekeningsbasis bepaalt hoe de opbrengstprijs wordt toegewezen aan de diverse voorvallen.
 
-    - **Maandelijks op datum**: het bedrag wordt toegewezen op basis van de werkelijke dagen in elke maand.
+    - **Maandelijks op dagen**: het bedrag wordt toegewezen op basis van de werkelijke dagen in elke kalendermaand.
     - **Maandelijks**: het bedrag wordt gelijkmatig verspreid over het aantal maanden dat is gedefinieerd voor de voorvallen.
     - **Voorvallen**: het bedrag wordt gelijkmatig verdeeld over de voorvallen, maar kan een extra periode bevatten als u de **Werkelijke begindatum** als de toerekeningsconventie selecteert.
+    - **Boekperioden op dagen**: het bedrag wordt toegewezen op basis van de werkelijke dagen in elke boekperiode. 
 
-- **Toerekeningsconventie**: de toerekeningsconventie bepaalt de standaarddatums die zijn ingesteld voor het opbrengstschema voor de factuur.
+    De resultaten van **Maandelijks op dagen** en **Boekperiode op dagen** zijn gelijk wanneer de boekperioden de kalendermaanden volgen. De enige uitzondering is wanneer de toerekeningsconventie is ingesteld op **Einde maand/periode** en de velden **Begindatum** en **Einddatum** van het contract leeg zijn op een verkooporderregel.
+
+- **Toerekeningsconventie**: de toerekeningsconventie bepaalt de datums die zijn ingesteld voor het opbrengstschema voor de factuur.
 
     - **Werkelijke begindatum**: het schema wordt gemaakt met de begindatum van het contract (voor PCS-artikelen \[Contractondersteuning boeken\]) of met de factuurdatum (voor essentiële en niet-essentiële artikelen).
-    - **1e van de maand**: de datum op de eerste schemaregel is de begindatum van het contract (of de factuurdatum). Alle volgende schemaregels worden echter voor de eerste van de maand gemaakt.
+    - **1e van maand/periode**: de datum op de eerste schemaregel is de begindatum van het contract (of de factuurdatum). Alle volgende schemaregels worden echter voor de eerste van de maand of boekperiode gemaakt.
     - **Midden maand - gesplitst**: de datum op de eerste schemaregel hangt samen met de factuurdatum. Als de factuur wordt geboekt op een datum tussen de eerste en de vijftiende van de maand, wordt het opbrengstschema gemaakt op basis van de eerste dag van de maand. Als de factuur wordt geboekt op de zestiende van de maand of later, wordt het opbrengstschema gemaakt op basis van de eerste dag van de volgende maand.
-    - **1e van de volgende maand**: de datum op het schema is de eerste dag van de volgende maand.
 
-Selecteer de knop **Details van het schema voor opbrengsttoerekening** om de algemene perioden en percentages weer te geven die in elke periode worden toegerekend. De waarde voor **Percentage toerekenen** wordt standaard verdeeld over het aantal perioden. Als de toerekeningsbasis is ingesteld op **Maandelijks** of **Voorvallen**, kan het toerekeningspercentage worden gewijzigd. Tijdens het wijzigen van het toerekeningspercentage, wordt er een waarschuwingsbericht weergegeven met de melding dat het totaal niet gelijk is aan 100 procent. Als u dit bericht ontvangt, kunt u doorgaan met het bewerken van regels. Het totale percentage moet echter gelijk zijn aan 100 voordat u de pagina sluit.
+        **Midden maand - gesplitst** kan niet worden geselecteerd als de toerekeningsbasis is ingesteld op **Boekperiode op dagen**.
 
-[![Details van opbrengstschema.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+    - **1e dag van de volgende maand/periode**: de datum waarop het schema begint, is de eerste dag van de volgende maand of boekperiode.
+    - **Einde van maand/periode**: de datum op de eerste schemaregel is de begindatum van het contract (of de factuurdatum). Alle volgende schemaregels worden echter voor de laatste dag van de maand of boekperiode gemaakt. 
+
+Selecteer de knop **Details van het schema voor opbrengsttoerekening** om de algemene perioden en percentages weer te geven die in elke periode worden toegerekend. De waarde voor **Percentage toerekenen** wordt standaard verdeeld over het aantal perioden. Als de toerekeningsbasis is ingesteld op **Maandelijks**, kan het toerekeningspercentage worden gewijzigd. Tijdens het wijzigen van het toerekeningspercentage, wordt er een waarschuwingsbericht weergegeven met de melding dat het totaal niet gelijk is aan 100 procent. Als u dit bericht ontvangt, kunt u doorgaan met het bewerken van regels. Het totale percentage moet echter gelijk zijn aan 100 voordat u de pagina sluit.
+
+[![Details van opbrengstschema.](./media/revenue-schedule-details-2nd-scrn.png)](./media/revenue-schedule-details-2nd-scrn.png)
 
 ## <a name="inventory-setup"></a>Voorraadinstellingen
 

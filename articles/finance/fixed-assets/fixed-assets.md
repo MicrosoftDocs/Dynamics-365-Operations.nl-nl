@@ -1,7 +1,7 @@
 ---
 title: Startpagina van Vaste activa
-description: Vaste activa zijn objecten van waarde die het eigendom zijn van een persoon of organisatie. De objecten zijn onder andere gebouwen, voertuigen, land en apparatuur.
-author: ShylaThompson
+description: Dit onderwerp biedt toegang tot resources die u kunnen helpen om Vaste activa te gebruiken voor Microsoft Dynamics 365 Finance.
+author: moaamer
 ms.date: 08/31/2017
 ms.topic: index-page
 ms.prod: ''
@@ -14,21 +14,21 @@ ms.custom:
 - intro-internal
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
-ms.author: roschlom
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c483073c924a9a881a3d2668d41614703046f718746f5f439accc3646f6f822
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c1a31273e16275750594ef8d9b99f9a4cd2222ef
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753547"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674846"
 ---
 # <a name="fixed-assets-home-page"></a>Startpagina van Vaste activa
 
 [!include [banner](../includes/banner.md)]
 
-Vaste activa zijn objecten van waarde die het eigendom zijn van een persoon of organisatie. De objecten zijn onder andere gebouwen, voertuigen, land en apparatuur. 
+Dit onderwerp biedt toegang tot resources die u kunnen helpen om Vaste activa te gebruiken voor Microsoft Dynamics 365 Finance. Vaste activa zijn objecten van waarde die het eigendom zijn van een persoon of organisatie. De objecten zijn onder andere gebouwen, voertuigen, land en apparatuur. 
 
 U kunt aanschafgegevens voor vaste activa instellen en invoeren, en deze beheren door ze af te schrijven en een drempel voor kapitalisatie in te stellen om de afschrijving te bepalen. U kunt correcties berekenen voor de vaste activa of de vaste activa afstoten. Wanneer u Grootboek gebruikt samen met Vaste activa, kunt u de huidige waarde van alle vaste activa weergeven. De manier waarop vaste activa worden verwerkt, moet overeenstemmen met zowel internationale boekhoudregels als de boekhoudwetgeving van elk land of elke regio. Deze vereisten kunnen bijvoorbeeld regels zijn voor het vastleggen van aanschaf- en afstotingstransacties, afschrijving, levensduur en opwaarderingen en afwaarderingen van vaste activa. Veel van deze regels zijn geïntegreerd in de functionaliteit van Vaste activa.
 
