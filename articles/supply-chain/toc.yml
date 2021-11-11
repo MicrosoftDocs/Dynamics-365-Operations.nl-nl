@@ -74,12 +74,12 @@
                   items:
                     - name: Startpagina voor nieuwe of gewijzigde functies in Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.23
+                      href: get-started/whats-new-scm-10-0-23.md
                     - name: Supply Chain Management 10.0.22 (november 2021)
                       href: get-started/whats-new-scm-10-0-22.md
                     - name: Supply Chain Management 10.0.21 (oktober 2021)
                       href: get-started/whats-new-scm-10-0-21.md
-                    - name: Supply Chain Management 10.0.20 (augustus 2021)
-                      href: get-started/whats-new-scm-10-0-20.md
                 - name: Verwijderde of afgeschafte functies
                   items:
                     - name: Startpagina voor verwijderde of afgeschafte functies
@@ -1659,6 +1659,8 @@
                   href: master-planning/planning-optimization/demand-forecast.md
                 - name: Hoofdplanning met inkoophandelsovereenkomsten
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
+                - name: Datum- en tijdparameters die niet worden gebruikt door Planningsoptimalisatie
+                  href: master-planning/planning-optimization/date-time-used.md
                 - name: Veiligheidsmarges
                   href: master-planning/planning-optimization/safety-margins.md
                 - name: Vertragingstolerantie (negatieve dagen)
@@ -1885,6 +1887,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Het globale adresboek configureren
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Adresinstelling
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Veelgestelde vragen over adresboeken
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Adresboeken configureren
@@ -2425,20 +2429,8 @@
                           href: production-control/tasks/end-production-order.md
                     - name: Productieorders vrijgeven
                       href: production-control/release-production-orders.md
-                    - name: Productieorders gereedmelden
+                    - name: Productieorders als voltooid melden
                       href: production-control/report-production-orders-as-finished.md
-                    - name: De uitvoeringsinterface voor de werkvloer instellen en gebruiken
-                      items:
-                        - name: De uitvoeringsinterface voor de werkvloer configureren
-                          href: production-control/production-floor-execution-configure.md
-                        - name: De uitvoeringsinterface voor de werkvloer ontwerpen
-                          href: production-control/production-floor-execution-tabs.md
-                        - name: Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren
-                          href: production-control/production-floor-execution-setup.md
-                        - name: Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken
-                          href: production-control/production-floor-execution-use.md
-                        - name: De uitvoeringsinterface voor de werkvloer vormgeven
-                          href: production-control/production-floor-execution-styles.md
                     - name: Taakkaart configureren voor apparaten
                       href: production-control/config-job-card-device.md
                     - name: Gereedmelden vanaf het taakkaartapparaat
@@ -2645,6 +2637,18 @@
                       href: production-control/consumption.md
                     - name: Productieboeking
                       href: cost-management/production-posting.md
+            - name: De uitvoeringsinterface voor de werkvloer instellen en gebruiken
+              items:
+                - name: De uitvoeringsinterface voor de werkvloer configureren
+                  href: production-control/production-floor-execution-configure.md
+                - name: De uitvoeringsinterface voor de werkvloer ontwerpen
+                  href: production-control/production-floor-execution-tabs.md
+                - name: Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren
+                  href: production-control/production-floor-execution-setup.md
+                - name: Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken
+                  href: production-control/production-floor-execution-use.md
+                - name: De uitvoeringsinterface voor de werkvloer vormgeven
+                  href: production-control/production-floor-execution-styles.md
         - name: Kortingsbeheer
           items:
             - name: Overzicht van module Kortingsbeheer
@@ -3391,6 +3395,10 @@
                       href: warehousing/configure-mobile-devices-warehouse.md
                     - name: Staptitels en instructies aanpassen voor de mobiele app Warehouse Management
                       href: warehousing/mobile-app-titles-instructions.md
+                    - name: Gepromoveerde velden configureren voor stappen in het mobiele apparaat
+                      href: warehousing/warehouse-app-promoted-fields.md
+                    - name: Omleidingen configureren voor stappen in menu-items van mobiele apparaten
+                      href: warehousing/warehouse-app-detours.md
                     - name: Nummerplaat ontvangen via de mobiele app Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Een menuopdracht voor een mobiel apparaat instellen voor het voltooien van werk in een inkooporder
@@ -3409,6 +3417,8 @@
                       href: warehousing/pick-oldest-batch.md
                 - name: Algemene parameters voor mobiele apparaten
                   href: warehousing/mobile-device-parameters.md
+                - name: Gebruikersaccounts mobiel apparaat
+                  href: warehousing/mobile-device-work-users.md
                 - name: Gebruikersinstellingen mobiel apparaat
                   href: warehousing/mobile-device-user-settings.md
                 - name: Verwerking van gebeurtenissen in de app voor magazijnbeheer
@@ -3737,6 +3747,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Magazijnbeheer
               items:
+                - name: Warehouse Mobile App
+                  items:
+                    - name: Vertrouwensrelatie voor certificaatpad niet gevonden bij het instellen van een app-verbinding
+                      href: troubleshooting/warehousing/certification-path-app-connection-error.md
+                    - name: Vertrouwensrelatie voor certificaatpad niet gevonden bij bijwerken en migreren naar WMS
+                      href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: Ook bij beschikbare voorraad wordt de instructie voor automatische reservering voor een batchnummer weergegeven
                   href: troubleshooting/warehousing/auto-reservation-prompt-shown.md
                 - name: Order verzamelen kan niet worden geblokkeerd vanwege onvoltooide aanvullingswerkzaamheden
@@ -3747,8 +3763,6 @@
                   href: troubleshooting/warehousing/cant-move-license-plate.md
                 - name: Kan geen voorraad verplaatsen naar een locatie die is door nummerplaten wordt beheerd
                   href: troubleshooting/warehousing/cant-reduce-picked-quantities.md
-                - name: Vertrouwensrelatie voor certificaatpad niet gevonden bij het instellen van een app-verbinding
-                  href: troubleshooting/warehousing/certification-path-app-connection-error.md
                 - name: Clusterprofiel kan niet worden gevonden
                   href: troubleshooting/warehousing/cluster-profile-not-found-error.md
                 - name: Correctie van afleveringsbewijs kan niet worden verwerkt
@@ -3819,8 +3833,6 @@
                   href: troubleshooting/warehousing/unconfirmed-purchase-orders-confirmed.md
                 - name: Kan voorraadreservering op een verkooporderregel niet opheffen
                   href: troubleshooting/warehousing/unreserve-inventory-sales-line.md
-                - name: Vertrouwensrelatie voor certificaatpad niet gevonden bij bijwerken en migreren naar WMS
-                  href: troubleshooting/warehousing/upgrade-migration-certification-path-error.md
                 - name: U kunt een zending niet bevestigen omdat de klant is geblokkeerd
                   href: troubleshooting/warehousing/customer-is-on-hold.md
                 - name: U kunt een zending niet bevestigen omdat laadregels een hoeveelheid van nul hebben
