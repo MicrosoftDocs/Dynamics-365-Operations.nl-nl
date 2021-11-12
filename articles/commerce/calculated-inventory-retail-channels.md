@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: d3cfd8c2f0b88a4e634cee0398283a51eddf60b2
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 1b1e0ea264dd74f6583d3b7fd3ecce551c73fbae
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472166"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674670"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Voorraadbeschikbaarheid voor Retail-kanalen berekenen
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 In dit onderwerp wordt beschreven hoe een bedrijf Microsoft Dynamics 365 Commerce kan gebruiken om de geschatte beschikbaarheid van voorhanden voorraad te bekijken voor producten in de online- en winkelkanalen.
 
@@ -54,7 +53,7 @@ Als uw Commerce-omgeving release **10.0.8 tot 10.0.11** draait, volgt u deze sta
 
 Als uw Commerce-omgeving release **10.0.12 of later** draait, volgt u deze stappen.
 
-1. Ga in Commerce Headquafters naar **Werkgebieden \> Functiebeheer** en schakel de functie **Geoptimaliseerde berekening voor productbeschikbaarheid** in.
+1. Ga in Commerce Headquafters naar **Werkruimten \> Functiebeheer** en schakel de functie **Geoptimaliseerde berekening voor productbeschikbaarheid** in.
 1. Als voor uw online en winkelkanalen dezelfde afhandelingsmagazijnen worden gebruikt, moet u ook de functie **Verbeterde logica voor voorraadberekening aan kanaalzijde voor e-commerce** inschakelen. Op die manier wordt bij de berekeningslogica van het kanaal rekening houden met de niet-geboekte transacties die in het winkelkanaal zijn aangemaakt. (Deze transacties kunnen cash-and-carry-transacties, klantorders en retouren zijn.)
 1. Voer de taak **1070** (**Kanaalconfiguratie**) uit.
 
@@ -119,7 +118,7 @@ In Commerce, versies 10.0.9 en eerder, gebruikte de bewerking **Zoeken in voorra
 
 Wanneer de berekening aan kanaalzijde op de juiste manier wordt geconfigureerd en beheerd, kan het een betrouwbaardere schatting van de huidige winkelvoorraad leveren, omdat deze de transactionele gegevens gebruikt die zich in de Commerce-kanaaldatabase bevinden, maar waarover Headquarters mogelijk nog geen informatie heeft. Als u bijvoorbeeld de bestaande realtime serviceaanroep voor het zoeken van voorraad in POS gebruikt, beschikt Headquarters waarschijnlijk nog niet over informatie over een contante verkoop die zojuist heeft plaatsgevonden voor een product. De waarde voor de voorhanden voorraad die door Headquarters wordt geretourneerd voor dat product zal waarschijnlijk één eenheid hoger zijn dan de werkelijke voorhanden voorraad van de winkel. Als u echter gebruikmaakt van de berekening aan kanaalzijde, kan de contante verkoop worden opgenomen in de berekening en worden afgetrokken van de waarde voor de voorhanden voorraad die wordt weergegeven. Hoewel de waarden die zowel door de berekening aan kanaalzijde als door de realtime serviceaanroepen worden geleverd, slechts ramingen zijn van de voorhanden voorraad, is het veel waarschijnlijker dat de waarde die de kanaalzijde biedt nauwkeurig is voor de huidige winkel.
 
-Als u de POS-bewerking **Zoeken in voorraad** in Commerce Headquarters wilt configureren om de berekeningslogica aan de kanaalzijde te gebruiken en aanroepen van real-time service uit te schakelen, moet u eerst de functie **Geoptimaliseerde berekening voor productbeschikbaarheid** inschakelen via het werkgebied **Functiebeheer** in Commerce Headquarters en vervolgens deze stappen uitvoeren.
+Als u de POS-bewerking **Zoeken in voorraad** in Commerce Headquarters wilt configureren om de berekeningslogica aan de kanaalzijde te gebruiken en aanroepen van real-time service uit te schakelen, moet u eerst de functie **Geoptimaliseerde berekening voor productbeschikbaarheid** inschakelen via de werkruimte **Functiebeheer** in Commerce Headquarters en vervolgens deze stappen uitvoeren.
 
 1. Ga naar **Retail en Commerce \> Kanaalinstellingen \> POS-instellingen \> POS-profielen \> Functionaliteitsprofielen**.
 1. Selecteer een functionaliteitsprofiel.

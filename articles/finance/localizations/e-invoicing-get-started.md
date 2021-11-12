@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
-ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
+ms.openlocfilehash: d0550228dc77ed255a0033bc3b0a4ec21d48a497
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463829"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700374"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Aan de slag met Elektronische facturering
 
@@ -84,6 +84,7 @@ Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor 
 | Elektronische factuur Noorwegen (NO)    | <p>Contextmodel klantfactuur</p><p>Factuurmodel</p> |
 | Elektronische factuur Spanje (ES)      | <p>Contextmodel klantfactuur</p><p>Factuurmodel</p> |
 | PEPPOL Elektronische factuur            | <p>Contextmodel klantfactuur</p><p>Factuurmodel</p> |
+| Elektronische factuur voor Saoedi-Arabië (SA)| <p>Contextmodel klantfactuur</p><p>Factuurmodel</p> |
 
 
 ## <a name="configure-the-application-setup"></a>De instellingen van de toepassing configureren
@@ -112,6 +113,7 @@ Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor 
     | Elektronische factuur Noorwegen (NO)    | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
     | Elektronische factuur Spanje (ES)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
     | PEPPOL Elektronische factuur            | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
+    | Elektronische factuur voor Saoedi-Arabië (SA)| <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Klantfacturenjournaal</p><p>Projectfactuur</p> |
 
 6. Selecteer voor elke tabelnaam die u maakt een contextwaarde volgens de volgende tabel en voer deze in.
 
@@ -133,6 +135,7 @@ Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor 
     | Elektronische factuur Noorwegen (NO)    | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
     | Elektronische factuur Spanje (ES)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
     | PEPPOL Elektronische factuur            | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
+    | Elektronische factuur voor Saoedi-Arabië (SA)| <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Contextmodel klantfactuur – Context klantfactuur</p><p>Contextmodel klantfactuur – Context projectfactuur</p> |
 
 7. Selecteer voor elk tabelnaam en -context een toewijzingswaarde voor bedrijfsdocumenten volgens de volgende tabel en voer deze in.
 
@@ -154,6 +157,7 @@ Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor 
     | Elektronische factuur Noorwegen (NO)    | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
     | Elektronische factuur Spanje (ES)      | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
     | PEPPOL Elektronische factuur            | <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
+    | Elektronische factuur voor Saoedi-Arabië (SA)| <p>Verkoopfactuur</p><p>Projectfactuur</p> | <p>Factuurmodeltoewijzing – Klantfactuur</p><p>Factuurmodeltoewijzing – Projectfactuur</p> |
 
 
 ## <a name="country-specific-configuration-of-application-setup"></a>Landspecifieke configuratie van toepassingsinstellingen
@@ -207,6 +211,8 @@ Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor 
     | Elektronische factuur Noorwegen (NO)                     | Noorwegen          |
     | PEPPOL Elektronische factuur                             | Algemeen          |
     | Elektronische factuur Spanje (ES)                       | Spanje           |
+    | Elektronische factuur voor Saoedi-Arabië (SA)                 | Saoedi-Arabië    |
+    
 
 4. Selecteer **Opslaan**.
 
@@ -244,6 +250,7 @@ Zie de documentatie 'Aan de slag' die beschikbaar is voor uw land of regio voor 
 - [Aan de slag met Elektronische facturering voor Mexico](e-invoicing-mex-get-started.md)
 - [Aan de slag met Elektronische facturering voor Italië](e-invoicing-ita-get-started.md)
 - [Elektronische klantfacturen in Egypte](emea-egy-e-invoices.md)
+- [Elektronische klantfacturen in Saoedi-Arabië](emea-sau-e-invoices.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

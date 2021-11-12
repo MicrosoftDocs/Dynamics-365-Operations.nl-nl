@@ -1,7 +1,7 @@
 ---
 title: Afschrijving vaste activa
-description: Dit onderwerp bevat een overzicht van de afschrijving van vaste activa.
-author: ShylaThompson
+description: Dit onderwerp bevat een overzicht van de afschrijving in vaste activa.
+author: moaamer
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
@@ -12,21 +12,21 @@ ms.reviewer: roschlom
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a72aa631f4678876de28c1d8b94c658c092d90865b2db4b10dac13e5cbcc7e7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 54da35a39791a9e528896f3decd10476ad5af2d9
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734533"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674995"
 ---
 # <a name="fixed-asset-depreciation"></a>Afschrijving vaste activa
 
 [!include [banner](../includes/banner.md)]
 
-Dit onderwerp bevat een overzicht van de afschrijving van vaste activa.
+Dit onderwerp bevat een overzicht van de afschrijving in vaste activa.
 
 Afschrijving is een periodieke transactie die doorgaans de waarde van het vaste activum in de balans verlaagt en als uitgave in een winst-en-verliesrekening wordt geboekt. Daarom wordt een hoofdrekening gewoonlijk gebruikt voor de creditering van de periodieke afschrijving op de balans. Een tegenrekening is een rekening in het winst-en verliesgedeelte van het rekeningschema.
 

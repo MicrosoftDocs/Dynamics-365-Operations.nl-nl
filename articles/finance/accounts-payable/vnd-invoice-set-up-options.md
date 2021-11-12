@@ -1,8 +1,8 @@
 ---
 title: Instellingsopties voor de automatisering van leveranciersfacturering (preview)
 description: In dit onderwerp worden de opties beschreven die beschikbaar zijn voor het instellen en configureren van automatisering van leveranciersfacturen.
-author: abruer
-ms.date: 10/16/2020
+author: sunfzam
+ms.date: 10/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32f105ffcf41f5e39ec34ec6500040e28673086d25196a32690975ee0234ab43
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8e5aac8f108cf9a46c80c61891b057b8dc2b4672
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724274"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675464"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Instellingsopties voor de automatisering van leveranciersfacturering
 
@@ -27,12 +27,18 @@ ms.locfileid: "6724274"
 
 In dit onderwerp worden de opties beschreven die beschikbaar zijn voor het instellen en configureren van automatisering van leveranciersfacturen. Voor de functies voor automatisering van facturen worden de volgende typen instellingsparameters gebruikt:
 
+- Parameters voor het automatisch toepassen van vooruitbetalingen in geïmporteerde facturen.
 - Parameters voor het indienen van geïmporteerde leveranciersfacturen bij het werkstroomsysteem en het vereffenen van geboekte productontvangstbonregels met leveranciersfactuurregels die in behandeling zijn.
 - Parameters voor procesautomatisering van achtergrondtaken. Het raamwerk voor procesautomatisering wordt gebruikt om geïmporteerde leveranciersfacturen in te dienen bij het werkstroomsysteem. Het wordt ook gebruikt om geboekte productontvangstbonregels automatisch te vereffenen met leveranciersfactuurregels in behandeling en om factuurvereffening te valideren voor handmatige facturen die automatisch aan productontvangstbonregels zijn gekoppeld. Verschillende bedrijfsprocessen gebruiken dit raamwerk om te definiëren hoe vaak het geselecteerde proces wordt uitgevoerd. De beschikbare frequenties voor de achtergrondprocessen **Productontvangst afstemmen met factuurregels** en **Leveranciersfacturen indienen bij werkstroom** omvatten **Uur** en **Dagelijks**.
 
 Als u informatie over een achtergrondtaak wilt instellen of weergeven, gaat u naar **Systeembeheer \> Instellen \> Procesautomatiseringen** en selecteert u het tabblad **Achtergrondtaak**.
 
 U moet een werkstroom voor leveranciersfacturen instellen om te zorgen voor een contactloze automatisering van het importproces via het boeken van leveranciersfacturen. Stel een werkstroom in door naar **Leveranciers > Instellen > Leverancierswerkstromen** te gaan. Om ervoor te zorgen dat de factuur vanaf het begin tot het einde zonder handmatige interventie kan worden verwerkt, moet u een geautomatiseerde boekingstaak opnemen in uw werkstroomconfiguratie.
+
+## <a name="parameters-for-automatically-applying-prepayments-in-imported-invoices"></a>Parameters voor het automatisch toepassen van vooruitbetalingen in geïmporteerde facturen
+
+- **Automatisch vooruitbetaling toepassen voor geïmporteerde facturen** – als deze optie is ingesteld op **Ja**, worden bestaande vooruitbetalingen voor een bijbehorende inkooporder automatisch gezocht bij het importeren van leveranciersfacturen. Als er vooruitbetalingen worden gevonden die kunnen worden toegepast, wordt er één extra regel toegevoegd om de vooruitbetalingen toe te passen in de leveranciersfacturen die worden geïmporteerd.
+- **Opvolgingsautomatisering blokkeren in geval van een fout in de vooruitbetalingstoepassing**: als deze optie is ingesteld op **Ja**, worden facturen geblokkeerd als een vooruitbetaling niet kan worden toegepast. Net als andere geautomatiseerde processen, zoals het ontvangstvereffeningsproces en het verzenden naar een workflowproces, worden tijdens het factuurautomatiseringsproces geen geblokkeerde facturen opgehaald totdat de vooruitbetaling handmatig wordt toegepast. 
 
 ## <a name="parameters-for-submitting-imported-vendor-invoices-to-the-workflow-system"></a>Parameters voor het indienen van geïmporteerde leveranciersfacturen bij het werkstroomsysteem
 

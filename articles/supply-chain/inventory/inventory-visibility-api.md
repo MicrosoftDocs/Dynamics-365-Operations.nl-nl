@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 43fa94118c4d76e021bb635d720208d5f971db19
-ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
+ms.openlocfilehash: 1899969ddbbccafde3f7bb06a897ea7c0f2d656b
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7592483"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678782"
 ---
 # <a name="inventory-visibility-public-apis"></a>Openbare API's voor Voorraadzichtbaarheid
 
@@ -374,8 +374,6 @@ In het volgende voorbeeld wordt een voorbeeld van de inhoud van de hoofdtekst we
 ```
 
 ## <a name="create-reservation-events"></a>Reserveringsgebeurtenissen maken
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Als u de *Reserve*-API wilt gebruiken, moet u de reserveringsfunctie activeren en de reserveringsconfiguratie voltooien. Zie [Reserveringscofiguratie (optioneel)](inventory-visibility-configuration.md#reservation-configuration) voor meer informatie.
 

@@ -2,7 +2,7 @@
 title: Rastermogelijkheden
 description: Dit onderwerp beschrijft diverse krachtige functies van het rasterbesturingselement. U moet de nieuwe rasterfunctie inschakelen als u toegang tot deze mogelijkheden wilt hebben.
 author: jasongre
-ms.date: 09/08/2021
+ms.date: 10/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,16 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: a21a41399b5884fda9cce214f99851ffa93bbc43
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483849"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700132"
 ---
 # <a name="grid-capabilities"></a>Rastermogelijkheden
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 Het nieuwe rasterbesturingselement biedt verschillende handige en krachtige functies die u kunt gebruiken om de productiviteit van gebruikers te verbeteren, interessantere weergaven van uw gegevens te maken en inzicht te krijgen in uw gegevens. In dit artikel worden de volgende mogelijkheden besproken: 
@@ -32,6 +33,8 @@ Het nieuwe rasterbesturingselement biedt verschillende handige en krachtige func
 -  Wiskundige expressies evalueren 
 -  Tabelgegevens groeperen (afzonderlijk ingeschakeld met de functie **Groeperen in rasters**)
 -  Kolommen blokkeren
+-  Kolombreedte automatisch aanpassen
+-  Uitrekbare kolommen
 
 ## <a name="calculating-totals"></a>Totalen worden berekend
 In Finance and Operations-apps kunnen gebruikers totalen weergeven onder aan numerieke kolommen in rasters. Deze totalen worden weergegeven in een voettekstsectie onder in het raster. 
@@ -43,7 +46,7 @@ Onder aan elk raster in tabelvorm in Finance and Operations-apps bevindt zich ee
 - Eindtotalen onder aan geconfigureerde numerieke kolommen
 - Het aantal rijen in de gegevensset 
 
-Deze voettekst is standaard verborgen, maar u kunt deze inschakelen. Als u de voettekst voor een raster wilt weergeven, klikt u met de rechtermuisknop op een kolomkop in het raster en selecteert u de optie **Voettekst weergeven**. Nadat u de voettekst voor een bepaald raster hebt ingeschakeld, wordt deze instelling gebruikt totdat de gebruiker ervoor kiest om de voettekst te verbergen. Als u de voettekst wilt verbergen, klikt u met de rechtermuisknop op een kolomkop en selecteert u **Voettekst verbergen**.  (De plaatsing van de actie **Voettekst weergeven/Voettekst verbergen** wordt in een toekomstige update gewijzigd. 
+Deze voettekst is standaard verborgen, maar u kunt deze inschakelen. Als u de voettekst voor een raster wilt weergeven, klikt u op de knop **Rasteropties** in rasterkop en selecteert u de optie **Voettekst weergeven**. Nadat u de voettekst voor een bepaald raster hebt ingeschakeld, wordt deze instelling gebruikt totdat de gebruiker ervoor kiest om de voettekst te verbergen. Als u de voettekst wilt verbergen, selecteert u **Voettekst verbergen** in het menu **Rasteropties**.  
 
 ### <a name="specifying-columns-with-totals"></a>Kolommen met totalen opgeven
 Op dit moment worden totalen niet standaard in kolommen weergegeven. In plaats daarvan wordt dit beschouwd als een eenmalige instelactiviteit, vergelijkbaar met het aanpassen van de breedte van kolommen in rasters. Wanneer u hebt opgegeven dat u totalen voor een kolom wilt weergeven, wordt deze instelling de volgende keer dat u de pagina bezoekt, onthouden.  
@@ -82,7 +85,7 @@ Ter ondersteuning van dit nieuwe gedrag is er een nieuwe kolom voor de rijstatus
 Wanneer gebruikers gegevens invoeren voordat de server deze verwerkt, kunnen ze een verslechtering van de gegevensinvoer verwachten, zoals minder zoekacties, validatie op niveau van het besturingselement en de invoer van standaardwaarden. Gebruikers die een vervolgkeuzelijst nodig hebben om een waarde te zoeken, wordt geadviseerd te wachten tot de huidige rij door de server is verwerkt. Validatie en invoer van standaardwaarden op niveau van het besturingselement worden ook uitgevoerd wanneer de server deze rij verwerkt.   
 
 ### <a name="pasting-from-excel"></a>Plakken vanuit Excel
-Gebruikers kunnen altijd gegevens vanuit rasters in Finance and Operations-apps naar Excel exporteren met het mechanisme **Exporteren naar Excel**. Doordat het mogelijk is om gegevens in te voeren vóór de systeemverwerking, ondersteunt het nieuwe raster echter het kopiëren van tabellen vanuit Excel en kunnen deze rechtstreeks in rasters in Finance and Operations-apps worden geplakt. In de rastercel waaruit de plakbewerking wordt geïnitieerd, wordt bepaald waar de gekopieerde tabel wordt geplakt. De inhoud van het raster wordt overschreven door de inhoud van de gekopieerde tabel, behalve in twee gevallen:
+Gebruikers konden altijd gegevens vanuit rasters in Finance and Operations-apps naar Microsoft Excel exporteren met de functie **Exporteren naar Excel**. Doordat het mogelijk is om gegevens in te voeren vóór de systeemverwerking, ondersteunt het nieuwe raster echter het kopiëren van tabellen vanuit Excel en kunnen deze rechtstreeks in rasters in Finance and Operations-apps worden geplakt. In de rastercel waaruit de plakbewerking wordt geïnitieerd, wordt bepaald waar de gekopieerde tabel wordt geplakt. De inhoud van het raster wordt overschreven door de inhoud van de gekopieerde tabel, behalve in twee gevallen:
 
 - Als het aantal kolommen in de gekopieerde tabel groter is dan het aantal kolommen dat in het raster overblijft, te beginnen bij de plaklocatie, krijgt de gebruiker een melding dat de extra kolommen zijn genegeerd. 
 - Als het aantal rijen in de gekopieerde tabel groter is dan het aantal rijen in het raster, te beginnen bij de plaklocatie, worden de bestaande cellen overschreven door de geplakte inhoud en worden alle extra rijen uit de gekopieerde tabel ingevoegd als nieuwe rijen onder in het raster. 
@@ -125,6 +128,9 @@ Als u een kolom wilt blokkeren, klikt u met de rechtermuisknop in de koptekst va
 Als u de blokkering van een kolom wilt opheffen, klikt u met de rechtermuisknop in de koptekst van de geblokkeerde kolom en selecteert u vervolgens **Blokkering kolom opheffen**. 
 
 De kolommen voor rijselectie en rijstatus in het nieuwe raster zijn altijd als de eerste twee kolommen geblokkeerd. Als deze kolommen in een raster worden opgenomen, zijn deze dus altijd zichtbaar voor gebruikers, ongeacht de horizontale schuifpositie in het raster. De volgorde van deze twee kolommen kan niet worden gewijzigd.
+
+## <a name="autofit-column-width"></a>Kolombreedte automatisch aanpassen
+Gebruikers kunnen net als in Excel de grootte van een kolom automatisch wijzigen op basis van de inhoud die op dat moment in die kolom wordt weergegeven. Dubbelklikt hiervoor op de formaatgrepen in de kolom of plaats de focus in de kolomkop en druk op **A** (voor automatisch aanpassen). Deze mogelijkheid is beschikbaar vanaf versie 10.0.23.  
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Hoe kan ik het nieuwe rasterbesturingselement inschakelen in mijn omgeving? 
@@ -242,7 +248,7 @@ In deze sectie wordt een lijst met bekende problemen voor het nieuwe rasterbehee
 - [KB 4563310] Het uitgebreide voorbeeld wordt niet gesloten nadat een rij is gewijzigd.
 - [KB 4563313] Er treedt een onverwachte clientfout op in Internet Explorer wanneer een waarde wordt geselecteerd in een zoekopdracht.
 - [KB 4564557] Zoekopdrachten en vervolgmenu's worden niet geopend in Internet Explorer
-- [KB 4563324] Navigatie werkt niet nadat het werkgebied **Personeelsbeheer** is geopend.
+- [KB 4563324] Navigatie werkt niet nadat de werkruimte **Personeelsbeheer** is geopend.
 
 ### <a name="fixed-as-part-of-10011"></a>Gecorrigeerd als onderdeel van 10.0.11
 

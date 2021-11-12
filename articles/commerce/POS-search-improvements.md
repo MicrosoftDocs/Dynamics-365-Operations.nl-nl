@@ -2,7 +2,7 @@
 title: Zoekfunctie voor producten en klanten op het verkooppunt (POS)
 description: Dit onderwerp biedt een overzicht van verbeteringen die zijn aangebracht in de functies voor het zoeken van producten en klanten in Dynamics 365 Commerce.
 author: ShalabhjainMSFT
-ms.date: 03/10/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 043a630408d6b03e528f0afd5443de73ad5f3802c968b9d9bd7a5c51bfe1fb03
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 022dcaca9bb3c9e7e749ee143702325367e5149b
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716389"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700084"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Zoekfunctie voor producten en klanten op het verkooppunt (POS)
 
@@ -47,7 +47,7 @@ Met een lokale productzoekopdracht wordt gezocht in de volgende producteigenscha
 - Streepjescode
 - Zoeknaam
 
-### <a name="additional-local-product-search-capabilities"></a>Aanvullende mogelijkheden voor het zoeken naar lokale producten
+### <a name="additional-local-product-search-capabilities-conventional-sql-full-text-search"></a>Aanvullende lokale zoekfuncties voor producten (conventionele SQL-zoekfunctie in volledige tekst) 
 
 - Voor zoekopdrachten met meerdere zoekwoorden (zoekopdrachten met zoektermen) kunnen detailhandelaren configureren of de zoekresultaten resultaten bevatten die overeenkomen met *een* van de zoektermen of alleen resultaten die overeenkomen met *alle* zoektermen. De instelling voor deze functionaliteit is beschikbaar in het POS-functionaliteitsprofiel, in een nieuwe groep met de naam **Product zoeken**. De standaardinstelling is **Overeenkomen met willekeurige zoekterm(en)**. Deze instelling is ook de aanbevolen instelling. Wanneer de instelling **Overeenkomen met willekeurige zoekterm(en)** wordt gebruikt, worden alle producten die geheel of gedeeltelijk overeenkomen met de een of meer zoektermen geretourneerd als resultaat. Deze resultaten worden automatisch gesorteerd in oplopende volgorde met producten die de meeste trefwoordovereenkomsten (volledig of gedeeltelijk) hebben.
 
@@ -55,6 +55,8 @@ Met een lokale productzoekopdracht wordt gezocht in de volgende producteigenscha
 
     - De zoekopdracht wordt uitgevoerd op afzonderlijke producteigenschappen. Zo worden alleen producten geretourneerd die alle gezochte zoekwoorden in ten minste één producteigenschap bevatten.
     - Dimensies worden niet doorzocht.
+> [!NOTE]
+> De volgende configuraties van **Overeenkomen met willekeurige zoekterm(en)**/**Overeenkomen met alle zoektermen** in POS-functionaliteitsprofielen zijn alleen van toepassing op **lokale** productzoekopdrachten (conventionele SQL-zoekfunctie in volledige tekst). Deze configuratie heeft geen effect op zoekopdrachten in de cloud. De nieuwe zoekmachine heeft zijn eigen geavanceerde algoritme voor de relevantie van de zoekfunctie voor zoekresultaten naar producten. 
 
 - Detailhandelaren kunnen productzoekopdrachten zo configureren dat zoeksuggesties worden weergegeven terwijl gebruikers productnamen typen. Er is een nieuwe instelling beschikbaar in het POS-functionaliteitsprofiel, in een nieuwe groep met de naam **Product zoeken**. De instelling heet **Suggesties weergeven tijdens het typen**. Met deze functionaliteit kunnen werknemers het product dat ze zoeken snel vinden omdat ze niet de hele naam handmatig hoeven in te voeren.
 - Met het algoritme voor het zoeken van producten wordt nu ook gezocht naar de gezochte termen in de eigenschap **Zoeknaam** van het product.
@@ -147,7 +149,5 @@ In de volgende lijst wordt weergegeven hoe de zoekfunctionaliteit voor klanten i
 > De zoekfunctie voor klanten met de zoekfunctie van Azure Cognitive Services is in beperkte regio's beschikbaar voor preview. De zoekfunctie voor klanten is *niet* beschikbaar in de volgende regio's:
 > - Brazilië
 > - India
-> - Canada
-> - Verenigd Koninkrijk
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

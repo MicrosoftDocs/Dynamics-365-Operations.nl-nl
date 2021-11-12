@@ -2,7 +2,7 @@
 title: Lijst met ER-functies in de datum- en tijdcategorie
 description: Dit onderwerp biedt informatie over de datum- en tijdfuncties die worden ondersteund in ER (Elektronische rapportage).
 author: NickSelin
-ms.date: 12/05/2019
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f0f421afcaf720366c76c2728721598540a37f0b627123b3386a3174c039a96
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 706331eaadf602aba46463fdcfc0d38f1fc94e08
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760045"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647258"
 ---
 # <a name="list-of-er-functions-in-the-date-and-time-category"></a>Lijst met ER-functies in de datum- en tijdcategorie
 
@@ -31,8 +31,9 @@ Datum- en tijdfuncties in ER kunnen worden gebruikt om informatie te extraheren 
 
 | Functie | Beschrijving |
 |----------|-------------|
-| [AddDays](er-functions-datetime-adddays.md) | Deze functie retourneert een waarde van het type *DateTime* voor het opgegeven aantal dagen vóór of na een opgegeven begindatum. |
-| [DateFormat](er-functions-datetime-dateformat.md) | Deze functie retourneert een waarde van het type *Tekenreeks* voor een bepaalde datumwaarde als tekst in de opgegeven indeling en in een optioneel opgegeven cultuur. |
+| [AddDays](er-functions-datetime-adddays.md) | Deze functie retourneert een waarde van het type *[DateTime](er-formula-supported-data-types-primitive.md#datetime)* voor het opgegeven aantal dagen vóór of na een opgegeven begindatum. |
+| [ChangeTimeZone](er-functions-datetime-changetimezone.md) | Deze functie retourneert een waarde van het type *DateTime* die wordt geconverteerd van een bepaalde datum-/tijdwaarde naar een datum-/tijdwaarde in een andere tijdzone. |
+| [DateFormat](er-functions-datetime-dateformat.md) | Deze functie retourneert een waarde van het type *[Tekenreeks](er-formula-supported-data-types-primitive.md#string)* voor een bepaalde datumwaarde als tekst in de opgegeven indeling en in een optioneel opgegeven cultuur. |
 | [DateTimeFormat](er-functions-datetime-datetimeformat.md) | Deze functie retourneert een waarde van het type *Tekenreeks* voor een bepaalde datum-/tijdwaarde als tekst in de opgegeven indeling en in een optioneel opgegeven cultuur. |
 | [DateTimeValue](er-functions-datetime-datetimevalue.md) | Deze functie retourneert een waarde van het type *DateTime* die van een bepaalde tekstwaarde in de opgegeven indeling en in een optioneel opgegeven cultuur wordt geconverteerd naar een datum-/tijdwaarde. |
 | [DateToDateTime](er-functions-datetime-datetodatetime.md) | Deze functie retourneert een waarde van het type *DateTime* die wordt geconverteerd van een bepaalde datumwaarde naar een datum-/tijdwaarde in Coordinated Universal Time (Greenwich Mean Time \[GMT\]). |

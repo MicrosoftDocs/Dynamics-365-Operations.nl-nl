@@ -10,17 +10,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 2d629b082b423edf417714b8362be3364bc861e78f62d430a4d7083b8c49611a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 97c27006ce95d0cd4551fec209f40328779b435b
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773412"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678586"
 ---
 # <a name="conventions"></a>Conventies
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Een conventie is een container voor een set beleidsregels die van invloed zijn op het systeemgedrag. Op basis van de behoeften van uw bedrijf, moet u conventies definiëren met behulp van een combinatie van de verschillende beleidsregels die bepalen hoe kosten moeten worden verantwoord in Algemene voorraadboekhouding. U kunt elke conventie aan een of meer grootboeken koppelen om consistentie te garanderen in het boekhoudbeleid dat wordt toegepast in grootboeken.
 

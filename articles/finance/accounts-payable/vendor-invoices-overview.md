@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3fac6a0232f7e51e859fcc5b23244be092ce8d76123ec42f586063a02abab603
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e846cde14fe078d6675ec31d1a3271f751dd6468
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722786"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647125"
 ---
 # <a name="vendor-invoices-overview"></a>Overzicht van Leveranciersfacturen
 
@@ -72,12 +72,9 @@ Uw organisatie gebruikt mogelijke workflows om het controleproces voor leveranci
 U kunt op de volgende manieren voorkomen dat een factuur wordt ingediend bij een workflow.
 
 - **Het factuurtotaal en het geregistreerde totaal komen niet overeen.** De persoon die de factuur heeft ingediend, ontvangt een waarschuwing dat de totalen niet gelijk zijn. De waarschuwing biedt u de mogelijkheid om de saldi te corrigeren alvorens de factuur opnieuw in te dienen bij de workflow. Deze functie is beschikbaar als de parameter **Indiening bij workflow voorkomen wanneer het factuurtotaal en geregistreerde factuurtotaal niet gelijk zijn** op de pagina **Functiebeheer** is ingeschakeld. 
-
 - **Factuur bevat niet-toegewezen toeslagen.** De persoon die de factuur heeft ingediend, ontvangt een waarschuwing dat de factuur niet-toegewezen toeslagen bevat, zodat deze de factuur kan corrigeren alvorens deze opnieuw in te dienen bij de workflow. Deze functie is beschikbaar als de parameter **Indiening bij workflow voorkomen wanneer een leveranciersfactuur niet-toegewezen toeslagen bevat** op de pagina **Functiebeheer** is ingeschakeld.
-
 - **Factuur bevat hetzelfde factuurnummer als een andere geboekte factuur.** De persoon die de factuur heeft ingediend, ontvangt een bericht waarin wordt aangegeven dat er een factuur met een dubbel nummer is gevonden. Het dubbele nummer kan worden gecorrigeerd voordat u de factuur opnieuw bij de workflow indient. Deze waarschuwing wordt weergegeven wanneer de parameter in Leveranciers met de naam **Het gebruikte factuurnummer controleren** is ingesteld op **Duplicatie afwijzen**. Deze functie is beschikbaar als de parameter **Indiening bij workflow voorkomen als het factuurnummer al bestaat op een geboekte factuur en het systeem dubbele factuurnummers niet toestaat** op de pagina **Functiebeheer** is ingeschakeld.
-
-- **De factuur bevat een regel waarop de factuurhoeveelheid kleiner is dan de gematchte hoeveelheid op de productontvangstbon.** De persoon die de factuur indient of probeert te plaatsen, ontvangt een bericht dat de hoeveelheden niet gelijk zijn. Dit bericht biedt u de mogelijkheid om de waarden te corrigeren alvorens de factuur opnieuw in te dienen bij de workflow. Deze functie is beschikbaar als de parameter **Boeken en verzenden van leveranciersfacturen naar workflow blokkeren** op de pagina **Functiebeheer** is ingeschakeld en als de parameter **Boeken en verzenden naar workflow** op de pagina **Parameters van module Leveranciers** is ingeschakeld.  
+- **De factuur bevat een regel waarop de factuurhoeveelheid kleiner is dan de gematchte hoeveelheid op de productontvangstbon.** De persoon die de factuur indient of probeert te boeken, ontvangt een bericht dat de hoeveelheden niet gelijk zijn. Dit bericht biedt u de mogelijkheid om de waarden te corrigeren alvorens de factuur opnieuw in te dienen bij de workflow. Deze functie is beschikbaar als de parameter **Boeken en verzenden van leveranciersfacturen naar workflow blokkeren** op de pagina **Functiebeheer** is ingeschakeld en als de parameter **Boeken en verzenden naar workflow** op de pagina **Parameters van module Leveranciers** is ingeschakeld.
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Leveranciersfacturen vereffenen met productontvangstbonnen
 
@@ -119,12 +116,35 @@ U kunt toegang krijgen tot de pagina **Leveranciersfacturen herstellen** als de 
 
 Een workflowexemplaar dat is gestopt vanwege een onherstelbare fout, heeft een workflowstatus **Onherstelbaar**. Wanneer de status van een werkstroom voor leveranciersfacturen **Onherstelbaar** is, kunt u deze weer instellen op **Concept** door **Intrekken** te selecteren. Vervolgens kunt u de leveranciersfactuur bewerken. Deze functie is beschikbaar als de parameter **De workflowstatus voor leveranciersfacturen van Onherstelbaar wijzigen in Concept** op de pagina **Functiebeheer** is ingeschakeld.
 
-U kunt de pagina **Workflowhistorie** voor leveranciersfacturen gebruiken om de workflowstatus in te stellen op **Concept**. U deze pagina openen vanuit **Leveranciersfactuur** of vanuit de navigatie **Algemeen > Query's > Workflow**. Als u de workflowstatus terug wilt zetten op **Concept**, selecteert u **Intrekken**. U kunt de workflowstatus ook terugzetten op Concept door de actie **Intrekken** te selecteren op de pagina **Leveranciersfactuur** of **Leveranciersfacturen in behandeling**. Als de workflowstatus is ingesteld op **Concept**, wordt deze beschikbaar voor bewerking op de pagina **Leveranciersfactuur**.
+U kunt de pagina **Workflowhistorie** voor leveranciersfacturen gebruiken om de workflowstatus in te stellen op **Concept**. U kunt deze pagina openen vanuit **Leveranciersfactuur** of vanuit de navigatie **Algemeen > Query's > Werkstroom**. Als u de workflowstatus terug wilt zetten op **Concept**, selecteert u **Intrekken**. U kunt de workflowstatus ook terugzetten op Concept door de actie **Intrekken** te selecteren op de pagina **Leveranciersfactuur** of **Leveranciersfacturen in behandeling**. Als de workflowstatus is ingesteld op **Concept**, wordt deze beschikbaar voor bewerking op de pagina **Leveranciersfactuur**.
 
 ## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Het factuurtotaal weergeven op de pagina Leveranciersfacturen in behandeling
+
 U kunt het factuurtotaal weergeven op de pagina **Leveranciersfacturen in behandeling** door de parameter **Factuurtotaal in lijst met in behandeling zijnde leveranciersfacturen weergeven** in te schakelen op de pagina **Parameters van module Leveranciers**. 
 
+## <a name="vendor-open-transactions-report"></a>Rapport voor openstaande leverancierstransacties
 
+Het rapport **Openstaande transacties leverancier** bevat gedetailleerde informatie over de openstaande transacties voor elke leverancier vanaf de datum die u opgeeft. Dit rapport wordt vaak gebruikt tijdens de controleprocedure voor het controleren van saldi tussen leveranciersboektransacties en grootboekrekeningtransacties.
+
+Voor elke transactie bevat het rapport de volgende details:
+
+- Factuurnummer
+- Transactiedatum
+- Boekstuknummer
+- Transactiebedrag in de transactievaluta en valuta voor boekhouding
+- Creditsaldo in de transactievaluta en valuta voor boekhouding
+- Debitsaldo in de transactievaluta en valuta voor boekhouding
+- Subtotaalbedrag in de valuta voor boekhouding
+- Vervaldatum betaling
+
+### <a name="filter-the-data-on-the-report"></a>De gegevens in het rapport filteren
+
+Wanneer u het rapport **Open transacties leverancier** genereert, zijn de volgende standaardparameters beschikbaar. U kunt deze gebruiken om de gegevens te filteren die in het rapport worden opgenomen.
+
+- **Toekomstige vereffening uitsluiten**: schakel dit selectievakje in om transacties uit te sluiten die worden vereffend na de datum die is ingevoerd in het veld **Openstaande transacties per**.
+- **Openstaande transacties per** – Voer een datum in om transacties op te nemen die vanaf die datum openstaan. Als u geen datum invoert, wordt dit veld ingesteld op de maximumdatum. (De maximumdatum is de laatste datum die door het systeem wordt geaccepteerd, 31 december 2154.) De volgende keer dat het rapport wordt uitgevoerd, wordt dit veld standaard ingesteld op de laatste datum die erin is ingevoerd.
+
+Met de filters onder het veld **Op te nemen record** kunt u de transactiegegevens die in het rapport worden opgenomen, verder beperken.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

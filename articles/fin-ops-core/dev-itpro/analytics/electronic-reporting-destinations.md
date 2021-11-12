@@ -2,7 +2,7 @@
 title: Bestemmingen van elektronische rapportage (ER)
 description: Dit onderwerp biedt informatie over het beheer van ER-bestemmingen (elektronische rapportage), de ondersteunde typen bestemmingen en beveiligingsoverwegingen.
 author: nselin
-ms.date: 05/19/2021
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: df617ad476d8210c658f60569656292df22670df44cc094bf0d61b4ee6a19775
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e8e176b8d4e14eee2050b3c66f7547ff878b5174
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743306"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647088"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Bestemmingen van elektronische rapportage (ER)
 
@@ -158,18 +158,18 @@ U kunt de optie PDF-conversie gebruiken om de uitvoer in Microsoft Office-indeli
 
 ### <a name="make-pdf-conversion-available"></a>PDF-conversie beschikbaar maken
 
-Om de PDF-conversie optie beschikbaar te maken in het huidige Finance-exemplaar, opent u het werkgebied **Functiebeheer** en schakelt u de functie **Uitgaande ER-documenten van Microsoft Office-indelingen converteren naar PDF** in.
+Om de PDF-conversie optie beschikbaar te maken in het huidige Finance-exemplaar, opent u de werkruimte **Functiebeheer** en schakelt u de functie **Uitgaande ER-documenten van Microsoft Office-indelingen converteren naar PDF** in.
 
 [![De functie PDF-conversie van uitgaande documenten in Functiebeheer inschakelen.](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
 
 ### <a name="applicability"></a>Toepasbaarheid
 
-De optie PDF-conversie kan alleen worden ingeschakeld voor bestandsonderdelen die worden gebruikt om uitvoer in Office- (Excel of Word) indeling (**Excel-bestand**) te genereren. Wanneer deze optie is ingeschakeld, wordt de uitvoer die in de Office-indeling is gegenereerd, automatisch geconverteerd naar PDF-indeling. In versies van Finance **vóór 10.0.18** kunt u deze optie alleen inschakelen voor onderdelen van het type **Excel\\File** waarmee uitvoer in [Excel](er-fillable-excel.md)- of [Word](er-design-configuration-word.md)-indeling wordt gegenereerd. In versie **10.0.18 en hoger** kunt u deze optie echter ook inschakelen voor onderdelen van het type **Common\\File**.
+In versies van Finance **vóór versie 10.0.18** kunt u de optie voor PDF-conversie alleen inschakelen voor **Excel\\File**-onderdelen die worden gebruikt om uitvoer in de Office-indeling (Excel of Word) te genereren. Wanneer deze optie is ingeschakeld, wordt de uitvoer die in de Office-indeling is gegenereerd, automatisch geconverteerd naar PDF-indeling. In versie **10.0.18 en hoger** kunt u deze optie echter ook inschakelen voor onderdelen van het type **Common\\File**.
 
 > [!NOTE]
 > Let goed op het waarschuwingsbericht dat u ontvangt wanneer u de PDF-conversieoptie inschakelt voor een ER-onderdeel van het type **Common\\File**. In dit bericht wordt aangegeven dat u bij het ontwerpen niet kunt garanderen dat het geselecteerde bestandsonderdeel de inhoud in PDF-indeling of de naar PDF converteerbare inhoud tijdens runtime beschikbaar zal maken. U moet de optie daarom alleen instellen als u zeker weet dat het geselecteerde bestandsonderdeel is geconfigureerd om de inhoud in PDF-indeling of de naar PDF converteerbare inhoud tijdens runtime beschikbaar te maken.
 > 
-> Als u de PDF-conversieoptie instelt voor een onderdeel van het type **Excel\\File**, als dat onderdeel inhoud in een andere indeling dan PDF beschikbaar maakt en als de beschikbaar gestelde inhoud niet naar PDF-indeling kan worden geconverteerd, treedt er een uitzondering op tijdens runtime. Het bericht dat u ontvangt, geeft aan dat de gegenereerde inhoud niet kan worden geconverteerd naar PDF-indeling.
+> Als u de PDF-conversieoptie instelt voor een indelingsonderdeel, als dat onderdeel inhoud in een andere indeling dan PDF beschikbaar maakt en als de beschikbaar gestelde inhoud niet naar de PDF-indeling kan worden geconverteerd, treedt er een uitzondering op tijdens runtime. Het bericht dat u ontvangt, geeft aan dat de gegenereerde inhoud niet kan worden geconverteerd naar PDF-indeling.
 
 ### <a name="limitations"></a>Beperkingen
 
@@ -189,16 +189,26 @@ Als u PDF-conversie voor een bestandsbestemming wilt inschakelen, schakelt u het
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Een afdrukstand voor PDF-conversie selecteren</a>
 
-Als u een ER-configuratie genereert in Excel-indeling en deze wilt converteren naar PDF-indeling, kunt u de afdrukstand van het PDF-document opgeven. Wanneer u het selectievakje **Converteren naar PDF** inschakelt om PDF-conversie in te schakelen voor een bestandsbestemming die een uitvoerbestand produceert in Excel-indeling, wordt het veld **Afdrukstand** beschikbaar op het sneltabblad **Instellingen PDF-conversie**. Selecteer de gewenste afdrukstand in het veld **Afdrukstand**.
+Als u een ER-configuratie genereert in de Excel-indeling en deze wilt converteren naar de PDF-indeling, kunt u expliciet de afdrukstand van het PDF-document opgeven. Wanneer u het selectievakje **Converteren naar PDF** inschakelt om PDF-conversie in te schakelen voor een bestandsbestemming die een uitvoerbestand produceert in Excel-indeling, wordt het veld **Afdrukstand** beschikbaar op het sneltabblad **Instellingen PDF-conversie**. Selecteer de gewenste afdrukstand in het veld **Afdrukstand**.
 
 [![Een afdrukstand voor PDF-conversie selecteren.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
-> [!NOTE]
-> Als u de afdrukstand van de PDF wilt kunnen kiezen, moet u Finance versie 10.0.10 of hoger installeren.
->
-> De geselecteerde afdrukstand wordt toegepast op alle ER-configuraties die in de Excel-indeling worden gegenereerd en worden vervolgens geconverteerd naar de PDF-indeling.
->
-> Als een ER-configuratie in Word-indeling wordt geconverteerd naar PDF-indeling, wordt de afdrukstand van de PDF uit het Word-document opgehaald.
+Als u de afdrukstand van de PDF wilt kunnen kiezen, moet u Finance-versie 10.0.10 of hoger installeren. In versies van Finance **vóór versie 10.0.23** biedt deze optie de volgende afdrukstandopties:
+
+- Staand
+- Liggend
+
+De geselecteerde afdrukstand wordt toegepast op alle pagina's van een uitgaand document dat in de Excel-indeling wordt gegenereerd en vervolgens wordt geconverteerd naar de PDF-indeling.
+
+In versie **10.0.23 en hoger** is de lijst met afdrukstandopties echter als volgt uitgebreid:
+
+- Staand
+- Liggend
+- Werkbladspecifiek
+
+Wanneer u de optie **Werkbladspecifiek** selecteert, wordt elk werkblad van een gegenereerde Excel-werkmap naar PDF geconverteerd met behulp van de afdrukstand die voor dit werkblad is geconfigureerd in de gebruikte Excel-sjabloon. Mogelijk hebt u dus een definitief PDF-document met staande en liggende pagina's. 
+
+Als een ER-configuratie in de Word-indeling wordt geconverteerd naar de PDF-indeling, wordt de afdrukstand van het PDF-document altijd uit het Word-document opgehaald.
 
 ## <a name="output-unfolding"></a>Uitvoer indelen
 
@@ -206,7 +216,7 @@ Wanneer u een bestemming configureert voor het onderdeel **Map** van uw ER-indel
 
 ### <a name="make-output-unfolding-available"></a>Indelen van uitvoer beschikbaar maken
 
-Als u de optie voor het indelen van uitvoer beschikbaar wilt maken in het huidige Finance-exemplaar, opent u het werkgebied **Functiebeheer** en schakelt u de functie **Geconfigureerde ER-bestemmingen toestaan om mapinhoud als aparte bestanden te verzenden** in.
+Als u de optie voor het indelen van uitvoer beschikbaar wilt maken in het huidige Finance-exemplaar, opent u de werkruimte **Functiebeheer** en schakelt u de functie **Geconfigureerde ER-bestemmingen toestaan om mapinhoud als aparte bestanden te verzenden** in.
 
 ### <a name="applicability"></a>Toepasbaarheid
 

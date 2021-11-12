@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 27dfc3f431fdfc1ec5c2cad2c3458b11c94189c3
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 53cc457c788d24adfe3c523719ccffc6d445fb61
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474671"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678466"
 ---
 # <a name="configure-inventory-visibility"></a>Voorraadzichtbaarheid configureren
 
@@ -366,16 +366,12 @@ Met de index kunt u op de volgende manieren query's uitvoeren op de voorhanden v
 
 ## <a name="reservation-configuration-optional"></a><a name="reservation-configuration"></a>Configuratie van de reservering (optioneel)
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 De reserveringsconfiguratie is vereist als u de functie voor zachte reservering wilt gebruiken. De configuratie bestaat uit twee fundamentele onderdelen:
 
 - Zachte reserveringstoewijzing
 - Zachte reserveringshiërarchie
 
 ### <a name="soft-reservation-mapping"></a>Zachte reserveringstoewijzing
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Als u een reservering maakt, wilt u mogelijk weten of voorhanden voorraad momenteel beschikbaar is voor reservering. De validatie is gekoppeld aan een berekende meting die een berekeningsformule van een combinatie van fysieke metingen vertegenwoordigt.
 
@@ -446,8 +442,6 @@ Als u dus probeert reserveringen te maken op basis van `iv.SoftReservOrdered` en
 > Wanneer u de reserverings-API aanroept, kunt u de reserveringsvalidatie beheren door de booleaanse parameter `ifCheckAvailForReserv` op te geven in de aanvraagbody. De waarde `True` betekent dat de validatie is vereist, terwijl de waarde `False` betekent dat de validatie niet is vereist. De standaardwaarde is `True`.
 
 ### <a name="soft-reservation-hierarchy"></a>Zachte reserveringshiërarchie
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 In de reserveringshiërarchie wordt de volgorde van dimensies beschreven die moeten worden opgegeven wanneer er reserveringen worden gemaakt. Dit werkt op dezelfde manier als de productindexhiërarchie voor voorhanden query's.
 
@@ -747,8 +741,6 @@ In de volgende tabel wordt de standaardindexconfiguratie weergegeven.
 In deze sectie wordt de standaardreserveringsconfiguratie beschreven.
 
 #### <a name="reservation-mapping"></a>Reserveringstoewijzing
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 In de volgende tabel wordt de standaardreserveringsconfiguratie weergegeven.
 

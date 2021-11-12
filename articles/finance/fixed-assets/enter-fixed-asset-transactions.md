@@ -1,6 +1,6 @@
 ---
 title: Transactieopties voor vaste activa
-description: In dit onderwerp worden de beschikbare methoden voor het maken van vaste-activatransacties beschreven.
+description: In dit onderwerp worden de verschillende methoden beschreven voor het maken van vaste-activatransacties.
 author: moaamer
 ms.date: 08/10/2021
 ms.topic: article
@@ -12,29 +12,29 @@ ms.reviewer: roschlom
 ms.custom: 23061
 ms.assetid: 338c495b-a4d8-461e-b85b-a83faf673730
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9e2d7f21d8c88185383e252f8f6324208493c81
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 129f88037691096c22478e4f186667a502e394ec
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344685"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674469"
 ---
 # <a name="fixed-asset-transaction-options"></a>Transactieopties voor vaste activa
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp worden de beschikbare methoden voor het maken van vaste-activatransacties beschreven.
+In dit onderwerp worden de verschillende methoden beschreven voor het maken van vaste-activatransacties.
 
 U kunt vaste activa instellen voor integratie met crediteuren, debiteuren, inkoop en sourcing en grootboek. Ook kunt u artikelen in voorraadbeheer overbrengen naar vaste activa als u deze items intern gebruikt.
 
-## <a name="accounts-payable"></a>Leveranciers    
+## <a name="accounts-payable"></a>Leveranciers
 U kunt transacties voor vaste activa invoeren op de pagina Journaalboekstuk. Deze pagina kan worden geopend vanuit de pagina Factuurjournaal. U kunt de pagina Journaalboekstuk ook openen via de pagina Factuurgoedkeuringsjournaal. Selecteer Vaste activa in het veld Tegenrekeningtype. Selecteer vervolgens een nummer voor vaste activa in het veld Tegenrekening. Voer op het tabblad Vaste activa waarden in het veld Transactietype en Boek in.
 
-## <a name="accounts-receivable"></a>Klanten  
+## <a name="accounts-receivable"></a>Klanten
 U kunt transacties voor vaste activa invoeren op de pagina Vrije-tekstfactuur.  Selecteer een regelartikel op de pagina Vrije-tekstfactuur in het raster met factuurregels. Klik op het sneltabblad Regeldetails. Geef het VA-nummer en boek op voor de afboekingstransactie. Voor facturen met vrije tekst is het vaste-activatransactietype altijd Verkoop/afstoting.
 
 ## <a name="procurement-and-sourcing"></a>Inkoopbeheer
@@ -54,7 +54,7 @@ Elk type vaste-activatransactie kan worden geboekt op de Algemeen journaal. Ook 
 |-------------------------------------|--------------------------|-------------------------------------------|
 | Verwerving, Correctie van verwerving | Vaste activa             | Vaste activa, Voorraad naar vaste activa   |
 |                                     | Grootboek           | Algemeen journaal                           |
-|                                     | Leveranciers             | Factuurjournaal, Factuurgoedkeuringsjournaal |
+|                                     | Leveranciers         | Factuurjournaal, Factuurgoedkeuringsjournaal |
 |                                     | Inkoopbeheer | Inkooporder                            |
 | Afschrijving                        | Vaste activa             | Vaste activa                              |
 |                                     | Grootboek           | Algemeen journaal                           |

@@ -14,25 +14,24 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 4fd6039843be09ec706e45746d5724faa99a95e6
-ms.sourcegitcommit: 3f59b15ba7b4c3050f95f2b32f5ae6d7b96e1392
+ms.openlocfilehash: 395bc7049ba32c1e572730e482b81613a4873c59
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7563056"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675220"
 ---
 # <a name="customer-management-in-stores"></a>Klantbeheer in winkels
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt uitgelegd hoe detailhandelaren mogelijkheden voor klantbeheer kunnen inschakelen op het verkooppunt (POS) in Microsoft Dynamics 365 Commerce.
 
 Het is belangrijk dat winkelmedewerkers klantrecords kunnen maken en bewerken op het POS. Op die manier kunnen zij updates van klantgegevens vastleggen, zoals het e-mailadres, telefoonnummer en adres. Deze informatie is handig in downstream systemen zoals marketing, omdat de effectiviteit van die systemen afhankelijk is van de nauwkeurigheid van de klantgegevens.
 
-Verkoopmedewerkers kunnen de workflow voor het maken van klanten starten vanaf twee POS-invoerpunten. Ze kunnen een knop selecteren die is toe te voegen aan de bewerking **Klant toevoegen** of ze kunnen **Klant maken** selecteren op de app-balk op de pagina met zoekresultaten. In beide gevallen wordt het dialoogvenster **Nieuwe klant** weergegeven, waar verkoopmedewerkers de vereiste klantgegevens kunnen invoeren, zoals de naam, het e-mailadres, het telefoonnummer, het adres en eventuele aanvullende gegevens die relevant zijn voor het bedrijf. Die extra informatie kan worden vastgelegd aan de hand van de klantkenmerken die aan de klant zijn gekoppeld. Zie [Klantkenmerken](dev-itpro/customer-attributes.md) voor meer informatie over klantkenmerken.
+Verkoopmedewerkers kunnen de werkstroom voor het maken van klanten starten vanaf twee POS-invoerpunten. Ze kunnen een knop selecteren die is toe te voegen aan de bewerking **Klant toevoegen** of ze kunnen **Klant maken** selecteren op de app-balk op de pagina met zoekresultaten. In beide gevallen wordt het dialoogvenster **Nieuwe klant** weergegeven, waar verkoopmedewerkers de vereiste klantgegevens kunnen invoeren, zoals de naam, het e-mailadres, het telefoonnummer, het adres en eventuele aanvullende gegevens die relevant zijn voor het bedrijf. Die extra informatie kan worden vastgelegd aan de hand van de klantkenmerken die aan de klant zijn gekoppeld. Zie [Klantkenmerken](dev-itpro/customer-attributes.md) voor meer informatie over klantkenmerken.
 
-Verkoopmedewerkers kunnen ook secundaire e-mailadressen en telefoonnummers vastleggen. Bovendien kunnen ze de voorkeur van de klant bij het ontvangen van marketinggegevens vastleggen via een van die secundaire e-mailadressen of telefoonnummers. Om deze mogelijkheid in te kunnen stellen, moeten detailhandelaren de functie **Meerdere e-mails en telefoonnummers vastleggen en toestemming voor marketing voor deze functie voor contactpersonen** in het werkgebied **Functiebeheer** in Commerce Headquarters inschakelen (**Systeembeheer \> Werkgebieden \> Functiebeheer**).
+Verkoopmedewerkers kunnen ook secundaire e-mailadressen en telefoonnummers vastleggen. Bovendien kunnen ze de voorkeur van de klant bij het ontvangen van marketinggegevens vastleggen via een van die secundaire e-mailadressen of telefoonnummers. Om deze mogelijkheid in te kunnen stellen, moeten detailhandelaren de functie **Meerdere e-mails en telefoonnummers vastleggen en toestemming voor marketing voor deze functie voor contactpersonen** in de werkruimte **Functiebeheer** in Commerce Headquarters inschakelen (**Systeembeheer \> Werkruimten \> Functiebeheer**).
 
 ## <a name="default-customer-properties"></a>Standaardklanteigenschappen
 
@@ -65,7 +64,7 @@ De functionaliteit voor asynchrone klanten heeft momenteel de volgende beperking
 - Loyaliteitskaarten kunnen alleen aan asynchrone klanten worden uitgegeven als de nieuwe klantrekening-id is gesynchroniseerd met het afzetkanaal.
 - Secundaire e-mailadressen en telefoonnummers kunnen niet worden vastgelegd voor asynchrone klanten.
 
-Hoewel sommige van de eerder genoemde beperkingen u er wellicht toe zouden kunnen aanzetten de optie synchrone klant voor uw bedrijf te kiezen, werkt het team van Commerce eraan de mogelijkheden van asynchrone klanten beter af te stemmen op die van synchrone klanten. In de release van Commerce versie 10.0.22 zorgt bijvoorbeeld een nieuwe functie **Asynchroon aanmaken voor klantadressen inschakelen**, die u kunt inschakelen in het werkgebied **Functiebeheer**, ervoor dat nieuw aangemaakte klantadressen voor zowel synchrone als asynchrone klanten asynchroon worden opgeslagen. Om deze adressen op te slaan in het klantprofiel in Commerce Headquarters, moet u een terugkerende batchtaak inplannen voor de **P-taak**, de taak **Klanten en zakenpartners synchroniseren vanuit de asynchrone modus** en de taak **1010**, zodat eventuele asynchrone klanten worden geconverteerd naar synchrone klanten in Commerce Headquarters.
+Hoewel sommige van de eerder genoemde beperkingen u er wellicht toe zouden kunnen aanzetten de optie synchrone klant voor uw bedrijf te kiezen, werkt het team van Commerce eraan de mogelijkheden van asynchrone klanten beter af te stemmen op die van synchrone klanten. In de release van Commerce versie 10.0.22 zorgt bijvoorbeeld een nieuwe functie **Asynchroon aanmaken voor klantadressen inschakelen**, die u kunt inschakelen in de werkruimte **Functiebeheer**, ervoor dat nieuw aangemaakte klantadressen voor zowel synchrone als asynchrone klanten asynchroon worden opgeslagen. Om deze adressen op te slaan in het klantprofiel in Commerce Headquarters, moet u een terugkerende batchtaak inplannen voor de **P-taak**, de taak **Klanten en zakenpartners synchroniseren vanuit de asynchrone modus** en de taak **1010**, zodat eventuele asynchrone klanten worden geconverteerd naar synchrone klanten in Commerce Headquarters.
 
 ### <a name="customer-creation-in-pos-offline-mode"></a>Klant maken in offlinemodus van POS
 

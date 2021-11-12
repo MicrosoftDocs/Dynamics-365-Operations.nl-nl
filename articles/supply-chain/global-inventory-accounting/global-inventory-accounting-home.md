@@ -10,21 +10,21 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 3e1dbb97ba56b5910dda368b9ec15e27a683dde5
-ms.sourcegitcommit: 5c0a0adeb859cc1ade6f067444f3bf08a895b35a
+ms.openlocfilehash: 954a3bcdf6ad163afd2596227ce2c8548fe37027
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/27/2021
-ms.locfileid: "7557387"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678490"
 ---
 # <a name="global-inventory-accounting-home-page"></a>Startpagina van Algemene voorraadboekhouding (Global Inventory Accounting)
 
-[!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Internationale organisaties staan onder druk van overheden om te voldoen aan lokale en globale boekhoudstandaarden. De voorraadwaardering kan een belangrijke rol spelen om te zorgen voor compliance. De invoegtoepassing Algemene voorraadboekhouding voor Microsoft Dynamics 365 Supply Chain Management is een uitgebreide oplossing waarmee organisaties (met name internationale organisaties) meerdere kostprijsboekhoudgrootboeken kunnen gebruiken om voorraadboekhouding uit te voeren. Daarom kunnen deze organisaties zich tegelijkertijd houden aan meerdere boekhoudregels en de interne boekhouding voor het management.
 
-Met Algemene voorraadboekhouding kunt u voorraad in meerdere representaties vastleggen door de juiste waarderingsmethode (standaardkosten, gemiddelde of specifieke identificatie) en de geselecteerde valuta voor boekhouding per keer toe te passen. Met Algemene voorraadboekhouding kunnen organisaties voorraadoverzichten en boekhoudwaarden in subgrootboeken rapporteren (ook wel de voorraadbalans en de kosten van de verkochte goederen genoemd) in wat vaak 'dubbele waardering' wordt genoemd en/of 'dubbele valuta'.
+Met Algemene voorraadboekhouding kunt u voorraad in meerdere representaties vastleggen door de juiste waarderingsmethode (standaardkosten, gemiddelde of specifieke identificatie) en de geselecteerde valuta voor boekhouding per keer toe te passen. Met Algemene voorraadboekhouding kunnen organisaties voorraadoverzichten en boekhoudwaarden in de subadministratie rapporteren (ook wel de voorraadbalans en de kosten van de verkochte goederen genoemd) in wat vaak 'dubbele waardering' wordt genoemd en/of 'dubbele valuta'.
 
 Voorraadboekhouding wordt uitgevoerd in afzonderlijke grootboeken. Voor elke rechtspersoon in een organisatie kunnen indien nodig meerdere grootboeken voor de algemene voorraadboekhouding worden gemaakt. Er kunnen daarom meerdere voorraadweergaven worden verkregen. Alle documenten die in een rechtspersoon zijn geboekt (zoals inkooporders, verkooporders en transferorders) worden in alle kostprijsberekeningsgrootboeken vastgelegd die aan die rechtspersoon zijn gekoppeld.
 

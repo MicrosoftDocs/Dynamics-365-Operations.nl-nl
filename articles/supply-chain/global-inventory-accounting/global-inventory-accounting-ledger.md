@@ -10,21 +10,21 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e956bac61df4b694ef347b804fed139e9e22e6f95d1bac7ea483a07946cb110f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b29bb1aea9e96b5ef39303025cb286f0d1fde12c
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6722434"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678878"
 ---
 # <a name="global-inventory-accounting-ledger"></a>Grootboek voor Algemene voorraadboekhouding (Global Inventory Accounting)
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Algemene voorraadboekhouding heeft een eigen set grootboeken. Telkens wanneer een voorraadgerelateerde transactie wordt verwerkt voor een relevante rechtspersoon, kan het systeem die transactie in elk gewenst aantal grootboeken voor Algemene voorraadboekhouding verantwoorden.
 
-Een grootboek is een register met debet- en crediteenheden. Deze eenheden worden geclassificeerd met behulp van kostenelementen en grootboekrekeningen. Een grootboek van Algemene voorraadboekhouding wordt gedefinieerd door de combinatie van een valuta, een kalender, een conventie en een koppeling met een rechtspersoon.
+Een grootboek is een register met debet- en crediteenheden. Deze eenheden worden geclassificeerd met behulp van kostenelementen en subadministratierekeningen. Een grootboek van Algemene voorraadboekhouding wordt gedefinieerd door de combinatie van een valuta, een kalender, een conventie en een koppeling met een rechtspersoon.
 
 Als u grootboeken voor Algemene voorraadboekhouding wilt instellen, gaat u naar **Algemene voorraadboekhouding \> Instellingen \> Grootboeken voor Algemene voorraadboekhouding**. Stel voor elk grootboek de volgende velden in:
 

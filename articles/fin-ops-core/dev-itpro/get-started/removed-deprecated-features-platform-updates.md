@@ -2,7 +2,7 @@
 title: Verwijderde of afgeschafte Platform-functies
 description: In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de verwijdering is gepland in platformupdates van Finance and Operations-apps.
 author: sericks007
-ms.date: 09/27/2021
+ms.date: 10/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
-ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
+ms.openlocfilehash: 0065f5c101237de49ae362ecd3378ec5046dbf4b
+ms.sourcegitcommit: c4500b626667185643b3a2e7fc3a004d42198d07
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/02/2021
-ms.locfileid: "7595140"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7725044"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Verwijderde of afgeschafte Platform-functies
 
@@ -31,6 +31,64 @@ In dit onderwerp worden de functies beschreven die zijn verwijderd waarvoor de v
 Deze lijst is bedoeld om u de mogelijkheid te bieden voor uw eigen planning rekening te houden met deze verwijderingen en afschaffingen. 
 
 Gedetailleerde informatie over objecten in Finance and Operations-apps is te vinden in de [Rapporten met technische naslaginformatie](/dynamics/s-e/global/axtechrefrep_61). U kunt de verschillende versies van deze rapporten vergelijken voor meer informatie over objecten die zijn gewijzigd of verwijderd in elke versie van Finance and Operations-apps.
+
+## <a name="feature-removal-effective-october-2021"></a>Functie is verwijderd in oktober 2021
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Microsoft Azure SQL-rapporten in Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Alle activiteiten en monitoring worden intern uitgevoerd door het platform via automatisering. Er is geen handmatige tussenkomst nodig.|
+| **Vervangen door een andere functie?**   | Ja, er is nu een geautomatiseerd systeem, die deze mogelijkheden overbodig maken. |
+| **Betrokken productgebieden**         | SQL-rapporten: Huidige DTU, huidige DTU-details, Vergrendelingsdetails weergeven, Lijst met huidige planhandleiding, Lijst met query-ID's weergeven, het SQL-queryplan voor een bepaalde plan-ID opvragen, queryplannen en uitvoeringsstatus opvragen, statistieken van rapporten, statistieken weergeven en lijst met duur query's maken |
+| **Implementatieoptie**              | Cloudimplementatie: heeft gevolgen voor door Microsoft beheerde productieomgevingen en Tier 2 tot en met Tier 5-sandboxomgevingen. |
+| **Status**                         | Verwijderd |
+
+### <a name="azure-sql-actions-in-lcs"></a>SQL-acties voor Azure in LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Sommige SQL-acties in LCS worden afgeschaft. Alle activiteiten en monitoring worden intern uitgevoerd door het platform via automatisering. Er is geen handmatige tussenkomst nodig. |
+| **Vervangen door een andere functie?**   | Ja, er is nu een geautomatiseerd systeem, die deze mogelijkheden overbodig maken. |
+| **Betrokken productgebieden**         | SQL-acties: een planningshandleiding maken om Plan-ID af te dwingen, Een planhandleiding maken om tabelin hints toe te voegen, Planhandleiding verwijderen, paginavergrendelingen uitschakelen/inschakelen en escalatie vergrendelen, Statistieken van een tabel bijwerken, Index opnieuw maken, Index maken |
+| **Implementatieoptie**              | Cloudimplementatie: heeft gevolgen voor door Microsoft beheerde productieomgevingen en Tier 2 tot en met Tier 5-sandboxomgevingen. |
+| **Status**                         | Verwijderd |
+
+
+## <a name="feature-deprecation-effective-october-2021"></a>Functie is afgeschaft in oktober 2021
+
+### <a name="show-related-document-attachments-feature"></a>Functie 'Gerelateerde documentbijlagen tonen'
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | De functie retourneerde onverwachte resultaten. |
+| **Vervangen door een andere functie?**   | Nee. Verdere plannen met betrekking tot deze functionaliteit worden doorgegeven via het openbaarmakingsproces van onze standaard releasewave. |
+| **Betrokken productgebieden**         | Webclient - Voorziening voor documentbijlagen |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft  |
+
+## <a name="platform-updates-for-version-10023-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.23 van Finance and Operations-apps
+
+### <a name="ondbsynchronize-event"></a>Gebeurtenis OnDBSynchronize
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Er is geen besturingselement om deze gebeurtenis uit te voeren. |
+| **Vervangen door een andere functie?**   | Ja, verplaats bestaande methoden waarop de gebeurtenis **OnDBSynchronzie** is gegrondvest, naar een uitgebreide SysSetup-klasse. |
+| **Betrokken productgebieden**         | Databasesynchronisatie |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft. De geplande verwijderingsdatum is in oktober 2022. |
+
+
+### <a name="systemnotificationsmanageraddnotification-api"></a>API SystemNotificationsManager.AddNotification
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Reden voor afschaffing/verwijdering** | Microsoft heeft extra parameters nodig bij het toevoegen van meldingen. |
+| **Vervangen door een andere functie?**   | Ja, de API **SystemNotificationsManager.AddSystemNotification()**. Voor deze API moet u ExpirationDateTime en RuleID expliciet instellen voor gegenereerde meldingen. |
+| **Betrokken productgebieden**         | Webclient |
+| **Implementatieoptie**              | Alle |
+| **Status**                         | Afgeschaft. De geplande verwijderingsdatum is in april 2023. |
 
 ## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Platform updates voor versie 10.0.21 van Finance and Operations-apps
 
@@ -54,7 +112,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Vervangen door een andere functie?**   | Ja, er is nu een geautomatiseerd systeem, die deze mogelijkheden overbodig maken. |
 | **Betrokken productgebieden**         | SQL-rapporten: Huidige DTU, huidige DTU-details, Vergrendelingsdetails weergeven, Lijst met huidige planhandleiding, Lijst met query-ID's weergeven, het SQL-queryplan voor een bepaalde plan-ID opvragen, queryplannen en uitvoeringsstatus opvragen, statistieken van rapporten, statistieken weergeven en lijst met duur query's maken |
 | **Implementatieoptie**              | Cloudimplementatie: heeft gevolgen voor door Microsoft beheerde productieomgevingen en Tier 2 tot en met Tier 5-sandboxomgevingen. |
-| **Status**                         | Afgeschaft: geplande verwijderingsdatum in oktober 2021. |
+| **Status**                         | Afgeschaft: de geplande verwijderingsdatum is in oktober 2021. |
 
 ### <a name="azure-sql-actions-in-lcs"></a>SQL-acties voor Azure in LCS
 
@@ -64,7 +122,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Vervangen door een andere functie?**   | Ja, er is nu een geautomatiseerd systeem, die deze mogelijkheden overbodig maken. |
 | **Betrokken productgebieden**         | SQL-acties: een planningshandleiding maken om Plan-ID af te dwingen, Een planhandleiding maken om tabelin hints toe te voegen, Planhandleiding verwijderen, paginavergrendelingen uitschakelen/inschakelen en escalatie vergrendelen, Statistieken van een tabel bijwerken, Index opnieuw maken, Index maken |
 | **Implementatieoptie**              | Cloudimplementatie: heeft gevolgen voor door Microsoft beheerde productieomgevingen en Tier 2 tot en met Tier 5-sandboxomgevingen. |
-| **Status**                         | Afgeschaft: geplande verwijderingsdatum in oktober 2021. |
+| **Status**                         | Afgeschaft: de geplande verwijderingsdatum is in oktober 2021. |
 
 ## <a name="feature-deprecation-effective-may-2021"></a>Kennisgeving van afschaffing van functie met ingang van mei 2021
 
@@ -76,7 +134,7 @@ Gedetailleerde informatie over objecten in Finance and Operations-apps is te vin
 | **Vervangen door een andere functie?**   | Ja, deze functie wordt vervangen door [Problemen zoeken in LCS](../lifecycle-services/issue-search-lcs.md) en de [Dynamics-service voor het indienen van wettelijke waarschuwingen](../lcs-solutions/submit-localization-alerts.md). |
 | **Betrokken productgebieden**         | Globalisatie-portal in LCS|
 | **Implementatieoptie**              | Cloudimplementatie |
-| **Status**                         | Afgeschaft: geplande verwijderingsdatum in mei 2022. |
+| **Status**                         | Afgeschaft: de geplande verwijderingsdatum is in mei 2022. |
 
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Functie verwijderd met ingang van 28 januari 2021

@@ -11,23 +11,23 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 9c1eef91bcf7d1ce6379e87417be5a8b3be069e5
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 5f3ecfa388eac42a817d751b882f365a51fc57cf
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7575627"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678952"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Planning met onbeperkte capaciteit
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../../includes/preview-banner.md)] <!--KFM: Until 1/14/2022 -->
 
 Met de functie *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie* wordt planning op basis van routegegevens geïntroduceerd. Hiermee kunt u taken plannen op basis van een groot aantal route-instellingen. Bij het plannen voor Planningsoptimalisatie wordt gebruikgemaakt van vaak gehanteerde route-instellingen, waaronder de routebewerkingsvolgorde of vereisten voor bronnen voor routebewerkingen.
 
 ## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>De functie voor planning van onbeperkte capaciteit inschakelen
 
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
 
 - **Module:** *Hoofdplanning*
 - **Functienaam**: *Onbeperkte capaciteitsplanning voor Planningsoptimalisatie*

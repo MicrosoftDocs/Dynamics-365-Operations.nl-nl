@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-08-15
 ms.dyn365.ops.version: Release 10.0.22
-ms.openlocfilehash: fa61a20ffd9a31f800c48b71832be7547952119f
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 0ae5c8a2eea84a9aa707f7c2f6f29950f2f48faa
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472589"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675112"
 ---
 # <a name="order-lookup-module"></a>Module voor het opzoeken van orders
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 In dit onderwerp wordt de module voor het opzoeken van orders beschreven en wordt uitgelegd hoe u de module configureert in Microsoft Dynamics 365 Commerce.
 

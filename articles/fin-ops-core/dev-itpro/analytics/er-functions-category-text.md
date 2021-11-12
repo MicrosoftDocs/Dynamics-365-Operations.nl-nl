@@ -2,7 +2,7 @@
 title: Lijst met ER-functies van de tekstcategorie
 description: Dit onderwerp biedt informatie over de tekstfuncties die worden ondersteund in ER (Elektronische rapportage).
 author: NickSelin
-ms.date: 04/02/2020
+ms.date: 09/09/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b51fc00ba512677ccac9fcfbd26d2b0650f36f3b42eb81fc07d37417fb6d4d4d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b69b16e4a40b5370c3a73f2aee40a8a86b952d9e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741009"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647555"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Lijst met ER-functies van de tekstcategorie
 
@@ -40,7 +40,8 @@ ER-tekstfuncties kunnen worden gebruikt om bewerkingen uit te voeren op gegevens
 | [Links](er-functions-text-left.md) | Deze functie retourneert een waarde van het type *Tekenreeks* die het opgegeven aantal tekens vanaf het begin van de opgegeven tekenreeks bevat. |
 | [Len](er-functions-text-len.md) | Deze functie retourneert een waarde van het type *Geheel getal* die het opgegeven aantal tekens in de opgegeven tekenreeks bevat. |
 | [Lower](er-functions-text-lower.md) | Deze functie retourneert de opgegeven tekstreeks als een waarde van het type *Tekenreeks* nadat deze is geconverteerd naar kleine letters. |
-| [Mid](er-functions-text-mid.md) | Deze functie retourneert een waarde van het type *Tekenreeks* die het opgegeven aantal tekens vanaf de opgegeven positie van de opgegeven tekenreeks bevat. |
+| [Mid](er-functions-text-mid.md) | Deze functie retourneert een waarde van het type *[Tekenreeks](er-formula-supported-data-types-primitive.md#string)* die het opgegeven aantal tekens vanaf de opgegeven positie van de opgegeven tekenreeks bevat. |
+| [NewGUID](er-functions-text-newguid.md) | Deze functie retourneert een nieuw gegenereerde *[GUID](er-formula-supported-data-types-primitive.md#guid)*-waarde. |
 | [NumberFormat](er-functions-text-numberformat.md) | Deze functie retourneert een waarde van het type *Tekenreeks* die de opgegeven numerieke waarde in de opgegeven indeling en in een optioneel opgegeven cultuur bevat. |
 | [NumeralsToText](er-functions-text-numeralstotext.md) | Deze functie retourneert de opgegeven numerieke waarde als een waarde van het type *Tekenreeks* nadat deze is gespeld (geconverteerd naar tekstreeksen) in de opgegeven taal. |
 | [PadLeft](er-functions-text-padleft.md) | Deze functie retourneert een waarde van het type *Tekenreeks* met de opgegeven lengte, waarbij het begin van de opgegeven tekenreeks wordt aangevuld met een of meer van de opgegeven tekens. |

@@ -10,17 +10,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: cdb2d119e9b49887bb66fa737f97c3d91e5b793ceea1b2389072a02b5c463ba9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 369b6996c09f4bd1a4da8c7b3902221495c58bf2
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726848"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678806"
 ---
 # <a name="business-documents-supported-by-global-inventory-accounting"></a>Bedrijfsdocumenten die worden ondersteund door Algemene voorraadboekhouding
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Nadat de invoegtoepassing Algemene voorraadboekhouding volledig is ingesteld, kunnen voorraadgerelateerde documenten worden verwerkt die zijn ingevoerd in Microsoft Dynamics 365 Supply Chain Management.
 
@@ -75,7 +75,7 @@ De dimensies worden als volgt ingedeeld:
 
 In Algemene-voorraadboekhouding worden de operationele gebeurtenissen en metingen als invoer gebruikt. Vervolgens wordt op basis van de gekoppelde valuta en conventie de juiste boekhouding voor elk gerelateerd grootboek gebruikt. U kunt **Gebeurtenissen en metingen voor Algemene voorraadboekhouding** selecteren om de gebeurtenis voor Algemene voorraadboekhouding weer te geven. De Algemene voorraadboekhouding-gebeurtenis heeft dezelfde methodologie als bewerkingsgebeurtenissen, maar gebruikt verschillende metingen. Er zijn drie belangrijke metingstypen: de hoeveelheid van de productkosten, de productkosten en de afwijking.
 
-Grootboekrekeningen worden gebruikt om de metingen verder te classificeren. Er kunnen meerdere grootboeken zijn. Deze grootboeken zijn gekoppeld aan de rechtspersoon waar het document is ingevoerd. U kunt de gebeurtenissen en metingen voor elk grootboek weergeven door de waarde van het veld **Grootboek** te wijzigen.
+Subadministratierekeningen worden gebruikt om de metingen verder te classificeren. Er kunnen meerdere grootboeken zijn. Deze grootboeken zijn gekoppeld aan de rechtspersoon waar het document is ingevoerd. U kunt de gebeurtenissen en metingen voor elk grootboek weergeven door de waarde van het veld **Grootboek** te wijzigen.
 
 ### <a name="cost-element"></a>Kostenelement
 
@@ -89,4 +89,4 @@ Op het tabblad **Overzicht** ziet u de details van het gekoppelde beleid. Het ko
 
 Boek de factuur op de gebruikelijke manier. Selecteer vervolgens in het actievenster op het tabblad **Factuur** in de groep **Journalen** de optie **Factuur** om het factuurjournaal te openen. Voor elke regel worden een bewerkingsgebeurtenis en een Algemene voorraadboekhouding-gebeurtenis gegenereerd. Daarom selecteert u het tabblad **Regels** en selecteert u **Voorraad \> Gebeurtenissen en -metingen** om de pagina **Gebeurtenissen en metingen** te openen. Op de pagina **Gebeurtenissen en metingen** wordt hetzelfde metingtype weergegeven. Omdat de pagina echter een andere metingrol en metingmodificator toont, is het effect op de actor (rechtspersoon) verschillend.
 
-Selecteer **Gebeurtenissen en metingen voor Algemene voorraadboekhouding** om de Algemene voorraadboekhouding-gebeurtenis weer te geven. De voorraadhoeveelheid en -kosten stromen nu uit van de subgrootboekrekening *Ontvangen niet-gefactureerde voorraad* en naar de subgrootboekrekening *Kosten van ingekochte goederen*.
+Selecteer **Gebeurtenissen en metingen voor Algemene voorraadboekhouding** om de Algemene voorraadboekhouding-gebeurtenis weer te geven. De voorraadhoeveelheid en -kosten stromen nu uit de rekening van de subadministratie *Ontvangen niet-gefactureerde voorraad* naar de rekening van de subadministratie *Kosten van ingekochte goederen*.

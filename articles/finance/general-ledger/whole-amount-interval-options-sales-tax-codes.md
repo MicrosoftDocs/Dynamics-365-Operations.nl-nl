@@ -1,7 +1,7 @@
 ---
-title: Berekeningsopties Volledige bedrag en Interval voor btw-codes
-description: In dit artikel worden de opties voor het veld Berekeningsmethode voor btw-codes uitgelegd en wordt uitgelegd hoe btw wordt berekend voor intervallen en gehele bedragen.
-author: ShylaThompson
+title: Berekeningsopties Volledige bedrag en interval voor btw-codes
+description: In dit onderwerp worden de opties voor het veld Berekeningsmethode voor btw-codes uitgelegd en wordt uitgelegd hoe btw wordt berekend voor intervallen en gehele bedragen.
+author: kailiang
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,23 +12,23 @@ ms.reviewer: roschlom
 ms.custom: 5624
 ms.assetid: 96166db4-b7ca-470b-aeb7-0a66fe0554c4
 ms.search.region: Global
-ms.author: roschlom
+ms.author: kailiang
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb3d622f8a81c0eabc84fb165203aa193f5e7dd6ad148ff50a9f55c87453be9c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 44c4ce480de470b623f6faeff5a763bfcb05aecc
+ms.sourcegitcommit: 4f8465729d7ae0bf5150a2785a6140c984c7030e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731471"
+ms.lasthandoff: 10/31/2021
+ms.locfileid: "7726818"
 ---
-# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Berekeningsopties Volledige bedrag en Interval voor btw-codes
+# <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Berekeningsopties Volledige bedrag en interval voor btw-codes
 
 [!include [banner](../includes/banner.md)]
 
-In dit artikel worden de opties voor het veld Berekeningsmethode voor btw-codes uitgelegd en wordt uitgelegd hoe btw wordt berekend voor intervallen en gehele bedragen.
+In dit onderwerp worden de opties voor het veld **Berekeningsmethode** voor btw-codes uitgelegd en wordt uitgelegd hoe btw wordt berekend voor intervallen en gehele bedragen.
 
-U kunt een btw-code instellen die moet worden berekend op basis van het gehele bedrag of een intervalbedrag. Gebruik op de pagina Btw-codes het veld Berekeningsmethode op het sneltabblad Berekening om te selecteren hoe u een btw-code berekent.
+U kunt een btw-code instellen die moet worden berekend op basis van het gehele bedrag of een intervalbedrag. Gebruik op de pagina **Btw-codes** het veld **Berekeningsmethode** op het sneltabblad **Berekening** om te selecteren hoe u een btw-code berekent.
 - Volledige bedrag – Het btw-tarief wordt toegepast op het gehele belastbare bedrag.
 - Interval – Het belastbare bedrag is verdeeld in delen en elk deel valt in een bereik met een bepaald btw-tarief. Het deel van het bedrag dat in een bepaald interval valt, wordt belast volgens het btw-tarief voor dat interval. De btw is de som van de btw-bedragen die worden berekend voor elk intervalbedrag.
   > [!NOTE]                                                                                                                              

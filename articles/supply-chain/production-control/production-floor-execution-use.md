@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 63e26004b28f1ff6c760476933e1d524c0b40451
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 72fe7f8a6b05bd7c6fa242ef599e506a1178d913
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7569332"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678684"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Hoe werknemers de uitvoeringsinterface voor de werkvloer gebruiken
 
@@ -93,7 +93,6 @@ Het tabblad **Mijn machine** heeft de volgende kolommen. De nummers komen overee
 1. **Uitvaltijd registreren**: selecteer deze knop om een dialoogvenster te openen waarin u de uitvaltijd van machines kunt registreren. U kunt een redencode selecteren en een datum/tijd voor de uitvaltijd invoeren. De registratie van uitvaltijd van machines wordt gebruikt om de efficiëntie van de machineactiva te berekenen.
 1. **Weergeven of bewerken**: selecteer deze knop om een dialoogvenster te openen waarin u bestaande uitvaltijdrecords kunt bewerken of weergeven.
 
-
 ## <a name="starting-and-completing-production-jobs"></a>Productietaken starten en voltooien
 
 Werknemers starten een productietaak door een taak te selecteren op het tabblad **Alle taken** en vervolgens **Taak starten** te selecteren om het dialoogvenster **Taak starten** te openen.
@@ -109,6 +108,32 @@ Werknemers kunnen een taak met een willekeurige status starten. Wanneer een werk
 Wanneer werknemers een taak voltooien of gedeeltelijk voltooien, kunnen ze goede hoeveelheden rapporteren die zijn geproduceerd door een taak te selecteren op het tabblad **Actieve taken** en vervolgens **Voortgang rapporteren** te selecteren. Vervolgens voert de werknemer in het dialoogvenster **Voortgang rapporteren** de goede hoeveelheid in met het numerieke toetsenbord. De hoeveelheid is standaard leeg. Nadat een hoeveelheid is ingevoerd, kan de werknemer de status van de taak bijwerken naar *In uitvoering*, *Gestopt* of *Voltooid*.
 
 ![Dialoogvenster Voortgang rapporteren.](media/pfei-report-progress-dialog.png "Dialoogvenster Voortgang rapporteren")
+
+## <a name="reporting-good-quantities-on-batch-orders-that-have-co-products-and-by-products"></a>Goede hoeveelheden rapporteren voor batchorders met co- en bijproducten
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)] <!--KFM: GA with 10.0.23 -->
+
+Werknemers kunnen de uitvoeringsinterface voor de werkvloer gebruiken om de voortgang van batchorders te rapporteren. Deze rapportage omvat rapportage over co- en bijproducten.
+
+Sommige fabrikanten, met name die in procesindustrieën, gebruiken batchorders om hun productieprocessen te beheren. Batchorders worden gemaakt op basis van formules. U kunt deze formules zo definiëren dat deze co- en bijproducten als uitvoer hebben. Wanneer feedback over deze batchorders wordt gerapporteerd, moet de hoeveelheid uitvoer worden geregistreerd voor het formule-artikel en voor de co- en bijproducten.
+
+Wanneer een werknemer een taak voor een batchorder voltooit of gedeeltelijk voltooit, kan deze goede of uitvalhoeveelheden rapporteren voor elk product dat is gedefinieerd als uitvoer voor de order. Producten die zijn gedefinieerd als uitvoer voor een batchorder, kunnen van het type *Formule*, *Coproduct* of *Bijproduct* zijn.
+
+Als een werknemer goede hoeveelheden voor de producten wil rapporteren, selecteert deze een taak op het tabblad **Actieve taken** en selecteert deze vervolgens **Voortgang rapporteren**.
+
+Vervolgens kan de werknemer in het dialoogvenster **Voortgang rapporteren** producten selecteren die zijn gedefinieerd als uitvoer voor de batchorder waarover wordt gerapporteerd. De werknemer kan een of meer producten in de lijst selecteren en vervolgens **Voortgang rapporteren** selecteren. Voor elk product is de hoeveelheid standaard leeg en de werknemer kan de hoeveelheid invoeren op het numerieke toetsenbord. De werknemer kan de knoppen **Vorige** en **Volgende** gebruiken om tussen de geselecteerde producten te schakelen. Nadat een hoeveelheid is ingevoerd voor elk product, kan de werknemer de status van de taak bijwerken naar *In uitvoering*, *Gestopt* of *Voltooid*.
+
+![Rapporteren over co- en bijproducten.](media/report-co-by-products.png "Rapporteren over co- en bijproducten")
+
+### <a name="reporting-on-batch-orders-for-planning-items"></a>Rapporteren over batchorders voor planningsartikelen
+
+Wanneer een werknemer een taak voltooit voor een batchorder voor een planningsartikel, rapporteren ze alleen hoeveelheden voor co- en bijproducten, omdat planningsartikelen geen artikel van het type *Formule* bevatten.
+
+### <a name="reporting-co-product-variation"></a>Rapporteren over co-productvariaties
+
+Als een batchorder is gemaakt op basis van een formuleversie waarbij de optie **Co-productvariaties** is ingesteld op *Ja*, kan de werknemer rapporteren over co-producten die geen deel uitmaken van de definitie voor de batchorders. Deze functionaliteit wordt gebruikt in scenario's waarin tijdens het productieproces onverwachte productuitvoer kan plaatsvinden.
+
+In dit geval kan de werknemer het co-product en de hoeveelheid opgeven waarover deze wil rapporteren door **Co-productvariaties** te selecteren in het dialoogvenster voor voortgangsrapportage. De werknemer kan vervolgens kiezen uit alle vrijgegeven producten die als co-producten zijn gedefinieerd.
 
 ## <a name="reporting-scrap"></a>Uitval rapporteren
 

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: db1d9d2cddfab5ca5abb50cc3ecb9c841e06b8b7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a8f46165a89f064878d2e8af1b0b174b04eca37e
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7580979"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647309"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Nieuwe of gewijzigde functies in Dynamics 365 Supply Chain Management 10.0.20 (augustus 2021)
 
@@ -46,7 +46,7 @@ De meeste functies moeten worden ingeschakeld via [Functiebeheer](../../fin-ops-
 
 In de volgende tabel worden de functieverbeteringen weergegeven die deze versie bevat. Al deze functies bieden een incrementele verbetering van een bestaande functie. Aangezien het alleen verbeteringen zijn, worden ze niet weergegeven in het [releaseplan](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Om echter te voorkomen dat deze verbeteringen conflicteren met uw bestaande aanpassingen of voorkeuren, is elk van deze aanpassingen standaard uitgeschakeld (tenzij anders is aangegeven). Als u een van deze functies wilt gebruiken, moet u deze expliciet inschakelen in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Functiegebied | Functie&nbsp;naam&nbsp;in Functie&nbsp;beheer | Meer informatie |
+| Module | Functie&nbsp;naam&nbsp;in Functie&nbsp;beheer | Meer informatie |
 |---|---|---|
 | Hoofdplanning | Parallelle autorisatie van gecorrigeerde vraagprognose | Deze functie maakt parallelle autorisatie van gecorrigeerde vraagprognose via de pagina **Gecorrigeerde vraagprognose** mogelijk. Deze functie is bedoeld om de prestaties te verbeteren wanneer een groot aantal prognoses wordt geautoriseerd. Tijdens het autoriseren kan de gebruiker het **aantal threads** in het autorisatiedialoogvenster opgeven. |
 | Hoofdplanning | (Preview) Batchgewijs fiatteren en consolideren voor geplande batchorders voor bulk en verpakking | Met deze functie kunt u batchtaken gebruiken om geplande bulk- en verpakkingsorders te fiatteren en te consolideren. |

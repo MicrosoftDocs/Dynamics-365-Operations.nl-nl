@@ -2,7 +2,7 @@
 title: Verwijzingen naar oorspronkelijke facturen in creditnota's
 description: In dit onderwerp wordt uitgelegd hoe u de oorspronkelijke factuurnummers in gerelateerde creditnota's kunt instellen en afdrukken.
 author: ilkond
-ms.date: 01/12/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 6a5ac50c996f92f5cfa569ad00fa4b911827fd4ec8bddb2442bbd6ac67d1f33f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7147c5bea5273f385b004effe0844b5f4541a881
+ms.sourcegitcommit: 2113678369f47944f8725ca656f461fa159f87f6
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723842"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7700350"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Verwijzingen naar oorspronkelijke facturen in creditnota's
 
@@ -95,5 +95,10 @@ Wanneer u vrije tekst, klanten en projectcreditnota's afdrukt, bevatten deze de 
 > [!NOTE]
 > Zorg ervoor dat de afdrukbare indelingen van de documenten correct zijn geconfigureerd, op basis van de veronderstelling dat verwijzingen naar oorspronkelijke facturen worden afgedrukt.
 
+## <a name="references-to-original-invoices-in-debit-notes"></a>Verwijzingen naar oorspronkelijke facturen in debetnota's
+
+Standaard kunnen verwijzingen naar oorspronkelijke facturen worden ingevoerd voor creditnota's. U kunt bijvoorbeeld verwijzingen invoeren wanneer u negatieve (afnemende) correcties van oorspronkelijke facturen maakt.
+
+Als u verwijzingen wilt invoeren wanneer u positieve (verhogende) correcties van oorspronkelijke facturen maakt, moet u de functie **Verwijzingen naar oorspronkelijke facturen in debetnota's** in de werkruimte **Functiebeheer** inschakelen.  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: De ER-functie JSONVALUE
 description: Dit onderwerp biedt informatie over het gebruik van de ER-functie (Elektronische rapportage) JSONVALUE.
 author: NickSelin
-ms.date: 12/11/2019
+ms.date: 10/25/2021
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b034755602a2f999892d2b976c80550b7a3d7f3cd179816dd7aa1edefe6a0270
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff33098e5be4dd9748d01d45b596360617305724
+ms.sourcegitcommit: f8b597b09157d934b62bd5fb9a4d05b8f82b5a0e
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733768"
+ms.lasthandoff: 10/26/2021
+ms.locfileid: "7700058"
 ---
 # <a name="jsonvalue-er-function"></a>De ER-functie JSONVALUE
 
@@ -41,7 +41,7 @@ Het geldige pad van een gegevensbron van het type *Tekenreeks* die JSON-gegevens
 
 `path`: *Tekenreeks*
 
-De id van een scalaire waarde van JSON-gegevens.
+De id van een scalaire waarde van JSON-gegevens. Gebruik een slash (/) om de namen van gerelateerde JSON-knooppunten te scheiden. Gebruik de notatie met haakjes (\[\]) om de index van een bepaalde waarde in een JSON-matrix op te geven. Voor deze index wordt gebruik gemaakt van nummering op basis van nul.
 
 ## <a name="return-values"></a>Retourwaarden
 
@@ -49,13 +49,37 @@ De id van een scalaire waarde van JSON-gegevens.
 
 De resulterende tekstwaarde.
 
-## <a name="example"></a>Voorbeeld
+## <a name="example-1"></a>Voorbeeld 1
 
 De gegevensbron **JsonField** bevat de volgende gegevens in JSON-indeling: **{"BuildNumber":"7.3.1234.1", "KeyThumbprint":"7366E"}**. In dit geval retourneert de expressie `JSONVALUE (JsonField, "BuildNumber")` de volgende waarde van het gegevenstype *Tekenreeks*: **7.3.1234.1.**
 
-## <a name="additional-resources"></a>Aanvullende resources
+## <a name="example-2"></a>Voorbeeld 2
+
+De gegevensbron **JsonField** van het type *Berekend veld* bevat de volgende expressie: `"{""workers"": [ {""name"": ""Adam"", ""age"": 30, ""emails"": [""AdamS@Contoso.com"", ""AdamS@Hotmail.com"" ]}, { ""name"": ""John"", ""age"": 21, ""emails"": [""JohnS@Contoso.com"", ""JohnS@Aol.com""]}]}"`.
+
+Deze expressie die is geconfigureerd om een waarde van het type [*Tekenreeks*](er-formula-supported-data-types-primitive.md#string) te retourneren vertegenwoordigt de volgende gegevens in de JSON-indeling.
+
+```json
+{
+    "workers": [
+        {
+            "name": "Adam",
+            "age": 30,
+            "emails": [ "AdamS@Contoso.com", "AdamS@Hotmail.com" ]
+        },
+        {
+            "name": "John",
+            "age": 21,
+            "emails": [ "JohnS@Contoso.com", "JohnS@Aol.com" ]
+        }
+    ]
+}
+```
+
+In dit geval retourneert de expressie `JSONVALUE(json, "workers/[1]/emails/[0]")` de volgende waarde van het gegevenstype *Tekenreeks*: `JohnS@Contoso.com`.
+
+## <a name="additional-resources"></a>Aanvullende bronnen
 
 [Tekstfuncties](er-functions-category-text.md)
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

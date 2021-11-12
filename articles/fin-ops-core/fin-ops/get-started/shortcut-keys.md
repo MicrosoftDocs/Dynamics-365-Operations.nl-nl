@@ -2,7 +2,7 @@
 title: Sneltoetsen
 description: Dit onderwerp biedt een overzicht van de sneltoetscombinaties die u kunt gebruiken wanneer u met Finance and Operations-apps werkt.
 author: jasongre
-ms.date: 10/05/2020
+ms.date: 10/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 749fc3655b1ad41fbe7dd4794fc4ca907f1c86b9ee4e92e2415e924058191ffa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7e700b841014e1e12560bf0ce9e5e012361ec397
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743166"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647531"
 ---
 # <a name="keyboard-shortcuts"></a>Sneltoetsen
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Met de volgende sneltoetsen kunt u snel en efficiënt gegevens invoeren in Finance and Operations-apps.
 
@@ -148,14 +149,15 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Schakelen tussen de geselecteerde rij en de koptekstrij                                                               | Alt+Shift+H                     |
 | De huidige kolom groter/kleiner maken (met de focus in de koptekstrij)                                                  | Pijl-rechts/-links        |
 | Rasterfilters openen voor de huidige kolom (met de focus in de koptekstrij)                                              | Enter                           |
+| Pas de grootte van de huidige kolom zo aan dat deze past bij de inhoud (met focus in de koptekstrij)                                           | V                               |
 
 ## <a name="input-control-shortcuts"></a>Sneltoetsen voor invoerbesturing
 
-| Gewenste bewerking                                                                   | Druk op                         |
+| Gewenste bewerking                                                                   | Druk op                          |
 |------------------------------------------------------------------------------|-------------------------------|
 | De hyperlink openen                                                           | Ctrl+Enter                    |
-| De sessiedatum invoeren in een datumveld                                       | M                         |
-| De huidige datum invoeren in een datumveld                                       | D                         |
+| De sessiedatum invoeren in een datumveld                                       | M                             |
+| De huidige datum invoeren in een datumveld                                       | D                             |
 | Zoekveld, keuzelijst met invoervak, datumkiezer, dialoogvenster voor beëindigen openen                         | Alt+Pijl-omlaag                |
 | Zoekveld, keuzelijst met invoervak, datumkiezer, dialoogvenster voor beëindigen sluiten                        | Esc                           |
 | Focus in een zoekopdracht plaatsen (wanneer de zoekopdracht al open is)                   | Alt+Pijl-omlaag                |
@@ -202,8 +204,8 @@ Vanaf platformupdate 11 kunnen gebruikers momenteel beschikbaar snelkoppelingen 
 | Het hulpmiddel Verplaatsen gebruiken (in de aanpassingsmodus)                                                                       | M                                   |
 | Het huidige besturingselement selecteren als het besturingselement dat moet worden verplaatst (als u het hulpmiddel Verplaatsen gebruikt en er nog geen besturingselement is geselecteerd om te verplaatsen)  | Spatiebalk of Enter                      |
 | Het te verplaatsen besturingselement wissen (als u het hulpmiddel Verplaatsen gebruikt)                                                                   | Esc                                 |
-| Naar de volgende positie voor het geselecteerde besturingselement gaan (wanneer u het hulpmiddel Verplaatsen gebruikt)                                          | Tab of Pijl-rechts of Pijl-omlaag    |
-| Naar de vorige positie voor het geselecteerde besturingselement gaan (wanneer u het hulpmiddel Verplaatsen gebruikt)                                      | Shift+Tab of Pijl-links of Pijl-omhoog |
+| Verplaats het geselecteerde besturingselement naar de volgende positie (wanneer u het hulpmiddel Verplaatsen gebruikt)                                              | Tab of Pijl-rechts of Pijl-omlaag    |
+| Verplaats het geselecteerde besturingselement naar de vorige positie (wanneer u het hulpmiddel Verplaatsen gebruikt)                                          | Shift+Tab of Pijl-links of Pijl-omhoog |
 | Het hulpmiddel Verbergen gebruiken (in de aanpassingsmodus)                                                                       | H                                   |
 | Instellen of het huidige besturingselement zichtbaar of verborgen is (als u het hulpprogramma Verbergen gebruikt)                                     | Spatiebalk of Enter                      |
 | Het hulpmiddel Overslaan gebruiken (in de aanpassingsmodus)                                                                       | K                                   |

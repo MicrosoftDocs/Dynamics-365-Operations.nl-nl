@@ -10,17 +10,16 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: cb03ccb208f19f540fefafd9964f74309736dc05
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: ccf827983694eab2037c73aa3251846b051e66f1
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7577475"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678562"
 ---
 # <a name="delay-tolerance-negative-days"></a>Vertragingstolerantie (negatieve dagen)
 
 [!include [banner](../../includes/banner.md)]
-[!INCLUDE [preview-banner](../../includes/preview-banner.md)]
 
 Door de functionaliteit voor vertragingstolerantie kan in Planningsoptimalisatie rekening worden houden met de waarde voor **Negatieve dagen** die is ingesteld voor behoefteplanningsgroepen. Deze wordt gebruikt om de vertragingstolerantieperiode te verlengen die wordt toegepast tijdens de hoofdplanning. Op deze manier voorkomt u dat u nieuwe aanvulorders maakt als het bestaande aanbod na korte tijd aan de vraag kan voldoen. Het doel van de functionaliteit is te bepalen of het zin heeft om een nieuwe aanvulorder voor een bepaalde vraag te maken.
 

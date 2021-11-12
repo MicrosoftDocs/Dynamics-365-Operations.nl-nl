@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 942b144c78176e9a00cdc12101e2948e8aa4685e
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 3485f0722b8b99d7dc2d6dab470fdcc465b1da3d
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579755"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678660"
 ---
 # <a name="manage-standard-cost-updates"></a>Updates voor standaardkosten beheren
 
@@ -43,8 +43,6 @@ Het volgende voorbeeld illustreert hoe de methoden met één versie en met twee 
 In het voorgaande voorbeeld werd één extra kostprijsberekeningsversie gebruikt om updates tijdens het jaar 2020 te beheren. Er kan meer dan een extra kostprijsberekeningsversie worden gebruikt, bijvoorbeeld een aparte versie voor elke batch met updates. Wanneer meer dan één extra kostprijsberekening wordt gebruikt, dan moet de terugval worden uitgedrukt als de actieve kosten, omdat de actieve kosten over meerdere kostprijsberekeningsversies zijn verdeeld.
 
 ## <a name="financial-dimensions-for-the-standard-cost-revaluation"></a>Financiële dimensies voor de standaardkostenherwaardering
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Wanneer een nieuwe standaardprijs wordt geactiveerd, wordt de waarde van de voorhanden voorraad doorgaans geherwaardeerd met de transacties voor standaardkostenherwaardering. De financiële dimensies van het artikel worden vervolgens gewoonlijk geboekt op de transacties. Als u echter wilt bepalen of en hoe de financiële dimensies worden geboekt, gebruikt u [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de functie met de naam *Opties voor standaard financiële dimensies voor de standaardherwaardering van de kosten van de voorraad* in te schakelen. Nadat u deze functie hebt ingeschakeld, gaat u naar **Kostenbeheer > Instelling voor boekhoudingbeleid voorraad > Parameters** en stelt u de nieuwe vervolgkeuzelijst **Oorsprong van financiële dimensie** in op een van de volgende waarden:
 

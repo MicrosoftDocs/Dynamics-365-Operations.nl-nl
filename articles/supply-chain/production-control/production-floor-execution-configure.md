@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 15fcfd72027e081e633fe68209cf85f528ff02d7
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: fa5a618527ce5a20b59902e7397000bf0796cbbb
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7576923"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647184"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>De uitvoeringsinterface voor de werkvloer configureren
 
@@ -74,6 +74,12 @@ Met deze functie voegt u een Activabeheer-tabblad toe aan de interface voor het 
 Met deze functie kunt u een zoekveld aan de takenlijst toevoegen. Werknemers kunnen een specifieke taak vinden door de taak-ID in te voeren of alle taken voor een specifieke order zoeken door de order-ID in te voeren. Werknemers kunnen de ID invoeren met behulp van een toetsenblok of door een streepjescode te scannen. Als u hier gebruik van wilt maken, schakelt u de volgende functie in [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) in:
 
 - Taak zoeken voor de uitvoeringsinterface voor de werkvloer
+
+### <a name="enable-reporting-on-co-products-and-by-products"></a>Rapportage over co- en bijproducten mogelijk maken
+
+Met deze functie kunnen werknemers de uitvoeringsinterface voor de werkvloer gebruiken om de voortgang van batchorders te rapporteren. Deze rapportage omvat rapportage over co- en bijproducten. Als u deze functie wilt gebruiken, schakelt u in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) de volgende functie in:
+
+- Rapport over co- en bijproducten uit de uitvoeringsinterface op de productievloer
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Werken met uitvoeringsconfiguraties voor de werkvloer
 

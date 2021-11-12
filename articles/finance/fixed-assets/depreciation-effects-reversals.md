@@ -1,7 +1,7 @@
 ---
 title: Afschrijvingseffecten met omkeringen
 description: In dit artikel worden mogelijke implicaties van het terugboeken van een vaste-activatransactie beschreven.
-author: ShylaThompson
+author: moaamer
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: roschlom
 ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37f0412166404e6903819840debcdd0ab0630115dcdb68297e0072723adacb53
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9a8e5b1b7d468dbc37b295087815937fb49ad44f
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6760657"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674545"
 ---
 # <a name="depreciation-effects-with-reversals"></a>Afschrijvingseffecten met omkeringen
 
@@ -30,14 +30,14 @@ In dit artikel worden mogelijke implicaties van het terugboeken van een vaste-ac
 
 U kunt vaste-activatransacties omkeren, net als de transacties die zijn gekoppeld aan een vast activum. U kunt een omgekeerde transactie ook intrekken. 
 
-U kunt een transactie omkeren of intrekken, zolang als dit niet de meest recente transactie is die is geboekt op het boek voor het activum. U moet eerst bepalen of er geen afschrijvingstransacties zijn geboekt na de transactie die u wilt omkeren. De reden hiervoor is dat de afschrijving niet opnieuw wordt berekend wanneer u een transactie omkeert. Dit betekent dat afschrijvingen vaak te hoog of te laag zijn na de omkering, zoals wordt geïllustreerd in de voorbeelden. 
+U kunt een transactie omkeren of intrekken, zolang als dit niet de meest recente transactie is die is geboekt op het boek voor het activum. Bepaal eerst of er geen afschrijvingstransacties zijn geboekt na de transactie die u wilt omkeren. Deze stap is nodig omdat afschrijving niet opnieuw wordt berekend wanneer u een transactie omkeert. Dit betekent dat afschrijvingen vaak te hoog of te laag zijn na de omkering, zoals wordt geïllustreerd in de voorbeelden. 
 
 Als u ervoor wilt zorgen dat de afschrijving juist is wanneer u een transactie omkeert, gaat u niet door met de omkering als u een bericht ontvangt waarin wordt uitgelegd dat de afschrijving niet opnieuw wordt berekend. Keer in plaats hiervan eerst de afschrijvingstransactie om die is geboekt na de transactie die u wilt omkeren, en ga vervolgens door met de omkering. U wordt niet gewaarschuwd voor herberekeningen van de afschrijving en u kunt doorgaan met de omkering. 
 
 In de volgende voorbeelden worden de berekeningen getoond die worden uitgevoerd als u het waarschuwingsbericht negeert en doorgaat zonder de afschrijvingstransacties eerst om te keren.
 
 ## <a name="example-1-depreciation-is-overstated"></a>Voorbeeld 1: een te hoge afschrijving
-Een activum wordt ingesteld op een levensduur van vijf jaar en een lineaire afschrijving (60 afschrijvingsperioden). In dit voorbeeld is de afschrijving te hoog.
+Een activum wordt ingesteld op een levensduur van vijf jaar en een lineaire afschrijving (60 afschrijvingsperioden). In dit voorbeeld is de afschrijving te hoog.
 #### <a name="asset-transaction-history"></a>Activumtransactiehistorie
 
 | Datum       | Transactietype                                                          | Bedrag                                    |
@@ -61,7 +61,7 @@ Een activum wordt ingesteld op een levensduur van vijf jaar en een lineaire afsc
 De afschrijving is 16,95 (1000 - 983,05) te hoog.
 
 ## <a name="example-2-depreciation-is-understated"></a>Voorbeeld 2: een te lage afschrijving
-Een activum wordt ingesteld op een levensduur van vijf jaar en een lineaire afschrijving (60 afschrijvingsperioden). In dit voorbeeld is de afschrijving te laag.
+Een activum wordt ingesteld op een levensduur van vijf jaar en een lineaire afschrijving (60 afschrijvingsperioden). In dit voorbeeld is de afschrijving te laag.
 #### <a name="asset-transaction-history"></a>Activumtransactiehistorie
 
 | Datum       | Transactietype                                                          | Bedrag                                      |

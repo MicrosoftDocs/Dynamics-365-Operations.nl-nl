@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: d77e1f3b5f8d558643b078dbe8e829e62f85120e4931d60224116a33f171fab3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c630580dd75a86085746b36726e9ee55a9db2af5
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721002"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713743"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Een e-commercesite voor B2B instellen
 
@@ -37,7 +37,7 @@ E-commercesites voor B2B bieden belangrijke mogelijkheden om de workflow te opti
 
 U hebt toegang tot siteniveau-instellingen in Site Builder via **Site-instellingen \> Extensies**. De volgende twee siteniveau-instellingen zijn van toepassing op B2B-scenario's:
 
-- **Betalingen van klantaccounts inschakelen**: met deze eigenschap kunnen gebruikers orders betalen via klantaccounts. De beschikbare waarden zijn **Ingeschakeld voor B2B-klanten**, **Ingeschakeld voor B2C-klanten**, **Ingeschakeld voor alle klanten** en **Uitgeschakeld voor alle klanten**. Als uw B2B-site klantaccounts ondersteunt, moet u **Ingeschakeld voor B2C-klanten** selecteren.
+- **Betalingen van klantaccounts inschakelen**: met deze eigenschap kunnen gebruikers orders betalen via klantaccounts. De beschikbare waarden zijn **Ingeschakeld voor B2B-klanten**, **Ingeschakeld voor B2C-klanten**, **Ingeschakeld voor alle klanten** en **Uitgeschakeld voor alle klanten**. Als uw B2B-site klantaccounts ondersteunt, moet u **Ingeschakeld voor B2B-klanten** selecteren.
 - **Limieten voor orderhoeveelheid inschakelen**: met deze eigenschap kunt u beperkingen instellen voor het aantal artikelen dat voor elk product of elke categorie kan worden besteld. De beschikbare waarden zijn **Ingeschakeld voor B2B-klanten**, **Ingeschakeld voor B2C-klanten**, **Ingeschakeld voor alle klanten** en **Uitgeschakeld voor alle klanten**.
 
 > [!NOTE]

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 3b415252ef93987765d8970cde6b45f397136afd
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b24aa8c342a3de647acc9cf0b4ec175ca24cef43
+ms.sourcegitcommit: e891a6cc0674d27b7e218fdf22ca5ba8ac3310d0
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7572644"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7648373"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>De klantportal installeren, instellen en bijwerken
 
@@ -41,7 +41,7 @@ In tegenstelling tot andere functies van Supply Chain Management, bevindt de kla
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Vereiste instellingen om de klantportal in te schakelen
 
-Nadat u hebt vastgesteld dat u over de vereiste licenties beschikt, kunt u Twee keer wegschrijven instellen zoals beschreven in de [Initiële synchronisatie-instructies voor Twee keer wegschrijven](/dynamics365/supply-chain/sales-marketing/enable-entity-map).
+Nadat u hebt vastgesteld dat u over de vereiste licenties beschikt, kunt u Twee keer wegschrijven instellen zoals beschreven in de [Initiële synchronisatie-instructies voor Twee keer wegschrijven](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-entity-map.md).
 
 Zorg ervoor dat u de volgende tabeltoewijzingen in twee keer wegschrijven inschakelt:
 

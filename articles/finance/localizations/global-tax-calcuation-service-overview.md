@@ -2,7 +2,7 @@
 title: Overzicht van belastingberekening
 description: In dit onderwerp worden het algehele bereik en de functies voor belastingberekening uitgelegd.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: caa7e458763b6ba6b2b85ab016a1aa2e53cee89a
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394581"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647052"
 ---
 # <a name="tax-calculation-overview"></a>Overzicht van belastingberekening
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Belastingberekening is een hyperschaalbare multitenantservice waarmee de Global Tax Engine het proces voor belastingbepaling en -berekening kan automatiseren en vereenvoudigen. De belastingengine kan volledig worden geconfigureerd. De elementen die kunnen worden geconfigureerd zijn onder andere het belastbare gegevensmodel, de belastingcode, de matrix voor belastingtoepasbaarheid en de formule voor het berekenen van belasting. De belastingengine wordt uitgevoerd op het Microsoft Azure-platform voor kernservices en biedt geavanceerde technologie en exponentiële schaalbaarheid.
 
@@ -120,6 +118,10 @@ De volgende transacties worden ondersteund in versie 10.0.21:
     - Transferorder – verzenden
     - Transferorder – ontvangen
 
+De volgende transacties worden ondersteund in versie 10.0.23: 
+
+- Vrije-tekstfactuur
+
 ## <a name="supported-countriesregions"></a>Ondersteunde landen/regio's
 
 Belastingberekening kan per rechtspersoon worden ingeschakeld. 
@@ -145,6 +147,28 @@ De volgende landen/regio's voor het primaire adres van een rechtspersoon worden 
 - Zwitserland
 - Verenigd Koninkrijk
 - Verenigde Staten
+
+De volgende landen/regio's voor het primaire adres van een rechtspersoon worden ondersteund in versie 10.0.22:
+
+- Australië
+- Bahrein
+- Canada
+- Egypte
+- Hongkong SAR
+- Koeweit
+- Nieuw-Zeeland
+- Oman
+- Qatar
+- Saoedi-Arabië
+- Zuid-Afrika
+- Verenigde Arabische Emiraten
+
+De volgende landen/regio's voor het primaire adres van een rechtspersoon worden ondersteund in versie 10.0.23:
+
+- Thailand
+- Japan
+- Maleisië
+- Singapore
 
 ## <a name="related-resources"></a>Gerelateerde bronnen
 

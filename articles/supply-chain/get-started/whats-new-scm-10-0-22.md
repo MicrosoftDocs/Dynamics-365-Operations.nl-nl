@@ -1,5 +1,5 @@
 ---
-title: Preview van Dynamics 365 Supply Chain Management 10.0.22 (November 2021)
+title: Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.22 (november 2021)
 description: In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management 10.0.22.
 author: kamaybac
 ms.date: 08/09/2021
@@ -10,19 +10,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 3f5166338aebe784fe7f95372a437d4ed660de77
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: a4f9e5a4a318ceaa45b6919e394e1ff335bfb193
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7579707"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678830"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10022-november-2021"></a>Preview van Dynamics 365 Supply Chain Management 10.0.22 (November 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10022-november-2021"></a>Wat is nieuw of gewijzigd in Dynamics 365 Supply Chain Management 10.0.22 (november 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in de preview van Microsoft Dynamics 365 Supply Chain Management versie 10.0.22. Deze versie heeft een buildnummer van 10.0.995 en is als volgt beschikbaar:
+In dit onderwerp worden de functies beschreven die nieuw of gewijzigd zijn in Microsoft Dynamics 365 Supply Chain Management versie 10.0.22. Deze versie heeft een buildnummer van 10.0.995 en is als volgt beschikbaar:
 
 - **Preview-versie:** september 2021
 - **Algemene beschikbaarheid van versie (zelfupdate):** oktober 2021
@@ -40,13 +39,12 @@ De volgende tabel vermeldt de functies die deze versie bevat. De kolom *Functie*
 
 In de volgende tabel worden de functieverbeteringen weergegeven die deze versie bevat. Al deze functies bieden een incrementele verbetering van een bestaande functie. Aangezien het alleen verbeteringen zijn, worden ze niet weergegeven in het [releaseplan](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planned-features). Om echter te voorkomen dat deze verbeteringen conflicteren met uw bestaande aanpassingen of voorkeuren, is elk van deze aanpassingen standaard uitgeschakeld (tenzij anders is aangegeven). Als u een van deze functies wilt gebruiken, moet u deze expliciet inschakelen in [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
-| Functiegebied | Functienaam in Functiebeheer | Meer informatie |
+| Module | Functienaam in Functiebeheer | Meer informatie |
 |---|---|---|
 | Kostenbeheer | Gerelateerde boekbonnen maken voor herwaarderingen van standaardkosten bij afronding | <p>Wanneer er een financiële voorraadboeking (zoals een verkooporderfactuur of voorraadtransactie) wordt gemaakt, maakt het systeem door deze functie een afzonderlijk boekstuk voor alle gerelateerde herwaarderingen van standaardkosten voor afronding van de kostprijs en koppelt dit aan het boekstuk van de financiële boeking als een gerelateerd boekstuk.</p><p>Zonder deze functie registreert het systeem herwaarderingen van standaardkostenafronding op dezelfde boekstukboeking. Dat gedrag kan soms tot gegevens met tegenstrijdige datums leiden, omdat bij de herwaarderingen de sessie- of systeemdatum wordt gebruikt, terwijl financiële boekingen de boekingsdatum gebruiken.</p> |
 | Gedistribueerde hybride topologie | *(Functiebeheer is niet vereist.)* | <p>Deze versie biedt een uitbreiding op de uitgaande ladingsplanningsmogelijkheden van de warehouse management-werkbelasting voor cloud- en edge-schaaleenheden.</p><p>Zie [Workloads voor magazijnbeheer voor cloud- en edgeschaaleenheden](../cloud-edge/cloud-edge-workload-warehousing.md) voor meer informatie.</p> |
 | Beheer voor technische wijzigingen | Varianten genereren voor technische producten | <p>Met deze functie kunt u verschillende varianten voor een engineeringproduct genereren op basis van de kleur, grootte, stijl of configuratiedimenssie.</p><p>Zie 'Varianten voor [engineeringproducten genereren'](../engineering-change-management/engineering-variants.md) voor meer informatie.</p> |
 | Voorraad- en magazijnbeheer | Integratie van voorraadzichtbaarheid met verschuiving van reservering | <p>Deze functie kan alleen worden ingeschakeld nadat de functie *Service voor voorraadzichtbaarheid* is ingeschakeld. Deze functie biedt functionaliteit om reserveringen te compenseren die zijn gemaakt op voorraadzichtbaarheid.</p><p>Zie [Voorraadzichtbaarheid reserveringen](../inventory/inventory-visibility-reservations.md) voor meer informatie.</p> |
-| Verkoopbeheer en marketing | Het aantal verkooporders beperken dat kan worden geselecteerd voor boeking | <p>Deze functie is automatisch ingeschakeld. Hiermee kunt u een veld **Max. aantal verkooporders voor het boeken** toevoegen aan de pagina **Parameters van module Klanten**. Met dit veld kunt u het maximum aantal verkooporders vastleggen, dat tijdens het boeken van bevestigingen, orderverzamellijsten, pakbonnen en facturen op de pagina met verkooporderlijsten geselecteerd kan worden. De standaardwaarde is *100*.</p><p>Deze functie zorgt ervoor dat de prestaties van de pagina met verkooporderlijsten worden verbeterd wanneer er een bepaald aantal verkooporders geselecteerd wordt. Dit heeft geen invloed op het aantal verkooporders dat door een periodieke taak kan worden verwerkt.</p> |
 
 ## <a name="new-and-updated-documentation-resources"></a>Nieuwe en bijgewerkte documentatiebronnen
 
@@ -63,7 +61,7 @@ De volgende Help-onderwerpen zijn onlangs toegevoegd of ingrijpend bijgewerkt. D
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Platform updates voor Finance and Operations-apps
 
-Microsoft Dynamics 365 Supply Chain Management 10.0.22 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.22 van Finance and Operations-apps (november 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md). <!-- KFM: Confirm link -->
+Microsoft Dynamics 365 Supply Chain Management 10.0.22 bevat platform updates. Zie voor meer informatie [Platformupdates voor versie 10.0.22 van Finance and Operations-apps (november 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-22.md).
 
 ### <a name="bug-fixes"></a>Correcties
 

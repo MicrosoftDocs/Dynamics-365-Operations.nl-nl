@@ -10,18 +10,31 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
-ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
+ms.openlocfilehash: 6ab5f6887cb60d3d0434b59cda82b44eca272d7e
+ms.sourcegitcommit: 60ade60f72fd0fa0683f7a3eaf93439d10cf3373
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485617"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655380"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>Nieuwe of gewijzigde functies in de mobiele app Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 In dit onderwerp worden de nieuwe functies, oplossingen, verbeteringen en bekende problemen genoemd voor elke vrijgegeven versie van de mobiele app Warehouse Management voor Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20110"></a>Versie 2.0.11.0
+
+Deze versie bevat de volgende nieuwe functies, verbeteringen en oplossingen voor fouten:
+
+- Extra ondersteuning voor gepropageerde velden.
+- Extra ondersteuning voor hardwaretoetsenbordnavigatie.
+- Verbeterde toegankelijkheid.
+- Verbeterde detailkaarten.
+- Verbeterde omleidingen voor menu-itemstappen.
+- Kleine verbeteringen in de gebruikersinterface.
+- Een probleem opgelost dat ertoe kan leiden dat de app vast loopt bij het scannen van streepjescodes.
+- Er zijn verschillende problemen opgelost die konden veroorzaken dat het systeem niet meer reageerde.
 
 ## <a name="version-20100"></a>Versie 2.0.10.0
 

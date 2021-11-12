@@ -2,7 +2,7 @@
 title: Aan de slag met belastingberekening
 description: In dit onderwerp wordt uitgelegd hoe u belastingberekening instelt.
 author: wangchen
-ms.date: 08/17/2021
+ms.date: 10/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
-ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
+ms.openlocfilehash: 2f26f8e5eafe29e88c26d3fb6cfa950466ec6be9
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7562121"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647429"
 ---
 # <a name="get-started-with-tax-calculation"></a>Aan de slag met belastingberekening
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 In dit onderwerp vindt u informatie over hoe u aan de slag met het berekenen van belasting. U wordt door de configuratiestappen geleid in Microsoft Dynamics Lifecycle Services (LCS), Regulatory Configuration Service (RCS), Dynamics 365 Finance en Dynamics 365 Supply Chain Management. Vervolgens wordt gekeken naar het gemeenschappelijke proces voor het gebruik van de functies voor belastingberekening in Finance- en Supply Chain Management-transacties.
 
@@ -41,29 +39,10 @@ De configuratie omvat vier hoofdstappen:
 
 Voordat u de procedures in dit onderwerp kunt voltooien, moet voor elk omgevingstype aan bepaalde vereisten zijn voldaan.
 
-### <a name="for-a-production-environment"></a>Voor een productieomgeving
-
-Voor een productieomgeving moet aan de volgende vereisten worden voldaan:
+Er moet aan de volgende vereisten zijn voldaan:
 
 - U moet toegang tot uw LCS-account hebben en u moet een LCS-project hebben geïmplementeerd met een Tier 2-omgeving (of hoger) waarop versie 10.0.21 of hoger van Dynamics 365 wordt uitgevoerd.
 - U moet een RCS-omgeving voor uw organisatie maken en u moet toegang tot uw account hebben. Zie [Overzicht Regulatory Configuration Service](rcs-overview.md) voor meer informatie over het maken van een RCS-omgeving.
-- De volgende functies moeten zijn ingeschakeld in de werkruimte **Functiebeheer** van uw geïmplementeerde Finance- of Supply Chain Management-omgeving, op basis van uw bedrijfsbehoeften:
-
-    - Service voor belastingberekening
-    - Meerdere btw-registratienummers ondersteunen
-    - Belasting in transferorder
-
-- De volgende functies moeten zijn ingeschakeld in de werkruimte **Functiebeheer** van uw geïmplementeerde RCS-omgeving.
-
-    - Globalisatiefuncties
-
-### <a name="for-a-test-environment-public-preview"></a>Voor een testomgeving (openbare preview-versie)
-
-Voor een testomgeving moet aan de volgende vereisten worden voldaan:
-
-- U moet toegang tot uw LCS-account hebben en u moet een LCS-project hebben geïmplementeerd met een Tier 2-omgeving (of hoger) waarop versie 10.0.21 of een latere versie van Dynamics 365 wordt uitgevoerd.
-- U moet een RCS-omgeving voor uw organisatie maken en u moet toegang tot uw account hebben. Zie [Overzicht Regulatory Configuration Service](rcs-overview.md) voor meer informatie over het maken van een RCS-omgeving.
-- U moet via een e-mail naar <taxcalc@microsoft.com> contact opnemen met Microsoft om de flighting in te schakelen in uw geïmplementeerde Finance- of Supply Chain Management-omgeving.
 - De volgende functies moeten zijn ingeschakeld in de werkruimte **Functiebeheer** van uw geïmplementeerde Finance- of Supply Chain Management-omgeving, op basis van uw bedrijfsbehoeften:
 
     - Service voor belastingberekening
@@ -87,7 +66,7 @@ Voor een testomgeving moet aan de volgende vereisten worden voldaan:
 De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon. U hoeft deze procedure maar één keer uit te voeren en u kunt dit in elke rechtspersoon in RCS doen.
 
 1. Meld u aan bij [RCS](https://marketing.configure.global.dynamics.com/).
-2. Voeg in het werkgebied **Elektronische rapportage** een nieuwe configuratieprovider toe. Gebruik uw bedrijfsnaam als de naam van de provider. Zie [Configuratieproviders maken en deze als actief markeren](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md) voor meer informatie.
+2. Voeg in de werkruimte **Elektronische rapportage** een nieuwe configuratieprovider toe. Gebruik uw bedrijfsnaam als de naam van de provider. Zie [Configuratieproviders maken en deze als actief markeren](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md) voor meer informatie.
 3. Selecteer de configuratieprovider die u zojuist hebt gemaakt en selecteer **Instellen als actief**.
 4. Selecteer de configuratieprovider **Microsoft** en selecteer vervolgens **Opslagplaatsen**.
 5. Selecteer in het veld **Type** de optie **Globaal**.
@@ -102,7 +81,7 @@ De stappen in deze sectie zijn niet gerelateerd aan een specifieke rechtspersoon
     | 10.0.20         | Belastingberekeningsconfiguratie 40.43.208 |
     | 10.0.21         | Belastingberekeningsconfiguratie 40.48.215 |
 
-9. Selecteer in het werkgebied **Globalisatiefuncties** **Functies**, selecteer de tegel **Belastingberekening** en kies **Toevoegen**.
+9. Selecteer in de werkruimte **Globalisatiefuncties** **Functies**, selecteer de tegel **Belastingberekening** en kies **Toevoegen**.
 10. Selecteer een van de volgende functietypen:
 
     - **Nieuwe functie**: maak een functie-instelling met lege inhoud.

@@ -2,7 +2,7 @@
 title: Navigatiemenumodule
 description: In dit onderwerp worden navigatiemenumodules beschreven en wordt aangegeven hoe u ze toevoegt aan sitepagina's in Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 486f20c26f97c236dfde2cbaedd8df434fe762947a6caa1c7cc03e4d244f4d47
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5379aa4496c1c448d147bb260689ebe38aaf903f
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761581"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713847"
 ---
 # <a name="navigation-menu-module"></a>Navigatiemenumodule
 
@@ -41,8 +41,8 @@ In de volgende afbeelding ziet u een voorbeeld van een navigatiemenu voor de Fab
 |---------------------------|-----------------------|-------------|
 | Bron                  | **Detailhandel**, **Handmatig ontwerp**, **Detailhandel en handmatig ontwerp** | Met de waarde **Detailhandel** kan de kanaalnavigatiehiërarchie uit Commerce Headquarters worden weergegeven in het navigatiemenu. Met **Handmatig ontwerp** kunnen statische menuopdrachten worden opgesteld. Bij **Detailhandel en handmatig ontwerp** is een combinatie van beide mogelijk. |
 | Categorieafbeeldingen weergeven | **True** of **False**    | Als deze eigenschap is ingeschakeld, worden in het navigatiemenu categorieafbeeldingen weergegeven die voor elke categorie zijn gedefinieerd in Commerce Headquarters. Toegevoegd in Commerce-release 10.0.14. |
-| Promoties weergeven | **True** of **False** | Wanneer deze eigenschap is ingeschakeld, kunnen promoties worden geconfigureerd met afbeeldingen, koppelingen en tekst. Deze eigenschap is toegevoegd in de Commerce-versie 10.0.17. |
-| Promoties toevoegen | Tekst, afbeelding of koppeling | Wanneer de eigenschap **Promoties weergeven** is ingeschakeld, kunt u tekst, een afbeelding of een koppeling als promotie-inhoud toevoegen aan het navigatiemenu. |
+| Reclameafbeeldingen weergeven | **True** of **False** | Wanneer deze eigenschap is ingeschakeld, kunnen promoties worden geconfigureerd met afbeeldingen, koppelingen en tekst. Deze eigenschap is toegevoegd in de Commerce-versie 10.0.17. |
+|Categorie voor promotie-inhoud toevoegen | Tekst, afbeelding of koppeling | Wanneer de eigenschap **Reclameafbeeldingen weergeven** is ingeschakeld, kunt u tekst, een afbeelding of een koppeling als promotie-inhoud toevoegen aan het navigatiemenu. |
 | Navigatiemenu met meerdere niveaus inschakelen | **True** of **False** | Wanneer deze eigenschap is ingeschakeld, kunnen in het navigatiemenu meerdere niveaus van de navigatiehiërarchie worden weergegeven. Deze functie is beschikbaar in de Commerce-versie 10.0.15. |
 | Aantal niveaus | geheel getal | Met deze eigenschap wordt het aantal niveaus bepaald dat moet worden weergegeven als de eigenschap **Navigatiemenu met meerdere niveaus inschakelen** is ingesteld op **Waar**. |
 | Statische menuopdracht| Matrix met waarden| Statische menuonderwerpen die de naam van een menuopdracht koppelen aan een statische sitepagina. U kunt menuonderwerpen maken onder andere menuopdrachten. Statische menu's worden standaard weergegeven op het hoofdniveau en worden toegevoegd aan de kanaalnavigatiehiërarchie als deze bestaat. |

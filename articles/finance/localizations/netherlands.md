@@ -13,12 +13,12 @@ ms.search.region: Netherlands
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4610e5eea83921dcecc9f4e20c47a0ba58fe42fb2699eb4963b03fda789e7748
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 91ed03ce52114db2cee38b071c9f006970039744
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766268"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674789"
 ---
 # <a name="netherlands-overview"></a>Overzicht Nederland
 
@@ -27,6 +27,7 @@ ms.locfileid: "6766268"
 Dit onderwerp bevat koppelingen naar documentatiebronnen voor Nederland. 
 
 - [Btw-aangifte](emea-nl-VAT-declaration.md)
+- [Nederland Intrastat](emea-nl-intrastat.md)
 - [Elektronische belastingaangiften (EVAT)](tasks/nl-00010-electronic-tax-declarations-evat.md)
 - [Semansys XBRL-integratie](tasks/nl-00003-semansys-xbrl-integration.md)
 - [Auditfile (XML Auditfile Financieel, XAF)](emea-nl-audit-file.md)

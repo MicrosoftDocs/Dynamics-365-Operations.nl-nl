@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c409b460df4c6a8b2f7811083e8c13c8fdfc186c09f859ecb91e2f3cc0b8b59f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2acb6d1c31f54a23a0b3c761e2147fa2dd43a161
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749121"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674947"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Overzicht van geautomatiseerde processen voor leveranciersfacturering
 
@@ -34,6 +34,7 @@ U kunt een aantal factureringsprocessen voor leveranciers in Leveranciers automa
 
 De automatiseringsprocessen kunnen worden gebruikt om de volgende taken uit te voeren:
 
+- Automatisch vooruitbetalingen op leveranciersfacturen toepassen
 - Automatisch geïmporteerde facturen indienen bij het werkstroomsysteem.
 - Productontvangstbonregels vereffenen met leveranciersfactuurregels in behandeling.
 - Boekingen simuleren voordat een leveranciersfactuur wordt geboekt.
@@ -46,7 +47,7 @@ De automatiseringsprocessen kunnen worden gebruikt om de volgende taken uit te v
 Als onderdeel van een contactloos factureringsproces van Leveranciers kunt u het systeem automatisch een geïmporteerde factuur laten indienen bij het werkstroomsysteem. Het proces wordt op de achtergrond uitgevoerd met een frequentie die u (per uur of per dag) opgeeft. De mogelijkheid om geïmporteerde facturen automatisch in te dienen bij het werkstroomsysteem vereist dat uw proces begint met een geïmporteerde factuur. Om ervoor te zorgen dat de factuur vanaf het begin tot het einde zonder handmatige interventie kan worden verwerkt, moet een geautomatiseerde boekingstaak worden opgenomen in de werkstroomconfiguratie.
 
 
-Facturen die gerelateerd zijn aan inkooporders (IO's) en facturen die een niet-IO-inkoopcategorie en niet-voorraadregels bevatten, kunnen automatisch bij het werkstroomsysteem worden ingediend. Facturen die handmatig worden ingevoerd en facturen die worden gemaakt met het werkgebied **Facturering via leverancierssamenwerking** moeten handmatig worden ingediend bij het werkstroomsysteem. De verwerking van vooruitbetalingen moet handmatig worden uitgevoerd voor geïmporteerde facturen. U kunt vooruitbetalingen handmatig toepassen voor of na het boeken van de geïmporteerde factuur. U kunt handmatig vooruitbetalingen toepassen op niet-geboekte standaardfacturen met de pagina **Leveranciersfacturen**. Na het boeken is de vereffende vooruitbetaling beschikbaar om handmatig toe te passen op andere facturen van deze leverancier op de pagina **Leveranciers** (**Leveranciers \> Algemeen \> Leveranciers \> Alle leveranciers \> tabblad Factuur \> Toepassen**).
+Facturen die gerelateerd zijn aan inkooporders (IO's) en facturen die een niet-IO-inkoopcategorie en niet-voorraadregels bevatten, kunnen automatisch bij het werkstroomsysteem worden ingediend. Facturen die handmatig worden ingevoerd en facturen die worden gemaakt met de werkruimte **Facturering via leverancierssamenwerking** moeten handmatig worden ingediend bij het werkstroomsysteem. De verwerking van vooruitbetalingen moet handmatig worden uitgevoerd voor geïmporteerde facturen. U kunt vooruitbetalingen handmatig toepassen voor of na het boeken van de geïmporteerde factuur. U kunt handmatig vooruitbetalingen toepassen op niet-geboekte standaardfacturen met de pagina **Leveranciersfacturen**. Na het boeken is de vereffende vooruitbetaling beschikbaar om handmatig toe te passen op andere facturen van deze leverancier op de pagina **Leveranciers** (**Leveranciers \> Algemeen \> Leveranciers \> Alle leveranciers \> tabblad Factuur \> Toepassen**).
 
 De automatiseringsfunctie voorziet in een flexibel kader waarmee u bedrijfsspecifieke regels kunt definiëren voor het indienen van geïmporteerde leveranciersfacturen bij het werkstroomsysteem en het vereffenen van geboekte productontvangstbonregels voor leveranciersfactuurregels in behandeling.
 

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a60fc00642a77d3dc595a6222727637f0d7cd588
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 0457190f2fc8cd0ed39e109e6720509b77b83566
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7475055"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678514"
 ---
 # <a name="use-the-inventory-visibility-app"></a>De app Voorraadzichtbaarheid gebruiken
 
@@ -63,8 +63,6 @@ Als u een voorhanden query wilt boeken, voert u de query in de aanvraagbody in. 
 ![Voorhanden query-instellingen](media/inventory-visibility-query-settings.png "Voorhanden query-instellingen")
 
 ### <a name="reservation-posting"></a>Reserveringen boeken
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Gebruik het tabblad **Reserveringen boeken** om een reserveringsaanvraag te boeken. Voordat u een reserveringsaanvraag kunt boeken, moet u de functie *OnHandReservation* inschakelen. Zie [Reserveringen van Voorraadzichtbaarheid](inventory-visibility-reservations.md) voor meer informatie over deze functie.
 

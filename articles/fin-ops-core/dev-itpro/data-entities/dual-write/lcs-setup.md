@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 2cfe6d882c5de763164ddb4a344cba2991c88783
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 9f461837c65c30eace3358c231618aedf428f487
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416646"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675292"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Instellingen voor twee keer wegschrijven van Lifecycle Services
 
@@ -28,8 +28,8 @@ In dit onderwerp wordt uitgelegd hoe u twee keer wegschrijven kunt inschakelen v
 
 U moet de integratie van Power Platform voltooien zoals beschreven in de volgende onderwerpen:
 
-+ [Power Platform-integratie: inschakelen tijdens de implementatie van de omgeving](../../power-platform/overview.md#enable-during-environment-deployment)
-+ [Power Platform-integratie: instellen na de implementatie van de omgeving](../../power-platform/overview.md#set-up-after-environment-deployment)
++ [Power Platform-integratie: inschakelen tijdens de implementatie van de omgeving](../../power-platform/enable-power-platform-integration.md#enable-during-deploy)
++ [Power Platform-integratie: inschakelen na de implementatie van de omgeving](../../power-platform/enable-power-platform-integration.md#enable-after-deploy)
 
 ## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Twee keer wegschrijven instellen voor nieuwe Dataverse-omgevingen
 
@@ -64,7 +64,7 @@ Als u twee keer wegschrijven wilt instellen voor een bestaande Dataverse-omgevin
 + De Dataverse-organisatie-ID of Power Platform-omgevings-ID van Power Platform Beheercentrum. Vraag in uw ticket om de ID te gebruiken voor Power Platform-integratie.
 
 > [!NOTE]
-> U kunt omgevingen niet ontkoppelen met behulp van LCS. Als u een omgeving wilt ontkoppelen, opent u het werkgebied **Gegevensintegratie** in de Finance and Operations-omgeving en selecteert u **Koppeling verbreken**.
+> U kunt omgevingen niet ontkoppelen met behulp van LCS. Als u een omgeving wilt ontkoppelen, opent u de werkruimte **Gegevensintegratie** in de Finance and Operations-omgeving en selecteert u **Koppeling verbreken**.
 
 ## <a name="linking-mismatch"></a>Koppeling aan een verkeerde instantie
 

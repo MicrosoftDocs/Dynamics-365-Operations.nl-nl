@@ -15,20 +15,20 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e20367f4261d0112855f36c69c25cd732c78be7bb23d7c6333aea84db437d735
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 51c530fd0043a4ec5a82660af72c001be25b7e62
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769414"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647480"
 ---
 # <a name="mobile-device-user-settings"></a>Gebruikersinstellingen mobiel apparaat
 
 [!include [banner](../../includes/banner.md)]
 
-De nieuwe mobiele app Magazijnbeheer beschikt over een reeks app-specifieke instellingen waarmee een gebruikerservaring op maat kan worden gemaakt. Omdat de app kan worden gebruikt op apparaten met verschillende schermgrootten en -configuraties (zoals een tablet, telefoon of apparaat om je arm), kan het handig zijn deze instellingen centraal in Microsoft Dynamics 365 Supply Chain Management te beheren.
+De nieuwe mobiele app Warehouse Management beschikt over een reeks app-specifieke instellingen waarmee een gebruikerservaring op maat kan worden gemaakt. Omdat de app kan worden gebruikt op apparaten met verschillende schermgrootten en -configuraties (zoals een tablet, telefoon of apparaat om je arm), kan het handig zijn deze instellingen centraal in Microsoft Dynamics 365 Supply Chain Management te beheren.
 
-Met de functie voor *gebruikersinstellingen voor mobiele apparaten* kunt u algemene gebruikersinstellingen definiëren die op alle apparaten worden gebruikt. U kunt ook gedetailleerdere gebruikersinstellingen definiëren voor afzonderlijke apparaatmerken, apparaatmodellen en/of werknemers. Wanneer een werknemer zich aanmeldt bij de mobiele app Magazijnbeheer, wordt het meest specifieke instellingenprofiel opgehaald en toegepast dat is opgeslagen in Supply Chain Management voor het overeenkomende merk of apparaat of de overeenkomende gebruikers-id.
+Met de functie voor *gebruikersinstellingen voor mobiele apparaten* kunt u algemene gebruikersinstellingen definiëren die op alle apparaten worden gebruikt. U kunt ook gedetailleerdere gebruikersinstellingen definiëren voor afzonderlijke apparaatmerken, apparaatmodellen en/of werknemers. Wanneer een werknemer zich aanmeldt bij de mobiele app Warehouse Management, wordt het meest specifieke instellingenprofiel opgehaald en toegepast dat is opgeslagen in Supply Chain Management voor het overeenkomende merk of apparaat of de overeenkomende gebruikers-id.
 
 Deze functie kan werknemers sneller helpen aan de slag te gaan wanneer ze een nieuw apparaat in gebruik nemen. Hieronder volgen een aantal voorbeelden:
 
@@ -37,13 +37,13 @@ Deze functie kan werknemers sneller helpen aan de slag te gaan wanneer ze een ni
 - In Supply Chain Management kunnen beheerders alle opgeslagen instellingen weergeven en bewerken, zelfs voor afzonderlijke werknemers. Deze mogelijkheid kan ze helpen bij het oplossen van problemen of bij het afstemmen van nieuwe functies.
 
 > [!IMPORTANT]
-> De functie voor *gebruikersinstellingen voor mobiele apparaten* is alleen aanwezig in de nieuwe mobiele app Magazijnbeheer. Deze functie werkt niet met de oude magazijn-app.
+> De functie voor *gebruikersinstellingen voor mobiele apparaten* is alleen aanwezig in de nieuwe mobiele app Warehouse Management. Deze functie werkt niet met de oude magazijn-app.
 
 ## <a name="turn-on-the-mobile-device-user-settings-feature"></a>De functie voor gebruikersinstellingen voor mobiele apparaten in- of uitschakelen
 
-Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in het werkgebied **Functiebeheer** de functie als volgt in:
+Voordat u deze functie kunt gebruiken, moet deze zijn ingeschakeld in uw systeem. Beheerders kunnen gebruikmaken van de instellingen voor [functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) om de status van de functie te controleren en in te schakelen. Schakel in de werkruimte **Functiebeheer** de functie als volgt in:
 
-- **Module:** *Magazijnbeheer*
+- **Module:** *Warehouse Management*
 - **Functienaam:** *gebruikersinstellingen, pictogrammen en staptitels voor de nieuwe magazijnapp*
 
 ## <a name="create-and-manage-user-settings"></a>Gebruikersinstellingen maken en beheren
@@ -54,7 +54,7 @@ U kunt ook een instellingenprofiel definiëren dat van toepassing is op alle app
 
 Volg deze stappen om gebruikersinstellingen voor uw mobiele apparaten te maken en te beheren.
 
-1. Ga naar **Magazijnbeheer \> Mobiel apparaat \> Gebruikersinstellingen voor mobiele apparaten**.
+1. Ga naar **Warehouse Management \> Instellen \> Mobiel apparaat \> Gebruikersinstellingen voor mobiele apparaten**.
 1. Selecteer een bestaand gebruikersinstellingenprofiel in het lijstvenster om de record ervan te openen. U kunt ook **Nieuw** selecteren in het actievenster om een nieuw profiel te maken.
 
     Elk profiel in het lijstvenster wordt gelabeld met het merk, het model en/of de gebruikers-id waarop het profiel van toepassing is. Meer algemene profielen hebben de waarde *Alle* voor een aantal van deze kenmerken of al deze kenmerken.
@@ -63,7 +63,7 @@ Volg deze stappen om gebruikersinstellingen voor uw mobiele apparaten te maken e
 
     - **Merknaam van apparaat**: Selecteer de naam van het apparaatmerk waarop het profiel moet worden toegepast. Laat dit veld leeg als het profiel op alle merken moet worden toegepast. De lijst met waarden bevat alle merken die in uw systeem zijn gedefinieerd. Zie de volgende sectie voor informatie over het definiëren van de lijst met merken.
     - **Model-id van apparaat**: Selecteer het apparaatmodel waarop het profiel moet worden toegepast. Laat dit veld leeg als het profiel op alle modellen van het geselecteerde merk moet worden toegepast. De lijst met waarden bevat alle modellen die zijn gedefinieerd voor het merk dat is geselecteerd in het veld **Merknaam van apparaat**. Zie de volgende sectie voor informatie over het definiëren van de lijst met modellen voor elk merk.
-    - **Gebruikers-id:** Selecteer de gebruikers-id van de magazijnwerker op wie het instellingsprofiel moet worden toegepast. Laat dit veld leeg als het profiel op alle werknemers moet worden toegepast.
+    - **Gebruikers-id:** Selecteer de gebruikers-id van de magazijnwerknemer op wie het instellingsprofiel moet worden toegepast. Laat dit veld leeg als het profiel op alle werknemers moet worden toegepast.
 
 1. Stel op het sneltabblad **Algemeen** de volgende velden in:
 
@@ -83,7 +83,7 @@ Gebruik de pagina Pagina **Merken van mobiele apparaten** om de merken en modell
 
 Volg deze stappen om merken en modellen van uw mobiele apparaten te maken en te beheren.
 
-1. Ga naar **Magazijnbeheer \> Mobiel apparaat \> Merken van mobiele apparaten**.
+1. Ga naar **Warehouse management \> Instellen \> Mobiel apparaat \> Merken van mobiele apparaten**.
 1. Selecteer een merk van een mobiel apparaat in het lijstdeelvenster om de bijbehorende record te openen. U kunt ook **Nieuw** selecteren in het actievenster om een nieuw merk te maken.
 1. Stel in de headersectie van de record voor het nieuwe of geselecteerde apparaatmerk de volgende velden in:
 
@@ -97,5 +97,5 @@ Volg deze stappen om merken en modellen van uw mobiele apparaten te maken en te 
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 
-- [De mobiele app Magazijnbeheer installeren en verbinden](install-configure-warehouse-management-app.md)
+- [De mobiele app Warehouse Management installeren en verbinden](install-configure-warehouse-management-app.md)
 - [Stappictogrammen en -titels toewijzen voor de mobiele app Warehouse Management](step-icons-titles.md)

@@ -2,7 +2,7 @@
 title: Afschaffing van Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) Storage
 description: Dit onderwerp biedt informatie over de afschaffing van Microsoft Dynamics Lifecycle Services Storage (LCS) die is gepland als onderdeel van de implementatie van de algemene opslagplaats van RCS (Regulatory Configuration Service).
 author: JaneA07
-ms.date: 05/25/2021
+ms.date: 10/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: AX 10.0.19
-ms.openlocfilehash: 7a738af04da4425e76bd3b224400f91bc4eb8364d323da67ea457eaba9e65643
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68f1ed6a6d6bb0d15a81539da7f483ad71a4d696
+ms.sourcegitcommit: 477efa4cb138f41d4f68bcd82552af3473bcc3d9
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782193"
+ms.lasthandoff: 10/29/2021
+ms.locfileid: "7715225"
 ---
 # <a name="regulatory-configuration-service-rcs--lifecycle-services-lcs-storage-deprecation"></a>Afschaffing van Regulatory Configuration Service (RCS) – Lifecycle Services (LCS) Storage
 
@@ -38,8 +38,9 @@ Afschaffing van het gebruik van LCS als opslag is gecommuniceerd in [Verwijderde
 
 ## <a name="key-features"></a>Belangrijke functies
 
-- Met RCS kunt u configuraties maken en bewerken. U kunt deze configuraties vervolgens rechtstreeks van de ontwerper naar een verbonden toepassing pushen. Hierdoor kunt u uw configuraties snel wijzigen en testen.
-- De algemene opslagplaats is de gecentraliseerde opslag voor alle ER-configuraties.
+- Gebruik RFS om ER-configuraties en globalisatiefuncties te maken en te bewerken.
+- Push configuraties rechtstreeks van de RCS-ontwerper naar een gekoppelde toepassing, zoals een Dynamics 365 Finance-omgeving, zodat u snel wijzigingen in uw configuraties kunt aanbrengen en deze kunt testen.
+- Bewaar, deel en beheer de levenscyclus voor zowel ER-configuraties als globalisatiefuncties via de gecentraliseerde opslag van de algemene opslagplaats.
 
 ## <a name="guidance-for-one-time-and-ongoing-actions"></a>Richtlijnen voor eenmalige en doorlopende acties
 
@@ -53,11 +54,20 @@ Importeer alle vereiste configuraties van LCS naar RCS en publiceer deze vervolg
 2. Registreer in het ingerichte RCS-exemplaar voor elk LCS-project in de activabibliotheek met afgeleide ER-configuraties, de juiste LCS-opslagplaats.
 3. Importeer de ER-configuraties vanuit de LCS-opslagplaatsen naar RCS. Zie [Configuraties importeren vanuit LCS](../../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md) voor meer informatie.
 4. Als de algemene opslagplaats niet automatisch is opgegeven, registreert u deze in RCS.
-5. Upload alle afgeleide configuraties van het huidige RCS-exemplaar naar de algemene opslagplaats. Gebruik de functie **Configuratiepakketten waarmee de gebruiker in één bewerking alle configuraties naar GR kan uploaden** om bij het uploaden te helpen. Zie [Algemene RCS-opslagplaats uploaden](rcs-global-repo-upload.md) voor meer informatie.
+5. Upload alle afgeleide configuraties van het huidige RCS-exemplaar naar de algemene opslagplaats. Gebruik de functie **Configuratiepakketten** om te helpen bij het uploaden. Zie [Algemene RCS-opslagplaats uploaden](rcs-global-repo-upload.md) voor meer informatie.
 
 ### <a name="going-forward"></a>Verder
 
-Gebruik de visuele ontwerpers in RCS om alle nieuwe configuraties te maken. Upload vervolgens de configuraties naar de algemene opslagplaats voor opslag. Zie [ER-configuratie in RCS maken en uploaden naar de algemene opslagplaats](rcs-global-repo-upload.md) voor meer informatie.
+Gebruik de visuele ontwerpers in RCS voor de volgende doeleinden:
+
+- De door Microsoft geleverde sjablonen uitbreiden.
+- Nieuwe configuraties maken die uw organisatie nodig heeft.
+- Globalisatiefuncties aanpassen voor elektronische facturering en de belastingberekeningsservice.
+
+Gebruik de algemene opslagplaats voor de volgende doeleinden:
+
+- Toegang krijgen tot door Microsoft geproduceerde configuraties en globalisatiefuncties.
+- Configuraties die u hebt gemaakt of uitgebreid, uploaden naar de algemene opslagplaats voor opslag en deze gebruiken in de Dynamics 365-toepassingsomgevingen van uw organisatie of delen met externe organisaties. Zie [ER-configuratie in RCS maken en uploaden naar de algemene opslagplaats](rcs-global-repo-upload.md) voor meer informatie.
 
 ## <a name="frequently-asked-questions"></a>Veelgestelde vragen
 
@@ -76,3 +86,22 @@ Voor RCS wordt het concept van een *verbonden toepassing* gebruikt. Een verbonde
 ### <a name="are-there-any-examples-that-show-the-setup-and-management"></a>Zijn er voorbeelden waarin de instellingen en het beheer worden getoond?
 
 Er zijn geen voorbeelden, maar u kunt de stappen eerder in dit onderwerp uitvoeren om uw configuraties te migreren naar de algemene opslagplaats voor RCS.
+
+### <a name="is-rcs-a-prerequisite-to-configure-electronic-reporting"></a>Is RCS een voorwaarde voor het configureren van elektronische rapportage?
+
+Ja. RCS biedt mogelijkheden ter ondersteuning van het instellen van globalisatiefuncties die worden gebruikt door globalisatieservices, zoals elektronische facturering en de belastingberekeningsservice. De service heeft echter dezelfde visuele-ontwerperfunctionaliteit waarmee u ER-configuraties kunt uitbreiden of nieuwe ER-configuraties kunt maken. RCS biedt ook levenscyclusbeheer voor zowel ER-configuraties als globalisatiefuncties.
+
+### <a name="which-regions-can-rcs-be-deployed-in"></a>In welke regio's kan RCS worden geïmplementeerd?
+
+RCS is beschikbaar in de volgende Azure-regio's:
+
+- Verenigde Staten
+- India
+- Frankrijk
+- Europa
+
+Zie [Overzicht van Dynamics-globalisatieservices](globalization-services-overview.md) voor meer informatie over productondersteuning. Zie [Dynamics 365 en Power Platform: beschikbaarheid, gegevenslocatie, taal en lokalisatie](https://aka.ms/rcs/D365Productavailabilityguide) voor meer informatie over geografische ondersteuning.
+
+### <a name="whats-the-cost-of-using-rcs"></a>Wat zijn de kosten voor het gebruik van RCS?
+
+RCS en de algemene opslagplaats worden gratis geleverd als onderdeel van bestaande Finance and Operations-applicenties. Er zijn geen aparte kosten verbonden aan het gebruik van de ontwerpservice van RCS of het opslaan van configuraties in de algemene opslagplaats. Er is momenteel geen limiet voor het aantal configuraties of gekoppelde toepassingen.

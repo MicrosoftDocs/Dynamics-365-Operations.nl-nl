@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e199b350101e10ba3e424894f4dc9881d05c9558
-ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
+ms.openlocfilehash: bf02e8f90fb83acd8448339f411489851742af18
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7473400"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7674424"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Meertalige rapporten ontwerpen in Elektronische rapportage
 
 [!include[banner](../includes/banner.md)]
-
-[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Overzicht
 
@@ -233,7 +231,7 @@ Zoals eerder in dit onderwerp is beschreven, kunnen de kenmerken **Label** en **
 
 ## <a name="performance"></a><a name=performance></a>Prestaties
 
-Wanneer u een onderdeel van een ER-indeling configureert om een rapport te genereren in uw voorkeurs [taal](#language) of om een inkomend document te importeren waarbij de inhoud wordt geparsed door uw voorkeurstaal, wordt aanbevolen de functie **Voorkeurstaal van de huidige gebruiker voor ER-runs cachen** in het werkgebied [Functiebeheer](../../fin-ops/get-started/feature-management/feature-management-overview.md) in te schakelen. Deze functie zorgt voor betere prestaties, met name voor onderdelen van een ER-indeling die meerdere verwijzingen naar labels in ER-formules en -bindingen en een groot aantal [validatie](general-electronic-reporting-formula-designer.md#TestFormula)regels bevatten om gebruikersberichten in de taal van uw voorkeur te genereren.
+Wanneer u een onderdeel van een ER-indeling configureert om een rapport te genereren in uw voorkeurs [taal](#language) of om een inkomend document te importeren waarbij de inhoud wordt geparsed door uw voorkeurstaal, wordt aanbevolen de functie **Voorkeurstaal van de huidige gebruiker voor ER-runs cachen** in de werkruimte [Functiebeheer](../../fin-ops/get-started/feature-management/feature-management-overview.md) in te schakelen. Deze functie zorgt voor betere prestaties, met name voor onderdelen van een ER-indeling die meerdere verwijzingen naar labels in ER-formules en -bindingen en een groot aantal [validatie](general-electronic-reporting-formula-designer.md#TestFormula)regels bevatten om gebruikersberichten in de taal van uw voorkeur te genereren.
 
 ## <a name="additional-resources"></a>Aanvullende bronnen
 

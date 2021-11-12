@@ -1,6 +1,6 @@
 ---
-title: De mobiele app Magazijnbeheer installeren en verbinden
-description: In dit onderwerp wordt uitgelegd hoe u de mobiele app Magazijnbeheer op al uw mobiele apparaten installeert en configureert om verbinding te maken met uw Microsoft Dynamics 365 Supply Chain Management-omgeving.
+title: De mobiele app Warehouse Management installeren en verbinden
+description: In dit onderwerp wordt uitgelegd hoe u de mobiele app Warehouse Management op al uw mobiele apparaten installeert en configureert om verbinding te maken met uw Microsoft Dynamics 365 Supply Chain Management-omgeving.
 author: MarkusFogelberg
 ms.date: 02/03/2021
 ms.topic: article
@@ -16,37 +16,37 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e93aff4914314ea99798415a0bacc7b844169bc2
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 3a0a8555ac7c523af03401ab84af30f577777995
+ms.sourcegitcommit: 9e8d7536de7e1f01a3a707589f5cd8ca478d657b
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384606"
+ms.lasthandoff: 10/18/2021
+ms.locfileid: "7647615"
 ---
-# <a name="install-and-connect-the-warehouse-management-mobile-app"></a>De mobiele app Magazijnbeheer installeren en verbinden
+# <a name="install-and-connect-the-warehouse-management-mobile-app"></a>De mobiele app Warehouse Management installeren en verbinden
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> In dit onderwerp wordt beschreven hoe u de nieuwe mobiele app Magazijnbeheer configureert. Zie [De magazijnapp installeren en verbinden](../../supply-chain/warehousing/install-configure-warehousing-app.md) als u informatie zoekt over het configureren van de oude magazijnapp (die nu is afgeschaft).
+> In dit onderwerp wordt beschreven hoe u de nieuwe mobiele app Warehouse Management configureert. Zie [De magazijnapp installeren en verbinden](../../supply-chain/warehousing/install-configure-warehousing-app.md) als u informatie zoekt over het configureren van de oude magazijnapp (die nu is afgeschaft).
 
-In dit onderwerp wordt uitgelegd hoe u de mobiele app Magazijnbeheer downloadt en op al uw mobiele apparaten installeert en hoe u de app configureert om verbinding te maken met uw Supply Chain Management-omgeving. U kunt elk apparaat handmatig configureren of u kunt verbindingsinstellingen importeren via een bestand of door een QR-code te scannen.
+In dit onderwerp wordt uitgelegd hoe u de mobiele app Warehouse Management downloadt en op al uw mobiele apparaten installeert en hoe u de app configureert om verbinding te maken met uw Supply Chain Management-omgeving. U kunt elk apparaat handmatig configureren of u kunt verbindingsinstellingen importeren via een bestand of door een QR-code te scannen.
 
 ## <a name="system-requirements"></a>Systeemvereisten
 
-De mobiele app Magazijnbeheer is beschikbaar voor de besturingssystemen van zowel Windows als Google Android. Als u de app wilt gebruiken, moet een van de volgende besturingssystemen op uw mobiele apparaten zijn geïnstalleerd:
+De mobiele app Warehouse Management is beschikbaar voor de besturingssystemen van zowel Windows als Google Android. Als u de app wilt gebruiken, moet een van de volgende besturingssystemen op uw mobiele apparaten zijn geïnstalleerd:
 
 - Windows 10 (Universal Windows Platform \[UWP\]) oktober 2018 update 1809 (build 10.0.17763) of later
 - Android 4.4 of hoger
 
 ## <a name="turn-on-the-feature"></a>De functie inschakelen
 
-Voordat u een app kunt gebruiken, moet een gerelateerde functie zijn ingeschakeld in uw systeem. Beheerders kunnen het werkgebied [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
+Voordat u een app kunt gebruiken, moet een gerelateerde functie zijn ingeschakeld in uw systeem. Beheerders kunnen de werkruimte [Functiebeheer](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) gebruiken om de status van de functie te controleren en desgewenst in te schakelen. De functie wordt daar op de volgende manier weergegeven:
 
-- **Module:** *Magazijnbeheer*
+- **Module:** *Warehouse Management*
 - **Functienaam:** *gebruikersinstellingen, pictogrammen en staptitels voor de nieuwe magazijnapp*
 
-## <a name="get-the-warehouse-management-mobile-app"></a>De mobiele app Magazijnbeheer downloaden
+## <a name="get-the-warehouse-management-mobile-app"></a>De mobiele app Warehouse Management downloaden
 
 Voor kleinere implementaties kunt u de app vanuit de relevante store op elk apparaat installeren en vervolgens handmatig de verbinding configureren voor de omgevingen die u gebruikt.
 
@@ -56,23 +56,23 @@ Voor grotere implementaties kunt u de implementatie en/of configuratie van de ap
 
 De gemakkelijkste manier om de app op één apparaat te installeren, is de app te installeren vanuit een app store, die altijd de meest recente, algemene versie bevat. Microsoft Intune kan ook toepassingen ophalen van de app stores. Gebruik een van de volgende koppelingen om de app vanuit een app store te installeren:
 
-- **Windows (UWP):** [Magazijnbeheer in Microsoft Store](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
+- **Windows (UWP):** [Warehouse Management in Microsoft Store](https://www.microsoft.com/store/apps/9pd35cdqcmg3)
 
-- **Android:** [Magazijnbeheer in Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.WarehouseManagement)
+- **Android:** [Warehouse Management in Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.WarehouseManagement)
 
 ### <a name="download-the-app-from-microsoft-app-center"></a>De app downloaden vanuit Microsoft App Center
 
-In plaats daarvan kunt u de app downloaden via het Microsoft App Center. Het App Center voorziet in installeerbare pakketten die u extern kunt laden. Naast de huidige versie kunt u met het App Center ook eerdere versies downloaden en preview-versies weergeven met toekomstige functies die u kunt proberen. Gebruik een van de volgende koppelingen om huidige, vorige of preview-versies van de mobiele app Magazijnbeheer te downloaden vanuit het Microsoft App Center:
+In plaats daarvan kunt u de app downloaden via het Microsoft App Center. Het App Center voorziet in installeerbare pakketten die u extern kunt laden. Naast de huidige versie kunt u met het App Center ook eerdere versies downloaden en preview-versies weergeven met toekomstige functies die u kunt proberen. Gebruik een van de volgende koppelingen om huidige, vorige of preview-versies van de mobiele app Warehouse Management te downloaden vanuit het Microsoft App Center:
 
-- **Windows (UWP):** [Magazijnbeheer (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
+- **Windows (UWP):** [Warehouse Management (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
     Zie [Een build installeren vanuit App Center](/appcenter/distribution/installation) voor instructies voor het installeren van een gedownload pakket op een Windows-apparaat en het instellen van de vereiste certificaten.
 
-- **Android:** [Magazijnbeheer (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
+- **Android:** [Warehouse Management (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
     Als u een preview-versie downloadt, zijn er enkele extra stappen vereist om deze te installeren. Zie voor details [Android-apps testen](/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Een webservicetoepassing maken in Azure Active Directory
 
-Als u de mobiele app Magazijnbeheer wilt inschakelen voor interactie met een specifieke Supply Chain Management-server, moet u een webservicetoepassing voor de Supply Chain Management-tenant registreren in Azure Active Directory (Azure AD). In de volgende procedure wordt één manier weergegeven om deze taak te voltooien. Zie de koppelingen na de procedure voor gedetailleerde informatie en alternatieven.
+Als u de mobiele app Warehouse Management wilt inschakelen voor interactie met een specifieke Supply Chain Management-server, moet u een webservicetoepassing voor de Supply Chain Management-tenant registreren in Azure Active Directory (Azure AD). In de volgende procedure wordt één manier weergegeven om deze taak te voltooien. Zie de koppelingen na de procedure voor gedetailleerde informatie en alternatieven.
 
 1. Ga in een webbrowser naar [https://portal.azure.com](https://portal.azure.com/).
 1. Voer de naam en het wachtwoord in van de gebruiker die toegang heeft tot het Azure-abonnement.
@@ -96,7 +96,7 @@ Als u de mobiele app Magazijnbeheer wilt inschakelen voor interactie met een spe
 
 1. Selecteer in de lijst **Beheren** de optie **Certificaat en geheimen**. Selecteer vervolgens een van de volgende knoppen, afhankelijk van hoe u de app wilt configureren voor verificatie. (Zie de sectie [Verifiëren via een certificaat of clientgeheim](#authenticate) verderop in dit onderwerp voor meer informatie.)
 
-    - **Certificaat uploaden**: upload een certificaat voor gebruik als geheim. We raden deze benadering aan, omdat het veiliger is en ook meer kan worden geautomatiseerd. Als u de mobiele app Magazijnbeheer uitvoert op Windows-apparaten, noteert u de waarde voor **Vingerafdruk** die wordt weergegeven nadat u het certificaat hebt geüpload. U hebt deze waarde nodig wanneer u het certificaat op Windows-apparaten configureert.
+    - **Certificaat uploaden**: upload een certificaat voor gebruik als geheim. We raden deze benadering aan, omdat het veiliger is en ook meer kan worden geautomatiseerd. Als u de mobiele app Warehouse Management uitvoert op Windows-apparaten, noteert u de waarde voor **Vingerafdruk** die wordt weergegeven nadat u het certificaat hebt geüpload. U hebt deze waarde nodig wanneer u het certificaat op Windows-apparaten configureert.
     - **Nieuw clientgeheim**: maak een sleutel door een beschrijving en een duur voor de sleutel in te voeren in de sectie **Wachtwoorden** en selecteer vervolgens **Toevoegen**. Maak een kopie van de sleutel en sla deze veilig op.
 
     ![Certificaat en geheimen.](media/app-connect-azure-authentication.png "Certificaat en geheimen")
@@ -109,33 +109,40 @@ Zie de volgende bronnen voor meer informatie over het instellen van webserviceto
     - [Snelstart: Een toepassing registreren op het Microsoft-identiteitsplatform](/azure/active-directory/develop/quickstart-register-app)
     - [Procedure: de portal gebruiken om een Azure AD-toepassing en een service-principal te maken die toegang hebben tot bronnen](/azure/active-directory/develop/howto-create-service-principal-portal)
 
-## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Een gebruikersaccount in Supply Chain Management maken en configureren
+## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a><a name="user-azure-ad"></a>Een gebruikersaccount in Supply Chain Management maken en configureren
 
 Voer de volgende stappen uit om Supply Chain Management in staat te stellen om uw Azure AD-toepassing te gebruiken.
 
-1. Maak een gebruiker die met de gebruikersreferenties voor de mobiele app Magazijnbeheer overeenkomt:
+1. Maak een gebruiker die met de gebruikersreferenties voor de mobiele app Warehouse Management overeenkomt:
 
     1. Ga in Supply Chain Management naar **Systeembeheer \> Gebruikers \> Gebruikers**.
     1. Maak een gebruiker.
-    1. Wijs de gebruiker van het mobiele apparaat voor magazijnbeheer toe.
+    1. Wijs de rol *Warehouse Management voor gebruiker van mobiel apparaat* aan de gebruiker toe.
 
     ![Wijs de gebruiker van het mobiele apparaat voor magazijnbeheer toe.](media/app-connect-app-users.png "De gebruiker van het mobiele apparaat voor magazijnbeheer toewijzen")
 
-1. Koppel uw Azure AD-toepassing aan de gebruiker van de mobiele app Magazijnbeheer:
+1. Koppel uw Azure AD-toepassing aan de gebruiker van de mobiele app Warehouse Management:
 
     1. Ga naar **Systeembeheer \> Instellingen \> Azure Active Directory-toepassingen**.
-    1. Maak een regel.
-    1. Voer de client-id in waarvan u een notitie hebt gemaakt in de vorige sectie, geef deze een naam en selecteer de gebruiker die u zojuist hebt gemaakt. We adviseren u om al uw apparaten te labelen. Als een apparaat dan kwijtraakt, kunt u de toegang ervan tot Supply Chain Management eenvoudig verwijderen vanaf deze pagina.
+    1. Selecteer **Nieuw** in het actievenster om een regel te maken.
+    1. Voer in het veld **Client-id** de client-id in die u in de vorige sectie hebt genoteerd.
+    1. Voer in het veld **Naam** een naam in.
+    1. Selecteer in het veld **Gebruikers-id** de gebruikers-id die u zojuist hebt gemaakt.
 
     ![Azure Active Directory-toepassingen.](media/app-connect-aad-apps.png "Azure Active Directory-toepassingen")
+
+> [!TIP]
+> Eén manier om deze instellingen te gebruiken is door een client-id in Azure te maken voor al uw fysieke apparaten en vervolgens elke client-id aan de pagina **Azure Active Directory-toepassingen** toe te voegen. Als een apparaat nu zoekraakt, kunt u de toegang van het apparaat tot Supply Chain Management eenvoudig verwijderen door de client-id van die pagina te verwijderen. (Deze methode werkt, omdat in de verbindingsreferenties die op elk apparaat zijn opgeslagen, ook een client-id is opgeven, zoals verderop in dit onderwerp wordt beschreven.)
+>
+> Daarnaast worden de instellingen voor de standaardtaal, de nummernotatie en de tijdzone voor elke client-id ingesteld via de voorkeuren die zijn ingesteld voor de waarde **Gebruikers-id** die hier is toegewezen. Daarom kunt u deze voorkeuren gebruiken om op basis van de client-id standaardinstellingen in te stellen voor elk apparaat of elke verzameling apparaten. Deze standaardinstellingen worden echter overschreven als ze ook zijn gedefinieerd voor de *gebruikersaccount van de magazijn-app* die een werknemer gebruikt om zich op het apparaat aan te melden. (Zie [Gebruikersaccounts voor mobiele apparaten](mobile-device-work-users.md) voor meer informatie.)
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Verifiëren via een certificaat of clientgeheim
 
 Verificatie met Azure AD biedt een veilige manier om een mobiel apparaat te verbinden met Supply Chain Management. U kunt verifiëren via een clientgeheim of een certificaat. Als u verbindingsinstellingen gaat importeren, is het raadzaam een certificaat te gebruiken in plaats van een clientgeheim. Omdat het clientgeheim altijd veilig moet worden opgeslagen, kunt u het niet importeren vanuit een bestand met verbindingsinstellingen of een QR-code, zoals verderop in dit onderwerp wordt beschreven.
 
-Certificaten kunnen worden gebruikt als geheimen om de identiteit van de toepassing te bewijzen wanneer een token wordt aangevraagd. Het openbare gedeelte van het certificaat wordt geüpload naar de app-registratie in de Azure-portal, terwijl het volledige certificaat moet worden geïmplementeerd op elk apparaat waarop de mobiele app Magazijnbeheer is geïnstalleerd. Uw organisatie is verantwoordelijk voor het beheer van het certificaat wat betreft rotatie en dergelijke. U kunt zelfondertekende certificaten gebruiken, maar u moet altijd met niet-exporteerbare certificaten werken.
+Certificaten kunnen worden gebruikt als geheimen om de identiteit van de toepassing te bewijzen wanneer een token wordt aangevraagd. Het openbare gedeelte van het certificaat wordt geüpload naar de app-registratie in de Azure-portal, terwijl het volledige certificaat moet worden geïmplementeerd op elk apparaat waarop de mobiele app Warehouse Management is geïnstalleerd. Uw organisatie is verantwoordelijk voor het beheer van het certificaat wat betreft rotatie en dergelijke. U kunt zelfondertekende certificaten gebruiken, maar u moet altijd met niet-exporteerbare certificaten werken.
 
-U moet het certificaat lokaal beschikbaar maken voor elk apparaat waarop u de mobiele app Magazijnbeheer uitvoert. Zie [Certificaten voor verificatie gebruiken in Microsoft Intune](/mem/intune/protect/certificates-configure) voor informatie over het beheren van certificaten voor door Intune beheerde apparaten als u Intune gebruikt.
+U moet het certificaat lokaal beschikbaar maken voor elk apparaat waarop u de mobiele app Warehouse Management uitvoert. Zie [Certificaten voor verificatie gebruiken in Microsoft Intune](/mem/intune/protect/certificates-configure) voor informatie over het beheren van certificaten voor door Intune beheerde apparaten als u Intune gebruikt.
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>De toepassing configureren door verbindingsinstellingen te importeren
 
@@ -191,7 +198,7 @@ U kunt de gegevens opslaan als een JSON-bestand of een QR-code met dezelfde inho
 
 ### <a name="save-the-connection-settings-file-on-each-device"></a>Het bestand met de verbindingsinstellingen opslaan op elk apparaat
 
-Meestal gebruikt u een hulpprogramma voor apparaatbeheer of een script voor het distribueren van de bestanden met verbindingsinstellingen naar elk apparaat dat u beheert. Als u de standaardnaam en -locatie gebruikt wanneer u het bestand met verbindingsinstellingen opslaat op elk apparaat, wordt dit door de mobiele app Magazijnbeheer automatisch geïmporteerd, zelfs tijdens de eerste uitvoering nadat de app is geïnstalleerd. Als u een aangepaste naam of locatie voor het bestand gebruikt, moet de app-gebruiker de waarden opgeven tijdens de eerste uitvoering. De opgegeven naam en locatie worden echter naderhand door de app gebruikt.
+Meestal gebruikt u een hulpprogramma voor apparaatbeheer of een script voor het distribueren van de bestanden met verbindingsinstellingen naar elk apparaat dat u beheert. Als u de standaardnaam en -locatie gebruikt wanneer u het bestand met verbindingsinstellingen opslaat op elk apparaat, wordt dit door de mobiele app Warehouse Management automatisch geïmporteerd, zelfs tijdens de eerste uitvoering nadat de app is geïnstalleerd. Als u een aangepaste naam of locatie voor het bestand gebruikt, moet de app-gebruiker de waarden opgeven tijdens de eerste uitvoering. De opgegeven naam en locatie worden echter naderhand door de app gebruikt.
 
 Telkens wanneer de app wordt gestart, worden de verbindingsinstellingen van de vorige locatie opnieuw geïmporteerd om te bepalen of er wijzigingen zijn aangebracht. De app werkt alleen verbindingen bij die dezelfde naam hebben als de verbindingen in het bestand met verbindingsinstellingen. Door de gebruiker gemaakte verbindingen waarbij andere namen worden gebruikt, worden niet bijgewerkt.
 
@@ -211,7 +218,7 @@ Gewoonlijk worden de paden automatisch gemaakt na de eerste uitvoering van de ap
 
 Volg deze stappen om verbindingsinstellingen te importeren vanuit een bestand of een QR-code.
 
-1. Start de mobiele app Magazijnbeheer op uw mobiele apparaat. De eerste keer dat u de app start, wordt een welkomstbericht weergegeven. Selecteer **Een verbinding selecteren**.
+1. Start de mobiele app Warehouse Management op uw mobiele apparaat. De eerste keer dat u de app start, wordt een welkomstbericht weergegeven. Selecteer **Een verbinding selecteren**.
 
     ![Welkomstbericht.](media/app-configure-welcome-screen.png "Welkomstbericht")
 
@@ -242,7 +249,7 @@ Volg deze stappen om verbindingsinstellingen te importeren vanuit een bestand of
 
 Als u geen bestand of QR-code hebt, kunt u de app handmatig configureren op het apparaat zodat deze verbinding maakt met de Supply Chain Management-server via de Azure AD-toepassing.
 
-1. Start de mobiele app Magazijnbeheer op uw mobiele apparaat.
+1. Start de mobiele app Warehouse Management op uw mobiele apparaat.
 1. Selecteer **Verbindingsinstellingen** als de app is gestart in de **demonstratiemodus**. Als de pagina **Aanmelden** wordt weergegeven wanneer de app wordt gestart, selecteert u **Verbinding wijzigen**.
 1. Selecteer **Verbinding instellen**.
 

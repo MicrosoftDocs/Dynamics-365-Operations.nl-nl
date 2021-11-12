@@ -10,19 +10,19 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 0b00de29a4f12719e469c063861b52e0fc20c5f1
-ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
+ms.openlocfilehash: 95a57e30dd8ff4e177ab2958c1d2a19a90c3894e
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/13/2021
-ms.locfileid: "7641106"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678612"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Power BI inschakelen voor Algemene voorraadboekhouding
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
-U kunt tegels, dashboards en rapporten vastzetten vanuit uw [PowerBI.com](https://powerbi.com/)-account naar uw Microsoft Dynamics 365-toepassingswerkgebied.
+U kunt tegels, dashboards en rapporten vastzetten vanuit uw [PowerBI.com](https://powerbi.com/)-account naar uw Microsoft Dynamics 365-toepassingswerkruimte.
 
 ## <a name="prerequisites"></a>Vereisten
 

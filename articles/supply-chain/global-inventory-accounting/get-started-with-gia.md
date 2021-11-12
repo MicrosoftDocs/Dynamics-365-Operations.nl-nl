@@ -11,17 +11,17 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 90fcbdc5c9dd4301225952d885794bd4d03ef825fd5590896be13eacfad1f979
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cfba2b8320399cc2eb3f2231e8a172d902633f16
+ms.sourcegitcommit: 1e5a46271bf7fae2f958d2b1b666a8d2583e04a8
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773288"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7678854"
 ---
 # <a name="get-started-with-global-inventory-accounting"></a>Aan de slag met Algemene voorraadboekhouding (Global Inventory Accounting)
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)] <!--KFM: Until 4/30/2022 -->
 
 Met Algemene voorraadboekhouding kunt u meerdere voorraadboekingen uitvoeren in de grootboeken voor Algemene voorraadboekhouding die u hebt ingesteld. U moet elk grootboek voor Algemene voorraadboekhouding aan een *conventie* koppelen. Een conventie is een verzameling van de volgende typen boekhoudbeleidsregels:
 
@@ -60,7 +60,7 @@ Voordat u de functionaliteit van de invoegtoepassing kunt inschakelen, moet u de
 1. Schakel het selectievakje **Power Platformomgeving instellen** in het dialoogvenster in en selecteer **Instellingen**. Het instellen duurt doorgaans tussen de 60 en 90 minuten.
 1. Nadat de instelling van de Microsoft Power Platform-omgeving is voltooid, wordt op de pagina de naam van uw omgeving weergegeven. Verder wordt in de sectie **Power Platform-integratie** de melding 'De instelling van de Power Platform-omgeving is voltooid' weergegeven. Voor Algemene voorraadboekhouding is geen toepassing voor twee keer wegschrijven vereist.
 
-Zie [Instellen na de implementatie van de omgeving](../../fin-ops-core/dev-itpro/power-platform/overview.md#set-up-after-environment-deployment) voor meer informatie.
+Zie [Inschakelen na de implementatie van de omgeving](../../fin-ops-core/dev-itpro/power-platform/enable-power-platform-integration.md#enable-after-deploy) voor meer informatie.
 
 ### <a name="set-up-dataverse"></a>Dataverse instellen
 

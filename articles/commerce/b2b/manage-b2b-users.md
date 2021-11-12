@@ -2,7 +2,7 @@
 title: Gebruikers van zakenpartners op B2B-e-commercewebsite beheren
 description: In dit onderwerp wordt beschreven hoe beheerders gebruikers van zakenpartners op B2B-e-commercewebsites (business-to-business) kunnen toevoegen, bewerken en verwijderen.
 author: josaw1
-ms.date: 07/22/2021
+ms.date: 10/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f6cc1d5dfeb48fd00216fc1908e9e8be24f07131b3e5f1eaeefb10396efbebc3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 090dc9af49840e559b4c1ad1500718fde9764aa2
+ms.sourcegitcommit: 6bf9e18989e6d77497a9dda1c362f324b3c2fbf2
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734938"
+ms.lasthandoff: 10/27/2021
+ms.locfileid: "7713688"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gebruikers van zakenpartners op B2B-e-commercewebsite beheren
 
@@ -68,6 +68,18 @@ Volg deze stappen om een beheerdergebruiker van een zakenpartner in Commerce Hea
 1. Ga naar **IT retail en commerce \> Distributieschema** en voer de taak **1010** (**Klanten**) uit om de nieuwe klant- en klanthiërarchierecords in de kanaaldatabase op te nemen.
 
 Nadat de aanvraag is goedgekeurd en de klant- en klanthiërarchierecords met de kanaaldatabase zijn gesynchroniseerd, kan de aanvrager zich aanmelden bij de B2B-e-commercewebsite via het e-mailadres dat zij hebben opgegeven op het moment dat ze de aanvraag indienden. Gebruikers kunnen het aanmeldingsproces gebruiken om het wachtwoord voor hun account te definiëren. Als u wilt dat de identiteitsprovider (Azure AD B2C)-record wordt gekoppeld aan de B2B-klantrecord die is gemaakt bij het registreren of aanmelden, volgt u de instructies in [Automatisch koppelen van identiteitsrecords aan klantrekeningen inschakelen](../identity-record-linking.md).
+
+## <a name="notify-b2b-prospects-when-they-are-approved-or-rejected"></a>B2B-prospects waarschuwen wanneer ze zijn goedgekeurd of afgewezen
+
+Wanneer u een aanvraag voor onboarding van een B2B-prospect goedkeurt of afwijst, kunt u automatisch een e-mailmelding naar de prospect verzenden. 
+
+Volg deze stappen om e-mailmeldingen in Commerce Headquarters in te stellen voor gebeurtenissen van het meldingstype B2B-prospect goedgekeurd of B2B-prospect afgewezen.
+
+1. Maak e-mailsjablonen voor e-mails die worden verzonden naar prospects wanneer het meldingstype B2B-prospect goedgekeurd of B2B-prospect afgewezen wordt geactiveerd.
+
+    Zie [Meldingstypen](../email-templates-transactions.md#notification-types) voor informatie over de tijdelijke aanduidingen die de meldingstypen B2B-prospect goedgekeurd en B2B-prospect afgewezen ondersteunen. Zie [Een e-mailsjabloon maken](../email-templates-transactions.md#create-an-email-template) voor informatie over het maken van e-mailsjablonen. 
+
+1. Voeg de meldingstypen B2B-prospect goedgekeurd en B2B prospect afgewezen toe aan uw profiel voor e-mailmeldingen en wijs ze toe aan de e-mailsjablonen die u hebt gemaakt. Zie [Een profiel voor e-mailmeldingen instellen](../email-notification-profiles.md) voor meer informatie over hoe u profielen voor e-mailmeldingen instelt. 
 
 ## <a name="onboard-additional-business-partner-users"></a>Extra gebruikers van zakenpartners onboarden
 

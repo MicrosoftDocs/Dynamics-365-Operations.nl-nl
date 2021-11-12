@@ -1,8 +1,8 @@
 ---
 title: Overzicht van gegevensimport- en exporttaken
-description: Gebruik het werkgebied Gegevensbeheer om taken voor het importeren en exporteren van gegevens te maken en te beheren.
+description: Gebruik de werkruimte Gegevensbeheer om taken voor het importeren en exporteren van gegevens te maken en te beheren.
 author: peakerbl
-ms.date: 10/07/2021
+ms.date: 10/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dec8270417cb7237081aa49203ca93d76c0d02ed
-ms.sourcegitcommit: 132c3dbdd66bceb7596d329c34b2256c581a20fa
+ms.openlocfilehash: 51c7d678017bdd9388767500735e21e5374c9f29
+ms.sourcegitcommit: 1707cf45217db6801df260ff60f4648bd9a4bb68
 ms.translationtype: HT
 ms.contentlocale: nl-NL
-ms.lasthandoff: 10/07/2021
-ms.locfileid: "7612359"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7675364"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Overzicht van Gegevensimport- en exporttaken
 
 [!include [banner](../includes/banner.md)]
 
-Gebruik het werkgebied **Gegevensbeheer** om taken voor het importeren en exporteren van gegevens te maken en te beheren. Standaard wordt met het proces voor gegevensimport en -export een faseringstabel gemaakt voor elke entiteit in de doeldatabase. Met faseringstabellen kunt u gegevens verifiëren, opschonen of converteren voordat u deze verplaatst.
+Gebruik de werkruimte **Gegevensbeheer** om taken voor het importeren en exporteren van gegevens te maken en te beheren. Standaard wordt met het proces voor gegevensimport en -export een faseringstabel gemaakt voor elke entiteit in de doeldatabase. Met faseringstabellen kunt u gegevens verifiëren, opschonen of converteren voordat u deze verplaatst.
 
 > [!NOTE]
 > Dit onderwerp gaat ervanuit dat u vertrouwd bent met [gegevensentiteiten](data-entities.md).
@@ -69,6 +69,9 @@ Wanneer u een entiteit selecteert, moet u de indeling selecteren van de gegevens
 | XML                    | \-N.v.t.                                      | XML-element XML-kenmerk |
 | Gescheiden, vaste breedte | Komma, puntkomma, tab, verticale streep, dubbele punt | \-N.v.t.                     |
 
+> [!NOTE]
+> Het is belangrijk dat u de juiste waarde selecteert voor **Rijscheidingsteken**, **Kolomscheidingsteken** en **Tekstkwalificatie** als de optie **Bestandsindeling** is ingesteld op **Gescheiden**. Zorg ervoor dat uw gegevens niet het teken bevatten dat als scheidingsteken of kwalificatie wordt gebruikt , omdat dit kan leiden tot fouten tijdens het importeren en exporteren.
+
 ### <a name="sequence-the-entities"></a>De volgorde van de entiteiten bepalen
 Entiteiten kunnen worden geordend in een gegevenssjabloon of in import- en exporttaken. Wanneer u een taak met meer dan één gegevensentiteit uitvoert, moet u ervoor zorgen dat de gegevensentiteiten correct zijn geordend. U stelt voornamelijk een volgorde voor entiteiten in als er functionele afhankelijkheden tussen entiteiten bestaan. Als entiteiten geen functionele afhankelijkheden hebben, kunnen ze worden gepland voor parallel importeren of exporteren.
 
@@ -110,7 +113,7 @@ U kunt een toewijzing op de pagina genereren door **Brontoewijzing maken** te se
 ![Toewijzing van gegevens.](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>De beveiliging voor uw import- of exporttaak controleren
-De toegang tot het werkgebied **Gegevensbeheer** kan worden beperkt zodat niet-beheerders alleen toegang tot bepaalde gegevenstaken krijgen. Toegang tot een gegevenstaak houdt volledige toegang tot de uitvoeringshistorie van die taak en de faseringstabellen in. Daarom moet u ervoor zorgen dat passende toegangsbeperkingen zijn ingesteld wanneer u een gegevenstaak maakt.
+De toegang tot de werkruimte **Gegevensbeheer** kan worden beperkt zodat niet-beheerders alleen toegang tot bepaalde gegevenstaken krijgen. Toegang tot een gegevenstaak houdt volledige toegang tot de uitvoeringshistorie van die taak en de faseringstabellen in. Daarom moet u ervoor zorgen dat passende toegangsbeperkingen zijn ingesteld wanneer u een gegevenstaak maakt.
 
 ### <a name="secure-a-job-by-roles-and-users"></a>Een taak beveiligen op rollen en gebruikers
 Gebruik het menu **Toepasselijke rollen** om de taak tot een of meer beveiligingsrollen te beperken. Alleen gebruikers in deze rollen hebben toegang tot de taak.
