@@ -708,48 +708,6 @@
               href: general-ledger/electronic-messaging-work-with-em.md
             - name: Een eenvoudige export-ER-indeling aanroepen om een Excel-rapport te genereren
               href: general-ledger/electronic-messaging-example.md
-        - name: Onkostenbeheer
-          items:
-            - name: Overzicht van Onkostenbeheer
-              href: /dynamics365/project-operations/prod-exp/expense-management
-            - name: Opnieuw ontworpen onkostendeclaraties
-              href: /dynamics365/project-operations/prod-exp/ExpenseWorkspaceNew
-            - name: Onkostenbeheer plannen
-              href: /dynamics365/project-operations/prod-exp/plan-expense-management
-            - name: Parameters onkostenbeheer
-              href: /dynamics365/project-operations/prod-exp/Expense-Management-Parameters
-            - name: Mobiel werkgebied voor onkostenbeheer
-              href: /dynamics365/project-operations/prod-exp/expense-management-mobile-workspace
-            - name: Werkstromen instellen voor onkostenbeheer
-              href: /dynamics365/project-operations/prod-exp/expense-workflows
-            - name: Werkstroom voor onkostenbeheer
-              href: /dynamics365/project-operations/prod-exp/expense-workflow
-            - name: Onkostendelegering beheren
-              href: /dynamics365/project-operations/prod-exp/manage-expense-delegation
-            - name: Verwerking van onkostenkwitanties
-              href: /dynamics365/project-operations/prod-exp/expense-receipt-processing
-            - name: Creditcardtransacties importeren en onderhouden
-              href: /dynamics365/project-operations/prod-exp/import-credit-card
-            - name: Verdelingen in een onkostendeclaratie
-              href: /dynamics365/project-operations/prod-exp/expense-report-distributions
-            - name: Intercompany-onkosten
-              href: /dynamics365/project-operations/prod-exp/intercompany-expense
-            - name: Onkostenbeleid definiëren
-              href: /dynamics365/project-operations/prod-exp/travel-expense-policies
-            - name: Een onkostendeclaratie weergeven
-              href: /dynamics365/project-operations/prod-exp/view-expense-report
-            - name: Een onkostendeclaratie boeken
-              href: /dynamics365/project-operations/prod-exp/post-expense
-            - name: Onkostendeclaraties en meerdere goedkeurders
-              href: /dynamics365/project-operations/prod-exp/expense-report-multiple-approvers
-            - name: Btw-restitutie in Onkostenbeheer
-              href: /dynamics365/project-operations/prod-exp/VAT-expense-report
-            - name: Per diem-regels
-              href: /dynamics365/project-operations/prod-exp/per-diem
-            - name: Reisaanvragen
-              href: /dynamics365/project-operations/prod-exp/travel-req
-            - name: Persoonlijke onkosten in een onkostendeclaratie
-              href: /dynamics365/project-operations/prod-exp/personal-expenses
         - name: Vaste activa
           items:
             - name: Startpagina van Vaste activa
@@ -1248,9 +1206,7 @@
               href: finance-insights/finance-insights-home-page.md
             - name: Instellingen en administratie
               items:
-                - name: Finance Insights configureren voor openbare preview
-                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
-                - name: Finance Insights configureren voor beperkte preview
+                - name: Finance Insights configureren
                   href: finance-insights/configure-for-fin-insites.md
                 - name: Voorspellingen voor klantbetalingen inschakelen
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1288,88 +1244,6 @@
                   href: finance-insights/payment-snapshots.md
             - name: Veelgestelde vragen over probleemoplossing Finance Insights
               href: finance-insights/finance-insights-troubleshooting-faq.md
-        - name: Projectbeheer en boekhouding
-          items:
-            - name: Overzicht van Projectbeheer en boekhouding
-              href: /dynamics365/project-operations/prod-pma/overview-project-management-accounting
-            - name: Intercompany-facturering
-              href: /dynamics365/project-operations/prod-pma/intercompany-invoicing
-            - name: Intercompany-projectfacturering configureren
-              href: /dynamics365/project-operations/prod-pma/configure-intercompany-project-invoicing
-            - name: Standaardkosten voor arbeid en onkosten configureren
-              href: /dynamics365/project-operations/prod-pma/configure-standard-costs-labor-expenses
-            - name: Inhoudingstermijnen voor leveranciersbetalingen maken en toepassen
-              href: /dynamics365/project-operations/prod-pma/create-and-apply-vendor-payment-retention-terms
-            - name: Betalen bij betaling instellen en gebruiken voor leveranciersbetalingen
-              href: /dynamics365/project-operations/prod-pma/setup-manage-vendor-payments
-            - name: Toerekening van inkoopontvangsten aan projectkosten
-              href: accounts-payable/project-cost-accrual-purchase-receipts.md
-            - name: Projectfacturering
-              href: accounts-payable/project-invoicing.md
-            - name: Projectcontracten
-              href: /dynamics365/project-operations/prod-pma/project-contracts
-            - name: Geavanceerde contracten maken voor facturering op basis van voortgang
-              href: /dynamics365/project-operations/prod-pma/project-create-advanced-contracts-for-billing-based-progress
-            - name: Projectprognoses en -budgetten
-              href: /dynamics365/project-operations/prod-pma/project-forecasts-budgets
-            - name: Prognosemodellen voor projectbudgetten maken
-              href: /dynamics365/project-operations/prod-pma/create-forecast-models-project-budgets
-            - name: Projectbudgetten transporteren aan het einde van het fiscale jaar
-              href: /dynamics365/project-operations/prod-pma/process-project-budgets-for-fiscal-year-end
-            - name: Verkooporders voor een project
-              href: /dynamics365/project-operations/prod-pma/project-sales-orders
-            - name: Inkooporders voor een project
-              href: /dynamics365/project-operations/prod-pma/project-purchase-orders
-            - name: Projectoffertes
-              href: /dynamics365/project-operations/prod-pma/project-quotations
-            - name: 'Een projectofferte bevestigen, bijwerken en verzenden'
-              href: /dynamics365/project-operations/prod-pma/confirm-update-send-project-quotation
-            - name: Een offerte overbrengen naar een project
-              href: /dynamics365/project-operations/prod-pma/transfer-quote-new-existing-project
-            - name: Projectbronnen
-              items:
-                - name: Overzicht van toewijzing van projectresources
-                  href: /dynamics365/project-operations/prod-pma/project-resourcing
-                - name: Projectresources instellen
-                  href: /dynamics365/project-operations/prod-pma/set-up-project-resources
-                - name: Resourcecompetenties beheren
-                  href: /dynamics365/project-operations/prod-pma/manage-resource-competencies
-                - name: Een nieuw project maken
-                  href: /dynamics365/project-operations/prod-pma/create-new-project
-                - name: Op rollen gebaseerde prijzen instellen
-                  href: /dynamics365/project-operations/prod-pma/set-up-role-based-pricing
-                - name: Een projectteam maken
-                  href: /dynamics365/project-operations/prod-pma/create-project-team
-                - name: Resourcecapaciteit synchroniseren
-                  href: /dynamics365/project-operations/prod-pma/synchronize-resource-capacity
-                - name: Prestaties van projectresourceplanning
-                  href: /dynamics365/project-operations/prod-pma/project-scheduling-performance
-                - name: Rollen instellen voor sjablonen voor structuur voor werkspecificatie
-                  href: /dynamics365/project-operations/prod-pma/set-up-roles-wbs-template
-                - name: Resourcevoorziening voor geplande resources
-                  href: /dynamics365/project-operations/prod-pma/resource-fulfillment-planned-resources
-            - name: Artikelen ontvangen op een inkooporder vanuit een artikelbehoefte
-              href: /dynamics365/project-operations/prod-pma/receive-items-purchase-order-item-requirement
-            - name: Structuren voor werkspecificatie
-              items:
-                - name: Overzicht van structuren voor werkspecificatie
-                  href: /dynamics365/project-operations/prod-pma/work-breakdown-structures
-                - name: Microsoft Project Client-integratie
-                  href: /dynamics365/project-operations/prod-pma/project-integration
-                - name: Overzicht van Mobiele Project-toepassingen
-                  href: /dynamics365/project-operations/prod-pma/project-mobile-application-overview
-                - name: Tijdinvoer voor project voor mobiel werkgebied
-                  href: /dynamics365/project-operations/prod-pma/project-time-entry-mobile-workspace
-                - name: Mobiele app voor Project Timesheet
-                  href: /dynamics365/project-operations/prod-pma/project-timesheet
-                - name: Project Timesheets op een mobiel apparaat
-                  href: /dynamics365/project-operations/prod-pma/Mobile-timesheets
-                - name: Aangepaste velden voor de mobiele app Project Timesheet implementeren
-                  href: /dynamics365/project-operations/prod-pma/custom-fields-mobile
-            - name: Projectsubsidies
-              href: /dynamics365/project-operations/prod-pma/project-grants
-            - name: Een projectraming elimineren
-              href: /dynamics365/project-operations/prod-pma/eliminate-project-estimate
         - name: Openbare sector
           items:
             - name: Startpagina van Openbare sector
@@ -1804,6 +1678,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: NF-e-parameters instellen voor een fiscale instelling
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NF-e XML-bestanden als bijlagen verplaatsen
+                      href: localizations/latam-bra-nf-e-move-xml-as-attachment.md
                     - name: NT2020.005 - updates van indeling en validatie in het elektronische belastingdocument (NF-e)
                       href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 - intermediair digitaal verkoopplatform voor NF-e
@@ -2190,6 +2066,8 @@
                       href: localizations/tasks/create-submit-vat-report.md
                 - name: Transacties weergeven bij vereffening
                   href: localizations/emea-transactions-settlement-form.md
+                - name: Financiële reden
+                  href: localizations/emea-financial-reason.md
             - name: Finland
               items:
                 - name: Overzicht Finland
@@ -2750,10 +2628,14 @@
                   href: localizations/emea-ita-exil-zero-invoice-posting.md
                 - name: Verbetering van de bruikbaarheid van bankgegevens
                   href: localizations/emea-ita-exil-bank-accounts-setup.md
-                - name: Italiaanse Intrastat
-                  href: localizations/emea-ita-intrastat.md
-                - name: Ontvangsten en verzendingen voor Intrastat boeken
-                  href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                - name: Intrastat
+                  items:
+                    - name: Italiaanse Intrastat
+                      href: localizations/emea-ita-intrastat.md
+                    - name: Ontvangsten en verzendingen voor Intrastat boeken
+                      href: localizations/emea-ita-post-arrivals-and-dispatches-for-intrastat.md
+                    - name: Intrastat-bestandsindeling (IT)
+                      href: /dynamics/s-e/365business/dynamices365finance_itintrastatfile
                 - name: Diverse toeslagen per kilogram in een intrastat-aangifte
                   href: localizations/emea-ita-exil-misc-charges-intrastat.md
                 - name: Intentieverklaring - gebruikelijke exporteurs factureren
@@ -3110,6 +2992,8 @@
                   href: localizations/emea-pol-returnable-packages.md
                 - name: Btw-aangiften
                   href: localizations/emea-pol-sales-tax-reports.md
+                - name: Poolse Intrastat
+                  href: localizations/emea-pol-intrastat.md
                 - name: Nummerreeksen instellen per magazijn
                   href: localizations/emea-pol-number-sequence-warehouses.md
                 - name: Standaard auditfile
@@ -4375,6 +4259,8 @@
                   href: ../fin-ops-core/dev-itpro/analytics/er-components-inspections.md?toc=/dynamics365/finance/toc.json
                 - name: Relatief pad in gegevensbindingen
                   href: ../fin-ops-core/dev-itpro/analytics/relative-path-data-bindings-er-models-format.md?toc=/dynamics365/finance/toc.json
+                - name: Expressies ontwerpen om methoden voor toepassingsklassen aan te roepen
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/design-expressions-app-class-er.md?toc=/dynamics365/finance/toc.json
             - name: ER-oplossingen gebruiken in Finance
               items:
                 - name: Het raamwerk configureren

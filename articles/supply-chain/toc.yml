@@ -711,13 +711,15 @@
                   href: cost-management/weighted-average-physical-value-marking.md
                 - name: Voorraad sluiten
                   href: cost-management/inventory-close.md
-                - name: Kostenwaarden voor voorhanden voorraad corrigeren
+                - name: Kostenwaarden van beschikbare voorraad aanpassen
                   href: cost-management/adjust-hand-inventory-cost-values.md
-                - name: Rapport opslag van voorraadwaarden
+                - name: Voorraadwaarderapporten
                   href: cost-management/inventory-value-report-storage.md
-                - name: Opslag naar ouderdom gerangschikt voorraadrapport
+                - name: Voorbeelden en logica voorraadwaarderapporten
+                  href: cost-management/inventory-value-report-examples.md
+                - name: Opslag van voorraadverouderingsrapporten
                   href: cost-management/inventory-aging-report-storage.md
-                - name: Voorbeelden en logica voor naar ouderdom gerangschikt voorraadrapport
+                - name: Voorbeelden en logica voorraadverouderingsrapporten
                   href: cost-management/inventory-aging-report.md
             - name: Productieboekhouding
               items:
@@ -837,7 +839,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/model-aggregate-data.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Financiële dimensies toevoegen aan samengevoegde metingen
                   href: ../fin-ops-core/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Analytische rapporten maken met Power BI Desktop
+                - name: Analytische rapporten maken met PowerBI Desktop
                   href: ../fin-ops-core/dev-itpro/analytics/author-distribute-power-bi-reports.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Analyses aan werkgebieden toevoegen met Power BI Embedded
                   href: ../fin-ops-core/dev-itpro/analytics/add-analytics-tab-workspaces.md?toc=/dynamics365/supply-chain/toc.json
@@ -1669,13 +1671,15 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Productieplanning
                   href: master-planning/planning-optimization/production-planning.md
-                - name: Plannen met onbeperkte capaciteit
+                - name: Plannen met oneindige capaciteit
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
-                - name: Plannen met resourceselectie op basis van mogelijkheden
+                - name: Plannen met resourceselectie op basis van capaciteit
                   href: master-planning/planning-optimization/capability-based-scheduling.md
+                - name: Planning op basis van prioriteit
+                  href: master-planning/planning-optimization/priority-based-planning.md
                 - name: Voorraadmarkering met Planningsoptimalisatie
                   href: master-planning/planning-optimization/marking.md
-                - name: Intercompany-planning
+                - name: Intercompany planning
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Producten uitsluiten met bepaalde productlevenscyclusstatussen
                   href: master-planning/planning-optimization/product-lifecycle-state.md
@@ -1717,11 +1721,13 @@
                   href: master-planning/tasks/create-material-plan-co-products.md
                 - name: Geplande orders onderhouden
                   href: master-planning/maintain-planned-orders.md
-                - name: Afhandeling van veiligheidsvoorraad voor artikelen
+                - name: Veiligheidsvoorraadafhandeling voor items
                   href: master-planning/safety-stock-replenishment.md
+                - name: Het journaal van de veiligheidsvoorraad gebruiken om minimale dekking voor items bij te werken
+                  href: master-planning/safety-stock-journal.md
                 - name: Vertragingen
                   href: master-planning/delays.md
-                - name: Een hoofdplanningstaak annuleren
+                - name: Een master planning-taak annuleren
                   href: master-planning/cancel-master-planning-job.md
                 - name: Tracering gebruiken voor explosie
                   href: master-planning/trace-explosion.md
@@ -2347,11 +2353,13 @@
               href: production-control/mixed-mode-plan.md
             - name: Het uitbesteden van werk in de productie beheren
               href: production-control/manage-subcontract-work-production.md
-            - name: Geïntegreerde nummerreeks voor taak-id's
+            - name: Uniforme getallenreeks voor taak-id's
               href: production-control/unified-job-ids.md
             - name: Procesautomatiseringsstromen aanroepen om kwaliteitsorders te maken
               href: production-control/process-automation-quality-orders.md
-            - name: Diverse fabricage
+            - name: Integreren met productie-uitvoeringssystemen van derden
+              href: production-control/mes-integration.md
+            - name: Maakindustrie
               items:
                 - name: Hoofdgegevens productie onderhouden
                   items:
@@ -2645,10 +2653,12 @@
                   href: production-control/production-floor-execution-tabs.md
                 - name: Een apparaat instellen om de uitvoeringsinterface voor de werkvloer uit te voeren
                   href: production-control/production-floor-execution-setup.md
-                - name: Hoe medewerkers de uitvoeringsinterface voor de werkvloer gebruiken
+                - name: Hoe medewerkers de interface voor de uitvoering van de productievloer gebruiken
                   href: production-control/production-floor-execution-use.md
-                - name: De uitvoeringsinterface voor de werkvloer vormgeven
+                - name: De interface voor de uitvoering van de productievloer ontwerpen
                   href: production-control/production-floor-execution-styles.md
+                - name: De interface voor de uitvoering van de productievloer aanpassen
+                  href: production-control/production-floor-execution-customize.md
         - name: Kortingsbeheer
           items:
             - name: Overzicht van module Kortingsbeheer

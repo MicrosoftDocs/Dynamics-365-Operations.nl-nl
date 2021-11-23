@@ -1166,17 +1166,19 @@
                   href: power-platform/enable-virtual-entities.md
                 - name: Power Apps-portals met Finance and Operations
                   href: power-platform/power-portal-reference.md
-                - name: Veelgestelde vragen over virtuele Finance and Operations-entiteiten
+                - name: Veelgestelde vragen over virtuele entiteiten in Finance and Operations
                   href: power-platform/faq.md
             - name: Zakelijke gebeurtenissen
               items:
-                - name: Overzicht van Zakelijke gebeurtenissen
+                - name: Overzicht van zakelijke gebeurtenissen
                   href: business-events/home-page.md
-                - name: Zakelijke gebeurtenissen voor toepassingen
+                - name: Eindpunten van zakelijke gebeurtenissen beheren
+                  href: business-events/managing-business-event-endpoints.md
+                - name: Toepassing zakelijke gebeurtenissen
                   href: business-events/app-business-events.md
-                - name: Zakelijke gebeurtenissen voor werkstromen
+                - name: Werkstroom zakelijke gebeurtenissen
                   href: business-events/business-events-workflow.md
-                - name: Zakelijke gebeurtenissen in batch
+                - name: Batch zakelijke gebeurtenissen
                   href: business-events/system-business-events.md
                 - name: Waarschuwingen als zakelijke gebeurtenissen
                   href: business-events/alerts-business-events.md
@@ -1198,13 +1200,17 @@
                       href: business-events/how-to/how-to-eventgrid.md
                     - name: Zakelijke gebeurtenissen en Azure Service Bus
                       href: business-events/how-to/how-to-servicebus.md
+                    - name: Zakelijke gebeurtenissen en Azure Service Bus-wachtrij
+                      href: business-events/how-to/how-to-servicebus-queue.md
                     - name: Zakelijke gebeurtenissen en werkstroomgoedkeuringen
                       href: business-events/how-to/how-to-workflow.md
                     - name: Zakelijke gebeurtenissen en Microsoft Forms Pro
                       href: business-events/how-to/FormsPro.md
                     - name: Zakelijke gebeurtenissen en Azure Event Hubs
                       href: business-events/how-to/event-hub.md
-                    - name: Zakelijke gebeurtenissen bij afsluiten van financiële periode
+                    - name: Abonneren op gebeurtenissen in Dataverse
+                      href: business-events/how-to/how-to-dataverse-events.md
+                    - name: Zakelijke gebeurtenissen in afsluiting financiële periode
                       href: business-events/how-to/period-close.md
             - name: Invoegtoepassingen
               items:
@@ -1650,15 +1656,13 @@
                   href: migration-upgrade/2012-upgrade-cutover.md
                 - name: Upgrade van AX 2012 - Veelgestelde vragen over gegevensupgrade
                   href: migration-upgrade/upgrade-faq.md
-                - name: Wijzigingen hebben gevolgen voor de upgrade van AX 2012
+                - name: Wijzigingen die van invloed zijn op de upgrade van AX 2012
                   items:
-                    - name: Het scheidingsteken in het rekeningschema uniek maken
+                    - name: Scheidingsteken van rekeningschema uniek maken
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: Journalen met enkel boekstuk en herwaarderingen van valuta's upgraden
-                      href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
-                    - name: Gegevensmodel voor projectresourceplanning
+                    - name: Datamodel voor projectresourceplanning
                       href: migration-upgrade/data-model-changes-resource-management.md
-                    - name: Wijzigingen werkstroomsubsysteem
+                    - name: Wijzigingen in werkstroomsubsysteem
                       href: migration-upgrade/workflow-subsystem.md
                     - name: Samengevoegde modellen gebruikt in plaats van cubes voor analyses
                       href: migration-upgrade/in-memory-real-time-aggregate-models.md

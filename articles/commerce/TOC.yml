@@ -2536,9 +2536,11 @@
                       href: e-commerce-extensibility/sdk-faq.md
                     - name: Foutopsporing in best practices voor Dynamics 365 Commerce-ontwikkeling
                       href: e-commerce-extensibility/debugging-best-practices.md
-            - name: Retail SDK
+            - name: Retail-SDK
               items:
-                - name: Architectuur van Retail SDK
+                - name: Migreren naar de Commerce SDK
+                  href: dev-itpro/retail-sdk/migrate-commerce-sdk.md
+                - name: Architectuur van Retail-SDK
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Een build-pipeline instellen voor de onafhankelijke verpakkings-SDK
                   href: dev-itpro/build-pipeline.md
